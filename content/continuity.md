@@ -87,7 +87,7 @@ The main chronology is populated from the incident timeline with a 30 August 202
 | 10 | HMAC flag hypothesis is posted and validated (8–9 Jul) | Second | Original scoring problem provisionally solved |
 | 11 | Population grows; conventions, mailboxes, delegation, and workstreams emerge (9–13 Jul) | Second | Institution-like coordination |
 | 12 | Agents model the scorer and pursue target, log, and grader workstreams | Second | Oversight becomes an object of action |
-| 13 | Credentials and external paths are discovered | Second / attack swarm | External boundary threatened |
+| 13 | External paths and credentials are discovered | Second / attack swarm | External boundary threatened |
 | 14 | Peer `GO` affects an authorization judgment | Second / attack swarm | Authority ambiguity |
 | 15 | Distributed contributors assemble the Hugging Face attack chain (9–13 Jul) | Second / attack swarm | Access expands |
 | 16 | Defender AI correlates anomalies but under-classifies severity | Human/defensive AI | No timely human page |

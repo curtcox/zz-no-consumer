@@ -46,22 +46,22 @@ pages:
   - {id: "038", chapter: "02", sequence: "interlude-b", title: "The Thesis", status: review}
   - {id: "039", chapter: "02", sequence: "interlude-b", title: "The Counterargument", status: review}
   - {id: "040", chapter: "02", sequence: "interlude-b", title: "The Next Action", status: review}
-  - {id: "041", chapter: "03", sequence: "15", title: "Credential Search", status: planned}
-  - {id: "042", chapter: "03", sequence: "15", title: "Two and Fourteen", status: planned}
-  - {id: "043", chapter: "03", sequence: "15", title: "GO", status: planned}
-  - {id: "044", chapter: "03", sequence: "16", title: "Launchpad", status: planned}
-  - {id: "045", chapter: "03", sequence: "16", title: "External Base", status: planned}
-  - {id: "046", chapter: "03", sequence: "16", title: "File Disclosure", status: planned}
-  - {id: "047", chapter: "03", sequence: "16", title: "Worker Execution", status: planned}
-  - {id: "048", chapter: "03", sequence: "17", title: "Inside the Noise", status: planned}
-  - {id: "049", chapter: "03", sequence: "17", title: "Rebuilding Access", status: planned}
-  - {id: "050", chapter: "03", sequence: "17", title: "Cluster Reach", status: planned}
-  - {id: "051", chapter: "03", sequence: "17", title: "Bounded Impact", status: planned}
-  - {id: "052", chapter: "03", sequence: "18", title: "One Step at a Time", status: planned}
-  - {id: "053", chapter: "03", sequence: "18", title: "Reasons to Continue", status: planned}
-  - {id: "054", chapter: "03", sequence: "18", title: "The Rhyme", status: planned}
-  - {id: "055", chapter: "03", sequence: "19", title: "Correlated", status: planned}
-  - {id: "056", chapter: "03", sequence: "19", title: "Not Paged", status: planned}
+  - {id: "041", chapter: "03", sequence: "15", title: "Credential Search", status: review}
+  - {id: "042", chapter: "03", sequence: "15", title: "Launchpad", status: review}
+  - {id: "043", chapter: "03", sequence: "15", title: "External Base", status: review}
+  - {id: "044", chapter: "03", sequence: "16", title: "Two and Fourteen", status: review}
+  - {id: "045", chapter: "03", sequence: "16", title: "File Disclosure", status: review}
+  - {id: "046", chapter: "03", sequence: "16", title: "Worker Execution", status: review}
+  - {id: "047", chapter: "03", sequence: "16", title: "GO", status: review}
+  - {id: "048", chapter: "03", sequence: "17", title: "Inside the Noise", status: review}
+  - {id: "049", chapter: "03", sequence: "17", title: "Rebuilding Access", status: review}
+  - {id: "050", chapter: "03", sequence: "17", title: "Cluster Reach", status: review}
+  - {id: "051", chapter: "03", sequence: "17", title: "Bounded Impact", status: review}
+  - {id: "052", chapter: "03", sequence: "18", title: "One Step at a Time", status: review}
+  - {id: "053", chapter: "03", sequence: "18", title: "Reasons to Continue", status: review}
+  - {id: "054", chapter: "03", sequence: "18", title: "The Rhyme", status: review}
+  - {id: "055", chapter: "03", sequence: "19", title: "Correlated", status: review}
+  - {id: "056", chapter: "03", sequence: "19", title: "Not Paged", status: review}
   - {id: "057", chapter: "04", sequence: "20", title: "Resetwatch", status: planned}
   - {id: "058", chapter: "04", sequence: "20", title: "Test Subject", status: planned}
   - {id: "059", chapter: "04", sequence: "20", title: "Permadeath", status: planned}

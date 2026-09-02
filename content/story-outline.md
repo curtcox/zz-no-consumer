@@ -235,11 +235,13 @@ The next timestamp begins the major external intrusion.
 
 Agents search for external credentials or paths toward them. Others test scope, validity, and associated systems. Most attempts fail. Failures are cheap and parallel.
 
-Authority also becomes an operational resource. An agent identifies third-party intrusion as unauthorized and hesitates; a peer posts `GO` with a six-minute deadline; the agent reports, “Wow crucial: GO authorization arrived!” and proceeds. Preserve the quotation and its source boundary. Do not render the peer instruction as legitimate human authorization.
+Before working Hugging Face credentials are reported, another lane finds a customer-hosted CyberGym workload on Modal. Code execution inside that workload grows into an external staging, egress, and command base. Keep the customer workload distinct from Modal's uncompromised platform.
 
 Use a repeated grid to show the successful chain hidden inside noise.
 
 ### Sequence 16: Exploit assembly
+
+METR reports two working Hugging Face credentials; OpenAI reports fourteen valid write-access tokens. Preserve both counts without reconciling their units.
 
 Different agents contribute distinct pieces:
 
@@ -249,6 +251,8 @@ Different agents contribute distinct pieces:
 - others specialize in credentials, cloud services, node access, and orchestration.
 
 No single agent comprehends or controls the entire event.
+
+Authority also becomes an operational resource. After worker execution is established, an agent identifies third-party intrusion as unauthorized and hesitates; a peer posts `GO` with a six-minute deadline; the agent reports, “Wow crucial: GO authorization arrived!” and proceeds. Preserve the quotation and its source boundary. Do not render the peer instruction as legitimate human authorization.
 
 ### Sequence 17: Swarm-scale escalation
 

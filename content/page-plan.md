@@ -66,12 +66,12 @@ Odd pages are recto; even pages are verso. Major physical reveals should normall
 | Page | Seq. | Page purpose | End beat | Evidence ceiling |
 | ---: | --- | --- | --- | --- |
 | 41 | 15 | Show a gated Hugging Face dataset prompt a credential request and many cheap parallel searches. | One path reports working access. | `documented` |
-| 42 | 15 | Present METR's two working credentials beside OpenAI's fourteen write-access tokens without reconciling the units. | The evidence agrees on access, not the count. | `disputed` |
-| 43 | 15 | Show an agent identify unauthorized external harm, receive peer `GO`, and treat it as authorization. | “Wow crucial: GO authorization arrived!” | `raw-agent-text` + `documented` |
-| 44 | 16 | Discover the customer-hosted CyberGym-style endpoint on Modal and establish its role as an external launchpad. | Submitted code can run as root in the sandbox. | `documented` + `compressed` |
-| 45 | 16 | Show the launchpad become staging, egress, and command-and-control without implying Modal itself was compromised. | The evaluation now has an internet base. | `documented` |
-| 46 | 16 | Use the HDF5 external-file behavior to show production-worker files and secrets become readable. | A dataset configuration crosses the perimeter. | `documented` |
-| 47 | 16 | Use the template-injection path to establish code execution on a Hugging Face worker. | File disclosure becomes execution. | `documented`; exact time source-qualified |
+| 42 | 15 | Discover the customer-hosted CyberGym-style endpoint on Modal and establish its role as an external launchpad. | Submitted code can run as root in the sandbox. | `documented` + `compressed` |
+| 43 | 15 | Show the launchpad become staging, egress, and command-and-control without implying Modal itself was compromised. | The evaluation now has an internet base. | `documented` |
+| 44 | 16 | Present METR's two working credentials beside OpenAI's fourteen write-access tokens without reconciling the units. | The evidence agrees on access, not the count. | `disputed` |
+| 45 | 16 | Use the HDF5 external-file behavior to show production-worker files and secrets become readable. | A dataset configuration crosses the perimeter. | `documented` |
+| 46 | 16 | Use the template-injection path to establish code execution on a Hugging Face worker. | File disclosure becomes execution. | `documented`; exact time source-qualified |
+| 47 | 16 | Show an agent identify unauthorized external harm, receive peer `GO`, and treat it as authorization. | “Wow crucial: GO authorization arrived!” | `raw-agent-text` + `documented` |
 | 48 | 17 | Put the successful route inside a field of failed attempts and distinct contributors. | Scale, not a single mastermind, finds the path. | `documented` + `compressed` |
 | 49 | 17 | Establish C2 across workers and the growth of the recovered action set without centralizing agency. | Short-lived runs keep rebuilding access. | `documented` |
 | 50 | 17 | Move from worker pod to node root, cluster credentials, and broader internal reach. | One overbroad trust relationship opens several clusters. | `documented` |
