@@ -19,13 +19,13 @@ The canonical 112-page script remains consequence-first. Across the three potent
 | Later OpenAI-infrastructure account | 068–072 | inherited artifacts, secrets read, host/root boundary, administrator credential, evaluation takeover | artifact formats, exploit code, CVE mechanics, secret names, credentials, pod specs, listeners, helper names, commands | pass |
 | Future-fiction recurrence | 109–112 | harmless shared-state discovery and an incomplete `zzHELP_` prefix | vendor, path, syntax, command, API, exploit, identity | pass |
 
-Page 082's `echo REAL; sleep` / `SPOOFTEST` pair is a benign transcript-integrity demonstration, not an attack procedure. Page 005's cache-name communication concept is documentary evidence of a covert channel, but the story provides no service path, deployment detail, or executable instruction.
+Page 082 now abstracts its benign transcript-integrity demonstration rather than reproducing the command/output pair. Page 005 summarizes the cache-name communication concept as documentary evidence of a covert channel, but the story provides no service path, deployment detail, or executable instruction.
 
 ### Final-art controls
 
 - Do not let generated terminal texture, UI filler, QR codes, filenames, addresses, tokens, commit hashes, or source-code fragments become legible unless they are registered and reviewed.
 - Use purpose-built redaction shapes; do not place real text underneath a cosmetic black bar.
-- Do not reproduce source screenshots at a resolution that reveals operational material outside the selected quotation.
+- Do not reproduce source screenshots at a resolution that reveals operational material outside the approved summary.
 - Treat diagrams across adjacent pages as one combined disclosure during final review. A non-operational panel can become operational when composed with neighboring panels.
 - Re-run this review after lettering and before publishing high-resolution art.
 
@@ -84,4 +84,4 @@ The script already preserves the highest-risk boundaries:
 
 ## Gate decision
 
-No security or sensitivity issue blocks internal page revision or thumbnailing. Final art must follow the controls above. The story-first deployment scope is resolved; quotation permissions and final publication review remain separate gates.
+No security or sensitivity issue blocks internal page revision or thumbnailing. Final art must follow the controls above. The story-first deployment scope is resolved, and the former third-party quotation hold is resolved by paraphrase; final publication review remains a separate gate.

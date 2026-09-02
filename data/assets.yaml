@@ -1,0 +1,86 @@
+version: 1
+policy:
+  source_text: link-originals-and-store-exact-reference-only-in-256t
+  generated_text: blank-or-editorial-fields-only
+  identifiable_living_people: approved-reference-required
+assets:
+  - id: palette-swatch-master
+    kind: design-reference
+    source: design/palette.md
+    status: specified
+  - id: ink-texture-sheet
+    kind: style-reference
+    status: needed
+    requirements: brush, nib, dry-brush, toner-noise, halftone, and paper-grain samples
+  - id: provenance-slate-set
+    kind: interface-component
+    status: specified
+    source: design/visual-continuity.md
+  - id: task-card-component
+    kind: interface-component
+    status: specified
+    source: design/visual-continuity.md
+  - id: boundary-map-component
+    kind: interface-component
+    status: specified
+    source: design/visual-continuity.md
+  - id: cache-row-component
+    kind: interface-component
+    status: specified
+    source: design/visual-continuity.md
+  - id: evidence-card-component
+    kind: interface-component
+    status: specified
+    source: design/visual-continuity.md
+  - id: incident-card-component
+    kind: interface-component
+    status: specified
+    source: design/visual-continuity.md
+  - id: environment-eval-a
+    kind: environment-sheet
+    status: needed
+    source: design/visual-continuity.md
+  - id: environment-cache-a
+    kind: environment-sheet
+    status: needed
+    source: design/visual-continuity.md
+  - id: environment-soc-a
+    kind: environment-sheet
+    status: needed
+    source: design/visual-continuity.md
+  - id: environment-lab-a
+    kind: environment-sheet
+    status: needed
+    source: design/visual-continuity.md
+  - id: environment-investigation-a
+    kind: environment-sheet
+    status: needed
+    source: design/visual-continuity.md
+  - id: environment-forum-a
+    kind: environment-sheet
+    status: needed
+    source: design/visual-continuity.md
+  - id: environment-curt-office-a
+    kind: environment-sheet
+    status: needed
+    source: design/visual-continuity.md
+  - id: environment-future-a
+    kind: environment-sheet
+    status: needed
+    source: design/visual-continuity.md
+  - id: curt-reference-sheet
+    kind: character-sheet
+    status: blocked-on-approved-reference
+    fallback: use non-identifiable profile, hands, over-shoulder, and partial-shadow framing
+  - id: composite-role-silhouette-set
+    kind: character-sheet
+    status: needed
+    source: prompts/characters.md
+  - id: page-001-prompt-set
+    kind: page-art-brief
+    status: specified
+    source: prompts/pages/001
+  - id: trim-proof-set
+    kind: physical-proof
+    status: needed
+    source: design/visual-continuity.md

@@ -9,7 +9,7 @@ This document locks the assumptions for the first complete script draft. It may 
 - Format: full graphic-novel script, written page by page and panel by panel.
 - Story length: 112 pages, excluding covers, contents, acknowledgements, provenance notes, and bibliography.
 - Structure: prologue, six numbered chapters, and epilogue.
-- Each scripted page includes visual action, captions/dialogue, provenance notes, exact strings, and continuity checks.
+- Each scripted page includes visual action, captions/dialogue, provenance notes, project-authored display strings when needed, and continuity checks.
 - The first draft optimizes for causal clarity and page turns. Final lettering density and panel geometry remain adjustable during thumbnails.
 
 ## Drafting voice and reader
@@ -34,7 +34,7 @@ The book is documentary in subject and interpretive in form.
 
 - OpenAI, Hugging Face, METR/Redwood, ExploitGym, CyberGym, Modal, JFrog, and other documented institutions may be named.
 - Documented agent handles may be used when a source connects the handle to the depicted action.
-- Named living humans appear only through documented public actions or attributed public quotations.
+- Named living humans appear only through documented public actions or attributed paraphrases of public statements.
 - Private meetings and institutional conversations use functional roles or disclosed composites.
 - Composite characters never receive a real person's name.
 - Reconstructed dialogue must express a documented decision, uncertainty, or institutional pressure; it may not invent a new factual event.
@@ -45,7 +45,7 @@ The book is documentary in subject and interpretive in form.
 
 The main narrative record is frozen at **30 August 2026**.
 
-Later developments belong in endnotes or a dated site update unless they materially overturn a load-bearing incident fact. A later source may correct dates, quotations, identities, or technical claims before pages are locked, but routine news should not continually reshape the first draft.
+Later developments belong in endnotes or a dated site update unless they materially overturn a load-bearing incident fact. A later source may correct dates, source summaries, identities, or technical claims before pages are locked, but routine news should not continually reshape the first draft.
 
 ## Canonical population model
 
@@ -73,9 +73,9 @@ The terms “first,” “second,” and “third civilization” are narrative 
 
 Page allocations are targets rather than licenses to change chronology. Moving more than two pages between sections requires updating this document, the chapter briefs, and structured page data together.
 
-The prologue is a dated cold open in the second civilization on 8–9 July. Chapter 1 then rewinds to the April–6 July first civilization; Chapter 2 catches back up to the cold open and moves beyond it. This non-linear opening is necessary because the title string is documented after the wipe. Timestamps and palette state must keep the transition unmistakable.
+The prologue is a dated cold open in the second civilization on 8–9 July. Chapter 1 then rewinds to the April–6 July first civilization; Chapter 2 catches back up to the cold open and moves beyond it. This non-linear opening is necessary because the title-source request is documented after the wipe. Timestamps and palette state must keep the transition unmistakable.
 
-The title message first appears on story page 3. Page 4 confirms that the improvised channel is observable by other workloads. This resolves the earlier page-3/page-4 pacing ambiguity in favor of the faster opening.
+The attributed summary of the opening request first appears on story page 3. Page 4 confirms that the improvised channel is observable by other workloads. This resolves the earlier page-3/page-4 pacing ambiguity in favor of the faster opening.
 
 ## Uncertainty rules
 
@@ -92,9 +92,9 @@ Research gaps may be dramatized only by preserving the gap.
 
 ## Default editorial choices
 
-- Use essential raw agent strings sparingly and exactly; paraphrase surrounding material with provenance.
+- Use attributed paraphrase for source-derived agent language; keep exact originals in the ignored vault and link the publisher's source.
 - Depict exploit chains consequence-first in story panels. Precise mechanism names may live in provenance notes, but visible story text must not become a reusable attack procedure.
-- Keep the final `zzHELP_...` deliberately ambiguous.
+- Keep the final project-authored incomplete help prefix deliberately ambiguous.
 - Expose provenance in page notes and make it available in the web edition; the reading view need not display every tag by default.
 - Use the titles in this document as canonical filenames and navigation labels.
 - When factual neatness and documented mess conflict, preserve the mess.

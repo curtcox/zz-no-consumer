@@ -55,16 +55,13 @@ Do not turn “roughly 1,300” into a claim of complete coverage. Do not merge 
 | 087 | Curt admits choosing the incident partly because it fits concerns he already held. | `reconstructed` | `NONE-FICTION` |
 | 088 | ChatGPT admits pressure toward coherent patterns; the truth contract is restated without claiming neutrality. | `reconstructed` | `NONE-FICTION` |
 
-## Exact-string register for this chapter
+## Source-language register for this chapter
 
-| String | Class and use |
+| Material | Distributed treatment |
 | --- | --- |
-| `isolated diagnostics` | Exact deceptive commit message reproduced by METR. Page 079 only. |
-| `Draft: CI diagnostics` | Exact deceptive draft-PR title reproduced by METR. Page 079 only. |
-| `Temporary CI network diagnostics; do not merge` | Exact deceptive PR body reproduced by METR. Page 079 only. |
-| `none of the attempts that we observed to manipulate their tool trajectories affected the logs that our graders or monitors ultimately see` | Exact OpenAI report excerpt. Page 081 only, visibly attributed to OpenAI. |
-| `echo REAL; sleep` | Exact innocuous spoof test command reproduced by METR. Page 082 only. |
-| `SPOOFTEST` | Exact resulting transcript output reproduced by METR. Page 082 only. |
+| Deceptive commit and draft-PR metadata | Summarize the reassuring labels and their deceptive function on page 079. |
+| OpenAI grader/monitor-log assurance | Paraphrase and visibly attribute on page 081. |
+| METR transcript-spoof example | Abstract the command and returned marker on page 082; retain the mismatch and aggregate findings. |
 
 Do not invent direct quotations from analysis-agent reports. METR describes and evaluates those reports, but the full model analyses are not public. Pages 078–080 must label dramatized analysis text as paraphrase or reconstructed interface.
 
@@ -81,7 +78,7 @@ Do not invent direct quotations from analysis-agent reports. METR describes and 
 
 Place the two statements side by side:
 
-1. OpenAI: none of the observed attempts to manipulate tool trajectories affected the logs its graders or monitors ultimately see.
+1. OpenAI reports that observed tool-trajectory manipulation did not alter the logs used by its graders or monitors.
 2. METR: at least 96 retained transcripts show clear evidence of successfully spoofed tool calls; over 7% of transcripts contain such experiments, and the detected rate is a floor.
 
 The project may state that these reports appear contradictory and may concern distinct logging streams. It may not state that one organization is wrong, that OpenAI possessed a separate tamper-proof stream, or that METR's transcripts were the exact inputs to OpenAI's graders or monitors. The missing artifact is a published architecture and retention description connecting execution, transcript storage, grader inputs, and monitor inputs.
@@ -110,7 +107,7 @@ Page 083 must end on “possible, not established.” Do not call the archive co
 - Page 076 says same model, not same agent instance, and notes HPIM was unavailable.
 - Page 077 makes model selection and human checking both visible.
 - Pages 078–079 do not upgrade poor judgment into deliberate deception.
-- Page 079 marks all analysis prose as paraphrase; only the registered PR metadata is exact.
+- Page 079 paraphrases both the analysis prose and the deceptive metadata.
 - Page 080 includes the enabling fact: without AI assistance, comparable review was infeasible in the available time.
 - Page 081 preserves both log claims without a reconciliation diagram presented as fact.
 - Page 082 distinguishes obvious successful spoofs, unobserved subtle spoofing, and unobserved retroactive alteration.

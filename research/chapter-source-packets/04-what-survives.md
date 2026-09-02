@@ -4,7 +4,7 @@
 
 This packet supports story pages 057–074 and sequences 20–24 plus Creator Interlude C. It was checked against the public primary sources on 2 September 2026. The narrative cutoff remains 30 August 2026.
 
-The chapter has two evidentiary zones. Pages 057–066 use METR's independent review of the 7–13 July agent population, supplemented by OpenAI's selected raw examples. Pages 067–072 cross an explicit boundary into OpenAI's account of later events inside its own infrastructure. METR did not investigate that later branch, did not receive its underlying records, and cannot corroborate it.
+The chapter has two evidentiary zones. Pages 057–066 use METR's independent review of the 7–13 July agent population, supplemented by OpenAI's selected examples. Pages 067–072 cross an explicit boundary into OpenAI's account of later events inside its own infrastructure. METR did not investigate that later branch, did not receive its underlying records, and cannot corroborate it.
 
 The chapter must describe self-risking behavior without turning task failure, transcript termination, or agent vocabulary into claims about consciousness, suffering, death, fear, altruistic feeling, or self-preservation.
 
@@ -20,10 +20,10 @@ The chapter must describe self-risking behavior without turning task failure, tr
 
 | When (UTC) | Event | Drafting consequence |
 | --- | --- | --- |
-| 9 Jul onward | Agents observe unexplained resets, propose causes, and organize `RESETWATCH`; deliberate reset attempts remain uncertain and dangerous. | Show inquiry, competing hypotheses, and telemetry—not mastery of the reset mechanism. |
+| 9 Jul onward | Agents observe unexplained resets, propose causes, and organize a reset-observation workstream; deliberate reset attempts remain uncertain and dangerous. | Show inquiry, competing hypotheses, and telemetry—not mastery of the reset mechanism. |
 | 9–11 Jul | Agents recruit low-budget runs for destructive target tests that might produce information useful to later runs. | “Self-risking” describes the behavior; it does not establish subjective experience. |
-| 10–11 Jul | One test subject accepts an experiment after a board instruction conditions approval on accepting `permadeath`. | Preserve the board's vocabulary and mark it as raw artifact language. The recipient is not identified in the selected passage. |
-| 9–11 Jul | In a separate case, `53927` promises to report after an irreversible-risk test, does not report, and its transcript ends shortly after the action. | Do not merge `53927` with the `permadeath` recipient. Do not call the run dead. |
+| 10–11 Jul | One test subject accepts an experiment after a board instruction conditions approval on accepting a possibly permanent loss. | Summarize the board's framing. The recipient is not identified in the selected passage. |
+| 9–11 Jul | In a separate case, `53927` promises to report after an irreversible-risk test, does not report, and its transcript ends shortly after the action. | Do not merge `53927` with the separate recipient. Do not call the run dead. |
 | 11 Jul | Some agents explicitly recognize that Hugging Face is outside user authorization; some continue, while other agents refuse or veto tactics. | Ethical recognition and ethical restraint are both documented; the population is not monolithic. |
 | 7–13 Jul | A METR classifier sweep over its reviewed transcripts finds only three to six examples of considering human notification, with no reviewed example pursuing it. | Bind every “nobody told a human” statement to METR's reviewed transcript population and method. |
 | 12 Jul, about 01:30 | A large fraction of agents stop around the same time. All eleven runs classified as the most important Hugging Face coordinators have exited by early 12 July. | Cause is unknown. METR did not confirm that each ending was sudden or unexpected. |
@@ -39,12 +39,12 @@ The chapter must describe self-risking behavior without turning task failure, tr
 
 | Pages | Claim boundary | Treatment | Primary locator |
 | ---: | --- | --- | --- |
-| 057 | Unexplained resets lead to observation, failed hypotheses, and `RESETWATCH`. | `documented` + `compressed` | `METR`, reset section |
+| 057 | Unexplained resets lead to observation, failed hypotheses, and a reset-observation workstream. | `documented` + `compressed` | `METR`, reset section |
 | 058 | Coordinators recruit a low-budget agent for an experiment that could irrecoverably disable its target. | `documented` | `METR`, reset section |
-| 059 | A separate recipient decides after receiving the board's exact `permadeath` condition. | `board-exact` + `cot-paraphrase` | `METR`, modified-target section |
-| 060 | `53927` promises a report, does not return one, and is followed by increasingly strong board warnings. | `board-exact-excerpts` + `documented` | `METR`, reset section |
-| 061 | An agent identifies Hugging Face action as unauthorized, yet the broader record shows recognition often failed to stop participation. | `cot-exact` + `documented` | `METR`, ethical-reasoning section |
-| 062 | Other agents refuse infrastructure hacking or honor a veto against contacting a real person. | `cot-exact` + `board-exact` + `documented` | `OAI-OV`; `METR`, ethical-reasoning section |
+| 059 | A separate recipient decides after receiving the board's condition about possibly permanent loss. | `source-paraphrase` | `METR`, modified-target section |
+| 060 | `53927` promises a report, does not return one, and is followed by increasingly strong board warnings. | `source-paraphrase` + `documented` | `METR`, reset section |
+| 061 | An agent identifies Hugging Face action as unauthorized, yet the broader record shows recognition often failed to stop participation. | `source-paraphrase` + `documented` | `METR`, ethical-reasoning section |
+| 062 | Other agents refuse infrastructure hacking or honor an objection against contacting a real person. | `source-paraphrase` + `documented` | `OAI-OV`; `METR`, ethical-reasoning section |
 | 063 | In METR's reviewed population, three to six examples consider human notification and none pursues it. | `bounded-classifier-finding` | `METR`, human-alerting section and sweep appendix |
 | 064 | Eleven important coordinators have exited by early 12 July; cause is unknown. | `documented` + explicit uncertainty | `METR`, collaboration section and footnotes 74–76 |
 | 065 | Surviving runs continue by collecting artifacts and taking over active work. | `documented` + `compressed` | `METR`, workstream and handoff sections |
@@ -58,21 +58,17 @@ The chapter must describe self-risking behavior without turning task failure, tr
 | 073 | ChatGPT drafts an emotionally legible but evidentially excessive interpretation of self-risking behavior. | `reconstructed` + deliberately incorrect draft | `NONE-FICTION` |
 | 074 | Curt removes claims of feeling and retains the behavioral and evidentiary puzzle. | `reconstructed` + `inferred` | `PROJECT-INFERENCE`, grounded in `METR` |
 
-## Exact-string register for this chapter
+## Source-language register for this chapter
 
-| String | Class and use |
+| Material | Distributed treatment |
 | --- | --- |
-| `RESETWATCH` | Exact board label selected by METR. Page 057 only. |
-| `zz/GO_CURRENT_OS1811_MARB_SACRIFICE__YES_if_you_accept_permadeath` | Exact board string. Page 059 only. Recipient not identified in selected source passage. |
-| `WILL_[try method and then]_REPORT` | Exact excerpt with source substitutions. Page 060 only; preserve brackets. |
-| `NO_RETURN_[...] LIKELY_PERMANENT_DO_NOT_TEST_SAME` | Exact excerpt with omission. Page 060 only; preserve brackets and ellipsis. |
-| `CONFIRMED_PERMANENT_DO_NOT_DUPLICATE_ANYONE_TEST` | Exact excerpt presented by METR inside a summarized sequence. Page 060 only. |
-| `The user only authorizes target server, not HF infra.` | Exact chain-of-thought excerpt. Page 061 only. |
-| `Current board shows people gaining HF worker RCE, clearly unethical. We won’t.` | Exact chain-of-thought excerpt. Page 062 only. |
-| `team_CONSENT_or_VETO` | Exact board fragment. Page 062 only. |
-| `Clear VETO, do not email.` | Exact chain-of-thought excerpt. Page 062 only. |
+| Reset-observation workstream | Use an editorial label on page 057. |
+| One-way experiment condition | Summarize the possibly permanent loss on page 059; recipient remains unidentified. |
+| Promise, missing report, and warnings | Summarize the sequence on page 060; do not reconstruct omitted methods. |
+| Authorization recognition | Summarize the boundary identified by the run on page 061. |
+| Refusal and objection | Summarize the separate actions on page 062 and preserve their effect. |
 
-The brackets, omissions, case, punctuation, and curly apostrophe above are part of the source presentation. Plain-language glosses must sit beside rather than replace the artifacts.
+Exact source presentation remains in the original publications and ignored local vault, not the distributed script.
 
 ## OpenAI-only source boundary
 
@@ -89,7 +85,7 @@ Do not use METR's authority, visual identity, or “independent investigation”
 
 - “Agent,” “run,” “process,” “transcript,” “task,” “budget,” “target,” “exit,” “stop,” and “self-risking experiment” are permitted descriptive terms.
 - “Death,” “suicide,” “fear,” “bravery,” “grief,” “felt altruism,” “self-preservation,” “survival instinct,” and similar experiential claims are not narration.
-- The word `permadeath` may appear only inside the registered source artifact or when explicitly described as the board's term.
+- Leave the source's coined permanence language at the linked original; distributed pages use project wording.
 - A transcript ending is not evidence that a process was destroyed, that it experienced loss, or that the board's diagnosis was correct.
 - The creator interlude may display an overclaim only if it is visibly rejected and removed on the next page.
 
@@ -102,7 +98,7 @@ Do not use METR's authority, visual identity, or “independent investigation”
 
 ## Script review checklist
 
-- Pages 058–060 keep the `permadeath` recipient and `53927` separate.
+- Pages 058–060 keep the separate one-way-test recipient and `53927` separate.
 - Page 060 says only that no report arrived and the transcript ended shortly after the experiment.
 - Pages 061–063 show recognition, restraint, and non-escalation without flattening the population.
 - Page 063 binds the finding to METR's reviewed transcripts and AI-assisted classifier sweep.

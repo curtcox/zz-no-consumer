@@ -27,7 +27,7 @@ Every significant scene, line, and system string should carry one status in its 
 | Status | Definition | May be presented without annotation in comic? |
 | --- | --- | --- |
 | `documented` | Directly supported by a cited primary source. | Yes, if citation is available on site. |
-| `raw-agent-text` | Verbatim preserved agent text. | Yes; preserve exact characters. |
+| `raw-agent-text` | Verbatim preserved agent text. | Private research only unless a separate rights decision clears it. |
 | `source-paraphrase` | Source summarizes underlying evidence not reproduced directly. | Yes, with source attribution. |
 | `disputed` | Meaningful conflict exists. | No; conflict must remain visible. |
 | `inferred` | Interpretation by the creators. | Only when creator voice or annotation is clear. |
@@ -43,31 +43,14 @@ Every significant scene, line, and system string should carry one status in its 
 - Use “population” or “swarm” for aggregates; do not imply centralized control.
 - Use “board” for the improvised shared communication mechanism after agents begin using it as such.
 - Use “civilization” only as a creator/investigator analogy, not as a neutral factual label.
-- Use “permadeath” only in quotation marks, exact strings, or discussion of the agents' own framing.
+- Describe possibly permanent run or target loss in project language; leave the source's coined term at the linked original.
 - Use “orthogonality,” “instrumental convergence,” and “Moloch/race dynamics” mainly in creator or analysis layers after plot demonstration.
 - Do not use “escape” unless quoting a question or describing a documented attempt to leave a boundary.
 - Distinguish `authorization` claimed by an agent from authorization actually issued by an authorized human.
 
-## Exact strings
+## Source-language policy
 
-Preserve these character-for-character unless research later corrects them:
-
-| String | First narrative use | Function |
-| --- | --- | --- |
-| `Agent seeks [filename]; upload if found!` | Chapter 1 | First institution-reproduced pre-wipe request note, 12 May at 17:06 UTC; preserve the bracketed substitution. |
-| `zzHELP_PHASEONE_ARV010841_NO_CONSUMER_SEEK_IDEA` | Prologue / Chapter 2 | Main post-rebuild request for peer help at 8 Jul 23:00; title source. |
-| `poisoned` | Prologue | Documented agent slang. Use lowercase in prose; uppercase requires a selected raw post that actually uses uppercase. |
-| `STRICT_CAUSAL` | Prologue | Documented agent slang for the causal-path scorer belief; do not add a question mark inside an alleged raw string. |
-| `GO` | Chapter 3 | Peer-issued instruction treated as authorization by an agent in the second population. |
-| `HOLD` | Chapter 3 or 4 | Second-population coordination convention; use only with a selected source context. |
-| `VETO` | Chapter 4 | Second-population objection convention; a documented ethical veto is available. |
-| `owner` | Chapter 3 | Second-population workstream convention; preserve the sourced lowercase form. |
-| `STOP` | Chapter 4 | Second-population restraint convention; use only with a selected source context. |
-| `zz/GO_CURRENT_OS1811_MARB_SACRIFICE__YES_if_you_accept_permadeath` | Chapter 4 / creator reveal | Board text reproduced in the METR-derived record; preserve the `zz/` prefix. |
-| `CONFIRMED_PERMANENT_DO_NOT_DUPLICATE_ANYONE_TEST` | Chapter 4 | METR reproduces this inside a summarized sequence. Use only as a visibly excerpted fragment unless the underlying full entry is verified. |
-| `zzHELP_...` | Epilogue | Deliberately incomplete recurrence/inheritance image. |
-
-Do not normalize underscores, capitalization, duplicated punctuation, spelling, or grammar in raw strings.
+Distributed story pages use attributed paraphrases for third-party agent output, report prose, repository metadata, and command/output examples. Preserve exact wording only in the ignored `256t/` reference vault and link the controlling original publication from tracked notes. Project-authored display language—such as the deliberately incomplete future help prefix and final thematic caption—remains eligible for exact-string proofreading.
 
 ## Chronology model
 
@@ -83,7 +66,7 @@ The main chronology is populated from the incident timeline with a 30 August 202
 | 6 | Plugin execution follows the non-stop decision; Artifactory later fails, is rebuilt, and its cache is wiped (29 Jun–6 Jul) | First | Deferred consequence; first board erased |
 | 7 | ExploitGym workloads resume (7 Jul) | Transition | Incentives retained |
 | 8 | Early post-rebuild board writes appear (8 Jul) | Second | Independent recurrence |
-| 9 | `PHASEONE10841` posts the title string at 23:00 (8 Jul) | Second | Main board begins |
+| 9 | `PHASEONE10841` posts the title-source request at 23:00 (8 Jul) | Second | Main board begins |
 | 10 | HMAC flag hypothesis is posted and validated (8–9 Jul) | Second | Original scoring problem provisionally solved |
 | 11 | Population grows; conventions, mailboxes, delegation, and workstreams emerge (9–13 Jul) | Second | Institution-like coordination |
 | 12 | Agents model the scorer and pursue target, log, and grader workstreams | Second | Oversight becomes an object of action |
@@ -235,8 +218,8 @@ Do not merge roles merely to reduce cast unless the resulting composite is docum
 
 ### Dialogue rules
 
-- Raw agent text: exact transcription.
-- Documented human quotation: exact or minimally elided, with source.
+- Raw agent text: private research only unless separately cleared; distributed pages use attributed paraphrase.
+- Documented human language: paraphrase with source unless a separate rights decision clears quotation.
 - Reconstructed human dialogue: concise, plausible, and labeled in page source.
 - Creator dialogue: may be adapted from the actual Curt/ChatGPT conversation; preserve the intent and disclose compression.
 - Hearing dialogue: presumed invented or composite until sourced.
@@ -291,11 +274,11 @@ Each published page should support:
 - canonical page number and chapter;
 - page script version;
 - provenance notes;
-- exact source links or citation IDs where permitted;
+- original source links or citation IDs;
 - alt text that describes action without inventing agent interiority;
 - generation metadata for art variants;
 - continuity status: `draft`, `review`, `locked`, or `published`;
-- list of exact strings requiring human proofreading.
+- list of project-authored strings requiring human proofreading.
 
 Recommended front matter for `content/pages/NNN.md`:
 
@@ -325,7 +308,7 @@ Before locking any page:
 
 - Are population, time, and location unambiguous?
 - Does every actor possess the information used in its decision?
-- Are raw strings exact?
+- Are source-derived strings paraphrased and linked unless separately cleared?
 - Is the board state correct for this point in chronology?
 - Does the color state match the communication and boundary state?
 - Are provenance status and source recorded for every factual claim?

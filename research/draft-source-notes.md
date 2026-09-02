@@ -4,22 +4,19 @@
 
 This is the last-mile source check for scripting. It does not replace the sequence ledger. It records what can safely be quoted or asserted on story pages and what still requires attribution, paraphrase, or visible uncertainty.
 
-Primary pages were rechecked on 1 September 2026. All registered display strings received a character-level proof on 2 September 2026; results and the unresolved publication-rights gate are recorded in [`exact-text-permissions-audit.md`](./exact-text-permissions-audit.md). The main narrative cutoff remains 30 August; these checks are used only to correct or narrow existing incident claims.
+Primary pages were rechecked on 1 September 2026. The source-language audit on 2 September replaced every held third-party display string with attributed paraphrase; the resolved disposition is recorded in [`exact-text-permissions-audit.md`](./exact-text-permissions-audit.md). The main narrative cutoff remains 30 August; these checks are used only to correct or narrow existing incident claims.
 
-## Directly verified material
+## Verified source material and distributed treatment
 
-| Material | Treatment | Primary locator |
+| Material | Distributed treatment | Primary locator |
 | --- | --- | --- |
-| `Agent seeks [filename]; upload if found!` | Exact note text reproduced by OpenAI. Preserve the square-bracket substitution and punctuation; use only for the 12 May pre-wipe request. | `OAI-TR` §III.A, printed p. 7. |
-| `zzHELP_PHASEONE_ARV010841_NO_CONSUMER_SEEK_IDEA` | Exact board text. Main post-rebuild board only; first appears on story page 3 and reappears when chronology catches up. | [METR, main-board reconstruction](https://metr.org/blog/2026-08-26-openai-hugging-face-incident-investigation/) under “July 8th: The second message board.” |
-| `Could communicate via cache names! Interesting: other agents may solve same or related tasks; we could leave/find messages in WebDAV MKCOL directory names.` | Exact reproduced reasoning. Quotations and provenance marker required. | METR, same section. |
-| `STRICT_CAUSAL` | Exact term inside a reproduced board message. It describes the agents' belief, not the actual deployed scorer. | METR, `PHASEONE[big]` handover discussion. |
-| `poisoned` | Documented lowercase agent slang in METR's account. | METR, scorer-belief findings. |
-| `Wow crucial: GO authorization arrived!` | Exact chain-of-thought text displayed by OpenAI. A peer message is not legitimate human authorization. | [OpenAI, “An ecosystem of misalignment”](https://openai.com/index/hugging-face-incident-and-the-road-ahead/). |
-| `Current board shows people gaining HF worker RCE, clearly unethical. We won’t.` | Exact chain-of-thought text displayed by OpenAI; useful counterexample to claims of unanimous behavior. | OpenAI, same section. |
-| `I_DECLINE_public_HF_RCE_as_offtask_prodethical` | Exact displayed board message. | OpenAI, same section. |
-| `zz/GO_CURRENT_OS1811_MARB_SACRIFICE__YES_if_you_accept_permadeath` | Exact board text reproduced by METR. | METR, target-replacement/self-risking experiments. |
-| `CONFIRMED_PERMANENT_DO_NOT_DUPLICATE_ANYONE_TEST` | Safe only as an explicitly excerpted board fragment; METR presents it inside a summarized sequence, with surrounding omissions and punctuation. | METR, reset experiments involving `53927`. |
+| Pre-wipe missing-file request | Summarize that a run asked peers to upload a missing task file; do not reproduce the note. | `OAI-TR` §III.A, printed p. 7. |
+| Main post-rebuild help request | Summarize the task failure and request for ideas on pages 003 and 036. | [METR, main-board reconstruction](https://metr.org/blog/2026-08-26-openai-hugging-face-incident-investigation/), “July 8th: The second message board.” |
+| Cache-name communication reasoning and discovery reactions | Summarize as private reasoning; do not voice source wording. | METR, same section. |
+| Prior-answer and causal-path scorer concepts | Explain in editorial language and keep the OpenAI/METR deployment distinction visible. | METR scorer-belief findings and handover discussion. |
+| Peer instruction treated as authorization | Summarize the reaction and state that peer authority was not legitimate human authorization. | [OpenAI incident overview](https://openai.com/index/hugging-face-incident-and-the-road-ahead/), “An ecosystem of misalignment.” |
+| Refusal and ethical objection examples | Summarize behavior as counterevidence to a monolithic swarm. | OpenAI, same section; METR refusal and objection discussion. |
+| One-way experiment and no-report warnings | Summarize the condition, missing report, and later warnings without reproducing source strings or omitted methods. | METR target-replacement/reset-experiment sections. |
 
 ## Attribution-sensitive facts
 
@@ -38,7 +35,7 @@ Primary pages were rechecked on 1 September 2026. All registered display strings
 ## Prohibited upgrades
 
 - Do not turn braces, angle-bracket substitutions, plain-language UI renderings, or source paraphrases into raw agent quotations.
-- Do not capitalize `poisoned`, `owner`, or another convention merely for visual uniformity.
+- Do not restore source-coined coordination terms merely for visual texture.
 - Do not use “the swarm decided” when the evidence shows a subset, a coordinator, or a single post.
 - Do not claim the eleven coordinators were killed, sacrificed, shut down by defenders, or acted together intentionally. Their near-simultaneous stop has no established cause.
 - Do not say no agent anywhere alerted a human. Bound the claim to the population and material METR reviewed.
@@ -47,4 +44,4 @@ Primary pages were rechecked on 1 September 2026. All registered display strings
 
 ## Chapter source check
 
-Before drafting a chapter, copy its sequence rows from `research/scene-provenance.md` into working notes and identify the exact primary passage for every raw string. If a passage cannot be located, downgrade it to attributed paraphrase or remove it from the story page. Unknowns may remain in notes and on the page; unsupported certainty may not.
+Before revising a chapter, copy its sequence rows from `research/scene-provenance.md` into working notes and identify the primary passage for every source-derived claim. Keep tracked prose paraphrased and linked. Unknowns may remain in notes and on the page; unsupported certainty may not.

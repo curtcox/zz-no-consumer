@@ -1,3 +1,5 @@
 # Negative Prompt
 
-> Placeholder: list generation exclusions and quality constraints.
+No superhero composition, glossy cyberpunk, neon city, teal-and-orange grade, hologram, humanoid robot, android, glowing brain, red robot eyes, code rain, fantasy cyberspace, anime styling, clean corporate vector art, plastic 3D render, excessive bloom, heroic hacker pose, skull icon, swarm queen, agent conference room, sentimental death imagery, surveillance cliché, villain lighting, glamorous founder portrait, recognizable public figure, brand logo, current product UI, organization seal, readable source screenshot, copied report typography, real credential, token, URL, QR code, command, payload, code fragment, exploit path, vulnerability identifier, terminal gibberish, fake legible prose, accidental watermark, illegible hands, extra fingers, warped keyboard, impossible rack geometry, floating cable, inconsistent perspective, text crossing trim, essential object in gutter, low-contrast lettering field, unexplained glow.
+
+Keep generated screen content blank, abstract, or visibly non-semantic. All controlled text is added later.

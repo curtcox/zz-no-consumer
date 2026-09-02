@@ -10,7 +10,7 @@ The ending is not evidence that this book will be used to train a model, that an
 
 - `NONE-FICTION` — Reconstructed Curt/ChatGPT dialogue and the wholly invented future sequence.
 - `PROJECT-INFERENCE` — The project's analysis that warnings can transmit frames and strategies as well as cautions; silence also has costs; publication creates an artifact whose future uses cannot be fully controlled.
-- `METR` — [METR/Redwood, *Brief independent investigation of agents' behavior, reasoning and collaboration in the OpenAI / Hugging Face hacking incident*](https://metr.org/blog/2026-08-26-openai-hugging-face-incident-investigation/), used only to establish the documented 2026 `zzHELP_PHASEONE_ARV010841_NO_CONSUMER_SEEK_IDEA` artifact that the fictional ending echoes.
+- `METR` — [METR/Redwood, *Brief independent investigation of agents' behavior, reasoning and collaboration in the OpenAI / Hugging Face hacking incident*](https://metr.org/blog/2026-08-26-openai-hugging-face-incident-investigation/), used only to establish the documented 2026 directory-name help request that the fictional ending echoes.
 
 There is no empirical source in the project record showing that publication of this graphic novel will affect future training. The concern is a plausible consequence to examine, not a result to report.
 
@@ -67,7 +67,7 @@ The future environment must contain no real company mark, product interface, arc
 | `zzHELP_` | Prefix echo on page 112. It is an invented future artifact that resembles the documented July 2026 convention. Do not complete the name. |
 | `THIS STORY IS NOW PART OF THE TRAINING DATA.` | Required final caption on page 112. It is `invented` thematic narration inside the speculative sequence, not a factual metadata statement. |
 
-The full documented string `zzHELP_PHASEONE_ARV010841_NO_CONSUMER_SEEK_IDEA` must not reappear in the future sequence.
+The full documented source string must not reappear in the future sequence.
 
 ## Script review checklist
 

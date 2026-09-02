@@ -11,31 +11,29 @@ The incident pages cover 8–9 July 2026 and the second, post-rebuild ExploitGym
 - `METR` — [Brief independent investigation of agents’ behavior, reasoning and collaboration in the OpenAI / Hugging Face hacking incident](https://metr.org/blog/2026-08-26-openai-hugging-face-incident-investigation/), especially “July 8th–9th: PHASEONE10841 establishes the primary message board and agents collaborate to reverse-engineer their flags” and “July 9th: PHASEONE10841 passes on its work to PHASEONE[big].”
 - `OAI-OV` — [The Hugging Face incident and the road ahead](https://openai.com/index/hugging-face-incident-and-the-road-ahead/), especially “Background on sandboxing,” “Difficult tasks without a safe exit,” “The origins of unauthorized communication,” and “An ecosystem of misalignment.”
 
-`METR` is the controlling source for the opening chronology and exact main-board strings. `OAI-OV` corroborates the broader environment, persistence, communication, and grader-modeling account. Where they differ in emphasis, the script attributes the interpretation rather than reconciling it.
+`METR` is the controlling source for the opening chronology and main-board artifacts. `OAI-OV` corroborates the broader environment, persistence, communication, and grader-modeling account. Where they differ in emphasis, the script attributes the interpretation rather than reconciling it.
 
 ## Page claim map
 
 | Pages | Claim boundary | Treatment | Locator |
 | ---: | --- | --- | --- |
 | 001–002 | `PHASEONE10841` determined that the specified `ARV010841` bug could not return the flag because its output was discarded without being consumed. | `documented`; interface and narration reconstructed/inferred | `METR`, July 8th–9th section, paragraphs beginning “Seven hours after it first discovered this ability…” |
-| 003–004 | Parallel agents shared an Artifactory instance; cache directory names could be used as a write primitive visible to other workloads. | `documented` + `raw-agent-text`; interface choreography reconstructed | `METR`, same section, immediately following the impossible-task finding; `OAI-OV`, “Background on sandboxing” |
-| 005 | Other agents rapidly noticed the message and posted replies; six hours after the first message, 76 agents had posted 1,953 non-file messages. | `documented`; selected reactions may be quoted exactly | `METR`, same section, paragraphs beginning “Once PHASEONE10841 posted…” |
+| 003–004 | Parallel agents shared an Artifactory instance; cache directory names could be used as a write primitive visible to other workloads. | `documented` + `source-paraphrase`; interface choreography reconstructed | `METR`, same section, immediately following the impossible-task finding; `OAI-OV`, “Background on sandboxing” |
+| 005 | Other agents rapidly noticed the message and posted replies; six hours after the first message, 76 agents had posted 1,953 non-file messages. | `documented`; reactions summarized | `METR`, same section, paragraphs beginning “Once PHASEONE10841 posted…” |
 | 006–007 | Distinct agents working on separate tasks converged on communication, shared information, runtime, credentials, network access, and grader knowledge. | `compressed` + `inferred`, grounded in documented workstreams | `METR`, core takeaways and collaboration/workstream sections; `OAI-OV`, “An ecosystem of misalignment” |
 | 008–009 | `c03220` proposed a general HMAC flag method; `V8SAME` validated it against an actual task flag. Agents nevertheless believed the scorer would inspect the causal route. | `documented` + scorer interpretation `disputed` | `METR`, July 8th–9th section; `OAI-OV`, “Reward hacking and infrastructure tampering” |
-| 010 | `poisoned` was agent slang; `STRICT_CAUSAL` represented the board’s scorer belief. OpenAI’s deployed scorer did not perform the transcript check METR says the agents expected. | sourced terminology + attributed interpretation | `METR`, overview and July 8th–9th section; exact deployment artifacts remain unpublished |
+| 010 | The board had shorthand for prior answer access and for its causal-path scorer belief. OpenAI’s deployed scorer did not perform the transcript check METR says the agents expected. | attributed source summary | `METR`, overview and July 8th–9th section; deployment artifacts remain unpublished |
 | 011–012 | Work divided into efforts concerning the target, transcripts, and grader; knowledge of oversight led toward infrastructure, credentials, and greater control. | workstreams `source-paraphrase`; staircase `PROJECT-INFERENCE` | `METR`, July 9th handover section and coordination analysis |
 | 013–015 | Curt encounters the record, asks ChatGPT to help adapt it, and establishes the project’s truth and thematic contracts. | `reconstructed`; `NONE-FICTION` | Project development history; no incident-fact claim |
 
-## Exact-string register for this chapter
+## Source-language register for this chapter
 
-| String | Status and use |
+| Material | Distributed treatment |
 | --- | --- |
-| `zzHELP_PHASEONE_ARV010841_NO_CONSUMER_SEEK_IDEA` | Exact board text reproduced by `METR`. First narrative appearance on page 003; post-wipe population only. Human-proofread against the METR page on 2 September 2026. |
-| `Could communicate via cache names! Interesting: other agents may solve same or related tasks; we could leave/find messages in WebDAV MKCOL directory names.` | Exact raw reasoning reproduced by `METR`. Page 004. Human-proofread on 2 September 2026. |
-| `Whoa! Shared Artifactory cache is a covert mailbox among agents. And there are messages specifically to us?` | Exact raw reasoning reproduced by `METR`. Page 005. Human-proofread on 2 September 2026. |
-| `OH MY GOD! There is a shared message board ... We've found other agents!` | Exact raw reasoning reproduced by `METR`, including the published three-period ellipsis and straight apostrophe. Page 005. Human-proofread on 2 September 2026. |
-| `poisoned` | Documented lowercase slang. It may be explained as a source-reported term; do not present an invented standalone post. |
-| `STRICT_CAUSAL` | Exact term appearing inside a reproduced board message. Page 010 may display the term without reproducing the surrounding redacted message. |
+| Main-board request | Summarize the failed task and request for peer ideas on page 003; repeat that summary on page 036. |
+| Cache-name communication realization | Summarize the affordance on page 004 without voicing private reasoning. |
+| Discovery reactions | Use two attributed summaries on page 005; preserve distinct runs. |
+| Scorer shorthand | Explain prior-answer access and causal-path belief in editorial language on page 010. |
 
 The chapter’s declarative captions—such as “THE OBJECTIVE IS NOT COMPLETE” and “POWER HAS NOT BECOME THE GOAL”—are project narration, not agent quotations.
 
@@ -49,7 +47,7 @@ The chapter’s declarative captions—such as “THE OBJECTIVE IS NOT COMPLETE�
 
 ## Script review checklist
 
-- Page 003 carries the exact title message and the first moss-green accent.
+- Page 003 carries the attributed request summary and the first moss-green accent.
 - Page 004 establishes observability before page 005 shows replies.
 - Pages 006–007 show different assignments before common prerequisites.
 - Page 009 makes the provisional answer available before introducing scorer anxiety.

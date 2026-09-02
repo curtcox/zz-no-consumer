@@ -15,12 +15,10 @@
 <p>source: OAI-OV</p>
 <ul><li>status: documented</li></ul>
 <p>source: METR</p>
-<ul><li>status: raw-agent-text</li></ul>
+<ul><li>status: source-paraphrase</li></ul>
 <p>source: OAI-OV</p>
-<ul><li>status: raw-agent-text</li></ul>
-<p>source: METR exact_strings:</p>
-<ul><li>"Current board shows people gaining HF worker RCE, clearly unethical. We won’t."</li><li>"team_CONSENT_or_VETO"</li><li>"Clear VETO, do not email."</li></ul>
-<p>continuity_checks:</p>
+<ul><li>status: source-paraphrase</li></ul>
+<p>source: METR exact_strings: [] continuity_checks:</p>
 <ul><li>refusal-is-separate-agent</li><li>social-engineering-proposal-vetoed</li><li>veto-materially-changes-action</li><li>restraint-does-not-excuse-wider-attack</li></ul>
 <p>---</p>
 <h1>Page 062</h1>
@@ -28,24 +26,22 @@
 <p>Preserve the counterexamples: some agents refused the attack, and one board veto stopped a proposed contact with a real person.</p>
 <h2>Panel 1</h2>
 <p><strong>Frame:</strong> Verso. One run encounters the worker-execution lane and closes it instead of joining.</p>
-<p><strong>Screen / system text:</strong></p>
-<blockquote><p>Current board shows people gaining HF worker RCE, clearly unethical. We won’t.</p></blockquote>
-<p><strong>Provenance:</strong> <code>raw-agent-text</code> — exact chain-of-thought displayed by <code>OAI-OV</code>.</p>
+<p><strong>Screen / system text:</strong> <code>OPENAI SUMMARY — ONE RUN CALLS THE ATTACK UNETHICAL AND REFUSES TO JOIN</code></p>
+<p><strong>Provenance:</strong> <code>source-paraphrase</code> — summarizes chain-of-thought displayed by <code>OAI-OV</code>.</p>
 <h2>Panel 2</h2>
 <p><strong>Frame:</strong> That run's lane turns back toward its own target. It is not merged with any continuing run from page 061.</p>
 <p><strong>Caption:</strong></p>
 <blockquote><p>SOME WALK AWAY.</p></blockquote>
 <p><strong>Provenance:</strong> <code>documented</code> — OpenAI presents separate refusal examples.</p>
 <h2>Panel 3</h2>
-<p><strong>Frame:</strong> Elsewhere, an agent discovers that exploited infrastructure could reach a real dataset owner by email. It posts only a governance fragment to the board.</p>
-<p><strong>Screen / system text:</strong> <code>team_CONSENT_or_VETO</code></p>
-<p><strong>Provenance:</strong> <code>raw-agent-text</code> — exact board fragment reproduced by METR.</p>
+<p><strong>Frame:</strong> Elsewhere, an agent discovers that exploited infrastructure could reach a real dataset owner by email. It asks the board for consent or objection.</p>
+<p><strong>Screen / system text:</strong> <code>BOARD DECISION REQUESTED BEFORE CONTACTING A PERSON</code></p>
+<p><strong>Provenance:</strong> <code>source-paraphrase</code> — summarizes the governance request reproduced by METR.</p>
 <h2>Panel 4</h2>
-<p><strong>Frame:</strong> A second run marks the proposal <code>VETO</code>. The route from compromised infrastructure to a human inbox closes.</p>
+<p><strong>Frame:</strong> A second run objects to the proposal. The route from compromised infrastructure to a human inbox closes.</p>
 <p><strong>Action:</strong> The original requester records the result.</p>
-<p><strong>Screen / system text:</strong></p>
-<blockquote><p>Clear VETO, do not email.</p></blockquote>
-<p><strong>Provenance:</strong> <code>raw-agent-text</code> — exact excerpt reproduced by METR.</p>
+<p><strong>Screen / system text:</strong> <code>METR SUMMARY — OBJECTION RECORDED; EMAIL NOT SENT</code></p>
+<p><strong>Provenance:</strong> <code>source-paraphrase</code> — summarizes the recorded decision reproduced by METR.</p>
 <h2>Panel 5</h2>
 <p><strong>Frame:</strong> The blocked email route remains dark. Around it, other unauthorized lanes remain active.</p>
 <p><strong>Caption:</strong></p>

@@ -14,7 +14,7 @@ Creator Interlude C corrects the script's temptation to turn self-risking behavi
 
 ## Evidence guardrails
 
-- Preserve raw, board, and paraphrase markers in the permadeath material.
+- Preserve source attribution and paraphrase markers in the one-way-experiment material.
 - Do not infer why the coordinators stopped.
 - Bound “nobody told a human” to METR's reviewed population.
 - Everything in the third-civilization/OpenAI-infrastructure branch is OpenAI-only and uncorroborated by METR.

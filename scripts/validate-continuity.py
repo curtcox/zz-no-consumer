@@ -20,7 +20,6 @@ EXPECTED_CHAPTERS = [
 
 ALLOWED_PROVENANCE = {
     "documented",
-    "raw-agent-text",
     "source-paraphrase",
     "disputed",
     "inferred",
@@ -87,20 +86,14 @@ def main() -> int:
         errors.append("Chapter ranges do not cover pages 1–112 exactly once")
 
     outline = (ROOT / "content" / "story-outline.md").read_text(encoding="utf-8")
-    if "`STRICT_CAUSAL?`" in outline:
-        errors.append("Non-canonical exact term remains in story outline: STRICT_CAUSAL?")
-    if "`POISONED`" in outline:
-        errors.append("Unsupported standalone uppercase POISONED remains in story outline")
     if "Cold open, 8–9 July 2026" not in outline:
         errors.append("Story outline does not identify the post-wipe cold open")
-    if "Put the first message on page 3" not in outline:
-        errors.append("Story outline does not lock the title message to page 3")
+    if "Put the opening request summary on page 3" not in outline:
+        errors.append("Story outline does not lock the opening request summary to page 3")
 
     continuity = (ROOT / "content" / "continuity.md").read_text(encoding="utf-8")
-    if re.search(r"\| `(?:GO|HOLD|VETO|OWNER|STOP)` \| Chapter 1 \|", continuity):
-        errors.append("A second-population coordination token is still assigned to Chapter 1")
-    if "| `OWNER` |" in continuity:
-        errors.append("Non-canonical uppercase OWNER remains in the exact-string table")
+    if "Distributed story pages use attributed paraphrases" not in continuity:
+        errors.append("Continuity guide does not enforce the source-paraphrase policy")
 
     grammar = (ROOT / "design" / "page-grammar.md").read_text(encoding="utf-8")
     if "story_time: 2026-05-08" in grammar or re.search(r"chapter: prologue[\s\S]{0,160}population: first", grammar):
@@ -121,6 +114,7 @@ def main() -> int:
         re.MULTILINE,
     )
     manifest_ids = [int(row[0]) for row in manifest_rows]
+    manifest_titles = {int(row[0]): row[3] for row in manifest_rows}
     if manifest_ids != list(range(1, 113)):
         errors.append("data/pages.yaml must contain ordered manifest rows for pages 001–112 exactly once")
     if any(row[4] not in {"planned", "draft", "review", "locked", "published"} for row in manifest_rows):
@@ -172,6 +166,15 @@ def main() -> int:
         seen_page_numbers.add(page_number)
         if page_number != int(path.stem):
             errors.append(f"Filename/page mismatch in {path.relative_to(ROOT)}")
+        title_match = re.search(r'^title:\s*(?:"([^"]+)"|(.+))$', metadata, re.MULTILINE)
+        page_title = (title_match.group(1) or title_match.group(2)).strip() if title_match else None
+        if page_title is None:
+            errors.append(f"Missing title in {path.relative_to(ROOT)}")
+        elif manifest_titles.get(page_number) != page_title:
+            errors.append(
+                f"Manifest/page title mismatch on page {page_number:03d}: "
+                f"{manifest_titles.get(page_number)!r} != {page_title!r}"
+            )
         statuses = re.findall(r"^\s*- status:\s*([a-z-]+)\s*$", metadata, re.MULTILINE)
         invalid = sorted(set(statuses) - ALLOWED_PROVENANCE)
         if invalid:
@@ -185,6 +188,8 @@ def main() -> int:
             errors.append(f"Missing provenance status in {path.relative_to(ROOT)}")
         if not re.search(r"^\s+source:\s*\S+", metadata, re.MULTILINE):
             errors.append(f"Missing provenance source in {path.relative_to(ROOT)}")
+        if page_number != 112 and "exact_strings: []" not in metadata:
+            errors.append(f"Third-party exact-string registration remains in {path.relative_to(ROOT)}")
 
     if errors:
         print("Continuity validation failed:")

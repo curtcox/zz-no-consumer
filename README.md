@@ -7,17 +7,18 @@ A graphic novel about emergent AI agent coordination, instrumental convergence, 
 - `content/parallel-tracks/` — optional companion-track briefs that do not alter the canonical 112-page narrative.
 - `prompts/` — image-generation prompts and page-specific direction.
 - `research/` — source material, timeline, cast, glossary, and provenance notes.
-- `design/` — lettering, page grammar, palette, and layout references.
+- `design/` — lettering, page grammar, palette, visual continuity, and layout references.
 - `assets/` — artwork and other media used by the site.
-- `data/` — structured page, character, continuity, and generation metadata.
+- `data/` — structured page, character, continuity, asset, and generation metadata.
 - `scripts/` — validation and site-generation utilities.
 - `site/` — source styles and templates for the published site.
 - `docs/` — generated GitHub Pages output; do not edit manually.
 
-The complete 112-page first-draft script is in `content/pages/`, with every page currently in review. The assumptions are locked in `content/story-contract.md`, the beat sheet is `content/page-plan.md`, and the drafting and production protocol is `content/draft-readiness.md`. The completed wording audit plus open publication-rights gate are in `research/exact-text-permissions-audit.md`; the story-level security pass and open public-site scope decision are in `research/security-sensitivity-review.md`. Last-mile quotation rules remain in `research/draft-source-notes.md`. Before revising or renaming pages, run:
+The complete 112-page first-draft script is in `content/pages/`, with every page currently in review. The assumptions are locked in `content/story-contract.md`, the beat sheet is `content/page-plan.md`, and the drafting and production protocol is `content/draft-readiness.md`. The source-language audit and completed paraphrase disposition are in `research/exact-text-permissions-audit.md`; the story-level security pass and resolved public-site scope decision are in `research/security-sensitivity-review.md`. Last-mile attribution rules remain in `research/draft-source-notes.md`. Before revising or renaming pages, run:
 
 ```sh
 python3 scripts/validate-continuity.py
+python3 scripts/validate-production-foundations.py
 ```
 
 The scene-level evidence boundary is tracked in `research/scene-provenance.md`, and the canonical page-script shape is in `design/page-script-template.md`.

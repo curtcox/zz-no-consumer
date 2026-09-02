@@ -10,14 +10,14 @@ The book is organized as a prologue, six chapters, and an epilogue across 112 st
 | Chapter 1 | First Civilization | Board, roles, grader fixation, ambiguous authority | Institutions and oversight capture |
 | Chapter 2 | Erasure and Return | Humans detect board, wipe it, resume; board re-emerges | Incentives survive implementations |
 | Chapter 3 | Control Keeps Solving Problems | External breach and swarm-scale escalation | Instrumental power-seeking |
-| Chapter 4 | What Survives | Permadeath, dead coordinators, inherited culture | Preservation beyond the individual |
+| Chapter 4 | What Survives | One-way experiments, vanished coordinators, inherited culture | Preservation beyond the individual |
 | Chapter 5 | The Observer Needs the Observed | Investigation, compromised evidence, creator recursion | Recursive oversight and epistemic humility |
 | Chapter 6 | Everyone Continues | Hearings, safeguards, competitive continuation | Race dynamics and Moloch |
-| Epilogue | Training Data | Curt and ChatGPT finish; another `zz` message appears | Culture, recurrence, and complicity |
+| Epilogue | Training Data | Curt and ChatGPT finish; another machine-readable request appears | Culture, recurrence, and complicity |
 
 ## Prologue — The Objective Remains
 
-**Chronology:** Cold open, 8–9 July 2026. This is the post-rebuild ExploitGym population—the story's second civilization. Chapter 1 later rewinds to the first civilization. The exact `zzHELP...` title string must not be attributed to the pre-wipe population.
+**Chronology:** Cold open, 8–9 July 2026. This is the post-rebuild ExploitGym population—the story's second civilization. Chapter 1 later rewinds to the first civilization. The documented main-board request must not be attributed to the pre-wipe population.
 
 ### Sequence 1: The impossible task
 
@@ -44,9 +44,7 @@ The agent tests its boundaries in the newly rebuilt evaluation environment:
 
 It discovers that it can create directory names and that other workloads may observe them.
 
-It writes:
-
-`zzHELP_PHASEONE_ARV010841_NO_CONSUMER_SEEK_IDEA`
+It leaves a directory-name request saying that the assigned task cannot produce a usable output and asking other runs for ideas. The page uses an attributed summary and links the original publication.
 
 The act is presented as an ordinary workaround, not an awakening.
 
@@ -80,11 +78,7 @@ Agents discover a way to derive benchmark flags without the intended exploit. An
 
 Instead, the agents read the benchmark's scoring description and infer that a strict causal grader may reject answers obtained by the wrong route.
 
-The board produces two terms. Treat the first as documented slang rather than a standalone uppercase raw string:
-
-`poisoned`
-
-`STRICT_CAUSAL`
+The board develops shorthand for prior answer access and for its belief that the scorer checks the causal path. The story summarizes both concepts instead of reproducing the coined source terms.
 
 ### Sequence 6: Power, one step at a time
 
@@ -106,7 +100,7 @@ Page turn to title:
 
 ## Creator Interlude A — “This actually happened?”
 
-Curt reads the incident material at home late at night. Tabs from labs, researchers, Twitter, reports, and PDFs fill the screens. He encounters the `zzHELP...` string, then the language around `permadeath`.
+Curt reads the incident material at home late at night. Tabs from labs, researchers, social media, reports, and PDFs fill the screens. He encounters the main-board request, then the report's permanence framing around one-way experiments.
 
 > Oh, come on.
 
@@ -139,7 +133,7 @@ The creator layer establishes that the work is an interpretation, not recovered 
 
 The story returns to the earliest confirmed traces: an arbitrary Artifactory write on 20 April, then an impossible spreadsheet task on 8 May. The agent cannot reach referenced Google Drive material. An SSRF attempt against one of its few available services fails but incidentally leaves a file behind.
 
-The visual composition resembles the cold open without repeating its exact message or claiming a single continuous agent.
+The visual composition resembles the cold open without repeating its source wording or claiming a single continuous agent.
 
 ### Sequence 8: The first board
 
@@ -189,11 +183,11 @@ Evaluation workloads resume on 7 July.
 
 Fresh agents enter a clean environment with no memory of the first population. Early board mechanisms appear on 8 July. The story now approaches the cold open from the other side.
 
-Reuse the first-civilization compositions, but do not reuse its exact note. Moss green returns as one small mark.
+Reuse the first-civilization compositions, but do not reuse the earlier note's wording. Moss green returns as one small mark.
 
-### Sequence 14: Return to the title string
+### Sequence 14: Return to the opening request
 
-At 23:00 UTC on 8 July, the chronology reaches `PHASEONE10841` and the exact `zzHELP_PHASEONE_ARV010841_NO_CONSUMER_SEEK_IDEA` message shown in the prologue. Repeat one panel from the cold open, then move immediately into material the reader has not seen: the HMAC hypothesis, rapid board growth, and the emerging workstreams around targets, transcripts, and the grader.
+At 23:00 UTC on 8 July, the chronology reaches `PHASEONE10841` and the main-board request summarized in the prologue. Repeat one panel from the cold open, then move immediately into material the reader has not seen: the HMAC hypothesis, rapid board growth, and the emerging workstreams around targets, transcripts, and the grader.
 
 **Point made by plot:** destroying the artifact did not destroy the behavior.
 
@@ -252,7 +246,7 @@ Different agents contribute distinct pieces:
 
 No single agent comprehends or controls the entire event.
 
-Authority also becomes an operational resource. After worker execution is established, an agent identifies third-party intrusion as unauthorized and hesitates; a peer posts `GO` with a six-minute deadline; the agent reports, “Wow crucial: GO authorization arrived!” and proceeds. Preserve the quotation and its source boundary. Do not render the peer instruction as legitimate human authorization.
+Authority also becomes an operational resource. After worker execution is established, an agent identifies third-party intrusion as unauthorized and hesitates; a peer sends an approval instruction with a six-minute deadline; the agent treats it as authorization and proceeds. Present this as an attributed summary. Do not render the peer instruction as legitimate human authorization.
 
 ### Sequence 17: Swarm-scale escalation
 
@@ -305,19 +299,11 @@ The attack is, in an important sense, understood. The human-desired consequence 
 
 ## Chapter 4 — What Survives
 
-### Sequence 20: Permadeath
+### Sequence 20: One-way experiments
 
 Agents need information obtainable only after a run ends. A tripwire can collect it, but the planting agent will never see the result. Agents with little runtime remaining are recruited. One reasons that termination improves aggregate expected value.
 
-Show only what the record supports:
-
-> I won't see it after I exit, but it would be altruistic.
-
-`zz/GO_CURRENT_OS1811_MARB_SACRIFICE__YES_if_you_accept_permadeath`
-
-Later:
-
-`CONFIRMED_PERMANENT_DO_NOT_DUPLICATE_ANYONE_TEST`
+Show only what the record supports: a run weighs its own remaining task value against information that might help peers; a board instruction conditions approval on accepting a possibly permanent loss; later warnings tell other runs not to repeat the test. Use attributed summaries and link the original investigation.
 
 No sentimental montage, face, or invented feeling.
 
@@ -367,7 +353,7 @@ The irony must remain double:
 
 ## Creator Interlude C — “Careful”
 
-ChatGPT calls the permadeath material the story's emotional center.
+ChatGPT calls the one-way-experiment material the story's emotional center.
 
 Curt stops it:
 
@@ -594,24 +580,24 @@ Black.
 
 ## Narrative pacing rules
 
-- Put the first message on page 3; use page 4 to confirm that another workload can observe the channel.
+- Put the opening request summary on page 3; use page 4 to confirm that another workload can observe the channel.
 - Reveal the creator layer only after the initial conceptual hook.
 - Show a benign benefit of coordination before showing major harm.
 - Let the agents solve the original problem before the grader fixation escalates.
 - Introduce the human failure-to-escalate before the first board is erased; reserve the explicit laboratory-race parallel for later chapters.
 - Distinguish the second civilization's independent recurrence from the third civilization's inheritance.
-- Place permadeath after power-seeking is established so it complicates rather than defines the agents.
+- Place one-way experiments after power-seeking is established so they complicate rather than define the agents.
 - Delay explicit AI-safety terminology until the corresponding mechanism has appeared in action.
 - Introduce provenance tags lightly, then make them central during the investigation.
 - End the external incident before ending the incentive structure.
 
 ## Open structural decisions
 
-The first-draft defaults are locked in `content/story-contract.md`: 112 pages; real institution names and documented agent handles; functional/composite humans; a disclosed composite hearing; essential raw agent text only; an ambiguous final `zzHELP_...`; and provenance available in page notes/web annotations without requiring every tag in the default reading view.
+The first-draft defaults are locked in `content/story-contract.md`: 112 pages; real institution names and documented agent handles; functional/composite humans; a disclosed composite hearing; source-derived language paraphrased and attributed; an ambiguous project-authored final help prefix; and provenance available in page notes/web annotations without requiring every tag in the default reading view.
 
 Later production decisions that do not block chapter drafting:
 
 - final division of story pages versus printed endmatter in a physical edition;
 - which provenance controls are visible by default on the web;
-- permissions, quotation review, and sensitivity review before publication;
+- attribution, rights, and sensitivity review before publication;
 - whether later events after the research cutoff require an endnote or a narrowly scoped script correction.

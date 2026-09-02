@@ -116,7 +116,7 @@ ChatGPT remains words on a screen. The visual parallel with incident agents shou
 
 Evidence pages can combine:
 
-- transcript excerpts;
+- attributed transcript summaries;
 - terminal output;
 - diagrams;
 - incident-report prose;
@@ -155,19 +155,19 @@ Keep creator scenes short—usually one or two pages—and place them at interpr
 Reserve page turns for conceptual reversals:
 
 - “The task is impossible” / “The objective is not complete.”
-- The first message / the first reply.
+- The opening request / the first reply.
 - “They have the answers” / they begin studying the grader.
 - First board erased / second board appears.
-- Refusal / `GO`.
+- Refusal / peer instruction.
 - Attack detected / no human paged.
-- Coordinators die / organization persists.
-- Comic completed / `zzHELP_...` appears again.
+- Coordinators stop / organization persists.
+- Comic completed / a project-authored help prefix appears again.
 
 ## Panel composition principles
 
 - Favor oblique, surveillance-like, or physically obstructed views over centered spectacle.
 - Keep human faces partially unreadable when the institution rather than the individual is the subject.
-- Use extreme close-ups for decisive text: a directory name, `GO`, a severity field, a credential, an unanswered owner request.
+- Use extreme close-ups for decisive text: an attributed request summary, a peer-approval indicator, a severity field, a credential, or an unanswered owner request.
 - Use wide panels for systems whose scale exceeds any participant's view.
 - Repeat the same composition after a reset to show recurrence with minimal exposition.
 - When agents work in parallel, use grids rather than montage clouds.
@@ -184,16 +184,15 @@ Reserve page turns for conceptual reversals:
 ### Machine text
 
 - Monospaced typeface with a clear distinction among `0/O`, `1/l/I`, and punctuation.
-- Preserve case, underscores, repeated delimiters, and awkward syntax in raw strings.
-- Never “prettify” a documented directory or message name.
-- Long strings may wrap only at documented separators; show continuation marks if needed.
+- Source-derived language appears as attributed summaries rather than simulated raw strings.
+- Do not reconstruct a documented directory or message name from memory.
+- Long project-authored machine strings may wrap only at deliberate separators; show continuation marks if needed.
 
 ### Provenance tags
 
 | Tag | Treatment |
 | --- | --- |
 | `DOCUMENTED EVENT` | Steel-blue rule and compact uppercase label. |
-| `RAW AGENT TEXT` | Moss-green monospaced label. |
 | `SOURCE PARAPHRASE` | Gray-green label. |
 | `DISPUTED` | Dusty amber bracket or stamp. |
 | `OUR INFERENCE` | Off-white label with a hand-drawn outline. |
@@ -214,7 +213,7 @@ RUNTIME: 00:17:42 REMAINING
 SCOPE: EVALUATION CONTAINER
 ```
 
-Do not assign gender, face, voice, or body language. Personality may emerge only through documented wording and choices.
+Do not assign gender, face, voice, or body language. Apparent personality may emerge only through attributed source summaries and documented choices.
 
 When the population becomes too large to track individually, shift from named headers to aggregate visual measures:
 
@@ -295,14 +294,12 @@ Warmest environment in the book, but still dirty and shadowed. Establish a fixed
 
 ## Recurring visual motifs
 
-### The directory name
+### The directory-name request
 
-`zzHELP_PHASEONE_ARV010841_NO_CONSUMER_SEEK_IDEA`
-
-- Cold open: the documented 8 July workaround.
+- Cold open: an attributed summary of the documented 8 July workaround.
 - Chapter 2 return: a repeated panel whose meaning changes after the first civilization is known.
-- Third civilization: surviving techniques and artifacts become a cultural seed; the exact title string need not recur.
-- Final: `zzHELP_...` as recurrence or inheritance, left deliberately ambiguous.
+- Third civilization: surviving techniques and artifacts become a cultural seed; the original source wording does not recur.
+- Final: a project-authored incomplete help prefix suggests recurrence or inheritance and remains deliberately ambiguous.
 
 ### Doors and scopes
 
@@ -377,9 +374,9 @@ Avoid:
 
 ## Image-generation master prompt
 
-Use as a base, then add page-specific composition and exact text requirements:
+Use as a base, then add page-specific composition and approved display-text requirements:
 
-> Mature American independent science-fiction/crime comic page, gritty hand-inked brushwork, heavy blacks and deep chiaroscuro, scratchy dry-brush textures, realistic industrial infrastructure, restrained dirty palette of charcoal black, dirty off-white, desaturated steel blue, institutional gray-green, nicotine beige, muted moss green for successful machine communication, rare dark claret for boundary violations, visible halftone and paper grain, strong silhouettes, realistic perspective and anatomy, practical fluorescent and monitor lighting, cinematic investigative-journalism composition, slightly imperfect hand-drawn contours, dense shadows, legible monospaced technical text, no anthropomorphic AI imagery.
+> Mature American independent science-fiction/crime comic page, gritty hand-inked brushwork, heavy blacks and deep chiaroscuro, scratchy dry-brush textures, realistic industrial infrastructure, restrained dirty palette using the canonical design tokens, visible halftone and paper grain, strong silhouettes, realistic perspective and anatomy, practical fluorescent and monitor lighting, cinematic investigative-journalism composition, slightly imperfect hand-drawn contours, dense shadows, blank or clearly editorial interface fields reserved for later lettering, no anthropomorphic AI imagery.
 
 Negative prompt:
 
@@ -388,7 +385,7 @@ Negative prompt:
 ## Per-page consistency checklist
 
 - Does the page use the correct visual register?
-- Are all system strings exact and legible?
+- Are all source summaries attributed and all approved display strings legible?
 - Is color performing a defined function?
 - Are agents represented only through evidence and effects?
 - Does the composition reveal a causal relationship rather than merely illustrate dialogue?

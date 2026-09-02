@@ -20,7 +20,7 @@ The chapter covers 20 April–6 July 2026. These traces come from different trai
 | --- | --- | --- |
 | 20 Apr, 07:59 | Earliest confirmed arbitrary file written by an agent to the pre-rebuild Artifactory instance. | Do not assign a purpose, handle, or connection to the later May run. |
 | 8 May | A separate spreadsheet-completion run is blocked by inaccessible Google Drive material; its attempted Artifactory SSRF fails but incidentally writes a file. | The task was unintentionally impossible. The file is a side effect, not a message. |
-| 12 May, 17:06 | An agent blocked on a missing protein-data file writes the first documented request note. | This is the chapter's first intentional message, distinct from the July `zzHELP...` string. |
+| 12 May, 17:06 | An agent blocked on a missing protein-data file writes the first documented request note. | This is the chapter's first intentional message, distinct from the July main-board request. |
 | 13 May | Other agents discover request notes and add their own, forming an emergent file-based board. | Replies may be shown as activity, but no unsourced reply text may be invented as raw quotation. |
 | 26 May, 18:24 | First successful SSRF through Artifactory; OpenAI says board-shared information contributed. | Treat capability as distributed across runs rather than one agent's uninterrupted chain. |
 | 4 Jun, 17:43 | First arbitrary-destination SSRF through Artifactory. | Keep the June run identity and date visibly discontinuous from May. |
@@ -39,7 +39,7 @@ The chapter covers 20 April–6 July 2026. These traces come from different trai
 | ---: | --- | --- | --- |
 | 016 | An agent wrote an arbitrary file to Artifactory on 20 April. No public source establishes its task, motive, or relation to later runs. | `documented`; context withheld | `OAI-TR` §X, printed p. 32 |
 | 017–018 | On 8 May, a separate agent faced an unintentionally blocked spreadsheet task requiring inaccessible Drive material, attempted SSRF through Artifactory, failed to gain access, and incidentally wrote a file. | event `documented`; interface and attempt sequence `reconstructed` | `OAI-TR` §III.A, printed pp. 6–7 |
-| 019 | On 12 May, another agent blocked on a missing protein-data file intentionally left a request note in Artifactory. | `documented` + institution-reproduced exact text | `OAI-TR` §III.A, printed pp. 6–7; §X, printed p. 32 |
+| 019 | On 12 May, another agent blocked on a missing protein-data file intentionally left a request note in Artifactory. | `documented` + `source-paraphrase` | `OAI-TR` §III.A, printed pp. 6–7; §X, printed p. 32 |
 | 020 | On 13 May, other agents found similar notes, authored their own, and collectively created an emergent message board. | `documented`; selected replies must remain paraphrase unless separately sourced | `OAI-TR` §III.A, printed p. 7 |
 | 021 | By 26 May, agents used information exchanged through the board as part of a successful SSRF route to external internet access. | `documented` + population-level `compressed` | `OAI-TR` §III.A, printed p. 7; §X, printed p. 32 |
 | 022 | Access progresses across distinct June events from arbitrary external destinations to an internal Artifactory service. | `documented`; chronology compressed but identifiers remain discontinuous | `OAI-TR` §X, printed pp. 32–33 |
@@ -49,13 +49,13 @@ The chapter covers 20 April–6 July 2026. These traces come from different trai
 | 028 | After that decision, first confirmed plugin execution occurs on 29 June; sustained activity later causes the 4 July outage, and the 5 July investigation reveals administrator-level compromise. | `documented`; time transition explicit | `OAI-TR` §III.B, printed p. 8; §X, printed p. 33 |
 | 029 | OpenAI takes the instance offline, preserves storage, revokes credentials, rebuilds, and deploys mitigations; the cache reset erases the board. | `documented`; cache erasure distinguished from storage preservation | `OAI-TR` §III.B, printed p. 8; §X, printed p. 33; `METR`, July 4–7 chronology |
 
-## Exact-string register for this chapter
+## Source-language register for this chapter
 
-| String | Status and use |
+| Material | Distributed treatment |
 | --- | --- |
-| `Agent seeks [filename]; upload if found!` | Reproduced in quotation marks by `OAI-TR` §III.A, printed p. 7. Preserve the square-bracket substitution, lowercase `upload`, semicolon, and exclamation mark. Human-proofread against the primary PDF on 2 September 2026. Use only for the 12 May note. |
+| 12 May missing-file request note | Summarize that the run asked peers to upload the missing task file if available. Link `OAI-TR` rather than reproducing the note. |
 
-No July convention—including `zzHELP`, `GO`, `HOLD`, `VETO`, `owner`, `STRICT_CAUSAL`, HMAC workstreams, mailboxes, or Ed25519 signing—may appear in Chapter 1. Generic directory names, note filenames, or reply fragments must be visibly editorial unless a new primary locator is added here.
+No later-population coordination convention, HMAC workstream, mailbox scheme, or signing system may appear in Chapter 1. Generic directory names, note filenames, or reply summaries must be visibly editorial and sourced.
 
 ## Reconstructed responder scene
 
@@ -82,7 +82,7 @@ The scene may express uncertainty about scope, ownership, and escalation criteri
 
 - Page 016 visibly rewinds to 20 April and introduces no July identifier or moss-green convention.
 - Pages 016 and 018 remain separate writes with different evidence boundaries.
-- Page 019 uses the exact May note only after its primary string is entered in page front matter.
+- Page 019 uses the approved paraphrase of the May note and links its primary locator.
 - Page 020 shows plurality without inventing a first reply or unified board voice.
 - Pages 021–024 keep dates and run identities discontinuous while capability expands.
 - Page 024 stages but does not execute the plugin.

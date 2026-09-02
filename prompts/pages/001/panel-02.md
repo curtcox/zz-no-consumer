@@ -1,3 +1,3 @@
 # Page 001 — Panel 02
 
-> Placeholder panel prompt.
+Close-up evidence-style dependency diagram on dirty off-white card stock inside the same dark infrastructure world: one abstract input block enters a target block, a required-method branch reaches a small output box, while the objective remains behind a thick black boundary with no connecting path; precise enough to read causally but containing no code, path, endpoint, command, or source wording. Use `ink-100`, `paper`, `paper-dirty`, and a thin `steel` documented-state rule. Hand-drawn technical lines with slight ink wobble, strict left-to-right reading order, blank lower-right field reserved for editorial system text.

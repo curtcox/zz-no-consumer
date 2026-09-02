@@ -52,7 +52,7 @@ Panel count alone overstated uniformity because five-panel pages already describ
 | 064 | Five panels → four | Let eleven coordinator lanes terminate in one sustained timeline image. |
 | 067 | Five panels → three | Make the METR/OpenAI source boundary read as a hard evidentiary stop. |
 | 081 | Five panels → four | Keep the missing logging architecture and rejected reconciliation in one comparison field. |
-| 112 | Four panels → three | Remove the didactic lineage caption and preserve silence between `zzHELP_` and the final line. |
+| 112 | Four panels → three | Remove the didactic lineage caption and preserve silence between the project-authored help prefix and the final line. |
 
 Pages 006–007 retain the only paired nine-panel grids. Page 012 retains six ascending beats plus the title landing. The provisional contact sheet alternates wide-top, wide-bottom, tall-left, and tall-right geometry for five-panel pages so final thumbnailing begins from varied silhouettes rather than identical grids.
 
@@ -86,8 +86,8 @@ No turn currently depends on concealing a fact already known to the viewpoint. S
 
 ## Remaining production checks
 
-- The exact-text proof is complete; keep the affected pages in `review` until the publication-rights dispositions in [`research/exact-text-permissions-audit.md`](../research/exact-text-permissions-audit.md) are resolved.
-- Proof pages 003, 004, 036, 057–060, 079, 081, 091, 100–102, and 112 at intended print size because they contain exact strings, unusually long captions, or evidence-card typography.
+- The third-party quotation hold is resolved by paraphrase; keep source attribution legible and follow [`research/exact-text-permissions-audit.md`](../research/exact-text-permissions-audit.md).
+- Proof pages 003, 004, 036, 057–060, 079, 081, 091, 100–102, and 112 at intended print size because they contain unusually long summaries, project-authored display strings, or evidence-card typography.
 - Draw genuine thumbnail geometry for every page; the generated contact sheet is a rhythm map, not a layout decision.
 - Confirm all full-width and tall panels leave safe areas for captions and do not place essential text in the gutter.
 - Test the five high-value page-turn register changes in paired physical spreads and as single pages online.

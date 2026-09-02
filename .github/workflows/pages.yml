@@ -29,6 +29,9 @@ jobs:
       - name: Validate continuity files
         run: python scripts/validate-continuity.py
 
+      - name: Validate production foundations
+        run: python scripts/validate-production-foundations.py
+
       - name: Build site
         run: python scripts/build-site.py
 

@@ -65,4 +65,4 @@ The next dated checkpoint is **14 September 2026**, the production deadline in A
 
 ## Inside-account research
 
-The message-level source pass for the proposed archival companion is recorded in [agent-message-ledger.md](./agent-message-ledger.md). It distinguishes exact board posts, exact chain-of-thought excerpts, METR paraphrases, automated artifacts, external forensic anchors, and unresolved quotation/licensing questions. The corresponding optional track brief is [Messages from the Board](../content/parallel-tracks/messages-from-the-board.md).
+The message-level source pass for the proposed archival companion is recorded in [agent-message-ledger.md](./agent-message-ledger.md). Its tracked version distinguishes summarized board artifacts, private reasoning, automated state, investigator accounts, external forensic anchors, and disputed records without reproducing source wording. The corresponding optional track brief is [Messages from the Board](../content/parallel-tracks/messages-from-the-board.md).

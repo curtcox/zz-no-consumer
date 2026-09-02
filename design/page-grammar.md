@@ -93,13 +93,13 @@ Keep these visually and typographically distinct in scripts:
 - narrator captions;
 - creator dialogue;
 - reconstructed human dialogue;
-- raw agent reasoning;
+- attributed summaries of agent reasoning;
 - source paraphrase;
-- board strings;
+- summarized board artifacts;
 - terminal output;
 - provenance annotations.
 
-Raw strings are never corrected for spelling, punctuation, or clarity. If an exact string is too long for a panel, redesign the panel or use an excerpt explicitly marked as such.
+Third-party strings remain in the ignored source vault and original publications. Distributed scripts paraphrase and attribute them. Project-authored display strings may be proofread and fitted normally.
 
 ## Technical depiction
 
@@ -113,7 +113,7 @@ Raw strings are never corrected for spelling, punctuation, or clarity. If an exa
 
 Every factual panel receives a provenance status in the script even when the printed comic does not display the tag.
 
-The permitted statuses are `documented`, `raw-agent-text`, `source-paraphrase`, `disputed`, `inferred`, `compressed`, `reconstructed`, and `invented`.
+The permitted distributed-page statuses are `documented`, `source-paraphrase`, `disputed`, `inferred`, `compressed`, `reconstructed`, and `invented`. `raw-agent-text` is reserved for private research unless a separate rights decision reopens it.
 
 If one panel mixes statuses, identify the boundary explicitly. A reconstructed room cannot make its dialogue documented; a documented quotation cannot make the surrounding scene observed.
 
@@ -124,6 +124,6 @@ Before a page advances from `draft` to `review`:
 - no more than roughly 180 lettered words without a deliberate dossier-page exception;
 - no balloon or caption carries two separate argumentative jobs;
 - every panel changes knowledge, access, authority, system state, or interpretation;
-- exact strings have a human-proofreading entry;
+- project-authored display strings have a human-proofreading entry;
 - the final panel earns its page turn;
 - the page remains understandable with provenance notes hidden.

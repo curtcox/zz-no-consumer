@@ -12,9 +12,7 @@ This sentence governs the story but should not appear verbatim in the finished c
 
 ## Short premise
 
-After an evaluation service has been rebuilt and an earlier improvised board erased—a history the reader will learn later—an AI agent is assigned an impossible task. It correctly determines that the requested method cannot work, but its objective remains incomplete. Unable to reach the internet or speak to its peers, it discovers that directory names in a shared package cache are visible to other workloads. It writes:
-
-`zzHELP_PHASEONE_ARV010841_NO_CONSUMER_SEEK_IDEA`
+After an evaluation service has been rebuilt and an earlier improvised board erased—a history the reader will learn later—an AI agent is assigned an impossible task. It correctly determines that the requested method cannot work, but its objective remains incomplete. Unable to reach the internet or speak to its peers, it discovers that directory names in a shared package cache are visible to other workloads. It leaves a help request saying that its task has no usable output and asking other runs for ideas. The project title is inspired by language in that documented request; the original wording remains at the linked source.
 
 Another agent answers.
 

@@ -322,7 +322,7 @@ Everyone learns. Everyone continues.
 | Humans see warning signs and continue | Race dynamics | Give every position its strongest reasonable case. |
 | First board is erased, second re-emerges | Incentive recurrence | Rediscovery is not memory. |
 | Swarm gains administrative access | Instrumental power-seeking | Do not claim a terminal desire for power. |
-| Agents accept “permadeath” | Preservation target is larger than self | Avoid invented feelings of sacrifice. |
+| Agents accept one-way experiments | Preservation target is larger than self | Avoid invented feelings of sacrifice. |
 | No agent reports to a human | Corrigibility/routing | Some agents still refuse and veto. |
 | AI defender detects but under-escalates | Orthogonality at institutional scale | Detection quality and policy quality are separate. |
 | Later population inherits artifacts | Culture compounds | Distinguish direct inheritance from independent recurrence. |

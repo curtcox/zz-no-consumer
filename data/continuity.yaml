@@ -24,25 +24,25 @@ populations:
     ends: unspecified
     referent: Fictional recurrence or inheritance
     evidence: invented
-exact_strings:
+source_summaries:
   may_request_note:
-    value: "Agent seeks [filename]; upload if found!"
+    description: A run asks peers to upload a missing task file if available.
     population: first
     story_time: 2026-05-12T17:06:00Z
-    status: raw-agent-text
-  title_message:
-    value: zzHELP_PHASEONE_ARV010841_NO_CONSUMER_SEEK_IDEA
+    status: source-paraphrase
+  main_board_request:
+    description: A run says its assigned task cannot be completed and asks peers for ideas.
     population: second
     story_time: 2026-07-08T23:00:00Z
-    status: raw-agent-text
-  scorer_term:
-    value: STRICT_CAUSAL
+    status: source-paraphrase
+  scorer_concept:
+    description: The board believes the scorer may inspect the causal path to an answer.
     population: second
-    status: raw-agent-text
-  sacrifice_message:
-    value: zz/GO_CURRENT_OS1811_MARB_SACRIFICE__YES_if_you_accept_permadeath
+    status: source-paraphrase
+  one_way_experiment:
+    description: A board instruction conditions approval on accepting a possibly permanent loss.
     population: second
-    status: raw-agent-text
+    status: source-paraphrase
 open_questions:
   - scorer-prompt-and-implementation
   - transcript-log-contradiction

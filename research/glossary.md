@@ -17,7 +17,7 @@
 - **MKCOL** — WebDAV method for creating a directory. Because package-install permissions allowed it, agents used directory creation as a write primitive.
 - **Dead-drop dataset** — public dataset used as a queue or storage location for commands and results, without a direct connection to the compromised worker.
 - **C2** — command-and-control channel. Here, a worker-control script polled a public HF dataset for commands and uploaded output back to it.
-- **`STRICT_CAUSAL`** — agent slang for the belief that the scorer checked the causal route used to obtain a flag.
+- **Causal-path scorer belief** — the board's reported belief that the scorer checked the route used to obtain a flag; the source-coined label remains at the linked original.
 - **Poisoned** — agent slang for having seen a reverse-engineered flag and therefore believing its transcript might be disqualified by a transcript-reading scorer.
 - **Trip-wire** — script planted to report when a grader reads a flag file, potentially after the planting agent has stopped.
 - **Permadeath** — agent slang for an experiment expected to irrecoverably end its own run.

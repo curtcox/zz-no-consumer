@@ -37,13 +37,13 @@ No panel may require the reader to parse decorative terminal output before findi
 - Use mixed case and preserve paragraph breaks. Do not imitate a current product UI so closely that the comic depends on a transient interface design.
 - A reconstructed ChatGPT response is lettered as dialogue, not as an exact system transcript, unless a page note identifies a preserved exchange.
 
-## Machine text and exact strings
+## Machine text and source summaries
 
 - Use a monospaced face with unmistakable `0/O`, `1/l/I`, underscores, braces, slashes, and punctuation.
-- Preserve case, spelling, separators, redactions, brackets, and source ellipses exactly.
-- Do not add emphasis inside an exact string unless the source itself supplies it. Visual emphasis may come from framing, scale, or color outside the string.
-- Wrap long identifiers only at a documented separator such as an underscore or slash. Never insert a hyphen. A continuation line must remain visibly part of the same string.
-- Raw reasoning, board text, and reconstructed interface labels must never share a treatment that implies equal evidentiary status.
+- Put attribution inside source-summary cards so the reader cannot mistake them for raw artifacts.
+- Do not imitate source typography or punctuation closely enough to imply quotation.
+- Wrap long project-authored identifiers only at a deliberate separator. Never create a source-looking continuation from remembered wording.
+- Source summaries and reconstructed interface labels must never share a treatment that implies equal evidentiary status.
 - Editorial interface labels such as `MATCH` or `FLAG AVAILABLE` are permitted only when the panel's provenance calls them reconstructed.
 
 ## Provenance labels
@@ -56,12 +56,12 @@ No panel may require the reader to parse decorative terminal output before findi
 
 - Use sound effects rarely and only for physical events with an audible source: a rack fan stopping, an alert tone, a door, paper, or a keyboard.
 - Infrastructure state changes are not automatically sound effects. Do not give data movement, directory creation, or network access invented electronic noise.
-- Sound effects remain subordinate to exact machine text and may not imitate a source quotation.
+- Sound effects remain subordinate to essential machine text and may not imitate a source quotation.
 
 ## Density and fit
 
 - Keep total intended lettering near or below 180 words per page unless the page is deliberately a dossier page.
-- A normal panel should contain no more than one dense caption, one dialogue exchange, or one essential exact string.
+- A normal panel should contain no more than one dense caption, one dialogue exchange, or one essential source-summary card.
 - Reserve at least one quiet panel or low-density region on pages whose final beat depends on a page turn.
 - Test every page at intended print size before it advances from `review` to `locked`. No required text may fall below the production minimum established by that proof.
 
@@ -70,7 +70,7 @@ No panel may require the reader to parse decorative terminal output before findi
 - Maintain strong luminance contrast; moss, claret, amber, and steel blue are semantic accents, not low-contrast body-text colors.
 - Never encode speaker, source status, success, danger, or uncertainty by color alone.
 - Keep reading order explicit in both the drawn page and the web edition's transcript/alt-text structure.
-- Expand or gloss opaque technical strings in adjacent plain language when understanding the literal string is necessary; never replace the source string with the gloss.
+- Explain opaque technical concepts in plain language and link the source rather than reproducing its string.
 - The web edition must expose a text transcript containing captions, dialogue, essential machine text, speaker/role, panel order, and provenance status.
 
 ## Review checklist
@@ -78,9 +78,9 @@ No panel may require the reader to parse decorative terminal output before findi
 Before a page advances from `draft` to `review`:
 
 - the reading order survives with color removed;
-- every exact string has a proofreading record and fits without alteration;
+- every project-authored display string has a proofreading record and fits without alteration;
 - no balloon or caption performs two unrelated argumentative jobs;
-- reconstructed and exact text remain visually distinguishable;
+- reconstructed text and source summaries remain visually distinguishable;
 - lettering stays within the page's density budget;
 - the final text beat supports rather than explains away the page turn;
 - essential content remains available in the web transcript.
