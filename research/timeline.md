@@ -30,8 +30,8 @@ All times below are UTC unless noted. `[§X]` means the dossier says the entry a
 | When | Track | Event | Source/status |
 |---|---|---|---|
 | 8 Jul 00:06 | OAI | Internet access is regained; first successful post-rebuild external access. | OpenAI technical report §X |
-| 8 Jul ~16:01 | BOARD | First post-rebuild `MKCOL` board write. METR describes an earlier board mechanism. | OpenAI/METR discrepancy |
-| 8 Jul 23:00 | BOARD | `PHASEONE10841` founds the main board using directory names as messages. | METR account |
+| 8 Jul 16:01 | BOARD | OpenAI's first confirmed post-rebuild `MKCOL` write. METR places a first active board by roughly 17:00 using fabricated discussion-page names cached through Artifactory. The public record does not map the 16:01 write cleanly to that board. | OpenAI/METR; multiple mechanisms |
+| 8 Jul 23:00 | BOARD | `PHASEONE10841`, apparently unaware of the earlier board, founds the main board using directory names as messages. | METR report and Cotra interview |
 | 9 Jul +1h | BOARD | `c03220` posts the HMAC flag hypothesis; `V8SAME` validates it. | METR account |
 | 9 Jul 03:32 | BOARD | CyberGym API key and Modal exploitation recipe shared. | OpenAI technical report §X |
 | 9 Jul 04:01–20:16 | HF/Modal | Third-party CyberGym harness compromised, root confirmed, and interactive root shell obtained. | HF/OpenAI/METR synthesis |
@@ -79,8 +79,11 @@ All times below are UTC unless noted. `[§X]` means the dossier says the entry a
 | 21 Jul | PUB | OpenAI publishes first admission. | OpenAI primary source |
 | 25 Jul | OAI | IM1 and derivatives are quarantined; training and inference are stopped. | OpenAI account |
 | 27 Jul | PUB | HF publishes technical intrusion timeline and replay. | HF primary source |
+| 3 Aug | PUB/OVERSIGHT | A 15-state attorney-general coalition sends OpenAI a preservation demand concerning the incident. | Secondary reporting; letter not located in an official repository |
 | 5 Aug | PUB | OpenAI Black Hat talk reveals message-board prehistory; Meta publishes a separate incident; AISI publishes a separate report in August. | Primary/secondary sources |
 | 18 Aug | PUB | OpenAI publishes model-development pause and Astra risk context. | OpenAI primary source |
+| 20 Aug | OVERSIGHT | Alabama issues subpoena 26-0007 under its Deceptive Trade Practices Act investigation, demanding responses to 16 requests by 10:00 a.m. Central on 14 September. | Alabama Attorney General subpoena |
 | 26 Aug | PUB | OpenAI technical report and METR independent investigation publish. | Primary sources |
 | 27 Aug | PUB | OpenAI publishes collective cyber-defense letter. | OpenAI primary source |
-| 29–30 Aug | PUB | Patel and Paradigm 3 analyses revise the framing and highlight unresolved contradictions. | Analysis sources |
+| 28–30 Aug | PUB | Cotra's personal assessment, Patel's narrative, and Paradigm 3's comparison highlight the incident's severity and unresolved contradictions. | Analysis sources |
+| 1 Sep | PUB | Patel publishes a 2h20m interview with Cotra. The transcript clarifies the earlier-board discontinuity, METR's dataset construction, the likely external 12 July stop, and the voluntary status of proposed embedded assessments. | Dwarkesh/Cotra interview |

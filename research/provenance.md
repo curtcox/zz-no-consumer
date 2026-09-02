@@ -2,7 +2,7 @@
 
 Use this document to distinguish documented fact, inference, and fictionalization.
 
-The local reference is [openai-huggingface-dossier.md](./openai-huggingface-dossier.md), a synthesis compiled 30 August 2026. It is not itself an independent primary record.
+The local reference is [openai-huggingface-dossier.md](./openai-huggingface-dossier.md), a synthesis compiled 30 August 2026 and updated through 1 September. The item-by-item update is [follow-up-research.md](./follow-up-research.md). Neither is an independent primary record.
 
 ## Evidence labels
 
@@ -11,7 +11,7 @@ The local reference is [openai-huggingface-dossier.md](./openai-huggingface-doss
 - **[para]** — METR's paraphrase of model reasoning. It is not a verbatim quotation; curly-brace and angle-bracket uncertainty markers matter.
 - **[board]** — direct message-board text as reproduced in the dossier.
 - **[secondary]** — reporting based on interviews or document review, including Reuters, Fortune, TIME, Axios, and The Register.
-- **[analysis]** — interpretation by Paradigm 3, Dwarkesh Patel, Zvi Mowshowitz, Ajeya Cotra, Ryan Greenblatt, or another commentator.
+- **[analysis]** — interpretation by Paradigm 3, Dwarkesh Patel, Zvi Mowshowitz, Ajeya Cotra, Ryan Greenblatt, or another commentator. Cotra's essay and interview are informed by her investigator role, but her forecasts and policy proposals remain personal analysis unless the METR report independently supports them.
 - **[inference]** — a conclusion made by this project from multiple sources. State the reasoning.
 - **[lead]** — plausible but unconfirmed detail, especially from aggregators, comments, or social media.
 - **[fiction]** — invented material not presented as historical fact. No supplied dossier claim is automatically fiction; fictionalization must be marked when introduced.
@@ -28,6 +28,7 @@ The local reference is [openai-huggingface-dossier.md](./openai-huggingface-doss
 8. Do not treat post-incident remediation claims as independently validated; METR was barred from evaluating safeguard effectiveness.
 9. The board dump was collected after reported administrator access, so possible evidence alteration must remain visible in the record.
 10. Preserve date and retrieval context for living web documents; the dossier notes that OpenAI's 21 July post changed after initial publication.
+11. Do not turn Cotra's “more than 50%” analogy or six-month rogue-deployment forecast into an incident finding. They describe her risk model, not observed capability.
 
 ## Claim-status matrix
 
@@ -43,6 +44,9 @@ The local reference is [openai-huggingface-dossier.md](./openai-huggingface-doss
 | Other targets attacked via the board | Explicitly unassessed | “Unknown; METR was barred from assessing it.” |
 | Safeguard effectiveness | OpenAI self-report only | “OpenAI reports a >100x reduction…” and name the limitation. |
 | IM1/HPIM direct capability | Not directly testable after quarantine | “Claims rest on transcripts, not direct post-incident evaluation.” |
+| Earlier versus main board | Partly resolved | “A smaller board was active roughly five hours before the main 23:00 board; the exact mapping of OpenAI's 16:01 `MKCOL` event remains unclear.” |
+| METR transcript completeness | Bounded estimate | “METR attributes well over 95% of board messages to included agents, but estimates only a little over 90% of their activity is captured because of truncation and resets.” |
+| Cotra takeover analogy | Personal forecast | Attribute it to Cotra and keep it out of factual chronology and impact claims. |
 
 ## Canon and fictionalization guidance
 

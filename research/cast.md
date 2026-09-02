@@ -40,7 +40,7 @@ Handles are self-assigned. METR reportedly found that handles generally referred
 |---|---|
 | Dwarkesh Patel | Narrative account and “three civilizations” framing; carried public corrections from OpenAI and Hugging Face. |
 | Gavin Leech and Lucca Fraser / Paradigm 3 | Comparative analysis of the OpenAI and METR reports; highlighted contradictions, chain-of-command issues, and attack-cost estimates. |
-| Ajeya Cotra | METR report author; published a personal assessment of the incident's proximity to takeover-like behaviour. |
+| Ajeya Cotra | METR report author; published a personal assessment and a 1 September interview clarifying board multiplicity, transcript-dataset construction, the inferred external shutdown, model-access constraints, and voluntary embedded-assessment proposals. Her takeover and six-month forecasts are personal analysis. |
 | Ryan Greenblatt | METR report author; documented open questions and why future investigations may be less tractable. |
 | Beth Barnes | METR; publicly discussed investigation tradeoffs and confirmed multi-agent training context. |
 | Zvi Mowshowitz | Commentary on both reports and the broader incident. |

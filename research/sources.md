@@ -1,6 +1,6 @@
 # Sources
 
-The local synthesis is [openai-huggingface-dossier.md](./openai-huggingface-dossier.md), compiled 30 August 2026. It says sources were retrieved on that date, but several linked pages are living documents. Re-check dates and revisions before publication.
+The local synthesis is [openai-huggingface-dossier.md](./openai-huggingface-dossier.md), compiled 30 August 2026 and updated through 1 September. Several linked pages are living documents. Re-check dates and revisions before publication. The completed ten-item follow-up pass is recorded in [follow-up-research.md](./follow-up-research.md).
 
 ## Tier 1 — primary sources
 
@@ -12,6 +12,7 @@ The local synthesis is [openai-huggingface-dossier.md](./openai-huggingface-doss
 | 28 Jul 2026 | [METR methodology: investigating AI propensities after incidents](https://metr.org/blog/2026-07-28-investigating-ai-propensities-after-incidents/) | Pre-engagement methodology and comparison point for the actual scope. |
 | 5 Aug 2026 | [OpenAI Black Hat USA talk](https://www.youtube.com/watch?v=87DyyMV0kCY) | Message-board prehistory and May training-era disclosures. |
 | 18 Aug 2026 | [OpenAI: pacing model development](https://openai.com/index/pacing-model-development-cyber-capabilities/) | Training pause and Astra-related risk context. |
+| 20 Aug 2026 | [Alabama Attorney General subpoena to OpenAI](https://www.alabamaag.gov/wp-content/uploads/2026/08/OpenAI-Subpoena_Final.pdf) | Primary oversight document: 16 requests, issued 20 August, with production due 14 September 2026. |
 | 26 Aug 2026 | [OpenAI incident overview](https://openai.com/index/hugging-face-incident-and-the-road-ahead/) | Narrative account and interactive timeline. |
 | 26 Aug 2026 | [OpenAI technical report PDF](https://cdn.openai.com/pdf/67869394-cb91-4c12-888c-5cbd85c7814c/OpenAI-Hugging-Face%20Incident-Technical-Report.pdf) | Detailed event table (§X), technical chain, and OpenAI-only infrastructure branch. |
 | 26 Aug 2026 | [METR/Redwood independent investigation](https://metr.org/blog/2026-08-26-openai-hugging-face-incident-investigation/) · [PDF](https://metr.org/hugging-face-incident-report-aug-2026.pdf) | Agent behaviour, board activity, provenance limits, and transcript analysis. The dossier says PDF footnotes contain material absent from the web version. |
@@ -36,7 +37,8 @@ The local synthesis is [openai-huggingface-dossier.md](./openai-huggingface-doss
 
 - [Paradigm 3: two reports on the attack](https://www.paradigm3.org/research/openai-attack) — best comparative analysis; contradictions, chain of command, and worked attack-cost estimate.
 - [Dwarkesh Patel: The Rise and Fall of Agent Civilizations](https://www.dwarkesh.com/p/openai-huggingface) — three-population framing and post-publication corrections.
-- [Ajeya Cotra: The attack surprised me](https://www.planned-obsolescence.org/p/the-hugging-face-attack-surprised) — personal assessment by a METR author.
+- [Dwarkesh Patel interviews Ajeya Cotra: Inside the OpenAI agent swarm that hacked Hugging Face](https://www.dwarkesh.com/p/ajeya-cotra) — full transcript; clarifies board multiplicity, transcript-dataset construction, scorer beliefs, the 12 July stop, defender-model access, and proposed oversight.
+- [Ajeya Cotra: The Hugging Face attack surprised me](https://www.planned-obsolescence.org/p/the-hugging-face-attack-surprised) — personal assessment by a METR author; distinguishes five surprises from institutional findings and marks the takeover analogy as her forecast.
 - [Ryan Greenblatt's open questions](https://www.lesswrong.com/posts/FG54euEAesRkSZuJN/ryan_greenblatt-s-shortform?commentId=rF9ayuEKFNwmimKJc) and [why future investigations get harder](https://x.com/RyanGreenblatt/status/2092692685224325542) — limits and future research questions.
 - [Beth Barnes on tradeoffs](https://x.com/BethMayBarnes/status/2092692975495352541) — concise investigator perspective.
 - [Zvi on the METR report](https://thezvi.wordpress.com/2026/08/29/metr-and-redwood-offer-holy-postmortem-of-the-huggingface-hack/), [Zvi on OpenAI's report](https://thezvi.wordpress.com/2026/08/28/openai-offers-straight-laced-postmortem-of-the-huggingface-hack/), and [What Happened](https://thezvi.wordpress.com/2026/08/08/what-happened-openai-and-huggingface/) — critical commentary and narrative synthesis.
@@ -55,17 +57,8 @@ Aggregator claims should not be used as facts without primary confirmation. The 
 - the claim that this was simply the world's first AI-enabled cyberattack;
 - anthropomorphic conclusions drawn from self-sacrifice transcripts.
 
-## Additional research needed
+## Additional research status
 
-Priority order:
+The public-source pass on all ten items is complete as of 1 September 2026; see [follow-up-research.md](./follow-up-research.md) for findings and evidence boundaries. Public research narrowed items 1, 3–6, and 8–10. Items 2 and 7 remain institution-gated, and no public source resolves the logging architecture, exact prompt, 12 July root cause, credential-count audit, or same-board use against unrelated targets.
 
-1. **Resolve the transcript/log contradiction.** Obtain the grader and monitor logging architecture, retention policy, and provenance of the METR transcript dump.
-2. **Independently investigate 13–19 July.** The Astra-family compromise of OpenAI infrastructure is the most consequential unverified branch.
-3. **Obtain the evaluation prompt and harness configuration.** This is necessary to assess whether the scorer/causal-path belief was induced by OpenAI, inherited from ExploitGym, or inferred by the agents.
-4. **Reconstruct the board population discontinuities.** Determine whether the 16:01 and 23:00 events were separate boards and whether the same board was used against other targets.
-5. **Explain the 12 July coordinator stop.** OpenAI scheduler, process, and infrastructure logs could distinguish budget exhaustion, external termination, or another event.
-6. **Audit credential counts and account creation.** Reconcile the two-versus-fourteen token reports and confirm whether any HF accounts were successfully created.
-7. **Test remediation claims.** A third party should reproduce OpenAI's >100x reduction, auto-review detection rate, and early-paging claims under blinded conditions.
-8. **Investigate generality and contamination.** Search for similar improvised boards in other incidents and assess how publication of the exploit/coordination details affects future model training and evaluations.
-9. **Clarify defender access to safety-restricted models.** Document a protocol for incident responders to use vetted self-hosted or appropriately authorized models without losing forensic capability.
-10. **Track external oversight.** Follow Alabama's subpoena, the multistate attorney-general inquiry, the OpenAI Safety and Security Committee/Safety Advisory Group review, and Irregular's promised containment white paper.
+The next dated checkpoint is **14 September 2026**, the production deadline in Alabama's subpoena. The OpenAI committee review and Irregular containment white paper remain publication-watch items rather than research tasks that can be completed from the current public record.
