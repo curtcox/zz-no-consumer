@@ -38,6 +38,14 @@ article { min-width: 0; }
 article img { max-width: 100%; height: auto; }
 article blockquote { margin: 1.5rem 0; padding: .75rem 1rem; border-left: 3px solid var(--accent); color: var(--muted); }
 article code { padding: .15rem .3rem; background: var(--panel); }
+article pre { overflow-x: auto; padding: 1rem; border: 1px solid var(--line); background: var(--panel); }
+article pre code { padding: 0; background: transparent; }
+.table-wrap { margin: 1.5rem 0; overflow-x: auto; border: 1px solid var(--line); }
+article table { width: 100%; border-collapse: collapse; font-size: .92rem; line-height: 1.45; }
+article th, article td { padding: .7rem .8rem; border-right: 1px solid var(--line); border-bottom: 1px solid var(--line); text-align: left; vertical-align: top; }
+article th { color: var(--accent); background: var(--panel); font: 700 .78rem/1.35 system-ui, sans-serif; letter-spacing: .04em; text-transform: uppercase; }
+article tr:last-child td { border-bottom: 0; }
+article th:last-child, article td:last-child { border-right: 0; }
 
 aside { align-self: start; position: sticky; top: 1rem; padding: 1.25rem; border: 1px solid var(--line); background: var(--panel); }
 aside h2 { margin-top: 0; font-size: 1rem; }

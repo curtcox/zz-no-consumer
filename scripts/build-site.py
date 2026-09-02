@@ -17,7 +17,14 @@ OUT = ROOT / "docs"
 def inline(text: str) -> str:
     text = html.escape(text, quote=False)
     text = re.sub(r"!\[([^]]*)\]\(([^)]+)\)", r'<img src="\2" alt="\1">', text)
-    text = re.sub(r"\[([^]]+)\]\(([^)]+)\)", r'<a href="\2">\1</a>', text)
+
+    def link(match: re.Match[str]) -> str:
+        label, target = match.groups()
+        if not re.match(r"^[a-z][a-z0-9+.-]*://", target, flags=re.IGNORECASE) and not target.startswith("#"):
+            target = re.sub(r"\.md(?=([?#]|$))", ".html", target)
+        return f'<a href="{target}">{label}</a>'
+
+    text = re.sub(r"\[([^]]+)\]\(([^)]+)\)", link, text)
     text = re.sub(r"`([^`]+)`", r"<code>\1</code>", text)
     text = re.sub(r"\*\*([^*]+)\*\*", r"<strong>\1</strong>", text)
     text = re.sub(r"(?<!\*)\*([^*]+)\*(?!\*)", r"<em>\1</em>", text)
@@ -29,7 +36,11 @@ def markdown_to_html(source: str) -> str:
     result: list[str] = []
     paragraph: list[str] = []
     list_items: list[str] = []
+    list_tag = "ul"
     quote_lines: list[str] = []
+    code_lines: list[str] = []
+    code_language = ""
+    in_code = False
 
     def flush_paragraph() -> None:
         if paragraph:
@@ -38,7 +49,7 @@ def markdown_to_html(source: str) -> str:
 
     def flush_list() -> None:
         if list_items:
-            result.append("<ul>" + "".join(f"<li>{item}</li>" for item in list_items) + "</ul>")
+            result.append(f"<{list_tag}>" + "".join(f"<li>{item}</li>" for item in list_items) + f"</{list_tag}>")
             list_items.clear()
 
     def flush_quote() -> None:
@@ -46,10 +57,62 @@ def markdown_to_html(source: str) -> str:
             result.append(f"<blockquote><p>{inline(' '.join(quote_lines))}</p></blockquote>")
             quote_lines.clear()
 
-    for raw in lines:
+    def flush_blocks() -> None:
+        flush_paragraph(); flush_list(); flush_quote()
+
+    def table_cells(line: str) -> list[str]:
+        return [cell.strip() for cell in line.strip().strip("|").split("|")]
+
+    def is_table_separator(line: str) -> bool:
+        cells = table_cells(line)
+        return bool(cells) and all(re.fullmatch(r":?-{3,}:?", cell) for cell in cells)
+
+    index = 0
+    while index < len(lines):
+        raw = lines[index]
         line = raw.strip()
+
+        if line.startswith("```"):
+            if in_code:
+                language_attr = f' class="language-{html.escape(code_language)}"' if code_language else ""
+                result.append(f"<pre><code{language_attr}>{html.escape(chr(10).join(code_lines))}</code></pre>")
+                code_lines.clear()
+                code_language = ""
+                in_code = False
+            else:
+                flush_blocks()
+                code_language = line[3:].strip()
+                in_code = True
+            index += 1
+            continue
+
+        if in_code:
+            code_lines.append(raw)
+            index += 1
+            continue
+
+        if (
+            line.startswith("|")
+            and index + 1 < len(lines)
+            and is_table_separator(lines[index + 1].strip())
+        ):
+            flush_blocks()
+            headers = table_cells(line)
+            index += 2
+            rows: list[list[str]] = []
+            while index < len(lines) and lines[index].strip().startswith("|"):
+                rows.append(table_cells(lines[index].strip()))
+                index += 1
+            head = "".join(f"<th>{inline(cell)}</th>" for cell in headers)
+            body_rows = []
+            for row in rows:
+                padded = row + [""] * max(0, len(headers) - len(row))
+                body_rows.append("<tr>" + "".join(f"<td>{inline(cell)}</td>" for cell in padded[:len(headers)]) + "</tr>")
+            result.append(f"<div class=\"table-wrap\"><table><thead><tr>{head}</tr></thead><tbody>{''.join(body_rows)}</tbody></table></div>")
+            continue
+
         if line.startswith("#"):
-            flush_paragraph(); flush_list(); flush_quote()
+            flush_blocks()
             level = min(len(line) - len(line.lstrip("#")), 6)
             result.append(f"<h{level}>{inline(line[level:].strip())}</h{level}>")
         elif line.startswith(">"):
@@ -57,14 +120,27 @@ def markdown_to_html(source: str) -> str:
             quote_lines.append(line[1:].strip())
         elif re.match(r"^[-*] ", line):
             flush_paragraph(); flush_quote()
+            if list_items and list_tag != "ul":
+                flush_list()
+            list_tag = "ul"
             list_items.append(inline(line[2:]))
+        elif re.match(r"^\d+\. ", line):
+            flush_paragraph(); flush_quote()
+            if list_items and list_tag != "ol":
+                flush_list()
+            list_tag = "ol"
+            list_items.append(inline(re.sub(r"^\d+\. ", "", line)))
         elif not line:
-            flush_paragraph(); flush_list(); flush_quote()
+            flush_blocks()
         else:
             flush_list(); flush_quote()
             paragraph.append(line)
+        index += 1
 
-    flush_paragraph(); flush_list(); flush_quote()
+    if in_code:
+        language_attr = f' class="language-{html.escape(code_language)}"' if code_language else ""
+        result.append(f"<pre><code{language_attr}>{html.escape(chr(10).join(code_lines))}</code></pre>")
+    flush_blocks()
     return "\n".join(result)
 
 

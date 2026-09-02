@@ -4,6 +4,7 @@ A graphic novel about emergent AI agent coordination, instrumental convergence, 
 ## Repository map
 
 - `content/` — canonical human-editable story material.
+- `content/parallel-tracks/` — optional companion-track briefs that do not alter the canonical 112-page narrative.
 - `prompts/` — image-generation prompts and page-specific direction.
 - `research/` — source material, timeline, cast, glossary, and provenance notes.
 - `design/` — lettering, page grammar, palette, and layout references.
@@ -20,6 +21,8 @@ python3 scripts/validate-continuity.py
 ```
 
 The scene-level evidence boundary is tracked in `research/scene-provenance.md`, and the canonical page-script shape is in `design/page-script-template.md`.
+
+The proposed inside-the-collective documentary is scoped in `content/parallel-tracks/messages-from-the-board.md`; its primary-source artifact gate is `research/agent-message-ledger.md`.
 
 ## Local site build
 

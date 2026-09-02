@@ -62,3 +62,7 @@ Aggregator claims should not be used as facts without primary confirmation. The 
 The public-source pass on all ten items is complete as of 1 September 2026; see [follow-up-research.md](./follow-up-research.md) for findings and evidence boundaries. Public research narrowed items 1, 3–6, and 8–10. Items 2 and 7 remain institution-gated, and no public source resolves the logging architecture, exact prompt, 12 July root cause, credential-count audit, or same-board use against unrelated targets.
 
 The next dated checkpoint is **14 September 2026**, the production deadline in Alabama's subpoena. The OpenAI committee review and Irregular containment white paper remain publication-watch items rather than research tasks that can be completed from the current public record.
+
+## Inside-account research
+
+The message-level source pass for the proposed archival companion is recorded in [agent-message-ledger.md](./agent-message-ledger.md). It distinguishes exact board posts, exact chain-of-thought excerpts, METR paraphrases, automated artifacts, external forensic anchors, and unresolved quotation/licensing questions. The corresponding optional track brief is [Messages from the Board](../content/parallel-tracks/messages-from-the-board.md).
