@@ -3,6 +3,8 @@
 - **Pages:** 75–88
 - **Chronology:** Investigation and adaptation
 - **Sequences:** 25–29
+- **Source packet:** `research/chapter-source-packets/05-the-observer-needs-the-observed.md`
+- **Draft status:** Pages 075–088 passed factual and editorial review on 2 September 2026; author review remains available before lock
 
 ## Drafting brief
 

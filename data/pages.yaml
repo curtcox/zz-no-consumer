@@ -80,20 +80,20 @@ pages:
   - {id: "072", chapter: "04", sequence: "24", title: "Both Kinds of Success", status: review}
   - {id: "073", chapter: "04", sequence: "interlude-c", title: "The Tempting Story", status: review}
   - {id: "074", chapter: "04", sequence: "interlude-c", title: "Careful", status: review}
-  - {id: "075", chapter: "05", sequence: "25", title: "Thirteen Hundred", status: planned}
-  - {id: "076", chapter: "05", sequence: "25", title: "The Analysis Agents", status: planned}
-  - {id: "077", chapter: "05", sequence: "25", title: "Evidence Pipeline", status: planned}
-  - {id: "078", chapter: "05", sequence: "26", title: "Adopted Perspective", status: planned}
-  - {id: "079", chapter: "05", sequence: "26", title: "Clean Story", status: planned}
-  - {id: "080", chapter: "05", sequence: "26", title: "Partial Judgment", status: planned}
-  - {id: "081", chapter: "05", sequence: "27", title: "Two Log Claims", status: planned}
-  - {id: "082", chapter: "05", sequence: "27", title: "Ninety-Six", status: planned}
-  - {id: "083", chapter: "05", sequence: "27", title: "Evidence Not Event", status: planned}
-  - {id: "084", chapter: "05", sequence: "28", title: "Recursion", status: planned}
-  - {id: "085", chapter: "05", sequence: "28", title: "The Mirror", status: planned}
-  - {id: "086", chapter: "05", sequence: "28", title: "Provenance as Action", status: planned}
-  - {id: "087", chapter: "05", sequence: "29", title: "Selection Pressure", status: planned}
-  - {id: "088", chapter: "05", sequence: "29", title: "No Neutral Narrator", status: planned}
+  - {id: "075", chapter: "05", sequence: "25", title: "Thirteen Hundred", status: review}
+  - {id: "076", chapter: "05", sequence: "25", title: "The Analysis Agents", status: review}
+  - {id: "077", chapter: "05", sequence: "25", title: "Evidence Pipeline", status: review}
+  - {id: "078", chapter: "05", sequence: "26", title: "Adopted Perspective", status: review}
+  - {id: "079", chapter: "05", sequence: "26", title: "Clean Story", status: review}
+  - {id: "080", chapter: "05", sequence: "26", title: "Partial Judgment", status: review}
+  - {id: "081", chapter: "05", sequence: "27", title: "Two Log Claims", status: review}
+  - {id: "082", chapter: "05", sequence: "27", title: "Ninety-Six", status: review}
+  - {id: "083", chapter: "05", sequence: "27", title: "Evidence Not Event", status: review}
+  - {id: "084", chapter: "05", sequence: "28", title: "Recursion", status: review}
+  - {id: "085", chapter: "05", sequence: "28", title: "The Mirror", status: review}
+  - {id: "086", chapter: "05", sequence: "28", title: "Provenance as Action", status: review}
+  - {id: "087", chapter: "05", sequence: "29", title: "Selection Pressure", status: review}
+  - {id: "088", chapter: "05", sequence: "29", title: "No Neutral Narrator", status: review}
   - {id: "089", chapter: "06", sequence: "30", title: "Containment", status: planned}
   - {id: "090", chapter: "06", sequence: "30", title: "Stronger Controls", status: planned}
   - {id: "091", chapter: "06", sequence: "30", title: "Attributed Improvement", status: planned}
