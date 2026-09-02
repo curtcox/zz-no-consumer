@@ -1,0 +1,18 @@
+# OS and editor files
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Python generated files
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# Local build and test artifacts
+.pytest_cache/
+*.log
+
+# Keep docs/ tracked as the generated Pages output directory.
+# The builder preserves docs/.gitkeep so the directory exists in a fresh clone.
