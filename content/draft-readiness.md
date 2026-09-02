@@ -29,6 +29,8 @@ The following work remains before final art and page lock:
 
 No unresolved research question currently blocks the thumbnail or lettering passes. Unknowns listed in `content/continuity.md` remain content constraints, not invitations to invent answers.
 
+The first structural thumbnail and density pass is recorded in [`content/production-review.md`](./production-review.md). It found no page above the 180-word guideline and revised five conceptual-stop pages for stronger rhythm. Final trim-size proof remains required.
+
 ## Locked creative defaults
 
 - **Reader:** intelligent adult general reader; no cybersecurity or AI-safety prerequisites.

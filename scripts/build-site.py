@@ -635,6 +635,7 @@ def main() -> int:
     index_body = (
         '<p>Canonical story material, visual direction, research, and production notes.</p>'
         '<p><a class="viewer-callout" href="viewer/">Open the graphic novel viewer validation build →</a></p>'
+        '<p><a class="viewer-callout" href="production/thumbnails/">Open the provisional 57-spread thumbnail wall →</a></p>'
         f'<h2>Browse the project</h2><div class="cards">{index_cards}</div>'
     )
     (OUT / "index.html").write_text(

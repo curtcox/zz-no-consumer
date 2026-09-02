@@ -32,6 +32,9 @@ jobs:
       - name: Build site
         run: python scripts/build-site.py
 
+      - name: Build production thumbnail wall
+        run: python scripts/make-thumbnails.py
+
       - name: Validate viewer routes
         run: python scripts/validate-viewer.py
 

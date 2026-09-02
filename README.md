@@ -43,6 +43,14 @@ Validate the entire generated route graph with:
 python3 scripts/validate-viewer.py
 ```
 
+Generate the provisional 57-spread production contact sheet with:
+
+```sh
+python3 scripts/make-thumbnails.py
+```
+
+The result is `docs/production/thumbnails/index.html`. Its panel geometry is a review aid rather than locked layout; findings and required print proofs are tracked in `content/production-review.md`.
+
 ## GitHub Pages
 
 `.github/workflows/pages.yml` builds and deploys the site whenever `main` changes. In the repository settings, set **Pages → Build and deployment → Source** to **GitHub Actions** once. The workflow can also be started manually with **Actions → Publish GitHub Pages → Run workflow**.
