@@ -4,7 +4,7 @@
 
 This is the last-mile source check for scripting. It does not replace the sequence ledger. It records what can safely be quoted or asserted on story pages and what still requires attribution, paraphrase, or visible uncertainty.
 
-Primary pages were rechecked on 1 September 2026. The main narrative cutoff remains 30 August; the 1 September check is used only to correct or narrow existing incident claims.
+Primary pages were rechecked on 1 September 2026. All registered display strings received a character-level proof on 2 September 2026; results and the unresolved publication-rights gate are recorded in [`exact-text-permissions-audit.md`](./exact-text-permissions-audit.md). The main narrative cutoff remains 30 August; these checks are used only to correct or narrow existing incident claims.
 
 ## Directly verified material
 

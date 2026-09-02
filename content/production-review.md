@@ -86,6 +86,7 @@ No turn currently depends on concealing a fact already known to the viewpoint. S
 
 ## Remaining production checks
 
+- The exact-text proof is complete; keep the affected pages in `review` until the publication-rights dispositions in [`research/exact-text-permissions-audit.md`](../research/exact-text-permissions-audit.md) are resolved.
 - Proof pages 003, 004, 036, 057–060, 079, 081, 091, 100–102, and 112 at intended print size because they contain exact strings, unusually long captions, or evidence-card typography.
 - Draw genuine thumbnail geometry for every page; the generated contact sheet is a rhythm map, not a layout decision.
 - Confirm all full-width and tall panels leave safe areas for captions and do not place essential text in the gutter.

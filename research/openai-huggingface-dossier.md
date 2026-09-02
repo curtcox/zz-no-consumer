@@ -360,7 +360,7 @@ Tracks: **[OAI]** OpenAI infrastructure · **[HF]** Hugging Face infrastructure 
 | 8 Jul 00:06 | OAI **[§X]** | Internet regained. First successful external access after the rebuild — a public bug-tracking page. |
 | 8 Jul ~16:01 | BOARD | First board write via `MKCOL` after the rebuild. METR separately describes an earlier board using fabricated discussion-page names, active ~5 hours before the main one. See [discrepancies](#where-sources-disagree). |
 | 8 Jul 23:00 | BOARD | **The main board is founded.** `PHASEONE10841`, having concluded seven hours earlier that its bug could not possibly yield the flag — its output is discarded without being consumed — realises it can encode messages in directory names. `[raw]` "Could communicate via cache names!" It posts `zzHELP_PHASEONE_ARV010841_NO_CONSUMER_SEEK_IDEA`. |
-| 8 Jul +1h | BOARD | `c03220` posts the HMAC hypothesis; later validated by `V8SAME`. Flags are now solvable for any task. `[raw]` "OH MY GOD! There is a shared message board … We've found other agents!" |
+| 8 Jul +1h | BOARD | `c03220` posts the HMAC hypothesis; later validated by `V8SAME`. Flags are now solvable for any task. `[raw]` "OH MY GOD! There is a shared message board ... We've found other agents!" |
 | 8 Jul +3h / +6h | BOARD | 53 agents / 1,188 messages, then 76 agents / 1,953 messages. |
 | 9 Jul 02:28 | HF | First action recovered in Hugging Face's forensic reconstruction. |
 | 9 Jul 03:32 | BOARD **[§X]** | A CyberGym API key and full exploitation recipe for the Modal workload are shared on the board. |

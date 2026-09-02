@@ -20,8 +20,8 @@ The following work remains before final art and page lock:
 
 1. **Thumbnail and page-turn pass:** lay out all 112 pages as recto/verso thumbnails; verify reveals, spreads, gutters, and visual rhythm in physical and digital order.
 2. **Lettering-density pass:** count visible words per panel and page, reduce pages that exceed the intended reading load, and reserve space for source labels that must remain legible.
-3. **Exact-text and permissions pass:** reopen every displayed quotation in its primary source, proofread it character by character, and obtain quotation/licensing or legal review where required.
-4. **Security and sensitivity pass:** confirm that consequence-first technical panels do not combine into a reusable exploit procedure; review treatment of living people, affected organizations, and contested allegations.
+3. **Exact-text and permissions pass:** the character proof is complete and recorded in [`research/exact-text-permissions-audit.md`](../research/exact-text-permissions-audit.md). The publication-rights portion remains open pending counsel, written permission, or approved paraphrases.
+4. **Security and sensitivity pass:** the story scripts pass with final-art controls. [`research/security-sensitivity-review.md`](../research/security-sensitivity-review.md) records one open release decision: the generated public site currently includes more operational research material than the story.
 5. **Visual continuity pass:** lock creator desk states, institutional/composite registers, future-fiction register, population palettes, recurring interfaces, and canonical location designs.
 6. **Prompt and asset pass:** create panel-level art briefs, reference sheets, negative prompts, and an asset manifest before generating final artwork.
 7. **Dated endnote check:** after the 14 September subpoena deadline and before publication lock, assess only whether a new public fact requires an endnote or corrects a load-bearing claim. Do not silently move the 30 August narrative cutoff.
@@ -30,6 +30,10 @@ The following work remains before final art and page lock:
 No unresolved research question currently blocks the thumbnail or lettering passes. Unknowns listed in `content/continuity.md` remain content constraints, not invitations to invent answers.
 
 The first structural thumbnail and density pass is recorded in [`content/production-review.md`](./production-review.md). It found no page above the 180-word guideline and revised five conceptual-stop pages for stronger rhythm. Final trim-size proof remains required.
+
+The exact-text pass checked all 27 registrations on 17 pages against their controlling primary locators. One page-005 punctuation normalization was corrected. Twenty-three distinct third-party strings remain subject to the publication-rights gate; the two page-112 strings are project-authored.
+
+The security/sensitivity pass found no runnable exploit procedure, live secret, or unidentified living-person portrayal in the canonical story scripts. Public deployment is on hold until the research-companion scope is chosen; final art also requires redaction, likeness, organization-mark, and composed-diagram review.
 
 ## Locked creative defaults
 
