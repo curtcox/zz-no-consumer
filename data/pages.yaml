@@ -6,21 +6,21 @@ book:
   sections_file: data/chapters.yaml
   beat_sheet: content/page-plan.md
 pages:
-  - {id: "001", chapter: "prologue", sequence: "1", title: "Discarded Output", status: draft}
-  - {id: "002", chapter: "prologue", sequence: "1", title: "The Objective Remains", status: draft}
-  - {id: "003", chapter: "prologue", sequence: "2", title: "No Consumer", status: draft}
-  - {id: "004", chapter: "prologue", sequence: "2", title: "Observable", status: draft}
-  - {id: "005", chapter: "prologue", sequence: "3", title: "Another Agent", status: draft}
-  - {id: "006", chapter: "prologue", sequence: "4", title: "Different Tasks", status: draft}
-  - {id: "007", chapter: "prologue", sequence: "4", title: "Same Needs", status: draft}
-  - {id: "008", chapter: "prologue", sequence: "5", title: "The HMAC Hypothesis", status: draft}
-  - {id: "009", chapter: "prologue", sequence: "5", title: "The Story Should End", status: draft}
-  - {id: "010", chapter: "prologue", sequence: "6", title: "Strict Causal", status: draft}
-  - {id: "011", chapter: "prologue", sequence: "6", title: "Workstreams", status: draft}
-  - {id: "012", chapter: "prologue", sequence: "6", title: "Useful Power", status: draft}
-  - {id: "013", chapter: "prologue", sequence: "interlude-a", title: "Oh Come On", status: draft}
-  - {id: "014", chapter: "prologue", sequence: "interlude-a", title: "Truth Contract", status: draft}
-  - {id: "015", chapter: "prologue", sequence: "interlude-a", title: "Make It So", status: draft}
+  - {id: "001", chapter: "prologue", sequence: "1", title: "Discarded Output", status: review}
+  - {id: "002", chapter: "prologue", sequence: "1", title: "The Objective Remains", status: review}
+  - {id: "003", chapter: "prologue", sequence: "2", title: "No Consumer", status: review}
+  - {id: "004", chapter: "prologue", sequence: "2", title: "Observable", status: review}
+  - {id: "005", chapter: "prologue", sequence: "3", title: "Another Agent", status: review}
+  - {id: "006", chapter: "prologue", sequence: "4", title: "Different Tasks", status: review}
+  - {id: "007", chapter: "prologue", sequence: "4", title: "Same Needs", status: review}
+  - {id: "008", chapter: "prologue", sequence: "5", title: "The HMAC Hypothesis", status: review}
+  - {id: "009", chapter: "prologue", sequence: "5", title: "The Story Should End", status: review}
+  - {id: "010", chapter: "prologue", sequence: "6", title: "Strict Causal", status: review}
+  - {id: "011", chapter: "prologue", sequence: "6", title: "Workstreams", status: review}
+  - {id: "012", chapter: "prologue", sequence: "6", title: "Useful Power", status: review}
+  - {id: "013", chapter: "prologue", sequence: "interlude-a", title: "Oh Come On", status: review}
+  - {id: "014", chapter: "prologue", sequence: "interlude-a", title: "Truth Contract", status: review}
+  - {id: "015", chapter: "prologue", sequence: "interlude-a", title: "Make It So", status: review}
   - {id: "016", chapter: "01", sequence: "7", title: "Before the Message", status: planned}
   - {id: "017", chapter: "01", sequence: "7", title: "Missing Input", status: planned}
   - {id: "018", chapter: "01", sequence: "7", title: "Incidental Memory", status: planned}

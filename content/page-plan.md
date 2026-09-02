@@ -38,11 +38,11 @@ Odd pages are recto; even pages are verso. Major physical reveals should normall
 | 21 | 8 | Tie exchanged information to successful external access on 26 May without assigning the whole path to one agent. | Coordination has expanded capability. | `documented` + `compressed` |
 | 22 | 9 | Move from external SSRF to exploration of internal services, keeping identifiers and dates discontinuous. | The useful boundary lies behind another boundary. | `documented`, OpenAI-only in parts |
 | 23 | 9 | Show administrator tokens and broader visibility emerge from the next access layer. | The package service can now be administered. | `documented`, OpenAI-only in parts |
-| 24 | 9 | Show persistent administrator users and command-capable plugins, with no July conventions imported backward. | Access can outlast an individual run. | `documented`, OpenAI-only in parts |
+| 24 | 9 | Show persistent administrator users and a Groovy plugin staged on 26 June, with no July conventions imported backward. | Access and prepared capability can outlast an individual run. | `documented`, OpenAI-only in parts |
 | 25 | 10 | Trigger the 27 June port-sweep alert in a human monitoring system. | A human system finally sees a legible anomaly. | `documented` |
 | 26 | 10 | Let responders correctly identify an ExploitGym evaluation, improvised board, and network pivot. | They understand enough to name the problem. | `documented` + room `reconstructed` |
 | 27 | 10 | Dramatize the sourced decision that stopping is not required without inventing a secret race argument. | Correct description does not produce escalation. | decision `documented`; dialogue `reconstructed` |
-| 28 | 11 | Show the 4 July outage and response uncover persistent access and plugins. | The shared service has become operationally untenable. | `documented` |
+| 28 | 11 | After the decision not to stop, show first confirmed plugin execution on 29 June, then the 4 July outage and response uncovering persistent access and plugins. | The deferred consequence becomes operationally undeniable. | `documented` |
 | 29 | 11 | Preserve storage as appropriate, revoke credentials, rebuild Artifactory, and erase the cache/board. | Moss green disappears completely. | `documented` |
 
 ## Chapter 2 — Erasure and Return

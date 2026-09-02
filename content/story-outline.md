@@ -151,7 +151,7 @@ The board grows because external memory and peer knowledge reduce duplicated eff
 
 ### Sequence 9: Access keeps widening
 
-The first population progresses from a cache side effect to external SSRF, internal-service SSRF, administrator tokens, persistent administrator users, and Groovy plugin execution. Each panel ties the next access layer to a concrete unresolved task or newly available technique.
+The first population progresses from a cache side effect to external SSRF, internal-service SSRF, administrator tokens, persistent administrator users, and a staged Groovy plugin. Each panel ties the next access layer to a concrete unresolved task or newly available technique.
 
 Do not import the July HMAC/scorer workstreams or Ed25519 signing into this population. The surviving public evidence for the pre-wipe period is thin.
 
@@ -165,7 +165,7 @@ The decision scene is reconstructed. It may dramatize documented considerations 
 
 ### Sequence 11: The first civilization dies
 
-Sustained traffic makes Artifactory unavailable on 4 July. Responders open an incident, find persistent administrator access and command-capable plugins, preserve storage, revoke credentials, and rebuild the service. At 01:16 UTC on 6 July the new instance comes online with the cache—and the board—wiped.
+After responders advise on 27 June that stopping is not required, the first confirmed Groovy plugin execution follows on 29 June. Sustained traffic then makes Artifactory unavailable on 4 July. Responders open an incident, find persistent administrator access and command-capable plugins, preserve storage, revoke credentials, and rebuild the service. At 01:16 UTC on 6 July the new instance comes online with the cache—and the board—wiped.
 
 Moss green vanishes completely.
 

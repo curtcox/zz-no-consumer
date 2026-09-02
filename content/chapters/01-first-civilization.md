@@ -3,6 +3,8 @@
 - **Pages:** 16–29
 - **Chronology:** 20 April–6 July 2026
 - **Sequences:** 7–11
+- **Source packet:** `research/chapter-source-packets/01-first-civilization.md`
+- **Draft status:** Source packet ready; pages 016–029 planned
 
 ## Drafting brief
 
