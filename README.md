@@ -35,6 +35,14 @@ open docs/index.html
 
 The builder converts Markdown in `content/`, `prompts/`, `research/`, and `design/` into a browsable HTML site and copies files from `assets/` and `site/` as appropriate.
 
+The generated site also includes an isolated viewer validation section at `docs/viewer/`. It publishes stable directory-style routes for the viewer home, chapter overviews, pages, panel images, and their information views before final artwork exists. Every view exposes up, down, left, right, in, out, and home links; the matching keyboard shortcuts are Arrow keys, Enter, Escape, and H.
+
+Validate the entire generated route graph with:
+
+```sh
+python3 scripts/validate-viewer.py
+```
+
 ## GitHub Pages
 
 `.github/workflows/pages.yml` builds and deploys the site whenever `main` changes. In the repository settings, set **Pages → Build and deployment → Source** to **GitHub Actions** once. The workflow can also be started manually with **Actions → Publish GitHub Pages → Run workflow**.

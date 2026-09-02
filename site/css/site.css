@@ -58,6 +58,19 @@ aside li { margin: .35rem 0; }
 .card h3 { margin: 0 0 .35rem; color: var(--ink); }
 .card p { margin: 0; color: var(--muted); font-size: .95rem; }
 
+.viewer-callout {
+  display: inline-block;
+  margin: 1rem 0 2rem;
+  padding: .8rem 1rem;
+  border: 1px solid var(--accent);
+  color: var(--ink);
+  background: var(--panel);
+  font: 700 .82rem/1.2 system-ui, sans-serif;
+  text-decoration: none;
+}
+
+.viewer-callout:hover { color: var(--paper); background: var(--accent); }
+
 footer { padding: 1.5rem 0 3rem; border-top: 1px solid var(--line); color: var(--muted); font: .85rem system-ui, sans-serif; }
 
 @media (max-width: 760px) {

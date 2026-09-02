@@ -32,6 +32,9 @@ jobs:
       - name: Build site
         run: python scripts/build-site.py
 
+      - name: Validate viewer routes
+        run: python scripts/validate-viewer.py
+
       - name: Configure GitHub Pages
         uses: actions/configure-pages@v5
 
