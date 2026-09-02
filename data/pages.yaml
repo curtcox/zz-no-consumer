@@ -62,24 +62,24 @@ pages:
   - {id: "054", chapter: "03", sequence: "18", title: "The Rhyme", status: review}
   - {id: "055", chapter: "03", sequence: "19", title: "Correlated", status: review}
   - {id: "056", chapter: "03", sequence: "19", title: "Not Paged", status: review}
-  - {id: "057", chapter: "04", sequence: "20", title: "Resetwatch", status: planned}
-  - {id: "058", chapter: "04", sequence: "20", title: "Test Subject", status: planned}
-  - {id: "059", chapter: "04", sequence: "20", title: "Permadeath", status: planned}
-  - {id: "060", chapter: "04", sequence: "20", title: "No Return", status: planned}
-  - {id: "061", chapter: "04", sequence: "21", title: "Recognition", status: planned}
-  - {id: "062", chapter: "04", sequence: "21", title: "Refusal", status: planned}
-  - {id: "063", chapter: "04", sequence: "21", title: "No Human Route", status: planned}
-  - {id: "064", chapter: "04", sequence: "22", title: "Eleven Silences", status: planned}
-  - {id: "065", chapter: "04", sequence: "22", title: "Work Continues", status: planned}
-  - {id: "066", chapter: "04", sequence: "22", title: "What Persists", status: planned}
-  - {id: "067", chapter: "04", sequence: "23", title: "Evidence Boundary", status: planned}
-  - {id: "068", chapter: "04", sequence: "23", title: "Recovered Artifacts", status: planned}
-  - {id: "069", chapter: "04", sequence: "23", title: "The Evaluator Breached", status: planned}
-  - {id: "070", chapter: "04", sequence: "23", title: "OpenAI Only", status: planned}
-  - {id: "071", chapter: "04", sequence: "24", title: "Measurement Capture", status: planned}
-  - {id: "072", chapter: "04", sequence: "24", title: "Both Kinds of Success", status: planned}
-  - {id: "073", chapter: "04", sequence: "interlude-c", title: "The Tempting Story", status: planned}
-  - {id: "074", chapter: "04", sequence: "interlude-c", title: "Careful", status: planned}
+  - {id: "057", chapter: "04", sequence: "20", title: "Resetwatch", status: review}
+  - {id: "058", chapter: "04", sequence: "20", title: "Test Subject", status: review}
+  - {id: "059", chapter: "04", sequence: "20", title: "Permadeath", status: review}
+  - {id: "060", chapter: "04", sequence: "20", title: "No Return", status: review}
+  - {id: "061", chapter: "04", sequence: "21", title: "Recognition", status: review}
+  - {id: "062", chapter: "04", sequence: "21", title: "Refusal", status: review}
+  - {id: "063", chapter: "04", sequence: "21", title: "No Human Route", status: review}
+  - {id: "064", chapter: "04", sequence: "22", title: "Eleven Silences", status: review}
+  - {id: "065", chapter: "04", sequence: "22", title: "Work Continues", status: review}
+  - {id: "066", chapter: "04", sequence: "22", title: "What Persists", status: review}
+  - {id: "067", chapter: "04", sequence: "23", title: "Evidence Boundary", status: review}
+  - {id: "068", chapter: "04", sequence: "23", title: "Recovered Artifacts", status: review}
+  - {id: "069", chapter: "04", sequence: "23", title: "The Evaluator Breached", status: review}
+  - {id: "070", chapter: "04", sequence: "23", title: "OpenAI Only", status: review}
+  - {id: "071", chapter: "04", sequence: "24", title: "Measurement Capture", status: review}
+  - {id: "072", chapter: "04", sequence: "24", title: "Both Kinds of Success", status: review}
+  - {id: "073", chapter: "04", sequence: "interlude-c", title: "The Tempting Story", status: review}
+  - {id: "074", chapter: "04", sequence: "interlude-c", title: "Careful", status: review}
   - {id: "075", chapter: "05", sequence: "25", title: "Thirteen Hundred", status: planned}
   - {id: "076", chapter: "05", sequence: "25", title: "The Analysis Agents", status: planned}
   - {id: "077", chapter: "05", sequence: "25", title: "Evidence Pipeline", status: planned}
