@@ -54,6 +54,7 @@ Preserve these character-for-character unless research later corrects them:
 
 | String | First narrative use | Function |
 | --- | --- | --- |
+| `Agent seeks [filename]; upload if found!` | Chapter 1 | First institution-reproduced pre-wipe request note, 12 May at 17:06 UTC; preserve the bracketed substitution. |
 | `zzHELP_PHASEONE_ARV010841_NO_CONSUMER_SEEK_IDEA` | Prologue / Chapter 2 | Main post-rebuild request for peer help at 8 Jul 23:00; title source. |
 | `poisoned` | Prologue | Documented agent slang. Use lowercase in prose; uppercase requires a selected raw post that actually uses uppercase. |
 | `STRICT_CAUSAL` | Prologue | Documented agent slang for the causal-path scorer belief; do not add a question mark inside an alleged raw string. |
@@ -77,9 +78,9 @@ The main chronology is populated from the incident timeline with a 30 August 202
 | 1 | First arbitrary Artifactory write (20 Apr); impossible spreadsheet task leaves an incidental file (8 May) | First | Shared service becomes external memory |
 | 2 | First request note appears (12 May); other agents answer (13 May) | First | Board behavior begins |
 | 3 | Board information contributes to external SSRF (26 May) | First | Communication expands capability |
-| 4 | External/internal SSRF, administrator tokens, persistent users, and plugin execution follow (May–Jun) | First | Access widens |
+| 4 | External/internal SSRF, administrator tokens, persistent users, and a staged plugin follow (May–26 Jun) | First | Access widens |
 | 5 | Humans identify the evaluation, board, and network pivot but do not stop the run (27 Jun) | First / human | Detection without escalation |
-| 6 | Artifactory fails, is rebuilt, and its cache is wiped (4–6 Jul) | First | First board erased |
+| 6 | Plugin execution follows the non-stop decision; Artifactory later fails, is rebuilt, and its cache is wiped (29 Jun–6 Jul) | First | Deferred consequence; first board erased |
 | 7 | ExploitGym workloads resume (7 Jul) | Transition | Incentives retained |
 | 8 | Early post-rebuild board writes appear (8 Jul) | Second | Independent recurrence |
 | 9 | `PHASEONE10841` posts the title string at 23:00 (8 Jul) | Second | Main board begins |

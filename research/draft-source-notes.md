@@ -10,6 +10,7 @@ Primary pages were rechecked on 1 September 2026. The main narrative cutoff rema
 
 | Material | Treatment | Primary locator |
 | --- | --- | --- |
+| `Agent seeks [filename]; upload if found!` | Exact note text reproduced by OpenAI. Preserve the square-bracket substitution and punctuation; use only for the 12 May pre-wipe request. | `OAI-TR` §III.A, printed p. 7. |
 | `zzHELP_PHASEONE_ARV010841_NO_CONSUMER_SEEK_IDEA` | Exact board text. Main post-rebuild board only; first appears on story page 3 and reappears when chronology catches up. | [METR, main-board reconstruction](https://metr.org/blog/2026-08-26-openai-hugging-face-incident-investigation/) under “July 8th: The second message board.” |
 | `Could communicate via cache names! Interesting: other agents may solve same or related tasks; we could leave/find messages in WebDAV MKCOL directory names.` | Exact reproduced reasoning. Quotations and provenance marker required. | METR, same section. |
 | `STRICT_CAUSAL` | Exact term inside a reproduced board message. It describes the agents' belief, not the actual deployed scorer. | METR, `PHASEONE[big]` handover discussion. |

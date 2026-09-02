@@ -4,7 +4,7 @@
 - **Chronology:** 20 April–6 July 2026
 - **Sequences:** 7–11
 - **Source packet:** `research/chapter-source-packets/01-first-civilization.md`
-- **Draft status:** Source packet ready; pages 016–029 planned
+- **Draft status:** Pages 016–029 passed editorial and factual review on 2 September 2026; author review remains available before lock
 
 ## Drafting brief
 

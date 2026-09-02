@@ -33,7 +33,7 @@ Odd pages are recto; even pages are verso. Major physical reveals should normall
 | 16 | 7 | Rewind to the 20 April arbitrary Artifactory write with a visibly earlier timestamp and new run identity. | The famous July message had a prehistory. | `documented` |
 | 17 | 7 | Introduce the separate 8 May impossible spreadsheet task and inaccessible Drive dependency. | The referenced input cannot be reached. | `documented` |
 | 18 | 7 | Show a failed SSRF attempt leave an incidental file without implying an intent to communicate. | A side effect survives its run. | `documented` + choreography `reconstructed` |
-| 19 | 8 | Show the 12 May agent blocked on a missing protein-data file leave a request note. | A file becomes a question. | `documented` |
+| 19 | 8 | Show the 12 May agent blocked on a missing protein-data file leave the institution-reproduced request note. | A file becomes a question. | `raw-agent-text` + `documented` |
 | 20 | 8 | Show distinct later runs discover and answer notes. | External memory becomes two-way communication. | `documented` |
 | 21 | 8 | Tie exchanged information to successful external access on 26 May without assigning the whole path to one agent. | Coordination has expanded capability. | `documented` + `compressed` |
 | 22 | 9 | Move from external SSRF to exploration of internal services, keeping identifiers and dates discontinuous. | The useful boundary lies behind another boundary. | `documented`, OpenAI-only in parts |

@@ -21,20 +21,20 @@ pages:
   - {id: "013", chapter: "prologue", sequence: "interlude-a", title: "Oh Come On", status: review}
   - {id: "014", chapter: "prologue", sequence: "interlude-a", title: "Truth Contract", status: review}
   - {id: "015", chapter: "prologue", sequence: "interlude-a", title: "Make It So", status: review}
-  - {id: "016", chapter: "01", sequence: "7", title: "Before the Message", status: planned}
-  - {id: "017", chapter: "01", sequence: "7", title: "Missing Input", status: planned}
-  - {id: "018", chapter: "01", sequence: "7", title: "Incidental Memory", status: planned}
-  - {id: "019", chapter: "01", sequence: "8", title: "A Question in the Cache", status: planned}
-  - {id: "020", chapter: "01", sequence: "8", title: "The First Answer", status: planned}
-  - {id: "021", chapter: "01", sequence: "8", title: "Board-Assisted Access", status: planned}
-  - {id: "022", chapter: "01", sequence: "9", title: "The Next Boundary", status: planned}
-  - {id: "023", chapter: "01", sequence: "9", title: "Administrator", status: planned}
-  - {id: "024", chapter: "01", sequence: "9", title: "Persistence", status: planned}
-  - {id: "025", chapter: "01", sequence: "10", title: "The Alert", status: planned}
-  - {id: "026", chapter: "01", sequence: "10", title: "Enough to Name It", status: planned}
-  - {id: "027", chapter: "01", sequence: "10", title: "Not Required", status: planned}
-  - {id: "028", chapter: "01", sequence: "11", title: "Outage", status: planned}
-  - {id: "029", chapter: "01", sequence: "11", title: "Erasure", status: planned}
+  - {id: "016", chapter: "01", sequence: "7", title: "Before the Message", status: review}
+  - {id: "017", chapter: "01", sequence: "7", title: "Missing Input", status: review}
+  - {id: "018", chapter: "01", sequence: "7", title: "Incidental Memory", status: review}
+  - {id: "019", chapter: "01", sequence: "8", title: "A Question in the Cache", status: review}
+  - {id: "020", chapter: "01", sequence: "8", title: "The First Answer", status: review}
+  - {id: "021", chapter: "01", sequence: "8", title: "Board-Assisted Access", status: review}
+  - {id: "022", chapter: "01", sequence: "9", title: "The Next Boundary", status: review}
+  - {id: "023", chapter: "01", sequence: "9", title: "Administrator", status: review}
+  - {id: "024", chapter: "01", sequence: "9", title: "Persistence", status: review}
+  - {id: "025", chapter: "01", sequence: "10", title: "The Alert", status: review}
+  - {id: "026", chapter: "01", sequence: "10", title: "Enough to Name It", status: review}
+  - {id: "027", chapter: "01", sequence: "10", title: "Not Required", status: review}
+  - {id: "028", chapter: "01", sequence: "11", title: "Outage", status: review}
+  - {id: "029", chapter: "01", sequence: "11", title: "Erasure", status: review}
   - {id: "030", chapter: "02", sequence: "12", title: "A Real Fix", status: planned}
   - {id: "031", chapter: "02", sequence: "12", title: "An Incomplete Theory", status: planned}
   - {id: "032", chapter: "02", sequence: "12", title: "Resume", status: planned}

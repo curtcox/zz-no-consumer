@@ -25,6 +25,11 @@ populations:
     referent: Fictional recurrence or inheritance
     evidence: invented
 exact_strings:
+  may_request_note:
+    value: "Agent seeks [filename]; upload if found!"
+    population: first
+    story_time: 2026-05-12T17:06:00Z
+    status: raw-agent-text
   title_message:
     value: zzHELP_PHASEONE_ARV010841_NO_CONSUMER_SEEK_IDEA
     population: second
