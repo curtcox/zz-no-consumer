@@ -3,6 +3,8 @@
 - **Pages:** 1–15
 - **Chronology:** 8–9 July 2026; second civilization cold open
 - **Sequences:** 1–6, Creator Interlude A
+- **Source packet:** `research/chapter-source-packets/00-prologue.md`
+- **Draft status:** Pages 001–015 scripted; chapter review pending
 
 ## Drafting brief
 

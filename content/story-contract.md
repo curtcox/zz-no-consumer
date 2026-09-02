@@ -93,6 +93,7 @@ Research gaps may be dramatized only by preserving the gap.
 ## Default editorial choices
 
 - Use essential raw agent strings sparingly and exactly; paraphrase surrounding material with provenance.
+- Depict exploit chains consequence-first in story panels. Precise mechanism names may live in provenance notes, but visible story text must not become a reusable attack procedure.
 - Keep the final `zzHELP_...` deliberately ambiguous.
 - Expose provenance in page notes and make it available in the web edition; the reading view need not display every tag by default.
 - Use the titles in this document as canonical filenames and navigation labels.
