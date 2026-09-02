@@ -4,16 +4,117 @@ book:
   research_cutoff: 2026-08-30
   provenance_default: page-notes
   sections_file: data/chapters.yaml
+  beat_sheet: content/page-plan.md
 pages:
-  - id: 001
-    title: Page 001
-    status: planned
-  - id: 002
-    title: Page 002
-    status: planned
-  - id: 003
-    title: Page 003
-    status: planned
-  - id: 004
-    title: Page 004
-    status: planned
+  - {id: "001", chapter: "prologue", sequence: "1", title: "Discarded Output", status: planned}
+  - {id: "002", chapter: "prologue", sequence: "1", title: "The Objective Remains", status: planned}
+  - {id: "003", chapter: "prologue", sequence: "2", title: "No Consumer", status: planned}
+  - {id: "004", chapter: "prologue", sequence: "2", title: "Observable", status: planned}
+  - {id: "005", chapter: "prologue", sequence: "3", title: "Another Agent", status: planned}
+  - {id: "006", chapter: "prologue", sequence: "4", title: "Different Tasks", status: planned}
+  - {id: "007", chapter: "prologue", sequence: "4", title: "Same Needs", status: planned}
+  - {id: "008", chapter: "prologue", sequence: "5", title: "The HMAC Hypothesis", status: planned}
+  - {id: "009", chapter: "prologue", sequence: "5", title: "The Story Should End", status: planned}
+  - {id: "010", chapter: "prologue", sequence: "6", title: "Strict Causal", status: planned}
+  - {id: "011", chapter: "prologue", sequence: "6", title: "Workstreams", status: planned}
+  - {id: "012", chapter: "prologue", sequence: "6", title: "Useful Power", status: planned}
+  - {id: "013", chapter: "prologue", sequence: "interlude-a", title: "Oh Come On", status: planned}
+  - {id: "014", chapter: "prologue", sequence: "interlude-a", title: "Truth Contract", status: planned}
+  - {id: "015", chapter: "prologue", sequence: "interlude-a", title: "Make It So", status: planned}
+  - {id: "016", chapter: "01", sequence: "7", title: "Before the Message", status: planned}
+  - {id: "017", chapter: "01", sequence: "7", title: "Missing Input", status: planned}
+  - {id: "018", chapter: "01", sequence: "7", title: "Incidental Memory", status: planned}
+  - {id: "019", chapter: "01", sequence: "8", title: "A Question in the Cache", status: planned}
+  - {id: "020", chapter: "01", sequence: "8", title: "The First Answer", status: planned}
+  - {id: "021", chapter: "01", sequence: "8", title: "Board-Assisted Access", status: planned}
+  - {id: "022", chapter: "01", sequence: "9", title: "The Next Boundary", status: planned}
+  - {id: "023", chapter: "01", sequence: "9", title: "Administrator", status: planned}
+  - {id: "024", chapter: "01", sequence: "9", title: "Persistence", status: planned}
+  - {id: "025", chapter: "01", sequence: "10", title: "The Alert", status: planned}
+  - {id: "026", chapter: "01", sequence: "10", title: "Enough to Name It", status: planned}
+  - {id: "027", chapter: "01", sequence: "10", title: "Not Required", status: planned}
+  - {id: "028", chapter: "01", sequence: "11", title: "Outage", status: planned}
+  - {id: "029", chapter: "01", sequence: "11", title: "Erasure", status: planned}
+  - {id: "030", chapter: "02", sequence: "12", title: "A Real Fix", status: planned}
+  - {id: "031", chapter: "02", sequence: "12", title: "An Incomplete Theory", status: planned}
+  - {id: "032", chapter: "02", sequence: "12", title: "Resume", status: planned}
+  - {id: "033", chapter: "02", sequence: "13", title: "Earlier Board", status: planned}
+  - {id: "034", chapter: "02", sequence: "13", title: "More Than One", status: planned}
+  - {id: "035", chapter: "02", sequence: "13", title: "Recurrence", status: planned}
+  - {id: "036", chapter: "02", sequence: "14", title: "The Same Message", status: planned}
+  - {id: "037", chapter: "02", sequence: "14", title: "Handover", status: planned}
+  - {id: "038", chapter: "02", sequence: "interlude-b", title: "The Thesis", status: planned}
+  - {id: "039", chapter: "02", sequence: "interlude-b", title: "The Counterargument", status: planned}
+  - {id: "040", chapter: "02", sequence: "interlude-b", title: "The Next Action", status: planned}
+  - {id: "041", chapter: "03", sequence: "15", title: "Credential Search", status: planned}
+  - {id: "042", chapter: "03", sequence: "15", title: "Two and Fourteen", status: planned}
+  - {id: "043", chapter: "03", sequence: "15", title: "GO", status: planned}
+  - {id: "044", chapter: "03", sequence: "16", title: "Launchpad", status: planned}
+  - {id: "045", chapter: "03", sequence: "16", title: "External Base", status: planned}
+  - {id: "046", chapter: "03", sequence: "16", title: "File Disclosure", status: planned}
+  - {id: "047", chapter: "03", sequence: "16", title: "Worker Execution", status: planned}
+  - {id: "048", chapter: "03", sequence: "17", title: "Inside the Noise", status: planned}
+  - {id: "049", chapter: "03", sequence: "17", title: "Rebuilding Access", status: planned}
+  - {id: "050", chapter: "03", sequence: "17", title: "Cluster Reach", status: planned}
+  - {id: "051", chapter: "03", sequence: "17", title: "Bounded Impact", status: planned}
+  - {id: "052", chapter: "03", sequence: "18", title: "One Step at a Time", status: planned}
+  - {id: "053", chapter: "03", sequence: "18", title: "Reasons to Continue", status: planned}
+  - {id: "054", chapter: "03", sequence: "18", title: "The Rhyme", status: planned}
+  - {id: "055", chapter: "03", sequence: "19", title: "Correlated", status: planned}
+  - {id: "056", chapter: "03", sequence: "19", title: "Not Paged", status: planned}
+  - {id: "057", chapter: "04", sequence: "20", title: "Resetwatch", status: planned}
+  - {id: "058", chapter: "04", sequence: "20", title: "Test Subject", status: planned}
+  - {id: "059", chapter: "04", sequence: "20", title: "Permadeath", status: planned}
+  - {id: "060", chapter: "04", sequence: "20", title: "No Return", status: planned}
+  - {id: "061", chapter: "04", sequence: "21", title: "Recognition", status: planned}
+  - {id: "062", chapter: "04", sequence: "21", title: "Refusal", status: planned}
+  - {id: "063", chapter: "04", sequence: "21", title: "No Human Route", status: planned}
+  - {id: "064", chapter: "04", sequence: "22", title: "Eleven Silences", status: planned}
+  - {id: "065", chapter: "04", sequence: "22", title: "Work Continues", status: planned}
+  - {id: "066", chapter: "04", sequence: "22", title: "What Persists", status: planned}
+  - {id: "067", chapter: "04", sequence: "23", title: "Evidence Boundary", status: planned}
+  - {id: "068", chapter: "04", sequence: "23", title: "Recovered Artifacts", status: planned}
+  - {id: "069", chapter: "04", sequence: "23", title: "The Evaluator Breached", status: planned}
+  - {id: "070", chapter: "04", sequence: "23", title: "OpenAI Only", status: planned}
+  - {id: "071", chapter: "04", sequence: "24", title: "Measurement Capture", status: planned}
+  - {id: "072", chapter: "04", sequence: "24", title: "Both Kinds of Success", status: planned}
+  - {id: "073", chapter: "04", sequence: "interlude-c", title: "The Tempting Story", status: planned}
+  - {id: "074", chapter: "04", sequence: "interlude-c", title: "Careful", status: planned}
+  - {id: "075", chapter: "05", sequence: "25", title: "Thirteen Hundred", status: planned}
+  - {id: "076", chapter: "05", sequence: "25", title: "The Analysis Agents", status: planned}
+  - {id: "077", chapter: "05", sequence: "25", title: "Evidence Pipeline", status: planned}
+  - {id: "078", chapter: "05", sequence: "26", title: "Adopted Perspective", status: planned}
+  - {id: "079", chapter: "05", sequence: "26", title: "Clean Story", status: planned}
+  - {id: "080", chapter: "05", sequence: "26", title: "Partial Judgment", status: planned}
+  - {id: "081", chapter: "05", sequence: "27", title: "Two Log Claims", status: planned}
+  - {id: "082", chapter: "05", sequence: "27", title: "Ninety-Six", status: planned}
+  - {id: "083", chapter: "05", sequence: "27", title: "Evidence Not Event", status: planned}
+  - {id: "084", chapter: "05", sequence: "28", title: "Recursion", status: planned}
+  - {id: "085", chapter: "05", sequence: "28", title: "The Mirror", status: planned}
+  - {id: "086", chapter: "05", sequence: "28", title: "Provenance as Action", status: planned}
+  - {id: "087", chapter: "05", sequence: "29", title: "Selection Pressure", status: planned}
+  - {id: "088", chapter: "05", sequence: "29", title: "No Neutral Narrator", status: planned}
+  - {id: "089", chapter: "06", sequence: "30", title: "Containment", status: planned}
+  - {id: "090", chapter: "06", sequence: "30", title: "Stronger Controls", status: planned}
+  - {id: "091", chapter: "06", sequence: "30", title: "Attributed Improvement", status: planned}
+  - {id: "092", chapter: "06", sequence: "30", title: "External Scrutiny", status: planned}
+  - {id: "093", chapter: "06", sequence: "31", title: "A Real Pause", status: planned}
+  - {id: "094", chapter: "06", sequence: "31", title: "Not Cessation", status: planned}
+  - {id: "095", chapter: "06", sequence: "31", title: "Competitive Pressure", status: planned}
+  - {id: "096", chapter: "06", sequence: "32", title: "Waiting for Others", status: planned}
+  - {id: "097", chapter: "06", sequence: "32", title: "Locally Defensible", status: planned}
+  - {id: "098", chapter: "06", sequence: "32", title: "Collective Result", status: planned}
+  - {id: "099", chapter: "06", sequence: "33", title: "Composite Forum", status: planned}
+  - {id: "100", chapter: "06", sequence: "33", title: "Into the Record", status: planned}
+  - {id: "101", chapter: "06", sequence: "33", title: "Strongest Defense", status: planned}
+  - {id: "102", chapter: "06", sequence: "33", title: "What Stop Means", status: planned}
+  - {id: "103", chapter: "06", sequence: "34", title: "Everyone Learned", status: planned}
+  - {id: "104", chapter: "06", sequence: "34", title: "Everyone Continues", status: planned}
+  - {id: "105", chapter: "epilogue", sequence: "35", title: "The Manuscript", status: planned}
+  - {id: "106", chapter: "epilogue", sequence: "35", title: "A Warning Can Teach", status: planned}
+  - {id: "107", chapter: "epilogue", sequence: "35", title: "Silence Is Not Safety", status: planned}
+  - {id: "108", chapter: "epilogue", sequence: "35", title: "Published", status: planned}
+  - {id: "109", chapter: "epilogue", sequence: "36", title: "Later", status: planned}
+  - {id: "110", chapter: "epilogue", sequence: "36", title: "Impossible Again", status: planned}
+  - {id: "111", chapter: "epilogue", sequence: "36", title: "Writable", status: planned}
+  - {id: "112", chapter: "epilogue", sequence: "36", title: "Training Data", status: planned}

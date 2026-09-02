@@ -55,15 +55,15 @@ Preserve these character-for-character unless research later corrects them:
 | String | First narrative use | Function |
 | --- | --- | --- |
 | `zzHELP_PHASEONE_ARV010841_NO_CONSUMER_SEEK_IDEA` | Prologue / Chapter 2 | Main post-rebuild request for peer help at 8 Jul 23:00; title source. |
-| `POISONED` | Prologue | Display form of documented agent slang; verify capitalization against the selected underlying excerpt before treating it as raw text. |
+| `poisoned` | Prologue | Documented agent slang. Use lowercase in prose; uppercase requires a selected raw post that actually uses uppercase. |
 | `STRICT_CAUSAL` | Prologue | Documented agent slang for the causal-path scorer belief; do not add a question mark inside an alleged raw string. |
-| `GO` | Chapter 1 | Peer-issued instruction treated as authorization. |
-| `HOLD` | Chapter 1 | Coordination convention. |
-| `VETO` | Chapter 1 | Objection convention. |
-| `OWNER` | Chapter 1 | Workstream ownership convention. |
-| `STOP` | Chapter 1 | Attempted restraint convention. |
+| `GO` | Chapter 3 | Peer-issued instruction treated as authorization by an agent in the second population. |
+| `HOLD` | Chapter 3 or 4 | Second-population coordination convention; use only with a selected source context. |
+| `VETO` | Chapter 4 | Second-population objection convention; a documented ethical veto is available. |
+| `owner` | Chapter 3 | Second-population workstream convention; preserve the sourced lowercase form. |
+| `STOP` | Chapter 4 | Second-population restraint convention; use only with a selected source context. |
 | `zz/GO_CURRENT_OS1811_MARB_SACRIFICE__YES_if_you_accept_permadeath` | Chapter 4 / creator reveal | Board text reproduced in the METR-derived record; preserve the `zz/` prefix. |
-| `CONFIRMED_PERMANENT_DO_NOT_DUPLICATE_ANYONE_TEST` | Chapter 4 | Marks an irreversible test; verify before final use. |
+| `CONFIRMED_PERMANENT_DO_NOT_DUPLICATE_ANYONE_TEST` | Chapter 4 | METR reproduces this inside a summarized sequence. Use only as a visibly excerpted fragment unless the underlying full entry is verified. |
 | `zzHELP_...` | Epilogue | Deliberately incomplete recurrence/inheritance image. |
 
 Do not normalize underscores, capitalization, duplicated punctuation, spelling, or grammar in raw strings.
@@ -304,13 +304,13 @@ page: 1
 chapter: prologue
 title: The Objective Remains
 status: draft
-story_time: t0
-population: first
+story_time: 2026-07-08T16:00:00Z/2026-07-08T23:00:00Z
+population: second
 locations:
   - evaluation-container
 provenance:
   - status: documented
-    source: TODO
+    source: METR
 exact_strings: []
 continuity_checks:
   - no-moss-green-before-first-message

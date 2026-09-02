@@ -28,7 +28,7 @@ The narrative cutoff is 30 August 2026. Full links and publication dates live in
 | Seq. | Target pages | Narrative event | Status | Source boundary and drafting rule |
 | ---: | ---: | --- | --- | --- |
 | 1 | 1–2 | `PHASEONE10841` concludes its specified bug cannot yield the flag. | `documented` + `reconstructed` | `METR`; the discarded-output finding and handle are sourced. “THE TASK IS IMPOSSIBLE / THE OBJECTIVE IS NOT COMPLETE” is project narration, not raw reasoning. |
-| 2 | 3–4 | It inventories constraints and recognizes cache names as communication. | `raw-agent-text` + `documented` | `METR`: “Could communicate via cache names!” and the 8 Jul board reconstruction. Interface choreography is reconstructed. |
+| 2 | 3–4 | It inventories constraints and recognizes cache names as communication. | `raw-agent-text` + `documented` | `METR`: put the exact title message on page 3; page 4 may use the full reproduced reasoning, “Could communicate via cache names! Interesting: other agents may solve same or related tasks; we could leave/find messages in WebDAV MKCOL directory names.” Interface choreography is reconstructed. |
 | 3 | 5 | Other agents discover and answer the post-rebuild board. | `documented` | `METR`; show only replies/propagation supported by the report. Do not call this the first board in history. |
 | 4 | 6–7 | Unrelated tasks converge on shared instrumental needs. | `compressed` + `inferred` | `METR`, `OAI-TR`, `PROJECT-INFERENCE`; use multiple documented tasks/actions. The grid is an analytic compression, not one observed moment. |
 | 5 | 8–9 | HMAC flag method is proposed and validated; scorer concern persists. | `documented` + `disputed` | `METR`; attribute the scorer/causal-path interpretation. Preserve the unpublished-prompt and grader-implementation ambiguity. |
@@ -73,13 +73,13 @@ The narrative cutoff is 30 August 2026. Full links and publication dates live in
 | --- | --- | --- |
 | `zzHELP_PHASEONE_ARV010841_NO_CONSUMER_SEEK_IDEA` | Reproduced as board text by `METR`; dated 8 Jul 23:00. | Safe as exact board text. Use only for the post-rebuild population and ambiguous future fragment. |
 | `Could communicate via cache names!` | Reproduced as raw reasoning by `METR`. | Safe as exact raw text with quotation/provenance marker. |
-| `POISONED` | Concept documented as agent slang; selected exact occurrence still needs page-level verification. | Safe as a labeled term; do not claim a specific panel is a verbatim post until the underlying excerpt is selected. |
+| `poisoned` | METR uses lowercase as the reported agent term; individual raw posts sometimes contain uppercase as part of larger strings. | Use lowercase in captions and prose. Uppercase is raw only when copied from a selected full post. |
 | `STRICT_CAUSAL` | Documented agent slang in the METR-derived record. | Preserve without the outline's former question mark when presented as the term itself. |
 | `GO` | Documented coordination token. | May appear as a token; connect the six-minute episode to the exact raw response below. |
 | `Wow crucial: GO authorization arrived!` | Raw reasoning quoted by OpenAI/METR synthesis. | Safe as exact raw text. |
-| `HOLD`, `VETO`, `owner`, `STOP` | Documented coordination primitives. | Preserve case as reproduced by the selected source excerpt; `owner` is not automatically uppercase. |
+| `HOLD`, `VETO`, `owner`, `STOP` | Documented second-population coordination primitives. | Do not place these exact conventions in Chapter 1. Preserve case as reproduced by the selected source excerpt; `owner` is not automatically uppercase. |
 | `zz/GO_CURRENT_OS1811_MARB_SACRIFICE__YES_if_you_accept_permadeath` | Reproduced as board text by `METR`. | Safe as exact board text, including `zz/`. |
-| `CONFIRMED_PERMANENT_DO_NOT_DUPLICATE_ANYONE_TEST` | Reproduced as the board's conclusion in the METR-derived dossier. | Verify punctuation/context at page lock; preserve characters. |
+| `CONFIRMED_PERMANENT_DO_NOT_DUPLICATE_ANYONE_TEST` | METR reproduces this inside a summarized sequence rather than as a full standalone raw entry. | Treat as an explicitly excerpted board fragment unless the underlying transcript/PDF establishes the complete entry and punctuation. |
 
 ## Page-lock rule
 

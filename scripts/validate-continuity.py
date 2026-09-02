@@ -44,9 +44,12 @@ def main() -> int:
         ROOT / "content" / "continuity.md",
         ROOT / "content" / "story-contract.md",
         ROOT / "content" / "story-outline.md",
+        ROOT / "content" / "draft-readiness.md",
+        ROOT / "content" / "page-plan.md",
         ROOT / "design" / "page-grammar.md",
         ROOT / "design" / "page-script-template.md",
         ROOT / "research" / "scene-provenance.md",
+        ROOT / "research" / "draft-source-notes.md",
     ]
     missing = [str(path.relative_to(ROOT)) for path in required if not path.exists()]
     if missing:
@@ -86,8 +89,22 @@ def main() -> int:
     outline = (ROOT / "content" / "story-outline.md").read_text(encoding="utf-8")
     if "`STRICT_CAUSAL?`" in outline:
         errors.append("Non-canonical exact term remains in story outline: STRICT_CAUSAL?")
+    if "`POISONED`" in outline:
+        errors.append("Unsupported standalone uppercase POISONED remains in story outline")
     if "Cold open, 8–9 July 2026" not in outline:
         errors.append("Story outline does not identify the post-wipe cold open")
+    if "Put the first message on page 3" not in outline:
+        errors.append("Story outline does not lock the title message to page 3")
+
+    continuity = (ROOT / "content" / "continuity.md").read_text(encoding="utf-8")
+    if re.search(r"\| `(?:GO|HOLD|VETO|OWNER|STOP)` \| Chapter 1 \|", continuity):
+        errors.append("A second-population coordination token is still assigned to Chapter 1")
+    if "| `OWNER` |" in continuity:
+        errors.append("Non-canonical uppercase OWNER remains in the exact-string table")
+
+    grammar = (ROOT / "design" / "page-grammar.md").read_text(encoding="utf-8")
+    if "story_time: 2026-05-08" in grammar or re.search(r"chapter: prologue[\s\S]{0,160}population: first", grammar):
+        errors.append("Page-grammar prologue example still uses the first population")
 
     ledger = (ROOT / "research" / "scene-provenance.md").read_text(encoding="utf-8")
     for sequence in range(1, 37):
@@ -96,6 +113,46 @@ def main() -> int:
     for interlude in ("A", "B", "C"):
         if not re.search(rf"^\| {interlude} \|", ledger, re.MULTILINE):
             errors.append(f"Scene ledger missing interlude {interlude}")
+
+    manifest = (ROOT / "data" / "pages.yaml").read_text(encoding="utf-8")
+    manifest_rows = re.findall(
+        r'^\s*- \{id: "(\d{3})", chapter: "([^"]+)", sequence: "([^"]+)", title: "([^"]+)", status: ([a-z-]+)\}$',
+        manifest,
+        re.MULTILINE,
+    )
+    manifest_ids = [int(row[0]) for row in manifest_rows]
+    if manifest_ids != list(range(1, 113)):
+        errors.append("data/pages.yaml must contain ordered manifest rows for pages 001–112 exactly once")
+    if any(row[4] not in {"planned", "draft", "review", "locked", "published"} for row in manifest_rows):
+        errors.append("data/pages.yaml contains an invalid page status")
+    for row in manifest_rows:
+        page_number = int(row[0])
+        expected_chapter = next(
+            (
+                "prologue" if filename == "00-prologue.md" else
+                "epilogue" if filename == "07-epilogue.md" else
+                filename[:2]
+            )
+            for filename, _heading, first_page, last_page in EXPECTED_CHAPTERS
+            if first_page <= page_number <= last_page
+        )
+        if row[1] != expected_chapter:
+            errors.append(f"Manifest page {page_number:03d} is assigned to chapter {row[1]}, expected {expected_chapter}")
+
+    beat_sheet = (ROOT / "content" / "page-plan.md").read_text(encoding="utf-8")
+    beat_rows = re.findall(r"^\| (\d{1,3}) \| ([^|]+?) \|", beat_sheet, re.MULTILINE)
+    beat_pages = [int(row[0]) for row in beat_rows]
+    if beat_pages != list(range(1, 113)):
+        errors.append("content/page-plan.md must assign pages 1–112 exactly once and in order")
+    if len(manifest_rows) == len(beat_rows):
+        sequence_aliases = {"A": "interlude-a", "B": "interlude-b", "C": "interlude-c"}
+        for manifest_row, beat_row in zip(manifest_rows, beat_rows):
+            beat_sequence = sequence_aliases.get(beat_row[1].strip(), beat_row[1].strip())
+            if manifest_row[2] != beat_sequence:
+                errors.append(
+                    f"Manifest/page-plan sequence mismatch on page {manifest_row[0]}: "
+                    f"{manifest_row[2]} != {beat_sequence}"
+                )
 
     page_dir = ROOT / "content" / "pages"
     seen_page_numbers: set[int] = set()
@@ -121,6 +178,13 @@ def main() -> int:
             errors.append(f"Invalid provenance status in {path.relative_to(ROOT)}: {', '.join(invalid)}")
         if "source: TODO" in metadata:
             warnings.append(f"Unresolved source TODO in {path.relative_to(ROOT)}")
+        for field in ("chapter", "sequence", "story_time", "population"):
+            if not re.search(rf"^{field}:\s*\S+", metadata, re.MULTILINE):
+                errors.append(f"Missing {field} in {path.relative_to(ROOT)}")
+        if not statuses:
+            errors.append(f"Missing provenance status in {path.relative_to(ROOT)}")
+        if not re.search(r"^\s+source:\s*\S+", metadata, re.MULTILINE):
+            errors.append(f"Missing provenance source in {path.relative_to(ROOT)}")
 
     if errors:
         print("Continuity validation failed:")

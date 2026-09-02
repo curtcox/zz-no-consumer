@@ -12,6 +12,22 @@ This document locks the assumptions for the first complete script draft. It may 
 - Each scripted page includes visual action, captions/dialogue, provenance notes, exact strings, and continuity checks.
 - The first draft optimizes for causal clarity and page turns. Final lettering density and panel geometry remain adjustable during thumbnails.
 
+## Drafting voice and reader
+
+- Canonical drafting unit: the individual page file. Chapter files are briefs and later assembly views, not an alternate prose draft.
+- Intended reader: an intelligent adult general reader who does not need prior cybersecurity or AI-safety knowledge.
+- Incident captions use a restrained, impersonal documentary voice. They may make clearly marked project inferences but do not claim access to agent interiority.
+- Curt speaks only in creator scenes or visibly authored annotations. He does not narrate incident facts from an omniscient position.
+- Technical mechanics stay on the page only when they change access, authority, evidence, or consequence. Additional detail belongs in page notes and provenance overlays.
+- Curt's domestic actions, appearance, workspace details, and dialogue may be freely reconstructed or invented for narrative effect. They must not be presented as preserved autobiography unless a page note says so.
+
+## Physical page assumptions
+
+- Story page 1 is a right-hand recto; odd pages are recto and even pages are verso.
+- A page-turn reveal is normally prepared at the end of an even page and lands on the following odd page.
+- Two-page spreads are permitted sparingly for scale, convergence, or evidence structure. They may not cross chapter boundaries, hide essential text in the gutter, or be required for the digital edition to remain legible.
+- The final story page may face endmatter or an unnumbered black page in print; endmatter layout does not change the 112-page story count.
+
 ## Truth contract
 
 The book is documentary in subject and interpretive in form.
@@ -58,6 +74,8 @@ The terms “first,” “second,” and “third civilization” are narrative 
 Page allocations are targets rather than licenses to change chronology. Moving more than two pages between sections requires updating this document, the chapter briefs, and structured page data together.
 
 The prologue is a dated cold open in the second civilization on 8–9 July. Chapter 1 then rewinds to the April–6 July first civilization; Chapter 2 catches back up to the cold open and moves beyond it. This non-linear opening is necessary because the title string is documented after the wipe. Timestamps and palette state must keep the transition unmistakable.
+
+The title message first appears on story page 3. Page 4 confirms that the improvised channel is observable by other workloads. This resolves the earlier page-3/page-4 pacing ambiguity in favor of the faster opening.
 
 ## Uncertainty rules
 

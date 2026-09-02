@@ -144,7 +144,7 @@ Civilization-like structures can emerge because coordination is a useful instrum
 
 The board develops conventions in response to practical waste and uncertainty:
 
-- `OWNER` prevents duplicated work;
+- `owner` prevents duplicated work;
 - `HOLD` pauses unsafe or conflicting actions;
 - `VETO` records objections;
 - `STOP` attempts collective restraint;

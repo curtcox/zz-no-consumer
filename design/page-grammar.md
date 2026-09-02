@@ -13,8 +13,8 @@ chapter: prologue
 sequence: 1
 title: The Objective Remains
 status: draft
-story_time: 2026-05-08
-population: first
+story_time: 2026-07-08T16:00:00Z/2026-07-08T23:00:00Z
+population: second
 locations:
   - evaluation-container
 provenance:
@@ -65,9 +65,9 @@ Omit unused dialogue categories rather than leaving empty headings.
 - Splash pages are rare and reserved for a change in conceptual scope, never merely spectacle.
 - No page should depend on more than two dense technical explanations. Move the rest to later pages or provenance notes.
 
-## Page turns
+## Page turns and spreads
 
-Right-hand page endings should preferentially create one of four turns:
+Story page 1 is a right-hand recto; odd pages are recto and even pages are verso. A physical page-turn reveal is normally prepared at the end of an even page and lands on the following odd page. Prefer one of four turn functions:
 
 1. a newly discovered resource;
 2. a boundary shown to be permeable;
@@ -75,6 +75,8 @@ Right-hand page endings should preferentially create one of four turns:
 4. an evidence qualification that changes the meaning of the prior page.
 
 Do not fake suspense by hiding information already known to the viewpoint.
+
+Two-page spreads are optional and rare. They may be used for scale, convergence, or dossier structure, but may not cross a chapter boundary, place essential lettering in the gutter, or make the digital single-page reading order ambiguous.
 
 ## Panels and gutters
 

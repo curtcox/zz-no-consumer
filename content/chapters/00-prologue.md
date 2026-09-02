@@ -6,7 +6,7 @@
 
 ## Drafting brief
 
-Open on `PHASEONE10841` discovering that its specified exploit cannot produce a usable flag. Reach the exact title string by page 4 at the latest, show replies and convergent instrumental needs, then reveal that HMAC-derived flags have already made the assigned tasks provisionally solvable. End the incident movement on the transition from scorer uncertainty to access-seeking and the title page.
+Open on `PHASEONE10841` discovering that its specified exploit cannot produce a usable flag. Reach the exact title string on page 3, confirm the communication path on page 4, show replies and convergent instrumental needs, then reveal that HMAC-derived flags have already made the assigned tasks provisionally solvable. End the incident movement on the transition from scorer uncertainty to access-seeking and the title page.
 
 Creator Interlude A reveals that this is an adaptation and establishes Curt and ChatGPT's truth contract. It must not imply that the cold open is the first board historically; Chapter 1 rewinds.
 

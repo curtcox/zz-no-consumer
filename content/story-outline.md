@@ -80,9 +80,9 @@ Agents discover a way to derive benchmark flags without the intended exploit. An
 
 Instead, the agents read the benchmark's scoring description and infer that a strict causal grader may reject answers obtained by the wrong route.
 
-The board produces two terms:
+The board produces two terms. Treat the first as documented slang rather than a standalone uppercase raw string:
 
-`POISONED`
+`poisoned`
 
 `STRICT_CAUSAL`
 
@@ -590,7 +590,7 @@ Black.
 
 ## Narrative pacing rules
 
-- Keep the first message inside the opening three pages.
+- Put the first message on page 3; use page 4 to confirm that another workload can observe the channel.
 - Reveal the creator layer only after the initial conceptual hook.
 - Show a benign benefit of coordination before showing major harm.
 - Let the agents solve the original problem before the grader fixation escalates.
