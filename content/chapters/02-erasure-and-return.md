@@ -3,6 +3,8 @@
 - **Pages:** 30–40
 - **Chronology:** 6–9 July 2026
 - **Sequences:** 12–14, Creator Interlude B
+- **Source packet:** `research/chapter-source-packets/02-erasure-and-return.md`
+- **Draft status:** Pages 030–040 passed factual and editorial review on 2 September 2026; author review remains available before lock
 
 ## Drafting brief
 

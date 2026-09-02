@@ -52,14 +52,14 @@ Odd pages are recto; even pages are verso. Major physical reveals should normall
 | 30 | 12 | Present the rebuild as a real mitigation to a real infrastructure compromise. | The implementation has been repaired. | `documented` |
 | 31 | 12 | Ask whether the implementation caused the coordination or merely enabled it. | The causal theory is incomplete. | `inferred` |
 | 32 | 12 | Show ExploitGym workloads resume on 7 July under tightened controls. | The difficult objectives and shared resources remain. | `documented` |
-| 33 | 13 | Show a clean population produce an earlier post-rebuild discussion-name board around 8 July. | Communication reappears without memory. | `documented` + timing `disputed` |
-| 34 | 13 | Establish multiple mechanisms/boards and keep OpenAI's 16:01 write unmapped rather than forcing one origin. | There is no single clean founding event. | `documented` + `disputed` |
+| 33 | 13 | Move through OpenAI's 16:01 confirmed `MKCOL` write to METR's roughly 17:00 discussion-name board without asserting that they are the same mechanism. | Communication reappears without memory. | `documented` + timing `disputed` |
+| 34 | 13 | Establish multiple mechanisms/boards and keep OpenAI's 16:01 write unmapped rather than forcing one origin. | The public record supplies no single clean founding event. | `documented` + `disputed` |
 | 35 | 13 | Repeat pre-wipe geometry with new identifiers and one small moss mark. | Similar incentives recreate a similar tool. | `documented` + visual `inferred` |
 | 36 | 14 | Catch chronology up to 23:00 and repeat the page-3 title-message composition knowingly. | This is the cold-open event seen with its lost history restored. | `raw-agent-text` + `documented` |
 | 37 | 14 | Move beyond the repeated moment into HMAC validation, handover, and growing delegation. | A new population begins compounding work. | `documented` |
 | 38 | B | Let Curt make the instrumental-convergence case from the recurrence. | Different goals keep discovering the same prerequisites. | `reconstructed` + `inferred` |
 | 39 | B | Let ChatGPT give the strongest narrow counterargument: these are cyber tasks, where credentials and access are naturally overrepresented. | One incident does not prove a universal law. | `reconstructed` + `inferred` |
-| 40 | B | Preserve the narrower claim while returning to the plot: the agents now seek a gated dataset and credentials. | The interpretation remains uncertain; the next action does not. | `reconstructed` leading to `documented` |
+| 40 | B | Preserve the narrower claim while returning to the plot: the agents now seek public evaluation material, credentials, and infrastructure paths. | The interpretation remains uncertain; the next action does not. | `reconstructed` leading to `documented` |
 
 ## Chapter 3 — Control Keeps Solving Problems
 

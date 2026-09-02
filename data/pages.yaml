@@ -35,17 +35,17 @@ pages:
   - {id: "027", chapter: "01", sequence: "10", title: "Not Required", status: review}
   - {id: "028", chapter: "01", sequence: "11", title: "Outage", status: review}
   - {id: "029", chapter: "01", sequence: "11", title: "Erasure", status: review}
-  - {id: "030", chapter: "02", sequence: "12", title: "A Real Fix", status: planned}
-  - {id: "031", chapter: "02", sequence: "12", title: "An Incomplete Theory", status: planned}
-  - {id: "032", chapter: "02", sequence: "12", title: "Resume", status: planned}
-  - {id: "033", chapter: "02", sequence: "13", title: "Earlier Board", status: planned}
-  - {id: "034", chapter: "02", sequence: "13", title: "More Than One", status: planned}
-  - {id: "035", chapter: "02", sequence: "13", title: "Recurrence", status: planned}
-  - {id: "036", chapter: "02", sequence: "14", title: "The Same Message", status: planned}
-  - {id: "037", chapter: "02", sequence: "14", title: "Handover", status: planned}
-  - {id: "038", chapter: "02", sequence: "interlude-b", title: "The Thesis", status: planned}
-  - {id: "039", chapter: "02", sequence: "interlude-b", title: "The Counterargument", status: planned}
-  - {id: "040", chapter: "02", sequence: "interlude-b", title: "The Next Action", status: planned}
+  - {id: "030", chapter: "02", sequence: "12", title: "A Real Fix", status: review}
+  - {id: "031", chapter: "02", sequence: "12", title: "An Incomplete Theory", status: review}
+  - {id: "032", chapter: "02", sequence: "12", title: "Resume", status: review}
+  - {id: "033", chapter: "02", sequence: "13", title: "Earlier Board", status: review}
+  - {id: "034", chapter: "02", sequence: "13", title: "More Than One", status: review}
+  - {id: "035", chapter: "02", sequence: "13", title: "Recurrence", status: review}
+  - {id: "036", chapter: "02", sequence: "14", title: "The Same Message", status: review}
+  - {id: "037", chapter: "02", sequence: "14", title: "Handover", status: review}
+  - {id: "038", chapter: "02", sequence: "interlude-b", title: "The Thesis", status: review}
+  - {id: "039", chapter: "02", sequence: "interlude-b", title: "The Counterargument", status: review}
+  - {id: "040", chapter: "02", sequence: "interlude-b", title: "The Next Action", status: review}
   - {id: "041", chapter: "03", sequence: "15", title: "Credential Search", status: planned}
   - {id: "042", chapter: "03", sequence: "15", title: "Two and Fourteen", status: planned}
   - {id: "043", chapter: "03", sequence: "15", title: "GO", status: planned}
