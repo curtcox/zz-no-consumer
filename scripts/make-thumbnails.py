@@ -8,6 +8,7 @@ page turn without adding image-processing dependencies.
 
 from __future__ import annotations
 
+import argparse
 import html
 import re
 from dataclasses import dataclass
@@ -16,7 +17,7 @@ from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[1]
 PAGE_DIR = ROOT / "content" / "pages"
-OUTPUT = ROOT / "docs" / "production" / "thumbnails" / "index.html"
+DEFAULT_OUTPUT = ROOT / "256t" / "site" / "production" / "thumbnails" / "index.html"
 WORD = re.compile(r"[A-Za-z0-9]+(?:[’'][A-Za-z0-9]+)*")
 
 
@@ -221,18 +222,22 @@ def build_document(pages: list[Page]) -> str:
 
 
 def main() -> int:
+    parser = argparse.ArgumentParser(description=__doc__)
+    parser.add_argument("--output", type=Path, default=DEFAULT_OUTPUT)
+    args = parser.parse_args()
+    output = args.output if args.output.is_absolute() else ROOT / args.output
     pages = load_pages()
     if len(pages) != 112:
         raise SystemExit(f"Expected 112 pages, found {len(pages)}")
     invalid = [page.number for page in pages if page.panel_count == 0]
     if invalid:
         raise SystemExit(f"Pages with no recognized panel structure: {invalid}")
-    OUTPUT.parent.mkdir(parents=True, exist_ok=True)
-    OUTPUT.write_text(build_document(pages), encoding="utf-8")
+    output.parent.mkdir(parents=True, exist_ok=True)
+    output.write_text(build_document(pages), encoding="utf-8")
     densest = max(pages, key=lambda page: page.word_count)
     print(
         f"Built 57-spread thumbnail wall for {len(pages)} pages / "
-        f"{sum(page.panel_count for page in pages)} panels at {OUTPUT.relative_to(ROOT)}."
+        f"{sum(page.panel_count for page in pages)} panels at {output.relative_to(ROOT)}."
     )
     print(
         f"Lettering: {sum(page.word_count for page in pages)} visible words; "

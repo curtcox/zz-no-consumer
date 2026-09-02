@@ -14,5 +14,9 @@ venv/
 .pytest_cache/
 *.log
 
+# Private local source vault and internal review build.
+# URLs and hashes are tracked in data/256t-sources.tsv; source contents are not.
+/256t/
+
 # Keep docs/ tracked as the generated Pages output directory.
 # The builder preserves docs/.gitkeep so the directory exists in a fresh clone.

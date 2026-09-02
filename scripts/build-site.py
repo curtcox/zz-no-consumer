@@ -3,6 +3,7 @@
 
 from __future__ import annotations
 
+import argparse
 import html
 import posixpath
 import re
@@ -13,6 +14,19 @@ from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[1]
 OUT = ROOT / "docs"
+
+
+def markdown_sources(internal: bool) -> list[Path]:
+    if internal:
+        return sorted(
+            path
+            for folder in ("content", "prompts", "research", "design")
+            for path in (ROOT / folder).rglob("*.md")
+        )
+    public_files = [ROOT / "content" / "premise.md", ROOT / "content" / "source-links.md"]
+    public_files.extend((ROOT / "content" / "chapters").rglob("*.md"))
+    public_files.extend((ROOT / "content" / "pages").rglob("*.md"))
+    return sorted(path for path in public_files if path.exists())
 
 
 @dataclass(frozen=True)
@@ -598,15 +612,22 @@ def page_document(title: str, body: str, nav: str, css_href: str) -> str:
 
 
 def main() -> int:
-    OUT.mkdir(exist_ok=True)
+    parser = argparse.ArgumentParser(description=__doc__)
+    parser.add_argument(
+        "--internal",
+        action="store_true",
+        help="build all research, production, prompt, and design pages into the ignored 256t/site directory",
+    )
+    args = parser.parse_args()
+
+    global OUT
+    OUT = ROOT / "256t" / "site" if args.internal else ROOT / "docs"
+    OUT.mkdir(parents=True, exist_ok=True)
     for child in OUT.iterdir():
         if child.name != ".gitkeep":
             shutil.rmtree(child) if child.is_dir() else child.unlink()
 
-    markdown_files = sorted(
-        path for folder in ("content", "prompts", "research", "design")
-        for path in (ROOT / folder).rglob("*.md")
-    )
+    markdown_files = markdown_sources(args.internal)
     pages: list[tuple[str, Path]] = [(title_for(path), slug_for(path)) for path in markdown_files]
     def navigation(from_directory: Path) -> str:
         links = "".join(
@@ -632,12 +653,19 @@ def main() -> int:
         f'<a class="card" href="{html.escape(str(slug))}"><h3>{html.escape(title)}</h3><p>{html.escape(str(source.relative_to(ROOT)))}</p></a>'
         for (title, slug), source in zip(pages, markdown_files)
     )
-    index_body = (
-        '<p>Canonical story material, visual direction, research, and production notes.</p>'
-        '<p><a class="viewer-callout" href="viewer/">Open the graphic novel viewer validation build →</a></p>'
-        '<p><a class="viewer-callout" href="production/thumbnails/">Open the provisional 57-spread thumbnail wall →</a></p>'
-        f'<h2>Browse the project</h2><div class="cards">{index_cards}</div>'
-    )
+    if args.internal:
+        index_body = (
+            '<p>Private local review build: canonical story material, visual direction, research, and production notes.</p>'
+            '<p><a class="viewer-callout" href="viewer/">Open the graphic novel viewer validation build →</a></p>'
+            '<p><a class="viewer-callout" href="production/thumbnails/">Open the provisional 57-spread thumbnail wall →</a></p>'
+            f'<h2>Browse the internal project</h2><div class="cards">{index_cards}</div>'
+        )
+    else:
+        index_body = (
+            '<p>Story-first public build. Research snapshots, source packets, prompts, and production notes remain local.</p>'
+            '<p><a class="viewer-callout" href="viewer/">Open the graphic novel viewer validation build →</a></p>'
+            f'<h2>Browse the story</h2><div class="cards">{index_cards}</div>'
+        )
     (OUT / "index.html").write_text(
         page_document("The Project", index_body, navigation(Path(".")), "css/site.css"),
         encoding="utf-8",

@@ -24,16 +24,36 @@ The scene-level evidence boundary is tracked in `research/scene-provenance.md`, 
 
 The proposed inside-the-collective documentary is scoped in `content/parallel-tracks/messages-from-the-board.md`; its primary-source artifact gate is `research/agent-message-ledger.md`.
 
-## Local site build
+## Source vault
 
-The site builder uses only Python's standard library:
+Potentially non-redistributable originals and internal review artifacts live in the Git-ignored `256t/` directory. The repository tracks only their canonical URLs and redistribution disposition in `data/256t-sources.tsv`.
+
+```sh
+python3 scripts/sync-256t.py sync    # download/update local snapshots
+python3 scripts/sync-256t.py check   # report upstream content changes without accepting them
+python3 scripts/sync-256t.py status  # show local hashes and missing/error states
+```
+
+Distinct downloaded bodies are retained by SHA-256 under `256t/records/`. Tracked prose and the public site should link to the original URLs rather than copied report pages, screenshots, or extended fragments when reuse rights are uncertain.
+
+## Site builds
+
+The default build is the story-first public surface. It excludes research, source packets, prompts, design notes, and production artifacts:
 
 ```sh
 python3 scripts/build-site.py
 open docs/index.html
 ```
 
-The builder converts Markdown in `content/`, `prompts/`, `research/`, and `design/` into a browsable HTML site and copies files from `assets/` and `site/` as appropriate.
+Build the full internal review site into the ignored vault with:
+
+```sh
+python3 scripts/build-site.py --internal
+python3 scripts/make-thumbnails.py
+open 256t/site/index.html
+```
+
+The internal builder converts Markdown in `content/`, `prompts/`, `research/`, and `design/`. The public builder includes only the premise, chapter/page scripts, and the original-source link index.
 
 The generated site also includes an isolated viewer validation section at `docs/viewer/`. It publishes stable directory-style routes for the viewer home, chapter overviews, pages, panel images, and their information views before final artwork exists. Every view exposes up, down, left, right, in, out, and home links; the matching keyboard shortcuts are Arrow keys, Enter, Escape, and H.
 
@@ -49,7 +69,7 @@ Generate the provisional 57-spread production contact sheet with:
 python3 scripts/make-thumbnails.py
 ```
 
-The result is `docs/production/thumbnails/index.html`. Its panel geometry is a review aid rather than locked layout; findings and required print proofs are tracked in `content/production-review.md`.
+The result is `256t/site/production/thumbnails/index.html`. Its panel geometry is a private review aid rather than locked layout; findings and required print proofs are tracked in `content/production-review.md`.
 
 ## GitHub Pages
 

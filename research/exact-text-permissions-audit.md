@@ -8,6 +8,8 @@
 
 This is an editorial audit, not legal advice. It distinguishes source fidelity from publication rights. A string's appearance in a public report establishes a usable primary locator; it does not establish a license to reproduce that string in a commercial graphic novel.
 
+Original publications are linked in tracked prose. Local report copies and change history are kept only in the Git-ignored `256t/` vault, indexed by the tracked `data/256t-sources.tsv` manifest. When fair-use scope is uncertain, the public site links to the original rather than republishing report pages, screenshots, or extended surrounding fragments.
+
 The character-by-character pass found one transcription change. Page 005 now follows the METR PDF's three periods and straight apostrophe in `OH MY GOD! There is a shared message board ... We've found other agents!`. METR's web rendering uses typographic punctuation; the PDF is the controlling source for this edition. No other registered string required correction.
 
 ## Source keys

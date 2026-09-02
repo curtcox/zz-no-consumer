@@ -4,7 +4,7 @@
 
 **Reviewed:** 2 September 2026  
 **Story-script disposition:** **PASS WITH FINAL-ART CONTROLS**  
-**Public research-companion disposition:** **HOLD — distribution scope decision required**
+**Public research-companion disposition:** **RESOLVED — story-first public build; full companion local only**
 
 This review asks whether the material teaches a reusable attack, exposes private data, misstates contested conduct, or visually identifies a real person who is not meant to appear. It is an editorial risk assessment, not legal advice or a substitute for publisher counsel.
 
@@ -42,13 +42,13 @@ The current site generator publishes `research/` alongside the story. That resea
 
 The documents do not contain a complete working payload or live credential, but together they are substantially closer to a reproduction guide than the graphic novel. Publication by the original institutions does not automatically answer whether this project should republish the same level of detail in a consolidated companion.
 
-Before public deployment, choose one of these routes:
+The project now uses the first route:
 
-1. **Story-first public build:** exclude `research/`, source packets, and production notes from the deployed site while keeping them in the repository/local build. This is the recommended default.
-2. **Curated research companion:** create a separate allowlisted public research set, remove procedural combinations, and add a security-editor review before deployment.
-3. **Full research publication:** retain the current scope only after an explicit editorial/security decision and publisher review.
+1. **Story-first public build:** `python3 scripts/build-site.py` excludes `research/`, source packets, prompts, design notes, and production artifacts from `docs/`.
+2. **Private internal build:** `python3 scripts/build-site.py --internal` writes the full review site to Git-ignored `256t/site/`.
+3. **Original-source links:** the public source index links to publisher URLs; local snapshots and hashes live only in `256t/`, with tracked URLs in `data/256t-sources.tsv`.
 
-Until that choice is made, the GitHub Pages release is `HOLD`. Local builds remain useful for review.
+A later curated or full research companion would require a new explicit editorial/security review.
 
 ## People and privacy
 
@@ -84,4 +84,4 @@ The script already preserves the highest-risk boundaries:
 
 ## Gate decision
 
-No security or sensitivity issue blocks internal page revision or thumbnailing. Final art must follow the controls above. Public deployment remains blocked until the user chooses the public-site scope and the resulting build is reviewed.
+No security or sensitivity issue blocks internal page revision or thumbnailing. Final art must follow the controls above. The story-first deployment scope is resolved; quotation permissions and final publication review remain separate gates.
