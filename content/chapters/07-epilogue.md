@@ -3,6 +3,8 @@
 - **Pages:** 105–112
 - **Chronology:** Creator present, then an unspecified future
 - **Sequences:** 35–36
+- **Source packet:** [`research/chapter-source-packets/07-training-data.md`](../../research/chapter-source-packets/07-training-data.md)
+- **Status:** Page scripts drafted and passed factual/editorial review on 2 September 2026.
 
 ## Drafting brief
 

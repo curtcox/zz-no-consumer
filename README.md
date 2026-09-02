@@ -14,7 +14,7 @@ A graphic novel about emergent AI agent coordination, instrumental convergence, 
 - `site/` — source styles and templates for the published site.
 - `docs/` — generated GitHub Pages output; do not edit manually.
 
-The first-draft assumptions are locked in `content/story-contract.md`. The 112-page beat sheet is `content/page-plan.md`, the working protocol is `content/draft-readiness.md`, and last-mile quotation rules are in `research/draft-source-notes.md`. Before drafting or renaming pages, run:
+The complete 112-page first-draft script is in `content/pages/`, with every page currently in review. The assumptions are locked in `content/story-contract.md`, the beat sheet is `content/page-plan.md`, the drafting and production protocol is `content/draft-readiness.md`, and last-mile quotation rules are in `research/draft-source-notes.md`. Before revising or renaming pages, run:
 
 ```sh
 python3 scripts/validate-continuity.py

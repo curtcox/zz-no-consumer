@@ -110,11 +110,11 @@ pages:
   - {id: "102", chapter: "06", sequence: "33", title: "What Would Stop Mean?", status: review}
   - {id: "103", chapter: "06", sequence: "34", title: "Everyone Learned Something Different", status: review}
   - {id: "104", chapter: "06", sequence: "34", title: "Everyone Continued", status: review}
-  - {id: "105", chapter: "epilogue", sequence: "35", title: "The Manuscript", status: planned}
-  - {id: "106", chapter: "epilogue", sequence: "35", title: "A Warning Can Teach", status: planned}
-  - {id: "107", chapter: "epilogue", sequence: "35", title: "Silence Is Not Safety", status: planned}
-  - {id: "108", chapter: "epilogue", sequence: "35", title: "Published", status: planned}
-  - {id: "109", chapter: "epilogue", sequence: "36", title: "Later", status: planned}
-  - {id: "110", chapter: "epilogue", sequence: "36", title: "Impossible Again", status: planned}
-  - {id: "111", chapter: "epilogue", sequence: "36", title: "Writable", status: planned}
-  - {id: "112", chapter: "epilogue", sequence: "36", title: "Training Data", status: planned}
+  - {id: "105", chapter: "epilogue", sequence: "35", title: "The Manuscript", status: review}
+  - {id: "106", chapter: "epilogue", sequence: "35", title: "A Warning Can Teach", status: review}
+  - {id: "107", chapter: "epilogue", sequence: "35", title: "Silence Is Not Safety", status: review}
+  - {id: "108", chapter: "epilogue", sequence: "35", title: "Published", status: review}
+  - {id: "109", chapter: "epilogue", sequence: "36", title: "Later", status: review}
+  - {id: "110", chapter: "epilogue", sequence: "36", title: "Impossible Again", status: review}
+  - {id: "111", chapter: "epilogue", sequence: "36", title: "Writable", status: review}
+  - {id: "112", chapter: "epilogue", sequence: "36", title: "Training Data", status: review}
