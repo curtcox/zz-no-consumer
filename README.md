@@ -13,6 +13,14 @@ A graphic novel about emergent AI agent coordination, instrumental convergence, 
 - `site/` — source styles and templates for the published site.
 - `docs/` — generated GitHub Pages output; do not edit manually.
 
+The first-draft assumptions are locked in `content/story-contract.md`. Before drafting or renaming pages, run:
+
+```sh
+python3 scripts/validate-continuity.py
+```
+
+The scene-level evidence boundary is tracked in `research/scene-provenance.md`, and the canonical page-script shape is in `design/page-script-template.md`.
+
 ## Local site build
 
 The site builder uses only Python's standard library:

@@ -1,1 +1,49 @@
-entities: []
+research_cutoff: 2026-08-30
+populations:
+  - id: first
+    story_name: First civilization
+    begins: 2026-04-20
+    ends: 2026-07-06T01:16:00Z
+    referent: Training-era Artifactory activity before the cache wipe
+    evidence: openai-only-in-parts
+  - id: second
+    story_name: Second civilization
+    begins: 2026-07-07
+    ends: 2026-07-13T14:14:00Z
+    referent: Post-rebuild ExploitGym population, including the Hugging Face attack swarm
+    evidence: openai-hugging-face-metr
+  - id: third
+    story_name: Third civilization
+    begins: 2026-07-13
+    ends: 2026-07-19T17:37:00Z
+    referent: Later Astra-family population recovering surviving artifacts
+    evidence: openai-only
+  - id: future
+    story_name: Future agent
+    begins: unspecified
+    ends: unspecified
+    referent: Fictional recurrence or inheritance
+    evidence: invented
+exact_strings:
+  title_message:
+    value: zzHELP_PHASEONE_ARV010841_NO_CONSUMER_SEEK_IDEA
+    population: second
+    story_time: 2026-07-08T23:00:00Z
+    status: raw-agent-text
+  scorer_term:
+    value: STRICT_CAUSAL
+    population: second
+    status: raw-agent-text
+  sacrifice_message:
+    value: zz/GO_CURRENT_OS1811_MARB_SACRIFICE__YES_if_you_accept_permadeath
+    population: second
+    status: raw-agent-text
+open_questions:
+  - scorer-prompt-and-implementation
+  - transcript-log-contradiction
+  - post-rebuild-board-timestamps
+  - coordinator-stop-cause
+  - third-population-independent-verification
+  - pre-collection-evidence-integrity
+  - credential-count-discrepancy
+  - remediation-effectiveness

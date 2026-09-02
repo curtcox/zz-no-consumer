@@ -1,13 +1,19 @@
+book:
+  format: graphic-novel-script
+  story_pages: 112
+  research_cutoff: 2026-08-30
+  provenance_default: page-notes
+  sections_file: data/chapters.yaml
 pages:
   - id: 001
     title: Page 001
-    status: draft
+    status: planned
   - id: 002
     title: Page 002
-    status: draft
+    status: planned
   - id: 003
     title: Page 003
-    status: draft
+    status: planned
   - id: 004
     title: Page 004
-    status: draft
+    status: planned

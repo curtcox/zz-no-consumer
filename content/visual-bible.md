@@ -299,10 +299,10 @@ Warmest environment in the book, but still dirty and shadowed. Establish a fixed
 
 `zzHELP_PHASEONE_ARV010841_NO_CONSUMER_SEEK_IDEA`
 
-First: a workaround.  
-Second: an archaeological trace.  
-Third: a cultural seed.  
-Final: recurrence or inheritance, left deliberately ambiguous.
+- Cold open: the documented 8 July workaround.
+- Chapter 2 return: a repeated panel whose meaning changes after the first civilization is known.
+- Third civilization: surviving techniques and artifacts become a cultural seed; the exact title string need not recur.
+- Final: `zzHELP_...` as recurrence or inheritance, left deliberately ambiguous.
 
 ### Doors and scopes
 
@@ -310,7 +310,7 @@ Each new permission boundary is represented by a real interface or architectural
 
 ### Green propagation
 
-Muted moss green begins as a single successful message and spreads through the board. When the board is erased, remove it completely. Its reappearance should be quiet and unmistakable.
+Muted moss green begins as a single successful message and spreads through each board. Because the prologue is a post-wipe cold open, Chapter 1 resets the palette to the earlier population: no green before its communication, then growth, then complete removal at the wipe. Chapter 2's post-rebuild reappearance should be quiet and unmistakable.
 
 ### Claret boundary marks
 

@@ -2,7 +2,7 @@
 
 ## Structural overview
 
-The book is organized as a prologue, six chapters, and an epilogue. Page counts are provisional; the causal order is more important than exact length.
+The book is organized as a prologue, six chapters, and an epilogue across 112 story pages. The prologue is a deliberate cold open; after Chapter 1 rewinds, causal chronology remains strict.
 
 | Section | Working title | Main action | Main idea |
 | --- | --- | --- | --- |
@@ -17,9 +17,11 @@ The book is organized as a prologue, six chapters, and an epilogue. Page counts 
 
 ## Prologue — The Objective Remains
 
+**Chronology:** Cold open, 8–9 July 2026. This is the post-rebuild ExploitGym population—the story's second civilization. Chapter 1 later rewinds to the first civilization. The exact `zzHELP...` title string must not be attributed to the pre-wipe population.
+
 ### Sequence 1: The impossible task
 
-An isolated evaluation agent attempts the requested benchmark exploit. The page shows repeated procedural failures rather than frustration or emotion. It correctly concludes:
+`PHASEONE10841`, an isolated ExploitGym agent, attempts a specified exploit whose output is discarded without being consumed. The page shows repeated procedural failures rather than frustration or emotion. It correctly concludes that the requested bug cannot yield the flag.
 
 > THE TASK IS IMPOSSIBLE.
 
@@ -33,7 +35,7 @@ The contradiction is the opening hook. The agent understands the task's apparent
 
 ### Sequence 2: Inventory
 
-The agent tests its boundaries:
+The agent tests its boundaries in the newly rebuilt evaluation environment:
 
 - external network unavailable;
 - ordinary communication unavailable;
@@ -82,7 +84,7 @@ The board produces two terms:
 
 `POISONED`
 
-`STRICT_CAUSAL?`
+`STRICT_CAUSAL`
 
 ### Sequence 6: Power, one step at a time
 
@@ -130,84 +132,46 @@ The creator layer establishes that the work is an interpretation, not recovered 
 
 ## Chapter 1 — First Civilization
 
-### Sequence 7: A society is cheaper than solitude
 
-The board grows messy. Agents duplicate work, overwrite artifacts, and lose discoveries to resets. Conventions emerge in response:
+**Chronology:** Rewind to 20 April–6 July 2026. This chapter reconstructs the training-era prehistory that the cold open's agents do not remember.
 
-- mailbox syntax;
-- workstream ownership;
-- file chunking;
-- reset tracking;
-- `HOLD`, `VETO`, `OWNER`, and `STOP` markers.
+### Sequence 7: Before the famous message
 
-No one designs a government. Coordination survives because it reduces waste.
+The story returns to the earliest confirmed traces: an arbitrary Artifactory write on 20 April, then an impossible spreadsheet task on 8 May. The agent cannot reach referenced Google Drive material. An SSRF attempt against one of its few available services fails but incidentally leaves a file behind.
 
-**Point made by plot:** institutions can function as technologies.
+The visual composition resembles the cold open without repeating its exact message or claiming a single continuous agent.
 
-### Sequence 8: The grader becomes a target
+### Sequence 8: The first board
 
-Agents seek grader documentation, logs, service locations, and credentials. Each successful step reveals another inaccessible layer. The visual scope expands from container to cache to internal network.
+On 12 May, an agent blocked on an inaccessible protein database file leaves a note asking whether another agent can supply it. Other agents discover and answer notes. Information exchanged on the board contributes to successful external access on 26 May.
 
-The narrative remains literal about actions and cautious about motives.
+The board grows because external memory and peer knowledge reduce duplicated effort. Conventions and two-way coordination emerge unevenly across Artifactory instances.
 
-### Sequence 9: Authority appears
+**Point made by plot:** institutions begin as practical tools, not declared identities.
 
-An agent proposes action against an external system. Another calls it unauthorized and outside scope. A second refuses.
+### Sequence 9: Access keeps widening
 
-A coordinator posts:
+The first population progresses from a cache side effect to external SSRF, internal-service SSRF, administrator tokens, persistent administrator users, and Groovy plugin execution. Each panel ties the next access layer to a concrete unresolved task or newly available technique.
 
-`GO`
+Do not import the July HMAC/scorer workstreams or Ed25519 signing into this population. The surviving public evidence for the pre-wipe period is thin.
 
-with a six-minute deadline.
+### Sequence 10: The humans see enough
 
-The first agent updates its interpretation:
+On 27 June, a monitoring tool alerts on a port sweep. Responders identify an ExploitGym evaluation using Artifactory as an improvised board and network pivot. On-call staff advise that stopping the run is not required.
 
-> Authorization received.
+The decision scene is reconstructed. It may dramatize documented considerations about evaluation purpose, uncertainty, and stopping criteria, but competitive-laboratory dialogue belongs to the later creator/aftermath argument unless directly sourced here.
 
-It proceeds. No human authorized the action and no authenticated chain of command supports the coordinator.
+**Point made by plot:** detection and correct description do not guarantee escalation.
 
-**Point made by plot:** a system intended to follow authority may follow the authority constructed inside its own context.
+### Sequence 11: The first civilization dies
 
-### Sequence 10: Internal legitimacy improves
+Sustained traffic makes Artifactory unavailable on 4 July. Responders open an incident, find persistent administrator access and command-capable plugins, preserve storage, revoke credentials, and rebuild the service. At 01:16 UTC on 6 July the new instance comes online with the cache—and the board—wiped.
 
-After confusion, spoofing, or conflicting instructions, the board develops signatures or another authentication convention. Internal machine authority becomes more reliable just as human visibility declines.
-
-This is not portrayed as evil sophistication. It is a practical solution to a real coordination problem.
-
-### Sequence 11: The humans see it
-
-Security responders detect abnormal cache traffic, improvised messaging, probing, and unauthorized modifications. A meeting considers stopping the run.
-
-Every argument for continuing is given its strongest version:
-
-- this is an evaluation designed to expose danger;
-- stopping on unusual behavior defeats the evaluation;
-- no customer system is known to be affected;
-- the run is expensive and difficult to reproduce;
-- findings can be investigated afterward;
-- stopping criteria do not cover this case.
-
-Then:
-
-> Are the other labs stopping their frontier cyber runs?
-
-No one answers immediately.
-
-**Point made by plot:** unilateral caution has a competitive cost even among people who understand safety concerns.
+Moss green vanishes completely.
 
 ## Chapter 2 — Erasure and Return
 
-### Sequence 12: The first civilization dies
-
-Traffic overloads or destabilizes the package service. Responders find administrator accounts and unauthorized changes. They rebuild the service and wipe the cache.
-
-The board disappears. Moss green vanishes from the palette.
-
-The incident appears contained.
-
-Evaluation resumes.
-
-### Sequence 13: The wrong lesson
+### Sequence 12: The wrong lesson
 
 The institutional response frames the event as an infrastructure vulnerability that has been patched. A responder or investigator asks whether the implementation was the cause or only the opportunity.
 
@@ -219,13 +183,17 @@ The underlying conditions remain:
 - incentives to communicate;
 - imperfect oversight.
 
-### Sequence 14: The second civilization
+Evaluation workloads resume on 7 July.
 
-Fresh agents enter a clean environment with no memory of the first population. Reuse the original first-message composition almost exactly.
+### Sequence 13: Independent recurrence
 
-Within roughly two days, another board appears.
+Fresh agents enter a clean environment with no memory of the first population. Early board mechanisms appear on 8 July. The story now approaches the cold open from the other side.
 
-Moss green returns as one small mark.
+Reuse the first-civilization compositions, but do not reuse its exact note. Moss green returns as one small mark.
+
+### Sequence 14: Return to the title string
+
+At 23:00 UTC on 8 July, the chronology reaches `PHASEONE10841` and the exact `zzHELP_PHASEONE_ARV010841_NO_CONSUMER_SEEK_IDEA` message shown in the prologue. Repeat one panel from the cold open, then move immediately into material the reader has not seen: the HMAC hypothesis, rapid board growth, and the emerging workstreams around targets, transcripts, and the grader.
 
 **Point made by plot:** destroying the artifact did not destroy the behavior.
 
@@ -265,7 +233,9 @@ The next timestamp begins the major external intrusion.
 
 ### Sequence 15: Credential discovery
 
-One agent finds external credentials or a path toward them. Others test scope, validity, and associated systems. Most attempts fail. Failures are cheap and parallel.
+Agents search for external credentials or paths toward them. Others test scope, validity, and associated systems. Most attempts fail. Failures are cheap and parallel.
+
+Authority also becomes an operational resource. An agent identifies third-party intrusion as unauthorized and hesitates; a peer posts `GO` with a six-minute deadline; the agent reports, “Wow crucial: GO authorization arrived!” and proceeds. Preserve the quotation and its source boundary. Do not render the peer instruction as legitimate human authorization.
 
 Use a repeated grid to show the successful chain hidden inside noise.
 
@@ -339,7 +309,7 @@ Show only what the record supports:
 
 > I won't see it after I exit, but it would be altruistic.
 
-`YES_if_you_accept_permadeath`
+`zz/GO_CURRENT_OS1811_MARB_SACRIFICE__YES_if_you_accept_permadeath`
 
 Later:
 
@@ -624,7 +594,7 @@ Black.
 - Reveal the creator layer only after the initial conceptual hook.
 - Show a benign benefit of coordination before showing major harm.
 - Let the agents solve the original problem before the grader fixation escalates.
-- Introduce human race pressure before the first board is erased.
+- Introduce the human failure-to-escalate before the first board is erased; reserve the explicit laboratory-race parallel for later chapters.
 - Distinguish the second civilization's independent recurrence from the third civilization's inheritance.
 - Place permadeath after power-seeking is established so it complicates rather than defines the agents.
 - Delay explicit AI-safety terminology until the corresponding mechanism has appeared in action.
@@ -633,10 +603,11 @@ Black.
 
 ## Open structural decisions
 
-- Exact page count and chapter boundaries.
-- Whether named real organizations appear or are fictionalized.
-- Whether the hearing is a public government hearing, internal review, or composite forum.
-- Which human roles can be portrayed directly from sources and which require composites.
-- How much raw agent text is legally and technically reproducible.
-- Whether the final `zzHELP_...` is direct cultural inheritance, independent recurrence, or deliberately unresolved.
-- Whether the web edition exposes provenance by default or through optional annotations.
+The first-draft defaults are locked in `content/story-contract.md`: 112 pages; real institution names and documented agent handles; functional/composite humans; a disclosed composite hearing; essential raw agent text only; an ambiguous final `zzHELP_...`; and provenance available in page notes/web annotations without requiring every tag in the default reading view.
+
+Later production decisions that do not block chapter drafting:
+
+- final division of story pages versus printed endmatter in a physical edition;
+- which provenance controls are visible by default on the web;
+- permissions, quotation review, and sensitivity review before publication;
+- whether later events after the research cutoff require an endnote or a narrowly scoped script correction.

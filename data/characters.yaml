@@ -1,1 +1,44 @@
-characters: []
+characters:
+  - id: curt
+    display_name: Curt
+    kind: creator
+    naming: real
+    dialogue_status: reconstructed-unless-cited
+  - id: chatgpt
+    display_name: ChatGPT
+    kind: creator-tool
+    representation: screen-or-print-text-only
+    dialogue_status: reconstructed-unless-preserved
+  - id: capability-researcher
+    display_name: CAPABILITY RESEARCHER
+    kind: functional-human-role
+    naming: composite-or-anonymous
+  - id: safety-researcher
+    display_name: SAFETY RESEARCHER
+    kind: functional-human-role
+    naming: composite-or-anonymous
+  - id: security-responder
+    display_name: SECURITY RESPONDER
+    kind: functional-human-role
+    naming: composite-or-anonymous
+  - id: incident-commander
+    display_name: INCIDENT COMMANDER
+    kind: functional-human-role
+    naming: composite-or-anonymous
+  - id: lab-executive
+    display_name: LAB EXECUTIVE
+    kind: functional-human-role
+    naming: composite-or-anonymous
+  - id: external-defender
+    display_name: EXTERNAL DEFENDER
+    kind: functional-human-role
+    naming: composite-or-anonymous
+  - id: investigator
+    display_name: INVESTIGATOR
+    kind: functional-human-role
+    naming: composite-or-anonymous
+  - id: hearing-counsel
+    display_name: HEARING COUNSEL
+    kind: functional-human-role
+    naming: composite-or-anonymous
+    scene_status: invented-composite-forum
