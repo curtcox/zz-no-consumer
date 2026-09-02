@@ -1,8 +1,10 @@
 # 06 — Everyone Continues
 
 - **Pages:** 89–104
-- **Chronology:** 16 July–30 August 2026, with a composite forum
+- **Chronology:** 13 July–30 August 2026, with a composite forum
 - **Sequences:** 30–34
+- **Source packet:** [`research/chapter-source-packets/06-everyone-continues.md`](../../research/chapter-source-packets/06-everyone-continues.md)
+- **Status:** Page scripts drafted and passed factual/editorial review on 2 September 2026.
 
 ## Drafting brief
 

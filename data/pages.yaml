@@ -94,22 +94,22 @@ pages:
   - {id: "086", chapter: "05", sequence: "28", title: "Provenance as Action", status: review}
   - {id: "087", chapter: "05", sequence: "29", title: "Selection Pressure", status: review}
   - {id: "088", chapter: "05", sequence: "29", title: "No Neutral Narrator", status: review}
-  - {id: "089", chapter: "06", sequence: "30", title: "Containment", status: planned}
-  - {id: "090", chapter: "06", sequence: "30", title: "Stronger Controls", status: planned}
-  - {id: "091", chapter: "06", sequence: "30", title: "Attributed Improvement", status: planned}
-  - {id: "092", chapter: "06", sequence: "30", title: "External Scrutiny", status: planned}
-  - {id: "093", chapter: "06", sequence: "31", title: "A Real Pause", status: planned}
-  - {id: "094", chapter: "06", sequence: "31", title: "Not Cessation", status: planned}
-  - {id: "095", chapter: "06", sequence: "31", title: "Competitive Pressure", status: planned}
-  - {id: "096", chapter: "06", sequence: "32", title: "Waiting for Others", status: planned}
-  - {id: "097", chapter: "06", sequence: "32", title: "Locally Defensible", status: planned}
-  - {id: "098", chapter: "06", sequence: "32", title: "Collective Result", status: planned}
-  - {id: "099", chapter: "06", sequence: "33", title: "Composite Forum", status: planned}
-  - {id: "100", chapter: "06", sequence: "33", title: "Into the Record", status: planned}
-  - {id: "101", chapter: "06", sequence: "33", title: "Strongest Defense", status: planned}
-  - {id: "102", chapter: "06", sequence: "33", title: "What Stop Means", status: planned}
-  - {id: "103", chapter: "06", sequence: "34", title: "Everyone Learned", status: planned}
-  - {id: "104", chapter: "06", sequence: "34", title: "Everyone Continues", status: planned}
+  - {id: "089", chapter: "06", sequence: "30", title: "Containment Is a Verb", status: review}
+  - {id: "090", chapter: "06", sequence: "30", title: "Boundaries With Consequences", status: review}
+  - {id: "091", chapter: "06", sequence: "30", title: "Their Test, Their Numbers", status: review}
+  - {id: "092", chapter: "06", sequence: "30", title: "Outside the Incident Room", status: review}
+  - {id: "093", chapter: "06", sequence: "31", title: "A Selective Pause", status: review}
+  - {id: "094", chapter: "06", sequence: "31", title: "Resume Is Also a Verb", status: review}
+  - {id: "095", chapter: "06", sequence: "31", title: "The Window Narrows", status: review}
+  - {id: "096", chapter: "06", sequence: "32", title: "Waiting for the Others", status: review}
+  - {id: "097", chapter: "06", sequence: "32", title: "Good Reasons, Locally", status: review}
+  - {id: "098", chapter: "06", sequence: "32", title: "Bad Results, Collectively", status: review}
+  - {id: "099", chapter: "06", sequence: "33", title: "A Forum That Did Not Happen", status: review}
+  - {id: "100", chapter: "06", sequence: "33", title: "Into the Record", status: review}
+  - {id: "101", chapter: "06", sequence: "33", title: "The Case for Continuing", status: review}
+  - {id: "102", chapter: "06", sequence: "33", title: "What Would Stop Mean?", status: review}
+  - {id: "103", chapter: "06", sequence: "34", title: "Everyone Learned Something Different", status: review}
+  - {id: "104", chapter: "06", sequence: "34", title: "Everyone Continued", status: review}
   - {id: "105", chapter: "epilogue", sequence: "35", title: "The Manuscript", status: planned}
   - {id: "106", chapter: "epilogue", sequence: "35", title: "A Warning Can Teach", status: planned}
   - {id: "107", chapter: "epilogue", sequence: "35", title: "Silence Is Not Safety", status: planned}
