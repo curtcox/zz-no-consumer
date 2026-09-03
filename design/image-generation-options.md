@@ -222,6 +222,27 @@ model, because the models that would use the extra room are the non-commercial o
    all fit. Score them in the bake-off, then buy the winner through an API rather
    than shipping its output from here.
 
+### Installing them
+
+Verified on the drafting Mac (M1 Pro, 16 GB) on 2 September 2026:
+
+```sh
+uv tool install mflux --python 3.12    # MLX-native; 37 commands, one per model family
+uv tool list                           # the exact command names, which move between releases
+```
+
+Two things only became clear once it was installed, and both matter more than any
+benchmark:
+
+- **The published weights are usually far larger than the memory footprint.**
+  Hugging Face serves FLUX.2 [klein] 4B at 22.1 GB and Z-Image Turbo at 30.6 GB,
+  both bf16. Neither is a download this machine has the disk for. The prequantized
+  MLX build `RunPod/FLUX.2-klein-4B-mflux-4bit` is **4.3 GB**, and it is the only
+  reason a 16 GB laptop can run any of this today. Prefer a prequantized repository
+  over quantising locally; `data/local-models.json` records both numbers.
+- **mflux ships `mflux-train`.** Local LoRA training is a command, not a project.
+  That is the half of the recommendation below that actually matters.
+
 ### Running them
 
 `scripts/localgen.py` puts these models in the same bake-off as the hosted ones,

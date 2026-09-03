@@ -508,8 +508,12 @@ def generate_command(provider: Provider, prompt: str, seed: int) -> Generated:
     width, height = PANEL_SIZE
     with tempfile.TemporaryDirectory() as workspace:
         target = Path(workspace) / "out.png"
+        # A composed panel prompt is about 4 KB. Most local runners accept a file,
+        # which keeps it off the argument list and out of any process listing.
+        prompt_file = Path(workspace) / "prompt.txt"
+        prompt_file.write_text(prompt, encoding="utf-8")
         argv = [
-            part.format(prompt=prompt, width=width, height=height,
+            part.format(prompt=prompt, prompt_file=prompt_file, width=width, height=height,
                         seed=seed, steps=provider.extra.get("steps") or 20, output=target)
             for part in provider.command
         ]
