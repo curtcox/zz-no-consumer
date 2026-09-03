@@ -211,12 +211,31 @@ def human(seconds: float) -> str:
     return f"{seconds/3600:.1f}h"
 
 
+def prompt_budget_line(slot: Slot, provider: imagegen.Provider) -> str:
+    """What the model will actually be told, against what it can hold.
+
+    A run is worth stopping for if the budget is dropping something, so the
+    first panel's accounting is printed before any of them are drawn.
+    """
+    if not provider.prompt_tokens:
+        return "no text-encoder limit recorded for this model; sending everything"
+    _, kept, dropped = imagegen.compose_panel_fit(
+        slot.page, slot.panel, slot.register, budget=provider.prompt_tokens)
+    used = sum(section.tokens for section in kept)
+    line = f"~{used} of {provider.prompt_tokens} tokens, {len(kept)} section(s)"
+    if dropped:
+        line += "; dropped " + ", ".join(section.name for section in dropped)
+    return line
+
+
 def summarise(chosen: list[Slot], provider: imagegen.Provider, *, force: bool) -> tuple[list[Slot], list[Slot]]:
     missing = [s for s in chosen if s.art() is None]
     existing = [s for s in chosen if s.art() is not None]
     todo = chosen if force else missing
     rate = provider.seconds_per_image or 60
     print(f"Model:     {provider.label} ({provider.licence})")
+    if chosen:
+        print(f"Prompt:    {prompt_budget_line(chosen[0], provider)}")
     print(f"Selected:  {len(chosen)} panel(s) of {len(all_slots())} in the book")
     print(f"Have art:  {len(existing)}")
     print(f"To draw:   {len(todo)}"
@@ -351,7 +370,8 @@ def cmd_run(args: argparse.Namespace) -> int:
     for position, slot in enumerate(todo, 1):
         if stop.asked:
             break
-        prompt = imagegen.compose_panel(slot.page, slot.panel, slot.register)
+        prompt = imagegen.compose_panel(slot.page, slot.panel, slot.register,
+                                        budget=provider.prompt_tokens)
         for take in range(args.takes):
             seed = args.seed + take
             began = time.time()

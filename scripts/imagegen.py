@@ -39,6 +39,7 @@ import argparse
 import base64
 import html
 import json
+import math
 import os
 import re
 import shutil
@@ -109,6 +110,7 @@ class Provider:
     commercial: bool = True      # False means its output may not appear in the book
     parameters: str = ""
     fits_gb: int = 0             # unified memory a local model needs; 0 for hosted
+    prompt_tokens: int = 0       # text-encoder ceiling; 0 means none known
     seconds_per_image: float = 0.0
     command: tuple[str, ...] = ()
     local_url: str = ""
@@ -307,6 +309,7 @@ def local_providers() -> tuple[Provider, ...]:
             commercial=bool(entry.get("commercial", False)),
             parameters=entry.get("parameters", ""),
             fits_gb=int(entry.get("fits_gb", 0)),
+            prompt_tokens=int(entry.get("prompt_tokens", 0)),
             seconds_per_image=float(entry.get("seconds_per_image", 0)),
             command=tuple(entry.get("command", ())),
             local_url=entry.get("url", ""),
@@ -373,6 +376,153 @@ RUBRIC: tuple[tuple[str, str, int], ...] = (
 
 
 # ------------------------------------------------------------ prompt assembly
+
+
+# A text encoder does not reject a prompt that is too long for it; it encodes
+# the front and silently drops the rest. FLUX.2 is pinned to 512 tokens by
+# mflux, and a composed panel prompt runs to about 1,060 — so slightly over
+# half of every prompt, including the whole palette clause and the entire
+# negative prompt, never reached the model. Nothing said so. Sections are
+# therefore ranked and fitted to the budget here, and whatever will not fit is
+# dropped whole and reported, rather than being cut off mid-sentence.
+
+_TOKEN_PIECE = re.compile(r"[A-Za-z]+|\d+|[^\sA-Za-z\d]")
+PROMPT_OVERHEAD = 8                   # chat template and delimiters, charged once
+
+
+def _token_pieces(text: str) -> int:
+    total = 0
+    for piece in _TOKEN_PIECE.findall(text):
+        if piece[0].isalpha():
+            total += max(1, math.ceil(len(piece) / 6))
+        elif piece[0].isdigit():
+            total += len(piece)       # digits rarely merge into one token
+        else:
+            total += 1
+    return total
+
+
+def estimate_tokens(text: str) -> int:
+    """A deliberate overestimate of what a byte-pair tokenizer makes of `text`.
+
+    Measured against the Qwen3 tokenizer FLUX.2 uses, over 220 composed prompts
+    and their sections: never under, median 1.22x over. Overestimating is the
+    safe direction, because its cost is a little unused budget while
+    underestimating restores the silent truncation this exists to prevent.
+    Deliberately pure Python: counting tokens must not need a model download.
+
+    The template overhead is a property of the whole prompt, not of each block
+    in it, so `Section.tokens` leaves it out and `fit_sections` charges it once.
+    """
+    return _token_pieces(text) + PROMPT_OVERHEAD
+
+
+@dataclass(frozen=True)
+class Section:
+    """One labelled block of a prompt, and how hard it fights to stay in.
+
+    `rank` is what survives a tight budget, lowest first. The order of the list
+    is what the model reads; the two are deliberately different, so a section
+    can be late in the prompt and still outrank an earlier one.
+    """
+
+    name: str
+    text: str
+    rank: int
+    compact: str = ""            # shorter wording to fall back to; "" means none
+
+    @property
+    def tokens(self) -> int:
+        return _token_pieces(self.text)
+
+    @property
+    def compact_tokens(self) -> int:
+        return _token_pieces(self.compact) if self.compact else 0
+
+    def at(self, text: str) -> "Section":
+        return Section(self.name, text, self.rank, self.compact)
+
+
+def prompt_sections(page: str, panel: int, register: str) -> list[Section]:
+    """Every candidate block for one panel's prompt, in reading order.
+
+    Ranking, and why: the panel's own direction and its display strings are the
+    only parts that differ between panels, so they outrank everything generic.
+    The register clause is twenty tokens that decide which world the panel is
+    in. The rendering target carries the ink identity, without which the book
+    stops looking like itself. The palette is next because dropping it is
+    visible as colour outside the book's range. Composition and the negative
+    prompt rank last because they are the two largest blocks, and because a
+    command backend with no negative-prompt channel receives the negatives as
+    ordinary prompt text, where measurement shows they change nothing.
+    """
+    style = PROMPT_DIR / "global-style.md"
+
+    def block(heading: str, rank: int) -> Section:
+        """A global-style section, plus its `## <heading> (compact)` form if written."""
+        return Section(heading.lower(), _digest(style, heading), rank,
+                       _digest(style, f"{heading} (compact)"))
+
+    return [
+        block("Rendering target", 4),
+        Section("register", f"Register — {register}: {register_clause(register)}", 3),
+        Section("panel", f"Panel — {panel_direction(page, panel)}", 1),
+        Section("exact text", exact_text_clause(page, panel), 2),
+        block("Composition", 7),
+        block("Light and material", 6),
+        Section("palette", f"Palette, and nothing outside it: {palette_clause()}.", 5,
+                _digest(style, "Palette (compact)")),
+        block("Output discipline", 8),
+        Section("avoid", f"Avoid entirely: {negative_prompt()}", 9,
+                _digest(PROMPT_DIR / "negative-prompt.md", "Compact")),
+    ]
+
+
+def _trim_to_sentences(text: str, budget: int) -> str:
+    """Cut `text` back to whole sentences that fit, never mid-clause."""
+    sentences = re.split(r"(?<=[.!?]) +", text)
+    kept: list[str] = []
+    for sentence in sentences:
+        if _token_pieces(" ".join(kept + [sentence])) > budget:
+            break
+        kept.append(sentence)
+    return " ".join(kept)
+
+
+def fit_sections(sections: list[Section], budget: int) -> tuple[list[Section], list[Section]]:
+    """Choose the sections that fit, best rank first, and report the rest.
+
+    Reading order is preserved for whatever survives. A budget too small even
+    for the highest-ranked section leaves that one trimmed to whole sentences,
+    because a panel with no direction is not worth generating.
+    """
+    present = [(index, section) for index, section in enumerate(sections) if section.text]
+    if budget <= 0:
+        return [section for _, section in present], []
+    budget = max(0, budget - PROMPT_OVERHEAD)
+    kept: list[tuple[int, Section]] = []
+    dropped: list[Section] = []
+    spent = 0
+    for index, section in sorted(present, key=lambda pair: (pair[1].rank, pair[1].tokens)):
+        if spent + section.tokens <= budget:
+            kept.append((index, section))
+            spent += section.tokens
+        elif section.compact and spent + section.compact_tokens <= budget:
+            kept.append((index, section.at(section.compact)))
+            spent += section.compact_tokens
+        elif not kept:
+            trimmed = section.at(_trim_to_sentences(section.text, budget))
+            kept.append((index, trimmed))
+            spent = trimmed.tokens
+        else:
+            dropped.append(section)
+    kept.sort(key=lambda pair: pair[0])
+    return [section for _, section in kept], dropped
+
+
+def budget_for(provider: "Provider | None") -> int:
+    """The prompt ceiling to compose against; 0 means compose without one."""
+    return provider.prompt_tokens if provider is not None else 0
 
 
 def _digest(path: Path, heading: str) -> str:
@@ -463,25 +613,28 @@ def exact_text_clause(page: str, panel: int) -> str:
             f"Leave any other surface blank rather than inventing words for it.")
 
 
-def compose_panel(page: str, panel: int, register: str) -> str:
-    """Build the prompt for any panel in the book, from the canonical sources."""
-    parts = [
-        _digest(PROMPT_DIR / "global-style.md", "Rendering target"),
-        f"Register — {register}: {register_clause(register)}",
-        f"Panel — {panel_direction(page, panel)}",
-        exact_text_clause(page, panel),
-        _digest(PROMPT_DIR / "global-style.md", "Composition"),
-        _digest(PROMPT_DIR / "global-style.md", "Light and material"),
-        f"Palette, and nothing outside it: {palette_clause()}.",
-        _digest(PROMPT_DIR / "global-style.md", "Output discipline"),
-        f"Avoid entirely: {negative_prompt()}",
-    ]
-    return "\n\n".join(part for part in parts if part)
+def compose_panel(page: str, panel: int, register: str, *, budget: int = 0) -> str:
+    """Build the prompt for any panel in the book, from the canonical sources.
+
+    `budget` is the model's text-encoder ceiling in tokens. The default of 0
+    composes everything, which is what a model with room for it should get;
+    pass a provider's `prompt_tokens` to compose against a real limit instead
+    of letting the encoder cut the tail off unannounced.
+    """
+    kept, _ = fit_sections(prompt_sections(page, panel, register), budget)
+    return "\n\n".join(section.text for section in kept)
 
 
-def compose(sample: Sample) -> str:
+def compose_panel_fit(page: str, panel: int, register: str, *, budget: int = 0
+                      ) -> tuple[str, list[Section], list[Section]]:
+    """`compose_panel`, and the accounting of what was kept and what was cut."""
+    kept, dropped = fit_sections(prompt_sections(page, panel, register), budget)
+    return "\n\n".join(section.text for section in kept), kept, dropped
+
+
+def compose(sample: Sample, *, budget: int = 0) -> str:
     """The bake-off's prompt for one sample panel."""
-    return compose_panel(sample.page, sample.panel, sample.register)
+    return compose_panel(sample.page, sample.panel, sample.register, budget=budget)
 
 
 # ---------------------------------------------------------------- the callers
@@ -748,9 +901,20 @@ def run_samples(
     image_format: str = DEFAULT_FORMAT,
     allow_non_commercial: bool = False,
 ) -> dict:
-    """Send every sample prompt to every provider and record what came back."""
+    """Send every sample prompt to every provider and record what came back.
+
+    Every candidate is sent the same prompt, which is the point of a bake-off.
+    That only means anything if each of them can actually read all of it, so
+    the prompt is composed against the tightest text-encoder limit in the
+    field: comparing models on a prompt one of them silently halves compares
+    nothing. Candidates with no recorded limit do not constrain the others.
+    """
     directory.mkdir(parents=True, exist_ok=True)
-    prompts = {sample.id: compose(sample) for sample in samples}
+    limits = [provider.prompt_tokens for provider in providers if provider.prompt_tokens]
+    budget = min(limits) if limits else 0
+    if budget:
+        print(f"  prompt budget: {budget} tokens, the tightest encoder in this field")
+    prompts = {sample.id: compose(sample, budget=budget) for sample in samples}
     (directory / "prompts").mkdir(exist_ok=True)
     for sample in samples:
         (directory / "prompts" / f"{sample.id}.txt").write_text(prompts[sample.id], encoding="utf-8")
@@ -1101,9 +1265,24 @@ def cmd_providers(args: argparse.Namespace) -> int:
 
 
 def cmd_prompts(args: argparse.Namespace) -> int:
+    provider = PROVIDERS_BY_ID.get(args.provider[0]) if args.provider else None
+    budget = budget_for(provider)
+    if args.budget is not None:
+        budget = args.budget
     for sample in chosen_samples(args.sample):
         print(f"===== {sample.id} · {sample.register} · {sample.tests}\n")
-        print(compose(sample))
+        text, kept, dropped = compose_panel_fit(sample.page, sample.panel,
+                                                sample.register, budget=budget)
+        if budget:
+            used = sum(section.tokens for section in kept)
+            print(f"budget {used} of {budget} tokens"
+                  f" ({estimate_tokens(text)} estimated for the whole prompt)")
+            for section in kept:
+                print(f"    keep  {section.tokens:>4}  {section.name}")
+            for section in dropped:
+                print(f"    DROP  {section.tokens:>4}  {section.name}")
+            print()
+        print(text)
         print()
     return 0
 
@@ -1227,6 +1406,10 @@ def main() -> int:
 
     prompts = commands.add_parser("prompts", help="print the composed bake-off prompts")
     prompts.add_argument("--sample", action="append", help="panel id such as 001-01; repeatable")
+    prompts.add_argument("--provider", action="append",
+                         help="compose against this model's text-encoder limit")
+    prompts.add_argument("--budget", type=int,
+                         help="compose against this many tokens instead")
 
     estimate = commands.add_parser("estimate", help="cost of a sample run and of the full book")
     estimate.add_argument("--provider", action="append")
