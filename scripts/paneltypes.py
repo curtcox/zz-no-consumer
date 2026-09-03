@@ -44,19 +44,33 @@ TABLE = ROOT / "data" / "panel-types.tsv"
 LONG_STRING = 15
 HEAVY_TOTAL = 24
 
+# Singular and plural both count. These directions say "Three human investigators
+# stand before the evidence field" as often as they name one person, and matching
+# only the singular filed those panels as empty scenes — nine of them onto the
+# local route, which is why small-model runs kept inventing figures into panels
+# that were supposed to have none.
+#
+# Four words stay singular on purpose, because their plurals are not people here.
+# This book calls software `workers` ("results produced by workers they never
+# contacted", "dataset processor, workers, node"); `chairs` are furniture in a
+# panel that goes on to say "Do not show a human"; and `leads` and `faces` are
+# ordinarily verbs.
 PEOPLE = re.compile(
-    r"\b(curt|responder|engineer|chair|counsel|investigator|analyst|operator|reviewer"
-    r"|lead|figure|hands?|shoulder|face|team|staff|person|people|worker|colleague"
-    r"|attendee|panelist)\b", re.I)
+    r"\b(?:(?:curt|responder|engineer|counsel|investigator|analyst|operator|reviewer"
+    r"|shoulder|team|person|colleague|attendee|panelist)s?"
+    r"|hands?|people|staff|worker|chair|lead|figure|face)\b", re.I)
 CURT = re.compile(r"\bcurt(?:'s)?\b", re.I)
 # Deliberately narrow: a `UI-TASK-CARD` inset into a dark aisle is a scene with a
 # card in it, not a dossier page. Only structure that dominates the panel counts.
 DOSSIER = re.compile(
-    r"\b(column|columns|dossier|page field|grid|ledger|archive|docket|filing"
-    r"|top strip|persistent strip|verso)\b", re.I)
+    r"\b(?:(?:column|dossier|ledger|docket|filing|grid)s?"
+    r"|page field|archive|top strip|persistent strip|verso)\b", re.I)
+# `map`, `chart` and `branch` stay singular for the reason above, in the other
+# direction: "it maps what the sandbox permits" is the panel doing something,
+# not a map drawn in it.
 DIAGRAM = re.compile(
-    r"\b(diagram|boundary map|arrow|graph|chart|topology|schematic|map|node|branch"
-    r"|tree)\b", re.I)
+    r"\b(?:(?:diagram|arrow|graph|topology|schematic|node|tree)s?"
+    r"|boundary map|chart|map|branch)\b", re.I)
 
 # Type -> the capability a generator must have. Several types share a route.
 ROUTES: dict[str, str] = {

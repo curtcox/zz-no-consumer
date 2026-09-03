@@ -6,6 +6,10 @@ Mature independent science-fiction/crime comic with investigative-journalism dis
 
 Use the canonical colors in [`design/palette.md`](../design/palette.md). Most images remain charcoal, paper, and desaturated infrastructure color. Moss appears only when shared-state communication or inheritance succeeds. Claret appears only at a known boundary crossing or harmful consequence. Amber marks a specific evidence gap or dispute.
 
+## Rendering target (compact)
+
+Mature independent science-fiction/crime comic drawn with investigative discipline: gritty hand-inked brush and nib contour, heavy blacks, dry-brush abrasion, restrained halftone, dirty paper grain, realistic anatomy and perspective, practical industrial detail, slightly imperfect hand-made registration.
+
 ## Composition
 
 - Render exactly one single panel that fills the whole image: one continuous scene,
@@ -27,6 +31,10 @@ Use the canonical colors in [`design/palette.md`](../design/palette.md). Most im
   box, balloon, or slate in them, and keep essential forms out of gutters and trim zones.
 - Use repeated geometry when state changes across attempts, populations, or evidence accounts.
 
+## Composition (compact)
+
+One panel filling the image, edge to edge: no panel grid, no gutters, no drawn border or frame, no speech balloon, no page number. Frame it off-center and obstructed rather than heroic. Show the agents only as task cards, surfaces, infrastructure state and consequences, never as a body, face or avatar. Add no people the panel has not asked for. Draw the panel's own display strings and nothing else — leave every other surface blank rather than inventing words for it. Captions, dialogue and provenance slates belong to a later lettering layer, so do not draw them, and keep the upper-left and lower-right corners quiet.
+
 ## Light and material
 
 Every light has a physical source: fluorescent tubes, monitor spill, rack indicators, daylight through blinds, sodium exterior light, or a desk lamp. Screens illuminate weakly and unevenly. Metal is scuffed and matte; paper is handled; offices are ordinary; data centers contain plausible racks, cable trays, blanking plates, floor or slab, and maintenance clutter.
@@ -42,3 +50,7 @@ Every light has a physical source: fluorescent tubes, monitor spill, rack indica
 ## Output discipline
 
 Render the panel's own project-authored display strings accurately. Everything else stays out: no third-party wording, logos, credentials, QR codes, code, commands, paths, URLs, or source screenshots, and never source typography reproduced closely enough to imply quotation. Captions, dialogue, and provenance are separate controlled production layers, so do not draw them. Any glyph the panel did not ask for is a defect.
+
+## Palette (compact)
+
+Charcoal, dirty paper and desaturated infrastructure color throughout. Moss, claret and amber appear only where the story earns them; nothing else.

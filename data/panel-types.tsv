@@ -47,7 +47,7 @@ panel	page	chapter	register	type	route	strings	longest	text_chars
 011-04	011	prologue	incident	scene	local	0	0	0
 011-05	011	prologue	incident	scene	local	0	0	0
 012-01	012	prologue	incident	scene	local	0	0	0
-012-02	012	prologue	incident	scene	local	0	0	0
+012-02	012	prologue	incident	diagram	structure	0	0	0
 012-03	012	prologue	incident	scene	local	0	0	0
 012-04	012	prologue	incident	scene	local	0	0	0
 012-05	012	prologue	incident	diagram	structure	0	0	0
@@ -125,14 +125,14 @@ panel	page	chapter	register	type	route	strings	longest	text_chars
 027-02	027	01	institutional	figure	figures	0	0	0
 027-03	027	01	institutional	figure	figures	1	9	9
 027-04	027	01	institutional	scene	local	0	0	0
-027-05	027	01	institutional	scene	local	0	0	0
+027-05	027	01	institutional	figure	figures	0	0	0
 028-01	028	01	incident	scene	local	0	0	0
 028-02	028	01	incident	scene	local	0	0	0
 028-03	028	01	incident	scene	local	0	0	0
-028-04	028	01	incident	scene	local	0	0	0
+028-04	028	01	incident	figure	figures	0	0	0
 028-05	028	01	incident	text-heavy	text-fidelity	1	19	19
 028-06	028	01	incident	scene	local	0	0	0
-029-01	029	01	incident	scene	local	0	0	0
+029-01	029	01	incident	figure	figures	0	0	0
 029-02	029	01	incident	scene	local	0	0	0
 029-03	029	01	incident	scene	local	0	0	0
 029-04	029	01	incident	scene	local	0	0	0
@@ -208,7 +208,7 @@ panel	page	chapter	register	type	route	strings	longest	text_chars
 043-05	043	03	incident	figure	figures	0	0	0
 044-01	044	03	incident	text-heavy	text-fidelity	2	30	36
 044-02	044	03	incident	text-heavy	text-fidelity	2	30	55
-044-03	044	03	incident	text-light	local	2	14	19
+044-03	044	03	incident	dossier	structure	2	14	19
 044-04	044	03	incident	scene	local	0	0	0
 044-05	044	03	incident	text-light	local	1	11	11
 045-01	045	03	incident	text-heavy	text-fidelity	1	19	19
@@ -259,7 +259,7 @@ panel	page	chapter	register	type	route	strings	longest	text_chars
 054-01	054	03	institutional	dossier	structure	0	0	0
 054-02	054	03	institutional	scene	local	0	0	0
 054-03	054	03	institutional	scene	local	0	0	0
-054-04	054	03	institutional	text-light	local	1	8	8
+054-04	054	03	institutional	diagram	structure	1	8	8
 054-05	054	03	institutional	diagram	structure	0	0	0
 055-01	055	03	institutional	scene	local	0	0	0
 055-02	055	03	institutional	scene	local	0	0	0
@@ -361,17 +361,17 @@ panel	page	chapter	register	type	route	strings	longest	text_chars
 075-01	075	05	institutional	text-heavy	text-fidelity	1	29	29
 075-02	075	05	institutional	text-heavy	text-fidelity	2	44	72
 075-03	075	05	institutional	scene	local	0	0	0
-075-04	075	05	institutional	scene	local	0	0	0
+075-04	075	05	institutional	figure	figures	0	0	0
 075-05	075	05	institutional	scene	local	0	0	0
-076-01	076	05	institutional	dossier	structure	0	0	0
-076-02	076	05	institutional	scene	local	0	0	0
+076-01	076	05	institutional	figure	figures	0	0	0
+076-02	076	05	institutional	diagram	structure	0	0	0
 076-03	076	05	institutional	text-heavy	text-fidelity	1	60	60
 076-04	076	05	institutional	text-light	local	1	11	11
 076-05	076	05	institutional	figure	figures	0	0	0
 077-01	077	05	institutional	text-light	local	2	11	21
 077-02	077	05	institutional	scene	local	0	0	0
 077-03	077	05	institutional	scene	local	0	0	0
-077-04	077	05	institutional	scene	local	0	0	0
+077-04	077	05	institutional	figure	figures	0	0	0
 077-05	077	05	institutional	scene	local	0	0	0
 078-01	078	05	incident	figure	figures	0	0	0
 078-02	078	05	incident	scene	local	0	0	0
@@ -383,7 +383,7 @@ panel	page	chapter	register	type	route	strings	longest	text_chars
 079-03	079	05	dossier	text-heavy	text-fidelity	1	42	42
 079-04	079	05	dossier	scene	local	0	0	0
 079-05	079	05	dossier	scene	local	0	0	0
-080-01	080	05	institutional	dossier	structure	0	0	0
+080-01	080	05	institutional	figure	figures	0	0	0
 080-02	080	05	institutional	figure	figures	0	0	0
 080-03	080	05	institutional	text-heavy	text-fidelity	2	43	84
 080-04	080	05	institutional	scene	local	0	0	0
@@ -469,7 +469,7 @@ panel	page	chapter	register	type	route	strings	longest	text_chars
 097-02	097	06	institutional	figure	figures	0	0	0
 097-03	097	06	institutional	scene	local	0	0	0
 097-04	097	06	institutional	scene	local	0	0	0
-098-01	098	06	incident	scene	local	0	0	0
+098-01	098	06	incident	diagram	structure	0	0	0
 098-02	098	06	incident	scene	local	0	0	0
 098-03	098	06	incident	scene	local	0	0	0
 098-04	098	06	incident	scene	local	0	0	0
@@ -495,7 +495,7 @@ panel	page	chapter	register	type	route	strings	longest	text_chars
 103-01	103	06	institutional	figure	figures	0	0	0
 103-02	103	06	institutional	scene	local	0	0	0
 103-03	103	06	institutional	scene	local	0	0	0
-103-04	103	06	institutional	scene	local	0	0	0
+103-04	103	06	institutional	figure	figures	0	0	0
 103-05	103	06	institutional	scene	local	0	0	0
 104-01	104	06	invented future	text-heavy	text-fidelity	5	15	55
 104-02	104	06	invented future	diagram	structure	0	0	0
@@ -511,7 +511,7 @@ panel	page	chapter	register	type	route	strings	longest	text_chars
 106-02	106	epilogue	creator	text-heavy	text-fidelity	4	27	85
 106-03	106	epilogue	creator	portrait	reference	0	0	0
 106-04	106	epilogue	creator	portrait	reference	0	0	0
-106-05	106	epilogue	creator	scene	local	0	0	0
+106-05	106	epilogue	creator	diagram	structure	0	0	0
 107-01	107	epilogue	creator	portrait	reference	0	0	0
 107-02	107	epilogue	creator	scene	local	0	0	0
 107-03	107	epilogue	creator	portrait	reference	1	35	35

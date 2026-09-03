@@ -450,11 +450,15 @@ def prompt_sections(page: str, panel: int, register: str) -> list[Section]:
     only parts that differ between panels, so they outrank everything generic.
     The register clause is twenty tokens that decide which world the panel is
     in. The rendering target carries the ink identity, without which the book
-    stops looking like itself. The palette is next because dropping it is
-    visible as colour outside the book's range. Composition and the negative
-    prompt rank last because they are the two largest blocks, and because a
-    command backend with no negative-prompt channel receives the negatives as
-    ordinary prompt text, where measurement shows they change nothing.
+    stops looking like itself. Composition comes next because it holds the
+    rules local output actually broke — drawn borders, panel grids, caption
+    boxes, personified agents — then the palette, whose absence shows as colour
+    outside the book's range. Light and material is atmosphere, and output
+    discipline mostly restates what compact composition already says, so both
+    give way first.
+
+    Sections offering a `(compact)` heading fall back to it rather than dropping
+    out entirely, which is how composition survives a 512-token budget at all.
     """
     style = PROMPT_DIR / "global-style.md"
 
@@ -468,12 +472,12 @@ def prompt_sections(page: str, panel: int, register: str) -> list[Section]:
         Section("register", f"Register — {register}: {register_clause(register)}", 3),
         Section("panel", f"Panel — {panel_direction(page, panel)}", 1),
         Section("exact text", exact_text_clause(page, panel), 2),
-        block("Composition", 7),
-        block("Light and material", 6),
-        Section("palette", f"Palette, and nothing outside it: {palette_clause()}.", 5,
+        block("Composition", 5),
+        block("Light and material", 8),
+        Section("palette", f"Palette, and nothing outside it: {palette_clause()}.", 6,
                 _digest(style, "Palette (compact)")),
-        block("Output discipline", 8),
-        Section("avoid", f"Avoid entirely: {negative_prompt()}", 9,
+        block("Output discipline", 9),
+        Section("avoid", f"Avoid entirely: {negative_prompt()}", 7,
                 _digest(PROMPT_DIR / "negative-prompt.md", "Compact")),
     ]
 
@@ -544,7 +548,9 @@ def palette_clause() -> str:
 
 
 def negative_prompt() -> str:
+    """The full negative prompt: everything above the `## Compact` alternative."""
     source = (PROMPT_DIR / "negative-prompt.md").read_text(encoding="utf-8")
+    source = re.split(r"^## Compact\s*$", source, flags=re.M)[0]
     body = re.sub(r"^#.*$", "", source, flags=re.M).replace("`", "")
     return re.sub(r"\s+", " ", body).strip()
 

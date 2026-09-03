@@ -3,3 +3,7 @@
 No superhero composition, glossy cyberpunk, neon city, teal-and-orange grade, hologram, humanoid robot, android, glowing brain, red robot eyes, code rain, fantasy cyberspace, anime styling, clean corporate vector art, plastic 3D render, excessive bloom, heroic hacker pose, skull icon, swarm queen, agent conference room, sentimental death imagery, surveillance cliché, villain lighting, glamorous founder portrait, recognizable public figure, brand logo, current product UI, organization seal, readable source screenshot, copied report typography, real credential, token, URL, QR code, command, payload, code fragment, exploit path, vulnerability identifier, terminal gibberish, invented lettering, misspelled display text, approximated wording, fake legible prose, multi-panel page, panel grid, comic page layout, gutters, inset panels, drawn panel border, page number, drawn caption box, speech balloon, balloon tail, accidental watermark, illegible hands, extra fingers, warped keyboard, impossible rack geometry, floating cable, inconsistent perspective, text crossing trim, essential object in gutter, low-contrast lettering field, unexplained glow.
 
 Keep generated screen content blank, abstract, or visibly non-semantic. All controlled text is added later.
+
+## Compact
+
+No invented or misspelled lettering, no fake legible prose, no drawn caption box, balloon or panel border, no page number, no panel grid or gutters, no logo or product UI, no color outside the palette, no glowing brain or humanoid robot, no neon cyberpunk or teal-and-orange grade, no heroic pose.
