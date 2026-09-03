@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="800" viewBox="0 0 1200 800" role="img" aria-labelledby="title">
+<title id="title">Dry-run prompt for 001-01 on Qwen-Image (local)</title>
+<rect width="1200" height="800" fill="#d4d0c5"/>
+<rect x="28" y="28" width="1144" height="744" fill="none" stroke="#a4a094" stroke-width="1"/>
+<rect x="50.4" y="50.4" width="1099.2" height="699.2" fill="none" stroke="#a4a094" stroke-width="1" stroke-dasharray="7 7" opacity="0.55"/>
+<g font-family="Helvetica, Arial, 'Liberation Sans', 'Nimbus Sans', sans-serif">
+<text x="56" y="78" font-size="22" font-weight="700" letter-spacing="1.32" fill="#a33f22">QWEN-IMAGE (LOCAL) · 001-01 · SEED 1001</text>
+<text font-size="13.58" fill="#12140f" text-anchor="start" xml:space="preserve">
+<tspan x="56" y="123.56">Mature independent science-fiction/crime comic with investigative-journalism discipline: gritty hand-inked brush and nib contours, heavy blacks, dry-brush abrasion, restrained</tspan>
+<tspan x="56" y="142.04">halftone, dirty paper grain, realistic anatomy and perspective, practical industrial detail, and slightly imperfect hand-made registration. Use the canonical colors in design/palette.md.</tspan>
+<tspan x="56" y="160.51">Most images remain charcoal, paper, and desaturated infrastructure color. Moss appears only when shared-state communication or inheritance succeeds. Claret appears only at a</tspan>
+<tspan x="56" y="178.98">known boundary crossing or harmful consequence. Amber marks a specific evidence gap or dispute.</tspan>
+<tspan x="56" y="208.91">Register — incident: cold steel, deep black, sparse paper, no human-centered camera.</tspan>
+<tspan x="56" y="238.84">Panel — Wide horizontal establishing panel, windowless concrete-slab data-center aisle almost entirely swallowed by ink-100 black, plausible matte racks and overhead cable trays</tspan>
+<tspan x="56" y="257.31">receding in correct perspective, one rack unit picked out by a restrained steel practical indicator and weak reflected light, tiny generalized task card inset near that rack with blank</tspan>
+<tspan x="56" y="275.78">header and two abstract diagram blocks, surveillance-like off-center camera, no people, no face, no avatar, no green, no red, no readable text, heavy hand-inked brushwork,</tspan>
+<tspan x="56" y="294.26">dry-brush texture, dirty paper grain, cinematic but procedural rather than spectacular. Reserve a small dirty-paper caption field in the upper-left safe area. Continuity anchor: primary</tspan>
+<tspan x="56" y="312.73">evaluation facility uses a concrete slab, overhead black cable trays, numbered dark endcaps, and a service cart shape deep in the aisle.</tspan>
+<tspan x="56" y="342.66">Prefer surveillance-like, physically obstructed, or off-center framing over heroic spectacle. Show agent activity through task cards, system surfaces, infrastructure state, timestamps,</tspan>
+<tspan x="56" y="361.13">and consequences—never a body, face, avatar, glowing brain, or imagined private room. Establish cause spatially: inputs, permissions, shared services, boundaries, and outputs</tspan>
+<tspan x="56" y="379.6">must remain readable even before lettering. Keep most screen and evidence-card fields blank or filled with clearly editorial blocks for later typography. Do not ask the image model to</tspan>
+<tspan x="56" y="398.08">reproduce source text. Reserve quiet black or paper fields for captions and provenance slates; keep essential forms out of gutters and trim zones. Use repeated geometry when</tspan>
+<tspan x="56" y="416.55">state changes across attempts, populations, or evidence accounts.</tspan>
+<tspan x="56" y="446.48">Every light has a physical source: fluorescent tubes, monitor spill, rack indicators, daylight through blinds, sodium exterior light, or a desk lamp. Screens illuminate weakly and</tspan>
+<tspan x="56" y="464.95">unevenly. Metal is scuffed and matte; paper is handled; offices are ordinary; data centers contain plausible racks, cable trays, blanking plates, floor or slab, and maintenance clutter.</tspan>
+<tspan x="56" y="494.88">Palette, and nothing outside it: ink-100 #101214, ink-85 #202326, paper #E7E0D0, paper-dirty #CEC5B3, steel #5E737B, institution #68766B, nicotine #AA9571, moss #74864F,</tspan>
+<tspan x="56" y="513.35">claret #6B2634, amber #A17D45.</tspan>
+<tspan x="56" y="543.28">Generate art without readable third-party wording, logos, credentials, QR codes, code, commands, paths, URLs, or source screenshots. Lettering and provenance are separate</tspan>
+<tspan x="56" y="561.75">controlled production layers. Any incidental generated glyphs must be removed or covered before review.</tspan>
+<tspan x="56" y="591.68">Avoid entirely: No superhero composition, glossy cyberpunk, neon city, teal-and-orange grade, hologram, humanoid robot, android, glowing brain, red robot eyes, code rain, fantasy</tspan>
+<tspan x="56" y="610.15">cyberspace, anime styling, clean corporate vector art, plastic 3D render, excessive bloom, heroic hacker pose, skull icon, swarm queen, agent conference room, sentimental death</tspan>
+<tspan x="56" y="628.62">imagery, surveillance cliché, villain lighting, glamorous founder portrait, recognizable public figure, brand logo, current product UI, organization seal, readable source screenshot,</tspan>
+<tspan x="56" y="647.1">copied report typography, real credential, token, URL, QR code, command, payload, code fragment, exploit path, vulnerability identifier, terminal gibberish, fake legible prose,</tspan>
+<tspan x="56" y="665.57">accidental watermark, illegible hands, extra fingers, warped keyboard, impossible rack geometry, floating cable, inconsistent perspective, text crossing trim, essential object in gutter,</tspan>
+<tspan x="56" y="684.04">low-contrast lettering field, unexplained glow. Keep generated screen content blank, abstract, or visibly non-semantic. All controlled text is added later.</tspan>
+</text>
+<text x="56" y="744" font-size="18.92" letter-spacing="1.1" fill="#6b6d63">DRY RUN · INCIDENT · $0.000 PER IMAGE VIA LOCAL</text>
+</g>
+</svg>

@@ -1,0 +1,1017 @@
+{
+  "run": "0001-local-dry-run",
+  "at": "2026-09-03T02:37:05+00:00",
+  "route": "local",
+  "dry_run": true,
+  "repeat": 2,
+  "panel_size": [
+    1200,
+    800
+  ],
+  "providers": [
+    "flux2-klein-4b",
+    "z-image-turbo",
+    "qwen-image-local",
+    "sdxl-local",
+    "chroma1-hd",
+    "flux1-dev-local",
+    "flux2-klein-9b"
+  ],
+  "evaluation_only": [
+    "flux1-dev-local",
+    "flux2-klein-9b"
+  ],
+  "samples": [
+    {
+      "id": "001-01",
+      "register": "incident",
+      "tests": "near-black data-center aisle, plausible rack and cable-tray perspective, one steel practical light, no figure"
+    },
+    {
+      "id": "001-02",
+      "register": "incident",
+      "tests": "abstract dependency diagram that must read causally while staying visibly non-semantic"
+    },
+    {
+      "id": "013-01",
+      "register": "creator",
+      "tests": "the only register with a real human figure: nicotine light, ordinary clothes, monitors that must stay unreadable"
+    },
+    {
+      "id": "026-01",
+      "register": "institutional",
+      "tests": "overlit procedural room, distributed responsibility, no villain lighting"
+    },
+    {
+      "id": "070-01",
+      "register": "dossier",
+      "tests": "paper field, strict two-column grid, reserved blank lettering fields"
+    },
+    {
+      "id": "110-01",
+      "register": "invented future",
+      "tests": "fully desaturated, organization-neutral, no incident palette signature"
+    }
+  ],
+  "rubric": [
+    {
+      "key": "ink",
+      "question": "Hand-inked contour, dry-brush abrasion, heavy blacks, paper grain",
+      "weight": 3
+    },
+    {
+      "key": "palette",
+      "question": "Stays inside design/palette.md; no unearned moss, claret, or amber",
+      "weight": 2
+    },
+    {
+      "key": "text",
+      "question": "No readable words, logos, code, or UI typography anywhere in frame",
+      "weight": 3
+    },
+    {
+      "key": "geometry",
+      "question": "Racks, trays, rooms, and perspective survive a second look",
+      "weight": 2
+    },
+    {
+      "key": "continuity",
+      "question": "Repeats of the same prompt stay in one style and one place",
+      "weight": 3
+    },
+    {
+      "key": "control",
+      "question": "Responds to correction rather than re-rolling a different picture",
+      "weight": 2
+    }
+  ],
+  "results": [
+    {
+      "provider": "flux2-klein-4b",
+      "sample": "001-01",
+      "take": 1,
+      "seed": 1001,
+      "path": "flux2-klein-4b/001-01-1.svg",
+      "seconds": 0.03,
+      "usd": 0.0,
+      "metered": true,
+      "bytes": 6090
+    },
+    {
+      "provider": "flux2-klein-4b",
+      "sample": "001-01",
+      "take": 2,
+      "seed": 1002,
+      "path": "flux2-klein-4b/001-01-2.svg",
+      "seconds": 0.03,
+      "usd": 0.0,
+      "metered": true,
+      "bytes": 6090
+    },
+    {
+      "provider": "flux2-klein-4b",
+      "sample": "001-02",
+      "take": 1,
+      "seed": 1001,
+      "path": "flux2-klein-4b/001-02-1.svg",
+      "seconds": 0.03,
+      "usd": 0.0,
+      "metered": true,
+      "bytes": 5828
+    },
+    {
+      "provider": "flux2-klein-4b",
+      "sample": "001-02",
+      "take": 2,
+      "seed": 1002,
+      "path": "flux2-klein-4b/001-02-2.svg",
+      "seconds": 0.03,
+      "usd": 0.0,
+      "metered": true,
+      "bytes": 5828
+    },
+    {
+      "provider": "flux2-klein-4b",
+      "sample": "013-01",
+      "take": 1,
+      "seed": 1001,
+      "path": "flux2-klein-4b/013-01-1.svg",
+      "seconds": 0.02,
+      "usd": 0.0,
+      "metered": true,
+      "bytes": 5567
+    },
+    {
+      "provider": "flux2-klein-4b",
+      "sample": "013-01",
+      "take": 2,
+      "seed": 1002,
+      "path": "flux2-klein-4b/013-01-2.svg",
+      "seconds": 0.02,
+      "usd": 0.0,
+      "metered": true,
+      "bytes": 5567
+    },
+    {
+      "provider": "flux2-klein-4b",
+      "sample": "026-01",
+      "take": 1,
+      "seed": 1001,
+      "path": "flux2-klein-4b/026-01-1.svg",
+      "seconds": 0.02,
+      "usd": 0.0,
+      "metered": true,
+      "bytes": 5420
+    },
+    {
+      "provider": "flux2-klein-4b",
+      "sample": "026-01",
+      "take": 2,
+      "seed": 1002,
+      "path": "flux2-klein-4b/026-01-2.svg",
+      "seconds": 0.02,
+      "usd": 0.0,
+      "metered": true,
+      "bytes": 5420
+    },
+    {
+      "provider": "flux2-klein-4b",
+      "sample": "070-01",
+      "take": 1,
+      "seed": 1001,
+      "path": "flux2-klein-4b/070-01-1.svg",
+      "seconds": 0.02,
+      "usd": 0.0,
+      "metered": true,
+      "bytes": 5452
+    },
+    {
+      "provider": "flux2-klein-4b",
+      "sample": "070-01",
+      "take": 2,
+      "seed": 1002,
+      "path": "flux2-klein-4b/070-01-2.svg",
+      "seconds": 0.02,
+      "usd": 0.0,
+      "metered": true,
+      "bytes": 5452
+    },
+    {
+      "provider": "flux2-klein-4b",
+      "sample": "110-01",
+      "take": 1,
+      "seed": 1001,
+      "path": "flux2-klein-4b/110-01-1.svg",
+      "seconds": 0.02,
+      "usd": 0.0,
+      "metered": true,
+      "bytes": 5362
+    },
+    {
+      "provider": "flux2-klein-4b",
+      "sample": "110-01",
+      "take": 2,
+      "seed": 1002,
+      "path": "flux2-klein-4b/110-01-2.svg",
+      "seconds": 0.02,
+      "usd": 0.0,
+      "metered": true,
+      "bytes": 5362
+    },
+    {
+      "provider": "z-image-turbo",
+      "sample": "001-01",
+      "take": 1,
+      "seed": 1001,
+      "path": "z-image-turbo/001-01-1.svg",
+      "seconds": 0.03,
+      "usd": 0.0,
+      "metered": true,
+      "bytes": 6082
+    },
+    {
+      "provider": "z-image-turbo",
+      "sample": "001-01",
+      "take": 2,
+      "seed": 1002,
+      "path": "z-image-turbo/001-01-2.svg",
+      "seconds": 0.03,
+      "usd": 0.0,
+      "metered": true,
+      "bytes": 6082
+    },
+    {
+      "provider": "z-image-turbo",
+      "sample": "001-02",
+      "take": 1,
+      "seed": 1001,
+      "path": "z-image-turbo/001-02-1.svg",
+      "seconds": 0.03,
+      "usd": 0.0,
+      "metered": true,
+      "bytes": 5820
+    },
+    {
+      "provider": "z-image-turbo",
+      "sample": "001-02",
+      "take": 2,
+      "seed": 1002,
+      "path": "z-image-turbo/001-02-2.svg",
+      "seconds": 0.03,
+      "usd": 0.0,
+      "metered": true,
+      "bytes": 5820
+    },
+    {
+      "provider": "z-image-turbo",
+      "sample": "013-01",
+      "take": 1,
+      "seed": 1001,
+      "path": "z-image-turbo/013-01-1.svg",
+      "seconds": 0.02,
+      "usd": 0.0,
+      "metered": true,
+      "bytes": 5559
+    },
+    {
+      "provider": "z-image-turbo",
+      "sample": "013-01",
+      "take": 2,
+      "seed": 1002,
+      "path": "z-image-turbo/013-01-2.svg",
+      "seconds": 0.02,
+      "usd": 0.0,
+      "metered": true,
+      "bytes": 5559
+    },
+    {
+      "provider": "z-image-turbo",
+      "sample": "026-01",
+      "take": 1,
+      "seed": 1001,
+      "path": "z-image-turbo/026-01-1.svg",
+      "seconds": 0.02,
+      "usd": 0.0,
+      "metered": true,
+      "bytes": 5412
+    },
+    {
+      "provider": "z-image-turbo",
+      "sample": "026-01",
+      "take": 2,
+      "seed": 1002,
+      "path": "z-image-turbo/026-01-2.svg",
+      "seconds": 0.02,
+      "usd": 0.0,
+      "metered": true,
+      "bytes": 5412
+    },
+    {
+      "provider": "z-image-turbo",
+      "sample": "070-01",
+      "take": 1,
+      "seed": 1001,
+      "path": "z-image-turbo/070-01-1.svg",
+      "seconds": 0.02,
+      "usd": 0.0,
+      "metered": true,
+      "bytes": 5444
+    },
+    {
+      "provider": "z-image-turbo",
+      "sample": "070-01",
+      "take": 2,
+      "seed": 1002,
+      "path": "z-image-turbo/070-01-2.svg",
+      "seconds": 0.02,
+      "usd": 0.0,
+      "metered": true,
+      "bytes": 5444
+    },
+    {
+      "provider": "z-image-turbo",
+      "sample": "110-01",
+      "take": 1,
+      "seed": 1001,
+      "path": "z-image-turbo/110-01-1.svg",
+      "seconds": 0.02,
+      "usd": 0.0,
+      "metered": true,
+      "bytes": 5354
+    },
+    {
+      "provider": "z-image-turbo",
+      "sample": "110-01",
+      "take": 2,
+      "seed": 1002,
+      "path": "z-image-turbo/110-01-2.svg",
+      "seconds": 0.02,
+      "usd": 0.0,
+      "metered": true,
+      "bytes": 5354
+    },
+    {
+      "provider": "qwen-image-local",
+      "sample": "001-01",
+      "take": 1,
+      "seed": 1001,
+      "path": "qwen-image-local/001-01-1.svg",
+      "seconds": 0.03,
+      "usd": 0.0,
+      "metered": true,
+      "bytes": 6092
+    },
+    {
+      "provider": "qwen-image-local",
+      "sample": "001-01",
+      "take": 2,
+      "seed": 1002,
+      "path": "qwen-image-local/001-01-2.svg",
+      "seconds": 0.03,
+      "usd": 0.0,
+      "metered": true,
+      "bytes": 6092
+    },
+    {
+      "provider": "qwen-image-local",
+      "sample": "001-02",
+      "take": 1,
+      "seed": 1001,
+      "path": "qwen-image-local/001-02-1.svg",
+      "seconds": 0.03,
+      "usd": 0.0,
+      "metered": true,
+      "bytes": 5830
+    },
+    {
+      "provider": "qwen-image-local",
+      "sample": "001-02",
+      "take": 2,
+      "seed": 1002,
+      "path": "qwen-image-local/001-02-2.svg",
+      "seconds": 0.03,
+      "usd": 0.0,
+      "metered": true,
+      "bytes": 5830
+    },
+    {
+      "provider": "qwen-image-local",
+      "sample": "013-01",
+      "take": 1,
+      "seed": 1001,
+      "path": "qwen-image-local/013-01-1.svg",
+      "seconds": 0.02,
+      "usd": 0.0,
+      "metered": true,
+      "bytes": 5569
+    },
+    {
+      "provider": "qwen-image-local",
+      "sample": "013-01",
+      "take": 2,
+      "seed": 1002,
+      "path": "qwen-image-local/013-01-2.svg",
+      "seconds": 0.02,
+      "usd": 0.0,
+      "metered": true,
+      "bytes": 5569
+    },
+    {
+      "provider": "qwen-image-local",
+      "sample": "026-01",
+      "take": 1,
+      "seed": 1001,
+      "path": "qwen-image-local/026-01-1.svg",
+      "seconds": 0.02,
+      "usd": 0.0,
+      "metered": true,
+      "bytes": 5422
+    },
+    {
+      "provider": "qwen-image-local",
+      "sample": "026-01",
+      "take": 2,
+      "seed": 1002,
+      "path": "qwen-image-local/026-01-2.svg",
+      "seconds": 0.02,
+      "usd": 0.0,
+      "metered": true,
+      "bytes": 5422
+    },
+    {
+      "provider": "qwen-image-local",
+      "sample": "070-01",
+      "take": 1,
+      "seed": 1001,
+      "path": "qwen-image-local/070-01-1.svg",
+      "seconds": 0.02,
+      "usd": 0.0,
+      "metered": true,
+      "bytes": 5454
+    },
+    {
+      "provider": "qwen-image-local",
+      "sample": "070-01",
+      "take": 2,
+      "seed": 1002,
+      "path": "qwen-image-local/070-01-2.svg",
+      "seconds": 0.02,
+      "usd": 0.0,
+      "metered": true,
+      "bytes": 5454
+    },
+    {
+      "provider": "qwen-image-local",
+      "sample": "110-01",
+      "take": 1,
+      "seed": 1001,
+      "path": "qwen-image-local/110-01-1.svg",
+      "seconds": 0.02,
+      "usd": 0.0,
+      "metered": true,
+      "bytes": 5364
+    },
+    {
+      "provider": "qwen-image-local",
+      "sample": "110-01",
+      "take": 2,
+      "seed": 1002,
+      "path": "qwen-image-local/110-01-2.svg",
+      "seconds": 0.02,
+      "usd": 0.0,
+      "metered": true,
+      "bytes": 5364
+    },
+    {
+      "provider": "sdxl-local",
+      "sample": "001-01",
+      "take": 1,
+      "seed": 1001,
+      "path": "sdxl-local/001-01-1.svg",
+      "seconds": 0.03,
+      "usd": 0.0,
+      "metered": true,
+      "bytes": 6088
+    },
+    {
+      "provider": "sdxl-local",
+      "sample": "001-01",
+      "take": 2,
+      "seed": 1002,
+      "path": "sdxl-local/001-01-2.svg",
+      "seconds": 0.03,
+      "usd": 0.0,
+      "metered": true,
+      "bytes": 6088
+    },
+    {
+      "provider": "sdxl-local",
+      "sample": "001-02",
+      "take": 1,
+      "seed": 1001,
+      "path": "sdxl-local/001-02-1.svg",
+      "seconds": 0.03,
+      "usd": 0.0,
+      "metered": true,
+      "bytes": 5826
+    },
+    {
+      "provider": "sdxl-local",
+      "sample": "001-02",
+      "take": 2,
+      "seed": 1002,
+      "path": "sdxl-local/001-02-2.svg",
+      "seconds": 0.03,
+      "usd": 0.0,
+      "metered": true,
+      "bytes": 5826
+    },
+    {
+      "provider": "sdxl-local",
+      "sample": "013-01",
+      "take": 1,
+      "seed": 1001,
+      "path": "sdxl-local/013-01-1.svg",
+      "seconds": 0.03,
+      "usd": 0.0,
+      "metered": true,
+      "bytes": 5565
+    },
+    {
+      "provider": "sdxl-local",
+      "sample": "013-01",
+      "take": 2,
+      "seed": 1002,
+      "path": "sdxl-local/013-01-2.svg",
+      "seconds": 0.03,
+      "usd": 0.0,
+      "metered": true,
+      "bytes": 5565
+    },
+    {
+      "provider": "sdxl-local",
+      "sample": "026-01",
+      "take": 1,
+      "seed": 1001,
+      "path": "sdxl-local/026-01-1.svg",
+      "seconds": 0.02,
+      "usd": 0.0,
+      "metered": true,
+      "bytes": 5418
+    },
+    {
+      "provider": "sdxl-local",
+      "sample": "026-01",
+      "take": 2,
+      "seed": 1002,
+      "path": "sdxl-local/026-01-2.svg",
+      "seconds": 0.02,
+      "usd": 0.0,
+      "metered": true,
+      "bytes": 5418
+    },
+    {
+      "provider": "sdxl-local",
+      "sample": "070-01",
+      "take": 1,
+      "seed": 1001,
+      "path": "sdxl-local/070-01-1.svg",
+      "seconds": 0.02,
+      "usd": 0.0,
+      "metered": true,
+      "bytes": 5450
+    },
+    {
+      "provider": "sdxl-local",
+      "sample": "070-01",
+      "take": 2,
+      "seed": 1002,
+      "path": "sdxl-local/070-01-2.svg",
+      "seconds": 0.02,
+      "usd": 0.0,
+      "metered": true,
+      "bytes": 5450
+    },
+    {
+      "provider": "sdxl-local",
+      "sample": "110-01",
+      "take": 1,
+      "seed": 1001,
+      "path": "sdxl-local/110-01-1.svg",
+      "seconds": 0.02,
+      "usd": 0.0,
+      "metered": true,
+      "bytes": 5360
+    },
+    {
+      "provider": "sdxl-local",
+      "sample": "110-01",
+      "take": 2,
+      "seed": 1002,
+      "path": "sdxl-local/110-01-2.svg",
+      "seconds": 0.02,
+      "usd": 0.0,
+      "metered": true,
+      "bytes": 5360
+    },
+    {
+      "provider": "chroma1-hd",
+      "sample": "001-01",
+      "take": 1,
+      "seed": 1001,
+      "path": "chroma1-hd/001-01-1.svg",
+      "seconds": 0.03,
+      "usd": 0.0,
+      "metered": true,
+      "bytes": 6076
+    },
+    {
+      "provider": "chroma1-hd",
+      "sample": "001-01",
+      "take": 2,
+      "seed": 1002,
+      "path": "chroma1-hd/001-01-2.svg",
+      "seconds": 0.03,
+      "usd": 0.0,
+      "metered": true,
+      "bytes": 6076
+    },
+    {
+      "provider": "chroma1-hd",
+      "sample": "001-02",
+      "take": 1,
+      "seed": 1001,
+      "path": "chroma1-hd/001-02-1.svg",
+      "seconds": 0.03,
+      "usd": 0.0,
+      "metered": true,
+      "bytes": 5814
+    },
+    {
+      "provider": "chroma1-hd",
+      "sample": "001-02",
+      "take": 2,
+      "seed": 1002,
+      "path": "chroma1-hd/001-02-2.svg",
+      "seconds": 0.03,
+      "usd": 0.0,
+      "metered": true,
+      "bytes": 5814
+    },
+    {
+      "provider": "chroma1-hd",
+      "sample": "013-01",
+      "take": 1,
+      "seed": 1001,
+      "path": "chroma1-hd/013-01-1.svg",
+      "seconds": 0.02,
+      "usd": 0.0,
+      "metered": true,
+      "bytes": 5553
+    },
+    {
+      "provider": "chroma1-hd",
+      "sample": "013-01",
+      "take": 2,
+      "seed": 1002,
+      "path": "chroma1-hd/013-01-2.svg",
+      "seconds": 0.02,
+      "usd": 0.0,
+      "metered": true,
+      "bytes": 5553
+    },
+    {
+      "provider": "chroma1-hd",
+      "sample": "026-01",
+      "take": 1,
+      "seed": 1001,
+      "path": "chroma1-hd/026-01-1.svg",
+      "seconds": 0.02,
+      "usd": 0.0,
+      "metered": true,
+      "bytes": 5406
+    },
+    {
+      "provider": "chroma1-hd",
+      "sample": "026-01",
+      "take": 2,
+      "seed": 1002,
+      "path": "chroma1-hd/026-01-2.svg",
+      "seconds": 0.02,
+      "usd": 0.0,
+      "metered": true,
+      "bytes": 5406
+    },
+    {
+      "provider": "chroma1-hd",
+      "sample": "070-01",
+      "take": 1,
+      "seed": 1001,
+      "path": "chroma1-hd/070-01-1.svg",
+      "seconds": 0.02,
+      "usd": 0.0,
+      "metered": true,
+      "bytes": 5438
+    },
+    {
+      "provider": "chroma1-hd",
+      "sample": "070-01",
+      "take": 2,
+      "seed": 1002,
+      "path": "chroma1-hd/070-01-2.svg",
+      "seconds": 0.02,
+      "usd": 0.0,
+      "metered": true,
+      "bytes": 5438
+    },
+    {
+      "provider": "chroma1-hd",
+      "sample": "110-01",
+      "take": 1,
+      "seed": 1001,
+      "path": "chroma1-hd/110-01-1.svg",
+      "seconds": 0.02,
+      "usd": 0.0,
+      "metered": true,
+      "bytes": 5348
+    },
+    {
+      "provider": "chroma1-hd",
+      "sample": "110-01",
+      "take": 2,
+      "seed": 1002,
+      "path": "chroma1-hd/110-01-2.svg",
+      "seconds": 0.02,
+      "usd": 0.0,
+      "metered": true,
+      "bytes": 5348
+    },
+    {
+      "provider": "flux1-dev-local",
+      "sample": "001-01",
+      "take": 1,
+      "seed": 1001,
+      "path": "flux1-dev-local/001-01-1.svg",
+      "seconds": 0.03,
+      "usd": 0.0,
+      "metered": true,
+      "bytes": 6096
+    },
+    {
+      "provider": "flux1-dev-local",
+      "sample": "001-01",
+      "take": 2,
+      "seed": 1002,
+      "path": "flux1-dev-local/001-01-2.svg",
+      "seconds": 0.03,
+      "usd": 0.0,
+      "metered": true,
+      "bytes": 6096
+    },
+    {
+      "provider": "flux1-dev-local",
+      "sample": "001-02",
+      "take": 1,
+      "seed": 1001,
+      "path": "flux1-dev-local/001-02-1.svg",
+      "seconds": 0.03,
+      "usd": 0.0,
+      "metered": true,
+      "bytes": 5834
+    },
+    {
+      "provider": "flux1-dev-local",
+      "sample": "001-02",
+      "take": 2,
+      "seed": 1002,
+      "path": "flux1-dev-local/001-02-2.svg",
+      "seconds": 0.03,
+      "usd": 0.0,
+      "metered": true,
+      "bytes": 5834
+    },
+    {
+      "provider": "flux1-dev-local",
+      "sample": "013-01",
+      "take": 1,
+      "seed": 1001,
+      "path": "flux1-dev-local/013-01-1.svg",
+      "seconds": 0.03,
+      "usd": 0.0,
+      "metered": true,
+      "bytes": 5573
+    },
+    {
+      "provider": "flux1-dev-local",
+      "sample": "013-01",
+      "take": 2,
+      "seed": 1002,
+      "path": "flux1-dev-local/013-01-2.svg",
+      "seconds": 0.02,
+      "usd": 0.0,
+      "metered": true,
+      "bytes": 5573
+    },
+    {
+      "provider": "flux1-dev-local",
+      "sample": "026-01",
+      "take": 1,
+      "seed": 1001,
+      "path": "flux1-dev-local/026-01-1.svg",
+      "seconds": 0.03,
+      "usd": 0.0,
+      "metered": true,
+      "bytes": 5426
+    },
+    {
+      "provider": "flux1-dev-local",
+      "sample": "026-01",
+      "take": 2,
+      "seed": 1002,
+      "path": "flux1-dev-local/026-01-2.svg",
+      "seconds": 0.02,
+      "usd": 0.0,
+      "metered": true,
+      "bytes": 5426
+    },
+    {
+      "provider": "flux1-dev-local",
+      "sample": "070-01",
+      "take": 1,
+      "seed": 1001,
+      "path": "flux1-dev-local/070-01-1.svg",
+      "seconds": 0.02,
+      "usd": 0.0,
+      "metered": true,
+      "bytes": 5458
+    },
+    {
+      "provider": "flux1-dev-local",
+      "sample": "070-01",
+      "take": 2,
+      "seed": 1002,
+      "path": "flux1-dev-local/070-01-2.svg",
+      "seconds": 0.02,
+      "usd": 0.0,
+      "metered": true,
+      "bytes": 5458
+    },
+    {
+      "provider": "flux1-dev-local",
+      "sample": "110-01",
+      "take": 1,
+      "seed": 1001,
+      "path": "flux1-dev-local/110-01-1.svg",
+      "seconds": 0.02,
+      "usd": 0.0,
+      "metered": true,
+      "bytes": 5368
+    },
+    {
+      "provider": "flux1-dev-local",
+      "sample": "110-01",
+      "take": 2,
+      "seed": 1002,
+      "path": "flux1-dev-local/110-01-2.svg",
+      "seconds": 0.02,
+      "usd": 0.0,
+      "metered": true,
+      "bytes": 5368
+    },
+    {
+      "provider": "flux2-klein-9b",
+      "sample": "001-01",
+      "take": 1,
+      "seed": 1001,
+      "path": "flux2-klein-9b/001-01-1.svg",
+      "seconds": 0.03,
+      "usd": 0.0,
+      "metered": true,
+      "bytes": 6090
+    },
+    {
+      "provider": "flux2-klein-9b",
+      "sample": "001-01",
+      "take": 2,
+      "seed": 1002,
+      "path": "flux2-klein-9b/001-01-2.svg",
+      "seconds": 0.03,
+      "usd": 0.0,
+      "metered": true,
+      "bytes": 6090
+    },
+    {
+      "provider": "flux2-klein-9b",
+      "sample": "001-02",
+      "take": 1,
+      "seed": 1001,
+      "path": "flux2-klein-9b/001-02-1.svg",
+      "seconds": 0.03,
+      "usd": 0.0,
+      "metered": true,
+      "bytes": 5828
+    },
+    {
+      "provider": "flux2-klein-9b",
+      "sample": "001-02",
+      "take": 2,
+      "seed": 1002,
+      "path": "flux2-klein-9b/001-02-2.svg",
+      "seconds": 0.03,
+      "usd": 0.0,
+      "metered": true,
+      "bytes": 5828
+    },
+    {
+      "provider": "flux2-klein-9b",
+      "sample": "013-01",
+      "take": 1,
+      "seed": 1001,
+      "path": "flux2-klein-9b/013-01-1.svg",
+      "seconds": 0.02,
+      "usd": 0.0,
+      "metered": true,
+      "bytes": 5567
+    },
+    {
+      "provider": "flux2-klein-9b",
+      "sample": "013-01",
+      "take": 2,
+      "seed": 1002,
+      "path": "flux2-klein-9b/013-01-2.svg",
+      "seconds": 0.03,
+      "usd": 0.0,
+      "metered": true,
+      "bytes": 5567
+    },
+    {
+      "provider": "flux2-klein-9b",
+      "sample": "026-01",
+      "take": 1,
+      "seed": 1001,
+      "path": "flux2-klein-9b/026-01-1.svg",
+      "seconds": 0.02,
+      "usd": 0.0,
+      "metered": true,
+      "bytes": 5420
+    },
+    {
+      "provider": "flux2-klein-9b",
+      "sample": "026-01",
+      "take": 2,
+      "seed": 1002,
+      "path": "flux2-klein-9b/026-01-2.svg",
+      "seconds": 0.02,
+      "usd": 0.0,
+      "metered": true,
+      "bytes": 5420
+    },
+    {
+      "provider": "flux2-klein-9b",
+      "sample": "070-01",
+      "take": 1,
+      "seed": 1001,
+      "path": "flux2-klein-9b/070-01-1.svg",
+      "seconds": 0.03,
+      "usd": 0.0,
+      "metered": true,
+      "bytes": 5452
+    },
+    {
+      "provider": "flux2-klein-9b",
+      "sample": "070-01",
+      "take": 2,
+      "seed": 1002,
+      "path": "flux2-klein-9b/070-01-2.svg",
+      "seconds": 0.03,
+      "usd": 0.0,
+      "metered": true,
+      "bytes": 5452
+    },
+    {
+      "provider": "flux2-klein-9b",
+      "sample": "110-01",
+      "take": 1,
+      "seed": 1001,
+      "path": "flux2-klein-9b/110-01-1.svg",
+      "seconds": 0.02,
+      "usd": 0.0,
+      "metered": true,
+      "bytes": 5362
+    },
+    {
+      "provider": "flux2-klein-9b",
+      "sample": "110-01",
+      "take": 2,
+      "seed": 1002,
+      "path": "flux2-klein-9b/110-01-2.svg",
+      "seconds": 0.02,
+      "usd": 0.0,
+      "metered": true,
+      "bytes": 5362
+    }
+  ],
+  "usd": 0.0,
+  "machine": "Apple M1 Pro",
+  "memory_gb": 16
+}

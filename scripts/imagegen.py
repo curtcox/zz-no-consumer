@@ -41,6 +41,9 @@ import html
 import json
 import os
 import re
+import shutil
+import subprocess
+import tempfile
 import time
 import urllib.error
 import urllib.request
@@ -56,6 +59,7 @@ PROMPT_DIR = ROOT / "prompts"
 PALETTE_FILE = ROOT / "design" / "palette.md"
 DEFAULT_RUN_DIR = ROOT / "assets" / "bakeoff"
 GENERATION_LOG = ROOT / "data" / "generation-log.jsonl"
+LOCAL_MODELS = ROOT / "data" / "local-models.json"
 
 PANEL_SIZE = textimage.PANEL_SIZE          # 1200 x 800, the book's panel slot
 PANEL_ASPECT = "3:2"
@@ -68,6 +72,7 @@ OPENROUTER_MODELS = "https://openrouter.ai/api/v1/images/models"
 OPENROUTER_ENV = "OPENROUTER_API_KEY"
 
 REQUEST_TIMEOUT = 300
+LOCAL_TIMEOUT = 1800      # a 20B model at 8-bit on a laptop is not quick
 
 # WebP keeps a committed run to a few megabytes. The comparison is about ink,
 # palette, geometry, and text suppression, none of which survive or die on the
@@ -99,21 +104,50 @@ class Provider:
     setup_usd: float = 0.0       # one-off cost, e.g. style-LoRA training
     openrouter: str = ""         # slug on the unified image API; empty means unreachable there
     openrouter_usd: float = 0.0
+    licence: str = "vendor terms"
+    commercial: bool = True      # False means its output may not appear in the book
+    parameters: str = ""
+    fits_gb: int = 0             # unified memory a local model needs; 0 for hosted
+    seconds_per_image: float = 0.0
+    command: tuple[str, ...] = ()
+    local_url: str = ""
     extra: dict = field(default_factory=dict)
 
+    @property
+    def local(self) -> bool:
+        return self.build in ("command", "http")
+
     def auth(self, route: str) -> str | None:
+        """The key this route needs; local models need none, so they answer yes."""
+        if route == "local":
+            return "local"
         return os.environ.get(OPENROUTER_ENV if route == "openrouter" else self.auth_env) or None
 
     def routes(self, route: str) -> bool:
         """Whether this candidate can be reached at all on the given route."""
+        if route == "local":
+            return self.local
+        if self.local:
+            return False
         if route == "openrouter":
             return bool(self.openrouter)
         return bool(self.build) and self.build != "openrouter-only"
 
+    def installed(self) -> bool:
+        """For a command-backed model, whether its binary is on PATH."""
+        return bool(self.command) and shutil.which(self.command[0]) is not None
+
     def unit_usd(self, route: str = "direct") -> float:
+        if route == "local":
+            return 0.0            # electricity, and the wall clock below
         if route == "openrouter":
             return self.openrouter_usd or self.usd_per_image
         return self.batch_usd_per_image or self.usd_per_image
+
+    def full_book_hours(self, seconds: float | None = None) -> float:
+        """The other price of a local model: how long the whole book takes."""
+        rate = seconds if seconds is not None else self.seconds_per_image
+        return (PANEL_SLOTS + PAGE_SLOTS) * ATTEMPTS_PER_SLOT * rate / 3600
 
     def full_book_usd(self, route: str = "direct") -> float:
         slots = PANEL_SLOTS + PAGE_SLOTS
@@ -249,7 +283,40 @@ PROVIDERS: tuple[Provider, ...] = (
     ),
 )
 
-PROVIDERS_BY_ID = {provider.id: provider for provider in PROVIDERS}
+def local_providers() -> tuple[Provider, ...]:
+    """Read the editable local roster, so tooling churn stays out of Python."""
+    if not LOCAL_MODELS.is_file():
+        return ()
+    record = json.loads(LOCAL_MODELS.read_text(encoding="utf-8"))
+    built = []
+    for entry in record.get("models", ()):
+        backend = entry.get("backend", "command")
+        built.append(Provider(
+            id=entry["id"],
+            label=entry["label"],
+            vendor=entry["vendor"],
+            tier=entry.get("tier", "local"),
+            usd_per_image=0.0,
+            auth_env="",
+            strengths=entry.get("strengths", ""),
+            risks=entry.get("risks", ""),
+            build=backend,
+            model=entry.get("model", ""),
+            licence=entry.get("licence", "unstated"),
+            commercial=bool(entry.get("commercial", False)),
+            parameters=entry.get("parameters", ""),
+            fits_gb=int(entry.get("fits_gb", 0)),
+            seconds_per_image=float(entry.get("seconds_per_image", 0)),
+            command=tuple(entry.get("command", ())),
+            local_url=entry.get("url", ""),
+            extra={"steps": entry.get("steps"), "footprint_gb": entry.get("footprint_gb")},
+        ))
+    return tuple(built)
+
+
+LOCAL = local_providers()
+ALL_PROVIDERS: tuple[Provider, ...] = PROVIDERS + LOCAL
+PROVIDERS_BY_ID = {provider.id: provider for provider in ALL_PROVIDERS}
 
 
 # --------------------------------------------------------------- the bake-off
@@ -428,9 +495,79 @@ def generate_openrouter(provider: Provider, prompt: str, key: str, image_format:
     return Generated(data, suffix, usage.get("cost"))
 
 
+def generate_command(provider: Provider, prompt: str, seed: int) -> Generated:
+    """Run a local generator binary and read back the file it wrote.
+
+    The argv comes from `data/local-models.json` and is executed with no shell,
+    so a prompt containing quotes, backticks, or newlines is passed through as
+    one argument rather than being reinterpreted.
+    """
+    if not provider.installed():
+        raise RuntimeError(f"{provider.command[0]} is not on PATH")
+
+    width, height = PANEL_SIZE
+    with tempfile.TemporaryDirectory() as workspace:
+        target = Path(workspace) / "out.png"
+        argv = [
+            part.format(prompt=prompt, width=width, height=height,
+                        seed=seed, steps=provider.extra.get("steps") or 20, output=target)
+            for part in provider.command
+        ]
+        try:
+            finished = subprocess.run(argv, capture_output=True, text=True,
+                                      timeout=LOCAL_TIMEOUT, check=False)
+        except subprocess.TimeoutExpired:
+            raise RuntimeError(f"timed out after {LOCAL_TIMEOUT}s") from None
+        if finished.returncode != 0:
+            tail = (finished.stderr or finished.stdout or "").strip().splitlines()
+            raise RuntimeError(f"exit {finished.returncode}: {tail[-1] if tail else 'no output'}")
+        if not target.is_file():
+            raise RuntimeError(f"{argv[0]} exited cleanly but wrote no file to {target}")
+        return Generated(target.read_bytes(), ".png")
+
+
+def generate_local_http(provider: Provider, prompt: str, seed: int) -> Generated:
+    """Ask a local image server for one panel, in the OpenAI images shape.
+
+    Draw Things, ComfyUI behind a bridge, and LocalAI all speak some variant of
+    this, so the response is read defensively rather than assuming one field.
+    """
+    width, height = PANEL_SIZE
+    try:
+        payload = _post(provider.local_url, {
+            "model": provider.model,
+            "prompt": prompt,
+            "width": width,
+            "height": height,
+            "size": f"{width}x{height}",
+            "steps": provider.extra.get("steps") or 30,
+            "seed": seed,
+            "n": 1,
+        }, {})
+    except urllib.error.URLError as error:
+        raise RuntimeError(f"no local server at {provider.local_url} ({error.reason})") from None
+
+    records = payload.get("data") or payload.get("images") or []
+    if not records:
+        raise RuntimeError(f"local server returned no image: {str(payload)[:200]}")
+    record = records[0]
+    if isinstance(record, str):                      # some servers return bare base64
+        return Generated(base64.b64decode(record), ".png")
+    if record.get("b64_json"):
+        return Generated(base64.b64decode(record["b64_json"]), ".png")
+    if record.get("url"):
+        return Generated(_fetch(record["url"]), ".png")
+    raise RuntimeError("local server returned neither base64 nor a url")
+
+
 def generate(provider: Provider, prompt: str, seed: int, *,
              route: str = "direct", image_format: str = DEFAULT_FORMAT) -> Generated:
     """Send one prompt to one provider and return the image and what it cost."""
+    if route == "local" or provider.local:
+        if provider.build == "command":
+            return generate_command(provider, prompt, seed)
+        return generate_local_http(provider, prompt, seed)
+
     key = provider.auth(route)
     if not key:
         raise RuntimeError(f"{OPENROUTER_ENV if route == 'openrouter' else provider.auth_env} is not set")
@@ -516,7 +653,7 @@ def placeholder(provider: Provider, sample: Sample, prompt: str, seed: int, rout
 
 def selected(ids: list[str] | None) -> list[Provider]:
     if not ids:
-        return list(PROVIDERS)
+        return list(ALL_PROVIDERS)
     missing = [name for name in ids if name not in PROVIDERS_BY_ID]
     if missing:
         raise SystemExit(f"Unknown provider(s): {', '.join(missing)}. "
@@ -550,6 +687,7 @@ def run_samples(
     dry_run: bool,
     route: str = "direct",
     image_format: str = DEFAULT_FORMAT,
+    allow_non_commercial: bool = False,
 ) -> dict:
     """Send every sample prompt to every provider and record what came back."""
     directory.mkdir(parents=True, exist_ok=True)
@@ -563,7 +701,14 @@ def run_samples(
     spend = 0.0
     for provider in providers:
         if not provider.routes(route):
-            print(f"  skip {provider.id}: no OpenRouter slug")
+            print(f"  skip {provider.id}: not reachable on the {route} route")
+            continue
+        if not provider.commercial and not allow_non_commercial:
+            print(f"  skip {provider.id}: {provider.licence} forbids shipping its output; "
+                  f"pass --allow-non-commercial to score it anyway")
+            continue
+        if provider.build == "command" and not dry_run and not provider.installed():
+            print(f"  skip {provider.id}: {provider.command[0]} is not on PATH")
             continue
         if not dry_run and not provider.auth(route):
             print(f"  skip {provider.id}: "
@@ -627,6 +772,7 @@ def run_samples(
         "repeat": repeat,
         "panel_size": list(PANEL_SIZE),
         "providers": [provider.id for provider in ran],
+        "evaluation_only": sorted(provider.id for provider in ran if not provider.commercial),
         "samples": [
             {"id": sample.id, "register": sample.register, "tests": sample.tests}
             for sample in samples
@@ -661,6 +807,25 @@ def load_manifest(directory: Path) -> dict:
 
 def run_directories(base: Path) -> list[Path]:
     return sorted(path for path in base.glob("*") if (path / "manifest.json").is_file())
+
+
+def median_seconds(manifest: dict) -> dict[str, float]:
+    """Measured seconds per image per provider, which beats any estimate.
+
+    A dry run measures the placeholder writer, not the model, so it reports
+    nothing and the roster's own estimate stands.
+    """
+    if manifest.get("dry_run"):
+        return {}
+    timings: dict[str, list[float]] = {}
+    for result in manifest.get("results", ()):
+        if result.get("seconds"):
+            timings.setdefault(result["provider"], []).append(result["seconds"])
+    medians = {}
+    for name, values in timings.items():
+        values.sort()
+        medians[name] = values[len(values) // 2]
+    return medians
 
 
 def sheet_body(manifest: dict, *, prefix: str = "") -> str:
@@ -717,13 +882,37 @@ def sheet_body(manifest: dict, *, prefix: str = "") -> str:
         for item in manifest["rubric"]
     )
 
+    measured = median_seconds(manifest)
+
+    def book_cost(provider: Provider) -> str:
+        if provider.local:
+            hours = provider.full_book_hours(measured.get(provider.id))
+            return f"{hours:,.0f} h"
+        return f"${provider.full_book_usd(route):,.0f}"
+
+    def licence_cell(provider: Provider) -> str:
+        if provider.commercial:
+            return escape(provider.licence)
+        return f'<b class="bakeoff__error">{escape(provider.licence)}</b><br>evaluation only'
+
     notes = "".join(
-        f'<tr><td>{escape(provider.label)}</td>'
+        f'<tr><td>{escape(provider.label)}'
+        f'{f"<br><span class=\'bakeoff__meta\'>{escape(provider.parameters)}</span>" if provider.parameters else ""}</td>'
+        f'<td>{licence_cell(provider)}</td>'
         f'<td>{escape(provider.strengths)}</td>'
         f'<td>{escape(provider.risks)}</td>'
-        f'<td class="bakeoff__num">${provider.full_book_usd(route):,.0f}</td></tr>'
+        f'<td class="bakeoff__num">{book_cost(provider)}</td></tr>'
         for provider in providers
     )
+
+    warning = ""
+    if manifest.get("evaluation_only"):
+        names = ", ".join(PROVIDERS_BY_ID[name].label for name in manifest["evaluation_only"]
+                          if name in PROVIDERS_BY_ID)
+        warning = (f'<p class="bakeoff__warning"><b>Evaluation only.</b> {escape(names)} '
+                   f'{"are" if len(manifest["evaluation_only"]) > 1 else "is"} generated from '
+                   f'weights under a non-commercial licence. Score these columns to calibrate '
+                   f'the rubric; nothing in them may appear in the book.</p>')
 
     mode = ("dry run — placeholders carry the prompt that would have been sent"
             if manifest["dry_run"] else f"live run — ${manifest['usd']:.2f} spent")
@@ -733,6 +922,7 @@ def sheet_body(manifest: dict, *, prefix: str = "") -> str:
 <p class="bakeoff__meta">{escape(manifest['run'])} · {escape(manifest['at'])} ·
 via {escape(route)} · {escape(mode)} · {manifest['repeat']} take(s) per panel at
 {manifest['panel_size'][0]}×{manifest['panel_size'][1]}</p>
+{warning}
 <p>Every candidate received a byte-identical prompt composed from
 <code>prompts/global-style.md</code>, <code>prompts/negative-prompt.md</code>,
 <code>design/palette.md</code>, and the panel's own direction. The point of more than one
@@ -746,12 +936,14 @@ carry 541 panels, and one whose takes diverge cannot, however good either image 
 </table></div>
 <h2>Candidates</h2>
 <div class="table-wrap"><table>
-<thead><tr><th>Candidate</th><th>Why it might win</th><th>What it costs us</th>
-<th class="bakeoff__num">Full book</th></tr></thead>
+<thead><tr><th>Candidate</th><th>Licence</th><th>Why it might win</th>
+<th>What it costs us</th><th class="bakeoff__num">Full book</th></tr></thead>
 <tbody>{notes}</tbody>
 </table></div>
 <p class="bakeoff__meta">Full-book figures assume {PANEL_SLOTS} panels plus {PAGE_SLOTS} page
-sheets at {ATTEMPTS_PER_SLOT} attempts per slot, plus any one-off setup.</p>
+sheets at {ATTEMPTS_PER_SLOT} attempts per slot, plus any one-off setup. Hosted candidates are
+priced in dollars; local ones cost nothing per image and are priced in wall clock instead,
+measured from this run where it recorded one.</p>
 </div>"""
 
 
@@ -769,7 +961,7 @@ body:has(.bakeoff) .shell { width: min(1760px, calc(100% - 2rem)); }
   background: var(--panel, #211f1b); border: 1px solid var(--line, #3e3931); }
 .bakeoff__empty { color: var(--muted, #a9a398); }
 .bakeoff__error { color: #d08a7a; font-size: .85rem; }
-.bakeoff__num { text-align: right; }
+.bakeoff__num { text-align: right; white-space: nowrap; }\n.bakeoff__warning { padding: .75rem 1rem; border-left: 3px solid #d08a7a;\n  background: var(--panel, #211f1b); }
 </style>"""
 
 
@@ -824,17 +1016,28 @@ def resolve_run(args: argparse.Namespace) -> Path:
 
 def cmd_providers(args: argparse.Namespace) -> int:
     route = args.via
-    print(f"{'ID':<20} {'TIER':<10} {'$/IMAGE':>8} {'FULL BOOK':>10}  {'KEY':<8} "
-          f"{'OPENROUTER':<34} VENDOR")
-    for provider in PROVIDERS:
-        state = "set" if provider.auth(route) else "missing"
-        reach = provider.openrouter or "—"
+    print(f"{'ID':<20} {'TIER':<10} {'FULL BOOK':>11}  {'READY':<9} "
+          f"{'LICENCE':<28} VENDOR")
+    for provider in ALL_PROVIDERS:
+        if provider.local:
+            book = f"{provider.full_book_hours():>9,.0f} h"
+            ready = "yes" if provider.installed() else (
+                "server" if provider.build == "http" else "install")
+        else:
+            # A hosted candidate keeps its own price whatever route is being listed.
+            book = f"${provider.full_book_usd('direct' if route == 'local' else route):>10,.0f}"
+            ready = "yes" if provider.auth(route) else "no key"
         if not provider.routes(route):
-            state = "n/a"
-        print(f"{provider.id:<20} {provider.tier:<10} {provider.unit_usd(route):>8.3f} "
-              f"{provider.full_book_usd(route):>10,.0f}  {state:<8} {reach:<34} {provider.vendor}")
-    envs = sorted({provider.auth_env for provider in PROVIDERS} | {OPENROUTER_ENV})
+            ready = "n/a"
+        licence = provider.licence if provider.commercial else f"{provider.licence} ✗"
+        print(f"{provider.id:<20} {provider.tier:<10} {book:>11}  {ready:<9} "
+              f"{licence:<28} {provider.vendor}")
+    envs = sorted({provider.auth_env for provider in PROVIDERS if provider.auth_env} | {OPENROUTER_ENV})
     print(f"\nRoute: {route}. Keys are read from {', '.join(envs)}.")
+    print("Local models need no key. 'server' means it wants a local endpoint running; "
+      "'install' means its binary is not on PATH. ✗ marks a licence that forbids "
+      "shipping the output.")
+    print("Hosted candidates are priced in dollars, local ones in wall clock.")
     return 0
 
 
@@ -853,13 +1056,18 @@ def cmd_estimate(args: argparse.Namespace) -> int:
     images = len(samples) * args.repeat
     print(f"Sample run via {route}: {len(providers)} provider(s) × {len(samples)} panel(s) "
           f"× {args.repeat} take(s) = {len(providers) * images} images\n")
-    print(f"{'ID':<20} {'SAMPLE':>8} {'FULL BOOK':>10}  NOTE")
+    print(f"{'ID':<20} {'SAMPLE':>10} {'FULL BOOK':>11}  NOTE")
     total = 0.0
     for provider in providers:
+        if provider.local:
+            span = images * provider.seconds_per_image / 60
+            note = "" if provider.commercial else f"{provider.licence}: evaluation only"
+            print(f"{provider.id:<20} {span:>8,.0f} m {provider.full_book_hours():>9,.0f} h  {note}")
+            continue
         cost = images * provider.unit_usd(route)
         total += cost
         note = f"includes ${provider.setup_usd:,.0f} setup" if provider.setup_usd else ""
-        print(f"{provider.id:<20} {cost:>8.2f} {provider.full_book_usd(route):>10,.0f}  {note}")
+        print(f"{provider.id:<20} {cost:>9.2f}  ${provider.full_book_usd(route):>9,.0f}  {note}")
     print(f"\nWhole bake-off: ${total:,.2f}")
     print(f"Full book assumes {PANEL_SLOTS} panels + {PAGE_SLOTS} page sheets "
           f"× {ATTEMPTS_PER_SLOT} attempts.")
@@ -873,7 +1081,8 @@ def cmd_sample(args: argparse.Namespace) -> int:
     samples = chosen_samples(args.sample)
     print(f"Run {stamp} via {args.via} → {directory.relative_to(ROOT)}")
     manifest = run_samples(directory, providers, samples, repeat=args.repeat,
-                           dry_run=args.dry_run, route=args.via, image_format=args.format)
+                           dry_run=args.dry_run, route=args.via, image_format=args.format,
+                           allow_non_commercial=args.allow_non_commercial)
     report_run(directory, manifest, write_sheet=not args.no_sheet)
     return 0
 
@@ -941,8 +1150,10 @@ def main() -> int:
     commands = parser.add_subparsers(dest="command", required=True)
 
     def route_option(subparser: argparse.ArgumentParser) -> None:
-        subparser.add_argument("--via", default="direct", choices=("direct", "openrouter"),
-                               help="call each vendor directly, or route through OpenRouter")
+        subparser.add_argument("--via", default="direct",
+                               choices=("direct", "openrouter", "local"),
+                               help="call each vendor directly, route through OpenRouter, "
+                                    "or run open weights on this machine")
 
     providers = commands.add_parser("providers", help="list the candidates, their price, and key state")
     route_option(providers)
@@ -968,6 +1179,8 @@ def main() -> int:
     sample.add_argument("--dry-run", action="store_true",
                         help="write prompt placeholders instead of calling any API")
     sample.add_argument("--no-sheet", action="store_true")
+    sample.add_argument("--allow-non-commercial", action="store_true",
+                        help="include weights whose licence forbids shipping their output")
     route_option(sample)
 
     sheet = commands.add_parser("sheet", help="rebuild the standalone comparison sheet")

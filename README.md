@@ -146,7 +146,19 @@ Runs are written to `assets/bakeoff/<run>/` and published at [`/bakeoff/`](docs/
 
 Because `docs/` is the tracked Pages output, every committed run is stored twice — once as source under `assets/` and once as built output. A six-panel, two-take run across five candidates is roughly 30 MB of WebP at both copies, so keep one or two runs rather than a run per experiment.
 
-`assets/bakeoff/0000-dry-run/` is such a placeholder run. It publishes the prompts and the page structure; replace it with a real one and rebuild.
+`scripts/localgen.py` runs the same prompts on open weights on this machine, with no key and no spend. It reads its roster from `data/local-models.json`, which is editable JSON rather than Python because local tooling churns faster than the hosted roster does:
+
+```sh
+python3 scripts/localgen.py doctor     # this Mac, and what it can actually run
+python3 scripts/localgen.py estimate   # wall clock for a run and for the book
+python3 scripts/localgen.py run        # generate and write the comparison sheet
+```
+
+Local candidates are priced in hours rather than dollars, because that is what they cost: `doctor` and `estimate` report seconds per image, measured from earlier runs where any exist and estimated otherwise. Models too large for the machine's memory are filtered out, and models under a non-commercial licence — FLUX.1 [dev], FLUX.2 [klein] 9B, FLUX.2 [dev] — are skipped unless `--allow-non-commercial` is passed. A run that includes them is stamped evaluation-only in its manifest and carries a warning on the published sheet, because nothing they generate may appear in the book.
+
+Two backends are supported. `command` runs a local binary with a templated argv and no shell, which is how the MLX-native `mflux` models are called. `http` posts to a local server speaking the OpenAI images shape, which is how Draw Things or ComfyUI-behind-a-bridge are called. `data/local-models.json` is executed as configuration, so treat it as code.
+
+`assets/bakeoff/0000-dry-run/` and `assets/bakeoff/0001-local-dry-run/` are such placeholder runs. It publishes the prompts and the page structure; replace it with a real one and rebuild.
 
 ## GitHub Pages
 
