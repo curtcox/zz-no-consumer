@@ -189,6 +189,16 @@ Each panel's prompt is composed from the same canonical sources the bake-off use
 
 The default model is one that has actually produced an image on this machine, not merely one whose command is on PATH — `mflux` installs every model's entry point at once, so PATH alone would happily start a thirty-gigabyte download in the middle of an overnight run. `--provider` overrides it and `--width`/`--height` set the panel size; see the measured memory and wall-clock trade-off in [`design/image-generation-options.md`](design/image-generation-options.md).
 
+Panels keep every version they are given. `scripts/produce.py` adds a version rather than replacing one, so `--force` means *draw another*, and nothing a run produces can destroy an earlier attempt. Which version belongs in the book is recorded separately in [`data/panel-art.tsv`](data/panel-art.tsv) and can be decided whenever the evidence is in:
+
+```sh
+python3 scripts/panelart.py list --panel 001-01
+python3 scripts/panelart.py choose 001-01 v02
+python3 scripts/panelart.py status
+```
+
+Undecided panels show their newest candidate, so the book reads end to end throughout, and a panel with more than one live version gets an "Other versions" strip in the viewer. The layout, the decision record, and the repository cost are in [`design/panel-versions.md`](design/panel-versions.md).
+
 Page sheets are not generated. A page is composed from its panels by layout, the way a comic page is actually made, so the page grammar governs it and it costs no generation time.
 
 ## GitHub Pages

@@ -33,6 +33,7 @@ import sys
 from dataclasses import dataclass
 from pathlib import Path
 
+import panelart
 import textimage
 
 
@@ -305,11 +306,13 @@ def slot_map_svg(record: dict, width: int, height: int) -> str:
 
 
 def find_art(page_id: str, index: int) -> Path | None:
-    for suffix in (".webp", ".png", ".jpg", ".jpeg"):
-        candidate = ART_DIR / f"{page_id}-{index:02d}{suffix}"
-        if candidate.is_file():
-            return candidate
-    return None
+    """The version of this panel the book currently shows.
+
+    Panels keep every version they have been given; `scripts/panelart.py` decides
+    which one is current, using the chosen variant where a choice has been made
+    and the newest candidate where it has not.
+    """
+    return panelart.resolve(page_id, index)
 
 
 def cmd_slots(args: argparse.Namespace) -> int:

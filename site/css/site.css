@@ -93,3 +93,12 @@ footer { padding: 1.5rem 0 3rem; border-top: 1px solid var(--line); color: var(-
   main { display: block; }
   aside { position: static; margin-top: 2rem; }
 }
+
+/* Alternate versions of a panel, shown while the choice between them is open. */
+.alternates { margin: 1.25rem 0; padding: 1rem; border: 1px solid var(--line); background: var(--panel); }
+.alternates h3 { margin: 0 0 .25rem; font-size: .95rem; color: var(--accent); }
+.alternates p { margin: 0 0 .75rem; color: var(--muted); font-size: .9rem; }
+.alternates__row { display: grid; grid-template-columns: repeat(auto-fill, minmax(150px, 1fr)); gap: .75rem; }
+.alternates .alt { display: block; text-decoration: none; color: var(--muted); font-size: .78rem; }
+.alternates .alt img { width: 100%; display: block; border: 1px solid var(--line); margin-bottom: .3rem; }
+.alternates .alt:hover img { border-color: var(--accent); }

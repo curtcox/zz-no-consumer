@@ -43,6 +43,7 @@ from pathlib import Path
 import imagegen
 import letterpress
 import localgen
+import panelart
 import paneltypes
 import textimage
 
@@ -218,7 +219,8 @@ def summarise(chosen: list[Slot], provider: imagegen.Provider, *, force: bool) -
     print(f"Model:     {provider.label} ({provider.licence})")
     print(f"Selected:  {len(chosen)} panel(s) of {len(all_slots())} in the book")
     print(f"Have art:  {len(existing)}")
-    print(f"To draw:   {len(todo)}" + ("  (--force will overwrite existing art)" if force and existing else ""))
+    print(f"To draw:   {len(todo)}"
+          + ("  (adding a version to panels that already have one)" if force and existing else ""))
     if todo:
         print(f"Estimate:  {human(len(todo) * rate)} at {rate:.0f}s per panel")
     return todo, existing
@@ -361,9 +363,13 @@ def cmd_run(args: argparse.Namespace) -> int:
                 print(f"  [{position}/{len(todo)}] {slot.id}  FAILED: {error}")
                 continue
             payload = crop_bleed(result.data, size) if args.bleed else result.data
-            suffix = f"-{take + 1}" if args.takes > 1 else ""
-            target = out_dir / f"{slot.id}{suffix}{result.suffix}"
-            target.write_bytes(payload)
+            if out_dir == ART_DIR:
+                target = panelart.store(slot.id, payload, result.suffix,
+                                        provider=provider.id, seed=seed)
+            else:
+                suffix = f"-{take + 1}" if args.takes > 1 else ""
+                target = out_dir / f"{slot.id}{suffix}{result.suffix}"
+                target.write_bytes(payload)
             elapsed = time.time() - began
             times.append(elapsed)
             made += 1
@@ -423,7 +429,7 @@ def main() -> int:
         sub.add_argument("--limit", type=int, help="stop after this many panels")
         sub.add_argument("--provider", help="local model id; defaults to the fastest ready one")
         sub.add_argument("--force", action="store_true",
-                         help="regenerate panels that already have art")
+                         help="draw another version of panels that already have art")
         sub.add_argument("--width", type=int, default=imagegen.PANEL_SIZE[0])
         sub.add_argument("--height", type=int, default=imagegen.PANEL_SIZE[1])
 

@@ -14,6 +14,7 @@ from pathlib import Path
 import crossref
 import imagegen
 import letterpress
+import panelart
 import textimage
 
 
@@ -419,6 +420,7 @@ def viewer_document(
 
 PLACEHOLDER_DIR = Path("assets/placeholders")
 LETTERED_DIR = Path("assets/lettered")
+ALTERNATES_DIR = Path("assets/alternates")
 
 
 def build_lettering() -> dict[tuple[str, int], str]:
@@ -433,6 +435,7 @@ def build_lettering() -> dict[tuple[str, int], str]:
                       for s in textimage.book_scripts() for panel in s.panels)
     if not art_present:
         return lettered
+    alternates_root = OUT / ALTERNATES_DIR
 
     record = letterpress.load_slots()
     destination = OUT / LETTERED_DIR
@@ -448,7 +451,55 @@ def build_lettering() -> dict[tuple[str, int], str]:
                 letterpress.svg_panel(placed, record, *letterpress.PANEL_SIZE, art=art),
                 encoding="utf-8")
             lettered[(script.id, panel.index)] = name
+
+            # Publish the versions not currently shown, so a reader can compare.
+            others = panelart.alternates(script.id, panel.index)
+            if others:
+                folder = alternates_root / f"{script.id}-{panel.index:02d}"
+                folder.mkdir(parents=True, exist_ok=True)
+                links = []
+                for other in others:
+                    copy = folder / other.path.name
+                    shutil.copy2(other.path, copy)
+                    links.append((other, str(Path(f"{script.id}-{panel.index:02d}") / copy.name)))
+                ALTERNATES[(script.id, panel.index)] = links
     return lettered
+
+
+ALTERNATES: dict[tuple[str, int], list] = {}
+
+
+def alternates_strip(page_id: str, index: int, from_directory: Path) -> str:
+    """A reader-facing row of the other versions of this panel."""
+    links = ALTERNATES.get((page_id, index))
+    if not links:
+        return ""
+    shown = pick_shown(page_id, index)
+    decided = ("This one has been chosen for the book."
+               if shown.endswith("(chosen)")
+               else "The choice between them is still open.")
+    cells = "".join(
+        f'<a class="alt" href="{html.escape(relative_url(from_directory, ALTERNATES_DIR / rel))}">'
+        f'<img src="{html.escape(relative_url(from_directory, ALTERNATES_DIR / rel))}" loading="lazy" '
+        f'alt="Alternate version {html.escape(variant.variant)} of panel {html.escape(page_id)}-{index:02d}'
+        f'{f", drawn by {html.escape(variant.provider)}" if variant.provider else ""}">'
+        f'<span>{html.escape(variant.variant)}'
+        f'{f" · {html.escape(variant.provider)}" if variant.provider else ""}</span></a>'
+        for variant, rel in links)
+    return (f'<div class="alternates" data-content="text">'
+            f'<h3>Other versions of this panel</h3>'
+            f'<p>Showing {html.escape(shown)}. {len(links)} other version'
+            f'{"s" if len(links) != 1 else ""} '
+            f'{"exists" if len(links) == 1 else "exist"}. {decided}</p>'
+            f'<div class="alternates__row">{cells}</div></div>')
+
+
+def pick_shown(page_id: str, index: int) -> str:
+    variants = panelart.load().get(f"{page_id}-{index:02d}", [])
+    winner = panelart.pick(variants)
+    if not winner:
+        return "a placeholder"
+    return f"{winner.variant} ({winner.status})"
 
 
 LETTERED: dict[tuple[str, int], str] = {}
@@ -713,7 +764,7 @@ def build_viewer() -> None:
             previous_image = ((image_index - 2) % page.panel_count) + 1
             next_image = (image_index % page.panel_count) + 1
             image_body = f'''
-            <section class="image-viewer"><div class="image-frame" id="image" data-content="image">{placeholder_img(image_dir, book.panels[(page.id, image_index)], "image-sheet")}</div>
+            <section class="image-viewer"><div class="image-frame" id="image" data-content="image">{placeholder_img(image_dir, book.panels[(page.id, image_index)], "image-sheet")}</div>{alternates_strip(page.id, image_index, image_dir)}
             <div class="image-caption" data-content="text"><p><span>{html.escape(chapter.title)}</span> / Page {html.escape(page.id)}</p><h2>Image {image_index:02d} of {page.panel_count:02d}</h2><a class="text-action" href="{html.escape(route_url(image_dir, image_dest(page.id, image_index, True)))}">Image information <span>↓</span></a></div></section>
             '''
             write_viewer_page(
@@ -1296,7 +1347,7 @@ def main() -> int:
         source = ROOT / folder
         destination = OUT / folder
         if source.exists():
-            shutil.copytree(source, destination, dirs_exist_ok=True, ignore=shutil.ignore_patterns(".gitkeep", "sheet.html"))
+            shutil.copytree(source, destination, dirs_exist_ok=True, ignore=shutil.ignore_patterns(".gitkeep", "sheet.html", "panels"))
     css = ROOT / "site" / "css" / "site.css"
     if css.exists():
         (OUT / "css").mkdir(exist_ok=True)
