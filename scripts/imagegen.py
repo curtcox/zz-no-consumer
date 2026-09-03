@@ -309,7 +309,8 @@ def local_providers() -> tuple[Provider, ...]:
             seconds_per_image=float(entry.get("seconds_per_image", 0)),
             command=tuple(entry.get("command", ())),
             local_url=entry.get("url", ""),
-            extra={"steps": entry.get("steps"), "footprint_gb": entry.get("footprint_gb")},
+            extra={"steps": entry.get("steps"), "footprint_gb": entry.get("footprint_gb"),
+                   "output_suffix": entry.get("output_suffix")},
         ))
     return tuple(built)
 
@@ -507,7 +508,7 @@ def generate_command(provider: Provider, prompt: str, seed: int) -> Generated:
 
     width, height = PANEL_SIZE
     with tempfile.TemporaryDirectory() as workspace:
-        target = Path(workspace) / "out.png"
+        target = Path(workspace) / f"out{provider.extra.get('output_suffix') or '.png'}"
         # A composed panel prompt is about 4 KB. Most local runners accept a file,
         # which keeps it off the argument list and out of any process listing.
         prompt_file = Path(workspace) / "prompt.txt"
@@ -527,7 +528,7 @@ def generate_command(provider: Provider, prompt: str, seed: int) -> Generated:
             raise RuntimeError(f"exit {finished.returncode}: {tail[-1] if tail else 'no output'}")
         if not target.is_file():
             raise RuntimeError(f"{argv[0]} exited cleanly but wrote no file to {target}")
-        return Generated(target.read_bytes(), ".png")
+        return Generated(target.read_bytes(), target.suffix)
 
 
 def generate_local_http(provider: Provider, prompt: str, seed: int) -> Generated:

@@ -261,6 +261,36 @@ evaluation-only in its manifest and on the published sheet. The roster lives in
 `data/local-models.json` rather than in Python, because command names, repository
 ids, and quantisation move faster here than the hosted prices do.
 
+### First light, and what it settled
+
+Run [`0002-local-first-light`](/bakeoff/0002-local-first-light/) is FLUX.2 [klein] 4B
+at 4-bit generating panel 001-01 twice on an M1 Pro with 16 GB. Measured: **66 seconds
+per image at 1200×800 in four steps, 11.53 GB peak memory** — against a 40-second
+estimate, so the full book is about 72 hours of compute on this machine rather than 44.
+Peak memory is within half a gigabyte of everything a 16 GB Mac has to spare, which is
+why `--low-ram` is not optional here.
+
+The output settled three rubric lines on the first attempt:
+
+- **`ink` is genuinely good.** Hand-inked contour, heavy blacks, halftone, dirty-paper
+  border, a plausible aisle in correct perspective with racks and overhead cable trays.
+  It also placed the service cart deep in the aisle — an instruction that appears only
+  as a continuity anchor in the third paragraph of the prompt — and reserved the caption
+  field in the upper-left safe area exactly as asked.
+- **`text` fails.** Both takes filled the reserved caption box with gibberish lettering
+  and put fake labels on the equipment. This is the single thing
+  [`negative-prompt.md`](../prompts/negative-prompt.md) most insists against, and the
+  model does it unprompted, twice.
+- **`continuity` fails, which is the finding that matters.** The two takes are not the
+  same place and not the same style: one is mid-grey with a clean ruled border and one
+  service cart, the other is high-contrast near-black with a torn border, mesh rack
+  doors, different light fittings, and two carts. Either could open a book. They cannot
+  both be in the same book.
+
+That last point is the argument for a trained style, made in images rather than in
+prose. Prompt discipline produced a good panel and could not produce the same panel
+twice. `mflux-train` is in the same install.
+
 ### Throughput is the real constraint
 
 The book needs about 3,900 generations at six attempts per slot. Published figures

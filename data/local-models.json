@@ -22,6 +22,9 @@
     "",
     "`seconds_per_image` seeds the wall-clock estimate. Once a run exists, measured",
     "medians from its manifest are used instead.",
+    "`output_suffix` picks the file type the runner asks the command to write. mflux",
+    "saves through Pillow, so .webp keeps a committed run about ten times smaller",
+    "than PNG without changing anything the rubric scores.",
     "",
     "Install the MLX runner with `uv tool install mflux --python 3.12`, then `uv tool list`",
     "for the exact command names. mflux also ships mflux-train for local LoRA training."
@@ -37,7 +40,7 @@
       "commercial": true,
       "fits_gb": 16,
       "footprint_gb": 4.3,
-      "seconds_per_image": 40,
+      "seconds_per_image": 66,
       "backend": "command",
       "command": [
         "mflux-generate-flux2",
@@ -60,7 +63,8 @@
       "strengths": "the best image quality that is both Apache 2.0 and small enough to run on a 16 GB machine; inherits FLUX contour and heavy blacks",
       "risks": "tight at 16 GB even at 4-bit, so it competes with the rest of the desktop for memory; distilled to few steps, which limits how far a prompt correction can push it",
       "download_gb": 4.3,
-      "verified": "mflux 2026-09-02; prequantized 4-bit MLX build"
+      "verified": "mflux 2026-09-02 on M1 Pro 16 GB: 66 s/image, 11.53 GB peak",
+      "output_suffix": ".webp"
     },
     {
       "id": "z-image-turbo",
@@ -96,7 +100,8 @@
       ],
       "strengths": "distilled to nine steps, so it is far the fastest candidate; the right tool for framing sweeps, which it does at no cost",
       "risks": "tuned for photographic realism and text legibility, neither of which this book wants. Only bf16 weights are published, so it is a 30.6 GB download that then has to be quantised locally with mflux-save before a 16 GB machine can run it",
-      "download_gb": 30.6
+      "download_gb": 30.6,
+      "output_suffix": ".webp"
     },
     {
       "id": "qwen-image-local",
@@ -130,7 +135,8 @@
         "{output}"
       ],
       "strengths": "the largest Apache 2.0 model that fits 48 GB at 8-bit; strong composition",
-      "risks": "its advantage is text rendering, which this book actively suppresses, so most of what it is good at is wasted here"
+      "risks": "its advantage is text rendering, which this book actively suppresses, so most of what it is good at is wasted here",
+      "output_suffix": ".webp"
     },
     {
       "id": "sdxl-local",
@@ -201,7 +207,8 @@
         "{output}"
       ],
       "strengths": "the reference point everyone benchmarks against, and the model with the largest style-LoRA ecosystem",
-      "risks": "non-commercial licence: nothing it generates can appear in the book. Carry it to calibrate the rubric, then buy the winner through an API"
+      "risks": "non-commercial licence: nothing it generates can appear in the book. Carry it to calibrate the rubric, then buy the winner through an API",
+      "output_suffix": ".webp"
     },
     {
       "id": "flux2-klein-9b",
@@ -235,7 +242,8 @@
         "{output}"
       ],
       "strengths": "what a 48 GB machine could run if licensing were not a constraint; the honest upper bound on local quality",
-      "risks": "non-commercial licence, same as FLUX.1 [dev]. Evaluation only"
+      "risks": "non-commercial licence, same as FLUX.1 [dev]. Evaluation only",
+      "output_suffix": ".webp"
     }
   ]
 }
