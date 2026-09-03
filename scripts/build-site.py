@@ -11,6 +11,8 @@ import shutil
 from dataclasses import dataclass
 from pathlib import Path
 
+import crossref
+
 
 ROOT = Path(__file__).resolve().parents[1]
 OUT = ROOT / "docs"
@@ -625,7 +627,7 @@ def build_viewer() -> None:
         source_label = f"content/pages/{page.id}.md" if source_file.exists() else "Planned; script not drafted"
         page_info_body = f'''
         <section class="info-layout"><div class="info-lede"><p>Page record</p><p>Production metadata is separated from the reading surface while remaining one directional move away.</p></div>
-        <dl class="metadata"><div><dt>Page</dt><dd>{html.escape(page.id)} of 112</dd></div><div><dt>Title</dt><dd>{html.escape(page.title)}</dd></div><div><dt>Chapter</dt><dd>{html.escape(chapter.title)}</dd></div><div><dt>Sequence</dt><dd>{html.escape(page.sequence)}</dd></div><div><dt>Status</dt><dd>{html.escape(page.status)}</dd></div><div><dt>Image slots</dt><dd>{page.panel_count}</dd></div><div class="metadata__wide"><dt>Source</dt><dd>{html.escape(source_label)}</dd></div></dl></section>
+        <dl class="metadata"><div><dt>Page</dt><dd>{html.escape(page.id)} of 112</dd></div><div><dt>Title</dt><dd>{html.escape(page.title)}</dd></div><div><dt>Chapter</dt><dd>{html.escape(chapter.title)}</dd></div><div><dt>Sequence</dt><dd>{html.escape(page.sequence)}</dd></div><div><dt>Status</dt><dd>{html.escape(page.status)}</dd></div><div><dt>Image slots</dt><dd>{page.panel_count}</dd></div><div class="metadata__wide"><dt>Source</dt><dd>{html.escape(source_label)}</dd></div><div class="metadata__wide"><dt>Cross reference</dt><dd><a href="{html.escape(crossref_link(info_dir, "pages", page.id))}">Sources and provenance cited by page {html.escape(page.id)}</a></dd></div></dl></section>
         <a class="primary-action" href="{html.escape(route_url(info_dir, page_dest(page.id)))}">Return to page <span>↑</span></a>
         '''
         write_viewer_page(
@@ -667,7 +669,7 @@ def build_viewer() -> None:
             image_info_dir = image_dest(page.id, image_index, True).parent
             image_info_body = f'''
             <section class="info-layout"><div class="info-lede"><p>Image record</p><p>This stable address is ready for final media, alt text, credits, provenance, and generation metadata.</p></div>
-            <dl class="metadata"><div><dt>Identifier</dt><dd>{html.escape(page.id)}-{image_index:02d}</dd></div><div><dt>Parent page</dt><dd>{html.escape(page.id)} · {html.escape(page.title)}</dd></div><div><dt>Position</dt><dd>{image_index} of {page.panel_count}</dd></div><div><dt>Artwork</dt><dd><span class="status-dot"></span> Not generated</dd></div><div class="metadata__wide"><dt>Future asset</dt><dd>assets/art/panels/{html.escape(page.id)}-{image_index:02d}.*</dd></div></dl></section>
+            <dl class="metadata"><div><dt>Identifier</dt><dd>{html.escape(page.id)}-{image_index:02d}</dd></div><div><dt>Parent page</dt><dd>{html.escape(page.id)} · {html.escape(page.title)}</dd></div><div><dt>Position</dt><dd>{image_index} of {page.panel_count}</dd></div><div><dt>Artwork</dt><dd><span class="status-dot"></span> Not generated</dd></div><div class="metadata__wide"><dt>Future asset</dt><dd>assets/art/panels/{html.escape(page.id)}-{image_index:02d}.*</dd></div><div class="metadata__wide"><dt>Cross reference</dt><dd><a href="{html.escape(crossref_link(image_info_dir, "pages", page.id))}">Panel {image_index:02d} provenance on the page {html.escape(page.id)} record</a></dd></div></dl></section>
             <a class="primary-action" href="{html.escape(route_url(image_info_dir, image_current))}">Return to image <span>↑</span></a>
             '''
             write_viewer_page(
@@ -687,6 +689,397 @@ def build_viewer() -> None:
     viewer_source = ROOT / "site" / "viewer"
     shutil.copy2(viewer_source / "viewer.css", OUT / "viewer" / "viewer.css")
     shutil.copy2(viewer_source / "viewer.js", OUT / "viewer" / "viewer.js")
+
+
+# ---------------------------------------------------------------- cross reference
+
+
+def crossref_destination(*parts: str) -> Path:
+    return Path("crossref", *parts, "index.html")
+
+
+def crossref_link(from_directory: Path, *parts: str) -> str:
+    return route_url(from_directory, crossref_destination(*parts))
+
+
+def chips(from_directory: Path, section: str, values: list[str], labels: dict[str, str] | None = None) -> str:
+    if not values:
+        return '<span class="xref-empty">none</span>'
+    labels = labels or {}
+    return '<span class="xref-chips">' + "".join(
+        f'<a class="xref-chip" href="{html.escape(crossref_link(from_directory, section, crossref.slug(value)))}">'
+        f'{html.escape(labels.get(value, value))}</a>'
+        for value in values
+    ) + "</span>"
+
+
+def crossref_navigation(from_directory: Path) -> str:
+    items = [
+        ("Cross-reference overview", crossref_link(from_directory)),
+        ("Pages", crossref_link(from_directory, "pages")),
+        ("Sources", crossref_link(from_directory, "sources")),
+        ("Provenance statuses", crossref_link(from_directory, "provenance")),
+        ("Sequences", crossref_link(from_directory, "sequences")),
+        ("Viewer validation build", route_url(from_directory, viewer_destination())),
+        ("Project site", route_url(from_directory, Path("index.html"))),
+    ]
+    return "<ul>" + "".join(
+        f'<li><a href="{html.escape(href)}">{html.escape(label)}</a></li>' for label, href in items
+    ) + "</ul>"
+
+
+def table(headers: list[str], rows: list[list[str]]) -> str:
+    head = "".join(f"<th>{html.escape(item)}</th>" for item in headers)
+    body = "".join("<tr>" + "".join(f"<td>{cell}</td>" for cell in row) + "</tr>" for row in rows)
+    return f'<div class="table-wrap"><table><thead><tr>{head}</tr></thead><tbody>{body}</tbody></table></div>'
+
+
+def page_link(from_directory: Path, page: crossref.Page) -> str:
+    return (
+        f'<a href="{html.escape(crossref_link(from_directory, "pages", page.id))}">'
+        f'{html.escape(page.id)} · {html.escape(page.title)}</a>'
+    )
+
+
+def write_crossref_page(destination: Path, title: str, body: str) -> None:
+    directory = destination.parent
+    full_destination = OUT / destination
+    full_destination.parent.mkdir(parents=True, exist_ok=True)
+    full_destination.write_text(
+        page_document(
+            title,
+            body,
+            crossref_navigation(directory),
+            relative_url(directory, Path("css/site.css")),
+        ),
+        encoding="utf-8",
+    )
+
+
+def build_crossref(model: crossref.CrossReference, *, internal: bool) -> int:
+    """Write the page/source/provenance cross-reference section of the site."""
+    chapter_titles = {chapter.id: chapter.title for chapter in model.chapters}
+    status_labels = {status: status for status in crossref.PROVENANCE_STATUSES}
+    used_statuses = model.used_statuses()
+    used_sources = model.used_sources()
+    scope_note = (
+        '<p class="xref-note">Internal build: the scene ledger’s narrative summaries and drafting '
+        'rules are included below. The public build carries only the relational index.</p>'
+        if internal else
+        '<p class="xref-note">Public build: this index publishes which sources and provenance statuses '
+        'each page rests on. The scene ledger’s narrative summaries and drafting rules stay in the '
+        'unpublished research record.</p>'
+    )
+
+    def page_table(from_directory: Path, pages: list[crossref.Page]) -> str:
+        rows = [
+            [
+                page_link(from_directory, page),
+                html.escape(chapter_titles.get(page.chapter, page.chapter)),
+                f'<a href="{html.escape(crossref_link(from_directory, "sequences", crossref.slug(crossref.sequence_key(page.sequence))))}">'
+                f'{html.escape(page.sequence)}</a>',
+                chips(from_directory, "provenance", list(page.statuses), status_labels),
+                chips(from_directory, "sources", list(page.sources)),
+            ]
+            for page in pages
+        ]
+        return table(["Page", "Chapter", "Sequence", "Provenance", "Sources"], rows)
+
+    # Overview -----------------------------------------------------------------
+    home = crossref_destination()
+    home_dir = home.parent
+    cards = "".join(
+        f'<a class="card" href="{html.escape(crossref_link(home_dir, section))}">'
+        f"<h3>{html.escape(title)}</h3><p>{html.escape(blurb)}</p></a>"
+        for section, title, blurb in (
+            ("pages", "By page", f"{len(model.pages)} manifest pages, panel by panel."),
+            ("sources", "By source", f"{len(used_sources)} cited citation keys and their originals."),
+            ("provenance", "By provenance", f"{len(used_statuses)} evidentiary statuses in use."),
+            ("sequences", "By sequence", f"{len(model.sequences)} scene-ledger sequences."),
+        )
+    )
+    status_rows = [
+        [
+            f'<a href="{html.escape(crossref_link(home_dir, "provenance", status))}">{html.escape(status)}</a>',
+            html.escape(crossref.STATUS_NOTES.get(status, "")),
+            str(len(model.pages_for_status(status))),
+            str(len(model.sources_for_status(status))),
+        ]
+        for status in crossref.PROVENANCE_STATUSES
+    ]
+    source_rows = []
+    for key in sorted(used_sources, key=lambda item: (-len(model.pages_for_source(item)), item)):
+        source = model.sources[key]
+        label = html.escape(source.label)
+        source_rows.append([
+            f'<a href="{html.escape(crossref_link(home_dir, "sources", crossref.slug(key)))}"><code>{html.escape(key)}</code></a>',
+            f'<a href="{html.escape(source.url)}">{label}</a>' if source.url else label,
+            str(len(model.pages_for_source(key))),
+            chips(home_dir, "provenance", model.statuses_for_source(key), status_labels),
+        ])
+    findings_block = ""
+    if internal and model.findings:
+        findings_block = (
+            "<h2>Build findings</h2>"
+            "<p>Reported by <code>python3 scripts/crossref.py check</code>. Warnings mark pages whose panel "
+            "provenance lines cite a status or source their front matter does not declare.</p>"
+            + table(
+                ["Severity", "Subject", "Finding"],
+                [
+                    [html.escape(item.severity), html.escape(item.subject), html.escape(item.message)]
+                    for item in sorted(model.findings, key=lambda item: crossref.SEVERITIES.index(item.severity))
+                ],
+            )
+        )
+    write_crossref_page(
+        home,
+        "Cross reference",
+        f'''<p>Every page script declares its evidentiary footing twice: once in front matter, as
+        status-and-source pairs, and again on each panel. This section joins those declarations to the
+        citation keys in the research record and to the scene ledger, so a page can be reached from the
+        source it rests on, and a source from every page that uses it.</p>
+        {scope_note}
+        <div class="cards">{cards}</div>
+        <h2>Provenance statuses</h2>
+        {table(["Status", "What it means", "Pages", "Sources"], status_rows)}
+        <h2>Cited sources</h2>
+        {table(["Key", "Source", "Pages", "Statuses"], source_rows)}
+        {findings_block}''',
+    )
+
+    # Pages --------------------------------------------------------------------
+    pages_index = crossref_destination("pages")
+    pages_dir = pages_index.parent
+    index_rows = [
+        [
+            page_link(pages_dir, page),
+            html.escape(chapter_titles.get(page.chapter, page.chapter)),
+            f'<a href="{html.escape(crossref_link(pages_dir, "sequences", crossref.slug(crossref.sequence_key(page.sequence))))}">'
+            f'{html.escape(page.sequence)}</a>',
+            str(len(page.panels)),
+            chips(pages_dir, "provenance", list(page.statuses), status_labels),
+            chips(pages_dir, "sources", list(page.sources)),
+        ]
+        for page in model.pages
+    ]
+    write_crossref_page(
+        pages_index,
+        "Pages by source and provenance",
+        f'''<p>All {len(model.pages)} manifest pages with the citation keys and provenance statuses they
+        declare. Panel-level detail is on each page record.</p>
+        {table(["Page", "Chapter", "Sequence", "Panels", "Provenance", "Sources"], index_rows)}''',
+    )
+
+    for page in model.pages:
+        destination = crossref_destination("pages", page.id)
+        directory = destination.parent
+        sequence = model.sequences.get(crossref.sequence_key(page.sequence))
+        declared_rows = [
+            [html.escape(status), chips(directory, "sources", list(keys))]
+            for status, keys in page.declared
+        ]
+        panel_rows = [
+            [
+                str(panel.number),
+                chips(directory, "provenance", list(panel.statuses), status_labels),
+                chips(directory, "sources", list(panel.sources)),
+                inline(panel.note),
+            ]
+            for panel in page.panels
+        ]
+        script_href = relative_url(directory, slug_for(ROOT / "content" / "pages" / f"{page.id}.md"))
+        outbound = [
+            (f"Read the page {page.id} script", script_href),
+            (f"Open page {page.id} in the viewer", route_url(directory, viewer_destination("pages", page.id))),
+            (f"Page {page.id} viewer information", route_url(directory, viewer_destination("pages", page.id, "info"))),
+        ]
+        if sequence:
+            outbound.append((
+                f"{sequence.label} ledger record",
+                crossref_link(directory, "sequences", crossref.slug(sequence.key)),
+            ))
+        links = '<ul class="xref-links">' + "".join(
+            f'<li><a href="{html.escape(href)}">{html.escape(label)}</a></li>' for label, href in outbound
+        ) + "</ul>"
+        extras = ""
+        if page.locations or page.continuity_checks:
+            extras = "<h2>Page metadata</h2>" + table(
+                ["Field", "Values"],
+                [
+                    row for row in (
+                        ["Locations", ", ".join(html.escape(item) for item in page.locations)] if page.locations else [],
+                        ["Continuity checks", ", ".join(f"<code>{html.escape(item)}</code>" for item in page.continuity_checks)] if page.continuity_checks else [],
+                    ) if row
+                ],
+            )
+        write_crossref_page(
+            destination,
+            f"Page {page.id} — {page.title}",
+            f'''<p><strong>{html.escape(chapter_titles.get(page.chapter, page.chapter))}</strong> ·
+            sequence {html.escape(page.sequence)} · draft status {html.escape(page.status)} ·
+            {len(page.panels)} panels.</p>
+            <h2>Declared provenance</h2>
+            {table(["Status", "Sources"], declared_rows) if declared_rows else "<p>This page has no front-matter provenance declaration.</p>"}
+            <h2>Panel provenance</h2>
+            {table(["Panel", "Statuses", "Sources", "Boundary note"], panel_rows) if panel_rows else "<p>No panel provenance lines were found in this script.</p>"}
+            {extras}
+            <h2>Elsewhere</h2>
+            {links}''',
+        )
+
+    # Sources ------------------------------------------------------------------
+    sources_index = crossref_destination("sources")
+    sources_dir = sources_index.parent
+    rows = []
+    for key, source in model.sources.items():
+        pages = model.pages_for_source(key)
+        label = html.escape(source.label)
+        rows.append([
+            f'<a href="{html.escape(crossref_link(sources_dir, "sources", crossref.slug(key)))}"><code>{html.escape(key)}</code></a>',
+            f'<a href="{html.escape(source.url)}">{label}</a>' if source.url else label,
+            str(len(pages)),
+            chips(sources_dir, "provenance", model.statuses_for_source(key), status_labels),
+        ])
+    write_crossref_page(
+        sources_index,
+        "Sources by page",
+        f'''<p>Citation keys registered in the research record or used by a page script. Links point at the
+        original publication; this project links rather than republishing report pages or extended
+        fragments.</p>
+        {table(["Key", "Source", "Pages", "Statuses"], rows)}''',
+    )
+
+    for key, source in model.sources.items():
+        destination = crossref_destination("sources", crossref.slug(key))
+        directory = destination.parent
+        pages = model.pages_for_source(key)
+        original = (
+            f'<p><a class="viewer-callout" href="{html.escape(source.url)}">Open the original →</a></p>'
+            if source.url else
+            '<p class="xref-note">This key stands for project-authored material and has no external original.</p>'
+        )
+        ledger = f"<p>{inline(source.ledger_note)}</p>" if source.ledger_note else ""
+        packet_block = ""
+        if internal and source.packet_notes:
+            packet_block = (
+                "<h2>Chapter source packets</h2>"
+                + table(
+                    ["Chapter", "Registered use"],
+                    [
+                        [html.escape(chapter_titles.get(chapter, chapter)), inline(note)]
+                        for chapter, note in source.packet_notes
+                    ],
+                )
+            )
+        unregistered = (
+            '<p class="xref-note">No citation-key table or chapter source packet registers this key.</p>'
+            if not source.registered else ""
+        )
+        heading = ""
+        if source.title:
+            named = html.escape(source.title)
+            if source.url:
+                named = f'<a href="{html.escape(source.url)}">{named}</a>'
+            heading = f'<p class="lede">{named}</p>'
+
+        write_crossref_page(
+            destination,
+            key,
+            f'''{heading}{original}{ledger}{unregistered}
+            <p>Cited on {len(pages)} of {len(model.pages)} pages, at these provenance statuses:
+            {chips(directory, "provenance", model.statuses_for_source(key), status_labels)}</p>
+            {packet_block}
+            <h2>Pages resting on this source</h2>
+            {page_table(directory, pages) if pages else "<p>No page cites this key.</p>"}''',
+        )
+
+    # Provenance statuses ------------------------------------------------------
+    provenance_index = crossref_destination("provenance")
+    provenance_dir = provenance_index.parent
+    write_crossref_page(
+        provenance_index,
+        "Provenance statuses",
+        f'''<p>The seven evidentiary statuses a panel may carry. A page script may narrow the claim its
+        sources support; it may not silently upgrade it.</p>
+        {table(
+            ["Status", "What it means", "Pages", "Sources"],
+            [
+                [
+                    f'<a href="{html.escape(crossref_link(provenance_dir, "provenance", status))}">{html.escape(status)}</a>',
+                    html.escape(crossref.STATUS_NOTES.get(status, "")),
+                    str(len(model.pages_for_status(status))),
+                    chips(provenance_dir, "sources", model.sources_for_status(status)),
+                ]
+                for status in crossref.PROVENANCE_STATUSES
+            ],
+        )}''',
+    )
+
+    for status in crossref.PROVENANCE_STATUSES:
+        destination = crossref_destination("provenance", status)
+        directory = destination.parent
+        pages = model.pages_for_status(status)
+        panels = sum(
+            1 for page in model.pages for panel in page.panels if status in panel.statuses
+        )
+        write_crossref_page(
+            destination,
+            f"Provenance: {status}",
+            f'''<p>{html.escape(crossref.STATUS_NOTES.get(status, ""))}</p>
+            <p>Carried by {len(pages)} pages and {panels} panels, resting on these sources:
+            {chips(directory, "sources", model.sources_for_status(status))}</p>
+            <h2>Pages</h2>
+            {page_table(directory, pages) if pages else "<p>No page carries this status.</p>"}''',
+        )
+
+    # Sequences ----------------------------------------------------------------
+    sequences_index = crossref_destination("sequences")
+    sequences_dir = sequences_index.parent
+    headers = ["Sequence", "Ledger pages", "Assigned", "Provenance", "Sources"]
+    rows = []
+    for key, sequence in model.sequences.items():
+        row = [
+            f'<a href="{html.escape(crossref_link(sequences_dir, "sequences", crossref.slug(key)))}">{html.escape(sequence.label)}</a>',
+            f"{sequence.first_page:03d}–{sequence.last_page:03d}",
+            str(len(model.pages_for_sequence(key))),
+            chips(sequences_dir, "provenance", list(sequence.statuses), status_labels),
+            chips(sequences_dir, "sources", list(sequence.sources)),
+        ]
+        if internal:
+            row.append(inline(sequence.event))
+        rows.append(row)
+    write_crossref_page(
+        sequences_index,
+        "Sequences",
+        f'''<p>The scene ledger groups the 112 pages into {len(model.sequences)} sequences and fixes the
+        evidentiary treatment of each. These records connect a sequence to the pages assigned to it.</p>
+        {scope_note}
+        {table(headers + (["Narrative event"] if internal else []), rows)}''',
+    )
+
+    for key, sequence in model.sequences.items():
+        destination = crossref_destination("sequences", crossref.slug(key))
+        directory = destination.parent
+        pages = model.pages_for_sequence(key)
+        ledger_block = ""
+        if internal:
+            ledger_block = (
+                f"<h2>Ledger record</h2><p>{inline(sequence.event)}</p>"
+                f"<blockquote><p>{inline(sequence.rule)}</p></blockquote>"
+            )
+        write_crossref_page(
+            destination,
+            sequence.label,
+            f'''<p>Ledger pages {sequence.first_page:03d}–{sequence.last_page:03d} ·
+            {len(pages)} pages assigned in the manifest.</p>
+            <p>Ledger provenance: {chips(directory, "provenance", list(sequence.statuses), status_labels)}<br>
+            Ledger sources: {chips(directory, "sources", list(sequence.sources))}</p>
+            {ledger_block}
+            <h2>Pages</h2>
+            {page_table(directory, pages) if pages else "<p>No manifest page is assigned to this sequence.</p>"}''',
+        )
+
+    return len(list((OUT / "crossref").rglob("index.html")))
 
 
 def page_document(title: str, body: str, nav: str, css_href: str) -> str:
@@ -753,6 +1146,7 @@ def main() -> int:
         index_body = (
             '<p>Private local review build: canonical story material, visual direction, research, and production notes.</p>'
             '<p><a class="viewer-callout" href="viewer/">Open the graphic novel viewer validation build →</a></p>'
+            '<p><a class="viewer-callout" href="crossref/">Open the page, source, and provenance cross reference →</a></p>'
             '<p><a class="viewer-callout" href="production/thumbnails/">Open the provisional 57-spread thumbnail wall →</a></p>'
             f'<h2>Browse the internal project</h2><div class="cards">{index_cards}</div>'
         )
@@ -760,6 +1154,7 @@ def main() -> int:
         index_body = (
             '<p>Story-first public build. Research snapshots, source packets, prompts, and production notes remain local.</p>'
             '<p><a class="viewer-callout" href="viewer/">Open the graphic novel viewer validation build →</a></p>'
+            '<p><a class="viewer-callout" href="crossref/">Open the page, source, and provenance cross reference →</a></p>'
             f'<h2>Browse the story</h2><div class="cards">{index_cards}</div>'
         )
     (OUT / "index.html").write_text(
@@ -777,9 +1172,17 @@ def main() -> int:
         (OUT / "css").mkdir(exist_ok=True)
         shutil.copy2(css, OUT / "css" / "site.css")
 
+    model = crossref.build()
+    crossref_routes = build_crossref(model, internal=args.internal)
     build_viewer()
 
-    print(f"Built {len(markdown_files)} Markdown pages and the viewer validation section into {OUT.relative_to(ROOT)}/")
+    print(
+        f"Built {len(markdown_files)} Markdown pages, {crossref_routes} cross-reference routes, "
+        f"and the viewer validation section into {OUT.relative_to(ROOT)}/"
+    )
+    warnings = [item for item in model.findings if item.severity != "note"]
+    if warnings:
+        print(f"Cross-reference findings: {len(warnings)}; run scripts/crossref.py check for detail.")
     return 0
 
 

@@ -32,6 +32,9 @@ jobs:
       - name: Validate production foundations
         run: python scripts/validate-production-foundations.py
 
+      - name: Check page, source, and provenance cross references
+        run: python scripts/crossref.py check
+
       - name: Build site
         run: python scripts/build-site.py
 

@@ -71,6 +71,22 @@ aside li { margin: .35rem 0; }
 
 .viewer-callout:hover { color: var(--paper); background: var(--accent); }
 
+.xref-chips { display: inline-flex; flex-wrap: wrap; gap: .3rem; }
+.xref-chip {
+  padding: .1rem .45rem;
+  border: 1px solid var(--line);
+  background: var(--panel);
+  color: var(--accent-2);
+  font: .74rem/1.5 system-ui, sans-serif;
+  text-decoration: none;
+  white-space: nowrap;
+}
+.xref-chip:hover { border-color: var(--accent); color: var(--accent); }
+.xref-empty { color: var(--muted); font: .74rem/1.5 system-ui, sans-serif; }
+.xref-note { padding: .7rem .9rem; border-left: 3px solid var(--accent); color: var(--muted); }
+.xref-links { margin: 0; padding-left: 1.15rem; }
+.xref-links li { margin: .35rem 0; }
+
 footer { padding: 1.5rem 0 3rem; border-top: 1px solid var(--line); color: var(--muted); font: .85rem system-ui, sans-serif; }
 
 @media (max-width: 760px) {

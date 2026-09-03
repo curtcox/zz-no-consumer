@@ -10,7 +10,7 @@ A graphic novel about emergent AI agent coordination, instrumental convergence, 
 - `design/` — lettering, page grammar, palette, visual continuity, and layout references.
 - `assets/` — artwork and other media used by the site.
 - `data/` — structured page, character, continuity, asset, and generation metadata.
-- `scripts/` — validation and site-generation utilities.
+- `scripts/` — validation, cross-reference, and site-generation utilities.
 - `site/` — source styles and templates for the published site.
 - `docs/` — generated GitHub Pages output; do not edit manually.
 
@@ -37,6 +37,19 @@ python3 scripts/sync-256t.py status  # show local hashes and missing/error state
 
 Distinct downloaded bodies are retained by SHA-256 under `256t/records/`. Tracked prose and the public site should link to the original URLs rather than copied report pages, screenshots, or extended fragments when reuse rights are uncertain.
 
+## Cross references
+
+`scripts/crossref.py` joins the page manifest, the provenance declarations in each page script, the citation-key registry in `research/scene-provenance.md` and `research/chapter-source-packets/`, and the scene ledger into one model. It answers both directions: which sources and provenance statuses a page rests on, and which pages rest on a given source, status, or ledger sequence.
+
+```sh
+python3 scripts/crossref.py report                  # counts, indexes, and findings
+python3 scripts/crossref.py check                   # exit non-zero on structural errors
+python3 scripts/crossref.py check --strict          # also fail on front-matter/panel drift
+python3 scripts/crossref.py json --out data/crossref.json
+```
+
+`check` reports three severities. Errors mean the record does not join up: a citation key no source packet registers, or a page assigned to a sequence outside its ledger page range. Warnings mean a panel's `**Provenance:**` line cites a status or source the page front matter does not declare. Notes mark registered sources that no page cites. Only errors block by default.
+
 ## Site builds
 
 The default build is the story-first public surface. It excludes research, source packets, prompts, design notes, and production artifacts:
@@ -55,6 +68,8 @@ open 256t/site/index.html
 ```
 
 The internal builder converts Markdown in `content/`, `prompts/`, `research/`, and `design/`. The public builder includes only the premise, chapter/page scripts, and the original-source link index.
+
+Both builds publish the cross reference at `docs/crossref/` (internal: `256t/site/crossref/`), with directory-style routes for every page, cited source, provenance status, and ledger sequence. Source records link to the original publication rather than reproducing it. The public build carries only the relational index; the scene ledger's narrative summaries, drafting rules, chapter-packet locators, and build findings appear in the internal build alone. Each viewer page and image information view links to the matching page record.
 
 The generated site also includes an isolated viewer validation section at `docs/viewer/`. It publishes stable directory-style routes for the viewer home, chapter overviews, pages, panel images, and their information views before final artwork exists. Every view exposes up, down, left, right, in, out, home, and next links; the matching keyboard shortcuts are Arrow keys, Enter, Escape, H, and Space.
 

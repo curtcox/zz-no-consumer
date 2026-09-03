@@ -342,6 +342,7 @@ h2 { font-size: clamp(1.55rem, 3.2vw, 2.8rem); line-height: 1.05; letter-spacing
 .metadata__wide { grid-column: 1 / -1; }
 .metadata dt { margin-bottom: 1.2rem; color: var(--muted); font: .62rem/1 var(--mono); text-transform: uppercase; }
 .metadata dd { margin: 0; overflow-wrap: anywhere; }
+.metadata dd a { color: var(--accent-text); text-decoration: underline; text-underline-offset: 3px; }
 
 .wayfinder {
   position: fixed;
