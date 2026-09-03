@@ -64,7 +64,8 @@
       "risks": "tight at 16 GB even at 4-bit, so it competes with the rest of the desktop for memory; distilled to few steps, which limits how far a prompt correction can push it",
       "download_gb": 4.3,
       "verified": "mflux 2026-09-02 on M1 Pro 16 GB: 66 s/image, 11.53 GB peak",
-      "output_suffix": ".webp"
+      "output_suffix": ".webp",
+      "model": "RunPod/FLUX.2-klein-4B-mflux-4bit"
     },
     {
       "id": "z-image-turbo",
@@ -101,7 +102,8 @@
       "strengths": "distilled to nine steps, so it is far the fastest candidate; the right tool for framing sweeps, which it does at no cost",
       "risks": "tuned for photographic realism and text legibility, neither of which this book wants. Only bf16 weights are published, so it is a 30.6 GB download that then has to be quantised locally with mflux-save before a 16 GB machine can run it",
       "download_gb": 30.6,
-      "output_suffix": ".webp"
+      "output_suffix": ".webp",
+      "model": "z-image-turbo"
     },
     {
       "id": "qwen-image-local",
@@ -136,7 +138,8 @@
       ],
       "strengths": "the largest Apache 2.0 model that fits 48 GB at 8-bit; strong composition",
       "risks": "its advantage is text rendering, which this book actively suppresses, so most of what it is good at is wasted here",
-      "output_suffix": ".webp"
+      "output_suffix": ".webp",
+      "model": "qwen-image"
     },
     {
       "id": "sdxl-local",
@@ -208,7 +211,8 @@
       ],
       "strengths": "the reference point everyone benchmarks against, and the model with the largest style-LoRA ecosystem",
       "risks": "non-commercial licence: nothing it generates can appear in the book. Carry it to calibrate the rubric, then buy the winner through an API",
-      "output_suffix": ".webp"
+      "output_suffix": ".webp",
+      "model": "dev"
     },
     {
       "id": "flux2-klein-9b",
@@ -243,7 +247,8 @@
       ],
       "strengths": "what a 48 GB machine could run if licensing were not a constraint; the honest upper bound on local quality",
       "risks": "non-commercial licence, same as FLUX.1 [dev]. Evaluation only",
-      "output_suffix": ".webp"
+      "output_suffix": ".webp",
+      "model": "flux2-klein-9b"
     }
   ]
 }

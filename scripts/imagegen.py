@@ -759,7 +759,7 @@ def run_samples(
                         "purpose": "generator-bake-off",
                         "route": route,
                         "provider": provider.id,
-                        "model": provider.openrouter if route == "openrouter" else provider.model,
+                        "model": provider.openrouter if route == "openrouter" else (provider.model or provider.id),
                         "page": sample.page,
                         "panel": sample.panel,
                         "seed": seed,

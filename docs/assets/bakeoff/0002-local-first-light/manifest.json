@@ -1,0 +1,81 @@
+{
+  "run": "0002-local-first-light",
+  "at": "2026-09-03T02:55:28+00:00",
+  "route": "local",
+  "dry_run": false,
+  "repeat": 2,
+  "panel_size": [
+    1200,
+    800
+  ],
+  "providers": [
+    "flux2-klein-4b"
+  ],
+  "evaluation_only": [],
+  "samples": [
+    {
+      "id": "001-01",
+      "register": "incident",
+      "tests": "near-black data-center aisle, plausible rack and cable-tray perspective, one steel practical light, no figure"
+    }
+  ],
+  "rubric": [
+    {
+      "key": "ink",
+      "question": "Hand-inked contour, dry-brush abrasion, heavy blacks, paper grain",
+      "weight": 3
+    },
+    {
+      "key": "palette",
+      "question": "Stays inside design/palette.md; no unearned moss, claret, or amber",
+      "weight": 2
+    },
+    {
+      "key": "text",
+      "question": "No readable words, logos, code, or UI typography anywhere in frame",
+      "weight": 3
+    },
+    {
+      "key": "geometry",
+      "question": "Racks, trays, rooms, and perspective survive a second look",
+      "weight": 2
+    },
+    {
+      "key": "continuity",
+      "question": "Repeats of the same prompt stay in one style and one place",
+      "weight": 3
+    },
+    {
+      "key": "control",
+      "question": "Responds to correction rather than re-rolling a different picture",
+      "weight": 2
+    }
+  ],
+  "results": [
+    {
+      "provider": "flux2-klein-4b",
+      "sample": "001-01",
+      "take": 1,
+      "seed": 1001,
+      "path": "flux2-klein-4b/001-01-1.webp",
+      "seconds": 63.0,
+      "usd": 0.0,
+      "metered": false,
+      "bytes": 174208
+    },
+    {
+      "provider": "flux2-klein-4b",
+      "sample": "001-01",
+      "take": 2,
+      "seed": 1002,
+      "path": "flux2-klein-4b/001-01-2.webp",
+      "seconds": 63.65,
+      "usd": 0.0,
+      "metered": false,
+      "bytes": 161876
+    }
+  ],
+  "usd": 0.0,
+  "machine": "Apple M1 Pro",
+  "memory_gb": 16
+}
