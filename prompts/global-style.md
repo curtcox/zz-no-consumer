@@ -8,11 +8,21 @@ Use the canonical colors in [`design/palette.md`](../design/palette.md). Most im
 
 ## Composition
 
+- Render exactly one single panel that fills the whole image: one continuous scene,
+  edge to edge. Never a page layout, a grid of panels, gutters between images, a
+  drawn panel border or frame, a speech balloon, a tail, or a page number. The page
+  is assembled from separate panel images afterwards; an image containing more than
+  one panel is unusable and has to be generated again.
 - Prefer surveillance-like, physically obstructed, or off-center framing over heroic spectacle.
 - Show agent activity through task cards, system surfaces, infrastructure state, timestamps, and consequences—never a body, face, avatar, glowing brain, or imagined private room.
 - Establish cause spatially: inputs, permissions, shared services, boundaries, and outputs must remain readable even before lettering.
-- Keep most screen and evidence-card fields blank or filled with clearly editorial blocks for later typography. Do not ask the image model to reproduce source text.
-- Reserve quiet black or paper fields for captions and provenance slates; keep essential forms out of gutters and trim zones.
+- Screens, cards, and displays inside the scene stay dark, unlit, or blank. Do not letter
+  them, head them, or label them. Every word the book says is applied later on a separate
+  layer, so an unlit screen is finished art and a lettered one has to be regenerated.
+- Leave the upper-left and lower-right corners as quiet, near-empty dark areas with no
+  drawn caption box, label plate, sign, screen, or panel of any kind in them. The lettering
+  layer is applied afterwards and supplies its own boxes; a box drawn here will be covered
+  and wasted. Keep essential forms out of gutters and trim zones.
 - Use repeated geometry when state changes across attempts, populations, or evidence accounts.
 
 ## Light and material

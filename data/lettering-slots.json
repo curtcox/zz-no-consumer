@@ -1,0 +1,189 @@
+{
+  "version": 1,
+  "status": "approved",
+  "about": [
+    "Approved lettering geometry. See design/lettering-slots.md.",
+    "",
+    "Every box is a fraction of the panel, so one convention serves any panel size.",
+    "A slot is a maximum box with an anchor, not a fixed rectangle: scripts/letterpress.py",
+    "measures the text with the Helvetica metrics in scripts/textimage.py and shrinks the",
+    "box to its content, growing away from the anchored corner.",
+    "",
+    "`order` is the placement convention. The first caption in a panel takes the first",
+    "slot in the caption order, the second takes the next, and so on. The order is strict",
+    "raster order so reading sequence is never ambiguous, which design/lettering.md requires.",
+    "",
+    "Dialogue is deliberately absent. A balloon needs a speaker position, which no",
+    "convention can derive from a script; those 66 panels stay a manual pass.",
+    "",
+    "`top` and `bottom` are alternatives to the corner slots, never used alongside",
+    "them; every other pair of slots is disjoint, which scripts/letterpress.py checks."
+  ],
+  "margin": 0.04,
+  "padding": 0.014,
+  "order": {
+    "caption": [
+      "tl",
+      "tr",
+      "bl",
+      "br"
+    ],
+    "machine": [
+      "block-r",
+      "block-l"
+    ],
+    "interface": [
+      "block-r",
+      "block-l"
+    ],
+    "slate": [
+      "slate-br"
+    ]
+  },
+  "slots": {
+    "tl": {
+      "x": 0.04,
+      "y": 0.04,
+      "w": 0.34,
+      "h": 0.26,
+      "anchor": "top-left"
+    },
+    "tr": {
+      "x": 0.62,
+      "y": 0.04,
+      "w": 0.34,
+      "h": 0.26,
+      "anchor": "top-right"
+    },
+    "bl": {
+      "x": 0.04,
+      "y": 0.7,
+      "w": 0.34,
+      "h": 0.18,
+      "anchor": "bottom-left"
+    },
+    "br": {
+      "x": 0.62,
+      "y": 0.7,
+      "w": 0.34,
+      "h": 0.18,
+      "anchor": "bottom-right"
+    },
+    "top": {
+      "x": 0.04,
+      "y": 0.04,
+      "w": 0.92,
+      "h": 0.16,
+      "anchor": "top-left"
+    },
+    "bottom": {
+      "x": 0.04,
+      "y": 0.8,
+      "w": 0.92,
+      "h": 0.16,
+      "anchor": "bottom-left"
+    },
+    "block-l": {
+      "x": 0.04,
+      "y": 0.32,
+      "w": 0.34,
+      "h": 0.36,
+      "anchor": "top-left"
+    },
+    "block-r": {
+      "x": 0.62,
+      "y": 0.32,
+      "w": 0.34,
+      "h": 0.36,
+      "anchor": "top-right"
+    },
+    "slate-br": {
+      "x": 0.62,
+      "y": 0.9,
+      "w": 0.34,
+      "h": 0.06,
+      "anchor": "bottom-right"
+    }
+  },
+  "roles": {
+    "caption": {
+      "fields": [
+        "Caption"
+      ],
+      "box": "#CEC5B3",
+      "border": "#101214",
+      "border_width": 1.6,
+      "ink": "#101214",
+      "font": "sans",
+      "uppercase": true,
+      "tracking": 0.075,
+      "min_size": 11,
+      "max_size": 24,
+      "note": "paper-dirty box, charcoal lettering, compact uppercase with generous tracking"
+    },
+    "machine": {
+      "fields": [
+        "Screen / system text"
+      ],
+      "box": "#E7E0D0",
+      "border": "#5E737B",
+      "border_width": 1.2,
+      "ink": "#101214",
+      "font": "mono",
+      "uppercase": false,
+      "tracking": 0.0,
+      "min_size": 9,
+      "max_size": 17,
+      "header": true,
+      "note": "interface-derived block on the caption plane, monospaced, with a source header"
+    },
+    "interface": {
+      "fields": [
+        "Screen / system text \u2014 CHATGPT",
+        "Screen / system text \u2014 CHATGPT DRAFT"
+      ],
+      "box": "#E7E0D0",
+      "border": "#202326",
+      "border_width": 1.2,
+      "ink": "#101214",
+      "font": "sans",
+      "uppercase": false,
+      "tracking": 0.0,
+      "min_size": 10,
+      "max_size": 19,
+      "header": true,
+      "note": "rectangular interface voice, mixed case, never a speech balloon"
+    },
+    "slate": {
+      "fields": [],
+      "box": "#202326",
+      "border": "#5E737B",
+      "border_width": 0.8,
+      "ink": "#E7E0D0",
+      "font": "mono",
+      "uppercase": true,
+      "tracking": 0.06,
+      "min_size": 8,
+      "max_size": 13,
+      "note": "provenance slate, quiet, subordinate to every other text system"
+    }
+  },
+  "fonts": {
+    "sans": [
+      "Helvetica",
+      "Arial",
+      "Liberation Sans",
+      "Nimbus Sans",
+      "sans-serif"
+    ],
+    "mono": [
+      "Menlo",
+      "DejaVu Sans Mono",
+      "Liberation Mono",
+      "monospace"
+    ],
+    "raster_sans": "/System/Library/Fonts/Helvetica.ttc",
+    "raster_mono": "/System/Library/Fonts/Menlo.ttc"
+  },
+  "approved": "2026-09-03"
+}

@@ -162,6 +162,28 @@ Two backends are supported. `command` runs a local binary with a templated argv 
 
 `assets/bakeoff/0000-dry-run/` and `assets/bakeoff/0001-local-dry-run/` are such placeholder runs. It publishes the prompts and the page structure; replace it with a real one and rebuild.
 
+## Producing the artwork
+
+`scripts/produce.py` generates the book's 541 panel images locally and writes them to `assets/art/panels/NNN-II.webp`, where `scripts/build-site.py` letters them through the approved slot convention in [`design/lettering-slots.md`](design/lettering-slots.md).
+
+```sh
+python3 scripts/produce.py status                  # how much of the book has art
+python3 scripts/produce.py plan                    # what a run would do, and for how long
+python3 scripts/produce.py run                     # everything still missing
+python3 scripts/produce.py run --slot 013-02       # one image
+python3 scripts/produce.py run --page 013          # one page
+python3 scripts/produce.py run --from 001 --to 020 # a range of pages
+python3 scripts/produce.py run --chapter prologue  # a chapter
+```
+
+Selections combine, and `--register creator`, `--limit N`, and `--takes N` narrow further. A full pass is 541 renders — about ten hours at the measured 66 seconds each — so the run is built to be interrupted: panels that already have art are skipped, a running estimate is printed, and Ctrl-C stops after the current panel rather than losing it. Re-running continues where it stopped. `--force` regenerates existing panels and says how many it will overwrite first.
+
+Each panel's prompt is composed from the same canonical sources the bake-off uses, with the register modifier derived from the page's primary location. `python3 scripts/produce.py registers -v` prints that derivation for every page so a wrong call is visible rather than silent; the rules live in `REGISTER_RULES` at the top of the script.
+
+The default model is one that has actually produced an image on this machine, not merely one whose command is on PATH — `mflux` installs every model's entry point at once, so PATH alone would happily start a thirty-gigabyte download in the middle of an overnight run. `--provider` overrides it and `--width`/`--height` set the panel size; see the measured memory and wall-clock trade-off in [`design/image-generation-options.md`](design/image-generation-options.md).
+
+Page sheets are not generated. A page is composed from its panels by layout, the way a comic page is actually made, so the page grammar governs it and it costs no generation time.
+
 ## GitHub Pages
 
 `.github/workflows/pages.yml` builds and deploys the site whenever `main` changes. In the repository settings, set **Pages → Build and deployment → Source** to **GitHub Actions** once. The workflow can also be started manually with **Actions → Publish GitHub Pages → Run workflow**.

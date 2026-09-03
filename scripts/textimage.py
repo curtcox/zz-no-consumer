@@ -437,6 +437,32 @@ def page_script(page_id: str) -> PageScript:
     )
 
 
+def lettering_fields(page_id: str) -> dict[int, list[tuple[str, str]]]:
+    """Per panel index, the lettering fields in script order.
+
+    `page_script` flattens a panel into one block of placeholder prose. The
+    lettering layer needs the fields kept apart and in order, so this returns
+    them structured, using the same parser rather than a second one.
+    """
+    source = (PAGE_DIR / f"{page_id}.md").read_text(encoding="utf-8")
+    headings = PANEL_HEADING.findall(source)
+    bodies = PANEL_HEADING.split(source)[2::2]
+    sections = [item for item in zip(headings, bodies) if INDIVIDUAL_PANEL.match(item[0])]
+    if not sections:
+        sections = list(zip(headings, bodies))[:1]
+
+    out: dict[int, list[tuple[str, str]]] = {}
+    for index, (_, body) in enumerate(sections, 1):
+        kept = []
+        for name, value in _fields(body):
+            if not value:
+                continue
+            if name.split("—")[0].strip() in LETTERING:
+                kept.append((name, _plain(value)))
+        out[index] = kept
+    return out
+
+
 def book_scripts() -> list[PageScript]:
     return [page_script(path.stem) for path in sorted(PAGE_DIR.glob("[0-9][0-9][0-9].md"))]
 

@@ -13,6 +13,7 @@ from pathlib import Path
 
 import crossref
 import imagegen
+import letterpress
 import textimage
 
 
@@ -417,9 +418,46 @@ def viewer_document(
 
 
 PLACEHOLDER_DIR = Path("assets/placeholders")
+LETTERED_DIR = Path("assets/lettered")
+
+
+def build_lettering() -> dict[tuple[str, int], str]:
+    """Letter every panel that has final art, and return where each one landed.
+
+    Panels without art keep their placeholder, which already carries the script
+    text, so this is inert until artwork starts arriving and then takes over one
+    panel at a time.
+    """
+    lettered: dict[tuple[str, int], str] = {}
+    art_present = any(letterpress.find_art(s.id, panel.index)
+                      for s in textimage.book_scripts() for panel in s.panels)
+    if not art_present:
+        return lettered
+
+    record = letterpress.load_slots()
+    destination = OUT / LETTERED_DIR
+    destination.mkdir(parents=True, exist_ok=True)
+    for script in textimage.book_scripts():
+        for panel in script.panels:
+            art = letterpress.find_art(script.id, panel.index)
+            if art is None:
+                continue
+            placed, _ = letterpress.panel_layout(script.id, panel.index, record)
+            name = f"{script.id}-{panel.index:02d}.svg"
+            (destination / name).write_text(
+                letterpress.svg_panel(placed, record, *letterpress.PANEL_SIZE, art=art),
+                encoding="utf-8")
+            lettered[(script.id, panel.index)] = name
+    return lettered
+
+
+LETTERED: dict[tuple[str, int], str] = {}
 
 
 def placeholder_url(from_directory: Path, image: textimage.Placeholder) -> str:
+    for key, name in LETTERED.items():
+        if image.path == f"panels/{key[0]}-{key[1]:02d}.svg":
+            return relative_url(from_directory, LETTERED_DIR / name)
     return relative_url(from_directory, PLACEHOLDER_DIR / image.path)
 
 
@@ -1266,13 +1304,15 @@ def main() -> int:
 
     model = crossref.build()
     crossref_routes = build_crossref(model, internal=args.internal)
+    global LETTERED
+    LETTERED = build_lettering()
     build_viewer()
     bakeoff_routes = build_bakeoff(document)
 
     print(
         f"Built {len(markdown_files)} Markdown pages, {crossref_routes} cross-reference routes, "
-        f"{bakeoff_routes} bake-off routes, and the viewer validation section "
-        f"into {OUT.relative_to(ROOT)}/"
+        f"{bakeoff_routes} bake-off routes, {len(LETTERED)} lettered panel(s), "
+        f"and the viewer validation section into {OUT.relative_to(ROOT)}/"
     )
     warnings = [item for item in model.findings if item.severity != "note"]
     if warnings:

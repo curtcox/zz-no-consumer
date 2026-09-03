@@ -355,6 +355,11 @@ SAMPLES: tuple[Sample, ...] = (
            "fully desaturated, organization-neutral, no incident palette signature"),
 )
 
+# Two rubric lines are gates rather than weights: a candidate below the floor on
+# either is unusable for a 541-panel book however well it scores elsewhere.
+GATED = ("text", "continuity")
+GATE_FLOOR = 3
+
 RUBRIC: tuple[tuple[str, str, int], ...] = (
     ("ink", "Hand-inked contour, dry-brush abrasion, heavy blacks, paper grain", 3),
     ("palette", "Stays inside design/palette.md; no unearned moss, claret, or amber", 2),
@@ -418,12 +423,12 @@ def panel_direction(page: str, panel: int) -> str:
     raise SystemExit(f"Page {page} has no panel {panel}.")
 
 
-def compose(sample: Sample) -> str:
-    """Build the single prompt every candidate receives for this panel."""
+def compose_panel(page: str, panel: int, register: str) -> str:
+    """Build the prompt for any panel in the book, from the canonical sources."""
     parts = [
         _digest(PROMPT_DIR / "global-style.md", "Rendering target"),
-        f"Register — {sample.register}: {register_clause(sample.register)}",
-        f"Panel — {panel_direction(sample.page, sample.panel)}",
+        f"Register — {register}: {register_clause(register)}",
+        f"Panel — {panel_direction(page, panel)}",
         _digest(PROMPT_DIR / "global-style.md", "Composition"),
         _digest(PROMPT_DIR / "global-style.md", "Light and material"),
         f"Palette, and nothing outside it: {palette_clause()}.",
@@ -431,6 +436,11 @@ def compose(sample: Sample) -> str:
         f"Avoid entirely: {negative_prompt()}",
     ]
     return "\n\n".join(part for part in parts if part)
+
+
+def compose(sample: Sample) -> str:
+    """The bake-off's prompt for one sample panel."""
+    return compose_panel(sample.page, sample.panel, sample.register)
 
 
 # ---------------------------------------------------------------- the callers
@@ -496,7 +506,8 @@ def generate_openrouter(provider: Provider, prompt: str, key: str, image_format:
     return Generated(data, suffix, usage.get("cost"))
 
 
-def generate_command(provider: Provider, prompt: str, seed: int) -> Generated:
+def generate_command(provider: Provider, prompt: str, seed: int,
+                     size: tuple[int, int] | None = None) -> Generated:
     """Run a local generator binary and read back the file it wrote.
 
     The argv comes from `data/local-models.json` and is executed with no shell,
@@ -506,7 +517,7 @@ def generate_command(provider: Provider, prompt: str, seed: int) -> Generated:
     if not provider.installed():
         raise RuntimeError(f"{provider.command[0]} is not on PATH")
 
-    width, height = PANEL_SIZE
+    width, height = size or PANEL_SIZE
     with tempfile.TemporaryDirectory() as workspace:
         target = Path(workspace) / f"out{provider.extra.get('output_suffix') or '.png'}"
         # A composed panel prompt is about 4 KB. Most local runners accept a file,
@@ -531,13 +542,14 @@ def generate_command(provider: Provider, prompt: str, seed: int) -> Generated:
         return Generated(target.read_bytes(), target.suffix)
 
 
-def generate_local_http(provider: Provider, prompt: str, seed: int) -> Generated:
+def generate_local_http(provider: Provider, prompt: str, seed: int,
+                        size: tuple[int, int] | None = None) -> Generated:
     """Ask a local image server for one panel, in the OpenAI images shape.
 
     Draw Things, ComfyUI behind a bridge, and LocalAI all speak some variant of
     this, so the response is read defensively rather than assuming one field.
     """
-    width, height = PANEL_SIZE
+    width, height = size or PANEL_SIZE
     try:
         payload = _post(provider.local_url, {
             "model": provider.model,
@@ -566,12 +578,13 @@ def generate_local_http(provider: Provider, prompt: str, seed: int) -> Generated
 
 
 def generate(provider: Provider, prompt: str, seed: int, *,
-             route: str = "direct", image_format: str = DEFAULT_FORMAT) -> Generated:
+             route: str = "direct", image_format: str = DEFAULT_FORMAT,
+             size: tuple[int, int] | None = None) -> Generated:
     """Send one prompt to one provider and return the image and what it cost."""
     if route == "local" or provider.local:
         if provider.build == "command":
-            return generate_command(provider, prompt, seed)
-        return generate_local_http(provider, prompt, seed)
+            return generate_command(provider, prompt, seed, size)
+        return generate_local_http(provider, prompt, seed, size)
 
     key = provider.auth(route)
     if not key:
@@ -582,7 +595,7 @@ def generate(provider: Provider, prompt: str, seed: int, *,
             raise RuntimeError(f"{provider.id} has no OpenRouter slug")
         return generate_openrouter(provider, prompt, key, image_format)
 
-    width, height = PANEL_SIZE
+    width, height = size or PANEL_SIZE
     if not provider.build or provider.build == "openrouter-only":
         raise RuntimeError(f"{provider.id} is reachable through OpenRouter only")
     endpoint = provider.endpoint.format(model=provider.model)
@@ -1131,19 +1144,27 @@ def cmd_rank(args: argparse.Namespace) -> int:
         if not all(value.isdigit() for value in scores.values()):
             continue
         total = sum(int(scores[key]) * weights[key] for key in weights)
-        ranked.append((total, provider, record.get("notes", "")))
+        # A defect invisible in one panel and fatal across 541 is not tradeable
+        # against a good score elsewhere, so these two gate rather than weigh.
+        failed = [key for key in GATED if int(scores[key]) < GATE_FLOOR]
+        ranked.append((total, provider, record.get("notes", ""), failed))
 
     if not ranked:
         print(f"No completed rows in {path.relative_to(ROOT)}. "
               f"Score each rubric column 1–5, then re-run.")
         return 1
 
-    ranked.sort(key=lambda item: -item[0])
-    print(f"{'ID':<20} {'SCORE':>7} {'OF':>5} {'FULL BOOK':>10} {'$/POINT':>9}  NOTES")
-    for total, provider, notes in ranked:
-        cost = provider.full_book_usd(route)
-        print(f"{provider.id:<20} {total:>7} {ceiling:>5} {cost:>10,.0f} "
-              f"{cost / total:>9,.1f}  {notes}")
+    ranked.sort(key=lambda item: (bool(item[3]), -item[0]))
+    measured = median_seconds(load_manifest(directory))
+    print(f"{'ID':<20} {'SCORE':>7} {'OF':>5} {'FULL BOOK':>11}  VERDICT")
+    for total, provider, notes, failed in ranked:
+        book = (f"{provider.full_book_hours(measured.get(provider.id)):>9,.0f} h"
+                if provider.local else f"${provider.full_book_usd(route):>10,.0f}")
+        verdict = f"DISQUALIFIED on {', '.join(failed)}" if failed else (notes or "eligible")
+        print(f"{provider.id:<20} {total:>7} {ceiling:>5} {book:>11}  {verdict}")
+    if any(item[3] for item in ranked):
+        print(f"\nScoring below {GATE_FLOOR} on {' or '.join(GATED)} disqualifies a candidate at "
+              f"any price. Both defects are invisible in a single panel and fatal across a book.")
     print(f"\nWeights: {', '.join(f'{key}×{weight}' for key, weight in weights.items())}. "
           f"Score each column 1–5 in {path.relative_to(ROOT)}.")
     return 0

@@ -323,6 +323,181 @@ The one thing that would change this: if a trained local model scores as well on
 rubric as the hosted candidates, the wall clock stops being a cost and becomes a
 schedule. Score it in the same bake-off before deciding.
 
+## Suppressing generated text
+
+Assume no image generator will reliably stop rendering invented glyphs. The book
+cannot carry them: [`negative-prompt.md`](../prompts/negative-prompt.md) forbids
+readable generated wording outright, and
+[`lettering.md`](lettering.md) already names the remedy — incidental interface
+text "should be illegible, redacted, or omitted when it does not change the story
+state." This section records what that costs in practice, measured on real output
+rather than assumed.
+
+### What the model actually does
+
+Measured on `0002-local-first-light/flux2-klein-4b/001-01-1`, every region of
+generated glyphs in the panel:
+
+| Class | Share of panel | Where it lands |
+| --- | ---: | --- |
+| Narrative field | 2.85% | The caption box — a field the prompt explicitly asked the model to reserve |
+| Interface components | 2.30% | Two screens on the right-hand cabinet, at `UI-TASK-CARD` and `UI-EVIDENCE-CARD` geometry |
+| Incidental marks | 0.11% | Four rack-door labels, illegible at reading size |
+| **Total** | **5.26%** | |
+
+The distribution is the encouraging part. Glyphs are not scattered; they cluster in
+the three places the design system already designates as text-bearing, because the
+prompt asked for them. The model is filling the fields it was told to reserve.
+
+### Three tactics, and which of them hold up
+
+Tested by compositing over that panel:
+
+1. **Letter over it.** The caption. Works completely, reads better than the
+   generated box, and costs nothing — the lettering layer was going there anyway.
+2. **Blank it.** The spurious second screen becomes an unlit blanking plate.
+   Works completely and is the most robust tactic available, because dark
+   featureless coverage needs no texture matching.
+3. **Replace with the real component.** A `UI-TASK-CARD` over the cabinet screen.
+   It covers the glyphs and it reads as pasted on: flat vector against hand-inked,
+   grained, dry-brushed art, axis-aligned against a surface drawn in perspective.
+
+Covering is easy. Matching is hard, and the split is predictable: an overlay works
+where the element conventionally sits **above** the art plane — captions, balloons,
+provenance slates — and fails where it belongs **inside** the depicted world, subject
+to that scene's lighting, perspective, and ink.
+
+Two consequences follow directly. Asking the model to "reserve a caption field"
+invites it to draw a box and letter it; asking for a quiet dark area instead is
+strictly better, because blanking beats matching. And moving machine text out of the
+depicted world and onto the caption plane — which `lettering.md` already permits for
+interface voices — converts the hard case into the easy one for most panels.
+
+### Automatic glyph detection does not work here
+
+**Tested 2 September 2026 against FLUX.2 [klein] 4B output. Negative result.**
+
+The tempting completion of the overlay plan is to find generated glyphs
+automatically and blank them. Three detectors were built with Pillow alone — no
+numpy, no OpenCV, no OCR — and run against both takes of panel 001-01, whose glyph
+regions had been measured by hand as ground truth.
+
+| Approach | Method | Result |
+| --- | --- | --- |
+| Stroke detection | Black-hat: `MaxFilter(5)` minus the image, threshold, dilate to merge glyphs, flood-fill components | Flagged **96.8%** of the panel as one blob. A sweep of 21 threshold and merge combinations found **no usable operating point**; the only setting that caught all three true regions flagged **21.4%** of the panel across 70 blobs |
+| Light-field localisation | Threshold for bright regions, morphological close, components, rank by `FIND_EDGES` density | Localisation is good — the caption is found at (48,48) 230×140 against a truth of (44,34) 244×112. Ranking fails: the two highest-scoring regions are false positives that beat the real caption, and the evidence card is missed entirely in the second take |
+| Baseline alignment | Within each field, score glyph-candidate height uniformity times the fraction sharing a baseline — the strongest classical text signal | Take 1 ranks the caption first at 1.790, but scores the task card and evidence card at **0.000**, tied with empty noise. Take 2 ranks a false positive first and scores the large, obvious gibberish caption at **0.000** |
+
+Pillow is not the limitation, and this is worth being precise about: it supplies
+erosion and dilation through `MinFilter`/`MaxFilter`, thresholding through `point()`,
+gradients through `FIND_EDGES`, and connected-component labelling is a short pure-Python
+flood fill that runs in under a second on a downsampled panel. All three detectors above
+were built with it.
+
+What fails is discrimination, and the reason is specific to this book.
+[`global-style.md`](../prompts/global-style.md) asks for crosshatching, dry-brush
+abrasion, restrained halftone, and louvered industrial machinery. At the pixel level
+that is the same object as text: dark thin marks of similar size arranged in rows. No
+classical feature separates invented lettering from a stack of rack louvers in this
+register.
+
+**A larger raster stack would not have fixed it.** NumPy and SciPy offer faster
+convolutions and `ndimage.label`, which is what the pure-Python flood fill already
+does; OpenCV adds MSER and contour analysis, which degrade badly on stylised text over
+texture. None of them supply a new signal. Do not spend the dependency.
+
+What would work is a vision model. Asking a hosted model for bounding boxes of any text
+in a panel is one API call at well under a cent, so under $10 for the whole book
+including re-rolls, and it is a far better detector than anything classical. Note what
+it changes, though: it makes detection a **quality gate**, not a patching input. Knowing
+a panel has glyphs on a cabinet is enough to reject and re-roll it — 66 seconds locally.
+It is not enough to composite a perspective-matched patch automatically. That part stays
+hard.
+
+This result is tied to this art style and this model. Re-test it if either changes; the
+experiment is three short Pillow scripts and about an hour.
+
+### Page furniture resists prompting too, and it is not just text
+
+Tested 3 September 2026 on FLUX.2 [klein] 4B at four steps.
+
+The first production render of panel 001-02 — a close-up of one diagram — came back as
+a **three-panel comic page** with gutters, a speech balloon, a human figure in a register
+that forbids figures, and a page number. The cause was in the prompt: only
+`prompts/pages/001/panel-01.md` says "panel", so the other 540 panels compose from script
+`Frame` text that describes content while the style prompt says "comic". That is now fixed
+in [`global-style.md`](../prompts/global-style.md), which asks for exactly one panel filling
+the image, and in [`negative-prompt.md`](../prompts/negative-prompt.md).
+
+The fix helped and did not finish the job. The re-render was one scene rather than three,
+but still carried a drawn panel border, a page number, balloon-shaped callouts, and a
+gutter cut-out. Two rounds of prompt change each reduced the artefacts without eliminating
+them, which is the same shape as the text problem and should be treated the same way:
+prompting moves the rate, not the floor.
+
+One cheap remedy is worth testing before more prompt iteration. Borders, torn paper edges,
+and page numbers all live at the **margins**. Generating a few percent larger and cropping a
+fixed inset would remove them deterministically, with no detection required — the same trick
+as blanking, applied to the frame rather than a field. It costs pixels, not judgement.
+
+### The settled plan
+
+Items 1, 4, and 5 are built; item 3 is proposed in
+[`lettering-slots.md`](lettering-slots.md) and awaiting approval; item 2 waits on it.
+
+1. **Prompt for quiet dark areas, not reserved caption fields.** Blanking beats matching.
+   *Done* — [`global-style.md`](../prompts/global-style.md) now asks for quiet near-empty
+   corners and unlit in-scene screens, and [`negative-prompt.md`](../prompts/negative-prompt.md)
+   names the shapes that invite glyphs: drawn caption box, label plate, signage, lettered
+   screen, headed card. This turned out to be load-bearing rather than cosmetic: on the first
+   real test the convention-placed caption covered (48,32)–(456,131) while the generated box
+   occupied (44,34)–(288,146), leaving a 15-pixel band of invented lettering along the bottom
+   edge. An overlay only hides what it is larger than, and nothing can tell it how big a box
+   the model drew. The fix is art with no box in it.
+2. **Machine text moves to the caption plane**, as interface-derived blocks above the
+   art rather than screens inside it. The page-script template gains a marker for the
+   panels that genuinely need in-world text.
+3. **Lettering placement is convention-driven**, from named safe-area slots keyed to
+   panel geometry. *Proposed* in [`lettering-slots.md`](lettering-slots.md), with the
+   geometry in [`../data/lettering-slots.json`](../data/lettering-slots.json). It places
+   **441 of 511 elements — 86.3%** — automatically, and nothing overflows its slot at a
+   readable size. The 70 it does not place are dialogue balloons across 62 panels: a
+   balloon needs a speaker position, which no convention can derive from a script.
+4. **Compositing is automated at build time.** *Done* — `scripts/letterpress.py`
+   shares one layout pass between two emitters. SVG keeps the viewer dependency-free;
+   `--flatten` rasterises with Pillow, imported lazily so the repository still runs
+   without it. `scripts/build-site.py` letters every panel that has art in
+   `assets/art/panels/`, and is inert until artwork arrives.
+5. **In-world glyphs are a reject condition, not a patch.** *Done* — `text` and
+   `continuity` now gate rather than weigh in `scripts/imagegen.py rank`: scoring below 3
+   on either disqualifies a candidate at any price. A re-roll costs 66 seconds locally.
+   Hand-patching one panel costs more, and hand-patching 541 is a project.
+6. **Optionally, a vision-model gate** decides what gets rejected.
+
+### Panel size, measured
+
+Both sizes were run on the drafting Mac (M1 Pro, 16 GB) with FLUX.2 [klein] 4B at 4-bit:
+
+| Panel | At 300 dpi | Peak memory | Per image | 541 panels |
+| --- | --- | ---: | ---: | ---: |
+| 1200×800 | 4″ × 2.67″ | 11.53 GB | 66 s | ~10 h |
+| 1800×1200 | 6″ × 4″ | **18.22 GB** | 147 s | ~22 h |
+
+At 1800×1200 the model exceeds the machine's physical memory and completes only by
+swapping, which is why it takes 2.2× as long rather than the 2.25× more pixels would
+suggest. It works, but a 22-hour sustained swapping run is not something to start
+casually on a 16 GB machine.
+
+`scripts/produce.py` takes `--width` and `--height`, so this is a run-time choice
+rather than a fixed one. The default is 1200×800. If the book needs 6″ panels, that
+is an argument for renting the render rather than buying more hours: the same 541
+panels through FLUX.2 [pro] on OpenRouter cost about $16 and finish overnight.
+
+Still open: the trim size. At 1200×800 a panel is 4″×2.67″ at
+300 dpi, which is small for print. If panels must be generated larger that changes both
+the model choice — klein 4B already peaked at 11.53 GB on a 16 GB machine — and every
+type size in the lettering layer. Settle the trim spec before building the compositor.
+
 ## Scoring
 
 Score each candidate 1–5 per column in the run's `scores.tsv`, then run
