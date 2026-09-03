@@ -118,7 +118,7 @@ Panel placeholders are keyed to the same image slots the viewer routes use, so a
 
 The candidates, their prices, and the recommendation are in [`design/image-generation-options.md`](design/image-generation-options.md). The short version: the binding constraint is style and environment consistency across 541 panels, not per-image quality, and at six attempts per slot the whole book costs between $24 and $646 in API spend.
 
-Two runners send byte-identical prompts to every candidate. Each prompt is composed from the same sources final artwork will use — `prompts/global-style.md`, `prompts/negative-prompt.md`, `design/palette.md`, and the panel's own direction.
+Two runners send byte-identical prompts to every candidate. Each prompt is composed from the same sources final artwork will use — `prompts/global-style.md`, `prompts/negative-prompt.md`, `design/palette.md`, and the panel's own direction, and is fitted to the tightest text-encoder limit in the run. That fitting is not cosmetic: a model reads only its first `prompt_tokens` and silently discards the rest, and these prompts used to run to twice FLUX.2's 512-token ceiling, so half of every one of them — the palette, the negative prompt — was never delivered. `python3 scripts/imagegen.py prompts --provider <id>` shows what survives and what is dropped.
 
 `scripts/bakeoff.py` produces the published comparison from a single key. OpenRouter's unified image API fronts five of the eight candidates and reports the exact cost of every call, so one account replaces four:
 
@@ -180,10 +180,10 @@ Selections combine, and `--register creator`, `--type`, `--route`, `--limit N`, 
 
 ```sh
 python3 scripts/paneltypes.py summary              # counts by type and route
-python3 scripts/produce.py run --route local       # the 283 panels any model can draw
+python3 scripts/produce.py run --route local       # the 271 panels any model can draw
 python3 scripts/produce.py run --route text-fidelity --provider qwen-image-local
 ```
- A full pass is 541 renders — about ten hours at the measured 66 seconds each — so the run is built to be interrupted: panels that already have art are skipped, a running estimate is printed, and Ctrl-C stops after the current panel rather than losing it. Re-running continues where it stopped. `--force` regenerates existing panels and says how many it will overwrite first.
+ A full pass is 541 renders — about twelve hours at the measured 78 seconds each, at the `--bleed 0.10` the drawn-border crop needs — so the run is built to be interrupted: panels that already have art are skipped, a running estimate is printed, and Ctrl-C stops after the current panel rather than losing it. Re-running continues where it stopped. `--force` regenerates existing panels and says how many it will overwrite first.
 
 Each panel's prompt is composed from the same canonical sources the bake-off uses, with the register modifier derived from the page's primary location. `python3 scripts/produce.py registers -v` prints that derivation for every page so a wrong call is visible rather than silent; the rules live in `REGISTER_RULES` at the top of the script.
 

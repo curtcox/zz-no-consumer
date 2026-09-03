@@ -27,20 +27,20 @@ header, since that is the part a model will fail.
 | --- | --- | ---: | --- |
 | `portrait` | A named recurring individual, in practice Curt, or any figure in the creator register | 57 | `reference` |
 | `text-heavy` | A display string over 15 characters, or more than 24 characters of display text in total | 78 | `text-fidelity` |
-| `figure` | Anonymous or functional people — a responder, a chair, counsel, hands on a keyboard | 55 | `figures` |
-| `dossier` | Paper structure dominates: columns, a page field, a grid, an archive, a persistent top strip | 30 | `structure` |
-| `diagram` | An abstract diagram, boundary map, arrows, branches — geometry rather than a place | 38 | `structure` |
-| `text-light` | A physical scene carrying only short display strings | 45 | `local` |
-| `scene` | A physical environment with no people and no display text | 238 | `local` |
+| `figure` | Anonymous or functional people — a responder, a chair, counsel, hands on a keyboard | 63 | `figures` |
+| `dossier` | Paper structure dominates: columns, a page field, a grid, an archive, a persistent top strip | 29 | `structure` |
+| `diagram` | An abstract diagram, boundary map, arrows, branches — geometry rather than a place | 43 | `structure` |
+| `text-light` | A physical scene carrying only short display strings | 43 | `local` |
+| `scene` | A physical environment with no people and no display text | 228 | `local` |
 
 ## Routes, and what each demands
 
 | Route | Panels | The capability that decides it | Where it can go today |
 | --- | ---: | --- | --- |
-| `local` | 283 (52%) | None beyond the house style. Short strings need a spelling check, nothing more. | Any local model. FLUX.2 [klein] 4B on a 16 GB machine handles these. |
-| `structure` | 68 (13%) | Clean geometry and flat fields; texture matters less than legible construction. | Cheapest tier. Several of these could be drawn rather than generated. |
+| `local` | 271 (50%) | None beyond the house style. Short strings need a spelling check, nothing more. | Any local model. FLUX.2 [klein] 4B on a 16 GB machine handles these. |
+| `structure` | 72 (13%) | Clean geometry and flat fields; texture matters less than legible construction. | Cheapest tier. Several of these could be drawn rather than generated. |
 | `text-fidelity` | 78 (14%) | Long strings spelled correctly. Measured: klein 4B is reliable to about 8 characters and unreliable past 15. | Qwen-Image (Apache 2.0, 20B, needs 48 GB) locally, or Gemini 3 Pro Image / GPT Image 2 hosted. |
-| `figures` | 55 (10%) | Competent anatomy and hands, without identity continuity. | Mid tier. Worth a bake-off column of its own; hands are where cheap models fail. |
+| `figures` | 63 (12%) | Competent anatomy and hands, without identity continuity. | Mid tier. Worth a bake-off column of its own; hands are where cheap models fail. |
 | `reference` | 57 (11%) | Multi-image reference conditioning, so the same person is the same person across 57 panels. | Gemini 3 Pro Image, whose reference conditioning is the strongest available. **Blocked**: `visual-continuity.md` forbids an identifiable portrait until an approved reference sheet exists, and `data/assets.yaml` still lists the sheets as `needed`. |
 
 ## What the mix buys
@@ -48,6 +48,14 @@ header, since that is the part a model will fail.
 Just over half the book needs nothing a 16 GB laptop cannot do. The expensive
 capabilities are concentrated: 78 panels need text fidelity and 57 need reference
 conditioning, together a quarter of the book.
+
+**Recounted 3 September 2026.** The person, dossier and diagram patterns matched only
+singular forms, so "Three human investigators stand before the evidence field" read as
+an empty scene. Twenty panels were retyped once the patterns allowed plurals — ten of
+them from `scene` to `figure` — which is why local-route runs kept inventing people
+into panels that were supposed to have none. Four words stay singular deliberately:
+this book calls software `workers` and uses `chairs` as furniture, and `leads` and
+`faces` are usually verbs.
 
 At Gemini 3 Pro Image's batch rate, routing only the 135 panels that need premium
 capability costs about **$54 at six attempts each**, against $263 for sending the

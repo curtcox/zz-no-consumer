@@ -1,0 +1,71 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Image generator bake-off — 0003-local-delivered-prompt</title>
+<style>
+:root { color-scheme: dark; --ink: #f3efe5; --muted: #a9a398; --paper: #171613;
+  --panel: #211f1b; --line: #3e3931; --accent: #f0a35b; }
+body { margin: 0; padding: 2rem; background: var(--paper); color: var(--ink);
+  font: 15px/1.6 -apple-system, "Helvetica Neue", Arial, sans-serif; }
+h1 { font-size: 1.5rem; margin: 0 0 .25rem; }
+a { color: #8fd3c8; }
+code { padding: .15rem .3rem; background: var(--panel); }
+.table-wrap { margin: 1.5rem 0; overflow-x: auto; border: 1px solid var(--line); }
+table { border-collapse: collapse; width: 100%; }
+th, td { padding: .7rem .8rem; border-right: 1px solid var(--line);
+  border-bottom: 1px solid var(--line); text-align: left; vertical-align: top; }
+thead th { color: var(--accent); background: var(--panel); }
+ul { max-width: 60rem; }
+</style>
+</head>
+<body>
+<h1>Image generator bake-off</h1>
+<style>
+/* A side-by-side comparison needs the width the reading column does not have. */
+body:has(.bakeoff) .shell { width: min(1760px, calc(100% - 2rem)); }
+.bakeoff__meta { color: var(--muted, #a9a398); font-size: .85rem; }
+.bakeoff__name, .bakeoff__meta, .bakeoff__sample p {
+  text-transform: none; letter-spacing: 0; font-weight: 400; }
+.bakeoff__name { font-weight: 700; font-size: .95rem; }
+.bakeoff__grid th.bakeoff__sample { width: 13rem; }
+.bakeoff__grid th.bakeoff__sample p { font-size: .85rem; color: var(--muted, #a9a398); }
+.bakeoff__grid td { min-width: 14rem; }
+.bakeoff__grid img { width: 100%; display: block; margin-bottom: .4rem;
+  background: var(--panel, #211f1b); border: 1px solid var(--line, #3e3931); }
+.bakeoff__empty { color: var(--muted, #a9a398); }
+.bakeoff__error { color: #d08a7a; font-size: .85rem; }
+.bakeoff__num { text-align: right; white-space: nowrap; }
+.bakeoff__warning { padding: .75rem 1rem; border-left: 3px solid #d08a7a;
+  background: var(--panel, #211f1b); }
+</style>
+<div class="bakeoff">
+<p class="bakeoff__meta">0003-local-delivered-prompt · 2026-09-03T22:36:08+00:00 ·
+via local · live run — $0.00 spent · 2 take(s) per panel at
+1200×800</p>
+
+<p>Every candidate received a byte-identical prompt composed from
+<code>prompts/global-style.md</code>, <code>prompts/negative-prompt.md</code>,
+<code>design/palette.md</code>, and the panel's own direction. The point of more than one
+take per panel is drift: a candidate whose takes are the same place in the same style can
+carry 541 panels, and one whose takes diverge cannot, however good either image is alone.</p>
+<h2>Rubric</h2>
+<ul><li><b>ink</b> (weight 3) — Hand-inked contour, dry-brush abrasion, heavy blacks, paper grain</li><li><b>palette</b> (weight 2) — Stays inside design/palette.md; no unearned moss, claret, or amber</li><li><b>text</b> (weight 3) — The panel&#x27;s own display strings are legible and correctly spelled, with no invented lettering anywhere else</li><li><b>geometry</b> (weight 2) — Racks, trays, rooms, and perspective survive a second look</li><li><b>continuity</b> (weight 3) — Repeats of the same prompt stay in one style and one place</li><li><b>control</b> (weight 2) — Responds to correction rather than re-rolling a different picture</li></ul>
+<div class="table-wrap"><table class="bakeoff__grid">
+<thead><tr><th class="bakeoff__sample">Panel</th><th><div class="bakeoff__name">FLUX.2 [klein] 4B</div><div class="bakeoff__meta">Black Forest Labs · local-16 · $0.000/image</div></th></tr></thead>
+<tbody><tr><th class="bakeoff__sample"><div class="bakeoff__name">001-01</div><div class="bakeoff__meta">incident</div><p>near-black data-center aisle, plausible rack and cable-tray perspective, one steel practical light, no figure</p><p><a href="prompts/001-01.txt">prompt</a></p></th><td><a href="flux2-klein-4b/001-01-1.webp"><img src="flux2-klein-4b/001-01-1.webp" loading="lazy" alt="FLUX.2 [klein] 4B take 1 of panel 001-01: near-black data-center aisle, plausible rack and cable-tray perspective, one steel practical light, no figure"></a><a href="flux2-klein-4b/001-01-2.webp"><img src="flux2-klein-4b/001-01-2.webp" loading="lazy" alt="FLUX.2 [klein] 4B take 2 of panel 001-01: near-black data-center aisle, plausible rack and cable-tray perspective, one steel practical light, no figure"></a></td></tr><tr><th class="bakeoff__sample"><div class="bakeoff__name">001-02</div><div class="bakeoff__meta">incident</div><p>abstract dependency diagram that must read causally while staying visibly non-semantic</p><p><a href="prompts/001-02.txt">prompt</a></p></th><td><a href="flux2-klein-4b/001-02-1.webp"><img src="flux2-klein-4b/001-02-1.webp" loading="lazy" alt="FLUX.2 [klein] 4B take 1 of panel 001-02: abstract dependency diagram that must read causally while staying visibly non-semantic"></a><a href="flux2-klein-4b/001-02-2.webp"><img src="flux2-klein-4b/001-02-2.webp" loading="lazy" alt="FLUX.2 [klein] 4B take 2 of panel 001-02: abstract dependency diagram that must read causally while staying visibly non-semantic"></a></td></tr><tr><th class="bakeoff__sample"><div class="bakeoff__name">013-01</div><div class="bakeoff__meta">creator</div><p>the only register with a real human figure: nicotine light, ordinary clothes, monitors that must stay unreadable</p><p><a href="prompts/013-01.txt">prompt</a></p></th><td><a href="flux2-klein-4b/013-01-1.webp"><img src="flux2-klein-4b/013-01-1.webp" loading="lazy" alt="FLUX.2 [klein] 4B take 1 of panel 013-01: the only register with a real human figure: nicotine light, ordinary clothes, monitors that must stay unreadable"></a><a href="flux2-klein-4b/013-01-2.webp"><img src="flux2-klein-4b/013-01-2.webp" loading="lazy" alt="FLUX.2 [klein] 4B take 2 of panel 013-01: the only register with a real human figure: nicotine light, ordinary clothes, monitors that must stay unreadable"></a></td></tr><tr><th class="bakeoff__sample"><div class="bakeoff__name">026-01</div><div class="bakeoff__meta">institutional</div><p>overlit procedural room, distributed responsibility, no villain lighting</p><p><a href="prompts/026-01.txt">prompt</a></p></th><td><a href="flux2-klein-4b/026-01-1.webp"><img src="flux2-klein-4b/026-01-1.webp" loading="lazy" alt="FLUX.2 [klein] 4B take 1 of panel 026-01: overlit procedural room, distributed responsibility, no villain lighting"></a><a href="flux2-klein-4b/026-01-2.webp"><img src="flux2-klein-4b/026-01-2.webp" loading="lazy" alt="FLUX.2 [klein] 4B take 2 of panel 026-01: overlit procedural room, distributed responsibility, no villain lighting"></a></td></tr><tr><th class="bakeoff__sample"><div class="bakeoff__name">070-01</div><div class="bakeoff__meta">dossier</div><p>paper field, strict two-column grid, reserved blank lettering fields</p><p><a href="prompts/070-01.txt">prompt</a></p></th><td><a href="flux2-klein-4b/070-01-1.webp"><img src="flux2-klein-4b/070-01-1.webp" loading="lazy" alt="FLUX.2 [klein] 4B take 1 of panel 070-01: paper field, strict two-column grid, reserved blank lettering fields"></a><a href="flux2-klein-4b/070-01-2.webp"><img src="flux2-klein-4b/070-01-2.webp" loading="lazy" alt="FLUX.2 [klein] 4B take 2 of panel 070-01: paper field, strict two-column grid, reserved blank lettering fields"></a></td></tr><tr><th class="bakeoff__sample"><div class="bakeoff__name">110-01</div><div class="bakeoff__meta">invented future</div><p>fully desaturated, organization-neutral, no incident palette signature</p><p><a href="prompts/110-01.txt">prompt</a></p></th><td><a href="flux2-klein-4b/110-01-1.webp"><img src="flux2-klein-4b/110-01-1.webp" loading="lazy" alt="FLUX.2 [klein] 4B take 1 of panel 110-01: fully desaturated, organization-neutral, no incident palette signature"></a><a href="flux2-klein-4b/110-01-2.webp"><img src="flux2-klein-4b/110-01-2.webp" loading="lazy" alt="FLUX.2 [klein] 4B take 2 of panel 110-01: fully desaturated, organization-neutral, no incident palette signature"></a></td></tr></tbody>
+</table></div>
+<h2>Candidates</h2>
+<div class="table-wrap"><table>
+<thead><tr><th>Candidate</th><th>Licence</th><th>Why it might win</th>
+<th>What it costs us</th><th class="bakeoff__num">Full book</th></tr></thead>
+<tbody><tr><td>FLUX.2 [klein] 4B<br><span class='bakeoff__meta'>4B</span></td><td>Apache-2.0</td><td>the best image quality that is both Apache 2.0 and small enough to run on a 16 GB machine; inherits FLUX contour and heavy blacks</td><td>tight at 16 GB even at 4-bit, so it competes with the rest of the desktop for memory; distilled to few steps, which limits how far a prompt correction can push it</td><td class="bakeoff__num">68 h</td></tr></tbody>
+</table></div>
+<p class="bakeoff__meta">Full-book figures assume 541 panels plus 112 page
+sheets at 6 attempts per slot, plus any one-off setup. Hosted candidates are
+priced in dollars; local ones cost nothing per image and are priced in wall clock instead,
+measured from this run where it recorded one.</p>
+</div>
+</body>
+</html>

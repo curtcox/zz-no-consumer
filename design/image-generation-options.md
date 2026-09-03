@@ -9,16 +9,24 @@ The book needs 541 panel images and 112 page sheets in one hand-inked style, hel
 across roughly eight months of drafting. That shape makes the usual selection
 criteria mostly irrelevant:
 
-- **Character consistency barely matters.** [`prompts/global-style.md`](../prompts/global-style.md)
-  forbids bodies, faces, and avatars in the incident and institutional registers.
-  Only the creator register carries a recurring human figure. The identity-embedding
-  features that dominate current model marketing solve a problem this book does not have.
+- **Character consistency matters less than usual, but it is not nothing.**
+  [`prompts/global-style.md`](../prompts/global-style.md) forbids drawing the *agents*
+  as bodies, faces or avatars — a rule about personifying software, not about human
+  presence, and one both a reader and a text encoder can misread as the latter.
+  Counting the script rather than the rule: 120 panels are typed `portrait` or `figure`
+  in [`../data/panel-types.tsv`](../data/panel-types.tsv), and 61 name a person the art
+  has to draw. Curt recurs across five desk states. So the identity-embedding features
+  that dominate current model marketing are not the binding constraint here, but they
+  are not irrelevant either.
 - **Style and environment consistency matter enormously.** The same evaluation
   aisle, the same rack elevation, the same task-card proportions, and the same brush
   and grain must survive hundreds of separate calls. This is the binding constraint.
-- **Text rendering is a liability, not a feature.** Lettering and provenance are
-  separate controlled layers. The models that win text benchmarks are the models
-  most likely to fill a reserved caption field with confident nonsense.
+- **Text rendering is a requirement, not a liability.** *Reversed 3 September 2026;
+  see [The prohibition was removed](#the-prohibition-was-removed-and-it-reverses-the-model-choice).*
+  Captions and provenance stay on the lettering layer, but a panel's own display strings
+  are project-authored and the model is expected to spell them. What remains a liability
+  is invented lettering in the surfaces nobody asked about, which every model on this
+  roster still produces.
 - **Unit price matters less than it looks.** At six attempts per slot, the whole book
   costs between $24 and $646 in API spend. That is a real spread, but the dominant
   cost is review time, so the correct optimization is the model that needs the fewest
@@ -93,6 +101,13 @@ artwork will use — [`global-style.md`](../prompts/global-style.md),
 [`negative-prompt.md`](../prompts/negative-prompt.md), [`palette.md`](palette.md),
 and the panel's own direction — then send that byte-identical prompt to every
 candidate.
+
+Byte-identical is now enforced at the tightest text encoder in the field rather than
+assumed. Sending the same 1,060-token string to a model that reads 512 and one that
+reads 1,024 is not one experiment, it is two, and the shorter model is judged on a
+prompt missing its palette and its negatives. `run_samples` composes to the smallest
+`prompt_tokens` among the candidates actually in the run, so every model reads the
+whole of what it is sent.
 
 **One key, most of the roster.** `scripts/bakeoff.py` routes through OpenRouter's
 unified image API, which fronts five of the eight candidates behind a single key and
@@ -270,26 +285,132 @@ estimate, so the full book is about 72 hours of compute on this machine rather t
 Peak memory is within half a gigabyte of everything a 16 GB Mac has to spare, which is
 why `--low-ram` is not optional here.
 
+> **Superseded in part, 3 September 2026.** This run was made before anyone checked
+> how much of the prompt the model receives. It receives 512 tokens; the prompt was
+> about 1,060. The `text` and `continuity` verdicts below were drawn from a prompt
+> whose palette clause, output discipline and entire negative prompt never arrived.
+> The measurements stand; two of the three conclusions do not. See
+> [The prompts were being cut in half](#the-prompts-were-being-cut-in-half).
+
 The output settled three rubric lines on the first attempt:
 
 - **`ink` is genuinely good.** Hand-inked contour, heavy blacks, halftone, dirty-paper
   border, a plausible aisle in correct perspective with racks and overhead cable trays.
   It also placed the service cart deep in the aisle — an instruction that appears only
   as a continuity anchor in the third paragraph of the prompt — and reserved the caption
-  field in the upper-left safe area exactly as asked.
+  field in the upper-left safe area exactly as asked. This line still holds; it is the
+  one part of the prompt that was never truncated, because it sits at the front.
 - **`text` fails.** Both takes filled the reserved caption box with gibberish lettering
-  and put fake labels on the equipment. This is the single thing
-  [`negative-prompt.md`](../prompts/negative-prompt.md) most insists against, and the
-  model does it unprompted, twice.
-- **`continuity` fails, which is the finding that matters.** The two takes are not the
-  same place and not the same style: one is mid-grey with a clean ruled border and one
-  service cart, the other is high-contrast near-black with a torn border, mesh rack
-  doors, different light fittings, and two carts. Either could open a book. They cannot
-  both be in the same book.
+  and put fake labels on the equipment. *Still true, but not for the reason given here.*
+  This was read as the model defying
+  [`negative-prompt.md`](../prompts/negative-prompt.md). The negative prompt was never
+  delivered. Invented lettering survives a prompt that does reach the model, so the
+  finding holds — the explanation does not.
+- **`continuity` fails, which is the finding that matters.** *Overturned.* The two takes
+  were not the same place because nothing in the delivered prompt said what the place
+  was: the register clause was four adjectives, and the environment geometry lived in
+  [`visual-continuity.md`](visual-continuity.md), which the prompt never quoted. Once
+  the register names the room, four panels of page 001 come back as recognisably the
+  same aisle. This was a prompt defect wearing a model defect's clothes.
 
-That last point is the argument for a trained style, made in images rather than in
-prose. Prompt discipline produced a good panel and could not produce the same panel
-twice. `mflux-train` is in the same install.
+The reading at the time — that this was the argument for a trained style, made in
+images rather than prose — was wrong, or at least premature. Prompt discipline had not
+been tried; half of it was being discarded in transit. `mflux-train` is still in the
+same install, and a trained style is still the stronger answer for a 541-panel book,
+but it is no longer the *only* answer to continuity, and it should not be bought on
+the strength of this run.
+
+### The prompts were being cut in half
+
+**Measured 3 September 2026.** A text encoder does not reject a prompt that is too
+long for it. It encodes the front, discards the rest, and says nothing. `mflux` pins
+FLUX.2 to 512 tokens in `flux2_klein.py`, and it is not a CLI option. A composed panel
+prompt was **1,062 tokens**. Across sixty sampled panels the median was 1,029 and
+**sixty of sixty were over the limit**.
+
+What arrived, and what did not:
+
+| Section | Tokens | Fate |
+| --- | ---: | --- |
+| Rendering target | 116 | kept |
+| Register clause | 20 | kept |
+| Panel direction | 27 | kept |
+| Exact-text clause | 46 | kept |
+| Composition | 337 | **cut mid-sentence** |
+| Light and material | 73 | **discarded** |
+| Palette | 105 | **discarded** |
+| Output discipline | 83 | **discarded** |
+| Avoid entirely | 255 | **discarded** |
+
+Every defect in the runs above has a line in that table. Colour outside the palette:
+the palette clause never arrived. Invented lettering everywhere: the negative prompt
+never arrived. Drawn panel borders: "drawn panel border" is in the discarded negative
+list. Drawn caption boxes: the prohibition was severed mid-clause, at
+`…no drawn caption box,` | `balloon, or slate in them`.
+
+Deleting the negative block entirely and re-rendering the same seed produced a
+near-identical image, which is the proof: 255 tokens of prohibitions were not fighting
+the model and losing, they were not being spoken.
+
+The second finding is proportion. The panel's own direction was 27 of 1,062 tokens.
+Generic boilerplate was 453. The only part of the prompt that differs between panels
+was outweighed roughly seventeen to one, which is why every register — a home office,
+an institutional room, an invented future — came back as the same industrial control
+room.
+
+`scripts/imagegen.py` now composes against the model's real ceiling, dropping whole
+ranked sections rather than letting the encoder cut a sentence in half, and reporting
+what it dropped. `prompt_tokens` per model lives in
+[`../data/local-models.json`](../data/local-models.json). Verified against the real
+tokenizer over all 541 panels: **none truncated**, median 401 tokens, maximum 456.
+
+### Second light, and what the delivered prompt settled
+
+The ten panels in `assets/art/panels/` carry both versions: `v01` from the truncated
+prompt and `v02` from the delivered one, on the same seed, so the prompt is the only
+variable.
+
+- **Register is a place, not a mood.** The clauses now name the environment from
+  [`visual-continuity.md`](visual-continuity.md) instead of gesturing at it with
+  adjectives. "Nicotine-beige practical light, intimate but unglamorous desk scale"
+  produced a factory; a wooden desk, two monitors, a lamp, a mug, a printer and a
+  doorway produced Curt's office. Institutional panels became ordinary overlit meeting
+  rooms. A register carries the materials; the panel's own direction still decides the
+  framing, which is why the camera language was taken back out of the incident clause.
+- **Continuity is reachable without training.** Four panels of page 001 came back as
+  the same aisle — same racks, same trays, same slab, same cart.
+- **Palette holds.** No claret outside its rule anywhere in the ten, where the
+  truncated runs put red signage in panels that forbade it.
+- **People stopped appearing** in panels that never asked for them.
+- **`text` still fails.** Invented lettering is reduced and much less dense, and it is
+  still in nearly every panel. One panel drew a caption box that the delivered
+  composition rule explicitly forbids. This is the one finding from first light that
+  survives intact, and it is the reason the reject-and-re-roll gate below still matters.
+
+Run [`0003-local-delivered-prompt`](/bakeoff/0003-local-delivered-prompt/) repeats the
+first-light experiment properly: the same six sample panels, two takes each, on prompts
+the model reads in full. 12 images, 63 s each, no spend. What it settles:
+
+- **`continuity` passes on five of six samples.** Both takes of the incident aisle are
+  the same place in the same style — the exact comparison that produced "they cannot
+  both be in the same book", now on the same panel and reversed. The creator sample is
+  the strongest result on the page: two takes of a recognisable office, same desk, lamp,
+  monitors, mug, printer and doorway, no face in either.
+- **`ink` continues to hold**, across all five registers.
+- **`text` fails again**, as expected, and one sample fails harder than anything in the
+  ten: take 1 of the invented-future panel came back as a **six-cell comic page with
+  speech balloons and faces** — a page layout, a panel grid, balloons and bodies, four
+  prohibitions at once, from a prompt that carried the composition rule in full. Prompt
+  delivery was necessary and is not sufficient.
+- **The dossier sample puts claret across both takes** as redaction bars. Whether that
+  is the palette rule working or breaking depends on a reading of
+  [`palette.md`](palette.md) that this run does not settle.
+
+One caveat about this evidence: neither bake-off runner supports `--bleed`, so every
+image in `0003` carries the drawn paper border (measured 17–44 px) that production
+output does not. The sheets compare models honestly against each other, but they do not
+show what a produced panel looks like. Give the runners the flag, or read the run
+knowing the margin is an artefact.
 
 ### Throughput is the real constraint
 
@@ -304,6 +425,24 @@ At 60 seconds per image the full book is about 65 hours of continuous compute; a
 that costs $114 and finishes overnight. The conclusion is not that local generation
 is wrong — it is that local generation is for the phase where iteration count
 matters more than throughput.
+
+Production adds a measured surcharge. The model draws an aged-paper margin and a ruled
+frame around the panel — in three of three renders at `--bleed 0`, at an inset of 24 to
+31 pixels — despite the composed prompt forbidding a drawn border twice. `--bleed`
+renders past the panel and crops the margin off, and it is the only thing that removes
+it reliably:
+
+| `--bleed` | Renders | Crop per side, vertical | Per image | 541 panels |
+| ---: | --- | ---: | ---: | ---: |
+| 0 | 1200×800 | — | 64 s | 9.6 h |
+| 0.06 | 1280×848 | 24 px | — | *insufficient; under the measured border* |
+| 0.08 | 1296×864 | 32 px | 73 s | 11.0 h |
+| **0.10** | **1328×896** | **48 px** | **78 s** | **11.7 h** |
+| 0.12 | 1360×912 | 56 px | 81 s | 12.2 h |
+
+0.10 is the production setting: zero drawn border across all ten panels, forty edges
+clean, at a 22% surcharge over an uncropped render. 0.08 also cleared every test panel
+but leaves only a single pixel over the worst border measured, which is not a margin.
 
 ### Recommendation
 
@@ -323,6 +462,24 @@ The one thing that would change this: if a trained local model scores as well on
 rubric as the hosted candidates, the wall clock stops being a cost and becomes a
 schedule. Score it in the same bake-off before deciding.
 
+**Amended 3 September 2026.** This recommendation was reached while every candidate was
+being sent half a prompt, so it rests on a comparison nobody actually ran. Two parts of
+it move:
+
+- **Train the style later, not first.** Training was the answer to a continuity failure
+  that turned out to be a truncated prompt. Naming the environment in the register
+  clause recovered most of it for nothing. A LoRA is still the stronger long-run answer
+  for 541 panels, and it is still the artefact that belongs to us — but it is now an
+  optimisation with a known baseline rather than a prerequisite.
+- **The bake-off has to be re-run before it decides anything.** Its prompts were
+  truncated too, and each candidate truncated them at a different length, so the run
+  compared models on inputs they did not share. `run_samples` now composes against the
+  tightest encoder in the field, so a re-run compares like with like. Until then, treat
+  the tier rankings above as untested rather than as evidence.
+
+What does not move: the licence split, the throughput arithmetic, and the conclusion
+that local generation belongs to the iteration phase.
+
 ## Suppressing generated text
 
 Assume no image generator will reliably stop rendering invented glyphs. The book
@@ -336,7 +493,10 @@ rather than assumed.
 ### What the model actually does
 
 Measured on `0002-local-first-light/flux2-klein-4b/001-01-1`, every region of
-generated glyphs in the panel:
+generated glyphs in the panel. That panel was drawn from a truncated prompt, so the
+totals are an upper bound rather than the current rate — the delivered prompt reduces
+glyph density without eliminating it. The *distribution* is the durable part, and it
+did not change:
 
 | Class | Share of panel | Where it lands |
 | --- | ---: | --- |
@@ -410,7 +570,7 @@ What would work is a vision model. Asking a hosted model for bounding boxes of a
 in a panel is one API call at well under a cent, so under $10 for the whole book
 including re-rolls, and it is a far better detector than anything classical. Note what
 it changes, though: it makes detection a **quality gate**, not a patching input. Knowing
-a panel has glyphs on a cabinet is enough to reject and re-roll it — 66 seconds locally.
+a panel has glyphs on a cabinet is enough to reject and re-roll it — 78 seconds locally.
 It is not enough to composite a perspective-matched patch automatically. That part stays
 hard.
 
@@ -519,7 +679,7 @@ Items 1, 4, and 5 are built; item 3 is proposed in
    `assets/art/panels/`, and is inert until artwork arrives.
 5. **In-world glyphs are a reject condition, not a patch.** *Done* — `text` and
    `continuity` now gate rather than weigh in `scripts/imagegen.py rank`: scoring below 3
-   on either disqualifies a candidate at any price. A re-roll costs 66 seconds locally.
+   on either disqualifies a candidate at any price. A re-roll costs 78 seconds locally.
    Hand-patching one panel costs more, and hand-patching 541 is a project.
 6. **Optionally, a vision-model gate** decides what gets rejected.
 
@@ -529,13 +689,17 @@ Both sizes were run on the drafting Mac (M1 Pro, 16 GB) with FLUX.2 [klein] 4B a
 
 | Panel | At 300 dpi | Peak memory | Per image | 541 panels |
 | --- | --- | ---: | ---: | ---: |
-| 1200×800 | 4″ × 2.67″ | 11.53 GB | 66 s | ~10 h |
+| 1200×800 | 4″ × 2.67″ | 11.53 GB | 64 s | ~9.6 h |
 | 1800×1200 | 6″ × 4″ | **18.22 GB** | 147 s | ~22 h |
 
 At 1800×1200 the model exceeds the machine's physical memory and completes only by
 swapping, which is why it takes 2.2× as long rather than the 2.25× more pixels would
 suggest. It works, but a 22-hour sustained swapping run is not something to start
 casually on a 16 GB machine.
+
+Both rows are uncropped renders. In production `--bleed 0.10` renders 1328×896 and
+crops to 1200×800, which costs 78 seconds rather than 64; the surcharge is in the
+throughput table above.
 
 `scripts/produce.py` takes `--width` and `--height`, so this is a run-time choice
 rather than a fixed one. The default is 1200×800. If the book needs 6″ panels, that

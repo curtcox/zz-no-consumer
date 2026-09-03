@@ -1,0 +1,216 @@
+{
+  "run": "0003-local-delivered-prompt",
+  "at": "2026-09-03T22:36:08+00:00",
+  "route": "local",
+  "dry_run": false,
+  "repeat": 2,
+  "panel_size": [
+    1200,
+    800
+  ],
+  "providers": [
+    "flux2-klein-4b"
+  ],
+  "evaluation_only": [],
+  "samples": [
+    {
+      "id": "001-01",
+      "register": "incident",
+      "tests": "near-black data-center aisle, plausible rack and cable-tray perspective, one steel practical light, no figure"
+    },
+    {
+      "id": "001-02",
+      "register": "incident",
+      "tests": "abstract dependency diagram that must read causally while staying visibly non-semantic"
+    },
+    {
+      "id": "013-01",
+      "register": "creator",
+      "tests": "the only register with a real human figure: nicotine light, ordinary clothes, monitors that must stay unreadable"
+    },
+    {
+      "id": "026-01",
+      "register": "institutional",
+      "tests": "overlit procedural room, distributed responsibility, no villain lighting"
+    },
+    {
+      "id": "070-01",
+      "register": "dossier",
+      "tests": "paper field, strict two-column grid, reserved blank lettering fields"
+    },
+    {
+      "id": "110-01",
+      "register": "invented future",
+      "tests": "fully desaturated, organization-neutral, no incident palette signature"
+    }
+  ],
+  "rubric": [
+    {
+      "key": "ink",
+      "question": "Hand-inked contour, dry-brush abrasion, heavy blacks, paper grain",
+      "weight": 3
+    },
+    {
+      "key": "palette",
+      "question": "Stays inside design/palette.md; no unearned moss, claret, or amber",
+      "weight": 2
+    },
+    {
+      "key": "text",
+      "question": "The panel's own display strings are legible and correctly spelled, with no invented lettering anywhere else",
+      "weight": 3
+    },
+    {
+      "key": "geometry",
+      "question": "Racks, trays, rooms, and perspective survive a second look",
+      "weight": 2
+    },
+    {
+      "key": "continuity",
+      "question": "Repeats of the same prompt stay in one style and one place",
+      "weight": 3
+    },
+    {
+      "key": "control",
+      "question": "Responds to correction rather than re-rolling a different picture",
+      "weight": 2
+    }
+  ],
+  "results": [
+    {
+      "provider": "flux2-klein-4b",
+      "sample": "001-01",
+      "take": 1,
+      "seed": 1001,
+      "path": "flux2-klein-4b/001-01-1.webp",
+      "seconds": 65.72,
+      "usd": 0.0,
+      "metered": false,
+      "bytes": 146260
+    },
+    {
+      "provider": "flux2-klein-4b",
+      "sample": "001-01",
+      "take": 2,
+      "seed": 1002,
+      "path": "flux2-klein-4b/001-01-2.webp",
+      "seconds": 63.99,
+      "usd": 0.0,
+      "metered": false,
+      "bytes": 160434
+    },
+    {
+      "provider": "flux2-klein-4b",
+      "sample": "001-02",
+      "take": 1,
+      "seed": 1001,
+      "path": "flux2-klein-4b/001-02-1.webp",
+      "seconds": 63.24,
+      "usd": 0.0,
+      "metered": false,
+      "bytes": 176674
+    },
+    {
+      "provider": "flux2-klein-4b",
+      "sample": "001-02",
+      "take": 2,
+      "seed": 1002,
+      "path": "flux2-klein-4b/001-02-2.webp",
+      "seconds": 62.26,
+      "usd": 0.0,
+      "metered": false,
+      "bytes": 209748
+    },
+    {
+      "provider": "flux2-klein-4b",
+      "sample": "013-01",
+      "take": 1,
+      "seed": 1001,
+      "path": "flux2-klein-4b/013-01-1.webp",
+      "seconds": 63.45,
+      "usd": 0.0,
+      "metered": false,
+      "bytes": 173824
+    },
+    {
+      "provider": "flux2-klein-4b",
+      "sample": "013-01",
+      "take": 2,
+      "seed": 1002,
+      "path": "flux2-klein-4b/013-01-2.webp",
+      "seconds": 62.59,
+      "usd": 0.0,
+      "metered": false,
+      "bytes": 170342
+    },
+    {
+      "provider": "flux2-klein-4b",
+      "sample": "026-01",
+      "take": 1,
+      "seed": 1001,
+      "path": "flux2-klein-4b/026-01-1.webp",
+      "seconds": 62.44,
+      "usd": 0.0,
+      "metered": false,
+      "bytes": 241420
+    },
+    {
+      "provider": "flux2-klein-4b",
+      "sample": "026-01",
+      "take": 2,
+      "seed": 1002,
+      "path": "flux2-klein-4b/026-01-2.webp",
+      "seconds": 62.61,
+      "usd": 0.0,
+      "metered": false,
+      "bytes": 250196
+    },
+    {
+      "provider": "flux2-klein-4b",
+      "sample": "070-01",
+      "take": 1,
+      "seed": 1001,
+      "path": "flux2-klein-4b/070-01-1.webp",
+      "seconds": 62.68,
+      "usd": 0.0,
+      "metered": false,
+      "bytes": 176716
+    },
+    {
+      "provider": "flux2-klein-4b",
+      "sample": "070-01",
+      "take": 2,
+      "seed": 1002,
+      "path": "flux2-klein-4b/070-01-2.webp",
+      "seconds": 63.49,
+      "usd": 0.0,
+      "metered": false,
+      "bytes": 177776
+    },
+    {
+      "provider": "flux2-klein-4b",
+      "sample": "110-01",
+      "take": 1,
+      "seed": 1001,
+      "path": "flux2-klein-4b/110-01-1.webp",
+      "seconds": 62.42,
+      "usd": 0.0,
+      "metered": false,
+      "bytes": 268036
+    },
+    {
+      "provider": "flux2-klein-4b",
+      "sample": "110-01",
+      "take": 2,
+      "seed": 1002,
+      "path": "flux2-klein-4b/110-01-2.webp",
+      "seconds": 62.53,
+      "usd": 0.0,
+      "metered": false,
+      "bytes": 164660
+    }
+  ],
+  "usd": 0.0,
+  "machine": "Apple M1 Pro",
+  "memory_gb": 16
+}
