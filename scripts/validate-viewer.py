@@ -25,6 +25,7 @@ class ViewerParser(HTMLParser):
         super().__init__()
         self.body_attributes: dict[str, str] = {}
         self.links: list[str] = []
+        self.images: list[str] = []
         self.directions: set[str] = set()
         self.settings: set[str] = set()
         self.has_settings_panel = False
@@ -37,6 +38,10 @@ class ViewerParser(HTMLParser):
             self.has_settings_panel = True
         if values.get("data-setting"):
             self.settings.add(f"{values['data-setting']}={values.get('data-value', '')}")
+        if tag == "img" and values.get("src"):
+            self.images.append(values["src"])
+            if not values.get("alt"):
+                self.images.append("__missing_alt__")
         if tag == "a" and values.get("href"):
             self.links.append(values["href"])
             if values.get("data-direction"):
@@ -81,6 +86,14 @@ def main() -> int:
             if target is not None and not target.exists():
                 failures.append(f"{document.relative_to(ROOT)}: broken link {href}")
 
+        for source in parser.images:
+            if source == "__missing_alt__":
+                failures.append(f"{document.relative_to(ROOT)}: an image carries no alt text")
+                continue
+            target = local_target(document, source)
+            if target is not None and not target.exists():
+                failures.append(f"{document.relative_to(ROOT)}: missing image {source}")
+
     # The spacebar chain has to reach every route exactly once and loop home.
     home = (VIEWER / "index.html").resolve()
     if home in parsed:
@@ -114,6 +127,9 @@ def main() -> int:
         VIEWER / "pages" / "001" / "images" / "01" / "index.html",
         VIEWER / "pages" / "001" / "images" / "01" / "info" / "index.html",
         VIEWER / "pages" / "112" / "index.html",
+        VIEWER.parent / "assets" / "placeholders" / "pages" / "001.svg",
+        VIEWER.parent / "assets" / "placeholders" / "pages" / "112.svg",
+        VIEWER.parent / "assets" / "placeholders" / "panels" / "001-01.svg",
     ]
     for path in expected:
         if not path.exists():
@@ -127,9 +143,11 @@ def main() -> int:
             print(f"- …and {len(failures) - 50} more")
         return 1
 
+    images = sum(len([item for item in parser.images if item != "__missing_alt__"]) for parser in parsed.values())
     print(
-        f"Validated {len(documents)} viewer routes; all local links, eight-direction controls, "
-        "view settings, and the spacebar chain across every route resolve."
+        f"Validated {len(documents)} viewer routes and {images} image references; all local links, "
+        "placeholder images, eight-direction controls, view settings, and the spacebar chain "
+        "across every route resolve."
     )
     return 0
 

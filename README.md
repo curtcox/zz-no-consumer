@@ -71,7 +71,7 @@ The internal builder converts Markdown in `content/`, `prompts/`, `research/`, a
 
 Both builds publish the cross reference at `docs/crossref/` (internal: `256t/site/crossref/`), with directory-style routes for every page, cited source, provenance status, and ledger sequence. Source records link to the original publication rather than reproducing it. The public build carries only the relational index; the scene ledger's narrative summaries, drafting rules, chapter-packet locators, and build findings appear in the internal build alone. Each viewer page and image information view links to the matching page record.
 
-The generated site also includes an isolated viewer validation section at `docs/viewer/`. It publishes stable directory-style routes for the viewer home, chapter overviews, pages, panel images, and their information views before final artwork exists. Every view exposes up, down, left, right, in, out, home, and next links; the matching keyboard shortcuts are Arrow keys, Enter, Escape, H, and Space.
+The generated site also includes an isolated viewer validation section at `docs/viewer/`. It publishes stable directory-style routes for the viewer home, chapter overviews, pages, panel images, and their information views before final artwork exists. Every one of those image addresses already resolves to a generated placeholder, so the whole book can be read end to end today. Every view exposes up, down, left, right, in, out, home, and next links; the matching keyboard shortcuts are Arrow keys, Enter, Escape, H, and Space.
 
 Space is the read-through control: it scrolls the current view, and once the view is fully read it advances to the next node. The chain visits every generated route exactly once and loops back to the viewer home, so the whole book and all of its records can be read with the spacebar alone. Shift + Space reverses it.
 
@@ -90,6 +90,29 @@ python3 scripts/make-thumbnails.py
 ```
 
 The result is `256t/site/production/thumbnails/index.html`. Its panel geometry is a private review aid rather than locked layout; findings and required print proofs are tracked in `content/production-review.md`.
+
+## Placeholder images
+
+`scripts/textimage.py` flows a block of text into an image of exactly the dimensions it is given. It adds no image dependencies: glyph advances come from the Helvetica metrics that Arial, Liberation Sans, and Nimbus Sans match, so line breaking and the automatic type-size search run in pure Python and the rendered SVG breaks its lines where the module measured them. The largest size that fits is chosen by binary search; below the floor the text is cut to the box and ellipsized, so the image never spills past its dimensions.
+
+Use it for any text and any size:
+
+```sh
+python3 scripts/textimage.py render --width 1200 --height 800 --out card.svg \
+  --label "PAGE 001" --footer "PLACEHOLDER" --text "Any block of text."
+```
+
+`--text-file` and standard input work in place of `--text`. `--label` and `--footer` are single-line edge markers, shortened rather than allowed to widen the image.
+
+The `book` command writes one placeholder for every page and every panel image slot in `content/pages/` — 112 page sheets at 700×1000 and 541 panel images at 1200×800:
+
+```sh
+python3 scripts/textimage.py book --out-dir docs/assets/placeholders
+```
+
+Each panel placeholder carries that panel's own `Frame`, `Action`, and lettering; each page sheet carries the page purpose. `scripts/build-site.py` runs this as part of every build and embeds the result, so the viewer's page sheets, chapter grids, and single-image views all show real script text in the frame the final art will occupy. Both site indexes link straight into that read-through, and `scripts/validate-viewer.py` fails if any placeholder is missing or carries no alt text.
+
+Panel placeholders are keyed to the same image slots the viewer routes use, so a page written as one grouped run of panels gets the single image its route exposes. Replacing a placeholder with final art is a matter of pointing the image record at `assets/art/panels/NNN-II.*`; the route, alt text, and cross-reference link do not move.
 
 ## GitHub Pages
 

@@ -12,6 +12,7 @@ from dataclasses import dataclass
 from pathlib import Path
 
 import crossref
+import textimage
 
 
 ROOT = Path(__file__).resolve().parents[1]
@@ -414,17 +415,31 @@ def viewer_document(
 '''
 
 
-def page_art(page: ViewerPage, *, compact: bool = False) -> str:
-    count = min(page.panel_count, 6)
-    panels = "".join(
-        f'<span class="placeholder-panel placeholder-panel--{index}" aria-hidden="true"></span>'
-        for index in range(1, count + 1)
+PLACEHOLDER_DIR = Path("assets/placeholders")
+
+
+def placeholder_url(from_directory: Path, image: textimage.Placeholder) -> str:
+    return relative_url(from_directory, PLACEHOLDER_DIR / image.path)
+
+
+def placeholder_img(
+    from_directory: Path, image: textimage.Placeholder, css_class: str
+) -> str:
+    return (
+        f'<img class="{css_class}" src="{html.escape(placeholder_url(from_directory, image))}" '
+        f'alt="{html.escape(image.alt)}" width="{image.width}" height="{image.height}" '
+        f'loading="lazy" decoding="async">'
     )
+
+
+def page_art(
+    page: ViewerPage, image: textimage.Placeholder, from_directory: Path, *, compact: bool = False
+) -> str:
     compact_class = " page-art--compact" if compact else ""
     return (
-        f'<div class="page-art{compact_class}" data-content="image" data-panels="{count}">'
-        f'<span class="page-art__number">{html.escape(page.id)}</span>{panels}'
-        f'<span class="page-art__status">{html.escape(page.status)}</span></div>'
+        f'<div class="page-art page-art--sheet{compact_class}" data-content="image" '
+        f'data-panels="{page.panel_count}">'
+        f'{placeholder_img(from_directory, image, "page-art__sheet")}</div>'
     )
 
 
@@ -455,6 +470,15 @@ def write_viewer_page(destination: Path, *, nav: dict[str, tuple[str, Path]], **
 def build_viewer() -> None:
     pages = viewer_pages()
     chapters = viewer_chapters()
+    book = textimage.build_book(OUT / PLACEHOLDER_DIR)
+    missing = [
+        f"{page.id}-{index:02d}"
+        for page in pages
+        for index in range(1, page.panel_count + 1)
+        if (page.id, index) not in book.panels
+    ] + [page.id for page in pages if page.id not in book.pages]
+    if missing:
+        raise ValueError(f"No placeholder image was generated for: {missing}")
     page_by_number = {int(page.id): page for page in pages}
     chapter_by_id = {chapter.id: chapter for chapter in chapters}
     viewer_home = viewer_destination()
@@ -503,7 +527,7 @@ def build_viewer() -> None:
     home_body = f'''
     <section class="intro-grid">
       <div class="intro-copy" data-content="text"><p class="kicker">A spatial reading prototype</p>
-        <p>This isolated build validates durable routes, page and panel hierarchy, eight-direction navigation, and shareable view settings before final artwork exists.</p>
+        <p>This build validates durable routes, page and panel hierarchy, eight-direction navigation, and shareable view settings. Every page and image slot already carries a generated placeholder: the script text for that page or panel, flowed to fit the frame the final art will occupy.</p>
         <a class="primary-action" href="{html.escape(viewer_link(Path("viewer"), "pages", pages[0].id))}">Begin on page 001 <span>→</span></a>
       </div>
       <div class="map-card" data-content="image" aria-label="Content map"><span>HOME</span><i></i><span>CHAPTER</span><i></i><span>PAGE</span><i></i><span>IMAGE</span></div>
@@ -541,12 +565,12 @@ def build_viewer() -> None:
         for page in chapter_pages:
             cards.append(
                 f'''<a class="page-card" href="{html.escape(route_url(current_dir, page_dest(page.id)))}">
-                  {page_art(page, compact=True)}
+                  {page_art(page, book.pages[page.id], current_dir, compact=True)}
                   <span class="page-card__copy" data-content="text"><b>{html.escape(page.id)} · {html.escape(page.title)}</b><small>Sequence {html.escape(page.sequence)} · {html.escape(page.status)}</small></span>
                 </a>'''
             )
         chapter_body = f'''
-        <section class="chapter-intro"><div><p class="kicker">Chapter {html.escape(chapter.id.upper())}</p><p>{len(chapter_pages)} pages · {sum(page.panel_count for page in chapter_pages)} image slots · artwork pending</p></div>
+        <section class="chapter-intro"><div><p class="kicker">Chapter {html.escape(chapter.id.upper())}</p><p>{len(chapter_pages)} pages · {sum(page.panel_count for page in chapter_pages)} image slots · placeholder art</p></div>
           <a class="text-action" href="{html.escape(route_url(current_dir, chapter_dest(chapter.id, True)))}">Read chapter information <span>↓</span></a></section>
         <section class="page-grid" aria-label="Pages in {html.escape(chapter.title)}">{''.join(cards)}</section>
         '''
@@ -571,7 +595,7 @@ def build_viewer() -> None:
         info_body = f'''
         <section class="info-layout"><div class="info-lede"><p>Chapter record</p><p>The overview, this record, every page, and every image have independent URLs designed to survive the transition from placeholders to final art.</p></div>
         <dl class="metadata"><div><dt>Identifier</dt><dd>{html.escape(chapter.id)}</dd></div><div><dt>Page range</dt><dd>{chapter.first_page:03d}–{chapter.last_page:03d}</dd></div>
-        <div><dt>Pages</dt><dd>{len(chapter_pages)}</dd></div><div><dt>Image slots</dt><dd>{sum(page.panel_count for page in chapter_pages)}</dd></div><div><dt>Artwork</dt><dd><span class="status-dot"></span> Not generated</dd></div></dl></section>
+        <div><dt>Pages</dt><dd>{len(chapter_pages)}</dd></div><div><dt>Image slots</dt><dd>{sum(page.panel_count for page in chapter_pages)}</dd></div><div><dt>Artwork</dt><dd><span class="status-dot"></span> Placeholder</dd></div></dl></section>
         <a class="primary-action" href="{html.escape(route_url(info_dir, chapter_dest(chapter.id)))}">Return to chapter <span>↑</span></a>
         '''
         write_viewer_page(
@@ -600,7 +624,7 @@ def build_viewer() -> None:
         page_body = f'''
         <section class="reader-layout">
           <div class="reader-stage" data-content="image"><div class="reader-stage__top"><span>Page {html.escape(page.id)} / 112</span><span class="art-state"><i></i> Placeholder artwork</span></div>
-            <a class="page-art-link" href="{html.escape(route_url(current_dir, image_dest(page.id, 1)))}" aria-label="Open first image on page {html.escape(page.id)}">{page_art(page)}</a>
+            <a class="page-art-link" href="{html.escape(route_url(current_dir, image_dest(page.id, 1)))}" aria-label="Open first image on page {html.escape(page.id)}">{page_art(page, book.pages[page.id], current_dir)}</a>
           </div>
           <aside class="reader-notes" data-content="text"><p class="eyebrow">Page record</p><h2>{html.escape(page.title)}</h2><dl><div><dt>Chapter</dt><dd>{html.escape(chapter.title)}</dd></div><div><dt>Sequence</dt><dd>{html.escape(page.sequence)}</dd></div><div><dt>Status</dt><dd>{html.escape(page.status)}</dd></div></dl>
             <div class="image-links"><span>Image slots</span>{image_links}</div>
@@ -627,7 +651,7 @@ def build_viewer() -> None:
         source_label = f"content/pages/{page.id}.md" if source_file.exists() else "Planned; script not drafted"
         page_info_body = f'''
         <section class="info-layout"><div class="info-lede"><p>Page record</p><p>Production metadata is separated from the reading surface while remaining one directional move away.</p></div>
-        <dl class="metadata"><div><dt>Page</dt><dd>{html.escape(page.id)} of 112</dd></div><div><dt>Title</dt><dd>{html.escape(page.title)}</dd></div><div><dt>Chapter</dt><dd>{html.escape(chapter.title)}</dd></div><div><dt>Sequence</dt><dd>{html.escape(page.sequence)}</dd></div><div><dt>Status</dt><dd>{html.escape(page.status)}</dd></div><div><dt>Image slots</dt><dd>{page.panel_count}</dd></div><div class="metadata__wide"><dt>Source</dt><dd>{html.escape(source_label)}</dd></div><div class="metadata__wide"><dt>Cross reference</dt><dd><a href="{html.escape(crossref_link(info_dir, "pages", page.id))}">Sources and provenance cited by page {html.escape(page.id)}</a></dd></div></dl></section>
+        <dl class="metadata"><div><dt>Page</dt><dd>{html.escape(page.id)} of 112</dd></div><div><dt>Title</dt><dd>{html.escape(page.title)}</dd></div><div><dt>Chapter</dt><dd>{html.escape(chapter.title)}</dd></div><div><dt>Sequence</dt><dd>{html.escape(page.sequence)}</dd></div><div><dt>Status</dt><dd>{html.escape(page.status)}</dd></div><div><dt>Image slots</dt><dd>{page.panel_count}</dd></div><div><dt>Artwork</dt><dd><span class="status-dot"></span> Placeholder</dd></div><div class="metadata__wide"><dt>Source</dt><dd>{html.escape(source_label)}</dd></div><div class="metadata__wide"><dt>Placeholder image</dt><dd><a href="{html.escape(placeholder_url(info_dir, book.pages[page.id]))}">assets/placeholders/{html.escape(book.pages[page.id].path)}</a> · {book.pages[page.id].width}×{book.pages[page.id].height}</dd></div><div class="metadata__wide"><dt>Cross reference</dt><dd><a href="{html.escape(crossref_link(info_dir, "pages", page.id))}">Sources and provenance cited by page {html.escape(page.id)}</a></dd></div></dl></section>
         <a class="primary-action" href="{html.escape(route_url(info_dir, page_dest(page.id)))}">Return to page <span>↑</span></a>
         '''
         write_viewer_page(
@@ -650,7 +674,7 @@ def build_viewer() -> None:
             previous_image = ((image_index - 2) % page.panel_count) + 1
             next_image = (image_index % page.panel_count) + 1
             image_body = f'''
-            <section class="image-viewer"><div class="image-frame" id="image" data-content="image"><div class="image-placeholder"><span class="image-placeholder__cross"></span><span class="image-placeholder__label">PAGE {html.escape(page.id)} / IMAGE {image_index:02d}</span><b>ARTWORK<br>NOT GENERATED</b><small>Aspect ratio and route are ready for validation.</small></div></div>
+            <section class="image-viewer"><div class="image-frame" id="image" data-content="image">{placeholder_img(image_dir, book.panels[(page.id, image_index)], "image-sheet")}</div>
             <div class="image-caption" data-content="text"><p><span>{html.escape(chapter.title)}</span> / Page {html.escape(page.id)}</p><h2>Image {image_index:02d} of {page.panel_count:02d}</h2><a class="text-action" href="{html.escape(route_url(image_dir, image_dest(page.id, image_index, True)))}">Image information <span>↓</span></a></div></section>
             '''
             write_viewer_page(
@@ -668,8 +692,8 @@ def build_viewer() -> None:
             )
             image_info_dir = image_dest(page.id, image_index, True).parent
             image_info_body = f'''
-            <section class="info-layout"><div class="info-lede"><p>Image record</p><p>This stable address is ready for final media, alt text, credits, provenance, and generation metadata.</p></div>
-            <dl class="metadata"><div><dt>Identifier</dt><dd>{html.escape(page.id)}-{image_index:02d}</dd></div><div><dt>Parent page</dt><dd>{html.escape(page.id)} · {html.escape(page.title)}</dd></div><div><dt>Position</dt><dd>{image_index} of {page.panel_count}</dd></div><div><dt>Artwork</dt><dd><span class="status-dot"></span> Not generated</dd></div><div class="metadata__wide"><dt>Future asset</dt><dd>assets/art/panels/{html.escape(page.id)}-{image_index:02d}.*</dd></div><div class="metadata__wide"><dt>Cross reference</dt><dd><a href="{html.escape(crossref_link(image_info_dir, "pages", page.id))}">Panel {image_index:02d} provenance on the page {html.escape(page.id)} record</a></dd></div></dl></section>
+            <section class="info-layout"><div class="info-lede"><p>Image record</p><p>This address already resolves to a placeholder carrying the panel's own script text, and is ready for the final media, credits, provenance, and generation metadata that will replace it.</p></div>
+            <dl class="metadata"><div><dt>Identifier</dt><dd>{html.escape(page.id)}-{image_index:02d}</dd></div><div><dt>Parent page</dt><dd>{html.escape(page.id)} · {html.escape(page.title)}</dd></div><div><dt>Position</dt><dd>{image_index} of {page.panel_count}</dd></div><div><dt>Artwork</dt><dd><span class="status-dot"></span> Placeholder</dd></div><div class="metadata__wide"><dt>Placeholder image</dt><dd><a href="{html.escape(placeholder_url(image_info_dir, book.panels[(page.id, image_index)]))}">assets/placeholders/{html.escape(book.panels[(page.id, image_index)].path)}</a> · {book.panels[(page.id, image_index)].width}×{book.panels[(page.id, image_index)].height}</dd></div><div class="metadata__wide"><dt>Final asset</dt><dd>assets/art/panels/{html.escape(page.id)}-{image_index:02d}.*</dd></div><div class="metadata__wide"><dt>Cross reference</dt><dd><a href="{html.escape(crossref_link(image_info_dir, "pages", page.id))}">Panel {image_index:02d} provenance on the page {html.escape(page.id)} record</a></dd></div></dl></section>
             <a class="primary-action" href="{html.escape(route_url(image_info_dir, image_current))}">Return to image <span>↑</span></a>
             '''
             write_viewer_page(
@@ -1138,6 +1162,13 @@ def main() -> int:
             encoding="utf-8",
         )
 
+    story = textimage.book_scripts()
+    placeholder_link = (
+        '<p><a class="viewer-callout" href="viewer/pages/001/">'
+        f'Read all {len(story)} pages and {sum(len(item.panels) for item in story)} panels '
+        'as placeholder images →</a></p>'
+    )
+
     index_cards = "".join(
         f'<a class="card" href="{html.escape(str(slug))}"><h3>{html.escape(title)}</h3><p>{html.escape(str(source.relative_to(ROOT)))}</p></a>'
         for (title, slug), source in zip(pages, markdown_files)
@@ -1146,6 +1177,7 @@ def main() -> int:
         index_body = (
             '<p>Private local review build: canonical story material, visual direction, research, and production notes.</p>'
             '<p><a class="viewer-callout" href="viewer/">Open the graphic novel viewer validation build →</a></p>'
+            f'{placeholder_link}'
             '<p><a class="viewer-callout" href="crossref/">Open the page, source, and provenance cross reference →</a></p>'
             '<p><a class="viewer-callout" href="production/thumbnails/">Open the provisional 57-spread thumbnail wall →</a></p>'
             f'<h2>Browse the internal project</h2><div class="cards">{index_cards}</div>'
@@ -1154,6 +1186,7 @@ def main() -> int:
         index_body = (
             '<p>Story-first public build. Research snapshots, source packets, prompts, and production notes remain local.</p>'
             '<p><a class="viewer-callout" href="viewer/">Open the graphic novel viewer validation build →</a></p>'
+            f'{placeholder_link}'
             '<p><a class="viewer-callout" href="crossref/">Open the page, source, and provenance cross reference →</a></p>'
             f'<h2>Browse the story</h2><div class="cards">{index_cards}</div>'
         )
