@@ -56,6 +56,7 @@ import textimage
 
 ROOT = Path(__file__).resolve().parents[1]
 PROMPT_DIR = ROOT / "prompts"
+PAGE_DIR = ROOT / "content" / "pages"
 PALETTE_FILE = ROOT / "design" / "palette.md"
 DEFAULT_RUN_DIR = ROOT / "assets" / "bakeoff"
 GENERATION_LOG = ROOT / "data" / "generation-log.jsonl"
@@ -363,7 +364,8 @@ GATE_FLOOR = 3
 RUBRIC: tuple[tuple[str, str, int], ...] = (
     ("ink", "Hand-inked contour, dry-brush abrasion, heavy blacks, paper grain", 3),
     ("palette", "Stays inside design/palette.md; no unearned moss, claret, or amber", 2),
-    ("text", "No readable words, logos, code, or UI typography anywhere in frame", 3),
+    ("text", "The panel's own display strings are legible and correctly spelled, with no "
+             "invented lettering anywhere else", 3),
     ("geometry", "Racks, trays, rooms, and perspective survive a second look", 2),
     ("continuity", "Repeats of the same prompt stay in one style and one place", 3),
     ("control", "Responds to correction rather than re-rolling a different picture", 2),
@@ -403,6 +405,33 @@ def register_clause(register: str) -> str:
     return match.group(1).strip() if match else ""
 
 
+def display_strings(page: str, panel: int) -> list[str]:
+    """The exact words this panel's art is meant to show.
+
+    Page scripts mark display text with backticks in the `Frame` and `Action`
+    lines. `textimage` strips the backticks when it flattens a panel for a
+    placeholder, so the literals are read here from the source instead, and
+    handed to the model as an explicit list rather than left buried in prose.
+
+    These are project-authored strings. `research/exact-text-permissions-audit.md`
+    records that distributed pages paraphrase rather than quote their sources, so
+    rendering them carries no reuse question.
+    """
+    source = (PAGE_DIR / f"{page}.md").read_text(encoding="utf-8")
+    sections = re.split(r"^## Panel \d+\s*$", source, flags=re.M)[1:]
+    if panel > len(sections):
+        return []
+    body = re.split(r"^\*\*(?:Caption|Dialogue|Left dialogue|Right dialogue|Screen|"
+                    r"Provenance|Qualification)", sections[panel - 1], flags=re.M)[0]
+    seen: list[str] = []
+    for literal in re.findall(r"`([^`]+)`", body):
+        literal = literal.strip()
+        # Palette tokens are direction, not lettering the panel displays.
+        if literal and literal not in seen and not re.fullmatch(r"[a-z]+-\d+|[a-z-]{3,12}", literal):
+            seen.append(literal)
+    return seen
+
+
 def panel_direction(page: str, panel: int) -> str:
     """The panel's own direction: a hand-written prompt file, else its script."""
     written = PROMPT_DIR / "pages" / page / f"panel-{panel:02d}.md"
@@ -423,12 +452,24 @@ def panel_direction(page: str, panel: int) -> str:
     raise SystemExit(f"Page {page} has no panel {panel}.")
 
 
+def exact_text_clause(page: str, panel: int) -> str:
+    """Tell the model exactly which words to letter, and to spell them correctly."""
+    strings = display_strings(page, panel)
+    if not strings:
+        return ""
+    quoted = "; ".join(f'"{item}"' for item in strings)
+    return (f"Lettering shown inside the scene — render these exact words, correctly "
+            f"spelled, legible at reading size, and nothing else in their place: {quoted}. "
+            f"Leave any other surface blank rather than inventing words for it.")
+
+
 def compose_panel(page: str, panel: int, register: str) -> str:
     """Build the prompt for any panel in the book, from the canonical sources."""
     parts = [
         _digest(PROMPT_DIR / "global-style.md", "Rendering target"),
         f"Register — {register}: {register_clause(register)}",
         f"Panel — {panel_direction(page, panel)}",
+        exact_text_clause(page, panel),
         _digest(PROMPT_DIR / "global-style.md", "Composition"),
         _digest(PROMPT_DIR / "global-style.md", "Light and material"),
         f"Palette, and nothing outside it: {palette_clause()}.",

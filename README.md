@@ -176,7 +176,14 @@ python3 scripts/produce.py run --from 001 --to 020 # a range of pages
 python3 scripts/produce.py run --chapter prologue  # a chapter
 ```
 
-Selections combine, and `--register creator`, `--limit N`, and `--takes N` narrow further. A full pass is 541 renders — about ten hours at the measured 66 seconds each — so the run is built to be interrupted: panels that already have art are skipped, a running estimate is printed, and Ctrl-C stops after the current panel rather than losing it. Re-running continues where it stopped. `--force` regenerates existing panels and says how many it will overwrite first.
+Selections combine, and `--register creator`, `--type`, `--route`, `--limit N`, and `--takes N` narrow further. `--type` and `--route` are the mechanism for running a mix of generators: [`design/panel-image-types.md`](design/panel-image-types.md) classifies every panel by what its description demands, and [`data/panel-types.tsv`](data/panel-types.tsv) is the table. Just over half the book needs nothing a 16 GB laptop cannot do, while 78 panels need long strings spelled correctly and 57 need reference conditioning for a recurring face — so the premium models are worth their price on a quarter of the book and wasted on the rest.
+
+```sh
+python3 scripts/paneltypes.py summary              # counts by type and route
+python3 scripts/produce.py run --route local       # the 283 panels any model can draw
+python3 scripts/produce.py run --route text-fidelity --provider qwen-image-local
+```
+ A full pass is 541 renders — about ten hours at the measured 66 seconds each — so the run is built to be interrupted: panels that already have art are skipped, a running estimate is printed, and Ctrl-C stops after the current panel rather than losing it. Re-running continues where it stopped. `--force` regenerates existing panels and says how many it will overwrite first.
 
 Each panel's prompt is composed from the same canonical sources the bake-off uses, with the register modifier derived from the page's primary location. `python3 scripts/produce.py registers -v` prints that derivation for every page so a wrong call is visible rather than silent; the rules live in `REGISTER_RULES` at the top of the script.
 

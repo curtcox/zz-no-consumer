@@ -16,13 +16,15 @@ Use the canonical colors in [`design/palette.md`](../design/palette.md). Most im
 - Prefer surveillance-like, physically obstructed, or off-center framing over heroic spectacle.
 - Show agent activity through task cards, system surfaces, infrastructure state, timestamps, and consequences—never a body, face, avatar, glowing brain, or imagined private room.
 - Establish cause spatially: inputs, permissions, shared services, boundaries, and outputs must remain readable even before lettering.
-- Screens, cards, and displays inside the scene stay dark, unlit, or blank. Do not letter
-  them, head them, or label them. Every word the book says is applied later on a separate
-  layer, so an unlit screen is finished art and a lettered one has to be regenerated.
-- Leave the upper-left and lower-right corners as quiet, near-empty dark areas with no
-  drawn caption box, label plate, sign, screen, or panel of any kind in them. The lettering
-  layer is applied afterwards and supplies its own boxes; a box drawn here will be covered
-  and wasted. Keep essential forms out of gutters and trim zones.
+- Render the panel's own display strings as legible, correctly spelled text on the screens,
+  cards, and labels that carry them. These strings are project-authored, so they are the
+  words the panel is supposed to show. Invented or approximate lettering is worse than none:
+  if a string cannot be rendered accurately, leave that surface blank rather than guessing.
+- Two text systems, and only one is yours. In-scene text — what a screen, card, or label
+  physically shows in the world — is drawn. Captions, dialogue balloons, and provenance
+  slates are not: they are applied afterwards on a controlled lettering layer. Leave the
+  upper-left and lower-right corners as quiet, near-empty dark areas with no drawn caption
+  box, balloon, or slate in them, and keep essential forms out of gutters and trim zones.
 - Use repeated geometry when state changes across attempts, populations, or evidence accounts.
 
 ## Light and material
@@ -39,4 +41,4 @@ Every light has a physical source: fluorescent tubes, monitor spill, rack indica
 
 ## Output discipline
 
-Generate art without readable third-party wording, logos, credentials, QR codes, code, commands, paths, URLs, or source screenshots. Lettering and provenance are separate controlled production layers. Any incidental generated glyphs must be removed or covered before review.
+Render the panel's own project-authored display strings accurately. Everything else stays out: no third-party wording, logos, credentials, QR codes, code, commands, paths, URLs, or source screenshots, and never source typography reproduced closely enough to imply quotation. Captions, dialogue, and provenance are separate controlled production layers, so do not draw them. Any glyph the panel did not ask for is a defect.

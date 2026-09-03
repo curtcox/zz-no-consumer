@@ -30,6 +30,8 @@ generation time.
 from __future__ import annotations
 
 import argparse
+import io
+import math
 import re
 import signal
 import sys
@@ -41,6 +43,7 @@ from pathlib import Path
 import imagegen
 import letterpress
 import localgen
+import paneltypes
 import textimage
 
 
@@ -143,6 +146,23 @@ def select(slots: list[Slot], args: argparse.Namespace) -> list[Slot]:
         chosen = [s for s in chosen if low <= s.page <= high]
     if args.register:
         chosen = [s for s in chosen if s.register in set(args.register)]
+    if args.type or args.route:
+        # design/panel-image-types.md: route each panel to a model that can draw it.
+        table = {row["panel"]: row for row in paneltypes.read_table()}
+        if args.type:
+            wanted = set(args.type)
+            unknown = wanted - set(paneltypes.ROUTES)
+            if unknown:
+                raise SystemExit(f"No such type: {', '.join(sorted(unknown))}. "
+                                 f"Known: {', '.join(paneltypes.ROUTES)}")
+            chosen = [s for s in chosen if table.get(s.id, {}).get("type") in wanted]
+        if args.route:
+            wanted = set(args.route)
+            unknown = wanted - set(paneltypes.ROUTES.values())
+            if unknown:
+                raise SystemExit(f"No such route: {', '.join(sorted(unknown))}. "
+                                 f"Known: {', '.join(sorted(set(paneltypes.ROUTES.values())))}")
+            chosen = [s for s in chosen if table.get(s.id, {}).get("route") in wanted]
     if args.limit:
         chosen = chosen[:args.limit]
     return chosen
@@ -259,6 +279,31 @@ def cmd_plan(args: argparse.Namespace) -> int:
 # --------------------------------------------------------------------- the run
 
 
+def bleed_size(width: int, height: int, bleed: float) -> tuple[int, int]:
+    """The larger size to render so a fixed inset can be cropped away.
+
+    Drawn borders, torn paper edges and page numbers all live at the margin.
+    Rendering past the panel and cutting the margin off removes them without
+    having to find them, which is the one thing detection cannot do here.
+    """
+    grow = lambda v: int(math.ceil(v * (1 + bleed) / 16) * 16)
+    return grow(width), grow(height)
+
+
+def crop_bleed(data: bytes, target: tuple[int, int]) -> bytes:
+    """Cut the rendered margin away, keeping the centre at the requested size."""
+    from PIL import Image
+
+    image = Image.open(io.BytesIO(data))
+    width, height = target
+    left = max(0, (image.width - width) // 2)
+    top = max(0, (image.height - height) // 2)
+    cropped = image.crop((left, top, left + width, top + height))
+    buffer = io.BytesIO()
+    cropped.save(buffer, format=image.format or "WEBP", quality=92, method=6)
+    return buffer.getvalue()
+
+
 class Interrupt:
     """Ctrl-C finishes the panel in flight instead of losing it."""
 
@@ -288,8 +333,14 @@ def cmd_run(args: argparse.Namespace) -> int:
         print("\nDry run; nothing generated.")
         return 0
 
-    ART_DIR.mkdir(parents=True, exist_ok=True)
+    out_dir = (args.out_dir if args.out_dir and args.out_dir.is_absolute()
+               else ROOT / args.out_dir if args.out_dir else ART_DIR)
+    out_dir.mkdir(parents=True, exist_ok=True)
     size = (args.width, args.height)
+    render_size = bleed_size(*size, args.bleed) if args.bleed else size
+    if args.bleed:
+        print(f"Bleed:     rendering {render_size[0]}x{render_size[1]}, "
+              f"cropping to {size[0]}x{size[1]}")
     stop = Interrupt()
     started = time.time()
     made = failed = 0
@@ -304,20 +355,21 @@ def cmd_run(args: argparse.Namespace) -> int:
             began = time.time()
             try:
                 result = imagegen.generate(provider, prompt, seed, route="local",
-                                           image_format=args.format, size=size)
+                                           image_format=args.format, size=render_size)
             except (RuntimeError, OSError, KeyError, IndexError, ValueError) as error:
                 failed += 1
                 print(f"  [{position}/{len(todo)}] {slot.id}  FAILED: {error}")
                 continue
+            payload = crop_bleed(result.data, size) if args.bleed else result.data
             suffix = f"-{take + 1}" if args.takes > 1 else ""
-            target = ART_DIR / f"{slot.id}{suffix}{result.suffix}"
-            target.write_bytes(result.data)
+            target = out_dir / f"{slot.id}{suffix}{result.suffix}"
+            target.write_bytes(payload)
             elapsed = time.time() - began
             times.append(elapsed)
             made += 1
             remaining = (len(todo) - position) * (sum(times) / len(times))
             print(f"  [{position}/{len(todo)}] {slot.id}  {slot.register:<16} "
-                  f"{elapsed:>5.0f}s  {len(result.data)//1024:>4} KB  "
+                  f"{elapsed:>5.0f}s  {len(payload)//1024:>4} KB  "
                   f"eta {human(remaining)}")
             imagegen.log_generation({
                 "at": datetime.now(timezone.utc).isoformat(timespec="seconds"),
@@ -332,7 +384,8 @@ def cmd_run(args: argparse.Namespace) -> int:
                 "size": [args.width, args.height],
                 "seconds": round(elapsed, 1),
                 "usd": 0.0,
-                "path": str(target.relative_to(ROOT)),
+                "path": str(target.relative_to(ROOT)) if target.is_relative_to(ROOT)
+                        else str(target),
             })
 
     total = time.time() - started
@@ -363,6 +416,10 @@ def main() -> int:
         sub.add_argument("--to", dest="end", metavar="NNN", help="last page of a range")
         sub.add_argument("--register", action="append",
                          help="only panels in this register, e.g. creator")
+        sub.add_argument("--type", action="append",
+                         help="only panels of this image type; see design/panel-image-types.md")
+        sub.add_argument("--route", action="append",
+                         help="only panels needing this model capability, e.g. local")
         sub.add_argument("--limit", type=int, help="stop after this many panels")
         sub.add_argument("--provider", help="local model id; defaults to the fastest ready one")
         sub.add_argument("--force", action="store_true",
@@ -384,6 +441,11 @@ def main() -> int:
                      help="images per panel; more than one appends -1, -2 to the name")
     run.add_argument("--seed", type=int, default=DEFAULT_SEED)
     run.add_argument("--format", default=imagegen.DEFAULT_FORMAT, choices=tuple(imagegen.SUFFIXES))
+    run.add_argument("--bleed", type=float, default=0.0, metavar="FRACTION",
+                     help="render this much larger and crop the margin off, which removes "
+                          "drawn borders, torn edges and page numbers deterministically")
+    run.add_argument("--out-dir", type=Path,
+                     help="where to write; defaults to assets/art/panels")
     run.add_argument("--dry-run", action="store_true", help="print the plan and stop")
 
     args = parser.parse_args()

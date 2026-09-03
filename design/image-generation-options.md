@@ -440,6 +440,55 @@ and page numbers all live at the **margins**. Generating a few percent larger an
 fixed inset would remove them deterministically, with no detection required — the same trick
 as blanking, applied to the frame rather than a field. It costs pixels, not judgement.
 
+### The prohibition was removed, and it reverses the model choice
+
+**Decided 3 September 2026.** The book no longer forbids the model rendering readable
+text. Display strings in the page scripts are project-authored — `exact-text-permissions-audit.md`
+records that distributed pages paraphrase rather than quote, and only page 112 declares
+any `exact_strings`, both of them the project's own — so there was never a reuse question
+about drawing them. The prohibition was a production convention, and it was costing more
+than it bought.
+
+What replaced it:
+
+- The prompt now names **two text systems**. In-scene text — what a screen, card, or label
+  physically shows — is drawn by the model. Captions, dialogue balloons, and provenance
+  slates are not: `lettering.md` specifies faces, reading hierarchy, contrast, and a web
+  transcript that a generated approximation cannot satisfy, so those stay on the lettering
+  layer and the corners stay clear for them.
+- `imagegen.display_strings()` extracts the backticked literals from each panel's `Frame`
+  and `Action` and hands the model an explicit list to spell correctly. All **291** strings
+  across the book are captured, none wrongly filtered.
+- The third-party constraint is unchanged: no source typography, credentials, tokens, URLs,
+  commands, or exploit identifiers. Different constraint, different reason.
+- The `text` rubric line inverted. It gated on *absence* of readable text, which now scores
+  the wrong thing; it gates on the panel's own strings being legible and correctly spelled.
+
+**This reverses the recommendation at the top of this document.** Text rendering was listed
+as a liability, and the models that win text benchmarks were marked down for it. It is now a
+requirement, and the ranking follows the benchmark rather than opposing it.
+
+Measured on FLUX.2 [klein] 4B at four steps, against the 291 strings the book needs:
+
+| String length | Count | Share | Observed |
+| --- | ---: | ---: | --- |
+| 1–8 chars | 70 | 24% | correct — `INPUT` rendered exactly |
+| 9–15 | 97 | 33% | borderline |
+| 16–25 | 49 | 17% | approximate |
+| 26–40 | 43 | 15% | approximate, about one error per string |
+| 41+ | 32 | 11% | not attempted |
+
+The median string is 13 characters. Naming the exact words helped enormously — page 070's
+header went from `BLIISED OPNN—NOT IN REVIEW` to `OPENIAI ACCOUNT — NOT IN METR'S REVIEW`,
+one transposed letter in thirty-four — but a 4B model at four steps cannot spell reliably,
+and it still letters surfaces it was told to leave blank.
+
+So a local 16 GB pipeline can carry at most the quarter of the book whose strings are short.
+The models built for this are Qwen-Image, whose text accuracy is its stated purpose and
+which is Apache 2.0, and the hosted Gemini 3 Pro Image and GPT Image 2. Qwen-Image is 20B
+and wants 48 GB, which this machine does not have. Either the drafting machine grows, or
+text-bearing panels are rented; panels with no display strings can still be drawn locally.
+
 ### The settled plan
 
 Items 1, 4, and 5 are built; item 3 is proposed in
@@ -507,7 +556,7 @@ Score each candidate 1–5 per column in the run's `scores.tsv`, then run
 | --- | ---: | --- |
 | `ink` | 3 | Hand-inked contour, dry-brush abrasion, heavy blacks, paper grain |
 | `palette` | 2 | Stays inside [`palette.md`](palette.md); no unearned moss, claret, or amber |
-| `text` | 3 | No readable words, logos, code, or UI typography anywhere in frame |
+| `text` | 3 | The panel's own display strings are legible and correctly spelled, with no invented lettering anywhere else |
 | `geometry` | 2 | Racks, trays, rooms, and perspective survive a second look |
 | `continuity` | 3 | Repeats of the same prompt stay in one style and one place |
 | `control` | 2 | Responds to correction rather than re-rolling a different picture |
