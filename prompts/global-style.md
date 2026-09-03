@@ -4,12 +4,6 @@
 
 Mature independent science-fiction/crime comic with investigative-journalism discipline: gritty hand-inked brush and nib contours, heavy blacks, dry-brush abrasion, restrained halftone, dirty paper grain, realistic anatomy and perspective, practical industrial detail, and slightly imperfect hand-made registration.
 
-Use the canonical colors in [`design/palette.md`](../design/palette.md). Most images remain charcoal, paper, and desaturated infrastructure color. Moss appears only when shared-state communication or inheritance succeeds. Claret appears only at a known boundary crossing or harmful consequence. Amber marks a specific evidence gap or dispute.
-
-## Rendering target (compact)
-
-Mature independent science-fiction/crime comic drawn with investigative discipline: gritty hand-inked brush and nib contour, heavy blacks, dry-brush abrasion, restrained halftone, dirty paper grain, realistic anatomy and perspective, practical industrial detail, slightly imperfect hand-made registration.
-
 ## Composition
 
 - Render exactly one single panel that fills the whole image: one continuous scene,
@@ -41,15 +35,24 @@ Every light has a physical source: fluorescent tubes, monitor spill, rack indica
 
 ## Register modifiers
 
-- **Incident:** cold steel, deep black, sparse paper, no human-centered camera.
-- **Institutional:** overlit neutral rooms, gray-green procedure, distributed responsibility, no villain shot.
-- **Creator:** nicotine-beige practical light, intimate but unglamorous desk scale, broken reconstruction borders.
-- **Dossier:** paper field, strict grid, source-summary cards, timestamps, redactions, and visible uncertainty marks.
-- **Invented future:** highly desaturated, organization-neutral, no recognizable product or incident palette signature.
+Each register names the place its panels happen in, not a mood. The geometry
+here is the canonical environment set in
+[`design/visual-continuity.md`](../design/visual-continuity.md); keep the two in
+step when either changes.
+
+- **Incident:** A windowless facility interior built from concrete slab floor, matte dark equipment racks, overhead black cable trays, rack endcaps with small neutral number plates, and a service-cart silhouette. Deep blacks, cold steel, sparse paper, weak reflected light from rack indicators. No people. These are the materials the panel is made of; the panel's own direction decides the framing and how close the camera stands.
+- **Institutional:** An ordinary working room under flat overhead fluorescent light: shallow workstation rows, modest wall displays, a long neutral table, acoustic wall panels, a partly erased whiteboard, binders and plain laminate. Overlit, gray-green, procedural. No world map, no flags or seals, no head-of-table hero composition, no villain lighting.
+- **Creator:** One ordinary suburban home office at night: a wooden desk against a dark wall, two external monitors with a laptop centred below, a desk lamp camera-left, a drink camera-right, a printer and paper stack behind the chair, a doorway deep in the background. Warm nicotine-beige lamplight, domestic and unglamorous, at desk scale. Not a server room, not a control room, not a factory: no racks, no cable trays, no industrial machinery, no banks of monitors.
+- **Dossier:** A paper field seen nearly flat-on: printed pages, source-summary cards, timestamp gutters, redaction bars and uncertainty marks laid out in a strict grid on a neutral surface. Documentation gray on handled paper. Almost no room around it and very little scene depth.
+- **Invented future:** A plain, evenly lit interior with nothing identifying in it: neutral surfaces, generic screens, unbranded fittings. No logo, seal, wordmark, date, geography or recognizable architecture, and none of the incident facility's rack-and-cable-tray geometry.
 
 ## Output discipline
 
 Render the panel's own project-authored display strings accurately. Everything else stays out: no third-party wording, logos, credentials, QR codes, code, commands, paths, URLs, or source screenshots, and never source typography reproduced closely enough to imply quotation. Captions, dialogue, and provenance are separate controlled production layers, so do not draw them. Any glyph the panel did not ask for is a defect.
+
+## Palette rules
+
+Most images remain charcoal, paper, and desaturated infrastructure color. Moss appears only when shared-state communication or inheritance succeeds. Claret appears only at a known boundary crossing or harmful consequence. Amber marks a specific evidence gap or dispute.
 
 ## Palette (compact)
 

@@ -449,13 +449,17 @@ def prompt_sections(page: str, panel: int, register: str) -> list[Section]:
     Ranking, and why: the panel's own direction and its display strings are the
     only parts that differ between panels, so they outrank everything generic.
     The register clause is twenty tokens that decide which world the panel is
-    in. The rendering target carries the ink identity, without which the book
-    stops looking like itself. Composition comes next because it holds the
-    rules local output actually broke — drawn borders, panel grids, caption
-    boxes, personified agents — then the palette, whose absence shows as colour
-    outside the book's range. Light and material is atmosphere, and output
-    discipline mostly restates what compact composition already says, so both
-    give way first.
+    in, and now names the physical place rather than a mood. The rendering
+    target carries the ink identity, without which the book stops looking like
+    itself. Composition follows, holding the rules local output actually broke
+    — drawn borders, panel grids, caption boxes, personified agents — then the
+    palette, whose absence shows as colour outside the book's range. Light and
+    material is atmosphere, and output discipline mostly restates what compact
+    composition already says, so both give way first.
+
+    At 512 tokens all of that fits: the first five sections reach every panel
+    and composition reaches all but two, which are the book's two longest
+    directions and state their own composition rules inline.
 
     Sections offering a `(compact)` heading fall back to it rather than dropping
     out entirely, which is how composition survives a 512-token budget at all.
@@ -474,7 +478,8 @@ def prompt_sections(page: str, panel: int, register: str) -> list[Section]:
         Section("exact text", exact_text_clause(page, panel), 2),
         block("Composition", 5),
         block("Light and material", 8),
-        Section("palette", f"Palette, and nothing outside it: {palette_clause()}.", 6,
+        Section("palette", f"Palette, and nothing outside it: {palette_clause()}. "
+                f"{_digest(style, 'Palette rules')}", 6,
                 _digest(style, "Palette (compact)")),
         block("Output discipline", 9),
         Section("avoid", f"Avoid entirely: {negative_prompt()}", 7,
@@ -556,9 +561,25 @@ def negative_prompt() -> str:
 
 
 def register_clause(register: str) -> str:
-    modifiers = _digest(PROMPT_DIR / "global-style.md", "Register modifiers")
-    match = re.search(rf"{re.escape(register)}:\s*([^.]+\.)", modifiers, re.I)
-    return match.group(1).strip() if match else ""
+    """One register's own bullet, taken whole.
+
+    Read from the raw bullets rather than the flattened digest, and no longer
+    cut at the first full stop: a register names the physical place its panels
+    happen in, which takes more than one sentence. Naming the place is the part
+    that works — an adjective like "nicotine-beige practical light" loses to
+    the rendering target's "practical industrial detail" every time, and the
+    creator's home office came out as a factory control room until the room
+    itself was described.
+    """
+    source = (PROMPT_DIR / "global-style.md").read_text(encoding="utf-8")
+    section = re.search(r"^## Register modifiers\s*\n+(.*?)(?=^## |\Z)", source, re.M | re.S)
+    if not section:
+        return ""
+    for line in section.group(1).splitlines():
+        bullet = re.match(r"^-\s*\*\*(.+?):\*\*\s*(.+)$", line.strip())
+        if bullet and bullet.group(1).strip().lower() == register.strip().lower():
+            return re.sub(r"\s+", " ", bullet.group(2).replace("`", "")).strip()
+    return ""
 
 
 def display_strings(page: str, panel: int) -> list[str]:
