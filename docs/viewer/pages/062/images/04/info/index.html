@@ -3,16 +3,33 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="color-scheme" content="dark">
+  <meta name="color-scheme" content="dark light">
   <meta name="description" content="Validation viewer for About image 062-04 in zz-no-consumer.">
   <title>About image 062-04 — Viewer — zz-no-consumer</title>
   <link rel="stylesheet" href="../../../../../viewer.css">
+  <script>(function(){
+var root=document.documentElement;
+var allowed={theme:['dark','light'],nav:['on','off'],full:['off','on'],mode:['both','image','text']};
+var chosen={theme:'dark',nav:'on',full:'off',mode:'both'};
+(location.hash||'').replace(/^#/,'').split('&').forEach(function(pair){
+var parts=pair.split('=');
+var key=decodeURIComponent(parts[0]||'');
+var value=decodeURIComponent(parts[1]||'');
+if(allowed[key]&&allowed[key].indexOf(value)>-1){chosen[key]=value;}
+});
+Object.keys(chosen).forEach(function(key){root.setAttribute('data-'+key,chosen[key]);});
+})();</script>
 </head>
 <body data-entity-id="page-062-image-04-info" data-entity-kind="image-info"
-      data-nav-up="../" data-nav-down="../../../info/"
-      data-nav-left="../../03/info/" data-nav-right="../../05/info/"
-      data-nav-in="../" data-nav-out="../../../info/"
-      data-nav-home="../../../../../">
+      data-nav-up="../"
+      data-nav-down="../../../info/"
+      data-nav-left="../../03/info/"
+      data-nav-right="../../05/info/"
+      data-nav-in="../"
+      data-nav-out="../../../info/"
+      data-nav-home="../../../../../"
+      data-nav-next="../../05/"
+      data-nav-previous="../">
   <a class="skip-link" href="#content">Skip to content</a>
   <header class="masthead">
     <a class="brand" href="../../../../../" aria-label="Viewer home">
@@ -23,11 +40,13 @@
       <button class="utility" type="button" data-bookmark aria-pressed="false">☆ <span>Bookmark</span></button>
       <button class="utility" type="button" data-copy-link>↗ <span>Copy link</span></button>
       <button class="utility utility--keys" type="button" data-shortcuts>⌨ <span>Keys</span></button>
+      <button class="utility" type="button" data-settings-toggle aria-expanded="false"
+              aria-controls="view-settings">⚙ <span>Settings</span></button>
       <a class="utility" href="../../../../../../">Project site</a>
     </div>
   </header>
   <main id="content">
-    <div class="view-heading">
+    <div class="view-heading" data-content="text">
       <p class="eyebrow">Page 062 / image information</p>
       <h1>About image 062-04</h1>
     </div>
@@ -47,15 +66,30 @@
       <a class="wayfinder__item wayfinder__item--out" href="../../../info/" data-direction="out" aria-label="Out: Page information"><span class="wayfinder__glyph" aria-hidden="true">−</span><span class="wayfinder__text"><b>Out</b><small>Page information</small></span><kbd>Esc</kbd></a>
       <a class="wayfinder__item wayfinder__item--down" href="../../../info/" data-direction="down" aria-label="Down: Page information"><span class="wayfinder__glyph" aria-hidden="true">↓</span><span class="wayfinder__text"><b>Down</b><small>Page information</small></span><kbd>↓</kbd></a>
       <a class="wayfinder__item wayfinder__item--home" href="../../../../../" data-direction="home" aria-label="Home: Viewer home"><span class="wayfinder__glyph" aria-hidden="true">⌂</span><span class="wayfinder__text"><b>Home</b><small>Viewer home</small></span><kbd>H</kbd></a>
+      <a class="wayfinder__item wayfinder__item--next" href="../../05/" data-direction="next" aria-label="Next: 062 · image 05"><span class="wayfinder__glyph" aria-hidden="true">▶</span><span class="wayfinder__text"><b>Next</b><small>062 · image 05</small></span><kbd>Space</kbd></a>
     </div>
   </nav>
+  <button class="settings-fab" type="button" data-settings-toggle aria-expanded="false" aria-controls="view-settings" aria-label="View settings">⚙</button>
+  <section class="settings" id="view-settings" data-settings-panel hidden aria-label="View settings">
+    <div class="settings__head"><p class="eyebrow">View settings</p><button class="settings__close" type="button" data-settings-close aria-label="Close view settings">×</button></div>
+    <fieldset class="settings__group"><legend>Screen</legend><div class="settings__options" role="group" aria-label="Screen"><button class="settings__option" type="button" data-setting="full" data-value="off" aria-pressed="false">Windowed</button><button class="settings__option" type="button" data-setting="full" data-value="on" aria-pressed="false">Full screen</button></div></fieldset><fieldset class="settings__group"><legend>Navigation icons</legend><div class="settings__options" role="group" aria-label="Navigation icons"><button class="settings__option" type="button" data-setting="nav" data-value="on" aria-pressed="false">Show</button><button class="settings__option" type="button" data-setting="nav" data-value="off" aria-pressed="false">Hide</button></div></fieldset><fieldset class="settings__group"><legend>Appearance</legend><div class="settings__options" role="group" aria-label="Appearance"><button class="settings__option" type="button" data-setting="theme" data-value="dark" aria-pressed="false">Dark</button><button class="settings__option" type="button" data-setting="theme" data-value="light" aria-pressed="false">Light</button></div></fieldset><fieldset class="settings__group"><legend>Content</legend><div class="settings__options" role="group" aria-label="Content"><button class="settings__option" type="button" data-setting="mode" data-value="both" aria-pressed="false">Image + text</button><button class="settings__option" type="button" data-setting="mode" data-value="image" aria-pressed="false">Image only</button><button class="settings__option" type="button" data-setting="mode" data-value="text" aria-pressed="false">Text only</button></div></fieldset>
+    <p class="settings__note">These settings ride along in the page address, so a copied link reopens the same view. Press <kbd>S</kbd> to reopen this panel.</p>
+  </section>
   <dialog class="shortcut-dialog" data-shortcut-dialog>
     <button class="shortcut-dialog__close" type="button" data-close-dialog aria-label="Close">×</button>
     <p class="eyebrow">Keyboard map</p>
     <h2>Move without losing your place.</h2>
     <dl><div><dt>← → ↑ ↓</dt><dd>Move left, right, up, or down</dd></div>
     <div><dt>Enter</dt><dd>Move in</dd></div><div><dt>Esc</dt><dd>Move out</dd></div>
-    <div><dt>H</dt><dd>Viewer home</dd></div><div><dt>?</dt><dd>Show this map</dd></div></dl>
+    <div><dt>H</dt><dd>Viewer home</dd></div>
+    <div><dt>Space</dt><dd>Read on: scroll this view, then the next node</dd></div>
+    <div><dt>Shift + Space</dt><dd>Back up: scroll this view, then the previous node</dd></div>
+    <div><dt>S</dt><dd>Open view settings</dd></div>
+    <div><dt>F</dt><dd>Full screen on or off</dd></div>
+    <div><dt>N</dt><dd>Navigation icons on or off</dd></div>
+    <div><dt>D</dt><dd>Dark or light appearance</dd></div>
+    <div><dt>M</dt><dd>Image + text, image only, or text only</dd></div>
+    <div><dt>?</dt><dd>Show this map</dd></div></dl>
   </dialog>
   <div class="toast" role="status" aria-live="polite" data-toast></div>
   <script src="../../../../../viewer.js" defer></script>

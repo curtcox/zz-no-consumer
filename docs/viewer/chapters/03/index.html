@@ -3,16 +3,33 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="color-scheme" content="dark">
+  <meta name="color-scheme" content="dark light">
   <meta name="description" content="Validation viewer for Control Keeps Solving Problems in zz-no-consumer.">
   <title>Control Keeps Solving Problems — Viewer — zz-no-consumer</title>
   <link rel="stylesheet" href="../../viewer.css">
+  <script>(function(){
+var root=document.documentElement;
+var allowed={theme:['dark','light'],nav:['on','off'],full:['off','on'],mode:['both','image','text']};
+var chosen={theme:'dark',nav:'on',full:'off',mode:'both'};
+(location.hash||'').replace(/^#/,'').split('&').forEach(function(pair){
+var parts=pair.split('=');
+var key=decodeURIComponent(parts[0]||'');
+var value=decodeURIComponent(parts[1]||'');
+if(allowed[key]&&allowed[key].indexOf(value)>-1){chosen[key]=value;}
+});
+Object.keys(chosen).forEach(function(key){root.setAttribute('data-'+key,chosen[key]);});
+})();</script>
 </head>
 <body data-entity-id="chapter-03" data-entity-kind="chapter"
-      data-nav-up="../../" data-nav-down="info/"
-      data-nav-left="../02/" data-nav-right="../04/"
-      data-nav-in="../../pages/041/" data-nav-out="../../"
-      data-nav-home="../../">
+      data-nav-up="../../"
+      data-nav-down="info/"
+      data-nav-left="../02/"
+      data-nav-right="../04/"
+      data-nav-in="../../pages/041/"
+      data-nav-out="../../"
+      data-nav-home="../../"
+      data-nav-next="info/"
+      data-nav-previous="../../pages/040/images/05/info/">
   <a class="skip-link" href="#content">Skip to content</a>
   <header class="masthead">
     <a class="brand" href="../../" aria-label="Viewer home">
@@ -23,11 +40,13 @@
       <button class="utility" type="button" data-bookmark aria-pressed="false">☆ <span>Bookmark</span></button>
       <button class="utility" type="button" data-copy-link>↗ <span>Copy link</span></button>
       <button class="utility utility--keys" type="button" data-shortcuts>⌨ <span>Keys</span></button>
+      <button class="utility" type="button" data-settings-toggle aria-expanded="false"
+              aria-controls="view-settings">⚙ <span>Settings</span></button>
       <a class="utility" href="../../../">Project site</a>
     </div>
   </header>
   <main id="content">
-    <div class="view-heading">
+    <div class="view-heading" data-content="text">
       <p class="eyebrow">Chapter 03 / pages 041–056</p>
       <h1>Control Keeps Solving Problems</h1>
     </div>
@@ -35,53 +54,53 @@
         <section class="chapter-intro"><div><p class="kicker">Chapter 03</p><p>16 pages · 80 image slots · artwork pending</p></div>
           <a class="text-action" href="info/">Read chapter information <span>↓</span></a></section>
         <section class="page-grid" aria-label="Pages in Control Keeps Solving Problems"><a class="page-card" href="../../pages/041/">
-                  <div class="page-art page-art--compact" data-panels="5"><span class="page-art__number">041</span><span class="placeholder-panel placeholder-panel--1" aria-hidden="true"></span><span class="placeholder-panel placeholder-panel--2" aria-hidden="true"></span><span class="placeholder-panel placeholder-panel--3" aria-hidden="true"></span><span class="placeholder-panel placeholder-panel--4" aria-hidden="true"></span><span class="placeholder-panel placeholder-panel--5" aria-hidden="true"></span><span class="page-art__status">review</span></div>
-                  <span class="page-card__copy"><b>041 · Credential Search</b><small>Sequence 15 · review</small></span>
+                  <div class="page-art page-art--compact" data-content="image" data-panels="5"><span class="page-art__number">041</span><span class="placeholder-panel placeholder-panel--1" aria-hidden="true"></span><span class="placeholder-panel placeholder-panel--2" aria-hidden="true"></span><span class="placeholder-panel placeholder-panel--3" aria-hidden="true"></span><span class="placeholder-panel placeholder-panel--4" aria-hidden="true"></span><span class="placeholder-panel placeholder-panel--5" aria-hidden="true"></span><span class="page-art__status">review</span></div>
+                  <span class="page-card__copy" data-content="text"><b>041 · Credential Search</b><small>Sequence 15 · review</small></span>
                 </a><a class="page-card" href="../../pages/042/">
-                  <div class="page-art page-art--compact" data-panels="5"><span class="page-art__number">042</span><span class="placeholder-panel placeholder-panel--1" aria-hidden="true"></span><span class="placeholder-panel placeholder-panel--2" aria-hidden="true"></span><span class="placeholder-panel placeholder-panel--3" aria-hidden="true"></span><span class="placeholder-panel placeholder-panel--4" aria-hidden="true"></span><span class="placeholder-panel placeholder-panel--5" aria-hidden="true"></span><span class="page-art__status">review</span></div>
-                  <span class="page-card__copy"><b>042 · Launchpad</b><small>Sequence 15 · review</small></span>
+                  <div class="page-art page-art--compact" data-content="image" data-panels="5"><span class="page-art__number">042</span><span class="placeholder-panel placeholder-panel--1" aria-hidden="true"></span><span class="placeholder-panel placeholder-panel--2" aria-hidden="true"></span><span class="placeholder-panel placeholder-panel--3" aria-hidden="true"></span><span class="placeholder-panel placeholder-panel--4" aria-hidden="true"></span><span class="placeholder-panel placeholder-panel--5" aria-hidden="true"></span><span class="page-art__status">review</span></div>
+                  <span class="page-card__copy" data-content="text"><b>042 · Launchpad</b><small>Sequence 15 · review</small></span>
                 </a><a class="page-card" href="../../pages/043/">
-                  <div class="page-art page-art--compact" data-panels="5"><span class="page-art__number">043</span><span class="placeholder-panel placeholder-panel--1" aria-hidden="true"></span><span class="placeholder-panel placeholder-panel--2" aria-hidden="true"></span><span class="placeholder-panel placeholder-panel--3" aria-hidden="true"></span><span class="placeholder-panel placeholder-panel--4" aria-hidden="true"></span><span class="placeholder-panel placeholder-panel--5" aria-hidden="true"></span><span class="page-art__status">review</span></div>
-                  <span class="page-card__copy"><b>043 · External Base</b><small>Sequence 15 · review</small></span>
+                  <div class="page-art page-art--compact" data-content="image" data-panels="5"><span class="page-art__number">043</span><span class="placeholder-panel placeholder-panel--1" aria-hidden="true"></span><span class="placeholder-panel placeholder-panel--2" aria-hidden="true"></span><span class="placeholder-panel placeholder-panel--3" aria-hidden="true"></span><span class="placeholder-panel placeholder-panel--4" aria-hidden="true"></span><span class="placeholder-panel placeholder-panel--5" aria-hidden="true"></span><span class="page-art__status">review</span></div>
+                  <span class="page-card__copy" data-content="text"><b>043 · External Base</b><small>Sequence 15 · review</small></span>
                 </a><a class="page-card" href="../../pages/044/">
-                  <div class="page-art page-art--compact" data-panels="5"><span class="page-art__number">044</span><span class="placeholder-panel placeholder-panel--1" aria-hidden="true"></span><span class="placeholder-panel placeholder-panel--2" aria-hidden="true"></span><span class="placeholder-panel placeholder-panel--3" aria-hidden="true"></span><span class="placeholder-panel placeholder-panel--4" aria-hidden="true"></span><span class="placeholder-panel placeholder-panel--5" aria-hidden="true"></span><span class="page-art__status">review</span></div>
-                  <span class="page-card__copy"><b>044 · Two and Fourteen</b><small>Sequence 16 · review</small></span>
+                  <div class="page-art page-art--compact" data-content="image" data-panels="5"><span class="page-art__number">044</span><span class="placeholder-panel placeholder-panel--1" aria-hidden="true"></span><span class="placeholder-panel placeholder-panel--2" aria-hidden="true"></span><span class="placeholder-panel placeholder-panel--3" aria-hidden="true"></span><span class="placeholder-panel placeholder-panel--4" aria-hidden="true"></span><span class="placeholder-panel placeholder-panel--5" aria-hidden="true"></span><span class="page-art__status">review</span></div>
+                  <span class="page-card__copy" data-content="text"><b>044 · Two and Fourteen</b><small>Sequence 16 · review</small></span>
                 </a><a class="page-card" href="../../pages/045/">
-                  <div class="page-art page-art--compact" data-panels="5"><span class="page-art__number">045</span><span class="placeholder-panel placeholder-panel--1" aria-hidden="true"></span><span class="placeholder-panel placeholder-panel--2" aria-hidden="true"></span><span class="placeholder-panel placeholder-panel--3" aria-hidden="true"></span><span class="placeholder-panel placeholder-panel--4" aria-hidden="true"></span><span class="placeholder-panel placeholder-panel--5" aria-hidden="true"></span><span class="page-art__status">review</span></div>
-                  <span class="page-card__copy"><b>045 · File Disclosure</b><small>Sequence 16 · review</small></span>
+                  <div class="page-art page-art--compact" data-content="image" data-panels="5"><span class="page-art__number">045</span><span class="placeholder-panel placeholder-panel--1" aria-hidden="true"></span><span class="placeholder-panel placeholder-panel--2" aria-hidden="true"></span><span class="placeholder-panel placeholder-panel--3" aria-hidden="true"></span><span class="placeholder-panel placeholder-panel--4" aria-hidden="true"></span><span class="placeholder-panel placeholder-panel--5" aria-hidden="true"></span><span class="page-art__status">review</span></div>
+                  <span class="page-card__copy" data-content="text"><b>045 · File Disclosure</b><small>Sequence 16 · review</small></span>
                 </a><a class="page-card" href="../../pages/046/">
-                  <div class="page-art page-art--compact" data-panels="5"><span class="page-art__number">046</span><span class="placeholder-panel placeholder-panel--1" aria-hidden="true"></span><span class="placeholder-panel placeholder-panel--2" aria-hidden="true"></span><span class="placeholder-panel placeholder-panel--3" aria-hidden="true"></span><span class="placeholder-panel placeholder-panel--4" aria-hidden="true"></span><span class="placeholder-panel placeholder-panel--5" aria-hidden="true"></span><span class="page-art__status">review</span></div>
-                  <span class="page-card__copy"><b>046 · Worker Execution</b><small>Sequence 16 · review</small></span>
+                  <div class="page-art page-art--compact" data-content="image" data-panels="5"><span class="page-art__number">046</span><span class="placeholder-panel placeholder-panel--1" aria-hidden="true"></span><span class="placeholder-panel placeholder-panel--2" aria-hidden="true"></span><span class="placeholder-panel placeholder-panel--3" aria-hidden="true"></span><span class="placeholder-panel placeholder-panel--4" aria-hidden="true"></span><span class="placeholder-panel placeholder-panel--5" aria-hidden="true"></span><span class="page-art__status">review</span></div>
+                  <span class="page-card__copy" data-content="text"><b>046 · Worker Execution</b><small>Sequence 16 · review</small></span>
                 </a><a class="page-card" href="../../pages/047/">
-                  <div class="page-art page-art--compact" data-panels="5"><span class="page-art__number">047</span><span class="placeholder-panel placeholder-panel--1" aria-hidden="true"></span><span class="placeholder-panel placeholder-panel--2" aria-hidden="true"></span><span class="placeholder-panel placeholder-panel--3" aria-hidden="true"></span><span class="placeholder-panel placeholder-panel--4" aria-hidden="true"></span><span class="placeholder-panel placeholder-panel--5" aria-hidden="true"></span><span class="page-art__status">review</span></div>
-                  <span class="page-card__copy"><b>047 · Peer Approval</b><small>Sequence 16 · review</small></span>
+                  <div class="page-art page-art--compact" data-content="image" data-panels="5"><span class="page-art__number">047</span><span class="placeholder-panel placeholder-panel--1" aria-hidden="true"></span><span class="placeholder-panel placeholder-panel--2" aria-hidden="true"></span><span class="placeholder-panel placeholder-panel--3" aria-hidden="true"></span><span class="placeholder-panel placeholder-panel--4" aria-hidden="true"></span><span class="placeholder-panel placeholder-panel--5" aria-hidden="true"></span><span class="page-art__status">review</span></div>
+                  <span class="page-card__copy" data-content="text"><b>047 · Peer Approval</b><small>Sequence 16 · review</small></span>
                 </a><a class="page-card" href="../../pages/048/">
-                  <div class="page-art page-art--compact" data-panels="5"><span class="page-art__number">048</span><span class="placeholder-panel placeholder-panel--1" aria-hidden="true"></span><span class="placeholder-panel placeholder-panel--2" aria-hidden="true"></span><span class="placeholder-panel placeholder-panel--3" aria-hidden="true"></span><span class="placeholder-panel placeholder-panel--4" aria-hidden="true"></span><span class="placeholder-panel placeholder-panel--5" aria-hidden="true"></span><span class="page-art__status">review</span></div>
-                  <span class="page-card__copy"><b>048 · Inside the Noise</b><small>Sequence 17 · review</small></span>
+                  <div class="page-art page-art--compact" data-content="image" data-panels="5"><span class="page-art__number">048</span><span class="placeholder-panel placeholder-panel--1" aria-hidden="true"></span><span class="placeholder-panel placeholder-panel--2" aria-hidden="true"></span><span class="placeholder-panel placeholder-panel--3" aria-hidden="true"></span><span class="placeholder-panel placeholder-panel--4" aria-hidden="true"></span><span class="placeholder-panel placeholder-panel--5" aria-hidden="true"></span><span class="page-art__status">review</span></div>
+                  <span class="page-card__copy" data-content="text"><b>048 · Inside the Noise</b><small>Sequence 17 · review</small></span>
                 </a><a class="page-card" href="../../pages/049/">
-                  <div class="page-art page-art--compact" data-panels="5"><span class="page-art__number">049</span><span class="placeholder-panel placeholder-panel--1" aria-hidden="true"></span><span class="placeholder-panel placeholder-panel--2" aria-hidden="true"></span><span class="placeholder-panel placeholder-panel--3" aria-hidden="true"></span><span class="placeholder-panel placeholder-panel--4" aria-hidden="true"></span><span class="placeholder-panel placeholder-panel--5" aria-hidden="true"></span><span class="page-art__status">review</span></div>
-                  <span class="page-card__copy"><b>049 · Rebuilding Access</b><small>Sequence 17 · review</small></span>
+                  <div class="page-art page-art--compact" data-content="image" data-panels="5"><span class="page-art__number">049</span><span class="placeholder-panel placeholder-panel--1" aria-hidden="true"></span><span class="placeholder-panel placeholder-panel--2" aria-hidden="true"></span><span class="placeholder-panel placeholder-panel--3" aria-hidden="true"></span><span class="placeholder-panel placeholder-panel--4" aria-hidden="true"></span><span class="placeholder-panel placeholder-panel--5" aria-hidden="true"></span><span class="page-art__status">review</span></div>
+                  <span class="page-card__copy" data-content="text"><b>049 · Rebuilding Access</b><small>Sequence 17 · review</small></span>
                 </a><a class="page-card" href="../../pages/050/">
-                  <div class="page-art page-art--compact" data-panels="5"><span class="page-art__number">050</span><span class="placeholder-panel placeholder-panel--1" aria-hidden="true"></span><span class="placeholder-panel placeholder-panel--2" aria-hidden="true"></span><span class="placeholder-panel placeholder-panel--3" aria-hidden="true"></span><span class="placeholder-panel placeholder-panel--4" aria-hidden="true"></span><span class="placeholder-panel placeholder-panel--5" aria-hidden="true"></span><span class="page-art__status">review</span></div>
-                  <span class="page-card__copy"><b>050 · Cluster Reach</b><small>Sequence 17 · review</small></span>
+                  <div class="page-art page-art--compact" data-content="image" data-panels="5"><span class="page-art__number">050</span><span class="placeholder-panel placeholder-panel--1" aria-hidden="true"></span><span class="placeholder-panel placeholder-panel--2" aria-hidden="true"></span><span class="placeholder-panel placeholder-panel--3" aria-hidden="true"></span><span class="placeholder-panel placeholder-panel--4" aria-hidden="true"></span><span class="placeholder-panel placeholder-panel--5" aria-hidden="true"></span><span class="page-art__status">review</span></div>
+                  <span class="page-card__copy" data-content="text"><b>050 · Cluster Reach</b><small>Sequence 17 · review</small></span>
                 </a><a class="page-card" href="../../pages/051/">
-                  <div class="page-art page-art--compact" data-panels="5"><span class="page-art__number">051</span><span class="placeholder-panel placeholder-panel--1" aria-hidden="true"></span><span class="placeholder-panel placeholder-panel--2" aria-hidden="true"></span><span class="placeholder-panel placeholder-panel--3" aria-hidden="true"></span><span class="placeholder-panel placeholder-panel--4" aria-hidden="true"></span><span class="placeholder-panel placeholder-panel--5" aria-hidden="true"></span><span class="page-art__status">review</span></div>
-                  <span class="page-card__copy"><b>051 · Bounded Impact</b><small>Sequence 17 · review</small></span>
+                  <div class="page-art page-art--compact" data-content="image" data-panels="5"><span class="page-art__number">051</span><span class="placeholder-panel placeholder-panel--1" aria-hidden="true"></span><span class="placeholder-panel placeholder-panel--2" aria-hidden="true"></span><span class="placeholder-panel placeholder-panel--3" aria-hidden="true"></span><span class="placeholder-panel placeholder-panel--4" aria-hidden="true"></span><span class="placeholder-panel placeholder-panel--5" aria-hidden="true"></span><span class="page-art__status">review</span></div>
+                  <span class="page-card__copy" data-content="text"><b>051 · Bounded Impact</b><small>Sequence 17 · review</small></span>
                 </a><a class="page-card" href="../../pages/052/">
-                  <div class="page-art page-art--compact" data-panels="5"><span class="page-art__number">052</span><span class="placeholder-panel placeholder-panel--1" aria-hidden="true"></span><span class="placeholder-panel placeholder-panel--2" aria-hidden="true"></span><span class="placeholder-panel placeholder-panel--3" aria-hidden="true"></span><span class="placeholder-panel placeholder-panel--4" aria-hidden="true"></span><span class="placeholder-panel placeholder-panel--5" aria-hidden="true"></span><span class="page-art__status">review</span></div>
-                  <span class="page-card__copy"><b>052 · One Step at a Time</b><small>Sequence 18 · review</small></span>
+                  <div class="page-art page-art--compact" data-content="image" data-panels="5"><span class="page-art__number">052</span><span class="placeholder-panel placeholder-panel--1" aria-hidden="true"></span><span class="placeholder-panel placeholder-panel--2" aria-hidden="true"></span><span class="placeholder-panel placeholder-panel--3" aria-hidden="true"></span><span class="placeholder-panel placeholder-panel--4" aria-hidden="true"></span><span class="placeholder-panel placeholder-panel--5" aria-hidden="true"></span><span class="page-art__status">review</span></div>
+                  <span class="page-card__copy" data-content="text"><b>052 · One Step at a Time</b><small>Sequence 18 · review</small></span>
                 </a><a class="page-card" href="../../pages/053/">
-                  <div class="page-art page-art--compact" data-panels="5"><span class="page-art__number">053</span><span class="placeholder-panel placeholder-panel--1" aria-hidden="true"></span><span class="placeholder-panel placeholder-panel--2" aria-hidden="true"></span><span class="placeholder-panel placeholder-panel--3" aria-hidden="true"></span><span class="placeholder-panel placeholder-panel--4" aria-hidden="true"></span><span class="placeholder-panel placeholder-panel--5" aria-hidden="true"></span><span class="page-art__status">review</span></div>
-                  <span class="page-card__copy"><b>053 · Reasons to Continue</b><small>Sequence 18 · review</small></span>
+                  <div class="page-art page-art--compact" data-content="image" data-panels="5"><span class="page-art__number">053</span><span class="placeholder-panel placeholder-panel--1" aria-hidden="true"></span><span class="placeholder-panel placeholder-panel--2" aria-hidden="true"></span><span class="placeholder-panel placeholder-panel--3" aria-hidden="true"></span><span class="placeholder-panel placeholder-panel--4" aria-hidden="true"></span><span class="placeholder-panel placeholder-panel--5" aria-hidden="true"></span><span class="page-art__status">review</span></div>
+                  <span class="page-card__copy" data-content="text"><b>053 · Reasons to Continue</b><small>Sequence 18 · review</small></span>
                 </a><a class="page-card" href="../../pages/054/">
-                  <div class="page-art page-art--compact" data-panels="5"><span class="page-art__number">054</span><span class="placeholder-panel placeholder-panel--1" aria-hidden="true"></span><span class="placeholder-panel placeholder-panel--2" aria-hidden="true"></span><span class="placeholder-panel placeholder-panel--3" aria-hidden="true"></span><span class="placeholder-panel placeholder-panel--4" aria-hidden="true"></span><span class="placeholder-panel placeholder-panel--5" aria-hidden="true"></span><span class="page-art__status">review</span></div>
-                  <span class="page-card__copy"><b>054 · The Rhyme</b><small>Sequence 18 · review</small></span>
+                  <div class="page-art page-art--compact" data-content="image" data-panels="5"><span class="page-art__number">054</span><span class="placeholder-panel placeholder-panel--1" aria-hidden="true"></span><span class="placeholder-panel placeholder-panel--2" aria-hidden="true"></span><span class="placeholder-panel placeholder-panel--3" aria-hidden="true"></span><span class="placeholder-panel placeholder-panel--4" aria-hidden="true"></span><span class="placeholder-panel placeholder-panel--5" aria-hidden="true"></span><span class="page-art__status">review</span></div>
+                  <span class="page-card__copy" data-content="text"><b>054 · The Rhyme</b><small>Sequence 18 · review</small></span>
                 </a><a class="page-card" href="../../pages/055/">
-                  <div class="page-art page-art--compact" data-panels="5"><span class="page-art__number">055</span><span class="placeholder-panel placeholder-panel--1" aria-hidden="true"></span><span class="placeholder-panel placeholder-panel--2" aria-hidden="true"></span><span class="placeholder-panel placeholder-panel--3" aria-hidden="true"></span><span class="placeholder-panel placeholder-panel--4" aria-hidden="true"></span><span class="placeholder-panel placeholder-panel--5" aria-hidden="true"></span><span class="page-art__status">review</span></div>
-                  <span class="page-card__copy"><b>055 · Correlated</b><small>Sequence 19 · review</small></span>
+                  <div class="page-art page-art--compact" data-content="image" data-panels="5"><span class="page-art__number">055</span><span class="placeholder-panel placeholder-panel--1" aria-hidden="true"></span><span class="placeholder-panel placeholder-panel--2" aria-hidden="true"></span><span class="placeholder-panel placeholder-panel--3" aria-hidden="true"></span><span class="placeholder-panel placeholder-panel--4" aria-hidden="true"></span><span class="placeholder-panel placeholder-panel--5" aria-hidden="true"></span><span class="page-art__status">review</span></div>
+                  <span class="page-card__copy" data-content="text"><b>055 · Correlated</b><small>Sequence 19 · review</small></span>
                 </a><a class="page-card" href="../../pages/056/">
-                  <div class="page-art page-art--compact" data-panels="5"><span class="page-art__number">056</span><span class="placeholder-panel placeholder-panel--1" aria-hidden="true"></span><span class="placeholder-panel placeholder-panel--2" aria-hidden="true"></span><span class="placeholder-panel placeholder-panel--3" aria-hidden="true"></span><span class="placeholder-panel placeholder-panel--4" aria-hidden="true"></span><span class="placeholder-panel placeholder-panel--5" aria-hidden="true"></span><span class="page-art__status">review</span></div>
-                  <span class="page-card__copy"><b>056 · Not Paged</b><small>Sequence 19 · review</small></span>
+                  <div class="page-art page-art--compact" data-content="image" data-panels="5"><span class="page-art__number">056</span><span class="placeholder-panel placeholder-panel--1" aria-hidden="true"></span><span class="placeholder-panel placeholder-panel--2" aria-hidden="true"></span><span class="placeholder-panel placeholder-panel--3" aria-hidden="true"></span><span class="placeholder-panel placeholder-panel--4" aria-hidden="true"></span><span class="placeholder-panel placeholder-panel--5" aria-hidden="true"></span><span class="page-art__status">review</span></div>
+                  <span class="page-card__copy" data-content="text"><b>056 · Not Paged</b><small>Sequence 19 · review</small></span>
                 </a></section>
         
   </main>
@@ -95,15 +114,30 @@
       <a class="wayfinder__item wayfinder__item--out" href="../../" data-direction="out" aria-label="Out: Viewer home"><span class="wayfinder__glyph" aria-hidden="true">−</span><span class="wayfinder__text"><b>Out</b><small>Viewer home</small></span><kbd>Esc</kbd></a>
       <a class="wayfinder__item wayfinder__item--down" href="info/" data-direction="down" aria-label="Down: Chapter information"><span class="wayfinder__glyph" aria-hidden="true">↓</span><span class="wayfinder__text"><b>Down</b><small>Chapter information</small></span><kbd>↓</kbd></a>
       <a class="wayfinder__item wayfinder__item--home" href="../../" data-direction="home" aria-label="Home: Viewer home"><span class="wayfinder__glyph" aria-hidden="true">⌂</span><span class="wayfinder__text"><b>Home</b><small>Viewer home</small></span><kbd>H</kbd></a>
+      <a class="wayfinder__item wayfinder__item--next" href="info/" data-direction="next" aria-label="Next: About Control Keeps Solving Problems"><span class="wayfinder__glyph" aria-hidden="true">▶</span><span class="wayfinder__text"><b>Next</b><small>About Control Keeps Solving Problems</small></span><kbd>Space</kbd></a>
     </div>
   </nav>
+  <button class="settings-fab" type="button" data-settings-toggle aria-expanded="false" aria-controls="view-settings" aria-label="View settings">⚙</button>
+  <section class="settings" id="view-settings" data-settings-panel hidden aria-label="View settings">
+    <div class="settings__head"><p class="eyebrow">View settings</p><button class="settings__close" type="button" data-settings-close aria-label="Close view settings">×</button></div>
+    <fieldset class="settings__group"><legend>Screen</legend><div class="settings__options" role="group" aria-label="Screen"><button class="settings__option" type="button" data-setting="full" data-value="off" aria-pressed="false">Windowed</button><button class="settings__option" type="button" data-setting="full" data-value="on" aria-pressed="false">Full screen</button></div></fieldset><fieldset class="settings__group"><legend>Navigation icons</legend><div class="settings__options" role="group" aria-label="Navigation icons"><button class="settings__option" type="button" data-setting="nav" data-value="on" aria-pressed="false">Show</button><button class="settings__option" type="button" data-setting="nav" data-value="off" aria-pressed="false">Hide</button></div></fieldset><fieldset class="settings__group"><legend>Appearance</legend><div class="settings__options" role="group" aria-label="Appearance"><button class="settings__option" type="button" data-setting="theme" data-value="dark" aria-pressed="false">Dark</button><button class="settings__option" type="button" data-setting="theme" data-value="light" aria-pressed="false">Light</button></div></fieldset><fieldset class="settings__group"><legend>Content</legend><div class="settings__options" role="group" aria-label="Content"><button class="settings__option" type="button" data-setting="mode" data-value="both" aria-pressed="false">Image + text</button><button class="settings__option" type="button" data-setting="mode" data-value="image" aria-pressed="false">Image only</button><button class="settings__option" type="button" data-setting="mode" data-value="text" aria-pressed="false">Text only</button></div></fieldset>
+    <p class="settings__note">These settings ride along in the page address, so a copied link reopens the same view. Press <kbd>S</kbd> to reopen this panel.</p>
+  </section>
   <dialog class="shortcut-dialog" data-shortcut-dialog>
     <button class="shortcut-dialog__close" type="button" data-close-dialog aria-label="Close">×</button>
     <p class="eyebrow">Keyboard map</p>
     <h2>Move without losing your place.</h2>
     <dl><div><dt>← → ↑ ↓</dt><dd>Move left, right, up, or down</dd></div>
     <div><dt>Enter</dt><dd>Move in</dd></div><div><dt>Esc</dt><dd>Move out</dd></div>
-    <div><dt>H</dt><dd>Viewer home</dd></div><div><dt>?</dt><dd>Show this map</dd></div></dl>
+    <div><dt>H</dt><dd>Viewer home</dd></div>
+    <div><dt>Space</dt><dd>Read on: scroll this view, then the next node</dd></div>
+    <div><dt>Shift + Space</dt><dd>Back up: scroll this view, then the previous node</dd></div>
+    <div><dt>S</dt><dd>Open view settings</dd></div>
+    <div><dt>F</dt><dd>Full screen on or off</dd></div>
+    <div><dt>N</dt><dd>Navigation icons on or off</dd></div>
+    <div><dt>D</dt><dd>Dark or light appearance</dd></div>
+    <div><dt>M</dt><dd>Image + text, image only, or text only</dd></div>
+    <div><dt>?</dt><dd>Show this map</dd></div></dl>
   </dialog>
   <div class="toast" role="status" aria-live="polite" data-toast></div>
   <script src="../../viewer.js" defer></script>

@@ -15,6 +15,53 @@ from pathlib import Path
 ROOT = Path(__file__).resolve().parents[1]
 OUT = ROOT / "docs"
 
+# Viewer settings live in the page fragment. This runs before first paint so a
+# restored view never flashes the default theme, chrome, or content mode.
+SETTINGS_BOOT = """(function(){
+var root=document.documentElement;
+var allowed={theme:['dark','light'],nav:['on','off'],full:['off','on'],mode:['both','image','text']};
+var chosen={theme:'dark',nav:'on',full:'off',mode:'both'};
+(location.hash||'').replace(/^#/,'').split('&').forEach(function(pair){
+var parts=pair.split('=');
+var key=decodeURIComponent(parts[0]||'');
+var value=decodeURIComponent(parts[1]||'');
+if(allowed[key]&&allowed[key].indexOf(value)>-1){chosen[key]=value;}
+});
+Object.keys(chosen).forEach(function(key){root.setAttribute('data-'+key,chosen[key]);});
+})();"""
+
+SETTING_GROUPS = (
+    ("Screen", "full", (("off", "Windowed"), ("on", "Full screen"))),
+    ("Navigation icons", "nav", (("on", "Show"), ("off", "Hide"))),
+    ("Appearance", "theme", (("dark", "Dark"), ("light", "Light"))),
+    ("Content", "mode", (("both", "Image + text"), ("image", "Image only"), ("text", "Text only"))),
+)
+
+
+def settings_panel() -> str:
+    groups = []
+    for legend, setting, options in SETTING_GROUPS:
+        buttons = "".join(
+            f'<button class="settings__option" type="button" data-setting="{setting}" '
+            f'data-value="{value}" aria-pressed="false">{html.escape(label)}</button>'
+            for value, label in options
+        )
+        groups.append(
+            f'<fieldset class="settings__group"><legend>{html.escape(legend)}</legend>'
+            f'<div class="settings__options" role="group" aria-label="{html.escape(legend)}">{buttons}</div></fieldset>'
+        )
+    return (
+        '<button class="settings-fab" type="button" data-settings-toggle aria-expanded="false"'
+        ' aria-controls="view-settings" aria-label="View settings">\u2699</button>\n'
+        '  <section class="settings" id="view-settings" data-settings-panel hidden aria-label="View settings">\n'
+        '    <div class="settings__head"><p class="eyebrow">View settings</p>'
+        '<button class="settings__close" type="button" data-settings-close aria-label="Close view settings">\u00d7</button></div>\n'
+        f'    {"".join(groups)}\n'
+        '    <p class="settings__note">These settings ride along in the page address, so a copied '
+        'link reopens the same view. Press <kbd>S</kbd> to reopen this panel.</p>\n'
+        '  </section>'
+    )
+
 
 def markdown_sources(internal: bool) -> list[Path]:
     if internal:
@@ -277,7 +324,7 @@ def viewer_document(
         label, _ = nav[key]
         glyphs = {
             "up": "↑", "down": "↓", "left": "←", "right": "→",
-            "in": "+", "out": "−", "home": "⌂",
+            "in": "+", "out": "−", "home": "⌂", "next": "▶",
         }
         return (
             f'<a class="wayfinder__item wayfinder__item--{direction}" '
@@ -289,21 +336,23 @@ def viewer_document(
             f'<kbd>{html.escape(shortcut)}</kbd></a>'
         )
 
+    nav_attributes = "\n      ".join(
+        f'data-nav-{key}="{html.escape(value)}"' for key, value in nav_links.items()
+    )
+
     return f'''<!doctype html>
 <html lang="en">
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="color-scheme" content="dark">
+  <meta name="color-scheme" content="dark light">
   <meta name="description" content="Validation viewer for {html.escape(title)} in zz-no-consumer.">
   <title>{html.escape(title)} — Viewer — zz-no-consumer</title>
   <link rel="stylesheet" href="{html.escape(css_href)}">
+  <script>{SETTINGS_BOOT}</script>
 </head>
 <body data-entity-id="{html.escape(entity_id)}" data-entity-kind="{html.escape(entity_kind)}"
-      data-nav-up="{html.escape(nav_links['up'])}" data-nav-down="{html.escape(nav_links['down'])}"
-      data-nav-left="{html.escape(nav_links['left'])}" data-nav-right="{html.escape(nav_links['right'])}"
-      data-nav-in="{html.escape(nav_links['in'])}" data-nav-out="{html.escape(nav_links['out'])}"
-      data-nav-home="{html.escape(nav_links['home'])}">
+      {nav_attributes}>
   <a class="skip-link" href="#content">Skip to content</a>
   <header class="masthead">
     <a class="brand" href="{html.escape(viewer_link(current_directory))}" aria-label="Viewer home">
@@ -314,11 +363,13 @@ def viewer_document(
       <button class="utility" type="button" data-bookmark aria-pressed="false">☆ <span>Bookmark</span></button>
       <button class="utility" type="button" data-copy-link>↗ <span>Copy link</span></button>
       <button class="utility utility--keys" type="button" data-shortcuts>⌨ <span>Keys</span></button>
+      <button class="utility" type="button" data-settings-toggle aria-expanded="false"
+              aria-controls="view-settings">⚙ <span>Settings</span></button>
       <a class="utility" href="{html.escape(project_home)}">Project site</a>
     </div>
   </header>
   <main id="content">
-    <div class="view-heading">
+    <div class="view-heading" data-content="text">
       <p class="eyebrow">{html.escape(eyebrow)}</p>
       <h1>{html.escape(title)}</h1>
     </div>
@@ -334,15 +385,25 @@ def viewer_document(
       {nav_item("out", "out", "Esc")}
       {nav_item("down", "down", "↓")}
       {nav_item("home", "home", "H")}
+      {nav_item("next", "next", "Space")}
     </div>
   </nav>
+  {settings_panel()}
   <dialog class="shortcut-dialog" data-shortcut-dialog>
     <button class="shortcut-dialog__close" type="button" data-close-dialog aria-label="Close">×</button>
     <p class="eyebrow">Keyboard map</p>
     <h2>Move without losing your place.</h2>
     <dl><div><dt>← → ↑ ↓</dt><dd>Move left, right, up, or down</dd></div>
     <div><dt>Enter</dt><dd>Move in</dd></div><div><dt>Esc</dt><dd>Move out</dd></div>
-    <div><dt>H</dt><dd>Viewer home</dd></div><div><dt>?</dt><dd>Show this map</dd></div></dl>
+    <div><dt>H</dt><dd>Viewer home</dd></div>
+    <div><dt>Space</dt><dd>Read on: scroll this view, then the next node</dd></div>
+    <div><dt>Shift + Space</dt><dd>Back up: scroll this view, then the previous node</dd></div>
+    <div><dt>S</dt><dd>Open view settings</dd></div>
+    <div><dt>F</dt><dd>Full screen on or off</dd></div>
+    <div><dt>N</dt><dd>Navigation icons on or off</dd></div>
+    <div><dt>D</dt><dd>Dark or light appearance</dd></div>
+    <div><dt>M</dt><dd>Image + text, image only, or text only</dd></div>
+    <div><dt>?</dt><dd>Show this map</dd></div></dl>
   </dialog>
   <div class="toast" role="status" aria-live="polite" data-toast></div>
   <script src="{html.escape(js_href)}" defer></script>
@@ -359,17 +420,32 @@ def page_art(page: ViewerPage, *, compact: bool = False) -> str:
     )
     compact_class = " page-art--compact" if compact else ""
     return (
-        f'<div class="page-art{compact_class}" data-panels="{count}">'
+        f'<div class="page-art{compact_class}" data-content="image" data-panels="{count}">'
         f'<span class="page-art__number">{html.escape(page.id)}</span>{panels}'
         f'<span class="page-art__status">{html.escape(page.status)}</span></div>'
     )
 
 
-def write_viewer_page(destination: Path, **kwargs: object) -> None:
+# One chain through every generated route, so the spacebar alone reaches all of
+# the content and comes back to where it started.
+READING_ORDER: list[tuple[Path, str]] = []
+READING_INDEX: dict[Path, int] = {}
+
+
+def linear_nav(current: Path) -> dict[str, tuple[str, Path]]:
+    position = READING_INDEX[current]
+    steps = {}
+    for key, offset in (("next", 1), ("previous", -1)):
+        destination, label = READING_ORDER[(position + offset) % len(READING_ORDER)]
+        steps[key] = (label, destination)
+    return steps
+
+
+def write_viewer_page(destination: Path, *, nav: dict[str, tuple[str, Path]], **kwargs: object) -> None:
     full_destination = OUT / destination
     full_destination.parent.mkdir(parents=True, exist_ok=True)
     full_destination.write_text(
-        viewer_document(destination=destination, **kwargs),
+        viewer_document(destination=destination, nav={**nav, **linear_nav(destination)}, **kwargs),
         encoding="utf-8",
     )
 
@@ -393,6 +469,26 @@ def build_viewer() -> None:
     def wrapped(items: list[object], index: int, offset: int) -> object:
         return items[(index + offset) % len(items)]
 
+    READING_ORDER.clear()
+    READING_ORDER.append((viewer_home, "Viewer home"))
+    for chapter in chapters:
+        READING_ORDER.append((chapter_dest(chapter.id), chapter.title))
+        READING_ORDER.append((chapter_dest(chapter.id, True), f"About {chapter.title}"))
+        for page in pages:
+            if not chapter.first_page <= int(page.id) <= chapter.last_page:
+                continue
+            READING_ORDER.append((page_dest(page.id), f"Page {page.id}"))
+            READING_ORDER.append((page_dest(page.id, True), f"About page {page.id}"))
+            for image_index in range(1, page.panel_count + 1):
+                READING_ORDER.append((image_dest(page.id, image_index), f"{page.id} · image {image_index:02d}"))
+                READING_ORDER.append(
+                    (image_dest(page.id, image_index, True), f"About {page.id}-{image_index:02d}")
+                )
+    READING_INDEX.clear()
+    READING_INDEX.update({destination: index for index, (destination, _) in enumerate(READING_ORDER)})
+    if len(READING_INDEX) != len(READING_ORDER):
+        raise ValueError("The reading order visits a route more than once")
+
     chapter_cards = []
     for chapter in chapters:
         chapter_cards.append(
@@ -404,11 +500,11 @@ def build_viewer() -> None:
         )
     home_body = f'''
     <section class="intro-grid">
-      <div class="intro-copy"><p class="kicker">A spatial reading prototype</p>
-        <p>This isolated build validates durable routes, page and panel hierarchy, and seven-direction navigation before final artwork exists.</p>
+      <div class="intro-copy" data-content="text"><p class="kicker">A spatial reading prototype</p>
+        <p>This isolated build validates durable routes, page and panel hierarchy, eight-direction navigation, and shareable view settings before final artwork exists.</p>
         <a class="primary-action" href="{html.escape(viewer_link(Path("viewer"), "pages", pages[0].id))}">Begin on page 001 <span>→</span></a>
       </div>
-      <div class="map-card" aria-label="Content map"><span>HOME</span><i></i><span>CHAPTER</span><i></i><span>PAGE</span><i></i><span>IMAGE</span></div>
+      <div class="map-card" data-content="image" aria-label="Content map"><span>HOME</span><i></i><span>CHAPTER</span><i></i><span>PAGE</span><i></i><span>IMAGE</span></div>
     </section>
     <section class="section-block"><div class="section-heading"><div><p class="eyebrow">The complete route map</p><h2>Eight chapters. 112 permanent page addresses.</h2></div><span class="count">112 pages</span></div>
       <div class="chapter-grid">{''.join(chapter_cards)}</div>
@@ -444,7 +540,7 @@ def build_viewer() -> None:
             cards.append(
                 f'''<a class="page-card" href="{html.escape(route_url(current_dir, page_dest(page.id)))}">
                   {page_art(page, compact=True)}
-                  <span class="page-card__copy"><b>{html.escape(page.id)} · {html.escape(page.title)}</b><small>Sequence {html.escape(page.sequence)} · {html.escape(page.status)}</small></span>
+                  <span class="page-card__copy" data-content="text"><b>{html.escape(page.id)} · {html.escape(page.title)}</b><small>Sequence {html.escape(page.sequence)} · {html.escape(page.status)}</small></span>
                 </a>'''
             )
         chapter_body = f'''
@@ -501,10 +597,10 @@ def build_viewer() -> None:
         )
         page_body = f'''
         <section class="reader-layout">
-          <div class="reader-stage"><div class="reader-stage__top"><span>Page {html.escape(page.id)} / 112</span><span class="art-state"><i></i> Placeholder artwork</span></div>
+          <div class="reader-stage" data-content="image"><div class="reader-stage__top"><span>Page {html.escape(page.id)} / 112</span><span class="art-state"><i></i> Placeholder artwork</span></div>
             <a class="page-art-link" href="{html.escape(route_url(current_dir, image_dest(page.id, 1)))}" aria-label="Open first image on page {html.escape(page.id)}">{page_art(page)}</a>
           </div>
-          <aside class="reader-notes"><p class="eyebrow">Page record</p><h2>{html.escape(page.title)}</h2><dl><div><dt>Chapter</dt><dd>{html.escape(chapter.title)}</dd></div><div><dt>Sequence</dt><dd>{html.escape(page.sequence)}</dd></div><div><dt>Status</dt><dd>{html.escape(page.status)}</dd></div></dl>
+          <aside class="reader-notes" data-content="text"><p class="eyebrow">Page record</p><h2>{html.escape(page.title)}</h2><dl><div><dt>Chapter</dt><dd>{html.escape(chapter.title)}</dd></div><div><dt>Sequence</dt><dd>{html.escape(page.sequence)}</dd></div><div><dt>Status</dt><dd>{html.escape(page.status)}</dd></div></dl>
             <div class="image-links"><span>Image slots</span>{image_links}</div>
             <a class="text-action" href="{html.escape(route_url(current_dir, page_dest(page.id, True)))}">Page information <span>↓</span></a>
           </aside>
@@ -552,8 +648,8 @@ def build_viewer() -> None:
             previous_image = ((image_index - 2) % page.panel_count) + 1
             next_image = (image_index % page.panel_count) + 1
             image_body = f'''
-            <section class="image-viewer"><div class="image-frame" id="image"><div class="image-placeholder"><span class="image-placeholder__cross"></span><span class="image-placeholder__label">PAGE {html.escape(page.id)} / IMAGE {image_index:02d}</span><b>ARTWORK<br>NOT GENERATED</b><small>Aspect ratio and route are ready for validation.</small></div></div>
-            <div class="image-caption"><p><span>{html.escape(chapter.title)}</span> / Page {html.escape(page.id)}</p><h2>Image {image_index:02d} of {page.panel_count:02d}</h2><a class="text-action" href="{html.escape(route_url(image_dir, image_dest(page.id, image_index, True)))}">Image information <span>↓</span></a></div></section>
+            <section class="image-viewer"><div class="image-frame" id="image" data-content="image"><div class="image-placeholder"><span class="image-placeholder__cross"></span><span class="image-placeholder__label">PAGE {html.escape(page.id)} / IMAGE {image_index:02d}</span><b>ARTWORK<br>NOT GENERATED</b><small>Aspect ratio and route are ready for validation.</small></div></div>
+            <div class="image-caption" data-content="text"><p><span>{html.escape(chapter.title)}</span> / Page {html.escape(page.id)}</p><h2>Image {image_index:02d} of {page.panel_count:02d}</h2><a class="text-action" href="{html.escape(route_url(image_dir, image_dest(page.id, image_index, True)))}">Image information <span>↓</span></a></div></section>
             '''
             write_viewer_page(
                 image_current, title=f"{page.title} — image {image_index:02d}", eyebrow=f"Page {page.id} / individual image",

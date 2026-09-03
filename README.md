@@ -56,7 +56,11 @@ open 256t/site/index.html
 
 The internal builder converts Markdown in `content/`, `prompts/`, `research/`, and `design/`. The public builder includes only the premise, chapter/page scripts, and the original-source link index.
 
-The generated site also includes an isolated viewer validation section at `docs/viewer/`. It publishes stable directory-style routes for the viewer home, chapter overviews, pages, panel images, and their information views before final artwork exists. Every view exposes up, down, left, right, in, out, and home links; the matching keyboard shortcuts are Arrow keys, Enter, Escape, and H.
+The generated site also includes an isolated viewer validation section at `docs/viewer/`. It publishes stable directory-style routes for the viewer home, chapter overviews, pages, panel images, and their information views before final artwork exists. Every view exposes up, down, left, right, in, out, home, and next links; the matching keyboard shortcuts are Arrow keys, Enter, Escape, H, and Space.
+
+Space is the read-through control: it scrolls the current view, and once the view is fully read it advances to the next node. The chain visits every generated route exactly once and loops back to the viewer home, so the whole book and all of its records can be read with the spacebar alone. Shift + Space reverses it.
+
+The **Settings** button (or <kbd>S</kbd>) opens the view settings panel: full screen, which hides the masthead and navigation bar and leaves only the page content; show or hide the navigation icons; dark or light appearance; and image + text, image only, or text only. Settings are stored in the page fragment (for example `#theme=light&full=on&mode=image`) and are carried onto every internal link, so a copied link restores both the location and the view. Defaults carry no fragment.
 
 Validate the entire generated route graph with:
 
