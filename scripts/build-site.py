@@ -12,6 +12,7 @@ from dataclasses import dataclass
 from pathlib import Path
 
 import crossref
+import imagegen
 import textimage
 
 
@@ -715,6 +716,58 @@ def build_viewer() -> None:
     shutil.copy2(viewer_source / "viewer.js", OUT / "viewer" / "viewer.js")
 
 
+# ---------------------------------------------------------------------- bake-off
+
+
+BAKEOFF_DIR = ROOT / "assets" / "bakeoff"
+
+
+def bakeoff_runs() -> list[Path]:
+    """Committed generator comparison runs, oldest first."""
+    return imagegen.run_directories(BAKEOFF_DIR) if BAKEOFF_DIR.is_dir() else []
+
+
+def build_bakeoff(document) -> int:
+    """Publish every committed bake-off run beside the images it compares.
+
+    The images are already copied with the rest of `assets/`, so each run page
+    points at `assets/bakeoff/<run>/` rather than carrying a second copy.
+    """
+    runs = bakeoff_runs()
+    if not runs:
+        return 0
+
+    cards = []
+    for run in runs:
+        manifest = imagegen.load_manifest(run)
+        made = sum(1 for result in manifest["results"] if result.get("path"))
+        destination = Path("bakeoff", run.name, "index.html")
+        body = imagegen.sheet_body(manifest, prefix=f"../../assets/bakeoff/{run.name}/")
+        write_page(destination, f"Bake-off {run.name}", body, document)
+        cards.append(
+            f'<a class="card" href="{html.escape(run.name)}/"><h3>{html.escape(run.name)}</h3>'
+            f'<p>{made} images · {len(manifest["providers"])} candidates · '
+            f'via {html.escape(manifest.get("route", "direct"))} · '
+            f'${manifest["usd"]:.2f}</p></a>'
+        )
+
+    index_body = (
+        "<p>Every candidate image generator receives a byte-identical prompt composed from "
+        "the same sources final artwork will use, and the results are laid out side by side "
+        "against a fixed rubric. The reasoning behind the roster is in "
+        "<code>design/image-generation-options.md</code>; these are the images it rests on.</p>"
+        f'<div class="cards">{"".join(reversed(cards))}</div>'
+    )
+    write_page(Path("bakeoff", "index.html"), "Image generator bake-off", index_body, document)
+    return len(runs) + 1
+
+
+def write_page(destination: Path, title: str, body: str, document) -> None:
+    target = OUT / destination
+    target.parent.mkdir(parents=True, exist_ok=True)
+    target.write_text(document(title, body, destination.parent), encoding="utf-8")
+
+
 # ---------------------------------------------------------------- cross reference
 
 
@@ -1162,6 +1215,10 @@ def main() -> int:
             encoding="utf-8",
         )
 
+    def document(title: str, body: str, directory: Path) -> str:
+        return page_document(
+            title, body, navigation(directory), relative_url(directory, Path("css/site.css")))
+
     story = textimage.book_scripts()
     placeholder_link = (
         '<p><a class="viewer-callout" href="viewer/pages/001/">'
@@ -1179,6 +1236,7 @@ def main() -> int:
             '<p><a class="viewer-callout" href="viewer/">Open the graphic novel viewer validation build →</a></p>'
             f'{placeholder_link}'
             '<p><a class="viewer-callout" href="crossref/">Open the page, source, and provenance cross reference →</a></p>'
+            '<p><a class="viewer-callout" href="bakeoff/">Compare the candidate image generators on the same panels →</a></p>'
             '<p><a class="viewer-callout" href="production/thumbnails/">Open the provisional 57-spread thumbnail wall →</a></p>'
             f'<h2>Browse the internal project</h2><div class="cards">{index_cards}</div>'
         )
@@ -1188,6 +1246,7 @@ def main() -> int:
             '<p><a class="viewer-callout" href="viewer/">Open the graphic novel viewer validation build →</a></p>'
             f'{placeholder_link}'
             '<p><a class="viewer-callout" href="crossref/">Open the page, source, and provenance cross reference →</a></p>'
+            '<p><a class="viewer-callout" href="bakeoff/">Compare the candidate image generators on the same panels →</a></p>'
             f'<h2>Browse the story</h2><div class="cards">{index_cards}</div>'
         )
     (OUT / "index.html").write_text(
@@ -1199,7 +1258,7 @@ def main() -> int:
         source = ROOT / folder
         destination = OUT / folder
         if source.exists():
-            shutil.copytree(source, destination, dirs_exist_ok=True, ignore=shutil.ignore_patterns(".gitkeep"))
+            shutil.copytree(source, destination, dirs_exist_ok=True, ignore=shutil.ignore_patterns(".gitkeep", "sheet.html"))
     css = ROOT / "site" / "css" / "site.css"
     if css.exists():
         (OUT / "css").mkdir(exist_ok=True)
@@ -1208,10 +1267,12 @@ def main() -> int:
     model = crossref.build()
     crossref_routes = build_crossref(model, internal=args.internal)
     build_viewer()
+    bakeoff_routes = build_bakeoff(document)
 
     print(
         f"Built {len(markdown_files)} Markdown pages, {crossref_routes} cross-reference routes, "
-        f"and the viewer validation section into {OUT.relative_to(ROOT)}/"
+        f"{bakeoff_routes} bake-off routes, and the viewer validation section "
+        f"into {OUT.relative_to(ROOT)}/"
     )
     warnings = [item for item in model.findings if item.severity != "note"]
     if warnings:

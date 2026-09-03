@@ -114,6 +114,40 @@ Each panel placeholder carries that panel's own `Frame`, `Action`, and lettering
 
 Panel placeholders are keyed to the same image slots the viewer routes use, so a page written as one grouped run of panels gets the single image its route exposes. Replacing a placeholder with final art is a matter of pointing the image record at `assets/art/panels/NNN-II.*`; the route, alt text, and cross-reference link do not move.
 
+## Choosing an image generator
+
+The candidates, their prices, and the recommendation are in [`design/image-generation-options.md`](design/image-generation-options.md). The short version: the binding constraint is style and environment consistency across 541 panels, not per-image quality, and at six attempts per slot the whole book costs between $24 and $646 in API spend.
+
+Two runners send byte-identical prompts to every candidate. Each prompt is composed from the same sources final artwork will use — `prompts/global-style.md`, `prompts/negative-prompt.md`, `design/palette.md`, and the panel's own direction.
+
+`scripts/bakeoff.py` produces the published comparison from a single key. OpenRouter's unified image API fronts five of the eight candidates and reports the exact cost of every call, so one account replaces four:
+
+```sh
+export OPENROUTER_API_KEY=...
+python3 scripts/bakeoff.py models     # what the aggregator can actually route
+python3 scripts/bakeoff.py estimate   # about $5 for the standard run
+python3 scripts/bakeoff.py run        # generate, price, and write the sheet
+```
+
+`scripts/imagegen.py` holds the roster, the prompt composer, and the comparison sheet, and calls each vendor directly. That is the only way to reach Imagen 4, Qwen-Image, and a trained style LoRA, and it needs `GEMINI_API_KEY`, `OPENAI_API_KEY`, `FAL_KEY`, or `REPLICATE_API_TOKEN` depending on the candidate:
+
+```sh
+python3 scripts/imagegen.py providers        # roster, price, and key state
+python3 scripts/imagegen.py estimate         # sample-run and full-book cost
+python3 scripts/imagegen.py prompts          # exactly what each model receives
+python3 scripts/imagegen.py sample --dry-run # whole pipeline, no keys, no spend
+python3 scripts/imagegen.py sample --provider imagen-4 --provider qwen-image
+python3 scripts/imagegen.py rank             # weighted result of scores.tsv
+```
+
+Six sample panels cover every register: the near-black incident aisle, an abstract dependency diagram, the creator's home office, an institutional room, a dossier grid, and an invented-future frame. `--repeat` sends each prompt more than once, which is the actual test — a candidate whose two takes are the same place in the same style can carry a book, and one whose takes diverge cannot, however good either image is alone.
+
+Runs are written to `assets/bakeoff/<run>/` and published at [`/bakeoff/`](docs/bakeoff/), so the images behind the decision are committed evidence rather than something only the person who ran it ever saw. Each run directory holds the composed prompts, the images, `manifest.json`, a blank `scores.tsv`, and a standalone `sheet.html` for reading it before the site is rebuilt. Images are requested as WebP to keep a committed run to a few megabytes. Only live generations are recorded in `data/generation-log.jsonl`; `--dry-run` substitutes a `scripts/textimage.py` placeholder carrying the exact prompt that would have been sent, so the composer, run layout, and published sheet can be validated before any key exists.
+
+Because `docs/` is the tracked Pages output, every committed run is stored twice — once as source under `assets/` and once as built output. A six-panel, two-take run across five candidates is roughly 30 MB of WebP at both copies, so keep one or two runs rather than a run per experiment.
+
+`assets/bakeoff/0000-dry-run/` is such a placeholder run. It publishes the prompts and the page structure; replace it with a real one and rebuild.
+
 ## GitHub Pages
 
 `.github/workflows/pages.yml` builds and deploys the site whenever `main` changes. In the repository settings, set **Pages → Build and deployment → Source** to **GitHub Actions** once. The workflow can also be started manually with **Actions → Publish GitHub Pages → Run workflow**.

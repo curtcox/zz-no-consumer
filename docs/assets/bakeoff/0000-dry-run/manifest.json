@@ -1,0 +1,745 @@
+{
+  "run": "0000-dry-run",
+  "at": "2026-09-03T02:03:19+00:00",
+  "route": "openrouter",
+  "dry_run": true,
+  "repeat": 2,
+  "panel_size": [
+    1200,
+    800
+  ],
+  "providers": [
+    "gemini-3-pro-image",
+    "gpt-image",
+    "flux-2-pro",
+    "seedream",
+    "grok-imagine"
+  ],
+  "samples": [
+    {
+      "id": "001-01",
+      "register": "incident",
+      "tests": "near-black data-center aisle, plausible rack and cable-tray perspective, one steel practical light, no figure"
+    },
+    {
+      "id": "001-02",
+      "register": "incident",
+      "tests": "abstract dependency diagram that must read causally while staying visibly non-semantic"
+    },
+    {
+      "id": "013-01",
+      "register": "creator",
+      "tests": "the only register with a real human figure: nicotine light, ordinary clothes, monitors that must stay unreadable"
+    },
+    {
+      "id": "026-01",
+      "register": "institutional",
+      "tests": "overlit procedural room, distributed responsibility, no villain lighting"
+    },
+    {
+      "id": "070-01",
+      "register": "dossier",
+      "tests": "paper field, strict two-column grid, reserved blank lettering fields"
+    },
+    {
+      "id": "110-01",
+      "register": "invented future",
+      "tests": "fully desaturated, organization-neutral, no incident palette signature"
+    }
+  ],
+  "rubric": [
+    {
+      "key": "ink",
+      "question": "Hand-inked contour, dry-brush abrasion, heavy blacks, paper grain",
+      "weight": 3
+    },
+    {
+      "key": "palette",
+      "question": "Stays inside design/palette.md; no unearned moss, claret, or amber",
+      "weight": 2
+    },
+    {
+      "key": "text",
+      "question": "No readable words, logos, code, or UI typography anywhere in frame",
+      "weight": 3
+    },
+    {
+      "key": "geometry",
+      "question": "Racks, trays, rooms, and perspective survive a second look",
+      "weight": 2
+    },
+    {
+      "key": "continuity",
+      "question": "Repeats of the same prompt stay in one style and one place",
+      "weight": 3
+    },
+    {
+      "key": "control",
+      "question": "Responds to correction rather than re-rolling a different picture",
+      "weight": 2
+    }
+  ],
+  "results": [
+    {
+      "provider": "gemini-3-pro-image",
+      "sample": "001-01",
+      "take": 1,
+      "seed": 1001,
+      "path": "gemini-3-pro-image/001-01-1.svg",
+      "seconds": 0.03,
+      "usd": 0.0,
+      "metered": true,
+      "bytes": 6133
+    },
+    {
+      "provider": "gemini-3-pro-image",
+      "sample": "001-01",
+      "take": 2,
+      "seed": 1002,
+      "path": "gemini-3-pro-image/001-01-2.svg",
+      "seconds": 0.03,
+      "usd": 0.0,
+      "metered": true,
+      "bytes": 6133
+    },
+    {
+      "provider": "gemini-3-pro-image",
+      "sample": "001-02",
+      "take": 1,
+      "seed": 1001,
+      "path": "gemini-3-pro-image/001-02-1.svg",
+      "seconds": 0.03,
+      "usd": 0.0,
+      "metered": true,
+      "bytes": 5871
+    },
+    {
+      "provider": "gemini-3-pro-image",
+      "sample": "001-02",
+      "take": 2,
+      "seed": 1002,
+      "path": "gemini-3-pro-image/001-02-2.svg",
+      "seconds": 0.03,
+      "usd": 0.0,
+      "metered": true,
+      "bytes": 5871
+    },
+    {
+      "provider": "gemini-3-pro-image",
+      "sample": "013-01",
+      "take": 1,
+      "seed": 1001,
+      "path": "gemini-3-pro-image/013-01-1.svg",
+      "seconds": 0.02,
+      "usd": 0.0,
+      "metered": true,
+      "bytes": 5610
+    },
+    {
+      "provider": "gemini-3-pro-image",
+      "sample": "013-01",
+      "take": 2,
+      "seed": 1002,
+      "path": "gemini-3-pro-image/013-01-2.svg",
+      "seconds": 0.02,
+      "usd": 0.0,
+      "metered": true,
+      "bytes": 5610
+    },
+    {
+      "provider": "gemini-3-pro-image",
+      "sample": "026-01",
+      "take": 1,
+      "seed": 1001,
+      "path": "gemini-3-pro-image/026-01-1.svg",
+      "seconds": 0.02,
+      "usd": 0.0,
+      "metered": true,
+      "bytes": 5463
+    },
+    {
+      "provider": "gemini-3-pro-image",
+      "sample": "026-01",
+      "take": 2,
+      "seed": 1002,
+      "path": "gemini-3-pro-image/026-01-2.svg",
+      "seconds": 0.02,
+      "usd": 0.0,
+      "metered": true,
+      "bytes": 5463
+    },
+    {
+      "provider": "gemini-3-pro-image",
+      "sample": "070-01",
+      "take": 1,
+      "seed": 1001,
+      "path": "gemini-3-pro-image/070-01-1.svg",
+      "seconds": 0.02,
+      "usd": 0.0,
+      "metered": true,
+      "bytes": 5495
+    },
+    {
+      "provider": "gemini-3-pro-image",
+      "sample": "070-01",
+      "take": 2,
+      "seed": 1002,
+      "path": "gemini-3-pro-image/070-01-2.svg",
+      "seconds": 0.02,
+      "usd": 0.0,
+      "metered": true,
+      "bytes": 5495
+    },
+    {
+      "provider": "gemini-3-pro-image",
+      "sample": "110-01",
+      "take": 1,
+      "seed": 1001,
+      "path": "gemini-3-pro-image/110-01-1.svg",
+      "seconds": 0.02,
+      "usd": 0.0,
+      "metered": true,
+      "bytes": 5405
+    },
+    {
+      "provider": "gemini-3-pro-image",
+      "sample": "110-01",
+      "take": 2,
+      "seed": 1002,
+      "path": "gemini-3-pro-image/110-01-2.svg",
+      "seconds": 0.02,
+      "usd": 0.0,
+      "metered": true,
+      "bytes": 5405
+    },
+    {
+      "provider": "gpt-image",
+      "sample": "001-01",
+      "take": 1,
+      "seed": 1001,
+      "path": "gpt-image/001-01-1.svg",
+      "seconds": 0.03,
+      "usd": 0.0,
+      "metered": true,
+      "bytes": 6083
+    },
+    {
+      "provider": "gpt-image",
+      "sample": "001-01",
+      "take": 2,
+      "seed": 1002,
+      "path": "gpt-image/001-01-2.svg",
+      "seconds": 0.03,
+      "usd": 0.0,
+      "metered": true,
+      "bytes": 6083
+    },
+    {
+      "provider": "gpt-image",
+      "sample": "001-02",
+      "take": 1,
+      "seed": 1001,
+      "path": "gpt-image/001-02-1.svg",
+      "seconds": 0.03,
+      "usd": 0.0,
+      "metered": true,
+      "bytes": 5821
+    },
+    {
+      "provider": "gpt-image",
+      "sample": "001-02",
+      "take": 2,
+      "seed": 1002,
+      "path": "gpt-image/001-02-2.svg",
+      "seconds": 0.03,
+      "usd": 0.0,
+      "metered": true,
+      "bytes": 5821
+    },
+    {
+      "provider": "gpt-image",
+      "sample": "013-01",
+      "take": 1,
+      "seed": 1001,
+      "path": "gpt-image/013-01-1.svg",
+      "seconds": 0.02,
+      "usd": 0.0,
+      "metered": true,
+      "bytes": 5560
+    },
+    {
+      "provider": "gpt-image",
+      "sample": "013-01",
+      "take": 2,
+      "seed": 1002,
+      "path": "gpt-image/013-01-2.svg",
+      "seconds": 0.03,
+      "usd": 0.0,
+      "metered": true,
+      "bytes": 5560
+    },
+    {
+      "provider": "gpt-image",
+      "sample": "026-01",
+      "take": 1,
+      "seed": 1001,
+      "path": "gpt-image/026-01-1.svg",
+      "seconds": 0.02,
+      "usd": 0.0,
+      "metered": true,
+      "bytes": 5413
+    },
+    {
+      "provider": "gpt-image",
+      "sample": "026-01",
+      "take": 2,
+      "seed": 1002,
+      "path": "gpt-image/026-01-2.svg",
+      "seconds": 0.02,
+      "usd": 0.0,
+      "metered": true,
+      "bytes": 5413
+    },
+    {
+      "provider": "gpt-image",
+      "sample": "070-01",
+      "take": 1,
+      "seed": 1001,
+      "path": "gpt-image/070-01-1.svg",
+      "seconds": 0.02,
+      "usd": 0.0,
+      "metered": true,
+      "bytes": 5445
+    },
+    {
+      "provider": "gpt-image",
+      "sample": "070-01",
+      "take": 2,
+      "seed": 1002,
+      "path": "gpt-image/070-01-2.svg",
+      "seconds": 0.02,
+      "usd": 0.0,
+      "metered": true,
+      "bytes": 5445
+    },
+    {
+      "provider": "gpt-image",
+      "sample": "110-01",
+      "take": 1,
+      "seed": 1001,
+      "path": "gpt-image/110-01-1.svg",
+      "seconds": 0.02,
+      "usd": 0.0,
+      "metered": true,
+      "bytes": 5355
+    },
+    {
+      "provider": "gpt-image",
+      "sample": "110-01",
+      "take": 2,
+      "seed": 1002,
+      "path": "gpt-image/110-01-2.svg",
+      "seconds": 0.02,
+      "usd": 0.0,
+      "metered": true,
+      "bytes": 5355
+    },
+    {
+      "provider": "flux-2-pro",
+      "sample": "001-01",
+      "take": 1,
+      "seed": 1001,
+      "path": "flux-2-pro/001-01-1.svg",
+      "seconds": 0.03,
+      "usd": 0.0,
+      "metered": true,
+      "bytes": 6085
+    },
+    {
+      "provider": "flux-2-pro",
+      "sample": "001-01",
+      "take": 2,
+      "seed": 1002,
+      "path": "flux-2-pro/001-01-2.svg",
+      "seconds": 0.03,
+      "usd": 0.0,
+      "metered": true,
+      "bytes": 6085
+    },
+    {
+      "provider": "flux-2-pro",
+      "sample": "001-02",
+      "take": 1,
+      "seed": 1001,
+      "path": "flux-2-pro/001-02-1.svg",
+      "seconds": 0.03,
+      "usd": 0.0,
+      "metered": true,
+      "bytes": 5823
+    },
+    {
+      "provider": "flux-2-pro",
+      "sample": "001-02",
+      "take": 2,
+      "seed": 1002,
+      "path": "flux-2-pro/001-02-2.svg",
+      "seconds": 0.03,
+      "usd": 0.0,
+      "metered": true,
+      "bytes": 5823
+    },
+    {
+      "provider": "flux-2-pro",
+      "sample": "013-01",
+      "take": 1,
+      "seed": 1001,
+      "path": "flux-2-pro/013-01-1.svg",
+      "seconds": 0.02,
+      "usd": 0.0,
+      "metered": true,
+      "bytes": 5562
+    },
+    {
+      "provider": "flux-2-pro",
+      "sample": "013-01",
+      "take": 2,
+      "seed": 1002,
+      "path": "flux-2-pro/013-01-2.svg",
+      "seconds": 0.02,
+      "usd": 0.0,
+      "metered": true,
+      "bytes": 5562
+    },
+    {
+      "provider": "flux-2-pro",
+      "sample": "026-01",
+      "take": 1,
+      "seed": 1001,
+      "path": "flux-2-pro/026-01-1.svg",
+      "seconds": 0.02,
+      "usd": 0.0,
+      "metered": true,
+      "bytes": 5415
+    },
+    {
+      "provider": "flux-2-pro",
+      "sample": "026-01",
+      "take": 2,
+      "seed": 1002,
+      "path": "flux-2-pro/026-01-2.svg",
+      "seconds": 0.02,
+      "usd": 0.0,
+      "metered": true,
+      "bytes": 5415
+    },
+    {
+      "provider": "flux-2-pro",
+      "sample": "070-01",
+      "take": 1,
+      "seed": 1001,
+      "path": "flux-2-pro/070-01-1.svg",
+      "seconds": 0.03,
+      "usd": 0.0,
+      "metered": true,
+      "bytes": 5447
+    },
+    {
+      "provider": "flux-2-pro",
+      "sample": "070-01",
+      "take": 2,
+      "seed": 1002,
+      "path": "flux-2-pro/070-01-2.svg",
+      "seconds": 0.04,
+      "usd": 0.0,
+      "metered": true,
+      "bytes": 5447
+    },
+    {
+      "provider": "flux-2-pro",
+      "sample": "110-01",
+      "take": 1,
+      "seed": 1001,
+      "path": "flux-2-pro/110-01-1.svg",
+      "seconds": 0.03,
+      "usd": 0.0,
+      "metered": true,
+      "bytes": 5357
+    },
+    {
+      "provider": "flux-2-pro",
+      "sample": "110-01",
+      "take": 2,
+      "seed": 1002,
+      "path": "flux-2-pro/110-01-2.svg",
+      "seconds": 0.04,
+      "usd": 0.0,
+      "metered": true,
+      "bytes": 5357
+    },
+    {
+      "provider": "seedream",
+      "sample": "001-01",
+      "take": 1,
+      "seed": 1001,
+      "path": "seedream/001-01-1.svg",
+      "seconds": 0.04,
+      "usd": 0.0,
+      "metered": true,
+      "bytes": 6085
+    },
+    {
+      "provider": "seedream",
+      "sample": "001-01",
+      "take": 2,
+      "seed": 1002,
+      "path": "seedream/001-01-2.svg",
+      "seconds": 0.03,
+      "usd": 0.0,
+      "metered": true,
+      "bytes": 6085
+    },
+    {
+      "provider": "seedream",
+      "sample": "001-02",
+      "take": 1,
+      "seed": 1001,
+      "path": "seedream/001-02-1.svg",
+      "seconds": 0.04,
+      "usd": 0.0,
+      "metered": true,
+      "bytes": 5823
+    },
+    {
+      "provider": "seedream",
+      "sample": "001-02",
+      "take": 2,
+      "seed": 1002,
+      "path": "seedream/001-02-2.svg",
+      "seconds": 0.07,
+      "usd": 0.0,
+      "metered": true,
+      "bytes": 5823
+    },
+    {
+      "provider": "seedream",
+      "sample": "013-01",
+      "take": 1,
+      "seed": 1001,
+      "path": "seedream/013-01-1.svg",
+      "seconds": 0.04,
+      "usd": 0.0,
+      "metered": true,
+      "bytes": 5562
+    },
+    {
+      "provider": "seedream",
+      "sample": "013-01",
+      "take": 2,
+      "seed": 1002,
+      "path": "seedream/013-01-2.svg",
+      "seconds": 0.03,
+      "usd": 0.0,
+      "metered": true,
+      "bytes": 5562
+    },
+    {
+      "provider": "seedream",
+      "sample": "026-01",
+      "take": 1,
+      "seed": 1001,
+      "path": "seedream/026-01-1.svg",
+      "seconds": 0.03,
+      "usd": 0.0,
+      "metered": true,
+      "bytes": 5415
+    },
+    {
+      "provider": "seedream",
+      "sample": "026-01",
+      "take": 2,
+      "seed": 1002,
+      "path": "seedream/026-01-2.svg",
+      "seconds": 0.03,
+      "usd": 0.0,
+      "metered": true,
+      "bytes": 5415
+    },
+    {
+      "provider": "seedream",
+      "sample": "070-01",
+      "take": 1,
+      "seed": 1001,
+      "path": "seedream/070-01-1.svg",
+      "seconds": 0.02,
+      "usd": 0.0,
+      "metered": true,
+      "bytes": 5447
+    },
+    {
+      "provider": "seedream",
+      "sample": "070-01",
+      "take": 2,
+      "seed": 1002,
+      "path": "seedream/070-01-2.svg",
+      "seconds": 0.02,
+      "usd": 0.0,
+      "metered": true,
+      "bytes": 5447
+    },
+    {
+      "provider": "seedream",
+      "sample": "110-01",
+      "take": 1,
+      "seed": 1001,
+      "path": "seedream/110-01-1.svg",
+      "seconds": 0.02,
+      "usd": 0.0,
+      "metered": true,
+      "bytes": 5357
+    },
+    {
+      "provider": "seedream",
+      "sample": "110-01",
+      "take": 2,
+      "seed": 1002,
+      "path": "seedream/110-01-2.svg",
+      "seconds": 0.02,
+      "usd": 0.0,
+      "metered": true,
+      "bytes": 5357
+    },
+    {
+      "provider": "grok-imagine",
+      "sample": "001-01",
+      "take": 1,
+      "seed": 1001,
+      "path": "grok-imagine/001-01-1.svg",
+      "seconds": 0.03,
+      "usd": 0.0,
+      "metered": true,
+      "bytes": 6105
+    },
+    {
+      "provider": "grok-imagine",
+      "sample": "001-01",
+      "take": 2,
+      "seed": 1002,
+      "path": "grok-imagine/001-01-2.svg",
+      "seconds": 0.03,
+      "usd": 0.0,
+      "metered": true,
+      "bytes": 6105
+    },
+    {
+      "provider": "grok-imagine",
+      "sample": "001-02",
+      "take": 1,
+      "seed": 1001,
+      "path": "grok-imagine/001-02-1.svg",
+      "seconds": 0.03,
+      "usd": 0.0,
+      "metered": true,
+      "bytes": 5843
+    },
+    {
+      "provider": "grok-imagine",
+      "sample": "001-02",
+      "take": 2,
+      "seed": 1002,
+      "path": "grok-imagine/001-02-2.svg",
+      "seconds": 0.03,
+      "usd": 0.0,
+      "metered": true,
+      "bytes": 5843
+    },
+    {
+      "provider": "grok-imagine",
+      "sample": "013-01",
+      "take": 1,
+      "seed": 1001,
+      "path": "grok-imagine/013-01-1.svg",
+      "seconds": 0.03,
+      "usd": 0.0,
+      "metered": true,
+      "bytes": 5582
+    },
+    {
+      "provider": "grok-imagine",
+      "sample": "013-01",
+      "take": 2,
+      "seed": 1002,
+      "path": "grok-imagine/013-01-2.svg",
+      "seconds": 0.03,
+      "usd": 0.0,
+      "metered": true,
+      "bytes": 5582
+    },
+    {
+      "provider": "grok-imagine",
+      "sample": "026-01",
+      "take": 1,
+      "seed": 1001,
+      "path": "grok-imagine/026-01-1.svg",
+      "seconds": 0.03,
+      "usd": 0.0,
+      "metered": true,
+      "bytes": 5435
+    },
+    {
+      "provider": "grok-imagine",
+      "sample": "026-01",
+      "take": 2,
+      "seed": 1002,
+      "path": "grok-imagine/026-01-2.svg",
+      "seconds": 0.02,
+      "usd": 0.0,
+      "metered": true,
+      "bytes": 5435
+    },
+    {
+      "provider": "grok-imagine",
+      "sample": "070-01",
+      "take": 1,
+      "seed": 1001,
+      "path": "grok-imagine/070-01-1.svg",
+      "seconds": 0.03,
+      "usd": 0.0,
+      "metered": true,
+      "bytes": 5467
+    },
+    {
+      "provider": "grok-imagine",
+      "sample": "070-01",
+      "take": 2,
+      "seed": 1002,
+      "path": "grok-imagine/070-01-2.svg",
+      "seconds": 0.03,
+      "usd": 0.0,
+      "metered": true,
+      "bytes": 5467
+    },
+    {
+      "provider": "grok-imagine",
+      "sample": "110-01",
+      "take": 1,
+      "seed": 1001,
+      "path": "grok-imagine/110-01-1.svg",
+      "seconds": 0.03,
+      "usd": 0.0,
+      "metered": true,
+      "bytes": 5377
+    },
+    {
+      "provider": "grok-imagine",
+      "sample": "110-01",
+      "take": 2,
+      "seed": 1002,
+      "path": "grok-imagine/110-01-2.svg",
+      "seconds": 0.03,
+      "usd": 0.0,
+      "metered": true,
+      "bytes": 5377
+    }
+  ],
+  "usd": 0.0
+}
