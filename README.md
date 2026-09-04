@@ -13,6 +13,7 @@ A graphic novel about emergent AI agent coordination, instrumental convergence, 
 - `scripts/` — validation, cross-reference, and site-generation utilities.
 - `site/` — source styles and templates for the published site.
 - `docs/` — generated GitHub Pages output; do not edit manually.
+- `tasks/` — development task briefs for tooling work, written to be handed to a fresh session.
 
 The complete 112-page first-draft script is in `content/pages/`, with every page currently in review. The assumptions are locked in `content/story-contract.md`, the beat sheet is `content/page-plan.md`, and the drafting and production protocol is `content/draft-readiness.md`. The source-language audit and completed paraphrase disposition are in `research/exact-text-permissions-audit.md`; the story-level security pass and resolved public-site scope decision are in `research/security-sensitivity-review.md`. Last-mile attribution rules remain in `research/draft-source-notes.md`. Before revising or renaming pages, run:
 
