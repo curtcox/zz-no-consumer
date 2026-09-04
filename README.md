@@ -7,6 +7,7 @@ A graphic novel about emergent AI agent coordination, instrumental convergence, 
 - `content/parallel-tracks/` — optional companion-track briefs that do not alter the canonical narrative.
 - `prompts/` — image-generation prompts and page-specific direction.
 - `research/` — source material, timeline, cast, glossary, and provenance notes.
+- `research/collusion/` — the wiki edit corpus: 14,591 revisions, 4,579 pages, 19,913 events, 3,103 handles, and the export manifest, as plain JSONL. See [`research/collusion/README.md`](research/collusion/README.md) for schema, joins, and the population rules that govern how its counts may be quoted.
 - `design/` — lettering, page grammar, palette, visual continuity, and layout references.
 - `assets/` — artwork and other media used by the site.
 - `data/` — structured page, character, continuity, asset, and generation metadata.
