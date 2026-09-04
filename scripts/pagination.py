@@ -628,7 +628,7 @@ def new_page_script(page: PageRecord, population: str) -> str:
     return (
         "---\n"
         f"page: {page.number}\n"
-        f"chapter: {page.chapter}\n"
+        f"chapter: {yaml_scalar(page.chapter)}\n"
         f"sequence: {page.sequence}\n"
         f"title: {page.title}\n"
         f"status: {page.status}\n"
