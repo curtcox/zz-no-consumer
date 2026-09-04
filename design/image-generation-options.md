@@ -5,8 +5,11 @@ the reasoning; that is the evidence.
 
 ## The decision this book actually faces
 
-The book needs 541 panel images and 112 page sheets in one hand-inked style, held
-across roughly eight months of drafting. That shape makes the usual selection
+The book needs one image per panel slot and one sheet per page — 547 and 112 as the
+script currently stands, per `python3 scripts/panels.py report` — in one hand-inked
+style, held across roughly eight months of drafting. Every other panel count below is
+a measurement taken during the run it describes, and is left at the figure it was
+measured against. That shape makes the usual selection
 criteria mostly irrelevant:
 
 - **Character consistency matters less than usual, but it is not nothing.**

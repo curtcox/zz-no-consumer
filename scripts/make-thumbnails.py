@@ -11,14 +11,21 @@ from __future__ import annotations
 import argparse
 import html
 import re
+import sys
 from dataclasses import dataclass
 from pathlib import Path
+
+sys.path.insert(0, str(Path(__file__).resolve().parent))
+
+import panels  # noqa: E402  the panel and lettering model is defined once, there
 
 
 ROOT = Path(__file__).resolve().parents[1]
 PAGE_DIR = ROOT / "content" / "pages"
 DEFAULT_OUTPUT = ROOT / "256t" / "site" / "production" / "thumbnails" / "index.html"
-WORD = re.compile(r"[A-Za-z0-9]+(?:[’'][A-Za-z0-9]+)*")
+WORD = panels.WORD
+DENSE = panels.DENSE_PAGE_WORDS
+DEFAULT_BAND = panels.DEFAULT_BAND
 
 
 @dataclass(frozen=True)
@@ -62,39 +69,8 @@ def front_matter(source: str, key: str) -> str:
     return match.group(1).strip('"')
 
 
-def panel_count(source: str) -> int:
-    individual = len(re.findall(r"^## Panel \d+\s*$", source, re.MULTILINE))
-    if individual:
-        return individual
-    grouped = re.search(r"^## Panels (\d+)[–-](\d+)\s*$", source, re.MULTILINE)
-    if grouped:
-        return int(grouped.group(2)) - int(grouped.group(1)) + 1
-    return 0
-
-
-def visible_text(source: str) -> list[str]:
-    """Extract intended lettering, excluding script directions and provenance."""
-    output: list[str] = []
-    active = False
-    visible_headers = (
-        "**Caption",
-        "**Dialogue",
-        "**Screen / system text",
-        "**Qualification",
-    )
-    for line in source.splitlines():
-        if line.startswith("## "):
-            active = False
-        if line.startswith(visible_headers):
-            active = True
-            continue
-        if line.startswith("**") and not line.startswith(visible_headers):
-            active = False
-        if line.startswith("> "):
-            output.append(line[2:].strip())
-        elif active and line.startswith("`") and line.endswith("`"):
-            output.append(line.strip("`").strip())
-    return [line for line in output if line]
+panel_count = panels.panel_count
+visible_text = panels.visible_text
 
 
 def page_purpose(source: str) -> str:
@@ -104,8 +80,8 @@ def page_purpose(source: str) -> str:
 
 def load_pages() -> list[Page]:
     pages: list[Page] = []
-    for number in range(1, 113):
-        path = PAGE_DIR / f"{number:03d}.md"
+    for path in sorted(PAGE_DIR.glob("[0-9][0-9][0-9].md")):
+        number = int(path.stem)
         source = path.read_text(encoding="utf-8")
         lettering = visible_text(source)
         pages.append(
@@ -125,18 +101,19 @@ def load_pages() -> list[Page]:
 
 
 def panel_grid(page: Page) -> str:
-    panels = "".join(
+    cells = "".join(
         f'<span class="mini-panel"><i>{index}</i></span>'
         for index in range(1, page.panel_count + 1)
     )
-    return f'<div class="mini-page {page.layout}" aria-label="{page.panel_count} provisional panels">{panels}</div>'
+    return f'<div class="mini-page {page.layout}" aria-label="{page.panel_count} provisional panels">{cells}</div>'
 
 
 def page_card(page: Page | None, *, position: str) -> str:
     if page is None:
         return f'<article class="page-card blank {position}"><span>blank / endmatter</span></article>'
-    density = " density-warning" if page.word_count > 180 else ""
-    unusual = " rhythm-note" if page.panel_count not in {4, 5, 6, 9} else ""
+    density = " density-warning" if page.word_count > DENSE else ""
+    band = set(range(DEFAULT_BAND[0], DEFAULT_BAND[1] + 1)) | {9}
+    unusual = " rhythm-note" if page.panel_count not in band else ""
     return f'''<article class="page-card {position}{density}{unusual}">
       <header><b>{page.number:03d}</b><span>{html.escape(page.side)}</span></header>
       {panel_grid(page)}
@@ -147,12 +124,22 @@ def page_card(page: Page | None, *, position: str) -> str:
     </article>'''
 
 
-def spread_rows(pages: list[Page]) -> str:
+def physical_spreads(pages: list[Page]) -> list[tuple[Page | None, Page | None, str]]:
+    """Page 1 is a recto, so it stands alone and every later spread is (even, odd)."""
     by_number = {page.number: page for page in pages}
+    last = max(by_number)
     spreads: list[tuple[Page | None, Page | None, str]] = [(None, by_number[1], "Opening recto")]
-    for even in range(2, 112, 2):
-        spreads.append((by_number[even], by_number[even + 1], f"Turn {even:03d} → {even + 1:03d}"))
-    spreads.append((by_number[112], None, "Final verso"))
+    for even in range(2, last, 2):
+        if even + 1 in by_number:
+            spreads.append((by_number[even], by_number[even + 1],
+                            f"Facing {even:03d} → {even + 1:03d}"))
+    if last % 2 == 0:
+        spreads.append((by_number[last], None, "Final verso"))
+    return spreads
+
+
+def spread_rows(pages: list[Page]) -> str:
+    spreads = physical_spreads(pages)
     output = []
     for index, (left, right, label) in enumerate(spreads, 1):
         turn = ""
@@ -176,6 +163,7 @@ def build_document(pages: list[Page]) -> str:
     total_words = sum(page.word_count for page in pages)
     densest = max(pages, key=lambda page: page.word_count)
     count_five = sum(page.panel_count == 5 for page in pages)
+    spread_count = len(physical_spreads(pages))
     body = spread_rows(pages)
     return f'''<!doctype html>
 <html lang="en">
@@ -213,8 +201,8 @@ def build_document(pages: list[Page]) -> str:
 </head>
 <body>
   <header class="mast"><h1>ZZ: NO CONSUMER — provisional thumbnail wall</h1>
-    <p>Panel order is canonical; geometry is provisional. Blue outlines mark non-default rhythms. Claret would mark pages over 180 words.</p>
-    <div class="summary"><span>112 pages</span><span>{total_panels} panels</span><span>{total_words} lettered words</span><span>{count_five} five-panel pages</span><span>Densest: {densest.number:03d} / {densest.word_count} words</span><span>57 physical spreads</span></div>
+    <p>Panel order is canonical; geometry is provisional. Blue outlines mark non-default rhythms. Claret would mark pages over {DENSE} words.</p>
+    <div class="summary"><span>{len(pages)} pages</span><span>{total_panels} panels</span><span>{total_words} lettered words</span><span>{count_five} five-panel pages</span><span>Densest: {densest.number:03d} / {densest.word_count} words</span><span>{spread_count} physical spreads</span></div>
   </header>
   <main>{body}</main>
 </body>
@@ -227,8 +215,6 @@ def main() -> int:
     args = parser.parse_args()
     output = args.output if args.output.is_absolute() else ROOT / args.output
     pages = load_pages()
-    if len(pages) != 112:
-        raise SystemExit(f"Expected 112 pages, found {len(pages)}")
     invalid = [page.number for page in pages if page.panel_count == 0]
     if invalid:
         raise SystemExit(f"Pages with no recognized panel structure: {invalid}")
@@ -236,13 +222,13 @@ def main() -> int:
     output.write_text(build_document(pages), encoding="utf-8")
     densest = max(pages, key=lambda page: page.word_count)
     print(
-        f"Built 57-spread thumbnail wall for {len(pages)} pages / "
+        f"Built {len(physical_spreads(pages))}-spread thumbnail wall for {len(pages)} pages / "
         f"{sum(page.panel_count for page in pages)} panels at {output.relative_to(ROOT)}."
     )
     print(
         f"Lettering: {sum(page.word_count for page in pages)} visible words; "
         f"densest page {densest.number:03d} has {densest.word_count}; "
-        f"{sum(page.word_count > 180 for page in pages)} pages exceed 180."
+        f"{sum(page.word_count > DENSE for page in pages)} pages exceed {DENSE}."
     )
     return 0
 

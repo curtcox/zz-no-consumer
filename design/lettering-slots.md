@@ -14,7 +14,8 @@ controlled layer applied after the art. This proposal settles the one question t
 answer leaves open: **where on the panel does that layer put things?**
 
 The alternative to a convention is authoring a position for every element by hand.
-There are 511 lettering elements across 541 panels. A convention is not a
+There are 517 lettering elements across the 547 image slots the page scripts
+currently declare — `python3 scripts/panels.py report` measures both. A convention is not a
 simplification here; it is the difference between a build step and a second book.
 
 ## The slots

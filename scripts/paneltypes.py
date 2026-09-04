@@ -15,7 +15,9 @@ the page script, its display strings, and its page front matter — and assigns:
 
 Types are many-to-one onto routes, because several different-looking panels make
 the same demand. `design/panel-image-types.md` is the key; `data/panel-types.tsv`
-is the classification of all 539 panels, written by this script.
+is the classification of every image slot the page scripts declare, written by
+this script. The number of them is a measurement -- `scripts/panels.py report`
+prints it -- and is deliberately not repeated here.
 
     python3 scripts/paneltypes.py write     # refresh data/panel-types.tsv
     python3 scripts/paneltypes.py summary   # counts by type and route

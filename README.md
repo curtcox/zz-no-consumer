@@ -60,11 +60,31 @@ python3 scripts/paneltypes.py write
 python3 scripts/build-site.py
 ```
 
-**Parity is the point.** Story page 1 is a recto, so inserting or deleting an odd number of pages swaps recto and verso for everything after the change. The script asserts its own parity 89 times, directs art with `**Frame:** Recto.` on 71 pages, and names 21 page turns that only work even-to-odd. The tool checks every one of those on every run, and after an operation reports each assertion it invalidated, each turn it broke, and each turn it merely renumbered. It repairs none of them: a parity-inverting operation is refused outright unless `--allow-parity-shift` is passed, and `check` stays red until the work list is worked. The design and the alternatives considered are in [`design/page-identity.md`](design/page-identity.md).
+**Parity is the point.** Story page 1 is a recto, so inserting or deleting an odd number of pages swaps recto and verso for everything after the change. The script asserts its own parity 89 times, directs art with `**Frame:** Recto.` on 71 pages, and names 21 beats whose device is a consequence of parity — twenty reveals across the gutter, which need an even-to-odd pair, and one turn across the leaf, which needs an odd-to-even one. The tool checks every one of those on every run, and after an operation reports each assertion it invalidated, each beat it broke, and each beat it merely renumbered. It repairs none of them: a parity-inverting operation is refused outright unless `--allow-parity-shift` is passed, and `check` stays red until the work list is worked. The design and the alternatives considered are in [`design/page-identity.md`](design/page-identity.md).
 
 Reference rewriting is deliberately narrow. Padded three-digit forms (`page 003`, `pages 019–021`, `page-003`) are rewritten; `printed page(s) N` is excluded because thirteen references in the tree cite pages of the OpenAI technical report; bare one- and two-digit forms are reported and never guessed at; `data/generation-log.jsonl` and `design/page-identity.md` are dated records and are left alone.
 
-`check` currently reports two open findings, both pre-existing and both editorial: `content/pages/099.md` opens a panel with `Verso` on an odd page, and the `085 → 086` row of the page-turn audit is odd-to-even where every other row is even-to-odd. A third, at warning level, is that the contract's recto assumption and its even-to-odd turn rule do not close.
+`check` is green, including `--strict`, and is meant to stay that way: a red tree is a work list, not a baseline. Its two long-standing findings were closed on 4 September 2026 — page 099 claimed `Verso` on an odd page, and the audit filed `085 → 086` as the same device as every even-to-odd row when it is the one beat in the book that lands across a leaf.
+
+## Panels
+
+`scripts/panels.py` does for a panel what `pagination.py` does for a page. A panel's identity is its ordinal index inside its page, and that index lives in the `## Panel N` heading, in art keys in `data/panel-art.tsv`, in `assets/art/panels/NNN-II/`, in `prompts/pages/NNN/panel-II.md`, in the generated classification table and viewer routes, and in the page notes and frame directions that name a panel by number — including the ones that name another page's panel, like `Repeat page 003 panel 2`. Adding a beat to a page is therefore one deterministic rewrite, not a reason to grow an existing panel's **Action** line.
+
+```sh
+python3 scripts/panels.py report                  # panel census, rhythm map, lettering load, reference census
+python3 scripts/panels.py check                   # exit non-zero while the tree disagrees with itself
+python3 scripts/panels.py insert --page 039 --at 4
+python3 scripts/panels.py delete 039-04
+python3 scripts/panels.py move 086-06 --to 3
+```
+
+Operations print a plan and touch nothing without `--apply`, and the same two regeneration commands follow an applied one.
+
+**Rhythm is to a panel what parity is to a page.** [`design/page-grammar.md`](design/page-grammar.md) bands a page at four to six panels by default, one to three for an establishing or revelation page, five to nine for a procedural sequence; [`design/lettering-slots.md`](design/lettering-slots.md) anchors four lettering slots per panel, so a fifth element on one panel has nowhere to go. An operation that leaves the default band is refused unless `--allow-rhythm-shift` is passed, one that discards generated art unless `--allow-art-loss` is, and either way the tool prints the new rhythm, every panel whose lettering no longer fits, and every image that now sits under a different beat. It repairs none of it.
+
+Reference rewriting is narrow in the same way pagination's is. A bare `panel 4` is local to the page script or `prompts/pages/NNN/` file it sits in; `page 003 panel 2` names another page's; anything inside a code fence or inline backticks quotes a form rather than pointing at a panel, so it is reported as an example and never rewritten; `data/generation-log.jsonl` and `design/image-generation-options.md` are dated records and are left alone. A reference that names no page, in a file that is not scoped to one, is reported and never guessed at.
+
+The panel count is a measurement, not a contract. `panels.py report` derives it, `scripts/imagegen.py` and `scripts/make-thumbnails.py` read it rather than hard-coding it, and prose that quotes it should say when it was measured.
 
 ## Cross references
 
@@ -133,7 +153,7 @@ python3 scripts/textimage.py render --width 1200 --height 800 --out card.svg \
 
 `--text-file` and standard input work in place of `--text`. `--label` and `--footer` are single-line edge markers, shortened rather than allowed to widen the image.
 
-The `book` command writes one placeholder for every page and every panel image slot in `content/pages/` — 112 page sheets at 700×1000 and 541 panel images at 1200×800:
+The `book` command writes one placeholder for every page and every panel image slot in `content/pages/` — as the script stands, 112 page sheets at 700×1000 and 547 panel images at 1200×800:
 
 ```sh
 python3 scripts/textimage.py book --out-dir docs/assets/placeholders
@@ -145,7 +165,7 @@ Panel placeholders are keyed to the same image slots the viewer routes use, so a
 
 ## Choosing an image generator
 
-The candidates, their prices, and the recommendation are in [`design/image-generation-options.md`](design/image-generation-options.md). The short version: the binding constraint is style and environment consistency across 541 panels, not per-image quality, and at six attempts per slot the whole book costs between $24 and $646 in API spend.
+The candidates, their prices, and the recommendation are in [`design/image-generation-options.md`](design/image-generation-options.md). The short version: the binding constraint is style and environment consistency across every panel in the book, not per-image quality, and at six attempts per slot the whole book costs between $24 and $646 in API spend.
 
 Two runners send byte-identical prompts to every candidate. Each prompt is composed from the same sources final artwork will use — `prompts/global-style.md`, `prompts/negative-prompt.md`, `design/palette.md`, and the panel's own direction, and is fitted to the tightest text-encoder limit in the run. That fitting is not cosmetic: a model reads only its first `prompt_tokens` and silently discards the rest, and these prompts used to run to twice FLUX.2's 512-token ceiling, so half of every one of them — the palette, the negative prompt — was never delivered. `python3 scripts/imagegen.py prompts --provider <id>` shows what survives and what is dropped.
 
@@ -193,7 +213,7 @@ Two backends are supported. `command` runs a local binary with a templated argv 
 
 ## Producing the artwork
 
-`scripts/produce.py` generates the book's 541 panel images locally and writes them to `assets/art/panels/NNN-II.webp`, where `scripts/build-site.py` letters them through the approved slot convention in [`design/lettering-slots.md`](design/lettering-slots.md).
+`scripts/produce.py` generates the book's panel images locally and writes them to `assets/art/panels/NNN-II.webp`, where `scripts/build-site.py` letters them through the approved slot convention in [`design/lettering-slots.md`](design/lettering-slots.md).
 
 ```sh
 python3 scripts/produce.py status                  # how much of the book has art
@@ -205,14 +225,14 @@ python3 scripts/produce.py run --from 001 --to 020 # a range of pages
 python3 scripts/produce.py run --chapter prologue  # a chapter
 ```
 
-Selections combine, and `--register creator`, `--type`, `--route`, `--limit N`, and `--takes N` narrow further. `--type` and `--route` are the mechanism for running a mix of generators: [`design/panel-image-types.md`](design/panel-image-types.md) classifies every panel by what its description demands, and [`data/panel-types.tsv`](data/panel-types.tsv) is the table. Just over half the book needs nothing a 16 GB laptop cannot do, while 78 panels need long strings spelled correctly and 57 need reference conditioning for a recurring face — so the premium models are worth their price on a quarter of the book and wasted on the rest.
+Selections combine, and `--register creator`, `--type`, `--route`, `--limit N`, and `--takes N` narrow further. `--type` and `--route` are the mechanism for running a mix of generators: [`design/panel-image-types.md`](design/panel-image-types.md) classifies every panel by what its description demands, and [`data/panel-types.tsv`](data/panel-types.tsv) is the table. Just over half the book needs nothing a 16 GB laptop cannot do, while 80 panels need long strings spelled correctly and 59 need reference conditioning for a recurring face — so the premium models are worth their price on a quarter of the book and wasted on the rest. Those splits are measurements; `python3 scripts/panels.py report` and `python3 scripts/paneltypes.py summary` print the current ones.
 
 ```sh
 python3 scripts/paneltypes.py summary              # counts by type and route
-python3 scripts/produce.py run --route local       # the 271 panels any model can draw
+python3 scripts/produce.py run --route local       # the 270 panels any model can draw
 python3 scripts/produce.py run --route text-fidelity --provider qwen-image-local
 ```
- A full pass is 541 renders — about twelve hours at the measured 78 seconds each, at the `--bleed 0.10` the drawn-border crop needs — so the run is built to be interrupted: panels that already have art are skipped, a running estimate is printed, and Ctrl-C stops after the current panel rather than losing it. Re-running continues where it stopped. `--force` regenerates existing panels and says how many it will overwrite first.
+ A full pass is one render per slot — 547 as the script stands, about twelve hours at the measured 78 seconds each, at the `--bleed 0.10` the drawn-border crop needs — so the run is built to be interrupted: panels that already have art are skipped, a running estimate is printed, and Ctrl-C stops after the current panel rather than losing it. Re-running continues where it stopped. `--force` regenerates existing panels and says how many it will overwrite first.
 
 Each panel's prompt is composed from the same canonical sources the bake-off uses, with the register modifier derived from the page's primary location. `python3 scripts/produce.py registers -v` prints that derivation for every page so a wrong call is visible rather than silent; the rules live in `REGISTER_RULES` at the top of the script.
 

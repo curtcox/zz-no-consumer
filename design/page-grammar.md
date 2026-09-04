@@ -67,7 +67,7 @@ Omit unused dialogue categories rather than leaving empty headings.
 
 ## Page turns and spreads
 
-Story page 1 is a right-hand recto; odd pages are recto and even pages are verso. A physical page-turn reveal is normally prepared at the end of an even page and lands on the following odd page. Prefer one of four turn functions:
+Story page 1 is a right-hand recto; odd pages are recto and even pages are verso. A reveal prepared at the end of an even page lands on the odd page beside it, which the reader can already see: that is a reveal across the gutter, and it works by reading order. A reveal prepared at the end of an odd page lands on the even page behind it, which is concealed until the leaf moves: that is a turn across the leaf. Choose the device deliberately; `content/production-review.md` audits them separately. Prefer one of four reveal functions:
 
 1. a newly discovered resource;
 2. a boundary shown to be permeable;

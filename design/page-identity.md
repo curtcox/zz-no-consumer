@@ -295,3 +295,40 @@ Separate commit, mechanical, no editorial content changed.
   commands and `check` fails until they have been run.
 - Parity inversion has no automated remedy and this note does not propose one. That is the
   finding, not a gap.
+
+---
+
+## Addendum, 4 September 2026
+
+Two things in this note have since changed, and both are recorded here rather than edited
+into the text above, which is the decision as it was made.
+
+**The turn-convention contradiction is closed.** The last bullet under *Known limits* says
+the turn model is checked against a shape the recto-first-page assumption contradicts, and
+that resolving it is editorial. It was resolved by naming two devices instead of one: an
+(even, odd) pair is a **reveal across the gutter**, visible at once and working by reading
+order, and an (odd, even) pair is a **turn across the leaf**, concealed until the leaf moves.
+Both are legitimate, no named beat changed, and the audit in `content/production-review.md`
+now files each row under the device it uses. `pagination.py check` holds each row to the
+shape of its own section and no longer emits `turn-convention-unclosed`. The book turns out
+to choreograph almost entirely across the gutter: twenty named reveals, one named turn.
+
+The other finding this note predicted — `content/pages/099.md` claiming `Verso` on an odd
+page — was a stale note, not a broken reveal. Page 099 is the landing of the 098 → 099
+facing reveal, and landings are recto. It now reads `**Frame:** Recto.`, and
+`pagination.py check` is green, including `--strict`.
+
+**Invariant 7 was only half applied.** *112 is not an invariant* removed the hard-coded page
+count from `validate-continuity.py` and `build-site.py`, but `make-thumbnails.py` still
+hard-coded `range(1, 113)`, the 57 spreads, and a `SystemExit` on any count but 112 — so an
+applied insertion would have broken it — and `imagegen.py` still priced the whole book off
+`PANEL_SLOTS = 541`. Both now derive their counts. The panel-level version of this note is
+[`panel-identity.md`](panel-identity.md).
+
+**One defect in the tool, found by the panel acceptance runs.** `plan_rewrite` wrote a
+rewritten file under the name a rename was about to vacate, and `commit` then moved the
+staged original on top of the destination. `prompts/pages/NNN/` files name their own page, so
+any insertion at or before page 002 would have left them stale in the renamed directory and
+dropped a stray `prompts/pages/001/` pointing at a page that had moved. Renames now land
+before writes, and a write inside a renamed directory is keyed to its destination. See
+[`../tasks/panel-identity-acceptance.md`](../tasks/panel-identity-acceptance.md).

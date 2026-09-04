@@ -60,9 +60,17 @@ Pages 006–007 retain the only paired nine-panel grids. Page 012 retains six as
 
 ## Page-turn audit
 
-All 55 even-to-odd physical turns have an identifiable outgoing beat and landing purpose. The opening recto and final verso are represented separately. The strongest structural turns remain (the 038 → 039 and 085 → 086 turns below were added by the September 3 revision and have not been re-audited in paired spreads):
+Story page 1 is a recto, so the 57 physical spreads are the lone opening recto, 55 facing pairs of an even page and the odd page after it, and the lone final verso. That layout gives a reveal two different devices, and they are not interchangeable.
 
-| Turn | Function |
+A **reveal across the gutter** is prepared on an even page and lands on the odd page beside it. Both pages are already in front of the reader, so it works by reading order rather than by concealment: the eye crosses the gutter, and the second image reinterprets the first. 55 pairs exist.
+
+A **turn across the leaf** is prepared on an odd page and lands on the even page behind it. The landing is genuinely hidden until the leaf moves. 56 turns exist.
+
+The two are audited separately because `python3 scripts/pagination.py check` measures each against a different arithmetic shape, and because a beat built for one device does not survive being moved to the other. As the book stands, it choreographs almost entirely across the gutter: twenty named reveals and one named turn. All 55 facing pairs have an identifiable outgoing beat and landing purpose; the strongest are named below. The 038 → 039 reveal and the 085 → 086 turn were added by the September 3 revision and have not been re-audited in paired spreads.
+
+### Reveals across the gutter
+
+| Facing pair | Function |
 | --- | --- |
 | 002 → 003 | Impossible task → newly discovered shared resource |
 | 004 → 005 | Persistent message → first reply |
@@ -79,14 +87,21 @@ All 55 even-to-odd physical turns have an identifiable outgoing beat and landing
 | 072 → 073 | Evaluations shut down → creator rejects the neat emotional reading |
 | 038 → 039 | Creator confidence peaks → a published critique breaks the thesis |
 | 080 → 081 | AI analysis is necessary → conflicting log claims appear |
-| 085 → 086 | Tools resemble each other → the reader's own belief is charged |
 | 088 → 089 | Seams remain visible → concrete remediation begins |
 | 098 → 099 | Coordination remains missing → invented forum disclosed |
 | 104 → 105 | Incident becomes artifact → manuscript assembly |
 | 108 → 109 | Publication → explicitly invented future |
 | 110 → 111 | Local side effect has an audience → shared visibility confirmed |
 
-No turn currently depends on concealing a fact already known to the viewpoint. Source-register changes at 012→013, 066→067, 088→089, and 108→109 require unmistakable palette, border, and typography changes in final thumbnails.
+### Turns across the leaf
+
+| Turn | Function |
+| --- | --- |
+| 085 → 086 | Tools resemble each other → the reader's own belief is charged |
+
+That this table has one row is a finding, not an omission. The book's central manipulation of the reader — page 086's enlarged provenance tag, which changes what page 064 was allowed to mean — is the only beat currently built on a landing the reader cannot already see. Whether more of the book should work that way is an editorial question the audit does not answer; it names the device so the question can be asked.
+
+No reveal currently depends on concealing a fact already known to the viewpoint. Source-register changes at 012→013, 066→067, 088→089, and 108→109 require unmistakable palette, border, and typography changes in final thumbnails.
 
 ## Remaining production checks
 

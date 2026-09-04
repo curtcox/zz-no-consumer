@@ -1,7 +1,8 @@
 #!/usr/bin/env python3
 """Run the same panel prompts through every candidate image generator.
 
-The book needs 541 panel images and 112 page sheets in one hand-inked style.
+The book needs one image per panel slot and one sheet per page, all in one
+hand-inked style.
 Choosing the generator is therefore a production decision about style stability,
 palette discipline, and text suppression, not a shopping trip. This module makes
 that decision testable: it composes one canonical prompt per sample panel from
@@ -52,6 +53,7 @@ from dataclasses import dataclass, field
 from datetime import datetime, timezone
 from pathlib import Path
 
+import panels
 import textimage
 
 
@@ -65,8 +67,11 @@ LOCAL_MODELS = ROOT / "data" / "local-models.json"
 
 PANEL_SIZE = textimage.PANEL_SIZE          # 1200 x 800, the book's panel slot
 PANEL_ASPECT = "3:2"
-PANEL_SLOTS = 541                          # panel images in content/pages/
-PAGE_SLOTS = 112                           # page sheets
+# Both are measurements of the page scripts, never constants: `scripts/panels.py` and
+# `scripts/pagination.py` change them whenever a panel or a page is added or removed.
+_SCRIPTS = panels.read_scripts()
+PANEL_SLOTS = len(panels.slot_keys(_SCRIPTS))   # image slots in content/pages/
+PAGE_SLOTS = len(_SCRIPTS)                      # page sheets
 ATTEMPTS_PER_SLOT = 6                      # planning assumption for full-book cost
 
 OPENROUTER_IMAGES = "https://openrouter.ai/api/v1/images"
@@ -173,7 +178,7 @@ PROVIDERS: tuple[Provider, ...] = (
         openrouter_usd=0.134,
         strengths="native multi-reference conditioning; the strongest control we have over "
                   "reusing an established environment across separate calls",
-        risks="closed weights that can move under a 112-page book; highest unit price; "
+        risks="closed weights that can move under a book this long; highest unit price; "
               "eager to render legible interface text unless pushed hard",
     ),
     Provider(

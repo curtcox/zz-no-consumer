@@ -1,17 +1,19 @@
 # Panel Image Types
 
-The key for routing panels to generators. The classification of all 541 panels is
+The key for routing panels to generators. The classification of every panel is
 [`../data/panel-types.tsv`](../data/panel-types.tsv), written by
-`scripts/paneltypes.py` from the page scripts themselves.
+`scripts/paneltypes.py` from the page scripts themselves. How many there are is a
+measurement, not a constant: `python3 scripts/panels.py report` prints it.
 
 ## Why a key at all
 
 No one model is best at everything this book needs. A dark aisle with no text wants
 whatever is cheapest per image; a two-column source comparison carrying a
 thirty-seven-character header wants a model that can spell; a panel showing Curt
-cannot be drawn at all until an approved reference sheet exists. Sending all 541
-panels to one generator means either paying premium rates for the 44% that are
-plain scenes, or failing the 14% that are not.
+cannot be drawn at all until an approved reference sheet exists. Sending every
+panel to one generator means either paying premium rates for the plain scenes,
+which are 41% of the book, or failing the 15% that need long strings spelled
+correctly. `python3 scripts/paneltypes.py summary` prints the current shares.
 
 Each panel gets a **type**, describing what the image is, and a **route**,
 describing the capability a model must have to draw it. Types are many-to-one onto

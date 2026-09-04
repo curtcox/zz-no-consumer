@@ -85,8 +85,8 @@ Versions are the expensive part of this design, so the accounting is explicit:
 
 `python3 scripts/panelart.py size` projects the store from what is actually there.
 Measured on real output — bleed-cropped WebP at 1200x800 — a panel is about 302 KB,
-so 541 panels cost roughly **160 MB per version kept**: 319 MB for two each, 479 MB
-for three. Two is a reasonable working ceiling; three is worth a deliberate decision
+so the book's 547 slots cost roughly **165 MB per version kept**: 330 MB for two each,
+495 MB for three. Two is a reasonable working ceiling; three is worth a deliberate decision
 rather than a drift, and a larger panel size would move all three figures.
 
 Rejecting a version keeps it on disk. If the store needs to shrink, rejected

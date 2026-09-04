@@ -10,7 +10,9 @@ rewrite rather than a reason to fold a page into its neighbour.
 Renumbering is the cheap half. The expensive half is parity. Story page 1 is a recto, so
 inserting an odd number of pages swaps recto and verso for every page after the insertion
 point, and the script asserts its own parity 89 times, directs art by parity on 71 pages,
-and choreographs 21 named page turns that only work even-to-odd. Getting the numbers right
+and choreographs 21 named beats that depend on which side of the gutter a page lands on --
+a reveal across the gutter needs an even-to-odd pair, a turn across the leaf an odd-to-even
+one, and an odd insertion turns each into the other. Getting the numbers right
 does not repair any of that, and neither does this tool. Parity-inverting operations are
 refused unless asked for explicitly, and when they are taken the complete list of
 invalidated assertions, turns, and compositions is printed. The reasoning is in
@@ -47,6 +49,7 @@ ROOT = Path(__file__).resolve().parents[1]
 HISTORICAL = (
     "data/generation-log.jsonl",
     "design/page-identity.md",
+    "design/panel-identity.md",
 )
 
 # Hand-written prose lives here. tasks/ holds briefs about the repository rather than parts
@@ -188,11 +191,31 @@ class Assertion:
         return "error" if self.kind == "frame" else "warning"
 
 
+FACING, LEAF = "facing", "leaf"
+
+# The audit names its two devices in section headings, because they are checked against
+# different arithmetic. See content/story-contract.md, "Physical page assumptions".
+TURN_SECTIONS = (
+    (re.compile(r"^###\s+Reveals across the gutter\s*$", re.MULTILINE), FACING),
+    (re.compile(r"^###\s+Turns across the leaf\s*$", re.MULTILINE), LEAF),
+)
+
+
 @dataclass(frozen=True)
 class Turn:
     outgoing: int
     landing: int
     function: str
+    device: str = FACING
+
+    @property
+    def label(self) -> str:
+        return "an even-to-odd facing pair" if self.device == FACING else "an odd-to-even turn"
+
+    def holds(self, outgoing: int, landing: int) -> bool:
+        """Is this pair still the device the audit files it under?"""
+        parity = 0 if self.device == FACING else 1
+        return landing == outgoing + 1 and outgoing % 2 == parity
 
 
 def read_assertions() -> list[Assertion]:
@@ -215,9 +238,23 @@ def read_assertions() -> list[Assertion]:
 
 
 def read_turns() -> list[Turn]:
+    """Read the audit section by section, so each row is checked as the device it claims."""
     text = (ROOT / "content" / "production-review.md").read_text(encoding="utf-8")
+    starts = sorted(
+        (match.start(), device)
+        for pattern, device in TURN_SECTIONS
+        for match in pattern.finditer(text)
+    )
+
+    def device_at(position: int) -> str:
+        current = FACING
+        for start, device in starts:
+            if start < position:
+                current = device
+        return current
+
     return [
-        Turn(int(match.group(1)), int(match.group(2)), match.group(3))
+        Turn(int(match.group(1)), int(match.group(2)), match.group(3), device_at(match.start()))
         for match in TURN_ROW.finditer(text)
     ]
 
@@ -441,13 +478,12 @@ def turn_notes(turns: list[Turn], mapping: dict[int, int] | None) -> list[Note]:
     notes: list[Note] = []
     for turn in turns:
         if mapping is None:
-            intact = turn.landing == turn.outgoing + 1 and turn.outgoing % 2 == 0
-            if not intact:
+            if not turn.holds(turn.outgoing, turn.landing):
                 notes.append(Note(
-                    "error", "turn-not-a-turn",
+                    "error", "turn-wrong-device",
                     f"{turn.outgoing:03d} → {turn.landing:03d}",
-                    "is not a consecutive even-to-odd pair, which is the shape every other "
-                    "row in the audit has",
+                    f"is filed as {turn.label} and is not one; move the row to the other "
+                    "table or renumber the beat",
                 ))
             continue
         if turn.outgoing not in mapping or turn.landing not in mapping:
@@ -458,27 +494,26 @@ def turn_notes(turns: list[Turn], mapping: dict[int, int] | None) -> list[Note]:
             ))
             continue
         out, land = mapping[turn.outgoing], mapping[turn.landing]
-        was_turn = turn.landing == turn.outgoing + 1 and turn.outgoing % 2 == 0
-        if not was_turn:
+        if not turn.holds(turn.outgoing, turn.landing):
             notes.append(Note(
                 "note", "turn-already-broken",
                 f"{turn.outgoing:03d} → {turn.landing:03d}",
-                f"was not an even-to-odd pair before this operation and becomes "
+                f"was not {turn.label} before this operation and becomes "
                 f"{out:03d} → {land:03d}",
             ))
             continue
-        if land == out + 1 and out % 2 == 0:
+        if turn.holds(out, land):
             if (out, land) != (turn.outgoing, turn.landing):
                 notes.append(Note(
                     "note", "turn-renumbered",
                     f"{turn.outgoing:03d} → {turn.landing:03d}",
-                    f"becomes {out:03d} → {land:03d} and still turns",
+                    f"becomes {out:03d} → {land:03d} and stays {turn.label}",
                 ))
         else:
             notes.append(Note(
                 "error", "turn-broken",
                 f"{turn.outgoing:03d} → {turn.landing:03d}",
-                f"becomes {out:03d} → {land:03d}, which is not an even-to-odd turn: "
+                f"becomes {out:03d} → {land:03d}, which is no longer {turn.label}: "
                 f"{turn.function}",
             ))
     return notes
@@ -499,35 +534,35 @@ def soft_notes(mapping: dict[int, int]) -> list[Note]:
 
 
 def convention_notes(book: Book) -> list[Note]:
-    """The repository states two page conventions. Check that they close.
+    """The repository's two page conventions have to keep closing.
 
-    ``content/story-contract.md`` says story page 1 is a recto, and
-    ``content/production-review.md`` counts 57 physical spreads, which only holds if the
-    first and last pages stand alone and every other spread pairs an even page with the
-    odd page after it. Under that layout an (even, odd) pair is a *facing spread*: both
-    pages are visible at once. But the same documents describe a page-turn reveal as
-    prepared on an even page and landing on the following odd page, which requires the
-    even page to be the last thing the reader sees before turning.
+    ``content/story-contract.md`` says story page 1 is a recto, so the physical spreads are
+    the lone opening recto, a run of (even, odd) facing pairs, and the lone final verso.
+    Under that layout an (even, odd) pair is *visible at once* and an (odd, even) pair is
+    the only thing hidden behind a leaf. Those are two different devices, and the audit in
+    ``content/production-review.md`` files each row under the one it uses.
 
-    Both cannot be true. This is reported, never resolved: which convention is intended is
-    an editorial decision, and the answer changes what 21 named turns are for.
+    That resolution lives in prose, so it can be undone by an edit. This checks that a
+    recto first page still comes with an audit that names both devices; the rows themselves
+    are checked against their own section by ``turn_notes``.
     """
     notes: list[Note] = []
     contract = (ROOT / "content" / "story-contract.md").read_text(encoding="utf-8")
     if "Story page 1 is a right-hand recto" not in contract:
         return notes
-    if "prepared at the end of an even page and lands on the following odd page" not in contract:
+    review = (ROOT / "content" / "production-review.md").read_text(encoding="utf-8")
+    missing = [device for pattern, device in TURN_SECTIONS if not pattern.search(review)]
+    if not missing:
         return notes
     total = len(book.pages)
     spreads = 1 + (total - 1) // 2 + (1 if total % 2 == 0 else 0)
     notes.append(Note(
-        "warning", "turn-convention-unclosed", "content/story-contract.md",
-        f"page 1 is a recto and the book has {total} pages, so the {spreads} physical "
-        "spreads pair each even page with the odd page after it and the reader sees both "
-        "at once; a reveal prepared on an even page and landing on the following odd page "
-        "therefore lands on a facing page rather than across a turn. The audit in "
-        "content/production-review.md is checked against the stated even-to-odd shape, "
-        "not against this",
+        "warning", "turn-convention-unclosed", "content/production-review.md",
+        f"page 1 is a recto and the book has {total} pages, so its {spreads} physical "
+        "spreads make an even-to-odd pair a facing reveal and an odd-to-even pair a turn "
+        "across the leaf. The audit no longer names both devices ("
+        + ", ".join(missing) + " is missing), so every row is being checked as a facing "
+        "reveal by default",
     ))
     return notes
 
@@ -817,6 +852,19 @@ def plan_rewrite(book: Book, operation: Operation, population: str) -> Plan:
                     f"{directory}/{mapping[old]:03d}{match.group(2) or ''}",
                 ))
 
+    # A rewritten file that lives inside a renamed directory belongs at its destination, not
+    # at the name the directory is about to vacate. `prompts/pages/NNN/` is the case that
+    # bites: its files name their own page, so they are rewritten and moved at once.
+    # Remapped in one pass, because a shift is a permutation and popping keys one at a time
+    # would let one page's prompts land on another's.
+    def destination(relative: str) -> str:
+        for source, target in plan.renames:
+            if relative.startswith(source + "/"):
+                return target + relative[len(source):]
+        return relative
+
+    plan.writes = {destination(relative): text for relative, text in plan.writes.items()}
+
     # --- historical records -------------------------------------------------
     for relative in HISTORICAL:
         path = ROOT / relative
@@ -963,14 +1011,17 @@ def commit(plan: Plan) -> None:
             path = ROOT / relative
             if path.exists():
                 path.unlink()
-        for relative, text in sorted(plan.writes.items()):
-            path = ROOT / relative
-            path.parent.mkdir(parents=True, exist_ok=True)
-            path.write_text(text, encoding="utf-8")
+        # Renames land before writes, never after: a rewritten file inside a renamed
+        # directory is written under its destination, and unstaging afterwards would put
+        # the original content back on top of it.
         for index, (_, destination) in enumerate(plan.renames):
             target = ROOT / destination
             target.parent.mkdir(parents=True, exist_ok=True)
             shutil.move(str(staging / str(index)), str(target))
+        for relative, text in sorted(plan.writes.items()):
+            path = ROOT / relative
+            path.parent.mkdir(parents=True, exist_ok=True)
+            path.write_text(text, encoding="utf-8")
     finally:
         shutil.rmtree(staging, ignore_errors=True)
 
@@ -1016,10 +1067,12 @@ def cmd_report(book: Book, sites: list[Site]) -> int:
         wrong = [item for item in items if item.claimed != parity_of(item.target)]
         print(f"  {label:<20} {len(items):>3} claims on "
               f"{len({item.page for item in items}):>3} pages, {len(wrong)} disagree with arithmetic")
-    intact = sum(1 for turn in turns
-                 if turn.landing == turn.outgoing + 1 and turn.outgoing % 2 == 0)
-    print(f"\nPage-turn audit: {len(turns)} named turns, {intact} are consecutive "
-          f"even-to-odd pairs, {len(turns) - intact} are not")
+    print(f"\nPage-turn audit: {len(turns)} named beats")
+    for device, label in ((FACING, "reveals across the gutter"), (LEAF, "turns across the leaf")):
+        rows = [turn for turn in turns if turn.device == device]
+        holding = sum(1 for turn in rows if turn.holds(turn.outgoing, turn.landing))
+        print(f"  {label:<26} {len(rows):>3} named, {len(rows) - holding} filed as the "
+              "wrong device")
     print("\nReference sites in prose")
     for kind in (REFERENCE, FOREIGN, RULE, AMBIGUOUS):
         print(f"  {kind:<12} {census.get(kind, 0):>4}")
