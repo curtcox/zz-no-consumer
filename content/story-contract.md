@@ -7,7 +7,7 @@ This document locks the assumptions for the first complete script draft. It may 
 ## Form and length
 
 - Format: full graphic-novel script, written page by page and panel by panel.
-- Story length: 112 pages, excluding covers, contents, acknowledgements, provenance notes, and bibliography.
+- Story length: currently 112 pages, excluding covers, contents, acknowledgements, provenance notes, and bibliography. **The count is a measurement, not a commitment.** It is derived from `data/pages.yaml` and reported by `python3 scripts/pagination.py report`; no script or document should restate it as a fixed number. Pages may be added or removed on editorial grounds, through `scripts/pagination.py`, at any point before lock.
 - Structure: prologue, six numbered chapters, and epilogue.
 - Each scripted page includes visual action, captions/dialogue, provenance notes, project-authored display strings when needed, and continuity checks.
 - The first draft optimizes for causal clarity and page turns. Final lettering density and panel geometry remain adjustable during thumbnails.
@@ -25,8 +25,12 @@ This document locks the assumptions for the first complete script draft. It may 
 
 - Story page 1 is a right-hand recto; odd pages are recto and even pages are verso.
 - A page-turn reveal is normally prepared at the end of an even page and lands on the following odd page.
-- Two-page spreads are permitted sparingly for scale, convergence, or evidence structure. They may not cross chapter boundaries, hide essential text in the gutter, or be required for the digital edition to remain legible.
-- The final story page may face endmatter or an unnumbered black page in print; endmatter layout does not change the 112-page story count.
+- Two-page spreads are permitted sparingly for scale, convergence, or evidence structure. They may not cross chapter boundaries, hide essential text in the gutter, or be required for the digital edition to remain legible. A page script may declare one with a `spread:` front-matter field naming its verso; `scripts/pagination.py check` then enforces the pairing and the chapter rule.
+- The final story page may face endmatter or an unnumbered black page in print; endmatter layout does not change the story page count.
+
+**Parity is enforced, not assumed.** Every `**Frame:** Recto.` or `**Frame:** Verso.` opening, every page note that names a page's side, and every row of the page-turn audit in `content/production-review.md` is checked against arithmetic by `python3 scripts/pagination.py check`. Adding or removing an odd number of pages inverts recto and verso for everything after the change, and the tool refuses such an operation unless `--allow-parity-shift` is passed, then prints every assertion and turn the shift invalidated. It never repairs one: which of them is a stale note and which is a broken reveal is an editorial judgement.
+
+**One open question.** The first two rules above do not close. A recto first page means the book's physical spreads pair each even page with the odd page after it, so a reveal prepared on an even page lands on a page the reader can already see. Either the turn rule means something narrower than concealment, or the parity assumption is wrong. `scripts/pagination.py check` reports this at warning level and checks the turn audit against the even-to-odd shape the audit itself uses. Resolving it is an editorial decision that changes what twenty-one named turns are for.
 
 ## Truth contract
 
@@ -73,7 +77,7 @@ The terms “first,” “second,” and “third civilization” are narrative 
 | 89–104 | Chapter 6 — Everyone Continues | Sequences 30–34 |
 | 105–112 | Epilogue — Training Data | Sequences 35–36 |
 
-Page allocations are targets rather than licenses to change chronology. Moving more than two pages between sections requires updating this document, the chapter briefs, and structured page data together.
+Page allocations are targets rather than licenses to change chronology. Chapter membership and sequence membership are editorially chosen and are never rebalanced by a script; the page *ranges* above, in the chapter briefs, in `data/chapters.yaml`, and in the sequence ledger are derived from that membership and are rewritten together by `scripts/pagination.py`. Change the membership through the tool, in one commit, and review the diff.
 
 The prologue is a dated cold open in the second civilization on 8–9 July. Chapter 1 then rewinds to the April–6 July first civilization; Chapter 2 catches back up to the cold open and moves beyond it. This non-linear opening is necessary because the title-source request is documented after the wipe. Timestamps and palette state must keep the transition unmistakable.
 

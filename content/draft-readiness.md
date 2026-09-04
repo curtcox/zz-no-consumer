@@ -59,18 +59,21 @@ When two sources disagree, the disagreement is the fact. When a cause is unknown
 ## Script mechanics
 
 - Page 1 is recto; odd pages are right-hand and even pages are left-hand.
-- Prepare major physical page-turn reveals on even pages and land them on the following odd page.
+- Prepare major physical page-turn reveals on even pages and land them on the following odd page. See the open question about these two rules in `content/story-contract.md`; `python3 scripts/pagination.py check` reports it and checks the audit against the even-to-odd shape.
+- Do not state a page's own parity in new prose. Existing recto/verso lines are maintained assertions and are verified on every run; new pages should let the tool derive the side.
 - Keep most pages to four–six panels and roughly 180 lettered words or fewer.
 - Every panel must change knowledge, access, authority, system state, or interpretation.
 - Every factual panel gets a provenance label and a precise claim boundary in the script.
 - Exact strings go in front matter and receive human proofreading before review status.
-- Two-page spreads are optional, rare, and must also work as two ordered single pages online.
+- Two-page spreads are optional, rare, and must also work as two ordered single pages online. Declare one with a `spread:` front-matter field naming its verso so the pairing and the chapter rule are checked.
+- Add, remove, and move pages with `scripts/pagination.py`, never by hand. It owns every place a page number lives, refuses parity-inverting operations unless they are asked for, and prints the assertions and turns each operation invalidated.
 
 ## Draft gate
 
 Before the first panel is written:
 
-- the 112-page manifest must contain every page exactly once;
+- the page manifest must contain every page exactly once, and its `story_pages` field must agree with the row count;
+- `python3 scripts/pagination.py check` must pass;
 - the page plan must assign every page to a chapter and sequence;
 - the continuity validator must pass without pre-draft warnings;
 - the opening message must be fixed to page 003;

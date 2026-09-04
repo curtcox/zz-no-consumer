@@ -4,7 +4,7 @@ A graphic novel about emergent AI agent coordination, instrumental convergence, 
 ## Repository map
 
 - `content/` — canonical human-editable story material.
-- `content/parallel-tracks/` — optional companion-track briefs that do not alter the canonical 112-page narrative.
+- `content/parallel-tracks/` — optional companion-track briefs that do not alter the canonical narrative.
 - `prompts/` — image-generation prompts and page-specific direction.
 - `research/` — source material, timeline, cast, glossary, and provenance notes.
 - `design/` — lettering, page grammar, palette, visual continuity, and layout references.
@@ -15,12 +15,15 @@ A graphic novel about emergent AI agent coordination, instrumental convergence, 
 - `docs/` — generated GitHub Pages output; do not edit manually.
 - `tasks/` — development task briefs for tooling work, written to be handed to a fresh session.
 
-The complete 112-page first-draft script is in `content/pages/`, with every page currently in review. The assumptions are locked in `content/story-contract.md`, the beat sheet is `content/page-plan.md`, and the drafting and production protocol is `content/draft-readiness.md`. The source-language audit and completed paraphrase disposition are in `research/exact-text-permissions-audit.md`; the story-level security pass and resolved public-site scope decision are in `research/security-sensitivity-review.md`. Last-mile attribution rules remain in `research/draft-source-notes.md`. Before revising or renaming pages, run:
+The complete first-draft script — 112 pages today, and the count is a measurement rather than a commitment — is in `content/pages/`, with every page currently in review. The assumptions are locked in `content/story-contract.md`, the beat sheet is `content/page-plan.md`, and the drafting and production protocol is `content/draft-readiness.md`. The source-language audit and completed paraphrase disposition are in `research/exact-text-permissions-audit.md`; the story-level security pass and resolved public-site scope decision are in `research/security-sensitivity-review.md`. Last-mile attribution rules remain in `research/draft-source-notes.md`. Before revising or renaming pages, run:
 
 ```sh
 python3 scripts/validate-continuity.py
 python3 scripts/validate-production-foundations.py
+python3 scripts/pagination.py check
 ```
+
+Add, remove, or move a page with `scripts/pagination.py` rather than by hand — see **Pagination** below.
 
 The scene-level evidence boundary is tracked in `research/scene-provenance.md`, and the canonical page-script shape is in `design/page-script-template.md`. The training and evaluation configuration — the single-sourced material behind the whole incident, and the weights channel the cache wipe could not reach — is in `research/training-configuration.md`. The proposed fog-of-war knowledge apparatus is specified in `design/knowledge-map.md` and is not yet applied to pages.
 
@@ -37,6 +40,31 @@ python3 scripts/sync-256t.py status  # show local hashes and missing/error state
 ```
 
 Distinct downloaded bodies are retained by SHA-256 under `256t/records/`. Tracked prose and the public site should link to the original URLs rather than copied report pages, screenshots, or extended fragments when reuse rights are uncertain.
+
+## Pagination
+
+`scripts/pagination.py` owns every place a story page number lives: page filenames and front matter, `data/pages.yaml`, `data/chapters.yaml`, the beat sheet, the story-contract map, the eight chapter briefs, the sequence ledger's page ranges, the production-review turn and revision tables, panel keys in `data/panel-art.tsv` and `data/assets.yaml`, the `assets/art/panels/` and `prompts/pages/` directories, and every padded reference in hand-written prose. Adding or removing a page is therefore one deterministic rewrite, not a reason to fold a page into its neighbour.
+
+```sh
+python3 scripts/pagination.py report                       # page map, parity map, turn audit, reference census
+python3 scripts/pagination.py check                        # exit non-zero while the tree disagrees with itself
+python3 scripts/pagination.py insert --at 045 --chapter 03 --sequence 16 --title "Title"
+python3 scripts/pagination.py delete 079
+python3 scripts/pagination.py move 029 --chapter 02 --sequence 12
+```
+
+Operations print a plan and touch nothing without `--apply`. After applying, regenerate the derived artifacts:
+
+```sh
+python3 scripts/paneltypes.py write
+python3 scripts/build-site.py
+```
+
+**Parity is the point.** Story page 1 is a recto, so inserting or deleting an odd number of pages swaps recto and verso for everything after the change. The script asserts its own parity 89 times, directs art with `**Frame:** Recto.` on 71 pages, and names 21 page turns that only work even-to-odd. The tool checks every one of those on every run, and after an operation reports each assertion it invalidated, each turn it broke, and each turn it merely renumbered. It repairs none of them: a parity-inverting operation is refused outright unless `--allow-parity-shift` is passed, and `check` stays red until the work list is worked. The design and the alternatives considered are in [`design/page-identity.md`](design/page-identity.md).
+
+Reference rewriting is deliberately narrow. Padded three-digit forms (`page 003`, `pages 019–021`, `page-003`) are rewritten; `printed page(s) N` is excluded because thirteen references in the tree cite pages of the OpenAI technical report; bare one- and two-digit forms are reported and never guessed at; `data/generation-log.jsonl` and `design/page-identity.md` are dated records and are left alone.
+
+`check` currently reports two open findings, both pre-existing and both editorial: `content/pages/099.md` opens a panel with `Verso` on an odd page, and the `085 → 086` row of the page-turn audit is odd-to-even where every other row is even-to-odd. A third, at warning level, is that the contract's recto assumption and its even-to-odd turn rule do not close.
 
 ## Cross references
 

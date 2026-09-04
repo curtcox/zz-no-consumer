@@ -1,10 +1,12 @@
-# ZZ: NO CONSUMER — 112-Page Beat Sheet
+# ZZ: NO CONSUMER — Beat Sheet
 
 ## How to use this plan
 
 Each row assigns one causal job to one story page. “End beat” is the final change or question, not necessarily finished dialogue. Evidence labels are ceilings: a page may use a more cautious treatment, but it may not silently upgrade one.
 
-Odd pages are recto; even pages are verso. Major physical reveals should normally be prepared on an even page and land on the next odd page. Spreads remain optional until thumbnails.
+Odd pages are recto; even pages are verso. Major physical reveals should normally be prepared on an even page and land on the next odd page. Spreads remain optional until thumbnails. See `content/story-contract.md` for the open question about those two rules.
+
+Rows are numbered by position, and the numbering is not maintained by hand. Add, remove, or move a row with `python3 scripts/pagination.py`, which rewrites this table together with the manifest, the chapter map, the sequence ledger, and every prose reference, and reports the parity assertions and page turns the change invalidated.
 
 ## Prologue — The Objective Remains
 
