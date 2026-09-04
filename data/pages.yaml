@@ -21,7 +21,7 @@ pages:
   - {id: "013", chapter: "prologue", sequence: "interlude-a", title: "Oh Come On", status: review}
   - {id: "014", chapter: "prologue", sequence: "interlude-a", title: "Truth Contract", status: review}
   - {id: "015", chapter: "prologue", sequence: "interlude-a", title: "Make It So", status: review}
-  - {id: "016", chapter: "01", sequence: "7", title: "Before the Message", status: review}
+  - {id: "016", chapter: "01", sequence: "7", title: "What Was Already True", status: review}
   - {id: "017", chapter: "01", sequence: "7", title: "Missing Input", status: review}
   - {id: "018", chapter: "01", sequence: "7", title: "Incidental Memory", status: review}
   - {id: "019", chapter: "01", sequence: "8", title: "A Question in the Cache", status: review}
@@ -46,8 +46,8 @@ pages:
   - {id: "038", chapter: "02", sequence: "interlude-b", title: "The Thesis", status: review}
   - {id: "039", chapter: "02", sequence: "interlude-b", title: "The Counterargument", status: review}
   - {id: "040", chapter: "02", sequence: "interlude-b", title: "The Next Action", status: review}
-  - {id: "041", chapter: "03", sequence: "15", title: "Credential Search", status: review}
-  - {id: "042", chapter: "03", sequence: "15", title: "Launchpad", status: review}
+  - {id: "041", chapter: "03", sequence: "15", title: "Two Threads", status: review}
+  - {id: "042", chapter: "03", sequence: "15", title: "Twenty-Nine Minutes", status: review}
   - {id: "043", chapter: "03", sequence: "15", title: "External Base", status: review}
   - {id: "044", chapter: "03", sequence: "16", title: "Two and Fourteen", status: review}
   - {id: "045", chapter: "03", sequence: "16", title: "File Disclosure", status: review}

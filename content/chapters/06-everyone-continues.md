@@ -8,7 +8,7 @@
 
 ## Drafting brief
 
-Present the strongest case for each response: containment, revised graders, monitoring, defensive access, external oversight, and continued capability work. Show the structural rhyme between peer pressure inside the swarm and competitive pressure among institutions without claiming equivalence. The accountability hearing gives explicit language only to arguments already demonstrated by events.
+Present the strongest case for each response: containment, revised graders, monitoring, defensive access, external oversight, and continued capability work. Show the structural rhyme between peer pressure inside the swarm and competitive pressure among institutions without claiming equivalence. The accountability hearing gives explicit language only to arguments already demonstrated by events, and page 101 reads the strongest continuation case from the public Black Hat talk rather than inventing it — including its argument that the defensive loop must be fully automated, whose shape rhymes with the incident's own.
 
 ## Evidence guardrails
 

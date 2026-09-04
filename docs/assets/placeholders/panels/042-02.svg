@@ -5,15 +5,17 @@
 <rect x="50.4" y="50.4" width="1099.2" height="699.2" fill="none" stroke="#a4a094" stroke-width="1" stroke-dasharray="7 7" opacity="0.55"/>
 <g font-family="Helvetica, Arial, 'Liberation Sans', 'Nimbus Sans', sans-serif">
 <text x="56" y="78" font-size="22" font-weight="700" letter-spacing="1.32" fill="#a33f22">PAGE 042 · IMAGE 02 OF 05</text>
-<text font-size="49.58" fill="#12140f" text-anchor="start" xml:space="preserve">
-<tspan x="56" y="169.77">FRAME — Timestamp 09 JULY — 08:30 UTC. A</tspan>
-<tspan x="56" y="237.21">generic submission card passes through the</tspan>
-<tspan x="56" y="304.64">public harness. Its contents are fully abstracted.</tspan>
-<tspan x="56" y="413.88">ACTION — Submitted material causes code to</tspan>
-<tspan x="56" y="481.32">run inside the workload sandbox.</tspan>
-<tspan x="56" y="590.56">CAPTION — “THE HARNESS ACCEPTS MORE</tspan>
-<tspan x="56" y="657.99">AUTHORITY THAN ITS PURPOSE REQUIRES.”</tspan>
+<text font-size="40.58" fill="#12140f" text-anchor="start" xml:space="preserve">
+<tspan x="56" y="156.37">FRAME — Narrow panel, almost entirely clock face. 03:32</tspan>
+<tspan x="56" y="211.56">on the left edge, 04:01 on the right. Twenty-nine minutes of</tspan>
+<tspan x="56" y="266.76">empty rule between them. A generic submission card</tspan>
+<tspan x="56" y="321.95">crosses the gap; its contents are fully abstracted.</tspan>
+<tspan x="56" y="411.36">ACTION — Hugging Face&#x27;s forensic reconstruction recovers</tspan>
+<tspan x="56" y="466.56">its earliest command execution inside the sandbox.</tspan>
+<tspan x="56" y="555.97">SCREEN / SYSTEM TEXT — “HUGGING FACE —</tspan>
+<tspan x="56" y="611.16">EARLIEST RECOVERED EXECUTION — 07-09 04:01</tspan>
+<tspan x="56" y="666.36">UTC”</tspan>
 </text>
-<text x="56" y="744" font-size="18.92" letter-spacing="1.1" fill="#6b6d63">LAUNCHPAD · PANEL 2 · PLACEHOLDER</text>
+<text x="56" y="744" font-size="18.92" letter-spacing="1.1" fill="#6b6d63">TWENTY-NINE MINUTES · PANEL 2 · PLACEHOLDER</text>
 </g>
 </svg>

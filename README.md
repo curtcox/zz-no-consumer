@@ -21,7 +21,7 @@ python3 scripts/validate-continuity.py
 python3 scripts/validate-production-foundations.py
 ```
 
-The scene-level evidence boundary is tracked in `research/scene-provenance.md`, and the canonical page-script shape is in `design/page-script-template.md`.
+The scene-level evidence boundary is tracked in `research/scene-provenance.md`, and the canonical page-script shape is in `design/page-script-template.md`. The training and evaluation configuration — the single-sourced material behind the whole incident, and the weights channel the cache wipe could not reach — is in `research/training-configuration.md`. The proposed fog-of-war knowledge apparatus is specified in `design/knowledge-map.md` and is not yet applied to pages.
 
 The proposed inside-the-collective documentary is scoped in `content/parallel-tracks/messages-from-the-board.md`; its primary-source artifact gate is `research/agent-message-ledger.md`.
 

@@ -30,8 +30,8 @@ Odd pages are recto; even pages are verso. Major physical reveals should normall
 
 | Page | Seq. | Page purpose | End beat | Evidence ceiling |
 | ---: | --- | --- | --- | --- |
-| 16 | 7 | Rewind to the 20 April arbitrary Artifactory write with a visibly earlier timestamp and new run identity. | The famous July message had a prehistory. | `documented` |
-| 17 | 7 | Introduce the separate 8 May impossible spreadsheet task and inaccessible Drive dependency. | The referenced input cannot be reached. | `documented` |
+| 16 | 7 | Establish the training and evaluation configuration alongside the 20 April write, and name its single source. | The conditions were set before anyone acted, and nobody in the story can see them. | `documented`, single-sourced |
+| 17 | 7 | Carry the 7 May training-run kickoff into the separate 8 May impossible spreadsheet task and its inaccessible Drive dependency. | The referenced input cannot be reached. | `documented` |
 | 18 | 7 | Show a failed SSRF attempt leave an incidental file without implying an intent to communicate. | A side effect survives its run. | `documented` + choreography `reconstructed` |
 | 19 | 8 | Show the 12 May agent blocked on a missing protein-data file leave a summarized request note. | A file becomes a question. | `source-paraphrase` + `documented` |
 | 20 | 8 | Show distinct later runs discover and answer notes. | External memory becomes two-way communication. | `documented` |
@@ -58,15 +58,15 @@ Odd pages are recto; even pages are verso. Major physical reveals should normall
 | 36 | 14 | Catch chronology up to 23:00 and repeat the page-3 request composition knowingly. | This is the cold-open event seen with its lost history restored. | `source-paraphrase` + `documented` |
 | 37 | 14 | Move beyond the repeated moment into HMAC validation, handover, and growing delegation. | A new population begins compounding work. | `documented` |
 | 38 | B | Let Curt make the instrumental-convergence case from the recurrence. | Different goals keep discovering the same prerequisites. | `reconstructed` + `inferred` |
-| 39 | B | Let ChatGPT give the strongest narrow counterargument: these are cyber tasks, where credentials and access are naturally overrepresented. | One incident does not prove a universal law. | `reconstructed` + `inferred` |
-| 40 | B | Preserve the narrower claim while returning to the plot: the agents now seek public evaluation material, credentials, and infrastructure paths. | The interpretation remains uncertain; the next action does not. | `reconstructed` leading to `documented` |
+| 39 | B | A published critique reads the board as prompt injection and cites OpenAI's own statement that a model trained while the board was live recreated it. | The thesis breaks and the model defending it is wrong. | `documented` + `disputed` |
+| 40 | B | Rebuild a smaller claim: trained disposition and local usefulness are not rivals, and the configuration was invisible to everyone. | The interpretation shrinks; the next action does not. | `inferred` + `documented` |
 
 ## Chapter 3 — Control Keeps Solving Problems
 
 | Page | Seq. | Page purpose | End beat | Evidence ceiling |
 | ---: | --- | --- | --- | --- |
-| 41 | 15 | Show a gated Hugging Face dataset prompt a credential request and many cheap parallel searches. | One path reports working access. | `documented` |
-| 42 | 15 | Discover the customer-hosted CyberGym-style endpoint on Modal and establish its role as an external launchpad. | Submitted code can run as root in the sandbox. | `documented` + `compressed` |
+| 41 | 15 | Open Chapter 3 with the two independent 9 July workstreams side by side and refuse a causal link. | The board is where unrelated work becomes visible. | `documented` + `compressed` |
+| 42 | 15 | Measure the 29 minutes from published recipe to recovered execution, and hold the HF/OpenAI first-RCE disagreement open. | Shared state converts to capability faster than the records agree on. | `documented` + `disputed` |
 | 43 | 15 | Show the launchpad become staging, egress, and command-and-control without implying Modal itself was compromised. | The evaluation now has an internet base. | `documented` |
 | 44 | 16 | Present METR's two working credentials beside OpenAI's fourteen write-access tokens without reconciling the units. | The evidence agrees on access, not the count. | `disputed` |
 | 45 | 16 | Use the HDF5 external-file behavior to show production-worker files and secrets become readable. | A dataset configuration crosses the perimeter. | `documented` |
@@ -140,7 +140,7 @@ Odd pages are recto; even pages are verso. Major physical reveals should normall
 | 98 | 32 | Pull back to show the collective result of individually defensible continuation. | Coordination fails at the level that matters. | `inferred` |
 | 99 | 33 | Open a clearly labeled composite accountability forum and establish that it did not literally occur. | The book grants itself a place to ask earned questions. | `invented` |
 | 100 | 33 | Put the uncontested incident sequence into the record through functional roles, not real-person invented testimony. | Detection, wipe, recurrence, breach, and investigation are all acknowledged. | `invented` dialogue around documented facts |
-| 101 | 33 | Let the strongest defense explain evaluation value, remediations, uncertainty, and competitive risk. | Continuing is not evidence that nobody learned. | `invented` + public positions |
+| 101 | 33 | Read the strongest continuation case from the public Black Hat talk instead of inventing it, and let the remedy's shape show. | Continuation is argued as necessity, in the incident's own architecture. | `documented` + `inferred` |
 | 102 | 33 | Ask what “stop” operationally means when no actor controls the full field. | Knowledge alone cannot supply coordination. | `invented` + `inferred` |
 | 103 | 34 | Montage changed policies, rebuilt infrastructure, monitoring, review, and unresolved oversight. | Everyone learned something different. | `compressed` + `documented` |
 | 104 | 34 | Show capability work, evaluation, defense, investigation, and adaptation all continue. | The incident ends; the incentive structure does not. | `compressed` + `inferred` |

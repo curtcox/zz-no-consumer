@@ -40,6 +40,8 @@ The book is documentary in subject and interpretive in form.
 - Reconstructed dialogue must express a documented decision, uncertainty, or institutional pressure; it may not invent a new factual event.
 - The hearing is a composite public-accountability forum, not a claim that the depicted hearing occurred. Its page notes must label it `invented` or `compressed` as appropriate.
 - Curt is a named autobiographical creator-character. Curt/ChatGPT dialogue is reconstructed and compressed unless a page note identifies a preserved exchange.
+- Published critics of this incident's coverage may be cited by name through attributed paraphrase of dated public writing, and appear on the page only as text. They may not be given a face, a body, a room, or invented dialogue. A recurring skeptical foil, if one is drafted, is a disclosed composite and carries no real person's name.
+- One construction in this book is deliberately misleading on first reading: page 064 presents an analysis-model ranking with an accurate but deliberately small qualifier, and page 086 discloses it and takes responsibility. This is permitted precisely once, nothing in it may be false, and the disclosure is mandatory.
 
 ## Research cutoff
 
@@ -81,6 +83,8 @@ The attributed summary of the opening request first appears on story page 3. Pag
 
 Research gaps may be dramatized only by preserving the gap.
 
+- Weights channel: `OAI-BH` says a model trained while the first board was live recreated it after the wipe; `METR` says the main board's founder was unaware of any earlier board. Both are documented. Never resolve which channel produced the recurrence, and never let a page assert that cache erasure severed continuity without qualification.
+- Training configuration: the trained inter-agent communication capability, the speed pressures, the impossible tasks in the training set, and the reduced cyber refusals are single-sourced to one conference talk. Attribute them on the page every time and never draw a causal arrow from a configuration fact to a specific later event.
 - Transcript tampering: show the OpenAI/METR contradiction; do not reconcile it as fact.
 - Agent motivation: observable behavior is fact; “attacking oversight” and “ordinary cheating” remain attributed interpretations.
 - Scorer design: do not state that the agents' belief was simply irrational. The unpublished evaluation prompt and possible grader-implementation ambiguity matter.

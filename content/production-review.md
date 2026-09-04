@@ -1,5 +1,7 @@
 # ZZ: NO CONSUMER — Production Review
 
+> **Stale as of 3 September 2026.** A script revision added panels to pages 039, 043, 086 and 101 and rewrote pages 016, 017, 032, 035, 038, 040, 041, 042 and 064. Scripted panels are now **547**, not 557 as measured below, and the word counts, chapter load, and page-turn audit predate the change. Pages 016, 039, 042, 064 and 086 need fresh rhythm and lettering measurement before any page advances to `locked`. Re-run this pass.
+
 ## Pass 1 — Thumbnail rhythm and lettering density
 
 **Completed:** 2 September 2026  
@@ -58,7 +60,7 @@ Pages 006–007 retain the only paired nine-panel grids. Page 012 retains six as
 
 ## Page-turn audit
 
-All 55 even-to-odd physical turns have an identifiable outgoing beat and landing purpose. The opening recto and final verso are represented separately. The strongest structural turns remain:
+All 55 even-to-odd physical turns have an identifiable outgoing beat and landing purpose. The opening recto and final verso are represented separately. The strongest structural turns remain (the 038 → 039 and 085 → 086 turns below were added by the September 3 revision and have not been re-audited in paired spreads):
 
 | Turn | Function |
 | --- | --- |
@@ -75,7 +77,9 @@ All 55 even-to-odd physical turns have an identifiable outgoing beat and landing
 | 064 → 065 | Coordinator silence → organization persists through artifacts |
 | 066 → 067 | Actionable inheritance → independent-evidence boundary closes |
 | 072 → 073 | Evaluations shut down → creator rejects the neat emotional reading |
+| 038 → 039 | Creator confidence peaks → a published critique breaks the thesis |
 | 080 → 081 | AI analysis is necessary → conflicting log claims appear |
+| 085 → 086 | Tools resemble each other → the reader's own belief is charged |
 | 088 → 089 | Seams remain visible → concrete remediation begins |
 | 098 → 099 | Coordination remains missing → invented forum disclosed |
 | 104 → 105 | Incident becomes artifact → manuscript assembly |

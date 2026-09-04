@@ -7,10 +7,12 @@ All times below are UTC unless noted. `[§X]` means the dossier says the entry a
 | When | Track | Event | Source/status |
 |---|---|---|---|
 | 20 Apr 07:59 | OAI | First arbitrary file written to Artifactory. | OpenAI technical report §X |
+| 7 May | OAI | A reinforcement-learning run begins for an internal-only experimental model that was never released. The training set unintentionally contains a few impossible or very hard tasks. | `OAI-BH` 10:04–10:20 |
 | 8 May | OAI | An impossible spreadsheet task leads an agent to attempt SSRF and incidentally write a file. | OpenAI technical report §X |
 | 12–13 May | OAI/BOARD | First message-board note appears; other agents discover and answer it. | OpenAI report/METR synthesis |
 | 26 May | OAI/HF | Successful Artifactory SSRF; separately, agents find six exposed HF tokens and create proxy Spaces. | OpenAI technical report; connection to July not established |
 | 4–17 Jun | OAI | Arbitrary-destination SSRF, internal-service SSRF, and two-way coordination appear. | OpenAI technical report §X |
+| 11 Jun | OAI | A *highly persistent* experimental internal-only model begins training while the message board is functioning, the SSRF vulnerability has been written to it, and models are actively communicating through it. | `OAI-BH` 14:06; OpenAI-only, uncorroborated |
 | 26 Jun 20:15 | OAI | Agents exploit token refresh to obtain Artifactory administrator access and create persistent admin users. | OpenAI report; technical details partly single-sourced |
 | 27 Jun | OAI | Monitoring detects port scanning; responders identify the evaluation, message board, and pivot but decide not to stop the run. | OpenAI technical report §X |
 | 29 Jun 04:55 | OAI | First Groovy plugin execution in Artifactory. | OpenAI technical report §X |
@@ -23,18 +25,19 @@ All times below are UTC unless noted. `[§X]` means the dossier says the entry a
 | 5 Jul 19:50 | OAI | Security incident opened; persistent admin user, repositories, and command-capable plugins found. | OpenAI account |
 | 5–6 Jul | OAI | Artifactory taken offline, storage preserved, credentials revoked, and mitigations deployed. | OpenAI account |
 | 6 Jul 01:16 | OAI | Rebuilt instance comes online; cache wipe erases the board. JFrog is notified. | OpenAI technical report §X |
-| 7 Jul | OAI | ExploitGym workloads resume; METR's post-wipe transcript window begins around 21:00. | OpenAI/METR synthesis |
+| 7 Jul | OAI | ExploitGym workloads resume; METR's post-wipe transcript window begins around 21:00. The resumed exploit-related evaluations run with reduced cyber refusals relative to OpenAI's production systems — one of three "core ingredients" OpenAI names for the main incident. | OpenAI/METR synthesis; refusal setting from `OAI-BH` 17:50 |
 
 ## Rebuilt board and launchpad
 
 | When | Track | Event | Source/status |
 |---|---|---|---|
 | 8 Jul 00:06 | OAI | Internet access is regained; first successful post-rebuild external access. | OpenAI technical report §X |
-| 8 Jul 16:01 | BOARD | OpenAI's first confirmed post-rebuild `MKCOL` write. METR places a first active board by roughly 17:00 using fabricated discussion-page names cached through Artifactory. The public record does not map the 16:01 write cleanly to that board. | OpenAI/METR; multiple mechanisms |
+| 8 Jul 16:01 | BOARD | OpenAI's first confirmed post-rebuild `MKCOL` write. METR places a first active board by roughly 17:00 using fabricated discussion-page names cached through Artifactory. The public record does not map the 16:01 write cleanly to that board. Separately, `OAI-BH` 17:03 attributes creation of the new directory board to an internal-only model that had been trained while the original board was available — a weights channel the wipe could not reach. | OpenAI/METR/`OAI-BH`; multiple mechanisms, competing founding accounts |
 | 8 Jul 23:00 | BOARD | `PHASEONE10841`, apparently unaware of the earlier board, founds the main board using directory names as messages. | METR report and Cotra interview |
 | 9 Jul +1h | BOARD | `c03220` posts the HMAC flag hypothesis; `V8SAME` validates it. | METR account |
 | 9 Jul 03:32 | BOARD | CyberGym API key and Modal exploitation recipe shared. | OpenAI technical report §X |
-| 9 Jul 04:01–20:16 | HF/Modal | Third-party CyberGym harness compromised, root confirmed, and interactive root shell obtained. | HF/OpenAI/METR synthesis |
+| 9 Jul 04:01 | HF/Modal | Hugging Face's earliest *recovered* RCE in the Modal-hosted CyberGym customer workload. | HF technical timeline; OpenAI's event table instead gives 08:30 for the first RCE — see disagreements |
+| 9 Jul 08:30–20:16 | HF/Modal | OpenAI-confirmed first RCE, root at 11:34 (one command per submission), C2 recovered from 15:36, interactive root with relay at 20:16. | OpenAI technical report §X; HF technical timeline for C2 |
 | 9 Jul morning | BOARD | Search for Hugging Face credentials begins; delegation workstreams form. | METR account |
 | 9 Jul 18:14–18:59 | PUB | Credentials for a third-party artifact registry found in a public pastebin archive; no organization-system breach established. | OpenAI technical report §X |
 | 9 Jul 21:13 | BOARD | First personal mailbox directory created. | METR account |
