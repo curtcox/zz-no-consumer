@@ -61,9 +61,8 @@ PROSE_GLOBS = (
 
 # Statements about an ordinal position in the abstract. They stay true whatever moves,
 # because they describe the first page rather than a page that happens to be first.
-RULE_PHRASES = (
-    "story page 1 is a right-hand recto",
-    "page 1 is recto",
+RULE_PATTERNS = (
+    re.compile(r"\bpage 1 is (?:an? )?(?:[\w-]+ )*recto", re.IGNORECASE),
 )
 
 PARITY = ("verso", "recto")
@@ -102,8 +101,7 @@ class Site:
 def classify(match: re.Match[str], line: str) -> str:
     if match.group("printed"):
         return FOREIGN
-    lowered = line.lower()
-    if any(phrase in lowered for phrase in RULE_PHRASES):
+    if any(pattern.search(line) for pattern in RULE_PATTERNS):
         return RULE
     digits = re.findall(r"\d{1,3}", match.group(0)[len(match.group("printed") or ""):])
     return REFERENCE if all(len(item) == 3 for item in digits) else AMBIGUOUS

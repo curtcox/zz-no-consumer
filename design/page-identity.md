@@ -236,16 +236,19 @@ Every match falls into exactly one of four classes.
   `continuity_checks`. 376 head sites plus their continuations, all unambiguously story
   references.
 - **`foreign`** — never rewritten. `printed page(s) N` is excluded by an explicit negative rule
-  applied before any other match. 13 sites.
+  applied before any other match. 12 sites, plus one all-caps `PRINTED PAGE 20` inside screen
+  text that no rule matches at all.
 - **`rule`** — never rewritten. Statements about an ordinal position in the abstract rather than
   about a particular page: `Story page 1 is a right-hand recto`. These stay true no matter what
-  moves, because they describe the first page, not a page that happens to be first. 3 sites.
+  moves, because they describe the first page, not a page that happens to be first.
 - **`ambiguous`** — reported, never guessed. Bare one- and two-digit forms that are not `foreign`
-  or `rule`. There are 21: 17 in planning-document prose and 4 inside
-  `scripts/validate-continuity.py`. The migration resolves all 21 — the prose by normalizing to
-  the padded form, the script by deriving its numbers instead of hard-coding them — leaving the
-  ambiguous set empty. **No page-script prose is normalized**, because that would be editorial
-  content; no page script contains a bare story reference.
+  or `rule`. The tool found 22 in prose; the migration normalizes every one of them to the padded
+  form, and separately removes the four bare page numbers inside
+  `scripts/validate-continuity.py` by deriving them, leaving the ambiguous set empty.
+  **No page-script prose is normalized**, because that would be editorial content; no page script
+  contains a bare story reference.
+
+After the migration the census reads: 525 `reference`, 12 `foreign`, 4 `rule`, 0 `ambiguous`.
 - Structured sites — front matter, manifests, ledger ranges, beat rows, chapter briefs, panel
   keys, art directories — are rewritten by their own parsers, not by prose regexes.
 
@@ -259,8 +262,8 @@ Separate commit, mechanical, no editorial content changed.
    count from `data/pages.yaml` instead of hard-coding `EXPECTED_CHAPTERS` and `range(1, 113)`.
    Every existing check is kept; only the source of the numbers changes.
 2. `scripts/build-site.py` derives its four literal `112`s.
-3. The 17 bare story-page references in planning-document prose are normalized to the padded
-   form. Page-script prose is untouched. The three parity *rule* statements and the thirteen
+3. The 22 bare story-page reference sites in planning-document prose are normalized to the
+   padded form. Page-script prose is untouched. The parity *rule* statements and the
    `printed page` citations are left exactly as they are.
 4. `content/story-contract.md`, `README.md` and `content/draft-readiness.md` are updated to
    describe the new reality: the page count is a measurement, not a contract, and page structure
@@ -284,7 +287,10 @@ Separate commit, mechanical, no editorial content changed.
   it tells you the set and stops.
 - No page script contains a bare story reference today, but if one is written the tool will report
   it and refuse to guess. The four bare references that page scripts do contain are source-document
-  citations and are excluded by name.
+  citations and are excluded by rule.
+- The turn model is checked against the even-to-odd shape the audit itself uses, which is not the
+  shape a recto page 1 implies. The contradiction is reported; resolving it is editorial. See
+  `content/story-contract.md`, "Physical page assumptions".
 - `data/panel-types.tsv` and `docs/` are regenerated, not rewritten. `apply` prints the two
   commands and `check` fails until they have been run.
 - Parity inversion has no automated remedy and this note does not propose one. That is the
