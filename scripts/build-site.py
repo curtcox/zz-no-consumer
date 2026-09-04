@@ -622,7 +622,7 @@ def build_viewer() -> None:
       </div>
       <div class="map-card" data-content="image" aria-label="Content map"><span>HOME</span><i></i><span>CHAPTER</span><i></i><span>PAGE</span><i></i><span>IMAGE</span></div>
     </section>
-    <section class="section-block"><div class="section-heading"><div><p class="eyebrow">The complete route map</p><h2>Eight chapters. 112 permanent page addresses.</h2></div><span class="count">112 pages</span></div>
+    <section class="section-block"><div class="section-heading"><div><p class="eyebrow">The complete route map</p><h2>{len(chapters)} chapters. {len(pages)} permanent page addresses.</h2></div><span class="count">{len(pages)} pages</span></div>
       <div class="chapter-grid">{''.join(chapter_cards)}</div>
     </section>
     <section class="bookmark-shelf" data-bookmark-shelf hidden><div class="section-heading"><div><p class="eyebrow">Saved on this device</p><h2>Your bookmarks</h2></div></div><div data-bookmark-list></div></section>
@@ -713,7 +713,7 @@ def build_viewer() -> None:
         )
         page_body = f'''
         <section class="reader-layout">
-          <div class="reader-stage" data-content="image"><div class="reader-stage__top"><span>Page {html.escape(page.id)} / 112</span><span class="art-state"><i></i> Placeholder artwork</span></div>
+          <div class="reader-stage" data-content="image"><div class="reader-stage__top"><span>Page {html.escape(page.id)} / {len(pages)}</span><span class="art-state"><i></i> Placeholder artwork</span></div>
             <a class="page-art-link" href="{html.escape(route_url(current_dir, image_dest(page.id, 1)))}" aria-label="Open first image on page {html.escape(page.id)}">{page_art(page, book.pages[page.id], current_dir)}</a>
           </div>
           <aside class="reader-notes" data-content="text"><p class="eyebrow">Page record</p><h2>{html.escape(page.title)}</h2><dl><div><dt>Chapter</dt><dd>{html.escape(chapter.title)}</dd></div><div><dt>Sequence</dt><dd>{html.escape(page.sequence)}</dd></div><div><dt>Status</dt><dd>{html.escape(page.status)}</dd></div></dl>
@@ -741,7 +741,7 @@ def build_viewer() -> None:
         source_label = f"content/pages/{page.id}.md" if source_file.exists() else "Planned; script not drafted"
         page_info_body = f'''
         <section class="info-layout"><div class="info-lede"><p>Page record</p><p>Production metadata is separated from the reading surface while remaining one directional move away.</p></div>
-        <dl class="metadata"><div><dt>Page</dt><dd>{html.escape(page.id)} of 112</dd></div><div><dt>Title</dt><dd>{html.escape(page.title)}</dd></div><div><dt>Chapter</dt><dd>{html.escape(chapter.title)}</dd></div><div><dt>Sequence</dt><dd>{html.escape(page.sequence)}</dd></div><div><dt>Status</dt><dd>{html.escape(page.status)}</dd></div><div><dt>Image slots</dt><dd>{page.panel_count}</dd></div><div><dt>Artwork</dt><dd><span class="status-dot"></span> Placeholder</dd></div><div class="metadata__wide"><dt>Source</dt><dd>{html.escape(source_label)}</dd></div><div class="metadata__wide"><dt>Placeholder image</dt><dd><a href="{html.escape(placeholder_url(info_dir, book.pages[page.id]))}">assets/placeholders/{html.escape(book.pages[page.id].path)}</a> · {book.pages[page.id].width}×{book.pages[page.id].height}</dd></div><div class="metadata__wide"><dt>Cross reference</dt><dd><a href="{html.escape(crossref_link(info_dir, "pages", page.id))}">Sources and provenance cited by page {html.escape(page.id)}</a></dd></div></dl></section>
+        <dl class="metadata"><div><dt>Page</dt><dd>{html.escape(page.id)} of {len(pages)}</dd></div><div><dt>Title</dt><dd>{html.escape(page.title)}</dd></div><div><dt>Chapter</dt><dd>{html.escape(chapter.title)}</dd></div><div><dt>Sequence</dt><dd>{html.escape(page.sequence)}</dd></div><div><dt>Status</dt><dd>{html.escape(page.status)}</dd></div><div><dt>Image slots</dt><dd>{page.panel_count}</dd></div><div><dt>Artwork</dt><dd><span class="status-dot"></span> Placeholder</dd></div><div class="metadata__wide"><dt>Source</dt><dd>{html.escape(source_label)}</dd></div><div class="metadata__wide"><dt>Placeholder image</dt><dd><a href="{html.escape(placeholder_url(info_dir, book.pages[page.id]))}">assets/placeholders/{html.escape(book.pages[page.id].path)}</a> · {book.pages[page.id].width}×{book.pages[page.id].height}</dd></div><div class="metadata__wide"><dt>Cross reference</dt><dd><a href="{html.escape(crossref_link(info_dir, "pages", page.id))}">Sources and provenance cited by page {html.escape(page.id)}</a></dd></div></dl></section>
         <a class="primary-action" href="{html.escape(route_url(info_dir, page_dest(page.id)))}">Return to page <span>↑</span></a>
         '''
         write_viewer_page(
@@ -1217,7 +1217,7 @@ def build_crossref(model: crossref.CrossReference, *, internal: bool) -> int:
     write_crossref_page(
         sequences_index,
         "Sequences",
-        f'''<p>The scene ledger groups the 112 pages into {len(model.sequences)} sequences and fixes the
+        f'''<p>The scene ledger groups the {len(model.pages)} pages into {len(model.sequences)} sequences and fixes the
         evidentiary treatment of each. These records connect a sequence to the pages assigned to it.</p>
         {scope_note}
         {table(headers + (["Narrative event"] if internal else []), rows)}''',

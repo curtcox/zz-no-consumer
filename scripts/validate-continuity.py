@@ -7,17 +7,6 @@ from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[1]
 
-EXPECTED_CHAPTERS = [
-    ("00-prologue.md", "# 00 — Prologue: The Objective Remains", 1, 15),
-    ("01-first-civilization.md", "# 01 — First Civilization", 16, 29),
-    ("02-erasure-and-return.md", "# 02 — Erasure and Return", 30, 40),
-    ("03-control-keeps-solving-problems.md", "# 03 — Control Keeps Solving Problems", 41, 56),
-    ("04-what-survives.md", "# 04 — What Survives", 57, 74),
-    ("05-the-observer-needs-the-observed.md", "# 05 — The Observer Needs the Observed", 75, 88),
-    ("06-everyone-continues.md", "# 06 — Everyone Continues", 89, 104),
-    ("07-epilogue.md", "# 07 — Epilogue: Training Data", 105, 112),
-]
-
 ALLOWED_PROVENANCE = {
     "documented",
     "source-paraphrase",
@@ -27,6 +16,34 @@ ALLOWED_PROVENANCE = {
     "reconstructed",
     "invented",
 }
+
+
+def expected_chapters() -> list[tuple[str, str, str, int, int]]:
+    """Read the chapter map from data/chapters.yaml.
+
+    The page count is not an invariant of this book, so nothing here hard-codes one.
+    Chapter ids, files, titles, and page ranges are declared once, in the manifest, and
+    scripts/pagination.py is what moves them. The H1 expectation is still a real check:
+    a chapter brief has to carry the manifest's title, prefixed by its file index and, for
+    the two unnumbered sections, by their label.
+    """
+    source = (ROOT / "data" / "chapters.yaml").read_text(encoding="utf-8")
+    chapters: list[tuple[str, str, str, int, int]] = []
+    for chunk in re.split(r"(?=^\s*- id: )", source, flags=re.MULTILINE)[1:]:
+        def value(key: str, chunk: str = chunk) -> str:
+            prefix = r"\s+-\s+" if key == "id" else r"\s+"
+            match = re.search(rf"^{prefix}{key}:\s+(.+?)\s*$", chunk, flags=re.MULTILINE)
+            if not match:
+                raise ValueError(f"Missing {key} in data/chapters.yaml")
+            return match.group(1).strip('"')
+
+        identifier, filename, title = value("id"), value("file"), value("title")
+        label = {"prologue": "Prologue: ", "epilogue": "Epilogue: "}.get(identifier, "")
+        heading = f"# {filename[:2]} — {label}{title}"
+        chapters.append(
+            (filename, heading, identifier, int(value("first_page")), int(value("last_page")))
+        )
+    return chapters
 
 
 def front_matter(source: str) -> str | None:
@@ -58,14 +75,15 @@ def main() -> int:
 
     errors: list[str] = []
     warnings: list[str] = []
+    chapters = expected_chapters()
     chapter_dir = ROOT / "content" / "chapters"
-    expected_names = {item[0] for item in EXPECTED_CHAPTERS}
+    expected_names = {item[0] for item in chapters}
     actual_names = {path.name for path in chapter_dir.glob("*.md")}
     for extra in sorted(actual_names - expected_names):
         errors.append(f"Unexpected chapter file: content/chapters/{extra}")
 
     covered_pages: list[int] = []
-    for filename, heading, first_page, last_page in EXPECTED_CHAPTERS:
+    for filename, heading, _identifier, first_page, last_page in chapters:
         path = chapter_dir / filename
         if not path.exists():
             errors.append(f"Missing chapter file: content/chapters/{filename}")
@@ -82,14 +100,19 @@ def main() -> int:
             errors.append(f"Unresolved chapter placeholder in {filename}")
         covered_pages.extend(range(first_page, last_page + 1))
 
-    if covered_pages != list(range(1, 113)):
-        errors.append("Chapter ranges do not cover pages 1–112 exactly once")
+    story_pages = len(re.findall(r'^\s*- \{id: "\d{3}",', 
+                                (ROOT / "data" / "pages.yaml").read_text(encoding="utf-8"),
+                                re.MULTILINE))
+    if covered_pages != list(range(1, story_pages + 1)):
+        errors.append(
+            f"Chapter ranges do not cover pages 1–{story_pages} exactly once"
+        )
 
     outline = (ROOT / "content" / "story-outline.md").read_text(encoding="utf-8")
     if "Cold open, 8–9 July 2026" not in outline:
         errors.append("Story outline does not identify the post-wipe cold open")
-    if "Put the opening request summary on page 3" not in outline:
-        errors.append("Story outline does not lock the opening request summary to page 3")
+    if "Put the opening request summary on page 003" not in outline:
+        errors.append("Story outline does not lock the opening request summary to page 003")
 
     continuity = (ROOT / "content" / "continuity.md").read_text(encoding="utf-8")
     if "Distributed story pages use attributed paraphrases" not in continuity:
@@ -99,15 +122,17 @@ def main() -> int:
     if "story_time: 2026-05-08" in grammar or re.search(r"chapter: prologue[\s\S]{0,160}population: first", grammar):
         errors.append("Page-grammar prologue example still uses the first population")
 
+    manifest = (ROOT / "data" / "pages.yaml").read_text(encoding="utf-8")
+    aliases = {"interlude-a": "A", "interlude-b": "B", "interlude-c": "C"}
+    assigned = dict.fromkeys(
+        aliases.get(value, value)
+        for value in re.findall(r'sequence: "([^"]+)"', manifest)
+    )
     ledger = (ROOT / "research" / "scene-provenance.md").read_text(encoding="utf-8")
-    for sequence in range(1, 37):
+    for sequence in assigned:
         if not re.search(rf"^\| {sequence} \|", ledger, re.MULTILINE):
             errors.append(f"Scene ledger missing sequence {sequence}")
-    for interlude in ("A", "B", "C"):
-        if not re.search(rf"^\| {interlude} \|", ledger, re.MULTILINE):
-            errors.append(f"Scene ledger missing interlude {interlude}")
 
-    manifest = (ROOT / "data" / "pages.yaml").read_text(encoding="utf-8")
     manifest_rows = re.findall(
         r'^\s*- \{id: "(\d{3})", chapter: "([^"]+)", sequence: "([^"]+)", title: "([^"]+)", status: ([a-z-]+)\}$',
         manifest,
@@ -115,19 +140,24 @@ def main() -> int:
     )
     manifest_ids = [int(row[0]) for row in manifest_rows]
     manifest_titles = {int(row[0]): row[3] for row in manifest_rows}
-    if manifest_ids != list(range(1, 113)):
-        errors.append("data/pages.yaml must contain ordered manifest rows for pages 001–112 exactly once")
+    if manifest_ids != list(range(1, story_pages + 1)):
+        errors.append(
+            f"data/pages.yaml must contain ordered manifest rows for pages 001–{story_pages:03d} "
+            "exactly once"
+        )
+    declared = re.search(r"^  story_pages: (\d+)$", manifest, re.MULTILINE)
+    if not declared or int(declared.group(1)) != story_pages:
+        errors.append(
+            f"data/pages.yaml declares story_pages: {declared.group(1) if declared else 'nothing'}, "
+            f"but carries {story_pages} manifest rows"
+        )
     if any(row[4] not in {"planned", "draft", "review", "locked", "published"} for row in manifest_rows):
         errors.append("data/pages.yaml contains an invalid page status")
     for row in manifest_rows:
         page_number = int(row[0])
         expected_chapter = next(
-            (
-                "prologue" if filename == "00-prologue.md" else
-                "epilogue" if filename == "07-epilogue.md" else
-                filename[:2]
-            )
-            for filename, _heading, first_page, last_page in EXPECTED_CHAPTERS
+            identifier
+            for _filename, _heading, identifier, first_page, last_page in chapters
             if first_page <= page_number <= last_page
         )
         if row[1] != expected_chapter:
@@ -136,8 +166,10 @@ def main() -> int:
     beat_sheet = (ROOT / "content" / "page-plan.md").read_text(encoding="utf-8")
     beat_rows = re.findall(r"^\| (\d{1,3}) \| ([^|]+?) \|", beat_sheet, re.MULTILINE)
     beat_pages = [int(row[0]) for row in beat_rows]
-    if beat_pages != list(range(1, 113)):
-        errors.append("content/page-plan.md must assign pages 1–112 exactly once and in order")
+    if beat_pages != list(range(1, story_pages + 1)):
+        errors.append(
+            f"content/page-plan.md must assign pages 1–{story_pages} exactly once and in order"
+        )
     if len(manifest_rows) == len(beat_rows):
         sequence_aliases = {"A": "interlude-a", "B": "interlude-b", "C": "interlude-c"}
         for manifest_row, beat_row in zip(manifest_rows, beat_rows):
@@ -188,7 +220,7 @@ def main() -> int:
             errors.append(f"Missing provenance status in {path.relative_to(ROOT)}")
         if not re.search(r"^\s+source:\s*\S+", metadata, re.MULTILINE):
             errors.append(f"Missing provenance source in {path.relative_to(ROOT)}")
-        if page_number != 112 and "exact_strings: []" not in metadata:
+        if page_number != story_pages and "exact_strings: []" not in metadata:
             errors.append(f"Third-party exact-string registration remains in {path.relative_to(ROOT)}")
 
     if errors:
@@ -199,7 +231,11 @@ def main() -> int:
             print("\n".join(f"- {item}" for item in warnings))
         return 1
 
-    print("Continuity validation passed: 8 sections, 112 pages, 36 sequences, 3 interludes.")
+    interludes = sum(1 for key in assigned if key.isalpha())
+    print(
+        f"Continuity validation passed: {len(chapters)} sections, {story_pages} pages, "
+        f"{len(assigned) - interludes} sequences, {interludes} interludes."
+    )
     if warnings:
         print("Pre-draft warnings:")
         print("\n".join(f"- {item}" for item in warnings))

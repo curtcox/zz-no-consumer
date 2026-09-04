@@ -3,6 +3,7 @@
 
 from __future__ import annotations
 
+import re
 from html.parser import HTMLParser
 from pathlib import Path
 from urllib.parse import unquote, urlsplit
@@ -118,18 +119,23 @@ def main() -> int:
             sample = sorted(str(path.relative_to(ROOT)) for path in unreached)[:5]
             failures.append(f"{len(unreached)} routes are unreachable by spacebar, including {sample}")
 
+    # The page count is not an invariant of this book, so the representative routes are
+    # read from the manifest rather than named. See design/page-identity.md.
+    manifest = (ROOT / "data" / "pages.yaml").read_text(encoding="utf-8")
+    page_ids = re.findall(r'^\s*- \{id: "(\d{3})",', manifest, re.MULTILINE)
+    first, last = (page_ids[0], page_ids[-1]) if page_ids else ("001", "001")
     expected = [
         VIEWER / "index.html",
         VIEWER / "chapters" / "prologue" / "index.html",
         VIEWER / "chapters" / "prologue" / "info" / "index.html",
-        VIEWER / "pages" / "001" / "index.html",
-        VIEWER / "pages" / "001" / "info" / "index.html",
-        VIEWER / "pages" / "001" / "images" / "01" / "index.html",
-        VIEWER / "pages" / "001" / "images" / "01" / "info" / "index.html",
-        VIEWER / "pages" / "112" / "index.html",
-        VIEWER.parent / "assets" / "placeholders" / "pages" / "001.svg",
-        VIEWER.parent / "assets" / "placeholders" / "pages" / "112.svg",
-        VIEWER.parent / "assets" / "placeholders" / "panels" / "001-01.svg",
+        VIEWER / "pages" / first / "index.html",
+        VIEWER / "pages" / first / "info" / "index.html",
+        VIEWER / "pages" / first / "images" / "01" / "index.html",
+        VIEWER / "pages" / first / "images" / "01" / "info" / "index.html",
+        VIEWER / "pages" / last / "index.html",
+        VIEWER.parent / "assets" / "placeholders" / "pages" / f"{first}.svg",
+        VIEWER.parent / "assets" / "placeholders" / "pages" / f"{last}.svg",
+        VIEWER.parent / "assets" / "placeholders" / "panels" / f"{first}-01.svg",
     ]
     for path in expected:
         if not path.exists():

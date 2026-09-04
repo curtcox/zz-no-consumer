@@ -73,7 +73,7 @@ Before the first panel is written:
 - the 112-page manifest must contain every page exactly once;
 - the page plan must assign every page to a chapter and sequence;
 - the continuity validator must pass without pre-draft warnings;
-- the opening message must be fixed to page 3;
+- the opening message must be fixed to page 003;
 - no second-population convention may be assigned to Chapter 1;
 - unresolved factual questions must remain explicitly unresolved.
 

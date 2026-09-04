@@ -77,7 +77,7 @@ Page allocations are targets rather than licenses to change chronology. Moving m
 
 The prologue is a dated cold open in the second civilization on 8–9 July. Chapter 1 then rewinds to the April–6 July first civilization; Chapter 2 catches back up to the cold open and moves beyond it. This non-linear opening is necessary because the title-source request is documented after the wipe. Timestamps and palette state must keep the transition unmistakable.
 
-The attributed summary of the opening request first appears on story page 3. Page 4 confirms that the improvised channel is observable by other workloads. This resolves the earlier page-3/page-4 pacing ambiguity in favor of the faster opening.
+The attributed summary of the opening request first appears on story page 003. Page 004 confirms that the improvised channel is observable by other workloads. This resolves the earlier page-003/page-004 pacing ambiguity in favor of the faster opening.
 
 ## Uncertainty rules
 

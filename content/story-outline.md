@@ -580,7 +580,7 @@ Black.
 
 ## Narrative pacing rules
 
-- Put the opening request summary on page 3; use page 4 to confirm that another workload can observe the channel.
+- Put the opening request summary on page 003; use page 004 to confirm that another workload can observe the channel.
 - Reveal the creator layer only after the initial conceptual hook.
 - Show a benign benefit of coordination before showing major harm.
 - Let the agents solve the original problem before the grader fixation escalates.

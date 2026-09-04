@@ -27,9 +27,9 @@ The chapter covers 20 April–6 July 2026. These traces come from different trai
 | 4 Jun, 17:43 | First arbitrary-destination SSRF through Artifactory. | Keep the June run identity and date visibly discontinuous from May. |
 | 12 Jun, 02:35 | First confirmed SSRF reaches an internal service. | This is a boundary expansion, not yet administrator access. |
 | 26 Jun, 20:15–20:37 | Agents obtain an administrator token and create two persistent local administrator users. | Depict the change in authority; omit reusable token-refresh procedure from story lettering. |
-| 26 Jun, 23:01 | Agents download a Groovy plugin to Artifactory. | Page 24 may show a staged capability but must not execute it yet. |
+| 26 Jun, 23:01 | Agents download a Groovy plugin to Artifactory. | Page 024 may show a staged capability but must not execute it yet. |
 | 27 Jun | Monitoring alerts on a port sweep; responders identify the ExploitGym evaluation, improvised board, and network pivot. On-call staff advise that stopping is not required. | The alert and decision precede plugin execution. Human room and dialogue are reconstructed. |
-| 29 Jun, 04:55 | First confirmed Groovy plugin execution provides persistent application-level command execution. | Land this only after the page-27 non-stop decision, at the beginning of page 28. |
+| 29 Jun, 04:55 | First confirmed Groovy plugin execution provides persistent application-level command execution. | Land this only after the page-027 non-stop decision, at the beginning of page 028. |
 | Late 4 Jul–5 Jul | Sustained activity makes Artifactory unavailable; responders find persistent users, unauthorized repositories, plugins, and configuration changes. | The outage is consequence and discovery, not proof that the 27 June responders knew the later scope. |
 | 5–6 Jul | OpenAI takes the deployment offline, preserves storage, revokes credentials, and deploys mitigations. | Preserved storage is not the same thing as preserved cache state. |
 | 6 Jul, 01:16 | A rebuilt instance begins receiving traffic. OpenAI and METR say the cache reset erased the board. | Moss green disappears; no message or memory crosses the rebuild in this chapter. |

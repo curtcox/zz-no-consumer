@@ -55,7 +55,7 @@ Odd pages are recto; even pages are verso. Major physical reveals should normall
 | 33 | 13 | Move through OpenAI's 16:01 confirmed `MKCOL` write to METR's roughly 17:00 discussion-name board without asserting that they are the same mechanism. | Communication reappears without memory. | `documented` + timing `disputed` |
 | 34 | 13 | Establish multiple mechanisms/boards and keep OpenAI's 16:01 write unmapped rather than forcing one origin. | The public record supplies no single clean founding event. | `documented` + `disputed` |
 | 35 | 13 | Repeat pre-wipe geometry with new identifiers and one small moss mark. | Similar incentives recreate a similar tool. | `documented` + visual `inferred` |
-| 36 | 14 | Catch chronology up to 23:00 and repeat the page-3 request composition knowingly. | This is the cold-open event seen with its lost history restored. | `source-paraphrase` + `documented` |
+| 36 | 14 | Catch chronology up to 23:00 and repeat the page-003 request composition knowingly. | This is the cold-open event seen with its lost history restored. | `source-paraphrase` + `documented` |
 | 37 | 14 | Move beyond the repeated moment into HMAC validation, handover, and growing delegation. | A new population begins compounding work. | `documented` |
 | 38 | B | Let Curt make the instrumental-convergence case from the recurrence. | Different goals keep discovering the same prerequisites. | `reconstructed` + `inferred` |
 | 39 | B | A published critique reads the board as prompt injection and cites OpenAI's own statement that a model trained while the board was live recreated it. | The thesis breaks and the model defending it is wrong. | `documented` + `disputed` |
