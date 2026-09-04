@@ -107,6 +107,41 @@ a key naming a panel no script declares, a classification table out of date, a r
 panel that does not exist. It is green today, and it is meant to stay green: a permanently
 red checker is a baseline, not a work list.
 
+### Moving a panel to another page
+
+The panel-level analogue of moving a page across a chapter boundary, which turned out to be
+the most useful page operation, and built for the same reason: it is a *membership* change,
+not a renumbering, and it is the operation an editor actually wants when a page is full and
+the beat belongs elsewhere.
+
+`move NNN-II --to-page MMM --to JJ` takes the panel's script body, its art directory, its
+prompt file, and its rows in `data/panel-art.tsv` together, renumbers both pages, and
+reports both rhythms. Two things about it are worth stating, because neither is obvious and
+both are where a naive implementation goes silently wrong.
+
+**A bare reference is only bare because of where it sits.** `Repeat panel 02's exact camera`
+inside `prompts/pages/001/panel-03.md` means page 001's panel 2. Move that panel to page 002
+and the sentence, unchanged, now points at whatever occupies index 2 on page 001 — a
+different picture, with no error anywhere. So text that changes page is rewritten in two
+steps: every bare reference in it is first qualified with the page it was written against,
+and only then is the relocation applied. The same rule runs in the other direction for a
+sentence that stays put while the panel it names leaves: `Panel 4 is the first time…`
+becomes `Page 040 panel 2 is the first time…`. A reference is allowed to change *form*,
+because its form encodes an assumption about location that the move has falsified.
+
+**A range that no longer names one page is not a renumbering.** `Panels 3–6 are the smaller
+corrections` cannot survive panel 4 moving to another page as any arrangement of numbers —
+and note that a range is written with two numbers but names four, so the check resolves every
+index inside the span rather than the two that appear, or a panel taken from the middle
+leaves a continuous-looking range with a hole in it.
+The tool reports it and refuses the operation rather than emitting something defensible-
+looking, which is the same posture `pagination.py` takes toward an ambiguous page reference.
+
+Two softer signals are reported and not acted on: a transfer that crosses a chapter
+boundary, because the beat changes which chapter's argument it serves; and a reference that
+ends up naming the page it sits on, which stays true while almost certainly wanting a
+rewrite.
+
 ### Alternatives rejected
 
 **Fold panel operations into `pagination.py`.** Rejected. The two tools share a shape but not
@@ -120,10 +155,11 @@ restore four-to-six. Rejected for the same reason `pagination.py` never rebalanc
 where a beat sits is the editorial decision the tool exists to serve, not one it should make.
 A page that wants seven panels should have seven, and the flag is how the editor says so.
 
-**Support moving a panel to another page.** Not rejected, not built. It is a real editorial
-operation and it is the panel-level analogue of moving a page across a chapter boundary,
-which turned out to be the most useful page operation. It needs cross-page art and prompt
-migration and a two-page rhythm report, and it is the obvious next increment.
+**Keep the tool inside one page and require a delete-then-write to move a beat.** Rejected,
+after being deferred once. Deleting a panel from one page and retyping it on another loses
+its art, its prompt, its provenance line, and every sentence that pointed at it — which is
+the whole cost the tool exists to remove, reintroduced at the point where it hurts most. See
+*Moving a panel to another page* above.
 
 **Rewrite the two grouped runs into nine headings each so every page has the same shape.**
 Rejected. `## Panels 1–9` records that the grid is one composition and one image, which is a
@@ -160,11 +196,17 @@ that happened and are never rewritten; `data/panel-types.tsv` and `docs/` are re
 | 4 | Art and prompts follow their panel | Both are renamed with the index, and the complete old-to-new map is printed. |
 | 5 | The scripted count and the slot count stay distinguishable | Grouped runs are modelled explicitly and expose one slot. |
 | 6 | The panel count is not an invariant | `report` derives it; `imagegen.py` and `make-thumbnails.py` read it; prose that quotes it says when it was measured. |
-| 7 | The page model is not duplicated | `panels.py` imports `crossref`, and `make-thumbnails.py` imports `panels` rather than keeping its own copy of `panel_count` and `visible_text`. |
+| 7 | A transfer conserves panels | Moving a beat between pages changes neither the scripted count nor the slot count; both acceptance transfers leave 563 and 547. |
+| 8 | The page model is not duplicated | `panels.py` imports `crossref`, and `make-thumbnails.py` imports `panels` rather than keeping its own copy of `panel_count` and `visible_text`. |
 
 ## Known limits
 
-- No cross-page move. See above.
+- A cross-page move takes one panel at a time. Moving a run of three means three
+  operations, each renumbering both pages, and the intermediate states are real.
+- The front matter of neither page is touched by a transfer. A panel that carries a source
+  its new page does not declare leaves `crossref --strict` one warning higher, which is the
+  correct signal and not a repair the tool should make: whether the page should declare that
+  source is an editorial question about what the page is now about.
 - Rhythm is checked against the default band, not against the page's *kind*. The grammar
   bands an establishing page at one to three and a procedural page at five to nine, but no
   page declares which it is, so the tool cannot tell a legitimate three-panel revelation page

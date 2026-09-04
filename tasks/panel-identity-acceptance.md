@@ -1,9 +1,13 @@
 # Acceptance record — panel insertion, deletion, and movement
 
-All four operations run against the tree as it stands after `scripts/panels.py` was added,
+All six operations run against the tree as it stands after `scripts/panels.py` was added,
 each reset before the next. For each: the tool's own plan, then `--apply`, then
 `paneltypes.py write` and `build-site.py`, then all four validators plus `pagination.py check`
 and `panels.py check`.
+
+Tests 1–4 change one page. Tests 5 and 6 move a panel to another page, which is a membership
+change rather than a renumbering — the same distinction that made moving a page across a
+chapter boundary the most informative of the page-level tests.
 
 Reproduce any row by running the command shown, then the two regeneration commands. The tree
 is left unchanged by this document; nothing here is committed.
@@ -12,20 +16,37 @@ is left unchanged by this document; nothing here is committed.
 
 | # | Operation | Rhythm | Validators | `crossref --strict` | Source diff |
 | ---: | --- | --- | --- | ---: | --- |
-| 1 | insert one panel mid-page, page 039 | 6 → 7, **off default** | 4/4 green, 564 panels, 548 slots | 72 | 2 files, +11 −5 |
-| 2 | delete one panel mid-page, page 035 | 5 → 4, default | 4/4 green, 562 panels, 546 slots | 71 | 2 files, +5 −11 |
-| 3 | move a panel within a page, page 001 | 5 → 5, default | 4/4 green, 563 panels, 547 slots | 71 | 15 files, +20 −20 |
-| 4 | insert one panel on a cross-referenced page, page 003 | 5 → 6, default | 4/4 green, 564 panels, 548 slots | 72 | 4 files, +15 −9 |
+| 1 | insert one panel mid-page, page 039 | 6 → 7, **off default** | 4/4 green, 564 panels, 548 slots | 72 | 2 files, +15 −6 |
+| 2 | delete one panel mid-page, page 035 | 5 → 4, default | 4/4 green, 562 panels, 546 slots | 71 | 2 files, +5 −17 |
+| 3 | move a panel within a page, page 001 | 5 → 5, default | 4/4 green, 563 panels, 547 slots | 71 | 14 files, +25 −25 |
+| 4 | insert one panel on a cross-referenced page, page 003 | 5 → 6, default | 4/4 green, 564 panels, 548 slots | 72 | 4 files, +19 −10 |
+| 5 | move a panel to another page, 001-02 → 002-01 | 5 → 4 and 5 → 6, default | 4/4 green, 563 panels, 547 slots | 71 | 16 files, +32 −35 |
+| 6 | move a panel across a chapter boundary, 003-04 → 036-02 | 5 → 4 and 5 → 6, default | 4/4 green, 563 panels, 547 slots | 72 | 4 files, +20 −20 |
+
+"Source diff" is `git diff --shortstat -- content data prompts assets` after the operation
+and the two regeneration commands, so the figures are comparable across rows and reproducible.
+`build-site.py` letters 10 panels in every row, including both transfers: art that moves with
+its panel keeps resolving.
 
 "4/4 green" is `validate-continuity.py`, `validate-production-foundations.py`,
 `crossref.py check`, and `validate-viewer.py`, all exit 0. `pagination.py check` and
-`panels.py check` are green after all four: a panel operation does not move a page, so no
+`panels.py check` are green after all six: a panel operation does not move a page, so no
 parity assertion and no named beat is touched.
+
+Both transfers leave the totals at 563 panels and 547 slots. A panel that changes page is
+neither created nor destroyed, and a tool that got that wrong would show it here.
 
 The strict cross-reference baseline of 71 rises to 72 in the two insertion tests, and this is
 correct rather than a regression: a new panel is written with `invented` / `NONE-FICTION`
 provenance that its page's front matter does not declare, and `crossref` says so. The
 placeholder is supposed to be visible until someone writes the panel.
+
+Test 6 raises it for the same kind of reason and a more interesting one: the transferred
+panel carries its own provenance onto a page whose front matter does not declare those
+sources. The tool predicts this before it applies (`provenance-transferred`) and does not
+repair it, because whether page 036 should now declare `METR` is a question about what that
+page is about. Test 5 stays at 71 because page 002 already declares what the arriving panel
+cites.
 
 ---
 
@@ -143,10 +164,88 @@ survives its number changing.
 Four files, `+15 −9`. The same operation done by hand is three files a careful editor would
 have to remember exist.
 
+## 5. Move a panel to another page, 001-02 → 002-01
+
+```sh
+python3 scripts/panels.py move 001-02 --to-page 002 --to 1 --apply
+```
+
+The test that matters, because page 001 is the only page carrying both generated art and
+written prompts. The panel's script body, its three WebP versions, its prompt file, and its
+three rows in `data/panel-art.tsv` all travel; both pages renumber around the hole and the
+arrival.
+
+```
+Rhythm: page 001 5 -> 4 panels (default)
+Rhythm: page 002 5 -> 6 panels (default)
+
+Transfer
+  001-02 -> 002-01
+
+Notes:
+- [art-transferred] 001-02: art moves to 002-01, onto a page it was not composed for;
+  re-review it against the new neighbours
+- [provenance-transferred] 002-01: carries its own provenance line onto a page whose front
+  matter may not declare those sources; crossref will say so
+```
+
+The sentence worth watching is in a prompt file that does not move. `prompts/pages/001/panel-03.md`
+opens *"Repeat panel 02's exact camera, card proportions, and diagram geometry"* — a bare
+reference, local to page 001, and correct only for as long as panel 2 is on page 001. After
+the transfer that file is `prompts/pages/001/panel-02.md` and the sentence reads:
+
+```
+Repeat page 002 panel 01's exact camera, card proportions, and diagram geometry.
+```
+
+Nothing else in the repository would have caught that going wrong. The reference stays
+grammatical, stays plausible, and would have pointed at a different picture.
+
+The transferred prompt keeps its own heading correct on the way over — `# Page 001 — Panel 02`
+arrives as `# Page 002 — Panel 01` — because the heading is an ordinary cross-page reference
+and the relocation covers it.
+
+Sixteen tracked files, plus `assets/art/panels/002-01/` and `prompts/pages/002/panel-01.md`
+arriving as new paths. `build-site.py` still letters ten panels, which is the check that the
+art actually followed its key.
+
+## 6. Move a panel across a chapter boundary, 003-04 → 036-02
+
+```sh
+python3 scripts/panels.py move 003-04 --to-page 036 --to 2 --apply
+```
+
+Page 003 is the cold open and page 036 is the chapter that deliberately re-draws it, so four
+sentences on two other pages name page 003's panels. Moving one of them exercises every
+reference class at once:
+
+```
+content/pages/036.md:  Repeat page 003 panel 4  ->  Repeat page 036 panel 2
+content/pages/043.md:  rhymes deliberately with page 003 panel 4  ->  page 036 panel 2
+```
+
+Two warnings, neither of them mechanical:
+
+```
+- [transfer-crosses-chapter] 003-04: leaves chapter prologue for chapter 02; the beat
+  changes which chapter's argument it serves
+- [reference-now-self] content/pages/036.md: "page 003 panel 4" now names a panel on the
+  page it sits on; the reference is true but probably wants rewriting
+```
+
+The second is the tool noticing something a careful editor would want to know and could
+easily miss: page 036's instruction to *repeat* a composition now points at its own page.
+The rewrite is correct — it is the sentence that has stopped making sense, and the tool says
+so rather than fixing it.
+
 ## What the tests did not cover
 
-- **No cross-page move**, because the tool does not have one. See the last of the *Known
-  limits* in [`../design/panel-identity.md`](../design/panel-identity.md).
+- **No multi-panel transfer.** A cross-page move takes one panel at a time; moving a run of
+  three is three operations with real intermediate states.
+- **No range broken by a transfer.** `move 086-04 --to-page 087 --to 1` is refused, because
+  page 086's notes say *"Panels 3–6 are the smaller corrections"* and a range that no longer
+  names one page is not a renumbering. Reported and refused rather than guessed at; the
+  sentence has to be rewritten first.
 - **No operation on a grouped run.** Pages 006 and 007 write `## Panels 1–9`, and every
   command refuses them by design:
 
@@ -164,9 +263,9 @@ have to remember exist.
 
 ## What these runs caught
 
-The acceptance runs are why this section exists. The first pass through them found two
-defects, both in the plumbing rather than the model, and both invisible to `check` because
-they only appear when an operation is actually applied.
+The acceptance runs are why this section exists. They found four defects, all in the
+plumbing rather than the model, and all invisible to `check` because they only appear when
+an operation is actually applied.
 
 **Zero-padding was dropped on rewrite.** `# Page 001 — Panel 02` came back as `Panel 2`. The
 prose rewriter emitted `str(new_index)` regardless of what the site had used, so every padded
@@ -186,3 +285,28 @@ have rewritten them into the directory it was vacating and left the moved copies
 a stray `prompts/pages/001/` pointing at a page that had moved. Probed, confirmed, fixed the
 same way, and verified: `pagination.py insert --at 001` now leaves `prompts/pages/002/` and
 `prompts/pages/003/`, with `# Page 002 — Panel 01` inside the first.
+
+**The art table's key was rewritten and its path was not.** `data/panel-art.tsv` holds both a
+`NNN-II` key and a `file` column reading `assets/art/panels/NNN-II/...`. Only the key was
+being renumbered, so after any move the two disagreed, `panelart.resolve` looked for a file
+that no longer existed, and `build-site.py` quietly lettered eight panels instead of ten. No
+validator failed. Nothing was reported. The book simply had two fewer lettered images, and
+the only visible trace was a number in a build line that nobody reads.
+
+This one is worth dwelling on, because it is the exact failure mode the tool exists to
+prevent, reproduced inside the tool: a mechanical consequence of renumbering, silently
+mishandled, with the damage showing up somewhere nobody was looking. It was caught by asking
+why a count in `build-site.py`'s output had changed — not by any check. `panels.py` now
+relocates every key in the row rather than the one in the first column, and the lettered
+count is recorded in the results table above so a future regression has somewhere to show up.
+
+It was also present in the single-page `move` that shipped in the first commit, so the fix
+matters beyond the cross-page work.
+
+**The range check only looked at the ends of the range.** `Panels 3–6` is written with two
+numbers and names four panels. Taking panel 4 to another page left both endpoints on page
+086, so the split went undetected and the sentence would have silently come to mean
+something else — a range with a hole in it, still reading as continuous. Found by writing
+down a claim about the tool's behaviour and then running the command to check it, which is
+the only reason it is not still there. The check now resolves every index inside a span, not
+just the two that are written.

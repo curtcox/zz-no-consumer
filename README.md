@@ -76,9 +76,10 @@ python3 scripts/panels.py check                   # exit non-zero while the tree
 python3 scripts/panels.py insert --page 039 --at 4
 python3 scripts/panels.py delete 039-04
 python3 scripts/panels.py move 086-06 --to 3
+python3 scripts/panels.py move 039-04 --to-page 040 --to 2   # to another page
 ```
 
-Operations print a plan and touch nothing without `--apply`, and the same two regeneration commands follow an applied one.
+Operations print a plan and touch nothing without `--apply`, and the same two regeneration commands follow an applied one. `--to-page` moves a beat to another page: the panel's script, its art directory, its prompt file, and its row in `data/panel-art.tsv` travel together, both pages are renumbered, and every sentence that named the panel follows it.
 
 **Rhythm is to a panel what parity is to a page.** [`design/page-grammar.md`](design/page-grammar.md) bands a page at four to six panels by default, one to three for an establishing or revelation page, five to nine for a procedural sequence; [`design/lettering-slots.md`](design/lettering-slots.md) anchors four lettering slots per panel, so a fifth element on one panel has nowhere to go. An operation that leaves the default band is refused unless `--allow-rhythm-shift` is passed, one that discards generated art unless `--allow-art-loss` is, and either way the tool prints the new rhythm, every panel whose lettering no longer fits, and every image that now sits under a different beat. It repairs none of it.
 

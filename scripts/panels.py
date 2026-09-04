@@ -327,11 +327,68 @@ def read_sites() -> list[Site]:
     ]
 
 
-def rewrite_prose(text: str, relative: str, page: int,
-                  mapping: dict[int, int]) -> tuple[str, list[tuple[int, str]]]:
-    """Renumber references to ``page``'s panels. Returns the text and any dangling targets."""
-    scope = page_scope(relative)
-    dangling: list[tuple[int, str]] = []
+class Relocation:
+    """Where every (page, panel) pair an operation touches ends up.
+
+    One table answers every rewriting question, including the cross-page ones: a panel that
+    changes index, a panel that changes page, and a panel that leaves the book all look the
+    same to a caller. A pair on a page the operation does not touch resolves to itself.
+    """
+
+    def __init__(self, operation: Operation) -> None:
+        self.pages = {change.page for change in operation.changes}
+        self.moves: dict[tuple[int, int], tuple[int, int] | None] = {}
+        for change in operation.changes:
+            for old, new in change.mapping.items():
+                self.moves[(change.page, old)] = (change.page, new)
+            for old in change.deleted:
+                self.moves[(change.page, old)] = None
+        transfer = operation.transfer
+        if transfer is not None:
+            landing = operation.change(transfer.target)
+            assert landing is not None and landing.arrived is not None
+            self.moves[(transfer.source, transfer.index)] = (transfer.target, landing.arrived)
+
+    def resolve(self, page: int, index: int) -> tuple[int, int] | None:
+        """The pair afterwards, or ``None`` if that panel no longer exists."""
+        if (page, index) in self.moves:
+            return self.moves[(page, index)]
+        if page in self.pages:
+            return None
+        return (page, index)
+
+
+def relocated(relocation: Relocation):
+    """A ``PANEL_KEY`` substitution that moves every key it finds, and drops nothing."""
+    def replace(hit: re.Match[str]) -> str:
+        landing = relocation.resolve(int(hit.group("page")), int(hit.group("panel")))
+        if landing is None:
+            return hit.group(0)
+        return f"{landing[0]:03d}-{landing[1]:02d}"
+    return replace
+
+
+@dataclass
+class Rewrite:
+    text: str
+    dangling: list[tuple[int, str]] = field(default_factory=list)
+    split: list[str] = field(default_factory=list)
+    circular: list[str] = field(default_factory=list)
+
+
+def rewrite_prose(text: str, relative: str, relocation: Relocation, *,
+                  origin: int | None = None, lands_on: int | None = None) -> Rewrite:
+    """Apply a relocation to every panel reference in one file.
+
+    ``origin`` is the page a bare reference in this text was written against, and
+    ``lands_on`` the page the text will belong to afterwards. They differ only when the text
+    itself is moving between pages -- a transferred panel's script, or its prompt file --
+    and that is exactly when a bare reference has to become an explicit one, because the
+    page it was implicitly naming is no longer the page it sits on.
+    """
+    scope = page_scope(relative) if origin is None else origin
+    settles = scope if lands_on is None else lands_on
+    result = Rewrite("")
     lines = text.splitlines(keepends=True)
     fenced = False
     for position, line in enumerate(lines):
@@ -343,85 +400,187 @@ def rewrite_prose(text: str, relative: str, page: int,
         quoted = code_ranges(line)
 
         def key(match: re.Match[str]) -> str:
-            if in_code(match.start(), quoted) or int(match.group("page")) != page:
+            if in_code(match.start(), quoted):
                 return match.group(0)
-            value = int(match.group("panel"))
-            if value not in mapping:
-                dangling.append((value, match.group(0)))
+            pair = relocation.resolve(int(match.group("page")), int(match.group("panel")))
+            if pair is None:
+                result.dangling.append((int(match.group("panel")), match.group(0)))
                 return match.group(0)
-            return f"{page:03d}-{mapping[value]:02d}"
+            return f"{pair[0]:03d}-{pair[1]:02d}"
 
         def phrase(match: re.Match[str]) -> str:
             if in_code(match.start(), quoted):
                 return match.group(0)
             raw = match.group("pagenum")
-            if raw is not None:
-                if len(raw) != 3 or int(raw) != page:
-                    return match.group(0)
-            elif scope != page:
+            if raw is not None and len(raw) != 3:
+                return match.group(0)
+            named = int(raw) if raw is not None else scope
+            if named is None:
                 return match.group(0)
             prefix = match.group("page") or ""
             body = match.group(0)[len(prefix):]
+            numbers = [int(item) for item in re.findall(r"\d{1,2}", body)]
+            pairs = [relocation.resolve(named, value) for value in numbers]
+            for value, pair in zip(numbers, pairs):
+                if pair is None:
+                    result.dangling.append((value, match.group(0).strip()))
+                    return match.group(0)
+            landed = {pair[0] for pair in pairs if pair is not None}
+            # `panels 3–6` names four panels and writes two, so the endpoints are not the
+            # whole reference. A transfer that takes one from inside the span breaks the
+            # range just as surely as one that takes an end of it.
+            if len(numbers) == 2 and re.search(r"\d\s*[–—-]\s*\d", body):
+                for value in range(min(numbers), max(numbers) + 1):
+                    inside = relocation.resolve(named, value)
+                    if inside is not None:
+                        landed.add(inside[0])
+            if len(landed) > 1:
+                # `panels 3–6` where the move takes some of them elsewhere. A range that no
+                # longer names one page is not a renumbering; it is a sentence to rewrite.
+                result.split.append(match.group(0).strip())
+                return match.group(0)
+            page = landed.pop()
+            remaining = iter(pair[1] for pair in pairs if pair is not None)
 
             def number(hit: re.Match[str]) -> str:
-                value = int(hit.group(0))
-                if value not in mapping:
-                    dangling.append((value, match.group(0).strip()))
-                    return hit.group(0)
                 # `Panel 02` is padded and `panel 2` is not; keep whichever this site used.
-                return f"{mapping[value]:0{len(hit.group(0))}d}"
+                return f"{next(remaining):0{len(hit.group(0))}d}"
 
-            return prefix + re.sub(r"\d{1,2}", number, body)
+            renumbered = re.sub(r"\d{1,2}", number, body)
+            if raw is not None:
+                if page == named:
+                    return prefix + renumbered
+                if page == settles:
+                    # `Repeat page 003 panel 4` on a page that has just been given that
+                    # panel. Still true, and still worth a human's eye: an instruction to
+                    # repeat a composition now points at the page it sits on.
+                    result.circular.append(match.group(0).strip())
+                return re.sub(r"\d{1,3}", f"{page:03d}", prefix, count=1) + renumbered
+            if page == settles:
+                return renumbered
+            # The panel this bare reference names is no longer on the page the sentence
+            # sits on, so the sentence has to say which page it means.
+            lead = "Page" if renumbered[:1].isupper() else "page"
+            return f"{lead} {page:03d} " + renumbered[:1].lower() + renumbered[1:]
 
         lines[position] = PANEL_PHRASE.sub(phrase, PANEL_KEY.sub(key, line))
-    return "".join(lines), dangling
+    result.text = "".join(lines)
+    return result
 
 
 # ---------------------------------------------------------------------------
 # operations
 # ---------------------------------------------------------------------------
 
+# A panel arriving from another page occupies a slot in the target's order before it has an
+# index there. Negative sentinels distinguish the two kinds of arrival: a panel written fresh
+# by `insert`, and a panel carried in by a cross-page `move`.
+ARRIVAL = -100
+
+
 @dataclass(frozen=True)
-class Operation:
+class PageChange:
+    """What one page looks like afterwards. An operation changes one page, or two."""
+
     page: int
-    label: str
     order: list[int]                 # old index of each panel, in the new order
-    mapping: dict[int, int]          # surviving old index -> new index
-    created: tuple[int, ...]         # sentinel old indices for new panels
-    deleted: tuple[int, ...]
+    created: tuple[int, ...]         # sentinels for panels written fresh
+    deleted: tuple[int, ...]         # indices removed from the book
+    departed: tuple[int, ...]        # indices that left for another page
+
+    @property
+    def id(self) -> str:
+        return f"{self.page:03d}"
+
+    @property
+    def mapping(self) -> dict[int, int]:
+        return {old: position for position, old in enumerate(self.order, 1) if old > 0}
 
     @property
     def shifted(self) -> dict[int, int]:
         return {old: new for old, new in self.mapping.items() if old != new}
 
+    @property
+    def arrived(self) -> int | None:
+        return next((position for position, old in enumerate(self.order, 1)
+                     if old == ARRIVAL), None)
 
-def build_order(order: list[int]) -> dict[int, int]:
-    return {old: position for position, old in enumerate(order, 1) if old > 0}
+    @property
+    def gone(self) -> tuple[int, ...]:
+        """Indices this page no longer has, whichever way they left."""
+        return tuple(sorted(self.deleted + self.departed))
+
+
+@dataclass(frozen=True)
+class Transfer:
+    """One panel carried from one page to another, keeping its script and its art."""
+
+    source: int
+    index: int
+    target: int
+    position: int
+
+    @property
+    def from_key(self) -> str:
+        return f"{self.source:03d}-{self.index:02d}"
+
+    @property
+    def to_key(self) -> str:
+        return f"{self.target:03d}-{self.position:02d}"
+
+
+@dataclass(frozen=True)
+class Operation:
+    label: str
+    changes: tuple[PageChange, ...]
+    transfer: Transfer | None = None
+
+    @property
+    def pages(self) -> tuple[int, ...]:
+        return tuple(change.page for change in self.changes)
+
+    def change(self, page: int) -> PageChange | None:
+        return next((item for item in self.changes if item.page == page), None)
 
 
 def build_insert(script: PageScript, at: int, count: int) -> Operation:
     order = list(script.indices)
     created = tuple(-(n + 1) for n in range(count))
     order[at - 1:at - 1] = list(created)
-    return Operation(script.number, f"insert {count} panel(s) at {script.id}-{at:02d}",
-                     order, build_order(order), created, ())
+    return Operation(f"insert {count} panel(s) at {script.id}-{at:02d}",
+                     (PageChange(script.number, order, created, (), ()),))
 
 
 def build_delete(script: PageScript, indices: list[int]) -> Operation:
     order = [index for index in script.indices if index not in indices]
     return Operation(
-        script.number,
         "delete " + ", ".join(f"{script.id}-{index:02d}" for index in sorted(indices)),
-        order, build_order(order), (), tuple(sorted(indices)),
+        (PageChange(script.number, order, (), tuple(sorted(indices)), ()),),
     )
 
 
 def build_move(script: PageScript, index: int, destination: int) -> Operation:
     order = [value for value in script.indices if value != index]
     order.insert(destination - 1, index)
-    return Operation(script.number,
-                     f"move {script.id}-{index:02d} to position {destination:02d}",
-                     order, build_order(order), (), ())
+    return Operation(f"move {script.id}-{index:02d} to position {destination:02d}",
+                     (PageChange(script.number, order, (), (), ()),))
+
+
+def build_transfer(source: PageScript, index: int,
+                   target: PageScript, position: int) -> Operation:
+    """Move a panel to another page: one page loses a beat, another gains it."""
+    leaving = [value for value in source.indices if value != index]
+    arriving = list(target.indices)
+    arriving[position - 1:position - 1] = [ARRIVAL]
+    transfer = Transfer(source.number, index, target.number, position)
+    return Operation(
+        f"move {transfer.from_key} to {target.id} as panel {position:02d}",
+        (
+            PageChange(source.number, leaving, (), (), (index,)),
+            PageChange(target.number, arriving, (), (), ()),
+        ),
+        transfer,
+    )
 
 
 # ---------------------------------------------------------------------------
@@ -449,9 +608,10 @@ def band_of(count: int) -> str:
     return "procedural sequence"
 
 
-def rhythm_notes(script: PageScript, count: int) -> list[Note]:
+def rhythm_notes(script: PageScript, change: PageChange) -> list[Note]:
     """The page's new rhythm, measured against design/page-grammar.md. Never repaired."""
     notes: list[Note] = []
+    count = len(change.order)
     if not GRAMMAR_BAND[0] <= count <= GRAMMAR_BAND[1]:
         notes.append(Note("error", "rhythm-out-of-grammar", script.path,
                           f"would carry {count} panels, and the page grammar bands a page "
@@ -465,25 +625,33 @@ def rhythm_notes(script: PageScript, count: int) -> list[Note]:
     return notes
 
 
-def lettering_notes(script: PageScript, operation: Operation) -> list[Note]:
+def lettering_notes(script: PageScript, change: PageChange,
+                    incoming: Section | None) -> list[Note]:
     """Lettering does not move with a panel index, so say what changed shape."""
     notes: list[Note] = []
     bodies = {section.index: section for section in script.sections}
-    for old in operation.deleted:
+    for old in change.deleted:
         section = bodies[old]
         if section.elements:
             notes.append(Note("warning", "lettering-deleted",
-                              f"{script.id}-{old:02d}",
+                              f"{change.id}-{old:02d}",
                               f"carries {section.elements} lettered element(s) and "
                               f"{section.words} words, which the deletion removes from the book"))
-    for old, new in sorted(operation.mapping.items()):
+    for old, new in sorted(change.mapping.items()):
         section = bodies[old]
         if section.elements > SLOTS_PER_PANEL:
             notes.append(Note("warning", "lettering-overflow",
-                              f"{script.id}-{new:02d}",
+                              f"{change.id}-{new:02d}",
                               f"carries {section.elements} lettered elements and the slot "
                               f"convention anchors {SLOTS_PER_PANEL}"))
-    remaining = sum(bodies[old].words for old in operation.mapping)
+    remaining = sum(bodies[old].words for old in change.mapping)
+    if incoming is not None:
+        remaining += incoming.words
+        if incoming.elements > SLOTS_PER_PANEL:
+            notes.append(Note("warning", "lettering-overflow",
+                              f"{change.id}-{change.arrived:02d}",
+                              f"arrives carrying {incoming.elements} lettered elements and "
+                              f"the slot convention anchors {SLOTS_PER_PANEL}"))
     if remaining > DENSE_PAGE_WORDS:
         notes.append(Note("warning", "lettering-dense", script.path,
                           f"keeps {remaining} lettered words, over the {DENSE_PAGE_WORDS} "
@@ -491,18 +659,50 @@ def lettering_notes(script: PageScript, operation: Operation) -> list[Note]:
     return notes
 
 
-def art_notes(script: PageScript, operation: Operation) -> list[Note]:
+def art_notes(script: PageScript, change: PageChange) -> list[Note]:
     notes: list[Note] = []
-    for old in operation.deleted:
-        if art_directory(script.number, old).is_dir() or art_rows(script.number, old):
-            notes.append(Note("error", "orphaned-art", f"{script.id}-{old:02d}",
+    for old in change.deleted:
+        if art_directory(change.page, old).is_dir() or art_rows(change.page, old):
+            notes.append(Note("error", "orphaned-art", f"{change.id}-{old:02d}",
                               "has generated art, which the deletion discards"))
-    for old, new in sorted(operation.shifted.items()):
-        if art_directory(script.number, old).is_dir():
-            notes.append(Note("note", "art-renamed", f"{script.id}-{old:02d}",
-                              f"art moves to {script.id}-{new:02d}; the image was drawn for "
+    for old, new in sorted(change.shifted.items()):
+        if art_directory(change.page, old).is_dir():
+            notes.append(Note("note", "art-renamed", f"{change.id}-{old:02d}",
+                              f"art moves to {change.id}-{new:02d}; the image was drawn for "
                               "the old beat and should be re-reviewed against the new one"))
     return notes
+
+
+def transfer_notes(scripts: dict[int, PageScript], operation: Operation) -> list[Note]:
+    """A panel that changes page changes more than its number."""
+    transfer = operation.transfer
+    if transfer is None:
+        return []
+    notes: list[Note] = []
+    source, target = scripts[transfer.source], scripts[transfer.target]
+    if art_directory(transfer.source, transfer.index).is_dir():
+        notes.append(Note("note", "art-transferred", transfer.from_key,
+                          f"art moves to {transfer.to_key}, onto a page it was not composed "
+                          "for; re-review it against the new neighbours"))
+    section = next(item for item in source.sections if item.index == transfer.index)
+    provenance = re.findall(r"^\*\*Provenance:\*\*.*$", section.body, re.MULTILINE)
+    if provenance:
+        notes.append(Note("note", "provenance-transferred", transfer.to_key,
+                          "carries its own provenance line onto a page whose front matter "
+                          "may not declare those sources; crossref will say so"))
+    source_chapter = front_matter_value(source, "chapter")
+    target_chapter = front_matter_value(target, "chapter")
+    if source_chapter != target_chapter:
+        notes.append(Note("warning", "transfer-crosses-chapter", transfer.from_key,
+                          f"leaves chapter {source_chapter} for chapter {target_chapter}; "
+                          "the beat changes which chapter's argument it serves"))
+    return notes
+
+
+def front_matter_value(script: PageScript, field_name: str) -> str:
+    metadata = crossref.front_matter(script.text) or ""
+    match = re.search(rf'^{field_name}:\s*"?([^"\n]+)"?\s*$', metadata, re.MULTILINE)
+    return match.group(1).strip() if match else ""
 
 
 def art_directory(page: int, index: int) -> Path:
@@ -644,88 +844,130 @@ NEW_PANEL_BODY = (
 
 def plan_rewrite(scripts: dict[int, PageScript], operation: Operation) -> Plan:
     plan = Plan()
-    script = scripts[operation.page]
-    page = operation.page
-    mapping = operation.mapping
+    relocation = Relocation(operation)
+    transfer = operation.transfer
 
-    # --- what a deleted panel takes with it ----------------------------------
-    # A deleted index must not leave its art directory behind: the panel after it is about
-    # to be renamed onto that name. So the discard is part of the plan, and the operation
-    # is refused without --allow-art-loss rather than the loss being silent.
-    doomed: set[str] = set()
-    for old in operation.deleted:
-        prompt = ROOT / f"prompts/pages/{page:03d}/panel-{old:02d}.md"
-        if prompt.exists():
-            relative = f"prompts/pages/{page:03d}/panel-{old:02d}.md"
-            plan.removals.append(relative)
-            doomed.add(relative)
-        if art_directory(page, old).is_dir():
-            plan.discards.append(f"assets/art/panels/{page:03d}-{old:02d}")
-
-    # --- the page script itself ---------------------------------------------
-    created = {old: NEW_PANEL_BODY for old in operation.created}
-    text = script.compose(operation.order, created)
-    text, dangling = rewrite_prose(text, script.path, page, mapping)
-    for value, snippet in dangling:
-        plan.notes.append(Note("error", "dangling-panel-reference", script.path,
-                               f"“{snippet}” names panel {value}, which is being deleted"))
-    plan.writes[script.path] = text
-
-    # --- every other file that can name this page's panels -------------------
-    for path in prose_files():
-        relative = str(path.relative_to(ROOT))
-        if relative == script.path or relative in doomed:
-            continue
-        body = path.read_text(encoding="utf-8")
-        rewritten, dangling = rewrite_prose(body, relative, page, mapping)
-        for value, snippet in dangling:
+    def report(rewrite: Rewrite, relative: str) -> None:
+        for value, snippet in rewrite.dangling:
             plan.notes.append(Note("error", "dangling-panel-reference", relative,
                                    f"“{snippet}” names panel {value}, which is being deleted"))
-        if rewritten != body:
-            plan.writes[relative] = rewritten
+        for snippet in rewrite.split:
+            plan.notes.append(Note("error", "reference-split-by-move", relative,
+                                   f"“{snippet}” names panels that no longer share a page; "
+                                   "a range is not a renumbering, so it is left for a human"))
+        for snippet in rewrite.circular:
+            plan.notes.append(Note("warning", "reference-now-self", relative,
+                                   f"“{snippet}” now names a panel on the page it sits on; "
+                                   "the reference is true but probably wants rewriting"))
+
+    # --- what a departing or deleted panel takes with it ----------------------
+    # A vacated index must not leave its art directory behind: the panel after it is about to
+    # be renamed onto that name. A deletion discards it, a transfer carries it to the other
+    # page, and either way it is in the plan rather than left to chance.
+    doomed: set[str] = set()
+    for change in operation.changes:
+        for old in change.deleted:
+            relative = f"prompts/pages/{change.id}/panel-{old:02d}.md"
+            if (ROOT / relative).exists():
+                plan.removals.append(relative)
+                doomed.add(relative)
+            if art_directory(change.page, old).is_dir():
+                plan.discards.append(f"assets/art/panels/{change.id}-{old:02d}")
+
+    # --- the page scripts ----------------------------------------------------
+    carried = ""
+    if transfer is not None:
+        section = next(item for item in scripts[transfer.source].sections
+                       if item.index == transfer.index)
+        # The body is leaving the page its bare references were written against, so those
+        # references are qualified with the page they came from before they travel.
+        carried = rewrite_prose(section.body, scripts[transfer.source].path, relocation,
+                                origin=transfer.source, lands_on=transfer.target).text
+
+    for change in operation.changes:
+        script = scripts[change.page]
+        bodies = {old: NEW_PANEL_BODY for old in change.created}
+        if change.arrived is not None:
+            bodies[ARRIVAL] = carried
+        text = script.compose(change.order, bodies)
+        rewrite = rewrite_prose(text, script.path, relocation)
+        report(rewrite, script.path)
+        plan.writes[script.path] = rewrite.text
+
+    # --- every other file that can name a panel on either page ----------------
+    written = {scripts[change.page].path for change in operation.changes}
+    for path in prose_files():
+        relative = str(path.relative_to(ROOT))
+        if relative in written or relative in doomed:
+            continue
+        body = path.read_text(encoding="utf-8")
+        # A prompt file belonging to the transferred panel travels with it, so its bare
+        # references are qualified for the same reason the panel body's are.
+        travelling = (
+            transfer is not None
+            and relative == f"prompts/pages/{transfer.source:03d}/panel-{transfer.index:02d}.md"
+        )
+        rewrite = rewrite_prose(
+            body, relative, relocation,
+            origin=transfer.source if travelling else None,
+            lands_on=transfer.target if travelling else None,
+        )
+        report(rewrite, relative)
+        if rewrite.text != body:
+            plan.writes[relative] = rewrite.text
 
     # --- the art table -------------------------------------------------------
     art = ROOT / "data" / "panel-art.tsv"
     if art.exists():
-        rows = art.read_text(encoding="utf-8").splitlines(keepends=True)
         kept: list[str] = []
-        for row in rows:
-            match = re.match(rf"^{page:03d}-(\d{{2}})\t", row)
+        for row in art.read_text(encoding="utf-8").splitlines(keepends=True):
+            match = re.match(r"^(\d{3})-(\d{2})\t", row)
             if not match:
                 kept.append(row)
                 continue
-            old = int(match.group(1))
-            if old not in mapping:
+            pair = relocation.resolve(int(match.group(1)), int(match.group(2)))
+            if pair is None:
                 continue
-            kept.append(re.sub(rf"^{page:03d}-\d{{2}}",
-                               f"{page:03d}-{mapping[old]:02d}", row, count=1))
+            # Every key in the row, not just the one in the first column: the `file` column
+            # holds `assets/art/panels/NNN-II/...`, and a key that agrees with a path that
+            # does not is worse than either being wrong, because the art silently stops
+            # resolving and the build simply letters fewer panels.
+            kept.append(PANEL_KEY.sub(relocated(relocation), row))
         plan.writes["data/panel-art.tsv"] = "".join(kept)
 
     # --- the art tree and the prompt tree ------------------------------------
-    for directory, pattern, rename in (
-        ("assets/art/panels", rf"^{page:03d}-(\d{{2}})$",
-         lambda index: f"{page:03d}-{index:02d}"),
-        (f"prompts/pages/{page:03d}", r"^panel-(\d{2})$", lambda index: f"panel-{index:02d}"),
-    ):
-        base = ROOT / directory
-        if not base.is_dir():
-            continue
-        for child in sorted(base.iterdir()):
-            match = re.match(pattern, child.stem if child.is_file() else child.name)
+    art_base = ROOT / "assets" / "art" / "panels"
+    if art_base.is_dir():
+        for child in sorted(art_base.iterdir()):
+            match = re.fullmatch(r"(\d{3})-(\d{2})", child.name)
             if not match:
                 continue
-            old = int(match.group(1))
-            if old not in mapping:
-                plan.notes.append(Note("note", "discarded", f"{directory}/{child.name}",
+            page, index = int(match.group(1)), int(match.group(2))
+            pair = relocation.resolve(page, index)
+            if pair is None:
+                plan.notes.append(Note("note", "discarded", f"assets/art/panels/{child.name}",
                                        "belongs to a deleted panel and is removed, because "
                                        "the panel after it is renamed onto this name"))
                 continue
-            if mapping[old] == old:
+            if pair != (page, index):
+                plan.renames.append((f"assets/art/panels/{child.name}",
+                                     f"assets/art/panels/{pair[0]:03d}-{pair[1]:02d}"))
+
+    prompt_base = ROOT / "prompts" / "pages"
+    if prompt_base.is_dir():
+        for page_dir in sorted(prompt_base.iterdir()):
+            if not re.fullmatch(r"\d{3}", page_dir.name):
                 continue
-            suffix = child.suffix if child.is_file() else ""
-            plan.renames.append(
-                (f"{directory}/{child.name}", f"{directory}/{rename(mapping[old])}{suffix}")
-            )
+            page = int(page_dir.name)
+            for child in sorted(page_dir.glob("panel-[0-9][0-9].md")):
+                index = int(child.stem.split("-")[1])
+                pair = relocation.resolve(page, index)
+                if pair is None or pair == (page, index):
+                    continue
+                plan.renames.append((
+                    f"prompts/pages/{page:03d}/{child.name}",
+                    f"prompts/pages/{pair[0]:03d}/panel-{pair[1]:02d}.md",
+                ))
 
     # A renamed file's rewritten content belongs at its destination, not at the name it is
     # about to vacate. Remapped in one pass, because a move is usually a permutation and
@@ -746,7 +988,8 @@ def plan_rewrite(scripts: dict[int, PageScript], operation: Operation) -> Plan:
         touched = {
             match.group(0)
             for match in PANEL_KEY.finditer(path.read_text(encoding="utf-8"))
-            if int(match.group("page")) == page and int(match.group("panel")) in operation.shifted
+            if relocation.resolve(int(match.group("page")), int(match.group("panel")))
+            not in (None, (int(match.group("page")), int(match.group("panel"))))
         }
         if touched:
             plan.notes.append(Note("note", "historical-record", relative,
@@ -889,26 +1132,39 @@ def cmd_check(scripts: dict[int, PageScript], sites: list[Site], strict: bool) -
 
 def run_operation(scripts: dict[int, PageScript], operation: Operation,
                   args: argparse.Namespace) -> int:
-    script = scripts[operation.page]
-    count = len(operation.order)
+    transfer = operation.transfer
     print(f"Operation: {operation.label}")
-    print(f"Rhythm: {script.count} -> {count} panels ({band_of(count)})")
+    for change in operation.changes:
+        script = scripts[change.page]
+        count = len(change.order)
+        print(f"Rhythm: page {change.id} {script.count} -> {count} panels ({band_of(count)})")
 
-    if operation.shifted:
-        print("\nPanel map")
-        for old, new in sorted(operation.shifted.items()):
-            print(f"  {script.id}-{old:02d} -> {script.id}-{new:02d}")
-    for position, old in enumerate(operation.order, 1):
-        if old in operation.created:
-            print(f"  new  {script.id}-{position:02d}")
-    for old in operation.deleted:
-        print(f"  gone {script.id}-{old:02d}")
+    if transfer is not None:
+        print(f"\nTransfer\n  {transfer.from_key} -> {transfer.to_key}")
+    for change in operation.changes:
+        if change.shifted or change.created or change.gone:
+            print(f"\nPanel map, page {change.id}")
+        for old, new in sorted(change.shifted.items()):
+            print(f"  {change.id}-{old:02d} -> {change.id}-{new:02d}")
+        for position, old in enumerate(change.order, 1):
+            if old in change.created:
+                print(f"  new  {change.id}-{position:02d}")
+        for old in change.deleted:
+            print(f"  gone {change.id}-{old:02d}")
+        for old in change.departed:
+            print(f"  left {change.id}-{old:02d}")
 
-    notes = (
-        rhythm_notes(script, count)
-        + lettering_notes(script, operation)
-        + art_notes(script, operation)
-    )
+    notes: list[Note] = []
+    for change in operation.changes:
+        script = scripts[change.page]
+        incoming = None
+        if transfer is not None and change.page == transfer.target:
+            incoming = next(item for item in scripts[transfer.source].sections
+                            if item.index == transfer.index)
+        notes += (rhythm_notes(script, change)
+                  + lettering_notes(script, change, incoming)
+                  + art_notes(script, change))
+    notes += transfer_notes(scripts, operation)
     plan = drop_unchanged(plan_rewrite(scripts, operation))
     notes += plan.notes
     counts = print_notes(notes)
@@ -921,9 +1177,15 @@ def run_operation(scripts: dict[int, PageScript], operation: Operation,
     rhythm_break = [note for note in notes
                     if note.kind in ("rhythm-off-default", "rhythm-out-of-grammar")]
     if rhythm_break and not args.allow_rhythm_shift:
-        print(f"\nRefused: this operation leaves page {script.id} at {count} panels, outside "
-              f"the {DEFAULT_BAND[0]}–{DEFAULT_BAND[1]} default in design/page-grammar.md. "
+        pages = ", ".join(sorted({note.subject.split("/")[-1][:3] for note in rhythm_break}))
+        print(f"\nRefused: this operation leaves page {pages} outside the "
+              f"{DEFAULT_BAND[0]}–{DEFAULT_BAND[1]} default in design/page-grammar.md. "
               "Re-run with --allow-rhythm-shift to take it deliberately.")
+        return 1
+    split = [note for note in notes if note.kind == "reference-split-by-move"]
+    if split:
+        print("\nRefused: a sentence names a range of panels the move would break apart. "
+              "Rewrite it first; the tool will not guess at a range.")
         return 1
     art_loss = [note for note in notes if note.kind == "orphaned-art"]
     if art_loss and not args.allow_art_loss:
@@ -964,7 +1226,7 @@ def main(argv: list[str] | None = None) -> int:
     for name, help_text in (
         ("insert", "add panels before a position on one page"),
         ("delete", "remove panels from one page"),
-        ("move", "move one panel to another position on its page"),
+        ("move", "move one panel to another position, on its page or another"),
     ):
         command = commands.add_parser(name, help=help_text)
         command.add_argument("--apply", action="store_true", help="write the plan")
@@ -980,7 +1242,10 @@ def main(argv: list[str] | None = None) -> int:
             command.add_argument("panels", nargs="+", type=parse_key, metavar="NNN-II")
         else:
             command.add_argument("panel", type=parse_key, metavar="NNN-II")
-            command.add_argument("--to", required=True, type=int, metavar="II")
+            command.add_argument("--to", required=True, type=int, metavar="II",
+                                 help="the index the panel carries afterwards")
+            command.add_argument("--to-page", type=int, default=0, metavar="NNN",
+                                 help="move it to another page (default: stay on its own)")
 
     args = parser.parse_args(argv)
     scripts = read_scripts()
@@ -991,6 +1256,7 @@ def main(argv: list[str] | None = None) -> int:
     if args.command == "check":
         return cmd_check(scripts, sites, args.strict)
 
+    target: PageScript | None = None
     if args.command == "insert":
         page, positions = args.page, [args.at]
     elif args.command == "delete":
@@ -1001,17 +1267,34 @@ def main(argv: list[str] | None = None) -> int:
         page, positions = pages.pop(), [index for _, index in args.panels]
     else:
         page, index = args.panel
-        positions = [index, args.to]
+        positions = [index] if args.to_page and args.to_page != page else [index, args.to]
 
     script = scripts.get(page)
     if script is None:
         print(f"no such page: {page:03d}")
         return 2
-    if script.grouped:
-        print(f"page {script.id} writes its panels as one grouped run, `## Panels "
-              f"{script.grouped[0]}–{script.grouped[1]}`. That is a single composition and a "
-              "single image slot; splitting it is an editorial decision, not a renumbering.")
-        return 2
+
+    if args.command == "move" and args.to_page and args.to_page != page:
+        target = scripts.get(args.to_page)
+        if target is None:
+            print(f"no such page: {args.to_page:03d}")
+            return 2
+        if script.count <= 1:
+            print(f"page {script.id} has one panel; moving it away would leave the page with "
+                  "none. Delete the page with scripts/pagination.py instead.")
+            return 2
+        if not 1 <= args.to <= target.count + 1:
+            print(f"--to {args.to:02d} is outside 01–{target.count + 1:02d} on page "
+                  f"{target.id}")
+            return 2
+
+    for candidate in (script, target):
+        if candidate is not None and candidate.grouped:
+            print(f"page {candidate.id} writes its panels as one grouped run, `## Panels "
+                  f"{candidate.grouped[0]}–{candidate.grouped[1]}`. That is a single "
+                  "composition and a single image slot; splitting it is an editorial "
+                  "decision, not a renumbering.")
+            return 2
 
     limit = script.count + (1 if args.command == "insert" else 0)
     outside = sorted(value for value in positions if not 1 <= value <= limit)
@@ -1035,6 +1318,11 @@ def main(argv: list[str] | None = None) -> int:
                   f"{script.id} with none")
             return 2
         operation = build_delete(script, positions)
+    elif target is not None:
+        if positions[0] not in script.indices:
+            print(f"no such panel: {page:03d}-{positions[0]:02d}")
+            return 2
+        operation = build_transfer(script, positions[0], target, args.to)
     else:
         operation = build_move(script, positions[0], positions[1])
 
