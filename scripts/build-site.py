@@ -860,6 +860,7 @@ KNOWLEDGE_MAP_FIXTURES = {
     "010-hint": "010 · with P6 hint",
     "010-no-p6": "010 · without P6 hint",
     "016": "016 · observation boundary",
+    "025": "025 · what the room does not have",
     "039-before": "039 · before the reveal",
     "039-after": "039 · after the reveal",
 }
@@ -881,9 +882,9 @@ def build_knowledge_maps(document) -> int:
     expected = {(family, fixture, viewpoint) for family in "abcd"
                 for fixture in KNOWLEDGE_MAP_FIXTURES for viewpoint in KNOWLEDGE_MAP_VIEWPOINTS}
     keyed = {(sample["family"], sample["fixture"], sample["viewpoint"]): sample for sample in samples}
-    if manifest["version"] != 1 or len(samples) != 40 or set(keyed) != expected:
-        raise ValueError("Knowledge-map v1 requires exactly 40 samples covering every family, fixture, and viewpoint")
-    if len({sample["id"] for sample in samples}) != 40:
+    if manifest["version"] != 1 or len(samples) != 48 or set(keyed) != expected:
+        raise ValueError("Knowledge-map v1 requires exactly 48 samples covering every family, fixture, and viewpoint")
+    if len({sample["id"] for sample in samples}) != 48:
         raise ValueError("Knowledge-map sample ids must be unique")
     for sample in samples:
         knowledge_map_asset("v1", sample["path"], ".svg")
@@ -929,7 +930,7 @@ def build_knowledge_maps(document) -> int:
         )
 
     def finish_studies(directory: Path, full: bool) -> str:
-        source = KNOWLEDGE_MAP_DIR / "local-v2" / "manifest.json"
+        source = KNOWLEDGE_MAP_DIR / "local-v3" / "manifest.json"
         if not source.exists():
             return ""
         local = json.loads(source.read_text(encoding="utf-8"))
@@ -941,9 +942,9 @@ def build_knowledge_maps(document) -> int:
             row = results[sample["id"]]
             if (row["family"], row["fixture"], row["viewpoint"]) != (sample["family"], sample["fixture"], sample["viewpoint"]):
                 raise ValueError(f"Finish study metadata drifted from v1: {sample['id']}")
-            href = html.escape(relative_url(directory, Path(knowledge_map_asset("local-v2", row["path"], ".webp"))))
-            init = html.escape(relative_url(directory, Path(knowledge_map_asset("local-v2", row["init"], ".svg"))))
-            prompt = html.escape(relative_url(directory, Path(knowledge_map_asset("local-v2", row["prompt"], ".txt"))))
+            href = html.escape(relative_url(directory, Path(knowledge_map_asset("local-v3", row["path"], ".webp"))))
+            init = html.escape(relative_url(directory, Path(knowledge_map_asset("local-v3", row["init"], ".svg"))))
+            prompt = html.escape(relative_url(directory, Path(knowledge_map_asset("local-v3", row["prompt"], ".txt"))))
             alt = "Structure-preserving local model finish study, unlettered, over the geometry of: " + sample["alt"]
             return (
                 f'<figure class="km-card" data-local-finish="{html.escape(sample["id"])}" data-family="{sample["family"]}" '
@@ -972,7 +973,7 @@ def build_knowledge_maps(document) -> int:
                 '<section class="km-section km-finish" id="local-model-finish-studies"><h2>Local model finish studies</h2>'
                 + disclosure + settings
                 + f'<div class="km-grid">{cards}</div>'
-                '<p><a href="v1/#local-model-finish-studies">All 40 finish studies, by fixture and viewpoint</a></p></section>'
+                '<p><a href="v1/#local-model-finish-studies">All 48 finish studies, by fixture and viewpoint</a></p></section>'
             )
         rows = []
         for fixture, label in KNOWLEDGE_MAP_FIXTURES.items():
@@ -1077,7 +1078,7 @@ def build_knowledge_maps(document) -> int:
         '<a href="#039-before-after">039 before / after</a><a href="#010-hint-nohint">010 hint / no hint</a>'
         '<a href="#reader-responders">Reader / responders</a><a href="#placements">Placement mocks</a><a href="#contact-sheets">Contact sheets</a>'
         + finish_jump + '</nav>'
-        f'<section class="km-section" id="controlled-comparison"><h2>Controlled SVG comparison</h2><p>40 samples · renderer {html.escape(manifest["renderer_version"])}. '
+        f'<section class="km-section" id="controlled-comparison"><h2>Controlled SVG comparison</h2><p>48 samples · renderer {html.escape(manifest["renderer_version"])}. '
         'Every row holds fixture and viewpoint fixed. Open any image for full-size inspection; expand its states for a text equivalent.</p>'
         f'<ul class="km-row-links">{"".join(row_links)}</ul>{"".join(rows)}</section>'
         + "".join(comparisons)
@@ -1092,7 +1093,7 @@ def build_knowledge_maps(document) -> int:
         '<div class="knowledge-map-gallery">' + introduction + local_studies(Path("knowledge-maps"))
         + finish_studies(Path("knowledge-maps"), full=False)
         + '<section class="km-section"><h2>Controlled semantic studies</h2><a class="card" href="v1/">'
-        '<h3>Version 1 · four families, forty SVGs</h3><p>Compare 010 with and without the hint, 016, '
+        '<h3>Version 1 · four families, forty-eight SVGs</h3><p>Compare 010 with and without the hint, 016, '
         'and 039 before and after the reveal, from reader and responder viewpoints.</p></a>'
         '<nav class="km-jumps" aria-label="Gallery shortcuts"><a href="v1/#039-before-after">039 before / after</a>'
         '<a href="v1/#010-hint-nohint">010 hint / no hint</a><a href="v1/#reader-responders">Reader / responders</a>'

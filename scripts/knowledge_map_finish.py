@@ -4,7 +4,7 @@
 The controlled SVG samples in `assets/knowledge-maps/v1/` settle *what* each map
 says: which propositions are dark, lit, or hatched for which viewpoint. This
 pass tests *finish* on top of that structure without letting a model reinvent
-the structure. For every one of the 40 samples it:
+the structure. For every one of the 48 samples it:
 
   1. strips the lettering and chrome from the SVG, leaving only the terrain,
      evidence fills, contours, silhouettes, and P6 regions, and emboldens the
@@ -20,7 +20,7 @@ registered and the two viewpoints differ only where the fixture says they do.
 Nothing here is canonical story art, nothing is lettered, and none of it is
 adopted. The prompts forbid text; labels remain the SVGs' job.
 
-    python3 scripts/knowledge_map_finish.py generate   # resume or start the 40 images
+    python3 scripts/knowledge_map_finish.py generate   # resume or start the 48 images
     python3 scripts/knowledge_map_finish.py check      # verify the committed run
 
 `generate` needs the weights already cached (it forces Hugging Face offline mode)
@@ -47,7 +47,7 @@ from knowledge_map_local import MODEL, SEED, SIZE, STYLE
 
 ROOT = Path(__file__).resolve().parents[1]
 V1 = ROOT / "assets" / "knowledge-maps" / "v1"
-OUT = ROOT / "assets" / "knowledge-maps" / "local-v2"
+OUT = ROOT / "assets" / "knowledge-maps" / "local-v3"
 STEPS = 4
 STRENGTH = 0.6
 HATCH_STROKE = "2.4"
@@ -83,7 +83,7 @@ FAMILIES = {
           "inset frame on its right containing five much smaller regions, and black unmapped patches at both "
           "scales. Four small survey strips run along the bottom."),
 }
-FIXTURES = ("010-hint", "010-no-p6", "016", "039-before", "039-after")
+FIXTURES = ("010-hint", "010-no-p6", "016", "025", "039-before", "039-after")
 VIEWPOINTS = ("reader", "responders")
 
 
@@ -176,8 +176,8 @@ def v1_samples() -> list[dict]:
     manifest = json.loads((V1 / "manifest.json").read_text(encoding="utf-8"))
     samples = manifest["samples"]
     expected = {(f, x, v) for f in FAMILIES for x in FIXTURES for v in VIEWPOINTS}
-    if len(samples) != 40 or {(s["family"], s["fixture"], s["viewpoint"]) for s in samples} != expected:
-        raise ValueError("The v1 manifest must hold the full 40-sample matrix")
+    if len(samples) != 48 or {(s["family"], s["fixture"], s["viewpoint"]) for s in samples} != expected:
+        raise ValueError("The v1 manifest must hold the full 48-sample matrix")
     return samples
 
 
@@ -221,7 +221,7 @@ def check(directory: Path | None = None, *, complete: bool = True) -> dict:
     if len(ids) != len(set(ids)) or not set(ids) <= sources.keys():
         raise ValueError("Duplicate or unexpected finish sample IDs")
     if complete and set(ids) != sources.keys():
-        raise ValueError("The finish comparison requires all 40 samples")
+        raise ValueError("The finish comparison requires all 48 samples")
     for row in rows:
         source = sources[row["id"]]
         if (row["family"], row["fixture"], row["viewpoint"]) != (source["family"], source["fixture"], source["viewpoint"]):

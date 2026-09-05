@@ -48,11 +48,13 @@ from pathlib import Path
 
 import knowledge_maps as km
 from knowledge_maps import (DIRTY, INK, NS, PAPER, STEEL, FIXTURES, VIEWPOINTS, PROPOSITIONS,
+                            OBSERVATIONS, OBSERVATION_NAMES, OBSERVATION_LEGEND,
+                            observation_polygon, observation_centre,
                             digest, encoded, line, load_data, rect, states_for, text)
 
 ROOT = km.ROOT
 OUTPUT = ROOT / "assets/knowledge-maps/fog-v1"
-RENDERER_VERSION = "knowledge-map-fog-2.1.0"
+RENDERER_VERSION = "knowledge-map-fog-2.2.0"
 TREATMENTS = {
     "w3": ("Patchy contest", "Contested ground is visible in irregular patches rather than hatched; the fog itself carries the uncertainty."),
     "w2": ("Line of sight", "Vision discs around the places evidence comes from; the relief is only visible where sight reaches."),
@@ -67,7 +69,7 @@ INK_RGB, PAPER_RGB = (16, 18, 20), (231, 224, 208)
 LEVELS = 128                                        # palette steps from ink to paper
 LIGHT = (-0.50, -0.62, 0.60)
 DRAPE = 9.0                                         # px of glyph shift per unit slope
-PREVIOUS = {"039-after": "039-before"}
+PREVIOUS = {"025": "016", "039-after": "039-before"}
 
 # The A-family region layout, so the fog studies stay comparable with v1 A.
 REGIONS = {
@@ -79,9 +81,7 @@ REGIONS = {
 }
 SIGHT_AT = {"P1": (170, 189), "P2": (397, 191), "P3": (158, 340), "P4": (386, 357), "P5": (604, 284)}
 P6_SHAPE = [(769, 112), (936, 105), (921, 448), (771, 459)]
-OBSERVATIONS = ("response", "correction", "configuration", "weights")
-OBSERVATION_NAMES = {"response": "ALERT / BOARD / PIVOT", "correction": "SCORER ACCOUNTS",
-                     "configuration": "CONFIGURATION ACCOUNT", "weights": "WEIGHTS ACCOUNT"}
+
 
 
 def foothold_polygon():
@@ -89,11 +89,6 @@ def foothold_polygon():
     x0, x1 = min(p[0] for p in pts), max(p[0] for p in pts)
     y0, y1 = min(p[1] for p in pts), max(p[1] for p in pts)
     return [(x0, y0), (x1, y0), (x1, y0 + (y1 - y0) * 0.27), (x0 + (x1 - x0) * 0.52, y0 + (y1 - y0) * 0.20), (x0, y0 + (y1 - y0) * 0.33)]
-
-
-def observation_polygon(index):
-    x = 40 + index * 224
-    return [(x, 489), (x + 192, 484), (x + 210, 500), (x + 201, 528), (x + 11, 530)]
 
 
 def zones():
@@ -104,7 +99,7 @@ def zones():
     fh = foothold_polygon()
     out["P1-foothold"] = (fh, (sum(p[0] for p in fh) / len(fh), sum(p[1] for p in fh) / len(fh)), 62)
     for i, key in enumerate(OBSERVATIONS):
-        out[f"observation-{key}"] = (observation_polygon(i), (40 + i * 224 + 105, 507), 60)
+        out[f"observation-{key}"] = (observation_polygon(i), observation_centre(i), 60)
     return out
 
 
@@ -326,6 +321,10 @@ GLYPHS = {
     "weights/block": [[(-11, 13), (-7, -4), (7, -4), (11, 13), (-11, 13)], [(-4, -4), (-4, -9), (4, -9), (4, -4)], [(-3, 4), (3, 4)]],
     "weights/dumbbell": [[(-8, 0), (8, 0)], rectp(-14, -7, 6, 14), rectp(8, -7, 6, 14)],
     "weights/pan": [[(0, -14), (0, -6)], [(-12, -6), (12, -6)], [(-12, -6), (-14, 6)], [(12, -6), (14, 6)], arc(0, 0, 14, 25, 155)],
+    "staging/plug": [rectp(-7, -10, 14, 16), [(-4, -10), (-4, -15)], [(4, -10), (4, -15)], [(0, 6), (0, 14)]],
+    "staging/module": [rectp(-13, -8, 26, 16), [(-13, -2), (-18, -2)], [(-13, 4), (-18, 4)], [(13, -2), (18, -2)], [(13, 4), (18, 4)]],
+    "staging/stack": [rectp(-14, 0, 22, 12), rectp(-10, -6, 22, 12), rectp(-6, -12, 22, 12)],
+    "staging/hourglass": [[(-10, -13), (10, -13), (0, 0), (10, 13), (-10, 13), (0, 0), (-10, -13)]],
     "weights/anvil": [[(-16, -6), (16, -6), (12, 0), (4, 2), (4, 10), (10, 12), (-10, 12), (-4, 10), (-4, 2), (-12, 0), (-16, -6)]],
 }
 FAMILIES = {}
@@ -638,8 +637,8 @@ def render(data, sample, veil, res):
         out += glyph_svg(key, x + 8, 82, 0.34, PAPER, 3.2) + text(x + 20, 86, f"{key} {name}", 10, DIRTY, mono=True)
         x += 20 + (len(name) + 3) * 6.1 + 14
     x = 28
-    for key, name in (("response", "ALERT / BOARD / PIVOT"), ("correction", "SCORER ACCOUNTS"),
-                      ("configuration", "CONFIGURATION ACCOUNT"), ("weights", "WEIGHTS ACCOUNT")):
+    for key in OBSERVATIONS:
+        name = OBSERVATION_LEGEND[key]
         out += glyph_svg(key, x + 8, 98, 0.34, PAPER, 3.2) + text(x + 20, 102, name, 10, DIRTY, mono=True)
         x += 20 + len(name) * 6.1 + 14
     out += text(932, 102, "ONE FORM OF EACH FAMILY SHOWN / ALL LIE UNDER THE FOG", 10, DIRTY, anchor="end", mono=True)

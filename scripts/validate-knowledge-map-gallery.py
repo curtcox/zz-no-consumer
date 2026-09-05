@@ -13,7 +13,7 @@ import xml.etree.ElementTree as ET
 
 
 ROOT = Path(__file__).resolve().parents[1]
-FIXTURES = ("010-hint", "010-no-p6", "016", "039-before", "039-after")
+FIXTURES = ("010-hint", "010-no-p6", "016", "025", "039-before", "039-after")
 VIEWPOINTS = ("reader", "responders")
 VOID_TAGS = {"area", "base", "br", "col", "embed", "hr", "img", "input", "link", "meta", "param", "source", "track", "wbr"}
 
@@ -130,12 +130,12 @@ def validate(site: Path) -> list[str]:
     require(bool(manifest["renderer_version"]), "Missing renderer version")
     samples = manifest["samples"]
     expected = {(family, fixture, viewpoint) for family in "abcd" for fixture in FIXTURES for viewpoint in VIEWPOINTS}
-    require(len(samples) == 40, f"Expected 40 semantic samples, found {len(samples)}")
+    require(len(samples) == 48, f"Expected 48 semantic samples, found {len(samples)}")
     require({(item["family"], item["fixture"], item["viewpoint"]) for item in samples} == expected, "Manifest does not cover all four families, five fixtures, and two viewpoints")
-    require(len({item["id"] for item in samples}) == 40, "Sample ids are not unique")
-    require(len({item["path"] for item in samples}) == 40, "Sample SVG paths are not unique")
+    require(len({item["id"] for item in samples}) == 48, "Sample ids are not unique")
+    require(len({item["path"] for item in samples}) == 48, "Sample SVG paths are not unique")
     primary = [values for values, _ in gallery.figures if "data-km-sample" in values]
-    require(len(primary) == 40, f"Expected 40 primary gallery samples, found {len(primary)}")
+    require(len(primary) == 48, f"Expected 48 primary gallery samples, found {len(primary)}")
     require({values["data-km-sample"] for values in primary} == {item["id"] for item in samples}, "Gallery sample ids do not match the manifest")
     image_targets = {local_target(site, version, image.get("src", ""))[0]: image.get("alt", "") for image in gallery.images if local_target(site, version, image.get("src", "")) is not None}
     for sample in samples:
@@ -198,18 +198,18 @@ def validate(site: Path) -> list[str]:
     else:
         require(not any("data-local-study" in values for parser in (index, gallery) for values, _ in parser.figures), "Gallery claims local model outputs without a manifest")
 
-    finish_source = ROOT / "assets" / "knowledge-maps" / "local-v2" / "manifest.json"
-    finish_path = site / "assets" / "knowledge-maps" / "local-v2" / "manifest.json"
+    finish_source = ROOT / "assets" / "knowledge-maps" / "local-v3" / "manifest.json"
+    finish_path = site / "assets" / "knowledge-maps" / "local-v3" / "manifest.json"
     if finish_source.exists() or finish_path.exists():
-        finish_path = asset("local-v2", "manifest.json", ".json")
+        finish_path = asset("local-v3", "manifest.json", ".json")
         if finish_path.is_file():
             finish = json.loads(finish_path.read_text(encoding="utf-8"))
             require(finish["version"] == 2 and bool(finish["model"].strip()) and bool(finish["licence"].strip()), "Finish studies need version 2, model and licence labels")
             require(0 < float(finish["strength"]) < 1 and int(finish["steps"]) > 0 and isinstance(finish["seed"], int), "Finish studies need image-to-image settings")
             results = {row["id"]: row for row in finish["results"]}
-            require(len(finish["results"]) == 40 and set(results) == {item["id"] for item in samples}, "Expected one finish study per semantic sample")
+            require(len(finish["results"]) == 48 and set(results) == {item["id"] for item in samples}, "Expected one finish study per semantic sample")
             by_id = {item["id"]: item for item in samples}
-            for document, parser, expected_count in ((overview, index, 4), (version, gallery, 40)):
+            for document, parser, expected_count in ((overview, index, 4), (version, gallery, 48)):
                 figures = [values for values, _ in parser.figures if "data-local-finish" in values]
                 shown = {values["data-local-finish"] for values in figures}
                 require(len(figures) == expected_count and len(shown) == expected_count and shown <= set(results), f"{document}: expected {expected_count} finish studies")
@@ -223,9 +223,9 @@ def validate(site: Path) -> list[str]:
                     row = results[values["data-local-finish"]]
                     sample = by_id[row["id"]]
                     require((values.get("data-family"), values.get("data-fixture"), values.get("data-viewpoint")) == (sample["family"], sample["fixture"], sample["viewpoint"]) == (row["family"], row["fixture"], row["viewpoint"]), f"{document}: finish study metadata drifted: {row['id']}")
-                    image = asset("local-v2", row["path"], ".webp")
+                    image = asset("local-v3", row["path"], ".webp")
                     require((image, "") in references, f"{document}: finish image not displayed: {image}")
-                    require((asset("local-v2", row["init"], ".svg"), "") in links and (asset("local-v2", row["prompt"], ".txt"), "") in links, f"{document}: finish study must link its init drawing and prompt: {row['id']}")
+                    require((asset("local-v3", row["init"], ".svg"), "") in links and (asset("local-v3", row["prompt"], ".txt"), "") in links, f"{document}: finish study must link its init drawing and prompt: {row['id']}")
                     require(row["source_sha256"] == sample["sha256"], f"Finish study was made from a different v1 drawing: {row['id']}")
                     if image.is_file():
                         signature = image.read_bytes()[:12]
@@ -233,7 +233,7 @@ def validate(site: Path) -> list[str]:
             for document, parser in ((overview, index), (version, gallery)):
                 for image in parser.images:
                     target = local_target(site, document, image.get("src", ""))
-                    if target and target[0].parent.name == "local-v2":
+                    if target and target[0].parent.name == "local-v3":
                         require("unlettered" in image.get("alt", "").lower(), f"{document}: finish image alt must say it is unlettered")
             require("local-model-finish-studies" in gallery.ids and "local-model-finish-studies" in index.ids, "Finish studies need a stable anchor on both gallery pages")
             for fixture in FIXTURES:
@@ -307,7 +307,7 @@ def main() -> int:
         if len(failures) > 50:
             print(f"- …and {len(failures) - 50} more")
         return 1
-    print("Validated knowledge-map gallery routes, local links, 40 samples, contact sheets, paired comparisons, placements, homepage discovery, and available local model studies.")
+    print("Validated knowledge-map gallery routes, local links, 48 samples, contact sheets, paired comparisons, placements, homepage discovery, and available local model studies.")
     return 0
 
 

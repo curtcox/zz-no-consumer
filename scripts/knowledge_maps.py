@@ -15,7 +15,7 @@ from html import escape
 ROOT = Path(__file__).resolve().parents[1]
 DATA = ROOT / "data/knowledge-map-samples.json"
 OUTPUT = ROOT / "assets/knowledge-maps/v1"
-RENDERER_VERSION = "knowledge-map-svg-1.0.0"
+RENDERER_VERSION = "knowledge-map-svg-1.1.0"
 NS = "http://www.w3.org/2000/svg"
 INK = "#101214"
 SHADOW = "#202326"
@@ -25,10 +25,43 @@ STEEL = "#5E737B"
 AMBER = "#A17D45"
 INSTITUTION = "#68766B"
 FAMILIES = ("a", "b", "c", "d")
-FIXTURES = ("010-hint", "010-no-p6", "016", "039-before", "039-after")
+FIXTURES = ("010-hint", "010-no-p6", "016", "025", "039-before", "039-after")
 VIEWPOINTS = ("reader", "responders")
 PROPOSITIONS = tuple(f"P{i}" for i in range(1, 7))
 EVIDENCE_STATES = {"dark", "lit", "hatched"}
+
+# The observation islands along the foot of the map: the places evidence comes
+# from, as distinct from the propositions it supports. `staging` was added with
+# the 025 fixture, because what the reader carries into that room — the
+# persistent users and the staged plugin of page 024 — is not a correction, a
+# configuration account or a weights account, and filing it under one of those
+# would have made the map say something the page does not. A fifth island does
+# not fit the old 224-pt spacing, so the strip is laid out from a step and a
+# width scale rather than from four hard-coded positions.
+OBSERVATIONS = ("response", "correction", "configuration", "weights", "staging")
+OBSERVATION_NAMES = {"response": ["ALERT / BOARD / PIVOT"], "correction": ["SCORER ACCOUNTS"],
+                     "configuration": ["CONFIGURATION ACCOUNT"], "weights": ["WEIGHTS ACCOUNT"],
+                     "staging": ["PERSISTENT USERS", "STAGED PLUGIN"]}
+# The header legend is one line of mono text that has to clear the right-hand
+# note, and five full names do not fit where four did. The islands keep the full
+# name; only the legend abbreviates.
+OBSERVATION_LEGEND = {"response": "ALERT/BOARD/PIVOT", "correction": "SCORER ACCT",
+                      "configuration": "CONFIG ACCT", "weights": "WEIGHTS ACCT",
+                      "staging": "STAGED PLUGIN"}
+OBSERVATION_STEP = 184
+OBSERVATION_SCALE = 0.82
+
+
+def observation_polygon(index):
+    """One observation island, in reading order along the foot of the map."""
+    x = 40 + index * OBSERVATION_STEP
+    w = OBSERVATION_SCALE
+    return [(x, 489), (x + round(192 * w), 484), (x + round(210 * w), 500),
+            (x + round(201 * w), 528), (x + round(11 * w), 530)]
+
+
+def observation_centre(index):
+    return (40 + index * OBSERVATION_STEP + round(105 * OBSERVATION_SCALE), 507)
 REGION_LABELS = {
     "P1": ["P1 / COORDINATION", "deliberate?"],
     "P2": ["P2 / RECURRENCE", "independent?"],
@@ -273,16 +306,15 @@ def nested_map(prefix, states, data, viewpoint):
 
 
 def observations(prefix, states):
-    names = {"response": "ALERT / BOARD / PIVOT", "correction": "SCORER ACCOUNTS",
-             "configuration": "CONFIGURATION ACCOUNT", "weights": "WEIGHTS ACCOUNT"}
     out = ''
-    for i,(key,state) in enumerate(states["observations"].items()):
-        x = 40+i*224
-        pts = [(x,489),(x+192,484),(x+210,500),(x+201,528),(x+11,530)]
-        name = names[key] if state != "dark" else "UNSURVEYED"
+    for i,key in enumerate(OBSERVATIONS):
+        state = states["observations"][key]
+        pts = observation_polygon(i)
+        cx, cy = observation_centre(i)
+        lines = OBSERVATION_NAMES[key] if state != "dark" else ["UNSURVEYED"]
         out += f'<g data-observation="{key}" data-state="{state}">'
         out += f'<path data-terrain="observation-{key}" d="{path(pts)}" fill="{paint(state,prefix)}" stroke="{DIRTY}"/>'
-        out += label(x+105,508,[name],dark=state == "dark",size=11)
+        out += label(cx,cy+1-(len(lines)-1)*6,lines,dark=state == "dark",size=10)
         out += '</g>'
     return out
 
@@ -376,7 +408,7 @@ def build_outputs(data):
     files = {s["path"]:rendered[s["id"]] for s in samples}
     sheets = []
     for viewpoint in VIEWPOINTS:
-        for group,fixtures in [("010",("010-hint","010-no-p6")),("016",("016",)),("039",("039-before","039-after"))]:
+        for group,fixtures in [("010",("010-hint","010-no-p6")),("016",("016",)),("025",("025",)),("039",("039-before","039-after"))]:
             name = f'contact-{group}-{viewpoint}.svg'
             title = f'{group} comparison / {data["viewpoints"][viewpoint]["label"]}'
             files[name] = contact_sheet(title,[(f,viewpoint) for f in fixtures],samples,rendered)
@@ -401,10 +433,10 @@ def require(condition, message):
 def validate_data(data):
     require(data["version"] == 1,"Fixture version must be 1")
     require(set(data["families"]) == set(FAMILIES),"Exactly families a–d required")
-    require(set(data["fixtures"]) == set(FIXTURES),"Exactly five fixtures required")
+    require(set(data["fixtures"]) == set(FIXTURES),"Exactly six fixtures required")
     require(set(data["viewpoints"]) == set(VIEWPOINTS),"Exactly two viewpoints required")
     expected = {sample_id(a,b,c) for a in FAMILIES for b in FIXTURES for c in VIEWPOINTS}
-    require(len(data["sample_ids"]) == 40 and set(data["sample_ids"]) == expected,"Explicit sample IDs must cover the unique 40-sample matrix")
+    require(len(data["sample_ids"]) == 48 and set(data["sample_ids"]) == expected,"Explicit sample IDs must cover the unique 48-sample matrix")
     require(set(data["propositions"]) == set(PROPOSITIONS),"All six proposition definitions required")
     for p in data["source_paths"]:
         require(not Path(p).is_absolute() and ".." not in Path(p).parts and (ROOT/p).is_file(),f"Missing or unsafe source: {p}")
@@ -413,7 +445,7 @@ def validate_data(data):
         values = list(model["propositions"].values())+[model["p1_foothold"]]+list(model["observations"].values())
         require(all(s in EVIDENCE_STATES for s in values),f"Invalid evidence state: {key}")
         require(model["propositions"]["P6"] == "dark",f"P6 must never clear: {key}")
-        require(set(model["observations"]) == {"response","correction","configuration","weights"},f"Wrong observations: {key}")
+        require(set(model["observations"]) == set(OBSERVATIONS),f"Wrong observations: {key}")
         require(model["sources"] and model["rationale"],f"Source references and rationale required: {key}")
         for ref in model["sources"]:
             require(ref.split("#")[0] in data["source_paths"],f"Unhashed source: {ref}")
@@ -428,10 +460,13 @@ def validate_data(data):
             require(state["P5"] == ("hatched" if viewpoint == "reader" else "dark"),"Measurement access leaked between viewpoints")
             require(state["p1_foothold"] == ("dark" if viewpoint == "reader" and fixture == "039-after" else "hatched"),"P1 must lose only its outer foothold at 039")
             obs = state["observations"]
-            expected_obs = {"response":"lit","correction":"dark","configuration":"dark","weights":"dark"} if viewpoint == "responders" else {
-                "response":"hatched" if fixture.startswith("039") else "dark",
+            seen_the_response = fixture == "025" or fixture.startswith("039")
+            expected_obs = {"response":"lit","correction":"dark","configuration":"dark",
+                            "weights":"dark","staging":"dark"} if viewpoint == "responders" else {
+                "response":"hatched" if seen_the_response else "dark",
                 "correction":"hatched", "configuration":"dark" if fixture.startswith("010") else "hatched",
-                "weights":"hatched" if fixture == "039-after" else "dark"}
+                "weights":"hatched" if fixture == "039-after" else "dark",
+                "staging":"hatched" if seen_the_response else "dark"}
             require(obs == expected_obs,f"Unsupported observation states: {fixture}/{viewpoint}")
     for viewpoint in VIEWPOINTS:
         hint = states_for(data,"010-hint",viewpoint)

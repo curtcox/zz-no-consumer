@@ -50,17 +50,17 @@ class FinishStudyTests(unittest.TestCase):
             finish.generate()
             return raster, command, log
 
-    def test_generates_all_forty_from_v1_and_resumes_without_calls(self):
+    def test_generates_all_samples_from_v1_and_resumes_without_calls(self):
         raster, command, log = self.generate()
-        self.assertEqual(command.call_count, 40)
-        self.assertEqual(raster.call_count, 40)
-        self.assertEqual(log.call_count, 40)
+        self.assertEqual(command.call_count, 48)
+        self.assertEqual(raster.call_count, 48)
+        self.assertEqual(log.call_count, 48)
         self.assertEqual(os.environ["HF_HUB_OFFLINE"], "1")
         manifest = finish.check(self.out)
-        self.assertEqual(len(manifest["results"]), 40)
+        self.assertEqual(len(manifest["results"]), 48)
         self.assertEqual({row["id"] for row in manifest["results"]}, {s["id"] for s in finish.v1_samples()})
         self.assertEqual(sorted(p.name for p in self.out.glob("*.txt")), ["a.txt", "b.txt", "c.txt", "d.txt"])
-        self.assertEqual(len(list(self.out.glob("*-init.svg"))), 40)
+        self.assertEqual(len(list(self.out.glob("*-init.svg"))), 48)
         raster, command, log = self.generate()
         command.assert_not_called()
         log.assert_not_called()
@@ -102,9 +102,9 @@ class FinishStudyTests(unittest.TestCase):
         manifest = json.loads(path.read_text())
         manifest["results"].pop()
         path.write_text(json.dumps(manifest))
-        with self.assertRaisesRegex(ValueError, "all 40"):
+        with self.assertRaisesRegex(ValueError, "all 48"):
             finish.check(self.out)
-        self.assertEqual(len(finish.check(self.out, complete=False)["results"]), 39)
+        self.assertEqual(len(finish.check(self.out, complete=False)["results"]), 47)
         manifest["strength"] = 0.99
         path.write_text(json.dumps(manifest))
         with self.assertRaisesRegex(ValueError, "settings differ"):

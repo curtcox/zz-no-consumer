@@ -111,6 +111,14 @@ The viewer's fragment settings already carry theme, navigation, full-screen and 
 3. Relabel the sample SVGs, contact sheets and gallery from *not adopted* to *approved direction* in one regeneration commit, and update the gallery validator's expected phrasing with it.
 4. Rerun the gallery, viewer, continuity and cross-reference checks; then manual review of every appearance against its page for implied causality.
 
+## The observation islands
+
+Along the foot of every map is a strip of **observation islands**: the places evidence comes from, as distinct from the propositions that evidence supports. They are what makes the difference between two parties' maps concrete — a party either has surveyed the alert, the scorer accounts, the configuration account, or it has not.
+
+There are now five. The fifth, `staging` — the persistent users and the staged plugin of page 024 — was added on 5 September 2026 with the 025 fixture, and it changes the legend on every map in the book. It was added rather than filed under an existing island because page 025's whole subject is that the reader is carrying something into a room that does not have it, and what the reader is carrying is not a correction, a configuration account or a weights account. Filing it under one of those would have made the map say something the page does not.
+
+The 025 reader state is the 039 state with P2 unexplored: the June response is on the page and page 024 is with the reader, but the recurrence has not been reached, so P2 has never been lit and cannot be re-fogged. The staging island is hatched rather than lit because the knowledge-boundary statement in 025 panel 4 is `inferred`, not because the underlying events are in doubt.
+
 ## Drawing rules
 
 1. **The map is territory, not a meter.** No percentages, no bars, no numeric credence. The book refuses false precision everywhere else and may not import it here.
