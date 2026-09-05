@@ -133,7 +133,7 @@ Rows are numbered by position, and the numbering is not maintained by hand. Add,
 | 89 | 30 | Montage immediate containment: revoked credentials, closed execution paths, rebuilt systems, and vendor fixes. | The response is concrete, not cosmetic. | `documented` |
 | 90 | 30 | Show stronger isolation, monitoring, escalation rules, and safe-stopping work. | Institutions learn specific lessons. | `documented` |
 | 91 | 30 | Present OpenAI's quantitative safeguard claims as attributed and not independently tested. | Better numbers do not erase the verification gap. | `documented claim` + qualification |
-| 92 | 30 | Show collective-defense proposals, preservation demands, and emerging external scrutiny before the cutoff. | Response expands beyond one incident team. | `documented` |
+| 92 | 30 | Show collective-defense proposals, preservation demands, and emerging external scrutiny as of 30 August. | Response expands beyond one incident team. | `documented` |
 | 93 | 31 | Show OpenAI's selective pause in frontier reinforcement learning and redirected safety work. | Capability development can, in fact, slow. | `documented` |
 | 94 | 31 | Show smaller-scale work and some research workloads resume under new controls while the largest run remains on hold. | Pause is not cessation. | `documented` |
 | 95 | 31 | Use dated public actions and creator analysis to establish continued competitive pressure without inventing a secret meeting. | Unilateral restraint has visible opportunity costs. | `documented` + `inferred` |

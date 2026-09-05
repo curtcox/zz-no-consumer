@@ -4,7 +4,7 @@
 
 This ledger is the factual gate between the research record and the 112-page script. It identifies the safest evidentiary treatment for every planned sequence. Page scripts may narrow a claim, but they may not silently upgrade its status.
 
-The narrative cutoff is 30 August 2026. Full links and publication dates live in [sources.md](./sources.md); disagreements live in [disagreements.md](./disagreements.md).
+The aftermath scenes are drawn as of 30 August 2026; later sources enter by dated admission recorded in the story contract. Full links and publication dates live in [sources.md](./sources.md); disagreements live in [disagreements.md](./disagreements.md).
 
 ## Citation keys
 
@@ -21,6 +21,9 @@ The narrative cutoff is 30 August 2026. Full links and publication dates live in
 | `OAI-BH` | OpenAI, 5 Aug Black Hat USA talk; timestamps denote the published recording. Sole public source for training and evaluation configuration. |
 | `IOB-CIV` | Carl Brown, *No — AI Agents Did Not Build Secret Civilizations* (Internet of Bugs Substack, 3 Sep 2026). A published critique of the incident's coverage; paraphrased only, as text on screen, and never given a face, body, room, or invented dialogue. Postdates the 30 Aug cutoff; admitted 5 Sep 2026 under the contract's post-cutoff critique clause. |
 | `JFROG` | JFrog vulnerability disclosure and remediation account. |
+| `CW-EXPORT` | The wiki edit corpus in `research/collusion/`: 14,591 stored revisions, 19,913 events, exported 3 Sep 2026 by the report's authors from the public wiki histories. Establishes what was posted and when, and what was deleted; not that a reported task succeeded. Quote facts by manifest key and population. Admitted 5 Sep 2026. |
+| `CW-REPORT` | Von Arx, Slade Byrd, Kitts, Larsen, *Discovery of a new OpenAI agent message board*, collusion.wiki, 4 Sep 2026. Researchers' interpretation: traffic attribution, probable separation from the HF swarm, disclosure assessment. Always attributed to the authors. Admitted 5 Sep 2026. |
+| `CW-EXPLORER` | The authors' hosted, redacted copy of the wikis with reconstructed deleted pages. Another view of `CW-EXPORT`, not corroboration; locators only until reuse terms are recorded. |
 | `PUBLIC` | Dated public statements, regulatory actions, or reporting listed in `sources.md`; identify the specific item in the page note. |
 | `PROJECT-INFERENCE` | A conclusion drawn by this project from cited events. State the reasoning on the page. |
 | `NONE-FICTION` | Invented or reconstructed connective material with no claim of direct observation. |
@@ -65,7 +68,7 @@ The narrative cutoff is 30 August 2026. Full links and publication dates live in
 | 31 | 93–95 | Development slows selectively while competitive capability work continues. | `documented` + `inferred` | `OAI-PACE`, `PUBLIC`; show dated public actions. “Race” is project analysis, not a secret meeting fact. |
 | 32 | 96–98 | Human and agent coordination dilemmas are shown in parallel. | `compressed` + `invented` | `PROJECT-INFERENCE`, `NONE-FICTION`; matched dialogue is project-authored and must be labeled. |
 | 33 | 99–102 | Composite accountability hearing states the book's earned argument. | `invented` | `NONE-FICTION`; disclose prominently. Questions may synthesize public controversies but cannot be attributed to an actual proceeding. |
-| 34 | 103–104 | Policies change; capability development continues. | `compressed` + `inferred` | `OAI-PACE`, `HF-TL`, `OAI-LETTER`, `PUBLIC`; montage must remain within the 30 Aug cutoff. |
+| 34 | 103–104 | Policies change; capability development continues. | `compressed` + `inferred` | `OAI-PACE`, `HF-TL`, `OAI-LETTER`, `PUBLIC`; montage is drawn as of 30 Aug; later facts enter as dated frames or endnotes. |
 | 35 | 105–108 | Curt and ChatGPT finish the artifact and discuss training-data consequences. | `reconstructed` + `inferred` | `NONE-FICTION`; the contamination concern is real analysis, but the exchange is reconstructed. Page 107 introduces the disclosed composite `SKEPTIC — COMPOSITE` for the publication objection; it is `invented`, labelled on the panel, and not the page-039 critic. |
 | 36 | 109–112 | A future agent creates another `zz` message. | `invented` | `NONE-FICTION`; deliberately leave recurrence versus inheritance unresolved. |
 

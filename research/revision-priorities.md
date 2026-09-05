@@ -36,7 +36,7 @@ The contract freezes the main narrative at 30 August **and expressly permits lat
 
 The September 4 wiki addition is a broader change and needs its own approval. **Recommend the proposal's narrow, dated evidence-update exception**, keeping the August 30 aftermath boundary. Distinguish event dates from when the evidence became available, without creating an open-ended license for later news to reshape the book. If approved, clarify [page 092](../content/pages/092.md)'s `NARRATIVE CUTOFF — 30 AUGUST` label and matching provenance language. If declined, keep the wiki in an illustrated afterword or dated site update. Independent corrections and craft work can proceed either way.
 
-**Decided 5 September, in part:** the contract now admits dated post-cutoff critiques to the creator register one source at a time by recorded decision, and admits `IOB-CIV` (3 September) under that clause. The wiki evidence update remains undecided; the critique clause is deliberately narrower than the wiki's exception, since a critique is evidence of argument, not of events.
+**Decided 5 September:** the contract no longer has a cutoff. Its *Research record and dates* section replaces the frozen date with a dated record: the aftermath scenes are drawn as of 30 August, later sources are admitted one at a time by a logged decision with their date and evidence level, and no scene may act on knowledge later than its own date. The log admits `IOB-CIV` (3 September), `CW-EXPORT` (3 September), `CW-REPORT` (4 September) and `CW-EXPLORER`. Page 092's label now reads *drawn as of 30 August*; the packets, ledger, continuity notes, security review and data files say the same. Items 4–7 are unblocked.
 
 ### 2. Register the corpus separately from the researchers' interpretation
 **Cost:** small; source index, artifact ledger, scene provenance, and affected packets. **Blocks:** canonical pages citing the wiki. **Confidence:** high.
@@ -47,10 +47,14 @@ Record selected revision/event IDs and claim ceilings in [sources.md](./sources.
 
 **Ready when:** each proposed scene has a source locator, a claim ceiling, and a separate label for reconstructed visuals. Registration can be prepared while item 1 is pending.
 
+**Done 5 September:** the three keys are registered in the ledger's key table, the source index, the cast (the four authors), the public source-links index, the vault manifest, and Packet 07 for the addition after page 105; the contract's admissions log records their levels. Per-scene locators and claim ceilings are written when item 5's pages are drafted.
+
 ### 3. Resolve reuse status before reproducing explorer material
 **Cost:** custodian inquiry and review; response time unknown. **Blocks:** screenshots and extended excerpts, not all drafting or art. **Confidence:** high.
 
-The proposal notes that the explorer showed a draft/non-sharing notice during review even though the report invites analysis. With approval to contact the custodians, ask which material may be reproduced and on what terms; record the answer before production depends on it. Until resolved, plan around attributed paraphrase and source links rather than screenshots. Apply the existing security/privacy review to readable identifiers, operational detail, and any reconstructed administrator depiction. Public availability is not blanket reuse permission.
+The proposal notes that the explorer showed a draft/non-sharing notice during review even though the report invites analysis. Ask the custodians which material may be reproduced and on what terms; record the answer before production depends on it. Until resolved, plan around attributed paraphrase and source links rather than screenshots. Apply the existing security/privacy review to readable identifiers, operational detail, and any reconstructed administrator depiction. Public availability is not blanket reuse permission.
+
+**Prepared 5 September:** [research/collusion/reuse-inquiry.md](./collusion/reuse-inquiry.md) describes the three bodies of material, where each is and how to get it, the contact the report gives (sydney@nightingalecollective.org, Nightingale Collective), the five questions to ask, a message the owner can send, and a table to record the answer. Sending it is the owner's action.
 
 ---
 
@@ -200,6 +204,13 @@ Three surfaces, one source of truth. Keep the canonical text in [`CREDITS.md`](.
 - **Published site:** a public route (`pages/CREDITS.html`, the same place the premise and the original-source index are published) built from the same Markdown and listed in the site navigation. Links from it to non-public repository files point at GitHub, since the public build excludes research and the contract. The public build is story-first, so the credits page links to original publications and names tools; it does not pull research or vault material.
 
 Rules: credit real people only for documented public work, in the same terms the cast table uses; do not imply endorsement by any source or commentator; state AI involvement plainly, as the book does on the page; keep the list current when a generator, model or licence changes, and record the date it was last checked.
+
+**Licence recommendation (5 September; the owner leans GPL).** Use two licences, because the repository is two kinds of work:
+
+- **The book** (scripts in `content/`, research prose, design notes, generated images and lettering): **CC BY-SA 4.0**. It is the share-alike licence for creative and documentary work, the copyleft analogue of the GPL, and Creative Commons has declared it one-way compatible with GPLv3, so anyone who wants to fold the text into GPL software may. The GPL itself fits a book badly: its terms are written around "source code" and "object code", it has no notion of attribution on a page, and a comic under it invites arguments about what the preferred form for modification of a lettered panel is.
+- **The tooling** (`scripts/`, the site builder, the renderers): **GPL-3.0-or-later**, which is what the owner wants and what the code is.
+
+Three things no licence choice changes: paraphrased third-party sources stay under their own rights and the book's licence does not relicense them; the generated images were made with Apache-2.0 weights, which place no terms on outputs, but nothing produced by the non-commercial models may appear in the book; and the wiki corpus is republished under whatever terms its custodians state (item 3). Apply by replacing the LICENSE placeholder with both texts and a one-paragraph map of which applies to what, then update the licence line in `CREDITS.md`.
 
 ---
 

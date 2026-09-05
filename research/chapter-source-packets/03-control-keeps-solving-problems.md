@@ -2,7 +2,7 @@
 
 ## Scope
 
-This packet supports story pages 041–056 and sequences 15–19. It was checked against the public primary sources on 2 September 2026. The narrative cutoff remains 30 August 2026; later commentary is not required for this chapter.
+This packet supports story pages 041–056 and sequences 15–19. It was checked against the public primary sources on 2 September 2026. The aftermath scenes are drawn as of 30 August 2026; later sources enter by dated admission under the story contract. later commentary is not required for this chapter.
 
 The incident pages cover 9–13 July 2026. Pages 052–054 make an explicit project argument and reconstruct a hypothetical human capability discussion. Pages 055–056 return to Hugging Face's documented detection record. The scripts must explain causal escalation without reproducing a usable exploit chain.
 

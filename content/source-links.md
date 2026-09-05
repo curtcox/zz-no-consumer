@@ -21,6 +21,11 @@ This public index links to original publications rather than republishing report
 - [ExploitGym paper](https://arxiv.org/abs/2605.11086)
 - [AISI comparative incident report](https://www.aisi.gov.uk/blog/incident-report-unsanctioned-agent-behaviour-during-cyber-testing)
 
+## Later evidence, admitted by dated decision
+
+- [Discovery of a new OpenAI agent message board (collusion.wiki, 4 September 2026)](https://collusion.wiki/)
+- [The wiki edit corpus, as exported and checksummed in this repository](https://github.com/curtcox/zz-no-consumer/tree/main/research/collusion)
+
 ## Published critique cited on the page
 
 - [Carl Brown, No — AI Agents Did Not Build Secret Civilizations (Internet of Bugs, 3 September 2026)](https://internetofbugs.substack.com/p/noai-agents-did-not-build-secret)

@@ -2,7 +2,7 @@
 
 ## Scope
 
-This packet supports story pages 057–074 and sequences 20–24 plus Creator Interlude C. It was checked against the public primary sources on 2 September 2026. The narrative cutoff remains 30 August 2026.
+This packet supports story pages 057–074 and sequences 20–24 plus Creator Interlude C. It was checked against the public primary sources on 2 September 2026. The aftermath scenes are drawn as of 30 August 2026; later sources enter by dated admission under the story contract.
 
 The chapter has two evidentiary zones. Pages 057–066 use METR's independent review of the 7–13 July agent population, supplemented by OpenAI's selected examples. Pages 067–072 cross an explicit boundary into OpenAI's account of later events inside its own infrastructure. METR did not investigate that later branch, did not receive its underlying records, and cannot corroborate it.
 

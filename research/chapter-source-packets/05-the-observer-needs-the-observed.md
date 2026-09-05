@@ -2,7 +2,7 @@
 
 ## Scope
 
-This packet supports story pages 075–088 and sequences 25–29. It was checked against the public primary sources on 2 September 2026. The narrative cutoff remains 30 August 2026.
+This packet supports story pages 075–088 and sequences 25–29. It was checked against the public primary sources on 2 September 2026. The aftermath scenes are drawn as of 30 August 2026; later sources enter by dated admission under the story contract.
 
 The chapter makes the investigation pipeline visible. METR and Redwood reviewed an incident too large to analyze manually in their available six on-premises days, so they used GPT-5.6 Sol analysis agents—often with nested subagents—to select evidence, classify patterns, reconstruct chronology, and draft analysis. Human investigators spot-checked and revised the output, but METR says the volume and context dependence forced substantial practical reliance on the model.
 
@@ -12,7 +12,7 @@ The methodological dependence is neither proof that the findings are false nor a
 
 - `METR` — [METR/Redwood, *Brief independent investigation of agents’ behavior, reasoning and collaboration in the OpenAI / Hugging Face hacking incident*](https://metr.org/blog/2026-08-26-openai-hugging-face-incident-investigation/), especially “Investigation process and limitations,” the tool-call-spoofing sections, the classifier-sweep appendix, and footnotes 54–58.
 - `OAI-TR` — [OpenAI, *Hugging Face Incident Technical Report*](https://cdn.openai.com/pdf/67869394-cb91-4c12-888c-5cbd85c7814c/OpenAI-Hugging-Face%20Incident-Technical-Report.pdf), especially printed page 20 on reward hacking and attempted trajectory manipulation.
-- `IOB-CIV` — [Carl Brown, *No — AI Agents Did Not Build Secret Civilizations*](https://internetofbugs.substack.com/p/noai-agents-did-not-build-secret), Internet of Bugs, 3 September 2026 (admitted post-cutoff critique; see Packet 02). Returns on pages 086 and 087 for two claims the post makes: that METR delegated analysis to often-unreliable AI agents, and that the account was cherry-picked from about twenty million entries by parties (OpenAI and METR) with an incentive to look powerful. Attributed paraphrase, text on screen only; nothing beyond those claims may be assigned to it.
+- `IOB-CIV` — [Carl Brown, *No — AI Agents Did Not Build Secret Civilizations*](https://internetofbugs.substack.com/p/noai-agents-did-not-build-secret), Internet of Bugs, 3 September 2026 (admitted 5 September in the contract's log; see Packet 02). Returns on pages 086 and 087 for two claims the post makes: that METR delegated analysis to often-unreliable AI agents, and that the account was cherry-picked from about twenty million entries by parties (OpenAI and METR) with an incentive to look powerful. Attributed paraphrase, text on screen only; nothing beyond those claims may be assigned to it.
 
 `METR` controls its own dataset construction, analysis process, model use, limitations, error examples, transcript findings, and message-board-integrity assessment. `OAI-TR` controls OpenAI's separate assurance about the logs ultimately seen by graders and monitors. The project does not reconcile the two streams without a published architecture showing how execution, retained transcripts, graders, and monitors relate.
 

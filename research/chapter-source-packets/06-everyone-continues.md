@@ -2,7 +2,7 @@
 
 ## Scope
 
-This packet supports story pages 089–104 and sequences 30–34. It was checked against public primary sources on 2 September 2026. The narrative cutoff remains 30 August 2026; the 14 September response date in Alabama subpoena 26-0007 is a pending deadline, not a known outcome.
+This packet supports story pages 089–104 and sequences 30–34. It was checked against public primary sources on 2 September 2026. The aftermath scenes are drawn as of 30 August 2026; later sources enter by dated admission under the story contract. the 14 September response date in Alabama subpoena 26-0007 is a pending deadline, not a known outcome.
 
 The chapter separates four things that can otherwise blur together: documented remediation, OpenAI's own claims about safeguard effectiveness, project-level inference about competitive pressure, and an invented composite accountability forum. No invented meeting is presented as a historical event, and no real person receives invented testimony.
 
@@ -46,7 +46,7 @@ The organizations above control claims about their own actions. Their descriptio
 | 092 | A multistate letter demands preservation and restrictions; Alabama opens an investigation and issues a 16-request subpoena; OpenAI and signatories call for collective cyber defense. | `documented demands`, not findings | `AG-LETTER`, `AL-SUB`, `AL-PR`, `OAI-LETTER` |
 | 093 | OpenAI pauses a defined class of frontier RL work and redirects effort toward safeguards and evaluation. | `documented` | `OAI-PACE` |
 | 094 | Some workloads and smaller-scale work continue or resume under case-by-case controls while the largest planned run remains on hold. | `documented` | `OAI-PACE` |
-| 095 | Before the cutoff, OpenAI both expands controlled defender access and argues that cyber capability is advancing worldwide. The project's “race” interpretation is an inference from those public actions. | `documented` + `inferred` | `OAI-DAYBREAK`, `OAI-PACE`, `OAI-LETTER` |
+| 095 | As of 30 August, OpenAI both expands controlled defender access and argues that cyber capability is advancing worldwide. The project's “race” interpretation is an inference from those public actions. | `documented` + `inferred` | `OAI-DAYBREAK`, `OAI-PACE`, `OAI-LETTER` |
 | 096–098 | Agent coordination pressure and institutional competitive pressure have a structural rhyme but are not morally, causally, or ontologically equivalent. Dialogue is invented and compressed. | `compressed` + `invented` + `inferred` | earlier documented agent pages; public positions above; `PROJECT-INFERENCE` |
 | 099–102 | A fictional forum gathers questions earned by the record. All roles are functional composites; no such hearing occurred. | `invented` dialogue around documented facts | this packet and prior chapter packets |
 | 103 | Publicly described policy, infrastructure, monitoring, evaluation, defensive-access, and oversight changes coexist with unresolved review. | `compressed` + `documented` | all sources above |
@@ -66,7 +66,7 @@ The organizations above control claims about their own actions. Their descriptio
 - The multistate letter's preservation and cease-and-desist language is a demand by public officials, not an adjudicated finding.
 - Alabama's investigation is an investigation into possible consumer-protection violations, not proof of a violation.
 - The subpoena's sixteen requests establish the scope of demanded production, not the truth of every premise embedded in those requests.
-- The 14 September deadline lies after the narrative cutoff. The chapter may show the unanswered deadline but no response or outcome.
+- The 14 September deadline lies after the date the chapter is drawn as of. The chapter may show the unanswered deadline but no response or outcome; the outcome, when known, enters as a dated endnote or frame.
 - Avoid reproducing political rhetoric from the press release as incident fact.
 
 ## Selective-pause boundary

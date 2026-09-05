@@ -54,7 +54,7 @@ Distributed story pages use attributed paraphrases for third-party agent output,
 
 ## Chronology model
 
-The main chronology is populated from the incident timeline with a 30 August 2026 research cutoff. Exact times remain source-qualified where the primary accounts disagree.
+The main chronology is populated from the incident timeline. The aftermath scenes are drawn as of 30 August 2026; later sources enter by dated admission under the story contract's admissions log, and a scene may not act on knowledge that became available after its own date. Exact times remain source-qualified where the primary accounts disagree.
 
 | Order | Event | Population | State change |
 | ---: | --- | --- | --- |

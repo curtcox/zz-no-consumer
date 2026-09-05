@@ -47,13 +47,26 @@ The book is documentary in subject and interpretive in form.
 - Published critics of this incident's coverage may be cited by name through attributed paraphrase of dated public writing, and appear on the page only as text. They may not be given a face, a body, a room, or invented dialogue. A recurring skeptical foil, if one is drafted, is a disclosed composite and carries no real person's name.
 - One construction in this book is deliberately misleading on first reading: page 064 presents an analysis-model ranking with an accurate but deliberately small qualifier, and page 086 discloses it and takes responsibility. This is permitted precisely once, nothing in it may be false, and the disclosure is mandatory.
 
-## Research cutoff
+## Research record and dates
 
-The main narrative record is frozen at **30 August 2026**.
+Time did not stop on 30 August 2026, and the book does not pretend it did. There is no frozen cutoff. There is a **dated record**: every event carries its date, every source carries the date it became available, and every scene is drawn as of a stated date. The aftermath sequence in Chapter 6 and the epilogue's creator scenes are drawn **as of 30 August 2026**; later material enters the book only as dated additions, never by silently rewriting what an earlier-dated scene knew.
 
-Later developments belong in endnotes or a dated site update unless they materially overturn a load-bearing incident fact. A later source may correct dates, source summaries, identities, or technical claims before pages are locked, but routine news should not continually reshape the first draft.
+Rules:
 
-A published critique of the incident's coverage dated after the cutoff may be admitted to the creator register, one source at a time, by a recorded decision. It appears with its date on the page, is paraphrased under the critic rule below, and is evidence of what was argued, not of what happened. Admitted on 5 September 2026: Carl Brown, *No — AI Agents Did Not Build Secret Civilizations* (3 September 2026), cited as `IOB-CIV` on page 039.
+- **Event date and availability date are different facts.** A May event reported in September is drawn in May and cited to a September source, with both dates visible where it matters.
+- **No retrofitting.** A scene drawn as of a date may not act on knowledge that became available later. Later knowledge arrives in a dated frame (a creator scene, an endnote, a dated site update), or by a load-bearing correction that is logged below.
+- **Admission is a recorded decision, one source at a time.** A later source enters the canonical index with its date, its evidence level (event record, institutional account, researchers' interpretation, or published argument), and the pages it may support. Routine news does not reshape the draft; a source is admitted because it changes or bounds a claim.
+- **Corrections are always allowed.** A later source may correct dates, source summaries, identities, or technical claims on any page before lock; the correction is noted on the page.
+- **Published critiques of the coverage** enter the creator register under the critic rule above: with their date, paraphrased, text on screen, evidence of what was argued and not of what happened.
+
+Admissions log:
+
+| Decided | Source | Level | May support |
+| --- | --- | --- | --- |
+| 5 Sep 2026 | `IOB-CIV`, Carl Brown, 3 Sep 2026 | published argument | Page 039 and its returns (086, 087). |
+| 5 Sep 2026 | `CW-EXPORT`, the wiki edit corpus, exported 3 Sep 2026 | event record (stored revisions and deletion events) | The dated wiki addition after page 105; the overlap calendar. A stored post establishes what was posted, not that a reported task succeeded. |
+| 5 Sep 2026 | `CW-REPORT`, Von Arx, Slade Byrd, Kitts and Larsen, 4 Sep 2026 | researchers' interpretation | Attribution, the distinct-swarm assessment, and the disclosure question, each attributed to the authors. |
+| 5 Sep 2026 | `CW-EXPLORER`, the authors' hosted, redacted copy of the wikis | another view of `CW-EXPORT` | Locators only until reuse terms are recorded; not independent corroboration. |
 
 ## Canonical population model
 

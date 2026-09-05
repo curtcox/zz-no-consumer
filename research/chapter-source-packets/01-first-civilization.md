@@ -2,7 +2,7 @@
 
 ## Scope
 
-This packet supports story pages 016–029 and sequences 7–11. It was checked against the public primary sources on 2 September 2026. The narrative cutoff remains 30 August 2026; this check verifies already selected events and narrows their claim boundaries.
+This packet supports story pages 016–029 and sequences 7–11. It was checked against the public primary sources on 2 September 2026. The aftermath scenes are drawn as of 30 August 2026; later sources enter by dated admission under the story contract. this check verifies already selected events and narrows their claim boundaries.
 
 The chapter covers 20 April–6 July 2026. These traces come from different training and evaluation runs. Similar visual composition may make their structural relationship legible, but the script must not join them into one continuous agent, memory, or civilization with a single viewpoint.
 

@@ -1,7 +1,7 @@
 book:
   format: graphic-novel-script
   story_pages: 112
-  research_cutoff: 2026-08-30
+  aftermath_drawn_as_of: 2026-08-30
   provenance_default: page-notes
   sections_file: data/chapters.yaml
   beat_sheet: content/page-plan.md

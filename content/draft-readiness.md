@@ -80,4 +80,4 @@ Before the first panel is written:
 - no second-population convention may be assigned to Chapter 1;
 - unresolved factual questions must remain explicitly unresolved.
 
-These conditions are mechanical gates, not requests for further general research. New evidence after the 30 August narrative cutoff belongs in endnotes unless it corrects a load-bearing fact before page lock.
+These conditions are mechanical gates, not requests for further general research. New evidence dated after the 30 August aftermath scenes enters by recorded admission in the story contract's log, as a dated frame or endnote, unless it corrects a load-bearing fact before page lock.

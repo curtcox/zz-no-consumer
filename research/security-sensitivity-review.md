@@ -80,7 +80,7 @@ The script already preserves the highest-risk boundaries:
 - Decide whether organization logos appear at all. If used, keep them documentary/attributive and submit them to publisher review.
 - Review captions beside images, not in isolation, for unintended blame, certainty, or identity implications.
 - Verify that no AI-generated face resembles a named researcher, executive, responder, dataset owner, or employee.
-- Maintain the 30 August narrative cutoff; the 14 September subpoena checkpoint may correct or append facts but should not silently rewrite the incident chronology.
+- Keep the aftermath scenes dated as of 30 August; later sources, including the 14 September subpoena checkpoint, enter by recorded admission and may correct or append facts but must not silently rewrite the incident chronology.
 
 ## Gate decision
 

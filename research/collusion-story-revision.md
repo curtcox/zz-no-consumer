@@ -12,7 +12,7 @@ The central editorial change is larger than adding another example of coordinati
 
 ## Sources and evidence levels
 
-These working source labels apply within this proposal; they have not been added to the project's canonical source index.
+These working source labels were added to the canonical source index and scene ledger on 5 September 2026 (`CW-EXPORT`, `CW-REPORT`, `CW-EXPLORER`).
 
 | Label | Source | What it supports |
 | --- | --- | --- |

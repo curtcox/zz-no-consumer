@@ -2,7 +2,7 @@
 
 ## Scope
 
-This packet supports story pages 001–015 and sequences 1–6 plus Creator Interlude A. It was checked against the public primary sources on 2 September 2026. The narrative cutoff remains 30 August 2026; this check only verifies already selected facts and wording.
+This packet supports story pages 001–015 and sequences 1–6 plus Creator Interlude A. It was checked against the public primary sources on 2 September 2026. The aftermath scenes are drawn as of 30 August 2026; later sources enter by dated admission under the story contract. this check only verifies already selected facts and wording.
 
 The incident pages cover 8–9 July 2026 and the second, post-rebuild ExploitGym population. Pages 013–015 are reconstructed creator scenes and make no claim to preserve a verbatim Curt/ChatGPT exchange.
 
