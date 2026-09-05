@@ -103,6 +103,17 @@ python3 scripts/crossref.py json --out data/crossref.json
 
 `check` reports three severities. Errors mean the record does not join up: a citation key no source packet registers, or a page assigned to a sequence outside its ledger page range. Warnings mean a panel's `**Provenance:**` line cites a status or source the page front matter does not declare. Notes mark registered sources that no page cites. Only errors block by default.
 
+## Cadence
+
+`scripts/cadence.py` measures the script's negation cadence — the corrective-contrast habit, "X is not Y" and "A happened. B did not." It reads only what a reader sees: `**Caption:**`, `**Qualification:**`, `**Screen / system text…:**` and every dialogue label, with `**Frame:**`, `**Action:**`, `**Provenance:**`, `**Note:**` and `## Page notes` excluded, and consecutive blockquote lines under one label counted as one caption block.
+
+```sh
+python3 scripts/cadence.py report    # census and per-band density
+python3 scripts/cadence.py list      # every contrast, with aphorism candidates marked
+```
+
+**There is no `check` subcommand, deliberately.** Negation is not a defect here: most instances are claim boundaries the [truth contract](content/story-contract.md) requires, and deleting one would upgrade a claim. What the tool separates out is the *abstract aphorism* — a linking verb setting one abstract noun phrase against another while bounding no source, date, count, or object in the record. That is the set worth thinning, and which of its members to thin is an editorial judgement no exit code should make. The counting method, and what it corrects in the earlier estimate, are in [`research/read-through-findings.md`](research/read-through-findings.md).
+
 ## Site builds
 
 The default build is the story-first public surface. It excludes research, source packets, prompts, design notes, and production artifacts:
