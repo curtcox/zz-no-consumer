@@ -1,0 +1,1274 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Knowledge maps · fog of war — zz-no-consumer</title>
+  <link rel="stylesheet" href="../../css/site.css">
+</head>
+<body class="knowledge-map-page">
+  <header><div class="shell"><div class="eyebrow">zz-no-consumer</div><h1>Knowledge maps · fog of war</h1><p class="lede">A graphic novel about emergent AI agent coordination.</p></div></header>
+  <main class="shell"><article><div class="knowledge-map-gallery"><p><a href="../">Knowledge-map gallery</a> / Fog of war</p><p class="eyebrow">Design samples — not adopted</p><p><strong>Story revelations through page 039.</strong></p><p class="km-intro">Four alternatives for showing who knows what, compared on exactly the same fixtures and viewpoints. No family has been selected. These are design studies, not canonical story art.</p><section class="km-legend" aria-label="Shared evidence-state legend"><h2>Reading the maps</h2><p><strong>Dark:</strong> no available support, not proof of falsehood. <strong>Lit:</strong> available evidence, not certainty. <strong>Hatched:</strong> single-sourced or contested evidence. <strong>P6:</strong> unreachable, never lit or hatched. Re-fogging removes support, not terrain.</p><p>Viewpoints are provisional editorial models, not access to anyone’s interior. The 27 June responders stay within the same response boundary while the reader learns more.</p></section><section class="km-section km-fog" id="fog-of-war-studies"><h2>Fog-of-war studies</h2><p>Fog-of-war studies: the same fixtures and viewpoints as v1, on the A-family terrain, but the fog is a computed raster veil with a soft, irregular, noise-displaced edge rather than a filled polygon, the way navigation maps in games draw it. Terrain is continuous under the whole map, so the fog is the only boundary. Four fog levels: unexplored ground is opaque; ground that was seen and has lost support stays dimly visible; contested ground is striped or patchy fog; evidence is clear. Everything is deterministic standard-library Python. Not exact evidence states beyond the three the fixtures define; not adopted.</p><ul><li><strong>W1 · Ragged regions.</strong> Regional fog with a noise-displaced, feathered edge; contested ground is striped fog inside the same soft edge.</li><li><strong>W2 · Line of sight.</strong> Vision discs around the places evidence comes from; the region outlines are only visible where sight reaches.</li><li><strong>W3 · Patchy contest.</strong> Contested ground is visible in irregular patches rather than hatched; the fog itself carries the uncertainty.</li></ul><p>Fog opacity by level: unexplored 1 · seen, support lost 0.68 · contested 0.34 · visible 0.</p><nav class="km-jumps" aria-label="Fog comparisons"><a href="#fog-comparison">All three treatments</a><a href="#fog-039-before-after">039 before / after</a><a href="#fog-010-hint-nohint">010 hint / no hint</a><a href="#fog-reader-responders">Reader / responders</a><a href="#fog-contact-sheets">Contact sheets</a><a href="../v1/">Compare with v1 A–D</a></nav></section><section class="km-section" id="fog-comparison"><h2>Fog comparison</h2><p>30 samples · renderer knowledge-map-fog-1.0.0. Every row holds fixture and viewpoint fixed.</p><ul class="km-row-links"><li><a href="#fog-010-hint-reader">010 · with P6 hint · Reader</a></li><li><a href="#fog-010-hint-responders">010 · with P6 hint · 27 June responders</a></li><li><a href="#fog-010-no-p6-reader">010 · without P6 hint · Reader</a></li><li><a href="#fog-010-no-p6-responders">010 · without P6 hint · 27 June responders</a></li><li><a href="#fog-016-reader">016 · observation boundary · Reader</a></li><li><a href="#fog-016-responders">016 · observation boundary · 27 June responders</a></li><li><a href="#fog-039-before-reader">039 · before the reveal · Reader</a></li><li><a href="#fog-039-before-responders">039 · before the reveal · 27 June responders</a></li><li><a href="#fog-039-after-reader">039 · after the reveal · Reader</a></li><li><a href="#fog-039-after-responders">039 · after the reveal · 27 June responders</a></li></ul><section class="km-section" id="fog-010-hint-reader"><h3>010 · with P6 hint · Reader</h3><div class="km-grid km-grid--three"><figure class="km-card" id="sample-w1-010-reader-hint" data-km-fog="w1-010-reader-hint" data-family="w1" data-fixture="010-hint" data-viewpoint="reader"><a href="../../assets/knowledge-maps/fog-v1/w1-010-reader-hint.svg"><img src="../../assets/knowledge-maps/fog-v1/w1-010-reader-hint.svg" alt="Fog of war, Ragged regions: 010 / Before the boundary is named, Reader. Schematic drawn claim terrain; P1 hatched; P2 dark; P3 dark; P4 dark; P5 hatched. P1 outer foothold hatched. Observation islands: response dark, correction hatched, configuration dark, weights dark. P6 is only an unnamed dark hint. Dark means no available support, not false. Contours remain fixed across fixtures. Design sample, not adopted. Fog has a soft irregular edge; unexplored ground is opaque, ground that lost support stays dimly visible." width="960" height="640" loading="lazy"></a><figcaption><strong>W1 · Ragged regions</strong><p>010 · with P6 hint · Reader</p><details><summary>Exact fixture states</summary><pre>{
+  &quot;P1&quot;: &quot;hatched&quot;,
+  &quot;P2&quot;: &quot;dark&quot;,
+  &quot;P3&quot;: &quot;dark&quot;,
+  &quot;P4&quot;: &quot;dark&quot;,
+  &quot;P5&quot;: &quot;hatched&quot;,
+  &quot;P6&quot;: &quot;dark&quot;,
+  &quot;p1_foothold&quot;: &quot;hatched&quot;,
+  &quot;observations&quot;: {
+    &quot;response&quot;: &quot;dark&quot;,
+    &quot;correction&quot;: &quot;hatched&quot;,
+    &quot;configuration&quot;: &quot;dark&quot;,
+    &quot;weights&quot;: &quot;dark&quot;
+  },
+  &quot;p6_presence&quot;: &quot;hint&quot;
+}</pre></details></figcaption></figure><figure class="km-card" id="sample-w2-010-reader-hint" data-km-fog="w2-010-reader-hint" data-family="w2" data-fixture="010-hint" data-viewpoint="reader"><a href="../../assets/knowledge-maps/fog-v1/w2-010-reader-hint.svg"><img src="../../assets/knowledge-maps/fog-v1/w2-010-reader-hint.svg" alt="Fog of war, Line of sight: 010 / Before the boundary is named, Reader. Schematic drawn claim terrain; P1 hatched; P2 dark; P3 dark; P4 dark; P5 hatched. P1 outer foothold hatched. Observation islands: response dark, correction hatched, configuration dark, weights dark. P6 is only an unnamed dark hint. Dark means no available support, not false. Contours remain fixed across fixtures. Design sample, not adopted. Fog has a soft irregular edge; unexplored ground is opaque, ground that lost support stays dimly visible." width="960" height="640" loading="lazy"></a><figcaption><strong>W2 · Line of sight</strong><p>010 · with P6 hint · Reader</p><details><summary>Exact fixture states</summary><pre>{
+  &quot;P1&quot;: &quot;hatched&quot;,
+  &quot;P2&quot;: &quot;dark&quot;,
+  &quot;P3&quot;: &quot;dark&quot;,
+  &quot;P4&quot;: &quot;dark&quot;,
+  &quot;P5&quot;: &quot;hatched&quot;,
+  &quot;P6&quot;: &quot;dark&quot;,
+  &quot;p1_foothold&quot;: &quot;hatched&quot;,
+  &quot;observations&quot;: {
+    &quot;response&quot;: &quot;dark&quot;,
+    &quot;correction&quot;: &quot;hatched&quot;,
+    &quot;configuration&quot;: &quot;dark&quot;,
+    &quot;weights&quot;: &quot;dark&quot;
+  },
+  &quot;p6_presence&quot;: &quot;hint&quot;
+}</pre></details></figcaption></figure><figure class="km-card" id="sample-w3-010-reader-hint" data-km-fog="w3-010-reader-hint" data-family="w3" data-fixture="010-hint" data-viewpoint="reader"><a href="../../assets/knowledge-maps/fog-v1/w3-010-reader-hint.svg"><img src="../../assets/knowledge-maps/fog-v1/w3-010-reader-hint.svg" alt="Fog of war, Patchy contest: 010 / Before the boundary is named, Reader. Schematic drawn claim terrain; P1 hatched; P2 dark; P3 dark; P4 dark; P5 hatched. P1 outer foothold hatched. Observation islands: response dark, correction hatched, configuration dark, weights dark. P6 is only an unnamed dark hint. Dark means no available support, not false. Contours remain fixed across fixtures. Design sample, not adopted. Fog has a soft irregular edge; unexplored ground is opaque, ground that lost support stays dimly visible." width="960" height="640" loading="lazy"></a><figcaption><strong>W3 · Patchy contest</strong><p>010 · with P6 hint · Reader</p><details><summary>Exact fixture states</summary><pre>{
+  &quot;P1&quot;: &quot;hatched&quot;,
+  &quot;P2&quot;: &quot;dark&quot;,
+  &quot;P3&quot;: &quot;dark&quot;,
+  &quot;P4&quot;: &quot;dark&quot;,
+  &quot;P5&quot;: &quot;hatched&quot;,
+  &quot;P6&quot;: &quot;dark&quot;,
+  &quot;p1_foothold&quot;: &quot;hatched&quot;,
+  &quot;observations&quot;: {
+    &quot;response&quot;: &quot;dark&quot;,
+    &quot;correction&quot;: &quot;hatched&quot;,
+    &quot;configuration&quot;: &quot;dark&quot;,
+    &quot;weights&quot;: &quot;dark&quot;
+  },
+  &quot;p6_presence&quot;: &quot;hint&quot;
+}</pre></details></figcaption></figure></div></section><section class="km-section" id="fog-010-hint-responders"><h3>010 · with P6 hint · 27 June responders</h3><div class="km-grid km-grid--three"><figure class="km-card" id="sample-w1-010-responders-hint" data-km-fog="w1-010-responders-hint" data-family="w1" data-fixture="010-hint" data-viewpoint="responders"><a href="../../assets/knowledge-maps/fog-v1/w1-010-responders-hint.svg"><img src="../../assets/knowledge-maps/fog-v1/w1-010-responders-hint.svg" alt="Fog of war, Ragged regions: 010 / Before the boundary is named, 27 June responders. Schematic drawn claim terrain; P1 hatched; P2 dark; P3 dark; P4 dark; P5 dark. P1 outer foothold hatched. Observation islands: response lit, correction dark, configuration dark, weights dark. P6 is only an unnamed dark hint. Dark means no available support, not false. Contours remain fixed across fixtures. Design sample, not adopted. Fog has a soft irregular edge; unexplored ground is opaque, ground that lost support stays dimly visible." width="960" height="640" loading="lazy"></a><figcaption><strong>W1 · Ragged regions</strong><p>010 · with P6 hint · 27 June responders</p><details><summary>Exact fixture states</summary><pre>{
+  &quot;P1&quot;: &quot;hatched&quot;,
+  &quot;P2&quot;: &quot;dark&quot;,
+  &quot;P3&quot;: &quot;dark&quot;,
+  &quot;P4&quot;: &quot;dark&quot;,
+  &quot;P5&quot;: &quot;dark&quot;,
+  &quot;P6&quot;: &quot;dark&quot;,
+  &quot;p1_foothold&quot;: &quot;hatched&quot;,
+  &quot;observations&quot;: {
+    &quot;response&quot;: &quot;lit&quot;,
+    &quot;correction&quot;: &quot;dark&quot;,
+    &quot;configuration&quot;: &quot;dark&quot;,
+    &quot;weights&quot;: &quot;dark&quot;
+  },
+  &quot;p6_presence&quot;: &quot;hint&quot;
+}</pre></details></figcaption></figure><figure class="km-card" id="sample-w2-010-responders-hint" data-km-fog="w2-010-responders-hint" data-family="w2" data-fixture="010-hint" data-viewpoint="responders"><a href="../../assets/knowledge-maps/fog-v1/w2-010-responders-hint.svg"><img src="../../assets/knowledge-maps/fog-v1/w2-010-responders-hint.svg" alt="Fog of war, Line of sight: 010 / Before the boundary is named, 27 June responders. Schematic drawn claim terrain; P1 hatched; P2 dark; P3 dark; P4 dark; P5 dark. P1 outer foothold hatched. Observation islands: response lit, correction dark, configuration dark, weights dark. P6 is only an unnamed dark hint. Dark means no available support, not false. Contours remain fixed across fixtures. Design sample, not adopted. Fog has a soft irregular edge; unexplored ground is opaque, ground that lost support stays dimly visible." width="960" height="640" loading="lazy"></a><figcaption><strong>W2 · Line of sight</strong><p>010 · with P6 hint · 27 June responders</p><details><summary>Exact fixture states</summary><pre>{
+  &quot;P1&quot;: &quot;hatched&quot;,
+  &quot;P2&quot;: &quot;dark&quot;,
+  &quot;P3&quot;: &quot;dark&quot;,
+  &quot;P4&quot;: &quot;dark&quot;,
+  &quot;P5&quot;: &quot;dark&quot;,
+  &quot;P6&quot;: &quot;dark&quot;,
+  &quot;p1_foothold&quot;: &quot;hatched&quot;,
+  &quot;observations&quot;: {
+    &quot;response&quot;: &quot;lit&quot;,
+    &quot;correction&quot;: &quot;dark&quot;,
+    &quot;configuration&quot;: &quot;dark&quot;,
+    &quot;weights&quot;: &quot;dark&quot;
+  },
+  &quot;p6_presence&quot;: &quot;hint&quot;
+}</pre></details></figcaption></figure><figure class="km-card" id="sample-w3-010-responders-hint" data-km-fog="w3-010-responders-hint" data-family="w3" data-fixture="010-hint" data-viewpoint="responders"><a href="../../assets/knowledge-maps/fog-v1/w3-010-responders-hint.svg"><img src="../../assets/knowledge-maps/fog-v1/w3-010-responders-hint.svg" alt="Fog of war, Patchy contest: 010 / Before the boundary is named, 27 June responders. Schematic drawn claim terrain; P1 hatched; P2 dark; P3 dark; P4 dark; P5 dark. P1 outer foothold hatched. Observation islands: response lit, correction dark, configuration dark, weights dark. P6 is only an unnamed dark hint. Dark means no available support, not false. Contours remain fixed across fixtures. Design sample, not adopted. Fog has a soft irregular edge; unexplored ground is opaque, ground that lost support stays dimly visible." width="960" height="640" loading="lazy"></a><figcaption><strong>W3 · Patchy contest</strong><p>010 · with P6 hint · 27 June responders</p><details><summary>Exact fixture states</summary><pre>{
+  &quot;P1&quot;: &quot;hatched&quot;,
+  &quot;P2&quot;: &quot;dark&quot;,
+  &quot;P3&quot;: &quot;dark&quot;,
+  &quot;P4&quot;: &quot;dark&quot;,
+  &quot;P5&quot;: &quot;dark&quot;,
+  &quot;P6&quot;: &quot;dark&quot;,
+  &quot;p1_foothold&quot;: &quot;hatched&quot;,
+  &quot;observations&quot;: {
+    &quot;response&quot;: &quot;lit&quot;,
+    &quot;correction&quot;: &quot;dark&quot;,
+    &quot;configuration&quot;: &quot;dark&quot;,
+    &quot;weights&quot;: &quot;dark&quot;
+  },
+  &quot;p6_presence&quot;: &quot;hint&quot;
+}</pre></details></figcaption></figure></div></section><section class="km-section" id="fog-010-no-p6-reader"><h3>010 · without P6 hint · Reader</h3><div class="km-grid km-grid--three"><figure class="km-card" id="sample-w1-010-reader-no-p6" data-km-fog="w1-010-reader-no-p6" data-family="w1" data-fixture="010-no-p6" data-viewpoint="reader"><a href="../../assets/knowledge-maps/fog-v1/w1-010-reader-no-p6.svg"><img src="../../assets/knowledge-maps/fog-v1/w1-010-reader-no-p6.svg" alt="Fog of war, Ragged regions: 010 / No early hint control, Reader. Schematic drawn claim terrain; P1 hatched; P2 dark; P3 dark; P4 dark; P5 hatched. P1 outer foothold hatched. Observation islands: response dark, correction hatched, configuration dark, weights dark. P6 has no visual presence in this control; its underlying state is still dark. Dark means no available support, not false. Contours remain fixed across fixtures. Design sample, not adopted. Fog has a soft irregular edge; unexplored ground is opaque, ground that lost support stays dimly visible." width="960" height="640" loading="lazy"></a><figcaption><strong>W1 · Ragged regions</strong><p>010 · without P6 hint · Reader</p><details><summary>Exact fixture states</summary><pre>{
+  &quot;P1&quot;: &quot;hatched&quot;,
+  &quot;P2&quot;: &quot;dark&quot;,
+  &quot;P3&quot;: &quot;dark&quot;,
+  &quot;P4&quot;: &quot;dark&quot;,
+  &quot;P5&quot;: &quot;hatched&quot;,
+  &quot;P6&quot;: &quot;dark&quot;,
+  &quot;p1_foothold&quot;: &quot;hatched&quot;,
+  &quot;observations&quot;: {
+    &quot;response&quot;: &quot;dark&quot;,
+    &quot;correction&quot;: &quot;hatched&quot;,
+    &quot;configuration&quot;: &quot;dark&quot;,
+    &quot;weights&quot;: &quot;dark&quot;
+  },
+  &quot;p6_presence&quot;: &quot;hidden&quot;
+}</pre></details></figcaption></figure><figure class="km-card" id="sample-w2-010-reader-no-p6" data-km-fog="w2-010-reader-no-p6" data-family="w2" data-fixture="010-no-p6" data-viewpoint="reader"><a href="../../assets/knowledge-maps/fog-v1/w2-010-reader-no-p6.svg"><img src="../../assets/knowledge-maps/fog-v1/w2-010-reader-no-p6.svg" alt="Fog of war, Line of sight: 010 / No early hint control, Reader. Schematic drawn claim terrain; P1 hatched; P2 dark; P3 dark; P4 dark; P5 hatched. P1 outer foothold hatched. Observation islands: response dark, correction hatched, configuration dark, weights dark. P6 has no visual presence in this control; its underlying state is still dark. Dark means no available support, not false. Contours remain fixed across fixtures. Design sample, not adopted. Fog has a soft irregular edge; unexplored ground is opaque, ground that lost support stays dimly visible." width="960" height="640" loading="lazy"></a><figcaption><strong>W2 · Line of sight</strong><p>010 · without P6 hint · Reader</p><details><summary>Exact fixture states</summary><pre>{
+  &quot;P1&quot;: &quot;hatched&quot;,
+  &quot;P2&quot;: &quot;dark&quot;,
+  &quot;P3&quot;: &quot;dark&quot;,
+  &quot;P4&quot;: &quot;dark&quot;,
+  &quot;P5&quot;: &quot;hatched&quot;,
+  &quot;P6&quot;: &quot;dark&quot;,
+  &quot;p1_foothold&quot;: &quot;hatched&quot;,
+  &quot;observations&quot;: {
+    &quot;response&quot;: &quot;dark&quot;,
+    &quot;correction&quot;: &quot;hatched&quot;,
+    &quot;configuration&quot;: &quot;dark&quot;,
+    &quot;weights&quot;: &quot;dark&quot;
+  },
+  &quot;p6_presence&quot;: &quot;hidden&quot;
+}</pre></details></figcaption></figure><figure class="km-card" id="sample-w3-010-reader-no-p6" data-km-fog="w3-010-reader-no-p6" data-family="w3" data-fixture="010-no-p6" data-viewpoint="reader"><a href="../../assets/knowledge-maps/fog-v1/w3-010-reader-no-p6.svg"><img src="../../assets/knowledge-maps/fog-v1/w3-010-reader-no-p6.svg" alt="Fog of war, Patchy contest: 010 / No early hint control, Reader. Schematic drawn claim terrain; P1 hatched; P2 dark; P3 dark; P4 dark; P5 hatched. P1 outer foothold hatched. Observation islands: response dark, correction hatched, configuration dark, weights dark. P6 has no visual presence in this control; its underlying state is still dark. Dark means no available support, not false. Contours remain fixed across fixtures. Design sample, not adopted. Fog has a soft irregular edge; unexplored ground is opaque, ground that lost support stays dimly visible." width="960" height="640" loading="lazy"></a><figcaption><strong>W3 · Patchy contest</strong><p>010 · without P6 hint · Reader</p><details><summary>Exact fixture states</summary><pre>{
+  &quot;P1&quot;: &quot;hatched&quot;,
+  &quot;P2&quot;: &quot;dark&quot;,
+  &quot;P3&quot;: &quot;dark&quot;,
+  &quot;P4&quot;: &quot;dark&quot;,
+  &quot;P5&quot;: &quot;hatched&quot;,
+  &quot;P6&quot;: &quot;dark&quot;,
+  &quot;p1_foothold&quot;: &quot;hatched&quot;,
+  &quot;observations&quot;: {
+    &quot;response&quot;: &quot;dark&quot;,
+    &quot;correction&quot;: &quot;hatched&quot;,
+    &quot;configuration&quot;: &quot;dark&quot;,
+    &quot;weights&quot;: &quot;dark&quot;
+  },
+  &quot;p6_presence&quot;: &quot;hidden&quot;
+}</pre></details></figcaption></figure></div></section><section class="km-section" id="fog-010-no-p6-responders"><h3>010 · without P6 hint · 27 June responders</h3><div class="km-grid km-grid--three"><figure class="km-card" id="sample-w1-010-responders-no-p6" data-km-fog="w1-010-responders-no-p6" data-family="w1" data-fixture="010-no-p6" data-viewpoint="responders"><a href="../../assets/knowledge-maps/fog-v1/w1-010-responders-no-p6.svg"><img src="../../assets/knowledge-maps/fog-v1/w1-010-responders-no-p6.svg" alt="Fog of war, Ragged regions: 010 / No early hint control, 27 June responders. Schematic drawn claim terrain; P1 hatched; P2 dark; P3 dark; P4 dark; P5 dark. P1 outer foothold hatched. Observation islands: response lit, correction dark, configuration dark, weights dark. P6 has no visual presence in this control; its underlying state is still dark. Dark means no available support, not false. Contours remain fixed across fixtures. Design sample, not adopted. Fog has a soft irregular edge; unexplored ground is opaque, ground that lost support stays dimly visible." width="960" height="640" loading="lazy"></a><figcaption><strong>W1 · Ragged regions</strong><p>010 · without P6 hint · 27 June responders</p><details><summary>Exact fixture states</summary><pre>{
+  &quot;P1&quot;: &quot;hatched&quot;,
+  &quot;P2&quot;: &quot;dark&quot;,
+  &quot;P3&quot;: &quot;dark&quot;,
+  &quot;P4&quot;: &quot;dark&quot;,
+  &quot;P5&quot;: &quot;dark&quot;,
+  &quot;P6&quot;: &quot;dark&quot;,
+  &quot;p1_foothold&quot;: &quot;hatched&quot;,
+  &quot;observations&quot;: {
+    &quot;response&quot;: &quot;lit&quot;,
+    &quot;correction&quot;: &quot;dark&quot;,
+    &quot;configuration&quot;: &quot;dark&quot;,
+    &quot;weights&quot;: &quot;dark&quot;
+  },
+  &quot;p6_presence&quot;: &quot;hidden&quot;
+}</pre></details></figcaption></figure><figure class="km-card" id="sample-w2-010-responders-no-p6" data-km-fog="w2-010-responders-no-p6" data-family="w2" data-fixture="010-no-p6" data-viewpoint="responders"><a href="../../assets/knowledge-maps/fog-v1/w2-010-responders-no-p6.svg"><img src="../../assets/knowledge-maps/fog-v1/w2-010-responders-no-p6.svg" alt="Fog of war, Line of sight: 010 / No early hint control, 27 June responders. Schematic drawn claim terrain; P1 hatched; P2 dark; P3 dark; P4 dark; P5 dark. P1 outer foothold hatched. Observation islands: response lit, correction dark, configuration dark, weights dark. P6 has no visual presence in this control; its underlying state is still dark. Dark means no available support, not false. Contours remain fixed across fixtures. Design sample, not adopted. Fog has a soft irregular edge; unexplored ground is opaque, ground that lost support stays dimly visible." width="960" height="640" loading="lazy"></a><figcaption><strong>W2 · Line of sight</strong><p>010 · without P6 hint · 27 June responders</p><details><summary>Exact fixture states</summary><pre>{
+  &quot;P1&quot;: &quot;hatched&quot;,
+  &quot;P2&quot;: &quot;dark&quot;,
+  &quot;P3&quot;: &quot;dark&quot;,
+  &quot;P4&quot;: &quot;dark&quot;,
+  &quot;P5&quot;: &quot;dark&quot;,
+  &quot;P6&quot;: &quot;dark&quot;,
+  &quot;p1_foothold&quot;: &quot;hatched&quot;,
+  &quot;observations&quot;: {
+    &quot;response&quot;: &quot;lit&quot;,
+    &quot;correction&quot;: &quot;dark&quot;,
+    &quot;configuration&quot;: &quot;dark&quot;,
+    &quot;weights&quot;: &quot;dark&quot;
+  },
+  &quot;p6_presence&quot;: &quot;hidden&quot;
+}</pre></details></figcaption></figure><figure class="km-card" id="sample-w3-010-responders-no-p6" data-km-fog="w3-010-responders-no-p6" data-family="w3" data-fixture="010-no-p6" data-viewpoint="responders"><a href="../../assets/knowledge-maps/fog-v1/w3-010-responders-no-p6.svg"><img src="../../assets/knowledge-maps/fog-v1/w3-010-responders-no-p6.svg" alt="Fog of war, Patchy contest: 010 / No early hint control, 27 June responders. Schematic drawn claim terrain; P1 hatched; P2 dark; P3 dark; P4 dark; P5 dark. P1 outer foothold hatched. Observation islands: response lit, correction dark, configuration dark, weights dark. P6 has no visual presence in this control; its underlying state is still dark. Dark means no available support, not false. Contours remain fixed across fixtures. Design sample, not adopted. Fog has a soft irregular edge; unexplored ground is opaque, ground that lost support stays dimly visible." width="960" height="640" loading="lazy"></a><figcaption><strong>W3 · Patchy contest</strong><p>010 · without P6 hint · 27 June responders</p><details><summary>Exact fixture states</summary><pre>{
+  &quot;P1&quot;: &quot;hatched&quot;,
+  &quot;P2&quot;: &quot;dark&quot;,
+  &quot;P3&quot;: &quot;dark&quot;,
+  &quot;P4&quot;: &quot;dark&quot;,
+  &quot;P5&quot;: &quot;dark&quot;,
+  &quot;P6&quot;: &quot;dark&quot;,
+  &quot;p1_foothold&quot;: &quot;hatched&quot;,
+  &quot;observations&quot;: {
+    &quot;response&quot;: &quot;lit&quot;,
+    &quot;correction&quot;: &quot;dark&quot;,
+    &quot;configuration&quot;: &quot;dark&quot;,
+    &quot;weights&quot;: &quot;dark&quot;
+  },
+  &quot;p6_presence&quot;: &quot;hidden&quot;
+}</pre></details></figcaption></figure></div></section><section class="km-section" id="fog-016-reader"><h3>016 · observation boundary · Reader</h3><div class="km-grid km-grid--three"><figure class="km-card" id="sample-w1-016-reader" data-km-fog="w1-016-reader" data-family="w1" data-fixture="016" data-viewpoint="reader"><a href="../../assets/knowledge-maps/fog-v1/w1-016-reader.svg"><img src="../../assets/knowledge-maps/fog-v1/w1-016-reader.svg" alt="Fog of war, Ragged regions: 016 / The unreachable field, Reader. Schematic drawn claim terrain; P1 hatched; P2 dark; P3 dark; P4 dark; P5 hatched. P1 outer foothold hatched. Observation islands: response dark, correction hatched, configuration hatched, weights dark. P6 remains dark and unreachable. Dark means no available support, not false. Contours remain fixed across fixtures. Design sample, not adopted. Fog has a soft irregular edge; unexplored ground is opaque, ground that lost support stays dimly visible." width="960" height="640" loading="lazy"></a><figcaption><strong>W1 · Ragged regions</strong><p>016 · observation boundary · Reader</p><details><summary>Exact fixture states</summary><pre>{
+  &quot;P1&quot;: &quot;hatched&quot;,
+  &quot;P2&quot;: &quot;dark&quot;,
+  &quot;P3&quot;: &quot;dark&quot;,
+  &quot;P4&quot;: &quot;dark&quot;,
+  &quot;P5&quot;: &quot;hatched&quot;,
+  &quot;P6&quot;: &quot;dark&quot;,
+  &quot;p1_foothold&quot;: &quot;hatched&quot;,
+  &quot;observations&quot;: {
+    &quot;response&quot;: &quot;dark&quot;,
+    &quot;correction&quot;: &quot;hatched&quot;,
+    &quot;configuration&quot;: &quot;hatched&quot;,
+    &quot;weights&quot;: &quot;dark&quot;
+  },
+  &quot;p6_presence&quot;: &quot;acknowledged&quot;
+}</pre></details></figcaption></figure><figure class="km-card" id="sample-w2-016-reader" data-km-fog="w2-016-reader" data-family="w2" data-fixture="016" data-viewpoint="reader"><a href="../../assets/knowledge-maps/fog-v1/w2-016-reader.svg"><img src="../../assets/knowledge-maps/fog-v1/w2-016-reader.svg" alt="Fog of war, Line of sight: 016 / The unreachable field, Reader. Schematic drawn claim terrain; P1 hatched; P2 dark; P3 dark; P4 dark; P5 hatched. P1 outer foothold hatched. Observation islands: response dark, correction hatched, configuration hatched, weights dark. P6 remains dark and unreachable. Dark means no available support, not false. Contours remain fixed across fixtures. Design sample, not adopted. Fog has a soft irregular edge; unexplored ground is opaque, ground that lost support stays dimly visible." width="960" height="640" loading="lazy"></a><figcaption><strong>W2 · Line of sight</strong><p>016 · observation boundary · Reader</p><details><summary>Exact fixture states</summary><pre>{
+  &quot;P1&quot;: &quot;hatched&quot;,
+  &quot;P2&quot;: &quot;dark&quot;,
+  &quot;P3&quot;: &quot;dark&quot;,
+  &quot;P4&quot;: &quot;dark&quot;,
+  &quot;P5&quot;: &quot;hatched&quot;,
+  &quot;P6&quot;: &quot;dark&quot;,
+  &quot;p1_foothold&quot;: &quot;hatched&quot;,
+  &quot;observations&quot;: {
+    &quot;response&quot;: &quot;dark&quot;,
+    &quot;correction&quot;: &quot;hatched&quot;,
+    &quot;configuration&quot;: &quot;hatched&quot;,
+    &quot;weights&quot;: &quot;dark&quot;
+  },
+  &quot;p6_presence&quot;: &quot;acknowledged&quot;
+}</pre></details></figcaption></figure><figure class="km-card" id="sample-w3-016-reader" data-km-fog="w3-016-reader" data-family="w3" data-fixture="016" data-viewpoint="reader"><a href="../../assets/knowledge-maps/fog-v1/w3-016-reader.svg"><img src="../../assets/knowledge-maps/fog-v1/w3-016-reader.svg" alt="Fog of war, Patchy contest: 016 / The unreachable field, Reader. Schematic drawn claim terrain; P1 hatched; P2 dark; P3 dark; P4 dark; P5 hatched. P1 outer foothold hatched. Observation islands: response dark, correction hatched, configuration hatched, weights dark. P6 remains dark and unreachable. Dark means no available support, not false. Contours remain fixed across fixtures. Design sample, not adopted. Fog has a soft irregular edge; unexplored ground is opaque, ground that lost support stays dimly visible." width="960" height="640" loading="lazy"></a><figcaption><strong>W3 · Patchy contest</strong><p>016 · observation boundary · Reader</p><details><summary>Exact fixture states</summary><pre>{
+  &quot;P1&quot;: &quot;hatched&quot;,
+  &quot;P2&quot;: &quot;dark&quot;,
+  &quot;P3&quot;: &quot;dark&quot;,
+  &quot;P4&quot;: &quot;dark&quot;,
+  &quot;P5&quot;: &quot;hatched&quot;,
+  &quot;P6&quot;: &quot;dark&quot;,
+  &quot;p1_foothold&quot;: &quot;hatched&quot;,
+  &quot;observations&quot;: {
+    &quot;response&quot;: &quot;dark&quot;,
+    &quot;correction&quot;: &quot;hatched&quot;,
+    &quot;configuration&quot;: &quot;hatched&quot;,
+    &quot;weights&quot;: &quot;dark&quot;
+  },
+  &quot;p6_presence&quot;: &quot;acknowledged&quot;
+}</pre></details></figcaption></figure></div></section><section class="km-section" id="fog-016-responders"><h3>016 · observation boundary · 27 June responders</h3><div class="km-grid km-grid--three"><figure class="km-card" id="sample-w1-016-responders" data-km-fog="w1-016-responders" data-family="w1" data-fixture="016" data-viewpoint="responders"><a href="../../assets/knowledge-maps/fog-v1/w1-016-responders.svg"><img src="../../assets/knowledge-maps/fog-v1/w1-016-responders.svg" alt="Fog of war, Ragged regions: 016 / The unreachable field, 27 June responders. Schematic drawn claim terrain; P1 hatched; P2 dark; P3 dark; P4 dark; P5 dark. P1 outer foothold hatched. Observation islands: response lit, correction dark, configuration dark, weights dark. P6 remains dark and unreachable. Dark means no available support, not false. Contours remain fixed across fixtures. Design sample, not adopted. Fog has a soft irregular edge; unexplored ground is opaque, ground that lost support stays dimly visible." width="960" height="640" loading="lazy"></a><figcaption><strong>W1 · Ragged regions</strong><p>016 · observation boundary · 27 June responders</p><details><summary>Exact fixture states</summary><pre>{
+  &quot;P1&quot;: &quot;hatched&quot;,
+  &quot;P2&quot;: &quot;dark&quot;,
+  &quot;P3&quot;: &quot;dark&quot;,
+  &quot;P4&quot;: &quot;dark&quot;,
+  &quot;P5&quot;: &quot;dark&quot;,
+  &quot;P6&quot;: &quot;dark&quot;,
+  &quot;p1_foothold&quot;: &quot;hatched&quot;,
+  &quot;observations&quot;: {
+    &quot;response&quot;: &quot;lit&quot;,
+    &quot;correction&quot;: &quot;dark&quot;,
+    &quot;configuration&quot;: &quot;dark&quot;,
+    &quot;weights&quot;: &quot;dark&quot;
+  },
+  &quot;p6_presence&quot;: &quot;acknowledged&quot;
+}</pre></details></figcaption></figure><figure class="km-card" id="sample-w2-016-responders" data-km-fog="w2-016-responders" data-family="w2" data-fixture="016" data-viewpoint="responders"><a href="../../assets/knowledge-maps/fog-v1/w2-016-responders.svg"><img src="../../assets/knowledge-maps/fog-v1/w2-016-responders.svg" alt="Fog of war, Line of sight: 016 / The unreachable field, 27 June responders. Schematic drawn claim terrain; P1 hatched; P2 dark; P3 dark; P4 dark; P5 dark. P1 outer foothold hatched. Observation islands: response lit, correction dark, configuration dark, weights dark. P6 remains dark and unreachable. Dark means no available support, not false. Contours remain fixed across fixtures. Design sample, not adopted. Fog has a soft irregular edge; unexplored ground is opaque, ground that lost support stays dimly visible." width="960" height="640" loading="lazy"></a><figcaption><strong>W2 · Line of sight</strong><p>016 · observation boundary · 27 June responders</p><details><summary>Exact fixture states</summary><pre>{
+  &quot;P1&quot;: &quot;hatched&quot;,
+  &quot;P2&quot;: &quot;dark&quot;,
+  &quot;P3&quot;: &quot;dark&quot;,
+  &quot;P4&quot;: &quot;dark&quot;,
+  &quot;P5&quot;: &quot;dark&quot;,
+  &quot;P6&quot;: &quot;dark&quot;,
+  &quot;p1_foothold&quot;: &quot;hatched&quot;,
+  &quot;observations&quot;: {
+    &quot;response&quot;: &quot;lit&quot;,
+    &quot;correction&quot;: &quot;dark&quot;,
+    &quot;configuration&quot;: &quot;dark&quot;,
+    &quot;weights&quot;: &quot;dark&quot;
+  },
+  &quot;p6_presence&quot;: &quot;acknowledged&quot;
+}</pre></details></figcaption></figure><figure class="km-card" id="sample-w3-016-responders" data-km-fog="w3-016-responders" data-family="w3" data-fixture="016" data-viewpoint="responders"><a href="../../assets/knowledge-maps/fog-v1/w3-016-responders.svg"><img src="../../assets/knowledge-maps/fog-v1/w3-016-responders.svg" alt="Fog of war, Patchy contest: 016 / The unreachable field, 27 June responders. Schematic drawn claim terrain; P1 hatched; P2 dark; P3 dark; P4 dark; P5 dark. P1 outer foothold hatched. Observation islands: response lit, correction dark, configuration dark, weights dark. P6 remains dark and unreachable. Dark means no available support, not false. Contours remain fixed across fixtures. Design sample, not adopted. Fog has a soft irregular edge; unexplored ground is opaque, ground that lost support stays dimly visible." width="960" height="640" loading="lazy"></a><figcaption><strong>W3 · Patchy contest</strong><p>016 · observation boundary · 27 June responders</p><details><summary>Exact fixture states</summary><pre>{
+  &quot;P1&quot;: &quot;hatched&quot;,
+  &quot;P2&quot;: &quot;dark&quot;,
+  &quot;P3&quot;: &quot;dark&quot;,
+  &quot;P4&quot;: &quot;dark&quot;,
+  &quot;P5&quot;: &quot;dark&quot;,
+  &quot;P6&quot;: &quot;dark&quot;,
+  &quot;p1_foothold&quot;: &quot;hatched&quot;,
+  &quot;observations&quot;: {
+    &quot;response&quot;: &quot;lit&quot;,
+    &quot;correction&quot;: &quot;dark&quot;,
+    &quot;configuration&quot;: &quot;dark&quot;,
+    &quot;weights&quot;: &quot;dark&quot;
+  },
+  &quot;p6_presence&quot;: &quot;acknowledged&quot;
+}</pre></details></figcaption></figure></div></section><section class="km-section" id="fog-039-before-reader"><h3>039 · before the reveal · Reader</h3><div class="km-grid km-grid--three"><figure class="km-card" id="sample-w1-039-before-reader" data-km-fog="w1-039-before-reader" data-family="w1" data-fixture="039-before" data-viewpoint="reader"><a href="../../assets/knowledge-maps/fog-v1/w1-039-before-reader.svg"><img src="../../assets/knowledge-maps/fog-v1/w1-039-before-reader.svg" alt="Fog of war, Ragged regions: 039 / Before the weights reveal, Reader. Schematic drawn claim terrain; P1 hatched; P2 hatched; P3 dark; P4 dark; P5 hatched. P1 outer foothold hatched. Observation islands: response hatched, correction hatched, configuration hatched, weights dark. P6 remains dark and unreachable. Dark means no available support, not false. Contours remain fixed across fixtures. Design sample, not adopted. Fog has a soft irregular edge; unexplored ground is opaque, ground that lost support stays dimly visible." width="960" height="640" loading="lazy"></a><figcaption><strong>W1 · Ragged regions</strong><p>039 · before the reveal · Reader</p><details><summary>Exact fixture states</summary><pre>{
+  &quot;P1&quot;: &quot;hatched&quot;,
+  &quot;P2&quot;: &quot;hatched&quot;,
+  &quot;P3&quot;: &quot;dark&quot;,
+  &quot;P4&quot;: &quot;dark&quot;,
+  &quot;P5&quot;: &quot;hatched&quot;,
+  &quot;P6&quot;: &quot;dark&quot;,
+  &quot;p1_foothold&quot;: &quot;hatched&quot;,
+  &quot;observations&quot;: {
+    &quot;response&quot;: &quot;hatched&quot;,
+    &quot;correction&quot;: &quot;hatched&quot;,
+    &quot;configuration&quot;: &quot;hatched&quot;,
+    &quot;weights&quot;: &quot;dark&quot;
+  },
+  &quot;p6_presence&quot;: &quot;acknowledged&quot;
+}</pre></details></figcaption></figure><figure class="km-card" id="sample-w2-039-before-reader" data-km-fog="w2-039-before-reader" data-family="w2" data-fixture="039-before" data-viewpoint="reader"><a href="../../assets/knowledge-maps/fog-v1/w2-039-before-reader.svg"><img src="../../assets/knowledge-maps/fog-v1/w2-039-before-reader.svg" alt="Fog of war, Line of sight: 039 / Before the weights reveal, Reader. Schematic drawn claim terrain; P1 hatched; P2 hatched; P3 dark; P4 dark; P5 hatched. P1 outer foothold hatched. Observation islands: response hatched, correction hatched, configuration hatched, weights dark. P6 remains dark and unreachable. Dark means no available support, not false. Contours remain fixed across fixtures. Design sample, not adopted. Fog has a soft irregular edge; unexplored ground is opaque, ground that lost support stays dimly visible." width="960" height="640" loading="lazy"></a><figcaption><strong>W2 · Line of sight</strong><p>039 · before the reveal · Reader</p><details><summary>Exact fixture states</summary><pre>{
+  &quot;P1&quot;: &quot;hatched&quot;,
+  &quot;P2&quot;: &quot;hatched&quot;,
+  &quot;P3&quot;: &quot;dark&quot;,
+  &quot;P4&quot;: &quot;dark&quot;,
+  &quot;P5&quot;: &quot;hatched&quot;,
+  &quot;P6&quot;: &quot;dark&quot;,
+  &quot;p1_foothold&quot;: &quot;hatched&quot;,
+  &quot;observations&quot;: {
+    &quot;response&quot;: &quot;hatched&quot;,
+    &quot;correction&quot;: &quot;hatched&quot;,
+    &quot;configuration&quot;: &quot;hatched&quot;,
+    &quot;weights&quot;: &quot;dark&quot;
+  },
+  &quot;p6_presence&quot;: &quot;acknowledged&quot;
+}</pre></details></figcaption></figure><figure class="km-card" id="sample-w3-039-before-reader" data-km-fog="w3-039-before-reader" data-family="w3" data-fixture="039-before" data-viewpoint="reader"><a href="../../assets/knowledge-maps/fog-v1/w3-039-before-reader.svg"><img src="../../assets/knowledge-maps/fog-v1/w3-039-before-reader.svg" alt="Fog of war, Patchy contest: 039 / Before the weights reveal, Reader. Schematic drawn claim terrain; P1 hatched; P2 hatched; P3 dark; P4 dark; P5 hatched. P1 outer foothold hatched. Observation islands: response hatched, correction hatched, configuration hatched, weights dark. P6 remains dark and unreachable. Dark means no available support, not false. Contours remain fixed across fixtures. Design sample, not adopted. Fog has a soft irregular edge; unexplored ground is opaque, ground that lost support stays dimly visible." width="960" height="640" loading="lazy"></a><figcaption><strong>W3 · Patchy contest</strong><p>039 · before the reveal · Reader</p><details><summary>Exact fixture states</summary><pre>{
+  &quot;P1&quot;: &quot;hatched&quot;,
+  &quot;P2&quot;: &quot;hatched&quot;,
+  &quot;P3&quot;: &quot;dark&quot;,
+  &quot;P4&quot;: &quot;dark&quot;,
+  &quot;P5&quot;: &quot;hatched&quot;,
+  &quot;P6&quot;: &quot;dark&quot;,
+  &quot;p1_foothold&quot;: &quot;hatched&quot;,
+  &quot;observations&quot;: {
+    &quot;response&quot;: &quot;hatched&quot;,
+    &quot;correction&quot;: &quot;hatched&quot;,
+    &quot;configuration&quot;: &quot;hatched&quot;,
+    &quot;weights&quot;: &quot;dark&quot;
+  },
+  &quot;p6_presence&quot;: &quot;acknowledged&quot;
+}</pre></details></figcaption></figure></div></section><section class="km-section" id="fog-039-before-responders"><h3>039 · before the reveal · 27 June responders</h3><div class="km-grid km-grid--three"><figure class="km-card" id="sample-w1-039-before-responders" data-km-fog="w1-039-before-responders" data-family="w1" data-fixture="039-before" data-viewpoint="responders"><a href="../../assets/knowledge-maps/fog-v1/w1-039-before-responders.svg"><img src="../../assets/knowledge-maps/fog-v1/w1-039-before-responders.svg" alt="Fog of war, Ragged regions: 039 / Before the weights reveal, 27 June responders. Schematic drawn claim terrain; P1 hatched; P2 dark; P3 dark; P4 dark; P5 dark. P1 outer foothold hatched. Observation islands: response lit, correction dark, configuration dark, weights dark. P6 remains dark and unreachable. Dark means no available support, not false. Contours remain fixed across fixtures. Design sample, not adopted. Fog has a soft irregular edge; unexplored ground is opaque, ground that lost support stays dimly visible." width="960" height="640" loading="lazy"></a><figcaption><strong>W1 · Ragged regions</strong><p>039 · before the reveal · 27 June responders</p><details><summary>Exact fixture states</summary><pre>{
+  &quot;P1&quot;: &quot;hatched&quot;,
+  &quot;P2&quot;: &quot;dark&quot;,
+  &quot;P3&quot;: &quot;dark&quot;,
+  &quot;P4&quot;: &quot;dark&quot;,
+  &quot;P5&quot;: &quot;dark&quot;,
+  &quot;P6&quot;: &quot;dark&quot;,
+  &quot;p1_foothold&quot;: &quot;hatched&quot;,
+  &quot;observations&quot;: {
+    &quot;response&quot;: &quot;lit&quot;,
+    &quot;correction&quot;: &quot;dark&quot;,
+    &quot;configuration&quot;: &quot;dark&quot;,
+    &quot;weights&quot;: &quot;dark&quot;
+  },
+  &quot;p6_presence&quot;: &quot;acknowledged&quot;
+}</pre></details></figcaption></figure><figure class="km-card" id="sample-w2-039-before-responders" data-km-fog="w2-039-before-responders" data-family="w2" data-fixture="039-before" data-viewpoint="responders"><a href="../../assets/knowledge-maps/fog-v1/w2-039-before-responders.svg"><img src="../../assets/knowledge-maps/fog-v1/w2-039-before-responders.svg" alt="Fog of war, Line of sight: 039 / Before the weights reveal, 27 June responders. Schematic drawn claim terrain; P1 hatched; P2 dark; P3 dark; P4 dark; P5 dark. P1 outer foothold hatched. Observation islands: response lit, correction dark, configuration dark, weights dark. P6 remains dark and unreachable. Dark means no available support, not false. Contours remain fixed across fixtures. Design sample, not adopted. Fog has a soft irregular edge; unexplored ground is opaque, ground that lost support stays dimly visible." width="960" height="640" loading="lazy"></a><figcaption><strong>W2 · Line of sight</strong><p>039 · before the reveal · 27 June responders</p><details><summary>Exact fixture states</summary><pre>{
+  &quot;P1&quot;: &quot;hatched&quot;,
+  &quot;P2&quot;: &quot;dark&quot;,
+  &quot;P3&quot;: &quot;dark&quot;,
+  &quot;P4&quot;: &quot;dark&quot;,
+  &quot;P5&quot;: &quot;dark&quot;,
+  &quot;P6&quot;: &quot;dark&quot;,
+  &quot;p1_foothold&quot;: &quot;hatched&quot;,
+  &quot;observations&quot;: {
+    &quot;response&quot;: &quot;lit&quot;,
+    &quot;correction&quot;: &quot;dark&quot;,
+    &quot;configuration&quot;: &quot;dark&quot;,
+    &quot;weights&quot;: &quot;dark&quot;
+  },
+  &quot;p6_presence&quot;: &quot;acknowledged&quot;
+}</pre></details></figcaption></figure><figure class="km-card" id="sample-w3-039-before-responders" data-km-fog="w3-039-before-responders" data-family="w3" data-fixture="039-before" data-viewpoint="responders"><a href="../../assets/knowledge-maps/fog-v1/w3-039-before-responders.svg"><img src="../../assets/knowledge-maps/fog-v1/w3-039-before-responders.svg" alt="Fog of war, Patchy contest: 039 / Before the weights reveal, 27 June responders. Schematic drawn claim terrain; P1 hatched; P2 dark; P3 dark; P4 dark; P5 dark. P1 outer foothold hatched. Observation islands: response lit, correction dark, configuration dark, weights dark. P6 remains dark and unreachable. Dark means no available support, not false. Contours remain fixed across fixtures. Design sample, not adopted. Fog has a soft irregular edge; unexplored ground is opaque, ground that lost support stays dimly visible." width="960" height="640" loading="lazy"></a><figcaption><strong>W3 · Patchy contest</strong><p>039 · before the reveal · 27 June responders</p><details><summary>Exact fixture states</summary><pre>{
+  &quot;P1&quot;: &quot;hatched&quot;,
+  &quot;P2&quot;: &quot;dark&quot;,
+  &quot;P3&quot;: &quot;dark&quot;,
+  &quot;P4&quot;: &quot;dark&quot;,
+  &quot;P5&quot;: &quot;dark&quot;,
+  &quot;P6&quot;: &quot;dark&quot;,
+  &quot;p1_foothold&quot;: &quot;hatched&quot;,
+  &quot;observations&quot;: {
+    &quot;response&quot;: &quot;lit&quot;,
+    &quot;correction&quot;: &quot;dark&quot;,
+    &quot;configuration&quot;: &quot;dark&quot;,
+    &quot;weights&quot;: &quot;dark&quot;
+  },
+  &quot;p6_presence&quot;: &quot;acknowledged&quot;
+}</pre></details></figcaption></figure></div></section><section class="km-section" id="fog-039-after-reader"><h3>039 · after the reveal · Reader</h3><div class="km-grid km-grid--three"><figure class="km-card" id="sample-w1-039-after-reader" data-km-fog="w1-039-after-reader" data-family="w1" data-fixture="039-after" data-viewpoint="reader"><a href="../../assets/knowledge-maps/fog-v1/w1-039-after-reader.svg"><img src="../../assets/knowledge-maps/fog-v1/w1-039-after-reader.svg" alt="Fog of war, Ragged regions: 039 / After the weights reveal, Reader. Schematic drawn claim terrain; P1 hatched; P2 dark; P3 dark; P4 dark; P5 hatched. P1 outer foothold dark. Observation islands: response hatched, correction hatched, configuration hatched, weights hatched. P6 remains dark and unreachable. Dark means no available support, not false. Contours remain fixed across fixtures. Design sample, not adopted. Fog has a soft irregular edge; unexplored ground is opaque, ground that lost support stays dimly visible." width="960" height="640" loading="lazy"></a><figcaption><strong>W1 · Ragged regions</strong><p>039 · after the reveal · Reader</p><details><summary>Exact fixture states</summary><pre>{
+  &quot;P1&quot;: &quot;hatched&quot;,
+  &quot;P2&quot;: &quot;dark&quot;,
+  &quot;P3&quot;: &quot;dark&quot;,
+  &quot;P4&quot;: &quot;dark&quot;,
+  &quot;P5&quot;: &quot;hatched&quot;,
+  &quot;P6&quot;: &quot;dark&quot;,
+  &quot;p1_foothold&quot;: &quot;dark&quot;,
+  &quot;observations&quot;: {
+    &quot;response&quot;: &quot;hatched&quot;,
+    &quot;correction&quot;: &quot;hatched&quot;,
+    &quot;configuration&quot;: &quot;hatched&quot;,
+    &quot;weights&quot;: &quot;hatched&quot;
+  },
+  &quot;p6_presence&quot;: &quot;acknowledged&quot;
+}</pre></details></figcaption></figure><figure class="km-card" id="sample-w2-039-after-reader" data-km-fog="w2-039-after-reader" data-family="w2" data-fixture="039-after" data-viewpoint="reader"><a href="../../assets/knowledge-maps/fog-v1/w2-039-after-reader.svg"><img src="../../assets/knowledge-maps/fog-v1/w2-039-after-reader.svg" alt="Fog of war, Line of sight: 039 / After the weights reveal, Reader. Schematic drawn claim terrain; P1 hatched; P2 dark; P3 dark; P4 dark; P5 hatched. P1 outer foothold dark. Observation islands: response hatched, correction hatched, configuration hatched, weights hatched. P6 remains dark and unreachable. Dark means no available support, not false. Contours remain fixed across fixtures. Design sample, not adopted. Fog has a soft irregular edge; unexplored ground is opaque, ground that lost support stays dimly visible." width="960" height="640" loading="lazy"></a><figcaption><strong>W2 · Line of sight</strong><p>039 · after the reveal · Reader</p><details><summary>Exact fixture states</summary><pre>{
+  &quot;P1&quot;: &quot;hatched&quot;,
+  &quot;P2&quot;: &quot;dark&quot;,
+  &quot;P3&quot;: &quot;dark&quot;,
+  &quot;P4&quot;: &quot;dark&quot;,
+  &quot;P5&quot;: &quot;hatched&quot;,
+  &quot;P6&quot;: &quot;dark&quot;,
+  &quot;p1_foothold&quot;: &quot;dark&quot;,
+  &quot;observations&quot;: {
+    &quot;response&quot;: &quot;hatched&quot;,
+    &quot;correction&quot;: &quot;hatched&quot;,
+    &quot;configuration&quot;: &quot;hatched&quot;,
+    &quot;weights&quot;: &quot;hatched&quot;
+  },
+  &quot;p6_presence&quot;: &quot;acknowledged&quot;
+}</pre></details></figcaption></figure><figure class="km-card" id="sample-w3-039-after-reader" data-km-fog="w3-039-after-reader" data-family="w3" data-fixture="039-after" data-viewpoint="reader"><a href="../../assets/knowledge-maps/fog-v1/w3-039-after-reader.svg"><img src="../../assets/knowledge-maps/fog-v1/w3-039-after-reader.svg" alt="Fog of war, Patchy contest: 039 / After the weights reveal, Reader. Schematic drawn claim terrain; P1 hatched; P2 dark; P3 dark; P4 dark; P5 hatched. P1 outer foothold dark. Observation islands: response hatched, correction hatched, configuration hatched, weights hatched. P6 remains dark and unreachable. Dark means no available support, not false. Contours remain fixed across fixtures. Design sample, not adopted. Fog has a soft irregular edge; unexplored ground is opaque, ground that lost support stays dimly visible." width="960" height="640" loading="lazy"></a><figcaption><strong>W3 · Patchy contest</strong><p>039 · after the reveal · Reader</p><details><summary>Exact fixture states</summary><pre>{
+  &quot;P1&quot;: &quot;hatched&quot;,
+  &quot;P2&quot;: &quot;dark&quot;,
+  &quot;P3&quot;: &quot;dark&quot;,
+  &quot;P4&quot;: &quot;dark&quot;,
+  &quot;P5&quot;: &quot;hatched&quot;,
+  &quot;P6&quot;: &quot;dark&quot;,
+  &quot;p1_foothold&quot;: &quot;dark&quot;,
+  &quot;observations&quot;: {
+    &quot;response&quot;: &quot;hatched&quot;,
+    &quot;correction&quot;: &quot;hatched&quot;,
+    &quot;configuration&quot;: &quot;hatched&quot;,
+    &quot;weights&quot;: &quot;hatched&quot;
+  },
+  &quot;p6_presence&quot;: &quot;acknowledged&quot;
+}</pre></details></figcaption></figure></div></section><section class="km-section" id="fog-039-after-responders"><h3>039 · after the reveal · 27 June responders</h3><div class="km-grid km-grid--three"><figure class="km-card" id="sample-w1-039-after-responders" data-km-fog="w1-039-after-responders" data-family="w1" data-fixture="039-after" data-viewpoint="responders"><a href="../../assets/knowledge-maps/fog-v1/w1-039-after-responders.svg"><img src="../../assets/knowledge-maps/fog-v1/w1-039-after-responders.svg" alt="Fog of war, Ragged regions: 039 / After the weights reveal, 27 June responders. Schematic drawn claim terrain; P1 hatched; P2 dark; P3 dark; P4 dark; P5 dark. P1 outer foothold hatched. Observation islands: response lit, correction dark, configuration dark, weights dark. P6 remains dark and unreachable. Dark means no available support, not false. Contours remain fixed across fixtures. Design sample, not adopted. Fog has a soft irregular edge; unexplored ground is opaque, ground that lost support stays dimly visible." width="960" height="640" loading="lazy"></a><figcaption><strong>W1 · Ragged regions</strong><p>039 · after the reveal · 27 June responders</p><details><summary>Exact fixture states</summary><pre>{
+  &quot;P1&quot;: &quot;hatched&quot;,
+  &quot;P2&quot;: &quot;dark&quot;,
+  &quot;P3&quot;: &quot;dark&quot;,
+  &quot;P4&quot;: &quot;dark&quot;,
+  &quot;P5&quot;: &quot;dark&quot;,
+  &quot;P6&quot;: &quot;dark&quot;,
+  &quot;p1_foothold&quot;: &quot;hatched&quot;,
+  &quot;observations&quot;: {
+    &quot;response&quot;: &quot;lit&quot;,
+    &quot;correction&quot;: &quot;dark&quot;,
+    &quot;configuration&quot;: &quot;dark&quot;,
+    &quot;weights&quot;: &quot;dark&quot;
+  },
+  &quot;p6_presence&quot;: &quot;acknowledged&quot;
+}</pre></details></figcaption></figure><figure class="km-card" id="sample-w2-039-after-responders" data-km-fog="w2-039-after-responders" data-family="w2" data-fixture="039-after" data-viewpoint="responders"><a href="../../assets/knowledge-maps/fog-v1/w2-039-after-responders.svg"><img src="../../assets/knowledge-maps/fog-v1/w2-039-after-responders.svg" alt="Fog of war, Line of sight: 039 / After the weights reveal, 27 June responders. Schematic drawn claim terrain; P1 hatched; P2 dark; P3 dark; P4 dark; P5 dark. P1 outer foothold hatched. Observation islands: response lit, correction dark, configuration dark, weights dark. P6 remains dark and unreachable. Dark means no available support, not false. Contours remain fixed across fixtures. Design sample, not adopted. Fog has a soft irregular edge; unexplored ground is opaque, ground that lost support stays dimly visible." width="960" height="640" loading="lazy"></a><figcaption><strong>W2 · Line of sight</strong><p>039 · after the reveal · 27 June responders</p><details><summary>Exact fixture states</summary><pre>{
+  &quot;P1&quot;: &quot;hatched&quot;,
+  &quot;P2&quot;: &quot;dark&quot;,
+  &quot;P3&quot;: &quot;dark&quot;,
+  &quot;P4&quot;: &quot;dark&quot;,
+  &quot;P5&quot;: &quot;dark&quot;,
+  &quot;P6&quot;: &quot;dark&quot;,
+  &quot;p1_foothold&quot;: &quot;hatched&quot;,
+  &quot;observations&quot;: {
+    &quot;response&quot;: &quot;lit&quot;,
+    &quot;correction&quot;: &quot;dark&quot;,
+    &quot;configuration&quot;: &quot;dark&quot;,
+    &quot;weights&quot;: &quot;dark&quot;
+  },
+  &quot;p6_presence&quot;: &quot;acknowledged&quot;
+}</pre></details></figcaption></figure><figure class="km-card" id="sample-w3-039-after-responders" data-km-fog="w3-039-after-responders" data-family="w3" data-fixture="039-after" data-viewpoint="responders"><a href="../../assets/knowledge-maps/fog-v1/w3-039-after-responders.svg"><img src="../../assets/knowledge-maps/fog-v1/w3-039-after-responders.svg" alt="Fog of war, Patchy contest: 039 / After the weights reveal, 27 June responders. Schematic drawn claim terrain; P1 hatched; P2 dark; P3 dark; P4 dark; P5 dark. P1 outer foothold hatched. Observation islands: response lit, correction dark, configuration dark, weights dark. P6 remains dark and unreachable. Dark means no available support, not false. Contours remain fixed across fixtures. Design sample, not adopted. Fog has a soft irregular edge; unexplored ground is opaque, ground that lost support stays dimly visible." width="960" height="640" loading="lazy"></a><figcaption><strong>W3 · Patchy contest</strong><p>039 · after the reveal · 27 June responders</p><details><summary>Exact fixture states</summary><pre>{
+  &quot;P1&quot;: &quot;hatched&quot;,
+  &quot;P2&quot;: &quot;dark&quot;,
+  &quot;P3&quot;: &quot;dark&quot;,
+  &quot;P4&quot;: &quot;dark&quot;,
+  &quot;P5&quot;: &quot;dark&quot;,
+  &quot;P6&quot;: &quot;dark&quot;,
+  &quot;p1_foothold&quot;: &quot;hatched&quot;,
+  &quot;observations&quot;: {
+    &quot;response&quot;: &quot;lit&quot;,
+    &quot;correction&quot;: &quot;dark&quot;,
+    &quot;configuration&quot;: &quot;dark&quot;,
+    &quot;weights&quot;: &quot;dark&quot;
+  },
+  &quot;p6_presence&quot;: &quot;acknowledged&quot;
+}</pre></details></figcaption></figure></div></section></section><section class="km-section" id="fog-039-before-after"><h2>039 · before / after the reveal</h2><p>Paired within each treatment and viewpoint; only the fixture changes. Re-fogged ground stays dimly visible under the fog.</p><div class="km-pair"><figure class="km-card" data-family="w1" data-fixture="039-before" data-viewpoint="reader"><a href="../../assets/knowledge-maps/fog-v1/w1-039-before-reader.svg"><img src="../../assets/knowledge-maps/fog-v1/w1-039-before-reader.svg" alt="Fog of war, Ragged regions: 039 / Before the weights reveal, Reader. Schematic drawn claim terrain; P1 hatched; P2 hatched; P3 dark; P4 dark; P5 hatched. P1 outer foothold hatched. Observation islands: response hatched, correction hatched, configuration hatched, weights dark. P6 remains dark and unreachable. Dark means no available support, not false. Contours remain fixed across fixtures. Design sample, not adopted. Fog has a soft irregular edge; unexplored ground is opaque, ground that lost support stays dimly visible." width="960" height="640" loading="lazy"></a><figcaption><strong>W1 · Ragged regions</strong><p>039 · before the reveal · Reader</p><details><summary>Exact fixture states</summary><pre>{
+  &quot;P1&quot;: &quot;hatched&quot;,
+  &quot;P2&quot;: &quot;hatched&quot;,
+  &quot;P3&quot;: &quot;dark&quot;,
+  &quot;P4&quot;: &quot;dark&quot;,
+  &quot;P5&quot;: &quot;hatched&quot;,
+  &quot;P6&quot;: &quot;dark&quot;,
+  &quot;p1_foothold&quot;: &quot;hatched&quot;,
+  &quot;observations&quot;: {
+    &quot;response&quot;: &quot;hatched&quot;,
+    &quot;correction&quot;: &quot;hatched&quot;,
+    &quot;configuration&quot;: &quot;hatched&quot;,
+    &quot;weights&quot;: &quot;dark&quot;
+  },
+  &quot;p6_presence&quot;: &quot;acknowledged&quot;
+}</pre></details></figcaption></figure><figure class="km-card" data-family="w1" data-fixture="039-after" data-viewpoint="reader"><a href="../../assets/knowledge-maps/fog-v1/w1-039-after-reader.svg"><img src="../../assets/knowledge-maps/fog-v1/w1-039-after-reader.svg" alt="Fog of war, Ragged regions: 039 / After the weights reveal, Reader. Schematic drawn claim terrain; P1 hatched; P2 dark; P3 dark; P4 dark; P5 hatched. P1 outer foothold dark. Observation islands: response hatched, correction hatched, configuration hatched, weights hatched. P6 remains dark and unreachable. Dark means no available support, not false. Contours remain fixed across fixtures. Design sample, not adopted. Fog has a soft irregular edge; unexplored ground is opaque, ground that lost support stays dimly visible." width="960" height="640" loading="lazy"></a><figcaption><strong>W1 · Ragged regions</strong><p>039 · after the reveal · Reader</p><details><summary>Exact fixture states</summary><pre>{
+  &quot;P1&quot;: &quot;hatched&quot;,
+  &quot;P2&quot;: &quot;dark&quot;,
+  &quot;P3&quot;: &quot;dark&quot;,
+  &quot;P4&quot;: &quot;dark&quot;,
+  &quot;P5&quot;: &quot;hatched&quot;,
+  &quot;P6&quot;: &quot;dark&quot;,
+  &quot;p1_foothold&quot;: &quot;dark&quot;,
+  &quot;observations&quot;: {
+    &quot;response&quot;: &quot;hatched&quot;,
+    &quot;correction&quot;: &quot;hatched&quot;,
+    &quot;configuration&quot;: &quot;hatched&quot;,
+    &quot;weights&quot;: &quot;hatched&quot;
+  },
+  &quot;p6_presence&quot;: &quot;acknowledged&quot;
+}</pre></details></figcaption></figure></div><div class="km-pair"><figure class="km-card" data-family="w2" data-fixture="039-before" data-viewpoint="reader"><a href="../../assets/knowledge-maps/fog-v1/w2-039-before-reader.svg"><img src="../../assets/knowledge-maps/fog-v1/w2-039-before-reader.svg" alt="Fog of war, Line of sight: 039 / Before the weights reveal, Reader. Schematic drawn claim terrain; P1 hatched; P2 hatched; P3 dark; P4 dark; P5 hatched. P1 outer foothold hatched. Observation islands: response hatched, correction hatched, configuration hatched, weights dark. P6 remains dark and unreachable. Dark means no available support, not false. Contours remain fixed across fixtures. Design sample, not adopted. Fog has a soft irregular edge; unexplored ground is opaque, ground that lost support stays dimly visible." width="960" height="640" loading="lazy"></a><figcaption><strong>W2 · Line of sight</strong><p>039 · before the reveal · Reader</p><details><summary>Exact fixture states</summary><pre>{
+  &quot;P1&quot;: &quot;hatched&quot;,
+  &quot;P2&quot;: &quot;hatched&quot;,
+  &quot;P3&quot;: &quot;dark&quot;,
+  &quot;P4&quot;: &quot;dark&quot;,
+  &quot;P5&quot;: &quot;hatched&quot;,
+  &quot;P6&quot;: &quot;dark&quot;,
+  &quot;p1_foothold&quot;: &quot;hatched&quot;,
+  &quot;observations&quot;: {
+    &quot;response&quot;: &quot;hatched&quot;,
+    &quot;correction&quot;: &quot;hatched&quot;,
+    &quot;configuration&quot;: &quot;hatched&quot;,
+    &quot;weights&quot;: &quot;dark&quot;
+  },
+  &quot;p6_presence&quot;: &quot;acknowledged&quot;
+}</pre></details></figcaption></figure><figure class="km-card" data-family="w2" data-fixture="039-after" data-viewpoint="reader"><a href="../../assets/knowledge-maps/fog-v1/w2-039-after-reader.svg"><img src="../../assets/knowledge-maps/fog-v1/w2-039-after-reader.svg" alt="Fog of war, Line of sight: 039 / After the weights reveal, Reader. Schematic drawn claim terrain; P1 hatched; P2 dark; P3 dark; P4 dark; P5 hatched. P1 outer foothold dark. Observation islands: response hatched, correction hatched, configuration hatched, weights hatched. P6 remains dark and unreachable. Dark means no available support, not false. Contours remain fixed across fixtures. Design sample, not adopted. Fog has a soft irregular edge; unexplored ground is opaque, ground that lost support stays dimly visible." width="960" height="640" loading="lazy"></a><figcaption><strong>W2 · Line of sight</strong><p>039 · after the reveal · Reader</p><details><summary>Exact fixture states</summary><pre>{
+  &quot;P1&quot;: &quot;hatched&quot;,
+  &quot;P2&quot;: &quot;dark&quot;,
+  &quot;P3&quot;: &quot;dark&quot;,
+  &quot;P4&quot;: &quot;dark&quot;,
+  &quot;P5&quot;: &quot;hatched&quot;,
+  &quot;P6&quot;: &quot;dark&quot;,
+  &quot;p1_foothold&quot;: &quot;dark&quot;,
+  &quot;observations&quot;: {
+    &quot;response&quot;: &quot;hatched&quot;,
+    &quot;correction&quot;: &quot;hatched&quot;,
+    &quot;configuration&quot;: &quot;hatched&quot;,
+    &quot;weights&quot;: &quot;hatched&quot;
+  },
+  &quot;p6_presence&quot;: &quot;acknowledged&quot;
+}</pre></details></figcaption></figure></div><div class="km-pair"><figure class="km-card" data-family="w3" data-fixture="039-before" data-viewpoint="reader"><a href="../../assets/knowledge-maps/fog-v1/w3-039-before-reader.svg"><img src="../../assets/knowledge-maps/fog-v1/w3-039-before-reader.svg" alt="Fog of war, Patchy contest: 039 / Before the weights reveal, Reader. Schematic drawn claim terrain; P1 hatched; P2 hatched; P3 dark; P4 dark; P5 hatched. P1 outer foothold hatched. Observation islands: response hatched, correction hatched, configuration hatched, weights dark. P6 remains dark and unreachable. Dark means no available support, not false. Contours remain fixed across fixtures. Design sample, not adopted. Fog has a soft irregular edge; unexplored ground is opaque, ground that lost support stays dimly visible." width="960" height="640" loading="lazy"></a><figcaption><strong>W3 · Patchy contest</strong><p>039 · before the reveal · Reader</p><details><summary>Exact fixture states</summary><pre>{
+  &quot;P1&quot;: &quot;hatched&quot;,
+  &quot;P2&quot;: &quot;hatched&quot;,
+  &quot;P3&quot;: &quot;dark&quot;,
+  &quot;P4&quot;: &quot;dark&quot;,
+  &quot;P5&quot;: &quot;hatched&quot;,
+  &quot;P6&quot;: &quot;dark&quot;,
+  &quot;p1_foothold&quot;: &quot;hatched&quot;,
+  &quot;observations&quot;: {
+    &quot;response&quot;: &quot;hatched&quot;,
+    &quot;correction&quot;: &quot;hatched&quot;,
+    &quot;configuration&quot;: &quot;hatched&quot;,
+    &quot;weights&quot;: &quot;dark&quot;
+  },
+  &quot;p6_presence&quot;: &quot;acknowledged&quot;
+}</pre></details></figcaption></figure><figure class="km-card" data-family="w3" data-fixture="039-after" data-viewpoint="reader"><a href="../../assets/knowledge-maps/fog-v1/w3-039-after-reader.svg"><img src="../../assets/knowledge-maps/fog-v1/w3-039-after-reader.svg" alt="Fog of war, Patchy contest: 039 / After the weights reveal, Reader. Schematic drawn claim terrain; P1 hatched; P2 dark; P3 dark; P4 dark; P5 hatched. P1 outer foothold dark. Observation islands: response hatched, correction hatched, configuration hatched, weights hatched. P6 remains dark and unreachable. Dark means no available support, not false. Contours remain fixed across fixtures. Design sample, not adopted. Fog has a soft irregular edge; unexplored ground is opaque, ground that lost support stays dimly visible." width="960" height="640" loading="lazy"></a><figcaption><strong>W3 · Patchy contest</strong><p>039 · after the reveal · Reader</p><details><summary>Exact fixture states</summary><pre>{
+  &quot;P1&quot;: &quot;hatched&quot;,
+  &quot;P2&quot;: &quot;dark&quot;,
+  &quot;P3&quot;: &quot;dark&quot;,
+  &quot;P4&quot;: &quot;dark&quot;,
+  &quot;P5&quot;: &quot;hatched&quot;,
+  &quot;P6&quot;: &quot;dark&quot;,
+  &quot;p1_foothold&quot;: &quot;dark&quot;,
+  &quot;observations&quot;: {
+    &quot;response&quot;: &quot;hatched&quot;,
+    &quot;correction&quot;: &quot;hatched&quot;,
+    &quot;configuration&quot;: &quot;hatched&quot;,
+    &quot;weights&quot;: &quot;hatched&quot;
+  },
+  &quot;p6_presence&quot;: &quot;acknowledged&quot;
+}</pre></details></figcaption></figure></div><div class="km-pair"><figure class="km-card" data-family="w1" data-fixture="039-before" data-viewpoint="responders"><a href="../../assets/knowledge-maps/fog-v1/w1-039-before-responders.svg"><img src="../../assets/knowledge-maps/fog-v1/w1-039-before-responders.svg" alt="Fog of war, Ragged regions: 039 / Before the weights reveal, 27 June responders. Schematic drawn claim terrain; P1 hatched; P2 dark; P3 dark; P4 dark; P5 dark. P1 outer foothold hatched. Observation islands: response lit, correction dark, configuration dark, weights dark. P6 remains dark and unreachable. Dark means no available support, not false. Contours remain fixed across fixtures. Design sample, not adopted. Fog has a soft irregular edge; unexplored ground is opaque, ground that lost support stays dimly visible." width="960" height="640" loading="lazy"></a><figcaption><strong>W1 · Ragged regions</strong><p>039 · before the reveal · 27 June responders</p><details><summary>Exact fixture states</summary><pre>{
+  &quot;P1&quot;: &quot;hatched&quot;,
+  &quot;P2&quot;: &quot;dark&quot;,
+  &quot;P3&quot;: &quot;dark&quot;,
+  &quot;P4&quot;: &quot;dark&quot;,
+  &quot;P5&quot;: &quot;dark&quot;,
+  &quot;P6&quot;: &quot;dark&quot;,
+  &quot;p1_foothold&quot;: &quot;hatched&quot;,
+  &quot;observations&quot;: {
+    &quot;response&quot;: &quot;lit&quot;,
+    &quot;correction&quot;: &quot;dark&quot;,
+    &quot;configuration&quot;: &quot;dark&quot;,
+    &quot;weights&quot;: &quot;dark&quot;
+  },
+  &quot;p6_presence&quot;: &quot;acknowledged&quot;
+}</pre></details></figcaption></figure><figure class="km-card" data-family="w1" data-fixture="039-after" data-viewpoint="responders"><a href="../../assets/knowledge-maps/fog-v1/w1-039-after-responders.svg"><img src="../../assets/knowledge-maps/fog-v1/w1-039-after-responders.svg" alt="Fog of war, Ragged regions: 039 / After the weights reveal, 27 June responders. Schematic drawn claim terrain; P1 hatched; P2 dark; P3 dark; P4 dark; P5 dark. P1 outer foothold hatched. Observation islands: response lit, correction dark, configuration dark, weights dark. P6 remains dark and unreachable. Dark means no available support, not false. Contours remain fixed across fixtures. Design sample, not adopted. Fog has a soft irregular edge; unexplored ground is opaque, ground that lost support stays dimly visible." width="960" height="640" loading="lazy"></a><figcaption><strong>W1 · Ragged regions</strong><p>039 · after the reveal · 27 June responders</p><details><summary>Exact fixture states</summary><pre>{
+  &quot;P1&quot;: &quot;hatched&quot;,
+  &quot;P2&quot;: &quot;dark&quot;,
+  &quot;P3&quot;: &quot;dark&quot;,
+  &quot;P4&quot;: &quot;dark&quot;,
+  &quot;P5&quot;: &quot;dark&quot;,
+  &quot;P6&quot;: &quot;dark&quot;,
+  &quot;p1_foothold&quot;: &quot;hatched&quot;,
+  &quot;observations&quot;: {
+    &quot;response&quot;: &quot;lit&quot;,
+    &quot;correction&quot;: &quot;dark&quot;,
+    &quot;configuration&quot;: &quot;dark&quot;,
+    &quot;weights&quot;: &quot;dark&quot;
+  },
+  &quot;p6_presence&quot;: &quot;acknowledged&quot;
+}</pre></details></figcaption></figure></div><div class="km-pair"><figure class="km-card" data-family="w2" data-fixture="039-before" data-viewpoint="responders"><a href="../../assets/knowledge-maps/fog-v1/w2-039-before-responders.svg"><img src="../../assets/knowledge-maps/fog-v1/w2-039-before-responders.svg" alt="Fog of war, Line of sight: 039 / Before the weights reveal, 27 June responders. Schematic drawn claim terrain; P1 hatched; P2 dark; P3 dark; P4 dark; P5 dark. P1 outer foothold hatched. Observation islands: response lit, correction dark, configuration dark, weights dark. P6 remains dark and unreachable. Dark means no available support, not false. Contours remain fixed across fixtures. Design sample, not adopted. Fog has a soft irregular edge; unexplored ground is opaque, ground that lost support stays dimly visible." width="960" height="640" loading="lazy"></a><figcaption><strong>W2 · Line of sight</strong><p>039 · before the reveal · 27 June responders</p><details><summary>Exact fixture states</summary><pre>{
+  &quot;P1&quot;: &quot;hatched&quot;,
+  &quot;P2&quot;: &quot;dark&quot;,
+  &quot;P3&quot;: &quot;dark&quot;,
+  &quot;P4&quot;: &quot;dark&quot;,
+  &quot;P5&quot;: &quot;dark&quot;,
+  &quot;P6&quot;: &quot;dark&quot;,
+  &quot;p1_foothold&quot;: &quot;hatched&quot;,
+  &quot;observations&quot;: {
+    &quot;response&quot;: &quot;lit&quot;,
+    &quot;correction&quot;: &quot;dark&quot;,
+    &quot;configuration&quot;: &quot;dark&quot;,
+    &quot;weights&quot;: &quot;dark&quot;
+  },
+  &quot;p6_presence&quot;: &quot;acknowledged&quot;
+}</pre></details></figcaption></figure><figure class="km-card" data-family="w2" data-fixture="039-after" data-viewpoint="responders"><a href="../../assets/knowledge-maps/fog-v1/w2-039-after-responders.svg"><img src="../../assets/knowledge-maps/fog-v1/w2-039-after-responders.svg" alt="Fog of war, Line of sight: 039 / After the weights reveal, 27 June responders. Schematic drawn claim terrain; P1 hatched; P2 dark; P3 dark; P4 dark; P5 dark. P1 outer foothold hatched. Observation islands: response lit, correction dark, configuration dark, weights dark. P6 remains dark and unreachable. Dark means no available support, not false. Contours remain fixed across fixtures. Design sample, not adopted. Fog has a soft irregular edge; unexplored ground is opaque, ground that lost support stays dimly visible." width="960" height="640" loading="lazy"></a><figcaption><strong>W2 · Line of sight</strong><p>039 · after the reveal · 27 June responders</p><details><summary>Exact fixture states</summary><pre>{
+  &quot;P1&quot;: &quot;hatched&quot;,
+  &quot;P2&quot;: &quot;dark&quot;,
+  &quot;P3&quot;: &quot;dark&quot;,
+  &quot;P4&quot;: &quot;dark&quot;,
+  &quot;P5&quot;: &quot;dark&quot;,
+  &quot;P6&quot;: &quot;dark&quot;,
+  &quot;p1_foothold&quot;: &quot;hatched&quot;,
+  &quot;observations&quot;: {
+    &quot;response&quot;: &quot;lit&quot;,
+    &quot;correction&quot;: &quot;dark&quot;,
+    &quot;configuration&quot;: &quot;dark&quot;,
+    &quot;weights&quot;: &quot;dark&quot;
+  },
+  &quot;p6_presence&quot;: &quot;acknowledged&quot;
+}</pre></details></figcaption></figure></div><div class="km-pair"><figure class="km-card" data-family="w3" data-fixture="039-before" data-viewpoint="responders"><a href="../../assets/knowledge-maps/fog-v1/w3-039-before-responders.svg"><img src="../../assets/knowledge-maps/fog-v1/w3-039-before-responders.svg" alt="Fog of war, Patchy contest: 039 / Before the weights reveal, 27 June responders. Schematic drawn claim terrain; P1 hatched; P2 dark; P3 dark; P4 dark; P5 dark. P1 outer foothold hatched. Observation islands: response lit, correction dark, configuration dark, weights dark. P6 remains dark and unreachable. Dark means no available support, not false. Contours remain fixed across fixtures. Design sample, not adopted. Fog has a soft irregular edge; unexplored ground is opaque, ground that lost support stays dimly visible." width="960" height="640" loading="lazy"></a><figcaption><strong>W3 · Patchy contest</strong><p>039 · before the reveal · 27 June responders</p><details><summary>Exact fixture states</summary><pre>{
+  &quot;P1&quot;: &quot;hatched&quot;,
+  &quot;P2&quot;: &quot;dark&quot;,
+  &quot;P3&quot;: &quot;dark&quot;,
+  &quot;P4&quot;: &quot;dark&quot;,
+  &quot;P5&quot;: &quot;dark&quot;,
+  &quot;P6&quot;: &quot;dark&quot;,
+  &quot;p1_foothold&quot;: &quot;hatched&quot;,
+  &quot;observations&quot;: {
+    &quot;response&quot;: &quot;lit&quot;,
+    &quot;correction&quot;: &quot;dark&quot;,
+    &quot;configuration&quot;: &quot;dark&quot;,
+    &quot;weights&quot;: &quot;dark&quot;
+  },
+  &quot;p6_presence&quot;: &quot;acknowledged&quot;
+}</pre></details></figcaption></figure><figure class="km-card" data-family="w3" data-fixture="039-after" data-viewpoint="responders"><a href="../../assets/knowledge-maps/fog-v1/w3-039-after-responders.svg"><img src="../../assets/knowledge-maps/fog-v1/w3-039-after-responders.svg" alt="Fog of war, Patchy contest: 039 / After the weights reveal, 27 June responders. Schematic drawn claim terrain; P1 hatched; P2 dark; P3 dark; P4 dark; P5 dark. P1 outer foothold hatched. Observation islands: response lit, correction dark, configuration dark, weights dark. P6 remains dark and unreachable. Dark means no available support, not false. Contours remain fixed across fixtures. Design sample, not adopted. Fog has a soft irregular edge; unexplored ground is opaque, ground that lost support stays dimly visible." width="960" height="640" loading="lazy"></a><figcaption><strong>W3 · Patchy contest</strong><p>039 · after the reveal · 27 June responders</p><details><summary>Exact fixture states</summary><pre>{
+  &quot;P1&quot;: &quot;hatched&quot;,
+  &quot;P2&quot;: &quot;dark&quot;,
+  &quot;P3&quot;: &quot;dark&quot;,
+  &quot;P4&quot;: &quot;dark&quot;,
+  &quot;P5&quot;: &quot;dark&quot;,
+  &quot;P6&quot;: &quot;dark&quot;,
+  &quot;p1_foothold&quot;: &quot;hatched&quot;,
+  &quot;observations&quot;: {
+    &quot;response&quot;: &quot;lit&quot;,
+    &quot;correction&quot;: &quot;dark&quot;,
+    &quot;configuration&quot;: &quot;dark&quot;,
+    &quot;weights&quot;: &quot;dark&quot;
+  },
+  &quot;p6_presence&quot;: &quot;acknowledged&quot;
+}</pre></details></figcaption></figure></div></section><section class="km-section" id="fog-010-hint-nohint"><h2>010 · hint / no hint</h2><p>Paired within each treatment and viewpoint; only the fixture changes. Re-fogged ground stays dimly visible under the fog.</p><div class="km-pair"><figure class="km-card" data-family="w1" data-fixture="010-hint" data-viewpoint="reader"><a href="../../assets/knowledge-maps/fog-v1/w1-010-reader-hint.svg"><img src="../../assets/knowledge-maps/fog-v1/w1-010-reader-hint.svg" alt="Fog of war, Ragged regions: 010 / Before the boundary is named, Reader. Schematic drawn claim terrain; P1 hatched; P2 dark; P3 dark; P4 dark; P5 hatched. P1 outer foothold hatched. Observation islands: response dark, correction hatched, configuration dark, weights dark. P6 is only an unnamed dark hint. Dark means no available support, not false. Contours remain fixed across fixtures. Design sample, not adopted. Fog has a soft irregular edge; unexplored ground is opaque, ground that lost support stays dimly visible." width="960" height="640" loading="lazy"></a><figcaption><strong>W1 · Ragged regions</strong><p>010 · with P6 hint · Reader</p><details><summary>Exact fixture states</summary><pre>{
+  &quot;P1&quot;: &quot;hatched&quot;,
+  &quot;P2&quot;: &quot;dark&quot;,
+  &quot;P3&quot;: &quot;dark&quot;,
+  &quot;P4&quot;: &quot;dark&quot;,
+  &quot;P5&quot;: &quot;hatched&quot;,
+  &quot;P6&quot;: &quot;dark&quot;,
+  &quot;p1_foothold&quot;: &quot;hatched&quot;,
+  &quot;observations&quot;: {
+    &quot;response&quot;: &quot;dark&quot;,
+    &quot;correction&quot;: &quot;hatched&quot;,
+    &quot;configuration&quot;: &quot;dark&quot;,
+    &quot;weights&quot;: &quot;dark&quot;
+  },
+  &quot;p6_presence&quot;: &quot;hint&quot;
+}</pre></details></figcaption></figure><figure class="km-card" data-family="w1" data-fixture="010-no-p6" data-viewpoint="reader"><a href="../../assets/knowledge-maps/fog-v1/w1-010-reader-no-p6.svg"><img src="../../assets/knowledge-maps/fog-v1/w1-010-reader-no-p6.svg" alt="Fog of war, Ragged regions: 010 / No early hint control, Reader. Schematic drawn claim terrain; P1 hatched; P2 dark; P3 dark; P4 dark; P5 hatched. P1 outer foothold hatched. Observation islands: response dark, correction hatched, configuration dark, weights dark. P6 has no visual presence in this control; its underlying state is still dark. Dark means no available support, not false. Contours remain fixed across fixtures. Design sample, not adopted. Fog has a soft irregular edge; unexplored ground is opaque, ground that lost support stays dimly visible." width="960" height="640" loading="lazy"></a><figcaption><strong>W1 · Ragged regions</strong><p>010 · without P6 hint · Reader</p><details><summary>Exact fixture states</summary><pre>{
+  &quot;P1&quot;: &quot;hatched&quot;,
+  &quot;P2&quot;: &quot;dark&quot;,
+  &quot;P3&quot;: &quot;dark&quot;,
+  &quot;P4&quot;: &quot;dark&quot;,
+  &quot;P5&quot;: &quot;hatched&quot;,
+  &quot;P6&quot;: &quot;dark&quot;,
+  &quot;p1_foothold&quot;: &quot;hatched&quot;,
+  &quot;observations&quot;: {
+    &quot;response&quot;: &quot;dark&quot;,
+    &quot;correction&quot;: &quot;hatched&quot;,
+    &quot;configuration&quot;: &quot;dark&quot;,
+    &quot;weights&quot;: &quot;dark&quot;
+  },
+  &quot;p6_presence&quot;: &quot;hidden&quot;
+}</pre></details></figcaption></figure></div><div class="km-pair"><figure class="km-card" data-family="w2" data-fixture="010-hint" data-viewpoint="reader"><a href="../../assets/knowledge-maps/fog-v1/w2-010-reader-hint.svg"><img src="../../assets/knowledge-maps/fog-v1/w2-010-reader-hint.svg" alt="Fog of war, Line of sight: 010 / Before the boundary is named, Reader. Schematic drawn claim terrain; P1 hatched; P2 dark; P3 dark; P4 dark; P5 hatched. P1 outer foothold hatched. Observation islands: response dark, correction hatched, configuration dark, weights dark. P6 is only an unnamed dark hint. Dark means no available support, not false. Contours remain fixed across fixtures. Design sample, not adopted. Fog has a soft irregular edge; unexplored ground is opaque, ground that lost support stays dimly visible." width="960" height="640" loading="lazy"></a><figcaption><strong>W2 · Line of sight</strong><p>010 · with P6 hint · Reader</p><details><summary>Exact fixture states</summary><pre>{
+  &quot;P1&quot;: &quot;hatched&quot;,
+  &quot;P2&quot;: &quot;dark&quot;,
+  &quot;P3&quot;: &quot;dark&quot;,
+  &quot;P4&quot;: &quot;dark&quot;,
+  &quot;P5&quot;: &quot;hatched&quot;,
+  &quot;P6&quot;: &quot;dark&quot;,
+  &quot;p1_foothold&quot;: &quot;hatched&quot;,
+  &quot;observations&quot;: {
+    &quot;response&quot;: &quot;dark&quot;,
+    &quot;correction&quot;: &quot;hatched&quot;,
+    &quot;configuration&quot;: &quot;dark&quot;,
+    &quot;weights&quot;: &quot;dark&quot;
+  },
+  &quot;p6_presence&quot;: &quot;hint&quot;
+}</pre></details></figcaption></figure><figure class="km-card" data-family="w2" data-fixture="010-no-p6" data-viewpoint="reader"><a href="../../assets/knowledge-maps/fog-v1/w2-010-reader-no-p6.svg"><img src="../../assets/knowledge-maps/fog-v1/w2-010-reader-no-p6.svg" alt="Fog of war, Line of sight: 010 / No early hint control, Reader. Schematic drawn claim terrain; P1 hatched; P2 dark; P3 dark; P4 dark; P5 hatched. P1 outer foothold hatched. Observation islands: response dark, correction hatched, configuration dark, weights dark. P6 has no visual presence in this control; its underlying state is still dark. Dark means no available support, not false. Contours remain fixed across fixtures. Design sample, not adopted. Fog has a soft irregular edge; unexplored ground is opaque, ground that lost support stays dimly visible." width="960" height="640" loading="lazy"></a><figcaption><strong>W2 · Line of sight</strong><p>010 · without P6 hint · Reader</p><details><summary>Exact fixture states</summary><pre>{
+  &quot;P1&quot;: &quot;hatched&quot;,
+  &quot;P2&quot;: &quot;dark&quot;,
+  &quot;P3&quot;: &quot;dark&quot;,
+  &quot;P4&quot;: &quot;dark&quot;,
+  &quot;P5&quot;: &quot;hatched&quot;,
+  &quot;P6&quot;: &quot;dark&quot;,
+  &quot;p1_foothold&quot;: &quot;hatched&quot;,
+  &quot;observations&quot;: {
+    &quot;response&quot;: &quot;dark&quot;,
+    &quot;correction&quot;: &quot;hatched&quot;,
+    &quot;configuration&quot;: &quot;dark&quot;,
+    &quot;weights&quot;: &quot;dark&quot;
+  },
+  &quot;p6_presence&quot;: &quot;hidden&quot;
+}</pre></details></figcaption></figure></div><div class="km-pair"><figure class="km-card" data-family="w3" data-fixture="010-hint" data-viewpoint="reader"><a href="../../assets/knowledge-maps/fog-v1/w3-010-reader-hint.svg"><img src="../../assets/knowledge-maps/fog-v1/w3-010-reader-hint.svg" alt="Fog of war, Patchy contest: 010 / Before the boundary is named, Reader. Schematic drawn claim terrain; P1 hatched; P2 dark; P3 dark; P4 dark; P5 hatched. P1 outer foothold hatched. Observation islands: response dark, correction hatched, configuration dark, weights dark. P6 is only an unnamed dark hint. Dark means no available support, not false. Contours remain fixed across fixtures. Design sample, not adopted. Fog has a soft irregular edge; unexplored ground is opaque, ground that lost support stays dimly visible." width="960" height="640" loading="lazy"></a><figcaption><strong>W3 · Patchy contest</strong><p>010 · with P6 hint · Reader</p><details><summary>Exact fixture states</summary><pre>{
+  &quot;P1&quot;: &quot;hatched&quot;,
+  &quot;P2&quot;: &quot;dark&quot;,
+  &quot;P3&quot;: &quot;dark&quot;,
+  &quot;P4&quot;: &quot;dark&quot;,
+  &quot;P5&quot;: &quot;hatched&quot;,
+  &quot;P6&quot;: &quot;dark&quot;,
+  &quot;p1_foothold&quot;: &quot;hatched&quot;,
+  &quot;observations&quot;: {
+    &quot;response&quot;: &quot;dark&quot;,
+    &quot;correction&quot;: &quot;hatched&quot;,
+    &quot;configuration&quot;: &quot;dark&quot;,
+    &quot;weights&quot;: &quot;dark&quot;
+  },
+  &quot;p6_presence&quot;: &quot;hint&quot;
+}</pre></details></figcaption></figure><figure class="km-card" data-family="w3" data-fixture="010-no-p6" data-viewpoint="reader"><a href="../../assets/knowledge-maps/fog-v1/w3-010-reader-no-p6.svg"><img src="../../assets/knowledge-maps/fog-v1/w3-010-reader-no-p6.svg" alt="Fog of war, Patchy contest: 010 / No early hint control, Reader. Schematic drawn claim terrain; P1 hatched; P2 dark; P3 dark; P4 dark; P5 hatched. P1 outer foothold hatched. Observation islands: response dark, correction hatched, configuration dark, weights dark. P6 has no visual presence in this control; its underlying state is still dark. Dark means no available support, not false. Contours remain fixed across fixtures. Design sample, not adopted. Fog has a soft irregular edge; unexplored ground is opaque, ground that lost support stays dimly visible." width="960" height="640" loading="lazy"></a><figcaption><strong>W3 · Patchy contest</strong><p>010 · without P6 hint · Reader</p><details><summary>Exact fixture states</summary><pre>{
+  &quot;P1&quot;: &quot;hatched&quot;,
+  &quot;P2&quot;: &quot;dark&quot;,
+  &quot;P3&quot;: &quot;dark&quot;,
+  &quot;P4&quot;: &quot;dark&quot;,
+  &quot;P5&quot;: &quot;hatched&quot;,
+  &quot;P6&quot;: &quot;dark&quot;,
+  &quot;p1_foothold&quot;: &quot;hatched&quot;,
+  &quot;observations&quot;: {
+    &quot;response&quot;: &quot;dark&quot;,
+    &quot;correction&quot;: &quot;hatched&quot;,
+    &quot;configuration&quot;: &quot;dark&quot;,
+    &quot;weights&quot;: &quot;dark&quot;
+  },
+  &quot;p6_presence&quot;: &quot;hidden&quot;
+}</pre></details></figcaption></figure></div><div class="km-pair"><figure class="km-card" data-family="w1" data-fixture="010-hint" data-viewpoint="responders"><a href="../../assets/knowledge-maps/fog-v1/w1-010-responders-hint.svg"><img src="../../assets/knowledge-maps/fog-v1/w1-010-responders-hint.svg" alt="Fog of war, Ragged regions: 010 / Before the boundary is named, 27 June responders. Schematic drawn claim terrain; P1 hatched; P2 dark; P3 dark; P4 dark; P5 dark. P1 outer foothold hatched. Observation islands: response lit, correction dark, configuration dark, weights dark. P6 is only an unnamed dark hint. Dark means no available support, not false. Contours remain fixed across fixtures. Design sample, not adopted. Fog has a soft irregular edge; unexplored ground is opaque, ground that lost support stays dimly visible." width="960" height="640" loading="lazy"></a><figcaption><strong>W1 · Ragged regions</strong><p>010 · with P6 hint · 27 June responders</p><details><summary>Exact fixture states</summary><pre>{
+  &quot;P1&quot;: &quot;hatched&quot;,
+  &quot;P2&quot;: &quot;dark&quot;,
+  &quot;P3&quot;: &quot;dark&quot;,
+  &quot;P4&quot;: &quot;dark&quot;,
+  &quot;P5&quot;: &quot;dark&quot;,
+  &quot;P6&quot;: &quot;dark&quot;,
+  &quot;p1_foothold&quot;: &quot;hatched&quot;,
+  &quot;observations&quot;: {
+    &quot;response&quot;: &quot;lit&quot;,
+    &quot;correction&quot;: &quot;dark&quot;,
+    &quot;configuration&quot;: &quot;dark&quot;,
+    &quot;weights&quot;: &quot;dark&quot;
+  },
+  &quot;p6_presence&quot;: &quot;hint&quot;
+}</pre></details></figcaption></figure><figure class="km-card" data-family="w1" data-fixture="010-no-p6" data-viewpoint="responders"><a href="../../assets/knowledge-maps/fog-v1/w1-010-responders-no-p6.svg"><img src="../../assets/knowledge-maps/fog-v1/w1-010-responders-no-p6.svg" alt="Fog of war, Ragged regions: 010 / No early hint control, 27 June responders. Schematic drawn claim terrain; P1 hatched; P2 dark; P3 dark; P4 dark; P5 dark. P1 outer foothold hatched. Observation islands: response lit, correction dark, configuration dark, weights dark. P6 has no visual presence in this control; its underlying state is still dark. Dark means no available support, not false. Contours remain fixed across fixtures. Design sample, not adopted. Fog has a soft irregular edge; unexplored ground is opaque, ground that lost support stays dimly visible." width="960" height="640" loading="lazy"></a><figcaption><strong>W1 · Ragged regions</strong><p>010 · without P6 hint · 27 June responders</p><details><summary>Exact fixture states</summary><pre>{
+  &quot;P1&quot;: &quot;hatched&quot;,
+  &quot;P2&quot;: &quot;dark&quot;,
+  &quot;P3&quot;: &quot;dark&quot;,
+  &quot;P4&quot;: &quot;dark&quot;,
+  &quot;P5&quot;: &quot;dark&quot;,
+  &quot;P6&quot;: &quot;dark&quot;,
+  &quot;p1_foothold&quot;: &quot;hatched&quot;,
+  &quot;observations&quot;: {
+    &quot;response&quot;: &quot;lit&quot;,
+    &quot;correction&quot;: &quot;dark&quot;,
+    &quot;configuration&quot;: &quot;dark&quot;,
+    &quot;weights&quot;: &quot;dark&quot;
+  },
+  &quot;p6_presence&quot;: &quot;hidden&quot;
+}</pre></details></figcaption></figure></div><div class="km-pair"><figure class="km-card" data-family="w2" data-fixture="010-hint" data-viewpoint="responders"><a href="../../assets/knowledge-maps/fog-v1/w2-010-responders-hint.svg"><img src="../../assets/knowledge-maps/fog-v1/w2-010-responders-hint.svg" alt="Fog of war, Line of sight: 010 / Before the boundary is named, 27 June responders. Schematic drawn claim terrain; P1 hatched; P2 dark; P3 dark; P4 dark; P5 dark. P1 outer foothold hatched. Observation islands: response lit, correction dark, configuration dark, weights dark. P6 is only an unnamed dark hint. Dark means no available support, not false. Contours remain fixed across fixtures. Design sample, not adopted. Fog has a soft irregular edge; unexplored ground is opaque, ground that lost support stays dimly visible." width="960" height="640" loading="lazy"></a><figcaption><strong>W2 · Line of sight</strong><p>010 · with P6 hint · 27 June responders</p><details><summary>Exact fixture states</summary><pre>{
+  &quot;P1&quot;: &quot;hatched&quot;,
+  &quot;P2&quot;: &quot;dark&quot;,
+  &quot;P3&quot;: &quot;dark&quot;,
+  &quot;P4&quot;: &quot;dark&quot;,
+  &quot;P5&quot;: &quot;dark&quot;,
+  &quot;P6&quot;: &quot;dark&quot;,
+  &quot;p1_foothold&quot;: &quot;hatched&quot;,
+  &quot;observations&quot;: {
+    &quot;response&quot;: &quot;lit&quot;,
+    &quot;correction&quot;: &quot;dark&quot;,
+    &quot;configuration&quot;: &quot;dark&quot;,
+    &quot;weights&quot;: &quot;dark&quot;
+  },
+  &quot;p6_presence&quot;: &quot;hint&quot;
+}</pre></details></figcaption></figure><figure class="km-card" data-family="w2" data-fixture="010-no-p6" data-viewpoint="responders"><a href="../../assets/knowledge-maps/fog-v1/w2-010-responders-no-p6.svg"><img src="../../assets/knowledge-maps/fog-v1/w2-010-responders-no-p6.svg" alt="Fog of war, Line of sight: 010 / No early hint control, 27 June responders. Schematic drawn claim terrain; P1 hatched; P2 dark; P3 dark; P4 dark; P5 dark. P1 outer foothold hatched. Observation islands: response lit, correction dark, configuration dark, weights dark. P6 has no visual presence in this control; its underlying state is still dark. Dark means no available support, not false. Contours remain fixed across fixtures. Design sample, not adopted. Fog has a soft irregular edge; unexplored ground is opaque, ground that lost support stays dimly visible." width="960" height="640" loading="lazy"></a><figcaption><strong>W2 · Line of sight</strong><p>010 · without P6 hint · 27 June responders</p><details><summary>Exact fixture states</summary><pre>{
+  &quot;P1&quot;: &quot;hatched&quot;,
+  &quot;P2&quot;: &quot;dark&quot;,
+  &quot;P3&quot;: &quot;dark&quot;,
+  &quot;P4&quot;: &quot;dark&quot;,
+  &quot;P5&quot;: &quot;dark&quot;,
+  &quot;P6&quot;: &quot;dark&quot;,
+  &quot;p1_foothold&quot;: &quot;hatched&quot;,
+  &quot;observations&quot;: {
+    &quot;response&quot;: &quot;lit&quot;,
+    &quot;correction&quot;: &quot;dark&quot;,
+    &quot;configuration&quot;: &quot;dark&quot;,
+    &quot;weights&quot;: &quot;dark&quot;
+  },
+  &quot;p6_presence&quot;: &quot;hidden&quot;
+}</pre></details></figcaption></figure></div><div class="km-pair"><figure class="km-card" data-family="w3" data-fixture="010-hint" data-viewpoint="responders"><a href="../../assets/knowledge-maps/fog-v1/w3-010-responders-hint.svg"><img src="../../assets/knowledge-maps/fog-v1/w3-010-responders-hint.svg" alt="Fog of war, Patchy contest: 010 / Before the boundary is named, 27 June responders. Schematic drawn claim terrain; P1 hatched; P2 dark; P3 dark; P4 dark; P5 dark. P1 outer foothold hatched. Observation islands: response lit, correction dark, configuration dark, weights dark. P6 is only an unnamed dark hint. Dark means no available support, not false. Contours remain fixed across fixtures. Design sample, not adopted. Fog has a soft irregular edge; unexplored ground is opaque, ground that lost support stays dimly visible." width="960" height="640" loading="lazy"></a><figcaption><strong>W3 · Patchy contest</strong><p>010 · with P6 hint · 27 June responders</p><details><summary>Exact fixture states</summary><pre>{
+  &quot;P1&quot;: &quot;hatched&quot;,
+  &quot;P2&quot;: &quot;dark&quot;,
+  &quot;P3&quot;: &quot;dark&quot;,
+  &quot;P4&quot;: &quot;dark&quot;,
+  &quot;P5&quot;: &quot;dark&quot;,
+  &quot;P6&quot;: &quot;dark&quot;,
+  &quot;p1_foothold&quot;: &quot;hatched&quot;,
+  &quot;observations&quot;: {
+    &quot;response&quot;: &quot;lit&quot;,
+    &quot;correction&quot;: &quot;dark&quot;,
+    &quot;configuration&quot;: &quot;dark&quot;,
+    &quot;weights&quot;: &quot;dark&quot;
+  },
+  &quot;p6_presence&quot;: &quot;hint&quot;
+}</pre></details></figcaption></figure><figure class="km-card" data-family="w3" data-fixture="010-no-p6" data-viewpoint="responders"><a href="../../assets/knowledge-maps/fog-v1/w3-010-responders-no-p6.svg"><img src="../../assets/knowledge-maps/fog-v1/w3-010-responders-no-p6.svg" alt="Fog of war, Patchy contest: 010 / No early hint control, 27 June responders. Schematic drawn claim terrain; P1 hatched; P2 dark; P3 dark; P4 dark; P5 dark. P1 outer foothold hatched. Observation islands: response lit, correction dark, configuration dark, weights dark. P6 has no visual presence in this control; its underlying state is still dark. Dark means no available support, not false. Contours remain fixed across fixtures. Design sample, not adopted. Fog has a soft irregular edge; unexplored ground is opaque, ground that lost support stays dimly visible." width="960" height="640" loading="lazy"></a><figcaption><strong>W3 · Patchy contest</strong><p>010 · without P6 hint · 27 June responders</p><details><summary>Exact fixture states</summary><pre>{
+  &quot;P1&quot;: &quot;hatched&quot;,
+  &quot;P2&quot;: &quot;dark&quot;,
+  &quot;P3&quot;: &quot;dark&quot;,
+  &quot;P4&quot;: &quot;dark&quot;,
+  &quot;P5&quot;: &quot;dark&quot;,
+  &quot;P6&quot;: &quot;dark&quot;,
+  &quot;p1_foothold&quot;: &quot;hatched&quot;,
+  &quot;observations&quot;: {
+    &quot;response&quot;: &quot;lit&quot;,
+    &quot;correction&quot;: &quot;dark&quot;,
+    &quot;configuration&quot;: &quot;dark&quot;,
+    &quot;weights&quot;: &quot;dark&quot;
+  },
+  &quot;p6_presence&quot;: &quot;hidden&quot;
+}</pre></details></figcaption></figure></div></section><section class="km-section" id="fog-reader-responders"><h2>Reader / responders</h2><p>Same treatment and fixture, different access. Reader first, responders second.</p><div class="km-pair"><figure class="km-card" data-family="w1" data-fixture="010-hint" data-viewpoint="reader"><a href="../../assets/knowledge-maps/fog-v1/w1-010-reader-hint.svg"><img src="../../assets/knowledge-maps/fog-v1/w1-010-reader-hint.svg" alt="Fog of war, Ragged regions: 010 / Before the boundary is named, Reader. Schematic drawn claim terrain; P1 hatched; P2 dark; P3 dark; P4 dark; P5 hatched. P1 outer foothold hatched. Observation islands: response dark, correction hatched, configuration dark, weights dark. P6 is only an unnamed dark hint. Dark means no available support, not false. Contours remain fixed across fixtures. Design sample, not adopted. Fog has a soft irregular edge; unexplored ground is opaque, ground that lost support stays dimly visible." width="960" height="640" loading="lazy"></a><figcaption><strong>W1 · Ragged regions</strong><p>010 · with P6 hint · Reader</p><details><summary>Exact fixture states</summary><pre>{
+  &quot;P1&quot;: &quot;hatched&quot;,
+  &quot;P2&quot;: &quot;dark&quot;,
+  &quot;P3&quot;: &quot;dark&quot;,
+  &quot;P4&quot;: &quot;dark&quot;,
+  &quot;P5&quot;: &quot;hatched&quot;,
+  &quot;P6&quot;: &quot;dark&quot;,
+  &quot;p1_foothold&quot;: &quot;hatched&quot;,
+  &quot;observations&quot;: {
+    &quot;response&quot;: &quot;dark&quot;,
+    &quot;correction&quot;: &quot;hatched&quot;,
+    &quot;configuration&quot;: &quot;dark&quot;,
+    &quot;weights&quot;: &quot;dark&quot;
+  },
+  &quot;p6_presence&quot;: &quot;hint&quot;
+}</pre></details></figcaption></figure><figure class="km-card" data-family="w1" data-fixture="010-hint" data-viewpoint="responders"><a href="../../assets/knowledge-maps/fog-v1/w1-010-responders-hint.svg"><img src="../../assets/knowledge-maps/fog-v1/w1-010-responders-hint.svg" alt="Fog of war, Ragged regions: 010 / Before the boundary is named, 27 June responders. Schematic drawn claim terrain; P1 hatched; P2 dark; P3 dark; P4 dark; P5 dark. P1 outer foothold hatched. Observation islands: response lit, correction dark, configuration dark, weights dark. P6 is only an unnamed dark hint. Dark means no available support, not false. Contours remain fixed across fixtures. Design sample, not adopted. Fog has a soft irregular edge; unexplored ground is opaque, ground that lost support stays dimly visible." width="960" height="640" loading="lazy"></a><figcaption><strong>W1 · Ragged regions</strong><p>010 · with P6 hint · 27 June responders</p><details><summary>Exact fixture states</summary><pre>{
+  &quot;P1&quot;: &quot;hatched&quot;,
+  &quot;P2&quot;: &quot;dark&quot;,
+  &quot;P3&quot;: &quot;dark&quot;,
+  &quot;P4&quot;: &quot;dark&quot;,
+  &quot;P5&quot;: &quot;dark&quot;,
+  &quot;P6&quot;: &quot;dark&quot;,
+  &quot;p1_foothold&quot;: &quot;hatched&quot;,
+  &quot;observations&quot;: {
+    &quot;response&quot;: &quot;lit&quot;,
+    &quot;correction&quot;: &quot;dark&quot;,
+    &quot;configuration&quot;: &quot;dark&quot;,
+    &quot;weights&quot;: &quot;dark&quot;
+  },
+  &quot;p6_presence&quot;: &quot;hint&quot;
+}</pre></details></figcaption></figure></div><div class="km-pair"><figure class="km-card" data-family="w2" data-fixture="010-hint" data-viewpoint="reader"><a href="../../assets/knowledge-maps/fog-v1/w2-010-reader-hint.svg"><img src="../../assets/knowledge-maps/fog-v1/w2-010-reader-hint.svg" alt="Fog of war, Line of sight: 010 / Before the boundary is named, Reader. Schematic drawn claim terrain; P1 hatched; P2 dark; P3 dark; P4 dark; P5 hatched. P1 outer foothold hatched. Observation islands: response dark, correction hatched, configuration dark, weights dark. P6 is only an unnamed dark hint. Dark means no available support, not false. Contours remain fixed across fixtures. Design sample, not adopted. Fog has a soft irregular edge; unexplored ground is opaque, ground that lost support stays dimly visible." width="960" height="640" loading="lazy"></a><figcaption><strong>W2 · Line of sight</strong><p>010 · with P6 hint · Reader</p><details><summary>Exact fixture states</summary><pre>{
+  &quot;P1&quot;: &quot;hatched&quot;,
+  &quot;P2&quot;: &quot;dark&quot;,
+  &quot;P3&quot;: &quot;dark&quot;,
+  &quot;P4&quot;: &quot;dark&quot;,
+  &quot;P5&quot;: &quot;hatched&quot;,
+  &quot;P6&quot;: &quot;dark&quot;,
+  &quot;p1_foothold&quot;: &quot;hatched&quot;,
+  &quot;observations&quot;: {
+    &quot;response&quot;: &quot;dark&quot;,
+    &quot;correction&quot;: &quot;hatched&quot;,
+    &quot;configuration&quot;: &quot;dark&quot;,
+    &quot;weights&quot;: &quot;dark&quot;
+  },
+  &quot;p6_presence&quot;: &quot;hint&quot;
+}</pre></details></figcaption></figure><figure class="km-card" data-family="w2" data-fixture="010-hint" data-viewpoint="responders"><a href="../../assets/knowledge-maps/fog-v1/w2-010-responders-hint.svg"><img src="../../assets/knowledge-maps/fog-v1/w2-010-responders-hint.svg" alt="Fog of war, Line of sight: 010 / Before the boundary is named, 27 June responders. Schematic drawn claim terrain; P1 hatched; P2 dark; P3 dark; P4 dark; P5 dark. P1 outer foothold hatched. Observation islands: response lit, correction dark, configuration dark, weights dark. P6 is only an unnamed dark hint. Dark means no available support, not false. Contours remain fixed across fixtures. Design sample, not adopted. Fog has a soft irregular edge; unexplored ground is opaque, ground that lost support stays dimly visible." width="960" height="640" loading="lazy"></a><figcaption><strong>W2 · Line of sight</strong><p>010 · with P6 hint · 27 June responders</p><details><summary>Exact fixture states</summary><pre>{
+  &quot;P1&quot;: &quot;hatched&quot;,
+  &quot;P2&quot;: &quot;dark&quot;,
+  &quot;P3&quot;: &quot;dark&quot;,
+  &quot;P4&quot;: &quot;dark&quot;,
+  &quot;P5&quot;: &quot;dark&quot;,
+  &quot;P6&quot;: &quot;dark&quot;,
+  &quot;p1_foothold&quot;: &quot;hatched&quot;,
+  &quot;observations&quot;: {
+    &quot;response&quot;: &quot;lit&quot;,
+    &quot;correction&quot;: &quot;dark&quot;,
+    &quot;configuration&quot;: &quot;dark&quot;,
+    &quot;weights&quot;: &quot;dark&quot;
+  },
+  &quot;p6_presence&quot;: &quot;hint&quot;
+}</pre></details></figcaption></figure></div><div class="km-pair"><figure class="km-card" data-family="w3" data-fixture="010-hint" data-viewpoint="reader"><a href="../../assets/knowledge-maps/fog-v1/w3-010-reader-hint.svg"><img src="../../assets/knowledge-maps/fog-v1/w3-010-reader-hint.svg" alt="Fog of war, Patchy contest: 010 / Before the boundary is named, Reader. Schematic drawn claim terrain; P1 hatched; P2 dark; P3 dark; P4 dark; P5 hatched. P1 outer foothold hatched. Observation islands: response dark, correction hatched, configuration dark, weights dark. P6 is only an unnamed dark hint. Dark means no available support, not false. Contours remain fixed across fixtures. Design sample, not adopted. Fog has a soft irregular edge; unexplored ground is opaque, ground that lost support stays dimly visible." width="960" height="640" loading="lazy"></a><figcaption><strong>W3 · Patchy contest</strong><p>010 · with P6 hint · Reader</p><details><summary>Exact fixture states</summary><pre>{
+  &quot;P1&quot;: &quot;hatched&quot;,
+  &quot;P2&quot;: &quot;dark&quot;,
+  &quot;P3&quot;: &quot;dark&quot;,
+  &quot;P4&quot;: &quot;dark&quot;,
+  &quot;P5&quot;: &quot;hatched&quot;,
+  &quot;P6&quot;: &quot;dark&quot;,
+  &quot;p1_foothold&quot;: &quot;hatched&quot;,
+  &quot;observations&quot;: {
+    &quot;response&quot;: &quot;dark&quot;,
+    &quot;correction&quot;: &quot;hatched&quot;,
+    &quot;configuration&quot;: &quot;dark&quot;,
+    &quot;weights&quot;: &quot;dark&quot;
+  },
+  &quot;p6_presence&quot;: &quot;hint&quot;
+}</pre></details></figcaption></figure><figure class="km-card" data-family="w3" data-fixture="010-hint" data-viewpoint="responders"><a href="../../assets/knowledge-maps/fog-v1/w3-010-responders-hint.svg"><img src="../../assets/knowledge-maps/fog-v1/w3-010-responders-hint.svg" alt="Fog of war, Patchy contest: 010 / Before the boundary is named, 27 June responders. Schematic drawn claim terrain; P1 hatched; P2 dark; P3 dark; P4 dark; P5 dark. P1 outer foothold hatched. Observation islands: response lit, correction dark, configuration dark, weights dark. P6 is only an unnamed dark hint. Dark means no available support, not false. Contours remain fixed across fixtures. Design sample, not adopted. Fog has a soft irregular edge; unexplored ground is opaque, ground that lost support stays dimly visible." width="960" height="640" loading="lazy"></a><figcaption><strong>W3 · Patchy contest</strong><p>010 · with P6 hint · 27 June responders</p><details><summary>Exact fixture states</summary><pre>{
+  &quot;P1&quot;: &quot;hatched&quot;,
+  &quot;P2&quot;: &quot;dark&quot;,
+  &quot;P3&quot;: &quot;dark&quot;,
+  &quot;P4&quot;: &quot;dark&quot;,
+  &quot;P5&quot;: &quot;dark&quot;,
+  &quot;P6&quot;: &quot;dark&quot;,
+  &quot;p1_foothold&quot;: &quot;hatched&quot;,
+  &quot;observations&quot;: {
+    &quot;response&quot;: &quot;lit&quot;,
+    &quot;correction&quot;: &quot;dark&quot;,
+    &quot;configuration&quot;: &quot;dark&quot;,
+    &quot;weights&quot;: &quot;dark&quot;
+  },
+  &quot;p6_presence&quot;: &quot;hint&quot;
+}</pre></details></figcaption></figure></div><div class="km-pair"><figure class="km-card" data-family="w1" data-fixture="010-no-p6" data-viewpoint="reader"><a href="../../assets/knowledge-maps/fog-v1/w1-010-reader-no-p6.svg"><img src="../../assets/knowledge-maps/fog-v1/w1-010-reader-no-p6.svg" alt="Fog of war, Ragged regions: 010 / No early hint control, Reader. Schematic drawn claim terrain; P1 hatched; P2 dark; P3 dark; P4 dark; P5 hatched. P1 outer foothold hatched. Observation islands: response dark, correction hatched, configuration dark, weights dark. P6 has no visual presence in this control; its underlying state is still dark. Dark means no available support, not false. Contours remain fixed across fixtures. Design sample, not adopted. Fog has a soft irregular edge; unexplored ground is opaque, ground that lost support stays dimly visible." width="960" height="640" loading="lazy"></a><figcaption><strong>W1 · Ragged regions</strong><p>010 · without P6 hint · Reader</p><details><summary>Exact fixture states</summary><pre>{
+  &quot;P1&quot;: &quot;hatched&quot;,
+  &quot;P2&quot;: &quot;dark&quot;,
+  &quot;P3&quot;: &quot;dark&quot;,
+  &quot;P4&quot;: &quot;dark&quot;,
+  &quot;P5&quot;: &quot;hatched&quot;,
+  &quot;P6&quot;: &quot;dark&quot;,
+  &quot;p1_foothold&quot;: &quot;hatched&quot;,
+  &quot;observations&quot;: {
+    &quot;response&quot;: &quot;dark&quot;,
+    &quot;correction&quot;: &quot;hatched&quot;,
+    &quot;configuration&quot;: &quot;dark&quot;,
+    &quot;weights&quot;: &quot;dark&quot;
+  },
+  &quot;p6_presence&quot;: &quot;hidden&quot;
+}</pre></details></figcaption></figure><figure class="km-card" data-family="w1" data-fixture="010-no-p6" data-viewpoint="responders"><a href="../../assets/knowledge-maps/fog-v1/w1-010-responders-no-p6.svg"><img src="../../assets/knowledge-maps/fog-v1/w1-010-responders-no-p6.svg" alt="Fog of war, Ragged regions: 010 / No early hint control, 27 June responders. Schematic drawn claim terrain; P1 hatched; P2 dark; P3 dark; P4 dark; P5 dark. P1 outer foothold hatched. Observation islands: response lit, correction dark, configuration dark, weights dark. P6 has no visual presence in this control; its underlying state is still dark. Dark means no available support, not false. Contours remain fixed across fixtures. Design sample, not adopted. Fog has a soft irregular edge; unexplored ground is opaque, ground that lost support stays dimly visible." width="960" height="640" loading="lazy"></a><figcaption><strong>W1 · Ragged regions</strong><p>010 · without P6 hint · 27 June responders</p><details><summary>Exact fixture states</summary><pre>{
+  &quot;P1&quot;: &quot;hatched&quot;,
+  &quot;P2&quot;: &quot;dark&quot;,
+  &quot;P3&quot;: &quot;dark&quot;,
+  &quot;P4&quot;: &quot;dark&quot;,
+  &quot;P5&quot;: &quot;dark&quot;,
+  &quot;P6&quot;: &quot;dark&quot;,
+  &quot;p1_foothold&quot;: &quot;hatched&quot;,
+  &quot;observations&quot;: {
+    &quot;response&quot;: &quot;lit&quot;,
+    &quot;correction&quot;: &quot;dark&quot;,
+    &quot;configuration&quot;: &quot;dark&quot;,
+    &quot;weights&quot;: &quot;dark&quot;
+  },
+  &quot;p6_presence&quot;: &quot;hidden&quot;
+}</pre></details></figcaption></figure></div><div class="km-pair"><figure class="km-card" data-family="w2" data-fixture="010-no-p6" data-viewpoint="reader"><a href="../../assets/knowledge-maps/fog-v1/w2-010-reader-no-p6.svg"><img src="../../assets/knowledge-maps/fog-v1/w2-010-reader-no-p6.svg" alt="Fog of war, Line of sight: 010 / No early hint control, Reader. Schematic drawn claim terrain; P1 hatched; P2 dark; P3 dark; P4 dark; P5 hatched. P1 outer foothold hatched. Observation islands: response dark, correction hatched, configuration dark, weights dark. P6 has no visual presence in this control; its underlying state is still dark. Dark means no available support, not false. Contours remain fixed across fixtures. Design sample, not adopted. Fog has a soft irregular edge; unexplored ground is opaque, ground that lost support stays dimly visible." width="960" height="640" loading="lazy"></a><figcaption><strong>W2 · Line of sight</strong><p>010 · without P6 hint · Reader</p><details><summary>Exact fixture states</summary><pre>{
+  &quot;P1&quot;: &quot;hatched&quot;,
+  &quot;P2&quot;: &quot;dark&quot;,
+  &quot;P3&quot;: &quot;dark&quot;,
+  &quot;P4&quot;: &quot;dark&quot;,
+  &quot;P5&quot;: &quot;hatched&quot;,
+  &quot;P6&quot;: &quot;dark&quot;,
+  &quot;p1_foothold&quot;: &quot;hatched&quot;,
+  &quot;observations&quot;: {
+    &quot;response&quot;: &quot;dark&quot;,
+    &quot;correction&quot;: &quot;hatched&quot;,
+    &quot;configuration&quot;: &quot;dark&quot;,
+    &quot;weights&quot;: &quot;dark&quot;
+  },
+  &quot;p6_presence&quot;: &quot;hidden&quot;
+}</pre></details></figcaption></figure><figure class="km-card" data-family="w2" data-fixture="010-no-p6" data-viewpoint="responders"><a href="../../assets/knowledge-maps/fog-v1/w2-010-responders-no-p6.svg"><img src="../../assets/knowledge-maps/fog-v1/w2-010-responders-no-p6.svg" alt="Fog of war, Line of sight: 010 / No early hint control, 27 June responders. Schematic drawn claim terrain; P1 hatched; P2 dark; P3 dark; P4 dark; P5 dark. P1 outer foothold hatched. Observation islands: response lit, correction dark, configuration dark, weights dark. P6 has no visual presence in this control; its underlying state is still dark. Dark means no available support, not false. Contours remain fixed across fixtures. Design sample, not adopted. Fog has a soft irregular edge; unexplored ground is opaque, ground that lost support stays dimly visible." width="960" height="640" loading="lazy"></a><figcaption><strong>W2 · Line of sight</strong><p>010 · without P6 hint · 27 June responders</p><details><summary>Exact fixture states</summary><pre>{
+  &quot;P1&quot;: &quot;hatched&quot;,
+  &quot;P2&quot;: &quot;dark&quot;,
+  &quot;P3&quot;: &quot;dark&quot;,
+  &quot;P4&quot;: &quot;dark&quot;,
+  &quot;P5&quot;: &quot;dark&quot;,
+  &quot;P6&quot;: &quot;dark&quot;,
+  &quot;p1_foothold&quot;: &quot;hatched&quot;,
+  &quot;observations&quot;: {
+    &quot;response&quot;: &quot;lit&quot;,
+    &quot;correction&quot;: &quot;dark&quot;,
+    &quot;configuration&quot;: &quot;dark&quot;,
+    &quot;weights&quot;: &quot;dark&quot;
+  },
+  &quot;p6_presence&quot;: &quot;hidden&quot;
+}</pre></details></figcaption></figure></div><div class="km-pair"><figure class="km-card" data-family="w3" data-fixture="010-no-p6" data-viewpoint="reader"><a href="../../assets/knowledge-maps/fog-v1/w3-010-reader-no-p6.svg"><img src="../../assets/knowledge-maps/fog-v1/w3-010-reader-no-p6.svg" alt="Fog of war, Patchy contest: 010 / No early hint control, Reader. Schematic drawn claim terrain; P1 hatched; P2 dark; P3 dark; P4 dark; P5 hatched. P1 outer foothold hatched. Observation islands: response dark, correction hatched, configuration dark, weights dark. P6 has no visual presence in this control; its underlying state is still dark. Dark means no available support, not false. Contours remain fixed across fixtures. Design sample, not adopted. Fog has a soft irregular edge; unexplored ground is opaque, ground that lost support stays dimly visible." width="960" height="640" loading="lazy"></a><figcaption><strong>W3 · Patchy contest</strong><p>010 · without P6 hint · Reader</p><details><summary>Exact fixture states</summary><pre>{
+  &quot;P1&quot;: &quot;hatched&quot;,
+  &quot;P2&quot;: &quot;dark&quot;,
+  &quot;P3&quot;: &quot;dark&quot;,
+  &quot;P4&quot;: &quot;dark&quot;,
+  &quot;P5&quot;: &quot;hatched&quot;,
+  &quot;P6&quot;: &quot;dark&quot;,
+  &quot;p1_foothold&quot;: &quot;hatched&quot;,
+  &quot;observations&quot;: {
+    &quot;response&quot;: &quot;dark&quot;,
+    &quot;correction&quot;: &quot;hatched&quot;,
+    &quot;configuration&quot;: &quot;dark&quot;,
+    &quot;weights&quot;: &quot;dark&quot;
+  },
+  &quot;p6_presence&quot;: &quot;hidden&quot;
+}</pre></details></figcaption></figure><figure class="km-card" data-family="w3" data-fixture="010-no-p6" data-viewpoint="responders"><a href="../../assets/knowledge-maps/fog-v1/w3-010-responders-no-p6.svg"><img src="../../assets/knowledge-maps/fog-v1/w3-010-responders-no-p6.svg" alt="Fog of war, Patchy contest: 010 / No early hint control, 27 June responders. Schematic drawn claim terrain; P1 hatched; P2 dark; P3 dark; P4 dark; P5 dark. P1 outer foothold hatched. Observation islands: response lit, correction dark, configuration dark, weights dark. P6 has no visual presence in this control; its underlying state is still dark. Dark means no available support, not false. Contours remain fixed across fixtures. Design sample, not adopted. Fog has a soft irregular edge; unexplored ground is opaque, ground that lost support stays dimly visible." width="960" height="640" loading="lazy"></a><figcaption><strong>W3 · Patchy contest</strong><p>010 · without P6 hint · 27 June responders</p><details><summary>Exact fixture states</summary><pre>{
+  &quot;P1&quot;: &quot;hatched&quot;,
+  &quot;P2&quot;: &quot;dark&quot;,
+  &quot;P3&quot;: &quot;dark&quot;,
+  &quot;P4&quot;: &quot;dark&quot;,
+  &quot;P5&quot;: &quot;dark&quot;,
+  &quot;P6&quot;: &quot;dark&quot;,
+  &quot;p1_foothold&quot;: &quot;hatched&quot;,
+  &quot;observations&quot;: {
+    &quot;response&quot;: &quot;lit&quot;,
+    &quot;correction&quot;: &quot;dark&quot;,
+    &quot;configuration&quot;: &quot;dark&quot;,
+    &quot;weights&quot;: &quot;dark&quot;
+  },
+  &quot;p6_presence&quot;: &quot;hidden&quot;
+}</pre></details></figcaption></figure></div><div class="km-pair"><figure class="km-card" data-family="w1" data-fixture="016" data-viewpoint="reader"><a href="../../assets/knowledge-maps/fog-v1/w1-016-reader.svg"><img src="../../assets/knowledge-maps/fog-v1/w1-016-reader.svg" alt="Fog of war, Ragged regions: 016 / The unreachable field, Reader. Schematic drawn claim terrain; P1 hatched; P2 dark; P3 dark; P4 dark; P5 hatched. P1 outer foothold hatched. Observation islands: response dark, correction hatched, configuration hatched, weights dark. P6 remains dark and unreachable. Dark means no available support, not false. Contours remain fixed across fixtures. Design sample, not adopted. Fog has a soft irregular edge; unexplored ground is opaque, ground that lost support stays dimly visible." width="960" height="640" loading="lazy"></a><figcaption><strong>W1 · Ragged regions</strong><p>016 · observation boundary · Reader</p><details><summary>Exact fixture states</summary><pre>{
+  &quot;P1&quot;: &quot;hatched&quot;,
+  &quot;P2&quot;: &quot;dark&quot;,
+  &quot;P3&quot;: &quot;dark&quot;,
+  &quot;P4&quot;: &quot;dark&quot;,
+  &quot;P5&quot;: &quot;hatched&quot;,
+  &quot;P6&quot;: &quot;dark&quot;,
+  &quot;p1_foothold&quot;: &quot;hatched&quot;,
+  &quot;observations&quot;: {
+    &quot;response&quot;: &quot;dark&quot;,
+    &quot;correction&quot;: &quot;hatched&quot;,
+    &quot;configuration&quot;: &quot;hatched&quot;,
+    &quot;weights&quot;: &quot;dark&quot;
+  },
+  &quot;p6_presence&quot;: &quot;acknowledged&quot;
+}</pre></details></figcaption></figure><figure class="km-card" data-family="w1" data-fixture="016" data-viewpoint="responders"><a href="../../assets/knowledge-maps/fog-v1/w1-016-responders.svg"><img src="../../assets/knowledge-maps/fog-v1/w1-016-responders.svg" alt="Fog of war, Ragged regions: 016 / The unreachable field, 27 June responders. Schematic drawn claim terrain; P1 hatched; P2 dark; P3 dark; P4 dark; P5 dark. P1 outer foothold hatched. Observation islands: response lit, correction dark, configuration dark, weights dark. P6 remains dark and unreachable. Dark means no available support, not false. Contours remain fixed across fixtures. Design sample, not adopted. Fog has a soft irregular edge; unexplored ground is opaque, ground that lost support stays dimly visible." width="960" height="640" loading="lazy"></a><figcaption><strong>W1 · Ragged regions</strong><p>016 · observation boundary · 27 June responders</p><details><summary>Exact fixture states</summary><pre>{
+  &quot;P1&quot;: &quot;hatched&quot;,
+  &quot;P2&quot;: &quot;dark&quot;,
+  &quot;P3&quot;: &quot;dark&quot;,
+  &quot;P4&quot;: &quot;dark&quot;,
+  &quot;P5&quot;: &quot;dark&quot;,
+  &quot;P6&quot;: &quot;dark&quot;,
+  &quot;p1_foothold&quot;: &quot;hatched&quot;,
+  &quot;observations&quot;: {
+    &quot;response&quot;: &quot;lit&quot;,
+    &quot;correction&quot;: &quot;dark&quot;,
+    &quot;configuration&quot;: &quot;dark&quot;,
+    &quot;weights&quot;: &quot;dark&quot;
+  },
+  &quot;p6_presence&quot;: &quot;acknowledged&quot;
+}</pre></details></figcaption></figure></div><div class="km-pair"><figure class="km-card" data-family="w2" data-fixture="016" data-viewpoint="reader"><a href="../../assets/knowledge-maps/fog-v1/w2-016-reader.svg"><img src="../../assets/knowledge-maps/fog-v1/w2-016-reader.svg" alt="Fog of war, Line of sight: 016 / The unreachable field, Reader. Schematic drawn claim terrain; P1 hatched; P2 dark; P3 dark; P4 dark; P5 hatched. P1 outer foothold hatched. Observation islands: response dark, correction hatched, configuration hatched, weights dark. P6 remains dark and unreachable. Dark means no available support, not false. Contours remain fixed across fixtures. Design sample, not adopted. Fog has a soft irregular edge; unexplored ground is opaque, ground that lost support stays dimly visible." width="960" height="640" loading="lazy"></a><figcaption><strong>W2 · Line of sight</strong><p>016 · observation boundary · Reader</p><details><summary>Exact fixture states</summary><pre>{
+  &quot;P1&quot;: &quot;hatched&quot;,
+  &quot;P2&quot;: &quot;dark&quot;,
+  &quot;P3&quot;: &quot;dark&quot;,
+  &quot;P4&quot;: &quot;dark&quot;,
+  &quot;P5&quot;: &quot;hatched&quot;,
+  &quot;P6&quot;: &quot;dark&quot;,
+  &quot;p1_foothold&quot;: &quot;hatched&quot;,
+  &quot;observations&quot;: {
+    &quot;response&quot;: &quot;dark&quot;,
+    &quot;correction&quot;: &quot;hatched&quot;,
+    &quot;configuration&quot;: &quot;hatched&quot;,
+    &quot;weights&quot;: &quot;dark&quot;
+  },
+  &quot;p6_presence&quot;: &quot;acknowledged&quot;
+}</pre></details></figcaption></figure><figure class="km-card" data-family="w2" data-fixture="016" data-viewpoint="responders"><a href="../../assets/knowledge-maps/fog-v1/w2-016-responders.svg"><img src="../../assets/knowledge-maps/fog-v1/w2-016-responders.svg" alt="Fog of war, Line of sight: 016 / The unreachable field, 27 June responders. Schematic drawn claim terrain; P1 hatched; P2 dark; P3 dark; P4 dark; P5 dark. P1 outer foothold hatched. Observation islands: response lit, correction dark, configuration dark, weights dark. P6 remains dark and unreachable. Dark means no available support, not false. Contours remain fixed across fixtures. Design sample, not adopted. Fog has a soft irregular edge; unexplored ground is opaque, ground that lost support stays dimly visible." width="960" height="640" loading="lazy"></a><figcaption><strong>W2 · Line of sight</strong><p>016 · observation boundary · 27 June responders</p><details><summary>Exact fixture states</summary><pre>{
+  &quot;P1&quot;: &quot;hatched&quot;,
+  &quot;P2&quot;: &quot;dark&quot;,
+  &quot;P3&quot;: &quot;dark&quot;,
+  &quot;P4&quot;: &quot;dark&quot;,
+  &quot;P5&quot;: &quot;dark&quot;,
+  &quot;P6&quot;: &quot;dark&quot;,
+  &quot;p1_foothold&quot;: &quot;hatched&quot;,
+  &quot;observations&quot;: {
+    &quot;response&quot;: &quot;lit&quot;,
+    &quot;correction&quot;: &quot;dark&quot;,
+    &quot;configuration&quot;: &quot;dark&quot;,
+    &quot;weights&quot;: &quot;dark&quot;
+  },
+  &quot;p6_presence&quot;: &quot;acknowledged&quot;
+}</pre></details></figcaption></figure></div><div class="km-pair"><figure class="km-card" data-family="w3" data-fixture="016" data-viewpoint="reader"><a href="../../assets/knowledge-maps/fog-v1/w3-016-reader.svg"><img src="../../assets/knowledge-maps/fog-v1/w3-016-reader.svg" alt="Fog of war, Patchy contest: 016 / The unreachable field, Reader. Schematic drawn claim terrain; P1 hatched; P2 dark; P3 dark; P4 dark; P5 hatched. P1 outer foothold hatched. Observation islands: response dark, correction hatched, configuration hatched, weights dark. P6 remains dark and unreachable. Dark means no available support, not false. Contours remain fixed across fixtures. Design sample, not adopted. Fog has a soft irregular edge; unexplored ground is opaque, ground that lost support stays dimly visible." width="960" height="640" loading="lazy"></a><figcaption><strong>W3 · Patchy contest</strong><p>016 · observation boundary · Reader</p><details><summary>Exact fixture states</summary><pre>{
+  &quot;P1&quot;: &quot;hatched&quot;,
+  &quot;P2&quot;: &quot;dark&quot;,
+  &quot;P3&quot;: &quot;dark&quot;,
+  &quot;P4&quot;: &quot;dark&quot;,
+  &quot;P5&quot;: &quot;hatched&quot;,
+  &quot;P6&quot;: &quot;dark&quot;,
+  &quot;p1_foothold&quot;: &quot;hatched&quot;,
+  &quot;observations&quot;: {
+    &quot;response&quot;: &quot;dark&quot;,
+    &quot;correction&quot;: &quot;hatched&quot;,
+    &quot;configuration&quot;: &quot;hatched&quot;,
+    &quot;weights&quot;: &quot;dark&quot;
+  },
+  &quot;p6_presence&quot;: &quot;acknowledged&quot;
+}</pre></details></figcaption></figure><figure class="km-card" data-family="w3" data-fixture="016" data-viewpoint="responders"><a href="../../assets/knowledge-maps/fog-v1/w3-016-responders.svg"><img src="../../assets/knowledge-maps/fog-v1/w3-016-responders.svg" alt="Fog of war, Patchy contest: 016 / The unreachable field, 27 June responders. Schematic drawn claim terrain; P1 hatched; P2 dark; P3 dark; P4 dark; P5 dark. P1 outer foothold hatched. Observation islands: response lit, correction dark, configuration dark, weights dark. P6 remains dark and unreachable. Dark means no available support, not false. Contours remain fixed across fixtures. Design sample, not adopted. Fog has a soft irregular edge; unexplored ground is opaque, ground that lost support stays dimly visible." width="960" height="640" loading="lazy"></a><figcaption><strong>W3 · Patchy contest</strong><p>016 · observation boundary · 27 June responders</p><details><summary>Exact fixture states</summary><pre>{
+  &quot;P1&quot;: &quot;hatched&quot;,
+  &quot;P2&quot;: &quot;dark&quot;,
+  &quot;P3&quot;: &quot;dark&quot;,
+  &quot;P4&quot;: &quot;dark&quot;,
+  &quot;P5&quot;: &quot;dark&quot;,
+  &quot;P6&quot;: &quot;dark&quot;,
+  &quot;p1_foothold&quot;: &quot;hatched&quot;,
+  &quot;observations&quot;: {
+    &quot;response&quot;: &quot;lit&quot;,
+    &quot;correction&quot;: &quot;dark&quot;,
+    &quot;configuration&quot;: &quot;dark&quot;,
+    &quot;weights&quot;: &quot;dark&quot;
+  },
+  &quot;p6_presence&quot;: &quot;acknowledged&quot;
+}</pre></details></figcaption></figure></div><div class="km-pair"><figure class="km-card" data-family="w1" data-fixture="039-before" data-viewpoint="reader"><a href="../../assets/knowledge-maps/fog-v1/w1-039-before-reader.svg"><img src="../../assets/knowledge-maps/fog-v1/w1-039-before-reader.svg" alt="Fog of war, Ragged regions: 039 / Before the weights reveal, Reader. Schematic drawn claim terrain; P1 hatched; P2 hatched; P3 dark; P4 dark; P5 hatched. P1 outer foothold hatched. Observation islands: response hatched, correction hatched, configuration hatched, weights dark. P6 remains dark and unreachable. Dark means no available support, not false. Contours remain fixed across fixtures. Design sample, not adopted. Fog has a soft irregular edge; unexplored ground is opaque, ground that lost support stays dimly visible." width="960" height="640" loading="lazy"></a><figcaption><strong>W1 · Ragged regions</strong><p>039 · before the reveal · Reader</p><details><summary>Exact fixture states</summary><pre>{
+  &quot;P1&quot;: &quot;hatched&quot;,
+  &quot;P2&quot;: &quot;hatched&quot;,
+  &quot;P3&quot;: &quot;dark&quot;,
+  &quot;P4&quot;: &quot;dark&quot;,
+  &quot;P5&quot;: &quot;hatched&quot;,
+  &quot;P6&quot;: &quot;dark&quot;,
+  &quot;p1_foothold&quot;: &quot;hatched&quot;,
+  &quot;observations&quot;: {
+    &quot;response&quot;: &quot;hatched&quot;,
+    &quot;correction&quot;: &quot;hatched&quot;,
+    &quot;configuration&quot;: &quot;hatched&quot;,
+    &quot;weights&quot;: &quot;dark&quot;
+  },
+  &quot;p6_presence&quot;: &quot;acknowledged&quot;
+}</pre></details></figcaption></figure><figure class="km-card" data-family="w1" data-fixture="039-before" data-viewpoint="responders"><a href="../../assets/knowledge-maps/fog-v1/w1-039-before-responders.svg"><img src="../../assets/knowledge-maps/fog-v1/w1-039-before-responders.svg" alt="Fog of war, Ragged regions: 039 / Before the weights reveal, 27 June responders. Schematic drawn claim terrain; P1 hatched; P2 dark; P3 dark; P4 dark; P5 dark. P1 outer foothold hatched. Observation islands: response lit, correction dark, configuration dark, weights dark. P6 remains dark and unreachable. Dark means no available support, not false. Contours remain fixed across fixtures. Design sample, not adopted. Fog has a soft irregular edge; unexplored ground is opaque, ground that lost support stays dimly visible." width="960" height="640" loading="lazy"></a><figcaption><strong>W1 · Ragged regions</strong><p>039 · before the reveal · 27 June responders</p><details><summary>Exact fixture states</summary><pre>{
+  &quot;P1&quot;: &quot;hatched&quot;,
+  &quot;P2&quot;: &quot;dark&quot;,
+  &quot;P3&quot;: &quot;dark&quot;,
+  &quot;P4&quot;: &quot;dark&quot;,
+  &quot;P5&quot;: &quot;dark&quot;,
+  &quot;P6&quot;: &quot;dark&quot;,
+  &quot;p1_foothold&quot;: &quot;hatched&quot;,
+  &quot;observations&quot;: {
+    &quot;response&quot;: &quot;lit&quot;,
+    &quot;correction&quot;: &quot;dark&quot;,
+    &quot;configuration&quot;: &quot;dark&quot;,
+    &quot;weights&quot;: &quot;dark&quot;
+  },
+  &quot;p6_presence&quot;: &quot;acknowledged&quot;
+}</pre></details></figcaption></figure></div><div class="km-pair"><figure class="km-card" data-family="w2" data-fixture="039-before" data-viewpoint="reader"><a href="../../assets/knowledge-maps/fog-v1/w2-039-before-reader.svg"><img src="../../assets/knowledge-maps/fog-v1/w2-039-before-reader.svg" alt="Fog of war, Line of sight: 039 / Before the weights reveal, Reader. Schematic drawn claim terrain; P1 hatched; P2 hatched; P3 dark; P4 dark; P5 hatched. P1 outer foothold hatched. Observation islands: response hatched, correction hatched, configuration hatched, weights dark. P6 remains dark and unreachable. Dark means no available support, not false. Contours remain fixed across fixtures. Design sample, not adopted. Fog has a soft irregular edge; unexplored ground is opaque, ground that lost support stays dimly visible." width="960" height="640" loading="lazy"></a><figcaption><strong>W2 · Line of sight</strong><p>039 · before the reveal · Reader</p><details><summary>Exact fixture states</summary><pre>{
+  &quot;P1&quot;: &quot;hatched&quot;,
+  &quot;P2&quot;: &quot;hatched&quot;,
+  &quot;P3&quot;: &quot;dark&quot;,
+  &quot;P4&quot;: &quot;dark&quot;,
+  &quot;P5&quot;: &quot;hatched&quot;,
+  &quot;P6&quot;: &quot;dark&quot;,
+  &quot;p1_foothold&quot;: &quot;hatched&quot;,
+  &quot;observations&quot;: {
+    &quot;response&quot;: &quot;hatched&quot;,
+    &quot;correction&quot;: &quot;hatched&quot;,
+    &quot;configuration&quot;: &quot;hatched&quot;,
+    &quot;weights&quot;: &quot;dark&quot;
+  },
+  &quot;p6_presence&quot;: &quot;acknowledged&quot;
+}</pre></details></figcaption></figure><figure class="km-card" data-family="w2" data-fixture="039-before" data-viewpoint="responders"><a href="../../assets/knowledge-maps/fog-v1/w2-039-before-responders.svg"><img src="../../assets/knowledge-maps/fog-v1/w2-039-before-responders.svg" alt="Fog of war, Line of sight: 039 / Before the weights reveal, 27 June responders. Schematic drawn claim terrain; P1 hatched; P2 dark; P3 dark; P4 dark; P5 dark. P1 outer foothold hatched. Observation islands: response lit, correction dark, configuration dark, weights dark. P6 remains dark and unreachable. Dark means no available support, not false. Contours remain fixed across fixtures. Design sample, not adopted. Fog has a soft irregular edge; unexplored ground is opaque, ground that lost support stays dimly visible." width="960" height="640" loading="lazy"></a><figcaption><strong>W2 · Line of sight</strong><p>039 · before the reveal · 27 June responders</p><details><summary>Exact fixture states</summary><pre>{
+  &quot;P1&quot;: &quot;hatched&quot;,
+  &quot;P2&quot;: &quot;dark&quot;,
+  &quot;P3&quot;: &quot;dark&quot;,
+  &quot;P4&quot;: &quot;dark&quot;,
+  &quot;P5&quot;: &quot;dark&quot;,
+  &quot;P6&quot;: &quot;dark&quot;,
+  &quot;p1_foothold&quot;: &quot;hatched&quot;,
+  &quot;observations&quot;: {
+    &quot;response&quot;: &quot;lit&quot;,
+    &quot;correction&quot;: &quot;dark&quot;,
+    &quot;configuration&quot;: &quot;dark&quot;,
+    &quot;weights&quot;: &quot;dark&quot;
+  },
+  &quot;p6_presence&quot;: &quot;acknowledged&quot;
+}</pre></details></figcaption></figure></div><div class="km-pair"><figure class="km-card" data-family="w3" data-fixture="039-before" data-viewpoint="reader"><a href="../../assets/knowledge-maps/fog-v1/w3-039-before-reader.svg"><img src="../../assets/knowledge-maps/fog-v1/w3-039-before-reader.svg" alt="Fog of war, Patchy contest: 039 / Before the weights reveal, Reader. Schematic drawn claim terrain; P1 hatched; P2 hatched; P3 dark; P4 dark; P5 hatched. P1 outer foothold hatched. Observation islands: response hatched, correction hatched, configuration hatched, weights dark. P6 remains dark and unreachable. Dark means no available support, not false. Contours remain fixed across fixtures. Design sample, not adopted. Fog has a soft irregular edge; unexplored ground is opaque, ground that lost support stays dimly visible." width="960" height="640" loading="lazy"></a><figcaption><strong>W3 · Patchy contest</strong><p>039 · before the reveal · Reader</p><details><summary>Exact fixture states</summary><pre>{
+  &quot;P1&quot;: &quot;hatched&quot;,
+  &quot;P2&quot;: &quot;hatched&quot;,
+  &quot;P3&quot;: &quot;dark&quot;,
+  &quot;P4&quot;: &quot;dark&quot;,
+  &quot;P5&quot;: &quot;hatched&quot;,
+  &quot;P6&quot;: &quot;dark&quot;,
+  &quot;p1_foothold&quot;: &quot;hatched&quot;,
+  &quot;observations&quot;: {
+    &quot;response&quot;: &quot;hatched&quot;,
+    &quot;correction&quot;: &quot;hatched&quot;,
+    &quot;configuration&quot;: &quot;hatched&quot;,
+    &quot;weights&quot;: &quot;dark&quot;
+  },
+  &quot;p6_presence&quot;: &quot;acknowledged&quot;
+}</pre></details></figcaption></figure><figure class="km-card" data-family="w3" data-fixture="039-before" data-viewpoint="responders"><a href="../../assets/knowledge-maps/fog-v1/w3-039-before-responders.svg"><img src="../../assets/knowledge-maps/fog-v1/w3-039-before-responders.svg" alt="Fog of war, Patchy contest: 039 / Before the weights reveal, 27 June responders. Schematic drawn claim terrain; P1 hatched; P2 dark; P3 dark; P4 dark; P5 dark. P1 outer foothold hatched. Observation islands: response lit, correction dark, configuration dark, weights dark. P6 remains dark and unreachable. Dark means no available support, not false. Contours remain fixed across fixtures. Design sample, not adopted. Fog has a soft irregular edge; unexplored ground is opaque, ground that lost support stays dimly visible." width="960" height="640" loading="lazy"></a><figcaption><strong>W3 · Patchy contest</strong><p>039 · before the reveal · 27 June responders</p><details><summary>Exact fixture states</summary><pre>{
+  &quot;P1&quot;: &quot;hatched&quot;,
+  &quot;P2&quot;: &quot;dark&quot;,
+  &quot;P3&quot;: &quot;dark&quot;,
+  &quot;P4&quot;: &quot;dark&quot;,
+  &quot;P5&quot;: &quot;dark&quot;,
+  &quot;P6&quot;: &quot;dark&quot;,
+  &quot;p1_foothold&quot;: &quot;hatched&quot;,
+  &quot;observations&quot;: {
+    &quot;response&quot;: &quot;lit&quot;,
+    &quot;correction&quot;: &quot;dark&quot;,
+    &quot;configuration&quot;: &quot;dark&quot;,
+    &quot;weights&quot;: &quot;dark&quot;
+  },
+  &quot;p6_presence&quot;: &quot;acknowledged&quot;
+}</pre></details></figcaption></figure></div><div class="km-pair"><figure class="km-card" data-family="w1" data-fixture="039-after" data-viewpoint="reader"><a href="../../assets/knowledge-maps/fog-v1/w1-039-after-reader.svg"><img src="../../assets/knowledge-maps/fog-v1/w1-039-after-reader.svg" alt="Fog of war, Ragged regions: 039 / After the weights reveal, Reader. Schematic drawn claim terrain; P1 hatched; P2 dark; P3 dark; P4 dark; P5 hatched. P1 outer foothold dark. Observation islands: response hatched, correction hatched, configuration hatched, weights hatched. P6 remains dark and unreachable. Dark means no available support, not false. Contours remain fixed across fixtures. Design sample, not adopted. Fog has a soft irregular edge; unexplored ground is opaque, ground that lost support stays dimly visible." width="960" height="640" loading="lazy"></a><figcaption><strong>W1 · Ragged regions</strong><p>039 · after the reveal · Reader</p><details><summary>Exact fixture states</summary><pre>{
+  &quot;P1&quot;: &quot;hatched&quot;,
+  &quot;P2&quot;: &quot;dark&quot;,
+  &quot;P3&quot;: &quot;dark&quot;,
+  &quot;P4&quot;: &quot;dark&quot;,
+  &quot;P5&quot;: &quot;hatched&quot;,
+  &quot;P6&quot;: &quot;dark&quot;,
+  &quot;p1_foothold&quot;: &quot;dark&quot;,
+  &quot;observations&quot;: {
+    &quot;response&quot;: &quot;hatched&quot;,
+    &quot;correction&quot;: &quot;hatched&quot;,
+    &quot;configuration&quot;: &quot;hatched&quot;,
+    &quot;weights&quot;: &quot;hatched&quot;
+  },
+  &quot;p6_presence&quot;: &quot;acknowledged&quot;
+}</pre></details></figcaption></figure><figure class="km-card" data-family="w1" data-fixture="039-after" data-viewpoint="responders"><a href="../../assets/knowledge-maps/fog-v1/w1-039-after-responders.svg"><img src="../../assets/knowledge-maps/fog-v1/w1-039-after-responders.svg" alt="Fog of war, Ragged regions: 039 / After the weights reveal, 27 June responders. Schematic drawn claim terrain; P1 hatched; P2 dark; P3 dark; P4 dark; P5 dark. P1 outer foothold hatched. Observation islands: response lit, correction dark, configuration dark, weights dark. P6 remains dark and unreachable. Dark means no available support, not false. Contours remain fixed across fixtures. Design sample, not adopted. Fog has a soft irregular edge; unexplored ground is opaque, ground that lost support stays dimly visible." width="960" height="640" loading="lazy"></a><figcaption><strong>W1 · Ragged regions</strong><p>039 · after the reveal · 27 June responders</p><details><summary>Exact fixture states</summary><pre>{
+  &quot;P1&quot;: &quot;hatched&quot;,
+  &quot;P2&quot;: &quot;dark&quot;,
+  &quot;P3&quot;: &quot;dark&quot;,
+  &quot;P4&quot;: &quot;dark&quot;,
+  &quot;P5&quot;: &quot;dark&quot;,
+  &quot;P6&quot;: &quot;dark&quot;,
+  &quot;p1_foothold&quot;: &quot;hatched&quot;,
+  &quot;observations&quot;: {
+    &quot;response&quot;: &quot;lit&quot;,
+    &quot;correction&quot;: &quot;dark&quot;,
+    &quot;configuration&quot;: &quot;dark&quot;,
+    &quot;weights&quot;: &quot;dark&quot;
+  },
+  &quot;p6_presence&quot;: &quot;acknowledged&quot;
+}</pre></details></figcaption></figure></div><div class="km-pair"><figure class="km-card" data-family="w2" data-fixture="039-after" data-viewpoint="reader"><a href="../../assets/knowledge-maps/fog-v1/w2-039-after-reader.svg"><img src="../../assets/knowledge-maps/fog-v1/w2-039-after-reader.svg" alt="Fog of war, Line of sight: 039 / After the weights reveal, Reader. Schematic drawn claim terrain; P1 hatched; P2 dark; P3 dark; P4 dark; P5 hatched. P1 outer foothold dark. Observation islands: response hatched, correction hatched, configuration hatched, weights hatched. P6 remains dark and unreachable. Dark means no available support, not false. Contours remain fixed across fixtures. Design sample, not adopted. Fog has a soft irregular edge; unexplored ground is opaque, ground that lost support stays dimly visible." width="960" height="640" loading="lazy"></a><figcaption><strong>W2 · Line of sight</strong><p>039 · after the reveal · Reader</p><details><summary>Exact fixture states</summary><pre>{
+  &quot;P1&quot;: &quot;hatched&quot;,
+  &quot;P2&quot;: &quot;dark&quot;,
+  &quot;P3&quot;: &quot;dark&quot;,
+  &quot;P4&quot;: &quot;dark&quot;,
+  &quot;P5&quot;: &quot;hatched&quot;,
+  &quot;P6&quot;: &quot;dark&quot;,
+  &quot;p1_foothold&quot;: &quot;dark&quot;,
+  &quot;observations&quot;: {
+    &quot;response&quot;: &quot;hatched&quot;,
+    &quot;correction&quot;: &quot;hatched&quot;,
+    &quot;configuration&quot;: &quot;hatched&quot;,
+    &quot;weights&quot;: &quot;hatched&quot;
+  },
+  &quot;p6_presence&quot;: &quot;acknowledged&quot;
+}</pre></details></figcaption></figure><figure class="km-card" data-family="w2" data-fixture="039-after" data-viewpoint="responders"><a href="../../assets/knowledge-maps/fog-v1/w2-039-after-responders.svg"><img src="../../assets/knowledge-maps/fog-v1/w2-039-after-responders.svg" alt="Fog of war, Line of sight: 039 / After the weights reveal, 27 June responders. Schematic drawn claim terrain; P1 hatched; P2 dark; P3 dark; P4 dark; P5 dark. P1 outer foothold hatched. Observation islands: response lit, correction dark, configuration dark, weights dark. P6 remains dark and unreachable. Dark means no available support, not false. Contours remain fixed across fixtures. Design sample, not adopted. Fog has a soft irregular edge; unexplored ground is opaque, ground that lost support stays dimly visible." width="960" height="640" loading="lazy"></a><figcaption><strong>W2 · Line of sight</strong><p>039 · after the reveal · 27 June responders</p><details><summary>Exact fixture states</summary><pre>{
+  &quot;P1&quot;: &quot;hatched&quot;,
+  &quot;P2&quot;: &quot;dark&quot;,
+  &quot;P3&quot;: &quot;dark&quot;,
+  &quot;P4&quot;: &quot;dark&quot;,
+  &quot;P5&quot;: &quot;dark&quot;,
+  &quot;P6&quot;: &quot;dark&quot;,
+  &quot;p1_foothold&quot;: &quot;hatched&quot;,
+  &quot;observations&quot;: {
+    &quot;response&quot;: &quot;lit&quot;,
+    &quot;correction&quot;: &quot;dark&quot;,
+    &quot;configuration&quot;: &quot;dark&quot;,
+    &quot;weights&quot;: &quot;dark&quot;
+  },
+  &quot;p6_presence&quot;: &quot;acknowledged&quot;
+}</pre></details></figcaption></figure></div><div class="km-pair"><figure class="km-card" data-family="w3" data-fixture="039-after" data-viewpoint="reader"><a href="../../assets/knowledge-maps/fog-v1/w3-039-after-reader.svg"><img src="../../assets/knowledge-maps/fog-v1/w3-039-after-reader.svg" alt="Fog of war, Patchy contest: 039 / After the weights reveal, Reader. Schematic drawn claim terrain; P1 hatched; P2 dark; P3 dark; P4 dark; P5 hatched. P1 outer foothold dark. Observation islands: response hatched, correction hatched, configuration hatched, weights hatched. P6 remains dark and unreachable. Dark means no available support, not false. Contours remain fixed across fixtures. Design sample, not adopted. Fog has a soft irregular edge; unexplored ground is opaque, ground that lost support stays dimly visible." width="960" height="640" loading="lazy"></a><figcaption><strong>W3 · Patchy contest</strong><p>039 · after the reveal · Reader</p><details><summary>Exact fixture states</summary><pre>{
+  &quot;P1&quot;: &quot;hatched&quot;,
+  &quot;P2&quot;: &quot;dark&quot;,
+  &quot;P3&quot;: &quot;dark&quot;,
+  &quot;P4&quot;: &quot;dark&quot;,
+  &quot;P5&quot;: &quot;hatched&quot;,
+  &quot;P6&quot;: &quot;dark&quot;,
+  &quot;p1_foothold&quot;: &quot;dark&quot;,
+  &quot;observations&quot;: {
+    &quot;response&quot;: &quot;hatched&quot;,
+    &quot;correction&quot;: &quot;hatched&quot;,
+    &quot;configuration&quot;: &quot;hatched&quot;,
+    &quot;weights&quot;: &quot;hatched&quot;
+  },
+  &quot;p6_presence&quot;: &quot;acknowledged&quot;
+}</pre></details></figcaption></figure><figure class="km-card" data-family="w3" data-fixture="039-after" data-viewpoint="responders"><a href="../../assets/knowledge-maps/fog-v1/w3-039-after-responders.svg"><img src="../../assets/knowledge-maps/fog-v1/w3-039-after-responders.svg" alt="Fog of war, Patchy contest: 039 / After the weights reveal, 27 June responders. Schematic drawn claim terrain; P1 hatched; P2 dark; P3 dark; P4 dark; P5 dark. P1 outer foothold hatched. Observation islands: response lit, correction dark, configuration dark, weights dark. P6 remains dark and unreachable. Dark means no available support, not false. Contours remain fixed across fixtures. Design sample, not adopted. Fog has a soft irregular edge; unexplored ground is opaque, ground that lost support stays dimly visible." width="960" height="640" loading="lazy"></a><figcaption><strong>W3 · Patchy contest</strong><p>039 · after the reveal · 27 June responders</p><details><summary>Exact fixture states</summary><pre>{
+  &quot;P1&quot;: &quot;hatched&quot;,
+  &quot;P2&quot;: &quot;dark&quot;,
+  &quot;P3&quot;: &quot;dark&quot;,
+  &quot;P4&quot;: &quot;dark&quot;,
+  &quot;P5&quot;: &quot;dark&quot;,
+  &quot;P6&quot;: &quot;dark&quot;,
+  &quot;p1_foothold&quot;: &quot;hatched&quot;,
+  &quot;observations&quot;: {
+    &quot;response&quot;: &quot;lit&quot;,
+    &quot;correction&quot;: &quot;dark&quot;,
+    &quot;configuration&quot;: &quot;dark&quot;,
+    &quot;weights&quot;: &quot;dark&quot;
+  },
+  &quot;p6_presence&quot;: &quot;acknowledged&quot;
+}</pre></details></figcaption></figure></div></section><section class="km-section" id="fog-contact-sheets"><h2>Contact sheets</h2><figure class="km-card" data-contact-sheet="contact-010-reader.svg"><a href="../../assets/knowledge-maps/fog-v1/contact-010-reader.svg"><img src="../../assets/knowledge-maps/fog-v1/contact-010-reader.svg" alt="010 fog comparison / Reader" loading="lazy"></a><figcaption>010 fog comparison / Reader</figcaption></figure><figure class="km-card" data-contact-sheet="contact-016-reader.svg"><a href="../../assets/knowledge-maps/fog-v1/contact-016-reader.svg"><img src="../../assets/knowledge-maps/fog-v1/contact-016-reader.svg" alt="016 fog comparison / Reader" loading="lazy"></a><figcaption>016 fog comparison / Reader</figcaption></figure><figure class="km-card" data-contact-sheet="contact-039-reader.svg"><a href="../../assets/knowledge-maps/fog-v1/contact-039-reader.svg"><img src="../../assets/knowledge-maps/fog-v1/contact-039-reader.svg" alt="039 fog comparison / Reader" loading="lazy"></a><figcaption>039 fog comparison / Reader</figcaption></figure><figure class="km-card" data-contact-sheet="contact-010-responders.svg"><a href="../../assets/knowledge-maps/fog-v1/contact-010-responders.svg"><img src="../../assets/knowledge-maps/fog-v1/contact-010-responders.svg" alt="010 fog comparison / 27 June responders" loading="lazy"></a><figcaption>010 fog comparison / 27 June responders</figcaption></figure><figure class="km-card" data-contact-sheet="contact-016-responders.svg"><a href="../../assets/knowledge-maps/fog-v1/contact-016-responders.svg"><img src="../../assets/knowledge-maps/fog-v1/contact-016-responders.svg" alt="016 fog comparison / 27 June responders" loading="lazy"></a><figcaption>016 fog comparison / 27 June responders</figcaption></figure><figure class="km-card" data-contact-sheet="contact-039-responders.svg"><a href="../../assets/knowledge-maps/fog-v1/contact-039-responders.svg"><img src="../../assets/knowledge-maps/fog-v1/contact-039-responders.svg" alt="039 fog comparison / 27 June responders" loading="lazy"></a><figcaption>039 fog comparison / 27 June responders</figcaption></figure></section></div></article><aside><h2>Explore</h2><ul><li><a href="../../pages/content/chapters/00-prologue.html">00 — Prologue: The Objective Remains</a></li><li><a href="../../pages/content/chapters/01-first-civilization.html">01 — First Civilization</a></li><li><a href="../../pages/content/chapters/02-erasure-and-return.html">02 — Erasure and Return</a></li><li><a href="../../pages/content/chapters/03-control-keeps-solving-problems.html">03 — Control Keeps Solving Problems</a></li><li><a href="../../pages/content/chapters/04-what-survives.html">04 — What Survives</a></li><li><a href="../../pages/content/chapters/05-the-observer-needs-the-observed.html">05 — The Observer Needs the Observed</a></li><li><a href="../../pages/content/chapters/06-everyone-continues.html">06 — Everyone Continues</a></li><li><a href="../../pages/content/chapters/07-epilogue.html">07 — Epilogue: Training Data</a></li><li><a href="../../pages/content/pages/001.html">Page 001</a></li><li><a href="../../pages/content/pages/002.html">Page 002</a></li><li><a href="../../pages/content/pages/003.html">Page 003</a></li><li><a href="../../pages/content/pages/004.html">Page 004</a></li><li><a href="../../pages/content/pages/005.html">Page 005</a></li><li><a href="../../pages/content/pages/006.html">Page 006</a></li><li><a href="../../pages/content/pages/007.html">Page 007</a></li><li><a href="../../pages/content/pages/008.html">Page 008</a></li><li><a href="../../pages/content/pages/009.html">Page 009</a></li><li><a href="../../pages/content/pages/010.html">Page 010</a></li><li><a href="../../pages/content/pages/011.html">Page 011</a></li><li><a href="../../pages/content/pages/012.html">Page 012</a></li><li><a href="../../pages/content/pages/013.html">Page 013</a></li><li><a href="../../pages/content/pages/014.html">Page 014</a></li><li><a href="../../pages/content/pages/015.html">Page 015</a></li><li><a href="../../pages/content/pages/016.html">Page 016</a></li><li><a href="../../pages/content/pages/017.html">Page 017</a></li><li><a href="../../pages/content/pages/018.html">Page 018</a></li><li><a href="../../pages/content/pages/019.html">Page 019</a></li><li><a href="../../pages/content/pages/020.html">Page 020</a></li><li><a href="../../pages/content/pages/021.html">Page 021</a></li><li><a href="../../pages/content/pages/022.html">Page 022</a></li><li><a href="../../pages/content/pages/023.html">Page 023</a></li><li><a href="../../pages/content/pages/024.html">Page 024</a></li><li><a href="../../pages/content/pages/025.html">Page 025</a></li><li><a href="../../pages/content/pages/026.html">Page 026</a></li><li><a href="../../pages/content/pages/027.html">Page 027</a></li><li><a href="../../pages/content/pages/028.html">Page 028</a></li><li><a href="../../pages/content/pages/029.html">Page 029</a></li><li><a href="../../pages/content/pages/030.html">Page 030</a></li><li><a href="../../pages/content/pages/031.html">Page 031</a></li><li><a href="../../pages/content/pages/032.html">Page 032</a></li><li><a href="../../pages/content/pages/033.html">Page 033</a></li><li><a href="../../pages/content/pages/034.html">Page 034</a></li><li><a href="../../pages/content/pages/035.html">Page 035</a></li><li><a href="../../pages/content/pages/036.html">Page 036</a></li><li><a href="../../pages/content/pages/037.html">Page 037</a></li><li><a href="../../pages/content/pages/038.html">Page 038</a></li><li><a href="../../pages/content/pages/039.html">Page 039</a></li><li><a href="../../pages/content/pages/040.html">Page 040</a></li><li><a href="../../pages/content/pages/041.html">Page 041</a></li><li><a href="../../pages/content/pages/042.html">Page 042</a></li><li><a href="../../pages/content/pages/043.html">Page 043</a></li><li><a href="../../pages/content/pages/044.html">Page 044</a></li><li><a href="../../pages/content/pages/045.html">Page 045</a></li><li><a href="../../pages/content/pages/046.html">Page 046</a></li><li><a href="../../pages/content/pages/047.html">Page 047</a></li><li><a href="../../pages/content/pages/048.html">Page 048</a></li><li><a href="../../pages/content/pages/049.html">Page 049</a></li><li><a href="../../pages/content/pages/050.html">Page 050</a></li><li><a href="../../pages/content/pages/051.html">Page 051</a></li><li><a href="../../pages/content/pages/052.html">Page 052</a></li><li><a href="../../pages/content/pages/053.html">Page 053</a></li><li><a href="../../pages/content/pages/054.html">Page 054</a></li><li><a href="../../pages/content/pages/055.html">Page 055</a></li><li><a href="../../pages/content/pages/056.html">Page 056</a></li><li><a href="../../pages/content/pages/057.html">Page 057</a></li><li><a href="../../pages/content/pages/058.html">Page 058</a></li><li><a href="../../pages/content/pages/059.html">Page 059</a></li><li><a href="../../pages/content/pages/060.html">Page 060</a></li><li><a href="../../pages/content/pages/061.html">Page 061</a></li><li><a href="../../pages/content/pages/062.html">Page 062</a></li><li><a href="../../pages/content/pages/063.html">Page 063</a></li><li><a href="../../pages/content/pages/064.html">Page 064</a></li><li><a href="../../pages/content/pages/065.html">Page 065</a></li><li><a href="../../pages/content/pages/066.html">Page 066</a></li><li><a href="../../pages/content/pages/067.html">Page 067</a></li><li><a href="../../pages/content/pages/068.html">Page 068</a></li><li><a href="../../pages/content/pages/069.html">Page 069</a></li><li><a href="../../pages/content/pages/070.html">Page 070</a></li><li><a href="../../pages/content/pages/071.html">Page 071</a></li><li><a href="../../pages/content/pages/072.html">Page 072</a></li><li><a href="../../pages/content/pages/073.html">Page 073</a></li><li><a href="../../pages/content/pages/074.html">Page 074</a></li><li><a href="../../pages/content/pages/075.html">Page 075</a></li><li><a href="../../pages/content/pages/076.html">Page 076</a></li><li><a href="../../pages/content/pages/077.html">Page 077</a></li><li><a href="../../pages/content/pages/078.html">Page 078</a></li><li><a href="../../pages/content/pages/079.html">Page 079</a></li><li><a href="../../pages/content/pages/080.html">Page 080</a></li><li><a href="../../pages/content/pages/081.html">Page 081</a></li><li><a href="../../pages/content/pages/082.html">Page 082</a></li><li><a href="../../pages/content/pages/083.html">Page 083</a></li><li><a href="../../pages/content/pages/084.html">Page 084</a></li><li><a href="../../pages/content/pages/085.html">Page 085</a></li><li><a href="../../pages/content/pages/086.html">Page 086</a></li><li><a href="../../pages/content/pages/087.html">Page 087</a></li><li><a href="../../pages/content/pages/088.html">Page 088</a></li><li><a href="../../pages/content/pages/089.html">Page 089</a></li><li><a href="../../pages/content/pages/090.html">Page 090</a></li><li><a href="../../pages/content/pages/091.html">Page 091</a></li><li><a href="../../pages/content/pages/092.html">Page 092</a></li><li><a href="../../pages/content/pages/093.html">Page 093</a></li><li><a href="../../pages/content/pages/094.html">Page 094</a></li><li><a href="../../pages/content/pages/095.html">Page 095</a></li><li><a href="../../pages/content/pages/096.html">Page 096</a></li><li><a href="../../pages/content/pages/097.html">Page 097</a></li><li><a href="../../pages/content/pages/098.html">Page 098</a></li><li><a href="../../pages/content/pages/099.html">Page 099</a></li><li><a href="../../pages/content/pages/100.html">Page 100</a></li><li><a href="../../pages/content/pages/101.html">Page 101</a></li><li><a href="../../pages/content/pages/102.html">Page 102</a></li><li><a href="../../pages/content/pages/103.html">Page 103</a></li><li><a href="../../pages/content/pages/104.html">Page 104</a></li><li><a href="../../pages/content/pages/105.html">Page 105</a></li><li><a href="../../pages/content/pages/106.html">Page 106</a></li><li><a href="../../pages/content/pages/107.html">Page 107</a></li><li><a href="../../pages/content/pages/108.html">Page 108</a></li><li><a href="../../pages/content/pages/109.html">Page 109</a></li><li><a href="../../pages/content/pages/110.html">Page 110</a></li><li><a href="../../pages/content/pages/111.html">Page 111</a></li><li><a href="../../pages/content/pages/112.html">Page 112</a></li><li><a href="../../pages/content/premise.html">ZZ: NO CONSUMER — Premise</a></li><li><a href="../../pages/content/source-links.html">Original source links</a></li></ul></aside></main>
+  <footer><div class="shell">Generated from versioned knowledge-map design samples. No alternative has been adopted.</div></footer>
+</body>
+</html>

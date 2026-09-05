@@ -243,6 +243,52 @@ def validate(site: Path) -> list[str]:
                     require(anchor in gallery.ids and len(row) == 4 and {values.get("data-family") for values in row} == set("abcd") and all(values.get("data-fixture") == fixture and values.get("data-viewpoint") == viewpoint for values in row), f"Finish row must hold fixture/viewpoint fixed across all families: {anchor}")
     else:
         require(not any("data-local-finish" in values for parser in (index, gallery) for values, _ in parser.figures), "Gallery claims finish studies without a manifest")
+
+    fog_source = ROOT / "assets" / "knowledge-maps" / "fog-v1" / "manifest.json"
+    fog_route = site / "knowledge-maps" / "fog-v1" / "index.html"
+    if fog_source.exists() or fog_route.exists():
+        fog_manifest = asset("fog-v1", "manifest.json", ".json")
+        fog_page = parse(fog_route)
+        require(any(local_target(site, overview, ref) == (fog_route, "") for ref in index.references), "Gallery index must link to fog-v1/")
+        require("fog-of-war-studies" in index.ids, "Gallery index needs the fog-of-war anchor")
+        if fog_manifest.is_file() and fog_route.is_file():
+            fog = json.loads(fog_manifest.read_text(encoding="utf-8"))
+            treatments = list(fog["treatments"])
+            fog_samples = fog["samples"]
+            expected_fog = {(t, fixture, viewpoint) for t in treatments for fixture in FIXTURES for viewpoint in VIEWPOINTS}
+            require(len(treatments) >= 2 and {(s["family"], s["fixture"], s["viewpoint"]) for s in fog_samples} == expected_fog and len(fog_samples) == len(expected_fog), "Fog manifest must cover every treatment, fixture, and viewpoint")
+            primary_fog = [values for values, _ in fog_page.figures if "data-km-fog" in values]
+            require({values["data-km-fog"] for values in primary_fog} == {s["id"] for s in fog_samples} and len(primary_fog) == len(fog_samples), "Fog page sample ids do not match the manifest")
+            fog_images = {local_target(site, fog_route, image.get("src", ""))[0]: image.get("alt", "") for image in fog_page.images if local_target(site, fog_route, image.get("src", "")) is not None}
+            text = " ".join(fog_page.text).lower()
+            require("fog-of-war studies" in text and "soft" in text and "irregular" in text and "not adopted" in text, f"{fog_route}: missing fog-study disclosure")
+            for sample in fog_samples:
+                path = asset("fog-v1", sample["path"], ".svg")
+                require(fog_images.get(path) == sample["alt"] and "fog" in sample["alt"].lower(), f"Fog sample not displayed with manifest alt text: {sample['id']}")
+                if path.is_file():
+                    svg = ET.fromstring(path.read_bytes())
+                    require(svg.tag == "{http://www.w3.org/2000/svg}svg" and bool(svg.get("viewBox")), f"Fog sample needs an SVG viewBox: {path}")
+                    images = [e for e in svg.iter() if e.tag == "{http://www.w3.org/2000/svg}image"]
+                    require(len(images) == 1 and images[0].get("href", "").startswith("data:image/png;base64,"), f"Fog sample must embed exactly one PNG veil: {path}")
+                    p6 = [e.get("data-state") for e in svg.iter() if e.get("data-region") == "P6"]
+                    require(p6 and set(p6) == {"dark"}, f"P6 must stay dark in fog sample: {path}")
+            fog_anchors = {"fog-comparison", "fog-039-before-after", "fog-010-hint-nohint", "fog-reader-responders", "fog-contact-sheets"}
+            for fixture in FIXTURES:
+                for viewpoint in VIEWPOINTS:
+                    anchor = f"fog-{fixture}-{viewpoint}"
+                    fog_anchors.add(anchor)
+                    row = [values for values, ancestors in fog_page.figures if anchor in ancestors]
+                    require(len(row) == len(treatments) and {values.get("data-family") for values in row} == set(treatments) and all(values.get("data-fixture") == fixture and values.get("data-viewpoint") == viewpoint for values in row), f"Fog row must hold fixture/viewpoint fixed across treatments: {anchor}")
+            for anchor, fixtures in (("fog-039-before-after", ("039-before", "039-after")), ("fog-010-hint-nohint", ("010-hint", "010-no-p6")), ("fog-reader-responders", FIXTURES)):
+                figures = [values for values, ancestors in fog_page.figures if anchor in ancestors]
+                keys = {(item.get("data-family"), item.get("data-fixture"), item.get("data-viewpoint")) for item in figures}
+                pairs = {(t, fixture, viewpoint) for t in treatments for fixture in fixtures for viewpoint in VIEWPOINTS}
+                require(len(figures) == len(pairs) and keys == pairs, f"Missing paired fog comparison coverage: {anchor}")
+            require(fog_anchors <= fog_page.ids, f"Missing fog anchors: {sorted(fog_anchors - fog_page.ids)}")
+            shown_sheets = [values.get("data-contact-sheet") for values, _ in fog_page.figures if "data-contact-sheet" in values]
+            require(sorted(shown_sheets) == sorted(sheet["path"] for sheet in fog["contact_sheets"]) and bool(shown_sheets), "Displayed fog contact sheets differ from manifest")
+            for sheet in fog["contact_sheets"]:
+                asset("fog-v1", sheet["path"], ".svg")
     return failures
 
 

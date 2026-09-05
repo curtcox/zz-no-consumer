@@ -1096,8 +1096,101 @@ def build_knowledge_maps(document) -> int:
         '<a href="v1/#placements">Margin, gutter, and chapter opening</a><a href="v1/#contact-sheets">Contact sheets</a></nav>'
         '</section><p><a href="../">Return to the project</a></p></div>'
     )
+    fog_card = build_fog_gallery(gallery_document, introduction)
+    if fog_card:
+        index = index.replace("<p><a href=\"../\">Return to the project</a></p>", fog_card + "<p><a href=\"../\">Return to the project</a></p>", 1)
+        write_page(Path("knowledge-maps", "index.html"), "Knowledge-map gallery", index, gallery_document)
+        return 3
     write_page(Path("knowledge-maps", "index.html"), "Knowledge-map gallery", index, gallery_document)
     return 2
+
+
+def build_fog_gallery(gallery_document, introduction: str) -> str:
+    """The fog-of-war studies: same fixtures and viewpoints, fog as a computed soft-edged veil."""
+    source = KNOWLEDGE_MAP_DIR / "fog-v1" / "manifest.json"
+    if not source.exists():
+        return ""
+    manifest = json.loads(source.read_text(encoding="utf-8"))
+    treatments = manifest["treatments"]
+    samples = manifest["samples"]
+    expected = {(t, fixture, viewpoint) for t in treatments for fixture in KNOWLEDGE_MAP_FIXTURES for viewpoint in KNOWLEDGE_MAP_VIEWPOINTS}
+    keyed = {(s["family"], s["fixture"], s["viewpoint"]): s for s in samples}
+    if manifest["version"] != 1 or set(keyed) != expected or len(samples) != len(expected) or len({s["id"] for s in samples}) != len(samples):
+        raise ValueError("Fog-v1 requires one sample per treatment, fixture, and viewpoint")
+    directory = Path("knowledge-maps", "fog-v1")
+    order = list(treatments)
+
+    def card(sample: dict, primary: bool = False) -> str:
+        href = html.escape(relative_url(directory, Path(knowledge_map_asset("fog-v1", sample["path"], ".svg"))))
+        identity = f' id="sample-{html.escape(sample["id"])}" data-km-fog="{html.escape(sample["id"])}"' if primary else ""
+        return (
+            f'<figure class="km-card"{identity} data-family="{sample["family"]}" data-fixture="{sample["fixture"]}" data-viewpoint="{sample["viewpoint"]}">'
+            f'<a href="{href}"><img src="{href}" alt="{html.escape(sample["alt"])}" width="960" height="640" loading="lazy"></a>'
+            f'<figcaption><strong>{sample["family"].upper()} · {html.escape(sample["family_label"])}</strong>'
+            f'<p>{html.escape(KNOWLEDGE_MAP_FIXTURES[sample["fixture"]])} · {html.escape(sample["viewpoint_label"])}</p>'
+            f'<details><summary>Exact fixture states</summary><pre>{html.escape(json.dumps(sample["states"], indent=2, ensure_ascii=False))}</pre></details>'
+            '</figcaption></figure>'
+        )
+
+    rows, row_links = [], []
+    for fixture, label in KNOWLEDGE_MAP_FIXTURES.items():
+        for viewpoint in KNOWLEDGE_MAP_VIEWPOINTS:
+            anchor = f"fog-{fixture}-{viewpoint}"
+            row_label = f'{label} · {keyed[(order[0], fixture, viewpoint)]["viewpoint_label"]}'
+            row_links.append(f'<li><a href="#{anchor}">{html.escape(row_label)}</a></li>')
+            cards = "".join(card(keyed[(t, fixture, viewpoint)], primary=True) for t in order)
+            rows.append(f'<section class="km-section" id="{anchor}"><h3>{html.escape(row_label)}</h3><div class="km-grid km-grid--three">{cards}</div></section>')
+    comparisons = []
+    for anchor, title, fixtures in (("fog-039-before-after", "039 · before / after the reveal", ("039-before", "039-after")),
+                                    ("fog-010-hint-nohint", "010 · hint / no hint", ("010-hint", "010-no-p6"))):
+        pairs = []
+        for viewpoint in KNOWLEDGE_MAP_VIEWPOINTS:
+            for t in order:
+                pairs.append('<div class="km-pair">' + "".join(card(keyed[(t, fixture, viewpoint)]) for fixture in fixtures) + '</div>')
+        comparisons.append(f'<section class="km-section" id="{anchor}"><h2>{title}</h2><p>Paired within each treatment and viewpoint; only the fixture changes. Re-fogged ground stays dimly visible under the fog.</p>{"".join(pairs)}</section>')
+    pairs = []
+    for fixture in KNOWLEDGE_MAP_FIXTURES:
+        for t in order:
+            pairs.append('<div class="km-pair">' + "".join(card(keyed[(t, fixture, viewpoint)]) for viewpoint in KNOWLEDGE_MAP_VIEWPOINTS) + '</div>')
+    comparisons.append('<section class="km-section" id="fog-reader-responders"><h2>Reader / responders</h2><p>Same treatment and fixture, different access. Reader first, responders second.</p>' + "".join(pairs) + '</section>')
+    sheets = []
+    for sheet in manifest["contact_sheets"]:
+        href = html.escape(relative_url(directory, Path(knowledge_map_asset("fog-v1", sheet["path"], ".svg"))))
+        sheets.append(f'<figure class="km-card" data-contact-sheet="{html.escape(sheet["path"])}"><a href="{href}"><img src="{href}" alt="{html.escape(sheet["label"])}" loading="lazy"></a><figcaption>{html.escape(sheet["label"])}</figcaption></figure>')
+    treatment_list = "".join(f'<li><strong>{html.escape(k.upper())} · {html.escape(v["label"])}.</strong> {html.escape(v["hypothesis"])}</li>' for k, v in treatments.items())
+    levels = manifest["fog_levels"]
+    body = (
+        '<div class="knowledge-map-gallery"><p><a href="../">Knowledge-map gallery</a> / Fog of war</p>'
+        + introduction
+        + '<section class="km-section km-fog" id="fog-of-war-studies"><h2>Fog-of-war studies</h2>'
+        '<p>Fog-of-war studies: the same fixtures and viewpoints as v1, on the A-family terrain, but the fog is a computed '
+        'raster veil with a soft, irregular, noise-displaced edge rather than a filled polygon, the way navigation maps in games '
+        'draw it. Terrain is continuous under the whole map, so the fog is the only boundary. Four fog levels: unexplored ground '
+        'is opaque; ground that was seen and has lost support stays dimly visible; contested ground is striped or patchy fog; '
+        'evidence is clear. Everything is deterministic standard-library Python. Not exact evidence states beyond the three the '
+        'fixtures define; not adopted.</p>'
+        f'<ul>{treatment_list}</ul>'
+        f'<p>Fog opacity by level: unexplored {float(levels["dark"]):g} · seen, support lost {float(levels["refog"]):g} · contested {float(levels["hatched"]):g} · visible {float(levels["lit"]):g}.</p>'
+        '<nav class="km-jumps" aria-label="Fog comparisons"><a href="#fog-comparison">All three treatments</a>'
+        '<a href="#fog-039-before-after">039 before / after</a><a href="#fog-010-hint-nohint">010 hint / no hint</a>'
+        '<a href="#fog-reader-responders">Reader / responders</a><a href="#fog-contact-sheets">Contact sheets</a>'
+        '<a href="../v1/">Compare with v1 A–D</a></nav></section>'
+        f'<section class="km-section" id="fog-comparison"><h2>Fog comparison</h2><p>{len(samples)} samples · renderer {html.escape(manifest["renderer_version"])}. '
+        'Every row holds fixture and viewpoint fixed.</p>'
+        f'<ul class="km-row-links">{"".join(row_links)}</ul>{"".join(rows)}</section>'
+        + "".join(comparisons)
+        + '<section class="km-section" id="fog-contact-sheets"><h2>Contact sheets</h2>' + "".join(sheets) + '</section></div>'
+    )
+    write_page(directory / "index.html", "Knowledge maps · fog of war", body, gallery_document)
+    return (
+        '<section class="km-section km-fog" id="fog-of-war-studies"><h2>Fog-of-war studies</h2>'
+        '<a class="card" href="fog-v1/"><h3>Fog with a soft, irregular edge · three treatments, thirty SVGs</h3>'
+        '<p>Fog-of-war studies on the same fixtures and viewpoints: the fog is a computed veil with a noise-displaced, feathered '
+        'boundary; unexplored ground is opaque and re-fogged ground stays dimly visible. Not adopted.</p></a>'
+        '<nav class="km-jumps" aria-label="Fog shortcuts"><a href="fog-v1/#fog-039-before-after">039 before / after</a>'
+        '<a href="fog-v1/#fog-010-hint-nohint">010 hint / no hint</a><a href="fog-v1/#fog-reader-responders">Reader / responders</a>'
+        '<a href="fog-v1/#fog-contact-sheets">Contact sheets</a></nav></section>'
+    )
 
 
 def write_page(destination: Path, title: str, body: str, document) -> None:

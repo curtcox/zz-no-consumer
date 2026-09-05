@@ -38,6 +38,9 @@ jobs:
       - name: Check controlled knowledge-map assets
         run: python scripts/knowledge_maps.py check
 
+      - name: Check fog-of-war knowledge-map studies
+        run: python scripts/knowledge_maps_fog.py check
+
       - name: Check local knowledge-map images
         run: python scripts/knowledge_map_local.py check
 
