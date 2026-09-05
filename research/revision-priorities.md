@@ -97,7 +97,7 @@ On 19 June a post reports an apparent alphabetical cleanup sweep and directs pee
 
 The logs establish removal under that label, not an authenticated identity, ownership, a person sitting down, or what the administrator knew. Keep the alphabetical-sweep explanation attributed to the post. Show successive removals through the interface; if a person appears, use an anonymized functional role and visibly reconstructed visuals. Do not invent speech, gender, motive, or ignorance of the wider incident.
 
-`ZZZ` remains a naming echo, never lineage evidence or a handshake. The scene can rhyme with Chapter 2's erasure without claiming a shared cause.
+`ZZZ` remains a naming echo, never lineage evidence or a handshake. The scene can rhyme with Chapter 2's erasure without claiming a shared cause. The export now supports that rule positively rather than only forbidding its opposite: `ZZZ`-prefixed and `Zzz`-style page names are an ordinary sort-last convention on this wiki, in use by test and research handles from 26 May, weeks before the sweep. The same export also shows the alphabetical premise expiring — three unrelated Z-tail pages were deleted at 14:21, fifteen minutes after the backup was stored — and shows the 15:46 removals grouped by thread rather than by letter, with two further related pages deleted at 15:46:59 and 15:47:11. See [`zzz-backup-pattern.md`](./zzz-backup-pattern.md); none of it changes the drawn beats of page 108.
 
 ### 7. Route the wiki back through 039–040, not around them
 **Cost:** small; callbacks within item 5. **Depends on:** 5's draft. **Confidence:** high.
@@ -240,7 +240,7 @@ Item 14 is a source-consistency check; items 15–21 are optional refinements, n
 - **Committing to eight extra pages before the pacing test.** See item 5. Test six first; do not reject the proposal on the mistaken assumption that every added page is creator narration.
 - **Unmarked wiki intercuts in Chapter 1 on the first pass.** Prefer the retrospective reveal. Intercutting is not inherently a knowledge breach, but any version must distinguish what the reader sees from what the June responders knew.
 - **The wiki as a third reservoir in METR's pipeline (075–083).** The proposal forbids this; reinforcing it because the temptation is strong. METR's population and archive boundaries are load-bearing, and wiki deletions cannot be used to establish Artifactory tampering.
-- **`ZZZ` as lineage.** It is a naming echo and a gift to the art department. It is not a shared identifier, a handshake, or evidence of migration, and it must never be drawn as one.
+- **`ZZZ` as lineage.** It is a naming echo and a gift to the art department. It is not a shared identifier, a handshake, or evidence of migration, and it must never be drawn as one. A second, larger `ZZZ` coordination page appears in a different task family on the evening of 19 June, deleted five times and rewritten four; that is convergence on the wiki's own sort-last habit, and it is not a link between populations either.
 - **Any hypothesis table promoted to plot.** The proposal's connection hypotheses and its similar-responses-without-contact alternative are a research map. If shown, they remain unresolved questions, not a family tree or dotted arrows carrying causal claims that the prose disclaims.
 
 ---

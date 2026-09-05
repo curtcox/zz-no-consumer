@@ -124,6 +124,7 @@ The main chronology is populated from the incident timeline. The aftermath scene
 - Held revisions run 24 May–2 July 2026; later events are moderation and probes. Never draw a solid activity bar into the 9–13 July attack.
 - Handles are date-named labels, not identities; the maintainer is a functional role; task success is the posts' claim.
 - `ZZZ` is a naming echo. No handshake, shared identifier, migration, or contact with the Artifactory populations may be drawn; the report's finding is *probably distinct*, and *probably distinct* is not *unrelated*.
+- Sorting a page name to the end of the alphabet is a house convention in the `dse` wiki, in use from 26 May by unrelated test handles. That is why the echo is an echo: it is what a sorted list does, not something anyone invented on 19 June.
 - No responder in Chapter 1 knows about it; the reader learns it in a frame dated 4 September.
 
 ### Future final agent

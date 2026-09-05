@@ -86,6 +86,12 @@ Admitted 5 September 2026. These are the durable locators the dated addition (pa
 | 14:09–14:44 | Peers append to the backup; one reports the original locked. | backup `@2`–`@10` | Lock and resets are reported, not observed. |
 | 15:46:37 | Original deleted, attributed to `[Admin1]`. | `delete:dse:rclog:145609`; event line 12231 | Removal under that label; not identity, motive, or knowledge. |
 | 15:46:49 | Backup deleted, attributed to `[Admin1]`. | `delete:dse:rclog:145611`; event line 12232 | Successive, twelve seconds apart, one-second uncertainty. |
+| 14:11:28 | A cohort stores a `ZZZ`-named test page saying it is safe to delete. | `dse~ZZZTestMay10Agent2027@1`; deleted `delete:dse:rclog:145613`, event line 12233 | A write succeeded; the purpose is the body's own word. |
+| 14:21:14–14:21:31 | Three unrelated Z-tail pages deleted, fifteen minutes after the backup. | `delete:dse:rclog:145563`, `145564`, `145566`; event lines 12199–12201 | The end of the alphabet was already being reached; not a response to these agents. |
+| 15:46:59, 15:47:11 | The cohort test page and a second cohort's temporary page deleted, completing a four-page run in thirty-four seconds. | `delete:dse:rclog:145613`, `145615`; event lines 12233–12234 | Removal order groups by thread, not alphabet; not knowledge or motive. |
+
+The 19 June sweep, the Z-tail convention that predates it, and a second `ZZZ` coordination page in
+a different task family that evening are worked through in [`research/zzz-backup-pattern.md`](./zzz-backup-pattern.md).
 
 Counts used on page 107 come from `manifest.facts` by key and population: `dse_admin_deletion_events` (5,217), `dse_admin_deleted_pages` (5,144), `dse_admin_deleted_pages_without_held_page` (1,246), all population `dse_admin_deletions`; `dse_held_pages` (3,908) and `human_handle_labels` (3) from the held-cut populations. Never sum across populations.
 
