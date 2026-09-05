@@ -52,7 +52,7 @@ from knowledge_maps import (DIRTY, INK, NS, PAPER, STEEL, FIXTURES, VIEWPOINTS, 
 
 ROOT = km.ROOT
 OUTPUT = ROOT / "assets/knowledge-maps/fog-v1"
-RENDERER_VERSION = "knowledge-map-fog-2.0.0"
+RENDERER_VERSION = "knowledge-map-fog-2.1.0"
 TREATMENTS = {
     "w3": ("Patchy contest", "Contested ground is visible in irregular patches rather than hatched; the fog itself carries the uncertainty."),
     "w2": ("Line of sight", "Vision discs around the places evidence comes from; the relief is only visible where sight reaches."),
@@ -217,65 +217,175 @@ def circle(cx, cy, r):
     return arc(cx, cy, r, 0, 360, 24)
 
 
+def rectp(x, y, w, h):
+    return [(x, y), (x + w, y), (x + w, y + h), (x, y + h), (x, y)]
+
+
+def arrow(x1, y1, x2, y2, head=5):
+    a = math.atan2(y2 - y1, x2 - x1)
+    return [[(x1, y1), (x2, y2)],
+            [(x2 - head * math.cos(a - 0.5), y2 - head * math.sin(a - 0.5)), (x2, y2), (x2 - head * math.cos(a + 0.5), y2 - head * math.sin(a + 0.5))]]
+
+
+def spiral(turns=2.2, r0=2, r1=15, steps=40):
+    return [(r * math.cos(t), r * math.sin(t)) for k in range(steps + 1)
+            for t in [k / steps * turns * 2 * math.pi] for r in [r0 + (r1 - r0) * k / steps]]
+
+
+def wave(x0, x1, y, amp, periods, steps=32):
+    return [(x0 + (x1 - x0) * k / steps, y + amp * math.sin(k / steps * periods * 2 * math.pi)) for k in range(steps + 1)]
+
+
+def star(n, r_out, r_in):
+    pts = []
+    for k in range(2 * n + 1):
+        r = r_out if k % 2 == 0 else r_in
+        a = -math.pi / 2 + k * math.pi / n
+        pts.append((r * math.cos(a), r * math.sin(a)))
+    return pts
+
+
+# Symbol families: each region carries many forms of its own idea, never one repeated stamp.
 GLYPHS = {
-    # coordination: three linked stations
-    "P1": [circle(-12, 8, 5), circle(12, 8, 5), circle(0, -12, 5), [(-8, 5), (-3, -8)], [(8, 5), (3, -8)], [(-7, 8), (7, 8)]],
-    # recurrence: the loop returns, smaller
-    "P2": [arc(0, 0, 13, -70, 230), [(4, -16), (8, -10), (1, -8), (4, -16)], arc(0, 2, 5, -70, 230)],
-    # record equals event: a ledger equalling a mark
-    "P3": [[(-17, -13), (1, -13), (1, 11), (-17, 11), (-17, -13)], [(-13, -7), (-3, -7)], [(-13, -2), (-3, -2)], [(-13, 3), (-7, 3)],
-           [(4, -2), (10, -2)], [(4, 3), (10, 3)], [(14, -9), (18, -1), (14, 7), (10, -1), (14, -9)]],
-    # reporting: the signal stops short of the person
-    "P4": [circle(10, -9, 4), [(10, -5), (10, 6)], [(4, 0), (16, 0)], [(10, 6), (5, 14)], [(10, 6), (15, 14)],
-           [(-17, 0), (-6, 0)], [(-8, -4), (-4, 0), (-8, 4)], [(-1, -8), (-1, 8)]],
-    # measurement: the rule and what it spans
-    "P5": [[(-17, -6), (17, -6), (17, 6), (-17, 6), (-17, -6)], [(-11, -6), (-11, 0)], [(-5, -6), (-5, -3)], [(1, -6), (1, 0)],
-           [(7, -6), (7, -3)], [(13, -6), (13, 0)], [(-17, 12), (17, 12)], [(-17, 9), (-17, 15)], [(17, 9), (17, 15)]],
-    # unreachable: a sealed gate
-    "P6": [[(-13, 14), (-13, -6)] + arc(0, -6, 13, 180, 360) + [(13, 14), (-13, 14)], [(-5, 2), (5, 2)], [(0, -3), (0, 7)]],
-    # alert: the bell
-    "response": [arc(0, 6, 10, 180, 360) + [(13, 10), (-13, 10), (-10, 6)], arc(0, 13, 3, 0, 180), [(0, -4), (0, -9)]],
-    # scorer accounts: the balance
-    "correction": [[(0, -12), (0, 12)], [(-14, 12), (14, 12)], [(-14, -6), (14, -6)],
-                   [(-14, -6), (-19, 4), (-9, 4), (-14, -6)], [(14, -6), (9, 4), (19, 4), (14, -6)]],
-    # configuration: the gear
-    "configuration": [circle(0, 0, 8), circle(0, 0, 3)] + [[(0, -14), (0, -9)], [(0, 9), (0, 14)], [(-14, 0), (-9, 0)], [(9, 0), (14, 0)],
-                                                          [(-10, -10), (-6, -6)], [(6, 6), (10, 10)], [(10, -10), (6, -6)], [(-6, 6), (-10, 10)]],
-    # weights: the block on the scale
-    "weights": [[(-11, 13), (-7, -4), (7, -4), (11, 13), (-11, 13)], [(-4, -4), (-4, -9), (4, -9), (4, -4)], [(-3, 4), (3, 4)]],
+    # --- P1 coordination: things that link, meet, relay, agree ---
+    "P1/stations": [circle(-12, 8, 5), circle(12, 8, 5), circle(0, -12, 5), [(-8, 5), (-3, -8)], [(8, 5), (3, -8)], [(-7, 8), (7, 8)]],
+    "P1/meet": arrow(-17, 0, -4, 0) + arrow(17, 0, 4, 0) + [[(0, -8), (0, 8)]],
+    "P1/relay": [circle(-13, 0, 3), circle(0, 0, 3), circle(13, 0, 3)] + arrow(-9, -6, -4, -6, 3) + arrow(4, 6, 9, 6, 3),
+    "P1/chain": [arc(-6, 0, 8, 40, 320), arc(6, 0, 8, 220, 500)],
+    "P1/mesh": [rectp(-12, -12, 24, 24), [(-12, -12), (12, 12)], [(12, -12), (-12, 12)], circle(-12, -12, 2.5), circle(12, -12, 2.5), circle(12, 12, 2.5), circle(-12, 12, 2.5)],
+    "P1/board": [rectp(-10, -10, 20, 20), [(-6, -4), (6, -4)], [(-6, 1), (2, 1)]] + arrow(-19, 0, -11, 0, 3) + arrow(19, 0, 11, 0, 3),
+    "P1/converge": arrow(-15, -12, -3, -2) + arrow(15, -12, 3, -2) + arrow(0, 16, 0, 4) + [circle(0, 0, 2.5)],
+    "P1/knot": [arc(-6, 0, 7, 0, 360, 24), arc(6, 0, 7, 0, 360, 24), arc(0, -8, 7, 0, 360, 24)],
+    "P1/handoff": [[(-16, 6), (-8, 6), (-8, -6), (0, -6)], [(0, 6), (8, 6), (8, -6), (16, -6)], circle(-16, 6, 2), circle(16, -6, 2)],
+    "P1/agreement": [[(-14, 4), (-6, 10), (6, -8)], [(-14, -10), (14, -10)], [(-14, 14), (14, 14)]],
+    # --- P2 recurrence: things that return, repeat, echo ---
+    "P2/loop": [arc(0, 0, 13, -70, 230), [(4, -16), (8, -10), (1, -8), (4, -16)], arc(0, 2, 5, -70, 230)],
+    "P2/spiral": [spiral()],
+    "P2/twin-cycles": [arc(-7, 0, 7, 20, 330), arc(7, 0, 7, 200, 510)] + arrow(-1, -6, 1, -6, 3),
+    "P2/wave": [wave(-17, 17, 0, 6, 2)],
+    "P2/echo": [arc(-8, 0, 6, -60, 60), arc(-8, 0, 12, -60, 60), arc(-8, 0, 18, -60, 60)],
+    "P2/again": [rectp(-12, -9, 24, 18), arc(0, 0, 6, -150, 150)] + [[(4, -6), (7, -1), (1, -1), (4, -6)]],
+    "P2/tracks": [circle(-12, 6, 2), circle(-6, -4, 2), circle(0, 6, 2), circle(6, -4, 2), circle(12, 6, 2)],
+    "P2/hourglass": [[(-9, -13), (9, -13), (-9, 13), (9, 13), (-9, -13)], [(-4, 0), (4, 0)]],
+    "P2/orbit": [arc(0, 0, 14, 0, 360, 28), circle(0, 0, 3), circle(14, 0, 2.5)],
+    "P2/ripple": [circle(0, 0, 4), arc(0, 0, 9, 20, 160), arc(0, 0, 9, 200, 340), arc(0, 0, 14, 20, 160), arc(0, 0, 14, 200, 340)],
+    # --- P3 record equals event: things that capture, seal, mirror, reproduce ---
+    "P3/ledger": [rectp(-17, -13, 18, 24), [(-13, -7), (-3, -7)], [(-13, -2), (-3, -2)], [(-13, 3), (-7, 3)], [(4, -2), (10, -2)], [(4, 3), (10, 3)], [(14, -9), (18, -1), (14, 7), (10, -1), (14, -9)]],
+    "P3/scroll": [[(-14, -10), (14, -10)], [(-14, 10), (14, 10)], arc(-14, -7, 3, 90, 270), arc(14, 7, 3, -90, 90), [(-9, -4), (9, -4)], [(-9, 1), (5, 1)]],
+    "P3/lens": [rectp(-15, -10, 30, 20), circle(0, 0, 6), circle(0, 0, 2.5), [(-12, -14), (-4, -14)]],
+    "P3/reel": [circle(-9, 0, 6), circle(9, 0, 6), circle(-9, 0, 2), circle(9, 0, 2), [(-9, 6), (9, 6)], [(-9, -6), (9, -6)]],
+    "P3/seal": [circle(0, 0, 13), star(5, 8, 3.5)],
+    "P3/stamp": [rectp(-12, -12, 24, 24), [(-8, -8), (8, 8)], [(8, -8), (-8, 8)]],
+    "P3/frames": [rectp(-15, -12, 20, 16), rectp(-5, -4, 20, 16)],
+    "P3/mirror": [[(0, -15), (0, 15)], [(-14, -8), (-3, 0), (-14, 8), (-14, -8)], [(14, -8), (3, 0), (14, 8), (14, -8)]],
+    "P3/tape": [rectp(-16, -6, 32, 12), circle(-8, 0, 3), circle(8, 0, 3), [(-8, 3), (8, 3)]],
+    "P3/witness": [circle(0, -8, 4), [(0, -4), (0, 6)], [(-6, 12), (0, 6), (6, 12)], arc(0, 0, 16, 200, 340)],
+    # --- P4 reporting: things that signal, call, or fail to reach anyone ---
+    "P4/short": [circle(10, -9, 4), [(10, -5), (10, 6)], [(4, 0), (16, 0)], [(10, 6), (5, 14)], [(10, 6), (15, 14)], [(-17, 0), (-6, 0)], [(-8, -4), (-4, 0), (-8, 4)], [(-1, -8), (-1, 8)]],
+    "P4/silenced-bell": [arc(0, 4, 10, 180, 360) + [(13, 8), (-13, 8), (-10, 4)], [(-14, 14), (14, -14)]],
+    "P4/megaphone": [[(-14, -4), (-14, 4), (-4, 6), (12, 14), (12, -14), (-4, -6), (-14, -4)], [(-14, 4), (-10, 12)]],
+    "P4/envelope": [rectp(-15, -10, 30, 20), [(-15, -10), (0, 2), (15, -10)]],
+    "P4/hail": [circle(0, -9, 4), [(0, -5), (0, 6)], [(-7, 0), (0, 0)], [(0, 0), (9, -8)], [(0, 6), (-6, 14)], [(0, 6), (6, 14)]],
+    "P4/tower": [[(-8, 14), (0, -14), (8, 14)], [(-5, 4), (5, 4)], [(-3, -4), (3, -4)], arc(0, -14, 7, 200, 340), arc(0, -14, 12, 200, 340)],
+    "P4/bubble": [[(-14, -10), (14, -10), (14, 5), (-2, 5), (-8, 12), (-7, 5), (-14, 5), (-14, -10)]],
+    "P4/flag": [[(-8, 15), (-8, -15)], [(-8, -15), (12, -10), (-8, -4)]],
+    "P4/unanswered": [arc(-4, -2, 9, 180, 360) + [(5, -2), (5, 4), (-2, 4)], circle(-2, 11, 1.5)],
+    "P4/wire-cut": [[(-17, 0), (-4, 0)], [(4, 0), (17, 0)], [(-3, -5), (-3, 5)], [(3, -5), (3, 5)]],
+    # --- P5 measurement: instruments, and the question of what they touch ---
+    "P5/rule": [rectp(-17, -6, 34, 12), [(-11, -6), (-11, 0)], [(-5, -6), (-5, -3)], [(1, -6), (1, 0)], [(7, -6), (7, -3)], [(13, -6), (13, 0)], [(-17, 12), (17, 12)], [(-17, 9), (-17, 15)], [(17, 9), (17, 15)]],
+    "P5/calipers": [[(-12, -14), (-12, 12)], [(12, -14), (12, 12)], [(-12, -14), (12, -14)], [(-12, 12), (-6, 12)], [(12, 12), (6, 12)]],
+    "P5/gauge": [arc(0, 6, 14, 180, 360), [(0, 6), (7, -6)], circle(0, 6, 2), [(-14, 6), (14, 6)]],
+    "P5/protractor": [arc(0, 6, 15, 180, 360) + [(15, 6), (-15, 6)]] + [[(15 * math.cos(math.radians(a)) * 0.8, 6 + 15 * math.sin(math.radians(a)) * 0.8), (15 * math.cos(math.radians(a)), 6 + 15 * math.sin(math.radians(a)))] for a in (200, 230, 260, 290, 320)],
+    "P5/crosshair": [circle(0, 0, 10), [(0, -16), (0, -5)], [(0, 5), (0, 16)], [(-16, 0), (-5, 0)], [(5, 0), (16, 0)]],
+    "P5/thermometer": [[(-4, -15), (4, -15), (4, 6), (-4, 6), (-4, -15)], circle(0, 10, 6), [(0, -4), (0, 6)]],
+    "P5/tally": [[(-12, -10), (-12, 10)], [(-6, -10), (-6, 10)], [(0, -10), (0, 10)], [(6, -10), (6, 10)], [(-15, 8), (10, -8)]],
+    "P5/compass": [star(4, 15, 4), circle(0, 0, 2.5)],
+    "P5/plumb": [[(0, -16), (0, 2)], [(-5, 2), (5, 2), (0, 12), (-5, 2)], [(-10, -16), (10, -16)]],
+    "P5/probe": [[(-15, 12), (6, -9)], [(6, -9), (14, -14)], [(2, -12), (10, -4)], circle(-15, 12, 2)],
+    # --- P6 unreachable: what cannot be entered or seen ---
+    "P6/gate": [[(-13, 14), (-13, -6)] + arc(0, -6, 13, 180, 360) + [(13, 14), (-13, 14)], [(-5, 2), (5, 2)], [(0, -3), (0, 7)]],
+    "P6/locked": [rectp(-11, -14, 22, 28), circle(3, 0, 3), [(3, 3), (3, 8)]],
+    "P6/wall": [rectp(-16, -12, 32, 24), [(-16, -4), (16, -4)], [(-16, 4), (16, 4)], [(-8, -12), (-8, -4)], [(8, -12), (8, -4)], [(0, -4), (0, 4)], [(-8, 4), (-8, 12)], [(8, 4), (8, 12)]],
+    "P6/closed-eye": [arc(0, -6, 15, 20, 160), [(-9, 5), (-11, 10)], [(0, 6), (0, 12)], [(9, 5), (11, 10)]],
+    "P6/void": [circle(0, 0, 13), [(-9, -9), (9, 9)], [(9, -9), (-9, 9)]],
+    "P6/cloud": [arc(-8, 4, 6, 90, 270) + arc(-3, -4, 7, 180, 330) + arc(7, -1, 6, 210, 400) + arc(9, 7, 4, 300, 450) + [(-8, 10)]],
+    "P6/hidden-peak": [[(-16, 14), (-4, -6), (2, 2), (8, -10), (16, 14)], [(-18, -6), (18, -6)]],
+    # --- observations ---
+    "response/bell": [arc(0, 6, 10, 180, 360) + [(13, 10), (-13, 10), (-10, 6)], arc(0, 13, 3, 0, 180), [(0, -4), (0, -9)]],
+    "response/siren": [arc(0, 6, 10, 180, 360) + [(10, 6), (-10, 6)], [(-14, 10), (14, 10)], [(0, -8), (0, -14)], [(-9, -5), (-13, -9)], [(9, -5), (13, -9)]],
+    "response/board": [rectp(-14, -10, 28, 20), [(-10, -5), (4, -5)], [(-10, 0), (8, 0)], [(-10, 5), (0, 5)]],
+    "response/pivot": arrow(-14, 10, -14, -6) + arrow(-14, -6, 12, -6) + [[(-14, 10), (12, 10)]],
+    "correction/balance": [[(0, -12), (0, 12)], [(-14, 12), (14, 12)], [(-14, -6), (14, -6)], [(-14, -6), (-19, 4), (-9, 4), (-14, -6)], [(14, -6), (9, 4), (19, 4), (14, -6)]],
+    "correction/checked": [rectp(-12, -12, 24, 24), [(-7, 0), (-2, 6), (8, -7)]],
+    "correction/pencil": [[(-14, 10), (8, -12)], [(-10, 14), (12, -8)], [(-14, 10), (-16, 16), (-10, 14)], [(8, -12), (12, -8)]],
+    "correction/struck": [[(-15, 0), (15, 0)], wave(-14, 14, 5, 2.5, 3)],
+    "configuration/gear": [circle(0, 0, 8), circle(0, 0, 3)] + [[(0, -14), (0, -9)], [(0, 9), (0, 14)], [(-14, 0), (-9, 0)], [(9, 0), (14, 0)], [(-10, -10), (-6, -6)], [(6, 6), (10, 10)], [(10, -10), (6, -6)], [(-6, 6), (-10, 10)]],
+    "configuration/slider": [[(-15, -6), (15, -6)], circle(5, -6, 3.5), [(-15, 6), (15, 6)], circle(-6, 6, 3.5)],
+    "configuration/toggle": [arc(-7, 0, 7, 90, 270) + [(7, -7)] + arc(7, 0, 7, -90, 90) + [(-7, 7)], circle(7, 0, 4)],
+    "configuration/wrench": [[(-12, 12), (2, -2)], arc(6, -6, 7, 200, 500), [(2, -2), (6, -6)]],
+    "weights/block": [[(-11, 13), (-7, -4), (7, -4), (11, 13), (-11, 13)], [(-4, -4), (-4, -9), (4, -9), (4, -4)], [(-3, 4), (3, 4)]],
+    "weights/dumbbell": [[(-8, 0), (8, 0)], rectp(-14, -7, 6, 14), rectp(8, -7, 6, 14)],
+    "weights/pan": [[(0, -14), (0, -6)], [(-12, -6), (12, -6)], [(-12, -6), (-14, 6)], [(12, -6), (14, 6)], arc(0, 0, 14, 25, 155)],
+    "weights/anvil": [[(-16, -6), (16, -6), (12, 0), (4, 2), (4, 10), (10, 12), (-10, 12), (-4, 10), (-4, 2), (-12, 0), (-16, -6)]],
 }
+FAMILIES = {}
+for _kind in GLYPHS:
+    FAMILIES.setdefault(_kind.split("/")[0], []).append(_kind)
 GLYPH_SEGMENTS = {kind: [(a, b) for poly in polys for a, b in zip(poly, poly[1:])] for kind, polys in GLYPHS.items()}
 GLYPH_STROKE = 2.3
 
 
 def glyph_svg(kind, x, y, scale=1.0, stroke=INK, width=2.2):
     """Vector form of a glyph, for the key outside the map and the P6 survey mark."""
+    kind = FAMILIES[kind][0] if kind in FAMILIES else kind
     d = " ".join("M" + " L".join(f"{px:.1f},{py:.1f}" for px, py in poly) for poly in GLYPHS[kind])
     return (f'<g data-glyph="{kind}" transform="translate({x:.1f} {y:.1f}) scale({scale:.2f})" fill="none" '
             f'stroke="{stroke}" stroke-width="{width:.2f}" stroke-linecap="round" stroke-linejoin="round"><path d="{d}"/></g>')
 
 
+def polygon_area(pts):
+    return abs(sum(x1 * y2 - x2 * y1 for (x1, y1), (x2, y2) in zip(pts, pts[1:] + pts[:1]))) / 2
+
+
 def scatter(fields, seed=4242):
-    """Many glyph instances at irregular places: (kind, cx, cy, scale, angle)."""
+    """Irregular, clustered glyph placement: (kind, cx, cy, scale, angle).
+
+    Spacing is drawn per glyph, so some sit apart and some crowd or overlap;
+    a third of them are dropped next to an earlier one to make clusters. Each
+    glyph takes a form from its family that none of its near neighbours use.
+    """
     rnd = random.Random(seed)
     instances = []
-    areas = [(key, pts, key, 44, 13, (0.55, 0.85)) for key, pts in REGIONS.items()]
-    areas.append(("P6", P6_SHAPE, "P6", 52, 12, (0.55, 0.8)))
+    areas = [(key, pts, key, 13, (0.5, 0.9), 1500) for key, pts in REGIONS.items()]
+    areas.append(("P6", P6_SHAPE, "P6", 12, (0.5, 0.85), 1700))
     for i, key in enumerate(OBSERVATIONS):
-        areas.append((f"observation-{key}", observation_polygon(i), key, 46, 7, (0.48, 0.6)))
-    for zone, pts, kind, spacing, margin, scales in areas:
+        areas.append((f"observation-{key}", observation_polygon(i), key, 6, (0.42, 0.62), 1300))
+    for zone, pts, family, margin, scales, density in areas:
         x0, x1 = min(p[0] for p in pts), max(p[0] for p in pts)
         y0, y1 = min(p[1] for p in pts), max(p[1] for p in pts)
+        target = max(4, int(polygon_area(pts) / density))
         placed = []
-        for _ in range(900):
-            x, y = rnd.uniform(x0, x1), rnd.uniform(y0, y1)
-            if not inside(pts, x, y):
+        attempts = 0
+        while len(placed) < target and attempts < 4000:
+            attempts += 1
+            if placed and rnd.random() < 0.35:
+                px, py = rnd.choice(placed)[:2]
+                a, r = rnd.uniform(0, 2 * math.pi), rnd.uniform(10, 34)
+                x, y = px + r * math.cos(a), py + r * math.sin(a)
+            else:
+                x, y = rnd.uniform(x0, x1), rnd.uniform(y0, y1)
+            if not inside(pts, x, y) or -sample_field(fields[zone], x, y) < margin:
                 continue
-            edge = -sample_field(fields[zone], x, y)
-            if edge < margin or any(math.hypot(x - px, y - py) < spacing for px, py in placed):
+            spacing = rnd.choice((8, 12, 18, 26, 34, 44))
+            if any(math.hypot(x - qx, y - qy) < spacing for qx, qy, _ in placed):
                 continue
-            placed.append((x, y))
-            instances.append((kind, x, y, rnd.uniform(*scales), rnd.uniform(-30, 30)))
+            near = {kind for qx, qy, kind in placed if math.hypot(x - qx, y - qy) < 60}
+            choices = [kind for kind in FAMILIES[family] if kind not in near]
+            if not choices:
+                continue
+            kind = rnd.choice(choices)
+            placed.append((x, y, kind))
+            instances.append((kind, x, y, rnd.uniform(*scales), rnd.uniform(-35, 35)))
     return instances
 
 
@@ -504,9 +614,11 @@ def render(data, sample, veil, res):
     png = base64.b64encode(composite(base, veil)).decode("ascii")
     glyph_counts = {}
     for kind, *_ in base.instances:
-        glyph_counts[kind] = glyph_counts.get(kind, 0) + 1
+        family = kind.split("/")[0]
+        glyph_counts[family] = glyph_counts.get(family, 0) + 1
     metadata = {"renderer": RENDERER_VERSION, "states": sample["states"], "fog": levels, "resolution": res,
-                "ground_sha256": base.signature(), "glyphs": glyph_counts}
+                "ground_sha256": base.signature(), "glyphs": glyph_counts,
+                "distinct_glyphs": len({kind for kind, *_ in base.instances})}
     out = (f'<svg xmlns="{NS}" width="960" height="640" viewBox="0 0 960 640" role="img" '
            f'aria-labelledby="{prefix}-title {prefix}-desc" data-sample-id="{prefix}">')
     out += f'<title id="{prefix}-title">{escape(sample["family_label"] + " — " + fixture["label"] + " — " + sample["viewpoint_label"])}</title>'
@@ -530,7 +642,7 @@ def render(data, sample, veil, res):
                       ("configuration", "CONFIGURATION ACCOUNT"), ("weights", "WEIGHTS ACCOUNT")):
         out += glyph_svg(key, x + 8, 98, 0.34, PAPER, 3.2) + text(x + 20, 102, name, 10, DIRTY, mono=True)
         x += 20 + len(name) * 6.1 + 14
-    out += text(932, 102, "SYMBOLS LIE ON THE GROUND, UNDER THE FOG", 10, DIRTY, anchor="end", mono=True)
+    out += text(932, 102, "ONE FORM OF EACH FAMILY SHOWN / ALL LIE UNDER THE FOG", 10, DIRTY, anchor="end", mono=True)
     out += '<g data-layer="map">'
     out += (f'<image data-layer="ground-and-fog" x="{MAP_X}" y="{MAP_Y}" width="{MAP_W}" height="{MAP_H}" '
             f'preserveAspectRatio="none" href="data:image/png;base64,{png}"/>')
@@ -626,6 +738,7 @@ def build_outputs(data):
                 "treatments": {k: {"label": v[0], "hypothesis": v[1]} for k, v in TREATMENTS.items()},
                 "fog_levels": VEIL, "resolution": {"sample": SAMPLE_RES, "sheet": SHEET_RES},
                 "ground_sha256": base.signature(), "glyph_instances": len(base.instances),
+                "glyph_forms": len(GLYPHS), "glyph_families": {family: len(kinds) for family, kinds in FAMILIES.items()},
                 "samples": samples, "contact_sheets": sheets,
                 "terrain_note": ("A-family region layout as hillshaded relief with ridges on the boundaries and mesas for the observation "
                                  "strips; pictograms are scattered irregularly, draped over the relief, and fogged with it. One palette PNG per sample."),
@@ -675,9 +788,15 @@ def check_outputs(data, folder=OUTPUT):
         map_layer = next(e for e in root.iter() if e.attrib.get("data-layer") == "map")
         km.require(not any(e.tag == f'{{{NS}}}text' for e in map_layer.iter()), f"No text may appear inside the map: {sample['id']}")
         meta = json.loads(root.find(f'{{{NS}}}metadata').text)
-        km.require(set(meta["glyphs"]) == set(GLYPHS) and min(meta["glyphs"].values()) >= 3, f"Every pictogram must lie on the ground several times: {sample['id']}")
+        km.require(set(meta["glyphs"]) == set(FAMILIES) and min(meta["glyphs"].values()) >= 3, f"Every symbol family must lie on the ground several times: {sample['id']}")
+        km.require(meta["distinct_glyphs"] >= 50, f"Too few distinct symbol forms on the ground: {sample['id']}")
         grounds.add(meta["ground_sha256"])
     km.require(len(grounds) == 1 and grounds == {manifest["ground_sha256"]}, "Ground relief and glyphs must be identical across every sample")
+    placed = ground(SAMPLE_RES).instances
+    for a, (kind_a, xa, ya, *_) in enumerate(placed):
+        for kind_b, xb, yb, *_ in placed[a + 1:]:
+            km.require(kind_a != kind_b or math.hypot(xa - xb, ya - yb) >= 60, f"Adjacent glyphs share a form: {kind_a}")
+    km.require(len({kind for kind, *_ in placed}) >= 50 and len(placed) >= 120, "Expected a large, varied glyph population")
     return manifest
 
 
@@ -698,7 +817,7 @@ def main(argv=None):
                 (OUTPUT / name).write_bytes(content)
         manifest = check_outputs(data)
         print(f'{args.command}: OK — {len(manifest["samples"])} fog samples, {len(manifest["contact_sheets"])} contact sheets, '
-              f'{manifest["glyph_instances"]} draped glyphs; inputs {manifest["input_hash"]}')
+              f'{manifest["glyph_instances"]} draped glyphs in {manifest["glyph_forms"]} forms; inputs {manifest["input_hash"]}')
         return 0
     except (ValueError, KeyError, OSError, ET.ParseError) as exc:
         print(f"knowledge maps fog: {exc}", file=sys.stderr)

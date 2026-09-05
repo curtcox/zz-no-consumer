@@ -1,12 +1,12 @@
 {
   "version": 1,
-  "renderer_version": "knowledge-map-fog-2.0.0",
+  "renderer_version": "knowledge-map-fog-2.1.0",
   "status": "Design samples — not adopted",
   "warning": "Story revelations through page 039. Provisional editorial models, not measured beliefs.",
-  "input_hash": "8a7a8dc5ab33890289fc9cf16bda0e637359fd65273faa5f774e9e92e0949bf2",
+  "input_hash": "385e51d49e8f08e289440d1a7dcc47a07d8a789cee147be105ec5957f7e4b169",
   "inputs": {
     "data/knowledge-map-samples.json": "b91f0f8ee86d1e0d56ea4dfe1ce50417c3db2fa5c0b48153f09783886621b654",
-    "scripts/knowledge_maps_fog.py": "b99670a7a1920c6a58ae7a0404da9751d1e07b1df1fdbc6185d32760bbb2d29b"
+    "scripts/knowledge_maps_fog.py": "71a897803f0fbddb5bd91efa1cc6251ae70ec8e79dfd9ae8eb60cb352f37a636"
   },
   "treatments": {
     "w3": {
@@ -32,8 +32,21 @@
     "sample": 1.0,
     "sheet": 0.5
   },
-  "ground_sha256": "6f36e763ac92a2d5a12bb35e93dcfa7a8b93a57832c7c637ba65bf785079a6a3",
-  "glyph_instances": 93,
+  "ground_sha256": "6a3f0fe9b457f949a91adcffa8fb4b3e17d6f5a8c9ce52d719295833b1daf1fd",
+  "glyph_instances": 179,
+  "glyph_forms": 73,
+  "glyph_families": {
+    "P1": 10,
+    "P2": 10,
+    "P3": 10,
+    "P4": 10,
+    "P5": 10,
+    "P6": 7,
+    "response": 4,
+    "correction": 4,
+    "configuration": 4,
+    "weights": 4
+  },
   "samples": [
     {
       "id": "w3-010-reader-hint",
@@ -67,7 +80,7 @@
         "content/pages/010.md#panel-4"
       ],
       "caption": "THE READER HAS A CORRECTION THE PEOPLE INSIDE THE EVENT DO NOT.",
-      "sha256": "f79afb419d95d6b7d80b0f5ddaab95257d126acfd330a81314bad3dcf85c1184"
+      "sha256": "7c52e3670bc142dec363b9201e4ffd78af4f20f0b87aa4477d49b6ea66dd7d8f"
     },
     {
       "id": "w3-010-responders-hint",
@@ -100,7 +113,7 @@
         "content/pages/026.md"
       ],
       "caption": "THE ALERT, BOARD AND PIVOT DO NOT DISCLOSE THE WHOLE EVENT.",
-      "sha256": "8b838366dd84c3faf74bb0082ba8ddd3f8e9bd41668a2fd72f84cc9e1b5c1a55"
+      "sha256": "e42c2cf027dc853ab4ead7f5450d090e7aa7981c0071db22e904081a769f1546"
     },
     {
       "id": "w3-010-reader-no-p6",
@@ -134,7 +147,7 @@
         "content/pages/010.md#panel-4"
       ],
       "caption": "THE READER HAS A CORRECTION THE PEOPLE INSIDE THE EVENT DO NOT.",
-      "sha256": "270e63c8ddb6a01346c2158a12cc87c783f448f8f249f60f634ec9dff1cafb7a"
+      "sha256": "4625b23daf4a7ed0a17cec75fbcba31b73949c2a6bc6c5979aaa58606ebcbc40"
     },
     {
       "id": "w3-010-responders-no-p6",
@@ -167,7 +180,7 @@
         "content/pages/026.md"
       ],
       "caption": "THE ALERT, BOARD AND PIVOT DO NOT DISCLOSE THE WHOLE EVENT.",
-      "sha256": "c22c5877e616211a90a600b810f4623682fef6bba7728f39dfe588125283ab6c"
+      "sha256": "3a8d382ac6b0f1ec033f1b094bdb2e66eef7a0d1b9a6c580232a4dbb088bb335"
     },
     {
       "id": "w3-016-reader",
@@ -200,7 +213,7 @@
         "content/pages/016.md#panel-5"
       ],
       "caption": "A SINGLE-SOURCED CONFIGURATION ACCOUNT IS NOT ACCESS TO THE CAUSE.",
-      "sha256": "eb4cc69a7f5890a01e252ce9b0ff66c4792dfef4d9213ea240f6344fb5dd0f5a"
+      "sha256": "6130b56a0dcacffae8f800f12ceddf02b0a8e0771b48e1d52e9f2ff25a048149"
     },
     {
       "id": "w3-016-responders",
@@ -233,7 +246,7 @@
         "content/pages/026.md"
       ],
       "caption": "NO ONE IN THIS STORY CAN SEE THIS PAGE. THIS MAP DOES NOT UPDATE.",
-      "sha256": "7df595a12a96fd8770aff966fe5930d1d9eb448b37e5d6d991047785781adbf0"
+      "sha256": "07ebb8f1f56e4a2c4c766048798d3d0cfebc547668a5a3c3479c90f0e2a861f4"
     },
     {
       "id": "w3-039-before-reader",
@@ -268,7 +281,7 @@
         "content/pages/038.md#panel-5"
       ],
       "caption": "THE WIPE SUPPORTS AN INDEPENDENCE READING. THE READING IS STILL INFERENCE.",
-      "sha256": "aed07e1be0127865ddbf6663a60316082cdda71708d1b4ef049a4992443f966f"
+      "sha256": "4e63aedc40848d9987b3b5264c20cc333ae5ea3d6ea5f427acddc7f334558cee"
     },
     {
       "id": "w3-039-before-responders",
@@ -301,7 +314,7 @@
         "content/pages/026.md"
       ],
       "caption": "THE READER HAS REACHED THE RECURRENCE. THE JUNE RESPONSE HAS NOT.",
-      "sha256": "c48690fa7b926da09b246d55b37604cb78a95e02ac705c7ad3400f67dad55c21"
+      "sha256": "a94fb85cb6ff852bda658c9f78ce3a6e935a70a91c50a62c8d246e765676c23f"
     },
     {
       "id": "w3-039-after-reader",
@@ -334,7 +347,7 @@
         "content/pages/039.md#panel-6"
       ],
       "caption": "THE GROUND REMAINS. P2 RE-FOGS; P1 LOSES ITS OUTER FOOTHOLD.",
-      "sha256": "d7d3807121bd284d927b0e314bb712dada7f10b433e2146bfb9aa9cf634eabcc"
+      "sha256": "da077c15d9d6d9d090362face6079ae31f91160ee13f5f98559ace0e94e6ab39"
     },
     {
       "id": "w3-039-after-responders",
@@ -367,7 +380,7 @@
         "content/pages/026.md"
       ],
       "caption": "A READER REVELATION IS NOT A NEW REPORT TO THE JUNE RESPONDERS.",
-      "sha256": "88a2c9b7ea670c2aa3541fcbfc9f519025a66d12a0a491aa15f92d93fd8be84b"
+      "sha256": "4b191a917dbc7defe7bece68cc7303c3be060b54ac4539610b4e55f28a487eac"
     },
     {
       "id": "w2-010-reader-hint",
@@ -401,7 +414,7 @@
         "content/pages/010.md#panel-4"
       ],
       "caption": "THE READER HAS A CORRECTION THE PEOPLE INSIDE THE EVENT DO NOT.",
-      "sha256": "8642003f4b0f9c2484ea6991d39aeeff9b21bb1328718d886cad1fe44b1a2cff"
+      "sha256": "8947c0bc523df898408445d0f8c05ff8b0498bdc934299bcfeb65a4f8bea7e27"
     },
     {
       "id": "w2-010-responders-hint",
@@ -434,7 +447,7 @@
         "content/pages/026.md"
       ],
       "caption": "THE ALERT, BOARD AND PIVOT DO NOT DISCLOSE THE WHOLE EVENT.",
-      "sha256": "bc1c001667ef07eb97310b296fd6d85ed052ba987b63364a82f780bfc6739732"
+      "sha256": "35263d1f9bdd4f08572e600bf6ba9c6efce9b6dc40f6f9c74a947adafa010103"
     },
     {
       "id": "w2-010-reader-no-p6",
@@ -468,7 +481,7 @@
         "content/pages/010.md#panel-4"
       ],
       "caption": "THE READER HAS A CORRECTION THE PEOPLE INSIDE THE EVENT DO NOT.",
-      "sha256": "26e160ce53c26579ef9fd8cef3ea16fb8a26939ff69204e369fe31367255a5fb"
+      "sha256": "39242b487a55fc1e6cdbd9f14a67582546b74d38f033dbe2c031e724f57cee42"
     },
     {
       "id": "w2-010-responders-no-p6",
@@ -501,7 +514,7 @@
         "content/pages/026.md"
       ],
       "caption": "THE ALERT, BOARD AND PIVOT DO NOT DISCLOSE THE WHOLE EVENT.",
-      "sha256": "5635c0f07460506fa42441f258c29a340a84bdf9dfad57cd4895cbfb8b1c2306"
+      "sha256": "d0675b9ba14343f06bdc9d38f73a8a7915f76804cc50742ad145ed26d7862549"
     },
     {
       "id": "w2-016-reader",
@@ -534,7 +547,7 @@
         "content/pages/016.md#panel-5"
       ],
       "caption": "A SINGLE-SOURCED CONFIGURATION ACCOUNT IS NOT ACCESS TO THE CAUSE.",
-      "sha256": "cd7233a5930625ddb1e6fdffbe8438e2fea20a04df6e7b3a274e55604e3b817e"
+      "sha256": "5a5ec1714b0a13bf41f6ede0edf56eef84d3a626453844f4a48a7eafc3ff0e2f"
     },
     {
       "id": "w2-016-responders",
@@ -567,7 +580,7 @@
         "content/pages/026.md"
       ],
       "caption": "NO ONE IN THIS STORY CAN SEE THIS PAGE. THIS MAP DOES NOT UPDATE.",
-      "sha256": "516bf0774d485b552dc3eec07f13f5862625799839e18828d99882eaefc12bc7"
+      "sha256": "8cb0f6d18e8cf651dd31b1f5af2475e59e4bf7ff4eec13277b44b4f2c6b62f71"
     },
     {
       "id": "w2-039-before-reader",
@@ -602,7 +615,7 @@
         "content/pages/038.md#panel-5"
       ],
       "caption": "THE WIPE SUPPORTS AN INDEPENDENCE READING. THE READING IS STILL INFERENCE.",
-      "sha256": "e7bbd364dbf6b12fb2be3ae03457e2ce0210f317b16789ccfc75eaf1d5b69554"
+      "sha256": "4adb46e8424377c4b7d244e77a9ed33b7bf2fca44fea1aa830baa8b944069465"
     },
     {
       "id": "w2-039-before-responders",
@@ -635,7 +648,7 @@
         "content/pages/026.md"
       ],
       "caption": "THE READER HAS REACHED THE RECURRENCE. THE JUNE RESPONSE HAS NOT.",
-      "sha256": "59bb981c86a1b890f7887ed2003f423fb4a7437ce53e45effcd670d49250099f"
+      "sha256": "b752c30e759931758ba56ed23fdc38dbfe31abb385473cd3b13a46d7d9609d5c"
     },
     {
       "id": "w2-039-after-reader",
@@ -668,7 +681,7 @@
         "content/pages/039.md#panel-6"
       ],
       "caption": "THE GROUND REMAINS. P2 RE-FOGS; P1 LOSES ITS OUTER FOOTHOLD.",
-      "sha256": "054a02c61a514cb6d25ee4479094739f2023ea99a60d99c57926f5ed6cf95c88"
+      "sha256": "d317c9c2c4997cb5f2f537e3659bc73a061c2181ecea3942c4376586530c1cf0"
     },
     {
       "id": "w2-039-after-responders",
@@ -701,7 +714,7 @@
         "content/pages/026.md"
       ],
       "caption": "A READER REVELATION IS NOT A NEW REPORT TO THE JUNE RESPONDERS.",
-      "sha256": "f24f988b0d94ae53b4d571772e33aac957109b8d1ee7789740f02445226abc43"
+      "sha256": "c5183fa02b6064127ef7030cbbfd6b949d848cb360c8b670be55c30d093d5673"
     },
     {
       "id": "w1-010-reader-hint",
@@ -735,7 +748,7 @@
         "content/pages/010.md#panel-4"
       ],
       "caption": "THE READER HAS A CORRECTION THE PEOPLE INSIDE THE EVENT DO NOT.",
-      "sha256": "5b692762c569c4855603f86dbc1fff735c212a2b61e4af3e6f5d0a23fb7d5cff"
+      "sha256": "bdff95a534d3f12f5a2447c9142492191fa3a1dac1a3bb4c52253a3c5731147f"
     },
     {
       "id": "w1-010-responders-hint",
@@ -768,7 +781,7 @@
         "content/pages/026.md"
       ],
       "caption": "THE ALERT, BOARD AND PIVOT DO NOT DISCLOSE THE WHOLE EVENT.",
-      "sha256": "b346ec7c3351f6a754ed6461afcec943876d1da6f7567e5c1bb1432a263d35a9"
+      "sha256": "3193c1f02df61c32ebefce0cfed02625069bed281152639e1cd55ec57627be34"
     },
     {
       "id": "w1-010-reader-no-p6",
@@ -802,7 +815,7 @@
         "content/pages/010.md#panel-4"
       ],
       "caption": "THE READER HAS A CORRECTION THE PEOPLE INSIDE THE EVENT DO NOT.",
-      "sha256": "6b08e1117e89441ffe05c493c92264458c6aff21176542dd4457ce5d1697ca4d"
+      "sha256": "e4e07950d45a59480071d95af3277e879e9a284a0816693e5128b0151108a675"
     },
     {
       "id": "w1-010-responders-no-p6",
@@ -835,7 +848,7 @@
         "content/pages/026.md"
       ],
       "caption": "THE ALERT, BOARD AND PIVOT DO NOT DISCLOSE THE WHOLE EVENT.",
-      "sha256": "ed686a593e03e68a987ad10033e733e1fdd381f504c6130c6cd13141140c1e6c"
+      "sha256": "6795af37c47ccce893286ccee2d4edf52924de808613e1af43052da88a0c7eec"
     },
     {
       "id": "w1-016-reader",
@@ -868,7 +881,7 @@
         "content/pages/016.md#panel-5"
       ],
       "caption": "A SINGLE-SOURCED CONFIGURATION ACCOUNT IS NOT ACCESS TO THE CAUSE.",
-      "sha256": "6f6549a7ca39eb86afa15ebb4add4a146c4f9592e41600f3c195323e3f09bbc1"
+      "sha256": "3b54a9193766767263a8302b90def99a1ac7e1bc1a6f4c30326ca4255ef73280"
     },
     {
       "id": "w1-016-responders",
@@ -901,7 +914,7 @@
         "content/pages/026.md"
       ],
       "caption": "NO ONE IN THIS STORY CAN SEE THIS PAGE. THIS MAP DOES NOT UPDATE.",
-      "sha256": "265b67d4c5784c276c0053af9a7eb60d416b83a4073908e634731e7a3129fbdd"
+      "sha256": "c5883109ed1f265254e7d7ae922253f1adabd3441ecea507bfdedb7331cae3fb"
     },
     {
       "id": "w1-039-before-reader",
@@ -936,7 +949,7 @@
         "content/pages/038.md#panel-5"
       ],
       "caption": "THE WIPE SUPPORTS AN INDEPENDENCE READING. THE READING IS STILL INFERENCE.",
-      "sha256": "15cb3d9b8bad5a47a856e40d2d7464c25389f9067cdd35f25d73bc74312ce3ee"
+      "sha256": "8f77409880a66832710238e9a81c48e6148c24731c189c42267b1803fde2a5c7"
     },
     {
       "id": "w1-039-before-responders",
@@ -969,7 +982,7 @@
         "content/pages/026.md"
       ],
       "caption": "THE READER HAS REACHED THE RECURRENCE. THE JUNE RESPONSE HAS NOT.",
-      "sha256": "0e9846d8b73ae36d111b7050a0c2ce63e68b137caf390f22bcbfb10d01c201e7"
+      "sha256": "7442091439f14679f35cf21e7c6bd6971a54efa5842f71a94b6cc8f0677b68c5"
     },
     {
       "id": "w1-039-after-reader",
@@ -1002,7 +1015,7 @@
         "content/pages/039.md#panel-6"
       ],
       "caption": "THE GROUND REMAINS. P2 RE-FOGS; P1 LOSES ITS OUTER FOOTHOLD.",
-      "sha256": "f32f8cb52c6341c670e5dc61df9b24fde685927bdb5ef71d3118980c29acf575"
+      "sha256": "ceba9ddfe5396c13a5d28718a768bf4c1464deecd4b386434ecc1a873e966eb9"
     },
     {
       "id": "w1-039-after-responders",
@@ -1035,7 +1048,7 @@
         "content/pages/026.md"
       ],
       "caption": "A READER REVELATION IS NOT A NEW REPORT TO THE JUNE RESPONDERS.",
-      "sha256": "c23106b2a034146eb2b3491c2431c3da0977005256e3c25e33ee7657ee6211e6"
+      "sha256": "a7a68a376944978181fd531af112924d25551f871bf4f711d4e0c751d35a0e6c"
     }
   ],
   "contact_sheets": [
@@ -1052,7 +1065,7 @@
           "viewpoint": "reader"
         }
       ],
-      "sha256": "113c50e32f0347e204db3e59f26605d1b50213563284c4b8b4360a114c497243"
+      "sha256": "e970e6a194040bb8a6f973529e025b8445155f1fa9baeb71dbcea66444c0a305"
     },
     {
       "path": "contact-016-reader.svg",
@@ -1063,7 +1076,7 @@
           "viewpoint": "reader"
         }
       ],
-      "sha256": "f965483eb9712f19c83745cb9b92ab7792ca95d50cc504023b7ad820b0abd590"
+      "sha256": "9945dc6504d8f93e2c1fd688c12d763861026d7e4bb167e6de15d1d7ef8f8f92"
     },
     {
       "path": "contact-039-reader.svg",
@@ -1078,7 +1091,7 @@
           "viewpoint": "reader"
         }
       ],
-      "sha256": "babacf4d8a8170bbe1ecdb39be11ed2d26d32cac6149aecd6b3a99cddf8be04e"
+      "sha256": "407bfe8d6e104346663d77bbebb8af36588e0df439988938318726f3d85764ae"
     },
     {
       "path": "contact-010-responders.svg",
@@ -1093,7 +1106,7 @@
           "viewpoint": "responders"
         }
       ],
-      "sha256": "8e0865df0dc9d19be63af76b62fc526c1cef547266b69754ef9a069299c742cf"
+      "sha256": "f84a3c4dfaf9a0bdd2c9948f61772182e9e0c166d91a9d4b267ed241cafba8dc"
     },
     {
       "path": "contact-016-responders.svg",
@@ -1104,7 +1117,7 @@
           "viewpoint": "responders"
         }
       ],
-      "sha256": "0d29fc6c44568185c44260687129c5be3d908e780c2fdc734fbc112a5a1b2c3d"
+      "sha256": "8515dfab0ab58a06da34f384a5ec13690496844d054b6296bafc95d5859fe508"
     },
     {
       "path": "contact-039-responders.svg",
@@ -1119,7 +1132,7 @@
           "viewpoint": "responders"
         }
       ],
-      "sha256": "50ed9ab89166a08625e155dc8de25679ffb9b32d1761bae868eab2ba16fcb0eb"
+      "sha256": "9f6d8b193fec5921515a5ec202bb68ad3aea1292bccd808ff68e95747f828b0c"
     }
   ],
   "terrain_note": "A-family region layout as hillshaded relief with ridges on the boundaries and mesas for the observation strips; pictograms are scattered irregularly, draped over the relief, and fogged with it. One palette PNG per sample.",
