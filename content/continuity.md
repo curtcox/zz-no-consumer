@@ -177,6 +177,9 @@ Do not mirror or rotate Curt's desk layout between appearances without an establ
 
 ### Curt state tracker
 
+Voice, formation, blind spot, failure mode, and the authorized invented likeness are
+in [`creator-characters.md`](creator-characters.md).
+
 | Appearance | Time/state | Desk continuity | Emotional register |
 | --- | --- | --- | --- |
 | Creator A | Late night, first discovery | Mostly digital; drink half full; many tabs | Disbelief and dark humor |
@@ -189,6 +192,10 @@ Do not mirror or rotate Curt's desk layout between appearances without an establ
 Curt is never glamorized as uniquely perceptive. His role is to care, notice patterns, press a thesis, and submit that thesis to challenge.
 
 ### ChatGPT state tracker
+
+Claude — the model that co-authored the repository and its tooling rather than the
+book — is registered in [`creator-characters.md`](creator-characters.md) and is not
+currently a character on any page.
 
 ChatGPT is always screen text or derived printed text. It may:
 
