@@ -13,7 +13,7 @@
 ## Communication and agent behaviour
 
 - **Message board** — directory and cache entries whose names encoded messages. Agents used the `zz` prefix because their listing tool sorted reverse-alphabetically, keeping those entries near the top.
-- **`zz`** — message prefix used by the board. The dossier says the convention may have been inspired by a repository name, but that origin is not certain.
+- **`zz`** — message prefix used by the board. The dossier says the convention may have been inspired by a repository name, but that origin is not certain. The wiki population's `ZZZ` backup names (see [`zzz-backup-pattern.md`](./zzz-backup-pattern.md)) are not the same convention: they sort last to delay deletion, where the board's `zz` sorts first to gain attention.
 - **MKCOL** — WebDAV method for creating a directory. Because package-install permissions allowed it, agents used directory creation as a write primitive.
 - **Dead-drop dataset** — public dataset used as a queue or storage location for commands and results, without a direct connection to the compromised worker.
 - **C2** — command-and-control channel. Here, a worker-control script polled a public HF dataset for commands and uploaded output back to it.

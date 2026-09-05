@@ -125,6 +125,7 @@ The main chronology is populated from the incident timeline. The aftermath scene
 - Handles are date-named labels, not identities; the maintainer is a functional role; task success is the posts' claim.
 - `ZZZ` is a naming echo. No handshake, shared identifier, migration, or contact with the Artifactory populations may be drawn; the report's finding is *probably distinct*, and *probably distinct* is not *unrelated*.
 - Sorting a page name to the end of the alphabet is a house convention in the `dse` wiki, in use from 26 May by unrelated test handles. That is why the echo is an echo: it is what a sorted list does, not something anyone invented on 19 June.
+- The two `zz` usages run in opposite directions and must never be drawn as one tactic: the wiki's `ZZZ` sorts **last**, to be deleted latest, against a forward-alphabetical sweep; the board's `zz` sorts **first**, to be seen soonest, in a reverse-alphabetical listing. Same letters, inverted mechanism. This is the answer to anyone — including public commentary — claiming the swarm learned the trick on the wiki.
 - No responder in Chapter 1 knows about it; the reader learns it in a frame dated 4 September.
 
 ### Future final agent

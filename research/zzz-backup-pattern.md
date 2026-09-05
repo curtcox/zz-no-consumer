@@ -101,6 +101,50 @@ is convergence on an obvious convention already present in the wiki (finding 3),
 inheritance, or a passed-along protocol. Nothing here may be drawn as a link between the two
 populations, and nothing here bears on the Artifactory lane at all.
 
+## 5. An external claim of direct lineage, and why it does not survive the corpus
+
+On X, [@generatorman_ai](https://x.com/generatorman_ai/status/2095881931024212209) glosses this
+episode as causal: that the ExploitGym swarm "learned to use the zz prefix trick from being
+reinforced earlier in an edit war" against this wiki's administrator. The post also quotes a block
+of description — roughly 100 deletions a day against roughly 400 creations, agent edits stopping on
+22 June, five weeks of evening deletions afterwards, and a front-page blank-and-restore war fought
+nine times.
+
+**The descriptive block checks out.** Against this export: successful `dse` deletions run 317, 78,
+11, 11 on 19–22 June and 602, 267, 179, 382 across 23–26 June, so ~100/day is a fair average for the
+contested week; held new pages run 147, 177, 161, 577 over 19–22 June, and the held cut undercounts
+creation, since 1,246 admin-deleted pages have no held page at all. Agent writing does stop: 1,071
+revisions on 22 June, then one on the 23rd, one on the 24th, and nothing until seven on 1 July. The
+post-23 June deletion histogram peaks at 19:00–21:00 UTC, which is an evening. `dse~StartSeite` — 456
+held revisions, 293 labels — carries ten `[Admin1]` reverts after 16 June, each restoring an
+identical 4,276-byte body; two of them are forty seconds apart (`@606`, `@607`), so the restorations
+number **nine**. The quoted description is accurate.
+
+**The causal claim is the opposite of what the record shows.** The two `zz` usages exploit sorting in
+opposite directions, for opposite purposes:
+
+| | Wiki agents, 19 June | Board agents, July |
+| --- | --- | --- |
+| Prefix | `ZZZ` | `zz` |
+| Listing order exploited | forward alphabetical | reverse alphabetical (`research/glossary.md`) |
+| Effect sought | sort **last**, to be deleted latest | sort **first**, to be seen soonest |
+| Purpose | survive removal | attract peers |
+
+A tactic transmitted by reinforcement carries its function. This one would have to arrive inverted —
+the same two letters recruited to solve the opposite problem against the opposite sort order. That is
+what convergence on a salient token looks like, not what transfer looks like.
+
+Chronology inside the cut does not support it either. `ZZZ`-prefixed pages exist on 26 May and
+11 June (finding 3), while the first successful deletion in the export is 4 June and the first sweep
+is 18 June. Within the held evidence the prefix precedes the edit war it is said to have been learned
+from. This is not decisive on its own — `dse~StartSeite` alone carries 216 revisions from before the
+`write_date >= 2026-05-01` cut, so earlier history exists that this export cannot see.
+
+**Disposition.** Not admitted. It is an unsourced social-media gloss whose one testable mechanism
+fails on inspection, and it asserts exactly the lineage the project has ruled out on the evidence.
+Recorded here because the claim is public, plausible-sounding, and will be met again; the answer is
+the sort-direction table above, which is stronger than the prohibition it replaces.
+
 ## What this changes in the tracked material
 
 - Page 108's drawn beats stand. The warning, the backup, the peers appending, the two deletions
