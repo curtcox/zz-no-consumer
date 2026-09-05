@@ -142,6 +142,21 @@ python3 scripts/make-thumbnails.py
 
 The result is `256t/site/production/thumbnails/index.html`. Its panel geometry is a private review aid rather than locked layout; findings and required print proofs are tracked in `content/production-review.md`.
 
+## Knowledge map alternatives
+
+The [knowledge-map comparison gallery](docs/knowledge-maps/) is an isolated design study, not an adopted addition to the story. It compares four map grammars across reader/responder viewpoints, early-P6 controls, re-fogging, and margin/gutter/chapter-opening placements. It includes spoilers through page 039. The [source SVG samples and contact sheets](assets/knowledge-maps/v1/) can be viewed directly in the repository; [local-model concept images and prompts](assets/knowledge-maps/local-v1/) explore appearance separately from the controlled evidence-state diagrams. The specification and review criteria are in [design/knowledge-map.md](design/knowledge-map.md).
+
+```sh
+python3 scripts/knowledge_maps.py generate
+python3 scripts/knowledge_maps.py check
+python3 scripts/knowledge_map_local.py check
+python3 -m unittest discover -s scripts -p test_knowledge_map_local.py
+python3 scripts/build-site.py
+python3 scripts/validate-knowledge-map-gallery.py
+```
+
+The SVG renderer uses only Python's standard library. To generate or resume the four local concept images, run `python3 scripts/knowledge_map_local.py generate`. It uses the existing FLUX.2 Klein 4B command from `data/local-models.json`, requires its weights to be cached, forces offline operation, and makes no hosted API calls. Existing validated images are retained rather than regenerated. The prompts, seed, model, licence, hashes, and measured generation times are recorded beside the images. CI validates these committed assets; it does not run an image model. Publish through the normal reviewed `main` branch Pages workflow, not the internal build.
+
 ## Placeholder images
 
 `scripts/textimage.py` flows a block of text into an image of exactly the dimensions it is given. It adds no image dependencies: glyph advances come from the Helvetica metrics that Arial, Liberation Sans, and Nimbus Sans match, so line breaking and the automatic type-size search run in pure Python and the rendered SVG breaks its lines where the module measured them. The largest size that fits is chosen by binary search; below the floor the text is cut to the box and ellipsized, so the image never spills past its dimensions.

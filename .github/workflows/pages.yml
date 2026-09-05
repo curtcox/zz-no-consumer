@@ -35,11 +35,23 @@ jobs:
       - name: Check page, source, and provenance cross references
         run: python scripts/crossref.py check
 
+      - name: Check controlled knowledge-map assets
+        run: python scripts/knowledge_maps.py check
+
+      - name: Check local knowledge-map images
+        run: python scripts/knowledge_map_local.py check
+
+      - name: Test offline knowledge-map generation boundaries
+        run: python -m unittest discover -s scripts -p test_knowledge_map_local.py
+
       - name: Build site
         run: python scripts/build-site.py
 
       - name: Validate viewer routes
         run: python scripts/validate-viewer.py
+
+      - name: Validate knowledge-map gallery
+        run: python scripts/validate-knowledge-map-gallery.py
 
       - name: Configure GitHub Pages
         uses: actions/configure-pages@v5

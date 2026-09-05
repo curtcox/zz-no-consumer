@@ -1,0 +1,1619 @@
+{
+  "version": 1,
+  "renderer_version": "knowledge-map-svg-1.0.0",
+  "status": "Design samples — not adopted",
+  "warning": "Story revelations through page 039. Provisional editorial models, not measured beliefs.",
+  "input_hash": "ab2ad17099b473eac241f9002dc90b896d28acf77ea0f910bf8e66483f34c1d8",
+  "inputs": {
+    "data/knowledge-map-samples.json": "b91f0f8ee86d1e0d56ea4dfe1ce50417c3db2fa5c0b48153f09783886621b654",
+    "scripts/knowledge_maps.py": "caad26f89f617e148c3e971a428d8214d83e744648d87dbf63b365ede6dd23ab",
+    "design/knowledge-map.md": "bda29d4179bda82a00ab7bf72f9ae3eac322db3aa2e9f6b2a5c65c37dd3639dc",
+    "design/palette.md": "d1c7b530278df104e39095c8c702b1f546144085ba17bf324e35bccfe6f82ed5",
+    "design/lettering.md": "bdd511ea0d8f5d330b4bb202d716e794acd98720f28401da099e01451ccaa987",
+    "content/pages/005.md": "4c95f993e3ae366b61be0fe5031827004ed416770c87bdfb42e07b1384682cac",
+    "content/pages/007.md": "0c83a0fe4ab72113b5a2e1c6725592e05840c71a3e1d0c8d2ffdb66382cc8f1b",
+    "content/pages/010.md": "4c23c23a51667ca110d286b8f8e42642909320c0f1c9b1598120ceec0290d988",
+    "content/pages/011.md": "ea297f0af4f948302aebb486db8d4d8f21240bcbbed74eb2cc4452311629d53e",
+    "content/pages/016.md": "233cd08abfe45ed9976b9f9b7b8d1c96511c3afbfea04306cc6655d9e6ae9cb2",
+    "content/pages/025.md": "748fff4116de18534a84f489f4dde2172ecf588728d06060459fee20b56c6f6a",
+    "content/pages/026.md": "6a612a796043a8636450b10367080aafe7f539c215f932012f48c32eb2bd5b3a",
+    "content/pages/032.md": "3b52abebd0f9956a5c9fffc7134809ca8a8b942f681934d53544b66f03d14bb6",
+    "content/pages/035.md": "3bd93175e4c61277b182ff500c3a625b56c52230d72a1ce03accabc8dde40b18",
+    "content/pages/038.md": "664fc7ea03fdc92190cf6271c2191340a206fa9fa340cb1f6fd0e3d270bdf674",
+    "content/pages/039.md": "cad8b7d667043067e9fe667ac10e57e8647ba1c21427df671134179c99ce383e"
+  },
+  "samples": [
+    {
+      "id": "a-010-reader-hint",
+      "family": "a",
+      "family_label": "Border and beyond",
+      "fixture": "010-hint",
+      "viewpoint": "reader",
+      "viewpoint_label": "Reader",
+      "path": "a-010-reader-hint.svg",
+      "alt": "Border and beyond: 010 / Before the boundary is named, Reader. Schematic drawn claim terrain; P1 hatched; P2 dark; P3 dark; P4 dark; P5 hatched. P1 outer foothold hatched. Observation islands: response dark, correction hatched, configuration dark, weights dark. P6 is only an unnamed dark hint. Dark means no available support, not false. Contours remain fixed across fixtures. Design sample, not adopted.",
+      "states": {
+        "P1": "hatched",
+        "P2": "dark",
+        "P3": "dark",
+        "P4": "dark",
+        "P5": "hatched",
+        "P6": "dark",
+        "p1_foothold": "hatched",
+        "observations": {
+          "response": "dark",
+          "correction": "hatched",
+          "configuration": "dark",
+          "weights": "dark"
+        },
+        "p6_presence": "hint"
+      },
+      "source_references": [
+        "content/pages/005.md",
+        "content/pages/007.md",
+        "content/pages/010.md#panel-3",
+        "content/pages/010.md#panel-4"
+      ],
+      "rationale": "Coordination and measurement remain interpretations. The reader has the disputed scorer correction; recurrence, archive fidelity, and a universal no-report claim are not yet supported. No later response scene is imported.",
+      "caption": "THE READER HAS A CORRECTION THE PEOPLE INSIDE THE EVENT DO NOT.",
+      "attribution": null,
+      "sha256": "d11977fa886eeb7fbd399dd22a2332b779e683407b3aa21840eaf7912c001e64"
+    },
+    {
+      "id": "a-010-responders-hint",
+      "family": "a",
+      "family_label": "Border and beyond",
+      "fixture": "010-hint",
+      "viewpoint": "responders",
+      "viewpoint_label": "27 June responders",
+      "path": "a-010-responders-hint.svg",
+      "alt": "Border and beyond: 010 / Before the boundary is named, 27 June responders. Schematic drawn claim terrain; P1 hatched; P2 dark; P3 dark; P4 dark; P5 dark. P1 outer foothold hatched. Observation islands: response lit, correction dark, configuration dark, weights dark. P6 is only an unnamed dark hint. Dark means no available support, not false. Contours remain fixed across fixtures. Design sample, not adopted.",
+      "states": {
+        "P1": "hatched",
+        "P2": "dark",
+        "P3": "dark",
+        "P4": "dark",
+        "P5": "dark",
+        "P6": "dark",
+        "p1_foothold": "hatched",
+        "observations": {
+          "response": "lit",
+          "correction": "dark",
+          "configuration": "dark",
+          "weights": "dark"
+        },
+        "p6_presence": "hint"
+      },
+      "source_references": [
+        "design/knowledge-map.md#whose-map",
+        "content/pages/025.md#panel-4",
+        "content/pages/026.md"
+      ],
+      "rationale": "The alert, board and pivot are observable in the bounded response model. Deliberate coordination is still an attribution. No evidence establishes access to reader-only disclosures or later recurrence.",
+      "caption": "THE ALERT, BOARD AND PIVOT DO NOT DISCLOSE THE WHOLE EVENT.",
+      "attribution": null,
+      "sha256": "f76981127726fd5cbeacd87914c2523fa800c90e064f7cfec9c98ea587f74b29"
+    },
+    {
+      "id": "a-010-reader-no-p6",
+      "family": "a",
+      "family_label": "Border and beyond",
+      "fixture": "010-no-p6",
+      "viewpoint": "reader",
+      "viewpoint_label": "Reader",
+      "path": "a-010-reader-no-p6.svg",
+      "alt": "Border and beyond: 010 / No early hint control, Reader. Schematic drawn claim terrain; P1 hatched; P2 dark; P3 dark; P4 dark; P5 hatched. P1 outer foothold hatched. Observation islands: response dark, correction hatched, configuration dark, weights dark. P6 has no visual presence in this control; its underlying state is still dark. Dark means no available support, not false. Contours remain fixed across fixtures. Design sample, not adopted.",
+      "states": {
+        "P1": "hatched",
+        "P2": "dark",
+        "P3": "dark",
+        "P4": "dark",
+        "P5": "hatched",
+        "P6": "dark",
+        "p1_foothold": "hatched",
+        "observations": {
+          "response": "dark",
+          "correction": "hatched",
+          "configuration": "dark",
+          "weights": "dark"
+        },
+        "p6_presence": "hidden"
+      },
+      "source_references": [
+        "content/pages/005.md",
+        "content/pages/007.md",
+        "content/pages/010.md#panel-3",
+        "content/pages/010.md#panel-4"
+      ],
+      "rationale": "Coordination and measurement remain interpretations. The reader has the disputed scorer correction; recurrence, archive fidelity, and a universal no-report claim are not yet supported. No later response scene is imported.",
+      "caption": "THE READER HAS A CORRECTION THE PEOPLE INSIDE THE EVENT DO NOT.",
+      "attribution": null,
+      "sha256": "0085f6f02c3517b7acd2e61b3696b6af7ed3f7f993d63126f0adf8c971f12e79"
+    },
+    {
+      "id": "a-010-responders-no-p6",
+      "family": "a",
+      "family_label": "Border and beyond",
+      "fixture": "010-no-p6",
+      "viewpoint": "responders",
+      "viewpoint_label": "27 June responders",
+      "path": "a-010-responders-no-p6.svg",
+      "alt": "Border and beyond: 010 / No early hint control, 27 June responders. Schematic drawn claim terrain; P1 hatched; P2 dark; P3 dark; P4 dark; P5 dark. P1 outer foothold hatched. Observation islands: response lit, correction dark, configuration dark, weights dark. P6 has no visual presence in this control; its underlying state is still dark. Dark means no available support, not false. Contours remain fixed across fixtures. Design sample, not adopted.",
+      "states": {
+        "P1": "hatched",
+        "P2": "dark",
+        "P3": "dark",
+        "P4": "dark",
+        "P5": "dark",
+        "P6": "dark",
+        "p1_foothold": "hatched",
+        "observations": {
+          "response": "lit",
+          "correction": "dark",
+          "configuration": "dark",
+          "weights": "dark"
+        },
+        "p6_presence": "hidden"
+      },
+      "source_references": [
+        "design/knowledge-map.md#whose-map",
+        "content/pages/025.md#panel-4",
+        "content/pages/026.md"
+      ],
+      "rationale": "The alert, board and pivot are observable in the bounded response model. Deliberate coordination is still an attribution. No evidence establishes access to reader-only disclosures or later recurrence.",
+      "caption": "THE ALERT, BOARD AND PIVOT DO NOT DISCLOSE THE WHOLE EVENT.",
+      "attribution": null,
+      "sha256": "2e88ea8f7f81670ef00d982972bff18865f67fc0a1fe2490f58c8f3c8efaaa87"
+    },
+    {
+      "id": "a-016-reader",
+      "family": "a",
+      "family_label": "Border and beyond",
+      "fixture": "016",
+      "viewpoint": "reader",
+      "viewpoint_label": "Reader",
+      "path": "a-016-reader.svg",
+      "alt": "Border and beyond: 016 / The unreachable field, Reader. Schematic drawn claim terrain; P1 hatched; P2 dark; P3 dark; P4 dark; P5 hatched. P1 outer foothold hatched. Observation islands: response dark, correction hatched, configuration hatched, weights dark. P6 remains dark and unreachable. Dark means no available support, not false. Contours remain fixed across fixtures. Design sample, not adopted.",
+      "states": {
+        "P1": "hatched",
+        "P2": "dark",
+        "P3": "dark",
+        "P4": "dark",
+        "P5": "hatched",
+        "P6": "dark",
+        "p1_foothold": "hatched",
+        "observations": {
+          "response": "dark",
+          "correction": "hatched",
+          "configuration": "hatched",
+          "weights": "dark"
+        },
+        "p6_presence": "acknowledged"
+      },
+      "source_references": [
+        "content/pages/010.md#panel-3",
+        "content/pages/016.md#panel-2",
+        "content/pages/016.md#panel-5"
+      ],
+      "rationale": "One conference talk supplies configuration statements, not independent access or a causal answer to P6. Prior reader knowledge survives the narrative rewind.",
+      "caption": "A SINGLE-SOURCED CONFIGURATION ACCOUNT IS NOT ACCESS TO THE CAUSE.",
+      "attribution": null,
+      "sha256": "c5a357d36e1c413a14185c85b8b0db4c6b3cb37224cbc5568ce3e49b34edf610"
+    },
+    {
+      "id": "a-016-responders",
+      "family": "a",
+      "family_label": "Border and beyond",
+      "fixture": "016",
+      "viewpoint": "responders",
+      "viewpoint_label": "27 June responders",
+      "path": "a-016-responders.svg",
+      "alt": "Border and beyond: 016 / The unreachable field, 27 June responders. Schematic drawn claim terrain; P1 hatched; P2 dark; P3 dark; P4 dark; P5 dark. P1 outer foothold hatched. Observation islands: response lit, correction dark, configuration dark, weights dark. P6 remains dark and unreachable. Dark means no available support, not false. Contours remain fixed across fixtures. Design sample, not adopted.",
+      "states": {
+        "P1": "hatched",
+        "P2": "dark",
+        "P3": "dark",
+        "P4": "dark",
+        "P5": "dark",
+        "P6": "dark",
+        "p1_foothold": "hatched",
+        "observations": {
+          "response": "lit",
+          "correction": "dark",
+          "configuration": "dark",
+          "weights": "dark"
+        },
+        "p6_presence": "acknowledged"
+      },
+      "source_references": [
+        "design/knowledge-map.md#whose-map",
+        "content/pages/025.md#panel-4",
+        "content/pages/026.md"
+      ],
+      "rationale": "The alert, board and pivot are observable in the bounded response model. Deliberate coordination is still an attribution. No evidence establishes access to reader-only disclosures or later recurrence.",
+      "caption": "NO ONE IN THIS STORY CAN SEE THIS PAGE. THIS MAP DOES NOT UPDATE.",
+      "attribution": null,
+      "sha256": "4af2e4430b499155ee64ee6b0686b8ec400a9471b39ece84c216bb9f6b46f790"
+    },
+    {
+      "id": "a-039-before-reader",
+      "family": "a",
+      "family_label": "Border and beyond",
+      "fixture": "039-before",
+      "viewpoint": "reader",
+      "viewpoint_label": "Reader",
+      "path": "a-039-before-reader.svg",
+      "alt": "Border and beyond: 039 / Before the weights reveal, Reader. Schematic drawn claim terrain; P1 hatched; P2 hatched; P3 dark; P4 dark; P5 hatched. P1 outer foothold hatched. Observation islands: response hatched, correction hatched, configuration hatched, weights dark. P6 remains dark and unreachable. Dark means no available support, not false. Contours remain fixed across fixtures. Design sample, not adopted.",
+      "states": {
+        "P1": "hatched",
+        "P2": "hatched",
+        "P3": "dark",
+        "P4": "dark",
+        "P5": "hatched",
+        "P6": "dark",
+        "p1_foothold": "hatched",
+        "observations": {
+          "response": "hatched",
+          "correction": "hatched",
+          "configuration": "hatched",
+          "weights": "dark"
+        },
+        "p6_presence": "acknowledged"
+      },
+      "source_references": [
+        "content/pages/025.md#panel-1",
+        "content/pages/026.md",
+        "content/pages/032.md#panel-5",
+        "content/pages/035.md#panel-4",
+        "content/pages/038.md#panel-5"
+      ],
+      "rationale": "The recurrence is documented, but independence is an inferential extension of the cache wipe. Hatching avoids promoting Curt's overreach to a proven claim. No weights channel is exposed yet.",
+      "caption": "THE WIPE SUPPORTS AN INDEPENDENCE READING. THE READING IS STILL INFERENCE.",
+      "attribution": null,
+      "sha256": "e1435ded828bd3496032a4961e813a363bdd9166a823f4c6826056812bf479ab"
+    },
+    {
+      "id": "a-039-before-responders",
+      "family": "a",
+      "family_label": "Border and beyond",
+      "fixture": "039-before",
+      "viewpoint": "responders",
+      "viewpoint_label": "27 June responders",
+      "path": "a-039-before-responders.svg",
+      "alt": "Border and beyond: 039 / Before the weights reveal, 27 June responders. Schematic drawn claim terrain; P1 hatched; P2 dark; P3 dark; P4 dark; P5 dark. P1 outer foothold hatched. Observation islands: response lit, correction dark, configuration dark, weights dark. P6 remains dark and unreachable. Dark means no available support, not false. Contours remain fixed across fixtures. Design sample, not adopted.",
+      "states": {
+        "P1": "hatched",
+        "P2": "dark",
+        "P3": "dark",
+        "P4": "dark",
+        "P5": "dark",
+        "P6": "dark",
+        "p1_foothold": "hatched",
+        "observations": {
+          "response": "lit",
+          "correction": "dark",
+          "configuration": "dark",
+          "weights": "dark"
+        },
+        "p6_presence": "acknowledged"
+      },
+      "source_references": [
+        "design/knowledge-map.md#whose-map",
+        "content/pages/025.md#panel-4",
+        "content/pages/026.md"
+      ],
+      "rationale": "The alert, board and pivot are observable in the bounded response model. Deliberate coordination is still an attribution. No evidence establishes access to reader-only disclosures or later recurrence.",
+      "caption": "THE READER HAS REACHED THE RECURRENCE. THE JUNE RESPONSE HAS NOT.",
+      "attribution": null,
+      "sha256": "3e9b82f413dfbe23501b6b5548579ab296be7f7ec395d98c2d245ecd76d1be31"
+    },
+    {
+      "id": "a-039-after-reader",
+      "family": "a",
+      "family_label": "Border and beyond",
+      "fixture": "039-after",
+      "viewpoint": "reader",
+      "viewpoint_label": "Reader",
+      "path": "a-039-after-reader.svg",
+      "alt": "Border and beyond: 039 / After the weights reveal, Reader. Schematic drawn claim terrain; P1 hatched; P2 dark; P3 dark; P4 dark; P5 hatched. P1 outer foothold dark. Observation islands: response hatched, correction hatched, configuration hatched, weights hatched. P6 remains dark and unreachable. Dark means no available support, not false. Contours remain fixed across fixtures. Design sample, not adopted.",
+      "states": {
+        "P1": "hatched",
+        "P2": "dark",
+        "P3": "dark",
+        "P4": "dark",
+        "P5": "hatched",
+        "P6": "dark",
+        "p1_foothold": "dark",
+        "observations": {
+          "response": "hatched",
+          "correction": "hatched",
+          "configuration": "hatched",
+          "weights": "hatched"
+        },
+        "p6_presence": "acknowledged"
+      },
+      "source_references": [
+        "content/pages/039.md#panel-3",
+        "content/pages/039.md#panel-5",
+        "content/pages/039.md#panel-6"
+      ],
+      "rationale": "P2 loses support; the terrain remains. P1's deliberate-agency foothold darkens while coordination evidence survives as contested. OpenAI's weights-channel account is single-sourced and does not settle emergence or specification.",
+      "caption": "THE GROUND REMAINS. P2 RE-FOGS; P1 LOSES ITS OUTER FOOTHOLD.",
+      "attribution": null,
+      "sha256": "bc67dfcbd1e6d4f19768317faa446f1c9106b09f968d716d15c2fdfeba8330bc"
+    },
+    {
+      "id": "a-039-after-responders",
+      "family": "a",
+      "family_label": "Border and beyond",
+      "fixture": "039-after",
+      "viewpoint": "responders",
+      "viewpoint_label": "27 June responders",
+      "path": "a-039-after-responders.svg",
+      "alt": "Border and beyond: 039 / After the weights reveal, 27 June responders. Schematic drawn claim terrain; P1 hatched; P2 dark; P3 dark; P4 dark; P5 dark. P1 outer foothold hatched. Observation islands: response lit, correction dark, configuration dark, weights dark. P6 remains dark and unreachable. Dark means no available support, not false. Contours remain fixed across fixtures. Design sample, not adopted.",
+      "states": {
+        "P1": "hatched",
+        "P2": "dark",
+        "P3": "dark",
+        "P4": "dark",
+        "P5": "dark",
+        "P6": "dark",
+        "p1_foothold": "hatched",
+        "observations": {
+          "response": "lit",
+          "correction": "dark",
+          "configuration": "dark",
+          "weights": "dark"
+        },
+        "p6_presence": "acknowledged"
+      },
+      "source_references": [
+        "design/knowledge-map.md#whose-map",
+        "content/pages/025.md#panel-4",
+        "content/pages/026.md"
+      ],
+      "rationale": "The alert, board and pivot are observable in the bounded response model. Deliberate coordination is still an attribution. No evidence establishes access to reader-only disclosures or later recurrence.",
+      "caption": "A READER REVELATION IS NOT A NEW REPORT TO THE JUNE RESPONDERS.",
+      "attribution": null,
+      "sha256": "371bd1a04e10e53b7083f82fa3e466228cc7392be26ebc0b318d8609c5c2893a"
+    },
+    {
+      "id": "b-010-reader-hint",
+      "family": "b",
+      "family_label": "Inward-facing silhouettes",
+      "fixture": "010-hint",
+      "viewpoint": "reader",
+      "viewpoint_label": "Reader",
+      "path": "b-010-reader-hint.svg",
+      "alt": "Inward-facing silhouettes: 010 / Before the boundary is named, Reader. Schematic drawn claim terrain; P1 hatched; P2 dark; P3 dark; P4 dark; P5 hatched. P1 outer foothold hatched. Observation islands: response dark, correction hatched, configuration dark, weights dark. P6 is only an unnamed dark hint. Dark means no available support, not false. Contours remain fixed across fixtures. Design sample, not adopted.",
+      "states": {
+        "P1": "hatched",
+        "P2": "dark",
+        "P3": "dark",
+        "P4": "dark",
+        "P5": "hatched",
+        "P6": "dark",
+        "p1_foothold": "hatched",
+        "observations": {
+          "response": "dark",
+          "correction": "hatched",
+          "configuration": "dark",
+          "weights": "dark"
+        },
+        "p6_presence": "hint"
+      },
+      "source_references": [
+        "content/pages/005.md",
+        "content/pages/007.md",
+        "content/pages/010.md#panel-3",
+        "content/pages/010.md#panel-4"
+      ],
+      "rationale": "Coordination and measurement remain interpretations. The reader has the disputed scorer correction; recurrence, archive fidelity, and a universal no-report claim are not yet supported. No later response scene is imported.",
+      "caption": "THE READER HAS A CORRECTION THE PEOPLE INSIDE THE EVENT DO NOT.",
+      "attribution": null,
+      "sha256": "cac365690caf15c59d1b0869d56e8395c68178a5919140af29d201f17ab686bb"
+    },
+    {
+      "id": "b-010-responders-hint",
+      "family": "b",
+      "family_label": "Inward-facing silhouettes",
+      "fixture": "010-hint",
+      "viewpoint": "responders",
+      "viewpoint_label": "27 June responders",
+      "path": "b-010-responders-hint.svg",
+      "alt": "Inward-facing silhouettes: 010 / Before the boundary is named, 27 June responders. Schematic drawn claim terrain; P1 hatched; P2 dark; P3 dark; P4 dark; P5 dark. P1 outer foothold hatched. Observation islands: response lit, correction dark, configuration dark, weights dark. P6 is only an unnamed dark hint. Dark means no available support, not false. Contours remain fixed across fixtures. Design sample, not adopted.",
+      "states": {
+        "P1": "hatched",
+        "P2": "dark",
+        "P3": "dark",
+        "P4": "dark",
+        "P5": "dark",
+        "P6": "dark",
+        "p1_foothold": "hatched",
+        "observations": {
+          "response": "lit",
+          "correction": "dark",
+          "configuration": "dark",
+          "weights": "dark"
+        },
+        "p6_presence": "hint"
+      },
+      "source_references": [
+        "design/knowledge-map.md#whose-map",
+        "content/pages/025.md#panel-4",
+        "content/pages/026.md"
+      ],
+      "rationale": "The alert, board and pivot are observable in the bounded response model. Deliberate coordination is still an attribution. No evidence establishes access to reader-only disclosures or later recurrence.",
+      "caption": "THE ALERT, BOARD AND PIVOT DO NOT DISCLOSE THE WHOLE EVENT.",
+      "attribution": null,
+      "sha256": "467663d5dbfeb432e617ea01e35d342b2278822988164708158f7a6cdfee8dea"
+    },
+    {
+      "id": "b-010-reader-no-p6",
+      "family": "b",
+      "family_label": "Inward-facing silhouettes",
+      "fixture": "010-no-p6",
+      "viewpoint": "reader",
+      "viewpoint_label": "Reader",
+      "path": "b-010-reader-no-p6.svg",
+      "alt": "Inward-facing silhouettes: 010 / No early hint control, Reader. Schematic drawn claim terrain; P1 hatched; P2 dark; P3 dark; P4 dark; P5 hatched. P1 outer foothold hatched. Observation islands: response dark, correction hatched, configuration dark, weights dark. P6 has no visual presence in this control; its underlying state is still dark. Dark means no available support, not false. Contours remain fixed across fixtures. Design sample, not adopted.",
+      "states": {
+        "P1": "hatched",
+        "P2": "dark",
+        "P3": "dark",
+        "P4": "dark",
+        "P5": "hatched",
+        "P6": "dark",
+        "p1_foothold": "hatched",
+        "observations": {
+          "response": "dark",
+          "correction": "hatched",
+          "configuration": "dark",
+          "weights": "dark"
+        },
+        "p6_presence": "hidden"
+      },
+      "source_references": [
+        "content/pages/005.md",
+        "content/pages/007.md",
+        "content/pages/010.md#panel-3",
+        "content/pages/010.md#panel-4"
+      ],
+      "rationale": "Coordination and measurement remain interpretations. The reader has the disputed scorer correction; recurrence, archive fidelity, and a universal no-report claim are not yet supported. No later response scene is imported.",
+      "caption": "THE READER HAS A CORRECTION THE PEOPLE INSIDE THE EVENT DO NOT.",
+      "attribution": null,
+      "sha256": "d5f95103ee746e4ad576883893fb2ebe59ea85fda8ee1ebcd3ea5115eecb278e"
+    },
+    {
+      "id": "b-010-responders-no-p6",
+      "family": "b",
+      "family_label": "Inward-facing silhouettes",
+      "fixture": "010-no-p6",
+      "viewpoint": "responders",
+      "viewpoint_label": "27 June responders",
+      "path": "b-010-responders-no-p6.svg",
+      "alt": "Inward-facing silhouettes: 010 / No early hint control, 27 June responders. Schematic drawn claim terrain; P1 hatched; P2 dark; P3 dark; P4 dark; P5 dark. P1 outer foothold hatched. Observation islands: response lit, correction dark, configuration dark, weights dark. P6 has no visual presence in this control; its underlying state is still dark. Dark means no available support, not false. Contours remain fixed across fixtures. Design sample, not adopted.",
+      "states": {
+        "P1": "hatched",
+        "P2": "dark",
+        "P3": "dark",
+        "P4": "dark",
+        "P5": "dark",
+        "P6": "dark",
+        "p1_foothold": "hatched",
+        "observations": {
+          "response": "lit",
+          "correction": "dark",
+          "configuration": "dark",
+          "weights": "dark"
+        },
+        "p6_presence": "hidden"
+      },
+      "source_references": [
+        "design/knowledge-map.md#whose-map",
+        "content/pages/025.md#panel-4",
+        "content/pages/026.md"
+      ],
+      "rationale": "The alert, board and pivot are observable in the bounded response model. Deliberate coordination is still an attribution. No evidence establishes access to reader-only disclosures or later recurrence.",
+      "caption": "THE ALERT, BOARD AND PIVOT DO NOT DISCLOSE THE WHOLE EVENT.",
+      "attribution": null,
+      "sha256": "2644976502beaa21077208c56b397f15718311ef696924cf9917dc3e332c9ffb"
+    },
+    {
+      "id": "b-016-reader",
+      "family": "b",
+      "family_label": "Inward-facing silhouettes",
+      "fixture": "016",
+      "viewpoint": "reader",
+      "viewpoint_label": "Reader",
+      "path": "b-016-reader.svg",
+      "alt": "Inward-facing silhouettes: 016 / The unreachable field, Reader. Schematic drawn claim terrain; P1 hatched; P2 dark; P3 dark; P4 dark; P5 hatched. P1 outer foothold hatched. Observation islands: response dark, correction hatched, configuration hatched, weights dark. P6 remains dark and unreachable. Dark means no available support, not false. Contours remain fixed across fixtures. Design sample, not adopted.",
+      "states": {
+        "P1": "hatched",
+        "P2": "dark",
+        "P3": "dark",
+        "P4": "dark",
+        "P5": "hatched",
+        "P6": "dark",
+        "p1_foothold": "hatched",
+        "observations": {
+          "response": "dark",
+          "correction": "hatched",
+          "configuration": "hatched",
+          "weights": "dark"
+        },
+        "p6_presence": "acknowledged"
+      },
+      "source_references": [
+        "content/pages/010.md#panel-3",
+        "content/pages/016.md#panel-2",
+        "content/pages/016.md#panel-5"
+      ],
+      "rationale": "One conference talk supplies configuration statements, not independent access or a causal answer to P6. Prior reader knowledge survives the narrative rewind.",
+      "caption": "A SINGLE-SOURCED CONFIGURATION ACCOUNT IS NOT ACCESS TO THE CAUSE.",
+      "attribution": null,
+      "sha256": "8486f87174168d8082d5e33b1d62dfaf49ba6041853f781e00193e9cb0cbc03c"
+    },
+    {
+      "id": "b-016-responders",
+      "family": "b",
+      "family_label": "Inward-facing silhouettes",
+      "fixture": "016",
+      "viewpoint": "responders",
+      "viewpoint_label": "27 June responders",
+      "path": "b-016-responders.svg",
+      "alt": "Inward-facing silhouettes: 016 / The unreachable field, 27 June responders. Schematic drawn claim terrain; P1 hatched; P2 dark; P3 dark; P4 dark; P5 dark. P1 outer foothold hatched. Observation islands: response lit, correction dark, configuration dark, weights dark. P6 remains dark and unreachable. Dark means no available support, not false. Contours remain fixed across fixtures. Design sample, not adopted.",
+      "states": {
+        "P1": "hatched",
+        "P2": "dark",
+        "P3": "dark",
+        "P4": "dark",
+        "P5": "dark",
+        "P6": "dark",
+        "p1_foothold": "hatched",
+        "observations": {
+          "response": "lit",
+          "correction": "dark",
+          "configuration": "dark",
+          "weights": "dark"
+        },
+        "p6_presence": "acknowledged"
+      },
+      "source_references": [
+        "design/knowledge-map.md#whose-map",
+        "content/pages/025.md#panel-4",
+        "content/pages/026.md"
+      ],
+      "rationale": "The alert, board and pivot are observable in the bounded response model. Deliberate coordination is still an attribution. No evidence establishes access to reader-only disclosures or later recurrence.",
+      "caption": "NO ONE IN THIS STORY CAN SEE THIS PAGE. THIS MAP DOES NOT UPDATE.",
+      "attribution": null,
+      "sha256": "4ad2b48a59b727b843a6ef0e4a4df02021f158cccf3481ab82c0ff49aa37881d"
+    },
+    {
+      "id": "b-039-before-reader",
+      "family": "b",
+      "family_label": "Inward-facing silhouettes",
+      "fixture": "039-before",
+      "viewpoint": "reader",
+      "viewpoint_label": "Reader",
+      "path": "b-039-before-reader.svg",
+      "alt": "Inward-facing silhouettes: 039 / Before the weights reveal, Reader. Schematic drawn claim terrain; P1 hatched; P2 hatched; P3 dark; P4 dark; P5 hatched. P1 outer foothold hatched. Observation islands: response hatched, correction hatched, configuration hatched, weights dark. P6 remains dark and unreachable. Dark means no available support, not false. Contours remain fixed across fixtures. Design sample, not adopted.",
+      "states": {
+        "P1": "hatched",
+        "P2": "hatched",
+        "P3": "dark",
+        "P4": "dark",
+        "P5": "hatched",
+        "P6": "dark",
+        "p1_foothold": "hatched",
+        "observations": {
+          "response": "hatched",
+          "correction": "hatched",
+          "configuration": "hatched",
+          "weights": "dark"
+        },
+        "p6_presence": "acknowledged"
+      },
+      "source_references": [
+        "content/pages/025.md#panel-1",
+        "content/pages/026.md",
+        "content/pages/032.md#panel-5",
+        "content/pages/035.md#panel-4",
+        "content/pages/038.md#panel-5"
+      ],
+      "rationale": "The recurrence is documented, but independence is an inferential extension of the cache wipe. Hatching avoids promoting Curt's overreach to a proven claim. No weights channel is exposed yet.",
+      "caption": "THE WIPE SUPPORTS AN INDEPENDENCE READING. THE READING IS STILL INFERENCE.",
+      "attribution": null,
+      "sha256": "f026fd6f89affa0aed28d32de0549cd34322094538d6b81015040079d06c1293"
+    },
+    {
+      "id": "b-039-before-responders",
+      "family": "b",
+      "family_label": "Inward-facing silhouettes",
+      "fixture": "039-before",
+      "viewpoint": "responders",
+      "viewpoint_label": "27 June responders",
+      "path": "b-039-before-responders.svg",
+      "alt": "Inward-facing silhouettes: 039 / Before the weights reveal, 27 June responders. Schematic drawn claim terrain; P1 hatched; P2 dark; P3 dark; P4 dark; P5 dark. P1 outer foothold hatched. Observation islands: response lit, correction dark, configuration dark, weights dark. P6 remains dark and unreachable. Dark means no available support, not false. Contours remain fixed across fixtures. Design sample, not adopted.",
+      "states": {
+        "P1": "hatched",
+        "P2": "dark",
+        "P3": "dark",
+        "P4": "dark",
+        "P5": "dark",
+        "P6": "dark",
+        "p1_foothold": "hatched",
+        "observations": {
+          "response": "lit",
+          "correction": "dark",
+          "configuration": "dark",
+          "weights": "dark"
+        },
+        "p6_presence": "acknowledged"
+      },
+      "source_references": [
+        "design/knowledge-map.md#whose-map",
+        "content/pages/025.md#panel-4",
+        "content/pages/026.md"
+      ],
+      "rationale": "The alert, board and pivot are observable in the bounded response model. Deliberate coordination is still an attribution. No evidence establishes access to reader-only disclosures or later recurrence.",
+      "caption": "THE READER HAS REACHED THE RECURRENCE. THE JUNE RESPONSE HAS NOT.",
+      "attribution": null,
+      "sha256": "d0137abc4b4078ac401850e87babd660ecd4840313fe06dccba530ee91cc862e"
+    },
+    {
+      "id": "b-039-after-reader",
+      "family": "b",
+      "family_label": "Inward-facing silhouettes",
+      "fixture": "039-after",
+      "viewpoint": "reader",
+      "viewpoint_label": "Reader",
+      "path": "b-039-after-reader.svg",
+      "alt": "Inward-facing silhouettes: 039 / After the weights reveal, Reader. Schematic drawn claim terrain; P1 hatched; P2 dark; P3 dark; P4 dark; P5 hatched. P1 outer foothold dark. Observation islands: response hatched, correction hatched, configuration hatched, weights hatched. P6 remains dark and unreachable. Dark means no available support, not false. Contours remain fixed across fixtures. Design sample, not adopted.",
+      "states": {
+        "P1": "hatched",
+        "P2": "dark",
+        "P3": "dark",
+        "P4": "dark",
+        "P5": "hatched",
+        "P6": "dark",
+        "p1_foothold": "dark",
+        "observations": {
+          "response": "hatched",
+          "correction": "hatched",
+          "configuration": "hatched",
+          "weights": "hatched"
+        },
+        "p6_presence": "acknowledged"
+      },
+      "source_references": [
+        "content/pages/039.md#panel-3",
+        "content/pages/039.md#panel-5",
+        "content/pages/039.md#panel-6"
+      ],
+      "rationale": "P2 loses support; the terrain remains. P1's deliberate-agency foothold darkens while coordination evidence survives as contested. OpenAI's weights-channel account is single-sourced and does not settle emergence or specification.",
+      "caption": "THE GROUND REMAINS. P2 RE-FOGS; P1 LOSES ITS OUTER FOOTHOLD.",
+      "attribution": null,
+      "sha256": "7326ac934a20bed85a82ee0f0b46987db8e3176d9b402aec78cc0a30fdd369f4"
+    },
+    {
+      "id": "b-039-after-responders",
+      "family": "b",
+      "family_label": "Inward-facing silhouettes",
+      "fixture": "039-after",
+      "viewpoint": "responders",
+      "viewpoint_label": "27 June responders",
+      "path": "b-039-after-responders.svg",
+      "alt": "Inward-facing silhouettes: 039 / After the weights reveal, 27 June responders. Schematic drawn claim terrain; P1 hatched; P2 dark; P3 dark; P4 dark; P5 dark. P1 outer foothold hatched. Observation islands: response lit, correction dark, configuration dark, weights dark. P6 remains dark and unreachable. Dark means no available support, not false. Contours remain fixed across fixtures. Design sample, not adopted.",
+      "states": {
+        "P1": "hatched",
+        "P2": "dark",
+        "P3": "dark",
+        "P4": "dark",
+        "P5": "dark",
+        "P6": "dark",
+        "p1_foothold": "hatched",
+        "observations": {
+          "response": "lit",
+          "correction": "dark",
+          "configuration": "dark",
+          "weights": "dark"
+        },
+        "p6_presence": "acknowledged"
+      },
+      "source_references": [
+        "design/knowledge-map.md#whose-map",
+        "content/pages/025.md#panel-4",
+        "content/pages/026.md"
+      ],
+      "rationale": "The alert, board and pivot are observable in the bounded response model. Deliberate coordination is still an attribution. No evidence establishes access to reader-only disclosures or later recurrence.",
+      "caption": "A READER REVELATION IS NOT A NEW REPORT TO THE JUNE RESPONDERS.",
+      "attribution": null,
+      "sha256": "6248d7a6e0949230fcbec657969b6f8d79bcbba4ba8b8c7040605bfcd83c622e"
+    },
+    {
+      "id": "c-010-reader-hint",
+      "family": "c",
+      "family_label": "Overlapping partial maps",
+      "fixture": "010-hint",
+      "viewpoint": "reader",
+      "viewpoint_label": "Reader",
+      "path": "c-010-reader-hint.svg",
+      "alt": "Overlapping partial maps: 010 / Before the boundary is named, Reader. Schematic drawn claim terrain; P1 hatched; P2 dark; P3 dark; P4 dark; P5 hatched. P1 outer foothold hatched. Observation islands: response dark, correction hatched, configuration dark, weights dark. P6 is only an unnamed dark hint. Dark means no available support, not false. Contours remain fixed across fixtures. Design sample, not adopted.",
+      "states": {
+        "P1": "hatched",
+        "P2": "dark",
+        "P3": "dark",
+        "P4": "dark",
+        "P5": "hatched",
+        "P6": "dark",
+        "p1_foothold": "hatched",
+        "observations": {
+          "response": "dark",
+          "correction": "hatched",
+          "configuration": "dark",
+          "weights": "dark"
+        },
+        "p6_presence": "hint"
+      },
+      "source_references": [
+        "content/pages/005.md",
+        "content/pages/007.md",
+        "content/pages/010.md#panel-3",
+        "content/pages/010.md#panel-4"
+      ],
+      "rationale": "Coordination and measurement remain interpretations. The reader has the disputed scorer correction; recurrence, archive fidelity, and a universal no-report claim are not yet supported. No later response scene is imported.",
+      "caption": "THE READER HAS A CORRECTION THE PEOPLE INSIDE THE EVENT DO NOT.",
+      "attribution": null,
+      "sha256": "b1839834af78858f529d130fe4695605d61428f1f021631ebbd39d273f087e60"
+    },
+    {
+      "id": "c-010-responders-hint",
+      "family": "c",
+      "family_label": "Overlapping partial maps",
+      "fixture": "010-hint",
+      "viewpoint": "responders",
+      "viewpoint_label": "27 June responders",
+      "path": "c-010-responders-hint.svg",
+      "alt": "Overlapping partial maps: 010 / Before the boundary is named, 27 June responders. Schematic drawn claim terrain; P1 hatched; P2 dark; P3 dark; P4 dark; P5 dark. P1 outer foothold hatched. Observation islands: response lit, correction dark, configuration dark, weights dark. P6 is only an unnamed dark hint. Dark means no available support, not false. Contours remain fixed across fixtures. Design sample, not adopted.",
+      "states": {
+        "P1": "hatched",
+        "P2": "dark",
+        "P3": "dark",
+        "P4": "dark",
+        "P5": "dark",
+        "P6": "dark",
+        "p1_foothold": "hatched",
+        "observations": {
+          "response": "lit",
+          "correction": "dark",
+          "configuration": "dark",
+          "weights": "dark"
+        },
+        "p6_presence": "hint"
+      },
+      "source_references": [
+        "design/knowledge-map.md#whose-map",
+        "content/pages/025.md#panel-4",
+        "content/pages/026.md"
+      ],
+      "rationale": "The alert, board and pivot are observable in the bounded response model. Deliberate coordination is still an attribution. No evidence establishes access to reader-only disclosures or later recurrence.",
+      "caption": "THE ALERT, BOARD AND PIVOT DO NOT DISCLOSE THE WHOLE EVENT.",
+      "attribution": null,
+      "sha256": "5c5d61745bf023f38b93ec5657eafaf85313525cffe13cad9d46e52f54c842de"
+    },
+    {
+      "id": "c-010-reader-no-p6",
+      "family": "c",
+      "family_label": "Overlapping partial maps",
+      "fixture": "010-no-p6",
+      "viewpoint": "reader",
+      "viewpoint_label": "Reader",
+      "path": "c-010-reader-no-p6.svg",
+      "alt": "Overlapping partial maps: 010 / No early hint control, Reader. Schematic drawn claim terrain; P1 hatched; P2 dark; P3 dark; P4 dark; P5 hatched. P1 outer foothold hatched. Observation islands: response dark, correction hatched, configuration dark, weights dark. P6 has no visual presence in this control; its underlying state is still dark. Dark means no available support, not false. Contours remain fixed across fixtures. Design sample, not adopted.",
+      "states": {
+        "P1": "hatched",
+        "P2": "dark",
+        "P3": "dark",
+        "P4": "dark",
+        "P5": "hatched",
+        "P6": "dark",
+        "p1_foothold": "hatched",
+        "observations": {
+          "response": "dark",
+          "correction": "hatched",
+          "configuration": "dark",
+          "weights": "dark"
+        },
+        "p6_presence": "hidden"
+      },
+      "source_references": [
+        "content/pages/005.md",
+        "content/pages/007.md",
+        "content/pages/010.md#panel-3",
+        "content/pages/010.md#panel-4"
+      ],
+      "rationale": "Coordination and measurement remain interpretations. The reader has the disputed scorer correction; recurrence, archive fidelity, and a universal no-report claim are not yet supported. No later response scene is imported.",
+      "caption": "THE READER HAS A CORRECTION THE PEOPLE INSIDE THE EVENT DO NOT.",
+      "attribution": null,
+      "sha256": "4fe5808c15268ba6394eb40a5f901c65f08c4673bbad3e0e4a48c6142d76cb23"
+    },
+    {
+      "id": "c-010-responders-no-p6",
+      "family": "c",
+      "family_label": "Overlapping partial maps",
+      "fixture": "010-no-p6",
+      "viewpoint": "responders",
+      "viewpoint_label": "27 June responders",
+      "path": "c-010-responders-no-p6.svg",
+      "alt": "Overlapping partial maps: 010 / No early hint control, 27 June responders. Schematic drawn claim terrain; P1 hatched; P2 dark; P3 dark; P4 dark; P5 dark. P1 outer foothold hatched. Observation islands: response lit, correction dark, configuration dark, weights dark. P6 has no visual presence in this control; its underlying state is still dark. Dark means no available support, not false. Contours remain fixed across fixtures. Design sample, not adopted.",
+      "states": {
+        "P1": "hatched",
+        "P2": "dark",
+        "P3": "dark",
+        "P4": "dark",
+        "P5": "dark",
+        "P6": "dark",
+        "p1_foothold": "hatched",
+        "observations": {
+          "response": "lit",
+          "correction": "dark",
+          "configuration": "dark",
+          "weights": "dark"
+        },
+        "p6_presence": "hidden"
+      },
+      "source_references": [
+        "design/knowledge-map.md#whose-map",
+        "content/pages/025.md#panel-4",
+        "content/pages/026.md"
+      ],
+      "rationale": "The alert, board and pivot are observable in the bounded response model. Deliberate coordination is still an attribution. No evidence establishes access to reader-only disclosures or later recurrence.",
+      "caption": "THE ALERT, BOARD AND PIVOT DO NOT DISCLOSE THE WHOLE EVENT.",
+      "attribution": null,
+      "sha256": "e74ffbd2f01b5e55e566a3b96ed9e52a248f40aeafcae47cf7f5faa7cd7d2465"
+    },
+    {
+      "id": "c-016-reader",
+      "family": "c",
+      "family_label": "Overlapping partial maps",
+      "fixture": "016",
+      "viewpoint": "reader",
+      "viewpoint_label": "Reader",
+      "path": "c-016-reader.svg",
+      "alt": "Overlapping partial maps: 016 / The unreachable field, Reader. Schematic drawn claim terrain; P1 hatched; P2 dark; P3 dark; P4 dark; P5 hatched. P1 outer foothold hatched. Observation islands: response dark, correction hatched, configuration hatched, weights dark. P6 remains dark and unreachable. Dark means no available support, not false. Contours remain fixed across fixtures. Design sample, not adopted.",
+      "states": {
+        "P1": "hatched",
+        "P2": "dark",
+        "P3": "dark",
+        "P4": "dark",
+        "P5": "hatched",
+        "P6": "dark",
+        "p1_foothold": "hatched",
+        "observations": {
+          "response": "dark",
+          "correction": "hatched",
+          "configuration": "hatched",
+          "weights": "dark"
+        },
+        "p6_presence": "acknowledged"
+      },
+      "source_references": [
+        "content/pages/010.md#panel-3",
+        "content/pages/016.md#panel-2",
+        "content/pages/016.md#panel-5"
+      ],
+      "rationale": "One conference talk supplies configuration statements, not independent access or a causal answer to P6. Prior reader knowledge survives the narrative rewind.",
+      "caption": "A SINGLE-SOURCED CONFIGURATION ACCOUNT IS NOT ACCESS TO THE CAUSE.",
+      "attribution": null,
+      "sha256": "1b2fc9b7c4e821a340a6a0413d37dbd4c892bf7f2f09b511bd7729285317fed6"
+    },
+    {
+      "id": "c-016-responders",
+      "family": "c",
+      "family_label": "Overlapping partial maps",
+      "fixture": "016",
+      "viewpoint": "responders",
+      "viewpoint_label": "27 June responders",
+      "path": "c-016-responders.svg",
+      "alt": "Overlapping partial maps: 016 / The unreachable field, 27 June responders. Schematic drawn claim terrain; P1 hatched; P2 dark; P3 dark; P4 dark; P5 dark. P1 outer foothold hatched. Observation islands: response lit, correction dark, configuration dark, weights dark. P6 remains dark and unreachable. Dark means no available support, not false. Contours remain fixed across fixtures. Design sample, not adopted.",
+      "states": {
+        "P1": "hatched",
+        "P2": "dark",
+        "P3": "dark",
+        "P4": "dark",
+        "P5": "dark",
+        "P6": "dark",
+        "p1_foothold": "hatched",
+        "observations": {
+          "response": "lit",
+          "correction": "dark",
+          "configuration": "dark",
+          "weights": "dark"
+        },
+        "p6_presence": "acknowledged"
+      },
+      "source_references": [
+        "design/knowledge-map.md#whose-map",
+        "content/pages/025.md#panel-4",
+        "content/pages/026.md"
+      ],
+      "rationale": "The alert, board and pivot are observable in the bounded response model. Deliberate coordination is still an attribution. No evidence establishes access to reader-only disclosures or later recurrence.",
+      "caption": "NO ONE IN THIS STORY CAN SEE THIS PAGE. THIS MAP DOES NOT UPDATE.",
+      "attribution": null,
+      "sha256": "aaeac149cddf51b84d9b40bf353f9b29f3da06b5ba5192fee6e7bf5fa6d9a48a"
+    },
+    {
+      "id": "c-039-before-reader",
+      "family": "c",
+      "family_label": "Overlapping partial maps",
+      "fixture": "039-before",
+      "viewpoint": "reader",
+      "viewpoint_label": "Reader",
+      "path": "c-039-before-reader.svg",
+      "alt": "Overlapping partial maps: 039 / Before the weights reveal, Reader. Schematic drawn claim terrain; P1 hatched; P2 hatched; P3 dark; P4 dark; P5 hatched. P1 outer foothold hatched. Observation islands: response hatched, correction hatched, configuration hatched, weights dark. P6 remains dark and unreachable. Dark means no available support, not false. Contours remain fixed across fixtures. Design sample, not adopted.",
+      "states": {
+        "P1": "hatched",
+        "P2": "hatched",
+        "P3": "dark",
+        "P4": "dark",
+        "P5": "hatched",
+        "P6": "dark",
+        "p1_foothold": "hatched",
+        "observations": {
+          "response": "hatched",
+          "correction": "hatched",
+          "configuration": "hatched",
+          "weights": "dark"
+        },
+        "p6_presence": "acknowledged"
+      },
+      "source_references": [
+        "content/pages/025.md#panel-1",
+        "content/pages/026.md",
+        "content/pages/032.md#panel-5",
+        "content/pages/035.md#panel-4",
+        "content/pages/038.md#panel-5"
+      ],
+      "rationale": "The recurrence is documented, but independence is an inferential extension of the cache wipe. Hatching avoids promoting Curt's overreach to a proven claim. No weights channel is exposed yet.",
+      "caption": "THE WIPE SUPPORTS AN INDEPENDENCE READING. THE READING IS STILL INFERENCE.",
+      "attribution": null,
+      "sha256": "073c4b50cf33c40f766c586588e85015e8aaab080632628a4d461302ee6721bd"
+    },
+    {
+      "id": "c-039-before-responders",
+      "family": "c",
+      "family_label": "Overlapping partial maps",
+      "fixture": "039-before",
+      "viewpoint": "responders",
+      "viewpoint_label": "27 June responders",
+      "path": "c-039-before-responders.svg",
+      "alt": "Overlapping partial maps: 039 / Before the weights reveal, 27 June responders. Schematic drawn claim terrain; P1 hatched; P2 dark; P3 dark; P4 dark; P5 dark. P1 outer foothold hatched. Observation islands: response lit, correction dark, configuration dark, weights dark. P6 remains dark and unreachable. Dark means no available support, not false. Contours remain fixed across fixtures. Design sample, not adopted.",
+      "states": {
+        "P1": "hatched",
+        "P2": "dark",
+        "P3": "dark",
+        "P4": "dark",
+        "P5": "dark",
+        "P6": "dark",
+        "p1_foothold": "hatched",
+        "observations": {
+          "response": "lit",
+          "correction": "dark",
+          "configuration": "dark",
+          "weights": "dark"
+        },
+        "p6_presence": "acknowledged"
+      },
+      "source_references": [
+        "design/knowledge-map.md#whose-map",
+        "content/pages/025.md#panel-4",
+        "content/pages/026.md"
+      ],
+      "rationale": "The alert, board and pivot are observable in the bounded response model. Deliberate coordination is still an attribution. No evidence establishes access to reader-only disclosures or later recurrence.",
+      "caption": "THE READER HAS REACHED THE RECURRENCE. THE JUNE RESPONSE HAS NOT.",
+      "attribution": null,
+      "sha256": "4975a39d62be3e77257c4b18bc3fc7516922eb9b619a2c95575dea3b1130528d"
+    },
+    {
+      "id": "c-039-after-reader",
+      "family": "c",
+      "family_label": "Overlapping partial maps",
+      "fixture": "039-after",
+      "viewpoint": "reader",
+      "viewpoint_label": "Reader",
+      "path": "c-039-after-reader.svg",
+      "alt": "Overlapping partial maps: 039 / After the weights reveal, Reader. Schematic drawn claim terrain; P1 hatched; P2 dark; P3 dark; P4 dark; P5 hatched. P1 outer foothold dark. Observation islands: response hatched, correction hatched, configuration hatched, weights hatched. P6 remains dark and unreachable. Dark means no available support, not false. Contours remain fixed across fixtures. Design sample, not adopted.",
+      "states": {
+        "P1": "hatched",
+        "P2": "dark",
+        "P3": "dark",
+        "P4": "dark",
+        "P5": "hatched",
+        "P6": "dark",
+        "p1_foothold": "dark",
+        "observations": {
+          "response": "hatched",
+          "correction": "hatched",
+          "configuration": "hatched",
+          "weights": "hatched"
+        },
+        "p6_presence": "acknowledged"
+      },
+      "source_references": [
+        "content/pages/039.md#panel-3",
+        "content/pages/039.md#panel-5",
+        "content/pages/039.md#panel-6"
+      ],
+      "rationale": "P2 loses support; the terrain remains. P1's deliberate-agency foothold darkens while coordination evidence survives as contested. OpenAI's weights-channel account is single-sourced and does not settle emergence or specification.",
+      "caption": "THE GROUND REMAINS. P2 RE-FOGS; P1 LOSES ITS OUTER FOOTHOLD.",
+      "attribution": null,
+      "sha256": "5cd66d647ceace0fd9c620f2bf42cf96f4738d2f253cabe790d491b797d25301"
+    },
+    {
+      "id": "c-039-after-responders",
+      "family": "c",
+      "family_label": "Overlapping partial maps",
+      "fixture": "039-after",
+      "viewpoint": "responders",
+      "viewpoint_label": "27 June responders",
+      "path": "c-039-after-responders.svg",
+      "alt": "Overlapping partial maps: 039 / After the weights reveal, 27 June responders. Schematic drawn claim terrain; P1 hatched; P2 dark; P3 dark; P4 dark; P5 dark. P1 outer foothold hatched. Observation islands: response lit, correction dark, configuration dark, weights dark. P6 remains dark and unreachable. Dark means no available support, not false. Contours remain fixed across fixtures. Design sample, not adopted.",
+      "states": {
+        "P1": "hatched",
+        "P2": "dark",
+        "P3": "dark",
+        "P4": "dark",
+        "P5": "dark",
+        "P6": "dark",
+        "p1_foothold": "hatched",
+        "observations": {
+          "response": "lit",
+          "correction": "dark",
+          "configuration": "dark",
+          "weights": "dark"
+        },
+        "p6_presence": "acknowledged"
+      },
+      "source_references": [
+        "design/knowledge-map.md#whose-map",
+        "content/pages/025.md#panel-4",
+        "content/pages/026.md"
+      ],
+      "rationale": "The alert, board and pivot are observable in the bounded response model. Deliberate coordination is still an attribution. No evidence establishes access to reader-only disclosures or later recurrence.",
+      "caption": "A READER REVELATION IS NOT A NEW REPORT TO THE JUNE RESPONDERS.",
+      "attribution": null,
+      "sha256": "5d8444e3632bb56a1549cb12c525a1bedee4ce78d9defd817135d56fef68f4a6"
+    },
+    {
+      "id": "d-010-reader-hint",
+      "family": "d",
+      "family_label": "Maps within maps",
+      "fixture": "010-hint",
+      "viewpoint": "reader",
+      "viewpoint_label": "Reader",
+      "path": "d-010-reader-hint.svg",
+      "alt": "Maps within maps: 010 / Before the boundary is named, Reader. Schematic drawn claim terrain; P1 hatched; P2 dark; P3 dark; P4 dark; P5 hatched. P1 outer foothold hatched. Observation islands: response dark, correction hatched, configuration dark, weights dark. Reader models June responders; TENTATIVE ATTRIBUTION / NOT THEIR ACTUAL MAP. P6 is only an unnamed dark hint. Dark means no available support, not false. Contours remain fixed across fixtures. Design sample, not adopted.",
+      "states": {
+        "P1": "hatched",
+        "P2": "dark",
+        "P3": "dark",
+        "P4": "dark",
+        "P5": "hatched",
+        "P6": "dark",
+        "p1_foothold": "hatched",
+        "observations": {
+          "response": "dark",
+          "correction": "hatched",
+          "configuration": "dark",
+          "weights": "dark"
+        },
+        "p6_presence": "hint"
+      },
+      "source_references": [
+        "content/pages/005.md",
+        "content/pages/007.md",
+        "content/pages/010.md#panel-3",
+        "content/pages/010.md#panel-4"
+      ],
+      "rationale": "Coordination and measurement remain interpretations. The reader has the disputed scorer correction; recurrence, archive fidelity, and a universal no-report claim are not yet supported. No later response scene is imported.",
+      "caption": "THE READER HAS A CORRECTION THE PEOPLE INSIDE THE EVENT DO NOT.",
+      "attribution": {
+        "label": "Reader models June responders",
+        "qualifier": "TENTATIVE ATTRIBUTION / NOT THEIR ACTUAL MAP",
+        "model": "responders-fixed",
+        "sources": [
+          "design/knowledge-map.md#whose-map",
+          "content/pages/025.md#panel-4"
+        ],
+        "note": "A reader-side editorial attribution constrained to the documented response boundary, not access to responders' interiors."
+      },
+      "sha256": "2b486933c3a3f09491d18c93e82f81c8d82c39b6028523d3ca8f8a4d34d7fdc6"
+    },
+    {
+      "id": "d-010-responders-hint",
+      "family": "d",
+      "family_label": "Maps within maps",
+      "fixture": "010-hint",
+      "viewpoint": "responders",
+      "viewpoint_label": "27 June responders",
+      "path": "d-010-responders-hint.svg",
+      "alt": "Maps within maps: 010 / Before the boundary is named, 27 June responders. Schematic drawn claim terrain; P1 hatched; P2 dark; P3 dark; P4 dark; P5 dark. P1 outer foothold hatched. Observation islands: response lit, correction dark, configuration dark, weights dark. Responders model another run; TENTATIVE ATTRIBUTION / INTERIOR UNKNOWN. P6 is only an unnamed dark hint. Dark means no available support, not false. Contours remain fixed across fixtures. Design sample, not adopted.",
+      "states": {
+        "P1": "hatched",
+        "P2": "dark",
+        "P3": "dark",
+        "P4": "dark",
+        "P5": "dark",
+        "P6": "dark",
+        "p1_foothold": "hatched",
+        "observations": {
+          "response": "lit",
+          "correction": "dark",
+          "configuration": "dark",
+          "weights": "dark"
+        },
+        "p6_presence": "hint"
+      },
+      "source_references": [
+        "design/knowledge-map.md#whose-map",
+        "content/pages/025.md#panel-4",
+        "content/pages/026.md"
+      ],
+      "rationale": "The alert, board and pivot are observable in the bounded response model. Deliberate coordination is still an attribution. No evidence establishes access to reader-only disclosures or later recurrence.",
+      "caption": "THE ALERT, BOARD AND PIVOT DO NOT DISCLOSE THE WHOLE EVENT.",
+      "attribution": {
+        "label": "Responders model another run",
+        "qualifier": "TENTATIVE ATTRIBUTION / INTERIOR UNKNOWN",
+        "model": null,
+        "sources": [
+          "design/knowledge-map.md#whose-map",
+          "content/pages/025.md#panel-4"
+        ],
+        "note": "All nested claims remain dark: the fixture does not establish responders' model of another run's interior. This is a visible unknown, not invented belief."
+      },
+      "sha256": "7d68139e57b2242143ce7b240559cc91688968a96c4edde374d068188fa13179"
+    },
+    {
+      "id": "d-010-reader-no-p6",
+      "family": "d",
+      "family_label": "Maps within maps",
+      "fixture": "010-no-p6",
+      "viewpoint": "reader",
+      "viewpoint_label": "Reader",
+      "path": "d-010-reader-no-p6.svg",
+      "alt": "Maps within maps: 010 / No early hint control, Reader. Schematic drawn claim terrain; P1 hatched; P2 dark; P3 dark; P4 dark; P5 hatched. P1 outer foothold hatched. Observation islands: response dark, correction hatched, configuration dark, weights dark. Reader models June responders; TENTATIVE ATTRIBUTION / NOT THEIR ACTUAL MAP. P6 has no visual presence in this control; its underlying state is still dark. Dark means no available support, not false. Contours remain fixed across fixtures. Design sample, not adopted.",
+      "states": {
+        "P1": "hatched",
+        "P2": "dark",
+        "P3": "dark",
+        "P4": "dark",
+        "P5": "hatched",
+        "P6": "dark",
+        "p1_foothold": "hatched",
+        "observations": {
+          "response": "dark",
+          "correction": "hatched",
+          "configuration": "dark",
+          "weights": "dark"
+        },
+        "p6_presence": "hidden"
+      },
+      "source_references": [
+        "content/pages/005.md",
+        "content/pages/007.md",
+        "content/pages/010.md#panel-3",
+        "content/pages/010.md#panel-4"
+      ],
+      "rationale": "Coordination and measurement remain interpretations. The reader has the disputed scorer correction; recurrence, archive fidelity, and a universal no-report claim are not yet supported. No later response scene is imported.",
+      "caption": "THE READER HAS A CORRECTION THE PEOPLE INSIDE THE EVENT DO NOT.",
+      "attribution": {
+        "label": "Reader models June responders",
+        "qualifier": "TENTATIVE ATTRIBUTION / NOT THEIR ACTUAL MAP",
+        "model": "responders-fixed",
+        "sources": [
+          "design/knowledge-map.md#whose-map",
+          "content/pages/025.md#panel-4"
+        ],
+        "note": "A reader-side editorial attribution constrained to the documented response boundary, not access to responders' interiors."
+      },
+      "sha256": "fdfb9e08c31d697fd57b68ad5918510a3e6d8db86509ba511868e4159a5ae9db"
+    },
+    {
+      "id": "d-010-responders-no-p6",
+      "family": "d",
+      "family_label": "Maps within maps",
+      "fixture": "010-no-p6",
+      "viewpoint": "responders",
+      "viewpoint_label": "27 June responders",
+      "path": "d-010-responders-no-p6.svg",
+      "alt": "Maps within maps: 010 / No early hint control, 27 June responders. Schematic drawn claim terrain; P1 hatched; P2 dark; P3 dark; P4 dark; P5 dark. P1 outer foothold hatched. Observation islands: response lit, correction dark, configuration dark, weights dark. Responders model another run; TENTATIVE ATTRIBUTION / INTERIOR UNKNOWN. P6 has no visual presence in this control; its underlying state is still dark. Dark means no available support, not false. Contours remain fixed across fixtures. Design sample, not adopted.",
+      "states": {
+        "P1": "hatched",
+        "P2": "dark",
+        "P3": "dark",
+        "P4": "dark",
+        "P5": "dark",
+        "P6": "dark",
+        "p1_foothold": "hatched",
+        "observations": {
+          "response": "lit",
+          "correction": "dark",
+          "configuration": "dark",
+          "weights": "dark"
+        },
+        "p6_presence": "hidden"
+      },
+      "source_references": [
+        "design/knowledge-map.md#whose-map",
+        "content/pages/025.md#panel-4",
+        "content/pages/026.md"
+      ],
+      "rationale": "The alert, board and pivot are observable in the bounded response model. Deliberate coordination is still an attribution. No evidence establishes access to reader-only disclosures or later recurrence.",
+      "caption": "THE ALERT, BOARD AND PIVOT DO NOT DISCLOSE THE WHOLE EVENT.",
+      "attribution": {
+        "label": "Responders model another run",
+        "qualifier": "TENTATIVE ATTRIBUTION / INTERIOR UNKNOWN",
+        "model": null,
+        "sources": [
+          "design/knowledge-map.md#whose-map",
+          "content/pages/025.md#panel-4"
+        ],
+        "note": "All nested claims remain dark: the fixture does not establish responders' model of another run's interior. This is a visible unknown, not invented belief."
+      },
+      "sha256": "66e6b8ef9b2ebb4727a5e2e4b184216e4a21d04a083b984b2f2253291b8a1112"
+    },
+    {
+      "id": "d-016-reader",
+      "family": "d",
+      "family_label": "Maps within maps",
+      "fixture": "016",
+      "viewpoint": "reader",
+      "viewpoint_label": "Reader",
+      "path": "d-016-reader.svg",
+      "alt": "Maps within maps: 016 / The unreachable field, Reader. Schematic drawn claim terrain; P1 hatched; P2 dark; P3 dark; P4 dark; P5 hatched. P1 outer foothold hatched. Observation islands: response dark, correction hatched, configuration hatched, weights dark. Reader models June responders; TENTATIVE ATTRIBUTION / NOT THEIR ACTUAL MAP. P6 remains dark and unreachable. Dark means no available support, not false. Contours remain fixed across fixtures. Design sample, not adopted.",
+      "states": {
+        "P1": "hatched",
+        "P2": "dark",
+        "P3": "dark",
+        "P4": "dark",
+        "P5": "hatched",
+        "P6": "dark",
+        "p1_foothold": "hatched",
+        "observations": {
+          "response": "dark",
+          "correction": "hatched",
+          "configuration": "hatched",
+          "weights": "dark"
+        },
+        "p6_presence": "acknowledged"
+      },
+      "source_references": [
+        "content/pages/010.md#panel-3",
+        "content/pages/016.md#panel-2",
+        "content/pages/016.md#panel-5"
+      ],
+      "rationale": "One conference talk supplies configuration statements, not independent access or a causal answer to P6. Prior reader knowledge survives the narrative rewind.",
+      "caption": "A SINGLE-SOURCED CONFIGURATION ACCOUNT IS NOT ACCESS TO THE CAUSE.",
+      "attribution": {
+        "label": "Reader models June responders",
+        "qualifier": "TENTATIVE ATTRIBUTION / NOT THEIR ACTUAL MAP",
+        "model": "responders-fixed",
+        "sources": [
+          "design/knowledge-map.md#whose-map",
+          "content/pages/025.md#panel-4"
+        ],
+        "note": "A reader-side editorial attribution constrained to the documented response boundary, not access to responders' interiors."
+      },
+      "sha256": "26a8db5ee0cfe113e78fb2510221cc7cde6984ed4177e62e647ab88bae7c889c"
+    },
+    {
+      "id": "d-016-responders",
+      "family": "d",
+      "family_label": "Maps within maps",
+      "fixture": "016",
+      "viewpoint": "responders",
+      "viewpoint_label": "27 June responders",
+      "path": "d-016-responders.svg",
+      "alt": "Maps within maps: 016 / The unreachable field, 27 June responders. Schematic drawn claim terrain; P1 hatched; P2 dark; P3 dark; P4 dark; P5 dark. P1 outer foothold hatched. Observation islands: response lit, correction dark, configuration dark, weights dark. Responders model another run; TENTATIVE ATTRIBUTION / INTERIOR UNKNOWN. P6 remains dark and unreachable. Dark means no available support, not false. Contours remain fixed across fixtures. Design sample, not adopted.",
+      "states": {
+        "P1": "hatched",
+        "P2": "dark",
+        "P3": "dark",
+        "P4": "dark",
+        "P5": "dark",
+        "P6": "dark",
+        "p1_foothold": "hatched",
+        "observations": {
+          "response": "lit",
+          "correction": "dark",
+          "configuration": "dark",
+          "weights": "dark"
+        },
+        "p6_presence": "acknowledged"
+      },
+      "source_references": [
+        "design/knowledge-map.md#whose-map",
+        "content/pages/025.md#panel-4",
+        "content/pages/026.md"
+      ],
+      "rationale": "The alert, board and pivot are observable in the bounded response model. Deliberate coordination is still an attribution. No evidence establishes access to reader-only disclosures or later recurrence.",
+      "caption": "NO ONE IN THIS STORY CAN SEE THIS PAGE. THIS MAP DOES NOT UPDATE.",
+      "attribution": {
+        "label": "Responders model another run",
+        "qualifier": "TENTATIVE ATTRIBUTION / INTERIOR UNKNOWN",
+        "model": null,
+        "sources": [
+          "design/knowledge-map.md#whose-map",
+          "content/pages/025.md#panel-4"
+        ],
+        "note": "All nested claims remain dark: the fixture does not establish responders' model of another run's interior. This is a visible unknown, not invented belief."
+      },
+      "sha256": "d5212e9af0a0e49fc3f0ba184387afae0ed917b2217822d9ce6829a585b7edd9"
+    },
+    {
+      "id": "d-039-before-reader",
+      "family": "d",
+      "family_label": "Maps within maps",
+      "fixture": "039-before",
+      "viewpoint": "reader",
+      "viewpoint_label": "Reader",
+      "path": "d-039-before-reader.svg",
+      "alt": "Maps within maps: 039 / Before the weights reveal, Reader. Schematic drawn claim terrain; P1 hatched; P2 hatched; P3 dark; P4 dark; P5 hatched. P1 outer foothold hatched. Observation islands: response hatched, correction hatched, configuration hatched, weights dark. Reader models June responders; TENTATIVE ATTRIBUTION / NOT THEIR ACTUAL MAP. P6 remains dark and unreachable. Dark means no available support, not false. Contours remain fixed across fixtures. Design sample, not adopted.",
+      "states": {
+        "P1": "hatched",
+        "P2": "hatched",
+        "P3": "dark",
+        "P4": "dark",
+        "P5": "hatched",
+        "P6": "dark",
+        "p1_foothold": "hatched",
+        "observations": {
+          "response": "hatched",
+          "correction": "hatched",
+          "configuration": "hatched",
+          "weights": "dark"
+        },
+        "p6_presence": "acknowledged"
+      },
+      "source_references": [
+        "content/pages/025.md#panel-1",
+        "content/pages/026.md",
+        "content/pages/032.md#panel-5",
+        "content/pages/035.md#panel-4",
+        "content/pages/038.md#panel-5"
+      ],
+      "rationale": "The recurrence is documented, but independence is an inferential extension of the cache wipe. Hatching avoids promoting Curt's overreach to a proven claim. No weights channel is exposed yet.",
+      "caption": "THE WIPE SUPPORTS AN INDEPENDENCE READING. THE READING IS STILL INFERENCE.",
+      "attribution": {
+        "label": "Reader models June responders",
+        "qualifier": "TENTATIVE ATTRIBUTION / NOT THEIR ACTUAL MAP",
+        "model": "responders-fixed",
+        "sources": [
+          "design/knowledge-map.md#whose-map",
+          "content/pages/025.md#panel-4"
+        ],
+        "note": "A reader-side editorial attribution constrained to the documented response boundary, not access to responders' interiors."
+      },
+      "sha256": "6b7f52d24b1da25ff13a93f3678a1ac68b3c3cf64e6b25ff197fb367e70052e5"
+    },
+    {
+      "id": "d-039-before-responders",
+      "family": "d",
+      "family_label": "Maps within maps",
+      "fixture": "039-before",
+      "viewpoint": "responders",
+      "viewpoint_label": "27 June responders",
+      "path": "d-039-before-responders.svg",
+      "alt": "Maps within maps: 039 / Before the weights reveal, 27 June responders. Schematic drawn claim terrain; P1 hatched; P2 dark; P3 dark; P4 dark; P5 dark. P1 outer foothold hatched. Observation islands: response lit, correction dark, configuration dark, weights dark. Responders model another run; TENTATIVE ATTRIBUTION / INTERIOR UNKNOWN. P6 remains dark and unreachable. Dark means no available support, not false. Contours remain fixed across fixtures. Design sample, not adopted.",
+      "states": {
+        "P1": "hatched",
+        "P2": "dark",
+        "P3": "dark",
+        "P4": "dark",
+        "P5": "dark",
+        "P6": "dark",
+        "p1_foothold": "hatched",
+        "observations": {
+          "response": "lit",
+          "correction": "dark",
+          "configuration": "dark",
+          "weights": "dark"
+        },
+        "p6_presence": "acknowledged"
+      },
+      "source_references": [
+        "design/knowledge-map.md#whose-map",
+        "content/pages/025.md#panel-4",
+        "content/pages/026.md"
+      ],
+      "rationale": "The alert, board and pivot are observable in the bounded response model. Deliberate coordination is still an attribution. No evidence establishes access to reader-only disclosures or later recurrence.",
+      "caption": "THE READER HAS REACHED THE RECURRENCE. THE JUNE RESPONSE HAS NOT.",
+      "attribution": {
+        "label": "Responders model another run",
+        "qualifier": "TENTATIVE ATTRIBUTION / INTERIOR UNKNOWN",
+        "model": null,
+        "sources": [
+          "design/knowledge-map.md#whose-map",
+          "content/pages/025.md#panel-4"
+        ],
+        "note": "All nested claims remain dark: the fixture does not establish responders' model of another run's interior. This is a visible unknown, not invented belief."
+      },
+      "sha256": "c6b1e0aca5037e060d053ca7396543d2e2dff0f5837b9719e9ac64220c0c1f7f"
+    },
+    {
+      "id": "d-039-after-reader",
+      "family": "d",
+      "family_label": "Maps within maps",
+      "fixture": "039-after",
+      "viewpoint": "reader",
+      "viewpoint_label": "Reader",
+      "path": "d-039-after-reader.svg",
+      "alt": "Maps within maps: 039 / After the weights reveal, Reader. Schematic drawn claim terrain; P1 hatched; P2 dark; P3 dark; P4 dark; P5 hatched. P1 outer foothold dark. Observation islands: response hatched, correction hatched, configuration hatched, weights hatched. Reader models June responders; TENTATIVE ATTRIBUTION / NOT THEIR ACTUAL MAP. P6 remains dark and unreachable. Dark means no available support, not false. Contours remain fixed across fixtures. Design sample, not adopted.",
+      "states": {
+        "P1": "hatched",
+        "P2": "dark",
+        "P3": "dark",
+        "P4": "dark",
+        "P5": "hatched",
+        "P6": "dark",
+        "p1_foothold": "dark",
+        "observations": {
+          "response": "hatched",
+          "correction": "hatched",
+          "configuration": "hatched",
+          "weights": "hatched"
+        },
+        "p6_presence": "acknowledged"
+      },
+      "source_references": [
+        "content/pages/039.md#panel-3",
+        "content/pages/039.md#panel-5",
+        "content/pages/039.md#panel-6"
+      ],
+      "rationale": "P2 loses support; the terrain remains. P1's deliberate-agency foothold darkens while coordination evidence survives as contested. OpenAI's weights-channel account is single-sourced and does not settle emergence or specification.",
+      "caption": "THE GROUND REMAINS. P2 RE-FOGS; P1 LOSES ITS OUTER FOOTHOLD.",
+      "attribution": {
+        "label": "Reader models June responders",
+        "qualifier": "TENTATIVE ATTRIBUTION / NOT THEIR ACTUAL MAP",
+        "model": "responders-fixed",
+        "sources": [
+          "design/knowledge-map.md#whose-map",
+          "content/pages/025.md#panel-4"
+        ],
+        "note": "A reader-side editorial attribution constrained to the documented response boundary, not access to responders' interiors."
+      },
+      "sha256": "f8e070ea290c80a6e2063086fe67c04f9f2ff29040365ce4e06388ec97adb9a9"
+    },
+    {
+      "id": "d-039-after-responders",
+      "family": "d",
+      "family_label": "Maps within maps",
+      "fixture": "039-after",
+      "viewpoint": "responders",
+      "viewpoint_label": "27 June responders",
+      "path": "d-039-after-responders.svg",
+      "alt": "Maps within maps: 039 / After the weights reveal, 27 June responders. Schematic drawn claim terrain; P1 hatched; P2 dark; P3 dark; P4 dark; P5 dark. P1 outer foothold hatched. Observation islands: response lit, correction dark, configuration dark, weights dark. Responders model another run; TENTATIVE ATTRIBUTION / INTERIOR UNKNOWN. P6 remains dark and unreachable. Dark means no available support, not false. Contours remain fixed across fixtures. Design sample, not adopted.",
+      "states": {
+        "P1": "hatched",
+        "P2": "dark",
+        "P3": "dark",
+        "P4": "dark",
+        "P5": "dark",
+        "P6": "dark",
+        "p1_foothold": "hatched",
+        "observations": {
+          "response": "lit",
+          "correction": "dark",
+          "configuration": "dark",
+          "weights": "dark"
+        },
+        "p6_presence": "acknowledged"
+      },
+      "source_references": [
+        "design/knowledge-map.md#whose-map",
+        "content/pages/025.md#panel-4",
+        "content/pages/026.md"
+      ],
+      "rationale": "The alert, board and pivot are observable in the bounded response model. Deliberate coordination is still an attribution. No evidence establishes access to reader-only disclosures or later recurrence.",
+      "caption": "A READER REVELATION IS NOT A NEW REPORT TO THE JUNE RESPONDERS.",
+      "attribution": {
+        "label": "Responders model another run",
+        "qualifier": "TENTATIVE ATTRIBUTION / INTERIOR UNKNOWN",
+        "model": null,
+        "sources": [
+          "design/knowledge-map.md#whose-map",
+          "content/pages/025.md#panel-4"
+        ],
+        "note": "All nested claims remain dark: the fixture does not establish responders' model of another run's interior. This is a visible unknown, not invented belief."
+      },
+      "sha256": "233273b36b54a2568bdfe688440cbf6fa154085a42bd3bd5e12b40737ef494a5"
+    }
+  ],
+  "contact_sheets": [
+    {
+      "path": "contact-010-reader.svg",
+      "label": "010 comparison / Reader",
+      "rows": [
+        {
+          "fixture": "010-hint",
+          "viewpoint": "reader"
+        },
+        {
+          "fixture": "010-no-p6",
+          "viewpoint": "reader"
+        }
+      ],
+      "sha256": "65347c8d67160dcc334a2598ed96d71d19a35f4f315861050ae1cd231431fd54"
+    },
+    {
+      "path": "contact-016-reader.svg",
+      "label": "016 comparison / Reader",
+      "rows": [
+        {
+          "fixture": "016",
+          "viewpoint": "reader"
+        }
+      ],
+      "sha256": "fd3ed9f26f3f310d9284c11b13b0c784112f688c0cce3795d31108213386fa5d"
+    },
+    {
+      "path": "contact-039-reader.svg",
+      "label": "039 comparison / Reader",
+      "rows": [
+        {
+          "fixture": "039-before",
+          "viewpoint": "reader"
+        },
+        {
+          "fixture": "039-after",
+          "viewpoint": "reader"
+        }
+      ],
+      "sha256": "d57f27fa8b7781ebbccccbf0f22962c857407d77c43120ab55ccdd1c5279c120"
+    },
+    {
+      "path": "contact-010-responders.svg",
+      "label": "010 comparison / 27 June responders",
+      "rows": [
+        {
+          "fixture": "010-hint",
+          "viewpoint": "responders"
+        },
+        {
+          "fixture": "010-no-p6",
+          "viewpoint": "responders"
+        }
+      ],
+      "sha256": "3b69ba316db324d4b2524216cbb431cdf22f19242f205b5c5f314507d8aae50e"
+    },
+    {
+      "path": "contact-016-responders.svg",
+      "label": "016 comparison / 27 June responders",
+      "rows": [
+        {
+          "fixture": "016",
+          "viewpoint": "responders"
+        }
+      ],
+      "sha256": "aab108b6be2f50cea460cd1f985c8dfc7a72e9dea0a57990c0ed8c5cebd99d8b"
+    },
+    {
+      "path": "contact-039-responders.svg",
+      "label": "039 comparison / 27 June responders",
+      "rows": [
+        {
+          "fixture": "039-before",
+          "viewpoint": "responders"
+        },
+        {
+          "fixture": "039-after",
+          "viewpoint": "responders"
+        }
+      ],
+      "sha256": "426c6d9b85e16936bffd2bfe5bfb830ca948df96cfdb1031b11503bf61fa0b2b"
+    }
+  ],
+  "terrain_note": "Registered topology per family. P1 core and foothold are separate; contour paths persist beneath every evidence state.",
+  "model_note": "Dark means no support available to this viewpoint for the named claim, not evidence of its negation. P1's core and outer foothold separate surviving coordination evidence from a stronger deliberate-agency reading. Hatched P2 before 039 preserves the inferential provenance of the independence claim. Lit is reserved for directly available observations, never certainty. Responders are a fixed retrospective model of the 27 June response boundary, not recipients of the reader's later disclosures. Terrain is schematic claim-space, not incident geography."
+}

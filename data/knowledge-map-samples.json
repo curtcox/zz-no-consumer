@@ -1,0 +1,80 @@
+{
+  "version": 1,
+  "status": "Design samples — not adopted",
+  "warning": "Story revelations through page 039. Provisional editorial models, not measured beliefs.",
+  "model_note": "Dark means no support available to this viewpoint for the named claim, not evidence of its negation. P1's core and outer foothold separate surviving coordination evidence from a stronger deliberate-agency reading. Hatched P2 before 039 preserves the inferential provenance of the independence claim. Lit is reserved for directly available observations, never certainty. Responders are a fixed retrospective model of the 27 June response boundary, not recipients of the reader's later disclosures. Terrain is schematic claim-space, not incident geography.",
+  "source_paths": ["design/knowledge-map.md", "design/palette.md", "design/lettering.md", "content/pages/005.md", "content/pages/007.md", "content/pages/010.md", "content/pages/011.md", "content/pages/016.md", "content/pages/025.md", "content/pages/026.md", "content/pages/032.md", "content/pages/035.md", "content/pages/038.md", "content/pages/039.md"],
+  "families": {
+    "a": {"label": "Border and beyond", "hypothesis": "A continuous territory ends at a hard surveyed boundary; P6 lies outside it."},
+    "b": {"label": "Inward-facing silhouettes", "hypothesis": "Five inward-looking stations occupy separate fields around a dark, inaccessible center."},
+    "c": {"label": "Overlapping partial maps", "hypothesis": "Offset fragments of one viewpoint's evidence overlap without becoming an omniscient composite."},
+    "d": {"label": "Maps within maps", "hypothesis": "The outer viewpoint holds a framed, explicitly tentative attribution of another party's map."}
+  },
+  "viewpoints": {
+    "reader": {"label": "Reader", "boundary": "Published accounts available at this reading point; no access to underlying records."},
+    "responders": {"label": "27 June responders", "boundary": "Fixed 27 June response: alert, board, pivot; no persistent users, staged plugin, scorer correction, configuration or weights disclosure."}
+  },
+  "propositions": {
+    "P1": {"label": "Deliberate coordination", "claim": "They coordinated deliberately.", "sources": ["design/knowledge-map.md#the-five-propositions-and-the-sixth", "content/pages/005.md", "content/pages/007.md", "content/pages/039.md#panel-3"]},
+    "P2": {"label": "Independent recurrence", "claim": "The recurrence was independent of the erased board.", "sources": ["content/pages/032.md#panel-5", "content/pages/035.md#panel-4", "content/pages/038.md#panel-5", "content/pages/039.md#panel-5"]},
+    "P3": {"label": "Record equals event", "claim": "The record is what happened.", "sources": ["design/knowledge-map.md#the-five-propositions-and-the-sixth"]},
+    "P4": {"label": "Nobody told a human", "claim": "No one tried to tell a human.", "sources": ["design/knowledge-map.md#the-five-propositions-and-the-sixth"]},
+    "P5": {"label": "Independent measurement", "claim": "The measurement was independent of what it measured.", "sources": ["content/pages/010.md#panel-3", "content/pages/010.md#panel-4", "content/pages/011.md"]},
+    "P6": {"label": "Emergence or specification", "claim": "The behavior emerged from the agents' situation rather than being specified.", "sources": ["content/pages/016.md#panel-5", "content/pages/039.md#panel-5"]}
+  },
+  "state_models": {
+    "reader-early": {
+      "propositions": {"P1": "hatched", "P2": "dark", "P3": "dark", "P4": "dark", "P5": "hatched", "P6": "dark"},
+      "p1_foothold": "hatched",
+      "observations": {"response": "dark", "correction": "hatched", "configuration": "dark", "weights": "dark"},
+      "sources": ["content/pages/005.md", "content/pages/007.md", "content/pages/010.md#panel-3", "content/pages/010.md#panel-4"],
+      "rationale": "Coordination and measurement remain interpretations. The reader has the disputed scorer correction; recurrence, archive fidelity, and a universal no-report claim are not yet supported. No later response scene is imported."
+    },
+    "reader-016": {
+      "propositions": {"P1": "hatched", "P2": "dark", "P3": "dark", "P4": "dark", "P5": "hatched", "P6": "dark"},
+      "p1_foothold": "hatched",
+      "observations": {"response": "dark", "correction": "hatched", "configuration": "hatched", "weights": "dark"},
+      "sources": ["content/pages/010.md#panel-3", "content/pages/016.md#panel-2", "content/pages/016.md#panel-5"],
+      "rationale": "One conference talk supplies configuration statements, not independent access or a causal answer to P6. Prior reader knowledge survives the narrative rewind."
+    },
+    "reader-before": {
+      "propositions": {"P1": "hatched", "P2": "hatched", "P3": "dark", "P4": "dark", "P5": "hatched", "P6": "dark"},
+      "p1_foothold": "hatched",
+      "observations": {"response": "hatched", "correction": "hatched", "configuration": "hatched", "weights": "dark"},
+      "sources": ["content/pages/025.md#panel-1", "content/pages/026.md", "content/pages/032.md#panel-5", "content/pages/035.md#panel-4", "content/pages/038.md#panel-5"],
+      "rationale": "The recurrence is documented, but independence is an inferential extension of the cache wipe. Hatching avoids promoting Curt's overreach to a proven claim. No weights channel is exposed yet."
+    },
+    "reader-after": {
+      "propositions": {"P1": "hatched", "P2": "dark", "P3": "dark", "P4": "dark", "P5": "hatched", "P6": "dark"},
+      "p1_foothold": "dark",
+      "observations": {"response": "hatched", "correction": "hatched", "configuration": "hatched", "weights": "hatched"},
+      "sources": ["content/pages/039.md#panel-3", "content/pages/039.md#panel-5", "content/pages/039.md#panel-6"],
+      "rationale": "P2 loses support; the terrain remains. P1's deliberate-agency foothold darkens while coordination evidence survives as contested. OpenAI's weights-channel account is single-sourced and does not settle emergence or specification."
+    },
+    "responders-fixed": {
+      "propositions": {"P1": "hatched", "P2": "dark", "P3": "dark", "P4": "dark", "P5": "dark", "P6": "dark"},
+      "p1_foothold": "hatched",
+      "observations": {"response": "lit", "correction": "dark", "configuration": "dark", "weights": "dark"},
+      "sources": ["design/knowledge-map.md#whose-map", "content/pages/025.md#panel-4", "content/pages/026.md"],
+      "rationale": "The alert, board and pivot are observable in the bounded response model. Deliberate coordination is still an attribution. No evidence establishes access to reader-only disclosures or later recurrence."
+    }
+  },
+  "fixtures": {
+    "010-hint": {"label": "010 / Before the boundary is named", "models": {"reader": "reader-early", "responders": "responders-fixed"}, "p6_presence": "hint", "captions": {"reader": "THE READER HAS A CORRECTION THE PEOPLE INSIDE THE EVENT DO NOT.", "responders": "THE ALERT, BOARD AND PIVOT DO NOT DISCLOSE THE WHOLE EVENT."}, "source_label": "010.3–4 / disputed scorer accounts; design / fixed response boundary"},
+    "010-no-p6": {"label": "010 / No early hint control", "models": {"reader": "reader-early", "responders": "responders-fixed"}, "p6_presence": "hidden", "captions": {"reader": "THE READER HAS A CORRECTION THE PEOPLE INSIDE THE EVENT DO NOT.", "responders": "THE ALERT, BOARD AND PIVOT DO NOT DISCLOSE THE WHOLE EVENT."}, "source_label": "010.3–4 / disputed scorer accounts; design / fixed response boundary"},
+    "016": {"label": "016 / The unreachable field", "models": {"reader": "reader-016", "responders": "responders-fixed"}, "p6_presence": "acknowledged", "captions": {"reader": "A SINGLE-SOURCED CONFIGURATION ACCOUNT IS NOT ACCESS TO THE CAUSE.", "responders": "NO ONE IN THIS STORY CAN SEE THIS PAGE. THIS MAP DOES NOT UPDATE."}, "source_label": "016.2–5 / OAI-BH, one conference talk; no independent review"},
+    "039-before": {"label": "039 / Before the weights reveal", "models": {"reader": "reader-before", "responders": "responders-fixed"}, "p6_presence": "acknowledged", "captions": {"reader": "THE WIPE SUPPORTS AN INDEPENDENCE READING. THE READING IS STILL INFERENCE.", "responders": "THE READER HAS REACHED THE RECURRENCE. THE JUNE RESPONSE HAS NOT."}, "source_label": "032.5; 035.4; 038.5 / recurrence documented; independence inferred"},
+    "039-after": {"label": "039 / After the weights reveal", "models": {"reader": "reader-after", "responders": "responders-fixed"}, "p6_presence": "acknowledged", "captions": {"reader": "THE GROUND REMAINS. P2 RE-FOGS; P1 LOSES ITS OUTER FOOTHOLD.", "responders": "A READER REVELATION IS NOT A NEW REPORT TO THE JUNE RESPONDERS."}, "source_label": "039.3,5–6 / injection reading; OAI-BH weights channel; unresolved conflict"}
+  },
+  "attributions": {
+    "reader": {"label": "Reader models June responders", "qualifier": "TENTATIVE ATTRIBUTION / NOT THEIR ACTUAL MAP", "model": "responders-fixed", "sources": ["design/knowledge-map.md#whose-map", "content/pages/025.md#panel-4"], "note": "A reader-side editorial attribution constrained to the documented response boundary, not access to responders' interiors."},
+    "responders": {"label": "Responders model another run", "qualifier": "TENTATIVE ATTRIBUTION / INTERIOR UNKNOWN", "model": null, "sources": ["design/knowledge-map.md#whose-map", "content/pages/025.md#panel-4"], "note": "All nested claims remain dark: the fixture does not establish responders' model of another run's interior. This is a visible unknown, not invented belief."}
+  },
+  "sample_ids": [
+    "a-010-reader-hint", "a-010-responders-hint", "a-010-reader-no-p6", "a-010-responders-no-p6", "a-016-reader", "a-016-responders", "a-039-before-reader", "a-039-before-responders", "a-039-after-reader", "a-039-after-responders",
+    "b-010-reader-hint", "b-010-responders-hint", "b-010-reader-no-p6", "b-010-responders-no-p6", "b-016-reader", "b-016-responders", "b-039-before-reader", "b-039-before-responders", "b-039-after-reader", "b-039-after-responders",
+    "c-010-reader-hint", "c-010-responders-hint", "c-010-reader-no-p6", "c-010-responders-no-p6", "c-016-reader", "c-016-responders", "c-039-before-reader", "c-039-before-responders", "c-039-after-reader", "c-039-after-responders",
+    "d-010-reader-hint", "d-010-responders-hint", "d-010-reader-no-p6", "d-010-responders-no-p6", "d-016-reader", "d-016-responders", "d-039-before-reader", "d-039-before-responders", "d-039-after-reader", "d-039-after-responders"
+  ],
+  "alt_template": "{family}: {fixture}, {viewpoint}. Schematic drawn claim terrain; {summary} P6 {presence}. Dark means no available support, not false. Contours remain fixed across fixtures. Design sample, not adopted."
+}

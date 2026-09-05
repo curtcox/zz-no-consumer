@@ -5,6 +5,7 @@ from __future__ import annotations
 
 import argparse
 import html
+import json
 import posixpath
 import re
 import shutil
@@ -851,6 +852,189 @@ def build_bakeoff(document) -> int:
     return len(runs) + 1
 
 
+KNOWLEDGE_MAP_DIR = ROOT / "assets" / "knowledge-maps"
+KNOWLEDGE_MAP_FIXTURES = {
+    "010-hint": "010 · with P6 hint",
+    "010-no-p6": "010 · without P6 hint",
+    "016": "016 · observation boundary",
+    "039-before": "039 · before the reveal",
+    "039-after": "039 · after the reveal",
+}
+KNOWLEDGE_MAP_VIEWPOINTS = ("reader", "responders")
+
+
+def knowledge_map_asset(folder: str, filename: str, suffix: str) -> str:
+    if not re.fullmatch(r"[A-Za-z0-9][A-Za-z0-9._-]*", filename) or not filename.endswith(suffix):
+        raise ValueError(f"Invalid knowledge-map asset basename: {filename!r}")
+    source = KNOWLEDGE_MAP_DIR / folder / filename
+    if not source.is_file() or not source.resolve().is_relative_to(KNOWLEDGE_MAP_DIR.resolve()):
+        raise ValueError(f"Missing or unsafe knowledge-map asset: {source}")
+    return f"assets/knowledge-maps/{folder}/{filename}"
+
+
+def build_knowledge_maps(document) -> int:
+    manifest = json.loads((KNOWLEDGE_MAP_DIR / "v1" / "manifest.json").read_text(encoding="utf-8"))
+    samples = manifest["samples"]
+    expected = {(family, fixture, viewpoint) for family in "abcd"
+                for fixture in KNOWLEDGE_MAP_FIXTURES for viewpoint in KNOWLEDGE_MAP_VIEWPOINTS}
+    keyed = {(sample["family"], sample["fixture"], sample["viewpoint"]): sample for sample in samples}
+    if manifest["version"] != 1 or len(samples) != 40 or set(keyed) != expected:
+        raise ValueError("Knowledge-map v1 requires exactly 40 samples covering every family, fixture, and viewpoint")
+    if len({sample["id"] for sample in samples}) != 40:
+        raise ValueError("Knowledge-map sample ids must be unique")
+    for sample in samples:
+        knowledge_map_asset("v1", sample["path"], ".svg")
+        if not sample["alt"].strip() or not isinstance(sample["states"], dict):
+            raise ValueError(f"Knowledge-map sample needs alt text and states: {sample['id']}")
+
+    def gallery_document(title: str, body: str, directory: Path) -> str:
+        return document(title, body, directory).replace(
+            '<body>', '<body class="knowledge-map-page">', 1).replace(
+            'Generated from canonical Markdown on the main branch.',
+            'Generated from versioned knowledge-map design samples. No alternative has been adopted.')
+
+    def local_studies(directory: Path) -> str:
+        source = KNOWLEDGE_MAP_DIR / "local-v1" / "manifest.json"
+        if not source.exists():
+            return ""
+        local = json.loads(source.read_text(encoding="utf-8"))
+        if len(local["results"]) != 4 or {result["id"] for result in local["results"]} != set("abcd"):
+            raise ValueError("Local model studies require one actual result per family")
+        cards = []
+        for result in sorted(local["results"], key=lambda item: item["id"]):
+            asset = knowledge_map_asset("local-v1", result["path"], ".webp")
+            prompt = knowledge_map_asset("local-v1", result["prompt"], ".txt")
+            prompt_href = html.escape(relative_url(directory, Path(prompt)))
+            href = html.escape(relative_url(directory, Path(asset)))
+            label = html.escape(result["label"])
+            cards.append(
+                f'<figure class="km-card" data-local-study="{result["id"]}">'
+                f'<a href="{href}"><img src="{href}" alt="Exploratory local model concept study: {label}" '
+                f'width="{int(result["width"])}" height="{int(result["height"])}"></a>'
+                f'<figcaption><strong>{result["id"].upper()} · {label}</strong>'
+                f'<p>Seed {int(result["seed"])} · {int(result["width"])} × {int(result["height"])} · '
+                f'{float(result["seconds"]):.1f} seconds</p><a href="{prompt_href}">Exact local-generation prompt</a></figcaption></figure>'
+            )
+        return (
+            '<section class="km-section km-local" id="local-model-concept-studies">'
+            '<h2>Local model concept studies</h2>'
+            '<p>Actual raster images generated locally with a diffusion model. These are exploratory visual '
+            'studies, not exact evidence states. The SVGs below are the controlled semantic comparison; '
+            'model-generated symbols and labels are not evidence.</p>'
+            f'<p>Model: <strong>{html.escape(local["model"])}</strong> · Licence: {html.escape(local["licence"])}</p>'
+            f'<div class="km-grid">{"".join(cards)}</div></section>'
+        )
+
+    directory = Path("knowledge-maps", "v1")
+
+    def thumbnail(sample: dict, primary: bool = False) -> str:
+        href = html.escape(relative_url(directory, Path(knowledge_map_asset("v1", sample["path"], ".svg"))))
+        identity = f' id="sample-{html.escape(sample["id"])}" data-km-sample="{html.escape(sample["id"])}"' if primary else ""
+        return (
+            f'<figure class="km-card"{identity} data-family="{sample["family"]}" '
+            f'data-fixture="{sample["fixture"]}" data-viewpoint="{sample["viewpoint"]}">'
+            f'<a href="{href}"><img src="{href}" alt="{html.escape(sample["alt"])}" '
+            'width="960" height="640" loading="lazy"></a>'
+            f'<figcaption><strong>{sample["family"].upper()} · {html.escape(sample["family_label"])}</strong>'
+            f'<p>{html.escape(KNOWLEDGE_MAP_FIXTURES[sample["fixture"]])} · {html.escape(sample["viewpoint_label"])}</p>'
+            f'<details><summary>Exact fixture states</summary><pre>{html.escape(json.dumps(sample["states"], indent=2, ensure_ascii=False))}</pre></details>'
+            '</figcaption></figure>'
+        )
+
+    rows = []
+    row_links = []
+    for fixture, label in KNOWLEDGE_MAP_FIXTURES.items():
+        for viewpoint in KNOWLEDGE_MAP_VIEWPOINTS:
+            anchor = f"compare-{fixture}-{viewpoint}"
+            row_label = f'{label} · {keyed[("a", fixture, viewpoint)]["viewpoint_label"]}'
+            row_links.append(f'<li><a href="#{anchor}">{html.escape(row_label)}</a></li>')
+            cards = "".join(thumbnail(keyed[(family, fixture, viewpoint)], primary=True) for family in "abcd")
+            rows.append(f'<section class="km-section" id="{anchor}"><h3>{html.escape(row_label)}</h3><div class="km-grid">{cards}</div></section>')
+
+    comparisons = []
+    for anchor, title, fixtures in (
+        ("039-before-after", "039 · before / after the reveal", ("039-before", "039-after")),
+        ("010-hint-nohint", "010 · hint / no hint", ("010-hint", "010-no-p6")),
+    ):
+        pairs = []
+        for viewpoint in KNOWLEDGE_MAP_VIEWPOINTS:
+            for family in "abcd":
+                cards = "".join(thumbnail(keyed[(family, fixture, viewpoint)]) for fixture in fixtures)
+                pairs.append(f'<div class="km-pair">{cards}</div>')
+        comparisons.append(f'<section class="km-section" id="{anchor}"><h2>{title}</h2><p>Paired within each family and viewpoint; only the fixture changes.</p>{"".join(pairs)}</section>')
+    pairs = []
+    for fixture in KNOWLEDGE_MAP_FIXTURES:
+        for family in "abcd":
+            cards = "".join(thumbnail(keyed[(family, fixture, viewpoint)]) for viewpoint in KNOWLEDGE_MAP_VIEWPOINTS)
+            pairs.append(f'<div class="km-pair">{cards}</div>')
+    comparisons.append('<section class="km-section" id="reader-responders"><h2>Reader / responders</h2><p>Same family and fixture, different access to information. Reader is always first; responders second.</p>' + "".join(pairs) + '</section>')
+
+    placements = []
+    for placement, label in (("margin", "Margin"), ("gutter", "Gutter"), ("chapter-opening", "Full chapter opening")):
+        mocks = []
+        for family in "abcd":
+            sample = keyed[(family, "016", "reader")]
+            href = html.escape(relative_url(directory, Path(knowledge_map_asset("v1", sample["path"], ".svg"))))
+            neutral = '<div class="km-neutral" aria-hidden="true"><span></span><span></span><span></span></div>'
+            image = f'<a class="km-mock-map" href="{href}"><img src="{href}" alt="{html.escape(sample["alt"])}" width="960" height="640" loading="lazy"></a>'
+            content = image + neutral if placement == "chapter-opening" else neutral + image + (neutral if placement == "gutter" else "")
+            mocks.append(
+                f'<figure class="km-placement" id="placement-{placement}-{family}" data-placement="{placement}" data-family="{family}">'
+                f'<figcaption><strong>{family.upper()} · {html.escape(sample["family_label"])}</strong> — {label}</figcaption>'
+                f'<div class="km-mock km-mock--{placement}">{content}</div></figure>'
+            )
+        placements.append(f'<section class="km-section" id="placement-{placement}"><h3>{label}</h3><div class="km-placement-grid">{"".join(mocks)}</div></section>')
+
+    sheets = []
+    for sheet in manifest["contact_sheets"]:
+        href = html.escape(relative_url(directory, Path(knowledge_map_asset("v1", sheet["path"], ".svg"))))
+        sheets.append(f'<figure class="km-card" data-contact-sheet="{html.escape(sheet["path"])}"><a href="{href}"><img src="{href}" alt="{html.escape(sheet["label"])}" loading="lazy"></a><figcaption>{html.escape(sheet["label"])}</figcaption></figure>')
+    if not sheets:
+        raise ValueError("Knowledge-map v1 requires contact sheets")
+    introduction = (
+        '<p class="eyebrow">Design samples — not adopted</p>'
+        '<p><strong>Story revelations through page 039.</strong></p>'
+        '<p class="km-intro">Four alternatives for showing who knows what, compared on exactly the same '
+        'fixtures and viewpoints. No family has been selected. These are design studies, not canonical story art.</p>'
+        '<section class="km-legend" aria-label="Shared evidence-state legend"><h2>Reading the maps</h2>'
+        '<p><strong>Dark:</strong> no available support, not proof of falsehood. '
+        '<strong>Lit:</strong> available evidence, not certainty. '
+        '<strong>Hatched:</strong> single-sourced or contested evidence. '
+        '<strong>P6:</strong> unreachable, never lit or hatched. Re-fogging removes support, not terrain.</p>'
+        '<p>Viewpoints are provisional editorial models, not access to anyone’s interior. '
+        'The 27 June responders stay within the same response boundary while the reader learns more.</p></section>'
+    )
+    body = (
+        '<div class="knowledge-map-gallery"><p><a href="../">Knowledge-map gallery</a> / Version 1</p>'
+        + introduction + local_studies(directory)
+        + '<nav class="km-jumps" aria-label="Knowledge-map comparisons"><a href="#controlled-comparison">All four alternatives</a>'
+        '<a href="#039-before-after">039 before / after</a><a href="#010-hint-nohint">010 hint / no hint</a>'
+        '<a href="#reader-responders">Reader / responders</a><a href="#placements">Placement mocks</a><a href="#contact-sheets">Contact sheets</a></nav>'
+        f'<section class="km-section" id="controlled-comparison"><h2>Controlled SVG comparison</h2><p>40 samples · renderer {html.escape(manifest["renderer_version"])}. '
+        'Every row holds fixture and viewpoint fixed. Open any image for full-size inspection; expand its states for a text equivalent.</p>'
+        f'<ul class="km-row-links">{"".join(row_links)}</ul>{"".join(rows)}</section>'
+        + "".join(comparisons)
+        + '<section class="km-section" id="placements"><h2>Placement mocks</h2><p>Neutral blocks stand in for page composition, not story panels. '
+        'All twelve mocks reuse fixture 016 from the reader viewpoint. Margin and gutter maps are intentionally small: open the image to inspect labels. '
+        'The full chapter opening gives the map priority. These experiments do not change the canonical viewer.</p>'
+        + "".join(placements) + '</section><section class="km-section" id="contact-sheets"><h2>Contact sheets</h2>'
+        + "".join(sheets) + '</section></div>'
+    )
+    write_page(directory / "index.html", "Knowledge maps · v1", body, gallery_document)
+    index = (
+        '<div class="knowledge-map-gallery">' + introduction + local_studies(Path("knowledge-maps"))
+        + '<section class="km-section"><h2>Controlled semantic studies</h2><a class="card" href="v1/">'
+        '<h3>Version 1 · four families, forty SVGs</h3><p>Compare 010 with and without the hint, 016, '
+        'and 039 before and after the reveal, from reader and responder viewpoints.</p></a>'
+        '<nav class="km-jumps" aria-label="Gallery shortcuts"><a href="v1/#039-before-after">039 before / after</a>'
+        '<a href="v1/#010-hint-nohint">010 hint / no hint</a><a href="v1/#reader-responders">Reader / responders</a>'
+        '<a href="v1/#placements">Margin, gutter, and chapter opening</a><a href="v1/#contact-sheets">Contact sheets</a></nav>'
+        '</section><p><a href="../">Return to the project</a></p></div>'
+    )
+    write_page(Path("knowledge-maps", "index.html"), "Knowledge-map gallery", index, gallery_document)
+    return 2
+
+
 def write_page(destination: Path, title: str, body: str, document) -> None:
     target = OUT / destination
     target.parent.mkdir(parents=True, exist_ok=True)
@@ -1324,6 +1508,7 @@ def main() -> int:
             '<p>Private local review build: canonical story material, visual direction, research, and production notes.</p>'
             '<p><a class="viewer-callout" href="viewer/">Open the graphic novel viewer validation build →</a></p>'
             f'{placeholder_link}'
+            '<p><a class="viewer-callout" href="knowledge-maps/">Explore four knowledge-map alternatives and placement studies →</a></p>'
             '<p><a class="viewer-callout" href="crossref/">Open the page, source, and provenance cross reference →</a></p>'
             '<p><a class="viewer-callout" href="bakeoff/">Compare the candidate image generators on the same panels →</a></p>'
             '<p><a class="viewer-callout" href="production/thumbnails/">Open the provisional 57-spread thumbnail wall →</a></p>'
@@ -1334,6 +1519,7 @@ def main() -> int:
             '<p>Story-first public build. Research snapshots, source packets, prompts, and production notes remain local.</p>'
             '<p><a class="viewer-callout" href="viewer/">Open the graphic novel viewer validation build →</a></p>'
             f'{placeholder_link}'
+            '<p><a class="viewer-callout" href="knowledge-maps/">Explore four knowledge-map alternatives and placement studies →</a></p>'
             '<p><a class="viewer-callout" href="crossref/">Open the page, source, and provenance cross reference →</a></p>'
             '<p><a class="viewer-callout" href="bakeoff/">Compare the candidate image generators on the same panels →</a></p>'
             f'<h2>Browse the story</h2><div class="cards">{index_cards}</div>'
@@ -1359,10 +1545,12 @@ def main() -> int:
     LETTERED = build_lettering()
     build_viewer()
     bakeoff_routes = build_bakeoff(document)
+    knowledge_map_routes = build_knowledge_maps(document)
 
     print(
         f"Built {len(markdown_files)} Markdown pages, {crossref_routes} cross-reference routes, "
-        f"{bakeoff_routes} bake-off routes, {len(LETTERED)} lettered panel(s), "
+        f"{bakeoff_routes} bake-off routes, {knowledge_map_routes} knowledge-map routes, "
+        f"{len(LETTERED)} lettered panel(s), "
         f"and the viewer validation section into {OUT.relative_to(ROOT)}/"
     )
     warnings = [item for item in model.findings if item.severity != "note"]
