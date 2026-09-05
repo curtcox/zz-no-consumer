@@ -3,11 +3,11 @@
   "renderer_version": "knowledge-map-svg-1.0.0",
   "status": "Design samples — not adopted",
   "warning": "Story revelations through page 039. Provisional editorial models, not measured beliefs.",
-  "input_hash": "3eeb45faec8e9bf99e00b7a29eac97cef20e0304d23959a3aa6ac464a19454c3",
+  "input_hash": "7ade763d1a1fca83807f42f4d83fef12440ed4967abafce2560b70bbb120b1c1",
   "inputs": {
     "data/knowledge-map-samples.json": "b91f0f8ee86d1e0d56ea4dfe1ce50417c3db2fa5c0b48153f09783886621b654",
     "scripts/knowledge_maps.py": "9bee65ccf5c14f93f2fe000c2f5d208a36e459cbbc8f4732aa998f70e7ccc79e",
-    "design/knowledge-map.md": "dc150081f506329e1aedb2c5e3ad000de5555673e0d8f086e5e03c8bcc6b15c2",
+    "design/knowledge-map.md": "6264604fcaf3ff81fc30f77e5032a898c55f69ad9af5fe6316445694b2b45412",
     "design/palette.md": "d1c7b530278df104e39095c8c702b1f546144085ba17bf324e35bccfe6f82ed5",
     "design/lettering.md": "bdd511ea0d8f5d330b4bb202d716e794acd98720f28401da099e01451ccaa987",
     "content/pages/005.md": "4c95f993e3ae366b61be0fe5031827004ed416770c87bdfb42e07b1384682cac",

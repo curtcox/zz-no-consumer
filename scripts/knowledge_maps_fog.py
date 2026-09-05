@@ -47,15 +47,15 @@ from knowledge_maps import (AMBER, DIRTY, INK, NS, PAPER, SHADOW, STEEL, FIXTURE
 
 ROOT = km.ROOT
 OUTPUT = ROOT / "assets/knowledge-maps/fog-v1"
-RENDERER_VERSION = "knowledge-map-fog-1.0.0"
+RENDERER_VERSION = "knowledge-map-fog-1.1.0"
 TREATMENTS = {
-    "w1": ("Ragged regions", "Regional fog with a noise-displaced, feathered edge; contested ground is striped fog inside the same soft edge."),
-    "w2": ("Line of sight", "Vision discs around the places evidence comes from; the region outlines are only visible where sight reaches."),
     "w3": ("Patchy contest", "Contested ground is visible in irregular patches rather than hatched; the fog itself carries the uncertainty."),
+    "w2": ("Line of sight", "Vision discs around the places evidence comes from; the terrain is only visible where sight reaches."),
+    "w1": ("Ragged regions", "Regional fog with a noise-displaced, feathered edge; contested ground is striped fog inside the same soft edge."),
 }
-MAP_X, MAP_Y, MAP_W, MAP_H = 28, 100, 904, 440
+MAP_X, MAP_Y, MAP_W, MAP_H = 28, 108, 904, 432
 SCALE = 2                                  # raster cells per map pixel
-GW, GH = MAP_W // SCALE, MAP_H // SCALE    # 452 x 220 fog cells
+GW, GH = MAP_W // SCALE, MAP_H // SCALE    # 452 x 216 fog cells
 VEIL = {"lit": 0.0, "hatched": 0.34, "refog": 0.68, "dark": 1.0}
 FOG_RGB = (16, 18, 20)
 PREVIOUS = {"039-after": "039-before"}
@@ -260,6 +260,40 @@ def veil_rows(terrain, levels):
     return rows
 
 
+
+# --- pictograms ---------------------------------------------------------------
+# Each glyph is drawn in a 40 x 40 box centred on the origin, stroke only, so it
+# reads as a map symbol at any size. They sit beneath the fog; the fog decides
+# how much of each survives.
+
+GLYPHS = {
+    "P1": ('<circle cx="-12" cy="8" r="5"/><circle cx="12" cy="8" r="5"/><circle cx="0" cy="-12" r="5"/>'
+           '<path d="M-8,5 L-3,-8 M8,5 L3,-8 M-7,8 L7,8"/>'),                                   # coordination: linked stations
+    "P2": ('<path d="M12,-4 A13,13 0 1 1 6,-11"/><path d="M4,-16 L8,-10 L1,-8 Z" fill="currentColor"/>'
+           '<path d="M-6,4 A6,6 0 1 1 -3,-1"/>'),                                                # recurrence: the loop returns, smaller
+    "P3": ('<rect x="-17" y="-13" width="18" height="24" rx="1"/><path d="M-13,-7 L-3,-7 M-13,-2 L-3,-2 M-13,3 L-7,3"/>'
+           '<path d="M4,-2 L10,-2 M4,3 L10,3"/><path d="M14,-9 L18,-1 L14,7 L10,-1 Z"/>'),        # record equals event: ledger = mark
+    "P4": ('<circle cx="10" cy="-9" r="4"/><path d="M10,-5 L10,6 M4,0 L16,0 M10,6 L5,14 M10,6 L15,14"/>'
+           '<path d="M-17,0 L-6,0 M-8,-4 L-4,0 L-8,4"/><path d="M-1,-8 L-1,8" stroke-width="2.6"/>'),  # reporting: the signal stops short of the person
+    "P5": ('<rect x="-17" y="-6" width="34" height="12"/><path d="M-11,-6 L-11,0 M-5,-6 L-5,-3 M1,-6 L1,0 M7,-6 L7,-3 M13,-6 L13,0"/>'
+           '<path d="M-17,12 L17,12 M-17,9 L-17,15 M17,9 L17,15"/>'),                            # measurement: the rule and what it spans
+    "P6": ('<path d="M-13,14 L-13,-6 A13,13 0 0 1 13,-6 L13,14 Z"/><path d="M-13,14 L13,14"/>'
+           '<path d="M-5,2 L5,2 M0,-3 L0,7"/>'),                                                 # unreachable: a sealed gate
+    "response": ('<path d="M-10,6 A10,10 0 0 1 10,6 L13,10 L-13,10 Z"/><path d="M-3,13 A3,3 0 0 0 3,13"/>'
+                 '<path d="M0,-4 L0,-9"/>'),                                                     # alert: the bell
+    "correction": ('<path d="M0,-12 L0,12 M-14,12 L14,12 M-14,-6 L14,-6"/><path d="M-14,-6 L-19,4 L-9,4 Z M14,-6 L9,4 L19,4 Z"/>'),  # scorer accounts: the balance
+    "configuration": ('<circle cx="0" cy="0" r="8"/><circle cx="0" cy="0" r="3"/>'
+                      '<path d="M0,-14 L0,-9 M0,9 L0,14 M-14,0 L-9,0 M9,0 L14,0 M-10,-10 L-6,-6 M6,6 L10,10 M10,-10 L6,-6 M-6,6 L-10,10"/>'),  # configuration: the gear
+    "weights": ('<path d="M-11,13 L-7,-4 L7,-4 L11,13 Z"/><path d="M-4,-4 L-4,-9 L4,-9 L4,-4"/><path d="M-3,4 L3,4"/>'),  # weights: the block on the scale
+}
+
+
+def glyph(kind, x, y, scale=1.0, stroke=INK, width=2.2):
+    return (f'<g data-glyph="{kind}" transform="translate({x:.1f} {y:.1f}) scale({scale:.2f})" fill="none" '
+            f'stroke="{stroke}" stroke-width="{width:.2f}" stroke-linecap="round" stroke-linejoin="round" color="{stroke}">'
+            f'{GLYPHS[kind]}</g>')
+
+
 # --- drawing -----------------------------------------------------------------
 
 def terrain_layer(prefix, treatment, levels):
@@ -283,38 +317,27 @@ def terrain_layer(prefix, treatment, levels):
         out += f'<path data-terrain="observation-{key}" d="{path(observation_polygon(i))}"/>'
     out += f'<path data-terrain="survey-border" d="M747,106 L747,456" stroke="{INK}" stroke-width="2.5" stroke-dasharray="9 6"/>'
     out += '</g>'
+    out += '<g data-layer="pictograms">'
+    for key, (x, y) in LABEL_AT.items():
+        out += f'<circle cx="{x}" cy="{y}" r="27" fill="{PAPER}" stroke="{DIRTY}" stroke-width="1.2"/>'
+        out += glyph(key, x, y, 1.1)
+    for i, key in enumerate(("response", "correction", "configuration", "weights")):
+        x = 40 + i * 224 + 105
+        out += f'<circle cx="{x}" cy="507" r="17" fill="{PAPER}" stroke="{DIRTY}" stroke-width="1"/>'
+        out += glyph(key, x, 507, 0.75)
+    out += f'<circle cx="850" cy="276" r="27" fill="{PAPER}" stroke="{DIRTY}" stroke-width="1.2"/>' + glyph("P6", 850, 276, 1.1)
+    out += '</g>'
     return out + '</g>'
 
 
 def label_layer(prefix, levels, presence):
-    words = {"P1": ["P1 / COORDINATION", "deliberate?"], "P2": ["P2 / RECURRENCE", "independent?"],
-             "P3": ["P3 / RECORD", "equals event?"], "P4": ["P4 / REPORTING", "nobody told?"],
-             "P5": ["P5 / MEASUREMENT", "independent?"]}
+    """Nothing lettered inside the map. P6's presence is a survey mark above the fog, never a fill."""
     out = '<g data-layer="labels">'
-    for key, at in LABEL_AT.items():
-        level = levels[key]
-        if level == "dark":
-            out += text(at[0], at[1] - 2, key, 13, STEEL, "middle", mono=True, weight="bold")
-            out += text(at[0], at[1] + 13, "UNEXPLORED", 10, STEEL, "middle", mono=True)
-        elif level == "refog":
-            out += text(at[0], at[1] - 2, words[key][0], 12, DIRTY, "middle", weight="bold")
-            out += text(at[0], at[1] + 13, "SEEN / SUPPORT LOST", 10, DIRTY, "middle", mono=True)
-        else:
-            out += label(at[0], at[1], words[key], dark=False)
-    for i, key in enumerate(("response", "correction", "configuration", "weights")):
-        level = levels[f"observation-{key}"]
-        x = 40 + i * 224 + 105
-        if level == "dark":
-            out += text(x, 512, "UNSURVEYED", 10, STEEL, "middle", mono=True)
-        elif level == "refog":
-            out += text(x, 512, OBSERVATION_NAMES[key], 10, DIRTY, "middle", mono=True)
-        else:
-            out += label(x, 508, [OBSERVATION_NAMES[key]], dark=False, size=11)
     if presence != "hidden":
-        lines = ["P6", "UNMAPPED"] if presence == "hint" else ["P6 / UNREACHABLE", "NO CAUSAL ACCESS"]
         out += f'<g data-region="P6" data-state="dark" data-presence="{presence}">'
-        out += text(850, 268, lines[0], 12, STEEL, "middle", mono=True, weight="bold")
-        out += text(850, 284, lines[1], 10, STEEL, "middle", mono=True)
+        out += f'<path d="M747,106 L747,456" fill="none" stroke="{STEEL}" stroke-width="1.4" stroke-dasharray="3 7"/>'
+        if presence == "acknowledged":
+            out += glyph("P6", 850, 276, 0.8, STEEL, 1.6)
         out += '</g>'
     return out + '</g>'
 
@@ -348,14 +371,24 @@ def render(data, sample, terrain):
     out += text(28, 53, fixture["label"], 15)
     out += text(932, 53, "DESIGN SAMPLE / NOT ADOPTED", 12, anchor="end", mono=True)
     out += line(28, 68, 932, 68, DIRTY)
-    out += text(28, 88, "OUR INFERENCE / SCHEMATIC TERRAIN / FOG IS COMPUTED, NOT MEASURED", 11, mono=True)
+    x = 28
+    for key, name in (("P1", "COORDINATION"), ("P2", "RECURRENCE"), ("P3", "RECORD = EVENT"), ("P4", "REPORTING"),
+                      ("P5", "MEASUREMENT"), ("P6", "UNREACHABLE")):
+        out += glyph(key, x + 8, 82, 0.34, PAPER, 3.2) + text(x + 20, 86, f"{key} {name}", 10, DIRTY, mono=True)
+        x += 20 + (len(name) + 3) * 6.1 + 14
+    x = 28
+    for key, name in (("response", "ALERT / BOARD / PIVOT"), ("correction", "SCORER ACCOUNTS"),
+                      ("configuration", "CONFIGURATION ACCOUNT"), ("weights", "WEIGHTS ACCOUNT")):
+        out += glyph(key, x + 8, 98, 0.34, PAPER, 3.2) + text(x + 20, 102, name, 10, DIRTY, mono=True)
+        x += 20 + len(name) * 6.1 + 14
+    out += text(932, 102, "SYMBOLS SIT UNDER THE FOG", 10, DIRTY, anchor="end", mono=True)
     out += '<g data-layer="map">' + terrain_layer(prefix, sample["family"], levels)
     out += (f'<image data-layer="fog" x="{MAP_X}" y="{MAP_Y}" width="{MAP_W}" height="{MAP_H}" '
             f'preserveAspectRatio="none" href="data:image/png;base64,{png}"/>')
     out += label_layer(prefix, levels, presence) + state_layer(levels) + '</g>'
     out += rect(28, 542, 904, 34, PAPER)
     out += text(40, 564, fixture["captions"][sample["viewpoint"]], 15, INK, weight="bold")
-    out += text(28, 594, fixture["source_label"], 12)
+    out += text(28, 594, fixture["source_label"] + "  ·  OUR INFERENCE / SCHEMATIC TERRAIN / FOG IS COMPUTED, NOT MEASURED", 12)
     swatches = [("dark", "UNEXPLORED / NO SUPPORT"), ("refog", "SEEN, SUPPORT LOST"),
                 ("hatched", "CONTESTED / SINGLE-SOURCE"), ("lit", "VISIBLE / EVIDENCE")]
     x = 28
@@ -393,7 +426,8 @@ def samples_for(data):
                 alt = ("Fog of war, " + data["alt_template"].format(
                     family=label_text, fixture=data["fixtures"][fixture]["label"], viewpoint=data["viewpoints"][viewpoint]["label"],
                     summary=summary, presence=presence)
-                    + " Fog has a soft irregular edge; unexplored ground is opaque, ground that lost support stays dimly visible.")
+                    + " Fog has a soft irregular edge; unexplored ground is opaque, ground that lost support stays dimly visible. "
+                    "Propositions and observations are pictograms beneath the fog, not text; a key names them outside the map.")
                 model = data["state_models"][data["fixtures"][fixture]["models"][viewpoint]]
                 samples.append({"id": sid, "family": treatment, "family_label": label_text, "fixture": fixture,
                                 "viewpoint": viewpoint, "viewpoint_label": data["viewpoints"][viewpoint]["label"],
@@ -484,6 +518,10 @@ def check_outputs(data, folder=OUTPUT):
         km.require(len(image) == 1 and image[0].attrib.get("data-layer") == "fog", f"Exactly one fog raster expected: {sample['id']}")
         terrain = [e.attrib["d"] for e in root.iter() if "data-terrain" in e.attrib]
         km.require(len(terrain) == len(REGIONS) + 1 + 4 + 1, f"Terrain layer changed: {sample['id']}")
+        map_layer = next(e for e in root.iter() if e.attrib.get("data-layer") == "map")
+        km.require(not any(e.tag == f'{{{NS}}}text' for e in map_layer.iter()), f"No text may appear inside the map: {sample['id']}")
+        glyphs = [e.attrib["data-glyph"] for e in map_layer.iter() if "data-glyph" in e.attrib]
+        km.require(set(glyphs) >= set(GLYPHS), f"Every pictogram must be drawn beneath the fog: {sample['id']}")
     for treatment in TREATMENTS:
         layers = set()
         for sample in manifest["samples"]:
