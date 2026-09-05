@@ -44,6 +44,12 @@ jobs:
       - name: Test offline knowledge-map generation boundaries
         run: python -m unittest discover -s scripts -p test_knowledge_map_local.py
 
+      - name: Check structure-preserving knowledge-map finish images
+        run: python scripts/knowledge_map_finish.py check
+
+      - name: Test offline knowledge-map finish boundaries
+        run: python -m unittest discover -s scripts -p test_knowledge_map_finish.py
+
       - name: Build site
         run: python scripts/build-site.py
 

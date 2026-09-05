@@ -91,7 +91,7 @@ The story and its maps are partly about **theory of mind**: what someone knows, 
 
 ## Visual exploration and publication plan before adoption
 
-**Status: planned, not implemented or published.** The deliverable is a set of actual visual alternatives that can be compared in the repository and on GitHub Pages, not just written descriptions. Publishing the samples is not adoption of a map grammar. Keep all samples outside the canonical story pages and panel-art selections until review.
+**Status: samples implemented in the repository; not yet deployed to GitHub Pages.** Steps 1–5 below exist: the 40 controlled SVG samples and contact sheets in [assets/knowledge-maps/v1/](../assets/knowledge-maps/v1/), four unlettered local-model concept studies in [assets/knowledge-maps/local-v1/](../assets/knowledge-maps/local-v1/), 40 structure-preserving local finish studies in [assets/knowledge-maps/local-v2/](../assets/knowledge-maps/local-v2/), the generated gallery under `docs/knowledge-maps/`, and the automated checks. Step 6 (push, pull request, merge, deployment) and step 7 (review) have not happened. The deliverable is a set of actual visual alternatives that can be compared in the repository and on GitHub Pages, not just written descriptions. Publishing the samples is not adoption of a map grammar. Keep all samples outside the canonical story pages and panel-art selections until review.
 
 ### 1. Fix the comparison material
 
@@ -119,6 +119,11 @@ Produce all four fixtures for both viewpoints in each family: **32 primary SVG s
 
 Use a dependency-free, deterministic SVG renderer for the first pass: these are drawn map studies with real geometry, fog, hatching, silhouettes, and readable labels, not text placeholders. This keeps evidence states and lettering exact and allows inexpensive revision. Follow `design/palette.md` and the existing lettering conventions. An optional later art-directed image-generation pass can test texture and finish after the structural comparison; it is not a prerequisite, and hosted generation requires a separately approved provider and budget.
 
+**Local image-generation passes (done, offline only).** Two passes have been run with the commercially licensed FLUX.2 [klein] 4B weights on this machine, with no hosted provider and no spend; both are recorded with prompts, seeds, hashes, and timings beside the images.
+
+- **Concept studies** ([assets/knowledge-maps/local-v1/](../assets/knowledge-maps/local-v1/)): one unlettered text-to-image study per family, testing whether each grammar's central idea (the border, the ring of observers, the misregistered sheets, the attributed inset) reads at all in a hand-inked register. They carry no fixture states and are not comparable across viewpoints.
+- **Structure-preserving finish studies** ([assets/knowledge-maps/local-v2/](../assets/knowledge-maps/local-v2/)): all 40 samples, generated image-to-image from the matching v1 SVG with its lettering and chrome stripped and its hatch pattern emboldened. The evidence states therefore come from the drawing, not the model; before/after pairs stay registered and viewpoint pairs differ only where the fixture differs. Calibration found that at the chosen strength the region outlines, dark/hatched distinctions, and P6 voids survive, while the model adds only ink grain, paper tone, and edge wear. Fills can still drift locally, so the SVGs remain the semantic reference and the finish images are texture evidence only. They are unlettered, not canonical, and not adopted.
+
 ### 3. Make the samples reproducible and repository-viewable
 
 Proposed implementation locations, to be created during implementation:
@@ -130,9 +135,17 @@ Proposed implementation locations, to be created during implementation:
 
 Produce contact sheets with families as columns and identical fixtures/viewpoints as rows. Split sheets where necessary to keep labels readable, and link the sheets and individual SVGs from this document using repository-relative links once they exist. Reviewers must be able to see the alternatives from the repository without running the site. Preserve v1 when later revisions are published so comparisons and feedback remain reproducible; avoid duplicating raster exports unless they are needed.
 
+The v1 contact sheets, families A–D as columns:
+
+- [010 hint / no hint, reader](../assets/knowledge-maps/v1/contact-010-reader.svg) and [responders](../assets/knowledge-maps/v1/contact-010-responders.svg)
+- [016, reader](../assets/knowledge-maps/v1/contact-016-reader.svg) and [responders](../assets/knowledge-maps/v1/contact-016-responders.svg)
+- [039 before / after, reader](../assets/knowledge-maps/v1/contact-039-reader.svg) and [responders](../assets/knowledge-maps/v1/contact-039-responders.svg)
+
+Individual samples follow the `{family}-{fixture}-{viewpoint}.svg` naming in the same directory, for example [a-039-before-reader.svg](../assets/knowledge-maps/v1/a-039-before-reader.svg) beside [a-039-after-reader.svg](../assets/knowledge-maps/v1/a-039-after-reader.svg); the matching finish studies use the same stem in [local-v2/](../assets/knowledge-maps/local-v2/) with `.webp` for the image and `-init.svg` for the unlettered drawing it was made from.
+
 ### 4. Build a dedicated web comparison gallery
 
-Publish a generated landing page at `docs/knowledge-maps/index.html` and the first comparison set at `docs/knowledge-maps/v1/index.html`. These are proposed output paths, not existing routes. Add a discoverable **Knowledge map alternatives** link to the generated public and internal home pages, and a repository README link to the comparison. Label the gallery **Design samples — not adopted** and warn that it includes story revelations through page 039. Keep it out of the canonical viewer's read-through sequence.
+Publish a generated landing page at `docs/knowledge-maps/index.html` and the first comparison set at `docs/knowledge-maps/v1/index.html`. Both routes now exist in the generated `docs/` tree; they are deployed only when `main` is published. Add a discoverable **Knowledge map alternatives** link to the generated public and internal home pages, and a repository README link to the comparison. Label the gallery **Design samples — not adopted** and warn that it includes story revelations through page 039. Keep it out of the canonical viewer's read-through sequence.
 
 The gallery must support visual comparison without requiring a choice first:
 

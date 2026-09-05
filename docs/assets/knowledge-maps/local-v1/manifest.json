@@ -1,0 +1,77 @@
+{
+  "version": 1,
+  "model": "flux2-klein-4b",
+  "weights": "RunPod/FLUX.2-klein-4B-mflux-4bit",
+  "licence": "Apache-2.0",
+  "route": "local-offline",
+  "machine": "Apple M1 Pro",
+  "command": [
+    "mflux-generate-flux2",
+    "--model",
+    "RunPod/FLUX.2-klein-4B-mflux-4bit",
+    "--prompt-file",
+    "{prompt_file}",
+    "--width",
+    "{width}",
+    "--height",
+    "{height}",
+    "--steps",
+    "4",
+    "--seed",
+    "{seed}",
+    "--low-ram",
+    "--output",
+    "{output}"
+  ],
+  "note": "Unlettered concept studies, not canonical evidence-state diagrams. No hosted generation.",
+  "results": [
+    {
+      "id": "a",
+      "label": "Border and beyond",
+      "path": "a.webp",
+      "prompt": "a.txt",
+      "seed": 42016,
+      "width": 960,
+      "height": 640,
+      "seconds": 45.75,
+      "sha256": "4d949fb14148ed5332b9d3c58501bd93ad89f72a6b87ca34f77bf53d2210cd7d",
+      "prompt_sha256": "5b3d40acc1a32039d8dcf68c51d378bae39de444d7c440316f9422631bbc871b"
+    },
+    {
+      "id": "b",
+      "label": "Inward-facing silhouettes",
+      "path": "b.webp",
+      "prompt": "b.txt",
+      "seed": 42016,
+      "width": 960,
+      "height": 640,
+      "seconds": 43.7,
+      "sha256": "61570b9354d35056488fc6ee1ae1314c5f24f2350d370a46eef910b57aca4da4",
+      "prompt_sha256": "148e85f47701c592cc3a3753ecfa1b5d144b38b1be0d769678123807a3202cc8"
+    },
+    {
+      "id": "c",
+      "label": "Overlapping partial maps",
+      "path": "c.webp",
+      "prompt": "c.txt",
+      "seed": 42016,
+      "width": 960,
+      "height": 640,
+      "seconds": 43.81,
+      "sha256": "7bdf44f3ac4ccc41f0c8b6853bb20a4027b774a6e0b10d55695cdb9be2489568",
+      "prompt_sha256": "9368c6c5551635ead2870fec33379ce65d06a2e21a86b833f0d43e55edc7c61d"
+    },
+    {
+      "id": "d",
+      "label": "Maps within maps",
+      "path": "d.webp",
+      "prompt": "d.txt",
+      "seed": 42016,
+      "width": 960,
+      "height": 640,
+      "seconds": 43.77,
+      "sha256": "183d5ef2500c05dada2ac22a49c21f9b5bb607b28404c9937e7cd517e09ff1f8",
+      "prompt_sha256": "f8e6c75e1cc5cc46801724d7aa1664f0258a6eec6e34242701cd1339052cef0f"
+    }
+  ]
+}

@@ -197,6 +197,52 @@ def validate(site: Path) -> list[str]:
                         require(signature[:4] == b"RIFF" and signature[8:12] == b"WEBP", f"Local study is not a WebP raster: {image}")
     else:
         require(not any("data-local-study" in values for parser in (index, gallery) for values, _ in parser.figures), "Gallery claims local model outputs without a manifest")
+
+    finish_source = ROOT / "assets" / "knowledge-maps" / "local-v2" / "manifest.json"
+    finish_path = site / "assets" / "knowledge-maps" / "local-v2" / "manifest.json"
+    if finish_source.exists() or finish_path.exists():
+        finish_path = asset("local-v2", "manifest.json", ".json")
+        if finish_path.is_file():
+            finish = json.loads(finish_path.read_text(encoding="utf-8"))
+            require(finish["version"] == 2 and bool(finish["model"].strip()) and bool(finish["licence"].strip()), "Finish studies need version 2, model and licence labels")
+            require(0 < float(finish["strength"]) < 1 and int(finish["steps"]) > 0 and isinstance(finish["seed"], int), "Finish studies need image-to-image settings")
+            results = {row["id"]: row for row in finish["results"]}
+            require(len(finish["results"]) == 40 and set(results) == {item["id"] for item in samples}, "Expected one finish study per semantic sample")
+            by_id = {item["id"]: item for item in samples}
+            for document, parser, expected_count in ((overview, index, 4), (version, gallery, 40)):
+                figures = [values for values, _ in parser.figures if "data-local-finish" in values]
+                shown = {values["data-local-finish"] for values in figures}
+                require(len(figures) == expected_count and len(shown) == expected_count and shown <= set(results), f"{document}: expected {expected_count} finish studies")
+                if expected_count == 4:
+                    require({values.get("data-family") for values in figures} == set("abcd"), f"{document}: finish overview needs one study per family")
+                text = " ".join(parser.text).lower()
+                require("local model finish studies" in text and "structure-preserving" in text and "not exact evidence states" in text and "not adopted" in text, f"{document}: missing finish-study disclosure")
+                references = {local_target(site, document, image.get("src", "")) for image in parser.images}
+                links = {local_target(site, document, reference) for reference in parser.references}
+                for values in figures:
+                    row = results[values["data-local-finish"]]
+                    sample = by_id[row["id"]]
+                    require((values.get("data-family"), values.get("data-fixture"), values.get("data-viewpoint")) == (sample["family"], sample["fixture"], sample["viewpoint"]) == (row["family"], row["fixture"], row["viewpoint"]), f"{document}: finish study metadata drifted: {row['id']}")
+                    image = asset("local-v2", row["path"], ".webp")
+                    require((image, "") in references, f"{document}: finish image not displayed: {image}")
+                    require((asset("local-v2", row["init"], ".svg"), "") in links and (asset("local-v2", row["prompt"], ".txt"), "") in links, f"{document}: finish study must link its init drawing and prompt: {row['id']}")
+                    require(row["source_sha256"] == sample["sha256"], f"Finish study was made from a different v1 drawing: {row['id']}")
+                    if image.is_file():
+                        signature = image.read_bytes()[:12]
+                        require(signature[:4] == b"RIFF" and signature[8:12] == b"WEBP", f"Finish study is not a WebP raster: {image}")
+            for document, parser in ((overview, index), (version, gallery)):
+                for image in parser.images:
+                    target = local_target(site, document, image.get("src", ""))
+                    if target and target[0].parent.name == "local-v2":
+                        require("unlettered" in image.get("alt", "").lower(), f"{document}: finish image alt must say it is unlettered")
+            require("local-model-finish-studies" in gallery.ids and "local-model-finish-studies" in index.ids, "Finish studies need a stable anchor on both gallery pages")
+            for fixture in FIXTURES:
+                for viewpoint in VIEWPOINTS:
+                    anchor = f"finish-{fixture}-{viewpoint}"
+                    row = [values for values, ancestors in gallery.figures if anchor in ancestors]
+                    require(anchor in gallery.ids and len(row) == 4 and {values.get("data-family") for values in row} == set("abcd") and all(values.get("data-fixture") == fixture and values.get("data-viewpoint") == viewpoint for values in row), f"Finish row must hold fixture/viewpoint fixed across all families: {anchor}")
+    else:
+        require(not any("data-local-finish" in values for parser in (index, gallery) for values, _ in parser.figures), "Gallery claims finish studies without a manifest")
     return failures
 
 

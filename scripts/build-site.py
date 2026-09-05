@@ -925,6 +925,67 @@ def build_knowledge_maps(document) -> int:
             f'<div class="km-grid">{"".join(cards)}</div></section>'
         )
 
+    def finish_studies(directory: Path, full: bool) -> str:
+        source = KNOWLEDGE_MAP_DIR / "local-v2" / "manifest.json"
+        if not source.exists():
+            return ""
+        local = json.loads(source.read_text(encoding="utf-8"))
+        results = {row["id"]: row for row in local["results"]}
+        if local["version"] != 2 or set(results) != set(keyed_ids):
+            raise ValueError("Local finish studies require exactly one result per v1 sample")
+
+        def card(sample: dict) -> str:
+            row = results[sample["id"]]
+            if (row["family"], row["fixture"], row["viewpoint"]) != (sample["family"], sample["fixture"], sample["viewpoint"]):
+                raise ValueError(f"Finish study metadata drifted from v1: {sample['id']}")
+            href = html.escape(relative_url(directory, Path(knowledge_map_asset("local-v2", row["path"], ".webp"))))
+            init = html.escape(relative_url(directory, Path(knowledge_map_asset("local-v2", row["init"], ".svg"))))
+            prompt = html.escape(relative_url(directory, Path(knowledge_map_asset("local-v2", row["prompt"], ".txt"))))
+            alt = "Structure-preserving local model finish study, unlettered, over the geometry of: " + sample["alt"]
+            return (
+                f'<figure class="km-card" data-local-finish="{html.escape(sample["id"])}" data-family="{sample["family"]}" '
+                f'data-fixture="{sample["fixture"]}" data-viewpoint="{sample["viewpoint"]}">'
+                f'<a href="{href}"><img src="{href}" alt="{html.escape(alt)}" width="{int(local["width"])}" height="{int(local["height"])}" loading="lazy"></a>'
+                f'<figcaption><strong>{sample["family"].upper()} · {html.escape(sample["family_label"])}</strong>'
+                f'<p>{html.escape(KNOWLEDGE_MAP_FIXTURES[sample["fixture"]])} · {html.escape(sample["viewpoint_label"])} · {float(row["seconds"]):.1f} seconds</p>'
+                f'<p><a href="{init}">Unlettered init drawing</a> · <a href="{prompt}">Exact prompt</a></p></figcaption></figure>'
+            )
+
+        settings = (
+            f'<p>Model: <strong>{html.escape(local["model"])}</strong> · Licence: {html.escape(local["licence"])} · '
+            f'Image-to-image strength {float(local["strength"]):g} · {int(local["steps"])} steps · seed {int(local["seed"])} · '
+            f'{int(local["width"])} × {int(local["height"])}</p>'
+        )
+        disclosure = (
+            '<p>Structure-preserving local model finish studies: each image is generated locally by a diffusion '
+            'model from the matching controlled SVG with its lettering removed, so the region outlines and evidence '
+            'fills come from the drawing, not from the model. They are exploratory studies of ink, hatching and paper '
+            'finish, not exact evidence states: fills can drift, so read the states from the SVGs and the model-drawn '
+            'marks as texture only. Unlettered, not canonical, not adopted.</p>'
+        )
+        if not full:
+            cards = "".join(card(keyed[(family, "016", "reader")]) for family in "abcd")
+            return (
+                '<section class="km-section km-finish" id="local-model-finish-studies"><h2>Local model finish studies</h2>'
+                + disclosure + settings
+                + f'<div class="km-grid">{cards}</div>'
+                '<p><a href="v1/#local-model-finish-studies">All 40 finish studies, by fixture and viewpoint</a></p></section>'
+            )
+        rows = []
+        for fixture, label in KNOWLEDGE_MAP_FIXTURES.items():
+            for viewpoint in KNOWLEDGE_MAP_VIEWPOINTS:
+                row_label = f'{label} · {keyed[("a", fixture, viewpoint)]["viewpoint_label"]}'
+                cards = "".join(card(keyed[(family, fixture, viewpoint)]) for family in "abcd")
+                rows.append(f'<section class="km-section" id="finish-{fixture}-{viewpoint}"><h3>{html.escape(row_label)}</h3><div class="km-grid">{cards}</div></section>')
+        return (
+            '<section class="km-section km-finish" id="local-model-finish-studies"><h2>Local model finish studies</h2>'
+            + disclosure + settings
+            + '<p>Rows hold fixture and viewpoint fixed, matching the controlled comparison above. Because the init '
+            'drawing carries the evidence states, the 039 before/after rows stay registered; compare them with the SVG rows.</p>'
+            + "".join(rows) + '</section>'
+        )
+
+    keyed_ids = {sample["id"] for sample in samples}
     directory = Path("knowledge-maps", "v1")
 
     def thumbnail(sample: dict, primary: bool = False) -> str:
@@ -1004,12 +1065,15 @@ def build_knowledge_maps(document) -> int:
         '<p>Viewpoints are provisional editorial models, not access to anyone’s interior. '
         'The 27 June responders stay within the same response boundary while the reader learns more.</p></section>'
     )
+    finish_full = finish_studies(directory, full=True)
+    finish_jump = '<a href="#local-model-finish-studies">Finish studies</a>' if finish_full else ""
     body = (
         '<div class="knowledge-map-gallery"><p><a href="../">Knowledge-map gallery</a> / Version 1</p>'
         + introduction + local_studies(directory)
         + '<nav class="km-jumps" aria-label="Knowledge-map comparisons"><a href="#controlled-comparison">All four alternatives</a>'
         '<a href="#039-before-after">039 before / after</a><a href="#010-hint-nohint">010 hint / no hint</a>'
-        '<a href="#reader-responders">Reader / responders</a><a href="#placements">Placement mocks</a><a href="#contact-sheets">Contact sheets</a></nav>'
+        '<a href="#reader-responders">Reader / responders</a><a href="#placements">Placement mocks</a><a href="#contact-sheets">Contact sheets</a>'
+        + finish_jump + '</nav>'
         f'<section class="km-section" id="controlled-comparison"><h2>Controlled SVG comparison</h2><p>40 samples · renderer {html.escape(manifest["renderer_version"])}. '
         'Every row holds fixture and viewpoint fixed. Open any image for full-size inspection; expand its states for a text equivalent.</p>'
         f'<ul class="km-row-links">{"".join(row_links)}</ul>{"".join(rows)}</section>'
@@ -1018,11 +1082,12 @@ def build_knowledge_maps(document) -> int:
         'All twelve mocks reuse fixture 016 from the reader viewpoint. Margin and gutter maps are intentionally small: open the image to inspect labels. '
         'The full chapter opening gives the map priority. These experiments do not change the canonical viewer.</p>'
         + "".join(placements) + '</section><section class="km-section" id="contact-sheets"><h2>Contact sheets</h2>'
-        + "".join(sheets) + '</section></div>'
+        + "".join(sheets) + '</section>' + finish_full + '</div>'
     )
     write_page(directory / "index.html", "Knowledge maps · v1", body, gallery_document)
     index = (
         '<div class="knowledge-map-gallery">' + introduction + local_studies(Path("knowledge-maps"))
+        + finish_studies(Path("knowledge-maps"), full=False)
         + '<section class="km-section"><h2>Controlled semantic studies</h2><a class="card" href="v1/">'
         '<h3>Version 1 · four families, forty SVGs</h3><p>Compare 010 with and without the hint, 016, '
         'and 039 before and after the reveal, from reader and responder viewpoints.</p></a>'
