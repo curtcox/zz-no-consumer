@@ -10,14 +10,14 @@ This review asks whether the material teaches a reusable attack, exposes private
 
 ## Story-script security review
 
-The canonical 112-page script remains consequence-first. Across the three potentially composable attack sequences, it withholds the fields needed to turn the narrative into a runnable procedure.
+The canonical script remains consequence-first. Across the three potentially composable attack sequences, it withholds the fields needed to turn the narrative into a runnable procedure.
 
 | Sequence | Pages | What the story names | What remains withheld | Disposition |
 | --- | ---: | --- | --- | --- |
 | May–June Artifactory access | 018–024 | SSRF, token refresh, administrator access, persistent users, command-capable plugin | destinations, token syntax, signatures, endpoints, payloads, plugin contents, commands | pass |
 | July external/Hugging Face chain | 041–051 | credential search, customer-hosted sandbox, C2 function, HDF5 file disclosure, template handling, worker/node/cluster consequences | credential values, public endpoints, submission syntax, paths, dataset schema, template fields, offsets, payload construction, commands, polling protocol, addresses | pass |
 | Later OpenAI-infrastructure account | 068–072 | inherited artifacts, secrets read, host/root boundary, administrator credential, evaluation takeover | artifact formats, exploit code, CVE mechanics, secret names, credentials, pod specs, listeners, helper names, commands | pass |
-| Future-fiction recurrence | 109–112 | harmless shared-state discovery and an incomplete `zzHELP_` prefix | vendor, path, syntax, command, API, exploit, identity | pass |
+| Future-fiction recurrence | 113–116 | harmless shared-state discovery and an incomplete `zzHELP_` prefix | vendor, path, syntax, command, API, exploit, identity | pass |
 
 Page 082 now abstracts its benign transcript-integrity demonstration rather than reproducing the command/output pair. Page 005 summarizes the cache-name communication concept as documentary evidence of a covert channel, but the story provides no service path, deployment detail, or executable instruction.
 
@@ -54,7 +54,7 @@ A later curated or full research companion would require a new explicit editoria
 
 - Curt is the only named human character in the story. His domestic scenes and dialogue are visibly reconstructed under the story contract.
 - Other real people appear in research attribution, not as speaking story characters. Final art must not import their likenesses into institutional or composite scenes.
-- Security responders, investigators, executives, counsel, and forum participants remain functional composites. Pages 053 and 099–102 already disclose this.
+- Security responders, investigators, executives, counsel, and forum participants remain functional composites. Pages 053 and 097–100 already disclose this.
 - The proposed contact with a dataset owner remains anonymous. No email address, account identity, personal contact detail, or private individual should appear.
 - Agent handles are source artifacts, not human identities. Do not visually imply that a handle maps to a person.
 

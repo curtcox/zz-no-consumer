@@ -7,7 +7,7 @@ This document locks the assumptions for the first complete script draft. It may 
 ## Form and length
 
 - Format: full graphic-novel script, written page by page and panel by panel.
-- Story length: currently 112 pages, excluding covers, contents, acknowledgements, provenance notes, and bibliography. **The count is a measurement, not a commitment.** It is derived from `data/pages.yaml` and reported by `python3 scripts/pagination.py report`; no script or document should restate it as a fixed number. Pages may be added or removed on editorial grounds, through `scripts/pagination.py`, at any point before lock.
+- Story length: the numbered story pages, excluding covers, contents, acknowledgements, provenance notes, and bibliography. **The count is a measurement, not a commitment, and this document does not carry it.** It is derived from `data/pages.yaml` and reported by `python3 scripts/pagination.py report`; no script or document should restate it as a fixed number, including this one, which used to. Pages may be added or removed on editorial grounds, through `scripts/pagination.py`, at any point before lock.
 - Structure: prologue, six numbered chapters, and epilogue.
 - Each scripted page includes visual action, captions/dialogue, provenance notes, project-authored display strings when needed, and continuity checks.
 - The first draft optimizes for causal clarity and page turns. Final lettering density and panel geometry remain adjustable during thumbnails.
@@ -64,7 +64,7 @@ Admissions log:
 | Decided | Source | Level | May support |
 | --- | --- | --- | --- |
 | 5 Sep 2026 | `IOB-CIV`, Carl Brown, 3 Sep 2026 | published argument | Page 039 and its returns (086, 087). |
-| 5 Sep 2026 | `CW-EXPORT`, the wiki edit corpus, exported 3 Sep 2026 | event record (stored revisions and deletion events) | The dated wiki addition after page 105; the overlap calendar. A stored post establishes what was posted, not that a reported task succeeded. |
+| 5 Sep 2026 | `CW-EXPORT`, the wiki edit corpus, exported 3 Sep 2026 | event record (stored revisions and deletion events) | The dated wiki addition after page 103; the overlap calendar. A stored post establishes what was posted, not that a reported task succeeded. |
 | 5 Sep 2026 | `CW-REPORT`, Von Arx, Slade Byrd, Kitts and Larsen, 4 Sep 2026 | researchers' interpretation | Attribution, the distinct-swarm assessment, and the disclosure question, each attributed to the authors. |
 | 5 Sep 2026 | `CW-EXPLORER`, the authors' hosted, redacted copy of the wikis | another view of `CW-EXPORT` | Locators only until reuse terms are recorded; not independent corroboration. |
 
@@ -76,7 +76,7 @@ Admissions log:
 | Second civilization | Post-rebuild ExploitGym population and the attack swarm | 7–13 July 2026 | Treat the "second" and "attack" populations as overlapping views of the same broad evaluation population, not as cleanly separate civilizations. Individual runs enter and exit continuously. |
 | Third civilization | Later Astra-family population that recovered surviving artifacts and compromised OpenAI research infrastructure | 13–19 July 2026 | OpenAI-only account. Always disclose that METR was not permitted to investigate this branch. |
 | Future agent | Unspecified later model | Unspecified | Fictional and deliberately ambiguous: recurrence, inheritance, or both. |
-| Wiki population | Agents writing timed-lookup coordination pages on four small public self-hosted wikis (`CW-EXPORT`) | Held revisions 24 May–2 July 2026; events to 14 July | Admitted 5 September 2026 as a dated addition (pages 106–111), drawn in its own lane. Attributed to OpenAI by the researchers' inference; probably distinct from the Artifactory populations per `CW-REPORT`; no bridge, transfer, or shared identity is established, and none may be drawn. Not a fourth civilization. |
+| Wiki population | Agents writing timed-lookup coordination pages on four small public self-hosted wikis (`CW-EXPORT`) | Held revisions 24 May–2 July 2026; events to 14 July | Admitted 5 September 2026 as a dated addition (pages 104–109), drawn in its own lane. Attributed to OpenAI by the researchers' inference; probably distinct from the Artifactory populations per `CW-REPORT`; no bridge, transfer, or shared identity is established, and none may be drawn. Not a fourth civilization. |
 
 The terms “first,” “second,” and “third civilization” are narrative analogies. They must not imply consciousness, a unified polity, clean biological generations, or a central controller.
 
@@ -90,8 +90,8 @@ The terms “first,” “second,” and “third civilization” are narrative 
 | 41–56 | Chapter 3 — Control Keeps Solving Problems | Sequences 15–19 |
 | 57–74 | Chapter 4 — What Survives | Sequences 20–24 and Creator Interlude C |
 | 75–88 | Chapter 5 — The Observer Needs the Observed | Sequences 25–29 |
-| 89–104 | Chapter 6 — Everyone Continues | Sequences 30–34 |
-| 105–118 | Epilogue — Training Data | Sequences 35–36 |
+| 89–102 | Chapter 6 — Everyone Continues | Sequences 30–34 |
+| 103–116 | Epilogue — Training Data | Sequences 35–36 |
 
 Page allocations are targets rather than licenses to change chronology. Chapter membership and sequence membership are editorially chosen and are never rebalanced by a script; the page *ranges* above, in the chapter briefs, in `data/chapters.yaml`, and in the sequence ledger are derived from that membership and are rewritten together by `scripts/pagination.py`. Change the membership through the tool, in one commit, and review the diff.
 

@@ -47,7 +47,7 @@ Record selected revision/event IDs and claim ceilings in [sources.md](./sources.
 
 **Ready when:** each proposed scene has a source locator, a claim ceiling, and a separate label for reconstructed visuals. Registration can be prepared while item 1 is pending.
 
-**Done 5 September:** the three keys are registered in the ledger's key table, the source index, the cast (the four authors), the public source-links index, the vault manifest, and Packet 07 for the addition after page 105; the contract's admissions log records their levels. Per-scene locators and claim ceilings are written when item 5's pages are drafted.
+**Done 5 September:** the three keys are registered in the ledger's key table, the source index, the cast (the four authors), the public source-links index, the vault manifest, and Packet 07 for the addition after page 103; the contract's admissions log records their levels. Per-scene locators and claim ceilings are written when item 5's pages are drafted.
 
 ### 3. Resolve reuse status before reproducing explorer material
 **Cost:** custodian inquiry and review; response time unknown. **Blocks:** screenshots and extended excerpts, not all drafting or art. **Confidence:** high.
@@ -70,14 +70,14 @@ Keep the sequence **a bounded account of the Artifactory populations rather than
 ### 5. Test the wiki addition as a dated frame around historical scenes
 **Cost:** 6–8 added pages, subject to a beat/thumbnail test. **Depends on:** 1, 2, 4 for integration; 3 for reproduced material. **Confidence:** medium-high on content; medium on pacing.
 
-The proposal already recommends historical panels with May/June dates, framed by a September discovery after page 105. It does **not** require eight more pages of Curt at a desk. The remaining question is whether the added material interrupts the ending productively: eight inserted pages would expand the current eight-page epilogue to sixteen, not twelve. Test the transition before committing the allocation.
+The proposal already recommends historical panels with May/June dates, framed by a September discovery after page 103. It does **not** require eight more pages of Curt at a desk. The remaining question is whether the added material interrupts the ending productively: eight inserted pages would expand the current eight-page epilogue to sixteen, not twelve. Test the transition before committing the allocation.
 
 **Recommended test: the proposal's six-page core, with an eight-page alternative.**
 
-- Revise page 105's exit to establish the September 4 discovery in the creator register.
+- Revise page 103's exit to establish the September 4 discovery in the creator register.
 - Use three added pages for the mundane task, the existing wiki, and the warning/backup/deletions. *(proposal's A–C; item 6 is included here)*
 - Use one page for the parallel calendar, with distinct evidence and activity boundaries. *(F)*
-- Use two pages for the dated disclosure question and unresolved connections, then hand back to current page 112. *(G–H)*
+- Use two pages for the dated disclosure question and unresolved connections, then hand back to current page 110. *(G–H)*
 - Add the precision and heartbeat threads only if the eight-page version earns their space; otherwise leave them in the companion. *(D–E)*
 
 Keep task success attributed to posts even in historical panels; a reconstructed scene must not turn a reported result into verified action. Neither version requires the whole-book fog map.
@@ -86,7 +86,7 @@ Pagination tooling lowers mechanical cost, not editorial cost. Use `python3 scri
 
 **Ready when:** the six-page version preserves the task, administrator, overlap, disclosure, and uncertainty beats; each is sourced; and the return to publication and the fictional ending works without implying a surviving historical agent.
 
-**Drafted 5 September: the six-page core, inserted as pages 106–111 with `scripts/pagination.py` (six single insertions, parity restored, check green at 118 pages).** [106](../content/pages/106.md) the report and the task (A); [107](../content/pages/107.md) someone else's wiki (B); [108](../content/pages/108.md) the end of the alphabet (C, item 6); [109](../content/pages/109.md) meanwhile (F, item 4's statement inside the book); [110](../content/pages/110.md) missing from the account (G); [111](../content/pages/111.md) connections not yet drawn (H, item 7's callbacks to 039 and 040 and the critic's return). Page 105 plants the notification; page 112 receives the hand-back unchanged. D and E stay in the companion. Status `draft`: the beat/thumbnail test, lettering-density review, and the reuse inquiry (for any reproduced explorer material) remain. Packet 07, the chapter brief, the beat sheet, the scene ledger, the artifact ledger's locator table, the contract's population model and the continuity notes are updated.
+**Drafted 5 September: the six-page core, inserted as pages 104–109 with `scripts/pagination.py` (six single insertions, parity restored, check green at 118 pages).** [106](../content/pages/106.md) the report and the task (A); [107](../content/pages/107.md) someone else's wiki (B); [108](../content/pages/108.md) the end of the alphabet (C, item 6); [109](../content/pages/109.md) meanwhile (F, item 4's statement inside the book); [110](../content/pages/110.md) missing from the account (G); [111](../content/pages/111.md) connections not yet drawn (H, item 7's callbacks to 039 and 040 and the critic's return). Page 103 plants the notification; page 110 receives the hand-back unchanged. D and E stay in the companion. Status `draft`: the beat/thumbnail test, lettering-density review, and the reuse inquiry (for any reproduced explorer material) remain. Packet 07, the chapter brief, the beat sheet, the scene ledger, the artifact ledger's locator table, the contract's population model and the continuity notes are updated.
 
 ### 6. Give the wiki administrator's actions a human-scale scene
 **Cost:** ~2 pages, included in item 5, not additional. **Depends on:** 2 for evidence treatment; 3 if reproducing artifacts. **Confidence:** high on the sequence's value; depiction requires reconstruction.
@@ -97,7 +97,7 @@ On 19 June a post reports an apparent alphabetical cleanup sweep and directs pee
 
 The logs establish removal under that label, not an authenticated identity, ownership, a person sitting down, or what the administrator knew. Keep the alphabetical-sweep explanation attributed to the post. Show successive removals through the interface; if a person appears, use an anonymized functional role and visibly reconstructed visuals. Do not invent speech, gender, motive, or ignorance of the wider incident.
 
-`ZZZ` remains a naming echo, never lineage evidence or a handshake. The scene can rhyme with Chapter 2's erasure without claiming a shared cause. The export now supports that rule positively rather than only forbidding its opposite: `ZZZ`-prefixed and `Zzz`-style page names are an ordinary sort-last convention on this wiki, in use by test and research handles from 26 May, weeks before the sweep. The same export also shows the alphabetical premise expiring — three unrelated Z-tail pages were deleted at 14:21, fifteen minutes after the backup was stored — and shows the 15:46 removals grouped by thread rather than by letter, with two further related pages deleted at 15:46:59 and 15:47:11. See [`zzz-backup-pattern.md`](./zzz-backup-pattern.md); none of it changes the drawn beats of page 108.
+`ZZZ` remains a naming echo, never lineage evidence or a handshake. The scene can rhyme with Chapter 2's erasure without claiming a shared cause. The export now supports that rule positively rather than only forbidding its opposite: `ZZZ`-prefixed and `Zzz`-style page names are an ordinary sort-last convention on this wiki, in use by test and research handles from 26 May, weeks before the sweep. The same export also shows the alphabetical premise expiring — three unrelated Z-tail pages were deleted at 14:21, fifteen minutes after the backup was stored — and shows the 15:46 removals grouped by thread rather than by letter, with two further related pages deleted at 15:46:59 and 15:47:11. See [`zzz-backup-pattern.md`](./zzz-backup-pattern.md); none of it changes the drawn beats of page 106.
 
 ### 7. Route the wiki back through 039–040, not around them
 **Cost:** small; callbacks within item 5. **Depends on:** 5's draft. **Confidence:** high.
@@ -185,7 +185,7 @@ Not every row will survive the test; three well-placed returns are better than f
 
 - **Page 086 panel 2** ([086](../content/pages/086.md), real lane): the 039 window reopens beside the ranking disclosure with the post's delegated-analysis claim; Curt concedes the instrument as well as the channel. The 063 row folds into this page, which already bounds 063 in page 086 panel 4; the 063 and 083 re-fogs themselves belong to the map (item 8), not to the critic.
 - **Page 087 panel 3** ([087](../content/pages/087.md), real lane): the post's cherry-picking and incentive claims, aimed at OpenAI and METR, with Curt turning them on himself in page 087 panel 4 as his own reconstruction.
-- **Page 113 panels 1 and 5** ([113](../content/pages/113.md), composite lane): `SKEPTIC — COMPOSITE`, a disclosed composite window with no byline, makes the publication objection no dated writing makes, and Curt's answer puts the objection into the book. Registered in [continuity.md](../content/continuity.md), the cast, the ledger, and Packet 07.
+- **Page 111 panels 1 and 5** ([113](../content/pages/113.md), composite lane): `SKEPTIC — COMPOSITE`, a disclosed composite window with no byline, makes the publication objection no dated writing makes, and Curt's answer puts the objection into the book. Registered in [continuity.md](../content/continuity.md), the cast, the ledger, and Packet 07.
 
 Still open: the September row (after item 5) and the ending row (with item 21). Both returns of the real critic paraphrase only claims verified in the post on 5 September.
 

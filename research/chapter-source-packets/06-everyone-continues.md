@@ -2,7 +2,7 @@
 
 ## Scope
 
-This packet supports story pages 089–104 and sequences 30–34. It was checked against public primary sources on 2 September 2026. The aftermath scenes are drawn as of 30 August 2026; later sources enter by dated admission under the story contract. the 14 September response date in Alabama subpoena 26-0007 is a pending deadline, not a known outcome.
+This packet supports story pages 089–102 and sequences 30–34. It was checked against public primary sources on 2 September 2026. The aftermath scenes are drawn as of 30 August 2026; later sources enter by dated admission under the story contract. the 14 September response date in Alabama subpoena 26-0007 is a pending deadline, not a known outcome.
 
 The chapter separates four things that can otherwise blur together: documented remediation, OpenAI's own claims about safeguard effectiveness, project-level inference about competitive pressure, and an invented composite accountability forum. No invented meeting is presented as a historical event, and no real person receives invented testimony.
 
@@ -34,7 +34,7 @@ The organizations above control claims about their own actions. Their descriptio
 | 18 Aug | OpenAI says it paused reinforcement-learning training on its latest deployment-intended models for two weeks; its largest planned frontier RL run remains on hold while smaller-scale training and evaluation continue. | Pages 093–094 show a selective pause, not cessation. |
 | 20–24 Aug | Alabama issues subpoena 26-0007 and announces its consumer-protection investigation. The subpoena contains 16 requests and sets a 10:00 a.m. Central deadline on 14 September. | Page 092 treats allegations as allegations and the deadline as pending. |
 | 26 Aug | OpenAI and METR publish separate reports. METR states that it was not permitted to assess the effectiveness of OpenAI's current or proposed safeguards. | Page 091 keeps the independent-verification gap visible. |
-| 27 Aug | OpenAI publishes a multi-signatory call for defensive access and coordinated action. | Pages 092 and 103 may show a public collective-defense proposal without treating signatures as proof of implementation. |
+| 27 Aug | OpenAI publishes a multi-signatory call for defensive access and coordinated action. | Pages 092 and 101 may show a public collective-defense proposal without treating signatures as proof of implementation. |
 
 ## Page claim map
 
@@ -47,10 +47,10 @@ The organizations above control claims about their own actions. Their descriptio
 | 093 | OpenAI pauses a defined class of frontier RL work and redirects effort toward safeguards and evaluation. | `documented` | `OAI-PACE` |
 | 094 | Some workloads and smaller-scale work continue or resume under case-by-case controls while the largest planned run remains on hold. | `documented` | `OAI-PACE` |
 | 095 | As of 30 August, OpenAI both expands controlled defender access and argues that cyber capability is advancing worldwide. The project's “race” interpretation is an inference from those public actions. | `documented` + `inferred` | `OAI-DAYBREAK`, `OAI-PACE`, `OAI-LETTER` |
-| 096–098 | Agent coordination pressure and institutional competitive pressure have a structural rhyme but are not morally, causally, or ontologically equivalent. Dialogue is invented and compressed. | `compressed` + `invented` + `inferred` | earlier documented agent pages; public positions above; `PROJECT-INFERENCE` |
-| 099–102 | A fictional forum gathers questions earned by the record. All roles are functional composites; no such hearing occurred. | `invented` dialogue around documented facts | this packet and prior chapter packets |
-| 103 | Publicly described policy, infrastructure, monitoring, evaluation, defensive-access, and oversight changes coexist with unresolved review. | `compressed` + `documented` | all sources above |
-| 104 | Multiple kinds of work continued for different actors and reasons. “Everyone continued” is thematic compression, not a universal factual claim. | `compressed` + `inferred` | public chronology above; `PROJECT-INFERENCE` |
+| 096 | Agent coordination pressure and institutional competitive pressure share an assurance problem: each actor wants a guarantee it cannot issue alone. The comparison is structural and is not moral, causal, or ontological equivalence. Dialogue is invented and compressed. | `compressed` + `invented` + `inferred` | earlier documented agent pages; public positions above; `PROJECT-INFERENCE` |
+| 097–100 | A fictional forum gathers questions earned by the record. All roles are functional composites; no such hearing occurred. Page 097 enters the uncontested sequence as the book's own earlier pages rather than as testimony; page 098 puts the board's scorer belief back into the record and asks what a correction would have required; page 099 lets the case for continuing be the one its authors made in public; page 100 asks what stopping would mean. | `invented` framing around documented facts | this packet and prior chapter packets; `METR` and `OAI-OV` for the page-098 exhibit; `OAI-BH` for page 099 |
+| 101 | Publicly described policy, infrastructure, monitoring, evaluation, defensive-access, and oversight changes coexist with unresolved review. | `compressed` + `documented` | all sources above |
+| 102 | Multiple kinds of work continued for different actors and reasons. “Everyone continued” is thematic compression, not a universal factual claim. | `compressed` + `inferred` | public chronology above; `PROJECT-INFERENCE` |
 
 ## Safeguard-effectiveness boundary
 
@@ -78,7 +78,7 @@ The organizations above control claims about their own actions. Their descriptio
 
 ## Structural-comparison boundary
 
-- The comparison on pages 096–098 concerns coordination structure: actors want assurances that others will also restrain themselves.
+- The comparison on page 096 concerns coordination structure: actors want assurances that others will also restrain themselves.
 - It does not equate software agents with institutions, assign the same moral responsibility, or claim the agent behavior caused the public policy choices.
 - Institutional dialogue is invented from public positions; it is not a leaked board transcript.
 - Agent dialogue is compressed from earlier documented patterns and must not be presented as a newly sourced quotation.
@@ -86,7 +86,7 @@ The organizations above control claims about their own actions. Their descriptio
 
 ## Composite-forum disclosure
 
-Pages 099–102 must carry this persistent label:
+Pages 097–100 must carry this persistent label:
 
 `COMPOSITE ACCOUNTABILITY FORUM — INVENTED FOR THIS BOOK — NO SUCH HEARING OCCURRED`
 
@@ -100,9 +100,10 @@ Permitted roles are functional composites only: `CHAIR`, `LAB SAFETY LEAD`, `IND
 - Page 092 distinguishes demands, investigation, and proposals from findings or implementation.
 - Pages 093–094 make the pause selective and the resumed work conditional.
 - Page 095 uses dated public actions and labels the “race” reading as creator analysis.
-- Pages 096–098 display `STRUCTURAL COMPARISON — NOT MORAL OR CAUSAL EQUIVALENCE`.
-- Pages 099–102 disclose the invented forum in every page's visual field.
-- Page 100 uses fictional functional roles and only already documented incident facts.
-- Page 101 gives the strongest case for continued evaluation and defensive access.
-- Page 102 does not pretend that identifying a coordination problem solves it.
-- Page 104 states that “everyone” is thematic compression and that actors continued different work for different reasons.
+- Page 096 displays `STRUCTURAL COMPARISON — NOT MORAL OR CAUSAL EQUIVALENCE`, and does not restate page 054's propositions.
+- Pages 097–100 disclose the invented forum in every page's visual field.
+- Page 097 uses fictional functional roles and only already documented incident facts, and enters them without manufacturing testimony.
+- Page 098 keeps the scorer dispute `disputed`, claims the absence of a correction channel and not the content of a correction, and never implies that a correction would have prevented the intrusion.
+- Page 099 gives the strongest case for continued evaluation and defensive access.
+- Page 100 does not pretend that identifying a coordination problem solves it.
+- Page 102 states that “everyone” is thematic compression and that actors continued different work for different reasons.

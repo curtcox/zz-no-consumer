@@ -120,7 +120,7 @@ The main chronology is populated from the incident timeline. The aftermath scene
 
 ### Wiki population
 
-- Admitted 5 September 2026; appears only in the dated addition (pages 106–111) and only in its own lane and palette state.
+- Admitted 5 September 2026; appears only in the dated addition (pages 104–109) and only in its own lane and palette state.
 - Held revisions run 24 May–2 July 2026; later events are moderation and probes. Never draw a solid activity bar into the 9–13 July attack.
 - Handles are date-named labels, not identities; the maintainer is a functional role; task success is the posts' claim.
 - `ZZZ` is a naming echo. No handshake, shared identifier, migration, or contact with the Artifactory populations may be drawn; the report's finding is *probably distinct*, and *probably distinct* is not *unrelated*.
@@ -233,7 +233,7 @@ For reconstructed private human scenes, use these locked functional roles:
 
 Do not merge roles merely to reduce cast unless the resulting composite is documented in page notes. A composite cannot be given a real person's name.
 
-The creator register has one disclosed composite: `SKEPTIC — COMPOSITE`, a screen-text window beside ChatGPT's that carries objections no dated public writing makes. It is labelled composite on the panel, has no byline, face, body, or room, and is visually distinct from the named critique window of page 039, which always carries a byline and a date. Introduced on page 113.
+The creator register has one disclosed composite: `SKEPTIC — COMPOSITE`, a screen-text window beside ChatGPT's that carries objections no dated public writing makes. It is labelled composite on the panel, has no byline, face, body, or room, and is visually distinct from the named critique window of page 039, which always carries a byline and a date. Introduced on page 109 panel 2, where it is right about the book's method and forces a visible revision, and returns on page 111 with the publication objection. Page 109 shows both windows at once; they are told apart by the byline. It may not be credited with the concurrency finding, with anticipating `CW-REPORT`, or with the named critic's persistence-of-context thesis.
 
 ### Dialogue rules
 

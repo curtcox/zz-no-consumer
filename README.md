@@ -18,7 +18,7 @@ A graphic novel about emergent AI agent coordination, instrumental convergence, 
 - `tasks/` — development task briefs for tooling work, written to be handed to a fresh session.
 - `CREDITS.md` — the one list of people, AI systems, sources, models, tools and licence behind the book; rendered as the site's credits page and set as the book's endmatter (`content/credits.md`).
 
-The complete first-draft script — 118 pages today, and the count is a measurement rather than a commitment — is in `content/pages/`, with every page in review except the six-page dated addition (106–111), which is in draft. The assumptions are locked in `content/story-contract.md`, the beat sheet is `content/page-plan.md`, and the drafting and production protocol is `content/draft-readiness.md`. The source-language audit and completed paraphrase disposition are in `research/exact-text-permissions-audit.md`; the story-level security pass and resolved public-site scope decision are in `research/security-sensitivity-review.md`. Last-mile attribution rules remain in `research/draft-source-notes.md`. Before revising or renaming pages, run:
+The complete first-draft script — 116 pages today, and the count is a measurement rather than a commitment — is in `content/pages/`, with every page in review except the six-page dated addition (pages 104–109), which is in draft. The assumptions are locked in `content/story-contract.md`, the beat sheet is `content/page-plan.md`, and the drafting and production protocol is `content/draft-readiness.md`. The source-language audit and completed paraphrase disposition are in `research/exact-text-permissions-audit.md`; the story-level security pass and resolved public-site scope decision are in `research/security-sensitivity-review.md`. Last-mile attribution rules remain in `research/draft-source-notes.md`. Before revising or renaming pages, run:
 
 ```sh
 python3 scripts/validate-continuity.py
@@ -67,7 +67,7 @@ python3 scripts/build-site.py
 
 Reference rewriting is deliberately narrow. Padded three-digit forms (`page 003`, `pages 019–021`, `page-003`) are rewritten; `printed page(s) N` is excluded because thirteen references in the tree cite pages of the OpenAI technical report; bare one- and two-digit forms are reported and never guessed at; `data/generation-log.jsonl` and `design/page-identity.md` are dated records and are left alone.
 
-`check` is green, including `--strict`, and is meant to stay that way: a red tree is a work list, not a baseline. Its two long-standing findings were closed on 4 September 2026 — page 099 claimed `Verso` on an odd page, and the audit filed `085 → 086` as the same device as every even-to-odd row when it is the one beat in the book that lands across a leaf.
+`check` is green, including `--strict`, and is meant to stay that way: a red tree is a work list, not a baseline. Its two long-standing findings were closed on 4 September 2026 — a forum page claimed `Verso` on an odd page, and the audit filed `085 → 086` as the same device as every even-to-odd row when it is the one beat in the book that lands across a leaf.
 
 ## Panels
 

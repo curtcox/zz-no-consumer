@@ -56,7 +56,7 @@ scene in which he discovers advocacy and feels better.
 He reasons in analogies, quotes, and references, and he is prone to let the
 perfect quote do the heavy lifting. The analogy arrives before the argument, fits
 too well, and stops the inquiry at the point where it should have started. This
-is the same defect the book diagnoses in itself on pages 087 and 113 — a frame
+is the same defect the book diagnoses in itself on pages 087 and 111 — a frame
 that explains everything and predicts nothing — running at the scale of one
 person.
 
@@ -186,5 +186,5 @@ construction that this file contradicts. Unresolved as of 5 September 2026.
 The creator register's one disclosed composite, carrying the publication
 objection that no dated public writing makes. Defined in
 [`content/continuity.md`](continuity.md) and introduced on
-[page 113](pages/113.md). No real name, byline, face, or body. It is not the
+[page 111](pages/113.md). No real name, byline, face, or body. It is not the
 named critic of page 039.

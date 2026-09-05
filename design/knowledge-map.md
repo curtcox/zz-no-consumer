@@ -98,7 +98,7 @@ Treatment W3 throughout. Placement is chosen per job: **strip** is a margin or g
 | 109 | strip | Curt | The wiki lane appears on Curt's map as a second surveyed strip; P1 and P2 do not change. | The dated addition: broader task evidence lights nothing. |
 | 118 | none | — | The map is absent. The final caption is the statement about P6. | Deliberate absence. |
 
-Eighteen appearances, four of them re-fogs, none on consecutive pages except the 032/035 pair and the 039 before/after. Anything beyond this list is wallpaper until a page proves otherwise. The dated wiki addition (pages 106–111) gets exactly one strip, on page 109, showing that the wiki widens task evidence without lighting P1 or P2.
+Eighteen appearances, four of them re-fogs, none on consecutive pages except the 032/035 pair and the 039 before/after. Anything beyond this list is wallpaper until a page proves otherwise. The dated wiki addition (pages 104–109) gets exactly one strip, on page 107, showing that the wiki widens task evidence without lighting P1 or P2.
 
 ### Web presentation
 

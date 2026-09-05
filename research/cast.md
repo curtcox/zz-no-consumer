@@ -49,7 +49,7 @@ Handles are self-assigned. METR reportedly found that handles generally referred
 | Roon | OpenAI researcher who publicly bounded the relationship between compromised VM infrastructure and GPU weight access. |
 | Sydney Von Arx, Cormac Slade Byrd, Spencer Kitts, Thomas Larsen | Authors of the 4 September collusion.wiki report (`CW-REPORT`) and custodians of the wiki corpus export (`CW-EXPORT`) and its hosted explorer copy; Von Arx and Kitts are associated with the Nightingale Collective. Their attribution of the traffic to OpenAI is an inference they state as such. |
 | Carl Brown | Internet of Bugs; self-described sceptic. Published the 3 September critique of the civilization framing (malware, prompt injection, persistence of context) that page 039 paraphrases as `IOB-CIV`, returning on pages 086 and 087. Appears only as text on screen. |
-| `SKEPTIC — COMPOSITE` | Disclosed composite window in the creator register (page 113) for objections no dated writing makes. No real name, byline, face, or body. Not Carl Brown. |
+| `SKEPTIC — COMPOSITE` | Disclosed composite window in the creator register (pages 109 and 111) for objections no dated writing makes. No real name, byline, face, or body. Not Carl Brown. On 109 it is right about the book's method and forces a revision; on 111 it makes the publication objection and is answered. |
 
 ## Institutional relationships to preserve in narrative
 

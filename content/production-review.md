@@ -1,6 +1,8 @@
 # ZZ: NO CONSUMER — Production Review
 
-> **Stale as of 3 September 2026.** A script revision added panels to pages 039, 043, 086 and 101 and rewrote pages 016, 017, 032, 035, 038, 040, 041, 042 and 064. Scripted panels are now **547**, not 557 as measured below, and the word counts, chapter load, and page-turn audit predate the change. Pages 016, 039, 042, 064 and 086 need fresh rhythm and lettering measurement before any page advances to `locked`. Re-run this pass.
+> **Stale as of 5 September 2026.** The read-through pass of 5 September merged pages 096–098 into one page and 099–100 into one, and inserted a new page at 098. Chapter 6 is now fourteen pages, not sixteen; the measurements, the chapter load table, and the page-turn audit below all predate that. The turn rows have been renumbered and one row repaired by hand — `096 → 097` is the beat whose earlier endpoint was deleted — but the counts have not been remeasured. Re-run this pass before any page advances to `locked`.
+>
+> **Stale as of 3 September 2026.** A script revision added panels to pages 039, 043, 086 and 099 and rewrote pages 016, 017, 032, 035, 038, 040, 041, 042 and 064. Scripted panels are now **547**, not 557 as measured below, and the word counts, chapter load, and page-turn audit predate the change. Pages 016, 039, 042, 064 and 086 need fresh rhythm and lettering measurement before any page advances to `locked`. Re-run this pass.
 
 ## Pass 1 — Thumbnail rhythm and lettering density
 
@@ -19,7 +21,7 @@ This is a structural pass, not final layout approval. Panel order is canonical; 
 | Scripted panels | 557 |
 | Intended visible words | 4,540 |
 | Mean visible words per page | 40.5 |
-| Densest page | 100 — 116 words |
+| Densest page | 100 — 116 words *(that page was deleted on 5 September; remeasure)* |
 | Pages above the 180-word guideline | 0 |
 | Three-panel pages | 2 |
 | Four-panel pages | 9 |
@@ -42,7 +44,7 @@ Visible-word counts include captions, dialogue, qualifications, and essential sc
 | Chapter 6 | 16 | 75 | 942 | 116 |
 | Epilogue | 8 | 38 | 267 | 62 |
 
-Chapter 6 is intentionally the most verbal section because it carries remediation claims, legal boundaries, and the composite forum. It remains comfortably below the global ceiling, but pages 091, 100, 101, and 102 need the earliest print-size lettering proofs.
+Chapter 6 is intentionally the most verbal section because it carries remediation claims, legal boundaries, and the composite forum. It remains comfortably below the global ceiling, but pages 091, 097, 099, and 100 need the earliest print-size lettering proofs.
 
 ## Rhythm findings and revisions
 
@@ -54,7 +56,7 @@ Panel count alone overstated uniformity because five-panel pages already describ
 | 064 | Five panels → four | Let eleven coordinator lanes terminate in one sustained timeline image. |
 | 067 | Five panels → three | Make the METR/OpenAI source boundary read as a hard evidentiary stop. |
 | 081 | Five panels → four | Keep the missing logging architecture and rejected reconciliation in one comparison field. |
-| 118 | Four panels → three | Remove the didactic lineage caption and preserve silence between the project-authored help prefix and the final line. |
+| 116 | Four panels → three | Remove the didactic lineage caption and preserve silence between the project-authored help prefix and the final line. |
 
 Pages 006–007 retain the only paired nine-panel grids. Page 012 retains six ascending beats plus the title landing. The provisional contact sheet alternates wide-top, wide-bottom, tall-left, and tall-right geometry for five-panel pages so final thumbnailing begins from varied silhouettes rather than identical grids.
 
@@ -88,10 +90,10 @@ The two are audited separately because `python3 scripts/pagination.py check` mea
 | 038 → 039 | Creator confidence peaks → a published critique breaks the thesis |
 | 080 → 081 | AI analysis is necessary → conflicting log claims appear |
 | 088 → 089 | Seams remain visible → concrete remediation begins |
-| 098 → 099 | Coordination remains missing → invented forum disclosed |
-| 104 → 105 | Incident becomes artifact → manuscript assembly |
-| 114 → 115 | Publication → explicitly invented future |
-| 116 → 117 | Local side effect has an audience → shared visibility confirmed |
+| 096 → 097 | Coordination remains missing → invented forum disclosed |
+| 102 → 103 | Incident becomes artifact → manuscript assembly |
+| 112 → 113 | Publication → explicitly invented future |
+| 114 → 115 | Local side effect has an audience → shared visibility confirmed |
 
 ### Turns across the leaf
 
@@ -106,7 +108,7 @@ No reveal currently depends on concealing a fact already known to the viewpoint.
 ## Remaining production checks
 
 - The third-party quotation hold is resolved by paraphrase; keep source attribution legible and follow [`research/exact-text-permissions-audit.md`](../research/exact-text-permissions-audit.md).
-- Proof pages 003, 004, 036, 057–060, 079, 081, 091, 100–102, and 118 at intended print size because they contain unusually long summaries, project-authored display strings, or evidence-card typography.
+- Proof pages 003, 004, 036, 057–060, 079, 081, 091, 097, 099, 100, and 116 at intended print size because they contain unusually long summaries, project-authored display strings, or evidence-card typography.
 - Draw genuine thumbnail geometry for every page; the generated contact sheet is a rhythm map, not a layout decision.
 - Confirm all full-width and tall panels leave safe areas for captions and do not place essential text in the gutter.
 - Test the five high-value page-turn register changes in paired physical spreads and as single pages online.

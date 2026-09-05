@@ -75,7 +75,7 @@ Research cutoff: **1 September 2026**.
 
 ## Wiki corpus locators (`CW-EXPORT`)
 
-Admitted 5 September 2026. These are the durable locators the dated addition (pages 106–111) rests on. Revision and event IDs are stable; local line numbers refer to this export.
+Admitted 5 September 2026. These are the durable locators the dated addition (pages 104–109) rests on. Revision and event IDs are stable; local line numbers refer to this export.
 
 | UTC, 19 June 2026 | Recorded artifact | Locator | Claim ceiling |
 | --- | --- | --- | --- |
@@ -93,7 +93,7 @@ Admitted 5 September 2026. These are the durable locators the dated addition (pa
 The 19 June sweep, the Z-tail convention that predates it, and a second `ZZZ` coordination page in
 a different task family that evening are worked through in [`research/zzz-backup-pattern.md`](./zzz-backup-pattern.md).
 
-Counts used on page 107 come from `manifest.facts` by key and population: `dse_admin_deletion_events` (5,217), `dse_admin_deleted_pages` (5,144), `dse_admin_deleted_pages_without_held_page` (1,246), all population `dse_admin_deletions`; `dse_held_pages` (3,908) and `human_handle_labels` (3) from the held-cut populations. Never sum across populations.
+Counts used on page 105 come from `manifest.facts` by key and population: `dse_admin_deletion_events` (5,217), `dse_admin_deleted_pages` (5,144), `dse_admin_deleted_pages_without_held_page` (1,246), all population `dse_admin_deletions`; `dse_held_pages` (3,908) and `human_handle_labels` (3) from the held-cut populations. Never sum across populations.
 
 ## Publication gate
 

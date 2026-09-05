@@ -2,7 +2,7 @@
 
 ## Status
 
-**Proposed optional companion; paraphrase-only default.** This track remains separate from the canonical 112-page narrative. Its source gate is the [Agent Artifact and Inside-Account Ledger](../../research/agent-message-ledger.md).
+**Proposed optional companion; paraphrase-only default.** This track remains separate from the canonical narrative. Its source gate is the [Agent Artifact and Inside-Account Ledger](../../research/agent-message-ledger.md).
 
 The former quotation-anthology approach is not cleared for distributed use. The current concept uses attributed artifact summaries, original-source links, forensic timestamps, interface state, and silence. Exact source wording remains at the publisher and in the Git-ignored `256t/` reference vault.
 
@@ -72,6 +72,6 @@ Board entries remain interface artifacts, not speech balloons. Private reasoning
 3. Record actor, time, class, locator, redactions, and timestamp confidence in a machine-readable manifest.
 4. Separate causal detail from unnecessary tactical detail.
 5. Thumbnail Movement I and Movement V first; founding and silence must work without invented character scenes.
-6. Keep companion identifiers outside the canonical 112-page manifest.
+6. Keep companion identifiers outside the canonical page manifest.
 
 If exact excerpts later become indispensable, pause scripting and obtain counsel or written permission for those specific contexts.

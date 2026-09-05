@@ -120,7 +120,7 @@ ChatGPT restates it:
 
 Curt:
 
-> Perfect. Make it so.
+> Then we can't start here. Back up. All the way to April.
 
 The creator layer establishes that the work is an interpretation, not recovered omniscience.
 
@@ -593,7 +593,7 @@ Black.
 
 ## Open structural decisions
 
-The first-draft defaults are locked in `content/story-contract.md`: 112 pages; real institution names and documented agent handles; functional/composite humans; a disclosed composite hearing; source-derived language paraphrased and attributed; an ambiguous project-authored final help prefix; and provenance available in page notes/web annotations without requiring every tag in the default reading view.
+The first-draft defaults are locked in `content/story-contract.md`: real institution names and documented agent handles; functional/composite humans; a disclosed composite hearing; source-derived language paraphrased and attributed; an ambiguous project-authored final help prefix; and provenance available in page notes/web annotations without requiring every tag in the default reading view.
 
 Later production decisions that do not block chapter drafting:
 

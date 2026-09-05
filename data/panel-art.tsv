@@ -39,8 +39,8 @@ panel	variant	file	provider	seed	width	height	bytes	created	status	note
 013-02	v01	assets/art/panels/013-02/v01-flux2-klein-4b-1001.webp	flux2-klein-4b	1001	1200	800	219644	2026-09-05T18:54:36+00:00	candidate	
 013-02	v02	assets/art/panels/013-02/v02-flux2-klein-4b-1001.webp	flux2-klein-4b	1001	1200	800	227758	2026-09-05T19:52:59+00:00	candidate	drawn 5 Sep 2026 with the reverted panel-first prompt arrangement, not the committed composer
 014-01	v01	assets/art/panels/014-01/v01-flux2-klein-4b-1001.webp	flux2-klein-4b	1001	1200	800	196660	2026-09-05T18:55:39+00:00	candidate	
-014-03	v01	assets/art/panels/014-03/v01-flux2-klein-4b-1001.webp	flux2-klein-4b	1001	1200	800	197582	2026-09-05T18:56:42+00:00	candidate	
-014-04	v01	assets/art/panels/014-04/v01-flux2-klein-4b-1001.webp	flux2-klein-4b	1001	1200	800	200074	2026-09-05T18:57:46+00:00	candidate	
+014-04	v01	assets/art/panels/014-04/v01-flux2-klein-4b-1001.webp	flux2-klein-4b	1001	1200	800	197582	2026-09-05T18:56:42+00:00	candidate	
+014-05	v01	assets/art/panels/014-05/v01-flux2-klein-4b-1001.webp	flux2-klein-4b	1001	1200	800	200074	2026-09-05T18:57:46+00:00	candidate	
 015-02	v01	assets/art/panels/015-02/v01-flux2-klein-4b-4001.webp	flux2-klein-4b	4001	1200	800	457632	2026-09-03T19:02:56+00:00	candidate	
 015-02	v02	assets/art/panels/015-02/v02-flux2-klein-4b-4001.webp	flux2-klein-4b	4001	1200	800	277082	2026-09-03T20:57:39+00:00	candidate	
 015-04	v01	assets/art/panels/015-04/v01-flux2-klein-4b-4001.webp	flux2-klein-4b	4001	1200	800	401944	2026-09-03T19:04:14+00:00	candidate	
@@ -74,7 +74,7 @@ panel	variant	file	provider	seed	width	height	bytes	created	status	note
 050-05	v01	assets/art/panels/050-05/v01-flux2-klein-4b-1001.webp	flux2-klein-4b	1001	1200	800	169400	2026-09-05T19:09:23+00:00	candidate	
 050-05	v02	assets/art/panels/050-05/v02-flux2-klein-4b-1001.webp	flux2-klein-4b	1001	1200	800	169964	2026-09-05T20:48:19+00:00	candidate	drawn 5 Sep 2026 with the reverted conditional-register clause, not the committed one
 055-04	v01	assets/art/panels/055-04/v01-flux2-klein-4b-1001.webp	flux2-klein-4b	1001	1200	800	252420	2026-09-05T19:10:26+00:00	candidate	
-115-01	v01	assets/art/panels/115-01/v01-flux2-klein-4b-4001.webp	flux2-klein-4b	4001	1200	800	420730	2026-09-04T12:52:17+00:00	candidate	
-115-01	v02	assets/art/panels/115-01/v02-flux2-klein-4b-4001.webp	flux2-klein-4b	4001	1200	800	403732	2026-09-04T12:52:17+00:00	candidate	
-115-02	v01	assets/art/panels/115-02/v01-flux2-klein-4b-4001.webp	flux2-klein-4b	4001	1200	800	459758	2026-09-04T12:52:17+00:00	candidate	
-115-02	v02	assets/art/panels/115-02/v02-flux2-klein-4b-4001.webp	flux2-klein-4b	4001	1200	800	458184	2026-09-04T12:52:17+00:00	candidate	
+113-01	v01	assets/art/panels/113-01/v01-flux2-klein-4b-4001.webp	flux2-klein-4b	4001	1200	800	420730	2026-09-04T12:52:17+00:00	candidate	
+113-01	v02	assets/art/panels/113-01/v02-flux2-klein-4b-4001.webp	flux2-klein-4b	4001	1200	800	403732	2026-09-04T12:52:17+00:00	candidate	
+113-02	v01	assets/art/panels/113-02/v01-flux2-klein-4b-4001.webp	flux2-klein-4b	4001	1200	800	459758	2026-09-04T12:52:17+00:00	candidate	
+113-02	v02	assets/art/panels/113-02/v02-flux2-klein-4b-4001.webp	flux2-klein-4b	4001	1200	800	458184	2026-09-04T12:52:17+00:00	candidate	

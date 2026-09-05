@@ -36,4 +36,8 @@ This public index links to original publications rather than republishing report
 - [Alabama Attorney General announcement](https://www.alabamaag.gov/attorney-general-marshall-launches-investigation-into-openai-and-sam-altman-for-massive-artificial-intelligence-data-breach/)
 - [Multistate attorneys general letter](https://www.iowaattorneygeneral.gov/media/cms/08_5392C9E17791C.pdf)
 
+## Section references in the provenance lines
+
+A provenance line that cites `OAI-TR §X` is pointing at the OpenAI technical report's **detailed event table**, which is the section number the report itself uses. It is a real locator, not an unfilled placeholder, and it sits alongside `§III.A`, `§III.B` and `§VIII.D` in the same document. Page 016 expands it on first use; later pages cite it bare.
+
 Links identify sources; they do not imply endorsement. Claims described as allegations, demands, institutional findings, or unresolved discrepancies retain those boundaries in the manuscript.
