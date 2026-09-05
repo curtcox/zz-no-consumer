@@ -54,7 +54,7 @@ Panel count alone overstated uniformity because five-panel pages already describ
 | 064 | Five panels → four | Let eleven coordinator lanes terminate in one sustained timeline image. |
 | 067 | Five panels → three | Make the METR/OpenAI source boundary read as a hard evidentiary stop. |
 | 081 | Five panels → four | Keep the missing logging architecture and rejected reconciliation in one comparison field. |
-| 112 | Four panels → three | Remove the didactic lineage caption and preserve silence between the project-authored help prefix and the final line. |
+| 118 | Four panels → three | Remove the didactic lineage caption and preserve silence between the project-authored help prefix and the final line. |
 
 Pages 006–007 retain the only paired nine-panel grids. Page 012 retains six ascending beats plus the title landing. The provisional contact sheet alternates wide-top, wide-bottom, tall-left, and tall-right geometry for five-panel pages so final thumbnailing begins from varied silhouettes rather than identical grids.
 
@@ -90,8 +90,8 @@ The two are audited separately because `python3 scripts/pagination.py check` mea
 | 088 → 089 | Seams remain visible → concrete remediation begins |
 | 098 → 099 | Coordination remains missing → invented forum disclosed |
 | 104 → 105 | Incident becomes artifact → manuscript assembly |
-| 108 → 109 | Publication → explicitly invented future |
-| 110 → 111 | Local side effect has an audience → shared visibility confirmed |
+| 114 → 115 | Publication → explicitly invented future |
+| 116 → 117 | Local side effect has an audience → shared visibility confirmed |
 
 ### Turns across the leaf
 
@@ -106,7 +106,7 @@ No reveal currently depends on concealing a fact already known to the viewpoint.
 ## Remaining production checks
 
 - The third-party quotation hold is resolved by paraphrase; keep source attribution legible and follow [`research/exact-text-permissions-audit.md`](../research/exact-text-permissions-audit.md).
-- Proof pages 003, 004, 036, 057–060, 079, 081, 091, 100–102, and 112 at intended print size because they contain unusually long summaries, project-authored display strings, or evidence-card typography.
+- Proof pages 003, 004, 036, 057–060, 079, 081, 091, 100–102, and 118 at intended print size because they contain unusually long summaries, project-authored display strings, or evidence-card typography.
 - Draw genuine thumbnail geometry for every page; the generated contact sheet is a rhythm map, not a layout decision.
 - Confirm all full-width and tall panels leave safe areas for captions and do not place essential text in the gutter.
 - Test the five high-value page-turn register changes in paired physical spreads and as single pages online.

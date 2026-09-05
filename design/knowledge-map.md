@@ -95,13 +95,14 @@ Treatment W3 throughout. Placement is chosen per job: **strip** is a margin or g
 | 086 | strip | reader | **Re-fog:** P1 dims where the ranking held it up; the silence stays lit. | Fourth re-fog, the one the reader is implicated in. |
 | 089 | strip | reader | Nothing lights. Remediation is not evidence about the propositions. | Chapter opening; a map that does not move is the point. |
 | 105 | strip | Curt | Curt's map: the published reports lit, everything under them hatched. | Chapter opening; the creator's map is not the reader's. |
-| 112 | none | — | The map is absent. The final caption is the statement about P6. | Deliberate absence. |
+| 109 | strip | Curt | The wiki lane appears on Curt's map as a second surveyed strip; P1 and P2 do not change. | The dated addition: broader task evidence lights nothing. |
+| 118 | none | — | The map is absent. The final caption is the statement about P6. | Deliberate absence. |
 
-Seventeen appearances, four of them re-fogs, none on consecutive pages except the 032/035 pair and the 039 before/after. Anything beyond this list is wallpaper until a page proves otherwise. The added wiki pages of item 5, if adopted, get at most one strip, at the September discovery, showing that the wiki widens task evidence without lighting P1 or P2.
+Eighteen appearances, four of them re-fogs, none on consecutive pages except the 032/035 pair and the 039 before/after. Anything beyond this list is wallpaper until a page proves otherwise. The dated wiki addition (pages 106–111) gets exactly one strip, on page 109, showing that the wiki widens task evidence without lighting P1 or P2.
 
 ### Web presentation
 
-The viewer's fragment settings already carry theme, navigation, full-screen and mode. A `map=` setting (`off`, `reader`, party names where a page has a party map) is the natural home for viewpoint, and it must name whose map is shown on the strip itself, never silently switch to an omniscient composite, and never show a party map on a page that has none for that party. Default is the reader's map, strip visible, on the seventeen pages above only. This is a tooling decision for the pass and is not built yet.
+The viewer's fragment settings already carry theme, navigation, full-screen and mode. A `map=` setting (`off`, `reader`, party names where a page has a party map) is the natural home for viewpoint, and it must name whose map is shown on the strip itself, never silently switch to an omniscient composite, and never show a party map on a page that has none for that party. Default is the reader's map, strip visible, on the eighteen pages above only. This is a tooling decision for the pass and is not built yet.
 
 ### Still to do in the pass
 

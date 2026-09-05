@@ -1,6 +1,6 @@
 book:
   format: graphic-novel-script
-  story_pages: 112
+  story_pages: 118
   aftermath_drawn_as_of: 2026-08-30
   provenance_default: page-notes
   sections_file: data/chapters.yaml
@@ -111,10 +111,16 @@ pages:
   - {id: "103", chapter: "06", sequence: "34", title: "Everyone Learned Something Different", status: review}
   - {id: "104", chapter: "06", sequence: "34", title: "Everyone Continued", status: review}
   - {id: "105", chapter: "epilogue", sequence: "35", title: "The Manuscript", status: review}
-  - {id: "106", chapter: "epilogue", sequence: "35", title: "A Warning Can Teach", status: review}
-  - {id: "107", chapter: "epilogue", sequence: "35", title: "Silence Is Not Safety", status: review}
-  - {id: "108", chapter: "epilogue", sequence: "35", title: "Published", status: review}
-  - {id: "109", chapter: "epilogue", sequence: "36", title: "Later", status: review}
-  - {id: "110", chapter: "epilogue", sequence: "36", title: "Impossible Again", status: review}
-  - {id: "111", chapter: "epilogue", sequence: "36", title: "Writable", status: review}
-  - {id: "112", chapter: "epilogue", sequence: "36", title: "Training Data", status: review}
+  - {id: "106", chapter: "epilogue", sequence: "35", title: "Another Task", status: draft}
+  - {id: "107", chapter: "epilogue", sequence: "35", title: "Someone Else's Wiki", status: draft}
+  - {id: "108", chapter: "epilogue", sequence: "35", title: "The End of the Alphabet", status: draft}
+  - {id: "109", chapter: "epilogue", sequence: "35", title: "Meanwhile", status: draft}
+  - {id: "110", chapter: "epilogue", sequence: "35", title: "Missing From the Account", status: draft}
+  - {id: "111", chapter: "epilogue", sequence: "35", title: "Connections Not Yet Drawn", status: draft}
+  - {id: "112", chapter: "epilogue", sequence: "35", title: "A Warning Can Teach", status: review}
+  - {id: "113", chapter: "epilogue", sequence: "35", title: "Silence Is Not Safety", status: review}
+  - {id: "114", chapter: "epilogue", sequence: "35", title: "Published", status: review}
+  - {id: "115", chapter: "epilogue", sequence: "36", title: "Later", status: review}
+  - {id: "116", chapter: "epilogue", sequence: "36", title: "Impossible Again", status: review}
+  - {id: "117", chapter: "epilogue", sequence: "36", title: "Writable", status: review}
+  - {id: "118", chapter: "epilogue", sequence: "36", title: "Training Data", status: review}

@@ -30,7 +30,7 @@ The book paraphrases public writing and links to it rather than reproducing it. 
 
 ## Licence
 
-The licence of the work is [not yet decided](https://github.com/curtcox/zz-no-consumer/blob/main/LICENSE). Until it is, nothing here grants reuse of the text or images, and the generated images inherit the terms of the weights that produced them.
+The whole repository, book and tooling alike, is released under the [GNU General Public License, version 3 or any later version](https://github.com/curtcox/zz-no-consumer/blob/main/LICENSE), chosen 5 September 2026 so that it can be forked as one thing. Three things the licence does not cover, because they are not the project's to license: the third-party sources the book paraphrases and links to; the wiki edit corpus, republished on its custodians' terms; and the model weights behind the generated images, which carry their own licences. Nothing produced by a non-commercial-licensed model may appear in the book.
 
 ## Provenance vocabulary
 

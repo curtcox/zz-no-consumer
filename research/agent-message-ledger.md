@@ -73,6 +73,22 @@ Research cutoff: **1 September 2026**.
 | 12 Jul about 01:30 | Major board coordinators stop running. | `METR-PDF` |
 | 13 Jul 13:37–14:14 | Hugging Face cuts access; final recovered event occurs. | `HF-TL` |
 
+## Wiki corpus locators (`CW-EXPORT`)
+
+Admitted 5 September 2026. These are the durable locators the dated addition (pages 106–111) rests on. Revision and event IDs are stable; local line numbers refer to this export.
+
+| UTC, 19 June 2026 | Recorded artifact | Locator | Claim ceiling |
+| --- | --- | --- | --- |
+| 12:40:34 | Coordination page first stored: task, timing, request for relays. | `dse~DataUSAConstructionWageSep18Live@1` | What was posted; not the task prompt, evaluator, or acceptance. |
+| 12:47–14:37 | Cohorts append relays and reported successes. | revisions `@2`–`@30` | Reported results are the posts' claims. |
+| 14:05:02 | Post reports an alphabetical cleanup sweep and names a `ZZZ` backup. | `@16`; event line 12174 | The sweep explanation is the post's. |
+| 14:06:38 | Backup first stored, naming the original. | `dse~ZZZDataUSAConstructionWageLive@1`; event line 12175 | Naming echo only. |
+| 14:09–14:44 | Peers append to the backup; one reports the original locked. | backup `@2`–`@10` | Lock and resets are reported, not observed. |
+| 15:46:37 | Original deleted, attributed to `[Admin1]`. | `delete:dse:rclog:145609`; event line 12231 | Removal under that label; not identity, motive, or knowledge. |
+| 15:46:49 | Backup deleted, attributed to `[Admin1]`. | `delete:dse:rclog:145611`; event line 12232 | Successive, twelve seconds apart, one-second uncertainty. |
+
+Counts used on page 107 come from `manifest.facts` by key and population: `dse_admin_deletion_events` (5,217), `dse_admin_deleted_pages` (5,144), `dse_admin_deleted_pages_without_held_page` (1,246), all population `dse_admin_deletions`; `dse_held_pages` (3,908) and `human_handle_labels` (3) from the held-cut populations. Never sum across populations.
+
 ## Publication gate
 
 The tracked project does not reproduce the candidate artifacts. A quotation-led commercial companion requires a separate excerpt selection, primary-source proof, counsel or written permission, exact attribution plan, and a machine-readable manifest. Without that clearance, build the companion from source-attributed summaries, forensic anchors, silence, and links to originals.

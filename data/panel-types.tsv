@@ -182,7 +182,7 @@ panel	page	chapter	register	type	route	strings	longest	text_chars
 038-03	038	02	creator	portrait	reference	2	12	22
 038-04	038	02	creator	scene	local	0	0	0
 038-05	038	02	creator	portrait	reference	1	24	24
-039-01	039	02	creator	portrait	reference	1	24	24
+039-01	039	02	creator	portrait	reference	2	48	72
 039-02	039	02	creator	scene	local	0	0	0
 039-03	039	02	creator	text-heavy	text-fidelity	3	20	41
 039-04	039	02	creator	portrait	reference	0	0	0
@@ -323,12 +323,12 @@ panel	page	chapter	register	type	route	strings	longest	text_chars
 066-03	066	04	incident	scene	local	0	0	0
 066-04	066	04	incident	text-heavy	text-fidelity	1	51	51
 066-05	066	04	incident	scene	local	0	0	0
-067-01	067	04	dossier	text-light	local	1	12	12
+067-01	067	04	dossier	text-heavy	text-fidelity	1	19	19
 067-02	067	04	dossier	dossier	structure	0	0	0
 067-03	067	04	dossier	scene	local	0	0	0
 068-01	068	04	incident	text-heavy	text-fidelity	1	37	37
 068-02	068	04	incident	text-heavy	text-fidelity	1	78	78
-068-03	068	04	incident	scene	local	0	0	0
+068-03	068	04	incident	text-light	local	1	7	7
 068-04	068	04	incident	scene	local	0	0	0
 068-05	068	04	incident	dossier	structure	0	0	0
 069-01	069	04	incident	text-heavy	text-fidelity	2	37	46
@@ -416,7 +416,7 @@ panel	page	chapter	register	type	route	strings	longest	text_chars
 085-04	085	05	institutional	portrait	reference	0	0	0
 085-05	085	05	institutional	scene	local	0	0	0
 086-01	086	05	creator	portrait	reference	1	24	24
-086-02	086	05	creator	text-heavy	text-fidelity	4	21	48
+086-02	086	05	creator	portrait	reference	4	21	48
 086-03	086	05	creator	portrait	reference	1	63	63
 086-04	086	05	creator	portrait	reference	1	61	61
 086-05	086	05	creator	portrait	reference	1	37	37
@@ -447,9 +447,9 @@ panel	page	chapter	register	type	route	strings	longest	text_chars
 091-03	091	06	dossier	scene	local	0	0	0
 091-04	091	06	dossier	scene	local	0	0	0
 091-05	091	06	dossier	scene	local	0	0	0
-092-01	092	06	dossier	text-heavy	text-fidelity	3	41	74
+092-01	092	06	dossier	text-heavy	text-fidelity	4	41	104
 092-02	092	06	dossier	scene	local	0	0	0
-092-03	092	06	dossier	text-heavy	text-fidelity	2	51	79
+092-03	092	06	dossier	text-heavy	text-fidelity	2	51	85
 092-04	092	06	dossier	scene	local	0	0	0
 092-05	092	06	dossier	scene	local	0	0	0
 093-01	093	06	institutional	text-heavy	text-fidelity	1	37	37
@@ -513,36 +513,67 @@ panel	page	chapter	register	type	route	strings	longest	text_chars
 105-03	105	epilogue	creator	scene	local	0	0	0
 105-04	105	epilogue	creator	scene	local	0	0	0
 105-05	105	epilogue	creator	portrait	reference	0	0	0
-106-01	106	epilogue	creator	portrait	reference	0	0	0
-106-02	106	epilogue	creator	text-heavy	text-fidelity	4	27	85
-106-03	106	epilogue	creator	portrait	reference	0	0	0
-106-04	106	epilogue	creator	portrait	reference	0	0	0
-106-05	106	epilogue	creator	diagram	structure	0	0	0
-107-01	107	epilogue	creator	portrait	reference	0	0	0
-107-02	107	epilogue	creator	scene	local	0	0	0
-107-03	107	epilogue	creator	portrait	reference	1	35	35
-107-04	107	epilogue	creator	dossier	structure	0	0	0
-107-05	107	epilogue	creator	portrait	reference	0	0	0
-108-01	108	epilogue	creator	portrait	reference	0	0	0
-108-02	108	epilogue	creator	portrait	reference	4	22	69
-108-03	108	epilogue	creator	portrait	reference	1	7	7
-108-04	108	epilogue	creator	portrait	reference	1	6	6
-108-05	108	epilogue	creator	scene	local	0	0	0
-109-01	109	epilogue	invented future	scene	local	0	0	0
-109-02	109	epilogue	invented future	scene	local	0	0	0
-109-03	109	epilogue	invented future	scene	local	0	0	0
-109-04	109	epilogue	invented future	diagram	structure	0	0	0
-109-05	109	epilogue	invented future	scene	local	0	0	0
-110-01	110	epilogue	invented future	diagram	structure	0	0	0
-110-02	110	epilogue	invented future	scene	local	0	0	0
-110-03	110	epilogue	invented future	scene	local	0	0	0
-110-04	110	epilogue	invented future	scene	local	0	0	0
-110-05	110	epilogue	invented future	scene	local	0	0	0
-111-01	111	epilogue	invented future	scene	local	0	0	0
-111-02	111	epilogue	invented future	scene	local	0	0	0
-111-03	111	epilogue	invented future	scene	local	0	0	0
-111-04	111	epilogue	invented future	scene	local	0	0	0
-111-05	111	epilogue	invented future	scene	local	0	0	0
-112-01	112	epilogue	invented future	dossier	structure	0	0	0
-112-02	112	epilogue	invented future	scene	local	0	0	0
-112-03	112	epilogue	invented future	scene	local	0	0	0
+106-01	106	epilogue	creator	portrait	reference	1	16	16
+106-02	106	epilogue	creator	portrait	reference	1	38	38
+106-03	106	epilogue	creator	scene	local	0	0	0
+106-04	106	epilogue	creator	text-heavy	text-fidelity	8	12	52
+106-05	106	epilogue	creator	portrait	reference	0	0	0
+107-01	107	epilogue	incident	scene	local	0	0	0
+107-02	107	epilogue	incident	figure	figures	1	14	14
+107-03	107	epilogue	incident	dossier	structure	0	0	0
+107-04	107	epilogue	incident	scene	local	0	0	0
+107-05	107	epilogue	incident	scene	local	0	0	0
+108-01	108	epilogue	incident	text-light	local	2	9	14
+108-02	108	epilogue	incident	text-light	local	2	9	12
+108-03	108	epilogue	incident	scene	local	0	0	0
+108-04	108	epilogue	incident	text-light	local	2	14	22
+108-05	108	epilogue	incident	figure	figures	1	3	3
+108-06	108	epilogue	incident	text-light	local	2	3	5
+109-01	109	epilogue	creator	portrait	reference	3	11	33
+109-02	109	epilogue	creator	text-heavy	text-fidelity	10	10	72
+109-03	109	epilogue	creator	text-heavy	text-fidelity	3	31	44
+109-04	109	epilogue	creator	portrait	reference	3	26	54
+109-05	109	epilogue	creator	scene	local	0	0	0
+110-01	110	epilogue	creator	portrait	reference	0	0	0
+110-02	110	epilogue	creator	scene	local	0	0	0
+110-03	110	epilogue	creator	portrait	reference	2	132	244
+110-04	110	epilogue	creator	portrait	reference	0	0	0
+110-05	110	epilogue	creator	portrait	reference	6	23	67
+111-01	111	epilogue	creator	text-heavy	text-fidelity	5	55	194
+111-02	111	epilogue	creator	portrait	reference	4	22	73
+111-03	111	epilogue	creator	portrait	reference	0	0	0
+111-04	111	epilogue	creator	portrait	reference	1	28	28
+111-05	111	epilogue	creator	portrait	reference	0	0	0
+112-01	112	epilogue	creator	portrait	reference	0	0	0
+112-02	112	epilogue	creator	text-heavy	text-fidelity	4	27	85
+112-03	112	epilogue	creator	portrait	reference	0	0	0
+112-04	112	epilogue	creator	portrait	reference	0	0	0
+112-05	112	epilogue	creator	diagram	structure	0	0	0
+113-01	113	epilogue	creator	portrait	reference	1	19	19
+113-02	113	epilogue	creator	scene	local	0	0	0
+113-03	113	epilogue	creator	portrait	reference	1	35	35
+113-04	113	epilogue	creator	dossier	structure	0	0	0
+113-05	113	epilogue	creator	portrait	reference	0	0	0
+114-01	114	epilogue	creator	portrait	reference	0	0	0
+114-02	114	epilogue	creator	portrait	reference	4	22	69
+114-03	114	epilogue	creator	portrait	reference	1	7	7
+114-04	114	epilogue	creator	portrait	reference	1	6	6
+114-05	114	epilogue	creator	scene	local	0	0	0
+115-01	115	epilogue	invented future	scene	local	0	0	0
+115-02	115	epilogue	invented future	scene	local	0	0	0
+115-03	115	epilogue	invented future	scene	local	0	0	0
+115-04	115	epilogue	invented future	diagram	structure	0	0	0
+115-05	115	epilogue	invented future	scene	local	0	0	0
+116-01	116	epilogue	invented future	diagram	structure	0	0	0
+116-02	116	epilogue	invented future	scene	local	0	0	0
+116-03	116	epilogue	invented future	scene	local	0	0	0
+116-04	116	epilogue	invented future	scene	local	0	0	0
+116-05	116	epilogue	invented future	scene	local	0	0	0
+117-01	117	epilogue	invented future	scene	local	0	0	0
+117-02	117	epilogue	invented future	scene	local	0	0	0
+117-03	117	epilogue	invented future	scene	local	0	0	0
+117-04	117	epilogue	invented future	scene	local	0	0	0
+117-05	117	epilogue	invented future	scene	local	0	0	0
+118-01	118	epilogue	invented future	dossier	structure	0	0	0
+118-02	118	epilogue	invented future	scene	local	0	0	0
+118-03	118	epilogue	invented future	scene	local	0	0	0

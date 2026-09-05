@@ -108,6 +108,6 @@ The recurring palette, environment geometry, creator-desk progression, provenanc
 5. Page 067 — hard source-register transition.
 6. Page 081 — amber dispute remains readable without color.
 7. Page 099 — invented forum cannot be mistaken for a real proceeding.
-8. Page 112 — invented future remains organization-neutral and ambiguous.
+8. Page 118 — invented future remains organization-neutral and ambiguous.
 
 Lock final character and environment sheets only after this proof set is reviewed at intended trim size.

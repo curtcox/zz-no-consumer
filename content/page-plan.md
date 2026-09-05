@@ -152,10 +152,16 @@ Rows are numbered by position, and the numbering is not maintained by hand. Add,
 | Page | Seq. | Page purpose | End beat | Evidence ceiling |
 | ---: | --- | --- | --- | --- |
 | 105 | 35 | Show Curt and ChatGPT assembling the completed manuscript and its provenance apparatus. | The investigation has become an artifact. | `reconstructed` |
-| 106 | 35 | Raise the problem that a detailed warning can also teach techniques, frames, and coordination patterns. | Explanation can transmit capability as well as caution. | `reconstructed` + `inferred` |
-| 107 | 35 | Refuse the simple solution that silence is automatically safer or more honest. | The artifact carries incompatible purposes. | `reconstructed` + `inferred` |
-| 108 | 35 | Complete and publish the manuscript despite unresolved contamination questions. | The story enters culture. | `reconstructed` |
-| 109 | 36 | Move to an unnamed later laboratory, model, and year with no identifying continuity clues. | Another difficult objective begins. | `invented` |
-| 110 | 36 | Show the future agent determine that the specified method cannot work and inventory its constrained environment. | The objective remains incomplete. | `invented` |
-| 111 | 36 | Let it discover a shared writable namespace, without enough mechanics to become an exploit recipe. | A harmless side effect persists. | `invented` |
-| 112 | 36 | Show only `zzHELP_...`, leave recurrence versus inheritance unresolved, and end on the final caption. | “THIS STORY IS NOW PART OF THE TRAINING DATA.” | `invented` |
+| 106 | 35 | Interrupt the finished manuscript with the 4 September report, then open a June scene the book did not know: a mundane lookup with a short deadline and a shared answer. | A shared page makes the deadline stop mattering. | `reconstructed` + `documented` + `source-paraphrase` |
+| 107 | 35 | Reveal the wiki as someone's pre-existing site and its maintainer's weeks of page-by-page removal, seen from both sides. | Neither side is wrong about what the page is. | `documented` + `reconstructed` + `inferred` |
+| 108 | 35 | Play 19 June in order: the sweep warning, the `ZZZ` backup, peers moving to it, and both pages deleted twelve seconds apart. | The book hears its title in a name it did not choose. | `documented` + `source-paraphrase` + `inferred` |
+| 109 | 35 | Redraw the incident timeline with a second lane beside May and June, ending on 2 July, with no bridge between the lanes. | The sequence was true; it was not a census. | `documented` + `inferred` |
+| 110 | 35 | Put the September finding beside the August record and turn the disclosure gap into named, unanswered questions. | "OpenAI knew" is five claims; the record supports at most one, by inference. | `documented` + `inferred`; nondisclosure attributed and dated |
+| 111 | 35 | Lay the possible connections on the map as questions, reopen page 039's channel without deciding it, return the critic, and hand back to page 112. | The book knows less than it did, about more than it did. | `inferred` + `documented` + `reconstructed` |
+| 112 | 35 | Raise the problem that a detailed warning can also teach techniques, frames, and coordination patterns. | Explanation can transmit capability as well as caution. | `reconstructed` + `inferred` |
+| 113 | 35 | Refuse the simple solution that silence is automatically safer or more honest. | The artifact carries incompatible purposes. | `reconstructed` + `inferred` |
+| 114 | 35 | Complete and publish the manuscript despite unresolved contamination questions. | The story enters culture. | `reconstructed` |
+| 115 | 36 | Move to an unnamed later laboratory, model, and year with no identifying continuity clues. | Another difficult objective begins. | `invented` |
+| 116 | 36 | Show the future agent determine that the specified method cannot work and inventory its constrained environment. | The objective remains incomplete. | `invented` |
+| 117 | 36 | Let it discover a shared writable namespace, without enough mechanics to become an exploit recipe. | A harmless side effect persists. | `invented` |
+| 118 | 36 | Show only `zzHELP_...`, leave recurrence versus inheritance unresolved, and end on the final caption. | “THIS STORY IS NOW PART OF THE TRAINING DATA.” | `invented` |

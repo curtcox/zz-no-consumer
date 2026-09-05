@@ -77,7 +77,7 @@ The proposal already recommends historical panels with May/June dates, framed by
 - Revise page 105's exit to establish the September 4 discovery in the creator register.
 - Use three added pages for the mundane task, the existing wiki, and the warning/backup/deletions. *(proposal's A–C; item 6 is included here)*
 - Use one page for the parallel calendar, with distinct evidence and activity boundaries. *(F)*
-- Use two pages for the dated disclosure question and unresolved connections, then hand back to current page 106. *(G–H)*
+- Use two pages for the dated disclosure question and unresolved connections, then hand back to current page 112. *(G–H)*
 - Add the precision and heartbeat threads only if the eight-page version earns their space; otherwise leave them in the companion. *(D–E)*
 
 Keep task success attributed to posts even in historical panels; a reconstructed scene must not turn a reported result into verified action. Neither version requires the whole-book fog map.
@@ -85,6 +85,8 @@ Keep task success attributed to posts even in historical panels; a reconstructed
 Pagination tooling lowers mechanical cost, not editorial cost. Use `python3 scripts/pagination.py report` for the current reference census and review the insertion plan before `--apply`. Even-sized additions preserve downstream parity; chapter membership, transitions, reveals, and lettering still need review. See the [pagination workflow](../README.md#pagination); the tool reports rather than repairs broken parity assertions.
 
 **Ready when:** the six-page version preserves the task, administrator, overlap, disclosure, and uncertainty beats; each is sourced; and the return to publication and the fictional ending works without implying a surviving historical agent.
+
+**Drafted 5 September: the six-page core, inserted as pages 106–111 with `scripts/pagination.py` (six single insertions, parity restored, check green at 118 pages).** [106](../content/pages/106.md) the report and the task (A); [107](../content/pages/107.md) someone else's wiki (B); [108](../content/pages/108.md) the end of the alphabet (C, item 6); [109](../content/pages/109.md) meanwhile (F, item 4's statement inside the book); [110](../content/pages/110.md) missing from the account (G); [111](../content/pages/111.md) connections not yet drawn (H, item 7's callbacks to 039 and 040 and the critic's return). Page 105 plants the notification; page 112 receives the hand-back unchanged. D and E stay in the companion. Status `draft`: the beat/thumbnail test, lettering-density review, and the reuse inquiry (for any reproduced explorer material) remain. Packet 07, the chapter brief, the beat sheet, the scene ledger, the artifact ledger's locator table, the contract's population model and the continuity notes are updated.
 
 ### 6. Give the wiki administrator's actions a human-scale scene
 **Cost:** ~2 pages, included in item 5, not additional. **Depends on:** 2 for evidence treatment; 3 if reproducing artifacts. **Confidence:** high on the sequence's value; depiction requires reconstruction.
@@ -183,7 +185,7 @@ Not every row will survive the test; three well-placed returns are better than f
 
 - **Page 086 panel 2** ([086](../content/pages/086.md), real lane): the 039 window reopens beside the ranking disclosure with the post's delegated-analysis claim; Curt concedes the instrument as well as the channel. The 063 row folds into this page, which already bounds 063 in page 086 panel 4; the 063 and 083 re-fogs themselves belong to the map (item 8), not to the critic.
 - **Page 087 panel 3** ([087](../content/pages/087.md), real lane): the post's cherry-picking and incentive claims, aimed at OpenAI and METR, with Curt turning them on himself in page 087 panel 4 as his own reconstruction.
-- **Page 107 panels 1 and 5** ([107](../content/pages/107.md), composite lane): `SKEPTIC — COMPOSITE`, a disclosed composite window with no byline, makes the publication objection no dated writing makes, and Curt's answer puts the objection into the book. Registered in [continuity.md](../content/continuity.md), the cast, the ledger, and Packet 07.
+- **Page 113 panels 1 and 5** ([113](../content/pages/113.md), composite lane): `SKEPTIC — COMPOSITE`, a disclosed composite window with no byline, makes the publication objection no dated writing makes, and Curt's answer puts the objection into the book. Registered in [continuity.md](../content/continuity.md), the cast, the ledger, and Packet 07.
 
 Still open: the September row (after item 5) and the ending row (with item 21). Both returns of the real critic paraphrase only claims verified in the post on 5 September.
 
@@ -205,12 +207,7 @@ Three surfaces, one source of truth. Keep the canonical text in [`CREDITS.md`](.
 
 Rules: credit real people only for documented public work, in the same terms the cast table uses; do not imply endorsement by any source or commentator; state AI involvement plainly, as the book does on the page; keep the list current when a generator, model or licence changes, and record the date it was last checked.
 
-**Licence recommendation (5 September; the owner leans GPL).** Use two licences, because the repository is two kinds of work:
-
-- **The book** (scripts in `content/`, research prose, design notes, generated images and lettering): **CC BY-SA 4.0**. It is the share-alike licence for creative and documentary work, the copyleft analogue of the GPL, and Creative Commons has declared it one-way compatible with GPLv3, so anyone who wants to fold the text into GPL software may. The GPL itself fits a book badly: its terms are written around "source code" and "object code", it has no notion of attribution on a page, and a comic under it invites arguments about what the preferred form for modification of a lettered panel is.
-- **The tooling** (`scripts/`, the site builder, the renderers): **GPL-3.0-or-later**, which is what the owner wants and what the code is.
-
-Three things no licence choice changes: paraphrased third-party sources stay under their own rights and the book's licence does not relicense them; the generated images were made with Apache-2.0 weights, which place no terms on outputs, but nothing produced by the non-commercial models may appear in the book; and the wiki corpus is republished under whatever terms its custodians state (item 3). Apply by replacing the LICENSE placeholder with both texts and a one-paragraph map of which applies to what, then update the licence line in `CREDITS.md`.
+**Licence: decided 5 September — GPL-3.0-or-later for the whole repository.** The owner chose one licence over a split creative/code licence so that the repository can be forked as one thing; the poorer fit of the GPL's source-and-object vocabulary to a lettered page is accepted. [LICENSE](../LICENSE) now carries the full text with a preamble mapping what it covers and what it does not: paraphrased third-party sources keep their own rights; the wiki corpus is republished on its custodians' terms (item 3); generated images inherit their weights' licences, and nothing from a non-commercial model may appear in the book. `CREDITS.md` says the same.
 
 ---
 
@@ -263,7 +260,7 @@ Item 14 is a source-consistency check; items 15–21 are optional refinements, n
 
 Do the source/scope checks while the wiki gates are pending. Only the reuse inquiry necessarily depends on an external response. The [production review](../content/production-review.md) explicitly marks its measurements stale after the September 3 rewrite: refresh the baseline before judging compression or added-page costs. Settle any insertions/deletions before final lettering, spread layout, and page-turn review.
 
-**Budget:** item 5 adds 6–8 pages; item 6 is included, and item 7 uses that same allocation. Item 11 may add two pages; item 22 may save two, but neither is assumed. With only the wiki addition, the reviewed 112-page script becomes 118–120 pages. Item 13 is planned to fit inside existing creator pages first and may add one or two; the map pass (8) adds placements, not pages, unless a chapter-opening panel needs its own page. Credits (23) are endmatter and do not count. No fixed total is a reason to cut a necessary causal beat.
+**Budget:** item 5 adds 6–8 pages; item 6 is included, and item 7 uses that same allocation. Item 11 may add two pages; item 22 may save two, but neither is assumed. With the six-page wiki addition applied on 5 September, the script measures 118 pages. Item 13 is planned to fit inside existing creator pages first and may add one or two; the map pass (8) adds placements, not pages, unless a chapter-opening panel needs its own page. Credits (23) are endmatter and do not count. No fixed total is a reason to cut a necessary causal beat.
 
 **Before canonical integration is considered complete:** update the contract, chapter/sequence metadata, source packets, and page notes together; follow the documented pagination/regeneration workflow; run continuity, production-foundation, pagination, and cross-reference checks, then rebuild and validate the viewer. Tool success does not replace manual review of attribution, implied visual causality, chronology, or lettering density.
 

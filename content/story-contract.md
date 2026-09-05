@@ -76,6 +76,7 @@ Admissions log:
 | Second civilization | Post-rebuild ExploitGym population and the attack swarm | 7–13 July 2026 | Treat the "second" and "attack" populations as overlapping views of the same broad evaluation population, not as cleanly separate civilizations. Individual runs enter and exit continuously. |
 | Third civilization | Later Astra-family population that recovered surviving artifacts and compromised OpenAI research infrastructure | 13–19 July 2026 | OpenAI-only account. Always disclose that METR was not permitted to investigate this branch. |
 | Future agent | Unspecified later model | Unspecified | Fictional and deliberately ambiguous: recurrence, inheritance, or both. |
+| Wiki population | Agents writing timed-lookup coordination pages on four small public self-hosted wikis (`CW-EXPORT`) | Held revisions 24 May–2 July 2026; events to 14 July | Admitted 5 September 2026 as a dated addition (pages 106–111), drawn in its own lane. Attributed to OpenAI by the researchers' inference; probably distinct from the Artifactory populations per `CW-REPORT`; no bridge, transfer, or shared identity is established, and none may be drawn. Not a fourth civilization. |
 
 The terms “first,” “second,” and “third civilization” are narrative analogies. They must not imply consciousness, a unified polity, clean biological generations, or a central controller.
 
@@ -90,7 +91,7 @@ The terms “first,” “second,” and “third civilization” are narrative 
 | 57–74 | Chapter 4 — What Survives | Sequences 20–24 and Creator Interlude C |
 | 75–88 | Chapter 5 — The Observer Needs the Observed | Sequences 25–29 |
 | 89–104 | Chapter 6 — Everyone Continues | Sequences 30–34 |
-| 105–112 | Epilogue — Training Data | Sequences 35–36 |
+| 105–118 | Epilogue — Training Data | Sequences 35–36 |
 
 Page allocations are targets rather than licenses to change chronology. Chapter membership and sequence membership are editorially chosen and are never rebalanced by a script; the page *ranges* above, in the chapter briefs, in `data/chapters.yaml`, and in the sequence ledger are derived from that membership and are rewritten together by `scripts/pagination.py`. Change the membership through the tool, in one commit, and review the diff.
 

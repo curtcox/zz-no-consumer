@@ -607,7 +607,7 @@ as blanking, applied to the frame rather than a field. It costs pixels, not judg
 
 **Decided 3 September 2026.** The book no longer forbids the model rendering readable
 text. Display strings in the page scripts are project-authored — `exact-text-permissions-audit.md`
-records that distributed pages paraphrase rather than quote, and only page 112 declares
+records that distributed pages paraphrase rather than quote, and only page 118 declares
 any `exact_strings`, both of them the project's own — so there was never a reuse question
 about drawing them. The prohibition was a production convention, and it was costing more
 than it bought.

@@ -30,7 +30,7 @@ The tracked URL record is [`data/256t-sources.tsv`](../data/256t-sources.tsv), a
 | 082 | Transcript-integrity command/output example | Mechanism abstracted; mismatch and findings retained | cleared by paraphrase |
 | 112 | Future help prefix and final caption | Project-authored | clear |
 
-All third-party `exact_strings` registrations were removed from the canonical page front matter. Page 112 retains only project-authored display language.
+All third-party `exact_strings` registrations were removed from the canonical page front matter. Page 118 retains only project-authored display language.
 
 ## Editorial rules going forward
 

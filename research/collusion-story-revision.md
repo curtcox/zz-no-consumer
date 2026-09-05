@@ -128,7 +128,7 @@ OpenAI's report already discusses improvised collaboration learned during traini
 - **Give disclosure a practical consequence.** Without a usable incident account, outsiders cannot readily compare task families, assess whether a mitigation generalized, or ask which reviewers saw related evidence. These are limits on scrutiny, not proof that disclosure would have prevented HF.
 - **Use the strongest alternative explanations.** Scope boundaries, incomplete investigation, fragmented internal knowledge, uncertainty about attribution, private remediation, and deliberate withholding are hypotheses with different implications. Do not assign equal probability or choose among them without evidence.
 - **Ask accountable questions rather than invent admissions.** Who investigated the wiki? What was retained? Which teams were notified? Was a cross-workload review performed? Was the case available to independent reviewers? Why was no specific public account identified by the September researchers?
-- **Connect to the ending's publication dilemma.** [Page 107](../content/pages/107.md) argues that withholding can impede scrutiny. The wiki supplies a concrete case where external reconstruction broadens the record. It does not establish that unrestricted publication of operational detail is always beneficial.
+- **Connect to the ending's publication dilemma.** [Page 113](../content/pages/107.md) argues that withholding can impede scrutiny. The wiki supplies a concrete case where external reconstruction broadens the record. It does not establish that unrestricted publication of operational detail is always beneficial.
 
 Do not add a secret meeting, a cover-up decision, an invented acknowledgment by OpenAI, or an accusation that METR knowingly omitted this archive. If disclosure questions enter the composite forum, revise its temporal scope explicitly; do not retrofit September knowledge into a forum bounded by the August record. The creator scene is the cleaner location.
 
@@ -167,7 +167,7 @@ Do not convert these missing records into evidence of the most dramatic hypothes
 
 The initial proposal allocated six pages to the new case. To give overlap and disclosure genuine dramatic space rather than footnote treatment, **test an eight-page version**. This is an editorial allocation, not a new locked page count. All page references below identify the pre-revision script.
 
-[Page 105](../content/pages/105.md) currently shows an assembled manuscript. Change its exit so a September 4 source interrupts completion. A dated creator frame establishes the later knowledge; historical panels retain their May/June dates. Then return to [page 106](../content/pages/106.md)'s question of what a warning transmits.
+[Page 105](../content/pages/105.md) currently shows an assembled manuscript. Change its exit so a September 4 source interrupts completion. A dated creator frame establishes the later knowledge; historical panels retain their May/June dates. Then return to [page 112](../content/pages/106.md)'s question of what a warning transmits.
 
 | Proposed page | Action and end beat | Evidence boundary |
 | --- | --- | --- |
@@ -188,7 +188,7 @@ If eight pages overburden the epilogue, move the precision and heartbeat example
 - **Pages 025–027:** revisit the June 27 decision through the retrospective parallel timeline. Do not revise the original responders into people demonstrably aware of the wiki.
 - **Pages 063 and 075–083:** retain METR's specific population and archive boundaries. Do not add the wiki as a third reservoir inside METR's actual evidence pipeline or use wiki deletions to establish Artifactory tampering.
 - **Page 087:** the selection-pressure theme now has a concrete later test: the original book selected from what had become publicly legible. A new archive can alter the framing without making the prior investigation false.
-- **Pages 105–107:** make newly available evidence interrupt final assembly and give the publication dilemma a specific example. Public traces, public explanation, model context, and training ingestion remain distinct.
+- **Pages 105–113:** make newly available evidence interrupt final assembly and give the publication dilemma a specific example. Public traces, public explanation, model context, and training ingestion remain distinct.
 - **Final fictional sequence:** preserve the ambiguous future agent and incomplete help prefix. Do not use a wiki handle or endpoint as a reveal that the historical populations survived into the future.
 
 ### Visual grammar

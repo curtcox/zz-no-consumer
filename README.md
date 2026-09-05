@@ -17,7 +17,7 @@ A graphic novel about emergent AI agent coordination, instrumental convergence, 
 - `tasks/` — development task briefs for tooling work, written to be handed to a fresh session.
 - `CREDITS.md` — the one list of people, AI systems, sources, models, tools and licence behind the book; rendered as the site's credits page and set as the book's endmatter (`content/credits.md`).
 
-The complete first-draft script — 112 pages today, and the count is a measurement rather than a commitment — is in `content/pages/`, with every page currently in review. The assumptions are locked in `content/story-contract.md`, the beat sheet is `content/page-plan.md`, and the drafting and production protocol is `content/draft-readiness.md`. The source-language audit and completed paraphrase disposition are in `research/exact-text-permissions-audit.md`; the story-level security pass and resolved public-site scope decision are in `research/security-sensitivity-review.md`. Last-mile attribution rules remain in `research/draft-source-notes.md`. Before revising or renaming pages, run:
+The complete first-draft script — 118 pages today, and the count is a measurement rather than a commitment — is in `content/pages/`, with every page in review except the six-page dated addition (106–111), which is in draft. The assumptions are locked in `content/story-contract.md`, the beat sheet is `content/page-plan.md`, and the drafting and production protocol is `content/draft-readiness.md`. The source-language audit and completed paraphrase disposition are in `research/exact-text-permissions-audit.md`; the story-level security pass and resolved public-site scope decision are in `research/security-sensitivity-review.md`. Last-mile attribution rules remain in `research/draft-source-notes.md`. Before revising or renaming pages, run:
 
 ```sh
 python3 scripts/validate-continuity.py
@@ -175,7 +175,7 @@ python3 scripts/textimage.py render --width 1200 --height 800 --out card.svg \
 
 `--text-file` and standard input work in place of `--text`. `--label` and `--footer` are single-line edge markers, shortened rather than allowed to widen the image.
 
-The `book` command writes one placeholder for every page and every panel image slot in `content/pages/` — as the script stands, 112 page sheets at 700×1000 and 547 panel images at 1200×800:
+The `book` command writes one placeholder for every page and every panel image slot in `content/pages/` — as the script stands, 118 page sheets at 700×1000 and 578 panel images at 1200×800:
 
 ```sh
 python3 scripts/textimage.py book --out-dir docs/assets/placeholders
@@ -254,7 +254,7 @@ python3 scripts/paneltypes.py summary              # counts by type and route
 python3 scripts/produce.py run --route local       # the 270 panels any model can draw
 python3 scripts/produce.py run --route text-fidelity --provider qwen-image-local
 ```
- A full pass is one render per slot — 547 as the script stands, about twelve hours at the measured 78 seconds each, at the `--bleed 0.10` the drawn-border crop needs — so the run is built to be interrupted: panels that already have art are skipped, a running estimate is printed, and Ctrl-C stops after the current panel rather than losing it. Re-running continues where it stopped. `--force` regenerates existing panels and says how many it will overwrite first.
+ A full pass is one render per slot — 578 as the script stands, about twelve hours at the measured 78 seconds each, at the `--bleed 0.10` the drawn-border crop needs — so the run is built to be interrupted: panels that already have art are skipped, a running estimate is printed, and Ctrl-C stops after the current panel rather than losing it. Re-running continues where it stopped. `--force` regenerates existing panels and says how many it will overwrite first.
 
 Each panel's prompt is composed from the same canonical sources the bake-off uses, with the register modifier derived from the page's primary location. `python3 scripts/produce.py registers -v` prints that derivation for every page so a wrong call is visible rather than silent; the rules live in `REGISTER_RULES` at the top of the script.
 

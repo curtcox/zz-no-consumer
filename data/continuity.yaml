@@ -18,6 +18,12 @@ populations:
     ends: 2026-07-19T17:37:00Z
     referent: Later Astra-family population recovering surviving artifacts
     evidence: openai-only
+  - id: wiki
+    story_name: Wiki population
+    begins: 2026-05-24
+    ends: 2026-07-02
+    referent: Agents writing coordination pages on public self-hosted wikis (CW-EXPORT), admitted 5 September 2026 as a dated addition
+    evidence: corpus-plus-researcher-inference
   - id: future
     story_name: Future agent
     begins: unspecified
