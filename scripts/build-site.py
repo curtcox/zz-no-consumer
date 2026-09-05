@@ -73,11 +73,14 @@ def settings_panel() -> str:
 def markdown_sources(internal: bool) -> list[Path]:
     if internal:
         return sorted(
-            path
-            for folder in ("content", "prompts", "research", "design")
-            for path in (ROOT / folder).rglob("*.md")
+            [ROOT / "CREDITS.md"]
+            + [
+                path
+                for folder in ("content", "prompts", "research", "design")
+                for path in (ROOT / folder).rglob("*.md")
+            ]
         )
-    public_files = [ROOT / "content" / "premise.md", ROOT / "content" / "source-links.md"]
+    public_files = [ROOT / "content" / "premise.md", ROOT / "content" / "source-links.md", ROOT / "CREDITS.md"]
     public_files.extend((ROOT / "content" / "chapters").rglob("*.md"))
     public_files.extend((ROOT / "content" / "pages").rglob("*.md"))
     return sorted(path for path in public_files if path.exists())

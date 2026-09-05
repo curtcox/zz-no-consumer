@@ -21,6 +21,10 @@ This public index links to original publications rather than republishing report
 - [ExploitGym paper](https://arxiv.org/abs/2605.11086)
 - [AISI comparative incident report](https://www.aisi.gov.uk/blog/incident-report-unsanctioned-agent-behaviour-during-cyber-testing)
 
+## Published critique cited on the page
+
+- [Carl Brown, No — AI Agents Did Not Build Secret Civilizations (Internet of Bugs, 3 September 2026)](https://internetofbugs.substack.com/p/noai-agents-did-not-build-secret)
+
 ## Public oversight record
 
 - [Alabama Attorney General subpoena 26-0007](https://www.alabamaag.gov/wp-content/uploads/2026/08/OpenAI-Subpoena_Final.pdf)

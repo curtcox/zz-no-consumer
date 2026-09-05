@@ -8,7 +8,7 @@ The ending is not evidence that this book will be used to train a model, that an
 
 ## Source and inference keys
 
-- `NONE-FICTION` — Reconstructed Curt/ChatGPT dialogue and the wholly invented future sequence.
+- `NONE-FICTION` — Reconstructed Curt/ChatGPT dialogue, the disclosed composite `SKEPTIC — COMPOSITE` window on page 107, and the wholly invented future sequence. The composite carries the publication objection, which no dated writing makes; it is labelled composite on the panel and is not the named page-039 critic.
 - `PROJECT-INFERENCE` — The project's analysis that warnings can transmit frames and strategies as well as cautions; silence also has costs; publication creates an artifact whose future uses cannot be fully controlled.
 - `METR` — [METR/Redwood, *Brief independent investigation of agents' behavior, reasoning and collaboration in the OpenAI / Hugging Face hacking incident*](https://metr.org/blog/2026-08-26-openai-hugging-face-incident-investigation/), used only to establish the documented 2026 directory-name help request that the fictional ending echoes.
 

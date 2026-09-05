@@ -47,6 +47,8 @@ Handles are self-assigned. METR reportedly found that handles generally referred
 | Clem Delangue | Hugging Face CEO; clarified the timing and role of open-weight models in response. |
 | Leo Gao | OpenAI researcher who suggested an alternative reading of the grader discrepancy. |
 | Roon | OpenAI researcher who publicly bounded the relationship between compromised VM infrastructure and GPU weight access. |
+| Carl Brown | Internet of Bugs; self-described sceptic. Published the 3 September critique of the civilization framing (malware, prompt injection, persistence of context) that page 039 paraphrases as `IOB-CIV`, returning on pages 086 and 087. Appears only as text on screen. |
+| `SKEPTIC — COMPOSITE` | Disclosed composite window in the creator register (page 107) for objections no dated writing makes. No real name, byline, face, or body. Not Carl Brown. |
 
 ## Institutional relationships to preserve in narrative
 

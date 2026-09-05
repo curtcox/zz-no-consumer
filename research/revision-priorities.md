@@ -1,10 +1,12 @@
 # Revision Priorities — Ranked
 
-**Compiled 4 September 2026.** Planning artifact, not canon. Nothing here amends the [story contract](../content/story-contract.md).
+**Compiled 4 September 2026; decisions of 5 September applied.** Planning artifact, not canon. Nothing here amends the [story contract](../content/story-contract.md).
+
+**5 September decisions.** The fog-of-war knowledge map is **approved**, and the adoption pass draws with **W3 patchy contest** (item 8; adoption is now a scheduled whole-book pass, not an open question). The skeptical voice is to be **expanded, not merely decided** (item 13; the plan leans heavily toward a recurring critic). A **credits section** is added to the repository, the story's endmatter, and the published site (item 23). The wiki gates in Tier 1 are unchanged.
 
 This merges two bodies of work: the editorial review of the 112-page script conducted 3 September (partly applied — see §Applied), and the [collusion wiki proposal](./collusion-story-revision.md) of 4 September (not applied). Page references identify the script reviewed on 4 September; the page count is a baseline, not a target. No canonical story edits or external contact are authorized by this document.
 
-The tiers prioritize approval gates, structural work, and optional craft improvements. Numbers are stable item IDs, not a strict execution order: factual corrections in items 11 and 14 should not wait for optional layout work. **Cost** is an editorial estimate, **Depends on / Blocks** identifies actual prerequisites, and **Confidence** describes confidence in the recommendation, not certainty about its underlying historical claims. Tier 4 shares a small-pass estimate; its optional additions must still earn their space.
+The tiers prioritize approval gates, structural work, and optional craft improvements. Numbers are stable item IDs, not a strict execution order: factual corrections in items 11, 14 and 13a should not wait for optional layout work. **Cost** is an editorial estimate, **Depends on / Blocks** identifies actual prerequisites, and **Confidence** describes confidence in the recommendation, not certainty about its underlying historical claims. Tier 4 shares a small-pass estimate; its optional additions must still earn their space.
 
 ---
 
@@ -33,6 +35,8 @@ Two interactions matter:
 The contract freezes the main narrative at 30 August **and expressly permits later sources to correct dates, source summaries, identities, or technical claims**. The [1 September follow-up](./follow-up-research.md) draws on both METR and Cotra; its use is not, by itself, proof of a contract violation. Audit the existing corrections against that exception rather than claiming that the board and stop accounts depend only on the interview.
 
 The September 4 wiki addition is a broader change and needs its own approval. **Recommend the proposal's narrow, dated evidence-update exception**, keeping the August 30 aftermath boundary. Distinguish event dates from when the evidence became available, without creating an open-ended license for later news to reshape the book. If approved, clarify [page 092](../content/pages/092.md)'s `NARRATIVE CUTOFF — 30 AUGUST` label and matching provenance language. If declined, keep the wiki in an illustrated afterword or dated site update. Independent corrections and craft work can proceed either way.
+
+**Decided 5 September, in part:** the contract now admits dated post-cutoff critiques to the creator register one source at a time by recorded decision, and admits `IOB-CIV` (3 September) under that clause. The wiki evidence update remains undecided; the critique clause is deliberately narrower than the wiki's exception, since a critique is evidence of argument, not of events.
 
 ### 2. Register the corpus separately from the researchers' interpretation
 **Cost:** small; source index, artifact ledger, scene provenance, and affected packets. **Blocks:** canonical pages citing the wiki. **Confidence:** high.
@@ -100,16 +104,24 @@ Keep the disclosure callback equally bounded: **as of the September 4 report, it
 
 ## Tier 3 — Script-wide craft and continuity
 
-### 8. Decide the fog map: adopt, defer, or drop
-**Cost:** decision and reference audit; a whole-book pass if adopted. **Depends on:** item 5's test if the wiki proceeds. **Confidence:** high that a decision is needed; medium on adoption.
+### 8. Fog map: approved 5 September — plan the whole-book pass
+**Cost:** spec revision, reference audit of the seven prepared pages, then a whole-book placement pass and a web presentation pass. **Depends on:** item 5's test only for the added wiki pages. **Confidence:** high on adoption and on the W3 treatment.
 
-[`design/knowledge-map.md`](../design/knowledge-map.md) is a specification, not an adopted mechanic. It names seven prepared pages; audit their actual dependencies rather than assuming seven map appearances. The wiki proposal correctly warns against silently adding a whole-book visual system.
+**Decision:** the fog-of-war apparatus in [`design/knowledge-map.md`](../design/knowledge-map.md) is adopted as the book's epistemic apparatus, and the [fog-of-war studies](../assets/knowledge-maps/fog-v1/) (computed raster fog with a soft, irregular edge, shaded relief, draped pictograms) are the approved visual direction over the four vector families A–D. Approval is of the mechanic and the look; it is not yet a page-level application, and no canonical page changes until the pass below is run.
 
-- **Adopt:** revise the spec deliberately and check every intended appearance. A parallel chronology and a map of changing confidence serve different purposes; neither automatically justifies the other.
-- **Defer:** keep the specification as a proposal, remove any page-level reliance on an unimplemented device, and revisit after the wiki thumbnail test or before art lock if the wiki does not proceed.
-- **Drop:** remove remaining script dependencies and mark the specification as not adopted.
+What approval settles:
 
-Recommendation: **defer adoption until item 5 is tested**, with the added scenes required to work without it. The unacceptable outcome is not deferral; it is a script that depends on a device nobody has approved.
+- The map appears in the book; the seven prepared pages (016, 032, 035, 039, 040, 064, 086) may now rely on it, subject to the audit below.
+- Re-fogged ground stays dimly visible under the fog. This is the studies' "explored, not visible" state, drawing rule 4 made literal; treat it as the permitted fourth look and amend the three-state rule in the spec accordingly.
+- Web-first publication, three placements (margin, gutter, chapter-opening panel), and distinct per-party maps stand as specified.
+
+Still open, and needed before drawing:
+
+- **Treatment: decided 5 September — W3 patchy contest.** Contested ground shows in irregular patches and the fog itself carries the uncertainty. W2 and W1 remain in the gallery as comparison, not as options for the pass.
+- **P6 before page 016:** decide during the pass, when the page-010 appearance is drawn. Keep both study variants until then.
+- **Whether the sample lettering changes:** the sample SVGs, contact sheets, and gallery are labelled *not adopted* and the checks compare bytes; relabel them in one regeneration commit when the treatment is fixed, not piecemeal.
+
+Work list for the pass: (1) revise the spec's status, drawing rules and open questions — **done 5 September**; (2) audit each prepared page's actual dependency — **done 5 September: only page 016 panel 5 depends on the apparatus by name; the other six are compatible and work without it**; page 010 panel 4 and page 025 panel 4 are scheduled as the earliest appearances; (3) list every intended appearance by page and placement — **done 5 September, seventeen appearances, in the spec's "Adoption pass" section**; (4) decide the web presentation — proposed in the spec as a `map=` fragment setting naming the viewpoint, not built; (5) generate the strips from the fixture data through the site builder, relabel the samples, and rerun the gallery, viewer and continuity checks — not started. The wiki scenes of item 5 must still work with the map removed; the map makes 039, 063, 083 and 086 cumulative, it does not make them.
 
 ### 9. Vary the closing cadence without weakening claim boundaries
 **Cost:** a lettering pass, no required page additions. **Depends on:** no wiki approval; repeat on newly drafted pages. **Confidence:** high on testing greater variety.
@@ -125,8 +137,10 @@ The contract permits spreads "sparingly for scale, convergence, or evidence stru
 
 Adopt only if the paired design improves the reading, stays within one chapter, keeps essential text out of the gutter, and works as individual digital pages. Declare the `spread:` metadata and run the pagination check; review the [production audit](../content/production-review.md) after any insertion.
 
-### 11. Establish the 13 July artifact origin and clarify the scope boundary
+### 11. Establish the 13 July artifact origin and clarify the scope boundary — done 5 September, within existing pages
 **Cost:** test within existing pages first; allow ~2 pages if clarity requires them. **Confidence:** high on the missing causal beat; medium on added length.
+
+**Applied:** page 067 panel 1 now states both boundaries (METR's window 26 June to 13 July; the OpenAI-infrastructure branch out of scope by subject) and carries the 13 July origin card at consequence level under the OpenAI header; page 068 panel 3 dates the recovered artifacts to 13 July; Packet 04 has the branch row. No page was added. The paragraph below is the record of the finding.
 
 Chapter 4 jumps from [067](../content/pages/067.md)'s source boundary to [068](../content/pages/068.md)'s 19 July recovery. The [timeline](./timeline.md)'s 13 July OpenAI-infrastructure branch supplies the origin of the signing/decryption material and credential-forging code later recovered from the cache. Establish that origin before the recovery, with `OAI-TR` attribution and consequence-level abstraction only. Do not confuse this material with the board's separate message-signing convention.
 
@@ -139,12 +153,53 @@ Page 067 states both a calendar boundary and a record-access limitation. Clarify
 
 Make the desire to publish a defensible account conflict with the desire to finish it. A visible change to the manuscript, a crossed-out conclusion left in view, or the September discovery interrupting completion can carry that stake without another speech about method. Keep invented creator actions labeled as reconstruction, not preserved autobiography. Coordinate with item 5 if adopted and item 21's ending.
 
-### 13. Decide whether a skeptical voice needs to recur
-**Cost:** none if omitted; test within existing creator space before adding pages. **Depends on:** item 5's test if the wiki proceeds. **Confidence:** medium.
+### 13. Expand the critic into a recurring voice
+**Cost:** a creator-register pass across four to five existing pages, plus one or two pages if the recurrences do not fit; a source pass to register dated writing for each recurrence. **Depends on:** 13a for the existing critique; item 5's draft for the September recurrence. **Confidence:** high that the book wants the voice back; medium on how many recurrences it can carry.
 
-The published critic on page 039 is real, dated, attributed, and text-only. The contract permits a separate disclosed composite foil, not invented appearances or new arguments assigned to that critic. Do not credit the critic with anticipating the wiki concurrency finding: persistence of context and overlapping populations are different claims.
+**Decision (5 September):** lean heavily toward expansion, using both lanes below. Page 039 introduces the strongest objection in the book and then drops it; the later re-fogs (063, 083, 086) and the September discovery each change the ground the objection stood on, and nobody on the page says so. The critic should return at those points, and each return must force a distinct revision to the manuscript rather than replay 039 or stage a victory in a debate.
 
-A recurring objection should force a distinct revision, not repeat page 039 or stage another victory in a debate. **Decide after item 5**, since the new evidence may already do that work. If the wiki is deferred, decide during the creator-page pass before art lock.
+The contract sets the two lanes and they must not blur:
+
+- **The real critic, by attributed paraphrase of dated public writing.** Text on screen only; no face, body, room, or invented dialogue; nothing the cited writing does not say. Each recurrence needs a dated source the reader can follow, and the paraphrase ceiling is the writing's own claim. Where the record contains more than one published sceptic (the [source index](./sources.md) already lists critical commentary and the no-novel-technique analyses), different recurrences may cite different writers, each named and dated on-panel.
+- **A disclosed composite foil** for objections no dated writing makes. It carries no real person's name, is labelled a composite where it first appears, and is drawn in the creator register as a window like ChatGPT's, so the formal point of page 039 panel 1 (one of these windows is a person) can be kept or deliberately inverted. It may not be credited with anticipating the wiki concurrency finding: persistence of context and overlapping populations are different claims.
+
+Candidate recurrence points, to be tested in this order:
+
+| Where | The objection the critic can make | The revision it forces |
+| --- | --- | --- |
+| After [063](../content/pages/063.md) | "No agent told a human" was a total claim; it is now bounded to a sample. What else in the book is a sample dressed as a census? | Curt narrows one more claim on the page, visibly. |
+| After [083](../content/pages/083.md) | If the record is not the event, the malware reading and the civilization reading are both stories told over the same logs. | The map re-fogs P3 and the creator scene says why. |
+| At [086](../content/pages/086.md) | The eleven coordinators were a ranking. The critic asked for this on 039 and was right about the method, not only the channel. | The disclosure lands as a concession to a named argument, not a self-correction in private. |
+| The September discovery (item 5, after 105) | The wiki does not rescue the civilization reading; it widens the task evidence and nothing else. | The added pages carry the critic's bound, so the addition does not read as vindication. |
+| The ending (items 12, 21) | Publishing the account puts the argument into the training data too, including the critic's. | The title callback includes the objection, not only the thesis. |
+
+Not every row will survive the test; three well-placed returns are better than five. The map is not a scoreboard of Curt versus the critic, and no recurrence may be drawn as the critic's map. Decide the September row after item 5; the others do not wait for wiki approval.
+
+**Drafted 5 September, three returns, inside existing panels:**
+
+- **Page 086 panel 2** ([086](../content/pages/086.md), real lane): the 039 window reopens beside the ranking disclosure with the post's delegated-analysis claim; Curt concedes the instrument as well as the channel. The 063 row folds into this page, which already bounds 063 in page 086 panel 4; the 063 and 083 re-fogs themselves belong to the map (item 8), not to the critic.
+- **Page 087 panel 3** ([087](../content/pages/087.md), real lane): the post's cherry-picking and incentive claims, aimed at OpenAI and METR, with Curt turning them on himself in page 087 panel 4 as his own reconstruction.
+- **Page 107 panels 1 and 5** ([107](../content/pages/107.md), composite lane): `SKEPTIC — COMPOSITE`, a disclosed composite window with no byline, makes the publication objection no dated writing makes, and Curt's answer puts the objection into the book. Registered in [continuity.md](../content/continuity.md), the cast, the ledger, and Packet 07.
+
+Still open: the September row (after item 5) and the ending row (with item 21). Both returns of the real critic paraphrase only claims verified in the post on 5 September.
+
+### 13a. Register the page-039 critique in the source index — done 5 September
+**Cost:** small; a correction, not a craft choice. **Blocks:** item 13's first lane. **Confidence:** high.
+
+**Resolved.** The critique is Carl Brown, *No — AI Agents Did Not Build Secret Civilizations: Stop Anthropomorphizing Malware*, Internet of Bugs Substack, 3 September 2026, now registered as `IOB-CIV` in the scene ledger, Packet 02, [sources.md](./sources.md), the [cast](./cast.md), the public source index, and the vault manifest, and cited on page 039 in the front matter, page 039 panels 1, 2 and 5, and the page notes. All three claims page 039 panel 2 paraphrases, and the Black Hat citation page 039 panel 5 attributes to it, are in the post. Two consequences remain: the post is dated after the 30 August cutoff and was admitted on 5 September under the contract's new critique clause (see item 1); and the post's own thesis, a persistence of context across the whole period, is the critic's claim, not the wiki concurrency finding, which item 13 already keeps apart. The paragraph below is the record of the gap as found.
+
+Page 039 says the critique is "cited in the source index", and [Packet 02](./chapter-source-packets/02-erasure-and-return.md) and the [scene ledger](./scene-provenance.md) repeat that it is a real dated publication cited on-panel. **No entry for it exists** in [sources.md](./sources.md) or the [cast](./cast.md): the malware / prompt-injection / "one run's text lands in another run's context" argument is not attributed anywhere in the repository to a named writer, date, or URL. Until it is, the page's `documented` provenance for page 039 panels 2 and 5 rests on a citation the reader cannot follow. The source was identified from the 4 September drafting session, which researched the author but never registered the post. The Black Hat talk transcript supplied on 5 September is `OAI-BH`, not the critique; it is kept in the vault at `256t/transcripts/oai-black-hat-2026-08-05-transcript.md` and confirms the 17:03 and 14:06 locators. If the argument was composed from more than one source, split the attribution on-panel or move the panel to `reconstructed` with a disclosed composite, per the contract.
+
+### 23. Add a credits section to the repository, the story, and the published site
+**Cost:** small to write; a source pass to make it complete and a licence decision to make it publishable. **Depends on:** nothing for the first version; the [LICENSE](../LICENSE) placeholder for the terms it states. **Confidence:** high.
+
+Three surfaces, one source of truth. Keep the canonical text in [`CREDITS.md`](../CREDITS.md) at the repository root and derive the other two from it rather than maintaining three lists.
+
+- **Repository:** `CREDITS.md`, linked from the README. Names the author, the AI systems used in drafting and tooling and how (the commit record shows Claude co-authorship; the premise names ChatGPT as the in-story collaborator), the primary sources and the named commentators the book paraphrases, the models, weights and licences behind any generated image, and the licence of the work itself once the placeholder is replaced.
+- **Story:** endmatter, outside the numbered page count, which the contract already excludes acknowledgements from. It is not a story page and is not added through the pagination tool. It carries the credits, the provenance-vocabulary key, and the pointer to the source index; it must not restate the page count as a fixed number.
+- **Published site:** a public route (`pages/CREDITS.html`, the same place the premise and the original-source index are published) built from the same Markdown and listed in the site navigation. Links from it to non-public repository files point at GitHub, since the public build excludes research and the contract. The public build is story-first, so the credits page links to original publications and names tools; it does not pull research or vault material.
+
+Rules: credit real people only for documented public work, in the same terms the cast table uses; do not imply endorsement by any source or commentator; state AI involvement plainly, as the book does on the page; keep the list current when a generator, model or licence changes, and record the date it was last checked.
 
 ---
 
@@ -152,7 +207,7 @@ A recurring objection should force a distinct revision, not repeat page 039 or s
 
 Item 14 is a source-consistency check; items 15–21 are optional refinements, not a checklist of facts to add. Prefer replacements over denser lettering. Items 17–20 remain source leads until their cited passages are checked and recorded in the relevant audit or packet. Item 22 needs a separate pacing test because deleting pages is structural work.
 
-**14. Reconcile the multistate-letter sources before changing page 092.** The [timeline](./timeline.md) says the letter was not located in an official repository, but [Packet 06](./chapter-source-packets/06-everyone-continues.md) now registers an Iowa attorney-general PDF as `AG-LETTER` and describes preservation, whistleblower-protection, and cease-and-desist demands. The original priority misattributed the older note to `sources.md`. Check the linked letter against all three tabs on [page 092](../content/pages/092.md). If it supports them, update the stale timeline and source index rather than downgrading the page; otherwise narrow and attribute the unsupported wording. Keep demands distinct from findings. The separately sourced Alabama subpoena is unaffected.
+**14. Reconcile the multistate-letter sources before changing page 092 — done 5 September.** The Iowa attorney general's PDF supports all three tabs on page 092: preservation (eleven categories), whistleblower protection, and a cease-and-desist demand on advanced-exploitation evaluations pending controls. It is dated 3 August and signed by fifteen states. The timeline's stale "not located" note is replaced, the letter is registered in the source index as `AG-LETTER`, and page 092 panel 1 carries the date, the state count, and the checked mapping. Original finding: The [timeline](./timeline.md) says the letter was not located in an official repository, but [Packet 06](./chapter-source-packets/06-everyone-continues.md) now registers an Iowa attorney-general PDF as `AG-LETTER` and describes preservation, whistleblower-protection, and cease-and-desist demands. The original priority misattributed the older note to `sources.md`. Check the linked letter against all three tabs on [page 092](../content/pages/092.md). If it supports them, update the stale timeline and source index rather than downgrading the page; otherwise narrow and attribute the unsupported wording. Keep demands distinct from findings. The separately sourced Alabama subpoena is unaffected.
 
 **15. Avoid replaying scale as escalation.** [Page 005](../content/pages/005.md) gives 76 agents and 1,953 non-file messages at six hours; [037](../content/pages/037.md) gives lower bounds of more than fifty agents and a thousand messages "within hours." These are compatible, but the page text does not establish a distinct earlier snapshot. Prefer removing the repeated count from 037 and emphasizing handover or division of work. Do not swap figures between dates or message populations merely to make the numbers rise.
 
@@ -189,17 +244,27 @@ Item 14 is a source-consistency check; items 15–21 are optional refinements, n
 | Prepare source registration (2) and reuse inquiry (3) | No cutoff decision needed for research; approval needed before external contact | Claim-level locators and reuse status recorded; unresolved reproduction rights have a paraphrase fallback. |
 | Approve the dated update (1), then population framing (4) | Editorial approval | Contract and cutoff labels distinguish the bounded aftermath from the September evidence update. |
 | Draft/test the wiki sequence (5, including 6–7) | Integration requires 1, 2, 4; reproduction requires 3 | Six-page core tested, optional eight-page version compared, privacy and attribution reviewed. |
-| Decide map and skeptic (8, 13) | Wiki test if proceeding; otherwise creator-page review | Adopt, defer with a checkpoint, or omit; no unimplemented device is required by the script. |
-| Correct scope/source inconsistencies (11, 14) | Existing source audit, not wiki approval | Branch scope and letter provenance agree across pages, packets, and timeline. |
+| Fog-map adoption pass (8) | W3 chosen; the P6-before-016 decision is made during the pass | Spec revised, seven prepared pages audited, every appearance listed by page and placement, samples relabelled, gallery and viewer checks green. |
+| Register the 039 critique (13a), then expand the critic (13) | 13a needs only a source check; the September recurrence waits for item 5's draft | Every recurrence is either dated attributed paraphrase or a disclosed composite, and each forces a visible revision. |
+| Credits (23) | None for the first version; licence decision before distribution | `CREDITS.md`, story endmatter, and the public credits page agree and name the same people, sources, tools and licences. |
+| Correct scope/source inconsistencies (11, 14) — done 5 September | Existing source audit, not wiki approval | Branch scope and letter provenance agree across pages, packets, and timeline. |
 | Craft passes (9–10, 12, 15–22) | No wiki approval; coordinate overlapping pages and source checks | Changes improve the reading without weakening evidence boundaries. |
 
 Do the source/scope checks while the wiki gates are pending. Only the reuse inquiry necessarily depends on an external response. The [production review](../content/production-review.md) explicitly marks its measurements stale after the September 3 rewrite: refresh the baseline before judging compression or added-page costs. Settle any insertions/deletions before final lettering, spread layout, and page-turn review.
 
-**Budget:** item 5 adds 6–8 pages; item 6 is included, and item 7 uses that same allocation. Item 11 may add two pages; item 22 may save two, but neither is assumed. With only the wiki addition, the reviewed 112-page script becomes 118–120 pages. Any added skeptic pages or whole-book map work require a separate allocation. No fixed total is a reason to cut a necessary causal beat.
+**Budget:** item 5 adds 6–8 pages; item 6 is included, and item 7 uses that same allocation. Item 11 may add two pages; item 22 may save two, but neither is assumed. With only the wiki addition, the reviewed 112-page script becomes 118–120 pages. Item 13 is planned to fit inside existing creator pages first and may add one or two; the map pass (8) adds placements, not pages, unless a chapter-opening panel needs its own page. Credits (23) are endmatter and do not count. No fixed total is a reason to cut a necessary causal beat.
 
 **Before canonical integration is considered complete:** update the contract, chapter/sequence metadata, source packets, and page notes together; follow the documented pagination/regeneration workflow; run continuity, production-foundation, pagination, and cross-reference checks, then rebuild and validate the viewer. Tool success does not replace manual review of attribution, implied visual causality, chronology, or lettering density.
 
 ---
+
+## Decided on 5 September
+
+| Decision | Recorded where |
+| --- | --- |
+| Fog-of-war knowledge map approved; W3 patchy contest chosen; P6 timing decided during the pass | Item 8; [knowledge-map.md](../design/knowledge-map.md) status; README |
+| Critic to be expanded into a recurring voice through both lanes; page-039 critique identified as Carl Brown's 3 September post and registered as `IOB-CIV` | Items 13, 13a |
+| Credits section added to repository, story endmatter, and public site | Item 23; [CREDITS.md](../CREDITS.md); [content/credits.md](../content/credits.md); `scripts/build-site.py` |
 
 ## Applied on 3 September
 

@@ -216,6 +216,8 @@ For reconstructed private human scenes, use these locked functional roles:
 
 Do not merge roles merely to reduce cast unless the resulting composite is documented in page notes. A composite cannot be given a real person's name.
 
+The creator register has one disclosed composite: `SKEPTIC — COMPOSITE`, a screen-text window beside ChatGPT's that carries objections no dated public writing makes. It is labelled composite on the panel, has no byline, face, body, or room, and is visually distinct from the named critique window of page 039, which always carries a byline and a date. Introduced on page 107.
+
 ### Dialogue rules
 
 - Raw agent text: private research only unless separately cleared; distributed pages use attributed paraphrase.

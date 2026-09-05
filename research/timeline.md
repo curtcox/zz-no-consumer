@@ -82,7 +82,7 @@ All times below are UTC unless noted. `[§X]` means the dossier says the entry a
 | 21 Jul | PUB | OpenAI publishes first admission. | OpenAI primary source |
 | 25 Jul | OAI | IM1 and derivatives are quarantined; training and inference are stopped. | OpenAI account |
 | 27 Jul | PUB | HF publishes technical intrusion timeline and replay. | HF primary source |
-| 3 Aug | PUB/OVERSIGHT | A 15-state attorney-general coalition sends OpenAI a preservation demand concerning the incident. | Secondary reporting; letter not located in an official repository |
+| 3 Aug | PUB/OVERSIGHT | Fifteen state attorneys general, led by Iowa, send OpenAI a letter demanding preservation of eleven categories of material, no adverse action against whistleblowers, and a halt to evaluations that prompt models toward advanced exploitation until OpenAI shows it can run them in a controlled way. | `AG-LETTER`, the letter itself, published by the Iowa attorney general (checked 5 Sep 2026); its incident narrative is drawn from public reporting and is a demand letter, not a finding |
 | 5 Aug | PUB | OpenAI Black Hat talk reveals message-board prehistory; Meta publishes a separate incident; AISI publishes a separate report in August. | Primary/secondary sources |
 | 18 Aug | PUB | OpenAI publishes model-development pause and Astra risk context. | OpenAI primary source |
 | 20 Aug | OVERSIGHT | Alabama issues subpoena 26-0007 under its Deceptive Trade Practices Act investigation, demanding responses to 16 requests by 10:00 a.m. Central on 14 September. | Alabama Attorney General subpoena |

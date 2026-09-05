@@ -53,6 +53,8 @@ The main narrative record is frozen at **30 August 2026**.
 
 Later developments belong in endnotes or a dated site update unless they materially overturn a load-bearing incident fact. A later source may correct dates, source summaries, identities, or technical claims before pages are locked, but routine news should not continually reshape the first draft.
 
+A published critique of the incident's coverage dated after the cutoff may be admitted to the creator register, one source at a time, by a recorded decision. It appears with its date on the page, is paraphrased under the critic rule below, and is evidence of what was argued, not of what happened. Admitted on 5 September 2026: Carl Brown, *No — AI Agents Did Not Build Secret Civilizations* (3 September 2026), cited as `IOB-CIV` on page 039.
+
 ## Canonical population model
 
 | Story term | Research referent | Date range | Treatment |
