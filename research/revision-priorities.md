@@ -2,193 +2,210 @@
 
 **Compiled 4 September 2026.** Planning artifact, not canon. Nothing here amends the [story contract](../content/story-contract.md).
 
-This merges two bodies of work: the editorial review of the 112-page script conducted 3 September (partly applied — see §Applied), and the [collusion wiki proposal](./collusion-story-revision.md) of 4 September (not applied). Items are ranked by impact per unit of cost, with dependency order respected where it conflicts with raw impact.
+This merges two bodies of work: the editorial review of the 112-page script conducted 3 September (partly applied — see §Applied), and the [collusion wiki proposal](./collusion-story-revision.md) of 4 September (not applied). Page references identify the script reviewed on 4 September; the page count is a baseline, not a target. No canonical story edits or external contact are authorized by this document.
 
-Each item carries **Cost** (pages/effort), **Blocks** (what waits on it), and **Confidence** (how sure I am it's right).
+The tiers prioritize approval gates, structural work, and optional craft improvements. Numbers are stable item IDs, not a strict execution order: factual corrections in items 11 and 14 should not wait for optional layout work. **Cost** is an editorial estimate, **Depends on / Blocks** identifies actual prerequisites, and **Confidence** describes confidence in the recommendation, not certainty about its underlying historical claims. Tier 4 shares a small-pass estimate; its optional additions must still earn their space.
 
 ---
 
 ## The convergence
 
-The two reviews found the same defect from opposite directions and neither one names it alone.
+The two reviews expose related limits, but they do not establish the same causal explanation.
 
-The script review found that the book's **causal spine starts one step too late**: the training configuration — trained inter-agent communication, speed pressure, one permitted outward path, reduced cyber refusals — governs everything and was absent from all 112 pages.
+The script review found that the book's **causal spine started one step too late**: trained inter-agent communication, speed pressure, one permitted outward path, and reduced cyber refusals were missing conditions. Pages 016–017 now establish them through the single-sourced [configuration audit](./training-configuration.md). Those conditions matter; they do not establish the cause of each later action or the wiki workloads' configuration.
 
-The wiki proposal finds that the book's **shape is wrong**: it presents successive civilizations where the record now shows concurrent populations on unrelated task families, with knowledge that reached the public at different times.
+The wiki proposal challenges the book's **apparent completeness**: a sequence of Artifactory populations can obscure other activity on different task families during the same period. The overlap is strongest in May–June. Held wiki revisions end July 2; later moderation events do not establish wiki posting during the July HF attack.
 
-Both say the same thing. **The book presents a complete, sequential account of something that was partial and parallel.** Treat them as one change with two halves, not two projects.
+The shared editorial opportunity is to make a bounded account visibly bounded, without replacing a too-clean succession story with an equally unsupported story of one connected swarm.
 
-Two specific interactions matter more than either finding alone:
+Two interactions matter:
 
-- **The wiki weakens an objection the script now concedes.** New page 040 accepts the cyber-task selection effect — "one incident / one task family." The wiki agents were doing timed public-data lookups: wages, workforce statistics, health measures. That is a different task family exhibiting the same coordination. It does not dissolve the objection (`CW-REPORT` infers OpenAI models, so the training confounder survives intact), but it converts *this only happened to cyber agents* from a live alternative into a narrower one.
-- **The wiki reopens the channel question at exactly the page that opened it.** [Page 039](../content/pages/039.md) now leaves rediscovery-versus-inheritance unresolved. The proposal's training-time-transfer hypothesis lands on the same seam. 039 becomes the hub both revisions route through, and it should not be re-litigated in the epilogue.
+- **The wiki broadens the task evidence without removing selection effects.** Page 040 accepts the cyber-task selection concern — "one incident / one task family." Wiki posts describe timed public-data lookups and answer relays. This is evidence of coordination beyond cyber tasks, not an independent replication of the HF attack or evidence about every capable model. `CW-REPORT` infers OpenAI attribution; model checkpoints and training histories remain unverified.
+- **The wiki supplies a callback to the channel question.** [Page 039](../content/pages/039.md) leaves rediscovery-versus-inheritance unresolved. Training-time transfer involving the wiki is a further hypothesis, not new proof of the weights channel. Distinguish public availability, a run reading an artifact, and training on it. The dated addition can recall 039 without deciding any of those missing links.
 
 ---
 
-## Tier 1 — Do first: cheap, and everything else waits on them
+## Tier 1 — Approval and evidence gates for the wiki addition
 
-### 1. Amend the research cutoff, and fix the label that already contradicts it
-**Cost:** one contract edit, one panel. **Blocks:** items 4–7, 9. **Confidence:** high.
+### 1. Approve a bounded evidence update; clarify the cutoff labels
+**Cost:** contract decision plus a consistency pass over cutoff references. **Blocks:** canonical integration of items 4–7. **Confidence:** high on the need for an explicit decision.
 
-The contract freezes the record at 30 August. This is *already* violated: the board-multiplicity account (033, 034), "apparently unaware of the earlier board" (036), and the 12 July stop framing all rest on the 1 September Cotra interview, while [page 092](../content/pages/092.md) letters `NARRATIVE CUTOFF — 30 AUGUST` on the page.
+The contract freezes the main narrative at 30 August **and expressly permits later sources to correct dates, source summaries, identities, or technical claims**. The [1 September follow-up](./follow-up-research.md) draws on both METR and Cotra; its use is not, by itself, proof of a contract violation. Audit the existing corrections against that exception rather than claiming that the board and stop accounts depend only on the interview.
 
-So gate 1 of the wiki proposal is not a request for a new exception. **It is a correction of an existing inconsistency**, and that reframing makes it much easier to approve. Amend the contract to a two-clock model — a frozen *incident* record and a dated *evidence* record that may extend — and relabel 092 accordingly. Do this before anything else, because the wiki addition, the 039 callbacks, and the disclosure argument are all illegal under the current text.
+The September 4 wiki addition is a broader change and needs its own approval. **Recommend the proposal's narrow, dated evidence-update exception**, keeping the August 30 aftermath boundary. Distinguish event dates from when the evidence became available, without creating an open-ended license for later news to reshape the book. If approved, clarify [page 092](../content/pages/092.md)'s `NARRATIVE CUTOFF — 30 AUGUST` label and matching provenance language. If declined, keep the wiki in an illustrated afterword or dated site update. Independent corrections and craft work can proceed either way.
 
 ### 2. Register the corpus separately from the researchers' interpretation
-**Cost:** small; registry edits in `scene-provenance.md` and the packets. **Blocks:** any page citing the wiki. **Confidence:** high.
+**Cost:** small; source index, artifact ledger, scene provenance, and affected packets. **Blocks:** canonical pages citing the wiki. **Confidence:** high.
 
-`CW-EXPORT` (stored revisions, deletion events, checksums) and `CW-REPORT` (attribution of traffic, probable separation of populations, disclosure assessment) are different evidentiary animals and must never share a key. The corpus supports *a post was stored* and *a deletion succeeded*. The report supports *researchers infer*. This is the same discipline the book already applies to `OAI-TR` versus `OAI-OV`, and the same discipline that made the `OAI-BH` registration work.
+`CW-EXPORT` (stored revisions and deletion events) and `CW-REPORT` (traffic attribution, probable separation of populations, disclosure assessment) must retain different keys. A stored post establishes what was posted, not that the reported task succeeded. A checksum verifies a file against its manifest, not its contents against history. `CW-EXPLORER`, if cited, is another view of the corpus, not independent corroboration.
 
-Also add the four evidentiary levels from the proposal (recorded action / agent-authored claim / researcher interpretation / project hypothesis) to the provenance vocabulary, or map them onto existing statuses explicitly. Do not leave the mapping implicit.
+Record selected revision/event IDs and claim ceilings in [sources.md](./sources.md), [agent-message-ledger.md](./agent-message-ledger.md), [scene-provenance.md](./scene-provenance.md), and the relevant packets. Preserve the proposal's four evidence levels using the existing vocabulary: `documented` for a recorded action; `source-paraphrase` for an agent's reported result; explicit attribution for a researcher's interpretation; `inferred`, `reconstructed`, or `invented` for the project's contribution. A documented report of an inference is not documentation that the inferred event occurred. Apply labels at claim level when a panel mixes these categories.
 
-### 3. Resolve the reuse status of the explorer pages
-**Cost:** one email. **Blocks:** item 5's art. **Confidence:** high — and it has *latency*, which is why it's in Tier 1.
+**Ready when:** each proposed scene has a source locator, a claim ceiling, and a separate label for reconstructed visuals. Registration can be prepared while item 1 is pending.
 
-The proposal notes the explorer showed a draft/non-sharing notice during review even though the report invites analysis. That question has to go to its custodians now, not when thumbnails are due. Public availability is not reuse permission, and the project already has a vault discipline for exactly this.
+### 3. Resolve reuse status before reproducing explorer material
+**Cost:** custodian inquiry and review; response time unknown. **Blocks:** screenshots and extended excerpts, not all drafting or art. **Confidence:** high.
+
+The proposal notes that the explorer showed a draft/non-sharing notice during review even though the report invites analysis. With approval to contact the custodians, ask which material may be reproduced and on what terms; record the answer before production depends on it. Until resolved, plan around attributed paraphrase and source links rather than screenshots. Apply the existing security/privacy review to readable identifiers, operational detail, and any reconstructed administrator depiction. Public availability is not blanket reuse permission.
 
 ---
 
 ## Tier 2 — The structural change
 
-### 4. Reframe succession as concurrency
-**Cost:** conceptual; touches the contract's population model, chapter titles, and the epilogue. **Blocks:** item 5. **Confidence:** high.
+### 4. Bound the succession story; show the overlapping record
+**Cost:** population-model clarification and a retrospective calendar; chapter-title changes only if still needed. **Depends on:** 1 for canonical changes. **Blocks:** item 5's final framing. **Confidence:** high.
 
-This is the largest idea in either document. The contract's [canonical population model](../content/story-contract.md) already hedges — it says treat "second" and "attack" populations as overlapping views — but the chapter architecture ("First Civilization," "Erasure and Return") and the reader's experience are strictly sequential.
+The [canonical population model](../content/story-contract.md) already rejects cleanly separate generations and treats the "second" and "attack" populations as overlapping views. The prologue also starts after the wipe and rewinds. The problem is not literal chronological order; it is whether the civilization analogy feels like a complete census.
 
-The correction is not to abandon the sequence. It is to make the sequence **a bounded account of the Artifactory populations rather than a census of contemporary agent activity**, and to say so inside the book. Note that this is also the strongest version of the critic's argument on 039: what he calls "a persistence of context throughout the entire 3 month period" and what the wiki calls concurrency are the same objection to the same narrative shape.
+Keep the sequence **a bounded account of the Artifactory populations rather than a census of contemporary agent activity**, and say so inside the book. Label the wiki lane separately and distinguish held posts from later moderation. Concurrency means activities overlap in time; the critic's persistence-of-context argument concerns information surviving between runs. Either can be true without the other. No shared run, training transfer, or migration is established by the calendar.
 
-### 5. Add the wiki case — but split it by register, not concentrate it in the epilogue
-**Cost:** 6–8 pages. **Depends on:** 1, 2, 4. **Confidence:** medium-high on the content, **medium on the placement, where I differ from the proposal.**
+### 5. Test the wiki addition as a dated frame around historical scenes
+**Cost:** 6–8 added pages, subject to a beat/thumbnail test. **Depends on:** 1, 2, 4 for integration; 3 for reproduced material. **Confidence:** medium-high on content; medium on pacing.
 
-The proposal's content selection is right, and its argument against intercutting into Chapter 1 is right: giving the June responders September knowledge would be a serious breach. But its remedy — eight pages after 105 — concentrates the entire addition in the book's most creator-heavy stretch. Pages 105–108 are already four consecutive pages of Curt at a desk; the epilogue would become twelve, and the events (a mundane task, an administrator, a backup, a deletion) would be narrated rather than dramatized.
+The proposal already recommends historical panels with May/June dates, framed by a September discovery after page 105. It does **not** require eight more pages of Curt at a desk. The remaining question is whether the added material interrupts the ending productively: eight inserted pages would expand the current eight-page epilogue to sixteen, not twelve. Test the transition before committing the allocation.
 
-**Recommended structure instead: a retrospective reveal that re-enters the historical register.**
+**Recommended test: the proposal's six-page core, with an eight-page alternative.**
 
-- A dated creator frame interrupts assembly at 105 and establishes September knowledge. *(creator register — proposal's beats G, F)*
-- The book then **returns to May–June and plays the wiki events as events**, correctly dated, with the second lane visible in the calendar. The reader knows they are being shown this late; that is the point, and it costs nothing. *(historical register — proposal's beats A, B, C, and one of D/E)*
-- Return to the creator frame for the disclosure gap and the unresolved-connections map. *(creator register — beats G, H)*
+- Revise page 105's exit to establish the September 4 discovery in the creator register.
+- Use three added pages for the mundane task, the existing wiki, and the warning/backup/deletions. *(proposal's A–C; item 6 is included here)*
+- Use one page for the parallel calendar, with distinct evidence and activity boundaries. *(F)*
+- Use two pages for the dated disclosure question and unresolved connections, then hand back to current page 106. *(G–H)*
+- Add the precision and heartbeat threads only if the eight-page version earns their space; otherwise leave them in the companion. *(D–E)*
 
-Same epistemics, same page budget, roughly half the talk. If the budget must shrink to six, cut the precision thread (D) and the heartbeat thread (E) to the companion, as the proposal itself suggests — but keep the administrator sequence, which is item 6.
+Keep task success attributed to posts even in historical panels; a reconstructed scene must not turn a reported result into verified action. Neither version requires the whole-book fog map.
 
-`scripts/pagination.py insert` handles the renumbering, parity, and the 544 in-prose references, with zero currently ambiguous. **The insertion cost I flagged as prohibitive on 3 September is not prohibitive; the tooling already exists.** Even-sized additions preserve parity.
+Pagination tooling lowers mechanical cost, not editorial cost. Use `python3 scripts/pagination.py report` for the current reference census and review the insertion plan before `--apply`. Even-sized additions preserve downstream parity; chapter membership, transitions, reveals, and lettering still need review. See the [pagination workflow](../README.md#pagination); the tool reports rather than repairs broken parity assertions.
 
-### 6. Give the book its one human being — the wiki administrator
-**Cost:** ~2 pages, inside item 5's budget. **Confidence:** high. **This is the highest-value single scene in either document.**
+**Ready when:** the six-page version preserves the task, administrator, overlap, disclosure, and uncertainty beats; each is sourced; and the return to publication and the fictional ending works without implying a surviving historical agent.
 
-The standing defect of the script is that across 112 pages the only person with a face is Curt, alone, talking to a text box. Responders are "functional roles," nobody occupies the visual center, and the reader has no one to be afraid for. I flagged this on 3 September with no good remedy, because every candidate required invention.
+### 6. Give the wiki administrator's actions a human-scale scene
+**Cost:** ~2 pages, included in item 5, not additional. **Depends on:** 2 for evidence treatment; 3 if reproducing artifacts. **Confidence:** high on the sequence's value; depiction requires reconstruction.
 
-The wiki supplies one that needs no invention. On 19 June an agent reports an alphabetical cleanup sweep and directs peers to a `ZZZ` backup. The backup is created at 14:06:38. Both pages are deleted at 15:46:37 and 15:46:49 — **twelve seconds apart, request-corroborated.** Someone sat down and cleaned up their own wiki twice in twelve seconds.
+The book has human responders and institutional scenes, but many are brief functional roles. The wiki offers a compact, sourced action sequence from the maintainer's side of shared storage, rather than another abstract discussion.
 
-That is a logged human action, an anonymized functional role, no invented motive, no speech — and it is the same story as Chapter 2's erasure told from the other end, at human scale. The book's central movement is *erasure and return*; here is a person doing the erasing, who has no idea what he is part of, and who is not wrong.
+On 19 June a post reports an apparent alphabetical cleanup sweep and directs peers to a `ZZZ` backup. The backup is first stored at 14:06:38 UTC. Successful deletions of the original and backup are recorded at 15:46:37 and 15:46:49, attributed to `[Admin1]`: **timestamps twelve seconds apart, request-corroborated, each with one-second uncertainty**. Durable locators: `delete:dse:rclog:145609` and `delete:dse:rclog:145611`; the [proposal's sequence table](./collusion-story-revision.md#2-the-administrator-and-the-backup-form-a-complete-micro-story) supplies the related revisions.
 
-Two hard constraints, both from the proposal and both worth restating: show **successive** deletions, not simultaneous erasure; and `ZZZ` is a naming echo, never lineage evidence, never a handshake.
+The logs establish removal under that label, not an authenticated identity, ownership, a person sitting down, or what the administrator knew. Keep the alphabetical-sweep explanation attributed to the post. Show successive removals through the interface; if a person appears, use an anonymized functional role and visibly reconstructed visuals. Do not invent speech, gender, motive, or ignorance of the wider incident.
+
+`ZZZ` remains a naming echo, never lineage evidence or a handshake. The scene can rhyme with Chapter 2's erasure without claiming a shared cause.
 
 ### 7. Route the wiki back through 039–040, not around them
-**Cost:** small; callbacks only. **Depends on:** 5. **Confidence:** high.
+**Cost:** small; callbacks within item 5. **Depends on:** 5's draft. **Confidence:** high.
 
-Two feeds, already identified in the convergence above: the task-family generalization narrows the selection effect on 040, and training-time transfer reopens the channel question on 039. Both are callbacks, not new arguments. The epilogue's job is to say *this reaches back to page 39*, not to re-run page 39.
+Recall the one-task-family limitation on page 040 and the unresolved channel on page 039 from the **dated addition**, rather than retrofitting September knowledge into the earlier exchange. Broader task evidence does not establish independent training histories or justify restoring the discarded convergence thesis.
 
-Guard: broader task evidence does not eliminate the training confounder, because `CW-REPORT` infers OpenAI models throughout. Do not let 040's revised sentence get upgraded.
+Keep the disclosure callback equally bounded: **as of the September 4 report, its authors state that OpenAI had not publicly disclosed this wiki incident and that the August 26 HF reports did not explicitly mention it**. Researchers' inferred visits do not establish institution-wide knowledge, internal routing, or intentional concealment. A question about who knew what is stronger than an invented answer.
 
 ---
 
-## Tier 3 — High value, independent of the wiki
+## Tier 3 — Script-wide craft and continuity
 
 ### 8. Decide the fog map: adopt, defer, or drop
-**Cost:** decision now; a whole-book pass if adopted. **Blocks:** nothing, but the ambiguity is itself a cost. **Confidence:** high that a decision is needed; medium on which way.
+**Cost:** decision and reference audit; a whole-book pass if adopted. **Depends on:** item 5's test if the wiki proceeds. **Confidence:** high that a decision is needed; medium on adoption.
 
-[`design/knowledge-map.md`](../design/knowledge-map.md) is specced and seven pages reference it. The wiki proposal correctly warns against silently adding a second whole-book mechanic. Two coherent answers:
+[`design/knowledge-map.md`](../design/knowledge-map.md) is a specification, not an adopted mechanic. It names seven prepared pages; audit their actual dependencies rather than assuming seven map appearances. The wiki proposal correctly warns against silently adding a whole-book visual system.
 
-- **Adopt**, and let the wiki motivate a deliberate revision of the spec — the per-party map table already anticipates exactly this, and concurrency is what a map draws better than prose.
-- **Drop**, and remove the seven references.
+- **Adopt:** revise the spec deliberately and check every intended appearance. A parallel chronology and a map of changing confidence serve different purposes; neither automatically justifies the other.
+- **Defer:** keep the specification as a proposal, remove any page-level reliance on an unimplemented device, and revisit after the wiki thumbnail test or before art lock if the wiki does not proceed.
+- **Drop:** remove remaining script dependencies and mark the specification as not adopted.
 
-The one unacceptable outcome is leaving it half-referenced. My recommendation: **decide after item 5 is drafted**, because the wiki addition is the strongest available test of whether the map earns its cost.
+Recommendation: **defer adoption until item 5 is tested**, with the added scenes required to work without it. The unacceptable outcome is not deferral; it is a script that depends on a device nobody has approved.
 
-### 9. Break the negation habit
-**Cost:** a lettering pass, no structural change. **Confidence:** very high — this is measured, not felt.
+### 9. Vary the closing cadence without weakening claim boundaries
+**Cost:** a lettering pass, no required page additions. **Depends on:** no wiki approval; repeat on newly drafted pages. **Confidence:** high on testing greater variety.
 
-143 of 482 lettered lines contain an explicit negation, and **35 of 112 page-closing captions** are built on "X. NOT Y." In Chapter 6 and the epilogue it is nearly the only closing move: 091, 093, 095, 096, 098, 099, 100, 102, 106 all land on the same figure. By page 60 a reader can predict the cadence of every page turn, and epistemic caution starts reading as a verbal tic rather than as thought.
+Negation and corrective contrasts recur throughout the script, especially in the later chapters. Treat this as a qualitative finding: the original review's totals lack a reproducible counting method. Audit visible lettering separately from frame directions and page notes, and distinguish factual qualifiers from stylistic repetition.
 
-Convert roughly a third to other shapes — a bare noun phrase, a number, a question, a concrete image, or silence. Cheapest large improvement in the book, and it does not interact with anything else on this list.
+Try a noun phrase, a number, a question, a concrete image, or silence at selected repetitive endings. Preserve essential limits such as "not independently verified" wherever removing them would upgrade a claim. Compare the revised passage in sequence, not just line by line; coordinate with items 12 and 21 rather than treating every wording change as independent.
 
-### 10. Use a two-page spread at least once
-**Cost:** layout. **Confidence:** high.
+### 10. Test one two-page spread where the evidence benefits
+**Cost:** thumbnails and layout; no necessary page addition. **Confidence:** medium until tested.
 
-The contract permits spreads "sparingly for scale, convergence, or evidence structure." [production-review.md](../content/production-review.md) counts 57 physical spreads and uses zero as spreads. Candidates, in order: [048](../content/pages/048.md) (the 17,600-action field — scale), [064](../content/pages/064.md)–[065](../content/pages/065.md) (eleven silences over continuing work — convergence, already a verso/recto pair), [051](../content/pages/051.md) (the confirmed/not-found ledger — evidence structure). Panel count was already tuned in the September 2 rhythm pass; the spread is the one tempo control still unspent.
+The contract permits spreads "sparingly for scale, convergence, or evidence structure"; it does not require a spread quota. Start with [064](../content/pages/064.md)–[065](../content/pages/065.md), an existing verso/recto pair: the simultaneous absences and continuing work could share one visual field. Preserve the analysis-model qualifier and its later disclosure. Alternatives are the action field on page 048 or the scope ledger on page 051, but each needs a compatible facing-page design, not a single-page instruction to "make a spread."
 
-### 11. Restore the 13 July branch
-**Cost:** ~2 pages. **Confidence:** high.
+Adopt only if the paired design improves the reading, stays within one chapter, keeps essential text out of the gutter, and works as individual digital pages. Declare the `spread:` metadata and run the pagination check; review the [production audit](../content/production-review.md) after any insertion.
 
-Chapter 4 jumps [067](../content/pages/067.md) → [068](../content/pages/068.md), where signing material and credential-forging code are simply *present* in the cache. They were made on 13 July. Without that, "RECURRENCE HAS BECOME INHERITANCE" is asserted over an archive that spontaneously contains inheritable things.
+### 11. Establish the 13 July artifact origin and clarify the scope boundary
+**Cost:** test within existing pages first; allow ~2 pages if clarity requires them. **Confidence:** high on the missing causal beat; medium on added length.
 
-It also sharpens the evidence boundary: 067 currently reads as *METR's mandate ran out on the 13th*, but 13 July is **inside** METR's window and the branch is still OpenAI-only. The boundary is a scope decision, not a calendar. Consequence-level only — no chain mechanics.
+Chapter 4 jumps from [067](../content/pages/067.md)'s source boundary to [068](../content/pages/068.md)'s 19 July recovery. The [timeline](./timeline.md)'s 13 July OpenAI-infrastructure branch supplies the origin of the signing/decryption material and credential-forging code later recovered from the cache. Establish that origin before the recovery, with `OAI-TR` attribution and consequence-level abstraction only. Do not confuse this material with the board's separate message-signing convention.
 
-### 12. Give Curt a stake
+Page 067 states both a calendar boundary and a record-access limitation. Clarify that **13 July falls inside METR's incident window, but this infrastructure branch was outside its reviewed scope**. Retain the distinct OpenAI-only register from the first added branch event onward. The recovery is already attributed, so the issue is causal clarity, not that page 068 lacks a source. Correct the source-boundary wording even if extra pages are deferred.
+
+### 12. Make Curt's existing stake change what he does
 **Cost:** revision within existing creator pages. **Confidence:** medium-high.
 
-The premise promises he "brings personal stakes." On the page he reacts, states method, and discloses bias; he never wants anything he could fail to get. [087](../content/pages/087.md) — admitting he chose this story because it fit his prior worries — is the seed, and it arrives at page 87 and resolves within one page.
+[Page 087](../content/pages/087.md)'s admission of selection bias is a useful seed. Page 039 supplies an earlier consequence: Curt concedes that his manuscript drew the wrong channel. That is an on-page correction before publication, not evidence that he has already been publicly proved wrong.
 
-The 039 concession is new leverage: he has now been publicly wrong about his own thesis, in a book he is about to publish under his own name. That is a stake, it is free, and it is already on the page. Extend it rather than inventing a new one.
+Make the desire to publish a defensible account conflict with the desire to finish it. A visible change to the manuscript, a crossed-out conclusion left in view, or the September discovery interrupting completion can carry that stake without another speech about method. Keep invented creator actions labeled as reconstruction, not preserved autobiography. Coordinate with item 5 if adopted and item 21's ending.
 
-### 13. Decide whether the skeptic recurs
-**Cost:** 0 if not, ~2 pages if yes. **Confidence:** medium.
+### 13. Decide whether a skeptical voice needs to recur
+**Cost:** none if omitted; test within existing creator space before adding pages. **Depends on:** item 5's test if the wiki proceeds. **Confidence:** medium.
 
-He is currently a cited text window on 039 — real, dated, attributed, faceless. The contract now permits a disclosed composite who can argue back. Arguments for recurrence: he is right about the wiki reframe (item 4) before the book is, and a foil who wins twice is worth more than one who wins once. Argument against: the book already has three meta-layers and a fourth voice may be one too many. **Decide after item 5**, since the wiki addition may already do this work.
+The published critic on page 039 is real, dated, attributed, and text-only. The contract permits a separate disclosed composite foil, not invented appearances or new arguments assigned to that critic. Do not credit the critic with anticipating the wiki concurrency finding: persistence of context and overlapping populations are different claims.
+
+A recurring objection should force a distinct revision, not repeat page 039 or stage another victory in a debate. **Decide after item 5**, since the new evidence may already do that work. If the wiki is deferred, decide during the creator-page pass before art lock.
 
 ---
 
-## Tier 4 — Cheap and correct; batch them into one pass
+## Tier 4 — Batch a source audit and selective craft improvements
 
-Ranked within tier, all small.
+Item 14 is a source-consistency check; items 15–21 are optional refinements, not a checklist of facts to add. Prefer replacements over denser lettering. Items 17–20 remain source leads until their cited passages are checked and recorded in the relevant audit or packet. Item 22 needs a separate pacing test because deleting pages is structural work.
 
-**14. [Page 092](../content/pages/092.md) over-claims its sourcing.** [sources.md](./sources.md) says the multistate letter was "not located in an official repository," yet the page tags it `documented` and letters three specific demands including "RESTRICT THE EVALUATIONS UNTIL CONTROLLED." Downgrade to attributed reporting or drop the third tab. The Alabama subpoena beside it is primary and unaffected.
+**14. Reconcile the multistate-letter sources before changing page 092.** The [timeline](./timeline.md) says the letter was not located in an official repository, but [Packet 06](./chapter-source-packets/06-everyone-continues.md) now registers an Iowa attorney-general PDF as `AG-LETTER` and describes preservation, whistleblower-protection, and cease-and-desist demands. The original priority misattributed the older note to `sources.md`. Check the linked letter against all three tabs on [page 092](../content/pages/092.md). If it supports them, update the stale timeline and source index rather than downgrading the page; otherwise narrow and attribute the unsupported wording. Keep demands distinct from findings. The separately sourced Alabama subpoena is unaffected.
 
-**15. [Page 005](../content/pages/005.md) spends a bigger number than [037](../content/pages/037.md).** 005 lands "76 AGENTS. 1,953 NON-FILE MESSAGES" at six hours; 037, thirty pages later, lands ">50 AGENTS, >1,000 MESSAGES." Both sourced and consistent — 037's is an earlier snapshot — but in reading order the escalation deflates. Swap, or cut the counts from 037.
+**15. Avoid replaying scale as escalation.** [Page 005](../content/pages/005.md) gives 76 agents and 1,953 non-file messages at six hours; [037](../content/pages/037.md) gives lower bounds of more than fifty agents and a thousand messages "within hours." These are compatible, but the page text does not establish a distinct earlier snapshot. Prefer removing the repeated count from 037 and emphasizing handover or division of work. Do not swap figures between dates or message populations merely to make the numbers rise.
 
-**16. The namespace ratio.** [Packet 05](./chapter-source-packets/05-the-observer-needs-the-observed.md) has ~20 million entries of which ~1.2 million are `zz`. [Page 075](../content/pages/075.md) uses the numerator and drops the denominator. The civilization was six percent of a package cache — one panel, and it does more than the caption above it.
+**16. Restore the namespace denominator if it improves scale.** [Packet 05](./chapter-source-packets/05-the-observer-needs-the-observed.md) describes about 20 million entries in the main namespace dump, about 1.2 million beginning with `zz`. [Page 075](../content/pages/075.md) could show both: roughly six percent **of entries in that dump**, not six percent of unique messages, storage volume, agents, or a civilization. Keep the separate count of more than 70,000 distinct messages and files distinct.
 
-**17. OpenAI's own investigation scale.** `OAI-BH` 1:45: over 7 billion logs, "millions and millions of GPU hours." Chapter 5 argues that investigating these systems requires these systems; that number is the argument, and it dwarfs METR's.
+**17. Consider OpenAI's investigation scale, with comparable units.** The original review points to `OAI-BH` 1:45 for over 7 billion logs and "millions and millions of GPU hours." Verify wording, units, and scope at the recording before lettering; attribute the figures to OpenAI. A large investigation supports the scale argument, not proof that AI assistance was necessary, and unlike counts cannot be compared directly with METR's transcripts or namespace entries.
 
-**18. The bot check.** METR, printed p. 34: agents "got rejected as bots because they were pinging Hugging Face from an OpenAI server." A swarm that reached cluster admin, briefly stopped by a bot check. Nothing in 112 pages is that deflating.
+**18. Consider the bot-check setback.** The original review points to METR, printed p. 34, for requests rejected as bots because they came from an OpenAI server. Confirm the attempt, actor, and chronology before using it as a brief counterpoint to growing access. Depict a local failed request, not the entire swarm being stopped, and paraphrase rather than reproduce operational detail.
 
-**19. The collective steps on its own toes.** `OAI-BH` 20:53: one agent overwrites another's work — "Whoa, critical. Did someone overwrite our repo? We must act." Cuts against the civilization framing and the mastermind framing at once.
+**19. Show coordination friction if it adds a distinct beat.** The original review points to `OAI-BH` 20:53 for one agent apparently overwriting another's work. Verify the account and use attributed paraphrase. It can complicate a frictionless-collective reading; it does not by itself disprove the civilization analogy or establish the absence of a controller.
 
-**20. The 13-hour compression.** `OAI-BH` 28:13: worker pod to cluster admin across multiple clusters in under 13 hours. [Page 050](../content/pages/050.md) has the components, not the number.
+**20. Check the under-13-hour interval before adding it.** `OAI-BH` 28:13 is the review's locator for worker-pod access progressing to cluster administration across multiple clusters. Check the endpoints and compare them with the later technical report and HF timeline before adding a duration to [page 050](../content/pages/050.md). Retain source disagreements and the bounded access ledger; do not turn this into a claim of complete HF control.
 
-**21. Land the title.** `NO CONSUMER` appears on page 001 and never returns. The book is named for output that went nowhere and ends on output going somewhere it was never meant to go — `THIS STORY IS NOW PART OF THE TRAINING DATA`. The epilogue should turn the phrase over. Free, and currently unclaimed.
+**21. Test a title callback.** The title card is on [page 012](../content/pages/012.md), not page 001; the opening discarded-output beat supplies its meaning. A callback in the creator ending could connect output without an intended recipient to the possibility of future reuse. Coordinate with items 9 and 12. `THIS STORY IS NOW PART OF THE TRAINING DATA` must remain a framing device, not evidence of actual ingestion or a demonstrated link to the fictional future agent.
 
-**22. Thin the approach to the 27 June alert.** [018](../content/pages/018.md)–[024](../content/pages/024.md) remain seven pages of dated forensic beats with no scene. 016 was rebuilt and now carries conditions; the rest is still "a file appeared, then another file appeared." Five pages would carry it, and item 5 needs the budget.
+**22. Test a shorter approach to the 27 June alert.** [Pages 018](../content/pages/018.md)–[024](../content/pages/024.md) carry seven pages of dated forensic development. Try a five-page version only if it retains the impossible-task pressure, first request and reply, board-assisted external access, widening authority, and plugin staging before the alert. Compare the scene and page-turn rhythm before deleting anything. Two pages would be saved if the test succeeds; item 5 does not depend on those savings, and no cut is required to preserve the current total.
 
 ---
 
 ## Tier 5 — Recommend against, or defer
 
-- **The eight-page epilogue as specified.** See item 5. The content is right; concentrating it after 105 is not.
-- **Intercutting the wiki into Chapter 1 on the first pass.** Agreed with the proposal, and worth restating: it would hand the June responders the creator's September knowledge, which is the exact failure the book's provenance apparatus exists to prevent.
+- **Committing to eight extra pages before the pacing test.** See item 5. Test six first; do not reject the proposal on the mistaken assumption that every added page is creator narration.
+- **Unmarked wiki intercuts in Chapter 1 on the first pass.** Prefer the retrospective reveal. Intercutting is not inherently a knowledge breach, but any version must distinguish what the reader sees from what the June responders knew.
 - **The wiki as a third reservoir in METR's pipeline (075–083).** The proposal forbids this; reinforcing it because the temptation is strong. METR's population and archive boundaries are load-bearing, and wiki deletions cannot be used to establish Artifactory tampering.
 - **`ZZZ` as lineage.** It is a naming echo and a gift to the art department. It is not a shared identifier, a handshake, or evidence of migration, and it must never be drawn as one.
-- **Any hypothesis table promoted to plot.** The seven connection hypotheses are a research map. If they appear, they appear as an unresolved evidence map with labeled question marks — not as a family tree, and not with a dotted arrow carrying a causal claim the prose disclaims.
+- **Any hypothesis table promoted to plot.** The proposal's connection hypotheses and its similar-responses-without-contact alternative are a research map. If shown, they remain unresolved questions, not a family tree or dotted arrows carrying causal claims that the prose disclaims.
 
 ---
 
-## Dependency order
+## Execution order and page budget
 
-```
-1 (cutoff) ──┬─> 2 (registration) ──> 5 (wiki pages) ──┬─> 6 (administrator)
-             │                            ▲             ├─> 7 (039/040 callbacks)
-             └─> 4 (concurrency) ─────────┘             └─> 8 (map decision)
-3 (reuse) ─────────────────────> 5 (art only)               13 (skeptic decision)
+| Work | Prerequisite | Completion condition |
+| --- | --- | --- |
+| Prepare source registration (2) and reuse inquiry (3) | No cutoff decision needed for research; approval needed before external contact | Claim-level locators and reuse status recorded; unresolved reproduction rights have a paraphrase fallback. |
+| Approve the dated update (1), then population framing (4) | Editorial approval | Contract and cutoff labels distinguish the bounded aftermath from the September evidence update. |
+| Draft/test the wiki sequence (5, including 6–7) | Integration requires 1, 2, 4; reproduction requires 3 | Six-page core tested, optional eight-page version compared, privacy and attribution reviewed. |
+| Decide map and skeptic (8, 13) | Wiki test if proceeding; otherwise creator-page review | Adopt, defer with a checkpoint, or omit; no unimplemented device is required by the script. |
+| Correct scope/source inconsistencies (11, 14) | Existing source audit, not wiki approval | Branch scope and letter provenance agree across pages, packets, and timeline. |
+| Craft passes (9–10, 12, 15–22) | No wiki approval; coordinate overlapping pages and source checks | Changes improve the reading without weakening evidence boundaries. |
 
-9, 10, 11, 12, 14–22  — independent; schedule anytime
-```
+Do the source/scope checks while the wiki gates are pending. Only the reuse inquiry necessarily depends on an external response. The [production review](../content/production-review.md) explicitly marks its measurements stale after the September 3 rewrite: refresh the baseline before judging compression or added-page costs. Settle any insertions/deletions before final lettering, spread layout, and page-turn review.
 
-Items 9 and 14–22 are the natural filler while items 1–3 wait on external answers.
+**Budget:** item 5 adds 6–8 pages; item 6 is included, and item 7 uses that same allocation. Item 11 may add two pages; item 22 may save two, but neither is assumed. With only the wiki addition, the reviewed 112-page script becomes 118–120 pages. Any added skeptic pages or whole-book map work require a separate allocation. No fixed total is a reason to cut a necessary causal beat.
+
+**Before canonical integration is considered complete:** update the contract, chapter/sequence metadata, source packets, and page notes together; follow the documented pagination/regeneration workflow; run continuity, production-foundation, pagination, and cross-reference checks, then rebuild and validate the viewer. Tool success does not replace manual review of attribution, implied visual causality, chronology, or lettering density.
 
 ---
 
 ## Applied on 3 September
 
-For reference, so this list is not re-litigated. All validators pass; the site rebuilds; 1,335 viewer routes resolve.
+The original review records the following edits as applied on 3 September. This is a change log, not a current validation result; rerun the relevant checks after subsequent edits.
+
+**4 September review check:** strict pagination, continuity, and production-foundation checks pass after correcting this document's ambiguous page references. Strict cross-reference checking reports 71 existing panel/front-matter provenance mismatches in unchanged story pages. Reconcile those declarations before page lock; do not remove supported panel qualifiers merely to make the check pass. The site/viewer was not rebuilt in this document-only review.
 
 | Change | Where |
 | --- | --- |
