@@ -1,0 +1,370 @@
+# ZZ: NO CONSUMER — Publication Master Plan
+
+Six publication targets, one book. This plan states what is measured today, what
+each target still needs, what the targets share, and what only the owner can decide.
+
+**Measured 6 September 2026.** Every count below came from the tools, not from memory:
+
+| Measure | Value | Source |
+| --- | --- | --- |
+| Story pages | 118 | `pagination.py check` |
+| Panels / image slots | 606 / 590 | `panels.py check` |
+| Panels with art | 43 (7.3%) | `produce.py status` |
+| Panel art decisions made | 0 of 590 | `panelart.py status` |
+| Novella prose | 118/118 pages, 44,593 words | `novella.py report` |
+| Page status | 110 `review`, 8 `draft`, 0 `locked` | front matter |
+| Lettering elements | 504 auto-placeable, 70 manual across 67 panels | `letterpress.py audit` |
+| Tracked assets still needed | 11 of 20 | `data/assets.yaml` |
+| Validators | all green | continuity, pagination, panels, crossref, viewer, foundations |
+
+**The one-sentence status.** The script is finished and mechanically consistent; the
+novella is drafted end to end; the art is 7% drawn and nothing is chosen; and no
+distribution artifact — EPUB, cover, audio, or ISBN — exists yet in any form.
+
+---
+
+## Part A — Trunk work every target needs
+
+Nothing below is optional for any of the six. Doing it once, in the repository,
+is what keeps six targets from becoming six divergent books.
+
+### A1. Close the open editorial work
+
+- **Fog-map adoption pass** (`research/revision-priorities.md` item 8). Steps 1–3 are
+  done; step 4 (web presentation, proposed as a `map=` fragment setting) and step 5
+  (generate strips through the site builder, relabel the samples, rerun gallery,
+  viewer and continuity checks) are **not started**. Seventeen appearances across the
+  book. This changes pages, so it must land before lettering and layout.
+- **Recurring critic expansion** (item 13). The September row and the ending row are
+  still open. Planned to fit inside existing creator pages; may add one or two.
+- **Craft passes** items 9, 10, 12, 15–22 — closing cadence, the one two-page spread
+  test, title callback. Each may move a page.
+- **Advance the 8 draft pages** — 086, 087, 106–111 — from `draft` to `review` via the
+  beat and thumbnail test they are waiting on.
+- **Clear the two crossref warnings**: pages 116 and 117 use provenance status
+  `inferred` that their front matter does not declare.
+
+**Why first:** every one of these can insert, delete, or move a page. `pagination.py`
+makes that a safe rewrite *of the script*, but it cannot un-generate art, un-letter a
+page, or un-typeset an EPUB. Freeze the page count before spending money or GPU hours.
+
+### A2. Decide the trim size
+
+Still open, and named as open in `design/lettering-slots.md:90` and
+`design/image-generation-options.md:712`. At the current 1200×800 a panel is
+4″×2.67″ at 300 dpi, which is small for print and marginal for a fixed-layout tablet
+page. **This decision sets panel render dimensions, so it must precede the art run.**
+Re-rendering 590 panels because the trim changed is the single most expensive mistake
+available in this project.
+
+### A3. Draw the artwork
+
+547 panels remain. At the measured 78 seconds per image with `--bleed 0.10`, one pass
+over the whole book is roughly 12 hours of wall clock; a realistic three-take average
+is nearer 38 hours. The run is interruptible and resumable by design.
+
+```sh
+python3 scripts/produce.py plan
+python3 scripts/produce.py run --route local        # the panels any model can draw
+python3 scripts/produce.py run --route text-fidelity --provider qwen-image-local
+```
+
+Route matters: `paneltypes.py` splits the book into panels a 16 GB laptop handles,
+80 that need long strings spelled correctly, and 59 that need reference conditioning
+for a recurring face. The premium models earn their price on about a quarter of the
+book and are wasted on the rest.
+
+**Licence note, and it is load-bearing for the three paid targets:** all 199 logged
+generations used `flux2-klein-4b`, Apache-2.0, commercial use permitted. Keep it that
+way. `flux1-dev-local` and `flux2-klein-9b` are non-commercial and nothing they
+produce may appear in a book sold on Amazon.
+
+### A4. Choose the art
+
+`panelart.py status` reports 0 decided and 23 panels with more than one version. The
+viewer shows the newest candidate so the book reads today, but "newest" is not a
+decision and must not become one by default before a paid edition ships.
+
+```sh
+python3 scripts/panelart.py choose 001-01 v02
+```
+
+### A5. Produce the 11 missing reference assets
+
+`data/assets.yaml` still lists 11 as `needed` — the ink-texture sheet and the
+environment sheets for eval, cache, SOC, lab, investigation, and forum. These are what
+make 590 independently generated panels look like one book.
+
+### A6. Letter the book
+
+`letterpress.py` places 504 of 574 elements from convention. The residue is 70
+dialogue balloons across 67 panels that need a speaker position no convention can
+derive. That is a genuine manual pass, and it is the first task in this project that
+cannot be scripted.
+
+### A7. Build the page compositor
+
+**This tool does not exist.** The README is explicit: "Page sheets are not generated.
+A page is composed from its panels by layout." That is correct for the web viewer,
+which serves panels. It is not sufficient for a printed page, a fixed-layout EPUB
+page, or a PDF — all three of which need a composed 118-page artifact.
+
+Needed: a `scripts/compose-pages.py` that reads the panel grid from
+`design/page-grammar.md`, places chosen art plus the lettering layer at trim size with
+bleed and safe areas, and emits one image or PDF page per story page. It is the
+gating dependency for targets 2 (print-fidelity), 3, and any PDF handed to ElevenReader.
+
+### A8. Front matter, back matter, and cover
+
+None of this exists yet:
+
+- **Cover.** No cover art, no cover concept, no file. Needed at three specs: web,
+  Kindle eBook (1.6:1, min 1000px, 2560×1600 preferred), and audiobook (square,
+  min 2400×2400).
+- **Title page, copyright page, licence page.** The GPL-3.0-or-later notice must
+  appear in the book itself, not only in the repository.
+- **Endmatter.** `content/credits.md` exists and is the book's credits page. Confirm
+  it reads as endmatter and not only as a site page.
+- **AI-contribution disclosure.** `CREDITS.md` already names Claude, ChatGPT, Devin,
+  and the image models. For Amazon this stops being a courtesy and becomes a required
+  disclosure at upload (see D3).
+
+### A9. Pass the dated endnote gate
+
+`content/draft-readiness.md` gate 7: after the 14 September subpoena deadline and
+before publication lock, assess whether a new public fact requires an endnote or
+corrects a load-bearing claim. **No target may lock before 14 September 2026.**
+`research/pachocki-alien-mind.md` (6 September) is the most recent admission; the
+contract's dated-record procedure governs any further one.
+
+### A10. Lock
+
+Gate 8: validate source links, page metadata, reading order, accessibility text, print
+dimensions, and the viewer, then move all 118 pages from `review` to `locked`. Every
+target ships from the locked tree; a target that ships from anything else is a
+different book.
+
+---
+
+## Part B — The six targets
+
+### Target 1 — Novella on the website
+
+**State: prose complete, publication path absent.** `scripts/build-site.py` contains
+no reference to the novella. The 44,593 words exist in `content/novella/` and are
+validated against the scripts, but a reader on the site cannot reach a single word.
+
+1. **Continuous-prose editorial pass.** The novella was drafted one file per story
+   page, and `novella.py check` deliberately enforces that shape. Read it as one
+   document — `novella.py assemble` — and fix what only shows up when the page
+   boundaries disappear: repeated exposition at page seams, chapter transitions that
+   were page turns, and the per-page mean of 378 words creating a metronome.
+   Per-page variance is already wide (134 to 562), which helps.
+2. **Extend `build-site.py`** with novella routes: a novella home, eight chapter
+   indexes, 118 page routes, previous/next, and a link from each novella page to the
+   matching comic page and back.
+3. **Extend `validate-viewer.py`** to cover the new route graph, and decide whether
+   novella routes join the spacebar read-through chain or form a parallel chain. The
+   existing chain visits every route exactly once and loops home; adding 127 routes to
+   it changes what "read the whole book with the spacebar alone" means. Recommend a
+   **separate chain**, selected by a `track=` fragment setting alongside the existing
+   `theme=`, `full=`, and `mode=`.
+4. Reuse the existing view settings, dark/light, and full-screen panel.
+5. Publish through the normal `main` → Pages workflow.
+
+**Dependencies:** A1, A9, A10. Independent of all art work — **this is the target that
+can ship first, and by months.**
+
+### Target 2 — Graphic novel on the website
+
+**State: reads end to end today, entirely on placeholders.** 1,433 viewer routes and
+862 image references validate; every address resolves to a generated placeholder
+carrying the real script text.
+
+1. A3 art → A4 decisions → A6 lettering, panel by panel. The viewer needs no
+   structural change: "Replacing a placeholder with final art is a matter of pointing
+   the image record at `assets/art/panels/NNN-II.*`; the route, alt text, and
+   cross-reference link do not move."
+2. Fog-map presentation (A1, step 4) — the `map=` fragment setting.
+3. Accessibility: confirm alt text survives the placeholder→art swap. The validator
+   currently fails if a placeholder carries no alt text; make sure it fails the same
+   way for real art.
+4. Repository size: a bleed-cropped WebP panel is about 302 KB, and `docs/` stores
+   every committed asset twice. 590 panels ≈ 178 MB source + 178 MB built. Decide
+   before the run whether `docs/` keeps full-resolution art or a web derivative.
+5. Cover, front matter, credits page.
+
+**Dependencies:** all of Part A except A7. **This is the long pole for the web.**
+
+### Target 3 — Amazon graphic novel eBook
+
+Fixed-layout EPUB 3 with panel-by-panel navigation.
+
+1. **A7 page compositor** — hard prerequisite. A fixed-layout EPUB is composed pages,
+   not a panel feed.
+2. **Panel View regions.** Kindle's fixed-layout comic format wants per-panel region
+   magnification. The repository already knows every panel's ordinal and its page —
+   `panels.py` and `data/panel-art.tsv` — so the region list is derivable from the
+   compositor's own layout output rather than hand-authored. Build it as one emitter
+   step, not a separate manual pass.
+3. **`scripts/build-epub.py --fixed`**: page images, per-page XHTML with fixed
+   viewport, region JSON, nav document, OPF metadata, cover.
+4. Validate with `epubcheck` and preview in Kindle Previewer on every device profile.
+5. Upload, complete AI-content disclosure, price, publish.
+
+**Watch item:** at 118 composed pages plus panel regions, file size drives Amazon's
+delivery fee on the 70% royalty tier. Compress deliberately; a graphic novel can
+easily land in the hundreds of megabytes and eat its own royalty.
+
+**Dependencies:** A1–A10 complete. The last target to ship.
+
+### Target 4 — Amazon text eBook
+
+Reflowable EPUB 3 from the novella. **The cheapest paid target by a wide margin.**
+
+1. `novella.py assemble` already produces the whole novella as one document. Add
+   `scripts/build-epub.py` (reflowable mode): chapter splits at the eight chapter
+   directories, semantic headings, nav document, metadata, cover, GPL notice,
+   credits endmatter.
+2. Decide whether story page numbers appear in the prose edition at all. They are
+   load-bearing in the repository and meaningless to a Kindle reader. Recommend
+   dropping visible page numbers and keeping chapter structure.
+3. Decide what happens to the comic's evidence apparatus — provenance labels, source
+   citations, the fog map. The novella currently carries the argument in prose; if any
+   apparatus is meant to survive into the text edition, that is an authoring decision
+   and belongs in the A1 editorial pass, not in the EPUB build.
+4. `epubcheck`, Kindle Previewer, upload, disclose, price, publish.
+
+**Dependencies:** A1, A8, A9, A10. **Independent of all art work except the cover.**
+This target and Target 1 share the same editorial pass and can ship together.
+
+### Target 5 — Audiobook
+
+Three routes, and the choice is genuinely consequential (see D2):
+
+- **KDP Virtual Voice** — AI narration generated inside KDP from the published text
+  eBook. Fastest and cheapest; requires Target 4 to exist first; least control.
+- **Self-produced with ElevenLabs TTS**, then distributed through ACX/Audible or
+  direct. Full control of voice, pacing, and pronunciation; must meet ACX technical
+  specs; Audible's rules on synthetic narration must be checked before committing.
+- **Human narrator** — best result, real money, longest schedule.
+
+Work common to all three:
+
+1. **Audio script pass.** The novella is written to be read, not heard. Needs: a
+   pronunciation lexicon for handles, `ZZZ`, model names, and organization names; a
+   decision on how spoken narration handles the provenance and attribution language
+   that a printed page carries silently; chapter announcements; and a rule for the
+   project-authored display strings on page 118.
+2. Opening and closing credits, the retail sample, and the square cover.
+3. If self-produced: RMS between −23 dB and −18 dB, peak no higher than −3 dB, noise
+   floor below −60 dB, room tone at head and tail, one file per chapter, 192 kbps
+   MP3 or better.
+4. Disclose AI narration wherever the platform requires it.
+
+**Dependencies:** A1, A9, A10, plus Target 4 if the Virtual Voice route is chosen.
+
+### Target 6 — ElevenReader
+
+ElevenReader Publishing accepts an EPUB and gives the book a free reading and
+listening surface.
+
+1. Reuse Target 4's reflowable EPUB unchanged. **No new build work if Target 4 is done
+   first** — which is the reason to do Target 4 first.
+2. Verify current submission requirements and rights attestations at submission time.
+3. If the platform hosts audio, decide whether the Target 5 master goes here too.
+4. Confirm that GPL-3.0-or-later distribution is compatible with the platform's terms —
+   the licence obliges you to let readers redistribute, and a platform term forbidding
+   that is a conflict you want to find before upload, not after.
+
+**Dependencies:** Target 4.
+
+---
+
+## Part C — Sequence
+
+The three phases are ordered by what blocks what, not by target number.
+
+**Phase 1 — Freeze the book (A1, A2, A9).** Editorial work closed, trim decided, the
+14 September gate passed, page count final. Nothing expensive starts until this ends.
+
+**Phase 2 — Two forks, run in parallel.**
+
+- *Prose fork:* novella editorial pass → site routes (Target 1) → reflowable EPUB
+  (Target 4) → ElevenReader (Target 6) → audiobook (Target 5). Needs no artwork
+  beyond a cover.
+- *Art fork:* A3 generate → A4 choose → A5 reference sheets → A6 letter → A7
+  compositor. Twelve to forty hours of machine time plus a 67-panel manual balloon
+  pass.
+
+**Phase 3 — Converge.** Web graphic novel (Target 2) when the art fork lands; fixed-
+layout EPUB (Target 3) when the compositor does. A10 lock precedes every paid upload.
+
+**Shipping order, and it is lopsided on purpose:** Targets 1, 4, and 6 can be complete
+while the art fork is still running. Target 5 follows within days of Target 4 on the
+Virtual Voice route. Targets 2 and 3 arrive last, and the art fork is the reason.
+
+---
+
+## Part D — Decisions only you can make
+
+These block work and have no defensible default.
+
+**D1. Trim size.** Blocks the art run (A2, A3). Everything downstream inherits it.
+
+**D2. Audiobook route.** Virtual Voice, self-produced TTS, or human narrator. Changes
+the schedule by months and the cost by three orders of magnitude.
+
+**D3. Selling a GPL-licensed book on Amazon.** The GPL permits sale — that is settled.
+Two consequences are not:
+
+- **KDP Select exclusivity is unavailable.** The book is public on GitHub Pages under
+  GPL-3.0-or-later, so the exclusivity that KDP Select requires cannot be granted.
+  That forfeits Kindle Unlimited page reads.
+- **Price-matching.** Amazon reserves the right to match a lower price found
+  elsewhere, and "elsewhere" here includes your own free site. A paid Kindle edition
+  of a freely published book can be matched to $0.
+
+Neither is a reason not to publish. Both are reasons to publish deliberately.
+
+**D4. ISBN.** Amazon supplies a free ASIN, and a KDP-provided ISBN for print. A
+self-purchased ISBN buys imprint identity and portability across stores. Not needed
+for eBooks; needed if print ever follows.
+
+**D5. Pricing and territory** for each of the three paid editions.
+
+**D6. Story page numbers in the prose edition** (Target 4, step 2).
+
+**D7. `docs/` asset policy** (Target 2, step 4) — full-resolution art in the tracked
+Pages output, or a web derivative.
+
+---
+
+## Part E — Risks
+
+| Risk | Consequence | Mitigation |
+| --- | --- | --- |
+| Trim decided after the art run | Re-render 590 panels | D1 before A3. Non-negotiable. |
+| A page moves after lettering | Art, lettering, and EPUB pagination diverge | Close A1 completely; `pagination.py` protects the script, not the artifacts |
+| Non-commercial model art reaches a paid edition | Licence violation on a sold book | Keep `produce.py` on `flux2-klein-4b`; audit `data/generation-log.jsonl` before every upload |
+| Style drift across 590 independently generated panels | Reads as an anthology, not a book | A5 reference sheets before the bulk run; `--takes` and reference conditioning on the 59 recurring-face panels |
+| Undecided art ships by default | The book sells the newest candidate rather than the chosen one | A4 before any paid upload; `panelart.py status` must read 590 decided |
+| Fixed-layout file size | Delivery fees consume the royalty | Measure the composed EPUB early, not at upload |
+| Platform terms shifted since May 2026 | Plan assumes stale program rules | **Verify KDP fixed-layout comic requirements, KDP Virtual Voice availability, ACX synthetic-narration policy, and ElevenReader submission terms against current documentation before relying on any of them.** The specs in Part B are as I understand them and are not a substitute for reading the current program pages. |
+| A 14 September fact lands late | An endnote or a corrected claim after lock | Gate A9 is scheduled for exactly this; do not lock early |
+
+---
+
+## New tooling this plan requires
+
+| Tool | Purpose | Target |
+| --- | --- | --- |
+| `build-site.py` novella routes | Prose on the web | 1 |
+| `validate-viewer.py` novella coverage | Route graph and read-through chain | 1 |
+| `scripts/compose-pages.py` | Panels + lettering → composed page at trim size | 2, 3 |
+| `scripts/build-epub.py` (reflowable) | Novella → EPUB 3 | 4, 6 |
+| `scripts/build-epub.py --fixed` | Composed pages + panel regions → fixed-layout EPUB 3 | 3 |
+| `scripts/build-audio.py` (if TTS route) | Audio script → chapter masters at ACX spec | 5 |
+
+Each belongs in `tasks/` as a brief before it is written, in the shape the existing
+`tasks/page-identity.md` and `tasks/panel-identity.md` briefs use.
