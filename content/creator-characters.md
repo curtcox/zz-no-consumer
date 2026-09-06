@@ -106,6 +106,45 @@ in this project is treated:
 - A reference Curt gets wrong stays wrong on the page unless a later page
   corrects it in view of the reader.
 
+### Rob Miles, and the always-relevant reference — 6 September 2026
+
+The author's own formulation, given on this date: *Rob Miles is the xkcd of AI safety.
+There is always a relevant Rob Miles video.* That sentence is the two entries above —
+Rob Miles and xkcd — collapsed into one, and it names the failure mode from the inside:
+a reference that is always available is a reference that never has to be re-derived.
+It belongs on the page as Curt's line, not as the book's position.
+
+Two specific videos were raised — *AI Safety as a Pascal's Mugging* and the one on
+respectability, both registered by URL in [`data/256t-sources.tsv`](../data/256t-sources.tsv)
+as creator-formation references rather than incident sources. Neither is admitted as a
+source, and neither is quoted — a living person, speaking on video, under the standing rule that named living
+people are paraphrased, attributed, and dated. What they are good for is structural:
+
+- **On Pascal's mugging.** The argument that very small probabilities of very large
+  consequences must not be allowed to override evidence, and that the honest position
+  is the messy work of looking at the evidence, is *already this book's method* — it is
+  [`themes.md`](themes.md)'s thematic method, the provenance system, and the
+  "one incident proves doom" entry under misreadings to prevent. The book has never
+  said where the discipline comes from and does not need to. What it lacks is the
+  civil-engineering frame the video borrows from Stuart Russell: a flaw one is 40 per
+  cent sure of, giving a one-in-a-hundred chance of collapse, which no engineer would
+  wave through. That is page 027's decision-not-to-stop scene with its stopping
+  criterion supplied, and it is the strongest available answer to a reader who thinks
+  the book is mugging them. If it is used, Curt reaches for it and it is *right* — so
+  the page must immediately ask what it does not cover, which is that the bridge has
+  one owner and the race does not.
+- **On respectability.** The observation that choosing whom to believe turns a question
+  about evidence into a question about status is Curt's blind spot restated: he is
+  fluent in the theory and illiterate in the organized human question. It also rhymes
+  with page 039 panel 1, where the reader cannot tell the critic's window from the
+  model's by looking. Do not use it to make the book's citations more respectable; the
+  video's own closing move is to decline that use.
+
+Craft rule, unchanged and now with a worked example: a reference that simply lands,
+wins, and is not paid for should be cut. Both of these land. Neither has been paid for
+yet.
+
+
 ## ChatGPT
 
 The in-story collaborator. Full art and dialogue rules are in
