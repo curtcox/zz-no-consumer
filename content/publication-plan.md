@@ -12,6 +12,7 @@ each target still needs, what the targets share, and what only the owner can dec
 | Panels with art | 43 (7.3%) | `produce.py status` |
 | Panel art decisions made | 0 of 590 | `panelart.py status` |
 | Novella prose | 118/118 pages, 44,593 words | `novella.py report` |
+| Appendix entries | 24 contested assertions, 29 fallacies, 464 references | `appendix.py report` |
 | Page status | 110 `review`, 8 `draft`, 0 `locked` | front matter |
 | Lettering elements | 504 auto-placeable, 70 manual across 67 panels | `letterpress.py audit` |
 | Tracked assets still needed | 11 of 20 | `data/assets.yaml` |
@@ -125,6 +126,11 @@ None of this exists yet:
   appear in the book itself, not only in the repository.
 - **Endmatter.** `content/credits.md` exists and is the book's credits page. Confirm
   it reads as endmatter and not only as a site page.
+- **Appendix.** `content/appendix/` exists and already ships in all four novella
+  downloads and at `/appendix/`. It is keyed to story page numbers, so it needs no
+  per-edition variant; what it still needs is a decision about whether the print and
+  fixed-layout editions carry it in full, carry the index and point at the web, or
+  carry a QR code. Links are the payload, and a printed page cannot be clicked.
 - **AI-contribution disclosure.** `CREDITS.md` already names Claude, ChatGPT, Devin,
   and the image models. For Amazon this stops being a courtesy and becomes a required
   disclosure at upload (see D3).
@@ -375,6 +381,7 @@ Pages output, or a web derivative.
 | `build-site.py` novella routes | Prose on the web | 1 | **Built 6 Sep** |
 | `scripts/validate-novella.py` | Anchors, chain, downloads, EPUB page list | 1 | **Built 6 Sep** |
 | `scripts/epub.py` | Chapters + page list → reflowable EPUB 3 | 1, 4, 6 | **Built 6 Sep** |
+| `scripts/appendix.py` | Contested assertions and fallacies, keyed to story pages | 1, 2, 3, 4 | **Built 6 Sep** |
 | `scripts/compose-pages.py` | Panels + lettering → composed page at trim size | 2, 3 | Not started |
 | Fixed-layout EPUB emitter | Composed pages + panel regions → EPUB 3 | 3 | Not started |
 | `scripts/build-audio.py` (if TTS route) | Audio script → chapter masters at ACX spec | 5 | Not started |

@@ -12,6 +12,7 @@ import shutil
 from dataclasses import dataclass
 from pathlib import Path
 
+import appendix as appendix_module
 import crossref
 import epub
 import imagegen
@@ -1031,7 +1032,8 @@ def novella_plain_text(chapters: list[NovellaChapter]) -> str:
     return "\n".join(lines).rstrip() + "\n"
 
 
-def novella_standalone(chapters: list[NovellaChapter], stylesheet: str) -> str:
+def novella_standalone(chapters: list[NovellaChapter], stylesheet: str,
+                       appendix_markdown_text: str = "") -> str:
     """The whole novella as one file that needs nothing else to be readable.
 
     No script, and no stored setting: a downloaded file has no address to carry a
@@ -1052,6 +1054,13 @@ def novella_standalone(chapters: list[NovellaChapter], stylesheet: str) -> str:
         f'<span class="card__count">{chapter.words:,} words</span></a>'
         for chapter in chapters
     )
+    if appendix_markdown_text:
+        contents += (
+            '<a class="card" href="#appendix">'
+            '<span class="card__number">Appendix</span>'
+            f'<span class="card__title">{html.escape(APPENDIX_TITLE)}</span>'
+            '<span class="card__count">keyed to the same page numbers</span></a>'
+        )
     parts = [
         '<header class="reader-head">',
         f"<p class=\"eyebrow\">The novella</p><h1>{html.escape(NOVELLA_TITLE)}</h1>",
@@ -1067,6 +1076,10 @@ def novella_standalone(chapters: list[NovellaChapter], stylesheet: str) -> str:
             f"{html.escape(chapter.label)} — {html.escape(chapter.title)}</h2>"
         )
         parts.append(novella_prose(chapter))
+    if appendix_markdown_text:
+        parts.append('<section id="appendix" style="margin-top:3.5rem">')
+        parts.append(markdown_to_html(appendix_markdown_text))
+        parts.append("</section>")
     parts.append(
         f'<p class="note">{html.escape(NOVELLA_RIGHTS)} '
         f'The graphic novel, the sources, and the credits are at {html.escape(NOVELLA_HOME)}</p>'
@@ -1080,7 +1093,8 @@ def novella_standalone(chapters: list[NovellaChapter], stylesheet: str) -> str:
     )
 
 
-def novella_epub(chapters: list[NovellaChapter], destination: Path) -> Path:
+def novella_epub(chapters: list[NovellaChapter], destination: Path,
+                 appendix_markdown_text: str = "") -> Path:
     """Package the novella as EPUB 3, with a real page list.
 
     The page list is the point of doing this properly rather than dumping chapters into
@@ -1117,6 +1131,22 @@ def novella_epub(chapters: list[NovellaChapter], destination: Path) -> Path:
             epub.Chapter(id=name, title=f"{chapter.label} — {chapter.title}", body=body)
         )
 
+    # The appendix rides as a final chapter rather than as a separate file, so a reader who
+    # has the book on a device has the evidence with it. Its links are ordinary anchors, so
+    # a reading system makes them tappable the same way it does any other.
+    if appendix_markdown_text:
+        appendix_body = (
+            f'<section epub:type="appendix">{markdown_to_html(appendix_markdown_text)}</section>'
+        )
+        try:
+            ElementTree.fromstring(
+                f'<root xmlns:epub="http://www.idpf.org/2007/ops">{appendix_body}</root>')
+        except ElementTree.ParseError as error:
+            raise ValueError(f"The appendix does not convert to well-formed XHTML: {error}") from error
+        epub_chapters.append(
+            epub.Chapter(id="appendix", title=f"Appendix — {APPENDIX_TITLE}", body=appendix_body)
+        )
+
     return epub.write(
         destination,
         epub.Metadata(
@@ -1143,6 +1173,205 @@ def novella_epub(chapters: list[NovellaChapter], destination: Path) -> Path:
     )
 
 
+# ---------------------------------------------------------------- the appendix
+#
+# The appendix of contested assertions and logical fallacies is addressed by story page,
+# and the graphic novel and the novella share a pagination, so one appendix serves both.
+# It is published three ways: as its own section of routes, as the last chapter of every
+# novella download, and as a per-page index that links from a page number to its entries.
+#
+# Every reference carries a URL wherever a public one exists, and the point of running the
+# same Markdown through three renderers is that the links survive all of them: the reader
+# and the self-contained HTML get anchors, the EPUB gets anchors, and the plain-text build
+# prints the address in full rather than dropping it on the floor.
+# ---------------------------------------------------------------------------
+
+APPENDIX_DIR = "appendix"
+APPENDIX_TITLE = "Contested Assertions and Logical Fallacies"
+
+
+def appendix_entries() -> appendix_module.Appendix:
+    model = appendix_module.build()
+    if not model.entries:
+        raise ValueError("No appendix entries found; run scripts/appendix.py check")
+    return model
+
+
+def appendix_destination(entry: appendix_module.Entry) -> Path:
+    return Path(APPENDIX_DIR, "contested" if entry.kind == "contested" else "fallacies",
+                entry.id.lower(), "index.html")
+
+
+def appendix_markdown(model: appendix_module.Appendix) -> str:
+    """The whole appendix as one Markdown document, for the downloads."""
+    return appendix_module.assemble()
+
+
+def appendix_plain_text(markdown: str) -> str:
+    """Flatten the appendix for the plain-text download, keeping every address.
+
+    `novella_plain_text` drops link targets, which is right for prose and wrong here: an
+    appendix whose entire purpose is to point a reader at the evidence must not throw the
+    pointers away because the format has no anchors. A link becomes `label <url>`, and a
+    table becomes one indented line per row so a 78-column file stays readable.
+    """
+    import textwrap
+
+    def flatten(text: str) -> str:
+        text = re.sub(r"\[([^\]]+)\]\((https?://[^)\s]+)\)", r"\1 <\2>", text)
+        text = re.sub(r"\[([^\]]+)\]\(#[^)]*\)", r"\1", text)
+        text = re.sub(r"`([^`]+)`", r"\1", text)
+        text = re.sub(r"\*\*([^*]+)\*\*", r"\1", text)
+        return re.sub(r"(?<!\*)\*([^*]+)\*(?!\*)", r"\1", text)
+
+    lines: list[str] = []
+    paragraph: list[str] = []
+
+    def flush() -> None:
+        # The source is hard-wrapped, so a paragraph is joined before it is re-wrapped;
+        # wrapping line by line would fold every source break into a stray short line.
+        if paragraph:
+            text = flatten(" ".join(part.strip() for part in paragraph))
+            lines.extend(textwrap.wrap(text, width=78, break_long_words=False,
+                                       break_on_hyphens=False))
+            lines.append("")
+            paragraph.clear()
+
+    for raw in markdown.splitlines():
+        line = raw.strip()
+        if not line:
+            flush()
+            continue
+        if re.fullmatch(r"\|[\s:|-]+\|", line):
+            continue
+        if line.startswith("#"):
+            flush()
+            if lines and lines[-1] != "":
+                lines.append("")
+            heading = line.lstrip("#").strip()
+            lines += [heading, ("=" if line.startswith("# ") else "-") * len(heading), ""]
+            continue
+        if line.startswith("|"):
+            # One indented line per row, wrapped with a hanging indent so a long URL is
+            # never broken across lines and can be copied whole.
+            flush()
+            cells = [flatten(cell.strip()) for cell in line.strip("|").split("|")]
+            row = "  ·  ".join(cell for cell in cells if cell)
+            lines.extend(textwrap.wrap(row, width=78, initial_indent="  ",
+                                       subsequent_indent="      ",
+                                       break_long_words=False, break_on_hyphens=False))
+            continue
+        if line.startswith(">"):
+            flush()
+            lines.extend(textwrap.wrap(flatten(line.lstrip("> ")), width=78,
+                                       initial_indent="  ", subsequent_indent="  ",
+                                       break_long_words=False, break_on_hyphens=False))
+            lines.append("")
+            continue
+        paragraph.append(line)
+    flush()
+    return "\n".join(lines).rstrip() + "\n"
+
+
+def build_appendix(document) -> int:
+    """Publish the appendix section: an index, a page index, and one route per entry."""
+    model = appendix_entries()
+    pages = {page.number: page.title for page in crossref.build().pages}
+    home = Path(APPENDIX_DIR, "index.html")
+    directory = home.parent
+
+    # An entry is addressed by page number, and a page number resolves in two editions.
+    # Both links are offered on every entry, because the whole premise of keying the
+    # appendix to pages is that a reader may be holding either book.
+    chapter_of = {
+        page.number: chapter.directory
+        for chapter in novella_chapters()
+        for page in chapter.pages
+    }
+
+    def page_links(from_directory: Path, page: int) -> str:
+        prose = Path(NOVELLA_DIR, chapter_of[page], "index.html")
+        comic = Path("viewer", "pages", f"{page:03d}", "index.html")
+        return (
+            f'<a href="{html.escape(route_url(from_directory, prose))}#p{page:03d}">novella</a>'
+            f' · <a href="{html.escape(route_url(from_directory, comic))}">graphic novel</a>'
+        )
+
+    def entry_card(entry: appendix_module.Entry) -> str:
+        target = route_url(directory, appendix_destination(entry))
+        cited = ", ".join(f"{page:03d}" for page in entry.pages)
+        detail = (
+            f"{entry.front.get('layer', '')} · {entry.front.get('status', '')}"
+            if entry.kind == "contested"
+            else f"{entry.front.get('fallacy', '')} · {entry.front.get('attributed_to', '')}"
+        )
+        return (
+            f'<a class="card" href="{html.escape(target)}">'
+            f'<span class="card__number">{html.escape(entry.id)}</span>'
+            f'<span class="card__title">{html.escape(entry.title)}</span>'
+            f'<span class="card__count">{html.escape(detail)} · pages {html.escape(cited)}</span></a>'
+        )
+
+    # One route per entry.
+    for entry in model.entries:
+        destination = appendix_destination(entry)
+        # The route already carries the entry's title as its own heading, so the rendered
+        # entry drops its `###` line rather than saying it twice. The assembled document
+        # keeps it, because there the entries run together and each needs its own head.
+        rendered = re.sub(r"^###\s+.*\n", "", appendix_module.render(entry), count=1)
+        body = markdown_to_html(rendered)
+        cited = "".join(
+            f"<li><strong>{page:03d}</strong> — {html.escape(pages.get(page, ''))} "
+            f"({page_links(destination.parent, page)})</li>"
+            for page in entry.pages
+        )
+        related = "".join(
+            f'<li><a href="{html.escape(route_url(destination.parent, appendix_destination(other)))}">'
+            f"{html.escape(other.id)} — {html.escape(other.title)}</a></li>"
+            for other in model.entries
+            if other.id != entry.id and set(other.pages) & set(entry.pages)
+        )
+        body += (
+            f"<h2>Story pages</h2><ul>{cited}</ul>"
+            + (f"<h2>Entries on the same pages</h2><ul>{related}</ul>" if related else "")
+            + f'<p><a href="{html.escape(route_url(destination.parent, home))}">'
+            f"All appendix entries</a></p>"
+        )
+        write_page(destination, f"{entry.id} — {entry.title}", body, document)
+
+    # The page index: the address a reader actually arrives with is a page number.
+    index_rows = "".join(
+        f"<tr><td>{page:03d}</td><td>{html.escape(pages.get(page, ''))}</td><td>"
+        + ", ".join(
+            f'<a href="{html.escape(route_url(directory, appendix_destination(entry)))}">'
+            f"{html.escape(entry.id)}</a>"
+            for entry in entries
+        )
+        + f"</td><td>{page_links(directory, page)}</td></tr>"
+        for page, entries in model.by_page().items()
+    )
+
+    intro = (ROOT / "content" / APPENDIX_DIR / "README.md").read_text(encoding="utf-8")
+    intro = re.sub(r"^#\s+.*\n", "", intro, count=1).split("<!-- editorial -->")[0].strip()
+
+    body = (
+        f"{markdown_to_html(intro)}"
+        f"<h2>Index by story page</h2>"
+        f'<div class="table-scroll"><table><thead><tr><th>Page</th><th>Title</th>'
+        f"<th>Entries</th><th>Read the page</th></tr></thead>"
+        f"<tbody>{index_rows}</tbody></table></div>"
+        f"<h2>Contested assertions</h2>"
+        f'<div class="cards">{"".join(entry_card(entry) for entry in model.contested)}</div>'
+        f"<h2>Logical fallacies</h2>"
+        f'<div class="cards">{"".join(entry_card(entry) for entry in model.fallacies)}</div>'
+        f'<p class="note">The appendix also ships inside every '
+        f'<a href="{html.escape(route_url(directory, Path(NOVELLA_DIR, "index.html")))}">novella '
+        f"download</a>, with the same page numbers and the same links.</p>"
+    )
+    write_page(home, f"Appendix — {APPENDIX_TITLE}", body, document)
+    return len(model.entries) + 1
+
+
 def file_size(path: Path) -> str:
     size = path.stat().st_size
     return f"{size / 1_048_576:.1f} MB" if size >= 1_048_576 else f"{max(1, round(size / 1024))} KB"
@@ -1159,22 +1388,31 @@ def build_novella() -> int:
     shutil.copy2(source / "reader.css", base / "reader.css")
     shutil.copy2(source / "reader.js", base / "reader.js")
 
+    # The appendix goes into all four downloads. It is keyed to story page numbers, which
+    # are the same in the novella and the graphic novel, so a reader holding either edition
+    # can use it -- and a download that carried the story without the evidence would be the
+    # half of the book that is easiest to quote and hardest to check.
+    appendix_text = appendix_markdown(appendix_entries())
+
     # Downloads first: the home page quotes their sizes, so they have to exist.
     downloads: list[tuple[str, str, str, Path]] = []
-    epub_path = novella_epub(chapters, base / f"{NOVELLA_SLUG}.epub")
-    downloads.append(("EPUB", f"{NOVELLA_SLUG}.epub", "For a Kindle, Kobo, or any reading app. Carries the page numbers as real EPUB page breaks.", epub_path))
+    epub_path = novella_epub(chapters, base / f"{NOVELLA_SLUG}.epub", appendix_text)
+    downloads.append(("EPUB", f"{NOVELLA_SLUG}.epub", "For a Kindle, Kobo, or any reading app. Carries the page numbers as real EPUB page breaks, and the appendix with live links.", epub_path))
 
     html_path = base / f"{NOVELLA_SLUG}.html"
-    html_path.write_text(novella_standalone(chapters, stylesheet), encoding="utf-8")
-    downloads.append(("HTML", html_path.name, "One self-contained file. Opens in any browser, works offline, prints.", html_path))
+    html_path.write_text(novella_standalone(chapters, stylesheet, appendix_text), encoding="utf-8")
+    downloads.append(("HTML", html_path.name, "One self-contained file. Opens in any browser, works offline, prints. Appendix links are clickable.", html_path))
 
     markdown_path = base / f"{NOVELLA_SLUG}.md"
-    markdown_path.write_text(novella.assemble(continuous=False), encoding="utf-8")
+    markdown_path.write_text(
+        novella.assemble(continuous=False) + "\n\n" + appendix_text, encoding="utf-8")
     downloads.append(("Markdown", markdown_path.name, "The source form, exactly as the repository holds it.", markdown_path))
 
     text_path = base / f"{NOVELLA_SLUG}.txt"
-    text_path.write_text(novella_plain_text(chapters), encoding="utf-8")
-    downloads.append(("Plain text", text_path.name, "No markup at all, wrapped at 78 columns.", text_path))
+    text_path.write_text(
+        novella_plain_text(chapters) + "\n\n" + appendix_plain_text(appendix_text),
+        encoding="utf-8")
+    downloads.append(("Plain text", text_path.name, "No markup at all, wrapped at 78 columns. Appendix links are printed in full.", text_path))
 
     home = Path(NOVELLA_DIR, "index.html")
     chapter_paths = [Path(NOVELLA_DIR, chapter.directory, "index.html") for chapter in chapters]
@@ -1265,9 +1503,15 @@ def build_novella() -> int:
         f'<ol class="page-index">{index_links}</ol>'
         f"<h2>Download the whole novella</h2>"
         f'<div class="downloads">{download_rows}</div>'
-        f'<p class="note">Every file is the complete novella, one chapter after another. '
+        f'<p class="note">Every file is the complete novella, one chapter after another, '
+        f"followed by the appendix of contested assertions and logical fallacies. "
         f'<a href="{html.escape(viewer_href)}">The graphic novel</a> is a separate read. '
         f"{html.escape(NOVELLA_RIGHTS)}</p>"
+        f"<h2>The appendix</h2>"
+        f'<p>Every entry is keyed to a story page number, and the graphic novel and the '
+        f"novella share a pagination — so an entry about page 039 is about page 039 in "
+        f'either edition. <a href="{html.escape(route_url(directory, Path(APPENDIX_DIR, "index.html")))}">'
+        f"Read the appendix on its own →</a></p>"
     )
     (OUT / home).write_text(
         novella_document(
@@ -2147,6 +2391,7 @@ def main() -> int:
             '<p>Private local review build: canonical story material, visual direction, research, and production notes.</p>'
             '<p><a class="viewer-callout" href="viewer/">Open the graphic novel viewer validation build →</a></p>'
             '<p><a class="viewer-callout" href="novella/">Read the novella, or download it whole →</a></p>'
+            '<p><a class="viewer-callout" href="appendix/">Open the appendix of contested assertions and logical fallacies →</a></p>'
             f'{placeholder_link}'
             '<p><a class="viewer-callout" href="knowledge-maps/">Explore four knowledge-map alternatives and placement studies →</a></p>'
             '<p><a class="viewer-callout" href="crossref/">Open the page, source, and provenance cross reference →</a></p>'
@@ -2159,6 +2404,7 @@ def main() -> int:
             '<p>Story-first public build. Research snapshots, source packets, prompts, and production notes remain local.</p>'
             '<p><a class="viewer-callout" href="viewer/">Open the graphic novel viewer validation build →</a></p>'
             '<p><a class="viewer-callout" href="novella/">Read the novella, or download it whole →</a></p>'
+            '<p><a class="viewer-callout" href="appendix/">Open the appendix of contested assertions and logical fallacies →</a></p>'
             f'{placeholder_link}'
             '<p><a class="viewer-callout" href="knowledge-maps/">Explore four knowledge-map alternatives and placement studies →</a></p>'
             '<p><a class="viewer-callout" href="crossref/">Open the page, source, and provenance cross reference →</a></p>'
@@ -2186,12 +2432,14 @@ def main() -> int:
     LETTERED = build_lettering()
     build_viewer()
     novella_routes = build_novella()
+    appendix_routes = build_appendix(document)
     bakeoff_routes = build_bakeoff(document)
     knowledge_map_routes = build_knowledge_maps(document)
 
     print(
         f"Built {len(markdown_files)} Markdown pages, {crossref_routes} cross-reference routes, "
         f"{novella_routes} novella routes and 4 downloads, "
+        f"{appendix_routes} appendix routes, "
         f"{bakeoff_routes} bake-off routes, {knowledge_map_routes} knowledge-map routes, "
         f"{len(LETTERED)} lettered panel(s), "
         f"and the viewer validation section into {OUT.relative_to(ROOT)}/"

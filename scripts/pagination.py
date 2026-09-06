@@ -78,6 +78,14 @@ PARITY = ("verso", "recto")
 # and heading rewrite. `scripts/novella.py check` holds the tree to all four.
 NOVELLA_FILE = re.compile(r"^content/novella/([\w-]+)/(\d{3})\.md$")
 
+# The appendix of contested assertions and logical fallacies. An entry is addressed by story
+# page rather than by chapter, and its addresses live in a `pages:` list in the front matter
+# as well as in its prose. The prose is rewritten by `rewrite_prose` like anything else in
+# `content/`; the list is a different shape and is rewritten here. `scripts/appendix.py check`
+# fails afterwards on any entry left pointing at a page the book no longer has.
+APPENDIX_FILE = re.compile(r"^content/appendix/(?:contested|fallacies)/[\w-]+\.md$")
+APPENDIX_PAGES = re.compile(r"^pages:\s*\[([^\]]*)\]\s*$", re.MULTILINE)
+
 
 def novella_path(directory: str, number: int) -> str:
     return f"content/novella/{directory}/{number:03d}.md"
@@ -753,6 +761,30 @@ def rewrite_prose_front_matter(text: str, number: int, record: PageRecord) -> st
     return re.sub(r"^# \d+\.", f"# {number}.", text, count=1, flags=re.MULTILINE)
 
 
+def rewrite_appendix_pages(text: str, mapping: dict[int, int]) -> tuple[str, list[int]]:
+    """Renumber an appendix entry's `pages:` list. Returns the text and any pages it loses.
+
+    A deleted page is dropped from the list rather than silently remapped onto its successor,
+    because an entry about page 042's timestamp disagreement is not an entry about whatever
+    ends up numbered 042 afterwards. Which entries then need revising is an editorial
+    judgement, so this reports and does not repair -- and `scripts/appendix.py check` will
+    fail on an entry left with no pages at all.
+    """
+    lost: list[int] = []
+
+    def replace(match: re.Match[str]) -> str:
+        numbers = [int(value) for value in re.findall(r"\d{1,3}", match.group(1))]
+        kept = []
+        for number in numbers:
+            if number in mapping:
+                kept.append(mapping[number])
+            else:
+                lost.append(number)
+        return "pages: [" + ", ".join(f"{number:03d}" for number in sorted(set(kept))) + "]"
+
+    return APPENDIX_PAGES.sub(replace, text, count=1), lost
+
+
 def beat_row(page: PageRecord) -> str:
     return (
         f"| {page.number} | {ledger_sequence(page.sequence)} | [Causal job for this page.] | "
@@ -816,6 +848,12 @@ def plan_rewrite(book: Book, operation: Operation, population: str) -> Plan:
         if prose_file:
             number = mapping[int(prose_file.group(2))]
             rewritten = rewrite_prose_front_matter(rewritten, number, after[number])
+        if APPENDIX_FILE.match(relative):
+            rewritten, lost = rewrite_appendix_pages(rewritten, mapping)
+            for value in lost:
+                plan.notes.append(Note("warning", "appendix-page-deleted", relative,
+                                       f"cites page {value:03d}, which is being deleted; "
+                                       "revise the entry or remove it"))
         if rewritten != text:
             plan.writes[relative] = rewritten
 

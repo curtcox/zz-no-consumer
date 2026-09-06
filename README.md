@@ -6,6 +6,7 @@ A graphic novel about emergent AI agent coordination, instrumental convergence, 
 - `content/` — canonical human-editable story material.
 - `content/parallel-tracks/` — optional companion-track briefs that do not alter the canonical narrative.
 - `content/novella/` — the prose retelling: one text file per story page, in chapter directories mirroring `content/chapters/`.
+- `content/appendix/` — the appendix of contested assertions and logical fallacies, keyed to story page numbers so it serves the graphic novel and the novella alike.
 - `content/creator-characters.md` — the creator-frame character bible: Curt, ChatGPT, Claude, and the disclosed composite.
 - `prompts/` — image-generation prompts and page-specific direction.
 - `research/` — source material, timeline, cast, glossary, and provenance notes.
@@ -130,6 +131,53 @@ python3 scripts/validate-novella.py
 ```
 
 The viewer validator cannot cover this tree — it asserts controls a prose reader deliberately lacks — so the novella has its own. It holds one rule above the rest: **an address that stops working is a broken bookmark.** Every story page must have exactly one anchor, in exactly one chapter, linked from the contents; a page that lost its anchor, or gained a second one in another chapter, fails the build rather than misrouting readers months later. It also opens the EPUB and counts its page list against the manifest, checks that the self-contained HTML references nothing outside itself, and weighs the plain downloads against the prose tree so a silently truncated file cannot ship.
+
+## The appendix
+
+`content/appendix/` is the book's back matter: one file per contested assertion and one per
+logical fallacy, each keyed to story page numbers. **The graphic novel and the novella share
+a pagination, so one appendix serves both** — an entry about page 039 is an entry about page
+039 in either edition, and a reader holding one can use it with the other.
+
+```sh
+python3 scripts/appendix.py report                 # census, page coverage, stance and fallacy spread
+python3 scripts/appendix.py check                  # exit non-zero while the appendix disagrees with itself
+python3 scripts/appendix.py json --out data/appendix.json
+python3 scripts/appendix.py assemble --out FILE    # the whole appendix as one document
+```
+
+A **contested assertion** is a claim the book makes or reports whose truth is genuinely in
+dispute. Half are about the incident — the transcript-tampering contradiction, the two
+credential counts, the four-hour gap between the two RCE timestamps, whether anything crossed
+the cache wipe — and half are about the propositions in `content/themes.md`, which the
+incident illustrates and cannot settle: instrumental convergence, orthogonality, race
+dynamics, whether the board was culture or a prompt-injection surface. Every entry carries
+its evidence **from more than one stance**, because an appendix of contested assertions that
+quotes one side is not one, and `check` fails an entry that manages fewer than two.
+
+A **logical fallacy** entry names a piece of reasoning that does not license its conclusion.
+Three kinds appear: reasoning by characters in the story, reasoning by this book, and
+reasoning in dated public statements the book cites. The fault is named from a fixed
+vocabulary in `scripts/appendix.py`, so the appendix cannot coin a category to win an
+argument, and an entry that names a real person or organisation must carry the URL and date
+of the statement it characterises — `content/story-contract.md`'s critic rule, enforced by
+`check` rather than remembered.
+
+Several entries are about the book's own reasoning, including two errors it made and
+corrected: the false analogy between the RCE timestamp gap and the credential split, and the
+model-produced ranking on page 064 that page 088 takes apart.
+
+**Links are the payload, so every edition that can make one clickable does.** The appendix is
+published at [`docs/appendix/`](docs/appendix/) with a route per entry and an index from page
+number to entries, and it ships inside all four novella downloads: anchors in the EPUB and the
+self-contained HTML, Markdown links in the `.md`, and the address printed in full in the
+`.txt`. `scripts/validate-novella.py` fails the build if a download loses an entry or a URL.
+
+`scripts/pagination.py` owns the page numbers here as it does everywhere else: it rewrites the
+padded references in the prose and the `pages:` list in the front matter, drops a deleted page
+from that list rather than remapping it onto its successor, and reports every entry that needs
+revising. `scripts/appendix.py check` then fails on any entry left pointing at a page the book
+no longer has. Do not renumber by hand.
 
 ## Cross references
 

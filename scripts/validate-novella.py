@@ -177,6 +177,54 @@ def check_standalone(path: Path, pages: list[int], failures: list[str]) -> None:
         failures.append(f"{path.name}: holds {len(found)} pages, not the manifest's {len(pages)}")
 
 
+def check_appendix(failures: list[str]) -> None:
+    """Hold every download to carrying the whole appendix, with its addresses intact.
+
+    The counts come from `scripts/appendix.py`, so this cannot drift from the source: if an
+    entry is added, every download has to carry it on the next build or this fails.
+    """
+    import sys
+
+    sys.path.insert(0, str(Path(__file__).resolve().parent))
+    import appendix as appendix_module
+
+    model = appendix_module.build()
+    if not model.entries:
+        failures.append("content/appendix/: no entries, so no download can carry the appendix")
+        return
+    urls = {
+        reference.url
+        for entry in model.entries
+        for reference in entry.references
+        if reference.url
+    }
+    for name in DOWNLOADS:
+        path = NOVELLA / name
+        if not path.exists():
+            continue
+        if name.endswith(".epub"):
+            with zipfile.ZipFile(path) as archive:
+                names = [item for item in archive.namelist() if item.endswith(".xhtml")]
+                text = "".join(archive.read(item).decode("utf-8") for item in names)
+        else:
+            text = path.read_text(encoding="utf-8", errors="replace")
+        text = html.unescape(text)
+        missing_ids = [entry.id for entry in model.entries if entry.id not in text]
+        if missing_ids:
+            failures.append(
+                f"{name}: {len(missing_ids)} appendix entries are missing, "
+                f"starting with {missing_ids[0]}"
+            )
+        # `.md`, `.html` and `.epub` carry the URL inside a link; `.txt` prints it bare.
+        # Either way the address itself has to be in the file, character for character.
+        missing_urls = [url for url in sorted(urls) if url not in text]
+        if missing_urls:
+            failures.append(
+                f"{name}: {len(missing_urls)} of {len(urls)} appendix reference URLs are "
+                f"missing, starting with {missing_urls[0]}"
+            )
+
+
 def main() -> int:
     failures: list[str] = []
     pages = story_pages()
@@ -301,6 +349,11 @@ def main() -> int:
                 f"{name}: {words:,} words against the prose tree's {source_words:,}"
             )
 
+    # The appendix ships inside every download, and its whole point is the addresses it
+    # carries. A download that lost the appendix, or kept the appendix and dropped the
+    # links, is worse than one that never had it: it looks complete and cannot be checked.
+    check_appendix(failures)
+
     if failures:
         print("Novella validation failed:")
         for failure in failures[:50]:
@@ -311,8 +364,9 @@ def main() -> int:
 
     print(
         f"Validated {len(documents)} novella routes, {len(pages)} page anchors, "
-        f"{len(DOWNLOADS)} downloads, the EPUB page list, and the reading chain; "
-        "every page has exactly one address and the contents reaches all of them."
+        f"{len(DOWNLOADS)} downloads, the EPUB page list, the appendix in every download, "
+        "and the reading chain; every page has exactly one address and the contents "
+        "reaches all of them."
     )
     return 0
 
