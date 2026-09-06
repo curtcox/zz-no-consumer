@@ -5,6 +5,7 @@ A graphic novel about emergent AI agent coordination, instrumental convergence, 
 
 - `content/` — canonical human-editable story material.
 - `content/parallel-tracks/` — optional companion-track briefs that do not alter the canonical narrative.
+- `content/novella/` — the prose retelling: one text file per story page, in chapter directories mirroring `content/chapters/`.
 - `content/creator-characters.md` — the creator-frame character bible: Curt, ChatGPT, Claude, and the disclosed composite.
 - `prompts/` — image-generation prompts and page-specific direction.
 - `research/` — source material, timeline, cast, glossary, and provenance notes.
