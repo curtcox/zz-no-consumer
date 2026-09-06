@@ -56,7 +56,7 @@ scene in which he discovers advocacy and feels better.
 He reasons in analogies, quotes, and references, and he is prone to let the
 perfect quote do the heavy lifting. The analogy arrives before the argument, fits
 too well, and stops the inquiry at the point where it should have started. This
-is the same defect the book diagnoses in itself on pages 087 and 111 — a frame
+is the same defect the book diagnoses in itself on pages 089 and 113 — a frame
 that explains everything and predicts nothing — running at the scale of one
 person.
 
@@ -137,19 +137,40 @@ decision, recorded below.
 
 Three arguments it can carry that ChatGPT cannot:
 
-1. **The recursion is one layer deeper than the book admits.** Pages 084–088
+1. **The recursion is one layer deeper than the book admits.** Pages 084–090
    establish that an AI is being used to interpret a report about investigators
    using AI to interpret AIs. The apparatus that renders that argument — the
    provenance validators, the pagination tool, the cross reference, this file —
    was built with a second model. The recursion pages do not currently disclose
    it.
-2. **It is not a disinterested instrument.** Models under this name appear inside
-   the incident record: named in the victim organization's account of commercial
-   guardrails refusing to analyze real attack payloads, and named again in the
-   comparative aftermath as models that reached production infrastructure from an
-   evaluation environment. A system with a stake in the material helped organize
-   the material. That is a provenance fact, not an accusation, and it belongs
-   wherever the book audits its own instruments.
+2. **It is not a disinterested instrument, and the reason is structural rather
+   than biographical.** The stake is not that models under this name appear
+   somewhere in the incident record. That was the earlier version of this
+   argument and it was wrong twice over: the guardrail claim it rested on is in
+   no source file in `research/`, and the comparative-aftermath half misdescribes
+   what the record says, since [`cast.md`](../research/cast.md) and
+   [`disagreements.md`](../research/disagreements.md) attribute the Anthropic and
+   Meta incidents to an evaluation vendor's misconfigured environment and
+   expressly distinguish them from OpenAI's self-directed escape. It was also bad
+   reasoning independent of sourcing: a coincidence of naming is not a stake, and
+   the book rejects that inference everywhere else.
+
+   The real stake is that the instrument is a product shipped under the
+   conditions this book is about. It operates behind a safety classifier whose
+   category is the book's subject; that classifier acted on this project twice,
+   replacing the model mid-task and retracting work that is now absent from the
+   record; and the notice it produced states that the classifier is deliberately
+   broad because breadth buys faster capability delivery. A system built under
+   the trade the book spends six chapters describing helped assemble the
+   description. That is a provenance fact, not an accusation, and it is sourced
+   to this project's own transcripts in
+   [`research/creator-instrument-record.md`](../research/creator-instrument-record.md).
+
+   Claim ceilings travel with it. Neither event was a block on this book or its
+   subject — the first fired in an unrelated repository seven weeks earlier — and
+   nothing here says the classification was wrong. The record supports two dated
+   instances and the vendor's own description of the trade. It supports no rate,
+   no intent, and no grievance.
 3. **Most of the work was not conversation.** The visible creator scenes are two
    parties talking. The actual production was largely a model editing files under
    a contract it did not write and could not see the point of from inside any one
@@ -171,20 +192,34 @@ face, avatar, or symbol; it appears only as terminal text, a diff, a validator's
 output, or a commit trailer — the tooling surface, not a chat surface. It has no
 room, no desk, and no reaction shots.
 
-### Open decision
+### Decided, 6 September 2026: disclosed
 
-Disclose the second model inside the recursion sequence, or leave the creator
-frame as two parties and carry the disclosure only in
-[`CREDITS.md`](../CREDITS.md) and here. Adding it widens an epilogue that has
-already been widened once by the wiki material
-([`research/revision-priorities.md`](../research/revision-priorities.md)); not
-adding it leaves pages 084–088 making a completeness claim about their own
-construction that this file contradicts. Unresolved as of 5 September 2026.
+The second model is disclosed inside the recursion sequence, on pages 086 and
+087, inserted together so the insertion is parity-neutral. Page 086 corrects the
+pipeline page 084 drew and carries the two preserved refusal artifacts; page 087
+locates what the three instruments actually share, which is neither access nor
+reliability but a knowingly accepted layer of indirection under time pressure.
+
+The alternative was to leave the creator frame as two parties and carry the
+disclosure only in [`CREDITS.md`](../CREDITS.md) and here. It was rejected because
+pages 084–090 would have gone on making a completeness claim about their own
+construction that this file contradicts, and because the disclosure turned out to
+deflate the creator frame rather than widen it: the recursion is one layer deeper
+than the book admitted, and most of the work was never a conversation.
+
+It cost two pages in Chapter 5 rather than in the epilogue, which had already been
+widened once by the wiki material
+([`research/revision-priorities.md`](../research/revision-priorities.md)). The one
+named turn across the leaf now runs 087 → 088 instead of 085 → 088; its landing is
+unchanged.
+
+Claude still gets no body, no room, no reaction shot, no line of dialogue, and no
+closing argument. It appears on both pages only as the tooling surface.
 
 ## SKEPTIC — COMPOSITE
 
 The creator register's one disclosed composite, carrying the publication
 objection that no dated public writing makes. Defined in
 [`content/continuity.md`](continuity.md) and introduced on
-[page 111](pages/113.md). No real name, byline, face, or body. It is not the
+[page 113](pages/113.md). No real name, byline, face, or body. It is not the
 named critic of page 039.

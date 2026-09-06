@@ -2,7 +2,7 @@
 
 ## Status
 
-**Approved 5 September 2026; not yet applied to pages.** The apparatus is adopted as the book's epistemic device, and the [fog-of-war studies](../assets/knowledge-maps/fog-v1/) (computed raster fog with a soft, irregular edge over shaded relief and draped pictograms) are the approved visual direction over the four vector families A–D. Pages 016, 032, 035, 039, 040, 064 and 086 have been written to accept it and refer to it; nothing else in the script assumes it exists yet. Placement, distinct personal maps, and a web-first publication are settled directions. The treatment is **W3 patchy contest** (chosen 5 September); whether P6 is hinted before page 016 is decided during the pass, when the page-010 appearance is drawn. The whole-book application is planned as item 8 of [research/revision-priorities.md](../research/revision-priorities.md); the sample SVGs and gallery keep their *not adopted* labels until that pass relabels them in one regeneration.
+**Approved 5 September 2026; not yet applied to pages.** The apparatus is adopted as the book's epistemic device, and the [fog-of-war studies](../assets/knowledge-maps/fog-v1/) (computed raster fog with a soft, irregular edge over shaded relief and draped pictograms) are the approved visual direction over the four vector families A–D. Pages 016, 032, 035, 039, 040, 064 and 088 have been written to accept it and refer to it; nothing else in the script assumes it exists yet. Placement, distinct personal maps, and a web-first publication are settled directions. The treatment is **W3 patchy contest** (chosen 5 September); whether P6 is hinted before page 016 is decided during the pass, when the page-010 appearance is drawn. The whole-book application is planned as item 8 of [research/revision-priorities.md](../research/revision-priorities.md); the sample SVGs and gallery keep their *not adopted* labels until that pass relabels them in one regeneration.
 
 ## The problem it solves
 
@@ -12,7 +12,7 @@ But the book's actual epistemics are not a filing system. They are a belief stat
 
 - Page 039 shows the wipe was not the only channel; Chapter 2's confidence should fall.
 - Pages 082–083 show the record may not be the event.
-- Page 086 shows that eleven coordinators were a ranking, not an observation.
+- Page 088 shows that eleven coordinators were a ranking, not an observation.
 
 None of that is expressible as a per-panel label, because the label on page 064 was already correct. What changes is not the label. **What changes is how much the reader should believe the picture.**
 
@@ -71,7 +71,7 @@ The story and its maps are partly about **theory of mind**: what someone knows, 
 
 ### Audit of the prepared pages
 
-Only one page depends on the apparatus by name: page 016 panel 5 draws the five inward-facing silhouettes and its note says to reuse them from this spec. Pages 032, 035, 039, 040, 064 and 086 were written to be compatible with it (they state or re-fog the propositions in their captions) but contain no reference to a map and work with it removed, as rule "not a substitute for the argument" requires. Pages 010 panel 4 and 025 panel 4 already draw reader/responder divergence as a split and a hard gutter; they are the earliest appearances and should adopt the map grammar rather than a third convention. Nothing in the script needs to change for the map to be absent; everything below is addition.
+Only one page depends on the apparatus by name: page 016 panel 5 draws the five inward-facing silhouettes and its note says to reuse them from this spec. Pages 032, 035, 039, 040, 064 and 088 were written to be compatible with it (they state or re-fog the propositions in their captions) but contain no reference to a map and work with it removed, as rule "not a substitute for the argument" requires. Pages 010 panel 4 and 025 panel 4 already draw reader/responder divergence as a split and a hard gutter; they are the earliest appearances and should adopt the map grammar rather than a third convention. Nothing in the script needs to change for the map to be absent; everything below is addition.
 
 ### Appearance list
 
@@ -98,7 +98,7 @@ Treatment W3 throughout. Placement is chosen per job: **strip** is a margin or g
 | 109 | strip | Curt | The wiki lane appears on Curt's map as a second surveyed strip; P1 and P2 do not change. | The dated addition: broader task evidence lights nothing. |
 | 118 | none | — | The map is absent. The final caption is the statement about P6. | Deliberate absence. |
 
-Eighteen appearances, four of them re-fogs, none on consecutive pages except the 032/035 pair and the 039 before/after. Anything beyond this list is wallpaper until a page proves otherwise. The dated wiki addition (pages 104–109) gets exactly one strip, on page 107, showing that the wiki widens task evidence without lighting P1 or P2.
+Eighteen appearances, four of them re-fogs, none on consecutive pages except the 032/035 pair and the 039 before/after. Anything beyond this list is wallpaper until a page proves otherwise. The dated wiki addition (pages 106–111) gets exactly one strip, on page 109, showing that the wiki widens task evidence without lighting P1 or P2.
 
 ### Web presentation
 
@@ -132,7 +132,7 @@ The 025 reader state is the 039 state with P2 unexplored: the June response is o
 
 - **Not a scoreboard of Curt versus the critic.** It tracks the book's claims, not a debate.
 - **Not a device that makes uncertainty comfortable.** If the map lets a reader relax because everything is labeled, it has inverted its purpose. The re-fogs must cost something.
-- **Not a substitute for the argument.** Pages 039, 063, 083 and 086 must work with the map removed. The map makes them cumulative; it does not make them.
+- **Not a substitute for the argument.** Pages 039, 063, 083 and 088 must work with the map removed. The map makes them cumulative; it does not make them.
 
 ## Publication and presentation decisions
 

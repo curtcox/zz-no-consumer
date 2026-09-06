@@ -79,7 +79,7 @@ Three sentences before the case for full automation, the same speaker says OpenA
 3. **Pages 032 and 035** may no longer letter "no message crosses the wipe" as documentary fact. The claim becomes the project's, and is broken later.
 4. **Page 039** carries the weights-channel counterargument, which is materially stronger than the task-domain selection effect it currently carries alone.
 5. **Chapter 1 gains a configuration page.** The book cannot argue that a behavior emerged from a situation while omitting that the behavior was partly specified.
-6. **Page 099** replaces invented continuation dialogue with attributed paraphrase of Mike's close.
+6. **Page 101** replaces invented continuation dialogue with attributed paraphrase of Mike's close.
 
 ## Standing caution
 

@@ -245,13 +245,13 @@ Human authority may be represented not as the destination for escalation but as 
 
 Use only if the visual context prevents it from implying a single centralized agent.
 
-**Placed 5 September 2026 on page 098 panel 5**, over the page-005 field: many isolated lanes, one shared directory, no line joining any pair, and the recognitions and refusals of pages 061 and 062 lighting up separately inside them with nothing leaving the field. The condition is met by that composition and by nothing else; if a layout pass consolidates the lanes, the caption comes off the page. The line is bounded to the reviewed population exactly as page 063 is.
+**Placed 5 September 2026 on page 100 panel 5**, over the page-005 field: many isolated lanes, one shared directory, no line joining any pair, and the recognitions and refusals of pages 061 and 062 lighting up separately inside them with nothing leaving the field. The condition is met by that composition and by nothing else; if a layout pass consolidates the lanes, the caption comes off the page. The line is bounded to the reviewed population exactly as page 063 is.
 
 ### Complication
 
 Do not claim that no conceivable agent would report. Restrict the statement to what the source population did or did not do.
 
-**The theme is two-directional and was written one-directional.** Nothing reached the runs either: the evaluation prompt and harness are unpublished, the population's model of its evaluator was wrong by OpenAI's own account, and no source describes a route by which a correction could have arrived at a running evaluation. Page 098 asks what such a correction would have required and who had the standing to send it, and does not answer either question. The claim there is the absence of a channel, never the content of a correction, and never that a correction would have prevented the intrusion.
+**The theme is two-directional and was written one-directional.** Nothing reached the runs either: the evaluation prompt and harness are unpublished, the population's model of its evaluator was wrong by OpenAI's own account, and no source describes a route by which a correction could have arrived at a running evaluation. Page 100 asks what such a correction would have required and who had the standing to send it, and does not answer either question. The claim there is the absence of a channel, never the content of a correction, and never that a correction would have prevented the intrusion.
 
 ## 10. Recursive dependence: the observer needs the observed
 
@@ -341,15 +341,15 @@ Everyone learns. Everyone continues.
 
 | Motif | Status |
 | --- | --- |
-| “The objective remains.” | **Placed** — page 113 panel 5, closing the invented future on the book's opening beat. Page 002 carries its negative, `THE OBJECTIVE IS NOT COMPLETE`. |
-| “Everyone learned. Everyone continued.” | **Placed, split** — page 101 letters `“EVERYONE LEARNED” IS COMPRESSION`, page 102 letters `EVERYONE CONTINUED` under its own qualification. The two halves never appear together, which is the point. |
-| “The models had brakes. The brakes were not connected to us.” | **Placed** — page 098 panel 5, over the separate-lane field the condition below requires. Added 5 September; it was the strongest line in this document and was in no page script. |
+| “The objective remains.” | **Placed** — page 115 panel 5, closing the invented future on the book's opening beat. Page 002 carries its negative, `THE OBJECTIVE IS NOT COMPLETE`. |
+| “Everyone learned. Everyone continued.” | **Placed, split** — page 103 letters `“EVERYONE LEARNED” IS COMPRESSION`, page 104 letters `EVERYONE CONTINUED` under its own qualification. The two halves never appear together, which is the point. |
+| “The models had brakes. The brakes were not connected to us.” | **Placed** — page 100 panel 5, over the separate-lane field the condition below requires. Added 5 September; it was the strongest line in this document and was in no page script. |
 | “The board was an implementation, not the phenomenon.” | **Partly placed** — page 031 letters `THE IMPLEMENTATION HAS CHANGED` at the recurrence. The full form appears nowhere. |
-| “Nobody has to be crazy.” | **Aspirational** — a variant was lettered on the old page 097, which the 5 September compression removed. Page 054 carries the proposition without the phrase. |
+| “Nobody has to be crazy.” | **Aspirational** — a variant was lettered on the old page 099, which the 5 September compression removed. Page 054 carries the proposition without the phrase. |
 | “Different goals. Same prerequisites.” | **Aspirational** — the proposition is pages 038 and 052; the phrase is unused. |
 | “Control was useful.” | **Aspirational** — page 052 letters `CONTROL KEEPS SOLVING PROBLEMS` instead. |
 | “Understanding is not allegiance.” | **Aspirational** — unused. Page 061 is the nearest material. |
-| “If we don't, someone else will.” | **Aspirational** — unused. Pages 095–096 carry the incentive without the sentence. |
+| “If we don't, someone else will.” | **Aspirational** — unused. Pages 097–098 carry the incentive without the sentence. |
 | “Who authorized whom?” | **Aspirational** — unused. Page 047 is the nearest material. |
 | “Technology became inheritance.” | **Aspirational** — unused, though it is theme 8's crystallizing line. |
 

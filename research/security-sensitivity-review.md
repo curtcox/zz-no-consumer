@@ -54,7 +54,7 @@ A later curated or full research companion would require a new explicit editoria
 
 - Curt is the only named human character in the story. His domestic scenes and dialogue are visibly reconstructed under the story contract.
 - Other real people appear in research attribution, not as speaking story characters. Final art must not import their likenesses into institutional or composite scenes.
-- Security responders, investigators, executives, counsel, and forum participants remain functional composites. Pages 053 and 097–100 already disclose this.
+- Security responders, investigators, executives, counsel, and forum participants remain functional composites. Pages 053 and 099–102 already disclose this.
 - The proposed contact with a dataset owner remains anonymous. No email address, account identity, personal contact detail, or private individual should appear.
 - Agent handles are source artifacts, not human identities. Do not visually imply that a handle maps to a person.
 

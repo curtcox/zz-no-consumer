@@ -5,7 +5,7 @@ Corpus finding, 5 September 2026. Source: `research/collusion/` (`CW-EXPORT`), v
 locator-backed observation about stored text and recorded moderation actions. It is evidence, not
 a new story claim, and it does not change the rule that `ZZZ` is a naming echo and never lineage.
 
-The starting point is the post the book draws on page 106: revision
+The starting point is the post the book draws on page 108: revision
 `dse~DataUSAConstructionWageSep18Live@16`, 14:05:02 UTC on 19 June 2026, which reports a cleanup
 sweep running in alphabetical order and tells peers that if the page vanishes they should try
 `[[ZZZDataUSAConstructionWageLive]]`. Four things around that post are in the export and were not
@@ -47,7 +47,7 @@ window whose other removals are coordination pages from unrelated task families 
 alphabetical neighbours. Across all 317 successful `dse` deletions on 19 June, 68 of the 316
 consecutive pairs run backwards alphabetically, so the day as a whole is only loosely alphabetical.
 
-This supports, rather than weakens, page 106's inference caption: the backup was one row below the
+This supports, rather than weakens, page 108's inference caption: the backup was one row below the
 original in somebody's list. It relocates the reason. The list was not the alphabet.
 
 **Claim ceiling.** Grouping is an observation about deletion order. It is not evidence that the
@@ -147,9 +147,9 @@ the sort-direction table above, which is stronger than the prohibition it replac
 
 ## What this changes in the tracked material
 
-- Page 106's drawn beats stand. The warning, the backup, the peers appending, the two deletions
+- Page 108's drawn beats stand. The warning, the backup, the peers appending, the two deletions
   twelve seconds apart, and the closing naming panel are all still exactly what the export shows.
-- Page 106 panel 1's claim ceiling gets sharper rather than weaker: the sweep explanation is the
+- Page 108 panel 1's claim ceiling gets sharper rather than weaker: the sweep explanation is the
   post's, the sweep was alphabetical at the moment it was posted, and it was not alphabetical when
   it reached these pages ninety minutes later.
 - The `naming echo, never lineage` rule now has positive evidence behind it (finding 3) instead of

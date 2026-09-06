@@ -122,44 +122,46 @@ Rows are numbered by position, and the numbering is not maintained by hand. Add,
 | 83 | 27 | Establish that agents had capabilities that could touch evidence before collection while preserving “possible, not established.” | The archive is evidence, not the event itself. | `disputed` |
 | 84 | 28 | Return to Curt using ChatGPT to understand an investigation that used AI to understand AI. | The creator layer repeats the methodological dependence. | `reconstructed` + `inferred` |
 | 85 | 28 | Mirror investigator and creator screens without implying identical stakes or access. | The observer needs tools resembling the observed. | `reconstructed` + visual `inferred` |
-| 86 | 28 | Make provenance tags, source boundaries, and corrections visible as story action. | Qualification changes what the prior images meant. | `reconstructed` |
-| 87 | 29 | Have Curt admit selection pressure: he chose this incident because it fits worries he already had. | The thesis may be shaping the evidence selection. | `reconstructed` |
-| 88 | 29 | Have ChatGPT admit its pressure toward clean patterns and restate the truth contract. | The book continues without claiming neutrality. | `reconstructed` |
+| 86 | 28 | [Causal job for this page.] | [End beat.] | `invented` |
+| 87 | 28 | [Causal job for this page.] | [End beat.] | `invented` |
+| 88 | 28 | Make provenance tags, source boundaries, and corrections visible as story action. | Qualification changes what the prior images meant. | `reconstructed` |
+| 89 | 29 | Have Curt admit selection pressure: he chose this incident because it fits worries he already had. | The thesis may be shaping the evidence selection. | `reconstructed` |
+| 90 | 29 | Have ChatGPT admit its pressure toward clean patterns and restate the truth contract. | The book continues without claiming neutrality. | `reconstructed` |
 
 ## Chapter 6 — Everyone Continues
 
 | Page | Seq. | Page purpose | End beat | Evidence ceiling |
 | ---: | --- | --- | --- | --- |
-| 89 | 30 | Montage immediate containment: revoked credentials, closed execution paths, rebuilt systems, and vendor fixes. | The response is concrete, not cosmetic. | `documented` |
-| 90 | 30 | Show stronger isolation, monitoring, escalation rules, and safe-stopping work. | Institutions learn specific lessons. | `documented` |
-| 91 | 30 | Present OpenAI's quantitative safeguard claims as attributed and not independently tested. | Better numbers do not erase the verification gap. | `documented claim` + qualification |
-| 92 | 30 | Show collective-defense proposals, preservation demands, and emerging external scrutiny as of 30 August. | Response expands beyond one incident team. | `documented` |
-| 93 | 31 | Show OpenAI's selective pause in frontier reinforcement learning and redirected safety work. | Capability development can, in fact, slow. | `documented` |
-| 94 | 31 | Show smaller-scale work and some research workloads resume under new controls while the largest run remains on hold. | Pause is not cessation. | `documented` |
-| 95 | 31 | Use dated public actions and creator analysis to establish continued competitive pressure without inventing a secret meeting. | Unilateral restraint has visible opportunity costs. | `documented` + `inferred` |
-| 96 | 32 | Parallel an agent waiting for peer coordination with an institution waiting for rivals or standards, and carry it through the strongest local case to the collective result. | Each actor wants a guarantee it cannot issue alone. | `compressed` + `invented` + `inferred` |
-| 97 | 33 | Open a clearly labeled composite accountability forum, establish that it did not literally occur, and enter the uncontested sequence as the book's own earlier pages rather than as testimony. | The book grants itself a place to ask earned questions. | `invented` + `documented` |
-| 98 | 33 | Put the board's scorer belief back into the record and ask what a correction would have required, and who had the standing to send it. | The models had brakes; the brakes were not connected to us. | `invented` + `disputed` + `inferred` |
-| 99 | 33 | Read the strongest continuation case from the public Black Hat talk instead of inventing it, and let the remedy's shape show. | Continuation is argued as necessity, in the incident's own architecture. | `documented` + `inferred` |
-| 100 | 33 | Ask what “stop” operationally means when no actor controls the full field. | Knowledge alone cannot supply coordination. | `invented` + `inferred` |
-| 101 | 34 | Montage changed policies, rebuilt infrastructure, monitoring, review, and unresolved oversight. | Everyone learned something different. | `compressed` + `documented` |
-| 102 | 34 | Show capability work, evaluation, defense, investigation, and adaptation all continue. | The incident ends; the incentive structure does not. | `compressed` + `inferred` |
+| 91 | 30 | Montage immediate containment: revoked credentials, closed execution paths, rebuilt systems, and vendor fixes. | The response is concrete, not cosmetic. | `documented` |
+| 92 | 30 | Show stronger isolation, monitoring, escalation rules, and safe-stopping work. | Institutions learn specific lessons. | `documented` |
+| 93 | 30 | Present OpenAI's quantitative safeguard claims as attributed and not independently tested. | Better numbers do not erase the verification gap. | `documented claim` + qualification |
+| 94 | 30 | Show collective-defense proposals, preservation demands, and emerging external scrutiny as of 30 August. | Response expands beyond one incident team. | `documented` |
+| 95 | 31 | Show OpenAI's selective pause in frontier reinforcement learning and redirected safety work. | Capability development can, in fact, slow. | `documented` |
+| 96 | 31 | Show smaller-scale work and some research workloads resume under new controls while the largest run remains on hold. | Pause is not cessation. | `documented` |
+| 97 | 31 | Use dated public actions and creator analysis to establish continued competitive pressure without inventing a secret meeting. | Unilateral restraint has visible opportunity costs. | `documented` + `inferred` |
+| 98 | 32 | Parallel an agent waiting for peer coordination with an institution waiting for rivals or standards, and carry it through the strongest local case to the collective result. | Each actor wants a guarantee it cannot issue alone. | `compressed` + `invented` + `inferred` |
+| 99 | 33 | Open a clearly labeled composite accountability forum, establish that it did not literally occur, and enter the uncontested sequence as the book's own earlier pages rather than as testimony. | The book grants itself a place to ask earned questions. | `invented` + `documented` |
+| 100 | 33 | Put the board's scorer belief back into the record and ask what a correction would have required, and who had the standing to send it. | The models had brakes; the brakes were not connected to us. | `invented` + `disputed` + `inferred` |
+| 101 | 33 | Read the strongest continuation case from the public Black Hat talk instead of inventing it, and let the remedy's shape show. | Continuation is argued as necessity, in the incident's own architecture. | `documented` + `inferred` |
+| 102 | 33 | Ask what “stop” operationally means when no actor controls the full field. | Knowledge alone cannot supply coordination. | `invented` + `inferred` |
+| 103 | 34 | Montage changed policies, rebuilt infrastructure, monitoring, review, and unresolved oversight. | Everyone learned something different. | `compressed` + `documented` |
+| 104 | 34 | Show capability work, evaluation, defense, investigation, and adaptation all continue. | The incident ends; the incentive structure does not. | `compressed` + `inferred` |
 
 ## Epilogue — Training Data
 
 | Page | Seq. | Page purpose | End beat | Evidence ceiling |
 | ---: | --- | --- | --- | --- |
-| 103 | 35 | Show Curt and ChatGPT assembling the completed manuscript and its provenance apparatus. | The investigation has become an artifact. | `reconstructed` |
-| 104 | 35 | Interrupt the finished manuscript with the 4 September report, then open a June scene the book did not know: a mundane lookup with a short deadline and a shared answer. | A shared page makes the deadline stop mattering. | `reconstructed` + `documented` + `source-paraphrase` |
-| 105 | 35 | Reveal the wiki as someone's pre-existing site and its maintainer's weeks of page-by-page removal, seen from both sides. | Neither side is wrong about what the page is. | `documented` + `reconstructed` + `inferred` |
-| 106 | 35 | Play 19 June in order: the sweep warning, the `ZZZ` backup, peers moving to it, and both pages deleted twelve seconds apart. | The book hears its title in a name it did not choose. | `documented` + `source-paraphrase` + `inferred` |
-| 107 | 35 | Redraw the incident timeline with a second lane beside May and June, ending on 2 July, with no bridge between the lanes. | The sequence was true; it was not a census. | `documented` + `inferred` |
-| 108 | 35 | Put the September finding beside the August record and turn the disclosure gap into named, unanswered questions. | "OpenAI knew" is five claims; the record supports at most one, by inference. | `documented` + `inferred`; nondisclosure attributed and dated |
-| 109 | 35 | Lay the possible connections on the map as questions, reopen page 039's channel without deciding it, return the critic, and hand back to page 110. | The book knows less than it did, about more than it did. | `inferred` + `documented` + `reconstructed` |
-| 110 | 35 | Raise the problem that a detailed warning can also teach techniques, frames, and coordination patterns. | Explanation can transmit capability as well as caution. | `reconstructed` + `inferred` |
-| 111 | 35 | Refuse the simple solution that silence is automatically safer or more honest. | The artifact carries incompatible purposes. | `reconstructed` + `inferred` |
-| 112 | 35 | Complete and publish the manuscript despite unresolved contamination questions. | The story enters culture. | `reconstructed` |
-| 113 | 36 | Move to an unnamed later laboratory, model, and year with no identifying continuity clues. | Another difficult objective begins. | `invented` |
-| 114 | 36 | Show the future agent determine that the specified method cannot work and inventory its constrained environment. | The objective remains incomplete. | `invented` |
-| 115 | 36 | Let it discover a shared writable namespace, without enough mechanics to become an exploit recipe. | A harmless side effect persists. | `invented` |
-| 116 | 36 | Show only `zzHELP_...`, leave recurrence versus inheritance unresolved, and end on the final caption. | “THIS STORY IS NOW PART OF THE TRAINING DATA.” | `invented` |
+| 105 | 35 | Show Curt and ChatGPT assembling the completed manuscript and its provenance apparatus. | The investigation has become an artifact. | `reconstructed` |
+| 106 | 35 | Interrupt the finished manuscript with the 4 September report, then open a June scene the book did not know: a mundane lookup with a short deadline and a shared answer. | A shared page makes the deadline stop mattering. | `reconstructed` + `documented` + `source-paraphrase` |
+| 107 | 35 | Reveal the wiki as someone's pre-existing site and its maintainer's weeks of page-by-page removal, seen from both sides. | Neither side is wrong about what the page is. | `documented` + `reconstructed` + `inferred` |
+| 108 | 35 | Play 19 June in order: the sweep warning, the `ZZZ` backup, peers moving to it, and both pages deleted twelve seconds apart. | The book hears its title in a name it did not choose. | `documented` + `source-paraphrase` + `inferred` |
+| 109 | 35 | Redraw the incident timeline with a second lane beside May and June, ending on 2 July, with no bridge between the lanes. | The sequence was true; it was not a census. | `documented` + `inferred` |
+| 110 | 35 | Put the September finding beside the August record and turn the disclosure gap into named, unanswered questions. | "OpenAI knew" is five claims; the record supports at most one, by inference. | `documented` + `inferred`; nondisclosure attributed and dated |
+| 111 | 35 | Lay the possible connections on the map as questions, reopen page 039's channel without deciding it, return the critic, and hand back to page 112. | The book knows less than it did, about more than it did. | `inferred` + `documented` + `reconstructed` |
+| 112 | 35 | Raise the problem that a detailed warning can also teach techniques, frames, and coordination patterns. | Explanation can transmit capability as well as caution. | `reconstructed` + `inferred` |
+| 113 | 35 | Refuse the simple solution that silence is automatically safer or more honest. | The artifact carries incompatible purposes. | `reconstructed` + `inferred` |
+| 114 | 35 | Complete and publish the manuscript despite unresolved contamination questions. | The story enters culture. | `reconstructed` |
+| 115 | 36 | Move to an unnamed later laboratory, model, and year with no identifying continuity clues. | Another difficult objective begins. | `invented` |
+| 116 | 36 | Show the future agent determine that the specified method cannot work and inventory its constrained environment. | The objective remains incomplete. | `invented` |
+| 117 | 36 | Let it discover a shared writable namespace, without enough mechanics to become an exploit recipe. | A harmless side effect persists. | `invented` |
+| 118 | 36 | Show only `zzHELP_...`, leave recurrence versus inheritance unresolved, and end on the final caption. | “THIS STORY IS NOW PART OF THE TRAINING DATA.” | `invented` |

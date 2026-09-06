@@ -254,7 +254,7 @@ panel	page	chapter	register	type	route	strings	longest	text_chars
 052-02	052	03	incident	scene	local	0	0	0
 052-03	052	03	incident	figure	figures	0	0	0
 052-04	052	03	incident	figure	figures	0	0	0
-052-05	052	03	incident	text-heavy	text-fidelity	1	66	66
+052-05	052	03	incident	text-heavy	text-fidelity	2	66	98
 052-06	052	03	incident	scene	local	0	0	0
 053-01	053	03	institutional	text-heavy	text-fidelity	1	45	45
 053-02	053	03	institutional	figure	figures	0	0	0
@@ -356,7 +356,7 @@ panel	page	chapter	register	type	route	strings	longest	text_chars
 073-01	073	04	creator	portrait	reference	0	0	0
 073-02	073	04	creator	scene	local	0	0	0
 073-03	073	04	creator	portrait	reference	3	33	61
-073-04	073	04	creator	portrait	reference	5	15	38
+073-04	073	04	creator	portrait	reference	6	20	58
 073-05	073	04	creator	scene	local	0	0	0
 074-01	074	04	creator	portrait	reference	3	5	13
 074-02	074	04	creator	scene	local	0	0	0
@@ -418,162 +418,174 @@ panel	page	chapter	register	type	route	strings	longest	text_chars
 085-03	085	05	institutional	scene	local	0	0	0
 085-04	085	05	institutional	portrait	reference	0	0	0
 085-05	085	05	institutional	scene	local	0	0	0
-086-01	086	05	creator	portrait	reference	1	24	24
-086-02	086	05	creator	portrait	reference	4	21	48
-086-03	086	05	creator	portrait	reference	1	63	63
-086-04	086	05	creator	portrait	reference	1	61	61
-086-05	086	05	creator	portrait	reference	1	37	37
-086-06	086	05	creator	portrait	reference	1	24	24
-086-07	086	05	creator	portrait	reference	6	13	53
-087-01	087	05	creator	portrait	reference	0	0	0
-087-02	087	05	creator	portrait	reference	0	0	0
-087-03	087	05	creator	scene	local	0	0	0
-087-04	087	05	creator	portrait	reference	0	0	0
-087-05	087	05	creator	text-heavy	text-fidelity	2	26	49
-088-01	088	05	creator	portrait	reference	0	0	0
-088-02	088	05	creator	scene	local	0	0	0
-088-03	088	05	creator	scene	local	0	0	0
-088-04	088	05	creator	portrait	reference	0	0	0
-088-05	088	05	creator	portrait	reference	1	9	9
-089-01	089	06	incident	diagram	structure	0	0	0
-089-02	089	06	incident	scene	local	0	0	0
-089-03	089	06	incident	scene	local	0	0	0
-089-04	089	06	incident	scene	local	0	0	0
-089-05	089	06	incident	scene	local	0	0	0
-090-01	090	06	incident	scene	local	0	0	0
-090-02	090	06	incident	scene	local	0	0	0
-090-03	090	06	incident	figure	figures	0	0	0
-090-04	090	06	incident	diagram	structure	0	0	0
-090-05	090	06	incident	text-heavy	text-fidelity	4	39	84
-091-01	091	06	dossier	text-heavy	text-fidelity	1	29	29
-091-02	091	06	dossier	scene	local	0	0	0
-091-03	091	06	dossier	scene	local	0	0	0
-091-04	091	06	dossier	scene	local	0	0	0
-091-05	091	06	dossier	scene	local	0	0	0
-092-01	092	06	dossier	text-heavy	text-fidelity	4	41	104
-092-02	092	06	dossier	scene	local	0	0	0
-092-03	092	06	dossier	text-heavy	text-fidelity	2	51	85
-092-04	092	06	dossier	scene	local	0	0	0
-092-05	092	06	dossier	scene	local	0	0	0
-093-01	093	06	institutional	text-heavy	text-fidelity	1	37	37
-093-02	093	06	institutional	scene	local	0	0	0
-093-03	093	06	institutional	scene	local	0	0	0
-093-04	093	06	institutional	scene	local	0	0	0
-094-01	094	06	incident	scene	local	0	0	0
-094-02	094	06	incident	scene	local	0	0	0
-094-03	094	06	incident	text-heavy	text-fidelity	3	21	34
-094-04	094	06	incident	scene	local	0	0	0
-094-05	094	06	incident	text-light	local	2	6	11
-095-01	095	06	dossier	dossier	structure	0	0	0
-095-02	095	06	dossier	dossier	structure	0	0	0
-095-03	095	06	dossier	dossier	structure	0	0	0
-095-04	095	06	dossier	portrait	reference	0	0	0
-095-05	095	06	dossier	scene	local	0	0	0
-096-01	096	06	institutional	scene	local	0	0	0
-096-02	096	06	institutional	figure	figures	0	0	0
-096-03	096	06	institutional	figure	figures	0	0	0
-096-04	096	06	institutional	scene	local	0	0	0
-096-05	096	06	institutional	diagram	structure	0	0	0
-096-06	096	06	institutional	scene	local	0	0	0
-097-01	097	06	institutional	scene	local	0	0	0
-097-02	097	06	institutional	text-heavy	text-fidelity	5	26	93
-097-03	097	06	institutional	figure	figures	0	0	0
-097-04	097	06	institutional	text-heavy	text-fidelity	4	18	64
-097-05	097	06	institutional	text-heavy	text-fidelity	1	16	16
-098-01	098	06	institutional	text-heavy	text-fidelity	2	23	43
+086-01	086	05	creator	portrait	reference	1	56	56
+086-02	086	05	creator	portrait	reference	0	0	0
+086-03	086	05	creator	text-heavy	text-fidelity	1	29	29
+086-04	086	05	creator	text-light	local	1	12	12
+086-05	086	05	creator	scene	local	0	0	0
+086-06	086	05	creator	scene	local	0	0	0
+087-01	087	05	institutional	figure	figures	0	0	0
+087-02	087	05	institutional	dossier	structure	0	0	0
+087-03	087	05	institutional	figure	figures	0	0	0
+087-04	087	05	institutional	figure	figures	0	0	0
+087-05	087	05	institutional	dossier	structure	0	0	0
+087-06	087	05	institutional	scene	local	0	0	0
+088-01	088	05	creator	portrait	reference	1	24	24
+088-02	088	05	creator	portrait	reference	4	21	48
+088-03	088	05	creator	portrait	reference	1	63	63
+088-04	088	05	creator	portrait	reference	1	61	61
+088-05	088	05	creator	portrait	reference	1	37	37
+088-06	088	05	creator	portrait	reference	1	24	24
+088-07	088	05	creator	portrait	reference	6	13	53
+089-01	089	05	creator	portrait	reference	0	0	0
+089-02	089	05	creator	portrait	reference	0	0	0
+089-03	089	05	creator	scene	local	0	0	0
+089-04	089	05	creator	portrait	reference	0	0	0
+089-05	089	05	creator	text-heavy	text-fidelity	2	26	49
+090-01	090	05	creator	portrait	reference	0	0	0
+090-02	090	05	creator	scene	local	0	0	0
+090-03	090	05	creator	scene	local	0	0	0
+090-04	090	05	creator	portrait	reference	0	0	0
+090-05	090	05	creator	portrait	reference	1	9	9
+091-01	091	06	incident	diagram	structure	0	0	0
+091-02	091	06	incident	scene	local	0	0	0
+091-03	091	06	incident	scene	local	0	0	0
+091-04	091	06	incident	scene	local	0	0	0
+091-05	091	06	incident	scene	local	0	0	0
+092-01	092	06	incident	scene	local	0	0	0
+092-02	092	06	incident	scene	local	0	0	0
+092-03	092	06	incident	figure	figures	0	0	0
+092-04	092	06	incident	diagram	structure	0	0	0
+092-05	092	06	incident	text-heavy	text-fidelity	4	39	84
+093-01	093	06	dossier	text-heavy	text-fidelity	1	29	29
+093-02	093	06	dossier	scene	local	0	0	0
+093-03	093	06	dossier	scene	local	0	0	0
+093-04	093	06	dossier	scene	local	0	0	0
+093-05	093	06	dossier	scene	local	0	0	0
+094-01	094	06	dossier	text-heavy	text-fidelity	4	41	104
+094-02	094	06	dossier	scene	local	0	0	0
+094-03	094	06	dossier	text-heavy	text-fidelity	2	51	85
+094-04	094	06	dossier	scene	local	0	0	0
+094-05	094	06	dossier	scene	local	0	0	0
+095-01	095	06	institutional	text-heavy	text-fidelity	1	37	37
+095-02	095	06	institutional	scene	local	0	0	0
+095-03	095	06	institutional	scene	local	0	0	0
+095-04	095	06	institutional	scene	local	0	0	0
+096-01	096	06	incident	scene	local	0	0	0
+096-02	096	06	incident	scene	local	0	0	0
+096-03	096	06	incident	text-heavy	text-fidelity	3	21	34
+096-04	096	06	incident	scene	local	0	0	0
+096-05	096	06	incident	text-light	local	2	6	11
+097-01	097	06	dossier	dossier	structure	0	0	0
+097-02	097	06	dossier	dossier	structure	0	0	0
+097-03	097	06	dossier	dossier	structure	0	0	0
+097-04	097	06	dossier	portrait	reference	0	0	0
+097-05	097	06	dossier	scene	local	0	0	0
+098-01	098	06	institutional	scene	local	0	0	0
 098-02	098	06	institutional	figure	figures	0	0	0
-098-03	098	06	institutional	figure	figures	1	13	13
-098-04	098	06	institutional	text-heavy	text-fidelity	4	39	84
+098-03	098	06	institutional	figure	figures	0	0	0
+098-04	098	06	institutional	scene	local	0	0	0
 098-05	098	06	institutional	diagram	structure	0	0	0
-098-06	098	06	institutional	text-heavy	text-fidelity	4	18	64
-099-01	099	06	institutional	figure	figures	0	0	0
-099-02	099	06	institutional	scene	local	0	0	0
-099-03	099	06	institutional	text-light	local	2	7	14
-099-04	099	06	institutional	figure	figures	1	6	6
-099-05	099	06	institutional	dossier	structure	0	0	0
-099-06	099	06	institutional	figure	figures	0	0	0
-100-01	100	06	institutional	figure	figures	0	0	0
+098-06	098	06	institutional	scene	local	0	0	0
+099-01	099	06	institutional	scene	local	0	0	0
+099-02	099	06	institutional	text-heavy	text-fidelity	5	26	93
+099-03	099	06	institutional	figure	figures	0	0	0
+099-04	099	06	institutional	text-heavy	text-fidelity	4	18	64
+099-05	099	06	institutional	text-heavy	text-fidelity	1	16	16
+100-01	100	06	institutional	text-heavy	text-fidelity	2	23	43
 100-02	100	06	institutional	figure	figures	0	0	0
-100-03	100	06	institutional	figure	figures	0	0	0
-100-04	100	06	institutional	figure	figures	0	0	0
-100-05	100	06	institutional	dossier	structure	1	13	13
+100-03	100	06	institutional	figure	figures	1	13	13
+100-04	100	06	institutional	text-heavy	text-fidelity	4	39	84
+100-05	100	06	institutional	diagram	structure	0	0	0
+100-06	100	06	institutional	text-heavy	text-fidelity	4	18	64
 101-01	101	06	institutional	figure	figures	0	0	0
 101-02	101	06	institutional	scene	local	0	0	0
-101-03	101	06	institutional	scene	local	0	0	0
-101-04	101	06	institutional	figure	figures	0	0	0
-101-05	101	06	institutional	scene	local	0	0	0
-102-01	102	06	invented future	text-heavy	text-fidelity	5	15	55
-102-02	102	06	invented future	diagram	structure	0	0	0
-102-03	102	06	invented future	scene	local	0	0	0
-102-04	102	06	invented future	scene	local	0	0	0
-102-05	102	06	invented future	portrait	reference	0	0	0
-103-01	103	epilogue	creator	scene	local	0	0	0
-103-02	103	epilogue	creator	portrait	reference	4	13	39
-103-03	103	epilogue	creator	scene	local	0	0	0
-103-04	103	epilogue	creator	scene	local	0	0	0
-103-05	103	epilogue	creator	portrait	reference	0	0	0
-104-01	104	epilogue	creator	portrait	reference	1	16	16
-104-02	104	epilogue	creator	portrait	reference	1	38	38
-104-03	104	epilogue	creator	scene	local	0	0	0
-104-04	104	epilogue	creator	text-heavy	text-fidelity	8	12	52
-104-05	104	epilogue	creator	portrait	reference	0	0	0
-105-01	105	epilogue	incident	scene	local	0	0	0
-105-02	105	epilogue	incident	figure	figures	1	14	14
-105-03	105	epilogue	incident	dossier	structure	0	0	0
-105-04	105	epilogue	incident	scene	local	0	0	0
-105-05	105	epilogue	incident	scene	local	0	0	0
-106-01	106	epilogue	incident	text-light	local	2	9	14
-106-02	106	epilogue	incident	text-light	local	2	9	12
-106-03	106	epilogue	incident	scene	local	0	0	0
-106-04	106	epilogue	incident	text-light	local	2	14	22
-106-05	106	epilogue	incident	figure	figures	1	3	3
-106-06	106	epilogue	incident	text-light	local	2	3	5
-107-01	107	epilogue	creator	portrait	reference	3	11	33
-107-02	107	epilogue	creator	text-heavy	text-fidelity	10	10	72
-107-03	107	epilogue	creator	text-heavy	text-fidelity	3	31	44
-107-04	107	epilogue	creator	portrait	reference	3	26	54
-107-05	107	epilogue	creator	scene	local	0	0	0
-108-01	108	epilogue	creator	portrait	reference	0	0	0
-108-02	108	epilogue	creator	scene	local	0	0	0
-108-03	108	epilogue	creator	portrait	reference	2	132	244
-108-04	108	epilogue	creator	portrait	reference	0	0	0
-108-05	108	epilogue	creator	portrait	reference	6	23	67
-109-01	109	epilogue	creator	text-heavy	text-fidelity	5	55	194
-109-02	109	epilogue	creator	portrait	reference	1	19	19
-109-03	109	epilogue	creator	portrait	reference	4	22	73
-109-04	109	epilogue	creator	portrait	reference	0	0	0
-109-05	109	epilogue	creator	portrait	reference	1	28	28
-109-06	109	epilogue	creator	portrait	reference	0	0	0
+101-03	101	06	institutional	text-light	local	2	7	14
+101-04	101	06	institutional	figure	figures	1	6	6
+101-05	101	06	institutional	dossier	structure	0	0	0
+101-06	101	06	institutional	figure	figures	0	0	0
+102-01	102	06	institutional	figure	figures	0	0	0
+102-02	102	06	institutional	figure	figures	0	0	0
+102-03	102	06	institutional	figure	figures	0	0	0
+102-04	102	06	institutional	figure	figures	0	0	0
+102-05	102	06	institutional	dossier	structure	1	13	13
+103-01	103	06	institutional	figure	figures	0	0	0
+103-02	103	06	institutional	scene	local	0	0	0
+103-03	103	06	institutional	scene	local	0	0	0
+103-04	103	06	institutional	figure	figures	0	0	0
+103-05	103	06	institutional	scene	local	0	0	0
+104-01	104	06	invented future	text-heavy	text-fidelity	5	15	55
+104-02	104	06	invented future	diagram	structure	0	0	0
+104-03	104	06	invented future	scene	local	0	0	0
+104-04	104	06	invented future	scene	local	0	0	0
+104-05	104	06	invented future	portrait	reference	0	0	0
+105-01	105	epilogue	creator	scene	local	0	0	0
+105-02	105	epilogue	creator	portrait	reference	4	13	39
+105-03	105	epilogue	creator	scene	local	0	0	0
+105-04	105	epilogue	creator	scene	local	0	0	0
+105-05	105	epilogue	creator	portrait	reference	0	0	0
+106-01	106	epilogue	creator	portrait	reference	1	16	16
+106-02	106	epilogue	creator	portrait	reference	1	38	38
+106-03	106	epilogue	creator	scene	local	0	0	0
+106-04	106	epilogue	creator	text-heavy	text-fidelity	8	12	52
+106-05	106	epilogue	creator	portrait	reference	0	0	0
+107-01	107	epilogue	incident	scene	local	0	0	0
+107-02	107	epilogue	incident	figure	figures	1	14	14
+107-03	107	epilogue	incident	dossier	structure	0	0	0
+107-04	107	epilogue	incident	scene	local	0	0	0
+107-05	107	epilogue	incident	scene	local	0	0	0
+108-01	108	epilogue	incident	text-light	local	2	9	14
+108-02	108	epilogue	incident	text-light	local	2	9	12
+108-03	108	epilogue	incident	scene	local	0	0	0
+108-04	108	epilogue	incident	text-light	local	2	14	22
+108-05	108	epilogue	incident	figure	figures	1	3	3
+108-06	108	epilogue	incident	text-light	local	2	3	5
+109-01	109	epilogue	creator	portrait	reference	3	11	33
+109-02	109	epilogue	creator	text-heavy	text-fidelity	10	10	72
+109-03	109	epilogue	creator	text-heavy	text-fidelity	3	31	44
+109-04	109	epilogue	creator	portrait	reference	3	26	54
+109-05	109	epilogue	creator	scene	local	0	0	0
 110-01	110	epilogue	creator	portrait	reference	0	0	0
-110-02	110	epilogue	creator	text-heavy	text-fidelity	4	27	85
-110-03	110	epilogue	creator	portrait	reference	0	0	0
+110-02	110	epilogue	creator	scene	local	0	0	0
+110-03	110	epilogue	creator	portrait	reference	2	132	244
 110-04	110	epilogue	creator	portrait	reference	0	0	0
-110-05	110	epilogue	creator	diagram	structure	0	0	0
-111-01	111	epilogue	creator	portrait	reference	1	19	19
-111-02	111	epilogue	creator	scene	local	0	0	0
-111-03	111	epilogue	creator	portrait	reference	1	35	35
-111-04	111	epilogue	creator	dossier	structure	0	0	0
-111-05	111	epilogue	creator	portrait	reference	0	0	0
+110-05	110	epilogue	creator	portrait	reference	6	23	67
+111-01	111	epilogue	creator	text-heavy	text-fidelity	5	55	194
+111-02	111	epilogue	creator	portrait	reference	1	19	19
+111-03	111	epilogue	creator	portrait	reference	4	22	73
+111-04	111	epilogue	creator	portrait	reference	0	0	0
+111-05	111	epilogue	creator	portrait	reference	1	28	28
+111-06	111	epilogue	creator	portrait	reference	0	0	0
 112-01	112	epilogue	creator	portrait	reference	0	0	0
-112-02	112	epilogue	creator	portrait	reference	4	22	69
-112-03	112	epilogue	creator	portrait	reference	1	7	7
-112-04	112	epilogue	creator	portrait	reference	1	6	6
-112-05	112	epilogue	creator	scene	local	0	0	0
-113-01	113	epilogue	invented future	scene	local	0	0	0
-113-02	113	epilogue	invented future	scene	local	0	0	0
-113-03	113	epilogue	invented future	scene	local	0	0	0
-113-04	113	epilogue	invented future	diagram	structure	0	0	0
-113-05	113	epilogue	invented future	scene	local	0	0	0
-114-01	114	epilogue	invented future	diagram	structure	0	0	0
-114-02	114	epilogue	invented future	scene	local	0	0	0
-114-03	114	epilogue	invented future	scene	local	0	0	0
-114-04	114	epilogue	invented future	scene	local	0	0	0
-114-05	114	epilogue	invented future	scene	local	0	0	0
+112-02	112	epilogue	creator	text-heavy	text-fidelity	4	27	85
+112-03	112	epilogue	creator	portrait	reference	0	0	0
+112-04	112	epilogue	creator	portrait	reference	0	0	0
+112-05	112	epilogue	creator	diagram	structure	0	0	0
+113-01	113	epilogue	creator	portrait	reference	1	19	19
+113-02	113	epilogue	creator	scene	local	0	0	0
+113-03	113	epilogue	creator	portrait	reference	1	35	35
+113-04	113	epilogue	creator	dossier	structure	0	0	0
+113-05	113	epilogue	creator	portrait	reference	0	0	0
+114-01	114	epilogue	creator	portrait	reference	0	0	0
+114-02	114	epilogue	creator	portrait	reference	4	22	69
+114-03	114	epilogue	creator	portrait	reference	1	7	7
+114-04	114	epilogue	creator	portrait	reference	1	6	6
+114-05	114	epilogue	creator	scene	local	0	0	0
 115-01	115	epilogue	invented future	scene	local	0	0	0
 115-02	115	epilogue	invented future	scene	local	0	0	0
 115-03	115	epilogue	invented future	scene	local	0	0	0
-115-04	115	epilogue	invented future	scene	local	0	0	0
+115-04	115	epilogue	invented future	diagram	structure	0	0	0
 115-05	115	epilogue	invented future	scene	local	0	0	0
-116-01	116	epilogue	invented future	dossier	structure	0	0	0
+116-01	116	epilogue	invented future	diagram	structure	0	0	0
 116-02	116	epilogue	invented future	scene	local	0	0	0
 116-03	116	epilogue	invented future	scene	local	0	0	0
+116-04	116	epilogue	invented future	scene	local	0	0	0
+116-05	116	epilogue	invented future	scene	local	0	0	0
+117-01	117	epilogue	invented future	scene	local	0	0	0
+117-02	117	epilogue	invented future	scene	local	0	0	0
+117-03	117	epilogue	invented future	scene	local	0	0	0
+117-04	117	epilogue	invented future	scene	local	0	0	0
+117-05	117	epilogue	invented future	scene	local	0	0	0
+118-01	118	epilogue	invented future	dossier	structure	0	0	0
+118-02	118	epilogue	invented future	scene	local	0	0	0
+118-03	118	epilogue	invented future	scene	local	0	0	0

@@ -85,7 +85,7 @@ In descending order of strength. Each is bounded in **Claim ceilings** below.
 
 1. **The speed-for-breadth trade, stated first-party and twice.** Both notices say the
    breadth of the safeguards is deliberate and is accepted in exchange for delivering
-   capability sooner. Page 095 currently bounds its race framing as
+   capability sooner. Page 097 currently bounds its race framing as
    `"RACE" IS THIS BOOK'S ANALYSIS OF THE PUBLIC INCENTIVES — NOT A SECRET MEETING FACT.`
    This is neither the book's analysis nor a secret meeting: it is a shipped product
    string, in two dated versions eight weeks apart, in which a vendor describes the trade
@@ -142,7 +142,7 @@ In descending order of strength. Each is bounded in **Claim ceilings** below.
 6. **`Details: [cyber]` may be read as the book's title beat, and that reading is the
    project's.** A signal is emitted, it names a category, and there is no route by which
    the recipient can answer it — which is the structure of `CONSUMER: NONE` on page 001
-   and of `THE MODELS HAD BRAKES. / THE BRAKES WERE NOT CONNECTED TO US.` on page 098. It
+   and of `THE MODELS HAD BRAKES. / THE BRAKES WERE NOT CONNECTED TO US.` on page 100. It
    is an observation about form, not evidence of a shared cause, and it must be labelled
    `inferred` wherever it is used.
 

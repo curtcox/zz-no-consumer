@@ -1,10 +1,10 @@
 # 07 — Epilogue: Training Data
 
-- **Pages:** 103–116
+- **Pages:** 105–118
 - **Chronology:** Creator present, then an unspecified future
 - **Sequences:** 35–36
 - **Source packet:** [`research/chapter-source-packets/07-training-data.md`](../../research/chapter-source-packets/07-training-data.md)
-- **Status:** Pages 103 and 110–116 passed factual/editorial review on 2 September 2026. Pages 104–109, the dated addition, were drafted on 5 September 2026 and are in draft status pending review, the beat/thumbnail test of item 5 in [revision-priorities.md](../../research/revision-priorities.md), and the reuse inquiry for any reproduced explorer material.
+- **Status:** Pages 105 and 112–118 passed factual/editorial review on 2 September 2026. Pages 106–111, the dated addition, were drafted on 5 September 2026 and are in draft status pending review, the beat/thumbnail test of item 5 in [revision-priorities.md](../../research/revision-priorities.md), and the reuse inquiry for any reproduced explorer material.
 
 ## Drafting brief
 
@@ -20,4 +20,4 @@ End on:
 - The future sequence is invented.
 - Do not resolve whether the final message is independent recurrence, direct inheritance, or both.
 - Keep the technical mechanics indistinct enough that the epilogue functions as an argument, not an additional exploit recipe.
-- The dated addition (pages 104–109) is a creator frame drawn as of 4 September around historical scenes dated 19 June. Stored posts are paraphrased and attributed; task success is the posts' claim; the maintainer is a functional role; `ZZZ` is a naming echo, never lineage; the two lanes are never joined; nondisclosure is attributed to the report's authors and dated; hypotheses stay boxed questions.
+- The dated addition (pages 106–111) is a creator frame drawn as of 4 September around historical scenes dated 19 June. Stored posts are paraphrased and attributed; task success is the posts' claim; the maintainer is a functional role; `ZZZ` is a naming echo, never lineage; the two lanes are never joined; nondisclosure is attributed to the report's authors and dated; hypotheses stay boxed questions.

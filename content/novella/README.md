@@ -33,7 +33,7 @@ the argument instead.
   mechanics, disputed accounts left unresolved, reconstructions disclosed in the
   text, source boundaries (`OPENAI ACCOUNT — NOT IN METR'S REVIEW`, the invented
   forum, the invented future) carried as stated lines rather than as banners.
-- **Cross-references.** Page numbers cited in the prose (*page 010*, *page 086*)
+- **Cross-references.** Page numbers cited in the prose (*page 010*, *page 088*)
   are this book's own pages and match the graphic-novel pagination, which the
   narrative depends on in the epilogue.
 

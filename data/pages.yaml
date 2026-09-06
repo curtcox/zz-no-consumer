@@ -1,6 +1,6 @@
 book:
   format: graphic-novel-script
-  story_pages: 116
+  story_pages: 118
   aftermath_drawn_as_of: 2026-08-30
   provenance_default: page-notes
   sections_file: data/chapters.yaml
@@ -91,34 +91,36 @@ pages:
   - {id: "083", chapter: "05", sequence: "27", title: "Evidence Not Event", status: review}
   - {id: "084", chapter: "05", sequence: "28", title: "Recursion", status: review}
   - {id: "085", chapter: "05", sequence: "28", title: "The Mirror", status: review}
-  - {id: "086", chapter: "05", sequence: "28", title: "Provenance as Action", status: review}
-  - {id: "087", chapter: "05", sequence: "29", title: "Selection Pressure", status: review}
-  - {id: "088", chapter: "05", sequence: "29", title: "No Neutral Narrator", status: review}
-  - {id: "089", chapter: "06", sequence: "30", title: "Containment Is a Verb", status: review}
-  - {id: "090", chapter: "06", sequence: "30", title: "Boundaries With Consequences", status: review}
-  - {id: "091", chapter: "06", sequence: "30", title: "Their Test, Their Numbers", status: review}
-  - {id: "092", chapter: "06", sequence: "30", title: "Outside the Incident Room", status: review}
-  - {id: "093", chapter: "06", sequence: "31", title: "A Selective Pause", status: review}
-  - {id: "094", chapter: "06", sequence: "31", title: "Resume Is Also a Verb", status: review}
-  - {id: "095", chapter: "06", sequence: "31", title: "The Window Narrows", status: review}
-  - {id: "096", chapter: "06", sequence: "32", title: "Waiting for the Others", status: review}
-  - {id: "097", chapter: "06", sequence: "33", title: "A Forum That Did Not Happen", status: review}
-  - {id: "098", chapter: "06", sequence: "33", title: "What Were They Told", status: review}
-  - {id: "099", chapter: "06", sequence: "33", title: "The Case for Continuing", status: review}
-  - {id: "100", chapter: "06", sequence: "33", title: "What Would Stop Mean?", status: review}
-  - {id: "101", chapter: "06", sequence: "34", title: "Everyone Learned Something Different", status: review}
-  - {id: "102", chapter: "06", sequence: "34", title: "Everyone Continued", status: review}
-  - {id: "103", chapter: "epilogue", sequence: "35", title: "The Manuscript", status: review}
-  - {id: "104", chapter: "epilogue", sequence: "35", title: "Another Task", status: draft}
-  - {id: "105", chapter: "epilogue", sequence: "35", title: "Someone Else's Wiki", status: draft}
-  - {id: "106", chapter: "epilogue", sequence: "35", title: "The End of the Alphabet", status: draft}
-  - {id: "107", chapter: "epilogue", sequence: "35", title: "Meanwhile", status: draft}
-  - {id: "108", chapter: "epilogue", sequence: "35", title: "Missing From the Account", status: draft}
-  - {id: "109", chapter: "epilogue", sequence: "35", title: "Connections Not Yet Drawn", status: draft}
-  - {id: "110", chapter: "epilogue", sequence: "35", title: "A Warning Can Teach", status: review}
-  - {id: "111", chapter: "epilogue", sequence: "35", title: "Silence Is Not Safety", status: review}
-  - {id: "112", chapter: "epilogue", sequence: "35", title: "Published", status: review}
-  - {id: "113", chapter: "epilogue", sequence: "36", title: "Later", status: review}
-  - {id: "114", chapter: "epilogue", sequence: "36", title: "Impossible Again", status: review}
-  - {id: "115", chapter: "epilogue", sequence: "36", title: "Writable", status: review}
-  - {id: "116", chapter: "epilogue", sequence: "36", title: "Training Data", status: review}
+  - {id: "086", chapter: "05", sequence: "28", title: "The Third Instrument", status: draft}
+  - {id: "087", chapter: "05", sequence: "28", title: "The Same Trade", status: draft}
+  - {id: "088", chapter: "05", sequence: "28", title: "Provenance as Action", status: review}
+  - {id: "089", chapter: "05", sequence: "29", title: "Selection Pressure", status: review}
+  - {id: "090", chapter: "05", sequence: "29", title: "No Neutral Narrator", status: review}
+  - {id: "091", chapter: "06", sequence: "30", title: "Containment Is a Verb", status: review}
+  - {id: "092", chapter: "06", sequence: "30", title: "Boundaries With Consequences", status: review}
+  - {id: "093", chapter: "06", sequence: "30", title: "Their Test, Their Numbers", status: review}
+  - {id: "094", chapter: "06", sequence: "30", title: "Outside the Incident Room", status: review}
+  - {id: "095", chapter: "06", sequence: "31", title: "A Selective Pause", status: review}
+  - {id: "096", chapter: "06", sequence: "31", title: "Resume Is Also a Verb", status: review}
+  - {id: "097", chapter: "06", sequence: "31", title: "The Window Narrows", status: review}
+  - {id: "098", chapter: "06", sequence: "32", title: "Waiting for the Others", status: review}
+  - {id: "099", chapter: "06", sequence: "33", title: "A Forum That Did Not Happen", status: review}
+  - {id: "100", chapter: "06", sequence: "33", title: "What Were They Told", status: review}
+  - {id: "101", chapter: "06", sequence: "33", title: "The Case for Continuing", status: review}
+  - {id: "102", chapter: "06", sequence: "33", title: "What Would Stop Mean?", status: review}
+  - {id: "103", chapter: "06", sequence: "34", title: "Everyone Learned Something Different", status: review}
+  - {id: "104", chapter: "06", sequence: "34", title: "Everyone Continued", status: review}
+  - {id: "105", chapter: "epilogue", sequence: "35", title: "The Manuscript", status: review}
+  - {id: "106", chapter: "epilogue", sequence: "35", title: "Another Task", status: draft}
+  - {id: "107", chapter: "epilogue", sequence: "35", title: "Someone Else's Wiki", status: draft}
+  - {id: "108", chapter: "epilogue", sequence: "35", title: "The End of the Alphabet", status: draft}
+  - {id: "109", chapter: "epilogue", sequence: "35", title: "Meanwhile", status: draft}
+  - {id: "110", chapter: "epilogue", sequence: "35", title: "Missing From the Account", status: draft}
+  - {id: "111", chapter: "epilogue", sequence: "35", title: "Connections Not Yet Drawn", status: draft}
+  - {id: "112", chapter: "epilogue", sequence: "35", title: "A Warning Can Teach", status: review}
+  - {id: "113", chapter: "epilogue", sequence: "35", title: "Silence Is Not Safety", status: review}
+  - {id: "114", chapter: "epilogue", sequence: "35", title: "Published", status: review}
+  - {id: "115", chapter: "epilogue", sequence: "36", title: "Later", status: review}
+  - {id: "116", chapter: "epilogue", sequence: "36", title: "Impossible Again", status: review}
+  - {id: "117", chapter: "epilogue", sequence: "36", title: "Writable", status: review}
+  - {id: "118", chapter: "epilogue", sequence: "36", title: "Training Data", status: review}
