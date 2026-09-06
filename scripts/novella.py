@@ -1,28 +1,38 @@
 #!/usr/bin/env python3
-"""Measure, check, and assemble the novella: the book told again in prose, one file per panel.
+"""Measure, check, and assemble the novella: the book told again in prose, one file per page.
 
 The graphic novel's canonical unit is the page script in ``content/pages/NNN.md``. The novella
-renders the same story in continuous prose and lives beside it as ``content/novella/NNN/
-panel-II.md`` -- one file per *scripted* panel, so a page written as a nine-cell grouped run
-has nine files where the viewer exposes one image slot. Each file carries its page, panel,
-title, status and provenance statuses in front matter, then a ``# Page NNN — Panel II``
-heading, then the prose. The story contract's truth rules bind the prose exactly as they bind
-the script: it may not invent an incident fact, quote raw agent text, or supply an agent's
-interior state.
+renders the same story in continuous prose and lives beside it as ``content/novella/<chapter>/
+NNN.md`` -- one file per story page, in chapter directories named for the chapter briefs in
+``content/chapters/``. Each file carries page, chapter, sequence, title and source in front
+matter, then an ``# N. Title`` heading, then the prose.
 
-    python3 scripts/novella.py report              # word census, per chapter and per panel
+The unit is the page and not the panel, and that is the track's whole design. A page script is
+a composition: frames, actions, screen text, and the provenance of each. The prose is the same
+events and the same argument told as narrative, so it takes the page's beats and drops the
+page's geometry. The vocabulary check below enforces exactly that -- prose that says *panel*
+is describing the artwork instead of the story.
+
+    python3 scripts/novella.py report              # word census, per chapter and per page
     python3 scripts/novella.py check               # exit non-zero while prose and script disagree
     python3 scripts/novella.py assemble            # the whole novella as one Markdown document
     python3 scripts/novella.py assemble --out FILE --continuous
 
-``check`` holds the prose tree to the page scripts: every scripted panel has a file, every
-file names a scripted panel, front matter agrees with the script on page, panel and title,
-and a file's provenance statuses are drawn from its panel's own ``**Provenance:**`` line. It
-does not judge length; ``report`` measures it. The target the novella was commissioned to is
-an average of about one manuscript page -- 250 words -- per panel, varying widely by beat.
+``check`` holds the prose tree to the page scripts: every scripted page has exactly one prose
+file, every file sits in its chapter's directory, front matter agrees with the script on page,
+chapter, sequence and title, the heading numbers the page, the body is prose rather than a
+stub, and no file describes panels. It does not judge length; ``report`` measures it. The
+novella was commissioned to average about a manuscript page per story page, varying widely by
+beat.
 
-Renumbering is not this script's job. ``scripts/pagination.py`` and ``scripts/panels.py`` move
-the prose files with their pages and panels and rewrite their front matter and headings.
+The story contract's truth rules bind the prose exactly as they bind the script: it may not
+invent an incident fact, quote raw agent text, or supply an agent's interior state. Those are
+editorial and are not checkable here.
+
+Renumbering is not this script's job. ``scripts/pagination.py`` moves the prose files with
+their pages -- between chapter directories when a page changes chapter -- and rewrites their
+front matter and headings. Panel operations do not touch this tree at all; the unit is the
+page, so ``scripts/panels.py`` has nothing to move.
 """
 
 from __future__ import annotations
@@ -42,25 +52,34 @@ import panels  # noqa: E402
 ROOT = Path(__file__).resolve().parents[1]
 BASE = ROOT / "content" / "novella"
 
-STATUSES = (
-    "documented", "raw-agent-text", "source-paraphrase", "disputed",
-    "inferred", "compressed", "reconstructed", "invented",
-)
-FILE_STATUSES = ("draft", "review", "locked", "published")
 MANUSCRIPT_PAGE = 250
-HEADING = re.compile(r"^# Page (\d{3}) — Panel (\d{2})\s*$", re.MULTILINE)
-PROVENANCE_LINE = re.compile(r"^\*\*Provenance:\*\*(.*)$", re.MULTILINE)
+HEADING = re.compile(r"^# (\d+)\.\s+(.+?)\s*$", re.MULTILINE)
+
+# The track exists to tell the story without describing the artwork, so the words that name
+# the comic's geometry are the ones the prose may not use.
+#
+# Two words that look like they belong here do not. `page` is deliberately absent: the prose
+# cites its own page numbers and the epilogue depends on it. `frame` is absent because the
+# book argues in it -- *the interpreter begins inside the actor's frame*, *a frame that says
+# whose they are*, *the saga teaches the frame* -- and a check that fires on the load-bearing
+# vocabulary of Chapter 5 is a check an editor learns to skim. What is left fires only on
+# geometry.
+PANEL_VOCABULARY = re.compile(r"\b(?:panels?|gutters?|splash page|inset panel)\b", re.IGNORECASE)
+
+# A stub written by an insert, before anyone has drafted the page.
+STUB = re.compile(r"^\[.*\]$", re.DOTALL)
 
 
 @dataclass(frozen=True)
 class Prose:
     path: str
+    directory: str
     page: int | None
-    panel: int | None
+    chapter: str
+    sequence: str
     title: str
-    status: str
-    provenance: tuple[str, ...]
-    heading: tuple[int, int] | None
+    source: str
+    heading: tuple[int, str] | None
     body: str
 
     @property
@@ -68,43 +87,51 @@ class Prose:
         return len(panels.WORD.findall(self.body))
 
 
-def prose_path(page: int, index: int) -> Path:
-    return BASE / f"{page:03d}" / f"panel-{index:02d}.md"
+def prose_path(directory: str, page: int) -> Path:
+    return BASE / directory / f"{page:03d}.md"
 
 
-def expected(scripts: dict[int, panels.PageScript]) -> dict[tuple[int, int], Path]:
+def expected(model: crossref.CrossReference) -> dict[int, Path]:
+    """Where each story page's prose belongs, keyed by page number."""
+    directories = {chapter.id: chapter.directory for chapter in model.chapters}
     return {
-        (number, index): prose_path(number, index)
-        for number, script in sorted(scripts.items())
-        for index in range(1, script.count + 1)
+        page.number: prose_path(directories.get(page.chapter, page.chapter), page.number)
+        for page in model.pages
     }
 
 
-def found() -> dict[tuple[int, int], Path]:
-    files: dict[tuple[int, int], Path] = {}
+def found() -> dict[int, list[Path]]:
+    """Every prose file on disk, keyed by the page its filename names.
+
+    A list rather than a path, because a page renamed by hand into a second chapter directory
+    is the failure this track is most exposed to and silently keeping one copy would hide it.
+    """
+    files: dict[int, list[Path]] = {}
     if not BASE.is_dir():
         return files
-    for page_dir in sorted(BASE.iterdir()):
-        if not re.fullmatch(r"\d{3}", page_dir.name):
+    for child in sorted(BASE.rglob("*.md")):
+        if child.parent == BASE or not re.fullmatch(r"\d{3}\.md", child.name):
             continue
-        for child in sorted(page_dir.glob("panel-[0-9][0-9].md")):
-            files[(int(page_dir.name), int(child.stem.split("-")[1]))] = child
+        files.setdefault(int(child.stem), []).append(child)
     return files
 
 
 def stray_files() -> list[Path]:
-    """Anything under the tree that is not a page directory holding panel files."""
+    """Anything under the tree that is not a chapter directory holding page files."""
     strays: list[Path] = []
     if not BASE.is_dir():
         return strays
+    known = {chapter.directory for chapter in crossref.read_chapters()}
     for child in sorted(BASE.rglob("*")):
         if child.is_dir():
-            if child.parent == BASE and not re.fullmatch(r"\d{3}", child.name):
+            if child.parent == BASE and child.name not in known:
                 strays.append(child)
             continue
-        if child.parent == BASE or not re.fullmatch(r"panel-\d{2}\.md", child.name):
+        if child.parent == BASE:
             if child.name != "README.md":
                 strays.append(child)
+        elif not re.fullmatch(r"\d{3}\.md", child.name):
+            strays.append(child)
     return strays
 
 
@@ -114,45 +141,26 @@ def read_prose(path: Path) -> Prose:
 
     def value(key: str) -> str:
         match = re.search(rf"^{key}:\s*(.*?)\s*$", metadata, re.MULTILINE)
-        return match.group(1).strip() if match else ""
+        return match.group(1).strip().strip('"') if match else ""
 
-    def integer(key: str) -> int | None:
-        raw = value(key)
-        return int(raw) if raw.isdigit() else None
-
-    raw_provenance = value("provenance").strip("[]")
-    provenance = tuple(item.strip().strip("`'\"") for item in raw_provenance.split(",") if item.strip())
+    raw_page = value("page")
     body = text
     if metadata:
         body = re.sub(r"^---\n.*?\n---\n", "", text, count=1, flags=re.DOTALL)
     heading_match = HEADING.search(body)
-    heading = (int(heading_match.group(1)), int(heading_match.group(2))) if heading_match else None
+    heading = (int(heading_match.group(1)), heading_match.group(2)) if heading_match else None
     body = HEADING.sub("", body, count=1).strip()
     return Prose(
         path=str(path.relative_to(ROOT)),
-        page=integer("page"),
-        panel=integer("panel"),
-        title=value("title").strip('"'),
-        status=value("status"),
-        provenance=provenance,
+        directory=path.parent.name,
+        page=int(raw_page) if raw_page.isdigit() else None,
+        chapter=value("chapter"),
+        sequence=value("sequence"),
+        title=value("title"),
+        source=value("source"),
         heading=heading,
         body=body,
     )
-
-
-def script_provenance(script: panels.PageScript, index: int) -> set[str]:
-    """The statuses a panel's own Provenance line names. A grouped run shares one line."""
-    if script.sections:
-        section = next((item for item in script.sections if item.index == index), None)
-        source = section.body if section else ""
-    else:
-        source = script.text
-    statuses: set[str] = set()
-    for line in PROVENANCE_LINE.finditer(source):
-        for token in re.findall(r"`([^`]+)`", line.group(1)):
-            if token in STATUSES:
-                statuses.add(token)
-    return statuses
 
 
 @dataclass(frozen=True)
@@ -163,69 +171,78 @@ class Note:
     message: str
 
 
-def audit(scripts: dict[int, panels.PageScript]) -> list[Note]:
+def audit(model: crossref.CrossReference) -> list[Note]:
     notes: list[Note] = []
-    wanted = expected(scripts)
+    wanted = expected(model)
     present = found()
-    for key, path in sorted(wanted.items()):
-        if key not in present:
+    pages = {page.number: page for page in model.pages}
+    directories = {chapter.id: chapter.directory for chapter in model.chapters}
+
+    for number, path in sorted(wanted.items()):
+        if number not in present:
             notes.append(Note("error", "prose-missing", str(path.relative_to(ROOT)),
-                              f"panel {key[0]:03d}-{key[1]:02d} is scripted and has no prose"))
-    for key, path in sorted(present.items()):
-        if key not in wanted:
-            notes.append(Note("error", "prose-orphaned", str(path.relative_to(ROOT)),
-                              "names a panel no page script declares"))
+                              f"page {number:03d} is scripted and has no prose"))
+    for number, paths in sorted(present.items()):
+        if number not in wanted:
+            for path in paths:
+                notes.append(Note("error", "prose-orphaned", str(path.relative_to(ROOT)),
+                                  "names a page no manifest declares"))
+        elif len(paths) > 1:
+            notes.append(Note("error", "prose-duplicated", f"page {number:03d}",
+                              "has prose in " + ", ".join(
+                                  str(path.relative_to(ROOT)) for path in paths)))
     for stray in stray_files():
         notes.append(Note("warning", "prose-stray", str(stray.relative_to(ROOT)),
-                          "is not a page directory or a panel file"))
+                          "is not a chapter directory or a page file"))
 
-    for (page, index), path in sorted(present.items()):
-        if (page, index) not in wanted:
+    for number, paths in sorted(present.items()):
+        if number not in wanted:
             continue
-        prose = read_prose(path)
-        script = scripts[page]
-        if prose.page is None or prose.panel is None:
-            notes.append(Note("error", "front-matter-missing", prose.path,
-                              "carries no page and panel in front matter"))
-        else:
-            if prose.page != page or prose.panel != index:
-                notes.append(Note("error", "front-matter-disagrees", prose.path,
-                                  f"says page {prose.page} panel {prose.panel}; the path says "
-                                  f"{page:03d}-{index:02d}"))
+        page = pages[number]
+        prose = read_prose(paths[0])
+
+        if prose.page != number:
+            notes.append(Note("error", "front-matter-disagrees", prose.path,
+                              f"says page {prose.page}; the path says {number:03d}"))
+        for name, mine, theirs in (("chapter", prose.chapter, page.chapter),
+                                   ("sequence", prose.sequence, page.sequence),
+                                   ("title", prose.title, page.title)):
+            if mine != theirs:
+                severity = "warning" if name == "title" else "error"
+                notes.append(Note(severity, f"{name}-disagrees", prose.path,
+                                  f"says {name} {mine!r}; the script says {theirs!r}"))
+        wanted_directory = directories.get(page.chapter, page.chapter)
+        if prose.directory != wanted_directory:
+            notes.append(Note("error", "chapter-directory-wrong", prose.path,
+                              f"sits in {prose.directory!r}; page {number:03d} belongs to "
+                              f"chapter {page.chapter!r}, whose directory is "
+                              f"{wanted_directory!r}"))
+        expected_source = f"content/pages/{number:03d}.md"
+        if prose.source != expected_source:
+            notes.append(Note("error", "source-wrong", prose.path,
+                              f"points at {prose.source!r}; its script is {expected_source!r}"))
+
         if prose.heading is None:
             notes.append(Note("error", "heading-missing", prose.path,
-                              "has no `# Page NNN — Panel II` heading"))
-        elif prose.heading != (page, index):
-            notes.append(Note("error", "heading-disagrees", prose.path,
-                              f"is headed Page {prose.heading[0]:03d} — Panel "
-                              f"{prose.heading[1]:02d}"))
-        title = panels.front_matter_value(script, "title")
-        if prose.title != title:
-            notes.append(Note("warning", "title-disagrees", prose.path,
-                              f"titles the page {prose.title!r}; the script says {title!r}"))
-        if prose.status not in FILE_STATUSES:
-            notes.append(Note("error", "status-invalid", prose.path,
-                              f"status {prose.status!r} is not one of {', '.join(FILE_STATUSES)}"))
-        if not prose.provenance:
-            notes.append(Note("error", "provenance-missing", prose.path,
-                              "declares no provenance statuses"))
+                              "has no `# N. Title` heading"))
         else:
-            allowed = script_provenance(script, index)
-            unknown = [item for item in prose.provenance if item not in STATUSES]
-            foreign = [item for item in prose.provenance if item in STATUSES and item not in allowed]
-            if unknown:
-                notes.append(Note("error", "provenance-unknown", prose.path,
-                                  "uses statuses the continuity bible does not define: "
-                                  + ", ".join(unknown)))
-            if foreign and allowed:
-                notes.append(Note("warning", "provenance-upgraded", prose.path,
-                                  "claims " + ", ".join(foreign) + " and the panel's own "
-                                  "Provenance line names only " + ", ".join(sorted(allowed))))
+            if prose.heading[0] != number:
+                notes.append(Note("error", "heading-disagrees", prose.path,
+                                  f"is headed {prose.heading[0]}; the path says {number}"))
+            if prose.heading[1] != page.title:
+                notes.append(Note("warning", "heading-title-disagrees", prose.path,
+                                  f"is headed {prose.heading[1]!r}; the script titles the page "
+                                  f"{page.title!r}"))
+
         if prose.words == 0:
             notes.append(Note("error", "prose-empty", prose.path, "has no prose after its heading"))
-        elif prose.body.startswith("[") and prose.body.endswith("]"):
+        elif STUB.match(prose.body):
             notes.append(Note("warning", "prose-stub", prose.path,
                               "is a placeholder left by an insert and has not been written"))
+        for match in PANEL_VOCABULARY.finditer(prose.body):
+            notes.append(Note("warning", "describes-panels", prose.path,
+                              f"says “{match.group(0)}”; the prose tells the story and the "
+                              "script describes the artwork"))
     return notes
 
 
@@ -243,68 +260,65 @@ def print_notes(notes: list[Note]) -> dict[str, int]:
 
 
 def cmd_check(strict: bool) -> int:
-    scripts = panels.read_scripts()
-    notes = audit(scripts)
+    model = crossref.build()
+    notes = audit(model)
     counts = print_notes(notes)
     blocking = counts["error"] + (counts["warning"] if strict else 0)
-    total = sum(script.count for script in scripts.values())
     if blocking:
         print(f"\nNovella check failed: {blocking} blocking findings.")
         return 1
-    print(f"\nNovella check passed: {len(found())} prose files for {total} scripted panels.")
+    written = sum(1 for paths in found().values() if paths)
+    print(f"\nNovella check passed: {written} prose files for {len(model.pages)} story pages "
+          f"in {len(model.chapters)} chapter directories.")
     return 0
 
 
 def cmd_report() -> int:
-    scripts = panels.read_scripts()
     model = crossref.build()
     chapter_title = {chapter.id: chapter.title for chapter in model.chapters}
     chapter_of = {page.number: page.chapter for page in model.pages}
+    title_of = {page.number: page.title for page in model.pages}
+    wanted = expected(model)
     present = found()
-    wanted = expected(scripts)
-    counts: list[tuple[int, int, int]] = []
+    counts: list[tuple[int, int]] = []
     per_chapter: dict[str, list[int]] = {}
-    for key, path in sorted(present.items()):
-        if key not in wanted:
+    for number in sorted(wanted):
+        paths = present.get(number)
+        if not paths:
             continue
-        words = read_prose(path).words
-        counts.append((words, *key))
-        per_chapter.setdefault(chapter_of.get(key[0], "?"), []).append(words)
-    total_panels = len(wanted)
-    written = len(counts)
+        words = read_prose(paths[0]).words
+        counts.append((words, number))
+        per_chapter.setdefault(chapter_of.get(number, "?"), []).append(words)
     total_words = sum(item[0] for item in counts)
-    print(f"{written} of {total_panels} scripted panels have prose; "
+    print(f"{len(counts)} of {len(wanted)} story pages have prose; "
           f"{total_words:,} words in all, about {total_words / MANUSCRIPT_PAGE:,.0f} "
           f"manuscript pages at {MANUSCRIPT_PAGE} words.")
     if counts:
         values = [item[0] for item in counts]
-        print(f"\nPer panel: mean {statistics.mean(values):.0f}, median "
+        print(f"\nPer page: mean {statistics.mean(values):.0f}, median "
               f"{statistics.median(values):.0f}, shortest {min(values)}, longest {max(values)}.")
         print("\nBy chapter")
         for chapter in model.chapters:
             words = per_chapter.get(chapter.id, [])
             if not words:
                 continue
-            scripted = sum(script.count for number, script in scripts.items()
-                           if chapter_of.get(number) == chapter.id)
-            print(f"  {chapter.id:<9} {chapter_title.get(chapter.id, ''):<36} "
-                  f"{len(words):>3}/{scripted:<3} panels  {sum(words):>7,} words  "
-                  f"{statistics.mean(words):>5.0f} per panel")
+            scripted = sum(1 for number in wanted if chapter_of.get(number) == chapter.id)
+            print(f"  {chapter.directory:<36} {len(words):>3}/{scripted:<3} pages  "
+                  f"{sum(words):>7,} words  {statistics.mean(words):>5.0f} per page")
         ordered = sorted(counts)
         print("\nShortest")
-        for words, page, index in ordered[:5]:
-            print(f"  {page:03d}-{index:02d}  {words:>4} words")
+        for words, number in ordered[:5]:
+            print(f"  {number:03d}  {words:>4} words  {title_of.get(number, '')}")
         print("\nLongest")
-        for words, page, index in ordered[-5:][::-1]:
-            print(f"  {page:03d}-{index:02d}  {words:>4} words")
-    missing = [key for key in wanted if key not in present]
+        for words, number in ordered[-5:][::-1]:
+            print(f"  {number:03d}  {words:>4} words  {title_of.get(number, '')}")
+    missing = [number for number in wanted if number not in present]
     if missing:
-        print(f"\nUnwritten: {len(missing)} panels, first {missing[0][0]:03d}-{missing[0][1]:02d}")
+        print(f"\nUnwritten: {len(missing)} pages, first {missing[0]:03d}")
     return 0
 
 
 def assemble(continuous: bool) -> str:
-    scripts = panels.read_scripts()
     model = crossref.build()
     present = found()
     parts: list[str] = ["# ZZ: NO CONSUMER", "", "*The novella.*", ""]
@@ -319,26 +333,22 @@ def assemble(continuous: bool) -> str:
             "Epilogue" if chapter.id == "epilogue" else f"Chapter {int(chapter.id)}")
         parts += [f"## {label} — {chapter.title}", ""]
         for page in pages:
-            script = scripts.get(page.number)
-            if script is None:
+            paths = present.get(page.number)
+            if not paths:
+                parts += [f"*[Page {page.number:03d} has no prose yet.]*", ""]
                 continue
             if not continuous:
-                parts += [f"### {page.number:03d} — {page.title}", ""]
-            for index in range(1, script.count + 1):
-                path = present.get((page.number, index))
-                if path is None:
-                    parts += [f"*[Panel {page.number:03d}-{index:02d} has no prose yet.]*", ""]
-                    continue
-                body = read_prose(path).body
-                if body:
-                    parts += [body, ""]
+                parts += [f"### {page.number}. {page.title}", ""]
+            body = read_prose(paths[0]).body
+            if body:
+                parts += [body, ""]
     return "\n".join(parts).rstrip() + "\n"
 
 
 def main(argv: list[str] | None = None) -> int:
     parser = argparse.ArgumentParser(description=__doc__.splitlines()[0])
     commands = parser.add_subparsers(dest="command", required=True)
-    commands.add_parser("report", help="word census by chapter and panel")
+    commands.add_parser("report", help="word census by chapter and page")
     check = commands.add_parser("check", help="exit non-zero while prose and script disagree")
     check.add_argument("--strict", action="store_true", help="also fail on warnings")
     build = commands.add_parser("assemble", help="print the whole novella as one document")

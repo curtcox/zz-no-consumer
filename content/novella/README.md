@@ -37,8 +37,23 @@ the argument instead.
   are this book's own pages and match the graphic-novel pagination, which the
   narrative depends on in the epilogue.
 
+## Tooling
+
+`scripts/novella.py` owns this directory:
+
+```sh
+python3 scripts/novella.py report                 # word census by chapter and page
+python3 scripts/novella.py check                  # prose against the page scripts
+python3 scripts/novella.py assemble --out FILE    # the whole novella as one document
+```
+
+`scripts/pagination.py` moves these files when the page set changes — across
+chapter directories when a page changes chapter — and rewrites front matter,
+the `source:` line, the heading number, and the page numbers the prose cites.
+Do not renumber by hand. `scripts/panels.py` never touches this tree: the unit
+here is the page, so a panel operation leaves a file's subject unchanged.
+
 ## Editing
 
-When a page script changes, revise the matching prose file in the same commit.
-`scripts/pagination.py` does not manage this directory; if pages are added,
-removed, or renumbered, the corresponding files here must be moved by hand.
+When a page script changes, revise the matching prose file in the same commit,
+then run `python3 scripts/novella.py check`.

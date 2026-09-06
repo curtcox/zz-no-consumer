@@ -137,6 +137,10 @@ class Chapter:
     title: str
     first_page: int
     last_page: int
+    # The stem of the chapter's brief in `content/chapters/`. It is also the name of the
+    # chapter's directory in the novella tree, which is why it is modelled here rather than
+    # rebuilt from the title: a chapter id is `01`, and `01` is not a directory name.
+    directory: str = ""
 
 
 @dataclass(frozen=True)
@@ -255,6 +259,7 @@ def read_chapters() -> list[Chapter]:
                 title=value("title"),
                 first_page=int(value("first_page")),
                 last_page=int(value("last_page")),
+                directory=value("file").removesuffix(".md"),
             )
         )
     return chapters

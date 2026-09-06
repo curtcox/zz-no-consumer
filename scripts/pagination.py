@@ -3,7 +3,7 @@
 
 Page identity in this repository is the ordinal three-digit page number. That number lives
 in filenames, page front matter, three manifests, a beat sheet, eight chapter briefs, the
-sequence ledger, panel keys, art directories, the novella's per-page prose directories, and
+sequence ledger, panel keys, art directories, the novella's per-page prose files, and
 several hundred hand-written sentences.
 This module owns every one of those sites, so changing the page set is one deterministic
 rewrite rather than a reason to fold a page into its neighbour.
@@ -71,10 +71,16 @@ RULE_PATTERNS = (
 
 PARITY = ("verso", "recto")
 
-# The prose rendering of the book: one file per scripted panel, keyed by page directory. The
-# files carry their page in front matter as well as in their heading, so renumbering them is
-# a directory rename plus a front-matter rewrite; the heading is ordinary prose.
-NOVELLA_FILE = re.compile(r"^content/novella/(\d{3})/panel-(\d{2})\.md$")
+# The prose rendering of the book: one file per story page, in a directory named for its
+# chapter. The page number is in the filename, the front matter and the heading, and the
+# chapter is in the directory *and* the front matter, so renumbering a page here is a file
+# rename -- across chapter directories when the page changes chapter -- plus a front-matter
+# and heading rewrite. `scripts/novella.py check` holds the tree to all four.
+NOVELLA_FILE = re.compile(r"^content/novella/([\w-]+)/(\d{3})\.md$")
+
+
+def novella_path(directory: str, number: int) -> str:
+    return f"content/novella/{directory}/{number:03d}.md"
 
 
 def parity_of(number: int) -> str:
@@ -299,6 +305,10 @@ class Book:
     pages: list[PageRecord]
     chapter_order: list[str]
     chapter_titles: dict[str, str]
+    # Chapter id -> the stem of its brief, which is also its directory in the novella tree.
+    # A chapter id is `01`; a directory is `01-first-civilization`. The novella needs the
+    # second, so the mapping is carried rather than guessed at from the title.
+    chapter_directories: dict[str, str] = field(default_factory=dict)
 
     def numbers(self) -> list[int]:
         return [page.number for page in self.pages]
@@ -330,6 +340,7 @@ def read_book() -> Book:
         ],
         chapter_order=[chapter.id for chapter in model.chapters],
         chapter_titles={chapter.id: chapter.title for chapter in model.chapters},
+        chapter_directories={chapter.id: chapter.directory for chapter in model.chapters},
     )
 
 
@@ -637,7 +648,7 @@ def reference_notes(sites: list[Site], numbers: set[int]) -> list[Note]:
 class Plan:
     writes: dict[str, str] = field(default_factory=dict)      # relative path -> text
     removals: list[str] = field(default_factory=list)
-    renames: list[tuple[str, str]] = field(default_factory=list)   # directories
+    renames: list[tuple[str, str]] = field(default_factory=list)   # directories and files
     discards: list[str] = field(default_factory=list)              # directories removed
     notes: list[Note] = field(default_factory=list)
 
@@ -705,19 +716,41 @@ def new_page_script(page: PageRecord, population: str) -> str:
 
 
 def new_prose_stub(page: PageRecord) -> str:
+    """Front matter the novella check will accept, and a body it will flag as unwritten."""
     return (
         "---\n"
         f"page: {page.number}\n"
-        "panel: 1\n"
+        f"chapter: {yaml_scalar(page.chapter)}\n"
+        f"sequence: {yaml_scalar(page.sequence)}\n"
         f"title: {page.title}\n"
-        "status: draft\n"
-        "provenance: [invented]\n"
+        f"source: content/pages/{page.id}.md\n"
         "---\n"
         "\n"
-        f"# Page {page.number:03d} — Panel 01\n"
+        f"# {page.number}. {page.title}\n"
         "\n"
-        "[Prose for a panel that has not been scripted. Inserted by `scripts/pagination.py`.]\n"
+        "[Prose for a page that has not been scripted. Inserted by `scripts/pagination.py`.]\n"
     )
+
+
+def rewrite_prose_front_matter(text: str, number: int, record: PageRecord) -> str:
+    """Point a novella file at the page it has become: front matter, source, heading number.
+
+    The title is left alone, exactly as it is in the page script: this tool renumbers, and
+    retitling is editorial. `scripts/novella.py check` warns when the two drift apart.
+    """
+    text = re.sub(r"^page:\s*\d+\s*$", f"page: {number}", text, count=1, flags=re.MULTILINE)
+    for name, value in (("chapter", record.chapter), ("sequence", record.sequence)):
+        text = re.sub(
+            rf'^{name}:\s*(")?([^"\n]+?)"?\s*$',
+            lambda match, value=value, name=name: (
+                match.group(0) if match.group(2) == value
+                else f"{name}: {yaml_scalar(value, match.group(1))}"
+            ),
+            text, count=1, flags=re.MULTILINE,
+        )
+    text = re.sub(r"^source:\s*content/pages/\d{3}\.md\s*$",
+                  f"source: content/pages/{number:03d}.md", text, count=1, flags=re.MULTILINE)
+    return re.sub(r"^# \d+\.", f"# {number}.", text, count=1, flags=re.MULTILINE)
 
 
 def beat_row(page: PageRecord) -> str:
@@ -732,6 +765,7 @@ def plan_rewrite(book: Book, operation: Operation, population: str) -> Plan:
     mapping = operation.mapping
     after = {page.number: page for page in operation.pages}
     created = {page.number for page in operation.created}
+    directories = book.chapter_directories
     def read(relative: str) -> str:
         return (ROOT / relative).read_text(encoding="utf-8")
 
@@ -770,7 +804,7 @@ def plan_rewrite(book: Book, operation: Operation, population: str) -> Plan:
             continue
         text = read(relative)
         prose_file = NOVELLA_FILE.match(relative)
-        if prose_file and int(prose_file.group(1)) not in mapping:
+        if prose_file and int(prose_file.group(2)) not in mapping:
             # The page is being deleted; its prose goes with its script.
             plan.removals.append(relative)
             continue
@@ -780,12 +814,10 @@ def plan_rewrite(book: Book, operation: Operation, population: str) -> Plan:
                                    f"“{snippet}” names page {value:03d}, "
                                    "which is being deleted"))
         if prose_file:
-            rewritten = re.sub(r"^page:\s*\d+\s*$", f"page: {mapping[int(prose_file.group(1))]}",
-                               rewritten, count=1, flags=re.MULTILINE)
+            number = mapping[int(prose_file.group(2))]
+            rewritten = rewrite_prose_front_matter(rewritten, number, after[number])
         if rewritten != text:
             plan.writes[relative] = rewritten
-    for page in operation.created:
-        plan.writes[f"content/novella/{page.id}/panel-01.md"] = new_prose_stub(page)
 
     # --- data/pages.yaml ----------------------------------------------------
     manifest = read("data/pages.yaml")
@@ -866,7 +898,7 @@ def plan_rewrite(book: Book, operation: Operation, population: str) -> Plan:
     art = read("data/panel-art.tsv")
     plan.writes["data/panel-art.tsv"] = rewrite_panel_keys(art, mapping)
     plan.writes["data/assets.yaml"] = rewrite_panel_keys(read("data/assets.yaml"), mapping)
-    for directory in ("assets/art/panels", "prompts/pages", "content/novella"):
+    for directory in ("assets/art/panels", "prompts/pages"):
         base = ROOT / directory
         if not base.is_dir():
             continue
@@ -876,12 +908,6 @@ def plan_rewrite(book: Book, operation: Operation, population: str) -> Plan:
                 continue
             old = int(match.group(1))
             if old not in mapping:
-                if directory == "content/novella":
-                    plan.discards.append(f"{directory}/{child.name}")
-                    plan.notes.append(Note("note", "prose-removed", f"{directory}/{child.name}",
-                                           "is the deleted page's prose and leaves with its "
-                                           "script"))
-                    continue
                 plan.notes.append(Note("error", "orphaned-art", f"{directory}/{child.name}",
                                        "belongs to a page that is being deleted"))
                 continue
@@ -891,6 +917,28 @@ def plan_rewrite(book: Book, operation: Operation, population: str) -> Plan:
                     f"{directory}/{mapping[old]:03d}{match.group(2) or ''}",
                 ))
 
+    # --- the novella --------------------------------------------------------
+    # A page file rather than a page directory, so it moves as a file, and it moves for two
+    # reasons rather than one: its number changed, or its chapter did. Only `move --chapter`
+    # changes the second -- an insert or a delete renumbers pages without reassigning any of
+    # them -- and when it does, the prose has to follow the script into the new chapter's
+    # directory or `scripts/novella.py check` fails on the placement.
+    base = ROOT / "content" / "novella"
+    if base.is_dir():
+        for child in sorted(base.rglob("*.md")):
+            relative = str(child.relative_to(ROOT))
+            prose_file = NOVELLA_FILE.match(relative)
+            if not prose_file:
+                continue
+            old = int(prose_file.group(2))
+            if old not in mapping:
+                plan.notes.append(Note("note", "prose-removed", relative,
+                                       "is the deleted page's prose and leaves with its script"))
+                continue
+            target = novella_path(directories[after[mapping[old]].chapter], mapping[old])
+            if target != relative:
+                plan.renames.append((relative, target))
+
     # A rewritten file that lives inside a renamed directory belongs at its destination, not
     # at the name the directory is about to vacate. `prompts/pages/NNN/` is the case that
     # bites: its files name their own page, so they are rewritten and moved at once.
@@ -898,11 +946,20 @@ def plan_rewrite(book: Book, operation: Operation, population: str) -> Plan:
     # would let one page's prompts land on another's.
     def destination(relative: str) -> str:
         for source, target in plan.renames:
+            if relative == source:
+                return target
             if relative.startswith(source + "/"):
                 return target + relative[len(source):]
         return relative
 
     plan.writes = {destination(relative): text for relative, text in plan.writes.items()}
+
+    # A created page's prose stub is written last, because it is new content at a final path
+    # rather than content being carried by a rename. Remapped with everything else it would
+    # follow the rename that vacates its name -- an insert at 045 would put the stub on
+    # `046.md`, on top of the prose that page 045 is in the middle of becoming.
+    for page in operation.created:
+        plan.writes[novella_path(directories[page.chapter], page.number)] = new_prose_stub(page)
 
     # --- historical records -------------------------------------------------
     for relative in HISTORICAL:
@@ -1177,7 +1234,7 @@ def run_operation(book: Book, operation: Operation, args: argparse.Namespace) ->
     counts = print_notes(notes)
 
     print(f"\nFiles: {len(plan.writes)} written, {len(plan.removals)} removed, "
-          f"{len(plan.renames)} directories renamed, {len(plan.discards)} directories removed")
+          f"{len(plan.renames)} paths renamed, {len(plan.discards)} directories removed")
 
     if inverting and not args.allow_parity_shift:
         print("\nRefused: this operation inverts recto/verso for "
@@ -1255,6 +1312,14 @@ def main(argv: list[str] | None = None) -> int:
         return cmd_check(book, sites, args.strict)
 
     numbers = set(book.numbers())
+    # A chapter the manifest does not name has no page range, no brief, and no novella
+    # directory, and it used to surface as a bare ValueError from the beat-sheet rewrite.
+    # Both operations that can name one are checked here, before anything is planned.
+    chapter = getattr(args, "chapter", None)
+    if chapter and chapter not in book.chapter_directories:
+        print(f"no such chapter: {chapter}. data/chapters.yaml names "
+              + ", ".join(book.chapter_order))
+        return 2
     if args.command == "insert":
         if not 1 <= args.at <= len(book.pages) + 1:
             print(f"insert --at {args.at:03d} is outside 001–{len(book.pages) + 1:03d}")

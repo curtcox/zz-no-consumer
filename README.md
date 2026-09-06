@@ -47,7 +47,7 @@ Distinct downloaded bodies are retained by SHA-256 under `256t/records/`. Tracke
 
 ## Pagination
 
-`scripts/pagination.py` owns every place a story page number lives: page filenames and front matter, `data/pages.yaml`, `data/chapters.yaml`, the beat sheet, the story-contract map, the eight chapter briefs, the sequence ledger's page ranges, the production-review turn and revision tables, panel keys in `data/panel-art.tsv` and `data/assets.yaml`, the `assets/art/panels/` and `prompts/pages/` directories, and every padded reference in hand-written prose. Adding or removing a page is therefore one deterministic rewrite, not a reason to fold a page into its neighbour.
+`scripts/pagination.py` owns every place a story page number lives: page filenames and front matter, `data/pages.yaml`, `data/chapters.yaml`, the beat sheet, the story-contract map, the eight chapter briefs, the sequence ledger's page ranges, the production-review turn and revision tables, panel keys in `data/panel-art.tsv` and `data/assets.yaml`, the `assets/art/panels/` and `prompts/pages/` directories, the novella's per-page prose files — which move between chapter directories when a page changes chapter — and every padded reference in hand-written prose. Adding or removing a page is therefore one deterministic rewrite, not a reason to fold a page into its neighbour.
 
 ```sh
 python3 scripts/pagination.py report                       # page map, parity map, turn audit, reference census
@@ -90,6 +90,20 @@ Operations print a plan and touch nothing without `--apply`, and the same two re
 Reference rewriting is narrow in the same way pagination's is. A bare `panel 4` is local to the page script or `prompts/pages/NNN/` file it sits in; `page 003 panel 2` names another page's; anything inside a code fence or inline backticks quotes a form rather than pointing at a panel, so it is reported as an example and never rewritten; `data/generation-log.jsonl` and `design/image-generation-options.md` are dated records and are left alone. A reference that names no page, in a file that is not scoped to one, is reported and never guessed at.
 
 The panel count is a measurement, not a contract. `panels.py report` derives it, `scripts/imagegen.py` and `scripts/make-thumbnails.py` read it rather than hard-coding it, and prose that quotes it should say when it was measured.
+
+## Novella
+
+`content/novella/` retells the whole book in prose, one file per story page, in chapter directories mirroring `content/chapters/`. It is a parallel track and not a script: the unit is the page, so a page's prose carries that page's events and argument rather than a description of its cells, and `check` reports prose that reaches for the comic's geometry.
+
+```sh
+python3 scripts/novella.py report                 # word census by chapter and page
+python3 scripts/novella.py check                  # exit non-zero while prose and script disagree
+python3 scripts/novella.py assemble --out FILE    # the whole novella as one document
+```
+
+`check` holds the tree to the page scripts: one prose file per scripted page, each in its chapter's directory, front matter agreeing with the script on page, chapter, sequence and title, the heading numbering the page, the `source:` line pointing at the script, and a body that is prose rather than an unwritten stub. It does not judge length; `report` measures it, against a target of roughly a manuscript page per story page.
+
+Renumbering belongs to `scripts/pagination.py`, which moves each prose file with its page — across chapter directories when the page changes chapter — and rewrites its front matter, its `source:` line, its heading number, and the page numbers its prose cites. A deleted page's prose leaves with its script, and a page that novella prose still names is reported as a dangling reference like any other. `scripts/panels.py` does not touch this tree at all: splitting or moving a panel does not change which page's story a file tells.
 
 ## Cross references
 
