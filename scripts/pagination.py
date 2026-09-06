@@ -3,7 +3,8 @@
 
 Page identity in this repository is the ordinal three-digit page number. That number lives
 in filenames, page front matter, three manifests, a beat sheet, eight chapter briefs, the
-sequence ledger, panel keys, art directories, and several hundred hand-written sentences.
+sequence ledger, panel keys, art directories, the novella's per-page prose directories, and
+several hundred hand-written sentences.
 This module owns every one of those sites, so changing the page set is one deterministic
 rewrite rather than a reason to fold a page into its neighbour.
 
@@ -69,6 +70,11 @@ RULE_PATTERNS = (
 )
 
 PARITY = ("verso", "recto")
+
+# The prose rendering of the book: one file per scripted panel, keyed by page directory. The
+# files carry their page in front matter as well as in their heading, so renumbering them is
+# a directory rename plus a front-matter rewrite; the heading is ordinary prose.
+NOVELLA_FILE = re.compile(r"^content/novella/(\d{3})/panel-(\d{2})\.md$")
 
 
 def parity_of(number: int) -> str:
@@ -632,6 +638,7 @@ class Plan:
     writes: dict[str, str] = field(default_factory=dict)      # relative path -> text
     removals: list[str] = field(default_factory=list)
     renames: list[tuple[str, str]] = field(default_factory=list)   # directories
+    discards: list[str] = field(default_factory=list)              # directories removed
     notes: list[Note] = field(default_factory=list)
 
 
@@ -697,6 +704,22 @@ def new_page_script(page: PageRecord, population: str) -> str:
     )
 
 
+def new_prose_stub(page: PageRecord) -> str:
+    return (
+        "---\n"
+        f"page: {page.number}\n"
+        "panel: 1\n"
+        f"title: {page.title}\n"
+        "status: draft\n"
+        "provenance: [invented]\n"
+        "---\n"
+        "\n"
+        f"# Page {page.number:03d} — Panel 01\n"
+        "\n"
+        "[Prose for a panel that has not been scripted. Inserted by `scripts/pagination.py`.]\n"
+    )
+
+
 def beat_row(page: PageRecord) -> str:
     return (
         f"| {page.number} | {ledger_sequence(page.sequence)} | [Causal job for this page.] | "
@@ -746,13 +769,23 @@ def plan_rewrite(book: Book, operation: Operation, population: str) -> Plan:
         if relative.startswith("content/pages/"):
             continue
         text = read(relative)
+        prose_file = NOVELLA_FILE.match(relative)
+        if prose_file and int(prose_file.group(1)) not in mapping:
+            # The page is being deleted; its prose goes with its script.
+            plan.removals.append(relative)
+            continue
         rewritten, dangling = rewrite_prose(text, mapping)
         for value, snippet in dangling:
             plan.notes.append(Note("error", "dangling-reference", relative,
                                    f"“{snippet}” names page {value:03d}, "
                                    "which is being deleted"))
+        if prose_file:
+            rewritten = re.sub(r"^page:\s*\d+\s*$", f"page: {mapping[int(prose_file.group(1))]}",
+                               rewritten, count=1, flags=re.MULTILINE)
         if rewritten != text:
             plan.writes[relative] = rewritten
+    for page in operation.created:
+        plan.writes[f"content/novella/{page.id}/panel-01.md"] = new_prose_stub(page)
 
     # --- data/pages.yaml ----------------------------------------------------
     manifest = read("data/pages.yaml")
@@ -833,7 +866,7 @@ def plan_rewrite(book: Book, operation: Operation, population: str) -> Plan:
     art = read("data/panel-art.tsv")
     plan.writes["data/panel-art.tsv"] = rewrite_panel_keys(art, mapping)
     plan.writes["data/assets.yaml"] = rewrite_panel_keys(read("data/assets.yaml"), mapping)
-    for directory in ("assets/art/panels", "prompts/pages"):
+    for directory in ("assets/art/panels", "prompts/pages", "content/novella"):
         base = ROOT / directory
         if not base.is_dir():
             continue
@@ -843,6 +876,12 @@ def plan_rewrite(book: Book, operation: Operation, population: str) -> Plan:
                 continue
             old = int(match.group(1))
             if old not in mapping:
+                if directory == "content/novella":
+                    plan.discards.append(f"{directory}/{child.name}")
+                    plan.notes.append(Note("note", "prose-removed", f"{directory}/{child.name}",
+                                           "is the deleted page's prose and leaves with its "
+                                           "script"))
+                    continue
                 plan.notes.append(Note("error", "orphaned-art", f"{directory}/{child.name}",
                                        "belongs to a page that is being deleted"))
                 continue
@@ -1011,6 +1050,8 @@ def commit(plan: Plan) -> None:
             path = ROOT / relative
             if path.exists():
                 path.unlink()
+        for relative in plan.discards:
+            shutil.rmtree(ROOT / relative, ignore_errors=True)
         # Renames land before writes, never after: a rewritten file inside a renamed
         # directory is written under its destination, and unstaging afterwards would put
         # the original content back on top of it.
@@ -1136,7 +1177,7 @@ def run_operation(book: Book, operation: Operation, args: argparse.Namespace) ->
     counts = print_notes(notes)
 
     print(f"\nFiles: {len(plan.writes)} written, {len(plan.removals)} removed, "
-          f"{len(plan.renames)} directories renamed")
+          f"{len(plan.renames)} directories renamed, {len(plan.discards)} directories removed")
 
     if inverting and not args.allow_parity_shift:
         print("\nRefused: this operation inverts recto/verso for "
@@ -1158,6 +1199,7 @@ def run_operation(book: Book, operation: Operation, args: argparse.Namespace) ->
     print("  python3 scripts/paneltypes.py write")
     print("  python3 scripts/build-site.py")
     print("  python3 scripts/pagination.py check")
+    print("  python3 scripts/novella.py check")
     if counts["error"]:
         print(f"\n{counts['error']} findings remain open. They are editorial, not mechanical.")
     return 0

@@ -4,7 +4,8 @@
 A panel's identity is its ordinal index inside its page, written ``NN`` and joined to the
 page as ``NNN-II``. That index lives in the ``## Panel N`` heading, in art keys in
 ``data/panel-art.tsv``, in ``assets/art/panels/NNN-II/``, in ``prompts/pages/NNN/panel-II.md``,
-in the generated classification table and viewer routes, and in the page notes and frame
+in the novella's ``content/novella/NNN/panel-II.md``, in the generated classification table
+and viewer routes, and in the page notes and frame
 directions that say things like "Panel 4 is the first time in the book that ChatGPT states
 something the next panel contradicts". This module owns every one of those sites, so adding
 a beat to a page is one deterministic rewrite rather than a reason to grow an existing
@@ -64,8 +65,9 @@ GENERATED = (
     "docs/viewer",
 )
 
-# Hand-written prose that can name a panel. `prompts/pages/NNN/` is page-scoped, so a bare
-# reference inside it is local to that page in the same way a page script's is.
+# Hand-written prose that can name a panel. `prompts/pages/NNN/` and `content/novella/NNN/`
+# are page-scoped, so a bare reference inside either is local to that page in the same way a
+# page script's is.
 PROSE_GLOBS = (
     "README.md",
     "content/**/*.md",
@@ -73,6 +75,11 @@ PROSE_GLOBS = (
     "research/**/*.md",
     "prompts/**/*.md",
 )
+
+# The novella: one prose file per *scripted* panel, grouped runs included, so a nine-cell grid
+# has nine files where the viewer has one image slot. The file carries its page and panel in
+# front matter as well as in its heading, and both are rewritten when the panel moves.
+NOVELLA_FILE = re.compile(r"^content/novella/(?P<page>\d{3})/panel-(?P<panel>\d{2})\.md$")
 
 # The rhythm bands in design/page-grammar.md. The default band is what an operation is
 # measured against; the outer band is what the grammar permits at all.
@@ -270,7 +277,7 @@ def page_scope(relative: str) -> int | None:
     match = re.match(r"^content/pages/(\d{3})\.md$", relative)
     if match:
         return int(match.group(1))
-    match = re.match(r"^prompts/pages/(\d{3})/", relative)
+    match = re.match(r"^(?:prompts/pages|content/novella)/(\d{3})/", relative)
     return int(match.group(1)) if match else None
 
 
@@ -745,11 +752,21 @@ def slot_keys(scripts: dict[int, PageScript]) -> list[str]:
     return keys
 
 
+def scripted_keys(scripts: dict[int, PageScript]) -> list[str]:
+    """One key per scripted panel, a grouped run's cells included. The novella is keyed so."""
+    keys: list[str] = []
+    for number, script in sorted(scripts.items()):
+        keys.extend(f"{number:03d}-{index:02d}" for index in range(1, script.count + 1))
+    return keys
+
+
 def joined_notes(scripts: dict[int, PageScript]) -> list[Note]:
     """Every structured panel key must name a panel some page script actually declares."""
     notes: list[Note] = []
-    known = set(slot_keys(scripts))
+    slots = set(slot_keys(scripts))
+    scripted = set(scripted_keys(scripts))
     for relative, keys in structured_keys().items():
+        known = scripted if relative == "content/novella" else slots
         for key in sorted(keys):
             if key not in known:
                 notes.append(Note("error", "panel-key-dangling", f"{relative}: {key}",
@@ -791,6 +808,16 @@ def structured_keys() -> dict[str, set[str]]:
                 prompts.add(f"{page_dir.name}-{child.stem.split('-')[1]}")
     if prompts:
         found["prompts/pages"] = prompts
+    prose: set[str] = set()
+    base = ROOT / "content" / "novella"
+    if base.is_dir():
+        for page_dir in base.iterdir():
+            if not re.fullmatch(r"\d{3}", page_dir.name):
+                continue
+            for child in page_dir.glob("panel-[0-9][0-9].md"):
+                prose.add(f"{page_dir.name}-{child.stem.split('-')[1]}")
+    if prose:
+        found["content/novella"] = prose
     return found
 
 
@@ -842,6 +869,23 @@ NEW_PANEL_BODY = (
 )
 
 
+def new_prose_stub(script: PageScript, index: int) -> str:
+    title = front_matter_value(script, "title")
+    return (
+        "---\n"
+        f"page: {script.number}\n"
+        f"panel: {index}\n"
+        f"title: {title}\n"
+        "status: draft\n"
+        "provenance: [invented]\n"
+        "---\n"
+        "\n"
+        f"# Page {script.id} — Panel {index:02d}\n"
+        "\n"
+        "[Prose for a panel that has not been scripted. Inserted by `scripts/panels.py`.]\n"
+    )
+
+
 def plan_rewrite(scripts: dict[int, PageScript], operation: Operation) -> Plan:
     plan = Plan()
     relocation = Relocation(operation)
@@ -867,10 +911,11 @@ def plan_rewrite(scripts: dict[int, PageScript], operation: Operation) -> Plan:
     doomed: set[str] = set()
     for change in operation.changes:
         for old in change.deleted:
-            relative = f"prompts/pages/{change.id}/panel-{old:02d}.md"
-            if (ROOT / relative).exists():
-                plan.removals.append(relative)
-                doomed.add(relative)
+            for relative in (f"prompts/pages/{change.id}/panel-{old:02d}.md",
+                             f"content/novella/{change.id}/panel-{old:02d}.md"):
+                if (ROOT / relative).exists():
+                    plan.removals.append(relative)
+                    doomed.add(relative)
             if art_directory(change.page, old).is_dir():
                 plan.discards.append(f"assets/art/panels/{change.id}-{old:02d}")
 
@@ -903,9 +948,9 @@ def plan_rewrite(scripts: dict[int, PageScript], operation: Operation) -> Plan:
         body = path.read_text(encoding="utf-8")
         # A prompt file belonging to the transferred panel travels with it, so its bare
         # references are qualified for the same reason the panel body's are.
-        travelling = (
-            transfer is not None
-            and relative == f"prompts/pages/{transfer.source:03d}/panel-{transfer.index:02d}.md"
+        travelling = transfer is not None and relative in (
+            f"prompts/pages/{transfer.source:03d}/panel-{transfer.index:02d}.md",
+            f"content/novella/{transfer.source:03d}/panel-{transfer.index:02d}.md",
         )
         rewrite = rewrite_prose(
             body, relative, relocation,
@@ -913,8 +958,22 @@ def plan_rewrite(scripts: dict[int, PageScript], operation: Operation) -> Plan:
             lands_on=transfer.target if travelling else None,
         )
         report(rewrite, relative)
-        if rewrite.text != body:
-            plan.writes[relative] = rewrite.text
+        text = rewrite.text
+        prose_file = NOVELLA_FILE.match(relative)
+        if prose_file:
+            pair = relocation.resolve(int(prose_file.group("page")), int(prose_file.group("panel")))
+            if pair is not None:
+                text = re.sub(r"^page:\s*\d+\s*$", f"page: {pair[0]}", text, count=1,
+                              flags=re.MULTILINE)
+                text = re.sub(r"^panel:\s*\d+\s*$", f"panel: {pair[1]}", text, count=1,
+                              flags=re.MULTILINE)
+        if text != body:
+            plan.writes[relative] = text
+    for change in operation.changes:
+        for position, old in enumerate(change.order, 1):
+            if old in change.created:
+                relative = f"content/novella/{change.id}/panel-{position:02d}.md"
+                plan.writes[relative] = new_prose_stub(scripts[change.page], position)
 
     # --- the art table -------------------------------------------------------
     art = ROOT / "data" / "panel-art.tsv"
@@ -967,6 +1026,22 @@ def plan_rewrite(scripts: dict[int, PageScript], operation: Operation) -> Plan:
                 plan.renames.append((
                     f"prompts/pages/{page:03d}/{child.name}",
                     f"prompts/pages/{pair[0]:03d}/panel-{pair[1]:02d}.md",
+                ))
+
+    prose_base = ROOT / "content" / "novella"
+    if prose_base.is_dir():
+        for page_dir in sorted(prose_base.iterdir()):
+            if not re.fullmatch(r"\d{3}", page_dir.name):
+                continue
+            page = int(page_dir.name)
+            for child in sorted(page_dir.glob("panel-[0-9][0-9].md")):
+                index = int(child.stem.split("-")[1])
+                pair = relocation.resolve(page, index)
+                if pair is None or pair == (page, index):
+                    continue
+                plan.renames.append((
+                    f"content/novella/{page:03d}/{child.name}",
+                    f"content/novella/{pair[0]:03d}/panel-{pair[1]:02d}.md",
                 ))
 
     # A renamed file's rewritten content belongs at its destination, not at the name it is
@@ -1201,6 +1276,7 @@ def run_operation(scripts: dict[int, PageScript], operation: Operation,
     print("  python3 scripts/paneltypes.py write")
     print("  python3 scripts/build-site.py")
     print("  python3 scripts/panels.py check")
+    print("  python3 scripts/novella.py check")
     open_findings = counts["error"] + counts["warning"]
     if open_findings:
         noun = "finding remains" if open_findings == 1 else "findings remain"
@@ -1293,7 +1369,9 @@ def main(argv: list[str] | None = None) -> int:
             print(f"page {candidate.id} writes its panels as one grouped run, `## Panels "
                   f"{candidate.grouped[0]}–{candidate.grouped[1]}`. That is a single "
                   "composition and a single image slot; splitting it is an editorial "
-                  "decision, not a renumbering.")
+                  "decision, not a renumbering. The novella keeps one prose file per cell "
+                  "of the run, which is why content/novella carries more keys than the "
+                  "image slots do.")
             return 2
 
     limit = script.count + (1 if args.command == "insert" else 0)
