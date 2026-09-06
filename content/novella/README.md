@@ -3,9 +3,10 @@
 A prose retelling of `ZZ: NO CONSUMER`, one text file per graphic-novel page.
 
 `content/novella/<chapter>/NNN.md` corresponds to `content/pages/NNN.md`. Chapter
-directories mirror `content/chapters/`. All 116 story pages are present; the
-numbering, chapter membership, sequence, and title of every file match its source
-script exactly.
+directories mirror `content/chapters/`. Every story page is present — 118 as the
+script stands, which `python3 scripts/novella.py report` measures rather than this
+file asserting it — and the numbering, chapter membership, sequence, and title of
+every file match its source script exactly.
 
 ## What this track is
 
@@ -56,4 +57,18 @@ here is the page, so a panel operation leaves a file's subject unchanged.
 ## Editing
 
 When a page script changes, revise the matching prose file in the same commit,
-then run `python3 scripts/novella.py check`.
+then run `python3 scripts/novella.py check`. CI runs it too, ahead of the site build.
+
+## Publication
+
+`scripts/build-site.py` publishes this tree at `/novella/` — a contents page, one
+route per chapter, and the whole novella as four single-file downloads (EPUB, a
+self-contained HTML file, Markdown, and plain text). `python3 scripts/validate-novella.py`
+holds that output to this tree.
+
+The one thing to know before editing: **every story page has exactly one address**,
+`/novella/<chapter>/#pNNN`, and the validator fails the build if a page loses its
+anchor or acquires a second one. That is what keeps the page numbers this prose cites
+— the ones the epilogue turns on — resolvable to somewhere a reader can actually go.
+The page markers themselves are generated from the page manifest, so nothing here
+needs to spell one out.

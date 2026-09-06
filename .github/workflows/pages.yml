@@ -35,6 +35,9 @@ jobs:
       - name: Check page, source, and provenance cross references
         run: python scripts/crossref.py check
 
+      - name: Check the novella against the page scripts
+        run: python scripts/novella.py check
+
       - name: Check controlled knowledge-map assets
         run: python scripts/knowledge_maps.py check
 
@@ -58,6 +61,9 @@ jobs:
 
       - name: Validate viewer routes
         run: python scripts/validate-viewer.py
+
+      - name: Validate novella reader, page anchors, and downloads
+        run: python scripts/validate-novella.py
 
       - name: Validate knowledge-map gallery
         run: python scripts/validate-knowledge-map-gallery.py

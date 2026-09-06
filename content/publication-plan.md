@@ -150,30 +150,42 @@ different book.
 
 ### Target 1 — Novella on the website
 
-**State: prose complete, publication path absent.** `scripts/build-site.py` contains
-no reference to the novella. The 44,593 words exist in `content/novella/` and are
-validated against the scripts, but a reader on the site cannot reach a single word.
+**State: built and wired into CI on 6 September 2026.** The reader publishes at
+`/novella/` on both the public and internal builds; `.github/workflows/pages.yml`
+runs `novella.py check` before the build and `validate-novella.py` after it.
+
+What shipped:
+
+- A contents page, eight chapter routes, and a page anchor for all 118 story pages.
+  The reading unit is the chapter; the addressable unit is the page, so
+  `/novella/03-control-keeps-solving-problems/#p045` is a bookmark to page 45 and the
+  page numbers the prose cites resolve to somewhere a reader can go.
+- A lean prose surface — `site/novella/reader.css`, `site/novella/reader.js` — sharing
+  the palette, dark/light, full screen, and fragment-carried settings with the comic
+  viewer, and sharing none of its image machinery. Its own spacebar chain, so the
+  viewer's "read the whole book with the spacebar alone" stays true.
+- Four single-file downloads: EPUB 3 with a real page list, self-contained HTML,
+  Markdown, and plain text.
+- `scripts/validate-novella.py`, which fails the build if any page loses its anchor or
+  gains a second one, if the contents stops reaching a page, if the reading chain
+  breaks, or if a download is short of the prose tree.
+
+**Still to do before this is finished work rather than shipped plumbing:**
 
 1. **Continuous-prose editorial pass.** The novella was drafted one file per story
    page, and `novella.py check` deliberately enforces that shape. Read it as one
-   document — `novella.py assemble` — and fix what only shows up when the page
-   boundaries disappear: repeated exposition at page seams, chapter transitions that
-   were page turns, and the per-page mean of 378 words creating a metronome.
-   Per-page variance is already wide (134 to 562), which helps.
-2. **Extend `build-site.py`** with novella routes: a novella home, eight chapter
-   indexes, 118 page routes, previous/next, and a link from each novella page to the
-   matching comic page and back.
-3. **Extend `validate-viewer.py`** to cover the new route graph, and decide whether
-   novella routes join the spacebar read-through chain or form a parallel chain. The
-   existing chain visits every route exactly once and loops home; adding 127 routes to
-   it changes what "read the whole book with the spacebar alone" means. Recommend a
-   **separate chain**, selected by a `track=` fragment setting alongside the existing
-   `theme=`, `full=`, and `mode=`.
-4. Reuse the existing view settings, dark/light, and full-screen panel.
-5. Publish through the normal `main` → Pages workflow.
+   document — `novella.py assemble --continuous` — and fix what only shows up when the
+   page boundaries disappear: repeated exposition at page seams, chapter transitions
+   that were page turns, and the per-page mean of 378 words creating a metronome.
+   Per-page variance is already wide (134 to 562), which helps. **This is now the only
+   thing standing between the novella and being genuinely readable rather than merely
+   reachable.**
+2. Cross-links from each novella chapter to the matching comic pages and back — not
+   built, and worth having once the comic has art.
+3. A cover for the reader's contents page (A8).
 
-**Dependencies:** A1, A9, A10. Independent of all art work — **this is the target that
-can ship first, and by months.**
+**Dependencies:** A1, A9, A10 for lock. Independent of all art work — **this remains
+the target that ships first, and by months.**
 
 ### Target 2 — Graphic novel on the website
 
@@ -222,10 +234,10 @@ easily land in the hundreds of megabytes and eat its own royalty.
 
 Reflowable EPUB 3 from the novella. **The cheapest paid target by a wide margin.**
 
-1. `novella.py assemble` already produces the whole novella as one document. Add
-   `scripts/build-epub.py` (reflowable mode): chapter splits at the eight chapter
-   directories, semantic headings, nav document, metadata, cover, GPL notice,
-   credits endmatter.
+1. **`scripts/epub.py` now exists** and already emits a conforming reflowable EPUB 3
+   with chapter splits, a nav document, metadata, the GPL notice, and a page list — it
+   is what the site's novella download is built from. What the Kindle edition adds on
+   top is a cover, the credits endmatter, and KDP's metadata, not a new builder.
 2. Decide whether story page numbers appear in the prose edition at all. They are
    load-bearing in the repository and meaningless to a Kindle reader. Recommend
    dropping visible page numbers and keeping chapter structure.
@@ -269,8 +281,9 @@ Work common to all three:
 ElevenReader Publishing accepts an EPUB and gives the book a free reading and
 listening surface.
 
-1. Reuse Target 4's reflowable EPUB unchanged. **No new build work if Target 4 is done
-   first** — which is the reason to do Target 4 first.
+1. Reuse Target 4's reflowable EPUB unchanged. The EPUB itself already builds and
+   validates as of 6 September; what it still needs is the cover and endmatter that
+   Target 4 adds. **No new build work beyond that.**
 2. Verify current submission requirements and rights attestations at submission time.
 3. If the platform hosts audio, decide whether the Target 5 master goes here too.
 4. Confirm that GPL-3.0-or-later distribution is compatible with the platform's terms —
@@ -290,9 +303,9 @@ The three phases are ordered by what blocks what, not by target number.
 
 **Phase 2 — Two forks, run in parallel.**
 
-- *Prose fork:* novella editorial pass → site routes (Target 1) → reflowable EPUB
-  (Target 4) → ElevenReader (Target 6) → audiobook (Target 5). Needs no artwork
-  beyond a cover.
+- *Prose fork:* site routes and the EPUB builder are done; what remains is the novella
+  editorial pass, then cover and endmatter (Target 4), ElevenReader (Target 6), and
+  the audiobook (Target 5). Needs no artwork beyond a cover.
 - *Art fork:* A3 generate → A4 choose → A5 reference sheets → A6 letter → A7
   compositor. Twelve to forty hours of machine time plus a 67-panel manual balloon
   pass.
@@ -357,14 +370,14 @@ Pages output, or a web derivative.
 
 ## New tooling this plan requires
 
-| Tool | Purpose | Target |
-| --- | --- | --- |
-| `build-site.py` novella routes | Prose on the web | 1 |
-| `validate-viewer.py` novella coverage | Route graph and read-through chain | 1 |
-| `scripts/compose-pages.py` | Panels + lettering → composed page at trim size | 2, 3 |
-| `scripts/build-epub.py` (reflowable) | Novella → EPUB 3 | 4, 6 |
-| `scripts/build-epub.py --fixed` | Composed pages + panel regions → fixed-layout EPUB 3 | 3 |
-| `scripts/build-audio.py` (if TTS route) | Audio script → chapter masters at ACX spec | 5 |
+| Tool | Purpose | Target | State |
+| --- | --- | --- | --- |
+| `build-site.py` novella routes | Prose on the web | 1 | **Built 6 Sep** |
+| `scripts/validate-novella.py` | Anchors, chain, downloads, EPUB page list | 1 | **Built 6 Sep** |
+| `scripts/epub.py` | Chapters + page list → reflowable EPUB 3 | 1, 4, 6 | **Built 6 Sep** |
+| `scripts/compose-pages.py` | Panels + lettering → composed page at trim size | 2, 3 | Not started |
+| Fixed-layout EPUB emitter | Composed pages + panel regions → EPUB 3 | 3 | Not started |
+| `scripts/build-audio.py` (if TTS route) | Audio script → chapter masters at ACX spec | 5 | Not started |
 
 Each belongs in `tasks/` as a brief before it is written, in the shape the existing
 `tasks/page-identity.md` and `tasks/panel-identity.md` briefs use.

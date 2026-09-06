@@ -13,8 +13,10 @@ from dataclasses import dataclass
 from pathlib import Path
 
 import crossref
+import epub
 import imagegen
 import letterpress
+import novella
 import panelart
 import textimage
 
@@ -45,9 +47,9 @@ SETTING_GROUPS = (
 )
 
 
-def settings_panel() -> str:
+def settings_panel(groups_shown: tuple = SETTING_GROUPS) -> str:
     groups = []
-    for legend, setting, options in SETTING_GROUPS:
+    for legend, setting, options in groups_shown:
         buttons = "".join(
             f'<button class="settings__option" type="button" data-setting="{setting}" '
             f'data-value="{value}" aria-pressed="false">{html.escape(label)}</button>'
@@ -813,6 +815,477 @@ def build_viewer() -> None:
 
 
 BAKEOFF_DIR = ROOT / "assets" / "bakeoff"
+
+
+# ---------------------------------------------------------------------------
+# The novella
+#
+# A prose track needs a different surface from a comic one. The viewer is built
+# around images — panel routes, image/text modes, eight-direction wayfinding — and
+# none of that means anything to a chapter of prose, so this is a separate, lighter
+# reader that shares only what a reader carries between the two: the palette, dark
+# and light, full screen, and settings that ride in the page fragment.
+#
+# The reading unit is the chapter, because 378 words is a paragraph of attention and
+# not a session. The *addressable* unit is still the page: every story page emits a
+# quiet margin marker that is also its anchor, so `…/03-control-keeps-solving-problems/#p045`
+# is a bookmark to page 45. That matters beyond convenience — the prose cites its own
+# page numbers, and the epilogue depends on the reader being able to find them.
+# ---------------------------------------------------------------------------
+
+NOVELLA_DIR = "novella"
+NOVELLA_TITLE = "ZZ: NO CONSUMER"
+NOVELLA_SLUG = "zz-no-consumer-novella"
+NOVELLA_HOME = "https://curtcox.github.io/zz-no-consumer/novella/"
+NOVELLA_RIGHTS = "GNU General Public License, version 3 or any later version."
+
+# Only two of the four view settings mean anything to prose. This boot script runs
+# before first paint so a restored view never flashes the default theme, and it steps
+# around any fragment it does not recognise so a page anchor still resolves.
+NOVELLA_SETTINGS_BOOT = """(function(){
+var root=document.documentElement;
+var allowed={theme:['dark','light'],full:['off','on']};
+var chosen={theme:'dark',full:'off'};
+(location.hash||'').replace(/^#/,'').split('&').forEach(function(pair){
+var parts=pair.split('=');
+var key=decodeURIComponent(parts[0]||'');
+var value=decodeURIComponent(parts[1]||'');
+if(allowed[key]&&allowed[key].indexOf(value)>-1){chosen[key]=value;}
+});
+Object.keys(chosen).forEach(function(key){root.setAttribute('data-'+key,chosen[key]);});
+})();"""
+
+NOVELLA_SETTING_GROUPS = (
+    ("Screen", "full", (("off", "Windowed"), ("on", "Full screen"))),
+    ("Appearance", "theme", (("dark", "Dark"), ("light", "Light"))),
+)
+
+
+@dataclass(frozen=True)
+class NovellaPage:
+    number: int
+    title: str
+    words: int
+    body: str
+
+
+@dataclass(frozen=True)
+class NovellaChapter:
+    id: str
+    directory: str
+    title: str
+    label: str
+    pages: list[NovellaPage]
+
+    @property
+    def words(self) -> int:
+        return sum(page.words for page in self.pages)
+
+    @property
+    def first(self) -> int:
+        return self.pages[0].number
+
+    @property
+    def last(self) -> int:
+        return self.pages[-1].number
+
+
+def novella_label(chapter_id: str) -> str:
+    if chapter_id == "prologue":
+        return "Prologue"
+    if chapter_id == "epilogue":
+        return "Epilogue"
+    return f"Chapter {int(chapter_id)}"
+
+
+def novella_chapters() -> list[NovellaChapter]:
+    """The novella as the reader meets it: eight chapters, each a list of pages.
+
+    The prose tree is authoritative for the words and the page manifest is
+    authoritative for the order; `novella.py check` is what keeps them agreeing, and it
+    runs in CI ahead of this build rather than being re-implemented here.
+    """
+    model = crossref.build()
+    located = novella.expected(model)
+    present = novella.found()
+    by_chapter: dict[str, list[NovellaPage]] = {}
+    for page in model.pages:
+        paths = present.get(page.number)
+        if not paths:
+            raise ValueError(
+                f"Page {page.number:03d} has no novella prose; run scripts/novella.py check"
+            )
+        expected_path = located.get(page.number)
+        if expected_path is not None and paths[0] != expected_path:
+            raise ValueError(
+                f"Page {page.number:03d} prose sits at {paths[0]} rather than {expected_path}"
+            )
+        prose = novella.read_prose(paths[0])
+        by_chapter.setdefault(page.chapter, []).append(
+            NovellaPage(
+                number=page.number,
+                title=page.title,
+                words=prose.words,
+                body=prose.body,
+            )
+        )
+    chapters: list[NovellaChapter] = []
+    for chapter in model.chapters:
+        pages = sorted(by_chapter.get(chapter.id, []), key=lambda item: item.number)
+        if not pages:
+            continue
+        chapters.append(
+            NovellaChapter(
+                id=chapter.id,
+                directory=chapter.directory or chapter.id,
+                title=chapter.title,
+                label=novella_label(chapter.id),
+                pages=pages,
+            )
+        )
+    if not chapters:
+        raise ValueError("No novella chapters were found")
+    return chapters
+
+
+def novella_prose(chapter: NovellaChapter, *, marked: bool = True) -> str:
+    """A chapter's prose, one section per story page, each carrying its own anchor."""
+    sections = []
+    for page in chapter.pages:
+        anchor = f"p{page.number:03d}"
+        marker = (
+            f'<a class="page__marker" href="#{anchor}" '
+            f'aria-label="Page {page.number}, {html.escape(page.title)}">{page.number:03d}</a>'
+            if marked
+            else ""
+        )
+        sections.append(
+            f'<section class="page" id="{anchor}" aria-label="Page {page.number}">'
+            f"{marker}{markdown_to_html(page.body)}</section>"
+        )
+    return f'<article class="prose">{"".join(sections)}</article>'
+
+
+def novella_link(from_directory: Path, *parts: str) -> str:
+    return route_url(from_directory, Path(NOVELLA_DIR, *parts, "index.html"))
+
+
+def novella_document(
+    *,
+    title: str,
+    heading: str,
+    body: str,
+    destination: Path,
+    nav: dict[str, str],
+    where: str,
+) -> str:
+    directory = destination.parent
+    css_href = relative_url(directory, Path(NOVELLA_DIR, "reader.css"))
+    js_href = relative_url(directory, Path(NOVELLA_DIR, "reader.js"))
+    project_home = route_url(directory, Path("index.html"))
+    novella_home = novella_link(directory)
+    data = "".join(f' data-nav-{key}="{html.escape(value)}"' for key, value in sorted(nav.items()))
+    return (
+        f'<!doctype html>\n<html lang="en" data-theme="dark" data-full="off">\n<head>\n'
+        f'<meta charset="utf-8">\n<meta name="viewport" content="width=device-width, initial-scale=1">\n'
+        f"<title>{html.escape(title)}</title>\n"
+        f'<link rel="stylesheet" href="{html.escape(css_href)}">\n'
+        f"<script>{NOVELLA_SETTINGS_BOOT}</script>\n</head>\n"
+        f"<body{data}>\n"
+        f'<a class="skip-link" href="#content">Skip to the reading</a>\n'
+        f'<header class="masthead">\n'
+        f'  <a class="masthead__home" href="{html.escape(novella_home)}">{html.escape(NOVELLA_TITLE)} · Novella</a>\n'
+        f'  <span class="masthead__where">{html.escape(where)}</span>\n'
+        f'  <a class="masthead__home" href="{html.escape(project_home)}">The project ↗</a>\n'
+        f"</header>\n"
+        f"{settings_panel(NOVELLA_SETTING_GROUPS)}\n"
+        f'<main id="content">\n{body}\n</main>\n'
+        f'<div class="toast" role="status" aria-live="polite" data-toast></div>\n'
+        f'<script src="{html.escape(js_href)}"></script>\n'
+        f"</body>\n</html>\n"
+    )
+
+
+def novella_plain_text(chapters: list[NovellaChapter]) -> str:
+    """The novella with the markup taken out rather than translated."""
+    import textwrap
+
+    def flatten(markdown: str) -> str:
+        text = re.sub(r"!\[([^]]*)\]\([^)]+\)", r"\1", markdown)
+        text = re.sub(r"\[([^]]+)\]\([^)]+\)", r"\1", text)
+        text = re.sub(r"`([^`]+)`", r"\1", text)
+        text = re.sub(r"\*\*([^*]+)\*\*", r"\1", text)
+        text = re.sub(r"(?<!\*)\*([^*]+)\*(?!\*)", r"\1", text)
+        return text
+
+    lines = [NOVELLA_TITLE, "=" * len(NOVELLA_TITLE), "", "The novella.", ""]
+    for chapter in chapters:
+        banner = f"{chapter.label} — {chapter.title}"
+        lines += ["", banner, "-" * len(banner), ""]
+        for page in chapter.pages:
+            lines += [f"[{page.number:03d}]  {page.title}", ""]
+            for paragraph in flatten(page.body).split("\n\n"):
+                paragraph = " ".join(paragraph.split())
+                if paragraph:
+                    lines += textwrap.wrap(paragraph, width=78) + [""]
+    return "\n".join(lines).rstrip() + "\n"
+
+
+def novella_standalone(chapters: list[NovellaChapter], stylesheet: str) -> str:
+    """The whole novella as one file that needs nothing else to be readable.
+
+    No script, and no stored setting: a downloaded file has no address to carry a
+    setting in, so light and dark follow the reader's own system preference instead.
+    """
+    light = re.search(r':root\[data-theme="light"\]\s*\{(.*?)\n\}', stylesheet, flags=re.DOTALL)
+    inline_css = stylesheet
+    if light:
+        inline_css += (
+            "\n@media (prefers-color-scheme: light) {\n:root {"
+            + light.group(1)
+            + "\n}\n}\n"
+        )
+    contents = "".join(
+        f'<a class="card" href="#{chapter.directory}">'
+        f'<span class="card__number">{chapter.first:03d}–{chapter.last:03d}</span>'
+        f'<span class="card__title">{html.escape(chapter.label)} — {html.escape(chapter.title)}</span>'
+        f'<span class="card__count">{chapter.words:,} words</span></a>'
+        for chapter in chapters
+    )
+    parts = [
+        '<header class="reader-head">',
+        f"<p class=\"eyebrow\">The novella</p><h1>{html.escape(NOVELLA_TITLE)}</h1>",
+        f'<p class="meta">{len(chapters)} chapters · '
+        f"{sum(len(chapter.pages) for chapter in chapters)} pages · "
+        f"{sum(chapter.words for chapter in chapters):,} words</p>",
+        f'<nav class="cards" aria-label="Contents">{contents}</nav>',
+        "</header>",
+    ]
+    for chapter in chapters:
+        parts.append(
+            f'<h2 id="{chapter.directory}" style="margin-top:3.5rem">'
+            f"{html.escape(chapter.label)} — {html.escape(chapter.title)}</h2>"
+        )
+        parts.append(novella_prose(chapter))
+    parts.append(
+        f'<p class="note">{html.escape(NOVELLA_RIGHTS)} '
+        f'The graphic novel, the sources, and the credits are at {html.escape(NOVELLA_HOME)}</p>'
+    )
+    return (
+        '<!doctype html>\n<html lang="en">\n<head>\n<meta charset="utf-8">\n'
+        '<meta name="viewport" content="width=device-width, initial-scale=1">\n'
+        f"<title>{html.escape(NOVELLA_TITLE)} — the novella</title>\n"
+        f"<style>{inline_css}</style>\n</head>\n<body>\n"
+        f'<main id="content">{"".join(parts)}</main>\n</body>\n</html>\n'
+    )
+
+
+def novella_epub(chapters: list[NovellaChapter], destination: Path) -> Path:
+    """Package the novella as EPUB 3, with a real page list.
+
+    The page list is the point of doing this properly rather than dumping chapters into
+    a zip: the prose cites its own page numbers, so a reading system that offers
+    "go to page 88" is answering a question this book actually asks.
+    """
+    import xml.etree.ElementTree as ElementTree
+
+    epub_chapters: list[epub.Chapter] = []
+    page_list: list[epub.PageRef] = []
+    for index, chapter in enumerate(chapters):
+        name = f"ch{index:02d}"
+        sections = []
+        for page in chapter.pages:
+            anchor = f"p{page.number:03d}"
+            page_list.append(epub.PageRef(label=f"{page.number:03d}", href=f"{name}.xhtml#{anchor}"))
+            sections.append(
+                f'<span epub:type="pagebreak" role="doc-pagebreak" id="{anchor}" '
+                f'aria-label="Page {page.number}"></span>'
+                f"{markdown_to_html(page.body)}"
+            )
+        body = (
+            f'<section epub:type="chapter">'
+            f"<h1>{html.escape(chapter.label)} — {html.escape(chapter.title)}</h1>"
+            f'{"".join(sections)}</section>'
+        )
+        # An EPUB document is XML, not HTML: a stray unescaped `&` in new prose would
+        # produce a file that some readers refuse outright. Fail the build instead.
+        try:
+            ElementTree.fromstring(f'<root xmlns:epub="http://www.idpf.org/2007/ops">{body}</root>')
+        except ElementTree.ParseError as error:
+            raise ValueError(f"{chapter.label} does not convert to well-formed XHTML: {error}") from error
+        epub_chapters.append(
+            epub.Chapter(id=name, title=f"{chapter.label} — {chapter.title}", body=body)
+        )
+
+    return epub.write(
+        destination,
+        epub.Metadata(
+            title=f"{NOVELLA_TITLE} — the novella",
+            author="Curt Cox",
+            identifier=NOVELLA_HOME,
+            rights=NOVELLA_RIGHTS,
+            publisher="curtcox.github.io/zz-no-consumer",
+            description=(
+                "A prose retelling of the graphic novel about emergent AI agent "
+                "coordination, instrumental convergence, and the humans trying to "
+                "understand what happened."
+            ),
+        ),
+        epub_chapters,
+        stylesheet=(
+            "body{margin:0 6%;font-family:Georgia,'Iowan Old Style',serif;line-height:1.6}"
+            "h1{font-size:1.35em;line-height:1.25;margin:2em 0 1.4em;font-weight:normal}"
+            "p{margin:0 0 1em;text-align:justify}"
+            "code{font-family:monospace;font-size:.9em}"
+            "[epub|type~='pagebreak']{display:none}"
+        ),
+        page_list=page_list,
+    )
+
+
+def file_size(path: Path) -> str:
+    size = path.stat().st_size
+    return f"{size / 1_048_576:.1f} MB" if size >= 1_048_576 else f"{max(1, round(size / 1024))} KB"
+
+
+def build_novella() -> int:
+    """Write the novella reader, its downloads, and return the route count."""
+    chapters = novella_chapters()
+    base = OUT / NOVELLA_DIR
+    base.mkdir(parents=True, exist_ok=True)
+
+    source = ROOT / "site" / NOVELLA_DIR
+    stylesheet = (source / "reader.css").read_text(encoding="utf-8")
+    shutil.copy2(source / "reader.css", base / "reader.css")
+    shutil.copy2(source / "reader.js", base / "reader.js")
+
+    # Downloads first: the home page quotes their sizes, so they have to exist.
+    downloads: list[tuple[str, str, str, Path]] = []
+    epub_path = novella_epub(chapters, base / f"{NOVELLA_SLUG}.epub")
+    downloads.append(("EPUB", f"{NOVELLA_SLUG}.epub", "For a Kindle, Kobo, or any reading app. Carries the page numbers as real EPUB page breaks.", epub_path))
+
+    html_path = base / f"{NOVELLA_SLUG}.html"
+    html_path.write_text(novella_standalone(chapters, stylesheet), encoding="utf-8")
+    downloads.append(("HTML", html_path.name, "One self-contained file. Opens in any browser, works offline, prints.", html_path))
+
+    markdown_path = base / f"{NOVELLA_SLUG}.md"
+    markdown_path.write_text(novella.assemble(continuous=False), encoding="utf-8")
+    downloads.append(("Markdown", markdown_path.name, "The source form, exactly as the repository holds it.", markdown_path))
+
+    text_path = base / f"{NOVELLA_SLUG}.txt"
+    text_path.write_text(novella_plain_text(chapters), encoding="utf-8")
+    downloads.append(("Plain text", text_path.name, "No markup at all, wrapped at 78 columns.", text_path))
+
+    home = Path(NOVELLA_DIR, "index.html")
+    chapter_paths = [Path(NOVELLA_DIR, chapter.directory, "index.html") for chapter in chapters]
+    chain = [home, *chapter_paths]
+
+    def step(index: int, offset: int) -> str:
+        return route_url(chain[index].parent, chain[(index + offset) % len(chain)])
+
+    # Chapter routes.
+    for index, chapter in enumerate(chapters, start=1):
+        destination = chain[index]
+        directory = destination.parent
+        previous_label = chapters[index - 2].label if index > 1 else "Contents"
+        following = chapters[index].label if index < len(chapters) else "Contents"
+        foot = (
+            f'<nav class="chapter-foot" aria-label="Chapter navigation">'
+            f'<a href="{html.escape(step(index, -1))}">← {html.escape(previous_label)}</a>'
+            f'<a href="{html.escape(novella_link(directory))}">Contents</a>'
+            f'<a href="{html.escape(step(index, 1))}">{html.escape(following)} →</a>'
+            f'<button class="settings__option" type="button" data-copy-link>Copy link</button>'
+            f"</nav>"
+        )
+        body = (
+            f'<header class="reader-head">'
+            f'<p class="eyebrow">{html.escape(chapter.label)}</p>'
+            f"<h1>{html.escape(chapter.title)}</h1>"
+            f'<p class="meta">Pages {chapter.first:03d}–{chapter.last:03d} · '
+            f"{len(chapter.pages)} pages · {chapter.words:,} words</p>"
+            f"</header>"
+            f"{novella_prose(chapter)}"
+            f"{foot}"
+        )
+        (OUT / destination).parent.mkdir(parents=True, exist_ok=True)
+        (OUT / destination).write_text(
+            novella_document(
+                title=f"{chapter.label} — {chapter.title} · {NOVELLA_TITLE}",
+                heading=chapter.title,
+                body=body,
+                destination=destination,
+                nav={
+                    "home": novella_link(directory),
+                    "next": step(index, 1),
+                    "previous": step(index, -1),
+                },
+                where=f"{chapter.label} · pages {chapter.first:03d}–{chapter.last:03d}",
+            ),
+            encoding="utf-8",
+        )
+
+    # Home.
+    directory = home.parent
+    cards = "".join(
+        f'<a class="card" href="{html.escape(route_url(directory, chapter_paths[index]))}">'
+        f'<span class="card__number">{chapter.first:03d}–{chapter.last:03d}</span>'
+        f'<span class="card__title">{html.escape(chapter.label)} — {html.escape(chapter.title)}</span>'
+        f'<span class="card__count">{chapter.words:,} words</span></a>'
+        for index, chapter in enumerate(chapters)
+    )
+    index_links = "".join(
+        f'<li><a href="{html.escape(route_url(directory, chapter_paths[index]))}#p{page.number:03d}" '
+        f'title="{html.escape(page.title)}">{page.number:03d}</a></li>'
+        for index, chapter in enumerate(chapters)
+        for page in chapter.pages
+    )
+    download_rows = "".join(
+        f'<a class="download" href="{html.escape(name)}" download>'
+        f'<span class="download__format">{html.escape(label)}</span>'
+        f'<span class="download__what">{html.escape(what)}</span>'
+        f'<span class="download__size">{file_size(path)}</span></a>'
+        for label, name, what, path in downloads
+    )
+    total_pages = sum(len(chapter.pages) for chapter in chapters)
+    total_words = sum(chapter.words for chapter in chapters)
+    viewer_href = route_url(directory, Path("viewer", "pages", "001", "index.html"))
+    body = (
+        f'<header class="reader-head">'
+        f'<p class="eyebrow">The novella</p><h1>{html.escape(NOVELLA_TITLE)}</h1>'
+        f'<p class="lede">The same story as the graphic novel — same structure, same order of '
+        f"events — told entirely in prose.</p>"
+        f'<p class="meta">{len(chapters)} chapters · {total_pages} pages · {total_words:,} words</p>'
+        f"</header>"
+        f"<h2>Read online</h2>"
+        f'<div class="cards">{cards}</div>'
+        f'<p class="note">Every page keeps its own address. A chapter link ending '
+        f"<code>#p045</code> opens at page 45, so a bookmark holds its place, and the page "
+        f"numbers the prose itself cites resolve to somewhere you can go.</p>"
+        f"<h2>Jump to a page</h2>"
+        f'<ol class="page-index">{index_links}</ol>'
+        f"<h2>Download the whole novella</h2>"
+        f'<div class="downloads">{download_rows}</div>'
+        f'<p class="note">Every file is the complete novella, one chapter after another. '
+        f'<a href="{html.escape(viewer_href)}">The graphic novel</a> is a separate read. '
+        f"{html.escape(NOVELLA_RIGHTS)}</p>"
+    )
+    (OUT / home).write_text(
+        novella_document(
+            title=f"{NOVELLA_TITLE} — the novella",
+            heading=NOVELLA_TITLE,
+            body=body,
+            destination=home,
+            nav={
+                "home": novella_link(directory),
+                "next": step(0, 1),
+                "previous": step(0, -1),
+            },
+            where=f"{total_pages} pages · {total_words:,} words",
+        ),
+        encoding="utf-8",
+    )
+    return len(chain)
+
 
 
 def bakeoff_runs() -> list[Path]:
@@ -1673,6 +2146,7 @@ def main() -> int:
         index_body = (
             '<p>Private local review build: canonical story material, visual direction, research, and production notes.</p>'
             '<p><a class="viewer-callout" href="viewer/">Open the graphic novel viewer validation build →</a></p>'
+            '<p><a class="viewer-callout" href="novella/">Read the novella, or download it whole →</a></p>'
             f'{placeholder_link}'
             '<p><a class="viewer-callout" href="knowledge-maps/">Explore four knowledge-map alternatives and placement studies →</a></p>'
             '<p><a class="viewer-callout" href="crossref/">Open the page, source, and provenance cross reference →</a></p>'
@@ -1684,6 +2158,7 @@ def main() -> int:
         index_body = (
             '<p>Story-first public build. Research snapshots, source packets, prompts, and production notes remain local.</p>'
             '<p><a class="viewer-callout" href="viewer/">Open the graphic novel viewer validation build →</a></p>'
+            '<p><a class="viewer-callout" href="novella/">Read the novella, or download it whole →</a></p>'
             f'{placeholder_link}'
             '<p><a class="viewer-callout" href="knowledge-maps/">Explore four knowledge-map alternatives and placement studies →</a></p>'
             '<p><a class="viewer-callout" href="crossref/">Open the page, source, and provenance cross reference →</a></p>'
@@ -1710,11 +2185,13 @@ def main() -> int:
     global LETTERED
     LETTERED = build_lettering()
     build_viewer()
+    novella_routes = build_novella()
     bakeoff_routes = build_bakeoff(document)
     knowledge_map_routes = build_knowledge_maps(document)
 
     print(
         f"Built {len(markdown_files)} Markdown pages, {crossref_routes} cross-reference routes, "
+        f"{novella_routes} novella routes and 4 downloads, "
         f"{bakeoff_routes} bake-off routes, {knowledge_map_routes} knowledge-map routes, "
         f"{len(LETTERED)} lettered panel(s), "
         f"and the viewer validation section into {OUT.relative_to(ROOT)}/"

@@ -105,6 +105,32 @@ python3 scripts/novella.py assemble --out FILE    # the whole novella as one doc
 
 Renumbering belongs to `scripts/pagination.py`, which moves each prose file with its page — across chapter directories when the page changes chapter — and rewrites its front matter, its `source:` line, its heading number, and the page numbers its prose cites. A deleted page's prose leaves with its script, and a page that novella prose still names is reported as a dangling reference like any other. `scripts/panels.py` does not touch this tree at all: splitting or moving a panel does not change which page's story a file tells.
 
+
+### The published novella
+
+`scripts/build-site.py` publishes the whole novella at [`docs/novella/`](docs/novella/), on both the public and the internal build, and `.github/workflows/pages.yml` deploys it with the rest of the site.
+
+**The reading unit is the chapter; the addressable unit is still the page.** Eight chapter routes carry the prose — `/novella/03-control-keeps-solving-problems/` — and every story page inside one opens a `<section>` with a quiet number in the margin that is also its anchor, so `/novella/03-control-keeps-solving-problems/#p045` is a bookmark to page 45. That is not only a convenience: the prose cites its own page numbers, and the epilogue depends on a reader being able to follow one. The contents page links every page individually, so any of the 118 is one click from the top.
+
+The reader is a separate surface from the comic viewer, not a reskin of it. It shares the palette, dark and light, full screen, and the convention that view settings ride in the page fragment — so a copied link reopens the same view, and `#theme=light&p003` restores both at once. It does not share the eight-direction wayfinder, the image/text modes, or the panel routes, because none of them mean anything to prose. Its own spacebar chain runs contents → eight chapters → contents, which leaves the viewer's documented property — the whole graphic novel read with the spacebar alone — true and unchanged. `site/novella/reader.css` and `site/novella/reader.js` are its source; both are dependency-free and load no web font.
+
+The same build writes the whole novella as four single-file downloads:
+
+| File | For |
+| --- | --- |
+| `zz-no-consumer-novella.epub` | Any e-reader. Carries all 118 page numbers as real EPUB 3 page breaks, listed in the navigation document, so a reading system can offer *go to page 88*. |
+| `zz-no-consumer-novella.html` | One self-contained file: styles inlined, no script, light and dark from the reader's own system preference. Works offline and prints. |
+| `zz-no-consumer-novella.md` | The source form, exactly what `novella.py assemble` emits. |
+| `zz-no-consumer-novella.txt` | No markup at all, wrapped at 78 columns. |
+
+`scripts/epub.py` writes the EPUB. It is standard library only — an EPUB is a zip of XML, and a packaging dependency would buy nothing but a version to pin — and it is deliberately generic: it takes metadata, rendered XHTML chapter bodies, and a page list, which is the same shape the Kindle text edition needs. Output is deterministic for a given day, and byte-identical across machines when `SOURCE_DATE_EPOCH` is set.
+
+```sh
+python3 scripts/validate-novella.py
+```
+
+The viewer validator cannot cover this tree — it asserts controls a prose reader deliberately lacks — so the novella has its own. It holds one rule above the rest: **an address that stops working is a broken bookmark.** Every story page must have exactly one anchor, in exactly one chapter, linked from the contents; a page that lost its anchor, or gained a second one in another chapter, fails the build rather than misrouting readers months later. It also opens the EPUB and counts its page list against the manifest, checks that the self-contained HTML references nothing outside itself, and weighs the plain downloads against the prose tree so a silently truncated file cannot ship.
+
 ## Cross references
 
 `scripts/crossref.py` joins the page manifest, the provenance declarations in each page script, the citation-key registry in `research/scene-provenance.md` and `research/chapter-source-packets/`, and the scene ledger into one model. It answers both directions: which sources and provenance statuses a page rests on, and which pages rest on a given source, status, or ledger sequence.
@@ -146,7 +172,7 @@ python3 scripts/make-thumbnails.py
 open 256t/site/index.html
 ```
 
-The internal builder converts Markdown in `content/`, `prompts/`, `research/`, and `design/`. The public builder includes only the premise, chapter/page scripts, and the original-source link index.
+The internal builder converts Markdown in `content/`, `prompts/`, `research/`, and `design/`. The public builder includes only the premise, chapter/page scripts, and the original-source link index. Both publish the novella reader and its four downloads at `/novella/`; see **The published novella** above.
 
 Both builds publish the cross reference at `docs/crossref/` (internal: `256t/site/crossref/`), with directory-style routes for every page, cited source, provenance status, and ledger sequence. Source records link to the original publication rather than reproducing it. The public build carries only the relational index; the scene ledger's narrative summaries, drafting rules, chapter-packet locators, and build findings appear in the internal build alone. Each viewer page and image information view links to the matching page record.
 
@@ -160,6 +186,7 @@ Validate the entire generated route graph with:
 
 ```sh
 python3 scripts/validate-viewer.py
+python3 scripts/validate-novella.py
 ```
 
 Generate the provisional 57-spread production contact sheet with:
