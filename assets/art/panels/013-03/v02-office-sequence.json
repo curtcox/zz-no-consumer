@@ -1,0 +1,21 @@
+{
+  "panel": "013-03",
+  "prompt": "Use case: illustration-story. Create a single 1536x1024 landscape hand-inked graphic-novel panel. Reference image 1 is the authoritative office environment, palette and creator clothing/hair reference. Charcoal brush/nib ink, restrained grain, desaturated steel, nicotine-beige lamp light, dark wooden desk. No captions, balloons, borders, words, letters, numbers, logos, pseudo-writing or keyboard legends; lettering and broken reconstruction border will be added separately. Source pages must be broad blank geometric blocks, never fake readable source text. No robots or software avatars. Medium seated first-person view of the same desk while the creator scrolls with one gray-sleeved right hand on a mouse in lower foreground. Two matching external monitors side by side; small laptop centered BELOW their gap, left lamp and far-left printer, untouched half-full transparent drink at FAR RIGHT. Left screen shows three broad blank source-document rectangles beneath blank tab shapes. Right screen shows a SIMPLE directory-tree infrastructure diagram of unlabeled rectangular blocks branching from one shared central trunk; no direct cross-links between sibling blocks, no network mesh, no text. This precedes opening a conversation: do NOT draw a chat input or cursor. Laptop screen dark. No papers or added books. Upper-left x=.05-.70 y=.05-.23 must be quiet dark wall for separate dialogue. Monitors begin below y=.32. Keep hand clear of laptop and glass. Five plausible fingers. Preserve physical desk geography and matching monitors.",
+  "source_file": "/Users/curtcox/.codex/generated_images/01a07d2b-eae2-7482-a91c-1aebc358a808/exec-d9aad0b4-4a3b-47da-8b12-33b6c76b5537.png",
+  "elapsed_seconds": 31.319,
+  "tool": "image_gen.imagegen",
+  "model_revision": null,
+  "seed": null,
+  "references": [
+    "/Users/curtcox/me/zz-no-consumer/assets/art/panels/013-01/v05-builtin-image-pilot.png"
+  ],
+  "dimensions": [
+    1536,
+    1024
+  ],
+  "sha256": "17405eb2b9b25bed29338b39289f14bc5317ae1ecb030595f314d1ad1449a2e8",
+  "reference_sha256": [
+    "1319b6e3d4595315b3915bb922e55bf25bd8ed1c438088480197fda03a7cf751"
+  ],
+  "stored_file": "/Users/curtcox/me/zz-no-consumer/assets/art/panels/013-03/v02-office-sequence.png"
+}

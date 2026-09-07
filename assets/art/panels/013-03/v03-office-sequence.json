@@ -1,0 +1,22 @@
+{
+  "panel": "013-03",
+  "prompt": "Use case: precise-object-edit. Edit this comic panel with ONE continuity correction: add the same separate full-width black desktop keyboard with completely unlettered keys in the lower foreground, directly in front of the centered laptop and left of the mouse hand. It must lie flat on the desk with plausible perspective, not overlap the laptop screen or hand. Keep everything else unchanged: two monitor sizes/positions, left document blocks, right branching diagram, centered laptop, lamp left, printer far left, half-full glass far right, scrolling hand, dark upper area, ink textures and palette. No text or pseudo-writing, no border or captions. Landscape 1536x1024.",
+  "source_file": "/Users/curtcox/.codex/generated_images/01a07d2b-eae2-7482-a91c-1aebc358a808/exec-ed868846-dd96-458f-9955-81b104d356af.png",
+  "elapsed_seconds": 26.839,
+  "tool": "image_gen.imagegen",
+  "model_revision": null,
+  "seed": null,
+  "references": [
+    "/Users/curtcox/.codex/generated_images/01a07d2b-eae2-7482-a91c-1aebc358a808/exec-d9aad0b4-4a3b-47da-8b12-33b6c76b5537.png"
+  ],
+  "dimensions": [
+    1536,
+    1024
+  ],
+  "sha256": "f9611fbb3f6e4a8a56ecdd593414fc39100d66cf74decec3741e08099a09b66e",
+  "reference_sha256": [
+    "17405eb2b9b25bed29338b39289f14bc5317ae1ecb030595f314d1ad1449a2e8"
+  ],
+  "stored_file": "/Users/curtcox/me/zz-no-consumer/assets/art/panels/013-03/v03-office-sequence.png",
+  "selected_file": "/Users/curtcox/me/zz-no-consumer/assets/art/panels/013-03/v04-pilot-border.svg"
+}

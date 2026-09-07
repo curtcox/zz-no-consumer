@@ -155,13 +155,22 @@ panel	variant	file	provider	seed	width	height	bytes	created	status	note	stage
 013-02	v03	assets/art/panels/013-02/v03-storyboard-svg.svg	storyboard-svg		1200	800	11348	2026-09-07T14:11:22+00:00	candidate		storyboard
 013-02	v04	assets/art/panels/013-02/v04-storyboard-svg.svg	storyboard-svg		1200	800	3611	2026-09-07T14:13:12+00:00	candidate		storyboard
 013-02	v05	assets/art/panels/013-02/v05-storyboard-svg.svg	storyboard-svg		1200	800	4069	2026-09-07T14:18:19+00:00	candidate		storyboard
+013-02	v06	assets/art/panels/013-02/v06-office-sequence.png	office-sequence		1536	1024	2164577	2026-09-07T18:46:41+00:00	candidate		refined
+013-02	v07	assets/art/panels/013-02/v07-pilot-border.svg	pilot-border		1536	1024	2886432	2026-09-07T18:46:41+00:00	chosen	Pilot sequence: restrained invented creator reaction; abstract source blocks; provisional likeness and controlled reconstruction border.	refined
 013-03	v01	assets/art/panels/013-03/v01-storyboard-svg.svg	storyboard-svg		1200	800	7515	2026-09-07T16:08:40+00:00	candidate		storyboard
+013-03	v02	assets/art/panels/013-03/v02-office-sequence.png	office-sequence		1536	1024	2340257	2026-09-07T18:46:41+00:00	rejected	Pilot sequence: omitted separate keyboard present in neighboring close-ups.	refined
+013-03	v03	assets/art/panels/013-03/v03-office-sequence.png	office-sequence		1536	1024	2160130	2026-09-07T18:46:41+00:00	candidate		refined
+013-03	v04	assets/art/panels/013-03/v04-pilot-border.svg	pilot-border		1536	1024	2880504	2026-09-07T18:46:42+00:00	chosen	Pilot sequence: keyboard restored; centered laptop, untouched drink and branching infrastructure retained; provisional.	refined
 013-04	v01	assets/art/panels/013-04/v01-storyboard-svg.svg	storyboard-svg		1200	800	12270	2026-09-07T14:11:22+00:00	candidate		storyboard
-013-04	v02	assets/art/panels/013-04/v02-storyboard-svg.svg	storyboard-svg		1200	800	5757	2026-09-07T14:13:13+00:00	chosen	Pilot: retain controlled storyboard after richer candidate failed text review.	storyboard
+013-04	v02	assets/art/panels/013-04/v02-storyboard-svg.svg	storyboard-svg		1200	800	5757	2026-09-07T14:13:13+00:00	candidate	Pilot: retain controlled storyboard after richer candidate failed text review.	storyboard
 013-04	v03	assets/art/panels/013-04/v03-builtin-image-pilot.png	builtin-image-pilot		1536	1024	2808533	2026-09-07T18:22:42+00:00	rejected	Pilot: printer-paper pseudo-writing and tiny UI/hardware marks persist.	refined
+013-04	v04	assets/art/panels/013-04/v04-office-followup.png	office-followup		1536	1024	2287525	2026-09-07T18:36:07+00:00	candidate		refined
+013-04	v05	assets/art/panels/013-04/v05-pilot-border.svg	pilot-border		1536	1024	3050315	2026-09-07T18:36:07+00:00	chosen	Office follow-up: corrected reference preserves centered laptop and empty conversation; controlled reconstruction border; provisional.	refined
 013-05	v01	assets/art/panels/013-05/v01-storyboard-svg.svg	storyboard-svg		1200	800	13091	2026-09-07T14:11:23+00:00	candidate		storyboard
-013-05	v02	assets/art/panels/013-05/v02-storyboard-svg.svg	storyboard-svg		1200	800	6794	2026-09-07T14:13:13+00:00	chosen	Pilot: retain controlled storyboard after richer candidate failed continuity review.	storyboard
+013-05	v02	assets/art/panels/013-05/v02-storyboard-svg.svg	storyboard-svg		1200	800	6794	2026-09-07T14:13:13+00:00	candidate	Pilot: retain controlled storyboard after richer candidate failed continuity review.	storyboard
 013-05	v03	assets/art/panels/013-05/v03-builtin-image-pilot.png	builtin-image-pilot		1536	1024	2961391	2026-09-07T18:22:43+00:00	rejected	Pilot: laptop migrates from center to right; pseudo-writing persists.	refined
+013-05	v04	assets/art/panels/013-05/v04-office-followup.png	office-followup		1536	1024	2399195	2026-09-07T18:36:08+00:00	candidate		refined
+013-05	v05	assets/art/panels/013-05/v05-pilot-border.svg	pilot-border		1536	1024	3199207	2026-09-07T18:36:08+00:00	chosen	Office follow-up: centered laptop retained behind hands; source remains abstract; controlled reconstruction border; provisional.	refined
 014-01	v01	assets/art/panels/014-01/v01-flux2-klein-4b-1001.webp	flux2-klein-4b	1001	1200	800	196660	2026-09-05T18:55:39+00:00	candidate		refined
 014-01	v02	assets/art/panels/014-01/v02-storyboard-svg.svg	storyboard-svg		1200	800	4278	2026-09-07T16:49:07+00:00	candidate		storyboard
 014-01	v03	assets/art/panels/014-01/v03-storyboard-svg.svg	storyboard-svg		1200	800	4573	2026-09-07T16:55:03+00:00	candidate		storyboard

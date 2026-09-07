@@ -1,0 +1,22 @@
+{
+  "panel": "013-02",
+  "prompt": "Use case: illustration-story. Create a single 1536x1024 landscape hand-inked graphic-novel panel. Reference image 1 is the authoritative office environment, palette and creator clothing/hair reference. Charcoal brush/nib ink, restrained grain, desaturated steel, nicotine-beige lamp light, dark wooden desk. No captions, balloons, borders, words, letters, numbers, logos, pseudo-writing or keyboard legends; lettering and broken reconstruction border will be added separately. Source pages must be broad blank geometric blocks, never fake readable source text. No robots or software avatars. Close-up reaction: creator's head and gray-clothed shoulder on LEFT, three-quarter profile facing RIGHT toward a report monitor at right. Same wavy dark neck-length hair as reference; ordinary adult male, tired and incredulous, slightly raised brow and restrained parted lips, no theatrical horror. Facial details are a provisional invented creator depiction, not a documentary likeness. Face unevenly lit by screen. Monitor shows three broad pale report blocks with one simple highlight band, no readable words. Preserve upper-left rectangle x=.06-.48 y=.06-.22 as quiet dark space for dialogue; head and report start below y=.30. Screen at right x=.60-.90, face x=.14-.46. Tight crop; other desk props outside frame.",
+  "source_file": "/Users/curtcox/.codex/generated_images/01a07d2b-eae2-7482-a91c-1aebc358a808/exec-36c25e3c-1a90-4f37-a409-82c799ab8610.png",
+  "elapsed_seconds": 30.237,
+  "tool": "image_gen.imagegen",
+  "model_revision": null,
+  "seed": null,
+  "references": [
+    "/Users/curtcox/me/zz-no-consumer/assets/art/panels/013-01/v05-builtin-image-pilot.png"
+  ],
+  "dimensions": [
+    1536,
+    1024
+  ],
+  "sha256": "0edcc87454b77ef75f1442e6afdb8799a8028c31098e3c5a3f6078ae3c6856a6",
+  "reference_sha256": [
+    "1319b6e3d4595315b3915bb922e55bf25bd8ed1c438088480197fda03a7cf751"
+  ],
+  "stored_file": "/Users/curtcox/me/zz-no-consumer/assets/art/panels/013-02/v06-office-sequence.png",
+  "selected_file": "/Users/curtcox/me/zz-no-consumer/assets/art/panels/013-02/v07-pilot-border.svg"
+}

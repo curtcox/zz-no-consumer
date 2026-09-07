@@ -1,0 +1,23 @@
+{
+  "panel": "013-04",
+  "prompt": "Create a single 1536x1024 landscape hand-inked comic panel. Image 1 is the authoritative corrected office environment and material reference. Image 2 is ONLY rough framing and negative-space guidance. Preserve image 1's physical desk geography across the new camera view: two matching external monitors side by side, the one small laptop CENTERED directly below their central gap, lamp LEFT, half-full drink RIGHT, printer far left. Laptop NEVER moves to either side. Dark wooden desktop, nicotine-beige practical lamp light, charcoal brush/nib ink, restrained grain, desaturated steel. Do not reproduce a vector board look. No panel border: added deterministically later. No captions, speech balloons, logos, badges, printed key labels, pseudo-writing, numbers or words anywhere. Paper completely blank. Left external monitor: just three broad blank gray document rectangles under blank tab shapes as in image 1. Right monitor: empty dark conversation screen with one simple empty input line and a cursor, nothing else. No software avatars. Source material is abstract graphic blocks, not a source screenshot. Maintain upper-left y=.04-.23 as quiet dark space for separate lettering. Straight-on closer insert of the devices from seated eye level. No person or hands in frame. Keep two equal monitors in middle height, centered small laptop below and a separate unlettered keyboard in the near foreground. Do not add any papers, books or new objects.",
+  "references": [
+    "/Users/curtcox/me/zz-no-consumer/assets/art/panels/013-01/v05-builtin-image-pilot.png",
+    "/Users/curtcox/me/zz-no-consumer/research/art-pilot-2026-09-07/references/013-04.png"
+  ],
+  "elapsed_seconds": 27.983,
+  "source_file": "/Users/curtcox/.codex/generated_images/01a07d11-50c8-7693-bcf5-84b666f77385/exec-94efb912-ce48-4b27-93a3-a911e234d156.png",
+  "tool": "image_gen.imagegen",
+  "model_revision": null,
+  "seed": null,
+  "stored_file": "/Users/curtcox/me/zz-no-consumer/assets/art/panels/013-04/v04-office-followup.png",
+  "sha256": "9538cc11705ac009d7d4d9c96d86097fe47d59e22390befe663466712cd76511",
+  "dimensions": [
+    "1536",
+    "1024"
+  ],
+  "reference_sha256": [
+    "1319b6e3d4595315b3915bb922e55bf25bd8ed1c438088480197fda03a7cf751",
+    "d9744ac3452584627ff0f206b61c287c7b83b7f76432d8c58f16a5959a05afdc"
+  ]
+}

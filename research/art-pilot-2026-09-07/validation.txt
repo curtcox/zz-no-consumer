@@ -129,3 +129,7 @@ OK
 
 Browser review: all 7 pilot-selected lettered SVGs have no horizontal text overflow against their boxes after the 001-01 correction. Initial comparison sheet: 29 images loaded, none broken. Actual reader image routes and provisional facing-pair comparisons reviewed. Physical print proof not performed.
 Expanded facing-pair comparison: all 50 images loaded. Neighbors retain older raster candidates whose style/geography/text treatment are not approved by this pilot.
+
+Office follow-up: storyboard source/complete check, lettering audit, build, built storyboard check, viewer validation, built site links and built page links all passed. Both new lettered SVGs passed browser horizontal text-bound checks and were visually reviewed together.
+
+Office sequence continuation: source and built storyboard checks, lettering audit, site build, viewer validation, site links and built page links all passed. All three imported PNG hashes and dimensions verified. Both selected lettered SVGs were rasterized with rsvg-convert at 1200x800 and visually reviewed: dialogue complete, face/screens unobscured, broken reconstruction borders visible. No browser glyph-bound measurement or physical print proof performed for this continuation.

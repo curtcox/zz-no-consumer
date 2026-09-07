@@ -1,0 +1,67 @@
+[
+  {
+    "panel": "013-02",
+    "prompt": "Use case: illustration-story. Create a single 1536x1024 landscape hand-inked graphic-novel panel. Reference image 1 is the authoritative office environment, palette and creator clothing/hair reference. Charcoal brush/nib ink, restrained grain, desaturated steel, nicotine-beige lamp light, dark wooden desk. No captions, balloons, borders, words, letters, numbers, logos, pseudo-writing or keyboard legends; lettering and broken reconstruction border will be added separately. Source pages must be broad blank geometric blocks, never fake readable source text. No robots or software avatars. Close-up reaction: creator's head and gray-clothed shoulder on LEFT, three-quarter profile facing RIGHT toward a report monitor at right. Same wavy dark neck-length hair as reference; ordinary adult male, tired and incredulous, slightly raised brow and restrained parted lips, no theatrical horror. Facial details are a provisional invented creator depiction, not a documentary likeness. Face unevenly lit by screen. Monitor shows three broad pale report blocks with one simple highlight band, no readable words. Preserve upper-left rectangle x=.06-.48 y=.06-.22 as quiet dark space for dialogue; head and report start below y=.30. Screen at right x=.60-.90, face x=.14-.46. Tight crop; other desk props outside frame.",
+    "source_file": "/Users/curtcox/.codex/generated_images/01a07d2b-eae2-7482-a91c-1aebc358a808/exec-36c25e3c-1a90-4f37-a409-82c799ab8610.png",
+    "elapsed_seconds": 30.237,
+    "tool": "image_gen.imagegen",
+    "model_revision": null,
+    "seed": null,
+    "references": [
+      "/Users/curtcox/me/zz-no-consumer/assets/art/panels/013-01/v05-builtin-image-pilot.png"
+    ],
+    "dimensions": [
+      1536,
+      1024
+    ],
+    "sha256": "0edcc87454b77ef75f1442e6afdb8799a8028c31098e3c5a3f6078ae3c6856a6",
+    "reference_sha256": [
+      "1319b6e3d4595315b3915bb922e55bf25bd8ed1c438088480197fda03a7cf751"
+    ],
+    "stored_file": "/Users/curtcox/me/zz-no-consumer/assets/art/panels/013-02/v06-office-sequence.png",
+    "selected_file": "/Users/curtcox/me/zz-no-consumer/assets/art/panels/013-02/v07-pilot-border.svg"
+  },
+  {
+    "panel": "013-03",
+    "prompt": "Use case: illustration-story. Create a single 1536x1024 landscape hand-inked graphic-novel panel. Reference image 1 is the authoritative office environment, palette and creator clothing/hair reference. Charcoal brush/nib ink, restrained grain, desaturated steel, nicotine-beige lamp light, dark wooden desk. No captions, balloons, borders, words, letters, numbers, logos, pseudo-writing or keyboard legends; lettering and broken reconstruction border will be added separately. Source pages must be broad blank geometric blocks, never fake readable source text. No robots or software avatars. Medium seated first-person view of the same desk while the creator scrolls with one gray-sleeved right hand on a mouse in lower foreground. Two matching external monitors side by side; small laptop centered BELOW their gap, left lamp and far-left printer, untouched half-full transparent drink at FAR RIGHT. Left screen shows three broad blank source-document rectangles beneath blank tab shapes. Right screen shows a SIMPLE directory-tree infrastructure diagram of unlabeled rectangular blocks branching from one shared central trunk; no direct cross-links between sibling blocks, no network mesh, no text. This precedes opening a conversation: do NOT draw a chat input or cursor. Laptop screen dark. No papers or added books. Upper-left x=.05-.70 y=.05-.23 must be quiet dark wall for separate dialogue. Monitors begin below y=.32. Keep hand clear of laptop and glass. Five plausible fingers. Preserve physical desk geography and matching monitors.",
+    "source_file": "/Users/curtcox/.codex/generated_images/01a07d2b-eae2-7482-a91c-1aebc358a808/exec-d9aad0b4-4a3b-47da-8b12-33b6c76b5537.png",
+    "elapsed_seconds": 31.319,
+    "tool": "image_gen.imagegen",
+    "model_revision": null,
+    "seed": null,
+    "references": [
+      "/Users/curtcox/me/zz-no-consumer/assets/art/panels/013-01/v05-builtin-image-pilot.png"
+    ],
+    "dimensions": [
+      1536,
+      1024
+    ],
+    "sha256": "17405eb2b9b25bed29338b39289f14bc5317ae1ecb030595f314d1ad1449a2e8",
+    "reference_sha256": [
+      "1319b6e3d4595315b3915bb922e55bf25bd8ed1c438088480197fda03a7cf751"
+    ],
+    "stored_file": "/Users/curtcox/me/zz-no-consumer/assets/art/panels/013-03/v02-office-sequence.png"
+  },
+  {
+    "panel": "013-03",
+    "prompt": "Use case: precise-object-edit. Edit this comic panel with ONE continuity correction: add the same separate full-width black desktop keyboard with completely unlettered keys in the lower foreground, directly in front of the centered laptop and left of the mouse hand. It must lie flat on the desk with plausible perspective, not overlap the laptop screen or hand. Keep everything else unchanged: two monitor sizes/positions, left document blocks, right branching diagram, centered laptop, lamp left, printer far left, half-full glass far right, scrolling hand, dark upper area, ink textures and palette. No text or pseudo-writing, no border or captions. Landscape 1536x1024.",
+    "source_file": "/Users/curtcox/.codex/generated_images/01a07d2b-eae2-7482-a91c-1aebc358a808/exec-ed868846-dd96-458f-9955-81b104d356af.png",
+    "elapsed_seconds": 26.839,
+    "tool": "image_gen.imagegen",
+    "model_revision": null,
+    "seed": null,
+    "references": [
+      "/Users/curtcox/.codex/generated_images/01a07d2b-eae2-7482-a91c-1aebc358a808/exec-d9aad0b4-4a3b-47da-8b12-33b6c76b5537.png"
+    ],
+    "dimensions": [
+      1536,
+      1024
+    ],
+    "sha256": "f9611fbb3f6e4a8a56ecdd593414fc39100d66cf74decec3741e08099a09b66e",
+    "reference_sha256": [
+      "17405eb2b9b25bed29338b39289f14bc5317ae1ecb030595f314d1ad1449a2e8"
+    ],
+    "stored_file": "/Users/curtcox/me/zz-no-consumer/assets/art/panels/013-03/v03-office-sequence.png",
+    "selected_file": "/Users/curtcox/me/zz-no-consumer/assets/art/panels/013-03/v04-pilot-border.svg"
+  }
+]

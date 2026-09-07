@@ -46,3 +46,19 @@ No training set or all-book reference library was approved here. The selected of
 ## Validation
 
 Before edits, storyboard coverage/built checks and the lettering audit passed. After changes, all 21 validation/build commands and both unittest modules passed. The appendix checker retained 31 informational notes, with zero errors or warnings. Browser review found no horizontal lettering overflow in the seven selected pilot/control panels, and all 50 comparison/sequence images loaded. Inspect the final check log in [validation.txt](validation.txt). The comparison sheet also supports browser checks of lettered SVG text bounds and image loading. Generated docs are rebuilt through the site builder; no docs files are hand-edited. No commit, push, or deployment is part of this pilot.
+
+## Office follow-up after pilot push
+
+Pilot commit `a325c14e` was pushed to origin/main at the user’s request. A rechecked unowned empty index lock (inode 62683596) was removed under the repository recovery procedure before staging; its creator remains unknown. Automatic push review initially described the repository as private; GitHub inspection established the configured destination is public and the account has ADMIN permission, after which the push succeeded.
+
+Two additional built-in image calls used corrected office v05 as the first reference and the original close-up boards as rough framing guidance. Both preserve the centered laptop, left lamp, right drink, abstract source blocks and empty conversation field. The generated PNGs are v04 in 013-04 and 013-05; selected v05 variants wrap those unchanged images with controlled broken reconstruction borders. No final-stage promotion. Tiny material/keyboard details still require trim-size proof.
+
+Exact executed prompts, reference hashes, dimensions and timing are in [office-followup.json](office-followup.json). The initial pilot table and metrics above remain a dated record; its two retained-board decisions are superseded by this follow-up. The comparison sheet now displays the current choices, with the new pair at the top. Older neighboring images remain outside this batch. This follow-up has not been committed or pushed.
+
+## Office sequence continuation
+
+Three further built-in image-tool calls produced reaction and scrolling panels for 013-02 and 013-03. The first scrolling attempt omitted the separate keyboard and was rejected; a targeted edit restored it. Selected versions are 013-02 v07 and 013-03 v04, each an immutable SVG border wrapper around an unchanged PNG. The creator face is an invented provisional depiction, not an approved likeness. The branching infrastructure is an unlabeled visual abstraction, not a source screenshot. No asset was marked final.
+
+Exact prompts, reference/output hashes, dimensions, elapsed call times and saved paths are in [office-sequence.json](office-sequence.json). Original outputs and the rejected attempt remain in the panel store.
+
+Before this continuation, the full local CI sequence passed, including both unittest modules; the appendix retained 31 informational notes and no errors or warnings. The requested commit was blocked by index.lock (observed inode 62706428, empty): host inspection found no Git process or open handle, but automatic approval review rejected removal under the repository lock rule. Explicit user approval was requested. No commit or push has occurred in this continuation.

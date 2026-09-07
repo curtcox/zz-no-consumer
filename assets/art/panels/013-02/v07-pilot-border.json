@@ -1,0 +1,15 @@
+{
+  "operation": "Controlled broken reconstruction border over unchanged PNG",
+  "source_variant": "v06-office-sequence.png",
+  "source_sha256": "0edcc87454b77ef75f1442e6afdb8799a8028c31098e3c5a3f6078ae3c6856a6",
+  "model_call": false,
+  "border": {
+    "color": "#5E737B",
+    "width": 4,
+    "dash": [
+      24,
+      16
+    ],
+    "inset": 3
+  }
+}

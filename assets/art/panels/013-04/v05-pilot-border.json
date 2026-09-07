@@ -1,0 +1,15 @@
+{
+  "operation": "Controlled broken reconstruction border over unchanged PNG",
+  "source_variant": "v04-office-followup.png",
+  "source_sha256": "9538cc11705ac009d7d4d9c96d86097fe47d59e22390befe663466712cd76511",
+  "model_call": false,
+  "border": {
+    "color": "#5E737B",
+    "width": 4,
+    "dash": [
+      24,
+      16
+    ],
+    "inset": 3
+  }
+}
