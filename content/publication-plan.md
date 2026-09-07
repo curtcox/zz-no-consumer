@@ -3,24 +3,23 @@
 Six publication targets, one book. This plan states what is measured today, what
 each target still needs, what the targets share, and what only the owner can decide.
 
-**Measured 6 September 2026.** Every count below came from the tools, not from memory:
+**Repository status remeasured 7 September 2026.** External publication requirements later in this plan retain their original review dates; this update measures the repository:
 
 | Measure | Value | Source |
 | --- | --- | --- |
 | Story pages | 118 | `pagination.py check` |
 | Panels / image slots | 606 / 590 | `panels.py check` |
-| Panels with art | 43 (7.3%) | `produce.py status` |
+| SVG storyboard coverage | 590/590 slots | `storyboards.py check --complete` |
+| Slots with refined/final candidates | 43 (7.3%) | `produce.py status` |
 | Panel art decisions made | 0 of 590 | `panelart.py status` |
-| Novella prose | 118/118 pages, 44,593 words | `novella.py report` |
-| Appendix entries | 24 contested assertions, 29 fallacies, 464 references | `appendix.py report` |
+| Novella prose | 118/118 pages, 44,272 words | `novella.py report` |
+| Appendix entries | 24 contested assertions, 29 fallacies, 45 professional objections, 20 FAQs; 841 references | `appendix.py report` |
 | Page status | 110 `review`, 8 `draft`, 0 `locked` | front matter |
-| Lettering elements | 504 auto-placeable, 70 manual across 67 panels | `letterpress.py audit` |
+| Lettering elements | 574 placed, 0 unplaced or truncated in the reader layout | `letterpress.py audit` |
 | Tracked assets still needed | 11 of 20 | `data/assets.yaml` |
 | Validators | all green | continuity, pagination, panels, crossref, viewer, foundations |
 
-**The one-sentence status.** The script is finished and mechanically consistent; the
-novella is drafted end to end; the art is 7% drawn and nothing is chosen; and no
-distribution artifact — EPUB, cover, audio, or ISBN — exists yet in any form.
+**Current status.** Both reading editions are complete in coverage. Every graphic-novel slot has a storyboard; 43 have richer candidates, and none is explicitly chosen. The novella and appendix ship as EPUB, HTML, Markdown, and text downloads. Final artwork, trim-size composition, cover, and audio remain production work.
 
 ---
 
@@ -29,25 +28,21 @@ distribution artifact — EPUB, cover, audio, or ISBN — exists yet in any form
 Nothing below is optional for any of the six. Doing it once, in the repository,
 is what keeps six targets from becoming six divergent books.
 
-### A1. Close the open editorial work
+### A1. Verify the remaining visual production gates
 
 - **Fog-map adoption pass** (`research/revision-priorities.md` item 8). Steps 1–3 are
   done; step 4 (web presentation, proposed as a `map=` fragment setting) and step 5
   (generate strips through the site builder, relabel the samples, rerun gallery,
-  viewer and continuity checks) are **not started**. Seventeen appearances across the
-  book. This changes pages, so it must land before lettering and layout.
-- **Recurring critic expansion** (item 13). The September row and the ending row are
-  still open. Planned to fit inside existing creator pages; may add one or two.
-- **Craft passes** items 9, 10, 12, 15–22 — closing cadence, the one two-page spread
-  test, title callback. Each may move a page.
+  viewer and continuity checks) are **not started**. Use the appearance list in `design/knowledge-map.md` for the current scope. This changes pages, so it must land before lettering and layout.
+- **Recurring critic text is present:** the dated addition and ending carry the criticism and composite replies. The 5 September read-through decisions are recorded as applied; this pass corrected the remaining prose/source-boundary drift.
+- **Visual craft review:** verify spread composition, title callback, and page-turn treatment at trim size. These are layout checks on existing text; the applied read-through edits are not an outstanding request to rewrite those passages.
 - **Advance the 8 draft pages** — 086, 087, 106–111 — from `draft` to `review` via the
   beat and thumbnail test they are waiting on.
-- **Clear the two crossref warnings**: pages [116](pages/116.md) and [117](pages/117.md) use provenance status
-  `inferred` that their front matter does not declare.
+- **Provenance audit completed 7 September:** all panel statuses and source keys agree with page metadata. Strict checking now runs in CI; the previously undeclared statuses are resolved.
 
 **Why first:** every one of these can insert, delete, or move a page. `pagination.py`
 makes that a safe rewrite *of the script*, but it cannot un-generate art, un-letter a
-page, or un-typeset an EPUB. Freeze the page count before spending money or GPU hours.
+page, or un-typeset an EPUB. Review the intended batch’s text and structure before spending GPU hours; page identity remains tool-managed if later editing requires a change.
 
 ### A2. Decide the trim size
 
@@ -60,9 +55,7 @@ available in this project.
 
 ### A3. Draw the artwork
 
-547 panels remain. At the measured 78 seconds per image with `--bleed 0.10`, one pass
-over the whole book is roughly 12 hours of wall clock; a realistic three-take average
-is nearer 38 hours. The run is interruptible and resumable by design.
+547 slots have no refined/final candidate; all already have SVG storyboards. Choose which need raster artwork before estimating a run. Diagrams and interfaces may remain controlled graphics. Measure runtime and acceptance rate on a representative pilot before extrapolating. The run is interruptible and resumable by design.
 
 ```sh
 python3 scripts/produce.py plan
@@ -82,9 +75,7 @@ produce may appear in a book sold on Amazon.
 
 ### A4. Choose the art
 
-`panelart.py status` reports 0 decided and 23 panels with more than one version. The
-viewer shows the newest candidate so the book reads today, but "newest" is not a
-decision and must not become one by default before a paid edition ships.
+`panelart.py status` reports 0 decided and 572 slots with more than one version. An explicit choice wins; otherwise the most mature non-rejected candidate wins, with the newest version breaking ties at the same stage. Automatic selection is provisional.
 
 ```sh
 python3 scripts/panelart.py choose 001-01 v02
@@ -98,10 +89,7 @@ make 590 independently generated panels look like one book.
 
 ### A6. Letter the book
 
-`letterpress.py` places 504 of 574 elements from convention. The residue is 70
-dialogue balloons across 67 panels that need a speaker position no convention can
-derive. That is a genuine manual pass, and it is the first task in this project that
-cannot be scripted.
+The reader now places all 574 fields using the slot convention and explicit storyboard boxes. `letterpress.py audit` checks that effective layout and finds no unplaced or truncated fields. Finished balloon treatment and trim-size proofs still need visual review.
 
 ### A7. Build the page compositor
 
@@ -164,7 +152,7 @@ What shipped:
 
 - A contents page, eight chapter routes, and a page anchor for all 118 story pages.
   The reading unit is the chapter; the addressable unit is the page, so
-  `/novella/03-control-keeps-solving-problems/#p045` is a bookmark to page 45 and the
+  `/novella/03-control-keeps-solving-problems/#p045` is a bookmark to [page 045](pages/045.md) and the
   page numbers the prose cites resolve to somewhere a reader can go.
 - A lean prose surface — `site/novella/reader.css`, `site/novella/reader.js` — sharing
   the palette, dark/light, full screen, and fragment-carried settings with the comic
@@ -195,13 +183,11 @@ the target that ships first, and by months.**
 
 ### Target 2 — Graphic novel on the website
 
-**State: reads end to end today, entirely on placeholders.** 1,433 viewer routes and
-862 image references validate; every address resolves to a generated placeholder
-carrying the real script text.
+**State: reads end to end with SVG storyboards and existing richer candidates.** All reader slots resolve, and the controlled lettering carries the canonical text. Derive current route and image-reference counts with `validate-viewer.py`.
 
 1. A3 art → A4 decisions → A6 lettering, panel by panel. The viewer needs no
    structural change: "Replacing a placeholder with final art is a matter of pointing
-   the image record at `assets/art/panels/NNN-II.*`; the route, alt text, and
+   the selected version in `assets/art/panels/NNN-II/`; the route, alt text, and
    cross-reference link do not move."
 2. Fog-map presentation (A1, step 4) — the `map=` fragment setting.
 3. Accessibility: confirm alt text survives the placeholder→art swap. The validator

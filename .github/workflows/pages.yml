@@ -33,10 +33,10 @@ jobs:
         run: python scripts/validate-production-foundations.py
 
       - name: Check page, source, and provenance cross references
-        run: python scripts/crossref.py check
+        run: python scripts/crossref.py check --strict
 
       - name: Check the novella against the page scripts
-        run: python scripts/novella.py check
+        run: python scripts/novella.py check --strict
 
       - name: Check the appendix of contested assertions, fallacies, and professional objections
         run: python scripts/appendix.py check
@@ -63,19 +63,30 @@ jobs:
         run: python -m unittest discover -s scripts -p test_knowledge_map_finish.py
 
       - name: Check deterministic storyboard assets
-        run: python scripts/storyboards.py check
+        run: python scripts/storyboards.py check --complete
+
+      - name: Check effective reader lettering
+        run: python scripts/letterpress.py audit
+
+      - name: Check page and panel structure
+        run: |
+          python scripts/pagination.py check
+          python scripts/panels.py check
 
       - name: Build site
         run: python scripts/build-site.py
 
       - name: Validate built storyboard workshop
-        run: python scripts/storyboards.py check --built
+        run: python scripts/storyboards.py check --complete --built
 
       - name: Validate viewer routes
         run: python scripts/validate-viewer.py
 
       - name: Validate novella reader, page anchors, and downloads
         run: python scripts/validate-novella.py
+
+      - name: Validate all local site and EPUB link destinations
+        run: python scripts/validate-site-links.py
 
       - name: Validate knowledge-map gallery
         run: python scripts/validate-knowledge-map-gallery.py

@@ -10,7 +10,7 @@ speaker: Curt, creator-character
 
 ## Where it appears
 
-[Page 038](../../novella/02-erasure-and-return/038.md), panel 5: *The wipe makes the argument stronger. The shared tool had to be
+[Page 038](../../novella/02-erasure-and-return/038.md) panel 5: *The wipe makes the argument stronger. The shared tool had to be
 discovered again.* The page's own provenance line concedes half of it — the event supports
 this reading, but the causal weight is project interpretation.
 

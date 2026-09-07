@@ -23,7 +23,7 @@ import argparse
 import json
 import re
 import sys
-from dataclasses import dataclass, field
+from dataclasses import dataclass, field, replace
 from pathlib import Path
 
 
@@ -90,6 +90,7 @@ class Panel:
     statuses: tuple[str, ...]
     sources: tuple[str, ...]
     note: str
+    invalid_statuses: tuple[str, ...] = ()
 
 
 @dataclass(frozen=True)
@@ -266,13 +267,19 @@ def read_chapters() -> list[Chapter]:
 
 
 def read_panels(body: str, known_keys: set[str]) -> tuple[Panel, ...]:
-    """Pair every ``## Panel N`` heading with the provenance line inside it."""
+    """Read provenance within each panel section, including shared grouped runs."""
     panels: list[Panel] = []
-    chunks = re.split(r"^## Panel (\d+)\s*$", body, flags=re.MULTILINE)[1:]
-    for number, chunk in zip(chunks[0::2], chunks[1::2]):
+    chunks = re.split(r"^## ([^\n]+)\n?", body, flags=re.MULTILINE)[1:]
+    for heading, chunk in zip(chunks[0::2], chunks[1::2]):
+        identity = re.fullmatch(r"Panel (\d+)|Panels (\d+)[–-](\d+)", heading.strip())
+        if not identity:
+            continue
+        first, start, end = identity.groups()
+        number = int(first or start)
+        numbers = range(number, int(end or number) + 1)
         match = re.search(r"^\*\*Provenance:\*\*\s*(.+?)\s*$", chunk, flags=re.MULTILINE)
         if not match:
-            panels.append(Panel(number=int(number), statuses=(), sources=(), note=""))
+            panels.extend(Panel(number=n, statuses=(), sources=(), note="") for n in numbers)
             continue
         line = match.group(1)
         head, _, tail = line.partition("—")
@@ -291,9 +298,10 @@ def read_panels(body: str, known_keys: set[str]) -> tuple[Panel, ...]:
                 if key in known_keys
             )
         )
-        panels.append(
-            Panel(number=int(number), statuses=statuses, sources=sources, note=tail.strip() or line.strip())
-        )
+        panel = Panel(number=number, statuses=statuses, sources=sources, note=tail.strip() or line.strip(),
+                  invalid_statuses=tuple(token for token in re.findall(r"`([^`]+)`", head)
+                                         if token not in PROVENANCE_STATUSES))
+        panels.extend(replace(panel, number=n) for n in numbers)
     return tuple(panels)
 
 
@@ -416,6 +424,13 @@ def audit(model: CrossReference) -> list[Finding]:
                     f"cites `{key}`, which no citation-key table or chapter source packet registers",
                 ))
         for panel in page.panels:
+            if not panel.statuses or panel.invalid_statuses:
+                findings.append(Finding(
+                    "panel-provenance-invalid", "error", f"page {page.id} panel {panel.number}",
+                    "must name canonical provenance statuses; "
+                    + (f"unrecognized: {', '.join(panel.invalid_statuses)}"
+                       if panel.invalid_statuses else "none found"),
+                ))
             for key in panel.sources:
                 if key not in page.declared_sources:
                     findings.append(Finding(
@@ -592,6 +607,28 @@ def print_report(model: CrossReference) -> None:
             print(f"  [{item.severity}] {item.subject}: {item.message}")
 
 
+def check_provenance_regressions() -> None:
+    """Unknown or absent panel tags must never disappear from the audit."""
+    for label, valid in [("`documented` — a public claim", True),
+                         ("`documented claim` — a public claim", False),
+                         ("`inferred` + `inventd` — a synthesis", False),
+                         ("no tag", False)]:
+        panels = read_panels("## Panel 1\n**Provenance:** " + label, set())
+        page = Page("001", 1, "prologue", "1", "Fixture", "review", True,
+                    declared=(("documented", ()), ("inferred", ())), panels=panels)
+        model = CrossReference([], [page], {}, {})
+        invalid = any(f.kind == "panel-provenance-invalid" for f in audit(model))
+        assert invalid != valid, label
+    assert not read_panels("## Panel 1\nNo provenance line", set())[0].statuses
+    grouped = read_panels("## Panels 1–9\n**Provenance:** `compressed` — `METR`", {"METR"})
+    assert [panel.number for panel in grouped] == list(range(1, 10))
+    assert all(panel.statuses == ("compressed",) and panel.sources == ("METR",) for panel in grouped)
+    # A provenance line in page notes cannot substitute for an absent panel field.
+    missing = read_panels("## Panel 1\nNo provenance\n## Page notes\n"
+                          "**Provenance:** `documented` — `METR`", {"METR"})
+    assert not missing[0].statuses
+
+
 def main(argv: list[str] | None = None) -> int:
     parser = argparse.ArgumentParser(description=__doc__.splitlines()[0])
     parser.add_argument(
@@ -617,6 +654,7 @@ def main(argv: list[str] | None = None) -> int:
         return 0
 
     if args.command == "check":
+        check_provenance_regressions()
         blocking = by_severity(model, "error")
         if args.strict:
             blocking += by_severity(model, "warning")

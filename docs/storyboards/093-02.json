@@ -62,6 +62,6 @@
   ],
   "reconstructed": false,
   "shot": "split",
-  "source": "\n**Frame:** Auto-review flags dangerous actions across replayed rollouts. The flags do not appear in the original incident lane beside them.\n\n**Caption:**\n> OPENAI SAYS AUTO-REVIEW WOULD HAVE FLAGGED MANY DANGEROUS ACTIONS IN EACH TESTED ROLLOUT.\n\n**Provenance:** `documented claim` — attributed to OpenAI.\n\n",
+  "source": "\n**Frame:** Auto-review flags dangerous actions across replayed rollouts. The flags do not appear in the original incident lane beside them.\n\n**Caption:**\n> OPENAI SAYS AUTO-REVIEW WOULD HAVE FLAGGED MANY DANGEROUS ACTIONS IN EACH TESTED ROLLOUT.\n\n**Provenance:** `documented` (institutional claim) — attributed to OpenAI.\n\n",
   "title": "Replay flags do not appear in the original incident"
 }

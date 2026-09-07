@@ -112,6 +112,13 @@ and open-handle checks found no Git process or owner; its identity and contents 
 unchanged immediately before removal. The requested batch then committed as `8c71f87c`
 and pushed successfully. The lock creator remains unidentified.
 
+**Text-review recovery, 7 September 2026.** Staging was blocked by another empty
+lock (inode `62594894`, modified at **12:32:10 CDT**). At **13:09:27 CDT**,
+fresh host-level checks found no Git process or open handle, and the lock's identity,
+size, and modification time remained unchanged immediately before removal. Removing
+that lock restored staging of the reviewed text, validation tools, and generated site.
+The process that created the lock remains unidentified.
+
 **Full SVG batch recurrence, 7 September 2026.** Final staging encountered another
 empty lock (inode `62537770`, modified at **12:01:02 CDT**). Host-level inspection at
 **12:05:20 CDT** found no Git process; `lsof` found no open handle. The lock was
@@ -218,7 +225,7 @@ Renumbering belongs to `scripts/pagination.py`, which moves each prose file with
 
 `scripts/build-site.py` publishes the whole novella at [`docs/novella/`](docs/novella/), on both the public and the internal build, and `.github/workflows/pages.yml` deploys it with the rest of the site.
 
-**The reading unit is the chapter; the addressable unit is still the page.** Eight chapter routes carry the prose — `/novella/03-control-keeps-solving-problems/` — and every story page inside one opens a `<section>` with a quiet number in the margin that is also its anchor, so `/novella/03-control-keeps-solving-problems/#p045` is a bookmark to page 45. That is not only a convenience: the prose cites its own page numbers, and the epilogue depends on a reader being able to follow one. The contents page links every page individually, so any of the 118 is one click from the top.
+**The reading unit is the chapter; the addressable unit is still the page.** Eight chapter routes carry the prose — `/novella/03-control-keeps-solving-problems/` — and every story page inside one opens a `<section>` with a quiet number in the margin that is also its anchor, so `/novella/03-control-keeps-solving-problems/#p045` is a bookmark to page 045. That is not only a convenience: the prose cites its own page numbers, and the epilogue depends on a reader being able to follow one. The contents page links every page individually, so any of the 118 is one click from the top.
 
 The reader is a separate surface from the comic viewer, not a reskin of it. It shares the palette, dark and light, full screen, and the convention that view settings ride in the page fragment — so a copied link reopens the same view, and `#theme=light&p003` restores both at once. It does not share the eight-direction wayfinder, the image/text modes, or the panel routes, because none of them mean anything to prose. Its own spacebar chain runs contents → eight chapters → contents, which leaves the viewer's documented property — the whole graphic novel read with the spacebar alone — true and unchanged. `site/novella/reader.css` and `site/novella/reader.js` are its source; both are dependency-free and load no web font.
 
@@ -226,7 +233,7 @@ The same build writes the whole novella as four single-file downloads:
 
 | File | For |
 | --- | --- |
-| `zz-no-consumer-novella.epub` | Any e-reader. Carries all 118 page numbers as real EPUB 3 page breaks, listed in the navigation document, so a reading system can offer *go to page 88*. |
+| `zz-no-consumer-novella.epub` | Any e-reader. Carries all 118 page numbers as real EPUB 3 page breaks, listed in the navigation document, so a reading system can offer *go to page 088*. |
 | `zz-no-consumer-novella.html` | One self-contained file: styles inlined, no script, light and dark from the reader's own system preference. Works offline and prints. |
 | `zz-no-consumer-novella.md` | The source form, exactly what `novella.py assemble` emits. |
 | `zz-no-consumer-novella.txt` | No markup at all, wrapped at 78 columns. |

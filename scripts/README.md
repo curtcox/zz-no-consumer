@@ -53,7 +53,7 @@ establish current status.
 | --- | --- |
 | `validate-continuity.py` | the story contract, chapter map, and drafted page metadata agree |
 | `validate-production-foundations.py` | palette, visual-continuity, prompt, and asset foundations exist and agree |
-| `crossref.py check` | citation keys resolve, sequences are in range; `--strict` also fails on panel/front-matter provenance drift |
+| `crossref.py check --strict` | citation keys resolve, sequences are in range; CI also fails on panel/front-matter provenance drift |
 | `novella.py check` | one prose file per scripted page, front matter matching the script, prose that is not a stub |
 | `appendix.py check` | two-stance minimum, fixed fallacy vocabulary, conjecture declarations, live page references |
 | `pagelinks.py check` | every story-page reference in `content/` is a link, pointing at the page it names |
@@ -64,6 +64,7 @@ establish current status.
 | `storyboards.py check` | scene geometry, source drift, lettering clearance, deterministic assets, stage selection, and production skip behavior; `--complete` requires every reader slot |
 | `validate-viewer.py` | every generated viewer route, control, and view setting resolves |
 | `validate-novella.py` | one anchor per page in one chapter, linked from contents; the four downloads are complete |
+| `validate-site-links.py` | every local HTML and EPUB link target and fragment exists; Markdown downloads have explicit fragment anchors; anchors are unique; includes offline regression fixtures. Run after building; `--out PATH` selects another build tree. External URLs are not fetched. |
 | `validate-knowledge-map-gallery.py` | the published gallery, without rebuilding any assets |
 | `pagelinks.py check --built` | every page reference in `docs/` — HTML, Markdown, and the EPUB — is a link a reader can follow |
 
@@ -71,8 +72,7 @@ CI also runs `python3 -m unittest discover -s scripts -p 'test_knowledge_map_*.p
 covers `test_knowledge_map_local.py` and `test_knowledge_map_finish.py` — the offline
 generation boundaries, so a CI run can never reach for an image model.
 
-**`pagination.py check` and `panels.py check` are not in CI.** Run them by hand whenever you
-touch pages or panels.
+**`pagination.py check`, `panels.py check`, and `letterpress.py audit` run in CI.** The lettering audit checks the effective reader layout, including storyboard boxes, and fails on unplaced or truncated text. Run the structural checks directly whenever you touch pages or panels.
 
 ## Publishing
 

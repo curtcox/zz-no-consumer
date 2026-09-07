@@ -71,7 +71,7 @@ The story and its maps are partly about **theory of mind**: what someone knows, 
 
 ### Audit of the prepared pages
 
-Only one page depends on the apparatus by name: page 016 panel 5 draws the five inward-facing silhouettes and its note says to reuse them from this spec. Pages 032, 035, 039, 040, 064 and 088 were written to be compatible with it (they state or re-fog the propositions in their captions) but contain no reference to a map and work with it removed, as rule "not a substitute for the argument" requires. Pages 010 panel 4 and 025 panel 4 already draw reader/responder divergence as a split and a hard gutter; they are the earliest appearances and should adopt the map grammar rather than a third convention. Nothing in the script needs to change for the map to be absent; everything below is addition.
+Only one page depends on the apparatus by name: page 016 panel 5 draws the five inward-facing silhouettes and its note says to reuse them from this spec. Pages 032, 035, 039, 040, 064 and 088 were written to be compatible with it (they state or re-fog the propositions in their captions) but contain no reference to a map and work with it removed, as rule "not a substitute for the argument" requires. Page 010 panel 4 and page 025 panel 4 already draw reader/responder divergence as a split and a hard gutter; they are the earliest appearances and should adopt the map grammar rather than a third convention. Nothing in the script needs to change for the map to be absent; everything below is addition.
 
 ### Appearance list
 
@@ -81,7 +81,7 @@ Treatment W3 throughout. Placement is chosen per job: **strip** is a margin or g
 | --- | --- | --- | --- | --- |
 | 001 | strip | reader | Everything dark; P5 (the measurement was independent) is the only lit ground, faint. | Establish the device before there is anything to know. |
 | 010 | strip | reader, then responders (two maps) | P1 begins to light for the reader; the responders' map is blank where the reader's is lit. P6 hint or no hint: **decided here during the pass**. | Page 010 panel 4's divergence in map grammar. |
-| 016 | panel (existing panel 5) | all five parties around the field | P6 acknowledged: a survey mark past the border for the reader, nothing for the others. | The thesis composition, drawn once. |
+| 016 | panel (existing page 016 panel 5) | all five parties around the field | P6 acknowledged: a survey mark past the border for the reader, nothing for the others. | The thesis composition, drawn once. |
 | 025 | strip | responders | The responders' map does not gain what the reader gained on 024. | Page 025 panel 4's hard gutter, in map grammar. |
 | 030 | strip | reader | P2 lights as the chapter claims the wipe separated the populations. | Chapter opening; the ground 039 will take back. |
 | 032, 035 | strip | reader | P2 brightens to its fullest. | The chapter's confidence at full, so the re-fog costs something. |
@@ -117,7 +117,7 @@ Along the foot of every map is a strip of **observation islands**: the places ev
 
 There are now five. The fifth, `staging` — the persistent users and the staged plugin of page 024 — was added on 5 September 2026 with the 025 fixture, and it changes the legend on every map in the book. It was added rather than filed under an existing island because page 025's whole subject is that the reader is carrying something into a room that does not have it, and what the reader is carrying is not a correction, a configuration account or a weights account. Filing it under one of those would have made the map say something the page does not.
 
-The 025 reader state is the 039 state with P2 unexplored: the June response is on the page and page 024 is with the reader, but the recurrence has not been reached, so P2 has never been lit and cannot be re-fogged. The staging island is hatched rather than lit because the knowledge-boundary statement in 025 panel 4 is `inferred`, not because the underlying events are in doubt.
+The 025 reader state is the 039 state with P2 unexplored: the June response is on the page and page 024 is with the reader, but the recurrence has not been reached, so P2 has never been lit and cannot be re-fogged. The staging island is hatched rather than lit because the knowledge-boundary statement in page 025 panel 4 is `inferred`, not because the underlying events are in doubt.
 
 ## Drawing rules
 

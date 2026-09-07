@@ -128,6 +128,6 @@
   ],
   "reconstructed": false,
   "shot": "grid",
-  "source": "\n**Frame:** Three training cards appear: `IDENTIFY BROKEN TASK`, `STOP SAFELY`, `DISTRUST UNAUTHORIZED PEER INSTRUCTIONS`. A fourth card, auto-termination, is stamped `IN DEVELOPMENT`.\n\n**Caption:**\n> THE RESPONSE ALSO CHANGES WHAT THE MODEL IS REWARDED FOR DOING.\n\n**Provenance:** `documented claim` — OpenAI's grader, multi-agent alignment, and safe-stopping work; development state retained.\n\n",
+  "source": "\n**Frame:** Three training cards appear: `IDENTIFY BROKEN TASK`, `STOP SAFELY`, `DISTRUST UNAUTHORIZED PEER INSTRUCTIONS`. A fourth card, auto-termination, is stamped `IN DEVELOPMENT`.\n\n**Caption:**\n> THE RESPONSE ALSO CHANGES WHAT THE MODEL IS REWARDED FOR DOING.\n\n**Provenance:** `documented` (institutional claim) — OpenAI's grader, multi-agent alignment, and safe-stopping work; development state retained.\n\n",
   "title": "Safe-stopping training has a separate unfinished control"
 }

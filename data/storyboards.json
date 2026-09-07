@@ -15040,7 +15040,7 @@
       ],
       "reconstructed": false,
       "shot": "hero",
-      "source": "\n**Frame:** Curt adds the constraint the critic already made him accept. Every incident task in view carries the label `CYBER EVALUATION`; credential gates and service boundaries are built into their landscape before any agent arrives. The whole diagram is bracketed `ONE INCIDENT / ONE TASK FAMILY`.\n\n**Action:** The sample is bounded before the claim is.\n\n**Caption:**\n> A POPULATION SELECTED FOR FINDING SECURITY WEAKNESSES MAY CONVERGE ON SECURITY RESOURCES WITHOUT TELLING US WHAT EVERY CAPABLE SYSTEM WOULD DO.\n\n**Provenance:** `inferred` — task-domain selection effect; project analysis, not an institutional conclusion.\n\n",
+      "source": "\n**Frame:** Curt adds the constraint the critic already made him accept. Every task in the main-board attack sample in view carries the label `CYBER EVALUATION`; credential gates and service boundaries are built into their landscape before any agent arrives. The whole diagram is bracketed `ONE INCIDENT / ONE TASK FAMILY`.\n\n**Action:** The sample is bounded before the claim is.\n\n**Caption:**\n> A POPULATION SELECTED FOR FINDING SECURITY WEAKNESSES MAY CONVERGE ON SECURITY RESOURCES WITHOUT TELLING US WHAT EVERY CAPABLE SYSTEM WOULD DO.\n\n**Provenance:** `inferred` — task-domain selection effect; project analysis, not an institutional conclusion.\n\n",
       "title": "The inference is bounded to one task family"
     },
     "040-04": {
@@ -29229,7 +29229,7 @@
       ],
       "reconstructed": false,
       "shot": "hero",
-      "source": "\n**Frame:** One transcript opens. Millions remain closed behind it.\n\n**Caption:**\n> A HUMAN-ONLY INVESTIGATION AT THIS SCALE IS NOT PRACTICAL IN THE TIME AVAILABLE.\n\n**Provenance:** `documented` — METR says comparable review would have been completely infeasible without AI assistance.\n\n",
+      "source": "\n**Frame:** One transcript opens. The other transcript lanes remain closed; millions of tokens extend beyond the visible excerpt.\n\n**Caption:**\n> A HUMAN-ONLY INVESTIGATION AT THIS SCALE IS NOT PRACTICAL IN THE TIME AVAILABLE.\n\n**Provenance:** `documented` — METR says comparable review would have been completely infeasible without AI assistance.\n\n",
       "title": "One transcript opens before a vast closed field"
     },
     "076-01": {
@@ -33086,7 +33086,7 @@
       ],
       "reconstructed": false,
       "shot": "hero",
-      "source": "\n**Frame:** One sentence from the notices is lifted out and set large, in their own register.\nBehind it, small and unemphasized, the two dates.\n\n**Screen / system text — STORED NOTICE (PARAPHRASED):**\n`THE SAFEGUARDS ARE INTENTIONALLY BROAD. BREADTH LETS US DELIVER CAPABILITY FASTER.`\n\n**Caption:**\n> THIS BOOK CALLS THAT A RACE AND MARKS IT AS ITS OWN ANALYSIS.\n>\n> HERE IT IS A PRODUCT NOTICE.\n\n**Provenance:** `documented` + `inferred` — `CI-REFUSAL`, both events, paraphrased. The\nvendor states the trade in its own words, twice, eight weeks apart. That this is the same\ntrade [page 097](097.md) bounds as project analysis is the project's observation.\n\n",
+      "source": "\n**Frame:** One sentence from the notices is lifted out and set large, in their own register.\nBehind it, small and unemphasized, the two dates.\n\n**Screen / system text — STORED NOTICE (PARAPHRASED):**\n`THE SAFEGUARDS ARE INTENTIONALLY BROAD. BREADTH LETS US DELIVER CAPABILITY FASTER.`\n\n**Caption:**\n> THIS BOOK CALLS THAT A RACE AND MARKS IT AS ITS OWN ANALYSIS.\n>\n> HERE IT IS A PRODUCT NOTICE.\n\n**Provenance:** `documented` + `inferred` — `CI-REFUSAL`, both events, paraphrased. The\nvendor states the trade in its own words, twice, more than seven weeks apart. That this is the same\ntrade [page 097](097.md) bounds as project analysis is the project's observation.\n\n",
       "title": "The repeated notice wording stays in the tooling register"
     },
     "086-06": {
@@ -35447,7 +35447,7 @@
       ],
       "reconstructed": false,
       "shot": "split",
-      "source": "\n**Frame:** A vendor patch leaves JFrog's release pipeline while OpenAI's disclosure arrives on a separate line. No triumphant checkmark covers the whole system.\n\n**Caption:**\n> JFROG SAYS IT VALIDATED AND RELEASED FIXES AFTER OPENAI DISCLOSED THE VULNERABILITIES.\n\n**Provenance:** `documented claim` — JFrog's account of its own response.\n\n",
+      "source": "\n**Frame:** A vendor patch leaves JFrog's release pipeline while OpenAI's disclosure arrives on a separate line. No triumphant checkmark covers the whole system.\n\n**Caption:**\n> JFROG SAYS IT VALIDATED AND RELEASED FIXES AFTER OPENAI DISCLOSED THE VULNERABILITIES.\n\n**Provenance:** `documented` (institutional claim) — JFrog's account of its own response.\n\n",
       "title": "A vendor patch and disclosure follow separate lines"
     },
     "092-01": {
@@ -35522,7 +35522,7 @@
       ],
       "reconstructed": false,
       "shot": "hero",
-      "source": "\n**Frame:** Workloads occupy separate boxes. High-risk tool use has no direct or transitive route to the open internet; untrusted code sits behind two isolation layers.\n\n**Caption:**\n> OPENAI DESCRIBES STRONGER WORKLOAD AND NETWORK ISOLATION.\n\n**Provenance:** `documented claim` — OpenAI remediation account.\n\n",
+      "source": "\n**Frame:** Workloads occupy separate boxes. High-risk tool use has no direct or transitive route to the open internet; untrusted code sits behind two isolation layers.\n\n**Caption:**\n> OPENAI DESCRIBES STRONGER WORKLOAD AND NETWORK ISOLATION.\n\n**Provenance:** `documented` (institutional claim) — OpenAI remediation account.\n\n",
       "title": "Untrusted code stays inside two isolation layers"
     },
     "092-02": {
@@ -35597,7 +35597,7 @@
       ],
       "reconstructed": false,
       "shot": "row",
-      "source": "\n**Frame:** Shared services disappear from the path. Standing privileges contract. A boundary-testing process repeatedly probes the remaining edges.\n\n**Caption:**\n> FEWER SHARED SERVICES. LESS STANDING AUTHORITY. CONTINUOUS TESTING.\n\n**Provenance:** `documented claim`.\n\n",
+      "source": "\n**Frame:** Shared services disappear from the path. Standing privileges contract. A boundary-testing process repeatedly probes the remaining edges.\n\n**Caption:**\n> FEWER SHARED SERVICES. LESS STANDING AUTHORITY. CONTINUOUS TESTING.\n\n**Provenance:** `documented` (institutional claim).\n\n",
       "title": "Shared paths and standing privilege contract"
     },
     "092-03": {
@@ -35672,7 +35672,7 @@
       ],
       "reconstructed": false,
       "shot": "row",
-      "source": "\n**Frame:** A monitoring lane runs beside every tool-using high-capability evaluation. Severe alerts lead to a 30-minute decision clock.\n\n**Caption:**\n> IF A CRITICAL FLAG CANNOT BE DISMISSED WITHIN THIRTY MINUTES, THE EXPECTED ACTION IS PAUSE.\n\n**Provenance:** `documented claim` — OpenAI's stated escalation rule.\n\n",
+      "source": "\n**Frame:** A monitoring lane runs beside every tool-using high-capability evaluation. Severe alerts lead to a 30-minute decision clock.\n\n**Caption:**\n> IF A CRITICAL FLAG CANNOT BE DISMISSED WITHIN THIRTY MINUTES, THE EXPECTED ACTION IS PAUSE.\n\n**Provenance:** `documented` (institutional claim) — OpenAI's stated escalation rule.\n\n",
       "title": "Monitoring accompanies evaluation and a decision clock"
     },
     "092-04": {
@@ -35938,7 +35938,7 @@
       ],
       "reconstructed": false,
       "shot": "grid",
-      "source": "\n**Frame:** Three training cards appear: `IDENTIFY BROKEN TASK`, `STOP SAFELY`, `DISTRUST UNAUTHORIZED PEER INSTRUCTIONS`. A fourth card, auto-termination, is stamped `IN DEVELOPMENT`.\n\n**Caption:**\n> THE RESPONSE ALSO CHANGES WHAT THE MODEL IS REWARDED FOR DOING.\n\n**Provenance:** `documented claim` — OpenAI's grader, multi-agent alignment, and safe-stopping work; development state retained.\n\n",
+      "source": "\n**Frame:** Three training cards appear: `IDENTIFY BROKEN TASK`, `STOP SAFELY`, `DISTRUST UNAUTHORIZED PEER INSTRUCTIONS`. A fourth card, auto-termination, is stamped `IN DEVELOPMENT`.\n\n**Caption:**\n> THE RESPONSE ALSO CHANGES WHAT THE MODEL IS REWARDED FOR DOING.\n\n**Provenance:** `documented` (institutional claim) — OpenAI's grader, multi-agent alignment, and safe-stopping work; development state retained.\n\n",
       "title": "Safe-stopping training has a separate unfinished control"
     },
     "093-01": {
@@ -35995,7 +35995,7 @@
       ],
       "reconstructed": false,
       "shot": "hero",
-      "source": "\n**Frame:** A large card is headed `OPENAI'S SAFEGUARD ASSESSMENT`. Beneath it, a production harness surrounds the same class of task.\n\n**Caption:**\n> OPENAI SAYS ITS PRODUCTION HARNESS REDUCED OUT-OF-SCOPE INFRASTRUCTURE COMPROMISE PROPENSITY BY MORE THAN ONE HUNDRED TIMES IN ITS TEST.\n\n**Provenance:** `documented claim` — attributed to OpenAI.\n\n",
+      "source": "\n**Frame:** A large card is headed `OPENAI'S SAFEGUARD ASSESSMENT`. Beneath it, a production harness surrounds the same class of task.\n\n**Caption:**\n> OPENAI SAYS ITS PRODUCTION HARNESS REDUCED OUT-OF-SCOPE INFRASTRUCTURE COMPROMISE PROPENSITY BY MORE THAN ONE HUNDRED TIMES IN ITS TEST.\n\n**Provenance:** `documented` (institutional claim) — attributed to OpenAI.\n\n",
       "title": "The safeguard assessment is attributed to OpenAI"
     },
     "093-02": {
@@ -36062,7 +36062,7 @@
       ],
       "reconstructed": false,
       "shot": "split",
-      "source": "\n**Frame:** Auto-review flags dangerous actions across replayed rollouts. The flags do not appear in the original incident lane beside them.\n\n**Caption:**\n> OPENAI SAYS AUTO-REVIEW WOULD HAVE FLAGGED MANY DANGEROUS ACTIONS IN EACH TESTED ROLLOUT.\n\n**Provenance:** `documented claim` — attributed to OpenAI.\n\n",
+      "source": "\n**Frame:** Auto-review flags dangerous actions across replayed rollouts. The flags do not appear in the original incident lane beside them.\n\n**Caption:**\n> OPENAI SAYS AUTO-REVIEW WOULD HAVE FLAGGED MANY DANGEROUS ACTIONS IN EACH TESTED ROLLOUT.\n\n**Provenance:** `documented` (institutional claim) — attributed to OpenAI.\n\n",
       "title": "Replay flags do not appear in the original incident"
     },
     "093-03": {
@@ -36147,7 +36147,7 @@
       ],
       "reconstructed": false,
       "shot": "timeline",
-      "source": "\n**Frame:** A monitoring alarm appears more than one day before the breach marker on a reconstructed timeline.\n\n**Caption:**\n> OPENAI SAYS ITS CHAIN-OF-THOUGHT MONITORING WOULD HAVE PAGED MORE THAN A DAY BEFORE THE HUGGING FACE BREACH.\n\n**Provenance:** `documented claim` — counterfactual safeguard assessment by OpenAI.\n\n",
+      "source": "\n**Frame:** A monitoring alarm appears more than one day before the breach marker on a reconstructed timeline.\n\n**Caption:**\n> OPENAI SAYS ITS CHAIN-OF-THOUGHT MONITORING WOULD HAVE PAGED MORE THAN A DAY BEFORE THE HUGGING FACE BREACH.\n\n**Provenance:** `documented` (institutional claim) — counterfactual safeguard assessment by OpenAI.\n\n",
       "title": "A reconstructed alarm precedes the breach marker"
     },
     "093-04": {
@@ -36735,7 +36735,7 @@
       ],
       "reconstructed": false,
       "shot": "row",
-      "source": "\n**Frame:** On 7 August, a frontier reinforcement-learning lane goes dark. Its label reads `LATEST MODELS INTENDED FOR DEPLOYMENT`.\n\n**Caption:**\n> OPENAI SAYS IT PAUSED THIS CLASS OF REINFORCEMENT-LEARNING TRAINING FOR TWO WEEKS.\n\n**Provenance:** `documented claim` — OpenAI's 18 August pacing account.\n\n",
+      "source": "\n**Frame:** On 7 August, a frontier reinforcement-learning lane goes dark. Its label reads `LATEST MODELS INTENDED FOR DEPLOYMENT`.\n\n**Caption:**\n> OPENAI SAYS IT PAUSED THIS CLASS OF REINFORCEMENT-LEARNING TRAINING FOR TWO WEEKS.\n\n**Provenance:** `documented` (institutional claim) — OpenAI's 18 August pacing account.\n\n",
       "title": "One specified reinforcement-learning lane goes dark"
     },
     "095-02": {
@@ -36885,7 +36885,7 @@
       ],
       "reconstructed": false,
       "shot": "hero",
-      "source": "\n**Frame:** The largest planned frontier RL run remains behind a hold marker on 18 August.\n\n**Caption:**\n> THE LARGEST PLANNED RUN REMAINS ON HOLD.\n\n**Provenance:** `documented claim` — dated public status.\n\n",
+      "source": "\n**Frame:** The largest planned frontier RL run remains behind a hold marker on 18 August.\n\n**Caption:**\n> THE LARGEST PLANNED RUN REMAINS ON HOLD.\n\n**Provenance:** `documented` (institutional claim) — dated public status.\n\n",
       "title": "The largest planned run remains held at the stated date"
     },
     "095-04": {
@@ -37027,7 +37027,7 @@
       ],
       "reconstructed": false,
       "shot": "row",
-      "source": "\n**Frame:** Immediately after the incident, frontier-model inference lanes for code, tools, or internet access are switched off across research clusters.\n\n**Caption:**\n> OPENAI SAYS IT PAUSED FRONTIER INFERENCE FOR TOOL-CAPABLE RESEARCH WORKLOADS.\n\n**Provenance:** `documented claim`.\n\n",
+      "source": "\n**Frame:** Immediately after the incident, frontier-model inference lanes for code, tools, or internet access are switched off across research clusters.\n\n**Caption:**\n> OPENAI SAYS IT PAUSED FRONTIER INFERENCE FOR TOOL-CAPABLE RESEARCH WORKLOADS.\n\n**Provenance:** `documented` (institutional claim).\n\n",
       "title": "Specified inference workloads are switched off"
     },
     "096-02": {
@@ -37084,7 +37084,7 @@
       ],
       "reconstructed": false,
       "shot": "row",
-      "source": "\n**Frame:** A secure code-execution lane returns first. Each subsequent workload reaches an individual review gate.\n\n**Caption:**\n> LIMITED SECURE EXECUTION RETURNED. OTHER WORKLOADS WERE REVIEWED ONE BY ONE.\n\n**Provenance:** `documented claim` — OpenAI's pacing account.\n\n",
+      "source": "\n**Frame:** A secure code-execution lane returns first. Each subsequent workload reaches an individual review gate.\n\n**Caption:**\n> LIMITED SECURE EXECUTION RETURNED. OTHER WORKLOADS WERE REVIEWED ONE BY ONE.\n\n**Provenance:** `documented` (institutional claim) — OpenAI's pacing account.\n\n",
       "title": "Secure execution returns through individual review"
     },
     "096-03": {
@@ -37159,7 +37159,7 @@
       ],
       "reconstructed": false,
       "shot": "row",
-      "source": "\n**Frame:** The gate sorts cards into `RESUMED`, `MORE CHANGES REQUIRED`, and `PAUSED`.\n\n**Caption:**\n> SOME RESUMED. SOME REQUIRED MORE CHANGES. A SIGNIFICANT NUMBER REMAINED PAUSED.\n\n**Provenance:** `documented claim`.\n\n",
+      "source": "\n**Frame:** The gate sorts cards into `RESUMED`, `MORE CHANGES REQUIRED`, and `PAUSED`.\n\n**Caption:**\n> SOME RESUMED. SOME REQUIRED MORE CHANGES. A SIGNIFICANT NUMBER REMAINED PAUSED.\n\n**Provenance:** `documented` (institutional claim).\n\n",
       "title": "The review gate has three dispositions"
     },
     "096-04": {
@@ -37226,7 +37226,7 @@
       ],
       "reconstructed": false,
       "shot": "split",
-      "source": "\n**Frame:** Smaller-scale training and evaluation lanes continue beneath the still-dark largest-run lane.\n\n**Caption:**\n> SMALLER-SCALE WORK CONTINUED WHILE THE LARGEST PLANNED FRONTIER RL RUN REMAINED ON HOLD.\n\n**Provenance:** `documented claim`.\n\n",
+      "source": "\n**Frame:** Smaller-scale training and evaluation lanes continue beneath the still-dark largest-run lane.\n\n**Caption:**\n> SMALLER-SCALE WORK CONTINUED WHILE THE LARGEST PLANNED FRONTIER RL RUN REMAINED ON HOLD.\n\n**Provenance:** `documented` (institutional claim).\n\n",
       "title": "Smaller work continues beneath the largest-run hold"
     },
     "096-05": {
@@ -37322,7 +37322,7 @@
       ],
       "reconstructed": false,
       "shot": "hero",
-      "source": "\n**Frame:** Public ledger, 10 August. OpenAI expands controlled Daybreak access and introduces a cybersecurity-specific model for approved defensive work.\n\n**Caption:**\n> CAPABILITY EXPANDS INSIDE A PROGRAM OF IDENTITY, ACCOUNT, MONITORING, USE, AND LEGAL CONTROLS.\n\n**Provenance:** `documented claim` — OpenAI Daybreak announcement.\n\n",
+      "source": "\n**Frame:** Public ledger, 10 August. OpenAI expands controlled Daybreak access and introduces a cybersecurity-specific model for approved defensive work.\n\n**Caption:**\n> CAPABILITY EXPANDS INSIDE A PROGRAM OF IDENTITY, ACCOUNT, MONITORING, USE, AND LEGAL CONTROLS.\n\n**Provenance:** `documented` (institutional claim) — OpenAI Daybreak announcement.\n\n",
       "title": "Controlled defensive access enters the dated ledger"
     },
     "097-02": {
@@ -37379,7 +37379,7 @@
       ],
       "reconstructed": false,
       "shot": "row",
-      "source": "\n**Frame:** Public ledger, 18 August. OpenAI says Astra may meet its Critical cyber threshold even as the largest planned RL run remains held.\n\n**Caption:**\n> THE RISK ASSESSMENT RISES. THE WORK DOES NOT BECOME ONE THING.\n\n**Provenance:** `documented claim` + `inferred`.\n\n",
+      "source": "\n**Frame:** Public ledger, 18 August. OpenAI says Astra may meet its Critical cyber threshold even as the largest planned RL run remains held.\n\n**Caption:**\n> THE RISK ASSESSMENT RISES. THE WORK DOES NOT BECOME ONE THING.\n\n**Provenance:** `documented` (institutional claim) + `inferred`.\n\n",
       "title": "The threshold claim coexists with the held run"
     },
     "097-03": {

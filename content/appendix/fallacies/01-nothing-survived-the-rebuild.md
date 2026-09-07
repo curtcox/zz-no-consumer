@@ -10,7 +10,7 @@ speaker: ChatGPT, creator-character
 
 ## Where it appears
 
-[Page 039](../../novella/02-erasure-and-return/039.md), panel 4. Curt has typed nothing; the model answers first, in its usual clean block:
+[Page 039](../../novella/02-erasure-and-return/039.md) panel 4. Curt has typed nothing; the model answers first, in its usual clean block:
 *The wipe still separates them. Nothing survived the rebuild, so the second board had to be
 found again from scratch. That part of the argument holds.* Pages [032](../../novella/02-erasure-and-return/032.md) and [035](../../novella/02-erasure-and-return/035.md) are where the
 book had already built on the same step, in captions that read `NO MESSAGE CROSSES THE WIPE`

@@ -6,13 +6,10 @@ letter it correctly when it tries. The answer is not to fight the model for the
 last glyph but to keep every word the book actually says in a separate layer that
 the build owns: the art supplies a quiet field, this supplies the words.
 
-Placement is convention, not per-panel authorship. `data/lettering-slots.json`
-defines a small set of anchored slots as fractions of the panel, and a strict
-raster order for filling them, so 435 of the book's roughly 500 lettering
-elements — every caption and every interface block — are placed from the page
-script with nothing to author. The residue is dialogue: a balloon needs a speaker
-position, which no convention can derive, so those panels stay a manual pass and
-are reported rather than guessed at.
+Placement starts with the anchored slots in `data/lettering-slots.json` and
+uses explicit storyboard boxes wherever a scene supplies them. The audit reads
+the same layout as the viewer, including all-manual scenes, and fails on missing
+or truncated lettering. These are blocking positions, not finished balloons.
 
     python3 scripts/letterpress.py slots                 # render the slot map
     python3 scripts/letterpress.py panel --page 001 --image 1 --art PATH
@@ -384,15 +381,14 @@ def cmd_page(args: argparse.Namespace) -> int:
 
 
 def cmd_audit(args: argparse.Namespace) -> int:
-    """How much of the book's lettering the convention actually places."""
+    """Check the effective reader layout, including storyboard placements."""
     record = load_slots()
     placed_n = manual_n = truncated_n = 0
     by_role: dict[str, int] = {}
     needs_hand: list[str] = []
     for script in textimage.book_scripts():
-        fields = textimage.lettering_fields(script.id)
         for panel in script.panels:
-            placed, manual = layout_panel(fields.get(panel.index, []), record, *PANEL_SIZE)
+            placed, manual = panel_layout(script.id, panel.index, record)
             placed_n += len(placed)
             manual_n += len(manual)
             for item in placed:
@@ -404,13 +400,14 @@ def cmd_audit(args: argparse.Namespace) -> int:
     print(f"{'ROLE':<12} {'PLACED':>7}")
     for role, count in sorted(by_role.items(), key=lambda kv: -kv[1]):
         print(f"{role:<12} {count:>7}")
-    print(f"{'':<12} {'-'*7}\n{'automatic':<12} {placed_n:>7}  ({100*placed_n/total:.1f}% of {total})")
-    print(f"{'manual':<12} {manual_n:>7}  ({100*manual_n/total:.1f}%) across {len(needs_hand)} panels")
+    print(f"{'':<12} {'-'*7}\n{'placed':<12} {placed_n:>7}  ({100*placed_n/total:.1f}% of {total})")
+    print(f"{'unplaced':<12} {manual_n:>7}  ({100*manual_n/total:.1f}%) across {len(needs_hand)} panels")
     if truncated_n:
         print(f"\n{truncated_n} element(s) did not fit their slot at minimum type size.")
-    print(f"\nPanels needing a hand-placed balloon: {len(needs_hand)}")
-    print("  " + ", ".join(needs_hand[:12]) + (" …" if len(needs_hand) > 12 else ""))
-    return 1 if truncated_n else 0
+    print(f"\nPanels with unplaced lettering: {len(needs_hand)}")
+    if needs_hand:
+        print("  " + ", ".join(needs_hand[:12]) + (" …" if len(needs_hand) > 12 else ""))
+    return 1 if truncated_n or manual_n else 0
 
 
 def main() -> int:

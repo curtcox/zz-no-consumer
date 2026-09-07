@@ -239,6 +239,20 @@ def check(data):
         assert [tuple(p.lines) for p in reader] == [('First',), ('Second',)]
         assert reader[1].role == 'plain' and not reader[1].header
         assert 'Second' in letterpress.svg_panel(reader, record, W, H)
+        from contextlib import redirect_stdout
+        from io import StringIO
+        from types import SimpleNamespace
+        one_slot = [SimpleNamespace(id='001', panels=[SimpleNamespace(index=1)])]
+        with patch.object(textimage, 'book_scripts', return_value=one_slot):
+            output = StringIO()
+            with redirect_stdout(output):
+                assert letterpress.cmd_audit(None) == 0
+            assert '100.0% of 2' in output.getvalue()
+            for layout in [(reader[:1], [('Dialogue — CURT', 'Second')]),
+                           ([replace(reader[0], truncated=True)], [])]:
+                with patch.object(letterpress, 'panel_layout', return_value=layout), \
+                     redirect_stdout(StringIO()):
+                    assert letterpress.cmd_audit(None) == 1
     with TemporaryDirectory() as directory:
         art = Path(directory) / 'board.svg'
         art.write_text('<svg/>')

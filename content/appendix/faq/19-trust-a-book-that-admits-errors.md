@@ -58,7 +58,7 @@ published.
 
 | Stance | Source | Date | What it supports |
 | --- | --- | --- | --- |
-| The book applying it to itself | [content/pages/088.md](https://github.com/curtcox/zz-no-consumer/blob/main/content/pages/088.md) | 2026 | The disclosure of the [page-064](../../novella/04-what-survives/064.md) construction, in the story rather than in a note. |
+| The book applying it to itself | [content/pages/088.md](https://github.com/curtcox/zz-no-consumer/blob/main/content/pages/088.md) | 2026 | The disclosure of the [page 064](../../novella/04-what-survives/064.md) construction, in the story rather than in a note. |
 | This book's rule | [content/story-contract.md](https://github.com/curtcox/zz-no-consumer/blob/main/content/story-contract.md) | 2026 | That the misleading construction is permitted precisely once, that nothing in it may be false, and that the disclosure is mandatory. |
 | The error somebody else caught | [Carl Brown, No — AI Agents Did Not Build Secret Civilizations](https://internetofbugs.substack.com/p/noai-agents-did-not-build-secret) | 3 Sep 2026 | The published objection that reached the book's cache-wipe error by a different route, credited on [page 039](../../novella/02-erasure-and-return/039.md). |
 | The missed channel | [OpenAI at Black Hat USA 2026](https://www.youtube.com/watch?v=87DyyMV0kCY) | 5 Aug 2026 | The evidence that had been public for three weeks while the book was reasoning past it. |

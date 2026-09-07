@@ -151,8 +151,8 @@ this order. It is a copy-paste block; the build step rewrites tracked `docs/`:
 ```bash
 python3 scripts/validate-continuity.py && \
 python3 scripts/validate-production-foundations.py && \
-python3 scripts/crossref.py check && \
-python3 scripts/novella.py check && \
+python3 scripts/crossref.py check --strict && \
+python3 scripts/novella.py check --strict && \
 python3 scripts/appendix.py check && \
 python3 scripts/pagelinks.py check && \
 python3 scripts/knowledge_maps.py check && \
@@ -161,16 +161,20 @@ python3 scripts/knowledge_map_local.py check && \
 python3 -m unittest discover -s scripts -p test_knowledge_map_local.py && \
 python3 scripts/knowledge_map_finish.py check && \
 python3 -m unittest discover -s scripts -p test_knowledge_map_finish.py && \
-python3 scripts/storyboards.py check && \
+python3 scripts/storyboards.py check --complete && \
+python3 scripts/letterpress.py audit && \
+python3 scripts/pagination.py check && \
+python3 scripts/panels.py check && \
 python3 scripts/build-site.py && \
-python3 scripts/storyboards.py check --built && \
+python3 scripts/storyboards.py check --complete --built && \
 python3 scripts/validate-viewer.py && \
 python3 scripts/validate-novella.py && \
+python3 scripts/validate-site-links.py && \
 python3 scripts/validate-knowledge-map-gallery.py && \
 python3 scripts/pagelinks.py check --built
 ```
 
-Two checks are **not** in CI and must be run by hand when you touch pages or panels:
+These structural checks also run in CI; run them directly when you touch pages or panels:
 
 ```bash
 python3 scripts/pagination.py check
@@ -185,8 +189,7 @@ A red check is a work list, not a baseline. The validators repair nothing on pur
 for new scene records, local SVG generation, visual iteration, model handoff, importing,
 selection, and rollback. The README links it under Placeholder images. Run
 `storyboards.py generate`, `storyboards.py check`, the site builder, and
-`storyboards.py check --built` after reviewed scene changes. This is a pilot workflow;
-text fallbacks cover reader slots without scene records.
+`storyboards.py check --built` after reviewed scene changes. All reader slots now have scene records; `check --complete` enforces coverage.
 
 **Edit a page's script.** Edit `content/pages/NNN.md` in place. Write page references as
 plain `page 039` and run `pagelinks.py link --apply` to link them. If you changed lettering,

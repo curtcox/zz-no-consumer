@@ -9,6 +9,9 @@ import json
 import posixpath
 import re
 import shutil
+import subprocess
+import sys
+from urllib.parse import quote, unquote, urlsplit
 from dataclasses import dataclass
 from pathlib import Path
 
@@ -131,7 +134,7 @@ def inline(text: str, page_href=None) -> str:
     return text
 
 
-def markdown_to_html(source: str, page_href=None) -> str:
+def markdown_to_html(source: str, page_href=None, *, heading_ids: bool = False) -> str:
     """Render Markdown. With `page_href`, every story-page reference becomes a link."""
     def inline_text(text: str) -> str:
         return inline(text, page_href)
@@ -145,6 +148,7 @@ def markdown_to_html(source: str, page_href=None) -> str:
     code_lines: list[str] = []
     code_language = ""
     in_code = False
+    used_ids: set[str] = set()
 
     def flush_paragraph() -> None:
         if paragraph:
@@ -220,7 +224,18 @@ def markdown_to_html(source: str, page_href=None) -> str:
             level = min(len(line) - len(line.lstrip("#")), 6)
             # A heading names the page it introduces rather than pointing at another one,
             # so it is left unlinked here exactly as it is in the sources.
-            result.append(f"<h{level}>{inline(line[level:].strip())}</h{level}>")
+            title = line[level:].strip()
+            identity = ""
+            if heading_ids:
+                base = re.sub(r"[^a-z0-9]+", "-", title.lower()).strip("-") or "section"
+                anchor = base
+                suffix = 1
+                while anchor in used_ids:
+                    anchor = f"{base}-{suffix}"
+                    suffix += 1
+                used_ids.add(anchor)
+                identity = f' id="{anchor}"'
+            result.append(f"<h{level}{identity}>{inline(title)}</h{level}>")
         elif line.startswith(">"):
             flush_paragraph(); flush_list()
             quote_lines.append(line[1:].strip())
@@ -261,6 +276,40 @@ def title_for(path: Path) -> str:
 def slug_for(path: Path) -> Path:
     relative = path.relative_to(ROOT)
     return Path("pages") / relative.with_suffix(".html")
+
+
+def source_links(text: str, source: Path, directory: Path) -> str:
+    """Resolve repository links from their source, even on a relocated excerpt.
+
+    Sources excluded from this build remain readable in the public repository.
+    Do not copy internal research into the public reading site just to satisfy links.
+    """
+    published = set(markdown_sources(OUT != ROOT / "docs"))
+
+    def resolve(match: re.Match[str]) -> str:
+        label, href = match.groups()
+        address = urlsplit(href)
+        if address.scheme or address.netloc or not address.path or address.path.startswith("/"):
+            return match.group(0)
+        target = (source.parent / unquote(address.path)).resolve()
+        if not target.is_relative_to(ROOT) or not target.exists():
+            raise ValueError(f"{source.relative_to(ROOT)}: missing repository link {href}")
+        if target in published:
+            href = relative_url(directory, slug_for(target))
+        else:
+            kind = "tree" if target.is_dir() else "blob"
+            href = f"https://github.com/curtcox/zz-no-consumer/{kind}/main/" + quote(
+                target.relative_to(ROOT).as_posix(), safe="/")
+        if address.query:
+            href += "?" + address.query
+        if address.fragment:
+            href += "#" + address.fragment
+        return f"[{label}]({href})"
+
+    text = re.sub(r"(?<!!)\[([^]]+)\]\(([^)]+)\)", resolve, text)
+    if source.is_relative_to(ROOT / "content" / "appendix"):
+        text = appendix_route_links(text, directory, appendix_entries())
+    return text
 
 
 def relative_url(from_directory: Path, target: Path) -> str:
@@ -1176,7 +1225,7 @@ def novella_standalone(chapters: list[NovellaChapter], stylesheet: str,
         parts.append(novella_prose(chapter, page_href=anchor_page_href))
     if appendix_markdown_text:
         parts.append('<section id="appendix" style="margin-top:3.5rem">')
-        parts.append(markdown_to_html(appendix_markdown_text, anchor_page_href))
+        parts.append(markdown_to_html(appendix_markdown_text, anchor_page_href, heading_ids=True))
         parts.append("</section>")
     parts.append(
         f'<p class="note">{html.escape(NOVELLA_RIGHTS)} '
@@ -1244,7 +1293,7 @@ def novella_epub(chapters: list[NovellaChapter], destination: Path,
     # a reading system makes them tappable the same way it does any other.
     if appendix_markdown_text:
         appendix_body = (
-            f'<section epub:type="appendix">{markdown_to_html(appendix_markdown_text, href)}</section>'
+            f'<section epub:type="appendix">{markdown_to_html(appendix_markdown_text, href, heading_ids=True)}</section>'
         )
         try:
             ElementTree.fromstring(
@@ -1315,10 +1364,28 @@ def appendix_destination(entry: appendix_module.Entry) -> Path:
                 entry.id.lower(), "index.html")
 
 
-def appendix_markdown(model: appendix_module.Appendix, page_href=None) -> str:
+def appendix_route_links(text: str, directory: Path, model: appendix_module.Appendix) -> str:
+    """Turn assembled-entry fragments into links to individual reading routes."""
+    targets = {appendix_module.anchor(entry): entry for entry in model.entries}
+
+    def resolve(match: re.Match[str]) -> str:
+        entry = targets.get(match.group(1))
+        return (f"]({route_url(directory, appendix_destination(entry))})"
+                if entry else match.group(0))
+
+    return re.sub(r"\]\(#([^)]+)\)", resolve, text)
+
+
+def appendix_markdown(model: appendix_module.Appendix, page_href=None, *, explicit_anchors: bool = False) -> str:
     """The whole appendix as one Markdown document, for the downloads."""
-    del model  # the assembler builds its own; the argument keeps the call sites honest
-    return appendix_module.assemble(page_href)
+    text = appendix_module.assemble(page_href)
+    if explicit_anchors:
+        # Markdown renderers disagree about heading slugs, especially punctuation.
+        # Give the downloadable edition the same explicit entry IDs as HTML/EPUB.
+        for entry in model.entries:
+            heading = f"### {entry.id} — {entry.title}"
+            text = text.replace(heading + "\n", f'<a id="{appendix_module.anchor(entry)}"></a>\n\n{heading}\n', 1)
+    return text
 
 
 def appendix_plain_text(markdown: str) -> str:
@@ -1439,6 +1506,7 @@ def build_appendix(document) -> int:
         # other explicitly under "Story pages" below.
         href = novella_page_href(destination.parent)
         rendered = re.sub(r"^###\s+.*\n", "", appendix_module.render(entry, href), count=1)
+        rendered = appendix_route_links(rendered, destination.parent, model)
         body = markdown_to_html(rendered, href)
         cited = "".join(
             f"<li><strong>{page_number_link(destination.parent, page)}</strong> — "
@@ -1537,7 +1605,7 @@ def build_novella() -> int:
     markdown_path.write_text(
         pagelinks.normalize(novella.assemble(continuous=False), published_page_href)
         + "\n\n"
-        + pagelinks.normalize(appendix_markdown(model, published_page_href),
+        + pagelinks.normalize(appendix_markdown(model, published_page_href, explicit_anchors=True),
                               published_page_href),
         encoding="utf-8")
     downloads.append(("Markdown", markdown_path.name, "The source form, exactly as the repository holds it.", markdown_path))
@@ -2260,7 +2328,7 @@ def build_crossref(model: crossref.CrossReference, *, internal: bool) -> int:
                 str(panel.number),
                 chips(directory, "provenance", list(panel.statuses), status_labels),
                 chips(directory, "sources", list(panel.sources)),
-                inline(panel.note),
+                inline(source_links(panel.note, ROOT / "content" / "pages" / f"{page.id}.md", directory), viewer_page_href(directory)),
             ]
             for panel in page.panels
         ]
@@ -2335,7 +2403,7 @@ def build_crossref(model: crossref.CrossReference, *, internal: bool) -> int:
             if source.url else
             '<p class="xref-note">This key stands for project-authored material and has no external original.</p>'
         )
-        ledger = f"<p>{inline(source.ledger_note)}</p>" if source.ledger_note else ""
+        ledger = f"<p>{inline(source_links(source.ledger_note, ROOT / "research" / "scene-provenance.md", directory), viewer_page_href(directory))}</p>" if source.ledger_note else ""
         packet_block = ""
         if internal and source.packet_notes:
             packet_block = (
@@ -2511,8 +2579,9 @@ def main() -> int:
                 # A script, a brief, or a note: a reader here is reading the graphic novel's
                 # material, so its page references open the page in the viewer.
                 markdown_to_html(
-                    source.read_text(encoding="utf-8"),
+                    source_links(source.read_text(encoding="utf-8"), source, destination.parent.relative_to(OUT)),
                     viewer_page_href(destination.parent.relative_to(OUT)),
+                    heading_ids=True,
                 ),
                 navigation(destination.parent.relative_to(OUT)),
                 relative_url(destination.parent.relative_to(OUT), Path("css/site.css")),
@@ -2545,7 +2614,7 @@ def main() -> int:
             '<p><a class="viewer-callout" href="knowledge-maps/">Explore four knowledge-map alternatives and placement studies →</a></p>'
             '<p><a class="viewer-callout" href="crossref/">Open the page, source, and provenance cross reference →</a></p>'
             '<p><a class="viewer-callout" href="bakeoff/">Compare the candidate image generators on the same panels →</a></p>'
-            '<p><a class="viewer-callout" href="production/thumbnails/">Open the provisional 57-spread thumbnail wall →</a></p>'
+            '<p><a class="viewer-callout" href="production/thumbnails/">Open the provisional thumbnail wall →</a></p>'
             f'<h2>Browse the internal project</h2><div class="cards">{index_cards}</div>'
         )
     else:
@@ -2586,6 +2655,10 @@ def main() -> int:
     appendix_routes = build_appendix(document)
     bakeoff_routes = build_bakeoff(document)
     knowledge_map_routes = build_knowledge_maps(document)
+    if args.internal:
+        subprocess.run([sys.executable, str(ROOT / "scripts" / "make-thumbnails.py"),
+                        "--output", str(OUT / "production" / "thumbnails" / "index.html")],
+                       check=True)
 
     print(
         f"Built {len(markdown_files)} Markdown pages, {crossref_routes} cross-reference routes, "

@@ -2,9 +2,9 @@
 
 ## Status
 
-The complete first-draft page script was assembled and validated on 2 September 2026, at 112 pages. It has changed since: the dated wiki addition of 5 September and that day's read-through pass both moved the count, which is derived from `data/pages.yaml` and reported by `python3 scripts/pagination.py report` rather than restated here. Every page file is in `review` except the six pages of the dated addition, which remain in `draft` pending the beat and thumbnail test.
+The complete first-draft page script was assembled and validated on 2 September 2026, at 112 pages. It has changed since: the dated wiki addition of 5 September and that day's read-through pass both moved the count, which is derived from `data/pages.yaml` and reported by `python3 scripts/pagination.py report` rather than restated here. Every page file is in `review` except the eight pages added on 5–6 September, which remain in `draft` pending the beat and thumbnail test.
 
-The chapter-drafting gate is closed. Do not create a separate prose-novel pass. Revisions continue in the canonical page files and advance to `locked` only after the production gates below.
+The chapter-drafting gate is closed. The novella is now drafted in `content/novella/`; keep each prose page aligned with its canonical script. Revisions continue in the canonical page files and advance to `locked` only after the production gates below.
 
 The drafting loop used for each chapter was:
 
@@ -24,7 +24,7 @@ The following work remains before final art and page lock:
 4. **Security and sensitivity pass:** the story scripts pass with final-art controls. [`research/security-sensitivity-review.md`](../research/security-sensitivity-review.md) records the resolved distribution split: a story-first public build and a full private build under Git-ignored `256t/`.
 5. **Visual continuity pass:** palette tokens, creator desk states, population/register transitions, recurring interfaces, and canonical environment geometry are specified in [`design/palette.md`](../design/palette.md) and [`design/visual-continuity.md`](../design/visual-continuity.md). Reference sheets and the eight-page trim proof set remain.
 6. **Prompt and asset pass:** global style, character, environment, and negative prompts are specified; [page 001](pages/001.md) has a complete five-panel production brief; [`data/assets.yaml`](../data/assets.yaml) tracks the remaining reference sheets and proof assets. Complete later page briefs before generating their final artwork.
-7. **Dated endnote check:** after the 14 September subpoena deadline and before publication lock, assess only whether a new public fact requires an endnote or corrects a load-bearing claim. Do not silently move the 30 August narrative cutoff.
+7. **Dated endnote check:** after the 14 September subpoena deadline and before publication lock, assess only whether a new public fact requires an endnote or corrects a load-bearing claim. Preserve the dated-scene and later-admission rules in the story contract; 30 August is the aftermath scene date, not a research cutoff.
 8. **Final proof and lock:** validate source links, page metadata, reading order, accessibility text, print dimensions, and the web viewer before changing page status from `review` to `locked`.
 
 No unresolved research question currently blocks the thumbnail or lettering passes. Unknowns listed in `content/continuity.md` remain content constraints, not invitations to invent answers.
