@@ -1,0 +1,24 @@
+{
+  "id": "013-01-r2",
+  "panel": "013-01",
+  "source_file": "/Users/curtcox/.codex/generated_images/01a07d11-50c8-7693-bcf5-84b666f77385/exec-6620c9b5-6675-4fa4-85ea-723b68251496.png",
+  "elapsed_seconds": 46.98,
+  "prompt": "Edit only the screen interiors, printer paper, and tiny hardware markings in this image. Keep the entire composition, person, lighting, texture, devices, desk, laptop centered below screens, drink and framing unchanged. Remove EVERY tiny letter-like mark, pseudo-word, number, logo/badge and scribble from both screens, hardware and all paper. Left screen must show just 3 broad blank gray document rectangles and a row of blank tab rectangles; right screen just 3 solid horizontal timeline bars and one empty rectangle, no ticks or writing. Printer sheets completely blank. No other change. This is a reconstructed comic scene, not a source screenshot.",
+  "references": [
+    "/Users/curtcox/.codex/generated_images/01a07d11-50c8-7693-bcf5-84b666f77385/exec-dc1e03da-b3d8-43e4-a7ee-55df1096e63a.png"
+  ],
+  "tool": "image_gen.imagegen",
+  "model_revision": null,
+  "seed": null,
+  "controls": "Tool did not expose model revision, seed, sampler, strength, or billing. PNG output requested at 3:2; actual dimensions measured on import.",
+  "stored_file": "assets/art/panels/013-01/v05-builtin-image-pilot.png",
+  "variant": "v05",
+  "sha256": "1319b6e3d4595315b3915bb922e55bf25bd8ed1c438088480197fda03a7cf751",
+  "dimensions": [
+    "1536",
+    "1024"
+  ],
+  "reference_hashes": [
+    "df0af57f13b4dd6892cb8fea8d6c0822f1fcaad03bfa4a000656dc65add86cf3"
+  ]
+}

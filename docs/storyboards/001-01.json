@@ -1,7 +1,18 @@
 {
   "background": "ink",
-  "intent": "The rack is the only lit unit. Keep the agent confined to infrastructure and the task card.",
-  "lettering": [],
+  "intent": "The rack is the only lit unit. Keep the task card upper-right and reserve a wider caption field that fits actual browser fonts.",
+  "lettering": [
+    {
+      "box": [
+        0.04,
+        0.04,
+        0.46,
+        0.16
+      ],
+      "max_size": 24
+    }
+  ],
+  "lettering_mode": "manual",
   "nodes": [
     {
       "asset": "room",

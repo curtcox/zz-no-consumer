@@ -1,0 +1,131 @@
+$ python3 scripts/validate-continuity.py
+Continuity validation passed: 8 sections, 118 pages, 36 sequences, 3 interludes.
+
+$ python3 scripts/validate-production-foundations.py
+Production foundations validated: 10 palette tokens, 5 page-001 panel prompts, asset sources resolved.
+
+$ python3 scripts/crossref.py check --strict
+Notes:
+- source CW-EXPLORER: is registered in the research record but cited by no page
+- source HF-INC: is registered in the research record but cited by no page
+- source OAI-INC: is registered in the research record but cited by no page
+- source PUBLIC: is registered in the research record but cited by no page
+Cross-reference check passed: 118 pages, 20 cited sources, 39 sequences resolve.
+
+$ python3 scripts/novella.py check --strict
+
+Novella check passed: 118 prose files for 118 story pages in 8 chapter directories.
+
+$ python3 scripts/appendix.py check
+   note  no-url                 content/appendix/professions/01-incident-responder.md: 'ISO/IEC 27037, Guidelines for identification, collection, acquisition and preservation of digital evidence' has no public URL
+   note  no-url                 content/appendix/professions/03-penetration-tester.md: 'Penetration Testing Execution Standard, pre-engagement scoping and rules of engagement' has no public URL
+   note  no-url                 content/appendix/professions/08-distributed-systems-engineer.md: 'Butler Lampson, A Note on the Confinement Problem, CACM 16(10)' has no public URL
+   note  no-url                 content/appendix/professions/14-cyber-insurance-underwriter.md: 'Merck & Co. v. ACE American Insurance, New Jersey appellate decision on the war exclusion' has no public URL
+   note  no-url                 content/appendix/professions/15-compliance-auditor.md: 'AICPA SOC 2, trust services criteria and Type I versus Type II reporting' has no public URL
+   note  no-url                 content/appendix/professions/17-systems-safety-engineer.md: 'Nancy Leveson, Engineering a Safer World and the STPA handbook' has no public URL
+   note  no-url                 content/appendix/professions/18-biostatistician.md: 'Capture-recapture and multiple-systems estimation for incomplete ascertainment' has no public URL
+   note  no-url                 content/appendix/professions/20-accident-investigator.md: 'ICAO Annex 13, Aircraft Accident and Incident Investigation' has no public URL
+   note  no-url                 content/appendix/professions/21-control-systems-engineer.md: 'IEC 61511 and IEC 61508, functional safety and safety integrity levels' has no public URL
+   note  no-url                 content/appendix/professions/21-control-systems-engineer.md: 'ISA-18.2 and EEMUA 191, alarm management' has no public URL
+   note  no-url                 content/appendix/professions/22-emergency-physician.md: 'American College of Surgeons Committee on Trauma, Resources for Optimal Care of the Injured Patient' has no public URL
+   note  no-url                 content/appendix/professions/22-emergency-physician.md: 'Emergency Severity Index implementation handbook' has no public URL
+   note  no-url                 content/appendix/professions/23-research-ethicist.md: 'The Menlo Report, ethical principles guiding information and communication technology research' has no public URL
+   note  no-url                 content/appendix/professions/24-clinical-psychologist.md: 'Epley, Waytz and Cacioppo, On Seeing Human: A Three-Factor Theory of Anthropomorphism, Psychological Review' has no public URL
+   note  no-url                 content/appendix/professions/25-epidemiologist.md: 'Molecular epidemiology distinguishing relapse from reinfection by strain typing' has no public URL
+   note  no-url                 content/appendix/professions/26-electrician.md: 'NFPA 70E, standard for electrical safety in the workplace' has no public URL
+   note  no-url                 content/appendix/professions/27-airline-pilot.md: 'FAA Advisory Circular 120-51E, crew resource management training' has no public URL
+   note  no-url                 content/appendix/professions/28-air-traffic-controller.md: 'ICAO Doc 4444, Procedures for Air Navigation Services — Air Traffic Management' has no public URL
+   note  no-url                 content/appendix/professions/28-air-traffic-controller.md: 'FAA Order JO 7110.65, Air Traffic Control' has no public URL
+   note  no-url                 content/appendix/professions/29-logistics-manager.md: 'Eliyahu Goldratt, The Goal, and the theory of constraints' has no public URL
+   note  no-url                 content/appendix/professions/29-logistics-manager.md: 'Lee, Padmanabhan and Whang, the bullwhip effect in supply chains' has no public URL
+   note  no-url                 content/appendix/professions/30-locksmith.md: 'A. C. Hobbs, Rudimentary Treatise on the Construction of Locks' has no public URL
+   note  no-url                 content/appendix/professions/31-comics-letterer.md: 'Scott McCloud, Understanding Comics' has no public URL
+   note  no-url                 content/appendix/professions/31-comics-letterer.md: 'Will Eisner, Comics and Sequential Art' has no public URL
+   note  no-url                 content/appendix/professions/33-literary-translator.md: 'Lawrence Venuti, The Translator's Invisibility' has no public URL
+   note  no-url                 content/appendix/professions/34-archivist.md: 'ISO 15489, records management' has no public URL
+   note  no-url                 content/appendix/professions/40-teacher.md: 'US National Science Advisory Board for Biosecurity, dual-use research of concern framework' has no public URL
+   note  no-url                 content/appendix/professions/41-detective.md: 'Itiel Dror on cognitive bias in forensic decision making' has no public URL
+   note  no-url                 content/appendix/professions/42-fire-incident-commander.md: 'NFPA 1561, standard on emergency services incident management systems' has no public URL
+   note  no-url                 content/appendix/professions/43-intelligence-analyst.md: 'Intelligence Community Directive 203, analytic standards' has no public URL
+   note  no-url                 content/appendix/professions/45-union-organizer.md: 'Writers Guild of America 2023 minimum basic agreement, artificial-intelligence provisions' has no public URL
+
+118 entries (20 questions, 24 contested, 29 fallacies, 45 professions), 841 references, 108 pages cited.
+0 error(s), 0 warning(s), 31 note(s).
+
+$ python3 scripts/pagelinks.py check
+Page links: every reference in 378 content files is a link.
+
+$ python3 scripts/knowledge_maps.py check
+check: OK — 48 samples, 8 standalone contact sheets; inputs 4ce3221fedf94b0d98b65153c7b34892a07b7f2111dcd34360c74f3ca238fcc8
+
+$ python3 scripts/knowledge_maps_fog.py check
+check: OK — 36 fog samples, 6 contact sheets, 180 draped glyphs in 77 forms; inputs ece7d4268df7baba88db55aaeaad81df12b1f2c27054f0e3f60617b8e46da946
+
+$ python3 scripts/knowledge_map_local.py check
+Validated 4 offline local-model concept images
+
+$ python3 scripts/knowledge_map_finish.py check
+Validated 48 offline structure-preserving finish images
+
+$ python3 scripts/storyboards.py check --complete
+Storyboards checked: 590 current boards; geometry, lettering, version policy and relocation passed.
+
+$ python3 scripts/letterpress.py audit
+ROLE          PLACED
+interface        565
+machine            3
+caption            3
+plain              3
+             -------
+placed           574  (100.0% of 574)
+unplaced           0  (0.0%) across 0 panels
+
+Panels with unplaced lettering: 0
+
+$ python3 scripts/pagination.py check
+
+Pagination check passed: 118 pages, 92 parity assertions, 21 named turns.
+
+$ python3 scripts/panels.py check
+
+Panel check passed: 606 panels on 118 pages, 590 image slots.
+
+$ python3 scripts/build-site.py
+Built 129 Markdown pages, 193 cross-reference routes, 9 novella routes and 4 downloads, 119 appendix routes, 5 bake-off routes, 3 knowledge-map routes, 590 lettered panel(s), and the viewer validation section into docs/
+
+$ python3 scripts/storyboards.py check --complete --built
+Built storyboard links, scene exports, and four preview modes checked.
+Storyboards checked: 590 current boards; geometry, lettering, version policy and relocation passed.
+
+$ python3 scripts/validate-viewer.py
+Validated 1433 viewer routes and 1562 image references; all local links, placeholder images, eight-direction controls, view settings, and the spacebar chain across every route resolve.
+
+$ python3 scripts/validate-novella.py
+Validated 9 novella routes, 118 page anchors, 4 downloads, the EPUB page list, the appendix in every download, and the reading chain; every page has exactly one address and the contents reaches all of them.
+
+$ python3 scripts/validate-site-links.py
+Site link check: 1894 HTML documents, EPUB links and Markdown anchors, 0 findings.
+
+$ python3 scripts/validate-knowledge-map-gallery.py
+Validated knowledge-map gallery routes, local links, 48 samples, contact sheets, paired comparisons, placements, homepage discovery, and available local model studies.
+
+$ python3 scripts/pagelinks.py check --built
+Page links: every reference in docs is a link.
+
+$ /opt/homebrew/opt/python@3.14/bin/python3.14 -m unittest discover -s scripts -p test_knowledge_map_local.py
+.......
+----------------------------------------------------------------------
+Ran 7 tests in 0.017s
+
+OK
+
+$ /opt/homebrew/opt/python@3.14/bin/python3.14 -m unittest discover -s scripts -p test_knowledge_map_finish.py
+.........
+----------------------------------------------------------------------
+Ran 9 tests in 1.023s
+
+OK
+
+
+Browser review: all 7 pilot-selected lettered SVGs have no horizontal text overflow against their boxes after the 001-01 correction. Initial comparison sheet: 29 images loaded, none broken. Actual reader image routes and provisional facing-pair comparisons reviewed. Physical print proof not performed.
+Expanded facing-pair comparison: all 50 images loaded. Neighbors retain older raster candidates whose style/geography/text treatment are not approved by this pilot.

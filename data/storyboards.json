@@ -12,8 +12,19 @@
   "scenes": {
     "001-01": {
       "background": "ink",
-      "intent": "The rack is the only lit unit. Keep the agent confined to infrastructure and the task card.",
-      "lettering": [],
+      "intent": "The rack is the only lit unit. Keep the task card upper-right and reserve a wider caption field that fits actual browser fonts.",
+      "lettering": [
+        {
+          "box": [
+            0.04,
+            0.04,
+            0.46,
+            0.16
+          ],
+          "max_size": 24
+        }
+      ],
+      "lettering_mode": "manual",
       "nodes": [
         {
           "asset": "room",
@@ -9736,7 +9747,7 @@
     },
     "026-04": {
       "background": "ink",
-      "intent": "Block responders compare three evidence cards. Keep the scripted evidence boundary and lettering visible.",
+      "intent": "Three separately labeled cards lie on the table between standing functional responders; nobody occupies its center.",
       "lettering": [
         {
           "box": [
@@ -9770,7 +9781,7 @@
           "color": "institution"
         },
         {
-          "asset": "person-seated",
+          "asset": "person-standing",
           "box": [
             0.09933333333333332,
             0.20499999999999996,
@@ -9780,7 +9791,7 @@
           "color": "dirty"
         },
         {
-          "asset": "person-seated",
+          "asset": "person-standing",
           "box": [
             0.7249333333333333,
             0.20499999999999996,
@@ -9794,55 +9805,58 @@
           "asset": "card",
           "box": [
             0.1044,
-            0.269,
+            0.49,
             0.195163,
-            0.1408
+            0.1
           ],
           "color": "steel",
           "focus": true,
           "label": "EVALUATION",
           "label_box": [
-            0.09640000000000001,
-            0.41580000000000006,
-            0.211163,
-            0.030799999999999945
-          ]
+            0.1044,
+            0.595,
+            0.195163,
+            0.07
+          ],
+          "label_size": 13
         },
         {
           "asset": "card",
           "box": [
             0.368133,
-            0.269,
+            0.49,
             0.195163,
-            0.1408
+            0.1
           ],
           "color": "steel",
           "focus": true,
           "label": "MESSAGE BOARD",
           "label_box": [
-            0.360133,
-            0.41580000000000006,
-            0.211163,
-            0.030799999999999945
-          ]
+            0.368133,
+            0.595,
+            0.195163,
+            0.07
+          ],
+          "label_size": 13
         },
         {
           "asset": "card",
           "box": [
             0.631867,
-            0.269,
+            0.49,
             0.195163,
-            0.1408
+            0.1
           ],
           "color": "steel",
           "focus": true,
           "label": "NETWORK PIVOT",
           "label_box": [
-            0.623867,
-            0.41580000000000006,
-            0.211163,
-            0.030799999999999945
-          ]
+            0.631867,
+            0.595,
+            0.195163,
+            0.07
+          ],
+          "label_size": 13
         }
       ],
       "reconstructed": true,
@@ -9852,7 +9866,7 @@
     },
     "026-05": {
       "background": "ink",
-      "intent": "Block the stop decision is still blank. Keep the scripted evidence boundary and lettering visible.",
+      "intent": "Keep all three evidence cards from the preceding panel beside the unanswered STOP RUN? field; no implied decision.",
       "lettering": [
         {
           "box": [
@@ -9866,39 +9880,88 @@
       "lettering_mode": "manual",
       "nodes": [
         {
+          "asset": "desk",
+          "box": [
+            0.05,
+            0.18,
+            0.9,
+            0.5
+          ],
+          "color": "institution"
+        },
+        {
           "asset": "card",
           "box": [
-            0.1044,
-            0.2242,
-            0.292744,
-            0.256
+            0.09,
+            0.28,
+            0.14,
+            0.23
           ],
           "color": "steel",
           "focus": true,
-          "label": "EVIDENCE",
+          "label": "EVALUATION",
           "label_box": [
-            0.09640000000000001,
-            0.4862,
-            0.308744,
-            0.085
-          ]
+            0.085,
+            0.52,
+            0.15,
+            0.065
+          ],
+          "label_size": 12
+        },
+        {
+          "asset": "card",
+          "box": [
+            0.245,
+            0.28,
+            0.14,
+            0.23
+          ],
+          "color": "steel",
+          "focus": true,
+          "label": "MESSAGE BOARD",
+          "label_box": [
+            0.24,
+            0.52,
+            0.15,
+            0.065
+          ],
+          "label_size": 12
+        },
+        {
+          "asset": "card",
+          "box": [
+            0.4,
+            0.28,
+            0.14,
+            0.23
+          ],
+          "color": "steel",
+          "focus": true,
+          "label": "NETWORK PIVOT",
+          "label_box": [
+            0.395,
+            0.52,
+            0.15,
+            0.065
+          ],
+          "label_size": 12
         },
         {
           "asset": "outline-box",
           "box": [
-            0.5,
-            0.2242,
-            0.292744,
-            0.256
+            0.64,
+            0.28,
+            0.27,
+            0.23
           ],
           "color": "steel",
           "focus": true,
           "label": "STOP RUN?",
           "label_box": [
-            0.492,
-            0.4862,
-            0.308744,
-            0.085
+            0.64,
+            0.52,
+            0.27,
+            0.065
           ]
         }
       ],

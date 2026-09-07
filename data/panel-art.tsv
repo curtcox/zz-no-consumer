@@ -5,6 +5,8 @@ panel	variant	file	provider	seed	width	height	bytes	created	status	note	stage
 001-01	v04	assets/art/panels/001-01/v04-flux2-klein-4b-4001.webp	flux2-klein-4b	4001	1200	800	283090	2026-09-03T20:52:26+00:00	candidate		refined
 001-01	v05	assets/art/panels/001-01/v05-storyboard-svg.svg	storyboard-svg		1200	800	17233	2026-09-07T14:11:22+00:00	candidate		storyboard
 001-01	v06	assets/art/panels/001-01/v06-storyboard-svg.svg	storyboard-svg		1200	800	12593	2026-09-07T14:13:12+00:00	candidate		storyboard
+001-01	v07	assets/art/panels/001-01/v07-builtin-image-pilot.png	builtin-image-pilot		1536	1024	2339396	2026-09-07T18:22:42+00:00	chosen	Pilot: readable aisle and exact handle; task label remains below blocks, not final header design.	refined
+001-01	v08	assets/art/panels/001-01/v08-storyboard-svg.svg	storyboard-svg		1200	800	12836	2026-09-07T18:25:46+00:00	candidate		storyboard
 001-02	v01	assets/art/panels/001-02/v01-flux2-klein-4b-4001.webp	flux2-klein-4b	4001	1200	800	361226	2026-09-04T22:43:04+00:00	candidate		refined
 001-02	v02	assets/art/panels/001-02/v02-flux2-klein-4b-4001.webp	flux2-klein-4b	4001	1200	800	383228	2026-09-04T22:43:04+00:00	candidate		refined
 001-02	v03	assets/art/panels/001-02/v03-flux2-klein-4b-4001.webp	flux2-klein-4b	4001	1200	800	335678	2026-09-04T22:43:04+00:00	candidate		refined
@@ -54,7 +56,7 @@ panel	variant	file	provider	seed	width	height	bytes	created	status	note	stage
 003-04	v02	assets/art/panels/003-04/v02-storyboard-svg.svg	storyboard-svg		1200	800	4655	2026-09-07T16:49:06+00:00	candidate		storyboard
 003-04	v03	assets/art/panels/003-04/v03-storyboard-svg.svg	storyboard-svg		1200	800	5043	2026-09-07T16:54:59+00:00	candidate		storyboard
 003-05	v01	assets/art/panels/003-05/v01-flux2-klein-4b-1001.webp	flux2-klein-4b	1001	1200	800	107656	2026-09-05T16:26:55+00:00	candidate		refined
-003-05	v02	assets/art/panels/003-05/v02-storyboard-svg.svg	storyboard-svg		1200	800	2714	2026-09-07T16:49:06+00:00	candidate		storyboard
+003-05	v02	assets/art/panels/003-05/v02-storyboard-svg.svg	storyboard-svg		1200	800	2714	2026-09-07T16:49:06+00:00	chosen	Pilot control: retain deterministic geometry and exact controlled long-text lettering.	storyboard
 004-01	v01	assets/art/panels/004-01/v01-flux2-klein-4b-1001.webp	flux2-klein-4b	1001	1200	800	189254	2026-09-05T16:28:00+00:00	candidate		refined
 004-01	v02	assets/art/panels/004-01/v02-storyboard-svg.svg	storyboard-svg		1200	800	3808	2026-09-07T16:49:06+00:00	candidate		storyboard
 004-01	v03	assets/art/panels/004-01/v03-storyboard-svg.svg	storyboard-svg		1200	800	3952	2026-09-07T16:54:59+00:00	candidate		storyboard
@@ -145,6 +147,9 @@ panel	variant	file	provider	seed	width	height	bytes	created	status	note	stage
 013-01	v01	assets/art/panels/013-01/v01-flux2-klein-4b-1001.webp	flux2-klein-4b	1001	1200	800	173824	2026-09-05T18:53:33+00:00	candidate		refined
 013-01	v02	assets/art/panels/013-01/v02-storyboard-svg.svg	storyboard-svg		1200	800	13855	2026-09-07T14:11:22+00:00	candidate		storyboard
 013-01	v03	assets/art/panels/013-01/v03-storyboard-svg.svg	storyboard-svg		1200	800	7327	2026-09-07T14:13:12+00:00	candidate		storyboard
+013-01	v04	assets/art/panels/013-01/v04-builtin-image-pilot.png	builtin-image-pilot		1536	1024	2630655	2026-09-07T18:22:42+00:00	rejected	Pilot: invented tiny screen and printer-paper glyphs; superseded by v05.	refined
+013-01	v05	assets/art/panels/013-01/v05-builtin-image-pilot.png	builtin-image-pilot		1536	1024	2430726	2026-09-07T18:22:43+00:00	candidate	Pilot: obscured creator, stable desk geography, simplified unlettered screen fields; provisional.	refined
+013-01	v06	assets/art/panels/013-01/v06-pilot-border.svg	pilot-border		1536	1024	3241247	2026-09-07T18:25:45+00:00	chosen	Pilot: corrected render with controlled broken reconstruction border; provisional.	refined
 013-02	v01	assets/art/panels/013-02/v01-flux2-klein-4b-1001.webp	flux2-klein-4b	1001	1200	800	219644	2026-09-05T18:54:36+00:00	candidate		refined
 013-02	v02	assets/art/panels/013-02/v02-flux2-klein-4b-1001.webp	flux2-klein-4b	1001	1200	800	227758	2026-09-05T19:52:59+00:00	candidate	drawn 5 Sep 2026 with the reverted panel-first prompt arrangement, not the committed composer	refined
 013-02	v03	assets/art/panels/013-02/v03-storyboard-svg.svg	storyboard-svg		1200	800	11348	2026-09-07T14:11:22+00:00	candidate		storyboard
@@ -152,9 +157,11 @@ panel	variant	file	provider	seed	width	height	bytes	created	status	note	stage
 013-02	v05	assets/art/panels/013-02/v05-storyboard-svg.svg	storyboard-svg		1200	800	4069	2026-09-07T14:18:19+00:00	candidate		storyboard
 013-03	v01	assets/art/panels/013-03/v01-storyboard-svg.svg	storyboard-svg		1200	800	7515	2026-09-07T16:08:40+00:00	candidate		storyboard
 013-04	v01	assets/art/panels/013-04/v01-storyboard-svg.svg	storyboard-svg		1200	800	12270	2026-09-07T14:11:22+00:00	candidate		storyboard
-013-04	v02	assets/art/panels/013-04/v02-storyboard-svg.svg	storyboard-svg		1200	800	5757	2026-09-07T14:13:13+00:00	candidate		storyboard
+013-04	v02	assets/art/panels/013-04/v02-storyboard-svg.svg	storyboard-svg		1200	800	5757	2026-09-07T14:13:13+00:00	chosen	Pilot: retain controlled storyboard after richer candidate failed text review.	storyboard
+013-04	v03	assets/art/panels/013-04/v03-builtin-image-pilot.png	builtin-image-pilot		1536	1024	2808533	2026-09-07T18:22:42+00:00	rejected	Pilot: printer-paper pseudo-writing and tiny UI/hardware marks persist.	refined
 013-05	v01	assets/art/panels/013-05/v01-storyboard-svg.svg	storyboard-svg		1200	800	13091	2026-09-07T14:11:23+00:00	candidate		storyboard
-013-05	v02	assets/art/panels/013-05/v02-storyboard-svg.svg	storyboard-svg		1200	800	6794	2026-09-07T14:13:13+00:00	candidate		storyboard
+013-05	v02	assets/art/panels/013-05/v02-storyboard-svg.svg	storyboard-svg		1200	800	6794	2026-09-07T14:13:13+00:00	chosen	Pilot: retain controlled storyboard after richer candidate failed continuity review.	storyboard
+013-05	v03	assets/art/panels/013-05/v03-builtin-image-pilot.png	builtin-image-pilot		1536	1024	2961391	2026-09-07T18:22:43+00:00	rejected	Pilot: laptop migrates from center to right; pseudo-writing persists.	refined
 014-01	v01	assets/art/panels/014-01/v01-flux2-klein-4b-1001.webp	flux2-klein-4b	1001	1200	800	196660	2026-09-05T18:55:39+00:00	candidate		refined
 014-01	v02	assets/art/panels/014-01/v02-storyboard-svg.svg	storyboard-svg		1200	800	4278	2026-09-07T16:49:07+00:00	candidate		storyboard
 014-01	v03	assets/art/panels/014-01/v03-storyboard-svg.svg	storyboard-svg		1200	800	4573	2026-09-07T16:55:03+00:00	candidate		storyboard
@@ -298,10 +305,15 @@ panel	variant	file	provider	seed	width	height	bytes	created	status	note	stage
 026-04	v01	assets/art/panels/026-04/v01-flux2-klein-4b-1001.webp	flux2-klein-4b	1001	1200	800	219630	2026-09-05T19:03:02+00:00	candidate		refined
 026-04	v02	assets/art/panels/026-04/v02-storyboard-svg.svg	storyboard-svg		1200	800	7527	2026-09-07T16:49:08+00:00	candidate		storyboard
 026-04	v03	assets/art/panels/026-04/v03-storyboard-svg.svg	storyboard-svg		1200	800	8110	2026-09-07T16:55:07+00:00	candidate		storyboard
+026-04	v04	assets/art/panels/026-04/v04-storyboard-svg.svg	storyboard-svg		1200	800	7615	2026-09-07T18:15:17+00:00	candidate		storyboard
+026-04	v05	assets/art/panels/026-04/v05-builtin-image-pilot.png	builtin-image-pilot		1536	1024	2570845	2026-09-07T18:22:43+00:00	chosen	Pilot: three correct labels, ordinary responders at sides, safe caption field; provisional.	refined
 026-05	v01	assets/art/panels/026-05/v01-flux2-klein-4b-4001.webp	flux2-klein-4b	4001	1200	800	388682	2026-09-03T19:06:49+00:00	candidate		refined
 026-05	v02	assets/art/panels/026-05/v02-flux2-klein-4b-4001.webp	flux2-klein-4b	4001	1200	800	375296	2026-09-03T21:01:33+00:00	candidate		refined
 026-05	v03	assets/art/panels/026-05/v03-storyboard-svg.svg	storyboard-svg		1200	800	3785	2026-09-07T16:49:09+00:00	candidate		storyboard
 026-05	v04	assets/art/panels/026-05/v04-storyboard-svg.svg	storyboard-svg		1200	800	4031	2026-09-07T16:55:08+00:00	candidate		storyboard
+026-05	v05	assets/art/panels/026-05/v05-storyboard-svg.svg	storyboard-svg		1200	800	6364	2026-09-07T18:15:17+00:00	candidate		storyboard
+026-05	v06	assets/art/panels/026-05/v06-builtin-image-pilot.png	builtin-image-pilot		1536	1024	3086216	2026-09-07T18:22:43+00:00	rejected	Pilot: landscape evidence cards become portrait sheets; superseded by v07.	refined
+026-05	v07	assets/art/panels/026-05/v07-builtin-image-pilot.png	builtin-image-pilot		1536	1024	2851758	2026-09-07T18:22:43+00:00	chosen	Pilot: wide evidence cards restored, exact labels, decision blank, caption clearance; provisional.	refined
 027-01	v01	assets/art/panels/027-01/v01-flux2-klein-4b-1001.webp	flux2-klein-4b	1001	1200	800	228054	2026-09-05T19:04:06+00:00	candidate		refined
 027-01	v02	assets/art/panels/027-01/v02-storyboard-svg.svg	storyboard-svg		1200	800	7443	2026-09-07T16:49:09+00:00	candidate		storyboard
 027-01	v03	assets/art/panels/027-01/v03-storyboard-svg.svg	storyboard-svg		1200	800	8002	2026-09-07T16:55:08+00:00	candidate		storyboard

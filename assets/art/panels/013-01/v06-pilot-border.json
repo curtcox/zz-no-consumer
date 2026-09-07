@@ -1,0 +1,15 @@
+{
+  "operation": "Controlled SVG broken reconstruction border over unchanged generated PNG",
+  "source_variant": "v05-builtin-image-pilot.png",
+  "source_sha256": "1319b6e3d4595315b3915bb922e55bf25bd8ed1c438088480197fda03a7cf751",
+  "model_call": false,
+  "border": {
+    "color": "#5E737B",
+    "width": 4,
+    "dash": [
+      24,
+      16
+    ],
+    "inset": 3
+  }
+}

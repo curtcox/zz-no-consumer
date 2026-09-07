@@ -1,0 +1,26 @@
+{
+  "id": "026-05-r2",
+  "panel": "026-05",
+  "source_file": "/Users/curtcox/.codex/generated_images/01a07d11-50c8-7693-bcf5-84b666f77385/exec-4a21429f-9585-47e0-b5f8-a879a15e8b19.png",
+  "elapsed_seconds": 76.288,
+  "prompt": "Correct card continuity only. First image is the edit target; second is previous scene defining the three evidence cards. Keep the table, lighting, ink style, camera, four labels and left-to-right order. The three evidence cards must have the same wide LANDSCAPE proportions as in image 2, NOT portrait sheets; size them like the preceding scene and keep heading placement centered as in that scene. Fourth decision form can remain portrait but shrink/reposition it so all four cards fit above 66% image height, leaving lower quarter entirely quiet dark table edge and shadow for controlled lettering. Text exactly EVALUATION, MESSAGE BOARD, NETWORK PIVOT, STOP RUN?. Keep decision field completely blank. No additional words or marks.",
+  "references": [
+    "/Users/curtcox/.codex/generated_images/01a07d11-50c8-7693-bcf5-84b666f77385/exec-0f95f5a0-1775-49f9-ae21-9df70cce96a3.png",
+    "/Users/curtcox/.codex/generated_images/01a07d11-50c8-7693-bcf5-84b666f77385/exec-d96f3bd7-2cab-4844-8c9c-4e0d51d15fb4.png"
+  ],
+  "tool": "image_gen.imagegen",
+  "model_revision": null,
+  "seed": null,
+  "controls": "Tool did not expose model revision, seed, sampler, strength, or billing. PNG output requested at 3:2; actual dimensions measured on import.",
+  "stored_file": "assets/art/panels/026-05/v07-builtin-image-pilot.png",
+  "variant": "v07",
+  "sha256": "d40b3ee878f38f1cf29b3cbc21a365aabad2fdd074267c9a4e6da2a15bdeb3b5",
+  "dimensions": [
+    "1536",
+    "1024"
+  ],
+  "reference_hashes": [
+    "c0085fa993d059570c6742494a94f20f5249d073841f928c9f6aa4ae1379e12f",
+    "f67d7df528cf6aacd65857a4f779db9d8659cf11b182e813426f0b38b842b169"
+  ]
+}

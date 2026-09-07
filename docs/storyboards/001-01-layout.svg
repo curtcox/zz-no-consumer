@@ -17,8 +17,19 @@
   &quot;renderer&quot;: &quot;storyboard-svg-1&quot;,
   &quot;scene&quot;: {
     &quot;background&quot;: &quot;ink&quot;,
-    &quot;intent&quot;: &quot;The rack is the only lit unit. Keep the agent confined to infrastructure and the task card.&quot;,
-    &quot;lettering&quot;: [],
+    &quot;intent&quot;: &quot;The rack is the only lit unit. Keep the task card upper-right and reserve a wider caption field that fits actual browser fonts.&quot;,
+    &quot;lettering&quot;: [
+      {
+        &quot;box&quot;: [
+          0.04,
+          0.04,
+          0.46,
+          0.16
+        ],
+        &quot;max_size&quot;: 24
+      }
+    ],
+    &quot;lettering_mode&quot;: &quot;manual&quot;,
     &quot;nodes&quot;: [
       {
         &quot;asset&quot;: &quot;room&quot;,

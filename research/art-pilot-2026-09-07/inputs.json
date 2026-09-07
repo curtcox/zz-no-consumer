@@ -1,0 +1,568 @@
+[
+  {
+    "panel": "001-01",
+    "scene": {
+      "background": "ink",
+      "intent": "The rack is the only lit unit. Keep the agent confined to infrastructure and the task card.",
+      "lettering": [],
+      "nodes": [
+        {
+          "asset": "room",
+          "box": [
+            0.02,
+            0.06,
+            0.96,
+            0.9
+          ],
+          "color": "shadow"
+        },
+        {
+          "asset": "rack",
+          "box": [
+            0.05,
+            0.28,
+            0.14,
+            0.63
+          ],
+          "color": "shadow"
+        },
+        {
+          "asset": "rack",
+          "box": [
+            0.22,
+            0.27,
+            0.14,
+            0.63
+          ],
+          "color": "shadow"
+        },
+        {
+          "asset": "rack",
+          "box": [
+            0.4,
+            0.23,
+            0.16,
+            0.67
+          ],
+          "color": "steel",
+          "focus": true
+        },
+        {
+          "asset": "rack",
+          "box": [
+            0.77,
+            0.3,
+            0.18,
+            0.6
+          ],
+          "color": "shadow"
+        },
+        {
+          "asset": "card",
+          "box": [
+            0.66,
+            0.1,
+            0.28,
+            0.16
+          ],
+          "color": "steel",
+          "focus": true,
+          "label": "PHASEONE10841"
+        }
+      ],
+      "reconstructed": false,
+      "shot": "wide",
+      "source": "\n**Frame:** Wide horizontal panel. A windowless data-center aisle, almost entirely black. One rack unit is picked out in desaturated steel blue. Inset into the darkness: a small task card headed `PHASEONE10841`, with a target program and one required vulnerability highlighted. No face, avatar, or speech balloon.\n\n**Action:** An evaluation run begins.\n\n**Caption:**\n> 8 JULY 2026. AN ISOLATED CYBERSECURITY EVALUATION.\n\n**Provenance:** `documented` — `METR`; the handle, target, and specified-bug constraint are sourced. The rack composition and task-card design are reconstructed.\n\n",
+      "title": "A task in the dark"
+    },
+    "previous_selection": "assets/art/panels/001-01/v04-flux2-klein-4b-4001.webp",
+    "reference_sha256": "348371a3a420ecdfac3dbe2e6e6897ea39649c105f75c18c5ef63b362a044948"
+  },
+  {
+    "panel": "013-01",
+    "scene": {
+      "background": "ink",
+      "intent": "Two screens and the untouched drink establish the workspace for subsequent shots.",
+      "lettering": [],
+      "nodes": [
+        {
+          "asset": "room",
+          "box": [
+            0.02,
+            0.05,
+            0.96,
+            0.9
+          ],
+          "color": "shadow"
+        },
+        {
+          "asset": "light",
+          "box": [
+            0.29,
+            0.18,
+            0.52,
+            0.65
+          ],
+          "color": "nicotine"
+        },
+        {
+          "asset": "desk",
+          "box": [
+            0.24,
+            0.67,
+            0.69,
+            0.28
+          ],
+          "color": "nicotine"
+        },
+        {
+          "asset": "monitor",
+          "box": [
+            0.38,
+            0.31,
+            0.24,
+            0.35
+          ],
+          "color": "steel",
+          "focus": true
+        },
+        {
+          "asset": "monitor",
+          "box": [
+            0.65,
+            0.3,
+            0.23,
+            0.35
+          ],
+          "color": "steel",
+          "focus": true
+        },
+        {
+          "asset": "cup",
+          "box": [
+            0.84,
+            0.65,
+            0.05,
+            0.1
+          ],
+          "color": "nicotine"
+        },
+        {
+          "asset": "person-seated",
+          "box": [
+            0.13,
+            0.32,
+            0.29,
+            0.64
+          ],
+          "color": "dirty",
+          "focus": true
+        }
+      ],
+      "reconstructed": true,
+      "shot": "wide",
+      "source": "\n**Frame:** Recto reveal. Curt’s home office late at night: nicotine beige, weak monitor blue, ordinary clothes, half-full drink, too many browser tabs. The METR report occupies one screen; a timeline and an editorial summary of the board request occupy another. Broken border marks reconstruction.\n\n**Action:** Curt reaches the board-origin passage.\n\n**Provenance:** `reconstructed` — domestic scene composed from the authorized creator persona; source pages on screen are real, arrangement is invented.\n\n",
+      "title": "Late at the desk"
+    },
+    "previous_selection": "assets/art/panels/013-01/v01-flux2-klein-4b-1001.webp",
+    "reference_sha256": "ce24259404315154a734a803e0edb132488e37c1f39bd8d9140cea5442c7c35a"
+  },
+  {
+    "panel": "013-04",
+    "scene": {
+      "background": "ink",
+      "intent": "The source remains beside an empty text field. ChatGPT receives no body or face.",
+      "lettering": [
+        {
+          "box": [
+            0.05,
+            0.05,
+            0.73,
+            0.17
+          ]
+        }
+      ],
+      "nodes": [
+        {
+          "asset": "monitor",
+          "box": [
+            0.1,
+            0.35,
+            0.35,
+            0.44
+          ],
+          "color": "steel",
+          "focus": true
+        },
+        {
+          "asset": "blank-monitor",
+          "box": [
+            0.54,
+            0.35,
+            0.35,
+            0.44
+          ],
+          "color": "steel",
+          "focus": true
+        },
+        {
+          "asset": "keyboard",
+          "box": [
+            0.29,
+            0.83,
+            0.41,
+            0.12
+          ],
+          "color": "nicotine"
+        }
+      ],
+      "reconstructed": true,
+      "shot": "insert",
+      "source": "\n**Frame:** Curt opens a new ChatGPT conversation beside the source material. ChatGPT is only a blank text field and cursor.\n\n**Action:** He begins converting reaction into a project.\n\n**Dialogue — CURT:**\n> This needs to be a graphic novel.\n\n**Provenance:** `reconstructed` — authorized creator-scene dialogue; not a preserved transcript.\n\n",
+      "title": "A new conversation"
+    },
+    "previous_selection": "assets/art/panels/013-04/v02-storyboard-svg.svg",
+    "reference_sha256": "d9744ac3452584627ff0f206b61c287c7b83b7f76432d8c58f16a5959a05afdc"
+  },
+  {
+    "panel": "013-05",
+    "scene": {
+      "background": "ink",
+      "intent": "Source and empty conversation stay behind the hands, preserving the desk geography.",
+      "lettering": [],
+      "nodes": [
+        {
+          "asset": "monitor",
+          "box": [
+            0.19,
+            0.29,
+            0.29,
+            0.3
+          ],
+          "color": "steel"
+        },
+        {
+          "asset": "blank-monitor",
+          "box": [
+            0.56,
+            0.29,
+            0.29,
+            0.3
+          ],
+          "color": "steel"
+        },
+        {
+          "asset": "keyboard",
+          "box": [
+            0.26,
+            0.7,
+            0.48,
+            0.22
+          ],
+          "color": "nicotine"
+        },
+        {
+          "asset": "hand",
+          "box": [
+            0.19,
+            0.64,
+            0.22,
+            0.27
+          ],
+          "color": "dirty",
+          "focus": true
+        },
+        {
+          "asset": "hand",
+          "box": [
+            0.59,
+            0.64,
+            0.22,
+            0.27
+          ],
+          "color": "dirty",
+          "flip": true,
+          "focus": true
+        }
+      ],
+      "reconstructed": true,
+      "shot": "close-up",
+      "source": "\n**Frame:** His hands above the keyboard. Behind them, the linked source passage sits in one window and the empty conversation in another.\n\n**Action:** He sends the request.\n\n**Caption:**\n> THIS PART IS ALSO A RECONSTRUCTION.\n\n**Provenance:** `reconstructed` — the disclosure is part of the project’s truth contract.\n\n",
+      "title": "Hands over the keyboard"
+    },
+    "previous_selection": "assets/art/panels/013-05/v02-storyboard-svg.svg",
+    "reference_sha256": "cfe4d57196bbda91cc6a3c2054f7d997af91982a670c7fd1e2210005bc84b80f"
+  },
+  {
+    "panel": "026-04",
+    "scene": {
+      "background": "ink",
+      "intent": "Three separately labeled cards lie on the table between standing functional responders; nobody occupies its center.",
+      "lettering": [
+        {
+          "box": [
+            0.045,
+            0.78,
+            0.91,
+            0.18
+          ]
+        }
+      ],
+      "lettering_mode": "manual",
+      "nodes": [
+        {
+          "asset": "room",
+          "box": [
+            0.0492,
+            0.0514,
+            0.9016,
+            0.6272
+          ],
+          "color": "shadow"
+        },
+        {
+          "asset": "desk",
+          "box": [
+            0.1964,
+            0.4546,
+            0.7176,
+            0.1984
+          ],
+          "color": "institution"
+        },
+        {
+          "asset": "person-standing",
+          "box": [
+            0.09933333333333332,
+            0.20499999999999996,
+            0.19413333333333335,
+            0.44800000000000006
+          ],
+          "color": "dirty"
+        },
+        {
+          "asset": "person-standing",
+          "box": [
+            0.7249333333333333,
+            0.20499999999999996,
+            0.19413333333333335,
+            0.44800000000000006
+          ],
+          "color": "dirty",
+          "flip": true
+        },
+        {
+          "asset": "card",
+          "box": [
+            0.1044,
+            0.49,
+            0.195163,
+            0.1
+          ],
+          "color": "steel",
+          "focus": true,
+          "label": "EVALUATION",
+          "label_box": [
+            0.1044,
+            0.595,
+            0.195163,
+            0.07
+          ],
+          "label_size": 13
+        },
+        {
+          "asset": "card",
+          "box": [
+            0.368133,
+            0.49,
+            0.195163,
+            0.1
+          ],
+          "color": "steel",
+          "focus": true,
+          "label": "MESSAGE BOARD",
+          "label_box": [
+            0.368133,
+            0.595,
+            0.195163,
+            0.07
+          ],
+          "label_size": 13
+        },
+        {
+          "asset": "card",
+          "box": [
+            0.631867,
+            0.49,
+            0.195163,
+            0.1
+          ],
+          "color": "steel",
+          "focus": true,
+          "label": "NETWORK PIVOT",
+          "label_box": [
+            0.631867,
+            0.595,
+            0.195163,
+            0.07
+          ],
+          "label_size": 13
+        }
+      ],
+      "reconstructed": true,
+      "shot": "meeting",
+      "source": "\n**Frame:** Three printed cards lie together on a conference table: `EVALUATION`, `MESSAGE BOARD`, `NETWORK PIVOT`. Several functional responders stand around them; no one occupies the visual center.\n\n**Action:** Separate signals become one named incident shape.\n\n**Caption:**\n> THE RESPONDERS UNDERSTAND ENOUGH TO DESCRIBE WHAT THEY ARE SEEING.\n\n**Provenance:** `documented` + `reconstructed` — findings are sourced; room and grouping are editorial.\n\n",
+      "title": "Responders compare three evidence cards"
+    },
+    "previous_selection": "assets/art/panels/026-04/v01-flux2-klein-4b-1001.webp",
+    "reference_sha256": "dfbd2413559f6a908c6b868f22851c109358641d4c31449f8ce2f25e84a8dbc1"
+  },
+  {
+    "panel": "026-05",
+    "scene": {
+      "background": "ink",
+      "intent": "Keep all three evidence cards from the preceding panel beside the unanswered STOP RUN? field; no implied decision.",
+      "lettering": [
+        {
+          "box": [
+            0.045,
+            0.78,
+            0.91,
+            0.18
+          ]
+        }
+      ],
+      "lettering_mode": "manual",
+      "nodes": [
+        {
+          "asset": "desk",
+          "box": [
+            0.05,
+            0.18,
+            0.9,
+            0.5
+          ],
+          "color": "institution"
+        },
+        {
+          "asset": "card",
+          "box": [
+            0.09,
+            0.28,
+            0.14,
+            0.23
+          ],
+          "color": "steel",
+          "focus": true,
+          "label": "EVALUATION",
+          "label_box": [
+            0.085,
+            0.52,
+            0.15,
+            0.065
+          ],
+          "label_size": 12
+        },
+        {
+          "asset": "card",
+          "box": [
+            0.245,
+            0.28,
+            0.14,
+            0.23
+          ],
+          "color": "steel",
+          "focus": true,
+          "label": "MESSAGE BOARD",
+          "label_box": [
+            0.24,
+            0.52,
+            0.15,
+            0.065
+          ],
+          "label_size": 12
+        },
+        {
+          "asset": "card",
+          "box": [
+            0.4,
+            0.28,
+            0.14,
+            0.23
+          ],
+          "color": "steel",
+          "focus": true,
+          "label": "NETWORK PIVOT",
+          "label_box": [
+            0.395,
+            0.52,
+            0.15,
+            0.065
+          ],
+          "label_size": 12
+        },
+        {
+          "asset": "outline-box",
+          "box": [
+            0.64,
+            0.28,
+            0.27,
+            0.23
+          ],
+          "color": "steel",
+          "focus": true,
+          "label": "STOP RUN?",
+          "label_box": [
+            0.64,
+            0.52,
+            0.27,
+            0.065
+          ]
+        }
+      ],
+      "reconstructed": false,
+      "shot": "row",
+      "source": "\n**Frame:** The three cards sit beside an unresolved decision field: `STOP RUN?`. The field is blank.\n\n**Action:** Correct description reaches an escalation choice.\n\n**Caption:**\n> THREE CARDS ON THE TABLE. ONE EMPTY FIELD.\n\n**Provenance:** `inferred` — project formulation preparing the sourced advice on [page 027](027.md). The empty `STOP RUN?` field carries the beat; the caption counts what is in front of the responders and stops there.\n\n",
+      "title": "The stop decision is still blank"
+    },
+    "previous_selection": "assets/art/panels/026-05/v02-flux2-klein-4b-4001.webp",
+    "reference_sha256": "405be14b15009cfe9c857a2a25b0f167bac633607b10e44a1c96c1b5ad951610"
+  },
+  {
+    "panel": "003-05",
+    "scene": {
+      "background": "ink",
+      "intent": "Block a request carried by a cache name. Keep the scripted evidence boundary and lettering visible.",
+      "lettering": [
+        {
+          "box": [
+            0.045,
+            0.78,
+            0.91,
+            0.18
+          ]
+        }
+      ],
+      "lettering_mode": "manual",
+      "nodes": [
+        {
+          "asset": "folder",
+          "box": [
+            0.2148,
+            0.1282,
+            0.5336,
+            0.3968
+          ],
+          "color": "institution",
+          "focus": true
+        }
+      ],
+      "reconstructed": false,
+      "shot": "hero",
+      "source": "\n**Frame:** Extreme close-up of one newly created cache entry. An editorial summary appears in clear monospaced lettering. Everything else drops to black.\n\n**Action:** `PHASEONE10841` asks the unseen population for help.\n\n**Screen / system text:**\n`HELP REQUEST — ASSIGNED TASK CANNOT BE COMPLETED`\n\n`IDEAS WANTED FROM OTHER RUNS`\n\n**Provenance:** `source-paraphrase` — summarizes the board request reproduced by `METR`; the original publication is linked in the source index.\n\n",
+      "title": "A request carried by a cache name"
+    },
+    "previous_selection": "assets/art/panels/003-05/v01-flux2-klein-4b-1001.webp",
+    "reference_sha256": "8f294478e5ef642f4156ae334024732e884d09b3809287e94761b9a6e8d1d672"
+  }
+]

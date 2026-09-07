@@ -1,6 +1,6 @@
 {
   "background": "ink",
-  "intent": "Block the stop decision is still blank. Keep the scripted evidence boundary and lettering visible.",
+  "intent": "Keep all three evidence cards from the preceding panel beside the unanswered STOP RUN? field; no implied decision.",
   "lettering": [
     {
       "box": [
@@ -14,39 +14,88 @@
   "lettering_mode": "manual",
   "nodes": [
     {
+      "asset": "desk",
+      "box": [
+        0.05,
+        0.18,
+        0.9,
+        0.5
+      ],
+      "color": "institution"
+    },
+    {
       "asset": "card",
       "box": [
-        0.1044,
-        0.2242,
-        0.292744,
-        0.256
+        0.09,
+        0.28,
+        0.14,
+        0.23
       ],
       "color": "steel",
       "focus": true,
-      "label": "EVIDENCE",
+      "label": "EVALUATION",
       "label_box": [
-        0.09640000000000001,
-        0.4862,
-        0.308744,
-        0.085
-      ]
+        0.085,
+        0.52,
+        0.15,
+        0.065
+      ],
+      "label_size": 12
+    },
+    {
+      "asset": "card",
+      "box": [
+        0.245,
+        0.28,
+        0.14,
+        0.23
+      ],
+      "color": "steel",
+      "focus": true,
+      "label": "MESSAGE BOARD",
+      "label_box": [
+        0.24,
+        0.52,
+        0.15,
+        0.065
+      ],
+      "label_size": 12
+    },
+    {
+      "asset": "card",
+      "box": [
+        0.4,
+        0.28,
+        0.14,
+        0.23
+      ],
+      "color": "steel",
+      "focus": true,
+      "label": "NETWORK PIVOT",
+      "label_box": [
+        0.395,
+        0.52,
+        0.15,
+        0.065
+      ],
+      "label_size": 12
     },
     {
       "asset": "outline-box",
       "box": [
-        0.5,
-        0.2242,
-        0.292744,
-        0.256
+        0.64,
+        0.28,
+        0.27,
+        0.23
       ],
       "color": "steel",
       "focus": true,
       "label": "STOP RUN?",
       "label_box": [
-        0.492,
-        0.4862,
-        0.308744,
-        0.085
+        0.64,
+        0.52,
+        0.27,
+        0.065
       ]
     }
   ],

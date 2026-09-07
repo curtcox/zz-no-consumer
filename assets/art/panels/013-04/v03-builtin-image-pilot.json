@@ -1,0 +1,26 @@
+{
+  "id": "013-04",
+  "panel": "013-04",
+  "source_file": "/Users/curtcox/.codex/generated_images/01a07d11-50c8-7693-bcf5-84b666f77385/exec-2aca2363-e8e0-4bd2-b349-cae6d48f4b1d.png",
+  "elapsed_seconds": 51.775,
+  "prompt": "Use case: illustration-story. Create one landscape 3:2 graphic-novel panel, ideally 1536x1024. Refine the supplied flat storyboard into mature hand-inked investigative comic art: heavy brush and nib blacks, dry-brush abrasion, subtle halftone, dirty paper grain, plausible perspective, matte ordinary materials. Preserve subject placement and negative space. Reference is composition blocking, not the desired flat-vector finish. Remove the outer frame/broken border; production adds borders and lettering separately. Edge-to-edge single scene, no page layout, captions, balloons, slates, watermarks, logos or invented glyphs. Draw only the explicitly requested labels exactly; never copy the board's horizontal placeholder strokes as fake words. Dominant charcoal #101214 and #202326 with paper #E7E0D0 and muted steel #5E737B. No neon, glow, dramatic hero lighting, glossy render or embodied software.\n\nCloser straight-on view of the same creator desk. First reference fixes composition: two equal external monitors, source left and empty conversation right, ordinary keyboard at bottom. Second reference is the rendered office establishing materials, device designs and warm lamp light; reuse them. Left screen has only abstract document layout and blank tabs, no fake glyphs. Right screen is blank except one small insertion cursor and a simple empty input field. No ChatGPT face, avatar or logo. Small centered laptop can be low/partially cropped, subordinate to the two monitors. No hands or people in this shot. Preserve upper-left box x=.05,y=.05,w=.73,h=.17 as dark empty space for dialogue overlay. No lettering in that box.\nIgnore unwanted tiny UI glyphs or printer markings in the style reference. All screens and hardware markings must be completely unlettered, except the explicitly specified card headings. Abstract document blocks must be plain solid rectangles, never rows of pseudo-writing.",
+  "references": [
+    "/Users/curtcox/me/zz-no-consumer/research/art-pilot-2026-09-07/references/013-04.png",
+    "/Users/curtcox/.codex/generated_images/01a07d11-50c8-7693-bcf5-84b666f77385/exec-dc1e03da-b3d8-43e4-a7ee-55df1096e63a.png"
+  ],
+  "tool": "image_gen.imagegen",
+  "model_revision": null,
+  "seed": null,
+  "controls": "Tool did not expose model revision, seed, sampler, strength, or billing. PNG output requested at 3:2; actual dimensions measured on import.",
+  "stored_file": "assets/art/panels/013-04/v03-builtin-image-pilot.png",
+  "variant": "v03",
+  "sha256": "d453e29ce6f28b69b773867aacd219f5ff9004eac537fac75d02684377f2d413",
+  "dimensions": [
+    "1536",
+    "1024"
+  ],
+  "reference_hashes": [
+    "d9744ac3452584627ff0f206b61c287c7b83b7f76432d8c58f16a5959a05afdc",
+    "df0af57f13b4dd6892cb8fea8d6c0822f1fcaad03bfa4a000656dc65add86cf3"
+  ]
+}

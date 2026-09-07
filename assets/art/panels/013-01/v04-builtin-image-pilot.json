@@ -1,0 +1,24 @@
+{
+  "id": "013-01",
+  "panel": "013-01",
+  "source_file": "/Users/curtcox/.codex/generated_images/01a07d11-50c8-7693-bcf5-84b666f77385/exec-dc1e03da-b3d8-43e4-a7ee-55df1096e63a.png",
+  "elapsed_seconds": 92.881,
+  "prompt": "Use case: illustration-story. Create one landscape 3:2 graphic-novel panel, ideally 1536x1024. Refine the supplied flat storyboard into mature hand-inked investigative comic art: heavy brush and nib blacks, dry-brush abrasion, subtle halftone, dirty paper grain, plausible perspective, matte ordinary materials. Preserve subject placement and negative space. Reference is composition blocking, not the desired flat-vector finish. Remove the outer frame/broken border; production adds borders and lettering separately. Edge-to-edge single scene, no page layout, captions, balloons, slates, watermarks, logos or invented glyphs. Draw only the explicitly requested labels exactly; never copy the board's horizontal placeholder strokes as fake words. Dominant charcoal #101214 and #202326 with paper #E7E0D0 and muted steel #5E737B. No neon, glow, dramatic hero lighting, glossy render or embodied software.\n\nReconstructed creator office, wide over-shoulder view from doorway. Adult creator seated toward left in ordinary gray long sleeves, seen from behind with face fully hidden, no identifiable portrait. Desk against dark wall: two external monitors toward center/right, small laptop centered below, desk lamp camera-left, half-full transparent drink camera-right, printer behind chair with very sparse paper. Nicotine-beige #AA9571 practical lamplight, weak steel monitor light. Left screen shows abstract document layout with many small blank tab shapes, right screen an abstract timeline and blank summary field. No legible source text, no fake glyphs, no logos. Keep monitor proportions and geography reusable for later close shots. No industrial racks. Upper-left remains dark.",
+  "references": [
+    "/Users/curtcox/me/zz-no-consumer/research/art-pilot-2026-09-07/references/013-01.png"
+  ],
+  "tool": "image_gen.imagegen",
+  "model_revision": null,
+  "seed": null,
+  "controls": "Tool did not expose model revision, seed, sampler, strength, or billing. PNG output requested at 3:2; actual dimensions measured on import.",
+  "stored_file": "assets/art/panels/013-01/v04-builtin-image-pilot.png",
+  "variant": "v04",
+  "sha256": "df0af57f13b4dd6892cb8fea8d6c0822f1fcaad03bfa4a000656dc65add86cf3",
+  "dimensions": [
+    "1536",
+    "1024"
+  ],
+  "reference_hashes": [
+    "ce24259404315154a734a803e0edb132488e37c1f39bd8d9140cea5442c7c35a"
+  ]
+}
