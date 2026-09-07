@@ -70,3 +70,13 @@ Two further built-in image calls corrected the task-card hierarchy in 001-01 and
 Exact prompts, output and reference hashes, dimensions, tool limitations, and saved paths are in [opening-followup.json](opening-followup.json) and immutable image sidecars. Both generated images are 1536×1024 PNGs. The first call's elapsed time is rounded from tool timing; the second is measured around the call. Previous versions remain available.
 
 The complete storyboard check passed before changes. After import and selection, the site build, complete built storyboard check, lettering audit, viewer validator, and built page-link check passed. Rasterized lettered outputs were visually inspected: captions clear both task cards, the corrected header remains legible, and the success field remains empty. No manuscript, scene geometry, commit, push, or deployment changes were made in this batch.
+
+## Institutional sequence continuation
+
+The opening follow-up was subsequently committed as `091152e2` and pushed to origin/main at the user's request. An empty index lock (inode `62751244`) blocked staging. Fresh host-level process and open-handle checks found no Git process or owner; the same inode, size and precise modification time were checked immediately before removal. Staging, commit and push then succeeded. The lock creator remains unknown.
+
+Two further built-in image calls generated 026-01 v05 and 026-02 v05, both provisionally selected at refined stage. The first restores the scripted anonymous responder tracing workload identification through the scheduler to ExploitGym. The second shows abstract request history beside note objects, with moss confined to the communication objects. Both use 026-04 v05 as the institutional style reference. Blank fields and bars are deliberate abstractions, not reproduced source interfaces. No final approval or whole-page continuity approval is implied; 026-03 remains outside this batch.
+
+Exact prompts, reference hashes, dimensions, output hashes, elapsed call times and tool limitations are preserved in [institution-followup.json](institution-followup.json) and each immutable PNG's JSON sidecar. Both outputs are 1536×1024. Previous candidates remain available.
+
+The complete storyboard check passed before generation. The rebuilt site's complete storyboard check, lettering audit, viewer validation and built page-link check passed afterwards. Rasterized lettered versions were inspected: both captions fit and leave all labels, identification connections and note objects unobscured. Manuscript and scene geometry were unchanged. These two new institutional images and their regenerated reader outputs remain uncommitted.

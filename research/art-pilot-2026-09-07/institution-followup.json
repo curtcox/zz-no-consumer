@@ -1,0 +1,48 @@
+[
+  {
+    "panel": "026-01",
+    "prompt": "Use case: illustration-story. One landscape 1536x1024 graphic-novel panel. Input image is STYLE AND INSTITUTIONAL ROOM REFERENCE only, not composition to copy. Same ordinary fluorescent-lit procedural room, gray laminate surfaces, charcoal brush-and-nib ink, dirty paper, restrained halftone and dry-brush texture. Scene: over-shoulder close view of an anonymous security responder in a plain pale shirt, cropped at left with face unseen, tracing an alert into an evaluation scheduler on a modest desktop monitor. Screen dominates center-right and contains exactly three large simple fields in left-to-right order, headed exactly WORKLOAD ID, SCHEDULER, EXPLOITGYM; thin neutral steel connectors convey identification, no hacking process. Fields beneath headings blank. One ordinary hand points near scheduler field without obscuring text. Workstation believable and unglamorous. Frame subjects in upper 70%; bottom 25% near-black empty for later caption. Dominant charcoal #101214, dirty paper #E7E0D0, desaturated steel #5E737B and institution gray-green #68766B. No moss, claret, amber, neon, logos, codes, commands, URLs, credentials, pseudo-writing, other glyphs, dramatic lighting, villain or hero pose. No captions, balloons, outer border or inset panels. This is reconstructed visualization, not copied source UI.",
+    "elapsed_seconds": 30.701,
+    "source_file": "/Users/curtcox/.codex/generated_images/01a07d3b-83f6-77e3-b006-39f2f4ad8687/exec-9e23185d-1536-4799-9054-90be7a04534f.png",
+    "references": [
+      "assets/art/panels/026-04/v05-builtin-image-pilot.png"
+    ],
+    "stored_file": "assets/art/panels/026-01/v05-builtin-image-pilot.png",
+    "variant": "v05",
+    "sha256": "7b31373571f39f9fa99c3ad40e2496e38c57abe76c2fc70cbdcd8b55afb8e207",
+    "dimensions": [
+      1536,
+      1024
+    ],
+    "tool": "image_gen.imagegen",
+    "model_revision": null,
+    "seed": null,
+    "controls": "Model revision, seed, sampler, strength and billing unavailable.",
+    "reference_hashes": [
+      "f67d7df528cf6aacd65857a4f779db9d8659cf11b182e813426f0b38b842b169"
+    ]
+  },
+  {
+    "panel": "026-02",
+    "prompt": "Use case: illustration-story. One landscape 1536x1024 hand-inked investigative comic panel. Input image is STYLE / ordinary institutional material reference only. Close on a modest desktop monitor in the same gray fluorescent office, screen nearly flat to camera and occupying upper 70% of image. Show two simple reconstructed interface areas side by side. Left heading exactly HISTORY; beneath it four widely spaced plain neutral rectangular bars representing Artifactory request history, no text or glyphs in bars. Right heading exactly NOTES; beneath it four plain file-note rectangles, without words, code or fake prose. A single thin muted moss-green #74864F edge on each note rectangle marks only these communication objects. No green elsewhere. Monitor hardware matte and ordinary, no brand, no buttons with text. No humans necessary. Dirty off-white, charcoal #101214, desaturated steel #5E737B, dry brush, heavy nib shadows, restrained halftone. Bottom 25% near-black and empty for later caption. No causal arrow to anything external, no later incident consequence, no payloads, paths, URLs, timestamps, invented glyphs, logos, neon, glow, claret or amber. No speech balloons, captions, outer panel border or multiple panels. Readable distinction of history and notes is primary; interface bodies deliberately abstract, not source quotation.",
+    "elapsed_seconds": 55.837,
+    "source_file": "/Users/curtcox/.codex/generated_images/01a07d3b-83f6-77e3-b006-39f2f4ad8687/exec-98979080-48fb-42ce-8bde-bebc8e129de3.png",
+    "references": [
+      "assets/art/panels/026-04/v05-builtin-image-pilot.png"
+    ],
+    "stored_file": "assets/art/panels/026-02/v05-builtin-image-pilot.png",
+    "variant": "v05",
+    "sha256": "22c1ac40fbd8dab5a7d19a1a21f352cd680079a96822d77b8747356414f867c7",
+    "dimensions": [
+      1536,
+      1024
+    ],
+    "tool": "image_gen.imagegen",
+    "model_revision": null,
+    "seed": null,
+    "controls": "Model revision, seed, sampler, strength and billing unavailable.",
+    "reference_hashes": [
+      "f67d7df528cf6aacd65857a4f779db9d8659cf11b182e813426f0b38b842b169"
+    ]
+  }
+]

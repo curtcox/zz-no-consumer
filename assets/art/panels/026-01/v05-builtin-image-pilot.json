@@ -1,0 +1,23 @@
+{
+  "panel": "026-01",
+  "prompt": "Use case: illustration-story. One landscape 1536x1024 graphic-novel panel. Input image is STYLE AND INSTITUTIONAL ROOM REFERENCE only, not composition to copy. Same ordinary fluorescent-lit procedural room, gray laminate surfaces, charcoal brush-and-nib ink, dirty paper, restrained halftone and dry-brush texture. Scene: over-shoulder close view of an anonymous security responder in a plain pale shirt, cropped at left with face unseen, tracing an alert into an evaluation scheduler on a modest desktop monitor. Screen dominates center-right and contains exactly three large simple fields in left-to-right order, headed exactly WORKLOAD ID, SCHEDULER, EXPLOITGYM; thin neutral steel connectors convey identification, no hacking process. Fields beneath headings blank. One ordinary hand points near scheduler field without obscuring text. Workstation believable and unglamorous. Frame subjects in upper 70%; bottom 25% near-black empty for later caption. Dominant charcoal #101214, dirty paper #E7E0D0, desaturated steel #5E737B and institution gray-green #68766B. No moss, claret, amber, neon, logos, codes, commands, URLs, credentials, pseudo-writing, other glyphs, dramatic lighting, villain or hero pose. No captions, balloons, outer border or inset panels. This is reconstructed visualization, not copied source UI.",
+  "elapsed_seconds": 30.701,
+  "source_file": "/Users/curtcox/.codex/generated_images/01a07d3b-83f6-77e3-b006-39f2f4ad8687/exec-9e23185d-1536-4799-9054-90be7a04534f.png",
+  "references": [
+    "assets/art/panels/026-04/v05-builtin-image-pilot.png"
+  ],
+  "stored_file": "assets/art/panels/026-01/v05-builtin-image-pilot.png",
+  "variant": "v05",
+  "sha256": "7b31373571f39f9fa99c3ad40e2496e38c57abe76c2fc70cbdcd8b55afb8e207",
+  "dimensions": [
+    1536,
+    1024
+  ],
+  "tool": "image_gen.imagegen",
+  "model_revision": null,
+  "seed": null,
+  "controls": "Model revision, seed, sampler, strength and billing unavailable.",
+  "reference_hashes": [
+    "f67d7df528cf6aacd65857a4f779db9d8659cf11b182e813426f0b38b842b169"
+  ]
+}

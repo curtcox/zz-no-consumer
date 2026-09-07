@@ -307,10 +307,12 @@ panel	variant	file	provider	seed	width	height	bytes	created	status	note	stage
 026-01	v02	assets/art/panels/026-01/v02-flux2-klein-4b-1001.webp	flux2-klein-4b	1001	1200	800	222858	2026-09-05T19:55:08+00:00	candidate	drawn 5 Sep 2026 with the reverted panel-first prompt arrangement, not the committed composer	refined
 026-01	v03	assets/art/panels/026-01/v03-storyboard-svg.svg	storyboard-svg		1200	800	5682	2026-09-07T16:49:08+00:00	candidate		storyboard
 026-01	v04	assets/art/panels/026-01/v04-storyboard-svg.svg	storyboard-svg		1200	800	6050	2026-09-07T16:55:07+00:00	candidate		storyboard
+026-01	v05	assets/art/panels/026-01/v05-builtin-image-pilot.png	builtin-image-pilot		1536	1024	2913835	2026-09-07T19:06:30+00:00	chosen	Institution pilot: anonymous responder traces workload through scheduler to ExploitGym; exact labels and caption clearance; provisional.	refined
 026-02	v01	assets/art/panels/026-02/v01-flux2-klein-4b-4001.webp	flux2-klein-4b	4001	1200	800	437056	2026-09-03T19:05:31+00:00	candidate		refined
 026-02	v02	assets/art/panels/026-02/v02-flux2-klein-4b-4001.webp	flux2-klein-4b	4001	1200	800	399172	2026-09-03T21:00:14+00:00	candidate		refined
 026-02	v03	assets/art/panels/026-02/v03-storyboard-svg.svg	storyboard-svg		1200	800	3882	2026-09-07T16:49:08+00:00	candidate		storyboard
 026-02	v04	assets/art/panels/026-02/v04-storyboard-svg.svg	storyboard-svg		1200	800	4128	2026-09-07T16:55:07+00:00	candidate		storyboard
+026-02	v05	assets/art/panels/026-02/v05-builtin-image-pilot.png	builtin-image-pilot		1536	1024	2656295	2026-09-07T19:06:31+00:00	chosen	Institution pilot: abstract history and notes; moss limited to communication objects; provisional.	refined
 026-03	v01	assets/art/panels/026-03/v01-storyboard-svg.svg	storyboard-svg		1200	800	5710	2026-09-07T16:49:08+00:00	candidate		storyboard
 026-03	v02	assets/art/panels/026-03/v02-storyboard-svg.svg	storyboard-svg		1200	800	6078	2026-09-07T16:55:07+00:00	candidate		storyboard
 026-04	v01	assets/art/panels/026-04/v01-flux2-klein-4b-1001.webp	flux2-klein-4b	1001	1200	800	219630	2026-09-05T19:03:02+00:00	candidate		refined
