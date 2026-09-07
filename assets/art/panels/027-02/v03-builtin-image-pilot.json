@@ -1,0 +1,25 @@
+{
+  "panel": "027-02",
+  "border": false,
+  "references": [
+    "assets/art/panels/027-01/v04-builtin-image-pilot.png"
+  ],
+  "prompt": "Use case: illustration-story. One landscape 1536x1024 graphic-novel panel. Reference supplies the established gray laminate table, landscape evidence cards, and hand-inked institutional style. Close oblique tabletop view of the MESSAGE BOARD card and a separate NETWORK PIVOT diagram. Both objects occupy LEFT 52% of image, between y=38% and y=85%. Card at lower-left, exact heading MESSAGE BOARD, blank body. Adjacent handled paper landscape sheet headed exactly NETWORK PIVOT, containing only a simple abstract diagram of three empty rectangular nodes connected left to right; middle node sits across a single boundary line, no branches, code or added labels. This schematic illustrates the already established pivot, no new incident detail. Upper RIGHT area x=58-97%, y=0-36% must be almost entirely dark quiet negative space for two later dialogue boxes; no essential objects there. Preserve scuffed gray laminate, dirty paper #E7E0D0, charcoal #101214, muted steel #5E737B, nib-and-brush contours, dry brush and restrained halftone. No people needed in this close crop. No stop decision, extra text, pseudo-writing, paths, commands, logos, source screenshots, neon, colored warning, caption boxes, speech balloons or outer border. Production adds dialogue and controlled broken reconstruction border separately.",
+  "elapsed_seconds": 26.631,
+  "source_file": "/Users/curtcox/.codex/generated_images/01a07d3b-83f6-77e3-b006-39f2f4ad8687/exec-f45c9a44-2179-4a31-9f0e-2a8b0531dfd7.png",
+  "rejected": true,
+  "stored_file": "assets/art/panels/027-02/v03-builtin-image-pilot.png",
+  "variant": "v03",
+  "sha256": "a3a455b145615a308d40162ae90995c1c60c2c917f745c9ed8e63392e0a2ff2e",
+  "dimensions": [
+    1536,
+    1024
+  ],
+  "tool": "image_gen.imagegen",
+  "model_revision": null,
+  "seed": null,
+  "controls": "Model revision, seed, sampler, strength and billing unavailable.",
+  "reference_hashes": [
+    "05d9fd0fdfa9134a613787e7dd33a6ab6b6c4b1260c1f3e47bbf09e8f6c73764"
+  ]
+}

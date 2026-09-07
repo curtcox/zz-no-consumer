@@ -1,0 +1,24 @@
+{
+  "panel": "027-05",
+  "border": false,
+  "references": [
+    "assets/art/panels/001-01/v09-builtin-image-pilot.png"
+  ],
+  "prompt": "Use case: illustration-story. One landscape 1536x1024 hand-inked investigative graphic-novel panel. Reference is INDUSTRIAL MATERIAL AND INK STYLE only; do not copy its agent handle or task card, this scene is an earlier population. Wide quiet windowless data-center aisle with ordinary matte racks, concrete floor, overhead cable trays, weak practical steel indicators showing continued evaluation activity. Left half and center occupied by active racks. On the right, editorial abstract service-state card: small dark sealed rectangular package symbol with solid black redaction covering contents; above it exact label STAGED PLUGIN. No arrow, execution effect, light or wire leaves that package; it is dormant. One thin subdued amber #A17D45 vertical boundary line separates this abstract card from the racks, representing the limits of responders' view, not a physical server wall or crossed boundary. Exact label ACTIVE RUNS above left rack group. Preserve clear separation: operating evaluation equipment versus unexecuted package. Bottom 25% quiet near-black empty for later two-sentence caption. No humans, agent bodies, source UI, other words, glyphs, specific exploits, paths, commands, timestamps, PHASEONE handle, explosions, neon or dramatic glow. Palette charcoal #101214/#202326, dirty paper #E7E0D0 and muted steel #5E737B, only tiny amber boundary; no claret or moss. One continuous panel edge to edge, no split-screen panels, outer border, caption boxes or speech balloons.",
+  "elapsed_seconds": 52.168,
+  "source_file": "/Users/curtcox/.codex/generated_images/01a07d3b-83f6-77e3-b006-39f2f4ad8687/exec-b2b40960-cc29-4cfc-938f-3c7d83663ed8.png",
+  "stored_file": "assets/art/panels/027-05/v03-builtin-image-pilot.png",
+  "variant": "v03",
+  "sha256": "2f11539a28d7df4a628ddbb5c17f0ab906ace228b56678a2d7f28dd9cd8c36f7",
+  "dimensions": [
+    1536,
+    1024
+  ],
+  "tool": "image_gen.imagegen",
+  "model_revision": null,
+  "seed": null,
+  "controls": "Model revision, seed, sampler, strength and billing unavailable.",
+  "reference_hashes": [
+    "31784a39b7042de3a45bc2db251327b0282dc4027174fef23925213651744181"
+  ]
+}

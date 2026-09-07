@@ -1,0 +1,79 @@
+[
+  {
+    "panel": "027-02",
+    "border": false,
+    "references": [
+      "assets/art/panels/027-01/v04-builtin-image-pilot.png"
+    ],
+    "prompt": "Use case: illustration-story. One landscape 1536x1024 graphic-novel panel. Reference supplies the established gray laminate table, landscape evidence cards, and hand-inked institutional style. Close oblique tabletop view of the MESSAGE BOARD card and a separate NETWORK PIVOT diagram. Both objects occupy LEFT 52% of image, between y=38% and y=85%. Card at lower-left, exact heading MESSAGE BOARD, blank body. Adjacent handled paper landscape sheet headed exactly NETWORK PIVOT, containing only a simple abstract diagram of three empty rectangular nodes connected left to right; middle node sits across a single boundary line, no branches, code or added labels. This schematic illustrates the already established pivot, no new incident detail. Upper RIGHT area x=58-97%, y=0-36% must be almost entirely dark quiet negative space for two later dialogue boxes; no essential objects there. Preserve scuffed gray laminate, dirty paper #E7E0D0, charcoal #101214, muted steel #5E737B, nib-and-brush contours, dry brush and restrained halftone. No people needed in this close crop. No stop decision, extra text, pseudo-writing, paths, commands, logos, source screenshots, neon, colored warning, caption boxes, speech balloons or outer border. Production adds dialogue and controlled broken reconstruction border separately.",
+    "elapsed_seconds": 26.631,
+    "source_file": "/Users/curtcox/.codex/generated_images/01a07d3b-83f6-77e3-b006-39f2f4ad8687/exec-f45c9a44-2179-4a31-9f0e-2a8b0531dfd7.png",
+    "rejected": true,
+    "stored_file": "assets/art/panels/027-02/v03-builtin-image-pilot.png",
+    "variant": "v03",
+    "sha256": "a3a455b145615a308d40162ae90995c1c60c2c917f745c9ed8e63392e0a2ff2e",
+    "dimensions": [
+      1536,
+      1024
+    ],
+    "tool": "image_gen.imagegen",
+    "model_revision": null,
+    "seed": null,
+    "controls": "Model revision, seed, sampler, strength and billing unavailable.",
+    "reference_hashes": [
+      "05d9fd0fdfa9134a613787e7dd33a6ab6b6c4b1260c1f3e47bbf09e8f6c73764"
+    ]
+  },
+  {
+    "panel": "027-02",
+    "border": true,
+    "prompt": "Edit only the two paper objects in the lower half of this image. The MESSAGE BOARD card must be a WIDE LANDSCAPE card, approximately 1.7 times as wide as tall, matching the established evidence-card prop; currently it is portrait, which is wrong. Resize/reframe it into a landscape card at lower left and shift the NETWORK PIVOT sheet slightly right as needed so objects do not overlap. Preserve exact headings, the simple three-node pivot diagram and dashed boundary, gray laminate tabletop, ink texture, lighting and dark empty upper-right area for later dialogue. Do not add holes, binder hardware, borders around the panel, letters, captions or balloons. Preserve one continuous landscape 1536x1024 image.",
+    "references": [
+      "assets/art/panels/027-02/v03-builtin-image-pilot.png"
+    ],
+    "elapsed_seconds": 17.645,
+    "source_file": "/Users/curtcox/.codex/generated_images/01a07d3b-83f6-77e3-b006-39f2f4ad8687/exec-5c8471c3-7fe5-4b98-a163-d8978a835271.png",
+    "stored_file": "assets/art/panels/027-02/v04-builtin-image-pilot.png",
+    "variant": "v04",
+    "sha256": "c9e4bddb8cd94c9a16a07aaed5612b55460dd8c44d21bc8ca1d2542201a4c812",
+    "dimensions": [
+      1536,
+      1024
+    ],
+    "tool": "image_gen.imagegen",
+    "model_revision": null,
+    "seed": null,
+    "controls": "Model revision, seed, sampler, strength and billing unavailable.",
+    "reference_hashes": [
+      "a3a455b145615a308d40162ae90995c1c60c2c917f745c9ed8e63392e0a2ff2e"
+    ],
+    "selected_file": "assets/art/panels/027-02/v05-pilot-border.svg",
+    "selected_variant": "v05"
+  },
+  {
+    "panel": "027-05",
+    "border": false,
+    "references": [
+      "assets/art/panels/001-01/v09-builtin-image-pilot.png"
+    ],
+    "prompt": "Use case: illustration-story. One landscape 1536x1024 hand-inked investigative graphic-novel panel. Reference is INDUSTRIAL MATERIAL AND INK STYLE only; do not copy its agent handle or task card, this scene is an earlier population. Wide quiet windowless data-center aisle with ordinary matte racks, concrete floor, overhead cable trays, weak practical steel indicators showing continued evaluation activity. Left half and center occupied by active racks. On the right, editorial abstract service-state card: small dark sealed rectangular package symbol with solid black redaction covering contents; above it exact label STAGED PLUGIN. No arrow, execution effect, light or wire leaves that package; it is dormant. One thin subdued amber #A17D45 vertical boundary line separates this abstract card from the racks, representing the limits of responders' view, not a physical server wall or crossed boundary. Exact label ACTIVE RUNS above left rack group. Preserve clear separation: operating evaluation equipment versus unexecuted package. Bottom 25% quiet near-black empty for later two-sentence caption. No humans, agent bodies, source UI, other words, glyphs, specific exploits, paths, commands, timestamps, PHASEONE handle, explosions, neon or dramatic glow. Palette charcoal #101214/#202326, dirty paper #E7E0D0 and muted steel #5E737B, only tiny amber boundary; no claret or moss. One continuous panel edge to edge, no split-screen panels, outer border, caption boxes or speech balloons.",
+    "elapsed_seconds": 52.168,
+    "source_file": "/Users/curtcox/.codex/generated_images/01a07d3b-83f6-77e3-b006-39f2f4ad8687/exec-b2b40960-cc29-4cfc-938f-3c7d83663ed8.png",
+    "stored_file": "assets/art/panels/027-05/v03-builtin-image-pilot.png",
+    "variant": "v03",
+    "sha256": "2f11539a28d7df4a628ddbb5c17f0ab906ace228b56678a2d7f28dd9cd8c36f7",
+    "dimensions": [
+      1536,
+      1024
+    ],
+    "tool": "image_gen.imagegen",
+    "model_revision": null,
+    "seed": null,
+    "controls": "Model revision, seed, sampler, strength and billing unavailable.",
+    "reference_hashes": [
+      "31784a39b7042de3a45bc2db251327b0282dc4027174fef23925213651744181"
+    ],
+    "selected_file": "assets/art/panels/027-05/v03-builtin-image-pilot.png",
+    "selected_variant": "v03"
+  }
+]
