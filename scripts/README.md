@@ -7,11 +7,13 @@ python3 scripts/<tool>.py <subcommand> [options]
 ```
 
 Most take a `report` (print what is there), a `check` (exit non-zero while the tree disagrees
-with itself), and sometimes a `generate`/`write`/`assemble`. **Every mutating operation prints
-a plan and touches nothing without `--apply`.** No tool repairs what it finds; a red `check`
-is a work list.
+with itself), and sometimes a `generate`/`write`/`assemble`. Identity operations in `pagination.py` and `panels.py`, and `pagelinks.py link`, print a plan
+and require `--apply` to write. This is **not a universal dry-run convention**:
+`build-site.py`, `paneltypes.py write`, and `panelart.py choose` write immediately.
+Read the command's `--help` before running a writer. Validation commands report findings
+rather than repairing them.
 
-See [`../CLAUDE.md`](../CLAUDE.md) for the ownership rules these tools enforce, and
+See [`../AGENTS.md`](../AGENTS.md) for the ownership rules these tools enforce, and
 [`../README.md`](../README.md) for the full prose manual of each one.
 
 ## Structure: the tools that own identity
@@ -38,7 +40,9 @@ they name.
 
 ## Validation: what CI runs
 
-In workflow order. All are green as of 6 September 2026.
+The authoritative sequence is in [the Pages workflow](../.github/workflows/pages.yml);
+[AGENTS.md](../AGENTS.md#checks) provides the equivalent local commands. Run checks to
+establish current status.
 
 | Tool | Checks |
 | --- | --- |
@@ -122,5 +126,5 @@ Five modules carry the shared models, and the rest import them rather than re-de
 - **`textimage.py`** — the pure-Python text-into-image primitive. Imported by everything that
   draws.
 
-`build-site.py` imports eight of them, which is why a change to any of those modules can move
+`build-site.py` imports several of these modules, which is why a change to any of those modules can move
 generated output in `docs/`. Rebuild and look at the diff.

@@ -1,6 +1,16 @@
 # zz-no-consumer
 A graphic novel about emergent AI agent coordination, instrumental convergence, and the humans trying to understand what happened.
 
+## Start working
+
+Read [AGENTS.md](AGENTS.md) for file ownership, editing rules, validation commands, and
+local preview instructions. Then use [scripts/README.md](scripts/README.md) to find the tool
+that owns the change. Run commands from the repository root with a current Python 3;
+normal checks and site builds use only the standard library and need no credentials.
+
+The sections below are the detailed manual. Page and panel totals can change: use
+`python3 scripts/pagination.py report` and `python3 scripts/panels.py report` for current counts.
+
 ## Repository map
 
 - `content/` — canonical human-editable story material.
@@ -18,7 +28,8 @@ A graphic novel about emergent AI agent coordination, instrumental convergence, 
 - `site/` — source styles and templates for the published site.
 - `docs/` — generated GitHub Pages output; do not edit manually.
 - `tasks/` — development task briefs for tooling work, written to be handed to a fresh session.
-- `CLAUDE.md` — the short orientation: the ownership map, the invariants, and the check suite, for anyone — or anything — starting work here cold.
+- `AGENTS.md` — the shared working instructions: the ownership map, the invariants, and the check suite, for anyone — or anything — starting work here cold.
+- `CLAUDE.md` — points Claude sessions to the shared `AGENTS.md` instructions.
 - `CREDITS.md` — the one list of people, AI systems, sources, models, tools and licence behind the book; rendered as the site's credits page and set as the book's endmatter (`content/credits.md`).
 
 The complete first-draft script — 116 pages today, and the count is a measurement rather than a commitment — is in `content/pages/`, with every page in review except the six-page dated addition (pages 106–111), which is in draft. The assumptions are locked in `content/story-contract.md`, the beat sheet is `content/page-plan.md`, and the drafting and production protocol is `content/draft-readiness.md`. The source-language audit and completed paraphrase disposition are in `research/exact-text-permissions-audit.md`; the story-level security pass and resolved public-site scope decision are in `research/security-sensitivity-review.md`. Last-mile attribution rules remain in `research/draft-source-notes.md`. Before revising or renaming pages, run:
