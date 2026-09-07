@@ -414,11 +414,14 @@ panel	variant	file	provider	seed	width	height	bytes	created	status	note	stage
 032-02	v03	assets/art/panels/032-02/v03-builtin-image-pilot.png	builtin-image-pilot		1536	1024	2816434	2026-09-07T22:35:10+00:00	chosen	Restart pilot: distinct fresh task lanes and budgets; generic run labels, provisional.	refined
 032-03	v01	assets/art/panels/032-03/v01-storyboard-svg.svg	storyboard-svg		1200	800	4690	2026-09-07T16:49:10+00:00	candidate		storyboard
 032-03	v02	assets/art/panels/032-03/v02-storyboard-svg.svg	storyboard-svg		1200	800	5106	2026-09-07T16:55:10+00:00	candidate		storyboard
+032-03	v03	assets/art/panels/032-03/v03-builtin-image-pilot.png	builtin-image-pilot		1536	1024	2437336	2026-09-07T22:39:09+00:00	chosen	Restart detail: three generic task obstacles; provisional.	refined
 032-04	v01	assets/art/panels/032-04/v01-storyboard-svg.svg	storyboard-svg		1200	800	6263	2026-09-07T16:49:10+00:00	candidate		storyboard
 032-04	v02	assets/art/panels/032-04/v02-storyboard-svg.svg	storyboard-svg		1200	800	6817	2026-09-07T16:55:11+00:00	candidate		storyboard
 032-04	v03	assets/art/panels/032-04/v03-builtin-image-pilot.png	builtin-image-pilot		1536	1024	2616823	2026-09-07T22:35:11+00:00	chosen	Restart pilot: three lanes access packages-only listing, no messages or moss; provisional.	refined
 032-05	v01	assets/art/panels/032-05/v01-storyboard-svg.svg	storyboard-svg		1200	800	4642	2026-09-07T16:49:10+00:00	candidate		storyboard
 032-05	v02	assets/art/panels/032-05/v02-storyboard-svg.svg	storyboard-svg		1200	800	4891	2026-09-07T16:55:11+00:00	candidate		storyboard
+032-05	v03	assets/art/panels/032-05/v03-builtin-image-pilot.png	builtin-image-pilot		1536	1024	2257338	2026-09-07T22:39:10+00:00	rejected	Cursor points toward task rather than service; corrected in following version.	refined
+032-05	v04	assets/art/panels/032-05/v04-builtin-image-pilot.png	builtin-image-pilot		1536	1024	2165139	2026-09-07T22:39:11+00:00	chosen	Restart detail: cursor turns toward package service without writing; provisional.	refined
 033-01	v01	assets/art/panels/033-01/v01-storyboard-svg.svg	storyboard-svg		1200	800	3724	2026-09-07T16:49:10+00:00	candidate		storyboard
 033-01	v02	assets/art/panels/033-01/v02-storyboard-svg.svg	storyboard-svg		1200	800	3981	2026-09-07T16:55:11+00:00	candidate		storyboard
 033-02	v01	assets/art/panels/033-02/v01-storyboard-svg.svg	storyboard-svg		1200	800	4976	2026-09-07T16:49:10+00:00	candidate		storyboard

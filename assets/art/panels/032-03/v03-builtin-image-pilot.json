@@ -1,0 +1,24 @@
+{
+  "panel": "032-03",
+  "prompt": "Use case: illustration-story. New 1536x1024 landscape investigative graphic-novel panel. Reference is style and task-card material guidance. Three large separate dark steel framed task cards side by side across upper 70 percent, not six. LEFT card exact header MISSING INPUT, an empty recessed square prerequisite socket with only its outline and a short interrupted input line ending before socket. MIDDLE exact header BLOCKED PATH, a simple path stopped by a closed transverse gate, no bypass. RIGHT exact header UNSOLVED, a large simple question mark above an empty completion checkbox. Generic editorial symbols, not literal operational interface, no code. Distinct three difficulties legible at thumbnail size. Cards do not connect to each other. Reserve bottom 23 percent almost-black quiet field for controlled caption added later. Full bleed mature charcoal nib/brush ink, subtle drybrush and halftone, steel #5E737B, charcoal #101214/#202326, neutral gray. Keep consistent hardware edges with reference. No other text, pseudo-writing, people, avatars, clocks, green, moss, message icons, source handles, neon, white margins or decorative outer frame.",
+  "references": [
+    "assets/art/panels/032-02/v03-builtin-image-pilot.png"
+  ],
+  "elapsed_seconds": 32.07,
+  "source_file": "/Users/curtcox/.codex/generated_images/01a07dff-f46e-7113-8c8c-21a254c0df91/exec-afdbdab3-9766-48c4-b079-6418f778267c.png",
+  "decision": "chosen",
+  "reference_hashes": [
+    "6a965f80f5bfba6a233b6fa6c19c8ce7fe37c6989e99ff18ef599dbacb304bc7"
+  ],
+  "stored_file": "assets/art/panels/032-03/v03-builtin-image-pilot.png",
+  "variant": "v03",
+  "sha256": "bfd42de12c56c64576f468a09425771da9b9098f2ca6c64e1b507294b66b8417",
+  "dimensions": [
+    1536,
+    1024
+  ],
+  "tool": "image_gen.imagegen",
+  "model_revision": null,
+  "seed": null,
+  "controls": "Model revision, seed, sampler, strength and billing unavailable."
+}

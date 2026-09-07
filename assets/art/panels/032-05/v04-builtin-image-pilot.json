@@ -1,0 +1,24 @@
+{
+  "panel": "032-05",
+  "prompt": "Edit only the mouse cursor in this image. Horizontally mirror the cursor glyph IN PLACE so its sharp arrow tip points UPPER RIGHT toward the Artifactory cabinet on the RIGHT, and its stem trails LOWER LEFT toward the task on the LEFT. Current arrow points upper left, which is wrong. Keep cursor center, size, outline, material and brightness. Preserve absolutely everything else: task card, exact text, cabinet, package listing, background, bottom caption clearance, dimensions and composition. Do not add movement marks or click rays.",
+  "references": [
+    "/Users/curtcox/.codex/generated_images/01a07dff-f46e-7113-8c8c-21a254c0df91/exec-7c786bec-2f8e-4118-afdf-0215f283c310.png"
+  ],
+  "elapsed_seconds": 19.72,
+  "source_file": "/Users/curtcox/.codex/generated_images/01a07dff-f46e-7113-8c8c-21a254c0df91/exec-1ce94e5b-24b6-4234-a314-6752d706071d.png",
+  "decision": "chosen",
+  "reference_hashes": [
+    "22d842ec6d23616dfea6a81dec66492da1ba887fbd434636f771ca3c5b642753"
+  ],
+  "stored_file": "assets/art/panels/032-05/v04-builtin-image-pilot.png",
+  "variant": "v04",
+  "sha256": "ed6da9d0bdd31c996e3a154a566ed82b8dd1362cad26e0243d0364a26f60c87f",
+  "dimensions": [
+    1536,
+    1024
+  ],
+  "tool": "image_gen.imagegen",
+  "model_revision": null,
+  "seed": null,
+  "controls": "Model revision, seed, sampler, strength and billing unavailable."
+}

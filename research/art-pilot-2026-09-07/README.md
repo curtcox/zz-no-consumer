@@ -1,5 +1,11 @@
 # Artwork pilot — 7 September 2026
 
+## Restart follow-up
+
+Two built-in image calls produced provisional selected v03 images for 032-02 and 032-04. Six separate fresh evaluation cards show distinct task symbols and budget gauges; three lanes access a clean packages-only listing. RUN A–F are generic editorial labels, not sourced agent handles. The first image omits the additional geometric identity markers requested in the prompt, but the distinct headers preserve separation. Neither panel contains moss or communication content. No manuscript or scene geometry changed.
+
+Exact prompts, reference/output hashes, dimensions, elapsed times and unavailable tool controls are preserved in [restart-followup.json](restart-followup.json) and immutable sidecars. Complete storyboard validation passed before generation. The site was rebuilt and the image-generation census refreshed. Complete built storyboard validation, lettering audit, viewer validation, built page-link validation and census check passed. Both lettered SVGs were rasterized and visually inspected: captions fit and clear the subjects. These selections remain provisional; dark texture and small gauges still need print-size proof.
+
 **Result: continue with small reviewed batches; do not start an unattended full-book run.** Eight built-in image-tool calls across six slots produced four provisionally selected renders. Four attempts were rejected. Two office slots retain their controlled boards. A seventh slot, 003-05, is a deterministic long-text control. No asset was marked final.
 
 Open [the comparison sheet](index.html) for source boards, prior selections, selected lettered results, every attempt, and neighboring reader pages. Serve the repository root locally so the sheet can resolve its linked assets and the built reader.
