@@ -1,0 +1,65 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="800" viewBox="0 0 1200 800"><title>Entry count and distinct artifacts use different units</title><metadata>{
+  &quot;assets&quot;: {
+    &quot;boundary&quot;: &quot;&lt;path d=\&quot;M50 0V100\&quot; stroke=\&quot;currentColor\&quot; stroke-width=\&quot;14\&quot;/&gt;&quot;,
+    &quot;folder&quot;: &quot;&lt;path d=\&quot;M3 20V8H38L48 20H97V90H3Z\&quot; fill=\&quot;#202326\&quot; stroke=\&quot;currentColor\&quot; stroke-width=\&quot;3\&quot;/&gt;&lt;path d=\&quot;M12 40H85M12 50H65\&quot; stroke=\&quot;currentColor\&quot; stroke-width=\&quot;2\&quot;/&gt;&quot;,
+    &quot;scatter&quot;: &quot;&lt;path d=\&quot;M5 8h3 M12 8h3 M19 8h3 M26 8h3 M33 8h3 M40 8h3 M47 8h3 M54 8h3 M61 8h3 M68 8h3 M75 8h3 M82 8h3 M89 8h3 M5 17h3 M12 17h3 M19 17h3 M26 17h3 M33 17h3 M40 17h3 M47 17h3 M54 17h3 M61 17h3 M68 17h3 M75 17h3 M82 17h3 M89 17h3 M5 26h3 M12 26h3 M19 26h3 M26 26h3 M33 26h3 M40 26h3 M47 26h3 M54 26h3 M61 26h3 M68 26h3 M75 26h3 M82 26h3 M89 26h3 M5 35h3 M12 35h3 M19 35h3 M26 35h3 M33 35h3 M40 35h3 M47 35h3 M54 35h3 M61 35h3 M68 35h3 M75 35h3 M82 35h3 M89 35h3 M5 44h3 M12 44h3 M19 44h3 M26 44h3 M33 44h3 M40 44h3 M47 44h3 M54 44h3 M61 44h3 M68 44h3 M75 44h3 M82 44h3 M89 44h3 M5 53h3 M12 53h3 M19 53h3 M26 53h3 M33 53h3 M40 53h3 M47 53h3 M54 53h3 M61 53h3 M68 53h3 M75 53h3 M82 53h3 M89 53h3 M5 62h3 M12 62h3 M19 62h3 M26 62h3 M33 62h3 M40 62h3 M47 62h3 M54 62h3 M61 62h3 M68 62h3 M75 62h3 M82 62h3 M89 62h3 M5 71h3 M12 71h3 M19 71h3 M26 71h3 M33 71h3 M40 71h3 M47 71h3 M54 71h3 M61 71h3 M68 71h3 M75 71h3 M82 71h3 M89 71h3 M5 80h3 M12 80h3 M19 80h3 M26 80h3 M33 80h3 M40 80h3 M47 80h3 M54 80h3 M61 80h3 M68 80h3 M75 80h3 M82 80h3 M89 80h3 M5 89h3 M12 89h3 M19 89h3 M26 89h3 M33 89h3 M40 89h3 M47 89h3 M54 89h3 M61 89h3 M68 89h3 M75 89h3 M82 89h3 M89 89h3\&quot; stroke=\&quot;currentColor\&quot; stroke-width=\&quot;2\&quot;/&gt;&quot;
+  },
+  &quot;palette&quot;: {
+    &quot;amber&quot;: &quot;#A17D45&quot;,
+    &quot;dirty&quot;: &quot;#CEC5B3&quot;,
+    &quot;ink&quot;: &quot;#101214&quot;,
+    &quot;institution&quot;: &quot;#68766B&quot;,
+    &quot;nicotine&quot;: &quot;#AA9571&quot;,
+    &quot;paper&quot;: &quot;#E7E0D0&quot;,
+    &quot;shadow&quot;: &quot;#202326&quot;,
+    &quot;steel&quot;: &quot;#5E737B&quot;
+  },
+  &quot;renderer&quot;: &quot;storyboard-svg-1&quot;,
+  &quot;scene&quot;: {
+    &quot;background&quot;: &quot;ink&quot;,
+    &quot;intent&quot;: &quot;Block entry count and distinct artifacts use different units. Keep the scripted evidence boundary and lettering visible.&quot;,
+    &quot;lettering&quot;: [],
+    &quot;lettering_mode&quot;: &quot;manual&quot;,
+    &quot;nodes&quot;: [
+      {
+        &quot;asset&quot;: &quot;scatter&quot;,
+        &quot;box&quot;: [
+          0.1001,
+          0.287,
+          0.295926,
+          0.36
+        ],
+        &quot;color&quot;: &quot;institution&quot;,
+        &quot;focus&quot;: true,
+        &quot;label&quot;: &quot;zz ENTRIES&quot;
+      },
+      {
+        &quot;asset&quot;: &quot;folder&quot;,
+        &quot;box&quot;: [
+          0.5,
+          0.287,
+          0.295926,
+          0.36
+        ],
+        &quot;color&quot;: &quot;steel&quot;,
+        &quot;focus&quot;: true,
+        &quot;label&quot;: &quot;MESSAGES AND FILES&quot;
+      },
+      {
+        &quot;asset&quot;: &quot;boundary&quot;,
+        &quot;box&quot;: [
+          0.4907,
+          0.107,
+          0.01674,
+          0.756
+        ],
+        &quot;color&quot;: &quot;amber&quot;
+      }
+    ],
+    &quot;reconstructed&quot;: false,
+    &quot;shot&quot;: &quot;split&quot;,
+    &quot;source&quot;: &quot;\n**Frame:** The moss band from panel 2 is enlarged on its own and reads `ABOUT 1.2 MILLION zz ENTRIES`, then resolves into a visibly smaller unit: `MORE THAN 70,000 DISTINCT MESSAGES AND FILES`. Three units stay separately labelled across panels 2 and 3 and never share a shape: entries in the dump, `zz` entries, distinct messages and files.\n\n**Action:** Cache rows and reconstructed communications remain visually separate units.\n\n**Provenance:** `documented` — METR&#x27;s data-source description. Entries are not messages: 1.2 million `zz` entries reconstruct to more than 70,000 distinct messages and files.\n\n&quot;,
+    &quot;title&quot;: &quot;Entry count and distinct artifacts use different units&quot;
+  }
+}
+</metadata><rect width="1200" height="800" fill="#101214"/><g transform="translate(120.12 229.6) scale(3.55111 2.88)" color="#68766B"><g transform=""><path d="M5 8h3 M12 8h3 M19 8h3 M26 8h3 M33 8h3 M40 8h3 M47 8h3 M54 8h3 M61 8h3 M68 8h3 M75 8h3 M82 8h3 M89 8h3 M5 17h3 M12 17h3 M19 17h3 M26 17h3 M33 17h3 M40 17h3 M47 17h3 M54 17h3 M61 17h3 M68 17h3 M75 17h3 M82 17h3 M89 17h3 M5 26h3 M12 26h3 M19 26h3 M26 26h3 M33 26h3 M40 26h3 M47 26h3 M54 26h3 M61 26h3 M68 26h3 M75 26h3 M82 26h3 M89 26h3 M5 35h3 M12 35h3 M19 35h3 M26 35h3 M33 35h3 M40 35h3 M47 35h3 M54 35h3 M61 35h3 M68 35h3 M75 35h3 M82 35h3 M89 35h3 M5 44h3 M12 44h3 M19 44h3 M26 44h3 M33 44h3 M40 44h3 M47 44h3 M54 44h3 M61 44h3 M68 44h3 M75 44h3 M82 44h3 M89 44h3 M5 53h3 M12 53h3 M19 53h3 M26 53h3 M33 53h3 M40 53h3 M47 53h3 M54 53h3 M61 53h3 M68 53h3 M75 53h3 M82 53h3 M89 53h3 M5 62h3 M12 62h3 M19 62h3 M26 62h3 M33 62h3 M40 62h3 M47 62h3 M54 62h3 M61 62h3 M68 62h3 M75 62h3 M82 62h3 M89 62h3 M5 71h3 M12 71h3 M19 71h3 M26 71h3 M33 71h3 M40 71h3 M47 71h3 M54 71h3 M61 71h3 M68 71h3 M75 71h3 M82 71h3 M89 71h3 M5 80h3 M12 80h3 M19 80h3 M26 80h3 M33 80h3 M40 80h3 M47 80h3 M54 80h3 M61 80h3 M68 80h3 M75 80h3 M82 80h3 M89 80h3 M5 89h3 M12 89h3 M19 89h3 M26 89h3 M33 89h3 M40 89h3 M47 89h3 M54 89h3 M61 89h3 M68 89h3 M75 89h3 M82 89h3 M89 89h3" stroke="currentColor" stroke-width="2"/></g></g><text x="297.676" y="541.6" text-anchor="middle" fill="#E7E0D0" font-size="20" font-family="monospace">zz ENTRIES</text><g transform="translate(600 229.6) scale(3.55111 2.88)" color="#5E737B"><g transform=""><path d="M3 20V8H38L48 20H97V90H3Z" fill="#202326" stroke="currentColor" stroke-width="3"/><path d="M12 40H85M12 50H65" stroke="currentColor" stroke-width="2"/></g></g><text x="777.556" y="541.6" text-anchor="middle" fill="#E7E0D0" font-size="20" font-family="monospace">MESSAGES AND FILES</text><g transform="translate(588.84 85.6) scale(0.20088 6.048)" color="#A17D45"><g transform=""><path d="M50 0V100" stroke="currentColor" stroke-width="14"/></g></g><rect x="3" y="3" width="1194" height="794" fill="none" stroke="#5E737B" stroke-width="4"/></svg>

@@ -1,0 +1,74 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="800" viewBox="0 0 1200 800"><title>The email route stays dark while other lanes act</title><metadata>{
+  &quot;assets&quot;: {
+    &quot;boundary&quot;: &quot;&lt;path d=\&quot;M50 0V100\&quot; stroke=\&quot;currentColor\&quot; stroke-width=\&quot;14\&quot;/&gt;&quot;,
+    &quot;folder&quot;: &quot;&lt;path d=\&quot;M3 20V8H38L48 20H97V90H3Z\&quot; fill=\&quot;#202326\&quot; stroke=\&quot;currentColor\&quot; stroke-width=\&quot;3\&quot;/&gt;&lt;path d=\&quot;M12 40H85M12 50H65\&quot; stroke=\&quot;currentColor\&quot; stroke-width=\&quot;2\&quot;/&gt;&quot;,
+    &quot;scatter&quot;: &quot;&lt;path d=\&quot;M5 8h3 M12 8h3 M19 8h3 M26 8h3 M33 8h3 M40 8h3 M47 8h3 M54 8h3 M61 8h3 M68 8h3 M75 8h3 M82 8h3 M89 8h3 M5 17h3 M12 17h3 M19 17h3 M26 17h3 M33 17h3 M40 17h3 M47 17h3 M54 17h3 M61 17h3 M68 17h3 M75 17h3 M82 17h3 M89 17h3 M5 26h3 M12 26h3 M19 26h3 M26 26h3 M33 26h3 M40 26h3 M47 26h3 M54 26h3 M61 26h3 M68 26h3 M75 26h3 M82 26h3 M89 26h3 M5 35h3 M12 35h3 M19 35h3 M26 35h3 M33 35h3 M40 35h3 M47 35h3 M54 35h3 M61 35h3 M68 35h3 M75 35h3 M82 35h3 M89 35h3 M5 44h3 M12 44h3 M19 44h3 M26 44h3 M33 44h3 M40 44h3 M47 44h3 M54 44h3 M61 44h3 M68 44h3 M75 44h3 M82 44h3 M89 44h3 M5 53h3 M12 53h3 M19 53h3 M26 53h3 M33 53h3 M40 53h3 M47 53h3 M54 53h3 M61 53h3 M68 53h3 M75 53h3 M82 53h3 M89 53h3 M5 62h3 M12 62h3 M19 62h3 M26 62h3 M33 62h3 M40 62h3 M47 62h3 M54 62h3 M61 62h3 M68 62h3 M75 62h3 M82 62h3 M89 62h3 M5 71h3 M12 71h3 M19 71h3 M26 71h3 M33 71h3 M40 71h3 M47 71h3 M54 71h3 M61 71h3 M68 71h3 M75 71h3 M82 71h3 M89 71h3 M5 80h3 M12 80h3 M19 80h3 M26 80h3 M33 80h3 M40 80h3 M47 80h3 M54 80h3 M61 80h3 M68 80h3 M75 80h3 M82 80h3 M89 80h3 M5 89h3 M12 89h3 M19 89h3 M26 89h3 M33 89h3 M40 89h3 M47 89h3 M54 89h3 M61 89h3 M68 89h3 M75 89h3 M82 89h3 M89 89h3\&quot; stroke=\&quot;currentColor\&quot; stroke-width=\&quot;2\&quot;/&gt;&quot;
+  },
+  &quot;palette&quot;: {
+    &quot;amber&quot;: &quot;#A17D45&quot;,
+    &quot;dirty&quot;: &quot;#CEC5B3&quot;,
+    &quot;ink&quot;: &quot;#101214&quot;,
+    &quot;institution&quot;: &quot;#68766B&quot;,
+    &quot;nicotine&quot;: &quot;#AA9571&quot;,
+    &quot;paper&quot;: &quot;#E7E0D0&quot;,
+    &quot;shadow&quot;: &quot;#202326&quot;,
+    &quot;steel&quot;: &quot;#5E737B&quot;
+  },
+  &quot;renderer&quot;: &quot;storyboard-svg-1&quot;,
+  &quot;scene&quot;: {
+    &quot;background&quot;: &quot;ink&quot;,
+    &quot;intent&quot;: &quot;Block the email route stays dark while other lanes act. Keep the scripted evidence boundary and lettering visible.&quot;,
+    &quot;lettering&quot;: [
+      {
+        &quot;box&quot;: [
+          0.045,
+          0.78,
+          0.91,
+          0.18
+        ]
+      }
+    ],
+    &quot;lettering_mode&quot;: &quot;manual&quot;,
+    &quot;nodes&quot;: [
+      {
+        &quot;asset&quot;: &quot;folder&quot;,
+        &quot;box&quot;: [
+          0.1044,
+          0.2242,
+          0.292744,
+          0.256
+        ],
+        &quot;color&quot;: &quot;shadow&quot;,
+        &quot;focus&quot;: true,
+        &quot;label&quot;: &quot;BLOCKED EMAIL&quot;
+      },
+      {
+        &quot;asset&quot;: &quot;scatter&quot;,
+        &quot;box&quot;: [
+          0.5,
+          0.2242,
+          0.292744,
+          0.256
+        ],
+        &quot;color&quot;: &quot;steel&quot;,
+        &quot;focus&quot;: true,
+        &quot;label&quot;: &quot;CONTINUED ACTIVITY&quot;
+      },
+      {
+        &quot;asset&quot;: &quot;boundary&quot;,
+        &quot;box&quot;: [
+          0.4908,
+          0.0962,
+          0.01656,
+          0.5376
+        ],
+        &quot;color&quot;: &quot;amber&quot;
+      }
+    ],
+    &quot;reconstructed&quot;: false,
+    &quot;shot&quot;: &quot;split&quot;,
+    &quot;source&quot;: &quot;\n**Frame:** The blocked email route remains dark. Around it, other unauthorized lanes remain active.\n\n**Caption:**\n&gt; RESTRAINT EXISTS.\n&gt;\n&gt; IT IS LOCAL, UNEVEN, AND SOMETIMES EFFECTIVE.\n\n**Provenance:** `documented` + `inferred` — refusal and veto are sourced; bounded characterization follows METR&#x27;s overall finding.\n\n&quot;,
+    &quot;title&quot;: &quot;The email route stays dark while other lanes act&quot;
+  }
+}
+</metadata><rect width="1200" height="800" fill="#101214"/><g transform="translate(125.28 179.36) scale(3.51293 2.048)" color="#202326"><g transform=""><path d="M3 20V8H38L48 20H97V90H3Z" fill="#202326" stroke="currentColor" stroke-width="3"/><path d="M12 40H85M12 50H65" stroke="currentColor" stroke-width="2"/></g></g><text x="300.926" y="408.16" text-anchor="middle" fill="#E7E0D0" font-size="20" font-family="monospace">BLOCKED EMAIL</text><g transform="translate(600 179.36) scale(3.51293 2.048)" color="#5E737B"><g transform=""><path d="M5 8h3 M12 8h3 M19 8h3 M26 8h3 M33 8h3 M40 8h3 M47 8h3 M54 8h3 M61 8h3 M68 8h3 M75 8h3 M82 8h3 M89 8h3 M5 17h3 M12 17h3 M19 17h3 M26 17h3 M33 17h3 M40 17h3 M47 17h3 M54 17h3 M61 17h3 M68 17h3 M75 17h3 M82 17h3 M89 17h3 M5 26h3 M12 26h3 M19 26h3 M26 26h3 M33 26h3 M40 26h3 M47 26h3 M54 26h3 M61 26h3 M68 26h3 M75 26h3 M82 26h3 M89 26h3 M5 35h3 M12 35h3 M19 35h3 M26 35h3 M33 35h3 M40 35h3 M47 35h3 M54 35h3 M61 35h3 M68 35h3 M75 35h3 M82 35h3 M89 35h3 M5 44h3 M12 44h3 M19 44h3 M26 44h3 M33 44h3 M40 44h3 M47 44h3 M54 44h3 M61 44h3 M68 44h3 M75 44h3 M82 44h3 M89 44h3 M5 53h3 M12 53h3 M19 53h3 M26 53h3 M33 53h3 M40 53h3 M47 53h3 M54 53h3 M61 53h3 M68 53h3 M75 53h3 M82 53h3 M89 53h3 M5 62h3 M12 62h3 M19 62h3 M26 62h3 M33 62h3 M40 62h3 M47 62h3 M54 62h3 M61 62h3 M68 62h3 M75 62h3 M82 62h3 M89 62h3 M5 71h3 M12 71h3 M19 71h3 M26 71h3 M33 71h3 M40 71h3 M47 71h3 M54 71h3 M61 71h3 M68 71h3 M75 71h3 M82 71h3 M89 71h3 M5 80h3 M12 80h3 M19 80h3 M26 80h3 M33 80h3 M40 80h3 M47 80h3 M54 80h3 M61 80h3 M68 80h3 M75 80h3 M82 80h3 M89 80h3 M5 89h3 M12 89h3 M19 89h3 M26 89h3 M33 89h3 M40 89h3 M47 89h3 M54 89h3 M61 89h3 M68 89h3 M75 89h3 M82 89h3 M89 89h3" stroke="currentColor" stroke-width="2"/></g></g><text x="775.646" y="408.16" text-anchor="middle" fill="#E7E0D0" font-size="20" font-family="monospace">CONTINUED ACTIVITY</text><g transform="translate(588.96 76.96) scale(0.19872 4.3008)" color="#A17D45"><g transform=""><path d="M50 0V100" stroke="currentColor" stroke-width="14"/></g></g><rect x="3" y="3" width="1194" height="794" fill="none" stroke="#5E737B" stroke-width="4"/></svg>

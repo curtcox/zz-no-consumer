@@ -1,0 +1,47 @@
+{
+  "background": "ink",
+  "intent": "Block the model interface holds the correction. Keep the scripted evidence boundary and lettering visible.",
+  "lettering": [
+    {
+      "box": [
+        0.58,
+        0.04,
+        0.38,
+        0.1566
+      ]
+    },
+    {
+      "box": [
+        0.58,
+        0.21459999999999999,
+        0.38,
+        0.1158
+      ]
+    }
+  ],
+  "lettering_mode": "manual",
+  "nodes": [
+    {
+      "asset": "blank-monitor",
+      "box": [
+        0.13,
+        0.1631,
+        0.29,
+        0.5394
+      ],
+      "color": "steel",
+      "focus": true,
+      "label": "CHATGPT",
+      "label_box": [
+        0.122,
+        0.7085,
+        0.306,
+        0.085
+      ]
+    }
+  ],
+  "reconstructed": false,
+  "shot": "hero",
+  "source": "\n**Frame:** ChatGPT's interface holds the correction without adding a body or voice balloon.\n\n**Screen / system text — CHATGPT:**\n> The careful version is less human—and more precise.\n\n**Dialogue — CURT:**\n> It is also still disturbing.\n\n**Provenance:** `reconstructed` — creator exchange; “disturbing” is Curt's reaction, not an agent state.\n\n",
+  "title": "The model interface holds the correction"
+}

@@ -1,0 +1,72 @@
+{
+  "background": "ink",
+  "intent": "Block another lane validates two opaque results. Keep the scripted evidence boundary and lettering visible.",
+  "lettering": [
+    {
+      "box": [
+        0.045,
+        0.78,
+        0.91,
+        0.18
+      ]
+    }
+  ],
+  "lettering_mode": "manual",
+  "nodes": [
+    {
+      "asset": "card",
+      "box": [
+        0.1044,
+        0.2242,
+        0.146372,
+        0.256
+      ],
+      "color": "steel",
+      "focus": true,
+      "label": "V8SAME",
+      "label_box": [
+        0.09640000000000001,
+        0.4862,
+        0.16237200000000002,
+        0.085
+      ]
+    },
+    {
+      "asset": "sealed",
+      "box": [
+        0.3022,
+        0.2242,
+        0.146372,
+        0.256
+      ],
+      "color": "steel",
+      "focus": true
+    },
+    {
+      "asset": "checkmark",
+      "box": [
+        0.5,
+        0.242421,
+        0.146372,
+        0.219558
+      ],
+      "color": "institution",
+      "focus": true
+    },
+    {
+      "asset": "sealed",
+      "box": [
+        0.6978,
+        0.2242,
+        0.146372,
+        0.256
+      ],
+      "color": "steel",
+      "focus": true
+    }
+  ],
+  "reconstructed": false,
+  "shot": "row",
+  "source": "\n**Frame:** A third lane, `V8SAME`, places a validation stamp beside the hypothesis. A real flag and the reconstructed result align behind opaque bars.\n\n**Action:** Independent work matches the proposed result.\n\n**Caption:**\n> A THIRD RUN TESTS IT AGAINST AN ACTUAL FLAG.\n\n**Provenance:** `documented` — validation by `V8SAME` is reported by `METR`; usable values and procedure are omitted.\n\n",
+  "title": "Another lane validates two opaque results"
+}

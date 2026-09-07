@@ -106,6 +106,17 @@ removing only the confirmed stale lock; never remove the index itself. Then retr
 and committing, and verify the outcome. If the lock reappears, capture fresh timestamps
 and process evidence rather than repeatedly deleting it.
 
+**Placeholder-generation recovery, 7 September 2026.** Staging was again blocked by
+an empty lock (inode `62515031`, modified at **11:08:44 CDT**). Fresh host-level process
+and open-handle checks found no Git process or owner; its identity and contents were
+unchanged immediately before removal. The requested batch then committed as `8c71f87c`
+and pushed successfully. The lock creator remains unidentified.
+
+**Full SVG batch recurrence, 7 September 2026.** Final staging encountered another
+empty lock (inode `62537770`, modified at **12:01:02 CDT**). Host-level inspection at
+**12:05:20 CDT** found no Git process; `lsof` found no open handle. The lock was
+rechecked immediately before recovery. Its creator remains unidentified.
+
 **Prevention recorded.** The shared agent instructions now point here and require
 coordination of index writers in addition to lock-free read-only inspection. This is an
 operating procedure, not an app-level fix or a proven root-cause correction.

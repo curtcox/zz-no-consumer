@@ -1,0 +1,30 @@
+{
+  "background": "ink",
+  "intent": "Block the payload is staged but remains redacted. Keep the scripted evidence boundary and lettering visible.",
+  "lettering": [],
+  "lettering_mode": "manual",
+  "nodes": [
+    {
+      "asset": "sealed",
+      "box": [
+        0.2117,
+        0.152,
+        0.5394,
+        0.558
+      ],
+      "color": "steel",
+      "focus": true,
+      "label": "15:31 STAGED",
+      "label_box": [
+        0.2037,
+        0.7160000000000001,
+        0.5554,
+        0.085
+      ]
+    }
+  ],
+  "reconstructed": false,
+  "shot": "hero",
+  "source": "\n**Frame:** Timestamp `15:31 UTC — OPENAI EVENT TABLE`. A payload card is staged, but its contents are blacked out.\n\n**Action:** The template-injection path is ready.\n\n**Provenance:** `documented` — `OAI-TR` printed page 35.\n\n",
+  "title": "The payload is staged but remains redacted"
+}

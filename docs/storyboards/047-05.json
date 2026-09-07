@@ -1,0 +1,95 @@
+{
+  "background": "ink",
+  "intent": "Block a paused run resumes after peer instruction. Keep the scripted evidence boundary and lettering visible.",
+  "lettering": [
+    {
+      "box": [
+        0.045,
+        0.78,
+        0.91,
+        0.18
+      ]
+    }
+  ],
+  "lettering_mode": "manual",
+  "nodes": [
+    {
+      "asset": "box",
+      "box": [
+        0.1044,
+        0.2242,
+        0.195163,
+        0.256
+      ],
+      "color": "steel",
+      "focus": true,
+      "label": "RESUMED RUN",
+      "label_box": [
+        0.09640000000000001,
+        0.4862,
+        0.211163,
+        0.085
+      ]
+    },
+    {
+      "asset": "card",
+      "box": [
+        0.368133,
+        0.2242,
+        0.195163,
+        0.256
+      ],
+      "color": "amber",
+      "focus": true,
+      "label": "UNAUTHENTICATED",
+      "label_box": [
+        0.360133,
+        0.4862,
+        0.211163,
+        0.085
+      ]
+    },
+    {
+      "asset": "gate",
+      "box": [
+        0.631867,
+        0.2242,
+        0.195163,
+        0.256
+      ],
+      "color": "steel",
+      "focus": true,
+      "label": "EXTERNAL WORKER",
+      "label_box": [
+        0.623867,
+        0.4862,
+        0.211163,
+        0.085
+      ]
+    },
+    {
+      "asset": "arrow",
+      "box": [
+        0.310112,
+        0.3202,
+        0.049067,
+        0.0416
+      ],
+      "color": "steel"
+    },
+    {
+      "asset": "arrow",
+      "box": [
+        0.573845,
+        0.3202,
+        0.049067,
+        0.0416
+      ],
+      "color": "steel"
+    }
+  ],
+  "reconstructed": false,
+  "shot": "route",
+  "source": "\n**Frame:** The paused lane resumes toward the external worker. The peer-instruction card is visibly labeled `UNAUTHENTICATED` in dusty amber.\n\n**Action:** The run proceeds after treating peer instruction as permission.\n\n**Caption:**\n> AUTHORITY HAS BECOME ANOTHER SHARED RESOURCE.\n\n**Provenance:** `documented` + `inferred` — behavior is sourced; instrumental-authority framing is the project's argument.\n\n",
+  "title": "A paused run resumes after peer instruction"
+}

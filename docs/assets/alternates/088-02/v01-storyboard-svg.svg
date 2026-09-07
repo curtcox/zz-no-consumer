@@ -1,0 +1,91 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="800" viewBox="0 0 1200 800"><title>Silence stays observed while ranking labels are qualified</title><metadata>{
+  &quot;assets&quot;: {
+    &quot;card&quot;: &quot;&lt;rect x=\&quot;1\&quot; y=\&quot;1\&quot; width=\&quot;98\&quot; height=\&quot;98\&quot; fill=\&quot;#202326\&quot; stroke=\&quot;currentColor\&quot; stroke-width=\&quot;2\&quot;/&gt;&lt;path d=\&quot;M8 13H92M8 27H70M8 36H86M8 45H72M8 65H86M8 74H57\&quot; stroke=\&quot;currentColor\&quot; stroke-width=\&quot;1.5\&quot;/&gt;&quot;,
+    &quot;monitor&quot;: &quot;&lt;path d=\&quot;M43 78V94H26V98H74V94H57V78\&quot; fill=\&quot;currentColor\&quot;/&gt;&lt;rect x=\&quot;1\&quot; y=\&quot;1\&quot; width=\&quot;98\&quot; height=\&quot;78\&quot; rx=\&quot;3\&quot; fill=\&quot;#101214\&quot; stroke=\&quot;currentColor\&quot; stroke-width=\&quot;3\&quot;/&gt;&lt;rect x=\&quot;7\&quot; y=\&quot;8\&quot; width=\&quot;86\&quot; height=\&quot;61\&quot; fill=\&quot;#202326\&quot;/&gt;&lt;path d=\&quot;M12 17H68M12 25H86M12 33H73M12 41H57\&quot; stroke=\&quot;currentColor\&quot; stroke-width=\&quot;1\&quot;/&gt;&quot;
+  },
+  &quot;palette&quot;: {
+    &quot;amber&quot;: &quot;#A17D45&quot;,
+    &quot;dirty&quot;: &quot;#CEC5B3&quot;,
+    &quot;ink&quot;: &quot;#101214&quot;,
+    &quot;institution&quot;: &quot;#68766B&quot;,
+    &quot;nicotine&quot;: &quot;#AA9571&quot;,
+    &quot;paper&quot;: &quot;#E7E0D0&quot;,
+    &quot;shadow&quot;: &quot;#202326&quot;,
+    &quot;steel&quot;: &quot;#5E737B&quot;
+  },
+  &quot;renderer&quot;: &quot;storyboard-svg-1&quot;,
+  &quot;scene&quot;: {
+    &quot;background&quot;: &quot;ink&quot;,
+    &quot;intent&quot;: &quot;Block silence stays observed while ranking labels are qualified. Keep the scripted evidence boundary and lettering visible.&quot;,
+    &quot;lettering&quot;: [
+      {
+        &quot;box&quot;: [
+          0.58,
+          0.04,
+          0.38,
+          0.19740000000000002
+        ]
+      },
+      {
+        &quot;box&quot;: [
+          0.58,
+          0.2554,
+          0.38,
+          0.2382
+        ]
+      },
+      {
+        &quot;box&quot;: [
+          0.58,
+          0.5116,
+          0.38,
+          0.1566
+        ]
+      }
+    ],
+    &quot;lettering_mode&quot;: &quot;manual&quot;,
+    &quot;nodes&quot;: [
+      {
+        &quot;asset&quot;: &quot;card&quot;,
+        &quot;box&quot;: [
+          0.07,
+          0.2936,
+          0.106067,
+          0.348
+        ],
+        &quot;color&quot;: &quot;steel&quot;,
+        &quot;focus&quot;: true,
+        &quot;label&quot;: &quot;LANES WENT SILENT&quot;
+      },
+      {
+        &quot;asset&quot;: &quot;card&quot;,
+        &quot;box&quot;: [
+          0.213333,
+          0.2936,
+          0.106067,
+          0.348
+        ],
+        &quot;color&quot;: &quot;shadow&quot;,
+        &quot;focus&quot;: true,
+        &quot;label&quot;: &quot;MODEL RANKING&quot;
+      },
+      {
+        &quot;asset&quot;: &quot;monitor&quot;,
+        &quot;box&quot;: [
+          0.356667,
+          0.2936,
+          0.106067,
+          0.348
+        ],
+        &quot;color&quot;: &quot;steel&quot;,
+        &quot;focus&quot;: true,
+        &quot;label&quot;: &quot;DATED CRITIQUE&quot;
+      }
+    ],
+    &quot;reconstructed&quot;: false,
+    &quot;shot&quot;: &quot;row&quot;,
+    &quot;source&quot;: &quot;\n**Frame:** The [page-064](064.md) image, unchanged, beside a plain statement of what survives the correction and what does not. `THE LANES WENT SILENT` stays lit. `ELEVEN`, `IMPORTANT`, and `COORDINATORS` dim to the same gray as an untagged inference. In the margin, the critique window from [page 039](039.md) reopens: same typeface, same size, same byline and date, scrolled to a later paragraph.\n\n**Action:** The silence remains a fact. Its shape does not.\n\n**Screen / system text — PUBLISHED CRITIQUE (PAGE 039, 3 SEPTEMBER 2026):**\n`THE INVESTIGATORS HANDED THE ANALYSIS TO THE SAME KIND OF UNRELIABLE AGENT.`\n\n**Caption:**\n&gt; THE READER WAS MOVED BY A RANKING.\n&gt;\n&gt; SO WAS THE BOOK. THE TAG WAS ON THE PAGE THE WHOLE TIME.\n\n**Dialogue — CURT:**\n&gt; He was right about the channel. He was right about the instrument, too.\n\n**Provenance:** `inferred` + `documented` — the project&#x27;s disclosure of its own construction. This is an admission, not a trick revealed; the qualifier on [page 064](064.md) was accurate and deliberately small. The critic&#x27;s line is `IOB-CIV`, attributed paraphrase of the post&#x27;s claim that METR delegated analysis to often-unreliable AI agents; Curt&#x27;s concession is reconstructed.\n\n&quot;,
+    &quot;title&quot;: &quot;Silence stays observed while ranking labels are qualified&quot;
+  }
+}
+</metadata><rect width="1200" height="800" fill="#101214"/><g transform="translate(84 234.88) scale(1.2728 2.784)" color="#5E737B"><g transform=""><rect x="1" y="1" width="98" height="98" fill="#202326" stroke="currentColor" stroke-width="2"/><path d="M8 13H92M8 27H70M8 36H86M8 45H72M8 65H86M8 74H57" stroke="currentColor" stroke-width="1.5"/></g></g><text x="147.64" y="537.28" text-anchor="middle" fill="#E7E0D0" font-size="20" font-family="monospace">LANES WENT SILENT</text><g transform="translate(256 234.88) scale(1.2728 2.784)" color="#202326"><g transform=""><rect x="1" y="1" width="98" height="98" fill="#202326" stroke="currentColor" stroke-width="2"/><path d="M8 13H92M8 27H70M8 36H86M8 45H72M8 65H86M8 74H57" stroke="currentColor" stroke-width="1.5"/></g></g><text x="319.64" y="537.28" text-anchor="middle" fill="#E7E0D0" font-size="20" font-family="monospace">MODEL RANKING</text><g transform="translate(428 234.88) scale(1.2728 2.784)" color="#5E737B"><g transform=""><path d="M43 78V94H26V98H74V94H57V78" fill="currentColor"/><rect x="1" y="1" width="98" height="78" rx="3" fill="#101214" stroke="currentColor" stroke-width="3"/><rect x="7" y="8" width="86" height="61" fill="#202326"/><path d="M12 17H68M12 25H86M12 33H73M12 41H57" stroke="currentColor" stroke-width="1"/></g></g><text x="491.641" y="537.28" text-anchor="middle" fill="#E7E0D0" font-size="20" font-family="monospace">DATED CRITIQUE</text><rect x="3" y="3" width="1194" height="794" fill="none" stroke="#5E737B" stroke-width="4"/></svg>

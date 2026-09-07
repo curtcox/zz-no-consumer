@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="800" viewBox="0 0 1200 800"><title>A generic entry row has no visible author or recipient</title><metadata>{
+  &quot;assets&quot;: {},
+  &quot;palette&quot;: {
+    &quot;amber&quot;: &quot;#A17D45&quot;,
+    &quot;dirty&quot;: &quot;#CEC5B3&quot;,
+    &quot;ink&quot;: &quot;#101214&quot;,
+    &quot;institution&quot;: &quot;#68766B&quot;,
+    &quot;nicotine&quot;: &quot;#AA9571&quot;,
+    &quot;paper&quot;: &quot;#E7E0D0&quot;,
+    &quot;shadow&quot;: &quot;#202326&quot;,
+    &quot;steel&quot;: &quot;#5E737B&quot;
+  },
+  &quot;renderer&quot;: &quot;storyboard-svg-1&quot;,
+  &quot;scene&quot;: {
+    &quot;background&quot;: &quot;ink&quot;,
+    &quot;border&quot;: &quot;none&quot;,
+    &quot;intent&quot;: &quot;Block a generic entry row has no visible author or recipient. Keep the scripted evidence boundary and lettering visible.&quot;,
+    &quot;lettering&quot;: [
+      {
+        &quot;box&quot;: [
+          0.08,
+          0.18,
+          0.83,
+          0.24
+        ],
+        &quot;max_size&quot;: 58,
+        &quot;role&quot;: &quot;plain&quot;
+      }
+    ],
+    &quot;lettering_mode&quot;: &quot;manual&quot;,
+    &quot;nodes&quot;: [],
+    &quot;reconstructed&quot;: false,
+    &quot;shot&quot;: &quot;blank&quot;,
+    &quot;source&quot;: &quot;\n**Frame:** The upper half of a black page field. A single generic artifact-entry row appears without interface chrome, author, time, path, or recipient.\n\n**Screen / system text:**\n`zzHELP_`\n\n**Action:** The continuation after the underscore is obscured before it can identify a convention, purpose, or source.\n\n**Provenance:** `invented` — prefix echo only; not the documented 2026 message.\n\n&quot;,
+    &quot;title&quot;: &quot;A generic entry row has no visible author or recipient&quot;
+  }
+}
+</metadata><rect width="1200" height="800" fill="#101214"/></svg>

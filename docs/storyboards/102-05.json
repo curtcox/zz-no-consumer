@@ -1,0 +1,93 @@
+{
+  "background": "ink",
+  "intent": "Block only the open-question column expands. Keep the scripted evidence boundary and lettering visible.",
+  "lettering": [
+    {
+      "box": [
+        0.045,
+        0.78,
+        0.91,
+        0.18
+      ]
+    }
+  ],
+  "lettering_mode": "manual",
+  "nodes": [
+    {
+      "asset": "folder",
+      "box": [
+        0.1044,
+        0.2242,
+        0.146372,
+        0.256
+      ],
+      "color": "steel",
+      "focus": true,
+      "label": "DOCUMENTED EVENT",
+      "label_box": [
+        0.09640000000000001,
+        0.4862,
+        0.16237200000000002,
+        0.085
+      ]
+    },
+    {
+      "asset": "outline-box",
+      "box": [
+        0.3022,
+        0.2242,
+        0.146372,
+        0.256
+      ],
+      "color": "steel",
+      "focus": true,
+      "label": "ORGANIZATION CLAIM",
+      "label_box": [
+        0.2942,
+        0.4862,
+        0.16237200000000002,
+        0.085
+      ]
+    },
+    {
+      "asset": "outline-box",
+      "box": [
+        0.5,
+        0.2242,
+        0.146372,
+        0.256
+      ],
+      "color": "steel",
+      "focus": true,
+      "label": "INDEPENDENT CHECK",
+      "label_box": [
+        0.492,
+        0.4862,
+        0.16237200000000002,
+        0.085
+      ]
+    },
+    {
+      "asset": "folder",
+      "box": [
+        0.6978,
+        0.2242,
+        0.146372,
+        0.256
+      ],
+      "color": "steel",
+      "focus": true,
+      "label": "OPEN QUESTIONS",
+      "label_box": [
+        0.6898,
+        0.4862,
+        0.16237200000000002,
+        0.085
+      ]
+    }
+  ],
+  "reconstructed": false,
+  "shot": "row",
+  "source": "\n**Frame:** The forum's four columns remain. `OPEN QUESTION` is the only one that expands.\n\n**Caption:**\n> KNOWING THE PROBLEM DOES NOT CREATE THE INSTITUTION THAT CAN COORDINATE THE ANSWER.\n\n**Provenance:** `inferred` — chapter conclusion.\n\n",
+  "title": "Only the open-question column expands"
+}

@@ -1,0 +1,30 @@
+{
+  "background": "ink",
+  "intent": "Block an intentional note is created. Keep the scripted evidence boundary and lettering visible.",
+  "lettering": [],
+  "lettering_mode": "manual",
+  "nodes": [
+    {
+      "asset": "folder",
+      "box": [
+        0.2117,
+        0.152,
+        0.5394,
+        0.558
+      ],
+      "color": "institution",
+      "focus": true,
+      "label": "REQUEST FILE",
+      "label_box": [
+        0.2037,
+        0.7160000000000001,
+        0.5554,
+        0.085
+      ]
+    }
+  ],
+  "reconstructed": false,
+  "shot": "hero",
+  "source": "\n**Frame:** A plain file is created in Artifactory. One muted moss-green edge appears for the first time in this chronology.\n\n**Action:** The file is used deliberately as a note.\n\n**Provenance:** `documented` — the intentional note is sourced; placement is reconstructed.\n\n",
+  "title": "An intentional note is created"
+}

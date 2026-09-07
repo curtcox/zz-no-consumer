@@ -1,0 +1,23 @@
+{
+  "background": "ink",
+  "intent": "Block a cursor waits before the final black page. Keep the scripted evidence boundary and lettering visible.",
+  "lettering": [],
+  "lettering_mode": "manual",
+  "nodes": [
+    {
+      "asset": "cursor",
+      "box": [
+        0.0908,
+        0.143,
+        0.2232,
+        0.162
+      ],
+      "color": "dirty",
+      "focus": true
+    }
+  ],
+  "reconstructed": false,
+  "shot": "blank",
+  "source": "\n**Frame:** Cursor after an empty field. The black of [page 118](118.md) enters from the right edge.\n\n**Provenance:** `invented` — silent page turn.\n\n",
+  "title": "A cursor waits before the final black page"
+}

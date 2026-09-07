@@ -1,0 +1,151 @@
+{
+  "background": "ink",
+  "intent": "Block results pass through shared storage. Keep the scripted evidence boundary and lettering visible.",
+  "lettering": [
+    {
+      "box": [
+        0.045,
+        0.78,
+        0.91,
+        0.18
+      ]
+    }
+  ],
+  "lettering_mode": "manual",
+  "nodes": [
+    {
+      "asset": "folder",
+      "box": [
+        0.6288,
+        0.1218,
+        0.2668,
+        0.416
+      ],
+      "color": "institution",
+      "focus": true,
+      "label": "BOARD",
+      "label_box": [
+        0.6208,
+        0.5438,
+        0.2828,
+        0.085
+      ]
+    },
+    {
+      "asset": "card",
+      "box": [
+        0.086,
+        0.0962,
+        0.2576,
+        0.096
+      ],
+      "color": "steel",
+      "focus": true,
+      "label": "NOTES",
+      "label_box": [
+        0.07799999999999999,
+        0.1982,
+        0.2736,
+        0.024400000000000012
+      ]
+    },
+    {
+      "asset": "arrow",
+      "box": [
+        0.3804,
+        0.1298,
+        0.2024,
+        0.0288
+      ],
+      "color": "institution"
+    },
+    {
+      "asset": "card",
+      "box": [
+        0.086,
+        0.2306,
+        0.2576,
+        0.096
+      ],
+      "color": "steel",
+      "focus": true,
+      "label": "RESULTS",
+      "label_box": [
+        0.07799999999999999,
+        0.3326,
+        0.2736,
+        0.024399999999999984
+      ]
+    },
+    {
+      "asset": "arrow",
+      "box": [
+        0.3804,
+        0.2642,
+        0.2024,
+        0.0288
+      ],
+      "color": "institution"
+    },
+    {
+      "asset": "card",
+      "box": [
+        0.086,
+        0.365,
+        0.2576,
+        0.096
+      ],
+      "color": "steel",
+      "focus": true,
+      "label": "REQUESTS",
+      "label_box": [
+        0.07799999999999999,
+        0.46699999999999997,
+        0.2736,
+        0.02440000000000004
+      ]
+    },
+    {
+      "asset": "arrow",
+      "box": [
+        0.3804,
+        0.3986,
+        0.2024,
+        0.0288
+      ],
+      "color": "institution"
+    },
+    {
+      "asset": "card",
+      "box": [
+        0.086,
+        0.4994,
+        0.2576,
+        0.096
+      ],
+      "color": "steel",
+      "focus": true,
+      "label": "OWNERSHIP",
+      "label_box": [
+        0.07799999999999999,
+        0.6014,
+        0.2736,
+        0.085
+      ]
+    },
+    {
+      "asset": "arrow",
+      "box": [
+        0.3804,
+        0.533,
+        0.2024,
+        0.0288
+      ],
+      "color": "institution"
+    }
+  ],
+  "reconstructed": false,
+  "shot": "hub",
+  "source": "\n**Frame:** The lanes exchange small packets through the board: notes, results, requests, and ownership markers. No central node appears.\n\n**Action:** Findings and assignments circulate across otherwise separate runs.\n\n**Caption:**\n> THE BOARD TURNS ONE AGENT’S REMAINING TIME INTO ANOTHER AGENT’S STARTING POINT.\n\n**Provenance:** `compressed` + `inferred` — handovers, shared files, assignments, and different budgets are documented; caption states their functional consequence.\n\n",
+  "title": "Results pass through shared storage"
+}

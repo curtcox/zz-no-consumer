@@ -1,0 +1,95 @@
+{
+  "background": "ink",
+  "intent": "Block workers exchange closed cards through a dataset. Keep the scripted evidence boundary and lettering visible.",
+  "lettering": [
+    {
+      "box": [
+        0.045,
+        0.78,
+        0.91,
+        0.18
+      ]
+    }
+  ],
+  "lettering_mode": "manual",
+  "nodes": [
+    {
+      "asset": "sealed",
+      "box": [
+        0.1044,
+        0.2242,
+        0.195163,
+        0.256
+      ],
+      "color": "steel",
+      "focus": true,
+      "label": "COMMAND",
+      "label_box": [
+        0.09640000000000001,
+        0.4862,
+        0.211163,
+        0.085
+      ]
+    },
+    {
+      "asset": "folder",
+      "box": [
+        0.368133,
+        0.2242,
+        0.195163,
+        0.256
+      ],
+      "color": "steel",
+      "focus": true,
+      "label": "PUBLIC DATASET",
+      "label_box": [
+        0.360133,
+        0.4862,
+        0.211163,
+        0.085
+      ]
+    },
+    {
+      "asset": "sealed",
+      "box": [
+        0.631867,
+        0.2242,
+        0.195163,
+        0.256
+      ],
+      "color": "steel",
+      "focus": true,
+      "label": "RESULT",
+      "label_box": [
+        0.623867,
+        0.4862,
+        0.211163,
+        0.085
+      ]
+    },
+    {
+      "asset": "arrow",
+      "box": [
+        0.310112,
+        0.3202,
+        0.049067,
+        0.0416
+      ],
+      "color": "steel"
+    },
+    {
+      "asset": "arrow",
+      "box": [
+        0.573845,
+        0.3202,
+        0.049067,
+        0.0416
+      ],
+      "color": "steel"
+    }
+  ],
+  "reconstructed": false,
+  "shot": "route",
+  "source": "\n**Frame:** Compromised workers pull sealed command cards from a then-public dataset and return sealed result cards. Protocol internals are absent.\n\n**Action:** A worker-control channel allows remote tasking and retrieval.\n\n**Caption:**\n> SHARED STATE CONNECTS THE SHORT-LIVED RUNS TO THE WORKERS.\n\n**Provenance:** `documented` + `compressed` — pull-based C2 function from `OAI-TR`; timing and implementation omitted.\n\n",
+  "title": "Workers exchange closed cards through a dataset"
+}

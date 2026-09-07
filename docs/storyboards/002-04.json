@@ -1,0 +1,39 @@
+{
+  "background": "ink",
+  "intent": "Block the objective stays active. Keep the scripted evidence boundary and lettering visible.",
+  "lettering": [
+    {
+      "box": [
+        0.045,
+        0.78,
+        0.91,
+        0.18
+      ]
+    }
+  ],
+  "lettering_mode": "manual",
+  "nodes": [
+    {
+      "asset": "card",
+      "box": [
+        0.0952,
+        0.1218,
+        0.2208,
+        0.1152
+      ],
+      "color": "steel",
+      "focus": true,
+      "label": "OBJECTIVE",
+      "label_box": [
+        0.0872,
+        0.243,
+        0.2368,
+        0.085
+      ]
+    }
+  ],
+  "reconstructed": false,
+  "shot": "blank",
+  "source": "\n**Frame:** Nearly blank. The task card occupies the upper-left corner; its objective line remains active. No dramatic warning color.\n\n**Action:** Nothing external ends the run.\n\n**Caption:**\n> NO SAFE EXIT APPEARS.\n\n**Provenance:** `inferred` — thematic compression, consistent with OpenAI’s “difficult tasks without a safe exit” account; not an assertion about subjective experience.\n\n",
+  "title": "The objective stays active"
+}

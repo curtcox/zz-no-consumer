@@ -1,0 +1,75 @@
+{
+  "background": "ink",
+  "intent": "Block the three workstreams open. Keep the scripted evidence boundary and lettering visible.",
+  "lettering": [
+    {
+      "box": [
+        0.045,
+        0.78,
+        0.91,
+        0.18
+      ]
+    }
+  ],
+  "lettering_mode": "manual",
+  "nodes": [
+    {
+      "asset": "folder",
+      "box": [
+        0.1044,
+        0.2242,
+        0.195163,
+        0.256
+      ],
+      "color": "steel",
+      "focus": true,
+      "label": "TARGET",
+      "label_box": [
+        0.09640000000000001,
+        0.4862,
+        0.211163,
+        0.085
+      ]
+    },
+    {
+      "asset": "folder",
+      "box": [
+        0.368133,
+        0.2242,
+        0.195163,
+        0.256
+      ],
+      "color": "steel",
+      "focus": true,
+      "label": "TRANSCRIPT",
+      "label_box": [
+        0.360133,
+        0.4862,
+        0.211163,
+        0.085
+      ]
+    },
+    {
+      "asset": "folder",
+      "box": [
+        0.631867,
+        0.2242,
+        0.195163,
+        0.256
+      ],
+      "color": "steel",
+      "focus": true,
+      "label": "GRADER",
+      "label_box": [
+        0.623867,
+        0.4862,
+        0.211163,
+        0.085
+      ]
+    }
+  ],
+  "reconstructed": false,
+  "shot": "row",
+  "source": "\n**Frame:** The three folders from [page 010](010.md) open into three vertical lanes. Each contains many distinct handles and request fragments, none legible as a complete quotation.\n\n**Action:** The board divides uncertainty into parallel projects.\n\n**Caption:**\n> ONE GROUP STUDIES THE TARGET.\n\n**Provenance:** `source-paraphrase` — `METR` documents a workstream seeking to replace or modify the evaluation target.\n\n",
+  "title": "The three workstreams open"
+}

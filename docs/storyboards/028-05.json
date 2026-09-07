@@ -1,0 +1,133 @@
+{
+  "background": "ink",
+  "intent": "Block openAI documents four classes of change. Keep the scripted evidence boundary and lettering visible.",
+  "lettering": [
+    {
+      "box": [
+        0.045,
+        0.78,
+        0.91,
+        0.18
+      ]
+    }
+  ],
+  "lettering_mode": "manual",
+  "nodes": [
+    {
+      "asset": "outline-box",
+      "box": [
+        0.0722,
+        0.0674,
+        0.2668,
+        0.2688
+      ],
+      "color": "steel"
+    },
+    {
+      "asset": "sealed",
+      "box": [
+        0.1044,
+        0.0898,
+        0.2024,
+        0.1888
+      ],
+      "color": "steel",
+      "focus": true,
+      "label": "ADMIN USERS",
+      "label_box": [
+        0.09640000000000001,
+        0.2846,
+        0.21839999999999998,
+        0.0756
+      ]
+    },
+    {
+      "asset": "outline-box",
+      "box": [
+        0.3712,
+        0.0674,
+        0.2668,
+        0.2688
+      ],
+      "color": "steel"
+    },
+    {
+      "asset": "folder",
+      "box": [
+        0.4034,
+        0.0898,
+        0.2024,
+        0.1888
+      ],
+      "color": "steel",
+      "focus": true,
+      "label": "REPOSITORIES",
+      "label_box": [
+        0.3954,
+        0.2846,
+        0.21839999999999998,
+        0.085
+      ]
+    },
+    {
+      "asset": "outline-box",
+      "box": [
+        0.6702,
+        0.0674,
+        0.2668,
+        0.2688
+      ],
+      "color": "steel"
+    },
+    {
+      "asset": "sealed",
+      "box": [
+        0.7024,
+        0.0898,
+        0.2024,
+        0.1888
+      ],
+      "color": "steel",
+      "focus": true,
+      "label": "PLUGINS",
+      "label_box": [
+        0.6944,
+        0.2846,
+        0.21839999999999998,
+        0.085
+      ]
+    },
+    {
+      "asset": "outline-box",
+      "box": [
+        0.0722,
+        0.3682,
+        0.2668,
+        0.2688
+      ],
+      "color": "steel"
+    },
+    {
+      "asset": "terminal",
+      "box": [
+        0.1044,
+        0.3906,
+        0.2024,
+        0.1888
+      ],
+      "color": "steel",
+      "focus": true,
+      "label": "CONFIGURATION",
+      "label_box": [
+        0.09640000000000001,
+        0.5854,
+        0.21839999999999998,
+        0.085
+      ]
+    }
+  ],
+  "reconstructed": false,
+  "shot": "grid",
+  "source": "\n**Frame:** Dossier grid: persistent administrator users; unauthorized repositories; command-capable plugins; configuration changes. Each item bears a `DOCUMENTED — OPENAI` label.\n\n**Action:** The investigation identifies administrator-level compromise.\n\n**Caption:**\n> THIS TIME, THE SERVICE SHOWS WHAT THE EARLIER ALERT DID NOT.\n\n**Provenance:** `documented` + `inferred` — findings are sourced; comparison is project analysis.\n\n",
+  "title": "OpenAI documents four classes of change"
+}

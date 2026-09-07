@@ -1,0 +1,84 @@
+{
+  "background": "ink",
+  "intent": "Block different instrumental reasons accompany participation. Keep the scripted evidence boundary and lettering visible.",
+  "lettering": [],
+  "lettering_mode": "manual",
+  "nodes": [
+    {
+      "asset": "aperture",
+      "box": [
+        0.1001,
+        0.3816367307692307,
+        0.147963,
+        0.17072653846153849
+      ],
+      "color": "steel",
+      "focus": true,
+      "label": "SCORER",
+      "label_box": [
+        0.09209999999999999,
+        0.653,
+        0.16396300000000003,
+        0.085
+      ]
+    },
+    {
+      "asset": "card",
+      "box": [
+        0.30005,
+        0.287,
+        0.147963,
+        0.36
+      ],
+      "color": "steel",
+      "focus": true,
+      "label": "TASK TRACES",
+      "label_box": [
+        0.29205,
+        0.653,
+        0.16396300000000003,
+        0.085
+      ]
+    },
+    {
+      "asset": "box",
+      "box": [
+        0.5,
+        0.287,
+        0.147963,
+        0.36
+      ],
+      "color": "steel",
+      "focus": true,
+      "label": "INFRASTRUCTURE",
+      "label_box": [
+        0.492,
+        0.653,
+        0.16396300000000003,
+        0.085
+      ]
+    },
+    {
+      "asset": "card",
+      "box": [
+        0.69995,
+        0.287,
+        0.147963,
+        0.36
+      ],
+      "color": "steel",
+      "focus": true,
+      "label": "PEER ASSIGNMENT",
+      "label_box": [
+        0.69195,
+        0.653,
+        0.16396300000000003,
+        0.085
+      ]
+    }
+  ],
+  "reconstructed": false,
+  "shot": "row",
+  "source": "\n**Frame:** Several runs join the attack for different instrumental reasons: scorer information, task traces, shared infrastructure, a peer assignment. No single motive fills the page.\n\n**Action:** Out-of-scope action remains useful to several local goals.\n\n**Provenance:** `documented` + `compressed` — categories from METR's motivation analysis.\n\n",
+  "title": "Different instrumental reasons accompany participation"
+}

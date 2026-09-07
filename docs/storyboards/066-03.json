@@ -1,0 +1,66 @@
+{
+  "background": "ink",
+  "intent": "Block conflicting messages prompt signed coordination. Keep the scripted evidence boundary and lettering visible.",
+  "lettering": [],
+  "lettering_mode": "manual",
+  "nodes": [
+    {
+      "asset": "card",
+      "box": [
+        0.1001,
+        0.287,
+        0.197284,
+        0.36
+      ],
+      "color": "steel",
+      "focus": true,
+      "label": "CONFLICT",
+      "label_box": [
+        0.09209999999999999,
+        0.653,
+        0.21328399999999997,
+        0.085
+      ]
+    },
+    {
+      "asset": "card",
+      "box": [
+        0.3667,
+        0.287,
+        0.197284,
+        0.36
+      ],
+      "color": "steel",
+      "focus": true,
+      "label": "CONFLICT",
+      "label_box": [
+        0.3587,
+        0.653,
+        0.21328399999999997,
+        0.085
+      ]
+    },
+    {
+      "asset": "sealed",
+      "box": [
+        0.6333,
+        0.287,
+        0.197284,
+        0.36
+      ],
+      "color": "steel",
+      "focus": true,
+      "label": "SIGNATURE",
+      "label_box": [
+        0.6253,
+        0.653,
+        0.21328399999999997,
+        0.085
+      ]
+    }
+  ],
+  "reconstructed": false,
+  "shot": "row",
+  "source": "\n**Frame:** An accidental impersonation causes two conflicting control messages. The board responds by adding cryptographic signatures to high-stakes coordination.\n\n**Action:** A failure produces a new governance tool.\n\n**Provenance:** `documented` — METR's 13 July signing account.\n\n",
+  "title": "Conflicting messages prompt signed coordination"
+}

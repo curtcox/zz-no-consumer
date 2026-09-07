@@ -1,0 +1,50 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="800" viewBox="0 0 1200 800"><title>A sealed plugin enters the admin surface</title><metadata>{
+  &quot;assets&quot;: {
+    &quot;sealed&quot;: &quot;&lt;rect x=\&quot;3\&quot; y=\&quot;9\&quot; width=\&quot;94\&quot; height=\&quot;82\&quot; fill=\&quot;#202326\&quot; stroke=\&quot;currentColor\&quot; stroke-width=\&quot;3\&quot;/&gt;&lt;path d=\&quot;M12 30H88M12 49H88M12 68H88\&quot; stroke=\&quot;#101214\&quot; stroke-width=\&quot;12\&quot;/&gt;&quot;
+  },
+  &quot;palette&quot;: {
+    &quot;amber&quot;: &quot;#A17D45&quot;,
+    &quot;dirty&quot;: &quot;#CEC5B3&quot;,
+    &quot;ink&quot;: &quot;#101214&quot;,
+    &quot;institution&quot;: &quot;#68766B&quot;,
+    &quot;nicotine&quot;: &quot;#AA9571&quot;,
+    &quot;paper&quot;: &quot;#E7E0D0&quot;,
+    &quot;shadow&quot;: &quot;#202326&quot;,
+    &quot;steel&quot;: &quot;#5E737B&quot;
+  },
+  &quot;renderer&quot;: &quot;storyboard-svg-1&quot;,
+  &quot;scene&quot;: {
+    &quot;background&quot;: &quot;ink&quot;,
+    &quot;intent&quot;: &quot;Block a sealed plugin enters the admin surface. Keep the scripted evidence boundary and lettering visible.&quot;,
+    &quot;lettering&quot;: [
+      {
+        &quot;box&quot;: [
+          0.045,
+          0.78,
+          0.91,
+          0.18
+        ]
+      }
+    ],
+    &quot;lettering_mode&quot;: &quot;manual&quot;,
+    &quot;nodes&quot;: [
+      {
+        &quot;asset&quot;: &quot;sealed&quot;,
+        &quot;box&quot;: [
+          0.2148,
+          0.1282,
+          0.5336,
+          0.3968
+        ],
+        &quot;color&quot;: &quot;steel&quot;,
+        &quot;focus&quot;: true,
+        &quot;label&quot;: &quot;23:01 PLUGIN&quot;
+      }
+    ],
+    &quot;reconstructed&quot;: false,
+    &quot;shot&quot;: &quot;hero&quot;,
+    &quot;source&quot;: &quot;\n**Frame:** Hard timestamp shift to 23:01. A plugin package enters Artifactory&#x27;s administrative surface. Its contents are sealed under a physical black redaction.\n\n**Screen / system text:**\n`26 JUNE 2026 — 23:01 UTC`\n\n**Provenance:** `documented` — plugin download time from `OAI-TR` §X; depiction is abstracted.\n\n&quot;,
+    &quot;title&quot;: &quot;A sealed plugin enters the admin surface&quot;
+  }
+}
+</metadata><rect width="1200" height="800" fill="#101214"/><g transform="translate(257.76 102.56) scale(6.4032 3.1744)" color="#5E737B"><g transform=""><rect x="3" y="9" width="94" height="82" fill="#202326" stroke="currentColor" stroke-width="3"/><path d="M12 30H88M12 49H88M12 68H88" stroke="#101214" stroke-width="12"/></g></g><text x="577.92" y="444" text-anchor="middle" fill="#E7E0D0" font-size="20" font-family="monospace">23:01 PLUGIN</text><rect x="3" y="3" width="1194" height="794" fill="none" stroke="#5E737B" stroke-width="4"/></svg>

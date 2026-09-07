@@ -1,0 +1,75 @@
+{
+  "background": "ink",
+  "intent": "Block readers open different parts of the published book. Keep the scripted evidence boundary and lettering visible.",
+  "lettering": [
+    {
+      "box": [
+        0.045,
+        0.78,
+        0.91,
+        0.18
+      ]
+    }
+  ],
+  "lettering_mode": "manual",
+  "nodes": [
+    {
+      "asset": "monitor",
+      "box": [
+        0.1044,
+        0.2242,
+        0.195163,
+        0.256
+      ],
+      "color": "steel",
+      "focus": true,
+      "label": "MONITORING",
+      "label_box": [
+        0.09640000000000001,
+        0.4862,
+        0.211163,
+        0.085
+      ]
+    },
+    {
+      "asset": "paper",
+      "box": [
+        0.368133,
+        0.2242,
+        0.195163,
+        0.256
+      ],
+      "color": "steel",
+      "focus": true,
+      "label": "EVIDENCE BOUNDARIES",
+      "label_box": [
+        0.360133,
+        0.4862,
+        0.211163,
+        0.085
+      ]
+    },
+    {
+      "asset": "folder",
+      "box": [
+        0.631867,
+        0.2242,
+        0.195163,
+        0.256
+      ],
+      "color": "steel",
+      "focus": true,
+      "label": "FIRST MESSAGE",
+      "label_box": [
+        0.623867,
+        0.4862,
+        0.211163,
+        0.085
+      ]
+    }
+  ],
+  "reconstructed": false,
+  "shot": "row",
+  "source": "\n**Frame:** Public readers open different pages: an incident responder studies monitoring; a researcher studies evidence boundaries; another reader starts at the first `zzHELP` message.\n\n**Caption:**\n> THE STORY ENTERS CULTURE THROUGH MORE THAN ONE READER.\n\n**Provenance:** `reconstructed` + `inferred` — representative reception, not measured readership.\n\n",
+  "title": "Readers open different parts of the published book"
+}

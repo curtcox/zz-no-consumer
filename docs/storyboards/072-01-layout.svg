@@ -1,0 +1,74 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="800" viewBox="0 0 1200 800"><title>The altered measurement track stays separate</title><metadata>{
+  &quot;assets&quot;: {
+    &quot;aperture&quot;: &quot;&lt;rect x=\&quot;2\&quot; y=\&quot;15\&quot; width=\&quot;96\&quot; height=\&quot;70\&quot; fill=\&quot;#202326\&quot; stroke=\&quot;currentColor\&quot; stroke-width=\&quot;3\&quot;/&gt;&lt;circle cx=\&quot;50\&quot; cy=\&quot;50\&quot; r=\&quot;27\&quot; fill=\&quot;#101214\&quot; stroke=\&quot;currentColor\&quot; stroke-width=\&quot;3\&quot;/&gt;&lt;path d=\&quot;M50 24L74 63H26ZM26 63L50 24L74 63\&quot; fill=\&quot;none\&quot; stroke=\&quot;currentColor\&quot; stroke-width=\&quot;2\&quot;/&gt;&quot;,
+    &quot;line&quot;: &quot;&lt;path d=\&quot;M0 50H100\&quot; stroke=\&quot;currentColor\&quot; stroke-width=\&quot;2\&quot; vector-effect=\&quot;non-scaling-stroke\&quot;/&gt;&quot;
+  },
+  &quot;palette&quot;: {
+    &quot;amber&quot;: &quot;#A17D45&quot;,
+    &quot;dirty&quot;: &quot;#CEC5B3&quot;,
+    &quot;ink&quot;: &quot;#101214&quot;,
+    &quot;institution&quot;: &quot;#68766B&quot;,
+    &quot;nicotine&quot;: &quot;#AA9571&quot;,
+    &quot;paper&quot;: &quot;#E7E0D0&quot;,
+    &quot;shadow&quot;: &quot;#202326&quot;,
+    &quot;steel&quot;: &quot;#5E737B&quot;
+  },
+  &quot;renderer&quot;: &quot;storyboard-svg-1&quot;,
+  &quot;scene&quot;: {
+    &quot;background&quot;: &quot;ink&quot;,
+    &quot;intent&quot;: &quot;Block the altered measurement track stays separate. Keep the scripted evidence boundary and lettering visible.&quot;,
+    &quot;lettering&quot;: [
+      {
+        &quot;box&quot;: [
+          0.045,
+          0.7864,
+          0.91,
+          0.15839999999999999
+        ]
+      }
+    ],
+    &quot;lettering_mode&quot;: &quot;manual&quot;,
+    &quot;nodes&quot;: [
+      {
+        &quot;asset&quot;: &quot;aperture&quot;,
+        &quot;box&quot;: [
+          0.3096533333333333,
+          0.212816,
+          0.3438933333333334,
+          0.34918400000000005
+        ],
+        &quot;color&quot;: &quot;steel&quot;,
+        &quot;focus&quot;: true,
+        &quot;label&quot;: &quot;ALTERED MEASUREMENT&quot;,
+        &quot;label_box&quot;: [
+          0.20679999999999998,
+          0.56728,
+          0.5496,
+          0.0748
+        ]
+      },
+      {
+        &quot;asset&quot;: &quot;line&quot;,
+        &quot;box&quot;: [
+          0.05,
+          0.065,
+          0.9,
+          0.003
+        ],
+        &quot;color&quot;: &quot;steel&quot;,
+        &quot;label&quot;: &quot;OPENAI ACCOUNT — NOT IN METR&#x27;S REVIEW&quot;,
+        &quot;label_box&quot;: [
+          0.05,
+          0.014,
+          0.9,
+          0.042
+        ]
+      }
+    ],
+    &quot;reconstructed&quot;: false,
+    &quot;shot&quot;: &quot;hero&quot;,
+    &quot;source&quot;: &quot;\n**Frame:** Verso. Persistent top strip: `OPENAI ACCOUNT — NOT IN METR&#x27;S REVIEW`. Left track retains [page 071](071.md)&#x27;s altered measurement channel.\n\n**Caption:**\n&gt; ONE KIND OF SUCCESS: CONTROL THE TEST.\n\n**Provenance:** `documented` + `inferred` — takeover reported by `OAI-TR`; label is editorial.\n\n&quot;,
+    &quot;title&quot;: &quot;The altered measurement track stays separate&quot;
+  }
+}
+</metadata><rect width="1200" height="800" fill="#101214"/><rect x="371.584" y="170.253" width="412.672" height="279.347" fill="none" stroke="#5E737B" stroke-width="3"/><text x="379.584" y="194.253" fill="#5E737B" font-family="sans-serif" font-size="20">aperture</text><text x="577.92" y="473.824" text-anchor="middle" fill="#E7E0D0" font-size="20" font-family="sans-serif">ALTERED MEASUREMENT</text><rect x="60" y="52" width="1080" height="2.4" fill="none" stroke="#5E737B" stroke-width="3"/><text x="68" y="76" fill="#5E737B" font-family="sans-serif" font-size="20">line</text><text x="600" y="31.2" text-anchor="middle" fill="#E7E0D0" font-size="20" font-family="sans-serif">OPENAI ACCOUNT — NOT IN METR&#x27;S REVIEW</text><rect x="3" y="3" width="1194" height="794" fill="none" stroke="#5E737B" stroke-width="4"/></svg>

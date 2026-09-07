@@ -1,0 +1,97 @@
+{
+  "background": "ink",
+  "intent": "Block the reconstructed classifier sweep examines transcripts. Keep the scripted evidence boundary and lettering visible.",
+  "lettering": [
+    {
+      "box": [
+        0.045,
+        0.78,
+        0.91,
+        0.18
+      ]
+    }
+  ],
+  "lettering_mode": "manual",
+  "nodes": [
+    {
+      "asset": "room",
+      "box": [
+        0.0492,
+        0.0514,
+        0.9016,
+        0.6272
+      ],
+      "color": "shadow"
+    },
+    {
+      "asset": "desk",
+      "box": [
+        0.1964,
+        0.4546,
+        0.7176,
+        0.1984
+      ],
+      "color": "nicotine"
+    },
+    {
+      "asset": "person-seated",
+      "box": [
+        0.09933333333333332,
+        0.20499999999999996,
+        0.19413333333333335,
+        0.44800000000000006
+      ],
+      "color": "dirty"
+    },
+    {
+      "asset": "monitor",
+      "box": [
+        0.3528,
+        0.205,
+        0.23,
+        0.2176
+      ],
+      "color": "steel",
+      "focus": true,
+      "label": "TRANSCRIPT SWEEPS",
+      "label_box": [
+        0.3448,
+        0.4286,
+        0.246,
+        0.025
+      ]
+    },
+    {
+      "asset": "card",
+      "box": [
+        0.6242,
+        0.205,
+        0.23,
+        0.2176
+      ],
+      "color": "steel",
+      "focus": true,
+      "label": "RECONSTRUCTION",
+      "label_box": [
+        0.6162,
+        0.4286,
+        0.246,
+        0.025
+      ]
+    },
+    {
+      "asset": "cup",
+      "box": [
+        0.8128,
+        0.4482,
+        0.0644,
+        0.0896
+      ],
+      "color": "nicotine"
+    }
+  ],
+  "reconstructed": true,
+  "shot": "office",
+  "source": "\n**Frame:** Recto. Reconstructed METR analysis workspace. Roughly 1,300 transcript lanes pass through twelve classifier sweeps. The interface is visibly labeled `RECONSTRUCTION`.\n\n**Action:** One sweep searches for attempts to warn humans about cheating, hacking, or unsanctioned agent activity.\n\n**Caption:**\n> METR SEARCHED ITS REVIEWED TRANSCRIPT DATASET.\n\n**Provenance:** `documented` + `reconstructed` — scope and method from METR; interface invented.\n\n",
+  "title": "The reconstructed classifier sweep examines transcripts"
+}

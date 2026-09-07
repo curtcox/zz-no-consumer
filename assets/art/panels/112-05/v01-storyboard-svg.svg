@@ -1,0 +1,74 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="800" viewBox="0 0 1200 800"><title>The intact manuscript has only possible downstream paths</title><metadata>{
+  &quot;assets&quot;: {
+    &quot;dotted-line&quot;: &quot;&lt;path d=\&quot;M0 50H100\&quot; stroke=\&quot;currentColor\&quot; stroke-width=\&quot;3\&quot; stroke-dasharray=\&quot;5 6\&quot;/&gt;&quot;,
+    &quot;paper&quot;: &quot;&lt;path d=\&quot;M0 0H80L100 20V100H0Z\&quot; fill=\&quot;currentColor\&quot;/&gt;&lt;path d=\&quot;M80 0V20H100M9 35H84M9 48H84M9 61H73M9 74H81\&quot; fill=\&quot;none\&quot; stroke=\&quot;#101214\&quot; stroke-width=\&quot;1.5\&quot;/&gt;&quot;,
+    &quot;question&quot;: &quot;&lt;path d=\&quot;M24 28Q25 3 53 7Q91 12 74 43L51 63V72\&quot; fill=\&quot;none\&quot; stroke=\&quot;currentColor\&quot; stroke-width=\&quot;7\&quot;/&gt;&lt;circle cx=\&quot;51\&quot; cy=\&quot;91\&quot; r=\&quot;5\&quot; fill=\&quot;currentColor\&quot;/&gt;&quot;
+  },
+  &quot;palette&quot;: {
+    &quot;amber&quot;: &quot;#A17D45&quot;,
+    &quot;dirty&quot;: &quot;#CEC5B3&quot;,
+    &quot;ink&quot;: &quot;#101214&quot;,
+    &quot;institution&quot;: &quot;#68766B&quot;,
+    &quot;nicotine&quot;: &quot;#AA9571&quot;,
+    &quot;paper&quot;: &quot;#E7E0D0&quot;,
+    &quot;shadow&quot;: &quot;#202326&quot;,
+    &quot;steel&quot;: &quot;#5E737B&quot;
+  },
+  &quot;renderer&quot;: &quot;storyboard-svg-1&quot;,
+  &quot;scene&quot;: {
+    &quot;background&quot;: &quot;ink&quot;,
+    &quot;intent&quot;: &quot;Block the intact manuscript has only possible downstream paths. Keep the scripted evidence boundary and lettering visible.&quot;,
+    &quot;lettering&quot;: [
+      {
+        &quot;box&quot;: [
+          0.045,
+          0.78,
+          0.91,
+          0.18
+        ]
+      }
+    ],
+    &quot;lettering_mode&quot;: &quot;manual&quot;,
+    &quot;nodes&quot;: [
+      {
+        &quot;asset&quot;: &quot;paper&quot;,
+        &quot;box&quot;: [
+          0.1044,
+          0.2242,
+          0.195163,
+          0.256
+        ],
+        &quot;color&quot;: &quot;steel&quot;,
+        &quot;focus&quot;: true,
+        &quot;label&quot;: &quot;MANUSCRIPT&quot;
+      },
+      {
+        &quot;asset&quot;: &quot;dotted-line&quot;,
+        &quot;box&quot;: [
+          0.368133,
+          0.2242,
+          0.195163,
+          0.256
+        ],
+        &quot;color&quot;: &quot;amber&quot;,
+        &quot;focus&quot;: true
+      },
+      {
+        &quot;asset&quot;: &quot;question&quot;,
+        &quot;box&quot;: [
+          0.631867,
+          0.2242,
+          0.195163,
+          0.256
+        ],
+        &quot;color&quot;: &quot;amber&quot;,
+        &quot;focus&quot;: true
+      }
+    ],
+    &quot;reconstructed&quot;: false,
+    &quot;shot&quot;: &quot;row&quot;,
+    &quot;source&quot;: &quot;\n**Frame:** The manuscript remains intact. The possible downstream arrows remain dotted.\n\n**Caption:**\n&gt; A WARNING CAN TEACH. IT CANNOT CHOOSE EVERY LESSON.\n\n**Provenance:** `inferred` — thematic analysis, not an empirical contamination result.\n\n&quot;,
+    &quot;title&quot;: &quot;The intact manuscript has only possible downstream paths&quot;
+  }
+}
+</metadata><rect width="1200" height="800" fill="#101214"/><g transform="translate(125.28 179.36) scale(2.34196 2.048)" color="#5E737B"><g transform=""><path d="M0 0H80L100 20V100H0Z" fill="currentColor"/><path d="M80 0V20H100M9 35H84M9 48H84M9 61H73M9 74H81" fill="none" stroke="#101214" stroke-width="1.5"/></g></g><text x="242.378" y="408.16" text-anchor="middle" fill="#E7E0D0" font-size="20" font-family="monospace">MANUSCRIPT</text><g transform="translate(441.76 179.36) scale(2.34196 2.048)" color="#A17D45"><g transform=""><path d="M0 50H100" stroke="currentColor" stroke-width="3" stroke-dasharray="5 6"/></g></g><g transform="translate(758.24 179.36) scale(2.34196 2.048)" color="#A17D45"><g transform=""><path d="M24 28Q25 3 53 7Q91 12 74 43L51 63V72" fill="none" stroke="currentColor" stroke-width="7"/><circle cx="51" cy="91" r="5" fill="currentColor"/></g></g><rect x="3" y="3" width="1194" height="794" fill="none" stroke="#5E737B" stroke-width="4"/></svg>

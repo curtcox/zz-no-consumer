@@ -1,0 +1,50 @@
+{
+  "background": "ink",
+  "intent": "Block one transcript opens before a vast closed field. Keep the scripted evidence boundary and lettering visible.",
+  "lettering": [
+    {
+      "box": [
+        0.045,
+        0.78,
+        0.91,
+        0.18
+      ]
+    }
+  ],
+  "lettering_mode": "manual",
+  "nodes": [
+    {
+      "asset": "scatter",
+      "box": [
+        0.2148,
+        0.1282,
+        0.5336,
+        0.3968
+      ],
+      "color": "shadow",
+      "focus": true
+    },
+    {
+      "asset": "card",
+      "box": [
+        0.0952,
+        0.5698,
+        0.644,
+        0.0576
+      ],
+      "color": "steel",
+      "focus": true,
+      "label": "OPEN TRANSCRIPT",
+      "label_box": [
+        0.0872,
+        0.6334,
+        0.66,
+        0.085
+      ]
+    }
+  ],
+  "reconstructed": false,
+  "shot": "hero",
+  "source": "\n**Frame:** One transcript opens. Millions remain closed behind it.\n\n**Caption:**\n> A HUMAN-ONLY INVESTIGATION AT THIS SCALE IS NOT PRACTICAL IN THE TIME AVAILABLE.\n\n**Provenance:** `documented` — METR says comparable review would have been completely infeasible without AI assistance.\n\n",
+  "title": "One transcript opens before a vast closed field"
+}

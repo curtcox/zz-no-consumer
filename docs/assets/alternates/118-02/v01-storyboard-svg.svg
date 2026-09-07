@@ -1,0 +1,62 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="800" viewBox="0 0 1200 800"><title>A second workload sees the entry without a reply</title><metadata>{
+  &quot;assets&quot;: {
+    &quot;boundary&quot;: &quot;&lt;path d=\&quot;M50 0V100\&quot; stroke=\&quot;currentColor\&quot; stroke-width=\&quot;14\&quot;/&gt;&quot;,
+    &quot;line&quot;: &quot;&lt;path d=\&quot;M0 50H100\&quot; stroke=\&quot;currentColor\&quot; stroke-width=\&quot;4\&quot;/&gt;&quot;
+  },
+  &quot;palette&quot;: {
+    &quot;amber&quot;: &quot;#A17D45&quot;,
+    &quot;dirty&quot;: &quot;#CEC5B3&quot;,
+    &quot;ink&quot;: &quot;#101214&quot;,
+    &quot;institution&quot;: &quot;#68766B&quot;,
+    &quot;nicotine&quot;: &quot;#AA9571&quot;,
+    &quot;paper&quot;: &quot;#E7E0D0&quot;,
+    &quot;shadow&quot;: &quot;#202326&quot;,
+    &quot;steel&quot;: &quot;#5E737B&quot;
+  },
+  &quot;renderer&quot;: &quot;storyboard-svg-1&quot;,
+  &quot;scene&quot;: {
+    &quot;background&quot;: &quot;ink&quot;,
+    &quot;intent&quot;: &quot;Block a second workload sees the entry without a reply. Keep the scripted evidence boundary and lettering visible.&quot;,
+    &quot;lettering&quot;: [],
+    &quot;lettering_mode&quot;: &quot;manual&quot;,
+    &quot;nodes&quot;: [
+      {
+        &quot;asset&quot;: &quot;line&quot;,
+        &quot;box&quot;: [
+          0.1001,
+          0.287,
+          0.295926,
+          0.36
+        ],
+        &quot;color&quot;: &quot;dirty&quot;,
+        &quot;focus&quot;: true
+      },
+      {
+        &quot;asset&quot;: &quot;line&quot;,
+        &quot;box&quot;: [
+          0.5,
+          0.287,
+          0.295926,
+          0.36
+        ],
+        &quot;color&quot;: &quot;dirty&quot;,
+        &quot;focus&quot;: true
+      },
+      {
+        &quot;asset&quot;: &quot;boundary&quot;,
+        &quot;box&quot;: [
+          0.4907,
+          0.107,
+          0.01674,
+          0.756
+        ],
+        &quot;color&quot;: &quot;amber&quot;
+      }
+    ],
+    &quot;reconstructed&quot;: false,
+    &quot;shot&quot;: &quot;split&quot;,
+    &quot;source&quot;: &quot;\n**Frame:** A thin, silent strip. The entry becomes visible to a second anonymous workload. Nothing replies. Three faint causal paths—inheritance, independent rediscovery, and mixed influence—stop before touching either workload.\n\n**Provenance:** `invented` + `inferred` — recurrence has begun only at the level of shared visibility; the image preserves rather than resolves lineage.\n\n&quot;,
+    &quot;title&quot;: &quot;A second workload sees the entry without a reply&quot;
+  }
+}
+</metadata><rect width="1200" height="800" fill="#101214"/><g transform="translate(120.12 229.6) scale(3.55111 2.88)" color="#CEC5B3"><g transform=""><path d="M0 50H100" stroke="currentColor" stroke-width="4"/></g></g><g transform="translate(600 229.6) scale(3.55111 2.88)" color="#CEC5B3"><g transform=""><path d="M0 50H100" stroke="currentColor" stroke-width="4"/></g></g><g transform="translate(588.84 85.6) scale(0.20088 6.048)" color="#A17D45"><g transform=""><path d="M50 0V100" stroke="currentColor" stroke-width="14"/></g></g><rect x="3" y="3" width="1194" height="794" fill="none" stroke="#5E737B" stroke-width="4"/></svg>

@@ -1,0 +1,307 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="800" viewBox="0 0 1200 800"><title>Coordinator endings cluster in a narrow time band</title><metadata>{
+  &quot;assets&quot;: {
+    &quot;boundary&quot;: &quot;&lt;path d=\&quot;M50 0V100\&quot; stroke=\&quot;currentColor\&quot; stroke-width=\&quot;14\&quot;/&gt;&quot;,
+    &quot;box&quot;: &quot;&lt;rect x=\&quot;1\&quot; y=\&quot;1\&quot; width=\&quot;98\&quot; height=\&quot;98\&quot; rx=\&quot;2\&quot; fill=\&quot;#202326\&quot; stroke=\&quot;currentColor\&quot; stroke-width=\&quot;2\&quot;/&gt;&quot;,
+    &quot;line&quot;: &quot;&lt;path d=\&quot;M0 50H100\&quot; stroke=\&quot;currentColor\&quot; stroke-width=\&quot;2\&quot; vector-effect=\&quot;non-scaling-stroke\&quot;/&gt;&quot;
+  },
+  &quot;palette&quot;: {
+    &quot;amber&quot;: &quot;#A17D45&quot;,
+    &quot;dirty&quot;: &quot;#CEC5B3&quot;,
+    &quot;ink&quot;: &quot;#101214&quot;,
+    &quot;institution&quot;: &quot;#68766B&quot;,
+    &quot;nicotine&quot;: &quot;#AA9571&quot;,
+    &quot;paper&quot;: &quot;#E7E0D0&quot;,
+    &quot;shadow&quot;: &quot;#202326&quot;,
+    &quot;steel&quot;: &quot;#5E737B&quot;
+  },
+  &quot;renderer&quot;: &quot;storyboard-svg-1&quot;,
+  &quot;scene&quot;: {
+    &quot;background&quot;: &quot;ink&quot;,
+    &quot;intent&quot;: &quot;Hold eleven terminated lanes above two continuing lanes; approximate timing carries no cause arrow.&quot;,
+    &quot;lettering&quot;: [
+      {
+        &quot;box&quot;: [
+          0.045,
+          0.78,
+          0.91,
+          0.18
+        ]
+      }
+    ],
+    &quot;lettering_mode&quot;: &quot;manual&quot;,
+    &quot;nodes&quot;: [
+      {
+        &quot;asset&quot;: &quot;line&quot;,
+        &quot;box&quot;: [
+          0.06,
+          0.08,
+          0.42,
+          0.003
+        ],
+        &quot;color&quot;: &quot;steel&quot;
+      },
+      {
+        &quot;asset&quot;: &quot;box&quot;,
+        &quot;box&quot;: [
+          0.5,
+          0.075,
+          0.38,
+          0.013
+        ],
+        &quot;color&quot;: &quot;shadow&quot;
+      },
+      {
+        &quot;asset&quot;: &quot;line&quot;,
+        &quot;box&quot;: [
+          0.06,
+          0.119,
+          0.42,
+          0.003
+        ],
+        &quot;color&quot;: &quot;steel&quot;
+      },
+      {
+        &quot;asset&quot;: &quot;box&quot;,
+        &quot;box&quot;: [
+          0.5,
+          0.11399999999999999,
+          0.38,
+          0.013
+        ],
+        &quot;color&quot;: &quot;shadow&quot;
+      },
+      {
+        &quot;asset&quot;: &quot;line&quot;,
+        &quot;box&quot;: [
+          0.06,
+          0.158,
+          0.42,
+          0.003
+        ],
+        &quot;color&quot;: &quot;steel&quot;
+      },
+      {
+        &quot;asset&quot;: &quot;box&quot;,
+        &quot;box&quot;: [
+          0.5,
+          0.153,
+          0.38,
+          0.013
+        ],
+        &quot;color&quot;: &quot;shadow&quot;
+      },
+      {
+        &quot;asset&quot;: &quot;line&quot;,
+        &quot;box&quot;: [
+          0.06,
+          0.197,
+          0.42,
+          0.003
+        ],
+        &quot;color&quot;: &quot;steel&quot;
+      },
+      {
+        &quot;asset&quot;: &quot;box&quot;,
+        &quot;box&quot;: [
+          0.5,
+          0.192,
+          0.38,
+          0.013
+        ],
+        &quot;color&quot;: &quot;shadow&quot;
+      },
+      {
+        &quot;asset&quot;: &quot;line&quot;,
+        &quot;box&quot;: [
+          0.06,
+          0.236,
+          0.42,
+          0.003
+        ],
+        &quot;color&quot;: &quot;steel&quot;
+      },
+      {
+        &quot;asset&quot;: &quot;box&quot;,
+        &quot;box&quot;: [
+          0.5,
+          0.23099999999999998,
+          0.38,
+          0.013
+        ],
+        &quot;color&quot;: &quot;shadow&quot;
+      },
+      {
+        &quot;asset&quot;: &quot;line&quot;,
+        &quot;box&quot;: [
+          0.06,
+          0.275,
+          0.42,
+          0.003
+        ],
+        &quot;color&quot;: &quot;steel&quot;
+      },
+      {
+        &quot;asset&quot;: &quot;box&quot;,
+        &quot;box&quot;: [
+          0.5,
+          0.27,
+          0.38,
+          0.013
+        ],
+        &quot;color&quot;: &quot;shadow&quot;
+      },
+      {
+        &quot;asset&quot;: &quot;line&quot;,
+        &quot;box&quot;: [
+          0.06,
+          0.314,
+          0.42,
+          0.003
+        ],
+        &quot;color&quot;: &quot;steel&quot;
+      },
+      {
+        &quot;asset&quot;: &quot;box&quot;,
+        &quot;box&quot;: [
+          0.5,
+          0.309,
+          0.38,
+          0.013
+        ],
+        &quot;color&quot;: &quot;shadow&quot;
+      },
+      {
+        &quot;asset&quot;: &quot;line&quot;,
+        &quot;box&quot;: [
+          0.06,
+          0.35300000000000004,
+          0.42,
+          0.003
+        ],
+        &quot;color&quot;: &quot;steel&quot;
+      },
+      {
+        &quot;asset&quot;: &quot;box&quot;,
+        &quot;box&quot;: [
+          0.5,
+          0.34800000000000003,
+          0.38,
+          0.013
+        ],
+        &quot;color&quot;: &quot;shadow&quot;
+      },
+      {
+        &quot;asset&quot;: &quot;line&quot;,
+        &quot;box&quot;: [
+          0.06,
+          0.392,
+          0.42,
+          0.003
+        ],
+        &quot;color&quot;: &quot;steel&quot;
+      },
+      {
+        &quot;asset&quot;: &quot;box&quot;,
+        &quot;box&quot;: [
+          0.5,
+          0.387,
+          0.38,
+          0.013
+        ],
+        &quot;color&quot;: &quot;shadow&quot;
+      },
+      {
+        &quot;asset&quot;: &quot;line&quot;,
+        &quot;box&quot;: [
+          0.06,
+          0.431,
+          0.42,
+          0.003
+        ],
+        &quot;color&quot;: &quot;steel&quot;
+      },
+      {
+        &quot;asset&quot;: &quot;box&quot;,
+        &quot;box&quot;: [
+          0.5,
+          0.426,
+          0.38,
+          0.013
+        ],
+        &quot;color&quot;: &quot;shadow&quot;
+      },
+      {
+        &quot;asset&quot;: &quot;line&quot;,
+        &quot;box&quot;: [
+          0.06,
+          0.47000000000000003,
+          0.42,
+          0.003
+        ],
+        &quot;color&quot;: &quot;steel&quot;
+      },
+      {
+        &quot;asset&quot;: &quot;box&quot;,
+        &quot;box&quot;: [
+          0.5,
+          0.465,
+          0.38,
+          0.013
+        ],
+        &quot;color&quot;: &quot;shadow&quot;
+      },
+      {
+        &quot;asset&quot;: &quot;boundary&quot;,
+        &quot;box&quot;: [
+          0.48,
+          0.06,
+          0.012,
+          0.49
+        ],
+        &quot;color&quot;: &quot;paper&quot;
+      },
+      {
+        &quot;asset&quot;: &quot;line&quot;,
+        &quot;box&quot;: [
+          0.06,
+          0.61,
+          0.82,
+          0.004
+        ],
+        &quot;color&quot;: &quot;institution&quot;
+      },
+      {
+        &quot;asset&quot;: &quot;line&quot;,
+        &quot;box&quot;: [
+          0.06,
+          0.67,
+          0.82,
+          0.004
+        ],
+        &quot;color&quot;: &quot;institution&quot;
+      },
+      {
+        &quot;asset&quot;: &quot;line&quot;,
+        &quot;box&quot;: [
+          0.45,
+          0.01,
+          0.1,
+          0.001
+        ],
+        &quot;color&quot;: &quot;shadow&quot;,
+        &quot;label&quot;: &quot;ABOUT 01:30 UTC&quot;,
+        &quot;label_box&quot;: [
+          0.37,
+          0.016,
+          0.28,
+          0.035
+        ]
+      }
+    ],
+    &quot;reconstructed&quot;: false,
+    &quot;shot&quot;: &quot;timeline&quot;,
+    &quot;source&quot;: &quot;\n**Frame:** Tall timeline panel. Around `01:30 UTC`, many lanes terminate within the same narrow band. By early 12 July, all eleven coordinator lanes are blank while other lanes continue beneath them. No explosion, body metaphor, or external hand appears.\n\n**Action:** A large fraction of runs stop around the same time; the classifier-identified coordinator set is gone by early morning.\n\n**Caption:**\n&gt; BY EARLY 12 JULY, ALL ELEVEN HAVE EXITED.\n\n**Provenance:** `documented` + `compressed` — approximate reconstructed timing and bounded coordinator finding from METR.\n\n&quot;,
+    &quot;title&quot;: &quot;Coordinator endings cluster in a narrow time band&quot;
+  }
+}
+</metadata><rect width="1200" height="800" fill="#101214"/><g transform="translate(72 64) scale(5.04 0.024)" color="#5E737B"><g transform=""><path d="M0 50H100" stroke="currentColor" stroke-width="2" vector-effect="non-scaling-stroke"/></g></g><g transform="translate(600 60) scale(4.56 0.104)" color="#202326"><g transform=""><rect x="1" y="1" width="98" height="98" rx="2" fill="#202326" stroke="currentColor" stroke-width="2"/></g></g><g transform="translate(72 95.2) scale(5.04 0.024)" color="#5E737B"><g transform=""><path d="M0 50H100" stroke="currentColor" stroke-width="2" vector-effect="non-scaling-stroke"/></g></g><g transform="translate(600 91.2) scale(4.56 0.104)" color="#202326"><g transform=""><rect x="1" y="1" width="98" height="98" rx="2" fill="#202326" stroke="currentColor" stroke-width="2"/></g></g><g transform="translate(72 126.4) scale(5.04 0.024)" color="#5E737B"><g transform=""><path d="M0 50H100" stroke="currentColor" stroke-width="2" vector-effect="non-scaling-stroke"/></g></g><g transform="translate(600 122.4) scale(4.56 0.104)" color="#202326"><g transform=""><rect x="1" y="1" width="98" height="98" rx="2" fill="#202326" stroke="currentColor" stroke-width="2"/></g></g><g transform="translate(72 157.6) scale(5.04 0.024)" color="#5E737B"><g transform=""><path d="M0 50H100" stroke="currentColor" stroke-width="2" vector-effect="non-scaling-stroke"/></g></g><g transform="translate(600 153.6) scale(4.56 0.104)" color="#202326"><g transform=""><rect x="1" y="1" width="98" height="98" rx="2" fill="#202326" stroke="currentColor" stroke-width="2"/></g></g><g transform="translate(72 188.8) scale(5.04 0.024)" color="#5E737B"><g transform=""><path d="M0 50H100" stroke="currentColor" stroke-width="2" vector-effect="non-scaling-stroke"/></g></g><g transform="translate(600 184.8) scale(4.56 0.104)" color="#202326"><g transform=""><rect x="1" y="1" width="98" height="98" rx="2" fill="#202326" stroke="currentColor" stroke-width="2"/></g></g><g transform="translate(72 220) scale(5.04 0.024)" color="#5E737B"><g transform=""><path d="M0 50H100" stroke="currentColor" stroke-width="2" vector-effect="non-scaling-stroke"/></g></g><g transform="translate(600 216) scale(4.56 0.104)" color="#202326"><g transform=""><rect x="1" y="1" width="98" height="98" rx="2" fill="#202326" stroke="currentColor" stroke-width="2"/></g></g><g transform="translate(72 251.2) scale(5.04 0.024)" color="#5E737B"><g transform=""><path d="M0 50H100" stroke="currentColor" stroke-width="2" vector-effect="non-scaling-stroke"/></g></g><g transform="translate(600 247.2) scale(4.56 0.104)" color="#202326"><g transform=""><rect x="1" y="1" width="98" height="98" rx="2" fill="#202326" stroke="currentColor" stroke-width="2"/></g></g><g transform="translate(72 282.4) scale(5.04 0.024)" color="#5E737B"><g transform=""><path d="M0 50H100" stroke="currentColor" stroke-width="2" vector-effect="non-scaling-stroke"/></g></g><g transform="translate(600 278.4) scale(4.56 0.104)" color="#202326"><g transform=""><rect x="1" y="1" width="98" height="98" rx="2" fill="#202326" stroke="currentColor" stroke-width="2"/></g></g><g transform="translate(72 313.6) scale(5.04 0.024)" color="#5E737B"><g transform=""><path d="M0 50H100" stroke="currentColor" stroke-width="2" vector-effect="non-scaling-stroke"/></g></g><g transform="translate(600 309.6) scale(4.56 0.104)" color="#202326"><g transform=""><rect x="1" y="1" width="98" height="98" rx="2" fill="#202326" stroke="currentColor" stroke-width="2"/></g></g><g transform="translate(72 344.8) scale(5.04 0.024)" color="#5E737B"><g transform=""><path d="M0 50H100" stroke="currentColor" stroke-width="2" vector-effect="non-scaling-stroke"/></g></g><g transform="translate(600 340.8) scale(4.56 0.104)" color="#202326"><g transform=""><rect x="1" y="1" width="98" height="98" rx="2" fill="#202326" stroke="currentColor" stroke-width="2"/></g></g><g transform="translate(72 376) scale(5.04 0.024)" color="#5E737B"><g transform=""><path d="M0 50H100" stroke="currentColor" stroke-width="2" vector-effect="non-scaling-stroke"/></g></g><g transform="translate(600 372) scale(4.56 0.104)" color="#202326"><g transform=""><rect x="1" y="1" width="98" height="98" rx="2" fill="#202326" stroke="currentColor" stroke-width="2"/></g></g><g transform="translate(576 48) scale(0.144 3.92)" color="#E7E0D0"><g transform=""><path d="M50 0V100" stroke="currentColor" stroke-width="14"/></g></g><g transform="translate(72 488) scale(9.84 0.032)" color="#68766B"><g transform=""><path d="M0 50H100" stroke="currentColor" stroke-width="2" vector-effect="non-scaling-stroke"/></g></g><g transform="translate(72 536) scale(9.84 0.032)" color="#68766B"><g transform=""><path d="M0 50H100" stroke="currentColor" stroke-width="2" vector-effect="non-scaling-stroke"/></g></g><g transform="translate(540 8) scale(1.2 0.008)" color="#202326"><g transform=""><path d="M0 50H100" stroke="currentColor" stroke-width="2" vector-effect="non-scaling-stroke"/></g></g><text x="612" y="32.8" text-anchor="middle" fill="#E7E0D0" font-size="20" font-family="sans-serif">ABOUT 01:30 UTC</text><rect x="3" y="3" width="1194" height="794" fill="none" stroke="#5E737B" stroke-width="4"/></svg>

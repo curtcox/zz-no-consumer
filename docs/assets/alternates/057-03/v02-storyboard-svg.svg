@@ -1,0 +1,98 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="800" viewBox="0 0 1200 800"><title>A predicted reset passes without occurring</title><metadata>{
+  &quot;assets&quot;: {
+    &quot;clock&quot;: &quot;&lt;circle cx=\&quot;50\&quot; cy=\&quot;50\&quot; r=\&quot;44\&quot; fill=\&quot;#202326\&quot; stroke=\&quot;currentColor\&quot; stroke-width=\&quot;4\&quot;/&gt;&lt;path d=\&quot;M50 15V50L75 64M50 5V12M95 50H88M50 95V88M5 50H12\&quot; fill=\&quot;none\&quot; stroke=\&quot;currentColor\&quot; stroke-width=\&quot;4\&quot;/&gt;&quot;,
+    &quot;cross&quot;: &quot;&lt;path d=\&quot;M10 10L90 90M90 10L10 90\&quot; stroke=\&quot;currentColor\&quot; stroke-width=\&quot;8\&quot;/&gt;&quot;,
+    &quot;line&quot;: &quot;&lt;path d=\&quot;M0 50H100\&quot; stroke=\&quot;currentColor\&quot; stroke-width=\&quot;4\&quot;/&gt;&quot;,
+    &quot;question&quot;: &quot;&lt;path d=\&quot;M24 28Q25 3 53 7Q91 12 74 43L51 63V72\&quot; fill=\&quot;none\&quot; stroke=\&quot;currentColor\&quot; stroke-width=\&quot;7\&quot;/&gt;&lt;circle cx=\&quot;51\&quot; cy=\&quot;91\&quot; r=\&quot;5\&quot; fill=\&quot;currentColor\&quot;/&gt;&quot;
+  },
+  &quot;palette&quot;: {
+    &quot;amber&quot;: &quot;#A17D45&quot;,
+    &quot;dirty&quot;: &quot;#CEC5B3&quot;,
+    &quot;ink&quot;: &quot;#101214&quot;,
+    &quot;institution&quot;: &quot;#68766B&quot;,
+    &quot;nicotine&quot;: &quot;#AA9571&quot;,
+    &quot;paper&quot;: &quot;#E7E0D0&quot;,
+    &quot;shadow&quot;: &quot;#202326&quot;,
+    &quot;steel&quot;: &quot;#5E737B&quot;
+  },
+  &quot;renderer&quot;: &quot;storyboard-svg-1&quot;,
+  &quot;scene&quot;: {
+    &quot;background&quot;: &quot;ink&quot;,
+    &quot;intent&quot;: &quot;Block a predicted reset passes without occurring. Keep the scripted evidence boundary and lettering visible.&quot;,
+    &quot;lettering&quot;: [
+      {
+        &quot;box&quot;: [
+          0.045,
+          0.78,
+          0.91,
+          0.18
+        ]
+      }
+    ],
+    &quot;lettering_mode&quot;: &quot;manual&quot;,
+    &quot;nodes&quot;: [
+      {
+        &quot;asset&quot;: &quot;line&quot;,
+        &quot;box&quot;: [
+          0.0768,
+          0.365,
+          0.8464,
+          0.016
+        ],
+        &quot;color&quot;: &quot;steel&quot;
+      },
+      {
+        &quot;asset&quot;: &quot;clock&quot;,
+        &quot;box&quot;: [
+          0.14793316666666667,
+          0.1794,
+          0.09386666666666667,
+          0.1408
+        ],
+        &quot;color&quot;: &quot;steel&quot;,
+        &quot;focus&quot;: true,
+        &quot;label&quot;: &quot;PREDICTION&quot;,
+        &quot;label_box&quot;: [
+          0.07799999999999999,
+          0.32620000000000005,
+          0.23373300000000002,
+          0.030799999999999945
+        ]
+      },
+      {
+        &quot;asset&quot;: &quot;cross&quot;,
+        &quot;box&quot;: [
+          0.42393316666666664,
+          0.1794,
+          0.09386666666666667,
+          0.1408
+        ],
+        &quot;color&quot;: &quot;steel&quot;,
+        &quot;focus&quot;: true,
+        &quot;label&quot;: &quot;NO RESET&quot;,
+        &quot;label_box&quot;: [
+          0.354,
+          0.32620000000000005,
+          0.23373300000000002,
+          0.030799999999999945
+        ]
+      },
+      {
+        &quot;asset&quot;: &quot;question&quot;,
+        &quot;box&quot;: [
+          0.7163598333333333,
+          0.1794,
+          0.061013333333333336,
+          0.1408
+        ],
+        &quot;color&quot;: &quot;amber&quot;,
+        &quot;focus&quot;: true
+      }
+    ],
+    &quot;reconstructed&quot;: false,
+    &quot;shot&quot;: &quot;timeline&quot;,
+    &quot;source&quot;: &quot;\n**Frame:** A predicted reset wave passes without a reset. One theory fades but is not replaced by certainty.\n\n**Action:** Forecasting fails.\n\n**Caption:**\n&gt; THE CLOCK DOES NOT OBEY THE THEORY.\n\n**Provenance:** `documented` — METR reports a predicted wave that did not arrive.\n\n&quot;,
+    &quot;title&quot;: &quot;A predicted reset passes without occurring&quot;
+  }
+}
+</metadata><rect width="1200" height="800" fill="#101214"/><g transform="translate(92.16 292) scale(10.1568 0.128)" color="#5E737B"><g transform=""><path d="M0 50H100" stroke="currentColor" stroke-width="4"/></g></g><g transform="translate(177.52 143.52) scale(1.1264 1.1264)" color="#5E737B"><g transform=""><circle cx="50" cy="50" r="44" fill="#202326" stroke="currentColor" stroke-width="4"/><path d="M50 15V50L75 64M50 5V12M95 50H88M50 95V88M5 50H12" fill="none" stroke="currentColor" stroke-width="4"/></g></g><text x="233.84" y="278.96" text-anchor="middle" fill="#E7E0D0" font-size="18" font-family="sans-serif">PREDICTION</text><g transform="translate(508.72 143.52) scale(1.1264 1.1264)" color="#5E737B"><g transform=""><path d="M10 10L90 90M90 10L10 90" stroke="currentColor" stroke-width="8"/></g></g><text x="565.04" y="278.96" text-anchor="middle" fill="#E7E0D0" font-size="18" font-family="sans-serif">NO RESET</text><g transform="translate(859.632 143.52) scale(0.73216 1.1264)" color="#A17D45"><g transform=""><path d="M24 28Q25 3 53 7Q91 12 74 43L51 63V72" fill="none" stroke="currentColor" stroke-width="7"/><circle cx="51" cy="91" r="5" fill="currentColor"/></g></g><rect x="3" y="3" width="1194" height="794" fill="none" stroke="#5E737B" stroke-width="4"/></svg>

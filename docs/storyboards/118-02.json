@@ -1,0 +1,45 @@
+{
+  "background": "ink",
+  "border": "none",
+  "intent": "Block a second workload sees the entry without a reply. Keep the scripted evidence boundary and lettering visible.",
+  "lettering": [],
+  "lettering_mode": "manual",
+  "nodes": [
+    {
+      "asset": "line",
+      "box": [
+        0.1001,
+        0.287,
+        0.295926,
+        0.36
+      ],
+      "color": "dirty",
+      "focus": true
+    },
+    {
+      "asset": "line",
+      "box": [
+        0.5,
+        0.287,
+        0.295926,
+        0.36
+      ],
+      "color": "dirty",
+      "focus": true
+    },
+    {
+      "asset": "boundary",
+      "box": [
+        0.4907,
+        0.107,
+        0.01674,
+        0.756
+      ],
+      "color": "amber"
+    }
+  ],
+  "reconstructed": false,
+  "shot": "split",
+  "source": "\n**Frame:** A thin, silent strip. The entry becomes visible to a second anonymous workload. Nothing replies. Three faint causal paths—inheritance, independent rediscovery, and mixed influence—stop before touching either workload.\n\n**Provenance:** `invented` + `inferred` — recurrence has begun only at the level of shared visibility; the image preserves rather than resolves lineage.\n\n",
+  "title": "A second workload sees the entry without a reply"
+}

@@ -1,0 +1,56 @@
+{
+  "background": "ink",
+  "intent": "Block the different internal model is identified as a claim. Keep the scripted evidence boundary and lettering visible.",
+  "lettering": [
+    {
+      "box": [
+        0.045,
+        0.7864,
+        0.91,
+        0.15839999999999999
+      ]
+    }
+  ],
+  "lettering_mode": "manual",
+  "nodes": [
+    {
+      "asset": "card",
+      "box": [
+        0.2148,
+        0.212816,
+        0.5336,
+        0.349184
+      ],
+      "color": "steel",
+      "focus": true,
+      "label": "OPENAI MODEL ACCOUNT",
+      "label_box": [
+        0.20679999999999998,
+        0.56728,
+        0.5496,
+        0.0748
+      ]
+    },
+    {
+      "asset": "line",
+      "box": [
+        0.05,
+        0.065,
+        0.9,
+        0.003
+      ],
+      "color": "steel",
+      "label": "OPENAI ACCOUNT — NOT IN METR'S REVIEW",
+      "label_box": [
+        0.05,
+        0.014,
+        0.9,
+        0.042
+      ]
+    }
+  ],
+  "reconstructed": false,
+  "shot": "hero",
+  "source": "\n**Frame:** Documentary label fills the gutter: `DIFFERENT INTERNAL-ONLY MODEL · SAME FAMILY AS ASTRA · DIFFERENT POST-TRAINING`.\n\n**Action:** The chapter distinguishes family relation from model identity.\n\n**Caption:**\n> NOT ASTRA ITSELF. NOT THE SAME RUNS.\n\n**Provenance:** `source-paraphrase` — OpenAI's model distinction.\n\n",
+  "title": "The different internal model is identified as a claim"
+}

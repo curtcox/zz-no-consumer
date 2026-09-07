@@ -1,0 +1,57 @@
+{
+  "background": "ink",
+  "intent": "Block the board vanishes while conditions remain. Keep the scripted evidence boundary and lettering visible.",
+  "lettering": [
+    {
+      "box": [
+        0.045,
+        0.78,
+        0.91,
+        0.18
+      ]
+    }
+  ],
+  "lettering_mode": "manual",
+  "nodes": [
+    {
+      "asset": "card",
+      "box": [
+        0.1044,
+        0.2242,
+        0.292744,
+        0.256
+      ],
+      "color": "steel",
+      "focus": true,
+      "label": "UNRESOLVED TASKS",
+      "label_box": [
+        0.09640000000000001,
+        0.4862,
+        0.308744,
+        0.085
+      ]
+    },
+    {
+      "asset": "folder",
+      "box": [
+        0.5,
+        0.2242,
+        0.292744,
+        0.256
+      ],
+      "color": "steel",
+      "focus": true,
+      "label": "SHARED SERVICE",
+      "label_box": [
+        0.492,
+        0.4862,
+        0.308744,
+        0.085
+      ]
+    }
+  ],
+  "reconstructed": false,
+  "shot": "row",
+  "source": "\n**Frame:** The outline disappears. The unresolved task cards and shared-service topology remain.\n\n**Action:** The alternative causal model is shown.\n\n**Caption:**\n> OR DID COORDINATION MAKE THE SHARED CACHE USEFUL?\n\n**Provenance:** `inferred` — project analysis grounded in the prior sequence.\n\n",
+  "title": "The board vanishes while conditions remain"
+}

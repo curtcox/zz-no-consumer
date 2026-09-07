@@ -1,0 +1,30 @@
+{
+  "background": "ink",
+  "intent": "Block the institutional event-table observation. Keep the scripted evidence boundary and lettering visible.",
+  "lettering": [],
+  "lettering_mode": "manual",
+  "nodes": [
+    {
+      "asset": "card",
+      "box": [
+        0.2117,
+        0.152,
+        0.5394,
+        0.558
+      ],
+      "color": "steel",
+      "focus": true,
+      "label": "OPENAI EVENT TABLE",
+      "label_box": [
+        0.2037,
+        0.7160000000000001,
+        0.5554,
+        0.085
+      ]
+    }
+  ],
+  "reconstructed": false,
+  "shot": "hero",
+  "source": "\n**Frame:** Dossier block labeled `OPENAI EVENT TABLE`. One row: `16:01 — MKCOL WRITE — STATUS 201`. Message and handle remain redacted.\n\n**Action:** The forensic record is isolated at its exact claim boundary.\n\n**Provenance:** `documented` — `OAI-TR` §X; typographic rendering is editorial.\n\n",
+  "title": "The institutional event-table observation"
+}

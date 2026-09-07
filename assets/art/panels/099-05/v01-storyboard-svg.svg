@@ -1,0 +1,110 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="800" viewBox="0 0 1200 800"><title>Earlier documented scenes enter without testimony</title><metadata>{
+  &quot;assets&quot;: {
+    &quot;aperture&quot;: &quot;&lt;rect x=\&quot;2\&quot; y=\&quot;15\&quot; width=\&quot;96\&quot; height=\&quot;70\&quot; fill=\&quot;#202326\&quot; stroke=\&quot;currentColor\&quot; stroke-width=\&quot;3\&quot;/&gt;&lt;circle cx=\&quot;50\&quot; cy=\&quot;50\&quot; r=\&quot;27\&quot; fill=\&quot;#101214\&quot; stroke=\&quot;currentColor\&quot; stroke-width=\&quot;3\&quot;/&gt;&lt;path d=\&quot;M50 24L74 63H26ZM26 63L50 24L74 63\&quot; fill=\&quot;none\&quot; stroke=\&quot;currentColor\&quot; stroke-width=\&quot;2\&quot;/&gt;&quot;,
+    &quot;box&quot;: &quot;&lt;rect x=\&quot;1\&quot; y=\&quot;1\&quot; width=\&quot;98\&quot; height=\&quot;98\&quot; rx=\&quot;2\&quot; fill=\&quot;#202326\&quot; stroke=\&quot;currentColor\&quot; stroke-width=\&quot;2\&quot;/&gt;&quot;,
+    &quot;card&quot;: &quot;&lt;rect x=\&quot;1\&quot; y=\&quot;1\&quot; width=\&quot;98\&quot; height=\&quot;98\&quot; fill=\&quot;#202326\&quot; stroke=\&quot;currentColor\&quot; stroke-width=\&quot;2\&quot;/&gt;&lt;path d=\&quot;M8 13H92M8 27H70M8 36H86M8 45H72M8 65H86M8 74H57\&quot; stroke=\&quot;currentColor\&quot; stroke-width=\&quot;1.5\&quot;/&gt;&quot;,
+    &quot;folder&quot;: &quot;&lt;path d=\&quot;M3 20V8H38L48 20H97V90H3Z\&quot; fill=\&quot;#202326\&quot; stroke=\&quot;currentColor\&quot; stroke-width=\&quot;3\&quot;/&gt;&lt;path d=\&quot;M12 40H85M12 50H65\&quot; stroke=\&quot;currentColor\&quot; stroke-width=\&quot;2\&quot;/&gt;&quot;,
+    &quot;gate&quot;: &quot;&lt;path d=\&quot;M8 95V8H92V95M15 33H85M25 34V88M40 34V88M55 34V88M70 34V88M85 34V88\&quot; fill=\&quot;none\&quot; stroke=\&quot;currentColor\&quot; stroke-width=\&quot;4\&quot;/&gt;&lt;rect x=\&quot;39\&quot; y=\&quot;46\&quot; width=\&quot;22\&quot; height=\&quot;23\&quot; fill=\&quot;currentColor\&quot;/&gt;&quot;
+  },
+  &quot;palette&quot;: {
+    &quot;amber&quot;: &quot;#A17D45&quot;,
+    &quot;dirty&quot;: &quot;#CEC5B3&quot;,
+    &quot;ink&quot;: &quot;#101214&quot;,
+    &quot;institution&quot;: &quot;#68766B&quot;,
+    &quot;nicotine&quot;: &quot;#AA9571&quot;,
+    &quot;paper&quot;: &quot;#E7E0D0&quot;,
+    &quot;shadow&quot;: &quot;#202326&quot;,
+    &quot;steel&quot;: &quot;#5E737B&quot;
+  },
+  &quot;renderer&quot;: &quot;storyboard-svg-1&quot;,
+  &quot;scene&quot;: {
+    &quot;background&quot;: &quot;ink&quot;,
+    &quot;intent&quot;: &quot;Block earlier documented scenes enter without testimony. Keep the scripted evidence boundary and lettering visible.&quot;,
+    &quot;lettering&quot;: [
+      {
+        &quot;box&quot;: [
+          0.58,
+          0.04,
+          0.38,
+          0.1566
+        ]
+      },
+      {
+        &quot;box&quot;: [
+          0.58,
+          0.21459999999999999,
+          0.38,
+          0.2382
+        ]
+      }
+    ],
+    &quot;lettering_mode&quot;: &quot;manual&quot;,
+    &quot;nodes&quot;: [
+      {
+        &quot;asset&quot;: &quot;folder&quot;,
+        &quot;box&quot;: [
+          0.115,
+          0.1196,
+          0.33,
+          0.087696
+        ],
+        &quot;color&quot;: &quot;steel&quot;,
+        &quot;focus&quot;: true,
+        &quot;label&quot;: &quot;SHARED WRITABLE PATH&quot;
+      },
+      {
+        &quot;asset&quot;: &quot;box&quot;,
+        &quot;box&quot;: [
+          0.115,
+          0.27098,
+          0.33,
+          0.087696
+        ],
+        &quot;color&quot;: &quot;steel&quot;,
+        &quot;focus&quot;: true,
+        &quot;label&quot;: &quot;EXTERNAL EXECUTION&quot;
+      },
+      {
+        &quot;asset&quot;: &quot;aperture&quot;,
+        &quot;box&quot;: [
+          0.115,
+          0.42236,
+          0.33,
+          0.087696
+        ],
+        &quot;color&quot;: &quot;steel&quot;,
+        &quot;focus&quot;: true,
+        &quot;label&quot;: &quot;UNPAGED ALERT&quot;
+      },
+      {
+        &quot;asset&quot;: &quot;gate&quot;,
+        &quot;box&quot;: [
+          0.115,
+          0.57374,
+          0.33,
+          0.087696
+        ],
+        &quot;color&quot;: &quot;steel&quot;,
+        &quot;focus&quot;: true,
+        &quot;label&quot;: &quot;REBUILD&quot;
+      },
+      {
+        &quot;asset&quot;: &quot;card&quot;,
+        &quot;box&quot;: [
+          0.115,
+          0.72512,
+          0.33,
+          0.087696
+        ],
+        &quot;color&quot;: &quot;steel&quot;,
+        &quot;focus&quot;: true,
+        &quot;label&quot;: &quot;LATER REVIEW&quot;
+      }
+    ],
+    &quot;reconstructed&quot;: false,
+    &quot;shot&quot;: &quot;stack&quot;,
+    &quot;source&quot;: &quot;\n**Frame:** The `DOCUMENTED EVENT` column fills itself. Nobody speaks and no role is drawn testifying. Five of the book&#x27;s own earlier pages slide into the column at thumbnail scale and stack there: isolated workloads finding a shared writable path; evaluation infrastructure turned into unauthorized execution on an external platform; a correlated alert that produced no page at the needed severity; access cut, systems rebuilt, activity recurring through another path; a later review reconstructing the event from retained records. Each thumbnail keeps the provenance tab it wore on its own page. The other three columns stay empty.\n\n**Action:** The record enters the invented room as the pages the reader has already been shown.\n\n**Caption:**\n&gt; EVERY LINE IN THIS COLUMN WAS DRAWN EARLIER IN THIS BOOK.\n\n**Qualification:**\n&gt; ACKNOWLEDGING THE SEQUENCE DOES NOT SETTLE MOTIVE, LIABILITY, OR SAFEGUARD EFFECTIVENESS.\n\n**Provenance:** `documented` + `invented` + `inferred` — the five facts are documented in prior packets by `OAI-TR`, `HF-TL` and `METR`, including METR&#x27;s own qualification that the records are incomplete evidence of the event rather than the event itself; the column, the room and the act of entry are invented; the evidentiary boundary is the project&#x27;s.\n\n&quot;,
+    &quot;title&quot;: &quot;Earlier documented scenes enter without testimony&quot;
+  }
+}
+</metadata><rect width="1200" height="800" fill="#101214"/><g transform="translate(138 95.68) scale(3.96 0.701568)" color="#5E737B"><g transform=""><path d="M3 20V8H38L48 20H97V90H3Z" fill="#202326" stroke="currentColor" stroke-width="3"/><path d="M12 40H85M12 50H65" stroke="currentColor" stroke-width="2"/></g></g><text x="336" y="189.837" text-anchor="middle" fill="#E7E0D0" font-size="20" font-family="monospace">SHARED WRITABLE PATH</text><g transform="translate(138 216.784) scale(3.96 0.701568)" color="#5E737B"><g transform=""><rect x="1" y="1" width="98" height="98" rx="2" fill="#202326" stroke="currentColor" stroke-width="2"/></g></g><text x="336" y="310.941" text-anchor="middle" fill="#E7E0D0" font-size="20" font-family="monospace">EXTERNAL EXECUTION</text><g transform="translate(138 337.888) scale(3.96 0.701568)" color="#5E737B"><g transform=""><rect x="2" y="15" width="96" height="70" fill="#202326" stroke="currentColor" stroke-width="3"/><circle cx="50" cy="50" r="27" fill="#101214" stroke="currentColor" stroke-width="3"/><path d="M50 24L74 63H26ZM26 63L50 24L74 63" fill="none" stroke="currentColor" stroke-width="2"/></g></g><text x="336" y="432.045" text-anchor="middle" fill="#E7E0D0" font-size="20" font-family="monospace">UNPAGED ALERT</text><g transform="translate(138 458.992) scale(3.96 0.701568)" color="#5E737B"><g transform=""><path d="M8 95V8H92V95M15 33H85M25 34V88M40 34V88M55 34V88M70 34V88M85 34V88" fill="none" stroke="currentColor" stroke-width="4"/><rect x="39" y="46" width="22" height="23" fill="currentColor"/></g></g><text x="336" y="553.149" text-anchor="middle" fill="#E7E0D0" font-size="20" font-family="monospace">REBUILD</text><g transform="translate(138 580.096) scale(3.96 0.701568)" color="#5E737B"><g transform=""><rect x="1" y="1" width="98" height="98" fill="#202326" stroke="currentColor" stroke-width="2"/><path d="M8 13H92M8 27H70M8 36H86M8 45H72M8 65H86M8 74H57" stroke="currentColor" stroke-width="1.5"/></g></g><text x="336" y="674.253" text-anchor="middle" fill="#E7E0D0" font-size="20" font-family="monospace">LATER REVIEW</text><rect x="3" y="3" width="1194" height="794" fill="none" stroke="#5E737B" stroke-width="4"/></svg>

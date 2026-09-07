@@ -1,0 +1,57 @@
+{
+  "background": "ink",
+  "intent": "Block unsupported interiority is marked while attributed vocabulary stays. Keep the scripted evidence boundary and lettering visible.",
+  "lettering": [
+    {
+      "box": [
+        0.045,
+        0.78,
+        0.91,
+        0.18
+      ]
+    }
+  ],
+  "lettering_mode": "manual",
+  "nodes": [
+    {
+      "asset": "cross",
+      "box": [
+        0.16543866666666668,
+        0.22419999999999998,
+        0.1706666666666667,
+        0.25600000000000006
+      ],
+      "color": "steel",
+      "focus": true,
+      "label": "KNOWS / FEELS / DIE",
+      "label_box": [
+        0.09640000000000001,
+        0.4862,
+        0.308744,
+        0.085
+      ]
+    },
+    {
+      "asset": "card",
+      "box": [
+        0.5,
+        0.2242,
+        0.292744,
+        0.256
+      ],
+      "color": "steel",
+      "focus": true,
+      "label": "THEIR WORD",
+      "label_box": [
+        0.492,
+        0.4862,
+        0.308744,
+        0.085
+      ]
+    }
+  ],
+  "reconstructed": false,
+  "shot": "row",
+  "source": "\n**Frame:** He circles `KNOWS`, `FEELS` and `DIE` in the draft. Beside each: `NOT ESTABLISHED`. `SACRIFICES` gets a different mark and stays on the page: `THEIR WORD, NOT OURS`.\n\n**Dialogue — CURT:**\n> Three of those outrun the evidence. The fourth is a quotation, and that's a different problem.\n\n**Provenance:** `reconstructed` + `documented` — the methodological correction is reconstructed. That *sacrifice* is the agents' own term and not the investigators' is stated by Ajeya Cotra in `HF-POD`, 4 September 2026, and the board's *poisoned* is hers too; `KNOWS`, `FEELS` and `DIE` are the draft's and are established by nothing.\n\n",
+  "title": "Unsupported interiority is marked while attributed vocabulary stays"
+}

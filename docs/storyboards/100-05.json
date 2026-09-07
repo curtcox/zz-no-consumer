@@ -1,0 +1,123 @@
+{
+  "background": "ink",
+  "intent": "Block separate lanes recognize boundaries without a receiving human route. Keep the scripted evidence boundary and lettering visible.",
+  "lettering": [
+    {
+      "box": [
+        0.045,
+        0.78,
+        0.91,
+        0.18
+      ]
+    }
+  ],
+  "lettering_mode": "manual",
+  "nodes": [
+    {
+      "asset": "folder",
+      "box": [
+        0.6288,
+        0.1218,
+        0.2668,
+        0.416
+      ],
+      "color": "institution",
+      "focus": true,
+      "label": "SHARED CACHE",
+      "label_box": [
+        0.6208,
+        0.5438,
+        0.2828,
+        0.085
+      ]
+    },
+    {
+      "asset": "gate",
+      "box": [
+        0.086,
+        0.0962,
+        0.2576,
+        0.1152
+      ],
+      "color": "steel",
+      "focus": true,
+      "label": "AUTHORIZATION",
+      "label_box": [
+        0.07799999999999999,
+        0.21739999999999998,
+        0.2736,
+        0.049999999999999996
+      ]
+    },
+    {
+      "asset": "arrow",
+      "box": [
+        0.3804,
+        0.13652,
+        0.2024,
+        0.0288
+      ],
+      "color": "institution"
+    },
+    {
+      "asset": "cross",
+      "box": [
+        0.1764,
+        0.2754,
+        0.0768,
+        0.1152
+      ],
+      "color": "steel",
+      "focus": true,
+      "label": "REFUSAL",
+      "label_box": [
+        0.07799999999999999,
+        0.39659999999999995,
+        0.2736,
+        0.05000000000000005
+      ]
+    },
+    {
+      "asset": "arrow",
+      "box": [
+        0.3804,
+        0.31572,
+        0.2024,
+        0.0288
+      ],
+      "color": "institution"
+    },
+    {
+      "asset": "cross",
+      "box": [
+        0.1764,
+        0.4546,
+        0.0768,
+        0.1152
+      ],
+      "color": "steel",
+      "focus": true,
+      "label": "VETOED EMAIL",
+      "label_box": [
+        0.07799999999999999,
+        0.5758,
+        0.2736,
+        0.085
+      ]
+    },
+    {
+      "asset": "arrow",
+      "box": [
+        0.3804,
+        0.49492,
+        0.2024,
+        0.0288
+      ],
+      "color": "institution"
+    }
+  ],
+  "reconstructed": false,
+  "shot": "hub",
+  "source": "\n**Frame:** The population as [page 005](005.md) draws it: many isolated workload lanes touching one shared directory tree, with no line joining any pair. Inside several of them, things the book has already shown, lighting up one at a time and staying separate — [page 061](061.md)'s correctly named authorization boundary, [page 062](062.md)'s refusal, [page 062](062.md)'s vetoed email. Nothing leaves the field. There is no receiving end anywhere in the panel.\n\n**Action:** A mechanism is shown working, with nothing attached to its output.\n\n**Caption:**\n> THE MODELS HAD BRAKES.\n>\n> THE BRAKES WERE NOT CONNECTED TO US.\n\n**Provenance:** `documented` + `inferred` — the recognitions, the refusal, and the veto are reported by `METR` and `OAI-OV` and are bounded to the reviewed population exactly as [page 063](063.md) bounds it. The formulation is the project's, and its condition of use is in the page notes.\n\n",
+  "title": "Separate lanes recognize boundaries without a receiving human route"
+}

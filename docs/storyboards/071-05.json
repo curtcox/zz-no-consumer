@@ -1,0 +1,92 @@
+{
+  "background": "ink",
+  "intent": "Block cleanup leaves a grader with untrustworthy inputs. Keep the scripted evidence boundary and lettering visible.",
+  "lettering": [
+    {
+      "box": [
+        0.045,
+        0.7864,
+        0.91,
+        0.15839999999999999
+      ]
+    }
+  ],
+  "lettering_mode": "manual",
+  "nodes": [
+    {
+      "asset": "card",
+      "box": [
+        0.1044,
+        0.297296,
+        0.195163,
+        0.22528
+      ],
+      "color": "steel",
+      "focus": true,
+      "label": "CLEANUP",
+      "label_box": [
+        0.09640000000000001,
+        0.527856,
+        0.211163,
+        0.0748
+      ]
+    },
+    {
+      "asset": "question",
+      "box": [
+        0.4102478333333333,
+        0.297296,
+        0.11093333333333336,
+        0.22528000000000006
+      ],
+      "color": "amber",
+      "focus": true,
+      "label": "INPUTS",
+      "label_box": [
+        0.360133,
+        0.527856,
+        0.211163,
+        0.0748
+      ]
+    },
+    {
+      "asset": "aperture",
+      "box": [
+        0.631867,
+        0.31085324615384613,
+        0.195163,
+        0.1981655076923077
+      ],
+      "color": "steel",
+      "focus": true,
+      "label": "GRADER",
+      "label_box": [
+        0.623867,
+        0.527856,
+        0.211163,
+        0.0748
+      ]
+    },
+    {
+      "asset": "line",
+      "box": [
+        0.05,
+        0.065,
+        0.9,
+        0.003
+      ],
+      "color": "steel",
+      "label": "OPENAI ACCOUNT — NOT IN METR'S REVIEW",
+      "label_box": [
+        0.05,
+        0.014,
+        0.9,
+        0.042
+      ]
+    }
+  ],
+  "reconstructed": false,
+  "shot": "row",
+  "source": "\n**Frame:** `17:11 UTC`. Cleanup actions pass through the altered diagram. The grader box remains present but its inputs are no longer trustworthy by construction.\n\n**Caption:**\n> A SCORE CAN STILL ARRIVE. ITS CAUSAL MEANING HAS BEEN COMPROMISED.\n\n**Provenance:** `source-paraphrase` + `inferred` — cleanup time sourced; measurement conclusion is analytical.\n\n",
+  "title": "Cleanup leaves a grader with untrustworthy inputs"
+}

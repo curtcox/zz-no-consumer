@@ -1,0 +1,64 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="800" viewBox="0 0 1200 800"><title>The model interface holds the correction</title><metadata>{
+  &quot;assets&quot;: {
+    &quot;blank-monitor&quot;: &quot;&lt;path d=\&quot;M43 78V94H26V98H74V94H57V78\&quot; fill=\&quot;currentColor\&quot;/&gt;&lt;rect x=\&quot;1\&quot; y=\&quot;1\&quot; width=\&quot;98\&quot; height=\&quot;78\&quot; rx=\&quot;3\&quot; fill=\&quot;#101214\&quot; stroke=\&quot;currentColor\&quot; stroke-width=\&quot;3\&quot;/&gt;&lt;path d=\&quot;M10 60h80M12 51v6\&quot; stroke=\&quot;currentColor\&quot; stroke-width=\&quot;1\&quot;/&gt;&quot;
+  },
+  &quot;palette&quot;: {
+    &quot;amber&quot;: &quot;#A17D45&quot;,
+    &quot;dirty&quot;: &quot;#CEC5B3&quot;,
+    &quot;ink&quot;: &quot;#101214&quot;,
+    &quot;institution&quot;: &quot;#68766B&quot;,
+    &quot;nicotine&quot;: &quot;#AA9571&quot;,
+    &quot;paper&quot;: &quot;#E7E0D0&quot;,
+    &quot;shadow&quot;: &quot;#202326&quot;,
+    &quot;steel&quot;: &quot;#5E737B&quot;
+  },
+  &quot;renderer&quot;: &quot;storyboard-svg-1&quot;,
+  &quot;scene&quot;: {
+    &quot;background&quot;: &quot;ink&quot;,
+    &quot;intent&quot;: &quot;Block the model interface holds the correction. Keep the scripted evidence boundary and lettering visible.&quot;,
+    &quot;lettering&quot;: [
+      {
+        &quot;box&quot;: [
+          0.58,
+          0.04,
+          0.38,
+          0.1566
+        ]
+      },
+      {
+        &quot;box&quot;: [
+          0.58,
+          0.21459999999999999,
+          0.38,
+          0.1158
+        ]
+      }
+    ],
+    &quot;lettering_mode&quot;: &quot;manual&quot;,
+    &quot;nodes&quot;: [
+      {
+        &quot;asset&quot;: &quot;blank-monitor&quot;,
+        &quot;box&quot;: [
+          0.13,
+          0.1631,
+          0.29,
+          0.5394
+        ],
+        &quot;color&quot;: &quot;steel&quot;,
+        &quot;focus&quot;: true,
+        &quot;label&quot;: &quot;CHATGPT&quot;,
+        &quot;label_box&quot;: [
+          0.122,
+          0.7085,
+          0.306,
+          0.085
+        ]
+      }
+    ],
+    &quot;reconstructed&quot;: false,
+    &quot;shot&quot;: &quot;hero&quot;,
+    &quot;source&quot;: &quot;\n**Frame:** ChatGPT&#x27;s interface holds the correction without adding a body or voice balloon.\n\n**Screen / system text — CHATGPT:**\n&gt; The careful version is less human—and more precise.\n\n**Dialogue — CURT:**\n&gt; It is also still disturbing.\n\n**Provenance:** `reconstructed` — creator exchange; “disturbing” is Curt&#x27;s reaction, not an agent state.\n\n&quot;,
+    &quot;title&quot;: &quot;The model interface holds the correction&quot;
+  }
+}
+</metadata><rect width="1200" height="800" fill="#101214"/><rect x="156" y="130.48" width="348" height="431.52" fill="none" stroke="#5E737B" stroke-width="3"/><text x="164" y="154.48" fill="#5E737B" font-family="sans-serif" font-size="20">blank-monitor</text><text x="330" y="586.8" text-anchor="middle" fill="#E7E0D0" font-size="20" font-family="sans-serif">CHATGPT</text><rect x="3" y="3" width="1194" height="794" fill="none" stroke="#5E737B" stroke-width="4"/></svg>

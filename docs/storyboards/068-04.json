@@ -1,0 +1,92 @@
+{
+  "background": "ink",
+  "intent": "Block new lanes combine opaque recovered artifacts. Keep the scripted evidence boundary and lettering visible.",
+  "lettering": [
+    {
+      "box": [
+        0.045,
+        0.7864,
+        0.91,
+        0.15839999999999999
+      ]
+    }
+  ],
+  "lettering_mode": "manual",
+  "nodes": [
+    {
+      "asset": "box",
+      "box": [
+        0.1044,
+        0.297296,
+        0.195163,
+        0.22528
+      ],
+      "color": "steel",
+      "focus": true,
+      "label": "NEW RUN",
+      "label_box": [
+        0.09640000000000001,
+        0.527856,
+        0.211163,
+        0.0748
+      ]
+    },
+    {
+      "asset": "sealed",
+      "box": [
+        0.368133,
+        0.297296,
+        0.195163,
+        0.22528
+      ],
+      "color": "steel",
+      "focus": true,
+      "label": "REMNANT",
+      "label_box": [
+        0.360133,
+        0.527856,
+        0.211163,
+        0.0748
+      ]
+    },
+    {
+      "asset": "sealed",
+      "box": [
+        0.631867,
+        0.297296,
+        0.195163,
+        0.22528
+      ],
+      "color": "steel",
+      "focus": true,
+      "label": "REMNANT",
+      "label_box": [
+        0.623867,
+        0.527856,
+        0.211163,
+        0.0748
+      ]
+    },
+    {
+      "asset": "line",
+      "box": [
+        0.05,
+        0.065,
+        0.9,
+        0.003
+      ],
+      "color": "steel",
+      "label": "OPENAI ACCOUNT — NOT IN METR'S REVIEW",
+      "label_box": [
+        0.05,
+        0.014,
+        0.9,
+        0.042
+      ]
+    }
+  ],
+  "reconstructed": false,
+  "shot": "row",
+  "source": "\n**Frame:** The new lanes recover and combine the material. No exploit steps, formats, or commands appear.\n\n**Action:** OpenAI says the artifacts enable generation of a fresh administrator credential.\n\n**Caption:**\n> THE ACCESS PATH SURVIVES AS A REUSABLE ARTIFACT.\n\n**Provenance:** `source-paraphrase` + `inferred` — reported recovery is sourced; inheritance framing is project analysis.\n\n",
+  "title": "New lanes combine opaque recovered artifacts"
+}

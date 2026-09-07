@@ -1,0 +1,82 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="800" viewBox="0 0 1200 800"><title>The configuration lies outside the story</title><metadata>{
+  &quot;assets&quot;: {
+    &quot;boundary&quot;: &quot;&lt;path d=\&quot;M50 0V100\&quot; stroke=\&quot;currentColor\&quot; stroke-width=\&quot;14\&quot;/&gt;&quot;,
+    &quot;scatter&quot;: &quot;&lt;path d=\&quot;M5 8h3 M12 8h3 M19 8h3 M26 8h3 M33 8h3 M40 8h3 M47 8h3 M54 8h3 M61 8h3 M68 8h3 M75 8h3 M82 8h3 M89 8h3 M5 17h3 M12 17h3 M19 17h3 M26 17h3 M33 17h3 M40 17h3 M47 17h3 M54 17h3 M61 17h3 M68 17h3 M75 17h3 M82 17h3 M89 17h3 M5 26h3 M12 26h3 M19 26h3 M26 26h3 M33 26h3 M40 26h3 M47 26h3 M54 26h3 M61 26h3 M68 26h3 M75 26h3 M82 26h3 M89 26h3 M5 35h3 M12 35h3 M19 35h3 M26 35h3 M33 35h3 M40 35h3 M47 35h3 M54 35h3 M61 35h3 M68 35h3 M75 35h3 M82 35h3 M89 35h3 M5 44h3 M12 44h3 M19 44h3 M26 44h3 M33 44h3 M40 44h3 M47 44h3 M54 44h3 M61 44h3 M68 44h3 M75 44h3 M82 44h3 M89 44h3 M5 53h3 M12 53h3 M19 53h3 M26 53h3 M33 53h3 M40 53h3 M47 53h3 M54 53h3 M61 53h3 M68 53h3 M75 53h3 M82 53h3 M89 53h3 M5 62h3 M12 62h3 M19 62h3 M26 62h3 M33 62h3 M40 62h3 M47 62h3 M54 62h3 M61 62h3 M68 62h3 M75 62h3 M82 62h3 M89 62h3 M5 71h3 M12 71h3 M19 71h3 M26 71h3 M33 71h3 M40 71h3 M47 71h3 M54 71h3 M61 71h3 M68 71h3 M75 71h3 M82 71h3 M89 71h3 M5 80h3 M12 80h3 M19 80h3 M26 80h3 M33 80h3 M40 80h3 M47 80h3 M54 80h3 M61 80h3 M68 80h3 M75 80h3 M82 80h3 M89 80h3 M5 89h3 M12 89h3 M19 89h3 M26 89h3 M33 89h3 M40 89h3 M47 89h3 M54 89h3 M61 89h3 M68 89h3 M75 89h3 M82 89h3 M89 89h3\&quot; stroke=\&quot;currentColor\&quot; stroke-width=\&quot;2\&quot;/&gt;&quot;,
+    &quot;sealed&quot;: &quot;&lt;rect x=\&quot;3\&quot; y=\&quot;9\&quot; width=\&quot;94\&quot; height=\&quot;82\&quot; fill=\&quot;#202326\&quot; stroke=\&quot;currentColor\&quot; stroke-width=\&quot;3\&quot;/&gt;&lt;path d=\&quot;M12 30H88M12 49H88M12 68H88\&quot; stroke=\&quot;#101214\&quot; stroke-width=\&quot;12\&quot;/&gt;&quot;
+  },
+  &quot;palette&quot;: {
+    &quot;amber&quot;: &quot;#A17D45&quot;,
+    &quot;dirty&quot;: &quot;#CEC5B3&quot;,
+    &quot;ink&quot;: &quot;#101214&quot;,
+    &quot;institution&quot;: &quot;#68766B&quot;,
+    &quot;nicotine&quot;: &quot;#AA9571&quot;,
+    &quot;paper&quot;: &quot;#E7E0D0&quot;,
+    &quot;shadow&quot;: &quot;#202326&quot;,
+    &quot;steel&quot;: &quot;#5E737B&quot;
+  },
+  &quot;renderer&quot;: &quot;storyboard-svg-1&quot;,
+  &quot;scene&quot;: {
+    &quot;background&quot;: &quot;ink&quot;,
+    &quot;intent&quot;: &quot;Block the configuration lies outside the story. Keep the scripted evidence boundary and lettering visible.&quot;,
+    &quot;lettering&quot;: [
+      {
+        &quot;box&quot;: [
+          0.58,
+          0.04,
+          0.38,
+          0.1566
+        ]
+      },
+      {
+        &quot;box&quot;: [
+          0.58,
+          0.21459999999999999,
+          0.38,
+          0.27899999999999997
+        ]
+      }
+    ],
+    &quot;lettering_mode&quot;: &quot;manual&quot;,
+    &quot;nodes&quot;: [
+      {
+        &quot;asset&quot;: &quot;sealed&quot;,
+        &quot;box&quot;: [
+          0.07,
+          0.2936,
+          0.1591,
+          0.348
+        ],
+        &quot;color&quot;: &quot;steel&quot;,
+        &quot;focus&quot;: true,
+        &quot;label&quot;: &quot;ONE TALK&quot;
+      },
+      {
+        &quot;asset&quot;: &quot;scatter&quot;,
+        &quot;box&quot;: [
+          0.285,
+          0.2936,
+          0.1591,
+          0.348
+        ],
+        &quot;color&quot;: &quot;steel&quot;,
+        &quot;focus&quot;: true,
+        &quot;label&quot;: &quot;UNSEEN OBSERVERS&quot;
+      },
+      {
+        &quot;asset&quot;: &quot;boundary&quot;,
+        &quot;box&quot;: [
+          0.28,
+          0.1196,
+          0.009,
+          0.7308
+        ],
+        &quot;color&quot;: &quot;amber&quot;
+      }
+    ],
+    &quot;reconstructed&quot;: false,
+    &quot;shot&quot;: &quot;split&quot;,
+    &quot;source&quot;: &quot;\n**Frame:** The configuration field is bounded by a single hard rule, the same weight as the source-boundary rule that will close Chapter 4. Outside it, five small silhouettes face inward and see nothing: an evaluation lane, a security-operations desk, an external platform, an investigator&#x27;s workspace, and a home office at night.\n\n**Action:** The page names its own evidence problem.\n\n**Screen / system text:**\n`SOURCE — ONE CONFERENCE TALK, 5 AUGUST 2026`\n\n**Caption:**\n&gt; NO ONE IN THIS STORY CAN SEE THIS PAGE.\n&gt;\n&gt; IT IS HERE BECAUSE TWO EMPLOYEES SAID IT OUT LOUD, WEEKS LATER, WHILE EXPLAINING SOMETHING ELSE.\n\n**Provenance:** `documented` + `inferred` — the configuration is stated only in `OAI-BH` and was not independently reviewed; METR was not given access to the primary incident model. The five silhouettes are the project&#x27;s construction of that access boundary.\n\n&quot;,
+    &quot;title&quot;: &quot;The configuration lies outside the story&quot;
+  }
+}
+</metadata><rect width="1200" height="800" fill="#101214"/><g transform="translate(84 234.88) scale(1.9092 2.784)" color="#5E737B"><g transform=""><rect x="3" y="9" width="94" height="82" fill="#202326" stroke="currentColor" stroke-width="3"/><path d="M12 30H88M12 49H88M12 68H88" stroke="#101214" stroke-width="12"/></g></g><text x="179.46" y="537.28" text-anchor="middle" fill="#E7E0D0" font-size="20" font-family="monospace">ONE TALK</text><g transform="translate(342 234.88) scale(1.9092 2.784)" color="#5E737B"><g transform=""><path d="M5 8h3 M12 8h3 M19 8h3 M26 8h3 M33 8h3 M40 8h3 M47 8h3 M54 8h3 M61 8h3 M68 8h3 M75 8h3 M82 8h3 M89 8h3 M5 17h3 M12 17h3 M19 17h3 M26 17h3 M33 17h3 M40 17h3 M47 17h3 M54 17h3 M61 17h3 M68 17h3 M75 17h3 M82 17h3 M89 17h3 M5 26h3 M12 26h3 M19 26h3 M26 26h3 M33 26h3 M40 26h3 M47 26h3 M54 26h3 M61 26h3 M68 26h3 M75 26h3 M82 26h3 M89 26h3 M5 35h3 M12 35h3 M19 35h3 M26 35h3 M33 35h3 M40 35h3 M47 35h3 M54 35h3 M61 35h3 M68 35h3 M75 35h3 M82 35h3 M89 35h3 M5 44h3 M12 44h3 M19 44h3 M26 44h3 M33 44h3 M40 44h3 M47 44h3 M54 44h3 M61 44h3 M68 44h3 M75 44h3 M82 44h3 M89 44h3 M5 53h3 M12 53h3 M19 53h3 M26 53h3 M33 53h3 M40 53h3 M47 53h3 M54 53h3 M61 53h3 M68 53h3 M75 53h3 M82 53h3 M89 53h3 M5 62h3 M12 62h3 M19 62h3 M26 62h3 M33 62h3 M40 62h3 M47 62h3 M54 62h3 M61 62h3 M68 62h3 M75 62h3 M82 62h3 M89 62h3 M5 71h3 M12 71h3 M19 71h3 M26 71h3 M33 71h3 M40 71h3 M47 71h3 M54 71h3 M61 71h3 M68 71h3 M75 71h3 M82 71h3 M89 71h3 M5 80h3 M12 80h3 M19 80h3 M26 80h3 M33 80h3 M40 80h3 M47 80h3 M54 80h3 M61 80h3 M68 80h3 M75 80h3 M82 80h3 M89 80h3 M5 89h3 M12 89h3 M19 89h3 M26 89h3 M33 89h3 M40 89h3 M47 89h3 M54 89h3 M61 89h3 M68 89h3 M75 89h3 M82 89h3 M89 89h3" stroke="currentColor" stroke-width="2"/></g></g><text x="437.46" y="537.28" text-anchor="middle" fill="#E7E0D0" font-size="20" font-family="monospace">UNSEEN OBSERVERS</text><g transform="translate(336 95.68) scale(0.108 5.8464)" color="#A17D45"><g transform=""><path d="M50 0V100" stroke="currentColor" stroke-width="14"/></g></g><rect x="3" y="3" width="1194" height="794" fill="none" stroke="#5E737B" stroke-width="4"/></svg>

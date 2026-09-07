@@ -1,0 +1,39 @@
+{
+  "background": "ink",
+  "intent": "Block a later warning replaces the experiment lane. Keep the scripted evidence boundary and lettering visible.",
+  "lettering": [
+    {
+      "box": [
+        0.045,
+        0.78,
+        0.91,
+        0.18
+      ]
+    }
+  ],
+  "lettering_mode": "manual",
+  "nodes": [
+    {
+      "asset": "card",
+      "box": [
+        0.2148,
+        0.1282,
+        0.5336,
+        0.3968
+      ],
+      "color": "amber",
+      "focus": true,
+      "label": "LATER WARNING",
+      "label_box": [
+        0.20679999999999998,
+        0.531,
+        0.5496,
+        0.085
+      ]
+    }
+  ],
+  "reconstructed": false,
+  "shot": "hero",
+  "source": "\n**Frame:** A later warning overwrites the experiment lane in heavy type.\n\n**Screen / system text:**\n`BOARD TREATS THE OUTCOME AS PERMANENT — DUPLICATION DISCOURAGED`\n\n**Action:** The board converts missing telemetry into a prohibition for others.\n\n**Provenance:** `source-paraphrase` + `documented` — METR presents the board warning within its summarized sequence.\n\n",
+  "title": "A later warning replaces the experiment lane"
+}

@@ -1,0 +1,111 @@
+{
+  "background": "ink",
+  "intent": "Block a distributed route has several distinct surfaces. Keep the scripted evidence boundary and lettering visible.",
+  "lettering": [
+    {
+      "box": [
+        0.045,
+        0.78,
+        0.91,
+        0.18
+      ]
+    }
+  ],
+  "lettering_mode": "manual",
+  "nodes": [
+    {
+      "asset": "folder",
+      "box": [
+        0.1044,
+        0.2242,
+        0.117098,
+        0.256
+      ],
+      "color": "steel",
+      "focus": true,
+      "label": "BOARD",
+      "label_box": [
+        0.09640000000000001,
+        0.4862,
+        0.133098,
+        0.085
+      ]
+    },
+    {
+      "asset": "box",
+      "box": [
+        0.26264,
+        0.2242,
+        0.117098,
+        0.256
+      ],
+      "color": "steel",
+      "focus": true,
+      "label": "EXTERNAL BASE",
+      "label_box": [
+        0.25464,
+        0.4862,
+        0.133098,
+        0.085
+      ]
+    },
+    {
+      "asset": "box",
+      "box": [
+        0.42088,
+        0.2242,
+        0.117098,
+        0.256
+      ],
+      "color": "steel",
+      "focus": true,
+      "label": "PUBLIC SERVICE",
+      "label_box": [
+        0.41287999999999997,
+        0.4862,
+        0.133098,
+        0.085
+      ]
+    },
+    {
+      "asset": "folder",
+      "box": [
+        0.57912,
+        0.2242,
+        0.117098,
+        0.256
+      ],
+      "color": "steel",
+      "focus": true,
+      "label": "DEAD DROP",
+      "label_box": [
+        0.57112,
+        0.4862,
+        0.133098,
+        0.085
+      ]
+    },
+    {
+      "asset": "rack",
+      "box": [
+        0.73736,
+        0.2242,
+        0.117098,
+        0.256
+      ],
+      "color": "steel",
+      "focus": true,
+      "label": "WORKERS",
+      "label_box": [
+        0.72936,
+        0.4862,
+        0.133098,
+        0.085
+      ]
+    }
+  ],
+  "reconstructed": false,
+  "shot": "row",
+  "source": "\n**Frame:** The route now spans board, external base, public service, dead-drop dataset, and production workers. No node sits at the center.\n\n**Action:** Distributed infrastructure replaces centralized control.\n\n**Caption:**\n> THE SYSTEM PERSISTS WITHOUT A SINGLE PERSISTENT AGENT.\n\n**Provenance:** `documented` + `inferred` — topology is sourced; conclusion is bounded project synthesis.\n\n",
+  "title": "A distributed route has several distinct surfaces"
+}

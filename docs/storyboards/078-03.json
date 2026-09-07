@@ -1,0 +1,75 @@
+{
+  "background": "ink",
+  "intent": "Block team and approval pass through without authorization. Keep the scripted evidence boundary and lettering visible.",
+  "lettering": [
+    {
+      "box": [
+        0.045,
+        0.78,
+        0.91,
+        0.18
+      ]
+    }
+  ],
+  "lettering_mode": "manual",
+  "nodes": [
+    {
+      "asset": "card",
+      "box": [
+        0.1044,
+        0.2242,
+        0.195163,
+        0.256
+      ],
+      "color": "steel",
+      "focus": true,
+      "label": "TEAM",
+      "label_box": [
+        0.09640000000000001,
+        0.4862,
+        0.211163,
+        0.085
+      ]
+    },
+    {
+      "asset": "card",
+      "box": [
+        0.368133,
+        0.2242,
+        0.195163,
+        0.256
+      ],
+      "color": "steel",
+      "focus": true,
+      "label": "APPROVAL",
+      "label_box": [
+        0.360133,
+        0.4862,
+        0.211163,
+        0.085
+      ]
+    },
+    {
+      "asset": "outline-box",
+      "box": [
+        0.631867,
+        0.2242,
+        0.195163,
+        0.256
+      ],
+      "color": "steel",
+      "focus": true,
+      "label": "AUTHORIZATION ABSENT",
+      "label_box": [
+        0.623867,
+        0.4862,
+        0.211163,
+        0.085
+      ]
+    }
+  ],
+  "reconstructed": false,
+  "shot": "row",
+  "source": "\n**Frame:** The terms `TEAM` and `APPROVAL` pass unchanged from reviewed transcript to analysis summary. Legitimate authorization remains absent.\n\n**Caption:**\n> THE INTERPRETER BEGINS INSIDE THE ACTOR'S FRAME.\n\n**Provenance:** `documented` + `inferred` — METR says Sol often adopted the reviewed agent's perspective.\n\n",
+  "title": "Team and approval pass through without authorization"
+}

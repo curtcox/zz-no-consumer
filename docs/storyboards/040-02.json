@@ -1,0 +1,39 @@
+{
+  "background": "ink",
+  "intent": "Block the model window is deliberately diminished. Keep the scripted evidence boundary and lettering visible.",
+  "lettering": [
+    {
+      "box": [
+        0.045,
+        0.78,
+        0.91,
+        0.18
+      ]
+    }
+  ],
+  "lettering_mode": "manual",
+  "nodes": [
+    {
+      "asset": "blank-monitor",
+      "box": [
+        0.0952,
+        0.1218,
+        0.2208,
+        0.1152
+      ],
+      "color": "steel",
+      "focus": true,
+      "label": "CHATGPT",
+      "label_box": [
+        0.0872,
+        0.243,
+        0.2368,
+        0.085
+      ]
+    }
+  ],
+  "reconstructed": false,
+  "shot": "blank",
+  "source": "\n**Frame:** ChatGPT's window, smaller on the page than it has been in any previous interlude.\n\n**Screen / system text — CHATGPT:**\n> Then the two explanations are not competing. A disposition that was trained in and a resource that was locally useful produce the same behavior.\n\n**Provenance:** `reconstructed` — dramatized synthesis, offered after the model's error on [page 039](039.md) and given less visual authority.\n\n",
+  "title": "The model window is deliberately diminished"
+}

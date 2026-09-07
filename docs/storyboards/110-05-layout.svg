@@ -1,0 +1,128 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="800" viewBox="0 0 1200 800"><title>Five roles cannot be collapsed into one institutional knower</title><metadata>{
+  &quot;assets&quot;: {
+    &quot;person-standing&quot;: &quot;&lt;circle cx=\&quot;50\&quot; cy=\&quot;14\&quot; r=\&quot;12\&quot; fill=\&quot;currentColor\&quot;/&gt;&lt;path d=\&quot;M35 30H65L75 65H63L61 98H51L49 70L47 98H36L36 65H24Z\&quot; fill=\&quot;currentColor\&quot;/&gt;&quot;
+  },
+  &quot;palette&quot;: {
+    &quot;amber&quot;: &quot;#A17D45&quot;,
+    &quot;dirty&quot;: &quot;#CEC5B3&quot;,
+    &quot;ink&quot;: &quot;#101214&quot;,
+    &quot;institution&quot;: &quot;#68766B&quot;,
+    &quot;nicotine&quot;: &quot;#AA9571&quot;,
+    &quot;paper&quot;: &quot;#E7E0D0&quot;,
+    &quot;shadow&quot;: &quot;#202326&quot;,
+    &quot;steel&quot;: &quot;#5E737B&quot;
+  },
+  &quot;renderer&quot;: &quot;storyboard-svg-1&quot;,
+  &quot;scene&quot;: {
+    &quot;background&quot;: &quot;ink&quot;,
+    &quot;intent&quot;: &quot;Block five roles cannot be collapsed into one institutional knower. Keep the scripted evidence boundary and lettering visible.&quot;,
+    &quot;lettering&quot;: [
+      {
+        &quot;box&quot;: [
+          0.045,
+          0.78,
+          0.91,
+          0.18
+        ]
+      }
+    ],
+    &quot;lettering_mode&quot;: &quot;manual&quot;,
+    &quot;nodes&quot;: [
+      {
+        &quot;asset&quot;: &quot;person-standing&quot;,
+        &quot;box&quot;: [
+          0.12028233333333332,
+          0.22419999999999998,
+          0.08533333333333334,
+          0.25600000000000006
+        ],
+        &quot;color&quot;: &quot;dirty&quot;,
+        &quot;focus&quot;: true,
+        &quot;label&quot;: &quot;VISITOR&quot;,
+        &quot;label_box&quot;: [
+          0.09640000000000001,
+          0.4862,
+          0.133098,
+          0.085
+        ]
+      },
+      {
+        &quot;asset&quot;: &quot;person-standing&quot;,
+        &quot;box&quot;: [
+          0.2785223333333333,
+          0.22419999999999998,
+          0.08533333333333334,
+          0.25600000000000006
+        ],
+        &quot;color&quot;: &quot;dirty&quot;,
+        &quot;focus&quot;: true,
+        &quot;label&quot;: &quot;TEAM&quot;,
+        &quot;label_box&quot;: [
+          0.25464,
+          0.4862,
+          0.133098,
+          0.085
+        ]
+      },
+      {
+        &quot;asset&quot;: &quot;person-standing&quot;,
+        &quot;box&quot;: [
+          0.4367623333333333,
+          0.22419999999999998,
+          0.08533333333333334,
+          0.25600000000000006
+        ],
+        &quot;color&quot;: &quot;dirty&quot;,
+        &quot;focus&quot;: true,
+        &quot;label&quot;: &quot;RESPONDER&quot;,
+        &quot;label_box&quot;: [
+          0.41287999999999997,
+          0.4862,
+          0.133098,
+          0.085
+        ]
+      },
+      {
+        &quot;asset&quot;: &quot;person-standing&quot;,
+        &quot;box&quot;: [
+          0.5950023333333333,
+          0.22419999999999998,
+          0.08533333333333334,
+          0.25600000000000006
+        ],
+        &quot;color&quot;: &quot;dirty&quot;,
+        &quot;focus&quot;: true,
+        &quot;label&quot;: &quot;EXECUTIVE&quot;,
+        &quot;label_box&quot;: [
+          0.57112,
+          0.4862,
+          0.133098,
+          0.085
+        ]
+      },
+      {
+        &quot;asset&quot;: &quot;person-standing&quot;,
+        &quot;box&quot;: [
+          0.7532423333333333,
+          0.22419999999999998,
+          0.08533333333333334,
+          0.25600000000000006
+        ],
+        &quot;color&quot;: &quot;dirty&quot;,
+        &quot;focus&quot;: true,
+        &quot;label&quot;: &quot;OUTSIDE INVESTIGATOR&quot;,
+        &quot;label_box&quot;: [
+          0.72936,
+          0.4862,
+          0.133098,
+          0.085
+        ]
+      }
+    ],
+    &quot;reconstructed&quot;: true,
+    &quot;shot&quot;: &quot;row&quot;,
+    &quot;source&quot;: &quot;\n**Frame:** Five small labelled figures, drawn as the silhouettes of [page 016](016.md): `A VISITOR`, `A TEAM`, `A RESPONDER`, `AN EXECUTIVE`, `AN OUTSIDE INVESTIGATOR`. A bracket tries to enclose them under one word, `OPENAI`, and fails to close.\n\n**Caption:**\n&gt; \&quot;OPENAI KNEW\&quot; IS FIVE DIFFERENT CLAIMS. THE RECORD SUPPORTS AT MOST ONE OF THEM, ABOUT A VISITOR, BY INFERENCE.\n\n**Provenance:** `inferred` — the project&#x27;s decomposition of the disclosure question; the single supported claim is `CW-REPORT`&#x27;s attributed-visit inference, not an authenticated account of any person&#x27;s conclusions.\n\n&quot;,
+    &quot;title&quot;: &quot;Five roles cannot be collapsed into one institutional knower&quot;
+  }
+}
+</metadata><rect width="1200" height="800" fill="#101214"/><rect x="144.339" y="179.36" width="102.4" height="204.8" fill="none" stroke="#CEC5B3" stroke-width="3"/><text x="152.339" y="203.36" fill="#CEC5B3" font-family="sans-serif" font-size="20">person-standing</text><text x="195.539" y="408.96" text-anchor="middle" fill="#E7E0D0" font-size="20" font-family="sans-serif">VISITOR</text><rect x="334.227" y="179.36" width="102.4" height="204.8" fill="none" stroke="#CEC5B3" stroke-width="3"/><text x="342.227" y="203.36" fill="#CEC5B3" font-family="sans-serif" font-size="20">person-standing</text><text x="385.427" y="408.96" text-anchor="middle" fill="#E7E0D0" font-size="20" font-family="sans-serif">TEAM</text><rect x="524.115" y="179.36" width="102.4" height="204.8" fill="none" stroke="#CEC5B3" stroke-width="3"/><text x="532.115" y="203.36" fill="#CEC5B3" font-family="sans-serif" font-size="20">person-standing</text><text x="575.315" y="408.96" text-anchor="middle" fill="#E7E0D0" font-size="20" font-family="sans-serif">RESPONDER</text><rect x="714.003" y="179.36" width="102.4" height="204.8" fill="none" stroke="#CEC5B3" stroke-width="3"/><text x="722.003" y="203.36" fill="#CEC5B3" font-family="sans-serif" font-size="20">person-standing</text><text x="765.203" y="408.96" text-anchor="middle" fill="#E7E0D0" font-size="20" font-family="sans-serif">EXECUTIVE</text><rect x="903.891" y="179.36" width="102.4" height="204.8" fill="none" stroke="#CEC5B3" stroke-width="3"/><text x="911.891" y="203.36" fill="#CEC5B3" font-family="sans-serif" font-size="20">person-standing</text><text x="955.091" y="408.96" text-anchor="middle" fill="#E7E0D0" font-size="20" font-family="sans-serif">OUTSIDE</text><text x="955.091" y="436.16" text-anchor="middle" fill="#E7E0D0" font-size="20" font-family="sans-serif">INVESTIGATOR</text><rect x="3" y="3" width="1194" height="794" fill="none" stroke="#5E737B" stroke-width="4" stroke-dasharray="18 10"/></svg>

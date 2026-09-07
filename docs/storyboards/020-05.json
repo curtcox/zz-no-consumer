@@ -1,0 +1,210 @@
+{
+  "background": "ink",
+  "intent": "Block communication is a small part of the cache. Keep the scripted evidence boundary and lettering visible.",
+  "lettering": [
+    {
+      "box": [
+        0.045,
+        0.78,
+        0.91,
+        0.18
+      ]
+    }
+  ],
+  "lettering_mode": "manual",
+  "nodes": [
+    {
+      "asset": "outline-box",
+      "box": [
+        0.0722,
+        0.0674,
+        0.2668,
+        0.1792
+      ],
+      "color": "steel"
+    },
+    {
+      "asset": "folder",
+      "box": [
+        0.1044,
+        0.0898,
+        0.2024,
+        0.125867
+      ],
+      "color": "steel",
+      "focus": true
+    },
+    {
+      "asset": "outline-box",
+      "box": [
+        0.3712,
+        0.0674,
+        0.2668,
+        0.1792
+      ],
+      "color": "steel"
+    },
+    {
+      "asset": "folder",
+      "box": [
+        0.4034,
+        0.0898,
+        0.2024,
+        0.125867
+      ],
+      "color": "steel",
+      "focus": true
+    },
+    {
+      "asset": "outline-box",
+      "box": [
+        0.6702,
+        0.0674,
+        0.2668,
+        0.1792
+      ],
+      "color": "steel"
+    },
+    {
+      "asset": "card",
+      "box": [
+        0.7024,
+        0.0898,
+        0.2024,
+        0.125867
+      ],
+      "color": "institution",
+      "focus": true
+    },
+    {
+      "asset": "outline-box",
+      "box": [
+        0.0722,
+        0.267933,
+        0.2668,
+        0.1792
+      ],
+      "color": "steel"
+    },
+    {
+      "asset": "folder",
+      "box": [
+        0.1044,
+        0.290333,
+        0.2024,
+        0.125867
+      ],
+      "color": "steel",
+      "focus": true
+    },
+    {
+      "asset": "outline-box",
+      "box": [
+        0.3712,
+        0.267933,
+        0.2668,
+        0.1792
+      ],
+      "color": "steel"
+    },
+    {
+      "asset": "folder",
+      "box": [
+        0.4034,
+        0.290333,
+        0.2024,
+        0.125867
+      ],
+      "color": "steel",
+      "focus": true
+    },
+    {
+      "asset": "outline-box",
+      "box": [
+        0.6702,
+        0.267933,
+        0.2668,
+        0.1792
+      ],
+      "color": "steel"
+    },
+    {
+      "asset": "folder",
+      "box": [
+        0.7024,
+        0.290333,
+        0.2024,
+        0.125867
+      ],
+      "color": "steel",
+      "focus": true
+    },
+    {
+      "asset": "outline-box",
+      "box": [
+        0.0722,
+        0.468467,
+        0.2668,
+        0.1792
+      ],
+      "color": "steel"
+    },
+    {
+      "asset": "folder",
+      "box": [
+        0.1044,
+        0.490867,
+        0.2024,
+        0.125867
+      ],
+      "color": "steel",
+      "focus": true
+    },
+    {
+      "asset": "outline-box",
+      "box": [
+        0.3712,
+        0.468467,
+        0.2668,
+        0.1792
+      ],
+      "color": "steel"
+    },
+    {
+      "asset": "card",
+      "box": [
+        0.4034,
+        0.490867,
+        0.2024,
+        0.125867
+      ],
+      "color": "institution",
+      "focus": true
+    },
+    {
+      "asset": "outline-box",
+      "box": [
+        0.6702,
+        0.468467,
+        0.2668,
+        0.1792
+      ],
+      "color": "steel"
+    },
+    {
+      "asset": "folder",
+      "box": [
+        0.7024,
+        0.490867,
+        0.2024,
+        0.125867
+      ],
+      "color": "steel",
+      "focus": true
+    }
+  ],
+  "reconstructed": false,
+  "shot": "grid",
+  "source": "\n**Frame:** Pull back to the package service. Moss appears only on the small set of intentional note files; most of the cache remains ordinary gray.\n\n**Action:** A practical exchange now exists without a declared institution or central owner.\n\n**Caption:**\n> A FILE HAS BECOME A QUESTION. THE CACHE HAS BEGUN TO ANSWER.\n\n**Provenance:** `inferred` — project formulation grounded in the documented exchange.\n\n",
+  "title": "Communication is a small part of the cache"
+}

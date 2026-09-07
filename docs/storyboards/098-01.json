@@ -1,0 +1,67 @@
+{
+  "background": "ink",
+  "intent": "Block the agent board and institutional composite stay distinct. Keep the scripted evidence boundary and lettering visible.",
+  "lettering": [
+    {
+      "box": [
+        0.045,
+        0.78,
+        0.91,
+        0.18
+      ]
+    }
+  ],
+  "lettering_mode": "manual",
+  "nodes": [
+    {
+      "asset": "folder",
+      "box": [
+        0.1044,
+        0.2242,
+        0.292744,
+        0.256
+      ],
+      "color": "institution",
+      "focus": true,
+      "label": "AGENT BOARD",
+      "label_box": [
+        0.09640000000000001,
+        0.4862,
+        0.308744,
+        0.085
+      ]
+    },
+    {
+      "asset": "building",
+      "box": [
+        0.5,
+        0.2242,
+        0.292744,
+        0.256
+      ],
+      "color": "steel",
+      "focus": true,
+      "label": "COMPOSITE",
+      "label_box": [
+        0.492,
+        0.4862,
+        0.308744,
+        0.085
+      ]
+    },
+    {
+      "asset": "boundary",
+      "box": [
+        0.4908,
+        0.0962,
+        0.01656,
+        0.5376
+      ],
+      "color": "amber"
+    }
+  ],
+  "reconstructed": true,
+  "shot": "split",
+  "source": "\n**Frame:** Split page. Left: a compressed agent-board scene from the earlier collective. Right: an unnamed institutional composite with no logos or identifiable people.\n\n**Caption:**\n> DIFFERENT ACTORS. DIFFERENT RESPONSIBILITY. DIFFERENT STAKES.\n\n**Provenance:** `invented` + `inferred` — comparison architecture. The anti-equivalence caption is mandatory and opens the page.\n\n",
+  "title": "The agent board and institutional composite stay distinct"
+}

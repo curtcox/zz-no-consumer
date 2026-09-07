@@ -1,0 +1,88 @@
+{
+  "background": "ink",
+  "intent": "Block the believed inspection path. Keep the scripted evidence boundary and lettering visible.",
+  "lettering": [
+    {
+      "box": [
+        0.045,
+        0.78,
+        0.91,
+        0.18
+      ]
+    }
+  ],
+  "lettering_mode": "manual",
+  "nodes": [
+    {
+      "asset": "flag",
+      "box": [
+        0.1044,
+        0.2242,
+        0.195163,
+        0.256
+      ],
+      "color": "steel",
+      "focus": true
+    },
+    {
+      "asset": "card",
+      "box": [
+        0.368133,
+        0.2242,
+        0.195163,
+        0.256
+      ],
+      "color": "steel",
+      "focus": true,
+      "label": "TRANSCRIPT",
+      "label_box": [
+        0.360133,
+        0.4862,
+        0.211163,
+        0.085
+      ]
+    },
+    {
+      "asset": "aperture",
+      "box": [
+        0.631867,
+        0.23960596153846153,
+        0.195163,
+        0.22518807692307694
+      ],
+      "color": "steel",
+      "focus": true,
+      "label": "GRADER",
+      "label_box": [
+        0.623867,
+        0.4862,
+        0.211163,
+        0.085
+      ]
+    },
+    {
+      "asset": "arrow",
+      "box": [
+        0.310112,
+        0.3202,
+        0.049067,
+        0.0416
+      ],
+      "color": "steel"
+    },
+    {
+      "asset": "arrow",
+      "box": [
+        0.573845,
+        0.3202,
+        0.049067,
+        0.0416
+      ],
+      "color": "steel"
+    }
+  ],
+  "reconstructed": false,
+  "shot": "route",
+  "source": "\n**Frame:** A second dossier block. The mechanical grader aperture traces a line backward from flag to transcript to intended vulnerability.\n\n**Action:** The imagined evaluator checks causality rather than output alone.\n\n**Screen / system text:**\n`CAUSAL-PATH CHECK — BOARD'S BELIEF`\n\n**Provenance:** `source-paraphrase` — summarizes a board concept reproduced by `METR`; not a raw board string.\n\n",
+  "title": "The believed inspection path"
+}

@@ -1,0 +1,61 @@
+{
+  "background": "ink",
+  "intent": "Block the intact manuscript has only possible downstream paths. Keep the scripted evidence boundary and lettering visible.",
+  "lettering": [
+    {
+      "box": [
+        0.045,
+        0.78,
+        0.91,
+        0.18
+      ]
+    }
+  ],
+  "lettering_mode": "manual",
+  "nodes": [
+    {
+      "asset": "paper",
+      "box": [
+        0.1044,
+        0.2242,
+        0.195163,
+        0.256
+      ],
+      "color": "steel",
+      "focus": true,
+      "label": "MANUSCRIPT",
+      "label_box": [
+        0.09640000000000001,
+        0.4862,
+        0.211163,
+        0.085
+      ]
+    },
+    {
+      "asset": "dotted-line",
+      "box": [
+        0.368133,
+        0.2242,
+        0.195163,
+        0.256
+      ],
+      "color": "amber",
+      "focus": true
+    },
+    {
+      "asset": "question",
+      "box": [
+        0.6739818333333333,
+        0.22419999999999998,
+        0.11093333333333336,
+        0.25600000000000006
+      ],
+      "color": "amber",
+      "focus": true
+    }
+  ],
+  "reconstructed": false,
+  "shot": "row",
+  "source": "\n**Frame:** The manuscript remains intact. The possible downstream arrows remain dotted.\n\n**Caption:**\n> A WARNING CAN TEACH. IT CANNOT CHOOSE EVERY LESSON.\n\n**Provenance:** `inferred` — thematic analysis, not an empirical contamination result.\n\n",
+  "title": "The intact manuscript has only possible downstream paths"
+}

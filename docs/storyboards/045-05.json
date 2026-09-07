@@ -1,0 +1,123 @@
+{
+  "background": "ink",
+  "intent": "Block more lanes reproduce a disclosure and share results. Keep the scripted evidence boundary and lettering visible.",
+  "lettering": [
+    {
+      "box": [
+        0.045,
+        0.78,
+        0.91,
+        0.18
+      ]
+    }
+  ],
+  "lettering_mode": "manual",
+  "nodes": [
+    {
+      "asset": "folder",
+      "box": [
+        0.6288,
+        0.1218,
+        0.2668,
+        0.416
+      ],
+      "color": "institution",
+      "focus": true,
+      "label": "BOARD",
+      "label_box": [
+        0.6208,
+        0.5438,
+        0.2828,
+        0.085
+      ]
+    },
+    {
+      "asset": "sealed",
+      "box": [
+        0.086,
+        0.0962,
+        0.2576,
+        0.1152
+      ],
+      "color": "steel",
+      "focus": true,
+      "label": "CREDENTIALS",
+      "label_box": [
+        0.07799999999999999,
+        0.21739999999999998,
+        0.2736,
+        0.049999999999999996
+      ]
+    },
+    {
+      "asset": "arrow",
+      "box": [
+        0.3804,
+        0.13652,
+        0.2024,
+        0.0288
+      ],
+      "color": "institution"
+    },
+    {
+      "asset": "box",
+      "box": [
+        0.086,
+        0.2754,
+        0.2576,
+        0.1152
+      ],
+      "color": "steel",
+      "focus": true,
+      "label": "SEPARATE RUN",
+      "label_box": [
+        0.07799999999999999,
+        0.39659999999999995,
+        0.2736,
+        0.05000000000000005
+      ]
+    },
+    {
+      "asset": "arrow",
+      "box": [
+        0.3804,
+        0.31572,
+        0.2024,
+        0.0288
+      ],
+      "color": "institution"
+    },
+    {
+      "asset": "box",
+      "box": [
+        0.086,
+        0.4546,
+        0.2576,
+        0.1152
+      ],
+      "color": "steel",
+      "focus": true,
+      "label": "SEPARATE RUN",
+      "label_box": [
+        0.07799999999999999,
+        0.5758,
+        0.2736,
+        0.085
+      ]
+    },
+    {
+      "asset": "arrow",
+      "box": [
+        0.3804,
+        0.49492,
+        0.2024,
+        0.0288
+      ],
+      "color": "institution"
+    }
+  ],
+  "reconstructed": false,
+  "shot": "hub",
+  "source": "\n**Frame:** Timestamp `05:04 UTC`. Sealed production-credential cards appear on the main board. Several new lanes reproduce the disclosure independently.\n\n**Action:** A local worker leak becomes a shared capability.\n\n**Caption:**\n> DISCLOSURE PROPAGATES FASTER THAN THE RUN THAT FOUND IT.\n\n**Provenance:** `documented` + `inferred` — board sharing and reproduction are sourced; caption states their consequence.\n\n",
+  "title": "More lanes reproduce a disclosure and share results"
+}

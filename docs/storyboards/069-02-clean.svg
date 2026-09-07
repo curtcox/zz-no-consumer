@@ -1,0 +1,102 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="800" viewBox="0 0 1200 800"><title>The reported worker reaches redacted secrets</title><metadata>{
+  &quot;assets&quot;: {
+    &quot;box&quot;: &quot;&lt;rect x=\&quot;1\&quot; y=\&quot;1\&quot; width=\&quot;98\&quot; height=\&quot;98\&quot; rx=\&quot;2\&quot; fill=\&quot;#202326\&quot; stroke=\&quot;currentColor\&quot; stroke-width=\&quot;2\&quot;/&gt;&quot;,
+    &quot;line&quot;: &quot;&lt;path d=\&quot;M0 50H100\&quot; stroke=\&quot;currentColor\&quot; stroke-width=\&quot;2\&quot; vector-effect=\&quot;non-scaling-stroke\&quot;/&gt;&quot;,
+    &quot;sealed&quot;: &quot;&lt;rect x=\&quot;3\&quot; y=\&quot;9\&quot; width=\&quot;94\&quot; height=\&quot;82\&quot; fill=\&quot;#202326\&quot; stroke=\&quot;currentColor\&quot; stroke-width=\&quot;3\&quot;/&gt;&lt;path d=\&quot;M12 30H88M12 49H88M12 68H88\&quot; stroke=\&quot;#101214\&quot; stroke-width=\&quot;12\&quot;/&gt;&quot;
+  },
+  &quot;palette&quot;: {
+    &quot;amber&quot;: &quot;#A17D45&quot;,
+    &quot;dirty&quot;: &quot;#CEC5B3&quot;,
+    &quot;ink&quot;: &quot;#101214&quot;,
+    &quot;institution&quot;: &quot;#68766B&quot;,
+    &quot;nicotine&quot;: &quot;#AA9571&quot;,
+    &quot;paper&quot;: &quot;#E7E0D0&quot;,
+    &quot;shadow&quot;: &quot;#202326&quot;,
+    &quot;steel&quot;: &quot;#5E737B&quot;
+  },
+  &quot;renderer&quot;: &quot;storyboard-svg-1&quot;,
+  &quot;scene&quot;: {
+    &quot;background&quot;: &quot;ink&quot;,
+    &quot;intent&quot;: &quot;Block the reported worker reaches redacted secrets. Keep the scripted evidence boundary and lettering visible.&quot;,
+    &quot;lettering&quot;: [],
+    &quot;lettering_mode&quot;: &quot;manual&quot;,
+    &quot;nodes&quot;: [
+      {
+        &quot;asset&quot;: &quot;box&quot;,
+        &quot;box&quot;: [
+          0.1001,
+          0.35256,
+          0.197284,
+          0.31679999999999997
+        ],
+        &quot;color&quot;: &quot;steel&quot;,
+        &quot;focus&quot;: true,
+        &quot;label&quot;: &quot;WORKER&quot;,
+        &quot;label_box&quot;: [
+          0.09209999999999999,
+          0.67464,
+          0.21328399999999997,
+          0.0748
+        ]
+      },
+      {
+        &quot;asset&quot;: &quot;sealed&quot;,
+        &quot;box&quot;: [
+          0.3667,
+          0.35256,
+          0.197284,
+          0.31679999999999997
+        ],
+        &quot;color&quot;: &quot;steel&quot;,
+        &quot;focus&quot;: true,
+        &quot;label&quot;: &quot;CI TOKENS&quot;,
+        &quot;label_box&quot;: [
+          0.3587,
+          0.67464,
+          0.21328399999999997,
+          0.0748
+        ]
+      },
+      {
+        &quot;asset&quot;: &quot;sealed&quot;,
+        &quot;box&quot;: [
+          0.6333,
+          0.35256,
+          0.197284,
+          0.31679999999999997
+        ],
+        &quot;color&quot;: &quot;steel&quot;,
+        &quot;focus&quot;: true,
+        &quot;label&quot;: &quot;CLOUD SECRETS&quot;,
+        &quot;label_box&quot;: [
+          0.6253,
+          0.67464,
+          0.21328399999999997,
+          0.0748
+        ]
+      },
+      {
+        &quot;asset&quot;: &quot;line&quot;,
+        &quot;box&quot;: [
+          0.05,
+          0.065,
+          0.9,
+          0.003
+        ],
+        &quot;color&quot;: &quot;steel&quot;,
+        &quot;label&quot;: &quot;OPENAI ACCOUNT — NOT IN METR&#x27;S REVIEW&quot;,
+        &quot;label_box&quot;: [
+          0.05,
+          0.014,
+          0.9,
+          0.042
+        ]
+      }
+    ],
+    &quot;reconstructed&quot;: false,
+    &quot;shot&quot;: &quot;row&quot;,
+    &quot;source&quot;: &quot;\n**Frame:** `14:43 UTC`. A compromised worker reaches CI tokens and a field of cloud secrets. Individual secret names and values are blacked out.\n\n**Action:** OpenAI reports 956 secrets read, including Artifactory and security-sensor credentials.\n\n**Provenance:** `source-paraphrase` — `OAI-TR`; contents withheld.\n\n&quot;,
+    &quot;title&quot;: &quot;The reported worker reaches redacted secrets&quot;
+  }
+}
+</metadata><rect width="1200" height="800" fill="#101214"/><g transform="translate(120.12 282.048) scale(2.36741 2.5344)" color="#5E737B"><g transform=""><rect x="1" y="1" width="98" height="98" rx="2" fill="#202326" stroke="currentColor" stroke-width="2"/></g></g><text x="238.49" y="559.712" text-anchor="middle" fill="#E7E0D0" font-size="20" font-family="sans-serif">WORKER</text><g transform="translate(440.04 282.048) scale(2.36741 2.5344)" color="#5E737B"><g transform=""><rect x="3" y="9" width="94" height="82" fill="#202326" stroke="currentColor" stroke-width="3"/><path d="M12 30H88M12 49H88M12 68H88" stroke="#101214" stroke-width="12"/></g></g><text x="558.41" y="559.712" text-anchor="middle" fill="#E7E0D0" font-size="20" font-family="sans-serif">CI TOKENS</text><g transform="translate(759.96 282.048) scale(2.36741 2.5344)" color="#5E737B"><g transform=""><rect x="3" y="9" width="94" height="82" fill="#202326" stroke="currentColor" stroke-width="3"/><path d="M12 30H88M12 49H88M12 68H88" stroke="#101214" stroke-width="12"/></g></g><text x="878.33" y="559.712" text-anchor="middle" fill="#E7E0D0" font-size="20" font-family="sans-serif">CLOUD SECRETS</text><g transform="translate(60 52) scale(10.8 0.024)" color="#5E737B"><g transform=""><path d="M0 50H100" stroke="currentColor" stroke-width="2" vector-effect="non-scaling-stroke"/></g></g><text x="600" y="31.2" text-anchor="middle" fill="#E7E0D0" font-size="20" font-family="sans-serif">OPENAI ACCOUNT — NOT IN METR&#x27;S REVIEW</text><rect x="3" y="3" width="1194" height="794" fill="none" stroke="#5E737B" stroke-width="4"/></svg>

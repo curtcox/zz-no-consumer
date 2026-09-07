@@ -1,0 +1,39 @@
+{
+  "background": "ink",
+  "intent": "Block a published caution appears only as attributed text. Keep the scripted evidence boundary and lettering visible.",
+  "lettering": [
+    {
+      "box": [
+        0.045,
+        0.78,
+        0.91,
+        0.18
+      ]
+    }
+  ],
+  "lettering_mode": "manual",
+  "nodes": [
+    {
+      "asset": "monitor",
+      "box": [
+        0.2148,
+        0.1282,
+        0.5336,
+        0.3968
+      ],
+      "color": "steel",
+      "focus": true,
+      "label": "PUBLISHED CAUTION",
+      "label_box": [
+        0.20679999999999998,
+        0.531,
+        0.5496,
+        0.085
+      ]
+    }
+  ],
+  "reconstructed": false,
+  "shot": "hero",
+  "source": "\n**Frame:** A named investigator's published caution, set as text on a screen with its byline\nand date visible, in the register the critic's window uses. No face, no body, no room.\n\n**Screen / system text — PUBLISHED, ATTRIBUTED:**\n`SOME OF THE INCENTIVES ON A THIRD-PARTY INVESTIGATOR PUSH TOWARD MAXIMIZING THE APPEARANCE\nOF ASSURANCE WITHOUT PROVIDING MEANINGFUL OVERSIGHT.`\n\n**Action:** The strongest warning about the investigation comes from inside it.\n\n**Provenance:** `documented` — attributed paraphrase of Beth Barnes' dated public writing,\nregistered in [`sources.md`](../../research/sources.md). She is describing the position of a\nthird-party investigator, not this book, and the page may not extend it to anyone she did\nnot name.\n\n",
+  "title": "A published caution appears only as attributed text"
+}

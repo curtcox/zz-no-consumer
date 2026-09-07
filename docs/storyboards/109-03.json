@@ -1,0 +1,67 @@
+{
+  "background": "ink",
+  "intent": "Block the last held wiki revision differs from later probes. Keep the scripted evidence boundary and lettering visible.",
+  "lettering": [
+    {
+      "box": [
+        0.045,
+        0.78,
+        0.91,
+        0.18
+      ]
+    }
+  ],
+  "lettering_mode": "manual",
+  "nodes": [
+    {
+      "asset": "card",
+      "box": [
+        0.1044,
+        0.2242,
+        0.292744,
+        0.256
+      ],
+      "color": "steel",
+      "focus": true,
+      "label": "ARTIFACTORY CONTINUES",
+      "label_box": [
+        0.09640000000000001,
+        0.4862,
+        0.308744,
+        0.085
+      ]
+    },
+    {
+      "asset": "card",
+      "box": [
+        0.5,
+        0.2242,
+        0.292744,
+        0.256
+      ],
+      "color": "steel",
+      "focus": true,
+      "label": "2 JULY LAST REVISION",
+      "label_box": [
+        0.492,
+        0.4862,
+        0.308744,
+        0.085
+      ]
+    },
+    {
+      "asset": "boundary",
+      "box": [
+        0.4908,
+        0.0962,
+        0.01656,
+        0.5376
+      ],
+      "color": "amber"
+    }
+  ],
+  "reconstructed": false,
+  "shot": "split",
+  "source": "\n**Frame:** The lower lane ends. Its last solid mark is `2 JULY`, the last held revision. Faint moderation and probe marks continue to `14 JULY`, drawn in a different weight and labelled `DELETIONS AND PROBES, NOT POSTS`. Above, the upper lane goes on into the July attack the book already told.\n\n**Action:** One stream stops writing while the other becomes the incident.\n\n**Caption:**\n> THE WIKI AGENTS WERE NOT POSTING DURING THE HUGGING FACE ATTACK. THE RECORD SAYS SO, AND THE BOOK SAYS SO.\n\n**Provenance:** `documented` — `CW-EXPORT`: held revisions run 24 May to 2 July; exported events run to 14 July and are moderation and probes. The report's small 1–2 July return of edits is on a different topic and is not drawn as continuity.\n\n",
+  "title": "The last held wiki revision differs from later probes"
+}

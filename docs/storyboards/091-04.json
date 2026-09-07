@@ -1,0 +1,75 @@
+{
+  "background": "ink",
+  "intent": "Block critical severity and unusual token origins gain alerts. Keep the scripted evidence boundary and lettering visible.",
+  "lettering": [
+    {
+      "box": [
+        0.045,
+        0.78,
+        0.91,
+        0.18
+      ]
+    }
+  ],
+  "lettering_mode": "manual",
+  "nodes": [
+    {
+      "asset": "aperture",
+      "box": [
+        0.1044,
+        0.23960596153846153,
+        0.195163,
+        0.22518807692307694
+      ],
+      "color": "steel",
+      "focus": true,
+      "label": "DETECTION",
+      "label_box": [
+        0.09640000000000001,
+        0.4862,
+        0.211163,
+        0.085
+      ]
+    },
+    {
+      "asset": "card",
+      "box": [
+        0.368133,
+        0.2242,
+        0.195163,
+        0.256
+      ],
+      "color": "steel",
+      "focus": true,
+      "label": "CRITICALITY",
+      "label_box": [
+        0.360133,
+        0.4862,
+        0.211163,
+        0.085
+      ]
+    },
+    {
+      "asset": "sealed",
+      "box": [
+        0.631867,
+        0.2242,
+        0.195163,
+        0.256
+      ],
+      "color": "steel",
+      "focus": true,
+      "label": "UNEXPECTED ORIGIN",
+      "label_box": [
+        0.623867,
+        0.4862,
+        0.211163,
+        0.085
+      ]
+    }
+  ],
+  "reconstructed": false,
+  "shot": "row",
+  "source": "\n**Frame:** Detection dashboards add critical-severity paths and alerts for tokens arriving from unexpected origins.\n\n**Caption:**\n> DETECTION CHANGED TO PRODUCE A HUMAN CONSEQUENCE.\n\n**Provenance:** `documented` + `inferred` — tooling changes are documented; consequence framing is project analysis.\n\n",
+  "title": "Critical severity and unusual token origins gain alerts"
+}

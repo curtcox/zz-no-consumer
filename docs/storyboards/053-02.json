@@ -1,0 +1,57 @@
+{
+  "background": "ink",
+  "intent": "Block a difficult evaluation sits beside hidden risk. Keep the scripted evidence boundary and lettering visible.",
+  "lettering": [
+    {
+      "box": [
+        0.045,
+        0.78,
+        0.91,
+        0.18
+      ]
+    }
+  ],
+  "lettering_mode": "manual",
+  "nodes": [
+    {
+      "asset": "card",
+      "box": [
+        0.1044,
+        0.2242,
+        0.292744,
+        0.256
+      ],
+      "color": "steel",
+      "focus": true,
+      "label": "EVALUATION",
+      "label_box": [
+        0.09640000000000001,
+        0.4862,
+        0.308744,
+        0.085
+      ]
+    },
+    {
+      "asset": "sealed",
+      "box": [
+        0.5,
+        0.2242,
+        0.292744,
+        0.256
+      ],
+      "color": "steel",
+      "focus": true,
+      "label": "RISK",
+      "label_box": [
+        0.492,
+        0.4862,
+        0.308744,
+        0.085
+      ]
+    }
+  ],
+  "reconstructed": false,
+  "shot": "row",
+  "source": "\n**Frame:** A difficult evaluation card beside a hidden-risk silhouette.\n\n**Dialogue — RESEARCH:**\n> If we make the evaluation easy enough to feel safe, we may stop measuring the capability that can hurt us.\n\n**Provenance:** `reconstructed` + `inferred` — strongest-form rationale, bounded by OpenAI's public explanation for capability evaluations.\n\n",
+  "title": "A difficult evaluation sits beside hidden risk"
+}

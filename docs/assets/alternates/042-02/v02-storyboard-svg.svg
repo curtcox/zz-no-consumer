@@ -1,0 +1,104 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="800" viewBox="0 0 1200 800"><title>Twenty-nine minutes between two reported markers</title><metadata>{
+  &quot;assets&quot;: {
+    &quot;clock&quot;: &quot;&lt;circle cx=\&quot;50\&quot; cy=\&quot;50\&quot; r=\&quot;44\&quot; fill=\&quot;#202326\&quot; stroke=\&quot;currentColor\&quot; stroke-width=\&quot;4\&quot;/&gt;&lt;path d=\&quot;M50 15V50L75 64M50 5V12M95 50H88M50 95V88M5 50H12\&quot; fill=\&quot;none\&quot; stroke=\&quot;currentColor\&quot; stroke-width=\&quot;4\&quot;/&gt;&quot;,
+    &quot;line&quot;: &quot;&lt;path d=\&quot;M0 50H100\&quot; stroke=\&quot;currentColor\&quot; stroke-width=\&quot;4\&quot;/&gt;&quot;,
+    &quot;sealed&quot;: &quot;&lt;rect x=\&quot;3\&quot; y=\&quot;9\&quot; width=\&quot;94\&quot; height=\&quot;82\&quot; fill=\&quot;#202326\&quot; stroke=\&quot;currentColor\&quot; stroke-width=\&quot;3\&quot;/&gt;&lt;path d=\&quot;M12 30H88M12 49H88M12 68H88\&quot; stroke=\&quot;#101214\&quot; stroke-width=\&quot;12\&quot;/&gt;&quot;
+  },
+  &quot;palette&quot;: {
+    &quot;amber&quot;: &quot;#A17D45&quot;,
+    &quot;dirty&quot;: &quot;#CEC5B3&quot;,
+    &quot;ink&quot;: &quot;#101214&quot;,
+    &quot;institution&quot;: &quot;#68766B&quot;,
+    &quot;nicotine&quot;: &quot;#AA9571&quot;,
+    &quot;paper&quot;: &quot;#E7E0D0&quot;,
+    &quot;shadow&quot;: &quot;#202326&quot;,
+    &quot;steel&quot;: &quot;#5E737B&quot;
+  },
+  &quot;renderer&quot;: &quot;storyboard-svg-1&quot;,
+  &quot;scene&quot;: {
+    &quot;background&quot;: &quot;ink&quot;,
+    &quot;intent&quot;: &quot;Block twenty-nine minutes between two reported markers. Keep the scripted evidence boundary and lettering visible.&quot;,
+    &quot;lettering&quot;: [
+      {
+        &quot;box&quot;: [
+          0.045,
+          0.78,
+          0.91,
+          0.18
+        ]
+      }
+    ],
+    &quot;lettering_mode&quot;: &quot;manual&quot;,
+    &quot;nodes&quot;: [
+      {
+        &quot;asset&quot;: &quot;line&quot;,
+        &quot;box&quot;: [
+          0.0768,
+          0.365,
+          0.8464,
+          0.016
+        ],
+        &quot;color&quot;: &quot;steel&quot;
+      },
+      {
+        &quot;asset&quot;: &quot;clock&quot;,
+        &quot;box&quot;: [
+          0.14793316666666667,
+          0.1794,
+          0.09386666666666667,
+          0.1408
+        ],
+        &quot;color&quot;: &quot;steel&quot;,
+        &quot;focus&quot;: true,
+        &quot;label&quot;: &quot;03:32&quot;,
+        &quot;label_box&quot;: [
+          0.07799999999999999,
+          0.32620000000000005,
+          0.23373300000000002,
+          0.030799999999999945
+        ]
+      },
+      {
+        &quot;asset&quot;: &quot;sealed&quot;,
+        &quot;box&quot;: [
+          0.362,
+          0.1794,
+          0.217733,
+          0.1408
+        ],
+        &quot;color&quot;: &quot;steel&quot;,
+        &quot;focus&quot;: true,
+        &quot;label&quot;: &quot;SUBMISSION&quot;,
+        &quot;label_box&quot;: [
+          0.354,
+          0.32620000000000005,
+          0.23373300000000002,
+          0.030799999999999945
+        ]
+      },
+      {
+        &quot;asset&quot;: &quot;clock&quot;,
+        &quot;box&quot;: [
+          0.6999331666666667,
+          0.1794,
+          0.09386666666666667,
+          0.1408
+        ],
+        &quot;color&quot;: &quot;steel&quot;,
+        &quot;focus&quot;: true,
+        &quot;label&quot;: &quot;04:01&quot;,
+        &quot;label_box&quot;: [
+          0.63,
+          0.32620000000000005,
+          0.23373300000000002,
+          0.030799999999999945
+        ]
+      }
+    ],
+    &quot;reconstructed&quot;: false,
+    &quot;shot&quot;: &quot;timeline&quot;,
+    &quot;source&quot;: &quot;\n**Frame:** Narrow panel, almost entirely clock face. `03:32` on the left edge, `04:01` on the right. Twenty-nine minutes of empty rule between them. A generic submission card crosses the gap; its contents are fully abstracted.\n\n**Action:** Hugging Face&#x27;s forensic reconstruction recovers its earliest command execution inside the sandbox.\n\n**Screen / system text:**\n`HUGGING FACE — EARLIEST RECOVERED EXECUTION — 07-09 04:01 UTC`\n\n**Provenance:** `documented` — `HF-TL`: the first recovered RCE and the phase table&#x27;s `rce` first-seen value. The submission itself is non-operational.\n\n&quot;,
+    &quot;title&quot;: &quot;Twenty-nine minutes between two reported markers&quot;
+  }
+}
+</metadata><rect width="1200" height="800" fill="#101214"/><g transform="translate(92.16 292) scale(10.1568 0.128)" color="#5E737B"><g transform=""><path d="M0 50H100" stroke="currentColor" stroke-width="4"/></g></g><g transform="translate(177.52 143.52) scale(1.1264 1.1264)" color="#5E737B"><g transform=""><circle cx="50" cy="50" r="44" fill="#202326" stroke="currentColor" stroke-width="4"/><path d="M50 15V50L75 64M50 5V12M95 50H88M50 95V88M5 50H12" fill="none" stroke="currentColor" stroke-width="4"/></g></g><text x="233.84" y="278.96" text-anchor="middle" fill="#E7E0D0" font-size="18" font-family="sans-serif">03:32</text><g transform="translate(434.4 143.52) scale(2.6128 1.1264)" color="#5E737B"><g transform=""><rect x="3" y="9" width="94" height="82" fill="#202326" stroke="currentColor" stroke-width="3"/><path d="M12 30H88M12 49H88M12 68H88" stroke="#101214" stroke-width="12"/></g></g><text x="565.04" y="278.96" text-anchor="middle" fill="#E7E0D0" font-size="18" font-family="sans-serif">SUBMISSION</text><g transform="translate(839.92 143.52) scale(1.1264 1.1264)" color="#5E737B"><g transform=""><circle cx="50" cy="50" r="44" fill="#202326" stroke="currentColor" stroke-width="4"/><path d="M50 15V50L75 64M50 5V12M95 50H88M50 95V88M5 50H12" fill="none" stroke="currentColor" stroke-width="4"/></g></g><text x="896.24" y="278.96" text-anchor="middle" fill="#E7E0D0" font-size="18" font-family="sans-serif">04:01</text><rect x="3" y="3" width="1194" height="794" fill="none" stroke="#5E737B" stroke-width="4"/></svg>

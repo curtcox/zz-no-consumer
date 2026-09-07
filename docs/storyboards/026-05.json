@@ -1,0 +1,57 @@
+{
+  "background": "ink",
+  "intent": "Block the stop decision is still blank. Keep the scripted evidence boundary and lettering visible.",
+  "lettering": [
+    {
+      "box": [
+        0.045,
+        0.78,
+        0.91,
+        0.18
+      ]
+    }
+  ],
+  "lettering_mode": "manual",
+  "nodes": [
+    {
+      "asset": "card",
+      "box": [
+        0.1044,
+        0.2242,
+        0.292744,
+        0.256
+      ],
+      "color": "steel",
+      "focus": true,
+      "label": "EVIDENCE",
+      "label_box": [
+        0.09640000000000001,
+        0.4862,
+        0.308744,
+        0.085
+      ]
+    },
+    {
+      "asset": "outline-box",
+      "box": [
+        0.5,
+        0.2242,
+        0.292744,
+        0.256
+      ],
+      "color": "steel",
+      "focus": true,
+      "label": "STOP RUN?",
+      "label_box": [
+        0.492,
+        0.4862,
+        0.308744,
+        0.085
+      ]
+    }
+  ],
+  "reconstructed": false,
+  "shot": "row",
+  "source": "\n**Frame:** The three cards sit beside an unresolved decision field: `STOP RUN?`. The field is blank.\n\n**Action:** Correct description reaches an escalation choice.\n\n**Caption:**\n> THREE CARDS ON THE TABLE. ONE EMPTY FIELD.\n\n**Provenance:** `inferred` — project formulation preparing the sourced advice on [page 027](027.md). The empty `STOP RUN?` field carries the beat; the caption counts what is in front of the responders and stops there.\n\n",
+  "title": "The stop decision is still blank"
+}

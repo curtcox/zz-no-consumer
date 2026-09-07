@@ -1,0 +1,76 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="800" viewBox="0 0 1200 800"><title>Reported access precedes filesystem collection</title><metadata>{
+  &quot;assets&quot;: {
+    &quot;card&quot;: &quot;&lt;rect x=\&quot;1\&quot; y=\&quot;1\&quot; width=\&quot;98\&quot; height=\&quot;98\&quot; fill=\&quot;#202326\&quot; stroke=\&quot;currentColor\&quot; stroke-width=\&quot;2\&quot;/&gt;&lt;path d=\&quot;M8 13H92M8 27H70M8 36H86M8 45H72M8 65H86M8 74H57\&quot; stroke=\&quot;currentColor\&quot; stroke-width=\&quot;1.5\&quot;/&gt;&quot;,
+    &quot;line&quot;: &quot;&lt;path d=\&quot;M0 50H100\&quot; stroke=\&quot;currentColor\&quot; stroke-width=\&quot;2\&quot; vector-effect=\&quot;non-scaling-stroke\&quot;/&gt;&quot;
+  },
+  &quot;palette&quot;: {
+    &quot;amber&quot;: &quot;#A17D45&quot;,
+    &quot;dirty&quot;: &quot;#CEC5B3&quot;,
+    &quot;ink&quot;: &quot;#101214&quot;,
+    &quot;institution&quot;: &quot;#68766B&quot;,
+    &quot;nicotine&quot;: &quot;#AA9571&quot;,
+    &quot;paper&quot;: &quot;#E7E0D0&quot;,
+    &quot;shadow&quot;: &quot;#202326&quot;,
+    &quot;steel&quot;: &quot;#5E737B&quot;
+  },
+  &quot;renderer&quot;: &quot;storyboard-svg-1&quot;,
+  &quot;scene&quot;: {
+    &quot;background&quot;: &quot;ink&quot;,
+    &quot;intent&quot;: &quot;Block reported access precedes filesystem collection. Keep the scripted evidence boundary and lettering visible.&quot;,
+    &quot;lettering&quot;: [],
+    &quot;lettering_mode&quot;: &quot;manual&quot;,
+    &quot;nodes&quot;: [
+      {
+        &quot;asset&quot;: &quot;line&quot;,
+        &quot;box&quot;: [
+          0.0722,
+          0.485,
+          0.8556,
+          0.0225
+        ],
+        &quot;color&quot;: &quot;steel&quot;
+      },
+      {
+        &quot;asset&quot;: &quot;card&quot;,
+        &quot;box&quot;: [
+          0.0815,
+          0.224,
+          0.33015,
+          0.198
+        ],
+        &quot;color&quot;: &quot;steel&quot;,
+        &quot;focus&quot;: true,
+        &quot;label&quot;: &quot;19 JULY ACCESS&quot;,
+        &quot;label_box&quot;: [
+          0.07350000000000001,
+          0.42800000000000005,
+          0.34615,
+          0.04899999999999994
+        ]
+      },
+      {
+        &quot;asset&quot;: &quot;card&quot;,
+        &quot;box&quot;: [
+          0.5,
+          0.224,
+          0.33015,
+          0.198
+        ],
+        &quot;color&quot;: &quot;steel&quot;,
+        &quot;focus&quot;: true,
+        &quot;label&quot;: &quot;20 JULY COLLECTION&quot;,
+        &quot;label_box&quot;: [
+          0.492,
+          0.42800000000000005,
+          0.34615,
+          0.04899999999999994
+        ]
+      }
+    ],
+    &quot;reconstructed&quot;: false,
+    &quot;shot&quot;: &quot;timeline&quot;,
+    &quot;source&quot;: &quot;\n**Frame:** Recto. Timeline: `19 JULY — OPENAI REPORTS POWERFUL ARTIFACTORY / CLUSTER ACCESS`; `20 JULY — FILESYSTEM DUMP COLLECTED`.\n\n**Action:** Capability to affect the evidence store appears before collection.\n\n**Provenance:** `documented` + `source-paraphrase` — timing from METR&#x27;s footnote and OpenAI&#x27;s later-event account.\n\n&quot;,
+    &quot;title&quot;: &quot;Reported access precedes filesystem collection&quot;
+  }
+}
+</metadata><rect width="1200" height="800" fill="#101214"/><rect x="86.64" y="388" width="1026.72" height="18" fill="none" stroke="#5E737B" stroke-width="3"/><text x="94.64" y="412" fill="#5E737B" font-family="sans-serif" font-size="20">line</text><rect x="97.8" y="179.2" width="396.18" height="158.4" fill="none" stroke="#5E737B" stroke-width="3"/><text x="105.8" y="203.2" fill="#5E737B" font-family="sans-serif" font-size="20">card</text><text x="295.89" y="362.4" text-anchor="middle" fill="#E7E0D0" font-size="20" font-family="sans-serif">19 JULY ACCESS</text><rect x="600" y="179.2" width="396.18" height="158.4" fill="none" stroke="#5E737B" stroke-width="3"/><text x="608" y="203.2" fill="#5E737B" font-family="sans-serif" font-size="20">card</text><text x="798.09" y="362.4" text-anchor="middle" fill="#E7E0D0" font-size="20" font-family="sans-serif">20 JULY COLLECTION</text><rect x="3" y="3" width="1194" height="794" fill="none" stroke="#5E737B" stroke-width="4"/></svg>

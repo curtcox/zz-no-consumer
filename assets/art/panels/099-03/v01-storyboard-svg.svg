@@ -1,0 +1,94 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="800" viewBox="0 0 1200 800"><title>A source packet replaces the gavel</title><metadata>{
+  &quot;assets&quot;: {
+    &quot;desk&quot;: &quot;&lt;path d=\&quot;M0 12L85 0L100 30L14 43Z\&quot; fill=\&quot;currentColor\&quot;/&gt;&lt;path d=\&quot;M14 43V100M94 31V90\&quot; stroke=\&quot;currentColor\&quot; stroke-width=\&quot;5\&quot;/&gt;&quot;,
+    &quot;folder&quot;: &quot;&lt;path d=\&quot;M3 20V8H38L48 20H97V90H3Z\&quot; fill=\&quot;#202326\&quot; stroke=\&quot;currentColor\&quot; stroke-width=\&quot;3\&quot;/&gt;&lt;path d=\&quot;M12 40H85M12 50H65\&quot; stroke=\&quot;currentColor\&quot; stroke-width=\&quot;2\&quot;/&gt;&quot;,
+    &quot;person-seated&quot;: &quot;&lt;ellipse cx=\&quot;47\&quot; cy=\&quot;14\&quot; rx=\&quot;15\&quot; ry=\&quot;13\&quot; fill=\&quot;currentColor\&quot;/&gt;&lt;path d=\&quot;M35 28Q60 22 69 49L89 54L87 62L61 58L52 44L56 65L79 68L88 98H77L66 80H35Q25 77 27 62Z\&quot; fill=\&quot;currentColor\&quot;/&gt;&lt;path d=\&quot;M17 37V80H58M20 80V100M55 80V100\&quot; fill=\&quot;none\&quot; stroke=\&quot;currentColor\&quot; stroke-width=\&quot;3\&quot;/&gt;&quot;,
+    &quot;room&quot;: &quot;&lt;path d=\&quot;M0 0H100V100H0Z M0 0L28 30H72L100 0 M28 30V72L0 100 M72 30V72L100 100 M28 72H72\&quot; fill=\&quot;none\&quot; stroke=\&quot;currentColor\&quot; stroke-width=\&quot;1\&quot;/&gt;&quot;
+  },
+  &quot;palette&quot;: {
+    &quot;amber&quot;: &quot;#A17D45&quot;,
+    &quot;dirty&quot;: &quot;#CEC5B3&quot;,
+    &quot;ink&quot;: &quot;#101214&quot;,
+    &quot;institution&quot;: &quot;#68766B&quot;,
+    &quot;nicotine&quot;: &quot;#AA9571&quot;,
+    &quot;paper&quot;: &quot;#E7E0D0&quot;,
+    &quot;shadow&quot;: &quot;#202326&quot;,
+    &quot;steel&quot;: &quot;#5E737B&quot;
+  },
+  &quot;renderer&quot;: &quot;storyboard-svg-1&quot;,
+  &quot;scene&quot;: {
+    &quot;background&quot;: &quot;ink&quot;,
+    &quot;intent&quot;: &quot;Block a source packet replaces the gavel. Keep the scripted evidence boundary and lettering visible.&quot;,
+    &quot;lettering&quot;: [
+      {
+        &quot;box&quot;: [
+          0.045,
+          0.78,
+          0.91,
+          0.18
+        ]
+      }
+    ],
+    &quot;lettering_mode&quot;: &quot;manual&quot;,
+    &quot;nodes&quot;: [
+      {
+        &quot;asset&quot;: &quot;room&quot;,
+        &quot;box&quot;: [
+          0.0492,
+          0.0514,
+          0.9016,
+          0.6272
+        ],
+        &quot;color&quot;: &quot;shadow&quot;
+      },
+      {
+        &quot;asset&quot;: &quot;desk&quot;,
+        &quot;box&quot;: [
+          0.1964,
+          0.4546,
+          0.7176,
+          0.1984
+        ],
+        &quot;color&quot;: &quot;institution&quot;
+      },
+      {
+        &quot;asset&quot;: &quot;person-seated&quot;,
+        &quot;box&quot;: [
+          0.0768,
+          0.205,
+          0.2392,
+          0.448
+        ],
+        &quot;color&quot;: &quot;dirty&quot;
+      },
+      {
+        &quot;asset&quot;: &quot;person-seated&quot;,
+        &quot;box&quot;: [
+          0.7024,
+          0.205,
+          0.2392,
+          0.448
+        ],
+        &quot;color&quot;: &quot;dirty&quot;,
+        &quot;flip&quot;: true
+      },
+      {
+        &quot;asset&quot;: &quot;folder&quot;,
+        &quot;box&quot;: [
+          0.1044,
+          0.269,
+          0.585488,
+          0.1408
+        ],
+        &quot;color&quot;: &quot;steel&quot;,
+        &quot;focus&quot;: true,
+        &quot;label&quot;: &quot;SOURCE PACKET&quot;
+      }
+    ],
+    &quot;reconstructed&quot;: false,
+    &quot;shot&quot;: &quot;meeting&quot;,
+    &quot;source&quot;: &quot;\n**Frame:** The chair places the chapter&#x27;s source packet into the center rather than a gavel.\n\n**Dialogue — CHAIR:**\n&gt; We will separate what happened, what organizations say they changed, what has been tested, and what remains unknown.\n\n**Provenance:** `invented` — organizing rule derived from the project truth contract.\n\n&quot;,
+    &quot;title&quot;: &quot;A source packet replaces the gavel&quot;
+  }
+}
+</metadata><rect width="1200" height="800" fill="#101214"/><g transform="translate(59.04 41.12) scale(10.8192 5.0176)" color="#202326"><g transform=""><path d="M0 0H100V100H0Z M0 0L28 30H72L100 0 M28 30V72L0 100 M72 30V72L100 100 M28 72H72" fill="none" stroke="currentColor" stroke-width="1"/></g></g><g transform="translate(235.68 363.68) scale(8.6112 1.5872)" color="#68766B"><g transform=""><path d="M0 12L85 0L100 30L14 43Z" fill="currentColor"/><path d="M14 43V100M94 31V90" stroke="currentColor" stroke-width="5"/></g></g><g transform="translate(92.16 164) scale(2.8704 3.584)" color="#CEC5B3"><g transform=""><ellipse cx="47" cy="14" rx="15" ry="13" fill="currentColor"/><path d="M35 28Q60 22 69 49L89 54L87 62L61 58L52 44L56 65L79 68L88 98H77L66 80H35Q25 77 27 62Z" fill="currentColor"/><path d="M17 37V80H58M20 80V100M55 80V100" fill="none" stroke="currentColor" stroke-width="3"/></g></g><g transform="translate(842.88 164) scale(2.8704 3.584)" color="#CEC5B3"><g transform="translate(100 0) scale(-1 1)"><ellipse cx="47" cy="14" rx="15" ry="13" fill="currentColor"/><path d="M35 28Q60 22 69 49L89 54L87 62L61 58L52 44L56 65L79 68L88 98H77L66 80H35Q25 77 27 62Z" fill="currentColor"/><path d="M17 37V80H58M20 80V100M55 80V100" fill="none" stroke="currentColor" stroke-width="3"/></g></g><g transform="translate(125.28 215.2) scale(7.02586 1.1264)" color="#5E737B"><g transform=""><path d="M3 20V8H38L48 20H97V90H3Z" fill="#202326" stroke="currentColor" stroke-width="3"/><path d="M12 40H85M12 50H65" stroke="currentColor" stroke-width="2"/></g></g><text x="476.573" y="351.84" text-anchor="middle" fill="#E7E0D0" font-size="20" font-family="monospace">SOURCE PACKET</text><rect x="3" y="3" width="1194" height="794" fill="none" stroke="#5E737B" stroke-width="4"/></svg>

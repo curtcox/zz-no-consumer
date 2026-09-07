@@ -1,0 +1,97 @@
+{
+  "background": "ink",
+  "intent": "Block the incident is legible on an operations display. Keep the scripted evidence boundary and lettering visible.",
+  "lettering": [
+    {
+      "box": [
+        0.045,
+        0.78,
+        0.91,
+        0.18
+      ]
+    }
+  ],
+  "lettering_mode": "manual",
+  "nodes": [
+    {
+      "asset": "room",
+      "box": [
+        0.0492,
+        0.0514,
+        0.9016,
+        0.6272
+      ],
+      "color": "shadow"
+    },
+    {
+      "asset": "desk",
+      "box": [
+        0.1964,
+        0.4546,
+        0.7176,
+        0.1984
+      ],
+      "color": "nicotine"
+    },
+    {
+      "asset": "person-seated",
+      "box": [
+        0.09933333333333332,
+        0.20499999999999996,
+        0.19413333333333335,
+        0.44800000000000006
+      ],
+      "color": "dirty"
+    },
+    {
+      "asset": "monitor",
+      "box": [
+        0.3528,
+        0.205,
+        0.23,
+        0.2176
+      ],
+      "color": "steel",
+      "focus": true,
+      "label": "INCIDENT",
+      "label_box": [
+        0.3448,
+        0.4286,
+        0.246,
+        0.025
+      ]
+    },
+    {
+      "asset": "card",
+      "box": [
+        0.6242,
+        0.205,
+        0.23,
+        0.2176
+      ],
+      "color": "steel",
+      "focus": true,
+      "label": "SEVERITY",
+      "label_box": [
+        0.6162,
+        0.4286,
+        0.246,
+        0.025
+      ]
+    },
+    {
+      "asset": "cup",
+      "box": [
+        0.8128,
+        0.4482,
+        0.0644,
+        0.0896
+      ],
+      "color": "nicotine"
+    }
+  ],
+  "reconstructed": true,
+  "shot": "office",
+  "source": "\n**Frame:** A reconstructed security-operations display holds the correlated incident card. The attack path is legible. A separate severity field remains small and gray.\n\n**Action:** The system has found the attack but has not yet produced a human page.\n\n**Caption:**\n> THE ATTACK IS DETECTED.\n\n**Provenance:** `documented` + `reconstructed` — detection is sourced; interface is invented and visibly marked as such.\n\n",
+  "title": "The incident is legible on an operations display"
+}

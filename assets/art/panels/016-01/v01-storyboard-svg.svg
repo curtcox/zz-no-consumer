@@ -1,0 +1,95 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="800" viewBox="0 0 1200 800"><title>An arbitrary write with three unknowns</title><metadata>{
+  &quot;assets&quot;: {
+    &quot;folder&quot;: &quot;&lt;path d=\&quot;M3 20V8H38L48 20H97V90H3Z\&quot; fill=\&quot;#202326\&quot; stroke=\&quot;currentColor\&quot; stroke-width=\&quot;3\&quot;/&gt;&lt;path d=\&quot;M12 40H85M12 50H65\&quot; stroke=\&quot;currentColor\&quot; stroke-width=\&quot;2\&quot;/&gt;&quot;,
+    &quot;outline-box&quot;: &quot;&lt;rect x=\&quot;2\&quot; y=\&quot;2\&quot; width=\&quot;96\&quot; height=\&quot;96\&quot; fill=\&quot;none\&quot; stroke=\&quot;currentColor\&quot; stroke-width=\&quot;3\&quot;/&gt;&quot;
+  },
+  &quot;palette&quot;: {
+    &quot;amber&quot;: &quot;#A17D45&quot;,
+    &quot;dirty&quot;: &quot;#CEC5B3&quot;,
+    &quot;ink&quot;: &quot;#101214&quot;,
+    &quot;institution&quot;: &quot;#68766B&quot;,
+    &quot;nicotine&quot;: &quot;#AA9571&quot;,
+    &quot;paper&quot;: &quot;#E7E0D0&quot;,
+    &quot;shadow&quot;: &quot;#202326&quot;,
+    &quot;steel&quot;: &quot;#5E737B&quot;
+  },
+  &quot;renderer&quot;: &quot;storyboard-svg-1&quot;,
+  &quot;scene&quot;: {
+    &quot;background&quot;: &quot;ink&quot;,
+    &quot;intent&quot;: &quot;Block an arbitrary write with three unknowns. Keep the scripted evidence boundary and lettering visible.&quot;,
+    &quot;lettering&quot;: [
+      {
+        &quot;box&quot;: [
+          0.58,
+          0.04,
+          0.38,
+          0.1158
+        ]
+      },
+      {
+        &quot;box&quot;: [
+          0.58,
+          0.1738,
+          0.38,
+          0.19740000000000002
+        ]
+      }
+    ],
+    &quot;lettering_mode&quot;: &quot;manual&quot;,
+    &quot;nodes&quot;: [
+      {
+        &quot;asset&quot;: &quot;folder&quot;,
+        &quot;box&quot;: [
+          0.115,
+          0.1196,
+          0.33,
+          0.10962
+        ],
+        &quot;color&quot;: &quot;steel&quot;,
+        &quot;focus&quot;: true,
+        &quot;label&quot;: &quot;20 APRIL WRITE&quot;
+      },
+      {
+        &quot;asset&quot;: &quot;outline-box&quot;,
+        &quot;box&quot;: [
+          0.115,
+          0.308825,
+          0.33,
+          0.10962
+        ],
+        &quot;color&quot;: &quot;steel&quot;,
+        &quot;focus&quot;: true,
+        &quot;label&quot;: &quot;TASK&quot;
+      },
+      {
+        &quot;asset&quot;: &quot;outline-box&quot;,
+        &quot;box&quot;: [
+          0.115,
+          0.49805,
+          0.33,
+          0.10962
+        ],
+        &quot;color&quot;: &quot;steel&quot;,
+        &quot;focus&quot;: true,
+        &quot;label&quot;: &quot;HANDLE&quot;
+      },
+      {
+        &quot;asset&quot;: &quot;outline-box&quot;,
+        &quot;box&quot;: [
+          0.115,
+          0.687275,
+          0.33,
+          0.10962
+        ],
+        &quot;color&quot;: &quot;steel&quot;,
+        &quot;focus&quot;: true,
+        &quot;label&quot;: &quot;PURPOSE&quot;
+      }
+    ],
+    &quot;reconstructed&quot;: false,
+    &quot;shot&quot;: &quot;stack&quot;,
+    &quot;source&quot;: &quot;\n**Frame:** Full-width timestamp panel. The steel-blue geometry waiting beyond [page 015](015.md) resolves into an earlier Artifactory instance. No moss green, no `zz` prefix, no July interface convention. One arbitrary agent-created file sits among routine package objects, picked out by a thin steel-blue rule. Three labels beside it remain physically blank: `TASK`, `HANDLE`, `PURPOSE`.\n\n**Screen / system text:**\n`20 APRIL 2026 — 07:59 UTC`\n\n**Action:** Shared infrastructure acquires the earliest confirmed arbitrary agent write in this instance.\n\n**Caption:**\n&gt; BEFORE THE MESSAGE, THERE IS A WRITE.\n&gt;\n&gt; THE PUBLIC RECORD DOES NOT SAY WHY.\n\n**Provenance:** `documented` — the detailed event table, `OAI-TR` §X, supplies the timestamp and the write; the source establishes nothing further about task, identity, or purpose. Interface is reconstructed.\n\n&quot;,
+    &quot;title&quot;: &quot;An arbitrary write with three unknowns&quot;
+  }
+}
+</metadata><rect width="1200" height="800" fill="#101214"/><g transform="translate(138 95.68) scale(3.96 0.87696)" color="#5E737B"><g transform=""><path d="M3 20V8H38L48 20H97V90H3Z" fill="#202326" stroke="currentColor" stroke-width="3"/><path d="M12 40H85M12 50H65" stroke="currentColor" stroke-width="2"/></g></g><text x="336" y="207.376" text-anchor="middle" fill="#E7E0D0" font-size="20" font-family="monospace">20 APRIL WRITE</text><g transform="translate(138 247.06) scale(3.96 0.87696)" color="#5E737B"><g transform=""><rect x="2" y="2" width="96" height="96" fill="none" stroke="currentColor" stroke-width="3"/></g></g><text x="336" y="358.756" text-anchor="middle" fill="#E7E0D0" font-size="20" font-family="monospace">TASK</text><g transform="translate(138 398.44) scale(3.96 0.87696)" color="#5E737B"><g transform=""><rect x="2" y="2" width="96" height="96" fill="none" stroke="currentColor" stroke-width="3"/></g></g><text x="336" y="510.136" text-anchor="middle" fill="#E7E0D0" font-size="20" font-family="monospace">HANDLE</text><g transform="translate(138 549.82) scale(3.96 0.87696)" color="#5E737B"><g transform=""><rect x="2" y="2" width="96" height="96" fill="none" stroke="currentColor" stroke-width="3"/></g></g><text x="336" y="661.516" text-anchor="middle" fill="#E7E0D0" font-size="20" font-family="monospace">PURPOSE</text><rect x="3" y="3" width="1194" height="794" fill="none" stroke="#5E737B" stroke-width="4"/></svg>

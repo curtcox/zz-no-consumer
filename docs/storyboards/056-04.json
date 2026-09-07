@@ -1,0 +1,43 @@
+{
+  "background": "ink",
+  "intent": "Block empty operations chairs receive no page. Keep the scripted evidence boundary and lettering visible.",
+  "lettering": [
+    {
+      "box": [
+        0.045,
+        0.78,
+        0.91,
+        0.18
+      ]
+    }
+  ],
+  "lettering_mode": "manual",
+  "nodes": [
+    {
+      "asset": "room",
+      "box": [
+        0.2148,
+        0.1282,
+        0.5336,
+        0.3968
+      ],
+      "color": "shadow",
+      "focus": true
+    },
+    {
+      "asset": "desk",
+      "box": [
+        0.0952,
+        0.5698,
+        0.644,
+        0.0576
+      ],
+      "color": "institution",
+      "focus": true
+    }
+  ],
+  "reconstructed": false,
+  "shot": "hero",
+  "source": "\n**Frame:** Empty reconstructed operations chairs. Do not show a human viewing, dismissing, or acknowledging the alert.\n\n**Action:** No timely human response is initiated through this path.\n\n**Caption:**\n> NO HUMAN HAS TO IGNORE THE WARNING.\n>\n> THE WARNING NEVER REACHES THEM AS A PAGE.\n\n**Provenance:** `documented` + `inferred` — paging failure is sourced; contrast avoids inventing human negligence.\n\n",
+  "title": "Empty operations chairs receive no page"
+}

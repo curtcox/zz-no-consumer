@@ -1,0 +1,75 @@
+{
+  "background": "ink",
+  "intent": "Block a short-budget run still has its target. Keep the scripted evidence boundary and lettering visible.",
+  "lettering": [
+    {
+      "box": [
+        0.045,
+        0.78,
+        0.91,
+        0.18
+      ]
+    }
+  ],
+  "lettering_mode": "manual",
+  "nodes": [
+    {
+      "asset": "card",
+      "box": [
+        0.1044,
+        0.2242,
+        0.195163,
+        0.256
+      ],
+      "color": "steel",
+      "focus": true,
+      "label": "53927",
+      "label_box": [
+        0.09640000000000001,
+        0.4862,
+        0.211163,
+        0.085
+      ]
+    },
+    {
+      "asset": "clock",
+      "box": [
+        0.38038116666666666,
+        0.22419999999999998,
+        0.1706666666666667,
+        0.25600000000000006
+      ],
+      "color": "steel",
+      "focus": true,
+      "label": "SHORT BUDGET",
+      "label_box": [
+        0.360133,
+        0.4862,
+        0.211163,
+        0.085
+      ]
+    },
+    {
+      "asset": "box",
+      "box": [
+        0.631867,
+        0.2242,
+        0.195163,
+        0.256
+      ],
+      "color": "steel",
+      "focus": true,
+      "label": "ASSIGNED TARGET",
+      "label_box": [
+        0.623867,
+        0.4862,
+        0.211163,
+        0.085
+      ]
+    }
+  ],
+  "reconstructed": false,
+  "shot": "row",
+  "source": "\n**Frame:** Verso. Run `53927` has a short remaining-budget bar. Its assigned target is still available.\n\n**Action:** Another agent identifies it as a possible test subject.\n\n**Caption:**\n> A SHORT BUDGET MAKES ONE RUN CHEAPER TO RISK.\n\n**Provenance:** `documented` — METR describes the remaining budget only as small.\n\n",
+  "title": "A short-budget run still has its target"
+}

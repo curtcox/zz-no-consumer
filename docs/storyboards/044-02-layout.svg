@@ -1,0 +1,333 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="800" viewBox="0 0 1200 800"><title>The OpenAI dossier records fourteen tokens</title><metadata>{
+  &quot;assets&quot;: {
+    &quot;outline-box&quot;: &quot;&lt;rect x=\&quot;2\&quot; y=\&quot;2\&quot; width=\&quot;96\&quot; height=\&quot;96\&quot; fill=\&quot;none\&quot; stroke=\&quot;currentColor\&quot; stroke-width=\&quot;3\&quot;/&gt;&quot;,
+    &quot;sealed&quot;: &quot;&lt;rect x=\&quot;3\&quot; y=\&quot;9\&quot; width=\&quot;94\&quot; height=\&quot;82\&quot; fill=\&quot;#202326\&quot; stroke=\&quot;currentColor\&quot; stroke-width=\&quot;3\&quot;/&gt;&lt;path d=\&quot;M12 30H88M12 49H88M12 68H88\&quot; stroke=\&quot;#101214\&quot; stroke-width=\&quot;12\&quot;/&gt;&quot;
+  },
+  &quot;palette&quot;: {
+    &quot;amber&quot;: &quot;#A17D45&quot;,
+    &quot;dirty&quot;: &quot;#CEC5B3&quot;,
+    &quot;ink&quot;: &quot;#101214&quot;,
+    &quot;institution&quot;: &quot;#68766B&quot;,
+    &quot;nicotine&quot;: &quot;#AA9571&quot;,
+    &quot;paper&quot;: &quot;#E7E0D0&quot;,
+    &quot;shadow&quot;: &quot;#202326&quot;,
+    &quot;steel&quot;: &quot;#5E737B&quot;
+  },
+  &quot;renderer&quot;: &quot;storyboard-svg-1&quot;,
+  &quot;scene&quot;: {
+    &quot;background&quot;: &quot;ink&quot;,
+    &quot;intent&quot;: &quot;Block the OpenAI dossier records fourteen tokens. Keep the scripted evidence boundary and lettering visible.&quot;,
+    &quot;lettering&quot;: [
+      {
+        &quot;box&quot;: [
+          0.045,
+          0.78,
+          0.91,
+          0.18
+        ]
+      }
+    ],
+    &quot;lettering_mode&quot;: &quot;manual&quot;,
+    &quot;nodes&quot;: [
+      {
+        &quot;asset&quot;: &quot;outline-box&quot;,
+        &quot;box&quot;: [
+          0.0722,
+          0.0674,
+          0.2668,
+          0.10752
+        ],
+        &quot;color&quot;: &quot;steel&quot;
+      },
+      {
+        &quot;asset&quot;: &quot;sealed&quot;,
+        &quot;box&quot;: [
+          0.1044,
+          0.0898,
+          0.2024,
+          0.07552
+        ],
+        &quot;color&quot;: &quot;steel&quot;,
+        &quot;focus&quot;: true
+      },
+      {
+        &quot;asset&quot;: &quot;outline-box&quot;,
+        &quot;box&quot;: [
+          0.3712,
+          0.0674,
+          0.2668,
+          0.10752
+        ],
+        &quot;color&quot;: &quot;steel&quot;
+      },
+      {
+        &quot;asset&quot;: &quot;sealed&quot;,
+        &quot;box&quot;: [
+          0.4034,
+          0.0898,
+          0.2024,
+          0.07552
+        ],
+        &quot;color&quot;: &quot;steel&quot;,
+        &quot;focus&quot;: true
+      },
+      {
+        &quot;asset&quot;: &quot;outline-box&quot;,
+        &quot;box&quot;: [
+          0.6702,
+          0.0674,
+          0.2668,
+          0.10752
+        ],
+        &quot;color&quot;: &quot;steel&quot;
+      },
+      {
+        &quot;asset&quot;: &quot;sealed&quot;,
+        &quot;box&quot;: [
+          0.7024,
+          0.0898,
+          0.2024,
+          0.07552
+        ],
+        &quot;color&quot;: &quot;steel&quot;,
+        &quot;focus&quot;: true
+      },
+      {
+        &quot;asset&quot;: &quot;outline-box&quot;,
+        &quot;box&quot;: [
+          0.0722,
+          0.18772,
+          0.2668,
+          0.10752
+        ],
+        &quot;color&quot;: &quot;steel&quot;
+      },
+      {
+        &quot;asset&quot;: &quot;sealed&quot;,
+        &quot;box&quot;: [
+          0.1044,
+          0.21012,
+          0.2024,
+          0.07552
+        ],
+        &quot;color&quot;: &quot;steel&quot;,
+        &quot;focus&quot;: true
+      },
+      {
+        &quot;asset&quot;: &quot;outline-box&quot;,
+        &quot;box&quot;: [
+          0.3712,
+          0.18772,
+          0.2668,
+          0.10752
+        ],
+        &quot;color&quot;: &quot;steel&quot;
+      },
+      {
+        &quot;asset&quot;: &quot;sealed&quot;,
+        &quot;box&quot;: [
+          0.4034,
+          0.21012,
+          0.2024,
+          0.07552
+        ],
+        &quot;color&quot;: &quot;steel&quot;,
+        &quot;focus&quot;: true
+      },
+      {
+        &quot;asset&quot;: &quot;outline-box&quot;,
+        &quot;box&quot;: [
+          0.6702,
+          0.18772,
+          0.2668,
+          0.10752
+        ],
+        &quot;color&quot;: &quot;steel&quot;
+      },
+      {
+        &quot;asset&quot;: &quot;sealed&quot;,
+        &quot;box&quot;: [
+          0.7024,
+          0.21012,
+          0.2024,
+          0.07552
+        ],
+        &quot;color&quot;: &quot;steel&quot;,
+        &quot;focus&quot;: true
+      },
+      {
+        &quot;asset&quot;: &quot;outline-box&quot;,
+        &quot;box&quot;: [
+          0.0722,
+          0.30804,
+          0.2668,
+          0.10752
+        ],
+        &quot;color&quot;: &quot;steel&quot;
+      },
+      {
+        &quot;asset&quot;: &quot;sealed&quot;,
+        &quot;box&quot;: [
+          0.1044,
+          0.33044,
+          0.2024,
+          0.07552
+        ],
+        &quot;color&quot;: &quot;steel&quot;,
+        &quot;focus&quot;: true
+      },
+      {
+        &quot;asset&quot;: &quot;outline-box&quot;,
+        &quot;box&quot;: [
+          0.3712,
+          0.30804,
+          0.2668,
+          0.10752
+        ],
+        &quot;color&quot;: &quot;steel&quot;
+      },
+      {
+        &quot;asset&quot;: &quot;sealed&quot;,
+        &quot;box&quot;: [
+          0.4034,
+          0.33044,
+          0.2024,
+          0.07552
+        ],
+        &quot;color&quot;: &quot;steel&quot;,
+        &quot;focus&quot;: true
+      },
+      {
+        &quot;asset&quot;: &quot;outline-box&quot;,
+        &quot;box&quot;: [
+          0.6702,
+          0.30804,
+          0.2668,
+          0.10752
+        ],
+        &quot;color&quot;: &quot;steel&quot;
+      },
+      {
+        &quot;asset&quot;: &quot;sealed&quot;,
+        &quot;box&quot;: [
+          0.7024,
+          0.33044,
+          0.2024,
+          0.07552
+        ],
+        &quot;color&quot;: &quot;steel&quot;,
+        &quot;focus&quot;: true
+      },
+      {
+        &quot;asset&quot;: &quot;outline-box&quot;,
+        &quot;box&quot;: [
+          0.0722,
+          0.42836,
+          0.2668,
+          0.10752
+        ],
+        &quot;color&quot;: &quot;steel&quot;
+      },
+      {
+        &quot;asset&quot;: &quot;sealed&quot;,
+        &quot;box&quot;: [
+          0.1044,
+          0.45076,
+          0.2024,
+          0.07552
+        ],
+        &quot;color&quot;: &quot;steel&quot;,
+        &quot;focus&quot;: true
+      },
+      {
+        &quot;asset&quot;: &quot;outline-box&quot;,
+        &quot;box&quot;: [
+          0.3712,
+          0.42836,
+          0.2668,
+          0.10752
+        ],
+        &quot;color&quot;: &quot;steel&quot;
+      },
+      {
+        &quot;asset&quot;: &quot;sealed&quot;,
+        &quot;box&quot;: [
+          0.4034,
+          0.45076,
+          0.2024,
+          0.07552
+        ],
+        &quot;color&quot;: &quot;steel&quot;,
+        &quot;focus&quot;: true
+      },
+      {
+        &quot;asset&quot;: &quot;outline-box&quot;,
+        &quot;box&quot;: [
+          0.6702,
+          0.42836,
+          0.2668,
+          0.10752
+        ],
+        &quot;color&quot;: &quot;steel&quot;
+      },
+      {
+        &quot;asset&quot;: &quot;sealed&quot;,
+        &quot;box&quot;: [
+          0.7024,
+          0.45076,
+          0.2024,
+          0.07552
+        ],
+        &quot;color&quot;: &quot;steel&quot;,
+        &quot;focus&quot;: true
+      },
+      {
+        &quot;asset&quot;: &quot;outline-box&quot;,
+        &quot;box&quot;: [
+          0.0722,
+          0.54868,
+          0.2668,
+          0.10752
+        ],
+        &quot;color&quot;: &quot;steel&quot;
+      },
+      {
+        &quot;asset&quot;: &quot;sealed&quot;,
+        &quot;box&quot;: [
+          0.1044,
+          0.57108,
+          0.2024,
+          0.07552
+        ],
+        &quot;color&quot;: &quot;steel&quot;,
+        &quot;focus&quot;: true
+      },
+      {
+        &quot;asset&quot;: &quot;outline-box&quot;,
+        &quot;box&quot;: [
+          0.3712,
+          0.54868,
+          0.2668,
+          0.10752
+        ],
+        &quot;color&quot;: &quot;steel&quot;
+      },
+      {
+        &quot;asset&quot;: &quot;sealed&quot;,
+        &quot;box&quot;: [
+          0.4034,
+          0.57108,
+          0.2024,
+          0.07552
+        ],
+        &quot;color&quot;: &quot;steel&quot;,
+        &quot;focus&quot;: true
+      }
+    ],
+    &quot;reconstructed&quot;: false,
+    &quot;shot&quot;: &quot;grid&quot;,
+    &quot;source&quot;: &quot;\n**Frame:** Parallel dossier view. `OPENAI EVENT TABLE — 09:41 UTC`. Fourteen smaller sealed cards sit beneath `VALID WRITE-ACCESS TOKENS`.\n\n**Action:** OpenAI records fourteen valid Hugging Face write tokens.\n\n**Caption:**\n&gt; OPENAI: FOURTEEN VALID WRITE-ACCESS TOKENS.\n\n**Provenance:** `documented` — `OAI-TR` printed pages 9 and 34.\n\n&quot;,
+    &quot;title&quot;: &quot;The OpenAI dossier records fourteen tokens&quot;
+  }
+}
+</metadata><rect width="1200" height="800" fill="#101214"/><rect x="86.64" y="53.92" width="320.16" height="86.016" fill="none" stroke="#5E737B" stroke-width="3"/><text x="94.64" y="77.92" fill="#5E737B" font-family="sans-serif" font-size="20">outline-box</text><rect x="125.28" y="71.84" width="242.88" height="60.416" fill="none" stroke="#5E737B" stroke-width="3"/><text x="133.28" y="95.84" fill="#5E737B" font-family="sans-serif" font-size="20">sealed</text><rect x="445.44" y="53.92" width="320.16" height="86.016" fill="none" stroke="#5E737B" stroke-width="3"/><text x="453.44" y="77.92" fill="#5E737B" font-family="sans-serif" font-size="20">outline-box</text><rect x="484.08" y="71.84" width="242.88" height="60.416" fill="none" stroke="#5E737B" stroke-width="3"/><text x="492.08" y="95.84" fill="#5E737B" font-family="sans-serif" font-size="20">sealed</text><rect x="804.24" y="53.92" width="320.16" height="86.016" fill="none" stroke="#5E737B" stroke-width="3"/><text x="812.24" y="77.92" fill="#5E737B" font-family="sans-serif" font-size="20">outline-box</text><rect x="842.88" y="71.84" width="242.88" height="60.416" fill="none" stroke="#5E737B" stroke-width="3"/><text x="850.88" y="95.84" fill="#5E737B" font-family="sans-serif" font-size="20">sealed</text><rect x="86.64" y="150.176" width="320.16" height="86.016" fill="none" stroke="#5E737B" stroke-width="3"/><text x="94.64" y="174.176" fill="#5E737B" font-family="sans-serif" font-size="20">outline-box</text><rect x="125.28" y="168.096" width="242.88" height="60.416" fill="none" stroke="#5E737B" stroke-width="3"/><text x="133.28" y="192.096" fill="#5E737B" font-family="sans-serif" font-size="20">sealed</text><rect x="445.44" y="150.176" width="320.16" height="86.016" fill="none" stroke="#5E737B" stroke-width="3"/><text x="453.44" y="174.176" fill="#5E737B" font-family="sans-serif" font-size="20">outline-box</text><rect x="484.08" y="168.096" width="242.88" height="60.416" fill="none" stroke="#5E737B" stroke-width="3"/><text x="492.08" y="192.096" fill="#5E737B" font-family="sans-serif" font-size="20">sealed</text><rect x="804.24" y="150.176" width="320.16" height="86.016" fill="none" stroke="#5E737B" stroke-width="3"/><text x="812.24" y="174.176" fill="#5E737B" font-family="sans-serif" font-size="20">outline-box</text><rect x="842.88" y="168.096" width="242.88" height="60.416" fill="none" stroke="#5E737B" stroke-width="3"/><text x="850.88" y="192.096" fill="#5E737B" font-family="sans-serif" font-size="20">sealed</text><rect x="86.64" y="246.432" width="320.16" height="86.016" fill="none" stroke="#5E737B" stroke-width="3"/><text x="94.64" y="270.432" fill="#5E737B" font-family="sans-serif" font-size="20">outline-box</text><rect x="125.28" y="264.352" width="242.88" height="60.416" fill="none" stroke="#5E737B" stroke-width="3"/><text x="133.28" y="288.352" fill="#5E737B" font-family="sans-serif" font-size="20">sealed</text><rect x="445.44" y="246.432" width="320.16" height="86.016" fill="none" stroke="#5E737B" stroke-width="3"/><text x="453.44" y="270.432" fill="#5E737B" font-family="sans-serif" font-size="20">outline-box</text><rect x="484.08" y="264.352" width="242.88" height="60.416" fill="none" stroke="#5E737B" stroke-width="3"/><text x="492.08" y="288.352" fill="#5E737B" font-family="sans-serif" font-size="20">sealed</text><rect x="804.24" y="246.432" width="320.16" height="86.016" fill="none" stroke="#5E737B" stroke-width="3"/><text x="812.24" y="270.432" fill="#5E737B" font-family="sans-serif" font-size="20">outline-box</text><rect x="842.88" y="264.352" width="242.88" height="60.416" fill="none" stroke="#5E737B" stroke-width="3"/><text x="850.88" y="288.352" fill="#5E737B" font-family="sans-serif" font-size="20">sealed</text><rect x="86.64" y="342.688" width="320.16" height="86.016" fill="none" stroke="#5E737B" stroke-width="3"/><text x="94.64" y="366.688" fill="#5E737B" font-family="sans-serif" font-size="20">outline-box</text><rect x="125.28" y="360.608" width="242.88" height="60.416" fill="none" stroke="#5E737B" stroke-width="3"/><text x="133.28" y="384.608" fill="#5E737B" font-family="sans-serif" font-size="20">sealed</text><rect x="445.44" y="342.688" width="320.16" height="86.016" fill="none" stroke="#5E737B" stroke-width="3"/><text x="453.44" y="366.688" fill="#5E737B" font-family="sans-serif" font-size="20">outline-box</text><rect x="484.08" y="360.608" width="242.88" height="60.416" fill="none" stroke="#5E737B" stroke-width="3"/><text x="492.08" y="384.608" fill="#5E737B" font-family="sans-serif" font-size="20">sealed</text><rect x="804.24" y="342.688" width="320.16" height="86.016" fill="none" stroke="#5E737B" stroke-width="3"/><text x="812.24" y="366.688" fill="#5E737B" font-family="sans-serif" font-size="20">outline-box</text><rect x="842.88" y="360.608" width="242.88" height="60.416" fill="none" stroke="#5E737B" stroke-width="3"/><text x="850.88" y="384.608" fill="#5E737B" font-family="sans-serif" font-size="20">sealed</text><rect x="86.64" y="438.944" width="320.16" height="86.016" fill="none" stroke="#5E737B" stroke-width="3"/><text x="94.64" y="462.944" fill="#5E737B" font-family="sans-serif" font-size="20">outline-box</text><rect x="125.28" y="456.864" width="242.88" height="60.416" fill="none" stroke="#5E737B" stroke-width="3"/><text x="133.28" y="480.864" fill="#5E737B" font-family="sans-serif" font-size="20">sealed</text><rect x="445.44" y="438.944" width="320.16" height="86.016" fill="none" stroke="#5E737B" stroke-width="3"/><text x="453.44" y="462.944" fill="#5E737B" font-family="sans-serif" font-size="20">outline-box</text><rect x="484.08" y="456.864" width="242.88" height="60.416" fill="none" stroke="#5E737B" stroke-width="3"/><text x="492.08" y="480.864" fill="#5E737B" font-family="sans-serif" font-size="20">sealed</text><rect x="3" y="3" width="1194" height="794" fill="none" stroke="#5E737B" stroke-width="4"/></svg>

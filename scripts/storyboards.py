@@ -39,8 +39,16 @@ def load():
 
 
 def source_bodies():
-    return {f'{page.id}-{section.index:02d}': section.body
-            for page in panels.read_scripts().values() for section in page.sections}
+    scripts = panels.read_scripts().values()
+    sources = {f'{page.id}-{section.index:02d}': section.body
+               for page in scripts for section in page.sections}
+    # A grouped run is one reader image, not nine independently numbered boards.
+    # Snapshot the entire grouped script so provenance and page-note drift also
+    # require review; use the shared parser's grouped-run identity.
+    for page in scripts:
+        if page.grouped and not page.sections:
+            sources[f'{page.id}-01'] = page.text
+    return sources
 
 
 def relocate(data, resolver, rewrite_source):
@@ -77,9 +85,11 @@ def place_manual(scene, fields, width, height):
             continue
         x, y, w, h = specs[i]['box']
         x, y, w, h = x*width, y*height, w*width, h*height
-        flow = textimage.flow(text, w-32, h-52, min_size=12, max_size=24)
-        placed.append(letterpress.Placed('interface', f'manual-{i}',
-                      letterpress.speaker_of(field), x, y, w, h, flow.size,
+        spec = specs[i]
+        flow = textimage.flow(text, w-32, h-52, min_size=12, max_size=spec.get('max_size', 24))
+        role = spec.get('role', 'interface')
+        placed.append(letterpress.Placed(role, f'manual-{i}',
+                      '' if role == 'plain' else letterpress.speaker_of(field), x, y, w, h, flow.size,
                       flow.leading, flow.lines, flow.truncated))
     return placed, remaining
 
@@ -88,8 +98,11 @@ def lettering(key, scene):
     import letterpress
     page, index = key.split('-')
     record = letterpress.load_slots()
-    placed, manual = letterpress.layout_panel(
-        textimage.lettering_fields(page).get(int(index), []), record, W, H)
+    fields = textimage.lettering_fields(page).get(int(index), [])
+    if scene.get('lettering_mode') == 'manual':
+        placed, manual = [], fields
+    else:
+        placed, manual = letterpress.layout_panel(fields, record, W, H)
     extra, manual = place_manual(scene, manual, W, H)
     return placed + extra, manual, record
 
@@ -101,6 +114,8 @@ def validate(data):
     if data.get('version') != 1:
         errors.append('unsupported scene schema')
     for key, scene in data['scenes'].items():
+        if scene.get('lettering_mode', 'slots') not in ('slots', 'manual'):
+            errors.append(f'{key}: unknown lettering mode')
         if key not in sources:
             errors.append(f'{key}: nonexistent panel')
             continue
@@ -114,6 +129,8 @@ def validate(data):
         for item in scene.get('lettering', []):
             if not box(item['box']):
                 errors.append(f'{key}: invalid lettering box')
+            if item.get('role', 'interface') not in ('interface', 'plain'):
+                errors.append(f'{key}: invalid manual lettering role')
         placed, manual, _ = lettering(key, scene)
         if manual or any(p.truncated for p in placed):
             errors.append(f'{key}: missing or truncated lettering')
@@ -124,6 +141,14 @@ def validate(data):
         for node in scene['nodes']:
             if node.get('focus') and any(overlap(node['box'], z) for z in zones):
                 errors.append(f'{key}: focal subject overlaps lettering: {node["asset"]}')
+            if 'label_box' in node:
+                if not box(node['label_box']):
+                    errors.append(f'{key}: invalid label box')
+                else:
+                    lx, ly, lw, lh = node['label_box']
+                    flow = textimage.flow(node.get('label', ''), lw*W, lh*H, min_size=12, max_size=node.get('label_size', 20))
+                    if flow.truncated or any(overlap(node['label_box'], z) for z in zones):
+                        errors.append(f'{key}: label does not fit clear of lettering: {node.get("label")}')
     return errors
 
 
@@ -146,9 +171,17 @@ def render(scene, data, *, layout=False):
             transform = 'translate(100 0) scale(-1 1)' if node.get('flip') else ''
             parts.append(f'<g transform="translate({x:g} {y:g}) scale({w/100:g} {h/100:g})" color="{color}"><g transform="{transform}">' + library['assets'][node['asset']] + '</g></g>')
         if node.get('label'):
-            parts.append(f'<text x="{x+w/2:g}" y="{y+h+24:g}" text-anchor="middle" fill="{palette["paper"]}" font-size="20" font-family="monospace">{html.escape(node["label"])}</text>')
+            if 'label_box' in node:
+                lx, ly, lw, lh = node['label_box']
+                flow = textimage.flow(node['label'], lw*W, lh*H, min_size=12, max_size=node.get('label_size', 20))
+                for i, line in enumerate(flow.lines):
+                    parts.append(f'<text x="{(lx+lw/2)*W:g}" y="{ly*H+flow.size+i*flow.leading:g}" text-anchor="middle" fill="{palette["paper"]}" font-size="{flow.size:g}" font-family="sans-serif">{html.escape(line)}</text>')
+            else:
+                parts.append(f'<text x="{x+w/2:g}" y="{y+h+24:g}" text-anchor="middle" fill="{palette["paper"]}" font-size="20" font-family="monospace">{html.escape(node["label"])}</text>')
     border = ' stroke-dasharray="18 10"' if scene.get('reconstructed') else ''
-    parts.append(f'<rect x="3" y="3" width="{W-6}" height="{H-6}" fill="none" stroke="{palette["steel"]}" stroke-width="4"{border}/></svg>')
+    if scene.get('border', 'default') != 'none':
+        parts.append(f'<rect x="3" y="3" width="{W-6}" height="{H-6}" fill="none" stroke="{palette["steel"]}" stroke-width="4"{border}/>')
+    parts.append('</svg>')
     return ''.join(parts)
 
 
@@ -191,6 +224,21 @@ def check(data):
     from tempfile import TemporaryDirectory
     from unittest.mock import patch
     import produce
+    import letterpress
+    # Reader and workshop must agree when every field is manually placed, rather
+    # than silently duplicating the fields the old slot convention already placed.
+    sample = {'lettering_mode': 'manual', 'lettering': [
+        {'box': [.05, .05, .9, .2]},
+        {'box': [.05, .7, .9, .2], 'role': 'plain', 'max_size': 40}]}
+    with patch.object(textimage, 'lettering_fields', return_value={1: [
+            ('Screen / system text', 'First'), ('Dialogue — CURT', 'Second')]}), \
+         patch('storyboards.load', return_value={'scenes': {'001-01': sample}}):
+        workshop, remaining, record = lettering('001-01', sample)
+        reader, reader_remaining = letterpress.panel_layout('001', 1, record)
+        assert not remaining and not reader_remaining and workshop == reader
+        assert [tuple(p.lines) for p in reader] == [('First',), ('Second',)]
+        assert reader[1].role == 'plain' and not reader[1].header
+        assert 'Second' in letterpress.svg_panel(reader, record, W, H)
     with TemporaryDirectory() as directory:
         art = Path(directory) / 'board.svg'
         art.write_text('<svg/>')
@@ -313,6 +361,7 @@ def main():
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument('command', choices=['generate', 'check', 'gallery'])
     parser.add_argument('--built', action='store_true', help='also check the published workshop')
+    parser.add_argument('--complete', action='store_true', help='require a scene for every reader image slot')
     parser.add_argument('--output', type=Path, default=ROOT/'256t/storyboards')
     args = parser.parse_args()
     data = load()
@@ -323,6 +372,9 @@ def main():
         print(args.output/'index.html')
     else:
         errors = check(data)
+        if args.complete:
+            slots = {f'{p.id}-{s.index:02d}' for p in textimage.book_scripts() for s in p.panels}
+            errors.extend(f'{key}: missing reader-slot storyboard' for key in sorted(slots - data['scenes'].keys()))
         if errors:
             raise SystemExit('\n'.join(errors))
         if args.built:

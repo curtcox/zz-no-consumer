@@ -1,0 +1,93 @@
+{
+  "background": "ink",
+  "intent": "Block a tooling lane adds terminal diff validation and commit. Keep the scripted evidence boundary and lettering visible.",
+  "lettering": [
+    {
+      "box": [
+        0.58,
+        0.04,
+        0.38,
+        0.36060000000000003
+      ]
+    }
+  ],
+  "lettering_mode": "manual",
+  "nodes": [
+    {
+      "asset": "terminal",
+      "box": [
+        0.07,
+        0.2936,
+        0.07955,
+        0.348
+      ],
+      "color": "steel",
+      "focus": true,
+      "label": "TERMINAL",
+      "label_box": [
+        0.062000000000000006,
+        0.6476,
+        0.09555,
+        0.085
+      ]
+    },
+    {
+      "asset": "card",
+      "box": [
+        0.1775,
+        0.2936,
+        0.07955,
+        0.348
+      ],
+      "color": "steel",
+      "focus": true,
+      "label": "DIFF",
+      "label_box": [
+        0.16949999999999998,
+        0.6476,
+        0.09555,
+        0.085
+      ]
+    },
+    {
+      "asset": "checkmark",
+      "box": [
+        0.285,
+        0.4079375,
+        0.07955,
+        0.11932499999999999
+      ],
+      "color": "steel",
+      "focus": true,
+      "label": "VALIDATION",
+      "label_box": [
+        0.27699999999999997,
+        0.6476,
+        0.09555,
+        0.085
+      ]
+    },
+    {
+      "asset": "card",
+      "box": [
+        0.3925,
+        0.2936,
+        0.07955,
+        0.348
+      ],
+      "color": "steel",
+      "focus": true,
+      "label": "COMMIT",
+      "label_box": [
+        0.3845,
+        0.6476,
+        0.09555,
+        0.085
+      ]
+    }
+  ],
+  "reconstructed": false,
+  "shot": "row",
+  "source": "\n**Frame:** Curt adds a lane the diagram never had, and it does not look like the others.\nNo window, no chat, no reply. A terminal line, a diff, a validator's exit code, a commit\ntrailer. The register is the tooling surface, not a conversation.\n\n**Action:** The apparatus acquires an author.\n\n**Caption:**\n> THE VALIDATORS. THE PAGE TOOL. THE CROSS REFERENCE. THE CHARACTER FILE THAT SAYS WHAT\n> THIS PAGE MAY CLAIM.\n>\n> A SECOND MODEL WROTE THEM, UNDER A CONTRACT IT DID NOT WRITE.\n\n**Provenance:** `documented` + `inferred` — co-authorship is recorded commit by commit in\nthe repository's Git history and in [`CREDITS.md`](../../CREDITS.md). That this is the\nsituation of every agent in the first half of the book is the project's observation and is\nnot drawn as one.\n\n",
+  "title": "A tooling lane adds terminal diff validation and commit"
+}

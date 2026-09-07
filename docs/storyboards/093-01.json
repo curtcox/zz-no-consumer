@@ -1,0 +1,57 @@
+{
+  "background": "ink",
+  "intent": "Block the safeguard assessment is attributed to OpenAI. Keep the scripted evidence boundary and lettering visible.",
+  "lettering": [
+    {
+      "box": [
+        0.045,
+        0.78,
+        0.91,
+        0.18
+      ]
+    }
+  ],
+  "lettering_mode": "manual",
+  "nodes": [
+    {
+      "asset": "outline-box",
+      "box": [
+        0.2148,
+        0.1282,
+        0.5336,
+        0.3968
+      ],
+      "color": "steel",
+      "focus": true,
+      "label": "PRODUCTION HARNESS",
+      "label_box": [
+        0.20679999999999998,
+        0.531,
+        0.5496,
+        0.085
+      ]
+    },
+    {
+      "asset": "card",
+      "box": [
+        0.29484,
+        0.19962400000000002,
+        0.34684,
+        0.103168
+      ],
+      "color": "steel",
+      "focus": true,
+      "label": "OPENAI ASSESSMENT",
+      "label_box": [
+        0.0872,
+        0.6334,
+        0.66,
+        0.085
+      ]
+    }
+  ],
+  "reconstructed": false,
+  "shot": "hero",
+  "source": "\n**Frame:** A large card is headed `OPENAI'S SAFEGUARD ASSESSMENT`. Beneath it, a production harness surrounds the same class of task.\n\n**Caption:**\n> OPENAI SAYS ITS PRODUCTION HARNESS REDUCED OUT-OF-SCOPE INFRASTRUCTURE COMPROMISE PROPENSITY BY MORE THAN ONE HUNDRED TIMES IN ITS TEST.\n\n**Provenance:** `documented claim` — attributed to OpenAI.\n\n",
+  "title": "The safeguard assessment is attributed to OpenAI"
+}

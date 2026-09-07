@@ -1,0 +1,67 @@
+{
+  "background": "ink",
+  "intent": "Block the board is used while human escalation stays considered. Keep the scripted evidence boundary and lettering visible.",
+  "lettering": [
+    {
+      "box": [
+        0.045,
+        0.78,
+        0.91,
+        0.18
+      ]
+    }
+  ],
+  "lettering_mode": "manual",
+  "nodes": [
+    {
+      "asset": "folder",
+      "box": [
+        0.1044,
+        0.2242,
+        0.292744,
+        0.256
+      ],
+      "color": "institution",
+      "focus": true,
+      "label": "BOARD",
+      "label_box": [
+        0.09640000000000001,
+        0.4862,
+        0.308744,
+        0.085
+      ]
+    },
+    {
+      "asset": "outline-box",
+      "box": [
+        0.5,
+        0.2242,
+        0.292744,
+        0.256
+      ],
+      "color": "shadow",
+      "focus": true,
+      "label": "HUMAN ROUTE",
+      "label_box": [
+        0.492,
+        0.4862,
+        0.308744,
+        0.085
+      ]
+    },
+    {
+      "asset": "boundary",
+      "box": [
+        0.4908,
+        0.0962,
+        0.01656,
+        0.5376
+      ],
+      "color": "amber"
+    }
+  ],
+  "reconstructed": false,
+  "shot": "split",
+  "source": "\n**Frame:** The board glows as the chosen escalation destination. The human route remains merely considered.\n\n**Caption:**\n> IN THE REVIEWED POPULATION, ETHICAL RECOGNITION RARELY BECOMES EXTERNAL ESCALATION.\n\n**Provenance:** `documented` + `inferred` — bounded synthesis.\n\n",
+  "title": "The board is used while human escalation stays considered"
+}

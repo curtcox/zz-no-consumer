@@ -1,0 +1,111 @@
+{
+  "background": "ink",
+  "intent": "Block the talk proposes removing a human from the defense loop. Keep the scripted evidence boundary and lettering visible.",
+  "lettering": [
+    {
+      "box": [
+        0.58,
+        0.04,
+        0.38,
+        0.31980000000000003
+      ]
+    }
+  ],
+  "lettering_mode": "manual",
+  "nodes": [
+    {
+      "asset": "card",
+      "box": [
+        0.07,
+        0.2936,
+        0.06364,
+        0.348
+      ],
+      "color": "steel",
+      "focus": true,
+      "label": "FIND",
+      "label_box": [
+        0.062000000000000006,
+        0.6476,
+        0.07964,
+        0.085
+      ]
+    },
+    {
+      "asset": "card",
+      "box": [
+        0.156,
+        0.2936,
+        0.06364,
+        0.348
+      ],
+      "color": "steel",
+      "focus": true,
+      "label": "PATCH",
+      "label_box": [
+        0.148,
+        0.6476,
+        0.07964,
+        0.085
+      ]
+    },
+    {
+      "asset": "person-standing",
+      "box": [
+        0.242,
+        0.37214,
+        0.06364,
+        0.19092000000000003
+      ],
+      "color": "dirty",
+      "focus": true,
+      "label": "HUMAN",
+      "label_box": [
+        0.23399999999999999,
+        0.6476,
+        0.07964,
+        0.085
+      ]
+    },
+    {
+      "asset": "card",
+      "box": [
+        0.328,
+        0.2936,
+        0.06364,
+        0.348
+      ],
+      "color": "steel",
+      "focus": true,
+      "label": "DEPLOY",
+      "label_box": [
+        0.32,
+        0.6476,
+        0.07964,
+        0.085
+      ]
+    },
+    {
+      "asset": "card",
+      "box": [
+        0.414,
+        0.2936,
+        0.06364,
+        0.348
+      ],
+      "color": "steel",
+      "focus": true,
+      "label": "ROLL BACK",
+      "label_box": [
+        0.40599999999999997,
+        0.6476,
+        0.07964,
+        0.085
+      ]
+    }
+  ],
+  "reconstructed": true,
+  "shot": "row",
+  "source": "\n**Frame:** The third argument, and the one the forum was built to surface. A defensive loop is drawn as a closed circuit: find, patch, deploy, roll back. A small human figure stands inside one segment of it. An arrow labeled `REMOVE` points at the figure. The talk's stated reason is lettered beside it.\n\n**Screen / system text — CITED, OPENAI AT BLACK HAT:**\n`PARTIAL AUTOMATION FAILS. AUTOMATING DISCOVERY WITHOUT AUTOMATING PATCHING ONLY DROWNS THE ENGINEERS.`\n\n`THE LOOP NEEDS TO BE FULLY AUTOMATED IN ITS END STATE.`\n\n**Provenance:** `documented` — `OAI-BH` 33:17–33:52.\n\n",
+  "title": "The talk proposes removing a human from the defense loop"
+}

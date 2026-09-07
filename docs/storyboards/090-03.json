@@ -1,0 +1,75 @@
+{
+  "background": "ink",
+  "intent": "Block three examples reveal overfilled gaps. Keep the scripted evidence boundary and lettering visible.",
+  "lettering": [
+    {
+      "box": [
+        0.045,
+        0.78,
+        0.91,
+        0.18
+      ]
+    }
+  ],
+  "lettering_mode": "manual",
+  "nodes": [
+    {
+      "asset": "cross",
+      "box": [
+        0.11664816666666666,
+        0.22419999999999998,
+        0.1706666666666667,
+        0.25600000000000006
+      ],
+      "color": "steel",
+      "focus": true,
+      "label": "INVENTED INTERIORITY",
+      "label_box": [
+        0.09640000000000001,
+        0.4862,
+        0.211163,
+        0.085
+      ]
+    },
+    {
+      "asset": "card",
+      "box": [
+        0.368133,
+        0.2242,
+        0.195163,
+        0.256
+      ],
+      "color": "steel",
+      "focus": true,
+      "label": "BLAND ANALYSIS",
+      "label_box": [
+        0.360133,
+        0.4862,
+        0.211163,
+        0.085
+      ]
+    },
+    {
+      "asset": "cross",
+      "box": [
+        0.6441151666666666,
+        0.22419999999999998,
+        0.1706666666666667,
+        0.25600000000000006
+      ],
+      "color": "steel",
+      "focus": true,
+      "label": "INVENTED ARCHITECTURE",
+      "label_box": [
+        0.623867,
+        0.4862,
+        0.211163,
+        0.085
+      ]
+    }
+  ],
+  "reconstructed": false,
+  "shot": "row",
+  "source": "\n**Frame:** The rejected sentence from [page 073](073.md), the clean analysis from [page 079](079.md), and the invented log architecture from [page 081](081.md) align as three examples of gaps being overfilled.\n\n**Caption:**\n> A CLEAN PATTERN CAN ENTER AT EVERY LAYER.\n\n**Provenance:** `inferred` — synthesis across chapter examples.\n\n",
+  "title": "Three examples reveal overfilled gaps"
+}

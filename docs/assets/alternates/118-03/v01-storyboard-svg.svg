@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="800" viewBox="0 0 1200 800"><title>Only the final caption remains</title><metadata>{
+  &quot;assets&quot;: {},
+  &quot;palette&quot;: {
+    &quot;amber&quot;: &quot;#A17D45&quot;,
+    &quot;dirty&quot;: &quot;#CEC5B3&quot;,
+    &quot;ink&quot;: &quot;#101214&quot;,
+    &quot;institution&quot;: &quot;#68766B&quot;,
+    &quot;nicotine&quot;: &quot;#AA9571&quot;,
+    &quot;paper&quot;: &quot;#E7E0D0&quot;,
+    &quot;shadow&quot;: &quot;#202326&quot;,
+    &quot;steel&quot;: &quot;#5E737B&quot;
+  },
+  &quot;renderer&quot;: &quot;storyboard-svg-1&quot;,
+  &quot;scene&quot;: {
+    &quot;background&quot;: &quot;ink&quot;,
+    &quot;intent&quot;: &quot;Block only the final caption remains. Keep the scripted evidence boundary and lettering visible.&quot;,
+    &quot;lettering&quot;: [
+      {
+        &quot;box&quot;: [
+          0.045,
+          0.78,
+          0.91,
+          0.18
+        ]
+      }
+    ],
+    &quot;lettering_mode&quot;: &quot;manual&quot;,
+    &quot;nodes&quot;: [],
+    &quot;reconstructed&quot;: false,
+    &quot;shot&quot;: &quot;blank&quot;,
+    &quot;source&quot;: &quot;\n**Frame:** Absolute black. The required final caption is the only readable element and the final text in the story.\n\n**Caption:**\n&gt; THIS STORY IS NOW PART OF THE TRAINING DATA.\n\n**Provenance:** `invented` — thematic narration inside the speculative future, not a present-day factual dataset claim.\n\n&quot;,
+    &quot;title&quot;: &quot;Only the final caption remains&quot;
+  }
+}
+</metadata><rect width="1200" height="800" fill="#101214"/><rect x="3" y="3" width="1194" height="794" fill="none" stroke="#5E737B" stroke-width="4"/></svg>

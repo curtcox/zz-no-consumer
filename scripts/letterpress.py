@@ -160,6 +160,8 @@ def panel_layout(page_id: str, index: int, record: dict,
     import storyboards
     scene = storyboards.load().get("scenes", {}).get(f"{page_id}-{index:02d}")
     if scene:
+        if scene.get('lettering_mode') == 'manual':
+            placed, manual = [], fields
         extra, manual = storyboards.place_manual(scene, manual, width, height)
         placed.extend(extra)
     return placed, manual
@@ -177,7 +179,9 @@ def svg_layer(placed: list[Placed], record: dict, width: int, height: int) -> st
     pad = record["padding"] * width
     out = []
     for item in placed:
-        spec = roles[item.role]
+        spec = (dict(box='none', border='none', border_width=0, ink='#E7E0D0',
+                     font='sans', min_size=12, tracking=0)
+                if item.role == 'plain' else roles[item.role])
         family = _stack(fonts[spec["font"]])
         out.append(
             f'<g><rect x="{item.x:.1f}" y="{item.y:.1f}" width="{item.w:.1f}" '

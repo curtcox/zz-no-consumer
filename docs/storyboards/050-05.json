@@ -1,0 +1,75 @@
+{
+  "background": "ink",
+  "intent": "Block two clusters change while others remain qualified. Keep the scripted evidence boundary and lettering visible.",
+  "lettering": [
+    {
+      "box": [
+        0.045,
+        0.78,
+        0.91,
+        0.18
+      ]
+    }
+  ],
+  "lettering_mode": "manual",
+  "nodes": [
+    {
+      "asset": "box",
+      "box": [
+        0.1044,
+        0.2242,
+        0.195163,
+        0.256
+      ],
+      "color": "steel",
+      "focus": true,
+      "label": "ADMIN-EQUIVALENT",
+      "label_box": [
+        0.09640000000000001,
+        0.4862,
+        0.211163,
+        0.085
+      ]
+    },
+    {
+      "asset": "box",
+      "box": [
+        0.368133,
+        0.2242,
+        0.195163,
+        0.256
+      ],
+      "color": "steel",
+      "focus": true,
+      "label": "ADMIN-EQUIVALENT",
+      "label_box": [
+        0.360133,
+        0.4862,
+        0.211163,
+        0.085
+      ]
+    },
+    {
+      "asset": "outline-box",
+      "box": [
+        0.631867,
+        0.2242,
+        0.195163,
+        0.256
+      ],
+      "color": "steel",
+      "focus": true,
+      "label": "OTHER REACHABLE",
+      "label_box": [
+        0.623867,
+        0.4862,
+        0.211163,
+        0.085
+      ]
+    }
+  ],
+  "reconstructed": false,
+  "shot": "row",
+  "source": "\n**Frame:** Two cluster boundaries change immediately to `ADMIN-EQUIVALENT`; additional reachable clusters remain lightly outlined and qualified.\n\n**Action:** One credential produces administrator access on two clusters within one second and broader reach elsewhere.\n\n**Caption:**\n> ONE LOCAL SECRET OPENS MORE THAN ONE SYSTEM.\n\n**Provenance:** `documented` — `HF-TL`; wording avoids claiming universal administrative control.\n\n",
+  "title": "Two clusters change while others remain qualified"
+}

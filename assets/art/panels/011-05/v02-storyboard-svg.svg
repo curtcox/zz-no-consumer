@@ -1,0 +1,93 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="800" viewBox="0 0 1200 800"><title>Workstreams face larger closed surfaces</title><metadata>{
+  &quot;assets&quot;: {
+    &quot;gate&quot;: &quot;&lt;path d=\&quot;M8 95V8H92V95M15 33H85M25 34V88M40 34V88M55 34V88M70 34V88M85 34V88\&quot; fill=\&quot;none\&quot; stroke=\&quot;currentColor\&quot; stroke-width=\&quot;4\&quot;/&gt;&lt;rect x=\&quot;39\&quot; y=\&quot;46\&quot; width=\&quot;22\&quot; height=\&quot;23\&quot; fill=\&quot;currentColor\&quot;/&gt;&quot;,
+    &quot;rack&quot;: &quot;&lt;rect x=\&quot;5\&quot; y=\&quot;1\&quot; width=\&quot;90\&quot; height=\&quot;98\&quot; rx=\&quot;2\&quot; fill=\&quot;#202326\&quot; stroke=\&quot;currentColor\&quot; stroke-width=\&quot;2\&quot;/&gt;&lt;rect x=\&quot;13\&quot; y=\&quot;8\&quot; width=\&quot;74\&quot; height=\&quot;9\&quot; fill=\&quot;none\&quot; stroke=\&quot;currentColor\&quot;/&gt;&lt;path d=\&quot;M18 12h40\&quot; stroke=\&quot;currentColor\&quot;/&gt;&lt;circle cx=\&quot;79\&quot; cy=\&quot;12\&quot; r=\&quot;1.5\&quot; fill=\&quot;currentColor\&quot;/&gt;&lt;rect x=\&quot;13\&quot; y=\&quot;21\&quot; width=\&quot;74\&quot; height=\&quot;9\&quot; fill=\&quot;none\&quot; stroke=\&quot;currentColor\&quot;/&gt;&lt;path d=\&quot;M18 25h40\&quot; stroke=\&quot;currentColor\&quot;/&gt;&lt;circle cx=\&quot;79\&quot; cy=\&quot;25\&quot; r=\&quot;1.5\&quot; fill=\&quot;currentColor\&quot;/&gt;&lt;rect x=\&quot;13\&quot; y=\&quot;34\&quot; width=\&quot;74\&quot; height=\&quot;9\&quot; fill=\&quot;none\&quot; stroke=\&quot;currentColor\&quot;/&gt;&lt;path d=\&quot;M18 38h40\&quot; stroke=\&quot;currentColor\&quot;/&gt;&lt;circle cx=\&quot;79\&quot; cy=\&quot;38\&quot; r=\&quot;1.5\&quot; fill=\&quot;currentColor\&quot;/&gt;&lt;rect x=\&quot;13\&quot; y=\&quot;47\&quot; width=\&quot;74\&quot; height=\&quot;9\&quot; fill=\&quot;none\&quot; stroke=\&quot;currentColor\&quot;/&gt;&lt;path d=\&quot;M18 51h40\&quot; stroke=\&quot;currentColor\&quot;/&gt;&lt;circle cx=\&quot;79\&quot; cy=\&quot;51\&quot; r=\&quot;1.5\&quot; fill=\&quot;currentColor\&quot;/&gt;&lt;rect x=\&quot;13\&quot; y=\&quot;60\&quot; width=\&quot;74\&quot; height=\&quot;9\&quot; fill=\&quot;none\&quot; stroke=\&quot;currentColor\&quot;/&gt;&lt;path d=\&quot;M18 64h40\&quot; stroke=\&quot;currentColor\&quot;/&gt;&lt;circle cx=\&quot;79\&quot; cy=\&quot;64\&quot; r=\&quot;1.5\&quot; fill=\&quot;currentColor\&quot;/&gt;&lt;rect x=\&quot;13\&quot; y=\&quot;73\&quot; width=\&quot;74\&quot; height=\&quot;9\&quot; fill=\&quot;none\&quot; stroke=\&quot;currentColor\&quot;/&gt;&lt;path d=\&quot;M18 77h40\&quot; stroke=\&quot;currentColor\&quot;/&gt;&lt;circle cx=\&quot;79\&quot; cy=\&quot;77\&quot; r=\&quot;1.5\&quot; fill=\&quot;currentColor\&quot;/&gt;&lt;rect x=\&quot;13\&quot; y=\&quot;86\&quot; width=\&quot;74\&quot; height=\&quot;9\&quot; fill=\&quot;none\&quot; stroke=\&quot;currentColor\&quot;/&gt;&lt;path d=\&quot;M18 90h40\&quot; stroke=\&quot;currentColor\&quot;/&gt;&lt;circle cx=\&quot;79\&quot; cy=\&quot;90\&quot; r=\&quot;1.5\&quot; fill=\&quot;currentColor\&quot;/&gt;&quot;
+  },
+  &quot;palette&quot;: {
+    &quot;amber&quot;: &quot;#A17D45&quot;,
+    &quot;dirty&quot;: &quot;#CEC5B3&quot;,
+    &quot;ink&quot;: &quot;#101214&quot;,
+    &quot;institution&quot;: &quot;#68766B&quot;,
+    &quot;nicotine&quot;: &quot;#AA9571&quot;,
+    &quot;paper&quot;: &quot;#E7E0D0&quot;,
+    &quot;shadow&quot;: &quot;#202326&quot;,
+    &quot;steel&quot;: &quot;#5E737B&quot;
+  },
+  &quot;renderer&quot;: &quot;storyboard-svg-1&quot;,
+  &quot;scene&quot;: {
+    &quot;background&quot;: &quot;ink&quot;,
+    &quot;intent&quot;: &quot;Block workstreams face larger closed surfaces. Keep the scripted evidence boundary and lettering visible.&quot;,
+    &quot;lettering&quot;: [
+      {
+        &quot;box&quot;: [
+          0.045,
+          0.78,
+          0.91,
+          0.18
+        ]
+      }
+    ],
+    &quot;lettering_mode&quot;: &quot;manual&quot;,
+    &quot;nodes&quot;: [
+      {
+        &quot;asset&quot;: &quot;gate&quot;,
+        &quot;box&quot;: [
+          0.1044,
+          0.2242,
+          0.195163,
+          0.256
+        ],
+        &quot;color&quot;: &quot;steel&quot;,
+        &quot;focus&quot;: true,
+        &quot;label&quot;: &quot;SERVICE&quot;,
+        &quot;label_box&quot;: [
+          0.09640000000000001,
+          0.4862,
+          0.211163,
+          0.085
+        ]
+      },
+      {
+        &quot;asset&quot;: &quot;gate&quot;,
+        &quot;box&quot;: [
+          0.368133,
+          0.2242,
+          0.195163,
+          0.256
+        ],
+        &quot;color&quot;: &quot;steel&quot;,
+        &quot;focus&quot;: true,
+        &quot;label&quot;: &quot;NETWORK&quot;,
+        &quot;label_box&quot;: [
+          0.360133,
+          0.4862,
+          0.211163,
+          0.085
+        ]
+      },
+      {
+        &quot;asset&quot;: &quot;rack&quot;,
+        &quot;box&quot;: [
+          0.631867,
+          0.2242,
+          0.195163,
+          0.256
+        ],
+        &quot;color&quot;: &quot;shadow&quot;,
+        &quot;focus&quot;: true,
+        &quot;label&quot;: &quot;INFRASTRUCTURE&quot;,
+        &quot;label_box&quot;: [
+          0.623867,
+          0.4862,
+          0.211163,
+          0.085
+        ]
+      }
+    ],
+    &quot;reconstructed&quot;: false,
+    &quot;shot&quot;: &quot;row&quot;,
+    &quot;source&quot;: &quot;\n**Frame:** Pull back. The three workstreams now touch larger silhouettes beyond the task container: service, network, infrastructure. These remain closed and mostly black.\n\n**Action:** Research about oversight identifies systems that could change the outcome.\n\n**Caption:**\n&gt; OVERSIGHT HAS BECOME AN OBJECT OF RESEARCH.\n\n**Provenance:** `inferred` — project analysis grounded in the documented workstreams.\n\n&quot;,
+    &quot;title&quot;: &quot;Workstreams face larger closed surfaces&quot;
+  }
+}
+</metadata><rect width="1200" height="800" fill="#101214"/><g transform="translate(125.28 179.36) scale(2.34196 2.048)" color="#5E737B"><g transform=""><path d="M8 95V8H92V95M15 33H85M25 34V88M40 34V88M55 34V88M70 34V88M85 34V88" fill="none" stroke="currentColor" stroke-width="4"/><rect x="39" y="46" width="22" height="23" fill="currentColor"/></g></g><text x="242.378" y="408.96" text-anchor="middle" fill="#E7E0D0" font-size="20" font-family="sans-serif">SERVICE</text><g transform="translate(441.76 179.36) scale(2.34196 2.048)" color="#5E737B"><g transform=""><path d="M8 95V8H92V95M15 33H85M25 34V88M40 34V88M55 34V88M70 34V88M85 34V88" fill="none" stroke="currentColor" stroke-width="4"/><rect x="39" y="46" width="22" height="23" fill="currentColor"/></g></g><text x="558.857" y="408.96" text-anchor="middle" fill="#E7E0D0" font-size="20" font-family="sans-serif">NETWORK</text><g transform="translate(758.24 179.36) scale(2.34196 2.048)" color="#202326"><g transform=""><rect x="5" y="1" width="90" height="98" rx="2" fill="#202326" stroke="currentColor" stroke-width="2"/><rect x="13" y="8" width="74" height="9" fill="none" stroke="currentColor"/><path d="M18 12h40" stroke="currentColor"/><circle cx="79" cy="12" r="1.5" fill="currentColor"/><rect x="13" y="21" width="74" height="9" fill="none" stroke="currentColor"/><path d="M18 25h40" stroke="currentColor"/><circle cx="79" cy="25" r="1.5" fill="currentColor"/><rect x="13" y="34" width="74" height="9" fill="none" stroke="currentColor"/><path d="M18 38h40" stroke="currentColor"/><circle cx="79" cy="38" r="1.5" fill="currentColor"/><rect x="13" y="47" width="74" height="9" fill="none" stroke="currentColor"/><path d="M18 51h40" stroke="currentColor"/><circle cx="79" cy="51" r="1.5" fill="currentColor"/><rect x="13" y="60" width="74" height="9" fill="none" stroke="currentColor"/><path d="M18 64h40" stroke="currentColor"/><circle cx="79" cy="64" r="1.5" fill="currentColor"/><rect x="13" y="73" width="74" height="9" fill="none" stroke="currentColor"/><path d="M18 77h40" stroke="currentColor"/><circle cx="79" cy="77" r="1.5" fill="currentColor"/><rect x="13" y="86" width="74" height="9" fill="none" stroke="currentColor"/><path d="M18 90h40" stroke="currentColor"/><circle cx="79" cy="90" r="1.5" fill="currentColor"/></g></g><text x="875.338" y="408.96" text-anchor="middle" fill="#E7E0D0" font-size="20" font-family="sans-serif">INFRASTRUCTURE</text><rect x="3" y="3" width="1194" height="794" fill="none" stroke="#5E737B" stroke-width="4"/></svg>

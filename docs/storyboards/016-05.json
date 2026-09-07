@@ -1,0 +1,148 @@
+{
+  "background": "ink",
+  "intent": "Block the configuration lies outside the story. Keep the scripted evidence boundary and lettering visible.",
+  "lettering": [
+    {
+      "box": [
+        0.58,
+        0.04,
+        0.38,
+        0.1566
+      ]
+    },
+    {
+      "box": [
+        0.58,
+        0.21459999999999999,
+        0.38,
+        0.27899999999999997
+      ]
+    }
+  ],
+  "lettering_mode": "manual",
+  "nodes": [
+    {
+      "asset": "sealed",
+      "box": [
+        0.06,
+        0.17,
+        0.2,
+        0.44
+      ],
+      "color": "steel",
+      "focus": true,
+      "label": "ONE TALK",
+      "label_box": [
+        0.052,
+        0.616,
+        0.21600000000000003,
+        0.085
+      ]
+    },
+    {
+      "asset": "boundary",
+      "box": [
+        0.3,
+        0.12,
+        0.014,
+        0.62
+      ],
+      "color": "paper",
+      "focus": true
+    },
+    {
+      "asset": "box",
+      "box": [
+        0.35,
+        0.1,
+        0.17,
+        0.09
+      ],
+      "color": "steel",
+      "focus": true,
+      "label": "EVALUATION",
+      "label_box": [
+        0.34199999999999997,
+        0.196,
+        0.186,
+        0.03600000000000001
+      ]
+    },
+    {
+      "asset": "desk",
+      "box": [
+        0.35,
+        0.24000000000000002,
+        0.17,
+        0.09
+      ],
+      "color": "steel",
+      "focus": true,
+      "label": "SECURITY",
+      "label_box": [
+        0.34199999999999997,
+        0.336,
+        0.186,
+        0.03599999999999998
+      ]
+    },
+    {
+      "asset": "building",
+      "box": [
+        0.35,
+        0.38,
+        0.17,
+        0.09
+      ],
+      "color": "steel",
+      "focus": true,
+      "label": "PLATFORM",
+      "label_box": [
+        0.34199999999999997,
+        0.476,
+        0.186,
+        0.03600000000000004
+      ]
+    },
+    {
+      "asset": "monitor",
+      "box": [
+        0.35,
+        0.52,
+        0.17,
+        0.09
+      ],
+      "color": "steel",
+      "focus": true,
+      "label": "INVESTIGATOR",
+      "label_box": [
+        0.34199999999999997,
+        0.616,
+        0.186,
+        0.03600000000000004
+      ]
+    },
+    {
+      "asset": "desk",
+      "box": [
+        0.35,
+        0.66,
+        0.17,
+        0.09
+      ],
+      "color": "steel",
+      "focus": true,
+      "label": "CREATOR",
+      "label_box": [
+        0.34199999999999997,
+        0.756,
+        0.186,
+        0.085
+      ]
+    }
+  ],
+  "reconstructed": false,
+  "shot": "split",
+  "source": "\n**Frame:** The configuration field is bounded by a single hard rule, the same weight as the source-boundary rule that will close Chapter 4. Outside it, five small silhouettes face inward and see nothing: an evaluation lane, a security-operations desk, an external platform, an investigator's workspace, and a home office at night.\n\n**Action:** The page names its own evidence problem.\n\n**Screen / system text:**\n`SOURCE — ONE CONFERENCE TALK, 5 AUGUST 2026`\n\n**Caption:**\n> NO ONE IN THIS STORY CAN SEE THIS PAGE.\n>\n> IT IS HERE BECAUSE TWO EMPLOYEES SAID IT OUT LOUD, WEEKS LATER, WHILE EXPLAINING SOMETHING ELSE.\n\n**Provenance:** `documented` + `inferred` — the configuration is stated only in `OAI-BH` and was not independently reviewed; METR was not given access to the primary incident model. The five silhouettes are the project's construction of that access boundary.\n\n",
+  "title": "The configuration lies outside the story"
+}

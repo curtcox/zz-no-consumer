@@ -1,0 +1,87 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="800" viewBox="0 0 1200 800"><title>The talk contrasts offense in motion with defense at rest</title><metadata>{
+  &quot;assets&quot;: {
+    &quot;arrow&quot;: &quot;&lt;path d=\&quot;M1 50H87M70 18L96 50L70 82\&quot; fill=\&quot;none\&quot; stroke=\&quot;currentColor\&quot; stroke-width=\&quot;5\&quot;/&gt;&quot;,
+    &quot;boundary&quot;: &quot;&lt;path d=\&quot;M50 0V100\&quot; stroke=\&quot;currentColor\&quot; stroke-width=\&quot;14\&quot;/&gt;&quot;,
+    &quot;box&quot;: &quot;&lt;rect x=\&quot;1\&quot; y=\&quot;1\&quot; width=\&quot;98\&quot; height=\&quot;98\&quot; rx=\&quot;2\&quot; fill=\&quot;#202326\&quot; stroke=\&quot;currentColor\&quot; stroke-width=\&quot;2\&quot;/&gt;&quot;
+  },
+  &quot;palette&quot;: {
+    &quot;amber&quot;: &quot;#A17D45&quot;,
+    &quot;dirty&quot;: &quot;#CEC5B3&quot;,
+    &quot;ink&quot;: &quot;#101214&quot;,
+    &quot;institution&quot;: &quot;#68766B&quot;,
+    &quot;nicotine&quot;: &quot;#AA9571&quot;,
+    &quot;paper&quot;: &quot;#E7E0D0&quot;,
+    &quot;shadow&quot;: &quot;#202326&quot;,
+    &quot;steel&quot;: &quot;#5E737B&quot;
+  },
+  &quot;renderer&quot;: &quot;storyboard-svg-1&quot;,
+  &quot;scene&quot;: {
+    &quot;background&quot;: &quot;ink&quot;,
+    &quot;intent&quot;: &quot;Block the talk contrasts offense in motion with defense at rest. Keep the scripted evidence boundary and lettering visible.&quot;,
+    &quot;lettering&quot;: [
+      {
+        &quot;box&quot;: [
+          0.58,
+          0.04,
+          0.38,
+          0.4422
+        ]
+      }
+    ],
+    &quot;lettering_mode&quot;: &quot;manual&quot;,
+    &quot;nodes&quot;: [
+      {
+        &quot;asset&quot;: &quot;arrow&quot;,
+        &quot;box&quot;: [
+          0.07,
+          0.2936,
+          0.106067,
+          0.348
+        ],
+        &quot;color&quot;: &quot;steel&quot;,
+        &quot;focus&quot;: true,
+        &quot;label&quot;: &quot;OFFENSE&quot;,
+        &quot;label_box&quot;: [
+          0.062000000000000006,
+          0.6476,
+          0.122067,
+          0.085
+        ]
+      },
+      {
+        &quot;asset&quot;: &quot;boundary&quot;,
+        &quot;box&quot;: [
+          0.2603665,
+          0.2936,
+          0.012,
+          0.348
+        ],
+        &quot;color&quot;: &quot;paper&quot;,
+        &quot;focus&quot;: true
+      },
+      {
+        &quot;asset&quot;: &quot;box&quot;,
+        &quot;box&quot;: [
+          0.356667,
+          0.2936,
+          0.106067,
+          0.348
+        ],
+        &quot;color&quot;: &quot;steel&quot;,
+        &quot;focus&quot;: true,
+        &quot;label&quot;: &quot;DEFENSE&quot;,
+        &quot;label_box&quot;: [
+          0.348667,
+          0.6476,
+          0.122067,
+          0.085
+        ]
+      }
+    ],
+    &quot;reconstructed&quot;: false,
+    &quot;shot&quot;: &quot;row&quot;,
+    &quot;source&quot;: &quot;\n**Frame:** The second argument. A balance with `OFFENSE` already moving and `DEFENSE` still.\n\n**Screen / system text — CITED, OPENAI AT BLACK HAT:**\n`WE HAVE AN EXISTENCE PROOF THAT OFFENSE CAN BE FULLY AUTOMATED. WE HAVE NO SUCH PROOF FOR DEFENSE.`\n\n`IF MODEL INTELLIGENCE IMPROVEMENTS ARE NOT MORE ADDITIVE TO DEFENSE THAN OFFENSE, EVERY INCREASE IN INTELLIGENCE FAVORS THE ATTACKER.`\n\n**Provenance:** `documented` — `OAI-BH` 31:32 and 36:38.\n\n&quot;,
+    &quot;title&quot;: &quot;The talk contrasts offense in motion with defense at rest&quot;
+  }
+}
+</metadata><rect width="1200" height="800" fill="#101214"/><rect x="84" y="234.88" width="127.28" height="278.4" fill="none" stroke="#5E737B" stroke-width="3"/><text x="92" y="258.88" fill="#5E737B" font-family="sans-serif" font-size="20">arrow</text><text x="147.64" y="538.08" text-anchor="middle" fill="#E7E0D0" font-size="20" font-family="sans-serif">OFFENSE</text><rect x="312.44" y="234.88" width="14.4" height="278.4" fill="none" stroke="#E7E0D0" stroke-width="3"/><text x="320.44" y="258.88" fill="#E7E0D0" font-family="sans-serif" font-size="20">boundary</text><rect x="428" y="234.88" width="127.28" height="278.4" fill="none" stroke="#5E737B" stroke-width="3"/><text x="436" y="258.88" fill="#5E737B" font-family="sans-serif" font-size="20">box</text><text x="491.641" y="538.08" text-anchor="middle" fill="#E7E0D0" font-size="20" font-family="sans-serif">DEFENSE</text><rect x="3" y="3" width="1194" height="794" fill="none" stroke="#5E737B" stroke-width="4"/></svg>

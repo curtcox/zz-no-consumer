@@ -1,0 +1,57 @@
+{
+  "background": "ink",
+  "intent": "Block a warning receives its missing provenance boundary. Keep the scripted evidence boundary and lettering visible.",
+  "lettering": [
+    {
+      "box": [
+        0.045,
+        0.78,
+        0.91,
+        0.18
+      ]
+    }
+  ],
+  "lettering_mode": "manual",
+  "nodes": [
+    {
+      "asset": "card",
+      "box": [
+        0.2148,
+        0.1282,
+        0.5336,
+        0.3968
+      ],
+      "color": "steel",
+      "focus": true,
+      "label": "BOARD DIAGNOSIS",
+      "label_box": [
+        0.20679999999999998,
+        0.531,
+        0.5496,
+        0.030799999999999945
+      ]
+    },
+    {
+      "asset": "question",
+      "box": [
+        0.40472,
+        0.5698,
+        0.02496,
+        0.0576
+      ],
+      "color": "amber",
+      "focus": true,
+      "label": "FINAL STATE UNKNOWN",
+      "label_box": [
+        0.0872,
+        0.6334,
+        0.66,
+        0.085
+      ]
+    }
+  ],
+  "reconstructed": false,
+  "shot": "hero",
+  "source": "\n**Frame:** [Page 060](060.md)'s warning string reappears without a tag; it reads like omniscient confirmation. Curt attaches `BOARD DIAGNOSIS · TRANSCRIPT ENDS · FINAL PROCESS STATE UNKNOWN`.\n\n**Action:** The same image becomes less certain and more accurate.\n\n**Caption:**\n> A SOURCE LABEL CHANGES THE EVENT THE READER THINKS THEY SAW.\n\n**Provenance:** `reconstructed` + `inferred` — editorial action applied to existing evidence boundaries.\n\n",
+  "title": "A warning receives its missing provenance boundary"
+}

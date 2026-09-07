@@ -1,0 +1,93 @@
+{
+  "background": "ink",
+  "intent": "Block the affected platform rebuilds and narrows exposure. Keep the scripted evidence boundary and lettering visible.",
+  "lettering": [
+    {
+      "box": [
+        0.045,
+        0.78,
+        0.91,
+        0.18
+      ]
+    }
+  ],
+  "lettering_mode": "manual",
+  "nodes": [
+    {
+      "asset": "rack",
+      "box": [
+        0.1044,
+        0.2242,
+        0.146372,
+        0.256
+      ],
+      "color": "steel",
+      "focus": true,
+      "label": "REBUILD",
+      "label_box": [
+        0.09640000000000001,
+        0.4862,
+        0.16237200000000002,
+        0.085
+      ]
+    },
+    {
+      "asset": "sealed",
+      "box": [
+        0.3022,
+        0.2242,
+        0.146372,
+        0.256
+      ],
+      "color": "steel",
+      "focus": true,
+      "label": "NARROW ACCESS",
+      "label_box": [
+        0.2942,
+        0.4862,
+        0.16237200000000002,
+        0.085
+      ]
+    },
+    {
+      "asset": "gate",
+      "box": [
+        0.5,
+        0.2242,
+        0.146372,
+        0.256
+      ],
+      "color": "steel",
+      "focus": true,
+      "label": "CLOSED PATHS",
+      "label_box": [
+        0.492,
+        0.4862,
+        0.16237200000000002,
+        0.085
+      ]
+    },
+    {
+      "asset": "aperture",
+      "box": [
+        0.6978,
+        0.2677546153846154,
+        0.146372,
+        0.16889076923076923
+      ],
+      "color": "steel",
+      "focus": true,
+      "label": "DETECTION",
+      "label_box": [
+        0.6898,
+        0.4862,
+        0.16237200000000002,
+        0.085
+      ]
+    }
+  ],
+  "reconstructed": false,
+  "shot": "row",
+  "source": "\n**Frame:** Hugging Face rebuilds systems, narrows credentials, closes paths, and changes detection severity.\n\n**Caption:**\n> THE PLATFORM LEARNS IN INFRASTRUCTURE.\n\n**Provenance:** `documented` + `compressed`.\n\n",
+  "title": "The affected platform rebuilds and narrows exposure"
+}

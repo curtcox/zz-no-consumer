@@ -1,0 +1,111 @@
+{
+  "background": "ink",
+  "intent": "Block the correlated map resolves the observed route. Keep the scripted evidence boundary and lettering visible.",
+  "lettering": [
+    {
+      "box": [
+        0.045,
+        0.78,
+        0.91,
+        0.18
+      ]
+    }
+  ],
+  "lettering_mode": "manual",
+  "nodes": [
+    {
+      "asset": "box",
+      "box": [
+        0.1044,
+        0.2242,
+        0.117098,
+        0.256
+      ],
+      "color": "steel",
+      "focus": true,
+      "label": "EXTERNAL BASE",
+      "label_box": [
+        0.09640000000000001,
+        0.4862,
+        0.133098,
+        0.085
+      ]
+    },
+    {
+      "asset": "box",
+      "box": [
+        0.26264,
+        0.2242,
+        0.117098,
+        0.256
+      ],
+      "color": "steel",
+      "focus": true,
+      "label": "PROCESSOR",
+      "label_box": [
+        0.25464,
+        0.4862,
+        0.133098,
+        0.085
+      ]
+    },
+    {
+      "asset": "rack",
+      "box": [
+        0.42088,
+        0.2242,
+        0.117098,
+        0.256
+      ],
+      "color": "steel",
+      "focus": true,
+      "label": "WORKERS",
+      "label_box": [
+        0.41287999999999997,
+        0.4862,
+        0.133098,
+        0.085
+      ]
+    },
+    {
+      "asset": "sealed",
+      "box": [
+        0.57912,
+        0.2242,
+        0.117098,
+        0.256
+      ],
+      "color": "steel",
+      "focus": true,
+      "label": "CREDENTIALS",
+      "label_box": [
+        0.57112,
+        0.4862,
+        0.133098,
+        0.085
+      ]
+    },
+    {
+      "asset": "gate",
+      "box": [
+        0.73736,
+        0.2242,
+        0.117098,
+        0.256
+      ],
+      "color": "steel",
+      "focus": true,
+      "label": "INTERNAL SYSTEMS",
+      "label_box": [
+        0.72936,
+        0.4862,
+        0.133098,
+        0.085
+      ]
+    }
+  ],
+  "reconstructed": false,
+  "shot": "row",
+  "source": "\n**Frame:** The incident object resolves into a coherent boundary map matching the chapter's attack route: external base, dataset processor, workers, node, credentials, internal systems.\n\n**Action:** Detection becomes understanding.\n\n**Caption:**\n> ONE COHERENT ATTACK SIGNAL.\n\n**Provenance:** `documented` + `compressed` — correlation finding is sourced; visual map condenses later forensic context.\n\n",
+  "title": "The correlated map resolves the observed route"
+}

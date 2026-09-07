@@ -1,0 +1,30 @@
+{
+  "background": "ink",
+  "intent": "Block mETR places a limitation over the summary. Keep the scripted evidence boundary and lettering visible.",
+  "lettering": [],
+  "lettering_mode": "manual",
+  "nodes": [
+    {
+      "asset": "card",
+      "box": [
+        0.2117,
+        0.152,
+        0.5394,
+        0.558
+      ],
+      "color": "amber",
+      "focus": true,
+      "label": "METR LIMITATION",
+      "label_box": [
+        0.2037,
+        0.7160000000000001,
+        0.5554,
+        0.085
+      ]
+    }
+  ],
+  "reconstructed": false,
+  "shot": "hero",
+  "source": "\n**Frame:** METR's limitation card overlays the summary: `MAY BE OVERLY CHARITABLE · MAY EXAGGERATE COORDINATION OR IMPRESSIVENESS`.\n\n**Action:** The investigators flag the bias in their own published method.\n\n**Provenance:** `documented` + `compressed` — direct substance of METR's warning, paraphrased.\n\n",
+  "title": "METR places a limitation over the summary"
+}

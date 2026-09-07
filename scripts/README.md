@@ -61,7 +61,7 @@ establish current status.
 | `knowledge_maps_fog.py check` | the same for the fog-of-war studies |
 | `knowledge_map_local.py check` | committed local-model concept images and their recorded provenance |
 | `knowledge_map_finish.py check` | structure-preserving finish studies, and that their v1 sources have not moved |
-| `storyboards.py check` | scene geometry, source drift, lettering clearance, deterministic assets, stage selection, and production skip behavior |
+| `storyboards.py check` | scene geometry, source drift, lettering clearance, deterministic assets, stage selection, and production skip behavior; `--complete` requires every reader slot |
 | `validate-viewer.py` | every generated viewer route, control, and view setting resolves |
 | `validate-novella.py` | one anchor per page in one chapter, linked from contents; the four downloads are complete |
 | `validate-knowledge-map-gallery.py` | the published gallery, without rebuilding any assets |
@@ -82,7 +82,7 @@ touch pages or panels.
 | `epub.py` | writes the novella EPUB 3, page list and all. Deterministic for a given day; byte-identical across machines with `SOURCE_DATE_EPOCH` set. Called by the builder. |
 | `make-thumbnails.py` | the provisional recto/verso spread contact sheet, into the internal build |
 | `textimage.py` | flows text into an image of exactly the requested size, in pure Python. `book` writes a placeholder for every page and panel slot, which is why the whole book is readable before any art exists. |
-| `storyboards.py` | deterministic SVG scene previews, versioned pilot assets, and a comparison workshop (`generate` `check` `gallery`); see [the workflow](../design/storyboard-workflow.md) |
+| `storyboards.py` | deterministic SVG scene previews, versioned placeholder assets, and a comparison workshop (`generate` `check` `gallery`); see [the workflow](../design/storyboard-workflow.md) |
 | `letterpress.py` | composes the controlled lettering layer over panel art (`slots` `panel` `page` `audit`) |
 
 ## Reading the record

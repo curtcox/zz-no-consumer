@@ -1,0 +1,88 @@
+{
+  "background": "ink",
+  "intent": "Block the final build preserves the concealed last page. Keep the scripted evidence boundary and lettering visible.",
+  "lettering": [],
+  "lettering_mode": "manual",
+  "nodes": [
+    {
+      "asset": "room",
+      "box": [
+        0.0443,
+        0.044,
+        0.9114,
+        0.882
+      ],
+      "color": "shadow"
+    },
+    {
+      "asset": "desk",
+      "box": [
+        0.1931,
+        0.611,
+        0.7254,
+        0.279
+      ],
+      "color": "nicotine"
+    },
+    {
+      "asset": "person-seated",
+      "box": [
+        0.0722,
+        0.29600000000000004,
+        0.2418,
+        0.5579999999999999
+      ],
+      "color": "dirty"
+    },
+    {
+      "asset": "terminal",
+      "box": [
+        0.3512,
+        0.26,
+        0.2325,
+        0.306
+      ],
+      "color": "steel",
+      "focus": true,
+      "label": "BUILD",
+      "label_box": [
+        0.3432,
+        0.5720000000000001,
+        0.2485,
+        0.030999999999999923
+      ]
+    },
+    {
+      "asset": "box",
+      "box": [
+        0.62555,
+        0.26,
+        0.2325,
+        0.306
+      ],
+      "color": "shadow",
+      "focus": true,
+      "label": "FINAL PAGE",
+      "label_box": [
+        0.61755,
+        0.5720000000000001,
+        0.2485,
+        0.021999999999999915
+      ]
+    },
+    {
+      "asset": "cup",
+      "box": [
+        0.8162,
+        0.602,
+        0.0651,
+        0.126
+      ],
+      "color": "nicotine"
+    }
+  ],
+  "reconstructed": true,
+  "shot": "office",
+  "source": "\n**Frame:** Verso. Curt performs the final manuscript build. [Page 118](118.md) is still concealed by a black thumbnail.\n\n**Action:** Source packets, corrections, and uncertainty labels compile beside the reading edition.\n\n**Provenance:** `reconstructed` — project publication scene.\n\n",
+  "title": "The final build preserves the concealed last page"
+}

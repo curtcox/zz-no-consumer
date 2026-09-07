@@ -1,0 +1,83 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="800" viewBox="0 0 1200 800"><title>Dated deletion events accumulate across months</title><metadata>{
+  &quot;assets&quot;: {
+    &quot;card&quot;: &quot;&lt;rect x=\&quot;1\&quot; y=\&quot;1\&quot; width=\&quot;98\&quot; height=\&quot;98\&quot; fill=\&quot;#202326\&quot; stroke=\&quot;currentColor\&quot; stroke-width=\&quot;2\&quot;/&gt;&lt;path d=\&quot;M8 13H92M8 27H70M8 36H86M8 45H72M8 65H86M8 74H57\&quot; stroke=\&quot;currentColor\&quot; stroke-width=\&quot;1.5\&quot;/&gt;&quot;,
+    &quot;scatter&quot;: &quot;&lt;path d=\&quot;M5 8h3 M12 8h3 M19 8h3 M26 8h3 M33 8h3 M40 8h3 M47 8h3 M54 8h3 M61 8h3 M68 8h3 M75 8h3 M82 8h3 M89 8h3 M5 17h3 M12 17h3 M19 17h3 M26 17h3 M33 17h3 M40 17h3 M47 17h3 M54 17h3 M61 17h3 M68 17h3 M75 17h3 M82 17h3 M89 17h3 M5 26h3 M12 26h3 M19 26h3 M26 26h3 M33 26h3 M40 26h3 M47 26h3 M54 26h3 M61 26h3 M68 26h3 M75 26h3 M82 26h3 M89 26h3 M5 35h3 M12 35h3 M19 35h3 M26 35h3 M33 35h3 M40 35h3 M47 35h3 M54 35h3 M61 35h3 M68 35h3 M75 35h3 M82 35h3 M89 35h3 M5 44h3 M12 44h3 M19 44h3 M26 44h3 M33 44h3 M40 44h3 M47 44h3 M54 44h3 M61 44h3 M68 44h3 M75 44h3 M82 44h3 M89 44h3 M5 53h3 M12 53h3 M19 53h3 M26 53h3 M33 53h3 M40 53h3 M47 53h3 M54 53h3 M61 53h3 M68 53h3 M75 53h3 M82 53h3 M89 53h3 M5 62h3 M12 62h3 M19 62h3 M26 62h3 M33 62h3 M40 62h3 M47 62h3 M54 62h3 M61 62h3 M68 62h3 M75 62h3 M82 62h3 M89 62h3 M5 71h3 M12 71h3 M19 71h3 M26 71h3 M33 71h3 M40 71h3 M47 71h3 M54 71h3 M61 71h3 M68 71h3 M75 71h3 M82 71h3 M89 71h3 M5 80h3 M12 80h3 M19 80h3 M26 80h3 M33 80h3 M40 80h3 M47 80h3 M54 80h3 M61 80h3 M68 80h3 M75 80h3 M82 80h3 M89 80h3 M5 89h3 M12 89h3 M19 89h3 M26 89h3 M33 89h3 M40 89h3 M47 89h3 M54 89h3 M61 89h3 M68 89h3 M75 89h3 M82 89h3 M89 89h3\&quot; stroke=\&quot;currentColor\&quot; stroke-width=\&quot;2\&quot;/&gt;&quot;
+  },
+  &quot;palette&quot;: {
+    &quot;amber&quot;: &quot;#A17D45&quot;,
+    &quot;dirty&quot;: &quot;#CEC5B3&quot;,
+    &quot;ink&quot;: &quot;#101214&quot;,
+    &quot;institution&quot;: &quot;#68766B&quot;,
+    &quot;nicotine&quot;: &quot;#AA9571&quot;,
+    &quot;paper&quot;: &quot;#E7E0D0&quot;,
+    &quot;shadow&quot;: &quot;#202326&quot;,
+    &quot;steel&quot;: &quot;#5E737B&quot;
+  },
+  &quot;renderer&quot;: &quot;storyboard-svg-1&quot;,
+  &quot;scene&quot;: {
+    &quot;background&quot;: &quot;ink&quot;,
+    &quot;intent&quot;: &quot;Block dated deletion events accumulate across months. Keep the scripted evidence boundary and lettering visible.&quot;,
+    &quot;lettering&quot;: [
+      {
+        &quot;box&quot;: [
+          0.58,
+          0.04,
+          0.38,
+          0.19740000000000002
+        ]
+      },
+      {
+        &quot;box&quot;: [
+          0.58,
+          0.2554,
+          0.38,
+          0.19740000000000002
+        ]
+      }
+    ],
+    &quot;lettering_mode&quot;: &quot;manual&quot;,
+    &quot;nodes&quot;: [
+      {
+        &quot;asset&quot;: &quot;scatter&quot;,
+        &quot;box&quot;: [
+          0.13,
+          0.1631,
+          0.29,
+          0.5394
+        ],
+        &quot;color&quot;: &quot;steel&quot;,
+        &quot;focus&quot;: true,
+        &quot;label&quot;: &quot;DELETION EVENTS&quot;,
+        &quot;label_box&quot;: [
+          0.122,
+          0.7085,
+          0.306,
+          0.04689999999999995
+        ]
+      },
+      {
+        &quot;asset&quot;: &quot;card&quot;,
+        &quot;box&quot;: [
+          0.065,
+          0.7634,
+          0.35,
+          0.0783
+        ],
+        &quot;color&quot;: &quot;steel&quot;,
+        &quot;focus&quot;: true,
+        &quot;label&quot;: &quot;MAY AND JUNE&quot;,
+        &quot;label_box&quot;: [
+          0.057,
+          0.8477,
+          0.366,
+          0.085
+        ]
+      }
+    ],
+    &quot;reconstructed&quot;: false,
+    &quot;shot&quot;: &quot;hero&quot;,
+    &quot;source&quot;: &quot;\n**Frame:** The same deletion, repeated as a wall: a grid of deletion events over May and June, thousands of them, each a page name and a time, stacked until they fill the panel.\n\n**Screen / system text:**\n`5,217 SUCCESSFUL ADMINISTRATOR DELETIONS. 5,144 DISTINCT PAGES. ONE LABEL.`\n\n**Caption:**\n&gt; THE MAINTAINER WAS NOT INVESTIGATING AN INCIDENT. THE MAINTAINER WAS CLEANING UP.\n\n**Provenance:** `documented` + `inferred` — counts from `manifest.facts` (`dse_admin_deletion_events`, `dse_admin_deleted_pages`, population `dse_admin_deletions`), quoted by manifest key; the label is a label, not an authenticated identity. \&quot;Cleaning up\&quot; is the agents&#x27; own description of the sweep on [page 108](108.md), adopted as the project&#x27;s reading, not the maintainer&#x27;s stated purpose.\n\n&quot;,
+    &quot;title&quot;: &quot;Dated deletion events accumulate across months&quot;
+  }
+}
+</metadata><rect width="1200" height="800" fill="#101214"/><rect x="156" y="130.48" width="348" height="431.52" fill="none" stroke="#5E737B" stroke-width="3"/><text x="164" y="154.48" fill="#5E737B" font-family="sans-serif" font-size="20">scatter</text><text x="330" y="586.8" text-anchor="middle" fill="#E7E0D0" font-size="20" font-family="sans-serif">DELETION EVENTS</text><rect x="78" y="610.72" width="420" height="62.64" fill="none" stroke="#5E737B" stroke-width="3"/><text x="86" y="634.72" fill="#5E737B" font-family="sans-serif" font-size="20">card</text><text x="288" y="698.16" text-anchor="middle" fill="#E7E0D0" font-size="20" font-family="sans-serif">MAY AND JUNE</text><rect x="3" y="3" width="1194" height="794" fill="none" stroke="#5E737B" stroke-width="4"/></svg>

@@ -3,7 +3,8 @@
 The first pass is local, deterministic SVG. Scene records let the editor or assistant
 change framing, silhouettes, props, and lettering space without calling an image model.
 Cloud generation is a later escalation for compositions that cannot be finished well
-enough locally. The pilot is a small set of representative panels, not whole-book coverage.
+enough locally. The scene set now covers every reader image slot. These are storyboard-stage placeholders,
+with richer candidates retained wherever they already exist.
 
 ## Inner loop
 
@@ -38,6 +39,13 @@ byte-identical for identical inputs; font rasterization can differ between brows
 - `lettering`: explicit normalized boxes for the fields the existing lettering convention
   cannot place, in their script order. Dialogue retains its speaker and mixed case and
   uses a provisional rectangular treatment. These are blocking positions, not final balloons.
+- `lettering_mode`: omit for the original slot convention, or use `manual` to place every
+  canonical field in script order. Each lettering box then corresponds to one field,
+  including captions and system text. A box may use `role: plain` and `max_size` for
+  unboxed title or ending text; ordinary dialogue keeps its speaker header.
+- `label_box`: optional node-level box for wrapped graphic labels; `label_size` caps its
+  font size. The checker measures fit and clearance from canonical lettering.
+- `border`: use `none` only for scripted borderless black fields.
 - `reconstructed`: broken outer border for reconstructed scenes. Internal scene/evidence
   boundaries can use the separate reconstructed-box asset.
 
@@ -81,11 +89,11 @@ this boundary instead of silently losing SVG artwork.
 For local or cloud refinement, preserve the clean board, source version, reference images,
 model revision, prompt, seed, dimensions, and control settings alongside the new output.
 Use reference-image or edge/depth/pose conditioning only where the chosen runner supports
-it. The current production runner remains prompt-based; this pilot does not add a cloud
+it. The current production runner remains prompt-based; this workflow does not add a cloud
 client or automatically submit references. Import richer results into the existing version
 store and compare them against the board before selecting them.
 
-The next expansion is broader scene coverage and assets based on what the pilot reveals.
+The next pass refines individual compositions and reusable assets based on visual review.
 Use 3D blocking only for shots whose perspective or posing is awkward in the 2D vocabulary.
 
 ## First run and outputs
@@ -95,9 +103,9 @@ Run from the repository root. For the existing scenes, this is the complete offl
 ```sh
 git --no-optional-locks status --short
 python3 scripts/storyboards.py generate
-python3 scripts/storyboards.py check
+python3 scripts/storyboards.py check --complete
 python3 scripts/build-site.py
-python3 scripts/storyboards.py check --built
+python3 scripts/storyboards.py check --complete --built
 python3 scripts/validate-viewer.py
 python3 scripts/pagelinks.py check --built
 python3 -m http.server 8000 --directory docs --bind 127.0.0.1
@@ -119,7 +127,7 @@ if binding is denied by the environment, use its normal permission mechanism.
 `generate` processes all scene records; it has no per-panel selector. It validates them
 before writing. Byte-identical existing boards are reused, even if that version has been
 rejected: generation does not reverse curation. Changing a used asset can affect several
-scenes; changing the palette or renderer metadata can create versions across the pilot.
+scenes; changing the palette or renderer metadata can create versions across the scene set.
 Layout boxes are a review mode, not automatically registered layout-stage variants.
 The builder does not generate missing stored storyboards; run `generate` first.
 
@@ -131,11 +139,11 @@ files; it never overwrites the immutable versions in the art store.
 
 ## Add a composition for an existing panel
 
-Choose an existing individually scripted panel from `storyboards.source_bodies()` and
-confirm it is also an image slot in `textimage.book_scripts()`. Some grouped script runs
-have fewer reader image slots than numbered panels. The initial scene tool does not
-expand grouped runs or automatically translate prose into geometry. Keep their text
-fallback until a composition is explicitly designed for the reader slot.
+Choose an existing reader slot from `storyboards.source_bodies()` and confirm it is also
+in `textimage.book_scripts()`. Grouped script runs occupy one reader slot containing the
+whole grid, not an independently generated image for every numbered cell. Their source
+snapshot includes the complete canonical grouped script, including provenance and notes. Compose the entire grid explicitly; the
+tool does not infer geometry or expand grouped runs.
 
 The following is a construction recipe, not a scene to apply unchanged. Replace `NNN-II`
 with the existing key, read its source, and design the nodes before writing. This adds a
@@ -316,7 +324,8 @@ same commit when committing the work. Coordinate Git writers as described in the
 | Old export files remain in standalone gallery | Use a fresh disposable output directory; the standalone command does not clean obsolete exports |
 | Board changes after renumbering | Identity tools move records/assets, but changed source snapshots may require a new generated version; run `generate`, checks, and rebuild |
 
-The tool checks existing scene coverage, not completeness of the book. It does not infer
+Use `check --complete` to require a scene for every current reader slot; ordinary `check`
+also supports partial scene sets during editing. It does not infer
 scenes, judge visual quality, implement drag editing or 3D posing, register layout-mode
 exports, rasterize SVG, or orchestrate cloud reference uploads. Those are explicit later
 extensions. Final lettering remains a separate craft pass; provisional rectangular

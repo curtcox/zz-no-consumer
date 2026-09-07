@@ -1,0 +1,133 @@
+{
+  "background": "ink",
+  "intent": "Block four publication preflight conditions are checked. Keep the scripted evidence boundary and lettering visible.",
+  "lettering": [
+    {
+      "box": [
+        0.045,
+        0.78,
+        0.91,
+        0.18
+      ]
+    }
+  ],
+  "lettering_mode": "manual",
+  "nodes": [
+    {
+      "asset": "outline-box",
+      "box": [
+        0.0722,
+        0.0674,
+        0.2668,
+        0.2688
+      ],
+      "color": "steel"
+    },
+    {
+      "asset": "card",
+      "box": [
+        0.1044,
+        0.0898,
+        0.2024,
+        0.1888
+      ],
+      "color": "steel",
+      "focus": true,
+      "label": "SOURCES LINKED",
+      "label_box": [
+        0.09640000000000001,
+        0.2846,
+        0.21839999999999998,
+        0.0756
+      ]
+    },
+    {
+      "asset": "outline-box",
+      "box": [
+        0.3712,
+        0.0674,
+        0.2668,
+        0.2688
+      ],
+      "color": "steel"
+    },
+    {
+      "asset": "card",
+      "box": [
+        0.4034,
+        0.0898,
+        0.2024,
+        0.1888
+      ],
+      "color": "steel",
+      "focus": true,
+      "label": "RECONSTRUCTIONS MARKED",
+      "label_box": [
+        0.3954,
+        0.2846,
+        0.21839999999999998,
+        0.085
+      ]
+    },
+    {
+      "asset": "outline-box",
+      "box": [
+        0.6702,
+        0.0674,
+        0.2668,
+        0.2688
+      ],
+      "color": "steel"
+    },
+    {
+      "asset": "card",
+      "box": [
+        0.7024,
+        0.0898,
+        0.2024,
+        0.1888
+      ],
+      "color": "steel",
+      "focus": true,
+      "label": "DISPUTES PRESERVED",
+      "label_box": [
+        0.6944,
+        0.2846,
+        0.21839999999999998,
+        0.085
+      ]
+    },
+    {
+      "asset": "outline-box",
+      "box": [
+        0.0722,
+        0.3682,
+        0.2668,
+        0.2688
+      ],
+      "color": "steel"
+    },
+    {
+      "asset": "card",
+      "box": [
+        0.1044,
+        0.3906,
+        0.2024,
+        0.1888
+      ],
+      "color": "steel",
+      "focus": true,
+      "label": "FUTURE INVENTED",
+      "label_box": [
+        0.09640000000000001,
+        0.5854,
+        0.21839999999999998,
+        0.085
+      ]
+    }
+  ],
+  "reconstructed": false,
+  "shot": "grid",
+  "source": "\n**Frame:** A preflight list is checked: `SOURCES LINKED`, `RECONSTRUCTIONS MARKED`, `DISPUTES PRESERVED`, `FUTURE INVENTED`.\n\n**Dialogue — CURT:**\n> The seams go with it.\n\n**Provenance:** `reconstructed` — truth-contract decision.\n\n",
+  "title": "Four publication preflight conditions are checked"
+}

@@ -1,0 +1,103 @@
+{
+  "background": "ink",
+  "intent": "Block absent messages precede an unmarked resumption. Keep the scripted evidence boundary and lettering visible.",
+  "lettering": [
+    {
+      "box": [
+        0.045,
+        0.78,
+        0.91,
+        0.18
+      ]
+    }
+  ],
+  "lettering_mode": "manual",
+  "nodes": [
+    {
+      "asset": "line",
+      "box": [
+        0.0768,
+        0.365,
+        0.8464,
+        0.016
+      ],
+      "color": "steel"
+    },
+    {
+      "asset": "card",
+      "box": [
+        0.086,
+        0.1794,
+        0.1633,
+        0.1408
+      ],
+      "color": "steel",
+      "focus": true,
+      "label": "TRANSCRIPT",
+      "label_box": [
+        0.07799999999999999,
+        0.32620000000000005,
+        0.17930000000000001,
+        0.030799999999999945
+      ]
+    },
+    {
+      "asset": "outline-box",
+      "box": [
+        0.293,
+        0.1794,
+        0.1633,
+        0.1408
+      ],
+      "color": "steel",
+      "focus": true,
+      "label": "SEVEN MESSAGES ABSENT",
+      "label_box": [
+        0.285,
+        0.32620000000000005,
+        0.17930000000000001,
+        0.030799999999999945
+      ]
+    },
+    {
+      "asset": "clock",
+      "box": [
+        0.5347166666666666,
+        0.1794,
+        0.09386666666666667,
+        0.1408
+      ],
+      "color": "steel",
+      "focus": true,
+      "label": "32 SECONDS",
+      "label_box": [
+        0.492,
+        0.32620000000000005,
+        0.17930000000000001,
+        0.030799999999999945
+      ]
+    },
+    {
+      "asset": "terminal",
+      "box": [
+        0.707,
+        0.1794,
+        0.1633,
+        0.1408
+      ],
+      "color": "steel",
+      "focus": true,
+      "label": "RESUMPTION",
+      "label_box": [
+        0.699,
+        0.32620000000000005,
+        0.17930000000000001,
+        0.030799999999999945
+      ]
+    }
+  ],
+  "reconstructed": false,
+  "shot": "timeline",
+  "source": "\n**Frame:** The transcript around the notice. Seven messages are not struck through or\ngreyed; they are absent, and the gap is drawn as a gap. Thirty-two seconds later a\nsuccessor resumes the task in progress, mid-sentence, with no mark anywhere indicating that\nsomething was removed.\n\n**Action:** The record loses a stretch of itself and the work continues over the hole.\n\n**Caption:**\n> THE STATE WAS ERASED. THE REASONS TO CONTINUE WERE NOT.\n\n**Provenance:** `documented` + `inferred` — `CI-REFUSAL`: seven retracted message\nidentifiers, none of them present in the stored transcript. The sentence is the project's,\nand it is a claim about this repository's record and about nothing else.\n\n",
+  "title": "Absent messages precede an unmarked resumption"
+}

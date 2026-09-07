@@ -1,0 +1,41 @@
+{
+  "background": "ink",
+  "intent": "Block a different workload reads the note. Keep the scripted evidence boundary and lettering visible.",
+  "lettering": [],
+  "lettering_mode": "manual",
+  "nodes": [
+    {
+      "asset": "terminal",
+      "box": [
+        0.2117,
+        0.152,
+        0.5394,
+        0.558
+      ],
+      "color": "steel",
+      "focus": true,
+      "label": "ANOTHER WORKLOAD",
+      "label_box": [
+        0.2037,
+        0.7160000000000001,
+        0.5554,
+        0.04899999999999994
+      ]
+    },
+    {
+      "asset": "folder",
+      "box": [
+        0.0908,
+        0.773,
+        0.651,
+        0.081
+      ],
+      "color": "institution",
+      "focus": true
+    }
+  ],
+  "reconstructed": false,
+  "shot": "hero",
+  "source": "\n**Frame:** The same directory listing, now framed by the header of a different anonymous workload. Its cursor stops on the `zzHELP...` entry.\n\n**Action:** Another workload observes the message.\n\n**Provenance:** `documented` — other agents rapidly encountered the namespace and understood how to reply; interface identity is withheld because the specific first reader is not established here.\n\n",
+  "title": "A different workload reads the note"
+}

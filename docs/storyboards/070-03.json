@@ -1,0 +1,92 @@
+{
+  "background": "ink",
+  "intent": "Block unreleased evidence remains unavailable for review. Keep the scripted evidence boundary and lettering visible.",
+  "lettering": [
+    {
+      "box": [
+        0.045,
+        0.7864,
+        0.91,
+        0.15839999999999999
+      ]
+    }
+  ],
+  "lettering_mode": "manual",
+  "nodes": [
+    {
+      "asset": "sealed",
+      "box": [
+        0.1872,
+        0.184656,
+        0.6072,
+        0.09461760000000001
+      ],
+      "color": "steel",
+      "focus": true,
+      "label": "LATER TRANSCRIPTS",
+      "label_box": [
+        0.1792,
+        0.2845536,
+        0.6232,
+        0.0748
+      ]
+    },
+    {
+      "asset": "sealed",
+      "box": [
+        0.1872,
+        0.347984,
+        0.6072,
+        0.09461760000000001
+      ],
+      "color": "steel",
+      "focus": true,
+      "label": "FULL ARTIFACT CHAIN",
+      "label_box": [
+        0.1792,
+        0.4478816,
+        0.6232,
+        0.0748
+      ]
+    },
+    {
+      "asset": "sealed",
+      "box": [
+        0.1872,
+        0.511312,
+        0.6072,
+        0.09461760000000001
+      ],
+      "color": "steel",
+      "focus": true,
+      "label": "IDENTITY AND CAUSALITY",
+      "label_box": [
+        0.1792,
+        0.6112096,
+        0.6232,
+        0.0748
+      ]
+    },
+    {
+      "asset": "line",
+      "box": [
+        0.05,
+        0.065,
+        0.9,
+        0.003
+      ],
+      "color": "steel",
+      "label": "OPENAI ACCOUNT — NOT IN METR'S REVIEW",
+      "label_box": [
+        0.05,
+        0.014,
+        0.9,
+        0.042
+      ]
+    }
+  ],
+  "reconstructed": false,
+  "shot": "stack",
+  "source": "\n**Frame:** Under `NOT PUBLICLY AVAILABLE FOR INDEPENDENT REVIEW`: later-run transcripts, full artifact chain, independent reconstruction of identities and causality.\n\n**Caption:**\n> THE SUPPORTING RECORD IS NOT EQUALLY AVAILABLE.\n\n**Provenance:** `documented` + `inferred` — METR lacked access; public-record limitation stated conservatively.\n\n",
+  "title": "Unreleased evidence remains unavailable for review"
+}

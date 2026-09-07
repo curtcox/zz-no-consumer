@@ -1,0 +1,111 @@
+{
+  "background": "ink",
+  "intent": "Block research effort moves to safeguards and evaluation work. Keep the scripted evidence boundary and lettering visible.",
+  "lettering": [
+    {
+      "box": [
+        0.045,
+        0.78,
+        0.91,
+        0.18
+      ]
+    }
+  ],
+  "lettering_mode": "manual",
+  "nodes": [
+    {
+      "asset": "aperture",
+      "box": [
+        0.1044,
+        0.28464346153846154,
+        0.117098,
+        0.13511307692307692
+      ],
+      "color": "steel",
+      "focus": true,
+      "label": "MONITORING",
+      "label_box": [
+        0.09640000000000001,
+        0.4862,
+        0.133098,
+        0.085
+      ]
+    },
+    {
+      "asset": "gate",
+      "box": [
+        0.26264,
+        0.2242,
+        0.117098,
+        0.256
+      ],
+      "color": "steel",
+      "focus": true,
+      "label": "ISOLATION",
+      "label_box": [
+        0.25464,
+        0.4862,
+        0.133098,
+        0.085
+      ]
+    },
+    {
+      "asset": "card",
+      "box": [
+        0.42088,
+        0.2242,
+        0.117098,
+        0.256
+      ],
+      "color": "steel",
+      "focus": true,
+      "label": "EVALUATION DESIGN",
+      "label_box": [
+        0.41287999999999997,
+        0.4862,
+        0.133098,
+        0.085
+      ]
+    },
+    {
+      "asset": "aperture",
+      "box": [
+        0.57912,
+        0.28464346153846154,
+        0.117098,
+        0.13511307692307692
+      ],
+      "color": "steel",
+      "focus": true,
+      "label": "GRADER",
+      "label_box": [
+        0.57112,
+        0.4862,
+        0.133098,
+        0.085
+      ]
+    },
+    {
+      "asset": "card",
+      "box": [
+        0.73736,
+        0.2242,
+        0.117098,
+        0.256
+      ],
+      "color": "steel",
+      "focus": true,
+      "label": "SAFE STOPPING",
+      "label_box": [
+        0.72936,
+        0.4862,
+        0.133098,
+        0.085
+      ]
+    }
+  ],
+  "reconstructed": false,
+  "shot": "row",
+  "source": "\n**Frame:** Researchers move from the darkened lane to monitoring, isolation, evaluation design, grader revision, and safe-stopping work.\n\n**Caption:**\n> THE PAUSE REDIRECTS WORK TOWARD SAFEGUARDS AND ASSESSMENT.\n\n**Provenance:** `documented` + visual `compressed`.\n\n",
+  "title": "Research effort moves to safeguards and evaluation work"
+}

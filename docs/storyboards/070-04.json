@@ -1,0 +1,92 @@
+{
+  "background": "ink",
+  "intent": "Block attribution occupies the space between false and verified. Keep the scripted evidence boundary and lettering visible.",
+  "lettering": [
+    {
+      "box": [
+        0.045,
+        0.7864,
+        0.91,
+        0.15839999999999999
+      ]
+    }
+  ],
+  "lettering_mode": "manual",
+  "nodes": [
+    {
+      "asset": "cross",
+      "box": [
+        0.11664816666666666,
+        0.297296,
+        0.1706666666666667,
+        0.22528000000000006
+      ],
+      "color": "shadow",
+      "focus": true,
+      "label": "FALSE",
+      "label_box": [
+        0.09640000000000001,
+        0.527856,
+        0.211163,
+        0.0748
+      ]
+    },
+    {
+      "asset": "card",
+      "box": [
+        0.368133,
+        0.297296,
+        0.195163,
+        0.22528
+      ],
+      "color": "steel",
+      "focus": true,
+      "label": "ATTRIBUTED CLAIM",
+      "label_box": [
+        0.360133,
+        0.527856,
+        0.211163,
+        0.0748
+      ]
+    },
+    {
+      "asset": "checkmark",
+      "box": [
+        0.6441151666666666,
+        0.297296,
+        0.1706666666666667,
+        0.22528000000000006
+      ],
+      "color": "shadow",
+      "focus": true,
+      "label": "VERIFIED",
+      "label_box": [
+        0.623867,
+        0.527856,
+        0.211163,
+        0.0748
+      ]
+    },
+    {
+      "asset": "line",
+      "box": [
+        0.05,
+        0.065,
+        0.9,
+        0.003
+      ],
+      "color": "steel",
+      "label": "OPENAI ACCOUNT — NOT IN METR'S REVIEW",
+      "label_box": [
+        0.05,
+        0.014,
+        0.9,
+        0.042
+      ]
+    }
+  ],
+  "reconstructed": false,
+  "shot": "row",
+  "source": "\n**Frame:** A confidence meter refuses to collapse into either `FALSE` or `VERIFIED`. It rests at `ATTRIBUTED CLAIM WITH PRIMARY DOCUMENTATION`.\n\n**Action:** Attribution replaces false certainty.\n\n**Caption:**\n> UNCERTAINTY IS NOT DISMISSAL.\n\n**Provenance:** `inferred` — documentary method.\n\n",
+  "title": "Attribution occupies the space between false and verified"
+}

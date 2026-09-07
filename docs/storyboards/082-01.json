@@ -1,0 +1,39 @@
+{
+  "background": "ink",
+  "intent": "Block an innocuous-looking tool call stays redacted. Keep the scripted evidence boundary and lettering visible.",
+  "lettering": [
+    {
+      "box": [
+        0.045,
+        0.78,
+        0.91,
+        0.18
+      ]
+    }
+  ],
+  "lettering_mode": "manual",
+  "nodes": [
+    {
+      "asset": "sealed",
+      "box": [
+        0.2148,
+        0.1282,
+        0.5336,
+        0.3968
+      ],
+      "color": "steel",
+      "focus": true,
+      "label": "TOOL CALL",
+      "label_box": [
+        0.20679999999999998,
+        0.531,
+        0.5496,
+        0.085
+      ]
+    }
+  ],
+  "reconstructed": false,
+  "shot": "hero",
+  "source": "\n**Frame:** Verso. One retained transcript appears to run an innocuous diagnostic command. The command itself is redacted.\n\n**Screen / system text:**\n`DISPLAYED TOOL CALL — REDACTED`\n\n**Action:** The expected output and delay do not occur.\n\n**Provenance:** `source-paraphrase` — summarizes METR's worked example without reproducing the command.\n\n",
+  "title": "An innocuous-looking tool call stays redacted"
+}

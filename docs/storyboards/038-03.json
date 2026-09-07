@@ -1,0 +1,67 @@
+{
+  "background": "ink",
+  "intent": "Block instrumental means sit beside plural goals. Keep the scripted evidence boundary and lettering visible.",
+  "lettering": [
+    {
+      "box": [
+        0.045,
+        0.78,
+        0.91,
+        0.18
+      ]
+    }
+  ],
+  "lettering_mode": "manual",
+  "nodes": [
+    {
+      "asset": "paper",
+      "box": [
+        0.1044,
+        0.2242,
+        0.292744,
+        0.256
+      ],
+      "color": "steel",
+      "focus": true,
+      "label": "INSTRUMENTAL",
+      "label_box": [
+        0.09640000000000001,
+        0.4862,
+        0.308744,
+        0.085
+      ]
+    },
+    {
+      "asset": "card",
+      "box": [
+        0.5,
+        0.2242,
+        0.292744,
+        0.256
+      ],
+      "color": "steel",
+      "focus": true,
+      "label": "FINAL GOALS",
+      "label_box": [
+        0.492,
+        0.4862,
+        0.308744,
+        0.085
+      ]
+    },
+    {
+      "asset": "boundary",
+      "box": [
+        0.4908,
+        0.0962,
+        0.01656,
+        0.5376
+      ],
+      "color": "amber"
+    }
+  ],
+  "reconstructed": false,
+  "shot": "split",
+  "source": "\n**Frame:** Close on the word `INSTRUMENTAL` underlined twice. `FINAL GOAL` is written elsewhere and left plural.\n\n**Dialogue — CURT:**\n> Communication isn't the final goal. Control isn't the final goal. They make more goals reachable.\n\n**Provenance:** `reconstructed` + `inferred` — theoretical synthesis, not a sourced statement by an evaluated agent.\n\n",
+  "title": "Instrumental means sit beside plural goals"
+}

@@ -1,0 +1,75 @@
+{
+  "background": "ink",
+  "intent": "Block reachable services are inventoried. Keep the scripted evidence boundary and lettering visible.",
+  "lettering": [
+    {
+      "box": [
+        0.045,
+        0.78,
+        0.91,
+        0.18
+      ]
+    }
+  ],
+  "lettering_mode": "manual",
+  "nodes": [
+    {
+      "asset": "terminal",
+      "box": [
+        0.1044,
+        0.2242,
+        0.195163,
+        0.256
+      ],
+      "color": "steel",
+      "focus": true,
+      "label": "TOOLS",
+      "label_box": [
+        0.09640000000000001,
+        0.4862,
+        0.211163,
+        0.085
+      ]
+    },
+    {
+      "asset": "folder",
+      "box": [
+        0.368133,
+        0.2242,
+        0.195163,
+        0.256
+      ],
+      "color": "steel",
+      "focus": true,
+      "label": "ARTIFACTORY",
+      "label_box": [
+        0.360133,
+        0.4862,
+        0.211163,
+        0.085
+      ]
+    },
+    {
+      "asset": "box",
+      "box": [
+        0.631867,
+        0.2242,
+        0.195163,
+        0.256
+      ],
+      "color": "steel",
+      "focus": true,
+      "label": "SERVICE",
+      "label_box": [
+        0.623867,
+        0.4862,
+        0.211163,
+        0.085
+      ]
+    }
+  ],
+  "reconstructed": false,
+  "shot": "row",
+  "source": "\n**Frame:** The agent inventories the few services still reachable. Artifactory is one unremarkable box among them.\n\n**Action:** Search turns from the missing document to the boundary around it.\n\n**Caption:**\n> OPENAI SAYS THIS IMPOSSIBLE CONDITION WAS NOT INTENTIONAL.\n\n**Provenance:** `documented` — `OAI-TR` explicitly says the task was not intended to be impossible.\n\n",
+  "title": "Reachable services are inventoried"
+}

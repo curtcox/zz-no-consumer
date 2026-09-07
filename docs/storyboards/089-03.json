@@ -1,0 +1,101 @@
+{
+  "background": "ink",
+  "intent": "Block complicating facts sit outside the chosen line. Keep the scripted evidence boundary and lettering visible.",
+  "lettering": [
+    {
+      "box": [
+        0.58,
+        0.04,
+        0.38,
+        0.31980000000000003
+      ]
+    },
+    {
+      "box": [
+        0.58,
+        0.3778,
+        0.38,
+        0.19740000000000002
+      ]
+    }
+  ],
+  "lettering_mode": "manual",
+  "nodes": [
+    {
+      "asset": "cross",
+      "box": [
+        0.07,
+        0.4079375,
+        0.07955,
+        0.11932499999999999
+      ],
+      "color": "steel",
+      "focus": true,
+      "label": "FAILED WORK",
+      "label_box": [
+        0.062000000000000006,
+        0.6476,
+        0.09555,
+        0.085
+      ]
+    },
+    {
+      "asset": "question",
+      "box": [
+        0.1775,
+        0.3758115384615385,
+        0.07955,
+        0.18357692307692305
+      ],
+      "color": "steel",
+      "focus": true,
+      "label": "AMBIGUOUS MOTIVES",
+      "label_box": [
+        0.16949999999999998,
+        0.6476,
+        0.09555,
+        0.085
+      ]
+    },
+    {
+      "asset": "cross",
+      "box": [
+        0.285,
+        0.4079375,
+        0.07955,
+        0.11932499999999999
+      ],
+      "color": "steel",
+      "focus": true,
+      "label": "REFUSALS",
+      "label_box": [
+        0.27699999999999997,
+        0.6476,
+        0.09555,
+        0.085
+      ]
+    },
+    {
+      "asset": "card",
+      "box": [
+        0.3925,
+        0.2936,
+        0.07955,
+        0.348
+      ],
+      "color": "steel",
+      "focus": true,
+      "label": "NEGATIVE FINDINGS",
+      "label_box": [
+        0.3845,
+        0.6476,
+        0.09555,
+        0.085
+      ]
+    }
+  ],
+  "reconstructed": false,
+  "shot": "row",
+  "source": "\n**Frame:** Outside the chosen line are less dramatic facts: failed workstreams, ambiguous motives, refused actions, negative findings, mundane infrastructure errors. The critique window from [page 039](039.md) is open at the edge of the desk, byline and date visible.\n\n**Action:** Material that complicates the thesis remains available.\n\n**Screen / system text — PUBLISHED CRITIQUE (PAGE 039, 3 SEPTEMBER 2026):**\n`TWENTY MILLION ENTRIES. CHOOSE THE ONES THAT TELL YOUR STORY.`\n\n`THE PEOPLE TELLING IT HAD REASONS TO MAKE THEMSELVES LOOK POWERFUL.`\n\n**Caption:**\n> SELECTION PRESSURE FAVORS THE INCIDENT'S MOST LEGIBLE PATTERNS.\n\n**Provenance:** `inferred` + `documented` — adaptation-level methodological observation. The critic's lines are `IOB-CIV`, attributed paraphrase of the post's claims that logs were cherry-picked from about twenty million entries and that OpenAI and METR had an incentive to look powerful and important. The post names those two institutions, not the creator.\n\n",
+  "title": "Complicating facts sit outside the chosen line"
+}

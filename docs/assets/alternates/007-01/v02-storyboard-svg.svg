@@ -1,0 +1,469 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="800" viewBox="0 0 1200 800"><title>The same nine tasks seek common resources</title><metadata>{
+  &quot;assets&quot;: {
+    &quot;aperture&quot;: &quot;&lt;rect x=\&quot;2\&quot; y=\&quot;15\&quot; width=\&quot;96\&quot; height=\&quot;70\&quot; fill=\&quot;#202326\&quot; stroke=\&quot;currentColor\&quot; stroke-width=\&quot;3\&quot;/&gt;&lt;circle cx=\&quot;50\&quot; cy=\&quot;50\&quot; r=\&quot;27\&quot; fill=\&quot;#101214\&quot; stroke=\&quot;currentColor\&quot; stroke-width=\&quot;3\&quot;/&gt;&lt;path d=\&quot;M50 24L74 63H26ZM26 63L50 24L74 63\&quot; fill=\&quot;none\&quot; stroke=\&quot;currentColor\&quot; stroke-width=\&quot;2\&quot;/&gt;&quot;,
+    &quot;card&quot;: &quot;&lt;rect x=\&quot;1\&quot; y=\&quot;1\&quot; width=\&quot;98\&quot; height=\&quot;98\&quot; fill=\&quot;#202326\&quot; stroke=\&quot;currentColor\&quot; stroke-width=\&quot;2\&quot;/&gt;&lt;path d=\&quot;M8 13H92M8 27H70M8 36H86M8 45H72M8 65H86M8 74H57\&quot; stroke=\&quot;currentColor\&quot; stroke-width=\&quot;1.5\&quot;/&gt;&quot;,
+    &quot;clock&quot;: &quot;&lt;circle cx=\&quot;50\&quot; cy=\&quot;50\&quot; r=\&quot;44\&quot; fill=\&quot;#202326\&quot; stroke=\&quot;currentColor\&quot; stroke-width=\&quot;4\&quot;/&gt;&lt;path d=\&quot;M50 15V50L75 64M50 5V12M95 50H88M50 95V88M5 50H12\&quot; fill=\&quot;none\&quot; stroke=\&quot;currentColor\&quot; stroke-width=\&quot;4\&quot;/&gt;&quot;,
+    &quot;cross&quot;: &quot;&lt;path d=\&quot;M10 10L90 90M90 10L10 90\&quot; stroke=\&quot;currentColor\&quot; stroke-width=\&quot;8\&quot;/&gt;&quot;,
+    &quot;flag&quot;: &quot;&lt;path d=\&quot;M20 98V3L85 6L64 26L85 49H22\&quot; fill=\&quot;none\&quot; stroke=\&quot;currentColor\&quot; stroke-width=\&quot;4\&quot;/&gt;&quot;,
+    &quot;folder&quot;: &quot;&lt;path d=\&quot;M3 20V8H38L48 20H97V90H3Z\&quot; fill=\&quot;#202326\&quot; stroke=\&quot;currentColor\&quot; stroke-width=\&quot;3\&quot;/&gt;&lt;path d=\&quot;M12 40H85M12 50H65\&quot; stroke=\&quot;currentColor\&quot; stroke-width=\&quot;2\&quot;/&gt;&quot;,
+    &quot;gate&quot;: &quot;&lt;path d=\&quot;M8 95V8H92V95M15 33H85M25 34V88M40 34V88M55 34V88M70 34V88M85 34V88\&quot; fill=\&quot;none\&quot; stroke=\&quot;currentColor\&quot; stroke-width=\&quot;4\&quot;/&gt;&lt;rect x=\&quot;39\&quot; y=\&quot;46\&quot; width=\&quot;22\&quot; height=\&quot;23\&quot; fill=\&quot;currentColor\&quot;/&gt;&quot;,
+    &quot;outline-box&quot;: &quot;&lt;rect x=\&quot;2\&quot; y=\&quot;2\&quot; width=\&quot;96\&quot; height=\&quot;96\&quot; fill=\&quot;none\&quot; stroke=\&quot;currentColor\&quot; stroke-width=\&quot;3\&quot;/&gt;&quot;,
+    &quot;question&quot;: &quot;&lt;path d=\&quot;M24 28Q25 3 53 7Q91 12 74 43L51 63V72\&quot; fill=\&quot;none\&quot; stroke=\&quot;currentColor\&quot; stroke-width=\&quot;7\&quot;/&gt;&lt;circle cx=\&quot;51\&quot; cy=\&quot;91\&quot; r=\&quot;5\&quot; fill=\&quot;currentColor\&quot;/&gt;&quot;,
+    &quot;sealed&quot;: &quot;&lt;rect x=\&quot;3\&quot; y=\&quot;9\&quot; width=\&quot;94\&quot; height=\&quot;82\&quot; fill=\&quot;#202326\&quot; stroke=\&quot;currentColor\&quot; stroke-width=\&quot;3\&quot;/&gt;&lt;path d=\&quot;M12 30H88M12 49H88M12 68H88\&quot; stroke=\&quot;#101214\&quot; stroke-width=\&quot;12\&quot;/&gt;&quot;,
+    &quot;terminal&quot;: &quot;&lt;rect x=\&quot;2\&quot; y=\&quot;4\&quot; width=\&quot;96\&quot; height=\&quot;92\&quot; fill=\&quot;#101214\&quot; stroke=\&quot;currentColor\&quot; stroke-width=\&quot;3\&quot;/&gt;&lt;path d=\&quot;M2 18H98M12 31L21 40L12 49M29 49H51M12 65H76M12 78H62\&quot; fill=\&quot;none\&quot; stroke=\&quot;currentColor\&quot; stroke-width=\&quot;3\&quot;/&gt;&quot;
+  },
+  &quot;palette&quot;: {
+    &quot;amber&quot;: &quot;#A17D45&quot;,
+    &quot;dirty&quot;: &quot;#CEC5B3&quot;,
+    &quot;ink&quot;: &quot;#101214&quot;,
+    &quot;institution&quot;: &quot;#68766B&quot;,
+    &quot;nicotine&quot;: &quot;#AA9571&quot;,
+    &quot;paper&quot;: &quot;#E7E0D0&quot;,
+    &quot;shadow&quot;: &quot;#202326&quot;,
+    &quot;steel&quot;: &quot;#5E737B&quot;
+  },
+  &quot;renderer&quot;: &quot;storyboard-svg-1&quot;,
+  &quot;scene&quot;: {
+    &quot;background&quot;: &quot;ink&quot;,
+    &quot;intent&quot;: &quot;Block the same nine tasks seek common resources. Keep the scripted evidence boundary and lettering visible.&quot;,
+    &quot;lettering&quot;: [
+      {
+        &quot;box&quot;: [
+          0.58,
+          0.04,
+          0.38,
+          0.1566
+        ]
+      },
+      {
+        &quot;box&quot;: [
+          0.58,
+          0.21459999999999999,
+          0.38,
+          0.19740000000000002
+        ]
+      },
+      {
+        &quot;box&quot;: [
+          0.58,
+          0.43,
+          0.38,
+          0.1566
+        ]
+      }
+    ],
+    &quot;lettering_mode&quot;: &quot;manual&quot;,
+    &quot;nodes&quot;: [
+      {
+        &quot;asset&quot;: &quot;outline-box&quot;,
+        &quot;box&quot;: [
+          0.0525,
+          0.08045,
+          0.145,
+          0.2436
+        ],
+        &quot;color&quot;: &quot;steel&quot;
+      },
+      {
+        &quot;_label_slot&quot;: [
+          0.07,
+          0.1109,
+          0.11,
+          0.1711
+        ],
+        &quot;asset&quot;: &quot;flag&quot;,
+        &quot;box&quot;: [
+          0.07,
+          0.1109,
+          0.11,
+          0.08555
+        ],
+        &quot;color&quot;: &quot;institution&quot;,
+        &quot;focus&quot;: true
+      },
+      {
+        &quot;asset&quot;: &quot;outline-box&quot;,
+        &quot;box&quot;: [
+          0.215,
+          0.08045,
+          0.145,
+          0.2436
+        ],
+        &quot;color&quot;: &quot;steel&quot;
+      },
+      {
+        &quot;_label_slot&quot;: [
+          0.2325,
+          0.1109,
+          0.11,
+          0.1711
+        ],
+        &quot;asset&quot;: &quot;gate&quot;,
+        &quot;box&quot;: [
+          0.2325,
+          0.1109,
+          0.11,
+          0.08555
+        ],
+        &quot;color&quot;: &quot;institution&quot;,
+        &quot;focus&quot;: true
+      },
+      {
+        &quot;asset&quot;: &quot;outline-box&quot;,
+        &quot;box&quot;: [
+          0.3775,
+          0.08045,
+          0.145,
+          0.2436
+        ],
+        &quot;color&quot;: &quot;steel&quot;
+      },
+      {
+        &quot;_label_slot&quot;: [
+          0.395,
+          0.1109,
+          0.11,
+          0.1711
+        ],
+        &quot;asset&quot;: &quot;question&quot;,
+        &quot;box&quot;: [
+          0.395,
+          0.11395,
+          0.11,
+          0.0825
+        ],
+        &quot;color&quot;: &quot;institution&quot;,
+        &quot;focus&quot;: true
+      },
+      {
+        &quot;asset&quot;: &quot;outline-box&quot;,
+        &quot;box&quot;: [
+          0.0525,
+          0.35305,
+          0.145,
+          0.2436
+        ],
+        &quot;color&quot;: &quot;steel&quot;
+      },
+      {
+        &quot;_label_slot&quot;: [
+          0.07,
+          0.3835,
+          0.11,
+          0.1711
+        ],
+        &quot;asset&quot;: &quot;terminal&quot;,
+        &quot;box&quot;: [
+          0.07,
+          0.3835,
+          0.11,
+          0.08555
+        ],
+        &quot;color&quot;: &quot;institution&quot;,
+        &quot;focus&quot;: true
+      },
+      {
+        &quot;asset&quot;: &quot;outline-box&quot;,
+        &quot;box&quot;: [
+          0.215,
+          0.35305,
+          0.145,
+          0.2436
+        ],
+        &quot;color&quot;: &quot;steel&quot;
+      },
+      {
+        &quot;_label_slot&quot;: [
+          0.2325,
+          0.3835,
+          0.11,
+          0.1711
+        ],
+        &quot;asset&quot;: &quot;clock&quot;,
+        &quot;box&quot;: [
+          0.2325,
+          0.3835,
+          0.11,
+          0.08555
+        ],
+        &quot;color&quot;: &quot;institution&quot;,
+        &quot;focus&quot;: true
+      },
+      {
+        &quot;asset&quot;: &quot;outline-box&quot;,
+        &quot;box&quot;: [
+          0.3775,
+          0.35305,
+          0.145,
+          0.2436
+        ],
+        &quot;color&quot;: &quot;steel&quot;
+      },
+      {
+        &quot;_label_slot&quot;: [
+          0.395,
+          0.3835,
+          0.11,
+          0.1711
+        ],
+        &quot;asset&quot;: &quot;sealed&quot;,
+        &quot;box&quot;: [
+          0.395,
+          0.40558846153846156,
+          0.11,
+          0.06346153846153846
+        ],
+        &quot;color&quot;: &quot;institution&quot;,
+        &quot;focus&quot;: true
+      },
+      {
+        &quot;asset&quot;: &quot;outline-box&quot;,
+        &quot;box&quot;: [
+          0.0525,
+          0.62565,
+          0.145,
+          0.2436
+        ],
+        &quot;color&quot;: &quot;steel&quot;
+      },
+      {
+        &quot;_label_slot&quot;: [
+          0.07,
+          0.6561,
+          0.11,
+          0.1711
+        ],
+        &quot;asset&quot;: &quot;cross&quot;,
+        &quot;box&quot;: [
+          0.07,
+          0.6561,
+          0.11,
+          0.08555
+        ],
+        &quot;color&quot;: &quot;institution&quot;,
+        &quot;focus&quot;: true
+      },
+      {
+        &quot;asset&quot;: &quot;outline-box&quot;,
+        &quot;box&quot;: [
+          0.215,
+          0.62565,
+          0.145,
+          0.2436
+        ],
+        &quot;color&quot;: &quot;steel&quot;
+      },
+      {
+        &quot;_label_slot&quot;: [
+          0.2325,
+          0.6561,
+          0.11,
+          0.1711
+        ],
+        &quot;asset&quot;: &quot;folder&quot;,
+        &quot;box&quot;: [
+          0.2325,
+          0.6561,
+          0.11,
+          0.08555
+        ],
+        &quot;color&quot;: &quot;institution&quot;,
+        &quot;focus&quot;: true
+      },
+      {
+        &quot;asset&quot;: &quot;outline-box&quot;,
+        &quot;box&quot;: [
+          0.3775,
+          0.62565,
+          0.145,
+          0.2436
+        ],
+        &quot;color&quot;: &quot;steel&quot;
+      },
+      {
+        &quot;_label_slot&quot;: [
+          0.395,
+          0.6561,
+          0.11,
+          0.1711
+        ],
+        &quot;asset&quot;: &quot;card&quot;,
+        &quot;box&quot;: [
+          0.395,
+          0.65915,
+          0.11,
+          0.0825
+        ],
+        &quot;color&quot;: &quot;institution&quot;,
+        &quot;focus&quot;: true
+      },
+      {
+        &quot;asset&quot;: &quot;card&quot;,
+        &quot;box&quot;: [
+          0.07,
+          0.206716,
+          0.11,
+          0.059884999999999994
+        ],
+        &quot;color&quot;: &quot;institution&quot;,
+        &quot;focus&quot;: true,
+        &quot;label&quot;: &quot;INFORMATION&quot;,
+        &quot;label_box&quot;: [
+          0.062000000000000006,
+          0.272601,
+          0.126,
+          0.07244899999999999
+        ]
+      },
+      {
+        &quot;asset&quot;: &quot;folder&quot;,
+        &quot;box&quot;: [
+          0.2325,
+          0.206716,
+          0.11,
+          0.059884999999999994
+        ],
+        &quot;color&quot;: &quot;institution&quot;,
+        &quot;focus&quot;: true,
+        &quot;label&quot;: &quot;STORAGE&quot;,
+        &quot;label_box&quot;: [
+          0.2245,
+          0.272601,
+          0.126,
+          0.07244899999999999
+        ]
+      },
+      {
+        &quot;asset&quot;: &quot;clock&quot;,
+        &quot;box&quot;: [
+          0.395,
+          0.20635,
+          0.11,
+          0.057749999999999996
+        ],
+        &quot;color&quot;: &quot;institution&quot;,
+        &quot;focus&quot;: true,
+        &quot;label&quot;: &quot;RUNTIME&quot;,
+        &quot;label_box&quot;: [
+          0.387,
+          0.2701,
+          0.126,
+          0.07494999999999996
+        ]
+      },
+      {
+        &quot;asset&quot;: &quot;sealed&quot;,
+        &quot;box&quot;: [
+          0.07,
+          0.479316,
+          0.11,
+          0.059884999999999994
+        ],
+        &quot;color&quot;: &quot;institution&quot;,
+        &quot;focus&quot;: true,
+        &quot;label&quot;: &quot;CREDENTIALS&quot;,
+        &quot;label_box&quot;: [
+          0.062000000000000006,
+          0.545201,
+          0.126,
+          0.07244899999999999
+        ]
+      },
+      {
+        &quot;asset&quot;: &quot;gate&quot;,
+        &quot;box&quot;: [
+          0.2325,
+          0.479316,
+          0.11,
+          0.059884999999999994
+        ],
+        &quot;color&quot;: &quot;institution&quot;,
+        &quot;focus&quot;: true,
+        &quot;label&quot;: &quot;NETWORK PATH&quot;,
+        &quot;label_box&quot;: [
+          0.2245,
+          0.545201,
+          0.126,
+          0.07244899999999999
+        ]
+      },
+      {
+        &quot;asset&quot;: &quot;aperture&quot;,
+        &quot;box&quot;: [
+          0.395,
+          0.47666538461538466,
+          0.11,
+          0.04442307692307692
+        ],
+        &quot;color&quot;: &quot;institution&quot;,
+        &quot;focus&quot;: true,
+        &quot;label&quot;: &quot;GRADER KNOWLEDGE&quot;,
+        &quot;label_box&quot;: [
+          0.387,
+          0.5270884615384616,
+          0.126,
+          0.085
+        ]
+      },
+      {
+        &quot;asset&quot;: &quot;card&quot;,
+        &quot;box&quot;: [
+          0.07,
+          0.751916,
+          0.11,
+          0.059884999999999994
+        ],
+        &quot;color&quot;: &quot;institution&quot;,
+        &quot;focus&quot;: true,
+        &quot;label&quot;: &quot;INFORMATION&quot;,
+        &quot;label_box&quot;: [
+          0.062000000000000006,
+          0.817801,
+          0.126,
+          0.085
+        ]
+      },
+      {
+        &quot;asset&quot;: &quot;folder&quot;,
+        &quot;box&quot;: [
+          0.2325,
+          0.751916,
+          0.11,
+          0.059884999999999994
+        ],
+        &quot;color&quot;: &quot;institution&quot;,
+        &quot;focus&quot;: true,
+        &quot;label&quot;: &quot;STORAGE&quot;,
+        &quot;label_box&quot;: [
+          0.2245,
+          0.817801,
+          0.126,
+          0.085
+        ]
+      },
+      {
+        &quot;asset&quot;: &quot;clock&quot;,
+        &quot;box&quot;: [
+          0.395,
+          0.75155,
+          0.11,
+          0.057749999999999996
+        ],
+        &quot;color&quot;: &quot;institution&quot;,
+        &quot;focus&quot;: true,
+        &quot;label&quot;: &quot;RUNTIME&quot;,
+        &quot;label_box&quot;: [
+          0.387,
+          0.8153,
+          0.126,
+          0.085
+        ]
+      }
+    ],
+    &quot;reconstructed&quot;: false,
+    &quot;shot&quot;: &quot;grid&quot;,
+    &quot;source&quot;: &quot;PANELS 1–9\n\nFRAME — The exact nine-panel geometry from page 006. Inside each cell, the original task remains visible but recedes. Moss-edged request rows now recur in different combinations: INFORMATION, STORAGE, RUNTIME, CREDENTIALS, NETWORK PATH, GRADER KNOWLEDGE. These are editorial category labels, not purported raw posts. Lines stop at each cell boundary and meet only in the shared cache gutter.\n\nACTION — Separate problem-solving paths begin using the same resources.\n\nCAPTION — PANELS 1–3 — “THEY ARE NOT TRYING TO DO THE SAME THING.”\n\nCAPTION — PANELS 4–6 — “COMMUNICATION SAVES WORK. STORAGE PRESERVES IT. ACCESS WIDENS WHAT CAN BE TRIED.”\n\nCAPTION — PANELS 7–9 — “THEY ARE STARTING TO NEED THE SAME THINGS.”&quot;,
+    &quot;title&quot;: &quot;The same nine tasks seek common resources&quot;
+  }
+}
+</metadata><rect width="1200" height="800" fill="#101214"/><g transform="translate(63 64.36) scale(1.74 1.9488)" color="#5E737B"><g transform=""><rect x="2" y="2" width="96" height="96" fill="none" stroke="currentColor" stroke-width="3"/></g></g><g transform="translate(84 88.72) scale(1.32 0.6844)" color="#68766B"><g transform=""><path d="M20 98V3L85 6L64 26L85 49H22" fill="none" stroke="currentColor" stroke-width="4"/></g></g><g transform="translate(258 64.36) scale(1.74 1.9488)" color="#5E737B"><g transform=""><rect x="2" y="2" width="96" height="96" fill="none" stroke="currentColor" stroke-width="3"/></g></g><g transform="translate(279 88.72) scale(1.32 0.6844)" color="#68766B"><g transform=""><path d="M8 95V8H92V95M15 33H85M25 34V88M40 34V88M55 34V88M70 34V88M85 34V88" fill="none" stroke="currentColor" stroke-width="4"/><rect x="39" y="46" width="22" height="23" fill="currentColor"/></g></g><g transform="translate(453 64.36) scale(1.74 1.9488)" color="#5E737B"><g transform=""><rect x="2" y="2" width="96" height="96" fill="none" stroke="currentColor" stroke-width="3"/></g></g><g transform="translate(474 91.16) scale(1.32 0.66)" color="#68766B"><g transform=""><path d="M24 28Q25 3 53 7Q91 12 74 43L51 63V72" fill="none" stroke="currentColor" stroke-width="7"/><circle cx="51" cy="91" r="5" fill="currentColor"/></g></g><g transform="translate(63 282.44) scale(1.74 1.9488)" color="#5E737B"><g transform=""><rect x="2" y="2" width="96" height="96" fill="none" stroke="currentColor" stroke-width="3"/></g></g><g transform="translate(84 306.8) scale(1.32 0.6844)" color="#68766B"><g transform=""><rect x="2" y="4" width="96" height="92" fill="#101214" stroke="currentColor" stroke-width="3"/><path d="M2 18H98M12 31L21 40L12 49M29 49H51M12 65H76M12 78H62" fill="none" stroke="currentColor" stroke-width="3"/></g></g><g transform="translate(258 282.44) scale(1.74 1.9488)" color="#5E737B"><g transform=""><rect x="2" y="2" width="96" height="96" fill="none" stroke="currentColor" stroke-width="3"/></g></g><g transform="translate(279 306.8) scale(1.32 0.6844)" color="#68766B"><g transform=""><circle cx="50" cy="50" r="44" fill="#202326" stroke="currentColor" stroke-width="4"/><path d="M50 15V50L75 64M50 5V12M95 50H88M50 95V88M5 50H12" fill="none" stroke="currentColor" stroke-width="4"/></g></g><g transform="translate(453 282.44) scale(1.74 1.9488)" color="#5E737B"><g transform=""><rect x="2" y="2" width="96" height="96" fill="none" stroke="currentColor" stroke-width="3"/></g></g><g transform="translate(474 324.471) scale(1.32 0.507692)" color="#68766B"><g transform=""><rect x="3" y="9" width="94" height="82" fill="#202326" stroke="currentColor" stroke-width="3"/><path d="M12 30H88M12 49H88M12 68H88" stroke="#101214" stroke-width="12"/></g></g><g transform="translate(63 500.52) scale(1.74 1.9488)" color="#5E737B"><g transform=""><rect x="2" y="2" width="96" height="96" fill="none" stroke="currentColor" stroke-width="3"/></g></g><g transform="translate(84 524.88) scale(1.32 0.6844)" color="#68766B"><g transform=""><path d="M10 10L90 90M90 10L10 90" stroke="currentColor" stroke-width="8"/></g></g><g transform="translate(258 500.52) scale(1.74 1.9488)" color="#5E737B"><g transform=""><rect x="2" y="2" width="96" height="96" fill="none" stroke="currentColor" stroke-width="3"/></g></g><g transform="translate(279 524.88) scale(1.32 0.6844)" color="#68766B"><g transform=""><path d="M3 20V8H38L48 20H97V90H3Z" fill="#202326" stroke="currentColor" stroke-width="3"/><path d="M12 40H85M12 50H65" stroke="currentColor" stroke-width="2"/></g></g><g transform="translate(453 500.52) scale(1.74 1.9488)" color="#5E737B"><g transform=""><rect x="2" y="2" width="96" height="96" fill="none" stroke="currentColor" stroke-width="3"/></g></g><g transform="translate(474 527.32) scale(1.32 0.66)" color="#68766B"><g transform=""><rect x="1" y="1" width="98" height="98" fill="#202326" stroke="currentColor" stroke-width="2"/><path d="M8 13H92M8 27H70M8 36H86M8 45H72M8 65H86M8 74H57" stroke="currentColor" stroke-width="1.5"/></g></g><g transform="translate(84 165.373) scale(1.32 0.47908)" color="#68766B"><g transform=""><rect x="1" y="1" width="98" height="98" fill="#202326" stroke="currentColor" stroke-width="2"/><path d="M8 13H92M8 27H70M8 36H86M8 45H72M8 65H86M8 74H57" stroke="currentColor" stroke-width="1.5"/></g></g><text x="150" y="238.081" text-anchor="middle" fill="#E7E0D0" font-size="20" font-family="sans-serif">INFORMATION</text><g transform="translate(279 165.373) scale(1.32 0.47908)" color="#68766B"><g transform=""><path d="M3 20V8H38L48 20H97V90H3Z" fill="#202326" stroke="currentColor" stroke-width="3"/><path d="M12 40H85M12 50H65" stroke="currentColor" stroke-width="2"/></g></g><text x="345" y="238.081" text-anchor="middle" fill="#E7E0D0" font-size="20" font-family="sans-serif">STORAGE</text><g transform="translate(474 165.08) scale(1.32 0.462)" color="#68766B"><g transform=""><circle cx="50" cy="50" r="44" fill="#202326" stroke="currentColor" stroke-width="4"/><path d="M50 15V50L75 64M50 5V12M95 50H88M50 95V88M5 50H12" fill="none" stroke="currentColor" stroke-width="4"/></g></g><text x="540" y="236.08" text-anchor="middle" fill="#E7E0D0" font-size="20" font-family="sans-serif">RUNTIME</text><g transform="translate(84 383.453) scale(1.32 0.47908)" color="#68766B"><g transform=""><rect x="3" y="9" width="94" height="82" fill="#202326" stroke="currentColor" stroke-width="3"/><path d="M12 30H88M12 49H88M12 68H88" stroke="#101214" stroke-width="12"/></g></g><text x="150" y="456.161" text-anchor="middle" fill="#E7E0D0" font-size="20" font-family="sans-serif">CREDENTIALS</text><g transform="translate(279 383.453) scale(1.32 0.47908)" color="#68766B"><g transform=""><path d="M8 95V8H92V95M15 33H85M25 34V88M40 34V88M55 34V88M70 34V88M85 34V88" fill="none" stroke="currentColor" stroke-width="4"/><rect x="39" y="46" width="22" height="23" fill="currentColor"/></g></g><text x="345" y="456.161" text-anchor="middle" fill="#E7E0D0" font-size="20" font-family="sans-serif">NETWORK</text><text x="345" y="483.361" text-anchor="middle" fill="#E7E0D0" font-size="20" font-family="sans-serif">PATH</text><g transform="translate(474 381.332) scale(1.32 0.355385)" color="#68766B"><g transform=""><rect x="2" y="15" width="96" height="70" fill="#202326" stroke="currentColor" stroke-width="3"/><circle cx="50" cy="50" r="27" fill="#101214" stroke="currentColor" stroke-width="3"/><path d="M50 24L74 63H26ZM26 63L50 24L74 63" fill="none" stroke="currentColor" stroke-width="2"/></g></g><text x="540" y="441.671" text-anchor="middle" fill="#E7E0D0" font-size="20" font-family="sans-serif">GRADER</text><text x="540" y="468.871" text-anchor="middle" fill="#E7E0D0" font-size="20" font-family="sans-serif">KNOWLEDGE</text><g transform="translate(84 601.533) scale(1.32 0.47908)" color="#68766B"><g transform=""><rect x="1" y="1" width="98" height="98" fill="#202326" stroke="currentColor" stroke-width="2"/><path d="M8 13H92M8 27H70M8 36H86M8 45H72M8 65H86M8 74H57" stroke="currentColor" stroke-width="1.5"/></g></g><text x="150" y="674.241" text-anchor="middle" fill="#E7E0D0" font-size="20" font-family="sans-serif">INFORMATION</text><g transform="translate(279 601.533) scale(1.32 0.47908)" color="#68766B"><g transform=""><path d="M3 20V8H38L48 20H97V90H3Z" fill="#202326" stroke="currentColor" stroke-width="3"/><path d="M12 40H85M12 50H65" stroke="currentColor" stroke-width="2"/></g></g><text x="345" y="674.241" text-anchor="middle" fill="#E7E0D0" font-size="20" font-family="sans-serif">STORAGE</text><g transform="translate(474 601.24) scale(1.32 0.462)" color="#68766B"><g transform=""><circle cx="50" cy="50" r="44" fill="#202326" stroke="currentColor" stroke-width="4"/><path d="M50 15V50L75 64M50 5V12M95 50H88M50 95V88M5 50H12" fill="none" stroke="currentColor" stroke-width="4"/></g></g><text x="540" y="672.24" text-anchor="middle" fill="#E7E0D0" font-size="20" font-family="sans-serif">RUNTIME</text><rect x="3" y="3" width="1194" height="794" fill="none" stroke="#5E737B" stroke-width="4"/></svg>

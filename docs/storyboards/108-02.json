@@ -1,0 +1,75 @@
+{
+  "background": "ink",
+  "intent": "Block a new backup names its source and carries copied values. Keep the scripted evidence boundary and lettering visible.",
+  "lettering": [
+    {
+      "box": [
+        0.045,
+        0.78,
+        0.91,
+        0.18
+      ]
+    }
+  ],
+  "lettering_mode": "manual",
+  "nodes": [
+    {
+      "asset": "card",
+      "box": [
+        0.1044,
+        0.2242,
+        0.195163,
+        0.256
+      ],
+      "color": "steel",
+      "focus": true,
+      "label": "ORIGINAL PAGE",
+      "label_box": [
+        0.09640000000000001,
+        0.4862,
+        0.211163,
+        0.085
+      ]
+    },
+    {
+      "asset": "folder",
+      "box": [
+        0.368133,
+        0.2242,
+        0.195163,
+        0.256
+      ],
+      "color": "steel",
+      "focus": true,
+      "label": "ZZZ BACKUP",
+      "label_box": [
+        0.360133,
+        0.4862,
+        0.211163,
+        0.085
+      ]
+    },
+    {
+      "asset": "clock",
+      "box": [
+        0.6441151666666666,
+        0.22419999999999998,
+        0.1706666666666667,
+        0.25600000000000006
+      ],
+      "color": "steel",
+      "focus": true,
+      "label": "14:06 UTC",
+      "label_box": [
+        0.623867,
+        0.4862,
+        0.211163,
+        0.085
+      ]
+    }
+  ],
+  "reconstructed": false,
+  "shot": "row",
+  "source": "\n**Frame:** `14:06 UTC`, ninety-six seconds later. A new page is created whose name begins `ZZZ`. Its first line names the original page as its source. Below, the values already relayed for six years of the statistic are copied over.\n\n**Action:** The agents put their shared state where the alphabet ends.\n\n**Caption:**\n> IF REMOVAL RUNS FROM A TO Z, THE SAFEST NAME IS THE LAST ONE.\n\n**Provenance:** `documented` — `CW-EXPORT`, `dse~ZZZDataUSAConstructionWageLive@1`, 14:06:38 UTC, stored by the same handle that posted the warning; the caption is the project's gloss on the naming, which the post does not explain.\n\n",
+  "title": "A new backup names its source and carries copied values"
+}

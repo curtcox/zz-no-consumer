@@ -1,0 +1,125 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="800" viewBox="0 0 1200 800"><title>A real dated slide enters the invented forum</title><metadata>{
+  &quot;assets&quot;: {
+    &quot;desk&quot;: &quot;&lt;path d=\&quot;M0 12L85 0L100 30L14 43Z\&quot; fill=\&quot;currentColor\&quot;/&gt;&lt;path d=\&quot;M14 43V100M94 31V90\&quot; stroke=\&quot;currentColor\&quot; stroke-width=\&quot;5\&quot;/&gt;&quot;,
+    &quot;monitor&quot;: &quot;&lt;path d=\&quot;M43 78V94H26V98H74V94H57V78\&quot; fill=\&quot;currentColor\&quot;/&gt;&lt;rect x=\&quot;1\&quot; y=\&quot;1\&quot; width=\&quot;98\&quot; height=\&quot;78\&quot; rx=\&quot;3\&quot; fill=\&quot;#101214\&quot; stroke=\&quot;currentColor\&quot; stroke-width=\&quot;3\&quot;/&gt;&lt;rect x=\&quot;7\&quot; y=\&quot;8\&quot; width=\&quot;86\&quot; height=\&quot;61\&quot; fill=\&quot;#202326\&quot;/&gt;&lt;path d=\&quot;M12 17H68M12 25H86M12 33H73M12 41H57\&quot; stroke=\&quot;currentColor\&quot; stroke-width=\&quot;1\&quot;/&gt;&quot;,
+    &quot;person-seated&quot;: &quot;&lt;ellipse cx=\&quot;47\&quot; cy=\&quot;14\&quot; rx=\&quot;15\&quot; ry=\&quot;13\&quot; fill=\&quot;currentColor\&quot;/&gt;&lt;path d=\&quot;M35 28Q60 22 69 49L89 54L87 62L61 58L52 44L56 65L79 68L88 98H77L66 80H35Q25 77 27 62Z\&quot; fill=\&quot;currentColor\&quot;/&gt;&lt;path d=\&quot;M17 37V80H58M20 80V100M55 80V100\&quot; fill=\&quot;none\&quot; stroke=\&quot;currentColor\&quot; stroke-width=\&quot;3\&quot;/&gt;&quot;,
+    &quot;person-standing&quot;: &quot;&lt;circle cx=\&quot;50\&quot; cy=\&quot;14\&quot; r=\&quot;12\&quot; fill=\&quot;currentColor\&quot;/&gt;&lt;path d=\&quot;M35 30H65L75 65H63L61 98H51L49 70L47 98H36L36 65H24Z\&quot; fill=\&quot;currentColor\&quot;/&gt;&quot;,
+    &quot;room&quot;: &quot;&lt;path d=\&quot;M0 0H100V100H0Z M0 0L28 30H72L100 0 M28 30V72L0 100 M72 30V72L100 100 M28 72H72\&quot; fill=\&quot;none\&quot; stroke=\&quot;currentColor\&quot; stroke-width=\&quot;1\&quot;/&gt;&quot;
+  },
+  &quot;palette&quot;: {
+    &quot;amber&quot;: &quot;#A17D45&quot;,
+    &quot;dirty&quot;: &quot;#CEC5B3&quot;,
+    &quot;ink&quot;: &quot;#101214&quot;,
+    &quot;institution&quot;: &quot;#68766B&quot;,
+    &quot;nicotine&quot;: &quot;#AA9571&quot;,
+    &quot;paper&quot;: &quot;#E7E0D0&quot;,
+    &quot;shadow&quot;: &quot;#202326&quot;,
+    &quot;steel&quot;: &quot;#5E737B&quot;
+  },
+  &quot;renderer&quot;: &quot;storyboard-svg-1&quot;,
+  &quot;scene&quot;: {
+    &quot;background&quot;: &quot;ink&quot;,
+    &quot;intent&quot;: &quot;Block a real dated slide enters the invented forum. Keep the scripted evidence boundary and lettering visible.&quot;,
+    &quot;lettering&quot;: [
+      {
+        &quot;box&quot;: [
+          0.58,
+          0.04,
+          0.38,
+          0.19740000000000002
+        ]
+      },
+      {
+        &quot;box&quot;: [
+          0.58,
+          0.2554,
+          0.38,
+          0.2382
+        ]
+      }
+    ],
+    &quot;lettering_mode&quot;: &quot;manual&quot;,
+    &quot;nodes&quot;: [
+      {
+        &quot;asset&quot;: &quot;room&quot;,
+        &quot;box&quot;: [
+          0.04,
+          0.0587,
+          0.49,
+          0.8526
+        ],
+        &quot;color&quot;: &quot;shadow&quot;
+      },
+      {
+        &quot;asset&quot;: &quot;desk&quot;,
+        &quot;box&quot;: [
+          0.12,
+          0.6068,
+          0.39,
+          0.2697
+        ],
+        &quot;color&quot;: &quot;institution&quot;
+      },
+      {
+        &quot;asset&quot;: &quot;person-seated&quot;,
+        &quot;box&quot;: [
+          0.055,
+          0.2675,
+          0.13,
+          0.609
+        ],
+        &quot;color&quot;: &quot;dirty&quot;
+      },
+      {
+        &quot;asset&quot;: &quot;person-seated&quot;,
+        &quot;box&quot;: [
+          0.395,
+          0.2675,
+          0.13,
+          0.609
+        ],
+        &quot;color&quot;: &quot;dirty&quot;,
+        &quot;flip&quot;: true
+      },
+      {
+        &quot;asset&quot;: &quot;monitor&quot;,
+        &quot;box&quot;: [
+          0.07,
+          0.3545,
+          0.106067,
+          0.1914
+        ],
+        &quot;color&quot;: &quot;steel&quot;,
+        &quot;focus&quot;: true,
+        &quot;label&quot;: &quot;CONFERENCE SLIDE&quot;
+      },
+      {
+        &quot;asset&quot;: &quot;person-standing&quot;,
+        &quot;box&quot;: [
+          0.213333,
+          0.3545,
+          0.106067,
+          0.1914
+        ],
+        &quot;color&quot;: &quot;dirty&quot;,
+        &quot;focus&quot;: true
+      },
+      {
+        &quot;asset&quot;: &quot;person-standing&quot;,
+        &quot;box&quot;: [
+          0.356667,
+          0.3545,
+          0.106067,
+          0.1914
+        ],
+        &quot;color&quot;: &quot;dirty&quot;,
+        &quot;focus&quot;: true
+      }
+    ],
+    &quot;reconstructed&quot;: false,
+    &quot;shot&quot;: &quot;meeting&quot;,
+    &quot;source&quot;: &quot;\n**Frame:** The chair&#x27;s packet is set aside. Instead, a screen lowers into the invented room carrying a real, dated artifact: a conference slide, two speakers at a lectern rendered as unidentifiable silhouettes, and a citation line legible at reading size.\n\n**Screen / system text:**\n`BLACK HAT USA — 5 AUGUST 2026 — OPENAI, ALIGNMENT AND SECURITY`\n\n**Dialogue — CHAIR:**\n&gt; The strongest case for continuing was made in public, three weeks after the incident. We will read it rather than imagine it.\n\n**Provenance:** dialogue `invented`; the cited talk, date, and speakers&#x27; roles are `documented` — `OAI-BH`. No real person&#x27;s likeness, name, or voice appears.\n\n&quot;,
+    &quot;title&quot;: &quot;A real dated slide enters the invented forum&quot;
+  }
+}
+</metadata><rect width="1200" height="800" fill="#101214"/><g transform="translate(48 46.96) scale(5.88 6.8208)" color="#202326"><g transform=""><path d="M0 0H100V100H0Z M0 0L28 30H72L100 0 M28 30V72L0 100 M72 30V72L100 100 M28 72H72" fill="none" stroke="currentColor" stroke-width="1"/></g></g><g transform="translate(144 485.44) scale(4.68 2.1576)" color="#68766B"><g transform=""><path d="M0 12L85 0L100 30L14 43Z" fill="currentColor"/><path d="M14 43V100M94 31V90" stroke="currentColor" stroke-width="5"/></g></g><g transform="translate(66 214) scale(1.56 4.872)" color="#CEC5B3"><g transform=""><ellipse cx="47" cy="14" rx="15" ry="13" fill="currentColor"/><path d="M35 28Q60 22 69 49L89 54L87 62L61 58L52 44L56 65L79 68L88 98H77L66 80H35Q25 77 27 62Z" fill="currentColor"/><path d="M17 37V80H58M20 80V100M55 80V100" fill="none" stroke="currentColor" stroke-width="3"/></g></g><g transform="translate(474 214) scale(1.56 4.872)" color="#CEC5B3"><g transform="translate(100 0) scale(-1 1)"><ellipse cx="47" cy="14" rx="15" ry="13" fill="currentColor"/><path d="M35 28Q60 22 69 49L89 54L87 62L61 58L52 44L56 65L79 68L88 98H77L66 80H35Q25 77 27 62Z" fill="currentColor"/><path d="M17 37V80H58M20 80V100M55 80V100" fill="none" stroke="currentColor" stroke-width="3"/></g></g><g transform="translate(84 283.6) scale(1.2728 1.5312)" color="#5E737B"><g transform=""><path d="M43 78V94H26V98H74V94H57V78" fill="currentColor"/><rect x="1" y="1" width="98" height="78" rx="3" fill="#101214" stroke="currentColor" stroke-width="3"/><rect x="7" y="8" width="86" height="61" fill="#202326"/><path d="M12 17H68M12 25H86M12 33H73M12 41H57" stroke="currentColor" stroke-width="1"/></g></g><text x="147.64" y="460.72" text-anchor="middle" fill="#E7E0D0" font-size="20" font-family="monospace">CONFERENCE SLIDE</text><g transform="translate(256 283.6) scale(1.2728 1.5312)" color="#CEC5B3"><g transform=""><circle cx="50" cy="14" r="12" fill="currentColor"/><path d="M35 30H65L75 65H63L61 98H51L49 70L47 98H36L36 65H24Z" fill="currentColor"/></g></g><g transform="translate(428 283.6) scale(1.2728 1.5312)" color="#CEC5B3"><g transform=""><circle cx="50" cy="14" r="12" fill="currentColor"/><path d="M35 30H65L75 65H63L61 98H51L49 70L47 98H36L36 65H24Z" fill="currentColor"/></g></g><rect x="3" y="3" width="1194" height="794" fill="none" stroke="#5E737B" stroke-width="4"/></svg>

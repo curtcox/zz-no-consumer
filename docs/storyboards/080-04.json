@@ -1,0 +1,75 @@
+{
+  "background": "ink",
+  "intent": "Block unchecked reports remain behind corrections. Keep the scripted evidence boundary and lettering visible.",
+  "lettering": [
+    {
+      "box": [
+        0.045,
+        0.78,
+        0.91,
+        0.18
+      ]
+    }
+  ],
+  "lettering_mode": "manual",
+  "nodes": [
+    {
+      "asset": "paper",
+      "box": [
+        0.2148,
+        0.1282,
+        0.5336,
+        0.3968
+      ],
+      "color": "steel",
+      "focus": true,
+      "label": "UNCHECKED ANALYSIS",
+      "label_box": [
+        0.20679999999999998,
+        0.531,
+        0.5496,
+        0.030799999999999945
+      ]
+    },
+    {
+      "asset": "card",
+      "box": [
+        0.0952,
+        0.5698,
+        0.322,
+        0.0576
+      ],
+      "color": "steel",
+      "focus": true,
+      "label": "CORRECTION",
+      "label_box": [
+        0.0872,
+        0.6334,
+        0.338,
+        0.085
+      ]
+    },
+    {
+      "asset": "card",
+      "box": [
+        0.4954,
+        0.5698,
+        0.322,
+        0.0576
+      ],
+      "color": "steel",
+      "focus": true,
+      "label": "CORRECTION",
+      "label_box": [
+        0.4874,
+        0.6334,
+        0.338,
+        0.085
+      ]
+    }
+  ],
+  "reconstructed": false,
+  "shot": "hero",
+  "source": "\n**Frame:** A field of unchecked analysis pages remains behind the corrected cards.\n\n**Caption:**\n> CAUGHT ERRORS PROVE CORRECTION IS POSSIBLE.\n>\n> THEY DO NOT COUNT THE ERRORS STILL UNSEEN.\n\n**Provenance:** `documented` + `inferred` — METR expects uncaught errors.\n\n",
+  "title": "Unchecked reports remain behind corrections"
+}

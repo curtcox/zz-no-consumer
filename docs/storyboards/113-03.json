@@ -1,0 +1,68 @@
+{
+  "background": "ink",
+  "intent": "Block the false publish-versus-silence balance breaks. Keep the scripted evidence boundary and lettering visible.",
+  "lettering": [
+    {
+      "box": [
+        0.045,
+        0.78,
+        0.91,
+        0.18
+      ]
+    }
+  ],
+  "lettering_mode": "manual",
+  "nodes": [
+    {
+      "asset": "card",
+      "box": [
+        0.1044,
+        0.2242,
+        0.195163,
+        0.256
+      ],
+      "color": "steel",
+      "focus": true,
+      "label": "PUBLISH = DANGER",
+      "label_box": [
+        0.09640000000000001,
+        0.4862,
+        0.211163,
+        0.085
+      ]
+    },
+    {
+      "asset": "cross",
+      "box": [
+        0.38038116666666666,
+        0.22419999999999998,
+        0.1706666666666667,
+        0.25600000000000006
+      ],
+      "color": "amber",
+      "focus": true
+    },
+    {
+      "asset": "card",
+      "box": [
+        0.631867,
+        0.2242,
+        0.195163,
+        0.256
+      ],
+      "color": "steel",
+      "focus": true,
+      "label": "SILENCE = SAFETY",
+      "label_box": [
+        0.623867,
+        0.4862,
+        0.211163,
+        0.085
+      ]
+    }
+  ],
+  "reconstructed": false,
+  "shot": "row",
+  "source": "\n**Frame:** A false balance labeled `PUBLISH = DANGER / SILENCE = SAFETY` cracks through the center.\n\n**Dialogue — CURT:**\n> Silence can protect a system. It can also protect the institution that failed.\n\n**Provenance:** `reconstructed` + `inferred` — accountability argument.\n\n",
+  "title": "The false publish-versus-silence balance breaks"
+}

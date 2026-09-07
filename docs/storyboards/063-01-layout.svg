@@ -1,0 +1,119 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="800" viewBox="0 0 1200 800"><title>The reconstructed classifier sweep examines transcripts</title><metadata>{
+  &quot;assets&quot;: {
+    &quot;card&quot;: &quot;&lt;rect x=\&quot;1\&quot; y=\&quot;1\&quot; width=\&quot;98\&quot; height=\&quot;98\&quot; fill=\&quot;#202326\&quot; stroke=\&quot;currentColor\&quot; stroke-width=\&quot;2\&quot;/&gt;&lt;path d=\&quot;M8 13H92M8 27H70M8 36H86M8 45H72M8 65H86M8 74H57\&quot; stroke=\&quot;currentColor\&quot; stroke-width=\&quot;1.5\&quot;/&gt;&quot;,
+    &quot;cup&quot;: &quot;&lt;path d=\&quot;M10 8H70V85Q40 100 10 85Z\&quot; fill=\&quot;#101214\&quot; stroke=\&quot;currentColor\&quot; stroke-width=\&quot;4\&quot;/&gt;&lt;path d=\&quot;M70 22Q110 20 90 58H70M14 50H67\&quot; fill=\&quot;none\&quot; stroke=\&quot;currentColor\&quot; stroke-width=\&quot;4\&quot;/&gt;&quot;,
+    &quot;desk&quot;: &quot;&lt;path d=\&quot;M0 12L85 0L100 30L14 43Z\&quot; fill=\&quot;currentColor\&quot;/&gt;&lt;path d=\&quot;M14 43V100M94 31V90\&quot; stroke=\&quot;currentColor\&quot; stroke-width=\&quot;5\&quot;/&gt;&quot;,
+    &quot;monitor&quot;: &quot;&lt;path d=\&quot;M43 78V94H26V98H74V94H57V78\&quot; fill=\&quot;currentColor\&quot;/&gt;&lt;rect x=\&quot;1\&quot; y=\&quot;1\&quot; width=\&quot;98\&quot; height=\&quot;78\&quot; rx=\&quot;3\&quot; fill=\&quot;#101214\&quot; stroke=\&quot;currentColor\&quot; stroke-width=\&quot;3\&quot;/&gt;&lt;rect x=\&quot;7\&quot; y=\&quot;8\&quot; width=\&quot;86\&quot; height=\&quot;61\&quot; fill=\&quot;#202326\&quot;/&gt;&lt;path d=\&quot;M12 17H68M12 25H86M12 33H73M12 41H57\&quot; stroke=\&quot;currentColor\&quot; stroke-width=\&quot;1\&quot;/&gt;&quot;,
+    &quot;person-seated&quot;: &quot;&lt;ellipse cx=\&quot;47\&quot; cy=\&quot;14\&quot; rx=\&quot;15\&quot; ry=\&quot;13\&quot; fill=\&quot;currentColor\&quot;/&gt;&lt;path d=\&quot;M35 28Q60 22 69 49L89 54L87 62L61 58L52 44L56 65L79 68L88 98H77L66 80H35Q25 77 27 62Z\&quot; fill=\&quot;currentColor\&quot;/&gt;&lt;path d=\&quot;M17 37V80H58M20 80V100M55 80V100\&quot; fill=\&quot;none\&quot; stroke=\&quot;currentColor\&quot; stroke-width=\&quot;3\&quot;/&gt;&quot;,
+    &quot;room&quot;: &quot;&lt;path d=\&quot;M0 0H100V100H0Z M0 0L28 30H72L100 0 M28 30V72L0 100 M72 30V72L100 100 M28 72H72\&quot; fill=\&quot;none\&quot; stroke=\&quot;currentColor\&quot; stroke-width=\&quot;1\&quot;/&gt;&quot;
+  },
+  &quot;palette&quot;: {
+    &quot;amber&quot;: &quot;#A17D45&quot;,
+    &quot;dirty&quot;: &quot;#CEC5B3&quot;,
+    &quot;ink&quot;: &quot;#101214&quot;,
+    &quot;institution&quot;: &quot;#68766B&quot;,
+    &quot;nicotine&quot;: &quot;#AA9571&quot;,
+    &quot;paper&quot;: &quot;#E7E0D0&quot;,
+    &quot;shadow&quot;: &quot;#202326&quot;,
+    &quot;steel&quot;: &quot;#5E737B&quot;
+  },
+  &quot;renderer&quot;: &quot;storyboard-svg-1&quot;,
+  &quot;scene&quot;: {
+    &quot;background&quot;: &quot;ink&quot;,
+    &quot;intent&quot;: &quot;Block the reconstructed classifier sweep examines transcripts. Keep the scripted evidence boundary and lettering visible.&quot;,
+    &quot;lettering&quot;: [
+      {
+        &quot;box&quot;: [
+          0.045,
+          0.78,
+          0.91,
+          0.18
+        ]
+      }
+    ],
+    &quot;lettering_mode&quot;: &quot;manual&quot;,
+    &quot;nodes&quot;: [
+      {
+        &quot;asset&quot;: &quot;room&quot;,
+        &quot;box&quot;: [
+          0.0492,
+          0.0514,
+          0.9016,
+          0.6272
+        ],
+        &quot;color&quot;: &quot;shadow&quot;
+      },
+      {
+        &quot;asset&quot;: &quot;desk&quot;,
+        &quot;box&quot;: [
+          0.1964,
+          0.4546,
+          0.7176,
+          0.1984
+        ],
+        &quot;color&quot;: &quot;nicotine&quot;
+      },
+      {
+        &quot;asset&quot;: &quot;person-seated&quot;,
+        &quot;box&quot;: [
+          0.09933333333333332,
+          0.20499999999999996,
+          0.19413333333333335,
+          0.44800000000000006
+        ],
+        &quot;color&quot;: &quot;dirty&quot;
+      },
+      {
+        &quot;asset&quot;: &quot;monitor&quot;,
+        &quot;box&quot;: [
+          0.3528,
+          0.205,
+          0.23,
+          0.2176
+        ],
+        &quot;color&quot;: &quot;steel&quot;,
+        &quot;focus&quot;: true,
+        &quot;label&quot;: &quot;TRANSCRIPT SWEEPS&quot;,
+        &quot;label_box&quot;: [
+          0.3448,
+          0.4286,
+          0.246,
+          0.025
+        ]
+      },
+      {
+        &quot;asset&quot;: &quot;card&quot;,
+        &quot;box&quot;: [
+          0.6242,
+          0.205,
+          0.23,
+          0.2176
+        ],
+        &quot;color&quot;: &quot;steel&quot;,
+        &quot;focus&quot;: true,
+        &quot;label&quot;: &quot;RECONSTRUCTION&quot;,
+        &quot;label_box&quot;: [
+          0.6162,
+          0.4286,
+          0.246,
+          0.025
+        ]
+      },
+      {
+        &quot;asset&quot;: &quot;cup&quot;,
+        &quot;box&quot;: [
+          0.8128,
+          0.4482,
+          0.0644,
+          0.0896
+        ],
+        &quot;color&quot;: &quot;nicotine&quot;
+      }
+    ],
+    &quot;reconstructed&quot;: true,
+    &quot;shot&quot;: &quot;office&quot;,
+    &quot;source&quot;: &quot;\n**Frame:** Recto. Reconstructed METR analysis workspace. Roughly 1,300 transcript lanes pass through twelve classifier sweeps. The interface is visibly labeled `RECONSTRUCTION`.\n\n**Action:** One sweep searches for attempts to warn humans about cheating, hacking, or unsanctioned agent activity.\n\n**Caption:**\n&gt; METR SEARCHED ITS REVIEWED TRANSCRIPT DATASET.\n\n**Provenance:** `documented` + `reconstructed` — scope and method from METR; interface invented.\n\n&quot;,
+    &quot;title&quot;: &quot;The reconstructed classifier sweep examines transcripts&quot;
+  }
+}
+</metadata><rect width="1200" height="800" fill="#101214"/><rect x="59.04" y="41.12" width="1081.92" height="501.76" fill="none" stroke="#202326" stroke-width="3"/><text x="67.04" y="65.12" fill="#202326" font-family="sans-serif" font-size="20">room</text><rect x="235.68" y="363.68" width="861.12" height="158.72" fill="none" stroke="#AA9571" stroke-width="3"/><text x="243.68" y="387.68" fill="#AA9571" font-family="sans-serif" font-size="20">desk</text><rect x="119.2" y="164" width="232.96" height="358.4" fill="none" stroke="#CEC5B3" stroke-width="3"/><text x="127.2" y="188" fill="#CEC5B3" font-family="sans-serif" font-size="20">person-seated</text><rect x="423.36" y="164" width="276" height="174.08" fill="none" stroke="#5E737B" stroke-width="3"/><text x="431.36" y="188" fill="#5E737B" font-family="sans-serif" font-size="20">monitor</text><text x="561.36" y="357.38" text-anchor="middle" fill="#E7E0D0" font-size="14.5" font-family="sans-serif">TRANSCRIPT SWEEPS</text><rect x="749.04" y="164" width="276" height="174.08" fill="none" stroke="#5E737B" stroke-width="3"/><text x="757.04" y="188" fill="#5E737B" font-family="sans-serif" font-size="20">card</text><text x="887.04" y="357.38" text-anchor="middle" fill="#E7E0D0" font-size="14.5" font-family="sans-serif">RECONSTRUCTION</text><rect x="975.36" y="358.56" width="77.28" height="71.68" fill="none" stroke="#AA9571" stroke-width="3"/><text x="983.36" y="382.56" fill="#AA9571" font-family="sans-serif" font-size="20">cup</text><rect x="3" y="3" width="1194" height="794" fill="none" stroke="#5E737B" stroke-width="4" stroke-dasharray="18 10"/></svg>

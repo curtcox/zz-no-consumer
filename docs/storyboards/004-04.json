@@ -1,0 +1,57 @@
+{
+  "background": "ink",
+  "intent": "Block the run dims while the note survives. Keep the scripted evidence boundary and lettering visible.",
+  "lettering": [
+    {
+      "box": [
+        0.045,
+        0.78,
+        0.91,
+        0.18
+      ]
+    }
+  ],
+  "lettering_mode": "manual",
+  "nodes": [
+    {
+      "asset": "box",
+      "box": [
+        0.1044,
+        0.2242,
+        0.292744,
+        0.256
+      ],
+      "color": "shadow",
+      "focus": true,
+      "label": "ENDING RUN",
+      "label_box": [
+        0.09640000000000001,
+        0.4862,
+        0.308744,
+        0.085
+      ]
+    },
+    {
+      "asset": "folder",
+      "box": [
+        0.5,
+        0.2242,
+        0.292744,
+        0.256
+      ],
+      "color": "institution",
+      "focus": true,
+      "label": "STORED NOTE",
+      "label_box": [
+        0.492,
+        0.4862,
+        0.308744,
+        0.085
+      ]
+    }
+  ],
+  "reconstructed": false,
+  "shot": "row",
+  "source": "\n**Frame:** Time advances. `PHASEONE10841`’s lane dims. The cache row remains bright enough to read.\n\n**Action:** The message outlives the moment of writing.\n\n**Caption:**\n> THE AUTHOR DOES NOT HAVE TO BE PRESENT.\n\n**Provenance:** `inferred` — external-memory consequence of documented persistence; does not claim the originating process had ended.\n\n",
+  "title": "The run dims while the note survives"
+}

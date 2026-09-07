@@ -1,0 +1,94 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="800" viewBox="0 0 1200 800"><title>Model-built navigation serves a time-bounded review</title><metadata>{
+  &quot;assets&quot;: {
+    &quot;clock&quot;: &quot;&lt;circle cx=\&quot;50\&quot; cy=\&quot;50\&quot; r=\&quot;44\&quot; fill=\&quot;#202326\&quot; stroke=\&quot;currentColor\&quot; stroke-width=\&quot;4\&quot;/&gt;&lt;path d=\&quot;M50 15V50L75 64M50 5V12M95 50H88M50 95V88M5 50H12\&quot; fill=\&quot;none\&quot; stroke=\&quot;currentColor\&quot; stroke-width=\&quot;4\&quot;/&gt;&quot;,
+    &quot;scatter&quot;: &quot;&lt;path d=\&quot;M5 8h3 M12 8h3 M19 8h3 M26 8h3 M33 8h3 M40 8h3 M47 8h3 M54 8h3 M61 8h3 M68 8h3 M75 8h3 M82 8h3 M89 8h3 M5 17h3 M12 17h3 M19 17h3 M26 17h3 M33 17h3 M40 17h3 M47 17h3 M54 17h3 M61 17h3 M68 17h3 M75 17h3 M82 17h3 M89 17h3 M5 26h3 M12 26h3 M19 26h3 M26 26h3 M33 26h3 M40 26h3 M47 26h3 M54 26h3 M61 26h3 M68 26h3 M75 26h3 M82 26h3 M89 26h3 M5 35h3 M12 35h3 M19 35h3 M26 35h3 M33 35h3 M40 35h3 M47 35h3 M54 35h3 M61 35h3 M68 35h3 M75 35h3 M82 35h3 M89 35h3 M5 44h3 M12 44h3 M19 44h3 M26 44h3 M33 44h3 M40 44h3 M47 44h3 M54 44h3 M61 44h3 M68 44h3 M75 44h3 M82 44h3 M89 44h3 M5 53h3 M12 53h3 M19 53h3 M26 53h3 M33 53h3 M40 53h3 M47 53h3 M54 53h3 M61 53h3 M68 53h3 M75 53h3 M82 53h3 M89 53h3 M5 62h3 M12 62h3 M19 62h3 M26 62h3 M33 62h3 M40 62h3 M47 62h3 M54 62h3 M61 62h3 M68 62h3 M75 62h3 M82 62h3 M89 62h3 M5 71h3 M12 71h3 M19 71h3 M26 71h3 M33 71h3 M40 71h3 M47 71h3 M54 71h3 M61 71h3 M68 71h3 M75 71h3 M82 71h3 M89 71h3 M5 80h3 M12 80h3 M19 80h3 M26 80h3 M33 80h3 M40 80h3 M47 80h3 M54 80h3 M61 80h3 M68 80h3 M75 80h3 M82 80h3 M89 80h3 M5 89h3 M12 89h3 M19 89h3 M26 89h3 M33 89h3 M40 89h3 M47 89h3 M54 89h3 M61 89h3 M68 89h3 M75 89h3 M82 89h3 M89 89h3\&quot; stroke=\&quot;currentColor\&quot; stroke-width=\&quot;2\&quot;/&gt;&quot;,
+    &quot;terminal&quot;: &quot;&lt;rect x=\&quot;2\&quot; y=\&quot;4\&quot; width=\&quot;96\&quot; height=\&quot;92\&quot; fill=\&quot;#101214\&quot; stroke=\&quot;currentColor\&quot; stroke-width=\&quot;3\&quot;/&gt;&lt;path d=\&quot;M2 18H98M12 31L21 40L12 49M29 49H51M12 65H76M12 78H62\&quot; fill=\&quot;none\&quot; stroke=\&quot;currentColor\&quot; stroke-width=\&quot;3\&quot;/&gt;&quot;
+  },
+  &quot;palette&quot;: {
+    &quot;amber&quot;: &quot;#A17D45&quot;,
+    &quot;dirty&quot;: &quot;#CEC5B3&quot;,
+    &quot;ink&quot;: &quot;#101214&quot;,
+    &quot;institution&quot;: &quot;#68766B&quot;,
+    &quot;nicotine&quot;: &quot;#AA9571&quot;,
+    &quot;paper&quot;: &quot;#E7E0D0&quot;,
+    &quot;shadow&quot;: &quot;#202326&quot;,
+    &quot;steel&quot;: &quot;#5E737B&quot;
+  },
+  &quot;renderer&quot;: &quot;storyboard-svg-1&quot;,
+  &quot;scene&quot;: {
+    &quot;background&quot;: &quot;ink&quot;,
+    &quot;intent&quot;: &quot;Block model-built navigation serves a time-bounded review. Keep the scripted evidence boundary and lettering visible.&quot;,
+    &quot;lettering&quot;: [
+      {
+        &quot;box&quot;: [
+          0.58,
+          0.04,
+          0.38,
+          0.36060000000000003
+        ]
+      }
+    ],
+    &quot;lettering_mode&quot;: &quot;manual&quot;,
+    &quot;nodes&quot;: [
+      {
+        &quot;asset&quot;: &quot;clock&quot;,
+        &quot;box&quot;: [
+          0.07,
+          0.38804975,
+          0.106067,
+          0.1591005
+        ],
+        &quot;color&quot;: &quot;steel&quot;,
+        &quot;focus&quot;: true,
+        &quot;label&quot;: &quot;SIX DAYS&quot;,
+        &quot;label_box&quot;: [
+          0.062000000000000006,
+          0.6476,
+          0.122067,
+          0.085
+        ]
+      },
+      {
+        &quot;asset&quot;: &quot;scatter&quot;,
+        &quot;box&quot;: [
+          0.213333,
+          0.2936,
+          0.106067,
+          0.348
+        ],
+        &quot;color&quot;: &quot;steel&quot;,
+        &quot;focus&quot;: true,
+        &quot;label&quot;: &quot;TRANSCRIPTS&quot;,
+        &quot;label_box&quot;: [
+          0.205333,
+          0.6476,
+          0.122067,
+          0.085
+        ]
+      },
+      {
+        &quot;asset&quot;: &quot;terminal&quot;,
+        &quot;box&quot;: [
+          0.356667,
+          0.2936,
+          0.106067,
+          0.348
+        ],
+        &quot;color&quot;: &quot;steel&quot;,
+        &quot;focus&quot;: true,
+        &quot;label&quot;: &quot;NAVIGATION TOOLING&quot;,
+        &quot;label_box&quot;: [
+          0.348667,
+          0.6476,
+          0.122067,
+          0.085
+        ]
+      }
+    ],
+    &quot;reconstructed&quot;: false,
+    &quot;shot&quot;: &quot;row&quot;,
+    &quot;source&quot;: &quot;\n**Frame:** The left column, in the register [page 075](075.md) used. The six-day clock. The\ntranscripts that run past the panel edge. Beneath them, something [page 077](077.md) never drew: the\nnavigation tooling itself, built by a model so that the corpus could be pointed at.\n\n**Screen / system text — INVESTIGATOR, 4 SEPTEMBER 2026 (PARAPHRASED):**\n`WE USED A MODEL TO BUILD TOOLS THAT WOULD POINT US AT THE SMALL PARTS WORTH READING.`\n\n`THE TOOL COULD NOT READ A WHOLE TRANSCRIPT EITHER. IT DIVIDED THEM AMONG OTHER AGENTS.`\n\n**Action:** The instrument that made the record navigable was itself made by the instrument.\n\n**Provenance:** `documented` — `HF-POD`, attributed paraphrase of Ajeya Cotra describing her\nown investigation. Chapter 5 has shown models reading the corpus since [page 076](076.md); this is the\nlayer beneath that, and the book had not drawn it.\n\n&quot;,
+    &quot;title&quot;: &quot;Model-built navigation serves a time-bounded review&quot;
+  }
+}
+</metadata><rect width="1200" height="800" fill="#101214"/><g transform="translate(84 310.44) scale(1.2728 1.2728)" color="#5E737B"><g transform=""><circle cx="50" cy="50" r="44" fill="#202326" stroke="currentColor" stroke-width="4"/><path d="M50 15V50L75 64M50 5V12M95 50H88M50 95V88M5 50H12" fill="none" stroke="currentColor" stroke-width="4"/></g></g><text x="147.64" y="538.08" text-anchor="middle" fill="#E7E0D0" font-size="20" font-family="sans-serif">SIX DAYS</text><g transform="translate(256 234.88) scale(1.2728 2.784)" color="#5E737B"><g transform=""><path d="M5 8h3 M12 8h3 M19 8h3 M26 8h3 M33 8h3 M40 8h3 M47 8h3 M54 8h3 M61 8h3 M68 8h3 M75 8h3 M82 8h3 M89 8h3 M5 17h3 M12 17h3 M19 17h3 M26 17h3 M33 17h3 M40 17h3 M47 17h3 M54 17h3 M61 17h3 M68 17h3 M75 17h3 M82 17h3 M89 17h3 M5 26h3 M12 26h3 M19 26h3 M26 26h3 M33 26h3 M40 26h3 M47 26h3 M54 26h3 M61 26h3 M68 26h3 M75 26h3 M82 26h3 M89 26h3 M5 35h3 M12 35h3 M19 35h3 M26 35h3 M33 35h3 M40 35h3 M47 35h3 M54 35h3 M61 35h3 M68 35h3 M75 35h3 M82 35h3 M89 35h3 M5 44h3 M12 44h3 M19 44h3 M26 44h3 M33 44h3 M40 44h3 M47 44h3 M54 44h3 M61 44h3 M68 44h3 M75 44h3 M82 44h3 M89 44h3 M5 53h3 M12 53h3 M19 53h3 M26 53h3 M33 53h3 M40 53h3 M47 53h3 M54 53h3 M61 53h3 M68 53h3 M75 53h3 M82 53h3 M89 53h3 M5 62h3 M12 62h3 M19 62h3 M26 62h3 M33 62h3 M40 62h3 M47 62h3 M54 62h3 M61 62h3 M68 62h3 M75 62h3 M82 62h3 M89 62h3 M5 71h3 M12 71h3 M19 71h3 M26 71h3 M33 71h3 M40 71h3 M47 71h3 M54 71h3 M61 71h3 M68 71h3 M75 71h3 M82 71h3 M89 71h3 M5 80h3 M12 80h3 M19 80h3 M26 80h3 M33 80h3 M40 80h3 M47 80h3 M54 80h3 M61 80h3 M68 80h3 M75 80h3 M82 80h3 M89 80h3 M5 89h3 M12 89h3 M19 89h3 M26 89h3 M33 89h3 M40 89h3 M47 89h3 M54 89h3 M61 89h3 M68 89h3 M75 89h3 M82 89h3 M89 89h3" stroke="currentColor" stroke-width="2"/></g></g><text x="319.64" y="538.08" text-anchor="middle" fill="#E7E0D0" font-size="20" font-family="sans-serif">TRANSCRIPTS</text><g transform="translate(428 234.88) scale(1.2728 2.784)" color="#5E737B"><g transform=""><rect x="2" y="4" width="96" height="92" fill="#101214" stroke="currentColor" stroke-width="3"/><path d="M2 18H98M12 31L21 40L12 49M29 49H51M12 65H76M12 78H62" fill="none" stroke="currentColor" stroke-width="3"/></g></g><text x="491.641" y="538.08" text-anchor="middle" fill="#E7E0D0" font-size="20" font-family="sans-serif">NAVIGATION</text><text x="491.641" y="565.28" text-anchor="middle" fill="#E7E0D0" font-size="20" font-family="sans-serif">TOOLING</text><rect x="3" y="3" width="1194" height="794" fill="none" stroke="#5E737B" stroke-width="4"/></svg>

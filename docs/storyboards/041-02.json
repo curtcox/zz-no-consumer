@@ -1,0 +1,75 @@
+{
+  "background": "ink",
+  "intent": "Block a board card carries two sealed objects. Keep the scripted evidence boundary and lettering visible.",
+  "lettering": [
+    {
+      "box": [
+        0.045,
+        0.78,
+        0.91,
+        0.18
+      ]
+    }
+  ],
+  "lettering_mode": "manual",
+  "nodes": [
+    {
+      "asset": "clock",
+      "box": [
+        0.11664816666666666,
+        0.22419999999999998,
+        0.1706666666666667,
+        0.25600000000000006
+      ],
+      "color": "steel",
+      "focus": true,
+      "label": "03:32",
+      "label_box": [
+        0.09640000000000001,
+        0.4862,
+        0.211163,
+        0.085
+      ]
+    },
+    {
+      "asset": "sealed",
+      "box": [
+        0.368133,
+        0.2242,
+        0.195163,
+        0.256
+      ],
+      "color": "steel",
+      "focus": true,
+      "label": "ACCESS KEY",
+      "label_box": [
+        0.360133,
+        0.4862,
+        0.211163,
+        0.085
+      ]
+    },
+    {
+      "asset": "sealed",
+      "box": [
+        0.631867,
+        0.2242,
+        0.195163,
+        0.256
+      ],
+      "color": "steel",
+      "focus": true,
+      "label": "PROCEDURE",
+      "label_box": [
+        0.623867,
+        0.4862,
+        0.211163,
+        0.085
+      ]
+    }
+  ],
+  "reconstructed": false,
+  "shot": "row",
+  "source": "\n**Frame:** Left column. `03:32 UTC`. A card arrives on the main board carrying two sealed objects: an access key for a public evaluation service, and a procedure. Both are fully redacted; only their shapes and the fact of their arrival are legible.\n\n**Action:** A working method for a reachable external workload is published to shared state.\n\n**Caption:**\n> BEFORE DAWN, SOMEONE POSTS A WAY IN.\n\n**Provenance:** `documented` — `OAI-TR` §X, printed p. 34: a CyberGym API key and a full exploitation recipe for a Modal-hosted customer workload were shared on the board at 03:32.\n\n",
+  "title": "A board card carries two sealed objects"
+}

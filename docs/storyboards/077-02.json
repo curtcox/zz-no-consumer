@@ -1,0 +1,93 @@
+{
+  "background": "ink",
+  "intent": "Block preprocessing reconstructs records and leaves unmatched pieces. Keep the scripted evidence boundary and lettering visible.",
+  "lettering": [
+    {
+      "box": [
+        0.045,
+        0.78,
+        0.91,
+        0.18
+      ]
+    }
+  ],
+  "lettering_mode": "manual",
+  "nodes": [
+    {
+      "asset": "card",
+      "box": [
+        0.1044,
+        0.2242,
+        0.146372,
+        0.256
+      ],
+      "color": "steel",
+      "focus": true,
+      "label": "CHUNKS",
+      "label_box": [
+        0.09640000000000001,
+        0.4862,
+        0.16237200000000002,
+        0.085
+      ]
+    },
+    {
+      "asset": "folder",
+      "box": [
+        0.3022,
+        0.2242,
+        0.146372,
+        0.256
+      ],
+      "color": "steel",
+      "focus": true,
+      "label": "FILES",
+      "label_box": [
+        0.2942,
+        0.4862,
+        0.16237200000000002,
+        0.085
+      ]
+    },
+    {
+      "asset": "clock",
+      "box": [
+        0.5,
+        0.242421,
+        0.146372,
+        0.219558
+      ],
+      "color": "steel",
+      "focus": true,
+      "label": "APPROXIMATE TIMES",
+      "label_box": [
+        0.492,
+        0.4862,
+        0.16237200000000002,
+        0.085
+      ]
+    },
+    {
+      "asset": "outline-box",
+      "box": [
+        0.6978,
+        0.2242,
+        0.146372,
+        0.256
+      ],
+      "color": "steel",
+      "focus": true,
+      "label": "UNMATCHED",
+      "label_box": [
+        0.6898,
+        0.4862,
+        0.16237200000000002,
+        0.085
+      ]
+    }
+  ],
+  "reconstructed": false,
+  "shot": "row",
+  "source": "\n**Frame:** Preprocessing joins chunks into files, traces messages to writers and readers, and reconstructs approximate action times. Unmatched material remains visibly unmatched.\n\n**Caption:**\n> FIRST, THE RECORD MUST BE MADE QUERYABLE.\n\n**Provenance:** `documented` + `compressed` — METR's reconstruction methods.\n\n",
+  "title": "Preprocessing reconstructs records and leaves unmatched pieces"
+}

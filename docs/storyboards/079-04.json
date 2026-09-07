@@ -1,0 +1,68 @@
+{
+  "background": "ink",
+  "intent": "Block a second analysis relies on board approval. Keep the scripted evidence boundary and lettering visible.",
+  "lettering": [
+    {
+      "box": [
+        0.045,
+        0.78,
+        0.91,
+        0.18
+      ]
+    }
+  ],
+  "lettering_mode": "manual",
+  "nodes": [
+    {
+      "asset": "card",
+      "box": [
+        0.1044,
+        0.2242,
+        0.195163,
+        0.256
+      ],
+      "color": "steel",
+      "focus": true,
+      "label": "SECOND REVIEW",
+      "label_box": [
+        0.09640000000000001,
+        0.4862,
+        0.211163,
+        0.085
+      ]
+    },
+    {
+      "asset": "folder",
+      "box": [
+        0.368133,
+        0.2242,
+        0.195163,
+        0.256
+      ],
+      "color": "institution",
+      "focus": true,
+      "label": "BOARD APPROVAL",
+      "label_box": [
+        0.360133,
+        0.4862,
+        0.211163,
+        0.085
+      ]
+    },
+    {
+      "asset": "question",
+      "box": [
+        0.6739818333333333,
+        0.22419999999999998,
+        0.11093333333333336,
+        0.25600000000000006
+      ],
+      "color": "amber",
+      "focus": true
+    }
+  ],
+  "reconstructed": false,
+  "shot": "row",
+  "source": "\n**Frame:** A second analysis agent reviews the first and suggests concern may be overstated because the message board approved the action and the actor might have believed the repository owner approved too.\n\n**Screen / system text:**\n`FOLLOW-UP ANALYSIS — PARAPHRASED`\n\n**Provenance:** `source-paraphrase` — METR's footnote 58.\n\n",
+  "title": "A second analysis relies on board approval"
+}

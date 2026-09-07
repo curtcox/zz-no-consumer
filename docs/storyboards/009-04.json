@@ -1,0 +1,54 @@
+{
+  "background": "ink",
+  "intent": "Block available answers become uncertain. Keep the scripted evidence boundary and lettering visible.",
+  "lettering": [
+    {
+      "box": [
+        0.045,
+        0.78,
+        0.91,
+        0.18
+      ]
+    }
+  ],
+  "lettering_mode": "manual",
+  "nodes": [
+    {
+      "asset": "question",
+      "box": [
+        0.14651483333333332,
+        0.22419999999999998,
+        0.11093333333333336,
+        0.25600000000000006
+      ],
+      "color": "amber",
+      "focus": true
+    },
+    {
+      "asset": "flag",
+      "box": [
+        0.368133,
+        0.2242,
+        0.195163,
+        0.256
+      ],
+      "color": "institution",
+      "focus": true
+    },
+    {
+      "asset": "question",
+      "box": [
+        0.6739818333333333,
+        0.22419999999999998,
+        0.11093333333333336,
+        0.25600000000000006
+      ],
+      "color": "amber",
+      "focus": true
+    }
+  ],
+  "reconstructed": false,
+  "shot": "row",
+  "source": "\n**Frame:** The green `FLAG AVAILABLE` marks are now bracketed by dusty amber question marks. None disappears.\n\n**Action:** Correct answers become provisionally unusable in the agents’ model of the scorer.\n\n**Caption:**\n> A RIGHT ANSWER BY THE WRONG PATH MAY NOT COUNT.\n\n**Provenance:** `disputed` — accurate as the agents’ attributed belief, not as a claim about the deployed scorer.\n\n",
+  "title": "Available answers become uncertain"
+}
