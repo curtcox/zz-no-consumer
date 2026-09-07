@@ -1,0 +1,25 @@
+{
+  "panel": "029-04",
+  "prompt": "Use case: illustration-story. New 1536x1024 landscape investigative graphic-novel closing panel. References establish mature nib/brush ink style and muted institutional materials only. Close view of a pristine directory interface on the rebuilt service: a single large rectilinear monitor-like directory pane at x=12-88%, y=10-65%, with a modest folder icon and exact header CLEAN DIRECTORY. Beneath header, the broad directory area is entirely empty: no message rows, no note cards, no dots or ghost text. Simple steel-blue frame and gray interior, charcoal background, subtle drybrush and halftone concentrated on exterior edges while empty field stays clean. Only steel blue, gray and black, no tan paper or green/moss anywhere. Bottom 23 percent quiet dark space reserved for controlled caption. The absence of the first board should read plainly, without any deleted-file animation or suggestion that preserved evidence was destroyed. No other words, symbols, numbers, paths, controls, source interface details, people, avatars, decorative border or white margin. Full bleed.",
+  "references": [
+    "assets/art/panels/029-02/v03-builtin-image-pilot.png",
+    "assets/art/panels/029-01/v03-builtin-image-pilot.png"
+  ],
+  "source_file": "/Users/curtcox/.codex/generated_images/01a07d3b-83f6-77e3-b006-39f2f4ad8687/exec-d4ecb9ac-b263-44de-88df-ad8852092338.png",
+  "elapsed_seconds": 63.023,
+  "reference_hashes": [
+    "2386b1fabaa2bd66202909e2af9c6776ae263eefa661bff8a9682b451f65f32e",
+    "227c5814abc150ff02a83782bc033d4bd687556ba0230e1990a926522e89c3f9"
+  ],
+  "stored_file": "assets/art/panels/029-04/v03-builtin-image-pilot.png",
+  "variant": "v03",
+  "sha256": "1d85228e8f7ab702aaa2f799e48aa6210ef21208e1c157241ad8fcfac5a45485",
+  "dimensions": [
+    1536,
+    1024
+  ],
+  "tool": "image_gen.imagegen",
+  "model_revision": null,
+  "seed": null,
+  "controls": "Model revision, seed, sampler, strength and billing unavailable."
+}

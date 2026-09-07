@@ -48,7 +48,7 @@
         ],
         &quot;color&quot;: &quot;steel&quot;,
         &quot;focus&quot;: true,
-        &quot;label&quot;: &quot;PRESERVED STORAGE&quot;,
+        &quot;label&quot;: &quot;PRESERVED OLD CACHE&quot;,
         &quot;label_box&quot;: [
           0.062000000000000006,
           0.6476,
@@ -91,4 +91,4 @@
     &quot;title&quot;: &quot;A rebuilt service receives no old cache contents&quot;
   }
 }
-</metadata><rect width="1200" height="800" fill="#101214"/><g transform="translate(84 234.88) scale(1.9092 2.784)" color="#5E737B"><g transform=""><rect x="3" y="9" width="94" height="82" fill="#202326" stroke="currentColor" stroke-width="3"/><path d="M12 30H88M12 49H88M12 68H88" stroke="#101214" stroke-width="12"/></g></g><text x="179.46" y="538.08" text-anchor="middle" fill="#E7E0D0" font-size="20" font-family="sans-serif">PRESERVED</text><text x="179.46" y="565.28" text-anchor="middle" fill="#E7E0D0" font-size="20" font-family="sans-serif">STORAGE</text><g transform="translate(342 234.88) scale(1.9092 2.784)" color="#5E737B"><g transform=""><path d="M3 20V8H38L48 20H97V90H3Z" fill="#202326" stroke="currentColor" stroke-width="3"/><path d="M12 40H85M12 50H65" stroke="currentColor" stroke-width="2"/></g></g><text x="437.46" y="538.08" text-anchor="middle" fill="#E7E0D0" font-size="20" font-family="sans-serif">CLEAN INSTANCE</text><g transform="translate(336 95.68) scale(0.108 5.8464)" color="#A17D45"><g transform=""><path d="M50 0V100" stroke="currentColor" stroke-width="14"/></g></g><rect x="3" y="3" width="1194" height="794" fill="none" stroke="#5E737B" stroke-width="4"/></svg>
+</metadata><rect width="1200" height="800" fill="#101214"/><g transform="translate(84 234.88) scale(1.9092 2.784)" color="#5E737B"><g transform=""><rect x="3" y="9" width="94" height="82" fill="#202326" stroke="currentColor" stroke-width="3"/><path d="M12 30H88M12 49H88M12 68H88" stroke="#101214" stroke-width="12"/></g></g><text x="179.46" y="538.08" text-anchor="middle" fill="#E7E0D0" font-size="20" font-family="sans-serif">PRESERVED OLD</text><text x="179.46" y="565.28" text-anchor="middle" fill="#E7E0D0" font-size="20" font-family="sans-serif">CACHE</text><g transform="translate(342 234.88) scale(1.9092 2.784)" color="#5E737B"><g transform=""><path d="M3 20V8H38L48 20H97V90H3Z" fill="#202326" stroke="currentColor" stroke-width="3"/><path d="M12 40H85M12 50H65" stroke="currentColor" stroke-width="2"/></g></g><text x="437.46" y="538.08" text-anchor="middle" fill="#E7E0D0" font-size="20" font-family="sans-serif">CLEAN INSTANCE</text><g transform="translate(336 95.68) scale(0.108 5.8464)" color="#A17D45"><g transform=""><path d="M50 0V100" stroke="currentColor" stroke-width="14"/></g></g><rect x="3" y="3" width="1194" height="794" fill="none" stroke="#5E737B" stroke-width="4"/></svg>

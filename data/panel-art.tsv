@@ -374,8 +374,11 @@ panel	variant	file	provider	seed	width	height	bytes	created	status	note	stage
 029-02	v03	assets/art/panels/029-02/v03-builtin-image-pilot.png	builtin-image-pilot		1536	1024	3064001	2026-09-07T21:38:57+00:00	chosen	Erasure pilot: preserved hardware evidence distinct from revoked credentials and blocked paths; provisional.	refined
 029-03	v01	assets/art/panels/029-03/v01-storyboard-svg.svg	storyboard-svg		1200	800	4954	2026-09-07T16:49:09+00:00	candidate		storyboard
 029-03	v02	assets/art/panels/029-03/v02-storyboard-svg.svg	storyboard-svg		1200	800	5347	2026-09-07T16:55:09+00:00	candidate		storyboard
+029-03	v03	assets/art/panels/029-03/v03-storyboard-svg.svg	storyboard-svg		1200	800	5343	2026-09-07T21:42:54+00:00	candidate		storyboard
+029-03	v04	assets/art/panels/029-03/v04-builtin-image-pilot.png	builtin-image-pilot		1536	1024	2626482	2026-09-07T21:42:55+00:00	chosen	Rebuild pilot: intact preserved storage separated from clean instance; provisional.	refined
 029-04	v01	assets/art/panels/029-04/v01-storyboard-svg.svg	storyboard-svg		1200	800	2815	2026-09-07T16:49:09+00:00	candidate		storyboard
 029-04	v02	assets/art/panels/029-04/v02-storyboard-svg.svg	storyboard-svg		1200	800	2944	2026-09-07T16:55:09+00:00	candidate		storyboard
+029-04	v03	assets/art/panels/029-04/v03-builtin-image-pilot.png	builtin-image-pilot		1536	1024	2765546	2026-09-07T21:42:55+00:00	chosen	Erasure pilot: empty replacement directory, no messages or moss; provisional.	refined
 030-01	v01	assets/art/panels/030-01/v01-storyboard-svg.svg	storyboard-svg		1200	800	4365	2026-09-07T16:49:09+00:00	candidate		storyboard
 030-01	v02	assets/art/panels/030-01/v02-storyboard-svg.svg	storyboard-svg		1200	800	4611	2026-09-07T16:55:09+00:00	candidate		storyboard
 030-02	v01	assets/art/panels/030-02/v01-storyboard-svg.svg	storyboard-svg		1200	800	4280	2026-09-07T16:49:09+00:00	candidate		storyboard

@@ -1,0 +1,25 @@
+{
+  "panel": "029-03",
+  "prompt": "Use case: illustration-story. New 1536x1024 landscape investigative comic panel with vertically oriented objects inside the wide reader frame. Image 1 supplies the preserved-storage evidence enclosure; image 2 supplies the isolated service cabinet and ink style. At far left x=4-22%, y=32-78%, place a small dim isolated old cabinet, with the same intact sealed pair of storage drives in front, clearly labeled PRESERVED STORAGE. At center x=34-53%, y=32-78%, place a clean upright service cabinet with simple empty directory field, clearly labeled CLEAN INSTANCE. A wide entirely empty dark internal gutter separates old/preserved objects from clean instance; no wires, arrows, notes or contents cross it. Old note field has dropped away; there are no readable messages on either side. Critical: upper-right x=58-98%, y=0-42% must remain almost-black blank negative space for controlled timestamp and two captions added later. Preserve a clear silhouette and legible short labels. Mature nib/brush ink, drybrush and halftone, charcoal #101214/#202326, gray and muted steel #5E737B, restrained paper highlights. No green/moss, flames, erased storage, shattered evidence, people, avatars, extra words, dates, logos, white margins or decorative borders. Editorial abstraction shows intact preserved storage separate from a rebuilt cache, not restoration of old contents.",
+  "references": [
+    "assets/art/panels/029-02/v03-builtin-image-pilot.png",
+    "assets/art/panels/029-01/v03-builtin-image-pilot.png"
+  ],
+  "source_file": "/Users/curtcox/.codex/generated_images/01a07d3b-83f6-77e3-b006-39f2f4ad8687/exec-64952348-ac38-419a-864d-d3bb8141c0d1.png",
+  "elapsed_seconds": 31.293,
+  "reference_hashes": [
+    "2386b1fabaa2bd66202909e2af9c6776ae263eefa661bff8a9682b451f65f32e",
+    "227c5814abc150ff02a83782bc033d4bd687556ba0230e1990a926522e89c3f9"
+  ],
+  "stored_file": "assets/art/panels/029-03/v04-builtin-image-pilot.png",
+  "variant": "v04",
+  "sha256": "ba5852bf8035c616f22779f06b174655010fc57c86f0961326b71c01411601db",
+  "dimensions": [
+    1536,
+    1024
+  ],
+  "tool": "image_gen.imagegen",
+  "model_revision": null,
+  "seed": null,
+  "controls": "Model revision, seed, sampler, strength and billing unavailable."
+}
