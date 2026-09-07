@@ -89,6 +89,14 @@ processes or open handles, the unchanged, empty lock was removed. Staging the fo
 pending files then succeeded, verified at **10:49:38 CDT (15:49:38 UTC)**. This confirms
 recovery of staging; it does not identify the process that originally left the lock.
 
+**Recurrence, 7 September 2026.** A later documentation commit was blocked by a new
+empty lock (inode `62203350`), modified at **10:55:30 CDT (15:55:30 UTC)**. Inspection
+at **10:56:48 CDT (15:56:48 UTC)** again found no Git process or open handle. After a
+fresh identity and ownership check, that lock was removed and staging succeeded. The
+recurrence shows that the earlier cleanup restored operation but did not remove the
+underlying cause. The creating process remains unidentified; further diagnosis should
+capture lock creation and process activity rather than attribute it to a particular app.
+
 **Recovery procedure.** Coordinate with the other sessions and stop initiating Git writes.
 Resolve the lock path with `git --no-optional-locks rev-parse --git-path index.lock`
 (worktrees need not use a literal `.git/` directory). Inspect the file, running Git
@@ -365,6 +373,12 @@ The SVG renderer uses only Python's standard library. To generate or resume the 
 
 ## Placeholder images
 
+The complete [storyboard workflow](design/storyboard-workflow.md) covers initial text
+fallbacks, adding a structured scene, deterministic SVG previews, assistant-led iteration,
+local generation, cloud handoff, importing candidates, selection, rollback, and validation.
+Start with `python3 scripts/storyboards.py generate`, then check and build as documented;
+the workshop is at `/storyboards/`. The lower-level text fallback is described below.
+
 `scripts/textimage.py` flows a block of text into an image of exactly the dimensions it is given. It adds no image dependencies: glyph advances come from the Helvetica metrics that Arial, Liberation Sans, and Nimbus Sans match, so line breaking and the automatic type-size search run in pure Python and the rendered SVG breaks its lines where the module measured them. The largest size that fits is chosen by binary search; below the floor the text is cut to the box and ellipsized, so the image never spills past its dimensions.
 
 Use it for any text and any size:
@@ -376,15 +390,15 @@ python3 scripts/textimage.py render --width 1200 --height 800 --out card.svg \
 
 `--text-file` and standard input work in place of `--text`. `--label` and `--footer` are single-line edge markers, shortened rather than allowed to widen the image.
 
-The `book` command writes one placeholder for every page and every panel image slot in `content/pages/` — as the script stands, 118 page sheets at 700×1000 and 578 panel images at 1200×800:
+The `book` command writes one placeholder for every page and every panel image slot in `content/pages/` — page sheets at 700×1000 and panel images at 1200×800. Counts come from the current scripts:
 
 ```sh
-python3 scripts/textimage.py book --out-dir docs/assets/placeholders
+python3 scripts/textimage.py book --out-dir /tmp/book-placeholders
 ```
 
 Each panel placeholder carries that panel's own `Frame`, `Action`, and lettering; each page sheet carries the page purpose. `scripts/build-site.py` runs this as part of every build and embeds the result, so the viewer's page sheets, chapter grids, and single-image views all show real script text in the frame the final art will occupy. Both site indexes link straight into that read-through, and `scripts/validate-viewer.py` fails if any placeholder is missing or carries no alt text.
 
-Panel placeholders are keyed to the same image slots the viewer routes use, so a page written as one grouped run of panels gets the single image its route exposes. Replacing a placeholder with final art is a matter of pointing the image record at `assets/art/panels/NNN-II.*`; the route, alt text, and cross-reference link do not move.
+Panel placeholders are keyed to the same image slots the viewer routes use, so a page written as one grouped run of panels gets the single image its route exposes. Versioned artwork is registered through `panelart.store()` or the production tools and selected through `panelart.py`; the route, alt text, and cross-reference link do not move.
 
 ## Choosing an image generator
 
@@ -436,7 +450,7 @@ Two backends are supported. `command` runs a local binary with a templated argv 
 
 ## Producing the artwork
 
-`scripts/produce.py` generates the book's panel images locally and writes them to `assets/art/panels/NNN-II.webp`, where `scripts/build-site.py` letters them through the approved slot convention in [`design/lettering-slots.md`](design/lettering-slots.md).
+`scripts/produce.py` generates the book's panel images locally and appends versions under `assets/art/panels/NNN-II/`, where `scripts/build-site.py` letters them through the approved slot convention in [`design/lettering-slots.md`](design/lettering-slots.md).
 
 ```sh
 python3 scripts/produce.py status                  # how much of the book has art
@@ -469,7 +483,7 @@ python3 scripts/panelart.py choose 001-01 v02
 python3 scripts/panelart.py status
 ```
 
-Undecided panels show their newest candidate, so the book reads end to end throughout, and a panel with more than one live version gets an "Other versions" strip in the viewer. The layout, the decision record, and the repository cost are in [`design/panel-versions.md`](design/panel-versions.md).
+Undecided panels show their most mature non-rejected candidate (newest within that stage), so the book reads end to end throughout, and a panel with more than one live version gets an "Other versions" strip in the viewer. The layout, the decision record, and the repository cost are in [`design/panel-versions.md`](design/panel-versions.md).
 
 Page sheets are not generated. A page is composed from its panels by layout, the way a comic page is actually made, so the page grammar governs it and it costs no generation time.
 

@@ -181,6 +181,13 @@ A red check is a work list, not a baseline. The validators repair nothing on pur
 
 ## Common tasks
 
+**Generate or improve placeholders.** Follow [the storyboard workflow](design/storyboard-workflow.md)
+for new scene records, local SVG generation, visual iteration, model handoff, importing,
+selection, and rollback. The README links it under Placeholder images. Run
+`storyboards.py generate`, `storyboards.py check`, the site builder, and
+`storyboards.py check --built` after reviewed scene changes. This is a pilot workflow;
+text fallbacks cover reader slots without scene records.
+
 **Edit a page's script.** Edit `content/pages/NNN.md` in place. Write page references as
 plain `page 039` and run `pagelinks.py link --apply` to link them. If you changed lettering,
 panel structure, or provenance, run `crossref.py check --strict`, `panels.py check`, then

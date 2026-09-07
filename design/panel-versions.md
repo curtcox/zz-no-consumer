@@ -33,7 +33,7 @@ one you have*. Nothing a run produces can destroy an earlier attempt.
 ## The decision record
 
 [`../data/panel-art.tsv`](../data/panel-art.tsv) has one row per version. Every
-column is a fact discovered from disk except one:
+file-property column is discovered from disk; `status`, `stage`, and `note` carry curation:
 
 | status | meaning |
 | --- | --- |
@@ -52,11 +52,18 @@ python3 scripts/panelart.py status
 ```
 
 Choosing a version clears any previous choice for that panel, so exactly one wins.
+The independent maturity stages are `layout`, `storyboard`, `refined`, and `final`.
+Use `python3 scripts/panelart.py stage PANEL VARIANT STAGE` to change maturity; it does
+not override an existing choice. Legacy raster records default to refined. A newer
+storyboard cannot displace an unchosen refined candidate. The full
+[storyboard workflow](storyboard-workflow.md) documents initial generation, imports,
+selection, rejection, restoration, and the local-to-cloud handoff.
 
 ## What the book shows while the choice is open
 
 `panelart.resolve()` returns the chosen version where a choice has been made, and
-the newest candidate where it has not. Undecided panels therefore still render, and
+the most mature non-rejected candidate where it has not, with the newest version
+breaking ties within a stage. Undecided panels therefore still render, and
 the book stays readable end to end throughout — which is the property
 `validate-viewer.py` exists to protect.
 
@@ -89,5 +96,6 @@ so the book's 547 slots cost roughly **165 MB per version kept**: 330 MB for two
 495 MB for three. Two is a reasonable working ceiling; three is worth a deliberate decision
 rather than a drift, and a larger panel size would move all three figures.
 
-Rejecting a version keeps it on disk. If the store needs to shrink, rejected
-versions are the first thing to delete, and the table records what was there.
+Rejecting a version keeps it on disk. File deletion is a separate retention decision,
+not part of routine iteration. Scanning drops rows for missing files, so the art table
+is not a permanent record of deleted versions.
