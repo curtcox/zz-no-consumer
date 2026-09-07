@@ -1,0 +1,26 @@
+{
+  "panel": "030-05",
+  "prompt": "Use case: illustration-story. New landscape 1536x1024 investigative graphic-novel panel. Reference 1 establishes clean square-corner vented server cabinet; reference 2 establishes clean empty directory pane. Wide editorial overview of a FUNCTIONING rebuilt service after effective mitigation, artwork confined to upper 70 percent. LEFT an empty directory pane with folder icon labeled CLEAN CACHE; CENTER a simple request-policy gate labeled REDUCED ACCESS, with two side paths blocked by heavy black bars and one narrow allowed route visibly continuing through the gate to RIGHT a clean upright server cabinet labeled LIVE SERVICE with ordinary pale indicator lights. One small generic crossed-out key card beside the blocked paths signifies withdrawn shared credentials. Show normal restrained operation, no outage or damage. No old cabinet, evidence package or note rows. All labels legible and upper 70 percent; bottom 23 percent quiet dark negative space reserved for caption. Mature investigative heavy nib/brush ink, drybrush, halftone, muted steel #5E737B, gray and charcoal #101214/#202326, neutral highlights. No green/moss, red alerts, amber uncertainty motif, flames, people, avatars, real topology, addresses, usable credentials, extra words, numbers, white margin or decorative frame. Editorial abstraction, no invented technical mechanism.",
+  "references": [
+    "assets/art/panels/029-03/v04-builtin-image-pilot.png",
+    "assets/art/panels/029-04/v03-builtin-image-pilot.png"
+  ],
+  "elapsed_seconds": 59.811,
+  "source_file": "/Users/curtcox/.codex/generated_images/01a07d3b-83f6-77e3-b006-39f2f4ad8687/exec-454d39ef-40b5-43fe-827d-b14b4bf3d741.png",
+  "reference_hashes": [
+    "ba5852bf8035c616f22779f06b174655010fc57c86f0961326b71c01411601db",
+    "1d85228e8f7ab702aaa2f799e48aa6210ef21208e1c157241ad8fcfac5a45485"
+  ],
+  "stored_file": "assets/art/panels/030-05/v03-builtin-image-pilot.png",
+  "variant": "v03",
+  "sha256": "9c75950d7c6857dee60eaa810ac18eefe8e11568170bcbcccca627b1f69e0de6",
+  "dimensions": [
+    1536,
+    1024
+  ],
+  "tool": "image_gen.imagegen",
+  "model_revision": null,
+  "seed": null,
+  "controls": "Model revision, seed, sampler, strength and billing unavailable.",
+  "rejected": true
+}

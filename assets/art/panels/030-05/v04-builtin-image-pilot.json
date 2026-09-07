@@ -1,0 +1,24 @@
+{
+  "panel": "030-05",
+  "prompt": "Use case: precise-object-edit. Correct this editorial diagram while preserving cabinet, empty cache pane, palette, ink style, scale and bottom caption space. Replace the central turnstile with a simple rectangular policy frame with a visible OPEN narrow aperture. Show one thin continuous pale allowed-traffic line from left edge at y=10%, above cache pane, down toward central aperture, through the OPEN aperture and onward into live service cabinet. It must remain entirely separate from two blocked routes and crossed key card. The existing two side routes must end at their heavy black blocking bars, with no continuation behind bars to the gate. Keep the key card crossed out. Remove the redundant bottom CLEAN CACHE and REDUCED ACCESS placards; retain their top headings and bottom LIVE SERVICE label. Keep every other element unchanged. No extra words or symbols. The essential reading is two routes closed but one permitted route still reaches a functioning service.",
+  "references": [
+    "assets/art/panels/030-05/v03-builtin-image-pilot.png"
+  ],
+  "elapsed_seconds": 42.527,
+  "source_file": "/Users/curtcox/.codex/generated_images/01a07d3b-83f6-77e3-b006-39f2f4ad8687/exec-e57d1407-22f5-4b7c-af8b-a7ea8266c3e9.png",
+  "reference_hashes": [
+    "9c75950d7c6857dee60eaa810ac18eefe8e11568170bcbcccca627b1f69e0de6"
+  ],
+  "stored_file": "assets/art/panels/030-05/v04-builtin-image-pilot.png",
+  "variant": "v04",
+  "sha256": "a26f81664c7e61a249a663b01a29cba1e6315e1fd3115265bc4b64f7ddde42d7",
+  "dimensions": [
+    1536,
+    1024
+  ],
+  "tool": "image_gen.imagegen",
+  "model_revision": null,
+  "seed": null,
+  "controls": "Model revision, seed, sampler, strength and billing unavailable.",
+  "rejected": false
+}

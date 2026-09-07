@@ -1,0 +1,78 @@
+[
+  {
+    "panel": "030-01",
+    "prompt": "Use case: illustration-story. New landscape 1536x1024 investigative graphic-novel panel. Reference 1 supplies clean upright service cabinet and isolated old cabinet; reference 2 supplies pristine steel directory pane. In upper 70 percent show LEFT a clearly lit functioning rebuilt service with a large pristine directory pane labeled exactly LIVE CACHE, interior empty without message rows. Two simple pale request lines arrive from left edge into this new service only. RIGHT shows the old cabinet isolated and dark, labeled ISOLATED OLD INSTANCE. A wide dark gap separates them; no connection or transfer from old to new. Keep the new service bright enough to read as working, not ominously failed. Bottom 23 percent quiet charcoal negative space for controlled caption added later. Mature nib/brush ink, drybrush and restrained halftone, steel blue #5E737B, gray and charcoal #101214/#202326, modest neutral pale highlights. No green/moss, board notes, evidence bag, plugin package, broken hardware, flames, avatars, humans, extra words, digits, code, source interface or white margin. Full bleed. The board is gone while ordinary traffic uses the rebuilt service.",
+    "references": [
+      "assets/art/panels/029-03/v04-builtin-image-pilot.png",
+      "assets/art/panels/029-04/v03-builtin-image-pilot.png"
+    ],
+    "elapsed_seconds": 27.317,
+    "source_file": "/Users/curtcox/.codex/generated_images/01a07d3b-83f6-77e3-b006-39f2f4ad8687/exec-e5d4b7ad-0802-4cb7-b813-e122fab17ddf.png",
+    "reference_hashes": [
+      "ba5852bf8035c616f22779f06b174655010fc57c86f0961326b71c01411601db",
+      "1d85228e8f7ab702aaa2f799e48aa6210ef21208e1c157241ad8fcfac5a45485"
+    ],
+    "stored_file": "assets/art/panels/030-01/v03-builtin-image-pilot.png",
+    "variant": "v03",
+    "sha256": "767e781569428798b2821efac99a38f5a69c695aff44b9c04adf900539720b7d",
+    "dimensions": [
+      1536,
+      1024
+    ],
+    "tool": "image_gen.imagegen",
+    "model_revision": null,
+    "seed": null,
+    "controls": "Model revision, seed, sampler, strength and billing unavailable.",
+    "rejected": false
+  },
+  {
+    "panel": "030-05",
+    "prompt": "Use case: illustration-story. New landscape 1536x1024 investigative graphic-novel panel. Reference 1 establishes clean square-corner vented server cabinet; reference 2 establishes clean empty directory pane. Wide editorial overview of a FUNCTIONING rebuilt service after effective mitigation, artwork confined to upper 70 percent. LEFT an empty directory pane with folder icon labeled CLEAN CACHE; CENTER a simple request-policy gate labeled REDUCED ACCESS, with two side paths blocked by heavy black bars and one narrow allowed route visibly continuing through the gate to RIGHT a clean upright server cabinet labeled LIVE SERVICE with ordinary pale indicator lights. One small generic crossed-out key card beside the blocked paths signifies withdrawn shared credentials. Show normal restrained operation, no outage or damage. No old cabinet, evidence package or note rows. All labels legible and upper 70 percent; bottom 23 percent quiet dark negative space reserved for caption. Mature investigative heavy nib/brush ink, drybrush, halftone, muted steel #5E737B, gray and charcoal #101214/#202326, neutral highlights. No green/moss, red alerts, amber uncertainty motif, flames, people, avatars, real topology, addresses, usable credentials, extra words, numbers, white margin or decorative frame. Editorial abstraction, no invented technical mechanism.",
+    "references": [
+      "assets/art/panels/029-03/v04-builtin-image-pilot.png",
+      "assets/art/panels/029-04/v03-builtin-image-pilot.png"
+    ],
+    "elapsed_seconds": 59.811,
+    "source_file": "/Users/curtcox/.codex/generated_images/01a07d3b-83f6-77e3-b006-39f2f4ad8687/exec-454d39ef-40b5-43fe-827d-b14b4bf3d741.png",
+    "reference_hashes": [
+      "ba5852bf8035c616f22779f06b174655010fc57c86f0961326b71c01411601db",
+      "1d85228e8f7ab702aaa2f799e48aa6210ef21208e1c157241ad8fcfac5a45485"
+    ],
+    "stored_file": "assets/art/panels/030-05/v03-builtin-image-pilot.png",
+    "variant": "v03",
+    "sha256": "9c75950d7c6857dee60eaa810ac18eefe8e11568170bcbcccca627b1f69e0de6",
+    "dimensions": [
+      1536,
+      1024
+    ],
+    "tool": "image_gen.imagegen",
+    "model_revision": null,
+    "seed": null,
+    "controls": "Model revision, seed, sampler, strength and billing unavailable.",
+    "rejected": true
+  },
+  {
+    "panel": "030-05",
+    "prompt": "Use case: precise-object-edit. Correct this editorial diagram while preserving cabinet, empty cache pane, palette, ink style, scale and bottom caption space. Replace the central turnstile with a simple rectangular policy frame with a visible OPEN narrow aperture. Show one thin continuous pale allowed-traffic line from left edge at y=10%, above cache pane, down toward central aperture, through the OPEN aperture and onward into live service cabinet. It must remain entirely separate from two blocked routes and crossed key card. The existing two side routes must end at their heavy black blocking bars, with no continuation behind bars to the gate. Keep the key card crossed out. Remove the redundant bottom CLEAN CACHE and REDUCED ACCESS placards; retain their top headings and bottom LIVE SERVICE label. Keep every other element unchanged. No extra words or symbols. The essential reading is two routes closed but one permitted route still reaches a functioning service.",
+    "references": [
+      "assets/art/panels/030-05/v03-builtin-image-pilot.png"
+    ],
+    "elapsed_seconds": 42.527,
+    "source_file": "/Users/curtcox/.codex/generated_images/01a07d3b-83f6-77e3-b006-39f2f4ad8687/exec-e57d1407-22f5-4b7c-af8b-a7ea8266c3e9.png",
+    "reference_hashes": [
+      "9c75950d7c6857dee60eaa810ac18eefe8e11568170bcbcccca627b1f69e0de6"
+    ],
+    "stored_file": "assets/art/panels/030-05/v04-builtin-image-pilot.png",
+    "variant": "v04",
+    "sha256": "a26f81664c7e61a249a663b01a29cba1e6315e1fd3115265bc4b64f7ddde42d7",
+    "dimensions": [
+      1536,
+      1024
+    ],
+    "tool": "image_gen.imagegen",
+    "model_revision": null,
+    "seed": null,
+    "controls": "Model revision, seed, sampler, strength and billing unavailable.",
+    "rejected": false
+  }
+]

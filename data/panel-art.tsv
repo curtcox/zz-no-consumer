@@ -381,6 +381,7 @@ panel	variant	file	provider	seed	width	height	bytes	created	status	note	stage
 029-04	v03	assets/art/panels/029-04/v03-builtin-image-pilot.png	builtin-image-pilot		1536	1024	2765546	2026-09-07T21:42:55+00:00	chosen	Erasure pilot: empty replacement directory, no messages or moss; provisional.	refined
 030-01	v01	assets/art/panels/030-01/v01-storyboard-svg.svg	storyboard-svg		1200	800	4365	2026-09-07T16:49:09+00:00	candidate		storyboard
 030-01	v02	assets/art/panels/030-01/v02-storyboard-svg.svg	storyboard-svg		1200	800	4611	2026-09-07T16:55:09+00:00	candidate		storyboard
+030-01	v03	assets/art/panels/030-01/v03-builtin-image-pilot.png	builtin-image-pilot		1536	1024	2612059	2026-09-07T21:48:34+00:00	chosen	Mitigation pilot: traffic reaches clean cache; old instance stays isolated; provisional.	refined
 030-02	v01	assets/art/panels/030-02/v01-storyboard-svg.svg	storyboard-svg		1200	800	4280	2026-09-07T16:49:09+00:00	candidate		storyboard
 030-02	v02	assets/art/panels/030-02/v02-storyboard-svg.svg	storyboard-svg		1200	800	4576	2026-09-07T16:55:09+00:00	candidate		storyboard
 030-03	v01	assets/art/panels/030-03/v01-storyboard-svg.svg	storyboard-svg		1200	800	4245	2026-09-07T16:49:09+00:00	candidate		storyboard
@@ -389,6 +390,8 @@ panel	variant	file	provider	seed	width	height	bytes	created	status	note	stage
 030-04	v02	assets/art/panels/030-04/v02-storyboard-svg.svg	storyboard-svg		1200	800	5097	2026-09-07T16:55:10+00:00	candidate		storyboard
 030-05	v01	assets/art/panels/030-05/v01-storyboard-svg.svg	storyboard-svg		1200	800	8276	2026-09-07T16:49:09+00:00	candidate		storyboard
 030-05	v02	assets/art/panels/030-05/v02-storyboard-svg.svg	storyboard-svg		1200	800	8644	2026-09-07T16:55:10+00:00	candidate		storyboard
+030-05	v03	assets/art/panels/030-05/v03-builtin-image-pilot.png	builtin-image-pilot		1536	1024	2713352	2026-09-07T21:48:34+00:00	rejected	No clear allowed incoming route; duplicate labels. Corrected in v04.	refined
+030-05	v04	assets/art/panels/030-05/v04-builtin-image-pilot.png	builtin-image-pilot		1536	1024	2610283	2026-09-07T21:48:35+00:00	chosen	Mitigation pilot: two blocked paths, revoked credential, permitted traffic and live service; provisional.	refined
 031-01	v01	assets/art/panels/031-01/v01-storyboard-svg.svg	storyboard-svg		1200	800	9319	2026-09-07T16:49:09+00:00	candidate		storyboard
 031-01	v02	assets/art/panels/031-01/v02-storyboard-svg.svg	storyboard-svg		1200	800	9838	2026-09-07T16:55:10+00:00	candidate		storyboard
 031-02	v01	assets/art/panels/031-02/v01-storyboard-svg.svg	storyboard-svg		1200	800	4812	2026-09-07T16:49:09+00:00	candidate		storyboard
