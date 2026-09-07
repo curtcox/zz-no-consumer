@@ -1,0 +1,84 @@
+{
+  "background": "ink",
+  "intent": "Place the three theory terms on creator notes in the foreground, with the report behind them; no terms become incident narration.",
+  "lettering": [
+    {
+      "box": [
+        0.05,
+        0.04,
+        0.9,
+        0.23
+      ]
+    }
+  ],
+  "nodes": [
+    {
+      "asset": "monitor",
+      "box": [
+        0.65,
+        0.32,
+        0.27,
+        0.29
+      ],
+      "color": "steel"
+    },
+    {
+      "asset": "paper",
+      "box": [
+        0.08,
+        0.36,
+        0.49,
+        0.53
+      ],
+      "color": "nicotine"
+    },
+    {
+      "asset": "box",
+      "box": [
+        0.14,
+        0.39,
+        0.36,
+        0.04
+      ],
+      "color": "nicotine",
+      "label": "ORTHOGONALITY"
+    },
+    {
+      "asset": "box",
+      "box": [
+        0.14,
+        0.52,
+        0.36,
+        0.04
+      ],
+      "color": "nicotine",
+      "label": "INSTRUMENTAL CONVERGENCE"
+    },
+    {
+      "asset": "box",
+      "box": [
+        0.14,
+        0.65,
+        0.36,
+        0.04
+      ],
+      "color": "nicotine",
+      "label": "RACE DYNAMICS"
+    },
+    {
+      "asset": "hand",
+      "box": [
+        0.52,
+        0.7,
+        0.22,
+        0.2
+      ],
+      "color": "dirty",
+      "focus": true
+    }
+  ],
+  "reconstructed": true,
+  "shot": "insert",
+  "source": "\n**Frame:** Curt writes three phrases on a legal pad: `ORTHOGONALITY`, `INSTRUMENTAL CONVERGENCE`, `RACE DYNAMICS`. The report remains open behind them. These are topics, not captions imposed on the incident.\n\n**Action:** He identifies the theoretical material the book must carry.\n\n**Dialogue — CURT:**\n> These have to be in it. But I don’t want a lecture with a breach behind it.\n\n**Provenance:** `reconstructed` — authorized creator dialogue expressing the project brief.\n\n",
+  "title": "Topics on a legal pad"
+}

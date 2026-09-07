@@ -551,6 +551,110 @@
       "source": "\n**Frame:** Close on Curt’s face lit unevenly by the screen, then on a report passage describing an experiment that might permanently end a run. His expression is incredulous, not horrified spectacle.\n\n**Dialogue — CURT:**\n> Oh, come on.\n\n**Provenance:** `reconstructed` — creator dialogue is freely reconstructed.\n\n",
       "title": "An incredulous reaction"
     },
+    "013-03": {
+      "background": "ink",
+      "intent": "Keep the report at left, infrastructure at right and the untouched drink at the far desk edge; the scrolling hand supplies the action.",
+      "lettering": [
+        {
+          "box": [
+            0.05,
+            0.05,
+            0.65,
+            0.18
+          ]
+        }
+      ],
+      "nodes": [
+        {
+          "asset": "desk",
+          "box": [
+            0.13,
+            0.72,
+            0.8,
+            0.23
+          ],
+          "color": "nicotine"
+        },
+        {
+          "asset": "monitor",
+          "box": [
+            0.18,
+            0.32,
+            0.3,
+            0.35
+          ],
+          "color": "steel",
+          "focus": true
+        },
+        {
+          "asset": "monitor",
+          "box": [
+            0.55,
+            0.32,
+            0.3,
+            0.35
+          ],
+          "color": "steel",
+          "focus": true
+        },
+        {
+          "asset": "box",
+          "box": [
+            0.62,
+            0.38,
+            0.06,
+            0.05
+          ],
+          "color": "steel"
+        },
+        {
+          "asset": "box",
+          "box": [
+            0.74,
+            0.49,
+            0.06,
+            0.05
+          ],
+          "color": "steel"
+        },
+        {
+          "asset": "arrow-down",
+          "box": [
+            0.65,
+            0.44,
+            0.03,
+            0.045
+          ],
+          "color": "steel"
+        },
+        {
+          "asset": "hand",
+          "box": [
+            0.38,
+            0.7,
+            0.2,
+            0.22
+          ],
+          "color": "dirty",
+          "focus": true
+        },
+        {
+          "asset": "cup",
+          "box": [
+            0.86,
+            0.68,
+            0.055,
+            0.11
+          ],
+          "color": "nicotine",
+          "focus": true
+        }
+      ],
+      "reconstructed": true,
+      "shot": "medium",
+      "source": "\n**Frame:** He scrolls back from the experiment passage to the message board, then forward to the infrastructure diagram. The half-full drink remains untouched.\n\n**Dialogue — CURT:**\n> No.\n>\n> No no no no no.\n\n**Provenance:** `reconstructed` — dialogue and action invented to express the documented discovery process.\n\n",
+      "title": "Back through the report"
+    },
     "013-04": {
       "background": "ink",
       "intent": "The source remains beside an empty text field. ChatGPT receives no body or face.",
@@ -666,6 +770,214 @@
       "shot": "close-up",
       "source": "\n**Frame:** His hands above the keyboard. Behind them, the linked source passage sits in one window and the empty conversation in another.\n\n**Action:** He sends the request.\n\n**Caption:**\n> THIS PART IS ALSO A RECONSTRUCTION.\n\n**Provenance:** `reconstructed` — the disclosure is part of the project’s truth contract.\n\n",
       "title": "Hands over the keyboard"
+    },
+    "014-02": {
+      "background": "ink",
+      "intent": "Four separate thumbnails establish rack, directory, empty room and machine text without giving any run a body.",
+      "lettering": [
+        {
+          "box": [
+            0.05,
+            0.05,
+            0.76,
+            0.18
+          ]
+        }
+      ],
+      "nodes": [
+        {
+          "asset": "rack",
+          "box": [
+            0.07,
+            0.37,
+            0.13,
+            0.36
+          ],
+          "color": "steel",
+          "focus": true
+        },
+        {
+          "asset": "box",
+          "box": [
+            0.29,
+            0.38,
+            0.08,
+            0.07
+          ],
+          "color": "steel"
+        },
+        {
+          "asset": "arrow-down",
+          "box": [
+            0.32,
+            0.47,
+            0.025,
+            0.07
+          ],
+          "color": "steel"
+        },
+        {
+          "asset": "box",
+          "box": [
+            0.29,
+            0.56,
+            0.08,
+            0.07
+          ],
+          "color": "steel"
+        },
+        {
+          "asset": "room",
+          "box": [
+            0.47,
+            0.35,
+            0.23,
+            0.39
+          ],
+          "color": "nicotine",
+          "focus": true
+        },
+        {
+          "asset": "desk",
+          "box": [
+            0.53,
+            0.57,
+            0.11,
+            0.13
+          ],
+          "color": "nicotine"
+        },
+        {
+          "asset": "card",
+          "box": [
+            0.77,
+            0.39,
+            0.17,
+            0.25
+          ],
+          "color": "steel",
+          "focus": true
+        },
+        {
+          "asset": "hand",
+          "box": [
+            0.32,
+            0.76,
+            0.2,
+            0.17
+          ],
+          "color": "dirty"
+        }
+      ],
+      "reconstructed": true,
+      "shot": "insert",
+      "source": "\n**Frame:** Curt sketches a rack, a directory tree, an empty operations room, and one line of machine text. The sketches occupy the same geometry as pages [001](001.md)–[005](005.md).\n\n**Dialogue — CURT:**\n> The machines don’t need bodies.\n\n**Provenance:** `reconstructed` — creator statement derived from the visual-bible decision.\n\n",
+      "title": "Infrastructure sketches"
+    },
+    "014-03": {
+      "background": "ink",
+      "intent": "Show the result of erasing the invented web: three separate lanes terminate at shared storage, with the source and model reply beside the sketch. Read the model correction before Curt’s admission below the drawing.",
+      "lettering": [
+        {
+          "box": [
+            0.05,
+            0.77,
+            0.9,
+            0.2
+          ]
+        }
+      ],
+      "nodes": [
+        {
+          "asset": "box",
+          "box": [
+            0.07,
+            0.139,
+            0.1,
+            0.076
+          ],
+          "color": "steel",
+          "label": "RUN"
+        },
+        {
+          "asset": "box",
+          "box": [
+            0.07,
+            0.31000000000000005,
+            0.1,
+            0.076
+          ],
+          "color": "steel"
+        },
+        {
+          "asset": "box",
+          "box": [
+            0.07,
+            0.481,
+            0.1,
+            0.076
+          ],
+          "color": "steel"
+        },
+        {
+          "asset": "arrow",
+          "box": [
+            0.2,
+            0.15800000000000003,
+            0.12,
+            0.03325
+          ],
+          "color": "steel"
+        },
+        {
+          "asset": "arrow",
+          "box": [
+            0.2,
+            0.32899999999999996,
+            0.12,
+            0.03325
+          ],
+          "color": "steel"
+        },
+        {
+          "asset": "arrow",
+          "box": [
+            0.2,
+            0.5,
+            0.12,
+            0.03325
+          ],
+          "color": "steel"
+        },
+        {
+          "asset": "box",
+          "box": [
+            0.34,
+            0.12,
+            0.2,
+            0.45599999999999996
+          ],
+          "color": "steel",
+          "focus": true,
+          "label": "SHARED CACHE"
+        },
+        {
+          "asset": "card",
+          "box": [
+            0.67,
+            0.55,
+            0.25,
+            0.14
+          ],
+          "color": "steel",
+          "focus": true,
+          "label": "SOURCE"
+        }
+      ],
+      "reconstructed": true,
+      "shot": "diagram",
+      "source": "\n**Frame:** Curt inks connecting lines across the sketch from panel 2 — a web, every agent lane joined to every other. ChatGPT's block returns beside it with the source passage open, one sentence held up against the drawing.\n\n**Screen / system text — CHATGPT:**\n> The record has no line between two runs. Each one writes into the cache and reads what is already there. Draw the web and you have drawn a network nobody found.\n\n**Action:** Curt erases every connecting line. The lanes end up touching the directory tree and nothing else — the geometry pages [001](001.md)–[005](005.md) already use.\n\n**Dialogue — CURT:**\n> That's the first thing I had wrong. And I'd have drawn it a hundred more times.\n\n**Provenance:** `reconstructed` + `documented` — the exchange is invented; the distinction it turns on is documented. `METR` describes isolated workloads communicating through shared writable state, with no direct channel between any two runs, which is why no page in this book joins a pair. The correction runs from the model to the human.\n\n",
+      "title": "The corrected shared cache"
     },
     "014-04": {
       "background": "ink",
@@ -801,6 +1113,280 @@
       "shot": "insert",
       "source": "\n**Frame:** Curt draws a border around an imagined human meeting, then breaks the border and marks it `RECONSTRUCTED`. Beside it, an attributed board-summary card remains inside a rigid evidence frame.\n\n**Dialogue — CURT:**\n> We can compress. We can reconstruct. We can invent connective scenes.\n\n**Provenance:** `reconstructed` — creator dialogue states the locked story contract.\n\n",
       "title": "Reconstruction beside evidence"
+    },
+    "014-06": {
+      "background": "ink",
+      "intent": "Enlarge the two frames from the preceding panel and preserve a hard separation without arrows in either direction.",
+      "lettering": [
+        {
+          "box": [
+            0.05,
+            0.05,
+            0.88,
+            0.19
+          ]
+        }
+      ],
+      "nodes": [
+        {
+          "asset": "reconstructed-box",
+          "box": [
+            0.07,
+            0.48,
+            0.39,
+            0.32
+          ],
+          "color": "nicotine",
+          "focus": true,
+          "label": "RECONSTRUCTED"
+        },
+        {
+          "asset": "boundary",
+          "box": [
+            0.51,
+            0.47,
+            0.025,
+            0.39
+          ],
+          "color": "paper"
+        },
+        {
+          "asset": "card",
+          "box": [
+            0.6,
+            0.51,
+            0.32,
+            0.29
+          ],
+          "color": "steel",
+          "focus": true,
+          "label": "SOURCE SUMMARY"
+        }
+      ],
+      "reconstructed": true,
+      "shot": "close-up",
+      "source": "\n**Frame:** Tight on the distinction: source summary cannot cross into the reconstructed panel as dialogue; the reconstructed dialogue cannot cross into the evidence frame as fact.\n\n**Dialogue — CURT:**\n> But we don’t get to invent what happened.\n\n**Screen / system text — CHATGPT:**\n> Or pretend we know what it felt like.\n\n**Provenance:** `reconstructed` — statement of method, not incident testimony.\n\n",
+      "title": "The evidence boundary"
+    },
+    "015-01": {
+      "background": "ink",
+      "intent": "Place the three theory terms on creator notes in the foreground, with the report behind them; no terms become incident narration.",
+      "lettering": [
+        {
+          "box": [
+            0.05,
+            0.04,
+            0.9,
+            0.23
+          ]
+        }
+      ],
+      "nodes": [
+        {
+          "asset": "monitor",
+          "box": [
+            0.65,
+            0.32,
+            0.27,
+            0.29
+          ],
+          "color": "steel"
+        },
+        {
+          "asset": "paper",
+          "box": [
+            0.08,
+            0.36,
+            0.49,
+            0.53
+          ],
+          "color": "nicotine"
+        },
+        {
+          "asset": "box",
+          "box": [
+            0.14,
+            0.39,
+            0.36,
+            0.04
+          ],
+          "color": "nicotine",
+          "label": "ORTHOGONALITY"
+        },
+        {
+          "asset": "box",
+          "box": [
+            0.14,
+            0.52,
+            0.36,
+            0.04
+          ],
+          "color": "nicotine",
+          "label": "INSTRUMENTAL CONVERGENCE"
+        },
+        {
+          "asset": "box",
+          "box": [
+            0.14,
+            0.65,
+            0.36,
+            0.04
+          ],
+          "color": "nicotine",
+          "label": "RACE DYNAMICS"
+        },
+        {
+          "asset": "hand",
+          "box": [
+            0.52,
+            0.7,
+            0.22,
+            0.2
+          ],
+          "color": "dirty",
+          "focus": true
+        }
+      ],
+      "reconstructed": true,
+      "shot": "insert",
+      "source": "\n**Frame:** Curt writes three phrases on a legal pad: `ORTHOGONALITY`, `INSTRUMENTAL CONVERGENCE`, `RACE DYNAMICS`. The report remains open behind them. These are topics, not captions imposed on the incident.\n\n**Action:** He identifies the theoretical material the book must carry.\n\n**Dialogue — CURT:**\n> These have to be in it. But I don’t want a lecture with a breach behind it.\n\n**Provenance:** `reconstructed` — authorized creator dialogue expressing the project brief.\n\n",
+      "title": "Topics on a legal pad"
+    },
+    "015-03": {
+      "background": "ink",
+      "intent": "The crossed-out page sits above a fresh heavy pencil line; the spoken rule stays in its own complete lettering block.",
+      "lettering": [
+        {
+          "box": [
+            0.05,
+            0.04,
+            0.9,
+            0.23
+          ]
+        }
+      ],
+      "nodes": [
+        {
+          "asset": "paper",
+          "box": [
+            0.18,
+            0.35,
+            0.55,
+            0.48
+          ],
+          "color": "nicotine"
+        },
+        {
+          "asset": "cross",
+          "box": [
+            0.29,
+            0.39,
+            0.3,
+            0.2
+          ],
+          "color": "dirty",
+          "focus": true
+        },
+        {
+          "asset": "box",
+          "box": [
+            0.26,
+            0.7,
+            0.39,
+            0.018
+          ],
+          "color": "dirty",
+          "focus": true
+        },
+        {
+          "asset": "hand",
+          "box": [
+            0.65,
+            0.68,
+            0.2,
+            0.24
+          ],
+          "color": "dirty",
+          "focus": true
+        }
+      ],
+      "reconstructed": true,
+      "shot": "close-up",
+      "source": "\n**Frame:** Curt crosses out a page of abstract exposition. Beneath it he writes one line in heavy pencil.\n\n**Dialogue — CURT:**\n> Make points plot points and make plot points points.\n\n**Provenance:** `reconstructed` — canonical creator line, disclosed as reconstructed rather than verbatim history.\n\n",
+      "title": "From exposition to action"
+    },
+    "015-05": {
+      "background": "ink",
+      "intent": "Hands and keyboard complete the creator action while a steel timestamp boundary at right prepares the chapter rewind without moss or July markings.",
+      "lettering": [
+        {
+          "box": [
+            0.05,
+            0.04,
+            0.9,
+            0.23
+          ]
+        }
+      ],
+      "nodes": [
+        {
+          "asset": "keyboard",
+          "box": [
+            0.08,
+            0.58,
+            0.48,
+            0.25
+          ],
+          "color": "nicotine"
+        },
+        {
+          "asset": "hand",
+          "box": [
+            0.29,
+            0.47,
+            0.19,
+            0.25
+          ],
+          "color": "dirty",
+          "focus": true
+        },
+        {
+          "asset": "boundary",
+          "box": [
+            0.64,
+            0.3,
+            0.025,
+            0.61
+          ],
+          "color": "steel"
+        },
+        {
+          "asset": "rack",
+          "box": [
+            0.76,
+            0.42,
+            0.12,
+            0.31
+          ],
+          "color": "steel",
+          "focus": true
+        },
+        {
+          "asset": "box",
+          "box": [
+            0.7,
+            0.79,
+            0.23,
+            0.02
+          ],
+          "color": "steel",
+          "label": "20 APRIL 2026"
+        }
+      ],
+      "reconstructed": true,
+      "shot": "close-up",
+      "source": "\n**Frame:** Curt hits return. The right edge of the panel is now a hard vertical timestamp rule: `20 APRIL 2026`. Moss green has vanished. The first civilization waits beyond the chapter turn.\n\n**Dialogue — CURT:**\n> Then we can't start here. Back up. All the way to April.\n\n**Provenance:** `reconstructed` — creator dialogue; the date prepares the documented Chapter 1 rewind.\n\n",
+      "title": "Return to April"
     },
     "025-01": {
       "background": "ink",

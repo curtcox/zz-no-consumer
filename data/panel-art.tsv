@@ -53,21 +53,29 @@ panel	variant	file	provider	seed	width	height	bytes	created	status	note	stage
 013-02	v03	assets/art/panels/013-02/v03-storyboard-svg.svg	storyboard-svg		1200	800	11348	2026-09-07T14:11:22+00:00	candidate		storyboard
 013-02	v04	assets/art/panels/013-02/v04-storyboard-svg.svg	storyboard-svg		1200	800	3611	2026-09-07T14:13:12+00:00	candidate		storyboard
 013-02	v05	assets/art/panels/013-02/v05-storyboard-svg.svg	storyboard-svg		1200	800	4069	2026-09-07T14:18:19+00:00	candidate		storyboard
+013-03	v01	assets/art/panels/013-03/v01-storyboard-svg.svg	storyboard-svg		1200	800	7515	2026-09-07T16:08:40+00:00	candidate		storyboard
 013-04	v01	assets/art/panels/013-04/v01-storyboard-svg.svg	storyboard-svg		1200	800	12270	2026-09-07T14:11:22+00:00	candidate		storyboard
 013-04	v02	assets/art/panels/013-04/v02-storyboard-svg.svg	storyboard-svg		1200	800	5757	2026-09-07T14:13:13+00:00	candidate		storyboard
 013-05	v01	assets/art/panels/013-05/v01-storyboard-svg.svg	storyboard-svg		1200	800	13091	2026-09-07T14:11:23+00:00	candidate		storyboard
 013-05	v02	assets/art/panels/013-05/v02-storyboard-svg.svg	storyboard-svg		1200	800	6794	2026-09-07T14:13:13+00:00	candidate		storyboard
 014-01	v01	assets/art/panels/014-01/v01-flux2-klein-4b-1001.webp	flux2-klein-4b	1001	1200	800	196660	2026-09-05T18:55:39+00:00	candidate		refined
+014-02	v01	assets/art/panels/014-02/v01-storyboard-svg.svg	storyboard-svg		1200	800	10592	2026-09-07T16:08:41+00:00	candidate		storyboard
+014-03	v01	assets/art/panels/014-03/v01-storyboard-svg.svg	storyboard-svg		1200	800	7081	2026-09-07T16:08:41+00:00	candidate		storyboard
+014-03	v02	assets/art/panels/014-03/v02-storyboard-svg.svg	storyboard-svg		1200	800	7240	2026-09-07T16:10:30+00:00	candidate		storyboard
 014-04	v01	assets/art/panels/014-04/v01-flux2-klein-4b-1001.webp	flux2-klein-4b	1001	1200	800	197582	2026-09-05T22:24:36+00:00	candidate		refined
 014-04	v02	assets/art/panels/014-04/v02-storyboard-svg.svg	storyboard-svg		1200	800	12903	2026-09-07T14:11:23+00:00	candidate		storyboard
 014-04	v03	assets/art/panels/014-04/v03-storyboard-svg.svg	storyboard-svg		1200	800	4750	2026-09-07T14:13:13+00:00	candidate		storyboard
 014-05	v01	assets/art/panels/014-05/v01-flux2-klein-4b-1001.webp	flux2-klein-4b	1001	1200	800	200074	2026-09-05T18:57:46+00:00	candidate		refined
 014-05	v02	assets/art/panels/014-05/v02-storyboard-svg.svg	storyboard-svg		1200	800	13114	2026-09-07T14:11:23+00:00	candidate		storyboard
 014-05	v03	assets/art/panels/014-05/v03-storyboard-svg.svg	storyboard-svg		1200	800	6161	2026-09-07T14:13:13+00:00	candidate		storyboard
+014-06	v01	assets/art/panels/014-06/v01-storyboard-svg.svg	storyboard-svg		1200	800	4310	2026-09-07T16:08:41+00:00	candidate		storyboard
+015-01	v01	assets/art/panels/015-01/v01-storyboard-svg.svg	storyboard-svg		1200	800	6489	2026-09-07T16:08:41+00:00	candidate		storyboard
 015-02	v01	assets/art/panels/015-02/v01-flux2-klein-4b-4001.webp	flux2-klein-4b	4001	1200	800	457632	2026-09-03T19:02:56+00:00	candidate		refined
 015-02	v02	assets/art/panels/015-02/v02-flux2-klein-4b-4001.webp	flux2-klein-4b	4001	1200	800	277082	2026-09-03T20:57:39+00:00	candidate		refined
+015-03	v01	assets/art/panels/015-03/v01-storyboard-svg.svg	storyboard-svg		1200	800	4362	2026-09-07T16:08:41+00:00	candidate		storyboard
 015-04	v01	assets/art/panels/015-04/v01-flux2-klein-4b-4001.webp	flux2-klein-4b	4001	1200	800	401944	2026-09-03T19:04:14+00:00	candidate		refined
 015-04	v02	assets/art/panels/015-04/v02-flux2-klein-4b-4001.webp	flux2-klein-4b	4001	1200	800	302022	2026-09-03T20:58:56+00:00	candidate		refined
+015-05	v01	assets/art/panels/015-05/v01-storyboard-svg.svg	storyboard-svg		1200	800	9851	2026-09-07T16:08:41+00:00	candidate		storyboard
 016-05	v01	assets/art/panels/016-05/v01-flux2-klein-4b-1001.webp	flux2-klein-4b	1001	1200	800	181504	2026-09-05T18:58:49+00:00	candidate		refined
 016-05	v02	assets/art/panels/016-05/v02-flux2-klein-4b-1001.webp	flux2-klein-4b	1001	832	1216	231850	2026-09-05T19:12:51+00:00	candidate		refined
 016-05	v03	assets/art/panels/016-05/v03-flux2-klein-4b-20step-1001.webp	flux2-klein-4b-20step	1001	1200	800	213800	2026-09-05T19:23:23+00:00	candidate		refined

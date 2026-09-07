@@ -1,0 +1,104 @@
+{
+  "background": "ink",
+  "intent": "Keep the report at left, infrastructure at right and the untouched drink at the far desk edge; the scrolling hand supplies the action.",
+  "lettering": [
+    {
+      "box": [
+        0.05,
+        0.05,
+        0.65,
+        0.18
+      ]
+    }
+  ],
+  "nodes": [
+    {
+      "asset": "desk",
+      "box": [
+        0.13,
+        0.72,
+        0.8,
+        0.23
+      ],
+      "color": "nicotine"
+    },
+    {
+      "asset": "monitor",
+      "box": [
+        0.18,
+        0.32,
+        0.3,
+        0.35
+      ],
+      "color": "steel",
+      "focus": true
+    },
+    {
+      "asset": "monitor",
+      "box": [
+        0.55,
+        0.32,
+        0.3,
+        0.35
+      ],
+      "color": "steel",
+      "focus": true
+    },
+    {
+      "asset": "box",
+      "box": [
+        0.62,
+        0.38,
+        0.06,
+        0.05
+      ],
+      "color": "steel"
+    },
+    {
+      "asset": "box",
+      "box": [
+        0.74,
+        0.49,
+        0.06,
+        0.05
+      ],
+      "color": "steel"
+    },
+    {
+      "asset": "arrow-down",
+      "box": [
+        0.65,
+        0.44,
+        0.03,
+        0.045
+      ],
+      "color": "steel"
+    },
+    {
+      "asset": "hand",
+      "box": [
+        0.38,
+        0.7,
+        0.2,
+        0.22
+      ],
+      "color": "dirty",
+      "focus": true
+    },
+    {
+      "asset": "cup",
+      "box": [
+        0.86,
+        0.68,
+        0.055,
+        0.11
+      ],
+      "color": "nicotine",
+      "focus": true
+    }
+  ],
+  "reconstructed": true,
+  "shot": "medium",
+  "source": "\n**Frame:** He scrolls back from the experiment passage to the message board, then forward to the infrastructure diagram. The half-full drink remains untouched.\n\n**Dialogue — CURT:**\n> No.\n>\n> No no no no no.\n\n**Provenance:** `reconstructed` — dialogue and action invented to express the documented discovery process.\n\n",
+  "title": "Back through the report"
+}
