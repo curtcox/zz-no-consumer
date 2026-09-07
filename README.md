@@ -6,7 +6,7 @@ A graphic novel about emergent AI agent coordination, instrumental convergence, 
 - `content/` — canonical human-editable story material.
 - `content/parallel-tracks/` — optional companion-track briefs that do not alter the canonical narrative.
 - `content/novella/` — the prose retelling: one text file per story page, in chapter directories mirroring `content/chapters/`.
-- `content/appendix/` — the appendix of contested assertions and logical fallacies, keyed to story page numbers so it serves the graphic novel and the novella alike.
+- `content/appendix/` — the appendix of contested assertions, logical fallacies, and professional objections, keyed to story page numbers so it serves the graphic novel and the novella alike.
 - `content/creator-characters.md` — the creator-frame character bible: Curt, ChatGPT, Claude, and the disclosed composite.
 - `prompts/` — image-generation prompts and page-specific direction.
 - `research/` — source material, timeline, cast, glossary, and provenance notes.
@@ -134,13 +134,13 @@ The viewer validator cannot cover this tree — it asserts controls a prose read
 
 ## The appendix
 
-`content/appendix/` is the book's back matter: one file per contested assertion and one per
-logical fallacy, each keyed to story page numbers. **The graphic novel and the novella share
+`content/appendix/` is the book's back matter: one file per contested assertion, per logical
+fallacy, and per professional objection, each keyed to story page numbers. **The graphic novel and the novella share
 a pagination, so one appendix serves both** — an entry about page 039 is an entry about page
 039 in either edition, and a reader holding one can use it with the other.
 
 ```sh
-python3 scripts/appendix.py report                 # census, page coverage, stance and fallacy spread
+python3 scripts/appendix.py report                 # census, page coverage, stance, fallacy and field spread
 python3 scripts/appendix.py check                  # exit non-zero while the appendix disagrees with itself
 python3 scripts/appendix.py json --out data/appendix.json
 python3 scripts/appendix.py assemble --out FILE    # the whole appendix as one document
@@ -163,9 +163,20 @@ argument, and an entry that names a real person or organisation must carry the U
 of the statement it characterises — `content/story-contract.md`'s critic rule, enforced by
 `check` rather than remembered.
 
+A **professional objection** entry is the criticism one trade would make of this book: what a
+digital-forensics lead, a structural engineer, a triage physician, a translator, an arms-control
+negotiator or a union organiser would notice that the book missed. Forty-five professions across
+ten fields, each field drawn from a fixed vocabulary in `scripts/appendix.py` so the shape of the
+coverage stays visible. The practitioner is hypothetical and the evidence is not: every entry
+declares `conjecture: marked` or `conjecture: none`, an entry that guesses carries the
+`> **Conjecture.**` marker in its prose, a conjecture row may not carry a URL — a claim with a
+source is evidence — and every entry needs at least one reference with a public address.
+`check` enforces all four, so the appendix cannot pass a guess off as a finding.
+
 Several entries are about the book's own reasoning, including two errors it made and
 corrected: the false analogy between the RCE timestamp gap and the credential split, and the
-model-produced ranking on page 064 that page 088 takes apart.
+model-produced ranking on page 064 that page 088 takes apart. Several professional entries
+object to things the book does on purpose, and say so.
 
 **Links are the payload, so every edition that can make one clickable does.** The appendix is
 published at [`docs/appendix/`](docs/appendix/) with a route per entry and an index from page

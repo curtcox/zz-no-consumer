@@ -1175,7 +1175,8 @@ def novella_epub(chapters: list[NovellaChapter], destination: Path,
 
 # ---------------------------------------------------------------- the appendix
 #
-# The appendix of contested assertions and logical fallacies is addressed by story page,
+# The appendix of contested assertions, logical fallacies, and professional objections is
+# addressed by story page,
 # and the graphic novel and the novella share a pagination, so one appendix serves both.
 # It is published three ways: as its own section of routes, as the last chapter of every
 # novella download, and as a per-page index that links from a page number to its entries.
@@ -1187,7 +1188,10 @@ def novella_epub(chapters: list[NovellaChapter], destination: Path,
 # ---------------------------------------------------------------------------
 
 APPENDIX_DIR = "appendix"
-APPENDIX_TITLE = "Contested Assertions and Logical Fallacies"
+APPENDIX_TITLE = "Contested Assertions, Logical Fallacies, and Professional Objections"
+
+# One directory per kind, so an entry's route says what kind of entry it is.
+APPENDIX_KIND_DIRS = {"contested": "contested", "fallacy": "fallacies", "profession": "professions"}
 
 
 def appendix_entries() -> appendix_module.Appendix:
@@ -1198,7 +1202,7 @@ def appendix_entries() -> appendix_module.Appendix:
 
 
 def appendix_destination(entry: appendix_module.Entry) -> Path:
-    return Path(APPENDIX_DIR, "contested" if entry.kind == "contested" else "fallacies",
+    return Path(APPENDIX_DIR, APPENDIX_KIND_DIRS.get(entry.kind, "contested"),
                 entry.id.lower(), "index.html")
 
 
@@ -1300,11 +1304,12 @@ def build_appendix(document) -> int:
     def entry_card(entry: appendix_module.Entry) -> str:
         target = route_url(directory, appendix_destination(entry))
         cited = ", ".join(f"{page:03d}" for page in entry.pages)
-        detail = (
-            f"{entry.front.get('layer', '')} · {entry.front.get('status', '')}"
-            if entry.kind == "contested"
-            else f"{entry.front.get('fallacy', '')} · {entry.front.get('attributed_to', '')}"
-        )
+        if entry.kind == "contested":
+            detail = f"{entry.front.get('layer', '')} · {entry.front.get('status', '')}"
+        elif entry.kind == "profession":
+            detail = f"{entry.front.get('field', '')} · conjecture {entry.front.get('conjecture', '')}"
+        else:
+            detail = f"{entry.front.get('fallacy', '')} · {entry.front.get('attributed_to', '')}"
         return (
             f'<a class="card" href="{html.escape(target)}">'
             f'<span class="card__number">{html.escape(entry.id)}</span>'
@@ -1364,6 +1369,8 @@ def build_appendix(document) -> int:
         f'<div class="cards">{"".join(entry_card(entry) for entry in model.contested)}</div>'
         f"<h2>Logical fallacies</h2>"
         f'<div class="cards">{"".join(entry_card(entry) for entry in model.fallacies)}</div>'
+        f"<h2>Professional objections</h2>"
+        f'<div class="cards">{"".join(entry_card(entry) for entry in model.professions)}</div>'
         f'<p class="note">The appendix also ships inside every '
         f'<a href="{html.escape(route_url(directory, Path(NOVELLA_DIR, "index.html")))}">novella '
         f"download</a>, with the same page numbers and the same links.</p>"

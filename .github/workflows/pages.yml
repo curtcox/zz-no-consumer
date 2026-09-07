@@ -38,7 +38,7 @@ jobs:
       - name: Check the novella against the page scripts
         run: python scripts/novella.py check
 
-      - name: Check the appendix of contested assertions and fallacies
+      - name: Check the appendix of contested assertions, fallacies, and professional objections
         run: python scripts/appendix.py check
 
       - name: Check controlled knowledge-map assets

@@ -1,11 +1,11 @@
 #!/usr/bin/env python3
-"""The appendix of contested assertions and logical fallacies.
+"""The appendix of contested assertions, logical fallacies, and professional objections.
 
 `content/appendix/` holds one file per entry. An entry is keyed to story page numbers,
 which are the same numbers in the graphic novel and in the novella, so a single appendix
 serves both editions and a reader who has one can use it with the other.
 
-Two kinds of entry live here:
+Three kinds of entry live here:
 
 * **contested** — an assertion the book makes, or reports, whose truth is genuinely in
   dispute. Each carries the best available evidence *from more than one stance*, with a URL
@@ -13,6 +13,12 @@ Two kinds of entry live here:
 * **fallacy** — a piece of reasoning in the book, or in a dated public statement the book
   cites, that does not license its conclusion. The named fallacy comes from a fixed
   vocabulary so the appendix cannot invent a category to win an argument.
+* **profession** — the objection a practitioner of one trade would raise against the book:
+  what their field would notice that the book missed, got wrong, or left out. The
+  practitioner is hypothetical and the entry says so; what is not hypothetical is the
+  evidence, which follows the same rule as everywhere else here. Where the field has
+  published something that supports the objection, the entry cites it; where it has not,
+  the entry marks the claim as conjecture rather than dressing it as a finding.
 
 The unit is the entry, the address is the page, and the evidence table is the payload.
 
@@ -30,6 +36,11 @@ The unit is the entry, the address is the page, and the evidence table is the pa
 3. **A fallacy attributed to a real, named person or organisation cites the dated public
    statement it characterises.** `content/story-contract.md` allows real critics on the page
    only through attributed paraphrase of dated public writing; this is that rule, enforced.
+4. **A profession entry separates what its field can show from what it is guessing.** Every
+   one declares `conjecture: marked` or `conjecture: none`, an entry that declares `marked`
+   carries the `> **Conjecture.**` marker in its prose, an entry that declares `none` carries
+   neither the marker nor a conjecture row, and no conjecture row carries a URL — a row with
+   a source is evidence and has to be filed as evidence.
 """
 
 from __future__ import annotations
@@ -49,8 +60,9 @@ ROOT = Path(__file__).resolve().parents[1]
 BASE = ROOT / "content" / "appendix"
 CONTESTED = BASE / "contested"
 FALLACIES = BASE / "fallacies"
+PROFESSIONS = BASE / "professions"
 
-ID = re.compile(r"^(CA|LF)-(\d{2})$")
+ID = re.compile(r"^(CA|LF|PR)-(\d{2})$")
 URL = re.compile(r"\[([^\]]+)\]\((https?://[^)\s]+)\)")
 BARE_URL = re.compile(r"https?://[^\s)\]<>]+")
 
@@ -83,10 +95,30 @@ FALLACIES_VOCABULARY = {
     "survivorship-bias": "Counting what was caught and not what was missed.",
 }
 
+# A profession entry files itself under one of these rather than naming its own domain, for
+# the same reason a fallacy entry names its fault from a list: so the shape of the coverage
+# is visible, and so a field cannot be invented to hold a single entry.
+FIELDS = {
+    "security-and-infrastructure": "Defending, running, breaking, and rebuilding systems.",
+    "software-and-ml": "Building the software and the models, and measuring them.",
+    "law-and-policy": "Statute, regulation, compliance, and the duties they create.",
+    "business-and-finance": "Pricing risk, buying it, insuring it, and answering for it.",
+    "science-and-engineering": "Designing things that fail, and investigating them when they do.",
+    "medicine-and-health": "Triage, research ethics, clinical judgement, and populations.",
+    "trades-and-operations": "Licensed, inspected, checklisted work with physical consequences.",
+    "arts-and-letters": "Making the artifact: craft, form, translation, and custody.",
+    "education-and-media": "Sourcing, teaching, cataloguing, and publishing.",
+    "public-service": "Investigation, emergency command, intelligence, diplomacy, and labour.",
+}
+
+CONJECTURE_MARKER = "> **Conjecture.**"
+CONJECTURE_STANCE = "conjecture"
+
 ATTRIBUTIONS = ("in-story", "book", "named-source")
 LAYERS = ("incident", "thesis")
 STATUSES = ("unresolved", "disputed", "bounded", "open")
-KINDS = ("contested", "fallacy")
+CONJECTURES = ("marked", "none")
+KINDS = ("contested", "fallacy", "profession")
 
 
 @dataclass(frozen=True)
@@ -138,6 +170,10 @@ class Appendix:
     @property
     def fallacies(self) -> list[Entry]:
         return [entry for entry in self.entries if entry.kind == "fallacy"]
+
+    @property
+    def professions(self) -> list[Entry]:
+        return [entry for entry in self.entries if entry.kind == "profession"]
 
     def by_page(self) -> dict[int, list[Entry]]:
         index: dict[int, list[Entry]] = {}
@@ -230,7 +266,7 @@ def read_entry(path: Path) -> Entry:
 
 def entry_files() -> list[Path]:
     paths: list[Path] = []
-    for directory in (CONTESTED, FALLACIES):
+    for directory in (CONTESTED, FALLACIES, PROFESSIONS):
         if directory.is_dir():
             paths.extend(sorted(directory.glob("*.md")))
     return paths
@@ -252,6 +288,15 @@ def audit(appendix: Appendix) -> list[Note]:
 
     required_contested = ("What the book asserts", "Why it is contested", "The evidence")
     required_fallacy = ("Where it appears", "Why the reasoning does not carry", "The evidence")
+    required_profession = ("What the practitioner would say",
+                           "What the book gets wrong or omits",
+                           "The evidence")
+    required = {"contested": required_contested,
+                "fallacy": required_fallacy,
+                "profession": required_profession}
+    directory_of = {"contested": CONTESTED, "fallacy": FALLACIES, "profession": PROFESSIONS}
+    prefix_of = {"contested": "CA-", "fallacy": "LF-", "profession": "PR-"}
+    professions_seen: dict[str, str] = {}
 
     for entry in appendix.entries:
         where = entry.relative
@@ -265,14 +310,15 @@ def audit(appendix: Appendix) -> list[Note]:
 
         if entry.kind not in KINDS:
             notes.append(Note("error", "bad-kind", where, f"kind {entry.kind!r} is not one of {KINDS}"))
-        expected_directory = CONTESTED if entry.kind == "contested" else FALLACIES
-        if entry.kind in KINDS and entry.path.parent != expected_directory:
-            notes.append(Note("error", "misfiled", where,
-                              f"a {entry.kind} entry belongs in {expected_directory.relative_to(ROOT)}/"))
-        if entry.kind == "contested" and not entry.id.startswith("CA-"):
-            notes.append(Note("error", "id-kind-mismatch", where, "a contested entry takes a CA- id"))
-        if entry.kind == "fallacy" and not entry.id.startswith("LF-"):
-            notes.append(Note("error", "id-kind-mismatch", where, "a fallacy entry takes an LF- id"))
+        if entry.kind in KINDS:
+            expected_directory = directory_of[entry.kind]
+            if entry.path.parent != expected_directory:
+                notes.append(Note("error", "misfiled", where,
+                                  f"a {entry.kind} entry belongs in {expected_directory.relative_to(ROOT)}/"))
+            prefix = prefix_of[entry.kind]
+            if not entry.id.startswith(prefix):
+                notes.append(Note("error", "id-kind-mismatch", where,
+                                  f"a {entry.kind} entry takes a {prefix} id"))
 
         if not entry.title:
             notes.append(Note("error", "no-title", where, "has no title"))
@@ -286,7 +332,7 @@ def audit(appendix: Appendix) -> list[Note]:
                 notes.append(Note("error", "dangling-page", where,
                                   f"cites page {page:03d}, which is not in the page manifest"))
 
-        for heading in (required_contested if entry.kind == "contested" else required_fallacy):
+        for heading in required.get(entry.kind, ()):
             if heading not in entry.sections:
                 notes.append(Note("error", "missing-section", where, f"has no '## {heading}' section"))
 
@@ -330,8 +376,56 @@ def audit(appendix: Appendix) -> list[Note]:
             if not entry.references:
                 notes.append(Note("error", "no-evidence", where, "carries no evidence table rows"))
 
+        if entry.kind == "profession":
+            trade = entry.front.get("profession", "")
+            if not trade:
+                notes.append(Note("error", "no-profession", where, "names no profession"))
+            elif trade.lower() in professions_seen:
+                notes.append(Note("error", "duplicate-profession", where,
+                                  f"{trade} is also {professions_seen[trade.lower()]}"))
+            else:
+                professions_seen[trade.lower()] = where
+            field = entry.front.get("field", "")
+            if field not in FIELDS:
+                notes.append(Note("error", "bad-field", where,
+                                  f"field {field!r} is not one of {tuple(FIELDS)}"))
+            if not entry.front.get("reading"):
+                notes.append(Note("error", "no-reading", where,
+                                  "does not state the objection in a reading: line"))
+
+            # Rule 4. The practitioner is hypothetical; the evidence is not allowed to be.
+            # An entry that guesses says so in the prose, an entry that does not guess is
+            # held to that, and a guess with a source is not a guess.
+            conjecture = entry.front.get("conjecture", "")
+            marked = CONJECTURE_MARKER in entry.body
+            conjecture_rows = [reference for reference in entry.references
+                               if reference.stance.strip().lower() == CONJECTURE_STANCE]
+            if conjecture not in CONJECTURES:
+                notes.append(Note("error", "bad-conjecture", where,
+                                  f"conjecture {conjecture!r} is not one of {CONJECTURES}"))
+            elif conjecture == "marked" and not marked:
+                notes.append(Note("error", "unmarked-conjecture", where,
+                                  f"declares conjecture but carries no '{CONJECTURE_MARKER}' marker"))
+            elif conjecture == "none" and (marked or conjecture_rows):
+                notes.append(Note("error", "undeclared-conjecture", where,
+                                  "declares no conjecture but carries a conjecture marker or row"))
+            for reference in conjecture_rows:
+                if reference.url:
+                    notes.append(Note("error", "sourced-conjecture", where,
+                                      f"'{reference.label}' is filed as conjecture and carries a URL; "
+                                      "a row with a source is evidence"))
+
+            # A profession entry is an objection with a bibliography, not an opinion. At
+            # least one row has to point somewhere a reader can go.
+            if not any(reference.url for reference in entry.references):
+                notes.append(Note("error", "uncited-objection", where,
+                                  "carries no reference with a public URL"))
+            if len(entry.references) < 4:
+                notes.append(Note("warning", "thin-evidence", where,
+                                  f"carries {len(entry.references)} references"))
+
         for reference in entry.references:
-            if not reference.url:
+            if not reference.url and reference.stance.strip().lower() != CONJECTURE_STANCE:
                 notes.append(Note("note", "no-url", where,
                                   f"'{reference.label}' has no public URL"))
 
@@ -340,7 +434,7 @@ def audit(appendix: Appendix) -> list[Note]:
     # the EPUB, the self-contained HTML, and the reader alike, so it fails rather than warns.
     anchors = {anchor(entry): entry.id for entry in appendix.entries}
     for entry in appendix.entries:
-        for target in re.findall(r"\]\(#((?:ca|lf)-[a-z0-9-]+)\)", entry.body, flags=re.IGNORECASE):
+        for target in re.findall(r"\]\(#((?:ca|lf|pr)-[a-z0-9-]+)\)", entry.body, flags=re.IGNORECASE):
             if target.lower() not in anchors:
                 notes.append(Note("error", "dangling-anchor", entry.relative,
                                   f"links to #{target}, which is not an entry anchor"))
@@ -372,7 +466,8 @@ def cmd_check(strict: bool) -> int:
     counts = print_notes(notes)
     print(
         f"\n{len(appendix.entries)} entries "
-        f"({len(appendix.contested)} contested, {len(appendix.fallacies)} fallacies), "
+        f"({len(appendix.contested)} contested, {len(appendix.fallacies)} fallacies, "
+        f"{len(appendix.professions)} professions), "
         f"{sum(len(entry.references) for entry in appendix.entries)} references, "
         f"{len(appendix.by_page())} pages cited."
     )
@@ -391,7 +486,8 @@ def cmd_report() -> int:
     print("-------")
     for entry in appendix.entries:
         pages = ", ".join(f"{page:03d}" for page in entry.pages)
-        detail = entry.front.get("layer") or entry.front.get("fallacy") or ""
+        detail = (entry.front.get("layer") or entry.front.get("fallacy")
+                  or entry.front.get("field") or "")
         print(f"  {entry.id}  {entry.title}")
         print(f"          {detail:<24} pages {pages}")
         print(f"          {len(entry.references)} references, {len(entry.stances)} stances")
@@ -416,6 +512,24 @@ def cmd_report() -> int:
     unused = sorted(set(FALLACIES_VOCABULARY) - set(named))
     if unused:
         print(f"  ({len(unused)} vocabulary entries unused: {', '.join(unused)})")
+
+    print("\nProfessions")
+    print("-----------")
+    by_field: dict[str, list[str]] = {}
+    for entry in appendix.professions:
+        by_field.setdefault(entry.front.get("field", "?"), []).append(
+            entry.front.get("profession", entry.title))
+    for field in FIELDS:
+        trades = by_field.get(field, [])
+        print(f"  {len(trades):>4}  {field}")
+        for trade in trades:
+            print(f"          {trade}")
+    unused_fields = sorted(set(by_field) - set(FIELDS))
+    if unused_fields:
+        print(f"  (filed under no known field: {', '.join(unused_fields)})")
+    conjectural = sum(1 for entry in appendix.professions
+                      if entry.front.get("conjecture") == "marked")
+    print(f"\n  {conjectural} of {len(appendix.professions)} profession entries mark a conjecture.")
 
     print("\nPage coverage")
     print("-------------")
@@ -480,7 +594,7 @@ def assemble() -> str:
     intro = intro.split("<!-- editorial -->")[0].strip()
 
     parts = [
-        "# Appendix — Contested Assertions and Logical Fallacies",
+        "# Appendix — Contested Assertions, Logical Fallacies, and Professional Objections",
         "",
         intro,
         "",
@@ -498,6 +612,9 @@ def assemble() -> str:
     parts += ["## Logical fallacies", ""]
     for entry in appendix.fallacies:
         parts += [render(entry), ""]
+    parts += ["## Professional objections", ""]
+    for entry in appendix.professions:
+        parts += [render(entry), ""]
     return "\n".join(parts).rstrip() + "\n"
 
 
@@ -512,14 +629,18 @@ def render(entry: Entry) -> str:
     if entry.kind == "contested":
         meta.append(f"**Layer** {entry.front.get('layer', '')}")
         meta.append(f"**Status** {entry.front.get('status', '')}")
+    elif entry.kind == "profession":
+        meta.append(f"**Profession** {entry.front.get('profession', '')}")
+        meta.append(f"**Field** {entry.front.get('field', '')}")
+        meta.append(f"**Conjecture** {entry.front.get('conjecture', '')}")
     else:
         meta.append(f"**Fallacy** {entry.front.get('fallacy', '')}")
         meta.append(f"**Attributed to** {entry.front.get('attributed_to', '')}")
         if entry.front.get("speaker"):
             meta.append(f"**Speaker** {entry.front['speaker']}")
     lines += [" · ".join(meta), ""]
-    if entry.front.get("claim"):
-        lines += [f"> {entry.front['claim']}", ""]
+    if entry.front.get("claim") or entry.front.get("reading"):
+        lines += [f"> {entry.front.get('claim') or entry.front['reading']}", ""]
     lines += [entry.body.strip(), ""]
     return "\n".join(lines)
 
@@ -527,7 +648,7 @@ def render(entry: Entry) -> str:
 def main(argv: list[str] | None = None) -> int:
     parser = argparse.ArgumentParser(description=__doc__.splitlines()[0])
     commands = parser.add_subparsers(dest="command", required=True)
-    commands.add_parser("report", help="census, page coverage, stance and fallacy spread")
+    commands.add_parser("report", help="census, page coverage, stance, fallacy and field spread")
     check = commands.add_parser("check", help="exit non-zero while the appendix disagrees with itself")
     check.add_argument("--strict", action="store_true", help="also fail on warnings")
     dump = commands.add_parser("json", help="the whole model, for other tools")

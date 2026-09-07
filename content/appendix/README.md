@@ -1,10 +1,10 @@
-# Appendix — Contested Assertions and Logical Fallacies
+# Appendix — Contested Assertions, Logical Fallacies, and Professional Objections
 
 This appendix is addressed by story page number. The graphic novel and the novella carry the
 same pagination, so an entry keyed to page 039 is an entry about page 039 in either edition,
 and a reader holding one can use the appendix with the other.
 
-It has two halves.
+It has three parts.
 
 **Contested assertions** are claims the book makes, or reports, whose truth is genuinely in
 dispute. Each entry states the assertion as the book puts it, says why it is contested, and
@@ -28,6 +28,17 @@ dated public statement, quoted or paraphrased, with the address of that statemen
 the same rule `content/story-contract.md` places on the story pages. An entry never
 characterises a private belief, a motive, or anything anyone said off the record.
 
+**Professional objections** are the criticisms a practitioner of one trade would make of this
+book. Each entry takes one profession — incident response, structural engineering, translation,
+triage, arms control, forty-five of them — and states what that field would notice that the book
+missed, got wrong, or never thought to ask. The practitioner is hypothetical and every entry
+says so; the objection is written in the field's own terms, and the evidence under it is real.
+Where the field has published something that carries the point, the entry cites it. Where it has
+not, the entry marks the claim as conjecture, in the prose and in the evidence table both, and
+`check` refuses an entry that guesses without saying so or that files a guess with a source
+attached. A profession entry is not a verdict on the book any more than a fallacy entry is a
+verdict on a person: several of them object to something the book does deliberately, and say so.
+
 Several entries are about this book's own reasoning, including two mistakes it made and
 corrected while it was being written. Those are here for the same reason the provenance
 labels are on the pages: a reader who cannot see where the argument was weak has no way to
@@ -43,7 +54,7 @@ where a reader can go to decide.
 Everything below this line is repository apparatus and does not appear in the book.
 
 ```sh
-python3 scripts/appendix.py report                 # census, page coverage, stance and fallacy spread
+python3 scripts/appendix.py report                 # census, page coverage, stance, fallacy and field spread
 python3 scripts/appendix.py check                  # exit non-zero while the appendix disagrees with itself
 python3 scripts/appendix.py json --out data/appendix.json
 python3 scripts/appendix.py assemble --out FILE    # the whole appendix as one document
@@ -53,9 +64,10 @@ python3 scripts/appendix.py assemble --out FILE    # the whole appendix as one d
 
 - `contested/NN-slug.md` — one contested assertion, id `CA-NN`.
 - `fallacies/NN-slug.md` — one fallacy, id `LF-NN`.
+- `professions/NN-slug.md` — one professional objection, id `PR-NN`.
 
-`check` refuses a `contested` entry filed under `fallacies/`, or the reverse, and refuses an
-id whose prefix does not match its kind.
+`check` refuses an entry filed under another kind's directory, and refuses an id whose prefix
+does not match its kind.
 
 ### Front matter
 
@@ -94,11 +106,43 @@ said: 5 August 2026                  # required when attributed_to is named-sour
 ---
 ```
 
+Professions:
+
+```yaml
+---
+id: PR-01
+kind: profession
+profession: Digital forensics and incident response lead   # unique across the appendix
+field: security-and-infrastructure     # from the vocabulary in scripts/appendix.py
+title: ...
+pages: [029, 067, 083]
+conjecture: marked                     # marked | none
+reading: >-
+  The objection in one or two sentences, in the practitioner's voice.
+---
+```
+
+`field` comes from a fixed list for the same reason the fallacy vocabulary is fixed: so the
+shape of the coverage is visible, and so a domain cannot be invented to hold one entry.
+
 ### Sections
 
 A contested entry carries `## What the book asserts`, `## Why it is contested`, and
 `## The evidence`. A fallacy entry carries `## Where it appears`,
-`## Why the reasoning does not carry`, and `## The evidence`. `check` fails on a missing one.
+`## Why the reasoning does not carry`, and `## The evidence`. A profession entry carries
+`## What the practitioner would say`, `## What the book gets wrong or omits`, and
+`## The evidence`. `check` fails on a missing one.
+
+### Conjecture
+
+A profession entry declares `conjecture: marked` or `conjecture: none`, and `check` holds it to
+the declaration. An entry that declares `marked` carries at least one `> **Conjecture.**`
+blockquote saying what it is guessing and why the guess is not evidence. An entry that declares
+`none` carries neither that marker nor a `Conjecture` row. A row whose stance is `Conjecture`
+must carry no URL — a claim with a source is evidence, and belongs in the table as evidence —
+and those rows are exempt from the missing-address note for the same reason. Every profession
+entry also needs at least one reference with a public URL: an objection with no address behind
+any of it is an opinion, and `check` says so.
 
 ### The evidence table
 
@@ -109,9 +153,10 @@ One table, four columns, one row per reference:
 | Formal defence | [Optimal Policies Tend to Seek Power](https://arxiv.org/abs/1912.01683) | 2019/2021 | … |
 
 The **Stance** cell is the position the source occupies in the disagreement, not a quality
-score. `check` requires a contested entry to carry at least two distinct stances, and warns
-below four references. A row whose source cell carries no link is allowed — some of the best
-evidence has no stable public address — and is reported as a note so the gap stays visible.
+score. `check` requires a contested entry to carry at least two distinct stances, and warns a
+contested or profession entry below four references. A row whose source cell carries no link is
+allowed — some of the best evidence has no stable public address — and is reported as a note so
+the gap stays visible.
 
 ### Renumbering
 
