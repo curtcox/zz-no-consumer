@@ -1,0 +1,23 @@
+{
+  "panel": "029-02",
+  "prompt": "Use case: illustration-story. New landscape 1536x1024 investigative graphic-novel panel. Reference is ink style and materials only. Split editorial operation: LEFT shows underlying storage preserved as two intact storage drives sealed together inside a plain evidence enclosure with a simple tamper seal, clearly labeled exactly PRESERVED STORAGE. RIGHT shows two credential cards bearing simple key icons, each crossed out, plus three abstract request paths ending at a solid barrier. Right label exactly REVOKED ACCESS. Preserve evidence enclosure intact; no shredding, deletion, destruction or flowing contents. Separate the operations by a thin muted amber vertical source-boundary line. No connections from the evidence box to the revoked cards. Artwork and labels confined to top 70 percent; bottom 23 percent quiet dark negative space for later caption. Heavy nib/brush charcoal ink, drybrush, halftone, muted steel #5E737B, dirty paper #E7E0D0. Full bleed, no white margin or decorative frame, no green/moss, people, avatars, real credentials, source prose, technical addresses, other words or logos. The enclosure must resemble preserved hardware evidence, not the folded sealed plugin package.",
+  "source_file": "/Users/curtcox/.codex/generated_images/01a07d3b-83f6-77e3-b006-39f2f4ad8687/exec-535918ca-7121-4318-b826-df59d0602c7f.png",
+  "elapsed_seconds": 31.838,
+  "references": [
+    "assets/art/panels/028-06/v04-builtin-image-pilot.png"
+  ],
+  "reference_hashes": [
+    "7e8aced325e918a190a1686cced5426b1db641241bb3954ec310253916261d6d"
+  ],
+  "stored_file": "assets/art/panels/029-02/v03-builtin-image-pilot.png",
+  "variant": "v03",
+  "sha256": "2386b1fabaa2bd66202909e2af9c6776ae263eefa661bff8a9682b451f65f32e",
+  "dimensions": [
+    1536,
+    1024
+  ],
+  "tool": "image_gen.imagegen",
+  "model_revision": null,
+  "seed": null,
+  "controls": "Model revision, seed, sampler, strength and billing unavailable."
+}
