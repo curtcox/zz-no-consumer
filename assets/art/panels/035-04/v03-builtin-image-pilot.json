@@ -1,0 +1,24 @@
+{
+  "panel": "035-04",
+  "prompt": "Use case: illustration-story. New 1536x1024 landscape investigative comic panel. Reference establishes preserved-storage evidence bag, intact hardware and charcoal steel ink. New deliberate SPLIT composition: LEFT third contains the sealed transparent evidence bag with two intact storage drives, strap and seal exactly like reference, backed by a low dark steel pedestal, exact small label PRESERVED STORAGE. RIGHT third contains one upright rebuilt live service cabinet, clean steel frame and vents, exact label REBUILT CACHE, small plain dark directory field with no visible messages. Both objects entirely in upper 70 percent. Middle 25 percent is an EMPTY uninterrupted vertical strip of charcoal negative space, from top to below subjects; keep wide enough for later graphic annotation, but draw no annotation now. Objects remain separate: no arrows, cables, tracks, ghost text, reflections linking them or data transfer. Evidence intact, not smashed or burned. Caption is added later; bottom 23 percent quiet almost-black. Full bleed heavy nib/brush charcoal ink, restrained drybrush and halftone, charcoal #101214/#202326, steel #5E737B, subdued paper tan only on seal, gray highlights. No people, moss, green, text besides two exact labels, usable code or credentials, old messages, hidden third path, neon, white margin or decorative outer frame. This is an editorial comparison of physical preserved evidence versus runtime cache, not a memory diagram.",
+  "references": [
+    "assets/art/panels/029-03/v04-builtin-image-pilot.png"
+  ],
+  "elapsed_seconds": 26.865,
+  "source_file": "/Users/curtcox/.codex/generated_images/01a07dff-f46e-7113-8c8c-21a254c0df91/exec-fa50a4c4-404c-423a-8165-2db7f6704e6a.png",
+  "decision": "rejected",
+  "reference_hashes": [
+    "ba5852bf8035c616f22779f06b174655010fc57c86f0961326b71c01411601db"
+  ],
+  "stored_file": "assets/art/panels/035-04/v03-builtin-image-pilot.png",
+  "variant": "v03",
+  "sha256": "c0f18f818f5f15cdb8e6119450e78c445297c69ab9253e11f5814d7e9a764c12",
+  "dimensions": [
+    1536,
+    1024
+  ],
+  "tool": "image_gen.imagegen",
+  "model_revision": null,
+  "seed": null,
+  "controls": "Model revision, seed, sampler, strength and billing unavailable."
+}

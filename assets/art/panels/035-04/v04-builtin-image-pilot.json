@@ -1,0 +1,24 @@
+{
+  "panel": "035-04",
+  "prompt": "Edit this image for caption clearance. Preserve sealed evidence bag, two intact drives, left pedestal, right rebuilt cabinet, labels, and wide completely empty center gap. Move the REBUILT CACHE plaque from below the cabinet to a horizontal plaque ABOVE the cabinet in the upper right. Remove its old lower plaque entirely. Reduce cabinet height slightly if needed so new upper plaque fits within image. ALL meaningful objects and both labels must end above 73 percent image height. Bottom 25 percent must be quiet nearly black, free of labels and significant objects, for caption later. Keep left PRESERVED STORAGE label above 73 percent too. Preserve charcoal steel ink style. No connections, arrows, moss, green, third path, added text or decorative frame.",
+  "references": [
+    "assets/art/panels/035-04/v03-builtin-image-pilot.png"
+  ],
+  "elapsed_seconds": 22.751,
+  "source_file": "/Users/curtcox/.codex/generated_images/01a07dff-f46e-7113-8c8c-21a254c0df91/exec-aa603623-4e4e-4e7b-9ff2-b9914265432b.png",
+  "decision": "chosen",
+  "reference_hashes": [
+    "c0f18f818f5f15cdb8e6119450e78c445297c69ab9253e11f5814d7e9a764c12"
+  ],
+  "stored_file": "assets/art/panels/035-04/v04-builtin-image-pilot.png",
+  "variant": "v04",
+  "sha256": "e805c64bc88a512acb5edd029a1803e4a1add10d924da15c7fd55e0f3d10ec46",
+  "dimensions": [
+    1536,
+    1024
+  ],
+  "tool": "image_gen.imagegen",
+  "model_revision": null,
+  "seed": null,
+  "controls": "Model revision, seed, sampler, strength and billing unavailable."
+}

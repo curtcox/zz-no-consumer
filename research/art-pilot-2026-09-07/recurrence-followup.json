@@ -1,0 +1,98 @@
+[
+  {
+    "panel": "035-04",
+    "prompt": "Use case: illustration-story. New 1536x1024 landscape investigative comic panel. Reference establishes preserved-storage evidence bag, intact hardware and charcoal steel ink. New deliberate SPLIT composition: LEFT third contains the sealed transparent evidence bag with two intact storage drives, strap and seal exactly like reference, backed by a low dark steel pedestal, exact small label PRESERVED STORAGE. RIGHT third contains one upright rebuilt live service cabinet, clean steel frame and vents, exact label REBUILT CACHE, small plain dark directory field with no visible messages. Both objects entirely in upper 70 percent. Middle 25 percent is an EMPTY uninterrupted vertical strip of charcoal negative space, from top to below subjects; keep wide enough for later graphic annotation, but draw no annotation now. Objects remain separate: no arrows, cables, tracks, ghost text, reflections linking them or data transfer. Evidence intact, not smashed or burned. Caption is added later; bottom 23 percent quiet almost-black. Full bleed heavy nib/brush charcoal ink, restrained drybrush and halftone, charcoal #101214/#202326, steel #5E737B, subdued paper tan only on seal, gray highlights. No people, moss, green, text besides two exact labels, usable code or credentials, old messages, hidden third path, neon, white margin or decorative outer frame. This is an editorial comparison of physical preserved evidence versus runtime cache, not a memory diagram.",
+    "references": [
+      "assets/art/panels/029-03/v04-builtin-image-pilot.png"
+    ],
+    "elapsed_seconds": 26.865,
+    "source_file": "/Users/curtcox/.codex/generated_images/01a07dff-f46e-7113-8c8c-21a254c0df91/exec-fa50a4c4-404c-423a-8165-2db7f6704e6a.png",
+    "decision": "rejected",
+    "reference_hashes": [
+      "ba5852bf8035c616f22779f06b174655010fc57c86f0961326b71c01411601db"
+    ],
+    "stored_file": "assets/art/panels/035-04/v03-builtin-image-pilot.png",
+    "variant": "v03",
+    "sha256": "c0f18f818f5f15cdb8e6119450e78c445297c69ab9253e11f5814d7e9a764c12",
+    "dimensions": [
+      1536,
+      1024
+    ],
+    "tool": "image_gen.imagegen",
+    "model_revision": null,
+    "seed": null,
+    "controls": "Model revision, seed, sampler, strength and billing unavailable."
+  },
+  {
+    "panel": "035-05",
+    "prompt": "Use case: illustration-story. New 1536x1024 landscape investigative graphic-novel panel. Reference supplies charcoal steel material and generic discussion-name motif only. New composition upper 70 percent: on RIGHT two wide steel-framed landscape name strips stacked, upper labeled exactly NEW MESSAGE, lower exactly NEW REPLY. Each strip has one tiny muted moss edge and a plain abstract solid name bar with no writing. Left upper: a small separate dark card labeled exactly FRESH RUN A with a thin steel arrow toward upper strip. Left lower: separate card labeled exactly FRESH RUN B with thin steel arrow toward lower strip. Arrowheads touch only their corresponding new strips. This is editorial compression of fresh communication and reply in rebuilt infrastructure; do not invent identities or message wording. No link to old storage or earlier time. Moss tiny against black and steel, only the two message strip edges. Bottom 23 percent quiet almost-black for controlled caption. Full bleed mature charcoal nib/brush ink, subtle drybrush/halftone, steel #5E737B, charcoal #101214/#202326, gray highlights. No other labels, filenames, dates, real handles, source text, pseudo-writing, people, avatars, file-note sheets, clocks, code, neon, white margins, decorative outer border.",
+    "references": [
+      "assets/art/panels/033-04/v03-builtin-image-pilot.png"
+    ],
+    "elapsed_seconds": 29.67,
+    "source_file": "/Users/curtcox/.codex/generated_images/01a07dff-f46e-7113-8c8c-21a254c0df91/exec-8efc399d-5d62-4f84-aafb-332efcfc46a8.png",
+    "decision": "rejected",
+    "reference_hashes": [
+      "485e864fb01ea22ce0bb38d70f32fd013a23fa85010142d0225652661b7f1d90"
+    ],
+    "stored_file": "assets/art/panels/035-05/v03-builtin-image-pilot.png",
+    "variant": "v03",
+    "sha256": "fbc11c8615749302d2622d64fd84168794a840ec92fde6860e311eaaaecd2f4a",
+    "dimensions": [
+      1536,
+      1024
+    ],
+    "tool": "image_gen.imagegen",
+    "model_revision": null,
+    "seed": null,
+    "controls": "Model revision, seed, sampler, strength and billing unavailable."
+  },
+  {
+    "panel": "035-04",
+    "prompt": "Edit this image for caption clearance. Preserve sealed evidence bag, two intact drives, left pedestal, right rebuilt cabinet, labels, and wide completely empty center gap. Move the REBUILT CACHE plaque from below the cabinet to a horizontal plaque ABOVE the cabinet in the upper right. Remove its old lower plaque entirely. Reduce cabinet height slightly if needed so new upper plaque fits within image. ALL meaningful objects and both labels must end above 73 percent image height. Bottom 25 percent must be quiet nearly black, free of labels and significant objects, for caption later. Keep left PRESERVED STORAGE label above 73 percent too. Preserve charcoal steel ink style. No connections, arrows, moss, green, third path, added text or decorative frame.",
+    "references": [
+      "assets/art/panels/035-04/v03-builtin-image-pilot.png"
+    ],
+    "elapsed_seconds": 22.751,
+    "source_file": "/Users/curtcox/.codex/generated_images/01a07dff-f46e-7113-8c8c-21a254c0df91/exec-aa603623-4e4e-4e7b-9ff2-b9914265432b.png",
+    "decision": "chosen",
+    "reference_hashes": [
+      "c0f18f818f5f15cdb8e6119450e78c445297c69ab9253e11f5814d7e9a764c12"
+    ],
+    "stored_file": "assets/art/panels/035-04/v04-builtin-image-pilot.png",
+    "variant": "v04",
+    "sha256": "e805c64bc88a512acb5edd029a1803e4a1add10d924da15c7fd55e0f3d10ec46",
+    "dimensions": [
+      1536,
+      1024
+    ],
+    "tool": "image_gen.imagegen",
+    "model_revision": null,
+    "seed": null,
+    "controls": "Model revision, seed, sampler, strength and billing unavailable."
+  },
+  {
+    "panel": "035-05",
+    "prompt": "Edit this image with only these changes to both right-side message panels. Remove both paper/page icons completely, leaving empty charcoal in their former locations. Recolor both broad olive name bars to neutral dark steel gray. Keep ONE thin muted olive moss line only along the TOP EDGE of each name bar, approximately 4 pixels high, so green is a very small accent. Preserve all exact labels (FRESH RUN A, FRESH RUN B, NEW MESSAGE, NEW REPLY), card geometry, arrows, texture, framing, background, bottom caption clearance and 1536x1024 dimensions. No new text or symbols. These are abstract message marks, not file notes.",
+    "references": [
+      "assets/art/panels/035-05/v03-builtin-image-pilot.png"
+    ],
+    "elapsed_seconds": 33.709,
+    "source_file": "/Users/curtcox/.codex/generated_images/01a07dff-f46e-7113-8c8c-21a254c0df91/exec-61fad006-e326-49b7-bd94-7bfde1bc6aa9.png",
+    "decision": "chosen",
+    "reference_hashes": [
+      "fbc11c8615749302d2622d64fd84168794a840ec92fde6860e311eaaaecd2f4a"
+    ],
+    "stored_file": "assets/art/panels/035-05/v04-builtin-image-pilot.png",
+    "variant": "v04",
+    "sha256": "4e3535695b425a8fcb79dd5cb642e1df448879f105cfe67eb4aeb188b79da754",
+    "dimensions": [
+      1536,
+      1024
+    ],
+    "tool": "image_gen.imagegen",
+    "model_revision": null,
+    "seed": null,
+    "controls": "Model revision, seed, sampler, strength and billing unavailable."
+  }
+]

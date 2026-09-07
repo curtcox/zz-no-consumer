@@ -460,8 +460,12 @@ panel	variant	file	provider	seed	width	height	bytes	created	status	note	stage
 035-03	v02	assets/art/panels/035-03/v02-storyboard-svg.svg	storyboard-svg		1200	800	3045	2026-09-07T16:55:12+00:00	candidate		storyboard
 035-04	v01	assets/art/panels/035-04/v01-storyboard-svg.svg	storyboard-svg		1200	800	4504	2026-09-07T16:49:10+00:00	candidate		storyboard
 035-04	v02	assets/art/panels/035-04/v02-storyboard-svg.svg	storyboard-svg		1200	800	4750	2026-09-07T16:55:12+00:00	candidate		storyboard
+035-04	v03	assets/art/panels/035-04/v03-builtin-image-pilot.png	builtin-image-pilot		1536	1024	2383360	2026-09-07T22:48:33+00:00	rejected	Cache label overlaps caption area; corrected in next version.	refined
+035-04	v04	assets/art/panels/035-04/v04-builtin-image-pilot.png	builtin-image-pilot		1536	1024	2145438	2026-09-07T22:48:35+00:00	chosen	Recurrence pilot: intact preserved storage and rebuilt cache separated by empty gap; provisional.	refined
 035-05	v01	assets/art/panels/035-05/v01-storyboard-svg.svg	storyboard-svg		1200	800	3654	2026-09-07T16:49:10+00:00	candidate		storyboard
 035-05	v02	assets/art/panels/035-05/v02-storyboard-svg.svg	storyboard-svg		1200	800	3886	2026-09-07T16:55:12+00:00	candidate		storyboard
+035-05	v03	assets/art/panels/035-05/v03-builtin-image-pilot.png	builtin-image-pilot		1536	1024	2554060	2026-09-07T22:48:34+00:00	rejected	Excess green and unwanted file-note icons; corrected in next version.	refined
+035-05	v04	assets/art/panels/035-05/v04-builtin-image-pilot.png	builtin-image-pilot		1536	1024	2398423	2026-09-07T22:48:37+00:00	chosen	Recurrence pilot: two fresh marks with restrained moss edges, no source wording; provisional.	refined
 036-01	v01	assets/art/panels/036-01/v01-storyboard-svg.svg	storyboard-svg		1200	800	4090	2026-09-07T16:49:10+00:00	candidate		storyboard
 036-01	v02	assets/art/panels/036-01/v02-storyboard-svg.svg	storyboard-svg		1200	800	4336	2026-09-07T16:55:12+00:00	candidate		storyboard
 036-02	v01	assets/art/panels/036-02/v01-storyboard-svg.svg	storyboard-svg		1200	800	4363	2026-09-07T16:49:10+00:00	candidate		storyboard

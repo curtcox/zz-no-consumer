@@ -1,0 +1,24 @@
+{
+  "panel": "035-05",
+  "prompt": "Use case: illustration-story. New 1536x1024 landscape investigative graphic-novel panel. Reference supplies charcoal steel material and generic discussion-name motif only. New composition upper 70 percent: on RIGHT two wide steel-framed landscape name strips stacked, upper labeled exactly NEW MESSAGE, lower exactly NEW REPLY. Each strip has one tiny muted moss edge and a plain abstract solid name bar with no writing. Left upper: a small separate dark card labeled exactly FRESH RUN A with a thin steel arrow toward upper strip. Left lower: separate card labeled exactly FRESH RUN B with thin steel arrow toward lower strip. Arrowheads touch only their corresponding new strips. This is editorial compression of fresh communication and reply in rebuilt infrastructure; do not invent identities or message wording. No link to old storage or earlier time. Moss tiny against black and steel, only the two message strip edges. Bottom 23 percent quiet almost-black for controlled caption. Full bleed mature charcoal nib/brush ink, subtle drybrush/halftone, steel #5E737B, charcoal #101214/#202326, gray highlights. No other labels, filenames, dates, real handles, source text, pseudo-writing, people, avatars, file-note sheets, clocks, code, neon, white margins, decorative outer border.",
+  "references": [
+    "assets/art/panels/033-04/v03-builtin-image-pilot.png"
+  ],
+  "elapsed_seconds": 29.67,
+  "source_file": "/Users/curtcox/.codex/generated_images/01a07dff-f46e-7113-8c8c-21a254c0df91/exec-8efc399d-5d62-4f84-aafb-332efcfc46a8.png",
+  "decision": "rejected",
+  "reference_hashes": [
+    "485e864fb01ea22ce0bb38d70f32fd013a23fa85010142d0225652661b7f1d90"
+  ],
+  "stored_file": "assets/art/panels/035-05/v03-builtin-image-pilot.png",
+  "variant": "v03",
+  "sha256": "fbc11c8615749302d2622d64fd84168794a840ec92fde6860e311eaaaecd2f4a",
+  "dimensions": [
+    1536,
+    1024
+  ],
+  "tool": "image_gen.imagegen",
+  "model_revision": null,
+  "seed": null,
+  "controls": "Model revision, seed, sampler, strength and billing unavailable."
+}
