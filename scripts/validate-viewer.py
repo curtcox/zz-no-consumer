@@ -8,6 +8,9 @@ from html.parser import HTMLParser
 from pathlib import Path
 from urllib.parse import unquote, urlsplit
 
+import panelart
+import textimage
+
 
 ROOT = Path(__file__).resolve().parents[1]
 VIEWER = ROOT / "docs" / "viewer"
@@ -94,6 +97,24 @@ def main() -> int:
             target = local_target(document, source)
             if target is not None and not target.exists():
                 failures.append(f"{document.relative_to(ROOT)}: missing image {source}")
+
+    # Page and chapter previews must show the same selected panels as the image route.
+    for script in textimage.book_scripts():
+        page_route = VIEWER / "pages" / script.id / "index.html"
+        page_parser = parsed.get(page_route.resolve())
+        for panel in script.panels:
+            name = f"{script.id}-{panel.index:02d}.svg"
+            asset = (VIEWER.parent / "assets" / "lettered" / name
+                     if panelart.selected(script.id, panel.index) else
+                     VIEWER.parent / "assets" / "placeholders" / "panels" / name).resolve()
+            image_route = page_route.parent / "images" / f"{panel.index:02d}" / "index.html"
+            routes = [(page_route, page_parser), (image_route, parsed.get(image_route.resolve()))]
+            routes += [(path, parser) for path, parser in parsed.items()
+                       if parser.body_attributes.get("data-entity-kind") == "chapter"
+                       and any(local_target(path, link) == page_route.resolve() for link in parser.links)]
+            for route, parser in routes:
+                if parser is None or asset not in {local_target(route, src) for src in parser.images}:
+                    failures.append(f"{route.relative_to(ROOT)}: missing selected panel {name}")
 
     # The spacebar chain has to reach every route exactly once and loop home.
     home = (VIEWER / "index.html").resolve()

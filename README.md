@@ -538,7 +538,7 @@ python3 scripts/panelart.py choose 001-01 v02
 python3 scripts/panelart.py status
 ```
 
-Undecided panels show their most mature non-rejected candidate (newest within that stage), so the book reads end to end throughout, and a panel with more than one live version gets an "Other versions" strip in the viewer. The layout, the decision record, and the repository cost are in [`design/panel-versions.md`](design/panel-versions.md).
+Panels show their most mature available non-rejected version (chosen first within that stage, then newest), so the book reads end to end throughout, and a panel with more than one live version gets an "Other versions" strip in the viewer. The layout, the decision record, and the repository cost are in [`design/panel-versions.md`](design/panel-versions.md).
 
 Page sheets are not generated. A page is composed from its panels by layout, the way a comic page is actually made, so the page grammar governs it and it costs no generation time.
 

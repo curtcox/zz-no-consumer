@@ -214,7 +214,10 @@ def check(data):
     a = panelart.Variant('001-01', 'v01', '', stage='refined')
     b = panelart.Variant('001-01', 'v02', '', stage='storyboard')
     assert panelart.pick([a, b]) == a
-    assert panelart.pick([a, replace(b, status='chosen')]).variant == 'v02'
+    assert panelart.pick([a, replace(b, status='chosen')]) == a
+    assert panelart.pick([replace(a, status='chosen'), replace(a, variant='v03')]).variant == 'v01'
+    assert panelart.pick([a, replace(a, variant='v03')]).variant == 'v03'
+    assert panelart.pick([a, replace(b, stage='final')]) == replace(b, stage='final')
     assert panelart.pick([replace(a, status='rejected'), b]) == b
     assert panelart.pick([replace(b, status='rejected')]) is None
     for pair in ((3, 2), None):
@@ -271,6 +274,11 @@ def check(data):
             assert refreshed[0].status == 'chosen' and refreshed[0].stage == 'storyboard'
         with patch.object(panelart, '_CACHE', {'001-01': [replace(board, file=str(art)+'-missing')]}):
             assert panelart.resolve('001', 1) is None
+            assert panelart.selected('001', 1) is None
+        missing = replace(finished, file=str(art)+'-missing')
+        with patch.object(panelart, '_CACHE', {'001-01': [board, missing]}):
+            assert panelart.selected('001', 1) == board
+            assert panelart.alternates('001', 1) == []
         table.write_text('panel\tvariant\tfile\tstatus\n001-01\tv01\tmissing.webp\tcandidate\n')
         assert panelart.read_table(table)[0].stage == 'refined'
     return errors

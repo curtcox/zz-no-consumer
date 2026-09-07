@@ -23,7 +23,8 @@ preserves these decisions, so the table can be regenerated without losing curati
     python3 scripts/panelart.py status             # how much of the book is decided
     python3 scripts/panelart.py size               # what the store costs the repository
 
-Until a panel is decided, `resolve()` returns its most mature candidate (newest within that stage), so
+`resolve()` returns the most mature non-rejected image, preferring a chosen
+version within that stage, then the newest version, so
 the site builds and the whole book stays readable end to end while the choosing
 happens. `scripts/build-site.py` letters whatever resolve returns and publishes the
 other candidates as alternates the reader can open.
@@ -179,14 +180,18 @@ def by_panel(variants: list[Variant]) -> dict[str, list[Variant]]:
 def pick(variants: list[Variant]) -> Variant | None:
     """The version of this panel the book should show right now.
 
-    A decided panel uses its chosen variant. An undecided one uses its most mature
-    candidate, newest within that stage, so the book reads end to end while the choosing is still open.
+    Maturity wins first, then explicit curation, then the newest version.
+    Rejected versions never appear in the book.
     """
-    chosen = [v for v in variants if v.status == CHOSEN]
-    if chosen:
-        return max(chosen, key=lambda v: v.number)
     candidates = [v for v in variants if v.status != REJECTED]
-    return max(candidates, key=lambda v: (STAGES.index(v.stage), v.number)) if candidates else None
+    return max(candidates, key=lambda v: (STAGES.index(v.stage), v.status == CHOSEN,
+                                         v.number)) if candidates else None
+
+
+def selected(page: str, index: int, *, min_stage: str = "layout") -> Variant | None:
+    """Select existing artwork consistently for rendering, labels, and alternates."""
+    return pick([v for v in load().get(f"{page}-{index:02d}", [])
+                 if v.path.is_file() and STAGES.index(v.stage) >= STAGES.index(min_stage)])
 
 
 _CACHE: dict[str, list[Variant]] | None = None
@@ -202,17 +207,14 @@ def load(refresh: bool = False) -> dict[str, list[Variant]]:
 
 def resolve(page: str, index: int, *, min_stage: str = "layout") -> Path | None:
     """The image file to letter and publish for this panel, or None."""
-    variants = load().get(f"{page}-{index:02d}", [])
-    variants = [v for v in variants if v.path.is_file()
-                and STAGES.index(v.stage) >= STAGES.index(min_stage)]
-    winner = pick(variants)
-    return winner.path if winner and winner.path.is_file() else None
+    winner = selected(page, index, min_stage=min_stage)
+    return winner.path if winner else None
 
 
 def alternates(page: str, index: int) -> list[Variant]:
     """Other versions a reader could be shown, newest first."""
     variants = load().get(f"{page}-{index:02d}", [])
-    winner = pick(variants)
+    winner = selected(page, index)
     return [v for v in sorted(variants, key=lambda v: -v.number)
             if v is not winner and v.status != REJECTED and v.path.is_file()]
 

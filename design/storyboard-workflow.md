@@ -65,13 +65,13 @@ assets, version selection, backward-compatible art records, and the production s
 `layout`, `storyboard`, `refined`, `final`. Existing raster candidates default to refined;
 this does not approve them. The storyboard renderer registers its SVGs as storyboard.
 
-An explicit chosen version wins. Otherwise the most mature non-rejected candidate wins,
-with the newest version breaking ties within that stage. Thus a fresh storyboard cannot
+The most mature non-rejected version wins. Within that stage, an explicit chosen
+version wins, then the newest version breaks ties. Thus a fresh storyboard cannot
 silently replace a refined image. The existing viewer keeps alternate versions available.
 
 Use `python3 scripts/panelart.py stage PANEL VARIANT final` to change maturity and the
 existing `choose`, `reject`, or `clear` commands to curate. Rebuild after selection changes.
-Stage changes alone do not override a chosen version.
+A more mature version supersedes a chosen version at an earlier stage.
 
 `produce.py` looks for non-rejected refined/final artwork when deciding what to skip.
 A layout or storyboard, even a chosen one, does not satisfy that requirement. As before,

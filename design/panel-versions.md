@@ -51,19 +51,19 @@ python3 scripts/panelart.py reject 001-01 v01 --note "hands"
 python3 scripts/panelart.py status
 ```
 
-Choosing a version clears any previous choice for that panel, so exactly one wins.
+Choosing a version clears any previous choice for that panel, so only one carries chosen status.
 The independent maturity stages are `layout`, `storyboard`, `refined`, and `final`.
-Use `python3 scripts/panelart.py stage PANEL VARIANT STAGE` to change maturity; it does
-not override an existing choice. Legacy raster records default to refined. A newer
+Use `python3 scripts/panelart.py stage PANEL VARIANT STAGE` to change maturity; a more mature
+version supersedes a choice at an earlier stage. Legacy raster records default to refined. A newer
 storyboard cannot displace an unchosen refined candidate. The full
 [storyboard workflow](storyboard-workflow.md) documents initial generation, imports,
 selection, rejection, restoration, and the local-to-cloud handoff.
 
 ## What the book shows while the choice is open
 
-`panelart.resolve()` returns the chosen version where a choice has been made, and
-the most mature non-rejected candidate where it has not, with the newest version
-breaking ties within a stage. Undecided panels therefore still render, and
+`panelart.resolve()` returns the most mature existing, non-rejected version,
+preferring a chosen version within that stage, then the newest version.
+Page views, chapter thumbnails, and individual images use this same selection. Undecided panels therefore still render, and
 the book stays readable end to end throughout — which is the property
 `validate-viewer.py` exists to protect.
 

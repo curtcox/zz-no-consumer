@@ -292,9 +292,8 @@ h2 { font-size: clamp(1.55rem, 3.2vw, 2.8rem); line-height: 1.05; letter-spacing
 }
 
 .page-art--compact { width: 100%; box-shadow: none; }
-/* The page sheet is a generated placeholder image at the same 7:10 ratio. */
-.page-art--sheet { padding: 0; display: block; }
-.page-art__sheet { display: block; width: 100%; height: 100%; object-fit: cover; }
+.page-art__panel { display: block; width: 100%; height: 100%; min-height: 0; object-fit: contain; background: #f5f0e4; }
+.page-art[data-panels="5"] .page-art__panel:first-child { grid-column: 1 / -1; }
 
 .reader-layout { display: grid; grid-template-columns: minmax(0, 1fr) minmax(260px, 340px); gap: clamp(2rem, 5vw, 5rem); align-items: start; }
 .reader-stage { min-width: 0; padding: clamp(1rem, 2vw, 1.6rem); border: 1px solid var(--line); background: var(--surface); }
