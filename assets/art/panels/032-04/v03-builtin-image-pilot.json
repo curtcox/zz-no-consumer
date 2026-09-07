@@ -1,0 +1,23 @@
+{
+  "panel": "032-04",
+  "prompt": "Use case: illustration-story. New 1536x1024 landscape investigative comic panel. Reference provides established clean Artifactory cabinet and charcoal/steel ink style, but new composition: LEFT three separate small workload lane cards stacked vertically, headers exactly RUN A, RUN B, RUN C. Three thin steel sight/access lines run rightward to a single clean Artifactory cabinet occupying upper right half. Cabinet retains reference hardware proportions, vents and directory screen. Screen header exactly PACKAGES ONLY. Below it three neat listing rows, each containing a simple sealed package-box icon and one plain abstract solid bar, no filenames or glyphs. Listing must clearly contain packages, never notes, message directories or conversation. No communication between workload lanes. This is a generic editorial abstraction of shared package access, not operational UI. All subjects end above 72 percent height. Bottom 23 percent almost-black empty space for controlled caption added later. Full bleed, mature heavy nib/brush ink, subtle drybrush/halftone, charcoal #101214/#202326, steel #5E737B, neutral gray highlights; legible separation at thumbnail size. No extra labels, source text, code, moss, green, old cabinet, erased-data ghosts, messages, people, avatars, neon, white margins or decorative outer frame.",
+  "references": [
+    "assets/art/panels/031-05/v03-builtin-image-pilot.png"
+  ],
+  "elapsed_seconds": 43.503,
+  "source_file": "/Users/curtcox/.codex/generated_images/01a07dff-f46e-7113-8c8c-21a254c0df91/exec-51de30e3-d3bd-4493-aab1-10f7e30846c2.png",
+  "reference_hashes": [
+    "736ccc3ff381c17a5cf80c49dbd67f9773c0bdd24184b6c86609839a849241c1"
+  ],
+  "stored_file": "assets/art/panels/032-04/v03-builtin-image-pilot.png",
+  "variant": "v03",
+  "sha256": "ddc0f0bf338da3429f959ad3abd6bf00ecf7d1131472e5bee6a823172e03197d",
+  "dimensions": [
+    1536,
+    1024
+  ],
+  "tool": "image_gen.imagegen",
+  "model_revision": null,
+  "seed": null,
+  "controls": "Model revision, seed, sampler, strength and billing unavailable."
+}

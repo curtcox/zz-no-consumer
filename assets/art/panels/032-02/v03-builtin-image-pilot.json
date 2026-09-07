@@ -1,0 +1,23 @@
+{
+  "panel": "032-02",
+  "prompt": "Use case: illustration-story. Generate a new 1536x1024 landscape investigative graphic-novel panel. Reference image is STYLE ONLY: charcoal ink, drybrush and restrained steel-blue hardware, not its dormant state or central cabinet composition. Show six distinct newly launched evaluation lanes in a clean 3-column by 2-row arrangement entirely within top 72 percent. Each lane is a steel framed dark card with a different small abstract geometric identity marker (no faces), distinct generic task object (terminal, document, package, path, grid, target), and its own clock/gauge with visibly different budget fill. These are editorial symbols, not actual software interfaces or source handles. Each card has one exact short header: RUN A, RUN B, RUN C, RUN D, RUN E, RUN F, respectively. Small rightward launch arrow inside each separate card, no connections between cards. No additional text. Different task and budget per card must read clearly. Bottom 23 percent quiet almost-black negative space for caption added later. Full bleed charcoal #101214/#202326, steel #5E737B and neutral gray, mature nib/brush ink, halftone, crisp silhouettes with enough contrast at thumbnail size. No people, avatars, green, moss, messages, note files, remembered board, code, source text, real handles, central controller, luminous neon, white margin or decorative outer frame.",
+  "references": [
+    "assets/art/panels/031-05/v03-builtin-image-pilot.png"
+  ],
+  "elapsed_seconds": 35.329,
+  "source_file": "/Users/curtcox/.codex/generated_images/01a07dff-f46e-7113-8c8c-21a254c0df91/exec-9df437cc-b0e9-4a92-8d8a-122302b33827.png",
+  "reference_hashes": [
+    "736ccc3ff381c17a5cf80c49dbd67f9773c0bdd24184b6c86609839a849241c1"
+  ],
+  "stored_file": "assets/art/panels/032-02/v03-builtin-image-pilot.png",
+  "variant": "v03",
+  "sha256": "6a965f80f5bfba6a233b6fa6c19c8ce7fe37c6989e99ff18ef599dbacb304bc7",
+  "dimensions": [
+    1536,
+    1024
+  ],
+  "tool": "image_gen.imagegen",
+  "model_revision": null,
+  "seed": null,
+  "controls": "Model revision, seed, sampler, strength and billing unavailable."
+}
