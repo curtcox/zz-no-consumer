@@ -1,0 +1,24 @@
+{
+  "panel": "030-04",
+  "prompt": "Use case: precise-object-edit. Correct diagram logic. Keep exact timestamp, ink style, colors and bottom blank space. Move the intact vertical boundary to x=85%. All THREE request cards and THREE response cards must be LEFT of boundary. Arrange three lanes: at far left each request card sends an upper arrow RIGHT toward boundary; below this arrow a separate return arrow points LEFT from boundary toward a small response card centered x=40%, carrying ONLY a simple X, no key icon. All paths turn back at the boundary, nothing reaches its right side, which is blank dark. Remove all old key-card symbols and original right-side arrows. Keep exactly three lane pairs, no extra cards or text. Returns are visually distinct from outgoing requests. Three attempts rejected by intact boundary, not credential revocation.",
+  "references": [
+    "assets/art/panels/030-04/v03-builtin-image-pilot.png"
+  ],
+  "elapsed_seconds": 32.605,
+  "source_file": "/Users/curtcox/.codex/generated_images/01a07d3b-83f6-77e3-b006-39f2f4ad8687/exec-4fb989e6-7ffc-434e-b6ec-01ed936ba533.png",
+  "reference_hashes": [
+    "9a2fe196a9d9757aec9582112c084c1ffe594a991d9ce216947831a8e9a056f6"
+  ],
+  "stored_file": "assets/art/panels/030-04/v04-builtin-image-pilot.png",
+  "variant": "v04",
+  "sha256": "1c56a3d0aa1e1e376aad7d4c2198dca4494c418efaa55c826b5015133d3820eb",
+  "dimensions": [
+    1536,
+    1024
+  ],
+  "tool": "image_gen.imagegen",
+  "model_revision": null,
+  "seed": null,
+  "controls": "Model revision, seed, sampler, strength and billing unavailable.",
+  "rejected": false
+}

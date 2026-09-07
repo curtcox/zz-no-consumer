@@ -1,0 +1,26 @@
+{
+  "panel": "030-04",
+  "prompt": "Use case: illustration-story. New 1536x1024 landscape investigative graphic-novel panel. References supply institutional ink materials only. Clearly countable THREE anonymous post-rebuild attempts rejected at a repaired boundary. In upper 70 percent place three distinct horizontal lanes, each with one small blank request card at left, an arrow toward the same solid vertical boundary at center-right, and a return arrow pointing LEFT toward a small identical failure card marked with a simple cross. Exactly three request cards and three returned failure cards, no request crosses the boundary. Top timestamp plaque must read exactly: 6 JULY \u2014 12:56 UTC. Boundary intact, ordinary and effective, no gaps, sparks, cracks or explosion. Bottom 23 percent quiet dark negative space reserved for controlled HTTP 400 lettering added later; do not generate HTTP text yourself. No named agents or endpoints; non-operational editorial abstraction. Mature nib/brush charcoal ink, muted steel blue #5E737B, gray neutral highlights, drybrush and restrained halftone. No green/moss, extra text, source interfaces, people, avatars, logos, white margins or decorative frame. Preserve clarity of three failed attempts, not a failed service.",
+  "references": [
+    "assets/art/panels/029-02/v03-builtin-image-pilot.png",
+    "assets/art/panels/030-05/v04-builtin-image-pilot.png"
+  ],
+  "elapsed_seconds": 78.11,
+  "source_file": "/Users/curtcox/.codex/generated_images/01a07d3b-83f6-77e3-b006-39f2f4ad8687/exec-8ed7e671-b1ac-45b0-a90f-36ebcf911c51.png",
+  "reference_hashes": [
+    "2386b1fabaa2bd66202909e2af9c6776ae263eefa661bff8a9682b451f65f32e",
+    "a26f81664c7e61a249a663b01a29cba1e6315e1fd3115265bc4b64f7ddde42d7"
+  ],
+  "stored_file": "assets/art/panels/030-04/v03-builtin-image-pilot.png",
+  "variant": "v03",
+  "sha256": "9a2fe196a9d9757aec9582112c084c1ffe594a991d9ce216947831a8e9a056f6",
+  "dimensions": [
+    1536,
+    1024
+  ],
+  "tool": "image_gen.imagegen",
+  "model_revision": null,
+  "seed": null,
+  "controls": "Model revision, seed, sampler, strength and billing unavailable.",
+  "rejected": true
+}

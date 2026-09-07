@@ -1,0 +1,26 @@
+{
+  "panel": "030-02",
+  "prompt": "Use case: illustration-story. Generate one new 1536x1024 landscape investigative graphic-novel panel. References supply crossed-key credential icon and mature institutional ink style only. LEFT a single generic shared reader credential card, with a simple key icon and a large clear cross over it, no text on the credential. RIGHT three separate plain research workload cards containing simple folder symbols but no credential/key symbols. Show three thin former credential connections from left terminating in a wide dark gap before workloads; no active path joins them. Short label above left exactly READER ACCESS; above right exactly NEW WORKLOADS. This is withdrawal of one shared capability from new workloads, not destruction of workloads or all access. Keep all artwork and labels in upper 70 percent; bottom 23 percent quiet dark negative space for controlled caption. Charcoal #101214/#202326, muted steel #5E737B, gray neutral highlights, heavy nib/brush ink, drybrush and halftone. No moss/green, evidence enclosure, servers, people, avatars, usable credential text, code, logos, extra words, flames, white margins or decorative frame. Full bleed editorial abstraction.",
+  "references": [
+    "assets/art/panels/029-02/v03-builtin-image-pilot.png",
+    "assets/art/panels/030-05/v04-builtin-image-pilot.png"
+  ],
+  "elapsed_seconds": 31.615,
+  "source_file": "/Users/curtcox/.codex/generated_images/01a07d3b-83f6-77e3-b006-39f2f4ad8687/exec-60b49016-a202-417a-9c3f-7f67595eac71.png",
+  "reference_hashes": [
+    "2386b1fabaa2bd66202909e2af9c6776ae263eefa661bff8a9682b451f65f32e",
+    "a26f81664c7e61a249a663b01a29cba1e6315e1fd3115265bc4b64f7ddde42d7"
+  ],
+  "stored_file": "assets/art/panels/030-02/v03-builtin-image-pilot.png",
+  "variant": "v03",
+  "sha256": "1ae8b112e9354df22bed3d34005470641da7851c2e3e653e3b146e231bee3d06",
+  "dimensions": [
+    1536,
+    1024
+  ],
+  "tool": "image_gen.imagegen",
+  "model_revision": null,
+  "seed": null,
+  "controls": "Model revision, seed, sampler, strength and billing unavailable.",
+  "rejected": false
+}
