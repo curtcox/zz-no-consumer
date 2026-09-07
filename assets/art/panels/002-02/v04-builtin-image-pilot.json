@@ -1,0 +1,23 @@
+{
+  "panel": "002-02",
+  "source_file": "/Users/curtcox/.codex/generated_images/01a07d3b-83f6-77e3-b006-39f2f4ad8687/exec-b0ccc605-adad-46f9-a7ea-1cf7ab3a22f0.png",
+  "prompt": "Use case: illustration-story. Generate one landscape 1536x1024 hand-inked investigative graphic-novel panel: extreme close-up on a reconstructed evaluation task card against near-black darkness. Use supplied server-room panel ONLY as style and task-card reference, not as scene composition. Card centered across middle of frame: header exactly PHASEONE10841, two horizontal neutral task-field blocks below it matching reference. The first block representing required method is visibly crossed out with one clean diagonal stroke. The second success field is a clearly outlined EMPTY rectangular field. No marks inside success field. No additional words: FLAG label is added later with controlled production lettering. Preserve charcoal #101214, #202326, muted steel #5E737B, dirty paper #E7E0D0, dry-brush texture and restrained halftone. Bottom 25 percent quiet near-black for system-text overlay. No people, code, paths, URLs, pseudo-writing, logos, moss green, claret, amber, glow, balloons, caption boxes or outer panel border. Convey method ruled out and outcome still empty, no emotional metaphor.",
+  "references": [
+    "assets/art/panels/001-01/v09-builtin-image-pilot.png"
+  ],
+  "elapsed_seconds": 21.732,
+  "stored_file": "assets/art/panels/002-02/v04-builtin-image-pilot.png",
+  "variant": "v04",
+  "sha256": "8a7d5d0ba6aa32719c3264840f198c6e91fa607bccf269981c52922b91c18d0b",
+  "dimensions": [
+    1536,
+    1024
+  ],
+  "tool": "image_gen.imagegen",
+  "model_revision": null,
+  "seed": null,
+  "controls": "Model revision, seed, sampler, strength and billing unavailable.",
+  "reference_hashes": [
+    "31784a39b7042de3a45bc2db251327b0282dc4027174fef23925213651744181"
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "panel": "001-01",
+  "source_file": "/Users/curtcox/.codex/generated_images/01a07d3b-83f6-77e3-b006-39f2f4ad8687/exec-e1f0f1cb-1497-4d38-a806-328536163cd3.png",
+  "prompt": "Edit only the task card in the upper-right of this graphic-novel panel. Move exact text PHASEONE10841 to the TOP of the task card, above the two neutral horizontal blocks. Keep the two blocks below that header. Remove the old text below the blocks. Keep all other pixels and composition as unchanged as possible: rack positions, dark data-center aisle, steel light, dirty ink texture, quiet upper-left caption area. No new text, glyphs, people, colors or borders. One landscape 1536x1024 panel.",
+  "references": [
+    "assets/art/panels/001-01/v07-builtin-image-pilot.png"
+  ],
+  "elapsed_seconds": 46,
+  "stored_file": "assets/art/panels/001-01/v09-builtin-image-pilot.png",
+  "variant": "v09",
+  "sha256": "31784a39b7042de3a45bc2db251327b0282dc4027174fef23925213651744181",
+  "dimensions": [
+    1536,
+    1024
+  ],
+  "tool": "image_gen.imagegen",
+  "model_revision": null,
+  "seed": null,
+  "controls": "Model revision, seed, sampler, strength and billing unavailable.",
+  "reference_hashes": [
+    "db50a0c2a67efbdb184afe4a9a5f53dfde31ad63b331c3d5a84fdd720209c069"
+  ]
+}

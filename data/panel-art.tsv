@@ -5,8 +5,9 @@ panel	variant	file	provider	seed	width	height	bytes	created	status	note	stage
 001-01	v04	assets/art/panels/001-01/v04-flux2-klein-4b-4001.webp	flux2-klein-4b	4001	1200	800	283090	2026-09-03T20:52:26+00:00	candidate		refined
 001-01	v05	assets/art/panels/001-01/v05-storyboard-svg.svg	storyboard-svg		1200	800	17233	2026-09-07T14:11:22+00:00	candidate		storyboard
 001-01	v06	assets/art/panels/001-01/v06-storyboard-svg.svg	storyboard-svg		1200	800	12593	2026-09-07T14:13:12+00:00	candidate		storyboard
-001-01	v07	assets/art/panels/001-01/v07-builtin-image-pilot.png	builtin-image-pilot		1536	1024	2339396	2026-09-07T18:22:42+00:00	chosen	Pilot: readable aisle and exact handle; task label remains below blocks, not final header design.	refined
+001-01	v07	assets/art/panels/001-01/v07-builtin-image-pilot.png	builtin-image-pilot		1536	1024	2339396	2026-09-07T18:22:42+00:00	candidate	Pilot: readable aisle and exact handle; task label remains below blocks, not final header design.	refined
 001-01	v08	assets/art/panels/001-01/v08-storyboard-svg.svg	storyboard-svg		1200	800	12836	2026-09-07T18:25:46+00:00	candidate		storyboard
+001-01	v09	assets/art/panels/001-01/v09-builtin-image-pilot.png	builtin-image-pilot		1536	1024	2371777	2026-09-07T19:00:46+00:00	chosen	Opening follow-up: exact handle moved above task blocks; aisle and caption clearance retained; provisional.	refined
 001-02	v01	assets/art/panels/001-02/v01-flux2-klein-4b-4001.webp	flux2-klein-4b	4001	1200	800	361226	2026-09-04T22:43:04+00:00	candidate		refined
 001-02	v02	assets/art/panels/001-02/v02-flux2-klein-4b-4001.webp	flux2-klein-4b	4001	1200	800	383228	2026-09-04T22:43:04+00:00	candidate		refined
 001-02	v03	assets/art/panels/001-02/v03-flux2-klein-4b-4001.webp	flux2-klein-4b	4001	1200	800	335678	2026-09-04T22:43:04+00:00	candidate		refined
@@ -28,9 +29,10 @@ panel	variant	file	provider	seed	width	height	bytes	created	status	note	stage
 002-01	v01	assets/art/panels/002-01/v01-flux2-klein-4b-1001.webp	flux2-klein-4b	1001	1200	800	198202	2026-09-05T16:17:15+00:00	candidate		refined
 002-01	v02	assets/art/panels/002-01/v02-storyboard-svg.svg	storyboard-svg		1200	800	3832	2026-09-07T16:49:06+00:00	candidate		storyboard
 002-01	v03	assets/art/panels/002-01/v03-storyboard-svg.svg	storyboard-svg		1200	800	3969	2026-09-07T16:54:58+00:00	candidate		storyboard
-002-02	v01	assets/art/panels/002-02/v01-flux2-klein-4b-1001.webp	flux2-klein-4b	1001	1200	800	178442	2026-09-05T16:18:19+00:00	candidate		refined
+002-02	v01	assets/art/panels/002-02/v01-flux2-klein-4b-1001.webp	flux2-klein-4b	1001	1200	800	178442	2026-09-05T16:18:19+00:00	candidate	Preserve existing selection during pilot candidate review.	refined
 002-02	v02	assets/art/panels/002-02/v02-storyboard-svg.svg	storyboard-svg		1200	800	3351	2026-09-07T16:49:06+00:00	candidate		storyboard
 002-02	v03	assets/art/panels/002-02/v03-storyboard-svg.svg	storyboard-svg		1200	800	3646	2026-09-07T16:54:58+00:00	candidate		storyboard
+002-02	v04	assets/art/panels/002-02/v04-builtin-image-pilot.png	builtin-image-pilot		1536	1024	2650682	2026-09-07T19:00:46+00:00	chosen	Opening follow-up: crossed required method and empty success field; exact handle; provisional.	refined
 002-03	v01	assets/art/panels/002-03/v01-flux2-klein-4b-1001.webp	flux2-klein-4b	1001	1200	800	80916	2026-09-05T16:19:23+00:00	candidate		refined
 002-03	v02	assets/art/panels/002-03/v02-storyboard-svg.svg	storyboard-svg		1200	800	6365	2026-09-07T16:49:06+00:00	candidate		storyboard
 002-03	v03	assets/art/panels/002-03/v03-storyboard-svg.svg	storyboard-svg		1200	800	6762	2026-09-07T16:54:59+00:00	candidate		storyboard

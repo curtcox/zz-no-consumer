@@ -62,3 +62,11 @@ Three further built-in image-tool calls produced reaction and scrolling panels f
 Exact prompts, reference/output hashes, dimensions, elapsed call times and saved paths are in [office-sequence.json](office-sequence.json). Original outputs and the rejected attempt remain in the panel store.
 
 Before this continuation, the full local CI sequence passed, including both unittest modules; the appendix retained 31 informational notes and no errors or warnings. The requested commit was blocked by index.lock (observed inode 62706428, empty): host inspection found no Git process or open handle, but automatic approval review rejected removal under the repository lock rule. Explicit user approval was requested. No commit or push has occurred in this continuation.
+
+## Opening sequence follow-up
+
+Two further built-in image calls corrected the task-card hierarchy in 001-01 and generated the evaluation-card close-up in 002-02. Selected provisional versions are 001-01 v09 and 002-02 v04. The first keeps the aisle composition and moves the exact handle above both task blocks. The second crosses out the required method and leaves the success field empty. Its FLAG label remains on the controlled lettering layer. Neither image is final; the adjacent diagrams and other earlier selections are outside this batch.
+
+Exact prompts, output and reference hashes, dimensions, tool limitations, and saved paths are in [opening-followup.json](opening-followup.json) and immutable image sidecars. Both generated images are 1536×1024 PNGs. The first call's elapsed time is rounded from tool timing; the second is measured around the call. Previous versions remain available.
+
+The complete storyboard check passed before changes. After import and selection, the site build, complete built storyboard check, lettering audit, viewer validator, and built page-link check passed. Rasterized lettered outputs were visually inspected: captions clear both task cards, the corrected header remains legible, and the success field remains empty. No manuscript, scene geometry, commit, push, or deployment changes were made in this batch.
