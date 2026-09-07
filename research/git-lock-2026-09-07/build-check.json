@@ -1,0 +1,9 @@
+{
+  "build_exit_code": 0,
+  "elapsed_seconds": 17.88,
+  "poll_interval_ms": 10,
+  "observed_locks": [],
+  "lock_exists_at_end": false,
+  "index_bytes_unchanged": true,
+  "scope": "One site rebuild with the desktop active and diff.autoRefreshIndex=false. Polling may miss short-lived locks; not a filesystem trace or guarantee against all future lock sources."
+}

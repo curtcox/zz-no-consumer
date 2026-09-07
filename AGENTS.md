@@ -31,13 +31,20 @@ runners or servers and weights; see [the tooling index](scripts/README.md#artwor
 1. Run `git --no-optional-locks status --short` to identify existing work before
    editing. The flag matters: a plain `git status` rewrites the index when stat data is
    stale, so it takes `.git/index.lock` like a write command does. Read-only git calls
-   in this repository carry `--no-optional-locks` so a session opening beside another
-   one cannot collide with it.
+   in this repository carry `--no-optional-locks`. This protects status, but the tested
+   Git versions still refresh the index after `diff`; each fresh checkout also needs
+   `git config --local diff.autoRefreshIndex false` (or pass
+   `-c diff.autoRefreshIndex=false` on individual diff commands). See the
+   [reproduction and mitigation](research/git-lock-2026-09-07/README.md).
+   After rebuilding, unchanged binaries may appear in diff output until an explicit
+   `git update-index --refresh` refreshes their stat data. This is an index write:
+   coordinate it, inspect its result, and do not confuse it with staging content.
    Coordinate staging and committing so only one session writes the shared index at a
    time; use separate worktrees for independent writers. If `index.lock` blocks a write,
    follow the [Git incident and recovery procedure](README.md#git-coordination-and-incident-record).
-   Do not automatically delete locks or infer staleness from age alone. The recorded
-   7 September 2026 UI failure remains an apparent stale lock, not an established app bug.
+   Do not automatically delete locks or infer staleness from age alone. The initial
+   UI failure has no captured creator PID; later recurrences correlate with canceled
+   background diffs, and their lock mechanism has been reproduced in isolated fixtures.
 2. Read the ownership table below and [scripts/README.md](scripts/README.md) for the
    affected tool. Read the story contract before changing narrative claims.
 3. Run the relevant checks before and after your change, so existing findings remain

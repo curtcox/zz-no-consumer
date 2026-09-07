@@ -1,0 +1,46 @@
+{
+  "git": "git version 2.55.0",
+  "observations": [
+    {
+      "case": "default-SIGKILL",
+      "observed_lock": true,
+      "exit_code": -9,
+      "leftover_lock": true,
+      "timed_out": false
+    },
+    {
+      "case": "no-optional-locks-SIGKILL",
+      "observed_lock": true,
+      "exit_code": -9,
+      "leftover_lock": true,
+      "timed_out": false
+    },
+    {
+      "case": "env-no-optional-locks-SIGKILL",
+      "observed_lock": true,
+      "exit_code": -9,
+      "leftover_lock": true,
+      "timed_out": false
+    },
+    {
+      "case": "default-SIGTERM",
+      "observed_lock": true,
+      "exit_code": -15,
+      "leftover_lock": true,
+      "timed_out": false
+    },
+    {
+      "case": "auto-refresh-disabled",
+      "observed_lock": false,
+      "exit_code": 0,
+      "leftover_lock": false,
+      "timed_out": false
+    }
+  ],
+  "diff_output_unchanged_before_refresh": false,
+  "diff_output_unchanged_after_refresh": true,
+  "explicit_refresh_exit_code": 1,
+  "mandatory_writer_blocked": true,
+  "baseline_reproduced": true,
+  "failures": []
+}

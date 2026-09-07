@@ -16,6 +16,18 @@ rather than repairing them.
 See [`../AGENTS.md`](../AGENTS.md) for the ownership rules these tools enforce, and
 [`../README.md`](../README.md) for the full prose manual of each one.
 
+## Git diagnostics
+
+`python3 scripts/git_lock_probe.py check` reproduces interrupted diff refresh locks
+in a disposable repository and checks the `diff.autoRefreshIndex=false` mitigation,
+diff-output equivalence after explicit refresh, and mandatory writer locking. It
+also reports stat-only binary diff behavior before refresh. Use `--git /usr/bin/git` to
+compare another installed Git. POSIX only, standard library only, no network. It
+signals only its own fixture processes and never repairs or deletes a live checkout's
+lock. A timing-dependent baseline reproduction is reported separately from check
+failures. This diagnostic is manual, outside the publication CI sequence. See the
+[incident record](../research/git-lock-2026-09-07/README.md) before live recovery.
+
 ## Structure: the tools that own identity
 
 These rewrite canonical files. Do the work through them rather than by hand.

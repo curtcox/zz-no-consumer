@@ -1,0 +1,54 @@
+{
+  "date": "2026-09-07",
+  "app_version": "26.901.51231",
+  "app_build": "8109",
+  "worker_asset": ".vite/build/worker.js",
+  "worker_sha256": "aa7c3436e123a479bd5eb805380f331609078ef3afb6127159b5b7bdf0dd05c9",
+  "locks": [
+    {
+      "inode": 62751244,
+      "size": 0,
+      "mtime_ns": 1788807670481311145,
+      "mtime_utc": "2026-09-07T19:01:10.481311+00:00",
+      "inside_logged_diff_interval": true
+    },
+    {
+      "inode": 62753423,
+      "size": 0,
+      "mtime_ns": 1788807997344534940,
+      "mtime_utc": "2026-09-07T19:06:37.344535+00:00",
+      "inside_logged_diff_interval": true
+    }
+  ],
+  "background_commands": [
+    {
+      "log_file": "codex-desktop-a5c7cba5-35d6-4d93-9a9c-76c9c9160f75-18682-t1-i1-185709-0.log",
+      "line": 20,
+      "completed_utc": "2026-09-07T19:01:10.526Z",
+      "start_time_ms": 1788807670329,
+      "duration_ms": 197,
+      "command_id": "ba1ebdf4",
+      "subcommand": "diff",
+      "source": "review_model",
+      "request_kind": "review-summary",
+      "failure_reason": "canceled",
+      "aborted": true,
+      "exit_code": null
+    },
+    {
+      "log_file": "codex-desktop-a5c7cba5-35d6-4d93-9a9c-76c9c9160f75-18682-t1-i1-185709-0.log",
+      "line": 24,
+      "completed_utc": "2026-09-07T19:06:37.396Z",
+      "start_time_ms": 1788807996897,
+      "duration_ms": 498,
+      "command_id": "197ac485",
+      "subcommand": "diff",
+      "source": "review_model",
+      "request_kind": "review-summary",
+      "failure_reason": "canceled",
+      "aborted": true,
+      "exit_code": null
+    }
+  ],
+  "scope": "Selected diagnostic fields only. No full application logs, environment variables or session transcripts copied. Timing correlation is not a captured creator PID."
+}

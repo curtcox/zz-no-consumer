@@ -53,6 +53,25 @@ Use `git --no-optional-locks` for read-only Git commands in this checkout. Statu
 otherwise refresh the index and briefly take its lock. This flag does not remove the
 mandatory lock needed by `add`, `commit`, or other index writers.
 
+**Tested mitigation, 7 September 2026:** Git 2.55.0 and Apple Git 2.50.1 still take
+an index refresh lock during `diff` even with `--no-optional-locks`. Disable that
+separate refresh in each fresh checkout:
+
+```sh
+git config --local diff.autoRefreshIndex false
+git --no-optional-locks config --show-origin --get diff.autoRefreshIndex
+```
+
+This setting is already applied to the working checkout; `.git/config` is local and
+does not travel with commits. It preserves mandatory writer locks. After a rebuild,
+stat-only binary changes can appear in diff output until a coordinated writer runs
+`git update-index --refresh`; inspect its output (exit 1 can list real changed files).
+This refresh does not stage content. Do not run it concurrently with another writer.
+For a single command, use `git --no-optional-locks -c diff.autoRefreshIndex=false diff`.
+The [investigation and repeatable check](research/git-lock-2026-09-07/README.md)
+explain the evidence, limitations, and rollback. Keep using `--no-optional-locks`
+for status and keep coordinating writers.
+
 Coordinate index-writing operations: one session or UI owns staging and committing at a
 time in a shared checkout. Independent sessions that need to write should use separate
 worktrees, which have separate indexes. After an interrupted operation, inspect the lock
@@ -127,6 +146,24 @@ rechecked immediately before recovery. Its creator remains unidentified.
 **Prevention recorded.** The shared agent instructions now point here and require
 coordination of index writers in addition to lock-free read-only inspection. This is an
 operating procedure, not an app-level fix or a proven root-cause correction.
+
+**Later investigation and mitigation, 7 September 2026.** Institutional artwork
+commit `ea22fce2` was pushed successfully after recovery of empty lock inode
+`62753423`. That lock and the preceding inode `62751244` were created within the
+logged intervals of canceled desktop review diffs. An isolated fixture reproduced
+locks left by interrupted diff refreshes with both installed Git versions, including
+when optional locks were disabled. Repository-local `diff.autoRefreshIndex=false`
+prevented the refresh lock in those tests. The installed desktop worker sets
+`GIT_OPTIONAL_LOCKS=0` but force-kills process groups on cancellation, which explains
+why the earlier flag-only guidance was insufficient. This is a tested mitigation
+and a strongly supported mechanism; no creator PID was captured for the original
+incident. See the [full evidence record](research/git-lock-2026-09-07/README.md).
+
+Push failures need separate diagnosis. In this session, sandboxed remote inspection
+failed to resolve GitHub, while the authorized host-level push succeeded. Use the
+normal network approval path; do not change remotes, credentials, DNS settings, or
+force-push to fix a sandbox access failure. Stop a command sequence at the first
+failure, inspect staged paths, and verify the remote branch after pushing.
 
 ## Source vault
 
