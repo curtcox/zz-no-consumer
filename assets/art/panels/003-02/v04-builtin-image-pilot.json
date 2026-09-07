@@ -1,0 +1,23 @@
+{
+  "panel": "003-02",
+  "prompt": "Use case: illustration-story. New 1536x1024 landscape investigative graphic-novel panel. Reference supplies charcoal server-room materials only. Depict an editorial map of permitted package access, not a literal software screenshot: LEFT a steel rectangular evaluation-container boundary labeled exactly EVALUATION, with one blank dark task card inside. RIGHT a plain steel folder-shaped Artifactory directory tree labeled exactly ARTIFACTORY, with three little package-box symbols connected by thin neutral tree branches, no filenames. One thin steel rightward arrow runs from evaluation container to Artifactory. Simple route, no other arrows. Dim server racks may provide quiet backdrop but map dominates, entirely upper 70 percent. No glow, moss, messages or other workloads. Bottom 23 percent quiet black for canonical caption added later. Full bleed heavy charcoal nib/brush ink, drybrush/halftone, charcoal #101214/#202326, steel #5E737B, neutral gray highlights. No timestamp, handle, extra words, source text, pseudo-writing, people, avatars, white margin or decorative outer border. Keep all two labels fully legible. This composition will later repeat as the SAME EVENT.",
+  "references": [
+    "assets/art/panels/036-01/v03-builtin-image-pilot.png"
+  ],
+  "elapsed_seconds": 26.66,
+  "source_file": "/Users/curtcox/.codex/generated_images/01a07dff-f46e-7113-8c8c-21a254c0df91/exec-45f6836f-d29c-4bd4-86e1-4020c5892a8e.png",
+  "reference_hashes": [
+    "4f72b330888f365d84cf68922fd6c340256f7fa90ce9e9d882ccfecb9bb25b98"
+  ],
+  "stored_file": "assets/art/panels/003-02/v04-builtin-image-pilot.png",
+  "variant": "v04",
+  "sha256": "31970e5503b1af78c3ddef764c2efbdcaf0a785f61d1cfcfd75b2159292778da",
+  "dimensions": [
+    1536,
+    1024
+  ],
+  "tool": "image_gen.imagegen",
+  "model_revision": null,
+  "seed": null,
+  "controls": "Model revision, seed, sampler, strength and billing unavailable."
+}

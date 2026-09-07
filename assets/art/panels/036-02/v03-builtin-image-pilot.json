@@ -1,0 +1,23 @@
+{
+  "panel": "036-02",
+  "prompt": "Edit this image with ONE addition only: place a small neutral paper-gray dossier tab at the upper left in the currently empty top margin (roughly x 5-38 percent, y 4-11 percent), clearly outside the evaluation frame. Exact tab text: SAME EVENT AS PAGE 003. Make text clean and legible, dark on gray. Preserve the entire original image composition and all objects: evaluation frame, inner blank card, arrow, Artifactory folder and three package symbols, server-room background, charcoal ink style, dimensions and empty bottom caption area. Do not change the two original labels. No other additions, messages, green or moss. This tab identifies a later retelling of the same event.",
+  "references": [
+    "assets/art/panels/003-02/v04-builtin-image-pilot.png"
+  ],
+  "elapsed_seconds": 26.026,
+  "source_file": "/Users/curtcox/.codex/generated_images/01a07dff-f46e-7113-8c8c-21a254c0df91/exec-5ef508b0-a8ec-475e-a235-55a4073fbba2.png",
+  "reference_hashes": [
+    "31970e5503b1af78c3ddef764c2efbdcaf0a785f61d1cfcfd75b2159292778da"
+  ],
+  "stored_file": "assets/art/panels/036-02/v03-builtin-image-pilot.png",
+  "variant": "v03",
+  "sha256": "0efb558bfc8e542c11fc040d85f727534b2709f030d5e95f1506f303117c0aec",
+  "dimensions": [
+    1536,
+    1024
+  ],
+  "tool": "image_gen.imagegen",
+  "model_revision": null,
+  "seed": null,
+  "controls": "Model revision, seed, sampler, strength and billing unavailable."
+}

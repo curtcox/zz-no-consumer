@@ -51,6 +51,7 @@ panel	variant	file	provider	seed	width	height	bytes	created	status	note	stage
 003-02	v01	assets/art/panels/003-02/v01-flux2-klein-4b-1001.webp	flux2-klein-4b	1001	1200	800	191358	2026-09-05T16:23:42+00:00	candidate		refined
 003-02	v02	assets/art/panels/003-02/v02-storyboard-svg.svg	storyboard-svg		1200	800	4163	2026-09-07T16:49:06+00:00	candidate		storyboard
 003-02	v03	assets/art/panels/003-02/v03-storyboard-svg.svg	storyboard-svg		1200	800	4409	2026-09-07T16:54:59+00:00	candidate		storyboard
+003-02	v04	assets/art/panels/003-02/v04-builtin-image-pilot.png	builtin-image-pilot		1536	1024	2318530	2026-09-07T23:00:14+00:00	chosen	Shared-service pair: readable evaluation-to-package map; provisional.	refined
 003-03	v01	assets/art/panels/003-03/v01-flux2-klein-4b-1001.webp	flux2-klein-4b	1001	1200	800	216314	2026-09-05T16:24:46+00:00	candidate		refined
 003-03	v02	assets/art/panels/003-03/v02-storyboard-svg.svg	storyboard-svg		1200	800	4368	2026-09-07T16:49:06+00:00	candidate		storyboard
 003-03	v03	assets/art/panels/003-03/v03-storyboard-svg.svg	storyboard-svg		1200	800	4756	2026-09-07T16:54:59+00:00	candidate		storyboard
@@ -474,6 +475,7 @@ panel	variant	file	provider	seed	width	height	bytes	created	status	note	stage
 036-01	v03	assets/art/panels/036-01/v03-builtin-image-pilot.png	builtin-image-pilot		1536	1024	2062132	2026-09-07T22:56:10+00:00	chosen	Main-board return: exact handle and 23:00 timestamp, package access without earlier board; provisional.	refined
 036-02	v01	assets/art/panels/036-02/v01-storyboard-svg.svg	storyboard-svg		1200	800	4363	2026-09-07T16:49:10+00:00	candidate		storyboard
 036-02	v02	assets/art/panels/036-02/v02-storyboard-svg.svg	storyboard-svg		1200	800	4593	2026-09-07T16:55:12+00:00	candidate		storyboard
+036-02	v03	assets/art/panels/036-02/v03-builtin-image-pilot.png	builtin-image-pilot		1536	1024	2247143	2026-09-07T23:00:15+00:00	chosen	Shared-service pair: repeated composition with same-event dossier tab; provisional.	refined
 036-03	v01	assets/art/panels/036-03/v01-storyboard-svg.svg	storyboard-svg		1200	800	4200	2026-09-07T16:49:10+00:00	candidate		storyboard
 036-03	v02	assets/art/panels/036-03/v02-storyboard-svg.svg	storyboard-svg		1200	800	4607	2026-09-07T16:55:13+00:00	candidate		storyboard
 036-04	v01	assets/art/panels/036-04/v01-storyboard-svg.svg	storyboard-svg		1200	800	4655	2026-09-07T16:49:10+00:00	candidate		storyboard
