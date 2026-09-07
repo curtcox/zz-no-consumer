@@ -354,6 +354,7 @@ panel	variant	file	provider	seed	width	height	bytes	created	status	note	stage
 028-02	v03	assets/art/panels/028-02/v03-storyboard-svg.svg	storyboard-svg		1200	800	7341	2026-09-07T17:01:43+00:00	candidate		storyboard
 028-03	v01	assets/art/panels/028-03/v01-storyboard-svg.svg	storyboard-svg		1200	800	7813	2026-09-07T16:49:09+00:00	candidate		storyboard
 028-03	v02	assets/art/panels/028-03/v02-storyboard-svg.svg	storyboard-svg		1200	800	7885	2026-09-07T16:55:08+00:00	candidate		storyboard
+028-03	v03	assets/art/panels/028-03/v03-builtin-image-pilot.png	builtin-image-pilot		1536	1024	2531565	2026-09-07T21:35:09+00:00	chosen	Outage pilot: distinct failed package lanes, ordinary rack lights and clear lettering space; provisional.	refined
 028-04	v01	assets/art/panels/028-04/v01-storyboard-svg.svg	storyboard-svg		1200	800	7323	2026-09-07T16:49:09+00:00	candidate		storyboard
 028-04	v02	assets/art/panels/028-04/v02-storyboard-svg.svg	storyboard-svg		1200	800	7668	2026-09-07T16:55:08+00:00	candidate		storyboard
 028-04	v03	assets/art/panels/028-04/v03-builtin-image-pilot.png	builtin-image-pilot		1536	1024	3423950	2026-09-07T21:28:54+00:00	rejected	Outage pilot: unwanted white margin and ragged decorative outer frame; replaced by corrected v04.	refined
@@ -363,6 +364,8 @@ panel	variant	file	provider	seed	width	height	bytes	created	status	note	stage
 028-05	v02	assets/art/panels/028-05/v02-storyboard-svg.svg	storyboard-svg		1200	800	8141	2026-09-07T16:55:09+00:00	candidate		storyboard
 028-06	v01	assets/art/panels/028-06/v01-storyboard-svg.svg	storyboard-svg		1200	800	6378	2026-09-07T16:49:09+00:00	candidate		storyboard
 028-06	v02	assets/art/panels/028-06/v02-storyboard-svg.svg	storyboard-svg		1200	800	6493	2026-09-07T16:55:09+00:00	candidate		storyboard
+028-06	v03	assets/art/panels/028-06/v03-builtin-image-pilot.png	builtin-image-pilot		1536	1024	2779060	2026-09-07T21:35:09+00:00	rejected	Service block repeats sealed plugin shape; corrected in v04.	refined
+028-06	v04	assets/art/panels/028-06/v04-builtin-image-pilot.png	builtin-image-pilot		1536	1024	2602875	2026-09-07T21:35:10+00:00	chosen	Outage pilot: service cabinet distinct from plugin package, four stalled workloads; provisional.	refined
 029-01	v01	assets/art/panels/029-01/v01-storyboard-svg.svg	storyboard-svg		1200	800	7597	2026-09-07T16:49:09+00:00	candidate		storyboard
 029-01	v02	assets/art/panels/029-01/v02-storyboard-svg.svg	storyboard-svg		1200	800	7853	2026-09-07T16:55:09+00:00	candidate		storyboard
 029-02	v01	assets/art/panels/029-02/v01-storyboard-svg.svg	storyboard-svg		1200	800	4239	2026-09-07T16:49:09+00:00	candidate		storyboard

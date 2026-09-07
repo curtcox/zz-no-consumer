@@ -1,0 +1,74 @@
+[
+  {
+    "panel": "028-03",
+    "prompt": "Use case: illustration-story. Generate a new 1536x1024 landscape investigative graphic-novel panel. Reference image is style and rack-material reference only. Show late 4 July systemic package-request failure across unrelated research workloads: six separate abstract task windows arranged as two rows of three in the upper 70 percent, each showing a simple package/folder symbol with a small failed-request cross, on a dim ordinary server-rack backdrop. Keep lanes distinct; no arrows between workloads. Rack indicator lights remain ordinary pale pinpoints. Mature heavy nib and brush ink, drybrush and halftone, charcoal #101214/#202326, dirty paper #E7E0D0, muted steel #5E737B. Reserve bottom 23 percent as quiet dark negative space for controlled SERVICE UNAVAILABLE lettering added later. No text anywhere in generated art, no digits, no logos, no humans or agent avatars, no flames, sparks or explosive damage, no green/moss or amber line, no plugin inset, no white margin or decorative frame. Full bleed. Editorial abstraction, not a source screenshot.",
+    "elapsed_seconds": 22.48,
+    "source_file": "/Users/curtcox/.codex/generated_images/01a07d3b-83f6-77e3-b006-39f2f4ad8687/exec-fca8db41-9606-420c-84b3-9a87c4380f1e.png",
+    "references": [
+      "assets/art/panels/027-05/v03-builtin-image-pilot.png"
+    ],
+    "reference_hashes": [
+      "2f11539a28d7df4a628ddbb5c17f0ab906ace228b56678a2d7f28dd9cd8c36f7"
+    ],
+    "stored_file": "assets/art/panels/028-03/v03-builtin-image-pilot.png",
+    "variant": "v03",
+    "sha256": "980b9352ae8edeff2cc145875dd86049e1a2fb33722624cfeb2c071350de9112",
+    "dimensions": [
+      1536,
+      1024
+    ],
+    "tool": "image_gen.imagegen",
+    "model_revision": null,
+    "seed": null,
+    "controls": "Model revision, seed, sampler, strength and billing unavailable.",
+    "rejected": false
+  },
+  {
+    "panel": "028-06",
+    "prompt": "Use case: illustration-story. Generate a new 1536x1024 landscape investigative graphic-novel panel. Reference image establishes ink texture and data-center material only. Visual metaphor of the once-shared package service becoming the incident: large dark unavailable service block on right, four distinct stalled abstract workload cards on left, each containing a simple cross. Thin muted steel incident-response connector lines lead toward the service and stop at its perimeter; they are editorial abstraction, no technical topology or named endpoints. Composition occupies upper 70 percent; bottom 23 percent quiet dark negative space reserved for a caption added later. The block carries just one legible exact label: UNAVAILABLE. Mature charcoal heavy nib/brush ink, drybrush, subtle halftone, dirty paper highlights #E7E0D0, muted steel #5E737B. Service block remains readable against background, no explosion or physical destruction. No people, avatars, plugin inset, green/moss communication motif, amber divider, source prose, other text, digits, logos, white margins or decorative frame. Full bleed; restrained visual consequence.",
+    "elapsed_seconds": 48.751,
+    "source_file": "/Users/curtcox/.codex/generated_images/01a07d3b-83f6-77e3-b006-39f2f4ad8687/exec-2ff6a156-a540-4743-a176-47fc694c11bb.png",
+    "references": [
+      "assets/art/panels/027-05/v03-builtin-image-pilot.png"
+    ],
+    "reference_hashes": [
+      "2f11539a28d7df4a628ddbb5c17f0ab906ace228b56678a2d7f28dd9cd8c36f7"
+    ],
+    "stored_file": "assets/art/panels/028-06/v03-builtin-image-pilot.png",
+    "variant": "v03",
+    "sha256": "355ca86fc059edf51b64b719d66653831d4345f242a881a2f75982f407698e4d",
+    "dimensions": [
+      1536,
+      1024
+    ],
+    "tool": "image_gen.imagegen",
+    "model_revision": null,
+    "seed": null,
+    "controls": "Model revision, seed, sampler, strength and billing unavailable.",
+    "rejected": true
+  },
+  {
+    "panel": "028-06",
+    "prompt": "Use case: precise-object-edit. Change only the large right-hand object in this graphic-novel panel. Replace the sealed beveled plugin package with a plain dark rectangular service cabinet: straight square corners, simple horizontal server shelves/vents, no folded corners, straps, redaction strip or package wrapping. Keep exact UNAVAILABLE label as a small centered paper status placard on the cabinet front. Preserve its position and size, all four workload cards and their crosses, every connector path, backdrop, palette, brushwork and lower caption negative space. This object represents the whole unavailable shared service, distinct from a plugin package. No new text, borders, people or effects.",
+    "elapsed_seconds": 28.867,
+    "source_file": "/Users/curtcox/.codex/generated_images/01a07d3b-83f6-77e3-b006-39f2f4ad8687/exec-b173ce17-dc04-41cc-bdef-1cc4d8def8b7.png",
+    "references": [
+      "assets/art/panels/028-06/v03-builtin-image-pilot.png"
+    ],
+    "reference_hashes": [
+      "355ca86fc059edf51b64b719d66653831d4345f242a881a2f75982f407698e4d"
+    ],
+    "stored_file": "assets/art/panels/028-06/v04-builtin-image-pilot.png",
+    "variant": "v04",
+    "sha256": "7e8aced325e918a190a1686cced5426b1db641241bb3954ec310253916261d6d",
+    "dimensions": [
+      1536,
+      1024
+    ],
+    "tool": "image_gen.imagegen",
+    "model_revision": null,
+    "seed": null,
+    "controls": "Model revision, seed, sampler, strength and billing unavailable.",
+    "rejected": false
+  }
+]

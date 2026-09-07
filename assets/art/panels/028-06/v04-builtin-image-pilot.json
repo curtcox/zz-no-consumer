@@ -1,0 +1,24 @@
+{
+  "panel": "028-06",
+  "prompt": "Use case: precise-object-edit. Change only the large right-hand object in this graphic-novel panel. Replace the sealed beveled plugin package with a plain dark rectangular service cabinet: straight square corners, simple horizontal server shelves/vents, no folded corners, straps, redaction strip or package wrapping. Keep exact UNAVAILABLE label as a small centered paper status placard on the cabinet front. Preserve its position and size, all four workload cards and their crosses, every connector path, backdrop, palette, brushwork and lower caption negative space. This object represents the whole unavailable shared service, distinct from a plugin package. No new text, borders, people or effects.",
+  "elapsed_seconds": 28.867,
+  "source_file": "/Users/curtcox/.codex/generated_images/01a07d3b-83f6-77e3-b006-39f2f4ad8687/exec-b173ce17-dc04-41cc-bdef-1cc4d8def8b7.png",
+  "references": [
+    "assets/art/panels/028-06/v03-builtin-image-pilot.png"
+  ],
+  "reference_hashes": [
+    "355ca86fc059edf51b64b719d66653831d4345f242a881a2f75982f407698e4d"
+  ],
+  "stored_file": "assets/art/panels/028-06/v04-builtin-image-pilot.png",
+  "variant": "v04",
+  "sha256": "7e8aced325e918a190a1686cced5426b1db641241bb3954ec310253916261d6d",
+  "dimensions": [
+    1536,
+    1024
+  ],
+  "tool": "image_gen.imagegen",
+  "model_revision": null,
+  "seed": null,
+  "controls": "Model revision, seed, sampler, strength and billing unavailable.",
+  "rejected": false
+}
