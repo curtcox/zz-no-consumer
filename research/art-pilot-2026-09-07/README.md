@@ -80,3 +80,13 @@ Two further built-in image calls generated 026-01 v05 and 026-02 v05, both provi
 Exact prompts, reference hashes, dimensions, output hashes, elapsed call times and tool limitations are preserved in [institution-followup.json](institution-followup.json) and each immutable PNG's JSON sidecar. Both outputs are 1536×1024. Previous candidates remain available.
 
 The complete storyboard check passed before generation. The rebuilt site's complete storyboard check, lettering audit, viewer validation and built page-link check passed afterwards. Rasterized lettered versions were inspected: both captions fit and leave all labels, identification connections and note objects unobscured. Manuscript and scene geometry were unchanged. These two new institutional images and their regenerated reader outputs remain uncommitted.
+
+## Decision sequence continuation
+
+The institutional batch was subsequently committed and pushed as `ea22fce2`; the Git investigation followed as `0586e76b`. At the start of this continuation the working tree was clean and origin/main was already up to date.
+
+Two built-in image calls generated 027-01 v04 and 027-03 v03. Selected provisional variants are 027-01 v05 and 027-03 v04, controlled SVG reconstruction borders around those unchanged PNGs. The first keeps the same two anonymous responders, clothing, table and three landscape evidence cards, with a restrained explanatory gesture and clear dialogue space. The second enlarges the unanswered STOP RUN? field, with three peripheral hands and two blank device screens. A hand overlaps the paper's lower edge, but the heading and large empty decision field remain unobscured. No motive or answer was added. The earlier image in 027-02 and the remaining sequence are outside this batch.
+
+Exact prompts, reference hashes, timing, tool limitations and output paths are saved in [decision-followup.json](decision-followup.json) and immutable image sidecars. Both generated PNGs are 1536×1024. The reconstruction border is controlled geometry, not an additional model call. Nothing was marked final.
+
+The complete storyboard check passed before generation. After import, the site build, complete built storyboard check, lettering audit, viewer validator and built page-link check passed. Both lettered outputs were rasterized and visually inspected for border treatment, labels, anatomy and dialogue clearance. The explicit Git metadata refresh completed with only the expected edited-file notices; no index lock recovery was needed. This new decision batch remains uncommitted.

@@ -1,0 +1,25 @@
+{
+  "panel": "027-03",
+  "references": [
+    "assets/art/panels/026-05/v07-builtin-image-pilot.png",
+    "assets/art/panels/026-04/v05-builtin-image-pilot.png"
+  ],
+  "prompt": "Use case: illustration-story. Generate one landscape 1536x1024 hand-inked graphic-novel panel. First input is decision-paper and table reference; second is room/material/clothing reference. Close overhead view: the existing portrait paper headed exactly STOP RUN? is enlarged at the center of the gray laminate table, occupying middle 40% width and 75% height. Below the heading the paper is entirely EMPTY: no checkmark, answer, handwriting, additional word or decision. Three ordinary human hands enter from different peripheral edges, none dominates or covers paper. One pale collared-shirt cuff, one dark shirt cuff, a third anonymous plain sleeve. Two modest cropped device screens at opposite peripheral edges show only single blank neutral fields; keep them secondary, no glyphs. The three earlier evidence cards may fall entirely outside this close crop. Convey several responders attending to an unanswered question, no blame, hero, villain or implied motive. Same charcoal brush/nib ink, dry-brush abrasion, gray institutional light, handled dirty paper #E7E0D0, muted steel #5E737B, restrained halftone. No moss green, claret, amber, neon, glow, logos, codes, commands, pseudo-writing, captions, balloons or outer border. One continuous image, not multiple panels. Production adds a broken reconstruction border separately.",
+  "elapsed_seconds": 69.36,
+  "source_file": "/Users/curtcox/.codex/generated_images/01a07d3b-83f6-77e3-b006-39f2f4ad8687/exec-14f8d36e-6bf0-4ed9-8d7e-d792a9f50870.png",
+  "stored_file": "assets/art/panels/027-03/v03-builtin-image-pilot.png",
+  "variant": "v03",
+  "sha256": "73d04bd90b230b69baef0b5548a4f3736a0d359b1fcf8af394591c425730c15b",
+  "dimensions": [
+    1536,
+    1024
+  ],
+  "tool": "image_gen.imagegen",
+  "model_revision": null,
+  "seed": null,
+  "controls": "Model revision, seed, sampler, strength and billing unavailable.",
+  "reference_hashes": [
+    "d40b3ee878f38f1cf29b3cbc21a365aabad2fdd074267c9a4e6da2a15bdeb3b5",
+    "f67d7df528cf6aacd65857a4f779db9d8659cf11b182e813426f0b38b842b169"
+  ]
+}

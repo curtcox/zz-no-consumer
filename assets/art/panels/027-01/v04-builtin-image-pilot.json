@@ -1,0 +1,23 @@
+{
+  "panel": "027-01",
+  "references": [
+    "assets/art/panels/026-04/v05-builtin-image-pilot.png"
+  ],
+  "prompt": "Use case: illustration-story. Generate one landscape 1536x1024 graphic-novel panel, continuing supplied institutional room reference. Same two anonymous functional responders: pale collared shirt at left, dark plain shirt at right, faces cropped above mouth or obscured. Same ordinary gray laminate table, flat fluorescent ceiling and plain acoustic walls. Same three landscape paper cards lie flat on table left to right with exact labels EVALUATION, MESSAGE BOARD, NETWORK PIVOT. Change camera to a slightly closer oblique view from left side of table. Left responder makes one restrained open-hand explanatory gesture above the EVALUATION card without covering labels; right responder listens, hands neutral. No central leader, no motive or emotion invented beyond ordinary procedural conversation. Keep all three cards and gesturing hand in upper 72%; bottom 25% near-black empty for later dialogue. Match heavy brush-and-nib ink, dry brush abrasion, restrained halftone, dirty paper #E7E0D0, charcoal #101214, muted steel/gray-green. No extra cards, no stop decision yet, no new words, pseudo-writing, badges, logos, screens of code, neon, villain lighting, heroic pose, balloons, captions, or outer border. Production adds dialogue and a controlled broken reconstruction border separately.",
+  "elapsed_seconds": 42.749,
+  "source_file": "/Users/curtcox/.codex/generated_images/01a07d3b-83f6-77e3-b006-39f2f4ad8687/exec-334e29b3-2b67-484d-87bb-77d64a15b52d.png",
+  "stored_file": "assets/art/panels/027-01/v04-builtin-image-pilot.png",
+  "variant": "v04",
+  "sha256": "05d9fd0fdfa9134a613787e7dd33a6ab6b6c4b1260c1f3e47bbf09e8f6c73764",
+  "dimensions": [
+    1536,
+    1024
+  ],
+  "tool": "image_gen.imagegen",
+  "model_revision": null,
+  "seed": null,
+  "controls": "Model revision, seed, sampler, strength and billing unavailable.",
+  "reference_hashes": [
+    "f67d7df528cf6aacd65857a4f779db9d8659cf11b182e813426f0b38b842b169"
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "operation": "Controlled broken reconstruction border over unchanged PNG",
+  "source_variant": "v04-builtin-image-pilot.png",
+  "source_sha256": "05d9fd0fdfa9134a613787e7dd33a6ab6b6c4b1260c1f3e47bbf09e8f6c73764",
+  "model_call": false,
+  "border": {
+    "color": "#5E737B",
+    "width": 4,
+    "dash": [
+      24,
+      16
+    ],
+    "inset": 3
+  }
+}
