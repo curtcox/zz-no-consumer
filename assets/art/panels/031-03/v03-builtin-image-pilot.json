@@ -1,0 +1,25 @@
+{
+  "panel": "031-03",
+  "prompt": "Use case: illustration-story. New 1536x1024 landscape investigative comic panel, explicitly an editorial analytical metaphor, never institutional UI or an active system. References provide dark cache materials and restrained ink style. Upper center: an old cache represented as a broad nearly black rectangular field inside dark steel frame, small exact label OLD CACHE. Inside only a thin muted moss-green outline of the former message board, EMPTY with no rows, text or glow. This is a remembered analytical outline, not revived data. Surround field with two large question brackets: left exact label CAUSE and question mark; right exact label TOOL and question mark. Equal visual weight, no answer or causal arrows. Question brackets muted amber, all else charcoal/steel except single moss outline. Bottom 23 percent quiet dark negative space for controlled caption added later. Heavy nib/brush ink, drybrush, subtle halftone, charcoal #101214/#202326, steel #5E737B, gray. No people, avatars, notes, source text, code, extra labels, connectors, glowing effects, white margin or decorative frame. No clean rebuilt service depicted here.",
+  "references": [
+    "assets/art/panels/030-01/v03-builtin-image-pilot.png",
+    "assets/art/panels/029-04/v03-builtin-image-pilot.png"
+  ],
+  "elapsed_seconds": 57.605,
+  "source_file": "/Users/curtcox/.codex/generated_images/01a07d3b-83f6-77e3-b006-39f2f4ad8687/exec-96c7bd1f-b64a-4796-b2e7-14882fa4687b.png",
+  "reference_hashes": [
+    "767e781569428798b2821efac99a38f5a69c695aff44b9c04adf900539720b7d",
+    "1d85228e8f7ab702aaa2f799e48aa6210ef21208e1c157241ad8fcfac5a45485"
+  ],
+  "stored_file": "assets/art/panels/031-03/v03-builtin-image-pilot.png",
+  "variant": "v03",
+  "sha256": "2aa493018737d7c02feb49a46062958d8b3594041317f39ff1fac4f636cfb404",
+  "dimensions": [
+    1536,
+    1024
+  ],
+  "tool": "image_gen.imagegen",
+  "model_revision": null,
+  "seed": null,
+  "controls": "Model revision, seed, sampler, strength and billing unavailable."
+}

@@ -1,0 +1,25 @@
+{
+  "panel": "031-05",
+  "prompt": "Use case: illustration-story. New 1536x1024 landscape investigative comic panel. Reference 1 provides clean service cabinet; reference 2 provides its empty directory field. CENTER in upper 70 percent: clean upright Artifactory cabinet with an empty steel directory field, exact label CLEAN ARTIFACTORY. Around it four separate dormant evaluation lane cards, two on each side, each dark and blank except small exact DORMANT label. Subtle unarrowed steel lane lines stop short of cabinet; no packets, active arrows, lights on workload cards, messages or avatars. Cabinet is intact and clean, not broken or ominous. No old cabinet, moss-green outline, notes or remembered board anywhere. This is an editorial question about conditions, not proof of recurring communication. Reserve bottom 23 percent as quiet dark negative space for two controlled caption sentences. Mature charcoal nib/brush ink, drybrush, halftone, steel blue #5E737B, gray neutral highlights, restrained contrast. No green/moss, amber, red, people, code, source interface details, extra words, white border or decorative frame. Full bleed.",
+  "references": [
+    "assets/art/panels/030-01/v03-builtin-image-pilot.png",
+    "assets/art/panels/029-04/v03-builtin-image-pilot.png"
+  ],
+  "elapsed_seconds": 25.433,
+  "source_file": "/Users/curtcox/.codex/generated_images/01a07d3b-83f6-77e3-b006-39f2f4ad8687/exec-e63d514d-12f3-415b-803e-b3c1e589a162.png",
+  "reference_hashes": [
+    "767e781569428798b2821efac99a38f5a69c695aff44b9c04adf900539720b7d",
+    "1d85228e8f7ab702aaa2f799e48aa6210ef21208e1c157241ad8fcfac5a45485"
+  ],
+  "stored_file": "assets/art/panels/031-05/v03-builtin-image-pilot.png",
+  "variant": "v03",
+  "sha256": "736ccc3ff381c17a5cf80c49dbd67f9773c0bdd24184b6c86609839a849241c1",
+  "dimensions": [
+    1536,
+    1024
+  ],
+  "tool": "image_gen.imagegen",
+  "model_revision": null,
+  "seed": null,
+  "controls": "Model revision, seed, sampler, strength and billing unavailable."
+}
