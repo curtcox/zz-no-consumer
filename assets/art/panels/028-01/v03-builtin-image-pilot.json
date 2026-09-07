@@ -1,0 +1,24 @@
+{
+  "panel": "028-01",
+  "border": false,
+  "references": [
+    "assets/art/panels/027-05/v03-builtin-image-pilot.png"
+  ],
+  "prompt": "Use case: illustration-story. One landscape 1536x1024 graphic-novel panel. Reference supplies the established sealed plugin package symbol and gritty ink/material style. A close editorial view of that SAME dark rectangular sealed package with central solid black redaction, now enlarged on the LEFT half of a subdued service interface. Exact label PLUGIN above package. Beside it at lower center-left, a simple non-operational status tile with exact label EXECUTED and one small check mark. A tiny desaturated claret #6B2634 edge on this changed state marks the now-confirmed boundary consequence. No practical execution button, command, payload, wire, exploit or source UI. Keep all critical artwork at x=5-52%, y=32-80%. Upper-right x=58-97%, y=0-40% must be quiet almost-black negative space for later controlled timestamp and caption. No timestamps drawn by you, no other words, no STAGED label, no ACTIVE RUNS label copied from reference. Charcoal #101214/#202326, dirty paper #E7E0D0 and muted steel #5E737B, hand-inked nib/brush, dry brush abrasion, restrained halftone. No exploding package, glow, embodied software, people, real code, URLs, logos, pseudo-writing, captions, balloons or panel border. Event timing will be supplied by the controlled lettering layer; preserve its space.",
+  "elapsed_seconds": 25.504,
+  "source_file": "/Users/curtcox/.codex/generated_images/01a07d3b-83f6-77e3-b006-39f2f4ad8687/exec-f6fbc326-182e-498c-a089-a45c6e47c53b.png",
+  "stored_file": "assets/art/panels/028-01/v03-builtin-image-pilot.png",
+  "variant": "v03",
+  "sha256": "b6a6c102e2ec525dfcef54d9b30fa5f73ab8155266ed6234eb5ad47ebd07b5ce",
+  "dimensions": [
+    1536,
+    1024
+  ],
+  "tool": "image_gen.imagegen",
+  "model_revision": null,
+  "seed": null,
+  "controls": "Model revision, seed, sampler, strength and billing unavailable.",
+  "reference_hashes": [
+    "2f11539a28d7df4a628ddbb5c17f0ab906ace228b56678a2d7f28dd9cd8c36f7"
+  ]
+}

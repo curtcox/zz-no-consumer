@@ -1,0 +1,24 @@
+{
+  "panel": "028-04",
+  "border": true,
+  "prompt": "Edit only the outermost white paper margin and ragged black decorative frame. Remove that entire decorative border and extend the existing room, desk and responder naturally to all image edges. Preserve EVERYTHING inside: exact timestamp 5 JULY 2026 \u2014 19:50 UTC, ALERT and INCIDENT headings, blank diagram fields, monitor geometry, both hands, keyboard, anonymous responder, grayscale ink texture and composition. No crop that loses any existing text or hands. One edge-to-edge 1536x1024 panel, no white margin, outer border, new glyphs or added objects. Production supplies the precise broken border later.",
+  "references": [
+    "assets/art/panels/028-04/v03-builtin-image-pilot.png"
+  ],
+  "elapsed_seconds": 27.869,
+  "source_file": "/Users/curtcox/.codex/generated_images/01a07d3b-83f6-77e3-b006-39f2f4ad8687/exec-23cd8925-bfa1-4efe-be91-8a9f9bac0bc7.png",
+  "stored_file": "assets/art/panels/028-04/v04-builtin-image-pilot.png",
+  "variant": "v04",
+  "sha256": "7a640151f9ba73ea4622716981cf31a32a225ae43e813d96a3a5b6719c5d0556",
+  "dimensions": [
+    1536,
+    1024
+  ],
+  "tool": "image_gen.imagegen",
+  "model_revision": null,
+  "seed": null,
+  "controls": "Model revision, seed, sampler, strength and billing unavailable.",
+  "reference_hashes": [
+    "0d9f252dc821fb79d765da74b777433b1b15f51905c93ee2fe6cd848edbdafc9"
+  ]
+}

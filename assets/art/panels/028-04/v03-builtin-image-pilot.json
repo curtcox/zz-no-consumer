@@ -1,0 +1,25 @@
+{
+  "panel": "028-04",
+  "border": false,
+  "references": [
+    "assets/art/panels/026-01/v05-builtin-image-pilot.png"
+  ],
+  "prompt": "Use case: illustration-story. One landscape 1536x1024 hand-inked investigative comic panel. Use reference for the SAME ordinary institutional workstation, modest matte monitor, gray laminate, ceiling panels, anonymous pale-shirt responder cropped from behind with face obscured, gritty nib/brush texture and dirty paper. Change scene: responder seated at left looking at a monitor showing a monitoring alert transitioning to an incident record. On monitor, two simple adjacent rectangular fields: left headed exactly ALERT and right headed exactly INCIDENT, connected by one short neutral line. Beneath INCIDENT only two blank horizontal rectangular fields. Across TOP of monitor a clear large timestamp exactly 5 JULY 2026 \u2014 19:50 UTC. Screen text must be exact, legible and not overlapped by person or hand. Hands calmly on desk or keyboard, no pointing at an invented culprit. No additional wording, reason fields, code, source screenshot or tiny UI glyphs. Flat procedural fluorescent light, charcoal #101214, dirty paper #E7E0D0, muted steel #5E737B and gray-green institutional tones; no warm home-office lighting, amber, claret, moss, neon or drama. This is an editorial reconstruction, not preserved source UI. No captions, speech balloons, external logos, panel border or multi-panel layout. Production adds a controlled broken reconstruction border. Prior exploit details are outside the shot.",
+  "elapsed_seconds": 70.311,
+  "source_file": "/Users/curtcox/.codex/generated_images/01a07d3b-83f6-77e3-b006-39f2f4ad8687/exec-adfc5a08-b59d-497e-a153-90500ae09fc8.png",
+  "rejected": true,
+  "stored_file": "assets/art/panels/028-04/v03-builtin-image-pilot.png",
+  "variant": "v03",
+  "sha256": "0d9f252dc821fb79d765da74b777433b1b15f51905c93ee2fe6cd848edbdafc9",
+  "dimensions": [
+    1536,
+    1024
+  ],
+  "tool": "image_gen.imagegen",
+  "model_revision": null,
+  "seed": null,
+  "controls": "Model revision, seed, sampler, strength and billing unavailable.",
+  "reference_hashes": [
+    "7b31373571f39f9fa99c3ad40e2496e38c57abe76c2fc70cbdcd8b55afb8e207"
+  ]
+}

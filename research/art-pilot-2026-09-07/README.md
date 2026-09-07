@@ -98,3 +98,9 @@ The preceding decision batch was committed and pushed as `6932de1e`, without loc
 Exact prompts, reference/output hashes, dimensions, timings and limitations are in [decision-completion.json](decision-completion.json) and immutable sidecars. All three outputs are 1536×1024 PNGs. The decision-log slot 027-04 remains the controlled v02 storyboard; no model-generated decision wording was needed. The page now combines four provisional generated selections with that controlled graphic. This is not final art approval.
 
 Before generation, complete storyboard validation passed. After selection, the site build, complete built storyboard check, lettering audit, viewer validator and built page-link check passed. Both new lettered views were rasterized and inspected: the two dialogue boxes clear the evidence props, the closing caption clears the staged plugin, and no execution effect was introduced. No script or scene geometry changed. This completion pass remains uncommitted.
+
+## Outage sequence follow-up
+
+The decision completion batch was committed and pushed as `683fd404`. Three built-in image calls produced selected 028-01 v03 and 028-04 v05. The execution panel preserves the sealed plugin and distinguishes its confirmed execution date from the later incident opening. The first incident-room image (v03) is retained as rejected because of its decorative white frame; corrected v04 is wrapped in the controlled reconstruction border as selected v05. Exact prompts, hashes, timings and tool limitations are in [outage-followup.json](outage-followup.json). All selections remain provisional.
+
+The site build, complete built storyboard check, lettering audit, viewer validator and built page-link check passed. Rasterized lettered views were inspected for timestamp accuracy, caption clearance and border treatment. No script or scene geometry changed.

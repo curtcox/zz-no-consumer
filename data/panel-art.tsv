@@ -348,6 +348,7 @@ panel	variant	file	provider	seed	width	height	bytes	created	status	note	stage
 027-05	v03	assets/art/panels/027-05/v03-builtin-image-pilot.png	builtin-image-pilot		1536	1024	2376595	2026-09-07T19:30:47+00:00	chosen	Decision aftermath: active racks separated from dormant staged plugin; exact labels and caption clearance; provisional.	refined
 028-01	v01	assets/art/panels/028-01/v01-storyboard-svg.svg	storyboard-svg		1200	800	4709	2026-09-07T16:49:09+00:00	candidate		storyboard
 028-01	v02	assets/art/panels/028-01/v02-storyboard-svg.svg	storyboard-svg		1200	800	4965	2026-09-07T16:55:08+00:00	candidate		storyboard
+028-01	v03	assets/art/panels/028-01/v03-builtin-image-pilot.png	builtin-image-pilot		1536	1024	2306207	2026-09-07T21:28:53+00:00	chosen	Outage pilot: established redacted plugin, exact EXECUTED state, quiet timestamp and caption area; provisional.	refined
 028-02	v01	assets/art/panels/028-02/v01-storyboard-svg.svg	storyboard-svg		1200	800	6936	2026-09-07T16:49:09+00:00	candidate		storyboard
 028-02	v02	assets/art/panels/028-02/v02-storyboard-svg.svg	storyboard-svg		1200	800	7259	2026-09-07T16:55:08+00:00	candidate		storyboard
 028-02	v03	assets/art/panels/028-02/v03-storyboard-svg.svg	storyboard-svg		1200	800	7341	2026-09-07T17:01:43+00:00	candidate		storyboard
@@ -355,6 +356,9 @@ panel	variant	file	provider	seed	width	height	bytes	created	status	note	stage
 028-03	v02	assets/art/panels/028-03/v02-storyboard-svg.svg	storyboard-svg		1200	800	7885	2026-09-07T16:55:08+00:00	candidate		storyboard
 028-04	v01	assets/art/panels/028-04/v01-storyboard-svg.svg	storyboard-svg		1200	800	7323	2026-09-07T16:49:09+00:00	candidate		storyboard
 028-04	v02	assets/art/panels/028-04/v02-storyboard-svg.svg	storyboard-svg		1200	800	7668	2026-09-07T16:55:08+00:00	candidate		storyboard
+028-04	v03	assets/art/panels/028-04/v03-builtin-image-pilot.png	builtin-image-pilot		1536	1024	3423950	2026-09-07T21:28:54+00:00	rejected	Outage pilot: unwanted white margin and ragged decorative outer frame; replaced by corrected v04.	refined
+028-04	v04	assets/art/panels/028-04/v04-builtin-image-pilot.png	builtin-image-pilot		1536	1024	3393552	2026-09-07T21:28:54+00:00	candidate		refined
+028-04	v05	assets/art/panels/028-04/v05-pilot-border.svg	pilot-border		1536	1024	4525065	2026-09-07T21:28:54+00:00	chosen	Outage pilot: anonymous responder, exact incident timestamp, abstract alert-to-incident record, controlled reconstruction border; provisional.	refined
 028-05	v01	assets/art/panels/028-05/v01-storyboard-svg.svg	storyboard-svg		1200	800	7602	2026-09-07T16:49:09+00:00	candidate		storyboard
 028-05	v02	assets/art/panels/028-05/v02-storyboard-svg.svg	storyboard-svg		1200	800	8141	2026-09-07T16:55:09+00:00	candidate		storyboard
 028-06	v01	assets/art/panels/028-06/v01-storyboard-svg.svg	storyboard-svg		1200	800	6378	2026-09-07T16:49:09+00:00	candidate		storyboard
