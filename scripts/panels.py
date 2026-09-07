@@ -795,6 +795,10 @@ def structured_keys() -> dict[str, set[str]]:
             child.name for child in directory.iterdir()
             if re.fullmatch(r"\d{3}-\d{2}", child.name)
         }
+    scene_path = ROOT / "data/storyboards.json"
+    if scene_path.exists():
+        import json
+        found["data/storyboards.json"] = set(json.loads(scene_path.read_text())["scenes"])
     prompts: set[str] = set()
     base = ROOT / "prompts" / "pages"
     if base.is_dir():
@@ -928,6 +932,20 @@ def plan_rewrite(scripts: dict[int, PageScript], operation: Operation) -> Plan:
         report(rewrite, relative)
         if rewrite.text != body:
             plan.writes[relative] = rewrite.text
+
+    # Scene records travel with their panel; frozen SVG variants travel in the art tree.
+    import storyboards
+    scene_path = ROOT / "data/storyboards.json"
+    if scene_path.exists():
+        import json
+        data = json.loads(scene_path.read_text(encoding="utf-8"))
+        def rewrite_scene_source(body, page, index):
+            travelling = transfer and (page, index) == (transfer.source, transfer.index)
+            return rewrite_prose(body, f"content/pages/{page:03d}.md", relocation,
+                                 origin=page if travelling else None,
+                                 lands_on=transfer.target if travelling else None).text
+        plan.writes["data/storyboards.json"] = storyboards.encoded(
+            storyboards.relocate(data, relocation.resolve, rewrite_scene_source))
 
     # --- the art table -------------------------------------------------------
     art = ROOT / "data" / "panel-art.tsv"
@@ -1223,6 +1241,7 @@ def run_operation(scripts: dict[int, PageScript], operation: Operation,
     commit(plan)
     print("\nApplied. Regenerate the derived artifacts, then re-check:")
     print("  python3 scripts/paneltypes.py write")
+    print("  python3 scripts/storyboards.py generate")
     print("  python3 scripts/build-site.py")
     print("  python3 scripts/panels.py check")
     open_findings = counts["error"] + counts["warning"]

@@ -84,7 +84,7 @@ class Slot:
         return f"{self.page}-{self.panel:02d}"
 
     def art(self) -> Path | None:
-        return letterpress.find_art(self.page, self.panel)
+        return panelart.resolve(self.page, self.panel, min_stage="refined")
 
 
 def page_locations(page_id: str) -> list[str]:

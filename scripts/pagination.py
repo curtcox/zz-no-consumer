@@ -929,6 +929,18 @@ def plan_rewrite(book: Book, operation: Operation, population: str) -> Plan:
     review = rewrite_padded_tables(review, mapping)
     plan.writes["content/production-review.md"] = review
 
+    # Scene keys and source snapshots follow the same page mapping as scripts.
+    scene_path = ROOT / "data/storyboards.json"
+    if scene_path.exists():
+        import json
+        import storyboards
+        scenes = json.loads(scene_path.read_text(encoding="utf-8"))
+        plan.writes["data/storyboards.json"] = storyboards.encoded(storyboards.relocate(
+            scenes,
+            lambda page, index: (mapping[page], index) if page in mapping else None,
+            lambda body, page, index: rewrite_prose(body, mapping)[0],
+        ))
+
     # --- panel art ----------------------------------------------------------
     art = read("data/panel-art.tsv")
     plan.writes["data/panel-art.tsv"] = rewrite_panel_keys(art, mapping)
@@ -1314,6 +1326,7 @@ def run_operation(book: Book, operation: Operation, args: argparse.Namespace) ->
     commit(plan)
     print("\nApplied. Regenerate the derived artifacts, then re-check:")
     print("  python3 scripts/paneltypes.py write")
+    print("  python3 scripts/storyboards.py generate")
     print("  python3 scripts/build-site.py")
     print("  python3 scripts/pagination.py check")
     print("  python3 scripts/novella.py check")

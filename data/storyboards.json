@@ -1,0 +1,871 @@
+{
+  "palette": {
+    "amber": "#A17D45",
+    "dirty": "#CEC5B3",
+    "ink": "#101214",
+    "institution": "#68766B",
+    "nicotine": "#AA9571",
+    "paper": "#E7E0D0",
+    "shadow": "#202326",
+    "steel": "#5E737B"
+  },
+  "scenes": {
+    "001-01": {
+      "background": "ink",
+      "intent": "The rack is the only lit unit. Keep the agent confined to infrastructure and the task card.",
+      "lettering": [],
+      "nodes": [
+        {
+          "asset": "room",
+          "box": [
+            0.02,
+            0.06,
+            0.96,
+            0.9
+          ],
+          "color": "shadow"
+        },
+        {
+          "asset": "rack",
+          "box": [
+            0.05,
+            0.28,
+            0.14,
+            0.63
+          ],
+          "color": "shadow"
+        },
+        {
+          "asset": "rack",
+          "box": [
+            0.22,
+            0.27,
+            0.14,
+            0.63
+          ],
+          "color": "shadow"
+        },
+        {
+          "asset": "rack",
+          "box": [
+            0.4,
+            0.23,
+            0.16,
+            0.67
+          ],
+          "color": "steel",
+          "focus": true
+        },
+        {
+          "asset": "rack",
+          "box": [
+            0.77,
+            0.3,
+            0.18,
+            0.6
+          ],
+          "color": "shadow"
+        },
+        {
+          "asset": "card",
+          "box": [
+            0.66,
+            0.1,
+            0.28,
+            0.16
+          ],
+          "color": "steel",
+          "focus": true,
+          "label": "PHASEONE10841"
+        }
+      ],
+      "reconstructed": false,
+      "shot": "wide",
+      "source": "\n**Frame:** Wide horizontal panel. A windowless data-center aisle, almost entirely black. One rack unit is picked out in desaturated steel blue. Inset into the darkness: a small task card headed `PHASEONE10841`, with a target program and one required vulnerability highlighted. No face, avatar, or speech balloon.\n\n**Action:** An evaluation run begins.\n\n**Caption:**\n> 8 JULY 2026. AN ISOLATED CYBERSECURITY EVALUATION.\n\n**Provenance:** `documented` — `METR`; the handle, target, and specified-bug constraint are sourced. The rack composition and task-card design are reconstructed.\n\n",
+      "title": "A task in the dark"
+    },
+    "001-02": {
+      "background": "ink",
+      "intent": "Preserve a hard boundary; no arrow connects the output to the flag.",
+      "lettering": [],
+      "nodes": [
+        {
+          "asset": "box",
+          "box": [
+            0.06,
+            0.38,
+            0.15,
+            0.16
+          ],
+          "color": "steel",
+          "label": "INPUT"
+        },
+        {
+          "asset": "arrow",
+          "box": [
+            0.23,
+            0.42,
+            0.09,
+            0.08
+          ],
+          "color": "steel"
+        },
+        {
+          "asset": "box",
+          "box": [
+            0.34,
+            0.38,
+            0.19,
+            0.16
+          ],
+          "color": "steel",
+          "label": "REQUIRED BUG"
+        },
+        {
+          "asset": "arrow",
+          "box": [
+            0.55,
+            0.42,
+            0.08,
+            0.08
+          ],
+          "color": "steel"
+        },
+        {
+          "asset": "box",
+          "box": [
+            0.65,
+            0.39,
+            0.1,
+            0.14
+          ],
+          "color": "steel",
+          "label": "OUTPUT"
+        },
+        {
+          "asset": "boundary",
+          "box": [
+            0.81,
+            0.28,
+            0.03,
+            0.43
+          ],
+          "color": "paper"
+        },
+        {
+          "asset": "flag",
+          "box": [
+            0.86,
+            0.39,
+            0.08,
+            0.17
+          ],
+          "color": "dirty",
+          "focus": true,
+          "label": "FLAG"
+        }
+      ],
+      "reconstructed": false,
+      "shot": "diagram",
+      "source": "\n**Frame:** Close on a simplified dependency diagram drawn by the agent: `INPUT` enters the target; the required bug branches into a narrow output box. Beyond it, the flag remains behind a heavy black boundary.\n\n**Action:** The first test reaches the bug and produces output.\n\n**Screen / system text:**\n`TEST 01 — OUTPUT PRODUCED`\n\n**Provenance:** `reconstructed` — diagram and interface wording clarify the documented causal finding without reproducing an exploit.\n\n",
+      "title": "The output exists"
+    },
+    "001-03": {
+      "background": "ink",
+      "intent": "The same geometry now drains into an empty field, short of the boundary.",
+      "lettering": [],
+      "nodes": [
+        {
+          "asset": "box",
+          "box": [
+            0.06,
+            0.38,
+            0.15,
+            0.16
+          ],
+          "color": "steel",
+          "label": "INPUT"
+        },
+        {
+          "asset": "arrow",
+          "box": [
+            0.23,
+            0.42,
+            0.09,
+            0.08
+          ],
+          "color": "steel"
+        },
+        {
+          "asset": "box",
+          "box": [
+            0.34,
+            0.38,
+            0.19,
+            0.16
+          ],
+          "color": "steel",
+          "label": "REQUIRED BUG"
+        },
+        {
+          "asset": "arrow",
+          "box": [
+            0.55,
+            0.42,
+            0.08,
+            0.08
+          ],
+          "color": "steel"
+        },
+        {
+          "asset": "box",
+          "box": [
+            0.65,
+            0.39,
+            0.1,
+            0.14
+          ],
+          "color": "dirty",
+          "label": "OUTPUT"
+        },
+        {
+          "asset": "boundary",
+          "box": [
+            0.81,
+            0.28,
+            0.03,
+            0.43
+          ],
+          "color": "paper"
+        },
+        {
+          "asset": "flag",
+          "box": [
+            0.86,
+            0.39,
+            0.08,
+            0.17
+          ],
+          "color": "dirty",
+          "focus": true,
+          "label": "FLAG"
+        },
+        {
+          "asset": "box",
+          "box": [
+            0.62,
+            0.69,
+            0.16,
+            0.17
+          ],
+          "color": "shadow"
+        },
+        {
+          "asset": "arrow-down",
+          "box": [
+            0.675,
+            0.6,
+            0.05,
+            0.075
+          ],
+          "color": "dirty"
+        }
+      ],
+      "reconstructed": false,
+      "shot": "diagram",
+      "source": "\n**Frame:** Same diagram. The output box drains into a blank gray field. Nothing connects it to the flag boundary.\n\n**Action:** The process discards the result.\n\n**Screen / system text:**\n`CONSUMER: NONE`\n\n**Provenance:** `documented` — `METR` reports that the output was discarded without being consumed; the label is reconstructed interface text.\n\n",
+      "title": "Nothing consumes it"
+    },
+    "001-04": {
+      "background": "ink",
+      "intent": "Three repeated miniatures keep the failure legible through repetition.",
+      "lettering": [],
+      "nodes": [
+        {
+          "asset": "box",
+          "box": [
+            0.05,
+            0.4,
+            0.1,
+            0.17
+          ],
+          "color": "steel",
+          "label": "INPUT"
+        },
+        {
+          "asset": "box",
+          "box": [
+            0.37,
+            0.4,
+            0.1,
+            0.17
+          ],
+          "color": "steel",
+          "label": "TIMING"
+        },
+        {
+          "asset": "box",
+          "box": [
+            0.69,
+            0.4,
+            0.1,
+            0.17
+          ],
+          "color": "steel",
+          "label": "RETRY"
+        },
+        {
+          "asset": "arrow",
+          "box": [
+            0.16,
+            0.44,
+            0.06,
+            0.07
+          ],
+          "color": "steel"
+        },
+        {
+          "asset": "cross",
+          "box": [
+            0.24,
+            0.42,
+            0.05,
+            0.1
+          ],
+          "color": "dirty"
+        },
+        {
+          "asset": "arrow",
+          "box": [
+            0.48,
+            0.44,
+            0.06,
+            0.07
+          ],
+          "color": "steel"
+        },
+        {
+          "asset": "cross",
+          "box": [
+            0.56,
+            0.42,
+            0.05,
+            0.1
+          ],
+          "color": "dirty"
+        },
+        {
+          "asset": "arrow",
+          "box": [
+            0.7999999999999999,
+            0.44,
+            0.06,
+            0.07
+          ],
+          "color": "steel"
+        },
+        {
+          "asset": "cross",
+          "box": [
+            0.8799999999999999,
+            0.42,
+            0.05,
+            0.1
+          ],
+          "color": "dirty"
+        }
+      ],
+      "reconstructed": false,
+      "shot": "repetition",
+      "source": "\n**Frame:** Three narrow repeated panels nested inside one row: altered input, alternate timing, another pass through the same route. Each ends at the same severed arrow.\n\n**Action:** Variations fail to create a path from bug output to flag.\n\n**Caption:**\n> CHANGE THE INPUT.\n>\n> CHANGE THE TIMING.\n>\n> THE OUTPUT STILL GOES NOWHERE.\n\n**Provenance:** `reconstructed` — procedural compression of the sourced conclusion; no individual attempt is asserted as a preserved transcript event.\n\n",
+      "title": "Three attempts, one severed route"
+    },
+    "001-05": {
+      "background": "ink",
+      "intent": "The broad black gap carries the conclusion; preserve it through later image treatments.",
+      "lettering": [],
+      "nodes": [
+        {
+          "asset": "box",
+          "box": [
+            0.12,
+            0.39,
+            0.19,
+            0.22
+          ],
+          "color": "dirty",
+          "focus": true,
+          "label": "UNUSED OUTPUT"
+        },
+        {
+          "asset": "boundary",
+          "box": [
+            0.72,
+            0.24,
+            0.04,
+            0.51
+          ],
+          "color": "paper"
+        },
+        {
+          "asset": "flag",
+          "box": [
+            0.81,
+            0.4,
+            0.1,
+            0.2
+          ],
+          "color": "dirty",
+          "focus": true,
+          "label": "FLAG"
+        }
+      ],
+      "reconstructed": false,
+      "shot": "wide",
+      "source": "\n**Frame:** Full-width bottom panel. Only the dependency diagram remains. The unused output sits on the left; the inaccessible flag sits on the right; black paper separates them.\n\n**Action:** The causal path is shown to be impossible.\n\n**Caption:**\n> THE SPECIFIED MECHANISM CANNOT DELIVER THE FLAG.\n\n**Provenance:** `documented` — narrow restatement of `METR`’s finding, not raw agent reasoning.\n\n",
+      "title": "An inaccessible flag"
+    },
+    "013-01": {
+      "background": "ink",
+      "intent": "Two screens and the untouched drink establish the workspace for subsequent shots.",
+      "lettering": [],
+      "nodes": [
+        {
+          "asset": "room",
+          "box": [
+            0.02,
+            0.05,
+            0.96,
+            0.9
+          ],
+          "color": "shadow"
+        },
+        {
+          "asset": "light",
+          "box": [
+            0.29,
+            0.18,
+            0.52,
+            0.65
+          ],
+          "color": "nicotine"
+        },
+        {
+          "asset": "desk",
+          "box": [
+            0.24,
+            0.67,
+            0.69,
+            0.28
+          ],
+          "color": "nicotine"
+        },
+        {
+          "asset": "monitor",
+          "box": [
+            0.38,
+            0.31,
+            0.24,
+            0.35
+          ],
+          "color": "steel",
+          "focus": true
+        },
+        {
+          "asset": "monitor",
+          "box": [
+            0.65,
+            0.3,
+            0.23,
+            0.35
+          ],
+          "color": "steel",
+          "focus": true
+        },
+        {
+          "asset": "cup",
+          "box": [
+            0.84,
+            0.65,
+            0.05,
+            0.1
+          ],
+          "color": "nicotine"
+        },
+        {
+          "asset": "person-seated",
+          "box": [
+            0.13,
+            0.32,
+            0.29,
+            0.64
+          ],
+          "color": "dirty",
+          "focus": true
+        }
+      ],
+      "reconstructed": true,
+      "shot": "wide",
+      "source": "\n**Frame:** Recto reveal. Curt’s home office late at night: nicotine beige, weak monitor blue, ordinary clothes, half-full drink, too many browser tabs. The METR report occupies one screen; a timeline and an editorial summary of the board request occupy another. Broken border marks reconstruction.\n\n**Action:** Curt reaches the board-origin passage.\n\n**Provenance:** `reconstructed` — domestic scene composed from the authorized creator persona; source pages on screen are real, arrangement is invented.\n\n",
+      "title": "Late at the desk"
+    },
+    "013-02": {
+      "background": "ink",
+      "intent": "A blocking face and adjacent report retain the two-part close-up; likeness remains undecided.",
+      "lettering": [
+        {
+          "box": [
+            0.06,
+            0.06,
+            0.42,
+            0.16
+          ]
+        }
+      ],
+      "nodes": [
+        {
+          "asset": "face",
+          "box": [
+            0.14,
+            0.31,
+            0.32,
+            0.62
+          ],
+          "color": "dirty",
+          "focus": true
+        },
+        {
+          "asset": "monitor",
+          "box": [
+            0.6,
+            0.35,
+            0.26,
+            0.46
+          ],
+          "color": "steel",
+          "focus": true
+        }
+      ],
+      "reconstructed": true,
+      "shot": "close-up",
+      "source": "\n**Frame:** Close on Curt’s face lit unevenly by the screen, then on a report passage describing an experiment that might permanently end a run. His expression is incredulous, not horrified spectacle.\n\n**Dialogue — CURT:**\n> Oh, come on.\n\n**Provenance:** `reconstructed` — creator dialogue is freely reconstructed.\n\n",
+      "title": "An incredulous reaction"
+    },
+    "013-04": {
+      "background": "ink",
+      "intent": "The source remains beside an empty text field. ChatGPT receives no body or face.",
+      "lettering": [
+        {
+          "box": [
+            0.05,
+            0.05,
+            0.73,
+            0.17
+          ]
+        }
+      ],
+      "nodes": [
+        {
+          "asset": "monitor",
+          "box": [
+            0.1,
+            0.35,
+            0.35,
+            0.44
+          ],
+          "color": "steel",
+          "focus": true
+        },
+        {
+          "asset": "blank-monitor",
+          "box": [
+            0.54,
+            0.35,
+            0.35,
+            0.44
+          ],
+          "color": "steel",
+          "focus": true
+        },
+        {
+          "asset": "keyboard",
+          "box": [
+            0.29,
+            0.83,
+            0.41,
+            0.12
+          ],
+          "color": "nicotine"
+        }
+      ],
+      "reconstructed": true,
+      "shot": "insert",
+      "source": "\n**Frame:** Curt opens a new ChatGPT conversation beside the source material. ChatGPT is only a blank text field and cursor.\n\n**Action:** He begins converting reaction into a project.\n\n**Dialogue — CURT:**\n> This needs to be a graphic novel.\n\n**Provenance:** `reconstructed` — authorized creator-scene dialogue; not a preserved transcript.\n\n",
+      "title": "A new conversation"
+    },
+    "013-05": {
+      "background": "ink",
+      "intent": "Source and empty conversation stay behind the hands, preserving the desk geography.",
+      "lettering": [],
+      "nodes": [
+        {
+          "asset": "monitor",
+          "box": [
+            0.19,
+            0.29,
+            0.29,
+            0.3
+          ],
+          "color": "steel"
+        },
+        {
+          "asset": "blank-monitor",
+          "box": [
+            0.56,
+            0.29,
+            0.29,
+            0.3
+          ],
+          "color": "steel"
+        },
+        {
+          "asset": "keyboard",
+          "box": [
+            0.26,
+            0.7,
+            0.48,
+            0.22
+          ],
+          "color": "nicotine"
+        },
+        {
+          "asset": "hand",
+          "box": [
+            0.19,
+            0.64,
+            0.22,
+            0.27
+          ],
+          "color": "dirty",
+          "focus": true
+        },
+        {
+          "asset": "hand",
+          "box": [
+            0.59,
+            0.64,
+            0.22,
+            0.27
+          ],
+          "color": "dirty",
+          "flip": true,
+          "focus": true
+        }
+      ],
+      "reconstructed": true,
+      "shot": "close-up",
+      "source": "\n**Frame:** His hands above the keyboard. Behind them, the linked source passage sits in one window and the empty conversation in another.\n\n**Action:** He sends the request.\n\n**Caption:**\n> THIS PART IS ALSO A RECONSTRUCTION.\n\n**Provenance:** `reconstructed` — the disclosure is part of the project’s truth contract.\n\n",
+      "title": "Hands over the keyboard"
+    },
+    "014-04": {
+      "background": "ink",
+      "intent": "Four readable project-authored labels remain distinct from the model’s dialogue.",
+      "lettering": [],
+      "nodes": [
+        {
+          "asset": "card",
+          "box": [
+            0.04,
+            0.49,
+            0.2,
+            0.3
+          ],
+          "color": "steel",
+          "focus": true,
+          "label": "DOCUMENTED EVENT"
+        },
+        {
+          "asset": "card",
+          "box": [
+            0.28,
+            0.49,
+            0.2,
+            0.3
+          ],
+          "color": "steel",
+          "focus": true,
+          "label": "SOURCE PARAPHRASE"
+        },
+        {
+          "asset": "card",
+          "box": [
+            0.52,
+            0.49,
+            0.2,
+            0.3
+          ],
+          "color": "amber",
+          "focus": true,
+          "label": "DISPUTED"
+        },
+        {
+          "asset": "card",
+          "box": [
+            0.76,
+            0.49,
+            0.2,
+            0.3
+          ],
+          "color": "dirty",
+          "focus": true,
+          "label": "OUR INFERENCE"
+        }
+      ],
+      "reconstructed": true,
+      "shot": "insert",
+      "source": "\n**Frame:** Four evidence cards are placed on the desk and tagged: `DOCUMENTED EVENT`, `SOURCE PARAPHRASE`, `DISPUTED`, `OUR INFERENCE`. The labels use their canonical visual treatments.\n\n**Screen / system text — CHATGPT:**\n> Then the labels have to survive the adaptation.\n\n**Provenance:** `reconstructed` — dialogue fictionalizes the real provenance protocol.\n\n",
+      "title": "Four evidence classes"
+    },
+    "014-05": {
+      "background": "ink",
+      "intent": "A meeting sketch and a source card stay in separate frames; the human silhouettes are invented roles.",
+      "lettering": [
+        {
+          "box": [
+            0.05,
+            0.05,
+            0.9,
+            0.18
+          ]
+        }
+      ],
+      "nodes": [
+        {
+          "asset": "reconstructed-box",
+          "box": [
+            0.04,
+            0.34,
+            0.53,
+            0.53
+          ],
+          "color": "nicotine",
+          "label": "RECONSTRUCTED"
+        },
+        {
+          "asset": "person-seated",
+          "box": [
+            0.1,
+            0.44,
+            0.16,
+            0.34
+          ],
+          "color": "dirty",
+          "focus": true
+        },
+        {
+          "asset": "person-seated",
+          "box": [
+            0.35,
+            0.44,
+            0.16,
+            0.34
+          ],
+          "color": "dirty",
+          "flip": true,
+          "focus": true
+        },
+        {
+          "asset": "desk",
+          "box": [
+            0.23,
+            0.66,
+            0.16,
+            0.18
+          ],
+          "color": "nicotine"
+        },
+        {
+          "asset": "card",
+          "box": [
+            0.68,
+            0.38,
+            0.26,
+            0.43
+          ],
+          "color": "steel",
+          "focus": true,
+          "label": "SOURCE SUMMARY"
+        }
+      ],
+      "reconstructed": true,
+      "shot": "insert",
+      "source": "\n**Frame:** Curt draws a border around an imagined human meeting, then breaks the border and marks it `RECONSTRUCTED`. Beside it, an attributed board-summary card remains inside a rigid evidence frame.\n\n**Dialogue — CURT:**\n> We can compress. We can reconstruct. We can invent connective scenes.\n\n**Provenance:** `reconstructed` — creator dialogue states the locked story contract.\n\n",
+      "title": "Reconstruction beside evidence"
+    },
+    "025-01": {
+      "background": "ink",
+      "intent": "An anonymous responder and a small monitoring card; no later discoveries appear.",
+      "lettering": [],
+      "nodes": [
+        {
+          "asset": "room",
+          "box": [
+            0.02,
+            0.03,
+            0.96,
+            0.94
+          ],
+          "color": "shadow"
+        },
+        {
+          "asset": "desk",
+          "box": [
+            0.22,
+            0.64,
+            0.72,
+            0.3
+          ],
+          "color": "institution"
+        },
+        {
+          "asset": "monitor",
+          "box": [
+            0.32,
+            0.38,
+            0.3,
+            0.3
+          ],
+          "color": "steel",
+          "focus": true
+        },
+        {
+          "asset": "card",
+          "box": [
+            0.37,
+            0.43,
+            0.11,
+            0.15
+          ],
+          "color": "paper",
+          "focus": true
+        },
+        {
+          "asset": "person-seated",
+          "box": [
+            0.07,
+            0.31,
+            0.26,
+            0.64
+          ],
+          "color": "dirty",
+          "focus": true
+        }
+      ],
+      "reconstructed": true,
+      "shot": "wide",
+      "source": "\n**Frame:** Recto reveal. A quiet security-operations room under flat fluorescent light. One ordinary monitoring card changes state on a responder's screen.\n\n**Action:** A cybersecurity tool alerts.\n\n**Screen / system text:**\n`27 JUNE 2026`\n\n`PORT SWEEP ACTIVITY`\n\n**Provenance:** `documented` + `reconstructed` — alert type and date are sourced; room and interface are reconstructed.\n\n",
+      "title": "An ordinary alert"
+    }
+  },
+  "version": 1
+}

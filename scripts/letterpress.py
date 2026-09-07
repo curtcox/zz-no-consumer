@@ -155,7 +155,14 @@ def layout_panel(fields: list[tuple[str, str]], record: dict,
 def panel_layout(page_id: str, index: int, record: dict,
                  width: int = PANEL_SIZE[0], height: int = PANEL_SIZE[1]):
     fields = textimage.lettering_fields(page_id).get(index, [])
-    return layout_panel(fields, record, width, height)
+    placed, manual = layout_panel(fields, record, width, height)
+    # Explicit scene placements are authored geometry, not guessed speaker positions.
+    import storyboards
+    scene = storyboards.load().get("scenes", {}).get(f"{page_id}-{index:02d}")
+    if scene:
+        extra, manual = storyboards.place_manual(scene, manual, width, height)
+        placed.extend(extra)
+    return placed, manual
 
 
 # ------------------------------------------------------------- SVG emitter
@@ -211,7 +218,7 @@ def svg_panel(placed: list[Placed], record: dict, width: int, height: int,
         image = f'<image href="{html.escape(art_href)}" x="0" y="0" width="{width}" height="{height}"/>'
     elif art:
         import base64
-        kind = {"png": "png", "webp": "webp", "jpg": "jpeg", "jpeg": "jpeg"}[art.suffix.lstrip(".").lower()]
+        kind = {"png": "png", "webp": "webp", "jpg": "jpeg", "jpeg": "jpeg", "svg": "svg+xml"}[art.suffix.lstrip(".").lower()]
         data = base64.b64encode(art.read_bytes()).decode()
         image = (f'<image href="data:image/{kind};base64,{data}" x="0" y="0" '
                  f'width="{width}" height="{height}"/>')
@@ -233,6 +240,8 @@ def raster_panel(placed: list[Placed], record: dict, width: int, height: int,
             "--flatten needs Pillow (pip install pillow). The SVG path needs nothing.") from None
 
     W, H = int(width * scale), int(height * scale)
+    if art and art.suffix.lower() == ".svg":
+        raise SystemExit("SVG storyboard: export the lettered SVG; raster flattening requires a separate SVG renderer.")
     if art and art.is_file():
         base = Image.open(art).convert("RGB").resize((W, H), Image.LANCZOS)
     else:
@@ -310,7 +319,7 @@ def find_art(page_id: str, index: int) -> Path | None:
 
     Panels keep every version they have been given; `scripts/panelart.py` decides
     which one is current, using the chosen variant where a choice has been made
-    and the newest candidate where it has not.
+    and the most mature candidate (newest within its stage) where it has not.
     """
     return panelart.resolve(page_id, index)
 

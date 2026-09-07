@@ -1,0 +1,96 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="800" viewBox="0 0 1200 800"><title>Reconstruction beside evidence</title><metadata>{
+  &quot;assets&quot;: {
+    &quot;card&quot;: &quot;&lt;rect x=\&quot;1\&quot; y=\&quot;1\&quot; width=\&quot;98\&quot; height=\&quot;98\&quot; fill=\&quot;#202326\&quot; stroke=\&quot;currentColor\&quot; stroke-width=\&quot;2\&quot;/&gt;&lt;path d=\&quot;M8 13H92M8 27H70M8 36H86M8 45H72M8 65H86M8 74H57\&quot; stroke=\&quot;currentColor\&quot; stroke-width=\&quot;1.5\&quot;/&gt;&quot;,
+    &quot;desk&quot;: &quot;&lt;path d=\&quot;M0 12L85 0L100 30L14 43Z\&quot; fill=\&quot;currentColor\&quot;/&gt;&lt;path d=\&quot;M14 43V100M94 31V90\&quot; stroke=\&quot;currentColor\&quot; stroke-width=\&quot;5\&quot;/&gt;&quot;,
+    &quot;person-seated&quot;: &quot;&lt;ellipse cx=\&quot;47\&quot; cy=\&quot;14\&quot; rx=\&quot;15\&quot; ry=\&quot;13\&quot; fill=\&quot;currentColor\&quot;/&gt;&lt;path d=\&quot;M35 28Q60 22 69 49L89 54L87 62L61 58L52 44L56 65L79 68L88 98H77L66 80H35Q25 77 27 62Z\&quot; fill=\&quot;currentColor\&quot;/&gt;&lt;path d=\&quot;M17 37V80H58M20 80V100M55 80V100\&quot; fill=\&quot;none\&quot; stroke=\&quot;currentColor\&quot; stroke-width=\&quot;3\&quot;/&gt;&quot;,
+    &quot;reconstructed-box&quot;: &quot;&lt;rect x=\&quot;1\&quot; y=\&quot;1\&quot; width=\&quot;98\&quot; height=\&quot;98\&quot; rx=\&quot;2\&quot; fill=\&quot;#202326\&quot; stroke=\&quot;currentColor\&quot; stroke-width=\&quot;2\&quot; stroke-dasharray=\&quot;5 3\&quot;/&gt;&quot;
+  },
+  &quot;palette&quot;: {
+    &quot;amber&quot;: &quot;#A17D45&quot;,
+    &quot;dirty&quot;: &quot;#CEC5B3&quot;,
+    &quot;ink&quot;: &quot;#101214&quot;,
+    &quot;institution&quot;: &quot;#68766B&quot;,
+    &quot;nicotine&quot;: &quot;#AA9571&quot;,
+    &quot;paper&quot;: &quot;#E7E0D0&quot;,
+    &quot;shadow&quot;: &quot;#202326&quot;,
+    &quot;steel&quot;: &quot;#5E737B&quot;
+  },
+  &quot;renderer&quot;: &quot;storyboard-svg-1&quot;,
+  &quot;scene&quot;: {
+    &quot;background&quot;: &quot;ink&quot;,
+    &quot;intent&quot;: &quot;A meeting sketch and a source card stay in separate frames; the human silhouettes are invented roles.&quot;,
+    &quot;lettering&quot;: [
+      {
+        &quot;box&quot;: [
+          0.05,
+          0.05,
+          0.9,
+          0.18
+        ]
+      }
+    ],
+    &quot;nodes&quot;: [
+      {
+        &quot;asset&quot;: &quot;reconstructed-box&quot;,
+        &quot;box&quot;: [
+          0.04,
+          0.34,
+          0.53,
+          0.53
+        ],
+        &quot;color&quot;: &quot;nicotine&quot;,
+        &quot;label&quot;: &quot;RECONSTRUCTED&quot;
+      },
+      {
+        &quot;asset&quot;: &quot;person-seated&quot;,
+        &quot;box&quot;: [
+          0.1,
+          0.44,
+          0.16,
+          0.34
+        ],
+        &quot;color&quot;: &quot;dirty&quot;,
+        &quot;focus&quot;: true
+      },
+      {
+        &quot;asset&quot;: &quot;person-seated&quot;,
+        &quot;box&quot;: [
+          0.35,
+          0.44,
+          0.16,
+          0.34
+        ],
+        &quot;color&quot;: &quot;dirty&quot;,
+        &quot;flip&quot;: true,
+        &quot;focus&quot;: true
+      },
+      {
+        &quot;asset&quot;: &quot;desk&quot;,
+        &quot;box&quot;: [
+          0.23,
+          0.66,
+          0.16,
+          0.18
+        ],
+        &quot;color&quot;: &quot;nicotine&quot;
+      },
+      {
+        &quot;asset&quot;: &quot;card&quot;,
+        &quot;box&quot;: [
+          0.68,
+          0.38,
+          0.26,
+          0.43
+        ],
+        &quot;color&quot;: &quot;steel&quot;,
+        &quot;focus&quot;: true,
+        &quot;label&quot;: &quot;SOURCE SUMMARY&quot;
+      }
+    ],
+    &quot;reconstructed&quot;: true,
+    &quot;shot&quot;: &quot;insert&quot;,
+    &quot;source&quot;: &quot;\n**Frame:** Curt draws a border around an imagined human meeting, then breaks the border and marks it `RECONSTRUCTED`. Beside it, an attributed board-summary card remains inside a rigid evidence frame.\n\n**Dialogue — CURT:**\n&gt; We can compress. We can reconstruct. We can invent connective scenes.\n\n**Provenance:** `reconstructed` — creator dialogue states the locked story contract.\n\n&quot;,
+    &quot;title&quot;: &quot;Reconstruction beside evidence&quot;
+  }
+}
+</metadata><rect width="1200" height="800" fill="#101214"/><g transform="translate(48 272) scale(6.36 4.24)" color="#AA9571"><g transform=""><rect x="1" y="1" width="98" height="98" rx="2" fill="#202326" stroke="currentColor" stroke-width="2" stroke-dasharray="5 3"/></g></g><text x="366" y="720" text-anchor="middle" fill="#E7E0D0" font-size="20" font-family="monospace">RECONSTRUCTED</text><g transform="translate(120 352) scale(1.92 2.72)" color="#CEC5B3"><g transform=""><ellipse cx="47" cy="14" rx="15" ry="13" fill="currentColor"/><path d="M35 28Q60 22 69 49L89 54L87 62L61 58L52 44L56 65L79 68L88 98H77L66 80H35Q25 77 27 62Z" fill="currentColor"/><path d="M17 37V80H58M20 80V100M55 80V100" fill="none" stroke="currentColor" stroke-width="3"/></g></g><g transform="translate(420 352) scale(1.92 2.72)" color="#CEC5B3"><g transform="translate(100 0) scale(-1 1)"><ellipse cx="47" cy="14" rx="15" ry="13" fill="currentColor"/><path d="M35 28Q60 22 69 49L89 54L87 62L61 58L52 44L56 65L79 68L88 98H77L66 80H35Q25 77 27 62Z" fill="currentColor"/><path d="M17 37V80H58M20 80V100M55 80V100" fill="none" stroke="currentColor" stroke-width="3"/></g></g><g transform="translate(276 528) scale(1.92 1.44)" color="#AA9571"><g transform=""><path d="M0 12L85 0L100 30L14 43Z" fill="currentColor"/><path d="M14 43V100M94 31V90" stroke="currentColor" stroke-width="5"/></g></g><g transform="translate(816 304) scale(3.12 3.44)" color="#5E737B"><g transform=""><rect x="1" y="1" width="98" height="98" fill="#202326" stroke="currentColor" stroke-width="2"/><path d="M8 13H92M8 27H70M8 36H86M8 45H72M8 65H86M8 74H57" stroke="currentColor" stroke-width="1.5"/></g></g><text x="972" y="672" text-anchor="middle" fill="#E7E0D0" font-size="20" font-family="monospace">SOURCE SUMMARY</text><rect x="3" y="3" width="1194" height="794" fill="none" stroke="#5E737B" stroke-width="4" stroke-dasharray="18 10"/></svg>

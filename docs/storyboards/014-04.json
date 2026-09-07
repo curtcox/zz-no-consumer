@@ -1,0 +1,59 @@
+{
+  "background": "ink",
+  "intent": "Four readable project-authored labels remain distinct from the model’s dialogue.",
+  "lettering": [],
+  "nodes": [
+    {
+      "asset": "card",
+      "box": [
+        0.04,
+        0.49,
+        0.2,
+        0.3
+      ],
+      "color": "steel",
+      "focus": true,
+      "label": "DOCUMENTED EVENT"
+    },
+    {
+      "asset": "card",
+      "box": [
+        0.28,
+        0.49,
+        0.2,
+        0.3
+      ],
+      "color": "steel",
+      "focus": true,
+      "label": "SOURCE PARAPHRASE"
+    },
+    {
+      "asset": "card",
+      "box": [
+        0.52,
+        0.49,
+        0.2,
+        0.3
+      ],
+      "color": "amber",
+      "focus": true,
+      "label": "DISPUTED"
+    },
+    {
+      "asset": "card",
+      "box": [
+        0.76,
+        0.49,
+        0.2,
+        0.3
+      ],
+      "color": "dirty",
+      "focus": true,
+      "label": "OUR INFERENCE"
+    }
+  ],
+  "reconstructed": true,
+  "shot": "insert",
+  "source": "\n**Frame:** Four evidence cards are placed on the desk and tagged: `DOCUMENTED EVENT`, `SOURCE PARAPHRASE`, `DISPUTED`, `OUR INFERENCE`. The labels use their canonical visual treatments.\n\n**Screen / system text — CHATGPT:**\n> Then the labels have to survive the adaptation.\n\n**Provenance:** `reconstructed` — dialogue fictionalizes the real provenance protocol.\n\n",
+  "title": "Four evidence classes"
+}

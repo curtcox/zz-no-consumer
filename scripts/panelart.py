@@ -11,9 +11,9 @@ new variant beside the others, and the decision is recorded separately.
     assets/art/panels/001-01/v02-qwen-image-1001.webp
 
 `data/panel-art.tsv` lists every variant with where it came from, and carries the
-one column that is a human decision rather than a fact: `status`, which is
-`candidate`, `chosen`, or `rejected`. Scanning refreshes the facts and preserves
-the decisions, so the table can be regenerated without losing curation.
+curation fields: `status` (`candidate`, `chosen`, or `rejected`) and `stage`
+(`layout`, `storyboard`, `refined`, or `final`). Scanning refreshes the facts and
+preserves these decisions, so the table can be regenerated without losing curation.
 
     python3 scripts/panelart.py scan               # discover variants, keep decisions
     python3 scripts/panelart.py list --panel 001-01
@@ -23,7 +23,7 @@ the decisions, so the table can be regenerated without losing curation.
     python3 scripts/panelart.py status             # how much of the book is decided
     python3 scripts/panelart.py size               # what the store costs the repository
 
-Until a panel is decided, `resolve()` returns its highest-numbered candidate, so
+Until a panel is decided, `resolve()` returns its most mature candidate (newest within that stage), so
 the site builds and the whole book stays readable end to end while the choosing
 happens. `scripts/build-site.py` letters whatever resolve returns and publishes the
 other candidates as alternates the reader can open.
@@ -42,7 +42,8 @@ ROOT = Path(__file__).resolve().parents[1]
 ART_DIR = ROOT / "assets" / "art" / "panels"
 TABLE = ROOT / "data" / "panel-art.tsv"
 
-SUFFIXES = (".webp", ".png", ".jpg", ".jpeg")
+SUFFIXES = (".webp", ".png", ".jpg", ".jpeg", ".svg")
+STAGES = ("layout", "storyboard", "refined", "final")
 PANEL_ID = re.compile(r"^\d{3}-\d{2}$")
 VARIANT_FILE = re.compile(r"^(v\d{2,})(?:-(.+?))?(?:-(\d+))?$")
 
@@ -50,7 +51,7 @@ CANDIDATE, CHOSEN, REJECTED = "candidate", "chosen", "rejected"
 STATUSES = (CANDIDATE, CHOSEN, REJECTED)
 
 HEADER = ("panel", "variant", "file", "provider", "seed",
-          "width", "height", "bytes", "created", "status", "note")
+          "width", "height", "bytes", "created", "status", "note", "stage")
 
 
 @dataclass(frozen=True)
@@ -66,6 +67,7 @@ class Variant:
     created: str = ""
     status: str = CANDIDATE
     note: str = ""
+    stage: str = "refined"
 
     @property
     def path(self) -> Path:
@@ -85,6 +87,10 @@ def variant_dir(panel: str) -> Path:
 
 def measure(path: Path) -> tuple[str, str]:
     try:
+        if path.suffix.lower() == ".svg":
+            import xml.etree.ElementTree as ET
+            root = ET.parse(path).getroot()
+            return root.get("width", ""), root.get("height", "")
         from PIL import Image
         with Image.open(path) as image:
             return str(image.width), str(image.height)
@@ -111,6 +117,7 @@ def discover() -> list[Variant]:
                     panel=entry.name, variant=match.group(1),
                     file=str(file.relative_to(ROOT)),
                     provider=match.group(2) or "", seed=match.group(3) or "",
+                    stage="storyboard" if match.group(2) == "storyboard-svg" else "refined",
                     width=width, height=height, bytes=str(file.stat().st_size),
                     created=datetime.fromtimestamp(file.stat().st_mtime, timezone.utc)
                             .isoformat(timespec="seconds"),
@@ -146,12 +153,13 @@ def write_table(variants: list[Variant], path: Path = TABLE) -> None:
 
 def scan(path: Path = TABLE) -> tuple[list[Variant], int, int]:
     """Refresh the facts from disk, keep the decisions already recorded."""
-    decisions = {(v.panel, v.variant): (v.status, v.note) for v in read_table(path)}
+    decisions = {(v.panel, v.variant): (v.status, v.note, v.stage) for v in read_table(path)}
     found = discover()
     merged = []
     for variant in found:
-        status, note = decisions.get((variant.panel, variant.variant), (CANDIDATE, ""))
-        merged.append(replace(variant, status=status, note=note))
+        status, note, stage = decisions.get((variant.panel, variant.variant),
+                                            (CANDIDATE, "", variant.stage))
+        merged.append(replace(variant, status=status, note=note, stage=stage))
     gone = len(decisions) - sum(1 for v in found if (v.panel, v.variant) in decisions)
     return merged, len(found), max(0, gone)
 
@@ -171,14 +179,14 @@ def by_panel(variants: list[Variant]) -> dict[str, list[Variant]]:
 def pick(variants: list[Variant]) -> Variant | None:
     """The version of this panel the book should show right now.
 
-    A decided panel uses its chosen variant. An undecided one uses its newest
-    candidate, so the book reads end to end while the choosing is still open.
+    A decided panel uses its chosen variant. An undecided one uses its most mature
+    candidate, newest within that stage, so the book reads end to end while the choosing is still open.
     """
     chosen = [v for v in variants if v.status == CHOSEN]
     if chosen:
         return max(chosen, key=lambda v: v.number)
     candidates = [v for v in variants if v.status != REJECTED]
-    return max(candidates, key=lambda v: v.number) if candidates else None
+    return max(candidates, key=lambda v: (STAGES.index(v.stage), v.number)) if candidates else None
 
 
 _CACHE: dict[str, list[Variant]] | None = None
@@ -192,9 +200,11 @@ def load(refresh: bool = False) -> dict[str, list[Variant]]:
     return _CACHE
 
 
-def resolve(page: str, index: int) -> Path | None:
+def resolve(page: str, index: int, *, min_stage: str = "layout") -> Path | None:
     """The image file to letter and publish for this panel, or None."""
     variants = load().get(f"{page}-{index:02d}", [])
+    variants = [v for v in variants if v.path.is_file()
+                and STAGES.index(v.stage) >= STAGES.index(min_stage)]
     winner = pick(variants)
     return winner.path if winner and winner.path.is_file() else None
 
@@ -223,7 +233,8 @@ def store(panel: str, data: bytes, suffix: str, *, provider: str = "",
     if seed != "":
         parts.append(str(seed))
     target = directory / ("-".join(parts) + suffix)
-    target.write_bytes(data)
+    with target.open("xb") as stream:
+        stream.write(data)
     return target
 
 
@@ -253,7 +264,7 @@ def cmd_list(args: argparse.Namespace) -> int:
         for variant in variants:
             mark = "*" if variant is winner else " "
             size = f"{int(variant.bytes)//1024} KB" if variant.bytes.isdigit() else ""
-            print(f" {mark} {variant.variant:<5} {variant.status:<10} {variant.provider:<18} "
+            print(f" {mark} {variant.variant:<5} {variant.status:<10} {variant.stage:<10} {variant.provider:<18} "
                   f"{size:>7}  {variant.note}")
     print("\n* = the version the book currently shows")
     return 0
@@ -299,7 +310,7 @@ def cmd_status(args: argparse.Namespace) -> int:
     decided = sum(1 for v in grouped.values() if any(x.status == CHOSEN for x in v))
     multiple = sum(1 for v in grouped.values() if len([x for x in v if x.status != REJECTED]) > 1)
     print(f"{len(grouped)} of {total} panels have art")
-    print(f"{decided} decided, {len(grouped) - decided} showing a provisional newest candidate")
+    print(f"{decided} decided, {len(grouped) - decided} showing a provisional candidate")
     print(f"{multiple} panel(s) have more than one version to choose between")
     if grouped and len(grouped) - decided:
         pending = [p for p, v in sorted(grouped.items()) if not any(x.status == CHOSEN for x in v)]
@@ -323,6 +334,16 @@ def cmd_size(args: argparse.Namespace) -> int:
     return 0
 
 
+def cmd_stage(args: argparse.Namespace) -> int:
+    variants, _, _ = scan()
+    if not any(v.panel == args.panel and v.variant == args.variant for v in variants):
+        raise SystemExit("Unknown panel variant")
+    write_table([replace(v, stage=args.stage) if (v.panel, v.variant) ==
+                 (args.panel, args.variant) else v for v in variants])
+    print(f"{args.panel} {args.variant}: {args.stage}")
+    return 0
+
+
 def main() -> int:
     parser = argparse.ArgumentParser(
         description=__doc__, formatter_class=argparse.RawDescriptionHelpFormatter)
@@ -337,13 +358,17 @@ def main() -> int:
         sub.add_argument("panel")
         sub.add_argument("variant")
         sub.add_argument("--note", default="")
+    stage = commands.add_parser("stage", help="set maturity independently of approval")
+    stage.add_argument("panel")
+    stage.add_argument("variant")
+    stage.add_argument("stage", choices=STAGES)
     commands.add_parser("status", help="how much of the book is decided")
     commands.add_parser("size", help="what the store costs the repository")
 
     args = parser.parse_args()
     return {"scan": cmd_scan, "list": cmd_list, "choose": cmd_choose,
             "reject": cmd_reject, "clear": cmd_clear,
-            "status": cmd_status, "size": cmd_size}[args.command](args)
+            "status": cmd_status, "size": cmd_size, "stage": cmd_stage}[args.command](args)
 
 
 if __name__ == "__main__":

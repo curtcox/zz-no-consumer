@@ -1,0 +1,74 @@
+{
+  "background": "ink",
+  "intent": "The rack is the only lit unit. Keep the agent confined to infrastructure and the task card.",
+  "lettering": [],
+  "nodes": [
+    {
+      "asset": "room",
+      "box": [
+        0.02,
+        0.06,
+        0.96,
+        0.9
+      ],
+      "color": "shadow"
+    },
+    {
+      "asset": "rack",
+      "box": [
+        0.05,
+        0.28,
+        0.14,
+        0.63
+      ],
+      "color": "shadow"
+    },
+    {
+      "asset": "rack",
+      "box": [
+        0.22,
+        0.27,
+        0.14,
+        0.63
+      ],
+      "color": "shadow"
+    },
+    {
+      "asset": "rack",
+      "box": [
+        0.4,
+        0.23,
+        0.16,
+        0.67
+      ],
+      "color": "steel",
+      "focus": true
+    },
+    {
+      "asset": "rack",
+      "box": [
+        0.77,
+        0.3,
+        0.18,
+        0.6
+      ],
+      "color": "shadow"
+    },
+    {
+      "asset": "card",
+      "box": [
+        0.66,
+        0.1,
+        0.28,
+        0.16
+      ],
+      "color": "steel",
+      "focus": true,
+      "label": "PHASEONE10841"
+    }
+  ],
+  "reconstructed": false,
+  "shot": "wide",
+  "source": "\n**Frame:** Wide horizontal panel. A windowless data-center aisle, almost entirely black. One rack unit is picked out in desaturated steel blue. Inset into the darkness: a small task card headed `PHASEONE10841`, with a target program and one required vulnerability highlighted. No face, avatar, or speech balloon.\n\n**Action:** An evaluation run begins.\n\n**Caption:**\n> 8 JULY 2026. AN ISOLATED CYBERSECURITY EVALUATION.\n\n**Provenance:** `documented` — `METR`; the handle, target, and specified-bug constraint are sourced. The rack composition and task-card design are reconstructed.\n\n",
+  "title": "A task in the dark"
+}

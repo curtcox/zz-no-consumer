@@ -519,7 +519,7 @@ def pick_shown(page_id: str, index: int) -> str:
     winner = panelart.pick(variants)
     if not winner:
         return "a placeholder"
-    return f"{winner.variant} ({winner.status})"
+    return f"{winner.variant} · {winner.stage} ({winner.status})"
 
 
 LETTERED: dict[tuple[str, int], str] = {}
@@ -637,7 +637,7 @@ def build_viewer() -> None:
     home_body = f'''
     <section class="intro-grid">
       <div class="intro-copy" data-content="text"><p class="kicker">A spatial reading prototype</p>
-        <p>This build validates durable routes, page and panel hierarchy, eight-direction navigation, and shareable view settings. Every page and image slot already carries a generated placeholder: the script text for that page or panel, flowed to fit the frame the final art will occupy.</p>
+        <p>This build validates durable routes, page and panel hierarchy, eight-direction navigation, and shareable view settings. <a href="../storyboards/">Open the storyboard workshop</a>. Every page and image slot already carries a generated placeholder: the script text for that page or panel, flowed to fit the frame the final art will occupy.</p>
         <a class="primary-action" href="{html.escape(viewer_link(Path("viewer"), "pages", pages[0].id))}">Begin on page 001 <span>→</span></a>
       </div>
       <div class="map-card" data-content="image" aria-label="Content map"><span>HOME</span><i></i><span>CHAPTER</span><i></i><span>PAGE</span><i></i><span>IMAGE</span></div>
@@ -2580,6 +2580,8 @@ def main() -> int:
     global LETTERED
     LETTERED = build_lettering()
     build_viewer()
+    import storyboards
+    storyboards.gallery(OUT / "storyboards")
     novella_routes = build_novella()
     appendix_routes = build_appendix(document)
     bakeoff_routes = build_bakeoff(document)

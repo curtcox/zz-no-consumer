@@ -24,7 +24,7 @@ These rewrite canonical files. Do the work through them rather than by hand.
 | --- | --- | --- |
 | `pagination.py` | the story page number, everywhere it appears | `report` `check` `insert` `delete` `move` |
 | `panels.py` | the panel ordinal inside a page | `report` `check` `insert` `delete` `move` |
-| `panelart.py` | which generated version of a panel is the chosen one | `scan` `list` `choose` `reject` `clear` `status` `size` |
+| `panelart.py` | which generated version of a panel is the chosen one | `scan` `list` `choose` `reject` `clear` `stage` `status` `size` |
 | `paneltypes.py` | `data/panel-types.tsv`, the per-panel generator classification | `write` `summary` `show` |
 | `pagelinks.py` | the grammar of a page reference, and its links, in prose and in the build | `report` `check` `link` |
 
@@ -56,6 +56,7 @@ establish current status.
 | `knowledge_maps_fog.py check` | the same for the fog-of-war studies |
 | `knowledge_map_local.py check` | committed local-model concept images and their recorded provenance |
 | `knowledge_map_finish.py check` | structure-preserving finish studies, and that their v1 sources have not moved |
+| `storyboards.py check` | scene geometry, source drift, lettering clearance, deterministic assets, stage selection, and production skip behavior |
 | `validate-viewer.py` | every generated viewer route, control, and view setting resolves |
 | `validate-novella.py` | one anchor per page in one chapter, linked from contents; the four downloads are complete |
 | `validate-knowledge-map-gallery.py` | the published gallery, without rebuilding any assets |
@@ -76,6 +77,7 @@ touch pages or panels.
 | `epub.py` | writes the novella EPUB 3, page list and all. Deterministic for a given day; byte-identical across machines with `SOURCE_DATE_EPOCH` set. Called by the builder. |
 | `make-thumbnails.py` | the provisional recto/verso spread contact sheet, into the internal build |
 | `textimage.py` | flows text into an image of exactly the requested size, in pure Python. `book` writes a placeholder for every page and panel slot, which is why the whole book is readable before any art exists. |
+| `storyboards.py` | deterministic SVG scene previews, versioned pilot assets, and a comparison workshop (`generate` `check` `gallery`); see [the workflow](../design/storyboard-workflow.md) |
 | `letterpress.py` | composes the controlled lettering layer over panel art (`slots` `panel` `page` `audit`) |
 
 ## Reading the record
@@ -113,7 +115,7 @@ original URL rather than to a copied page.
 
 ## How they fit together
 
-Five modules carry the shared models, and the rest import them rather than re-deriving:
+Six modules carry the shared models, and the rest import them rather than re-deriving:
 
 - **`crossref.py`** — the page/chapter/sequence/provenance graph. Imported by `pagination.py`,
   `panels.py`, `novella.py`, `appendix.py`, and the builder.
@@ -123,6 +125,7 @@ Five modules carry the shared models, and the rest import them rather than re-de
   `pagination.py`, `panels.py`, and the builder, which asks it for one resolver per edition.
 - **`imagegen.py`** — the generator roster and the prompt composer. Imported by `bakeoff.py`,
   `localgen.py`, `produce.py`, `paneltypes.py`, and the knowledge-map studies.
+- **`storyboards.py`** — structured scene previews and explicit manual lettering placements. Imported by the builder, lettering, and identity tools.
 - **`textimage.py`** — the pure-Python text-into-image primitive. Imported by everything that
   draws.
 

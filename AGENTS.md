@@ -75,10 +75,11 @@ partly cover.
 | `content/*.md`, `design/`, `research/`, `prompts/` | you, by hand | contract, beat sheet, briefs, design notes, source material |
 | `data/pages.yaml`, `data/chapters.yaml` | **`pagination.py`** | edit by hand only to change a title or status, never a number |
 | `data/panel-types.tsv` | **`paneltypes.py write`** | regenerate, don't edit |
+| `data/storyboards.json`, `data/storyboard-assets.json` | you, by hand | composition and reusable geometry; identity tools own panel-key rewrites |
 | `data/panel-art.tsv` | **`panelart.py`** | which version of a panel is the chosen one |
 | `data/crossref.json`, `data/appendix.json` | **`crossref.py json`**, `appendix.py json` | derived |
 | `data/generation-log.jsonl` | **`imagegen.py` / `localgen.py` / `produce.py`** | a dated record; append-only, never rewritten by the renumbering tools |
-| `assets/art/panels/NNN-II/` | **`produce.py`** | adds versions, never replaces one |
+| `assets/art/panels/NNN-II/` | **`produce.py` / `storyboards.py`** | adds versions, never replaces one |
 | `docs/**` | **`build-site.py`** | **never hand-edit**; regenerate and commit the result |
 | `site/**` | you, by hand | the CSS/JS/templates `build-site.py` reads |
 | `256t/**` | `sync-256t.py` | gitignored source vault; only URLs and dispositions are tracked, in `data/256t-sources.tsv` |
@@ -150,7 +151,9 @@ python3 scripts/knowledge_map_local.py check && \
 python3 -m unittest discover -s scripts -p test_knowledge_map_local.py && \
 python3 scripts/knowledge_map_finish.py check && \
 python3 -m unittest discover -s scripts -p test_knowledge_map_finish.py && \
+python3 scripts/storyboards.py check && \
 python3 scripts/build-site.py && \
+python3 scripts/storyboards.py check --built && \
 python3 scripts/validate-viewer.py && \
 python3 scripts/validate-novella.py && \
 python3 scripts/validate-knowledge-map-gallery.py && \

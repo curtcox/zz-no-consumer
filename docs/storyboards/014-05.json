@@ -1,0 +1,76 @@
+{
+  "background": "ink",
+  "intent": "A meeting sketch and a source card stay in separate frames; the human silhouettes are invented roles.",
+  "lettering": [
+    {
+      "box": [
+        0.05,
+        0.05,
+        0.9,
+        0.18
+      ]
+    }
+  ],
+  "nodes": [
+    {
+      "asset": "reconstructed-box",
+      "box": [
+        0.04,
+        0.34,
+        0.53,
+        0.53
+      ],
+      "color": "nicotine",
+      "label": "RECONSTRUCTED"
+    },
+    {
+      "asset": "person-seated",
+      "box": [
+        0.1,
+        0.44,
+        0.16,
+        0.34
+      ],
+      "color": "dirty",
+      "focus": true
+    },
+    {
+      "asset": "person-seated",
+      "box": [
+        0.35,
+        0.44,
+        0.16,
+        0.34
+      ],
+      "color": "dirty",
+      "flip": true,
+      "focus": true
+    },
+    {
+      "asset": "desk",
+      "box": [
+        0.23,
+        0.66,
+        0.16,
+        0.18
+      ],
+      "color": "nicotine"
+    },
+    {
+      "asset": "card",
+      "box": [
+        0.68,
+        0.38,
+        0.26,
+        0.43
+      ],
+      "color": "steel",
+      "focus": true,
+      "label": "SOURCE SUMMARY"
+    }
+  ],
+  "reconstructed": true,
+  "shot": "insert",
+  "source": "\n**Frame:** Curt draws a border around an imagined human meeting, then breaks the border and marks it `RECONSTRUCTED`. Beside it, an attributed board-summary card remains inside a rigid evidence frame.\n\n**Dialogue — CURT:**\n> We can compress. We can reconstruct. We can invent connective scenes.\n\n**Provenance:** `reconstructed` — creator dialogue states the locked story contract.\n\n",
+  "title": "Reconstruction beside evidence"
+}
