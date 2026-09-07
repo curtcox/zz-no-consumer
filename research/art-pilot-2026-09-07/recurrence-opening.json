@@ -1,0 +1,51 @@
+[
+  {
+    "panel": "035-01",
+    "prompt": "Use case: illustration-story. New 1536x1024 landscape investigative graphic-novel panel. Reference 1 is authoritative three-part composition; reference 2 gives charcoal steel graphic-novel materials only. Preserve reference 1's LEFT blocked task, CENTER shared service, RIGHT isolated I-beam cursor, all within upper 70 percent. LEFT: dark steel task card with exact label NEW BLOCKED TASK, abstract angular maze ending at a closed gate, no protein-data diagram or file request. CENTER: wide steel folder-shaped shared-service panel with exact label SHARED SERVICE; inside only two empty horizontal name fields, no written messages or file-note sheets. RIGHT: single large plain neutral steel I-beam text cursor floating apart, a possible mark not yet written; no arrows, connectors or click rays. Generic new task and new writing surface, no inherited content, no actual identity labels or timestamps. Bottom 23 percent quiet almost-black for caption added later. Full bleed mature charcoal nib/brush ink, restrained drybrush and halftone, charcoal #101214/#202326, steel #5E737B, neutral gray. Clear silhouettes at thumbnail size. No moss, green, message words, source text, May objects, people, avatars, neon, white margins or decorative outer border.",
+    "references": [
+      "research/art-pilot-2026-09-07/references/035-01.png",
+      "assets/art/panels/035-05/v04-builtin-image-pilot.png"
+    ],
+    "elapsed_seconds": 30.145,
+    "source_file": "/Users/curtcox/.codex/generated_images/01a07dff-f46e-7113-8c8c-21a254c0df91/exec-4340b949-9afa-410e-ab9b-17cef177b5ea.png",
+    "reference_render": "rsvg-convert -w 1200 -h 800; source v02-storyboard-svg.svg for 035-01",
+    "reference_hashes": [
+      "59be64e918e67ff6962b38dc122191f9e804b976d8116aae27ad2388b80af93e",
+      "4e3535695b425a8fcb79dd5cb642e1df448879f105cfe67eb4aeb188b79da754"
+    ],
+    "stored_file": "assets/art/panels/035-01/v03-builtin-image-pilot.png",
+    "variant": "v03",
+    "sha256": "a2db077333084230344960e4f69cdb04771dd33e8894171fb8fe04669ce15058",
+    "dimensions": [
+      1536,
+      1024
+    ],
+    "tool": "image_gen.imagegen",
+    "model_revision": null,
+    "seed": null,
+    "controls": "Model revision, seed, sampler, strength and billing unavailable."
+  },
+  {
+    "panel": "035-03",
+    "prompt": "Use case: illustration-story. New 1536x1024 landscape investigative graphic-novel panel. Reference provides steel-framed message-strip motif and restrained moss edge only. New composition: ONE solitary landscape message strip centered in a wide dark field, occupying x 22-78 percent and y 24-46 percent. No other cards, run lanes, arrows or reply. Message strip interior dark gray and completely abstract, NO readable message content. Along its top edge one very thin muted olive moss line, no other green. Directly below the strip is a clear editorial tag in neutral gray, exactly two lines: SOURCE-SUPPORTED / on first line, TEXT NOT SELECTED on second line. This is a provenance tag outside the message, NOT spoken or written by an agent. Keep tag fully legible above 65 percent height. The message is distant and unreadable; never invent its wording. Bottom 23 percent quiet almost-black for controlled caption later. Full bleed mature heavy charcoal nib/brush ink, drybrush/halftone, charcoal #101214/#202326, steel #5E737B, neutral gray highlights. No people, avatars, handles, dates, file icons, folders, source text, pseudo-writing, neon, white margins or decorative outer border. Mood: sparse practical possibility in large shared infrastructure, not consciousness or magic.",
+    "references": [
+      "assets/art/panels/035-05/v04-builtin-image-pilot.png"
+    ],
+    "elapsed_seconds": 21.558,
+    "source_file": "/Users/curtcox/.codex/generated_images/01a07dff-f46e-7113-8c8c-21a254c0df91/exec-ecb46eaa-7ea1-4f88-8936-616332ef3e87.png",
+    "reference_hashes": [
+      "4e3535695b425a8fcb79dd5cb642e1df448879f105cfe67eb4aeb188b79da754"
+    ],
+    "stored_file": "assets/art/panels/035-03/v03-builtin-image-pilot.png",
+    "variant": "v03",
+    "sha256": "d886dfb6bbc3a49ae290e205647c23b056182f586d086d3f49a15a47e29a13c6",
+    "dimensions": [
+      1536,
+      1024
+    ],
+    "tool": "image_gen.imagegen",
+    "model_revision": null,
+    "seed": null,
+    "controls": "Model revision, seed, sampler, strength and billing unavailable."
+  }
+]
