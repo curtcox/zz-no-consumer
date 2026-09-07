@@ -1,0 +1,40 @@
+{
+  "panels": [
+    "003-03",
+    "036-03"
+  ],
+  "prompt": "Edit only these details: REMOVE the two checkmarks at the right ends of the second and third directory rows, leaving plain empty dark row space there. Do not replace with any symbol. Preserve everything else exactly: three rows, folder icons, different-length abstract path bars, clock glyphs, blank timestamp blocks, ARTIFACTORY label, Z-down-A sort marker, frame, textures, dimensions and caption clearance. No green, no messages, no new text. These are anonymous directory changes, never task-success indicators.",
+  "references": [
+    "assets/art/panels/003-03/v04-builtin-image-pilot.png"
+  ],
+  "elapsed_seconds": 38.962,
+  "source_file": "/Users/curtcox/.codex/generated_images/01a07dff-f46e-7113-8c8c-21a254c0df91/exec-adcab40c-01f9-4649-8d03-e128be0abda8.png",
+  "decision": "chosen",
+  "reference_hashes": [
+    "4a07f25a522235c352d79c52bae46941202ca4708ad375d3ead168dffd67d1e5"
+  ],
+  "sha256": "eb25b23c0615ecd8b8a7b01061e4f0e7f538d6cb44488cf490b85dc2923f3ee7",
+  "dimensions": [
+    1536,
+    1024
+  ],
+  "tool": "image_gen.imagegen",
+  "model_revision": null,
+  "seed": null,
+  "controls": "Model revision, seed, sampler, strength and billing unavailable.",
+  "imports": [
+    {
+      "panel": "003-03",
+      "stored_file": "assets/art/panels/003-03/v05-builtin-image-pilot.png",
+      "variant": "v05"
+    },
+    {
+      "panel": "036-03",
+      "stored_file": "assets/art/panels/036-03/v03-builtin-image-pilot.png",
+      "variant": "v03"
+    }
+  ],
+  "panel": "003-03",
+  "stored_file": "assets/art/panels/003-03/v05-builtin-image-pilot.png",
+  "variant": "v05"
+}

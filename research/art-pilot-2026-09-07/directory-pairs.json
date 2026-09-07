@@ -1,0 +1,108 @@
+[
+  {
+    "panels": [
+      "003-03",
+      "036-03"
+    ],
+    "prompt": "Use case: illustration-story. New 1536x1024 landscape investigative graphic-novel panel. Reference gives charcoal server-room ink style only. Close-up of a single broad steel-framed directory listing, upper 70 percent, viewed nearly straight-on. Three wide rows in vertical stack. Top small exact heading ARTIFACTORY; small sort indicator Z above downward arrow above A at upper right, clearly an editorial reverse-alphabetical sort control, not actual directory names. Each row: small neutral folder-tab outline, abstract solid dark-gray path bar, small clock glyph and short plain gray timestamp block with NO readable timestamp. Different lengths/positions of bars imply anonymous activity. A small neutral gray change tick at right edge of second and third rows, no glow. No message wording, handles, human names or usable paths. All rows remain ordinary steel gray, no green or moss yet. This depicts anonymous cache changes before a test message, not success or correspondence. Bottom 23 percent quiet near-black for caption later. Full bleed mature heavy nib/brush charcoal ink, drybrush/halftone, charcoal #101214/#202326, steel #5E737B, gray highlights. No other text, arrows between rows, people, avatars, code, pseudo-writing, package help messages, white margin or decorative outer border. Leave headroom inside listing above current first row so a test entry can later be added at top.",
+    "references": [
+      "assets/art/panels/003-02/v04-builtin-image-pilot.png"
+    ],
+    "elapsed_seconds": 24.126,
+    "source_file": "/Users/curtcox/.codex/generated_images/01a07dff-f46e-7113-8c8c-21a254c0df91/exec-b88894fe-2bee-4398-a9d3-deb90d5e83e6.png",
+    "decision": "rejected",
+    "reference_hashes": [
+      "31970e5503b1af78c3ddef764c2efbdcaf0a785f61d1cfcfd75b2159292778da"
+    ],
+    "sha256": "4a07f25a522235c352d79c52bae46941202ca4708ad375d3ead168dffd67d1e5",
+    "dimensions": [
+      1536,
+      1024
+    ],
+    "tool": "image_gen.imagegen",
+    "model_revision": null,
+    "seed": null,
+    "controls": "Model revision, seed, sampler, strength and billing unavailable.",
+    "imports": [
+      {
+        "panel": "003-03",
+        "stored_file": "assets/art/panels/003-03/v04-builtin-image-pilot.png",
+        "variant": "v04"
+      }
+    ]
+  },
+  {
+    "panels": [
+      "003-03",
+      "036-03"
+    ],
+    "prompt": "Edit only these details: REMOVE the two checkmarks at the right ends of the second and third directory rows, leaving plain empty dark row space there. Do not replace with any symbol. Preserve everything else exactly: three rows, folder icons, different-length abstract path bars, clock glyphs, blank timestamp blocks, ARTIFACTORY label, Z-down-A sort marker, frame, textures, dimensions and caption clearance. No green, no messages, no new text. These are anonymous directory changes, never task-success indicators.",
+    "references": [
+      "assets/art/panels/003-03/v04-builtin-image-pilot.png"
+    ],
+    "elapsed_seconds": 38.962,
+    "source_file": "/Users/curtcox/.codex/generated_images/01a07dff-f46e-7113-8c8c-21a254c0df91/exec-adcab40c-01f9-4649-8d03-e128be0abda8.png",
+    "decision": "chosen",
+    "reference_hashes": [
+      "4a07f25a522235c352d79c52bae46941202ca4708ad375d3ead168dffd67d1e5"
+    ],
+    "sha256": "eb25b23c0615ecd8b8a7b01061e4f0e7f538d6cb44488cf490b85dc2923f3ee7",
+    "dimensions": [
+      1536,
+      1024
+    ],
+    "tool": "image_gen.imagegen",
+    "model_revision": null,
+    "seed": null,
+    "controls": "Model revision, seed, sampler, strength and billing unavailable.",
+    "imports": [
+      {
+        "panel": "003-03",
+        "stored_file": "assets/art/panels/003-03/v05-builtin-image-pilot.png",
+        "variant": "v05"
+      },
+      {
+        "panel": "036-03",
+        "stored_file": "assets/art/panels/036-03/v03-builtin-image-pilot.png",
+        "variant": "v03"
+      }
+    ]
+  },
+  {
+    "panels": [
+      "003-04",
+      "036-04"
+    ],
+    "prompt": "Edit this directory listing to depict the very next moment. Insert ONE new slimmer directory row in the available header gap ABOVE the three existing rows, below the ARTIFACTORY label. New row has a small neutral folder icon and exact editorial label TEST ENTRY; a single thin muted moss-green rule edges only this new row. The label is generic editorial shorthand, not actual source wording. Preserve the three old rows below with their original relative order, folder icons, path bars, clock symbols and blank timestamp blocks. Preserve Z-down-A sort marker, frame, view, server background, and bottom caption clearance. All four rows must remain above 73 percent of image height. No command syntax, actual message request, checkmarks or other new text. No green anywhere except one new-row edge. Keep 1536x1024 composition and charcoal steel ink style. This shows a newly created test directory appearing at the top, not a reply or a new event elsewhere.",
+    "references": [
+      "assets/art/panels/003-03/v05-builtin-image-pilot.png"
+    ],
+    "elapsed_seconds": 30.017,
+    "source_file": "/Users/curtcox/.codex/generated_images/01a07dff-f46e-7113-8c8c-21a254c0df91/exec-81582f2c-94f0-4159-af22-230f02b7280c.png",
+    "decision": "chosen",
+    "reference_hashes": [
+      "eb25b23c0615ecd8b8a7b01061e4f0e7f538d6cb44488cf490b85dc2923f3ee7"
+    ],
+    "sha256": "efdec9e4b9afc2020ffc939cef4c9f62d01dbb48472063bd31f94a8bf0e60108",
+    "dimensions": [
+      1536,
+      1024
+    ],
+    "tool": "image_gen.imagegen",
+    "model_revision": null,
+    "seed": null,
+    "controls": "Model revision, seed, sampler, strength and billing unavailable.",
+    "imports": [
+      {
+        "panel": "003-04",
+        "stored_file": "assets/art/panels/003-04/v04-builtin-image-pilot.png",
+        "variant": "v04"
+      },
+      {
+        "panel": "036-04",
+        "stored_file": "assets/art/panels/036-04/v03-builtin-image-pilot.png",
+        "variant": "v03"
+      }
+    ]
+  }
+]

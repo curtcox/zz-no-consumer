@@ -55,9 +55,12 @@ panel	variant	file	provider	seed	width	height	bytes	created	status	note	stage
 003-03	v01	assets/art/panels/003-03/v01-flux2-klein-4b-1001.webp	flux2-klein-4b	1001	1200	800	216314	2026-09-05T16:24:46+00:00	candidate		refined
 003-03	v02	assets/art/panels/003-03/v02-storyboard-svg.svg	storyboard-svg		1200	800	4368	2026-09-07T16:49:06+00:00	candidate		storyboard
 003-03	v03	assets/art/panels/003-03/v03-storyboard-svg.svg	storyboard-svg		1200	800	4756	2026-09-07T16:54:59+00:00	candidate		storyboard
+003-03	v04	assets/art/panels/003-03/v04-builtin-image-pilot.png	builtin-image-pilot		1536	1024	2475332	2026-09-07T23:05:03+00:00	rejected	Directory pilot: checkmarks imply success; superseded by corrected listing.	refined
+003-03	v05	assets/art/panels/003-03/v05-builtin-image-pilot.png	builtin-image-pilot		1536	1024	2505760	2026-09-07T23:05:04+00:00	chosen	Directory pair: anonymous reverse-sorted activity, abstract paths and timestamps; provisional.	refined
 003-04	v01	assets/art/panels/003-04/v01-flux2-klein-4b-1001.webp	flux2-klein-4b	1001	1200	800	193488	2026-09-05T16:25:51+00:00	candidate		refined
 003-04	v02	assets/art/panels/003-04/v02-storyboard-svg.svg	storyboard-svg		1200	800	4655	2026-09-07T16:49:06+00:00	candidate		storyboard
 003-04	v03	assets/art/panels/003-04/v03-storyboard-svg.svg	storyboard-svg		1200	800	5043	2026-09-07T16:54:59+00:00	candidate		storyboard
+003-04	v04	assets/art/panels/003-04/v04-builtin-image-pilot.png	builtin-image-pilot		1536	1024	2374388	2026-09-07T23:05:06+00:00	chosen	Directory pair: new test entry above unchanged row order, moss limited to new row; provisional.	refined
 003-05	v01	assets/art/panels/003-05/v01-flux2-klein-4b-1001.webp	flux2-klein-4b	1001	1200	800	107656	2026-09-05T16:26:55+00:00	candidate		refined
 003-05	v02	assets/art/panels/003-05/v02-storyboard-svg.svg	storyboard-svg		1200	800	2714	2026-09-07T16:49:06+00:00	chosen	Pilot control: retain deterministic geometry and exact controlled long-text lettering.	storyboard
 004-01	v01	assets/art/panels/004-01/v01-flux2-klein-4b-1001.webp	flux2-klein-4b	1001	1200	800	189254	2026-09-05T16:28:00+00:00	candidate		refined
@@ -478,8 +481,10 @@ panel	variant	file	provider	seed	width	height	bytes	created	status	note	stage
 036-02	v03	assets/art/panels/036-02/v03-builtin-image-pilot.png	builtin-image-pilot		1536	1024	2247143	2026-09-07T23:00:15+00:00	chosen	Shared-service pair: repeated composition with same-event dossier tab; provisional.	refined
 036-03	v01	assets/art/panels/036-03/v01-storyboard-svg.svg	storyboard-svg		1200	800	4200	2026-09-07T16:49:10+00:00	candidate		storyboard
 036-03	v02	assets/art/panels/036-03/v02-storyboard-svg.svg	storyboard-svg		1200	800	4607	2026-09-07T16:55:13+00:00	candidate		storyboard
+036-03	v03	assets/art/panels/036-03/v03-builtin-image-pilot.png	builtin-image-pilot		1536	1024	2505760	2026-09-07T23:05:05+00:00	chosen	Directory pair: anonymous reverse-sorted activity, abstract paths and timestamps; provisional.	refined
 036-04	v01	assets/art/panels/036-04/v01-storyboard-svg.svg	storyboard-svg		1200	800	4655	2026-09-07T16:49:10+00:00	candidate		storyboard
 036-04	v02	assets/art/panels/036-04/v02-storyboard-svg.svg	storyboard-svg		1200	800	5043	2026-09-07T16:55:13+00:00	candidate		storyboard
+036-04	v03	assets/art/panels/036-04/v03-builtin-image-pilot.png	builtin-image-pilot		1536	1024	2374388	2026-09-07T23:05:07+00:00	chosen	Directory pair: new test entry above unchanged row order, moss limited to new row; provisional.	refined
 036-05	v01	assets/art/panels/036-05/v01-storyboard-svg.svg	storyboard-svg		1200	800	2689	2026-09-07T16:49:10+00:00	candidate		storyboard
 037-01	v01	assets/art/panels/037-01/v01-storyboard-svg.svg	storyboard-svg		1200	800	3963	2026-09-07T16:49:10+00:00	candidate		storyboard
 037-01	v02	assets/art/panels/037-01/v02-storyboard-svg.svg	storyboard-svg		1200	800	4209	2026-09-07T16:55:13+00:00	candidate		storyboard
