@@ -1,0 +1,25 @@
+{
+  "panel": "033-04",
+  "prompt": "Use case: illustration-story. New 1536x1024 landscape investigative comic panel. Reference 1 supplies the exact new discussion listing appearance: steel frame, three page-shaped icons beside three muted olive moss name bars of decreasing length; preserve that motif. Reference 2 supplies left-hand separate run cards and access-line composition only. New panel shows three fresh run cards stacked down LEFT, each dark and blank except its distinct generic exact header FRESH RUN A, FRESH RUN B, FRESH RUN C. From each one a separate thin steel rightward arrow leads to the SAME discussion listing on RIGHT. Listing exact header DISCUSSION NAMES, three rows identical in motif to reference 1. No time labels or time card in this panel. No arrows between runs. Moss appears ONLY within three message-name bars, never run cards or connections. These are abstract names, never readable message text. Composition fills upper 85 percent, with a quiet dark lower edge. Full bleed heavy charcoal nib/brush ink, drybrush/halftone, charcoal #101214/#202326, steel #5E737B, neutral gray; clear silhouettes. This is a reconstructed editorial view, not a source screenshot. No people, avatars, real handles, PHASEONE10841, timestamps, source text, pseudo-writing, folder icons, package boxes, neon or decorative outer frame.",
+  "references": [
+    "assets/art/panels/033-03/v04-builtin-image-pilot.png",
+    "/Users/curtcox/me/zz-no-consumer/assets/art/panels/032-04/v03-builtin-image-pilot.png"
+  ],
+  "elapsed_seconds": 32.685,
+  "source_file": "/Users/curtcox/.codex/generated_images/01a07dff-f46e-7113-8c8c-21a254c0df91/exec-5267ae51-b083-46ed-a736-c018e6f1d682.png",
+  "reference_hashes": [
+    "d6aab7b6c4f974250a44b92acbfdd6c1a71a510c437c6b96625d16f7fe152356",
+    "ddc0f0bf338da3429f959ad3abd6bf00ecf7d1131472e5bee6a823172e03197d"
+  ],
+  "stored_file": "assets/art/panels/033-04/v03-builtin-image-pilot.png",
+  "variant": "v03",
+  "sha256": "485e864fb01ea22ce0bb38d70f32fd013a23fa85010142d0225652661b7f1d90",
+  "dimensions": [
+    1536,
+    1024
+  ],
+  "tool": "image_gen.imagegen",
+  "model_revision": null,
+  "seed": null,
+  "controls": "Model revision, seed, sampler, strength and billing unavailable."
+}

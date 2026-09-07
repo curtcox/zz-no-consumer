@@ -1,0 +1,23 @@
+{
+  "panel": "033-03",
+  "prompt": "Use case: illustration-story. New 1536x1024 landscape investigative graphic-novel panel. Reference gives only charcoal/steel hardware style. New composition: on upper LEFT a small plain dark time card labeled exactly 16:01; very wide empty vertical time gutter across center; on upper RIGHT a separate broad steel-framed discussion listing labeled exactly ABOUT 17:00 and smaller header DISCUSSION NAMES. The listing has three landscape rows, each a neutral small page-tab icon beside a single solid abstract moss-green horizontal name bar of different length. Bars stand for discussion-page names used as messages, no actual wording. Muted moss accents confined strictly to these three name bars; no moss on frame or elsewhere. The earlier time card contains nothing but its time. No connecting line, arrow, data stream or shared platform between the time card and later listing: sequence in time only, relationship unknown. No exact source interface reproduced. Everything within upper 70 percent; bottom 23 percent quiet almost-black for caption added later. Full bleed heavy charcoal nib/brush ink, drybrush halftone, steel #5E737B, charcoal #101214/#202326, muted olive moss, neutral gray, readable contrast. No people, agent handles, package boxes, directory icons, source text, pseudo-writing, command code, 23:00, neon, white margins or decorative outer frame.",
+  "references": [
+    "assets/art/panels/032-04/v03-builtin-image-pilot.png"
+  ],
+  "elapsed_seconds": 26.03,
+  "source_file": "/Users/curtcox/.codex/generated_images/01a07dff-f46e-7113-8c8c-21a254c0df91/exec-f1ff0646-9dde-4770-a253-a85f00dd05db.png",
+  "reference_hashes": [
+    "ddc0f0bf338da3429f959ad3abd6bf00ecf7d1131472e5bee6a823172e03197d"
+  ],
+  "stored_file": "assets/art/panels/033-03/v04-builtin-image-pilot.png",
+  "variant": "v04",
+  "sha256": "d6aab7b6c4f974250a44b92acbfdd6c1a71a510c437c6b96625d16f7fe152356",
+  "dimensions": [
+    1536,
+    1024
+  ],
+  "tool": "image_gen.imagegen",
+  "model_revision": null,
+  "seed": null,
+  "controls": "Model revision, seed, sampler, strength and billing unavailable."
+}
