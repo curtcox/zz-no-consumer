@@ -12,7 +12,7 @@ said: 28 August 2026
 
 ## Where it appears
 
-Not on any page. Page 094 letters that the response now means engineering, policy, defence,
+Not on any page. [Page 094](../../novella/06-everyone-continues/094.md) letters that the response now means engineering, policy, defence,
 preservation and scrutiny, with different claims of authority, and does not adjudicate
 between them. This entry is here because the framing in question is the most quoted response
 to the collective-defence proposal and a reader will meet it.

@@ -51,7 +51,7 @@ None of that makes the book right. It makes the book's mistakes findable, which 
 different and more achievable thing. Two of them are already documented in this appendix:
 [LF-01](#lf-01-nothing-survived-the-rebuild-therefore-nothing-survived) is a step the book
 took and had to withdraw, and [LF-03](#lf-03-a-model-produced-ranking-read-as-a-property-of-the-world)
-is a construction it made on purpose and then disclosed on page 088. If you find a third,
+is a construction it made on purpose and then disclosed on [page 088](../../novella/05-the-observer-needs-the-observed/088.md). If you find a third,
 the machinery for recording it already exists.
 
 ## The evidence

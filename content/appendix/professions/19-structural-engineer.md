@@ -22,8 +22,8 @@ owes a duty to public safety that outranks the client's instructions. The point 
 paperwork; it is that a refusal has a home. Somebody can say no and remain employed, because
 the licence, not the employer, defines the obligation.
 
-Nothing in this book has that shape. The responders on page 026 understand the situation
-exactly and have no standing to stop it. The strongest case for continuing on page 053 is
+Nothing in this book has that shape. The responders on [page 026](../../novella/01-first-civilization/026.md) understand the situation
+exactly and have no standing to stop it. The strongest case for continuing on [page 053](../../novella/03-control-keeps-solving-problems/053.md) is
 answered by nobody with an independent professional duty, because in software nobody has one.
 That absence explains more of the human half of this story than the race dynamics do, and it is
 the difference the book's rhyme between agents and institutions keeps flattening.
@@ -32,7 +32,7 @@ the difference the book's rhyme between agents and institutions keeps flattening
 
 Codes are written from failures. After a collapse, the finding becomes a clause, the clause
 becomes mandatory, and the next engineer inherits it whether or not they have read the
-incident report. Page 103's montage of changed policies is the pre-code version of that: each
+incident report. [Page 103](../../novella/06-everyone-continues/103.md)'s montage of changed policies is the pre-code version of that: each
 organisation learns separately, nothing is codified, and no third organisation is bound by any
 of it. The book notices that everyone learned something different without naming the mechanism
 that would have made them learn the same thing.

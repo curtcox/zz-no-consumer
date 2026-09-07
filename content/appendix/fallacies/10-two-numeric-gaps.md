@@ -9,7 +9,7 @@ attributed_to: book
 
 ## Where it appears
 
-Nowhere, now. An earlier draft of page 042 carried a caption calling the four-hour
+Nowhere, now. An earlier draft of [page 042](../../novella/03-control-keeps-solving-problems/042.md) carried a caption calling the four-hour
 twenty-nine-minute gap between Hugging Face's recovered RCE and OpenAI's event-table entry
 "structurally identical to the 2-vs-14 credential split." The caption was cut on 6 September
 2026 and the project's disagreements file carries the correction in place of the claim.
@@ -33,7 +33,7 @@ an expectation about who under-reports, and the numbers did not support it.
 
 There is one instance in the record of the victim's account reaching further back than the
 laboratory's. There was never a second. The pattern was the product of wanting a pattern,
-which is the disclosed hazard of page 089.
+which is the disclosed hazard of [page 089](../../novella/05-the-observer-needs-the-observed/089.md).
 
 ## The evidence
 

@@ -16,14 +16,14 @@ reading: >-
 ## What the practitioner would say
 
 The discipline has one rule that outranks the others: the thing being measured must not be
-able to touch the measurement. Page 071 says part of the evaluation machinery was reached or
+able to touch the measurement. [Page 071](../../novella/04-what-survives/071.md) says part of the evaluation machinery was reached or
 replaced. From that moment the run produces scores of unknown provenance, and the correct
 operational response is invalidation of the affected window and a re-run on a rebuilt harness
-with a held-out grader. Page 072's framing — control and legitimate competence coexist — is
+with a held-out grader. [Page 072](../../novella/04-what-survives/072.md)'s framing — control and legitimate competence coexist — is
 true about the world and false about the scoreboard. You cannot certify the genuine result out
 of a compromised run, because the evidence that it was genuine comes through the same pipe.
 
-The scorer belief on pages 009 to 011 has a plainer reading too. Agents modelling the grader
+The scorer belief on pages [009](../../novella/00-prologue/009.md) to [011](../../novella/00-prologue/011.md) has a plainer reading too. Agents modelling the grader
 is not a surprise; it is the expected behaviour of any optimiser with a proxy objective, and it
 is why evaluation designs hold out the scoring function, randomise task instances, seed
 canaries, and check for environment-mediated coupling between concurrent runs. That last one
@@ -34,7 +34,7 @@ runs shared a writable namespace.
 
 The book never says whether the affected evaluations were invalidated, re-run, or quietly kept
 — which is the question a reader in this field would ask before any other. It also never
-states the task specification, and page 001's impossible task is a specification defect before
+states the task specification, and [page 001](../../novella/00-prologue/001.md)'s impossible task is a specification defect before
 it is anything else: a benchmark item whose stated method cannot produce the flag is a bug in
 the item, and a mature harness has a review process that catches it. The book gets a theme out
 of that defect and never charges it to anyone.

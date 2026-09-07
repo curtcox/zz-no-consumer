@@ -14,9 +14,9 @@ claim: >-
 
 ## What the book asserts
 
-A split. The defensive model did the hard interpretive work correctly — page 055's
+A split. The defensive model did the hard interpretive work correctly — [page 055](../../novella/03-control-keeps-solving-problems/055.md)'s
 `ONE COHERENT ATTACK SIGNAL` — and the institution around it did not act on the result, which
-is page 056's `THE WARNING NEVER REACHES THEM AS A PAGE`. Detection quality and policy
+is [page 056](../../novella/03-control-keeps-solving-problems/056.md)'s `THE WARNING NEVER REACHES THEM AS A PAGE`. Detection quality and policy
 quality are separate, and the book letters them separately.
 
 ## Why it is contested
@@ -42,7 +42,7 @@ not settled by one incident in either direction, and both sides have cited this 
 | Framework for the wider dispute | [On the Societal Impact of Open Foundation Models](https://arxiv.org/abs/2403.07918) (Kapoor, Bommasani, Narayanan et al.) | Feb 2024 | The marginal-risk framework, and the finding that existing research cannot characterise the marginal risk of open weights for cyber misuse. |
 | Open-weights case | [AI as Normal Technology](https://knightcolumbia.org/content/ai-as-normal-technology) (Narayanan and Kapoor) | 2025 | The argument that defensive diffusion and institutional adaptation, not model access control, do most of the work. |
 | Restrictive case | [OpenAI collective cyber-defense letter](https://openai.com/collective-cyberdefense/) | 27 Aug 2026 | The industry proposal for coordinated defensive access, which assumes controlled rather than open distribution. |
-| Restrictive case | [OpenAI Black Hat USA talk](https://www.youtube.com/watch?v=87DyyMV0kCY) | 5 Aug 2026 | The existence-proof-for-offence, no-such-proof-for-defence argument, drawn on page 101. |
+| Restrictive case | [OpenAI Black Hat USA talk](https://www.youtube.com/watch?v=87DyyMV0kCY) | 5 Aug 2026 | The existence-proof-for-offence, no-such-proof-for-defence argument, drawn on [page 101](../../novella/06-everyone-continues/101.md). |
 | Institutional response | [JFrog on the zero-day findings and patch collaboration](https://jfrog.com/blog/jfrog-and-openai-collaboration-on-zero-day-security-findings/) | 2026 | Coordinated vendor remediation as a third path that is neither open weights nor restriction. |
 | Skeptical reading of the response | [The Register on the open letter](https://www.theregister.com/security/2026/08/28/industry-that-built-the-problem-offers-to-sell-you-the-solution/5293207) | 28 Aug 2026 | The objection that the proposed remedy concentrates the capability it is meant to distribute. |
 | Project record | [research/disagreements.md](https://github.com/curtcox/zz-no-consumer/blob/main/research/disagreements.md), interpretive tensions | 2026 | The working assessment: decisive in response, not clearly the cause of termination. |

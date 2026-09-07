@@ -14,6 +14,7 @@ from pathlib import Path
 
 import appendix as appendix_module
 import crossref
+import pagelinks
 import epub
 import imagegen
 import letterpress
@@ -107,8 +108,14 @@ class ViewerChapter:
     last_page: int
 
 
-def inline(text: str) -> str:
+def inline(text: str, page_href=None) -> str:
     text = html.escape(text, quote=False)
+    # Before any link is turned into markup: a page reference becomes a Markdown link
+    # pointing wherever this surface keeps its pages, and one that arrived already linked
+    # -- the sources carry repository-relative links, which mean nothing in a browser --
+    # is re-pointed at the same place. `scripts/pagelinks.py` owns both.
+    if page_href is not None:
+        text = pagelinks.normalize(text, page_href)
     text = re.sub(r"!\[([^]]*)\]\(([^)]+)\)", r'<img src="\2" alt="\1">', text)
 
     def link(match: re.Match[str]) -> str:
@@ -124,7 +131,11 @@ def inline(text: str) -> str:
     return text
 
 
-def markdown_to_html(source: str) -> str:
+def markdown_to_html(source: str, page_href=None) -> str:
+    """Render Markdown. With `page_href`, every story-page reference becomes a link."""
+    def inline_text(text: str) -> str:
+        return inline(text, page_href)
+
     lines = source.replace("\r\n", "\n").split("\n")
     result: list[str] = []
     paragraph: list[str] = []
@@ -137,7 +148,7 @@ def markdown_to_html(source: str) -> str:
 
     def flush_paragraph() -> None:
         if paragraph:
-            result.append(f"<p>{inline(' '.join(part.strip() for part in paragraph))}</p>")
+            result.append(f"<p>{inline_text(' '.join(part.strip() for part in paragraph))}</p>")
             paragraph.clear()
 
     def flush_list() -> None:
@@ -147,7 +158,7 @@ def markdown_to_html(source: str) -> str:
 
     def flush_quote() -> None:
         if quote_lines:
-            result.append(f"<blockquote><p>{inline(' '.join(quote_lines))}</p></blockquote>")
+            result.append(f"<blockquote><p>{inline_text(' '.join(quote_lines))}</p></blockquote>")
             quote_lines.clear()
 
     def flush_blocks() -> None:
@@ -196,17 +207,19 @@ def markdown_to_html(source: str) -> str:
             while index < len(lines) and lines[index].strip().startswith("|"):
                 rows.append(table_cells(lines[index].strip()))
                 index += 1
-            head = "".join(f"<th>{inline(cell)}</th>" for cell in headers)
+            head = "".join(f"<th>{inline_text(cell)}</th>" for cell in headers)
             body_rows = []
             for row in rows:
                 padded = row + [""] * max(0, len(headers) - len(row))
-                body_rows.append("<tr>" + "".join(f"<td>{inline(cell)}</td>" for cell in padded[:len(headers)]) + "</tr>")
+                body_rows.append("<tr>" + "".join(f"<td>{inline_text(cell)}</td>" for cell in padded[:len(headers)]) + "</tr>")
             result.append(f"<div class=\"table-wrap\"><table><thead><tr>{head}</tr></thead><tbody>{''.join(body_rows)}</tbody></table></div>")
             continue
 
         if line.startswith("#"):
             flush_blocks()
             level = min(len(line) - len(line.lstrip("#")), 6)
+            # A heading names the page it introduces rather than pointing at another one,
+            # so it is left unlinked here exactly as it is in the sources.
             result.append(f"<h{level}>{inline(line[level:].strip())}</h{level}>")
         elif line.startswith(">"):
             flush_paragraph(); flush_list()
@@ -216,13 +229,13 @@ def markdown_to_html(source: str) -> str:
             if list_items and list_tag != "ul":
                 flush_list()
             list_tag = "ul"
-            list_items.append(inline(line[2:]))
+            list_items.append(inline_text(line[2:]))
         elif re.match(r"^\d+\. ", line):
             flush_paragraph(); flush_quote()
             if list_items and list_tag != "ol":
                 flush_list()
             list_tag = "ol"
-            list_items.append(inline(re.sub(r"^\d+\. ", "", line)))
+            list_items.append(inline_text(re.sub(r"^\d+\. ", "", line)))
         elif not line:
             flush_blocks()
         else:
@@ -840,6 +853,91 @@ NOVELLA_SLUG = "zz-no-consumer-novella"
 NOVELLA_HOME = "https://curtcox.github.io/zz-no-consumer/novella/"
 NOVELLA_RIGHTS = "GNU General Public License, version 3 or any later version."
 
+
+# ------------------------------------------------------------------ page links
+#
+# A page number in prose is a pointer, and every edition keeps its pages somewhere
+# different: the novella reader splits them across chapter routes, the self-contained HTML
+# and the EPUB hold them all in one document, the graphic novel gives each its own viewer
+# route, and the Markdown download is read away from the site altogether and so needs an
+# address that works from anywhere. One resolver per edition; `scripts/pagelinks.py` does
+# the rewriting, here and in the sources.
+#
+# The plain-text download gets no resolver on purpose. It cannot carry a link, so it takes
+# the same prose with the links flattened back to words.
+# ------------------------------------------------------------------------------
+
+_PAGE_DIRECTORIES: dict[int, str] = {}
+
+
+def page_directories() -> dict[int, str]:
+    """Page number to the novella chapter directory that holds its prose."""
+    if not _PAGE_DIRECTORIES:
+        _PAGE_DIRECTORIES.update(pagelinks.chapter_directories())
+    return _PAGE_DIRECTORIES
+
+
+def novella_page_href(from_directory: Path):
+    directories = page_directories()
+
+    def href(page: int) -> str | None:
+        if page not in directories:
+            return None
+        target = Path(NOVELLA_DIR, directories[page], "index.html")
+        return f"{route_url(from_directory, target)}#p{page:03d}"
+
+    return href
+
+
+def viewer_page_href(from_directory: Path):
+    directories = page_directories()
+
+    def href(page: int) -> str | None:
+        if page not in directories:
+            return None
+        return route_url(from_directory, viewer_destination("pages", f"{page:03d}"))
+
+    return href
+
+
+def anchor_page_href(page: int) -> str | None:
+    """One document, one anchor per page: the self-contained HTML download."""
+    return f"#p{page:03d}" if page in page_directories() else None
+
+
+def epub_page_href(chapter_of: dict[int, str]):
+    def href(page: int) -> str | None:
+        name = chapter_of.get(page)
+        return None if name is None else f"{name}.xhtml#p{page:03d}"
+
+    return href
+
+
+def published_page_href(page: int) -> str | None:
+    """An absolute address, for the Markdown download that is read away from the site."""
+    directories = page_directories()
+    if page not in directories:
+        return None
+    return f"{NOVELLA_HOME}{directories[page]}/#p{page:03d}"
+
+
+def page_range_links(from_directory: Path, first: int, last: int, keyword: str = "") -> str:
+    """`Pages 016–029` with both ends linked. One link cannot name two destinations."""
+    lead = f"{html.escape(keyword)} " if keyword else ""
+    if first == last:
+        return lead + page_number_link(from_directory, first)
+    return (
+        f"{lead}{page_number_link(from_directory, first)}–"
+        f"{page_number_link(from_directory, last)}"
+    )
+
+
+def page_number_link(from_directory: Path, page: int, label: str = "") -> str:
+    """A bare page number as a link into the graphic novel, for generated tables."""
+    href = viewer_page_href(from_directory)(page)
+    text = label or f"{page:03d}"
+    return f'<a href="{html.escape(href)}">{html.escape(text)}</a>' if href else html.escape(text)
+
 # Only two of the four view settings mean anything to prose. This boot script runs
 # before first paint so a restored view never flashes the default theme, and it steps
 # around any fragment it does not recognise so a page anchor still resolves.
@@ -949,7 +1047,7 @@ def novella_chapters() -> list[NovellaChapter]:
     return chapters
 
 
-def novella_prose(chapter: NovellaChapter, *, marked: bool = True) -> str:
+def novella_prose(chapter: NovellaChapter, *, marked: bool = True, page_href=None) -> str:
     """A chapter's prose, one section per story page, each carrying its own anchor."""
     sections = []
     for page in chapter.pages:
@@ -962,7 +1060,7 @@ def novella_prose(chapter: NovellaChapter, *, marked: bool = True) -> str:
         )
         sections.append(
             f'<section class="page" id="{anchor}" aria-label="Page {page.number}">'
-            f"{marker}{markdown_to_html(page.body)}</section>"
+            f"{marker}{markdown_to_html(page.body, page_href)}</section>"
         )
     return f'<article class="prose">{"".join(sections)}</article>'
 
@@ -1075,10 +1173,10 @@ def novella_standalone(chapters: list[NovellaChapter], stylesheet: str,
             f'<h2 id="{chapter.directory}" style="margin-top:3.5rem">'
             f"{html.escape(chapter.label)} — {html.escape(chapter.title)}</h2>"
         )
-        parts.append(novella_prose(chapter))
+        parts.append(novella_prose(chapter, page_href=anchor_page_href))
     if appendix_markdown_text:
         parts.append('<section id="appendix" style="margin-top:3.5rem">')
-        parts.append(markdown_to_html(appendix_markdown_text))
+        parts.append(markdown_to_html(appendix_markdown_text, anchor_page_href))
         parts.append("</section>")
     parts.append(
         f'<p class="note">{html.escape(NOVELLA_RIGHTS)} '
@@ -1093,6 +1191,15 @@ def novella_standalone(chapters: list[NovellaChapter], stylesheet: str,
     )
 
 
+def epub_chapter_files(chapters: list[NovellaChapter]) -> dict[int, str]:
+    """Which EPUB document each story page lands in, so a reference can cross chapters."""
+    return {
+        page.number: f"ch{index:02d}"
+        for index, chapter in enumerate(chapters)
+        for page in chapter.pages
+    }
+
+
 def novella_epub(chapters: list[NovellaChapter], destination: Path,
                  appendix_markdown_text: str = "") -> Path:
     """Package the novella as EPUB 3, with a real page list.
@@ -1105,6 +1212,7 @@ def novella_epub(chapters: list[NovellaChapter], destination: Path,
 
     epub_chapters: list[epub.Chapter] = []
     page_list: list[epub.PageRef] = []
+    href = epub_page_href(epub_chapter_files(chapters))
     for index, chapter in enumerate(chapters):
         name = f"ch{index:02d}"
         sections = []
@@ -1114,7 +1222,7 @@ def novella_epub(chapters: list[NovellaChapter], destination: Path,
             sections.append(
                 f'<span epub:type="pagebreak" role="doc-pagebreak" id="{anchor}" '
                 f'aria-label="Page {page.number}"></span>'
-                f"{markdown_to_html(page.body)}"
+                f"{markdown_to_html(page.body, href)}"
             )
         body = (
             f'<section epub:type="chapter">'
@@ -1136,7 +1244,7 @@ def novella_epub(chapters: list[NovellaChapter], destination: Path,
     # a reading system makes them tappable the same way it does any other.
     if appendix_markdown_text:
         appendix_body = (
-            f'<section epub:type="appendix">{markdown_to_html(appendix_markdown_text)}</section>'
+            f'<section epub:type="appendix">{markdown_to_html(appendix_markdown_text, href)}</section>'
         )
         try:
             ElementTree.fromstring(
@@ -1207,9 +1315,10 @@ def appendix_destination(entry: appendix_module.Entry) -> Path:
                 entry.id.lower(), "index.html")
 
 
-def appendix_markdown(model: appendix_module.Appendix) -> str:
+def appendix_markdown(model: appendix_module.Appendix, page_href=None) -> str:
     """The whole appendix as one Markdown document, for the downloads."""
-    return appendix_module.assemble()
+    del model  # the assembler builds its own; the argument keeps the call sites honest
+    return appendix_module.assemble(page_href)
 
 
 def appendix_plain_text(markdown: str) -> str:
@@ -1326,10 +1435,14 @@ def build_appendix(document) -> int:
         # The route already carries the entry's title as its own heading, so the rendered
         # entry drops its `###` line rather than saying it twice. The assembled document
         # keeps it, because there the entries run together and each needs its own head.
-        rendered = re.sub(r"^###\s+.*\n", "", appendix_module.render(entry), count=1)
-        body = markdown_to_html(rendered)
+        # An entry serves both editions and links into one of them, because it lists the
+        # other explicitly under "Story pages" below.
+        href = novella_page_href(destination.parent)
+        rendered = re.sub(r"^###\s+.*\n", "", appendix_module.render(entry, href), count=1)
+        body = markdown_to_html(rendered, href)
         cited = "".join(
-            f"<li><strong>{page:03d}</strong> — {html.escape(pages.get(page, ''))} "
+            f"<li><strong>{page_number_link(destination.parent, page)}</strong> — "
+            f"{html.escape(pages.get(page, ''))} "
             f"({page_links(destination.parent, page)})</li>"
             for page in entry.pages
         )
@@ -1349,7 +1462,8 @@ def build_appendix(document) -> int:
 
     # The page index: the address a reader actually arrives with is a page number.
     index_rows = "".join(
-        f"<tr><td>{page:03d}</td><td>{html.escape(pages.get(page, ''))}</td><td>"
+        f"<tr><td>{page_number_link(directory, page)}</td>"
+        f"<td>{html.escape(pages.get(page, ''))}</td><td>"
         + ", ".join(
             f'<a href="{html.escape(route_url(directory, appendix_destination(entry)))}">'
             f"{html.escape(entry.id)}</a>"
@@ -1363,7 +1477,7 @@ def build_appendix(document) -> int:
     intro = re.sub(r"^#\s+.*\n", "", intro, count=1).split("<!-- editorial -->")[0].strip()
 
     body = (
-        f"{markdown_to_html(intro)}"
+        f"{markdown_to_html(intro, novella_page_href(directory))}"
         f"<h2>Index by story page</h2>"
         f'<div class="table-scroll"><table><thead><tr><th>Page</th><th>Title</th>'
         f"<th>Entries</th><th>Read the page</th></tr></thead>"
@@ -1404,25 +1518,34 @@ def build_novella() -> int:
     # are the same in the novella and the graphic novel, so a reader holding either edition
     # can use it -- and a download that carried the story without the evidence would be the
     # half of the book that is easiest to quote and hardest to check.
-    appendix_text = appendix_markdown(appendix_entries())
+    model = appendix_entries()
 
     # Downloads first: the home page quotes their sizes, so they have to exist.
     downloads: list[tuple[str, str, str, Path]] = []
-    epub_path = novella_epub(chapters, base / f"{NOVELLA_SLUG}.epub", appendix_text)
+    epub_path = novella_epub(
+        chapters, base / f"{NOVELLA_SLUG}.epub",
+        appendix_markdown(model, epub_page_href(epub_chapter_files(chapters))))
     downloads.append(("EPUB", f"{NOVELLA_SLUG}.epub", "For a Kindle, Kobo, or any reading app. Carries the page numbers as real EPUB page breaks, and the appendix with live links.", epub_path))
 
     html_path = base / f"{NOVELLA_SLUG}.html"
-    html_path.write_text(novella_standalone(chapters, stylesheet, appendix_text), encoding="utf-8")
+    html_path.write_text(
+        novella_standalone(chapters, stylesheet, appendix_markdown(model, anchor_page_href)),
+        encoding="utf-8")
     downloads.append(("HTML", html_path.name, "One self-contained file. Opens in any browser, works offline, prints. Appendix links are clickable.", html_path))
 
     markdown_path = base / f"{NOVELLA_SLUG}.md"
     markdown_path.write_text(
-        novella.assemble(continuous=False) + "\n\n" + appendix_text, encoding="utf-8")
+        pagelinks.normalize(novella.assemble(continuous=False), published_page_href)
+        + "\n\n"
+        + pagelinks.normalize(appendix_markdown(model, published_page_href),
+                              published_page_href),
+        encoding="utf-8")
     downloads.append(("Markdown", markdown_path.name, "The source form, exactly as the repository holds it.", markdown_path))
 
     text_path = base / f"{NOVELLA_SLUG}.txt"
     text_path.write_text(
-        novella_plain_text(chapters) + "\n\n" + appendix_plain_text(appendix_text),
+        novella_plain_text(chapters) + "\n\n"
+        + appendix_plain_text(pagelinks.unlink(appendix_markdown(model))),
         encoding="utf-8")
     downloads.append(("Plain text", text_path.name, "No markup at all, wrapped at 78 columns. Appendix links are printed in full.", text_path))
 
@@ -1451,10 +1574,11 @@ def build_novella() -> int:
             f'<header class="reader-head">'
             f'<p class="eyebrow">{html.escape(chapter.label)}</p>'
             f"<h1>{html.escape(chapter.title)}</h1>"
-            f'<p class="meta">Pages {chapter.first:03d}–{chapter.last:03d} · '
+            f'<p class="meta">'
+            f"{page_range_links(directory, chapter.first, chapter.last, 'Pages')} · "
             f"{len(chapter.pages)} pages · {chapter.words:,} words</p>"
             f"</header>"
-            f"{novella_prose(chapter)}"
+            f"{novella_prose(chapter, page_href=novella_page_href(directory))}"
             f"{foot}"
         )
         (OUT / destination).parent.mkdir(parents=True, exist_ok=True)
@@ -1522,7 +1646,8 @@ def build_novella() -> int:
         f"{html.escape(NOVELLA_RIGHTS)}</p>"
         f"<h2>The appendix</h2>"
         f'<p>Every entry is keyed to a story page number, and the graphic novel and the '
-        f"novella share a pagination — so an entry about page 039 is about page 039 in "
+        f"novella share a pagination — so an entry about "
+        f"{page_number_link(directory, 39, 'page 039')} is about that page in "
         f'either edition. <a href="{html.escape(route_url(directory, Path(APPENDIX_DIR, "index.html")))}">'
         f"Read the appendix on its own →</a></p>"
     )
@@ -1786,24 +1911,29 @@ def build_knowledge_maps(document) -> int:
         sheets.append(f'<figure class="km-card" data-contact-sheet="{html.escape(sheet["path"])}"><a href="{href}"><img src="{href}" alt="{html.escape(sheet["label"])}" loading="lazy"></a><figcaption>{html.escape(sheet["label"])}</figcaption></figure>')
     if not sheets:
         raise ValueError("Knowledge-map v1 requires contact sheets")
-    introduction = (
-        '<p class="eyebrow">Design samples — not adopted</p>'
-        '<p><strong>Story revelations through page 039.</strong></p>'
-        '<p class="km-intro">Four alternatives for showing who knows what, compared on exactly the same '
-        'fixtures and viewpoints. No family has been selected. These are design studies, not canonical story art.</p>'
-        '<section class="km-legend" aria-label="Shared evidence-state legend"><h2>Reading the maps</h2>'
-        '<p><strong>Dark:</strong> no available support, not proof of falsehood. '
-        '<strong>Lit:</strong> available evidence, not certainty. '
-        '<strong>Hatched:</strong> single-sourced or contested evidence. '
-        '<strong>P6:</strong> unreachable, never lit or hatched. Re-fogging removes support, not terrain.</p>'
-        '<p>Viewpoints are provisional editorial models, not access to anyone’s interior. '
-        'The 27 June responders stay within the same response boundary while the reader learns more.</p></section>'
-    )
+    # One introduction, three directories: the version gallery, the gallery index, and the
+    # fog gallery. The page-039 link is relative, so it is resolved per document.
+    def introduction(where: Path) -> str:
+        return (
+            '<p class="eyebrow">Design samples — not adopted</p>'
+            f'<p><strong>Story revelations through '
+            f'{page_number_link(where, 39, "page 039")}.</strong></p>'
+            '<p class="km-intro">Four alternatives for showing who knows what, compared on exactly the same '
+            'fixtures and viewpoints. No family has been selected. These are design studies, not canonical story art.</p>'
+            '<section class="km-legend" aria-label="Shared evidence-state legend"><h2>Reading the maps</h2>'
+            '<p><strong>Dark:</strong> no available support, not proof of falsehood. '
+            '<strong>Lit:</strong> available evidence, not certainty. '
+            '<strong>Hatched:</strong> single-sourced or contested evidence. '
+            '<strong>P6:</strong> unreachable, never lit or hatched. Re-fogging removes support, not terrain.</p>'
+            '<p>Viewpoints are provisional editorial models, not access to anyone’s interior. '
+            'The 27 June responders stay within the same response boundary while the reader learns more.</p></section>'
+        )
+
     finish_full = finish_studies(directory, full=True)
     finish_jump = '<a href="#local-model-finish-studies">Finish studies</a>' if finish_full else ""
     body = (
         '<div class="knowledge-map-gallery"><p><a href="../">Knowledge-map gallery</a> / Version 1</p>'
-        + introduction + local_studies(directory)
+        + introduction(directory) + local_studies(directory)
         + '<nav class="km-jumps" aria-label="Knowledge-map comparisons"><a href="#controlled-comparison">All four alternatives</a>'
         '<a href="#039-before-after">039 before / after</a><a href="#010-hint-nohint">010 hint / no hint</a>'
         '<a href="#reader-responders">Reader / responders</a><a href="#placements">Placement mocks</a><a href="#contact-sheets">Contact sheets</a>'
@@ -1820,7 +1950,8 @@ def build_knowledge_maps(document) -> int:
     )
     write_page(directory / "index.html", "Knowledge maps · v1", body, gallery_document)
     index = (
-        '<div class="knowledge-map-gallery">' + introduction + local_studies(Path("knowledge-maps"))
+        '<div class="knowledge-map-gallery">' + introduction(Path("knowledge-maps"))
+        + local_studies(Path("knowledge-maps"))
         + finish_studies(Path("knowledge-maps"), full=False)
         + '<section class="km-section"><h2>Controlled semantic studies</h2><a class="card" href="v1/">'
         '<h3>Version 1 · four families, forty-eight SVGs</h3><p>Compare 010 with and without the hint, 016, '
@@ -1839,7 +1970,7 @@ def build_knowledge_maps(document) -> int:
     return 2
 
 
-def build_fog_gallery(gallery_document, introduction: str) -> str:
+def build_fog_gallery(gallery_document, introduction) -> str:
     """The fog-of-war studies: same fixtures and viewpoints, fog as a computed soft-edged veil."""
     source = KNOWLEDGE_MAP_DIR / "fog-v1" / "manifest.json"
     if not source.exists():
@@ -1895,7 +2026,7 @@ def build_fog_gallery(gallery_document, introduction: str) -> str:
     levels = manifest["fog_levels"]
     body = (
         '<div class="knowledge-map-gallery"><p><a href="../">Knowledge-map gallery</a> / Fog of war</p>'
-        + introduction
+        + introduction(directory)
         + '<section class="km-section km-fog" id="fog-of-war-studies"><h2>Fog-of-war studies</h2>'
         '<p>Fog-of-war studies: the same fixtures and viewpoints as v1, on the A-family terrain, but the fog is a computed '
         'raster veil with a soft, irregular, noise-displaced edge rather than a filled polygon, the way navigation maps in games '
@@ -2286,7 +2417,7 @@ def build_crossref(model: crossref.CrossReference, *, internal: bool) -> int:
     for key, sequence in model.sequences.items():
         row = [
             f'<a href="{html.escape(crossref_link(sequences_dir, "sequences", crossref.slug(key)))}">{html.escape(sequence.label)}</a>',
-            f"{sequence.first_page:03d}–{sequence.last_page:03d}",
+            page_range_links(sequences_dir, sequence.first_page, sequence.last_page),
             str(len(model.pages_for_sequence(key))),
             chips(sequences_dir, "provenance", list(sequence.statuses), status_labels),
             chips(sequences_dir, "sources", list(sequence.sources)),
@@ -2316,7 +2447,7 @@ def build_crossref(model: crossref.CrossReference, *, internal: bool) -> int:
         write_crossref_page(
             destination,
             sequence.label,
-            f'''<p>Ledger pages {sequence.first_page:03d}–{sequence.last_page:03d} ·
+            f'''<p>{page_range_links(directory, sequence.first_page, sequence.last_page, "Ledger pages")} ·
             {len(pages)} pages assigned in the manifest.</p>
             <p>Ledger provenance: {chips(directory, "provenance", list(sequence.statuses), status_labels)}<br>
             Ledger sources: {chips(directory, "sources", list(sequence.sources))}</p>
@@ -2377,7 +2508,12 @@ def main() -> int:
         destination.write_text(
             page_document(
                 title_for(source),
-                markdown_to_html(source.read_text(encoding="utf-8")),
+                # A script, a brief, or a note: a reader here is reading the graphic novel's
+                # material, so its page references open the page in the viewer.
+                markdown_to_html(
+                    source.read_text(encoding="utf-8"),
+                    viewer_page_href(destination.parent.relative_to(OUT)),
+                ),
                 navigation(destination.parent.relative_to(OUT)),
                 relative_url(destination.parent.relative_to(OUT), Path("css/site.css")),
             ),

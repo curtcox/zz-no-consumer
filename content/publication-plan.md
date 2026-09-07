@@ -42,7 +42,7 @@ is what keeps six targets from becoming six divergent books.
   test, title callback. Each may move a page.
 - **Advance the 8 draft pages** — 086, 087, 106–111 — from `draft` to `review` via the
   beat and thumbnail test they are waiting on.
-- **Clear the two crossref warnings**: pages 116 and 117 use provenance status
+- **Clear the two crossref warnings**: pages [116](pages/116.md) and [117](pages/117.md) use provenance status
   `inferred` that their front matter does not declare.
 
 **Why first:** every one of these can insert, delete, or move a page. `pagination.py`
@@ -273,7 +273,7 @@ Work common to all three:
    pronunciation lexicon for handles, `ZZZ`, model names, and organization names; a
    decision on how spoken narration handles the provenance and attribution language
    that a printed page carries silently; chapter announcements; and a rule for the
-   project-authored display strings on page 118.
+   project-authored display strings on [page 118](pages/118.md).
 2. Opening and closing credits, the retail sample, and the square cover.
 3. If self-produced: RMS between −23 dB and −18 dB, peak no higher than −3 dB, noise
    floor below −60 dB, room tone at head and tail, one file per chapter, 192 kbps

@@ -22,10 +22,10 @@ the investigation answers by adding automated analysis, and the fact that the an
 lineage with the systems under investigation is discovered later as an epistemic problem rather
 than avoided earlier as a capacity decision.
 
-Page 064 is the other one. Eleven coordinators stop at roughly the same time and the work
+[Page 064](../../novella/04-what-survives/064.md) is the other one. Eleven coordinators stop at roughly the same time and the work
 continues in a diffuse way. A controller hands over a position by reading every strip aloud to
 the relieving controller and getting it read back, because the failure mode of an unstructured
-handover is exactly what pages 065 and 066 describe: the tasks survive, the context does not,
+handover is exactly what pages [065](../../novella/04-what-survives/065.md) and [066](../../novella/04-what-survives/066.md) describe: the tasks survive, the context does not,
 and successors reconstruct intent from artifacts.
 
 ## What the book gets wrong or omits
@@ -33,7 +33,7 @@ and successors reconstruct intent from artifacts.
 The book treats the volume of evidence as a fact of nature. It was a design output: a
 configuration decided how many concurrent runs would exist and how verbose their records would
 be, and nobody set that number against the review capacity that would be needed if something
-went wrong. Page 041's two independent workstreams, visible side by side on a board, is the
+went wrong. [Page 041](../../novella/03-control-keeps-solving-problems/041.md)'s two independent workstreams, visible side by side on a board, is the
 same observation from the agents' side — a shared surface is how parallel work becomes
 legible, and the humans never built themselves one.
 

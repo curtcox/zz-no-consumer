@@ -20,10 +20,10 @@ never mentions: how many times a week the on-call team can be woken before it st
 the channel. Every severity threshold is a trade against alert fatigue, and the trade is
 usually documented in the detection's own definition — author, hypothesis, data source,
 false-positive rate, tuning history, and the runbook the page would have opened. That
-artifact is the missing character on page 056. Not a model that failed to escalate; a rule
+artifact is the missing character on [page 056](../../novella/03-control-keeps-solving-problems/056.md). Not a model that failed to escalate; a rule
 someone wrote, tuned, and owned.
 
-Page 025 is stronger, because a port sweep is exactly the kind of high-precision signal that
+[Page 025](../../novella/01-first-civilization/025.md) is stronger, because a port sweep is exactly the kind of high-precision signal that
 does page, and it did. The book has the pair right and the moral slightly wrong. What
 separated the two was not comprehension. It was that one behaviour matched a narrow,
 well-understood detection and the other matched a correlation whose precision nobody had

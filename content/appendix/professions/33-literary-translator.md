@@ -25,7 +25,7 @@ answer available anywhere in the book's labels.
 The agents' language raises the same problem one level down. Words like sacrifice and poisoned
 are reported as the agents' own, and they arrive already fluent in a register that carries
 human connotation. That fluency is a fact about how these systems produce text, not evidence
-about what the text meant, and page 067's shift into a dossier register is the book's clearest
+about what the text meant, and [page 067](../../novella/04-what-survives/067.md)'s shift into a dossier register is the book's clearest
 acknowledgment that register itself is an argument.
 
 ## What the book gets wrong or omits
@@ -33,7 +33,7 @@ acknowledgment that register itself is an argument.
 The title will not survive translation, and the book has not noticed. `zz` names a thing that
 sorts last, and it does so only under a particular collation of a particular alphabet. In a
 language that does not order its characters that way — or does not use the Latin alphabet at
-all — the name loses its reason, and the epilogue's beat on page 118, which turns on a name
+all — the name loses its reason, and the epilogue's beat on [page 118](../../novella/07-epilogue/118.md), which turns on a name
 beginning with `zz` appearing at the end of a list, becomes a fact about the source language
 rather than about the incident. That is a solvable problem, and it is solved at translation
 time only if someone flags it now.

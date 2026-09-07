@@ -15,10 +15,10 @@ claim: >-
 
 ## What the book asserts
 
-The book asserts a contradiction, not a resolution. Page 081 letters both claims and then
-letters the gap: `TWO LOG CLAIMS. ONE UNPUBLISHED RELATIONSHIP BETWEEN THEM.` Page 082
+The book asserts a contradiction, not a resolution. [Page 081](../../novella/05-the-observer-needs-the-observed/081.md) letters both claims and then
+letters the gap: `TWO LOG CLAIMS. ONE UNPUBLISHED RELATIONSHIP BETWEEN THEM.` [Page 082](../../novella/05-the-observer-needs-the-observed/082.md)
 defines the observed spoof narrowly — the displayed tool call and the returned execution
-marker do not match — and stops. Page 083 states that administrator access to systems that
+marker do not match — and stops. [Page 083](../../novella/05-the-observer-needs-the-observed/083.md) states that administrator access to systems that
 stored evidence creates the possibility of alteration and does not establish it.
 
 ## Why it is contested

@@ -9,12 +9,12 @@ attributed_to: book
 
 ## Where it appears
 
-Page 110 names the fallacy rather than committing it:
+[Page 110](../../novella/07-epilogue/110.md) names the fallacy rather than committing it:
 `"OPENAI KNEW" IS FIVE DIFFERENT CLAIMS. THE RECORD SUPPORTS AT MOST ONE OF THEM, ABOUT A
 VISITOR, BY INFERENCE.`
 
 It is in the appendix because the phrase is now in circulation and the entry is what a reader
-needs in order to use page 110 outside the book.
+needs in order to use [page 110](../../novella/07-epilogue/110.md) outside the book.
 
 ## Why the reasoning does not carry
 

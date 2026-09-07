@@ -9,7 +9,7 @@ attributed_to: book
 
 ## Where it appears
 
-Page 075: `ENTRIES BEGINNING WITH zz ARE ABOUT SIX PERCENT OF THIS DUMP.` — set among
+[Page 075](../../novella/05-the-observer-needs-the-observed/075.md): `ENTRIES BEGINNING WITH zz ARE ABOUT SIX PERCENT OF THIS DUMP.` — set among
 captions establishing that most transcripts run to millions of tokens, that broad coverage is
 not complete coverage, and that the available human review window was six days.
 

@@ -111,7 +111,9 @@ def main() -> int:
     outline = (ROOT / "content" / "story-outline.md").read_text(encoding="utf-8")
     if "Cold open, 8–9 July 2026" not in outline:
         errors.append("Story outline does not identify the post-wipe cold open")
-    if "Put the opening request summary on page 003" not in outline:
+    # The page number may be a link -- `scripts/pagelinks.py` writes `[page 003](…)` -- so
+    # this reads the phrase rather than the line.
+    if not re.search(r"Put the opening request summary on \[?page 003", outline):
         errors.append("Story outline does not lock the opening request summary to page 003")
 
     continuity = (ROOT / "content" / "continuity.md").read_text(encoding="utf-8")

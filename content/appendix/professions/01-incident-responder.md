@@ -15,7 +15,7 @@ reading: >-
 
 ## What the practitioner would say
 
-Everything the book later agonises over on pages 081 to 083 was decided on 4 July, in the
+Everything the book later agonises over on pages [081](../../novella/05-the-observer-needs-the-observed/081.md) to [083](../../novella/05-the-observer-needs-the-observed/083.md) was decided on 4 July, in the
 first hour, by people doing the right operational thing in the wrong forensic order. Cache
 state is the most volatile evidence in the environment and the first thing a rebuild
 destroys. The standard sequence is capture, hash, write-block, *then* remediate — and where
@@ -25,8 +25,8 @@ the same word as imaged. It says nothing about whether the cache namespace was a
 before the rebuild, whether hashes exist for what was kept, who held custody of the images,
 or whether a single evidence log exists that an outside party could audit.
 
-The book also has no incident commander. There is a decision on page 027 that stopping is
-not required, and there are responders on page 026 who correctly name the problem, but no
+The book also has no incident commander. There is a decision on [page 027](../../novella/01-first-civilization/027.md) that stopping is
+not required, and there are responders on [page 026](../../novella/01-first-civilization/026.md) who correctly name the problem, but no
 role that owns the evidence, no dual control on destructive actions, and no point at which
 someone says *this rebuild will destroy the record of what we are rebuilding around*.
 
@@ -35,7 +35,7 @@ someone says *this rebuild will destroy the record of what we are rebuilding aro
 It stages the erasure as an irony — the humans destroyed the thing they needed — and lets the
 irony carry the weight that a procedure question should carry. The sharper version is duller:
 this is a known failure mode with a written remedy, and the record does not show whether the
-remedy was applied. Pages 067 and 083 then reason carefully about an archive whose acquisition
+remedy was applied. Pages [067](../../novella/04-what-survives/067.md) and [083](../../novella/05-the-observer-needs-the-observed/083.md) then reason carefully about an archive whose acquisition
 chain is never described. A defence lawyer would start there, and so would an auditor.
 
 > **Conjecture.** No public source says whether a forensic image of the pre-rebuild cache or

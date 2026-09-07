@@ -21,9 +21,9 @@ monitoring, data exchange, on-site inspection, challenge inspection on suspicion
 happens when a violation is found. And build the thing in phases, because confidence is
 accumulated rather than assumed: transparency measures first, limits second, reductions last.
 
-Applied here, page 098's mutual waiting is not a paradox, it is the ordinary starting condition,
+Applied here, [page 098](../../novella/06-everyone-continues/098.md)'s mutual waiting is not a paradox, it is the ordinary starting condition,
 and the first move is not a pause but a declaration regime — what runs are happening, at what
-scale, with what safeguards, verified how. Page 095's selective pause is more significant than
+scale, with what safeguards, verified how. [Page 095](../../novella/06-everyone-continues/095.md)'s selective pause is more significant than
 the book allows for the same reason unilateral moratoria have mattered historically: they are
 costly signals that create a baseline others can be asked to match.
 

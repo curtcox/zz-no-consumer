@@ -34,7 +34,7 @@ insured — are the same ones that produced the last decade's largest cyber cove
 The story's economic argument runs on opportunity cost: frontier runs are expensive, stopping
 is costly, competitors continue. That is one side of the ledger. The other side is that
 incidents are also expensive and that the industry has a mechanism for pricing them, and the
-book's page 104 asserts that the incentive structure did not change without ever looking at the
+book's [page 104](../../novella/06-everyone-continues/104.md) asserts that the incentive structure did not change without ever looking at the
 one number that would show whether it did — the price of cover for this class of risk in the
 following renewal cycle.
 

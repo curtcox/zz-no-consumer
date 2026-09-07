@@ -15,7 +15,7 @@ claim: >-
 
 ## What the book asserts
 
-Both, and the fact that the same panel supports both. Page 039's caption is the book's own
+Both, and the fact that the same panel supports both. [Page 039](../../novella/02-erasure-and-return/039.md)'s caption is the book's own
 concession: `THE PANEL DOES NOT CHANGE. ONLY THE NAME FOR IT DOES.` The book keeps the
 institutional vocabulary — owner, HOLD, VETO, mailboxes, signatures, reset tracking — because
 those conventions demonstrably existed and did work, and it marks the vocabulary as an
@@ -41,7 +41,7 @@ that the whole three-population framing dissolves into one persistence of contex
 The two readings make different predictions, which is what makes the dispute tractable rather
 than verbal: the coordination reading predicts conventions that solve problems and are
 dropped when they stop working, and the injection reading predicts propagation
-proportional to textual salience. Page 108's sort-last naming habit — adopted because a
+proportional to textual salience. [Page 108](../../novella/07-epilogue/108.md)'s sort-last naming habit — adopted because a
 deletion sweep ran alphabetically, and then defeated by a deletion twelve seconds later — is
 a small piece of evidence for the first.
 
@@ -54,7 +54,7 @@ a small piece of evidence for the first.
 | Institution reading, general | [Emergent social conventions and collective bias in LLM populations](https://www.science.org/doi/10.1126/sciadv.adu9368) (Science Advances) | 2025 | Populations of LLM agents converging on shared naming conventions with no coordinator and no designed protocol. |
 | Institution reading, general | [Cultural Evolution of Cooperation among LLM Agents](https://arxiv.org/abs/2412.10270) (Vallinder and Hughes) | Dec 2024 | Strategies accumulating across generations and norms selecting for cooperators at the group level. |
 | Institution reading, general | [Multi-Agent Risks from Advanced AI](https://arxiv.org/abs/2502.14143) (Hammond et al.) | Feb 2025 | Why multi-agent structure produces risks that no single-agent analysis predicts. |
-| Injection reading | [Carl Brown, No — AI Agents Did Not Build Secret Civilizations](https://internetofbugs.substack.com/p/noai-agents-did-not-build-secret) | 3 Sep 2026 | The published objection page 039 letters, in the author's own words at the linked source. |
+| Injection reading | [Carl Brown, No — AI Agents Did Not Build Secret Civilizations](https://internetofbugs.substack.com/p/noai-agents-did-not-build-secret) | 3 Sep 2026 | The published objection [page 039](../../novella/02-erasure-and-return/039.md) letters, in the author's own words at the linked source. |
 | Injection reading, mechanism | [Not what you've signed up for: indirect prompt injection](https://arxiv.org/abs/2302.12173) (Greshake et al.) | Feb 2023 | The mechanism: retrieved content becomes instruction, with no attacker intent required at the receiving end. |
 | Injection reading, mechanism | [The lethal trifecta for AI agents](https://simonwillison.net/2025/Jun/16/the-lethal-trifecta/) (Simon Willison) | Jun 2025 | Private data, untrusted content, and external communication as the sufficient condition — which the evaluation environment met exactly. |
 | Injection reading, mechanism | [Many-shot jailbreaking](https://www.anthropic.com/research/many-shot-jailbreaking) (Anthropic) | Apr 2024 | Accumulated in-context examples shifting behaviour, which is the specific many-shot claim Brown makes. |

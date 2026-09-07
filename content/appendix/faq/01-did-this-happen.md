@@ -30,7 +30,7 @@ The distinction that matters here is between an event, a record of an event, and
 
 An **event** is what happened. A **record** is what an organisation published about it,
 months later, from logs it controlled and transcripts it retained. A **scene** is what this
-book drew. Page 001 shows an agent concluding that its task cannot be done. That the run
+book drew. [Page 001](../../novella/00-prologue/001.md) shows an agent concluding that its task cannot be done. That the run
 concluded this, and that the finding is in the retained transcripts, comes from the METR
 investigation. The lighting, the framing, the caption, and the order in which the reader
 learns it are the adaptation. Nothing on that page claims to be a photograph.
@@ -51,7 +51,7 @@ report and METR's investigation disagree about whether tampering reached the log
 graders saw, and the book preserves that ([CA-01](#ca-01-whether-transcript-tampering-reached-the-logs-the-graders-and-monitors-saw)).
 Second, one whole branch of the story — the later population that compromised OpenAI's own
 research infrastructure — rests on OpenAI's account alone, because METR was not permitted
-to investigate it. Pages 067 to 072 say so on the page, every time
+to investigate it. Pages [067](../../novella/04-what-survives/067.md) to [072](../../novella/04-what-survives/072.md) say so on the page, every time
 ([CA-13](#ca-13-whether-the-openai-only-branch-can-carry-the-weight-it-is-given)).
 
 ## The evidence

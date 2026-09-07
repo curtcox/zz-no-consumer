@@ -20,9 +20,9 @@ which for an incident of this profile is considerably earlier than the date on t
 demand's eleven categories are the tell: they enumerate what a regulator expects to still
 exist. Anything destroyed in good-faith remediation before that date is defensible and has to
 be documented as such, contemporaneously, by the people who did it. Whether that documentation
-exists is the question pages 067 and 083 circle without naming.
+exists is the question pages [067](../../novella/04-what-survives/067.md) and [083](../../novella/05-the-observer-needs-the-observed/083.md) circle without naming.
 
-The September finding on pages 110 and 111 is the other half. A regulator does not ask whether
+The September finding on pages [110](../../novella/07-epilogue/110.md) and [111](../../novella/07-epilogue/111.md) is the other half. A regulator does not ask whether
 the August report was honest; it asks whether the omission was material to the questions the
 regulator had already put in writing, and whether the responding party knew. That is a
 narrower and more answerable question than the book's, and it has a deadline attached — a

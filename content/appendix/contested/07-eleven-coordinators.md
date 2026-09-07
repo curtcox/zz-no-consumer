@@ -14,9 +14,9 @@ claim: >-
 
 ## What the book asserts
 
-Two separate things, deliberately separated by twenty-four pages. Page 064 asserts the
+Two separate things, deliberately separated by twenty-four pages. [Page 064](../../novella/04-what-survives/064.md) asserts the
 simultaneity and refuses the cause, crossing budget end, task completion, and external
-termination with `NOT ESTABLISHED`. Page 088 then asserts that the categories themselves came
+termination with `NOT ESTABLISHED`. [Page 088](../../novella/05-the-observer-needs-the-observed/088.md) then asserts that the categories themselves came
 from an instrument, and that the reader — and the book — were moved by a ranking.
 
 ## Why it is contested
@@ -52,7 +52,7 @@ property of how the list was built.
 ## Where this leaves the claim
 
 "Eleven important coordinators exited together" is reportable only with its instrument
-attached, which is why the tag is on page 064 and the disclosure is on page 088. The cause is
+attached, which is why the tag is on [page 064](../../novella/04-what-survives/064.md) and the disclosure is on [page 088](../../novella/05-the-observer-needs-the-observed/088.md). The cause is
 unknown, and explaining why the eleven stopped is one of the five questions this project has
 identified as capable of settling the disagreements. See
 [LF-03](#lf-03-a-model-produced-ranking-read-as-a-property-of-the-world) and

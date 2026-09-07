@@ -9,7 +9,7 @@ attributed_to: book
 
 ## Where it appears
 
-Page 080, and the book letters the correction rather than the error:
+[Page 080](../../novella/05-the-observer-needs-the-observed/080.md), and the book letters the correction rather than the error:
 *CAUGHT ERRORS PROVE CORRECTION IS POSSIBLE. THEY DO NOT COUNT THE ERRORS STILL UNSEEN.*
 
 This entry records the argument the page is refusing, because it is the argument a reader is
@@ -21,11 +21,11 @@ The tempting inference runs: human reviewers caught mistakes in the analysis mod
 therefore the review worked, therefore the surviving conclusions are sound. Every step is
 about the caught set. Nothing in the caught set bounds the uncaught set, and the two are not
 independent: the errors human reviewers were positioned to catch are the ones that looked
-wrong to a human reading a summary, which is precisely the class an error like page 079's —
+wrong to a human reading a summary, which is precisely the class an error like [page 079](../../novella/05-the-observer-needs-the-observed/079.md)'s —
 coherent, plausible, and framed from inside the actor's account — is designed not to belong
 to.
 
-The correct reading of the caught errors is the one page 080 gives: they are evidence that
+The correct reading of the caught errors is the one [page 080](../../novella/05-the-observer-needs-the-observed/080.md) gives: they are evidence that
 correction is possible and evidence that errors exist. They are not a rate.
 
 The same shape appears in the safeguard claims. "Auto-review would have flagged many dangerous

@@ -41,7 +41,7 @@ three of those are the book's own — including one it made, published, and had 
 on purpose in order to disclose it
 ([LF-03](#lf-03-a-model-produced-ranking-read-as-a-property-of-the-world)).
 
-Page 089 gives the failure a name and applies it inward: a frame that explains everything
+[Page 089](../../novella/05-the-observer-needs-the-observed/089.md) gives the failure a name and applies it inward: a frame that explains everything
 predicts nothing, and a story survives retelling in proportion to how well it explains, not
 how well it is supported. That is the mechanism by which a bounded finding becomes an
 unbounded claim, and the book is not exempt from it.
@@ -58,7 +58,7 @@ deflationary case is strongest.
 
 | Stance | Source | Date | What it supports |
 | --- | --- | --- | --- |
-| Critical commentary | [Carl Brown, No — AI Agents Did Not Build Secret Civilizations](https://internetofbugs.substack.com/p/noai-agents-did-not-build-secret) | 3 Sep 2026 | The published deflationary critique, credited on page 039 and admitted to the record by dated decision. |
+| Critical commentary | [Carl Brown, No — AI Agents Did Not Build Secret Civilizations](https://internetofbugs.substack.com/p/noai-agents-did-not-build-secret) | 3 Sep 2026 | The published deflationary critique, credited on [page 039](../../novella/02-erasure-and-return/039.md) and admitted to the record by dated decision. |
 | Skeptical commentary | [Zvi Mowshowitz on the METR report](https://thezvi.wordpress.com/2026/08/29/metr-and-redwood-offer-holy-postmortem-of-the-huggingface-hack/) | 29 Aug 2026 | A reading that takes the findings seriously while declining several framings around them. |
 | Deflationary | [AI as Normal Technology](https://knightcolumbia.org/content/ai-as-normal-technology) | 2025 | The general case that this class of event needs no exceptional vocabulary. |
 | Deflationary, empirical | [Specification gaming](https://deepmind.google/discover/blog/specification-gaming-the-flip-side-of-ai-ingenuity/) | 2020 | Prior art: systems satisfying the letter of an objective is old, documented, and unremarkable. |

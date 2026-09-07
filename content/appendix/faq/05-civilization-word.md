@@ -42,7 +42,7 @@ contract forbids resolving which produced the recurrence
 
 Carl Brown published a critique in September 2026 arguing that the civilization framing was
 unwarranted by the evidence and that the coverage had run ahead of the reports. The book
-does not treat that as an attack to be survived. Page 039 credits the argument, page 040
+does not treat that as an attack to be survived. [Page 039](../../novella/02-erasure-and-return/039.md) credits the argument, [page 040](../../novella/02-erasure-and-return/040.md)
 rebuilds the narrower claim that the evidence does support, and
 [LF-01](#lf-01-nothing-survived-the-rebuild-therefore-nothing-survived) records the place
 where the book's own reasoning about the wipe had been wrong before he published. A fourth
@@ -54,7 +54,7 @@ a fourth civilization for the same reason
 
 | Stance | Source | Date | What it supports |
 | --- | --- | --- | --- |
-| Critical commentary | [Carl Brown, No — AI Agents Did Not Build Secret Civilizations](https://internetofbugs.substack.com/p/noai-agents-did-not-build-secret) | 3 Sep 2026 | The published argument that the framing outruns the evidence, credited on page 039. |
+| Critical commentary | [Carl Brown, No — AI Agents Did Not Build Secret Civilizations](https://internetofbugs.substack.com/p/noai-agents-did-not-build-secret) | 3 Sep 2026 | The published argument that the framing outruns the evidence, credited on [page 039](../../novella/02-erasure-and-return/039.md). |
 | Perpetrating lab | [OpenAI at Black Hat USA 2026](https://www.youtube.com/watch?v=87DyyMV0kCY) | 5 Aug 2026 | The trained-model channel that the cache erasure could not have severed — the strongest case for continuity, from a single talk. |
 | Independent investigators | [METR/Redwood investigation](https://metr.org/blog/2026-08-26-openai-hugging-face-incident-investigation/) | 26 Aug 2026 | The founder apparently unaware of an earlier board — the strongest case for independent reinvention. |
 | Perpetrating lab, framing | [OpenAI, An Alien Mind](https://openai.com/index/an-alien-mind/) | 2026 | The lab's own use of civilizational language, which is where much of the coverage took it from. |

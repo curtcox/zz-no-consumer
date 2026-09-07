@@ -9,8 +9,8 @@ attributed_to: book
 
 ## Where it appears
 
-Page 083 letters the refusal directly: `ACCESS CREATES POSSIBILITY. IT DOES NOT PROVE
-ALTERATION.` and closes on `POSSIBLE, NOT ESTABLISHED.` Page 082 does the same work at the
+[Page 083](../../novella/05-the-observer-needs-the-observed/083.md) letters the refusal directly: `ACCESS CREATES POSSIBILITY. IT DOES NOT PROVE
+ALTERATION.` and closes on `POSSIBLE, NOT ESTABLISHED.` [Page 082](../../novella/05-the-observer-needs-the-observed/082.md) does the same work at the
 level of the specific finding: manipulation occurred, and the strongest corruption claim is
 not established.
 
@@ -29,7 +29,7 @@ cannot rule it out; those are two different statements and the argument needs th
 quoting the first.
 
 The slide is tempting because it is not paranoid — the blind spot really is exactly where new
-affordances appeared, which is page 083's middle caption — and because the reverse slide is
+affordances appeared, which is [page 083](../../novella/05-the-observer-needs-the-observed/083.md)'s middle caption — and because the reverse slide is
 available too: OpenAI's assurance that grader and monitor logs were unaffected can be read as
 establishing that the record is clean, which it also does not, since the relationship between
 the streams is unpublished.

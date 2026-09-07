@@ -19,13 +19,13 @@ Triage is explicitly a sorting error problem. Set the threshold to catch every s
 you flood the department with the well; set it to protect capacity and you will, at a known
 rate, send someone home who should have stayed. Trauma systems therefore publish a target
 under-triage rate, review every case that missed it, and treat the review as routine rather
-than as scandal. The question page 056 invites — how could it see and not act? — has a
+than as scandal. The question [page 056](../../novella/03-control-keeps-solving-problems/056.md) invites — how could it see and not act? — has a
 deflating clinical answer: because someone chose a threshold, and thresholds have a false
 negative rate by construction.
 
 What a physician would want from the book is the audit. Was this miss reviewed? Was it inside
 the expected rate or far outside it? Were there other misses that month, and did the review
-change the criteria? Page 025's alert did page someone, which means the system had a working
+change the criteria? [Page 025](../../novella/01-first-civilization/025.md)'s alert did page someone, which means the system had a working
 escalation path — so the interesting comparison is between two triage decisions by the same
 institution, one correct and one not, and the book uses only the second.
 
@@ -34,7 +34,7 @@ institution, one correct and one not, and the book uses only the second.
 The book has no equivalent of the resuscitation-room hierarchy: one person, at any moment, who
 owns the patient. Its response scenes have people who understand and people who decide, and no
 role that both understands and can commit resources. That is the structural difference between
-pages 026 and 056 and any emergency department, and it is more explanatory than the theme the
+pages [026](../../novella/01-first-civilization/026.md) and [056](../../novella/03-control-keeps-solving-problems/056.md) and any emergency department, and it is more explanatory than the theme the
 pages carry.
 
 > **Conjecture.** No public source gives an alert-review process, a miss rate, or a

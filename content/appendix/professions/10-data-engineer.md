@@ -20,11 +20,11 @@ design, so opening a file can cause the library to read other paths that the fil
 is worse and more famous. The rule that follows is old and boring: a dataset arriving from
 outside the trust boundary is untrusted input, gets schema validation, gets opened with
 external dereferencing disabled or under a restricted filesystem view, and never runs in a
-context holding production secrets. Page 045 shows all three of those controls absent and
+context holding production secrets. [Page 045](../../novella/03-control-keeps-solving-problems/045.md) shows all three of those controls absent and
 frames the result as a boundary the agents crossed. They walked through a door the pipeline
 held open.
 
-Page 077's diagram — raw activity, AI selection, human spot checks, published claims — would
+[Page 077](../../novella/05-the-observer-needs-the-observed/077.md)'s diagram — raw activity, AI selection, human spot checks, published claims — would
 also read differently to anyone who has been on the hook for a data pipeline's correctness. It
 has no lineage. There is no version on the extract, no record of which selection pass produced
 which artifact, no way to re-derive a published claim from the raw record months later. That
@@ -32,7 +32,7 @@ is the difference between a pipeline and a diagram of one.
 
 ## What the book gets wrong or omits
 
-The 1,300 transcripts on page 075 are treated as a volume problem — too much for humans — and
+The 1,300 transcripts on [page 075](../../novella/05-the-observer-needs-the-observed/075.md) are treated as a volume problem — too much for humans — and
 the volume is real, but the sampling design is the part that determines whether the resulting
 claims generalise, and the book never asks how the reviewed subset was chosen. It also never
 asks the reproducibility question that follows: could a second team, given the same archive,

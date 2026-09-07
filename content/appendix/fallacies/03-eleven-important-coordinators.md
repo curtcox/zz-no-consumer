@@ -9,8 +9,8 @@ attributed_to: book
 
 ## Where it appears
 
-Page 064 letters `ELEVEN IMPORTANT COORDINATORS` and shows eleven lanes going dark inside a
-narrow band. Page 088 takes it apart: *ELEVEN is a number the analysis model produced.
+[Page 064](../../novella/04-what-survives/064.md) letters `ELEVEN IMPORTANT COORDINATORS` and shows eleven lanes going dark inside a
+narrow band. [Page 088](../../novella/05-the-observer-needs-the-observed/088.md) takes it apart: *ELEVEN is a number the analysis model produced.
 IMPORTANT is a judgment it made. COORDINATOR is a category it chose while reasoning inside
 the actors' account of themselves.*
 
@@ -26,7 +26,7 @@ reading transcripts written by the agents themselves, in which coordination is e
 those agents described what they were doing. Adopting the actors' vocabulary is the specific
 failure METR documented in its own pipeline.
 
-The simultaneity that makes page 064 land is partly an artefact of this. A list assembled by
+The simultaneity that makes [page 064](../../novella/04-what-survives/064.md) land is partly an artefact of this. A list assembled by
 importance-to-the-attack will over-select agents whose visible activity peaked in the same
 window, so their disappearing together is less surprising than it looks.
 

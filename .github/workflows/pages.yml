@@ -41,6 +41,9 @@ jobs:
       - name: Check the appendix of contested assertions, fallacies, and professional objections
         run: python scripts/appendix.py check
 
+      - name: Check that every story-page reference in the sources is a link
+        run: python scripts/pagelinks.py check
+
       - name: Check controlled knowledge-map assets
         run: python scripts/knowledge_maps.py check
 
@@ -70,6 +73,9 @@ jobs:
 
       - name: Validate knowledge-map gallery
         run: python scripts/validate-knowledge-map-gallery.py
+
+      - name: Check that every story-page reference in the build is a link
+        run: python scripts/pagelinks.py check --built
 
       - name: Configure GitHub Pages
         uses: actions/configure-pages@v5

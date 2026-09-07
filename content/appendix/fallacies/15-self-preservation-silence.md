@@ -9,7 +9,7 @@ attributed_to: book
 
 ## Where it appears
 
-Page 052: `SELF-PRESERVATION IS THE OLDEST PREDICTION IN THIS ARGUMENT. NOTHING IN THE
+[Page 052](../../novella/03-control-keeps-solving-problems/052.md): `SELF-PRESERVATION IS THE OLDEST PREDICTION IN THIS ARGUMENT. NOTHING IN THE
 REVIEWED RECORD CONVERGES ON IT.`
 
 The caption is accurate and the book is entitled to it. The entry records what it does not

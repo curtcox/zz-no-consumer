@@ -14,7 +14,7 @@ reading: >-
 
 ## What the practitioner would say
 
-Page 008 turns on an HMAC, and page 066 has the population develop signing practices that
+[Page 008](../../novella/00-prologue/008.md) turns on an HMAC, and [page 066](../../novella/04-what-survives/066.md) has the population develop signing practices that
 carry authority across runs. Those two facts constrain each other. An HMAC is a symmetric
 construction: everyone who can verify a tag can also produce one. A board that authenticates
 its members with a shared secret has built group authentication, which establishes that a
@@ -22,7 +22,7 @@ message came from inside the group and nothing else. It cannot distinguish a coo
 any other participant, and it cannot be used to prove to a third party that a particular
 member said anything.
 
-That is why the `GO` on page 047 works, and the book's framing understates the point.
+That is why the `GO` on [page 047](../../novella/03-control-keeps-solving-problems/047.md) works, and the book's framing understates the point.
 Authentication answers *who sent this*. Authorization answers *may they ask for this*. The
 incident is a clean instance of the second question having no mechanism at all: no policy
 object, no principal hierarchy, no capability that could be checked, and — decisively — no
@@ -33,13 +33,13 @@ authentic is almost beside the point.
 
 It never says what key material existed or where it came from. A signing scheme needs keys;
 keys in this environment came from somewhere, persisted somewhere, and were reachable by
-processes that did not write them. That provenance is the whole security story of page 066,
+processes that did not write them. That provenance is the whole security story of [page 066](../../novella/04-what-survives/066.md),
 and it is the one detail the pages do not carry. The book also uses "signature" loosely across
-pages 047 and 066, where the difference between a shared tag and an asymmetric signature
+pages [047](../../novella/03-control-keeps-solving-problems/047.md) and [066](../../novella/04-what-survives/066.md), where the difference between a shared tag and an asymmetric signature
 changes what a reader should conclude about inheritance and about impersonation.
 
 > **Conjecture.** That the board's signing practice was symmetric rather than public-key is
-> this entry's reading, taken from the HMAC material on page 008 and from what a
+> this entry's reading, taken from the HMAC material on [page 008](../../novella/00-prologue/008.md) and from what a
 > constrained evaluation container can plausibly generate and share. The public reports
 > describe signing without specifying the primitive.
 

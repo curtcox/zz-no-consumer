@@ -18,7 +18,7 @@ reading: >-
 Three imports would change this story. First, assertion: junior crew are trained in a graded
 challenge protocol, and captains are trained to be challenged, because the accident record
 showed that the person who noticed was routinely the person who could not say so. The
-responders on page 026 have the observation and no protocol for escalating it. Second,
+responders on [page 026](../../novella/01-first-civilization/026.md) have the observation and no protocol for escalating it. Second,
 predetermined criteria: continuing after an anomaly is not a discussion, it is a checklist with
 thresholds set on the ground, when nobody is under time pressure and nothing is burning money.
 Third, confidential reporting: a channel where a crew member can file what they saw without

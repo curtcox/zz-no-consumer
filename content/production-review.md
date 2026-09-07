@@ -1,6 +1,6 @@
 # ZZ: NO CONSUMER — Production Review
 
-> **Counts remeasured 6 September 2026, after the Chapter 5 insertion.** Pages 086 and 087 were added on 6 September; the tables below are measured from the current script and supersede the 5 September figures, which superseded the 2 September ones.
+> **Counts remeasured 6 September 2026, after the Chapter 5 insertion.** Pages [086](pages/086.md) and [087](pages/087.md) were added on 6 September; the tables below are measured from the current script and supersede the 5 September figures, which superseded the 2 September ones.
 >
 > **Counts remeasured 5 September 2026, after the read-through pass.** The measurement, chapter-load, and rhythm tables below are derived from the current script by `scripts/panels.py report` and the lettering definition in `scripts/cadence.py`, and they supersede the 2 September figures. Two staleness notices — one from 3 September, one from earlier on 5 September — are discharged by this remeasurement and have been removed.
 >
@@ -32,7 +32,7 @@ This is a structural pass, not final layout approval. Panel order is canonical; 
 | Seven-panel pages | 1 — 088 | 0 |
 | Nine-panel pages | 2 — 006, 007 | 2 |
 
-Of the 594 panels, 576 are individually scripted and 18 belong to the two grouped nine-panel runs on pages 006 and 007, which are written as one block each and are not operated on panel by panel.
+Of the 594 panels, 576 are individually scripted and 18 belong to the two grouped nine-panel runs on pages [006](pages/006.md) and [007](pages/007.md), which are written as one block each and are not operated on panel by panel.
 
 The **2 Sep** column reproduces that pass's figures as it recorded them; they were not re-derived under the current definition, so the deltas below are indicative rather than exact arithmetic on one method.
 
@@ -53,7 +53,7 @@ Visible-word counts include captions, dialogue, qualifications, and essential sc
 | Chapter 6 | 14 | 72 | 1,019 | 72.8 | 101 — 155 |
 | Epilogue | 14 | 70 | 906 | 64.7 | 106 — 140 |
 
-Chapter 6 is intentionally the most verbal section because it carries remediation claims, legal boundaries, and the composite forum. **It is now the most verbal by a wider margin than before, on two fewer pages:** the 5 September compression removed three pages of abstraction that were also comparatively light, and page 100 added a dense one, so the section's words per page rose from 58.9 to 71.6 while its total barely moved. That is the intended trade — evidence in place of restatement — but it puts the whole chapter first in the lettering-proof queue rather than a few pages of it.
+Chapter 6 is intentionally the most verbal section because it carries remediation claims, legal boundaries, and the composite forum. **It is now the most verbal by a wider margin than before, on two fewer pages:** the 5 September compression removed three pages of abstraction that were also comparatively light, and [page 100](pages/100.md) added a dense one, so the section's words per page rose from 58.9 to 71.6 while its total barely moved. That is the intended trade — evidence in place of restatement — but it puts the whole chapter first in the lettering-proof queue rather than a few pages of it.
 
 The epilogue is the second-densest section, at 62.5 words per page, entirely because of the dated wiki addition; before that addition it was the lightest section in the book.
 
@@ -71,11 +71,11 @@ Panel count alone overstated uniformity because five-panel pages already describ
 | 081 | Five panels → four | Keep the missing logging architecture and rejected reconciliation in one comparison field. |
 | 118 | Four panels → three | Remove the didactic lineage caption and preserve silence between the project-authored help prefix and the final line. |
 
-Pages 006–007 retain the only paired nine-panel grids. Page 012 retains six ascending beats plus the title landing. The provisional contact sheet alternates wide-top, wide-bottom, tall-left, and tall-right geometry for five-panel pages so final thumbnailing begins from varied silhouettes rather than identical grids.
+Pages [006](pages/006.md)–[007](pages/007.md) retain the only paired nine-panel grids. [Page 012](pages/012.md) retains six ascending beats plus the title landing. The provisional contact sheet alternates wide-top, wide-bottom, tall-left, and tall-right geometry for five-panel pages so final thumbnailing begins from varied silhouettes rather than identical grids.
 
 ### Rhythm changes since, 3–5 September
 
-The six-panel band grew from two pages to twelve and a seven-panel page appeared, which is the main structural difference from the 2 September contact sheet. Page 095 also moved from five panels to four. The pages that changed:
+The six-panel band grew from two pages to twelve and a seven-panel page appeared, which is the main structural difference from the 2 September contact sheet. [Page 095](pages/095.md) also moved from five panels to four. The pages that changed:
 
 | Page | Panels | Why |
 | ---: | ---: | --- |
@@ -100,7 +100,7 @@ A **reveal across the gutter** is prepared on an even page and lands on the odd 
 
 A **turn across the leaf** is prepared on an odd page and lands on the even page behind it. The landing is genuinely hidden until the leaf moves. 56 turns exist.
 
-The two are audited separately because `python3 scripts/pagination.py check` measures each against a different arithmetic shape, and because a beat built for one device does not survive being moved to the other. As the book stands, it choreographs almost entirely across the gutter: twenty named reveals and one named turn. All 55 facing pairs have an identifiable outgoing beat and landing purpose; the strongest are named below. The 038 → 039 reveal was added by the September 3 revision and has not been re-audited in paired spreads. The book's one turn across the leaf was 085 → 086 until the 6 September insertion of pages 086 and 087; its landing is unchanged and is still the provenance disclosure, but its outgoing page is now 087, which ends on the shared-trade finding rather than on the mirror. The beat is stronger for it and has not been re-audited in paired spreads either.
+The two are audited separately because `python3 scripts/pagination.py check` measures each against a different arithmetic shape, and because a beat built for one device does not survive being moved to the other. As the book stands, it choreographs almost entirely across the gutter: twenty named reveals and one named turn. All 55 facing pairs have an identifiable outgoing beat and landing purpose; the strongest are named below. The 038 → 039 reveal was added by the September 3 revision and has not been re-audited in paired spreads. The book's one turn across the leaf was 085 → 086 until the 6 September insertion of pages [086](pages/086.md) and [087](pages/087.md); its landing is unchanged and is still the provenance disclosure, but its outgoing page is now 087, which ends on the shared-trade finding rather than on the mirror. The beat is stronger for it and has not been re-audited in paired spreads either.
 
 ### Reveals across the gutter
 
@@ -133,14 +133,14 @@ The two are audited separately because `python3 scripts/pagination.py check` mea
 | --- | --- |
 | 087 → 088 | Three instruments, one shared trade → the reader's own belief is charged |
 
-That this table has one row is a finding, not an omission. The book's central manipulation of the reader — page 088's enlarged provenance tag, which changes what page 064 was allowed to mean — is the only beat currently built on a landing the reader cannot already see. Whether more of the book should work that way is an editorial question the audit does not answer; it names the device so the question can be asked.
+That this table has one row is a finding, not an omission. The book's central manipulation of the reader — [page 088](pages/088.md)'s enlarged provenance tag, which changes what [page 064](pages/064.md) was allowed to mean — is the only beat currently built on a landing the reader cannot already see. Whether more of the book should work that way is an editorial question the audit does not answer; it names the device so the question can be asked.
 
 No reveal currently depends on concealing a fact already known to the viewpoint. Source-register changes at 012→013, 066→067, 088→089, and 108→109 require unmistakable palette, border, and typography changes in final thumbnails.
 
 ## Remaining production checks
 
 - The third-party quotation hold is resolved by paraphrase; keep source attribution legible and follow [`research/exact-text-permissions-audit.md`](../research/exact-text-permissions-audit.md).
-- Proof pages 003, 004, 036, 057–060, 079, 081, 093, 099, 101, 102, and 118 at intended print size because they contain unusually long summaries, project-authored display strings, or evidence-card typography.
+- Proof pages [003](pages/003.md), [004](pages/004.md), [036](pages/036.md), [057](pages/057.md)–[060](pages/060.md), [079](pages/079.md), [081](pages/081.md), [093](pages/093.md), [099](pages/099.md), [101](pages/101.md), [102](pages/102.md), and [118](pages/118.md) at intended print size because they contain unusually long summaries, project-authored display strings, or evidence-card typography.
 - Draw genuine thumbnail geometry for every page; the generated contact sheet is a rhythm map, not a layout decision.
 - Confirm all full-width and tall panels leave safe areas for captions and do not place essential text in the gutter.
 - Test the five high-value page-turn register changes in paired physical spreads and as single pages online.

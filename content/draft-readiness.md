@@ -20,10 +20,10 @@ The following work remains before final art and page lock:
 
 1. **Thumbnail and page-turn pass:** lay out every page as recto/verso thumbnails; verify reveals, spreads, gutters, and visual rhythm in physical and digital order.
 2. **Lettering-density pass:** count visible words per panel and page, reduce pages that exceed the intended reading load, and reserve space for source labels that must remain legible.
-3. **Source-language and permissions pass:** the 23 held third-party strings were replaced with attributed paraphrases and the disposition is recorded in [`research/exact-text-permissions-audit.md`](../research/exact-text-permissions-audit.md). Page 118 retains only project-authored exact display language.
+3. **Source-language and permissions pass:** the 23 held third-party strings were replaced with attributed paraphrases and the disposition is recorded in [`research/exact-text-permissions-audit.md`](../research/exact-text-permissions-audit.md). [Page 118](pages/118.md) retains only project-authored exact display language.
 4. **Security and sensitivity pass:** the story scripts pass with final-art controls. [`research/security-sensitivity-review.md`](../research/security-sensitivity-review.md) records the resolved distribution split: a story-first public build and a full private build under Git-ignored `256t/`.
 5. **Visual continuity pass:** palette tokens, creator desk states, population/register transitions, recurring interfaces, and canonical environment geometry are specified in [`design/palette.md`](../design/palette.md) and [`design/visual-continuity.md`](../design/visual-continuity.md). Reference sheets and the eight-page trim proof set remain.
-6. **Prompt and asset pass:** global style, character, environment, and negative prompts are specified; page 001 has a complete five-panel production brief; [`data/assets.yaml`](../data/assets.yaml) tracks the remaining reference sheets and proof assets. Complete later page briefs before generating their final artwork.
+6. **Prompt and asset pass:** global style, character, environment, and negative prompts are specified; [page 001](pages/001.md) has a complete five-panel production brief; [`data/assets.yaml`](../data/assets.yaml) tracks the remaining reference sheets and proof assets. Complete later page briefs before generating their final artwork.
 7. **Dated endnote check:** after the 14 September subpoena deadline and before publication lock, assess only whether a new public fact requires an endnote or corrects a load-bearing claim. Do not silently move the 30 August narrative cutoff.
 8. **Final proof and lock:** validate source links, page metadata, reading order, accessibility text, print dimensions, and the web viewer before changing page status from `review` to `locked`.
 
@@ -31,7 +31,7 @@ No unresolved research question currently blocks the thumbnail or lettering pass
 
 The first structural thumbnail and density pass is recorded in [`content/production-review.md`](./production-review.md). It found no page above the 180-word guideline and revised five conceptual-stop pages for stronger rhythm. Final trim-size proof remains required.
 
-The source-language pass checked all 27 former registrations on 17 pages against their controlling primary locators, then retired all 23 distinct third-party strings in favor of attributed summaries. The two page-118 strings are project-authored.
+The source-language pass checked all 27 former registrations on 17 pages against their controlling primary locators, then retired all 23 distinct third-party strings in favor of attributed summaries. The two [page-118](pages/118.md) strings are project-authored.
 
 The security/sensitivity pass found no runnable exploit procedure, live secret, or unidentified living-person portrayal in the canonical story scripts. Research/source/production material is excluded from the public build and kept in the local `256t/` vault; final art still requires redaction, likeness, organization-mark, and composed-diagram review.
 
@@ -76,7 +76,7 @@ Before the first panel is written:
 - `python3 scripts/pagination.py check` must pass;
 - the page plan must assign every page to a chapter and sequence;
 - the continuity validator must pass without pre-draft warnings;
-- the opening message must be fixed to page 003;
+- the opening message must be fixed to [page 003](pages/003.md);
 - no second-population convention may be assigned to Chapter 1;
 - unresolved factual questions must remain explicitly unresolved.
 

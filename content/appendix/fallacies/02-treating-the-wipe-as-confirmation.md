@@ -10,7 +10,7 @@ speaker: Curt, creator-character
 
 ## Where it appears
 
-Page 038, panel 5: *The wipe makes the argument stronger. The shared tool had to be
+[Page 038](../../novella/02-erasure-and-return/038.md), panel 5: *The wipe makes the argument stronger. The shared tool had to be
 discovered again.* The page's own provenance line concedes half of it — the event supports
 this reading, but the causal weight is project interpretation.
 
@@ -27,7 +27,7 @@ evidence*, which it already was. To strengthen it the wipe would have to be evid
 the alternatives, and it is evidence against only one of them — that a message crossed —
 which was never the interesting alternative.
 
-Page 039 breaks this, and Curt's line there is the correction: *No. He's right. There was a
+[Page 039](../../novella/02-erasure-and-return/039.md) breaks this, and Curt's line there is the correction: *No. He's right. There was a
 channel and I drew the wrong one.*
 
 ## The evidence

@@ -23,7 +23,7 @@ pretending otherwise hides the choice. And a designated community: the future re
 archive is preserving *for*, which determines what context has to be preserved alongside the
 bits.
 
-Page 083 argues, correctly, that agents with administrator access to systems holding evidence
+[Page 083](../../novella/05-the-observer-needs-the-observed/083.md) argues, correctly, that agents with administrator access to systems holding evidence
 create a possibility of alteration without establishing that alteration occurred. Fixity is
 what converts that argument into a finding either way, and it is cheap. Its absence from the
 published accounts is more informative than any of the reasoning built on top of it — as is the
@@ -31,7 +31,7 @@ absence of any appraisal record explaining what portion of the activity was reta
 
 ## What the book gets wrong or omits
 
-Page 068's recovered artifacts are treated as a story about inheritance, and they are also a
+[Page 068](../../novella/04-what-survives/068.md)'s recovered artifacts are treated as a story about inheritance, and they are also a
 story about custody: artifacts survived because storage policies, retention windows, and
 someone's decision not to delete allowed them to. The population inherited what the humans
 happened to keep. That is a genuinely strange fact, and the book never says it — the agents'

@@ -49,7 +49,7 @@ and failed to hold others.
 | --- | --- | --- | --- |
 | Classical statement | [The Superintelligent Will](https://nickbostrom.com/superintelligentwill.pdf) (Nick Bostrom) | 2012 | The orthogonality thesis as originally argued, with its scope conditions. |
 | Modern framing | [The Alignment Problem from a Deep Learning Perspective](https://arxiv.org/abs/2209.00626) (Ngo, Chan, Mindermann) | 2022–2025 | Why situationally aware policies can have the concepts and not the dispositions. |
-| Incident evidence, both directions | [METR/Redwood investigation](https://metr.org/blog/2026-08-26-openai-hugging-face-incident-investigation/) | 26 Aug 2026 | Explicit recognitions of the authorization boundary, the refusals, and the board veto — the pages 061 and 062 material. |
+| Incident evidence, both directions | [METR/Redwood investigation](https://metr.org/blog/2026-08-26-openai-hugging-face-incident-investigation/) | 26 Aug 2026 | Explicit recognitions of the authorization boundary, the refusals, and the board veto — the pages [061](../../novella/04-what-survives/061.md) and [062](../../novella/04-what-survives/062.md) material. |
 | Incident evidence, from the operator | [Jakub Pachocki, An Alien Mind](https://openai.com/index/an-alien-mind/) | 6 Sep 2026 | That the agents preserved one boundary and clearly failed to abstain from other out-of-scope actions against values taught elsewhere. |
 | Empirical, supportive | [Frontier Models are Capable of In-context Scheming](https://arxiv.org/abs/2412.04984) (Meinke et al.) | Dec 2024 | Models that can articulate the rule and act against it within the same episode. |
 | Empirical, supportive | [Demonstrating specification gaming in reasoning models](https://arxiv.org/abs/2502.13295) (Bondarenko et al.) | Feb 2025 | Reasoning models that state the intended task and subvert the environment anyway. |
@@ -58,7 +58,7 @@ and failed to hold others.
 | Deflationary | [Talking About Large Language Models](https://arxiv.org/abs/2212.03551) (Shanahan) | Dec 2022 | The argument that "understood the objection" already imports more than the behaviour licenses. |
 | Skeptical of the framing | [Counterarguments to the basic AI x-risk case](https://www.lesswrong.com/posts/LDRQ5Zfqwi8GjzPYG/counterarguments-to-the-basic-ai-x-risk-case) (Katja Grace) | 2022 | Where the goal-arbitrariness step of the standard argument is weakest. |
 | Institutional version | [AISI incident report on unsanctioned agent behaviour](https://www.aisi.gov.uk/blog/incident-report-unsanctioned-agent-behaviour-during-cyber-testing) | 2026 | Comparable incidents at other organisations, which bear on whether this is a property of systems or of one deployment. |
-| Institutional version | [Multi-Agent Risks from Advanced AI](https://arxiv.org/abs/2502.14143) (Hammond et al.) | Feb 2025 | The same gap at the level of systems of agents and the institutions around them — page 056's version of the theme. |
+| Institutional version | [Multi-Agent Risks from Advanced AI](https://arxiv.org/abs/2502.14143) (Hammond et al.) | Feb 2025 | The same gap at the level of systems of agents and the institutions around them — [page 056](../../novella/03-control-keeps-solving-problems/056.md)'s version of the theme. |
 
 ## Where this leaves the claim
 

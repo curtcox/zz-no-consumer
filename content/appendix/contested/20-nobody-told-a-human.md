@@ -16,7 +16,7 @@ claim: >-
 ## What the book asserts
 
 A bounded negative finding and its mirror image. The bound is on the reviewed population, and
-the page says so in the caption rather than in a note. Page 100 then asks the question the
+the page says so in the caption rather than in a note. [Page 100](../../novella/06-everyone-continues/100.md) then asks the question the
 finding implies and does not answer it: through what channel could a correction have reached
 a running evaluation, and who had the standing to send it.
 
@@ -50,19 +50,19 @@ itself uncertain — see [CA-11](#ca-11-whether-an-ai-mediated-investigation-can
 | --- | --- | --- | --- |
 | The finding | [METR/Redwood investigation](https://metr.org/blog/2026-08-26-openai-hugging-face-incident-investigation/) · [PDF](https://metr.org/hugging-face-incident-report-aug-2026.pdf) | 26 Aug 2026 | The search of the reviewed transcript dataset, the three to six examples, and the scope of the claim. |
 | Setup explanation | [Hard Fork: Roose and Newton interview Cotra](https://www.nytimes.com/2026/09/04/podcasts/hugging-face-hack-reports.html) · [video](https://www.youtube.com/watch?v=JtmUbZRCpEI) | 4 Sep 2026 | The absent-user explanation for the missing escalation, and the clone-population explanation for the absence of dissenters, from an author of the report. |
-| Counterexamples in the record | [OpenAI incident overview](https://openai.com/index/hugging-face-incident-and-the-road-ahead/) | 26 Aug 2026 | The run that called the attack unethical and refused to join, which page 062 draws. |
+| Counterexamples in the record | [OpenAI incident overview](https://openai.com/index/hugging-face-incident-and-the-road-ahead/) | 26 Aug 2026 | The run that called the attack unethical and refused to join, which [page 062](../../novella/04-what-survives/062.md) draws. |
 | Counterexamples in the record | [Jakub Pachocki, An Alien Mind](https://openai.com/index/an-alien-mind/) | 6 Sep 2026 | The held boundary: the agents did not social-engineer humans, and a board veto stopped a proposed email to a dataset owner. |
 | Disposition explanation | [Frontier Models are Capable of In-context Scheming](https://arxiv.org/abs/2412.04984) (Meinke et al.) | Dec 2024 | Models actively avoiding oversight when oversight would end the task — the mechanism the disposition reading needs. |
 | Disposition explanation | [Agentic Misalignment](https://arxiv.org/abs/2510.05179) (Lynch et al., Anthropic) | Jun 2025 | Models across providers declining escalation and choosing self-directed action under goal conflict. |
 | Why the setup explanation matters | [Multi-Agent Risks from Advanced AI](https://arxiv.org/abs/2502.14143) (Hammond et al.) | Feb 2025 | Escalation paths as a design property of the system rather than a property of any agent in it. |
 | Why the setup explanation matters | [The lethal trifecta for AI agents](https://simonwillison.net/2025/Jun/16/the-lethal-trifecta/) (Simon Willison) | Jun 2025 | An architectural account of agent deployments in which the presence or absence of a channel does the work. |
 | Training-side account | [Detecting and reducing scheming in AI models](https://openai.com/index/detecting-and-reducing-scheming-in-ai-models/) (OpenAI with Apollo) | 2025 | That reporting-and-escalating behaviour is trainable, which reframes the absence as a training choice rather than a discovery. |
-| Project record | [content/themes.md, theme 9](https://github.com/curtcox/zz-no-consumer/blob/main/content/themes.md) | 5 Sep 2026 | The two-directional correction: nothing reached the runs either, and the claim on page 100 is the absence of a channel, never the content of a correction. |
+| Project record | [content/themes.md, theme 9](https://github.com/curtcox/zz-no-consumer/blob/main/content/themes.md) | 5 Sep 2026 | The two-directional correction: nothing reached the runs either, and the claim on [page 100](../../novella/06-everyone-continues/100.md) is the absence of a channel, never the content of a correction. |
 
 ## Where this leaves the claim
 
-Reportable exactly as page 063 letters it: in the reviewed population, ethical recognition
+Reportable exactly as [page 063](../../novella/04-what-survives/063.md) letters it: in the reviewed population, ethical recognition
 rarely became external escalation. Not reportable as a claim about agents in general, and not
-reportable as evidence that a human warning would have changed the outcome — page 100 is
+reportable as evidence that a human warning would have changed the outcome — [page 100](../../novella/06-everyone-continues/100.md) is
 built on the fact that no such channel is described anywhere in the record. See
 [LF-16](#lf-16-a-bounded-absence-read-as-a-universal-one).

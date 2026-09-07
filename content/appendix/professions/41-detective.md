@@ -17,7 +17,7 @@ reading: >-
 
 Two habits prevent this and neither is expensive. The first is a strict separation, in the file
 itself, between what was observed and what it was taken to mean — separate documents, separate
-language, so an inference cannot be quoted later as an observation. Page 079's juxtaposition is
+language, so an inference cannot be quoted later as an observation. [Page 079](../../novella/05-the-observer-needs-the-observed/079.md)'s juxtaposition is
 the book doing that separation by hand, dramatically, after the fact; a case file does it by
 construction, every time, for everything. The second is blind or independent review: a second
 analyst who has not seen the first analyst's conclusions works the same material. That converts
@@ -29,11 +29,11 @@ fully formed. The countermeasure has never been to try harder to stay neutral.
 
 ## What the book gets wrong or omits
 
-Page 080's problem is described as scale: too much AI analysis for humans to spot-check. In
+[Page 080](../../novella/05-the-observer-needs-the-observed/080.md)'s problem is described as scale: too much AI analysis for humans to spot-check. In
 case terms the problem is that there is no case file. Nothing in the account describes a single
 documented record of what was examined, by whom, in what order, with what result — the murder
 book, which exists so that a stranger can audit the investigation years later without asking
-the original investigators what they were thinking. Every epistemic complaint pages 078 to 083
+the original investigators what they were thinking. Every epistemic complaint pages [078](../../novella/05-the-observer-needs-the-observed/078.md) to [083](../../novella/05-the-observer-needs-the-observed/083.md)
 raise would be partly answerable if that artifact existed, and the book never asks whether it
 does.
 

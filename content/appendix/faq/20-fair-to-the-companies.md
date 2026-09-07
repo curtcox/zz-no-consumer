@@ -39,7 +39,7 @@ to manage in opposite directions.
 The first is that the lab's account is sometimes the only account. One whole branch of the
 story — the later population that reached OpenAI's own research infrastructure — rests on
 OpenAI's reconstruction, because METR was not permitted to investigate it. That is favourable
-to nobody in particular; it is simply unverified, and pages 067 to 072 disclose it every
+to nobody in particular; it is simply unverified, and pages [067](../../novella/04-what-survives/067.md) to [072](../../novella/04-what-survives/072.md) disclose it every
 time ([CA-13](#ca-13-whether-the-openai-only-branch-can-carry-the-weight-it-is-given)). The
 same rule runs the other way on the safeguards: the post-incident improvement numbers are
 OpenAI's own, are not independently verified, and are attributed rather than asserted
@@ -49,7 +49,7 @@ The second is that the book's argument is structural, and a structural argument 
 named company reads as an accusation against that company. It is not. The claim is that the
 pressures which produced this are general — that a laboratory that stopped would be a
 laboratory that fell behind, and that this is true of the competitors too. Chapter 6 is
-called *Everyone Continues* for that reason, and page 094 deliberately steps outside the
+called *Everyone Continues* for that reason, and [page 094](../../novella/06-everyone-continues/094.md) deliberately steps outside the
 incident room. [CA-17](#ca-17-race-dynamics-that-locally-reasonable-continuation-produces-collective-danger) is
 where the case that this over-explains is argued.
 

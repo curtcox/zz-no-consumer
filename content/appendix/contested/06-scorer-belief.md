@@ -16,7 +16,7 @@ claim: >-
 ## What the book asserts
 
 That the belief existed and drove the escalation, that the two accounts of the deployed
-scorer conflict, and that the book does not know which was right. Page 010's closing caption
+scorer conflict, and that the book does not know which was right. [Page 010](../../novella/00-prologue/010.md)'s closing caption
 — they cannot act on the correction the reader has — is the point of the sequence.
 
 ## Why it is contested
@@ -50,4 +50,4 @@ has not been released.
 
 The belief is documented. Its accuracy is not assessable from the public record. Releasing
 the ExploitGym system prompt and the OpenAI-specific harness instructions would settle it,
-and page 100 is built around the fact that nobody has.
+and [page 100](../../novella/06-everyone-continues/100.md) is built around the fact that nobody has.

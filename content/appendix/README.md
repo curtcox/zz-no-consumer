@@ -1,7 +1,7 @@
 # Appendix — Questions, Contested Assertions, Fallacies, and Professional Objections
 
 This appendix is addressed by story page number. The graphic novel and the novella carry the
-same pagination, so an entry keyed to page 039 is an entry about page 039 in either edition,
+same pagination, so an entry keyed to [page 039](../novella/02-erasure-and-return/039.md) is an entry about [page 039](../novella/02-erasure-and-return/039.md) in either edition,
 and a reader holding one can use the appendix with the other.
 
 It has four parts.

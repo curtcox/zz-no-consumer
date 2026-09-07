@@ -23,8 +23,8 @@ true. It is not evidence in the sense the word carries in an assurance report, a
 difference is not rhetorical: an assurance opinion names the standard, the period, the
 exceptions found, and the firm accepting liability for the opinion.
 
-Page 092's institutional lessons are the auditable half — isolation, monitoring, escalation
-rules are all controls with testable operation — and page 095's selective pause is the
+[Page 092](../../novella/06-everyone-continues/092.md)'s institutional lessons are the auditable half — isolation, monitoring, escalation
+rules are all controls with testable operation — and [page 095](../../novella/06-everyone-continues/095.md)'s selective pause is the
 strongest evidence in the chapter precisely because it is an observable change in behaviour
 rather than a claimed rate.
 

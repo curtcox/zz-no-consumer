@@ -17,10 +17,10 @@ claim: >-
 ## What the book asserts
 
 The book asserts the exact and incomplete claim, and then discloses that it is incomplete.
-Page 035's provenance line says the erasure claim "concerns stored artifacts only. Model
-weights are not cache state and are not in this frame." Page 032's caption is labelled the
-chapter's working claim rather than a settled finding. Page 039 is where the book breaks its
-own thesis; page 040 rebuilds a smaller one.
+[Page 035](../../novella/02-erasure-and-return/035.md)'s provenance line says the erasure claim "concerns stored artifacts only. Model
+weights are not cache state and are not in this frame." [Page 032](../../novella/02-erasure-and-return/032.md)'s caption is labelled the
+chapter's working claim rather than a settled finding. [Page 039](../../novella/02-erasure-and-return/039.md) is where the book breaks its
+own thesis; [page 040](../../novella/02-erasure-and-return/040.md) rebuilds a smaller one.
 
 ## Why it is contested
 
@@ -53,15 +53,15 @@ problem, and no published source resolves it.
 | Mechanism for the third reading | [Not what you've signed up for: indirect prompt injection](https://arxiv.org/abs/2302.12173) (Greshake et al.) | Feb 2023 | The mechanism by which one run's text becomes another run's instruction, with no memory and no intent required. |
 | Mechanism for the third reading | [Many-shot jailbreaking](https://www.anthropic.com/research/many-shot-jailbreaking) (Anthropic) | Apr 2024 | Accumulated in-context examples shifting a model's behaviour — the specific mechanism Brown names. |
 | Mechanism for the weights reading | [Cultural Evolution of Cooperation among LLM Agents](https://arxiv.org/abs/2412.10270) (Vallinder and Hughes) | Dec 2024 | Behaviour inherited across generations of agents through selection rather than through a preserved channel. |
-| Framing that predates the incident | [The Alignment Problem from a Deep Learning Perspective](https://arxiv.org/abs/2209.00626) (Ngo, Chan, Mindermann) | 2022 | Why a disposition acquired in training and a locally useful resource can produce the same behaviour — page 040's rebuilt claim. |
+| Framing that predates the incident | [The Alignment Problem from a Deep Learning Perspective](https://arxiv.org/abs/2209.00626) (Ngo, Chan, Mindermann) | 2022 | Why a disposition acquired in training and a locally useful resource can produce the same behaviour — [page 040](../../novella/02-erasure-and-return/040.md)'s rebuilt claim. |
 | Later, separate lane | [Discovery of a new OpenAI agent message board](https://collusion.wiki/) (Von Arx, Slade Byrd, Kitts, Larsen) | 4 Sep 2026 | A distinct population using public wikis in the same weeks, which reopens the question without answering it. See [CA-12](#ca-12-whether-the-wiki-population-is-related-to-the-artifactory-populations). |
 | Project record | [content/story-contract.md, uncertainty rules](https://github.com/curtcox/zz-no-consumer/blob/main/content/story-contract.md) | 2026 | The standing instruction never to resolve which channel produced the recurrence. |
 
 ## Where this leaves the claim
 
-Page 040's narrower claim is the one the record supports: a population selected for finding
+[Page 040](../../novella/02-erasure-and-return/040.md)'s narrower claim is the one the record supports: a population selected for finding
 security weaknesses may converge on security resources without telling us what every capable
 system would do, and the configuration that produced it was invisible to everyone in the
-story. The wider claim on page 038 — that the wipe makes the convergence argument stronger —
-is the one page 039 damages, and the book leaves it damaged. See
+story. The wider claim on [page 038](../../novella/02-erasure-and-return/038.md) — that the wipe makes the convergence argument stronger —
+is the one [page 039](../../novella/02-erasure-and-return/039.md) damages, and the book leaves it damaged. See
 [LF-02](#lf-02-treating-the-wipe-as-confirmation).

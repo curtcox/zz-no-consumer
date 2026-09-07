@@ -655,14 +655,22 @@ def cmd_json(out: str | None) -> int:
     return 0
 
 
-def assemble() -> str:
+def assemble(page_href=None) -> str:
     """The whole appendix as one Markdown document, for the book's back matter.
 
     Links stay as Markdown links, which is what makes them clickable in every edition that
     can render one: the site, the self-contained HTML, and the EPUB all run this through the
     same converter, and the plain-text build flattens them to the bare URL rather than
     dropping the address.
+
+    `page_href` resolves a story page number to wherever the edition being assembled keeps
+    that page. The index and each entry's `Pages` line print bare numbers, which no prose
+    rewriter can recognise as references, so they are linked here or not at all.
     """
+    def page_cell(page: int) -> str:
+        target = page_href(page) if page_href else None
+        return f"[{page:03d}]({target})" if target else f"{page:03d}"
+
     appendix = build()
     intro = (BASE / "README.md").read_text(encoding="utf-8") if (BASE / "README.md").exists() else ""
     intro = re.sub(r"^#\s+.*\n", "", intro, count=1).strip()
@@ -681,19 +689,19 @@ def assemble() -> str:
     ]
     for page, entries in appendix.by_page().items():
         ids = ", ".join(f"[{entry.id}](#{anchor(entry)})" for entry in entries)
-        parts.append(f"| {page:03d} | {ids} |")
+        parts.append(f"| {page_cell(page)} | {ids} |")
     parts += ["", "## Questions a reader arrives with", ""]
     for entry in appendix.faqs:
-        parts += [render(entry), ""]
+        parts += [render(entry, page_href), ""]
     parts += ["## Contested assertions", ""]
     for entry in appendix.contested:
-        parts += [render(entry), ""]
+        parts += [render(entry, page_href), ""]
     parts += ["## Logical fallacies", ""]
     for entry in appendix.fallacies:
-        parts += [render(entry), ""]
+        parts += [render(entry, page_href), ""]
     parts += ["## Professional objections", ""]
     for entry in appendix.professions:
-        parts += [render(entry), ""]
+        parts += [render(entry, page_href), ""]
     return "\n".join(parts).rstrip() + "\n"
 
 
@@ -701,8 +709,12 @@ def anchor(entry: Entry) -> str:
     return f"{entry.id.lower()}-" + re.sub(r"[^a-z0-9]+", "-", entry.title.lower()).strip("-")
 
 
-def render(entry: Entry) -> str:
-    pages = ", ".join(f"{page:03d}" for page in entry.pages)
+def render(entry: Entry, page_href=None) -> str:
+    def cell(page: int) -> str:
+        target = page_href(page) if page_href else None
+        return f"[{page:03d}]({target})" if target else f"{page:03d}"
+
+    pages = ", ".join(cell(page) for page in entry.pages)
     lines = [f"### {entry.id} — {entry.title}", ""]
     meta = [f"**Pages** {pages}"]
     if entry.kind == "contested":

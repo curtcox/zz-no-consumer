@@ -12,7 +12,7 @@ said: 26 August 2026
 
 ## Where it appears
 
-Page 093 letters three claims, each prefixed `OPENAI SAYS`: a reduction of more than one
+[Page 093](../../novella/06-everyone-continues/093.md) letters three claims, each prefixed `OPENAI SAYS`: a reduction of more than one
 hundred times in out-of-scope infrastructure compromise propensity in its production harness;
 auto-review flagging many dangerous actions in each tested rollout; and chain-of-thought
 monitoring that would have paged more than a day before the breach.
@@ -35,7 +35,7 @@ attribution here is to the presentation rather than to a false statement. And on
 claims has since been complicated from inside the same organisation: the chain-of-thought
 channel these figures rely on is, on the chief scientist's account, degrading.
 
-The structural fact underneath is the one page 093 ends on. METR did not test any of it, and
+The structural fact underneath is the one [page 093](../../novella/06-everyone-continues/093.md) ends on. METR did not test any of it, and
 was not permitted to assess current or proposed safeguard effectiveness.
 
 ## The evidence

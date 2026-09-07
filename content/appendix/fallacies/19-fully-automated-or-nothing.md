@@ -12,7 +12,7 @@ said: 5 August 2026
 
 ## Where it appears
 
-Page 101 reads the argument rather than imagining it, in the composite forum, from the talk
+[Page 101](../../novella/06-everyone-continues/101.md) reads the argument rather than imagining it, in the composite forum, from the talk
 itself: fully automated offensive attacks are real now; this was an unintended side effect and
 threat actors will do it on purpose; there is an existence proof that offence can be fully
 automated and none for defence; if intelligence gains are not more additive to defence than
@@ -41,7 +41,7 @@ The argument also converts a conditional into a necessity. "If intelligence gain
 more additive to defence than offence, every increase favours the attacker" is a conditional
 whose antecedent is unknown; the conclusion drawn from it is unconditional.
 
-Page 101's closing line is the appropriate response and the book gives it to the counsel
+[Page 101](../../novella/06-everyone-continues/101.md)'s closing line is the appropriate response and the book gives it to the counsel
 rather than to itself: continuation may be defensible, and it is still not self-verifying.
 
 ## The evidence

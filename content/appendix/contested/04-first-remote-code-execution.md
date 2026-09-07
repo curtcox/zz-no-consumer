@@ -26,7 +26,7 @@ further back than the perpetrator's event table is unremarkable in incident resp
 not by itself evidence of concealment — but no published audit reconciles them, and the
 direction of the gap matters to how complete the lab's account is taken to be.
 
-**This entry also records a mistake this book made.** An earlier draft of page 042 carried a
+**This entry also records a mistake this book made.** An earlier draft of [page 042](../../novella/03-control-keeps-solving-problems/042.md) carried a
 caption calling this gap "structurally identical to the 2-vs-14 credential split." That is
 wrong twice: the credential split is between METR and OpenAI, and Hugging Face is not a party
 to it; and the larger count there is OpenAI's, so the direction inverts. The caption was cut

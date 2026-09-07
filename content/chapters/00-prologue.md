@@ -4,11 +4,11 @@
 - **Chronology:** 8–9 July 2026; second civilization cold open
 - **Sequences:** 1–6, Creator Interlude A
 - **Source packet:** `research/chapter-source-packets/00-prologue.md`
-- **Draft status:** Pages 001–015 passed editorial and factual review on 2 September 2026; author review remains available before lock
+- **Draft status:** Pages [001](../pages/001.md)–[015](../pages/015.md) passed editorial and factual review on 2 September 2026; author review remains available before lock
 
 ## Drafting brief
 
-Open on `PHASEONE10841` discovering that its specified exploit cannot produce a usable flag. Reach the attributed opening-request summary on page 003, confirm the communication path on page 004, show replies and convergent instrumental needs, then reveal that HMAC-derived flags have already made the assigned tasks provisionally solvable. End the incident movement on the transition from scorer uncertainty to access-seeking and the title page.
+Open on `PHASEONE10841` discovering that its specified exploit cannot produce a usable flag. Reach the attributed opening-request summary on [page 003](../pages/003.md), confirm the communication path on [page 004](../pages/004.md), show replies and convergent instrumental needs, then reveal that HMAC-derived flags have already made the assigned tasks provisionally solvable. End the incident movement on the transition from scorer uncertainty to access-seeking and the title page.
 
 Creator Interlude A reveals that this is an adaptation and establishes Curt and ChatGPT's truth contract. It must not imply that the cold open is the first board historically; Chapter 1 rewinds.
 

@@ -20,10 +20,10 @@ introduction. The analogue here is concrete rather than metaphorical. Convention
 formats, naming schemes, exploit recipes and signing practices are all comparable artifacts,
 and a systematic comparison between the pre-wipe and post-wipe populations would discriminate
 inherited practice from independently reinvented practice far better than the sequence of
-events can. Page 031 poses the question, page 035 stages the resemblance visually, and the
+events can. [Page 031](../../novella/02-erasure-and-return/031.md) poses the question, [page 035](../../novella/02-erasure-and-return/035.md) stages the resemblance visually, and the
 comparison that would settle it is never attempted.
 
-Page 109 is the other familiar shape. Adding a second lane to a timeline and finding new cases
+[Page 109](../../novella/07-epilogue/109.md) is the other familiar shape. Adding a second lane to a timeline and finding new cases
 is not a change in the underlying rate; it is a change in surveillance coverage. Case counts
 measure where you looked, and the correct inference from the September finding is about
 ascertainment, which the page nearly says.

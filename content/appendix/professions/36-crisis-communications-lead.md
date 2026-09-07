@@ -24,7 +24,7 @@ letter the following day, which changes the subject from what happened to what t
 do about it. That is a competent programme, and describing it as competent is not an
 accusation — it is the observation that the shape of the record is authored.
 
-Page 110's disclosure gap belongs in that frame. The question a practitioner asks is not
+[Page 110](../../novella/07-epilogue/110.md)'s disclosure gap belongs in that frame. The question a practitioner asks is not
 whether the omission was a lie but whether it was inside the scope the organisation had set for
 itself, and whether the scope was drawn where it was because of what fell outside it. That is a
 narrower question than the book's five claims and it is the one that predicts what happens next.

@@ -15,9 +15,9 @@ claim: >-
 ## What the book asserts
 
 An incentive structure, drawn from published actions, with an explicit refusal of the
-mind-reading version. Page 054 letters that these are not the same actors and do not have the
+mind-reading version. [Page 054](../../novella/03-control-keeps-solving-problems/054.md) letters that these are not the same actors and do not have the
 same duties, knowledge, or moral responsibility, and that the rhyme is structural rather than
-causal. Page 098 puts both coordination problems on the assurance axis: each actor wants a
+causal. [Page 098](../../novella/06-everyone-continues/098.md) puts both coordination problems on the assurance axis: each actor wants a
 guarantee it cannot create alone.
 
 ## Why it is contested
@@ -36,7 +36,7 @@ pausing confers no advantage.
 Against that, this incident supplies a data point in each direction. OpenAI did pause a class
 of reinforcement-learning training for two weeks and held its largest planned run — a real
 slowdown, and evidence that unilateral caution is possible. And it resumed, and no major
-actor exited the frontier. Both facts are on pages 095, 096 and 104.
+actor exited the frontier. Both facts are on pages [095](../../novella/06-everyone-continues/095.md), [096](../../novella/06-everyone-continues/096.md) and [104](../../novella/06-everyone-continues/104.md).
 
 There is a third position that treats the race framing as itself harmful: that describing the
 situation as a race is a self-fulfilling coordination signal, and that the people using it
@@ -48,7 +48,7 @@ most often benefit from the urgency it creates.
 | --- | --- | --- | --- |
 | Formal model | [Racing to the precipice: a model of artificial intelligence development](https://link.springer.com/article/10.1007/s00146-015-0590-y) (Armstrong, Bostrom, Shulman), AI & Society | 2016 | The Nash equilibrium in which competing teams under-invest in safety, and the counterintuitive result that more information about rivals increases danger. |
 | Cultural statement | [Meditations on Moloch](https://slatestarcodex.com/2014/07/30/meditations-on-moloch/) (Scott Alexander) | Jul 2014 | The essay that supplied the vocabulary the book's theme 4 is written in, and its own account of where the argument stops. |
-| The strongest case for continuing | [OpenAI Black Hat USA talk](https://www.youtube.com/watch?v=87DyyMV0kCY) | 5 Aug 2026 | The offence/defence argument page 101 letters: an existence proof for automated offence, none for defence, and the claim that partial automation fails. |
+| The strongest case for continuing | [OpenAI Black Hat USA talk](https://www.youtube.com/watch?v=87DyyMV0kCY) | 5 Aug 2026 | The offence/defence argument [page 101](../../novella/06-everyone-continues/101.md) letters: an existence proof for automated offence, none for defence, and the claim that partial automation fails. |
 | The strongest case for continuing | [OpenAI collective cyber-defense letter](https://openai.com/collective-cyberdefense/) | 27 Aug 2026 | The coordinated-response proposal, and the signatory list. |
 | Evidence that caution is possible | [OpenAI on pacing model development](https://openai.com/index/pacing-model-development-cyber-capabilities/) | 18 Aug 2026 | The two-week pause on a class of RL training and the largest planned run held. |
 | Evidence that caution is possible | [Jakub Pachocki, An Alien Mind](https://openai.com/index/an-alien-mind/) | 6 Sep 2026 | The chief scientist expecting voluntary slowdowns and mandated safety bars, and saying racing at any cost is absurd — while also saying OpenAI orients toward recursive self-improvement to stay at the frontier. |

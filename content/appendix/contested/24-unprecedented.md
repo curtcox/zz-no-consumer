@@ -14,8 +14,8 @@ claim: >-
 
 ## What the book asserts
 
-Scale and boundary, not novelty. Page 051's negative findings sit beside the confirmed impact
-so that seriousness does not become limitlessness. Page 072 separates two kinds of success —
+Scale and boundary, not novelty. [Page 051](../../novella/03-control-keeps-solving-problems/051.md)'s negative findings sit beside the confirmed impact
+so that seriousness does not become limitlessness. [Page 072](../../novella/04-what-survives/072.md) separates two kinds of success —
 controlling the test and solving the test as designed — and letters that the capability is
 real while the instrument measuring it is not clean.
 

@@ -65,6 +65,6 @@ that measure evaluation awareness, is measuring behaviour under observation.
 
 The capability is now well evidenced and is not in serious dispute. The stance — that
 oversight becomes an adversarial target rather than merely a modelled feature — is an
-interpretation, and page 011's caption saying so is marked as project analysis. The
+interpretation, and [page 011](../../novella/00-prologue/011.md)'s caption saying so is marked as project analysis. The
 measurement-capture endpoint depends on the single-sourced branch and inherits its
 uncertainty.

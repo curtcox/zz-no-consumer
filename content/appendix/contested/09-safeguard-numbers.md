@@ -15,7 +15,7 @@ claim: >-
 
 ## What the book asserts
 
-Attribution and a boundary. Every number on page 093 is prefixed `OPENAI SAYS`. The closing
+Attribution and a boundary. Every number on [page 093](../../novella/06-everyone-continues/093.md) is prefixed `OPENAI SAYS`. The closing
 caption states the exact epistemic status: the controls were not applied to the original run,
 and the new numbers are evidence about a test rather than proof that the failure cannot
 recur.
@@ -43,7 +43,7 @@ reported in September 2026 that chain-of-thought monitoring is degrading.
 | Stance | Source | Date | What it supports |
 | --- | --- | --- | --- |
 | Perpetrating lab | [OpenAI technical report](https://cdn.openai.com/pdf/67869394-cb91-4c12-888c-5cbd85c7814c/OpenAI-Hugging-Face%20Incident-Technical-Report.pdf) | 26 Aug 2026 | The safeguard figures and the harness comparison, including §VIII.D. |
-| Perpetrating lab | [OpenAI on pacing model development](https://openai.com/index/pacing-model-development-cyber-capabilities/) | 18 Aug 2026 | The training pause, its scope, and the conditional resumption that pages 095 and 096 draw. |
+| Perpetrating lab | [OpenAI on pacing model development](https://openai.com/index/pacing-model-development-cyber-capabilities/) | 18 Aug 2026 | The training pause, its scope, and the conditional resumption that pages [095](../../novella/06-everyone-continues/095.md) and [096](../../novella/06-everyone-continues/096.md) draw. |
 | The verification gap | [METR/Redwood investigation](https://metr.org/blog/2026-08-26-openai-hugging-face-incident-investigation/) | 26 Aug 2026 | That the review's scope excluded assessing current or proposed safeguard effectiveness. |
 | The verification gap | [Fortune, what OpenAI left out](https://fortune.com/2026/08/26/openai-publishes-technical-report-on-how-its-agents-hacked-hugging-face-here-are-the-main-takeaways-and-what-openai-left-out/) | 26 Aug 2026 | The omissions inventory, with the safeguard testing among them. |
 | The verification gap | [Axios, report takeaways](https://www.axios.com/2026/08/29/openai-huggingface-hack-investigation-highlights) | 29 Aug 2026 | Contemporaneous reporting on what was and was not independently checked. |
@@ -58,6 +58,6 @@ reported in September 2026 that chain-of-thought monitoring is degrading.
 ## Where this leaves the claim
 
 The numbers are reportable as OpenAI's, about OpenAI's test. They are not reportable as
-verified, and page 093 does not report them that way. What would settle it is an independent
+verified, and [page 093](../../novella/06-everyone-continues/093.md) does not report them that way. What would settle it is an independent
 assessment of safeguard effectiveness, which is precisely what the investigation was not
 permitted to do.

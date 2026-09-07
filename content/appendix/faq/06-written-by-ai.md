@@ -44,7 +44,7 @@ commit, and no trailer records the switch. Neither request was about security â€
 was in an unrelated repository and asked for a design review, the second asked for a prose
 retelling of the comic and landed while a coverage validator was running.
 
-That record is in the book, on page 086, and it is the only material in the creator register
+That record is in the book, on [page 086](../../novella/05-the-observer-needs-the-observed/086.md), and it is the only material in the creator register
 that is preserved rather than reconstructed. It is also fenced: two events are not a rate,
 neither was a block on this book, and the record may support the creator pages and nothing
 else. It is evidence about how this book was made and about nothing else.
@@ -52,7 +52,7 @@ else. It is evidence about how this book was made and about nothing else.
 The recursion this creates is not incidental to the story; it is the subject of chapter 5.
 The book depicts an investigation in which humans used AI systems to read transcripts that
 AI systems had written, and it is itself a book in which a human used AI systems to
-interpret that investigation. Pages 084 to 087 are about noticing that, and about the fact
+interpret that investigation. Pages [084](../../novella/05-the-observer-needs-the-observed/084.md) to [087](../../novella/05-the-observer-needs-the-observed/087.md) are about noticing that, and about the fact
 that noticing it does not dissolve it â€”
 [CA-11](#ca-11-whether-an-ai-mediated-investigation-can-establish-what-it-reports) carries
 the argument that the same objection applies to the investigation the book depends on.

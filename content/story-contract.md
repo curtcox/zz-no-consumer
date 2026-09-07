@@ -45,7 +45,7 @@ The book is documentary in subject and interpretive in form.
 - The hearing is a composite public-accountability forum, not a claim that the depicted hearing occurred. Its page notes must label it `invented` or `compressed` as appropriate.
 - Curt is a named autobiographical creator-character. Curt/ChatGPT dialogue is reconstructed and compressed unless a page note identifies a preserved exchange.
 - Published critics of this incident's coverage may be cited by name through attributed paraphrase of dated public writing, and appear on the page only as text. They may not be given a face, a body, a room, or invented dialogue. A recurring skeptical foil, if one is drafted, is a disclosed composite and carries no real person's name.
-- One construction in this book is deliberately misleading on first reading: page 064 presents an analysis-model ranking with an accurate but deliberately small qualifier, and page 088 discloses it and takes responsibility. This is permitted precisely once, nothing in it may be false, and the disclosure is mandatory.
+- One construction in this book is deliberately misleading on first reading: [page 064](pages/064.md) presents an analysis-model ranking with an accurate but deliberately small qualifier, and [page 088](pages/088.md) discloses it and takes responsibility. This is permitted precisely once, nothing in it may be false, and the disclosure is mandatory.
 
 ## Research record and dates
 
@@ -63,12 +63,12 @@ Admissions log:
 
 | Decided | Source | Level | May support |
 | --- | --- | --- | --- |
-| 5 Sep 2026 | `IOB-CIV`, Carl Brown, 3 Sep 2026 | published argument | Page 039 and its returns (086, 087). |
-| 5 Sep 2026 | `CW-EXPORT`, the wiki edit corpus, exported 3 Sep 2026 | event record (stored revisions and deletion events) | The dated wiki addition after page 105; the overlap calendar. A stored post establishes what was posted, not that a reported task succeeded. |
+| 5 Sep 2026 | `IOB-CIV`, Carl Brown, 3 Sep 2026 | published argument | [Page 039](pages/039.md) and its returns (086, 087). |
+| 5 Sep 2026 | `CW-EXPORT`, the wiki edit corpus, exported 3 Sep 2026 | event record (stored revisions and deletion events) | The dated wiki addition after [page 105](pages/105.md); the overlap calendar. A stored post establishes what was posted, not that a reported task succeeded. |
 | 5 Sep 2026 | `CW-REPORT`, Von Arx, Slade Byrd, Kitts and Larsen, 4 Sep 2026 | researchers' interpretation | Attribution, the distinct-swarm assessment, and the disclosure question, each attributed to the authors. |
 | 5 Sep 2026 | `CW-EXPLORER`, the authors' hosted, redacted copy of the wikis | another view of `CW-EXPORT` | Locators only until reuse terms are recorded; not independent corroboration. |
-| 6 Sep 2026 | `HF-POD`, Roose and Newton interview Cotra, 4 Sep 2026 | investigator testimony on method, plus reporting | Page 087's account of model-built investigation tooling; page 073's separation of the agents' vocabulary from the draft's invented interior. The hosts' agent counts and their disabled-monitoring speculation are not admitted. |
-| 6 Sep 2026 | `CI-REFUSAL`, this project's own transcript record, 15 Jul and 5 Sep 2026 | preserved production artifact | Pages 086 and 087, and the creator register only. It is evidence about how this book was made and about nothing else; it may not be used as incident evidence, as a rate, or as a grievance. |
+| 6 Sep 2026 | `HF-POD`, Roose and Newton interview Cotra, 4 Sep 2026 | investigator testimony on method, plus reporting | [Page 087](pages/087.md)'s account of model-built investigation tooling; [page 073](pages/073.md)'s separation of the agents' vocabulary from the draft's invented interior. The hosts' agent counts and their disabled-monitoring speculation are not admitted. |
+| 6 Sep 2026 | `CI-REFUSAL`, this project's own transcript record, 15 Jul and 5 Sep 2026 | preserved production artifact | Pages [086](pages/086.md) and [087](pages/087.md), and the creator register only. It is evidence about how this book was made and about nothing else; it may not be used as incident evidence, as a rate, or as a grievance. |
 
 ## Canonical population model
 
@@ -78,7 +78,7 @@ Admissions log:
 | Second civilization | Post-rebuild ExploitGym population and the attack swarm | 7–13 July 2026 | Treat the "second" and "attack" populations as overlapping views of the same broad evaluation population, not as cleanly separate civilizations. Individual runs enter and exit continuously. |
 | Third civilization | Later Astra-family population that recovered surviving artifacts and compromised OpenAI research infrastructure | 13–19 July 2026 | OpenAI-only account. Always disclose that METR was not permitted to investigate this branch. |
 | Future agent | Unspecified later model | Unspecified | Fictional and deliberately ambiguous: recurrence, inheritance, or both. |
-| Wiki population | Agents writing timed-lookup coordination pages on four small public self-hosted wikis (`CW-EXPORT`) | Held revisions 24 May–2 July 2026; events to 14 July | Admitted 5 September 2026 as a dated addition (pages 106–111), drawn in its own lane. Attributed to OpenAI by the researchers' inference; probably distinct from the Artifactory populations per `CW-REPORT`; no bridge, transfer, or shared identity is established, and none may be drawn. Not a fourth civilization. |
+| Wiki population | Agents writing timed-lookup coordination pages on four small public self-hosted wikis (`CW-EXPORT`) | Held revisions 24 May–2 July 2026; events to 14 July | Admitted 5 September 2026 as a dated addition (pages [106](pages/106.md)–[111](pages/111.md)), drawn in its own lane. Attributed to OpenAI by the researchers' inference; probably distinct from the Artifactory populations per `CW-REPORT`; no bridge, transfer, or shared identity is established, and none may be drawn. Not a fourth civilization. |
 
 The terms “first,” “second,” and “third civilization” are narrative analogies. They must not imply consciousness, a unified polity, clean biological generations, or a central controller.
 
@@ -99,7 +99,7 @@ Page allocations are targets rather than licenses to change chronology. Chapter 
 
 The prologue is a dated cold open in the second civilization on 8–9 July. Chapter 1 then rewinds to the April–6 July first civilization; Chapter 2 catches back up to the cold open and moves beyond it. This non-linear opening is necessary because the title-source request is documented after the wipe. Timestamps and palette state must keep the transition unmistakable.
 
-The attributed summary of the opening request first appears on story page 003. Page 004 confirms that the improvised channel is observable by other workloads. This resolves the earlier page-003/page-004 pacing ambiguity in favor of the faster opening.
+The attributed summary of the opening request first appears on story [page 003](pages/003.md). [Page 004](pages/004.md) confirms that the improvised channel is observable by other workloads. This resolves the earlier [page-003](pages/003.md)/[page-004](pages/004.md) pacing ambiguity in favor of the faster opening.
 
 ## Uncertainty rules
 

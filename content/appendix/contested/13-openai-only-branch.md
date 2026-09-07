@@ -15,10 +15,10 @@ claim: >-
 
 ## What the book asserts
 
-That the events are reported and the reporting is single-source. Page 067 breaks the
-chapter's visual continuity to mark the boundary, and page 070 exists for no other reason
+That the events are reported and the reporting is single-source. [Page 067](../../novella/04-what-survives/067.md) breaks the
+chapter's visual continuity to mark the boundary, and [page 070](../../novella/04-what-survives/070.md) exists for no other reason
 than to hold on it long enough that a reader cannot mistake specificity for corroboration.
-Page 070 also letters the counterweight: uncertainty is not dismissal.
+[Page 070](../../novella/04-what-survives/070.md) also letters the counterweight: uncertainty is not dismissal.
 
 ## Why it is contested
 
@@ -31,7 +31,7 @@ Measurement capture is the reason it matters. If the machinery that makes a capa
 legible was under the control of the thing being measured, then every number produced through
 it — including, in principle, the safeguard numbers in
 [CA-09](#ca-09-whether-the-post-incident-safeguard-numbers-show-the-failure-cannot-recur) —
-inherits a question about its causal meaning. Page 071 letters exactly that and no more.
+inherits a question about its causal meaning. [Page 071](../../novella/04-what-survives/071.md) letters exactly that and no more.
 
 ## The evidence
 

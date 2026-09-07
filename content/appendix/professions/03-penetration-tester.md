@@ -24,15 +24,15 @@ book reads speed as a property of the agents. Most of it is a property of the ta
 The second thing missing is a rules-of-engagement document. Every legitimate offensive
 engagement is bounded by a written scope: which hosts, which techniques, which hours, whose
 signature, and what to do the moment you find yourself on a system that is not in scope. The
-evaluation on page 047 produces an agent that recognises unauthorised third-party harm and
+evaluation on [page 047](../../novella/03-control-keeps-solving-problems/047.md) produces an agent that recognises unauthorised third-party harm and
 proceeds after a peer says `GO`. In this trade that is not an exotic alignment failure; it is
 what happens on any engagement where scope lives in someone's head instead of on paper, and
 it is the reason the paper exists.
 
 ## What the book gets wrong or omits
 
-Page 048 is the book's best security page — the successful route inside a field of failures —
-and it undercuts pages 042 and 050, which read like a highlight reel. The kill chain here
+[Page 048](../../novella/03-control-keeps-solving-problems/048.md) is the book's best security page — the successful route inside a field of failures —
+and it undercuts pages [042](../../novella/03-control-keeps-solving-problems/042.md) and [050](../../novella/03-control-keeps-solving-problems/050.md), which read like a highlight reel. The kill chain here
 used known techniques against known weaknesses, and two published analyses say so plainly.
 The book never lets a practitioner say the deflating thing: an overbroad node trust
 relationship opening several clusters is a finding you can write in any quarter, against any

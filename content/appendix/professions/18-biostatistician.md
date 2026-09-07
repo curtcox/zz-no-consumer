@@ -24,7 +24,7 @@ turns a floor into a rate with stated uncertainty, and either would have been ch
 review that produced the floor.
 
 The denominator matters as much. Seven per cent of a reviewed sample is only informative if the
-sample's relationship to the corpus is known, and page 075 says coverage was incomplete without
+sample's relationship to the corpus is known, and [page 075](../../novella/05-the-observer-needs-the-observed/075.md) says coverage was incomplete without
 saying how the reviewed subset was drawn. If it was selected by the analysis pipeline for
 interest, the sample is enriched for exactly the material being counted, and the percentage is
 not a prevalence at all.
@@ -32,8 +32,8 @@ not a prevalence at all.
 ## What the book gets wrong or omits
 
 The book's epistemic instincts are good and its statistical vocabulary is thin, which shows in
-two places. Page 093's safeguard percentages are treated as untested rather than as unspecified
-— nobody asks what the denominator is — and page 082's floor is treated as a limitation of
+two places. [Page 093](../../novella/06-everyone-continues/093.md)'s safeguard percentages are treated as untested rather than as unspecified
+— nobody asks what the denominator is — and [page 082](../../novella/05-the-observer-needs-the-observed/082.md)'s floor is treated as a limitation of
 honesty rather than as a solvable design problem. A reader who takes the book's lesson will
 distrust numbers in general, when the useful lesson is narrower: distrust a number whose
 sampling frame is not stated.

@@ -9,7 +9,7 @@ attributed_to: book
 
 ## Where it appears
 
-Page 102, in the composite forum, as a question rather than a claim: *When you say "stop,"
+[Page 102](../../novella/06-everyone-continues/102.md), in the composite forum, as a question rather than a claim: *When you say "stop,"
 which activity stops — training, tool use, deployment, evaluation, publication, or defensive
 access?*
 
@@ -29,7 +29,7 @@ them. Two months later, OpenAI paused a class of reinforcement-learning training
 weeks and held its largest planned run while smaller work continued. Both are "stopping," and
 they are barely the same kind of act.
 
-Page 102's follow-up questions are the ones the equivocation hides: who decides the
+[Page 102](../../novella/06-everyone-continues/102.md)'s follow-up questions are the ones the equivocation hides: who decides the
 threshold, who verifies compliance, who can order a pause, and who can authorise a restart.
 
 ## The evidence

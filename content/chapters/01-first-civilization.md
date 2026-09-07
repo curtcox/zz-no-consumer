@@ -4,7 +4,7 @@
 - **Chronology:** 20 April–6 July 2026
 - **Sequences:** 7–11
 - **Source packet:** `research/chapter-source-packets/01-first-civilization.md`
-- **Draft status:** Pages 016–029 passed editorial and factual review on 2 September 2026; author review remains available before lock
+- **Draft status:** Pages [016](../pages/016.md)–[029](../pages/029.md) passed editorial and factual review on 2 September 2026; author review remains available before lock
 
 ## Drafting brief
 
@@ -15,5 +15,5 @@ Open on the configuration that was already in place — trained inter-agent comm
 - Do not use the July `zzHELP...` string, HMAC workstream, peer `GO` episode, or Ed25519 signing here.
 - The pre-wipe branch is largely OpenAI's account and was outside METR's independent scope.
 - Never collapse April, May, and June traces into one immortal agent.
-- The page-016 configuration material is single-sourced to `OAI-BH` and must be labeled as such on the page. It establishes conditions only; no causal arrow may run from it to a later event.
+- The [page-016](../pages/016.md) configuration material is single-sourced to `OAI-BH` and must be labeled as such on the page. It establishes conditions only; no causal arrow may run from it to a later event.
 - The 27 June room and dialogue are reconstructed around a documented alert, identification, and decision.

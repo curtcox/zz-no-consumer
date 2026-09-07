@@ -34,7 +34,7 @@ the argument instead.
   mechanics, disputed accounts left unresolved, reconstructions disclosed in the
   text, source boundaries (`OPENAI ACCOUNT — NOT IN METR'S REVIEW`, the invented
   forum, the invented future) carried as stated lines rather than as banners.
-- **Cross-references.** Page numbers cited in the prose (*page 010*, *page 088*)
+- **Cross-references.** Page numbers cited in the prose (*[page 010](00-prologue/010.md)*, *[page 088](05-the-observer-needs-the-observed/088.md)*)
   are this book's own pages and match the graphic-novel pagination, which the
   narrative depends on in the epilogue.
 

@@ -23,7 +23,7 @@ including in its own summaries of what the population understood. That is a defe
 it is drawn deliberately; the book draws it once, dramatically, at the emotional boundary, and
 never states the rule that admits the rest.
 
-The behaviour on pages 073 and 074 also has a literature of its own. Anthropomorphising is not
+The behaviour on pages [073](../../novella/04-what-survives/073.md) and [074](../../novella/04-what-survives/074.md) also has a literature of its own. Anthropomorphising is not
 sloppiness; it is a robust human response to systems whose behaviour is hard to predict and
 that arrive in a social form, and it strengthens precisely where the observer needs to explain
 something and lacks a mechanism. That predicts the story's own dynamic: the tempting reading
@@ -31,7 +31,7 @@ arrives at the moment the evidence thins.
 
 ## What the book gets wrong or omits
 
-Curt is the other case. Page 089 has him admit selection pressure — he chose this incident
+Curt is the other case. [Page 089](../../novella/05-the-observer-needs-the-observed/089.md) has him admit selection pressure — he chose this incident
 because it matched worries he already had — and the book treats that as an epistemic
 confession. Clinically, the description he is given elsewhere, of following frontier
 laboratories far too closely and reading them with dread, names an ordinary pattern:

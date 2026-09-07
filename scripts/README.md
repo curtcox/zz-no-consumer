@@ -24,10 +24,17 @@ These rewrite canonical files. Do the work through them rather than by hand.
 | `panels.py` | the panel ordinal inside a page | `report` `check` `insert` `delete` `move` |
 | `panelart.py` | which generated version of a panel is the chosen one | `scan` `list` `choose` `reject` `clear` `status` `size` |
 | `paneltypes.py` | `data/panel-types.tsv`, the per-panel generator classification | `write` `summary` `show` |
+| `pagelinks.py` | the grammar of a page reference, and its links, in prose and in the build | `report` `check` `link` |
 
 `pagination.py` refuses a parity-inverting operation without `--allow-parity-shift`;
 `panels.py` refuses to leave the 4–6 panel band without `--allow-rhythm-shift`, or to discard
 generated art without `--allow-art-loss`.
+
+`pagelinks.py` owns the phrase grammar the other two read: `PAGE_PHRASE`, and the rule that
+sorts a phrase into a reference, a foreign citation, an abstract rule, or an unpadded
+ambiguity. `pagination.py` and `panels.py` import it, and re-derive every link target as part
+of the operation, so a renumbering or a chapter move leaves the links pointing at the pages
+they name.
 
 ## Validation: what CI runs
 
@@ -40,6 +47,7 @@ In workflow order. All are green as of 6 September 2026.
 | `crossref.py check` | citation keys resolve, sequences are in range; `--strict` also fails on panel/front-matter provenance drift |
 | `novella.py check` | one prose file per scripted page, front matter matching the script, prose that is not a stub |
 | `appendix.py check` | two-stance minimum, fixed fallacy vocabulary, conjecture declarations, live page references |
+| `pagelinks.py check` | every story-page reference in `content/` is a link, pointing at the page it names |
 | `knowledge_maps.py check` | the committed controlled knowledge-map SVGs match what the generator produces |
 | `knowledge_maps_fog.py check` | the same for the fog-of-war studies |
 | `knowledge_map_local.py check` | committed local-model concept images and their recorded provenance |
@@ -47,6 +55,7 @@ In workflow order. All are green as of 6 September 2026.
 | `validate-viewer.py` | every generated viewer route, control, and view setting resolves |
 | `validate-novella.py` | one anchor per page in one chapter, linked from contents; the four downloads are complete |
 | `validate-knowledge-map-gallery.py` | the published gallery, without rebuilding any assets |
+| `pagelinks.py check --built` | every page reference in `docs/` — HTML, Markdown, and the EPUB — is a link a reader can follow |
 
 CI also runs `python3 -m unittest discover -s scripts -p 'test_knowledge_map_*.py'`, which
 covers `test_knowledge_map_local.py` and `test_knowledge_map_finish.py` — the offline
@@ -100,12 +109,14 @@ original URL rather than to a copied page.
 
 ## How they fit together
 
-Four modules carry the shared models, and the rest import them rather than re-deriving:
+Five modules carry the shared models, and the rest import them rather than re-deriving:
 
 - **`crossref.py`** — the page/chapter/sequence/provenance graph. Imported by `pagination.py`,
   `panels.py`, `novella.py`, `appendix.py`, and the builder.
 - **`panels.py`** — the panel and lettering model. Imported by `imagegen.py`, `novella.py`,
   `make-thumbnails.py`.
+- **`pagelinks.py`** — the page-reference grammar and the link rewriter. Imported by
+  `pagination.py`, `panels.py`, and the builder, which asks it for one resolver per edition.
 - **`imagegen.py`** — the generator roster and the prompt composer. Imported by `bakeoff.py`,
   `localgen.py`, `produce.py`, `paneltypes.py`, and the knowledge-map studies.
 - **`textimage.py`** — the pure-Python text-into-image primitive. Imported by everything that

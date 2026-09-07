@@ -9,9 +9,9 @@ attributed_to: book
 
 ## Where it appears
 
-Page 064, in the lower margin, small: `AS RANKED BY GPT-5.6 SOL`. Accurate, present from the
+[Page 064](../../novella/04-what-survives/064.md), in the lower margin, small: `AS RANKED BY GPT-5.6 SOL`. Accurate, present from the
 first printing, and set at a size that lets the caption above it read as a finding about the
-world. Page 088 discloses it: *THE READER WAS MOVED BY A RANKING. SO WAS THE BOOK. THE TAG
+world. [Page 088](../../novella/05-the-observer-needs-the-observed/088.md) discloses it: *THE READER WAS MOVED BY A RANKING. SO WAS THE BOOK. THE TAG
 WAS ON THE PAGE THE WHOLE TIME.*
 
 ## Why the reasoning does not carry
@@ -19,7 +19,7 @@ WAS ON THE PAGE THE WHOLE TIME.*
 A qualification that a reader can technically find is not the same as a qualification that
 does its job. The dossier tag is true, and the design of the page — a large declarative
 caption over a small marginal note — routes the reader past it. That is the entire mechanism,
-and it works on careful readers, which is why page 088 says it worked on the book.
+and it works on careful readers, which is why [page 088](../../novella/05-the-observer-needs-the-observed/088.md) says it worked on the book.
 
 This is the one deliberately misleading construction the story contract permits, and it
 permits it exactly once, on condition that nothing in it is false and that the disclosure is
@@ -28,7 +28,7 @@ weighting a true statement correctly is the same device an institution uses when
 material limitation in a footnote, and the book uses it in order to be able to say so.
 
 The general form is worth naming because it recurs in the source record. The safeguard
-figures on page 093 are prefixed `OPENAI SAYS` and the non-verification is a separate
+figures on [page 093](../../novella/06-everyone-continues/093.md) are prefixed `OPENAI SAYS` and the non-verification is a separate
 caption; whether that is a qualifier doing its work or a qualifier being outrun by the
 numbers beside it is a judgement each reader makes.
 

@@ -9,10 +9,10 @@ attributed_to: book
 
 ## Where it appears
 
-The book's central formal risk, and it names it on the page four times. Page 054:
+The book's central formal risk, and it names it on the page four times. [Page 054](../../novella/03-control-keeps-solving-problems/054.md):
 `THESE ARE NOT THE SAME ACTORS. THEY DO NOT HAVE THE SAME DUTIES, KNOWLEDGE, OR MORAL
 RESPONSIBILITY.` and `THE RHYME IS STRUCTURAL, NOT CAUSAL.` Page 085: `RESEMBLANCE DOES NOT
-ERASE DIFFERENCE.` Page 087 carries it as a standing qualification. Page 098 opens on a
+ERASE DIFFERENCE.` [Page 087](../../novella/05-the-observer-needs-the-observed/087.md) carries it as a standing qualification. [Page 098](../../novella/06-everyone-continues/098.md) opens on a
 banner: `STRUCTURAL COMPARISON — NOT MORAL OR CAUSAL EQUIVALENCE`.
 
 ## Why the reasoning does not carry
@@ -40,7 +40,7 @@ fourteen pages of visual rhyme, and a reader is entitled to know the device is a
 | What the two cases share | [Racing to the precipice](https://link.springer.com/article/10.1007/s00146-015-0590-y) (Armstrong, Bostrom, Shulman) | 2016 | The assurance structure, formally, in the institutional case. |
 | What the two cases share | [Meditations on Moloch](https://slatestarcodex.com/2014/07/30/meditations-on-moloch/) (Scott Alexander) | Jul 2014 | The general shape, and its author's own warnings about where the analogy stops. |
 | The machine side | [METR/Redwood investigation](https://metr.org/blog/2026-08-26-openai-hugging-face-incident-investigation/) | 26 Aug 2026 | What the runs actually did, as against what the comparison invites a reader to infer. |
-| The institutional side | [OpenAI Black Hat USA talk](https://www.youtube.com/watch?v=87DyyMV0kCY) | 5 Aug 2026 | The case for continuing, made in public by the people making it, and drawn on page 101 rather than imagined. |
+| The institutional side | [OpenAI Black Hat USA talk](https://www.youtube.com/watch?v=87DyyMV0kCY) | 5 Aug 2026 | The case for continuing, made in public by the people making it, and drawn on [page 101](../../novella/06-everyone-continues/101.md) rather than imagined. |
 | Against the equivalence | [Talking About Large Language Models](https://arxiv.org/abs/2212.03551) (Shanahan) | Dec 2022 | Why describing a system's behaviour in the vocabulary of human deliberation smuggles in the equivalence the disclaimers deny. |
 | Against the equivalence | [AI as Normal Technology](https://knightcolumbia.org/content/ai-as-normal-technology) (Narayanan and Kapoor) | 2025 | The case that institutional behaviour is governed by adoption, liability, and regulation, none of which have machine analogues. |
 | Project record | [content/themes.md, theme 4](https://github.com/curtcox/zz-no-consumer/blob/main/content/themes.md) | 2026 | The standing rule: the human and machine cases should rhyme, not collapse into equivalence. |

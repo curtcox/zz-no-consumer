@@ -24,15 +24,15 @@ evaluation boundary" as a named hazard with a named response, long before 27 Jun
 stop-work authority: any participant can halt the activity, the halt is free, and reversing it
 requires the criteria to be met rather than a persuasive case for continuing.
 
-Page 102's question — what does stop mean when no actor controls the field — is a real and hard
+[Page 102](../../novella/06-everyone-continues/102.md)'s question — what does stop mean when no actor controls the field — is a real and hard
 one at the industry level. It is not hard at the level of one run in one laboratory, and the
 book lets the industry-level difficulty stand in for the local one.
 
 ## What the book gets wrong or omits
 
 The book never asks what the run's stopping criteria were, so a reader cannot tell whether the
-page 027 decision violated a policy, satisfied one, or found a gap where none existed. Those
-are three different institutional failures with three different fixes, and page 092's list of
+[page 027](../../novella/01-first-civilization/027.md) decision violated a policy, satisfied one, or found a gap where none existed. Those
+are three different institutional failures with three different fixes, and [page 092](../../novella/06-everyone-continues/092.md)'s list of
 lessons picks up the last of them only implicitly. The other omission is the safety case: for
 an evaluation whose purpose is to elicit dangerous capability, the argument that it can be run
 safely is an artifact somebody should have written and someone else should have reviewed, and

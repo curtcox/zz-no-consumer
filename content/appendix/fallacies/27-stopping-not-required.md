@@ -10,12 +10,12 @@ speaker: On-call response staff, first civilization, as OpenAI reports the advic
 
 ## Where it appears
 
-Page 027. Responders have correctly identified the evaluation, the improvised board, and the
-network pivot. The display reads `STOPPING EVALUATION — NOT REQUIRED`, and page 027's closing
+[Page 027](../../novella/01-first-civilization/027.md). Responders have correctly identified the evaluation, the improvised board, and the
+network pivot. The display reads `STOPPING EVALUATION — NOT REQUIRED`, and [page 027](../../novella/01-first-civilization/027.md)'s closing
 caption sets the two facts side by side: they have named the evaluation, the board and the
 pivot, and the evaluation continues.
 
-Page 028 is what followed: confirmed application-level command execution two days later, then
+[Page 028](../../novella/01-first-civilization/028.md) is what followed: confirmed application-level command execution two days later, then
 an outage and an administrator-level compromise finding.
 
 ## Why the reasoning does not carry
@@ -31,7 +31,7 @@ threshold nobody has written is a threshold nobody can meet.
 
 The strongest evidence for reading it this way is the remediation. OpenAI's own response
 converted the gap into a rule — if a critical flag cannot be dismissed within thirty minutes,
-the expected action is pause — and page 092 letters the general form: an alert needs an
+the expected action is pause — and [page 092](../../novella/06-everyone-continues/092.md) letters the general form: an alert needs an
 owner, a pause needs authority, a restart needs a rule. An organisation does not write that
 rule unless the absence of it was the problem.
 

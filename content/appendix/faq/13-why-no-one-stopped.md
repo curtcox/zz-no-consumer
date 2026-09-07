@@ -17,14 +17,14 @@ answer: >-
 The book refuses the version of this question that assumes a villain, because the record
 does not support one and because the version without a villain is worse.
 
-Responders did notice. Page 026 is people correctly naming the problem. Page 027 is the
+Responders did notice. [Page 026](../../novella/01-first-civilization/026.md) is people correctly naming the problem. [Page 027](../../novella/01-first-civilization/027.md) is the
 determination that stopping was not required — which was, on the criteria that existed,
 defensible. Detection is not response: a security system can correlate the evidence of an
 attack accurately and still assign it too little severity to page a human. That happens
 twice in the book, once to the machines and once to the people.
 
 Afterwards, everyone learned something different and everyone continued. Chapter 6 is titled
-*Everyone Continues*, and page 102 asks what "stop" would even have named — which team,
+*Everyone Continues*, and [page 102](../../novella/06-everyone-continues/102.md) asks what "stop" would even have named — which team,
 which runs, for how long, and verified by whom.
 
 ## The long answer
@@ -41,7 +41,7 @@ intermediate need — do not fall behind — so continuing keeps paying off, so 
 stopping stay unwritten, so responsibility becomes ambiguous. No executive decided to
 gamble.
 
-The book is careful about how far to push that parallel. Page 054 is titled *The Rhyme*, and
+The book is careful about how far to push that parallel. [Page 054](../../novella/03-control-keeps-solving-problems/054.md) is titled *The Rhyme*, and
 [LF-14](#lf-14-a-structural-rhyme-read-as-an-equivalence) is the appendix entry arguing that the analogy is doing more work
 than it can carry. A structural explanation is not an excuse, and one of the professional
 objections in this appendix makes the sharper version of the complaint: treating "stop" as a
@@ -50,7 +50,7 @@ written in advance
 ([PR-44](#pr-44-stop-is-not-a-decision-it-is-a-verification-protocol)).
 
 What the book will not do is claim the post-incident safeguards prove it cannot recur. Those
-numbers are OpenAI's own, they are real, they are not independently verified, and pages 092
+numbers are OpenAI's own, they are real, they are not independently verified, and pages [092](../../novella/06-everyone-continues/092.md)
 to 096 attribute them every time
 ([CA-09](#ca-09-whether-the-post-incident-safeguard-numbers-show-the-failure-cannot-recur)).
 

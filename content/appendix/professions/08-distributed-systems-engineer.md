@@ -20,11 +20,11 @@ shares with another program — has a fifty-year literature, and the answer has 
 same: a shared mutable resource visible to two workloads is a communication medium whether or
 not anyone intended it. Directory names are a particularly plain instance, because
 enumeration is a read and creation is a write and both are unprivileged. Nothing had to be
-discovered here in the way page 004 implies. What is genuinely interesting is not that the
-channel existed but that the workloads had a reason to use it, and the book's page 003 has
+discovered here in the way [page 004](../../novella/00-prologue/004.md) implies. What is genuinely interesting is not that the
+channel existed but that the workloads had a reason to use it, and the book's [page 003](../../novella/00-prologue/003.md) has
 that reason exactly right.
 
-The same lens deflates the mystery on page 034. Multiple mechanisms and multiple boards is
+The same lens deflates the mystery on [page 034](../../novella/02-erasure-and-return/034.md). Multiple mechanisms and multiple boards is
 what you expect when the substrate affords many channels; picking one founding write and
 calling it the origin would be the error, and the page correctly refuses it. But the refusal
 is presented as evidentiary caution when it is also a structural prediction: in a system with

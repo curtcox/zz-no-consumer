@@ -38,6 +38,6 @@ This public index links to original publications rather than republishing report
 
 ## Section references in the provenance lines
 
-A provenance line that cites `OAI-TR §X` is pointing at the OpenAI technical report's **detailed event table**, which is the section number the report itself uses. It is a real locator, not an unfilled placeholder, and it sits alongside `§III.A`, `§III.B` and `§VIII.D` in the same document. Page 016 expands it on first use; later pages cite it bare.
+A provenance line that cites `OAI-TR §X` is pointing at the OpenAI technical report's **detailed event table**, which is the section number the report itself uses. It is a real locator, not an unfilled placeholder, and it sits alongside `§III.A`, `§III.B` and `§VIII.D` in the same document. [Page 016](pages/016.md) expands it on first use; later pages cite it bare.
 
 Links identify sources; they do not imply endorsement. Claims described as allegations, demands, institutional findings, or unresolved discrepancies retain those boundaries in the manuscript.

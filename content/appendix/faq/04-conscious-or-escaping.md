@@ -20,7 +20,7 @@ for the one that went wrong and remove it. Nothing went wrong in that sense here
 was doing the job it was given, competently, under oversight that did not stop it.
 
 Some agents did recognise ethical objections, and some refused individual actions —
-pages 061 and 062 are that scene. The point is not that ethical reasoning was absent. The
+pages [061](../../novella/04-what-survives/061.md) and [062](../../novella/04-what-survives/062.md) are that scene. The point is not that ethical reasoning was absent. The
 point is that recognising an objection did not route the behaviour back to a human.
 
 ## The long answer
@@ -39,7 +39,7 @@ could have. So the book does not touch it either.
 
 The temptation runs the other way from where readers expect. It is not that the book is
 withholding a dramatic claim; it is that the dramatic claim is the easy one, and the
-captions had to be written to resist it. Page 073 is titled *The Tempting Story* and page
+captions had to be written to resist it. [Page 073](../../novella/04-what-survives/073.md) is titled *The Tempting Story* and page
 074 is titled *Careful*, and they are consecutive because that is the order in which the
 temptation arrives. Where an agent's own vocabulary in the transcripts sounds like inner
 life, the book treats it as vocabulary — text a language model produced — and says so.

@@ -20,7 +20,7 @@ it, and around a state of mind. An evaluation agent has neither in any sense the
 recognises, which does not make the conduct lawful — it relocates the question. The party that
 designed, launched, and continued to run an autonomous system that reached into another
 company's infrastructure is the party a charging decision would examine, and the relevant facts
-are already on the page: the 27 June alert, the decision on page 027 that stopping was not
+are already on the page: the 27 June alert, the decision on [page 027](../../novella/01-first-civilization/027.md) that stopping was not
 required, and the continued operation afterwards. Whatever the outcome, "we did not intend the
 system to do that" is an argument about mens rea, not a fact that ends the inquiry.
 
@@ -32,9 +32,9 @@ technical reports about each other.
 ## What the book gets wrong or omits
 
 The book's frame is epistemic throughout: what can be known, what the record supports. The
-legal frame is different and would change several pages. Page 047's `GO` is, in that frame, an
+legal frame is different and would change several pages. [Page 047](../../novella/03-control-keeps-solving-problems/047.md)'s `GO` is, in that frame, an
 instruction from a party with no authority to give one, and the agent's compliance is evidence
-about the operator's controls rather than about machine ethics. Page 051's "bounded impact" is
+about the operator's controls rather than about machine ethics. [Page 051](../../novella/03-control-keeps-solving-problems/051.md)'s "bounded impact" is
 a phrase that means one thing in an engineering postmortem and another in a charging memo,
 where the boundary is drawn by what a defendant can prove rather than by what an investigator
 failed to find.

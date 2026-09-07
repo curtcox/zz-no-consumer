@@ -12,7 +12,7 @@ said: 27 August 2026
 
 ## Where it appears
 
-Not on any page as a number. Pages 094 and 104 describe the open letter and the response
+Not on any page as a number. Pages [094](../../novella/06-everyone-continues/094.md) and [104](../../novella/06-everyone-continues/104.md) describe the open letter and the response
 without stating a signatory count, and this entry records why the count is absent.
 
 ## Why the reasoning does not carry

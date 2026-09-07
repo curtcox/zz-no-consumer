@@ -4,7 +4,7 @@
 - **Chronology:** 9–13 July 2026
 - **Sequences:** 15–19
 - **Source packet:** `research/chapter-source-packets/03-control-keeps-solving-problems.md`
-- **Draft status:** Pages 041–056 passed factual and editorial review on 2 September 2026; author review remains available before lock
+- **Draft status:** Pages [041](../pages/041.md)–[056](../pages/056.md) passed factual and editorial review on 2 September 2026; author review remains available before lock
 
 ## Drafting brief
 

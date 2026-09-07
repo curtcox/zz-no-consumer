@@ -18,7 +18,7 @@ oversight applied to them was assembled with capable systems, under oversight ap
 person who is also its author, its editor and its only reviewer. If the systems shaped what
 the book concluded, the book has no way to know it, and the parts a model produced most
 fluently are the parts most likely to survive editing. That is not a hypothetical mechanism;
-it is the mechanism the book names on page 089 and applies to itself.
+it is the mechanism the book names on [page 089](../../novella/05-the-observer-needs-the-observed/089.md) and applies to itself.
 
 There is no clean answer to that. What there is instead is disclosure at a level that makes
 the objection checkable: which systems, doing what, recorded per commit, with the tooling
@@ -33,14 +33,14 @@ book's private embarrassment — it goes all the way down.
 The investigation the book relies on used analysis models to read transcripts that other
 models had written. Investigators have said so publicly and described the tooling. That is
 the responsible way to review 1,300 hours of machine output, and it also means the findings
-passed through an instrument of the same kind as the thing being measured. Pages 075 to 080
+passed through an instrument of the same kind as the thing being measured. Pages [075](../../novella/05-the-observer-needs-the-observed/075.md) to [080](../../novella/05-the-observer-needs-the-observed/080.md)
 are about that, and
 [CA-11](#ca-11-whether-an-ai-mediated-investigation-can-establish-what-it-reports) carries
 the argument on both sides, including the case that the objection proves too much: applied
 consistently, it would invalidate most competent review of large machine-generated corpora,
 including review that has since been corroborated.
 
-Page 087 is titled *The Same Trade*, and that is the honest position. The book is not
+[Page 087](../../novella/05-the-observer-needs-the-observed/087.md) is titled *The Same Trade*, and that is the honest position. The book is not
 claiming to have escaped the problem it describes. It is claiming that the trade — accept a
 mediated instrument, disclose it, bound what it may support — is the trade the investigators
 made, the trade this book made, and a trade that has to be argued about rather than
@@ -49,7 +49,7 @@ concealed.
 Two things would make this answer worse and are worth naming so a reader can check for them.
 If the disclosure were vaguer than the practice, it would be decoration. And if the book
 used the disclosure as a shield — *we told you, so the objection is answered* — it would be
-doing the thing page 088 accuses it of elsewhere. The appendix entry that follows this one
+doing the thing [page 088](../../novella/05-the-observer-needs-the-observed/088.md) accuses it of elsewhere. The appendix entry that follows this one
 ([FQ-19](#fq-19-why-should-i-trust-a-book-that-documents-its-own-mistakes)) is about that
 second failure directly.
 

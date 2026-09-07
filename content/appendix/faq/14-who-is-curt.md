@@ -30,7 +30,7 @@ The creator frame exists to carry three things the incident cannot carry by itse
 
 **A visible interpreter.** The book's argument in chapter 5 is that there is no neutral
 narrator — that the investigation it depends on was mediated, that the mediation shaped the
-findings, and that a coherent story is evidence of coherence rather than of truth. Page 090
+findings, and that a coherent story is evidence of coherence rather than of truth. [Page 090](../../novella/05-the-observer-needs-the-observed/090.md)
 is titled *No Neutral Narrator*. That argument is worthless if the book then narrates from
 nowhere. So the interpreting happens on the page, by someone with a name, whose errors are
 visible.
@@ -38,7 +38,7 @@ visible.
 **A demonstrable failure mode.** Curt reasons in analogies and quotations, and he lets the
 perfect analogy do the heavy lifting — the frame arrives before the argument, fits too well,
 and stops the inquiry where it should have started. That is the same defect the book
-diagnoses in its own coverage on pages 089 and 113, running at the scale of one person, so
+diagnoses in its own coverage on pages [089](../../novella/05-the-observer-needs-the-observed/089.md) and [113](../../novella/07-epilogue/113.md), running at the scale of one person, so
 the reader can watch it happen small before being asked to accept it happening large.
 
 **An unrepaired gap.** He is fluent in why this is dangerous and close to illiterate in the
@@ -49,7 +49,7 @@ advocacy and feels better. It is the personal-scale version of the book's own as
 machine coordination problem gets described in detail and the human one gets described as
 pressure.
 
-The skeptical voice on page 113 is a disclosed composite, carries no real person's name, and
+The skeptical voice on [page 113](../../novella/07-epilogue/113.md) is a disclosed composite, carries no real person's name, and
 appears only as text. Real critics of the coverage appear in this book the same way —
 paraphrased, dated, linked, and never given a body.
 

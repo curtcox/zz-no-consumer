@@ -43,7 +43,7 @@ demonstrated the problem and then committed it on its own pages would be arguing
 itself.
 
 There is a cost, and the book pays it visibly. An unresolved question is worse
-entertainment than a resolved one; page 079 is about how much better the clean story would
+entertainment than a resolved one; [page 079](../../novella/05-the-observer-needs-the-observed/079.md) is about how much better the clean story would
 read. Twenty-four entries in this appendix exist because a claim could not be closed. If
 one of them ever closes — someone publishes the logging architecture, or the relationship
 between the transcript set and the grader stream — the entry will say so, with its date.

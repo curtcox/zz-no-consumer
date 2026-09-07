@@ -50,7 +50,7 @@ must be registered in `research/scene-provenance.md` or a chapter source packet;
 be trusted to be complete even where they are unflattering — nobody has to remember to add
 one.
 
-Page 088 is where this becomes part of the story rather than apparatus around it. Having
+[Page 088](../../novella/05-the-observer-needs-the-observed/088.md) is where this becomes part of the story rather than apparatus around it. Having
 spent a chapter arguing that a bounded finding turns into an unbounded claim when the
 qualifier is too quiet to survive retelling, the book applies the diagnosis to its own page
 064 and takes responsibility for it. Provenance as an action, in the page's own title,
@@ -63,7 +63,7 @@ rather than a notice.
 | Project record | [research/scene-provenance.md](https://github.com/curtcox/zz-no-consumer/blob/main/research/scene-provenance.md) | 2026 | The citation keys, the sequence ledger, and the safest evidentiary treatment for every planned scene. |
 | This book's rule | [content/story-contract.md](https://github.com/curtcox/zz-no-consumer/blob/main/content/story-contract.md) | 2026 | That a page script may narrow a claim's status but may never silently upgrade it. |
 | Where it is enforced | [CLAUDE.md](https://github.com/curtcox/zz-no-consumer/blob/main/CLAUDE.md) | 2026 | The invariant that provenance is checked by tooling, and the command that fails the build on drift. |
-| The book applying it to itself | [content/pages/088.md](https://github.com/curtcox/zz-no-consumer/blob/main/content/pages/088.md) | 2026 | The disclosure page for page 064, where the apparatus becomes an action in the story. |
+| The book applying it to itself | [content/pages/088.md](https://github.com/curtcox/zz-no-consumer/blob/main/content/pages/088.md) | 2026 | The disclosure page for [page 064](../../novella/04-what-survives/064.md), where the apparatus becomes an action in the story. |
 | Field standard | [Wikipedia's verifiability policy](https://en.wikipedia.org/wiki/Wikipedia:Verifiability) | — | The older version of the same idea: the threshold is attribution to a published source, not truth. |
 | Field practice | [SPJ Code of Ethics](https://www.spj.org/ethicscode.asp) | 2014 | Identifying sources and distinguishing fact from inference as a working obligation. |
 | Independent investigators | [METR/Redwood investigation](https://metr.org/blog/2026-08-26-openai-hugging-face-incident-investigation/) | 26 Aug 2026 | The source most `documented` labels in the first half of the book resolve to, and its own statements about its limits. |

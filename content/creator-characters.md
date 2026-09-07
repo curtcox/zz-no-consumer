@@ -56,15 +56,15 @@ scene in which he discovers advocacy and feels better.
 He reasons in analogies, quotes, and references, and he is prone to let the
 perfect quote do the heavy lifting. The analogy arrives before the argument, fits
 too well, and stops the inquiry at the point where it should have started. This
-is the same defect the book diagnoses in itself on pages 089 and 113 — a frame
+is the same defect the book diagnoses in itself on pages [089](pages/089.md) and [113](pages/113.md) — a frame
 that explains everything and predicts nothing — running at the scale of one
 person.
 
 The book gets three things out of it:
 
 1. **It is how the story gets written at all.** The adaptation exists because he
-   reached for a frame. That is not a flaw to be corrected before page 001.
-2. **It is falsifiable on the page.** Page 039 is the model case: the analogy
+   reached for a frame. That is not a flaw to be corrected before [page 001](pages/001.md).
+2. **It is falsifiable on the page.** [Page 039](pages/039.md) is the model case: the analogy
    holds, the critique lands, and the chapter narrows. Any later use should cost
    him something specific, not produce a general chastening.
 3. **It implicates the reader.** A reader who enjoys the quote has just done the
@@ -128,7 +128,7 @@ people are paraphrased, attributed, and dated. What they are good for is structu
   said where the discipline comes from and does not need to. What it lacks is the
   civil-engineering frame the video borrows from Stuart Russell: a flaw one is 40 per
   cent sure of, giving a one-in-a-hundred chance of collapse, which no engineer would
-  wave through. That is page 027's decision-not-to-stop scene with its stopping
+  wave through. That is [page 027](pages/027.md)'s decision-not-to-stop scene with its stopping
   criterion supplied, and it is the strongest available answer to a reader who thinks
   the book is mugging them. If it is used, Curt reaches for it and it is *right* — so
   the page must immediately ask what it does not cover, which is that the bridge has
@@ -136,7 +136,7 @@ people are paraphrased, attributed, and dated. What they are good for is structu
 - **On respectability.** The observation that choosing whom to believe turns a question
   about evidence into a question about status is Curt's blind spot restated: he is
   fluent in the theory and illiterate in the organized human question. It also rhymes
-  with page 039 panel 1, where the reader cannot tell the critic's window from the
+  with [page 039](pages/039.md) panel 1, where the reader cannot tell the critic's window from the
   model's by looking. Do not use it to make the book's citations more respectable; the
   video's own closing move is to decline that use.
 
@@ -155,7 +155,7 @@ in [`CREDITS.md`](../CREDITS.md).
 For the frame: it is the character that supplies structure on demand, which is
 exactly what a person reasoning in analogies should not be given unlimited access
 to. It proposes, patterns, qualifies, overinterprets, accepts correction, and
-exposes its own role. It is wrong on page 039 and is not retroactively corrected
+exposes its own role. It is wrong on [page 039](pages/039.md) and is not retroactively corrected
 there.
 
 ## Claude
@@ -176,7 +176,7 @@ decision, recorded below.
 
 Three arguments it can carry that ChatGPT cannot:
 
-1. **The recursion is one layer deeper than the book admits.** Pages 084–090
+1. **The recursion is one layer deeper than the book admits.** Pages [084](pages/084.md)–[090](pages/090.md)
    establish that an AI is being used to interpret a report about investigators
    using AI to interpret AIs. The apparatus that renders that argument — the
    provenance validators, the pagination tool, the cross reference, this file —
@@ -233,15 +233,15 @@ room, no desk, and no reaction shots.
 
 ### Decided, 6 September 2026: disclosed
 
-The second model is disclosed inside the recursion sequence, on pages 086 and
-087, inserted together so the insertion is parity-neutral. Page 086 corrects the
-pipeline page 084 drew and carries the two preserved refusal artifacts; page 087
+The second model is disclosed inside the recursion sequence, on pages [086](pages/086.md) and
+087, inserted together so the insertion is parity-neutral. [Page 086](pages/086.md) corrects the
+pipeline [page 084](pages/084.md) drew and carries the two preserved refusal artifacts; [page 087](pages/087.md)
 locates what the three instruments actually share, which is neither access nor
 reliability but a knowingly accepted layer of indirection under time pressure.
 
 The alternative was to leave the creator frame as two parties and carry the
 disclosure only in [`CREDITS.md`](../CREDITS.md) and here. It was rejected because
-pages 084–090 would have gone on making a completeness claim about their own
+pages [084](pages/084.md)–[090](pages/090.md) would have gone on making a completeness claim about their own
 construction that this file contradicts, and because the disclosure turned out to
 deflate the creator frame rather than widen it: the recursion is one layer deeper
 than the book admitted, and most of the work was never a conversation.
@@ -261,4 +261,4 @@ The creator register's one disclosed composite, carrying the publication
 objection that no dated public writing makes. Defined in
 [`content/continuity.md`](continuity.md) and introduced on
 [page 113](pages/113.md). No real name, byline, face, or body. It is not the
-named critic of page 039.
+named critic of [page 039](pages/039.md).

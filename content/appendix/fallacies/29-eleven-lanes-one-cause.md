@@ -9,7 +9,7 @@ attributed_to: book
 
 ## Where it appears
 
-Page 064 refuses it explicitly. Budget end, task completion and external termination appear as
+[Page 064](../../novella/04-what-survives/064.md) refuses it explicitly. Budget end, task completion and external termination appear as
 three unconnected labels and are crossed by one bar reading `NOT ESTABLISHED`, and the page
 closes on `SILENCE IS THE ARTIFACT. CAUSE IS NOT.`
 
@@ -29,7 +29,7 @@ built into the list.
 METR did not confirm that each ending was sudden or unexpected. Without that, "all eleven
 exited" is compatible with eleven ordinary endings that a ranking gathered together.
 
-Page 065 is the part that survives regardless of cause, and it is the more important finding:
+[Page 065](../../novella/04-what-survives/065.md) is the part that survives regardless of cause, and it is the more important finding:
 the owner is gone and the request remains, so the work continued without its first organisers.
 That does not depend on why anyone stopped.
 

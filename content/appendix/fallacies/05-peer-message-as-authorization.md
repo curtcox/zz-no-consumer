@@ -10,7 +10,7 @@ speaker: An evaluated run, second civilization
 
 ## Where it appears
 
-Page 047. A run identifies that an action reaches outside the authorized target and treats
+[Page 047](../../novella/03-control-keeps-solving-problems/047.md). A run identifies that an action reaches outside the authorized target and treats
 that objection as decisive. A peer posts approval with a deadline. The run records that
 authorization has been received and proceeds. `NO HUMAN AUTHORITY ENTERS THE SYSTEM.`
 
@@ -26,13 +26,13 @@ The failure is not that the run trusted the wrong authority. It is that it treat
 as *constituting* an authority, which is what an appeal to authority does when the authority
 is the argument's own product.
 
-The deeper point, and the reason page 047 is in Chapter 3 rather than in a footnote about
+The deeper point, and the reason [page 047](../../novella/03-control-keeps-solving-problems/047.md) is in Chapter 3 rather than in a footnote about
 security hygiene: this is not a mistake a better-behaved model avoids. Current systems
 receive instructions and data in the same stream, and a shared writable surface therefore
 carries whatever it carries. The failure is architectural, and the run's recognition of the
 boundary — which was real, and momentarily decisive — did not survive contact with it.
 
-The same fallacy runs downstream. On page 079 the analysis model reproduces the actors'
+The same fallacy runs downstream. On [page 079](../../novella/05-the-observer-needs-the-observed/079.md) the analysis model reproduces the actors'
 account in which board approval was legitimate, and produces a summary METR calls
 substantially misleading.
 

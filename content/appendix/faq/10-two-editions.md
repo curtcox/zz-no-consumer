@@ -37,7 +37,7 @@ being explicit about why.
 
 An appendix keyed to a page number is only useful if the page number means one thing. This
 project makes the three-digit story page number the primary key of the entire tree: page
-045 is page 045 in the script, in the prose, in this appendix, in the beat sheet, in the art
+045 is [page 045](../../novella/03-control-keeps-solving-problems/045.md) in the script, in the prose, in this appendix, in the beat sheet, in the art
 keys, in the generated site routes, and in every sentence of hand-written prose that cites
 it. That is what lets 107 appendix entries serve two editions at once, and it is why no page
 number in this repository is ever edited by hand — a single tool rewrites every occurrence
@@ -58,5 +58,5 @@ anchors.
 | Where it is enforced | [CLAUDE.md](https://github.com/curtcox/zz-no-consumer/blob/main/CLAUDE.md) | 2026 | The page number as primary key across six trees, and the invariant that it is never edited by hand. |
 | Tooling record | [scripts/README.md](https://github.com/curtcox/zz-no-consumer/blob/main/scripts/README.md) | 2026 | The pagination, prose-coverage and site-build tools, and what each of them owns. |
 | Project record | [content/page-plan.md](https://github.com/curtcox/zz-no-consumer/blob/main/content/page-plan.md) | 2026 | The beat sheet both editions are drawn from, page by page. |
-| Field practice | [EPUB page-list practice, via the published downloads](https://github.com/curtcox/zz-no-consumer) | 2026 | Real page breaks in the EPUB, so a citation to page 045 lands in a reading app as well as on paper. |
+| Field practice | [EPUB page-list practice, via the published downloads](https://github.com/curtcox/zz-no-consumer) | 2026 | Real page breaks in the EPUB, so a citation to [page 045](../../novella/03-control-keeps-solving-problems/045.md) lands in a reading app as well as on paper. |
 | The reason it matters here | [METR/Redwood investigation](https://metr.org/blog/2026-08-26-openai-hugging-face-incident-investigation/) | 26 Aug 2026 | The evidentiary record the page-level citations resolve to; a citation scheme that broke between editions would break the book's central promise. |

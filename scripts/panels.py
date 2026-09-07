@@ -46,6 +46,7 @@ from pathlib import Path
 sys.path.insert(0, str(Path(__file__).resolve().parent))
 
 import crossref  # noqa: E402  the page/chapter/sequence graph is modelled once, there
+import pagelinks  # noqa: E402  the grammar of a page reference lives there
 
 
 ROOT = Path(__file__).resolve().parents[1]
@@ -240,8 +241,11 @@ def read_scripts() -> dict[int, PageScript]:
 # inline backticks quotes a form rather than pointing at a panel, so it is an example.
 # ---------------------------------------------------------------------------
 
+# The page a cross-page reference names may be a Markdown link -- `scripts/pagelinks.py`
+# writes `[page 003](003.md) panel 2` -- so the page prefix reads the linked form too.
 PANEL_PHRASE = re.compile(
-    r"(?P<page>\b[Pp]ages?\s+(?P<pagenum>\d{1,3})\s*(?:[—–-]\s*)?)?"
+    r"(?P<page>(?:\[\s*)?\b[Pp]ages?\s+(?:\[\s*)?(?P<pagenum>\d{1,3})"
+    r"(?:\s*\]\([^)\s]*\))?\s*(?:[—–-]\s*)?)?"
     r"\b(?P<kw>[Pp]anels?)(?P<sep>\s+)"
     r"(?P<first>\d{1,2})"
     r"(?P<rest>(?:\s*(?:,\s*and\s+|,\s*|\s+and\s+|\s*[–—-]\s*)\d{1,2})*)"
@@ -462,7 +466,10 @@ def rewrite_prose(text: str, relative: str, relocation: Relocation, *,
                     # panel. Still true, and still worth a human's eye: an instruction to
                     # repeat a composition now points at the page it sits on.
                     result.circular.append(match.group(0).strip())
-                return re.sub(r"\d{1,3}", f"{page:03d}", prefix, count=1) + renumbered
+                # Only the spoken number: the link target beside it names the same page
+                # and is re-derived by `scripts/pagelinks.py`.
+                return pagelinks.spoken_sub(
+                    r"\d{1,3}", f"{page:03d}", prefix) + renumbered
             if page == settles:
                 return renumbered
             # The panel this bare reference names is no longer on the page the sentence
@@ -981,6 +988,17 @@ def plan_rewrite(scripts: dict[int, PageScript], operation: Operation) -> Plan:
     moves = dict(plan.renames)
     plan.writes = {moves.get(relative, relative): text
                    for relative, text in plan.writes.items()}
+
+    # A rewritten cross-page reference carries a link whose target names the same page.
+    # Re-derive it here, so a panel operation leaves the tree as consistent as it found it.
+    directories = pagelinks.chapter_directories()
+    plan.writes = {
+        relative: (
+            pagelinks.normalize(text, pagelinks.source_href(relative, directories))
+            if relative.startswith("content/") and relative.endswith(".md") else text
+        )
+        for relative, text in plan.writes.items()
+    }
 
     # `prompts/pages/NNN/panel-II.md` names its own panel in a `# Page NNN — Panel II`
     # heading. That is an ordinary cross-page reference and the prose pass above already

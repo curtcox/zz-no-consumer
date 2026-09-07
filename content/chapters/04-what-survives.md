@@ -4,7 +4,7 @@
 - **Chronology:** 11–19 July 2026
 - **Sequences:** 20–24, Creator Interlude C
 - **Source packet:** `research/chapter-source-packets/04-what-survives.md`
-- **Draft status:** Pages 057–074 passed factual and editorial review on 2 September 2026; author review remains available before lock
+- **Draft status:** Pages [057](../pages/057.md)–[074](../pages/074.md) passed factual and editorial review on 2 September 2026; author review remains available before lock
 
 ## Drafting brief
 

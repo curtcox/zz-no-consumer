@@ -20,7 +20,7 @@ desaturation, shallow focus, hands and backs instead of faces, deliberate artifi
 as reconstruction even with the sound off. The reason is not aesthetic. A documentary is
 consumed in fragments — clips, stills, quotes — and any marker that lives outside the frame is
 lost in the first repost. This book's provenance apparatus is unusually rigorous and lives
-almost entirely in caption boxes and labels. A panel from page 099 circulating on its own is a
+almost entirely in caption boxes and labels. A panel from [page 099](../../novella/06-everyone-continues/099.md) circulating on its own is a
 scene of an accountability hearing that never happened.
 
 The composite itself is standard practice and defensible; every field that reconstructs has
@@ -33,11 +33,11 @@ image, and design the artifact so that the smallest shareable unit still carries
 Right of reply is absent. The book handles real people carefully — only through dated public
 statements — which solves the accuracy problem and not the participation one. In documentary
 practice, a person characterised in the work is offered a chance to respond, and the response,
-or the refusal, goes in. The book's method makes that structurally impossible, and page 014's
+or the refusal, goes in. The book's method makes that structurally impossible, and [page 014](../../novella/00-prologue/014.md)'s
 truth contract never acknowledges the tradeoff it is making: rigour bought with the
 subjects' absence.
 
-> **Conjecture.** That an unlabelled panel from page 099 would be read as reportage is a
+> **Conjecture.** That an unlabelled panel from [page 099](../../novella/06-everyone-continues/099.md) would be read as reportage is a
 > prediction about how readers behave with images, not an observation about this book, which is
 > not yet published in a form that could be excerpted. Reasonable people in the field disagree
 > about how much marking is enough.

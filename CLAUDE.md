@@ -41,6 +41,7 @@ partly cover.
 | Path | Written by | Notes |
 | --- | --- | --- |
 | `content/pages/NNN.md` | you, by hand | the canonical script; one file per story page |
+| page links in `content/**/*.md` | **`pagelinks.py link --apply`** | write `page 039`; the tool makes it a link |
 | `content/novella/CC-chapter/NNN.md` | you, by hand | prose retelling, one file per story page |
 | `content/appendix/**` | you, by hand | questions, contested assertions, fallacies, professional objections |
 | `content/*.md`, `design/`, `research/`, `prompts/` | you, by hand | contract, beat sheet, briefs, design notes, source material |
@@ -69,17 +70,27 @@ partly cover.
    with four lettering slots per panel. `panels.py` refuses to leave the band without
    `--allow-rhythm-shift`.
 5. **Standard library only** in `scripts/`.
-6. **Provenance is enforced, not aspirational.** Every panel carries a `**Provenance:**` line
+6. **A page number in prose is a link.** Write `page 039` and run
+   `pagelinks.py link --apply`; it becomes `[page 039](…)` pointing into the edition the file
+   belongs to — novella prose links to novella prose, a page script to the neighbouring
+   script, the appendix to the novella. Ranges and lists link each number separately, because
+   one link cannot name two destinations. The keyword stays inside the brackets on a single
+   reference so that `page 039` remains one contiguous string and every regex that reads a
+   page phrase keeps reading it. `pagelinks.py check` fails on a reference that is not a link
+   or points at the wrong page; `check --built` fails on a built page, download, or EPUB that
+   prints one a reader cannot follow. Never hand-write the link: the targets are derived, and
+   `pagination.py` and `panels.py` re-derive them as part of their own operations.
+7. **Provenance is enforced, not aspirational.** Every panel carries a `**Provenance:**` line
    naming a status and, where applicable, a citation key. The page's front matter must
    declare both, every citation key must be registered in `research/scene-provenance.md` or a
    chapter source packet, and `crossref.py check --strict` fails on the drift.
-7. **The appendix has structural rules `appendix.py check` enforces:** a contested assertion
+8. **The appendix has structural rules `appendix.py check` enforces:** a contested assertion
    needs evidence from at least two stances, a fallacy entry naming a real person or
    organisation needs the URL and date of the statement, a professional objection must
    declare `conjecture: marked` or `conjecture: none` — a conjecture row may not carry a URL —
    and a faq entry needs a title that is a question, an `answer:` line, and at least one
    reference with a public address.
-8. **`content/story-contract.md` governs what the book may assert.** Read it before writing
+9. **`content/story-contract.md` governs what the book may assert.** Read it before writing
    or editing any claim; `research/exact-text-permissions-audit.md` governs quoting sources.
 
 ## Prose conventions
@@ -102,6 +113,7 @@ python3 scripts/validate-production-foundations.py && \
 python3 scripts/crossref.py check && \
 python3 scripts/novella.py check && \
 python3 scripts/appendix.py check && \
+python3 scripts/pagelinks.py check && \
 python3 scripts/knowledge_maps.py check && \
 python3 scripts/knowledge_maps_fog.py check && \
 python3 scripts/knowledge_map_local.py check && \
@@ -110,7 +122,8 @@ python3 -m unittest discover -s scripts -p 'test_knowledge_map_*.py' && \
 python3 scripts/build-site.py && \
 python3 scripts/validate-viewer.py && \
 python3 scripts/validate-novella.py && \
-python3 scripts/validate-knowledge-map-gallery.py
+python3 scripts/validate-knowledge-map-gallery.py && \
+python3 scripts/pagelinks.py check --built
 ```
 
 Two checks are **not** in CI and must be run by hand when you touch pages or panels:
@@ -125,6 +138,12 @@ A red check is a work list, not a baseline. The validators repair nothing on pur
 ## State as of 7 September 2026
 
 - The full CI chain above is green, and `pagination.py check` is green.
+- Every story-page reference in `content/` is a link — 742 of them, in 235 files, written by
+  `pagelinks.py link --apply` on 7 September 2026 — and every published edition resolves them
+  its own way: the novella reader to a chapter anchor, the self-contained HTML and the EPUB
+  to an anchor in the same document, the Markdown download to an absolute site URL, the
+  graphic novel and the production routes to a viewer page. The plain-text download prints
+  them as words, because it has no links to give.
 - `panels.py check` exits 1 on three findings, all the same false positive: `NIST SP 800-61`
   and `800-63`, cited in `content/appendix/professions/` and `content/appendix/faq/`, are
   read as panel keys naming a page 800. It is not in CI, so the build stays green. Do not
@@ -138,7 +157,8 @@ A red check is a work list, not a baseline. The validators repair nothing on pur
 
 ## Common tasks
 
-**Edit a page's script.** Edit `content/pages/NNN.md` in place. If you changed lettering,
+**Edit a page's script.** Edit `content/pages/NNN.md` in place. Write page references as
+plain `page 039` and run `pagelinks.py link --apply` to link them. If you changed lettering,
 panel structure, or provenance, run `crossref.py check --strict`, `panels.py check`, then
 rebuild the site. If you changed what happens on the page, the novella prose for the same
 page needs the same change — `novella.py check` will not catch a divergence in meaning.

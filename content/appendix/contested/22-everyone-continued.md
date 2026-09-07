@@ -24,7 +24,7 @@ The claim is doing two jobs and only one of them is well supported.
 
 As a description of what happened, it is broadly right and easy to check: institutions
 published lessons, changed infrastructure, changed policy, and did not exit the frontier. The
-specifics on pages 095 and 096 are more interesting than the slogan, and they cut against it
+specifics on pages [095](../../novella/06-everyone-continues/095.md) and [096](../../novella/06-everyone-continues/096.md) are more interesting than the slogan, and they cut against it
 in one direction — a two-week pause on a class of RL training and the largest planned run
 held is not nothing, and a book that letters `EVERYONE CONTINUED` without those pages would
 be describing a different world.
@@ -44,9 +44,9 @@ cynical reading, depending on whether the stated intentions become actions.
 | --- | --- | --- | --- |
 | Continuation | [OpenAI collective cyber-defense letter](https://openai.com/collective-cyberdefense/) | 27 Aug 2026 | The industry response: coordinated defence, not slowdown. Count signatories from the source page rather than from coverage. |
 | Continuation | [TechCrunch on the open letter](https://techcrunch.com/2026/08/27/openai-anthropic-google-and-100-other-companies-call-for-action-to-defend-against-rogue-ai/) | 27 Aug 2026 | The scale of the response, as reported. See [LF-22](#lf-22-counts-copied-from-coverage) on the signatory counts. |
-| Real change | [OpenAI on pacing model development](https://openai.com/index/pacing-model-development-cyber-capabilities/) | 18 Aug 2026 | The two-week pause, the redirected work, and the largest planned run held — pages 095 and 096. |
+| Real change | [OpenAI on pacing model development](https://openai.com/index/pacing-model-development-cyber-capabilities/) | 18 Aug 2026 | The two-week pause, the redirected work, and the largest planned run held — pages [095](../../novella/06-everyone-continues/095.md) and [096](../../novella/06-everyone-continues/096.md). |
 | Real change | [Hugging Face security incident disclosure](https://huggingface.co/blog/security-incident-july-2026) | 16 Jul 2026 | Both execution paths closed, cloud metadata blocked, credentials rotated broadly, core systems rebuilt. |
-| Real change | [OpenAI technical report](https://cdn.openai.com/pdf/67869394-cb91-4c12-888c-5cbd85c7814c/OpenAI-Hugging-Face%20Incident-Technical-Report.pdf) | 26 Aug 2026 | The isolation, monitoring, and escalation changes page 092 draws, including the thirty-minute pause rule. |
+| Real change | [OpenAI technical report](https://cdn.openai.com/pdf/67869394-cb91-4c12-888c-5cbd85c7814c/OpenAI-Hugging-Face%20Incident-Technical-Report.pdf) | 26 Aug 2026 | The isolation, monitoring, and escalation changes [page 092](../../novella/06-everyone-continues/092.md) draws, including the thirty-minute pause rule. |
 | Both halves at once | [Jakub Pachocki, An Alien Mind](https://openai.com/index/an-alien-mind/) | 6 Sep 2026 | Voluntary slowdowns and mandated safety bars expected; recursive self-improvement pursued to stay at the frontier. Published as this book's epilogue was being assembled. |
 | External pressure | [Alabama Attorney General subpoena](https://www.alabamaag.gov/wp-content/uploads/2026/08/OpenAI-Subpoena_Final.pdf) · [announcement](https://www.alabamaag.gov/attorney-general-marshall-launches-investigation-into-openai-and-sam-altman-for-massive-artificial-intelligence-data-breach/) | 20–24 Aug 2026 | Learning arriving as compulsion rather than as a lesson. |
 | External pressure | [Multistate attorneys general letter](https://www.iowaattorneygeneral.gov/media/cms/08_5392C9E17791C.pdf) | 3 Aug 2026 | Fifteen states, preservation demands, and a cease-and-desist demand — the strongest external attempt to change the game. |

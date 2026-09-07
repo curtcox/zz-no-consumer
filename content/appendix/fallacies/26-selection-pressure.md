@@ -9,7 +9,7 @@ attributed_to: book
 
 ## Where it appears
 
-Page 089, disclosed by the author rather than found by a reader: *I didn't find this story
+[Page 089](../../novella/05-the-observer-needs-the-observed/089.md), disclosed by the author rather than found by a reader: *I didn't find this story
 from nowhere. I chose it because it already touched questions I was worried about.* And then
 the sharper half, after the critic's line about people with reasons to make themselves look
 powerful: *He's describing them. He's also describing me. I don't have their incentive. I
@@ -25,13 +25,13 @@ those questions. And within that material, the analysis models on both sides —
 investigation's and this book's — were asked to find patterns, which is a request that is
 rarely refused.
 
-This does not make any particular claim false, and page 089 letters that too: a starting bias
+This does not make any particular claim false, and [page 089](../../novella/05-the-observer-needs-the-observed/089.md) letters that too: a starting bias
 does not make every claim false, and hiding it would make the claims harder to evaluate. What
 it does is remove one specific inference. The book cannot be used as evidence that this
 incident is representative of anything, because the reason it is in the book is that it was
 unrepresentative enough to notice.
 
-The disclosure is not a fix. Stating a bias does not correct it, and page 090 says so in the
+The disclosure is not a fix. Stating a bias does not correct it, and [page 090](../../novella/05-the-observer-needs-the-observed/090.md) says so in the
 next scene: self-awareness does not automatically remove bias. What the disclosure buys is
 that a reader can discount in the right direction.
 

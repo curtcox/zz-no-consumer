@@ -27,9 +27,10 @@ The complete first-draft script — 116 pages today, and the count is a measurem
 python3 scripts/validate-continuity.py
 python3 scripts/validate-production-foundations.py
 python3 scripts/pagination.py check
+python3 scripts/pagelinks.py check
 ```
 
-Add, remove, or move a page with `scripts/pagination.py` rather than by hand — see **Pagination** below.
+Add, remove, or move a page with `scripts/pagination.py` rather than by hand — see **Pagination** below. Write page references as plain `page 039` and let `scripts/pagelinks.py` link them — see **Page links**.
 
 The scene-level evidence boundary is tracked in `research/scene-provenance.md`, and the canonical page-script shape is in `design/page-script-template.md`. The training and evaluation configuration — the single-sourced material behind the whole incident, and the weights channel the cache wipe could not reach — is in `research/training-configuration.md`. The fog-of-war knowledge apparatus is specified in `design/knowledge-map.md`; it was approved on 5 September 2026 and is not yet applied to pages. Credits for the people, sources, models and tools behind the book are in `CREDITS.md`.
 
@@ -68,9 +69,29 @@ python3 scripts/build-site.py
 
 **Parity is the point.** Story page 1 is a recto, so inserting or deleting an odd number of pages swaps recto and verso for everything after the change. The script asserts its own parity 89 times, directs art with `**Frame:** Recto.` on 71 pages, and names 21 beats whose device is a consequence of parity — twenty reveals across the gutter, which need an even-to-odd pair, and one turn across the leaf, which needs an odd-to-even one. The tool checks every one of those on every run, and after an operation reports each assertion it invalidated, each beat it broke, and each beat it merely renumbered. It repairs none of them: a parity-inverting operation is refused outright unless `--allow-parity-shift` is passed, and `check` stays red until the work list is worked. The design and the alternatives considered are in [`design/page-identity.md`](design/page-identity.md).
 
-Reference rewriting is deliberately narrow. Padded three-digit forms (`page 003`, `pages 019–021`, `page-003`) are rewritten; `printed page(s) N` is excluded because thirteen references in the tree cite pages of the OpenAI technical report; bare one- and two-digit forms are reported and never guessed at; `data/generation-log.jsonl` and `design/page-identity.md` are dated records and are left alone.
+Reference rewriting is deliberately narrow. Padded three-digit forms (`page 003`, `pages 019–021`, `page-003`) are rewritten; `printed page(s) N` is excluded because thirteen references in the tree cite pages of the OpenAI technical report; bare one- and two-digit forms are reported and never guessed at; `data/generation-log.jsonl` and `design/page-identity.md` are dated records and are left alone. A reference that has been turned into a link — the ordinary case now, see **Page links** below — is rewritten in both halves at once: the words a reader sees and the target the link points at.
 
 `check` is green, including `--strict`, and is meant to stay that way: a red tree is a work list, not a baseline. Its two long-standing findings were closed on 4 September 2026 — a forum page claimed `Verso` on an odd page, and the audit filed `085 → 086` as the same device as every even-to-odd row when it is the one beat in the book that lands across a leaf.
+
+## Page links
+
+A page number in this book is an address, and `scripts/pagelinks.py` makes it one a reader can follow. Every story-page reference in `content/` is a Markdown link, and every published edition resolves it to somewhere that edition can actually go.
+
+```sh
+python3 scripts/pagelinks.py report          # how many references there are, and how many are links
+python3 scripts/pagelinks.py link            # plan: which lines would change
+python3 scripts/pagelinks.py link --apply    # write it
+python3 scripts/pagelinks.py check           # exit non-zero while a reference is not a link
+python3 scripts/pagelinks.py check --built   # the same question of docs/, after a build
+```
+
+Write prose the way you always did — `page 039`, `pages 038 to 040` — and let the tool do the rest. A single reference is linked whole, `[page 039](…)`, which keeps `page 039` one contiguous string so that the renumberer, the parity assertions, and the panel-reference scanner all keep reading it. A range or a list cannot be one link, because it names more than one destination, so there the keyword stays outside and each number carries its own target. What is *not* linked matters as much: `printed page 12` is somebody else's book, `page 1 is a recto` is a rule that stays true whatever moves, an unpadded `page 45` cannot be told apart from a source citation, `same-event-as-page-003` is a record key rather than a sentence, and a heading names the page it sits on rather than pointing at another one.
+
+Targets are derived, never maintained by hand. In the sources they are repository-relative, so GitHub and any Markdown editor follow them, and they point into the edition the file belongs to: novella prose to novella prose, a page script to the neighbouring script, an appendix entry to the novella — the entry lists the graphic-novel address separately under every entry anyway. `pagination.py` and `panels.py` re-derive every target as part of their own operations, so renumbering a page or moving one to another chapter leaves the links pointing at the pages they name.
+
+The builder asks for one resolver per edition, and the same prose comes out addressed five different ways: the novella reader links to a chapter route and an anchor, the self-contained HTML download to an anchor in the same file, the EPUB to `chNN.xhtml#pNNN`, the Markdown download to an absolute address on the published site — it is read away from the site — and the graphic novel, the page scripts, and the production routes to a viewer page. The plain-text download gets no resolver at all: it cannot carry a link, so it takes the same prose with the links flattened back to words.
+
+`check` is in CI twice, before the build and after it. The second pass reads the built HTML, the Markdown download, and the EPUB's XHTML, and fails on any page reference a reader cannot follow — with the same exemptions the sources get, plus one more: a route that names its own subject, `Page 042` on page 042 or `Pages 016–029` on chapter 01, is a label rather than a pointer, and has nowhere to go.
 
 ## Panels
 

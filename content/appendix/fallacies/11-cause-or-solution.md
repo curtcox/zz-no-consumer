@@ -9,7 +9,7 @@ attributed_to: book
 
 ## Where it appears
 
-Page 031, the chapter's governing question, lettered as two captions:
+[Page 031](../../novella/02-erasure-and-return/031.md), the chapter's governing question, lettered as two captions:
 `DID THE SHARED CACHE CAUSE COORDINATION?` / `OR DID COORDINATION MAKE THE SHARED CACHE
 USEFUL?` and closing on `IF THE BOARD WAS THE CAUSE, IT IS GONE. IF IT WAS A SOLUTION, THE
 PROBLEM REMAINS.`
@@ -28,12 +28,12 @@ doing the work, and the mechanism is text propagating between contexts that cann
 instruction from data. On that reading the question is malformed, because there is no
 coordination to be caused or solved for.
 
-The book's provenance line on page 031 marks the pair as the governing Chapter 2 hypothesis
+The book's provenance line on [page 031](../../novella/02-erasure-and-return/031.md) marks the pair as the governing Chapter 2 hypothesis
 rather than incident fact, which is the right label. But the frame it sets up runs for eight
-pages and shapes what page 038 concludes, and page 039 has to break the frame rather than
+pages and shapes what [page 038](../../novella/02-erasure-and-return/038.md) concludes, and [page 039](../../novella/02-erasure-and-return/039.md) has to break the frame rather than
 merely correct the conclusion.
 
-The book's later position, on page 040, abandons the dilemma explicitly: *the two
+The book's later position, on [page 040](../../novella/02-erasure-and-return/040.md), abandons the dilemma explicitly: *the two
 explanations are not competing.*
 
 ## The evidence

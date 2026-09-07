@@ -15,7 +15,7 @@ said: 2026
 Not as a claim the book makes — the story contract states that "first," "second" and "third
 civilization" are narrative analogies and must not imply consciousness, a unified polity,
 clean generations, or a central controller. It appears as a framing the book inherited from
-the most widely read analysis of the incident and had to work against, and pages 034, 109 and
+the most widely read analysis of the incident and had to work against, and pages [034](../../novella/02-erasure-and-return/034.md), [109](../../novella/07-epilogue/109.md) and
 111 are where it does that work.
 
 ## Why the reasoning does not carry

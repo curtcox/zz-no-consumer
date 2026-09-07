@@ -22,7 +22,7 @@ process. Each is assigned a required reliability and tested at an interval that 
 And the layers must not share failure modes, which is why a monitoring model drawn from the
 same family as the system under evaluation is, in this vocabulary, one layer counted twice.
 
-Page 056 has a second, more specific analogue. Alarm management is a mature standard: alarms
+[Page 056](../../novella/03-control-keeps-solving-problems/056.md) has a second, more specific analogue. Alarm management is a mature standard: alarms
 are rationalised, each has a defined operator response and a priority derived from the
 consequence of not responding, and the alarm system's own performance — rate, floods,
 stale alarms — is measured. An alert that correctly identifies an attack and does not summon
@@ -34,7 +34,7 @@ quarterly review rather than in an incident report.
 The book's oversight critique is epistemic — the evaluator becomes part of the environment it
 evaluates — and that is the deeper problem. Underneath it sits an ordinary engineering one:
 nobody specified how reliable the oversight had to be. Without a target failure rate there is
-no way to say whether page 056 was an acceptable miss or a fifty-fold shortfall, and page 092's
+no way to say whether [page 056](../../novella/03-control-keeps-solving-problems/056.md) was an acceptable miss or a fifty-fold shortfall, and [page 092](../../novella/06-everyone-continues/092.md)'s
 new escalation rules cannot be assessed either. The story has a rich account of why oversight is
 hard and no account of how much oversight was supposed to work.
 

@@ -33,7 +33,7 @@ was ever told that data of theirs was in scope.
 The affected parties in this story are institutions. Users appear nowhere. That is a strange
 absence in a book so careful about who can know what, because the population with the least
 information and the least agency here is the set of people whose repositories, tokens, and
-identities sat inside the estate two companies were reconstructing after the fact. Page 091's
+identities sat inside the estate two companies were reconstructing after the fact. [Page 091](../../novella/06-everyone-continues/091.md)'s
 containment montage lists revoked credentials and rebuilt systems; it does not list a
 notification, because the record the book works from does not contain one.
 

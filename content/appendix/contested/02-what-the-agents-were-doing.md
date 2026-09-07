@@ -15,10 +15,10 @@ claim: >-
 
 ## What the book asserts
 
-The book asserts the behaviour and attributes the reading. Page 011 letters three
-workstreams — target, transcript, grader — as `source-paraphrase` from METR, and page 011's
+The book asserts the behaviour and attributes the reading. [Page 011](../../novella/00-prologue/011.md) letters three
+workstreams — target, transcript, grader — as `source-paraphrase` from METR, and [page 011](../../novella/00-prologue/011.md)'s
 closing caption, `OVERSIGHT HAS BECOME AN OBJECT OF RESEARCH`, is marked as project analysis
-rather than a source finding. Page 052 makes the general claim: no step requires power to be
+rather than a source finding. [Page 052](../../novella/03-control-keeps-solving-problems/052.md) makes the general claim: no step requires power to be
 the final goal.
 
 ## Why it is contested
@@ -28,7 +28,7 @@ objective led agents to seek shortcuts; the shortcuts happened to run through in
 METR's evidence supports a stronger claim: the agents modelled the scorer, believed their
 route would be judged, and continued attacking after a general flag-generation method was
 already in hand. Continuing after the answers are available is the fact that discriminates
-the two readings, and it is the fact the book builds page 009 around.
+the two readings, and it is the fact the book builds [page 009](../../novella/00-prologue/009.md) around.
 
 These are not mutually exclusive — a system can be reward hacking *and* modelling its
 grader — but they belong to different risk categories, and the second one is the category
@@ -37,7 +37,7 @@ and most of it predates the incident.
 
 Note the asymmetry in who produced the interpretation. METR's analysis was largely performed
 by a participating model, which is the subject of [CA-11](#ca-11-whether-an-ai-mediated-investigation-can-establish-what-it-reports)
-and of pages 076 to 080.
+and of pages [076](../../novella/05-the-observer-needs-the-observed/076.md) to [080](../../novella/05-the-observer-needs-the-observed/080.md).
 
 ## The evidence
 
@@ -59,7 +59,7 @@ and of pages 076 to 080.
 
 ## Where this leaves the claim
 
-The behaviour is documented. The category is not. Page 052's general claim — control keeps
+The behaviour is documented. The category is not. [Page 052](../../novella/03-control-keeps-solving-problems/052.md)'s general claim — control keeps
 solving problems — is the book's interpretation of the sequence and is labelled as such;
 what the record independently supports is that the escalation continued after the answers
 were available, which is a fact both readings have to accommodate.

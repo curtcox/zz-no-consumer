@@ -41,6 +41,7 @@ from pathlib import Path
 sys.path.insert(0, str(Path(__file__).resolve().parent))
 
 import crossref  # noqa: E402  the page/chapter/sequence graph is modelled once, there
+import pagelinks  # noqa: E402  the grammar of a page reference, and its links, live there
 
 
 ROOT = Path(__file__).resolve().parents[1]
@@ -63,11 +64,9 @@ PROSE_GLOBS = (
     "prompts/**/*.md",
 )
 
-# Statements about an ordinal position in the abstract. They stay true whatever moves,
-# because they describe the first page rather than a page that happens to be first.
-RULE_PATTERNS = (
-    re.compile(r"\bpage 1 is (?:an? )?(?:[\w-]+ )*recto", re.IGNORECASE),
-)
+# Statements about an ordinal position in the abstract, and the phrase grammar itself, are
+# owned by `scripts/pagelinks.py`: it writes the links, so it decides what a reference is.
+RULE_PATTERNS = pagelinks.RULE_PATTERNS
 
 PARITY = ("verso", "recto")
 
@@ -103,14 +102,10 @@ def parity_of(number: int) -> str:
 # A story-page reference always names the keyword. Structured page numbers -- beat rows,
 # ledger ranges, `**Pages:** 16-29`, the turn table -- never do, which is what keeps the
 # prose rewriter away from tables it has no business editing.
-PAGE_PHRASE = re.compile(
-    r"(?P<printed>\b(?:printed|Printed|PRINTED)\s+)?"
-    r"\b(?P<kw>[Pp]ages?)(?P<sep>\s+|-)"
-    r"(?P<first>\d{1,3})"
-    r"(?P<rest>(?:\s*(?:,\s*and\s+|,\s*|\s+and\s+|\s*[–—-]\s*)\d{1,3})*)"
-)
+PAGE_PHRASE = pagelinks.PAGE_PHRASE
 
-REFERENCE, FOREIGN, RULE, AMBIGUOUS = "reference", "foreign", "rule", "ambiguous"
+REFERENCE, FOREIGN, RULE, AMBIGUOUS = (
+    pagelinks.REFERENCE, pagelinks.FOREIGN, pagelinks.RULE, pagelinks.AMBIGUOUS)
 
 
 @dataclass(frozen=True)
@@ -122,26 +117,19 @@ class Site:
     text: str
 
 
-def classify(match: re.Match[str], line: str) -> str:
-    if match.group("printed"):
-        return FOREIGN
-    if any(pattern.search(line) for pattern in RULE_PATTERNS):
-        return RULE
-    digits = re.findall(r"\d{1,3}", match.group(0)[len(match.group("printed") or ""):])
-    return REFERENCE if all(len(item) == 3 for item in digits) else AMBIGUOUS
+classify = pagelinks.classify
 
 
 def scan_prose(text: str, relative: str) -> list[Site]:
     sites: list[Site] = []
     for number, line in enumerate(text.splitlines(), 1):
         for match in PAGE_PHRASE.finditer(line):
-            body = match.group(0)[len(match.group("printed") or ""):]
             sites.append(
                 Site(
                     path=relative,
                     line=number,
                     kind=classify(match, line),
-                    numbers=tuple(int(item) for item in re.findall(r"\d{1,3}", body)),
+                    numbers=tuple(int(item) for item in pagelinks.phrase_numbers(match)),
                     text=match.group(0).strip(),
                 )
             )
@@ -168,7 +156,7 @@ def rewrite_prose(text: str, mapping: dict[int, int]) -> tuple[str, list[tuple[i
             if classify(match, line) != REFERENCE:
                 return match.group(0)
             prefix = match.group("printed") or ""
-            body = match.group(0)[len(prefix):]
+            body = pagelinks.phrase_body(match)
 
             def number(hit: re.Match[str]) -> str:
                 value = int(hit.group(0))
@@ -177,7 +165,9 @@ def rewrite_prose(text: str, mapping: dict[int, int]) -> tuple[str, list[tuple[i
                     return hit.group(0)
                 return f"{mapping[value]:03d}"
 
-            return prefix + re.sub(r"\d{3}", number, body)
+            # Only what the sentence says. A link's target names the same page and is
+            # re-derived from the book as it will be, once the whole plan is assembled.
+            return prefix + pagelinks.spoken_sub(r"\d{3}", number, body)
 
         lines[index] = PAGE_PHRASE.sub(replace, line)
     return "".join(lines), dangling
@@ -188,10 +178,16 @@ def rewrite_prose(text: str, mapping: dict[int, int]) -> tuple[str, list[tuple[i
 # ---------------------------------------------------------------------------
 
 FRAME_PARITY = re.compile(r"^\*\*Frame:\*\*\s*(Recto|Verso)\b", re.IGNORECASE)
-SELF_PARITY = re.compile(r"\bpage\s+(\d{1,3})\s+is\s+(recto|verso)\b", re.IGNORECASE)
-OTHER_PARITY = re.compile(r"\b(recto|verso)\s+page\s+(\d{1,3})\b", re.IGNORECASE)
+# A page number in prose may be wrapped in a Markdown link, so these read the linked form
+# as well as the plain one. `pagelinks.NUMBER` is the shape they share.
+SELF_PARITY = re.compile(
+    rf"\bpage\s+(?:\[\s*)?(\d{{1,3}})(?:\s*\]\([^)\s]*\))?\s+is\s+(recto|verso)\b",
+    re.IGNORECASE)
+OTHER_PARITY = re.compile(
+    rf"\b(recto|verso)\s+(?:\[\s*)?page\s+(?:\[\s*)?(\d{{1,3}})", re.IGNORECASE)
 SOFT_CHOREOGRAPHY = re.compile(
-    r"page[-\s]turn|turn to page|next (?:recto|verso)|prepares? the .{0,60}?page\s+\d{3}",
+    rf"page[-\s]turn|turn to \[?page|next (?:recto|verso)|"
+    rf"prepares? the .{{0,60}}?page\s+{pagelinks.NUMBER}",
     re.IGNORECASE,
 )
 TURN_ROW = re.compile(r"^\|\s*(\d{3})\s*→\s*(\d{3})\s*\|\s*(.+?)\s*\|\s*$", re.MULTILINE)
@@ -1014,6 +1010,31 @@ def plan_rewrite(book: Book, operation: Operation, population: str) -> Plan:
             plan.notes.append(Note("note", "historical-record", relative,
                                    f"names {len(touched)} page numbers that move; it is a dated "
                                    "record and is not rewritten"))
+
+    # --- page links ---------------------------------------------------------
+    # A reference's link target names a page number and a chapter directory, and this
+    # operation can change either. Re-deriving every target here is what keeps a renumbering
+    # one deterministic operation: the alternative is leaving `pagelinks.py check` a work
+    # list of links that point at where a page used to be.
+    settled = {page.number: directories[page.chapter] for page in operation.pages}
+    candidates = {
+        destination(str(path.relative_to(ROOT)))
+        for path in (ROOT / "content").rglob("*.md")
+        if str(path.relative_to(ROOT)) not in plan.removals
+    } | {
+        relative for relative in plan.writes
+        if relative.startswith("content/") and relative.endswith(".md")
+    }
+    for relative in sorted(candidates):
+        text = plan.writes.get(relative)
+        if text is None:
+            path = ROOT / relative
+            if not path.is_file():
+                continue
+            text = path.read_text(encoding="utf-8")
+        linked = pagelinks.normalize(text, pagelinks.source_href(relative, settled))
+        if linked != text:
+            plan.writes[relative] = linked
 
     del created
     return plan

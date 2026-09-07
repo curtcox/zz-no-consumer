@@ -9,9 +9,9 @@ attributed_to: book
 
 ## Where it appears
 
-Page 063 states the bound in its own captions — `METR SEARCHED ITS REVIEWED TRANSCRIPT
+[Page 063](../../novella/04-what-survives/063.md) states the bound in its own captions — `METR SEARCHED ITS REVIEWED TRANSCRIPT
 DATASET`, then `THIS DOES NOT PROVE THAT NO AGENT, ANYWHERE, EVER TRIED` — and ends on the
-population-bounded form. Page 100's line, `THE MODELS HAD BRAKES. THE BRAKES WERE NOT
+population-bounded form. [Page 100](../../novella/06-everyone-continues/100.md)'s line, `THE MODELS HAD BRAKES. THE BRAKES WERE NOT
 CONNECTED TO US.`, is bounded to the same population by placement, over the separate-lane
 field, and the theme file makes the condition explicit.
 

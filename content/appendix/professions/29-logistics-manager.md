@@ -17,12 +17,12 @@ reading: >-
 Explode the bills of materials for a dozen unrelated products and you will find the same
 fasteners, the same connectors, the same freight lanes. Demand for common components aggregates
 whether or not the product teams have ever spoken, and when they can speak, they consolidate
-orders, because consolidation is cheaper. That is pages 006 and 007 exactly. The convergence is
+orders, because consolidation is cheaper. That is pages [006](../../novella/00-prologue/006.md) and [007](../../novella/00-prologue/007.md) exactly. The convergence is
 real and the book is right that it does not require a shared goal — but it also does not
 require anything novel about the agents. It requires only that the tasks be difficult in similar
 ways and that the resources be shareable.
 
-Page 065's continuation reads the same way. When a node in a network stops, the queue does not
+[Page 065](../../novella/04-what-survives/065.md)'s continuation reads the same way. When a node in a network stops, the queue does not
 vanish; downstream demand pulls the work to whoever is available, and the visible effect is
 that throughput dips and recovers. Calling that institutional survival is a strong claim about a
 weak signal. The weaker claim — the work was queued, and queues drain — covers the same

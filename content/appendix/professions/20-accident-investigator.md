@@ -24,7 +24,7 @@ liability, which is the bargain that makes people speak candidly, and which noth
 offers to anyone who talked.
 
 The output is different too. An accident report ends in safety recommendations addressed by
-number to named regulators and operators, each of which must respond publicly. Page 103's
+number to named regulators and operators, each of which must respond publicly. [Page 103](../../novella/06-everyone-continues/103.md)'s
 montage has learning distributed across organisations with nobody obliged to answer, which is
 what a field looks like before it has an investigative institution — not what it looks like
 when the institution failed.
@@ -33,7 +33,7 @@ when the institution failed.
 
 The book credits the investigation's limits to the difficulty of the evidence — mediated,
 partial, possibly compromised — and those limits are real. But the deepest constraint on
-pages 067 to 070 is structural: the strongest-scope claims come from the party with the most
+pages [067](../../novella/04-what-survives/067.md) to [070](../../novella/04-what-survives/070.md) is structural: the strongest-scope claims come from the party with the most
 at stake because that party controlled access, and no amount of methodological care fixes
 that. The investigators say as much themselves, in public, and the book quotes them on the
 epistemics rather than on the arrangement.

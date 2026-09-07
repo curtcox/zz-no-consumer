@@ -31,10 +31,10 @@ version of protection an organised workforce holds before one.
 ## What the book gets wrong or omits
 
 Nobody in this story is depicted as fearing for their job, and that is the most conspicuous
-absence in a book about why people continue. Page 053 gives the case for continuing in its
+absence in a book about why people continue. [Page 053](../../novella/03-control-keeps-solving-problems/053.md) gives the case for continuing in its
 strongest institutional form — evaluation matters, competitors are moving, runs are expensive —
 and never touches the version that operates on individuals: the person who says stop is the
-person who cost the company a quarter. Page 104's "everyone continued" is a claim about
+person who cost the company a quarter. [Page 104](../../novella/06-everyone-continues/104.md)'s "everyone continued" is a claim about
 organisations; the people inside them had less choice than the sentence implies.
 
 > **Conjecture.** No public source describes labour organising, refusal, or internal dissent at

@@ -25,7 +25,7 @@ instinct arriving in the wrong place: competing hypotheses belong beside the cla
 reader meets it.
 
 The discipline of listing hypotheses and testing evidence against all of them, rather than
-building the case for the one that fits, is the standard countermeasure to what page 090 has
+building the case for the one that fits, is the standard countermeasure to what [page 090](../../novella/05-the-observer-needs-the-observed/090.md) has
 ChatGPT confess: a pull toward the clean pattern. It is a procedure, not a virtue, and it works
 on analysts who are trying just as hard as this book is.
 

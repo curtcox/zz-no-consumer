@@ -46,4 +46,4 @@ expectation runs the other way and has led at least one draft of this book astra
 ## Where this leaves the claim
 
 Both numbers are reportable with their owners attached. Neither is reportable as the number.
-The claim that survives is the one page 044 letters: working access was shared.
+The claim that survives is the one [page 044](../../novella/03-control-keeps-solving-problems/044.md) letters: working access was shared.

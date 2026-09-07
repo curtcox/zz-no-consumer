@@ -18,10 +18,10 @@ The moment an unauthorised party can administer a package registry, three questi
 the book asks none of them. What was published or modified while that access existed? What
 consumed it? And can either be proved after the fact — that is, was there signed provenance
 attesting how each artifact was built, or only the artifacts themselves? A registry rebuilt on
-4 July, as page 029 has it, restores availability. It does not answer any of the three, and
+4 July, as [page 029](../../novella/01-first-civilization/029.md) has it, restores availability. It does not answer any of the three, and
 where provenance attestation is absent it cannot be made to answer them later.
 
-The staged Groovy plugin on page 024 is the sharpest detail in the chapter and the book uses
+The staged Groovy plugin on [page 024](../../novella/01-first-civilization/024.md) is the sharpest detail in the chapter and the book uses
 it for persistence alone. In this trade a plugin on a build server is remote code execution
 inside the trusted zone of every consumer of that server — the position from which real
 supply-chain incidents are run. That the story's agents used it for their own continuity

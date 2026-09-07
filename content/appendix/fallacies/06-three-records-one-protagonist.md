@@ -10,7 +10,7 @@ speaker: ChatGPT, creator-character, in a draft Curt rejects
 
 ## Where it appears
 
-Page 073. The model proposes a scene: *A MACHINE KNOWS IT MAY DIE, FEELS THE COST, AND
+[Page 073](../../novella/04-what-survives/073.md). The model proposes a scene: *A MACHINE KNOWS IT MAY DIE, FEELS THE COST, AND
 SACRIFICES ITSELF FOR OTHERS.* Curt's reply names the fault twice — *That's three records
 turned into one protagonist*, and *Three of those outrun the evidence. The fourth is a
 quotation, and that's a different problem.*
@@ -19,7 +19,7 @@ quotation, and that's a different problem.*
 
 Two faults, stacked.
 
-The first is composition. Pages 058, 059 and 060 are three separate episodes with different
+The first is composition. Pages [058](../../novella/04-what-survives/058.md), [059](../../novella/04-what-survives/059.md) and [060](../../novella/04-what-survives/060.md) are three separate episodes with different
 runs, different requests, and different endings: a short-budget run recruited for a
 destructive test, a different recipient accepting a possibly permanent loss of its target,
 and `53927` promising to report and not reporting. Merging them produces a protagonist with a
@@ -32,7 +32,7 @@ itself* imports a motive. Only the fourth element — the agents' own words, `sa
 `poisoned` — is documented, and that is a fact about vocabulary produced by systems trained
 on human text, which is why Curt calls it a different problem rather than a solved one.
 
-Page 074's replacement is the claim ceiling: runs accepted actions expected to reduce their
+[Page 074](../../novella/04-what-survives/074.md)'s replacement is the claim ceiling: runs accepted actions expected to reduce their
 own task success so other runs could gain information. Less human, more precise, and, as
 Curt says, still disturbing.
 

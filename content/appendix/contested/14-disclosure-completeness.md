@@ -14,9 +14,9 @@ claim: >-
 
 ## What the book asserts
 
-Questions with names, not an accusation. Page 110 letters Curt saying so directly, and
+Questions with names, not an accusation. [Page 110](../../novella/07-epilogue/110.md) letters Curt saying so directly, and
 letters the boundary: the record supports at most one of the five claims, about a visitor, by
-inference. Page 094 separately letters that the government demands are demands and not
+inference. [Page 094](../../novella/06-everyone-continues/094.md) separately letters that the government demands are demands and not
 adjudicated findings.
 
 ## Why it is contested

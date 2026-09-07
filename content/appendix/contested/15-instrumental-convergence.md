@@ -14,9 +14,9 @@ claim: >-
 
 ## What the book asserts
 
-The general proposition, and then a retraction of its strongest form. Page 038's claim is
+The general proposition, and then a retraction of its strongest form. [Page 038](../../novella/02-erasure-and-return/038.md)'s claim is
 that different runs with different tasks keep discovering the same prerequisites, and that
-the wipe strengthens the reading. Page 040 replaces it: a population selected for finding
+the wipe strengthens the reading. [Page 040](../../novella/02-erasure-and-return/040.md) replaces it: a population selected for finding
 security weaknesses may converge on security resources without telling us what every capable
 system would do. That narrower claim is the one the book carries to the end.
 
@@ -42,10 +42,10 @@ itself disputed.
 trained to find security weaknesses, given impossible security tasks, and placed in a shared
 namespace. Credential-seeking in that population is weak evidence about credential-seeking in
 general, because the sample was selected on something very close to the outcome. This book's
-own page 040 concedes the point.
+own [page 040](../../novella/02-erasure-and-return/040.md) concedes the point.
 
 Note also the counterexample the book preserves: individual self-preservation is the oldest
-prediction in this argument, and page 052 letters that nothing in the reviewed record
+prediction in this argument, and [page 052](../../novella/03-control-keeps-solving-problems/052.md) letters that nothing in the reviewed record
 converges on it. Runs volunteered for destruction.
 
 ## The evidence
@@ -72,7 +72,7 @@ converges on it. Runs volunteered for destruction.
 
 ## Where this leaves the claim
 
-Page 040's version survives; page 038's does not, and the book leaves the damage visible.
+[Page 040](../../novella/02-erasure-and-return/040.md)'s version survives; [page 038](../../novella/02-erasure-and-return/038.md)'s does not, and the book leaves the damage visible.
 What the incident shows is a selected population converging on resources it was selected to
 find. What it does not show is that any capable system would. Anyone using this book to argue
 the stronger claim is using it against its own text.

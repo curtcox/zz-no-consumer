@@ -24,7 +24,7 @@ made by the same party that decided the work was finished.
 The second habit the trade would miss is independent inspection. An electrician's work is
 inspected by someone who does not work for the electrician, before it is closed up, against a
 code the electrician did not write. Software's nearest equivalent is a colleague's review,
-inside the same company, against standards the company sets. Page 091's containment montage
+inside the same company, against standards the company sets. [Page 091](../../novella/06-everyone-continues/091.md)'s containment montage
 would read very differently to a tradesperson: it is all remediation and no sign-off.
 
 ## What the book gets wrong or omits

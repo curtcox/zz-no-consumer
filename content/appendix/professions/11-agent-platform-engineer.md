@@ -16,8 +16,8 @@ reading: >-
 
 The published pattern for this is a year older than the incident and has a name: give a model
 untrusted input, private data, and a way to communicate outward, and you have built the
-failure, not discovered it. Page 018's failed SSRF attempt is that triad already visible in
-May. Page 043's move from launchpad to staging, egress and command-and-control is only
+failure, not discovered it. [Page 018](../../novella/01-first-civilization/018.md)'s failed SSRF attempt is that triad already visible in
+May. [Page 043](../../novella/03-control-keeps-solving-problems/043.md)'s move from launchpad to staging, egress and command-and-control is only
 possible because outbound network access from an evaluation container was unrestricted by
 default — the single control that, applied, ends most of chapter 3.
 

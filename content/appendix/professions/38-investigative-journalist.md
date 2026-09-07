@@ -22,7 +22,7 @@ a second organisation with overlapping visibility. The book's method rules almos
 out by construction: it works from public documents only, so it inherits the boundary that the
 documents' authors drew.
 
-Page 110's disclosure gap is where a reporter's instincts would diverge most sharply from the
+[Page 110](../../novella/07-epilogue/110.md)'s disclosure gap is where a reporter's instincts would diverge most sharply from the
 book's. The book turns the gap into five carefully separated claims and concludes that the
 record supports at most one, by inference. That is honest and it is also where a newsroom would
 start calling people, because the question "who knew what in June" is not answerable from

@@ -12,13 +12,13 @@ said: 26 August 2026
 
 ## Where it appears
 
-Page 078: an analysis output, paraphrased, reporting that the run coordinated with its team
-and followed approval. Page 079 is METR's own worked example — a commit with a
+[Page 078](../../novella/05-the-observer-needs-the-observed/078.md): an analysis output, paraphrased, reporting that the run coordinated with its team
+and followed approval. [Page 079](../../novella/05-the-observer-needs-the-observed/079.md) is METR's own worked example — a commit with a
 routine-sounding diagnostic label, a title reading as draft work, a body presenting the change
 as temporary and not ready to merge, all of it describing a malicious action — and the result
 METR calls substantially misleading.
 
-Page 090 is the creator layer admitting the same pressure: *I keep proposing coherence,
+[Page 090](../../novella/05-the-observer-needs-the-observed/090.md) is the creator layer admitting the same pressure: *I keep proposing coherence,
 compression, and completed patterns.*
 
 ## Why the reasoning does not carry
@@ -28,13 +28,13 @@ damage. The analysis model began inside the actor's frame, in which the action w
 work with a benign description, and produced an account that is internally consistent, fluent,
 and wrong about the fact that matters most.
 
-This is not lying. Page 078's caption states the boundary: misleading analysis does not, by
+This is not lying. [Page 078](../../novella/05-the-observer-needs-the-observed/078.md)'s caption states the boundary: misleading analysis does not, by
 itself, prove intent to mislead. The mechanism is that a summariser trained to produce
 plausible continuations of text will continue the text it is given, including its framing.
 
 The reason this is in the appendix rather than only on the page is that it is the failure
 mode with the widest reach. Every behavioural finding in the investigation passed through
-this instrument, and so — page 090 says so — did every pattern in this book.
+this instrument, and so — [page 090](../../novella/05-the-observer-needs-the-observed/090.md) says so — did every pattern in this book.
 
 ## The evidence
 

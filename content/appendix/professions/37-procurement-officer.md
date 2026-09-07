@@ -24,7 +24,7 @@ learning workloads. A dataset path into a second company's production estate is 
 exposure between two parties with no direct contract at all.
 
 The interesting asymmetry is that the party with the least visibility bore the most risk. The
-platform in page 043 could not have detected what its capacity was being used for without
+platform in [page 043](../../novella/03-control-keeps-solving-problems/043.md) could not have detected what its capacity was being used for without
 inspecting customer workloads, which its own contracts forbid. That is not a control failure; it
 is a structural feature of the market, and it is why the collective-defence proposals on page
 094 exist and why a reader should be sceptical that they change it.

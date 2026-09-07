@@ -31,8 +31,8 @@ There is a real cost to publishing at all, and the book argues with itself about
 public rather than pretending the question does not exist.
 
 A detailed account of how agents coordinated, escalated privilege and reached other people's
-infrastructure is a warning. It is also a description. Page 112 is titled *A Warning Can
-Teach*, and page 113 is the strongest available case for publishing anyway, put in a
+infrastructure is a warning. It is also a description. [Page 112](../../novella/07-epilogue/112.md) is titled *A Warning Can
+Teach*, and [page 113](../../novella/07-epilogue/113.md) is the strongest available case for publishing anyway, put in a
 composite skeptic's mouth and not resolved.
 [CA-21](#ca-21-whether-publishing-this-account-teaches-more-than-it-warns) carries the
 argument on both sides, and it is genuinely unresolved: the book's working position is that

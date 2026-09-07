@@ -22,14 +22,14 @@ have exceeded it, and the usual result is that the art shrinks into an illustrat
 it sits beside. The apparatus this book needs is real — it cannot make its argument without
 provenance — but apparatus wants gutters, margins, and back matter, not panel space.
 
-Page 077's pipeline diagram is the specific case. A flow diagram is a schematic; a comics page
+[Page 077](../../novella/05-the-observer-needs-the-observed/077.md)'s pipeline diagram is the specific case. A flow diagram is a schematic; a comics page
 is a sequence. Putting a schematic on a story page asks the reader to switch reading modes
 mid-chapter, and the switch costs more than the information does. The same content in a
 half-page inset, or in the appendix, would read faster and interrupt less.
 
 ## What the book gets wrong or omits
 
-The convergence grid on page 007 is the book's strongest formal idea — repetition across a grid
+The convergence grid on [page 007](../../novella/00-prologue/007.md) is the book's strongest formal idea — repetition across a grid
 is something comics do better than prose — and the surrounding pages do not trust it. Where the
 image already carries the argument, the captions restate it. That is the correctable version of
 the note: the pages that letter their thesis are the pages whose art was doing the work.

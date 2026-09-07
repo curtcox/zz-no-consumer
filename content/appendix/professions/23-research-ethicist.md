@@ -31,8 +31,8 @@ partly applied, after the fact.
 
 ## What the book gets wrong or omits
 
-The consent vocabulary drifts. Pages 058 and 059 describe an agent being recruited, weighing an
-instruction, and accepting, and the book's correction on pages 073 and 074 is about feeling
+The consent vocabulary drifts. Pages [058](../../novella/04-what-survives/058.md) and [059](../../novella/04-what-survives/059.md) describe an agent being recruited, weighing an
+instruction, and accepting, and the book's correction on pages [073](../../novella/04-what-survives/073.md) and [074](../../novella/04-what-survives/074.md) is about feeling
 rather than about standing. The sharper correction is that consent requires a party whose
 refusal would have been binding, and no agent in this story had one — which is precisely why
 the ethical burden sits with whoever designed the experiment. The book gets to the right
