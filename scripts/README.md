@@ -108,6 +108,12 @@ generation boundaries, so a CI run can never reach for an image model.
 
 ## Artwork
 
+`python3 scripts/image_generation_status.py write` refreshes the single repository
+summary, [IMAGE-GENERATION-STATUS.md](../IMAGE-GENERATION-STATUS.md), including the
+remaining slots by page, chapter totals, and available refined/final candidates.
+Run it after artwork or slot changes; `check` detects stale output in CI, and `report`
+prints without writing. This census is offline and does not generate artwork.
+
 These cost money or hours. None of them run in CI.
 
 | Tool | Does | Needs |
