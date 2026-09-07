@@ -14,10 +14,11 @@ A graphic novel about emergent AI agent coordination, instrumental convergence, 
 - `design/` — lettering, page grammar, palette, visual continuity, and layout references.
 - `assets/` — artwork and other media used by the site.
 - `data/` — structured page, character, continuity, asset, and generation metadata.
-- `scripts/` — validation, cross-reference, and site-generation utilities.
+- `scripts/` — validation, cross-reference, and site-generation utilities; [`scripts/README.md`](scripts/README.md) indexes every one of them.
 - `site/` — source styles and templates for the published site.
 - `docs/` — generated GitHub Pages output; do not edit manually.
 - `tasks/` — development task briefs for tooling work, written to be handed to a fresh session.
+- `CLAUDE.md` — the short orientation: the ownership map, the invariants, and the check suite, for anyone — or anything — starting work here cold.
 - `CREDITS.md` — the one list of people, AI systems, sources, models, tools and licence behind the book; rendered as the site's credits page and set as the book's endmatter (`content/credits.md`).
 
 The complete first-draft script — 116 pages today, and the count is a measurement rather than a commitment — is in `content/pages/`, with every page in review except the six-page dated addition (pages 106–111), which is in draft. The assumptions are locked in `content/story-contract.md`, the beat sheet is `content/page-plan.md`, and the drafting and production protocol is `content/draft-readiness.md`. The source-language audit and completed paraphrase disposition are in `research/exact-text-permissions-audit.md`; the story-level security pass and resolved public-site scope decision are in `research/security-sensitivity-review.md`. Last-mile attribution rules remain in `research/draft-source-notes.md`. Before revising or renaming pages, run:
