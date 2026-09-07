@@ -42,7 +42,7 @@ partly cover.
 | --- | --- | --- |
 | `content/pages/NNN.md` | you, by hand | the canonical script; one file per story page |
 | `content/novella/CC-chapter/NNN.md` | you, by hand | prose retelling, one file per story page |
-| `content/appendix/**` | you, by hand | contested assertions, fallacies, professional objections |
+| `content/appendix/**` | you, by hand | questions, contested assertions, fallacies, professional objections |
 | `content/*.md`, `design/`, `research/`, `prompts/` | you, by hand | contract, beat sheet, briefs, design notes, source material |
 | `data/pages.yaml`, `data/chapters.yaml` | **`pagination.py`** | edit by hand only to change a title or status, never a number |
 | `data/panel-types.tsv` | **`paneltypes.py write`** | regenerate, don't edit |
@@ -75,8 +75,10 @@ partly cover.
    chapter source packet, and `crossref.py check --strict` fails on the drift.
 7. **The appendix has structural rules `appendix.py check` enforces:** a contested assertion
    needs evidence from at least two stances, a fallacy entry naming a real person or
-   organisation needs the URL and date of the statement, and a professional objection must
-   declare `conjecture: marked` or `conjecture: none` — a conjecture row may not carry a URL.
+   organisation needs the URL and date of the statement, a professional objection must
+   declare `conjecture: marked` or `conjecture: none` — a conjecture row may not carry a URL —
+   and a faq entry needs a title that is a question, an `answer:` line, and at least one
+   reference with a public address.
 8. **`content/story-contract.md` governs what the book may assert.** Read it before writing
    or editing any claim; `research/exact-text-permissions-audit.md` governs quoting sources.
 
@@ -120,16 +122,19 @@ python3 scripts/panels.py check
 
 A red check is a work list, not a baseline. The validators repair nothing on purpose.
 
-## State as of 6 September 2026
+## State as of 7 September 2026
 
 - The full CI chain above is green, and `pagination.py check` is green.
-- `panels.py check` exits 1 on two findings, both false positives: `NIST SP 800-61` and
-  `800-63` in `content/appendix/professions/` are read as panel keys naming a page 800. It is
-  not in CI, so the build stays green. Do not "fix" it by renaming the NIST publications.
-- `docs/` is one rebuild behind `content/novella/`: the last two prose commits did not
-  regenerate the site, so `build-site.py` currently rewrites the novella routes and all four
-  downloads. Rebuild and commit that output alongside the next content change.
+- `panels.py check` exits 1 on three findings, all the same false positive: `NIST SP 800-61`
+  and `800-63`, cited in `content/appendix/professions/` and `content/appendix/faq/`, are
+  read as panel keys naming a page 800. It is not in CI, so the build stays green. Do not
+  "fix" it by renaming the NIST publications.
+- `docs/` is current: the FAQ commit rebuilt it.
 - All 118 pages are `status: review` except pages 106–111, which are `draft`.
+- The appendix has four kinds, not three. `content/appendix/faq/` holds twenty `FQ-NN`
+  entries — anticipated reader questions, filed under a fixed `audience` vocabulary and held
+  to the same evidence rule as everything else there. They lead the assembled document and
+  the published index.
 
 ## Common tasks
 

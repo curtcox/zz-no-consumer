@@ -78,12 +78,13 @@ PARITY = ("verso", "recto")
 # and heading rewrite. `scripts/novella.py check` holds the tree to all four.
 NOVELLA_FILE = re.compile(r"^content/novella/([\w-]+)/(\d{3})\.md$")
 
-# The appendix of contested assertions and logical fallacies. An entry is addressed by story
+# The appendix of questions, contested assertions, fallacies and professional objections. An
+# entry is addressed by story
 # page rather than by chapter, and its addresses live in a `pages:` list in the front matter
 # as well as in its prose. The prose is rewritten by `rewrite_prose` like anything else in
 # `content/`; the list is a different shape and is rewritten here. `scripts/appendix.py check`
 # fails afterwards on any entry left pointing at a page the book no longer has.
-APPENDIX_FILE = re.compile(r"^content/appendix/(?:contested|fallacies)/[\w-]+\.md$")
+APPENDIX_FILE = re.compile(r"^content/appendix/(?:faq|contested|fallacies|professions)/[\w-]+\.md$")
 APPENDIX_PAGES = re.compile(r"^pages:\s*\[([^\]]*)\]\s*$", re.MULTILINE)
 
 

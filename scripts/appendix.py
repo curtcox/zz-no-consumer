@@ -1,12 +1,17 @@
 #!/usr/bin/env python3
-"""The appendix of contested assertions, logical fallacies, and professional objections.
+"""The appendix of questions, contested assertions, fallacies, and professional objections.
 
 `content/appendix/` holds one file per entry. An entry is keyed to story page numbers,
 which are the same numbers in the graphic novel and in the novella, so a single appendix
 serves both editions and a reader who has one can use it with the other.
 
-Three kinds of entry live here:
+Four kinds of entry live here:
 
+* **faq** — a question a reader is likely to arrive with, about the story or about how the
+  book was made, answered under the same evidence rule as everything else here. A question
+  is not a licence to assert: an answer that rests on the incident record cites it, an
+  answer about this book's own production cites the repository artifact that records it,
+  and an answer that is an editorial choice says that it is one.
 * **contested** — an assertion the book makes, or reports, whose truth is genuinely in
   dispute. Each carries the best available evidence *from more than one stance*, with a URL
   wherever a public one exists.
@@ -22,12 +27,12 @@ Three kinds of entry live here:
 
 The unit is the entry, the address is the page, and the evidence table is the payload.
 
-    python3 scripts/appendix.py report     # census, page coverage, stance and fallacy spread
+    python3 scripts/appendix.py report     # census, page coverage, stance, fallacy and audience spread
     python3 scripts/appendix.py check      # exit non-zero while the appendix disagrees with itself
     python3 scripts/appendix.py json       # the whole model, for other tools
     python3 scripts/appendix.py assemble   # the appendix as one Markdown document
 
-`check` holds three rules above the rest:
+`check` holds five rules above the rest:
 
 1. **Every cited page exists.** An entry that points at a page the book no longer has is a
    broken reference, exactly like a dangling page reference anywhere else in the tree.
@@ -41,6 +46,11 @@ The unit is the entry, the address is the page, and the evidence table is the pa
    carries the `> **Conjecture.**` marker in its prose, an entry that declares `none` carries
    neither the marker nor a conjecture row, and no conjecture row carries a URL — a row with
    a source is evidence and has to be filed as evidence.
+5. **A question is a question, and it is answered from somewhere.** A faq entry's title ends
+   in a question mark, states its short answer in the front matter rather than making the
+   reader find it, and carries at least one reference with a public address. An answer with
+   no address behind any of it is this book asserting its own reliability, which is the one
+   thing the appendix exists to stop it doing.
 """
 
 from __future__ import annotations
@@ -61,8 +71,9 @@ BASE = ROOT / "content" / "appendix"
 CONTESTED = BASE / "contested"
 FALLACIES = BASE / "fallacies"
 PROFESSIONS = BASE / "professions"
+FAQ = BASE / "faq"
 
-ID = re.compile(r"^(CA|LF|PR)-(\d{2})$")
+ID = re.compile(r"^(CA|LF|PR|FQ)-(\d{2})$")
 URL = re.compile(r"\[([^\]]+)\]\((https?://[^)\s]+)\)")
 BARE_URL = re.compile(r"https?://[^\s)\]<>]+")
 
@@ -111,6 +122,17 @@ FIELDS = {
     "public-service": "Investigation, emergency command, intelligence, diplomacy, and labour.",
 }
 
+# A faq entry files itself under one of these rather than naming its own topic, for the same
+# reason a fallacy entry names its fault from a list: so a reader can see which kinds of
+# question the book has actually anticipated, and so the answering cannot drift into whatever
+# the book most enjoys explaining about itself.
+AUDIENCES = {
+    "record": "What is documented, what is reported, and what this book invented.",
+    "method": "How the book was made: its instruments, its rules, and its apparatus.",
+    "story": "The narrative itself — its shape, its people, its chronology, and its ending.",
+    "objection": "The hostile question, asked in the terms a sceptical reader would use.",
+}
+
 CONJECTURE_MARKER = "> **Conjecture.**"
 CONJECTURE_STANCE = "conjecture"
 
@@ -118,7 +140,7 @@ ATTRIBUTIONS = ("in-story", "book", "named-source")
 LAYERS = ("incident", "thesis")
 STATUSES = ("unresolved", "disputed", "bounded", "open")
 CONJECTURES = ("marked", "none")
-KINDS = ("contested", "fallacy", "profession")
+KINDS = ("contested", "fallacy", "profession", "faq")
 
 
 @dataclass(frozen=True)
@@ -174,6 +196,10 @@ class Appendix:
     @property
     def professions(self) -> list[Entry]:
         return [entry for entry in self.entries if entry.kind == "profession"]
+
+    @property
+    def faqs(self) -> list[Entry]:
+        return [entry for entry in self.entries if entry.kind == "faq"]
 
     def by_page(self) -> dict[int, list[Entry]]:
         index: dict[int, list[Entry]] = {}
@@ -266,7 +292,7 @@ def read_entry(path: Path) -> Entry:
 
 def entry_files() -> list[Path]:
     paths: list[Path] = []
-    for directory in (CONTESTED, FALLACIES, PROFESSIONS):
+    for directory in (FAQ, CONTESTED, FALLACIES, PROFESSIONS):
         if directory.is_dir():
             paths.extend(sorted(directory.glob("*.md")))
     return paths
@@ -291,18 +317,23 @@ def audit(appendix: Appendix) -> list[Note]:
     required_profession = ("What the practitioner would say",
                            "What the book gets wrong or omits",
                            "The evidence")
+    required_faq = ("The short answer", "The long answer", "The evidence")
     required = {"contested": required_contested,
                 "fallacy": required_fallacy,
-                "profession": required_profession}
-    directory_of = {"contested": CONTESTED, "fallacy": FALLACIES, "profession": PROFESSIONS}
-    prefix_of = {"contested": "CA-", "fallacy": "LF-", "profession": "PR-"}
+                "profession": required_profession,
+                "faq": required_faq}
+    directory_of = {"contested": CONTESTED, "fallacy": FALLACIES,
+                    "profession": PROFESSIONS, "faq": FAQ}
+    prefix_of = {"contested": "CA-", "fallacy": "LF-", "profession": "PR-", "faq": "FQ-"}
     professions_seen: dict[str, str] = {}
+    questions_seen: dict[str, str] = {}
 
     for entry in appendix.entries:
         where = entry.relative
 
         if not ID.match(entry.id):
-            notes.append(Note("error", "bad-id", where, f"id {entry.id!r} is not CA-NN or LF-NN"))
+            notes.append(Note("error", "bad-id", where,
+                              f"id {entry.id!r} is not CA-NN, LF-NN, PR-NN or FQ-NN"))
         elif entry.id in seen:
             notes.append(Note("error", "duplicate-id", where, f"id {entry.id} is also {seen[entry.id]}"))
         else:
@@ -424,6 +455,37 @@ def audit(appendix: Appendix) -> list[Note]:
                 notes.append(Note("warning", "thin-evidence", where,
                                   f"carries {len(entry.references)} references"))
 
+        if entry.kind == "faq":
+            audience = entry.front.get("audience", "")
+            if audience not in AUDIENCES:
+                notes.append(Note("error", "bad-audience", where,
+                                  f"audience {audience!r} is not one of {tuple(AUDIENCES)}"))
+            if not entry.front.get("answer"):
+                notes.append(Note("error", "no-answer", where,
+                                  "does not state the short answer in an answer: line"))
+
+            # Rule 5. A title that is not a question is a heading, and the reader who arrives
+            # scanning for their own question will not find it in a heading.
+            if not entry.title.endswith("?"):
+                notes.append(Note("error", "not-a-question", where,
+                                  "titles the entry with something that is not a question"))
+            elif entry.title.lower() in questions_seen:
+                notes.append(Note("error", "duplicate-question", where,
+                                  f"asks the same question as {questions_seen[entry.title.lower()]}"))
+            else:
+                questions_seen[entry.title.lower()] = where
+
+            # The evidence rule is the whole point of putting the FAQ in this appendix rather
+            # than on a page of its own: an answer here is held to the standard the entries
+            # around it are held to, and an answer with nowhere to go is the book vouching
+            # for itself.
+            if not any(reference.url for reference in entry.references):
+                notes.append(Note("error", "unsourced-answer", where,
+                                  "carries no reference with a public URL"))
+            if len(entry.references) < 4:
+                notes.append(Note("warning", "thin-evidence", where,
+                                  f"carries {len(entry.references)} references"))
+
         for reference in entry.references:
             if not reference.url and reference.stance.strip().lower() != CONJECTURE_STANCE:
                 notes.append(Note("note", "no-url", where,
@@ -434,7 +496,7 @@ def audit(appendix: Appendix) -> list[Note]:
     # the EPUB, the self-contained HTML, and the reader alike, so it fails rather than warns.
     anchors = {anchor(entry): entry.id for entry in appendix.entries}
     for entry in appendix.entries:
-        for target in re.findall(r"\]\(#((?:ca|lf|pr)-[a-z0-9-]+)\)", entry.body, flags=re.IGNORECASE):
+        for target in re.findall(r"\]\(#((?:ca|lf|pr|fq)-[a-z0-9-]+)\)", entry.body, flags=re.IGNORECASE):
             if target.lower() not in anchors:
                 notes.append(Note("error", "dangling-anchor", entry.relative,
                                   f"links to #{target}, which is not an entry anchor"))
@@ -466,8 +528,8 @@ def cmd_check(strict: bool) -> int:
     counts = print_notes(notes)
     print(
         f"\n{len(appendix.entries)} entries "
-        f"({len(appendix.contested)} contested, {len(appendix.fallacies)} fallacies, "
-        f"{len(appendix.professions)} professions), "
+        f"({len(appendix.faqs)} questions, {len(appendix.contested)} contested, "
+        f"{len(appendix.fallacies)} fallacies, {len(appendix.professions)} professions), "
         f"{sum(len(entry.references) for entry in appendix.entries)} references, "
         f"{len(appendix.by_page())} pages cited."
     )
@@ -487,7 +549,7 @@ def cmd_report() -> int:
     for entry in appendix.entries:
         pages = ", ".join(f"{page:03d}" for page in entry.pages)
         detail = (entry.front.get("layer") or entry.front.get("fallacy")
-                  or entry.front.get("field") or "")
+                  or entry.front.get("field") or entry.front.get("audience") or "")
         print(f"  {entry.id}  {entry.title}")
         print(f"          {detail:<24} pages {pages}")
         print(f"          {len(entry.references)} references, {len(entry.stances)} stances")
@@ -500,6 +562,20 @@ def cmd_report() -> int:
             stances[reference.stance] = stances.get(reference.stance, 0) + 1
     for stance, count in sorted(stances.items(), key=lambda item: (-item[1], item[0])):
         print(f"  {count:>4}  {stance}")
+
+    print("\nQuestions")
+    print("---------")
+    by_audience: dict[str, list[str]] = {}
+    for entry in appendix.faqs:
+        by_audience.setdefault(entry.front.get("audience", "?"), []).append(entry.title)
+    for audience in AUDIENCES:
+        asked = by_audience.get(audience, [])
+        print(f"  {len(asked):>4}  {audience}")
+        for question in asked:
+            print(f"          {question}")
+    unused_audiences = sorted(set(by_audience) - set(AUDIENCES))
+    if unused_audiences:
+        print(f"  (filed under no known audience: {', '.join(unused_audiences)})")
 
     print("\nFallacies named")
     print("---------------")
@@ -594,7 +670,7 @@ def assemble() -> str:
     intro = intro.split("<!-- editorial -->")[0].strip()
 
     parts = [
-        "# Appendix — Contested Assertions, Logical Fallacies, and Professional Objections",
+        "# Appendix — Questions, Contested Assertions, Fallacies, and Professional Objections",
         "",
         intro,
         "",
@@ -606,7 +682,10 @@ def assemble() -> str:
     for page, entries in appendix.by_page().items():
         ids = ", ".join(f"[{entry.id}](#{anchor(entry)})" for entry in entries)
         parts.append(f"| {page:03d} | {ids} |")
-    parts += ["", "## Contested assertions", ""]
+    parts += ["", "## Questions a reader arrives with", ""]
+    for entry in appendix.faqs:
+        parts += [render(entry), ""]
+    parts += ["## Contested assertions", ""]
     for entry in appendix.contested:
         parts += [render(entry), ""]
     parts += ["## Logical fallacies", ""]
@@ -633,14 +712,17 @@ def render(entry: Entry) -> str:
         meta.append(f"**Profession** {entry.front.get('profession', '')}")
         meta.append(f"**Field** {entry.front.get('field', '')}")
         meta.append(f"**Conjecture** {entry.front.get('conjecture', '')}")
+    elif entry.kind == "faq":
+        meta.append(f"**Audience** {entry.front.get('audience', '')}")
     else:
         meta.append(f"**Fallacy** {entry.front.get('fallacy', '')}")
         meta.append(f"**Attributed to** {entry.front.get('attributed_to', '')}")
         if entry.front.get("speaker"):
             meta.append(f"**Speaker** {entry.front['speaker']}")
     lines += [" · ".join(meta), ""]
-    if entry.front.get("claim") or entry.front.get("reading"):
-        lines += [f"> {entry.front.get('claim') or entry.front['reading']}", ""]
+    short = entry.front.get("claim") or entry.front.get("reading") or entry.front.get("answer")
+    if short:
+        lines += [f"> {short}", ""]
     lines += [entry.body.strip(), ""]
     return "\n".join(lines)
 
@@ -648,7 +730,7 @@ def render(entry: Entry) -> str:
 def main(argv: list[str] | None = None) -> int:
     parser = argparse.ArgumentParser(description=__doc__.splitlines()[0])
     commands = parser.add_subparsers(dest="command", required=True)
-    commands.add_parser("report", help="census, page coverage, stance, fallacy and field spread")
+    commands.add_parser("report", help="census, page coverage, stance, audience, fallacy and field spread")
     check = commands.add_parser("check", help="exit non-zero while the appendix disagrees with itself")
     check.add_argument("--strict", action="store_true", help="also fail on warnings")
     dump = commands.add_parser("json", help="the whole model, for other tools")

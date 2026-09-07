@@ -1175,7 +1175,7 @@ def novella_epub(chapters: list[NovellaChapter], destination: Path,
 
 # ---------------------------------------------------------------- the appendix
 #
-# The appendix of contested assertions, logical fallacies, and professional objections is
+# The appendix of questions, contested assertions, fallacies, and professional objections is
 # addressed by story page,
 # and the graphic novel and the novella share a pagination, so one appendix serves both.
 # It is published three ways: as its own section of routes, as the last chapter of every
@@ -1188,10 +1188,11 @@ def novella_epub(chapters: list[NovellaChapter], destination: Path,
 # ---------------------------------------------------------------------------
 
 APPENDIX_DIR = "appendix"
-APPENDIX_TITLE = "Contested Assertions, Logical Fallacies, and Professional Objections"
+APPENDIX_TITLE = "Questions, Contested Assertions, Fallacies, and Professional Objections"
 
 # One directory per kind, so an entry's route says what kind of entry it is.
-APPENDIX_KIND_DIRS = {"contested": "contested", "fallacy": "fallacies", "profession": "professions"}
+APPENDIX_KIND_DIRS = {"contested": "contested", "fallacy": "fallacies",
+                      "profession": "professions", "faq": "faq"}
 
 
 def appendix_entries() -> appendix_module.Appendix:
@@ -1308,6 +1309,8 @@ def build_appendix(document) -> int:
             detail = f"{entry.front.get('layer', '')} · {entry.front.get('status', '')}"
         elif entry.kind == "profession":
             detail = f"{entry.front.get('field', '')} · conjecture {entry.front.get('conjecture', '')}"
+        elif entry.kind == "faq":
+            detail = entry.front.get("audience", "")
         else:
             detail = f"{entry.front.get('fallacy', '')} · {entry.front.get('attributed_to', '')}"
         return (
@@ -1365,6 +1368,8 @@ def build_appendix(document) -> int:
         f'<div class="table-scroll"><table><thead><tr><th>Page</th><th>Title</th>'
         f"<th>Entries</th><th>Read the page</th></tr></thead>"
         f"<tbody>{index_rows}</tbody></table></div>"
+        f"<h2>Questions a reader arrives with</h2>"
+        f'<div class="cards">{"".join(entry_card(entry) for entry in model.faqs)}</div>'
         f"<h2>Contested assertions</h2>"
         f'<div class="cards">{"".join(entry_card(entry) for entry in model.contested)}</div>'
         f"<h2>Logical fallacies</h2>"
@@ -1511,7 +1516,8 @@ def build_novella() -> int:
         f"<h2>Download the whole novella</h2>"
         f'<div class="downloads">{download_rows}</div>'
         f'<p class="note">Every file is the complete novella, one chapter after another, '
-        f"followed by the appendix of contested assertions and logical fallacies. "
+        f"followed by the appendix of questions, contested assertions, fallacies, and "
+        f"professional objections. "
         f'<a href="{html.escape(viewer_href)}">The graphic novel</a> is a separate read. '
         f"{html.escape(NOVELLA_RIGHTS)}</p>"
         f"<h2>The appendix</h2>"
@@ -2398,7 +2404,7 @@ def main() -> int:
             '<p>Private local review build: canonical story material, visual direction, research, and production notes.</p>'
             '<p><a class="viewer-callout" href="viewer/">Open the graphic novel viewer validation build →</a></p>'
             '<p><a class="viewer-callout" href="novella/">Read the novella, or download it whole →</a></p>'
-            '<p><a class="viewer-callout" href="appendix/">Open the appendix of contested assertions and logical fallacies →</a></p>'
+            '<p><a class="viewer-callout" href="appendix/">Open the appendix: questions, contested assertions, fallacies, and professional objections →</a></p>'
             f'{placeholder_link}'
             '<p><a class="viewer-callout" href="knowledge-maps/">Explore four knowledge-map alternatives and placement studies →</a></p>'
             '<p><a class="viewer-callout" href="crossref/">Open the page, source, and provenance cross reference →</a></p>'
@@ -2411,7 +2417,7 @@ def main() -> int:
             '<p>Story-first public build. Research snapshots, source packets, prompts, and production notes remain local.</p>'
             '<p><a class="viewer-callout" href="viewer/">Open the graphic novel viewer validation build →</a></p>'
             '<p><a class="viewer-callout" href="novella/">Read the novella, or download it whole →</a></p>'
-            '<p><a class="viewer-callout" href="appendix/">Open the appendix of contested assertions and logical fallacies →</a></p>'
+            '<p><a class="viewer-callout" href="appendix/">Open the appendix: questions, contested assertions, fallacies, and professional objections →</a></p>'
             f'{placeholder_link}'
             '<p><a class="viewer-callout" href="knowledge-maps/">Explore four knowledge-map alternatives and placement studies →</a></p>'
             '<p><a class="viewer-callout" href="crossref/">Open the page, source, and provenance cross reference →</a></p>'
