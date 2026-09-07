@@ -32,6 +32,11 @@ These rewrite canonical files. Do the work through them rather than by hand.
 `panels.py` refuses to leave the 4–6 panel band without `--allow-rhythm-shift`, or to discard
 generated art without `--allow-art-loss`.
 
+Panel prose scanning and renumbering share citation exclusions: explicitly prefixed NIST
+publication identifiers and external web-link destinations are foreign references. Link
+labels, local link targets, and bare panel keys remain checked. `panels.py check` also
+runs offline regression checks for this distinction.
+
 `pagelinks.py` owns the phrase grammar the other two read: `PAGE_PHRASE`, and the rule that
 sorts a phrase into a reference, a foreign citation, an abstract rule, or an unpadded
 ambiguity. `pagination.py` and `panels.py` import it, and re-derive every link target as part

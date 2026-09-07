@@ -33,6 +33,11 @@ runners or servers and weights; see [the tooling index](scripts/README.md#artwor
    stale, so it takes `.git/index.lock` like a write command does. Read-only git calls
    in this repository carry `--no-optional-locks` so a session opening beside another
    one cannot collide with it.
+   Coordinate staging and committing so only one session writes the shared index at a
+   time; use separate worktrees for independent writers. If `index.lock` blocks a write,
+   follow the [Git incident and recovery procedure](README.md#git-coordination-and-incident-record).
+   Do not automatically delete locks or infer staleness from age alone. The recorded
+   7 September 2026 UI failure remains an apparent stale lock, not an established app bug.
 2. Read the ownership table below and [scripts/README.md](scripts/README.md) for the
    affected tool. Read the story contract before changing narrative claims.
 3. Run the relevant checks before and after your change, so existing findings remain
@@ -173,14 +178,6 @@ python3 scripts/panels.py check
 ```
 
 A red check is a work list, not a baseline. The validators repair nothing on purpose.
-
-## Known validator limitation
-
-Verified on 7 September 2026: `panels.py check` exits 1 on three false positives:
-`NIST SP 800-61` and `800-63`, cited in `content/appendix/professions/` and
-`content/appendix/faq/`, are read as panel keys naming a page 800. Do not change the source
-citations to satisfy the scanner. Re-run the check and report its actual output; additional
-findings require investigation. Remove this note when the scanner is fixed.
 
 ## Common tasks
 

@@ -260,10 +260,48 @@ def code_ranges(line: str) -> list[tuple[int, int]]:
     return [(match.start(), match.end()) for match in CODE_SPAN.finditer(line)]
 
 
-def in_code(position: int, ranges: list[tuple[int, int]]) -> bool:
+def in_ranges(position: int, ranges: list[tuple[int, int]]) -> bool:
     return any(start <= position < end for start, end in ranges)
 
+FOREIGN = "foreign"
 LOCAL, CROSS, KEY, EXAMPLE, AMBIGUOUS = "local", "cross", "key", "example", "ambiguous"
+
+
+# Only the identifier is foreign, not every reference on its line. A bare
+# 800-61 remains a panel key; the publication prefix supplies the evidence.
+PUBLICATION = re.compile(
+    r"\bNIST\s+(?:SP|Special\s+Publication)\s+"
+    r"(?P<identifier>\d{3}-\d{2}[A-Za-z]?(?:-\d+)*)\b", re.I)
+EXTERNAL_DESTINATION = re.compile(
+    r"(?:\]\(\s*<?|^\s{0,3}\[[^\]\n]+\]:\s*<?|<)"
+    r"(?P<url>https?://|//)", re.I)
+
+
+def foreign_ranges(line: str) -> list[tuple[int, int]]:
+    """Publication identifiers and external Markdown URL destinations.
+
+    Labels remain prose, as do local link targets. Balance URL parentheses so a
+    destination cannot swallow an adjacent real reference. A title after the URL
+    is not part of the destination. Reference definitions and autolinks count too.
+    """
+    spans = [m.span("identifier") for m in PUBLICATION.finditer(line)]
+    for match in EXTERNAL_DESTINATION.finditer(line):
+        start = end = match.start("url")
+        depth = 0
+        while end < len(line):
+            char = line[end]
+            if char.isspace() or char == ">" or (char == ")" and depth == 0):
+                break
+            if char == "\\" and end + 1 < len(line):
+                end += 2
+                continue
+            if char == "(":
+                depth += 1
+            elif char == ")":
+                depth -= 1
+            end += 1
+        spans.append((start, end))
+    return spans
 
 
 @dataclass(frozen=True)
@@ -297,16 +335,20 @@ def scan_prose(text: str, relative: str) -> list[Site]:
         if line.startswith("## "):
             continue
         quoted = code_ranges(line)
+        foreign = foreign_ranges(line)
         for match in PANEL_KEY.finditer(line):
-            example = fenced or in_code(match.start(), quoted)
-            sites.append(Site(relative, number, EXAMPLE if example else KEY,
+            example = fenced or in_ranges(match.start(), quoted)
+            kind = EXAMPLE if example else FOREIGN if in_ranges(match.start(), foreign) else KEY
+            sites.append(Site(relative, number, kind,
                               int(match.group("page")), (int(match.group("panel")),),
                               match.group(0)))
         for match in PANEL_PHRASE.finditer(line):
             panels = tuple(int(item) for item in re.findall(r"\d{1,2}", match.group(0)[
                 len(match.group("page") or ""):]))
-            if fenced or in_code(match.start(), quoted):
+            if fenced or in_ranges(match.start(), quoted):
                 kind, page = EXAMPLE, None
+            elif in_ranges(match.start(), foreign):
+                kind, page = FOREIGN, None
             elif match.group("page"):
                 raw = match.group("pagenum")
                 kind = CROSS if len(raw) == 3 else AMBIGUOUS
@@ -409,9 +451,10 @@ def rewrite_prose(text: str, relative: str, relocation: Relocation, *,
         if fenced or line.startswith("## "):
             continue
         quoted = code_ranges(line)
+        foreign = foreign_ranges(line)
 
         def key(match: re.Match[str]) -> str:
-            if in_code(match.start(), quoted):
+            if in_ranges(match.start(), quoted + foreign):
                 return match.group(0)
             pair = relocation.resolve(int(match.group("page")), int(match.group("panel")))
             if pair is None:
@@ -420,7 +463,7 @@ def rewrite_prose(text: str, relative: str, relocation: Relocation, *,
             return f"{pair[0]:03d}-{pair[1]:02d}"
 
         def phrase(match: re.Match[str]) -> str:
-            if in_code(match.start(), quoted):
+            if in_ranges(match.start(), quoted + foreign):
                 return match.group(0)
             raw = match.group("pagenum")
             if raw is not None and len(raw) != 3:
@@ -477,7 +520,11 @@ def rewrite_prose(text: str, relative: str, relocation: Relocation, *,
             lead = "Page" if renumbered[:1].isupper() else "page"
             return f"{lead} {page:03d} " + renumbered[:1].lower() + renumbered[1:]
 
-        lines[position] = PANEL_PHRASE.sub(phrase, PANEL_KEY.sub(key, line))
+        keyed = PANEL_KEY.sub(key, line)
+        # A transferred key can change length. Recompute spans before the second
+        # substitution so later code spans and external destinations stay protected.
+        quoted, foreign = code_ranges(keyed), foreign_ranges(keyed)
+        lines[position] = PANEL_PHRASE.sub(phrase, keyed)
     result.text = "".join(lines)
     return result
 
@@ -1152,7 +1199,7 @@ def cmd_report(scripts: dict[int, PageScript], sites: list[Site]) -> int:
     census: dict[str, int] = {}
     for site in sites:
         census[site.kind] = census.get(site.kind, 0) + 1
-    for kind in (LOCAL, CROSS, KEY, EXAMPLE, AMBIGUOUS):
+    for kind in (LOCAL, CROSS, KEY, FOREIGN, EXAMPLE, AMBIGUOUS):
         print(f"  {kind:<10} {census.get(kind, 0):>4}")
 
     print(f"\nDerived, not rewritten: {', '.join(GENERATED)}")
@@ -1160,7 +1207,51 @@ def cmd_report(scripts: dict[int, PageScript], sites: list[Site]) -> int:
     return 0
 
 
+def check_reference_classification() -> None:
+    """Offline regression checks; synthetic identities never touch the book."""
+    path = "content/appendix/test.md"
+    citations = [
+        "NIST SP 800-61", "NIST Special Publication 800-61 Rev. 2",
+        "[NIST SP 800-61](https://csrc.nist.gov/pubs/sp/800/61/r2/final)",
+        "[NIST SP 800-63B](https://pages.nist.gov/800-63-3/sp800-63b.html)",
+        "[source](https://example.org/a(800-63)/800-61)",
+        '[source](<https://example.org/800-61> "citation")',
+        "[source]: https://example.org/800-61",
+        "<https://example.org/800-61>",
+    ]
+    # Moving an actual panel on page 800 would have corrupted the citations
+    # without the guard; a nonexistent page alone would not expose that bug.
+    script = split_page(800, "## Panel 61\nbody\n## Panel 62\nbody\n")
+    relocation = Relocation(build_move(script, 61, 2))
+    for citation in citations:
+        sites = scan_prose(citation, path)
+        assert all(site.kind == FOREIGN for site in sites), citation
+        assert not reference_notes(sites, {}), citation
+        assert rewrite_prose(citation, path, relocation).text == citation, citation
+    real = split_page(45, "## Panel 1\nbody\n## Panel 2\nbody\n## Panel 3\nbody\n")
+    move = Relocation(build_move(real, 3, 1))
+    mixed = "NIST SP 800-61; [045-03](https://example.org/800-63-3) and 999-99"
+    sites = scan_prose(mixed, path)
+    assert [site.text for site in sites if site.kind == KEY] == ["045-03", "999-99"]
+    notes = reference_notes(sites, {45: real})
+    assert len(notes) == 1 and "999" in notes[0].message
+    assert rewrite_prose(mixed, path, move).text == mixed.replace("045-03", "045-01")
+    local = "[045-03](../art/045-03.svg)"
+    assert rewrite_prose(local, path, move).text == local.replace("045-03", "045-01")
+    adjacent = "[source](https://example.org/800-61)045-03"
+    assert rewrite_prose(adjacent, path, move).text == adjacent.replace("045-03", "045-01")
+    assert scan_prose("800-61", path)[0].kind == KEY
+    assert rewrite_prose("800-61", path, relocation).text == "800-02"
+    phrase = "NIST SP 800-61; page 045 panel 3"
+    assert rewrite_prose(phrase, path, move).text.endswith("page 045 panel 1")
+    labelled = "[page 045 panel 3](https://example.org/800-61)"
+    assert rewrite_prose(labelled, path, move).text == labelled.replace("panel 3", "panel 1")
+    assert scan_prose("`045-03`", path)[0].kind == EXAMPLE
+    assert rewrite_prose("`045-03`", path, move).text == "`045-03`"
+
+
 def cmd_check(scripts: dict[int, PageScript], sites: list[Site], strict: bool) -> int:
+    check_reference_classification()
     notes = audit(scripts, sites)
     counts = print_notes(notes)
     blocking = counts["error"] + (counts["warning"] if strict else 0)

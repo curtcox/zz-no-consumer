@@ -47,6 +47,61 @@ The scene-level evidence boundary is tracked in `research/scene-provenance.md`, 
 
 The proposed inside-the-collective documentary is scoped in `content/parallel-tracks/messages-from-the-board.md`; its primary-source artifact gate is `research/agent-message-ledger.md`.
 
+## Git coordination and incident record
+
+Use `git --no-optional-locks` for read-only Git commands in this checkout. Status can
+otherwise refresh the index and briefly take its lock. This flag does not remove the
+mandatory lock needed by `add`, `commit`, or other index writers.
+
+Coordinate index-writing operations: one session or UI owns staging and committing at a
+time in a shared checkout. Independent sessions that need to write should use separate
+worktrees, which have separate indexes. After an interrupted operation, inspect the lock
+before retrying; do not install an automatic lock-deletion workaround.
+
+### 2026-09-07: UI staging blocked by an apparent stale index lock
+
+**Reported failure.** The ChatGPT UI attempted this command while committing:
+
+```sh
+git -c safe.bareRepository=explicit -c core.hooksPath=/dev/null -c core.fsmonitor= add -u
+```
+
+Git failed with `Unable to create .../.git/index.lock: File exists`. This command stages
+modifications and deletions of tracked files; the reported failure happened during
+staging, before that attempt could create a commit.
+
+**Observed evidence.** In `/Users/curtcox/me/zz-no-consumer`, the lock was an empty file
+last modified at **10:44:03 CDT (15:44:03 UTC)**. At **10:46:32 CDT (15:46:32 UTC)**,
+host-level process inspection found no running Git process and `lsof` found no process
+holding the lock open. Read-only status still showed the pending changes to `AGENTS.md`,
+`scripts/README.md`, and `scripts/panels.py`.
+
+**Assessment.** These observations strongly suggest a stale lock left by an interrupted
+operation. They do not establish which process created it, why it was left behind, or
+that the app itself caused it. An empty file or old timestamp alone is not proof that a
+lock is stale. The command's hook and filesystem-monitor settings do not bypass locking.
+
+**Recovery status at diagnosis.** Nothing was removed and no successful retry was
+verified. A later recovery should be appended here with its outcome.
+
+**Recovery follow-up, 7 September 2026.** After a fresh host-level check found no Git
+processes or open handles, the unchanged, empty lock was removed. Staging the four
+pending files then succeeded, verified at **10:49:38 CDT (15:49:38 UTC)**. This confirms
+recovery of staging; it does not identify the process that originally left the lock.
+
+**Recovery procedure.** Coordinate with the other sessions and stop initiating Git writes.
+Resolve the lock path with `git --no-optional-locks rev-parse --git-path index.lock`
+(worktrees need not use a literal `.git/` directory). Inspect the file, running Git
+processes, and open handles with host-level visibility. If inspection is denied by a
+sandbox, that is not evidence that no process owns the lock. Recheck immediately before
+removing only the confirmed stale lock; never remove the index itself. Then retry staging
+and committing, and verify the outcome. If the lock reappears, capture fresh timestamps
+and process evidence rather than repeatedly deleting it.
+
+**Prevention recorded.** The shared agent instructions now point here and require
+coordination of index writers in addition to lock-free read-only inspection. This is an
+operating procedure, not an app-level fix or a proven root-cause correction.
+
 ## Source vault
 
 Potentially non-redistributable originals and internal review artifacts live in the Git-ignored `256t/` directory. The repository tracks only their canonical URLs and redistribution disposition in `data/256t-sources.tsv`.
