@@ -28,13 +28,18 @@ runners or servers and weights; see [the tooling index](scripts/README.md#artwor
 
 ## Start here
 
-1. Run `git status --short` to identify existing work before editing.
+1. Run `git --no-optional-locks status --short` to identify existing work before
+   editing. The flag matters: a plain `git status` rewrites the index when stat data is
+   stale, so it takes `.git/index.lock` like a write command does. Read-only git calls
+   in this repository carry `--no-optional-locks` so a session opening beside another
+   one cannot collide with it.
 2. Read the ownership table below and [scripts/README.md](scripts/README.md) for the
    affected tool. Read the story contract before changing narrative claims.
 3. Run the relevant checks before and after your change, so existing findings remain
    distinguishable from regressions. The full local CI sequence is below.
-4. Rebuild when changing published inputs, inspect `git diff --stat` and the affected
-   source and generated files, and report validation results with any unresolved findings.
+4. Rebuild when changing published inputs, inspect `git --no-optional-locks diff --stat`
+   and the affected source and generated files, and report validation results with any
+   unresolved findings.
    Orientation-only edits to this file, `CLAUDE.md`, `README.md`, or `scripts/README.md`
    do not feed the site and need no rebuild.
 
