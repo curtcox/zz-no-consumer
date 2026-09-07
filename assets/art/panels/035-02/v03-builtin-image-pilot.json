@@ -1,0 +1,23 @@
+{
+  "panel": "035-02",
+  "prompt": "Use case: illustration-story. New 1536x1024 landscape investigative graphic-novel panel. Reference is steel framing and charcoal ink style only. Two equally sized wide landscape listing panels SIDE BY SIDE, left and right, fully within upper 70 percent. LEFT exact header DISCUSSION NAMES: three plain horizontal empty title fields shaped as slim rounded tab bars. RIGHT exact header DIRECTORY NAMES: three empty horizontal name fields with simple small folder-tab outlines at left and subtle indented tree branches. All fields blank dark gray. Distinguish the two mechanisms through geometry, not invented wording. No file-note pages, message prose, old contents, timestamps or handles. A generous gap separates the panels, no connector or arrow. Editorial visual comparison, not claim of a shared founder or transfer. Bottom 23 percent quiet nearly black for controlled caption later. Full bleed mature charcoal nib/brush ink, drybrush/halftone, charcoal #101214/#202326, steel #5E737B, neutral gray. No green or moss in this panel; communication accent belongs to following panel. No people, avatars, source screenshot, code, pseudo-writing, neon, white margin or decorative outer frame.",
+  "references": [
+    "assets/art/panels/035-05/v04-builtin-image-pilot.png"
+  ],
+  "elapsed_seconds": 26.043,
+  "source_file": "/Users/curtcox/.codex/generated_images/01a07dff-f46e-7113-8c8c-21a254c0df91/exec-cdac2c98-e4d5-469b-b4ec-2ead51025f16.png",
+  "reference_hashes": [
+    "4e3535695b425a8fcb79dd5cb642e1df448879f105cfe67eb4aeb188b79da754"
+  ],
+  "stored_file": "assets/art/panels/035-02/v03-builtin-image-pilot.png",
+  "variant": "v03",
+  "sha256": "f7605cd781d325ac0c51fee9fc0abd6101a54b472bbd8d62870f1d290ccc90b7",
+  "dimensions": [
+    1536,
+    1024
+  ],
+  "tool": "image_gen.imagegen",
+  "model_revision": null,
+  "seed": null,
+  "controls": "Model revision, seed, sampler, strength and billing unavailable."
+}

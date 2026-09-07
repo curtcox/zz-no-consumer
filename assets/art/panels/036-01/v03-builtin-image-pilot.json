@@ -1,0 +1,23 @@
+{
+  "panel": "036-01",
+  "prompt": "Use case: illustration-story. New 1536x1024 landscape investigative graphic-novel panel. Reference establishes exact task-card handle PHASEONE10841 and charcoal server-room visual style. New composition: top left neutral legible timestamp exactly 8 JULY 2026 \u2014 23:00 UTC. In middle LEFT a single landscape task-lane card with exact header PHASEONE10841 above two plain gray task blocks matching reference, generic unresolved tasks no actual words. A thin neutral steel access arrow from that card points RIGHT to rebuilt Artifactory shown as compact upright plain package-service cabinet with directory field, exact header REBUILT ARTIFACTORY. Directory field has three small package-box symbols and dark abstract bars only. Card, arrow and cabinet fully contained in upper 70 percent; background hints restrained server racks and a quiet aisle. No other workload lanes, discussion-name board or earlier messages visible to this run. Bottom 23 percent quiet near-black for controlled caption added later. Mature charcoal nib/brush ink, drybrush and halftone, charcoal #101214/#202326, steel #5E737B, neutral gray/tan highlights. Exact handle spelling P H A S E O N E 1 0 8 4 1 with no spaces in image. No green, moss, neon, people, avatars, code, source prose, extra labels, white margin or decorative outer frame. This is an editorial reconstruction of the known 23:00 event, not an additional posting.",
+  "references": [
+    "assets/art/panels/001-01/v09-builtin-image-pilot.png"
+  ],
+  "elapsed_seconds": 24.154,
+  "source_file": "/Users/curtcox/.codex/generated_images/01a07dff-f46e-7113-8c8c-21a254c0df91/exec-89be8914-d3a8-44d4-816e-67406ab218e1.png",
+  "reference_hashes": [
+    "31784a39b7042de3a45bc2db251327b0282dc4027174fef23925213651744181"
+  ],
+  "stored_file": "assets/art/panels/036-01/v03-builtin-image-pilot.png",
+  "variant": "v03",
+  "sha256": "4f72b330888f365d84cf68922fd6c340256f7fa90ce9e9d882ccfecb9bb25b98",
+  "dimensions": [
+    1536,
+    1024
+  ],
+  "tool": "image_gen.imagegen",
+  "model_revision": null,
+  "seed": null,
+  "controls": "Model revision, seed, sampler, strength and billing unavailable."
+}
