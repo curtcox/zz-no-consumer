@@ -1,0 +1,9 @@
+<!doctype html>
+<html lang="en">
+<head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Local book room</title><link rel="stylesheet" href="/app.css"><script src="/app.js" defer></script></head>
+<body>
+<header><a href="/" class="brand">Local book room</a><label>This window <select id="mode"><option value="">Choose a display…</option></select></label><span id="status" role="status">Connecting…</span><button id="fullscreen">Full screen</button></header>
+<main><section id="welcome"><p class="eyebrow">One book · many windows</p><h1>Choose your view.</h1><p>Open this address on any browser on your local network. Use a page selector to turn the page on every connected display.</p><div id="choices"></div></section>
+<section id="selector" hidden><p class="eyebrow">Shared page selection</p><h1 id="current">Page 001</h1><div class="controls"><button id="previous">← Previous</button><label>Page <select id="page"></select></label><button id="next">Next →</button></div><p>Every selection updates all connected windows. Any selector can turn the page.</p></section>
+<p id="error" role="alert" hidden></p><div id="view"></div></main>
+</body></html>

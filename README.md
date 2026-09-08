@@ -551,3 +551,59 @@ Page sheets are not generated. A page is composed from its panels by layout, the
 ## GitHub Pages
 
 `.github/workflows/pages.yml` builds and deploys the site whenever `main` changes. In the repository settings, set **Pages → Build and deployment → Source** to **GitHub Actions** once. The workflow can also be started manually with **Actions → Publish GitHub Pages → Run workflow**.
+
+## Local synchronized displays
+
+Run from the repository root:
+
+```bash
+python3 scripts/local_viewer.py serve
+```
+
+Open <http://localhost:8000/> on the server computer. On other computers, phones,
+or tablets on the same local network, open `http://SERVER-LAN-IP:8000/` (substitute
+this computer’s LAN address), or use the hostname printed at startup. Allow incoming
+connections to Python if the operating system firewall asks. Guest Wi-Fi client
+isolation can prevent devices from reaching each other.
+
+Each browser window first chooses one of ten displays:
+
+- Page selector, with previous/next buttons and a page/title menu.
+- Graphic novel spread, left page, or right page, with the book’s selected artwork
+  and controlled lettering.
+- Full script descriptions for the spread, left page, or right page.
+- Novella text for the exact selected page.
+- Image options for the left or right page, grouped by panel, including chosen,
+  candidate, rejected, earlier storyboard, and generated text placeholder images.
+  Each option shows its recorded status, stage, provider, and review note; clicking
+  an image opens its full resolution in another tab.
+
+Even pages are on the left and odd pages on the right: selecting 002 or 003 shows
+spread 002–003. Page 001 has a blank left side; an unmatched final even page has a
+blank right side. The novella always follows the selected number itself.
+
+Selectors share one in-memory server state. The latest selection wins, and selecting
+again refreshes the displays. Other windows retain their display mode as they update.
+The mode is saved in the URL, so it survives reloads and can be bookmarked. New and
+reconnected windows receive the current selection. Restarting the server resets the
+selection to 001, or to the supplied `--page` value.
+
+Updates are pushed through one shared event stream per browser profile, allowing
+many windows without exhausting that browser’s HTTP connection pool. Older browsers
+without SharedWorker support poll every half second. There is no configured client
+limit; practical capacity depends on the server’s memory, threads, and LAN bandwidth.
+The interface reports disconnection and retries automatically.
+
+```bash
+python3 scripts/local_viewer.py serve --port 8765 --page 39
+python3 scripts/local_viewer.py serve --host 127.0.0.1  # this computer only
+python3 scripts/local_viewer.py check
+```
+
+This is a trusted-LAN reading tool without accounts: anyone who can reach the server
+can view the book and artwork options and change its shared page selection. It serves
+only the display app, rendered book content, and artwork images, with no repository
+file browser or directory listing. It does not modify source files or artwork decisions.
+It reads the book structure at startup; restart after inserting or moving pages or
+changing artwork selections. Text and image content are rendered from local files;
+no site build, model, API key, download, or extra Python dependency is needed.

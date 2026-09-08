@@ -168,3 +168,16 @@ queue are local to the image handoff boundary.
 
 `build-site.py` imports several of these modules, which is why a change to any of those modules can move
 generated output in `docs/`. Rebuild and look at the diff.
+
+## Local synchronized displays
+
+`python3 scripts/local_viewer.py serve` starts one LAN server for multiple browsers
+and windows. Each window chooses its own display; any page selector drives the shared
+page number. `--port 8765`, `--host 127.0.0.1`, and `--page 39` override the defaults
+(all IPv4 interfaces, port 8000, page 001). Stop with Ctrl-C.
+
+`python3 scripts/local_viewer.py check` runs offline HTTP and rendering regression
+checks with a temporary loopback server. It needs permission to bind a local socket.
+The tool imports the publication Markdown renderer and existing novella, panel art,
+text-image, and lettering models. It renders on demand and does not write `docs/`.
+See [the local display manual](../README.md#local-synchronized-displays).
