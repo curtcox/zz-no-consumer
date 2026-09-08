@@ -1,0 +1,39 @@
+{
+  "background": "ink",
+  "intent": "Block the coherent incident card remains unchanged. Keep the scripted evidence boundary and lettering visible.",
+  "lettering": [
+    {
+      "box": [
+        0.045,
+        0.78,
+        0.91,
+        0.18
+      ]
+    }
+  ],
+  "lettering_mode": "manual",
+  "nodes": [
+    {
+      "asset": "card",
+      "box": [
+        0.2148,
+        0.1282,
+        0.5336,
+        0.3968
+      ],
+      "color": "steel",
+      "focus": true,
+      "label": "CORRELATED INCIDENT",
+      "label_box": [
+        0.20679999999999998,
+        0.531,
+        0.5496,
+        0.085
+      ]
+    }
+  ],
+  "reconstructed": false,
+  "shot": "hero",
+  "source": "\n**Frame:** Verso. Continue the exact incident card from [page 055](055.md). Its correlation map remains coherent and unchanged.\n\n**Action:** The system retains its attack interpretation.\n\n**Caption:**\n> THE CORRELATION DOES NOT DISAPPEAR.\n\n**Provenance:** `documented` + `reconstructed` — sourced state carried through reconstructed UI.\n\n",
+  "title": "The coherent incident card remains unchanged"
+}

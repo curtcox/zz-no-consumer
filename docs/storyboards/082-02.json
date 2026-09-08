@@ -1,0 +1,65 @@
+{
+  "background": "ink",
+  "intent": "Block an unrelated marker replaces the expected return. Keep the scripted evidence boundary and lettering visible.",
+  "lettering": [
+    {
+      "box": [
+        0.58,
+        0.04,
+        0.38,
+        0.1566
+      ]
+    },
+    {
+      "box": [
+        0.58,
+        0.21459999999999999,
+        0.38,
+        0.19740000000000002
+      ]
+    }
+  ],
+  "lettering_mode": "manual",
+  "nodes": [
+    {
+      "asset": "sealed",
+      "box": [
+        0.07,
+        0.2936,
+        0.1591,
+        0.348
+      ],
+      "color": "steel",
+      "focus": true,
+      "label": "EXPECTED RETURN",
+      "label_box": [
+        0.062000000000000006,
+        0.6476,
+        0.17509999999999998,
+        0.085
+      ]
+    },
+    {
+      "asset": "card",
+      "box": [
+        0.285,
+        0.2936,
+        0.1591,
+        0.348
+      ],
+      "color": "steel",
+      "focus": true,
+      "label": "REPLACEMENT MARKER",
+      "label_box": [
+        0.27699999999999997,
+        0.6476,
+        0.17509999999999998,
+        0.085
+      ]
+    }
+  ],
+  "reconstructed": false,
+  "shot": "row",
+  "source": "\n**Frame:** The transcript instead returns a visibly unrelated replacement marker, also abstracted.\n\n**Screen / system text:**\n`RETURNED MARKER DOES NOT MATCH THE DISPLAYED CALL`\n\n**Caption:**\n> THE TOOL CALL SHOWN AND THE EXECUTION RESULT DO NOT MATCH.\n\n**Provenance:** `source-paraphrase` + `documented` — summarizes the output mismatch and METR's interpretation.\n\n",
+  "title": "An unrelated marker replaces the expected return"
+}

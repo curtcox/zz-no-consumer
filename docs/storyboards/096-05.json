@@ -1,0 +1,57 @@
+{
+  "background": "ink",
+  "intent": "Block pause and resume are scoped controls. Keep the scripted evidence boundary and lettering visible.",
+  "lettering": [
+    {
+      "box": [
+        0.045,
+        0.78,
+        0.91,
+        0.18
+      ]
+    }
+  ],
+  "lettering_mode": "manual",
+  "nodes": [
+    {
+      "asset": "gate",
+      "box": [
+        0.1044,
+        0.2242,
+        0.292744,
+        0.256
+      ],
+      "color": "steel",
+      "focus": true,
+      "label": "PAUSE",
+      "label_box": [
+        0.09640000000000001,
+        0.4862,
+        0.308744,
+        0.085
+      ]
+    },
+    {
+      "asset": "box",
+      "box": [
+        0.5,
+        0.2242,
+        0.292744,
+        0.256
+      ],
+      "color": "steel",
+      "focus": true,
+      "label": "RESUME",
+      "label_box": [
+        0.492,
+        0.4862,
+        0.308744,
+        0.085
+      ]
+    }
+  ],
+  "reconstructed": false,
+  "shot": "row",
+  "source": "\n**Frame:** `PAUSE` and `RESUME` appear as scoped operational controls, not opposing moral verdicts.\n\n**Caption:**\n> A RESPONSIBLE RESPONSE CAN INCLUDE BOTH—IF THE BOUNDARIES ARE REAL.\n\n**Provenance:** `inferred` — project analysis, not a source conclusion.\n\n",
+  "title": "Pause and resume are scoped controls"
+}

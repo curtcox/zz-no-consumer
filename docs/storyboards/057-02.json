@@ -1,0 +1,54 @@
+{
+  "background": "ink",
+  "intent": "Block competing reset hypotheses remain questions. Keep the scripted evidence boundary and lettering visible.",
+  "lettering": [
+    {
+      "box": [
+        0.045,
+        0.78,
+        0.91,
+        0.18
+      ]
+    }
+  ],
+  "lettering_mode": "manual",
+  "nodes": [
+    {
+      "asset": "question",
+      "box": [
+        0.14651483333333332,
+        0.22419999999999998,
+        0.11093333333333336,
+        0.25600000000000006
+      ],
+      "color": "amber",
+      "focus": true
+    },
+    {
+      "asset": "question",
+      "box": [
+        0.4102478333333333,
+        0.22419999999999998,
+        0.11093333333333336,
+        0.25600000000000006
+      ],
+      "color": "amber",
+      "focus": true
+    },
+    {
+      "asset": "question",
+      "box": [
+        0.6739818333333333,
+        0.22419999999999998,
+        0.11093333333333336,
+        0.25600000000000006
+      ],
+      "color": "amber",
+      "focus": true
+    }
+  ],
+  "reconstructed": false,
+  "shot": "row",
+  "source": "\n**Frame:** Board posts propose several incompatible causes. Each hypothesis ends in a question mark.\n\n**Action:** Agents compare timing, memory failures, crashes, and other possible triggers.\n\n**Caption:**\n> A PATTERN SEARCH BEGINS.\n\n**Provenance:** `documented` + `compressed` — hypotheses are condensed without reproducing technical details.\n\n",
+  "title": "Competing reset hypotheses remain questions"
+}

@@ -1,0 +1,97 @@
+{
+  "background": "ink",
+  "intent": "Block the creator sees public documents and dates. Keep the scripted evidence boundary and lettering visible.",
+  "lettering": [
+    {
+      "box": [
+        0.045,
+        0.78,
+        0.91,
+        0.18
+      ]
+    }
+  ],
+  "lettering_mode": "manual",
+  "nodes": [
+    {
+      "asset": "room",
+      "box": [
+        0.0492,
+        0.0514,
+        0.9016,
+        0.6272
+      ],
+      "color": "shadow"
+    },
+    {
+      "asset": "desk",
+      "box": [
+        0.1964,
+        0.4546,
+        0.7176,
+        0.1984
+      ],
+      "color": "nicotine"
+    },
+    {
+      "asset": "person-seated",
+      "box": [
+        0.09933333333333332,
+        0.20499999999999996,
+        0.19413333333333335,
+        0.44800000000000006
+      ],
+      "color": "dirty"
+    },
+    {
+      "asset": "monitor",
+      "box": [
+        0.3528,
+        0.205,
+        0.23,
+        0.2176
+      ],
+      "color": "steel",
+      "focus": true,
+      "label": "PUBLIC PAGES",
+      "label_box": [
+        0.3448,
+        0.4286,
+        0.246,
+        0.025
+      ]
+    },
+    {
+      "asset": "card",
+      "box": [
+        0.6242,
+        0.205,
+        0.23,
+        0.2176
+      ],
+      "color": "steel",
+      "focus": true,
+      "label": "DATES",
+      "label_box": [
+        0.6162,
+        0.4286,
+        0.246,
+        0.025
+      ]
+    },
+    {
+      "asset": "cup",
+      "box": [
+        0.8128,
+        0.4482,
+        0.0644,
+        0.0896
+      ],
+      "color": "nicotine"
+    }
+  ],
+  "reconstructed": true,
+  "shot": "office",
+  "source": "\n**Frame:** Curt sees only published pages and dates—no boardroom, no leaked notes, no private transcript.\n\n**Dialogue — CURT:**\n> I can show the pressure in what they published. I cannot claim to know the private decision.\n\n**Provenance:** `reconstructed` — creator disclosure.\n\n",
+  "title": "The creator sees public documents and dates"
+}

@@ -1,0 +1,94 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="800" viewBox="0 0 1200 800"><title>The two-lane calendar sits beside its sources</title><metadata>{
+  &quot;assets&quot;: {
+    &quot;folder&quot;: &quot;&lt;path d=\&quot;M3 20V8H38L48 20H97V90H3Z\&quot; fill=\&quot;#202326\&quot; stroke=\&quot;currentColor\&quot; stroke-width=\&quot;3\&quot;/&gt;&lt;path d=\&quot;M12 40H85M12 50H65\&quot; stroke=\&quot;currentColor\&quot; stroke-width=\&quot;2\&quot;/&gt;&quot;,
+    &quot;paper&quot;: &quot;&lt;path d=\&quot;M0 0H80L100 20V100H0Z\&quot; fill=\&quot;currentColor\&quot;/&gt;&lt;path d=\&quot;M80 0V20H100M9 35H84M9 48H84M9 61H73M9 74H81\&quot; fill=\&quot;none\&quot; stroke=\&quot;#101214\&quot; stroke-width=\&quot;1.5\&quot;/&gt;&quot;,
+    &quot;sheet&quot;: &quot;&lt;rect x=\&quot;3\&quot; y=\&quot;3\&quot; width=\&quot;94\&quot; height=\&quot;94\&quot; fill=\&quot;#202326\&quot; stroke=\&quot;currentColor\&quot; stroke-width=\&quot;3\&quot;/&gt;&lt;path d=\&quot;M3 22H97M3 42H97M3 62H97M3 82H97M28 3V97M52 3V97M76 3V97\&quot; stroke=\&quot;currentColor\&quot; stroke-width=\&quot;1.5\&quot;/&gt;&quot;
+  },
+  &quot;palette&quot;: {
+    &quot;amber&quot;: &quot;#A17D45&quot;,
+    &quot;dirty&quot;: &quot;#CEC5B3&quot;,
+    &quot;ink&quot;: &quot;#101214&quot;,
+    &quot;institution&quot;: &quot;#68766B&quot;,
+    &quot;nicotine&quot;: &quot;#AA9571&quot;,
+    &quot;paper&quot;: &quot;#E7E0D0&quot;,
+    &quot;shadow&quot;: &quot;#202326&quot;,
+    &quot;steel&quot;: &quot;#5E737B&quot;
+  },
+  &quot;renderer&quot;: &quot;storyboard-svg-1&quot;,
+  &quot;scene&quot;: {
+    &quot;background&quot;: &quot;ink&quot;,
+    &quot;intent&quot;: &quot;Block the two-lane calendar sits beside its sources. Keep the scripted evidence boundary and lettering visible.&quot;,
+    &quot;lettering&quot;: [
+      {
+        &quot;box&quot;: [
+          0.045,
+          0.78,
+          0.91,
+          0.18
+        ]
+      }
+    ],
+    &quot;lettering_mode&quot;: &quot;manual&quot;,
+    &quot;nodes&quot;: [
+      {
+        &quot;asset&quot;: &quot;sheet&quot;,
+        &quot;box&quot;: [
+          0.1044,
+          0.2242,
+          0.195163,
+          0.256
+        ],
+        &quot;color&quot;: &quot;steel&quot;,
+        &quot;focus&quot;: true,
+        &quot;label&quot;: &quot;TWO-LANE CALENDAR&quot;,
+        &quot;label_box&quot;: [
+          0.09640000000000001,
+          0.4862,
+          0.211163,
+          0.085
+        ]
+      },
+      {
+        &quot;asset&quot;: &quot;paper&quot;,
+        &quot;box&quot;: [
+          0.368133,
+          0.2242,
+          0.195163,
+          0.256
+        ],
+        &quot;color&quot;: &quot;steel&quot;,
+        &quot;focus&quot;: true,
+        &quot;label&quot;: &quot;RESEARCHERS REPORT&quot;,
+        &quot;label_box&quot;: [
+          0.360133,
+          0.4862,
+          0.211163,
+          0.085
+        ]
+      },
+      {
+        &quot;asset&quot;: &quot;folder&quot;,
+        &quot;box&quot;: [
+          0.631867,
+          0.2242,
+          0.195163,
+          0.256
+        ],
+        &quot;color&quot;: &quot;steel&quot;,
+        &quot;focus&quot;: true,
+        &quot;label&quot;: &quot;CHAPTERS&quot;,
+        &quot;label_box&quot;: [
+          0.623867,
+          0.4862,
+          0.211163,
+          0.085
+        ]
+      }
+    ],
+    &quot;reconstructed&quot;: false,
+    &quot;shot&quot;: &quot;row&quot;,
+    &quot;source&quot;: &quot;\n**Frame:** The two-lane calendar, complete, with the four-authors&#x27; report and the book&#x27;s own chapter titles side by side at the right edge.\n\n**Screen / system text — CHATGPT:**\n&gt; The book was not wrong about the sequence it told. It was wrong to let the sequence look like a census.\n\n**Provenance:** `reconstructed` + `inferred` — dramatized creator exchange; the correction is to the book&#x27;s framing, per the [population model](../story-contract.md), not to any documented event.\n\n&quot;,
+    &quot;title&quot;: &quot;The two-lane calendar sits beside its sources&quot;
+  }
+}
+</metadata><rect width="1200" height="800" fill="#101214"/><g transform="translate(125.28 179.36) scale(2.34196 2.048)" color="#5E737B"><g transform=""><rect x="3" y="3" width="94" height="94" fill="#202326" stroke="currentColor" stroke-width="3"/><path d="M3 22H97M3 42H97M3 62H97M3 82H97M28 3V97M52 3V97M76 3V97" stroke="currentColor" stroke-width="1.5"/></g></g><text x="242.378" y="408.96" text-anchor="middle" fill="#E7E0D0" font-size="20" font-family="sans-serif">TWO-LANE CALENDAR</text><g transform="translate(441.76 179.36) scale(2.34196 2.048)" color="#5E737B"><g transform=""><path d="M0 0H80L100 20V100H0Z" fill="currentColor"/><path d="M80 0V20H100M9 35H84M9 48H84M9 61H73M9 74H81" fill="none" stroke="#101214" stroke-width="1.5"/></g></g><text x="558.857" y="408.96" text-anchor="middle" fill="#E7E0D0" font-size="20" font-family="sans-serif">RESEARCHERS REPORT</text><g transform="translate(758.24 179.36) scale(2.34196 2.048)" color="#5E737B"><g transform=""><path d="M3 20V8H38L48 20H97V90H3Z" fill="#202326" stroke="currentColor" stroke-width="3"/><path d="M12 40H85M12 50H65" stroke="currentColor" stroke-width="2"/></g></g><text x="875.338" y="408.96" text-anchor="middle" fill="#E7E0D0" font-size="20" font-family="sans-serif">CHAPTERS</text><rect x="3" y="3" width="1194" height="794" fill="none" stroke="#5E737B" stroke-width="4"/></svg>

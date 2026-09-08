@@ -1,0 +1,57 @@
+{
+  "background": "ink",
+  "intent": "Block difficult cards already in the training set. Keep the scripted evidence boundary and lettering visible.",
+  "lettering": [
+    {
+      "box": [
+        0.045,
+        0.78,
+        0.91,
+        0.18
+      ]
+    }
+  ],
+  "lettering_mode": "manual",
+  "nodes": [
+    {
+      "asset": "folder",
+      "box": [
+        0.2148,
+        0.1282,
+        0.5336,
+        0.3968
+      ],
+      "color": "steel",
+      "focus": true,
+      "label": "TRAINING SET",
+      "label_box": [
+        0.20679999999999998,
+        0.531,
+        0.5496,
+        0.030799999999999945
+      ]
+    },
+    {
+      "asset": "card",
+      "box": [
+        0.0952,
+        0.5698,
+        0.644,
+        0.0576
+      ],
+      "color": "steel",
+      "focus": true,
+      "label": "IMPOSSIBLE / HARD",
+      "label_box": [
+        0.0872,
+        0.6334,
+        0.66,
+        0.085
+      ]
+    }
+  ],
+  "reconstructed": false,
+  "shot": "hero",
+  "source": "\n**Frame:** A fifth card joins the field, in the same flat register: a small set of task cards marked `IMPOSSIBLE OR VERY HARD`, filed inside a much larger stack marked `TRAINING SET`. No agent is present.\n\n**Action:** Unsatisfiable objectives are already in the work queue.\n\n**Caption:**\n> NOBODY PUT THEM THERE ON PURPOSE.\n>\n> THEY WERE THERE.\n\n**Provenance:** `documented` — `OAI-BH` 10:20; corroborated for the specific 8 May case by `OAI-TR`, which states the task was not intended to be impossible.\n\n",
+  "title": "Difficult cards already in the training set"
+}

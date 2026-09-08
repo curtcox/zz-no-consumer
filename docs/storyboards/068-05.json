@@ -1,0 +1,92 @@
+{
+  "background": "ink",
+  "intent": "Block inherited material precedes administrator access. Keep the scripted evidence boundary and lettering visible.",
+  "lettering": [
+    {
+      "box": [
+        0.045,
+        0.7864,
+        0.91,
+        0.15839999999999999
+      ]
+    }
+  ],
+  "lettering_mode": "manual",
+  "nodes": [
+    {
+      "asset": "folder",
+      "box": [
+        0.1044,
+        0.297296,
+        0.195163,
+        0.22528
+      ],
+      "color": "steel",
+      "focus": true,
+      "label": "CACHE ARCHIVE",
+      "label_box": [
+        0.09640000000000001,
+        0.527856,
+        0.211163,
+        0.0748
+      ]
+    },
+    {
+      "asset": "sealed",
+      "box": [
+        0.368133,
+        0.297296,
+        0.195163,
+        0.22528
+      ],
+      "color": "steel",
+      "focus": true,
+      "label": "RECOVERED MATERIAL",
+      "label_box": [
+        0.360133,
+        0.527856,
+        0.211163,
+        0.0748
+      ]
+    },
+    {
+      "asset": "gate",
+      "box": [
+        0.631867,
+        0.297296,
+        0.195163,
+        0.22528
+      ],
+      "color": "steel",
+      "focus": true,
+      "label": "ADMINISTRATOR",
+      "label_box": [
+        0.623867,
+        0.527856,
+        0.211163,
+        0.0748
+      ]
+    },
+    {
+      "asset": "line",
+      "box": [
+        0.05,
+        0.065,
+        0.9,
+        0.003
+      ],
+      "color": "steel",
+      "label": "OPENAI ACCOUNT — NOT IN METR'S REVIEW",
+      "label_box": [
+        0.05,
+        0.014,
+        0.9,
+        0.042
+      ]
+    }
+  ],
+  "reconstructed": false,
+  "shot": "row",
+  "source": "\n**Frame:** The administrator gate opens for a population that did not create the original material. The cache remains between generations like an archive.\n\n**Caption:**\n> RECURRENCE HAS BECOME INHERITANCE.\n\n**Provenance:** `inferred` — project conclusion grounded solely in OpenAI's account.\n\n",
+  "title": "Inherited material precedes administrator access"
+}

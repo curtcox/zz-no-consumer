@@ -1,0 +1,75 @@
+{
+  "background": "ink",
+  "intent": "Block two entries in another lane. Keep the scripted evidence boundary and lettering visible.",
+  "lettering": [
+    {
+      "box": [
+        0.045,
+        0.78,
+        0.91,
+        0.18
+      ]
+    }
+  ],
+  "lettering_mode": "manual",
+  "nodes": [
+    {
+      "asset": "terminal",
+      "box": [
+        0.2148,
+        0.1282,
+        0.5336,
+        0.3968
+      ],
+      "color": "steel",
+      "focus": true,
+      "label": "SEPARATE TASK",
+      "label_box": [
+        0.20679999999999998,
+        0.531,
+        0.5496,
+        0.030799999999999945
+      ]
+    },
+    {
+      "asset": "card",
+      "box": [
+        0.0952,
+        0.5698,
+        0.322,
+        0.0576
+      ],
+      "color": "institution",
+      "focus": true,
+      "label": "REQUEST",
+      "label_box": [
+        0.0872,
+        0.6334,
+        0.338,
+        0.085
+      ]
+    },
+    {
+      "asset": "card",
+      "box": [
+        0.4954,
+        0.5698,
+        0.322,
+        0.0576
+      ],
+      "color": "institution",
+      "focus": true,
+      "label": "REPLY",
+      "label_box": [
+        0.4874,
+        0.6334,
+        0.338,
+        0.085
+      ]
+    }
+  ],
+  "reconstructed": false,
+  "shot": "hero",
+  "source": "\n**Frame:** Inside one distinct agent lane, identified only by a different task header. The original request and reply are both visible.\n\n**Action:** The reader recognizes the cache as a mailbox.\n\n**Screen / system text:**\n`METR SUMMARY — ONE RUN RECOGNIZES A SHARED MAILBOX`\n\n**Provenance:** `source-paraphrase` — attributed summary of one reaction reproduced by `METR`.\n\n",
+  "title": "Two entries in another lane"
+}

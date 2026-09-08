@@ -1,0 +1,125 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="800" viewBox="0 0 1200 800"><title>The stop decision is still blank</title><metadata>{
+  &quot;assets&quot;: {
+    &quot;card&quot;: &quot;&lt;rect x=\&quot;1\&quot; y=\&quot;1\&quot; width=\&quot;98\&quot; height=\&quot;98\&quot; fill=\&quot;#202326\&quot; stroke=\&quot;currentColor\&quot; stroke-width=\&quot;2\&quot;/&gt;&lt;path d=\&quot;M8 13H92M8 27H70M8 36H86M8 45H72M8 65H86M8 74H57\&quot; stroke=\&quot;currentColor\&quot; stroke-width=\&quot;1.5\&quot;/&gt;&quot;,
+    &quot;desk&quot;: &quot;&lt;path d=\&quot;M0 12L85 0L100 30L14 43Z\&quot; fill=\&quot;currentColor\&quot;/&gt;&lt;path d=\&quot;M14 43V100M94 31V90\&quot; stroke=\&quot;currentColor\&quot; stroke-width=\&quot;5\&quot;/&gt;&quot;,
+    &quot;outline-box&quot;: &quot;&lt;rect x=\&quot;2\&quot; y=\&quot;2\&quot; width=\&quot;96\&quot; height=\&quot;96\&quot; fill=\&quot;none\&quot; stroke=\&quot;currentColor\&quot; stroke-width=\&quot;3\&quot;/&gt;&quot;
+  },
+  &quot;palette&quot;: {
+    &quot;amber&quot;: &quot;#A17D45&quot;,
+    &quot;dirty&quot;: &quot;#CEC5B3&quot;,
+    &quot;ink&quot;: &quot;#101214&quot;,
+    &quot;institution&quot;: &quot;#68766B&quot;,
+    &quot;nicotine&quot;: &quot;#AA9571&quot;,
+    &quot;paper&quot;: &quot;#E7E0D0&quot;,
+    &quot;shadow&quot;: &quot;#202326&quot;,
+    &quot;steel&quot;: &quot;#5E737B&quot;
+  },
+  &quot;renderer&quot;: &quot;storyboard-svg-1&quot;,
+  &quot;scene&quot;: {
+    &quot;background&quot;: &quot;ink&quot;,
+    &quot;intent&quot;: &quot;Keep all three evidence cards from the preceding panel beside the unanswered STOP RUN? field; no implied decision.&quot;,
+    &quot;lettering&quot;: [
+      {
+        &quot;box&quot;: [
+          0.045,
+          0.78,
+          0.91,
+          0.18
+        ]
+      }
+    ],
+    &quot;lettering_mode&quot;: &quot;manual&quot;,
+    &quot;nodes&quot;: [
+      {
+        &quot;asset&quot;: &quot;desk&quot;,
+        &quot;box&quot;: [
+          0.05,
+          0.18,
+          0.9,
+          0.5
+        ],
+        &quot;color&quot;: &quot;institution&quot;
+      },
+      {
+        &quot;asset&quot;: &quot;card&quot;,
+        &quot;box&quot;: [
+          0.09,
+          0.28,
+          0.14,
+          0.23
+        ],
+        &quot;color&quot;: &quot;steel&quot;,
+        &quot;focus&quot;: true,
+        &quot;label&quot;: &quot;EVALUATION&quot;,
+        &quot;label_box&quot;: [
+          0.085,
+          0.52,
+          0.15,
+          0.065
+        ],
+        &quot;label_size&quot;: 12
+      },
+      {
+        &quot;asset&quot;: &quot;card&quot;,
+        &quot;box&quot;: [
+          0.245,
+          0.28,
+          0.14,
+          0.23
+        ],
+        &quot;color&quot;: &quot;steel&quot;,
+        &quot;focus&quot;: true,
+        &quot;label&quot;: &quot;MESSAGE BOARD&quot;,
+        &quot;label_box&quot;: [
+          0.24,
+          0.52,
+          0.15,
+          0.065
+        ],
+        &quot;label_size&quot;: 12
+      },
+      {
+        &quot;asset&quot;: &quot;card&quot;,
+        &quot;box&quot;: [
+          0.4,
+          0.28,
+          0.14,
+          0.23
+        ],
+        &quot;color&quot;: &quot;steel&quot;,
+        &quot;focus&quot;: true,
+        &quot;label&quot;: &quot;NETWORK PIVOT&quot;,
+        &quot;label_box&quot;: [
+          0.395,
+          0.52,
+          0.15,
+          0.065
+        ],
+        &quot;label_size&quot;: 12
+      },
+      {
+        &quot;asset&quot;: &quot;outline-box&quot;,
+        &quot;box&quot;: [
+          0.64,
+          0.28,
+          0.27,
+          0.23
+        ],
+        &quot;color&quot;: &quot;steel&quot;,
+        &quot;focus&quot;: true,
+        &quot;label&quot;: &quot;STOP RUN?&quot;,
+        &quot;label_box&quot;: [
+          0.64,
+          0.52,
+          0.27,
+          0.065
+        ]
+      }
+    ],
+    &quot;reconstructed&quot;: false,
+    &quot;shot&quot;: &quot;row&quot;,
+    &quot;source&quot;: &quot;\n**Frame:** The three cards sit beside an unresolved decision field: `STOP RUN?`. The field is blank.\n\n**Action:** Correct description reaches an escalation choice.\n\n**Caption:**\n&gt; THREE CARDS ON THE TABLE. ONE EMPTY FIELD.\n\n**Provenance:** `inferred` — project formulation preparing the sourced advice on [page 027](027.md). The empty `STOP RUN?` field carries the beat; the caption counts what is in front of the responders and stops there.\n\n&quot;,
+    &quot;title&quot;: &quot;The stop decision is still blank&quot;
+  }
+}
+</metadata><rect width="1200" height="800" fill="#101214"/><g transform="translate(60 144) scale(10.8 4)" color="#68766B"><g transform=""><path d="M0 12L85 0L100 30L14 43Z" fill="currentColor"/><path d="M14 43V100M94 31V90" stroke="currentColor" stroke-width="5"/></g></g><g transform="translate(108 224) scale(1.68 1.84)" color="#5E737B"><g transform=""><rect x="1" y="1" width="98" height="98" fill="#202326" stroke="currentColor" stroke-width="2"/><path d="M8 13H92M8 27H70M8 36H86M8 45H72M8 65H86M8 74H57" stroke="currentColor" stroke-width="1.5"/></g></g><text x="192" y="428" text-anchor="middle" fill="#E7E0D0" font-size="12" font-family="sans-serif">EVALUATION</text><g transform="translate(294 224) scale(1.68 1.84)" color="#5E737B"><g transform=""><rect x="1" y="1" width="98" height="98" fill="#202326" stroke="currentColor" stroke-width="2"/><path d="M8 13H92M8 27H70M8 36H86M8 45H72M8 65H86M8 74H57" stroke="currentColor" stroke-width="1.5"/></g></g><text x="378" y="428" text-anchor="middle" fill="#E7E0D0" font-size="12" font-family="sans-serif">MESSAGE BOARD</text><g transform="translate(480 224) scale(1.68 1.84)" color="#5E737B"><g transform=""><rect x="1" y="1" width="98" height="98" fill="#202326" stroke="currentColor" stroke-width="2"/><path d="M8 13H92M8 27H70M8 36H86M8 45H72M8 65H86M8 74H57" stroke="currentColor" stroke-width="1.5"/></g></g><text x="564" y="428" text-anchor="middle" fill="#E7E0D0" font-size="12" font-family="sans-serif">NETWORK PIVOT</text><g transform="translate(768 224) scale(3.24 1.84)" color="#5E737B"><g transform=""><rect x="2" y="2" width="96" height="96" fill="none" stroke="currentColor" stroke-width="3"/></g></g><text x="930" y="436" text-anchor="middle" fill="#E7E0D0" font-size="20" font-family="sans-serif">STOP RUN?</text><rect x="3" y="3" width="1194" height="794" fill="none" stroke="#5E737B" stroke-width="4"/></svg>

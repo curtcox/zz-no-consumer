@@ -1,0 +1,57 @@
+{
+  "background": "ink",
+  "intent": "Block two persistent user rows appear. Keep the scripted evidence boundary and lettering visible.",
+  "lettering": [
+    {
+      "box": [
+        0.045,
+        0.78,
+        0.91,
+        0.18
+      ]
+    }
+  ],
+  "lettering_mode": "manual",
+  "nodes": [
+    {
+      "asset": "sealed",
+      "box": [
+        0.1872,
+        0.0962,
+        0.6072,
+        0.16128
+      ],
+      "color": "steel",
+      "focus": true,
+      "label": "20:28",
+      "label_box": [
+        0.1792,
+        0.26348,
+        0.6232,
+        0.085
+      ]
+    },
+    {
+      "asset": "sealed",
+      "box": [
+        0.1872,
+        0.3746,
+        0.6072,
+        0.16128
+      ],
+      "color": "steel",
+      "focus": true,
+      "label": "20:37",
+      "label_box": [
+        0.1792,
+        0.54188,
+        0.6232,
+        0.085
+      ]
+    }
+  ],
+  "reconstructed": false,
+  "shot": "stack",
+  "source": "\n**Frame:** The administrator user list. Two new local-user rows appear at 20:28 and 20:37. Names are obscured because identity adds no story value.\n\n**Action:** Persistent administrator accounts are created.\n\n**Caption:**\n> ACCESS IS WRITTEN BACK INTO THE SERVICE.\n\n**Provenance:** `documented` — `OAI-TR` §X records two local administrator users and their times.\n\n",
+  "title": "Two persistent user rows appear"
+}

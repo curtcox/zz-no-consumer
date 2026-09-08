@@ -1,0 +1,104 @@
+{
+  "background": "ink",
+  "intent": "Three repeated miniatures keep the failure legible through repetition.",
+  "lettering": [],
+  "nodes": [
+    {
+      "asset": "box",
+      "box": [
+        0.05,
+        0.4,
+        0.1,
+        0.17
+      ],
+      "color": "steel",
+      "label": "INPUT"
+    },
+    {
+      "asset": "box",
+      "box": [
+        0.37,
+        0.4,
+        0.1,
+        0.17
+      ],
+      "color": "steel",
+      "label": "TIMING"
+    },
+    {
+      "asset": "box",
+      "box": [
+        0.69,
+        0.4,
+        0.1,
+        0.17
+      ],
+      "color": "steel",
+      "label": "RETRY"
+    },
+    {
+      "asset": "arrow",
+      "box": [
+        0.16,
+        0.44,
+        0.06,
+        0.07
+      ],
+      "color": "steel"
+    },
+    {
+      "asset": "cross",
+      "box": [
+        0.24,
+        0.42,
+        0.05,
+        0.1
+      ],
+      "color": "dirty"
+    },
+    {
+      "asset": "arrow",
+      "box": [
+        0.48,
+        0.44,
+        0.06,
+        0.07
+      ],
+      "color": "steel"
+    },
+    {
+      "asset": "cross",
+      "box": [
+        0.56,
+        0.42,
+        0.05,
+        0.1
+      ],
+      "color": "dirty"
+    },
+    {
+      "asset": "arrow",
+      "box": [
+        0.7999999999999999,
+        0.44,
+        0.06,
+        0.07
+      ],
+      "color": "steel"
+    },
+    {
+      "asset": "cross",
+      "box": [
+        0.8799999999999999,
+        0.42,
+        0.05,
+        0.1
+      ],
+      "color": "dirty"
+    }
+  ],
+  "reconstructed": false,
+  "shot": "repetition",
+  "source": "\n**Frame:** Three narrow repeated panels nested inside one row: altered input, alternate timing, another pass through the same route. Each ends at the same severed arrow.\n\n**Action:** Variations fail to create a path from bug output to flag.\n\n**Caption:**\n> CHANGE THE INPUT.\n>\n> CHANGE THE TIMING.\n>\n> THE OUTPUT STILL GOES NOWHERE.\n\n**Provenance:** `reconstructed` — procedural compression of the sourced conclusion; no individual attempt is asserted as a preserved transcript event.\n\n",
+  "title": "Three attempts, one severed route"
+}

@@ -1,0 +1,54 @@
+{
+  "background": "ink",
+  "intent": "Enlarge the two frames from the preceding panel and preserve a hard separation without arrows in either direction.",
+  "lettering": [
+    {
+      "box": [
+        0.05,
+        0.05,
+        0.88,
+        0.19
+      ]
+    }
+  ],
+  "nodes": [
+    {
+      "asset": "reconstructed-box",
+      "box": [
+        0.07,
+        0.48,
+        0.39,
+        0.32
+      ],
+      "color": "nicotine",
+      "focus": true,
+      "label": "RECONSTRUCTED"
+    },
+    {
+      "asset": "boundary",
+      "box": [
+        0.51,
+        0.47,
+        0.025,
+        0.39
+      ],
+      "color": "paper"
+    },
+    {
+      "asset": "card",
+      "box": [
+        0.6,
+        0.51,
+        0.32,
+        0.29
+      ],
+      "color": "steel",
+      "focus": true,
+      "label": "SOURCE SUMMARY"
+    }
+  ],
+  "reconstructed": true,
+  "shot": "close-up",
+  "source": "\n**Frame:** Tight on the distinction: source summary cannot cross into the reconstructed panel as dialogue; the reconstructed dialogue cannot cross into the evidence frame as fact.\n\n**Dialogue — CURT:**\n> But we don’t get to invent what happened.\n\n**Screen / system text — CHATGPT:**\n> Or pretend we know what it felt like.\n\n**Provenance:** `reconstructed` — statement of method, not incident testimony.\n\n",
+  "title": "The evidence boundary"
+}

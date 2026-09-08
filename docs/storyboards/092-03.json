@@ -1,0 +1,75 @@
+{
+  "background": "ink",
+  "intent": "Block monitoring accompanies evaluation and a decision clock. Keep the scripted evidence boundary and lettering visible.",
+  "lettering": [
+    {
+      "box": [
+        0.045,
+        0.78,
+        0.91,
+        0.18
+      ]
+    }
+  ],
+  "lettering_mode": "manual",
+  "nodes": [
+    {
+      "asset": "box",
+      "box": [
+        0.1044,
+        0.2242,
+        0.195163,
+        0.256
+      ],
+      "color": "steel",
+      "focus": true,
+      "label": "EVALUATION",
+      "label_box": [
+        0.09640000000000001,
+        0.4862,
+        0.211163,
+        0.085
+      ]
+    },
+    {
+      "asset": "aperture",
+      "box": [
+        0.368133,
+        0.23960596153846153,
+        0.195163,
+        0.22518807692307694
+      ],
+      "color": "steel",
+      "focus": true,
+      "label": "MONITOR",
+      "label_box": [
+        0.360133,
+        0.4862,
+        0.211163,
+        0.085
+      ]
+    },
+    {
+      "asset": "clock",
+      "box": [
+        0.6441151666666666,
+        0.22419999999999998,
+        0.1706666666666667,
+        0.25600000000000006
+      ],
+      "color": "steel",
+      "focus": true,
+      "label": "30 MINUTES",
+      "label_box": [
+        0.623867,
+        0.4862,
+        0.211163,
+        0.085
+      ]
+    }
+  ],
+  "reconstructed": false,
+  "shot": "row",
+  "source": "\n**Frame:** A monitoring lane runs beside every tool-using high-capability evaluation. Severe alerts lead to a 30-minute decision clock.\n\n**Caption:**\n> IF A CRITICAL FLAG CANNOT BE DISMISSED WITHIN THIRTY MINUTES, THE EXPECTED ACTION IS PAUSE.\n\n**Provenance:** `documented` (institutional claim) — OpenAI's stated escalation rule.\n\n",
+  "title": "Monitoring accompanies evaluation and a decision clock"
+}

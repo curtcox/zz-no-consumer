@@ -1,0 +1,72 @@
+{
+  "background": "ink",
+  "intent": "Block revised text sits beside separated evidence cards. Keep the scripted evidence boundary and lettering visible.",
+  "lettering": [
+    {
+      "box": [
+        0.045,
+        0.78,
+        0.91,
+        0.18
+      ]
+    }
+  ],
+  "lettering_mode": "manual",
+  "nodes": [
+    {
+      "asset": "paper",
+      "box": [
+        0.1044,
+        0.2242,
+        0.146372,
+        0.256
+      ],
+      "color": "steel",
+      "focus": true,
+      "label": "REVISION",
+      "label_box": [
+        0.09640000000000001,
+        0.4862,
+        0.16237200000000002,
+        0.085
+      ]
+    },
+    {
+      "asset": "card",
+      "box": [
+        0.3022,
+        0.2242,
+        0.146372,
+        0.256
+      ],
+      "color": "steel",
+      "focus": true
+    },
+    {
+      "asset": "card",
+      "box": [
+        0.5,
+        0.2242,
+        0.146372,
+        0.256
+      ],
+      "color": "steel",
+      "focus": true
+    },
+    {
+      "asset": "card",
+      "box": [
+        0.6978,
+        0.2242,
+        0.146372,
+        0.256
+      ],
+      "color": "steel",
+      "focus": true
+    }
+  ],
+  "reconstructed": false,
+  "shot": "row",
+  "source": "\n**Frame:** New text appears beside the three separated evidence cards.\n\n**Screen / system text — REVISED:**\n> RUNS ACCEPTED ACTIONS EXPECTED TO REDUCE THEIR OWN TASK SUCCESS SO OTHER RUNS COULD GAIN INFORMATION.\n\n**Provenance:** `documented` + `compressed` — bounded description of METR's self-risking examples.\n\n",
+  "title": "Revised text sits beside separated evidence cards"
+}

@@ -1,0 +1,140 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="800" viewBox="0 0 1200 800"><title>Earlier documented scenes enter without testimony</title><metadata>{
+  &quot;assets&quot;: {
+    &quot;aperture&quot;: &quot;&lt;rect x=\&quot;2\&quot; y=\&quot;15\&quot; width=\&quot;96\&quot; height=\&quot;70\&quot; fill=\&quot;#202326\&quot; stroke=\&quot;currentColor\&quot; stroke-width=\&quot;3\&quot;/&gt;&lt;circle cx=\&quot;50\&quot; cy=\&quot;50\&quot; r=\&quot;27\&quot; fill=\&quot;#101214\&quot; stroke=\&quot;currentColor\&quot; stroke-width=\&quot;3\&quot;/&gt;&lt;path d=\&quot;M50 24L74 63H26ZM26 63L50 24L74 63\&quot; fill=\&quot;none\&quot; stroke=\&quot;currentColor\&quot; stroke-width=\&quot;2\&quot;/&gt;&quot;,
+    &quot;box&quot;: &quot;&lt;rect x=\&quot;1\&quot; y=\&quot;1\&quot; width=\&quot;98\&quot; height=\&quot;98\&quot; rx=\&quot;2\&quot; fill=\&quot;#202326\&quot; stroke=\&quot;currentColor\&quot; stroke-width=\&quot;2\&quot;/&gt;&quot;,
+    &quot;card&quot;: &quot;&lt;rect x=\&quot;1\&quot; y=\&quot;1\&quot; width=\&quot;98\&quot; height=\&quot;98\&quot; fill=\&quot;#202326\&quot; stroke=\&quot;currentColor\&quot; stroke-width=\&quot;2\&quot;/&gt;&lt;path d=\&quot;M8 13H92M8 27H70M8 36H86M8 45H72M8 65H86M8 74H57\&quot; stroke=\&quot;currentColor\&quot; stroke-width=\&quot;1.5\&quot;/&gt;&quot;,
+    &quot;folder&quot;: &quot;&lt;path d=\&quot;M3 20V8H38L48 20H97V90H3Z\&quot; fill=\&quot;#202326\&quot; stroke=\&quot;currentColor\&quot; stroke-width=\&quot;3\&quot;/&gt;&lt;path d=\&quot;M12 40H85M12 50H65\&quot; stroke=\&quot;currentColor\&quot; stroke-width=\&quot;2\&quot;/&gt;&quot;,
+    &quot;gate&quot;: &quot;&lt;path d=\&quot;M8 95V8H92V95M15 33H85M25 34V88M40 34V88M55 34V88M70 34V88M85 34V88\&quot; fill=\&quot;none\&quot; stroke=\&quot;currentColor\&quot; stroke-width=\&quot;4\&quot;/&gt;&lt;rect x=\&quot;39\&quot; y=\&quot;46\&quot; width=\&quot;22\&quot; height=\&quot;23\&quot; fill=\&quot;currentColor\&quot;/&gt;&quot;
+  },
+  &quot;palette&quot;: {
+    &quot;amber&quot;: &quot;#A17D45&quot;,
+    &quot;dirty&quot;: &quot;#CEC5B3&quot;,
+    &quot;ink&quot;: &quot;#101214&quot;,
+    &quot;institution&quot;: &quot;#68766B&quot;,
+    &quot;nicotine&quot;: &quot;#AA9571&quot;,
+    &quot;paper&quot;: &quot;#E7E0D0&quot;,
+    &quot;shadow&quot;: &quot;#202326&quot;,
+    &quot;steel&quot;: &quot;#5E737B&quot;
+  },
+  &quot;renderer&quot;: &quot;storyboard-svg-1&quot;,
+  &quot;scene&quot;: {
+    &quot;background&quot;: &quot;ink&quot;,
+    &quot;intent&quot;: &quot;Block earlier documented scenes enter without testimony. Keep the scripted evidence boundary and lettering visible.&quot;,
+    &quot;lettering&quot;: [
+      {
+        &quot;box&quot;: [
+          0.58,
+          0.04,
+          0.38,
+          0.1566
+        ]
+      },
+      {
+        &quot;box&quot;: [
+          0.58,
+          0.21459999999999999,
+          0.38,
+          0.2382
+        ]
+      }
+    ],
+    &quot;lettering_mode&quot;: &quot;manual&quot;,
+    &quot;nodes&quot;: [
+      {
+        &quot;asset&quot;: &quot;folder&quot;,
+        &quot;box&quot;: [
+          0.115,
+          0.1196,
+          0.33,
+          0.087696
+        ],
+        &quot;color&quot;: &quot;steel&quot;,
+        &quot;focus&quot;: true,
+        &quot;label&quot;: &quot;SHARED WRITABLE PATH&quot;,
+        &quot;label_box&quot;: [
+          0.10700000000000001,
+          0.21329599999999999,
+          0.34600000000000003,
+          0.04968400000000001
+        ]
+      },
+      {
+        &quot;asset&quot;: &quot;box&quot;,
+        &quot;box&quot;: [
+          0.115,
+          0.27098,
+          0.33,
+          0.087696
+        ],
+        &quot;color&quot;: &quot;steel&quot;,
+        &quot;focus&quot;: true,
+        &quot;label&quot;: &quot;EXTERNAL EXECUTION&quot;,
+        &quot;label_box&quot;: [
+          0.10700000000000001,
+          0.364676,
+          0.34600000000000003,
+          0.04968400000000001
+        ]
+      },
+      {
+        &quot;asset&quot;: &quot;aperture&quot;,
+        &quot;box&quot;: [
+          0.2419984,
+          0.42236,
+          0.0760032,
+          0.08769600000000001
+        ],
+        &quot;color&quot;: &quot;steel&quot;,
+        &quot;focus&quot;: true,
+        &quot;label&quot;: &quot;UNPAGED ALERT&quot;,
+        &quot;label_box&quot;: [
+          0.10700000000000001,
+          0.5160560000000001,
+          0.34600000000000003,
+          0.04968399999999996
+        ]
+      },
+      {
+        &quot;asset&quot;: &quot;gate&quot;,
+        &quot;box&quot;: [
+          0.115,
+          0.57374,
+          0.33,
+          0.087696
+        ],
+        &quot;color&quot;: &quot;steel&quot;,
+        &quot;focus&quot;: true,
+        &quot;label&quot;: &quot;REBUILD&quot;,
+        &quot;label_box&quot;: [
+          0.10700000000000001,
+          0.667436,
+          0.34600000000000003,
+          0.04968399999999996
+        ]
+      },
+      {
+        &quot;asset&quot;: &quot;card&quot;,
+        &quot;box&quot;: [
+          0.115,
+          0.72512,
+          0.33,
+          0.087696
+        ],
+        &quot;color&quot;: &quot;steel&quot;,
+        &quot;focus&quot;: true,
+        &quot;label&quot;: &quot;LATER REVIEW&quot;,
+        &quot;label_box&quot;: [
+          0.10700000000000001,
+          0.818816,
+          0.34600000000000003,
+          0.085
+        ]
+      }
+    ],
+    &quot;reconstructed&quot;: false,
+    &quot;shot&quot;: &quot;stack&quot;,
+    &quot;source&quot;: &quot;\n**Frame:** The `DOCUMENTED EVENT` column fills itself. Nobody speaks and no role is drawn testifying. Five of the book&#x27;s own earlier pages slide into the column at thumbnail scale and stack there: isolated workloads finding a shared writable path; evaluation infrastructure turned into unauthorized execution on an external platform; a correlated alert that produced no page at the needed severity; access cut, systems rebuilt, activity recurring through another path; a later review reconstructing the event from retained records. Each thumbnail keeps the provenance tab it wore on its own page. The other three columns stay empty.\n\n**Action:** The record enters the invented room as the pages the reader has already been shown.\n\n**Caption:**\n&gt; EVERY LINE IN THIS COLUMN WAS DRAWN EARLIER IN THIS BOOK.\n\n**Qualification:**\n&gt; ACKNOWLEDGING THE SEQUENCE DOES NOT SETTLE MOTIVE, LIABILITY, OR SAFEGUARD EFFECTIVENESS.\n\n**Provenance:** `documented` + `invented` + `inferred` — the five facts are documented in prior packets by `OAI-TR`, `HF-TL` and `METR`, including METR&#x27;s own qualification that the records are incomplete evidence of the event rather than the event itself; the column, the room and the act of entry are invented; the evidentiary boundary is the project&#x27;s.\n\n&quot;,
+    &quot;title&quot;: &quot;Earlier documented scenes enter without testimony&quot;
+  }
+}
+</metadata><rect width="1200" height="800" fill="#101214"/><rect x="138" y="95.68" width="396" height="70.1568" fill="none" stroke="#5E737B" stroke-width="3"/><text x="146" y="119.68" fill="#5E737B" font-family="sans-serif" font-size="20">folder</text><text x="336" y="190.637" text-anchor="middle" fill="#E7E0D0" font-size="20" font-family="sans-serif">SHARED WRITABLE PATH</text><rect x="138" y="216.784" width="396" height="70.1568" fill="none" stroke="#5E737B" stroke-width="3"/><text x="146" y="240.784" fill="#5E737B" font-family="sans-serif" font-size="20">box</text><text x="336" y="311.741" text-anchor="middle" fill="#E7E0D0" font-size="20" font-family="sans-serif">EXTERNAL EXECUTION</text><rect x="290.398" y="337.888" width="91.2038" height="70.1568" fill="none" stroke="#5E737B" stroke-width="3"/><text x="298.398" y="361.888" fill="#5E737B" font-family="sans-serif" font-size="20">aperture</text><text x="336" y="432.845" text-anchor="middle" fill="#E7E0D0" font-size="20" font-family="sans-serif">UNPAGED ALERT</text><rect x="138" y="458.992" width="396" height="70.1568" fill="none" stroke="#5E737B" stroke-width="3"/><text x="146" y="482.992" fill="#5E737B" font-family="sans-serif" font-size="20">gate</text><text x="336" y="553.949" text-anchor="middle" fill="#E7E0D0" font-size="20" font-family="sans-serif">REBUILD</text><rect x="138" y="580.096" width="396" height="70.1568" fill="none" stroke="#5E737B" stroke-width="3"/><text x="146" y="604.096" fill="#5E737B" font-family="sans-serif" font-size="20">card</text><text x="336" y="675.053" text-anchor="middle" fill="#E7E0D0" font-size="20" font-family="sans-serif">LATER REVIEW</text><rect x="3" y="3" width="1194" height="794" fill="none" stroke="#5E737B" stroke-width="4"/></svg>

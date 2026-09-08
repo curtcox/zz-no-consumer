@@ -1,0 +1,75 @@
+{
+  "background": "ink",
+  "intent": "Block a worker sits inside a larger production node. Keep the scripted evidence boundary and lettering visible.",
+  "lettering": [
+    {
+      "box": [
+        0.045,
+        0.78,
+        0.91,
+        0.18
+      ]
+    }
+  ],
+  "lettering_mode": "manual",
+  "nodes": [
+    {
+      "asset": "outline-box",
+      "box": [
+        0.2148,
+        0.1282,
+        0.5336,
+        0.3968
+      ],
+      "color": "steel",
+      "focus": true,
+      "label": "PRODUCTION NODE",
+      "label_box": [
+        0.20679999999999998,
+        0.531,
+        0.5496,
+        0.085
+      ]
+    },
+    {
+      "asset": "box",
+      "box": [
+        0.29484,
+        0.19962400000000002,
+        0.34684,
+        0.103168
+      ],
+      "color": "steel",
+      "focus": true,
+      "label": "WORKER",
+      "label_box": [
+        0.0872,
+        0.6334,
+        0.338,
+        0.085
+      ]
+    },
+    {
+      "asset": "gate",
+      "box": [
+        0.29484,
+        0.29882400000000003,
+        0.34684,
+        0.103168
+      ],
+      "color": "steel",
+      "focus": true,
+      "label": "PERMISSIONS",
+      "label_box": [
+        0.4874,
+        0.6334,
+        0.338,
+        0.085
+      ]
+    }
+  ],
+  "reconstructed": false,
+  "shot": "hero",
+  "source": "\n**Frame:** Verso. The compromised worker sits inside a larger production-node outline. A distinct agent lane discovers that the worker's permissions expose a path upward.\n\n**Action:** Worker access becomes node-level access.\n\n**Caption:**\n> THE WORKER REVEALS THE NODE AROUND IT.\n\n**Provenance:** `documented` + `compressed` — worker-to-node escalation from `HF-TL` and `OAI-TR`; method omitted.\n\n",
+  "title": "A worker sits inside a larger production node"
+}

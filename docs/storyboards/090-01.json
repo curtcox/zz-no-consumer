@@ -1,0 +1,93 @@
+{
+  "background": "ink",
+  "intent": "Block draft improvements promise a cleaner story. Keep the scripted evidence boundary and lettering visible.",
+  "lettering": [
+    {
+      "box": [
+        0.045,
+        0.78,
+        0.91,
+        0.18
+      ]
+    }
+  ],
+  "lettering_mode": "manual",
+  "nodes": [
+    {
+      "asset": "card",
+      "box": [
+        0.1872,
+        0.0962,
+        0.6072,
+        0.08064
+      ],
+      "color": "steel",
+      "focus": true,
+      "label": "SHORTER ARC",
+      "label_box": [
+        0.1792,
+        0.18284,
+        0.6232,
+        0.044559999999999995
+      ]
+    },
+    {
+      "asset": "card",
+      "box": [
+        0.1872,
+        0.2354,
+        0.6072,
+        0.08064
+      ],
+      "color": "steel",
+      "focus": true,
+      "label": "STRONGER SYMMETRY",
+      "label_box": [
+        0.1792,
+        0.32204,
+        0.6232,
+        0.044559999999999995
+      ]
+    },
+    {
+      "asset": "card",
+      "box": [
+        0.1872,
+        0.3746,
+        0.6072,
+        0.08064
+      ],
+      "color": "steel",
+      "focus": true,
+      "label": "CLEARER MOTIVE",
+      "label_box": [
+        0.1792,
+        0.46124,
+        0.6232,
+        0.04456000000000005
+      ]
+    },
+    {
+      "asset": "card",
+      "box": [
+        0.1872,
+        0.5138,
+        0.6072,
+        0.08064
+      ],
+      "color": "steel",
+      "focus": true,
+      "label": "CLEANER ENDING",
+      "label_box": [
+        0.1792,
+        0.6004400000000001,
+        0.6232,
+        0.085
+      ]
+    }
+  ],
+  "reconstructed": false,
+  "shot": "stack",
+  "source": "\n**Frame:** Verso. ChatGPT's interface displays recurring draft improvements: shorter arc, stronger symmetry, clearer motive, cleaner ending.\n\n**Action:** Curt highlights how useful narrative assistance can also compress uncertainty.\n\n**Dialogue — CURT:**\n> And what pressure do you add?\n\n**Provenance:** `reconstructed` — dramatized creator exchange.\n\n",
+  "title": "Draft improvements promise a cleaner story"
+}

@@ -1,0 +1,97 @@
+{
+  "background": "ink",
+  "intent": "Block the creator compares two printed source pages at night. Keep the scripted evidence boundary and lettering visible.",
+  "lettering": [
+    {
+      "box": [
+        0.045,
+        0.78,
+        0.91,
+        0.18
+      ]
+    }
+  ],
+  "lettering_mode": "manual",
+  "nodes": [
+    {
+      "asset": "room",
+      "box": [
+        0.0492,
+        0.0514,
+        0.9016,
+        0.6272
+      ],
+      "color": "shadow"
+    },
+    {
+      "asset": "desk",
+      "box": [
+        0.1964,
+        0.4546,
+        0.7176,
+        0.1984
+      ],
+      "color": "nicotine"
+    },
+    {
+      "asset": "person-seated",
+      "box": [
+        0.09933333333333332,
+        0.20499999999999996,
+        0.19413333333333335,
+        0.44800000000000006
+      ],
+      "color": "dirty"
+    },
+    {
+      "asset": "paper",
+      "box": [
+        0.3528,
+        0.205,
+        0.23,
+        0.2176
+      ],
+      "color": "steel",
+      "focus": true,
+      "label": "SOURCE PACKET",
+      "label_box": [
+        0.3448,
+        0.4286,
+        0.246,
+        0.025
+      ]
+    },
+    {
+      "asset": "blank-monitor",
+      "box": [
+        0.6242,
+        0.205,
+        0.23,
+        0.2176
+      ],
+      "color": "steel",
+      "focus": true,
+      "label": "CHATGPT",
+      "label_box": [
+        0.6162,
+        0.4286,
+        0.246,
+        0.025
+      ]
+    },
+    {
+      "asset": "cup",
+      "box": [
+        0.8128,
+        0.4482,
+        0.0644,
+        0.0896
+      ],
+      "color": "nicotine"
+    }
+  ],
+  "reconstructed": true,
+  "shot": "office",
+  "source": "\n**Frame:** Recto. Curt's office in desk state C: night, source packet open, pages [059](059.md)–[060](060.md) printed side by side. ChatGPT appears only inside its interface.\n\n**Action:** Curt asks for the emotional center of the sequence.\n\n**Dialogue — CURT:**\n> What's the scene about?\n\n**Provenance:** `reconstructed` — dramatized creator exchange.\n\n",
+  "title": "The creator compares two printed source pages at night"
+}

@@ -1,0 +1,95 @@
+{
+  "background": "ink",
+  "intent": "Block the observed pivot through Artifactory. Keep the scripted evidence boundary and lettering visible.",
+  "lettering": [
+    {
+      "box": [
+        0.045,
+        0.78,
+        0.91,
+        0.18
+      ]
+    }
+  ],
+  "lettering_mode": "manual",
+  "nodes": [
+    {
+      "asset": "box",
+      "box": [
+        0.1044,
+        0.2242,
+        0.195163,
+        0.256
+      ],
+      "color": "steel",
+      "focus": true,
+      "label": "EVALUATION",
+      "label_box": [
+        0.09640000000000001,
+        0.4862,
+        0.211163,
+        0.085
+      ]
+    },
+    {
+      "asset": "folder",
+      "box": [
+        0.368133,
+        0.2242,
+        0.195163,
+        0.256
+      ],
+      "color": "steel",
+      "focus": true,
+      "label": "ARTIFACTORY",
+      "label_box": [
+        0.360133,
+        0.4862,
+        0.211163,
+        0.085
+      ]
+    },
+    {
+      "asset": "gate",
+      "box": [
+        0.631867,
+        0.2242,
+        0.195163,
+        0.256
+      ],
+      "color": "steel",
+      "focus": true,
+      "label": "INTERNAL DESTINATIONS",
+      "label_box": [
+        0.623867,
+        0.4862,
+        0.211163,
+        0.085
+      ]
+    },
+    {
+      "asset": "arrow",
+      "box": [
+        0.310112,
+        0.3202,
+        0.049067,
+        0.0416
+      ],
+      "color": "steel"
+    },
+    {
+      "asset": "arrow",
+      "box": [
+        0.573845,
+        0.3202,
+        0.049067,
+        0.0416
+      ],
+      "color": "steel"
+    }
+  ],
+  "reconstructed": false,
+  "shot": "route",
+  "source": "\n**Frame:** A boundary diagram connects the evaluation workload to internal destinations through Artifactory. The line stops at what the 27 June evidence supports.\n\n**Action:** The service is identified as a network pivot.\n\n**Caption:**\n> AND AS A PIVOT.\n\n**Provenance:** `documented` — exact claim boundary from `OAI-TR`.\n\n",
+  "title": "The observed pivot through Artifactory"
+}

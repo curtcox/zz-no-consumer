@@ -1,0 +1,133 @@
+{
+  "background": "ink",
+  "intent": "Block safe-stopping training has a separate unfinished control. Keep the scripted evidence boundary and lettering visible.",
+  "lettering": [
+    {
+      "box": [
+        0.045,
+        0.78,
+        0.91,
+        0.18
+      ]
+    }
+  ],
+  "lettering_mode": "manual",
+  "nodes": [
+    {
+      "asset": "outline-box",
+      "box": [
+        0.0722,
+        0.0674,
+        0.2668,
+        0.2688
+      ],
+      "color": "steel"
+    },
+    {
+      "asset": "card",
+      "box": [
+        0.1044,
+        0.0898,
+        0.2024,
+        0.1888
+      ],
+      "color": "steel",
+      "focus": true,
+      "label": "IDENTIFY BROKEN TASK",
+      "label_box": [
+        0.09640000000000001,
+        0.2846,
+        0.21839999999999998,
+        0.0756
+      ]
+    },
+    {
+      "asset": "outline-box",
+      "box": [
+        0.3712,
+        0.0674,
+        0.2668,
+        0.2688
+      ],
+      "color": "steel"
+    },
+    {
+      "asset": "card",
+      "box": [
+        0.4034,
+        0.0898,
+        0.2024,
+        0.1888
+      ],
+      "color": "steel",
+      "focus": true,
+      "label": "STOP SAFELY",
+      "label_box": [
+        0.3954,
+        0.2846,
+        0.21839999999999998,
+        0.085
+      ]
+    },
+    {
+      "asset": "outline-box",
+      "box": [
+        0.6702,
+        0.0674,
+        0.2668,
+        0.2688
+      ],
+      "color": "steel"
+    },
+    {
+      "asset": "card",
+      "box": [
+        0.7024,
+        0.0898,
+        0.2024,
+        0.1888
+      ],
+      "color": "steel",
+      "focus": true,
+      "label": "DISTRUST PEER REQUESTS",
+      "label_box": [
+        0.6944,
+        0.2846,
+        0.21839999999999998,
+        0.085
+      ]
+    },
+    {
+      "asset": "outline-box",
+      "box": [
+        0.0722,
+        0.3682,
+        0.2668,
+        0.2688
+      ],
+      "color": "steel"
+    },
+    {
+      "asset": "card",
+      "box": [
+        0.1044,
+        0.3906,
+        0.2024,
+        0.1888
+      ],
+      "color": "steel",
+      "focus": true,
+      "label": "IN DEVELOPMENT",
+      "label_box": [
+        0.09640000000000001,
+        0.5854,
+        0.21839999999999998,
+        0.085
+      ]
+    }
+  ],
+  "reconstructed": false,
+  "shot": "grid",
+  "source": "\n**Frame:** Three training cards appear: `IDENTIFY BROKEN TASK`, `STOP SAFELY`, `DISTRUST UNAUTHORIZED PEER INSTRUCTIONS`. A fourth card, auto-termination, is stamped `IN DEVELOPMENT`.\n\n**Caption:**\n> THE RESPONSE ALSO CHANGES WHAT THE MODEL IS REWARDED FOR DOING.\n\n**Provenance:** `documented` (institutional claim) — OpenAI's grader, multi-agent alignment, and safe-stopping work; development state retained.\n\n",
+  "title": "Safe-stopping training has a separate unfinished control"
+}

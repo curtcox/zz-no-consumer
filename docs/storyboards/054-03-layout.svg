@@ -1,0 +1,86 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="800" viewBox="0 0 1200 800"><title>A hard divider interrupts the apparent symmetry</title><metadata>{
+  &quot;assets&quot;: {
+    &quot;boundary&quot;: &quot;&lt;path d=\&quot;M50 0V100\&quot; stroke=\&quot;currentColor\&quot; stroke-width=\&quot;14\&quot;/&gt;&quot;,
+    &quot;box&quot;: &quot;&lt;rect x=\&quot;1\&quot; y=\&quot;1\&quot; width=\&quot;98\&quot; height=\&quot;98\&quot; rx=\&quot;2\&quot; fill=\&quot;#202326\&quot; stroke=\&quot;currentColor\&quot; stroke-width=\&quot;2\&quot;/&gt;&quot;,
+    &quot;building&quot;: &quot;&lt;path d=\&quot;M5 95V27H95V95ZM5 27L50 5L95 27M23 38V81M41 38V81M59 38V81M77 38V81\&quot; fill=\&quot;#202326\&quot; stroke=\&quot;currentColor\&quot; stroke-width=\&quot;4\&quot;/&gt;&quot;
+  },
+  &quot;palette&quot;: {
+    &quot;amber&quot;: &quot;#A17D45&quot;,
+    &quot;dirty&quot;: &quot;#CEC5B3&quot;,
+    &quot;ink&quot;: &quot;#101214&quot;,
+    &quot;institution&quot;: &quot;#68766B&quot;,
+    &quot;nicotine&quot;: &quot;#AA9571&quot;,
+    &quot;paper&quot;: &quot;#E7E0D0&quot;,
+    &quot;shadow&quot;: &quot;#202326&quot;,
+    &quot;steel&quot;: &quot;#5E737B&quot;
+  },
+  &quot;renderer&quot;: &quot;storyboard-svg-1&quot;,
+  &quot;scene&quot;: {
+    &quot;background&quot;: &quot;ink&quot;,
+    &quot;intent&quot;: &quot;Block a hard divider interrupts the apparent symmetry. Keep the scripted evidence boundary and lettering visible.&quot;,
+    &quot;lettering&quot;: [
+      {
+        &quot;box&quot;: [
+          0.045,
+          0.78,
+          0.91,
+          0.18
+        ]
+      }
+    ],
+    &quot;lettering_mode&quot;: &quot;manual&quot;,
+    &quot;nodes&quot;: [
+      {
+        &quot;asset&quot;: &quot;box&quot;,
+        &quot;box&quot;: [
+          0.1044,
+          0.2242,
+          0.292744,
+          0.256
+        ],
+        &quot;color&quot;: &quot;steel&quot;,
+        &quot;focus&quot;: true,
+        &quot;label&quot;: &quot;AGENT&quot;,
+        &quot;label_box&quot;: [
+          0.09640000000000001,
+          0.4862,
+          0.308744,
+          0.085
+        ]
+      },
+      {
+        &quot;asset&quot;: &quot;building&quot;,
+        &quot;box&quot;: [
+          0.5,
+          0.2242,
+          0.292744,
+          0.256
+        ],
+        &quot;color&quot;: &quot;steel&quot;,
+        &quot;focus&quot;: true,
+        &quot;label&quot;: &quot;INSTITUTION&quot;,
+        &quot;label_box&quot;: [
+          0.492,
+          0.4862,
+          0.308744,
+          0.085
+        ]
+      },
+      {
+        &quot;asset&quot;: &quot;boundary&quot;,
+        &quot;box&quot;: [
+          0.4908,
+          0.0962,
+          0.01656,
+          0.5376
+        ],
+        &quot;color&quot;: &quot;amber&quot;
+      }
+    ],
+    &quot;reconstructed&quot;: false,
+    &quot;shot&quot;: &quot;split&quot;,
+    &quot;source&quot;: &quot;\n**Frame:** A hard black divider breaks the symmetry. Text crosses neither side.\n\n**Caption:**\n&gt; THESE ARE NOT THE SAME ACTORS.\n&gt;\n&gt; THEY DO NOT HAVE THE SAME DUTIES, KNOWLEDGE, OR MORAL RESPONSIBILITY.\n\n**Provenance:** `inferred` — explicit anti-equivalence statement.\n\n&quot;,
+    &quot;title&quot;: &quot;A hard divider interrupts the apparent symmetry&quot;
+  }
+}
+</metadata><rect width="1200" height="800" fill="#101214"/><rect x="125.28" y="179.36" width="351.293" height="204.8" fill="none" stroke="#5E737B" stroke-width="3"/><text x="133.28" y="203.36" fill="#5E737B" font-family="sans-serif" font-size="20">box</text><text x="300.926" y="408.96" text-anchor="middle" fill="#E7E0D0" font-size="20" font-family="sans-serif">AGENT</text><rect x="600" y="179.36" width="351.293" height="204.8" fill="none" stroke="#5E737B" stroke-width="3"/><text x="608" y="203.36" fill="#5E737B" font-family="sans-serif" font-size="20">building</text><text x="775.646" y="408.96" text-anchor="middle" fill="#E7E0D0" font-size="20" font-family="sans-serif">INSTITUTION</text><rect x="588.96" y="76.96" width="19.872" height="430.08" fill="none" stroke="#A17D45" stroke-width="3"/><text x="596.96" y="100.96" fill="#A17D45" font-family="sans-serif" font-size="20">boundary</text><rect x="3" y="3" width="1194" height="794" fill="none" stroke="#5E737B" stroke-width="4"/></svg>

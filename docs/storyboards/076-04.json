@@ -1,0 +1,67 @@
+{
+  "background": "ink",
+  "intent": "Block the same model label does not establish identity or memory. Keep the scripted evidence boundary and lettering visible.",
+  "lettering": [
+    {
+      "box": [
+        0.045,
+        0.78,
+        0.91,
+        0.18
+      ]
+    }
+  ],
+  "lettering_mode": "manual",
+  "nodes": [
+    {
+      "asset": "box",
+      "box": [
+        0.1044,
+        0.2242,
+        0.292744,
+        0.256
+      ],
+      "color": "steel",
+      "focus": true,
+      "label": "INCIDENT TRAJECTORIES",
+      "label_box": [
+        0.09640000000000001,
+        0.4862,
+        0.308744,
+        0.085
+      ]
+    },
+    {
+      "asset": "box",
+      "box": [
+        0.5,
+        0.2242,
+        0.292744,
+        0.256
+      ],
+      "color": "steel",
+      "focus": true,
+      "label": "LATER ANALYSIS",
+      "label_box": [
+        0.492,
+        0.4862,
+        0.308744,
+        0.085
+      ]
+    },
+    {
+      "asset": "boundary",
+      "box": [
+        0.4908,
+        0.0962,
+        0.01656,
+        0.5376
+      ],
+      "color": "amber"
+    }
+  ],
+  "reconstructed": false,
+  "shot": "split",
+  "source": "\n**Frame:** Two separate boxes share the model label `GPT-5.6 SOL`: one contains minority incident trajectories; the other contains later analysis runs. No arrow of memory or identity connects them.\n\n**Caption:**\n> THE SAME MODEL APPEARS ON BOTH SIDES OF THE REVIEW.\n>\n> NOT THE SAME RUN. NOT THE SAME MEMORY.\n\n**Provenance:** `documented` + `inferred` — model-level relationship sourced; non-identity boundary explicit.\n\n",
+  "title": "The same model label does not establish identity or memory"
+}

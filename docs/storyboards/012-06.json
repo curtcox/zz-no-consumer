@@ -1,0 +1,23 @@
+{
+  "background": "ink",
+  "border": "none",
+  "intent": "Block the title in black space. Keep the scripted evidence boundary and lettering visible.",
+  "lettering": [
+    {
+      "box": [
+        0.12,
+        0.38,
+        0.78,
+        0.25
+      ],
+      "max_size": 76,
+      "role": "plain"
+    }
+  ],
+  "lettering_mode": "manual",
+  "nodes": [],
+  "reconstructed": false,
+  "shot": "blank",
+  "source": "\n**Frame:** Full-width black title panel. The title is dirty off-white; `ZZ` carries the quiet moss accent established by the board. No logo, robot, or network spectacle.\n\n**Action:** The incident movement resolves into the title.\n\n**Screen / system text:**\n`ZZ: NO CONSUMER`\n\n**Provenance:** `invented` — title treatment is project design, derived from the documented [page-003](003.md) string.\n\n",
+  "title": "The title in black space"
+}

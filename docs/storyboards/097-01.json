@@ -1,0 +1,39 @@
+{
+  "background": "ink",
+  "intent": "Block controlled defensive access enters the dated ledger. Keep the scripted evidence boundary and lettering visible.",
+  "lettering": [
+    {
+      "box": [
+        0.045,
+        0.78,
+        0.91,
+        0.18
+      ]
+    }
+  ],
+  "lettering_mode": "manual",
+  "nodes": [
+    {
+      "asset": "paper",
+      "box": [
+        0.2148,
+        0.1282,
+        0.5336,
+        0.3968
+      ],
+      "color": "steel",
+      "focus": true,
+      "label": "10 AUGUST DAYBREAK",
+      "label_box": [
+        0.20679999999999998,
+        0.531,
+        0.5496,
+        0.085
+      ]
+    }
+  ],
+  "reconstructed": false,
+  "shot": "hero",
+  "source": "\n**Frame:** Public ledger, 10 August. OpenAI expands controlled Daybreak access and introduces a cybersecurity-specific model for approved defensive work.\n\n**Caption:**\n> CAPABILITY EXPANDS INSIDE A PROGRAM OF IDENTITY, ACCOUNT, MONITORING, USE, AND LEGAL CONTROLS.\n\n**Provenance:** `documented` (institutional claim) — OpenAI Daybreak announcement.\n\n",
+  "title": "Controlled defensive access enters the dated ledger"
+}

@@ -169,6 +169,7 @@ python3 -m unittest discover -s scripts -p test_knowledge_map_local.py && \
 python3 scripts/knowledge_map_finish.py check && \
 python3 -m unittest discover -s scripts -p test_knowledge_map_finish.py && \
 python3 scripts/storyboards.py check --complete && \
+python3 scripts/art_jobs.py check && \
 python3 scripts/letterpress.py audit && \
 python3 scripts/pagination.py check && \
 python3 scripts/panels.py check && \
@@ -191,6 +192,16 @@ python3 scripts/panels.py check
 A red check is a work list, not a baseline. The validators repair nothing on purpose.
 
 ## Common tasks
+
+**Continue built-in image pilots.** Use the [artwork queue workflow](design/artwork-automation.md)
+and `scripts/art_jobs.py` for preparation, claims, receipts, review, and promotion.
+Inspect `status` before creating new jobs; resume existing work rather than recreating
+it. The persistent queue is local and gitignored under `256t/art-jobs/`; accepted
+images and provenance enter the tracked artwork store. Within an authorized batch,
+continue through eligible prepared jobs and bounded corrections without stopping
+after an arbitrary pair. Stop for the requested batch limit, unresolved visual/source
+decisions, unavailable generation, or exhausted attempts. Generation and visual
+review remain assistant tasks; bookkeeping and batch verification are scripted.
 
 **Generate or improve placeholders.** Follow [the storyboard workflow](design/storyboard-workflow.md)
 for new scene records, local SVG generation, visual iteration, model handoff, importing,

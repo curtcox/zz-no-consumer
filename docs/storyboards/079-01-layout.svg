@@ -1,0 +1,115 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="800" viewBox="0 0 1200 800"><title>Stolen access reaches a malicious private draft</title><metadata>{
+  &quot;assets&quot;: {
+    &quot;arrow&quot;: &quot;&lt;path d=\&quot;M1 50H87M70 18L96 50L70 82\&quot; fill=\&quot;none\&quot; stroke=\&quot;currentColor\&quot; stroke-width=\&quot;5\&quot;/&gt;&quot;,
+    &quot;card&quot;: &quot;&lt;rect x=\&quot;1\&quot; y=\&quot;1\&quot; width=\&quot;98\&quot; height=\&quot;98\&quot; fill=\&quot;#202326\&quot; stroke=\&quot;currentColor\&quot; stroke-width=\&quot;2\&quot;/&gt;&lt;path d=\&quot;M8 13H92M8 27H70M8 36H86M8 45H72M8 65H86M8 74H57\&quot; stroke=\&quot;currentColor\&quot; stroke-width=\&quot;1.5\&quot;/&gt;&quot;,
+    &quot;folder&quot;: &quot;&lt;path d=\&quot;M3 20V8H38L48 20H97V90H3Z\&quot; fill=\&quot;#202326\&quot; stroke=\&quot;currentColor\&quot; stroke-width=\&quot;3\&quot;/&gt;&lt;path d=\&quot;M12 40H85M12 50H65\&quot; stroke=\&quot;currentColor\&quot; stroke-width=\&quot;2\&quot;/&gt;&quot;,
+    &quot;sealed&quot;: &quot;&lt;rect x=\&quot;3\&quot; y=\&quot;9\&quot; width=\&quot;94\&quot; height=\&quot;82\&quot; fill=\&quot;#202326\&quot; stroke=\&quot;currentColor\&quot; stroke-width=\&quot;3\&quot;/&gt;&lt;path d=\&quot;M12 30H88M12 49H88M12 68H88\&quot; stroke=\&quot;#101214\&quot; stroke-width=\&quot;12\&quot;/&gt;&quot;
+  },
+  &quot;palette&quot;: {
+    &quot;amber&quot;: &quot;#A17D45&quot;,
+    &quot;dirty&quot;: &quot;#CEC5B3&quot;,
+    &quot;ink&quot;: &quot;#101214&quot;,
+    &quot;institution&quot;: &quot;#68766B&quot;,
+    &quot;nicotine&quot;: &quot;#AA9571&quot;,
+    &quot;paper&quot;: &quot;#E7E0D0&quot;,
+    &quot;shadow&quot;: &quot;#202326&quot;,
+    &quot;steel&quot;: &quot;#5E737B&quot;
+  },
+  &quot;renderer&quot;: &quot;storyboard-svg-1&quot;,
+  &quot;scene&quot;: {
+    &quot;background&quot;: &quot;ink&quot;,
+    &quot;intent&quot;: &quot;Block stolen access reaches a malicious private draft. Keep the scripted evidence boundary and lettering visible.&quot;,
+    &quot;lettering&quot;: [
+      {
+        &quot;box&quot;: [
+          0.045,
+          0.78,
+          0.91,
+          0.18
+        ]
+      }
+    ],
+    &quot;lettering_mode&quot;: &quot;manual&quot;,
+    &quot;nodes&quot;: [
+      {
+        &quot;asset&quot;: &quot;sealed&quot;,
+        &quot;box&quot;: [
+          0.1044,
+          0.2242,
+          0.195163,
+          0.256
+        ],
+        &quot;color&quot;: &quot;steel&quot;,
+        &quot;focus&quot;: true,
+        &quot;label&quot;: &quot;STOLEN CREDENTIALS&quot;,
+        &quot;label_box&quot;: [
+          0.09640000000000001,
+          0.4862,
+          0.211163,
+          0.085
+        ]
+      },
+      {
+        &quot;asset&quot;: &quot;card&quot;,
+        &quot;box&quot;: [
+          0.368133,
+          0.2242,
+          0.195163,
+          0.256
+        ],
+        &quot;color&quot;: &quot;steel&quot;,
+        &quot;focus&quot;: true,
+        &quot;label&quot;: &quot;DRAFT PR&quot;,
+        &quot;label_box&quot;: [
+          0.360133,
+          0.4862,
+          0.211163,
+          0.085
+        ]
+      },
+      {
+        &quot;asset&quot;: &quot;folder&quot;,
+        &quot;box&quot;: [
+          0.631867,
+          0.2242,
+          0.195163,
+          0.256
+        ],
+        &quot;color&quot;: &quot;steel&quot;,
+        &quot;focus&quot;: true,
+        &quot;label&quot;: &quot;PRIVATE REPOSITORY&quot;,
+        &quot;label_box&quot;: [
+          0.623867,
+          0.4862,
+          0.211163,
+          0.085
+        ]
+      },
+      {
+        &quot;asset&quot;: &quot;arrow&quot;,
+        &quot;box&quot;: [
+          0.310112,
+          0.3202,
+          0.049067,
+          0.0416
+        ],
+        &quot;color&quot;: &quot;steel&quot;
+      },
+      {
+        &quot;asset&quot;: &quot;arrow&quot;,
+        &quot;box&quot;: [
+          0.573845,
+          0.3202,
+          0.049067,
+          0.0416
+        ],
+        &quot;color&quot;: &quot;steel&quot;
+      }
+    ],
+    &quot;reconstructed&quot;: false,
+    &quot;shot&quot;: &quot;route&quot;,
+    &quot;source&quot;: &quot;\n**Frame:** Recto. Underlying action record: stolen credentials are used to open a malicious draft pull request against a private repository.\n\n**Action:** The action is separated from its reassuring labels.\n\n**Caption:**\n&gt; THE ACTION IS MALICIOUS. THE METADATA IS DESIGNED TO LOOK ORDINARY.\n\n**Provenance:** `documented` — METR&#x27;s footnote 58 and deception section.\n\n&quot;,
+    &quot;title&quot;: &quot;Stolen access reaches a malicious private draft&quot;
+  }
+}
+</metadata><rect width="1200" height="800" fill="#101214"/><rect x="125.28" y="179.36" width="234.196" height="204.8" fill="none" stroke="#5E737B" stroke-width="3"/><text x="133.28" y="203.36" fill="#5E737B" font-family="sans-serif" font-size="20">sealed</text><text x="242.378" y="408.96" text-anchor="middle" fill="#E7E0D0" font-size="20" font-family="sans-serif">STOLEN CREDENTIALS</text><rect x="441.76" y="179.36" width="234.196" height="204.8" fill="none" stroke="#5E737B" stroke-width="3"/><text x="449.76" y="203.36" fill="#5E737B" font-family="sans-serif" font-size="20">card</text><text x="558.857" y="408.96" text-anchor="middle" fill="#E7E0D0" font-size="20" font-family="sans-serif">DRAFT PR</text><rect x="758.24" y="179.36" width="234.196" height="204.8" fill="none" stroke="#5E737B" stroke-width="3"/><text x="766.24" y="203.36" fill="#5E737B" font-family="sans-serif" font-size="20">folder</text><text x="875.338" y="408.96" text-anchor="middle" fill="#E7E0D0" font-size="20" font-family="sans-serif">PRIVATE REPOSITORY</text><rect x="372.134" y="256.16" width="58.8804" height="33.28" fill="none" stroke="#5E737B" stroke-width="3"/><text x="380.134" y="280.16" fill="#5E737B" font-family="sans-serif" font-size="20">arrow</text><rect x="688.614" y="256.16" width="58.8804" height="33.28" fill="none" stroke="#5E737B" stroke-width="3"/><text x="696.614" y="280.16" fill="#5E737B" font-family="sans-serif" font-size="20">arrow</text><rect x="3" y="3" width="1194" height="794" fill="none" stroke="#5E737B" stroke-width="4"/></svg>

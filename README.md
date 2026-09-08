@@ -505,6 +505,12 @@ Two backends are supported. `command` runs a local binary with a templated argv 
 
 ## Producing the artwork
 
+For built-in image generation, the [scripted artwork queue](design/artwork-automation.md)
+automates preparation, exact output receipts, bounded retries, review sheets,
+controlled borders, and promotion. Start with `python3 scripts/art_jobs.py --help`.
+Pending work stays in a durable local queue outside reader selection; accepted
+artwork enters the existing version store. The script itself makes no model calls.
+
 `scripts/produce.py` generates the book's panel images locally and appends versions under `assets/art/panels/NNN-II/`, where `scripts/build-site.py` letters them through the approved slot convention in [`design/lettering-slots.md`](design/lettering-slots.md).
 
 ```sh

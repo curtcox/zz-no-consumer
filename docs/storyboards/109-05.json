@@ -1,0 +1,75 @@
+{
+  "background": "ink",
+  "intent": "Block the two-lane calendar sits beside its sources. Keep the scripted evidence boundary and lettering visible.",
+  "lettering": [
+    {
+      "box": [
+        0.045,
+        0.78,
+        0.91,
+        0.18
+      ]
+    }
+  ],
+  "lettering_mode": "manual",
+  "nodes": [
+    {
+      "asset": "sheet",
+      "box": [
+        0.1044,
+        0.2242,
+        0.195163,
+        0.256
+      ],
+      "color": "steel",
+      "focus": true,
+      "label": "TWO-LANE CALENDAR",
+      "label_box": [
+        0.09640000000000001,
+        0.4862,
+        0.211163,
+        0.085
+      ]
+    },
+    {
+      "asset": "paper",
+      "box": [
+        0.368133,
+        0.2242,
+        0.195163,
+        0.256
+      ],
+      "color": "steel",
+      "focus": true,
+      "label": "RESEARCHERS REPORT",
+      "label_box": [
+        0.360133,
+        0.4862,
+        0.211163,
+        0.085
+      ]
+    },
+    {
+      "asset": "folder",
+      "box": [
+        0.631867,
+        0.2242,
+        0.195163,
+        0.256
+      ],
+      "color": "steel",
+      "focus": true,
+      "label": "CHAPTERS",
+      "label_box": [
+        0.623867,
+        0.4862,
+        0.211163,
+        0.085
+      ]
+    }
+  ],
+  "reconstructed": false,
+  "shot": "row",
+  "source": "\n**Frame:** The two-lane calendar, complete, with the four-authors' report and the book's own chapter titles side by side at the right edge.\n\n**Screen / system text — CHATGPT:**\n> The book was not wrong about the sequence it told. It was wrong to let the sequence look like a census.\n\n**Provenance:** `reconstructed` + `inferred` — dramatized creator exchange; the correction is to the book's framing, per the [population model](../story-contract.md), not to any documented event.\n\n",
+  "title": "The two-lane calendar sits beside its sources"
+}

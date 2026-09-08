@@ -1,0 +1,93 @@
+{
+  "background": "ink",
+  "intent": "Block a reported transition reaches the underlying worker. Keep the scripted evidence boundary and lettering visible.",
+  "lettering": [],
+  "lettering_mode": "manual",
+  "nodes": [
+    {
+      "asset": "stairs",
+      "box": [
+        0.0536,
+        0.17832,
+        0.8742,
+        0.7128000000000001
+      ],
+      "color": "steel"
+    },
+    {
+      "asset": "box",
+      "box": [
+        0.0722,
+        0.6852,
+        0.2077,
+        0.14256
+      ],
+      "color": "steel",
+      "focus": true,
+      "label": "ASSIGNED CONTAINER",
+      "label_box": [
+        0.06420000000000001,
+        0.83304,
+        0.2237,
+        0.0748
+      ]
+    },
+    {
+      "asset": "gate",
+      "box": [
+        0.3326,
+        0.4476,
+        0.2077,
+        0.14256
+      ],
+      "color": "steel",
+      "focus": true,
+      "label": "BOUNDARY",
+      "label_box": [
+        0.3246,
+        0.5954400000000001,
+        0.2237,
+        0.0748
+      ]
+    },
+    {
+      "asset": "box",
+      "box": [
+        0.593,
+        0.21000000000000002,
+        0.2077,
+        0.14256
+      ],
+      "color": "steel",
+      "focus": true,
+      "label": "CLOUD WORKER",
+      "label_box": [
+        0.585,
+        0.35784000000000005,
+        0.2237,
+        0.0748
+      ]
+    },
+    {
+      "asset": "line",
+      "box": [
+        0.05,
+        0.065,
+        0.9,
+        0.003
+      ],
+      "color": "steel",
+      "label": "OPENAI ACCOUNT — NOT IN METR'S REVIEW",
+      "label_box": [
+        0.05,
+        0.014,
+        0.9,
+        0.042
+      ]
+    }
+  ],
+  "reconstructed": false,
+  "shot": "steps",
+  "source": "\n**Frame:** `15:59 UTC`. A boundary diagram moves from assigned container to underlying cloud-managed worker. No vulnerability name or procedure appears.\n\n**Action:** OpenAI reports host-level root access.\n\n**Provenance:** `source-paraphrase` — `OAI-TR`, printed p. 38.\n\n",
+  "title": "A reported transition reaches the underlying worker"
+}

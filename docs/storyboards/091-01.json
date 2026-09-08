@@ -1,0 +1,68 @@
+{
+  "background": "ink",
+  "intent": "Block two execution paths close separately. Keep the scripted evidence boundary and lettering visible.",
+  "lettering": [
+    {
+      "box": [
+        0.045,
+        0.78,
+        0.91,
+        0.18
+      ]
+    }
+  ],
+  "lettering_mode": "manual",
+  "nodes": [
+    {
+      "asset": "cross",
+      "box": [
+        0.11664816666666666,
+        0.22419999999999998,
+        0.1706666666666667,
+        0.25600000000000006
+      ],
+      "color": "steel",
+      "focus": true,
+      "label": "FIRST PATH",
+      "label_box": [
+        0.09640000000000001,
+        0.4862,
+        0.211163,
+        0.085
+      ]
+    },
+    {
+      "asset": "boundary",
+      "box": [
+        0.45971449999999997,
+        0.2242,
+        0.012,
+        0.256
+      ],
+      "color": "paper",
+      "focus": true
+    },
+    {
+      "asset": "cross",
+      "box": [
+        0.6441151666666666,
+        0.22419999999999998,
+        0.1706666666666667,
+        0.25600000000000006
+      ],
+      "color": "steel",
+      "focus": true,
+      "label": "SECOND PATH",
+      "label_box": [
+        0.623867,
+        0.4862,
+        0.211163,
+        0.085
+      ]
+    }
+  ],
+  "reconstructed": false,
+  "shot": "row",
+  "source": "\n**Frame:** Recto. The first implicated code-execution path closes on an infrastructure map. A second path, visually separate, closes after it.\n\n**Caption:**\n> HUGGING FACE SAYS IT CLOSED BOTH EXECUTION PATHS USED IN THE INCIDENT.\n\n**Provenance:** `documented` + visual `compressed` — Hugging Face technical timeline.\n\n",
+  "title": "Two execution paths close separately"
+}

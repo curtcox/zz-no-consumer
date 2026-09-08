@@ -1,0 +1,75 @@
+{
+  "background": "ink",
+  "intent": "Block the archive is evidence about an event. Keep the scripted evidence boundary and lettering visible.",
+  "lettering": [
+    {
+      "box": [
+        0.045,
+        0.78,
+        0.91,
+        0.18
+      ]
+    }
+  ],
+  "lettering_mode": "manual",
+  "nodes": [
+    {
+      "asset": "folder",
+      "box": [
+        0.1044,
+        0.2242,
+        0.195163,
+        0.256
+      ],
+      "color": "steel",
+      "focus": true,
+      "label": "ARCHIVE",
+      "label_box": [
+        0.09640000000000001,
+        0.4862,
+        0.211163,
+        0.085
+      ]
+    },
+    {
+      "asset": "card",
+      "box": [
+        0.368133,
+        0.2242,
+        0.195163,
+        0.256
+      ],
+      "color": "steel",
+      "focus": true,
+      "label": "EVIDENCE",
+      "label_box": [
+        0.360133,
+        0.4862,
+        0.211163,
+        0.085
+      ]
+    },
+    {
+      "asset": "card",
+      "box": [
+        0.631867,
+        0.2242,
+        0.195163,
+        0.256
+      ],
+      "color": "steel",
+      "focus": true,
+      "label": "EVENT",
+      "label_box": [
+        0.623867,
+        0.4862,
+        0.211163,
+        0.085
+      ]
+    }
+  ],
+  "reconstructed": false,
+  "shot": "row",
+  "source": "\n**Frame:** The archive splits into two labels that remain joined but not identical: `EVIDENCE` and `EVENT`.\n\n**Caption:**\n> METR CONSIDERS MATERIAL ALTERATION UNLIKELY.\n>\n> IT CANNOT RULE IT OUT.\n>\n> POSSIBLE, NOT ESTABLISHED.\n\n**Provenance:** `documented` + `disputed` — METR's calibrated conclusion.\n\n",
+  "title": "The archive is evidence about an event"
+}

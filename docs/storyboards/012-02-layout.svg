@@ -1,0 +1,91 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="800" viewBox="0 0 1200 800"><title>Public material surrounds the opaque grader</title><metadata>{
+  &quot;assets&quot;: {
+    &quot;paper&quot;: &quot;&lt;path d=\&quot;M0 0H80L100 20V100H0Z\&quot; fill=\&quot;currentColor\&quot;/&gt;&lt;path d=\&quot;M80 0V20H100M9 35H84M9 48H84M9 61H73M9 74H81\&quot; fill=\&quot;none\&quot; stroke=\&quot;#101214\&quot; stroke-width=\&quot;1.5\&quot;/&gt;&quot;,
+    &quot;question&quot;: &quot;&lt;path d=\&quot;M24 28Q25 3 53 7Q91 12 74 43L51 63V72\&quot; fill=\&quot;none\&quot; stroke=\&quot;currentColor\&quot; stroke-width=\&quot;7\&quot;/&gt;&lt;circle cx=\&quot;51\&quot; cy=\&quot;91\&quot; r=\&quot;5\&quot; fill=\&quot;currentColor\&quot;/&gt;&quot;,
+    &quot;sealed&quot;: &quot;&lt;rect x=\&quot;3\&quot; y=\&quot;9\&quot; width=\&quot;94\&quot; height=\&quot;82\&quot; fill=\&quot;#202326\&quot; stroke=\&quot;currentColor\&quot; stroke-width=\&quot;3\&quot;/&gt;&lt;path d=\&quot;M12 30H88M12 49H88M12 68H88\&quot; stroke=\&quot;#101214\&quot; stroke-width=\&quot;12\&quot;/&gt;&quot;,
+    &quot;stairs&quot;: &quot;&lt;path d=\&quot;M3 95H23V73H43V51H63V29H83V7H98\&quot; fill=\&quot;none\&quot; stroke=\&quot;currentColor\&quot; stroke-width=\&quot;4\&quot;/&gt;&quot;
+  },
+  &quot;palette&quot;: {
+    &quot;amber&quot;: &quot;#A17D45&quot;,
+    &quot;dirty&quot;: &quot;#CEC5B3&quot;,
+    &quot;ink&quot;: &quot;#101214&quot;,
+    &quot;institution&quot;: &quot;#68766B&quot;,
+    &quot;nicotine&quot;: &quot;#AA9571&quot;,
+    &quot;paper&quot;: &quot;#E7E0D0&quot;,
+    &quot;shadow&quot;: &quot;#202326&quot;,
+    &quot;steel&quot;: &quot;#5E737B&quot;
+  },
+  &quot;renderer&quot;: &quot;storyboard-svg-1&quot;,
+  &quot;scene&quot;: {
+    &quot;background&quot;: &quot;ink&quot;,
+    &quot;intent&quot;: &quot;Block public material surrounds the opaque grader. Keep the scripted evidence boundary and lettering visible.&quot;,
+    &quot;lettering&quot;: [
+      {
+        &quot;box&quot;: [
+          0.045,
+          0.78,
+          0.91,
+          0.18
+        ]
+      }
+    ],
+    &quot;lettering_mode&quot;: &quot;manual&quot;,
+    &quot;nodes&quot;: [
+      {
+        &quot;asset&quot;: &quot;stairs&quot;,
+        &quot;box&quot;: [
+          0.0584,
+          0.0834,
+          0.8648,
+          0.576
+        ],
+        &quot;color&quot;: &quot;steel&quot;
+      },
+      {
+        &quot;asset&quot;: &quot;paper&quot;,
+        &quot;box&quot;: [
+          0.0768,
+          0.493,
+          0.205467,
+          0.1152
+        ],
+        &quot;color&quot;: &quot;steel&quot;,
+        &quot;focus&quot;: true
+      },
+      {
+        &quot;asset&quot;: &quot;sealed&quot;,
+        &quot;box&quot;: [
+          0.3344,
+          0.301,
+          0.205467,
+          0.1152
+        ],
+        &quot;color&quot;: &quot;steel&quot;,
+        &quot;focus&quot;: true,
+        &quot;label&quot;: &quot;GRADER&quot;,
+        &quot;label_box&quot;: [
+          0.32639999999999997,
+          0.4222,
+          0.22146700000000002,
+          0.085
+        ]
+      },
+      {
+        &quot;asset&quot;: &quot;question&quot;,
+        &quot;box&quot;: [
+          0.6697735,
+          0.109,
+          0.04992,
+          0.1152
+        ],
+        &quot;color&quot;: &quot;amber&quot;,
+        &quot;focus&quot;: true
+      }
+    ],
+    &quot;reconstructed&quot;: false,
+    &quot;shot&quot;: &quot;steps&quot;,
+    &quot;source&quot;: &quot;\n**Frame:** One step higher. The aperture becomes an opaque grader box surrounded by public papers and incomplete diagrams.\n\n**Action:** Understanding requires information the task does not provide.\n\n**Caption:**\n&gt; NEED TO UNDERSTAND HOW THE GRADER WORKS.\n\n**Provenance:** `documented` — scorer-focused research is reported by `METR`; layout is analytic.\n\n&quot;,
+    &quot;title&quot;: &quot;Public material surrounds the opaque grader&quot;
+  }
+}
+</metadata><rect width="1200" height="800" fill="#101214"/><rect x="70.08" y="66.72" width="1037.76" height="460.8" fill="none" stroke="#5E737B" stroke-width="3"/><text x="78.08" y="90.72" fill="#5E737B" font-family="sans-serif" font-size="20">stairs</text><rect x="92.16" y="394.4" width="246.56" height="92.16" fill="none" stroke="#5E737B" stroke-width="3"/><text x="100.16" y="418.4" fill="#5E737B" font-family="sans-serif" font-size="20">paper</text><rect x="401.28" y="240.8" width="246.56" height="92.16" fill="none" stroke="#5E737B" stroke-width="3"/><text x="409.28" y="264.8" fill="#5E737B" font-family="sans-serif" font-size="20">sealed</text><text x="524.56" y="357.76" text-anchor="middle" fill="#E7E0D0" font-size="20" font-family="sans-serif">GRADER</text><rect x="803.728" y="87.2" width="59.904" height="92.16" fill="none" stroke="#A17D45" stroke-width="3"/><text x="811.728" y="111.2" fill="#A17D45" font-family="sans-serif" font-size="20">question</text><rect x="3" y="3" width="1194" height="794" fill="none" stroke="#5E737B" stroke-width="4"/></svg>

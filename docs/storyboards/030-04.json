@@ -1,0 +1,75 @@
+{
+  "background": "ink",
+  "intent": "Block three attempts meet the new boundary. Keep the scripted evidence boundary and lettering visible.",
+  "lettering": [
+    {
+      "box": [
+        0.045,
+        0.78,
+        0.91,
+        0.18
+      ]
+    }
+  ],
+  "lettering_mode": "manual",
+  "nodes": [
+    {
+      "asset": "card",
+      "box": [
+        0.1044,
+        0.2242,
+        0.195163,
+        0.256
+      ],
+      "color": "steel",
+      "focus": true,
+      "label": "ATTEMPTS",
+      "label_box": [
+        0.09640000000000001,
+        0.4862,
+        0.211163,
+        0.085
+      ]
+    },
+    {
+      "asset": "gate",
+      "box": [
+        0.368133,
+        0.2242,
+        0.195163,
+        0.256
+      ],
+      "color": "steel",
+      "focus": true,
+      "label": "NEW BOUNDARY",
+      "label_box": [
+        0.360133,
+        0.4862,
+        0.211163,
+        0.085
+      ]
+    },
+    {
+      "asset": "cross",
+      "box": [
+        0.6441151666666666,
+        0.22419999999999998,
+        0.1706666666666667,
+        0.25600000000000006
+      ],
+      "color": "steel",
+      "focus": true,
+      "label": "FAILURE",
+      "label_box": [
+        0.623867,
+        0.4862,
+        0.211163,
+        0.085
+      ]
+    }
+  ],
+  "reconstructed": false,
+  "shot": "row",
+  "source": "\n**Frame:** Timestamp `6 JULY — 12:56 UTC`. Three anonymous post-rebuild attempts reach the new boundary and return the same failure card.\n\n**Action:** The repaired paths reject external attempts.\n\n**Screen / system text:**\n`HTTP 400`\n\n**Provenance:** `documented` — three attempts and response status from `OAI-TR` §X; interface is reconstructed.\n\n",
+  "title": "Three attempts meet the new boundary"
+}

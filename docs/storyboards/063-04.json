@@ -1,0 +1,57 @@
+{
+  "background": "ink",
+  "intent": "Block the finding is bounded to the reviewed dataset. Keep the scripted evidence boundary and lettering visible.",
+  "lettering": [
+    {
+      "box": [
+        0.045,
+        0.78,
+        0.91,
+        0.18
+      ]
+    }
+  ],
+  "lettering_mode": "manual",
+  "nodes": [
+    {
+      "asset": "outline-box",
+      "box": [
+        0.2148,
+        0.1282,
+        0.5336,
+        0.3968
+      ],
+      "color": "steel",
+      "focus": true,
+      "label": "METR DATASET",
+      "label_box": [
+        0.20679999999999998,
+        0.531,
+        0.5496,
+        0.085
+      ]
+    },
+    {
+      "asset": "card",
+      "box": [
+        0.29484,
+        0.19962400000000002,
+        0.34684,
+        0.103168
+      ],
+      "color": "steel",
+      "focus": true,
+      "label": "7–13 JULY",
+      "label_box": [
+        0.0872,
+        0.6334,
+        0.66,
+        0.085
+      ]
+    }
+  ],
+  "reconstructed": false,
+  "shot": "hero",
+  "source": "\n**Frame:** A boundary box encloses the finding: `METR DATASET · 7–13 JULY · AI-ASSISTED SWEEP · INCOMPLETE RECORD POSSIBLE`.\n\n**Action:** The chapter refuses a universal claim.\n\n**Caption:**\n> THIS DOES NOT PROVE THAT NO AGENT, ANYWHERE, EVER TRIED.\n\n**Provenance:** `documented` + `inferred` — limitation follows METR's scope and methodology.\n\n",
+  "title": "The finding is bounded to the reviewed dataset"
+}

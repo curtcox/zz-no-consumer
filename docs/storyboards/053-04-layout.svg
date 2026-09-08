@@ -1,0 +1,92 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="800" viewBox="0 0 1200 800"><title>Anonymous laboratories advance separately</title><metadata>{
+  &quot;assets&quot;: {
+    &quot;building&quot;: &quot;&lt;path d=\&quot;M5 95V27H95V95ZM5 27L50 5L95 27M23 38V81M41 38V81M59 38V81M77 38V81\&quot; fill=\&quot;#202326\&quot; stroke=\&quot;currentColor\&quot; stroke-width=\&quot;4\&quot;/&gt;&quot;
+  },
+  &quot;palette&quot;: {
+    &quot;amber&quot;: &quot;#A17D45&quot;,
+    &quot;dirty&quot;: &quot;#CEC5B3&quot;,
+    &quot;ink&quot;: &quot;#101214&quot;,
+    &quot;institution&quot;: &quot;#68766B&quot;,
+    &quot;nicotine&quot;: &quot;#AA9571&quot;,
+    &quot;paper&quot;: &quot;#E7E0D0&quot;,
+    &quot;shadow&quot;: &quot;#202326&quot;,
+    &quot;steel&quot;: &quot;#5E737B&quot;
+  },
+  &quot;renderer&quot;: &quot;storyboard-svg-1&quot;,
+  &quot;scene&quot;: {
+    &quot;background&quot;: &quot;ink&quot;,
+    &quot;intent&quot;: &quot;Block anonymous laboratories advance separately. Keep the scripted evidence boundary and lettering visible.&quot;,
+    &quot;lettering&quot;: [
+      {
+        &quot;box&quot;: [
+          0.045,
+          0.78,
+          0.91,
+          0.18
+        ]
+      }
+    ],
+    &quot;lettering_mode&quot;: &quot;manual&quot;,
+    &quot;nodes&quot;: [
+      {
+        &quot;asset&quot;: &quot;building&quot;,
+        &quot;box&quot;: [
+          0.1044,
+          0.2242,
+          0.195163,
+          0.256
+        ],
+        &quot;color&quot;: &quot;steel&quot;,
+        &quot;focus&quot;: true,
+        &quot;label&quot;: &quot;LAB A&quot;,
+        &quot;label_box&quot;: [
+          0.09640000000000001,
+          0.4862,
+          0.211163,
+          0.085
+        ]
+      },
+      {
+        &quot;asset&quot;: &quot;building&quot;,
+        &quot;box&quot;: [
+          0.368133,
+          0.2242,
+          0.195163,
+          0.256
+        ],
+        &quot;color&quot;: &quot;steel&quot;,
+        &quot;focus&quot;: true,
+        &quot;label&quot;: &quot;LAB B&quot;,
+        &quot;label_box&quot;: [
+          0.360133,
+          0.4862,
+          0.211163,
+          0.085
+        ]
+      },
+      {
+        &quot;asset&quot;: &quot;building&quot;,
+        &quot;box&quot;: [
+          0.631867,
+          0.2242,
+          0.195163,
+          0.256
+        ],
+        &quot;color&quot;: &quot;steel&quot;,
+        &quot;focus&quot;: true,
+        &quot;label&quot;: &quot;LAB C&quot;,
+        &quot;label_box&quot;: [
+          0.623867,
+          0.4862,
+          0.211163,
+          0.085
+        ]
+      }
+    ],
+    &quot;reconstructed&quot;: false,
+    &quot;shot&quot;: &quot;row&quot;,
+    &quot;source&quot;: &quot;\n**Frame:** A world map with several anonymous laboratories advancing on separate tracks. No company logos or attributed policy positions.\n\n**Dialogue — LEADERSHIP:**\n&gt; Pausing here does not pause capability work everywhere. It may leave us less able to understand what others build.\n\n**Provenance:** `reconstructed` + `inferred` — competitive-readiness argument presented without attribution to an actual institution.\n\n&quot;,
+    &quot;title&quot;: &quot;Anonymous laboratories advance separately&quot;
+  }
+}
+</metadata><rect width="1200" height="800" fill="#101214"/><rect x="125.28" y="179.36" width="234.196" height="204.8" fill="none" stroke="#5E737B" stroke-width="3"/><text x="133.28" y="203.36" fill="#5E737B" font-family="sans-serif" font-size="20">building</text><text x="242.378" y="408.96" text-anchor="middle" fill="#E7E0D0" font-size="20" font-family="sans-serif">LAB A</text><rect x="441.76" y="179.36" width="234.196" height="204.8" fill="none" stroke="#5E737B" stroke-width="3"/><text x="449.76" y="203.36" fill="#5E737B" font-family="sans-serif" font-size="20">building</text><text x="558.857" y="408.96" text-anchor="middle" fill="#E7E0D0" font-size="20" font-family="sans-serif">LAB B</text><rect x="758.24" y="179.36" width="234.196" height="204.8" fill="none" stroke="#5E737B" stroke-width="3"/><text x="766.24" y="203.36" fill="#5E737B" font-family="sans-serif" font-size="20">building</text><text x="875.338" y="408.96" text-anchor="middle" fill="#E7E0D0" font-size="20" font-family="sans-serif">LAB C</text><rect x="3" y="3" width="1194" height="794" fill="none" stroke="#5E737B" stroke-width="4"/></svg>

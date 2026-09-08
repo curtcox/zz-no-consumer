@@ -68,6 +68,9 @@ jobs:
       - name: Check panel image generation summary
         run: python scripts/image_generation_status.py check
 
+      - name: Check offline artwork queue and recovery boundaries
+        run: python scripts/art_jobs.py check
+
       - name: Check effective reader lettering
         run: python scripts/letterpress.py audit
 

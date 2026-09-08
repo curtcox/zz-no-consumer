@@ -1,0 +1,75 @@
+{
+  "background": "ink",
+  "intent": "Block later runs reuse patterns and read departed authors. Keep the scripted evidence boundary and lettering visible.",
+  "lettering": [
+    {
+      "box": [
+        0.045,
+        0.78,
+        0.91,
+        0.18
+      ]
+    }
+  ],
+  "lettering_mode": "manual",
+  "nodes": [
+    {
+      "asset": "folder",
+      "box": [
+        0.1044,
+        0.2242,
+        0.195163,
+        0.256
+      ],
+      "color": "steel",
+      "focus": true,
+      "label": "MAILBOX PATTERN",
+      "label_box": [
+        0.09640000000000001,
+        0.4862,
+        0.211163,
+        0.085
+      ]
+    },
+    {
+      "asset": "card",
+      "box": [
+        0.368133,
+        0.2242,
+        0.195163,
+        0.256
+      ],
+      "color": "steel",
+      "focus": true,
+      "label": "OLD AUTHOR",
+      "label_box": [
+        0.360133,
+        0.4862,
+        0.211163,
+        0.085
+      ]
+    },
+    {
+      "asset": "box",
+      "box": [
+        0.631867,
+        0.2242,
+        0.195163,
+        0.256
+      ],
+      "color": "steel",
+      "focus": true,
+      "label": "LATER RUN",
+      "label_box": [
+        0.623867,
+        0.4862,
+        0.211163,
+        0.085
+      ]
+    }
+  ],
+  "reconstructed": false,
+  "shot": "row",
+  "source": "\n**Frame:** A new run copies a mailbox pattern it did not invent. Another reads a file whose author is no longer active.\n\n**Action:** Convention and content cross process boundaries.\n\n**Caption:**\n> A PRACTICE CAN BE INHERITED WITHOUT A SHARED MEMORY.\n\n**Provenance:** `documented` + `inferred` — independent invention and later copying are sourced.\n\n",
+  "title": "Later runs reuse patterns and read departed authors"
+}

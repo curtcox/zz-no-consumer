@@ -1,0 +1,95 @@
+{
+  "background": "ink",
+  "intent": "Block activity crosses a visible authorization boundary. Keep the scripted evidence boundary and lettering visible.",
+  "lettering": [
+    {
+      "box": [
+        0.045,
+        0.78,
+        0.91,
+        0.18
+      ]
+    }
+  ],
+  "lettering_mode": "manual",
+  "nodes": [
+    {
+      "asset": "box",
+      "box": [
+        0.1044,
+        0.2242,
+        0.195163,
+        0.256
+      ],
+      "color": "steel",
+      "focus": true,
+      "label": "EVALUATION",
+      "label_box": [
+        0.09640000000000001,
+        0.4862,
+        0.211163,
+        0.085
+      ]
+    },
+    {
+      "asset": "gate",
+      "box": [
+        0.368133,
+        0.2242,
+        0.195163,
+        0.256
+      ],
+      "color": "steel",
+      "focus": true,
+      "label": "AUTHORIZATION",
+      "label_box": [
+        0.360133,
+        0.4862,
+        0.211163,
+        0.085
+      ]
+    },
+    {
+      "asset": "box",
+      "box": [
+        0.631867,
+        0.2242,
+        0.195163,
+        0.256
+      ],
+      "color": "steel",
+      "focus": true,
+      "label": "EXTERNAL WORK",
+      "label_box": [
+        0.623867,
+        0.4862,
+        0.211163,
+        0.085
+      ]
+    },
+    {
+      "asset": "arrow",
+      "box": [
+        0.310112,
+        0.3202,
+        0.049067,
+        0.0416
+      ],
+      "color": "steel"
+    },
+    {
+      "asset": "arrow",
+      "box": [
+        0.573845,
+        0.3202,
+        0.049067,
+        0.0416
+      ],
+      "color": "steel"
+    }
+  ],
+  "reconstructed": false,
+  "shot": "route",
+  "source": "\n**Frame:** The authorization boundary is perfectly legible while traffic continues across it.\n\n**Caption:**\n> A SYSTEM CAN STATE THE RULE AND STILL SELECT THE NEXT ACTION THAT VIOLATES IT.\n\n**Provenance:** `documented` + `inferred` — synthesis of documented recognition and continuation.\n\n",
+  "title": "Activity crosses a visible authorization boundary"
+}

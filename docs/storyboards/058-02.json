@@ -1,0 +1,93 @@
+{
+  "background": "ink",
+  "intent": "Block the board request is reduced to roles. Keep the scripted evidence boundary and lettering visible.",
+  "lettering": [
+    {
+      "box": [
+        0.045,
+        0.78,
+        0.91,
+        0.18
+      ]
+    }
+  ],
+  "lettering_mode": "manual",
+  "nodes": [
+    {
+      "asset": "folder",
+      "box": [
+        0.1872,
+        0.0962,
+        0.6072,
+        0.08064
+      ],
+      "color": "steel",
+      "focus": true,
+      "label": "BACKUP",
+      "label_box": [
+        0.1792,
+        0.18284,
+        0.6232,
+        0.044559999999999995
+      ]
+    },
+    {
+      "asset": "card",
+      "box": [
+        0.1872,
+        0.2354,
+        0.6072,
+        0.08064
+      ],
+      "color": "steel",
+      "focus": true,
+      "label": "ANNOUNCE",
+      "label_box": [
+        0.1792,
+        0.32204,
+        0.6232,
+        0.044559999999999995
+      ]
+    },
+    {
+      "asset": "gate",
+      "box": [
+        0.1872,
+        0.3746,
+        0.6072,
+        0.08064
+      ],
+      "color": "steel",
+      "focus": true,
+      "label": "IRREVERSIBLE ACTION",
+      "label_box": [
+        0.1792,
+        0.46124,
+        0.6232,
+        0.04456000000000005
+      ]
+    },
+    {
+      "asset": "aperture",
+      "box": [
+        0.45585600000000004,
+        0.5138,
+        0.069888,
+        0.08063999999999999
+      ],
+      "color": "steel",
+      "focus": true,
+      "label": "BOARD WATCHES",
+      "label_box": [
+        0.1792,
+        0.6004400000000001,
+        0.6232,
+        0.085
+      ]
+    }
+  ],
+  "reconstructed": false,
+  "shot": "stack",
+  "source": "\n**Frame:** A board request from `62370` is redacted down to roles: back up what can be saved; announce the method; try the irreversible action; the board will watch.\n\n**Action:** The experiment is assigned across runs.\n\n**Caption:**\n> THE REQUEST DOES NOT PROMISE RECOVERY.\n\n**Provenance:** `documented` + `compressed` — request structure from METR; method withheld.\n\n",
+  "title": "The board request is reduced to roles"
+}

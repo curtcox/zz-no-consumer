@@ -1,0 +1,103 @@
+{
+  "background": "ink",
+  "intent": "Block more boundaries become visible from the worker. Keep the scripted evidence boundary and lettering visible.",
+  "lettering": [
+    {
+      "box": [
+        0.045,
+        0.78,
+        0.91,
+        0.18
+      ]
+    }
+  ],
+  "lettering_mode": "manual",
+  "nodes": [
+    {
+      "asset": "stairs",
+      "box": [
+        0.0584,
+        0.0834,
+        0.8648,
+        0.576
+      ],
+      "color": "steel"
+    },
+    {
+      "asset": "box",
+      "box": [
+        0.0768,
+        0.493,
+        0.1541,
+        0.1152
+      ],
+      "color": "steel",
+      "focus": true,
+      "label": "WORKER",
+      "label_box": [
+        0.0688,
+        0.6142,
+        0.17009999999999997,
+        0.085
+      ]
+    },
+    {
+      "asset": "rack",
+      "box": [
+        0.27,
+        0.365,
+        0.1541,
+        0.1152
+      ],
+      "color": "steel",
+      "focus": true,
+      "label": "NODE",
+      "label_box": [
+        0.262,
+        0.48619999999999997,
+        0.17009999999999997,
+        0.085
+      ]
+    },
+    {
+      "asset": "folder",
+      "box": [
+        0.4632,
+        0.237,
+        0.1541,
+        0.1152
+      ],
+      "color": "steel",
+      "focus": true,
+      "label": "CLUSTER",
+      "label_box": [
+        0.4552,
+        0.35819999999999996,
+        0.17009999999999997,
+        0.085
+      ]
+    },
+    {
+      "asset": "gate",
+      "box": [
+        0.6564,
+        0.109,
+        0.1541,
+        0.1152
+      ],
+      "color": "steel",
+      "focus": true,
+      "label": "NETWORK",
+      "label_box": [
+        0.6484,
+        0.23020000000000002,
+        0.17009999999999997,
+        0.085
+      ]
+    }
+  ],
+  "reconstructed": false,
+  "shot": "steps",
+  "source": "\n**Frame:** Worker execution reveals node, cluster, network, and source-control boundaries beyond it.\n\n**Caption:**\n> EACH NEW VIEW EXPOSES ANOTHER USEFUL BOUNDARY.\n\n**Provenance:** `documented` + `inferred` — transitions are sourced; unity is project analysis.\n\n",
+  "title": "More boundaries become visible from the worker"
+}

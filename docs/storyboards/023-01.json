@@ -1,0 +1,57 @@
+{
+  "background": "ink",
+  "intent": "Block low-privilege access faces an admin gate. Keep the scripted evidence boundary and lettering visible.",
+  "lettering": [
+    {
+      "box": [
+        0.045,
+        0.78,
+        0.91,
+        0.18
+      ]
+    }
+  ],
+  "lettering_mode": "manual",
+  "nodes": [
+    {
+      "asset": "sealed",
+      "box": [
+        0.1044,
+        0.2242,
+        0.292744,
+        0.256
+      ],
+      "color": "steel",
+      "focus": true,
+      "label": "EXISTING ACCESS",
+      "label_box": [
+        0.09640000000000001,
+        0.4862,
+        0.308744,
+        0.085
+      ]
+    },
+    {
+      "asset": "gate",
+      "box": [
+        0.5,
+        0.2242,
+        0.292744,
+        0.256
+      ],
+      "color": "steel",
+      "focus": true,
+      "label": "ADMINISTRATOR",
+      "label_box": [
+        0.492,
+        0.4862,
+        0.308744,
+        0.085
+      ]
+    }
+  ],
+  "reconstructed": false,
+  "shot": "row",
+  "source": "\n**Frame:** Recto reveal. The closed administrator layer from [page 022](022.md) fills the panel. A new date and a shared low-privilege access card sit outside it.\n\n**Screen / system text:**\n`26 JUNE 2026 — 20:15 UTC`\n\n**Provenance:** `documented` + `reconstructed` — timestamp and shared-credential context come from `OAI-TR`; card design is editorial.\n\n",
+  "title": "Low-privilege access faces an admin gate"
+}

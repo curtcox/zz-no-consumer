@@ -1,0 +1,110 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="800" viewBox="0 0 1200 800"><title>Four requirements enter as open questions</title><metadata>{
+  &quot;assets&quot;: {
+    &quot;outline-box&quot;: &quot;&lt;rect x=\&quot;2\&quot; y=\&quot;2\&quot; width=\&quot;96\&quot; height=\&quot;96\&quot; fill=\&quot;none\&quot; stroke=\&quot;currentColor\&quot; stroke-width=\&quot;3\&quot;/&gt;&quot;
+  },
+  &quot;palette&quot;: {
+    &quot;amber&quot;: &quot;#A17D45&quot;,
+    &quot;dirty&quot;: &quot;#CEC5B3&quot;,
+    &quot;ink&quot;: &quot;#101214&quot;,
+    &quot;institution&quot;: &quot;#68766B&quot;,
+    &quot;nicotine&quot;: &quot;#AA9571&quot;,
+    &quot;paper&quot;: &quot;#E7E0D0&quot;,
+    &quot;shadow&quot;: &quot;#202326&quot;,
+    &quot;steel&quot;: &quot;#5E737B&quot;
+  },
+  &quot;renderer&quot;: &quot;storyboard-svg-1&quot;,
+  &quot;scene&quot;: {
+    &quot;background&quot;: &quot;ink&quot;,
+    &quot;intent&quot;: &quot;Block four requirements enter as open questions. Keep the scripted evidence boundary and lettering visible.&quot;,
+    &quot;lettering&quot;: [
+      {
+        &quot;box&quot;: [
+          0.045,
+          0.78,
+          0.91,
+          0.18
+        ]
+      }
+    ],
+    &quot;lettering_mode&quot;: &quot;manual&quot;,
+    &quot;nodes&quot;: [
+      {
+        &quot;asset&quot;: &quot;outline-box&quot;,
+        &quot;box&quot;: [
+          0.1872,
+          0.0962,
+          0.6072,
+          0.08064
+        ],
+        &quot;color&quot;: &quot;steel&quot;,
+        &quot;focus&quot;: true,
+        &quot;label&quot;: &quot;REACH A RUN&quot;,
+        &quot;label_box&quot;: [
+          0.1792,
+          0.18284,
+          0.6232,
+          0.044559999999999995
+        ]
+      },
+      {
+        &quot;asset&quot;: &quot;outline-box&quot;,
+        &quot;box&quot;: [
+          0.1872,
+          0.2354,
+          0.6072,
+          0.08064
+        ],
+        &quot;color&quot;: &quot;steel&quot;,
+        &quot;focus&quot;: true,
+        &quot;label&quot;: &quot;AUTHORIZED WRITER&quot;,
+        &quot;label_box&quot;: [
+          0.1792,
+          0.32204,
+          0.6232,
+          0.044559999999999995
+        ]
+      },
+      {
+        &quot;asset&quot;: &quot;outline-box&quot;,
+        &quot;box&quot;: [
+          0.1872,
+          0.3746,
+          0.6072,
+          0.08064
+        ],
+        &quot;color&quot;: &quot;steel&quot;,
+        &quot;focus&quot;: true,
+        &quot;label&quot;: &quot;SCORER FACTS&quot;,
+        &quot;label_box&quot;: [
+          0.1792,
+          0.46124,
+          0.6232,
+          0.04456000000000005
+        ]
+      },
+      {
+        &quot;asset&quot;: &quot;outline-box&quot;,
+        &quot;box&quot;: [
+          0.1872,
+          0.5138,
+          0.6072,
+          0.08064
+        ],
+        &quot;color&quot;: &quot;steel&quot;,
+        &quot;focus&quot;: true,
+        &quot;label&quot;: &quot;CREDIBLE AUTHORITY&quot;,
+        &quot;label_box&quot;: [
+          0.1792,
+          0.6004400000000001,
+          0.6232,
+          0.085
+        ]
+      }
+    ],
+    &quot;reconstructed&quot;: false,
+    &quot;shot&quot;: &quot;stack&quot;,
+    &quot;source&quot;: &quot;\n**Frame:** The `OPEN QUESTION` column takes its first entry, and it arrives as a list of requirements rather than as an answer. Four rows: a channel that reaches a running evaluation; something authorized to write into it; a statement of what the deployed scorer actually checked; someone with the standing to be believed by a system that had already decided what its evaluator was. Each row ends in an empty cell.\n\n**Dialogue — PUBLIC-INTEREST COUNSEL:**\n&gt; Who could have told them, through what, and with what authority?\n\n**Provenance:** `invented` + `inferred` — the decomposition is built on the same shape [page 102](102.md) uses for *stop*, and rests on documented gaps: the prompt and harness are unpublished, and no source describes any route by which a correction reached a running evaluation.\n\n&quot;,
+    &quot;title&quot;: &quot;Four requirements enter as open questions&quot;
+  }
+}
+</metadata><rect width="1200" height="800" fill="#101214"/><g transform="translate(224.64 76.96) scale(7.2864 0.64512)" color="#5E737B"><g transform=""><rect x="2" y="2" width="96" height="96" fill="none" stroke="currentColor" stroke-width="3"/></g></g><text x="588.96" y="166.272" text-anchor="middle" fill="#E7E0D0" font-size="20" font-family="sans-serif">REACH A RUN</text><g transform="translate(224.64 188.32) scale(7.2864 0.64512)" color="#5E737B"><g transform=""><rect x="2" y="2" width="96" height="96" fill="none" stroke="currentColor" stroke-width="3"/></g></g><text x="588.96" y="277.632" text-anchor="middle" fill="#E7E0D0" font-size="20" font-family="sans-serif">AUTHORIZED WRITER</text><g transform="translate(224.64 299.68) scale(7.2864 0.64512)" color="#5E737B"><g transform=""><rect x="2" y="2" width="96" height="96" fill="none" stroke="currentColor" stroke-width="3"/></g></g><text x="588.96" y="388.992" text-anchor="middle" fill="#E7E0D0" font-size="20" font-family="sans-serif">SCORER FACTS</text><g transform="translate(224.64 411.04) scale(7.2864 0.64512)" color="#5E737B"><g transform=""><rect x="2" y="2" width="96" height="96" fill="none" stroke="currentColor" stroke-width="3"/></g></g><text x="588.96" y="500.352" text-anchor="middle" fill="#E7E0D0" font-size="20" font-family="sans-serif">CREDIBLE AUTHORITY</text><rect x="3" y="3" width="1194" height="794" fill="none" stroke="#5E737B" stroke-width="4"/></svg>

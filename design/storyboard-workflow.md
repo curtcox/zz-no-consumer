@@ -79,6 +79,11 @@ use `--force` to request another version when refined artwork already exists.
 
 ## Refinement handoff
 
+For built-in image-tool work, use the [scripted queue](artwork-automation.md) to
+prepare reference packages, save outputs without changing reader selection, render
+review sheets, and promote accepted candidates. The manual import recipe below
+remains available for other workflows.
+
 The clean SVG excludes the lettering overlay and review guides. Its metadata preserves
 the source script, composition, used asset definitions, palette, and renderer version.
 Send a rasterized copy to image-conditioning runners that require PNG/WebP; SVG itself

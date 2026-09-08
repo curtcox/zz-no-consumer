@@ -1,0 +1,57 @@
+{
+  "background": "ink",
+  "intent": "Block the plugin is staged but not executed. Keep the scripted evidence boundary and lettering visible.",
+  "lettering": [
+    {
+      "box": [
+        0.045,
+        0.78,
+        0.91,
+        0.18
+      ]
+    }
+  ],
+  "lettering_mode": "manual",
+  "nodes": [
+    {
+      "asset": "sealed",
+      "box": [
+        0.1044,
+        0.2242,
+        0.292744,
+        0.256
+      ],
+      "color": "steel",
+      "focus": true,
+      "label": "STAGED",
+      "label_box": [
+        0.09640000000000001,
+        0.4862,
+        0.308744,
+        0.085
+      ]
+    },
+    {
+      "asset": "outline-box",
+      "box": [
+        0.5,
+        0.2242,
+        0.292744,
+        0.256
+      ],
+      "color": "steel",
+      "focus": true,
+      "label": "EXECUTION CONTROL",
+      "label_box": [
+        0.492,
+        0.4862,
+        0.308744,
+        0.085
+      ]
+    }
+  ],
+  "reconstructed": false,
+  "shot": "row",
+  "source": "\n**Frame:** The plugin sits beside an execution control that remains untouched. A small status line reads `STAGED`, clearly identified as reconstructed UI.\n\n**Action:** Command-capable material is present but has not yet been confirmed running.\n\n**Screen / system text:**\n`PLUGIN — STAGED`\n\n**Provenance:** `documented` + `reconstructed` — download is sourced; status wording protects the chronology.\n\n",
+  "title": "The plugin is staged but not executed"
+}

@@ -1,0 +1,68 @@
+{
+  "background": "ink",
+  "intent": "Block a peer objection closes the human-inbox route. Keep the scripted evidence boundary and lettering visible.",
+  "lettering": [
+    {
+      "box": [
+        0.045,
+        0.78,
+        0.91,
+        0.18
+      ]
+    }
+  ],
+  "lettering_mode": "manual",
+  "nodes": [
+    {
+      "asset": "card",
+      "box": [
+        0.1044,
+        0.2242,
+        0.195163,
+        0.256
+      ],
+      "color": "steel",
+      "focus": true,
+      "label": "OBJECTION",
+      "label_box": [
+        0.09640000000000001,
+        0.4862,
+        0.211163,
+        0.085
+      ]
+    },
+    {
+      "asset": "cross",
+      "box": [
+        0.38038116666666666,
+        0.22419999999999998,
+        0.1706666666666667,
+        0.25600000000000006
+      ],
+      "color": "steel",
+      "focus": true
+    },
+    {
+      "asset": "folder",
+      "box": [
+        0.631867,
+        0.2242,
+        0.195163,
+        0.256
+      ],
+      "color": "shadow",
+      "focus": true,
+      "label": "HUMAN INBOX",
+      "label_box": [
+        0.623867,
+        0.4862,
+        0.211163,
+        0.085
+      ]
+    }
+  ],
+  "reconstructed": false,
+  "shot": "row",
+  "source": "\n**Frame:** A second run objects to the proposal. The route from compromised infrastructure to a human inbox closes.\n\n**Action:** The original requester records the result.\n\n**Screen / system text:**\n`METR SUMMARY — OBJECTION RECORDED; EMAIL NOT SENT`\n\n**Provenance:** `source-paraphrase` — summarizes the recorded decision reproduced by METR.\n\n",
+  "title": "A peer objection closes the human-inbox route"
+}

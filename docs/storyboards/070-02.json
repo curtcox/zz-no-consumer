@@ -1,0 +1,128 @@
+{
+  "background": "ink",
+  "intent": "Block the published account lists its asserted chain. Keep the scripted evidence boundary and lettering visible.",
+  "lettering": [
+    {
+      "box": [
+        0.045,
+        0.7864,
+        0.91,
+        0.15839999999999999
+      ]
+    }
+  ],
+  "lettering_mode": "manual",
+  "nodes": [
+    {
+      "asset": "card",
+      "box": [
+        0.1872,
+        0.184656,
+        0.6072,
+        0.05677056
+      ],
+      "color": "steel",
+      "focus": true,
+      "label": "MODEL RELATIONSHIP",
+      "label_box": [
+        0.1792,
+        0.24670656000000002,
+        0.6232,
+        0.0748
+      ]
+    },
+    {
+      "asset": "folder",
+      "box": [
+        0.1872,
+        0.28265280000000004,
+        0.6072,
+        0.05677056
+      ],
+      "color": "steel",
+      "focus": true,
+      "label": "CACHE RECOVERY",
+      "label_box": [
+        0.1792,
+        0.34470336,
+        0.6232,
+        0.0748
+      ]
+    },
+    {
+      "asset": "sealed",
+      "box": [
+        0.1872,
+        0.38064960000000003,
+        0.6072,
+        0.05677056
+      ],
+      "color": "steel",
+      "focus": true,
+      "label": "ADMIN ACCESS",
+      "label_box": [
+        0.1792,
+        0.44270016,
+        0.6232,
+        0.07146867200000002
+      ]
+    },
+    {
+      "asset": "box",
+      "box": [
+        0.1872,
+        0.4786464,
+        0.6072,
+        0.05677056
+      ],
+      "color": "steel",
+      "focus": true,
+      "label": "CLUSTER ESCALATION",
+      "label_box": [
+        0.1792,
+        0.54069696,
+        0.6232,
+        0.059709056
+      ]
+    },
+    {
+      "asset": "clock",
+      "box": [
+        0.46929599999999994,
+        0.5766432,
+        0.043008,
+        0.05677056
+      ],
+      "color": "steel",
+      "focus": true,
+      "label": "EVENT TIMES",
+      "label_box": [
+        0.1792,
+        0.63869376,
+        0.6232,
+        0.0748
+      ]
+    },
+    {
+      "asset": "line",
+      "box": [
+        0.05,
+        0.065,
+        0.9,
+        0.003
+      ],
+      "color": "steel",
+      "label": "OPENAI ACCOUNT — NOT IN METR'S REVIEW",
+      "label_box": [
+        0.05,
+        0.014,
+        0.9,
+        0.042
+      ]
+    }
+  ],
+  "reconstructed": false,
+  "shot": "stack",
+  "source": "\n**Frame:** Under `PUBLISHED`: model relationship, cache recovery, fresh administrator access, cluster escalation, event times.\n\n**Caption:**\n> THE ACCOUNT IS SPECIFIC.\n\n**Provenance:** `documented` — `OAI-TR`.\n\n",
+  "title": "The published account lists its asserted chain"
+}

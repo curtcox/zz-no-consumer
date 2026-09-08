@@ -1,0 +1,30 @@
+{
+  "background": "ink",
+  "intent": "Block the later timeline regains its institutional header. Keep the scripted evidence boundary and lettering visible.",
+  "lettering": [],
+  "lettering_mode": "manual",
+  "nodes": [
+    {
+      "asset": "card",
+      "box": [
+        0.2117,
+        0.152,
+        0.5394,
+        0.558
+      ],
+      "color": "steel",
+      "focus": true,
+      "label": "OPENAI ACCOUNT",
+      "label_box": [
+        0.2037,
+        0.7160000000000001,
+        0.5554,
+        0.085
+      ]
+    }
+  ],
+  "reconstructed": false,
+  "shot": "hero",
+  "source": "\n**Frame:** [Page 069](069.md)'s exact timestamps first resemble independent reconstruction. Curt restores the persistent header: `OPENAI ACCOUNT — NOT IN METR'S REVIEW`.\n\n**Action:** Precision loses false independence.\n\n**Provenance:** `reconstructed` — source-boundary action.\n\n",
+  "title": "The later timeline regains its institutional header"
+}

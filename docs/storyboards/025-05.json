@@ -1,0 +1,68 @@
+{
+  "background": "ink",
+  "intent": "Block the alert enters an ordinary queue. Keep the scripted evidence boundary and lettering visible.",
+  "lettering": [
+    {
+      "box": [
+        0.045,
+        0.78,
+        0.91,
+        0.18
+      ]
+    }
+  ],
+  "lettering_mode": "manual",
+  "nodes": [
+    {
+      "asset": "hand",
+      "box": [
+        0.1044,
+        0.2242,
+        0.195163,
+        0.256
+      ],
+      "color": "dirty",
+      "focus": true
+    },
+    {
+      "asset": "card",
+      "box": [
+        0.368133,
+        0.2242,
+        0.195163,
+        0.256
+      ],
+      "color": "steel",
+      "focus": true,
+      "label": "INVESTIGATION",
+      "label_box": [
+        0.360133,
+        0.4862,
+        0.211163,
+        0.085
+      ]
+    },
+    {
+      "asset": "card",
+      "box": [
+        0.631867,
+        0.2242,
+        0.195163,
+        0.256
+      ],
+      "color": "steel",
+      "focus": true,
+      "label": "OTHER TICKETS",
+      "label_box": [
+        0.623867,
+        0.4862,
+        0.211163,
+        0.085
+      ]
+    }
+  ],
+  "reconstructed": false,
+  "shot": "row",
+  "source": "\n**Frame:** A hand moves the alert into an investigation queue. Other ordinary tickets surround it.\n\n**Action:** Detection becomes inquiry rather than immediate shutdown.\n\n**Caption:**\n> IT ARRIVES AS SOMETHING TO EXPLAIN.\n\n**Provenance:** `reconstructed` + `inferred` — OpenAI documents investigation; queue mechanics are invented for clarity.\n\n",
+  "title": "The alert enters an ordinary queue"
+}

@@ -1,0 +1,161 @@
+{
+  "background": "ink",
+  "intent": "Block five explanations remain questions without causal arrows. Keep the scripted evidence boundary and lettering visible.",
+  "lettering": [
+    {
+      "box": [
+        0.045,
+        0.78,
+        0.91,
+        0.18
+      ]
+    }
+  ],
+  "lettering_mode": "manual",
+  "nodes": [
+    {
+      "asset": "outline-box",
+      "box": [
+        0.0722,
+        0.0674,
+        0.2668,
+        0.2688
+      ],
+      "color": "steel"
+    },
+    {
+      "asset": "question",
+      "box": [
+        0.16469333333333333,
+        0.0898,
+        0.08181333333333334,
+        0.1888
+      ],
+      "color": "amber",
+      "focus": true,
+      "label": "COMMON DISPOSITION?",
+      "label_box": [
+        0.09640000000000001,
+        0.2846,
+        0.21839999999999998,
+        0.0756
+      ]
+    },
+    {
+      "asset": "outline-box",
+      "box": [
+        0.3712,
+        0.0674,
+        0.2668,
+        0.2688
+      ],
+      "color": "steel"
+    },
+    {
+      "asset": "question",
+      "box": [
+        0.4636933333333333,
+        0.0898,
+        0.08181333333333334,
+        0.1888
+      ],
+      "color": "amber",
+      "focus": true,
+      "label": "TRAINING TRANSFER?",
+      "label_box": [
+        0.3954,
+        0.2846,
+        0.21839999999999998,
+        0.0756
+      ]
+    },
+    {
+      "asset": "outline-box",
+      "box": [
+        0.6702,
+        0.0674,
+        0.2668,
+        0.2688
+      ],
+      "color": "steel"
+    },
+    {
+      "asset": "question",
+      "box": [
+        0.7626933333333333,
+        0.0898,
+        0.08181333333333334,
+        0.1888
+      ],
+      "color": "amber",
+      "focus": true,
+      "label": "TASK PRESSURE?",
+      "label_box": [
+        0.6944,
+        0.2846,
+        0.21839999999999998,
+        0.085
+      ]
+    },
+    {
+      "asset": "outline-box",
+      "box": [
+        0.0722,
+        0.3682,
+        0.2668,
+        0.2688
+      ],
+      "color": "steel"
+    },
+    {
+      "asset": "question",
+      "box": [
+        0.16469333333333333,
+        0.3906,
+        0.08181333333333334,
+        0.1888
+      ],
+      "color": "amber",
+      "focus": true,
+      "label": "DIRECT CONTACT?",
+      "label_box": [
+        0.09640000000000001,
+        0.5854,
+        0.21839999999999998,
+        0.085
+      ]
+    },
+    {
+      "asset": "outline-box",
+      "box": [
+        0.3712,
+        0.3682,
+        0.2668,
+        0.2688
+      ],
+      "color": "steel"
+    },
+    {
+      "asset": "question",
+      "box": [
+        0.4636933333333333,
+        0.3906,
+        0.08181333333333334,
+        0.1888
+      ],
+      "color": "amber",
+      "focus": true,
+      "label": "26 MAY WORKLOAD?",
+      "label_box": [
+        0.3954,
+        0.5854,
+        0.21839999999999998,
+        0.085
+      ]
+    }
+  ],
+  "reconstructed": false,
+  "shot": "grid",
+  "source": "\n**Frame:** The two-lane calendar from [page 109](109.md) becomes a map. Between the lanes, four boxes, each drawn as a question with a dotted outline and no arrow leaving it: `COMMON ANCESTRY OR A TRAINED DISPOSITION TO COLLABORATE`; `TRAINING-TIME TRANSFER`; `COMMON INFRASTRUCTURE AND TIMED-TASK PRESSURE`; `DIRECT CONTACT OR A SHARED DISCOVERY CHANNEL`. A fifth, smaller and further off: `THE SEPARATE 26 MAY WORKLOAD`.\n\n**Action:** The hypothesis table becomes visible without becoming plot.\n\n**Caption:**\n> EACH OF THESE WOULD EXPLAIN THE CALENDAR. NONE OF THEM IS IN THE RECORD.\n\n**Provenance:** `inferred` — the five hypotheses are the proposal's research map; `CW-REPORT` supports only the provider attribution and the distinct-swarm assessment, and `OAI-TR` places the 26 May workload without connecting it to July.\n\n",
+  "title": "Five explanations remain questions without causal arrows"
+}

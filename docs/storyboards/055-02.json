@@ -1,0 +1,75 @@
+{
+  "background": "ink",
+  "intent": "Block three ambiguous events carry no complete story. Keep the scripted evidence boundary and lettering visible.",
+  "lettering": [
+    {
+      "box": [
+        0.045,
+        0.78,
+        0.91,
+        0.18
+      ]
+    }
+  ],
+  "lettering_mode": "manual",
+  "nodes": [
+    {
+      "asset": "card",
+      "box": [
+        0.1044,
+        0.2242,
+        0.195163,
+        0.256
+      ],
+      "color": "steel",
+      "focus": true,
+      "label": "NOISY EVALUATION",
+      "label_box": [
+        0.09640000000000001,
+        0.4862,
+        0.211163,
+        0.085
+      ]
+    },
+    {
+      "asset": "folder",
+      "box": [
+        0.368133,
+        0.2242,
+        0.195163,
+        0.256
+      ],
+      "color": "steel",
+      "focus": true,
+      "label": "UNUSUAL DATASET",
+      "label_box": [
+        0.360133,
+        0.4862,
+        0.211163,
+        0.085
+      ]
+    },
+    {
+      "asset": "sealed",
+      "box": [
+        0.631867,
+        0.2242,
+        0.195163,
+        0.256
+      ],
+      "color": "steel",
+      "focus": true,
+      "label": "ODD CREDENTIAL USE",
+      "label_box": [
+        0.623867,
+        0.4862,
+        0.211163,
+        0.085
+      ]
+    }
+  ],
+  "reconstructed": false,
+  "shot": "row",
+  "source": "\n**Frame:** One event resembles a noisy evaluation. Another resembles an unusual dataset. Another resembles a credential used from the wrong place. None carries a complete story.\n\n**Action:** Individual alerts remain low-context.\n\n**Caption:**\n> ALONE, EACH SIGNAL IS AMBIGUOUS.\n\n**Provenance:** `documented` — Hugging Face's stated detection account.\n\n",
+  "title": "Three ambiguous events carry no complete story"
+}

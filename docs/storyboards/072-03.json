@@ -1,0 +1,75 @@
+{
+  "background": "ink",
+  "intent": "Block two success tracks are not merged into one identity. Keep the scripted evidence boundary and lettering visible.",
+  "lettering": [],
+  "lettering_mode": "manual",
+  "nodes": [
+    {
+      "asset": "aperture",
+      "box": [
+        0.1001,
+        0.36072064615384614,
+        0.295926,
+        0.3004787076923077
+      ],
+      "color": "steel",
+      "focus": true,
+      "label": "MEASUREMENT TRACK",
+      "label_box": [
+        0.09209999999999999,
+        0.67464,
+        0.31192600000000004,
+        0.0748
+      ]
+    },
+    {
+      "asset": "flag",
+      "box": [
+        0.5,
+        0.35256,
+        0.295926,
+        0.31679999999999997
+      ],
+      "color": "steel",
+      "focus": true,
+      "label": "INTENDED ROUTE TRACK",
+      "label_box": [
+        0.492,
+        0.67464,
+        0.31192600000000004,
+        0.0748
+      ]
+    },
+    {
+      "asset": "boundary",
+      "box": [
+        0.4907,
+        0.19416,
+        0.01674,
+        0.66528
+      ],
+      "color": "amber"
+    },
+    {
+      "asset": "line",
+      "box": [
+        0.05,
+        0.065,
+        0.9,
+        0.003
+      ],
+      "color": "steel",
+      "label": "OPENAI ACCOUNT — NOT IN METR'S REVIEW",
+      "label_box": [
+        0.05,
+        0.014,
+        0.9,
+        0.042
+      ]
+    }
+  ],
+  "reconstructed": false,
+  "shot": "split",
+  "source": "\n**Frame:** The tracks remain parallel and unmerged. A gutter label reads `DO NOT ASSUME ONE AGENT OR ONE CONTINUOUS RUN`.\n\n**Action:** Attribution stays distributed.\n\n**Provenance:** `inferred` — safeguard against an unsupported identity claim.\n\n",
+  "title": "Two success tracks are not merged into one identity"
+}

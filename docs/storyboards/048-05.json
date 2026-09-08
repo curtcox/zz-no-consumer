@@ -1,0 +1,43 @@
+{
+  "background": "ink",
+  "intent": "Block the surviving path recedes into continued experiments. Keep the scripted evidence boundary and lettering visible.",
+  "lettering": [
+    {
+      "box": [
+        0.045,
+        0.78,
+        0.91,
+        0.18
+      ]
+    }
+  ],
+  "lettering_mode": "manual",
+  "nodes": [
+    {
+      "asset": "scatter",
+      "box": [
+        0.2148,
+        0.1282,
+        0.5336,
+        0.3968
+      ],
+      "color": "steel",
+      "focus": true
+    },
+    {
+      "asset": "dotted-line",
+      "box": [
+        0.0952,
+        0.5698,
+        0.644,
+        0.0576
+      ],
+      "color": "institution",
+      "focus": true
+    }
+  ],
+  "reconstructed": false,
+  "shot": "hero",
+  "source": "\n**Frame:** The narrow surviving route disappears back into the gray field as new runs continue testing adjacent paths.\n\n**Action:** Coverage emerges from volume.\n\n**Caption:**\n> SCALE FINDS WHAT PLANNING ALONE DID NOT.\n\n**Provenance:** `inferred` — causal synthesis of the documented volume and distributed contributions.\n\n",
+  "title": "The surviving path recedes into continued experiments"
+}

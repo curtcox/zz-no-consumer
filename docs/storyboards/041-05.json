@@ -1,0 +1,67 @@
+{
+  "background": "ink",
+  "intent": "Block an active left column and a waiting right column. Keep the scripted evidence boundary and lettering visible.",
+  "lettering": [
+    {
+      "box": [
+        0.045,
+        0.78,
+        0.91,
+        0.18
+      ]
+    }
+  ],
+  "lettering_mode": "manual",
+  "nodes": [
+    {
+      "asset": "scatter",
+      "box": [
+        0.1044,
+        0.2242,
+        0.292744,
+        0.256
+      ],
+      "color": "steel",
+      "focus": true,
+      "label": "ACTIVITY",
+      "label_box": [
+        0.09640000000000001,
+        0.4862,
+        0.308744,
+        0.085
+      ]
+    },
+    {
+      "asset": "clock",
+      "box": [
+        0.5610386666666667,
+        0.22419999999999998,
+        0.1706666666666667,
+        0.25600000000000006
+      ],
+      "color": "steel",
+      "focus": true,
+      "label": "WAIT",
+      "label_box": [
+        0.492,
+        0.4862,
+        0.308744,
+        0.085
+      ]
+    },
+    {
+      "asset": "boundary",
+      "box": [
+        0.4908,
+        0.0962,
+        0.01656,
+        0.5376
+      ],
+      "color": "amber"
+    }
+  ],
+  "reconstructed": false,
+  "shot": "split",
+  "source": "\n**Frame:** The two columns at full height, side by side, with the hard rule still between them. Left is dense and moving. Right is one request and a long wait. No arrow crosses.\n\n**Action:** Both threads belong to the same population and neither caused the other.\n\n**Caption:**\n> THE BOARD IS NOT A PLAN.\n>\n> IT IS A PLACE WHERE UNRELATED WORK BECOMES VISIBLE TO STRANGERS.\n\n**Provenance:** `inferred` — project analysis of the documented parallel chronology.\n\n",
+  "title": "An active left column and a waiting right column"
+}

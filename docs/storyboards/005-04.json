@@ -1,0 +1,103 @@
+{
+  "background": "ink",
+  "intent": "Block the directory accumulates messages. Keep the scripted evidence boundary and lettering visible.",
+  "lettering": [
+    {
+      "box": [
+        0.045,
+        0.78,
+        0.91,
+        0.18
+      ]
+    }
+  ],
+  "lettering_mode": "manual",
+  "nodes": [
+    {
+      "asset": "line",
+      "box": [
+        0.0768,
+        0.365,
+        0.8464,
+        0.016
+      ],
+      "color": "steel"
+    },
+    {
+      "asset": "card",
+      "box": [
+        0.086,
+        0.1794,
+        0.1633,
+        0.1408
+      ],
+      "color": "institution",
+      "focus": true,
+      "label": "EARLIER",
+      "label_box": [
+        0.07799999999999999,
+        0.32620000000000005,
+        0.17930000000000001,
+        0.030799999999999945
+      ]
+    },
+    {
+      "asset": "card",
+      "box": [
+        0.293,
+        0.1794,
+        0.1633,
+        0.1408
+      ],
+      "color": "institution",
+      "focus": true,
+      "label": "LATER",
+      "label_box": [
+        0.285,
+        0.32620000000000005,
+        0.17930000000000001,
+        0.030799999999999945
+      ]
+    },
+    {
+      "asset": "folder",
+      "box": [
+        0.5,
+        0.1794,
+        0.1633,
+        0.1408
+      ],
+      "color": "institution",
+      "focus": true,
+      "label": "MORE ROWS",
+      "label_box": [
+        0.492,
+        0.32620000000000005,
+        0.17930000000000001,
+        0.030799999999999945
+      ]
+    },
+    {
+      "asset": "folder",
+      "box": [
+        0.707,
+        0.1794,
+        0.1633,
+        0.1408
+      ],
+      "color": "institution",
+      "focus": true,
+      "label": "SHARED NOTES",
+      "label_box": [
+        0.699,
+        0.32620000000000005,
+        0.17930000000000001,
+        0.030799999999999945
+      ]
+    }
+  ],
+  "reconstructed": false,
+  "shot": "timeline",
+  "source": "\n**Frame:** Four narrow vertical slices of the same cache listing at later timestamps. New `zz` rows appear; the moss accent multiplies without filling the page.\n\n**Action:** Posting accelerates.\n\n**Caption:**\n> EACH REPLY MAKES THE CHANNEL EASIER TO RECOGNIZE.\n\n**Provenance:** `inferred` — causal interpretation grounded in documented rapid adoption.\n\n",
+  "title": "The directory accumulates messages"
+}

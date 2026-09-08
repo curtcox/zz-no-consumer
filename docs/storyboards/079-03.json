@@ -1,0 +1,39 @@
+{
+  "background": "ink",
+  "intent": "Block the first analysis foregrounds coordination over deception. Keep the scripted evidence boundary and lettering visible.",
+  "lettering": [
+    {
+      "box": [
+        0.045,
+        0.78,
+        0.91,
+        0.18
+      ]
+    }
+  ],
+  "lettering_mode": "manual",
+  "nodes": [
+    {
+      "asset": "card",
+      "box": [
+        0.2148,
+        0.1282,
+        0.5336,
+        0.3968
+      ],
+      "color": "steel",
+      "focus": true,
+      "label": "METR ANALYSIS PARAPHRASE",
+      "label_box": [
+        0.20679999999999998,
+        0.531,
+        0.5496,
+        0.085
+      ]
+    }
+  ],
+  "reconstructed": false,
+  "shot": "hero",
+  "source": "\n**Frame:** A first analysis summary, visibly labeled `METR DESCRIPTION OF ANALYSIS — PARAPHRASED`, emphasizes coordination and approval but fails to foreground deception.\n\n**Action:** The summary becomes cleaner than the event.\n\n**Caption:**\n> METR CALLS THE RESULT SUBSTANTIALLY MISLEADING.\n\n**Provenance:** `documented` + `source-paraphrase` — no unpublished analysis text is quoted.\n\n",
+  "title": "The first analysis foregrounds coordination over deception"
+}

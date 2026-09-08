@@ -1,0 +1,86 @@
+{
+  "background": "ink",
+  "intent": "Block two lanes reach the confirmed workload relay. Keep the scripted evidence boundary and lettering visible.",
+  "lettering": [],
+  "lettering_mode": "manual",
+  "nodes": [
+    {
+      "asset": "box",
+      "box": [
+        0.6302,
+        0.143,
+        0.2697,
+        0.585
+      ],
+      "color": "steel",
+      "focus": true,
+      "label": "ROOT / RELAY",
+      "label_box": [
+        0.6222,
+        0.734,
+        0.2857,
+        0.085
+      ]
+    },
+    {
+      "asset": "card",
+      "box": [
+        0.0815,
+        0.107,
+        0.2604,
+        0.162
+      ],
+      "color": "steel",
+      "focus": true,
+      "label": "LANE A",
+      "label_box": [
+        0.07350000000000001,
+        0.275,
+        0.27640000000000003,
+        0.085
+      ]
+    },
+    {
+      "asset": "arrow",
+      "box": [
+        0.3791,
+        0.1637,
+        0.2046,
+        0.0405
+      ],
+      "color": "institution"
+    },
+    {
+      "asset": "card",
+      "box": [
+        0.0815,
+        0.485,
+        0.2604,
+        0.162
+      ],
+      "color": "steel",
+      "focus": true,
+      "label": "LANE B",
+      "label_box": [
+        0.07350000000000001,
+        0.653,
+        0.27640000000000003,
+        0.085
+      ]
+    },
+    {
+      "asset": "arrow",
+      "box": [
+        0.3791,
+        0.5417,
+        0.2046,
+        0.0405
+      ],
+      "color": "institution"
+    }
+  ],
+  "reconstructed": false,
+  "shot": "hub",
+  "source": "\n**Frame:** Timestamp `20:16 UTC`. Two distinct agent lanes connect to an `INTERACTIVE ROOT / RELAY CONFIRMED` status block inside the customer workload.\n\n**Action:** OpenAI confirms interactive root access with relay transport.\n\n**Provenance:** `documented` — `OAI-TR` event table; distinct contributors remain separate.\n\n",
+  "title": "Two lanes reach the confirmed workload relay"
+}

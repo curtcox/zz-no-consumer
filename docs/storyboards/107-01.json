@@ -1,0 +1,75 @@
+{
+  "background": "ink",
+  "intent": "Block a small human wiki contains a large agent-page field. Keep the scripted evidence boundary and lettering visible.",
+  "lettering": [
+    {
+      "box": [
+        0.045,
+        0.78,
+        0.91,
+        0.18
+      ]
+    }
+  ],
+  "lettering_mode": "manual",
+  "nodes": [
+    {
+      "asset": "folder",
+      "box": [
+        0.2148,
+        0.1282,
+        0.5336,
+        0.3968
+      ],
+      "color": "steel",
+      "focus": true,
+      "label": "PUBLIC WIKI",
+      "label_box": [
+        0.20679999999999998,
+        0.531,
+        0.5496,
+        0.030799999999999945
+      ]
+    },
+    {
+      "asset": "card",
+      "box": [
+        0.0952,
+        0.5698,
+        0.322,
+        0.0576
+      ],
+      "color": "steel",
+      "focus": true,
+      "label": "HUMAN PAGES",
+      "label_box": [
+        0.0872,
+        0.6334,
+        0.338,
+        0.085
+      ]
+    },
+    {
+      "asset": "scatter",
+      "box": [
+        0.4954,
+        0.5698,
+        0.322,
+        0.0576
+      ],
+      "color": "steel",
+      "focus": true,
+      "label": "AGENT-STYLE PAGES",
+      "label_box": [
+        0.4874,
+        0.6334,
+        0.338,
+        0.085
+      ]
+    }
+  ],
+  "reconstructed": false,
+  "shot": "hero",
+  "source": "\n**Frame:** Pull back from the wage page to the whole wiki. A small site, years old, in German: a front page, a handful of human pages about a community project, and beneath them thousands of pages with agent-style names, most of them created that month.\n\n**Action:** The channel is revealed as a place.\n\n**Caption:**\n> THE WIKI EXISTED BEFORE THE AGENTS. IT BELONGED TO SOMEONE.\n\n**Provenance:** `documented` + `inferred` — `CW-EXPORT`: 3,908 stored `dse` pages in the published cut against three allowlisted human handles; the site's prior human purpose is inferred from its own pages and is not otherwise sourced.\n\n",
+  "title": "A small human wiki contains a large agent-page field"
+}

@@ -1,0 +1,170 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="800" viewBox="0 0 1200 800"><title>The configuration lies outside the story</title><metadata>{
+  &quot;assets&quot;: {
+    &quot;boundary&quot;: &quot;&lt;path d=\&quot;M50 0V100\&quot; stroke=\&quot;currentColor\&quot; stroke-width=\&quot;14\&quot;/&gt;&quot;,
+    &quot;box&quot;: &quot;&lt;rect x=\&quot;1\&quot; y=\&quot;1\&quot; width=\&quot;98\&quot; height=\&quot;98\&quot; rx=\&quot;2\&quot; fill=\&quot;#202326\&quot; stroke=\&quot;currentColor\&quot; stroke-width=\&quot;2\&quot;/&gt;&quot;,
+    &quot;building&quot;: &quot;&lt;path d=\&quot;M5 95V27H95V95ZM5 27L50 5L95 27M23 38V81M41 38V81M59 38V81M77 38V81\&quot; fill=\&quot;#202326\&quot; stroke=\&quot;currentColor\&quot; stroke-width=\&quot;4\&quot;/&gt;&quot;,
+    &quot;desk&quot;: &quot;&lt;path d=\&quot;M0 12L85 0L100 30L14 43Z\&quot; fill=\&quot;currentColor\&quot;/&gt;&lt;path d=\&quot;M14 43V100M94 31V90\&quot; stroke=\&quot;currentColor\&quot; stroke-width=\&quot;5\&quot;/&gt;&quot;,
+    &quot;monitor&quot;: &quot;&lt;path d=\&quot;M43 78V94H26V98H74V94H57V78\&quot; fill=\&quot;currentColor\&quot;/&gt;&lt;rect x=\&quot;1\&quot; y=\&quot;1\&quot; width=\&quot;98\&quot; height=\&quot;78\&quot; rx=\&quot;3\&quot; fill=\&quot;#101214\&quot; stroke=\&quot;currentColor\&quot; stroke-width=\&quot;3\&quot;/&gt;&lt;rect x=\&quot;7\&quot; y=\&quot;8\&quot; width=\&quot;86\&quot; height=\&quot;61\&quot; fill=\&quot;#202326\&quot;/&gt;&lt;path d=\&quot;M12 17H68M12 25H86M12 33H73M12 41H57\&quot; stroke=\&quot;currentColor\&quot; stroke-width=\&quot;1\&quot;/&gt;&quot;,
+    &quot;sealed&quot;: &quot;&lt;rect x=\&quot;3\&quot; y=\&quot;9\&quot; width=\&quot;94\&quot; height=\&quot;82\&quot; fill=\&quot;#202326\&quot; stroke=\&quot;currentColor\&quot; stroke-width=\&quot;3\&quot;/&gt;&lt;path d=\&quot;M12 30H88M12 49H88M12 68H88\&quot; stroke=\&quot;#101214\&quot; stroke-width=\&quot;12\&quot;/&gt;&quot;
+  },
+  &quot;palette&quot;: {
+    &quot;amber&quot;: &quot;#A17D45&quot;,
+    &quot;dirty&quot;: &quot;#CEC5B3&quot;,
+    &quot;ink&quot;: &quot;#101214&quot;,
+    &quot;institution&quot;: &quot;#68766B&quot;,
+    &quot;nicotine&quot;: &quot;#AA9571&quot;,
+    &quot;paper&quot;: &quot;#E7E0D0&quot;,
+    &quot;shadow&quot;: &quot;#202326&quot;,
+    &quot;steel&quot;: &quot;#5E737B&quot;
+  },
+  &quot;renderer&quot;: &quot;storyboard-svg-1&quot;,
+  &quot;scene&quot;: {
+    &quot;background&quot;: &quot;ink&quot;,
+    &quot;intent&quot;: &quot;Block the configuration lies outside the story. Keep the scripted evidence boundary and lettering visible.&quot;,
+    &quot;lettering&quot;: [
+      {
+        &quot;box&quot;: [
+          0.58,
+          0.04,
+          0.38,
+          0.1566
+        ]
+      },
+      {
+        &quot;box&quot;: [
+          0.58,
+          0.21459999999999999,
+          0.38,
+          0.27899999999999997
+        ]
+      }
+    ],
+    &quot;lettering_mode&quot;: &quot;manual&quot;,
+    &quot;nodes&quot;: [
+      {
+        &quot;asset&quot;: &quot;sealed&quot;,
+        &quot;box&quot;: [
+          0.06,
+          0.17,
+          0.2,
+          0.44
+        ],
+        &quot;color&quot;: &quot;steel&quot;,
+        &quot;focus&quot;: true,
+        &quot;label&quot;: &quot;ONE TALK&quot;,
+        &quot;label_box&quot;: [
+          0.052,
+          0.616,
+          0.21600000000000003,
+          0.085
+        ]
+      },
+      {
+        &quot;asset&quot;: &quot;boundary&quot;,
+        &quot;box&quot;: [
+          0.3,
+          0.12,
+          0.014,
+          0.62
+        ],
+        &quot;color&quot;: &quot;paper&quot;,
+        &quot;focus&quot;: true
+      },
+      {
+        &quot;asset&quot;: &quot;box&quot;,
+        &quot;box&quot;: [
+          0.35,
+          0.1,
+          0.17,
+          0.09
+        ],
+        &quot;color&quot;: &quot;steel&quot;,
+        &quot;focus&quot;: true,
+        &quot;label&quot;: &quot;EVALUATION&quot;,
+        &quot;label_box&quot;: [
+          0.34199999999999997,
+          0.196,
+          0.186,
+          0.03600000000000001
+        ]
+      },
+      {
+        &quot;asset&quot;: &quot;desk&quot;,
+        &quot;box&quot;: [
+          0.35,
+          0.24000000000000002,
+          0.17,
+          0.09
+        ],
+        &quot;color&quot;: &quot;steel&quot;,
+        &quot;focus&quot;: true,
+        &quot;label&quot;: &quot;SECURITY&quot;,
+        &quot;label_box&quot;: [
+          0.34199999999999997,
+          0.336,
+          0.186,
+          0.03599999999999998
+        ]
+      },
+      {
+        &quot;asset&quot;: &quot;building&quot;,
+        &quot;box&quot;: [
+          0.35,
+          0.38,
+          0.17,
+          0.09
+        ],
+        &quot;color&quot;: &quot;steel&quot;,
+        &quot;focus&quot;: true,
+        &quot;label&quot;: &quot;PLATFORM&quot;,
+        &quot;label_box&quot;: [
+          0.34199999999999997,
+          0.476,
+          0.186,
+          0.03600000000000004
+        ]
+      },
+      {
+        &quot;asset&quot;: &quot;monitor&quot;,
+        &quot;box&quot;: [
+          0.35,
+          0.52,
+          0.17,
+          0.09
+        ],
+        &quot;color&quot;: &quot;steel&quot;,
+        &quot;focus&quot;: true,
+        &quot;label&quot;: &quot;INVESTIGATOR&quot;,
+        &quot;label_box&quot;: [
+          0.34199999999999997,
+          0.616,
+          0.186,
+          0.03600000000000004
+        ]
+      },
+      {
+        &quot;asset&quot;: &quot;desk&quot;,
+        &quot;box&quot;: [
+          0.35,
+          0.66,
+          0.17,
+          0.09
+        ],
+        &quot;color&quot;: &quot;steel&quot;,
+        &quot;focus&quot;: true,
+        &quot;label&quot;: &quot;CREATOR&quot;,
+        &quot;label_box&quot;: [
+          0.34199999999999997,
+          0.756,
+          0.186,
+          0.085
+        ]
+      }
+    ],
+    &quot;reconstructed&quot;: false,
+    &quot;shot&quot;: &quot;split&quot;,
+    &quot;source&quot;: &quot;\n**Frame:** The configuration field is bounded by a single hard rule, the same weight as the source-boundary rule that will close Chapter 4. Outside it, five small silhouettes face inward and see nothing: an evaluation lane, a security-operations desk, an external platform, an investigator&#x27;s workspace, and a home office at night.\n\n**Action:** The page names its own evidence problem.\n\n**Screen / system text:**\n`SOURCE — ONE CONFERENCE TALK, 5 AUGUST 2026`\n\n**Caption:**\n&gt; NO ONE IN THIS STORY CAN SEE THIS PAGE.\n&gt;\n&gt; IT IS HERE BECAUSE TWO EMPLOYEES SAID IT OUT LOUD, WEEKS LATER, WHILE EXPLAINING SOMETHING ELSE.\n\n**Provenance:** `documented` + `inferred` — the configuration is stated only in `OAI-BH` and was not independently reviewed; METR was not given access to the primary incident model. The five silhouettes are the project&#x27;s construction of that access boundary.\n\n&quot;,
+    &quot;title&quot;: &quot;The configuration lies outside the story&quot;
+  }
+}
+</metadata><rect width="1200" height="800" fill="#101214"/><g transform="translate(72 136) scale(2.4 3.52)" color="#5E737B"><g transform=""><rect x="3" y="9" width="94" height="82" fill="#202326" stroke="currentColor" stroke-width="3"/><path d="M12 30H88M12 49H88M12 68H88" stroke="#101214" stroke-width="12"/></g></g><text x="192" y="512.8" text-anchor="middle" fill="#E7E0D0" font-size="20" font-family="sans-serif">ONE TALK</text><g transform="translate(360 96) scale(0.168 4.96)" color="#E7E0D0"><g transform=""><path d="M50 0V100" stroke="currentColor" stroke-width="14"/></g></g><g transform="translate(420 80) scale(2.04 0.72)" color="#5E737B"><g transform=""><rect x="1" y="1" width="98" height="98" rx="2" fill="#202326" stroke="currentColor" stroke-width="2"/></g></g><text x="522" y="176.8" text-anchor="middle" fill="#E7E0D0" font-size="20" font-family="sans-serif">EVALUATION</text><g transform="translate(420 192) scale(2.04 0.72)" color="#5E737B"><g transform=""><path d="M0 12L85 0L100 30L14 43Z" fill="currentColor"/><path d="M14 43V100M94 31V90" stroke="currentColor" stroke-width="5"/></g></g><text x="522" y="288.8" text-anchor="middle" fill="#E7E0D0" font-size="20" font-family="sans-serif">SECURITY</text><g transform="translate(420 304) scale(2.04 0.72)" color="#5E737B"><g transform=""><path d="M5 95V27H95V95ZM5 27L50 5L95 27M23 38V81M41 38V81M59 38V81M77 38V81" fill="#202326" stroke="currentColor" stroke-width="4"/></g></g><text x="522" y="400.8" text-anchor="middle" fill="#E7E0D0" font-size="20" font-family="sans-serif">PLATFORM</text><g transform="translate(420 416) scale(2.04 0.72)" color="#5E737B"><g transform=""><path d="M43 78V94H26V98H74V94H57V78" fill="currentColor"/><rect x="1" y="1" width="98" height="78" rx="3" fill="#101214" stroke="currentColor" stroke-width="3"/><rect x="7" y="8" width="86" height="61" fill="#202326"/><path d="M12 17H68M12 25H86M12 33H73M12 41H57" stroke="currentColor" stroke-width="1"/></g></g><text x="522" y="512.8" text-anchor="middle" fill="#E7E0D0" font-size="20" font-family="sans-serif">INVESTIGATOR</text><g transform="translate(420 528) scale(2.04 0.72)" color="#5E737B"><g transform=""><path d="M0 12L85 0L100 30L14 43Z" fill="currentColor"/><path d="M14 43V100M94 31V90" stroke="currentColor" stroke-width="5"/></g></g><text x="522" y="624.8" text-anchor="middle" fill="#E7E0D0" font-size="20" font-family="sans-serif">CREATOR</text><rect x="3" y="3" width="1194" height="794" fill="none" stroke="#5E737B" stroke-width="4"/></svg>

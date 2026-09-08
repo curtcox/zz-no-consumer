@@ -108,6 +108,16 @@ generation boundaries, so a CI run can never reach for an image model.
 
 ## Artwork
 
+`art_jobs.py` automates built-in image-tool handoffs: `prepare`, `claim`, `receive`,
+`review`, `retry`, `block`, `status`, `export`, `verify`, and offline `check`.
+Its durable local SQLite queue holds pending images outside reader selection;
+accepted images use the existing version store, controlled borders and lettering.
+Prompts, reference snapshots, review sheets and receipts are generated automatically.
+It does not call a model. See [the automation workflow](../design/artwork-automation.md)
+for batch operation, dependencies, recovery, the required preparation rasterizer,
+and the gitignored queue's backup boundary. `art_jobs_checks.py` contains its
+disposable offline fixtures, invoked through `art_jobs.py check`.
+
 `python3 scripts/image_generation_status.py write` refreshes the single repository
 summary, [IMAGE-GENERATION-STATUS.md](../IMAGE-GENERATION-STATUS.md), including the
 remaining slots by page, chapter totals, and available refined/final candidates.
@@ -151,6 +161,10 @@ Six modules carry the shared models, and the rest import them rather than re-der
 - **`storyboards.py`** — structured scene previews and explicit manual lettering placements. Imported by the builder, lettering, and identity tools.
 - **`textimage.py`** — the pure-Python text-into-image primitive. Imported by everything that
   draws.
+
+`art_jobs.py` composes these existing modules rather than parsing panel scripts or
+inventing a separate reader selection policy. Its PNG validation and operational
+queue are local to the image handoff boundary.
 
 `build-site.py` imports several of these modules, which is why a change to any of those modules can move
 generated output in `docs/`. Rebuild and look at the diff.

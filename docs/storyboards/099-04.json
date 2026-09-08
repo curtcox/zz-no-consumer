@@ -1,0 +1,93 @@
+{
+  "background": "ink",
+  "intent": "Block four evidence categories structure the forum. Keep the scripted evidence boundary and lettering visible.",
+  "lettering": [
+    {
+      "box": [
+        0.045,
+        0.78,
+        0.91,
+        0.18
+      ]
+    }
+  ],
+  "lettering_mode": "manual",
+  "nodes": [
+    {
+      "asset": "card",
+      "box": [
+        0.1044,
+        0.2242,
+        0.146372,
+        0.256
+      ],
+      "color": "steel",
+      "focus": true,
+      "label": "DOCUMENTED EVENT",
+      "label_box": [
+        0.09640000000000001,
+        0.4862,
+        0.16237200000000002,
+        0.085
+      ]
+    },
+    {
+      "asset": "card",
+      "box": [
+        0.3022,
+        0.2242,
+        0.146372,
+        0.256
+      ],
+      "color": "steel",
+      "focus": true,
+      "label": "ORGANIZATION CLAIM",
+      "label_box": [
+        0.2942,
+        0.4862,
+        0.16237200000000002,
+        0.085
+      ]
+    },
+    {
+      "asset": "card",
+      "box": [
+        0.5,
+        0.2242,
+        0.146372,
+        0.256
+      ],
+      "color": "steel",
+      "focus": true,
+      "label": "INDEPENDENT CHECK",
+      "label_box": [
+        0.492,
+        0.4862,
+        0.16237200000000002,
+        0.085
+      ]
+    },
+    {
+      "asset": "outline-box",
+      "box": [
+        0.6978,
+        0.2242,
+        0.146372,
+        0.256
+      ],
+      "color": "steel",
+      "focus": true,
+      "label": "OPEN QUESTION",
+      "label_box": [
+        0.6898,
+        0.4862,
+        0.16237200000000002,
+        0.085
+      ]
+    }
+  ],
+  "reconstructed": false,
+  "shot": "row",
+  "source": "\n**Frame:** Four columns appear: `DOCUMENTED EVENT`, `ORGANIZATION CLAIM`, `INDEPENDENT CHECK`, `OPEN QUESTION`.\n\n**Caption:**\n> THE BOOK GRANTS ITSELF A PLACE TO ASK—NOT A PLACE TO INVENT AN ANSWER.\n\n**Provenance:** `invented` + `inferred`.\n\n",
+  "title": "Four evidence categories structure the forum"
+}

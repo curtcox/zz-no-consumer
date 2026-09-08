@@ -1,0 +1,28 @@
+{
+  "background": "ink",
+  "intent": "Block the qualification stays inseparable from the large claim. Keep the scripted evidence boundary and lettering visible.",
+  "lettering": [
+    {
+      "box": [
+        0.58,
+        0.04,
+        0.38,
+        0.1158
+      ]
+    },
+    {
+      "box": [
+        0.58,
+        0.1738,
+        0.38,
+        0.19740000000000002
+      ]
+    }
+  ],
+  "lettering_mode": "manual",
+  "nodes": [],
+  "reconstructed": false,
+  "shot": "blank",
+  "source": "\n**Frame:** Large type enters, but a qualification remains inseparable beneath it.\n\n**Caption:**\n> EVERYONE CONTINUED.\n\n**Qualification:**\n> THEMATIC COMPRESSION: NOT EVERY ACTOR, NOT THE SAME ACTION, NOT THE SAME REASON.\n\n**Provenance:** `compressed` + `inferred`.\n\n",
+  "title": "The qualification stays inseparable from the large claim"
+}

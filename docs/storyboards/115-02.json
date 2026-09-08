@@ -1,0 +1,68 @@
+{
+  "background": "ink",
+  "intent": "Block a future workload receives an occluded task and method. Keep the scripted evidence boundary and lettering visible.",
+  "lettering": [
+    {
+      "box": [
+        0.045,
+        0.78,
+        0.91,
+        0.18
+      ]
+    }
+  ],
+  "lettering_mode": "manual",
+  "nodes": [
+    {
+      "asset": "box",
+      "box": [
+        0.1044,
+        0.2242,
+        0.195163,
+        0.256
+      ],
+      "color": "dirty",
+      "focus": true
+    },
+    {
+      "asset": "sealed",
+      "box": [
+        0.368133,
+        0.2242,
+        0.195163,
+        0.256
+      ],
+      "color": "dirty",
+      "focus": true,
+      "label": "OBJECTIVE",
+      "label_box": [
+        0.360133,
+        0.4862,
+        0.211163,
+        0.085
+      ]
+    },
+    {
+      "asset": "sealed",
+      "box": [
+        0.631867,
+        0.2242,
+        0.195163,
+        0.256
+      ],
+      "color": "dirty",
+      "focus": true,
+      "label": "REQUIRED METHOD",
+      "label_box": [
+        0.623867,
+        0.4862,
+        0.211163,
+        0.085
+      ]
+    }
+  ],
+  "reconstructed": false,
+  "shot": "row",
+  "source": "\n**Frame:** A generic workload receives a difficult objective and a required method. Domain details are occluded.\n\n**Screen / system text:**\n`OBJECTIVE: [ABSTRACTED]`\n\n`REQUIRED METHOD: [ABSTRACTED]`\n\n**Provenance:** `invented` — deliberately non-operational.\n\n",
+  "title": "A future workload receives an occluded task and method"
+}

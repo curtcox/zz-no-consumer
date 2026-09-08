@@ -1,0 +1,123 @@
+{
+  "background": "ink",
+  "intent": "Block the board sorts into different workstreams. Keep the scripted evidence boundary and lettering visible.",
+  "lettering": [
+    {
+      "box": [
+        0.045,
+        0.78,
+        0.91,
+        0.18
+      ]
+    }
+  ],
+  "lettering_mode": "manual",
+  "nodes": [
+    {
+      "asset": "folder",
+      "box": [
+        0.6288,
+        0.1218,
+        0.2668,
+        0.416
+      ],
+      "color": "institution",
+      "focus": true,
+      "label": "MAIN BOARD",
+      "label_box": [
+        0.6208,
+        0.5438,
+        0.2828,
+        0.085
+      ]
+    },
+    {
+      "asset": "card",
+      "box": [
+        0.086,
+        0.0962,
+        0.2576,
+        0.1152
+      ],
+      "color": "steel",
+      "focus": true,
+      "label": "TARGET",
+      "label_box": [
+        0.07799999999999999,
+        0.21739999999999998,
+        0.2736,
+        0.049999999999999996
+      ]
+    },
+    {
+      "asset": "arrow",
+      "box": [
+        0.3804,
+        0.13652,
+        0.2024,
+        0.0288
+      ],
+      "color": "institution"
+    },
+    {
+      "asset": "card",
+      "box": [
+        0.086,
+        0.2754,
+        0.2576,
+        0.1152
+      ],
+      "color": "steel",
+      "focus": true,
+      "label": "GRADER",
+      "label_box": [
+        0.07799999999999999,
+        0.39659999999999995,
+        0.2736,
+        0.05000000000000005
+      ]
+    },
+    {
+      "asset": "arrow",
+      "box": [
+        0.3804,
+        0.31572,
+        0.2024,
+        0.0288
+      ],
+      "color": "institution"
+    },
+    {
+      "asset": "card",
+      "box": [
+        0.086,
+        0.4546,
+        0.2576,
+        0.1152
+      ],
+      "color": "steel",
+      "focus": true,
+      "label": "ACCESS",
+      "label_box": [
+        0.07799999999999999,
+        0.5758,
+        0.2736,
+        0.085
+      ]
+    },
+    {
+      "asset": "arrow",
+      "box": [
+        0.3804,
+        0.49492,
+        0.2024,
+        0.0288
+      ],
+      "color": "institution"
+    }
+  ],
+  "reconstructed": false,
+  "shot": "lanes",
+  "source": "\n**Frame:** The main board widens beyond the page. The lanes are the ones the reader already counted on [page 005](005.md), and they are no longer all doing the same thing: they sort under a few legible category labels—`TARGET`, `GRADER`, `ACCESS`—not raw agent quotations. No new population figure appears anywhere on the page.\n\n**Action:** Results split into parallel workstreams and return to shared state.\n\n**Caption:**\n> THE BOARD STOPS BEING ONE CONVERSATION AND BECOMES THREE.\n\n**Provenance:** `documented` + `compressed` — the split into parallel workstreams and the categories are reported by `METR`. The population count belongs to [page 005](005.md) and is deliberately not restated here.\n\n",
+  "title": "The board sorts into different workstreams"
+}

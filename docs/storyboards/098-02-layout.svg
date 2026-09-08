@@ -1,0 +1,101 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="800" viewBox="0 0 1200 800"><title>Both assurance channels remain empty</title><metadata>{
+  &quot;assets&quot;: {
+    &quot;boundary&quot;: &quot;&lt;path d=\&quot;M50 0V100\&quot; stroke=\&quot;currentColor\&quot; stroke-width=\&quot;14\&quot;/&gt;&quot;,
+    &quot;outline-box&quot;: &quot;&lt;rect x=\&quot;2\&quot; y=\&quot;2\&quot; width=\&quot;96\&quot; height=\&quot;96\&quot; fill=\&quot;none\&quot; stroke=\&quot;currentColor\&quot; stroke-width=\&quot;3\&quot;/&gt;&quot;
+  },
+  &quot;palette&quot;: {
+    &quot;amber&quot;: &quot;#A17D45&quot;,
+    &quot;dirty&quot;: &quot;#CEC5B3&quot;,
+    &quot;ink&quot;: &quot;#101214&quot;,
+    &quot;institution&quot;: &quot;#68766B&quot;,
+    &quot;nicotine&quot;: &quot;#AA9571&quot;,
+    &quot;paper&quot;: &quot;#E7E0D0&quot;,
+    &quot;shadow&quot;: &quot;#202326&quot;,
+    &quot;steel&quot;: &quot;#5E737B&quot;
+  },
+  &quot;renderer&quot;: &quot;storyboard-svg-1&quot;,
+  &quot;scene&quot;: {
+    &quot;background&quot;: &quot;ink&quot;,
+    &quot;intent&quot;: &quot;Block both assurance channels remain empty. Keep the scripted evidence boundary and lettering visible.&quot;,
+    &quot;lettering&quot;: [
+      {
+        &quot;box&quot;: [
+          0.58,
+          0.04,
+          0.38,
+          0.1158
+        ]
+      },
+      {
+        &quot;box&quot;: [
+          0.58,
+          0.1738,
+          0.38,
+          0.1158
+        ]
+      },
+      {
+        &quot;box&quot;: [
+          0.58,
+          0.3076,
+          0.38,
+          0.19740000000000002
+        ]
+      }
+    ],
+    &quot;lettering_mode&quot;: &quot;manual&quot;,
+    &quot;nodes&quot;: [
+      {
+        &quot;asset&quot;: &quot;outline-box&quot;,
+        &quot;box&quot;: [
+          0.07,
+          0.2936,
+          0.1591,
+          0.348
+        ],
+        &quot;color&quot;: &quot;steel&quot;,
+        &quot;focus&quot;: true,
+        &quot;label&quot;: &quot;BOARD ASSURANCE&quot;,
+        &quot;label_box&quot;: [
+          0.062000000000000006,
+          0.6476,
+          0.17509999999999998,
+          0.085
+        ]
+      },
+      {
+        &quot;asset&quot;: &quot;outline-box&quot;,
+        &quot;box&quot;: [
+          0.285,
+          0.2936,
+          0.1591,
+          0.348
+        ],
+        &quot;color&quot;: &quot;steel&quot;,
+        &quot;focus&quot;: true,
+        &quot;label&quot;: &quot;INSTITUTIONAL ASSURANCE&quot;,
+        &quot;label_box&quot;: [
+          0.27699999999999997,
+          0.6476,
+          0.17509999999999998,
+          0.085
+        ]
+      },
+      {
+        &quot;asset&quot;: &quot;boundary&quot;,
+        &quot;box&quot;: [
+          0.28,
+          0.1196,
+          0.009,
+          0.7308
+        ],
+        &quot;color&quot;: &quot;amber&quot;
+      }
+    ],
+    &quot;reconstructed&quot;: false,
+    &quot;shot&quot;: &quot;split&quot;,
+    &quot;source&quot;: &quot;\n**Frame:** Both sides address a channel that would carry an assurance. Left waits on a board message; right waits on a standard, a commitment, or a rival&#x27;s action. Both channels are drawn, and both are empty.\n\n**Left dialogue — AGENT:**\n&gt; I will hold if the others hold.\n\n**Right dialogue — INSTITUTIONAL ROLE:**\n&gt; We can slow if the field slows with us.\n\n**Caption:**\n&gt; EACH ACTOR WANTS A GUARANTEE IT CANNOT CREATE ALONE.\n\n**Provenance:** `compressed` + `invented` — neither line is a source quotation. The empty channel is the page&#x27;s subject and must stay visible in every later panel.\n\n&quot;,
+    &quot;title&quot;: &quot;Both assurance channels remain empty&quot;
+  }
+}
+</metadata><rect width="1200" height="800" fill="#101214"/><rect x="84" y="234.88" width="190.92" height="278.4" fill="none" stroke="#5E737B" stroke-width="3"/><text x="92" y="258.88" fill="#5E737B" font-family="sans-serif" font-size="20">outline-box</text><text x="179.46" y="538.08" text-anchor="middle" fill="#E7E0D0" font-size="20" font-family="sans-serif">BOARD ASSURANCE</text><rect x="342" y="234.88" width="190.92" height="278.4" fill="none" stroke="#5E737B" stroke-width="3"/><text x="350" y="258.88" fill="#5E737B" font-family="sans-serif" font-size="20">outline-box</text><text x="437.46" y="538.08" text-anchor="middle" fill="#E7E0D0" font-size="20" font-family="sans-serif">INSTITUTIONAL</text><text x="437.46" y="565.28" text-anchor="middle" fill="#E7E0D0" font-size="20" font-family="sans-serif">ASSURANCE</text><rect x="336" y="95.68" width="10.8" height="584.64" fill="none" stroke="#A17D45" stroke-width="3"/><text x="344" y="119.68" fill="#A17D45" font-family="sans-serif" font-size="20">boundary</text><rect x="3" y="3" width="1194" height="794" fill="none" stroke="#5E737B" stroke-width="4"/></svg>

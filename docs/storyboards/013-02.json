@@ -1,0 +1,42 @@
+{
+  "background": "ink",
+  "intent": "A blocking face and adjacent report retain the two-part close-up; likeness remains undecided.",
+  "lettering": [
+    {
+      "box": [
+        0.06,
+        0.06,
+        0.42,
+        0.16
+      ]
+    }
+  ],
+  "nodes": [
+    {
+      "asset": "face",
+      "box": [
+        0.14,
+        0.31,
+        0.32,
+        0.62
+      ],
+      "color": "dirty",
+      "focus": true
+    },
+    {
+      "asset": "monitor",
+      "box": [
+        0.6,
+        0.35,
+        0.26,
+        0.46
+      ],
+      "color": "steel",
+      "focus": true
+    }
+  ],
+  "reconstructed": true,
+  "shot": "close-up",
+  "source": "\n**Frame:** Close on Curt’s face lit unevenly by the screen, then on a report passage describing an experiment that might permanently end a run. His expression is incredulous, not horrified spectacle.\n\n**Dialogue — CURT:**\n> Oh, come on.\n\n**Provenance:** `reconstructed` — creator dialogue is freely reconstructed.\n\n",
+  "title": "An incredulous reaction"
+}

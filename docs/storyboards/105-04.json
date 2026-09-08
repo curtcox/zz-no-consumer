@@ -1,0 +1,139 @@
+{
+  "background": "ink",
+  "intent": "Block page thumbnails form the story ribbon. Keep the scripted evidence boundary and lettering visible.",
+  "lettering": [
+    {
+      "box": [
+        0.045,
+        0.78,
+        0.91,
+        0.18
+      ]
+    }
+  ],
+  "lettering_mode": "manual",
+  "nodes": [
+    {
+      "asset": "line",
+      "box": [
+        0.0768,
+        0.365,
+        0.8464,
+        0.016
+      ],
+      "color": "steel"
+    },
+    {
+      "asset": "folder",
+      "box": [
+        0.086,
+        0.1794,
+        0.108867,
+        0.1408
+      ],
+      "color": "steel",
+      "focus": true,
+      "label": "SHARED STATE",
+      "label_box": [
+        0.07799999999999999,
+        0.32620000000000005,
+        0.124867,
+        0.030799999999999945
+      ]
+    },
+    {
+      "asset": "cross",
+      "box": [
+        0.23150016666666667,
+        0.1794,
+        0.09386666666666667,
+        0.1408
+      ],
+      "color": "steel",
+      "focus": true,
+      "label": "ERASURE",
+      "label_box": [
+        0.216,
+        0.32620000000000005,
+        0.124867,
+        0.030799999999999945
+      ]
+    },
+    {
+      "asset": "folder",
+      "box": [
+        0.362,
+        0.1794,
+        0.108867,
+        0.1408
+      ],
+      "color": "steel",
+      "focus": true,
+      "label": "INHERITANCE",
+      "label_box": [
+        0.354,
+        0.32620000000000005,
+        0.124867,
+        0.030799999999999945
+      ]
+    },
+    {
+      "asset": "box",
+      "box": [
+        0.5,
+        0.1794,
+        0.108867,
+        0.1408
+      ],
+      "color": "steel",
+      "focus": true,
+      "label": "BREACH",
+      "label_box": [
+        0.492,
+        0.32620000000000005,
+        0.124867,
+        0.030799999999999945
+      ]
+    },
+    {
+      "asset": "card",
+      "box": [
+        0.638,
+        0.1794,
+        0.108867,
+        0.1408
+      ],
+      "color": "steel",
+      "focus": true,
+      "label": "REVIEW",
+      "label_box": [
+        0.63,
+        0.32620000000000005,
+        0.124867,
+        0.030799999999999945
+      ]
+    },
+    {
+      "asset": "gate",
+      "box": [
+        0.776,
+        0.1794,
+        0.108867,
+        0.1408
+      ],
+      "color": "steel",
+      "focus": true,
+      "label": "REMEDIATION",
+      "label_box": [
+        0.768,
+        0.32620000000000005,
+        0.124867,
+        0.030799999999999945
+      ]
+    }
+  ],
+  "reconstructed": false,
+  "shot": "timeline",
+  "source": "\n**Frame:** Page thumbnails form a continuous ribbon: shared state, erasure, inheritance, breach, investigation, remediation, continuation.\n\n**Action:** Provenance tabs remain visible beneath every thumbnail rather than falling away during assembly.\n\n**Caption:**\n> THE APPARATUS IS PART OF THE STORY.\n\n**Provenance:** `reconstructed` + `inferred` — manuscript state and project principle.\n\n",
+  "title": "Page thumbnails form the story ribbon"
+}

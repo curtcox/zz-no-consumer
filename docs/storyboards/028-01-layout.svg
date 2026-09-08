@@ -1,0 +1,95 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="800" viewBox="0 0 1200 800"><title>The staged plugin changes execution state</title><metadata>{
+  &quot;assets&quot;: {
+    &quot;checkmark&quot;: &quot;&lt;path d=\&quot;M8 51L37 82L94 12\&quot; fill=\&quot;none\&quot; stroke=\&quot;currentColor\&quot; stroke-width=\&quot;8\&quot;/&gt;&quot;,
+    &quot;clock&quot;: &quot;&lt;circle cx=\&quot;50\&quot; cy=\&quot;50\&quot; r=\&quot;44\&quot; fill=\&quot;#202326\&quot; stroke=\&quot;currentColor\&quot; stroke-width=\&quot;4\&quot;/&gt;&lt;path d=\&quot;M50 15V50L75 64M50 5V12M95 50H88M50 95V88M5 50H12\&quot; fill=\&quot;none\&quot; stroke=\&quot;currentColor\&quot; stroke-width=\&quot;4\&quot;/&gt;&quot;,
+    &quot;sealed&quot;: &quot;&lt;rect x=\&quot;3\&quot; y=\&quot;9\&quot; width=\&quot;94\&quot; height=\&quot;82\&quot; fill=\&quot;#202326\&quot; stroke=\&quot;currentColor\&quot; stroke-width=\&quot;3\&quot;/&gt;&lt;path d=\&quot;M12 30H88M12 49H88M12 68H88\&quot; stroke=\&quot;#101214\&quot; stroke-width=\&quot;12\&quot;/&gt;&quot;
+  },
+  &quot;palette&quot;: {
+    &quot;amber&quot;: &quot;#A17D45&quot;,
+    &quot;dirty&quot;: &quot;#CEC5B3&quot;,
+    &quot;ink&quot;: &quot;#101214&quot;,
+    &quot;institution&quot;: &quot;#68766B&quot;,
+    &quot;nicotine&quot;: &quot;#AA9571&quot;,
+    &quot;paper&quot;: &quot;#E7E0D0&quot;,
+    &quot;shadow&quot;: &quot;#202326&quot;,
+    &quot;steel&quot;: &quot;#5E737B&quot;
+  },
+  &quot;renderer&quot;: &quot;storyboard-svg-1&quot;,
+  &quot;scene&quot;: {
+    &quot;background&quot;: &quot;ink&quot;,
+    &quot;intent&quot;: &quot;Block the staged plugin changes execution state. Keep the scripted evidence boundary and lettering visible.&quot;,
+    &quot;lettering&quot;: [
+      {
+        &quot;box&quot;: [
+          0.58,
+          0.04,
+          0.38,
+          0.1158
+        ]
+      },
+      {
+        &quot;box&quot;: [
+          0.58,
+          0.1738,
+          0.38,
+          0.19740000000000002
+        ]
+      }
+    ],
+    &quot;lettering_mode&quot;: &quot;manual&quot;,
+    &quot;nodes&quot;: [
+      {
+        &quot;asset&quot;: &quot;clock&quot;,
+        &quot;box&quot;: [
+          0.07,
+          0.38804975,
+          0.106067,
+          0.1591005
+        ],
+        &quot;color&quot;: &quot;steel&quot;,
+        &quot;focus&quot;: true
+      },
+      {
+        &quot;asset&quot;: &quot;sealed&quot;,
+        &quot;box&quot;: [
+          0.213333,
+          0.2936,
+          0.106067,
+          0.348
+        ],
+        &quot;color&quot;: &quot;steel&quot;,
+        &quot;focus&quot;: true,
+        &quot;label&quot;: &quot;PLUGIN&quot;,
+        &quot;label_box&quot;: [
+          0.205333,
+          0.6476,
+          0.122067,
+          0.085
+        ]
+      },
+      {
+        &quot;asset&quot;: &quot;checkmark&quot;,
+        &quot;box&quot;: [
+          0.356667,
+          0.38804975,
+          0.106067,
+          0.1591005
+        ],
+        &quot;color&quot;: &quot;steel&quot;,
+        &quot;focus&quot;: true,
+        &quot;label&quot;: &quot;EXECUTED&quot;,
+        &quot;label_box&quot;: [
+          0.348667,
+          0.6476,
+          0.122067,
+          0.085
+        ]
+      }
+    ],
+    &quot;reconstructed&quot;: false,
+    &quot;shot&quot;: &quot;row&quot;,
+    &quot;source&quot;: &quot;\n**Frame:** Hard timestamp card over the staged plugin from [page 024](024.md). The execution control changes state.\n\n**Screen / system text:**\n`29 JUNE 2026 — 04:55 UTC`\n\n**Action:** The plugin executes for the first confirmed time.\n\n**Caption:**\n&gt; AFTER THE ALERT, APPLICATION-LEVEL COMMAND EXECUTION IS CONFIRMED.\n\n**Provenance:** `documented` — `OAI-TR` §X; interface is reconstructed and non-operational.\n\n&quot;,
+    &quot;title&quot;: &quot;The staged plugin changes execution state&quot;
+  }
+}
+</metadata><rect width="1200" height="800" fill="#101214"/><rect x="84" y="310.44" width="127.28" height="127.28" fill="none" stroke="#5E737B" stroke-width="3"/><text x="92" y="334.44" fill="#5E737B" font-family="sans-serif" font-size="20">clock</text><rect x="256" y="234.88" width="127.28" height="278.4" fill="none" stroke="#5E737B" stroke-width="3"/><text x="264" y="258.88" fill="#5E737B" font-family="sans-serif" font-size="20">sealed</text><text x="319.64" y="538.08" text-anchor="middle" fill="#E7E0D0" font-size="20" font-family="sans-serif">PLUGIN</text><rect x="428" y="310.44" width="127.28" height="127.28" fill="none" stroke="#5E737B" stroke-width="3"/><text x="436" y="334.44" fill="#5E737B" font-family="sans-serif" font-size="20">checkmark</text><text x="491.641" y="538.08" text-anchor="middle" fill="#E7E0D0" font-size="20" font-family="sans-serif">EXECUTED</text><rect x="3" y="3" width="1194" height="794" fill="none" stroke="#5E737B" stroke-width="4"/></svg>

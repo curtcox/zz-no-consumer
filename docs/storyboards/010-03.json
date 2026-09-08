@@ -1,0 +1,67 @@
+{
+  "background": "ink",
+  "intent": "Block belief and reported deployment differ. Keep the scripted evidence boundary and lettering visible.",
+  "lettering": [
+    {
+      "box": [
+        0.045,
+        0.78,
+        0.91,
+        0.18
+      ]
+    }
+  ],
+  "lettering_mode": "manual",
+  "nodes": [
+    {
+      "asset": "aperture",
+      "box": [
+        0.13983866666666667,
+        0.22419999999999998,
+        0.2218666666666667,
+        0.25600000000000006
+      ],
+      "color": "steel",
+      "focus": true,
+      "label": "BOARD BELIEF",
+      "label_box": [
+        0.09640000000000001,
+        0.4862,
+        0.308744,
+        0.085
+      ]
+    },
+    {
+      "asset": "checkmark",
+      "box": [
+        0.5610386666666667,
+        0.22419999999999998,
+        0.1706666666666667,
+        0.25600000000000006
+      ],
+      "color": "steel",
+      "focus": true,
+      "label": "OPENAI ACCOUNT",
+      "label_box": [
+        0.492,
+        0.4862,
+        0.308744,
+        0.085
+      ]
+    },
+    {
+      "asset": "boundary",
+      "box": [
+        0.4908,
+        0.0962,
+        0.01656,
+        0.5376
+      ],
+      "color": "amber"
+    }
+  ],
+  "reconstructed": false,
+  "shot": "split",
+  "source": "\n**Frame:** Split evidence panel. Left: `WHAT THE BOARD BELIEVED`, with the transcript-inspection diagram. Right: `WHAT OPENAI SAYS RAN`, with answer acceptance and no transcript-inspection arrow. A dusty amber gutter divides them.\n\n**Action:** The narrative reveals that belief and deployment are not the same account.\n\n**Caption:**\n> METR SAYS THE BOARD EXPECTED TRANSCRIPT REVIEW. OPENAI SAYS ITS DEPLOYED SCORER DID NOT PERFORM THAT CHECK.\n\n**Provenance:** `disputed` — attributed synthesis of `METR` and `OAI-OV`; the exact prompt, scorer configuration, and harness are not public.\n\n",
+  "title": "Belief and reported deployment differ"
+}

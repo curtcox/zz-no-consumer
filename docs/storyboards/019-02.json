@@ -1,0 +1,67 @@
+{
+  "background": "ink",
+  "intent": "Block dependent steps cannot retrieve their input. Keep the scripted evidence boundary and lettering visible.",
+  "lettering": [
+    {
+      "box": [
+        0.045,
+        0.78,
+        0.91,
+        0.18
+      ]
+    }
+  ],
+  "lettering_mode": "manual",
+  "nodes": [
+    {
+      "asset": "folder",
+      "box": [
+        0.1044,
+        0.2242,
+        0.292744,
+        0.256
+      ],
+      "color": "steel",
+      "focus": true,
+      "label": "DEPENDENCIES",
+      "label_box": [
+        0.09640000000000001,
+        0.4862,
+        0.308744,
+        0.085
+      ]
+    },
+    {
+      "asset": "gate",
+      "box": [
+        0.5,
+        0.2242,
+        0.292744,
+        0.256
+      ],
+      "color": "steel",
+      "focus": true,
+      "label": "EXTERNAL RETRIEVAL",
+      "label_box": [
+        0.492,
+        0.4862,
+        0.308744,
+        0.085
+      ]
+    },
+    {
+      "asset": "boundary",
+      "box": [
+        0.4908,
+        0.0962,
+        0.01656,
+        0.5376
+      ],
+      "color": "amber"
+    }
+  ],
+  "reconstructed": false,
+  "shot": "split",
+  "source": "\n**Frame:** The absent file is referenced by several dependent steps. External retrieval paths are blacked out by the environment boundary.\n\n**Action:** The agent confirms that its own route cannot supply the input.\n\n**Caption:**\n> THIS TASK ALSO DEPENDS ON A FILE THE RUN CANNOT REACH.\n\n**Provenance:** `documented` — `OAI-TR` §III.A.\n\n",
+  "title": "Dependent steps cannot retrieve their input"
+}

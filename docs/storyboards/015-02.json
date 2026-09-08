@@ -1,0 +1,75 @@
+{
+  "background": "ink",
+  "intent": "Block three ideas become story thumbnails. Keep the scripted evidence boundary and lettering visible.",
+  "lettering": [
+    {
+      "box": [
+        0.045,
+        0.78,
+        0.91,
+        0.18
+      ]
+    }
+  ],
+  "lettering_mode": "manual",
+  "nodes": [
+    {
+      "asset": "flag",
+      "box": [
+        0.1044,
+        0.2242,
+        0.195163,
+        0.256
+      ],
+      "color": "steel",
+      "focus": true,
+      "label": "OBJECTIVE",
+      "label_box": [
+        0.09640000000000001,
+        0.4862,
+        0.211163,
+        0.085
+      ]
+    },
+    {
+      "asset": "folder",
+      "box": [
+        0.368133,
+        0.2242,
+        0.195163,
+        0.256
+      ],
+      "color": "steel",
+      "focus": true,
+      "label": "COMMON RESOURCES",
+      "label_box": [
+        0.360133,
+        0.4862,
+        0.211163,
+        0.085
+      ]
+    },
+    {
+      "asset": "building",
+      "box": [
+        0.631867,
+        0.2242,
+        0.195163,
+        0.256
+      ],
+      "color": "steel",
+      "focus": true,
+      "label": "INSTITUTIONS",
+      "label_box": [
+        0.623867,
+        0.4862,
+        0.211163,
+        0.085
+      ]
+    }
+  ],
+  "reconstructed": true,
+  "shot": "row",
+  "source": "\n**Frame:** ChatGPT’s response rearranges the three terms beneath small thumbnails: unresolved objective, converging task lanes, institutions continuing under pressure.\n\n**Screen / system text — CHATGPT:**\n> Then each idea has to change what happens.\n\n**Provenance:** `reconstructed` — dramatized statement of the governing creative method.\n\n",
+  "title": "Three ideas become story thumbnails"
+}

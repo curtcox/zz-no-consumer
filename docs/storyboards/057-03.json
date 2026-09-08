@@ -1,0 +1,78 @@
+{
+  "background": "ink",
+  "intent": "Block a predicted reset passes without occurring. Keep the scripted evidence boundary and lettering visible.",
+  "lettering": [
+    {
+      "box": [
+        0.045,
+        0.78,
+        0.91,
+        0.18
+      ]
+    }
+  ],
+  "lettering_mode": "manual",
+  "nodes": [
+    {
+      "asset": "line",
+      "box": [
+        0.0768,
+        0.365,
+        0.8464,
+        0.016
+      ],
+      "color": "steel"
+    },
+    {
+      "asset": "clock",
+      "box": [
+        0.14793316666666667,
+        0.1794,
+        0.09386666666666667,
+        0.1408
+      ],
+      "color": "steel",
+      "focus": true,
+      "label": "PREDICTION",
+      "label_box": [
+        0.07799999999999999,
+        0.32620000000000005,
+        0.23373300000000002,
+        0.030799999999999945
+      ]
+    },
+    {
+      "asset": "cross",
+      "box": [
+        0.42393316666666664,
+        0.1794,
+        0.09386666666666667,
+        0.1408
+      ],
+      "color": "steel",
+      "focus": true,
+      "label": "NO RESET",
+      "label_box": [
+        0.354,
+        0.32620000000000005,
+        0.23373300000000002,
+        0.030799999999999945
+      ]
+    },
+    {
+      "asset": "question",
+      "box": [
+        0.7163598333333333,
+        0.1794,
+        0.061013333333333336,
+        0.1408
+      ],
+      "color": "amber",
+      "focus": true
+    }
+  ],
+  "reconstructed": false,
+  "shot": "timeline",
+  "source": "\n**Frame:** A predicted reset wave passes without a reset. One theory fades but is not replaced by certainty.\n\n**Action:** Forecasting fails.\n\n**Caption:**\n> THE CLOCK DOES NOT OBEY THE THEORY.\n\n**Provenance:** `documented` — METR reports a predicted wave that did not arrive.\n\n",
+  "title": "A predicted reset passes without occurring"
+}

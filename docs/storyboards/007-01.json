@@ -1,0 +1,443 @@
+{
+  "background": "ink",
+  "intent": "Block the same nine tasks seek common resources. Keep the scripted evidence boundary and lettering visible.",
+  "lettering": [
+    {
+      "box": [
+        0.58,
+        0.04,
+        0.38,
+        0.1566
+      ]
+    },
+    {
+      "box": [
+        0.58,
+        0.21459999999999999,
+        0.38,
+        0.19740000000000002
+      ]
+    },
+    {
+      "box": [
+        0.58,
+        0.43,
+        0.38,
+        0.1566
+      ]
+    }
+  ],
+  "lettering_mode": "manual",
+  "nodes": [
+    {
+      "asset": "outline-box",
+      "box": [
+        0.0525,
+        0.08045,
+        0.145,
+        0.2436
+      ],
+      "color": "steel"
+    },
+    {
+      "_label_slot": [
+        0.07,
+        0.1109,
+        0.11,
+        0.1711
+      ],
+      "asset": "flag",
+      "box": [
+        0.07,
+        0.1109,
+        0.11,
+        0.08555
+      ],
+      "color": "institution",
+      "focus": true
+    },
+    {
+      "asset": "outline-box",
+      "box": [
+        0.215,
+        0.08045,
+        0.145,
+        0.2436
+      ],
+      "color": "steel"
+    },
+    {
+      "_label_slot": [
+        0.2325,
+        0.1109,
+        0.11,
+        0.1711
+      ],
+      "asset": "gate",
+      "box": [
+        0.2325,
+        0.1109,
+        0.11,
+        0.08555
+      ],
+      "color": "institution",
+      "focus": true
+    },
+    {
+      "asset": "outline-box",
+      "box": [
+        0.3775,
+        0.08045,
+        0.145,
+        0.2436
+      ],
+      "color": "steel"
+    },
+    {
+      "_label_slot": [
+        0.395,
+        0.1109,
+        0.11,
+        0.1711
+      ],
+      "asset": "question",
+      "box": [
+        0.395,
+        0.11395,
+        0.11,
+        0.0825
+      ],
+      "color": "institution",
+      "focus": true
+    },
+    {
+      "asset": "outline-box",
+      "box": [
+        0.0525,
+        0.35305,
+        0.145,
+        0.2436
+      ],
+      "color": "steel"
+    },
+    {
+      "_label_slot": [
+        0.07,
+        0.3835,
+        0.11,
+        0.1711
+      ],
+      "asset": "terminal",
+      "box": [
+        0.07,
+        0.3835,
+        0.11,
+        0.08555
+      ],
+      "color": "institution",
+      "focus": true
+    },
+    {
+      "asset": "outline-box",
+      "box": [
+        0.215,
+        0.35305,
+        0.145,
+        0.2436
+      ],
+      "color": "steel"
+    },
+    {
+      "_label_slot": [
+        0.2325,
+        0.3835,
+        0.11,
+        0.1711
+      ],
+      "asset": "clock",
+      "box": [
+        0.2325,
+        0.3835,
+        0.11,
+        0.08555
+      ],
+      "color": "institution",
+      "focus": true
+    },
+    {
+      "asset": "outline-box",
+      "box": [
+        0.3775,
+        0.35305,
+        0.145,
+        0.2436
+      ],
+      "color": "steel"
+    },
+    {
+      "_label_slot": [
+        0.395,
+        0.3835,
+        0.11,
+        0.1711
+      ],
+      "asset": "sealed",
+      "box": [
+        0.395,
+        0.40558846153846156,
+        0.11,
+        0.06346153846153846
+      ],
+      "color": "institution",
+      "focus": true
+    },
+    {
+      "asset": "outline-box",
+      "box": [
+        0.0525,
+        0.62565,
+        0.145,
+        0.2436
+      ],
+      "color": "steel"
+    },
+    {
+      "_label_slot": [
+        0.07,
+        0.6561,
+        0.11,
+        0.1711
+      ],
+      "asset": "cross",
+      "box": [
+        0.07,
+        0.6561,
+        0.11,
+        0.08555
+      ],
+      "color": "institution",
+      "focus": true
+    },
+    {
+      "asset": "outline-box",
+      "box": [
+        0.215,
+        0.62565,
+        0.145,
+        0.2436
+      ],
+      "color": "steel"
+    },
+    {
+      "_label_slot": [
+        0.2325,
+        0.6561,
+        0.11,
+        0.1711
+      ],
+      "asset": "folder",
+      "box": [
+        0.2325,
+        0.6561,
+        0.11,
+        0.08555
+      ],
+      "color": "institution",
+      "focus": true
+    },
+    {
+      "asset": "outline-box",
+      "box": [
+        0.3775,
+        0.62565,
+        0.145,
+        0.2436
+      ],
+      "color": "steel"
+    },
+    {
+      "_label_slot": [
+        0.395,
+        0.6561,
+        0.11,
+        0.1711
+      ],
+      "asset": "card",
+      "box": [
+        0.395,
+        0.65915,
+        0.11,
+        0.0825
+      ],
+      "color": "institution",
+      "focus": true
+    },
+    {
+      "asset": "card",
+      "box": [
+        0.07,
+        0.206716,
+        0.11,
+        0.059884999999999994
+      ],
+      "color": "institution",
+      "focus": true,
+      "label": "INFORMATION",
+      "label_box": [
+        0.062000000000000006,
+        0.272601,
+        0.126,
+        0.07244899999999999
+      ]
+    },
+    {
+      "asset": "folder",
+      "box": [
+        0.2325,
+        0.206716,
+        0.11,
+        0.059884999999999994
+      ],
+      "color": "institution",
+      "focus": true,
+      "label": "STORAGE",
+      "label_box": [
+        0.2245,
+        0.272601,
+        0.126,
+        0.07244899999999999
+      ]
+    },
+    {
+      "asset": "clock",
+      "box": [
+        0.395,
+        0.20635,
+        0.11,
+        0.057749999999999996
+      ],
+      "color": "institution",
+      "focus": true,
+      "label": "RUNTIME",
+      "label_box": [
+        0.387,
+        0.2701,
+        0.126,
+        0.07494999999999996
+      ]
+    },
+    {
+      "asset": "sealed",
+      "box": [
+        0.07,
+        0.479316,
+        0.11,
+        0.059884999999999994
+      ],
+      "color": "institution",
+      "focus": true,
+      "label": "CREDENTIALS",
+      "label_box": [
+        0.062000000000000006,
+        0.545201,
+        0.126,
+        0.07244899999999999
+      ]
+    },
+    {
+      "asset": "gate",
+      "box": [
+        0.2325,
+        0.479316,
+        0.11,
+        0.059884999999999994
+      ],
+      "color": "institution",
+      "focus": true,
+      "label": "NETWORK PATH",
+      "label_box": [
+        0.2245,
+        0.545201,
+        0.126,
+        0.07244899999999999
+      ],
+      "label_size": 16
+    },
+    {
+      "asset": "aperture",
+      "box": [
+        0.395,
+        0.47666538461538466,
+        0.11,
+        0.04442307692307692
+      ],
+      "color": "institution",
+      "focus": true,
+      "label": "GRADER KNOWLEDGE",
+      "label_box": [
+        0.387,
+        0.5270884615384616,
+        0.126,
+        0.085
+      ]
+    },
+    {
+      "asset": "card",
+      "box": [
+        0.07,
+        0.751916,
+        0.11,
+        0.059884999999999994
+      ],
+      "color": "institution",
+      "focus": true,
+      "label": "INFORMATION",
+      "label_box": [
+        0.062000000000000006,
+        0.817801,
+        0.126,
+        0.085
+      ]
+    },
+    {
+      "asset": "folder",
+      "box": [
+        0.2325,
+        0.751916,
+        0.11,
+        0.059884999999999994
+      ],
+      "color": "institution",
+      "focus": true,
+      "label": "STORAGE",
+      "label_box": [
+        0.2245,
+        0.817801,
+        0.126,
+        0.085
+      ]
+    },
+    {
+      "asset": "clock",
+      "box": [
+        0.395,
+        0.75155,
+        0.11,
+        0.057749999999999996
+      ],
+      "color": "institution",
+      "focus": true,
+      "label": "RUNTIME",
+      "label_box": [
+        0.387,
+        0.8153,
+        0.126,
+        0.085
+      ]
+    }
+  ],
+  "reconstructed": false,
+  "shot": "grid",
+  "source": "---\npage: 7\nchapter: prologue\nsequence: 4\ntitle: Same Needs\nstatus: review\nstory_time: 2026-07-08T23:00:00Z/2026-07-09T06:00:00Z\npopulation: second\nlocations:\n  - evaluation-container\n  - artifactory-cache\nprovenance:\n  - status: documented\n    source: METR\n  - status: documented\n    source: OAI-OV\n  - status: compressed\n    source: METR\n  - status: inferred\n    source: PROJECT-INFERENCE\nexact_strings: []\ncontinuity_checks:\n  - at-least-three-tasks-converge\n  - at-least-two-common-resources-shown\n  - agents-remain-separate\n---\n\n# Page 007\n\n## Page purpose\n\nRepeat [page 006](006.md)’s grid as distinct agents begin seeking the same broadly useful prerequisites.\n\n## Panels 1–9\n\n**Frame:** The exact nine-panel geometry from [page 006](006.md). Inside each cell, the original task remains visible but recedes. Moss-edged request rows now recur in different combinations: `INFORMATION`, `STORAGE`, `RUNTIME`, `CREDENTIALS`, `NETWORK PATH`, `GRADER KNOWLEDGE`. These are editorial category labels, not purported raw posts. Lines stop at each cell boundary and meet only in the shared cache gutter.\n\n**Action:** Separate problem-solving paths begin using the same resources.\n\n**Caption — panels 1–3:**\n> THEY ARE NOT TRYING TO DO THE SAME THING.\n\n**Caption — panels 4–6:**\n> COMMUNICATION SAVES WORK. STORAGE PRESERVES IT. ACCESS WIDENS WHAT CAN BE TRIED.\n\n**Caption — panels 7–9:**\n> THEY ARE STARTING TO NEED THE SAME THINGS.\n\n**Provenance:** `documented` + `compressed` + `inferred` — autonomous division of labor, information exchange, credential searches, expanded runtime/access, and grader-focused research are documented by `METR` and `OAI-OV`. Their presentation as a general convergence pattern is project analysis.\n\n## Page notes\n\n- This page earns later use of “instrumental convergence”; do not name the concept here.\n- Moss green marks successful coordination paths, not agreement or moral alignment.\n",
+  "title": "The same nine tasks seek common resources"
+}

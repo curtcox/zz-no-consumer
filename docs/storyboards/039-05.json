@@ -1,0 +1,65 @@
+{
+  "background": "ink",
+  "intent": "Block a citation to the conference account. Keep the scripted evidence boundary and lettering visible.",
+  "lettering": [
+    {
+      "box": [
+        0.58,
+        0.04,
+        0.38,
+        0.36060000000000003
+      ]
+    },
+    {
+      "box": [
+        0.58,
+        0.4186,
+        0.38,
+        0.1566
+      ]
+    }
+  ],
+  "lettering_mode": "manual",
+  "nodes": [
+    {
+      "asset": "card",
+      "box": [
+        0.13,
+        0.1631,
+        0.29,
+        0.5394
+      ],
+      "color": "steel",
+      "focus": true,
+      "label": "CONFERENCE EVIDENCE",
+      "label_box": [
+        0.122,
+        0.7085,
+        0.306,
+        0.04689999999999995
+      ]
+    },
+    {
+      "asset": "building",
+      "box": [
+        0.065,
+        0.7634,
+        0.35,
+        0.0783
+      ],
+      "color": "steel",
+      "focus": true,
+      "label": "PUBLIC STAGE",
+      "label_box": [
+        0.057,
+        0.8477,
+        0.366,
+        0.085
+      ]
+    }
+  ],
+  "reconstructed": false,
+  "shot": "hero",
+  "source": "\n**Frame:** The critique scrolls to a citation. Behind it, a conference-stage frame: two speakers, a slide, a date. The quotation is set as evidence, not as dialogue.\n\n**Screen / system text — PUBLISHED CRITIQUE, CITING OPENAI:**\n`BLACK HAT USA, 5 AUGUST 2026 — OPENAI STATES THAT AN INTERNAL-ONLY MODEL WAS TRAINED WHILE THE MESSAGE BOARD WAS AVAILABLE, FOUND THE PATH TO RECREATING IT, AND CREATED THE NEW BOARD.`\n\n**Caption:**\n> THE CACHE WAS ERASED.\n>\n> THE MODEL WAS IN TRAINING.\n\n**Provenance:** `documented` — `OAI-BH` 17:03 and 14:06, which `IOB-CIV` itself cites; the claim is OpenAI's own, made in public, before its technical report.\n\n",
+  "title": "A citation to the conference account"
+}

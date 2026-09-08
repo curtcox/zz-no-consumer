@@ -1,0 +1,78 @@
+{
+  "background": "ink",
+  "intent": "Block a later dated external path. Keep the scripted evidence boundary and lettering visible.",
+  "lettering": [
+    {
+      "box": [
+        0.045,
+        0.78,
+        0.91,
+        0.18
+      ]
+    }
+  ],
+  "lettering_mode": "manual",
+  "nodes": [
+    {
+      "asset": "line",
+      "box": [
+        0.0768,
+        0.365,
+        0.8464,
+        0.016
+      ],
+      "color": "steel"
+    },
+    {
+      "asset": "clock",
+      "box": [
+        0.14793316666666667,
+        0.1794,
+        0.09386666666666667,
+        0.1408
+      ],
+      "color": "steel",
+      "focus": true,
+      "label": "MAY",
+      "label_box": [
+        0.07799999999999999,
+        0.32620000000000005,
+        0.23373300000000002,
+        0.030799999999999945
+      ]
+    },
+    {
+      "asset": "boundary",
+      "box": [
+        0.46486649999999996,
+        0.1794,
+        0.012,
+        0.1408
+      ],
+      "color": "paper",
+      "focus": true
+    },
+    {
+      "asset": "clock",
+      "box": [
+        0.6999331666666667,
+        0.1794,
+        0.09386666666666667,
+        0.1408
+      ],
+      "color": "steel",
+      "focus": true,
+      "label": "LATER",
+      "label_box": [
+        0.63,
+        0.32620000000000005,
+        0.23373300000000002,
+        0.030799999999999945
+      ]
+    }
+  ],
+  "reconstructed": false,
+  "shot": "timeline",
+  "source": "\n**Frame:** A wide dossier gutter separates May from a new timestamp. The prior external path is redrawn without any agent identity carried across.\n\n**Screen / system text:**\n`4 JUNE 2026 — 17:43 UTC`\n\n**Provenance:** `documented` + `reconstructed` — timestamp and arbitrary-destination SSRF are sourced.\n\n",
+  "title": "A later dated external path"
+}

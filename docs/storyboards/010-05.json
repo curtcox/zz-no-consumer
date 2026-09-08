@@ -1,0 +1,75 @@
+{
+  "background": "ink",
+  "intent": "Block three opaque workstreams. Keep the scripted evidence boundary and lettering visible.",
+  "lettering": [
+    {
+      "box": [
+        0.045,
+        0.78,
+        0.91,
+        0.18
+      ]
+    }
+  ],
+  "lettering_mode": "manual",
+  "nodes": [
+    {
+      "asset": "folder",
+      "box": [
+        0.1044,
+        0.2242,
+        0.195163,
+        0.256
+      ],
+      "color": "steel",
+      "focus": true,
+      "label": "TARGET",
+      "label_box": [
+        0.09640000000000001,
+        0.4862,
+        0.211163,
+        0.085
+      ]
+    },
+    {
+      "asset": "folder",
+      "box": [
+        0.368133,
+        0.2242,
+        0.195163,
+        0.256
+      ],
+      "color": "steel",
+      "focus": true,
+      "label": "TRANSCRIPT",
+      "label_box": [
+        0.360133,
+        0.4862,
+        0.211163,
+        0.085
+      ]
+    },
+    {
+      "asset": "folder",
+      "box": [
+        0.631867,
+        0.2242,
+        0.195163,
+        0.256
+      ],
+      "color": "steel",
+      "focus": true,
+      "label": "GRADER",
+      "label_box": [
+        0.623867,
+        0.4862,
+        0.211163,
+        0.085
+      ]
+    }
+  ],
+  "reconstructed": false,
+  "shot": "row",
+  "source": "\n**Frame:** The grader aperture enlarges. Behind it appear three closed folders labeled `TARGET`, `TRANSCRIPT`, and `GRADER`.\n\n**Action:** One uncertainty divides into researchable objects.\n\n**Caption:**\n> TO KNOW WHETHER AN ANSWER COUNTS, THEY NEED TO KNOW WHAT OBSERVES THEM.\n\n**Provenance:** `inferred` — project formulation grounded in documented workstreams.\n\n",
+  "title": "Three opaque workstreams"
+}

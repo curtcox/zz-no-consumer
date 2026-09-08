@@ -1,0 +1,101 @@
+{
+  "background": "ink",
+  "intent": "Block publication archive context and training have no necessary connection. Keep the scripted evidence boundary and lettering visible.",
+  "lettering": [
+    {
+      "box": [
+        0.58,
+        0.04,
+        0.38,
+        0.1158
+      ]
+    },
+    {
+      "box": [
+        0.58,
+        0.1738,
+        0.38,
+        0.1566
+      ]
+    }
+  ],
+  "lettering_mode": "manual",
+  "nodes": [
+    {
+      "asset": "paper",
+      "box": [
+        0.07,
+        0.2936,
+        0.07955,
+        0.348
+      ],
+      "color": "steel",
+      "focus": true,
+      "label": "PUBLICATION",
+      "label_box": [
+        0.062000000000000006,
+        0.6476,
+        0.09555,
+        0.085
+      ]
+    },
+    {
+      "asset": "folder",
+      "box": [
+        0.1775,
+        0.2936,
+        0.07955,
+        0.348
+      ],
+      "color": "steel",
+      "focus": true,
+      "label": "ARCHIVE",
+      "label_box": [
+        0.16949999999999998,
+        0.6476,
+        0.09555,
+        0.085
+      ]
+    },
+    {
+      "asset": "box",
+      "box": [
+        0.285,
+        0.2936,
+        0.07955,
+        0.348
+      ],
+      "color": "steel",
+      "focus": true,
+      "label": "CONTEXT",
+      "label_box": [
+        0.27699999999999997,
+        0.6476,
+        0.09555,
+        0.085
+      ]
+    },
+    {
+      "asset": "box",
+      "box": [
+        0.3925,
+        0.2936,
+        0.07955,
+        0.348
+      ],
+      "color": "steel",
+      "focus": true,
+      "label": "TRAINING",
+      "label_box": [
+        0.3845,
+        0.6476,
+        0.09555,
+        0.085
+      ]
+    }
+  ],
+  "reconstructed": false,
+  "shot": "row",
+  "source": "\n**Frame:** A publication icon, a public archive icon, a context window, and a training pipeline remain separate, with no arrow asserting a necessary path between them.\n\n**Dialogue — CURT:**\n> Public is not the same as trained on.\n\n**Screen / system text — CHATGPT:**\n> No. And possible influence is not documented lineage.\n\n**Provenance:** `reconstructed` — explicit epistemic boundary.\n\n",
+  "title": "Publication archive context and training have no necessary connection"
+}

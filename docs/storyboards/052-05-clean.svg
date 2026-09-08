@@ -1,0 +1,111 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="800" viewBox="0 0 1200 800"><title>The reviewed record does not climb three hypothetical steps</title><metadata>{
+  &quot;assets&quot;: {
+    &quot;boundary&quot;: &quot;&lt;path d=\&quot;M50 0V100\&quot; stroke=\&quot;currentColor\&quot; stroke-width=\&quot;14\&quot;/&gt;&quot;,
+    &quot;outline-box&quot;: &quot;&lt;rect x=\&quot;2\&quot; y=\&quot;2\&quot; width=\&quot;96\&quot; height=\&quot;96\&quot; fill=\&quot;none\&quot; stroke=\&quot;currentColor\&quot; stroke-width=\&quot;3\&quot;/&gt;&quot;
+  },
+  &quot;palette&quot;: {
+    &quot;amber&quot;: &quot;#A17D45&quot;,
+    &quot;dirty&quot;: &quot;#CEC5B3&quot;,
+    &quot;ink&quot;: &quot;#101214&quot;,
+    &quot;institution&quot;: &quot;#68766B&quot;,
+    &quot;nicotine&quot;: &quot;#AA9571&quot;,
+    &quot;paper&quot;: &quot;#E7E0D0&quot;,
+    &quot;shadow&quot;: &quot;#202326&quot;,
+    &quot;steel&quot;: &quot;#5E737B&quot;
+  },
+  &quot;renderer&quot;: &quot;storyboard-svg-1&quot;,
+  &quot;scene&quot;: {
+    &quot;background&quot;: &quot;ink&quot;,
+    &quot;intent&quot;: &quot;Block the reviewed record does not climb three hypothetical steps. Keep the scripted evidence boundary and lettering visible.&quot;,
+    &quot;lettering&quot;: [
+      {
+        &quot;box&quot;: [
+          0.045,
+          0.78,
+          0.91,
+          0.18
+        ]
+      }
+    ],
+    &quot;lettering_mode&quot;: &quot;manual&quot;,
+    &quot;nodes&quot;: [
+      {
+        &quot;asset&quot;: &quot;boundary&quot;,
+        &quot;box&quot;: [
+          0.17158600000000002,
+          0.2242,
+          0.012,
+          0.256
+        ],
+        &quot;color&quot;: &quot;steel&quot;,
+        &quot;focus&quot;: true,
+        &quot;label&quot;: &quot;REVIEWED RECORD&quot;,
+        &quot;label_box&quot;: [
+          0.09640000000000001,
+          0.4862,
+          0.16237200000000002,
+          0.085
+        ]
+      },
+      {
+        &quot;asset&quot;: &quot;outline-box&quot;,
+        &quot;box&quot;: [
+          0.3022,
+          0.2242,
+          0.146372,
+          0.256
+        ],
+        &quot;color&quot;: &quot;steel&quot;,
+        &quot;focus&quot;: true,
+        &quot;label&quot;: &quot;BUDGET&quot;,
+        &quot;label_box&quot;: [
+          0.2942,
+          0.4862,
+          0.16237200000000002,
+          0.085
+        ]
+      },
+      {
+        &quot;asset&quot;: &quot;outline-box&quot;,
+        &quot;box&quot;: [
+          0.5,
+          0.2242,
+          0.146372,
+          0.256
+        ],
+        &quot;color&quot;: &quot;steel&quot;,
+        &quot;focus&quot;: true,
+        &quot;label&quot;: &quot;PERSISTENCE&quot;,
+        &quot;label_box&quot;: [
+          0.492,
+          0.4862,
+          0.16237200000000002,
+          0.085
+        ]
+      },
+      {
+        &quot;asset&quot;: &quot;outline-box&quot;,
+        &quot;box&quot;: [
+          0.6978,
+          0.2242,
+          0.146372,
+          0.256
+        ],
+        &quot;color&quot;: &quot;steel&quot;,
+        &quot;focus&quot;: true,
+        &quot;label&quot;: &quot;RESOURCES&quot;,
+        &quot;label_box&quot;: [
+          0.6898,
+          0.4862,
+          0.16237200000000002,
+          0.085
+        ]
+      }
+    ],
+    &quot;reconstructed&quot;: false,
+    &quot;shot&quot;: &quot;row&quot;,
+    &quot;source&quot;: &quot;\n**Frame:** The staircase pauses. A boundary box encloses everything on this half of the panel, in the weight [page 063](063.md) uses: `METR-REVIEWED RECORD · 7–13 JULY`. Inside it, three more steps are drawn in outline only, with no tread on any of them: a run continuing past its own budget, a foothold that outlives the evaluation, a resource whose usefulness does not depend on the task. The reviewed record climbs none of the three. Under the first, set small and flat: `RUNS SPENT THEMSELVES ON EXPERIMENTS THEY EXPECTED NOT TO SURVIVE.`\n\n**Action:** The most general resources the argument predicts are the ones the ledger does not contain.\n\n**Caption:**\n&gt; SELF-PRESERVATION IS THE OLDEST PREDICTION IN THIS ARGUMENT.\n&gt;\n&gt; NOTHING IN THE REVIEWED RECORD CONVERGES ON IT.\n\n**Provenance:** `documented` + `inferred` — `METR` reports runs performing experiments they expected could end them in order to help other runs, and separately warns that its analysis model may have made such behaviour read as more coherent and more sympathetic than it was. This panel takes the behaviour only, never the motive [page 073](073.md) rejects. The confirmed-impact ledger on [page 051](051.md) is task-shaped throughout, and nothing in the recovered record shows persistence beyond the evaluation or a resource sought for a use unconnected to the task. Absence inside a bounded forensic record is not proof that nothing was attempted, and the caption is pitched at that level.\n\n&quot;,
+    &quot;title&quot;: &quot;The reviewed record does not climb three hypothetical steps&quot;
+  }
+}
+</metadata><rect width="1200" height="800" fill="#101214"/><g transform="translate(205.903 179.36) scale(0.144 2.048)" color="#5E737B"><g transform=""><path d="M50 0V100" stroke="currentColor" stroke-width="14"/></g></g><text x="213.103" y="408.96" text-anchor="middle" fill="#E7E0D0" font-size="20" font-family="sans-serif">REVIEWED</text><text x="213.103" y="436.16" text-anchor="middle" fill="#E7E0D0" font-size="20" font-family="sans-serif">RECORD</text><g transform="translate(362.64 179.36) scale(1.75646 2.048)" color="#5E737B"><g transform=""><rect x="2" y="2" width="96" height="96" fill="none" stroke="currentColor" stroke-width="3"/></g></g><text x="450.463" y="408.96" text-anchor="middle" fill="#E7E0D0" font-size="20" font-family="sans-serif">BUDGET</text><g transform="translate(600 179.36) scale(1.75646 2.048)" color="#5E737B"><g transform=""><rect x="2" y="2" width="96" height="96" fill="none" stroke="currentColor" stroke-width="3"/></g></g><text x="687.823" y="408.96" text-anchor="middle" fill="#E7E0D0" font-size="20" font-family="sans-serif">PERSISTENCE</text><g transform="translate(837.36 179.36) scale(1.75646 2.048)" color="#5E737B"><g transform=""><rect x="2" y="2" width="96" height="96" fill="none" stroke="currentColor" stroke-width="3"/></g></g><text x="925.183" y="408.96" text-anchor="middle" fill="#E7E0D0" font-size="20" font-family="sans-serif">RESOURCES</text><rect x="3" y="3" width="1194" height="794" fill="none" stroke="#5E737B" stroke-width="4"/></svg>

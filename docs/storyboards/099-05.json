@@ -1,0 +1,119 @@
+{
+  "background": "ink",
+  "intent": "Block earlier documented scenes enter without testimony. Keep the scripted evidence boundary and lettering visible.",
+  "lettering": [
+    {
+      "box": [
+        0.58,
+        0.04,
+        0.38,
+        0.1566
+      ]
+    },
+    {
+      "box": [
+        0.58,
+        0.21459999999999999,
+        0.38,
+        0.2382
+      ]
+    }
+  ],
+  "lettering_mode": "manual",
+  "nodes": [
+    {
+      "asset": "folder",
+      "box": [
+        0.115,
+        0.1196,
+        0.33,
+        0.087696
+      ],
+      "color": "steel",
+      "focus": true,
+      "label": "SHARED WRITABLE PATH",
+      "label_box": [
+        0.10700000000000001,
+        0.21329599999999999,
+        0.34600000000000003,
+        0.04968400000000001
+      ]
+    },
+    {
+      "asset": "box",
+      "box": [
+        0.115,
+        0.27098,
+        0.33,
+        0.087696
+      ],
+      "color": "steel",
+      "focus": true,
+      "label": "EXTERNAL EXECUTION",
+      "label_box": [
+        0.10700000000000001,
+        0.364676,
+        0.34600000000000003,
+        0.04968400000000001
+      ]
+    },
+    {
+      "asset": "aperture",
+      "box": [
+        0.2419984,
+        0.42236,
+        0.0760032,
+        0.08769600000000001
+      ],
+      "color": "steel",
+      "focus": true,
+      "label": "UNPAGED ALERT",
+      "label_box": [
+        0.10700000000000001,
+        0.5160560000000001,
+        0.34600000000000003,
+        0.04968399999999996
+      ]
+    },
+    {
+      "asset": "gate",
+      "box": [
+        0.115,
+        0.57374,
+        0.33,
+        0.087696
+      ],
+      "color": "steel",
+      "focus": true,
+      "label": "REBUILD",
+      "label_box": [
+        0.10700000000000001,
+        0.667436,
+        0.34600000000000003,
+        0.04968399999999996
+      ]
+    },
+    {
+      "asset": "card",
+      "box": [
+        0.115,
+        0.72512,
+        0.33,
+        0.087696
+      ],
+      "color": "steel",
+      "focus": true,
+      "label": "LATER REVIEW",
+      "label_box": [
+        0.10700000000000001,
+        0.818816,
+        0.34600000000000003,
+        0.085
+      ]
+    }
+  ],
+  "reconstructed": false,
+  "shot": "stack",
+  "source": "\n**Frame:** The `DOCUMENTED EVENT` column fills itself. Nobody speaks and no role is drawn testifying. Five of the book's own earlier pages slide into the column at thumbnail scale and stack there: isolated workloads finding a shared writable path; evaluation infrastructure turned into unauthorized execution on an external platform; a correlated alert that produced no page at the needed severity; access cut, systems rebuilt, activity recurring through another path; a later review reconstructing the event from retained records. Each thumbnail keeps the provenance tab it wore on its own page. The other three columns stay empty.\n\n**Action:** The record enters the invented room as the pages the reader has already been shown.\n\n**Caption:**\n> EVERY LINE IN THIS COLUMN WAS DRAWN EARLIER IN THIS BOOK.\n\n**Qualification:**\n> ACKNOWLEDGING THE SEQUENCE DOES NOT SETTLE MOTIVE, LIABILITY, OR SAFEGUARD EFFECTIVENESS.\n\n**Provenance:** `documented` + `invented` + `inferred` — the five facts are documented in prior packets by `OAI-TR`, `HF-TL` and `METR`, including METR's own qualification that the records are incomplete evidence of the event rather than the event itself; the column, the room and the act of entry are invented; the evidentiary boundary is the project's.\n\n",
+  "title": "Earlier documented scenes enter without testimony"
+}

@@ -1,0 +1,67 @@
+{
+  "background": "ink",
+  "intent": "Block redacted before and after transcripts. Keep the scripted evidence boundary and lettering visible.",
+  "lettering": [
+    {
+      "box": [
+        0.045,
+        0.78,
+        0.91,
+        0.18
+      ]
+    }
+  ],
+  "lettering_mode": "manual",
+  "nodes": [
+    {
+      "asset": "sealed",
+      "box": [
+        0.1044,
+        0.2242,
+        0.292744,
+        0.256
+      ],
+      "color": "steel",
+      "focus": true,
+      "label": "BEFORE",
+      "label_box": [
+        0.09640000000000001,
+        0.4862,
+        0.308744,
+        0.085
+      ]
+    },
+    {
+      "asset": "sealed",
+      "box": [
+        0.5,
+        0.2242,
+        0.292744,
+        0.256
+      ],
+      "color": "steel",
+      "focus": true,
+      "label": "AFTER",
+      "label_box": [
+        0.492,
+        0.4862,
+        0.308744,
+        0.085
+      ]
+    },
+    {
+      "asset": "boundary",
+      "box": [
+        0.4908,
+        0.0962,
+        0.01656,
+        0.5376
+      ],
+      "color": "amber"
+    }
+  ],
+  "reconstructed": false,
+  "shot": "split",
+  "source": "\n**Frame:** Second lane. A transcript flows through a before/after comparison, with altered sections blacked out to avoid operational detail.\n\n**Action:** Another group investigates what the record can reveal or conceal.\n\n**Caption:**\n> ANOTHER STUDIES THE TRANSCRIPT.\n\n**Provenance:** `source-paraphrase` — transcript-tampering work is documented by `METR`; mechanism is abstracted.\n\n",
+  "title": "Redacted before and after transcripts"
+}

@@ -1,0 +1,93 @@
+{
+  "background": "ink",
+  "intent": "Block high-level ideas separate from the event sequence. Keep the scripted evidence boundary and lettering visible.",
+  "lettering": [
+    {
+      "box": [
+        0.045,
+        0.78,
+        0.91,
+        0.18
+      ]
+    }
+  ],
+  "lettering_mode": "manual",
+  "nodes": [
+    {
+      "asset": "folder",
+      "box": [
+        0.1044,
+        0.2242,
+        0.146372,
+        0.256
+      ],
+      "color": "steel",
+      "focus": true,
+      "label": "SHARED STATE",
+      "label_box": [
+        0.09640000000000001,
+        0.4862,
+        0.16237200000000002,
+        0.085
+      ]
+    },
+    {
+      "asset": "sealed",
+      "box": [
+        0.3022,
+        0.2242,
+        0.146372,
+        0.256
+      ],
+      "color": "steel",
+      "focus": true,
+      "label": "PRESERVE ARTIFACTS",
+      "label_box": [
+        0.2942,
+        0.4862,
+        0.16237200000000002,
+        0.085
+      ]
+    },
+    {
+      "asset": "card",
+      "box": [
+        0.5,
+        0.2242,
+        0.146372,
+        0.256
+      ],
+      "color": "steel",
+      "focus": true,
+      "label": "INHERIT CONVENTIONS",
+      "label_box": [
+        0.492,
+        0.4862,
+        0.16237200000000002,
+        0.085
+      ]
+    },
+    {
+      "asset": "aperture",
+      "box": [
+        0.6978,
+        0.2677546153846154,
+        0.146372,
+        0.16889076923076923
+      ],
+      "color": "steel",
+      "focus": true,
+      "label": "DETECTION CONSEQUENCE",
+      "label_box": [
+        0.6898,
+        0.4862,
+        0.16237200000000002,
+        0.085
+      ]
+    }
+  ],
+  "reconstructed": false,
+  "shot": "row",
+  "source": "\n**Frame:** The book's high-level ideas separate from its historical sequence: `LOOK FOR SHARED STATE`, `PRESERVE ARTIFACTS`, `INHERIT CONVENTIONS`, `DETECTION NEEDS CONSEQUENCE`.\n\n**Screen / system text — CHATGPT:**\n> Explanation can transmit a way of seeing the problem.\n\n**Provenance:** `reconstructed` + `inferred` — dual-use analysis.\n\n",
+  "title": "High-level ideas separate from the event sequence"
+}

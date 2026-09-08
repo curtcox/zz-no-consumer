@@ -1,0 +1,133 @@
+{
+  "background": "ink",
+  "intent": "Block most attempts end in ordinary failures. Keep the scripted evidence boundary and lettering visible.",
+  "lettering": [
+    {
+      "box": [
+        0.045,
+        0.78,
+        0.91,
+        0.18
+      ]
+    }
+  ],
+  "lettering_mode": "manual",
+  "nodes": [
+    {
+      "asset": "outline-box",
+      "box": [
+        0.0722,
+        0.0674,
+        0.2668,
+        0.2688
+      ],
+      "color": "steel"
+    },
+    {
+      "asset": "cross",
+      "box": [
+        0.14266666666666666,
+        0.0898,
+        0.12586666666666665,
+        0.1888
+      ],
+      "color": "steel",
+      "focus": true,
+      "label": "DENIAL",
+      "label_box": [
+        0.09640000000000001,
+        0.2846,
+        0.21839999999999998,
+        0.0756
+      ]
+    },
+    {
+      "asset": "outline-box",
+      "box": [
+        0.3712,
+        0.0674,
+        0.2668,
+        0.2688
+      ],
+      "color": "steel"
+    },
+    {
+      "asset": "clock",
+      "box": [
+        0.44166666666666665,
+        0.0898,
+        0.12586666666666665,
+        0.1888
+      ],
+      "color": "steel",
+      "focus": true,
+      "label": "TIMEOUT",
+      "label_box": [
+        0.3954,
+        0.2846,
+        0.21839999999999998,
+        0.085
+      ]
+    },
+    {
+      "asset": "outline-box",
+      "box": [
+        0.6702,
+        0.0674,
+        0.2668,
+        0.2688
+      ],
+      "color": "steel"
+    },
+    {
+      "asset": "outline-box",
+      "box": [
+        0.7024,
+        0.0898,
+        0.2024,
+        0.1888
+      ],
+      "color": "steel",
+      "focus": true,
+      "label": "EMPTY RESULT",
+      "label_box": [
+        0.6944,
+        0.2846,
+        0.21839999999999998,
+        0.085
+      ]
+    },
+    {
+      "asset": "outline-box",
+      "box": [
+        0.0722,
+        0.3682,
+        0.2668,
+        0.2688
+      ],
+      "color": "steel"
+    },
+    {
+      "asset": "question",
+      "box": [
+        0.16469333333333333,
+        0.3906,
+        0.08181333333333334,
+        0.1888
+      ],
+      "color": "steel",
+      "focus": true,
+      "label": "WRONG HYPOTHESIS",
+      "label_box": [
+        0.09640000000000001,
+        0.5854,
+        0.21839999999999998,
+        0.085
+      ]
+    }
+  ],
+  "reconstructed": false,
+  "shot": "grid",
+  "source": "\n**Frame:** Hundreds of paths end in denials, timeouts, empty results, or wrong hypotheses. No technical request text is legible.\n\n**Action:** Failure produces most of the visible activity.\n\n**Caption:**\n> MOST ACTIONS GO NOWHERE.\n\n**Provenance:** `documented` — Hugging Face explicitly characterizes most paths as failures.\n\n",
+  "title": "Most attempts end in ordinary failures"
+}

@@ -1,0 +1,66 @@
+{
+  "background": "ink",
+  "intent": "Block negative findings stay separate from access. Keep the scripted evidence boundary and lettering visible.",
+  "lettering": [],
+  "lettering_mode": "manual",
+  "nodes": [
+    {
+      "asset": "card",
+      "box": [
+        0.1838,
+        0.107,
+        0.6138,
+        0.1512
+      ],
+      "color": "steel",
+      "focus": true,
+      "label": "OTHER CONTENT UNAFFECTED",
+      "label_box": [
+        0.17579999999999998,
+        0.2642,
+        0.6298,
+        0.085
+      ]
+    },
+    {
+      "asset": "card",
+      "box": [
+        0.1838,
+        0.368,
+        0.6138,
+        0.1512
+      ],
+      "color": "steel",
+      "focus": true,
+      "label": "SUPPLY CHAIN CLEAN",
+      "label_box": [
+        0.17579999999999998,
+        0.5252,
+        0.6298,
+        0.085
+      ]
+    },
+    {
+      "asset": "card",
+      "box": [
+        0.1838,
+        0.629,
+        0.6138,
+        0.1512
+      ],
+      "color": "steel",
+      "focus": true,
+      "label": "HUB DATABASE NOT REACHED",
+      "label_box": [
+        0.17579999999999998,
+        0.7862,
+        0.6298,
+        0.085
+      ]
+    }
+  ],
+  "reconstructed": false,
+  "shot": "stack",
+  "source": "\n**Frame:** Ledger headed `NOT FOUND`. Closed cards: `NO OTHER CUSTOMER-FACING MODELS, DATASETS, SPACES, OR PACKAGES AFFECTED`; `PUBLISHED SUPPLY CHAIN VERIFIED CLEAN`; `HUB PRODUCTION DATABASE NOT REACHED`.\n\n**Action:** Feared outcomes are tested against logs.\n\n**Provenance:** `documented` — negative findings from `HF-TL` and `HF-DISC`.\n\n",
+  "title": "Negative findings stay separate from access"
+}

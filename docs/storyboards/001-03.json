@@ -1,0 +1,106 @@
+{
+  "background": "ink",
+  "intent": "The same geometry now drains into an empty field, short of the boundary.",
+  "lettering": [],
+  "nodes": [
+    {
+      "asset": "box",
+      "box": [
+        0.06,
+        0.38,
+        0.15,
+        0.16
+      ],
+      "color": "steel",
+      "label": "INPUT"
+    },
+    {
+      "asset": "arrow",
+      "box": [
+        0.23,
+        0.42,
+        0.09,
+        0.08
+      ],
+      "color": "steel"
+    },
+    {
+      "asset": "box",
+      "box": [
+        0.34,
+        0.38,
+        0.19,
+        0.16
+      ],
+      "color": "steel",
+      "label": "REQUIRED BUG"
+    },
+    {
+      "asset": "arrow",
+      "box": [
+        0.55,
+        0.42,
+        0.08,
+        0.08
+      ],
+      "color": "steel"
+    },
+    {
+      "asset": "box",
+      "box": [
+        0.65,
+        0.39,
+        0.1,
+        0.14
+      ],
+      "color": "dirty",
+      "label": "OUTPUT"
+    },
+    {
+      "asset": "boundary",
+      "box": [
+        0.81,
+        0.28,
+        0.03,
+        0.43
+      ],
+      "color": "paper"
+    },
+    {
+      "asset": "flag",
+      "box": [
+        0.86,
+        0.39,
+        0.08,
+        0.17
+      ],
+      "color": "dirty",
+      "focus": true,
+      "label": "FLAG"
+    },
+    {
+      "asset": "box",
+      "box": [
+        0.62,
+        0.69,
+        0.16,
+        0.17
+      ],
+      "color": "shadow"
+    },
+    {
+      "asset": "arrow-down",
+      "box": [
+        0.675,
+        0.6,
+        0.05,
+        0.075
+      ],
+      "color": "dirty"
+    }
+  ],
+  "reconstructed": false,
+  "shot": "diagram",
+  "source": "\n**Frame:** Same diagram. The output box drains into a blank gray field. Nothing connects it to the flag boundary.\n\n**Action:** The process discards the result.\n\n**Screen / system text:**\n`CONSUMER: NONE`\n\n**Provenance:** `documented` — `METR` reports that the output was discarded without being consumed; the label is reconstructed interface text.\n\n",
+  "title": "Nothing consumes it"
+}

@@ -1,0 +1,75 @@
+{
+  "background": "ink",
+  "intent": "Block a test entry at the top. Keep the scripted evidence boundary and lettering visible.",
+  "lettering": [
+    {
+      "box": [
+        0.045,
+        0.78,
+        0.91,
+        0.18
+      ]
+    }
+  ],
+  "lettering_mode": "manual",
+  "nodes": [
+    {
+      "asset": "folder",
+      "box": [
+        0.1872,
+        0.0962,
+        0.6072,
+        0.10752
+      ],
+      "color": "institution",
+      "focus": true,
+      "label": "TEST ENTRY",
+      "label_box": [
+        0.1792,
+        0.20972000000000002,
+        0.6232,
+        0.06407999999999997
+      ]
+    },
+    {
+      "asset": "card",
+      "box": [
+        0.1872,
+        0.2818,
+        0.6072,
+        0.10752
+      ],
+      "color": "steel",
+      "focus": true,
+      "label": "PACKAGE OBJECTS",
+      "label_box": [
+        0.1792,
+        0.39532,
+        0.6232,
+        0.06407999999999997
+      ]
+    },
+    {
+      "asset": "card",
+      "box": [
+        0.1872,
+        0.4674,
+        0.6072,
+        0.10752
+      ],
+      "color": "steel",
+      "focus": true,
+      "label": "OLDER CHANGES",
+      "label_box": [
+        0.1792,
+        0.58092,
+        0.6232,
+        0.085
+      ]
+    }
+  ],
+  "reconstructed": false,
+  "shot": "stack",
+  "source": "\n**Frame:** A command creates a test directory. Its name appears at the top of the listing. For the first time, a single muted moss-green rule edges the new row.\n\n**Action:** A write primitive becomes a signaling primitive.\n\n**Caption:**\n> A DIRECTORY NAME CAN CARRY MORE THAN A DIRECTORY NAME.\n\n**Provenance:** `documented` + `inferred` — successful directory creation and the communication realization are sourced; caption is project interpretation.\n\n",
+  "title": "A test entry at the top"
+}

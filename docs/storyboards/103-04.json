@@ -1,0 +1,75 @@
+{
+  "background": "ink",
+  "intent": "Block investigators retain evidence and await responses. Keep the scripted evidence boundary and lettering visible.",
+  "lettering": [
+    {
+      "box": [
+        0.045,
+        0.78,
+        0.91,
+        0.18
+      ]
+    }
+  ],
+  "lettering_mode": "manual",
+  "nodes": [
+    {
+      "asset": "sealed",
+      "box": [
+        0.1044,
+        0.2242,
+        0.195163,
+        0.256
+      ],
+      "color": "steel",
+      "focus": true,
+      "label": "PRESERVED RECORDS",
+      "label_box": [
+        0.09640000000000001,
+        0.4862,
+        0.211163,
+        0.085
+      ]
+    },
+    {
+      "asset": "paper",
+      "box": [
+        0.368133,
+        0.2242,
+        0.195163,
+        0.256
+      ],
+      "color": "steel",
+      "focus": true,
+      "label": "REQUESTS",
+      "label_box": [
+        0.360133,
+        0.4862,
+        0.211163,
+        0.085
+      ]
+    },
+    {
+      "asset": "clock",
+      "box": [
+        0.6441151666666666,
+        0.22419999999999998,
+        0.1706666666666667,
+        0.25600000000000006
+      ],
+      "color": "steel",
+      "focus": true,
+      "label": "FUTURE DEADLINE",
+      "label_box": [
+        0.623867,
+        0.4862,
+        0.211163,
+        0.085
+      ]
+    }
+  ],
+  "reconstructed": false,
+  "shot": "row",
+  "source": "\n**Frame:** Investigators preserve records, issue compulsory requests, and leave a future response deadline open.\n\n**Caption:**\n> OVERSIGHT LEARNS BY DEMANDING A RECORD IT DOES NOT YET HAVE.\n\n**Provenance:** `documented` + `inferred` — demand documented; interpretive framing bounded.\n\n",
+  "title": "Investigators retain evidence and await responses"
+}

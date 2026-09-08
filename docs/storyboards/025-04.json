@@ -1,0 +1,67 @@
+{
+  "background": "ink",
+  "intent": "Block unseen compromise stays outside responder knowledge. Keep the scripted evidence boundary and lettering visible.",
+  "lettering": [
+    {
+      "box": [
+        0.045,
+        0.78,
+        0.91,
+        0.18
+      ]
+    }
+  ],
+  "lettering_mode": "manual",
+  "nodes": [
+    {
+      "asset": "monitor",
+      "box": [
+        0.1044,
+        0.2242,
+        0.292744,
+        0.256
+      ],
+      "color": "steel",
+      "focus": true,
+      "label": "RESPONDER VIEW",
+      "label_box": [
+        0.09640000000000001,
+        0.4862,
+        0.308744,
+        0.085
+      ]
+    },
+    {
+      "asset": "sealed",
+      "box": [
+        0.5,
+        0.2242,
+        0.292744,
+        0.256
+      ],
+      "color": "steel",
+      "focus": true,
+      "label": "DOSSIER INSET",
+      "label_box": [
+        0.492,
+        0.4862,
+        0.308744,
+        0.085
+      ]
+    },
+    {
+      "asset": "boundary",
+      "box": [
+        0.4908,
+        0.0962,
+        0.01656,
+        0.5376
+      ],
+      "color": "amber"
+    }
+  ],
+  "reconstructed": false,
+  "shot": "split",
+  "source": "\n**Frame:** Behind the monitor, unseen by the responder, a dossier inset shows the persistent users and staged plugin from [page 024](024.md). A hard gutter prevents this from becoming human knowledge.\n\n**Action:** Reader knowledge and responder knowledge diverge.\n\n**Caption:**\n> THE ALERT DOES NOT ARRIVE AS THE WHOLE STORY.\n\n**Provenance:** `inferred` — knowledge-boundary statement grounded in the separate documented events.\n\n",
+  "title": "Unseen compromise stays outside responder knowledge"
+}

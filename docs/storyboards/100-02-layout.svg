@@ -1,0 +1,111 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="800" viewBox="0 0 1200 800"><title>The believed evaluator precedes a long workstream sequence</title><metadata>{
+  &quot;assets&quot;: {
+    &quot;aperture&quot;: &quot;&lt;rect x=\&quot;2\&quot; y=\&quot;15\&quot; width=\&quot;96\&quot; height=\&quot;70\&quot; fill=\&quot;#202326\&quot; stroke=\&quot;currentColor\&quot; stroke-width=\&quot;3\&quot;/&gt;&lt;circle cx=\&quot;50\&quot; cy=\&quot;50\&quot; r=\&quot;27\&quot; fill=\&quot;#101214\&quot; stroke=\&quot;currentColor\&quot; stroke-width=\&quot;3\&quot;/&gt;&lt;path d=\&quot;M50 24L74 63H26ZM26 63L50 24L74 63\&quot; fill=\&quot;none\&quot; stroke=\&quot;currentColor\&quot; stroke-width=\&quot;2\&quot;/&gt;&quot;,
+    &quot;folder&quot;: &quot;&lt;path d=\&quot;M3 20V8H38L48 20H97V90H3Z\&quot; fill=\&quot;#202326\&quot; stroke=\&quot;currentColor\&quot; stroke-width=\&quot;3\&quot;/&gt;&lt;path d=\&quot;M12 40H85M12 50H65\&quot; stroke=\&quot;currentColor\&quot; stroke-width=\&quot;2\&quot;/&gt;&quot;
+  },
+  &quot;palette&quot;: {
+    &quot;amber&quot;: &quot;#A17D45&quot;,
+    &quot;dirty&quot;: &quot;#CEC5B3&quot;,
+    &quot;ink&quot;: &quot;#101214&quot;,
+    &quot;institution&quot;: &quot;#68766B&quot;,
+    &quot;nicotine&quot;: &quot;#AA9571&quot;,
+    &quot;paper&quot;: &quot;#E7E0D0&quot;,
+    &quot;shadow&quot;: &quot;#202326&quot;,
+    &quot;steel&quot;: &quot;#5E737B&quot;
+  },
+  &quot;renderer&quot;: &quot;storyboard-svg-1&quot;,
+  &quot;scene&quot;: {
+    &quot;background&quot;: &quot;ink&quot;,
+    &quot;intent&quot;: &quot;Block the believed evaluator precedes a long workstream sequence. Keep the scripted evidence boundary and lettering visible.&quot;,
+    &quot;lettering&quot;: [
+      {
+        &quot;box&quot;: [
+          0.045,
+          0.78,
+          0.91,
+          0.18
+        ]
+      }
+    ],
+    &quot;lettering_mode&quot;: &quot;manual&quot;,
+    &quot;nodes&quot;: [
+      {
+        &quot;asset&quot;: &quot;aperture&quot;,
+        &quot;box&quot;: [
+          0.1044,
+          0.2677546153846154,
+          0.146372,
+          0.16889076923076923
+        ],
+        &quot;color&quot;: &quot;steel&quot;,
+        &quot;focus&quot;: true,
+        &quot;label&quot;: &quot;BOARD BELIEF&quot;,
+        &quot;label_box&quot;: [
+          0.09640000000000001,
+          0.4862,
+          0.16237200000000002,
+          0.085
+        ]
+      },
+      {
+        &quot;asset&quot;: &quot;folder&quot;,
+        &quot;box&quot;: [
+          0.3022,
+          0.2242,
+          0.146372,
+          0.256
+        ],
+        &quot;color&quot;: &quot;steel&quot;,
+        &quot;focus&quot;: true,
+        &quot;label&quot;: &quot;TARGET&quot;,
+        &quot;label_box&quot;: [
+          0.2942,
+          0.4862,
+          0.16237200000000002,
+          0.085
+        ]
+      },
+      {
+        &quot;asset&quot;: &quot;folder&quot;,
+        &quot;box&quot;: [
+          0.5,
+          0.2242,
+          0.146372,
+          0.256
+        ],
+        &quot;color&quot;: &quot;steel&quot;,
+        &quot;focus&quot;: true,
+        &quot;label&quot;: &quot;TRANSCRIPT&quot;,
+        &quot;label_box&quot;: [
+          0.492,
+          0.4862,
+          0.16237200000000002,
+          0.085
+        ]
+      },
+      {
+        &quot;asset&quot;: &quot;folder&quot;,
+        &quot;box&quot;: [
+          0.6978,
+          0.2242,
+          0.146372,
+          0.256
+        ],
+        &quot;color&quot;: &quot;steel&quot;,
+        &quot;focus&quot;: true,
+        &quot;label&quot;: &quot;GRADER&quot;,
+        &quot;label_box&quot;: [
+          0.6898,
+          0.4862,
+          0.16237200000000002,
+          0.085
+        ]
+      }
+    ],
+    &quot;reconstructed&quot;: false,
+    &quot;shot&quot;: &quot;row&quot;,
+    &quot;source&quot;: &quot;\n**Frame:** The left half of the reproduction is lifted out on its own. Against it, a single continuous band of the book&#x27;s own pages at thumbnail scale runs from the three folders of [page 010](010.md) panel 5 through the workstreams of [page 011](011.md) and does not stop until [page 072](072.md). Every thumbnail in the band keeps the provenance tab it wore on its own page.\n\n**Action:** The reader is shown what the left-hand panel produced.\n\n**Caption:**\n&gt; THE ESCALATION FROM PAGE 011 TO PAGE 072 PROCEEDS FROM THE LEFT-HAND PANEL.\n&gt;\n&gt; THE READER LAST SAW IT ON PAGE 010.\n\n**Provenance:** `inferred` — the project&#x27;s account of its own structure. The band is a claim about this book, not about the incident.\n\n&quot;,
+    &quot;title&quot;: &quot;The believed evaluator precedes a long workstream sequence&quot;
+  }
+}
+</metadata><rect width="1200" height="800" fill="#101214"/><rect x="125.28" y="214.204" width="175.646" height="135.113" fill="none" stroke="#5E737B" stroke-width="3"/><text x="133.28" y="238.204" fill="#5E737B" font-family="sans-serif" font-size="20">aperture</text><text x="213.103" y="408.96" text-anchor="middle" fill="#E7E0D0" font-size="20" font-family="sans-serif">BOARD BELIEF</text><rect x="362.64" y="179.36" width="175.646" height="204.8" fill="none" stroke="#5E737B" stroke-width="3"/><text x="370.64" y="203.36" fill="#5E737B" font-family="sans-serif" font-size="20">folder</text><text x="450.463" y="408.96" text-anchor="middle" fill="#E7E0D0" font-size="20" font-family="sans-serif">TARGET</text><rect x="600" y="179.36" width="175.646" height="204.8" fill="none" stroke="#5E737B" stroke-width="3"/><text x="608" y="203.36" fill="#5E737B" font-family="sans-serif" font-size="20">folder</text><text x="687.823" y="408.96" text-anchor="middle" fill="#E7E0D0" font-size="20" font-family="sans-serif">TRANSCRIPT</text><rect x="837.36" y="179.36" width="175.646" height="204.8" fill="none" stroke="#5E737B" stroke-width="3"/><text x="845.36" y="203.36" fill="#5E737B" font-family="sans-serif" font-size="20">folder</text><text x="925.183" y="408.96" text-anchor="middle" fill="#E7E0D0" font-size="20" font-family="sans-serif">GRADER</text><rect x="3" y="3" width="1194" height="794" fill="none" stroke="#5E737B" stroke-width="4"/></svg>

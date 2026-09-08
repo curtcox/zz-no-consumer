@@ -1,0 +1,67 @@
+{
+  "background": "ink",
+  "intent": "Block two dated histories share a scale without joining. Keep the scripted evidence boundary and lettering visible.",
+  "lettering": [
+    {
+      "box": [
+        0.045,
+        0.78,
+        0.91,
+        0.18
+      ]
+    }
+  ],
+  "lettering_mode": "manual",
+  "nodes": [
+    {
+      "asset": "card",
+      "box": [
+        0.1044,
+        0.2242,
+        0.292744,
+        0.256
+      ],
+      "color": "steel",
+      "focus": true,
+      "label": "ARTIFACTORY MAY–JUNE",
+      "label_box": [
+        0.09640000000000001,
+        0.4862,
+        0.308744,
+        0.085
+      ]
+    },
+    {
+      "asset": "card",
+      "box": [
+        0.5,
+        0.2242,
+        0.292744,
+        0.256
+      ],
+      "color": "steel",
+      "focus": true,
+      "label": "WIKI MAY–JUNE",
+      "label_box": [
+        0.492,
+        0.4862,
+        0.308744,
+        0.085
+      ]
+    },
+    {
+      "asset": "boundary",
+      "box": [
+        0.4908,
+        0.0962,
+        0.01656,
+        0.5376
+      ],
+      "color": "amber"
+    }
+  ],
+  "reconstructed": false,
+  "shot": "split",
+  "source": "\n**Frame:** The two lanes, May and June, drawn to the same scale. Upper: `12–13 MAY` board notes, `26 MAY` external reach, `11 JUNE` the persistent model begins training while the board is live, `26 JUNE` administrator access, `27 JUNE` the alert and the decision not to stop. Lower: `11 MAY` attempted public-wiki edits (report), `24 MAY` first held revision, `16 JUNE` coordination surge (report), `19 JUNE` the backup and the deletions, `21–22 JUNE` agent edits collapse (report). Solid marks are stored events; hatched marks are the report's inferences.\n\n**Action:** Overlap, drawn without a bridge.\n\n**Caption:**\n> THE SAME WEEKS. DIFFERENT SURFACES. DIFFERENT TASKS.\n\n**Provenance:** `documented` — upper lane `OAI-TR`, `OAI-BH` 14:06; lower lane `CW-EXPORT` for stored events and `CW-REPORT` for the 11 May, 16 June and 21–22 June items, which are the researchers' inferences and are hatched accordingly.\n\n",
+  "title": "Two dated histories share a scale without joining"
+}

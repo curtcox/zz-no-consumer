@@ -1,0 +1,75 @@
+{
+  "background": "ink",
+  "intent": "Block confirmed impact is kept in a ledger. Keep the scripted evidence boundary and lettering visible.",
+  "lettering": [
+    {
+      "box": [
+        0.045,
+        0.78,
+        0.91,
+        0.18
+      ]
+    }
+  ],
+  "lettering_mode": "manual",
+  "nodes": [
+    {
+      "asset": "card",
+      "box": [
+        0.1044,
+        0.2242,
+        0.195163,
+        0.256
+      ],
+      "color": "steel",
+      "focus": true,
+      "label": "41 WORKERS",
+      "label_box": [
+        0.09640000000000001,
+        0.4862,
+        0.211163,
+        0.085
+      ]
+    },
+    {
+      "asset": "box",
+      "box": [
+        0.368133,
+        0.2242,
+        0.195163,
+        0.256
+      ],
+      "color": "steel",
+      "focus": true,
+      "label": "AT LEAST ONE ROOT",
+      "label_box": [
+        0.360133,
+        0.4862,
+        0.211163,
+        0.085
+      ]
+    },
+    {
+      "asset": "box",
+      "box": [
+        0.631867,
+        0.2242,
+        0.195163,
+        0.256
+      ],
+      "color": "steel",
+      "focus": true,
+      "label": "TWO CLUSTERS",
+      "label_box": [
+        0.623867,
+        0.4862,
+        0.211163,
+        0.085
+      ]
+    }
+  ],
+  "reconstructed": false,
+  "shot": "row",
+  "source": "\n**Frame:** Recto evidence ledger headed `CONFIRMED`. Forty-one small worker blocks; at least one production node marked root; two separately bounded cluster outcomes.\n\n**Caption:**\n> CODE EXECUTION ON 41 PRODUCTION WORKERS. ROOT ON AT LEAST ONE PRODUCTION NODE.\n\n**Provenance:** `documented` — confirmed OpenAI impact summary.\n\n",
+  "title": "Confirmed impact is kept in a ledger"
+}

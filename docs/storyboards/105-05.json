@@ -1,0 +1,48 @@
+{
+  "background": "ink",
+  "intent": "Block future blanks wait beside an unread new report. Keep the scripted evidence boundary and lettering visible.",
+  "lettering": [],
+  "lettering_mode": "manual",
+  "nodes": [
+    {
+      "asset": "outline-box",
+      "box": [
+        0.1001,
+        0.287,
+        0.295926,
+        0.36
+      ],
+      "color": "steel",
+      "focus": true,
+      "label": "FUTURE PAGES",
+      "label_box": [
+        0.09209999999999999,
+        0.653,
+        0.31192600000000004,
+        0.085
+      ]
+    },
+    {
+      "asset": "card",
+      "box": [
+        0.5,
+        0.287,
+        0.295926,
+        0.36
+      ],
+      "color": "steel",
+      "focus": true,
+      "label": "NEW REPORT",
+      "label_box": [
+        0.492,
+        0.653,
+        0.31192600000000004,
+        0.085
+      ]
+    }
+  ],
+  "reconstructed": false,
+  "shot": "row",
+  "source": "\n**Frame:** Curt reaches the last four blank future pages. In the corner of the screen, unread, a notification with tomorrow's date on it: a report, four authors, a title about another message board.\n\n**Action:** He does not open it. The page ends without a line.\n\n**Provenance:** `reconstructed` — transition into the artifact's downstream-use problem; the notification is the dated addition's arrival (`CW-REPORT`, 4 September 2026), planted here so [page 106](106.md) can open on it.\n\n",
+  "title": "Future blanks wait beside an unread new report"
+}

@@ -1,0 +1,52 @@
+{
+  "background": "ink",
+  "intent": "The source remains beside an empty text field. ChatGPT receives no body or face.",
+  "lettering": [
+    {
+      "box": [
+        0.05,
+        0.05,
+        0.73,
+        0.17
+      ]
+    }
+  ],
+  "nodes": [
+    {
+      "asset": "monitor",
+      "box": [
+        0.1,
+        0.35,
+        0.35,
+        0.44
+      ],
+      "color": "steel",
+      "focus": true
+    },
+    {
+      "asset": "blank-monitor",
+      "box": [
+        0.54,
+        0.35,
+        0.35,
+        0.44
+      ],
+      "color": "steel",
+      "focus": true
+    },
+    {
+      "asset": "keyboard",
+      "box": [
+        0.29,
+        0.83,
+        0.41,
+        0.12
+      ],
+      "color": "nicotine"
+    }
+  ],
+  "reconstructed": true,
+  "shot": "insert",
+  "source": "\n**Frame:** Curt opens a new ChatGPT conversation beside the source material. ChatGPT is only a blank text field and cursor.\n\n**Action:** He begins converting reaction into a project.\n\n**Dialogue — CURT:**\n> This needs to be a graphic novel.\n\n**Provenance:** `reconstructed` — authorized creator-scene dialogue; not a preserved transcript.\n\n",
+  "title": "A new conversation"
+}

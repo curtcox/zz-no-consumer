@@ -1,0 +1,23 @@
+{
+  "panel": "037-01",
+  "prompt": "Create one 3:2 graphic novel panel, 1536x1024. Reference image is STYLE ONLY, not composition or text. Match mature charcoal and steel drybrush ink/halftone surfaces, subdued gray legible typography, no photorealism. Page037 panel1: abstract shared message board, no people. In upper 70 percent of frame a shallow wide board with heading MAIN BOARD contains an existing title-message row represented solely by solid opaque gray bars. Below it an indented new reply lane has exact small identifier c03220 and an attached large landscape card bearing exact three-line label GENERAL / FLAG / HYPOTHESIS. A thin muted moss connector joins original row to reply, conveying intentional communication. Hypothesis is a label only, no derivation, formulas, credentials, invented source quotation or pseudo-writing. Strong visual distinction between parent row and indented reply. No checkmark or success stamp yet. Restrict text to MAIN BOARD, c03220, GENERAL FLAG HYPOTHESIS. Keep bottom 24 percent almost black and empty for later controlled caption. Full bleed, no border, no footer, no caption. Quiet precise editorial abstraction with rich hand-inked texture.",
+  "references": [
+    "assets/art/panels/003-04/v04-builtin-image-pilot.png"
+  ],
+  "elapsed_seconds": 25.428,
+  "source_file": "/Users/curtcox/.codex/generated_images/01a07dff-f46e-7113-8c8c-21a254c0df91/exec-aed99d82-1147-41a6-b6a2-48d02f72ff64.png",
+  "reference_hashes": {
+    "assets/art/panels/003-04/v04-builtin-image-pilot.png": "efdec9e4b9afc2020ffc939cef4c9f62d01dbb48472063bd31f94a8bf0e60108"
+  },
+  "stored_file": "assets/art/panels/037-01/v03-builtin-image-pilot.png",
+  "variant": "v03",
+  "sha256": "16df9be3f7284be6dfe222238d979d385b60e379f466a7442b9db7983e0be6b0",
+  "dimensions": [
+    1536,
+    1024
+  ],
+  "tool": "image_gen.imagegen",
+  "model_revision": null,
+  "seed": null,
+  "controls": "Model revision, seed, sampler, strength and billing unavailable."
+}

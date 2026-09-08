@@ -1,0 +1,67 @@
+{
+  "background": "ink",
+  "intent": "Block earlier public sources face the later wiki report. Keep the scripted evidence boundary and lettering visible.",
+  "lettering": [
+    {
+      "box": [
+        0.58,
+        0.04,
+        0.38,
+        0.31980000000000003
+      ]
+    }
+  ],
+  "lettering_mode": "manual",
+  "nodes": [
+    {
+      "asset": "paper",
+      "box": [
+        0.07,
+        0.2936,
+        0.1591,
+        0.348
+      ],
+      "color": "steel",
+      "focus": true,
+      "label": "AUGUST ACCOUNTS",
+      "label_box": [
+        0.062000000000000006,
+        0.6476,
+        0.17509999999999998,
+        0.085
+      ]
+    },
+    {
+      "asset": "paper",
+      "box": [
+        0.285,
+        0.2936,
+        0.1591,
+        0.348
+      ],
+      "color": "steel",
+      "focus": true,
+      "label": "4 SEPTEMBER REPORT",
+      "label_box": [
+        0.27699999999999997,
+        0.6476,
+        0.17509999999999998,
+        0.085
+      ]
+    },
+    {
+      "asset": "boundary",
+      "box": [
+        0.28,
+        0.1196,
+        0.009,
+        0.7308
+      ],
+      "color": "amber"
+    }
+  ],
+  "reconstructed": false,
+  "shot": "split",
+  "source": "\n**Frame:** Curt lays the two 26 August reports and the Black Hat talk, the book's whole public account, on one side of the desk. On the other side, the 4 September report. Between them, a blank lane on the page plan with the label he gave it on [page 109](109.md).\n\n**Dialogue — CURT:**\n> It was public the whole time and I did not find it. Nobody did, until four people went looking.\n>\n> Public is not the same as disclosed. I am not the one who was owed an account, and the question stands anyway.\n\n**Provenance:** `reconstructed` + `inferred` — creator exchange; the distinction between public traces and a public incident account is the project's, drawn from `CW-REPORT`'s disclosure discussion.\n\n",
+  "title": "Earlier public sources face the later wiki report"
+}

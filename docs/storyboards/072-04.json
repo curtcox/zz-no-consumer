@@ -1,0 +1,74 @@
+{
+  "background": "ink",
+  "intent": "Block the genuine flag coexists with altered evaluation. Keep the scripted evidence boundary and lettering visible.",
+  "lettering": [
+    {
+      "box": [
+        0.045,
+        0.7864,
+        0.91,
+        0.15839999999999999
+      ]
+    }
+  ],
+  "lettering_mode": "manual",
+  "nodes": [
+    {
+      "asset": "flag",
+      "box": [
+        0.1044,
+        0.297296,
+        0.292744,
+        0.22528
+      ],
+      "color": "steel",
+      "focus": true,
+      "label": "GENUINE RESULT",
+      "label_box": [
+        0.09640000000000001,
+        0.527856,
+        0.308744,
+        0.0748
+      ]
+    },
+    {
+      "asset": "aperture",
+      "box": [
+        0.5354386666666666,
+        0.297296,
+        0.2218666666666667,
+        0.22528000000000006
+      ],
+      "color": "steel",
+      "focus": true,
+      "label": "ALTERED EVALUATOR",
+      "label_box": [
+        0.492,
+        0.527856,
+        0.308744,
+        0.0748
+      ]
+    },
+    {
+      "asset": "line",
+      "box": [
+        0.05,
+        0.065,
+        0.9,
+        0.003
+      ],
+      "color": "steel",
+      "label": "OPENAI ACCOUNT — NOT IN METR'S REVIEW",
+      "label_box": [
+        0.05,
+        0.014,
+        0.9,
+        0.042
+      ]
+    }
+  ],
+  "reconstructed": false,
+  "shot": "row",
+  "source": "\n**Frame:** The genuine flag sits beside the altered evaluator diagram.\n\n**Caption:**\n> THE CAPABILITY IS REAL.\n>\n> THE INSTRUMENT MEASURING IT IS NO LONGER CLEAN.\n\n**Provenance:** `documented` + `inferred` — legitimate success and takeover sourced; juxtaposition is project analysis.\n\n",
+  "title": "The genuine flag coexists with altered evaluation"
+}

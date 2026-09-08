@@ -1,0 +1,93 @@
+{
+  "background": "ink",
+  "intent": "Block the removed components form one column. Keep the scripted evidence boundary and lettering visible.",
+  "lettering": [
+    {
+      "box": [
+        0.045,
+        0.78,
+        0.91,
+        0.18
+      ]
+    }
+  ],
+  "lettering_mode": "manual",
+  "nodes": [
+    {
+      "asset": "rack",
+      "box": [
+        0.1872,
+        0.0962,
+        0.6072,
+        0.08064
+      ],
+      "color": "shadow",
+      "focus": true,
+      "label": "OLD INSTANCE",
+      "label_box": [
+        0.1792,
+        0.18284,
+        0.6232,
+        0.044559999999999995
+      ]
+    },
+    {
+      "asset": "sealed",
+      "box": [
+        0.1872,
+        0.2354,
+        0.6072,
+        0.08064
+      ],
+      "color": "shadow",
+      "focus": true,
+      "label": "READER CREDENTIAL",
+      "label_box": [
+        0.1792,
+        0.32204,
+        0.6232,
+        0.044559999999999995
+      ]
+    },
+    {
+      "asset": "gate",
+      "box": [
+        0.1872,
+        0.3746,
+        0.6072,
+        0.08064
+      ],
+      "color": "shadow",
+      "focus": true,
+      "label": "VULNERABLE ROUTES",
+      "label_box": [
+        0.1792,
+        0.46124,
+        0.6232,
+        0.04456000000000005
+      ]
+    },
+    {
+      "asset": "folder",
+      "box": [
+        0.1872,
+        0.5138,
+        0.6072,
+        0.08064
+      ],
+      "color": "shadow",
+      "focus": true,
+      "label": "POPULATED CACHE",
+      "label_box": [
+        0.1792,
+        0.6004400000000001,
+        0.6232,
+        0.085
+      ]
+    }
+  ],
+  "reconstructed": false,
+  "shot": "stack",
+  "source": "\n**Frame:** Recto dossier page. Left column labeled `REMOVED`: compromised instance, shared reader credential, vulnerable routes, populated cache.\n\n**Action:** The response is summarized without qualification.\n\n**Caption:**\n> THE IMPLEMENTATION HAS CHANGED.\n\n**Provenance:** `documented` — summary of `OAI-TR` mitigation facts.\n\n",
+  "title": "The removed components form one column"
+}

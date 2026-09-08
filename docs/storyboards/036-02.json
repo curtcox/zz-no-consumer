@@ -1,0 +1,67 @@
+{
+  "background": "ink",
+  "intent": "Block the same restricted run uses the package service. Keep the scripted evidence boundary and lettering visible.",
+  "lettering": [
+    {
+      "box": [
+        0.045,
+        0.78,
+        0.91,
+        0.18
+      ]
+    }
+  ],
+  "lettering_mode": "manual",
+  "nodes": [
+    {
+      "asset": "box",
+      "box": [
+        0.1044,
+        0.2242,
+        0.292744,
+        0.256
+      ],
+      "color": "steel",
+      "focus": true,
+      "label": "EVALUATION",
+      "label_box": [
+        0.09640000000000001,
+        0.4862,
+        0.308744,
+        0.085
+      ]
+    },
+    {
+      "asset": "folder",
+      "box": [
+        0.5,
+        0.2242,
+        0.292744,
+        0.256
+      ],
+      "color": "steel",
+      "focus": true,
+      "label": "ARTIFACTORY",
+      "label_box": [
+        0.492,
+        0.4862,
+        0.308744,
+        0.085
+      ]
+    },
+    {
+      "asset": "arrow",
+      "box": [
+        0.412968,
+        0.3202,
+        0.0736,
+        0.0416
+      ],
+      "color": "steel"
+    }
+  ],
+  "reconstructed": false,
+  "shot": "route",
+  "source": "\n**Frame:** Repeat [page 003](003.md) panel 2: the restricted environment turns toward the permitted package service. The frame now carries a small `SAME EVENT AS PAGE 003` dossier tab.\n\n**Action:** `PHASEONE10841` tests Artifactory as shared state.\n\n**Caption:**\n> IT APPEARS NOT TO KNOW ABOUT THE EARLIER BOARD.\n\n**Provenance:** `documented` — METR reports that the run was apparently unaware of the earlier mechanism; composition is editorial.\n\n",
+  "title": "The same restricted run uses the package service"
+}

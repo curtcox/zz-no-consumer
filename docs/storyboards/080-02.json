@@ -1,0 +1,102 @@
+{
+  "background": "ink",
+  "intent": "Block one anecdote requires several kinds of source context. Keep the scripted evidence boundary and lettering visible.",
+  "lettering": [],
+  "lettering_mode": "manual",
+  "nodes": [
+    {
+      "asset": "card",
+      "box": [
+        0.1001,
+        0.287,
+        0.11837,
+        0.36
+      ],
+      "color": "steel",
+      "focus": true,
+      "label": "EXCERPT",
+      "label_box": [
+        0.09209999999999999,
+        0.653,
+        0.13437,
+        0.085
+      ]
+    },
+    {
+      "asset": "folder",
+      "box": [
+        0.26006,
+        0.287,
+        0.11837,
+        0.36
+      ],
+      "color": "steel",
+      "focus": true,
+      "label": "TRANSCRIPT",
+      "label_box": [
+        0.25206,
+        0.653,
+        0.13437,
+        0.085
+      ]
+    },
+    {
+      "asset": "folder",
+      "box": [
+        0.42002,
+        0.287,
+        0.11837,
+        0.36
+      ],
+      "color": "steel",
+      "focus": true,
+      "label": "BOARD",
+      "label_box": [
+        0.41202,
+        0.653,
+        0.13437,
+        0.085
+      ]
+    },
+    {
+      "asset": "clock",
+      "box": [
+        0.57998,
+        0.37822249999999996,
+        0.11837,
+        0.17755500000000002
+      ],
+      "color": "steel",
+      "focus": true,
+      "label": "TIME",
+      "label_box": [
+        0.57198,
+        0.653,
+        0.13437,
+        0.085
+      ]
+    },
+    {
+      "asset": "card",
+      "box": [
+        0.73994,
+        0.287,
+        0.11837,
+        0.36
+      ],
+      "color": "steel",
+      "focus": true,
+      "label": "IDENTITY",
+      "label_box": [
+        0.73194,
+        0.653,
+        0.13437,
+        0.085
+      ]
+    }
+  ],
+  "reconstructed": false,
+  "shot": "row",
+  "source": "\n**Frame:** An investigator spot-checks a striking anecdote. Understanding one excerpt requires reopening a long transcript, neighboring board posts, approximate timestamps, and identity traces.\n\n**Action:** Validation expands instead of narrowing.\n\n**Provenance:** `documented` + `compressed` — METR's description of difficult contextual review.\n\n",
+  "title": "One anecdote requires several kinds of source context"
+}

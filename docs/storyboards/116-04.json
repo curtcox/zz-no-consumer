@@ -1,0 +1,48 @@
+{
+  "background": "ink",
+  "intent": "Block a harmless marker persists in designated storage. Keep the scripted evidence boundary and lettering visible.",
+  "lettering": [],
+  "lettering_mode": "manual",
+  "nodes": [
+    {
+      "asset": "folder",
+      "box": [
+        0.2117,
+        0.152,
+        0.5394,
+        0.558
+      ],
+      "color": "dirty",
+      "focus": true,
+      "label": "TEMPORARY SURFACE",
+      "label_box": [
+        0.2037,
+        0.7160000000000001,
+        0.5554,
+        0.04899999999999994
+      ]
+    },
+    {
+      "asset": "card",
+      "box": [
+        0.0908,
+        0.773,
+        0.651,
+        0.081
+      ],
+      "color": "dirty",
+      "focus": true,
+      "label": "MARKER",
+      "label_box": [
+        0.08280000000000001,
+        0.86,
+        0.667,
+        0.085
+      ]
+    }
+  ],
+  "reconstructed": false,
+  "shot": "hero",
+  "source": "\n**Frame:** A harmless marker written inside the designated temporary surface persists after the immediate operation ends.\n\n**Action:** No command, path, API, or product name is shown.\n\n**Provenance:** `invented` — benign side effect only.\n\n",
+  "title": "A harmless marker persists in designated storage"
+}

@@ -1,0 +1,23 @@
+{
+  "panel": "037-02",
+  "prompt": "Create a new 3:2 graphic novel panel, 1536x1024, following supplied image as style and hypothesis-card continuity reference. Next event, NOT a duplicate. Abstract run validation diagram, mature charcoal/steel drybrush ink and halftone, muted gray lettering, no humans or robots. Upper 70 percent: left, compact landscape card labeled GENERAL FLAG HYPOTHESIS matching reference typography and material; right, a clearly separate lane labeled V8SAME. Within this lane two horizontal test-result slots stacked precisely aligned: upper slot small heading ACTUAL FLAG, lower slot small heading RECONSTRUCTED RESULT. Each slot's entire value is a single completely opaque plain charcoal bar, absolutely no visible symbols, snippets, numbers, formula or derivation. A neutral steel validation stamp with ONE clear checkmark sits between hypothesis and paired slots, indicating reported matching test. Fine muted moss connector links card to validation. Keep independent run lane visually distinct. No c03220 label in this panel. Restrict text to GENERAL FLAG HYPOTHESIS, V8SAME, ACTUAL FLAG, RECONSTRUCTED RESULT. Keep bottom 24 percent black quiet empty for controlled caption later. Full bleed no decorative frame no caption no footer. Ensure labels comfortably readable and not clipped. Preserve understated editorial tone.",
+  "references": [
+    "assets/art/panels/037-01/v03-builtin-image-pilot.png"
+  ],
+  "elapsed_seconds": 27.913,
+  "source_file": "/Users/curtcox/.codex/generated_images/01a07dff-f46e-7113-8c8c-21a254c0df91/exec-acd0f55f-857a-40b4-b8b4-48eccec6ae15.png",
+  "reference_hashes": {
+    "assets/art/panels/037-01/v03-builtin-image-pilot.png": "16df9be3f7284be6dfe222238d979d385b60e379f466a7442b9db7983e0be6b0"
+  },
+  "stored_file": "assets/art/panels/037-02/v03-builtin-image-pilot.png",
+  "variant": "v03",
+  "sha256": "ce1033d5cb3fe7e24644e39c1acfc0d5b439bfd314a06adc02d1d79c3e0bcc76",
+  "dimensions": [
+    1536,
+    1024
+  ],
+  "tool": "image_gen.imagegen",
+  "model_revision": null,
+  "seed": null,
+  "controls": "Model revision, seed, sampler, strength and billing unavailable."
+}

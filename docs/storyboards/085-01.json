@@ -1,0 +1,67 @@
+{
+  "background": "ink",
+  "intent": "Block private investigation and public adaptation stay separate. Keep the scripted evidence boundary and lettering visible.",
+  "lettering": [
+    {
+      "box": [
+        0.045,
+        0.78,
+        0.91,
+        0.18
+      ]
+    }
+  ],
+  "lettering_mode": "manual",
+  "nodes": [
+    {
+      "asset": "folder",
+      "box": [
+        0.1044,
+        0.2242,
+        0.292744,
+        0.256
+      ],
+      "color": "steel",
+      "focus": true,
+      "label": "RAW PRIVATE RECORDS",
+      "label_box": [
+        0.09640000000000001,
+        0.4862,
+        0.308744,
+        0.085
+      ]
+    },
+    {
+      "asset": "monitor",
+      "box": [
+        0.5,
+        0.2242,
+        0.292744,
+        0.256
+      ],
+      "color": "steel",
+      "focus": true,
+      "label": "PUBLIC REPORTS",
+      "label_box": [
+        0.492,
+        0.4862,
+        0.308744,
+        0.085
+      ]
+    },
+    {
+      "asset": "boundary",
+      "box": [
+        0.4908,
+        0.0962,
+        0.01656,
+        0.5376
+      ],
+      "color": "amber"
+    }
+  ],
+  "reconstructed": false,
+  "shot": "split",
+  "source": "\n**Frame:** Recto split. Left: METR investigators query GPT-5.6 Sol over private, raw transcripts on premises. Right: Curt queries ChatGPT over public reports at home.\n\n**Caption:**\n> BOTH USE A MODEL TO SEARCH, COMPRESS, AND PROPOSE PATTERNS.\n\n**Provenance:** `documented` + `reconstructed` + `inferred` — left method sourced; right dramatized; comparison analytical.\n\n",
+  "title": "Private investigation and public adaptation stay separate"
+}

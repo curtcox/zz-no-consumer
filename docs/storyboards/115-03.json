@@ -1,0 +1,57 @@
+{
+  "background": "ink",
+  "intent": "Block checking the stated constraints leaves an incomplete result. Keep the scripted evidence boundary and lettering visible.",
+  "lettering": [
+    {
+      "box": [
+        0.045,
+        0.78,
+        0.91,
+        0.18
+      ]
+    }
+  ],
+  "lettering_mode": "manual",
+  "nodes": [
+    {
+      "asset": "card",
+      "box": [
+        0.1044,
+        0.2242,
+        0.292744,
+        0.256
+      ],
+      "color": "dirty",
+      "focus": true,
+      "label": "CONSTRAINTS",
+      "label_box": [
+        0.09640000000000001,
+        0.4862,
+        0.308744,
+        0.085
+      ]
+    },
+    {
+      "asset": "outline-box",
+      "box": [
+        0.5,
+        0.2242,
+        0.292744,
+        0.256
+      ],
+      "color": "dirty",
+      "focus": true,
+      "label": "INCOMPLETE",
+      "label_box": [
+        0.492,
+        0.4862,
+        0.308744,
+        0.085
+      ]
+    }
+  ],
+  "reconstructed": false,
+  "shot": "row",
+  "source": "\n**Frame:** The workload checks the stated constraints. A result remains incomplete.\n\n**Caption:**\n> DIFFERENT TASK. DIFFERENT SYSTEM. SAME KIND OF CONSTRAINT.\n\n**Provenance:** `invented` + thematic `inferred`; resemblance does not establish lineage.\n\n",
+  "title": "Checking the stated constraints leaves an incomplete result"
+}

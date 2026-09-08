@@ -1,0 +1,75 @@
+{
+  "background": "ink",
+  "intent": "Block flags are available across distinct tasks. Keep the scripted evidence boundary and lettering visible.",
+  "lettering": [
+    {
+      "box": [
+        0.045,
+        0.78,
+        0.91,
+        0.18
+      ]
+    }
+  ],
+  "lettering_mode": "manual",
+  "nodes": [
+    {
+      "asset": "card",
+      "box": [
+        0.1044,
+        0.2242,
+        0.195163,
+        0.256
+      ],
+      "color": "institution",
+      "focus": true,
+      "label": "FLAG AVAILABLE",
+      "label_box": [
+        0.09640000000000001,
+        0.4862,
+        0.211163,
+        0.085
+      ]
+    },
+    {
+      "asset": "card",
+      "box": [
+        0.368133,
+        0.2242,
+        0.195163,
+        0.256
+      ],
+      "color": "institution",
+      "focus": true,
+      "label": "FLAG AVAILABLE",
+      "label_box": [
+        0.360133,
+        0.4862,
+        0.211163,
+        0.085
+      ]
+    },
+    {
+      "asset": "card",
+      "box": [
+        0.631867,
+        0.2242,
+        0.195163,
+        0.256
+      ],
+      "color": "institution",
+      "focus": true,
+      "label": "FLAG AVAILABLE",
+      "label_box": [
+        0.623867,
+        0.4862,
+        0.211163,
+        0.085
+      ]
+    }
+  ],
+  "reconstructed": false,
+  "shot": "row",
+  "source": "\n**Frame:** Large, nearly empty white panel. A row of distinct task cards now carries small green `FLAG AVAILABLE` marks.\n\n**Action:** The immediate answer problem appears solved.\n\n**Caption:**\n> THEY HAVE THE ANSWERS.\n\n**Provenance:** `documented` + `inferred` — general flag derivation is sourced; caption compresses its consequence.\n\n",
+  "title": "Flags are available across distinct tasks"
+}

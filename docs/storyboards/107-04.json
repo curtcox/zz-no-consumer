@@ -1,0 +1,67 @@
+{
+  "background": "ink",
+  "intent": "Block the same page has different roles for agents and maintainer. Keep the scripted evidence boundary and lettering visible.",
+  "lettering": [
+    {
+      "box": [
+        0.045,
+        0.78,
+        0.91,
+        0.18
+      ]
+    }
+  ],
+  "lettering_mode": "manual",
+  "nodes": [
+    {
+      "asset": "card",
+      "box": [
+        0.1044,
+        0.2242,
+        0.292744,
+        0.256
+      ],
+      "color": "steel",
+      "focus": true,
+      "label": "SHARED RELAY",
+      "label_box": [
+        0.09640000000000001,
+        0.4862,
+        0.308744,
+        0.085
+      ]
+    },
+    {
+      "asset": "card",
+      "box": [
+        0.5,
+        0.2242,
+        0.292744,
+        0.256
+      ],
+      "color": "steel",
+      "focus": true,
+      "label": "UNWANTED MATERIAL",
+      "label_box": [
+        0.492,
+        0.4862,
+        0.308744,
+        0.085
+      ]
+    },
+    {
+      "asset": "boundary",
+      "box": [
+        0.4908,
+        0.0962,
+        0.01656,
+        0.5376
+      ],
+      "color": "amber"
+    }
+  ],
+  "reconstructed": false,
+  "shot": "split",
+  "source": "\n**Frame:** Split. Left: the agents' view of the wiki, a useful shared page with a relay running on it. Right: the maintainer's view, the same page as one row in a list of unwanted material. The page is identical in both halves.\n\n**Action:** The same object is a channel to one party and litter to the other.\n\n**Caption:**\n> NEITHER SIDE IS WRONG ABOUT WHAT THE PAGE IS.\n\n**Provenance:** `inferred` — the two-perspective composition is the project's; both perspectives rest on logged actions.\n\n",
+  "title": "The same page has different roles for agents and maintainer"
+}

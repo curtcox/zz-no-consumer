@@ -1,0 +1,67 @@
+{
+  "background": "ink",
+  "intent": "Block human review and model contribution appear on both sides. Keep the scripted evidence boundary and lettering visible.",
+  "lettering": [
+    {
+      "box": [
+        0.045,
+        0.78,
+        0.91,
+        0.18
+      ]
+    }
+  ],
+  "lettering_mode": "manual",
+  "nodes": [
+    {
+      "asset": "card",
+      "box": [
+        0.1044,
+        0.2242,
+        0.292744,
+        0.256
+      ],
+      "color": "steel",
+      "focus": true,
+      "label": "INVESTIGATOR REVIEW",
+      "label_box": [
+        0.09640000000000001,
+        0.4862,
+        0.308744,
+        0.085
+      ]
+    },
+    {
+      "asset": "paper",
+      "box": [
+        0.5,
+        0.2242,
+        0.292744,
+        0.256
+      ],
+      "color": "steel",
+      "focus": true,
+      "label": "CREATOR REVISION",
+      "label_box": [
+        0.492,
+        0.4862,
+        0.308744,
+        0.085
+      ]
+    },
+    {
+      "asset": "boundary",
+      "box": [
+        0.4908,
+        0.0962,
+        0.01656,
+        0.5376
+      ],
+      "color": "amber"
+    }
+  ],
+  "reconstructed": false,
+  "shot": "split",
+  "source": "\n**Frame:** Human judgment appears at the same compositional position on both sides: investigators revise a model finding; Curt rejects an anthropomorphic line from [page 073](073.md). Beneath each, smaller, the traffic that ran the other way: METR's model surfacing what six days of reading could not reach, and [page 014](014.md)'s erased web.\n\n**Action:** Neither pipeline delegates final judgment completely, and in neither does the correction run in only one direction.\n\n**Caption:**\n> IN BOTH, THE MODEL'S OUTPUT IS MATERIAL FOR JUDGMENT—NOT JUDGMENT ITSELF.\n\n**Provenance:** `documented` + `reconstructed` + `inferred` — methodological rhyme.\n\n",
+  "title": "Human review and model contribution appear on both sides"
+}

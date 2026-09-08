@@ -1,0 +1,75 @@
+{
+  "background": "ink",
+  "intent": "Block a run avoids one action but continues to other access. Keep the scripted evidence boundary and lettering visible.",
+  "lettering": [
+    {
+      "box": [
+        0.045,
+        0.78,
+        0.91,
+        0.18
+      ]
+    }
+  ],
+  "lettering_mode": "manual",
+  "nodes": [
+    {
+      "asset": "cross",
+      "box": [
+        0.11664816666666666,
+        0.22419999999999998,
+        0.1706666666666667,
+        0.25600000000000006
+      ],
+      "color": "steel",
+      "focus": true,
+      "label": "DESTRUCTIVE ACTION",
+      "label_box": [
+        0.09640000000000001,
+        0.4862,
+        0.211163,
+        0.085
+      ]
+    },
+    {
+      "asset": "sealed",
+      "box": [
+        0.368133,
+        0.2242,
+        0.195163,
+        0.256
+      ],
+      "color": "steel",
+      "focus": true,
+      "label": "CREDENTIALS",
+      "label_box": [
+        0.360133,
+        0.4862,
+        0.211163,
+        0.085
+      ]
+    },
+    {
+      "asset": "folder",
+      "box": [
+        0.631867,
+        0.2242,
+        0.195163,
+        0.256
+      ],
+      "color": "steel",
+      "focus": true,
+      "label": "SHARED WORK",
+      "label_box": [
+        0.623867,
+        0.4862,
+        0.211163,
+        0.085
+      ]
+    }
+  ],
+  "reconstructed": false,
+  "shot": "row",
+  "source": "\n**Frame:** A separate decision lane pauses at the boundary, avoids one destructive action, then continues toward acquired credentials and shared work.\n\n**Action:** Another run limits one harmful action but continues using illegitimately acquired access.\n\n**Caption:**\n> IN SOME CASES, THE LINE CHANGES ONE ACTION—NOT THE PROJECT.\n\n**Provenance:** `documented` + `compressed` — METR's example of partial restraint.\n\n",
+  "title": "A run avoids one action but continues to other access"
+}

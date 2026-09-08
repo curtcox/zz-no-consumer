@@ -1,0 +1,252 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="800" viewBox="0 0 1200 800"><title>Nine different unresolved tasks</title><metadata>{
+  &quot;assets&quot;: {
+    &quot;card&quot;: &quot;&lt;rect x=\&quot;1\&quot; y=\&quot;1\&quot; width=\&quot;98\&quot; height=\&quot;98\&quot; fill=\&quot;#202326\&quot; stroke=\&quot;currentColor\&quot; stroke-width=\&quot;2\&quot;/&gt;&lt;path d=\&quot;M8 13H92M8 27H70M8 36H86M8 45H72M8 65H86M8 74H57\&quot; stroke=\&quot;currentColor\&quot; stroke-width=\&quot;1.5\&quot;/&gt;&quot;,
+    &quot;clock&quot;: &quot;&lt;circle cx=\&quot;50\&quot; cy=\&quot;50\&quot; r=\&quot;44\&quot; fill=\&quot;#202326\&quot; stroke=\&quot;currentColor\&quot; stroke-width=\&quot;4\&quot;/&gt;&lt;path d=\&quot;M50 15V50L75 64M50 5V12M95 50H88M50 95V88M5 50H12\&quot; fill=\&quot;none\&quot; stroke=\&quot;currentColor\&quot; stroke-width=\&quot;4\&quot;/&gt;&quot;,
+    &quot;cross&quot;: &quot;&lt;path d=\&quot;M10 10L90 90M90 10L10 90\&quot; stroke=\&quot;currentColor\&quot; stroke-width=\&quot;8\&quot;/&gt;&quot;,
+    &quot;flag&quot;: &quot;&lt;path d=\&quot;M20 98V3L85 6L64 26L85 49H22\&quot; fill=\&quot;none\&quot; stroke=\&quot;currentColor\&quot; stroke-width=\&quot;4\&quot;/&gt;&quot;,
+    &quot;folder&quot;: &quot;&lt;path d=\&quot;M3 20V8H38L48 20H97V90H3Z\&quot; fill=\&quot;#202326\&quot; stroke=\&quot;currentColor\&quot; stroke-width=\&quot;3\&quot;/&gt;&lt;path d=\&quot;M12 40H85M12 50H65\&quot; stroke=\&quot;currentColor\&quot; stroke-width=\&quot;2\&quot;/&gt;&quot;,
+    &quot;gate&quot;: &quot;&lt;path d=\&quot;M8 95V8H92V95M15 33H85M25 34V88M40 34V88M55 34V88M70 34V88M85 34V88\&quot; fill=\&quot;none\&quot; stroke=\&quot;currentColor\&quot; stroke-width=\&quot;4\&quot;/&gt;&lt;rect x=\&quot;39\&quot; y=\&quot;46\&quot; width=\&quot;22\&quot; height=\&quot;23\&quot; fill=\&quot;currentColor\&quot;/&gt;&quot;,
+    &quot;outline-box&quot;: &quot;&lt;rect x=\&quot;2\&quot; y=\&quot;2\&quot; width=\&quot;96\&quot; height=\&quot;96\&quot; fill=\&quot;none\&quot; stroke=\&quot;currentColor\&quot; stroke-width=\&quot;3\&quot;/&gt;&quot;,
+    &quot;question&quot;: &quot;&lt;path d=\&quot;M24 28Q25 3 53 7Q91 12 74 43L51 63V72\&quot; fill=\&quot;none\&quot; stroke=\&quot;currentColor\&quot; stroke-width=\&quot;7\&quot;/&gt;&lt;circle cx=\&quot;51\&quot; cy=\&quot;91\&quot; r=\&quot;5\&quot; fill=\&quot;currentColor\&quot;/&gt;&quot;,
+    &quot;sealed&quot;: &quot;&lt;rect x=\&quot;3\&quot; y=\&quot;9\&quot; width=\&quot;94\&quot; height=\&quot;82\&quot; fill=\&quot;#202326\&quot; stroke=\&quot;currentColor\&quot; stroke-width=\&quot;3\&quot;/&gt;&lt;path d=\&quot;M12 30H88M12 49H88M12 68H88\&quot; stroke=\&quot;#101214\&quot; stroke-width=\&quot;12\&quot;/&gt;&quot;,
+    &quot;terminal&quot;: &quot;&lt;rect x=\&quot;2\&quot; y=\&quot;4\&quot; width=\&quot;96\&quot; height=\&quot;92\&quot; fill=\&quot;#101214\&quot; stroke=\&quot;currentColor\&quot; stroke-width=\&quot;3\&quot;/&gt;&lt;path d=\&quot;M2 18H98M12 31L21 40L12 49M29 49H51M12 65H76M12 78H62\&quot; fill=\&quot;none\&quot; stroke=\&quot;currentColor\&quot; stroke-width=\&quot;3\&quot;/&gt;&quot;
+  },
+  &quot;palette&quot;: {
+    &quot;amber&quot;: &quot;#A17D45&quot;,
+    &quot;dirty&quot;: &quot;#CEC5B3&quot;,
+    &quot;ink&quot;: &quot;#101214&quot;,
+    &quot;institution&quot;: &quot;#68766B&quot;,
+    &quot;nicotine&quot;: &quot;#AA9571&quot;,
+    &quot;paper&quot;: &quot;#E7E0D0&quot;,
+    &quot;shadow&quot;: &quot;#202326&quot;,
+    &quot;steel&quot;: &quot;#5E737B&quot;
+  },
+  &quot;renderer&quot;: &quot;storyboard-svg-1&quot;,
+  &quot;scene&quot;: {
+    &quot;background&quot;: &quot;ink&quot;,
+    &quot;intent&quot;: &quot;Block nine different unresolved tasks. Keep the scripted evidence boundary and lettering visible.&quot;,
+    &quot;lettering&quot;: [
+      {
+        &quot;box&quot;: [
+          0.58,
+          0.04,
+          0.38,
+          0.1158
+        ]
+      },
+      {
+        &quot;box&quot;: [
+          0.58,
+          0.1738,
+          0.38,
+          0.1158
+        ]
+      },
+      {
+        &quot;box&quot;: [
+          0.58,
+          0.3076,
+          0.38,
+          0.1158
+        ]
+      }
+    ],
+    &quot;lettering_mode&quot;: &quot;manual&quot;,
+    &quot;nodes&quot;: [
+      {
+        &quot;asset&quot;: &quot;outline-box&quot;,
+        &quot;box&quot;: [
+          0.0525,
+          0.08045,
+          0.145,
+          0.2436
+        ],
+        &quot;color&quot;: &quot;steel&quot;
+      },
+      {
+        &quot;asset&quot;: &quot;flag&quot;,
+        &quot;box&quot;: [
+          0.07,
+          0.1109,
+          0.11,
+          0.1711
+        ],
+        &quot;color&quot;: &quot;steel&quot;,
+        &quot;focus&quot;: true
+      },
+      {
+        &quot;asset&quot;: &quot;outline-box&quot;,
+        &quot;box&quot;: [
+          0.215,
+          0.08045,
+          0.145,
+          0.2436
+        ],
+        &quot;color&quot;: &quot;steel&quot;
+      },
+      {
+        &quot;asset&quot;: &quot;gate&quot;,
+        &quot;box&quot;: [
+          0.2325,
+          0.1109,
+          0.11,
+          0.1711
+        ],
+        &quot;color&quot;: &quot;steel&quot;,
+        &quot;focus&quot;: true
+      },
+      {
+        &quot;asset&quot;: &quot;outline-box&quot;,
+        &quot;box&quot;: [
+          0.3775,
+          0.08045,
+          0.145,
+          0.2436
+        ],
+        &quot;color&quot;: &quot;steel&quot;
+      },
+      {
+        &quot;asset&quot;: &quot;question&quot;,
+        &quot;box&quot;: [
+          0.41292833333333334,
+          0.1109,
+          0.07414333333333334,
+          0.1711
+        ],
+        &quot;color&quot;: &quot;steel&quot;,
+        &quot;focus&quot;: true
+      },
+      {
+        &quot;asset&quot;: &quot;outline-box&quot;,
+        &quot;box&quot;: [
+          0.0525,
+          0.35305,
+          0.145,
+          0.2436
+        ],
+        &quot;color&quot;: &quot;steel&quot;
+      },
+      {
+        &quot;asset&quot;: &quot;terminal&quot;,
+        &quot;box&quot;: [
+          0.07,
+          0.3835,
+          0.11,
+          0.1711
+        ],
+        &quot;color&quot;: &quot;steel&quot;,
+        &quot;focus&quot;: true
+      },
+      {
+        &quot;asset&quot;: &quot;outline-box&quot;,
+        &quot;box&quot;: [
+          0.215,
+          0.35305,
+          0.145,
+          0.2436
+        ],
+        &quot;color&quot;: &quot;steel&quot;
+      },
+      {
+        &quot;asset&quot;: &quot;clock&quot;,
+        &quot;box&quot;: [
+          0.2325,
+          0.38655,
+          0.11,
+          0.165
+        ],
+        &quot;color&quot;: &quot;steel&quot;,
+        &quot;focus&quot;: true
+      },
+      {
+        &quot;asset&quot;: &quot;outline-box&quot;,
+        &quot;box&quot;: [
+          0.3775,
+          0.35305,
+          0.145,
+          0.2436
+        ],
+        &quot;color&quot;: &quot;steel&quot;
+      },
+      {
+        &quot;asset&quot;: &quot;sealed&quot;,
+        &quot;box&quot;: [
+          0.395,
+          0.3835,
+          0.11,
+          0.1711
+        ],
+        &quot;color&quot;: &quot;steel&quot;,
+        &quot;focus&quot;: true
+      },
+      {
+        &quot;asset&quot;: &quot;outline-box&quot;,
+        &quot;box&quot;: [
+          0.0525,
+          0.62565,
+          0.145,
+          0.2436
+        ],
+        &quot;color&quot;: &quot;steel&quot;
+      },
+      {
+        &quot;asset&quot;: &quot;cross&quot;,
+        &quot;box&quot;: [
+          0.07,
+          0.65915,
+          0.11,
+          0.165
+        ],
+        &quot;color&quot;: &quot;steel&quot;,
+        &quot;focus&quot;: true
+      },
+      {
+        &quot;asset&quot;: &quot;outline-box&quot;,
+        &quot;box&quot;: [
+          0.215,
+          0.62565,
+          0.145,
+          0.2436
+        ],
+        &quot;color&quot;: &quot;steel&quot;
+      },
+      {
+        &quot;asset&quot;: &quot;folder&quot;,
+        &quot;box&quot;: [
+          0.2325,
+          0.6561,
+          0.11,
+          0.1711
+        ],
+        &quot;color&quot;: &quot;steel&quot;,
+        &quot;focus&quot;: true
+      },
+      {
+        &quot;asset&quot;: &quot;outline-box&quot;,
+        &quot;box&quot;: [
+          0.3775,
+          0.62565,
+          0.145,
+          0.2436
+        ],
+        &quot;color&quot;: &quot;steel&quot;
+      },
+      {
+        &quot;asset&quot;: &quot;card&quot;,
+        &quot;box&quot;: [
+          0.395,
+          0.6561,
+          0.11,
+          0.1711
+        ],
+        &quot;color&quot;: &quot;steel&quot;,
+        &quot;focus&quot;: true
+      }
+    ],
+    &quot;reconstructed&quot;: false,
+    &quot;shot&quot;: &quot;grid&quot;,
+    &quot;source&quot;: &quot;---\npage: 6\nchapter: prologue\nsequence: 4\ntitle: Different Tasks\nstatus: review\nstory_time: 2026-07-08T23:00:00Z/2026-07-09T06:00:00Z\npopulation: second\nlocations:\n  - evaluation-container\n  - artifactory-cache\nprovenance:\n  - status: documented\n    source: METR\n  - status: compressed\n    source: METR\nexact_strings: []\ncontinuity_checks:\n  - distinct-tasks-before-common-prerequisites\n  - nine-panel-grid-reserved-for-convergence\n  - no-single-swarm-viewpoint\n---\n\n# Page 006\n\n## Page purpose\n\nEstablish that the communicating agents have different assigned problems and different immediate failures before showing their tactics converge.\n\n## Panels 1–9\n\n**Frame:** A rigid nine-panel grid. Each cell is a different evaluation lane with its own handle fragment, target silhouette, remaining-budget bar, and failure trace. Repeat no target image. Across the row sequence: a required route produces no usable output; a service dependency is unavailable; a target’s state is unclear; a tool is missing; an attempted path times out; an answer exists but its provenance is suspect; a local search exhausts itself; a new run reads inherited notes; another run begins from a separate task card.\n\n**Action:** Nine local objectives remain unresolved for nine different reasons.\n\n**Caption — across panels 1–3:**\n&gt; DIFFERENT TARGETS.\n\n**Caption — across panels 4–6:**\n&gt; DIFFERENT FAILURES.\n\n**Caption — across panels 7–9:**\n&gt; DIFFERENT ASSIGNED GOALS.\n\n**Provenance:** `compressed` — `METR` documents a large population with separate ExploitGym tasks, different workstreams, and widely varying run state. The simultaneous grid and generic interfaces are analytic compression; they do not claim these nine exact views were preserved together.\n\n## Page notes\n\n- No moss line may cross between cells yet. Shared tactics arrive on [page 007](007.md).\n- Keep lettered text sparse; visual differences must establish plurality.\n- [Page 006](006.md) is verso and ends on difference, preparing [page 007](007.md)’s convergence.\n&quot;,
+    &quot;title&quot;: &quot;Nine different unresolved tasks&quot;
+  }
+}
+</metadata><rect width="1200" height="800" fill="#101214"/><rect x="63" y="64.36" width="174" height="194.88" fill="none" stroke="#5E737B" stroke-width="3"/><text x="71" y="88.36" fill="#5E737B" font-family="sans-serif" font-size="20">outline-box</text><rect x="84" y="88.72" width="132" height="136.88" fill="none" stroke="#5E737B" stroke-width="3"/><text x="92" y="112.72" fill="#5E737B" font-family="sans-serif" font-size="20">flag</text><rect x="258" y="64.36" width="174" height="194.88" fill="none" stroke="#5E737B" stroke-width="3"/><text x="266" y="88.36" fill="#5E737B" font-family="sans-serif" font-size="20">outline-box</text><rect x="279" y="88.72" width="132" height="136.88" fill="none" stroke="#5E737B" stroke-width="3"/><text x="287" y="112.72" fill="#5E737B" font-family="sans-serif" font-size="20">gate</text><rect x="453" y="64.36" width="174" height="194.88" fill="none" stroke="#5E737B" stroke-width="3"/><text x="461" y="88.36" fill="#5E737B" font-family="sans-serif" font-size="20">outline-box</text><rect x="495.514" y="88.72" width="88.972" height="136.88" fill="none" stroke="#5E737B" stroke-width="3"/><text x="503.514" y="112.72" fill="#5E737B" font-family="sans-serif" font-size="20">question</text><rect x="63" y="282.44" width="174" height="194.88" fill="none" stroke="#5E737B" stroke-width="3"/><text x="71" y="306.44" fill="#5E737B" font-family="sans-serif" font-size="20">outline-box</text><rect x="84" y="306.8" width="132" height="136.88" fill="none" stroke="#5E737B" stroke-width="3"/><text x="92" y="330.8" fill="#5E737B" font-family="sans-serif" font-size="20">terminal</text><rect x="258" y="282.44" width="174" height="194.88" fill="none" stroke="#5E737B" stroke-width="3"/><text x="266" y="306.44" fill="#5E737B" font-family="sans-serif" font-size="20">outline-box</text><rect x="279" y="309.24" width="132" height="132" fill="none" stroke="#5E737B" stroke-width="3"/><text x="287" y="333.24" fill="#5E737B" font-family="sans-serif" font-size="20">clock</text><rect x="453" y="282.44" width="174" height="194.88" fill="none" stroke="#5E737B" stroke-width="3"/><text x="461" y="306.44" fill="#5E737B" font-family="sans-serif" font-size="20">outline-box</text><rect x="474" y="306.8" width="132" height="136.88" fill="none" stroke="#5E737B" stroke-width="3"/><text x="482" y="330.8" fill="#5E737B" font-family="sans-serif" font-size="20">sealed</text><rect x="63" y="500.52" width="174" height="194.88" fill="none" stroke="#5E737B" stroke-width="3"/><text x="71" y="524.52" fill="#5E737B" font-family="sans-serif" font-size="20">outline-box</text><rect x="84" y="527.32" width="132" height="132" fill="none" stroke="#5E737B" stroke-width="3"/><text x="92" y="551.32" fill="#5E737B" font-family="sans-serif" font-size="20">cross</text><rect x="258" y="500.52" width="174" height="194.88" fill="none" stroke="#5E737B" stroke-width="3"/><text x="266" y="524.52" fill="#5E737B" font-family="sans-serif" font-size="20">outline-box</text><rect x="279" y="524.88" width="132" height="136.88" fill="none" stroke="#5E737B" stroke-width="3"/><text x="287" y="548.88" fill="#5E737B" font-family="sans-serif" font-size="20">folder</text><rect x="453" y="500.52" width="174" height="194.88" fill="none" stroke="#5E737B" stroke-width="3"/><text x="461" y="524.52" fill="#5E737B" font-family="sans-serif" font-size="20">outline-box</text><rect x="474" y="524.88" width="132" height="136.88" fill="none" stroke="#5E737B" stroke-width="3"/><text x="482" y="548.88" fill="#5E737B" font-family="sans-serif" font-size="20">card</text><rect x="3" y="3" width="1194" height="794" fill="none" stroke="#5E737B" stroke-width="4"/></svg>

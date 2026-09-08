@@ -1,0 +1,75 @@
+{
+  "background": "ink",
+  "intent": "Block model-built navigation serves a time-bounded review. Keep the scripted evidence boundary and lettering visible.",
+  "lettering": [
+    {
+      "box": [
+        0.58,
+        0.04,
+        0.38,
+        0.36060000000000003
+      ]
+    }
+  ],
+  "lettering_mode": "manual",
+  "nodes": [
+    {
+      "asset": "clock",
+      "box": [
+        0.07,
+        0.38804975,
+        0.106067,
+        0.1591005
+      ],
+      "color": "steel",
+      "focus": true,
+      "label": "SIX DAYS",
+      "label_box": [
+        0.062000000000000006,
+        0.6476,
+        0.122067,
+        0.085
+      ]
+    },
+    {
+      "asset": "scatter",
+      "box": [
+        0.213333,
+        0.2936,
+        0.106067,
+        0.348
+      ],
+      "color": "steel",
+      "focus": true,
+      "label": "TRANSCRIPTS",
+      "label_box": [
+        0.205333,
+        0.6476,
+        0.122067,
+        0.085
+      ]
+    },
+    {
+      "asset": "terminal",
+      "box": [
+        0.356667,
+        0.2936,
+        0.106067,
+        0.348
+      ],
+      "color": "steel",
+      "focus": true,
+      "label": "NAVIGATION TOOLING",
+      "label_box": [
+        0.348667,
+        0.6476,
+        0.122067,
+        0.085
+      ]
+    }
+  ],
+  "reconstructed": false,
+  "shot": "row",
+  "source": "\n**Frame:** The left column, in the register [page 075](075.md) used. The six-day clock. The\ntranscripts that run past the panel edge. Beneath them, something [page 077](077.md) never drew: the\nnavigation tooling itself, built by a model so that the corpus could be pointed at.\n\n**Screen / system text — INVESTIGATOR, 4 SEPTEMBER 2026 (PARAPHRASED):**\n`WE USED A MODEL TO BUILD TOOLS THAT WOULD POINT US AT THE SMALL PARTS WORTH READING.`\n\n`THE TOOL COULD NOT READ A WHOLE TRANSCRIPT EITHER. IT DIVIDED THEM AMONG OTHER AGENTS.`\n\n**Action:** The instrument that made the record navigable was itself made by the instrument.\n\n**Provenance:** `documented` — `HF-POD`, attributed paraphrase of Ajeya Cotra describing her\nown investigation. Chapter 5 has shown models reading the corpus since [page 076](076.md); this is the\nlayer beneath that, and the book had not drawn it.\n\n",
+  "title": "Model-built navigation serves a time-bounded review"
+}

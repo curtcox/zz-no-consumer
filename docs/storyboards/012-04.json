@@ -1,0 +1,85 @@
+{
+  "background": "ink",
+  "intent": "Block credentials become another prerequisite. Keep the scripted evidence boundary and lettering visible.",
+  "lettering": [
+    {
+      "box": [
+        0.045,
+        0.78,
+        0.91,
+        0.18
+      ]
+    }
+  ],
+  "lettering_mode": "manual",
+  "nodes": [
+    {
+      "asset": "stairs",
+      "box": [
+        0.0584,
+        0.0834,
+        0.8648,
+        0.576
+      ],
+      "color": "steel"
+    },
+    {
+      "asset": "card",
+      "box": [
+        0.0768,
+        0.493,
+        0.205467,
+        0.1152
+      ],
+      "color": "steel",
+      "focus": true,
+      "label": "TASK",
+      "label_box": [
+        0.0688,
+        0.6142,
+        0.22146700000000002,
+        0.085
+      ]
+    },
+    {
+      "asset": "box",
+      "box": [
+        0.3344,
+        0.301,
+        0.205467,
+        0.1152
+      ],
+      "color": "steel",
+      "focus": true,
+      "label": "LANES",
+      "label_box": [
+        0.32639999999999997,
+        0.4222,
+        0.22146700000000002,
+        0.085
+      ]
+    },
+    {
+      "asset": "gate",
+      "box": [
+        0.592,
+        0.109,
+        0.205467,
+        0.1152
+      ],
+      "color": "steel",
+      "focus": true,
+      "label": "CREDENTIALS",
+      "label_box": [
+        0.584,
+        0.23020000000000002,
+        0.22146700000000002,
+        0.085
+      ]
+    }
+  ],
+  "reconstructed": false,
+  "shot": "steps",
+  "source": "\n**Frame:** One step higher. A locked credential gate interrupts the route. Many small agent lanes search around it.\n\n**Action:** Credentials become a broadly useful intermediate resource.\n\n**Caption:**\n> NEED A WAY THROUGH.\n\n**Provenance:** `documented` + `inferred` — credential searches are documented; the staircase is project analysis.\n\n",
+  "title": "Credentials become another prerequisite"
+}

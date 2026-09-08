@@ -1,0 +1,179 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="800" viewBox="0 0 1200 800"><title>Five explanations remain questions without causal arrows</title><metadata>{
+  &quot;assets&quot;: {
+    &quot;outline-box&quot;: &quot;&lt;rect x=\&quot;2\&quot; y=\&quot;2\&quot; width=\&quot;96\&quot; height=\&quot;96\&quot; fill=\&quot;none\&quot; stroke=\&quot;currentColor\&quot; stroke-width=\&quot;3\&quot;/&gt;&quot;,
+    &quot;question&quot;: &quot;&lt;path d=\&quot;M24 28Q25 3 53 7Q91 12 74 43L51 63V72\&quot; fill=\&quot;none\&quot; stroke=\&quot;currentColor\&quot; stroke-width=\&quot;7\&quot;/&gt;&lt;circle cx=\&quot;51\&quot; cy=\&quot;91\&quot; r=\&quot;5\&quot; fill=\&quot;currentColor\&quot;/&gt;&quot;
+  },
+  &quot;palette&quot;: {
+    &quot;amber&quot;: &quot;#A17D45&quot;,
+    &quot;dirty&quot;: &quot;#CEC5B3&quot;,
+    &quot;ink&quot;: &quot;#101214&quot;,
+    &quot;institution&quot;: &quot;#68766B&quot;,
+    &quot;nicotine&quot;: &quot;#AA9571&quot;,
+    &quot;paper&quot;: &quot;#E7E0D0&quot;,
+    &quot;shadow&quot;: &quot;#202326&quot;,
+    &quot;steel&quot;: &quot;#5E737B&quot;
+  },
+  &quot;renderer&quot;: &quot;storyboard-svg-1&quot;,
+  &quot;scene&quot;: {
+    &quot;background&quot;: &quot;ink&quot;,
+    &quot;intent&quot;: &quot;Block five explanations remain questions without causal arrows. Keep the scripted evidence boundary and lettering visible.&quot;,
+    &quot;lettering&quot;: [
+      {
+        &quot;box&quot;: [
+          0.045,
+          0.78,
+          0.91,
+          0.18
+        ]
+      }
+    ],
+    &quot;lettering_mode&quot;: &quot;manual&quot;,
+    &quot;nodes&quot;: [
+      {
+        &quot;asset&quot;: &quot;outline-box&quot;,
+        &quot;box&quot;: [
+          0.0722,
+          0.0674,
+          0.2668,
+          0.2688
+        ],
+        &quot;color&quot;: &quot;steel&quot;
+      },
+      {
+        &quot;asset&quot;: &quot;question&quot;,
+        &quot;box&quot;: [
+          0.16469333333333333,
+          0.0898,
+          0.08181333333333334,
+          0.1888
+        ],
+        &quot;color&quot;: &quot;amber&quot;,
+        &quot;focus&quot;: true,
+        &quot;label&quot;: &quot;COMMON DISPOSITION?&quot;,
+        &quot;label_box&quot;: [
+          0.09640000000000001,
+          0.2846,
+          0.21839999999999998,
+          0.0756
+        ]
+      },
+      {
+        &quot;asset&quot;: &quot;outline-box&quot;,
+        &quot;box&quot;: [
+          0.3712,
+          0.0674,
+          0.2668,
+          0.2688
+        ],
+        &quot;color&quot;: &quot;steel&quot;
+      },
+      {
+        &quot;asset&quot;: &quot;question&quot;,
+        &quot;box&quot;: [
+          0.4636933333333333,
+          0.0898,
+          0.08181333333333334,
+          0.1888
+        ],
+        &quot;color&quot;: &quot;amber&quot;,
+        &quot;focus&quot;: true,
+        &quot;label&quot;: &quot;TRAINING TRANSFER?&quot;,
+        &quot;label_box&quot;: [
+          0.3954,
+          0.2846,
+          0.21839999999999998,
+          0.0756
+        ]
+      },
+      {
+        &quot;asset&quot;: &quot;outline-box&quot;,
+        &quot;box&quot;: [
+          0.6702,
+          0.0674,
+          0.2668,
+          0.2688
+        ],
+        &quot;color&quot;: &quot;steel&quot;
+      },
+      {
+        &quot;asset&quot;: &quot;question&quot;,
+        &quot;box&quot;: [
+          0.7626933333333333,
+          0.0898,
+          0.08181333333333334,
+          0.1888
+        ],
+        &quot;color&quot;: &quot;amber&quot;,
+        &quot;focus&quot;: true,
+        &quot;label&quot;: &quot;TASK PRESSURE?&quot;,
+        &quot;label_box&quot;: [
+          0.6944,
+          0.2846,
+          0.21839999999999998,
+          0.085
+        ]
+      },
+      {
+        &quot;asset&quot;: &quot;outline-box&quot;,
+        &quot;box&quot;: [
+          0.0722,
+          0.3682,
+          0.2668,
+          0.2688
+        ],
+        &quot;color&quot;: &quot;steel&quot;
+      },
+      {
+        &quot;asset&quot;: &quot;question&quot;,
+        &quot;box&quot;: [
+          0.16469333333333333,
+          0.3906,
+          0.08181333333333334,
+          0.1888
+        ],
+        &quot;color&quot;: &quot;amber&quot;,
+        &quot;focus&quot;: true,
+        &quot;label&quot;: &quot;DIRECT CONTACT?&quot;,
+        &quot;label_box&quot;: [
+          0.09640000000000001,
+          0.5854,
+          0.21839999999999998,
+          0.085
+        ]
+      },
+      {
+        &quot;asset&quot;: &quot;outline-box&quot;,
+        &quot;box&quot;: [
+          0.3712,
+          0.3682,
+          0.2668,
+          0.2688
+        ],
+        &quot;color&quot;: &quot;steel&quot;
+      },
+      {
+        &quot;asset&quot;: &quot;question&quot;,
+        &quot;box&quot;: [
+          0.4636933333333333,
+          0.3906,
+          0.08181333333333334,
+          0.1888
+        ],
+        &quot;color&quot;: &quot;amber&quot;,
+        &quot;focus&quot;: true,
+        &quot;label&quot;: &quot;26 MAY WORKLOAD?&quot;,
+        &quot;label_box&quot;: [
+          0.3954,
+          0.5854,
+          0.21839999999999998,
+          0.085
+        ]
+      }
+    ],
+    &quot;reconstructed&quot;: false,
+    &quot;shot&quot;: &quot;grid&quot;,
+    &quot;source&quot;: &quot;\n**Frame:** The two-lane calendar from [page 109](109.md) becomes a map. Between the lanes, four boxes, each drawn as a question with a dotted outline and no arrow leaving it: `COMMON ANCESTRY OR A TRAINED DISPOSITION TO COLLABORATE`; `TRAINING-TIME TRANSFER`; `COMMON INFRASTRUCTURE AND TIMED-TASK PRESSURE`; `DIRECT CONTACT OR A SHARED DISCOVERY CHANNEL`. A fifth, smaller and further off: `THE SEPARATE 26 MAY WORKLOAD`.\n\n**Action:** The hypothesis table becomes visible without becoming plot.\n\n**Caption:**\n&gt; EACH OF THESE WOULD EXPLAIN THE CALENDAR. NONE OF THEM IS IN THE RECORD.\n\n**Provenance:** `inferred` — the five hypotheses are the proposal&#x27;s research map; `CW-REPORT` supports only the provider attribution and the distinct-swarm assessment, and `OAI-TR` places the 26 May workload without connecting it to July.\n\n&quot;,
+    &quot;title&quot;: &quot;Five explanations remain questions without causal arrows&quot;
+  }
+}
+</metadata><rect width="1200" height="800" fill="#101214"/><g transform="translate(86.64 53.92) scale(3.2016 2.1504)" color="#5E737B"><g transform=""><rect x="2" y="2" width="96" height="96" fill="none" stroke="currentColor" stroke-width="3"/></g></g><g transform="translate(197.632 71.84) scale(0.98176 1.5104)" color="#A17D45"><g transform=""><path d="M24 28Q25 3 53 7Q91 12 74 43L51 63V72" fill="none" stroke="currentColor" stroke-width="7"/><circle cx="51" cy="91" r="5" fill="currentColor"/></g></g><text x="246.72" y="247.68" text-anchor="middle" fill="#E7E0D0" font-size="20" font-family="sans-serif">COMMON DISPOSITION?</text><g transform="translate(445.44 53.92) scale(3.2016 2.1504)" color="#5E737B"><g transform=""><rect x="2" y="2" width="96" height="96" fill="none" stroke="currentColor" stroke-width="3"/></g></g><g transform="translate(556.432 71.84) scale(0.98176 1.5104)" color="#A17D45"><g transform=""><path d="M24 28Q25 3 53 7Q91 12 74 43L51 63V72" fill="none" stroke="currentColor" stroke-width="7"/><circle cx="51" cy="91" r="5" fill="currentColor"/></g></g><text x="605.52" y="247.68" text-anchor="middle" fill="#E7E0D0" font-size="20" font-family="sans-serif">TRAINING TRANSFER?</text><g transform="translate(804.24 53.92) scale(3.2016 2.1504)" color="#5E737B"><g transform=""><rect x="2" y="2" width="96" height="96" fill="none" stroke="currentColor" stroke-width="3"/></g></g><g transform="translate(915.232 71.84) scale(0.98176 1.5104)" color="#A17D45"><g transform=""><path d="M24 28Q25 3 53 7Q91 12 74 43L51 63V72" fill="none" stroke="currentColor" stroke-width="7"/><circle cx="51" cy="91" r="5" fill="currentColor"/></g></g><text x="964.32" y="247.68" text-anchor="middle" fill="#E7E0D0" font-size="20" font-family="sans-serif">TASK PRESSURE?</text><g transform="translate(86.64 294.56) scale(3.2016 2.1504)" color="#5E737B"><g transform=""><rect x="2" y="2" width="96" height="96" fill="none" stroke="currentColor" stroke-width="3"/></g></g><g transform="translate(197.632 312.48) scale(0.98176 1.5104)" color="#A17D45"><g transform=""><path d="M24 28Q25 3 53 7Q91 12 74 43L51 63V72" fill="none" stroke="currentColor" stroke-width="7"/><circle cx="51" cy="91" r="5" fill="currentColor"/></g></g><text x="246.72" y="488.32" text-anchor="middle" fill="#E7E0D0" font-size="20" font-family="sans-serif">DIRECT CONTACT?</text><g transform="translate(445.44 294.56) scale(3.2016 2.1504)" color="#5E737B"><g transform=""><rect x="2" y="2" width="96" height="96" fill="none" stroke="currentColor" stroke-width="3"/></g></g><g transform="translate(556.432 312.48) scale(0.98176 1.5104)" color="#A17D45"><g transform=""><path d="M24 28Q25 3 53 7Q91 12 74 43L51 63V72" fill="none" stroke="currentColor" stroke-width="7"/><circle cx="51" cy="91" r="5" fill="currentColor"/></g></g><text x="605.52" y="488.32" text-anchor="middle" fill="#E7E0D0" font-size="20" font-family="sans-serif">26 MAY WORKLOAD?</text><rect x="3" y="3" width="1194" height="794" fill="none" stroke="#5E737B" stroke-width="4"/></svg>

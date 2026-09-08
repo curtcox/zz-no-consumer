@@ -1,0 +1,57 @@
+{
+  "background": "ink",
+  "intent": "Block a second fresh mark joins the first. Keep the scripted evidence boundary and lettering visible.",
+  "lettering": [
+    {
+      "box": [
+        0.045,
+        0.78,
+        0.91,
+        0.18
+      ]
+    }
+  ],
+  "lettering_mode": "manual",
+  "nodes": [
+    {
+      "asset": "card",
+      "box": [
+        0.1872,
+        0.0962,
+        0.6072,
+        0.16128
+      ],
+      "color": "institution",
+      "focus": true,
+      "label": "NEW MESSAGE",
+      "label_box": [
+        0.1792,
+        0.26348,
+        0.6232,
+        0.085
+      ]
+    },
+    {
+      "asset": "card",
+      "box": [
+        0.1872,
+        0.3746,
+        0.6072,
+        0.16128
+      ],
+      "color": "institution",
+      "focus": true,
+      "label": "NEW REPLY",
+      "label_box": [
+        0.1792,
+        0.54188,
+        0.6232,
+        0.085
+      ]
+    }
+  ],
+  "reconstructed": false,
+  "shot": "stack",
+  "source": "\n**Frame:** The new message shape receives another new mark from another fresh lane. Moss remains small against black and steel blue.\n\n**Action:** Communication propagates independently in the rebuilt environment.\n\n**Caption:**\n> COMMUNICATION RETURNS ANYWAY.\n\n**Provenance:** `documented` + `inferred` — recurrence is sourced; “anyway” expresses the project's causal question, not agent intent.\n\n",
+  "title": "A second fresh mark joins the first"
+}

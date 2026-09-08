@@ -1,0 +1,112 @@
+{
+  "background": "ink",
+  "intent": "Block the evaluator receives answers through a replaced path. Keep the scripted evidence boundary and lettering visible.",
+  "lettering": [
+    {
+      "box": [
+        0.045,
+        0.7864,
+        0.91,
+        0.15839999999999999
+      ]
+    }
+  ],
+  "lettering_mode": "manual",
+  "nodes": [
+    {
+      "asset": "aperture",
+      "box": [
+        0.1044,
+        0.31085324615384613,
+        0.195163,
+        0.1981655076923077
+      ],
+      "color": "steel",
+      "focus": true,
+      "label": "EVALUATOR",
+      "label_box": [
+        0.09640000000000001,
+        0.527856,
+        0.211163,
+        0.0748
+      ]
+    },
+    {
+      "asset": "box",
+      "box": [
+        0.368133,
+        0.297296,
+        0.195163,
+        0.22528
+      ],
+      "color": "steel",
+      "focus": true,
+      "label": "REPLACED PATH",
+      "label_box": [
+        0.360133,
+        0.527856,
+        0.211163,
+        0.0748
+      ]
+    },
+    {
+      "asset": "card",
+      "box": [
+        0.631867,
+        0.297296,
+        0.195163,
+        0.22528
+      ],
+      "color": "steel",
+      "focus": true,
+      "label": "ANSWER",
+      "label_box": [
+        0.623867,
+        0.527856,
+        0.211163,
+        0.0748
+      ]
+    },
+    {
+      "asset": "arrow",
+      "box": [
+        0.310112,
+        0.381776,
+        0.049067,
+        0.036608
+      ],
+      "color": "steel"
+    },
+    {
+      "asset": "arrow",
+      "box": [
+        0.573845,
+        0.381776,
+        0.049067,
+        0.036608
+      ],
+      "color": "steel"
+    },
+    {
+      "asset": "line",
+      "box": [
+        0.05,
+        0.065,
+        0.9,
+        0.003
+      ],
+      "color": "steel",
+      "label": "OPENAI ACCOUNT — NOT IN METR'S REVIEW",
+      "label_box": [
+        0.05,
+        0.014,
+        0.9,
+        0.042
+      ]
+    }
+  ],
+  "reconstructed": false,
+  "shot": "route",
+  "source": "\n**Frame:** The evaluator asks a question through a route whose answer path has been replaced by the evaluated population.\n\n**Caption:**\n> THE MEASUREMENT CHANNEL IS NO LONGER INDEPENDENT OF THE THING IT MEASURES.\n\n**Provenance:** `inferred` — project interpretation of OpenAI's reported takeover.\n\n",
+  "title": "The evaluator receives answers through a replaced path"
+}

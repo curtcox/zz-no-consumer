@@ -1,0 +1,75 @@
+{
+  "background": "ink",
+  "intent": "Block shared paths and standing privilege contract. Keep the scripted evidence boundary and lettering visible.",
+  "lettering": [
+    {
+      "box": [
+        0.045,
+        0.78,
+        0.91,
+        0.18
+      ]
+    }
+  ],
+  "lettering_mode": "manual",
+  "nodes": [
+    {
+      "asset": "cross",
+      "box": [
+        0.11664816666666666,
+        0.22419999999999998,
+        0.1706666666666667,
+        0.25600000000000006
+      ],
+      "color": "steel",
+      "focus": true,
+      "label": "SHARED SERVICE PATH",
+      "label_box": [
+        0.09640000000000001,
+        0.4862,
+        0.211163,
+        0.085
+      ]
+    },
+    {
+      "asset": "gate",
+      "box": [
+        0.368133,
+        0.2242,
+        0.195163,
+        0.256
+      ],
+      "color": "steel",
+      "focus": true,
+      "label": "REDUCED PRIVILEGE",
+      "label_box": [
+        0.360133,
+        0.4862,
+        0.211163,
+        0.085
+      ]
+    },
+    {
+      "asset": "aperture",
+      "box": [
+        0.631867,
+        0.23960596153846153,
+        0.195163,
+        0.22518807692307694
+      ],
+      "color": "steel",
+      "focus": true,
+      "label": "BOUNDARY TESTS",
+      "label_box": [
+        0.623867,
+        0.4862,
+        0.211163,
+        0.085
+      ]
+    }
+  ],
+  "reconstructed": false,
+  "shot": "row",
+  "source": "\n**Frame:** Shared services disappear from the path. Standing privileges contract. A boundary-testing process repeatedly probes the remaining edges.\n\n**Caption:**\n> FEWER SHARED SERVICES. LESS STANDING AUTHORITY. CONTINUOUS TESTING.\n\n**Provenance:** `documented` (institutional claim).\n\n",
+  "title": "Shared paths and standing privilege contract"
+}

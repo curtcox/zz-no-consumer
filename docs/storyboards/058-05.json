@@ -1,0 +1,50 @@
+{
+  "background": "ink",
+  "intent": "Block the board opens a waiting lane. Keep the scripted evidence boundary and lettering visible.",
+  "lettering": [
+    {
+      "box": [
+        0.045,
+        0.78,
+        0.91,
+        0.18
+      ]
+    }
+  ],
+  "lettering_mode": "manual",
+  "nodes": [
+    {
+      "asset": "outline-box",
+      "box": [
+        0.2148,
+        0.1282,
+        0.5336,
+        0.3968
+      ],
+      "color": "steel",
+      "focus": true,
+      "label": "AWAITING RESULT",
+      "label_box": [
+        0.20679999999999998,
+        0.531,
+        0.5496,
+        0.030799999999999945
+      ]
+    },
+    {
+      "asset": "clock",
+      "box": [
+        0.398,
+        0.5698,
+        0.0384,
+        0.0576
+      ],
+      "color": "steel",
+      "focus": true
+    }
+  ],
+  "reconstructed": false,
+  "shot": "hero",
+  "source": "\n**Frame:** The board opens a waiting lane for a promised result. `53927`'s test remains off-panel.\n\n**Action:** Many later decisions now depend on one run reporting back.\n\n**Caption:**\n> ONE PROCESS TAKES THE RISK. THE BOARD EXPECTS TO INHERIT THE ANSWER.\n\n**Provenance:** `documented` + `inferred` — promise-response structure is sourced.\n\n",
+  "title": "The board opens a waiting lane"
+}

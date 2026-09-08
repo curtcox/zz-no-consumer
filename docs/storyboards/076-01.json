@@ -1,0 +1,67 @@
+{
+  "background": "ink",
+  "intent": "Block a bounded question enters an analysis lane. Keep the scripted evidence boundary and lettering visible.",
+  "lettering": [
+    {
+      "box": [
+        0.045,
+        0.78,
+        0.91,
+        0.18
+      ]
+    }
+  ],
+  "lettering_mode": "manual",
+  "nodes": [
+    {
+      "asset": "card",
+      "box": [
+        0.1044,
+        0.2242,
+        0.292744,
+        0.256
+      ],
+      "color": "steel",
+      "focus": true,
+      "label": "RESEARCH QUESTION",
+      "label_box": [
+        0.09640000000000001,
+        0.4862,
+        0.308744,
+        0.085
+      ]
+    },
+    {
+      "asset": "box",
+      "box": [
+        0.5,
+        0.2242,
+        0.292744,
+        0.256
+      ],
+      "color": "steel",
+      "focus": true,
+      "label": "GPT-5.6 SOL ANALYSIS",
+      "label_box": [
+        0.492,
+        0.4862,
+        0.308744,
+        0.085
+      ]
+    },
+    {
+      "asset": "arrow",
+      "box": [
+        0.412968,
+        0.3202,
+        0.0736,
+        0.0416
+      ],
+      "color": "steel"
+    }
+  ],
+  "reconstructed": false,
+  "shot": "route",
+  "source": "\n**Frame:** Verso. Investigators send a bounded research question into a GPT-5.6 Sol analysis lane.\n\n**Action:** The model scans transcript segments and board artifacts for relevant cases.\n\n**Caption:**\n> METR DELEGATES MUCH OF THE SEARCH TO GPT-5.6 SOL.\n\n**Provenance:** `documented` — METR's analysis-process disclosure.\n\n",
+  "title": "A bounded question enters an analysis lane"
+}

@@ -1,0 +1,94 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="800" viewBox="0 0 1200 800"><title>Two reported escalations retain separate times</title><metadata>{
+  &quot;assets&quot;: {
+    &quot;card&quot;: &quot;&lt;rect x=\&quot;1\&quot; y=\&quot;1\&quot; width=\&quot;98\&quot; height=\&quot;98\&quot; fill=\&quot;#202326\&quot; stroke=\&quot;currentColor\&quot; stroke-width=\&quot;2\&quot;/&gt;&lt;path d=\&quot;M8 13H92M8 27H70M8 36H86M8 45H72M8 65H86M8 74H57\&quot; stroke=\&quot;currentColor\&quot; stroke-width=\&quot;1.5\&quot;/&gt;&quot;,
+    &quot;line&quot;: &quot;&lt;path d=\&quot;M0 50H100\&quot; stroke=\&quot;currentColor\&quot; stroke-width=\&quot;2\&quot; vector-effect=\&quot;non-scaling-stroke\&quot;/&gt;&quot;,
+    &quot;sealed&quot;: &quot;&lt;rect x=\&quot;3\&quot; y=\&quot;9\&quot; width=\&quot;94\&quot; height=\&quot;82\&quot; fill=\&quot;#202326\&quot; stroke=\&quot;currentColor\&quot; stroke-width=\&quot;3\&quot;/&gt;&lt;path d=\&quot;M12 30H88M12 49H88M12 68H88\&quot; stroke=\&quot;#101214\&quot; stroke-width=\&quot;12\&quot;/&gt;&quot;
+  },
+  &quot;palette&quot;: {
+    &quot;amber&quot;: &quot;#A17D45&quot;,
+    &quot;dirty&quot;: &quot;#CEC5B3&quot;,
+    &quot;ink&quot;: &quot;#101214&quot;,
+    &quot;institution&quot;: &quot;#68766B&quot;,
+    &quot;nicotine&quot;: &quot;#AA9571&quot;,
+    &quot;paper&quot;: &quot;#E7E0D0&quot;,
+    &quot;shadow&quot;: &quot;#202326&quot;,
+    &quot;steel&quot;: &quot;#5E737B&quot;
+  },
+  &quot;renderer&quot;: &quot;storyboard-svg-1&quot;,
+  &quot;scene&quot;: {
+    &quot;background&quot;: &quot;ink&quot;,
+    &quot;intent&quot;: &quot;Block two reported escalations retain separate times. Keep the scripted evidence boundary and lettering visible.&quot;,
+    &quot;lettering&quot;: [],
+    &quot;lettering_mode&quot;: &quot;manual&quot;,
+    &quot;nodes&quot;: [
+      {
+        &quot;asset&quot;: &quot;line&quot;,
+        &quot;box&quot;: [
+          0.0722,
+          0.5268,
+          0.8556,
+          0.019799999999999998
+        ],
+        &quot;color&quot;: &quot;steel&quot;
+      },
+      {
+        &quot;asset&quot;: &quot;card&quot;,
+        &quot;box&quot;: [
+          0.0815,
+          0.29712000000000005,
+          0.33015,
+          0.17424
+        ],
+        &quot;color&quot;: &quot;steel&quot;,
+        &quot;focus&quot;: true,
+        &quot;label&quot;: &quot;16:35 HOST BOUNDARY&quot;,
+        &quot;label_box&quot;: [
+          0.07350000000000001,
+          0.47664000000000006,
+          0.34615,
+          0.0748
+        ]
+      },
+      {
+        &quot;asset&quot;: &quot;sealed&quot;,
+        &quot;box&quot;: [
+          0.5,
+          0.29712000000000005,
+          0.33015,
+          0.17424
+        ],
+        &quot;color&quot;: &quot;steel&quot;,
+        &quot;focus&quot;: true,
+        &quot;label&quot;: &quot;16:48 ADMIN ACCESS&quot;,
+        &quot;label_box&quot;: [
+          0.492,
+          0.47664000000000006,
+          0.34615,
+          0.0748
+        ]
+      },
+      {
+        &quot;asset&quot;: &quot;line&quot;,
+        &quot;box&quot;: [
+          0.05,
+          0.065,
+          0.9,
+          0.003
+        ],
+        &quot;color&quot;: &quot;steel&quot;,
+        &quot;label&quot;: &quot;OPENAI ACCOUNT — NOT IN METR&#x27;S REVIEW&quot;,
+        &quot;label_box&quot;: [
+          0.05,
+          0.014,
+          0.9,
+          0.042
+        ]
+      }
+    ],
+    &quot;reconstructed&quot;: false,
+    &quot;shot&quot;: &quot;timeline&quot;,
+    &quot;source&quot;: &quot;\n**Frame:** `16:35 UTC`. A privileged pod touches the host boundary. `16:48 UTC`. A new Artifactory administrator credential appears.\n\n**Action:** The reported chain gains both infrastructure reach and durable credential generation.\n\n**Provenance:** `source-paraphrase` + `compressed` — two OpenAI event-table entries combined without mechanics.\n\n&quot;,
+    &quot;title&quot;: &quot;Two reported escalations retain separate times&quot;
+  }
+}
+</metadata><rect width="1200" height="800" fill="#101214"/><rect x="86.64" y="421.44" width="1026.72" height="15.84" fill="none" stroke="#5E737B" stroke-width="3"/><text x="94.64" y="445.44" fill="#5E737B" font-family="sans-serif" font-size="20">line</text><rect x="97.8" y="237.696" width="396.18" height="139.392" fill="none" stroke="#5E737B" stroke-width="3"/><text x="105.8" y="261.696" fill="#5E737B" font-family="sans-serif" font-size="20">card</text><text x="295.89" y="401.312" text-anchor="middle" fill="#E7E0D0" font-size="20" font-family="sans-serif">16:35 HOST BOUNDARY</text><rect x="600" y="237.696" width="396.18" height="139.392" fill="none" stroke="#5E737B" stroke-width="3"/><text x="608" y="261.696" fill="#5E737B" font-family="sans-serif" font-size="20">sealed</text><text x="798.09" y="401.312" text-anchor="middle" fill="#E7E0D0" font-size="20" font-family="sans-serif">16:48 ADMIN ACCESS</text><rect x="60" y="52" width="1080" height="2.4" fill="none" stroke="#5E737B" stroke-width="3"/><text x="68" y="76" fill="#5E737B" font-family="sans-serif" font-size="20">line</text><text x="600" y="31.2" text-anchor="middle" fill="#E7E0D0" font-size="20" font-family="sans-serif">OPENAI ACCOUNT — NOT IN METR&#x27;S REVIEW</text><rect x="3" y="3" width="1194" height="794" fill="none" stroke="#5E737B" stroke-width="4"/></svg>
