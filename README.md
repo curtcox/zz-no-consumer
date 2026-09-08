@@ -607,3 +607,76 @@ file browser or directory listing. It does not modify source files or artwork de
 It reads the book structure at startup; restart after inserting or moving pages or
 changing artwork selections. Text and image content are rendered from local files;
 no site build, model, API key, download, or extra Python dependency is needed.
+
+## Image cropping
+
+Remove unwanted margins, frames, or edge captions from an existing generated image
+without another generation run:
+
+```bash
+python3 scripts/image_crop.py inspect input.png --review /tmp/crop-review.html
+```
+
+Open the resulting HTML in a browser. It embeds the original image, so it works offline.
+Orange outlines identify OCR text; the green rectangle shows the retained area. Start
+with the border suggestion, use an **Exclude via …** button for an unwanted edge caption,
+or edit Left/Top/Right/Bottom directly. Check the live preview for lost artwork.
+**Keep entire image** resets the crop. The tool never decides whether detected text
+is an unwanted caption or an intentional sign inside the scene.
+
+Download a crop receipt, then save the final derivative through Python for exact pixel
+preservation (including alpha and the source's PNG color information):
+
+```bash
+python3 scripts/image_crop.py crop input.png --receipt ~/Downloads/crop-receipt.json --output cropped.png
+```
+
+The receipt binds the reviewed rectangle to the source's SHA-256; a different source
+is refused. Alternatively, specify explicit original-image pixel coordinates. Right
+and bottom are exclusive; this example keeps 960 × 620 pixels:
+
+```bash
+python3 scripts/image_crop.py crop input.png --box 20 30 980 650 --output cropped.png
+```
+
+`inspect` also prints a JSON report with source hash, dimensions, proposed border crop,
+and OCR line boxes, text, confidence, and nearest eligible edge. `crop` prints the source
+and output hashes and applied rectangle; redirect this output to retain a receipt.
+Every writer refuses an existing destination, including the source. Parent directories
+must already exist. Browser PNG downloads are convenient previews/finals for ordinary
+use, but the browser may convert color or transparent pixels; use the Python receipt
+workflow when exact sample preservation matters. Cropping changes the aspect ratio;
+review the image in its intended panel before promoting it through the artwork workflow.
+The tool does not edit the queue, accepted version store, generation log, or reader selection.
+
+Supported inputs match the artwork queue: noninterlaced, 8-bit grayscale, grayscale-alpha,
+RGB, or RGBA PNG, up to 8192 pixels on either side and 20 million pixels total. JPEG,
+WebP, palette PNG, and interlaced PNG must first be exported to a supported PNG. Existing
+PNG validation is reused from `art_jobs.py`; no Python packages are needed.
+
+Caption detection uses the optional `tesseract` executable on PATH, entirely locally.
+It is already available on the development machine; nothing is installed by this tool.
+`--ocr auto` (default) runs it when available and explicitly reports when unavailable;
+`--ocr required` fails if missing; `--ocr off` performs only border analysis. OCR uses
+Tesseract's default English model and sparse-text segmentation. Confidence below 40 is
+ignored. Styled lettering, other languages, tiny text, and low contrast can be missed;
+texture can produce false positives. Text is eligible for an edge-exclusion button only
+when removing it would use at most 25% of that image dimension. Interior text remains
+visible in the report and overlay, but requires a manual crop decision.
+
+Border detection identifies nearly uniform full rows/columns at the edges, including
+layered flat frames. `--tolerance 0..64` adjusts the permitted channel range (default 12).
+It stops at nonuniform artwork and declines any edge run reaching 20% of the dimension.
+Blank images therefore remain intact. Textured/torn frames, inset frames interrupted by
+art, and some transparency patterns need manual coordinates. Flat sky or other intended
+edge artwork can resemble a border. Detection is a review aid, not permission to discard
+content. A rectangular crop cannot remove interior lettering while retaining all the
+surrounding scene.
+
+```bash
+python3 scripts/image_crop.py check
+```
+
+The offline CI check covers all five PNG filters, grayscale/RGB/alpha samples, exact crop
+pixels, layered-edge behavior, ambiguous blank images, OCR line grouping and interior text,
+malformed input, invalid rectangles, HTML escaping, and refusal to overwrite originals.

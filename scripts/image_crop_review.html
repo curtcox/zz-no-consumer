@@ -1,0 +1,58 @@
+<!doctype html>
+<html lang="en"><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Review image crop</title>
+<style>
+body{font:16px system-ui;margin:24px;background:#171b22;color:#edf0f5}h1{font-size:24px}button,input{font:inherit;padding:8px;border-radius:5px}button{cursor:pointer}input{width:85px}label{display:inline-block;margin:5px}section{display:flex;gap:24px;flex-wrap:wrap}figure{margin:16px 0;flex:1;min-width:300px}canvas{max-width:100%;height:auto;background:#fff}li{margin:10px 0}#error{color:#ffa591}p{max-width:85ch}.candidate{margin-left:12px}figcaption{margin-bottom:8px}
+</style>
+<h1>Review image crop</h1>
+<p id="source"></p>
+<p>Orange boxes mark detected text. Green marks the retained rectangle. Review captions and borders before saving: text may belong in the scene, and flat edges may be intentional. Coordinates use original pixels; right and bottom are exclusive.</p>
+<div id="fields"></div>
+<p><button id="suggest">Use border suggestion</button> <button id="reset">Keep entire image</button> <button id="save">Download cropped PNG</button> <button id="receipt">Download crop receipt</button></p>
+<p id="error" role="status"></p>
+<section><figure><figcaption>Original with detection overlay</figcaption><canvas id="original"></canvas></figure><figure><figcaption>Crop preview</figcaption><canvas id="preview"></canvas></figure></section>
+<h2>Detected text</h2><p id="ocr"></p><ul id="text"></ul>
+<p>Edge text buttons move the closest crop edge past that text with a four-pixel gap. They can remove artwork too. Interior text is flagged for manual review. Cropping does not regenerate pixels or promote the result into the artwork queue.</p>
+<script>
+'use strict';
+const report=__REPORT__;
+const img=new Image();
+const original=document.querySelector('#original'), preview=document.querySelector('#preview');
+const fields=document.querySelector('#fields');
+const inputs=['Left','Top','Right','Bottom'].map((name,i)=>{
+ const label=document.createElement('label'); label.textContent=name+' ';
+ const input=document.createElement('input'); input.type='number'; input.step='1'; input.min='0';
+ input.max=i%2?report.height:report.width; input.setAttribute('aria-label',name);
+ input.value=report.suggested_box[i]; input.addEventListener('input',draw);
+ label.append(input);fields.append(label);return input;
+});
+function box(){return inputs.map(x=>Number(x.value));}
+function valid(b){return inputs.every(x=>x.value.trim()!=='')&&b.every(Number.isInteger)&&b[0]>=0&&b[1]>=0&&b[2]<=report.width&&b[3]<=report.height&&b[2]>b[0]&&b[3]>b[1];}
+function setBox(b){inputs.forEach((x,i)=>x.value=b[i]);draw();}
+function draw(){
+ if(!img.complete||!img.naturalWidth)return;
+ const b=box(),ok=valid(b);document.querySelector('#error').textContent=ok?`${b[2]-b[0]} × ${b[3]-b[1]} pixels retained`:'Enter a nonempty rectangle inside the image.';
+ document.querySelector('#save').disabled=!ok;document.querySelector('#receipt').disabled=!ok;
+ original.width=report.width;original.height=report.height;
+ const ctx=original.getContext('2d');ctx.drawImage(img,0,0);ctx.lineWidth=Math.max(2,report.width/400);
+ ctx.strokeStyle='#ff9500';for(const item of report.text){const a=item.box;ctx.strokeRect(a[0],a[1],a[2]-a[0],a[3]-a[1]);}
+ if(!ok){preview.width=1;preview.height=1;return;}
+ ctx.fillStyle='#0009';ctx.fillRect(0,0,report.width,b[1]);ctx.fillRect(0,b[3],report.width,report.height-b[3]);ctx.fillRect(0,b[1],b[0],b[3]-b[1]);ctx.fillRect(b[2],b[1],report.width-b[2],b[3]-b[1]);
+ ctx.strokeStyle='#59ffaf';ctx.strokeRect(b[0],b[1],b[2]-b[0],b[3]-b[1]);
+ preview.width=b[2]-b[0];preview.height=b[3]-b[1];preview.getContext('2d').drawImage(img,...b.slice(0,2),preview.width,preview.height,0,0,preview.width,preview.height);
+}
+function download(blob,name){const url=URL.createObjectURL(blob),a=document.createElement('a');a.href=url;a.download=name;a.click();setTimeout(()=>URL.revokeObjectURL(url),1000);}
+document.querySelector('#source').textContent=report.source+` — ${report.width} × ${report.height}`;
+document.querySelector('#ocr').textContent=report.ocr;
+for(const item of report.text){
+ const li=document.createElement('li');li.textContent=`${item.text} (${item.confidence}% OCR confidence; ${item.edge?'near '+item.edge:'interior text'})`;
+ if(item.edge){const button=document.createElement('button');button.className='candidate';button.textContent='Exclude via '+item.edge;
+ button.onclick=()=>{const b=box(),a=item.box;if(item.edge==='left')b[0]=Math.max(b[0],a[2]+4);if(item.edge==='top')b[1]=Math.max(b[1],a[3]+4);if(item.edge==='right')b[2]=Math.min(b[2],a[0]-4);if(item.edge==='bottom')b[3]=Math.min(b[3],a[1]-4);setBox(b);};li.append(button);}
+ document.querySelector('#text').append(li);
+}
+document.querySelector('#suggest').onclick=()=>setBox(report.suggested_box);
+document.querySelector('#reset').onclick=()=>setBox([0,0,report.width,report.height]);
+document.querySelector('#save').onclick=()=>{if(valid(box()))preview.toBlob(blob=>{if(blob)download(blob,'cropped.png');},'image/png');};
+document.querySelector('#receipt').onclick=()=>{if(valid(box()))download(new Blob([JSON.stringify({source:report.source,source_sha256:report.sha256,box:box()},null,2)],{type:'application/json'}),'crop-receipt.json');};
+img.onload=draw;img.src='data:image/png;base64,__IMAGE__';
+</script></html>

@@ -71,6 +71,9 @@ jobs:
       - name: Check offline artwork queue and recovery boundaries
         run: python scripts/art_jobs.py check
 
+      - name: Check offline image cropping and source preservation
+        run: python scripts/image_crop.py check
+
       - name: Check effective reader lettering
         run: python scripts/letterpress.py audit
 

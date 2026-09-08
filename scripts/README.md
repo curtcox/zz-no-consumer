@@ -108,6 +108,14 @@ generation boundaries, so a CI run can never reach for an image model.
 
 ## Artwork
 
+`image_crop.py inspect IMAGE --review REVIEW.html` detects flat border bands and,
+when local Tesseract is available, text boxes. The self-contained review includes
+editable crop coordinates, edge-text exclusion buttons, a live preview, and PNG/receipt
+downloads. `crop` saves an explicitly reviewed rectangle as a new lossless PNG;
+`check` runs offline fixtures without OCR. No generation or reader selection changes.
+See [the cropping manual](../README.md#image-cropping) for formats, OCR limits, and
+the pixel-preserving receipt workflow.
+
 `art_jobs.py` automates built-in image-tool handoffs: `prepare`, `claim`, `receive`,
 `review`, `retry`, `block`, `status`, `export`, `verify`, and offline `check`.
 Its durable local SQLite queue holds pending images outside reader selection;
