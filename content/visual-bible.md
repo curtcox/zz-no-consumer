@@ -202,6 +202,14 @@ Reserve page turns for conceptual reversals:
 
 Tags may move to margins or an optional web overlay in the final site, but the source page script must retain them.
 
+## Apache Ant background reference
+
+The user-supplied Apache Ant logo may appear as a small wall print in the reconstructed
+publication scene. This is an explicit exception to generic logo exclusions and palette
+restrictions: composite the original proportionally, without a model redrawing it. It is
+a software-history reference, not an agent identity, an incident finding or endorsement.
+It does not authorize other logos or turn the authored ant figures into Apache mascots.
+
 ## Ants and anthills: edition convention
 
 The two hills stand for the Hugging Face / Artifactory incident and the Collusion Wiki

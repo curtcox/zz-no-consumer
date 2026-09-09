@@ -30,6 +30,8 @@ The book paraphrases public writing and links to it rather than reproducing it. 
 - **Title and explanatory influences:** Helen Toner’s image relayed in Ezra Klein’s interview, credited by her to an unnamed person; Francis Heylighen’s account of stigmergy; the literary echoes of Liu Cixin’s *The Three Body Problem* and Douglas Hofstadter’s Ant Fugue in *Gödel, Escher, Bach*. The title FAQ distinguishes these influences from incident evidence.
 - **The collaboration-wiki corpus** (`CW-EXPORT`, `CW-REPORT`) is credited to the collusion.wiki custodians and the report by Sydney Von Arx, Cormac Slade Byrd, Spencer Kitts and Thomas Larsen. Attribution does not settle reuse rights; see item 3 of [`research/revision-priorities.md`](https://github.com/curtcox/zz-no-consumer/blob/main/research/revision-priorities.md).
 
+- **Apache Ant logo:** Apache Software Foundation project mark, supplied by Curt for a small background print in the reconstructed creator scene. Its inclusion implies no Apache endorsement or incident involvement. The supplied image remains third-party material, outside the licence grant for project-authored work. See [Apache Ant](https://ant.apache.org/).
+
 ## Tools
 
 - Python 3 standard library for every validator, the pagination and panel tools, the cross reference, the placeholder and lettering renderers, the knowledge-map renderers, and the site builder.

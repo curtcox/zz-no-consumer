@@ -1374,6 +1374,8 @@ panel	variant	file	provider	seed	width	height	bytes	created	status	note	stage
 114-01	v02	assets/art/panels/114-01/v02-storyboard-svg.svg	storyboard-svg		1200	800	7193	2026-09-07T16:56:01+00:00	candidate		storyboard
 114-01	v03	assets/art/panels/114-01/v03-storyboard-svg.svg	storyboard-svg		1200	800	13326	2026-09-09T21:19:16+00:00	candidate		storyboard
 114-01	v04	assets/art/panels/114-01/v04-storyboard-svg.svg	storyboard-svg		1200	800	13328	2026-09-09T21:21:41+00:00	candidate		storyboard
+114-01	v05	assets/art/panels/114-01/v05-storyboard-svg.svg	storyboard-svg		1200	800	100094	2026-09-09T21:55:36+00:00	rejected	Superseded during logo review: nonuniform asset scaling distorted the supplied logo; v06 preserves its proportions.	storyboard
+114-01	v06	assets/art/panels/114-01/v06-storyboard-svg.svg	storyboard-svg		1200	800	100202	2026-09-09T21:56:38+00:00	candidate		storyboard
 114-02	v01	assets/art/panels/114-02/v01-storyboard-svg.svg	storyboard-svg		1200	800	6885	2026-09-07T16:49:37+00:00	candidate		storyboard
 114-02	v02	assets/art/panels/114-02/v02-storyboard-svg.svg	storyboard-svg		1200	800	7534	2026-09-07T16:56:01+00:00	candidate		storyboard
 114-02	v03	assets/art/panels/114-02/v03-storyboard-svg.svg	storyboard-svg		1200	800	7615	2026-09-09T21:19:16+00:00	candidate		storyboard

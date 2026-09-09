@@ -3000,6 +3000,8 @@ A cover proof carried the new title: *The Two Anthill Problem*. Beside it lay th
 
 *The picture cannot answer that.*
 
+In this reconstruction, a small Apache Ant logo hangs on the back wall: an old build-tool reference beside a book about shared artifacts. It makes no claim about which tools the incident’s agents used.
+
 That exchange is reconstructed here. The decision was to keep the metaphor and expose its limits; the words arrange that decision into a scene.
 
 Source packets, corrections, and uncertainty labels compiled alongside the reading edition, so that every claim in it could be opened and traced back to whatever it actually stood on. The last page stayed concealed behind a black thumbnail, waiting to be opened.
