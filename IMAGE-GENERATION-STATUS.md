@@ -161,34 +161,34 @@ choosing or marking final; use `--force` for an additional generation attempt.
 | `001-03` | [v03: flux2-klein-4b](assets/art/panels/001-03/v03-flux2-klein-4b-4001.webp) | refined / candidate | v03: refined / candidate |
 | `001-04` | [v02: flux2-klein-4b](assets/art/panels/001-04/v02-flux2-klein-4b-4001.webp) | refined / candidate | v02: refined / candidate |
 | `001-05` | [v02: flux2-klein-4b](assets/art/panels/001-05/v02-flux2-klein-4b-1001.webp) | refined / candidate | v02: refined / candidate |
-| `002-01` | [v01: flux2-klein-4b](assets/art/panels/002-01/v01-flux2-klein-4b-1001.webp) | refined / candidate | v01: refined / candidate |
+| `002-01` | [v04: panel-fit](assets/art/panels/002-01/v04-panel-fit.svg) | refined / chosen | v04: refined / chosen |
 | `002-02` | [v04: builtin-image-pilot](assets/art/panels/002-02/v04-builtin-image-pilot.png) | refined / chosen | v04: refined / chosen |
-| `002-03` | [v01: flux2-klein-4b](assets/art/panels/002-03/v01-flux2-klein-4b-1001.webp) | refined / candidate | v01: refined / candidate |
-| `002-04` | [v01: flux2-klein-4b](assets/art/panels/002-04/v01-flux2-klein-4b-1001.webp) | refined / candidate | v01: refined / candidate |
+| `002-03` | [v04: panel-fit](assets/art/panels/002-03/v04-panel-fit.svg) | refined / chosen | v04: refined / chosen |
+| `002-04` | [v04: panel-fit](assets/art/panels/002-04/v04-panel-fit.svg) | refined / chosen | v04: refined / chosen |
 | `002-05` | [v01: flux2-klein-4b](assets/art/panels/002-05/v01-flux2-klein-4b-1001.webp) | refined / candidate | v01: refined / candidate |
-| `003-01` | [v05: flux2-klein-4b](assets/art/panels/003-01/v05-flux2-klein-4b-1001.webp) | refined / candidate | v05: refined / candidate |
+| `003-01` | [v08: panel-fit](assets/art/panels/003-01/v08-panel-fit.svg) | refined / chosen | v08: refined / chosen |
 | `003-02` | [v04: builtin-image-pilot](assets/art/panels/003-02/v04-builtin-image-pilot.png) | refined / chosen | v04: refined / chosen |
 | `003-03` | [v05: builtin-image-pilot](assets/art/panels/003-03/v05-builtin-image-pilot.png) | refined / chosen | v05: refined / chosen |
 | `003-04` | [v04: builtin-image-pilot](assets/art/panels/003-04/v04-builtin-image-pilot.png) | refined / chosen | v04: refined / chosen |
-| `003-05` | [v01: flux2-klein-4b](assets/art/panels/003-05/v01-flux2-klein-4b-1001.webp) | refined / candidate | v01: refined / candidate |
-| `004-01` | [v01: flux2-klein-4b](assets/art/panels/004-01/v01-flux2-klein-4b-1001.webp) | refined / candidate | v01: refined / candidate |
-| `004-02` | [v02: flux2-klein-4b](assets/art/panels/004-02/v02-flux2-klein-4b-1001.webp) | refined / candidate | v02: refined / candidate |
-| `010-01` | [v01: flux2-klein-4b](assets/art/panels/010-01/v01-flux2-klein-4b-1001.webp) | refined / candidate | v01: refined / candidate |
-| `010-03` | [v02: flux2-klein-4b](assets/art/panels/010-03/v02-flux2-klein-4b-1001.webp) | refined / candidate | v02: refined / candidate |
-| `010-04` | [v02: flux2-klein-4b](assets/art/panels/010-04/v02-flux2-klein-4b-1001.webp) | refined / candidate | v02: refined / candidate |
+| `003-05` | [v03: panel-fit](assets/art/panels/003-05/v03-panel-fit.svg) | refined / chosen | v03: refined / chosen |
+| `004-01` | [v04: panel-fit](assets/art/panels/004-01/v04-panel-fit.svg) | refined / chosen | v04: refined / chosen |
+| `004-02` | [v05: panel-fit](assets/art/panels/004-02/v05-panel-fit.svg) | refined / chosen | v05: refined / chosen |
+| `010-01` | [v04: panel-fit](assets/art/panels/010-01/v04-panel-fit.svg) | refined / chosen | v04: refined / chosen |
+| `010-03` | [v05: panel-fit](assets/art/panels/010-03/v05-panel-fit.svg) | refined / chosen | v05: refined / chosen |
+| `010-04` | [v05: panel-fit](assets/art/panels/010-04/v05-panel-fit.svg) | refined / chosen | v05: refined / chosen |
 | `013-01` | [v06: pilot-border](assets/art/panels/013-01/v06-pilot-border.svg) | refined / chosen | v06: refined / chosen |
 | `013-02` | [v07: pilot-border](assets/art/panels/013-02/v07-pilot-border.svg) | refined / chosen | v07: refined / chosen |
 | `013-03` | [v04: pilot-border](assets/art/panels/013-03/v04-pilot-border.svg) | refined / chosen | v04: refined / chosen |
 | `013-04` | [v05: pilot-border](assets/art/panels/013-04/v05-pilot-border.svg) | refined / chosen | v05: refined / chosen |
 | `013-05` | [v05: pilot-border](assets/art/panels/013-05/v05-pilot-border.svg) | refined / chosen | v05: refined / chosen |
-| `014-01` | [v01: flux2-klein-4b](assets/art/panels/014-01/v01-flux2-klein-4b-1001.webp) | refined / candidate | v01: refined / candidate |
-| `014-04` | [v01: flux2-klein-4b](assets/art/panels/014-04/v01-flux2-klein-4b-1001.webp) | refined / candidate | v01: refined / candidate |
-| `014-05` | [v01: flux2-klein-4b](assets/art/panels/014-05/v01-flux2-klein-4b-1001.webp) | refined / candidate | v01: refined / candidate |
+| `014-01` | [v04: panel-fit](assets/art/panels/014-01/v04-panel-fit.svg) | refined / chosen | v04: refined / chosen |
+| `014-04` | [v04: panel-fit](assets/art/panels/014-04/v04-panel-fit.svg) | refined / chosen | v04: refined / chosen |
+| `014-05` | [v04: panel-fit](assets/art/panels/014-05/v04-panel-fit.svg) | refined / chosen | v04: refined / chosen |
 | `015-02` | [v02: flux2-klein-4b](assets/art/panels/015-02/v02-flux2-klein-4b-4001.webp) | refined / candidate | v02: refined / candidate |
 | `015-04` | [v02: flux2-klein-4b](assets/art/panels/015-04/v02-flux2-klein-4b-4001.webp) | refined / candidate | v02: refined / candidate |
-| `016-05` | [v05: flux2-klein-4b](assets/art/panels/016-05/v05-flux2-klein-4b-1001.webp) | refined / candidate | v05: refined / candidate |
-| `025-01` | [v01: flux2-klein-4b](assets/art/panels/025-01/v01-flux2-klein-4b-1001.webp) | refined / candidate | v01: refined / candidate |
-| `025-04` | [v02: flux2-klein-4b](assets/art/panels/025-04/v02-flux2-klein-4b-1001.webp) | refined / candidate | v02: refined / candidate |
+| `016-05` | [v08: panel-fit](assets/art/panels/016-05/v08-panel-fit.svg) | refined / chosen | v08: refined / chosen |
+| `025-01` | [v04: panel-fit](assets/art/panels/025-01/v04-panel-fit.svg) | refined / chosen | v04: refined / chosen |
+| `025-04` | [v05: panel-fit](assets/art/panels/025-04/v05-panel-fit.svg) | refined / chosen | v05: refined / chosen |
 | `026-01` | [v05: builtin-image-pilot](assets/art/panels/026-01/v05-builtin-image-pilot.png) | refined / chosen | v05: refined / chosen |
 | `026-02` | [v05: builtin-image-pilot](assets/art/panels/026-02/v05-builtin-image-pilot.png) | refined / chosen | v05: refined / chosen |
 | `026-04` | [v05: builtin-image-pilot](assets/art/panels/026-04/v05-builtin-image-pilot.png) | refined / chosen | v05: refined / chosen |
@@ -217,8 +217,8 @@ choosing or marking final; use `--force` for an additional generation attempt.
 | `032-05` | [v04: builtin-image-pilot](assets/art/panels/032-05/v04-builtin-image-pilot.png) | refined / chosen | v04: refined / chosen |
 | `033-03` | [v04: builtin-image-pilot](assets/art/panels/033-03/v04-builtin-image-pilot.png) | refined / chosen | v04: refined / chosen |
 | `033-04` | [v03: builtin-image-pilot](assets/art/panels/033-04/v03-builtin-image-pilot.png) | refined / chosen | v03: refined / chosen |
-| `034-01` | [v05: flux2-klein-4b](assets/art/panels/034-01/v05-flux2-klein-4b-1001.webp) | refined / candidate | v05: refined / candidate |
-| `034-04` | [v01: flux2-klein-4b](assets/art/panels/034-04/v01-flux2-klein-4b-1001.webp) | refined / candidate | v01: refined / candidate |
+| `034-01` | [v08: panel-fit](assets/art/panels/034-01/v08-panel-fit.svg) | refined / chosen | v08: refined / chosen |
+| `034-04` | [v04: panel-fit](assets/art/panels/034-04/v04-panel-fit.svg) | refined / chosen | v04: refined / chosen |
 | `035-01` | [v03: builtin-image-pilot](assets/art/panels/035-01/v03-builtin-image-pilot.png) | refined / chosen | v03: refined / chosen |
 | `035-02` | [v03: builtin-image-pilot](assets/art/panels/035-02/v03-builtin-image-pilot.png) | refined / chosen | v03: refined / chosen |
 | `035-03` | [v03: builtin-image-pilot](assets/art/panels/035-03/v03-builtin-image-pilot.png) | refined / chosen | v03: refined / chosen |
@@ -230,10 +230,10 @@ choosing or marking final; use `--force` for an additional generation attempt.
 | `036-04` | [v03: builtin-image-pilot](assets/art/panels/036-04/v03-builtin-image-pilot.png) | refined / chosen | v03: refined / chosen |
 | `037-01` | [v03: builtin-image-pilot](assets/art/panels/037-01/v03-builtin-image-pilot.png) | refined / chosen | v03: refined / chosen |
 | `037-02` | [v03: builtin-image-pilot](assets/art/panels/037-02/v03-builtin-image-pilot.png) | refined / chosen | v03: refined / chosen |
-| `042-01` | [v02: flux2-klein-4b](assets/art/panels/042-01/v02-flux2-klein-4b-1001.webp) | refined / candidate | v02: refined / candidate |
-| `042-05` | [v02: flux2-klein-4b](assets/art/panels/042-05/v02-flux2-klein-4b-1001.webp) | refined / candidate | v02: refined / candidate |
-| `050-05` | [v02: flux2-klein-4b](assets/art/panels/050-05/v02-flux2-klein-4b-1001.webp) | refined / candidate | v02: refined / candidate |
-| `055-04` | [v01: flux2-klein-4b](assets/art/panels/055-04/v01-flux2-klein-4b-1001.webp) | refined / candidate | v01: refined / candidate |
+| `042-01` | [v05: panel-fit](assets/art/panels/042-01/v05-panel-fit.svg) | refined / chosen | v05: refined / chosen |
+| `042-05` | [v05: panel-fit](assets/art/panels/042-05/v05-panel-fit.svg) | refined / chosen | v05: refined / chosen |
+| `050-05` | [v05: panel-fit](assets/art/panels/050-05/v05-panel-fit.svg) | refined / chosen | v05: refined / chosen |
+| `055-04` | [v04: panel-fit](assets/art/panels/055-04/v04-panel-fit.svg) | refined / chosen | v04: refined / chosen |
 | `115-01` | [v02: flux2-klein-4b](assets/art/panels/115-01/v02-flux2-klein-4b-4001.webp) | refined / candidate | v02: refined / candidate |
 | `115-02` | [v02: flux2-klein-4b](assets/art/panels/115-02/v02-flux2-klein-4b-4001.webp) | refined / candidate | v02: refined / candidate |
 
@@ -248,6 +248,7 @@ Counts include all non-rejected versions, so one slot can contribute several var
 | flux2-klein-4b-20step | 3 |
 | office-followup | 2 |
 | office-sequence | 2 |
+| panel-fit | 22 |
 | pilot-border | 9 |
 
 ## Inventory findings

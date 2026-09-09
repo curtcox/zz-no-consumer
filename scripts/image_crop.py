@@ -128,6 +128,38 @@ def borders(decoded, tolerance=12, max_fraction=.2):
     return found
 
 
+def white_borders(decoded, threshold=180, coverage=.8, max_fraction=.15):
+    """Find textured off-white paper margins, stopping at the first artwork line.
+
+    Unlike flat-band detection, this tolerates paper grain. Require all four
+    edges so a pale sky or a caption is not mistaken for a surrounding frame.
+    Limit hits and blank images are ambiguous and return no crop.
+    """
+    w, h, channels, _, _, rows = decoded
+    def white(x, y):
+        value = rows[y][x*channels:(x+1)*channels]
+        rgb = value[:3] if channels in (3, 4) else value[:1]
+        return (min(rgb) >= threshold and max(rgb)-min(rgb) <= 40
+                and (channels not in (2, 4) or value[-1] == 255))
+    found = {}
+    for side in ('top', 'bottom', 'left', 'right'):
+        vertical = side in ('top', 'bottom')
+        length, span = (h, w) if vertical else (w, h)
+        # Ignore corners when measuring the straight sides of a drawn frame.
+        start, stop = int(span*.1), int(span*.9)
+        limit = max(1, int(length*max_fraction))
+        count = 0
+        for offset in range(limit):
+            at = offset if side in ('top', 'left') else length-1-offset
+            light = sum(white(i, at) if vertical else white(at, i)
+                        for i in range(start, stop))
+            if light < (stop-start)*coverage:
+                break
+            count += 1
+        found[side] = count if count < limit else 0
+    return found if all(found.values()) else dict.fromkeys(found, 0)
+
+
 def parse_tsv(tsv, w, h):
     lines = {}
     for row in csv.DictReader(io.StringIO(tsv), delimiter='\t', quoting=csv.QUOTE_NONE):
@@ -151,9 +183,9 @@ def parse_tsv(tsv, w, h):
     return results
 
 
-def analyze(path, data, decoded, ocr='auto', tolerance=12):
+def analyze(path, data, decoded, ocr='auto', tolerance=12, white_border=False):
     w, h = decoded[:2]
-    margins = borders(decoded, tolerance)
+    margins = white_borders(decoded) if white_border else borders(decoded, tolerance)
     report = dict(source=str(path.resolve()), sha256=hashlib.sha256(data).hexdigest(),
                   width=w, height=h, borders=margins,
                   suggested_box=[margins['left'], margins['top'], w-margins['right'], h-margins['bottom']],
@@ -200,6 +232,8 @@ def main():
     inspect.add_argument('--ocr', choices=('auto', 'off', 'required'), default='auto')
     inspect.add_argument('--tolerance', type=int, choices=range(0, 65), metavar='0..64', default=12)
     inspect.add_argument('--review', type=Path, help='New self-contained HTML file')
+    inspect.add_argument('--white-border', action='store_true',
+                         help='Detect a textured off-white frame on all four sides')
     crop = commands.add_parser('crop', help='Write a new lossless PNG with explicit reviewed coordinates')
     crop.add_argument('image', type=Path)
     selection = crop.add_mutually_exclusive_group(required=True)
@@ -217,7 +251,7 @@ def main():
         data = args.image.read_bytes()
         decoded = decode(data)
         if args.command == 'inspect':
-            report = analyze(args.image, data, decoded, args.ocr, args.tolerance)
+            report = analyze(args.image, data, decoded, args.ocr, args.tolerance, args.white_border)
             if args.review:
                 write_new(args.review, review(data, report))
             print(json.dumps(report, indent=2))

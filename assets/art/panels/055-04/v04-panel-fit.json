@@ -1,0 +1,21 @@
+{
+  "source": "assets/art/panels/055-04/v01-flux2-klein-4b-1001.webp",
+  "source_sha256": "96cb56a85d5bb7e811418206c45f0e7d0ddb6f230e876c685ae69760255dd882",
+  "crop": [
+    45,
+    30,
+    1158,
+    772
+  ],
+  "target": [
+    1200,
+    800
+  ],
+  "review_note": "Textured off-white outer border removed; visually reviewed; original model bytes retained. 8px allowance clears irregular edges; centered 3:2 framing.",
+  "detected_borders": {
+    "top": 22,
+    "bottom": 20,
+    "left": 24,
+    "right": 21
+  }
+}

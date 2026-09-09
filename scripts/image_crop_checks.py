@@ -55,12 +55,26 @@ def check():
     data, _ = fixture(100, 80)
     decoded = crop.decode(data)
     assert crop.borders(decoded) == dict(top=6, bottom=6, left=5, right=5)
+    assert crop.white_borders(decoded) == dict(top=6, bottom=6, left=5, right=5)
+    # Textured cream paper, including sparse dark flecks, is not a flat band.
+    textured = crop.decode(data)
+    for y, row in enumerate(textured[-1]):
+        for x in range(100):
+            if x < 5 or x >= 95 or y < 6 or y >= 74:
+                shade = 140 if (x+y)%17 == 0 else 215+(x*7+y*11)%35
+                row[x*3:x*3+3] = bytes([shade]*3)
+    assert crop.white_borders(textured) == dict(top=6, bottom=6, left=5, right=5)
+    # A sky band without a surrounding frame must stay intact.
+    for row in textured[-1][6:74]:
+        row[:15] = bytes(15)
+    assert not any(crop.white_borders(textured).values())
     decoded[-1][2][:] = b'\0' * 300
     decoded[-1][-3][:] = b'\0' * 300
     assert crop.borders(decoded) == dict(top=6, bottom=6, left=5, right=5), 'Layered frames'
     for row in decoded[-1]:
         row[:] = b'\xff'*len(row)
     assert not any(crop.borders(decoded).values()), 'Blank images must not be cropped'
+    assert not any(crop.white_borders(decoded).values()), 'Blank white is ambiguous'
     for box in ([0, 0, 0, 1], [-1, 0, 20, 20], [0, 0, 101, 80], [0, 0, 1.5, 2]):
         fails(lambda: crop.encode(decoded, box))
     fails(lambda: crop.decode(data[:-1]))

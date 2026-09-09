@@ -122,6 +122,15 @@ downloads. `crop` saves an explicitly reviewed rectangle as a new lossless PNG;
 See [the cropping manual](../README.md#image-cropping) for formats, OCR limits, and
 the pixel-preserving receipt workflow.
 
+For textured off-white model frames, add `--white-border` to `inspect`. This
+requires pale bands on all four sides and rejects blank/ambiguous images; review
+the suggested rectangle for irregular corners and edge labels before fitting.
+WebP sources can be analyzed through a temporary PNG conversion, then cropped
+with `panel_layout.py fit` using the original WebP. See the
+[reviewed border crops](../design/model-border-crops.md). Use `panelart.selected`
+or `panelart.pick` to inventory reader artwork: candidates can be selected even
+without an explicit `chosen` flag.
+
 `art_jobs.py` automates built-in image-tool handoffs: `prepare`, `claim`, `receive`,
 `review`, `retry`, `block`, `status`, `export`, `verify`, and offline `check`.
 Its durable local SQLite queue holds pending images outside reader selection;

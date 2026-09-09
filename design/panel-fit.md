@@ -13,6 +13,8 @@ pairs. Groups are vertically centered on the page. This intentionally replaces
 the provisional equal-height grid: crops of several existing illustrations would
 remove embedded labels. No existing artwork was cropped, stretched or replaced.
 Page margins and gutters are outside image rectangles; they are not letterboxing.
+Subsequent [reviewed model-border crops](model-border-crops.md) remove textured
+paper frames from older raster artwork while preserving those page rectangles.
 
 `panel_layout.size(page, index)` derives an exact-ratio production canvas from
 the rectangle, at least 1200 pixels wide. The raster minimum is half that canvas
