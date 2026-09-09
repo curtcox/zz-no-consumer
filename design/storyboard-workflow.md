@@ -208,7 +208,7 @@ Before promoting a composition, inspect:
 - The lettered view: captions and dialogue are complete and subjects remain visible.
 - The neighboring panels: recurring props, screen positions, and action direction agree.
 - The spread: ordering and recto/verso pairing support the intended reveal. Workshop
-  spreads use a provisional two-column grid, not the script's final panel dimensions.
+  spreads use the same explicit rectangles as the reader; see [panel fit](panel-fit.md).
 - The source boundary: diagrams do not add unsupported causal links, agents acquire no
   bodies, and reconstructed human scenes do not become apparent documentary evidence.
 

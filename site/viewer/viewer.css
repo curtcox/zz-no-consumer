@@ -278,13 +278,10 @@ h2 { font-size: clamp(1.55rem, 3.2vw, 2.8rem); line-height: 1.05; letter-spacing
   width: min(100%, 680px);
   aspect-ratio: 7 / 10;
   margin: 0 auto;
-  padding: 5.5%;
-  display: grid;
-  grid-template-columns: repeat(2, 1fr);
-  grid-auto-rows: 1fr;
-  gap: 3%;
+  padding: 0;
+  display: block;
   overflow: hidden;
-  border: 1px solid #55584f;
+  outline: 1px solid #55584f;
   color: var(--black);
   background: #d6d2c5;
   box-shadow: var(--shadow-art);
@@ -292,8 +289,15 @@ h2 { font-size: clamp(1.55rem, 3.2vw, 2.8rem); line-height: 1.05; letter-spacing
 }
 
 .page-art--compact { width: 100%; box-shadow: none; }
-.page-art__panel { display: block; width: 100%; height: 100%; min-height: 0; object-fit: contain; background: #f5f0e4; }
-.page-art[data-panels="5"] .page-art__panel:first-child { grid-column: 1 / -1; }
+/* Old servers may still emit unpositioned panels. Keep those in normal flow. */
+.page-art:not([data-panel-layout="2"]) { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); grid-auto-rows: 1fr; gap: 3%; padding: 5.5%; }
+.page-art:not([data-panel-layout="2"]) > img { position: static; display: block; width: 100% !important; height: 100% !important; min-width: 0; min-height: 0; object-fit: contain; }
+.page-art:not([data-panel-layout="2"])[data-panels="5"] > img:first-child { grid-column: 1 / -1; }
+.page-art[data-panel-layout="2"] > img { position: absolute; display: block; min-height: 0; object-fit: contain; }
+/* A marked page missing coordinates must fail visibly, never stack its images. */
+.page-art[data-panel-layout="2"]:has(> img:not([style])) { display: grid; grid-template-columns: repeat(2,minmax(0,1fr)); gap: 3%; padding: 5.5%; }
+.page-art[data-panel-layout="2"]:has(> img:not([style])) > img { position: static; width: 100% !important; height: auto !important; }
+
 
 .reader-layout { display: grid; grid-template-columns: minmax(0, 1fr) minmax(260px, 340px); gap: clamp(2rem, 5vw, 5rem); align-items: start; }
 .reader-stage { min-width: 0; padding: clamp(1rem, 2vw, 1.6rem); border: 1px solid var(--line); background: var(--surface); }

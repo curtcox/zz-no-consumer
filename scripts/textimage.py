@@ -476,7 +476,7 @@ def build_book(
     directory: Path,
     *,
     page_size: tuple[int, int] = PAGE_SIZE,
-    panel_size: tuple[int, int] = PANEL_SIZE,
+    panel_size: tuple[int, int] | None = None,
 ) -> BookImages:
     """Write a placeholder image for every page and every panel image slot."""
     pages: dict[str, Placeholder] = {}
@@ -484,6 +484,7 @@ def build_book(
     (directory / "pages").mkdir(parents=True, exist_ok=True)
     (directory / "panels").mkdir(parents=True, exist_ok=True)
 
+    import panel_layout
     for script in book_scripts():
         slots = len(script.panels)
         page_body = script.purpose or f"Page {script.id}. {script.title}."
@@ -507,12 +508,16 @@ def build_book(
         )
 
         for panel in script.panels:
+            target_size = panel_layout.size(script.id, panel.index)
+            if panel_size is not None:
+                panel_layout.require_size(panel_size, target_size, "Placeholder override")
+            canvas_size = panel_size or target_size
             panel_body = panel.text or f"{panel.heading} of page {script.id}."
             panel_path = f"panels/{script.id}-{panel.index:02d}.svg"
             (directory / panel_path).write_text(
                 text_image(
                     panel_body,
-                    *panel_size,
+                    *canvas_size,
                     label=f"PAGE {script.id} · IMAGE {panel.index:02d} OF {slots:02d}",
                     footer=f"{script.title.upper()} · {panel.heading.upper()} · PLACEHOLDER",
                     title=f"Placeholder for page {script.id}, image {panel.index:02d}",
@@ -521,8 +526,8 @@ def build_book(
             )
             panels[(script.id, panel.index)] = Placeholder(
                 path=panel_path,
-                width=panel_size[0],
-                height=panel_size[1],
+                width=canvas_size[0],
+                height=canvas_size[1],
                 alt=f"Placeholder for page {script.id}, image {panel.index:02d}. {_summary(panel_body)}",
             )
 
@@ -565,8 +570,8 @@ def main() -> int:
     book.add_argument("--out-dir", type=Path, default=DEFAULT_BOOK_DIR)
     book.add_argument("--page-width", type=int, default=PAGE_SIZE[0])
     book.add_argument("--page-height", type=int, default=PAGE_SIZE[1])
-    book.add_argument("--panel-width", type=int, default=PANEL_SIZE[0])
-    book.add_argument("--panel-height", type=int, default=PANEL_SIZE[1])
+    book.add_argument("--panel-width", type=int, default=None)
+    book.add_argument("--panel-height", type=int, default=None)
 
     args = parser.parse_args()
 
@@ -591,11 +596,13 @@ def main() -> int:
         print(f"Wrote {args.width}x{args.height} image to {args.out} at {measured.group(1)}px type.")
         return 0
 
+    if (args.panel_width is None) != (args.panel_height is None):
+        parser.error("Specify both --panel-width and --panel-height")
     directory = args.out_dir if args.out_dir.is_absolute() else ROOT / args.out_dir
     images = build_book(
         directory,
         page_size=(args.page_width, args.page_height),
-        panel_size=(args.panel_width, args.panel_height),
+        panel_size=(args.panel_width, args.panel_height) if args.panel_width is not None and args.panel_height is not None else None,
     )
     print(
         f"Wrote {len(images.pages)} page and {len(images.panels)} panel placeholders "

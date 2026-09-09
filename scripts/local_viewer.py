@@ -4,6 +4,7 @@ from __future__ import annotations
 
 import argparse
 import html
+import hashlib
 import importlib.util
 import json
 import mimetypes
@@ -16,6 +17,7 @@ from http.server import BaseHTTPRequestHandler, ThreadingHTTPServer
 from urllib.parse import parse_qs, unquote, urlsplit
 
 import letterpress
+import panel_layout
 import novella
 import panelart
 import textimage
@@ -36,6 +38,25 @@ MODES = {
 }
 
 
+LAYOUT_VERSION = "2"
+WATCHED = tuple(sorted((ROOT / 'scripts').glob('*.py'))) + tuple(sorted(UI.glob('*'))) + (ROOT / 'data/panel-layouts.json',)
+
+def source_version():
+    digest = hashlib.sha256()
+    for path in WATCHED:
+        digest.update(str(path.relative_to(ROOT)).encode())
+        try:
+            digest.update(path.read_bytes())
+        except OSError:
+            digest.update(b"missing")
+    return digest.hexdigest()[:16]
+
+# Snapshot code-compatible assets when this module loads, not on each HTTP request.
+START_VERSION = source_version()
+UI_SNAPSHOT = {path.name: path.read_bytes() for path in UI.iterdir() if path.is_file()}
+UI_SNAPSHOT['app.js'] = UI_SNAPSHOT['panel-audit.js'] + b'\n' + UI_SNAPSHOT['app.js']
+
+
 def spread(page: int, pages: dict) -> tuple[int | None, int | None]:
     left = page if page % 2 == 0 else page - 1
     return (left if left in pages else None, left + 1 if left + 1 in pages else None)
@@ -53,7 +74,8 @@ class Session:
     def snapshot(self):
         with self.condition:
             left, right = spread(self.page, self.pages)
-            return dict(page=self.page, revision=self.revision, left=left, right=right)
+            return dict(page=self.page, revision=self.revision, left=left, right=right,
+                        layout_version=LAYOUT_VERSION, build=START_VERSION, restart_required=source_version() != START_VERSION)
 
     def select(self, page):
         if type(page) is not int or page not in self.pages:
@@ -67,26 +89,29 @@ class Session:
     def placeholder(self, page, index):
         script = textimage.page_script(f"{page:03d}")
         panel = next(p for p in script.panels if p.index == index)
-        return textimage.text_image(panel.text, *textimage.PANEL_SIZE,
+        return textimage.text_image(panel.text, *panel_layout.size(page, index),
                                     label=f"PAGE {page:03d} · PANEL {index:02d} · PLACEHOLDER")
 
     def panel(self, page, index):
         art = letterpress.find_art(f"{page:03d}", index)
         if not art:
             return self.placeholder(page, index)
+        panel_layout.require(art, panel_layout.size(page, index))
         record = letterpress.load_slots()
         placed, _ = letterpress.panel_layout(f"{page:03d}", index, record)
-        return letterpress.svg_panel(placed, record, *letterpress.PANEL_SIZE, art=art)
+        return letterpress.svg_panel(placed, record, *panel_layout.size(page, index), art=art)
 
     def render_page(self, page, kind):
         if page is None:
             return '<section class="blank" aria-label="Blank facing page">Blank facing page</section>'
+        if source_version() != START_VERSION:
+            raise ValueError("Viewer code changed; restart the local server")
         record = self.pages[page]
         heading = f'<h2>Page {page:03d} · {html.escape(record.title)}</h2>'
         if kind == "art":
-            images = ''.join(f'<img src="/panel/{page:03d}-{i:02d}.svg" alt="Panel {page:03d}-{i:02d}">'
+            images = ''.join(f'<img style="{panel_layout.style(record.panel_count, i)}" src="/panel/{page:03d}-{i:02d}.svg" alt="Panel {page:03d}-{i:02d}">'
                              for i in range(1, record.panel_count + 1))
-            return f'<section>{heading}<div class="page-art" data-panels="{record.panel_count}">{images}</div></section>'
+            return f'<section>{heading}<div class="page-art" data-panel-layout="2" style="aspect-ratio:{panel_layout.load()["page"][0]}/{panel_layout.load()["page"][1]}" data-panels="{record.panel_count}">{images}</div></section>'
         if kind == "options":
             # scan merges on-disk discoveries with decisions, but never writes the table.
             variants, _, _ = panelart.scan()
@@ -146,6 +171,8 @@ class Handler(BaseHTTPRequestHandler):
         self.send_header('Content-Length', str(len(body)))
         self.send_header('Cache-Control', 'no-store')
         self.send_header('X-Content-Type-Options', 'nosniff')
+        self.send_header('X-Viewer-Build', START_VERSION)
+        self.send_header('X-Panel-Layout', LAYOUT_VERSION)
         self.end_headers()
         self.wfile.write(body)
 
@@ -170,22 +197,25 @@ class Handler(BaseHTTPRequestHandler):
                 self.send_header('Cache-Control', 'no-store')
                 self.end_headers()
                 self.connection.settimeout(20)
-                revision = -1
+                revision = None
                 while True:
                     with session.condition:
-                        session.condition.wait_for(lambda: session.revision != revision, timeout=10)
+                        session.condition.wait_for(lambda: revision is None or session.revision != revision[0], timeout=10)
                         state = session.snapshot()
-                    if state['revision'] != revision:
+                    if (state['revision'], state['restart_required']) != revision:
                         self.wfile.write(('data: ' + json.dumps(state) + '\n\n').encode())
-                        revision = state['revision']
+                        revision = (state['revision'], state['restart_required'])
                     else:
                         self.wfile.write(b': heartbeat\n\n')
                     self.wfile.flush()
             elif path == '/api/catalog':
-                self.reply(dict(modes=MODES, pages=[dict(number=n, title=p.title) for n, p in session.pages.items()]))
+                self.reply(dict(layout_version=LAYOUT_VERSION, build=START_VERSION, modes=MODES, pages=[dict(number=n, title=p.title) for n, p in session.pages.items()]))
             elif path == '/api/state':
                 self.reply(session.snapshot())
             elif path == '/api/view':
+                if source_version() != START_VERSION:
+                    self.reply({'error': 'Viewer code changed; restart the local server'}, status=409)
+                    return
                 query = parse_qs(url.query)
                 mode = query.get('mode', ['spread'])[0]
                 page = int(query.get('page', [str(session.page)])[0])
@@ -193,6 +223,9 @@ class Handler(BaseHTTPRequestHandler):
                     raise ValueError('Invalid display mode or page')
                 self.reply(session.render(mode, page), 'text/html')
             elif match := re.fullmatch(r'/(panel|placeholder)/(\d{3})-(\d{2})\.svg', path):
+                if source_version() != START_VERSION:
+                    self.reply({'error': 'Viewer code changed; restart the local server'}, status=409)
+                    return
                 kind, page, index = match.groups()
                 page, index = int(page), int(index)
                 if page not in session.pages or not 1 <= index <= session.pages[page].panel_count:
@@ -208,7 +241,8 @@ class Handler(BaseHTTPRequestHandler):
             elif path.startswith('/art/'):
                 self.file(panelart.ART_DIR, path[len('/art/'):])
             elif path in ('/', '/app.js', '/app.css', '/sync.js'):
-                self.file(UI, 'index.html' if path == '/' else path[1:])
+                name = 'index.html' if path == '/' else path[1:]
+                self.reply(UI_SNAPSHOT[name], mimetypes.guess_type(name)[0] or 'application/octet-stream')
             else:
                 self.reply({'error': 'Not found'}, status=404)
         except (ValueError, StopIteration):

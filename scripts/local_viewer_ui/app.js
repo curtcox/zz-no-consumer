@@ -9,6 +9,8 @@
   }
   async function render() {
     if (!catalog || !state) return;
+    if (catalog.build && state.build !== catalog.build) { showError('The local server restarted. Reload this display to load matching assets.'); return; }
+    if (state.restart_required) { showError('Viewer code changed. Restart the local server, then reload this display.'); return; }
     $('page').value = state.page;
     $('current').textContent = `Page ${String(state.page).padStart(3, '0')}`;
     const index = catalog.pages.findIndex(p => p.number === state.page);
@@ -30,6 +32,14 @@
       // Text references are local independent readings, not global page controls.
       $('view').querySelectorAll('a').forEach(a => { a.target = '_blank'; a.rel = 'noopener'; });
       window.scrollTo(0, 0);
+      if (catalog.layout_version !== '2') showError('Using the compatibility layout. Restart the local server to enable exact panel sizing.');
+      await Promise.all([...$('view').querySelectorAll('.page-art img')].map(img => img.decode().catch(() => {})));
+      if (mine !== generation) return;
+      if ($('view').querySelector('.page-art') && window.auditPanelFit) {
+        const errors = await window.auditPanelFit($('view'), {allowLegacy: catalog.layout_version !== '2'});
+        if (errors.length) showError('Panel display failed its visibility check. Reload or restart the local server.');
+        window.panelAuditResult = errors;
+      }
     } catch (error) {
       if (mine === generation && error.name !== 'AbortError') showError(error.message);
     }
@@ -75,7 +85,7 @@
       choose(new URLSearchParams(location.search).get('mode'));
       const receive = message => {
         if (message.type === 'state') {
-          const changed = !state || state.page !== message.state.page || state.revision !== message.state.revision;
+          const changed = !state || state.page !== message.state.page || state.revision !== message.state.revision || state.restart_required !== message.state.restart_required || state.build !== message.state.build;
           state = message.state;
           $('status').textContent = `Live · page ${String(state.page).padStart(3, '0')}`;
           $('status').className = 'live';

@@ -445,7 +445,7 @@ python3 scripts/textimage.py render --width 1200 --height 800 --out card.svg \
 
 `--text-file` and standard input work in place of `--text`. `--label` and `--footer` are single-line edge markers, shortened rather than allowed to widen the image.
 
-The `book` command writes one placeholder for every page and every panel image slot in `content/pages/` — page sheets at 700×1000 and panel images at 1200×800. Counts come from the current scripts:
+The `book` command writes one placeholder for every page and every panel image slot in `content/pages/` — page sheets at 700×1000 and panel canvases derived from the shared layout (currently 1200×800). See [panel geometry and fit](design/panel-fit.md). Counts come from the current scripts:
 
 ```sh
 python3 scripts/textimage.py book --out-dir /tmp/book-placeholders

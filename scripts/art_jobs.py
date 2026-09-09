@@ -168,6 +168,8 @@ def transition(job, state, note):
 
 
 def snapshot(panel):
+    import panel_layout
+    size = panel_layout.target(panel)
     data = storyboards.load()
     if panel not in {s.id for s in produce.all_slots()}:
         raise ValueError(f'{panel} is not a current reader slot')
@@ -178,7 +180,7 @@ def snapshot(panel):
     placed, remaining, lettering = storyboards.lettering(panel, scene)
     if remaining or any(p.truncated for p in placed):
         raise ValueError(f'{panel}: incomplete lettering')
-    board = storyboards.render(scene, data)
+    board = storyboards.render(scene, data, size=size)
     # Include the complete page and adjacent pages so changed continuity invalidates work.
     page = int(panel[:3])
     sources = {}
@@ -190,13 +192,17 @@ def snapshot(panel):
                  'prompts/negative-prompt.md', 'prompts/characters.md', 'prompts/environments.md'):
         path = ROOT / name
         sources[name] = digest(path.read_bytes())
-    return {'panel': panel, 'source': source, 'board': board, 'scene': scene,
+    return {'panel': panel, 'target_size': list(size), 'source': source, 'board': board, 'scene': scene,
             'palette': data['palette'], 'placed': [asdict(p) for p in placed],
             'lettering': lettering, 'sources': sources}
 
 
 def fresh(job):
-    if digest(encoded(snapshot(job['panel'])).encode()) != job['snapshot_sha']:
+    current = snapshot(job['panel'])
+    # Pre-layout jobs are compatible only with their original 1200x800 canvas.
+    if 'target_size' not in job['snapshot'] and current.get('target_size') == [1200,800]:
+        current.pop('target_size')
+    if digest(encoded(current).encode()) != job['snapshot_sha']:
         raise ValueError(f"{job['id']}: source/composition changed; prepare a new job after review")
 
 
@@ -204,7 +210,7 @@ def rasterize(svg):
     runner = shutil.which('rsvg-convert')
     if not runner:
         raise ValueError('Preparing a PNG board requires rsvg-convert on PATH; no package is installed automatically')
-    result = subprocess.run([runner, '-w', '1200', '-h', '800'], input=svg.encode(),
+    result = subprocess.run([runner], input=svg.encode(),
                             capture_output=True, timeout=30)
     if result.returncode:
         raise ValueError('Board rasterization failed: ' + result.stderr.decode(errors='replace')[-500:])
@@ -232,9 +238,13 @@ def prepare(db, args):
               imagegen.compose_panel(page, int(index), produce.register_for(page), budget=0))
     if not prompt.strip():
         raise ValueError('Empty prompt')
-    zones = [[round(p[k]/(storyboards.W if k in ('x', 'w') else storyboards.H), 4)
+    width, height = snap['target_size']
+    zones = [[round(p[k]/(width if k in ('x', 'w') else height), 4)
               for k in ('x', 'y', 'w', 'h')] for p in snap['placed']]
-    prompt += ('\n\nProduction constraints: one full-bleed 3:2 image, 1536x1024 PNG. '
+    prompt += (f'\n\nProduction constraints: one full-bleed image for a {width}x{height} panel. '
+               'Generate at this aspect ratio and resolution when supported. Otherwise preserve '
+               'the composition inside an explicit crop area; deliver a reviewed crop at the target ratio. '
+               'No letterboxing, padding, stretching, or baked-in edge bands. '
                'Use the first reference for composition and later references for continuity. '
                'Do not draw captions, speech balloons, or an outer frame; production adds these. '
                'Keep meaningful subjects and labels out of these normalized [x,y,w,h] lettering boxes: '
@@ -282,8 +292,8 @@ def receive(db, job, data, seconds):
     if seconds is not None and (not math.isfinite(seconds) or seconds < 0 or seconds > 86400):
         raise ValueError('Elapsed seconds must be between 0 and 86400')
     size = png_size(data)
-    if size != [1536, 1024]:
-        raise ValueError(f'Expected 1536x1024; received {size}. Preserve the output and resolve dimensions explicitly.')
+    import panel_layout
+    panel_layout.require_size(size, job['snapshot'].get('target_size', [1200,800]), job['id'])
     attempt.update(output_sha=put_blob(db, data), dimensions=size, elapsed_seconds=seconds, received=now())
     transition(job, 'awaiting-review', 'Exact PNG saved outside the published artwork store')
     save(db, job)
@@ -315,6 +325,8 @@ def publish(db, job, note):
     fresh(job)
     attempt = job['attempts'][-1]
     raw = blob(db, attempt['output_sha'])
+    import panel_layout
+    panel_layout.require_size(png_size(raw), job['snapshot'].get('target_size', [1200,800]), job['id'])
     composed = compose(job, raw).encode()
     # Accepted provenance survives removal of the local queue. Files are addressed
     # by content, shared across jobs, and never overwritten.
@@ -460,8 +472,7 @@ def export(db, directory):
             (folder / f'attempt-{item["number"]:02d}.png').write_bytes(raw)
             drawing = compose(job, raw)
             placed = [letterpress.Placed(**p) for p in job['snapshot']['placed']]
-            lettered = letterpress.svg_panel(placed, job['snapshot']['lettering'], storyboards.W,
-                                             storyboards.H, art_href=storyboards.svg_uri(drawing))
+            lettered = letterpress.svg_panel(placed, job['snapshot']['lettering'], *job['snapshot'].get('target_size', [1200,800]), art_href=storyboards.svg_uri(drawing))
             (folder / f'attempt-{item["number"]:02d}-lettered.svg').write_text(lettered)
             label = html.escape(item.get('defect', 'Visual review required; mechanical checks do not approve the scene'))
             views.append(f'<figure class="lettered">{lettered}<figcaption>Attempt {item["number"]}: {label}</figcaption></figure>')

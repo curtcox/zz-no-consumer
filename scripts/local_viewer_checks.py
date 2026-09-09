@@ -6,6 +6,7 @@ import re
 import threading
 from urllib.parse import urlsplit
 from xml.etree import ElementTree
+from unittest.mock import patch
 
 
 def check():
@@ -46,6 +47,20 @@ def check():
                 assert line, 'Event stream closed'
         try:
             assert len(json.loads(request('/api/catalog')[1])['modes']) == 10
+            import local_viewer as local
+            state = json.loads(request('/api/state')[1])
+            assert state['layout_version'] == '2' and not state['restart_required']
+            original_css = request('/app.css')[1]
+            # A changed checkout cannot hot-load CSS into the old Python process.
+            with patch.object(local, 'source_version', return_value='changed-checkout'):
+                assert request('/app.css')[1] == original_css
+                assert json.loads(request('/api/state')[1])['restart_required']
+                assert request('/api/view?mode=right&page=1')[0] == 409
+            for number, record in session.pages.items():
+                body = session.render_page(number, 'art')
+                assert 'data-panel-layout="2"' in body
+                assert len(re.findall(r'<img ', body)) == record.panel_count
+                assert len(re.findall(r'<img style="left:', body)) == record.panel_count
             # Independent long-lived readers all receive selection without polling.
             streams = [stream() for _ in range(12)]
             assert all(event(s)['page'] == 1 for s in streams)

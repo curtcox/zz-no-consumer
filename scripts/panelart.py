@@ -88,14 +88,10 @@ def variant_dir(panel: str) -> Path:
 
 def measure(path: Path) -> tuple[str, str]:
     try:
-        if path.suffix.lower() == ".svg":
-            import xml.etree.ElementTree as ET
-            root = ET.parse(path).getroot()
-            return root.get("width", ""), root.get("height", "")
-        from PIL import Image
-        with Image.open(path) as image:
-            return str(image.width), str(image.height)
-    except Exception:                       # Pillow absent, or not an image we read
+        import panel_layout
+        w,h = panel_layout.dimensions(path)
+        return f"{w:g}", f"{h:g}"
+    except (ValueError, OSError, KeyError):
         return "", ""
 
 
@@ -220,7 +216,12 @@ def alternates(page: str, index: int) -> list[Variant]:
 
 
 def next_number(panel: str) -> int:
-    existing = [v.number for v in discover() if v.panel == panel]
+    directory = variant_dir(panel)
+    existing = [int(m.group(1)[1:]) for path in directory.iterdir()
+                if path.suffix.lower() in SUFFIXES
+                and (m := VARIANT_FILE.match(path.stem))] if directory.exists() else []
+    if any((ART_DIR / (panel + suffix)).is_file() for suffix in SUFFIXES):
+        existing.append(1)
     return max(existing, default=0) + 1
 
 
@@ -279,6 +280,9 @@ def _set_status(args: argparse.Namespace, status: str) -> int:
     for variant in merged:
         if variant.panel == args.panel and variant.variant == args.variant:
             hit = True
+            if status == CHOSEN:
+                import panel_layout
+                panel_layout.require(variant.path, panel_layout.target(args.panel))
             updated.append(replace(variant, status=status, note=args.note or variant.note))
         elif variant.panel == args.panel and status == CHOSEN and variant.status == CHOSEN:
             updated.append(replace(variant, status=CANDIDATE))   # only one chosen per panel

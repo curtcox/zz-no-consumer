@@ -150,7 +150,10 @@ def layout_panel(fields: list[tuple[str, str]], record: dict,
 
 
 def panel_layout(page_id: str, index: int, record: dict,
-                 width: int = PANEL_SIZE[0], height: int = PANEL_SIZE[1]):
+                 width: int | None = None, height: int | None = None):
+    if width is None or height is None:
+        import panel_layout as geometry
+        width, height = geometry.size(page_id, index)
     fields = textimage.lettering_fields(page_id).get(index, [])
     placed, manual = layout_panel(fields, record, width, height)
     # Explicit scene placements are authored geometry, not guessed speaker positions.
@@ -342,6 +345,8 @@ def cmd_slots(args: argparse.Namespace) -> int:
 
 
 def cmd_panel(args: argparse.Namespace) -> int:
+    import panel_layout as geometry
+    size = geometry.size(args.page, args.image)
     record = load_slots()
     placed, manual = panel_layout(args.page, args.image, record)
     art = Path(args.art) if args.art else find_art(args.page, args.image)
@@ -350,9 +355,9 @@ def cmd_panel(args: argparse.Namespace) -> int:
     out.parent.mkdir(parents=True, exist_ok=True)
 
     if args.flatten:
-        raster_panel(placed, record, *PANEL_SIZE, art, args.scale).save(out)
+        raster_panel(placed, record, *size, art, args.scale).save(out)
     else:
-        out.write_text(svg_panel(placed, record, *PANEL_SIZE, art=art), encoding="utf-8")
+        out.write_text(svg_panel(placed, record, *size, art=art), encoding="utf-8")
 
     for item in placed:
         mark = " TRUNCATED" if item.truncated else ""
@@ -371,10 +376,12 @@ def cmd_page(args: argparse.Namespace) -> int:
     out_dir.mkdir(parents=True, exist_ok=True)
     script = textimage.page_script(args.page)
     for panel in script.panels:
+        import panel_layout as geometry
+        size = geometry.size(args.page, panel.index)
         placed, manual = panel_layout(args.page, panel.index, record)
         art = find_art(args.page, panel.index)
         target = out_dir / f"{args.page}-{panel.index:02d}.svg"
-        target.write_text(svg_panel(placed, record, *PANEL_SIZE, art=art), encoding="utf-8")
+        target.write_text(svg_panel(placed, record, *size, art=art), encoding="utf-8")
         print(f"  {target.name}  {len(placed)} placed, {len(manual)} manual")
     print(f"Wrote {len(script.panels)} panel(s) into {out_dir.relative_to(ROOT)}")
     return 0

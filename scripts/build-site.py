@@ -10,6 +10,7 @@ import posixpath
 import re
 import shutil
 import subprocess
+import hashlib
 import sys
 from urllib.parse import quote, unquote, urlsplit
 from dataclasses import dataclass
@@ -21,6 +22,7 @@ import pagelinks
 import epub
 import imagegen
 import letterpress
+import panel_layout
 import novella
 import panelart
 import textimage
@@ -387,8 +389,11 @@ def viewer_document(
     entity_kind: str,
 ) -> str:
     current_directory = destination.parent
-    css_href = relative_url(current_directory, Path("viewer/viewer.css"))
-    js_href = relative_url(current_directory, Path("viewer/viewer.js"))
+    css_hash = hashlib.sha256((ROOT / "site/viewer/viewer.css").read_bytes()).hexdigest()[:12]
+    js_hash = hashlib.sha256((ROOT / "site/viewer/viewer.js").read_bytes()).hexdigest()[:12]
+    audit_hash = hashlib.sha256((ROOT / "scripts/local_viewer_ui/panel-audit.js").read_bytes()).hexdigest()[:12]
+    css_href = relative_url(current_directory, Path("viewer/viewer.css")) + "?v=" + css_hash
+    js_href = relative_url(current_directory, Path("viewer/viewer.js")) + "?v=" + js_hash
     project_home = route_url(current_directory, Path("index.html"))
     nav_links = {
         key: route_url(current_directory, target)
@@ -481,6 +486,7 @@ def viewer_document(
     <div><dt>?</dt><dd>Show this map</dd></div></dl>
   </dialog>
   <div class="toast" role="status" aria-live="polite" data-toast></div>
+  <script src="{html.escape(relative_url(current_directory, Path("viewer/panel-audit.js")))}?v={audit_hash}" defer></script>
   <script src="{html.escape(js_href)}" defer></script>
 </body>
 </html>
@@ -514,10 +520,12 @@ def build_lettering() -> dict[tuple[str, int], str]:
             art = letterpress.find_art(script.id, panel.index)
             if art is None:
                 continue
-            placed, _ = letterpress.panel_layout(script.id, panel.index, record)
+            size = panel_layout.size(script.id, panel.index)
+            panel_layout.require(art, size)
+            placed, _ = letterpress.panel_layout(script.id, panel.index, record, *size)
             name = f"{script.id}-{panel.index:02d}.svg"
             (destination / name).write_text(
-                letterpress.svg_panel(placed, record, *letterpress.PANEL_SIZE, art=art),
+                letterpress.svg_panel(placed, record, *size, art=art),
                 encoding="utf-8")
             lettered[(script.id, panel.index)] = name
 
@@ -595,11 +603,11 @@ def page_art(
 ) -> str:
     compact_class = " page-art--compact" if compact else ""
     panels = "".join(
-        placeholder_img(from_directory, book.panels[(page.id, index)], "page-art__panel")
+        placeholder_img(from_directory, book.panels[(page.id, index)], "page-art__panel").replace('<img ', f'<img style="{panel_layout.style(page.panel_count, index)}" ', 1)
         for index in range(1, page.panel_count + 1)
     )
     return (
-        f'<div class="page-art{compact_class}" data-content="image" '
+        f'<div class="page-art{compact_class}" data-panel-layout="2" style="aspect-ratio:{panel_layout.load()["page"][0]}/{panel_layout.load()["page"][1]}" data-content="image" '
         f'data-panels="{page.panel_count}">'
         f'{panels}</div>'
     )
@@ -875,6 +883,7 @@ def build_viewer() -> None:
     viewer_source = ROOT / "site" / "viewer"
     shutil.copy2(viewer_source / "viewer.css", OUT / "viewer" / "viewer.css")
     shutil.copy2(viewer_source / "viewer.js", OUT / "viewer" / "viewer.js")
+    shutil.copy2(ROOT / "scripts/local_viewer_ui/panel-audit.js", OUT / "viewer/panel-audit.js")
 
 
 # ---------------------------------------------------------------------- bake-off
@@ -2556,6 +2565,10 @@ def main() -> int:
         help="build all research, production, prompt, and design pages into the ignored 256t/site directory",
     )
     args = parser.parse_args()
+
+    errors = panel_layout.check()
+    if errors:
+        raise SystemExit("Panel fit preflight failed before replacing output:\n" + "\n".join(errors))
 
     global OUT
     OUT = ROOT / "256t" / "site" if args.internal else ROOT / "docs"

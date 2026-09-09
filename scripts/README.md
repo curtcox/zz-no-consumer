@@ -74,6 +74,7 @@ establish current status.
 | `knowledge_map_local.py check` | committed local-model concept images and their recorded provenance |
 | `knowledge_map_finish.py check` | structure-preserving finish studies, and that their v1 sources have not moved |
 | `storyboards.py check` | scene geometry, source drift, lettering clearance, deterministic assets, stage selection, and production skip behavior; `--complete` requires every reader slot |
+| `panel_layout.py check [--built]` | shared rectangle geometry, selected image ratio/resolution, crop regression fixtures, and published panel positions; see [panel fit](../design/panel-fit.md) |
 | `validate-viewer.py` | every generated viewer route, control, and view setting resolves |
 | `validate-novella.py` | one anchor per page in one chapter, linked from contents; the four downloads are complete |
 | `validate-site-links.py` | every local HTML and EPUB link target and fragment exists; Markdown downloads have explicit fragment anchors; anchors are unique; includes offline regression fixtures. Run after building; `--out PATH` selects another build tree. External URLs are not fetched. |
@@ -107,6 +108,11 @@ generation boundaries, so a CI run can never reach for an image model.
 | `cadence.py report` / `list` | the negation cadence of the visible lettering. **No `check`, deliberately** — which aphorisms to thin is an editorial judgement no exit code should make. |
 
 ## Artwork
+
+Panel dimensions and reviewed crop derivatives are governed by
+[the panel-fit workflow](../design/panel-fit.md) and `data/panel-layouts.json`.
+`panel_layout.py fit` records a crop without overwriting its source; the builder
+refuses selected artwork that does not fit its target rectangle.
 
 `image_crop.py inspect IMAGE --review REVIEW.html` detects flat border bands and,
 when local Tesseract is available, text boxes. The self-contained review includes

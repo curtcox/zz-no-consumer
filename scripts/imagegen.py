@@ -469,6 +469,8 @@ def prompt_sections(page: str, panel: int, register: str) -> list[Section]:
     Sections offering a `(compact)` heading fall back to it rather than dropping
     out entirely, which is how composition survives a 512-token budget at all.
     """
+    import panel_layout
+    width, height = panel_layout.size(page, panel)
     style = PROMPT_DIR / "global-style.md"
 
     def block(heading: str, rank: int) -> Section:
@@ -477,6 +479,7 @@ def prompt_sections(page: str, panel: int, register: str) -> list[Section]:
                        _digest(style, f"{heading} (compact)"))
 
     return [
+        Section("panel geometry", f"Target panel: {width}x{height}. Full bleed; no padding or edge bands. Keep essential content inside the intended crop.", 0),
         block("Rendering target", 4),
         Section("register", f"Register — {register}: {register_clause(register)}", 3),
         Section("panel", f"Panel — {panel_direction(page, panel)}", 1),

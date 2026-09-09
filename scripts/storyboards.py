@@ -22,6 +22,7 @@ import xml.etree.ElementTree as ET
 import panelart
 import panels
 import textimage
+import panel_layout
 
 ROOT = Path(__file__).resolve().parents[1]
 DATA = ROOT / 'data/storyboards.json'
@@ -97,6 +98,7 @@ def place_manual(scene, fields, width, height):
 def lettering(key, scene):
     import letterpress
     page, index = key.split('-')
+    W, H = panel_layout.target(key)
     record = letterpress.load_slots()
     fields = textimage.lettering_fields(page).get(int(index), [])
     if scene.get('lettering_mode') == 'manual':
@@ -119,6 +121,7 @@ def validate(data):
         if key not in sources:
             errors.append(f'{key}: nonexistent panel')
             continue
+        W, H = panel_layout.target(key)
         if scene.get('source') != sources[key]:
             errors.append(f'{key}: script changed; review composition and refresh its source snapshot')
         for node in scene['nodes']:
@@ -152,7 +155,8 @@ def validate(data):
     return errors
 
 
-def render(scene, data, *, layout=False):
+def render(scene, data, *, layout=False, size=None):
+    W, H = size or textimage.PANEL_SIZE
     library = json.loads(LIBRARY.read_text())
     palette = data['palette']
     used_assets = {n['asset']: library['assets'][n['asset']] for n in scene['nodes']}
@@ -191,7 +195,8 @@ def svg_uri(svg):
 
 def preview(key, scene, data, mode='lettered'):
     import letterpress
-    drawing = render(scene, data, layout=mode == 'layout')
+    W, H = panel_layout.target(key)
+    drawing = render(scene, data, layout=mode == 'layout', size=(W,H))
     if mode == 'clean' or mode == 'layout':
         return drawing
     placed, _, record = lettering(key, scene)
@@ -202,9 +207,10 @@ def check(data):
     errors = validate(data)
     variants = panelart.load(refresh=True)
     for key, scene in data['scenes'].items():
-        svg = render(scene, data).encode()
+        W, H = panel_layout.target(key)
+        svg = render(scene, data, size=(W,H)).encode()
         ET.fromstring(svg)
-        if svg != render(scene, data).encode():
+        if svg != render(scene, data, size=(W,H)).encode():
             errors.append(f'{key}: nondeterministic renderer')
         if not any(v.path.is_file() and v.provider == 'storyboard-svg' and
                    v.path.read_bytes() == svg for v in variants.get(key, [])):
@@ -292,7 +298,8 @@ def generate(data):
     variants = panelart.load(refresh=True)
     added = 0
     for key, scene in data['scenes'].items():
-        svg = render(scene, data).encode()
+        W, H = panel_layout.target(key)
+        svg = render(scene, data, size=(W,H)).encode()
         if any(v.path.is_file() and v.provider == 'storyboard-svg' and
                v.path.read_bytes() == svg for v in variants.get(key, [])):
             continue
@@ -310,6 +317,7 @@ def gallery(output):
     scenes = data['scenes']
     cards = []
     for key, scene in scenes.items():
+        W, H = panel_layout.target(key)
         modes = []
         for mode in ('layout', 'clean', 'lettered', 'current'):
             name = f'{key}-{mode}.svg'
@@ -347,13 +355,13 @@ def gallery(output):
                     svg = preview(key, scenes[key], data)
                 else:
                     svg = textimage.text_image(panel.text, W, H, label=key, footer='TEXT FALLBACK')
-                cells.append(f'<figure><img src="{svg_uri(svg)}" alt="Panel {key}"><figcaption>{key}</figcaption></figure>')
-            pages_html.append(f'<div class="sheet"><h3>{pid} · {"Recto" if page%2 else "Verso"}</h3><div class="pagepanels">' + ''.join(cells) + '</div></div>')
+                cells.append(f'<figure style="{panel_layout.style(len(script_map[pid].panels), panel.index)}"><img src="{svg_uri(svg)}" alt="Panel {key}"><figcaption>{key}</figcaption></figure>')
+            pages_html.append(f'<div class="sheet"><h3>{pid} · {"Recto" if page%2 else "Verso"}</h3><div class="pagepanels" style="aspect-ratio:{panel_layout.load()["page"][0]}/{panel_layout.load()["page"][1]}">' + ''.join(cells) + '</div></div>')
         spreads.append('<div class="spread">'+''.join(pages_html)+'</div>')
     document = '''<!doctype html><html lang="en"><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Storyboard workshop</title><style>
-    *{box-sizing:border-box}body{margin:0;background:#101214;color:#E7E0D0;font:16px/1.5 system-ui}header,main{max-width:1500px;margin:auto;padding:24px}h1{font-size:38px;margin:0}h2{font-size:18px;scroll-margin-top:100px}p{max-width:85ch}a{color:#bdd4df}nav{display:flex;gap:20px;flex-wrap:wrap;position:sticky;top:0;background:#202326;padding:18px 24px;z-index:2}button,select{font:inherit;padding:6px}section.cards{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:24px}article{background:#202326;padding:18px;border:1px solid #5E737B;border-radius:8px}.image{position:relative}.image img{width:100%;display:none}body[data-mode=lettered] .lettered,body[data-mode=clean] .clean,body[data-mode=layout] .layout,body[data-mode=current] .current{display:block}.guides{display:none;position:absolute;inset:0;width:100%;height:100%;pointer-events:none}body.show-guides .guides{display:block}.spread{display:grid;grid-template-columns:1fr 1fr;gap:24px;margin:24px 0}.sheet{background:#E7E0D0;color:#101214;padding:18px}.pagepanels{display:grid;grid-template-columns:1fr 1fr;gap:10px}.pagepanels figure:last-child:nth-child(odd){grid-column:span 2}figure{margin:0}figure img{width:100%;display:block}figcaption{font-size:11px}@media(max-width:750px){section.cards{grid-template-columns:1fr}.spread{gap:8px}.sheet{padding:8px}}
+    *{box-sizing:border-box}body{margin:0;background:#101214;color:#E7E0D0;font:16px/1.5 system-ui}header,main{max-width:1500px;margin:auto;padding:24px}h1{font-size:38px;margin:0}h2{font-size:18px;scroll-margin-top:100px}p{max-width:85ch}a{color:#bdd4df}nav{display:flex;gap:20px;flex-wrap:wrap;position:sticky;top:0;background:#202326;padding:18px 24px;z-index:2}button,select{font:inherit;padding:6px}section.cards{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:24px}article{background:#202326;padding:18px;border:1px solid #5E737B;border-radius:8px}.image{position:relative}.image img{width:100%;display:none}body[data-mode=lettered] .lettered,body[data-mode=clean] .clean,body[data-mode=layout] .layout,body[data-mode=current] .current{display:block}.guides{display:none;position:absolute;inset:0;width:100%;height:100%;pointer-events:none}body.show-guides .guides{display:block}.spread{display:grid;grid-template-columns:1fr 1fr;gap:24px;margin:24px 0}.sheet{background:#E7E0D0;color:#101214;padding:18px}.pagepanels{position:relative}.pagepanels figure{position:absolute}.pagepanels figure img{height:100%;object-fit:contain}.pagepanels figcaption{position:absolute;bottom:0;background:#e7e0d0;padding:0 3px}figure{margin:0}figure img{width:100%;display:block}figcaption{font-size:11px}@media(max-width:750px){section.cards{grid-template-columns:1fr}.spread{gap:8px}.sheet{padding:8px}}
     </style><body data-mode="lettered"><header><h1>Storyboard workshop</h1><p>Composition before rendering. Reconstructed scenes use broken borders. These are provisional compositions, not documentary images or likeness studies.</p></header><nav><label>View <select id="mode"><option value="lettered">With lettering</option><option value="clean">Clean storyboard</option><option value="layout">Layout boxes</option><option value="current">Current book selection</option></select></label><label><input id="guides" type="checkbox"> Lettering zones & focal points</label><a href="#spreads">Page spreads</a></nav><main><section class="cards">'''
-    document += ''.join(cards) + '</section><h2 id="spreads">Page spreads</h2><p>Provisional two-column thumbnails, with the complete panel sequence and physical recto/verso pairing. Final panel geometry remains an editorial decision.</p>' + ''.join(spreads)
+    document += ''.join(cards) + '</section><h2 id="spreads">Page spreads</h2><p>Shared reader geometry, with the complete panel sequence and physical recto/verso pairing.</p>' + ''.join(spreads)
     document += '''</main><script>document.getElementById('mode').onchange=e=>document.body.dataset.mode=e.target.value;document.getElementById('guides').onchange=e=>document.body.classList.toggle('show-guides',e.target.checked);</script></body></html>'''
     (output/'index.html').write_text(document)
 
@@ -372,6 +380,7 @@ def check_built(output):
                 assert (output / unquote(url.path)).is_file(), value
     Links().feed((output / 'index.html').read_text())
     for key, scene in load()['scenes'].items():
+        W, H = panel_layout.target(key)
         assert json.loads((output / f'{key}.json').read_text()) == scene
         for mode in ('layout', 'clean', 'lettered', 'current'):
             root = ET.parse(output / f'{key}-{mode}.svg').getroot()

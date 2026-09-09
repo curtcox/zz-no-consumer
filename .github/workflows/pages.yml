@@ -82,11 +82,26 @@ jobs:
           python scripts/pagination.py check
           python scripts/panels.py check
 
+      - name: Check panel geometry and selected artwork fit
+        run: python scripts/panel_layout.py check
+
       - name: Build site
         run: python scripts/build-site.py
 
       - name: Validate built storyboard workshop
         run: python scripts/storyboards.py check --complete --built
+
+      - name: Validate published panel fit
+        run: python scripts/panel_layout.py check --built
+
+      - name: Test local viewer version compatibility
+        run: python scripts/local_viewer.py check
+
+      - name: Test rendered panel visibility in Chrome
+        run: |
+          python scripts/panel_browser_checks.py write --out /tmp/panel-check.html
+          google-chrome --headless --no-sandbox --disable-gpu --disable-dev-shm-usage --virtual-time-budget=30000 --dump-dom file:///tmp/panel-check.html > /tmp/panel-check-result.html
+          python scripts/panel_browser_checks.py verify --out /tmp/panel-check-result.html
 
       - name: Validate viewer routes
         run: python scripts/validate-viewer.py

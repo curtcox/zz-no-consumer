@@ -292,8 +292,9 @@ def cmd_plan(args: argparse.Namespace) -> int:
     if todo:
         shown = ", ".join(s.id for s in todo[:14])
         print(f"\nWould draw: {shown}{' …' if len(todo) > 14 else ''}")
-        print(f"Size:      {args.width}x{args.height}"
-              f"{'  (above the 1200x800 the model was measured at)' if args.width > 1200 else ''}")
+        import panel_layout
+        for slot in todo:
+            print(f"{slot.id}: target {panel_layout.target(slot.id)}")
     return 0
 
 
@@ -357,11 +358,7 @@ def cmd_run(args: argparse.Namespace) -> int:
     out_dir = (args.out_dir if args.out_dir and args.out_dir.is_absolute()
                else ROOT / args.out_dir if args.out_dir else ART_DIR)
     out_dir.mkdir(parents=True, exist_ok=True)
-    size = (args.width, args.height)
-    render_size = bleed_size(*size, args.bleed) if args.bleed else size
-    if args.bleed:
-        print(f"Bleed:     rendering {render_size[0]}x{render_size[1]}, "
-              f"cropping to {size[0]}x{size[1]}")
+    import panel_layout
     stop = Interrupt()
     started = time.time()
     made = failed = 0
@@ -370,6 +367,13 @@ def cmd_run(args: argparse.Namespace) -> int:
     for position, slot in enumerate(todo, 1):
         if stop.asked:
             break
+        size = panel_layout.target(slot.id)
+        if args.width is not None or args.height is not None:
+            if args.width is None or args.height is None:
+                raise ValueError("Specify both --width and --height")
+            panel_layout.require_size((args.width,args.height), size, slot.id)
+            size = (args.width,args.height)
+        render_size = bleed_size(*size, args.bleed) if args.bleed else size
         prompt = imagegen.compose_panel(slot.page, slot.panel, slot.register,
                                         budget=provider.prompt_tokens)
         for take in range(args.takes):
@@ -407,7 +411,7 @@ def cmd_run(args: argparse.Namespace) -> int:
                 "panel": slot.panel,
                 "register": slot.register,
                 "seed": seed,
-                "size": [args.width, args.height],
+                "size": list(size),
                 "seconds": round(elapsed, 1),
                 "usd": 0.0,
                 "path": str(target.relative_to(ROOT)) if target.is_relative_to(ROOT)
@@ -450,8 +454,8 @@ def main() -> int:
         sub.add_argument("--provider", help="local model id; defaults to the fastest ready one")
         sub.add_argument("--force", action="store_true",
                          help="draw another version of panels that already have art")
-        sub.add_argument("--width", type=int, default=imagegen.PANEL_SIZE[0])
-        sub.add_argument("--height", type=int, default=imagegen.PANEL_SIZE[1])
+        sub.add_argument("--width", type=int, default=None)
+        sub.add_argument("--height", type=int, default=None)
 
     status = commands.add_parser("status", help="how much of the book has art")
 

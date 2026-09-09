@@ -32,7 +32,7 @@ def run():
     assert a.png_size(raw) == [1536, 1024]
     for damaged in (b'not a png', raw[:-1], raw+b'extra', raw[:50]+bytes([raw[50]^1])+raw[51:]):
         fails(lambda: a.png_size(damaged), 'Corrupt PNG accepted')
-    snap = {'panel': '001-01', 'source': 'fixture', 'board': '<svg/>',
+    snap = {'target_size': [1536, 1024], 'panel': '001-01', 'source': 'fixture', 'board': '<svg/>',
             'scene': {'border': 'default', 'reconstructed': True}, 'palette': {'steel': '#5E737B'},
             'placed': [], 'lettering': {}, 'sources': {}}
     assert 'stroke-dasharray' in a.compose({'snapshot': snap}, raw)
