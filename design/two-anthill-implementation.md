@@ -34,9 +34,9 @@ unchanged labelled reader/responder and before/after re-fog maps, and canonical 
 compositions with a separate static margin/gutter layer. The cover is authored texture,
 not a wiki proposition model. The study explicitly identifies that remaining design work.
 
-`anthill_study.py check` resolves current page identities by title, rejects ant overlap with
-panel rectangles, checks deterministic output and retained re-fog. It runs in the existing
-production-foundations validator. No independent page-keyed data needs renumbering.
+`anthill_study.py check` resolves page references maintained by pagination, rejects ant
+overlap with panel rectangles, checks deterministic output and retained re-fog. It runs in
+the existing production-foundations validator. Titles remain editable display labels.
 
 The ordinary reader uses updated versioned storyboards for the changed scenes. Its overlays
 and raster selections are not expanded throughout the book. Previous art versions remain.
@@ -93,3 +93,19 @@ the page 003 scene title, and editorial explanations of those distinctions. Hist
 research, prior artwork versions, prompts saved with those versions, and the append-only
 generation log retain their original identity. Technical URLs and filenames retain the
 repository slug. No blanket replacement was applied to `zz`, `ZZZ` or `zzHELP_`.
+
+## Follow-up audit applied — 9 September 2026
+
+- Corrected the paraphrase and rewind FAQs, story contract, continuity key and active
+  revision guidance to distinguish the incident wordmark from the new title. Historical
+  research interpretations carry dated applicability notes. The ending brief and beat sheet
+  now record the title revision and the scope of the earlier editorial review.
+- Scoped the authored-ant prompt rules to ant-bearing directions, ahead of optional style
+  blocks. Artwork snapshots now hash the visual bible and continuity/map rules.
+- Replaced title-based study selection with page references maintained by pagination;
+  checks exercise title edits and insertion/movement/deletion mappings.
+- Reconciled credits for repository assistance, built-in raster generation, deterministic
+  SVG artwork and newly used sources. Existing generation receipts remain unchanged.
+- Added separate base, transparent ant, composite and lettered exports to the study.
+  [The overlay investigation](ant-overlays.md) compares algorithmic and model-created
+  assets and describes the remaining production integration and visual decisions.

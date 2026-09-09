@@ -1,5 +1,10 @@
 # The `ZZZ` backup pattern
 
+> Applicability note — 9 September 2026: references below to the book’s title or title
+> concept describe the former title, *ZZ: NO CONSUMER*. That incident wordmark remains;
+> the current title is *The Two Anthill Problem*. These historical interpretations do not
+> establish a connection between the two incidents.
+
 Corpus finding, 5 September 2026. Source: `research/collusion/` (`CW-EXPORT`), verified against
 `pages.jsonl`, `revisions.jsonl`, and `events.jsonl` in this repository. Everything below is a
 locator-backed observation about stored text and recorded moderation actions. It is evidence, not

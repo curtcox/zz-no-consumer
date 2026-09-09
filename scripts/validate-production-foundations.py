@@ -36,8 +36,19 @@ def main() -> int:
     errors: list[str] = []
     from book_metadata import TITLE
     import anthill_study
+    import imagegen
     try:
         anthill_study.check()
+        # Ant constraints survive the normal small-model budget and stay scoped.
+        for page in anthill_study.pages().values():
+            for panel in page.panels:
+                direction = imagegen.panel_direction(page.id, panel.index)
+                if re.search(r"\b(?:ants?|anthills?)\b", direction, re.I):
+                    prompt, kept, _ = imagegen.compose_panel_fit(page.id, panel.index, 'creator', budget=512)
+                    assert any(s.name == 'authored ants' for s in kept), 'Ant convention lost to prompt budget'
+                    assert 'nonquantitative' in prompt
+                else:
+                    assert all(s.name != 'authored ants' for s in imagegen.prompt_sections(page.id, panel.index, 'creator'))
     except (AssertionError, ValueError, KeyError) as exc:
         errors.append(f"Anthill study: {exc}")
     for relative in ("content/continuity.md", "content/premise.md", "README.md", "CREDITS.md", "LICENSE"):

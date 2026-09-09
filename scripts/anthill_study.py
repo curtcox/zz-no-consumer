@@ -1,8 +1,7 @@
 #!/usr/bin/env python3
 """Build/check a static anthill composition study, independent of reader selection.
 
-Uses canonical storyboard scenes, panel geometry and immutable fog studies. Selection by
-page title avoids a second page-key registry; identities and rectangles resolve at build.
+Uses canonical storyboard scenes, panel geometry and immutable fog studies. Study page references are relocated by pagination.py; titles remain editable labels.
 The cover borrows fog imagery as authored texture, never as a wiki evidence-state model.
 """
 from __future__ import annotations
@@ -19,9 +18,16 @@ import textimage
 
 ROOT = Path(__file__).resolve().parents[1]
 FOG = ROOT / 'assets/knowledge-maps/fog-v1'
-# Titles identify existing scenes. No independently maintained page or panel numbers.
-CASES = [('Published', True), ('Another Agent', True),
-         ('The End of the Alphabet', False)]
+CASES_PATH = ROOT / 'data/anthill-study.json'
+
+def cases():
+    return [(row['page'], row['ants']) for row in json.loads(CASES_PATH.read_text())['cases']]
+
+def relocate(record, mapping):
+    """Identity-tool hook: removed pages lose their study; surviving references follow."""
+    return {'cases': [dict(row, page=f"{mapping[int(row['page'])]:03d}")
+                      for row in record['cases'] if int(row['page']) in mapping]}
+
 MAPS = ['w3-010-reader-hint.svg', 'w3-010-responders-hint.svg',
         'w3-039-before-reader.svg', 'w3-039-after-reader.svg']
 NS = '{http://www.w3.org/2000/svg}'
@@ -35,10 +41,14 @@ def uri(content, mime='image/svg+xml'):
 
 def pages():
     source = textimage.book_scripts()
-    for title, _ in CASES:
-        if sum(p.title == title for p in source) != 1:
-            raise ValueError(f'Study selector must resolve exactly once: {title}')
-    return {p.title: p for p in source}
+    lookup = {p.id: p for p in source}
+    selected = cases()
+    assert len({key for key, _ in selected}) == len(selected), 'Duplicate study page'
+    for key, enabled in selected:
+        if key not in lookup or not isinstance(enabled, bool):
+            raise ValueError(f'Invalid study page or ant flag: {key}')
+    return lookup
+
 
 
 def ant(x, y, angle=0, size=34):
@@ -96,14 +106,68 @@ def cover():
 </svg>'''
 
 
+def overlay_layers(key, scene, data):
+    """Split authored geometry without changing stored art; lettering stays last.
+
+    This bounded prototype supports the existing unobscured ant nodes only. Later
+    foreground occlusion needs an explicit mask, not an inferred depth ordering.
+    """
+    import letterpress
+    ants = [node for node in scene['nodes'] if node['asset'] == 'ant']
+    assert ants, 'No authored ants to separate'
+    def overlaps(a, b):
+        x,y,w,h=a; X,Y,W,H=b
+        return x < X+W and X < x+w and y < Y+H and Y < y+h
+    for i, node in enumerate(scene['nodes']):
+        if node['asset'] != 'ant':
+            continue
+        for later in scene['nodes'][i+1:]:
+            if later['asset'] != 'ant':
+                assert not overlaps(node['box'], later['box']), 'Overlay needs foreground occlusion mask'
+        protected = [r['box'] for r in scene.get('lettering', [])]
+        protected += [r['label_box'] for r in scene['nodes'] if 'label_box' in r]
+        assert all(not overlaps(node['box'], box) for box in protected), 'Ant overlaps lettering'
+    size = panel_layout.target(key)
+    base = storyboards.render(dict(scene, nodes=[n for n in scene['nodes'] if n['asset'] != 'ant']), data, size=size)
+    transparent = ET.fromstring(storyboards.render(dict(scene, nodes=ants, border='none'), data, size=size))
+    transparent.remove(transparent.find(NS+'rect'))  # renderer's sole background; retain ant geometry
+    overlay = ET.tostring(transparent, encoding='unicode')
+    w,h=size
+    composite = (f'<svg xmlns="http://www.w3.org/2000/svg" width="{w}" height="{h}" viewBox="0 0 {w} {h}">'
+                 '<title>Separate authored ants over an ant-free base</title>'
+                 f'<image width="{w}" height="{h}" href="{uri(base)}"/>'
+                 f'<image width="{w}" height="{h}" href="{uri(overlay)}"/></svg>')
+    placed, remaining, record = storyboards.lettering(key, scene)
+    assert not remaining and not any(p.truncated for p in placed)
+    lettered = letterpress.svg_panel(placed, record, w, h, art_href=uri(composite))
+    return {'base': base, 'ants': overlay, 'composite': composite, 'lettered': lettered}
+
+
+def overlay_studies(data, lookup):
+    for page_key, _ in cases():
+        for index, _ in enumerate(lookup[page_key].panels, 1):
+            key = f'{page_key}-{index:02d}'
+            scene = data['scenes'][key]
+            if any(n['asset'] == 'ant' for n in scene['nodes']):
+                yield key, overlay_layers(key, scene, data)
+
+
 def build(output):
     data = storyboards.load()
     lookup = pages()
     output.mkdir(parents=True, exist_ok=True)
     cards=[]
-    for title, enabled in CASES:
-        page=lookup[title]
-        label=f'{page.id} · {title}'
+    overlays=[]
+    for key, layers in overlay_studies(data, lookup):
+        images=[]
+        for label, svg in layers.items():
+            filename=f'{key}-{label}.svg'
+            (output/filename).write_text(svg)
+            images.append(f'<figure><figcaption>{escape(label.capitalize())}</figcaption><img src="{uri(svg)}" alt="{escape(key)} {label} layer study"/><a href="{filename}">Open SVG</a></figure>')
+        overlays.append(f'<article><h3>{key} · separated layers</h3><div class="maps">'+''.join(images)+'</div></article>')
+    for key, enabled in cases():
+        page=lookup[key]
+        label=f'{page.id} · {page.title}'
         svg=page_svg(page,data,enabled)
         cards.append(f'<article><h3>{escape(label)}</h3><p>{"Short routes occupy the outer margin and first horizontal gutter; they do not enter another panel." if enabled else "Excluded: no gutter ants, connecting trail, or barrier. The naming echo remains."}</p><img class="page" src="{uri(svg)}" alt="{escape(label)} — storyboard composition study"/></article>')
     maps=''.join(f'<img src="{uri((FOG/name).read_bytes())}" alt="{escape(ET.fromstring((FOG/name).read_bytes()).find(NS+"title").text)}"/>' for name in MAPS)
@@ -117,21 +181,32 @@ def build(output):
 <p>The cover borrows raster terrain from the existing fog study as authored texture. It is not a wiki evidence map. Both hills remain surfaces; the gap asserts neither contact nor isolation. A wiki-specific proposition model remains to be designed before map adoption.</p>
 <h2>The records have different limits</h2><p><b>Artifactory:</b> this project has published investigations, not the underlying board dump. <b>Wiki:</b> the stored export contains revisions and events within a declared cut. Neither is a complete view of the event. Brightness and ant density do not encode that difference.</p>
 <h2>Viewpoints and re-fog stay intact</h2><p>The original labelled W3 studies are reproduced unchanged: reader and responder at the same reading point, followed by reader states before and after the correction. These are Artifactory studies; neither is relabelled as the wiki.</p><div class="maps">{maps}</div>
+<h2>Separate ant overlays</h2><p>The same authored desk ants are separated from their base image below. The ant SVG has a transparent background; the composite places it over the ant-free base, then adds controlled lettering last. These are algorithmic storyboard shapes, not a model-generated or photorealistic finish. The ant-only panel is shown on the page background so its transparency remains visible.</p>{''.join(overlays)}
 <h2>Page composition</h2><p>The creator’s desk carries two small in-picture ants. The flat marginal marks below are a separate study layer. All lettering comes from canonical scripts. No animation or JavaScript is required.</p>
 <input type="checkbox" id="narrow"><label for="narrow">360 px page</label><input type="checkbox" id="hide"><label for="hide">Hide image studies</label>
 <div class="pages">{''.join(cards)}</div>
 <p>At 360 px, gutter-width ants are tiny marks. Enlargement must not obscure lettering or turn density into a measurement. This study does not change ordinary reader overlays or raster selections.</p></main></html>'''
     (output/'index.html').write_text(content)
     (output/'cover.svg').write_text(cover())
-    for title, enabled in CASES:
-        page=lookup[title]
+    for key, enabled in cases():
+        page=lookup[key]
         (output/f'{page.id}.svg').write_text(page_svg(page,data,enabled))
 
 
 def check():
+    from dataclasses import replace
+    from unittest.mock import patch
+    # A title edit cannot alter the selection; insert/move/delete mappings follow identity.
+    original = textimage.book_scripts()
+    with patch.object(textimage, 'book_scripts', return_value=[replace(p, title='Renamed') for p in original]):
+        assert set(pages()) == {p.id for p in original}
+    fixture = {'cases': [{'page': '002', 'ants': True}, {'page': '004', 'ants': False}]}
+    assert relocate(fixture, {2: 4, 4: 6})['cases'][0]['page'] == '004'
+    assert relocate(fixture, {2: 1})['cases'] == [{'page': '001', 'ants': True}]
+    assert relocate(fixture, {}) == {'cases': []}
     data=storyboards.load(); lookup=pages(); w,h=panel_layout.load()['page']
-    for title, enabled in CASES:
-        page=lookup[title];rects=panel_layout.rectangles(len(page.panels))
+    for key, enabled in cases():
+        page=lookup[key];rects=panel_layout.rectangles(len(page.panels))
         for x,y,angle,size in placements(rects,enabled):
             r=size/2
             assert r<=x<=w-r and r<=y<=h-r
@@ -139,6 +214,20 @@ def check():
         if not enabled:assert not placements(rects,enabled)
         a=page_svg(page,data,enabled);assert a==page_svg(page,data,enabled)
         ET.fromstring(a)
+    for key, layers in overlay_studies(data, lookup):
+        assert layers == overlay_layers(key, data['scenes'][key], data)
+        for svg in layers.values(): ET.fromstring(svg)
+        root=ET.fromstring(layers['ants'])
+        assert root.find(NS+'rect') is None, 'Ant layer must be transparent'
+        base_meta=json.loads(ET.fromstring(layers['base']).find(NS+'metadata').text)
+        assert all(n['asset'] != 'ant' for n in base_meta['scene']['nodes'])
+        # Reject an ant moved into a caption; separate layers cannot excuse a collision.
+        from copy import deepcopy
+        bad=deepcopy(data['scenes'][key])
+        next(n for n in bad['nodes'] if n['asset']=='ant')['box']=bad['lettering'][0]['box']
+        try: overlay_layers(key, bad, data)
+        except AssertionError: pass
+        else: raise AssertionError('Protected lettering collision accepted')
     for name in MAPS:
         root=ET.fromstring((FOG/name).read_bytes())
         meta=json.loads(root.find(NS+'metadata').text)

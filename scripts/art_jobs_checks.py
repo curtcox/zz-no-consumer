@@ -28,6 +28,18 @@ def fails(callback, message):
 def run():
     import art_jobs as a
     import panelart as p
+    # Changing a governing visual rule must invalidate a prepared snapshot.
+    baseline = a.snapshot('001-01')
+    job = {'id': 'visual-rule-fixture', 'panel': '001-01', 'snapshot': baseline,
+           'snapshot_sha': a.digest(a.encoded(baseline).encode())}
+    original_bytes = Path.read_bytes
+    for relative in ('content/visual-bible.md', 'design/visual-continuity.md',
+                     'content/continuity.md', 'design/knowledge-map.md'):
+        target = a.ROOT / relative
+        def changed(path):
+            return original_bytes(path) + (b'\nChanged visual rule\n' if path == target else b'')
+        with patch.object(Path, 'read_bytes', changed):
+            fails(lambda: a.fresh(job), f'Changed visual rule accepted: {relative}')
     raw = png()
     assert a.png_size(raw) == [1536, 1024]
     for damaged in (b'not a png', raw[:-1], raw+b'extra', raw[:50]+bytes([raw[50]^1])+raw[51:]):

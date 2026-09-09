@@ -941,6 +941,19 @@ def plan_rewrite(book: Book, operation: Operation, population: str) -> Plan:
             lambda body, page, index: rewrite_prose(body, mapping)[0],
         ))
 
+    # Study selections are page references, never title-based identities.
+    study_path = ROOT / "data/anthill-study.json"
+    if study_path.exists():
+        import json
+        import anthill_study
+        study = json.loads(study_path.read_text(encoding="utf-8"))
+        relocated = anthill_study.relocate(study, mapping)
+        plan.writes["data/anthill-study.json"] = json.dumps(relocated, indent=2) + "\n"
+        for row in study['cases']:
+            if int(row['page']) not in mapping:
+                plan.notes.append(Note("warning", "removed-study", "data/anthill-study.json",
+                                       f"Removed study for deleted page {row['page']}"))
+
     # --- panel art ----------------------------------------------------------
     art = read("data/panel-art.tsv")
     plan.writes["data/panel-art.tsv"] = rewrite_panel_keys(art, mapping)

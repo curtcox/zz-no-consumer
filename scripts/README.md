@@ -249,9 +249,21 @@ See [the local display manual](../README.md#local-synchronized-displays).
 ## Anthill composition study
 
 `python3 scripts/anthill_study.py build` writes a standalone study to `256t/anthill-study/`;
-`check` resolves the current page identities by title, checks marginal placements against
+`check` resolves page references from `data/anthill-study.json` (relocated by `pagination.py`), checks marginal placements against
 protected panel rectangles, and verifies deterministic SVG and retained fog/re-fog states.
 The production-foundations validator runs this check; the site builder emits the study at
 `docs/anthill-study/`. It changes no ordinary reader overlays or raster selections.
 `book_metadata.py` supplies the current title, description and masthead mark to the builder,
 novella assembler and thumbnail generator. Technical addresses stay independent.
+
+Study selectors are page-level records; panel insertion and deletion resolve the current
+panel rectangles at build time. Deleting a selected page removes its study with a pagination
+warning. Titles are presentation labels and may be changed without breaking selection.
+The ant prompt convention is scoped to directions mentioning ants and ranked ahead of
+optional style blocks. Artwork-job snapshots include the visual bible and continuity/map
+rules so edits invalidate prepared work.
+
+The study also exports ant-free bases, transparent authored-ant layers, composites and
+lettered composites for selected ant-bearing scenes. It checks transparency, deterministic
+output, protected lettering and foreground ordering. See [the overlay investigation](../design/ant-overlays.md)
+for algorithmic/model asset options and the proposed versioned production workflow.

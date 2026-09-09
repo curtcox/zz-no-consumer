@@ -107,7 +107,7 @@ The terms “first,” “second,” and “third civilization” are narrative 
 
 Page allocations are targets rather than licenses to change chronology. Chapter membership and sequence membership are editorially chosen and are never rebalanced by a script; the page *ranges* above, in the chapter briefs, in `data/chapters.yaml`, and in the sequence ledger are derived from that membership and are rewritten together by `scripts/pagination.py`. Change the membership through the tool, in one commit, and review the diff.
 
-The prologue is a dated cold open in the second civilization on 8–9 July. Chapter 1 then rewinds to the April–6 July first civilization; Chapter 2 catches back up to the cold open and moves beyond it. This non-linear opening is necessary because the title-source request is documented after the wipe. Timestamps and palette state must keep the transition unmistakable.
+The prologue is a dated cold open in the second civilization on 8–9 July. Chapter 1 then rewinds to the April–6 July first civilization; Chapter 2 catches back up to the cold open and moves beyond it. This non-linear opening is necessary because the opening help request is documented after the wipe. Timestamps and palette state must keep the transition unmistakable.
 
 The attributed summary of the opening request first appears on story [page 003](pages/003.md). [Page 004](pages/004.md) confirms that the improvised channel is observable by other workloads. This resolves the earlier [page-003](pages/003.md)/[page-004](pages/004.md) pacing ambiguity in favor of the faster opening.
 

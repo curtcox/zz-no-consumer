@@ -1,0 +1,67 @@
+<ns0:svg xmlns:ns0="http://www.w3.org/2000/svg" width="1200" height="800" viewBox="0 0 1200 800"><ns0:title>The title revision keeps the evidence boundary</ns0:title><ns0:metadata>{
+  "assets": {
+    "ant": "&lt;g fill=\"currentColor\" stroke=\"currentColor\" stroke-width=\"3\" stroke-linecap=\"round\"&gt;&lt;ellipse cx=\"31\" cy=\"50\" rx=\"17\" ry=\"12\"/&gt;&lt;ellipse cx=\"54\" cy=\"50\" rx=\"9\" ry=\"7\"/&gt;&lt;ellipse cx=\"71\" cy=\"50\" rx=\"10\" ry=\"9\"/&gt;&lt;path d=\"M45 46L34 29L22 24M52 44L53 25L65 17M59 45L71 30L83 28M45 54L34 71L22 76M52 56L53 75L65 83M59 55L71 70L83 72M78 46L90 35M78 54L90 65\" fill=\"none\"/&gt;&lt;/g&gt;"
+  },
+  "palette": {
+    "amber": "#A17D45",
+    "dirty": "#CEC5B3",
+    "ink": "#101214",
+    "institution": "#68766B",
+    "nicotine": "#AA9571",
+    "paper": "#E7E0D0",
+    "shadow": "#202326",
+    "steel": "#5E737B"
+  },
+  "renderer": "storyboard-svg-1",
+  "scene": {
+    "background": "ink",
+    "border": "none",
+    "intent": "Publication-relative creator revision: rejected connector stays crossed out; separate kept hills make no claim of isolation.",
+    "lettering": [
+      {
+        "box": [
+          0.045,
+          0.03,
+          0.44,
+          0.17
+        ]
+      },
+      {
+        "box": [
+          0.515,
+          0.03,
+          0.44,
+          0.17
+        ]
+      }
+    ],
+    "lettering_mode": "manual",
+    "nodes": [
+      {
+        "asset": "ant",
+        "box": [
+          0.8,
+          0.63,
+          0.025,
+          0.028
+        ],
+        "color": "ink"
+      },
+      {
+        "asset": "ant",
+        "box": [
+          0.845,
+          0.645,
+          0.023,
+          0.026
+        ],
+        "color": "ink"
+      }
+    ],
+    "reconstructed": true,
+    "shot": "office",
+    "source": "\n**Frame:** Verso. Curt performs the final manuscript build. [Page 118](118.md) is still concealed by a black thumbnail.\n\n**Action:** Source packets, corrections, and uncertainty labels compile beside the reading edition. A cover proof reads `THE TWO ANTHILL PROBLEM`. Beside it, a discarded connected-hills sketch remains visible under a heavy cancellation stroke; the kept sketch has two separate surfaces and unmarked space between. A revision slip reads `9 SEPTEMBER 2026 — TITLE REVISION`. Neither sketch has a queen, chamber, or individual agent identity. Two tiny authored ants sit in the desk’s light; they do not stand for particular runs.\n\n**Dialogue — CURT:**\n&gt; Two incidents. How many went unseen?\n\n**Screen / system text — CHATGPT:**\n&gt; The picture cannot answer that.\n\n**Provenance:** `reconstructed` — project publication scene.\n\n",
+    "title": "The title revision keeps the evidence boundary"
+  }
+}
+</ns0:metadata><ns0:g transform="translate(960 504) scale(0.3 0.224)" color="#101214"><ns0:g transform=""><ns0:g fill="currentColor" stroke="currentColor" stroke-width="3" stroke-linecap="round"><ns0:ellipse cx="31" cy="50" rx="17" ry="12" /><ns0:ellipse cx="54" cy="50" rx="9" ry="7" /><ns0:ellipse cx="71" cy="50" rx="10" ry="9" /><ns0:path d="M45 46L34 29L22 24M52 44L53 25L65 17M59 45L71 30L83 28M45 54L34 71L22 76M52 56L53 75L65 83M59 55L71 70L83 72M78 46L90 35M78 54L90 65" fill="none" /></ns0:g></ns0:g></ns0:g><ns0:g transform="translate(1014 516) scale(0.276 0.208)" color="#101214"><ns0:g transform=""><ns0:g fill="currentColor" stroke="currentColor" stroke-width="3" stroke-linecap="round"><ns0:ellipse cx="31" cy="50" rx="17" ry="12" /><ns0:ellipse cx="54" cy="50" rx="9" ry="7" /><ns0:ellipse cx="71" cy="50" rx="10" ry="9" /><ns0:path d="M45 46L34 29L22 24M52 44L53 25L65 17M59 45L71 30L83 28M45 54L34 71L22 76M52 56L53 75L65 83M59 55L71 70L83 72M78 46L90 35M78 54L90 65" fill="none" /></ns0:g></ns0:g></ns0:g></ns0:svg>

@@ -1,0 +1,205 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="800" viewBox="0 0 1200 800"><title>The title revision keeps the evidence boundary</title><metadata>{
+  &quot;assets&quot;: {
+    &quot;box&quot;: &quot;&lt;rect x=\&quot;1\&quot; y=\&quot;1\&quot; width=\&quot;98\&quot; height=\&quot;98\&quot; rx=\&quot;2\&quot; fill=\&quot;#202326\&quot; stroke=\&quot;currentColor\&quot; stroke-width=\&quot;2\&quot;/&gt;&quot;,
+    &quot;card&quot;: &quot;&lt;rect x=\&quot;1\&quot; y=\&quot;1\&quot; width=\&quot;98\&quot; height=\&quot;98\&quot; fill=\&quot;#202326\&quot; stroke=\&quot;currentColor\&quot; stroke-width=\&quot;2\&quot;/&gt;&lt;path d=\&quot;M8 13H92M8 27H70M8 36H86M8 45H72M8 65H86M8 74H57\&quot; stroke=\&quot;currentColor\&quot; stroke-width=\&quot;1.5\&quot;/&gt;&quot;,
+    &quot;cross&quot;: &quot;&lt;path d=\&quot;M10 10L90 90M90 10L10 90\&quot; stroke=\&quot;currentColor\&quot; stroke-width=\&quot;8\&quot;/&gt;&quot;,
+    &quot;desk&quot;: &quot;&lt;path d=\&quot;M0 12L85 0L100 30L14 43Z\&quot; fill=\&quot;currentColor\&quot;/&gt;&lt;path d=\&quot;M14 43V100M94 31V90\&quot; stroke=\&quot;currentColor\&quot; stroke-width=\&quot;5\&quot;/&gt;&quot;,
+    &quot;dotted-line&quot;: &quot;&lt;path d=\&quot;M0 50H100\&quot; stroke=\&quot;currentColor\&quot; stroke-width=\&quot;2\&quot; stroke-dasharray=\&quot;4 5\&quot; vector-effect=\&quot;non-scaling-stroke\&quot;/&gt;&quot;,
+    &quot;hill&quot;: &quot;&lt;path d=\&quot;M3 93Q16 78 27 46Q43 6 66 39Q79 65 97 93Z\&quot; fill=\&quot;currentColor\&quot;/&gt;&lt;path d=\&quot;M43 93Q51 70 60 93\&quot; fill=\&quot;#101214\&quot;/&gt;&quot;,
+    &quot;outline-box&quot;: &quot;&lt;rect x=\&quot;2\&quot; y=\&quot;2\&quot; width=\&quot;96\&quot; height=\&quot;96\&quot; fill=\&quot;none\&quot; stroke=\&quot;currentColor\&quot; stroke-width=\&quot;3\&quot;/&gt;&quot;,
+    &quot;person-seated&quot;: &quot;&lt;ellipse cx=\&quot;47\&quot; cy=\&quot;14\&quot; rx=\&quot;15\&quot; ry=\&quot;13\&quot; fill=\&quot;currentColor\&quot;/&gt;&lt;path d=\&quot;M35 28Q60 22 69 49L89 54L87 62L61 58L52 44L56 65L79 68L88 98H77L66 80H35Q25 77 27 62Z\&quot; fill=\&quot;currentColor\&quot;/&gt;&lt;path d=\&quot;M17 37V80H58M20 80V100M55 80V100\&quot; fill=\&quot;none\&quot; stroke=\&quot;currentColor\&quot; stroke-width=\&quot;3\&quot;/&gt;&quot;,
+    &quot;room&quot;: &quot;&lt;path d=\&quot;M0 0H100V100H0Z M0 0L28 30H72L100 0 M28 30V72L0 100 M72 30V72L100 100 M28 72H72\&quot; fill=\&quot;none\&quot; stroke=\&quot;currentColor\&quot; stroke-width=\&quot;1\&quot;/&gt;&quot;
+  },
+  &quot;palette&quot;: {
+    &quot;amber&quot;: &quot;#A17D45&quot;,
+    &quot;dirty&quot;: &quot;#CEC5B3&quot;,
+    &quot;ink&quot;: &quot;#101214&quot;,
+    &quot;institution&quot;: &quot;#68766B&quot;,
+    &quot;nicotine&quot;: &quot;#AA9571&quot;,
+    &quot;paper&quot;: &quot;#E7E0D0&quot;,
+    &quot;shadow&quot;: &quot;#202326&quot;,
+    &quot;steel&quot;: &quot;#5E737B&quot;
+  },
+  &quot;renderer&quot;: &quot;storyboard-svg-1&quot;,
+  &quot;scene&quot;: {
+    &quot;background&quot;: &quot;ink&quot;,
+    &quot;intent&quot;: &quot;Publication-relative creator revision: rejected connector stays crossed out; separate kept hills make no claim of isolation.&quot;,
+    &quot;lettering&quot;: [
+      {
+        &quot;box&quot;: [
+          0.045,
+          0.03,
+          0.44,
+          0.17
+        ]
+      },
+      {
+        &quot;box&quot;: [
+          0.515,
+          0.03,
+          0.44,
+          0.17
+        ]
+      }
+    ],
+    &quot;lettering_mode&quot;: &quot;manual&quot;,
+    &quot;nodes&quot;: [
+      {
+        &quot;asset&quot;: &quot;room&quot;,
+        &quot;box&quot;: [
+          0.02,
+          0.25,
+          0.96,
+          0.72
+        ],
+        &quot;color&quot;: &quot;shadow&quot;
+      },
+      {
+        &quot;asset&quot;: &quot;desk&quot;,
+        &quot;box&quot;: [
+          0.09,
+          0.57,
+          0.84,
+          0.36
+        ],
+        &quot;color&quot;: &quot;nicotine&quot;
+      },
+      {
+        &quot;asset&quot;: &quot;person-seated&quot;,
+        &quot;box&quot;: [
+          0.025,
+          0.29,
+          0.15,
+          0.43
+        ],
+        &quot;color&quot;: &quot;dirty&quot;
+      },
+      {
+        &quot;asset&quot;: &quot;box&quot;,
+        &quot;box&quot;: [
+          0.79,
+          0.3,
+          0.15,
+          0.2
+        ],
+        &quot;color&quot;: &quot;shadow&quot;,
+        &quot;label&quot;: &quot;FINAL PAGE&quot;,
+        &quot;label_box&quot;: [
+          0.77,
+          0.51,
+          0.19,
+          0.045
+        ]
+      },
+      {
+        &quot;asset&quot;: &quot;outline-box&quot;,
+        &quot;box&quot;: [
+          0.18,
+          0.27,
+          0.26,
+          0.3
+        ],
+        &quot;color&quot;: &quot;paper&quot;,
+        &quot;label&quot;: &quot;THE TWO ANTHILL PROBLEM&quot;,
+        &quot;label_box&quot;: [
+          0.17,
+          0.58,
+          0.28,
+          0.065
+        ]
+      },
+      {
+        &quot;asset&quot;: &quot;hill&quot;,
+        &quot;box&quot;: [
+          0.21,
+          0.37,
+          0.09,
+          0.15
+        ],
+        &quot;color&quot;: &quot;paper&quot;
+      },
+      {
+        &quot;asset&quot;: &quot;hill&quot;,
+        &quot;box&quot;: [
+          0.32,
+          0.39,
+          0.09,
+          0.13
+        ],
+        &quot;color&quot;: &quot;paper&quot;
+      },
+      {
+        &quot;asset&quot;: &quot;outline-box&quot;,
+        &quot;box&quot;: [
+          0.48,
+          0.3,
+          0.26,
+          0.22
+        ],
+        &quot;color&quot;: &quot;steel&quot;
+      },
+      {
+        &quot;asset&quot;: &quot;hill&quot;,
+        &quot;box&quot;: [
+          0.5,
+          0.33,
+          0.08,
+          0.14
+        ],
+        &quot;color&quot;: &quot;steel&quot;
+      },
+      {
+        &quot;asset&quot;: &quot;hill&quot;,
+        &quot;box&quot;: [
+          0.64,
+          0.33,
+          0.08,
+          0.14
+        ],
+        &quot;color&quot;: &quot;steel&quot;
+      },
+      {
+        &quot;asset&quot;: &quot;dotted-line&quot;,
+        &quot;box&quot;: [
+          0.57,
+          0.4,
+          0.07,
+          0.01
+        ],
+        &quot;color&quot;: &quot;steel&quot;
+      },
+      {
+        &quot;asset&quot;: &quot;cross&quot;,
+        &quot;box&quot;: [
+          0.48,
+          0.29,
+          0.27,
+          0.24
+        ],
+        &quot;color&quot;: &quot;amber&quot;
+      },
+      {
+        &quot;asset&quot;: &quot;card&quot;,
+        &quot;box&quot;: [
+          0.5,
+          0.57,
+          0.25,
+          0.09
+        ],
+        &quot;color&quot;: &quot;steel&quot;,
+        &quot;label&quot;: &quot;9 SEPTEMBER 2026 — TITLE REVISION&quot;,
+        &quot;label_box&quot;: [
+          0.44,
+          0.68,
+          0.34,
+          0.045
+        ]
+      }
+    ],
+    &quot;reconstructed&quot;: true,
+    &quot;shot&quot;: &quot;office&quot;,
+    &quot;source&quot;: &quot;\n**Frame:** Verso. Curt performs the final manuscript build. [Page 118](118.md) is still concealed by a black thumbnail.\n\n**Action:** Source packets, corrections, and uncertainty labels compile beside the reading edition. A cover proof reads `THE TWO ANTHILL PROBLEM`. Beside it, a discarded connected-hills sketch remains visible under a heavy cancellation stroke; the kept sketch has two separate surfaces and unmarked space between. A revision slip reads `9 SEPTEMBER 2026 — TITLE REVISION`. Neither sketch has a queen, chamber, or individual agent identity. Two tiny authored ants sit in the desk’s light; they do not stand for particular runs.\n\n**Dialogue — CURT:**\n&gt; Two incidents. How many went unseen?\n\n**Screen / system text — CHATGPT:**\n&gt; The picture cannot answer that.\n\n**Provenance:** `reconstructed` — project publication scene.\n\n&quot;,
+    &quot;title&quot;: &quot;The title revision keeps the evidence boundary&quot;
+  }
+}
+</metadata><rect width="1200" height="800" fill="#101214"/><g transform="translate(24 200) scale(11.52 5.76)" color="#202326"><g transform=""><path d="M0 0H100V100H0Z M0 0L28 30H72L100 0 M28 30V72L0 100 M72 30V72L100 100 M28 72H72" fill="none" stroke="currentColor" stroke-width="1"/></g></g><g transform="translate(108 456) scale(10.08 2.88)" color="#AA9571"><g transform=""><path d="M0 12L85 0L100 30L14 43Z" fill="currentColor"/><path d="M14 43V100M94 31V90" stroke="currentColor" stroke-width="5"/></g></g><g transform="translate(30 232) scale(1.8 3.44)" color="#CEC5B3"><g transform=""><ellipse cx="47" cy="14" rx="15" ry="13" fill="currentColor"/><path d="M35 28Q60 22 69 49L89 54L87 62L61 58L52 44L56 65L79 68L88 98H77L66 80H35Q25 77 27 62Z" fill="currentColor"/><path d="M17 37V80H58M20 80V100M55 80V100" fill="none" stroke="currentColor" stroke-width="3"/></g></g><g transform="translate(948 240) scale(1.8 1.6)" color="#202326"><g transform=""><rect x="1" y="1" width="98" height="98" rx="2" fill="#202326" stroke="currentColor" stroke-width="2"/></g></g><text x="1038" y="428" text-anchor="middle" fill="#E7E0D0" font-size="20" font-family="sans-serif">FINAL PAGE</text><g transform="translate(216 216) scale(3.12 2.4)" color="#E7E0D0"><g transform=""><rect x="2" y="2" width="96" height="96" fill="none" stroke="currentColor" stroke-width="3"/></g></g><text x="372" y="484" text-anchor="middle" fill="#E7E0D0" font-size="20" font-family="sans-serif">THE TWO ANTHILL PROBLEM</text><g transform="translate(252 296) scale(1.08 1.2)" color="#E7E0D0"><g transform=""><path d="M3 93Q16 78 27 46Q43 6 66 39Q79 65 97 93Z" fill="currentColor"/><path d="M43 93Q51 70 60 93" fill="#101214"/></g></g><g transform="translate(384 312) scale(1.08 1.04)" color="#E7E0D0"><g transform=""><path d="M3 93Q16 78 27 46Q43 6 66 39Q79 65 97 93Z" fill="currentColor"/><path d="M43 93Q51 70 60 93" fill="#101214"/></g></g><g transform="translate(576 240) scale(3.12 1.76)" color="#5E737B"><g transform=""><rect x="2" y="2" width="96" height="96" fill="none" stroke="currentColor" stroke-width="3"/></g></g><g transform="translate(600 264) scale(0.96 1.12)" color="#5E737B"><g transform=""><path d="M3 93Q16 78 27 46Q43 6 66 39Q79 65 97 93Z" fill="currentColor"/><path d="M43 93Q51 70 60 93" fill="#101214"/></g></g><g transform="translate(768 264) scale(0.96 1.12)" color="#5E737B"><g transform=""><path d="M3 93Q16 78 27 46Q43 6 66 39Q79 65 97 93Z" fill="currentColor"/><path d="M43 93Q51 70 60 93" fill="#101214"/></g></g><g transform="translate(684 320) scale(0.84 0.08)" color="#5E737B"><g transform=""><path d="M0 50H100" stroke="currentColor" stroke-width="2" stroke-dasharray="4 5" vector-effect="non-scaling-stroke"/></g></g><g transform="translate(576 232) scale(3.24 1.92)" color="#A17D45"><g transform=""><path d="M10 10L90 90M90 10L10 90" stroke="currentColor" stroke-width="8"/></g></g><g transform="translate(600 456) scale(3 0.72)" color="#5E737B"><g transform=""><rect x="1" y="1" width="98" height="98" fill="#202326" stroke="currentColor" stroke-width="2"/><path d="M8 13H92M8 27H70M8 36H86M8 45H72M8 65H86M8 74H57" stroke="currentColor" stroke-width="1.5"/></g></g><text x="732" y="564" text-anchor="middle" fill="#E7E0D0" font-size="20" font-family="sans-serif">9 SEPTEMBER 2026 — TITLE REVISION</text><rect x="3" y="3" width="1194" height="794" fill="none" stroke="#5E737B" stroke-width="4" stroke-dasharray="18 10"/></svg>

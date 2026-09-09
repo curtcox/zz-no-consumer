@@ -57,3 +57,11 @@ Most images remain charcoal, paper, and desaturated infrastructure color. Moss a
 ## Palette (compact)
 
 Charcoal, dirty paper and desaturated infrastructure color throughout. Moss, claret and amber appear only where the story earns them; nothing else.
+
+## Authored ants
+
+Only explicitly directed ants are authored figures, never agent bodies or individual runs.
+No queen, brood, chambers, faces or persistent identity. Density is nonquantitative.
+Keep evidence, faces, lettering and provenance clear; no connecting trail between incidents.
+Inside-picture ants match surface, perspective and light; marginal ants are flat ink marks.
+A separately composited ant must follow the same rules. Do not add ants to other scenes.

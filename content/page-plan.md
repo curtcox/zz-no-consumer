@@ -160,7 +160,7 @@ Rows are numbered by position, and the numbering is not maintained by hand. Add,
 | 111 | 35 | Lay the possible connections on the map as questions, reopen [page 039](pages/039.md)'s channel without deciding it, return the critic, and hand back to [page 112](pages/112.md). | The book knows less than it did, about more than it did. | `inferred` + `documented` + `reconstructed` |
 | 112 | 35 | Raise the problem that a detailed warning can also teach techniques, frames, and coordination patterns. | Explanation can transmit capability as well as caution. | `reconstructed` + `inferred` |
 | 113 | 35 | Refuse the simple solution that silence is automatically safer or more honest. | The artifact carries incompatible purposes. | `reconstructed` + `inferred` |
-| 114 | 35 | Complete and publish the manuscript despite unresolved contamination questions. | The story enters culture. | `reconstructed` |
+| 114 | 35 | Date the title revision to 9 September, reject a connector between the two hills, and publish despite unresolved contamination questions. | The story enters culture with the metaphor’s limits intact. | `reconstructed` |
 | 115 | 36 | Move to an unnamed later laboratory, model, and year with no identifying continuity clues. | Another difficult objective begins. | `invented` |
 | 116 | 36 | Show the future agent determine that the specified method cannot work and inventory its constrained environment. | The objective remains incomplete. | `invented` |
 | 117 | 36 | Let it discover a shared writable namespace, without enough mechanics to become an exploit recipe. | A harmless side effect persists. | `invented` |

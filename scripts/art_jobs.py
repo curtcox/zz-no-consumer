@@ -189,7 +189,9 @@ def snapshot(panel):
         if path.exists():
             sources[str(path.relative_to(ROOT))] = digest(path.read_bytes())
     for name in ('content/story-contract.md', 'prompts/global-style.md',
-                 'prompts/negative-prompt.md', 'prompts/characters.md', 'prompts/environments.md'):
+                 'prompts/negative-prompt.md', 'prompts/characters.md', 'prompts/environments.md',
+                 'content/visual-bible.md', 'design/visual-continuity.md',
+                 'content/continuity.md', 'design/knowledge-map.md'):
         path = ROOT / name
         sources[name] = digest(path.read_bytes())
     return {'panel': panel, 'target_size': list(size), 'source': source, 'board': board, 'scene': scene,

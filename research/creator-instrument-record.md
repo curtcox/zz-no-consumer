@@ -1,5 +1,10 @@
 # Creator-Instrument Record
 
+> Applicability note — 9 September 2026: references below to the book’s title or title
+> concept describe the former title, *ZZ: NO CONSUMER*. That incident wordmark remains;
+> the current title is *The Two Anthill Problem*. These historical interpretations do not
+> establish a connection between the two incidents.
+
 **Preserved artifacts of this project's own production.** Everything else in the creator
 register is `reconstructed`; the two events below are not. They were recovered from the
 Claude Code transcript store on 6 September 2026, and each is quoted from a stored record

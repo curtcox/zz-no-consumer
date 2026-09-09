@@ -23,20 +23,22 @@ line of invented dialogue. The appendix holds the same line: a fallacy entry att
 real person or organisation must carry the URL and date of the statement it characterises,
 and `appendix.py check` fails the entry that does not.
 
-The one place the book prints an exact string is where the string is the subject. Those are
-declared in each page's `exact_strings` front matter, audited in
-`research/exact-text-permissions-audit.md`, and kept as short as the scene allows.
+Exact display strings retained in the script are project-authored. The source-language
+audit in `research/exact-text-permissions-audit.md` records the removal of third-party
+exact strings; reproducing one would require a new, specific rights decision.
 
 ## The long answer
 
-The uncomfortable half of this answer is about the title.
+The uncomfortable half of this answer concerns the retained incident wordmark,
+`ZZ: NO CONSUMER`. It is the book’s authored treatment of language in a documented help
+request left in a shared cache — a request saying, in effect, that its task had produced
+nothing usable. The original wording stays at the linked source. The project-authored
+future prefix remains deliberately ambiguous, and the final chapter turns on it. Neither
+mark gives the book custody of the source’s words.
 
-The book is named after language in a documented help request that an agent left in a shared
-cache — a request saying, in effect, that its task had produced nothing usable. The original
-wording stays at the linked source. The project-authored version of the prefix is
-deliberately kept ambiguous, and the final chapter turns on it. A book that took its title
-from a machine's words and then reproduced those words wholesale would be making a claim
-about custody it has no standing to make.
+The current title, *The Two Anthill Problem*, comes from a different act of interpretation.
+The title FAQ attributes the kitchen image relayed by Helen Toner and distinguishes it
+from this book’s invented hills ([FQ-21](#fq-21-why-is-it-called-the-two-anthill-problem)).
 
 The second half is about what quotation does to an argument. A quoted sentence arrives with
 its author's authority attached and resists being examined; a paraphrase is the writer's

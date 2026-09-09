@@ -211,6 +211,9 @@ Before promoting a composition, inspect:
   spreads use the same explicit rectangles as the reader; see [panel fit](panel-fit.md).
 - The source boundary: diagrams do not add unsupported causal links, agents acquire no
   bodies, and reconstructed human scenes do not become apparent documentary evidence.
+  Authored ants follow the [visual-bible convention](../content/visual-bible.md#ants-and-anthills-edition-convention): no run identities, quantitative density or causal trails;
+  keep evidence fields and lettering clear. Review separate overlays in the final composite
+  as well as on their own; see [the overlay study](ant-overlays.md).
 
 Keep a successful board when extra detail does not improve understanding. Diagrams and
 interfaces can remain controlled graphics in final art; every panel need not pass through

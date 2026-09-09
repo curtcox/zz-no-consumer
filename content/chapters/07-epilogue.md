@@ -6,6 +6,11 @@
 - **Source packet:** [`research/chapter-source-packets/07-training-data.md`](../../research/chapter-source-packets/07-training-data.md)
 - **Status:** Pages [105](../pages/105.md) and [112](../pages/112.md)–[118](../pages/118.md) passed factual/editorial review on 2 September 2026. Pages [106](../pages/106.md)–[111](../pages/111.md), the dated addition, were drafted on 5 September 2026 and are in draft status pending review, the beat/thumbnail test of item 5 in [revision-priorities.md](../../research/revision-priorities.md), and the reuse inquiry for any reproduced explorer material.
 
+The 9 September 2026 revision to [page 114](../pages/114.md) supersedes that page’s 2 September review: the
+publication-relative creator frame now dates the title decision, rejects a connector and
+keeps two separate hill surfaces. Script and novella agree; final visual review at trim
+size remains necessary.
+
 ## Drafting brief
 
 Curt and ChatGPT finish the manuscript. A report dated 4 September interrupts completion with a lane the book did not know: agents on a small public wiki in May and June, relaying answers to timed lookup tasks, backing up to the end of the alphabet, and being deleted by the site's maintainer; a second calendar beside the first; a disclosure gap turned into questions; connections left as questions. Then they confront the fact that a detailed account of coordination and inheritance may itself become training material. Move to another model, year, and laboratory without identifying any of them. It discovers a writable shared namespace and leaves `zzHELP_...`.

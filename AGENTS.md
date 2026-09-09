@@ -92,6 +92,7 @@ partly cover.
 | `content/*.md`, `design/`, `research/`, `prompts/` | you, by hand | contract, beat sheet, briefs, design notes, source material |
 | `data/pages.yaml`, `data/chapters.yaml` | **`pagination.py`** | edit by hand only to change a title or status, never a number |
 | `data/panel-types.tsv` | **`paneltypes.py write`** | regenerate, don't edit |
+| `data/anthill-study.json` | you for study choices; **`pagination.py`** for page references | titles are labels, never selectors |
 | `data/storyboards.json`, `data/storyboard-assets.json` | you, by hand | composition and reusable geometry; identity tools own panel-key rewrites |
 | `data/panel-art.tsv` | **`panelart.py`** | which version of a panel is the chosen one |
 | `data/crossref.json`, `data/appendix.json` | **`crossref.py json`**, `appendix.py json` | derived |

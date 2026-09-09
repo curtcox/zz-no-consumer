@@ -35,7 +35,7 @@ is what keeps six targets from becoming six divergent books.
   (generate strips through the site builder, relabel the samples, rerun gallery,
   viewer and continuity checks) are **not started**. Use the appearance list in `design/knowledge-map.md` for the current scope. This changes pages, so it must land before lettering and layout.
 - **Recurring critic text is present:** the dated addition and ending carry the criticism and composite replies. The 5 September read-through decisions are recorded as applied; this pass corrected the remaining prose/source-boundary drift.
-- **Visual craft review:** verify spread composition, title callback, and page-turn treatment at trim size. These are layout checks on existing text; the applied read-through edits are not an outstanding request to rewrite those passages.
+- **Visual craft review:** verify spread composition, the incident-wordmark callback, the dated anthill-title scene and its rejected connector, and page-turn treatment at trim size. These are layout checks on existing text; the applied read-through edits are not an outstanding request to rewrite those passages.
 - **Advance the 8 draft pages** — 086, 087, 106–111 — from `draft` to `review` via the
   beat and thumbnail test they are waiting on.
 - **Provenance audit completed 7 September:** all panel statuses and source keys agree with page metadata. Strict checking now runs in CI; the previously undeclared statuses are resolved.

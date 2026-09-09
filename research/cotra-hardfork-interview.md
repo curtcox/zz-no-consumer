@@ -1,5 +1,10 @@
 # Cotra Interview — Hard Fork, 4 September 2026 (`HF-POD`)
 
+> Applicability note — 9 September 2026: references below to the book’s title or title
+> concept describe the former title, *ZZ: NO CONSUMER*. That incident wordmark remains;
+> the current title is *The Two Anthill Problem*. These historical interpretations do not
+> establish a connection between the two incidents.
+
 **Source.** *Hard Fork*, The New York Times, published 4 September 2026. Hosts Kevin
 Roose and Casey Newton; guest **Ajeya Cotra**, one of the three METR/Redwood investigators.
 Podcast page: <https://www.nytimes.com/2026/09/04/podcasts/hugging-face-hack-reports.html>.

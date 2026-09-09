@@ -478,7 +478,11 @@ def prompt_sections(page: str, panel: int, register: str) -> list[Section]:
         return Section(heading.lower(), _digest(style, heading), rank,
                        _digest(style, f"{heading} (compact)"))
 
-    return [
+    direction = panel_direction(page, panel)
+    # The scoped convention must survive ordinary budget trimming. It never requests ants.
+    ant_rules = ([block("Authored ants", -1)]
+                 if re.search(r"\b(?:ants?|anthills?)\b", direction, re.I) else [])
+    return ant_rules + [
         Section("panel geometry", f"Target panel: {width}x{height}. Full bleed; no padding or edge bands. Keep essential content inside the intended crop.", 0),
         block("Rendering target", 4),
         Section("register", f"Register — {register}: {register_clause(register)}", 3),

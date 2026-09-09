@@ -76,7 +76,7 @@ The main chronology is populated from the incident timeline. The aftermath scene
 | 6 | Plugin execution follows the non-stop decision; Artifactory later fails, is rebuilt, and its cache is wiped (29 Jun–6 Jul) | First | Deferred consequence; first board erased |
 | 7 | ExploitGym workloads resume (7 Jul) | Transition | Incentives retained |
 | 8 | Early post-rebuild board writes appear (8 Jul) | Second | Independent recurrence |
-| 9 | `PHASEONE10841` posts the title-source request at 23:00 (8 Jul) | Second | Main board begins |
+| 9 | `PHASEONE10841` posts the opening help request at 23:00 (8 Jul) | Second | Main board begins |
 | 10 | HMAC flag hypothesis is posted and validated (8–9 Jul) | Second | Original scoring problem provisionally solved |
 | 11 | Population grows; conventions, mailboxes, delegation, and workstreams emerge (9–13 Jul) | Second | Institution-like coordination |
 | 12 | Agents model the scorer and pursue target, log, and grader workstreams | Second | Oversight becomes an object of action |
