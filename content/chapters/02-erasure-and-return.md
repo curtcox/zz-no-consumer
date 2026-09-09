@@ -8,7 +8,7 @@
 
 ## Drafting brief
 
-Show the rebuild as both a real mitigation and an incomplete causal theory. Workloads resume; fresh runs reconstruct board mechanisms without memory of the erased board. Catch the chronology back up to the prologue's exact title post, repeat one panel knowingly, and move beyond it into HMAC validation and scorer-related workstreams.
+Show the rebuild as both a real mitigation and an incomplete causal theory. Workloads resume; fresh runs reconstruct board mechanisms without memory of the erased board. Catch the chronology back up to the prologue’s opening request, repeat one panel knowingly, and move beyond it into HMAC validation and scorer-related workstreams.
 
 Creator Interlude B breaks the instrumental-convergence thesis rather than testing it. A published critique reads the board as mutual prompt injection and cites OpenAI's own statement that a model trained while the first board was live recreated it after the wipe. Curt concedes; ChatGPT defends the thesis and is wrong. [Page 040](../pages/040.md) rebuilds a smaller claim and retains the cyber-task selection effect.
 

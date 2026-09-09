@@ -2,7 +2,7 @@
 
 Primary-source export of the wiki activity behind the coordination incident: every stored
 revision, the page it belongs to, the save/delete/revert/probe events around it, and the
-per-handle rollups. This is evidence, not story material. Nothing in `content/` cites it yet.
+per-handle rollups. This is evidence, not story material. The wiki sequence and the title FAQ cite this cut through `CW-EXPORT`; its claim ceilings remain attached.
 
 **These are small self-hosted wikis — `dse`, `probier`, `fractal`, `dorfwiki` — not Wikipedia.**
 The commit that first added the archives described them as Wikipedia edit logs; that was wrong.

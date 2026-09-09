@@ -131,7 +131,9 @@ There is no automatic timeout-based requeue: a timed-out external call may still
 have produced an image. Attempt counts include interrupted calls. Preparation,
 claim, retry and acceptance validate source identity/composition; receive still
 preserves an output if its source changed during generation. A stale job must be
-reviewed and replaced by a new job, never silently retargeted or refreshed.
+reviewed and replaced by a new job, never silently retargeted or refreshed. Explicitly block
+stale prepared jobs with the reason. `check` verifies their saved image integrity while
+allowing historical source hashes; `claim`, `retry` and acceptance still refuse stale inputs.
 
 The default SQLite queue is `256t/art-jobs/queue.sqlite3`. It is persistent local
 operational state, **gitignored and not backed up by Git**. Keep the entire

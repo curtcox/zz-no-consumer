@@ -111,3 +111,13 @@ The recurring palette, environment geometry, creator-desk progression, provenanc
 8. Page 118 — invented future remains organization-neutral and ambiguous.
 
 Lock final character and environment sheets only after this proof set is reviewed at intended trim size.
+
+## Anthill revision — 9 September 2026
+
+The edition convention in `content/visual-bible.md` governs authored ants. The two hills
+identify incidents, never viewpoints. Preserve existing proposition states, observation
+islands, terrain registration, viewpoint labels and re-fog behavior. Ant placement has no
+effect on evidence state. Render surfaces only, with neither an enterable interior nor a
+route between sites. Different access to records must be described explicitly; terrain
+brightness alone cannot mean corpus completeness. The current pilot remains separate from
+whole-book adoption, and the final story page retains its deliberate map absence.

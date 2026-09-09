@@ -5,7 +5,7 @@ audience: method
 title: Can I check the book's work?
 pages: [088, 105, 114]
 answer: >-
-  Yes, all of it. The manuscript, the research, the source index, the disagreement register,
+  You can inspect the public manuscript and its supporting apparatus. The manuscript, the research, the source index, the disagreement register,
   the tooling, and the site generator are one public GPL-licensed repository. Every claim
   resolves to a citation key, every key to a source, and every source to a public address
   where one exists.
@@ -44,7 +44,7 @@ the primary key of the whole project — the same number in the script, the pros
 appendix, the beat sheet, the art keys and the site routes — and no page number is ever
 edited by hand; `pagination.py` rewrites every occurrence in one deterministic operation and
 refuses to change the recto/verso parity of the book without being told to. The continuous
-integration workflow runs fourteen checks in sequence and the site does not publish if any
+integration workflow runs the checks listed in the repository workflow and the site does not publish if any
 of them fails.
 
 None of that makes the book right. It makes the book's mistakes findable, which is a
@@ -66,3 +66,10 @@ the machinery for recording it already exists.
 | Licence | [LICENSE](https://github.com/curtcox/zz-no-consumer/blob/main/LICENSE) | 5 Sep 2026 | GPL-3.0-or-later, chosen so the book and its tooling can be forked as one thing. |
 | Field practice | [Google SRE, postmortem culture](https://sre.google/sre-book/postmortem-culture/) | — | The argument that a record designed to make its own errors findable outperforms one designed to look correct. |
 | What the repository cannot show | [data/256t-sources.tsv](https://github.com/curtcox/zz-no-consumer/blob/main/data/256t-sources.tsv) | 2026 | The source vault is deliberately not published: only canonical URLs and redistribution dispositions are tracked, because reuse rights are uncertain. |
+
+## Limits of the available record
+
+The title FAQ distinguishes the stored wiki export, the Artifactory board dump this project
+does not hold, and the production conversations that remain unpublished apart from two
+recovered events. Public reports and manuscript provenance permit scrutiny without making
+the underlying records complete. Checksums verify a declared cut, not its completeness.

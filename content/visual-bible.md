@@ -1,8 +1,8 @@
-# ZZ: NO CONSUMER — Visual Bible
+# The Two Anthill Problem — Visual Bible
 
 ## Visual thesis
 
-The machines never need bodies.
+The machines remain represented through infrastructure and effects. The edition’s authored ant figures are a disclosed visual convention, not agent bodies or incident evidence.
 
 The story's uncanny power comes from ordinary infrastructure behaving as if it has acquired memory, society, and intent: package caches, directory listings, terminal windows, rack lights, access logs, incident dashboards, fluorescent offices, and silent data centers.
 
@@ -202,6 +202,41 @@ Reserve page turns for conceptual reversals:
 
 Tags may move to margins or an optional web overlay in the final site, but the source page script must retain them.
 
+## Ants and anthills: edition convention
+
+The two hills stand for the Hugging Face / Artifactory incident and the Collusion Wiki
+incident. They do not stand for viewpoints, humans versus machines, or the successive
+Artifactory populations. Their visibility does not tell us how many incidents went unseen.
+
+Ants are authored figures, with no one-ant-to-one-run correspondence. Inside a panel they
+take the scene’s light, surface and occlusion; outside it they are flat marks on the paper.
+Neither register establishes the presence of insects in a documented room. The initial
+in-picture study belongs to the creator workspace. Additional incident-scene placements
+require visual review; a distant appendix notice cannot repair misleading composition.
+The title FAQ and the publication-relative creator beat disclose the convention.
+
+- No queen, brood, chamber, persistent ant character, face, or agent-specific ant identity.
+  Hills are surfaces, never cutaways. No deliberate crushing, extermination solution,
+  sentimental process death, or claim of a conscious superorganism.
+- Ant density is nonquantitative composition. It measures neither runs, messages, traffic,
+  confidence nor suspense. A future quantitative treatment requires a named unit and an
+  explicit mapping before it is used.
+- No trail joins the incidents or carries knowledge between viewpoints. Blank space means
+  the book cannot establish a connection or its absence. Do not draw turning-back routes
+  that imply a barrier, or exits that assert unseen activity continues to another site.
+- Keep ants off evidence fields, faces, captions, provenance slates and explanatory diagrams.
+  No gutter routes on [page 108](pages/108.md); no routes crossing the acknowledgement on [page 016](pages/016.md), the
+  wipe on pages [029](pages/029.md)–[032](pages/032.md), or re-fogs on pages [039](pages/039.md), [063](pages/063.md), [083](pages/083.md) and [086](pages/086.md).
+- Flat ants use the existing ink token. Moss is permitted only where the existing palette
+  already establishes propagation. Ants never reveal fog, resolve a proposition, or change
+  an observer’s knowledge. [Page 118](pages/118.md) keeps its deliberate map absence.
+- Start static. On-paper art is decorative, hidden from assistive technology and incapable
+  of intercepting controls. Meaningful map relationships have text alternatives. A layout
+  without registered panel coordinates gets no inter-panel overlay.
+
+The reviewed pilot is a study, not a whole-book adoption. Ant geometry can extend the
+edition’s furniture; it cannot replace the evidence-based representation of agents.
+
 ## Agent representation
 
 An agent is represented by a consistent small header when its activity must be tracked:
@@ -387,7 +422,7 @@ Negative prompt:
 - Does the page use the correct visual register?
 - Are all source summaries attributed and all approved display strings legible?
 - Is color performing a defined function?
-- Are agents represented only through evidence and effects?
+- Are agents represented through evidence and effects, with any authored ants following the edition convention?
 - Does the composition reveal a causal relationship rather than merely illustrate dialogue?
 - Is any reconstructed or invented material tagged in the source script?
 - Are lighting sources physically plausible?

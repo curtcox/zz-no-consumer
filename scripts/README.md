@@ -245,3 +245,13 @@ checks with a temporary loopback server. It needs permission to bind a local soc
 The tool imports the publication Markdown renderer and existing novella, panel art,
 text-image, and lettering models. It renders on demand and does not write `docs/`.
 See [the local display manual](../README.md#local-synchronized-displays).
+
+## Anthill composition study
+
+`python3 scripts/anthill_study.py build` writes a standalone study to `256t/anthill-study/`;
+`check` resolves the current page identities by title, checks marginal placements against
+protected panel rectangles, and verifies deterministic SVG and retained fog/re-fog states.
+The production-foundations validator runs this check; the site builder emits the study at
+`docs/anthill-study/`. It changes no ordinary reader overlays or raster selections.
+`book_metadata.py` supplies the current title, description and masthead mark to the builder,
+novella assembler and thumbnail generator. Technical addresses stay independent.

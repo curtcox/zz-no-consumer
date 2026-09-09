@@ -37,6 +37,8 @@ page, so ``scripts/panels.py`` has nothing to move.
 
 from __future__ import annotations
 
+from book_metadata import TITLE
+
 import argparse
 import re
 import statistics
@@ -321,7 +323,7 @@ def cmd_report() -> int:
 def assemble(continuous: bool) -> str:
     model = crossref.build()
     present = found()
-    parts: list[str] = ["# ZZ: NO CONSUMER", "", "*The novella.*", ""]
+    parts: list[str] = [f"# {TITLE}", "", "*The novella.*", ""]
     pages_by_chapter: dict[str, list] = {}
     for page in model.pages:
         pages_by_chapter.setdefault(page.chapter, []).append(page)

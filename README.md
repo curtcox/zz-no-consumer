@@ -1,4 +1,6 @@
-# zz-no-consumer
+# The Two Anthill Problem
+
+The repository and stable download addresses retain the historical name `zz-no-consumer`.
 A graphic novel about emergent AI agent coordination, instrumental convergence, and the humans trying to understand what happened.
 
 ## Start working

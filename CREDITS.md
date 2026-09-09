@@ -1,6 +1,6 @@
 # Credits
 
-This is the single list of the people, sources, models and tools behind *ZZ: NO CONSUMER*. The published site renders it as its credits page, and the book's endmatter is set from it; do not maintain a second copy. Last checked 5 September 2026.
+This is the single list of the people, sources, models and tools behind *The Two Anthill Problem*. The published site renders it as its credits page, and the book's endmatter is set from it; do not maintain a second copy. Last checked 5 September 2026.
 
 ## Author
 

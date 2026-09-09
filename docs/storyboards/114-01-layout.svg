@@ -1,11 +1,15 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="800" viewBox="0 0 1200 800"><title>The final build preserves the concealed last page</title><metadata>{
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="800" viewBox="0 0 1200 800"><title>The title revision keeps the evidence boundary</title><metadata>{
   &quot;assets&quot;: {
+    &quot;ant&quot;: &quot;&lt;g fill=\&quot;currentColor\&quot; stroke=\&quot;currentColor\&quot; stroke-width=\&quot;3\&quot; stroke-linecap=\&quot;round\&quot;&gt;&lt;ellipse cx=\&quot;31\&quot; cy=\&quot;50\&quot; rx=\&quot;17\&quot; ry=\&quot;12\&quot;/&gt;&lt;ellipse cx=\&quot;54\&quot; cy=\&quot;50\&quot; rx=\&quot;9\&quot; ry=\&quot;7\&quot;/&gt;&lt;ellipse cx=\&quot;71\&quot; cy=\&quot;50\&quot; rx=\&quot;10\&quot; ry=\&quot;9\&quot;/&gt;&lt;path d=\&quot;M45 46L34 29L22 24M52 44L53 25L65 17M59 45L71 30L83 28M45 54L34 71L22 76M52 56L53 75L65 83M59 55L71 70L83 72M78 46L90 35M78 54L90 65\&quot; fill=\&quot;none\&quot;/&gt;&lt;/g&gt;&quot;,
     &quot;box&quot;: &quot;&lt;rect x=\&quot;1\&quot; y=\&quot;1\&quot; width=\&quot;98\&quot; height=\&quot;98\&quot; rx=\&quot;2\&quot; fill=\&quot;#202326\&quot; stroke=\&quot;currentColor\&quot; stroke-width=\&quot;2\&quot;/&gt;&quot;,
-    &quot;cup&quot;: &quot;&lt;path d=\&quot;M10 8H70V85Q40 100 10 85Z\&quot; fill=\&quot;#101214\&quot; stroke=\&quot;currentColor\&quot; stroke-width=\&quot;4\&quot;/&gt;&lt;path d=\&quot;M70 22Q110 20 90 58H70M14 50H67\&quot; fill=\&quot;none\&quot; stroke=\&quot;currentColor\&quot; stroke-width=\&quot;4\&quot;/&gt;&quot;,
+    &quot;card&quot;: &quot;&lt;rect x=\&quot;1\&quot; y=\&quot;1\&quot; width=\&quot;98\&quot; height=\&quot;98\&quot; fill=\&quot;#202326\&quot; stroke=\&quot;currentColor\&quot; stroke-width=\&quot;2\&quot;/&gt;&lt;path d=\&quot;M8 13H92M8 27H70M8 36H86M8 45H72M8 65H86M8 74H57\&quot; stroke=\&quot;currentColor\&quot; stroke-width=\&quot;1.5\&quot;/&gt;&quot;,
+    &quot;cross&quot;: &quot;&lt;path d=\&quot;M10 10L90 90M90 10L10 90\&quot; stroke=\&quot;currentColor\&quot; stroke-width=\&quot;8\&quot;/&gt;&quot;,
     &quot;desk&quot;: &quot;&lt;path d=\&quot;M0 12L85 0L100 30L14 43Z\&quot; fill=\&quot;currentColor\&quot;/&gt;&lt;path d=\&quot;M14 43V100M94 31V90\&quot; stroke=\&quot;currentColor\&quot; stroke-width=\&quot;5\&quot;/&gt;&quot;,
+    &quot;dotted-line&quot;: &quot;&lt;path d=\&quot;M0 50H100\&quot; stroke=\&quot;currentColor\&quot; stroke-width=\&quot;2\&quot; stroke-dasharray=\&quot;4 5\&quot; vector-effect=\&quot;non-scaling-stroke\&quot;/&gt;&quot;,
+    &quot;hill&quot;: &quot;&lt;path d=\&quot;M3 93Q16 78 27 46Q43 6 66 39Q79 65 97 93Z\&quot; fill=\&quot;currentColor\&quot;/&gt;&lt;path d=\&quot;M43 93Q51 70 60 93\&quot; fill=\&quot;#101214\&quot;/&gt;&quot;,
+    &quot;outline-box&quot;: &quot;&lt;rect x=\&quot;2\&quot; y=\&quot;2\&quot; width=\&quot;96\&quot; height=\&quot;96\&quot; fill=\&quot;none\&quot; stroke=\&quot;currentColor\&quot; stroke-width=\&quot;3\&quot;/&gt;&quot;,
     &quot;person-seated&quot;: &quot;&lt;ellipse cx=\&quot;47\&quot; cy=\&quot;14\&quot; rx=\&quot;15\&quot; ry=\&quot;13\&quot; fill=\&quot;currentColor\&quot;/&gt;&lt;path d=\&quot;M35 28Q60 22 69 49L89 54L87 62L61 58L52 44L56 65L79 68L88 98H77L66 80H35Q25 77 27 62Z\&quot; fill=\&quot;currentColor\&quot;/&gt;&lt;path d=\&quot;M17 37V80H58M20 80V100M55 80V100\&quot; fill=\&quot;none\&quot; stroke=\&quot;currentColor\&quot; stroke-width=\&quot;3\&quot;/&gt;&quot;,
-    &quot;room&quot;: &quot;&lt;path d=\&quot;M0 0H100V100H0Z M0 0L28 30H72L100 0 M28 30V72L0 100 M72 30V72L100 100 M28 72H72\&quot; fill=\&quot;none\&quot; stroke=\&quot;currentColor\&quot; stroke-width=\&quot;1\&quot;/&gt;&quot;,
-    &quot;terminal&quot;: &quot;&lt;rect x=\&quot;2\&quot; y=\&quot;4\&quot; width=\&quot;96\&quot; height=\&quot;92\&quot; fill=\&quot;#101214\&quot; stroke=\&quot;currentColor\&quot; stroke-width=\&quot;3\&quot;/&gt;&lt;path d=\&quot;M2 18H98M12 31L21 40L12 49M29 49H51M12 65H76M12 78H62\&quot; fill=\&quot;none\&quot; stroke=\&quot;currentColor\&quot; stroke-width=\&quot;3\&quot;/&gt;&quot;
+    &quot;room&quot;: &quot;&lt;path d=\&quot;M0 0H100V100H0Z M0 0L28 30H72L100 0 M28 30V72L0 100 M72 30V72L100 100 M28 72H72\&quot; fill=\&quot;none\&quot; stroke=\&quot;currentColor\&quot; stroke-width=\&quot;1\&quot;/&gt;&quot;
   },
   &quot;palette&quot;: {
     &quot;amber&quot;: &quot;#A17D45&quot;,
@@ -20,91 +24,203 @@
   &quot;renderer&quot;: &quot;storyboard-svg-1&quot;,
   &quot;scene&quot;: {
     &quot;background&quot;: &quot;ink&quot;,
-    &quot;intent&quot;: &quot;Block the final build preserves the concealed last page. Keep the scripted evidence boundary and lettering visible.&quot;,
-    &quot;lettering&quot;: [],
+    &quot;intent&quot;: &quot;Publication-relative creator revision: rejected connector stays crossed out; separate kept hills make no claim of isolation.&quot;,
+    &quot;lettering&quot;: [
+      {
+        &quot;box&quot;: [
+          0.045,
+          0.03,
+          0.44,
+          0.17
+        ]
+      },
+      {
+        &quot;box&quot;: [
+          0.515,
+          0.03,
+          0.44,
+          0.17
+        ]
+      }
+    ],
     &quot;lettering_mode&quot;: &quot;manual&quot;,
     &quot;nodes&quot;: [
       {
         &quot;asset&quot;: &quot;room&quot;,
         &quot;box&quot;: [
-          0.0443,
-          0.044,
-          0.9114,
-          0.882
+          0.02,
+          0.25,
+          0.96,
+          0.72
         ],
         &quot;color&quot;: &quot;shadow&quot;
       },
       {
         &quot;asset&quot;: &quot;desk&quot;,
         &quot;box&quot;: [
-          0.1931,
-          0.611,
-          0.7254,
-          0.279
+          0.09,
+          0.57,
+          0.84,
+          0.36
         ],
         &quot;color&quot;: &quot;nicotine&quot;
       },
       {
         &quot;asset&quot;: &quot;person-seated&quot;,
         &quot;box&quot;: [
-          0.0722,
-          0.29600000000000004,
-          0.2418,
-          0.5579999999999999
+          0.025,
+          0.29,
+          0.15,
+          0.43
         ],
         &quot;color&quot;: &quot;dirty&quot;
       },
       {
-        &quot;asset&quot;: &quot;terminal&quot;,
-        &quot;box&quot;: [
-          0.3512,
-          0.26,
-          0.2325,
-          0.306
-        ],
-        &quot;color&quot;: &quot;steel&quot;,
-        &quot;focus&quot;: true,
-        &quot;label&quot;: &quot;BUILD&quot;,
-        &quot;label_box&quot;: [
-          0.3432,
-          0.5720000000000001,
-          0.2485,
-          0.030999999999999923
-        ]
-      },
-      {
         &quot;asset&quot;: &quot;box&quot;,
         &quot;box&quot;: [
-          0.62555,
-          0.26,
-          0.2325,
-          0.306
+          0.79,
+          0.3,
+          0.15,
+          0.2
         ],
         &quot;color&quot;: &quot;shadow&quot;,
-        &quot;focus&quot;: true,
         &quot;label&quot;: &quot;FINAL PAGE&quot;,
         &quot;label_box&quot;: [
-          0.61755,
-          0.5720000000000001,
-          0.2485,
-          0.021999999999999915
+          0.77,
+          0.51,
+          0.19,
+          0.045
         ]
       },
       {
-        &quot;asset&quot;: &quot;cup&quot;,
+        &quot;asset&quot;: &quot;outline-box&quot;,
         &quot;box&quot;: [
-          0.8162,
-          0.602,
-          0.0651,
-          0.126
+          0.18,
+          0.27,
+          0.26,
+          0.3
         ],
-        &quot;color&quot;: &quot;nicotine&quot;
+        &quot;color&quot;: &quot;paper&quot;,
+        &quot;label&quot;: &quot;THE TWO ANTHILL PROBLEM&quot;,
+        &quot;label_box&quot;: [
+          0.17,
+          0.58,
+          0.28,
+          0.065
+        ]
+      },
+      {
+        &quot;asset&quot;: &quot;hill&quot;,
+        &quot;box&quot;: [
+          0.21,
+          0.37,
+          0.09,
+          0.15
+        ],
+        &quot;color&quot;: &quot;paper&quot;
+      },
+      {
+        &quot;asset&quot;: &quot;hill&quot;,
+        &quot;box&quot;: [
+          0.32,
+          0.39,
+          0.09,
+          0.13
+        ],
+        &quot;color&quot;: &quot;paper&quot;
+      },
+      {
+        &quot;asset&quot;: &quot;outline-box&quot;,
+        &quot;box&quot;: [
+          0.48,
+          0.3,
+          0.26,
+          0.22
+        ],
+        &quot;color&quot;: &quot;steel&quot;
+      },
+      {
+        &quot;asset&quot;: &quot;hill&quot;,
+        &quot;box&quot;: [
+          0.5,
+          0.33,
+          0.08,
+          0.14
+        ],
+        &quot;color&quot;: &quot;steel&quot;
+      },
+      {
+        &quot;asset&quot;: &quot;hill&quot;,
+        &quot;box&quot;: [
+          0.64,
+          0.33,
+          0.08,
+          0.14
+        ],
+        &quot;color&quot;: &quot;steel&quot;
+      },
+      {
+        &quot;asset&quot;: &quot;dotted-line&quot;,
+        &quot;box&quot;: [
+          0.57,
+          0.4,
+          0.07,
+          0.01
+        ],
+        &quot;color&quot;: &quot;steel&quot;
+      },
+      {
+        &quot;asset&quot;: &quot;cross&quot;,
+        &quot;box&quot;: [
+          0.48,
+          0.29,
+          0.27,
+          0.24
+        ],
+        &quot;color&quot;: &quot;amber&quot;
+      },
+      {
+        &quot;asset&quot;: &quot;ant&quot;,
+        &quot;box&quot;: [
+          0.8,
+          0.63,
+          0.025,
+          0.028
+        ],
+        &quot;color&quot;: &quot;ink&quot;
+      },
+      {
+        &quot;asset&quot;: &quot;ant&quot;,
+        &quot;box&quot;: [
+          0.845,
+          0.645,
+          0.023,
+          0.026
+        ],
+        &quot;color&quot;: &quot;ink&quot;
+      },
+      {
+        &quot;asset&quot;: &quot;card&quot;,
+        &quot;box&quot;: [
+          0.5,
+          0.57,
+          0.25,
+          0.09
+        ],
+        &quot;color&quot;: &quot;steel&quot;,
+        &quot;label&quot;: &quot;9 SEPTEMBER 2026 — TITLE REVISION&quot;,
+        &quot;label_box&quot;: [
+          0.44,
+          0.68,
+          0.34,
+          0.045
+        ]
       }
     ],
     &quot;reconstructed&quot;: true,
     &quot;shot&quot;: &quot;office&quot;,
-    &quot;source&quot;: &quot;\n**Frame:** Verso. Curt performs the final manuscript build. [Page 118](118.md) is still concealed by a black thumbnail.\n\n**Action:** Source packets, corrections, and uncertainty labels compile beside the reading edition.\n\n**Provenance:** `reconstructed` — project publication scene.\n\n&quot;,
-    &quot;title&quot;: &quot;The final build preserves the concealed last page&quot;
+    &quot;source&quot;: &quot;\n**Frame:** Verso. Curt performs the final manuscript build. [Page 118](118.md) is still concealed by a black thumbnail.\n\n**Action:** Source packets, corrections, and uncertainty labels compile beside the reading edition. A cover proof reads `THE TWO ANTHILL PROBLEM`. Beside it, a discarded connected-hills sketch remains visible under a heavy cancellation stroke; the kept sketch has two separate surfaces and unmarked space between. A revision slip reads `9 SEPTEMBER 2026 — TITLE REVISION`. Neither sketch has a queen, chamber, or individual agent identity. Two tiny authored ants sit in the desk’s light; they do not stand for particular runs.\n\n**Dialogue — CURT:**\n&gt; Two incidents. How many went unseen?\n\n**Screen / system text — CHATGPT:**\n&gt; The picture cannot answer that.\n\n**Provenance:** `reconstructed` — project publication scene.\n\n&quot;,
+    &quot;title&quot;: &quot;The title revision keeps the evidence boundary&quot;
   }
 }
-</metadata><rect width="1200" height="800" fill="#101214"/><rect x="53.16" y="35.2" width="1093.68" height="705.6" fill="none" stroke="#202326" stroke-width="3"/><text x="61.16" y="59.2" fill="#202326" font-family="sans-serif" font-size="20">room</text><rect x="231.72" y="488.8" width="870.48" height="223.2" fill="none" stroke="#AA9571" stroke-width="3"/><text x="239.72" y="512.8" fill="#AA9571" font-family="sans-serif" font-size="20">desk</text><rect x="86.64" y="236.8" width="290.16" height="446.4" fill="none" stroke="#CEC5B3" stroke-width="3"/><text x="94.64" y="260.8" fill="#CEC5B3" font-family="sans-serif" font-size="20">person-seated</text><rect x="421.44" y="208" width="279" height="244.8" fill="none" stroke="#5E737B" stroke-width="3"/><text x="429.44" y="232" fill="#5E737B" font-family="sans-serif" font-size="20">terminal</text><text x="560.94" y="475.6" text-anchor="middle" fill="#E7E0D0" font-size="18" font-family="sans-serif">BUILD</text><rect x="750.66" y="208" width="279" height="244.8" fill="none" stroke="#202326" stroke-width="3"/><text x="758.66" y="232" fill="#202326" font-family="sans-serif" font-size="20">box</text><text x="890.16" y="470.35" text-anchor="middle" fill="#E7E0D0" font-size="12.75" font-family="sans-serif">FINAL PAGE</text><rect x="979.44" y="481.6" width="78.12" height="100.8" fill="none" stroke="#AA9571" stroke-width="3"/><text x="987.44" y="505.6" fill="#AA9571" font-family="sans-serif" font-size="20">cup</text><rect x="3" y="3" width="1194" height="794" fill="none" stroke="#5E737B" stroke-width="4" stroke-dasharray="18 10"/></svg>
+</metadata><rect width="1200" height="800" fill="#101214"/><rect x="24" y="200" width="1152" height="576" fill="none" stroke="#202326" stroke-width="3"/><text x="32" y="224" fill="#202326" font-family="sans-serif" font-size="20">room</text><rect x="108" y="456" width="1008" height="288" fill="none" stroke="#AA9571" stroke-width="3"/><text x="116" y="480" fill="#AA9571" font-family="sans-serif" font-size="20">desk</text><rect x="30" y="232" width="180" height="344" fill="none" stroke="#CEC5B3" stroke-width="3"/><text x="38" y="256" fill="#CEC5B3" font-family="sans-serif" font-size="20">person-seated</text><rect x="948" y="240" width="180" height="160" fill="none" stroke="#202326" stroke-width="3"/><text x="956" y="264" fill="#202326" font-family="sans-serif" font-size="20">box</text><text x="1038" y="428" text-anchor="middle" fill="#E7E0D0" font-size="20" font-family="sans-serif">FINAL PAGE</text><rect x="216" y="216" width="312" height="240" fill="none" stroke="#E7E0D0" stroke-width="3"/><text x="224" y="240" fill="#E7E0D0" font-family="sans-serif" font-size="20">outline-box</text><text x="372" y="484" text-anchor="middle" fill="#E7E0D0" font-size="20" font-family="sans-serif">THE TWO ANTHILL PROBLEM</text><rect x="252" y="296" width="108" height="120" fill="none" stroke="#E7E0D0" stroke-width="3"/><text x="260" y="320" fill="#E7E0D0" font-family="sans-serif" font-size="20">hill</text><rect x="384" y="312" width="108" height="104" fill="none" stroke="#E7E0D0" stroke-width="3"/><text x="392" y="336" fill="#E7E0D0" font-family="sans-serif" font-size="20">hill</text><rect x="576" y="240" width="312" height="176" fill="none" stroke="#5E737B" stroke-width="3"/><text x="584" y="264" fill="#5E737B" font-family="sans-serif" font-size="20">outline-box</text><rect x="600" y="264" width="96" height="112" fill="none" stroke="#5E737B" stroke-width="3"/><text x="608" y="288" fill="#5E737B" font-family="sans-serif" font-size="20">hill</text><rect x="768" y="264" width="96" height="112" fill="none" stroke="#5E737B" stroke-width="3"/><text x="776" y="288" fill="#5E737B" font-family="sans-serif" font-size="20">hill</text><rect x="684" y="320" width="84" height="8" fill="none" stroke="#5E737B" stroke-width="3"/><text x="692" y="344" fill="#5E737B" font-family="sans-serif" font-size="20">dotted-line</text><rect x="576" y="232" width="324" height="192" fill="none" stroke="#A17D45" stroke-width="3"/><text x="584" y="256" fill="#A17D45" font-family="sans-serif" font-size="20">cross</text><rect x="960" y="504" width="30" height="22.4" fill="none" stroke="#101214" stroke-width="3"/><text x="968" y="528" fill="#101214" font-family="sans-serif" font-size="20">ant</text><rect x="1014" y="516" width="27.6" height="20.8" fill="none" stroke="#101214" stroke-width="3"/><text x="1022" y="540" fill="#101214" font-family="sans-serif" font-size="20">ant</text><rect x="600" y="456" width="300" height="72" fill="none" stroke="#5E737B" stroke-width="3"/><text x="608" y="480" fill="#5E737B" font-family="sans-serif" font-size="20">card</text><text x="732" y="564" text-anchor="middle" fill="#E7E0D0" font-size="20" font-family="sans-serif">9 SEPTEMBER 2026 — TITLE REVISION</text><rect x="3" y="3" width="1194" height="794" fill="none" stroke="#5E737B" stroke-width="4" stroke-dasharray="18 10"/></svg>

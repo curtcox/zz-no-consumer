@@ -1,4 +1,4 @@
-# ZZ: NO CONSUMER — Story Contract
+# The Two Anthill Problem — Story Contract
 
 ## Status
 
@@ -69,6 +69,16 @@ Admissions log:
 | 5 Sep 2026 | `CW-EXPLORER`, the authors' hosted, redacted copy of the wikis | another view of `CW-EXPORT` | Locators only until reuse terms are recorded; not independent corroboration. |
 | 6 Sep 2026 | `HF-POD`, Roose and Newton interview Cotra, 4 Sep 2026 | investigator testimony on method, plus reporting | [Page 087](pages/087.md)'s account of model-built investigation tooling; [page 073](pages/073.md)'s separation of the agents' vocabulary from the draft's invented interior. The hosts' agent counts and their disabled-monitoring speculation are not admitted. |
 | 6 Sep 2026 | `CI-REFUSAL`, this project's own transcript record, 15 Jul and 5 Sep 2026 | preserved production artifact | Pages [086](pages/086.md) and [087](pages/087.md), and the creator register only. It is evidence about how this book was made and about nothing else; it may not be used as incident evidence, as a rate, or as a grievance. |
+| 9 Sep 2026 | `EK-TONER`, Klein interview with Toner, 18 Aug 2026 | expert commentary; title passage checked against video auto-captions | Title FAQ only. Toner relayed an unnamed person’s formulation. No incident chronology, counts or additional interview claims admitted. |
+
+## Title and authored visual convention
+
+*The Two Anthill Problem* names the two incidents examined here. Their visibility does not
+tell us how many other incidents have gone unseen. Ants and hill surfaces are disclosed
+authored figures, not testimony about insects in a room, agent bodies, shared identity or
+consciousness. Their rules live in the visual bible. Unmarked space between sites establishes
+neither a bridge nor its absence. The publication-relative creator scene may show the dated
+9 September 2026 title revision; earlier scenes do not acquire that decision retroactively.
 
 ## Canonical population model
 

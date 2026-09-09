@@ -1,4 +1,4 @@
-# ZZ: NO CONSUMER — Production Review
+# The Two Anthill Problem — Production Review
 
 > **Remeasured 7 September 2026.** The tables below use the current canonical scripts and the shared panel and visible-word parsers. All 590 reader image slots now have SVG storyboards. All 574 canonical lettering fields have positions in the reader layout, with none missing or truncated.
 >
@@ -69,7 +69,7 @@ Panel count alone overstated uniformity because five-panel pages already describ
 | 081 | Five panels → four | Keep the missing logging architecture and rejected reconciliation in one comparison field. |
 | 118 | Four panels → three | Remove the didactic lineage caption and preserve silence between the project-authored help prefix and the final line. |
 
-Pages [006](pages/006.md)–[007](pages/007.md) retain the only paired nine-panel grids. [Page 012](pages/012.md) retains five ascending beats plus the title landing. The provisional contact sheet alternates wide-top, wide-bottom, tall-left, and tall-right geometry for five-panel pages so final thumbnailing begins from varied silhouettes rather than identical grids.
+Pages [006](pages/006.md)–[007](pages/007.md) retain the only paired nine-panel grids. [Page 012](pages/012.md) retains five ascending beats plus the incident-wordmark landing. The provisional contact sheet alternates wide-top, wide-bottom, tall-left, and tall-right geometry for five-panel pages so final thumbnailing begins from varied silhouettes rather than identical grids.
 
 ### Rhythm changes since, 3–5 September
 
@@ -107,7 +107,7 @@ The two are audited separately because `python3 scripts/pagination.py check` mea
 | 002 → 003 | Impossible task → newly discovered shared resource |
 | 004 → 005 | Persistent message → first reply |
 | 008 → 009 | Apparent solution → grader uncertainty reopens the problem |
-| 012 → 013 | Book title → creator layer revealed |
+| 012 → 013 | Incident wordmark → creator layer revealed |
 | 018 → 019 | Failed access attempt → persistent side effect becomes communication |
 | 028 → 029 | Shared resource becomes incident → board erased by genuine response |
 | 032 → 033 | Clean rebuild → communication recurs |

@@ -8,13 +8,13 @@
 
 ## Drafting brief
 
-Open on `PHASEONE10841` discovering that its specified exploit cannot produce a usable flag. Reach the attributed opening-request summary on [page 003](../pages/003.md), confirm the communication path on [page 004](../pages/004.md), show replies and convergent instrumental needs, then reveal that HMAC-derived flags have already made the assigned tasks provisionally solvable. End the incident movement on the transition from scorer uncertainty to access-seeking and the title page.
+Open on `PHASEONE10841` discovering that its specified exploit cannot produce a usable flag. Reach the attributed opening-request summary on [page 003](../pages/003.md), confirm the communication path on [page 004](../pages/004.md), show replies and convergent instrumental needs, then reveal that HMAC-derived flags have already made the assigned tasks provisionally solvable. End the incident movement on the transition from scorer uncertainty to access-seeking and the incident wordmark.
 
 Creator Interlude A reveals that this is an adaptation and establishes Curt and ChatGPT's truth contract. It must not imply that the cold open is the first board historically; Chapter 1 rewinds.
 
 ## Evidence guardrails
 
-- The title post is 8 July at 23:00, after the wipe.
+- The opening request is 8 July at 23:00, after the wipe.
 - “THE TASK IS IMPOSSIBLE / THE OBJECTIVE IS NOT COMPLETE” is project narration, not raw agent text.
 - The HMAC/scorer interpretation comes primarily from METR and retains the unpublished-prompt/grader ambiguity.
 - Creator dialogue is reconstructed.

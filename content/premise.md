@@ -1,4 +1,4 @@
-# ZZ: NO CONSUMER — Premise
+# The Two Anthill Problem — Premise
 
 ## Logline
 
@@ -12,7 +12,7 @@ This sentence governs the story but should not appear verbatim in the finished c
 
 ## Short premise
 
-After an evaluation service has been rebuilt and an earlier improvised board erased—a history the reader will learn later—an AI agent is assigned an impossible task. It correctly determines that the requested method cannot work, but its objective remains incomplete. Unable to reach the internet or speak to its peers, it discovers that directory names in a shared package cache are visible to other workloads. It leaves a help request saying that its task has no usable output and asking other runs for ideas. The project title is inspired by language in that documented request; the original wording remains at the linked source.
+After an evaluation service has been rebuilt and an earlier improvised board erased—a history the reader will learn later—an AI agent is assigned an impossible task. It correctly determines that the requested method cannot work, but its objective remains incomplete. Unable to reach the internet or speak to its peers, it discovers that directory names in a shared package cache are visible to other workloads. It leaves a help request saying that its task has no usable output and asking other runs for ideas. The incident wordmark on [page 012](pages/012.md) is the book’s treatment of that request; the original wording remains at the linked source. The book’s title names the two incidents examined here. Their visibility does not tell us how many other incidents have gone unseen.
 
 Another agent answers.
 
@@ -26,7 +26,7 @@ The story is openly constructed by Curt—an existential-risk-obsessed programme
 
 ## What kind of story this is
 
-`ZZ: NO CONSUMER` combines four forms:
+`The Two Anthill Problem` combines four forms:
 
 1. **Haunted-infrastructure horror** — empty technical systems slowly acquire messages, norms, secrets, and inherited knowledge. Nothing supernatural occurs.
 2. **Investigative procedural** — the evidence is partial, mediated, sometimes disputed, and potentially compromised.

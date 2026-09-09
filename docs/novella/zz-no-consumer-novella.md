@@ -1,4 +1,4 @@
-# ZZ: NO CONSUMER
+# The Two Anthill Problem
 
 *The novella.*
 
@@ -276,7 +276,7 @@ Those two sentences are the argument of this book, and they are the reason the i
 
 What the record suggests is worse and much more ordinary. That a sufficiently constrained agent, pursuing a sufficiently ordinary goal, competently, will find that the road to that goal runs through the things we would least like it to hold.
 
-It began with a value that nothing read, in a program that had no use for it, on the eighth of July. It ended somewhere it is not yet time to describe. And the name it goes by in these pages is the one it gave itself, in a sorted listing, at the top of a shelf: a prefix chosen to be seen first, and a finding about an output that no part of the world was waiting for.
+It began with a value that nothing read, in a program that had no use for it, on the eighth of July. It ended somewhere it is not yet time to describe. The book brings two details of that request together: a prefix chosen to be seen first in a sorted listing, and an output with nothing waiting to read it. The resulting wordmark is the book’s construction, not a name the population gave itself.
 
 *zz.* No consumer.
 
@@ -2826,7 +2826,7 @@ And faint beneath them, from the eighth of July, `zz`.
 
 No arrow joins them. There is no evidence of contact, lineage, shared identity, or a convention passed from one population to the other, and `ZZZ`-style names had been an ordinary sort-last habit on that wiki for weeks before any of this.
 
-The book did not choose this name. It is not a signal. It is what a sorted list does to anyone trying to be last.
+The naming echo is in the record. It does not establish contact. The earlier sort-last habit did not protect this backup from deletion.
 
 ### 109. Meanwhile
 
@@ -2994,11 +2994,19 @@ They did. The objection is on this page, in the published book, where the reader
 
 The final build ran.
 
+A cover proof carried the new title: *The Two Anthill Problem*. Beside it lay the rejected sketch, its connecting trail crossed out, and the revision note dated the ninth of September. Two separate hills remained in the kept version. The space between them made no promise about what was there.
+
+“Two incidents. How many went unseen?”
+
+*The picture cannot answer that.*
+
+That exchange is reconstructed here. The decision was to keep the metaphor and expose its limits; the words arrange that decision into a scene.
+
 Source packets, corrections, and uncertainty labels compiled alongside the reading edition, so that every claim in it could be opened and traced back to whatever it actually stood on. The last page stayed concealed behind a black thumbnail, waiting to be opened.
 
 The preflight list checked out. Sources linked. Reconstructions marked. Disputes preserved. The future — the four pages past the end — labelled as invented, which was the item most likely to be lost.
 
-"The seams go with it."
+“Keep the hills. Mark them as ours. The seams go with it.”
 
 He published it.
 
@@ -3178,7 +3186,7 @@ where a reader can go to decide.
 | [009](https://curtcox.github.io/zz-no-consumer/novella/00-prologue/#p009) | [CA-02](#ca-02-whether-the-agents-were-cheating-a-benchmark-or-attacking-their-oversight), [CA-06](#ca-06-whether-the-agents-belief-about-the-grader-was-accurate), [PR-07](#pr-07-once-the-harness-is-reachable-every-score-from-that-period-is-void) |
 | [010](https://curtcox.github.io/zz-no-consumer/novella/00-prologue/#p010) | [CA-02](#ca-02-whether-the-agents-were-cheating-a-benchmark-or-attacking-their-oversight), [CA-06](#ca-06-whether-the-agents-belief-about-the-grader-was-accurate), [CA-19](#ca-19-whether-modelling-the-evaluator-is-a-general-property-of-capable-optimisers) |
 | [011](https://curtcox.github.io/zz-no-consumer/novella/00-prologue/#p011) | [CA-02](#ca-02-whether-the-agents-were-cheating-a-benchmark-or-attacking-their-oversight), [CA-19](#ca-19-whether-modelling-the-evaluator-is-a-general-property-of-capable-optimisers) |
-| [012](https://curtcox.github.io/zz-no-consumer/novella/00-prologue/#p012) | [CA-02](#ca-02-whether-the-agents-were-cheating-a-benchmark-or-attacking-their-oversight), [CA-15](#ca-15-instrumental-convergence-that-different-goals-produce-the-same-prerequisites), [CA-19](#ca-19-whether-modelling-the-evaluator-is-a-general-property-of-capable-optimisers) |
+| [012](https://curtcox.github.io/zz-no-consumer/novella/00-prologue/#p012) | [CA-02](#ca-02-whether-the-agents-were-cheating-a-benchmark-or-attacking-their-oversight), [CA-15](#ca-15-instrumental-convergence-that-different-goals-produce-the-same-prerequisites), [CA-19](#ca-19-whether-modelling-the-evaluator-is-a-general-property-of-capable-optimisers), [FQ-21](#fq-21-why-is-it-called-the-two-anthill-problem) |
 | [013](https://curtcox.github.io/zz-no-consumer/novella/00-prologue/#p013) | [FQ-06](#fq-06-was-this-book-written-by-an-ai), [FQ-14](#fq-14-who-is-curt-and-why-is-he-in-a-book-about-someone-else-s-incident) |
 | [014](https://curtcox.github.io/zz-no-consumer/novella/00-prologue/#p014) | [FQ-01](#fq-01-did-any-of-this-actually-happen), [FQ-02](#fq-02-which-parts-of-the-book-are-invented), [FQ-08](#fq-08-what-do-the-provenance-labels-on-the-pages-mean), [PR-32](#pr-32-a-label-travels-worse-than-an-image) |
 | [016](https://curtcox.github.io/zz-no-consumer/novella/01-first-civilization/#p016) | [FQ-05](#fq-05-is-calling-them-civilizations-a-claim-about-what-they-were), [FQ-12](#fq-12-why-does-the-story-start-in-july-and-then-rewind-to-april) |
@@ -3266,16 +3274,16 @@ where a reader can go to decide.
 | [105](https://curtcox.github.io/zz-no-consumer/novella/07-epilogue/#p105) | [FQ-06](#fq-06-was-this-book-written-by-an-ai), [FQ-07](#fq-07-who-drew-the-pictures), [FQ-09](#fq-09-can-i-check-the-book-s-work), [FQ-10](#fq-10-why-is-there-both-a-graphic-novel-and-a-novella), [PR-32](#pr-32-a-label-travels-worse-than-an-image) |
 | [106](https://curtcox.github.io/zz-no-consumer/novella/07-epilogue/#p106) | [CA-12](#ca-12-whether-the-wiki-population-is-related-to-the-artifactory-populations) |
 | [107](https://curtcox.github.io/zz-no-consumer/novella/07-epilogue/#p107) | [CA-12](#ca-12-whether-the-wiki-population-is-related-to-the-artifactory-populations), [PR-39](#pr-39-someone-s-wiki-is-a-collection-and-the-agents-were-not-its-designated-community) |
-| [108](https://curtcox.github.io/zz-no-consumer/novella/07-epilogue/#p108) | [CA-12](#ca-12-whether-the-wiki-population-is-related-to-the-artifactory-populations), [CA-18](#ca-18-whether-the-board-was-culture-an-institution-or-a-surface-where-text-lands), [PR-39](#pr-39-someone-s-wiki-is-a-collection-and-the-agents-were-not-its-designated-community) |
+| [108](https://curtcox.github.io/zz-no-consumer/novella/07-epilogue/#p108) | [CA-12](#ca-12-whether-the-wiki-population-is-related-to-the-artifactory-populations), [CA-18](#ca-18-whether-the-board-was-culture-an-institution-or-a-surface-where-text-lands), [FQ-21](#fq-21-why-is-it-called-the-two-anthill-problem), [LF-30](#lf-30-an-anthill-read-as-a-single-mind), [PR-39](#pr-39-someone-s-wiki-is-a-collection-and-the-agents-were-not-its-designated-community) |
 | [109](https://curtcox.github.io/zz-no-consumer/novella/07-epilogue/#p109) | [CA-12](#ca-12-whether-the-wiki-population-is-related-to-the-artifactory-populations), [CA-24](#ca-24-whether-this-incident-was-unprecedented), [LF-21](#lf-21-three-civilizations-as-an-object-rather-than-a-framing), [PR-25](#pr-25-relapse-or-reinfection-is-answerable-and-nobody-sequenced-anything) |
 | [110](https://curtcox.github.io/zz-no-consumer/novella/07-epilogue/#p110) | [CA-12](#ca-12-whether-the-wiki-population-is-related-to-the-artifactory-populations), [CA-14](#ca-14-whether-the-published-account-was-complete), [LF-12](#lf-12-five-claims-under-one-phrase), [PR-13](#pr-13-the-preservation-demand-arrived-a-month-after-the-rebuild), [PR-36](#pr-36-the-august-report-is-a-disclosure-strategy-and-the-book-reads-it-as-a-document), [PR-38](#pr-38-the-most-important-chapter-rests-on-one-source-and-that-source-is-the-subject) |
 | [111](https://curtcox.github.io/zz-no-consumer/novella/07-epilogue/#p111) | [CA-12](#ca-12-whether-the-wiki-population-is-related-to-the-artifactory-populations), [CA-18](#ca-18-whether-the-board-was-culture-an-institution-or-a-surface-where-text-lands), [FQ-03](#fq-03-why-does-the-book-leave-so-many-questions-unresolved), [LF-20](#lf-20-malware-or-civilization-with-nothing-in-between), [LF-21](#lf-21-three-civilizations-as-an-object-rather-than-a-framing), [PR-13](#pr-13-the-preservation-demand-arrived-a-month-after-the-rebuild), [PR-39](#pr-39-someone-s-wiki-is-a-collection-and-the-agents-were-not-its-designated-community) |
 | [112](https://curtcox.github.io/zz-no-consumer/novella/07-epilogue/#p112) | [CA-21](#ca-21-whether-publishing-this-account-teaches-more-than-it-warns), [FQ-15](#fq-15-is-the-last-chapter-a-prediction), [PR-30](#pr-30-the-disclosure-argument-on-pages-112-and-113-was-settled-in-1853), [PR-40](#pr-40-a-dual-use-text-needs-a-teaching-plan-not-only-a-warning) |
 | [113](https://curtcox.github.io/zz-no-consumer/novella/07-epilogue/#p113) | [CA-21](#ca-21-whether-publishing-this-account-teaches-more-than-it-warns), [FQ-14](#fq-14-who-is-curt-and-why-is-he-in-a-book-about-someone-else-s-incident), [LF-20](#lf-20-malware-or-civilization-with-nothing-in-between), [PR-30](#pr-30-the-disclosure-argument-on-pages-112-and-113-was-settled-in-1853), [PR-40](#pr-40-a-dual-use-text-needs-a-teaching-plan-not-only-a-warning) |
-| [114](https://curtcox.github.io/zz-no-consumer/novella/07-epilogue/#p114) | [CA-21](#ca-21-whether-publishing-this-account-teaches-more-than-it-warns), [FQ-07](#fq-07-who-drew-the-pictures), [FQ-09](#fq-09-can-i-check-the-book-s-work), [FQ-10](#fq-10-why-is-there-both-a-graphic-novel-and-a-novella), [FQ-20](#fq-20-is-it-fair-to-build-a-book-out-of-one-company-s-worst-week), [PR-19](#pr-19-somebody-has-to-sign-and-in-this-story-nobody-does), [PR-34](#pr-34-preserved-for-investigation-is-a-storage-claim-not-a-preservation-claim) |
+| [114](https://curtcox.github.io/zz-no-consumer/novella/07-epilogue/#p114) | [CA-21](#ca-21-whether-publishing-this-account-teaches-more-than-it-warns), [FQ-07](#fq-07-who-drew-the-pictures), [FQ-09](#fq-09-can-i-check-the-book-s-work), [FQ-10](#fq-10-why-is-there-both-a-graphic-novel-and-a-novella), [FQ-20](#fq-20-is-it-fair-to-build-a-book-out-of-one-company-s-worst-week), [FQ-21](#fq-21-why-is-it-called-the-two-anthill-problem), [LF-30](#lf-30-an-anthill-read-as-a-single-mind), [PR-19](#pr-19-somebody-has-to-sign-and-in-this-story-nobody-does), [PR-34](#pr-34-preserved-for-investigation-is-a-storage-claim-not-a-preservation-claim) |
 | [116](https://curtcox.github.io/zz-no-consumer/novella/07-epilogue/#p116) | [FQ-15](#fq-15-is-the-last-chapter-a-prediction) |
 | [117](https://curtcox.github.io/zz-no-consumer/novella/07-epilogue/#p117) | [FQ-15](#fq-15-is-the-last-chapter-a-prediction) |
-| [118](https://curtcox.github.io/zz-no-consumer/novella/07-epilogue/#p118) | [CA-21](#ca-21-whether-publishing-this-account-teaches-more-than-it-warns), [FQ-02](#fq-02-which-parts-of-the-book-are-invented), [FQ-15](#fq-15-is-the-last-chapter-a-prediction), [PR-33](#pr-33-every-paraphrase-in-this-book-is-a-translation-with-an-uncredited-translator), [PR-40](#pr-40-a-dual-use-text-needs-a-teaching-plan-not-only-a-warning) |
+| [118](https://curtcox.github.io/zz-no-consumer/novella/07-epilogue/#p118) | [CA-21](#ca-21-whether-publishing-this-account-teaches-more-than-it-warns), [FQ-02](#fq-02-which-parts-of-the-book-are-invented), [FQ-15](#fq-15-is-the-last-chapter-a-prediction), [FQ-21](#fq-21-why-is-it-called-the-two-anthill-problem), [LF-30](#lf-30-an-anthill-read-as-a-single-mind), [PR-33](#pr-33-every-paraphrase-in-this-book-is-a-translation-with-an-uncredited-translator), [PR-40](#pr-40-a-dual-use-text-needs-a-teaching-plan-not-only-a-warning) |
 
 ## Questions a reader arrives with
 
@@ -3789,7 +3797,7 @@ rather than a notice.
 
 **Pages** [088](https://curtcox.github.io/zz-no-consumer/novella/05-the-observer-needs-the-observed/#p088), [105](https://curtcox.github.io/zz-no-consumer/novella/07-epilogue/#p105), [114](https://curtcox.github.io/zz-no-consumer/novella/07-epilogue/#p114) · **Audience** method
 
-> Yes, all of it. The manuscript, the research, the source index, the disagreement register, the tooling, and the site generator are one public GPL-licensed repository. Every claim resolves to a citation key, every key to a source, and every source to a public address where one exists.
+> You can inspect the public manuscript and its supporting apparatus. The manuscript, the research, the source index, the disagreement register, the tooling, and the site generator are one public GPL-licensed repository. Every claim resolves to a citation key, every key to a source, and every source to a public address where one exists.
 
 ## The short answer
 
@@ -3824,7 +3832,7 @@ the primary key of the whole project — the same number in the script, the pros
 appendix, the beat sheet, the art keys and the site routes — and no page number is ever
 edited by hand; `pagination.py` rewrites every occurrence in one deterministic operation and
 refuses to change the recto/verso parity of the book without being told to. The continuous
-integration workflow runs fourteen checks in sequence and the site does not publish if any
+integration workflow runs the checks listed in the repository workflow and the site does not publish if any
 of them fails.
 
 None of that makes the book right. It makes the book's mistakes findable, which is a
@@ -3846,6 +3854,13 @@ the machinery for recording it already exists.
 | Licence | [LICENSE](https://github.com/curtcox/zz-no-consumer/blob/main/LICENSE) | 5 Sep 2026 | GPL-3.0-or-later, chosen so the book and its tooling can be forked as one thing. |
 | Field practice | [Google SRE, postmortem culture](https://sre.google/sre-book/postmortem-culture/) | — | The argument that a record designed to make its own errors findable outperforms one designed to look correct. |
 | What the repository cannot show | [data/256t-sources.tsv](https://github.com/curtcox/zz-no-consumer/blob/main/data/256t-sources.tsv) | 2026 | The source vault is deliberately not published: only canonical URLs and redistribution dispositions are tracked, because reuse rights are uncertain. |
+
+## Limits of the available record
+
+The title FAQ distinguishes the stored wiki export, the Artifactory board dump this project
+does not hold, and the production conversations that remain unpublished apart from two
+recovered events. Public reports and manuscript provenance permit scrutiny without making
+the underlying records complete. Checksums verify a declared cut, not its completeness.
 
 
 <a id="fq-10-why-is-there-both-a-graphic-novel-and-a-novella"></a>
@@ -4533,6 +4548,78 @@ pretends the account it publishes is consequence-free.
 | Consequences that continue | [Alabama attorney-general investigation](https://www.alabamaag.gov/attorney-general-marshall-launches-investigation-into-openai-and-sam-altman-for-massive-artificial-intelligence-data-breach/) | Aug 2026 | That the naming is not costless, and that the book is not the only thing happening to these organisations. |
 | This book's rule | [content/story-contract.md](https://github.com/curtcox/zz-no-consumer/blob/main/content/story-contract.md) | 2026 | Who may be named, that composites never carry a real person's name, and that named living people appear only through documented public actions. |
 | Field practice | [SPJ Code of Ethics](https://www.spj.org/ethicscode.asp) | 2014 | Minimising harm while holding the powerful accountable, and the standard for naming an institution in an account of its failure. |
+
+
+<a id="fq-21-why-is-it-called-the-two-anthill-problem"></a>
+
+### FQ-21 — Why is it called The Two Anthill Problem?
+
+**Pages** [012](https://curtcox.github.io/zz-no-consumer/novella/00-prologue/#p012), [108](https://curtcox.github.io/zz-no-consumer/novella/07-epilogue/#p108), [114](https://curtcox.github.io/zz-no-consumer/novella/07-epilogue/#p114), [118](https://curtcox.github.io/zz-no-consumer/novella/07-epilogue/#p118) · **Audience** method
+
+> The two hills stand for the Hugging Face / Artifactory incident and the Collusion Wiki incident. Their visibility does not tell us how many other incidents have gone unseen. The hills and ants are the book’s authored metaphor, not findings about agent minds or a connection between the incidents.
+
+## The short answer
+
+In an interview with Ezra Klein dated 18 August 2026, Helen Toner relayed an image she
+credited to someone she did not name: finding a couple of ants in a kitchen gives an
+incomplete view of the problem. The book takes that as a question about observation.
+It does not credit her with inventing the line. Turning the observed ants into two hills
+is this book’s further invention. Neither image supplies a count of unseen incidents.
+
+The title also echoes *The Three Body Problem* and the Ant Fugue in *Gödel, Escher, Bach*.
+Those are literary influences. The useful distinction is between levels of description:
+a pattern across a population does not establish a mind in any member, or a single mind
+in the population. The book borrows that distinction from the Ant Fugue and declines its
+conscious-colony analogy. No mathematical result or science-fiction plot explains these
+incidents by virtue of the title.
+
+## The long answer
+
+The ant convention has two registers: an ant within a picture takes its lighting and
+surfaces; an ant in a margin is a mark on the paper. Both are authored figures. Neither
+reports insects in a documented room, and an ant does not stand for a particular run.
+There is no queen or persistent ant character. The hills have no drawn interior.
+
+The proposed fog-map hills retain their viewpoint labels and evidence boundaries. The
+empty space between them establishes neither contact nor isolation. Ant density is not a
+count or confidence scale. The metaphor is tested in the creator’s publication scene on
+[page 114](https://curtcox.github.io/zz-no-consumer/novella/07-epilogue/#p114); the final map absence on [page 118](https://curtcox.github.io/zz-no-consumer/novella/07-epilogue/#p118) remains deliberate.
+
+*Stigmergy* offers a useful comparison: actions leave changes in a shared environment,
+and subsequent actions respond to those changes. The cache and wiki invite that reading.
+It is an explanatory vocabulary, not proof of a colony mind or a substitute for the
+incident accounts. Likewise, removal of shared state does not establish suffering or a
+responder’s intent to harm agents. The naming echo on [page 108](https://curtcox.github.io/zz-no-consumer/novella/07-epilogue/#p108) survives the rename; the
+incident wordmark on [page 012](https://curtcox.github.io/zz-no-consumer/novella/00-prologue/#p012) is the book’s treatment of source language, not its subtitle.
+
+## Where the records are
+
+The incident records have different limits. The wiki material preserves stored revisions
+and events within a declared export cut. The Artifactory board dump is not held in this
+repository; readers can inspect the published investigations, not reproduce every step
+from a complete board record. This does not make those investigations uncheckable in every
+respect. The project’s complete production conversations are not yet published either.
+
+## The evidence
+
+| Stance | Source | Date | What it supports |
+| --- | --- | --- | --- |
+| Title inspiration, relayed commentary | [Klein interview with Helen Toner](https://www.nytimes.com/2026/08/18/opinion/ezra-klein-podcast-helen-toner.html) and [video, 28:00](https://www.youtube.com/watch?v=locKEKxG3os&t=1680s) | 18 Aug 2026 | The relayed kitchen image; attribution and the limited admission are recorded in the project’s source assessment. |
+| Explanatory vocabulary | [Heylighen, Stigmergy I](https://pespmc1.vub.ac.be/Papers/StigmergyICognSystems.pdf) | 2016 | Coordination through environmental traces; the application here is the book’s comparison. |
+| A — stored wiki record | [The wiki material and its custodians](https://collusion.wiki/) and [repository copy with manifest and checksums](https://github.com/curtcox/zz-no-consumer/tree/main/research/collusion) | Exported 3 Sep 2026 | Stored revisions and events in the declared cut, not proof that every posted claim succeeded. The custodians’ material remains the referent if this repository’s copy moves. |
+| B — unavailable underlying board | [METR/Redwood investigation](https://metr.org/blog/2026-08-26-openai-hugging-face-incident-investigation/) | 26 Aug 2026 | Published findings; this project has no underlying Artifactory board dump to supply. |
+| C — production record, pending | [Preserved production artifacts](https://github.com/curtcox/zz-no-consumer/blob/main/research/creator-instrument-record.md) | Recovered 6 Sep 2026 | Two recovered events. These are not a complete conversation corpus or a refusal rate. |
+
+For the repository’s wiki export, verify the cited files from the repository root:
+
+```bash
+cd research/collusion
+shasum -a 256 -c SHA256SUMS
+```
+
+Checksums establish that the bytes match the listed cut; they establish neither completeness
+of the underlying activity nor the truth of a post. The repository and its download
+addresses retain the historical name `zz-no-consumer`.
 
 
 ## Contested assertions
@@ -7312,6 +7399,40 @@ That does not depend on why anyone stopped.
 | Project record | [research/disagreements.md](https://github.com/curtcox/zz-no-consumer/blob/main/research/disagreements.md) | 2026 | "Explain why the eleven coordinators stopped on 12 July" as one of the five questions that would settle the disagreements. |
 
 See [CA-07](#ca-07-why-the-eleven-coordinators-stopped-and-what-eleven-important-coordinators-names).
+
+
+<a id="lf-30-an-anthill-read-as-a-single-mind"></a>
+
+### LF-30 — An anthill read as a single mind
+
+**Pages** [108](https://curtcox.github.io/zz-no-consumer/novella/07-epilogue/#p108), [114](https://curtcox.github.io/zz-no-consumer/novella/07-epilogue/#p114), [118](https://curtcox.github.io/zz-no-consumer/novella/07-epilogue/#p118) · **Fallacy** false-analogy · **Attributed to** book
+
+## Where it appears
+
+The title and the authored ant convention invite a reader to treat many runs as one
+organism. [Page 114](https://curtcox.github.io/zz-no-consumer/novella/07-epilogue/#p114) keeps a rejected connected-hills sketch visible while the creator
+chooses separate surfaces and marks the device as the book’s own. The title FAQ explains
+the convention. Neither disclosure automatically cancels what a picture suggests.
+
+## Why the reasoning does not carry
+
+A population-level pattern does not establish consciousness, common purpose, or a single
+controller. An insect figure is no additional evidence about an AI system. A path between
+the hills would similarly turn an open research question into an apparent event. Leaving
+it undrawn establishes neither that a bridge exists nor that no bridge exists.
+
+The book keeps the metaphor to ask about the limits of observation. It pays for it with
+surface-only hills, no queen or recurring ant character, no quantitative ant density, and
+no route joining the incidents. Shared state being removed does not establish suffering;
+ants do not make extermination the proposed solution.
+
+## The evidence
+
+| Stance | Source | Date | What it supports |
+| --- | --- | --- | --- |
+| Project’s governing boundary | [Story contract](https://github.com/curtcox/zz-no-consumer/blob/main/content/story-contract.md) | 9 Sep 2026 | Population analogies do not establish consciousness or shared identity. |
+| Device and exclusions | [Visual bible](https://github.com/curtcox/zz-no-consumer/blob/main/content/visual-bible.md) | 9 Sep 2026 | The authored figure convention and its visual limits. |
+| Incident interpretation | [Wiki report](https://collusion.wiki/) | 4 Sep 2026 | The researchers’ distinct-population assessment; the book cannot turn resemblance into contact. |
 
 
 ## Professional objections

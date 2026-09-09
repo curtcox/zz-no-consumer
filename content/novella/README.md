@@ -1,6 +1,6 @@
 # Novella track
 
-A prose retelling of `ZZ: NO CONSUMER`, one text file per graphic-novel page.
+A prose retelling of `The Two Anthill Problem`, one text file per graphic-novel page.
 
 `content/novella/<chapter>/NNN.md` corresponds to `content/pages/NNN.md`. Chapter
 directories mirror `content/chapters/`. Every story page is present — 118 as the

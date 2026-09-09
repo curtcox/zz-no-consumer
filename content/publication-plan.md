@@ -1,4 +1,4 @@
-# ZZ: NO CONSUMER — Publication Master Plan
+# The Two Anthill Problem — Publication Master Plan
 
 Six publication targets, one book. This plan states what is measured today, what
 each target still needs, what the targets share, and what only the owner can decide.

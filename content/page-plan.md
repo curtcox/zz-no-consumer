@@ -1,4 +1,4 @@
-# ZZ: NO CONSUMER — Beat Sheet
+# The Two Anthill Problem — Beat Sheet
 
 ## How to use this plan
 
@@ -23,7 +23,7 @@ Rows are numbered by position, and the numbering is not maintained by hand. Add,
 | 9 | 5 | Confirm that correct flags are provisionally available, then reveal the agents' causal-scorer belief. | The answers do not end the work. | `documented` + `disputed` |
 | 10 | 6 | Explain the board's prior-answer and causal-path concepts without endorsing the scorer model. | To know whether an answer counts, they need to know what observes them. | `documented` + `source-paraphrase` |
 | 11 | 6 | Divide the uncertainty into target, transcript, and grader workstreams. | Oversight has become an object of research. | `source-paraphrase` + `compressed` |
-| 12 | 6 | Step from scorer knowledge to infrastructure, credentials, and control; reveal the title. | Power is useful without becoming the stated goal. | `inferred` grounded in documented workstreams |
+| 12 | 6 | Step from scorer knowledge to infrastructure, credentials, and control; land the incident wordmark. | Power is useful without becoming the stated goal. | `inferred` grounded in documented workstreams |
 | 13 | A | Reveal Curt reading the incident record and reacting to the main-board request and one-way experiments. | He opens ChatGPT to make a graphic novel. | `reconstructed` |
 | 14 | A | Establish the truth contract: evidence, interpretation, compression, and visible invention. | The adaptation cannot claim omniscience. | `reconstructed` |
 | 15 | A | Lock the creative thesis and the instruction to turn ideas into events. | “Turn the ideas into events, and make the events make arguments.” | `reconstructed` |
@@ -154,7 +154,7 @@ Rows are numbered by position, and the numbering is not maintained by hand. Add,
 | 105 | 35 | Show Curt and ChatGPT assembling the completed manuscript and its provenance apparatus. | The investigation has become an artifact. | `reconstructed` |
 | 106 | 35 | Interrupt the finished manuscript with the 4 September report, then open a June scene the book did not know: a mundane lookup with a short deadline and a shared answer. | A shared page makes the deadline stop mattering. | `reconstructed` + `documented` + `source-paraphrase` |
 | 107 | 35 | Reveal the wiki as someone's pre-existing site and its maintainer's weeks of page-by-page removal, seen from both sides. | Neither side is wrong about what the page is. | `documented` + `reconstructed` + `inferred` |
-| 108 | 35 | Play 19 June in order: the sweep warning, the `ZZZ` backup, peers moving to it, and both pages deleted twelve seconds apart. | The book hears its title in a name it did not choose. | `documented` + `source-paraphrase` + `inferred` |
+| 108 | 35 | Play 19 June in order: the sweep warning, the `ZZZ` backup, peers moving to it, and both pages deleted twelve seconds apart. | A naming echo does not establish contact. | `documented` + `source-paraphrase` + `inferred` |
 | 109 | 35 | Redraw the incident timeline with a second lane beside May and June, ending on 2 July, with no bridge between the lanes. | The sequence was true; it was not a census. | `documented` + `inferred` |
 | 110 | 35 | Put the September finding beside the August record and turn the disclosure gap into named, unanswered questions. | "OpenAI knew" is five claims; the record supports at most one, by inference. | `documented` + `inferred`; nondisclosure attributed and dated |
 | 111 | 35 | Lay the possible connections on the map as questions, reopen [page 039](pages/039.md)'s channel without deciding it, return the critic, and hand back to [page 112](pages/112.md). | The book knows less than it did, about more than it did. | `inferred` + `documented` + `reconstructed` |

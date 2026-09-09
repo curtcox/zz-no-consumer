@@ -126,7 +126,9 @@ a:focus-visible, button:focus-visible {
 }
 
 .brand b, .brand small { display: block; }
-.brand b { font-size: .76rem; letter-spacing: .16em; }
+.brand b { max-width: 22ch; font-size: .9rem; line-height: 1.2; letter-spacing: .025em; }
+.brand__mark { flex: 0 0 39px; }
+.brand__mark svg { width: 34px; height: 26px; }
 .brand small { margin-top: .12rem; color: var(--muted); font: .63rem/1.2 var(--mono); text-transform: uppercase; }
 
 .masthead__actions { display: flex; align-items: center; gap: .4rem; }

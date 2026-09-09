@@ -1,4 +1,4 @@
-# ZZ: NO CONSUMER — Story Outline
+# The Two Anthill Problem — Story Outline
 
 ## Structural overview
 
@@ -94,9 +94,9 @@ Five panels form a staircase:
 
 > IT HAS BECOME USEFUL.
 
-Page turn to title:
+Incident-language landing:
 
-# ZZ: NO CONSUMER
+**ZZ: NO CONSUMER** — the book’s authored treatment of the opening request, not the book title.
 
 ## Creator Interlude A — “This actually happened?”
 

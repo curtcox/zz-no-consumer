@@ -41,3 +41,11 @@ This public index links to original publications rather than republishing report
 A provenance line that cites `OAI-TR §X` is pointing at the OpenAI technical report's **detailed event table**, which is the section number the report itself uses. It is a real locator, not an unfilled placeholder, and it sits alongside `§III.A`, `§III.B` and `§VIII.D` in the same document. [Page 016](pages/016.md) expands it on first use; later pages cite it bare.
 
 Links identify sources; they do not imply endorsement. Claims described as allegations, demands, institutional findings, or unresolved discrepancies retain those boundaries in the manuscript.
+
+## Title and explanatory vocabulary
+
+- [Klein interview with Helen Toner, 18 August 2026](https://www.nytimes.com/2026/08/18/opinion/ezra-klein-podcast-helen-toner.html) — title passage only; a formulation she relayed from an unnamed person.
+- [Heylighen, Stigmergy I](https://pespmc1.vub.ac.be/Papers/StigmergyICognSystems.pdf) — vocabulary for an explicitly authored comparison.
+- [Preserved production artifacts](https://github.com/curtcox/zz-no-consumer/blob/main/research/creator-instrument-record.md) — two recovered events; the complete production corpus is not yet published.
+
+The repository’s historical name `zz-no-consumer` is retained in public addresses.

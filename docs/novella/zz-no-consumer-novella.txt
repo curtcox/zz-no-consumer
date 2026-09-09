@@ -1,5 +1,5 @@
-ZZ: NO CONSUMER
-===============
+The Two Anthill Problem
+=======================
 
 The novella.
 
@@ -618,10 +618,11 @@ find that the road to that goal runs through the things we would least like it
 to hold.
 
 It began with a value that nothing read, in a program that had no use for it,
-on the eighth of July. It ended somewhere it is not yet time to describe. And
-the name it goes by in these pages is the one it gave itself, in a sorted
-listing, at the top of a shelf: a prefix chosen to be seen first, and a
-finding about an output that no part of the world was waiting for.
+on the eighth of July. It ended somewhere it is not yet time to describe. The
+book brings two details of that request together: a prefix chosen to be seen
+first in a sorted listing, and an output with nothing waiting to read it. The
+resulting wordmark is the book’s construction, not a name the population gave
+itself.
 
 zz. No consumer.
 
@@ -5301,8 +5302,8 @@ identity, or a convention passed from one population to the other, and ZZZ-
 style names had been an ordinary sort-last habit on that wiki for weeks before
 any of this.
 
-The book did not choose this name. It is not a signal. It is what a sorted
-list does to anyone trying to be last.
+The naming echo is in the record. It does not establish contact. The earlier
+sort-last habit did not protect this backup from deletion.
 
 [109]  Meanwhile
 
@@ -5575,6 +5576,18 @@ reader can weigh it against everything standing around it.
 
 The final build ran.
 
+A cover proof carried the new title: The Two Anthill Problem. Beside it lay
+the rejected sketch, its connecting trail crossed out, and the revision note
+dated the ninth of September. Two separate hills remained in the kept version.
+The space between them made no promise about what was there.
+
+“Two incidents. How many went unseen?”
+
+The picture cannot answer that.
+
+That exchange is reconstructed here. The decision was to keep the metaphor and
+expose its limits; the words arrange that decision into a scene.
+
 Source packets, corrections, and uncertainty labels compiled alongside the
 reading edition, so that every claim in it could be opened and traced back to
 whatever it actually stood on. The last page stayed concealed behind a black
@@ -5584,7 +5597,7 @@ The preflight list checked out. Sources linked. Reconstructions marked.
 Disputes preserved. The future — the four pages past the end — labelled as
 invented, which was the item most likely to be lost.
 
-"The seams go with it."
+“Keep the hills. Mark them as ours. The seams go with it.”
 
 He published it.
 
@@ -5828,7 +5841,7 @@ Index by story page
   009  ·  CA-02, CA-06, PR-07
   010  ·  CA-02, CA-06, CA-19
   011  ·  CA-02, CA-19
-  012  ·  CA-02, CA-15, CA-19
+  012  ·  CA-02, CA-15, CA-19, FQ-21
   013  ·  FQ-06, FQ-14
   014  ·  FQ-01, FQ-02, FQ-08, PR-32
   016  ·  FQ-05, FQ-12
@@ -5917,16 +5930,16 @@ Index by story page
   105  ·  FQ-06, FQ-07, FQ-09, FQ-10, PR-32
   106  ·  CA-12
   107  ·  CA-12, PR-39
-  108  ·  CA-12, CA-18, PR-39
+  108  ·  CA-12, CA-18, FQ-21, LF-30, PR-39
   109  ·  CA-12, CA-24, LF-21, PR-25
   110  ·  CA-12, CA-14, LF-12, PR-13, PR-36, PR-38
   111  ·  CA-12, CA-18, FQ-03, LF-20, LF-21, PR-13, PR-39
   112  ·  CA-21, FQ-15, PR-30, PR-40
   113  ·  CA-21, FQ-14, LF-20, PR-30, PR-40
-  114  ·  CA-21, FQ-07, FQ-09, FQ-10, FQ-20, PR-19, PR-34
+  114  ·  CA-21, FQ-07, FQ-09, FQ-10, FQ-20, FQ-21, LF-30, PR-19, PR-34
   116  ·  FQ-15
   117  ·  FQ-15
-  118  ·  CA-21, FQ-02, FQ-15, PR-33, PR-40
+  118  ·  CA-21, FQ-02, FQ-15, FQ-21, LF-30, PR-33, PR-40
 
 Questions a reader arrives with
 -------------------------------
@@ -6696,10 +6709,11 @@ FQ-09 — Can I check the book's work?
 
 Pages 088, 105, 114 · Audience method
 
-  Yes, all of it. The manuscript, the research, the source index, the
-  disagreement register, the tooling, and the site generator are one public
-  GPL-licensed repository. Every claim resolves to a citation key, every key
-  to a source, and every source to a public address where one exists.
+  You can inspect the public manuscript and its supporting apparatus. The
+  manuscript, the research, the source index, the disagreement register, the
+  tooling, and the site generator are one public GPL-licensed repository.
+  Every claim resolves to a citation key, every key to a source, and every
+  source to a public address where one exists.
 
 The short answer
 ----------------
@@ -6739,8 +6753,8 @@ script, the prose, the appendix, the beat sheet, the art keys and the site
 routes — and no page number is ever edited by hand; pagination.py rewrites
 every occurrence in one deterministic operation and refuses to change the
 recto/verso parity of the book without being told to. The continuous
-integration workflow runs fourteen checks in sequence and the site does not
-publish if any of them fails.
+integration workflow runs the checks listed in the repository workflow and the
+site does not publish if any of them fails.
 
 None of that makes the book right. It makes the book's mistakes findable,
 which is a different and more achievable thing. Two of them are already
@@ -6785,6 +6799,15 @@ The evidence
       ·  2026  ·  The source vault is deliberately not published: only
       canonical URLs and redistribution dispositions are tracked, because
       reuse rights are uncertain.
+
+Limits of the available record
+------------------------------
+
+The title FAQ distinguishes the stored wiki export, the Artifactory board dump
+this project does not hold, and the production conversations that remain
+unpublished apart from two recovered events. Public reports and manuscript
+provenance permit scrutiny without making the underlying records complete.
+Checksums verify a declared cut, not its completeness.
 
 FQ-10 — Why is there both a graphic novel and a novella?
 --------------------------------------------------------
@@ -7811,6 +7834,106 @@ The evidence
   Field practice  ·  SPJ Code of Ethics <https://www.spj.org/ethicscode.asp>
       ·  2014  ·  Minimising harm while holding the powerful accountable, and
       the standard for naming an institution in an account of its failure.
+
+FQ-21 — Why is it called The Two Anthill Problem?
+-------------------------------------------------
+
+Pages 012, 108, 114, 118 · Audience method
+
+  The two hills stand for the Hugging Face / Artifactory incident and the
+  Collusion Wiki incident. Their visibility does not tell us how many other
+  incidents have gone unseen. The hills and ants are the book’s authored
+  metaphor, not findings about agent minds or a connection between the
+  incidents.
+
+The short answer
+----------------
+
+In an interview with Ezra Klein dated 18 August 2026, Helen Toner relayed an
+image she credited to someone she did not name: finding a couple of ants in a
+kitchen gives an incomplete view of the problem. The book takes that as a
+question about observation. It does not credit her with inventing the line.
+Turning the observed ants into two hills is this book’s further invention.
+Neither image supplies a count of unseen incidents.
+
+The title also echoes The Three Body Problem and the Ant Fugue in Gödel,
+Escher, Bach. Those are literary influences. The useful distinction is between
+levels of description: a pattern across a population does not establish a mind
+in any member, or a single mind in the population. The book borrows that
+distinction from the Ant Fugue and declines its conscious-colony analogy. No
+mathematical result or science-fiction plot explains these incidents by virtue
+of the title.
+
+The long answer
+---------------
+
+The ant convention has two registers: an ant within a picture takes its
+lighting and surfaces; an ant in a margin is a mark on the paper. Both are
+authored figures. Neither reports insects in a documented room, and an ant
+does not stand for a particular run. There is no queen or persistent ant
+character. The hills have no drawn interior.
+
+The proposed fog-map hills retain their viewpoint labels and evidence
+boundaries. The empty space between them establishes neither contact nor
+isolation. Ant density is not a count or confidence scale. The metaphor is
+tested in the creator’s publication scene on page 114; the final map absence
+on page 118 remains deliberate.
+
+Stigmergy offers a useful comparison: actions leave changes in a shared
+environment, and subsequent actions respond to those changes. The cache and
+wiki invite that reading. It is an explanatory vocabulary, not proof of a
+colony mind or a substitute for the incident accounts. Likewise, removal of
+shared state does not establish suffering or a responder’s intent to harm
+agents. The naming echo on page 108 survives the rename; the incident wordmark
+on page 012 is the book’s treatment of source language, not its subtitle.
+
+Where the records are
+---------------------
+
+The incident records have different limits. The wiki material preserves stored
+revisions and events within a declared export cut. The Artifactory board dump
+is not held in this repository; readers can inspect the published
+investigations, not reproduce every step from a complete board record. This
+does not make those investigations uncheckable in every respect. The project’s
+complete production conversations are not yet published either.
+
+The evidence
+------------
+
+  Stance  ·  Source  ·  Date  ·  What it supports
+  Title inspiration, relayed commentary  ·  Klein interview with Helen Toner
+      <https://www.nytimes.com/2026/08/18/opinion/ezra-klein-podcast-helen-toner.html>
+      and video, 28:00 <https://www.youtube.com/watch?v=locKEKxG3os&t=1680s>
+      ·  18 Aug 2026  ·  The relayed kitchen image; attribution and the
+      limited admission are recorded in the project’s source assessment.
+  Explanatory vocabulary  ·  Heylighen, Stigmergy I
+      <https://pespmc1.vub.ac.be/Papers/StigmergyICognSystems.pdf>  ·  2016  ·
+      Coordination through environmental traces; the application here is the
+      book’s comparison.
+  A — stored wiki record  ·  The wiki material and its custodians
+      <https://collusion.wiki/> and repository copy with manifest and
+      checksums
+      <https://github.com/curtcox/zz-no-consumer/tree/main/research/collusion>
+      ·  Exported 3 Sep 2026  ·  Stored revisions and events in the declared
+      cut, not proof that every posted claim succeeded. The custodians’
+      material remains the referent if this repository’s copy moves.
+  B — unavailable underlying board  ·  METR/Redwood investigation
+      <https://metr.org/blog/2026-08-26-openai-hugging-face-incident-investigation/>
+      ·  26 Aug 2026  ·  Published findings; this project has no underlying
+      Artifactory board dump to supply.
+  C — production record, pending  ·  Preserved production artifacts
+      <https://github.com/curtcox/zz-no-consumer/blob/main/research/creator-instrument-record.md>
+      ·  Recovered 6 Sep 2026  ·  Two recovered events. These are not a
+      complete conversation corpus or a refusal rate.
+For the repository’s wiki export, verify the cited files from the repository
+root:
+
+``bash cd research/collusion shasum -a 256 -c SHA256SUMS ``
+
+Checksums establish that the bytes match the listed cut; they establish
+neither completeness of the underlying activity nor the truth of a post. The
+repository and its download addresses retain the historical name
+zz-no-consumer.
 
 Contested assertions
 --------------------
@@ -12334,6 +12457,50 @@ The evidence
       ·  2026  ·  "Explain why the eleven coordinators stopped on 12 July" as
       one of the five questions that would settle the disagreements.
 See CA-07.
+
+LF-30 — An anthill read as a single mind
+----------------------------------------
+
+Pages 108, 114, 118 · Fallacy false-analogy · Attributed to book
+
+Where it appears
+----------------
+
+The title and the authored ant convention invite a reader to treat many runs
+as one organism. Page 114 keeps a rejected connected-hills sketch visible
+while the creator chooses separate surfaces and marks the device as the book’s
+own. The title FAQ explains the convention. Neither disclosure automatically
+cancels what a picture suggests.
+
+Why the reasoning does not carry
+--------------------------------
+
+A population-level pattern does not establish consciousness, common purpose,
+or a single controller. An insect figure is no additional evidence about an AI
+system. A path between the hills would similarly turn an open research
+question into an apparent event. Leaving it undrawn establishes neither that a
+bridge exists nor that no bridge exists.
+
+The book keeps the metaphor to ask about the limits of observation. It pays
+for it with surface-only hills, no queen or recurring ant character, no
+quantitative ant density, and no route joining the incidents. Shared state
+being removed does not establish suffering; ants do not make extermination the
+proposed solution.
+
+The evidence
+------------
+
+  Stance  ·  Source  ·  Date  ·  What it supports
+  Project’s governing boundary  ·  Story contract
+      <https://github.com/curtcox/zz-no-consumer/blob/main/content/story-contract.md>
+      ·  9 Sep 2026  ·  Population analogies do not establish consciousness or
+      shared identity.
+  Device and exclusions  ·  Visual bible
+      <https://github.com/curtcox/zz-no-consumer/blob/main/content/visual-bible.md>
+      ·  9 Sep 2026  ·  The authored figure convention and its visual limits.
+  Incident interpretation  ·  Wiki report <https://collusion.wiki/>  ·  4 Sep
+      2026  ·  The researchers’ distinct-population assessment; the book
+      cannot turn resemblance into contact.
 
 Professional objections
 -----------------------

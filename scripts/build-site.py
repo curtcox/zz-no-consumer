@@ -3,6 +3,8 @@
 
 from __future__ import annotations
 
+from book_metadata import TITLE, DESCRIPTION, MARK
+
 import argparse
 import html
 import json
@@ -426,8 +428,8 @@ def viewer_document(
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="color-scheme" content="dark light">
-  <meta name="description" content="Validation viewer for {html.escape(title)} in zz-no-consumer.">
-  <title>{html.escape(title)} — Viewer — zz-no-consumer</title>
+  <meta name="description" content="{html.escape(DESCRIPTION)}">
+  <title>{html.escape(title)} — Viewer — {html.escape(TITLE)}</title>
   <link rel="stylesheet" href="{html.escape(css_href)}">
   <script>{SETTINGS_BOOT}</script>
 </head>
@@ -436,8 +438,8 @@ def viewer_document(
   <a class="skip-link" href="#content">Skip to content</a>
   <header class="masthead">
     <a class="brand" href="{html.escape(viewer_link(current_directory))}" aria-label="Viewer home">
-      <span class="brand__mark" aria-hidden="true">ZZ</span>
-      <span><b>NO CONSUMER</b><small>Reader validation build</small></span>
+      <span class="brand__mark" aria-hidden="true">{MARK}</span>
+      <span><b>{html.escape(TITLE)}</b><small>Documentary graphic novel</small></span>
     </a>
     <div class="masthead__actions">
       <button class="utility" type="button" data-bookmark aria-pressed="false">☆ <span>Bookmark</span></button>
@@ -909,7 +911,7 @@ BAKEOFF_DIR = ROOT / "assets" / "bakeoff"
 # ---------------------------------------------------------------------------
 
 NOVELLA_DIR = "novella"
-NOVELLA_TITLE = "ZZ: NO CONSUMER"
+NOVELLA_TITLE = TITLE
 NOVELLA_SLUG = "zz-no-consumer-novella"
 NOVELLA_HOME = "https://curtcox.github.io/zz-no-consumer/novella/"
 NOVELLA_RIGHTS = "GNU General Public License, version 3 or any later version."
@@ -2545,11 +2547,11 @@ def page_document(title: str, body: str, nav: str, css_href: str) -> str:
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>{html.escape(title)} — zz-no-consumer</title>
+  <title>{html.escape(title if title == TITLE else title + " — " + TITLE)}</title>
   <link rel="stylesheet" href="{html.escape(css_href)}">
 </head>
 <body>
-  <header><div class="shell"><div class="eyebrow">zz-no-consumer</div><h1>{html.escape(title)}</h1><p class="lede">A graphic novel about emergent AI agent coordination.</p></div></header>
+  <header><div class="shell"><div class="eyebrow">{html.escape(TITLE)}</div><h1>{html.escape(title)}</h1><p class="lede">{html.escape(DESCRIPTION)}</p></div></header>
   <main class="shell"><article>{body}</article><aside><h2>Explore</h2>{nav}</aside></main>
   <footer><div class="shell">Generated from canonical Markdown on the main branch.</div></footer>
 </body>
@@ -2627,6 +2629,7 @@ def main() -> int:
             '<p><a class="viewer-callout" href="novella/">Read the novella, or download it whole →</a></p>'
             '<p><a class="viewer-callout" href="appendix/">Open the appendix: questions, contested assertions, fallacies, and professional objections →</a></p>'
             f'{placeholder_link}'
+            '<p><a class="viewer-callout" href="anthill-study/">Review the title and anthill composition study →</a></p>'
             '<p><a class="viewer-callout" href="knowledge-maps/">Explore four knowledge-map alternatives and placement studies →</a></p>'
             '<p><a class="viewer-callout" href="crossref/">Open the page, source, and provenance cross reference →</a></p>'
             '<p><a class="viewer-callout" href="bakeoff/">Compare the candidate image generators on the same panels →</a></p>'
@@ -2640,13 +2643,14 @@ def main() -> int:
             '<p><a class="viewer-callout" href="novella/">Read the novella, or download it whole →</a></p>'
             '<p><a class="viewer-callout" href="appendix/">Open the appendix: questions, contested assertions, fallacies, and professional objections →</a></p>'
             f'{placeholder_link}'
+            '<p><a class="viewer-callout" href="anthill-study/">Review the title and anthill composition study →</a></p>'
             '<p><a class="viewer-callout" href="knowledge-maps/">Explore four knowledge-map alternatives and placement studies →</a></p>'
             '<p><a class="viewer-callout" href="crossref/">Open the page, source, and provenance cross reference →</a></p>'
             '<p><a class="viewer-callout" href="bakeoff/">Compare the candidate image generators on the same panels →</a></p>'
             f'<h2>Browse the story</h2><div class="cards">{index_cards}</div>'
         )
     (OUT / "index.html").write_text(
-        page_document("The Project", index_body, navigation(Path(".")), "css/site.css"),
+        page_document(TITLE, index_body, navigation(Path(".")), "css/site.css"),
         encoding="utf-8",
     )
 
@@ -2667,6 +2671,8 @@ def main() -> int:
     build_viewer()
     import storyboards
     storyboards.gallery(OUT / "storyboards")
+    import anthill_study
+    anthill_study.build(OUT / "anthill-study")
     novella_routes = build_novella()
     appendix_routes = build_appendix(document)
     bakeoff_routes = build_bakeoff(document)

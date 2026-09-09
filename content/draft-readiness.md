@@ -1,4 +1,4 @@
-# ZZ: NO CONSUMER — Drafting and Production Protocol
+# The Two Anthill Problem — Drafting and Production Protocol
 
 ## Status
 

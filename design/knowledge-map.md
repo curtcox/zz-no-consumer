@@ -248,3 +248,13 @@ This plan does not itself authorize a push, merge, paid image generation, or dep
 Invite review only after the repository and live gallery show the same sample set. Collect observations by stable sample ID and viewport: legibility, visible viewpoint differences, preservation of uncertainty, effectiveness of theory-of-mind cues, P6 reveal timing, and whether re-fogging feels like lost support rather than deleted terrain. Do not turn that review into numeric credence inside the maps.
 
 The first pass is complete when all 40 samples, contact sheets, and all three placement studies for every family are viewable in the repository or linked gallery, the public gallery is deployed and verified, and the alternatives can be compared without generating anything locally. No winner is required to complete sample publication. Choose or combine treatments only after visual review; then decide whether theory-of-mind cues belong in some or all maps, whether P6 appears before page 016, and what to revise in the drawing specification before a whole-book application.
+
+## Anthill revision — 9 September 2026
+
+The edition convention in `content/visual-bible.md` governs authored ants. The two hills
+identify incidents, never viewpoints. Preserve existing proposition states, observation
+islands, terrain registration, viewpoint labels and re-fog behavior. Ant placement has no
+effect on evidence state. Render surfaces only, with neither an enterable interior nor a
+route between sites. Different access to records must be described explicitly; terrain
+brightness alone cannot mean corpus completeness. The current pilot remains separate from
+whole-book adoption, and the final story page retains its deliberate map absence.

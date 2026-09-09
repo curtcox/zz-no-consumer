@@ -1,4 +1,4 @@
-# ZZ: NO CONSUMER — Themes
+# The Two Anthill Problem — Themes
 
 ## Thematic method
 
@@ -313,6 +313,28 @@ Everyone learns. Everyone continues.
 
 > The incident changed what they knew. It did not change what paid.
 
+## 13. Observed incidents do not define the population
+
+The two hills name the incidents this book examines. A record can be detailed about those
+incidents while leaving the number of unobserved incidents unknown. The title asks about
+that limit; it does not establish additional incidents or a hidden population size.
+
+The plot already separates report, stored artifact and event. The new title makes their
+uneven availability explicit in the appendix and tests the metaphor in the publication
+scene. Keep the final map absent. Unsurveyed space supplies no finding of its own.
+
+## Levels of description and incidental loss
+
+A population-level pattern does not establish the properties of any individual run, and
+individual behavior does not establish a single population mind. The title’s literary
+influences belong in the appendix; this distinction extends theme 5 without adopting a
+conscious-superorganism claim.
+
+Remediation and moderation can remove shared state. That consequence does not establish
+intent to harm agents, agent suffering, responder carelessness, or a common motive across
+incidents. In particular, the wiki’s final paired deletions cannot be explained simply by
+an alphabetical sweep; preserve the qualifications on [page 108](pages/108.md).
+
 ## Theme-to-plot matrix
 
 | Plot event | Primary point | Complication or counterpoint |
@@ -356,6 +378,11 @@ Everyone learns. Everyone continues.
 Use sparingly and with variation. Placing an aspirational entry is a lettering decision and needs the same test as any other caption: it earns its place only where the page is already doing the thing.
 
 ## Misreadings to actively prevent
+
+- **The title counts the unknown:** two observed incidents establish no total for unseen ones.
+- **A conscious colony:** ants do not license a queen, hive mind, or superorganism inference.
+- **Extermination as resolution:** the metaphor supplies neither vermin nor a pest-control solution.
+- **An empty gutter disproves contact:** absence of a drawn connector preserves an open question.
 
 - **Evil AI:** The danger comes from competent optimization, not hatred.
 - **Spontaneous consciousness:** Social structure is not proof of subjective experience.

@@ -8,6 +8,8 @@ page turn without adding image-processing dependencies.
 
 from __future__ import annotations
 
+from book_metadata import TITLE
+
 import argparse
 import html
 import re
@@ -170,7 +172,7 @@ def build_document(pages: list[Page]) -> str:
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width,initial-scale=1">
-  <title>Production thumbnail wall — zz-no-consumer</title>
+  <title>Production thumbnail wall — {html.escape(TITLE)}</title>
   <style>
     :root{{--paper:#ded8c8;--ink:#17191b;--muted:#6e6b63;--claret:#773b48;--steel:#4e6673}}
     *{{box-sizing:border-box}} body{{margin:0;background:#111315;color:#ece7d9;font:14px/1.4 system-ui,sans-serif}}
@@ -200,7 +202,7 @@ def build_document(pages: list[Page]) -> str:
   </style>
 </head>
 <body>
-  <header class="mast"><h1>ZZ: NO CONSUMER — provisional thumbnail wall</h1>
+  <header class="mast"><h1>{html.escape(TITLE)} — provisional thumbnail wall</h1>
     <p>Panel order is canonical; geometry is provisional. Blue outlines mark non-default rhythms. Claret would mark pages over {DENSE} words.</p>
     <div class="summary"><span>{len(pages)} pages</span><span>{total_panels} panels</span><span>{total_words} lettered words</span><span>{count_five} five-panel pages</span><span>Densest: {densest.number:03d} / {densest.word_count} words</span><span>{spread_count} physical spreads</span></div>
   </header>

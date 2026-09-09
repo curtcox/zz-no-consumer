@@ -588,21 +588,27 @@ def main():
 
 
 # check() is below the CLI to keep the production path together.
+def check_job(db, job):
+    # Explicitly blocked inputs are retained history, not runnable work. Freshness is
+    # still mandatory in retry/claim/publish; never rewrite a stale saved snapshot.
+    if job['state'] not in ('accepted', 'blocked'):
+        fresh(job)
+    for ref in job['references']:
+        png_size(blob(db, ref['sha']))
+    for attempt in job['attempts']:
+        for ref in attempt['references']:
+            png_size(blob(db, ref['sha']))
+        if attempt.get('output_sha'):
+            png_size(blob(db, attempt['output_sha']))
+
+
 def check(path):
     import art_jobs_checks
     art_jobs_checks.run()
     if path.exists():
         with database(path) as db:
             for job in jobs(db):
-                if job['state'] != 'accepted':
-                    fresh(job)
-                for ref in job['references']:
-                    png_size(blob(db, ref['sha']))
-                for attempt in job['attempts']:
-                    for ref in attempt['references']:
-                        png_size(blob(db, ref['sha']))
-                    if attempt.get('output_sha'):
-                        png_size(blob(db, attempt['output_sha']))
+                check_job(db, job)
     print('Artwork queue: offline recovery, review isolation, PNG and state checks passed.')
     return 0
 

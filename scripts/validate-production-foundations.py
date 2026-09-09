@@ -34,6 +34,15 @@ PALETTE_TOKENS = {
 
 def main() -> int:
     errors: list[str] = []
+    from book_metadata import TITLE
+    import anthill_study
+    try:
+        anthill_study.check()
+    except (AssertionError, ValueError, KeyError) as exc:
+        errors.append(f"Anthill study: {exc}")
+    for relative in ("content/continuity.md", "content/premise.md", "README.md", "CREDITS.md", "LICENSE"):
+        if TITLE not in (ROOT / relative).read_text():
+            errors.append(f"Current book title missing: {relative}")
     for relative in REQUIRED_FILES:
         path = ROOT / relative
         if not path.exists():

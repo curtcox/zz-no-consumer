@@ -1,4 +1,4 @@
-# ZZ: NO CONSUMER — Continuity Bible
+# The Two Anthill Problem — Continuity Bible
 
 ## Purpose
 
@@ -37,8 +37,10 @@ Every significant scene, line, and system string should carry one status in its 
 
 ## Naming rules
 
-- Project title: `ZZ: NO CONSUMER`
-- Repository: `zz-no-consumer`
+- Project title: `The Two Anthill Problem`
+- Repository: `zz-no-consumer` (historical name; URLs and download filenames stay stable).
+- Current edition metadata: `scripts/book_metadata.py`; naming policy remains here.
+- `ZZ: NO CONSUMER` on [page 012](pages/012.md) is an authored incident wordmark, not a retained subtitle. Preserve `zz`, `ZZZ`, source language, historical receipts, and technical addresses.
 - Use “agent” for an individual model process or run only when the source supports that unit.
 - Use “population” or “swarm” for aggregates; do not imply centralized control.
 - Use “board” for the improvised shared communication mechanism after agents begin using it as such.
@@ -47,6 +49,14 @@ Every significant scene, line, and system string should carry one status in its 
 - Use “orthogonality,” “instrumental convergence,” and “Moloch/race dynamics” mainly in creator or analysis layers after plot demonstration.
 - Do not use “escape” unless quoting a question or describing a documented attempt to leave a boundary.
 - Distinguish `authorization` claimed by an agent from authorization actually issued by an authorized human.
+
+## Authored ant convention
+
+The ant/hill grammar is defined in `content/visual-bible.md` under “Ants and anthills:
+edition convention”. It belongs to the edition like lettering or borders, not to the
+incident record. Individual ants do not acquire panel provenance or agent identities.
+Meaningful changes to scene action still require the normal panel provenance and novella
+counterpart. The two hills are incident sites; viewpoints remain separately labelled.
 
 ## Source-language policy
 

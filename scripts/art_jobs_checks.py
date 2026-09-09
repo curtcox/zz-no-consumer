@@ -107,6 +107,17 @@ def run():
                 assert handoff['arguments']['prompt'] == prompt_file.read_text()
                 assert (out/'first/attempt-02.png').read_bytes() == raw
                 assert 'getBBox' in (out/'index.html').read_text()
+        # A stale blocked job remains inspectable but cannot re-enter generation.
+        with a.database(path) as db:
+            args.job = 'stale'; args.depends = []
+            stale = a.prepare(db, args)
+            with patch.object(a, 'snapshot', lambda panel: dict(snap, source='changed')):
+                fails(lambda: a.check_job(db, stale), 'Runnable stale job passed check')
+                a.transition(stale, 'blocked', 'Source changed; preserve the old inputs')
+                a.save(db, stale)
+                a.check_job(db, stale)
+                fails(lambda: a.claim(db, 'stale'), 'Blocked stale job was claimed')
+                fails(lambda: a.retry(db, stale, 'new prompt'), 'Stale snapshot silently refreshed')
         # SQLite must reject a second writer and roll back interrupted state changes.
         with a.database(path) as db:
             with sqlite3.connect(path, timeout=0) as other:
