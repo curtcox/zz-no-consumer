@@ -147,6 +147,41 @@ remaining slots by page, chapter totals, and available refined/final candidates.
 Run it after artwork or slot changes; `check` detects stale output in CI, and `report`
 prints without writing. This census is offline and does not generate artwork.
 
+`panel_candidates.py plan|run|check` generates one local candidate for every reader
+slot without an existing **chosen refined/final** image. A chosen storyboard, an
+unreviewed candidate, or a missing accepted file does not count as accepted.
+It defaults to the configured `flux2-klein-4b` model and includes all panel types,
+including diagrams and interfaces that will need careful visual review.
+
+```sh
+python3 scripts/panel_candidates.py plan
+python3 scripts/panel_candidates.py run
+python3 scripts/panel_candidates.py run --limit 10
+python3 scripts/panel_candidates.py check
+```
+
+Candidates, exact prompts, model settings, image hashes, and receipts are saved in
+`256t/panel-candidates/`, outside reader selection. This directory is gitignored;
+back it up to preserve pending work. Generation also appends to the usual generation
+log. Nothing is accepted, imported, or published automatically. Review the output
+before importing through the existing artwork workflow.
+
+Repeat the same command to resume: saved candidates with the same prompt, model
+configuration, dimensions, and seed are verified and skipped. Change `--seed` for
+another pass; changed prompts/settings also produce a separate candidate. Existing
+attempts are preserved. `--limit` applies after accepted and completed slots are
+removed. `--provider` selects another configured local model; `--out-dir` selects
+another review directory. `plan` performs no generation or writes. `check` uses
+only disposable offline fixtures, with the model and generation log mocked.
+
+Runs are sequential and protected by a POSIX process lock per output directory
+(Mac/Linux). Coordinate runs using different directories to avoid competing for
+model memory. Ctrl-C requests a stop after the current image; a second Ctrl-C
+interrupts immediately. A generation/storage failure stops the batch with a nonzero
+exit code; fix the cause and resume. Corrupted completed output requires inspection
+instead of silent regeneration. Runner installation does not guarantee cached
+weights: the existing local runner may download missing weights on first use.
+
 These cost money or hours. None of them run in CI.
 
 | Tool | Does | Needs |
