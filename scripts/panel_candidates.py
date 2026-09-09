@@ -3,6 +3,7 @@
 
 plan is read-only; run saves one candidate per slot under 256t/panel-candidates.
 Re-running resumes the same prompt/model/seed; change --seed for a new pass.
+Use run --all for an overnight pass through every pending panel.
 Candidates never enter reader selection automatically. No model is used by check.
 """
 from __future__ import annotations
@@ -107,11 +108,11 @@ def execute(args, provider, slots):
     todo = list(pending(slots, records, provider, args.seed, args.out_dir))
     approved = sum(accepted(s, records) for s in slots)
     print(f'{len(slots)} slots; {approved} accepted; '
-          f'{len(slots) - approved - len(todo)} candidates already saved; {len(todo)} pending.')
+          f'{len(slots) - approved - len(todo)} candidates already saved; {len(todo)} pending.', flush=True)
     if args.limit:
         todo = todo[:args.limit]
     print(f'Model: {provider.id}; seed: {args.seed}; '
-          f'this pass: {len(todo)}; estimate: {produce.human(len(todo) * provider.seconds_per_image)}')
+          f'this pass: {len(todo)}; estimate: {produce.human(len(todo) * provider.seconds_per_image)}', flush=True)
     if args.command == 'plan':
         for slot, spec in todo:
             print(f"{slot.id}  {spec['size'][0]}x{spec['size'][1]}")
@@ -140,7 +141,7 @@ def execute(args, provider, slots):
             print(f'Saved {folder}', flush=True)
     finally:
         signal.signal(signal.SIGINT, previous)
-    print(f'Saved {made}; failed {failed}. Re-run the same command to resume.')
+    print(f'Saved {made}; failed {failed}. Re-run the same command to resume.', flush=True)
     return 1 if failed else 130 if stop.asked else 0
 
 
@@ -203,17 +204,54 @@ def check():
                 pass
             else:
                 raise AssertionError('corruption was silently skipped')
+        args = argument_parser().parse_args(['run', '--all'])
+        assert args.all and args.limit is None
+        args.out_dir = root
+        output = io.StringIO()
+        drawn = []
+
+        def fake_generate(current, spec, provider, root):
+            # Progress must be visible before the slow model call starts.
+            assert f'Generating {current.id}...' in output.getvalue()
+            drawn.append(current.id)
+            return root
+
+        with patch.object(panelart, 'load', return_value={}), \
+             patch(__name__ + '.pending', return_value=[(slot, spec), (other, spec)]), \
+             patch(__name__ + '.generate_one', side_effect=fake_generate), \
+             contextlib.redirect_stdout(output), \
+             patch('builtins.print', wraps=print) as printer:
+            assert execute(args, provider, [slot, other]) == 0
+            assert drawn == [slot.id, other.id]
+            progress = [call for call in printer.call_args_list if 'Generating' in str(call.args)]
+            assert len(progress) == 2 and all(call.kwargs.get('flush') for call in progress)
+        with contextlib.redirect_stderr(io.StringIO()):
+            try:
+                argument_parser().parse_args(['run', '--all', '--limit', '10'])
+            except SystemExit as error:
+                assert error.code == 2
+            else:
+                raise AssertionError('--all and --limit must be mutually exclusive')
     print('Panel candidate offline checks passed.')
     return 0
 
 
-def main():
+def argument_parser():
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument('command', choices=('plan', 'run', 'check'))
     parser.add_argument('--provider', default='flux2-klein-4b', help='local model from local-models.json')
     parser.add_argument('--seed', type=int, default=produce.DEFAULT_SEED)
-    parser.add_argument('--limit', type=int, help='maximum pending panels in this invocation')
+    batch = parser.add_mutually_exclusive_group()
+    batch.add_argument('--limit', type=int, help='maximum pending panels in this invocation')
+    batch.add_argument('--all', action='store_true',
+                       help='process every pending panel until none remain (the default); '
+                            'stops on failure or interruption')
     parser.add_argument('--out-dir', type=Path, default=DEFAULT_OUT, help='candidate review directory')
+    return parser
+
+
+def main():
+    parser = argument_parser()
     args = parser.parse_args()
     if args.command == 'check':
         return check()

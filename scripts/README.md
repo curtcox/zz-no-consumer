@@ -156,6 +156,7 @@ including diagrams and interfaces that will need careful visual review.
 ```sh
 python3 scripts/panel_candidates.py plan
 python3 scripts/panel_candidates.py run
+python3 scripts/panel_candidates.py run --all
 python3 scripts/panel_candidates.py run --limit 10
 python3 scripts/panel_candidates.py check
 ```
@@ -170,7 +171,12 @@ Repeat the same command to resume: saved candidates with the same prompt, model
 configuration, dimensions, and seed are verified and skipped. Change `--seed` for
 another pass; changed prompts/settings also produce a separate candidate. Existing
 attempts are preserved. `--limit` applies after accepted and completed slots are
-removed. `--provider` selects another configured local model; `--out-dir` selects
+removed. For an overnight pass, `run --all` explicitly processes every remaining
+panel, the same as omitting `--limit`. `--all` and `--limit` cannot be combined.
+The script prints `[current/total] Generating NNN-II...` before each model call
+and flushes progress immediately, including when output is redirected to a log.
+It finishes when the pending batch is exhausted, or stops on failure/interruption.
+`--provider` selects another configured local model; `--out-dir` selects
 another review directory. `plan` performs no generation or writes. `check` uses
 only disposable offline fixtures, with the model and generation log mocked.
 
