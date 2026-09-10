@@ -116,7 +116,13 @@ def load(path: Path | None = None) -> Anatomy:
 
 @dataclass
 class Pose:
-    """A placed, jointed ant. Position and size are in module units."""
+    """A placed, jointed ant. Position and size are in module units.
+
+    `anchor` decides which part of the ant `(x, y)` names. Anchoring on the
+    whole animal spreads it around a point; anchoring on the gaster pins the
+    abdomen there and lets the rest of the ant swing off it, which is what a
+    drawing wants when one module square is meant to *be* one abdomen.
+    """
     x: float
     y: float
     size: float                       # long axis, in modules
@@ -124,6 +130,18 @@ class Pose:
     gaster: float = 0.0               # joint travel from rest, degrees
     head: float = 0.0
     joints: tuple = ()                # per limb, one angle offset per segment
+    anchor: str = 'centre'            # 'centre' or 'gaster'
+
+
+def gaster_size(anatomy: Anatomy, ant_size: float) -> tuple:
+    """`(long, short)` axis of the gaster, in modules, for an ant this long."""
+    scale = ant_size / anatomy.long_axis
+    return 2 * anatomy.lobes[0][2] * scale, 2 * anatomy.lobes[0][3] * scale
+
+
+def size_for_gaster(anatomy: Anatomy, short_axis: float) -> float:
+    """How long an ant must be for its gaster to be this wide, in modules."""
+    return short_axis * anatomy.long_axis / (2 * anatomy.lobes[0][3])
 
 
 def _turn(point: tuple, about: tuple, radians_: float) -> tuple:
@@ -161,7 +179,11 @@ def local_shapes(anatomy: Anatomy, pose: Pose) -> list[tuple]:
 def module_shapes(anatomy: Anatomy, pose: Pose) -> list[tuple]:
     """The posed ant in module coordinates, ready to rasterise or measure."""
     scale = pose.size / anatomy.long_axis
-    cx, cy = anatomy.centre
+    if pose.anchor == 'gaster':
+        cx, cy = _turn((anatomy.lobes[0][0], anatomy.lobes[0][1]),
+                       anatomy.pivot_gaster, math.radians(pose.gaster))
+    else:
+        cx, cy = anatomy.centre
     turn = math.radians(pose.angle)
     cos, sin = math.cos(turn), math.sin(turn)
 
@@ -283,7 +305,7 @@ def _limb_shapes(anatomy: Anatomy, pose: Pose, index: int) -> list[tuple]:
 
 def pose_at(field_: Field, anatomy: Anatomy, x: float, y: float, size: float,
             angle: float, forbid_overlap: bool, steps: int = 5,
-            solve_limbs: bool = True) -> tuple:
+            solve_limbs: bool = True, anchor: str = 'centre') -> tuple:
     """Fit every joint for a body placed here. Returns `(pose, score)`.
 
     Joints are solved one after another, and each is scored on the ink *it*
@@ -298,12 +320,17 @@ def pose_at(field_: Field, anatomy: Anatomy, x: float, y: float, size: float,
         return [-swing + 2 * swing * i / (steps - 1) for i in range(steps)]
 
     rest = tuple((0.0,) * len(limb.lengths) for limb in anatomy.limbs)
-    pose = Pose(x, y, size, angle, joints=rest)
+    pose = Pose(x, y, size, angle, joints=rest, anchor=anchor)
 
+    # Which shapes the gaster joint is judged by depends on what is pinned.
+    # Anchored on the whole animal it moves the gaster, so score the gaster;
+    # anchored on the gaster it cannot move the gaster at all - it swings the
+    # rest of the ant around it - so score the thorax and head instead.
+    gaster_parts = slice(1, 3) if anchor == 'gaster' else slice(0, 1)
     best, best_score = 0.0, float('-inf')
     for value in spread(GASTER_SWING):
-        trial = Pose(x, y, size, angle, value, 0.0, rest)
-        value_score = score(field_, _weights([module_shapes(anatomy, trial)[0]]),
+        trial = Pose(x, y, size, angle, value, 0.0, rest, anchor)
+        value_score = score(field_, _weights(module_shapes(anatomy, trial)[gaster_parts]),
                             forbid_overlap)
         if value_score > best_score:
             best, best_score = value, value_score
@@ -311,7 +338,7 @@ def pose_at(field_: Field, anatomy: Anatomy, x: float, y: float, size: float,
 
     best, best_score = 0.0, float('-inf')
     for value in spread(HEAD_SWING):
-        trial = Pose(x, y, size, angle, pose.gaster, value, rest)
+        trial = Pose(x, y, size, angle, pose.gaster, value, rest, anchor)
         value_score = score(field_, _weights([module_shapes(anatomy, trial)[2]]),
                             forbid_overlap)
         if value_score > best_score:
@@ -332,7 +359,8 @@ def pose_at(field_: Field, anatomy: Anatomy, x: float, y: float, size: float,
                 setting = (first,) if len(limb.lengths) == 1 else (first, second)
                 trial = list(joints)
                 trial[index] = setting
-                candidate = Pose(x, y, size, angle, pose.gaster, pose.head, tuple(trial))
+                candidate = Pose(x, y, size, angle, pose.gaster, pose.head,
+                                 tuple(trial), anchor)
                 value = score(field_, _weights(_limb_shapes(anatomy, candidate, index)),
                               forbid_overlap)
                 if value > best_score:

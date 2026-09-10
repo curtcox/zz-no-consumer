@@ -139,6 +139,8 @@ class Style:
     on_light: bool = False
     solid: bool = False               # fill every dark module: the plain control
     posed: tuple = ()                 # (largest, smallest) long axis, in modules
+    gaster: float = 0.0               # abdomen width in modules; one square, one abdomen
+    every: bool = False               # give every dark module its own abdomen
     overlap: bool = False             # may posed ants lie across each other
     body_mask: bool = False           # choose the mask that suits ant bodies
 
@@ -228,6 +230,22 @@ _register(Style('body-large-pile', 'The largest ants, piled rather than kept apa
 _register(Style('body-bold', 'The largest ants, buying room with the correction budget.',
                 place=lambda matrix, rng: [], posed=(6.0, 2.0), body_mask=True,
                 light_cap=0.40))
+
+_register(Style('abdomen', 'One module square, one ant abdomen, pinned on it.',
+                place=lambda matrix, rng: [], gaster=1.0, body_mask=True,
+                light_cap=0.22))
+
+_register(Style('abdomen-small', 'The same, with the abdomen a module long rather than wide.',
+                place=lambda matrix, rng: [], gaster=0.71, body_mask=True,
+                light_cap=0.22))
+
+_register(Style('abdomen-full', 'Every dark square gets its own abdomen; ants overlap.',
+                place=lambda matrix, rng: [], gaster=1.0, every=True, overlap=True,
+                body_mask=True, light_cap=0.22))
+
+_register(Style('abdomen-bold', 'Abdomens a little wider than the square they sit on.',
+                place=lambda matrix, rng: [], gaster=1.15, body_mask=True,
+                light_cap=0.35))
 
 _register(Style('wild', 'Large ants, no cap and no repair. The far end.',
                 place=_swarm_marks(2.5, 1.8, 4.0), light_cap=1.0, repair=False))
@@ -489,6 +507,63 @@ def _draw_posed(symbol: Symbol, style: Style, rng: random.Random,
     return placed, refused
 
 
+def _abdomen_marks(symbol: Symbol, style: Style, rng: random.Random,
+                   grid: Grid, px: int, lay_down) -> tuple[int, int]:
+    """Draw the symbol at the scale where one module square *is* one abdomen.
+
+    The other styles size an ant against the whole symbol and let whatever part
+    of it lands on a module do the darkening. This one sizes it against a
+    single module: the gaster is set to the module's width and pinned at the
+    module's centre, so every mark reads as an abdomen sitting on a square,
+    with the thorax, head and legs swinging off it onto the ground next door.
+
+    An ant whose gaster is one module across is about three modules long, so
+    two thirds of it hangs outside the square it is drawn for. Where that
+    overhang lands is the whole problem, and it is what the orientation search
+    below spends its time on.
+    """
+    anatomy = antpose.load()
+    size = antpose.size_for_gaster(anatomy, style.gaster)
+    ground = antpose.Field(symbol.matrix, _protected(symbol),
+                           light_cap=style.light_cap, dark_target=DARK_FLOOR)
+    for y in range(symbol.size):
+        for x in range(symbol.size):
+            ground.covered[(x, y)] = grid.mean(*_cell_box(px, x, y))
+
+    placed = refused = 0
+    wanted = [(x, y) for x, y in _dark_modules(symbol.matrix)
+              if (x, y) not in ground.protected]
+    for x, y in wanted:
+        if not style.every and ground.covered.get((x, y), 0.0) >= DARK_FLOOR:
+            continue
+        start = rng.uniform(0, 360)
+        best, best_score = None, 0.0 if not style.every else float('-inf')
+        for turn in range(12):
+            pose, value = antpose.pose_at(
+                ground, anatomy, x + 0.5, y + 0.5, size, start + turn * 30,
+                not style.overlap, solve_limbs=True, anchor='gaster')
+            if value > best_score:
+                best, best_score = pose, value
+        if best is None:
+            continue
+        local = antpose.Pose(0.0, 0.0, best.size, best.angle,
+                             best.gaster, best.head, best.joints, 'gaster')
+        mark = Mark(best.x, best.y, best.size, best.angle,
+                    tuple(antpose.module_shapes(anatomy, local)), best)
+        touched = antpose._weights(antpose.module_shapes(anatomy, best))
+        if not lay_down(mark):
+            refused += 1
+            for key in touched:
+                if ground.dark(*key):
+                    ground.occupied.add(key)
+            continue
+        placed += 1
+        for key in touched:
+            if ground.inside(*key):
+                ground.covered[key] = grid.mean(*_cell_box(px, *key))
+    return placed, refused
+
+
 def _protected(symbol: Symbol) -> set:
     """Module cells no ant may reach: the patterns that carry no correction.
 
@@ -584,7 +659,14 @@ def compose(symbol: Symbol, px: int = DEFAULT_PX,
         return False
 
     drawing = Drawing(grid, [], px)
-    if style.posed:
+    if style.gaster:
+        placed, refused = _abdomen_marks(
+            symbol, style, rng, grid, px,
+            lambda mark: try_place(mark, drawing, allow_shrink=False))
+        drawing.posed = placed
+        drawing.offered = placed + refused
+        drawing.rejected = refused
+    elif style.posed:
         placed, refused = _draw_posed(
             symbol, style, rng, grid, px,
             lambda mark: try_place(mark, drawing, allow_shrink=False))
@@ -1010,17 +1092,19 @@ def _self_check() -> list[str]:
         findings.append(f'plain squares spent {control.corrected} correction codewords')
 
     # Fitting a jointed ant is thousands of times the work of stamping a
-    # library one, so the styles that do it are checked on a short payload in
-    # a small symbol rather than on the 103-byte tag. Every invariant below is
-    # a property of the drawing rather than of the payload, and a check nobody
-    # will wait for is a check that gets removed.
-    brief = '256t.org/00000010' + 'Qw3' * 4
+    # library one, and a style that pins an abdomen on every module fits one
+    # per module, so the styles that do either are checked on a fourteen-byte
+    # payload in a version 1 symbol rather than on the 103-byte tag. Every
+    # invariant below is a property of the drawing rather than of the payload,
+    # and a check nobody will wait for is a check that gets removed.
+    brief = '256t.org/Qw3Zx'
     cache: dict = {}
 
     def trial(name: str) -> tuple:
         if name not in cache:
             style = STYLES[name]
-            load, ecc, px = (brief, 'L', 8) if style.posed else (text, 'H', 8)
+            fitted = style.posed or style.gaster
+            load, ecc, px = (brief, 'L', 8) if fitted else (text, 'H', 8)
             run_symbol = build(load, ecc, name)
             drawing = compose(run_symbol, px)
             cache[name] = (run_symbol, drawing, measure(run_symbol, drawing))
@@ -1037,6 +1121,15 @@ def _self_check() -> list[str]:
     # offered a budget must stay inside the one it was given.
     for name, style in STYLES.items():
         run_symbol, drawing, run = trial(name)
+        if style.gaster:
+            long_axis, short = antpose.gaster_size(
+                antpose.load(), antpose.size_for_gaster(antpose.load(), style.gaster))
+            if abs(short - style.gaster) > 1e-6:
+                findings.append(f'{name} asked for a {style.gaster:.2f} module abdomen '
+                                f'and sized one {short:.2f} across')
+            if not any(mark.pose is not None and mark.pose.anchor == 'gaster'
+                       for mark in drawing.marks):
+                findings.append(f'{name} drew no ant pinned by its abdomen')
         if style.posed:
             sizes = {round(mark.size, 3) for mark in drawing.marks}
             if len(sizes) < 2:
@@ -1052,7 +1145,7 @@ def _self_check() -> list[str]:
             findings.append(f'{name} did not make dark modules darker than light ones')
         if run.finders < 3 and name != 'wild':
             findings.append(f'{name} left only {run.finders} of 3 finders locatable')
-        if style.posed:
+        if style.posed or style.gaster:
             # A fitted ant covers ground its own body has to reach, so a posed
             # style is not required to cost nothing - what it costs is the
             # measurement the tool exists to report. It is required to read.
@@ -1109,6 +1202,18 @@ def _self_check() -> list[str]:
 
 # --- CLI ------------------------------------------------------------------
 
+def _selection(given: str, allowed, what: str) -> list[str]:
+    """Resolve a comma-separated choice, or 'all', against what exists."""
+    if given == 'all':
+        return list(allowed)
+    chosen = [part.strip() for part in given.split(',') if part.strip()]
+    unknown = [part for part in chosen if part not in allowed]
+    if unknown or not chosen:
+        raise SystemExit(f'unknown {what}: {", ".join(unknown) or "(none given)"}; '
+                         f'choose from {", ".join(allowed)}, or all')
+    return chosen
+
+
 def _payload_from(args) -> str:
     if args.text is not None:
         return args.text
@@ -1123,9 +1228,11 @@ def main(argv: list[str] | None = None) -> int:
         group = p.add_mutually_exclusive_group(required=True)
         group.add_argument('--text', help='the payload')
         group.add_argument('--text-file', help='a file holding the payload')
-        p.add_argument('--ecc', default='H', choices=list(qr_core.ECC_ORDER) + ['all'])
+        p.add_argument('--ecc', default='H',
+                       help="one or more of L, M, Q, H separated by commas, or 'all'")
         p.add_argument('--style', default='swarm',
-                       choices=list(STYLES) + ['all'])
+                       help="one or more style names separated by commas, or 'all'; "
+                            "`styles` lists them")
         p.add_argument('--px', type=int, default=DEFAULT_PX,
                        help='rendered pixels per module for measurement')
         p.add_argument('--photos', help='a directory of PNG ants to use as ink')
@@ -1160,8 +1267,8 @@ def main(argv: list[str] | None = None) -> int:
         return 1 if findings else 0
 
     text = _payload_from(args)
-    names = list(STYLES) if args.style == 'all' else [args.style]
-    eccs = list(qr_core.ECC_ORDER) if args.ecc == 'all' else [args.ecc]
+    names = _selection(args.style, STYLES, 'style')
+    eccs = _selection(args.ecc, qr_core.ECC_ORDER, 'error-correction level')
     photos = load_photos(Path(args.photos)) if args.photos else None
 
     if args.command == 'report':

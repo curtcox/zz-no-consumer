@@ -87,8 +87,8 @@ The styles fall into two families, and they answer different questions.
 `wild`) build the dark half out of the *positions* of many small copies of the library ant.
 The ant is a mark; the picture is where the marks are.
 
-**Posed** styles (`body-mid`, `body-large`, their `-pile` variants, and `body-bold`) build it
-out of the ant's own silhouette. Each ant is jointed to fit the ground it covers — gaster and
+**Posed** styles (`body-mid`, `body-large`, their `-pile` variants, `body-bold`, and the
+`abdomen-*` family) build it out of the ant's own silhouette. Each ant is jointed to fit the ground it covers — gaster and
 head pivoting about the thorax, six legs and two antennae solved joint by joint — so a symbol
 is drawn with a few hundred visibly individual animals instead of several thousand identical
 marks. `scripts/antpose.py` owns the anatomy and the fitting.
@@ -108,6 +108,32 @@ restriction has two consequences that decide what the posed styles can do:
 So the posed ladder tops out near six modules and averages under two, because the ant that
 finishes a filament is necessarily small. What it buys is a **three-to-five-fold drop in ant
 count at no cost to the code**, with every ant individually legible.
+
+## One square, one abdomen
+
+The posed ladder above sizes an ant against the *symbol* — as large as the ground anywhere
+will take — and lets whichever part of it lands on a module do the darkening. There is a
+second way to set the scale, and it turns out to be the better one: size the ant against a
+*single module*, so that the gaster is as wide as the square, and pin the gaster at the
+square's centre. Every mark then reads as an abdomen sitting on a module, with the thorax,
+head and legs swinging off it onto the ground next door.
+
+The sizing follows from the anatomy without a choice to make. The gaster is 34 × 24 units in
+an ant 76 units long, so:
+
+| one module square equals | ant length | gaster, in modules |
+| --- | --- | --- |
+| the gaster's long axis | 2.24 modules | 1.00 × 0.71 |
+| the gaster's short axis | 3.17 modules | 1.42 × 1.00 |
+
+Both are drawn: `abdomen-small` is the first, `abdomen` the second. For comparison, `grid`
+draws one ant per module too, but sized to *fit* the module, which leaves its abdomen 0.67 ×
+0.47 of a square — half the width of the thing it is standing on, and far too small to read
+as the abdomen of an animal.
+
+Two thirds of an abdomen-scaled ant hangs outside the square it was drawn for, and where that
+overhang lands is the whole problem; the orientation search is what spends its time on it.
+Twelve headings are tried per module and the joints are solved at each.
 
 ## Choosing the mask for ant-shaped ground
 
@@ -136,6 +162,10 @@ At ECC H, version 10, 57 × 57 modules:
 | **`body-mid-pile`** | **1 072** | 80% | 1.9 | 4.0 | **0%** | 0% | 0.10 | yes | reads |
 | **`body-large-pile`** | **1 018** | 93% | 1.9 | 3.9 | **0%** | 0% | 0.08 | yes | reads |
 | **`body-bold`** | **991** | 96% | 1.9 | **6.0** | **0%** | 0% | 0.08 | yes | reads |
+| **`abdomen`** | **920** | 95% | **2.2** | 3.2 | **0%** | 0% | 0.07 | yes | reads |
+| **`abdomen-small`** | **1 039** | **99%** | **2.1** | 2.2 | **0%** | 0% | **0.02** | yes | reads |
+| **`abdomen-full`** | 1 118 | 92% | **2.8** | 3.2 | **0%** | 0% | 0.08 | yes | reads |
+| **`abdomen-bold`** | **851** | 94% | **2.3** | **3.6** | **0%** | 0% | 0.09 | yes | reads |
 | `bold` | 5 058 | 73% | 1.4 | 3.0 | 0% | 0% | 0.22 | yes | reads |
 | `bolder` | 5 252 | 69% | 1.6 | 3.4 | 0% | 0% | 0.33 | yes | reads |
 | `halftone` | 6 039 | 60% | 1.2 | 2.4 | 0% | 0% | 0.36 | yes | not found |
@@ -151,6 +181,9 @@ the symbol, and the one that looks most zoomed in:
 | **`body-large`** | **407** | **4.8** | **0%** | reads |
 | **`body-large-pile`** | **386** | **4.8** | **0%** | reads |
 | **`body-bold`** | **363** | **4.8** | **0%** | reads |
+| **`abdomen-bold`** | **331** | 3.6 | **0%** | reads |
+| **`abdomen`** | **344** | 3.2 | **0%** | reads |
+| **`abdomen-small`** | 383 | 2.2 | **0%** | reads |
 
 *fit* is the share of the ants a style offered that found room; *mean* and *longest* are ant
 lengths in modules. Every `body-*` symbol at every error-correction level reads on the system
@@ -162,9 +195,18 @@ cell's centre, which is what gets sampled — the correction budget stopped bein
 constraint for every style except `wild`. What separates the options now is the picture and
 how much margin is left for the real world.
 
-- **`body-large-pile`** — the fewest ants that still carry the pattern, allowed to lie across
-  each other. Ants up to 4.8 modules long at ECC L, plainly individual, in varied attitudes.
-  This is the strongest answer to "make the shape come from the ant bodies".
+- **`abdomen-small`** — the cleanest drawing the tool makes. Its light field carries **0.02**
+  mean ink, less than `grid`'s 0.08 and by far the lowest of any ant style; 99% of the ants it
+  offers find room; and a local binariser misreads none of it at ECC L. Each abdomen is a
+  module long, and the ants are plainly animals rather than marks.
+- **`abdomen-bold`** — the fewest ants of any style that reads: 331 at ECC L, 851 at ECC H,
+  with abdomens slightly wider than their square and ants up to 3.6 modules long.
+- **`abdomen`** and **`abdomen-full`** — the same idea with a wider abdomen, and with one on
+  *every* dark module rather than only where one is still needed. `abdomen-full` is the
+  densest, and its abdomens run together into strings; individual animals get lost.
+- **`body-large-pile`** — the fewest ants of the symbol-scaled ladder, allowed to lie across
+  each other. Ants up to 4.8 modules long at ECC L — the longest anything reaches — plainly
+  individual, in varied attitudes.
 - **`body-large`** — the same, kept apart so no ant is occluded by another. Slightly more
   ants and a slightly sparser look; every animal is whole.
 - **`body-bold`** — the largest ants of all (6.0 modules at ECC H) and the highest fit rate,
@@ -178,20 +220,26 @@ how much margin is left for the real world.
 
 ## Recommendation
 
-**`body-large-pile` at ECC L, or `body-bold` at ECC H.**
+**`abdomen-small` at ECC H**, with the same style at ECC L as the alternative when the symbol
+can be printed large enough.
 
-Take **`body-large-pile` at ECC L** if the point is that a reader sees ants: 386 of them, up
-to 4.8 modules long, on the smallest symbol, so each animal is as large as it can be relative
-to the whole. It costs nothing and it reads.
+Sizing the ant to the module rather than to the symbol wins on every measurement that matters.
+It leaves the light field cleaner than any other ant style — 0.02 mean cell ink against
+`grid`'s 0.08 and `swarm`'s 0.13 — which is the quantity that decides whether a real scanner
+finds the symbol at all. It wastes almost nothing: 99% of the ants it offers find room,
+against 75–93% everywhere else. It costs no correction budget, it reads crisp and out of
+focus, and all sixteen combinations of the four abdomen styles and the four levels were read
+by the system scanner, at 6, 10 and 20 pixels per module.
 
-Take **`body-bold` at ECC H** if the symbol has to survive the world: the same drawing on the
-largest symbol, with the whole 112-codeword budget spread over eight blocks left intact for
-scuffs, folds and bad angles — and version 10 is the only one that carries the `https://`
-form of the tag without changing size.
+ECC H for the same two reasons as before: the full 112-codeword budget over eight blocks is
+left intact for real-world damage, and version 10 is the only size that carries the
+`https://` form of the tag without growing. Drop to ECC L for 383 ants instead of 1 039, each
+correspondingly larger against the whole, when the printed symbol will be big enough that the
+margin is not needed.
 
-Take **`swarm` at ECC H** instead only if the mass, rather than the individual animal, is
-what the picture is for. It was the recommendation before the posed styles existed and it is
-still the best of the scattered family.
+Take **`abdomen-bold`** if the fewest and longest ants are the point, or **`body-large-pile`
+at ECC L** for the longest ants anything reaches — 4.8 modules. Take **`swarm` at ECC H**
+only if the mass, rather than the individual animal, is what the picture is for.
 
 ## What the second pass changed
 

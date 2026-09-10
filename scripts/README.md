@@ -238,14 +238,16 @@ python3 scripts/qrant.py options --text-file tag.txt --style all --ecc all --out
 
 `report` measures without writing; `render` writes one symbol as `.svg` or `.png`; `options`
 writes every combination plus a `metrics.tsv`. `--photos DIR` uses PNG photographs of ants as
-ink instead of the vector one; no photographs are in the repository.
+ink instead of the vector one; no photographs are in the repository. `--style` and `--ecc`
+take a comma-separated list or `all`.
 
 Styles come in two families. The **scattered** ones (`grid`, `swarm`, `dense` and the looser
 `bold`, `bolder`, `halftone`, `wild`) build the dark half out of the *positions* of many
-small copies of the library ant. The **posed** ones (`body-*`, built on `antpose.py`) build
-it out of the ant's own silhouette: each ant is jointed to fit the ground it covers, so a
-symbol is drawn with a few hundred visibly individual animals rather than several thousand
-identical marks.
+small copies of the library ant. The **posed** ones (`body-*` and `abdomen-*`, built on
+`antpose.py`) build it out of the ant's own silhouette: each ant is jointed to fit the ground
+it covers, so a symbol is drawn with a few hundred visibly individual animals rather than
+several thousand identical marks. `body-*` sizes the ant against the whole symbol;
+`abdomen-*` sizes it against one module, so that a square *is* an abdomen.
 
 The point of the tool is the measurement. Drawing with ants costs error correction, so every
 style is rasterised, binarised the way a camera binarises, scanned for its finder patterns

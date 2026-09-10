@@ -668,15 +668,23 @@ share of the correction budget it spent.
 
 Styles come in two families. **Scattered** styles (`grid`, `swarm`, `dense` and the looser
 `bold`, `bolder`, `halftone`, `wild`) build the dark half out of the *positions* of many small
-copies of the library ant. **Posed** styles (`body-mid`, `body-large`, their `-pile` variants
-and `body-bold`, built on `scripts/antpose.py`) build it out of the ant's own silhouette:
-each ant is jointed — gaster and head pivoting about the thorax, six legs and two antennae
-solved joint by joint — to fit the ground it covers. Poses articulate and never stretch, so
+copies of the library ant. **Posed** styles (`body-*` and `abdomen-*`, built on
+`scripts/antpose.py`) build it out of the ant's own silhouette: each ant is jointed — gaster
+and head pivoting about the thorax, six legs and two antennae solved joint by joint — to fit
+the ground it covers. Poses articulate and never stretch, so
 every ant is the same animal in a different attitude; `antpose.py check` fails if a joint
 changes a bone.
 
-The posed styles draw a symbol with three to five times fewer ants than the scattered ones,
-every one of them individually legible, and they cost **nothing** of the correction budget.
+The two posed families differ in what they size the ant against. `body-*` sizes it against
+the whole symbol, as large as the ground anywhere will take. `abdomen-*` sizes it against a
+single module — the gaster set to the square's width and pinned at its centre, so each mark
+is an abdomen sitting on a square with the rest of the animal swinging off it. The second is
+better on every measurement: it leaves a cleaner light field (0.02 mean cell ink, against
+`grid`'s 0.08 and `swarm`'s 0.13), it wastes almost none of the ants it offers, and it still
+draws a symbol with three to five times fewer ants than the scattered styles.
+
+The posed styles cost **nothing** of the correction budget, and every one of their ants is
+individually legible.
 All twenty posed symbols read on a real scanner at every error-correction level and at every
 resolution from 6 to 20 pixels per module. Their ceiling is set by the anatomy rather than by
 the code: a large ant has a large gaster, a gaster has to sit in dark ground, and only about

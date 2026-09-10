@@ -108,9 +108,33 @@ Two more that no assertion caught, both found by looking at numbers that seemed 
   drifted, and the fitter spent about a third of the correction budget on ink the raster
   never delivered. It now measures each ant back off the grid it was drawn on.
 
+### 6. Sizing the ant to the module beats sizing it to the symbol
+
+The posed styles were first built to put the largest ant the symbol would take anywhere it
+would fit. Sizing instead against a *single* module — gaster as wide as the square, pinned at
+its centre — is better on every measurement taken, and the margin is not small:
+
+| style | scale set against | ants at ECC H | fit | mean light cell | binariser errors |
+| --- | --- | --- | --- | --- | --- |
+| `grid` | fits inside one module | 1 869 | 100% | 0.08 | 5 |
+| `swarm` | scattered, symbol-scaled | 4 744 | 88% | 0.13 | 17 |
+| `body-large` | the whole symbol | 1 066 | 92% | 0.08 | 36 |
+| **`abdomen-small`** | **one module** | **1 039** | **99%** | **0.02** | **5** |
+
+The mean light cell is the quantity finding 2 identified as deciding whether a scanner finds
+a symbol at all, and `abdomen-small` leaves it four times cleaner than anything else here —
+cleaner than the lattice-bound `grid`, which was the previous best. All sixteen combinations
+of the four abdomen styles and the four correction levels were read by Vision, and
+`abdomen-small` and `abdomen-bold` were read at 6, 10 and 20 pixels per module.
+
+The reason appears to be that pinning the gaster puts the ant's one thick part exactly where
+the ink is wanted, so the thin parts — which are what stray onto light ground — have to cover
+much less. Sizing against the symbol leaves the thick part wherever it lands and asks the
+legs to make up the difference.
+
 ## Where the model and the scanner still disagree
 
-`scan-styles.tsv` records Vision's verdict on all 52 style and ECC combinations in
+`scan-styles.tsv` records Vision's verdict on all 68 style and ECC combinations in
 `metrics-report.txt`. The two agree except at the margins: the tool's decoder reads
 `halftone` at every level and Vision finds none of them, which is the tool being optimistic
 about the one style that inks the light field on purpose, and `body-large` at ECC M and

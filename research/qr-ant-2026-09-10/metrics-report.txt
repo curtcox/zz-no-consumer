@@ -63,3 +63,20 @@ dark / light: mean ink in a dark and in a light module's whole cell.  peak: the 
 reads: passes locating, binarising and decoding.  blur: still does out of focus.
 
 wrote 104 files and metrics.tsv to /private/tmp/claude-501/-Users-curtcox-me-zz-no-consumer/e8b69683-e4ee-4a7c-8a7b-72988ed89d7a/scratchpad/opts2
+style     ecc ver    size   ants  fit  mean  max  bad  cam  find  spent worst  light  peak   ink  reads  blur
+-------------------------------------------------------------------------------------------------------------
+abdomen     L   5    37sq    344 94%   2.2  3.2    0    5   3/3    0%    0%   0.05  0.22  30%    yes   yes
+abdomen-small   L   5    37sq    383 99%   2.1  2.2    0    0   3/3    0%    0%   0.01  0.15  28%    yes   yes
+abdomen-full   L   5    37sq    438 94%   2.8  3.2    0    4   3/3    0%    0%   0.07  0.22  34%    yes   yes
+abdomen-bold   L   5    37sq    331 92%   2.2  3.6    0    4   3/3    0%    0%   0.07  0.35  31%    yes   yes
+abdomen     M   6    41sq    462 95%   2.1  3.2    0    8   3/3    0%    0%   0.06  0.22  30%    yes   yes
+abdomen-small   M   6    41sq    509 99%   2.1  2.2    0    0   3/3    0%    0%   0.02  0.22  28%    yes   yes
+abdomen-full   M   6    41sq    551 92%   2.7  3.2    0    1   3/3    0%    0%   0.08  0.22  34%    yes   yes
+abdomen-bold   M   6    41sq    432 94%   2.2  3.6    0    1   3/3    0%    0%   0.09  0.34  31%    yes   yes
+abdomen     Q   8    49sq    686 95%   2.2  3.2    0    3   3/3    0%    0%   0.06  0.22  34%    yes   yes
+abdomen-small   Q   8    49sq    786 99%   2.1  2.2    0    4   3/3    0%    0%   0.03  0.21  32%    yes   yes
+abdomen-full   Q   8    49sq    830 91%   2.7  3.2    0    7   3/3    0%    0%   0.08  0.22  38%    yes   yes
+abdomen-bold   Q   8    49sq    645 91%   2.2  3.6    0    6   3/3    0%    0%   0.09  0.35  35%    yes   yes
+abdomen     H  10    57sq    920 95%   2.2  3.2    0   15   3/3    0%    0%   0.07  0.22  33%    yes   yes
+abdomen-small   H  10    57sq   1039 99%   2.1  2.2    0    5   3/3    0%    0%   0.02  0.17  30%    yes   yes
+abdomen-full   H  10    57sq   1118 92%   2.8  3.2    0    5   3/3    0%    0%   0.08  0.22  38%    yes   yes
