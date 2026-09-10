@@ -18,7 +18,11 @@ ROOT = Path(__file__).resolve().parents[1]
 def document():
     import local_viewer as local
     import panel_layout
+    import viewer_overlays
     session = local.Session()
+    # Positioning parity is measured against the published stylesheet, which has no
+    # preview overlays; the local-only layers get their own cases below.
+    bare = dict(viewer_overlays.DEFAULTS, fog=False, ants=False)
     representatives = {}
     for number, record in session.pages.items():
         representatives.setdefault(record.panel_count, number)
@@ -30,22 +34,32 @@ def document():
             key=match.group(1); w,h=panel_layout.target(key)
             svg=f'<svg xmlns="http://www.w3.org/2000/svg" width="{w}" height="{h}"><rect width="100%" height="100%" fill="#53794c"/><text x="20" y="80" font-size="60">{key}</text></svg>'
             return 'src="data:image/svg+xml;base64,'+base64.b64encode(svg.encode()).decode()+'"'
-        body=re.sub(r'src="/panel/(\d{3}-\d{2})\.svg"',image,body)
+        # The real page-wide layer, so the fixture proves it neither moves nor hides a panel.
+        def overlay(match):
+            svg=overlays.setdefault(match.groups(), session.page_overlay(match.group(1), int(match.group(2))))
+            return 'src="data:image/svg+xml;base64,'+base64.b64encode(svg.encode()).decode()+'"'
+        body=re.sub(r'src="/panel/(\d{3}-\d{2})\.svg[^"]*"',image,body)
+        body=re.sub(r'src="/overlay/([a-z]+)/(\d{3})\.svg"',overlay,body)
         content=f'<!doctype html><meta charset="utf-8"><style>{css}</style>{body}<script>{audit}</script>'
         # Frames are tall enough that ordinary scroll position does not hide test samples.
         cases.append(dict(name=name,document=content,width=width,expect=expect,legacy=legacy))
+    overlays={}
     local_css=(local.UI/'app.css').read_text()
     static_css=(ROOT/'site/viewer/viewer.css').read_text()
     for count,number in representatives.items():
-        body=session.render_page(number,'art')
+        body=session.render_page(number,'art',bare)
         for width in (390,1280):
             add(f'local-{count}-{width}',body,local_css,width)
-            add(f'static-{count}-{width}',body.replace('<img ', '<img class="page-art__panel" '),static_css,width)
+            add(f'static-{count}-{width}',body.replace('<img style="', '<img class="page-art__panel" style="'),static_css,width)
     # Include the real left/right/spread rendering paths.
     for mode in ('left','right','spread'):
         for width in (390,1280):
-            add(f'{mode}-{width}',session.render(mode,2),local_css,width)
-    page=session.render_page(1,'art')
+            add(f'{mode}-{width}',session.render(mode,2,bare),local_css,width)
+    # Preview overlays, including the one page that carries both layers at once.
+    for number in sorted({1, *(n for n in session.pages if viewer_overlays.has_page_ants(n))}):
+        for width in (390,1280):
+            add(f'overlays-{number:03d}-{width}',session.render_page(number,'art',viewer_overlays.DEFAULTS),local_css,width)
+    page=session.render_page(1,'art',bare)
     old=re.sub(r' style="[^"]*"','',page).replace(' data-panel-layout="2"','')
     add('old-server-new-css',old,local_css,1280,legacy=True)
     add('old-static-new-css',old.replace('<img ','<img class="page-art__panel" '),static_css,390,legacy=True)

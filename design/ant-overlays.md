@@ -62,6 +62,13 @@ used on different surfaces. Mirroring changes light direction and should not be 
    renderer hashes. Preserve the ant-free original. Promote only after the normal visual
    review; base or geometry changes invalidate the composite.
 
+`python3 scripts/local_viewer.py serve` now withholds the ant layer on request, so the
+ant-free base and the composite can be compared in place on a real page, at real reading
+widths, alongside the lettering and fog switches. It re-renders the scene without its ant
+nodes where the panel's current art is exactly that scene's render, and marks a stored
+image that cannot give the layer up. This is review only: it selects nothing, promotes
+nothing, and is not the reader toggle described below.
+
 The existing prototype reuses SVG image elements, which can also embed a raster base or
 transparent sprite. It does not yet implement a production sprite registry, masking UI,
 reader toggle, queue handoff mode or automatic composite promotion. Those belong after the

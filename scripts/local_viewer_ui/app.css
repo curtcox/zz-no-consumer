@@ -22,7 +22,7 @@ p { line-height: 1.65; }
 .controls { display: flex; flex-wrap: wrap; gap: 1rem; align-items: center; }
 .controls select { max-width: min(60vw, 600px); }
 .spread { display: grid; grid-template-columns: minmax(0, 1fr) minmax(0, 1fr); gap: 1.5rem; align-items: start; }
-.page-art { position: relative; width: min(100%, 800px); aspect-ratio: 7 / 10; margin: auto; overflow: hidden; background: #d6d2c5; }
+.page-art { position: relative; isolation: isolate; width: min(100%, 800px); aspect-ratio: 7 / 10; margin: auto; overflow: hidden; background: #d6d2c5; }
 /* Old servers may still emit unpositioned panels. Keep those in normal flow. */
 .page-art:not([data-panel-layout="2"]) { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); grid-auto-rows: 1fr; gap: 3%; padding: 5.5%; }
 .page-art:not([data-panel-layout="2"]) > img { position: static; display: block; width: 100% !important; height: 100% !important; min-width: 0; min-height: 0; object-fit: contain; }
@@ -31,6 +31,20 @@ p { line-height: 1.65; }
 /* A marked page missing coordinates must fail visibly, never stack its images. */
 .page-art[data-panel-layout="2"]:has(> img:not([style])) { display: grid; grid-template-columns: repeat(2,minmax(0,1fr)); gap: 3%; padding: 5.5%; }
 .page-art[data-panel-layout="2"]:has(> img:not([style])) > img { position: static; width: 100% !important; height: auto !important; }
+
+/* Preview overlays are decorative page-wide figures: they never take a hit test,
+   so the panel-fit audit still sees each panel where the layout put it. */
+.page-overlay { position: absolute; inset: 0; pointer-events: none; }
+.page-overlay img { position: absolute; inset: 0; width: 100%; height: 100%; }
+.page-overlay .fog { mix-blend-mode: multiply; }
+#overlays { margin: 2rem 0 0; padding: 1rem 1.2rem; border: 1px solid #374032; border-radius: .35rem; }
+#overlays legend { color: #c7ed9d; text-transform: uppercase; letter-spacing: .12em; font-size: .8rem; padding: 0 .4rem; }
+#switches { display: grid; grid-template-columns: repeat(auto-fit, minmax(240px, 1fr)); gap: .8rem; }
+#switches label { display: grid; grid-template-columns: auto 1fr; align-items: baseline; gap: .2rem .7rem; padding: .6rem; background: #20271d; border: 1px solid #374032; border-radius: .35rem; cursor: pointer; }
+#switches label:hover { border-color: #c7ed9d; }
+#switches input { width: 1.1rem; height: 1.1rem; accent-color: #c7ed9d; margin: 0; cursor: pointer; }
+#switches small { grid-column: 2; color: #b8c2b0; font-size: .8rem; line-height: 1.5; }
+#overlays .note { margin: 1rem 0 0; font-size: .85rem; color: #b8c2b0; }
 
 .blank { min-height: 50vh; display: grid; place-items: center; color: #7e8977; border: 1px dashed #374032; }
 .prose { max-width: 75ch; margin: auto; font: 1.1rem/1.75 Georgia, serif; overflow-wrap: anywhere; }

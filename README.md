@@ -580,12 +580,37 @@ Each browser window first chooses one of ten displays:
   Each option shows its recorded status, stage, provider, and review note; clicking
   an image opens its full resolution in another tab.
 
+The page selector also carries four shared overlay switches, so a page can be looked
+at with any of its contributions withheld:
+
+- **Panel art** — the chosen picture inside each panel. Cleared, the panel keeps its
+  rectangle as a dashed outline and shows whatever else is still switched on.
+- **Lettering** — the controlled captions, dialogue, and slates the display draws last.
+- **Ants** — the authored ant figures: the `ant` nodes inside a scene, and the marginal
+  route `scripts/anthill_study.py` places on the pages listed in `data/anthill-study.json`.
+  The viewer invents no placement of its own, so a page excluded there stays excluded.
+- **Fog of war** — drawn the way the fog-of-war knowledge-map studies draw it: pictograms
+  lying on the page's margins and gutters, and a veil computed per page from the panel
+  rectangles that thins in patches, so a form reads anywhere from plain to invisible. The
+  forms come from `scripts/knowledge_maps_fog.py` but carry none of its meaning here — a
+  page has no propositions and no observation islands, so they are drawn from the whole
+  vocabulary ungrouped, and every form keeps its whole reach clear of every panel, so the
+  layer crosses no artwork, lettering, evidence field or provenance slate. It is authored
+  preview texture: not a map of the wiki, not a measure of what any observer knows, and it
+  reveals nothing.
+
+A layer can only be withheld where the geometry is still separable. A panel whose current
+art is exactly its scene's render can give up its ants, because the render can be repeated
+without those nodes; a raster chosen from a model cannot, and says `ANTS NOT SEPARABLE` on
+its face rather than pretending the layer is gone. The switches change nothing on disk:
+artwork, scene records, and lettering decisions are untouched, and no build runs.
+
 Even pages are on the left and odd pages on the right: selecting 002 or 003 shows
 spread 002–003. Page 001 has a blank left side; an unmatched final even page has a
 blank right side. The novella always follows the selected number itself.
 
-Selectors share one in-memory server state. The latest selection wins, and selecting
-again refreshes the displays. Other windows retain their display mode as they update.
+Selectors share one in-memory server state, for the overlay switches as well as the page.
+The latest selection wins, and selecting again refreshes the displays. Other windows retain their display mode as they update.
 The mode is saved in the URL, so it survives reloads and can be bookmarked. New and
 reconnected windows receive the current selection. Restarting the server resets the
 selection to 001, or to the supplied `--page` value.

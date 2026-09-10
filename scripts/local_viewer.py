@@ -21,6 +21,7 @@ import panel_layout
 import novella
 import panelart
 import textimage
+import viewer_overlays
 
 ROOT = Path(__file__).resolve().parents[1]
 UI = Path(__file__).with_name("local_viewer_ui")
@@ -68,6 +69,7 @@ class Session:
         if initial not in self.pages:
             raise ValueError("Initial page is not in the book")
         self.page, self.revision = initial, 0
+        self.overlays = dict(viewer_overlays.DEFAULTS)
         self.condition = threading.Condition()
         self.prose = novella.found()
 
@@ -75,16 +77,28 @@ class Session:
         with self.condition:
             left, right = spread(self.page, self.pages)
             return dict(page=self.page, revision=self.revision, left=left, right=right,
+                        overlays=dict(self.overlays), overlay_signature=viewer_overlays.signature(self.overlays),
                         layout_version=LAYOUT_VERSION, build=START_VERSION, restart_required=source_version() != START_VERSION)
 
-    def select(self, page):
+    def update(self, request):
+        """One shared selection: the page, the overlay switches, or both."""
+        if not isinstance(request, dict):
+            raise ValueError("Expected an object")
+        unknown = sorted(set(request) - {'page', 'overlays'})
+        if unknown:
+            raise ValueError(f'Unknown selection field: {", ".join(unknown)}')
+        page = request.get('page', self.page)
         if type(page) is not int or page not in self.pages:
             raise ValueError("Choose an existing integer page number")
+        overlays = viewer_overlays.normalize(request['overlays'], self.overlays) if 'overlays' in request else dict(self.overlays)
         with self.condition:
-            self.page = page
+            self.page, self.overlays = page, overlays
             self.revision += 1
             self.condition.notify_all()
             return self.snapshot()
+
+    def select(self, page):
+        return self.update({'page': page})
 
     def placeholder(self, page, index):
         script = textimage.page_script(f"{page:03d}")
@@ -92,16 +106,38 @@ class Session:
         return textimage.text_image(panel.text, *panel_layout.size(page, index),
                                     label=f"PAGE {page:03d} · PANEL {index:02d} · PLACEHOLDER")
 
-    def panel(self, page, index):
-        art = letterpress.find_art(f"{page:03d}", index)
+    def panel(self, page, index, overlays=None):
+        overlays = viewer_overlays.DEFAULTS if overlays is None else overlays
+        page_id, key = f"{page:03d}", f"{page:03d}-{index:02d}"
+        width, height = panel_layout.size(page, index)
+        # The text placeholder is this panel's picture, not a layer over one:
+        # withholding the art withholds it too, and it carries no separate lettering.
+        if not overlays['image']:
+            record = letterpress.load_slots()
+            placed = letterpress.panel_layout(page_id, index, record)[0] if overlays['lettering'] else []
+            return viewer_overlays.annotate(letterpress.svg_panel(placed, record, width, height),
+                                            [viewer_overlays.frame_mark(width, height)])
+        art = letterpress.find_art(page_id, index)
         if not art:
             return self.placeholder(page, index)
-        panel_layout.require(art, panel_layout.size(page, index))
+        panel_layout.require(art, (width, height))
+        marks, art_href = [], None
+        if not overlays['ants']:
+            art_href, note = viewer_overlays.art_without_ants(key, art, (width, height))
+            if art_href:
+                art = None
+            if note:
+                marks.append(viewer_overlays.note_mark(note, width, height))
         record = letterpress.load_slots()
-        placed, _ = letterpress.panel_layout(f"{page:03d}", index, record)
-        return letterpress.svg_panel(placed, record, *panel_layout.size(page, index), art=art)
+        placed = letterpress.panel_layout(page_id, index, record)[0] if overlays['lettering'] else []
+        return viewer_overlays.annotate(
+            letterpress.svg_panel(placed, record, width, height, art=art, art_href=art_href), marks)
 
-    def render_page(self, page, kind):
+    def page_overlay(self, layer, page):
+        return viewer_overlays.page_layer_svg(layer, page, self.pages[page].panel_count)
+
+    def render_page(self, page, kind, overlays=None):
+        overlays = viewer_overlays.DEFAULTS if overlays is None else overlays
         if page is None:
             return '<section class="blank" aria-label="Blank facing page">Blank facing page</section>'
         if source_version() != START_VERSION:
@@ -109,9 +145,16 @@ class Session:
         record = self.pages[page]
         heading = f'<h2>Page {page:03d} · {html.escape(record.title)}</h2>'
         if kind == "art":
-            images = ''.join(f'<img style="{panel_layout.style(record.panel_count, i)}" src="/panel/{page:03d}-{i:02d}.svg" alt="Panel {page:03d}-{i:02d}">'
+            token = viewer_overlays.signature(overlays)
+            images = ''.join(f'<img style="{panel_layout.style(record.panel_count, i)}" src="/panel/{page:03d}-{i:02d}.svg?o={token}" alt="Panel {page:03d}-{i:02d}">'
                              for i in range(1, record.panel_count + 1))
-            return f'<section>{heading}<div class="page-art" data-panel-layout="2" style="aspect-ratio:{panel_layout.load()["page"][0]}/{panel_layout.load()["page"][1]}" data-panels="{record.panel_count}">{images}</div></section>'
+            # Page-wide figures sit above every panel, decorative and unable to
+            # intercept a control, so the panel-fit audit still sees the panels.
+            layers = ''.join(f'<img class="{layer}" src="/overlay/{layer}/{page:03d}.svg" alt="">'
+                             for layer in viewer_overlays.PAGE_LAYERS
+                             if overlays[layer] and (layer != 'ants' or viewer_overlays.has_page_ants(page)))
+            overlay = f'<div class="page-overlay" aria-hidden="true">{layers}</div>' if layers else ''
+            return f'<section>{heading}<div class="page-art" data-panel-layout="2" style="aspect-ratio:{panel_layout.load()["page"][0]}/{panel_layout.load()["page"][1]}" data-panels="{record.panel_count}">{images}{overlay}</div></section>'
         if kind == "options":
             # scan merges on-disk discoveries with decisions, but never writes the table.
             variants, _, _ = panelart.scan()
@@ -136,16 +179,17 @@ class Session:
         rendered = builder.markdown_to_html(source, lambda n: f'/reading/{kind}/{n:03d}')
         return f'<article class="prose">{heading}{rendered}</article>'
 
-    def render(self, mode, page):
+    def render(self, mode, page, overlays=None):
+        overlays = self.overlays if overlays is None else overlays
         left, right = spread(page, self.pages)
         if mode == 'novella':
-            return self.render_page(page, 'novella')
+            return self.render_page(page, 'novella', overlays)
         kind = 'options' if mode.startswith('options-') else 'description' if mode.startswith('description') else 'art'
         if mode.endswith('left') or mode == 'left':
-            return self.render_page(left, kind)
+            return self.render_page(left, kind, overlays)
         if mode.endswith('right') or mode == 'right':
-            return self.render_page(right, kind)
-        return '<div class="spread">' + self.render_page(left, kind) + self.render_page(right, kind) + '</div>'
+            return self.render_page(right, kind, overlays)
+        return '<div class="spread">' + self.render_page(left, kind, overlays) + self.render_page(right, kind, overlays) + '</div>'
 
 
 class Server(ThreadingHTTPServer):
@@ -209,7 +253,9 @@ class Handler(BaseHTTPRequestHandler):
                         self.wfile.write(b': heartbeat\n\n')
                     self.wfile.flush()
             elif path == '/api/catalog':
-                self.reply(dict(layout_version=LAYOUT_VERSION, build=START_VERSION, modes=MODES, pages=[dict(number=n, title=p.title) for n, p in session.pages.items()]))
+                self.reply(dict(layout_version=LAYOUT_VERSION, build=START_VERSION, modes=MODES,
+                                overlays={name: dict(label=label, note=note) for name, (label, note) in viewer_overlays.LAYERS.items()},
+                                pages=[dict(number=n, title=p.title) for n, p in session.pages.items()]))
             elif path == '/api/state':
                 self.reply(session.snapshot())
             elif path == '/api/view':
@@ -221,7 +267,10 @@ class Handler(BaseHTTPRequestHandler):
                 page = int(query.get('page', [str(session.page)])[0])
                 if mode not in MODES or mode == 'selector' or page not in session.pages:
                     raise ValueError('Invalid display mode or page')
-                self.reply(session.render(mode, page), 'text/html')
+                # A display renders the overlay set it asked for, so a page it is
+                # still fetching stays self-consistent with the images inside it.
+                overlays = viewer_overlays.parse(query.get('o', [None])[0], session.overlays)
+                self.reply(session.render(mode, page, overlays), 'text/html')
             elif match := re.fullmatch(r'/(panel|placeholder)/(\d{3})-(\d{2})\.svg', path):
                 if source_version() != START_VERSION:
                     self.reply({'error': 'Viewer code changed; restart the local server'}, status=409)
@@ -230,8 +279,17 @@ class Handler(BaseHTTPRequestHandler):
                 page, index = int(page), int(index)
                 if page not in session.pages or not 1 <= index <= session.pages[page].panel_count:
                     raise ValueError('Unknown panel')
-                svg = session.panel(page, index) if kind == 'panel' else session.placeholder(page, index)
+                overlays = viewer_overlays.parse(parse_qs(url.query).get('o', [None])[0], session.overlays)
+                svg = session.panel(page, index, overlays) if kind == 'panel' else session.placeholder(page, index)
                 self.reply(svg, 'image/svg+xml')
+            elif match := re.fullmatch(r'/overlay/([a-z]+)/(\d{3})\.svg', path):
+                if source_version() != START_VERSION:
+                    self.reply({'error': 'Viewer code changed; restart the local server'}, status=409)
+                    return
+                layer, page = match.group(1), int(match.group(2))
+                if layer not in viewer_overlays.PAGE_LAYERS or page not in session.pages:
+                    raise ValueError('Unknown page overlay')
+                self.reply(session.page_overlay(layer, page), 'image/svg+xml')
             elif match := re.fullmatch(r'/reading/(description|novella)/(\d{3})', path):
                 kind, page = match.groups()
                 if int(page) not in session.pages:
@@ -264,12 +322,9 @@ class Handler(BaseHTTPRequestHandler):
             if not 0 < length <= 1024 or self.headers.get_content_type() != 'application/json':
                 raise ValueError('Expected a small JSON request')
             self.connection.settimeout(5)
-            data = json.loads(self.rfile.read(length))
-            if not isinstance(data, dict):
-                raise ValueError('Expected an object')
-            self.reply(self.server.session.select(data.get('page')))
+            self.reply(self.server.session.update(json.loads(self.rfile.read(length))))
         except (ValueError, TimeoutError):
-            self.reply({'error': 'Expected an existing integer page number in JSON'}, status=400)
+            self.reply({'error': 'Expected an existing integer page number, or overlay flags, in JSON'}, status=400)
 
 
 def main():

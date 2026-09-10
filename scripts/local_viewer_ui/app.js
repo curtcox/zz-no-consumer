@@ -13,6 +13,7 @@
     if (state.restart_required) { showError('Viewer code changed. Restart the local server, then reload this display.'); return; }
     $('page').value = state.page;
     $('current').textContent = `Page ${String(state.page).padStart(3, '0')}`;
+    for (const box of $('switches').querySelectorAll('input')) box.checked = !!state.overlays?.[box.value];
     const index = catalog.pages.findIndex(p => p.number === state.page);
     $('previous').disabled = index === 0;
     $('next').disabled = index === catalog.pages.length - 1;
@@ -25,7 +26,7 @@
     if (!mode || mode === 'selector') return;
     pending = new AbortController();
     try {
-      const response = await request(`/api/view?mode=${mode}&page=${state.page}`, {signal: pending.signal});
+      const response = await request(`/api/view?mode=${mode}&page=${state.page}&o=${encodeURIComponent(state.overlay_signature ?? '')}`, {signal: pending.signal});
       const content = await response.text();
       if (mine !== generation) return;
       $('view').innerHTML = content;
@@ -51,13 +52,16 @@
     document.title = mode ? `${catalog.modes[mode]} · Local book room` : 'Local book room';
     render();
   }
-  async function select(page) {
+  async function submit(selection) {
     try {
-      await request('/api/state', {method: 'POST', headers: {'Content-Type': 'application/json'}, body: JSON.stringify({page})});
+      await request('/api/state', {method: 'POST', headers: {'Content-Type': 'application/json'}, body: JSON.stringify(selection)});
     } catch (error) { showError(error.message); }
   }
+  const select = page => submit({page});
   $('mode').addEventListener('change', event => choose(event.target.value));
   $('page').addEventListener('change', event => select(Number(event.target.value)));
+  // An overlay switch is shared, exactly like the page: every display follows it.
+  $('switches').addEventListener('change', event => submit({overlays: {[event.target.value]: event.target.checked}}));
   for (const [id, step] of [['previous', -1], ['next', 1]]) {
     $(id).onclick = () => {
       const index = catalog.pages.findIndex(p => p.number === state.page);
@@ -82,6 +86,13 @@
         $('choices').append(button);
       }
       for (const p of catalog.pages) $('page').add(new Option(`${String(p.number).padStart(3, '0')} · ${p.title}`, p.number));
+      for (const [name, layer] of Object.entries(catalog.overlays || {})) {
+        const box = Object.assign(document.createElement('input'), {type: 'checkbox', value: name, checked: true, id: `overlay-${name}`});
+        const label = Object.assign(document.createElement('label'), {htmlFor: box.id});
+        label.append(box, Object.assign(document.createElement('span'), {textContent: layer.label}),
+                     Object.assign(document.createElement('small'), {textContent: layer.note}));
+        $('switches').append(label);
+      }
       choose(new URLSearchParams(location.search).get('mode'));
       const receive = message => {
         if (message.type === 'state') {
