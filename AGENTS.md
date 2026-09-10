@@ -174,6 +174,7 @@ python3 scripts/art_jobs.py check && \
 python3 scripts/image_crop.py check && \
 python3 scripts/rasterize.py check && \
 python3 scripts/qr_core.py check && \
+python3 scripts/antpose.py check && \
 python3 scripts/qrant.py check && \
 python3 scripts/letterpress.py audit && \
 python3 scripts/pagination.py check && \

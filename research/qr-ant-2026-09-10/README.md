@@ -76,17 +76,49 @@ and dilating those puts a five-module blank band through the middle of the pictu
 so the failure that matters most is visible in the tool's own output rather than only in an
 external scanner's.
 
+### 4. A cell can stay under budget and still lose its module
+
+Found while adding the posed styles, and it invalidated part of the first set's results.
+
+The constraint from finding 2 is on the mean ink in a light module's **whole cell**, because
+that is what a local binariser thresholds against. It is not sufficient. A jointed ant's leg
+can run straight through a light module's **centre** — the single point a decoder samples —
+while the cell's mean stays well under the cap, because a leg is thin and the cell is mostly
+empty. Every such module is silently lost:
+
+| style | peak light cell | cell cap | modules lost | all of them |
+| --- | --- | --- | --- | --- |
+| `body-fine` | 0.22 | 0.22 | 38 | light modules read dark |
+| `body-large` | 0.22 | 0.22 | 10 | light modules read dark |
+
+Both constraints have to hold together, and the fitter now enforces both. Doing so did not
+only fix the posed styles: it took `bold` and `bolder` from spending half the correction
+budget to spending none, and from unreliable on a real scanner to reading. **The first
+version of this record's conclusion — that only three styles are free and everything past
+them fails — was too pessimistic and has been superseded** by `metrics-report.txt`.
+
+### 5. Two bugs the drawing hid
+
+Two more that no assertion caught, both found by looking at numbers that seemed wrong:
+
+* `try_place` rebuilt each candidate mark to try shrinking it, and rebuilt it without the
+  posed geometry. Every fitted ant was being rasterised as an *unposed* library ant. The
+  drawing looked plausible, the metrics were real, and none of it measured what it claimed.
+* The fitter kept its own estimate of what was covered, separate from the raster. The two
+  drifted, and the fitter spent about a third of the correction budget on ink the raster
+  never delivered. It now measures each ant back off the grid it was drawn on.
+
 ## Where the model and the scanner still disagree
 
-`scan-styles.tsv` records Vision's verdict on all 32 style and ECC combinations in
-`metrics-report.txt`. They agree on 28. All four disagreements are the `bold` style, where
-the tool reports failure and Vision reads the symbol anyway — the tool is conservative, and
-on the safe side. `bold` is not recommended for that reason and for the one below.
+`scan-styles.tsv` records Vision's verdict on all 52 style and ECC combinations in
+`metrics-report.txt`. The two agree except at the margins: the tool's decoder reads
+`halftone` at every level and Vision finds none of them, which is the tool being optimistic
+about the one style that inks the light field on purpose, and `body-large` at ECC M and
+`body-mid-pile` at ECC L are reported as failing a local binariser that Vision reads without
+trouble, which is the tool being conservative. Every other row matches.
 
-`scan-resolution.tsv` records the same styles rendered at 6, 8, 10, 14 and 20 pixels per
-module. `grid`, `swarm` and `dense` read at every resolution tested. `bold` read at one of
-five, which is the finding that settles it: a style that reads sometimes is not a style to
-put on a cover.
+`scan-resolution.tsv` records symbols rendered at 6, 8, 10, 14 and 20 pixels per module. All
+four posed styles read at every resolution tested, as do `grid`, `swarm` and `dense`.
 
 ## Reproducing it
 

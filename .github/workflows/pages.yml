@@ -78,6 +78,7 @@ jobs:
         run: |
           python scripts/rasterize.py check
           python scripts/qr_core.py check
+          python scripts/antpose.py check
           python scripts/qrant.py check
 
       - name: Check effective reader lettering

@@ -43,6 +43,7 @@ import sys
 from dataclasses import dataclass, field
 from pathlib import Path
 
+import antpose
 import qr_core
 import rasterize
 from rasterize import Grid
@@ -106,11 +107,19 @@ def ant_frame(shapes: list[tuple]) -> tuple[float, float, float]:
 
 @dataclass
 class Mark:
-    """One ant: centre in module coordinates, long axis in modules, degrees."""
+    """One ant: centre in module coordinates, long axis in modules, degrees.
+
+    A mark with `shapes` is a *posed* ant — one that was jointed to fit the
+    ground it covers, carrying its own geometry relative to its centre. A mark
+    without them is the library ant at this size and angle, which is cached and
+    stamped thousands of times over.
+    """
     x: float
     y: float
     size: float
     angle: float
+    shapes: tuple = ()
+    pose: object = None
 
 
 @dataclass
@@ -129,6 +138,9 @@ class Style:
     repair: bool = True
     on_light: bool = False
     solid: bool = False               # fill every dark module: the plain control
+    posed: tuple = ()                 # (largest, smallest) long axis, in modules
+    overlap: bool = False             # may posed ants lie across each other
+    body_mask: bool = False           # choose the mask that suits ant bodies
 
 
 def _dark_modules(matrix) -> list[tuple[int, int]]:
@@ -197,6 +209,26 @@ _register(Style('halftone', 'Ants over the whole field, light modules included.'
                 place=_swarm_marks(3.0, 0.7, 2.4, on_light=True),
                 on_light=True, light_cap=0.50))
 
+_register(Style('body-mid', 'Jointed ants up to four modules long, kept apart.',
+                place=lambda matrix, rng: [], posed=(4.0, 1.8), body_mask=True,
+                light_cap=0.22))
+
+_register(Style('body-large', 'The largest ants this anatomy can fit, kept apart.',
+                place=lambda matrix, rng: [], posed=(6.0, 2.0), body_mask=True,
+                light_cap=0.22))
+
+_register(Style('body-mid-pile', 'Ants up to four modules long, piled rather than kept apart.',
+                place=lambda matrix, rng: [], posed=(4.0, 1.8), body_mask=True,
+                overlap=True, light_cap=0.22))
+
+_register(Style('body-large-pile', 'The largest ants, piled rather than kept apart.',
+                place=lambda matrix, rng: [], posed=(6.0, 2.0), body_mask=True,
+                overlap=True, light_cap=0.22))
+
+_register(Style('body-bold', 'The largest ants, buying room with the correction budget.',
+                place=lambda matrix, rng: [], posed=(6.0, 2.0), body_mask=True,
+                light_cap=0.40))
+
 _register(Style('wild', 'Large ants, no cap and no repair. The far end.',
                 place=_swarm_marks(2.5, 1.8, 4.0), light_cap=1.0, repair=False))
 
@@ -233,6 +265,16 @@ class Drawing:
     rejected: int = 0
     shrunk: int = 0
     repairs: int = 0
+    posed: int = 0                    # jointed ants fitted to the ground
+
+    @property
+    def biggest(self) -> float:
+        return max((mark.size for mark in self.marks), default=0.0)
+
+    @property
+    def mean_size(self) -> float:
+        return (sum(mark.size for mark in self.marks) / len(self.marks)
+                if self.marks else 0.0)
 
     @property
     def fitted(self) -> float:
@@ -240,12 +282,48 @@ class Drawing:
         return (len(self.marks) - self.repairs) / self.offered if self.offered else 1.0
 
 
+def body_ground(matrix, function) -> float:
+    """Share of the dark modules that sit in a two-by-two block or better.
+
+    A large ant covers ground with its body lobes, and a lobe needs a cell it
+    can sit in. This is the quantity that says how much of a symbol a few big
+    ants could carry, and it varies by about a fifth across the eight masks.
+    """
+    size = len(matrix)
+    dark = {(x, y) for y in range(size) for x in range(size)
+            if matrix[y][x] == qr_core.DARK and not function[y][x]}
+    if not dark:
+        return 0.0
+    thick = {(x, y) for x, y in dark
+             if any(all((x + ox + i, y + oy + j) in dark for i in range(2) for j in range(2))
+                    for ox in (-1, 0) for oy in (-1, 0))}
+    return len(thick) / len(dark)
+
+
+def choose_mask(payload: bytes, version: int, ecc: str) -> int:
+    """The mask whose dark regions best suit ant bodies.
+
+    All eight masks give a valid symbol; the standard picks one by a penalty
+    score meant to keep a symbol easy to read, and this picks one by how much
+    body-sized ground it leaves. Ties in the standard's own terms are broken by
+    that penalty, so the choice never drifts far from it for no gain.
+    """
+    best, best_key = 0, None
+    for mask in range(8):
+        matrix, function, _ = qr_core.build_matrix(payload, version, ecc, mask=mask)
+        key = (round(body_ground(matrix, function), 3), -qr_core._penalty(matrix))
+        if best_key is None or key > best_key:
+            best, best_key = mask, key
+    return best
+
+
 def build(text: str, ecc: str, style_name: str, version: int | None = None,
           seed: int | None = None) -> Symbol:
     payload = text.encode()
     style = STYLES[style_name]
     version = version or qr_core.smallest_version(payload, ecc)
-    matrix, function, mask = qr_core.build_matrix(payload, version, ecc)
+    chosen = choose_mask(payload, version, ecc) if style.body_mask else None
+    matrix, function, mask = qr_core.build_matrix(payload, version, ecc, mask=chosen)
     if seed is None:
         seed = int.from_bytes(payload[:8].ljust(8, b'\0'), 'big')
     return Symbol(payload, version, ecc, mask, matrix, function, style, seed)
@@ -316,6 +394,101 @@ def _merged_mean(grid: Grid, stamp: Grid, ox: int, oy: int, box) -> float:
     return total / (count * 255) if count else 0.0
 
 
+def _draw_posed(symbol: Symbol, style: Style, rng: random.Random,
+                grid: Grid, px: int, lay_down) -> tuple[int, int]:
+    """Fit jointed ants to the dark ground, largest first, all the way down.
+
+    Every mark in a posed style is a fitted ant, not just the big ones. The
+    ladder walks down from the largest size the ground will take to about two
+    modules, and each ant is posed against what is still uncovered, so the
+    drawing is a sequence of decisions: the first ant takes the best piece of
+    ground on the symbol and the last takes what is left.
+
+    The fitter and the raster share one account of the page. Every ant that is
+    laid down is measured back off the grid it was drawn on before the next one
+    is fitted, because a fitter working from its own estimate will happily
+    spend the light budget on ink the raster never delivers — which is exactly
+    what an earlier version of this did, at a cost of a third of the correction
+    budget for nothing.
+
+    The size the ladder starts at is not a free choice. Articulating the ant
+    without stretching it means a large ant has a large *gaster*, and a gaster
+    has to sit in dark ground: at six modules long it is about two modules
+    across, and only about a third of a QR symbol's dark modules lie in a
+    two-by-two block. Past six modules nothing fits anywhere at any tolerance,
+    which is a fact about the pattern rather than a limit of the search.
+    """
+    anatomy = antpose.load()
+    largest, smallest = style.posed
+    ground = antpose.Field(symbol.matrix, _protected(symbol),
+                           light_cap=style.light_cap, dark_target=DARK_FLOOR)
+    for y in range(symbol.size):
+        for x in range(symbol.size):
+            ground.covered[(x, y)] = grid.mean(*_cell_box(px, x, y))
+
+    placed = refused = 0
+
+    def settle(pose) -> bool:
+        nonlocal placed, refused
+        local = antpose.Pose(0.0, 0.0, pose.size, pose.angle,
+                             pose.gaster, pose.head, pose.joints)
+        mark = Mark(pose.x, pose.y, pose.size, pose.angle,
+                    tuple(antpose.module_shapes(anatomy, local)), pose)
+        touched = antpose._weights(antpose.module_shapes(anatomy, pose))
+        if not lay_down(mark):
+            refused += 1
+            # The raster refused it, so nothing about the page changed; mark the
+            # ground taken anyway or the same ant is fitted here again forever.
+            for key in touched:
+                if ground.dark(*key):
+                    ground.occupied.add(key)
+            return False
+        placed += 1
+        for key in touched:
+            if ground.inside(*key):
+                ground.covered[key] = grid.mean(*_cell_box(px, *key))
+        return True
+
+    steps = 6
+    for step in range(steps):
+        size = largest * (smallest / largest) ** (step / (steps - 1))
+        if size >= antpose.LIMB_SOLVE_FLOOR:
+            # Big ants: search, because ground one can sit on is scarce.
+            misses = 0
+            while misses < 30:
+                found = antpose.fit(ground, anatomy, size, rng, attempts=16,
+                                    forbid_overlap=not style.overlap)
+                if found is None:
+                    break
+                pose, value = found
+                if value <= 0.12 * size:
+                    misses += 1
+                    continue
+                misses = 0
+                settle(pose)
+        else:
+            # Small ants: sweep, because nearly every module left wants one.
+            for x, y in sorted(antpose._uncovered(ground, not style.overlap)):
+                if ground.covered.get((x, y), 0.0) >= DARK_FLOOR:
+                    continue
+                # The starting angle is jittered per module. Without it every
+                # tie goes to the same heading and the sweep lays out combs of
+                # identical ants down a filament, which is the one thing that
+                # makes a drawn swarm look machine-made.
+                start = rng.uniform(0, 360)
+                best, best_score = None, 0.0
+                for turn in range(8):
+                    pose, value = antpose.pose_at(
+                        ground, anatomy, x + 0.5 + rng.uniform(-0.12, 0.12),
+                        y + 0.5 + rng.uniform(-0.12, 0.12), size, start + turn * 45,
+                        not style.overlap, solve_limbs=size >= antpose.LIMB_SOLVE_FLOOR)
+                    if value > best_score:
+                        best, best_score = pose, value
+                if best is not None:
+                    settle(best)
+    return placed, refused
+
+
 def _protected(symbol: Symbol) -> set:
     """Module cells no ant may reach: the patterns that carry no correction.
 
@@ -359,6 +532,8 @@ def compose(symbol: Symbol, px: int = DEFAULT_PX,
                        offset + (x + 1) * px, offset + (y + 1) * px)
 
     def stamp_for(mark: Mark):
+        if mark.shapes:
+            return rasterize.stamp(list(mark.shapes), px, 0.0)
         if photos:
             return _photo_stamp(photos[rng.randrange(len(photos))], mark.size * px, mark.angle)
         return _ant_stamp(shapes, unit, mark.size * px, mark.angle)
@@ -366,7 +541,10 @@ def compose(symbol: Symbol, px: int = DEFAULT_PX,
     def try_place(mark: Mark, drawing: Drawing, allow_shrink: bool = True) -> bool:
         """Lay an ant down unless it would move a module that must not move."""
         for scale in (1.0, 0.75, 0.55) if allow_shrink else (1.0,):
-            candidate = Mark(mark.x, mark.y, mark.size * scale, mark.angle)
+            if mark.shapes and scale != 1.0:
+                continue          # a fitted ant is not rescaled; it was fitted at this size
+            candidate = Mark(mark.x, mark.y, mark.size * scale, mark.angle,
+                             mark.shapes, mark.pose)
             stamped, sx, sy = stamp_for(candidate)
             ox = int(round(offset + candidate.x * px + sx))
             oy = int(round(offset + candidate.y * px + sy))
@@ -381,9 +559,17 @@ def compose(symbol: Symbol, px: int = DEFAULT_PX,
                         continue          # ink can only help a module that is dark
                     cap = FENCE_CAP if (mx, my) in protected else style.light_cap
                     box = _cell_box(px, mx, my)
-                    if grid.mean(*box) > cap:
-                        continue          # already over; this ant is not what spent it
-                    if _merged_mean(grid, stamped, ox, oy, box) > cap:
+                    if grid.mean(*box) <= cap \
+                            and _merged_mean(grid, stamped, ox, oy, box) > cap:
+                        blocked = True    # the binariser reads the whole cell
+                        break
+                    # And the sampler reads its middle. A cell can hold a leg
+                    # straight through its centre and still average under the
+                    # cap, which is exactly how a fitted ant loses a module
+                    # while appearing to respect its budget.
+                    middle = _centre_box(px, mx, my)
+                    if grid.mean(*middle) < THRESHOLD \
+                            and _merged_mean(grid, stamped, ox, oy, middle) >= THRESHOLD:
                         blocked = True
                         break
                 if blocked:
@@ -398,11 +584,19 @@ def compose(symbol: Symbol, px: int = DEFAULT_PX,
         return False
 
     drawing = Drawing(grid, [], px)
-    offered = style.place(symbol.matrix, rng)
-    drawing.offered = len(offered)
-    for mark in offered:
-        if not try_place(mark, drawing):
-            drawing.rejected += 1
+    if style.posed:
+        placed, refused = _draw_posed(
+            symbol, style, rng, grid, px,
+            lambda mark: try_place(mark, drawing, allow_shrink=False))
+        drawing.posed = placed
+        drawing.offered = placed + refused
+        drawing.rejected = refused
+    else:
+        offered = style.place(symbol.matrix, rng)
+        drawing.offered = len(offered)
+        for mark in offered:
+            if not try_place(mark, drawing):
+                drawing.rejected += 1
 
     if style.repair:
         # A dark module the drawing left too pale is a module it lost. Put an
@@ -416,11 +610,21 @@ def compose(symbol: Symbol, px: int = DEFAULT_PX,
                             or grid.mean(*_cell_box(px, x, y)) < DARK_FLOOR)]
             if not missing:
                 break
+            turn = rng.uniform(0, 360)
             for x, y in missing:
-                for size in (1.35, 1.15, 0.95, 0.8):
-                    patch = Mark(x + 0.5, y + 0.5, size, rng.uniform(0, 360))
-                    if try_place(patch, drawing, allow_shrink=False):
-                        drawing.repairs += 1
+                # Angles are tried rather than guessed. A repair ant has one
+                # module to darken and very little light budget around it, so
+                # which way it lies decides whether it fits at all; taking the
+                # first random angle throws away most of the chances.
+                done = False
+                for size in (1.5, 1.25, 1.05, 0.85):
+                    for step in range(6):
+                        patch = Mark(x + 0.5, y + 0.5, size, turn + step * 60)
+                        if try_place(patch, drawing, allow_shrink=False):
+                            drawing.repairs += 1
+                            done = True
+                            break
+                    if done:
                         break
     return drawing
 
@@ -452,7 +656,11 @@ def to_svg(symbol: Symbol, drawing: Drawing, module: float = 8.0) -> str:
     for x, y in solid:
         parts.append(f'<rect x="{offset + x * module:g}" y="{offset + y * module:g}" '
                      f'width="{module:g}" height="{module:g}"/>')
+    anatomy = antpose.load() if any(mark.pose for mark in drawing.marks) else None
     for mark in drawing.marks:
+        if mark.pose is not None:
+            parts.append(antpose.svg_group(anatomy, mark.pose, module, offset))
+            continue
         scale = mark.size * module / long_axis
         parts.append(f'<use href="#ant" transform="translate('
                      f'{offset + mark.x * module:g} {offset + mark.y * module:g}) '
@@ -686,8 +894,9 @@ def print_report(text: str, options: list[Option]) -> None:
     payload = text.encode()
     print(f'payload {len(payload)} bytes, byte mode\n')
     header = (f'{"style":<9}{"ecc":>4}{"ver":>4}{"size":>8}{"ants":>7}{"fit":>5}'
+              f'{"mean":>6}{"max":>5}'
               f'{"bad":>5}{"cam":>5}{"find":>6}{"spent":>7}{"worst":>6}'
-              f'{"dark":>6}{"light":>7}{"peak":>6}{"ink":>6}'
+              f'{"light":>7}{"peak":>6}{"ink":>6}'
               f'{"reads":>7}{"blur":>6}')
     print(header)
     print('-' * len(header))
@@ -695,14 +904,17 @@ def print_report(text: str, options: list[Option]) -> None:
         crisp, drawing = option.crisp, option.drawing
         print(f'{option.style:<9}{option.ecc:>4}{option.version:>4}'
               f'{f"{option.modules}sq":>8}{len(drawing.marks):>7}'
-              f'{drawing.fitted:>4.0%}{crisp.module_errors:>5}{crisp.binary_errors:>5}'
+              f'{drawing.fitted:>4.0%}'
+              f'{drawing.mean_size:>6.1f}{drawing.biggest:>5.1f}'
+              f'{crisp.module_errors:>5}{crisp.binary_errors:>5}'
               f'{f"{crisp.finders}/3":>6}'
               f'{crisp.spent:>6.0%}{crisp.worst_block:>6.0%}'
-              f'{crisp.dark_cell:>6.2f}{crisp.light_cell:>7.2f}{crisp.worst_light:>6.2f}'
+              f'{crisp.light_cell:>7.2f}{crisp.worst_light:>6.2f}'
               f'{crisp.ink:>5.0%}'
               f'{("yes" if crisp.decoded else "NO"):>7}'
               f'{("yes" if option.blurred.decoded else "NO"):>6}')
-    print('\nants: ants drawn.  fit: share of the ants offered that found room.')
+    print('\nants: ants drawn.  fit: share offered that found room.  '
+          'mean / max: ant length, in modules.')
     print('bad: modules read wrong off the ideal coverage.  cam: the same through a '
           'local binariser.')
     print('find: finder patterns a locator could still pick out; under 3 and nothing '
@@ -744,7 +956,8 @@ def write_options(text: str, out: Path, styles: list[str], eccs: list[str],
 
 def _tsv(options: list[Option]) -> str:
     columns = ('style', 'ecc', 'version', 'modules', 'ants', 'offered', 'rejected',
-               'shrunk', 'repairs', 'fitted', 'module_errors', 'function_errors',
+               'shrunk', 'repairs', 'posed', 'mean_size', 'biggest',
+               'module_errors', 'function_errors',
                'dark_errors', 'light_errors', 'budget', 'corrected', 'spent',
                'worst_block', 'binary_errors', 'finders', 'dark_cell', 'light_cell',
                'worst_light', 'faint_dark', 'ink', 'contrast', 'reads',
@@ -755,7 +968,8 @@ def _tsv(options: list[Option]) -> str:
         lines.append('\t'.join(str(v) for v in (
             option.style, option.ecc, option.version, option.modules,
             len(drawing.marks), drawing.offered, drawing.rejected, drawing.shrunk,
-            drawing.repairs, f'{drawing.fitted:.4f}', crisp.module_errors,
+            drawing.repairs, drawing.posed, f'{drawing.mean_size:.2f}',
+            f'{drawing.biggest:.2f}', crisp.module_errors,
             crisp.function_errors, crisp.dark_errors, crisp.light_errors,
             crisp.budget, crisp.corrected, f'{crisp.spent:.4f}',
             f'{crisp.worst_block:.4f}', crisp.binary_errors, crisp.finders,
@@ -795,10 +1009,26 @@ def _self_check() -> list[str]:
     if control.corrected:
         findings.append(f'plain squares spent {control.corrected} correction codewords')
 
+    # Fitting a jointed ant is thousands of times the work of stamping a
+    # library one, so the styles that do it are checked on a short payload in
+    # a small symbol rather than on the 103-byte tag. Every invariant below is
+    # a property of the drawing rather than of the payload, and a check nobody
+    # will wait for is a check that gets removed.
+    brief = '256t.org/00000010' + 'Qw3' * 4
+    cache: dict = {}
+
+    def trial(name: str) -> tuple:
+        if name not in cache:
+            style = STYLES[name]
+            load, ecc, px = (brief, 'L', 8) if style.posed else (text, 'H', 8)
+            run_symbol = build(load, ecc, name)
+            drawing = compose(run_symbol, px)
+            cache[name] = (run_symbol, drawing, measure(run_symbol, drawing))
+        return cache[name]
+
     # Every style fences off the patterns that carry no error correction.
     for name in STYLES:
-        run_symbol = build(text, 'H', name)
-        run = measure(run_symbol, compose(run_symbol, 8))
+        _, _, run = trial(name)
         if run.function_errors:
             findings.append(f'{name} damaged {run.function_errors} functional modules, '
                             'which no style may touch')
@@ -806,16 +1036,29 @@ def _self_check() -> list[str]:
     # A style offered no budget must cost the code nothing at all, and a style
     # offered a budget must stay inside the one it was given.
     for name, style in STYLES.items():
-        run_symbol = build(text, 'H', name)
-        drawing = compose(run_symbol, 8)
-        run = measure(run_symbol, drawing)
+        run_symbol, drawing, run = trial(name)
+        if style.posed:
+            sizes = {round(mark.size, 3) for mark in drawing.marks}
+            if len(sizes) < 2:
+                findings.append(f'{name} drew every ant at one size, so it is not a ladder')
+            if drawing.biggest > style.posed[0] + 1e-6:
+                findings.append(f'{name} drew an ant {drawing.biggest:.2f} modules long, '
+                                f'over its {style.posed[0]:.2f} limit')
+            if not any(mark.pose is not None for mark in drawing.marks):
+                findings.append(f'{name} is a posed style but drew no jointed ant')
         if not drawing.marks and name != 'plain':
             findings.append(f'style {name} drew no ants at all')
         if run.contrast <= 0:
             findings.append(f'{name} did not make dark modules darker than light ones')
         if run.finders < 3 and name != 'wild':
             findings.append(f'{name} left only {run.finders} of 3 finders locatable')
-        if style.light_cap <= 0.25:
+        if style.posed:
+            # A fitted ant covers ground its own body has to reach, so a posed
+            # style is not required to cost nothing - what it costs is the
+            # measurement the tool exists to report. It is required to read.
+            if not run.decoded:
+                findings.append(f'posed style {name} did not decode: {run.reason}')
+        elif style.light_cap <= 0.25:
             if run.module_errors:
                 findings.append(f'free style {name} misread {run.module_errors} modules')
             if not run.decoded:

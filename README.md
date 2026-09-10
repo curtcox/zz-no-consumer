@@ -666,19 +666,33 @@ scanning. Every style is therefore rasterised, put through a local binariser the
 camera would, scanned for its three finder patterns, and decoded — and reported as the
 share of the correction budget it spent.
 
-Three styles cost nothing measurable and read on a real scanner at every resolution tried:
-`grid` (one ant per dark module, most legible as individual ants), `swarm` (an off-lattice
-scatter, the best picture) and `dense` (as many ants as the constraint accepts). Everything
-past them fails, and there is no middle — the binding constraint is how much ink a light
-module's cell can hold before a camera's local threshold moves, and it is met or it is not.
-The options table, the recommendation and the reasoning are in
+Styles come in two families. **Scattered** styles (`grid`, `swarm`, `dense` and the looser
+`bold`, `bolder`, `halftone`, `wild`) build the dark half out of the *positions* of many small
+copies of the library ant. **Posed** styles (`body-mid`, `body-large`, their `-pile` variants
+and `body-bold`, built on `scripts/antpose.py`) build it out of the ant's own silhouette:
+each ant is jointed — gaster and head pivoting about the thorax, six legs and two antennae
+solved joint by joint — to fit the ground it covers. Poses articulate and never stretch, so
+every ant is the same animal in a different attitude; `antpose.py check` fails if a joint
+changes a bone.
+
+The posed styles draw a symbol with three to five times fewer ants than the scattered ones,
+every one of them individually legible, and they cost **nothing** of the correction budget.
+All twenty posed symbols read on a real scanner at every error-correction level and at every
+resolution from 6 to 20 pixels per module. Their ceiling is set by the anatomy rather than by
+the code: a large ant has a large gaster, a gaster has to sit in dark ground, and only about
+a third of a QR symbol's dark modules lie in a two-by-two block, so nothing fits above about
+six modules at any tolerance. The options table, the recommendation and the reasoning are in
 [QR codes drawn in ants](design/qr-ant-codes.md).
 
 The measurements are calibrated against the system scanner, and that comparison is recorded
 in [the scanner comparison](research/qr-ant-2026-09-10/README.md) — including two codec bugs
 that a round trip through this repository's own encoder and decoder could not catch, because
 the decoder made the same mistake as the encoder. `qr_core.py` now pins a symbol generated
-elsewhere and checks against it on every run.
+elsewhere and checks against it on every run. A symbol has to clear three separate hurdles
+and the tool reports all three: a locator has to find its finder patterns, a local binariser
+has to agree about the whole cell, and the sampler has to agree about the cell's centre. The
+last of those was missing at first, and adding it made several styles that had looked
+expensive turn out to cost nothing.
 
 A symbol from this tool is apparatus — a cover, a colophon, a card — and never page art. A
 QR lattice is a countable grid of ants, which is the one thing the ant convention in

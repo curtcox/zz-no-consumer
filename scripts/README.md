@@ -82,6 +82,7 @@ establish current status.
 | `pagelinks.py check --built` | every page reference in `docs/` — HTML, Markdown, and the EPUB — is a link a reader can follow |
 | `rasterize.py check` | rasterised areas against their analytic values, local binarisation, and PNG round trips |
 | `qr_core.py check` | the QR codec against a symbol it did not make, and damage inside and past the correction budget |
+| `antpose.py check` | that a joint bends without changing a bone, that scaling is the only thing that changes size, and that the fitter refuses a protected module |
 | `qrant.py check` | that every drawing style leaves the finder patterns alone, that the free styles cost nothing, and that placement is deterministic |
 
 CI also runs `python3 -m unittest discover -s scripts -p 'test_knowledge_map_*.py'`, which
@@ -239,6 +240,13 @@ python3 scripts/qrant.py options --text-file tag.txt --style all --ecc all --out
 writes every combination plus a `metrics.tsv`. `--photos DIR` uses PNG photographs of ants as
 ink instead of the vector one; no photographs are in the repository.
 
+Styles come in two families. The **scattered** ones (`grid`, `swarm`, `dense` and the looser
+`bold`, `bolder`, `halftone`, `wild`) build the dark half out of the *positions* of many
+small copies of the library ant. The **posed** ones (`body-*`, built on `antpose.py`) build
+it out of the ant's own silhouette: each ant is jointed to fit the ground it covers, so a
+symbol is drawn with a few hundred visibly individual animals rather than several thousand
+identical marks.
+
 The point of the tool is the measurement. Drawing with ants costs error correction, so every
 style is rasterised, binarised the way a camera binarises, scanned for its finder patterns
 and decoded, and reported as the share of the Reed-Solomon budget it spent. `grid`, `swarm`
@@ -275,8 +283,11 @@ Six modules carry the shared models, and the rest import them rather than re-der
 - **`textimage.py`** — the pure-Python text-into-image primitive. Imported by everything that
   draws.
 - **`rasterize.py`** — coverage grids, shape rasterisation, local binarisation, and PNG in
-  and out. Imported by `qrant.py`. It is the pixel layer: the place anything that has to be
-  *measured* rather than only drawn gets turned into pixels first.
+  and out. Imported by `qrant.py` and `antpose.py`. It is the pixel layer: the place anything
+  that has to be *measured* rather than only drawn gets turned into pixels first.
+- **`antpose.py`** — the ant as a jointed skeleton, and the search that poses one to cover a
+  given piece of ground. Imported by `qrant.py`. It reads the same `assets.ant` the pages
+  draw and bends its joints; it never changes a bone.
 
 `art_jobs.py` composes these existing modules rather than parsing panel scripts or
 inventing a separate reader selection policy. Its PNG validation and operational

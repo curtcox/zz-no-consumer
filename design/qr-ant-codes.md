@@ -79,62 +79,135 @@ The tool reports it three ways, because a drawing can pass one and fail another:
 
 `reads` is all three together, plus a decode. `blur` repeats it out of focus.
 
+## Two ways to draw with an ant
+
+The styles fall into two families, and they answer different questions.
+
+**Scattered** styles (`grid`, `swarm`, `dense`, and the looser `bold`, `bolder`, `halftone`,
+`wild`) build the dark half out of the *positions* of many small copies of the library ant.
+The ant is a mark; the picture is where the marks are.
+
+**Posed** styles (`body-mid`, `body-large`, their `-pile` variants, and `body-bold`) build it
+out of the ant's own silhouette. Each ant is jointed to fit the ground it covers — gaster and
+head pivoting about the thorax, six legs and two antennae solved joint by joint — so a symbol
+is drawn with a few hundred visibly individual animals instead of several thousand identical
+marks. `scripts/antpose.py` owns the anatomy and the fitting.
+
+Poses **articulate and never stretch**. Every bone keeps the length the asset gives it and
+every lobe keeps its radii; `antpose.py check` fails if a joint changes either. That
+restriction has two consequences that decide what the posed styles can do:
+
+1. **A large ant has a large gaster, and a gaster has to sit in dark ground.** At six modules
+   long the gaster is about two modules across, and only about a third of a QR symbol's dark
+   modules lie in a two-by-two block. Measured against the real pattern, **nothing fits above
+   about six modules at any tolerance** — a fact about QR patterns, not a limit of the search.
+2. **A large ant has proportionally thin legs.** At six modules its legs are a quarter of a
+   module wide, so they cannot fill a module. Bodies cover ground; legs are filigree, and the
+   fitter's job with them is mostly to keep them out of trouble.
+
+So the posed ladder tops out near six modules and averages under two, because the ant that
+finishes a filament is necessarily small. What it buys is a **three-to-five-fold drop in ant
+count at no cost to the code**, with every ant individually legible.
+
+## Choosing the mask for ant-shaped ground
+
+Any of the eight mask patterns gives a valid symbol; the standard picks one by a penalty
+score meant to keep a symbol easy to read. The posed styles pick instead by how much
+body-sized ground the mask leaves — the share of dark modules in a two-by-two block, which
+varies from 32% to 39% across the eight — breaking ties by the standard's own penalty. There
+is no downside beyond that tie-break, and about a fifth more ground for a body to sit on.
+
 ## The options
 
 Payload 103 bytes, rendered at 12 pixels per module, `python3 scripts/qrant.py options`.
 Vision is the system scanner's verdict on the same PNG, from
 [the scanner comparison](../research/qr-ant-2026-09-10/README.md).
 
-| style | ants (H) | fit | spent | worst | light cell | reads | Vision | at 6–20 px/module |
-| --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| `plain` | 0 | — | 0% | 0% | 0.00 | yes | reads | reads |
-| `grid` | 1 873 | 100% | 0% | 0% | 0.08 | yes | reads | reads at all five |
-| `swarm` | 4 760 | 88% | 0% | 0% | 0.13 | yes | reads | reads at all five |
-| `dense` | 8 799 | 75% | 3% | 7% | 0.15 | yes | reads | reads at all five |
-| `bold` | 5 006 | 72% | 54% | 86% | 0.22 | no | reads 3 of 4 | reads at 1 of 5 |
-| `bolder` | 5 009 | 65% | 107% | 107% | 0.33 | no | not found | — |
-| `halftone` | 6 334 | 62% | 107% | 107% | 0.39 | no | not found | — |
-| `wild` | 3 468 | 83% | 107% | 107% | 0.69 | no | not found | — |
+At ECC H, version 10, 57 × 57 modules:
 
-*fit* is the share of the ants the style offered that found room. It is the honest cost of
-the constraint: `dense` wants a third more ants than the code will accept, and the tool
-declines them rather than drawing them and failing.
+| style | ants | fit | mean ant | longest | spent | worst | light cell | reads | Vision |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| `plain` | 0 | — | — | — | 0% | 0% | 0.00 | yes | reads |
+| `grid` | 1 869 | 100% | 1.4 | 1.6 | 0% | 0% | 0.08 | yes | reads |
+| `swarm` | 4 744 | 88% | 1.2 | 2.2 | 0% | 0% | 0.13 | yes | reads |
+| `dense` | 8 782 | 75% | 1.2 | 2.6 | 0% | 0% | 0.15 | yes | reads |
+| **`body-mid`** | **1 172** | 78% | 1.7 | 4.0 | **0%** | 0% | 0.08 | yes | reads |
+| **`body-large`** | **1 066** | 92% | 1.9 | 3.9 | **0%** | 0% | 0.08 | yes | reads |
+| **`body-mid-pile`** | **1 072** | 80% | 1.9 | 4.0 | **0%** | 0% | 0.10 | yes | reads |
+| **`body-large-pile`** | **1 018** | 93% | 1.9 | 3.9 | **0%** | 0% | 0.08 | yes | reads |
+| **`body-bold`** | **991** | 96% | 1.9 | **6.0** | **0%** | 0% | 0.08 | yes | reads |
+| `bold` | 5 058 | 73% | 1.4 | 3.0 | 0% | 0% | 0.22 | yes | reads |
+| `bolder` | 5 252 | 69% | 1.6 | 3.4 | 0% | 0% | 0.33 | yes | reads |
+| `halftone` | 6 039 | 60% | 1.2 | 2.4 | 0% | 0% | 0.36 | yes | not found |
+| `wild` | 3 212 | 77% | 2.1 | 4.0 | 71% | 86% | 0.42 | no | not found |
 
-**Three styles cost nothing at all.** `grid`, `swarm` and `dense` spend no meaningful part
-of the budget, read under every test, and read on a real scanner at every resolution tried.
-The choice among them is purely a picture:
+The same at ECC L, version 5, 37 × 37 — the size at which the ants are largest relative to
+the symbol, and the one that looks most zoomed in:
 
-- **`grid`** — one ant per dark module. The ants are individually legible, the lattice is
-  obvious, and the drawing reads as *a QR code made of ants*. Least ink (27%), so it prints
-  and photocopies best.
-- **`swarm`** — ants scattered off the lattice, sized and turned at random. The lattice
-  stops being visible as a grid of cells and the picture reads as *a swarm that happens to
-  be a QR code*. This is the best-looking option.
-- **`dense`** — as many ants as the constraint will take. Nearly twice `swarm`'s ants, but
-  they crowd into a mass in which individual ants are harder to see; at reading size it
-  starts to look like texture rather than animals.
+| style | ants | longest ant | spent | Vision |
+| --- | --- | --- | --- | --- |
+| `swarm` | 1 845 | 2.2 | 0% | reads |
+| `dense` | 3 397 | 2.6 | 0% | reads |
+| **`body-large`** | **407** | **4.8** | **0%** | reads |
+| **`body-large-pile`** | **386** | **4.8** | **0%** | reads |
+| **`body-bold`** | **363** | **4.8** | **0%** | reads |
 
-**Everything past those three fails.** The tool reports `bold` as failing and Vision reads
-it three times in four — but at five render resolutions it read once. A symbol that reads
-sometimes is worse than one that never does, because it passes proofing and fails in a
-reader's hands. `bolder`, `halftone` and `wild` are over budget everywhere and are kept only
-so the far end of the trade is visible rather than asserted.
+*fit* is the share of the ants a style offered that found room; *mean* and *longest* are ant
+lengths in modules. Every `body-*` symbol at every error-correction level reads on the system
+scanner, and all twenty spend **nothing** of the correction budget.
 
-There is no middle. The curve does not run smoothly from safe to pretty; it runs flat and
-then falls off, because the binding constraint is not the error-correction budget at all —
-it is how much ink a light module's cell can hold before a camera's local threshold moves.
-That constraint is met or it is not.
+**Everything that costs nothing is on the table.** After the fitter was made to respect both
+constraints a scanner applies — the whole cell's ink, which sets a local threshold, and the
+cell's centre, which is what gets sampled — the correction budget stopped being the binding
+constraint for every style except `wild`. What separates the options now is the picture and
+how much margin is left for the real world.
+
+- **`body-large-pile`** — the fewest ants that still carry the pattern, allowed to lie across
+  each other. Ants up to 4.8 modules long at ECC L, plainly individual, in varied attitudes.
+  This is the strongest answer to "make the shape come from the ant bodies".
+- **`body-large`** — the same, kept apart so no ant is occluded by another. Slightly more
+  ants and a slightly sparser look; every animal is whole.
+- **`body-bold`** — the largest ants of all (6.0 modules at ECC H) and the highest fit rate,
+  bought with a looser whole-cell budget that costs nothing measurable.
+- **`body-mid`** — a shorter ladder, so more ants and fewer very large ones. Closer to the
+  scattered styles in feel.
+- **`swarm`** / **`dense`** — the scattered family: mass rather than animals, four to eight
+  times the ant count, and a texture rather than a cast.
+- **`halftone`** and **`wild`** — kept only to show the far end. `halftone` is not found by a
+  real scanner despite the tool's decoder reading it; `wild` fails everything.
 
 ## Recommendation
 
-**`swarm` at ECC H.** Best picture of the three that cost nothing, the largest and
-best-spread correction budget left entirely intact for real-world damage, and the only
-version that carries the `https://` form of the tag without growing. It reads at every
-resolution tested on a real scanner.
+**`body-large-pile` at ECC L, or `body-bold` at ECC H.**
 
-Take `grid` instead if the symbol has to survive a photocopier, a fax-grade scan or printing
-at under about 25 mm, where less ink and a visible lattice are worth more than the picture.
-Take `dense` only if the mass is the point.
+Take **`body-large-pile` at ECC L** if the point is that a reader sees ants: 386 of them, up
+to 4.8 modules long, on the smallest symbol, so each animal is as large as it can be relative
+to the whole. It costs nothing and it reads.
+
+Take **`body-bold` at ECC H** if the symbol has to survive the world: the same drawing on the
+largest symbol, with the whole 112-codeword budget spread over eight blocks left intact for
+scuffs, folds and bad angles — and version 10 is the only one that carries the `https://`
+form of the tag without changing size.
+
+Take **`swarm` at ECC H** instead only if the mass, rather than the individual animal, is
+what the picture is for. It was the recommendation before the posed styles existed and it is
+still the best of the scattered family.
+
+## What the second pass changed
+
+The posed styles were added after the scattered ones, and building them found a mistake in
+the first set's measurements worth recording. The fitter placed ants whose *whole cell* ink
+stayed under budget but whose legs ran straight through a light module's **centre** — the
+one point a scanner actually samples. Every one of those was a lost module the cell-mean
+constraint could not see.
+
+Enforcing both constraints together fixed the posed styles and improved the scattered ones
+at the same time: `bold` and `bolder` went from spending half the correction budget to
+spending none, and from unreliable to reading. The first set's headline — that three styles
+are free and everything past them fails — was **too pessimistic**, and the corrected table
+above replaces it. The claim that survives is narrower and still worth holding onto: what
+constrains an ant QR code is not the error-correction budget but where the ink lands
+relative to the module grid, at two different scales at once.
 
 ## How ink is made
 
@@ -162,3 +235,8 @@ Two registers, both available:
 3. **Whether photographic ants are wanted at all**, and if so their sourcing and licence.
 4. **Where a generated symbol is stored.** Nothing is committed yet; `qrant.py` writes where
    it is told and no build step calls it.
+5. **Whether the posed ant needs its own review as a drawing.** The fitter bends joints
+   within a range this document set by eye — 38 degrees at the gaster, 32 at the head, 62 and
+   75 at the leg joints, 55 at the antennae. Those are plausible rather than researched, and
+   at a few hundred ants per symbol a wrong range is a hundred wrong animals. Someone who
+   knows what an ant can do should look at a rendered sheet before this goes on a cover.

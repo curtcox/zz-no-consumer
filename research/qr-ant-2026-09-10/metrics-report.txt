@@ -1,45 +1,65 @@
 payload 103 bytes, byte mode
 
-style     ecc ver    size   ants  fit  bad  cam  find  spent worst  dark  light  peak   ink  reads  blur
---------------------------------------------------------------------------------------------------------
-plain       L   5    37sq      0100%    0    0   3/3    0%    0%  1.00   0.00  0.00  33%    yes   yes
-grid        L   5    37sq    757100%    0    0   3/3    0%    0%  0.66   0.06  0.22  24%    yes   yes
-swarm       L   5    37sq   1852 86%    0    5   3/3    0%    0%  0.78   0.11  0.22  30%    yes   yes
-dense       L   5    37sq   3407 73%    1   10   3/3    8%    8%  0.85   0.13  0.22  33%    yes   yes
-bold        L   5    37sq   1884 68%   34   53   3/3  108%  108%  0.84   0.19  0.35  35%     NO    NO
-bolder      L   5    37sq   1858 60%  124  130   3/3  108%  108%  0.87   0.28  0.50  40%     NO    NO
-halftone    L   5    37sq   2439 56%  304  281   3/3  108%  108%  0.79   0.35  0.50  39%     NO    NO
-wild        L   5    37sq   1186 72%  468  424   3/3  108%  108%  0.93   0.59  1.00  54%     NO    NO
-plain       M   6    41sq      0100%    0    0   3/3    0%    0%  1.00   0.00  0.00  35%    yes   yes
-grid        M   6    41sq    953100%    0    0   3/3    0%    0%  0.64   0.07  0.22  25%    yes   yes
-swarm       M   6    41sq   2383 87%    0    8   3/3    0%    0%  0.77   0.12  0.22  32%    yes   yes
-dense       M   6    41sq   4426 74%    1   12   3/3    3%   12%  0.84   0.14  0.22  36%    yes   yes
-bold        M   6    41sq   2508 71%   35   66   3/3   94%  112%  0.84   0.21  0.35  38%     NO   yes
-bolder      M   6    41sq   2578 66%  159  158   3/3  112%  112%  0.88   0.30  0.50  43%     NO    NO
-halftone    M   6    41sq   3220 61%  394  406   3/3  112%  112%  0.78   0.37  0.50  41%     NO    NO
-wild        M   6    41sq   1636 77%  557  513   3/3  112%  112%  0.94   0.61  1.00  57%     NO    NO
-plain       Q   8    49sq      0100%    0    0   3/3    0%    0%  1.00   0.00  0.00  39%    yes   yes
-grid        Q   8    49sq   1413100%    0    0   3/3    0%    0%  0.65   0.07  0.22  28%    yes   yes
-swarm       Q   8    49sq   3573 88%    0    9   3/3    0%    0%  0.77   0.12  0.22  35%    yes   yes
-dense       Q   8    49sq   6688 75%    4   17   3/3    6%   18%  0.85   0.15  0.22  39%    yes   yes
-bold        Q   8    49sq   3731 71%   52   73   3/3   73%  100%  0.84   0.22  0.35  42%     NO   yes
-bolder      Q   8    49sq   3777 64%  226  208   3/3  109%  109%  0.88   0.32  0.50  47%     NO    NO
-halftone    Q   8    49sq   4562 61%  517  500   3/3  109%  109%  0.79   0.38  0.50  45%     NO    NO
-wild        Q   8    49sq   2524 80%  815  738   3/3  109%  109%  0.95   0.66  1.00  62%     NO    NO
-plain       H  10    57sq      0100%    0    0   3/3    0%    0%  1.00   0.00  0.00  39%    yes   yes
-grid        H  10    57sq   1873100%    0    5   3/3    0%    0%  0.62   0.08  0.22  27%    yes   yes
-swarm       H  10    57sq   4760 88%    0   15   3/3    0%    0%  0.75   0.13  0.22  35%    yes   yes
-dense       H  10    57sq   8799 75%    3   18   3/3    3%    7%  0.83   0.15  0.22  39%    yes   yes
-bold        H  10    57sq   5006 72%   63  105   3/3   54%   86%  0.83   0.22  0.35  42%     NO   yes
-bolder      H  10    57sq   5009 65%  316  289   3/3  107%  107%  0.87   0.33  0.50  48%     NO    NO
-halftone    H  10    57sq   6334 62%  744  725   3/3  107%  107%  0.77   0.39  0.50  46%     NO    NO
-wild        H  10    57sq   3468 83% 1197 1081   3/3  107%  107%  0.95   0.69  1.00  65%     NO    NO
+style     ecc ver    size   ants  fit  mean  max  bad  cam  find  spent worst  light  peak   ink  reads  blur
+-------------------------------------------------------------------------------------------------------------
+plain       L   5    37sq      0100%   0.0  0.0    0    0   3/3    0%    0%   0.00  0.00  33%    yes   yes
+grid        L   5    37sq    758100%   1.3  1.6    0    0   3/3    0%    0%   0.07  0.22  24%    yes   yes
+swarm       L   5    37sq   1845 86%   1.2  2.2    0    5   3/3    0%    0%   0.11  0.22  30%    yes   yes
+dense       L   5    37sq   3397 73%   1.1  2.6    0    9   3/3    0%    0%   0.13  0.22  33%    yes   yes
+bold        L   5    37sq   1907 69%   1.4  3.0    0   27   3/3    0%    0%   0.19  0.35  35%     NO   yes
+bolder      L   5    37sq   1961 64%   1.6  3.4    0   32   3/3    0%    0%   0.28  0.50  40%     NO    NO
+halftone    L   5    37sq   2321 55%   1.2  2.4    0   38   3/3    0%    0%   0.32  0.50  38%     NO    NO
+body-mid    L   5    37sq    426 82%   1.8  4.0    0    5   3/3    0%    0%   0.07  0.22  27%    yes   yes
+body-large   L   5    37sq    407 91%   1.8  4.8    0    6   3/3    0%    0%   0.06  0.22  28%    yes   yes
+body-mid-pile   L   5    37sq    388 84%   1.9  4.0    0   14   3/3    0%    0%   0.07  0.22  29%     NO   yes
+body-large-pile   L   5    37sq    386 94%   1.9  4.8    0    4   3/3    0%    0%   0.06  0.22  28%    yes   yes
+body-bold   L   5    37sq    363 96%   2.0  4.8    0    5   3/3    0%    0%   0.06  0.39  28%    yes   yes
+wild        L   5    37sq   1093 66%   2.1  4.0   51   88   3/3  108%  108%   0.34  0.92  42%     NO    NO
+plain       M   6    41sq      0100%   0.0  0.0    0    0   3/3    0%    0%   0.00  0.00  35%    yes   yes
+grid        M   6    41sq    952100%   1.4  1.6    0    0   3/3    0%    0%   0.07  0.22  25%    yes   yes
+swarm       M   6    41sq   2377 87%   1.2  2.2    0    8   3/3    0%    0%   0.12  0.22  32%    yes   yes
+dense       M   6    41sq   4425 74%   1.2  2.6    0   12   3/3    0%    0%   0.14  0.22  36%    yes   yes
+bold        M   6    41sq   2515 71%   1.4  3.0    0   44   3/3    0%    0%   0.21  0.35  38%     NO   yes
+bolder      M   6    41sq   2657 68%   1.6  3.4    0   35   3/3    0%    0%   0.29  0.50  43%     NO   yes
+halftone    M   6    41sq   3053 58%   1.2  2.4    0   80   3/3    0%    0%   0.33  0.50  40%     NO    NO
+body-mid    M   6    41sq    560 83%   1.7  3.4    0   13   3/3    0%    0%   0.08  0.22  27%    yes   yes
+body-large   M   6    41sq    552 90%   1.8  3.9    0   17   3/3    0%    0%   0.08  0.22  27%     NO   yes
+body-mid-pile   M   6    41sq    528 80%   1.8  3.4    0   11   3/3    0%    0%   0.08  0.22  28%    yes   yes
+body-large-pile   M   6    41sq    526 89%   1.8  3.9    0    8   3/3    0%    0%   0.07  0.22  28%    yes   yes
+body-bold   M   6    41sq    508 95%   1.9  4.8    0    7   3/3    0%    0%   0.08  0.40  28%    yes   yes
+wild        M   6    41sq   1511 71%   2.1  4.0   61  107   3/3  109%  112%   0.36  0.92  45%     NO    NO
+plain       Q   8    49sq      0100%   0.0  0.0    0    0   3/3    0%    0%   0.00  0.00  39%    yes   yes
+grid        Q   8    49sq   1409100%   1.4  1.6    0    0   3/3    0%    0%   0.08  0.22  28%    yes   yes
+swarm       Q   8    49sq   3564 88%   1.2  2.2    0    9   3/3    0%    0%   0.12  0.22  35%    yes   yes
+dense       Q   8    49sq   6695 75%   1.2  2.6    0   14   3/3    0%    0%   0.15  0.22  39%    yes   yes
+bold        Q   8    49sq   3762 72%   1.4  3.0    0   39   3/3    0%    0%   0.22  0.35  42%    yes   yes
+bolder      Q   8    49sq   3954 68%   1.6  3.4    0   38   3/3    0%    0%   0.31  0.50  47%    yes   yes
+halftone    Q   8    49sq   4393 59%   1.2  2.4    0   76   3/3    0%    0%   0.35  0.50  44%     NO    NO
+body-mid    Q   8    49sq    910 79%   1.7  4.0    0   22   3/3    0%    0%   0.09  0.22  31%    yes   yes
+body-large   Q   8    49sq    786 92%   1.8  3.9    0   15   3/3    0%    0%   0.08  0.22  31%    yes   yes
+body-mid-pile   Q   8    49sq    807 79%   1.9  4.0    0   29   3/3    0%    0%   0.09  0.22  32%    yes   yes
+body-large-pile   Q   8    49sq    806 89%   1.9  3.9    0   22   3/3    0%    0%   0.09  0.22  32%    yes   yes
+body-bold   Q   8    49sq    753 96%   1.9  4.8    0   15   3/3    0%    0%   0.09  0.40  32%    yes   yes
+wild        Q   8    49sq   2343 74%   2.1  4.0   85  117   3/3   94%  109%   0.40  0.94  50%     NO    NO
+plain       H  10    57sq      0100%   0.0  0.0    0    0   3/3    0%    0%   0.00  0.00  39%    yes   yes
+grid        H  10    57sq   1869100%   1.4  1.6    0    5   3/3    0%    0%   0.08  0.22  28%    yes   yes
+swarm       H  10    57sq   4744 88%   1.2  2.2    0   17   3/3    0%    0%   0.13  0.22  35%    yes   yes
+dense       H  10    57sq   8782 75%   1.2  2.6    0   15   3/3    0%    0%   0.15  0.22  39%    yes   yes
+bold        H  10    57sq   5058 73%   1.4  3.0    0   59   3/3    0%    0%   0.22  0.35  42%    yes   yes
+bolder      H  10    57sq   5252 69%   1.6  3.4    0   70   3/3    0%    0%   0.33  0.50  48%    yes   yes
+halftone    H  10    57sq   6039 60%   1.2  2.4    0  106   3/3    0%    0%   0.36  0.50  46%    yes    NO
+body-mid    H  10    57sq   1172 78%   1.7  4.0    0   30   3/3    0%    0%   0.08  0.22  30%    yes   yes
+body-large   H  10    57sq   1066 92%   1.9  3.9    0   36   3/3    0%    0%   0.08  0.22  30%    yes   yes
+body-mid-pile   H  10    57sq   1072 80%   1.9  4.0    0   50   3/3    0%    0%   0.10  0.22  31%    yes   yes
+body-large-pile   H  10    57sq   1018 93%   1.9  3.9    0   40   3/3    0%    0%   0.08  0.22  31%    yes   yes
+body-bold   H  10    57sq    991 96%   1.9  6.0    0   14   3/3    0%    0%   0.08  0.40  31%    yes   yes
+wild        H  10    57sq   3212 77%   2.1  4.0  111  176   3/3   71%   86%   0.42  0.95  52%     NO    NO
 
-ants: ants drawn.  fit: share of the ants offered that found room.
+ants: ants drawn.  fit: share offered that found room.  mean / max: ant length, in modules.
 bad: modules read wrong off the ideal coverage.  cam: the same through a local binariser.
 find: finder patterns a locator could still pick out; under 3 and nothing else matters.
 spent: share of the correction budget used; worst: the worst single block.
 dark / light: mean ink in a dark and in a light module's whole cell.  peak: the inkiest light cell.
 reads: passes locating, binarising and decoding.  blur: still does out of focus.
 
-wrote 64 files and metrics.tsv to /private/tmp/claude-501/-Users-curtcox-me-zz-no-consumer/e8b69683-e4ee-4a7c-8a7b-72988ed89d7a/scratchpad/opts
+wrote 104 files and metrics.tsv to /private/tmp/claude-501/-Users-curtcox-me-zz-no-consumer/e8b69683-e4ee-4a7c-8a7b-72988ed89d7a/scratchpad/opts2
