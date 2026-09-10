@@ -158,6 +158,7 @@ python3 scripts/panel_candidates.py plan
 python3 scripts/panel_candidates.py run
 python3 scripts/panel_candidates.py run --all
 python3 scripts/panel_candidates.py run --limit 10
+python3 scripts/panel_candidates.py run --all-panels --seed 2002
 python3 scripts/panel_candidates.py check
 ```
 
@@ -179,6 +180,22 @@ It finishes when the pending batch is exhausted, or stops on failure/interruptio
 `--provider` selects another configured local model; `--out-dir` selects
 another review directory. `plan` performs no generation or writes. `check` uses
 only disposable offline fixtures, with the model and generation log mocked.
+
+`plan` and `run` name any panel whose own description does not survive the model's
+text-encoder budget — the panel geometry, direction, exact text, register and the
+authored-ant convention, as opposed to the style blocks written to give way. The
+fix is a shorter panel direction; the tool reports the drop rather than hiding it.
+Prompts are composed once, before the first image, so editing a page script or a
+prompt file does not change a run already in progress.
+
+`--all-panels` widens the pass to every reader slot, including panels that already
+have a chosen refined/final image. It only adds candidates: nothing is deleted,
+overwritten, or promoted, and accepted art is left alone. The same-spec skip still
+applies, so a panel whose candidate for this seed, prompt, model, and dimensions is
+already saved stays skipped under `--all-panels` too; pass `--seed` for a new pass
+across every panel. The seed never changes on its own. `--all-panels` combines with
+`--limit`, `--all`, and `plan`; run `plan --all-panels` to see the batch and its
+estimate before committing to it.
 
 Runs are sequential and protected by a POSIX process lock per output directory
 (Mac/Linux). Coordinate runs using different directories to avoid competing for

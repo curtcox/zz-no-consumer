@@ -4,6 +4,8 @@
 plan is read-only; run saves one candidate per slot under 256t/panel-candidates.
 Re-running resumes the same prompt/model/seed; change --seed for a new pass.
 Use run --all for an overnight pass through every pending panel.
+Use --all-panels to include panels that already have accepted art; it only adds
+candidates, never deleting or replacing one.
 Candidates never enter reader selection automatically. No model is used by check.
 """
 from __future__ import annotations
@@ -24,6 +26,11 @@ import panelart
 import produce
 
 DEFAULT_OUT = produce.ROOT / '256t' / 'panel-candidates'
+
+# Ranks above this are the optional style blocks, which are written to give way.
+# Anything at or below it is the panel's own description; losing one is a defect,
+# not trimming, and an overnight run should say so before it draws hundreds.
+REQUIRED_RANK = 3
 
 
 def digest(data: bytes) -> str:
@@ -64,12 +71,22 @@ def completed(folder, spec) -> bool:
     return True
 
 
-def pending(slots, records, provider, seed, root):
+def pending(slots, records, provider, seed, root, include_accepted=False):
     for slot in slots:
-        if not accepted(slot, records):
+        if include_accepted or not accepted(slot, records):
             spec = request(slot, provider, seed)
             if not completed(destination(root, spec), spec):
                 yield slot, spec
+
+
+def squeezed(todo, provider):
+    """Panels whose description is too long to reach the model intact."""
+    for slot, _ in todo:
+        _, _, dropped = imagegen.compose_panel_fit(slot.page, slot.panel, slot.register,
+                                                   budget=provider.prompt_tokens)
+        names = [section.name for section in dropped if section.rank <= REQUIRED_RANK]
+        if names:
+            yield slot, names
 
 
 def generate_one(slot, spec, provider, root):
@@ -105,14 +122,22 @@ def generate_one(slot, spec, provider, root):
 
 def execute(args, provider, slots):
     records = panelart.load(refresh=True)
-    todo = list(pending(slots, records, provider, args.seed, args.out_dir))
+    todo = list(pending(slots, records, provider, args.seed, args.out_dir, args.all_panels))
     approved = sum(accepted(s, records) for s in slots)
-    print(f'{len(slots)} slots; {approved} accepted; '
-          f'{len(slots) - approved - len(todo)} candidates already saved; {len(todo)} pending.', flush=True)
+    eligible = len(slots) if args.all_panels else len(slots) - approved
+    print(f'{len(slots)} slots; {approved} accepted'
+          f'{" (included by --all-panels)" if args.all_panels else ""}; '
+          f'{eligible - len(todo)} candidates already saved; {len(todo)} pending.', flush=True)
     if args.limit:
         todo = todo[:args.limit]
     print(f'Model: {provider.id}; seed: {args.seed}; '
           f'this pass: {len(todo)}; estimate: {produce.human(len(todo) * provider.seconds_per_image)}', flush=True)
+    if args.all_panels and not todo:
+        print('Every panel already has a candidate for this seed, prompt, and model; '
+              'change --seed for another pass.', flush=True)
+    for slot, names in (squeezed(todo, provider) if provider.prompt_tokens else ()):
+        print(f"{slot.id}: {provider.prompt_tokens}-token prompt budget drops "
+              f"{', '.join(names)}; shorten the panel direction to send it.", flush=True)
     if args.command == 'plan':
         for slot, spec in todo:
             print(f"{slot.id}  {spec['size'][0]}x{spec['size'][1]}")
@@ -127,7 +152,8 @@ def execute(args, provider, slots):
             if stop.asked:
                 break
             # Respect acceptances made after planning, including during a long run.
-            if accepted(slot, panelart.load(refresh=True)):
+            # --all-panels asked for those panels too, so it keeps them.
+            if not args.all_panels and accepted(slot, panelart.load(refresh=True)):
                 continue
             print(f'[{index}/{len(todo)}] Generating {slot.id}...', flush=True)
             try:
@@ -181,11 +207,36 @@ def check():
             assert completed(folder, spec)
             with patch(__name__ + '.request', return_value=spec):
                 assert list(pending([slot], {}, provider, 42, root)) == []
+            section = imagegen.Section
+            with patch.object(imagegen, 'compose_panel_fit', return_value=(
+                    '', [], [section('register', 'x', 3), section('palette', 'y', 6)])):
+                # Only the panel's own description is worth a warning; style blocks give way.
+                assert [(s.id, n) for s, n in squeezed([(slot, spec)], provider)] == \
+                    [(slot.id, ['register'])]
+            with patch.object(imagegen, 'compose_panel_fit', return_value=('', [], [])):
+                assert list(squeezed([(slot, spec)], provider)) == []
+            chosen = {slot.id: [replace(variant, status='chosen', stage='final')]}
+            with patch(__name__ + '.request', return_value=dict(spec, seed=43)):
+                # An accepted panel is offered only when --all-panels asks for it.
+                assert list(pending([slot], chosen, provider, 43, root)) == []
+                assert [s.id for s, _ in pending([slot], chosen, provider, 43, root, True)] == [slot.id]
+            with patch(__name__ + '.request', return_value=spec):
+                # --all-panels still refuses to redraw a saved identical candidate.
+                assert list(pending([slot], chosen, provider, 42, root, True)) == []
             assert not completed(destination(root, dict(spec, seed=43)), dict(spec, seed=43))
             import contextlib
             import io
-            args = argparse.Namespace(command='run', seed=42, limit=1, out_dir=root)
+            args = argparse.Namespace(command='run', seed=42, limit=1, out_dir=root, all_panels=False)
             other = replace(slot, panel=2)
+            all_panels = argument_parser().parse_args(['run', '--all-panels', '--limit', '2'])
+            assert all_panels.all_panels and all_panels.limit == 2 and not all_panels.all
+            all_panels.out_dir = root
+            with patch.object(panelart, 'load', return_value=chosen), \
+                 patch(__name__ + '.request', return_value=spec), \
+                 patch(__name__ + '.generate_one', side_effect=AssertionError('must not redraw')), \
+                 contextlib.redirect_stdout(io.StringIO()):
+                # The accepted panel is eligible, but its saved candidate still wins.
+                assert execute(all_panels, provider, [slot]) == 0
             with patch.object(panelart, 'load', return_value={}), \
                  patch(__name__ + '.request', side_effect=lambda s, p, n: dict(spec, panel=s.id)), \
                  contextlib.redirect_stdout(io.StringIO()):
@@ -225,6 +276,18 @@ def check():
             assert drawn == [slot.id, other.id]
             progress = [call for call in printer.call_args_list if 'Generating' in str(call.args)]
             assert len(progress) == 2 and all(call.kwargs.get('flush') for call in progress)
+        # --all-panels draws the accepted panel too, and leaves saved candidates alone.
+        saved = sorted(path.name for path in (root / slot.id).iterdir())
+        receipts = {path: path.read_bytes() for path in (root / slot.id).rglob('receipt.json')}
+        drawn.clear()
+        with patch.object(panelart, 'load', return_value=chosen), \
+             patch(__name__ + '.request', side_effect=lambda s, p, n: dict(spec, panel=s.id, seed=n)), \
+             patch(__name__ + '.generate_one', side_effect=fake_generate), \
+             contextlib.redirect_stdout(output):
+            assert execute(all_panels, provider, [slot, other]) == 0
+        assert drawn == [slot.id, other.id]
+        assert sorted(path.name for path in (root / slot.id).iterdir()) == saved
+        assert all(path.read_bytes() == body for path, body in receipts.items())
         with contextlib.redirect_stderr(io.StringIO()):
             try:
                 argument_parser().parse_args(['run', '--all', '--limit', '10'])
@@ -241,6 +304,11 @@ def argument_parser():
     parser.add_argument('command', choices=('plan', 'run', 'check'))
     parser.add_argument('--provider', default='flux2-klein-4b', help='local model from local-models.json')
     parser.add_argument('--seed', type=int, default=produce.DEFAULT_SEED)
+    parser.add_argument('--all-panels', action='store_true',
+                        help='also offer panels that already have accepted art; adds new '
+                             'candidates only, never deleting or replacing one. A panel whose '
+                             'candidate for this seed, prompt, and model is already saved stays '
+                             'skipped, so pass --seed for another pass over every panel')
     batch = parser.add_mutually_exclusive_group()
     batch.add_argument('--limit', type=int, help='maximum pending panels in this invocation')
     batch.add_argument('--all', action='store_true',

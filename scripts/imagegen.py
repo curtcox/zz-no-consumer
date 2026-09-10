@@ -462,9 +462,16 @@ def prompt_sections(page: str, panel: int, register: str) -> list[Section]:
     material is atmosphere, and output discipline mostly restates what compact
     composition already says, so both give way first.
 
-    At 512 tokens all of that fits: the first five sections reach every panel
-    and composition reaches all but two, which are the book's two longest
-    directions and state their own composition rules inline.
+    At 512 tokens the ranking is doing real work rather than describing a fit.
+    Geometry, the direction, its exact text and the rendering target reach every
+    panel, and so does the ant convention wherever a direction asks for ants.
+    Composition and the palette fall back to their compact forms, or drop, as
+    directions lengthen. A direction long enough also costs its panel the
+    register clause: 114-01 carries both the ant convention and the book's
+    longest direction, and loses it. Nothing but a shorter direction gets it
+    back, so the drop is reported rather than hidden — `produce.py` prints the
+    budget line for the first panel of a run, and `panel_candidates.py` names
+    every panel that loses a section ranked ahead of the optional style blocks.
 
     Sections offering a `(compact)` heading fall back to it rather than dropping
     out entirely, which is how composition survives a 512-token budget at all.
