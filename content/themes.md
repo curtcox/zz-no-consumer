@@ -317,7 +317,9 @@ Everyone learns. Everyone continues.
 
 The two hills name the incidents this book examines. A record can be detailed about those
 incidents while leaving the number of unobserved incidents unknown. The title asks about
-that limit; it does not establish additional incidents or a hidden population size.
+that limit; it does not establish additional incidents or a total for the unseen ones.
+The agent populations inside the examined incidents are a separate question with a record of
+their own; the title neither supplies that scale nor limits it.
 
 The plot already separates report, stored artifact and event. The new title makes their
 uneven availability explicit in the appendix and tests the metaphor in the publication

@@ -493,6 +493,10 @@ These are proposals. Each names where it lands.
 - **Density is nonquantitative composition.** It is neither a count, a confidence scale,
   nor a suspense meter. Any future quantitative treatment requires a named unit, time window
   and explicit visual mapping. The initial pilot uses a small fixed decorative pose set.
+  **Revisited 10 September 2026:** the fixed set makes the marginal count legible, which is
+  itself quantitative. [Ant density](ant-density.md) proposes an area-derived marginal
+  population instead. The kitchen restriction below is unaffected: it governs the in-picture
+  creator register, and the desk keeps its two.
 - **Scale discipline.** A 60-unit gutter on a 2800-unit page is about 19 px at a 900 px
   render. Ants at that scale read as marks; anything larger reads as illustration. Test the
   smallest supported render before choosing a pose set.

@@ -229,6 +229,14 @@ The title FAQ and the publication-relative creator beat disclose the convention.
 - Ant density is nonquantitative composition. It measures neither runs, messages, traffic,
   confidence nor suspense. A future quantitative treatment requires a named unit and an
   explicit mapping before it is used.
+- Marginal density is derived from the open page area outside the panels, by one rule that is
+  the same on every page. It is never tuned page by page: a page carrying more or fewer marks
+  than its own ground allows would make density carry editorial signal, which is the reading
+  the rule above forbids. A page therefore carries the layer or does not carry it. What the
+  marks draw is the documented scale of the populations the book already letters — continuous
+  entry and exit in the canonical population model, and the corpus figures on [page 075](pages/075.md) — and
+  never a quantity of incidents. The hills are the incidents, and how many exist is the
+  question the title leaves open. State no total, for either, anywhere.
 - No trail joins the incidents or carries knowledge between viewpoints. Blank space means
   the book cannot establish a connection or its absence. Do not draw turning-back routes
   that imply a barrier, or exits that assert unseen activity continues to another site.
@@ -237,7 +245,10 @@ The title FAQ and the publication-relative creator beat disclose the convention.
   wipe on pages [029](pages/029.md)–[032](pages/032.md), or re-fogs on pages [039](pages/039.md), [063](pages/063.md), [083](pages/083.md) and [086](pages/086.md).
 - Flat ants use the existing ink token. Moss is permitted only where the existing palette
   already establishes propagation. Ants never reveal fog, resolve a proposition, or change
-  an observer’s knowledge. [Page 118](pages/118.md) keeps its deliberate map absence.
+  an observer’s knowledge. The page fog may lie over the ant layer and obscure it; being
+  occluded is not an epistemic act by either layer, and the page fog stays authored texture
+  that reveals nothing and is not the knowledge map. [Page 118](pages/118.md) keeps its
+  deliberate map absence.
 - Start static. On-paper art is decorative, hidden from assistive technology and incapable
   of intercepting controls. Meaningful map relationships have text alternatives. A layout
   without registered panel coordinates gets no inter-panel overlay.

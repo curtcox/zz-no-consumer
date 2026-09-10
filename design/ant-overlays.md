@@ -84,6 +84,8 @@ trim and 360 px. Inspect transparency on both paper and ink backgrounds. Confirm
 - Marginal ants read as flat authored marks, and no marks cross evidence, lettering, faces,
   provenance or prohibited diagram fields.
 - Reused poses do not create a persistent character, a count, or an apparent causal route.
+  The pilot's fixed 5 + 3 fixture fails this criterion; an area-derived replacement is
+  proposed in [ant density](ant-density.md).
 - Removing the layer does not remove incident evidence or leave an unexplained hole in the
   base. The physical appearance still makes clear that this is authored interpretation.
 - Exported SVG/raster composites match the reviewed layer order; no reader interaction is

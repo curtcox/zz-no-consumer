@@ -74,6 +74,8 @@ cannot return to generation. Replacement preparation needs review of their exist
 ## Remaining decisions and work
 
 - Review the cover and pilot before whole-book ant placements or raster regeneration.
+- Decide the marginal density model, the fog-occlusion option and the visual-bible amendment
+  they need, per [ant density](ant-density.md).
 - Define the wiki-specific proposition/viewpoint model before adopting fog-map hills in
   the story. Existing Artifactory viewpoints are not relabelled as the second incident.
 - The novella-wide metaphor treatment remains deferred by the owner.

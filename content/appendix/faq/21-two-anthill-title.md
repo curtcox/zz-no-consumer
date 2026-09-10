@@ -29,13 +29,16 @@ incidents by virtue of the title.
 ## The long answer
 
 The ant convention has two registers: an ant within a picture takes its lighting and
-surfaces; an ant in a margin is a mark on the paper. Both are authored figures. Neither
-reports insects in a documented room, and an ant does not stand for a particular run.
+surfaces; the margins carry a ground of flat marks on the paper. Both are authored figures.
+Neither reports insects in a documented room, and an ant does not stand for a particular run.
 There is no queen or persistent ant character. The hills have no drawn interior.
 
 The proposed fog-map hills retain their viewpoint labels and evidence boundaries. The
 empty space between them establishes neither contact nor isolation. Ant density is not a
-count or confidence scale. The metaphor is tested in the creator’s publication scene on
+count or confidence scale. The marginal ground follows from the open area of each page, by
+one rule used everywhere; it draws the scale the reports themselves describe and never a
+number of incidents. How many incidents went unseen is the question the title leaves open.
+The metaphor is tested in the creator’s publication scene on
 [page 114](../../novella/07-epilogue/114.md); the final map absence on [page 118](../../novella/07-epilogue/118.md) remains deliberate.
 
 *Stigmergy* offers a useful comparison: actions leave changes in a shared environment,
