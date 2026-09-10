@@ -241,13 +241,16 @@ page number. `--port 8765`, `--host 127.0.0.1`, and `--page 39` override the def
 (all IPv4 interfaces, port 8000, page 001). Stop with Ctrl-C.
 
 `viewer_overlays.py` holds the four shared preview layers that selector drives: panel art,
-lettering, ants, and a fog of war — pictograms on the margins and gutters under a veil
-computed per page from the panel rectangles. It reads authored ant geometry from scenes and
-`anthill_study.py`, borrows the pictogram vocabulary of `knowledge_maps_fog.py` without its
-family meaning, invents no placement of its own, and writes nothing. A layer is withheld
-only where it is separable; a stored image that cannot give one up is marked instead. Every
-pictogram keeps clear of every panel, and the fog is authored texture, never an
-evidence-state model.
+lettering, ants, and a fog of war — hillshaded relief with draped pictograms on the margins
+and gutters, under a veil computed per page from the panel rectangles. It reads authored ant
+geometry from scenes and `anthill_study.py`, rebuilds the fog with the terrain, drape and
+veil constants of `knowledge_maps_fog.py` in that module's own units, borrows its pictogram
+vocabulary without its family meaning, invents no placement of its own, and writes nothing.
+A layer is withheld only where it is separable; a stored image that cannot give one up is
+marked instead. Every pictogram keeps clear of every panel with room for the drape, open
+ground never thins past what a panel keeps, and the fog is authored texture, never an
+evidence-state model. A page's ground is a raster: it takes a second or two, and
+`FOG_CACHED_PAGES` rendered pages are kept so the displays on one spread share the work.
 
 `python3 scripts/local_viewer.py check` runs offline HTTP and rendering regression
 checks with a temporary loopback server. It needs permission to bind a local socket.

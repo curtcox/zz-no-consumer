@@ -199,18 +199,36 @@ def check_overlays(session, request, stream, event, overlays):
     rects = panel_layout.rectangles(record.panel_count)
     fog = request(f'/overlay/fog/{page:03d}.svg')[1]
     assert fog == request(f'/overlay/fog/{page:03d}.svg')[1]
-    assert b'not a map of the wiki' in fog and b'data:image/png;base64,' in fog
+    assert b'not a map of the wiki' in fog and fog.count(b'data:image/png;base64,') == 2
     ElementTree.fromstring(fog)
     ElementTree.fromstring(request(f'/overlay/ants/{page:03d}.svg')[1])
-    width, height, rows = overlays.veil_rows(page, record.panel_count)
-    assert (width, height) == tuple(v // overlays.FOG_CELL for v in panel_layout.load()['page'])
+    ground = overlays.PageGround(page, record.panel_count)
+    cell = overlays.FOG_CELL
+    assert (ground.gw, ground.gh) == tuple(v // cell for v in panel_layout.load()['page'])
     x, y, w, h = rects[0]
-    inside = rows[(y + h // 2) // overlays.FOG_CELL][(x + w // 2) // overlays.FOG_CELL]
-    ground = [rows[j][i] for j in range(height) for i in range(width)
-              if all(overlays.rect_distance((i + 0.5) * overlays.FOG_CELL, (j + 0.5) * overlays.FOG_CELL, rect)
-                     > overlays.FOG_FEATHER + overlays.FOG_DRIFT for rect in rects)]
-    assert inside > max(ground), 'A panel must read more clearly than any fogged ground'
-    assert max(ground) - min(ground) > 40, 'Fog that never thins can reveal nothing lying under it'
+    covered = ground.veil[(y + h // 2) // cell][(x + w // 2) // cell]
+    assert covered == round(overlays.CLEARED * 255), 'A panel keeps the thinnest veil on the page'
+    beyond = overlays.FOG_FEATHER + overlays.FOG_DRIFT
+    open_ground = [(ground.veil[j][i], ground.ground[j][i])
+                   for j in range(0, ground.gh, 3) for i in range(0, ground.gw, 3)
+                   if ground.between(ground.near, (i + 0.5) * cell, (j + 0.5) * cell) > beyond]
+    veils = [veil for veil, _ in open_ground]
+    assert min(veils) >= covered, 'No invented ground may read more clearly than the artwork'
+    assert max(veils) - min(veils) > 120, 'Fog that never thins can reveal nothing lying under it'
+    relief = sorted(lit for _, lit in open_ground)
+    assert relief[-len(relief) // 20] - relief[len(relief) // 20] > 40, 'The ground under the fog must be lit'
+    # Drape pulls a form across the relief, and is bounded so it cannot pull one
+    # off its own ground: every point actually drawn stays clear of every panel.
+    for step, place in ((137, ground.width), (149, ground.height)):
+        for other in range(0, place, step):
+            assert math.hypot(*ground.drape(other % ground.width, other % ground.height)) <= overlays.DRAPE_LIMIT + 1e-6
+    drawn = [tuple(float(v) for v in point.split(','))
+             for path in re.findall(rb'\sd="([^"]+)"', fog)
+             for point in path.decode().replace('M', ' ').replace('L', ' ').split()]
+    assert len(drawn) > 200, 'No pictograms were drawn on the ground'
+    for gx, gy in drawn:
+        assert all(overlays.rect_distance(gx, gy, rect) >= overlays.GLYPH_CLEAR for rect in rects), (gx, gy)
+        assert 0 <= gx <= ground.width and 0 <= gy <= ground.height, (gx, gy)
 
     # Pictograms lie on that ground and nowhere else, in borrowed forms that
     # carry none of the knowledge map's meaning onto a page.
@@ -227,7 +245,7 @@ def check_overlays(session, request, stream, event, overlays):
         assert len(placed) >= 12 and len({kind for kind, *_ in placed}) >= 12, count
         assert {kind for kind, *_ in placed} <= set(overlays.glyph_forms()), count
         for kind, gx, gy, scale, _ in placed:
-            held = overlays.GLYPH_RADIUS * scale
+            held = overlays.GLYPH_RADIUS * scale + overlays.DRAPE_LIMIT
             assert held < gx < page_w - held and held < gy < page_h - held, (count, kind)
             assert all(overlays.rect_distance(gx, gy, rect) >= held for rect in shapes), (count, kind)
         for index, (kind, gx, gy, *_) in enumerate(placed):

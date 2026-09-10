@@ -589,15 +589,22 @@ at with any of its contributions withheld:
 - **Ants** — the authored ant figures: the `ant` nodes inside a scene, and the marginal
   route `scripts/anthill_study.py` places on the pages listed in `data/anthill-study.json`.
   The viewer invents no placement of its own, so a page excluded there stays excluded.
-- **Fog of war** — drawn the way the fog-of-war knowledge-map studies draw it: pictograms
-  lying on the page's margins and gutters, and a veil computed per page from the panel
-  rectangles that thins in patches, so a form reads anywhere from plain to invisible. The
-  forms come from `scripts/knowledge_maps_fog.py` but carry none of its meaning here — a
-  page has no propositions and no observation islands, so they are drawn from the whole
-  vocabulary ungrouped, and every form keeps its whole reach clear of every panel, so the
-  layer crosses no artwork, lettering, evidence field or provenance slate. It is authored
-  preview texture: not a map of the wiki, not a measure of what any observer knows, and it
-  reveals nothing.
+- **Fog of war** — the construction of the [fog-of-war knowledge-map studies](assets/knowledge-maps/fog-v1/),
+  on a page instead of a map: a seeded heightfield hillshaded from the upper left, many
+  pictograms scattered over the margins and gutters and draped so their outlines take the
+  shape of the ground beneath them, and a veil computed from the panel rectangles that thins
+  in patches, so a form is obscured and revealed by the fog rather than sitting on it.
+  Everything below the sampling grid is quoted in that generator's units and left at its
+  values. The forms are its vocabulary and carry none of its meaning here — a page has no
+  propositions and no observation islands, so they are drawn from the whole set ungrouped,
+  and every form keeps its whole reach, drape included, clear of every panel, so the layer
+  crosses no artwork, lettering, evidence field or provenance slate. Two departures a page
+  requires: the relief is drawn only outside the panels, because a page's cleared ground is
+  the book and not terrain, and open ground thins to exactly what a panel keeps, so the
+  layer never outshines the artwork. It is authored preview texture: not a map of the wiki,
+  not a measure of what any observer knows, and it reveals nothing. A page's ground is a
+  raster and takes a second or two to draw; a rendered page is kept, so the displays looking
+  at one spread share the work.
 
 A layer can only be withheld where the geometry is still separable. A panel whose current
 art is exactly its scene's render can give up its ants, because the render can be repeated
