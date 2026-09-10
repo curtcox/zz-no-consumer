@@ -172,6 +172,9 @@ python3 -m unittest discover -s scripts -p test_knowledge_map_finish.py && \
 python3 scripts/storyboards.py check --complete && \
 python3 scripts/art_jobs.py check && \
 python3 scripts/image_crop.py check && \
+python3 scripts/rasterize.py check && \
+python3 scripts/qr_core.py check && \
+python3 scripts/qrant.py check && \
 python3 scripts/letterpress.py audit && \
 python3 scripts/pagination.py check && \
 python3 scripts/panels.py check && \

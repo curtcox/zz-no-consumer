@@ -642,6 +642,49 @@ It reads the book structure at startup; restart after inserting or moving pages 
 changing artwork selections. Text and image content are rendered from local files;
 no site build, model, API key, download, or extra Python dependency is needed.
 
+## QR codes drawn in ants
+
+`scripts/qrant.py` turns a payload into a QR symbol whose dark half is ant bodies. The ants
+come from `assets.ant` in `data/storyboard-assets.json` — the same animal the pages draw —
+or from PNG photographs supplied with `--photos DIR`.
+
+```bash
+python3 scripts/qrant.py styles
+python3 scripts/qrant.py report --text-file tag.txt --style all --ecc all
+python3 scripts/qrant.py render --text-file tag.txt --style swarm --ecc H --out qr.svg
+python3 scripts/qrant.py options --text-file tag.txt --style all --ecc all --out 256t/qr
+```
+
+`report` measures without writing. `render` writes one symbol; the extension chooses SVG or
+PNG. `options` writes every style at every error-correction level, plus a `metrics.tsv`.
+Placement is seeded from the payload, so the same tag always draws the same ants.
+
+The tool exists for the measurement rather than the picture. Drawing with ants costs error
+correction: an ant is dark along its body and bare between its legs, so modules read wrong,
+the Reed-Solomon blocks spend budget fixing them, and past some point the symbol stops
+scanning. Every style is therefore rasterised, put through a local binariser the way a
+camera would, scanned for its three finder patterns, and decoded — and reported as the
+share of the correction budget it spent.
+
+Three styles cost nothing measurable and read on a real scanner at every resolution tried:
+`grid` (one ant per dark module, most legible as individual ants), `swarm` (an off-lattice
+scatter, the best picture) and `dense` (as many ants as the constraint accepts). Everything
+past them fails, and there is no middle — the binding constraint is how much ink a light
+module's cell can hold before a camera's local threshold moves, and it is met or it is not.
+The options table, the recommendation and the reasoning are in
+[QR codes drawn in ants](design/qr-ant-codes.md).
+
+The measurements are calibrated against the system scanner, and that comparison is recorded
+in [the scanner comparison](research/qr-ant-2026-09-10/README.md) — including two codec bugs
+that a round trip through this repository's own encoder and decoder could not catch, because
+the decoder made the same mistake as the encoder. `qr_core.py` now pins a symbol generated
+elsewhere and checks against it on every run.
+
+A symbol from this tool is apparatus — a cover, a colophon, a card — and never page art. A
+QR lattice is a countable grid of ants, which is the one thing the ant convention in
+`content/visual-bible.md` forbids. Nothing in the build calls `qrant.py`, and no symbol is
+committed; no ant photographs are in the repository.
+
 ## Image cropping
 
 Remove unwanted margins, frames, or edge captions from an existing generated image

@@ -80,6 +80,9 @@ establish current status.
 | `validate-site-links.py` | every local HTML and EPUB link target and fragment exists; Markdown downloads have explicit fragment anchors; anchors are unique; includes offline regression fixtures. Run after building; `--out PATH` selects another build tree. External URLs are not fetched. |
 | `validate-knowledge-map-gallery.py` | the published gallery, without rebuilding any assets |
 | `pagelinks.py check --built` | every page reference in `docs/` — HTML, Markdown, and the EPUB — is a link a reader can follow |
+| `rasterize.py check` | rasterised areas against their analytic values, local binarisation, and PNG round trips |
+| `qr_core.py check` | the QR codec against a symbol it did not make, and damage inside and past the correction budget |
+| `qrant.py check` | that every drawing style leaves the finder patterns alone, that the free styles cost nothing, and that placement is deterministic |
 
 CI also runs `python3 -m unittest discover -s scripts -p 'test_knowledge_map_*.py'`, which
 covers `test_knowledge_map_local.py` and `test_knowledge_map_finish.py` — the offline
@@ -220,6 +223,35 @@ These cost money or hours. None of them run in CI.
 no run can destroy an earlier attempt. Runs are built to be interrupted: Ctrl-C stops after
 the current panel, and re-running continues where it stopped.
 
+## QR codes drawn in ants
+
+`python3 scripts/qrant.py` turns a payload — a 256t content tag, about 103 bytes — into a QR
+symbol whose dark half is ant bodies, taken from the same `assets.ant` the pages draw.
+
+```bash
+python3 scripts/qrant.py styles                          # what the drawing styles are
+python3 scripts/qrant.py report --text-file tag.txt --style all --ecc all
+python3 scripts/qrant.py render --text-file tag.txt --style swarm --ecc H --out qr.svg
+python3 scripts/qrant.py options --text-file tag.txt --style all --ecc all --out 256t/qr
+```
+
+`report` measures without writing; `render` writes one symbol as `.svg` or `.png`; `options`
+writes every combination plus a `metrics.tsv`. `--photos DIR` uses PNG photographs of ants as
+ink instead of the vector one; no photographs are in the repository.
+
+The point of the tool is the measurement. Drawing with ants costs error correction, so every
+style is rasterised, binarised the way a camera binarises, scanned for its finder patterns
+and decoded, and reported as the share of the Reed-Solomon budget it spent. `grid`, `swarm`
+and `dense` cost nothing measurable; everything past them fails. The options, the
+recommendation and the reason there is no middle are in
+[QR codes drawn in ants](../design/qr-ant-codes.md); the comparison against a real scanner,
+including two codec bugs a round trip could not catch, is in
+[the scanner comparison](../research/qr-ant-2026-09-10/README.md).
+
+A symbol from this tool is apparatus — a cover, a colophon, a card. It is never page art:
+a QR lattice is a countable grid of ants and cannot satisfy the non-quantitative ant
+convention. Nothing calls `qrant.py` from the build, and no symbol is committed.
+
 ## The source vault
 
 `sync-256t.py` (`sync` `check` `status` `import`) maintains private local snapshots of tracked
@@ -242,6 +274,9 @@ Six modules carry the shared models, and the rest import them rather than re-der
 - **`storyboards.py`** — structured scene previews and explicit manual lettering placements. Imported by the builder, lettering, and identity tools.
 - **`textimage.py`** — the pure-Python text-into-image primitive. Imported by everything that
   draws.
+- **`rasterize.py`** — coverage grids, shape rasterisation, local binarisation, and PNG in
+  and out. Imported by `qrant.py`. It is the pixel layer: the place anything that has to be
+  *measured* rather than only drawn gets turned into pixels first.
 
 `art_jobs.py` composes these existing modules rather than parsing panel scripts or
 inventing a separate reader selection policy. Its PNG validation and operational

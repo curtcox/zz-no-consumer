@@ -74,6 +74,12 @@ jobs:
       - name: Check offline image cropping and source preservation
         run: python scripts/image_crop.py check
 
+      - name: Check rasterisation and the ant QR codec
+        run: |
+          python scripts/rasterize.py check
+          python scripts/qr_core.py check
+          python scripts/qrant.py check
+
       - name: Check effective reader lettering
         run: python scripts/letterpress.py audit
 

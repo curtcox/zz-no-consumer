@@ -1,0 +1,45 @@
+payload 103 bytes, byte mode
+
+style     ecc ver    size   ants  fit  bad  cam  find  spent worst  dark  light  peak   ink  reads  blur
+--------------------------------------------------------------------------------------------------------
+plain       L   5    37sq      0100%    0    0   3/3    0%    0%  1.00   0.00  0.00  33%    yes   yes
+grid        L   5    37sq    757100%    0    0   3/3    0%    0%  0.66   0.06  0.22  24%    yes   yes
+swarm       L   5    37sq   1852 86%    0    5   3/3    0%    0%  0.78   0.11  0.22  30%    yes   yes
+dense       L   5    37sq   3407 73%    1   10   3/3    8%    8%  0.85   0.13  0.22  33%    yes   yes
+bold        L   5    37sq   1884 68%   34   53   3/3  108%  108%  0.84   0.19  0.35  35%     NO    NO
+bolder      L   5    37sq   1858 60%  124  130   3/3  108%  108%  0.87   0.28  0.50  40%     NO    NO
+halftone    L   5    37sq   2439 56%  304  281   3/3  108%  108%  0.79   0.35  0.50  39%     NO    NO
+wild        L   5    37sq   1186 72%  468  424   3/3  108%  108%  0.93   0.59  1.00  54%     NO    NO
+plain       M   6    41sq      0100%    0    0   3/3    0%    0%  1.00   0.00  0.00  35%    yes   yes
+grid        M   6    41sq    953100%    0    0   3/3    0%    0%  0.64   0.07  0.22  25%    yes   yes
+swarm       M   6    41sq   2383 87%    0    8   3/3    0%    0%  0.77   0.12  0.22  32%    yes   yes
+dense       M   6    41sq   4426 74%    1   12   3/3    3%   12%  0.84   0.14  0.22  36%    yes   yes
+bold        M   6    41sq   2508 71%   35   66   3/3   94%  112%  0.84   0.21  0.35  38%     NO   yes
+bolder      M   6    41sq   2578 66%  159  158   3/3  112%  112%  0.88   0.30  0.50  43%     NO    NO
+halftone    M   6    41sq   3220 61%  394  406   3/3  112%  112%  0.78   0.37  0.50  41%     NO    NO
+wild        M   6    41sq   1636 77%  557  513   3/3  112%  112%  0.94   0.61  1.00  57%     NO    NO
+plain       Q   8    49sq      0100%    0    0   3/3    0%    0%  1.00   0.00  0.00  39%    yes   yes
+grid        Q   8    49sq   1413100%    0    0   3/3    0%    0%  0.65   0.07  0.22  28%    yes   yes
+swarm       Q   8    49sq   3573 88%    0    9   3/3    0%    0%  0.77   0.12  0.22  35%    yes   yes
+dense       Q   8    49sq   6688 75%    4   17   3/3    6%   18%  0.85   0.15  0.22  39%    yes   yes
+bold        Q   8    49sq   3731 71%   52   73   3/3   73%  100%  0.84   0.22  0.35  42%     NO   yes
+bolder      Q   8    49sq   3777 64%  226  208   3/3  109%  109%  0.88   0.32  0.50  47%     NO    NO
+halftone    Q   8    49sq   4562 61%  517  500   3/3  109%  109%  0.79   0.38  0.50  45%     NO    NO
+wild        Q   8    49sq   2524 80%  815  738   3/3  109%  109%  0.95   0.66  1.00  62%     NO    NO
+plain       H  10    57sq      0100%    0    0   3/3    0%    0%  1.00   0.00  0.00  39%    yes   yes
+grid        H  10    57sq   1873100%    0    5   3/3    0%    0%  0.62   0.08  0.22  27%    yes   yes
+swarm       H  10    57sq   4760 88%    0   15   3/3    0%    0%  0.75   0.13  0.22  35%    yes   yes
+dense       H  10    57sq   8799 75%    3   18   3/3    3%    7%  0.83   0.15  0.22  39%    yes   yes
+bold        H  10    57sq   5006 72%   63  105   3/3   54%   86%  0.83   0.22  0.35  42%     NO   yes
+bolder      H  10    57sq   5009 65%  316  289   3/3  107%  107%  0.87   0.33  0.50  48%     NO    NO
+halftone    H  10    57sq   6334 62%  744  725   3/3  107%  107%  0.77   0.39  0.50  46%     NO    NO
+wild        H  10    57sq   3468 83% 1197 1081   3/3  107%  107%  0.95   0.69  1.00  65%     NO    NO
+
+ants: ants drawn.  fit: share of the ants offered that found room.
+bad: modules read wrong off the ideal coverage.  cam: the same through a local binariser.
+find: finder patterns a locator could still pick out; under 3 and nothing else matters.
+spent: share of the correction budget used; worst: the worst single block.
+dark / light: mean ink in a dark and in a light module's whole cell.  peak: the inkiest light cell.
+reads: passes locating, binarising and decoding.  blur: still does out of focus.
+
+wrote 64 files and metrics.tsv to /private/tmp/claude-501/-Users-curtcox-me-zz-no-consumer/e8b69683-e4ee-4a7c-8a7b-72988ed89d7a/scratchpad/opts
