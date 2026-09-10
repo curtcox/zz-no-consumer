@@ -84,6 +84,7 @@ establish current status.
 | `qr_core.py check` | the QR codec against a symbol it did not make, and damage inside and past the correction budget |
 | `antpose.py check` | that a joint bends without changing a bone, that scaling is the only thing that changes size, and that the fitter refuses a protected module |
 | `qrant.py check` | that every drawing style leaves the finder patterns alone, that the free styles cost nothing, and that placement is deterministic |
+| `qr_gallery.py check [--built]` | that the tracked gallery assets match their manifest, that every claim the manifest makes about the code re-derives from `qr_core`, and that the published page references what it says it does |
 
 CI also runs `python3 -m unittest discover -s scripts -p 'test_knowledge_map_*.py'`, which
 covers `test_knowledge_map_local.py` and `test_knowledge_map_finish.py` — the offline
@@ -260,7 +261,16 @@ including two codec bugs a round trip could not catch, is in
 
 A symbol from this tool is apparatus — a cover, a colophon, a card. It is never page art:
 a QR lattice is a countable grid of ants and cannot satisfy the non-quantitative ant
-convention. Nothing calls `qrant.py` from the build, and no symbol is committed.
+convention. Nothing calls `qrant.py` from the build, and no symbol is adopted anywhere in
+the book.
+
+`qr_gallery.py` publishes the findings. Rendering a symbol takes seconds to minutes, so the
+site builder never renders one: `generate` writes the images and a manifest under
+`assets/qr-ant/` — slow, and run by hand — and `build-site.py` only lays them out at
+`/qr-ant/`. `check` re-derives every claim the manifest makes about the code from
+`qr_core` and verifies each committed file is present and unchanged; `check --built` also
+checks the published page. The symbols encode a 103-byte placeholder whose own text says it
+is one and that it resolves to nothing.
 
 ## The source vault
 

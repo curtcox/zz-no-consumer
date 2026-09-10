@@ -176,6 +176,7 @@ python3 scripts/rasterize.py check && \
 python3 scripts/qr_core.py check && \
 python3 scripts/antpose.py check && \
 python3 scripts/qrant.py check && \
+python3 scripts/qr_gallery.py check && \
 python3 scripts/letterpress.py audit && \
 python3 scripts/pagination.py check && \
 python3 scripts/panels.py check && \
@@ -185,6 +186,7 @@ python3 scripts/validate-viewer.py && \
 python3 scripts/validate-novella.py && \
 python3 scripts/validate-site-links.py && \
 python3 scripts/validate-knowledge-map-gallery.py && \
+python3 scripts/qr_gallery.py check --built && \
 python3 scripts/pagelinks.py check --built
 ```
 

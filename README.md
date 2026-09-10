@@ -145,6 +145,29 @@ empty lock (inode `62537770`, modified at **12:01:02 CDT**). Host-level inspecti
 **12:05:20 CDT** found no Git process; `lsof` found no open handle. The lock was
 rechecked immediately before recovery. Its creator remains unidentified.
 
+**QR gallery recovery, 10 September 2026, and the first identified open handle.** Staging
+the ant QR gallery was blocked by an empty lock (inode `63721739`, modified at
+**16:18:11 CDT / 21:18:11 UTC**). Host-level inspection at **21:23:45 UTC** found **no Git
+process** — and, unlike every earlier entry here, `lsof` **did** find a process holding the
+lock open: PID 39719, the Windsurf language server bundled in `Devin.app`, running since
+11:20 that morning with fd 104 on `index.lock` and fd 100 on `.git/index`, both
+**read-only**. The same process held read-only handles on `.git/config`, `.git/HEAD`,
+`.git/description`, `.git/hooks`, and `.git/.DS_Store` — the signature of an editor indexer
+walking the directory, not of a Git operation.
+
+That handle was assessed as not owning the lock: it is read-only, no process held **any**
+write handle anywhere under `.git`, and no Git process existed, so no in-flight index write
+could have been in progress. The lock's inode, size, and modification time were unchanged on
+a recheck at **21:24:28 UTC** immediately before removal. Staging then succeeded, verified at
+**21:24:28 UTC**.
+
+This still does not identify the creator, and a read-only handle cannot have created a lock
+that requires exclusive-create. What it does add is a candidate explanation for the earlier
+entries' "no open handle" findings: a background indexer that opens and closes git internals
+on its own schedule will be invisible to an `lsof` run at the wrong moment. Future diagnosis
+should check for editor and indexer processes watching `.git`, not only for Git itself, and
+should treat "no open handle" as a snapshot rather than a property.
+
 **Prevention recorded.** The shared agent instructions now point here and require
 coordination of index writers in addition to lock-free read-only inspection. This is an
 operating procedure, not an app-level fix or a proven root-cause correction.
@@ -701,6 +724,14 @@ and the tool reports all three: a locator has to find its finder patterns, a loc
 has to agree about the whole cell, and the sampler has to agree about the cell's centre. The
 last of those was missing at first, and adding it made several styles that had looked
 expensive turn out to cost nothing.
+
+The findings are published as a gallery at `/qr-ant/`, built by `scripts/qr_gallery.py` from
+tracked assets under `assets/qr-ant/`. Rendering a symbol takes seconds to minutes, so the
+site builder never renders one: `qr_gallery.py generate` writes the images and a manifest by
+hand, `check` re-derives every claim the manifest makes about the code from `qr_core` and
+verifies each committed file is unchanged, and `check --built` checks the published page.
+Every published symbol encodes a 103-byte placeholder whose own text says it is one and that
+it resolves to nothing.
 
 A symbol from this tool is apparatus — a cover, a colophon, a card — and never page art. A
 QR lattice is a countable grid of ants, which is the one thing the ant convention in

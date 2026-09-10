@@ -2633,6 +2633,7 @@ def main() -> int:
             '<p><a class="viewer-callout" href="knowledge-maps/">Explore four knowledge-map alternatives and placement studies →</a></p>'
             '<p><a class="viewer-callout" href="crossref/">Open the page, source, and provenance cross reference →</a></p>'
             '<p><a class="viewer-callout" href="bakeoff/">Compare the candidate image generators on the same panels →</a></p>'
+            '<p><a class="viewer-callout" href="qr-ant/">See what a QR code costs when its ink is ant bodies →</a></p>'
             '<p><a class="viewer-callout" href="production/thumbnails/">Open the provisional thumbnail wall →</a></p>'
             f'<h2>Browse the internal project</h2><div class="cards">{index_cards}</div>'
         )
@@ -2647,6 +2648,7 @@ def main() -> int:
             '<p><a class="viewer-callout" href="knowledge-maps/">Explore four knowledge-map alternatives and placement studies →</a></p>'
             '<p><a class="viewer-callout" href="crossref/">Open the page, source, and provenance cross reference →</a></p>'
             '<p><a class="viewer-callout" href="bakeoff/">Compare the candidate image generators on the same panels →</a></p>'
+            '<p><a class="viewer-callout" href="qr-ant/">See what a QR code costs when its ink is ant bodies →</a></p>'
             f'<h2>Browse the story</h2><div class="cards">{index_cards}</div>'
         )
     (OUT / "index.html").write_text(
@@ -2677,6 +2679,9 @@ def main() -> int:
     appendix_routes = build_appendix(document)
     bakeoff_routes = build_bakeoff(document)
     knowledge_map_routes = build_knowledge_maps(document)
+    import qr_gallery
+    write_page(Path(qr_gallery.ROUTE, "index.html"), qr_gallery.TITLE,
+               qr_gallery.body(), document)
     if args.internal:
         subprocess.run([sys.executable, str(ROOT / "scripts" / "make-thumbnails.py"),
                         "--output", str(OUT / "production" / "thumbnails" / "index.html")],
@@ -2687,6 +2692,7 @@ def main() -> int:
         f"{novella_routes} novella routes and 4 downloads, "
         f"{appendix_routes} appendix routes, "
         f"{bakeoff_routes} bake-off routes, {knowledge_map_routes} knowledge-map routes, "
+        f"the ant QR gallery, "
         f"{len(LETTERED)} lettered panel(s), "
         f"and the viewer validation section into {OUT.relative_to(ROOT)}/"
     )

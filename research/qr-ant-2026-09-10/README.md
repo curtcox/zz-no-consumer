@@ -144,6 +144,13 @@ trouble, which is the tool being conservative. Every other row matches.
 `scan-resolution.tsv` records symbols rendered at 6, 8, 10, 14 and 20 pixels per module. All
 four posed styles read at every resolution tested, as do `grid`, `swarm` and `dense`.
 
+## Where this is published
+
+The findings these measurements support are laid out at `/qr-ant/` on the site, from tracked
+assets under `assets/qr-ant/`. `scripts/qr_gallery.py` reads `scan-styles.tsv` from this
+directory for the scanner column on that page, so a verdict recorded here is the verdict a
+reader sees.
+
 ## Reproducing it
 
 ```sh

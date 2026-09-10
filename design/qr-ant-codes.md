@@ -5,6 +5,11 @@ symbol whose dark half is ant bodies, what each way of drawing it costs, and whi
 safe to print. The measurements behind every number here are in
 [the scanner comparison](../research/qr-ant-2026-09-10/README.md).
 
+The findings are published as a gallery at `/qr-ant/` on the site, built by
+[`scripts/qr_gallery.py`](../scripts/qr_gallery.py) from tracked assets under
+`assets/qr-ant/`. Every symbol there encodes a 103-byte placeholder whose own text says it
+is one; nothing published resolves anywhere.
+
 ## Status
 
 **Tool built and measured, 10 September 2026. No symbol is adopted anywhere yet.** The

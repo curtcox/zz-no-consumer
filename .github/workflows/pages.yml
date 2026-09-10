@@ -80,6 +80,7 @@ jobs:
           python scripts/qr_core.py check
           python scripts/antpose.py check
           python scripts/qrant.py check
+          python scripts/qr_gallery.py check
 
       - name: Check effective reader lettering
         run: python scripts/letterpress.py audit
@@ -121,6 +122,9 @@ jobs:
 
       - name: Validate knowledge-map gallery
         run: python scripts/validate-knowledge-map-gallery.py
+
+      - name: Validate the published ant QR gallery
+        run: python scripts/qr_gallery.py check --built
 
       - name: Check that every story-page reference in the build is a link
         run: python scripts/pagelinks.py check --built
