@@ -94,10 +94,10 @@ partly cover.
 | `data/panel-types.tsv` | **`paneltypes.py write`** | regenerate, don't edit |
 | `data/anthill-study.json` | you for study choices; **`pagination.py`** for page references | titles are labels, never selectors |
 | `data/storyboards.json`, `data/storyboard-assets.json` | you, by hand | composition and reusable geometry; identity tools own panel-key rewrites |
-| `data/panel-art.tsv` | **`panelart.py`** | which version of a panel is the chosen one |
+| `data/panel-art.tsv` | **`panelart.py`** | which version of a panel is the chosen one; `panel_chooser.py` writes through it |
 | `data/crossref.json`, `data/appendix.json` | **`crossref.py json`**, `appendix.py json` | derived |
 | `data/generation-log.jsonl` | **`imagegen.py` / `localgen.py` / `produce.py`** | a dated record; append-only, never rewritten by the renumbering tools |
-| `assets/art/panels/NNN-II/` | **`produce.py` / `storyboards.py`** | adds versions, never replaces one |
+| `assets/art/panels/NNN-II/` | **`produce.py` / `storyboards.py` / `panel_chooser.py`** | adds versions, never replaces one |
 | `docs/**` | **`build-site.py`** | **never hand-edit**; regenerate and commit the result |
 | `site/**` | you, by hand | the CSS/JS/templates `build-site.py` reads |
 | `256t/**` | `sync-256t.py` | gitignored source vault; only URLs and dispositions are tracked, in `data/256t-sources.tsv` |
@@ -216,6 +216,14 @@ for new scene records, local SVG generation, visual iteration, model handoff, im
 selection, and rollback. The README links it under Placeholder images. Run
 `storyboards.py generate`, `storyboards.py check`, the site builder, and
 `storyboards.py check --built` after reviewed scene changes. All reader slots now have scene records; `check --complete` enforces coverage.
+
+**Choose a panel's artwork.** `python3 scripts/panel_chooser.py serve` puts every image
+generated for one panel key on one screen — tracked variants, local candidates from
+`256t/panel-candidates/`, and the generated layout reference — with the chosen version
+first and the rest newest first. It records decisions through `panelart.set_status`, so
+the invariants are `panelart.py`'s, not its own, and the panel key is the URL path, so
+`/045-03` is an address. Promoting a local candidate copies it into the tracked store as
+a new version and is confirmed before it writes. Rebuild after a deciding session.
 
 **Edit a page's script.** Edit `content/pages/NNN.md` in place. Write page references as
 plain `page 039` and run `pagelinks.py link --apply` to link them. If you changed lettering,

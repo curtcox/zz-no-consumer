@@ -1,0 +1,109 @@
+/* The chooser is a decision surface: the art is large, the chrome is quiet, and
+   the one version the book currently shows is the only thing that is loud. */
+:root {
+  color-scheme: light dark;
+  --ink: #16181c;
+  --quiet: #5c6370;
+  --edge: #cdd2da;
+  --paper: #f6f6f4;
+  --card: #ffffff;
+  --chosen: #1f6f3e;
+  --rejected: #9a2f2f;
+  --local: #6a4ba8;
+}
+@media (prefers-color-scheme: dark) {
+  :root {
+    --ink: #e9eaed; --quiet: #a0a6b2; --edge: #3a4049; --paper: #16181c;
+    --card: #1e2127; --chosen: #6fd398; --rejected: #f08a8a; --local: #b79cf0;
+  }
+}
+* { box-sizing: border-box; }
+body {
+  margin: 0;
+  padding: 0 1.5rem 4rem;
+  background: var(--paper);
+  color: var(--ink);
+  font: 16px/1.5 system-ui, -apple-system, "Segoe UI", sans-serif;
+}
+header {
+  position: sticky;
+  top: 0;
+  z-index: 2;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem 2rem;
+  align-items: baseline;
+  padding: 1rem 0 0.75rem;
+  border-bottom: 1px solid var(--edge);
+  background: var(--paper);
+}
+h1 { margin: 0; font-size: 1.6rem; font-variant-numeric: tabular-nums; letter-spacing: 0.02em; }
+header p { margin: 0; color: var(--quiet); }
+.where { min-width: 14rem; }
+nav { display: flex; gap: 0.5rem; }
+.progress { margin-left: auto; display: flex; gap: 1.25rem; font-variant-numeric: tabular-nums; }
+button {
+  font: inherit;
+  padding: 0.4rem 0.9rem;
+  border: 1px solid var(--edge);
+  border-radius: 0.4rem;
+  background: var(--card);
+  color: var(--ink);
+  cursor: pointer;
+}
+button:hover:not(:disabled) { border-color: var(--quiet); }
+button:disabled { opacity: 0.4; cursor: default; }
+button.act { border-color: var(--chosen); color: var(--chosen); }
+button.undo { border-color: var(--rejected); color: var(--rejected); }
+button.promote { border-color: var(--local); color: var(--local); }
+
+#message {
+  margin: 0.75rem 0 0;
+  padding: 0.6rem 0.9rem;
+  border-left: 3px solid var(--rejected);
+  background: var(--card);
+}
+main { max-width: 120rem; margin: 0 auto; }
+h2 { font-size: 1rem; letter-spacing: 0.08em; text-transform: uppercase; color: var(--quiet); }
+.aside { margin: -0.5rem 0 1rem; color: var(--quiet); max-width: 46rem; }
+
+#choices, .grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(22rem, 1fr));
+  gap: 1.25rem;
+  margin: 1.25rem 0 2rem;
+}
+figure {
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  border: 1px solid var(--edge);
+  border-radius: 0.5rem;
+  background: var(--card);
+  overflow: hidden;
+}
+/* The one the book shows: first in the grid, and wide enough to judge. */
+figure.chosen { grid-column: 1 / -1; border-color: var(--chosen); border-width: 2px; }
+figure.chosen img { max-height: 70vh; }
+figure.rejected { opacity: 0.55; }
+figure a { display: block; background: #000; }
+img { display: block; width: 100%; height: auto; }
+figcaption { padding: 0.7rem 0.85rem; display: flex; flex-direction: column; gap: 0.5rem; }
+.badges { display: flex; flex-wrap: wrap; gap: 0.4rem; align-items: center; }
+.badge {
+  font-size: 0.78rem;
+  padding: 0.1rem 0.45rem;
+  border: 1px solid var(--edge);
+  border-radius: 0.25rem;
+  color: var(--quiet);
+}
+.badge.is-chosen { border-color: var(--chosen); color: var(--chosen); font-weight: 600; }
+.badge.is-rejected { border-color: var(--rejected); color: var(--rejected); }
+.badge.is-local { border-color: var(--local); color: var(--local); }
+.name { font-weight: 600; font-variant-numeric: tabular-nums; }
+.meta, .note { color: var(--quiet); font-size: 0.85rem; margin: 0; }
+.actions { display: flex; gap: 0.5rem; flex-wrap: wrap; }
+
+#script-box { border-top: 1px solid var(--edge); padding-top: 0.75rem; }
+#script-box summary { cursor: pointer; color: var(--quiet); }
+pre { white-space: pre-wrap; max-width: 46rem; color: var(--quiet); }

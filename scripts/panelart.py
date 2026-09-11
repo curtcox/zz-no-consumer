@@ -196,7 +196,7 @@ _CACHE: dict[str, list[Variant]] | None = None
 def load(refresh: bool = False) -> dict[str, list[Variant]]:
     global _CACHE
     if _CACHE is None or refresh:
-        table = read_table()
+        table = read_table(TABLE)
         _CACHE = by_panel(table) if table else by_panel(discover())
     return _CACHE
 
@@ -273,25 +273,40 @@ def cmd_list(args: argparse.Namespace) -> int:
     return 0
 
 
-def _set_status(args: argparse.Namespace, status: str) -> int:
-    merged, _, _ = scan()
-    hit = False
-    updated = []
-    for variant in merged:
-        if variant.panel == args.panel and variant.variant == args.variant:
-            hit = True
+def set_status(panel: str, variant: str, status: str, note: str = "") -> Variant:
+    """Record one decision about one version, and return it as recorded.
+
+    The shared path for the command line and the panel chooser, so both get the
+    same rules: rescan so the table stays true to disk, refuse a chosen version
+    that is not the panel's size, keep at most one chosen version per panel, and
+    write the table once. Raises ValueError for an unknown version, so a caller
+    with a person in front of it can say so instead of exiting.
+    """
+    merged, _, _ = scan(TABLE)
+    decided, updated = None, []
+    for item in merged:
+        if item.panel == panel and item.variant == variant:
             if status == CHOSEN:
                 import panel_layout
-                panel_layout.require(variant.path, panel_layout.target(args.panel))
-            updated.append(replace(variant, status=status, note=args.note or variant.note))
-        elif variant.panel == args.panel and status == CHOSEN and variant.status == CHOSEN:
-            updated.append(replace(variant, status=CANDIDATE))   # only one chosen per panel
+                panel_layout.require(item.path, panel_layout.target(panel))
+            decided = replace(item, status=status, note=note or item.note)
+            updated.append(decided)
+        elif item.panel == panel and status == CHOSEN and item.status == CHOSEN:
+            updated.append(replace(item, status=CANDIDATE))   # only one chosen per panel
         else:
-            updated.append(variant)
-    if not hit:
-        raise SystemExit(f"{args.panel} has no variant {args.variant}. "
-                         f"Try `python3 scripts/panelart.py list --panel {args.panel}`.")
-    write_table(updated)
+            updated.append(item)
+    if decided is None:
+        raise ValueError(f"{panel} has no variant {variant}")
+    write_table(updated, TABLE)
+    load(refresh=True)   # a long-running reader must not resolve from a stale cache
+    return decided
+
+
+def _set_status(args: argparse.Namespace, status: str) -> int:
+    try:
+        set_status(args.panel, args.variant, status, args.note)
+    except ValueError as error:
+        raise SystemExit(f"{error}. Try `python3 scripts/panelart.py list --panel {args.panel}`.")
     print(f"{args.panel} {args.variant} -> {status}")
     return 0
 

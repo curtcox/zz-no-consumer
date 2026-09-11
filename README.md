@@ -569,6 +569,26 @@ python3 scripts/panelart.py choose 001-01 v02
 python3 scripts/panelart.py status
 ```
 
+Deciding several hundred panels one command at a time is a poor way to compare
+pictures, so the same decisions can be made by eye:
+
+```sh
+python3 scripts/panel_chooser.py serve
+```
+
+The browser opens on the first undecided panel and every image generated for that
+panel key is on one screen — the chosen version large and first, then everything
+else newest first. Choose, Reject, and Clear call `panelart.set_status`, so the
+decision lands in `data/panel-art.tsv` immediately and obeys the same rules the
+command line does: one chosen version per panel, and a chosen version has to be
+the panel's size. The panel key is the address, so `/045-03` is a bookmark and
+Prior/Next (or the arrow keys) walk the whole book across page boundaries.
+Local candidates under `256t/panel-candidates/` appear beside the tracked ones;
+choosing one has to copy it into `assets/art/panels/` first, so its button says
+**Promote & choose** and confirms before it writes. The text placeholder and the
+storyboard render are shown underneath as layout reference, and cannot be chosen.
+Rebuild after a session of deciding; the chooser never writes `docs/`.
+
 Panels show their most mature available non-rejected version (chosen first within that stage, then newest), so the book reads end to end throughout, and a panel with more than one live version gets an "Other versions" strip in the viewer. The layout, the decision record, and the repository cost are in [`design/panel-versions.md`](design/panel-versions.md).
 
 Page sheets are not generated. A page is composed from its panels by layout, the way a comic page is actually made, so the page grammar governs it and it costs no generation time.

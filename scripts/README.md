@@ -9,7 +9,8 @@ python3 scripts/<tool>.py <subcommand> [options]
 Most take a `report` (print what is there), a `check` (exit non-zero while the tree disagrees
 with itself), and sometimes a `generate`/`write`/`assemble`. Identity operations in `pagination.py` and `panels.py`, and `pagelinks.py link`, print a plan
 and require `--apply` to write. This is **not a universal dry-run convention**:
-`build-site.py`, `paneltypes.py write`, and `panelart.py choose` write immediately.
+`build-site.py`, `paneltypes.py write`, `panelart.py choose`, and every decision made in
+`panel_chooser.py serve` write immediately.
 Read the command's `--help` before running a writer. Validation commands report findings
 rather than repairing them.
 
@@ -332,6 +333,27 @@ checks with a temporary loopback server. It needs permission to bind a local soc
 The tool imports the publication Markdown renderer and existing novella, panel art,
 text-image, and lettering models. It renders on demand and does not write `docs/`.
 See [the local display manual](../README.md#local-synchronized-displays).
+
+## Choosing a panel's artwork
+
+`python3 scripts/panel_chooser.py serve` opens one panel at a time with every image
+generated for it: the tracked variants from `data/panel-art.tsv`, the untracked local
+candidates under `256t/panel-candidates/`, and the text placeholder and storyboard render
+built on demand. The chosen version is first and large; the rest follow newest first.
+`--panel 045-03` opens somewhere specific, `--port` and `--host` move the server
+(loopback by default, because this one writes), and the panel key is the URL path, so
+editing the address is navigation. Prior/Next cross page boundaries in reading order.
+
+It owns no curation rule of its own. Choose, Reject, and Clear call `panelart.set_status`,
+the shared path the `panelart.py` subcommands take, which rescans the store, keeps one
+chosen version per panel, and refuses a chosen version that is not the panel's size.
+A local candidate is not in the table and cannot simply be chosen: **Promote & choose**
+checks its size, copies it in through `panelart.store`, and then chooses the new version.
+The generated renders are reference only. Nothing here writes `docs/`.
+
+`python3 scripts/panel_chooser.py check` builds a temporary art store, candidate tree, and
+table, and runs the real server against them, so the checks never touch the tracked store.
+It needs permission to bind a local socket.
 
 ## Anthill composition study
 
