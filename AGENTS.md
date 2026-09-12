@@ -312,7 +312,11 @@ a new version and is confirmed before it writes. Rebuild after a deciding sessio
 **Edit a page's script.** Edit `content/pages/NNN.md` in place. Write page references as
 plain `page 039` and run `pagelinks.py link --apply` to link them. If you changed lettering,
 panel structure, or provenance, run `crossref.py check --strict`, `panels.py check`, then
-rebuild the site. If you changed what happens on the page, the novella prose for the same
+rebuild the site. Every panel ends with a `**References:**` block after its provenance line.
+It lists the registered citation keys most relevant to that panel, each with a locator and
+a `0.00`–`1.00` relevancy score. A rendering run may turn some or all of them into QR codes,
+decided later. Nothing checks the block yet, so follow
+[the form in page-grammar](design/page-grammar.md#references-on-the-panel) exactly. If you changed what happens on the page, the novella prose for the same
 page needs the same change — `novella.py check` will not catch a divergence in meaning.
 
 **Add or remove a page.**

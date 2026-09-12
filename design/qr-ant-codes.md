@@ -293,3 +293,12 @@ Two registers, both available:
    75 at the leg joints, 55 at the antennae. Those are plausible rather than researched, and
    at a few hundred ants per symbol a wrong range is a hundred wrong animals. Someone who
    knows what an ant can do should look at a rendered sheet before this goes on a cover.
+6. **Codes on story pages** (raised 12 September 2026). Every panel now lists its most
+   relevant references with relevancy scores
+   ([References on the panel](page-grammar.md#references-on-the-panel)), so that a
+   rendering run can turn some or all of them into QR codes added to the page. That
+   conflicts with [This is apparatus, not page art](#this-is-apparatus-not-page-art), which
+   keeps symbols out of panels, gutters and margins. Still open, and to be decided together:
+   which references become codes, what each code encodes (a publisher URL, a 256t content
+   tag, a byte range), where a code sits on a story page, and whether those codes are drawn
+   in ants or plain.

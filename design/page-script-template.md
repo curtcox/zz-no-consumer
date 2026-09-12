@@ -42,6 +42,9 @@ continuity_checks: []
 
 **Provenance:** `[status]` — [source key and precise claim boundary].
 
+**References:**
+- `[citation key]` `[locator]` — [0.00–1.00] — [what this reference supports in this panel].
+
 ## Page notes
 
 - [Continuity and visual-state notes.]
