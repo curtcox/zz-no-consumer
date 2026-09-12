@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
+<defs>
+<linearGradient id="tone" x1="0" y1="0" x2="1" y2="1"><stop stop-color="currentColor" /><stop offset="1" stop-color="#101214" stop-opacity=".65" /></linearGradient>
+</defs><path d="M20 97V5M22 7L87 11 65 29 85 50H22" fill="none" stroke="currentColor" stroke-width="3" /><path d="M23 9L83 13 61 29 79 47H23Z" fill="url(#tone)" /><path d="M27 14L71 17" fill="none" stroke="#E7E0D0" stroke-width="1" opacity=".6" />
+<path d="M27 17L70 20M27 22L62 25M27 36L65 39" stroke="#e7e0d0" stroke-width=".7" opacity=".35" /><path d="M22 10V46" stroke="#e7e0d0" stroke-width="1.5" opacity=".6" /><path d="M19 94H28" stroke="currentColor" stroke-width="2" /></svg>

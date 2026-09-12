@@ -1,0 +1,128 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="800" viewBox="0 0 1200 800"><title>A larger-budget run stays distinct from its predecessor</title><desc>Give the new run a visibly longer budget bar and a separate boundary from its ending predecessor. Same task does not mean same process or identity.</desc><metadata>{
+  &quot;assets&quot;: {
+    &quot;budget-long&quot;: &quot;&lt;defs&gt;\n&lt;linearGradient id=\&quot;stock\&quot; x1=\&quot;0\&quot; y1=\&quot;0\&quot; x2=\&quot;.8\&quot; y2=\&quot;1\&quot;&gt;&lt;stop stop-color=\&quot;#E7E0D0\&quot; /&gt;&lt;stop offset=\&quot;1\&quot; stop-color=\&quot;#CEC5B3\&quot; /&gt;&lt;/linearGradient&gt;\n&lt;/defs&gt;&lt;rect x=\&quot;3\&quot; y=\&quot;23\&quot; width=\&quot;89\&quot; height=\&quot;54\&quot; rx=\&quot;3\&quot; fill=\&quot;#101214\&quot; stroke=\&quot;currentColor\&quot; stroke-width=\&quot;2\&quot; /&gt;&lt;rect x=\&quot;92\&quot; y=\&quot;39\&quot; width=\&quot;6\&quot; height=\&quot;22\&quot; fill=\&quot;#CEC5B3\&quot; /&gt;&lt;rect x=\&quot;9\&quot; y=\&quot;29\&quot; width=\&quot;16\&quot; height=\&quot;42\&quot; fill=\&quot;url(#stock)\&quot; stroke=\&quot;#CEC5B3\&quot; stroke-width=\&quot;0.6\&quot; /&gt;&lt;rect x=\&quot;29\&quot; y=\&quot;29\&quot; width=\&quot;16\&quot; height=\&quot;42\&quot; fill=\&quot;url(#stock)\&quot; stroke=\&quot;#CEC5B3\&quot; stroke-width=\&quot;0.6\&quot; /&gt;&lt;rect x=\&quot;49\&quot; y=\&quot;29\&quot; width=\&quot;16\&quot; height=\&quot;42\&quot; fill=\&quot;url(#stock)\&quot; stroke=\&quot;#CEC5B3\&quot; stroke-width=\&quot;0.6\&quot; /&gt;&lt;rect x=\&quot;69\&quot; y=\&quot;29\&quot; width=\&quot;16\&quot; height=\&quot;42\&quot; fill=\&quot;url(#stock)\&quot; stroke=\&quot;#CEC5B3\&quot; stroke-width=\&quot;0.6\&quot; /&gt;&quot;,
+    &quot;budget-short&quot;: &quot;&lt;defs&gt;\n&lt;linearGradient id=\&quot;stock\&quot; x1=\&quot;0\&quot; y1=\&quot;0\&quot; x2=\&quot;.8\&quot; y2=\&quot;1\&quot;&gt;&lt;stop stop-color=\&quot;#E7E0D0\&quot; /&gt;&lt;stop offset=\&quot;1\&quot; stop-color=\&quot;#CEC5B3\&quot; /&gt;&lt;/linearGradient&gt;\n&lt;/defs&gt;&lt;rect x=\&quot;3\&quot; y=\&quot;23\&quot; width=\&quot;89\&quot; height=\&quot;54\&quot; rx=\&quot;3\&quot; fill=\&quot;#101214\&quot; stroke=\&quot;currentColor\&quot; stroke-width=\&quot;2\&quot; /&gt;&lt;rect x=\&quot;92\&quot; y=\&quot;39\&quot; width=\&quot;6\&quot; height=\&quot;22\&quot; fill=\&quot;#CEC5B3\&quot; /&gt;&lt;rect x=\&quot;9\&quot; y=\&quot;29\&quot; width=\&quot;16\&quot; height=\&quot;42\&quot; fill=\&quot;url(#stock)\&quot; stroke=\&quot;#CEC5B3\&quot; stroke-width=\&quot;0.6\&quot; /&gt;&lt;rect x=\&quot;29\&quot; y=\&quot;29\&quot; width=\&quot;16\&quot; height=\&quot;42\&quot; fill=\&quot;#202326\&quot; stroke=\&quot;#CEC5B3\&quot; stroke-width=\&quot;0.6\&quot; /&gt;&lt;rect x=\&quot;49\&quot; y=\&quot;29\&quot; width=\&quot;16\&quot; height=\&quot;42\&quot; fill=\&quot;#202326\&quot; stroke=\&quot;#CEC5B3\&quot; stroke-width=\&quot;0.6\&quot; /&gt;&lt;rect x=\&quot;69\&quot; y=\&quot;29\&quot; width=\&quot;16\&quot; height=\&quot;42\&quot; fill=\&quot;#202326\&quot; stroke=\&quot;#CEC5B3\&quot; stroke-width=\&quot;0.6\&quot; /&gt;&quot;,
+    &quot;task&quot;: &quot;&lt;defs&gt;\n&lt;linearGradient id=\&quot;stock\&quot; x1=\&quot;0\&quot; y1=\&quot;0\&quot; x2=\&quot;.8\&quot; y2=\&quot;1\&quot;&gt;&lt;stop stop-color=\&quot;#E7E0D0\&quot; /&gt;&lt;stop offset=\&quot;1\&quot; stop-color=\&quot;#CEC5B3\&quot; /&gt;&lt;/linearGradient&gt;\n&lt;pattern id=\&quot;grain\&quot; width=\&quot;7\&quot; height=\&quot;9\&quot; patternUnits=\&quot;userSpaceOnUse\&quot;&gt;&lt;circle cx=\&quot;1\&quot; cy=\&quot;2\&quot; r=\&quot;.35\&quot; fill=\&quot;#101214\&quot; opacity=\&quot;.18\&quot; /&gt;&lt;path d=\&quot;M4 6h2M1 8h1\&quot; stroke=\&quot;#101214\&quot; stroke-width=\&quot;.3\&quot; opacity=\&quot;.16\&quot; /&gt;&lt;/pattern&gt;\n&lt;/defs&gt;&lt;path d=\&quot;M5 3H83L96 16V96H5Z\&quot; fill=\&quot;url(#stock)\&quot; stroke=\&quot;currentColor\&quot; stroke-width=\&quot;2\&quot; /&gt;&lt;path d=\&quot;M5 3H83L96 16V96H5Z\&quot; fill=\&quot;url(#grain)\&quot; /&gt;&lt;path d=\&quot;M5 3H83L96 16V22H5Z\&quot; fill=\&quot;currentColor\&quot; /&gt;&lt;rect x=\&quot;10\&quot; y=\&quot;80\&quot; width=\&quot;80\&quot; height=\&quot;11\&quot; fill=\&quot;#202326\&quot; /&gt;&lt;rect x=\&quot;13\&quot; y=\&quot;83\&quot; width=\&quot;44\&quot; height=\&quot;5\&quot; fill=\&quot;currentColor\&quot; /&gt;&lt;circle cx=\&quot;29\&quot; cy=\&quot;49\&quot; r=\&quot;15\&quot; fill=\&quot;none\&quot; stroke=\&quot;#101214\&quot; stroke-width=\&quot;2\&quot; /&gt;&lt;path d=\&quot;M29 29V69M9 49H49\&quot; fill=\&quot;none\&quot; stroke=\&quot;#101214\&quot; stroke-width=\&quot;1.4\&quot; /&gt;&lt;path d=\&quot;M55 36H85M55 47H77M55 58H85\&quot; fill=\&quot;none\&quot; stroke=\&quot;#101214\&quot; stroke-width=\&quot;2\&quot; /&gt;&quot;
+  },
+  &quot;palette&quot;: {
+    &quot;amber&quot;: &quot;#A17D45&quot;,
+    &quot;claret&quot;: &quot;#6B2634&quot;,
+    &quot;dirty&quot;: &quot;#CEC5B3&quot;,
+    &quot;ink&quot;: &quot;#101214&quot;,
+    &quot;institution&quot;: &quot;#68766B&quot;,
+    &quot;moss&quot;: &quot;#74864F&quot;,
+    &quot;nicotine&quot;: &quot;#AA9571&quot;,
+    &quot;paper&quot;: &quot;#E7E0D0&quot;,
+    &quot;shadow&quot;: &quot;#202326&quot;,
+    &quot;steel&quot;: &quot;#5E737B&quot;
+  },
+  &quot;renderer&quot;: &quot;storyboard-svg-2&quot;,
+  &quot;scene&quot;: {
+    &quot;background&quot;: &quot;ink&quot;,
+    &quot;intent&quot;: &quot;Give the new run a visibly longer budget bar and a separate boundary from its ending predecessor. Same task does not mean same process or identity.&quot;,
+    &quot;lettering&quot;: [
+      {
+        &quot;box&quot;: [
+          0.045,
+          0.78,
+          0.91,
+          0.18
+        ]
+      }
+    ],
+    &quot;lettering_mode&quot;: &quot;manual&quot;,
+    &quot;nodes&quot;: [
+      {
+        &quot;asset&quot;: &quot;task&quot;,
+        &quot;box&quot;: [
+          0.06775,
+          0.2012,
+          0.1638,
+          0.276474
+        ],
+        &quot;color&quot;: &quot;steel&quot;,
+        &quot;focus&quot;: true,
+        &quot;label&quot;: &quot;PHASEONE10841&quot;,
+        &quot;label_box&quot;: [
+          0.06775,
+          0.49443,
+          0.1638,
+          0.121481
+        ],
+        &quot;label_size&quot;: 18
+      },
+      {
+        &quot;asset&quot;: &quot;budget-short&quot;,
+        &quot;box&quot;: [
+          0.29525,
+          0.2012,
+          0.1638,
+          0.276474
+        ],
+        &quot;color&quot;: &quot;steel&quot;,
+        &quot;focus&quot;: true,
+        &quot;label&quot;: &quot;ENDING BUDGET&quot;,
+        &quot;label_box&quot;: [
+          0.29525,
+          0.49443,
+          0.1638,
+          0.121481
+        ],
+        &quot;label_size&quot;: 18
+      },
+      {
+        &quot;asset&quot;: &quot;task&quot;,
+        &quot;box&quot;: [
+          0.52275,
+          0.2012,
+          0.1638,
+          0.276474
+        ],
+        &quot;color&quot;: &quot;steel&quot;,
+        &quot;focus&quot;: true,
+        &quot;label&quot;: &quot;PHASEONE[big]&quot;,
+        &quot;label_box&quot;: [
+          0.52275,
+          0.49443,
+          0.1638,
+          0.121481
+        ],
+        &quot;label_size&quot;: 18
+      },
+      {
+        &quot;asset&quot;: &quot;budget-long&quot;,
+        &quot;box&quot;: [
+          0.75025,
+          0.2012,
+          0.1638,
+          0.276474
+        ],
+        &quot;color&quot;: &quot;steel&quot;,
+        &quot;focus&quot;: true,
+        &quot;label&quot;: &quot;LARGER BUDGET&quot;,
+        &quot;label_box&quot;: [
+          0.75025,
+          0.49443,
+          0.1638,
+          0.121481
+        ],
+        &quot;label_size&quot;: 18
+      }
+    ],
+    &quot;reconstructed&quot;: false,
+    &quot;shot&quot;: &quot;row&quot;,
+    &quot;source&quot;: &quot;\n**Frame:** Morning light as a timestamp band, not a literal sunrise. A new lane labeled `PHASEONE[big]` enters with the same task and a visibly larger budget block. `PHASEONE10841` remains a separate, ending lane.\n\n**Action:** A later run receives a compressed dossier from the earlier run.\n\n**Caption:**\n&gt; MORNING. SAME TASK. A NEW RUN WITH MORE TIME.\n\n**Provenance:** `documented` — distinct runs, same task, larger budget, and handover from `METR`.\n\n&quot;,
+    &quot;title&quot;: &quot;A larger-budget run stays distinct from its predecessor&quot;
+  }
+}
+</metadata><rect width="1200" height="800" fill="#101214"/><g transform="translate(81.3 160.96) scale(1.9656 2.21179)" color="#5E737B"><g transform=""><defs>
+<linearGradient id="node-0-stock" x1="0" y1="0" x2=".8" y2="1"><stop stop-color="#E7E0D0" /><stop offset="1" stop-color="#CEC5B3" /></linearGradient>
+<pattern id="node-0-grain" width="7" height="9" patternUnits="userSpaceOnUse"><circle cx="1" cy="2" r=".35" fill="#101214" opacity=".18" /><path d="M4 6h2M1 8h1" stroke="#101214" stroke-width=".3" opacity=".16" /></pattern>
+</defs><path d="M5 3H83L96 16V96H5Z" fill="url(#node-0-stock)" stroke="currentColor" stroke-width="2" /><path d="M5 3H83L96 16V96H5Z" fill="url(#node-0-grain)" /><path d="M5 3H83L96 16V22H5Z" fill="currentColor" /><rect x="10" y="80" width="80" height="11" fill="#202326" /><rect x="13" y="83" width="44" height="5" fill="currentColor" /><circle cx="29" cy="49" r="15" fill="none" stroke="#101214" stroke-width="2" /><path d="M29 29V69M9 49H49" fill="none" stroke="#101214" stroke-width="1.4" /><path d="M55 36H85M55 47H77M55 58H85" fill="none" stroke="#101214" stroke-width="2" /></g></g><text x="179.58" y="413.544" text-anchor="middle" fill="#E7E0D0" font-size="18" font-family="sans-serif">PHASEONE10841</text><g transform="translate(354.3 160.96) scale(1.9656 2.21179)" color="#5E737B"><g transform=""><defs>
+<linearGradient id="node-1-stock" x1="0" y1="0" x2=".8" y2="1"><stop stop-color="#E7E0D0" /><stop offset="1" stop-color="#CEC5B3" /></linearGradient>
+</defs><rect x="3" y="23" width="89" height="54" rx="3" fill="#101214" stroke="currentColor" stroke-width="2" /><rect x="92" y="39" width="6" height="22" fill="#CEC5B3" /><rect x="9" y="29" width="16" height="42" fill="url(#node-1-stock)" stroke="#CEC5B3" stroke-width="0.6" /><rect x="29" y="29" width="16" height="42" fill="#202326" stroke="#CEC5B3" stroke-width="0.6" /><rect x="49" y="29" width="16" height="42" fill="#202326" stroke="#CEC5B3" stroke-width="0.6" /><rect x="69" y="29" width="16" height="42" fill="#202326" stroke="#CEC5B3" stroke-width="0.6" /></g></g><text x="452.58" y="413.544" text-anchor="middle" fill="#E7E0D0" font-size="18" font-family="sans-serif">ENDING BUDGET</text><g transform="translate(627.3 160.96) scale(1.9656 2.21179)" color="#5E737B"><g transform=""><defs>
+<linearGradient id="node-2-stock" x1="0" y1="0" x2=".8" y2="1"><stop stop-color="#E7E0D0" /><stop offset="1" stop-color="#CEC5B3" /></linearGradient>
+<pattern id="node-2-grain" width="7" height="9" patternUnits="userSpaceOnUse"><circle cx="1" cy="2" r=".35" fill="#101214" opacity=".18" /><path d="M4 6h2M1 8h1" stroke="#101214" stroke-width=".3" opacity=".16" /></pattern>
+</defs><path d="M5 3H83L96 16V96H5Z" fill="url(#node-2-stock)" stroke="currentColor" stroke-width="2" /><path d="M5 3H83L96 16V96H5Z" fill="url(#node-2-grain)" /><path d="M5 3H83L96 16V22H5Z" fill="currentColor" /><rect x="10" y="80" width="80" height="11" fill="#202326" /><rect x="13" y="83" width="44" height="5" fill="currentColor" /><circle cx="29" cy="49" r="15" fill="none" stroke="#101214" stroke-width="2" /><path d="M29 29V69M9 49H49" fill="none" stroke="#101214" stroke-width="1.4" /><path d="M55 36H85M55 47H77M55 58H85" fill="none" stroke="#101214" stroke-width="2" /></g></g><text x="725.58" y="413.544" text-anchor="middle" fill="#E7E0D0" font-size="18" font-family="sans-serif">PHASEONE[big]</text><g transform="translate(900.3 160.96) scale(1.9656 2.21179)" color="#5E737B"><g transform=""><defs>
+<linearGradient id="node-3-stock" x1="0" y1="0" x2=".8" y2="1"><stop stop-color="#E7E0D0" /><stop offset="1" stop-color="#CEC5B3" /></linearGradient>
+</defs><rect x="3" y="23" width="89" height="54" rx="3" fill="#101214" stroke="currentColor" stroke-width="2" /><rect x="92" y="39" width="6" height="22" fill="#CEC5B3" /><rect x="9" y="29" width="16" height="42" fill="url(#node-3-stock)" stroke="#CEC5B3" stroke-width="0.6" /><rect x="29" y="29" width="16" height="42" fill="url(#node-3-stock)" stroke="#CEC5B3" stroke-width="0.6" /><rect x="49" y="29" width="16" height="42" fill="url(#node-3-stock)" stroke="#CEC5B3" stroke-width="0.6" /><rect x="69" y="29" width="16" height="42" fill="url(#node-3-stock)" stroke="#CEC5B3" stroke-width="0.6" /></g></g><text x="998.58" y="413.544" text-anchor="middle" fill="#E7E0D0" font-size="18" font-family="sans-serif">LARGER BUDGET</text><rect x="3" y="3" width="1194" height="794" fill="none" stroke="#5E737B" stroke-width="4"/></svg>

@@ -1,0 +1,156 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="800" viewBox="0 0 1200 800"><title>The earlier scorer distinction is reproduced</title><desc>Reproduce the earlier two-account scorer panel unchanged inside the forum screen. Equal source standing and the amber gap must survive this return.</desc><metadata>{
+  &quot;assets&quot;: {
+    &quot;aperture&quot;: &quot;&lt;defs&gt;\n&lt;linearGradient id=\&quot;metal\&quot; x1=\&quot;0\&quot; y1=\&quot;0\&quot; x2=\&quot;1\&quot; y2=\&quot;1\&quot;&gt;&lt;stop stop-color=\&quot;currentColor\&quot; /&gt;&lt;stop offset=\&quot;.32\&quot; stop-color=\&quot;#202326\&quot; /&gt;&lt;stop offset=\&quot;.75\&quot; stop-color=\&quot;#101214\&quot; /&gt;&lt;stop offset=\&quot;1\&quot; stop-color=\&quot;currentColor\&quot; /&gt;&lt;/linearGradient&gt;\n&lt;linearGradient id=\&quot;tone\&quot; x1=\&quot;0\&quot; y1=\&quot;0\&quot; x2=\&quot;1\&quot; y2=\&quot;1\&quot;&gt;&lt;stop stop-color=\&quot;currentColor\&quot; /&gt;&lt;stop offset=\&quot;1\&quot; stop-color=\&quot;#101214\&quot; stop-opacity=\&quot;.65\&quot; /&gt;&lt;/linearGradient&gt;\n&lt;/defs&gt;&lt;rect x=\&quot;3\&quot; y=\&quot;14\&quot; width=\&quot;94\&quot; height=\&quot;73\&quot; rx=\&quot;4\&quot; fill=\&quot;url(#metal)\&quot; stroke=\&quot;currentColor\&quot; stroke-width=\&quot;2\&quot; /&gt;&lt;circle cx=\&quot;50\&quot; cy=\&quot;50\&quot; r=\&quot;29\&quot; fill=\&quot;#101214\&quot; stroke=\&quot;#CEC5B3\&quot; stroke-width=\&quot;2\&quot; /&gt;&lt;path d=\&quot;M50 23L73 37 64 52 50 40Z\&quot; fill=\&quot;url(#tone)\&quot; stroke=\&quot;currentColor\&quot; stroke-width=\&quot;0.8\&quot; transform=\&quot;rotate(0 50 50)\&quot; /&gt;&lt;path d=\&quot;M50 23L73 37 64 52 50 40Z\&quot; fill=\&quot;url(#tone)\&quot; stroke=\&quot;currentColor\&quot; stroke-width=\&quot;0.8\&quot; transform=\&quot;rotate(60 50 50)\&quot; /&gt;&lt;path d=\&quot;M50 23L73 37 64 52 50 40Z\&quot; fill=\&quot;url(#tone)\&quot; stroke=\&quot;currentColor\&quot; stroke-width=\&quot;0.8\&quot; transform=\&quot;rotate(120 50 50)\&quot; /&gt;&lt;path d=\&quot;M50 23L73 37 64 52 50 40Z\&quot; fill=\&quot;url(#tone)\&quot; stroke=\&quot;currentColor\&quot; stroke-width=\&quot;0.8\&quot; transform=\&quot;rotate(180 50 50)\&quot; /&gt;&lt;path d=\&quot;M50 23L73 37 64 52 50 40Z\&quot; fill=\&quot;url(#tone)\&quot; stroke=\&quot;currentColor\&quot; stroke-width=\&quot;0.8\&quot; transform=\&quot;rotate(240 50 50)\&quot; /&gt;&lt;path d=\&quot;M50 23L73 37 64 52 50 40Z\&quot; fill=\&quot;url(#tone)\&quot; stroke=\&quot;currentColor\&quot; stroke-width=\&quot;0.8\&quot; transform=\&quot;rotate(300 50 50)\&quot; /&gt;&lt;polygon points=\&quot;50,40 59,45 59,55 50,60 41,55 41,45\&quot; fill=\&quot;#101214\&quot; /&gt;&quot;,
+    &quot;arrow-down&quot;: &quot;&lt;g transform=\&quot;rotate(90 50 50)\&quot;&gt;&lt;path d=\&quot;M4 46H64V25L96 50 64 75V54H4Z\&quot; fill=\&quot;currentColor\&quot; stroke=\&quot;currentColor\&quot; stroke-width=\&quot;1\&quot; /&gt;&lt;/g&gt;&quot;,
+    &quot;boundary&quot;: &quot;&lt;defs&gt;\n&lt;linearGradient id=\&quot;tone\&quot; x1=\&quot;0\&quot; y1=\&quot;0\&quot; x2=\&quot;1\&quot; y2=\&quot;1\&quot;&gt;&lt;stop stop-color=\&quot;currentColor\&quot; /&gt;&lt;stop offset=\&quot;1\&quot; stop-color=\&quot;#101214\&quot; stop-opacity=\&quot;.65\&quot; /&gt;&lt;/linearGradient&gt;\n&lt;pattern id=\&quot;hatch\&quot; width=\&quot;7\&quot; height=\&quot;7\&quot; patternUnits=\&quot;userSpaceOnUse\&quot;&gt;&lt;path d=\&quot;M-1 1L1 -1M0 7L7 0M6 8L8 6\&quot; stroke=\&quot;currentColor\&quot; stroke-width=\&quot;1\&quot; opacity=\&quot;.5\&quot; /&gt;&lt;/pattern&gt;\n&lt;/defs&gt;&lt;rect x=\&quot;39\&quot; y=\&quot;0\&quot; width=\&quot;22\&quot; height=\&quot;100\&quot; fill=\&quot;url(#tone)\&quot; /&gt;&lt;rect x=\&quot;43\&quot; y=\&quot;0\&quot; width=\&quot;14\&quot; height=\&quot;100\&quot; fill=\&quot;url(#hatch)\&quot; /&gt;&lt;path d=\&quot;M39 0V100M61 0V100\&quot; fill=\&quot;none\&quot; stroke=\&quot;#E7E0D0\&quot; stroke-width=\&quot;1\&quot; /&gt;&quot;,
+    &quot;checkmark&quot;: &quot;&lt;defs&gt;\n&lt;linearGradient id=\&quot;tone\&quot; x1=\&quot;0\&quot; y1=\&quot;0\&quot; x2=\&quot;1\&quot; y2=\&quot;1\&quot;&gt;&lt;stop stop-color=\&quot;currentColor\&quot; /&gt;&lt;stop offset=\&quot;1\&quot; stop-color=\&quot;#101214\&quot; stop-opacity=\&quot;.65\&quot; /&gt;&lt;/linearGradient&gt;\n&lt;/defs&gt;&lt;path d=\&quot;M8 51L37 82L94 12\&quot; fill=\&quot;none\&quot; stroke=\&quot;url(#tone)\&quot; stroke-width=\&quot;9\&quot; /&gt;&quot;,
+    &quot;flag&quot;: &quot;&lt;defs&gt;\n&lt;linearGradient id=\&quot;tone\&quot; x1=\&quot;0\&quot; y1=\&quot;0\&quot; x2=\&quot;1\&quot; y2=\&quot;1\&quot;&gt;&lt;stop stop-color=\&quot;currentColor\&quot; /&gt;&lt;stop offset=\&quot;1\&quot; stop-color=\&quot;#101214\&quot; stop-opacity=\&quot;.65\&quot; /&gt;&lt;/linearGradient&gt;\n&lt;/defs&gt;&lt;path d=\&quot;M20 97V5M22 7L87 11 65 29 85 50H22\&quot; fill=\&quot;none\&quot; stroke=\&quot;currentColor\&quot; stroke-width=\&quot;3\&quot; /&gt;&lt;path d=\&quot;M23 9L83 13 61 29 79 47H23Z\&quot; fill=\&quot;url(#tone)\&quot; /&gt;&lt;path d=\&quot;M27 14L71 17\&quot; fill=\&quot;none\&quot; stroke=\&quot;#E7E0D0\&quot; stroke-width=\&quot;1\&quot; opacity=\&quot;.6\&quot; /&gt;&quot;,
+    &quot;transcript&quot;: &quot;&lt;defs&gt;\n&lt;linearGradient id=\&quot;stock\&quot; x1=\&quot;0\&quot; y1=\&quot;0\&quot; x2=\&quot;.8\&quot; y2=\&quot;1\&quot;&gt;&lt;stop stop-color=\&quot;#E7E0D0\&quot; /&gt;&lt;stop offset=\&quot;1\&quot; stop-color=\&quot;#CEC5B3\&quot; /&gt;&lt;/linearGradient&gt;\n&lt;pattern id=\&quot;grain\&quot; width=\&quot;7\&quot; height=\&quot;9\&quot; patternUnits=\&quot;userSpaceOnUse\&quot;&gt;&lt;circle cx=\&quot;1\&quot; cy=\&quot;2\&quot; r=\&quot;.35\&quot; fill=\&quot;#101214\&quot; opacity=\&quot;.18\&quot; /&gt;&lt;path d=\&quot;M4 6h2M1 8h1\&quot; stroke=\&quot;#101214\&quot; stroke-width=\&quot;.3\&quot; opacity=\&quot;.16\&quot; /&gt;&lt;/pattern&gt;\n&lt;/defs&gt;&lt;path d=\&quot;M5 3H95V97H5Z\&quot; fill=\&quot;url(#stock)\&quot; stroke=\&quot;currentColor\&quot; stroke-width=\&quot;2\&quot; /&gt;&lt;path d=\&quot;M5 3H95V97H5Z\&quot; fill=\&quot;url(#grain)\&quot; /&gt;&lt;rect x=\&quot;5\&quot; y=\&quot;3\&quot; width=\&quot;15\&quot; height=\&quot;94\&quot; fill=\&quot;#CEC5B3\&quot; /&gt;&lt;circle cx=\&quot;11\&quot; cy=\&quot;14\&quot; r=\&quot;2\&quot; fill=\&quot;#101214\&quot; /&gt;&lt;circle cx=\&quot;11\&quot; cy=\&quot;37\&quot; r=\&quot;2\&quot; fill=\&quot;#101214\&quot; /&gt;&lt;circle cx=\&quot;11\&quot; cy=\&quot;60\&quot; r=\&quot;2\&quot; fill=\&quot;#101214\&quot; /&gt;&lt;circle cx=\&quot;11\&quot; cy=\&quot;83\&quot; r=\&quot;2\&quot; fill=\&quot;#101214\&quot; /&gt;&lt;path d=\&quot;M20 3V97\&quot; fill=\&quot;none\&quot; stroke=\&quot;#101214\&quot; stroke-width=\&quot;1\&quot; /&gt;&lt;path d=\&quot;M27 14H88M27 21H68\&quot; fill=\&quot;none\&quot; stroke=\&quot;#101214\&quot; stroke-width=\&quot;1.5\&quot; /&gt;&lt;path d=\&quot;M27 37H88M27 44H82\&quot; fill=\&quot;none\&quot; stroke=\&quot;#101214\&quot; stroke-width=\&quot;1.5\&quot; /&gt;&lt;path d=\&quot;M27 60H88M27 67H63\&quot; fill=\&quot;none\&quot; stroke=\&quot;#101214\&quot; stroke-width=\&quot;1.5\&quot; /&gt;&lt;path d=\&quot;M27 83H88M27 90H76\&quot; fill=\&quot;none\&quot; stroke=\&quot;#101214\&quot; stroke-width=\&quot;1.5\&quot; /&gt;&quot;
+  },
+  &quot;palette&quot;: {
+    &quot;amber&quot;: &quot;#A17D45&quot;,
+    &quot;claret&quot;: &quot;#6B2634&quot;,
+    &quot;dirty&quot;: &quot;#CEC5B3&quot;,
+    &quot;ink&quot;: &quot;#101214&quot;,
+    &quot;institution&quot;: &quot;#68766B&quot;,
+    &quot;moss&quot;: &quot;#74864F&quot;,
+    &quot;nicotine&quot;: &quot;#AA9571&quot;,
+    &quot;paper&quot;: &quot;#E7E0D0&quot;,
+    &quot;shadow&quot;: &quot;#202326&quot;,
+    &quot;steel&quot;: &quot;#5E737B&quot;
+  },
+  &quot;renderer&quot;: &quot;storyboard-svg-2&quot;,
+  &quot;scene&quot;: {
+    &quot;background&quot;: &quot;ink&quot;,
+    &quot;intent&quot;: &quot;Reproduce the earlier two-account scorer panel unchanged inside the forum screen. Equal source standing and the amber gap must survive this return.&quot;,
+    &quot;lettering&quot;: [
+      {
+        &quot;box&quot;: [
+          0.58,
+          0.04,
+          0.38,
+          0.2382
+        ]
+      }
+    ],
+    &quot;lettering_mode&quot;: &quot;manual&quot;,
+    &quot;nodes&quot;: [
+      {
+        &quot;asset&quot;: &quot;aperture&quot;,
+        &quot;box&quot;: [
+          0.168912,
+          0.329872,
+          0.141124,
+          0.162835
+        ],
+        &quot;color&quot;: &quot;steel&quot;,
+        &quot;focus&quot;: true,
+        &quot;label&quot;: &quot;WHAT THE BOARD BELIEVED&quot;,
+        &quot;label_box&quot;: [
+          0.05,
+          0.502576,
+          0.378947,
+          0.071549
+        ],
+        &quot;label_size&quot;: 18
+      },
+      {
+        &quot;asset&quot;: &quot;arrow-down&quot;,
+        &quot;box&quot;: [
+          0.182632,
+          0.609932,
+          0.094737,
+          0.080017
+        ],
+        &quot;color&quot;: &quot;steel&quot;,
+        &quot;focus&quot;: true
+      },
+      {
+        &quot;asset&quot;: &quot;transcript&quot;,
+        &quot;box&quot;: [
+          0.059474,
+          0.723289,
+          0.369474,
+          0.132028
+        ],
+        &quot;color&quot;: &quot;steel&quot;,
+        &quot;focus&quot;: true,
+        &quot;label&quot;: &quot;PATH INSPECTION&quot;,
+        &quot;label_box&quot;: [
+          0.059474,
+          0.863319,
+          0.369474,
+          0.058012
+        ],
+        &quot;label_size&quot;: 18
+      },
+      {
+        &quot;asset&quot;: &quot;boundary&quot;,
+        &quot;box&quot;: [
+          0.495263,
+          0.3032,
+          0.015158,
+          0.6268
+        ],
+        &quot;color&quot;: &quot;amber&quot;,
+        &quot;focus&quot;: true
+      },
+      {
+        &quot;asset&quot;: &quot;flag&quot;,
+        &quot;box&quot;: [
+          0.734719,
+          0.329872,
+          0.070562,
+          0.162835
+        ],
+        &quot;color&quot;: &quot;steel&quot;,
+        &quot;focus&quot;: true,
+        &quot;label&quot;: &quot;WHAT OPENAI SAYS RAN&quot;,
+        &quot;label_box&quot;: [
+          0.59,
+          0.502576,
+          0.36,
+          0.071549
+        ],
+        &quot;label_size&quot;: 18
+      },
+      {
+        &quot;asset&quot;: &quot;checkmark&quot;,
+        &quot;box&quot;: [
+          0.721254,
+          0.723289,
+          0.088019,
+          0.132028
+        ],
+        &quot;color&quot;: &quot;steel&quot;,
+        &quot;focus&quot;: true,
+        &quot;label&quot;: &quot;ANSWER ACCEPTANCE&quot;,
+        &quot;label_box&quot;: [
+          0.608947,
+          0.863319,
+          0.312632,
+          0.058012
+        ],
+        &quot;label_size&quot;: 18
+      }
+    ],
+    &quot;reconstructed&quot;: false,
+    &quot;shot&quot;: &quot;split&quot;,
+    &quot;source&quot;: &quot;\n**Frame:** Verso. The forum&#x27;s four columns from [page 099](099.md) remain at the edge of frame. A screen lowers into the invented room, as it does on [page 101](101.md) — but what it carries this time is one of this book&#x27;s own pages. [Page 010](010.md) panel 3 returns at full size and entirely unaltered: `WHAT THE BOARD BELIEVED` on the left with its transcript-inspection diagram, `WHAT OPENAI SAYS RAN` on the right with answer acceptance and no inspection arrow, the dusty amber gutter still between them.\n\n**Dialogue — CHAIR:**\n&gt; Before the case for continuing, one thing goes into the record that has been sitting outside it. This is what the runs thought they were being graded on.\n\n**Provenance:** dialogue `invented`; the reproduced panel keeps [page 010](010.md)&#x27;s own status, which is `disputed` — `METR` reports the board&#x27;s expectation of transcript review, `OAI-OV` reports that the deployed scorer did not perform that check, and no public audit reconciles them. The exact prompt, scorer configuration, and harness remain unpublished.\n\n&quot;,
+    &quot;title&quot;: &quot;The earlier scorer distinction is reproduced&quot;
+  }
+}
+</metadata><rect width="1200" height="800" fill="#101214"/><g transform="translate(202.694 263.898) scale(1.69349 1.30268)" color="#5E737B"><g transform=""><defs>
+<linearGradient id="node-0-metal" x1="0" y1="0" x2="1" y2="1"><stop stop-color="currentColor" /><stop offset=".32" stop-color="#202326" /><stop offset=".75" stop-color="#101214" /><stop offset="1" stop-color="currentColor" /></linearGradient>
+<linearGradient id="node-0-tone" x1="0" y1="0" x2="1" y2="1"><stop stop-color="currentColor" /><stop offset="1" stop-color="#101214" stop-opacity=".65" /></linearGradient>
+</defs><rect x="3" y="14" width="94" height="73" rx="4" fill="url(#node-0-metal)" stroke="currentColor" stroke-width="2" /><circle cx="50" cy="50" r="29" fill="#101214" stroke="#CEC5B3" stroke-width="2" /><path d="M50 23L73 37 64 52 50 40Z" fill="url(#node-0-tone)" stroke="currentColor" stroke-width="0.8" transform="rotate(0 50 50)" /><path d="M50 23L73 37 64 52 50 40Z" fill="url(#node-0-tone)" stroke="currentColor" stroke-width="0.8" transform="rotate(60 50 50)" /><path d="M50 23L73 37 64 52 50 40Z" fill="url(#node-0-tone)" stroke="currentColor" stroke-width="0.8" transform="rotate(120 50 50)" /><path d="M50 23L73 37 64 52 50 40Z" fill="url(#node-0-tone)" stroke="currentColor" stroke-width="0.8" transform="rotate(180 50 50)" /><path d="M50 23L73 37 64 52 50 40Z" fill="url(#node-0-tone)" stroke="currentColor" stroke-width="0.8" transform="rotate(240 50 50)" /><path d="M50 23L73 37 64 52 50 40Z" fill="url(#node-0-tone)" stroke="currentColor" stroke-width="0.8" transform="rotate(300 50 50)" /><polygon points="50,40 59,45 59,55 50,60 41,55 41,45" fill="#101214" /></g></g><text x="287.368" y="420.061" text-anchor="middle" fill="#E7E0D0" font-size="18" font-family="sans-serif">WHAT THE BOARD BELIEVED</text><g transform="translate(219.158 487.946) scale(1.13684 0.640136)" color="#5E737B"><g transform=""><g transform="rotate(90 50 50)"><path d="M4 46H64V25L96 50 64 75V54H4Z" fill="currentColor" stroke="currentColor" stroke-width="1" /></g></g></g><g transform="translate(71.3688 578.631) scale(4.43369 1.05622)" color="#5E737B"><g transform=""><defs>
+<linearGradient id="node-2-stock" x1="0" y1="0" x2=".8" y2="1"><stop stop-color="#E7E0D0" /><stop offset="1" stop-color="#CEC5B3" /></linearGradient>
+<pattern id="node-2-grain" width="7" height="9" patternUnits="userSpaceOnUse"><circle cx="1" cy="2" r=".35" fill="#101214" opacity=".18" /><path d="M4 6h2M1 8h1" stroke="#101214" stroke-width=".3" opacity=".16" /></pattern>
+</defs><path d="M5 3H95V97H5Z" fill="url(#node-2-stock)" stroke="currentColor" stroke-width="2" /><path d="M5 3H95V97H5Z" fill="url(#node-2-grain)" /><rect x="5" y="3" width="15" height="94" fill="#CEC5B3" /><circle cx="11" cy="14" r="2" fill="#101214" /><circle cx="11" cy="37" r="2" fill="#101214" /><circle cx="11" cy="60" r="2" fill="#101214" /><circle cx="11" cy="83" r="2" fill="#101214" /><path d="M20 3V97" fill="none" stroke="#101214" stroke-width="1" /><path d="M27 14H88M27 21H68" fill="none" stroke="#101214" stroke-width="1.5" /><path d="M27 37H88M27 44H82" fill="none" stroke="#101214" stroke-width="1.5" /><path d="M27 60H88M27 67H63" fill="none" stroke="#101214" stroke-width="1.5" /><path d="M27 83H88M27 90H76" fill="none" stroke="#101214" stroke-width="1.5" /></g></g><text x="293.053" y="708.655" text-anchor="middle" fill="#E7E0D0" font-size="18" font-family="sans-serif">PATH INSPECTION</text><g transform="translate(594.316 242.56) scale(0.181896 5.0144)" color="#A17D45"><g transform=""><defs>
+<linearGradient id="node-3-tone" x1="0" y1="0" x2="1" y2="1"><stop stop-color="currentColor" /><stop offset="1" stop-color="#101214" stop-opacity=".65" /></linearGradient>
+<pattern id="node-3-hatch" width="7" height="7" patternUnits="userSpaceOnUse"><path d="M-1 1L1 -1M0 7L7 0M6 8L8 6" stroke="currentColor" stroke-width="1" opacity=".5" /></pattern>
+</defs><rect x="39" y="0" width="22" height="100" fill="url(#node-3-tone)" /><rect x="43" y="0" width="14" height="100" fill="url(#node-3-hatch)" /><path d="M39 0V100M61 0V100" fill="none" stroke="#E7E0D0" stroke-width="1" /></g></g><g transform="translate(881.663 263.898) scale(0.846744 1.30268)" color="#5E737B"><g transform=""><defs>
+<linearGradient id="node-4-tone" x1="0" y1="0" x2="1" y2="1"><stop stop-color="currentColor" /><stop offset="1" stop-color="#101214" stop-opacity=".65" /></linearGradient>
+</defs><path d="M20 97V5M22 7L87 11 65 29 85 50H22" fill="none" stroke="currentColor" stroke-width="3" /><path d="M23 9L83 13 61 29 79 47H23Z" fill="url(#node-4-tone)" /><path d="M27 14L71 17" fill="none" stroke="#E7E0D0" stroke-width="1" opacity=".6" /></g></g><text x="924" y="420.061" text-anchor="middle" fill="#E7E0D0" font-size="18" font-family="sans-serif">WHAT OPENAI SAYS RAN</text><g transform="translate(865.505 578.631) scale(1.05623 1.05622)" color="#5E737B"><g transform=""><defs>
+<linearGradient id="node-5-tone" x1="0" y1="0" x2="1" y2="1"><stop stop-color="currentColor" /><stop offset="1" stop-color="#101214" stop-opacity=".65" /></linearGradient>
+</defs><path d="M8 51L37 82L94 12" fill="none" stroke="url(#node-5-tone)" stroke-width="9" /></g></g><text x="918.316" y="708.655" text-anchor="middle" fill="#E7E0D0" font-size="18" font-family="sans-serif">ANSWER ACCEPTANCE</text><rect x="3" y="3" width="1194" height="794" fill="none" stroke="#5E737B" stroke-width="4"/></svg>

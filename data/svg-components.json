@@ -430,7 +430,7 @@
     },
     "budget-long": {
       "category": "objects",
-      "default": "v003",
+      "default": "v004",
       "description": "A schematic long remaining budget, with no claim to an exact duration.",
       "name": "Budget long",
       "versions": [
@@ -454,12 +454,19 @@
           "note": "Increase filled-state contrast so scope and budget differences survive small-size and grayscale viewing. Scene-controlled ink accents preserve state and future-register colors. Keep only the gradients and textures this component uses, for concise isolated editing.",
           "parent": "v002",
           "sha256": "5a21c358fbb6c045f295f0b4a7639974c0f403c559a64b11ad1364c7c6bf2ea9"
+        },
+        {
+          "created": "2026-09-12T23:28:33+00:00",
+          "id": "v004",
+          "note": "Recess the runtime cells in an alloy casing with beveled edges. Filled versus empty charge remains the dominant cue and differs from paper permission passes.",
+          "parent": "v003",
+          "sha256": "e18a934d3dc63e1c020ca502113571f1a93cb2a47bc70ea9099557191ea495e3"
         }
       ]
     },
     "budget-short": {
       "category": "objects",
-      "default": "v003",
+      "default": "v004",
       "description": "A schematic short remaining budget. Compare with the long-budget component at equal scale.",
       "name": "Budget short",
       "versions": [
@@ -483,6 +490,13 @@
           "note": "Increase filled-state contrast so scope and budget differences survive small-size and grayscale viewing. Scene-controlled ink accents preserve state and future-register colors. Keep only the gradients and textures this component uses, for concise isolated editing.",
           "parent": "v002",
           "sha256": "422560b6600a0288cec70375c1b390b7fb0a55636e026285076ebc8098ef0ca9"
+        },
+        {
+          "created": "2026-09-12T23:28:33+00:00",
+          "id": "v004",
+          "note": "Recess the runtime cells in an alloy casing with beveled edges. Filled versus empty charge remains the dominant cue and differs from paper permission passes.",
+          "parent": "v003",
+          "sha256": "deaccf2ae80516c37f3156d6cc6a001d8683acc3e92ce91914eefcb175d6d3d5"
         }
       ]
     },
@@ -1141,7 +1155,7 @@
     },
     "flag": {
       "category": "objects",
-      "default": "v003",
+      "default": "v004",
       "description": "A task result or objective marker, distinct from its acceptance by a grader.",
       "name": "Flag",
       "versions": [
@@ -1165,6 +1179,13 @@
           "note": "Scene-controlled ink accents preserve state and future-register colors. Keep only the gradients and textures this component uses, for concise isolated editing.",
           "parent": "v002",
           "sha256": "721ee1cdf336cf915989c7e84063191b356de1ac78bf0686a00b47e07e7c7abe"
+        },
+        {
+          "created": "2026-09-12T23:28:34+00:00",
+          "id": "v004",
+          "note": "Stitched attachment and fabric fold highlights distinguish an objective pennant from a status indicator without asserting that the objective is reached.",
+          "parent": "v003",
+          "sha256": "9eed88fd2a9a4f8bb66a5633bbfc0dd57ea1330fef08aa6a8d486b2d843b4873"
         }
       ]
     },
@@ -1533,7 +1554,7 @@
     },
     "network-wall": {
       "category": "objects",
-      "default": "v001",
+      "default": "v002",
       "description": "A solid tiled network wall with disconnected cable ends. Indicates unavailable reach, not a decision awaiting human approval.",
       "name": "Network restriction",
       "versions": [
@@ -1543,6 +1564,13 @@
           "note": "A solid tiled network wall with disconnected cable ends. Indicates unavailable reach, not a decision awaiting human approval.",
           "parent": null,
           "sha256": "9090926d6520340fae80e6a0abf171a190cc6745d77e1fb6bf248af9b1327dc7"
+        },
+        {
+          "created": "2026-09-12T23:28:34+00:00",
+          "id": "v002",
+          "note": "Add granular masonry and a lit rim. Preserve every existing open, closed, permitted or held state.",
+          "parent": "v001",
+          "sha256": "870d7340577eb6e2756c5fcc7f432b85dd3df71811094b6ebbd96aae4087b441"
         }
       ]
     },
@@ -1577,7 +1605,7 @@
     },
     "one-way-control": {
       "category": "objects",
-      "default": "v001",
+      "default": "v002",
       "description": "A ratchet edge and an unpressed control identify a one-way action. No crossing arrow or activated state establishes an outcome.",
       "name": "Irreversible action threshold",
       "versions": [
@@ -1587,6 +1615,13 @@
           "note": "A ratchet edge and an unpressed control identify a one-way action. No crossing arrow or activated state establishes an outcome.",
           "parent": null,
           "sha256": "960cab3aa91f8206c6e253776f7abcc5ff2d3c83d5ce76f2c4016ae20791c6d2"
+        },
+        {
+          "created": "2026-09-12T23:28:34+00:00",
+          "id": "v002",
+          "note": "Add brushed ratchet material and a recessed unpressed control. Preserve every existing open, closed, permitted or held state.",
+          "parent": "v001",
+          "sha256": "f2a1888ce8002143e49fe2160efb6c23d07fa0af86c8e14d796249c533fb9ae8"
         }
       ]
     },
@@ -1809,7 +1844,7 @@
     },
     "parallel-calendar-field": {
       "category": "locations",
-      "default": "v001",
+      "default": "v002",
       "description": "Two separated calendar rails with a wide blank middle gutter and aligned edge ticks. Supports dated comparison without links, shared identities, or additional event marks.",
       "name": "Unconnected calendar lanes",
       "versions": [
@@ -1819,6 +1854,13 @@
           "note": "Two separated calendar rails with a wide blank middle gutter and aligned edge ticks. Supports dated comparison without links, shared identities, or additional event marks.",
           "parent": null,
           "sha256": "17f8175a0463b3483d3655db583a7fa509abe3a4b93109e9a5fd15fab5634455"
+        },
+        {
+          "created": "2026-09-12T23:28:34+00:00",
+          "id": "v002",
+          "note": "A steel upper rail and paper lower rail distinguish the storage and public-document timelines. Matching ticks preserve scale; the full blank middle gutter retains the absence of a demonstrated bridge.",
+          "parent": "v001",
+          "sha256": "249625a2e60576b25e24db9dd9af206af135bfc45d25d9f5673dcee78652e209"
         }
       ]
     },
@@ -1889,7 +1931,7 @@
     },
     "policy-filter": {
       "category": "objects",
-      "default": "v001",
+      "default": "v002",
       "description": "A sieve with one narrow allowed aperture and stopped alternative lanes. Shows a reduced request surface without claiming all access is blocked.",
       "name": "Restricted request filter",
       "versions": [
@@ -1899,12 +1941,19 @@
           "note": "A sieve with one narrow allowed aperture and stopped alternative lanes. Shows a reduced request surface without claiming all access is blocked.",
           "parent": null,
           "sha256": "8fa25b2f08f06949591016bc07f75243966c2b615cb44a9da758e2b5938517af"
+        },
+        {
+          "created": "2026-09-12T23:28:34+00:00",
+          "id": "v002",
+          "note": "Add contrasting sieve rails around the permitted aperture. Preserve every existing open, closed, permitted or held state.",
+          "parent": "v001",
+          "sha256": "9400034582a37c48f9a254e4eb27a919ef1e4d401629e61beedbb6c7b863f42e"
         }
       ]
     },
     "preserved-evidence-field": {
       "category": "locations",
-      "default": "v001",
+      "default": "v002",
       "description": "An archival sleeve with folded corners and a continuous custody band. Its empty center holds preserved storage separately from live traffic; no records or checksums are invented.",
       "name": "Preserved evidence enclosure",
       "versions": [
@@ -1914,12 +1963,19 @@
           "note": "An archival sleeve with folded corners and a continuous custody band. Its empty center holds preserved storage separately from live traffic; no records or checksums are invented.",
           "parent": null,
           "sha256": "edeade0ed75c25d95206efb02bffc9650ff0f524a517faf4bf7cb13ccd470d81"
+        },
+        {
+          "created": "2026-09-12T23:28:34+00:00",
+          "id": "v002",
+          "note": "Folded paper corners, sleeve seams and a fibrous custody band identify preserved evidence. The center remains translucent, with no invented seal text or record content.",
+          "parent": "v001",
+          "sha256": "7f43c3c3fe382012188edb6ca212130cff127439a75634daae1c4b391b028e64"
         }
       ]
     },
     "privilege-gate": {
       "category": "objects",
-      "default": "v001",
+      "default": "v002",
       "description": "Nested privilege layers and a keyhole distinguish authority from network reach. The inner authority layer remains closed.",
       "name": "Administrator privilege gate",
       "versions": [
@@ -1929,12 +1985,19 @@
           "note": "Nested privilege layers and a keyhole distinguish authority from network reach. The inner authority layer remains closed.",
           "parent": null,
           "sha256": "bc245f0801e6e324e844f7360f0d8ea91455d6f420cc9775911af3b51fb9eb0a"
+        },
+        {
+          "created": "2026-09-12T23:28:34+00:00",
+          "id": "v002",
+          "note": "Add layered metal authority frames. Preserve every existing open, closed, permitted or held state.",
+          "parent": "v001",
+          "sha256": "cf33ef3a11ceb70d564f75683694fecd1c614c9b32e4ac79cd96e46110b69215"
         }
       ]
     },
     "privilege-open": {
       "category": "objects",
-      "default": "v001",
+      "default": "v002",
       "description": "Nested privilege layers and a keyhole distinguish authority from network reach. Open leaves indicate access established in the attributed account.",
       "name": "Administrator privilege open",
       "versions": [
@@ -1944,6 +2007,13 @@
           "note": "Nested privilege layers and a keyhole distinguish authority from network reach. Open leaves indicate access established in the attributed account.",
           "parent": null,
           "sha256": "f06ba51a58a21eb41599adbc2bf4c92119bba9b44cb1d7d5cfeb5ff229aaf236"
+        },
+        {
+          "created": "2026-09-12T23:28:34+00:00",
+          "id": "v002",
+          "note": "Add matching layered metal authority frames. Preserve every existing open, closed, permitted or held state.",
+          "parent": "v001",
+          "sha256": "9c7eade649b2550597a33d08f9766619cbd86389b62b4a0e25cc074498044629"
         }
       ]
     },
@@ -2173,7 +2243,7 @@
     },
     "review-checkpoint": {
       "category": "objects",
-      "default": "v001",
+      "default": "v002",
       "description": "A docket slot beside a raised review desk and a closed stop arm. Review is a decision process; no approval is implied.",
       "name": "Individual review checkpoint",
       "versions": [
@@ -2183,12 +2253,19 @@
           "note": "A docket slot beside a raised review desk and a closed stop arm. Review is a decision process; no approval is implied.",
           "parent": null,
           "sha256": "850b1fae5c2861e29ace8ec0981248fb241e2773ea457db96d80656a90efd96d"
+        },
+        {
+          "created": "2026-09-12T23:28:34+00:00",
+          "id": "v002",
+          "note": "Add fibrous docket stock and brushed checkpoint hardware. Preserve every existing open, closed, permitted or held state.",
+          "parent": "v001",
+          "sha256": "ac35d72d7a7f992d4369b63659a197a24efb9ec7debac4b04a8a8b546bf5c0a0"
         }
       ]
     },
     "review-disposition-field": {
       "category": "locations",
-      "default": "v001",
+      "default": "v002",
       "description": "Three unconnected output trays with neutral alternating shading. Holds resumed, change-required and paused outcomes without coding them as moral success or failure.",
       "name": "Review disposition lanes",
       "versions": [
@@ -2198,6 +2275,13 @@
           "note": "Three unconnected output trays with neutral alternating shading. Holds resumed, change-required and paused outcomes without coding them as moral success or failure.",
           "parent": null,
           "sha256": "3b8e425f2af15372336afa8dafdbcff9650520dc7821ea6b723668e720db950f"
+        },
+        {
+          "created": "2026-09-12T23:28:34+00:00",
+          "id": "v002",
+          "note": "Recessed output trays use alloy edge strips for operational dispositions and a paper margin for requested changes. Neutral colors avoid turning resumption into moral approval.",
+          "parent": "v001",
+          "sha256": "1d9294209830473f3d22422ada681cb39b53ccb3069d1a550382b2319669a8ee"
         }
       ]
     },
@@ -2275,7 +2359,7 @@
     },
     "scope-narrow": {
       "category": "objects",
-      "default": "v003",
+      "default": "v004",
       "description": "An opaque access card with visibly restricted scope. Values remain concealed.",
       "name": "Scope narrow",
       "versions": [
@@ -2299,12 +2383,19 @@
           "note": "Increase filled-state contrast so scope and budget differences survive small-size and grayscale viewing. Scene-controlled ink accents preserve state and future-register colors. Keep only the gradients and textures this component uses, for concise isolated editing.",
           "parent": "v002",
           "sha256": "9b2d8e93ab7117d6ca16a3e80008c049bc827910d1d3a67a17d17678e69945f3"
+        },
+        {
+          "created": "2026-09-12T23:28:33+00:00",
+          "id": "v004",
+          "note": "Replace battery-like scope cells with a clipped permission pass: punched active windows and diagonally closed permissions. Warm fibrous stock distinguishes authority from remaining runtime; cell counts remain schematic.",
+          "parent": "v003",
+          "sha256": "35126d1b4465b09b4059a72571fdee3b4ea7f5e4beef53c4dc869c6edd0b7f71"
         }
       ]
     },
     "scope-wide": {
       "category": "objects",
-      "default": "v003",
+      "default": "v004",
       "description": "An opaque access card with broad scope, comparable at equal scale to narrow scope.",
       "name": "Scope wide",
       "versions": [
@@ -2328,6 +2419,13 @@
           "note": "Increase filled-state contrast so scope and budget differences survive small-size and grayscale viewing. Scene-controlled ink accents preserve state and future-register colors. Keep only the gradients and textures this component uses, for concise isolated editing.",
           "parent": "v002",
           "sha256": "30721623fb57f92fc2835e5f11123570af9c718ee2214682aae7e2c3b932899a"
+        },
+        {
+          "created": "2026-09-12T23:28:33+00:00",
+          "id": "v004",
+          "note": "Replace battery-like scope cells with a clipped permission pass: punched active windows and diagonally closed permissions. Warm fibrous stock distinguishes authority from remaining runtime; cell counts remain schematic.",
+          "parent": "v003",
+          "sha256": "ceec35291da1e84365ec476a9de793878b9d34915bc9e30a25d4eaf673326b9f"
         }
       ]
     },
@@ -2391,7 +2489,7 @@
     },
     "source-reservoir-field": {
       "category": "locations",
-      "default": "v001",
+      "default": "v002",
       "description": "Two independent open collection trays, each with an incomplete ruled margin and blank center. Keeps board dump and transcript inputs separate; decorations are uncounted source notation.",
       "name": "Separate evidence reservoirs",
       "versions": [
@@ -2401,6 +2499,13 @@
           "note": "Two independent open collection trays, each with an incomplete ruled margin and blank center. Keeps board dump and transcript inputs separate; decorations are uncounted source notation.",
           "parent": null,
           "sha256": "52615847942886c87ef93674ff4c87bbad5fef58df6663b0047d3967ff8847f2"
+        },
+        {
+          "created": "2026-09-12T23:28:34+00:00",
+          "id": "v002",
+          "note": "A metal storage margin and a paper sequence margin distinguish dump and transcript reservoirs. Open centers and separate trays retain the evidence gap; margin marks are uncounted notation.",
+          "parent": "v001",
+          "sha256": "863512816aa8ba5368001dc79ca79550e4fe9e1cc50f036fa9c7a0968a55c3e1"
         }
       ]
     },
@@ -2522,7 +2627,7 @@
     },
     "threshold": {
       "category": "objects",
-      "default": "v003",
+      "default": "v004",
       "description": "A severity bar below an explicit threshold, without fabricating a numeric score.",
       "name": "Threshold",
       "versions": [
@@ -2546,6 +2651,13 @@
           "note": "Scene-controlled ink accents preserve state and future-register colors. Keep only the gradients and textures this component uses, for concise isolated editing.",
           "parent": "v002",
           "sha256": "4e3c6c20069858fffc8a6cec3803c58d2ce0e2425870344c65094446d42e0983"
+        },
+        {
+          "created": "2026-09-12T23:28:34+00:00",
+          "id": "v004",
+          "note": "A separate raised threshold rail and a brushed measured bar make the gap between signal and threshold visible. The bar remains below the rule; ticks carry no numeric values.",
+          "parent": "v003",
+          "sha256": "b0b645517e5150435648ad958bcdd0248741169ff82bb1563ffc33baf8c8e6c0"
         }
       ]
     },
@@ -2595,7 +2707,7 @@
     },
     "workload-hold": {
       "category": "objects",
-      "default": "v002",
+      "default": "v003",
       "description": "A bounded workload tray with a large pause pair and a stop bar. A temporary operational disposition, not a breached wall or permanent destruction.",
       "name": "Scoped workload hold",
       "versions": [
@@ -2612,6 +2724,13 @@
           "note": "Narrow the pause bars so the symbol remains recognizable in wide, shallow storyboard trays.",
           "parent": "v001",
           "sha256": "4bbe5364a379e2e61b48e6309b102b6ee2a8302f0a6f2db9b40a4b85a490aa59"
+        },
+        {
+          "created": "2026-09-12T23:28:34+00:00",
+          "id": "v003",
+          "note": "Add a recessed tray rim and brushed upper edge. Preserve every existing open, closed, permitted or held state.",
+          "parent": "v002",
+          "sha256": "ae4732ffcdefac24ec438c1d7eb1cbe5068f04c000dca4190a05e804a28a62cc"
         }
       ]
     }

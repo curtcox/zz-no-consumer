@@ -1,0 +1,82 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="800" viewBox="0 0 1200 800"><title>An internal response precedes a closed layer</title><desc>Put the obtained response before a still-closed administrator boundary. Preserve two privilege levels: receiving an internal response has not yet established administrative control. Visual distinction: Nested privilege layers and a keyhole distinguish authority from network reach. The inner authority layer remains closed.</desc><metadata>{
+  &quot;assets&quot;: {
+    &quot;privilege-gate&quot;: &quot;&lt;defs&gt;&lt;linearGradient id=\&quot;metal\&quot; x2=\&quot;0\&quot; y2=\&quot;1\&quot;&gt;&lt;stop stop-color=\&quot;currentColor\&quot;/&gt;&lt;stop offset=\&quot;1\&quot; stop-color=\&quot;#101214\&quot;/&gt;&lt;/linearGradient&gt;&lt;pattern id=\&quot;mesh\&quot; width=\&quot;8\&quot; height=\&quot;8\&quot; patternUnits=\&quot;userSpaceOnUse\&quot;&gt;&lt;path d=\&quot;M0 0L8 8M8 0L0 8\&quot; stroke=\&quot;currentColor\&quot; stroke-width=\&quot;.7\&quot; opacity=\&quot;.4\&quot;/&gt;&lt;/pattern&gt;&lt;/defs&gt;&lt;path d=\&quot;M8 95V5H92V95M19 88V13H81V88\&quot; fill=\&quot;none\&quot; stroke=\&quot;currentColor\&quot; stroke-width=\&quot;3\&quot;/&gt;&lt;rect x=\&quot;31\&quot; y=\&quot;22\&quot; width=\&quot;38\&quot; height=\&quot;56\&quot; fill=\&quot;url(#metal)\&quot; stroke=\&quot;currentColor\&quot; stroke-width=\&quot;2\&quot;/&gt;&lt;circle cx=\&quot;50\&quot; cy=\&quot;46\&quot; r=\&quot;6\&quot; fill=\&quot;#e7e0d0\&quot;/&gt;&lt;path d=\&quot;M50 50V63\&quot; stroke=\&quot;#e7e0d0\&quot; stroke-width=\&quot;4\&quot;/&gt;&quot;,
+    &quot;sealed&quot;: &quot;&lt;defs&gt;\n&lt;linearGradient id=\&quot;stock\&quot; x1=\&quot;0\&quot; y1=\&quot;0\&quot; x2=\&quot;.8\&quot; y2=\&quot;1\&quot;&gt;&lt;stop stop-color=\&quot;#E7E0D0\&quot; /&gt;&lt;stop offset=\&quot;1\&quot; stop-color=\&quot;#CEC5B3\&quot; /&gt;&lt;/linearGradient&gt;\n&lt;pattern id=\&quot;grain\&quot; width=\&quot;7\&quot; height=\&quot;9\&quot; patternUnits=\&quot;userSpaceOnUse\&quot;&gt;&lt;circle cx=\&quot;1\&quot; cy=\&quot;2\&quot; r=\&quot;.35\&quot; fill=\&quot;#101214\&quot; opacity=\&quot;.18\&quot; /&gt;&lt;path d=\&quot;M4 6h2M1 8h1\&quot; stroke=\&quot;#101214\&quot; stroke-width=\&quot;.3\&quot; opacity=\&quot;.16\&quot; /&gt;&lt;/pattern&gt;\n&lt;/defs&gt;&lt;path d=\&quot;M5 10H95V91H5Z\&quot; fill=\&quot;url(#stock)\&quot; stroke=\&quot;currentColor\&quot; stroke-width=\&quot;2\&quot; /&gt;&lt;path d=\&quot;M5 10H95V91H5Z\&quot; fill=\&quot;url(#grain)\&quot; /&gt;&lt;rect x=\&quot;7\&quot; y=\&quot;12\&quot; width=\&quot;86\&quot; height=\&quot;77\&quot; fill=\&quot;url(#grain)\&quot; /&gt;&lt;rect x=\&quot;12\&quot; y=\&quot;25\&quot; width=\&quot;76\&quot; height=\&quot;11\&quot; fill=\&quot;#101214\&quot; /&gt;&lt;rect x=\&quot;12\&quot; y=\&quot;44\&quot; width=\&quot;76\&quot; height=\&quot;11\&quot; fill=\&quot;#101214\&quot; /&gt;&lt;rect x=\&quot;12\&quot; y=\&quot;63\&quot; width=\&quot;76\&quot; height=\&quot;11\&quot; fill=\&quot;#101214\&quot; /&gt;&lt;path d=\&quot;M15 27H84M15 46H85M15 65H82\&quot; fill=\&quot;none\&quot; stroke=\&quot;#202326\&quot; stroke-width=\&quot;0.6\&quot; /&gt;&lt;path d=\&quot;M5 12L20 10 20 17 5 19ZM79 84L95 82 95 89 79 91Z\&quot; fill=\&quot;#CEC5B3\&quot; /&gt;&quot;
+  },
+  &quot;palette&quot;: {
+    &quot;amber&quot;: &quot;#A17D45&quot;,
+    &quot;claret&quot;: &quot;#6B2634&quot;,
+    &quot;dirty&quot;: &quot;#CEC5B3&quot;,
+    &quot;ink&quot;: &quot;#101214&quot;,
+    &quot;institution&quot;: &quot;#68766B&quot;,
+    &quot;moss&quot;: &quot;#74864F&quot;,
+    &quot;nicotine&quot;: &quot;#AA9571&quot;,
+    &quot;paper&quot;: &quot;#E7E0D0&quot;,
+    &quot;shadow&quot;: &quot;#202326&quot;,
+    &quot;steel&quot;: &quot;#5E737B&quot;
+  },
+  &quot;renderer&quot;: &quot;storyboard-svg-2&quot;,
+  &quot;scene&quot;: {
+    &quot;background&quot;: &quot;ink&quot;,
+    &quot;intent&quot;: &quot;Put the obtained response before a still-closed administrator boundary. Preserve two privilege levels: receiving an internal response has not yet established administrative control. Visual distinction: Nested privilege layers and a keyhole distinguish authority from network reach. The inner authority layer remains closed.&quot;,
+    &quot;lettering&quot;: [
+      {
+        &quot;box&quot;: [
+          0.045,
+          0.78,
+          0.91,
+          0.18
+        ]
+      }
+    ],
+    &quot;lettering_mode&quot;: &quot;manual&quot;,
+    &quot;nodes&quot;: [
+      {
+        &quot;asset&quot;: &quot;sealed&quot;,
+        &quot;box&quot;: [
+          0.06775,
+          0.2012,
+          0.3913,
+          0.276474
+        ],
+        &quot;color&quot;: &quot;steel&quot;,
+        &quot;focus&quot;: true,
+        &quot;label&quot;: &quot;RESPONSE&quot;,
+        &quot;label_box&quot;: [
+          0.06775,
+          0.49443,
+          0.3913,
+          0.121481
+        ],
+        &quot;label_size&quot;: 18
+      },
+      {
+        &quot;asset&quot;: &quot;privilege-gate&quot;,
+        &quot;box&quot;: [
+          0.52275,
+          0.2012,
+          0.3913,
+          0.276474
+        ],
+        &quot;color&quot;: &quot;steel&quot;,
+        &quot;focus&quot;: true,
+        &quot;label&quot;: &quot;ADMINISTRATOR LAYER&quot;,
+        &quot;label_box&quot;: [
+          0.52275,
+          0.49443,
+          0.3913,
+          0.121481
+        ],
+        &quot;label_size&quot;: 18
+      }
+    ],
+    &quot;reconstructed&quot;: false,
+    &quot;shot&quot;: &quot;row&quot;,
+    &quot;source&quot;: &quot;\n**Frame:** Rectangular response card from an internal Artifactory service. No credential or endpoint is legible. Beyond it, an administrator layer remains closed.\n\n**Action:** The internal boundary answers.\n\n**Screen / system text:**\n`INTERNAL SERVICE — RESPONSE RECEIVED`\n\n**Provenance:** `documented` + `reconstructed` — response is sourced; wording is editorial.\n\n&quot;,
+    &quot;title&quot;: &quot;An internal response precedes a closed layer&quot;
+  }
+}
+</metadata><rect width="1200" height="800" fill="#101214"/><g transform="translate(81.3 160.96) scale(4.6956 2.21179)" color="#5E737B"><g transform=""><defs>
+<linearGradient id="node-0-stock" x1="0" y1="0" x2=".8" y2="1"><stop stop-color="#E7E0D0" /><stop offset="1" stop-color="#CEC5B3" /></linearGradient>
+<pattern id="node-0-grain" width="7" height="9" patternUnits="userSpaceOnUse"><circle cx="1" cy="2" r=".35" fill="#101214" opacity=".18" /><path d="M4 6h2M1 8h1" stroke="#101214" stroke-width=".3" opacity=".16" /></pattern>
+</defs><path d="M5 10H95V91H5Z" fill="url(#node-0-stock)" stroke="currentColor" stroke-width="2" /><path d="M5 10H95V91H5Z" fill="url(#node-0-grain)" /><rect x="7" y="12" width="86" height="77" fill="url(#node-0-grain)" /><rect x="12" y="25" width="76" height="11" fill="#101214" /><rect x="12" y="44" width="76" height="11" fill="#101214" /><rect x="12" y="63" width="76" height="11" fill="#101214" /><path d="M15 27H84M15 46H85M15 65H82" fill="none" stroke="#202326" stroke-width="0.6" /><path d="M5 12L20 10 20 17 5 19ZM79 84L95 82 95 89 79 91Z" fill="#CEC5B3" /></g></g><text x="316.08" y="413.544" text-anchor="middle" fill="#E7E0D0" font-size="18" font-family="sans-serif">RESPONSE</text><g transform="translate(627.3 160.96) scale(4.6956 2.21179)" color="#5E737B"><g transform=""><defs><linearGradient id="node-1-metal" x2="0" y2="1"><stop stop-color="currentColor" /><stop offset="1" stop-color="#101214" /></linearGradient><pattern id="node-1-mesh" width="8" height="8" patternUnits="userSpaceOnUse"><path d="M0 0L8 8M8 0L0 8" stroke="currentColor" stroke-width=".7" opacity=".4" /></pattern></defs><path d="M8 95V5H92V95M19 88V13H81V88" fill="none" stroke="currentColor" stroke-width="3" /><rect x="31" y="22" width="38" height="56" fill="url(#node-1-metal)" stroke="currentColor" stroke-width="2" /><circle cx="50" cy="46" r="6" fill="#e7e0d0" /><path d="M50 50V63" stroke="#e7e0d0" stroke-width="4" /></g></g><text x="862.08" y="413.544" text-anchor="middle" fill="#E7E0D0" font-size="18" font-family="sans-serif">ADMINISTRATOR LAYER</text><rect x="3" y="3" width="1194" height="794" fill="none" stroke="#5E737B" stroke-width="4"/></svg>

@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
+<defs>
+<linearGradient id="stock" x1="0" y1="0" x2=".8" y2="1"><stop stop-color="#E7E0D0" /><stop offset="1" stop-color="#CEC5B3" /></linearGradient>
+<linearGradient id="alloy" x2=".8" y2="1"><stop stop-color="#e7e0d0" /><stop offset=".18" stop-color="currentColor" /><stop offset=".62" stop-color="#202326" /><stop offset="1" stop-color="currentColor" /></linearGradient></defs><rect x="3" y="23" width="89" height="54" rx="3" fill="url(#alloy)" stroke="currentColor" stroke-width="2" /><rect x="92" y="39" width="6" height="22" fill="#CEC5B3" /><rect x="9" y="29" width="16" height="42" fill="url(#stock)" stroke="#CEC5B3" stroke-width="0.6" /><rect x="29" y="29" width="16" height="42" fill="url(#stock)" stroke="#CEC5B3" stroke-width="0.6" /><rect x="49" y="29" width="16" height="42" fill="url(#stock)" stroke="#CEC5B3" stroke-width="0.6" /><rect x="69" y="29" width="16" height="42" fill="url(#stock)" stroke="#CEC5B3" stroke-width="0.6" />
+<path d="M7 25H88M7 75H88" stroke="#e7e0d0" stroke-width=".7" opacity=".65" /><path d="M12 34H21M12 38H21" stroke="#101214" stroke-width=".7" opacity=".3" /></svg>

@@ -1,5 +1,28 @@
 # SVG palette material and contrast review
 
+## Follow-up material pass
+
+After the barrier audit expanded the palette, a second review refined 17 defaults.
+Permission passes now use clipped paper stock and punched scope windows, separating
+them from recessed alloy budget meters. Network walls gain granular surfaces;
+privilege frames have layered metal edges; review checkpoints pair fibrous dockets
+with brushed hardware; irreversible controls retain their unpressed state beneath a
+brushed cover. The threshold is a raised rail above a separate measured bar, and the
+objective pennant gains attachment stitching and cloth folds.
+
+Background margins carry more of their purpose: an archival sleeve has folded corners
+and a paper custody band, source reservoirs have storage and transcript margins,
+calendar lanes have distinct steel and paper headers, and review trays have recessed
+edges. Centers remain translucent and available for scene evidence. Texture marks
+remain non-quantitative. Colors inherit scene ink alongside the existing paper and
+shadow neutrals; no new success, risk, or uncertainty state is introduced.
+
+The pass was compared against prior versions at equal ink and size and checked in
+lettered examples of scope, thresholds, evidence, review, timelines and preservation.
+All preceding versions remain available in the workshop.
+
+## Initial material pass
+
 The September 2026 review adds material, silhouette and state distinctions to 78
 of the 79 reusable components. Seventy-seven revised components become defaults;
 the ant gains optional tonal studies while its flat anatomical source remains the
