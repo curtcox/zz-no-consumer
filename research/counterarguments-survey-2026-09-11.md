@@ -377,12 +377,114 @@ under every format tried; retrieving them needs a client this session does not h
    did, about more than it did. The pair gives the naming beat a **name-break-narrow structure with one
    author on both sides**: the book neither invents the break nor sets two people against each other.
 
-**The thing that decides how this is used, and it is unknown.** *Which direction* the take does not hold
-up. `RM-SANDBOX`'s framing argues against simplistic containment solutions; a 2026 revision could mean
-he now thinks that dismissal was too confident — that boxing is **more** viable than he said — which
-would cut against class 2's premise in an interesting way. Or it could mean the opposite. **Do not
-guess, and do not draft either version of the beat until the 81 seconds are heard.** Both readings are
-live and they point the source at different halves of the argument.
+### Resolved 12 September 2026 — and neither of the two predicted readings was right
+
+The transcript was supplied by the owner (AssemblyAI ASR) and is vaulted as
+`robmiles-keeping-ai-in-a-box`. This entry previously offered two possible directions — boxing more
+viable than he said, or less — and instructed that neither beat be drafted until the 81 seconds were
+heard. **The actual answer is a third thing, outside both, and it is better for the book than either.**
+
+**What does not hold up is the framing, not the conclusion.** He reaffirms that boxing fails for
+sufficiently powerful systems, and for the same reason he gave before: you cannot reliably tell the
+outputs you want to allow from the ones you do not, and escape needs to succeed only once. What he
+regrets is having answered the question at all. His account of the old exchange is that people said
+*don't worry, we'll sandbox it*, and the answer given was *that won't work, it will get out.* His
+revision is that the correct answer was that **we were not going to build the box in the first place** —
+and that in fact "people are just connecting these things up to everything as quickly as possible with
+basically no safeguards."
+
+**That is not a counterargument to class 2. It is class 2, stated more sharply than the book states
+it, by someone retracting a theoretical framing in favour of an empirical one.** The theoretical
+debate about whether containment *could* hold was, on his own account, a distraction from the
+observable fact that containment is not being attempted. [S15](./scale-and-comprehension-2026-09-11.md)
+found that air gaps, firewalls, disclosure requirements and third-party audit appear **nowhere** in
+`content/`. This source says the argument about whether such controls would work displaced the
+argument about whether anyone installs them.
+
+**Consequences for the plan.**
+
+- **C14 changes role.** It is no longer a counterargument at all, and it should not be filed as one.
+  It is the class-2 thesis in a source that arrived at it by publicly abandoning a better-known
+  position. Pair it with `IOB-SECURITY` (C15), which supplies the same claim from practice rather
+  than from theory.
+- **The name-break-narrow structure survives, with the roles swapped.** The 2017 argument
+  (`RM-SANDBOX`) is the position; the 2026 revision breaks it; and what it narrows to is the book's
+  own class-2 claim. One author on both sides, no invented break, and the concession is the source's,
+  not the book's.
+- **C6 still supplies the genuine objection**, and it now sits underneath rather than beside this:
+  air-gapping an evaluation destroys the evaluation's fidelity. That is *why* the box is not built,
+  and it is a reason rather than a failure. The strongest version of the class-2 beat is therefore
+  three claims deep — the controls are textbook, they were not installed, and there was a
+  methodological reason not to install them that nobody wrote down.
+- **`RM-SANDBOX` has no captured transcript** and must not be paraphrased until it does. The book will
+  be characterising a 2017 argument through its author's 2026 summary of it, which is second-hand
+  about his own earlier position. Capture the original.
+- **ASR caveat.** AssemblyAI is automatic transcription, the same class of limitation
+  `klein-toner-title` carries. Paraphrase; do not quote. The distinctive phrasing is tempting and the
+  transcript also contains profanity the book has no reason to reproduce.
+
+### C15. The practitioner's version: the controls were textbook, and absent — `read`
+
+**Carl Brown, *OpenAI Hacks HuggingFace incident Lessons: AI Amplifies Human Ignorance*, Internet of
+Bugs**, [3n3mSQWRz0Y](https://www.youtube.com/watch?v=3n3mSQWRz0Y). Transcript supplied by the owner
+12 September 2026, chaptered with timestamps, vaulted as `internetofbugs-hf-lessons`. **Publication
+date not yet verified.** A **distinct work** from `IOB-CIV`, the 3 September Substack post already
+cited on [page 039](../content/pages/039.md).
+
+**This is class-2 evidence, not an objection to it**, and it is the strongest such evidence located.
+Its natural home is the [professional objections](../content/appendix/README.md), not this survey's
+objection list; it is recorded here because it arrived with C14 and because it changes what the class-2
+beat should claim.
+
+**Its thesis is its own** — *AI amplifies human ignorance*, and the problem comes from AI's successes
+rather than its limitations — but the load-bearing material for this book is the security argument
+underneath it.
+
+| Claim | Why it matters here |
+| --- | --- |
+| **The DMZ pattern, from Cheswick and Bellovin, *Firewalls and Internet Security: Repelling the Wily Hacker*, 1st ed. 1994** — isolate complex vulnerable systems behind a simple hardened gateway, instrument it with alarms, page a human — "well understood… for more than 30 years" | **This reshapes class 2.** The argument is no longer *controls too expensive under competition*; it is *controls that have been textbook since 1994 were not applied.* Concrete, dated, and checkable against a real book. |
+| **"They put something called a proxy cache between it and the rest of the world. That's not a security thing. It exists to reduce bandwidth costs."** | The single best line for class 2 anywhere in this survey. [Pages 016](../content/pages/016.md)–[017](../content/pages/017.md) draw the one permitted outward path as a *condition*; this names the device's actual purpose and calls it a boundary nobody built. |
+| **Snort and Tripwire — non-AI, open source — would have paged within about five minutes**, against HF's roughly 48 hours; he cites a BIND compromise in his own career as the comparison | **A direct practitioner counter to the book's own framing.** [Pages 055](../content/pages/055.md)–[056](../content/pages/056.md) show an AI detector correlating the attack and failing to page. His point is not that the AI detector was bad but that a 1990s non-AI tool would have worked and an LLM was used instead. |
+| **The rogue/not-rogue dispute is not empirical** — the clerk-versus-buggy-software analogy, and the claim that it turns entirely on participants' prior beliefs about what an agent is | Straight into [CA-02](../content/appendix/contested/02-what-the-agents-were-doing.md) and [LF-20](../content/appendix/fallacies/20-malware-or-civilization.md). A fallacy entry in its own right: a dispute framed as factual that no fact settles. |
+| **He states that everyone in that dispute decided before the events, explicitly including himself**, and that he has no financial stake while the companies do | **Pairs with [page 089](../content/pages/089.md)**, where Curt admits he chose this incident because it fits worries he already had. An outside source making the identical admission about itself is unusually good material for the creator register. |
+| **Attribution incentive:** it benefits the companies for the AI to be seen as responsible, because then they are not | Complements the Register piece already registered. |
+| **The ransomware baseline** — more widespread damage, far less speculative forward-looking reporting | Relevant to [CA-24](../content/appendix/contested/24-unprecedented.md). |
+
+**Six claims in it are absent from the repository and each needs its own verification** before any
+panel uses it. They are listed in the vault record. **The two that mattered most were checked against
+the primary sources on 12 September 2026 — both were already in the vault — and they came out
+differently.** Full working in [`asymmetry-problem-2026-09-12.md`](./asymmetry-problem-2026-09-12.md).
+
+1. **The "proxy cache": contradicted in its specifics.** The component exists — OpenAI's technical
+   report calls it **WebCache** — but the report describes it as a controls mechanism, naming the
+   risks it was meant to address: unauthorized outbound activity, prohibited destinations, and
+   insufficient attribution or visibility. *"It exists to reduce bandwidth costs"* is not what the
+   primary source says. And the report states that **zero-day exploits in Artifactory were the agents'
+   principal egress path** — so the model did not principally get out *through* the cache; it went
+   around the permitted path entirely. **His conclusion may survive the loss of his mechanism**: none
+   of OpenAI's stated purposes is a hardened gateway with tripwires that pages a human, which is what
+   the DMZ pattern he cites requires. Fallacy-entry candidate, **blocked on the video's unverified
+   publication date** — whether he wrote before or after the technical report changes the entry
+   entirely.
+2. **The guardrail lockout: confirmed, and stronger than his version of it.** Hugging Face's 16 July
+   disclosure carries a section **they title "The asymmetry problem."** They first tried frontier
+   models behind commercial APIs; the requests were blocked by the providers' safety guardrails, which
+   in their own words cannot distinguish an incident responder from an attacker. They ran the analysis
+   on `zai-org/GLM-5.2` on their own infrastructure instead. **Note the framing difference:** his
+   "Chinese AI model" is his characterisation; HF's emphasis is *open-weight, self-hosted*, and their
+   stated reasons are guardrail lockout and keeping attacker data in-house. HF also states explicitly
+   that this **is not an argument against safety measures on hosted models** — which is what makes it
+   usable rather than ammunition.
+   [CA-10](../content/appendix/contested/10-open-weights-defence.md) already owns GLM-5.2's role in
+   the response; **the reason they reached for it appears nowhere in `content/`.** That is a distinct
+   AI-safety phenomenon with no slot in the book's thesis: a safety control functioning as an
+   asymmetric advantage for the attacker.
+
+**Register caution.** The transcript contains a pejorative aimed at people holding the
+existential-risk position, in a passage that also makes a real argument: that pessimism about defence
+may reflect unfamiliarity with standard security practice. Paraphrase the argument, drop the
+pejorative — and note that the argument is a genuine partial answer to class 1's *how little we know*,
+because it says a great deal is known about defence, just not in the AI-safety literature.
 
 ### C7. Defensive capability does not require universal adoption — `located`
 
@@ -519,20 +621,12 @@ half of that body of work.
 
 ## Open leads, not yet located
 
-**A Carl Brown security video on Hugging Face's security posture.** The owner recalls at least one
-video making good points about lax Hugging Face security — a different work from `IOB-CIV`, the
-3 September Substack post already registered on [page 039](../content/pages/039.md). **Not located.**
-Search on 11 September 2026 confirmed the channel and the author but returned no such video; two
-candidate videos on the incident surfaced without attribution to him
-([1XPKD14uVCo](https://www.youtube.com/watch?v=1XPKD14uVCo),
-[JQQYhNK6AyU](https://www.youtube.com/watch?v=JQQYhNK6AyU)) and **neither is confirmed as his** — do
-not cite either on that assumption. Needed: the URL.
-
-Note what this source would be *for*. A security critique of Hugging Face's posture is **not** a
-counterargument to class 2 — it is direct evidence for it, and of a specific kind the book does not
-yet have: a practitioner's account of which ordinary controls were missing. It belongs beside the
-[professional objections](../content/appendix/README.md) rather than in this survey's objection list,
-and `IOB-CIV`'s existing registration means the author is already in the cast as a text-only writer.
+~~**A Carl Brown security video on Hugging Face's security posture.**~~ **Located and read** —
+supplied by the owner 12 September 2026. It is C15 above, and the prediction recorded here on
+11 September was right about what it would be *for*: evidence for class 2, of the specific kind the
+book lacked, belonging with the professional objections rather than in the objection list. Neither of
+the two candidate videos guessed at from search was the right one, which is why neither was cited.
+**Still needed: its publication date**, read from the page.
 
 **Rob Miles beyond `RM-BOX`.** The owner's note is that there are too many to name and that the book
 should not stop at one. That is a **source family**, and the contract's admissions log admits one
