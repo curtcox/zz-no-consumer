@@ -30,6 +30,22 @@ ID_PATTERN = re.compile(r"[a-z0-9][a-z0-9-]*\Z")
 USER_AGENT = "zz-no-consumer-source-monitor/1.0 (+local editorial archive)"
 
 
+# What the manifest's `redistribution` column means. The column existed from the start and
+# was never defined, so every row carried `link-only` and nothing said whether that forbade a
+# twelve-word quotation or only republishing the artifact. It means the artifact:
+#
+#   link-only     the publisher's copy is linked, never republished. This is a disposition
+#                 about the *artifact*. Short attributed quotation from it is a separate
+#                 decision, governed by rule 4 of research/exact-text-permissions-audit.md
+#                 and discharged per string at gate 9 — not granted or refused by this value.
+#   quote-cleared a rights decision permitting short attributed quotation from this source has
+#                 been recorded in the audit. The audit entry, not this value, is the decision.
+#   vault-only    the copy may not leave 256t/ in any form, quotation included.
+#
+# No row is `quote-cleared` today: the project has a general rule and no per-source record.
+REDISTRIBUTION = {"link-only", "quote-cleared", "vault-only"}
+
+
 @dataclass(frozen=True)
 class Source:
     id: str
@@ -59,6 +75,11 @@ def load_sources() -> list[Source]:
             raise SystemExit(f"Duplicate source id: {source.id}")
         if not source.url.startswith(("https://", "http://")):
             raise SystemExit(f"Unsupported URL for {source.id}: {source.url}")
+        if source.redistribution not in REDISTRIBUTION:
+            raise SystemExit(
+                f"Unknown redistribution for {source.id}: {source.redistribution!r}; "
+                f"expected one of {', '.join(sorted(REDISTRIBUTION))}"
+            )
         seen.add(source.id)
         sources.append(source)
     return sources

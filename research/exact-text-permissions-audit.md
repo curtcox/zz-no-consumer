@@ -72,6 +72,57 @@ on 12 September in [`asymmetry-problem-2026-09-12.md`](./asymmetry-problem-2026-
 forbids what the practice does is enforcing nothing and licensing nothing; it now says which of the
 two it means.
 
+## What the per-source records actually say — 12 September 2026
+
+The reversal above changed the project's **default**. It did not change the **per-source records**,
+and those are more specific, so until this pass they still governed. Three of them were reconciled
+today; what remains open is named here rather than left to be rediscovered.
+
+**`redistribution` in [`data/256t-sources.tsv`](../data/256t-sources.tsv) was never defined.** All 29
+rows read `link-only`, and nothing in the manifest, the sync tool, the vault README, or this audit
+said whether that forbade a twelve-word quotation or only republishing the artifact. The only
+per-source rights field in the project therefore meant nothing checkable, and a per-string
+`rights: cleared` rested on it. The vocabulary is now defined and validated in
+[`scripts/sync-256t.py`](../scripts/sync-256t.py): `link-only` is a disposition about the **artifact**
+— link it, never republish it — and is silent about short quotation, which rule 4 and gate 9 decide
+per string; `quote-cleared` records a per-source rights decision made here; `vault-only` withholds the
+copy entirely. **No row is `quote-cleared`.** The project has a general permission and no per-source
+record, and closing that gap is an owner decision, not a documentation one.
+
+**Per-source paraphrase holds that were reconciled.** `EK-TONER` and `HF-POD` in
+[`research/scene-provenance.md`](./scene-provenance.md), and `IOB-CIV` in
+[the chapter-02 packet](./chapter-source-packets/02-erasure-and-return.md), all read "attributed
+paraphrase only" — written before 12 September and carried forward unchanged. Each now says which
+hazard it is naming, because they are not the same hazard: `EK-TONER`'s constraint is a three-deep
+attribution chain and **paraphrase remains right there**; `HF-POD`'s and `IOB-CIV`'s constraint is the
+contract's critic rule — text on screen, no face, no invented dialogue — which **governs depiction and
+never forbade quotation.**
+
+**Verification is available for 26 of 29 sources.** `klein-toner-title`, `robmiles-sandbox-it` and
+`stigmergy-definition` have no vault record, so a string from them cannot reach `verification:
+verbatim` and cannot be on a locked page. Check with `python3 scripts/sync-256t.py status`.
+
+## The hazard the registration cannot see
+
+`exact_strings` audits the strings a page **admits** to carrying. It cannot see the opposite failure:
+a page that quotes nothing, registers `[]` truthfully, and still letters a **paraphrase in a shape
+that reads as verbatim** — which is the one thing
+[the quotation note](./quotation-and-paraphrase-2026-09-12.md) forbids outright, and, where the words
+are put in a named living person's mouth, a fairness problem the contract's critic rule reaches
+before any rights question does.
+
+`crossref.audit_paraphrase_shape` now warns on it, from `validate-continuity.py`: a panel whose
+**Provenance** line declares a paraphrase, which letters that paraphrase as `Screen / system text`,
+and whose **reader-visible** text — frame direction, action line, caption, or the lettering itself —
+says nothing about the wording being the project's. The provenance line is the trigger and never the
+disclosure: it is production text the reader never sees, so a panel disclosed only there has
+disclosed nothing. Attribution is deliberately not accepted as disclosure either — attributing a
+paraphrase to a named person is the failure, not the remedy.
+
+It is a **warning**, not an error. Whether a flagged panel is repaired by quoting the source or by
+relettering the summary is an editorial decision, and it is gate 9's. The six panels it finds today
+are listed in [`research/quotation-gate-reconciliation-2026-09-12.md`](./quotation-gate-reconciliation-2026-09-12.md).
+
 ## Editorial rules going forward
 
 1. Link the controlling original publication instead of pasting a report page, screenshot, or extended fragment.

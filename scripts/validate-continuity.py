@@ -236,6 +236,11 @@ def main() -> int:
         )
         errors.extend(found)
         warnings.extend(noted)
+        # The registration above can only audit strings a page admits to carrying. This
+        # audits the shape of the ones it says it does not carry.
+        warnings.extend(
+            crossref.audit_paraphrase_shape(source, str(path.relative_to(ROOT)))
+        )
 
     if errors:
         print("Continuity validation failed:")

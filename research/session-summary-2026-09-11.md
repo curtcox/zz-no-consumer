@@ -359,7 +359,16 @@ now that class 2 is an argument about which controls existed and what they were 
 `robmiles-sandbox-it` (the 2017 Computerphile original) is registered with **no transcript captured**
 and must not be paraphrased until it has one — the book would otherwise be characterising a 2017
 argument through its author's 2026 summary of it. Both captured transcripts are **automatic
-transcription**, the same limitation `klein-toner-title` carries: **paraphrase, do not quote.**
+transcription**, the same limitation `klein-toner-title` carries: ~~**paraphrase, do not quote.**~~
+
+> **Superseded the next day, 12 September 2026.** That conclusion was wrong, and the correction is in
+> [`quotation-and-paraphrase-2026-09-12.md`](./quotation-and-paraphrase-2026-09-12.md). Automatic
+> transcription is an argument **for** quoting with a label — *"automatic transcription of this video"* —
+> not against it, because a paraphrase of a degraded text merges the transcription's errors with the
+> adapter's reading, attributes both to the speaker, and makes the result uncheckable forever. The rule
+> that replaces it: **quote short, attribute precisely, mark the transcription method, link the source;
+> never format a paraphrase as a quotation.** The `klein-toner-title` limitation is a different hazard —
+> a three-deep attribution chain, not transcription — and survives on its own terms.
 
 ## What I need from you
 

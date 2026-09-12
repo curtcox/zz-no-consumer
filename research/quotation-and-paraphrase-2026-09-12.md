@@ -86,6 +86,14 @@ This is an editorial decision for the owner, not a correction I should make unas
 here because the same pattern may recur wherever a source's argument is lettered as screen text, and
 because the page's own provenance line is the only thing currently disclosing it.
 
+**It does recur, five more times.** The prediction in that paragraph is now a check —
+`crossref.audit_paraphrase_shape`, run from `validate-continuity.py` — and it finds
+[pages 062, 081, 088, 089 and 101](./quotation-gate-reconciliation-2026-09-12.md) alongside this one.
+Three of the six put paraphrased words in a named living person's mouth. [Page 101](../content/pages/101.md) panel 2 asks for
+OpenAI's Black Hat lines "in the talk's own register" while being a paraphrase of them, and the vault
+holds that transcript — so quoting it would replace an imitation of the speaker's voice with the
+speaker's voice. All six remain the owner's decision; the check only makes them visible.
+
 ## Where paraphrase remains correct
 
 So this correction does not become a blanket licence:

@@ -351,6 +351,51 @@ def audit_exact_strings(metadata: str, where: str, *, locked: bool) -> tuple[lis
     return errors, warnings
 
 
+# A paraphrase lettered in a verbatim shape is the one hazard the registration above cannot
+# see: nothing is registered precisely because nothing was quoted, so `exact_strings: []` is
+# truthful and the page still shows the reader words in a source's mouth. Lettered
+# `Screen / system text` reads as verbatim. See
+# research/quotation-and-paraphrase-2026-09-12.md, which found the first instance by hand and
+# predicted the pattern would recur.
+PARAPHRASE_DECLARED = re.compile(r"source-paraphrase|paraphras", re.IGNORECASE)
+VERBATIM_SHAPED = re.compile(r"^\*\*Screen / system text", re.MULTILINE)
+# Words that tell the *reader* the wording is the project's. Attribution is deliberately not
+# among them: attributing a quotation to a named person is the failure, not the disclosure.
+SUMMARY_DISCLOSED = re.compile(
+    r"summar|paraphras|editorial|abstract|redact|restat|report|describ|treats|belief|states that",
+    re.IGNORECASE,
+)
+
+
+def audit_paraphrase_shape(source: str, where: str) -> list[str]:
+    """Warn where a declared paraphrase is lettered in a shape that reads as a quotation.
+
+    The provenance line is the trigger, not the evidence: it is production text the reader
+    never sees, so a panel that discloses only there has disclosed nothing. The disclosure
+    has to sit in the frame direction, the action line, the caption, or the lettering itself.
+    Warning, not error: which panels are repaired, and whether by quoting the source or by
+    relettering the summary, is an editorial decision for gate 9.
+    """
+    warnings: list[str] = []
+    for chunk in re.split(r"^## Panel ", source, flags=re.MULTILINE)[1:]:
+        number = chunk.split("\n", 1)[0].strip()
+        provenance = re.search(r"^\*\*Provenance:\*\*(.*)$", chunk, re.MULTILINE)
+        if not provenance or not PARAPHRASE_DECLARED.search(provenance.group(1)):
+            continue
+        reader_visible = re.split(r"^## Page notes", chunk, flags=re.MULTILINE)[0]
+        reader_visible = re.sub(r"^\*\*Provenance:\*\*.*$", "", reader_visible, flags=re.MULTILINE)
+        if not VERBATIM_SHAPED.search(reader_visible):
+            continue
+        if SUMMARY_DISCLOSED.search(reader_visible):
+            continue
+        warnings.append(
+            f"{where} panel {number}: provenance declares a paraphrase, the panel letters it as "
+            "`Screen / system text`, and nothing in the reader's view says the wording is the "
+            "project's — quote the source or reletter the summary at gate 9"
+        )
+    return warnings
+
+
 def read_chapters() -> list[Chapter]:
     source = (ROOT / "data" / "chapters.yaml").read_text(encoding="utf-8")
     chapters: list[Chapter] = []

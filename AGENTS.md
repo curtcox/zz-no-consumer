@@ -161,7 +161,12 @@ Two corollaries, both learned the hard way and recorded in
   the result unfalsifiable. Unreliability is a reason **to** quote with a label.
 - **Never format a paraphrase as a quotation.** Screen text, block quotes and lettered `Screen /
   system text` all read as verbatim. If the words are not the source's, do not put them in a shape
-  that says they are.
+  that says they are. `validate-continuity.py` warns on it: a panel whose provenance declares a
+  paraphrase, letters it as `Screen / system text`, and says nothing in the **reader's** view about
+  the wording being ours. The provenance line does not count — the reader never sees it — and neither
+  does attribution, because attributing a paraphrase to a named person is the failure, not the
+  remedy. Six panels are flagged today and are the owner's to disposition; see
+  [`research/quotation-gate-reconciliation-2026-09-12.md`](research/quotation-gate-reconciliation-2026-09-12.md).
 - **Never alter a record.** The vault stores what the source said, including wording the book would
   not print. What the book prints is a separate decision, governed by the contract's critic rule and
   its security rule. The argument survives its removal from the page; the record does not survive its

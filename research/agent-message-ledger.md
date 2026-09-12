@@ -2,7 +2,7 @@
 
 ## Status and purpose
 
-This is the source gate for the proposed optional companion **Messages from the Board**. The tracked ledger records artifact identity, chronology, source locator, and a bounded editorial summary. It intentionally does not reproduce board entries, chain-of-thought excerpts, automated strings, or report fragments.
+This is the source gate for the proposed optional companion **Messages from the Board**. The tracked ledger records artifact identity, chronology, source locator, and a bounded editorial summary. It intentionally does not reproduce board entries, chain-of-thought excerpts, automated strings, or report fragments. **This one is deliberate and is not relaxed by the 12 September default:** the project does not hold the underlying board corpus at all — every row of [`data/256t-sources.tsv`](../data/256t-sources.tsv) is a published report or PDF — so there is nothing here to quote *from*, and a quotation of a board entry could only be taken at second hand out of a report. Acquisition is unresolved; see the ledger's closing section.
 
 Exact originals are available only through the publisher links below and the Git-ignored `256t/` source vault. No message-heavy companion should be scripted from memory or from this summary alone.
 

@@ -2,7 +2,9 @@
 
 ## Scope and redistribution policy
 
-This dossier records the project's synthesis, claim boundaries, source disagreements, and open questions. It does not reproduce board messages, chain-of-thought excerpts, report prose, screenshots, commands, payloads, repository metadata, or other third-party fragments.
+This dossier records the project's synthesis, claim boundaries, source disagreements, and open questions. It does not reproduce board messages, chain-of-thought excerpts, extended report prose, screenshots, commands, payloads, repository metadata, or other extended third-party fragments.
+
+**Revised 12 September 2026.** As written, the sentence above forbade quotation of any length, which is narrowed rule 4's hazard — *extended fragments and expressive wording* — stated as a blanket. **Short attributed quotation is permitted here, and preferred,** because a synthesis whose claim about a source cannot be checked against the source's own words is the thing the permissions audit exists to prevent. What stays out is unchanged: extended fragments, operational detail under the contract's security rule, and anything that would turn a source author's summary of agent output into agent dialogue. See [exact-text-permissions-audit.md](./exact-text-permissions-audit.md) rules 3 and 4.
 
 Use the [original-source index](../content/source-links.md) for publisher pages and the tracked [URL manifest](../data/256t-sources.tsv) for monitoring. Local source snapshots and exact-reference material belong only in the Git-ignored `256t/` vault.
 

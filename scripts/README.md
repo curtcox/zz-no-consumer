@@ -278,14 +278,23 @@ is one and that it resolves to nothing.
 `sync-256t.py` (`sync` `check` `status` `import`) maintains private local snapshots of tracked
 original-source URLs under the gitignored `256t/`. Only the URLs and their redistribution
 disposition are tracked, in `data/256t-sources.tsv`. Prose and the public site link to the
-original URL rather than to a copied page.
+original URL rather than to a copied page. The `redistribution` vocabulary — `link-only`,
+`quote-cleared`, `vault-only` — is defined at the top of the tool and validated when the
+manifest loads; `link-only` is a disposition about the artifact and is silent about short
+quotation, which [the permissions audit](../research/exact-text-permissions-audit.md) and gate 9
+decide per string. `status` also shows which sources have no vault record, and so cannot carry a
+string to `verification: verbatim`.
 
 ## How they fit together
 
 Six modules carry the shared models, and the rest import them rather than re-deriving:
 
-- **`crossref.py`** — the page/chapter/sequence/provenance graph, and the `exact_strings`
-  registration model that holds both editions to the same quotation rule. Imported by
+- **`crossref.py`** — the page/chapter/sequence/provenance graph, the `exact_strings`
+  registration model that holds both editions to the same quotation rule, and
+  `audit_paraphrase_shape`, which warns where a declared paraphrase is lettered as
+  `Screen / system text` with nothing in the reader's view saying the wording is the project's —
+  the opposite failure, which the registration cannot see because nothing is registered.
+  Imported by
   `pagination.py`, `panels.py`, `novella.py`, `appendix.py`, `validate-continuity.py`, and the
   builder.
 - **`panels.py`** — the panel and lettering model. Imported by `imagegen.py`, `novella.py`,
