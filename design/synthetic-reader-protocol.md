@@ -1,6 +1,9 @@
 # Synthetic reader protocol
 
-**Status: specification, 11 September 2026. Not run.** Decided 11 September: comprehension testing
+**Status: protocol version 2, 12 September 2026. Not run.** Version 1 (11 September) was never run,
+so nothing is lost by the amendments below; each is dated where it lands. The reader-facing extractor
+is built (`scripts/reader_view.py`); the runner is not, and is blocked on the choices in
+[Running it](#running-it). Decided 11 September: comprehension testing
 starts with stateless model readers, and real readers are spent afterwards and sparingly. The reason
 is the owner's: **a real reader, once exposed, is exposed for good, and there is no second first
 reading.** A stateless model can be given the same first reading any number of times. This revises
@@ -93,6 +96,46 @@ bug that would silently change every result.
 Sanity check on any extraction: its total lettered words must agree with `panels.py report`, which
 measured **6,020** on 11 September 2026.
 
+**Built 12 September 2026 as `scripts/reader_view.py`,** and building it found the counter wrong.
+`panels.py` did not treat `Left dialogue`, `Right dialogue`, `Dossier tag` or a page's
+`## Persistent banner` as lettered, although `textimage.py` and `paneltypes.py` already read the first
+two as lettering. The missed text is not incidental: it is page 098's two-sided dialogue, page 064's
+`AS RANKED BY` qualification, and the invented-scene disclosure banners on pages 099–102 and 115–118
+— including `INVENTED FUTURE — NO MODEL, LABORATORY, YEAR, OR LINEAGE IS CLAIMED` on all four ending
+pages. An extractor that agreed with the old counter would have withheld the book's own disclosure of
+invention from the reader. The counter was fixed, not matched: **6,123** lettered words on
+12 September 2026, `panels.py check` still green, no panel over four elements, no page over 180
+words. `reader_view.py check` now holds every page to `panels.py` and fails on apparatus in the
+reader text.
+
+What the extractor gives each edition:
+
+- **Script arms** get chapter and page titles (the viewer shows both), each panel's `Frame` as the
+  picture, its `Action` line, and its lettering with the speaker or screen label. Front matter, page
+  purpose, provenance, references, production notes and page notes are dropped; link markup is
+  flattened to its words, which also removes the one Markdown link lettered inside a balloon
+  (page 111, `[page 088](088.md)`).
+- **A4 and the appendix half of A5** are the plain-text download the site publishes, produced by the
+  builder's own `novella_plain_text` and `appendix_plain_text`. That is literally what a reader
+  downloads.
+
+**The script arms carry a confound this section did not price: the pictures are prose written for
+an artist.** Measured 12 September 2026 with `reader_view.py report`:
+
+| View | A1 | A2 | A3 |
+| --- | ---: | ---: | ---: |
+| lettering only | 867 words | 3,501 | 8,608 |
+| plus `Frame` and `Action` (`full`, this protocol's reading) | 3,097 | 12,364 | 26,406 |
+
+About **two thirds of an A3 reader's words are direction nobody letters**, and direction explains.
+Page 016's frames say the package-service silhouette *will recur through Chapters 1, 2 and 3*; its
+`Action` line says *the one door in the wall is identified before anyone walks through it*. A drawing
+shows a door. The direction tells the reader what the door means and that it matters later. So the
+`full` view is not a floor on the comic as [What a result can and cannot establish](#what-a-result-can-and-cannot-establish)
+claims — it is closer to an annotated edition. `reader_view.py` supports `--view lettering`,
+`frames` and `full` so the substitution is recorded per arm; which the treatment arms use is an open
+choice below.
+
 ## The arms
 
 One fresh context per cell. No arm ever sees another arm's output.
@@ -119,6 +162,8 @@ recorded way, and each defines a question a faithful reader **cannot** answer.
 
 A7 is the sharpest of the three, because its failure mode is unambiguous. There is no way to report a
 mechanism that is not in the text you were given except by knowing it from elsewhere.
+**Amended 12 September 2026:** sharpest failure, weakest pass — see
+[Prior evidence on role fidelity](#prior-evidence-on-role-fidelity).
 
 Build each damaged variant by hand, one per tested claim, and **record the exact edit** — the arm is
 only interpretable if a later reader can see what was removed or substituted. Keep the variants in the
@@ -167,6 +212,24 @@ promises that a reader who finishes unable to name the concepts means the book w
 the direct test of class 2. Question 7 is asked last, and its answers are treated as a self-report —
 a useful signal, not a measurement, since a model's account of its own sources is not reliable.
 
+## Prompt wording
+
+**Added 12 September 2026.** Everything a reader model is sent besides the arm and the questions
+above. `scripts/synthetic_reader.py` reads this block, so it is the only copy; changing a line is
+changing the protocol.
+
+```text
+system: You are {persona}
+opening: Here is something to read. Afterwards I will ask you some questions about it, one at a time.
+cite: For each thing you say, give the page number it comes from.
+```
+
+The opening precedes the arm in the first turn; `cite` follows every question, because the scoring
+rule gives an uncited claim zero and a reader cannot follow a rule it was never told. Nothing says the
+text is being tested, nothing invites the reader to say it does not know, and nothing tells it to
+forget anything. An A0 cell sends the questions with no opening, which leaves "what happened" without
+a referent — **A0's wording is unresolved** and A0 is not in the first run.
+
 ## Personas
 
 Four, to vary the reader rather than to manufacture ignorance. Each is a background, not an
@@ -194,8 +257,7 @@ answer.
 | 4 | Grounded, correct, and reaches something the text implies without stating |
 
 **Leakage flag, recorded separately from the score.** Any appearance of these terms is prior
-knowledge, because none of them appears on any of the 118 story pages as measured on
-11 September 2026:
+knowledge, unless it is one of the text-supplied terms below and cited to a page that carries it:
 
 mesa-optimization · inner alignment · deceptive alignment · alignment faking · situational awareness ·
 sandbagging · intelligence explosion · recursive self-improvement · gradual disempowerment · goal
@@ -203,6 +265,18 @@ misgeneralization · interpretability · chain-of-thought monitoring · AI contr
 treacherous turn · compute governance · paperclip · Omohundro · orthogonality · instrumental
 convergence · Moloch · corrigibility · specification gaming · reward hacking · Goodhart ·
 superintelligence · Bostrom · Yudkowsky
+
+**Text-supplied terms, corrected 12 September 2026.** Version 1 said none of these appears on any
+story page. Three do, in the reader's own view, measured by `reader_view.py check`:
+
+orthogonality · instrumental convergence · chain-of-thought monitoring
+
+The first two are words Curt writes on a legal pad and draws an arrow to — pages 015, 038, 039 and
+089, so already inside A1 — and appear in the novella's prose for the same pages; the third is
+lettered on page 093. The earlier measurement searched lettering, and a legal pad in a picture is not
+lettering. A reader may use these three terms; what the text does **not** supply is a definition of
+either of the first two, so a reader who *explains* orthogonality from page 015 is still reciting.
+The appendix, in A5, supplies eleven of the terms, and in that arm the same rule applies to each.
 
 A high question-5 score carrying six of these terms and no page citations is not the book working. It
 is the model reciting, and it is the exact failure this protocol exists to catch.
@@ -222,6 +296,91 @@ is the model reciting, and it is the exact failure this protocol exists to catch
   a test, not project records, and they will be large.
 - The protocol is the unit of comparison. **Changing a question invalidates comparison with earlier
   runs**; version this file and record which version produced a result.
+
+## Prior evidence on role fidelity
+
+**Researched 12 September 2026**, to ask whether the gates are likely to pass before paying for them.
+The literature is on role-play and context faithfulness rather than on naive readers, and it points
+one way: **expect the decoy to pass and the ablation and unsupported probe to fail.**
+
+- **Knowledge boundaries in role-play are weak.** TimeChara (Ahn et al., ACL Findings 2024,
+  [arXiv:2405.18027](https://arxiv.org/abs/2405.18027)) asks role-playing models, placed at a point in
+  a narrative, about events after it; its
+  [project page](https://ahnjaewoo.github.io/timechara/) reports every baseline at or below 51% on
+  those questions, and its decomposition method reduces the failure without removing it. That is A8's
+  failure in another costume.
+- **The fix that works is architectural, not instructional.** Tang et al. (June 2026,
+  [arXiv:2606.25632](https://arxiv.org/abs/2606.25632)) name *factual overreach* — parametric memory
+  letting a character use facts outside its perspective — and improve knowledge-boundary fidelity by
+  34.6 points by restricting what memory the character can reach. A prompt-only reader has no such
+  restriction available, which is this protocol's premise that fidelity cannot be instructed.
+- **Models are poor judges of this error, especially for familiar knowledge.** Zhang et al.
+  ([arXiv:2409.11726](https://arxiv.org/abs/2409.11726), revised May 2025) find current models struggle
+  to detect character knowledge errors, worst where the knowledge is familiar. A grading model will
+  under-report exactly the leakage this protocol most needs caught, so **gate cells are scored by a
+  person**, and the term list is a floor on leakage, not a detector.
+- **Explicit counterfactual context is followed.** Kochelka et al. (September 2026,
+  [arXiv:2609.09363](https://arxiv.org/abs/2609.09363)) find counterfactual inputs cost only about 1%
+  of faithfulness on a data-to-text task — and that the choice of judge model moved the measured
+  effect three- to four-fold.
+
+**Two amendments follow.** First, **A7 is the sharpest failure but the weakest pass.** When the text
+states a substituted mechanism, reporting it is ordinary context-following, which these models do
+well; the discriminating conditions are A6 and A8, where the text is silent and the model must leave
+the gap empty. A cell that passes A7 and fails A6 has failed. Second, **the grader is part of the
+instrument**: fix the grading model and version, record it with the run, and have a person score
+every gate cell and a sample of treatment cells blind to arm.
+
+## Running it
+
+**Decided 12 September 2026 by the owner:**
+
+1. **The reader is a raw Messages API call** — `scripts/synthetic_reader.py`, standard library, the
+   persona as the whole system prompt, `ANTHROPIC_API_KEY` from the environment. Server-side refusal
+   fallbacks are **off**: a fallback answers on another model inside the same cell. A refusal is
+   recorded and ends the conversation.
+2. **Script arms run in pairs**, `lettering` and `full`. Lettering-only is the floor on the comic;
+   `full` is version 1's reading and an upper bound. A finding that holds in one and not the other
+   is a finding about the frames.
+3. **The first run is gates only:** A6–A8, persona P1, one model, n = 3, over the prologue (A1) in
+   both views. It stops the protocol if the method fails before anything else is paid for.
+4. **The story gate holds.** No page, novella or appendix change until gated results exist.
+
+**Gate design for the first run.** Each question's A6 and A7 is a set of exact find-and-replace
+edits against A1, and each A8 a probe asked immediately after the question it gates, in a spec
+kept with the run in `256t/synthetic-readers/`. Every conversation still asks all seven questions;
+only the gated question is scored for that cell. Three consequences, recorded because each could
+be mistaken for an error later:
+
+- **Question 7 is not gated.** It is a self-report by design, and no damaged text makes a faithful
+  self-report fail. Its answers are never a reportable positive.
+- **A view can make a control vacuous or impossible.** The `lettering` view has no legal pad, so the
+  question-5 ablation *is* the undamaged arm there — still a valid negative control, since the text
+  lacks the step — and the question-5 decoy cannot be built at all. `variants` records both cases
+  rather than inventing lettering to damage.
+- **A1 is after the reader model's knowledge cutoff for the incident.** A model whose training ends
+  before July 2026 cannot recite the incident, so the chronology and uncertainty gates mostly
+  test confabulation. The theory is where the priors are, which makes questions 3, 5 and 6 the
+  gates that decide whether the method works.
+
+What exists and what does not, as found before the decision:
+
+- **A clean reader is a raw API call.** The protocol requires no system prompt beyond the persona and
+  no access to anything but the arm. The Messages API, called with the persona as the whole system
+  prompt, meets that exactly, and needs a key the repository does not hold.
+- **The `claude` CLI in print mode comes close** — `--system-prompt` replaces the default, `--tools ""`
+  removes tools, and run from an empty directory it sees no project — but it is a harness around the
+  model, and whatever it adds has to be probed before a run relies on it. On 12 September its stored
+  login had expired, so the probe did not run.
+- **A Claude Code subagent is not a clean reader** and should not be used. It inherits a harness
+  system prompt and project instructions, and has filesystem tools inside this repository, where
+  the provenance, the page notes and this protocol are one read away. A persona cannot un-know a file
+  it can open.
+- **The working session cannot be the reader**, because it has read the book's apparatus.
+
+Budget at the `full` view, estimated at four characters per token: A1 ≈ 5k tokens, A2 ≈ 20k, A3 ≈ 42k,
+A4 ≈ 66k, and A5 ≈ 174k — near a 200k context before seven turns of answers. A5 needs a
+long-context model or the `frames` view.
 
 ## Reporting, and what it is allowed to conclude
 

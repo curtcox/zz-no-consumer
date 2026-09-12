@@ -113,6 +113,8 @@ generation boundaries, so a CI run can never reach for an image model.
 | `novella.py report` / `assemble` | word census by chapter and page; the whole novella as one document |
 | `appendix.py report` / `assemble` / `json` | census, page coverage, stance and field spread |
 | `cadence.py report` / `list` | the negation cadence of the visible lettering. **No `check`, deliberately** — which aphorisms to thin is an editorial judgement no exit code should make. |
+| `reader_view.py script` / `novella` / `appendix` / `arms` / `check` / `report` | what a reader is given and nothing a reader is not — the stripped script, the plain-text novella and appendix — and the arms of the [synthetic reader protocol](../design/synthetic-reader-protocol.md), written to the ignored `256t/synthetic-readers/`. `check` holds the extractor's lettered words to `panels.py` and fails on apparatus in the reader text. Not in CI: the protocol it serves needs a model. |
+| `synthetic_reader.py variants` / `run` / `sheet` | the [synthetic reader protocol](../design/synthetic-reader-protocol.md) itself: applies a spec's recorded find-and-replace damage to an arm, asks a stateless model the protocol's questions over the raw Messages API (persona as the whole system prompt, refusal fallbacks off, transcripts resumable), and lays gated answers out for a person to score. Questions, personas and prompt wording are read from the protocol. `ANTHROPIC_API_KEY`, except `variants` and `run --dry-run`. |
 
 ## Artwork
 
@@ -312,7 +314,8 @@ Six modules carry the shared models, and the rest import them rather than re-der
   `pagination.py`, `panels.py`, `novella.py`, `appendix.py`, `validate-continuity.py`, and the
   builder.
 - **`panels.py`** — the panel and lettering model. Imported by `imagegen.py`, `novella.py`,
-  `make-thumbnails.py`.
+  `make-thumbnails.py`, and `reader_view.py`, whose reader-facing script is a view over the same
+  lettering parse so the two cannot disagree about what is lettered.
 - **`pagelinks.py`** — the page-reference grammar and the link rewriter. Imported by
   `pagination.py`, `panels.py`, and the builder, which asks it for one resolver per edition.
 - **`imagegen.py`** — the generator roster and the prompt composer. Imported by `bakeoff.py`,

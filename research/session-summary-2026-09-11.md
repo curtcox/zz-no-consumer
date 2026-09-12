@@ -401,6 +401,10 @@ Reordered by value, after the 12 September resolutions.
 6. **How the synthetic pass gets run:** whether I build the extractor (small, reuses `panels.py`'s
    lettering parser, testable against its 6,020-word total), and whether the reader is a subagent or a
    session you drive. **I cannot be the reader.** Run the gates before any treatment arm.
+   **Answered 12 September 2026:** the extractor is built (`scripts/reader_view.py`), the reader is a
+   raw API call (`scripts/synthetic_reader.py`), script arms run in `lettering`/`full` pairs, and the
+   first run is gates only — P1, one model, n = 3, over the prologue. Recorded in
+   [the protocol](../design/synthetic-reader-protocol.md#running-it).
 7. **Whether A5 runs** — book plus appendix. If it scores far above the book alone you need routing,
    not 56–84 pages. Cheapest way to find out S3 was wrong.
 8. **C11 (Müller and Cannon, *Ratio* 35(1), 2022)** — paywalled, and the top unread priority. It

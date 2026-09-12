@@ -151,6 +151,16 @@ Thirty-one named ideas from the AI-safety literature were searched across `conte
 thirty-one appears on any of the 118 story pages.** That is the method working as designed, not a
 defect.
 
+> **Corrected 12 September 2026.** Three do appear in what a reader is given, measured with
+> `scripts/reader_view.py check`: *orthogonality* and *instrumental convergence* are words Curt writes
+> on a legal pad and draws an arrow to, on [page 015](../content/pages/015.md),
+> [038](../content/pages/038.md), [039](../content/pages/039.md) and [089](../content/pages/089.md), and
+> *chain-of-thought monitoring* is lettered on [page 093](../content/pages/093.md). The original search
+> read lettering; a word drawn in a picture is not lettering but is read. The substance holds — the
+> book never *defines* either of the first two — but the book already names two concepts as props,
+> which is relevant to where a naming beat would land. See
+> [the protocol's correction](../design/synthetic-reader-protocol.md).
+
 The finding that matters is the second column. These appear **nowhere in `content/` at all** — not
 in the appendix, not in the themes, not in the novella:
 

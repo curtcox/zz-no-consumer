@@ -109,7 +109,14 @@ GROUPED_HEADING = re.compile(r"^## Panels (\d+)[–-](\d+)[ \t]*$", re.MULTILINE
 SECTION_HEADING = re.compile(r"^## ", re.MULTILINE)
 WORD = re.compile(r"[A-Za-z0-9]+(?:[’'][A-Za-z0-9]+)*")
 
-VISIBLE_HEADERS = ("**Caption", "**Dialogue", "**Screen / system text", "**Qualification")
+VISIBLE_HEADERS = (
+    "**Caption", "**Dialogue", "**Left dialogue", "**Right dialogue",
+    "**Screen / system text", "**Qualification", "**Dossier tag",
+)
+# A page-level section whose code lines are lettered on every panel of the page -- the
+# disclosure banners on invented scenes. It sits outside any panel, so it counts toward the
+# page's words and no panel's.
+BANNER_HEADING = "## Persistent banner"
 
 
 def panel_count(source: str) -> int:
@@ -129,7 +136,7 @@ def visible_text(source: str) -> list[str]:
     active = False
     for line in source.splitlines():
         if line.startswith("## "):
-            active = False
+            active = line.startswith(BANNER_HEADING)
         if line.startswith(VISIBLE_HEADERS):
             active = True
             continue
