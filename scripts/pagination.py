@@ -729,6 +729,7 @@ def new_prose_stub(page: PageRecord) -> str:
         f"sequence: {yaml_scalar(page.sequence)}\n"
         f"title: {page.title}\n"
         f"source: content/pages/{page.id}.md\n"
+        "exact_strings: []\n"
         "---\n"
         "\n"
         f"# {page.number}. {page.title}\n"

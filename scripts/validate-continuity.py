@@ -2,7 +2,12 @@
 """Validate the story contract, chapter map, and drafted page metadata."""
 
 import re
+import sys
 from pathlib import Path
+
+sys.path.insert(0, str(Path(__file__).resolve().parent))
+
+import crossref  # noqa: E402
 
 
 ROOT = Path(__file__).resolve().parents[1]
@@ -17,79 +22,9 @@ ALLOWED_PROVENANCE = {
     "invented",
 }
 
-# An exact string is registered, not forbidden. The rule used to be that no page except the
-# last could carry one at all, which was the 2 September permissions disposition frozen into
-# a check: it applied the lossy transformation during drafting, when the original was still
-# available to review it against, and made drafting on ground truth impossible. The rule now
-# is that a page in review may hold a quotation as long as it is declared, and that the
-# declaration has to be discharged before the page locks. See content/draft-readiness.md
-# gate 9 and tasks/citation-verification.md.
-EXACT_STRING_FIELDS = ("text", "source", "locator", "verification", "rights")
-
-ALLOWED_VERIFICATION = {
-    "unchecked",          # registered, nothing checked yet
-    "exists",             # the source resolves; says nothing about content
-    "locator",            # the passage is findable; says nothing about content
-    "quoted",             # the claim was checked against the passage, by someone, on a date
-    "verbatim",           # character-exact against a NAMED copy, and the row says which copy
-    "derived",            # computed rather than read; the method is recorded
-    "project-authored",   # this book wrote it; there is no third party to verify against
-}
-
-ALLOWED_RIGHTS = {
-    "unresolved",         # no decision yet
-    "cleared",            # may print as it stands
-    "paraphrase",         # gate 9 decided to summarise; apply it and drop the registration
-    "redact",             # gate 9 decided to remove; apply it and drop the registration
-}
-
-# What a locked page may carry. A `quoted` match is not enough to print a quotation: the
-# wording has to be exact against a named copy. `paraphrase` and `redact` are decisions to
-# transform, so a locked page carrying one means the decision was recorded and never applied.
-LOCKABLE_VERIFICATION = {"verbatim", "project-authored"}
-LOCKABLE_RIGHTS = {"cleared"}
-
-
-def exact_strings(metadata: str) -> tuple[list[dict[str, str]], list[str]]:
-    """Parse the exact_strings block into entries, and report malformed ones.
-
-    Hand-parsed for the same reason everything else here is: the standard library has no
-    YAML. The block is either `exact_strings: []` or a list of mappings whose keys are
-    EXACT_STRING_FIELDS. A bare list item — the pre-registration format — is malformed now,
-    because a string with no source, locator, verification, or rights decision is exactly
-    what this check exists to catch.
-    """
-    match = re.search(r"^exact_strings:[ \t]*(.*)$", metadata, re.MULTILINE)
-    if not match:
-        return [], ["missing exact_strings"]
-    if match.group(1).strip() == "[]":
-        return [], []
-    body = metadata[match.end():]
-    stop = re.search(r"^[A-Za-z_]", body, re.MULTILINE)
-    if stop:
-        body = body[: stop.start()]
-    if not body.strip():
-        return [], ["exact_strings is present but empty; write `exact_strings: []`"]
-    entries: list[dict[str, str]] = []
-    problems: list[str] = []
-    for chunk in re.split(r"(?=^\s*-\s)", body, flags=re.MULTILINE):
-        if not chunk.strip():
-            continue
-        entry: dict[str, str] = {}
-        for line in chunk.splitlines():
-            field = re.match(r"^\s*(?:-\s*)?([a-z_]+):\s*(.*?)\s*$", line)
-            if field and field.group(1) in EXACT_STRING_FIELDS:
-                entry[field.group(1)] = field.group(2).strip().strip('"')
-        if not entry:
-            problems.append(
-                f"unregistered exact string {chunk.strip().lstrip('- ')[:48]!r}: "
-                f"needs {', '.join(EXACT_STRING_FIELDS)}"
-            )
-            continue
-        entries.append(entry)
-    return entries, problems
-
-
+# The exact-string registration model lives in crossref.py, which owns the page and
+# provenance graph, so the page scripts and the novella are held to the same rule by the
+# same code. See content/draft-readiness.md gate 9.
 def expected_chapters() -> list[tuple[str, str, str, int, int]]:
     """Read the chapter map from data/chapters.yaml.
 
@@ -295,42 +230,12 @@ def main() -> int:
         if not re.search(r"^\s+source:\s*\S+", metadata, re.MULTILINE):
             errors.append(f"Missing provenance source in {path.relative_to(ROOT)}")
         page_status = re.search(r"^status:\s*(\S+)", metadata, re.MULTILINE)
-        page_status = page_status.group(1) if page_status else None
-        registered, malformed = exact_strings(metadata)
-        where = path.relative_to(ROOT)
-        for problem in malformed:
-            errors.append(f"{where}: {problem}")
-        for entry in registered:
-            label = (entry.get("text") or "?")[:48]
-            missing = [f for f in EXACT_STRING_FIELDS if not entry.get(f)]
-            if missing:
-                errors.append(f"{where}: exact string {label!r} is missing {', '.join(missing)}")
-                continue
-            if entry["verification"] not in ALLOWED_VERIFICATION:
-                errors.append(
-                    f"{where}: exact string {label!r} has unknown verification "
-                    f"{entry['verification']!r}"
-                )
-            if entry["rights"] not in ALLOWED_RIGHTS:
-                errors.append(
-                    f"{where}: exact string {label!r} has unknown rights {entry['rights']!r}"
-                )
-            if page_status == "locked":
-                if entry["verification"] not in LOCKABLE_VERIFICATION:
-                    errors.append(
-                        f"{where} is locked but exact string {label!r} is only "
-                        f"{entry['verification']!r}; gate 9 requires verbatim"
-                    )
-                if entry["rights"] not in LOCKABLE_RIGHTS:
-                    errors.append(
-                        f"{where} is locked but exact string {label!r} has rights "
-                        f"{entry['rights']!r}; apply the decision and drop the registration"
-                    )
-            elif entry["verification"] == "unchecked" or entry["rights"] == "unresolved":
-                warnings.append(
-                    f"{where}: exact string {label!r} is not yet dispositioned "
-                    f"(verification {entry['verification']}, rights {entry['rights']}) — gate 9"
-                )
+        locked = bool(page_status) and page_status.group(1) == "locked"
+        found, noted = crossref.audit_exact_strings(
+            metadata, str(path.relative_to(ROOT)), locked=locked
+        )
+        errors.extend(found)
+        warnings.extend(noted)
 
     if errors:
         print("Continuity validation failed:")

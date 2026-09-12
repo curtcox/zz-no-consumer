@@ -243,6 +243,114 @@ def yaml_list(metadata: str, field_name: str) -> tuple[str, ...]:
     )
 
 
+EXACT_STRING_FIELDS = ("text", "source", "locator", "verification", "rights")
+
+ALLOWED_VERIFICATION = {
+    "unchecked",          # registered, nothing checked yet
+    "exists",             # the source resolves; says nothing about content
+    "locator",            # the passage is findable; says nothing about content
+    "quoted",             # the claim was checked against the passage, by someone, on a date
+    "verbatim",           # character-exact against a NAMED copy, and the row says which copy
+    "derived",            # computed rather than read; the method is recorded
+    "project-authored",   # this book wrote it; there is no third party to verify against
+}
+
+ALLOWED_RIGHTS = {
+    "unresolved",         # no decision yet
+    "cleared",            # may print as it stands
+    "paraphrase",         # gate 9 decided to summarise; apply it and drop the registration
+    "redact",             # gate 9 decided to remove; apply it and drop the registration
+}
+
+# What a locked file may carry. A `quoted` match is not enough to print a quotation: the
+# wording has to be exact against a named copy. `paraphrase` and `redact` are decisions to
+# transform, so a locked file carrying one means the decision was recorded and never applied.
+LOCKABLE_VERIFICATION = {"verbatim", "project-authored"}
+LOCKABLE_RIGHTS = {"cleared"}
+
+
+def read_exact_strings(metadata: str) -> tuple[list[dict[str, str]], list[str]]:
+    """Parse an exact_strings block into entries, and report malformed ones.
+
+    Hand-parsed for the same reason everything else here is: the standard library has no
+    YAML. The block is either `exact_strings: []` or a list of mappings whose keys are
+    EXACT_STRING_FIELDS. A bare list item is malformed, because a string with no source,
+    locator, verification or rights decision is exactly what the check exists to catch.
+    """
+    match = re.search(r"^exact_strings:[ \t]*(.*)$", metadata, re.MULTILINE)
+    if not match:
+        return [], ["missing exact_strings"]
+    if match.group(1).strip() == "[]":
+        return [], []
+    body = metadata[match.end():]
+    stop = re.search(r"^[A-Za-z_]", body, re.MULTILINE)
+    if stop:
+        body = body[: stop.start()]
+    if not body.strip():
+        return [], ["exact_strings is present but empty; write `exact_strings: []`"]
+    entries: list[dict[str, str]] = []
+    problems: list[str] = []
+    for chunk in re.split(r"(?=^\s*-\s)", body, flags=re.MULTILINE):
+        if not chunk.strip():
+            continue
+        entry: dict[str, str] = {}
+        for line in chunk.splitlines():
+            field_match = re.match(r"^\s*(?:-\s*)?([a-z_]+):\s*(.*?)\s*$", line)
+            if field_match and field_match.group(1) in EXACT_STRING_FIELDS:
+                entry[field_match.group(1)] = field_match.group(2).strip().strip('"')
+        if not entry:
+            problems.append(
+                f"unregistered exact string {chunk.strip().lstrip('- ')[:48]!r}: "
+                f"needs {', '.join(EXACT_STRING_FIELDS)}"
+            )
+            continue
+        entries.append(entry)
+    return entries, problems
+
+
+def audit_exact_strings(metadata: str, where: str, *, locked: bool) -> tuple[list[str], list[str]]:
+    """Hold one file's exact_strings registration to the rule. Returns (errors, warnings).
+
+    Both editions share this, because both ship and both share the page key. A quotation
+    registered on a script and not on its prose page, or the reverse, is two different books.
+    """
+    errors: list[str] = []
+    warnings: list[str] = []
+    registered, malformed = read_exact_strings(metadata)
+    for problem in malformed:
+        errors.append(f"{where}: {problem}")
+    for entry in registered:
+        label = (entry.get("text") or "?")[:48]
+        missing = [name for name in EXACT_STRING_FIELDS if not entry.get(name)]
+        if missing:
+            errors.append(f"{where}: exact string {label!r} is missing {', '.join(missing)}")
+            continue
+        if entry["verification"] not in ALLOWED_VERIFICATION:
+            errors.append(
+                f"{where}: exact string {label!r} has unknown verification "
+                f"{entry['verification']!r}"
+            )
+        if entry["rights"] not in ALLOWED_RIGHTS:
+            errors.append(f"{where}: exact string {label!r} has unknown rights {entry['rights']!r}")
+        if locked:
+            if entry["verification"] not in LOCKABLE_VERIFICATION:
+                errors.append(
+                    f"{where} is locked but exact string {label!r} is only "
+                    f"{entry['verification']!r}; gate 9 requires verbatim"
+                )
+            if entry["rights"] not in LOCKABLE_RIGHTS:
+                errors.append(
+                    f"{where} is locked but exact string {label!r} has rights "
+                    f"{entry['rights']!r}; apply the decision and drop the registration"
+                )
+        elif entry["verification"] == "unchecked" or entry["rights"] == "unresolved":
+            warnings.append(
+                f"{where}: exact string {label!r} is not yet dispositioned "
+                f"(verification {entry['verification']}, rights {entry['rights']}) — gate 9"
+            )
+    return errors, warnings
+
+
 def read_chapters() -> list[Chapter]:
     source = (ROOT / "data" / "chapters.yaml").read_text(encoding="utf-8")
     chapters: list[Chapter] = []

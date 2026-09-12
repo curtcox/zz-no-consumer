@@ -90,7 +90,7 @@ partly cover.
 | `content/novella/CC-chapter/NNN.md` | you, by hand | prose retelling, one file per story page |
 | `content/appendix/**` | you, by hand | questions, contested assertions, fallacies, professional objections |
 | `content/*.md`, `design/`, `research/`, `prompts/` | you, by hand | contract, beat sheet, briefs, design notes, source material |
-| `data/pages.yaml`, `data/chapters.yaml` | **`pagination.py`** | edit by hand only to change a title or status, never a number |
+| `data/pages.yaml`, `data/chapters.yaml` | **`pagination.py`** | edit by hand only to change a title or status, never a number. **A page's `status` here is what the lock gate reads** — not the status line in the page file |
 | `data/panel-types.tsv` | **`paneltypes.py write`** | regenerate, don't edit |
 | `data/anthill-study.json` | you for study choices; **`pagination.py`** for page references | titles are labels, never selectors |
 | `data/storyboards.json`, `data/storyboard-assets.json` | you, by hand | composition and reusable geometry; identity tools own panel-key rewrites |
@@ -179,9 +179,12 @@ exact_strings:
     rights: cleared                  # unresolved | cleared | paraphrase | redact
 ```
 
-`validate-continuity.py` enforces it: a bare string with no registration is an error, an unknown
-vocabulary value is an error, and a page in `review` carrying an `unchecked` or `unresolved` entry
-gets a warning naming gate 9. A page may not reach `status: locked` unless every entry is `verbatim`
+The field is required in **every page script and every novella prose file** — the prose edition ships
+as its own targets and shares the page key, so a quotation registered on one and not the other is two
+different books. The model lives in `scripts/crossref.py`; `validate-continuity.py` and
+`novella.py check` both enforce it: a bare string with no registration is an error, an unknown
+vocabulary value is an error, and a file whose page is in `review` carrying an `unchecked` or
+`unresolved` entry gets a warning naming gate 9. A page may not reach `status: locked` unless every entry is `verbatim`
 (or `project-authored`) **and** `rights: cleared` — **`quoted` is deliberately not enough**, because
 checking that a source supports a claim is not checking that the wording is exact. `rights:
 paraphrase` or `redact` on a locked page means a decision was recorded and never applied.

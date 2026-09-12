@@ -83,6 +83,7 @@ class Prose:
     source: str
     heading: tuple[int, str] | None
     body: str
+    metadata: str
 
     @property
     def words(self) -> int:
@@ -162,6 +163,7 @@ def read_prose(path: Path) -> Prose:
         source=value("source"),
         heading=heading,
         body=body,
+        metadata=metadata,
     )
 
 
@@ -235,6 +237,24 @@ def audit(model: crossref.CrossReference) -> list[Note]:
                 notes.append(Note("warning", "heading-title-disagrees", prose.path,
                                   f"is headed {prose.heading[1]!r}; the script titles the page "
                                   f"{page.title!r}"))
+
+        # The prose edition ships as its own target and shares the page key, so a quotation
+        # here is held to the same rule as one in the script. crossref owns the model; this
+        # only supplies the file and whether its page has locked.
+        locked = page.status == "locked"
+        string_errors, string_warnings = crossref.audit_exact_strings(
+            prose.metadata, prose.path, locked=locked
+        )
+        def without_path(message: str, where: str = prose.path) -> str:
+            # crossref prefixes the file it was given; Note prints the path itself.
+            return message.removeprefix(where).lstrip(": ").strip() or message
+
+        for message in string_errors:
+            notes.append(Note("error", "exact-string-registration",
+                              prose.path, without_path(message)))
+        for message in string_warnings:
+            notes.append(Note("warning", "exact-string-undispositioned",
+                              prose.path, without_path(message)))
 
         if prose.words == 0:
             notes.append(Note("error", "prose-empty", prose.path, "has no prose after its heading"))

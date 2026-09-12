@@ -49,31 +49,35 @@ paraphrase against redaction once, at gate 9, immediately before publication.** 
 generalised — that rule already said to reopen the gate for a specific excerpt rather than restoring
 the former set wholesale, and a per-string registration is what reopening looks like mechanically.
 
-**The mechanism.** `exact_strings` in a page's front matter is now a registration: `[]`, or one entry
-per string carrying **text, source, locator, verification, rights**. A page in `review` may hold an
-undispositioned string, with a warning. A page may not reach `locked` unless every entry is
-`verbatim` against a named copy and `rights: cleared`; `quoted` is insufficient, because confirming
-that a source supports a claim is not confirming that the wording is exact. Page 118's two
-project-authored strings were migrated to that form and are the only registrations in the book today.
+**The mechanism, in both editions.** `exact_strings` is now a registration: `[]`, or one entry per
+string carrying **text, source, locator, verification, rights**. It is required in the front matter of
+every page script **and every novella prose file**, because the prose edition ships as its own targets
+and shares the page key — a quotation registered on a script and not on its prose page is two
+different books. A file whose page is in `review` may hold an undispositioned string, with a warning.
+It may not be `locked` unless every entry is `verbatim` against a named copy and `rights: cleared`;
+`quoted` is insufficient, because confirming that a source supports a claim is not confirming that the
+wording is exact. The model lives in `scripts/crossref.py` and both `validate-continuity.py` and
+`novella.py check` hold their tree to it. Page 118's two project-authored strings are the only
+registrations in the book today.
 
 **What did not change, because it is a different hazard.** Rules 1, 2, 3 and 5 below all stand. In
 particular rule 3 — do not turn a source author's paraphrase into agent dialogue — is about upgrading
 an evidence class, and no rights clearance fixes it. The contract's security rule stands
 independently: a visible exact string may never be operational detail however clean its rights.
 
-**Rule 4 needs the owner's decision.** As written it forbids raw source wording in tracked research
-notes without a new documented rights decision. Established practice in `research/` is otherwise —
-short attributed quotations appear in several notes, and two were added on 12 September in
-[`asymmetry-problem-2026-09-12.md`](./asymmetry-problem-2026-09-12.md). The new working rule makes
-that practice deliberate rather than incidental, so rule 4 should either be narrowed to extended
-fragments and expressive wording, or it should be enforced. It is currently neither.
+**Rule 4 was narrowed the same day**, to extended fragments and expressive wording. As written it
+forbade raw source wording in tracked research notes at all, which is what established practice in
+`research/` had always done — short attributed quotations appear in several notes, and two were added
+on 12 September in [`asymmetry-problem-2026-09-12.md`](./asymmetry-problem-2026-09-12.md). A rule that
+forbids what the practice does is enforcing nothing and licensing nothing; it now says which of the
+two it means.
 
 ## Editorial rules going forward
 
 1. Link the controlling original publication instead of pasting a report page, screenshot, or extended fragment.
 2. Attribute institutional findings and preserve disputes, evidentiary limits, redactions, and unresolved causes.
 3. Do not turn a source author's paraphrase into agent dialogue.
-4. Keep raw source wording in `256t/` only; do not add it to tracked research notes, prompts, generated pages, accessibility text, or promotional copy without a new documented rights decision.
+4. **Narrowed 12 September 2026.** Keep **extended fragments and expressive wording** in `256t/` only; do not add those to tracked research notes, prompts, generated pages, accessibility text, or promotional copy without a new documented rights decision. **Short attributed quotation is permitted** in tracked research and in the appendix's evidence apparatus, and is preferred there, because a research note whose claim about a source cannot be checked against the source's own words is the thing this audit exists to prevent. Reader-facing prose — page scripts and novella prose — carries an exact string only through the `exact_strings` registration, which gate 9 discharges. As written before this revision the rule forbade what established practice already did in several notes, so it was enforcing nothing and licensing nothing; it now says which of the two it means.
 5. If exact quotation later becomes artistically indispensable, reopen this gate for that specific excerpt and context rather than restoring the former set wholesale.
 
 ## Gate decision
