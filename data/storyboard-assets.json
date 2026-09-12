@@ -22,6 +22,7 @@
     "cross": "<path d=\"M10 10L90 90M90 10L10 90\" stroke=\"currentColor\" stroke-width=\"8\"/>",
     "cup": "<path d=\"M10 8H70V85Q40 100 10 85Z\" fill=\"#101214\" stroke=\"currentColor\" stroke-width=\"4\"/><path d=\"M70 22Q110 20 90 58H70M14 50H67\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"4\"/>",
     "cursor": "<path d=\"M35 5H65M50 5V95M35 95H65\" stroke=\"currentColor\" stroke-width=\"5\"/>",
+    "curt-workroom": "<g fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.8\" stroke-linejoin=\"round\"><path d=\"M3 4H97V96H3ZM3 4L17 17H83L97 4M17 17V74H83V17M17 74L3 96M83 74L97 96\"/><path d=\"M24 27H47V52H24ZM35 27V52M24 39H47M57 34H76M57 47H76M60 34V25H64V34M69 34V23H73V34\"/></g>",
     "desk": "<path d=\"M0 12L85 0L100 30L14 43Z\" fill=\"currentColor\"/><path d=\"M14 43V100M94 31V90\" stroke=\"currentColor\" stroke-width=\"5\"/>",
     "directory-row": "<rect x=\"1\" y=\"1\" width=\"98\" height=\"98\" fill=\"#202326\" stroke=\"currentColor\" stroke-width=\"2\"/><path d=\"M19 1V99M4 24H15M4 43H12M4 72H15M28 27V15H43L51 27H90V81H28ZM35 44H83M35 58H73\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\"/>",
     "dotted-line": "<path d=\"M0 50H100\" stroke=\"currentColor\" stroke-width=\"2\" stroke-dasharray=\"4 5\" vector-effect=\"non-scaling-stroke\"/>",

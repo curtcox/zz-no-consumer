@@ -93,7 +93,9 @@ partly cover.
 | `data/pages.yaml`, `data/chapters.yaml` | **`pagination.py`** | edit by hand only to change a title or status, never a number. **A page's `status` here is what the lock gate reads** — not the status line in the page file |
 | `data/panel-types.tsv` | **`paneltypes.py write`** | regenerate, don't edit |
 | `data/anthill-study.json` | you for study choices; **`pagination.py`** for page references | titles are labels, never selectors |
-| `data/storyboards.json`, `data/storyboard-assets.json` | you, by hand | composition and reusable geometry; identity tools own panel-key rewrites |
+| `data/storyboards.json` | you, by hand | composition; identity tools own panel-key rewrites |
+| `data/svg-components.json`, `assets/svg-components/**` | **`svg_components.py` / component workshop** | independent definitions and immutable SVG versions; save new versions instead of overwriting |
+| `data/storyboard-assets.json` | **`svg_components.py export`** | derived geometry for selected component defaults; do not hand-edit |
 | `data/panel-art.tsv` | **`panelart.py`** | which version of a panel is the chosen one; `panel_chooser.py` writes through it |
 | `data/crossref.json`, `data/appendix.json` | **`crossref.py json`**, `appendix.py json` | derived |
 | `data/generation-log.jsonl` | **`imagegen.py` / `localgen.py` / `produce.py`** | a dated record; append-only, never rewritten by the renumbering tools |
@@ -253,6 +255,7 @@ python3 scripts/knowledge_map_local.py check && \
 python3 -m unittest discover -s scripts -p test_knowledge_map_local.py && \
 python3 scripts/knowledge_map_finish.py check && \
 python3 -m unittest discover -s scripts -p test_knowledge_map_finish.py && \
+python3 scripts/svg_components.py check && \
 python3 scripts/storyboards.py check --complete && \
 python3 scripts/art_jobs.py check && \
 python3 scripts/image_crop.py check && \
@@ -265,6 +268,7 @@ python3 scripts/letterpress.py audit && \
 python3 scripts/pagination.py check && \
 python3 scripts/panels.py check && \
 python3 scripts/build-site.py && \
+python3 scripts/svg_components.py check --built && \
 python3 scripts/storyboards.py check --complete --built && \
 python3 scripts/validate-viewer.py && \
 python3 scripts/validate-novella.py && \
@@ -294,6 +298,8 @@ continue through eligible prepared jobs and bounded corrections without stopping
 after an arbitrary pair. Stop for the requested batch limit, unresolved visual/source
 decisions, unavailable generation, or exhausted attempts. Generation and visual
 review remain assistant tasks; bookkeeping and batch verification are scripted.
+
+**Improve reusable SVG components.** Run `python3 scripts/svg_components.py serve` and open the local component workshop. Definitions and versioned geometry live independently of scenes. See [the component workflow](design/svg-components.md) for comparison, saving, default selection and per-node version pins.
 
 **Generate or improve placeholders.** Follow [the storyboard workflow](design/storyboard-workflow.md)
 for new scene records, local SVG generation, visual iteration, model handoff, importing,

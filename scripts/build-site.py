@@ -2672,7 +2672,9 @@ def main() -> int:
     LETTERED = build_lettering()
     build_viewer()
     import storyboards
-    storyboards.gallery(OUT / "storyboards")
+    import svg_components
+    svg_components.gallery(OUT / "components")
+    storyboards.gallery(OUT / "storyboards", components_url="../components/")
     import anthill_study
     anthill_study.build(OUT / "anthill-study")
     novella_routes = build_novella()

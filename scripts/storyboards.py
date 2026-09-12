@@ -24,6 +24,7 @@ import panels
 import crossref
 import textimage
 import panel_layout
+import svg_components
 
 ROOT = Path(__file__).resolve().parents[1]
 DATA = ROOT / 'data/storyboards.json'
@@ -115,7 +116,7 @@ def lettering(key, scene):
 def validate(data):
     assets = json.loads(LIBRARY.read_text())['assets']
     sources = source_bodies()
-    errors = []
+    errors = svg_components.Library().errors()
     if data.get('version') != 1:
         errors.append('unsupported scene schema')
     for key, scene in data['scenes'].items():
@@ -158,18 +159,27 @@ def validate(data):
     return errors
 
 
-def render(scene, data, *, layout=False, size=None):
+def render(scene, data, *, layout=False, size=None, component_library=None):
     W, H = size or textimage.PANEL_SIZE
     library = json.loads(LIBRARY.read_text())
     palette = data['palette']
-    used_assets = {n['asset']: library['assets'][n['asset']] for n in scene['nodes']}
+    def asset_key(node):
+        return node['asset'] + ('@' + node['asset_version'] if node.get('asset_version') else '')
+    used_assets = {}
+    for node in scene['nodes']:
+        if node.get('asset_version'):
+            component_library = component_library or svg_components.Library()
+            fragment = component_library.resolve(node['asset'], node['asset_version'])
+        else:
+            fragment = library['assets'][node['asset']]
+        used_assets[asset_key(node)] = fragment
     snapshot = {'renderer': VERSION, 'scene': scene, 'assets': used_assets, 'palette': palette}
     parts = [f'<svg xmlns="http://www.w3.org/2000/svg" width="{W}" height="{H}" viewBox="0 0 {W} {H}">',
              '<title>' + html.escape(scene['title']) + '</title>',
              '<desc>' + html.escape(scene['intent']) + '</desc>',
              '<metadata>' + html.escape(encoded(snapshot)) + '</metadata>',
              f'<rect width="{W}" height="{H}" fill="{palette[scene["background"]]}"/>']
-    for node in scene['nodes']:
+    for node_index, node in enumerate(scene['nodes']):
         x,y,w,h = node['box']; x,y,w,h = x*W,y*H,w*W,h*H
         color = palette[node['color']]
         if layout:
@@ -177,7 +187,7 @@ def render(scene, data, *, layout=False, size=None):
             parts.append(f'<text x="{x+8:g}" y="{y+24:g}" fill="{color}" font-family="sans-serif" font-size="20">{html.escape(node["asset"])}</text>')
         else:
             transform = 'translate(100 0) scale(-1 1)' if node.get('flip') else ''
-            parts.append(f'<g transform="translate({x:g} {y:g}) scale({w/100:g} {h/100:g})" color="{color}"><g transform="{transform}">' + library['assets'][node['asset']] + '</g></g>')
+            parts.append(f'<g transform="translate({x:g} {y:g}) scale({w/100:g} {h/100:g})" color="{color}"><g transform="{transform}">' + svg_components.scope_ids(used_assets[asset_key(node)], f'node-{node_index}-') + '</g></g>')
         if node.get('label'):
             if 'label_box' in node:
                 lx, ly, lw, lh = node['label_box']
@@ -315,7 +325,7 @@ def generate(data):
     print(f'{len(data["scenes"])} boards; {added} new versions; {time.perf_counter()-started:.3f}s')
 
 
-def gallery(output):
+def gallery(output, *, components_url=None):
     data = load()
     output.mkdir(parents=True, exist_ok=True)
     scenes = data['scenes']
@@ -364,9 +374,10 @@ def gallery(output):
         spreads.append('<div class="spread">'+''.join(pages_html)+'</div>')
     document = '''<!doctype html><html lang="en"><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Storyboard workshop</title><style>
     *{box-sizing:border-box}body{margin:0;background:#101214;color:#E7E0D0;font:16px/1.5 system-ui}header,main{max-width:1500px;margin:auto;padding:24px}h1{font-size:38px;margin:0}h2{font-size:18px;scroll-margin-top:100px}p{max-width:85ch}a{color:#bdd4df}nav{display:flex;gap:20px;flex-wrap:wrap;position:sticky;top:0;background:#202326;padding:18px 24px;z-index:2}button,select{font:inherit;padding:6px}section.cards{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:24px}article{background:#202326;padding:18px;border:1px solid #5E737B;border-radius:8px}.image{position:relative}.image img{width:100%;display:none}body[data-mode=lettered] .lettered,body[data-mode=clean] .clean,body[data-mode=layout] .layout,body[data-mode=current] .current{display:block}.guides{display:none;position:absolute;inset:0;width:100%;height:100%;pointer-events:none}body.show-guides .guides{display:block}.spread{display:grid;grid-template-columns:1fr 1fr;gap:24px;margin:24px 0}.sheet{background:#E7E0D0;color:#101214;padding:18px}.pagepanels{position:relative}.pagepanels figure{position:absolute}.pagepanels figure img{height:100%;object-fit:contain}.pagepanels figcaption{position:absolute;bottom:0;background:#e7e0d0;padding:0 3px}figure{margin:0}figure img{width:100%;display:block}figcaption{font-size:11px}@media(max-width:750px){section.cards{grid-template-columns:1fr}.spread{gap:8px}.sheet{padding:8px}}
-    </style><body data-mode="lettered"><header><h1>Storyboard workshop</h1><p>Composition before rendering. Reconstructed scenes use broken borders. These are provisional compositions, not documentary images or likeness studies.</p></header><nav><label>View <select id="mode"><option value="lettered">With lettering</option><option value="clean">Clean storyboard</option><option value="layout">Layout boxes</option><option value="current">Current book selection</option></select></label><label><input id="guides" type="checkbox"> Lettering zones & focal points</label><a href="#spreads">Page spreads</a></nav><main><section class="cards">'''
+    </style><body data-mode="lettered"><header><h1>Storyboard workshop</h1><p>Composition before rendering. Reconstructed scenes use broken borders. These are provisional compositions, not documentary images or likeness studies.</p></header><nav><label>View <select id="mode"><option value="lettered">With lettering</option><option value="clean">Clean storyboard</option><option value="layout">Layout boxes</option><option value="current">Current book selection</option></select></label><label><input id="guides" type="checkbox"> Lettering zones & focal points</label><a href="#spreads">Page spreads</a>COMPONENT_NAV</nav><main><section class="cards">'''
     document += ''.join(cards) + '</section><h2 id="spreads">Page spreads</h2><p>Shared reader geometry, with the complete panel sequence and physical recto/verso pairing.</p>' + ''.join(spreads)
     document += '''</main><script>document.getElementById('mode').onchange=e=>document.body.dataset.mode=e.target.value;document.getElementById('guides').onchange=e=>document.body.classList.toggle('show-guides',e.target.checked);</script></body></html>'''
+    document = document.replace('COMPONENT_NAV', f'<a href="{html.escape(components_url, quote=True)}">Component palette</a>' if components_url else '')
     (output/'index.html').write_text(document)
 
 
@@ -381,7 +392,10 @@ def check_built(output):
                 url = urlsplit(value)
                 if url.scheme or not url.path:
                     continue
-                assert (output / unquote(url.path)).is_file(), value
+                target = output / unquote(url.path)
+                if target.is_dir():
+                    target = target / 'index.html'
+                assert target.is_file(), value
     Links().feed((output / 'index.html').read_text())
     for key, scene in load()['scenes'].items():
         W, H = panel_layout.target(key)

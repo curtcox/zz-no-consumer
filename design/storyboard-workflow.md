@@ -55,11 +55,14 @@ byte-identical for identical inputs; font rasterization can differ between brows
 - `reconstructed`: broken outer border for reconstructed scenes. Internal scene/evidence
   boundaries can use the separate reconstructed-box asset.
 
-`data/storyboard-assets.json` contains project-authored SVG primitives on a 100×100 local
-coordinate system. Their `currentColor` is supplied by the scene. The initial vocabulary
-includes rooms, racks, monitors, desks, cards, hands, silhouettes, and diagram elements.
-Human shapes are blocking figures, not approved likenesses. Add reusable geometry here;
-do not ask a model to rediscover the same desk or camera framing each time.
+Reusable components are defined independently in `data/svg-components.json`, with immutable
+100×100 SVG versions under `assets/svg-components/`. Browse, compare and edit them with
+`python3 scripts/svg_components.py serve`. See [the component workflow](svg-components.md).
+`data/storyboard-assets.json` is now the derived export of selected defaults for existing
+artwork tools; do not edit it directly. A node's `asset` names a component and optional
+`asset_version` pins a revision such as `v002`. Omitting the pin follows its library default.
+The scene supplies `currentColor`, placement and scale; human shapes remain staging figures,
+not approved likenesses. Save and review new geometry before choosing it as the default.
 
 The concept vocabulary also distinguishes task cards, transcript and directory rows,
 empty answer slots, narrow and broad authority, short and long budgets, matched and

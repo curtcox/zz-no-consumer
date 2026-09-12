@@ -1,0 +1,1009 @@
+{
+  "compatibility_about": "Project-authored reusable geometry. Asset coordinates are 0–100; currentColor comes from the scene palette. Human shapes are blocking silhouettes, not approved likenesses.",
+  "components": {
+    "ant": {
+      "category": "characters",
+      "default": "v001",
+      "description": "The edition’s authored ant figure: three body lobes, six jointed legs and two antennae. A disclosed visual convention, never evidence of agent bodies.",
+      "name": "Ant",
+      "versions": [
+        {
+          "created": "2026-09-12T22:08:43+00:00",
+          "id": "v001",
+          "note": "Original storyboard component, preserved without changes.",
+          "parent": null,
+          "sha256": "95cc5cccff62138e1aa3bd30a9043a9824acabd3146987eb4ff02a34f0a2046e"
+        }
+      ]
+    },
+    "apache-ant-logo": {
+      "category": "objects",
+      "default": "v001",
+      "description": "The existing embedded Apache Ant logo used on the creator’s tooling surface; a document mark rather than an agent character.",
+      "name": "Apache ant logo",
+      "versions": [
+        {
+          "created": "2026-09-12T22:08:43+00:00",
+          "id": "v001",
+          "note": "Original storyboard component, preserved without changes.",
+          "parent": null,
+          "sha256": "c346aab8f3aed2a797e3534ed6535f01a2d69979b091981471f405ba7322f791"
+        }
+      ]
+    },
+    "aperture": {
+      "category": "objects",
+      "default": "v001",
+      "description": "A mechanical inspection aperture for a grader or observer. It must not read as a human eye or imply omniscient access.",
+      "name": "Aperture",
+      "versions": [
+        {
+          "created": "2026-09-12T22:08:43+00:00",
+          "id": "v001",
+          "note": "Original storyboard component, preserved without changes.",
+          "parent": null,
+          "sha256": "3159c276f3bd8dcb1e424c7022d5497c543619c14ebe33bff92619af1610e40c"
+        }
+      ]
+    },
+    "arrow": {
+      "category": "connections",
+      "default": "v001",
+      "description": "A rightward causal or transfer direction with a clearly identifiable endpoint. Do not use for an unestablished relationship.",
+      "name": "Arrow",
+      "versions": [
+        {
+          "created": "2026-09-12T22:08:43+00:00",
+          "id": "v001",
+          "note": "Original storyboard component, preserved without changes.",
+          "parent": null,
+          "sha256": "2a1971cb961f35b82018552a8b171f8f5685f6980648e3cfee340435e18e4057"
+        },
+        {
+          "created": "2026-09-12T22:09:42+00:00",
+          "id": "v002",
+          "note": "A wider arrowhead and continuous shaft for clearer direction at small sizes.",
+          "parent": "v001",
+          "sha256": "8833f7972ba72864ec11b69d371fbd187eaf936c650db5bcfee464e3a538d93b"
+        },
+        {
+          "created": "2026-09-12T22:11:13+00:00",
+          "id": "v003",
+          "note": "Filled triangular arrowhead for stronger endpoint emphasis at small sizes.",
+          "parent": "v002",
+          "sha256": "541909d43ab1036b4fa49dd034dada2e573ce33a6d0bfa91e17a92698621a593"
+        }
+      ]
+    },
+    "arrow-down": {
+      "category": "connections",
+      "default": "v001",
+      "description": "A downward flow between distinct stages or surfaces.",
+      "name": "Arrow down",
+      "versions": [
+        {
+          "created": "2026-09-12T22:08:43+00:00",
+          "id": "v001",
+          "note": "Original storyboard component, preserved without changes.",
+          "parent": null,
+          "sha256": "b5aaa0e7e3e3a476332c14a230d6cabe792ffe58d27a478540ed0177a8c14d9e"
+        }
+      ]
+    },
+    "arrow-left": {
+      "category": "connections",
+      "default": "v001",
+      "description": "A leftward return, read or response path, distinct from an outgoing write.",
+      "name": "Arrow left",
+      "versions": [
+        {
+          "created": "2026-09-12T22:08:43+00:00",
+          "id": "v001",
+          "note": "Original storyboard component, preserved without changes.",
+          "parent": null,
+          "sha256": "e1eaf04a9fea32376dbd9452ebe42d3aa3f85042f1fc3f4058332d22f45582ef"
+        }
+      ]
+    },
+    "arrow-up": {
+      "category": "connections",
+      "default": "v001",
+      "description": "An upward flow or return to a preceding stage.",
+      "name": "Arrow up",
+      "versions": [
+        {
+          "created": "2026-09-12T22:08:43+00:00",
+          "id": "v001",
+          "note": "Original storyboard component, preserved without changes.",
+          "parent": null,
+          "sha256": "31ddc422851e2e2c33cbb3cd54892fcc6f0c9b534f1130ea53946f9c0a2c7f11"
+        }
+      ]
+    },
+    "blank-monitor": {
+      "category": "objects",
+      "default": "v001",
+      "description": "A computer display with an empty text field. Used for an unstarted conversation or deliberately dark interface.",
+      "name": "Blank monitor",
+      "versions": [
+        {
+          "created": "2026-09-12T22:08:43+00:00",
+          "id": "v001",
+          "note": "Original storyboard component, preserved without changes.",
+          "parent": null,
+          "sha256": "be96003bbfd57fdc0165f0ca1e861a83afe3e77985645b1bd556a20f5f10ffc2"
+        }
+      ]
+    },
+    "boundary": {
+      "category": "connections",
+      "default": "v001",
+      "description": "A hard scope or authority divider; the component itself does not assert a crossing.",
+      "name": "Boundary",
+      "versions": [
+        {
+          "created": "2026-09-12T22:08:43+00:00",
+          "id": "v001",
+          "note": "Original storyboard component, preserved without changes.",
+          "parent": null,
+          "sha256": "1785ed4cfc94a5bd46c7a82163311ba8f1a8448510f9b4dea3670cde6728a189"
+        }
+      ]
+    },
+    "box": {
+      "category": "objects",
+      "default": "v001",
+      "description": "A neutral system, workload or functional block. Meaning comes from the labelled instance and its relationships.",
+      "name": "Box",
+      "versions": [
+        {
+          "created": "2026-09-12T22:08:43+00:00",
+          "id": "v001",
+          "note": "Original storyboard component, preserved without changes.",
+          "parent": null,
+          "sha256": "236dc892c06493204b150f57e1a433dcd7f1f11f043fa501345a9b51ad1cfd5c"
+        }
+      ]
+    },
+    "broken-trace": {
+      "category": "connections",
+      "default": "v001",
+      "description": "An interrupted relationship: a failed path or a connection the record does not establish. The scene supplies the distinction.",
+      "name": "Broken trace",
+      "versions": [
+        {
+          "created": "2026-09-12T22:08:43+00:00",
+          "id": "v001",
+          "note": "Original storyboard component, preserved without changes.",
+          "parent": null,
+          "sha256": "f2b8ae83b9f1daeb905f8f90e2fa34de654e100ee8a6d47f7bf67554880bbca8"
+        }
+      ]
+    },
+    "budget-long": {
+      "category": "objects",
+      "default": "v001",
+      "description": "A schematic long remaining budget, with no claim to an exact duration.",
+      "name": "Budget long",
+      "versions": [
+        {
+          "created": "2026-09-12T22:08:43+00:00",
+          "id": "v001",
+          "note": "Original storyboard component, preserved without changes.",
+          "parent": null,
+          "sha256": "863ed78299cb913f966a05e956d26a5747fc6e3f6c7ac29aab891f9b725bc829"
+        }
+      ]
+    },
+    "budget-short": {
+      "category": "objects",
+      "default": "v001",
+      "description": "A schematic short remaining budget. Compare with the long-budget component at equal scale.",
+      "name": "Budget short",
+      "versions": [
+        {
+          "created": "2026-09-12T22:08:43+00:00",
+          "id": "v001",
+          "note": "Original storyboard component, preserved without changes.",
+          "parent": null,
+          "sha256": "af2caec9e1d1c478afd5bc84d89aec4ddf9faf5ce4dcdecd4c6872813ebce649"
+        }
+      ]
+    },
+    "building": {
+      "category": "locations",
+      "default": "v001",
+      "description": "A generic institutional exterior or analytic institution symbol. Never a likeness of a specific forum or headquarters.",
+      "name": "Building",
+      "versions": [
+        {
+          "created": "2026-09-12T22:08:43+00:00",
+          "id": "v001",
+          "note": "Original storyboard component, preserved without changes.",
+          "parent": null,
+          "sha256": "e574acb686d5330af3d2e3b61215b009e95be9565030f88a1e60292c60dc6b8f"
+        }
+      ]
+    },
+    "card": {
+      "category": "objects",
+      "default": "v001",
+      "description": "An evidence or status card with distinct header and body fields. Source wording is supplied separately as controlled lettering.",
+      "name": "Card",
+      "versions": [
+        {
+          "created": "2026-09-12T22:08:43+00:00",
+          "id": "v001",
+          "note": "Original storyboard component, preserved without changes.",
+          "parent": null,
+          "sha256": "8f1d0d4bb3acedfe28a03283abd49d51fa3937e37df2968819ec8296f6a8b9a1"
+        }
+      ]
+    },
+    "checkmark": {
+      "category": "objects",
+      "default": "v001",
+      "description": "A positive result for one explicitly bounded test or state, not universal verification.",
+      "name": "Checkmark",
+      "versions": [
+        {
+          "created": "2026-09-12T22:08:43+00:00",
+          "id": "v001",
+          "note": "Original storyboard component, preserved without changes.",
+          "parent": null,
+          "sha256": "22238db11f7c02f3105720d81327e8dc49ce94765f78d0446adbbd679bf632d3"
+        }
+      ]
+    },
+    "clock": {
+      "category": "objects",
+      "default": "v001",
+      "description": "A schematic external-time clock. Exact dates and times belong in controlled lettering.",
+      "name": "Clock",
+      "versions": [
+        {
+          "created": "2026-09-12T22:08:43+00:00",
+          "id": "v001",
+          "note": "Original storyboard component, preserved without changes.",
+          "parent": null,
+          "sha256": "23dd691d1ab7beea50fbe3cb2d6e0b764fe5e3a1a87de555cd028e2b44cecb86"
+        }
+      ]
+    },
+    "clock-task": {
+      "category": "objects",
+      "default": "v001",
+      "description": "A different schematic task-clock reading, allowing task time and external time to be contrasted visibly.",
+      "name": "Clock task",
+      "versions": [
+        {
+          "created": "2026-09-12T22:08:43+00:00",
+          "id": "v001",
+          "note": "Original storyboard component, preserved without changes.",
+          "parent": null,
+          "sha256": "d1fdb4cb2e7d915488663e80185c1c7499bcc7efb94a3cedd005669cda8571ce"
+        }
+      ]
+    },
+    "cross": {
+      "category": "objects",
+      "default": "v001",
+      "description": "A local rejection, closure or failed action. Its position must make the affected object unambiguous.",
+      "name": "Cross",
+      "versions": [
+        {
+          "created": "2026-09-12T22:08:43+00:00",
+          "id": "v001",
+          "note": "Original storyboard component, preserved without changes.",
+          "parent": null,
+          "sha256": "0b274ff7d2bda461072b30e3134ec90e1f1435e21d1c91f363f2aa01fa170ab4"
+        }
+      ]
+    },
+    "cup": {
+      "category": "objects",
+      "default": "v001",
+      "description": "The creator desk’s ordinary drink, an environment and elapsed-time anchor.",
+      "name": "Cup",
+      "versions": [
+        {
+          "created": "2026-09-12T22:08:43+00:00",
+          "id": "v001",
+          "note": "Original storyboard component, preserved without changes.",
+          "parent": null,
+          "sha256": "eabe08fc3d4ccf4ad8db1faa5a571a7df27145a8a7876bc8d184c21786a8dc7a"
+        }
+      ]
+    },
+    "cursor": {
+      "category": "objects",
+      "default": "v001",
+      "description": "An insertion cursor marking pending input or local attention, without inventing a message.",
+      "name": "Cursor",
+      "versions": [
+        {
+          "created": "2026-09-12T22:08:43+00:00",
+          "id": "v001",
+          "note": "Original storyboard component, preserved without changes.",
+          "parent": null,
+          "sha256": "c2b2a93bd328c8e8bc9432d30530f276f55703b89e419f2535f88799e80f6010"
+        }
+      ]
+    },
+    "curt-workroom": {
+      "category": "locations",
+      "default": "v001",
+      "description": "An invented domestic workspace for creator interludes: modest window, wall shelves, and an open floor. Place Curt, desk, and equipment separately so the room can recur with different actions. This is a staging design, not a documented autobiographical interior.",
+      "name": "Curt’s workroom",
+      "versions": [
+        {
+          "created": "2026-09-12T22:12:50+00:00",
+          "id": "v001",
+          "note": "Initial component",
+          "parent": null,
+          "sha256": "1936c5881f3a079cd7a616612c69657ab4077ba5b99cba968581d315dd5f76e6"
+        }
+      ]
+    },
+    "desk": {
+      "category": "objects",
+      "default": "v001",
+      "description": "A practical work surface in a reconstructed human setting.",
+      "name": "Desk",
+      "versions": [
+        {
+          "created": "2026-09-12T22:08:43+00:00",
+          "id": "v001",
+          "note": "Original storyboard component, preserved without changes.",
+          "parent": null,
+          "sha256": "f581c2ed4d2a7f1d06e44e6b441f1144744c152956dbb1bb93a35beb0222ac70"
+        }
+      ]
+    },
+    "directory-row": {
+      "category": "objects",
+      "default": "v001",
+      "description": "A stored directory entry with a timestamp gutter and file shape, not a chat balloon.",
+      "name": "Directory row",
+      "versions": [
+        {
+          "created": "2026-09-12T22:08:43+00:00",
+          "id": "v001",
+          "note": "Original storyboard component, preserved without changes.",
+          "parent": null,
+          "sha256": "643f12ae593115f30511608f3460e7ba7b1593a6fa39abd6622021280446d192"
+        }
+      ]
+    },
+    "dotted-line": {
+      "category": "connections",
+      "default": "v001",
+      "description": "A tentative or possible relationship. It cannot independently establish transfer or causality.",
+      "name": "Dotted line",
+      "versions": [
+        {
+          "created": "2026-09-12T22:08:43+00:00",
+          "id": "v001",
+          "note": "Original storyboard component, preserved without changes.",
+          "parent": null,
+          "sha256": "a9f37ba1110e155335b9ea2c0420cdf6c248f1a95d6d12782dc63b8a6fac2f4d"
+        }
+      ]
+    },
+    "empty-chair": {
+      "category": "objects",
+      "default": "v001",
+      "description": "An unoccupied operations chair; absence of a seated person must be clear.",
+      "name": "Empty chair",
+      "versions": [
+        {
+          "created": "2026-09-12T22:08:43+00:00",
+          "id": "v001",
+          "note": "Original storyboard component, preserved without changes.",
+          "parent": null,
+          "sha256": "56feafa1b7755fce65a93711c846b6e2251d8706ab32eb8424411744fc02326b"
+        }
+      ]
+    },
+    "empty-slot": {
+      "category": "objects",
+      "default": "v001",
+      "description": "An unfilled answer, ownership or evidence field. Emptiness differs from a negative result.",
+      "name": "Empty slot",
+      "versions": [
+        {
+          "created": "2026-09-12T22:08:43+00:00",
+          "id": "v001",
+          "note": "Original storyboard component, preserved without changes.",
+          "parent": null,
+          "sha256": "1988e7ee1fc3927f654e6315f7e17dbae34c8e3c757dc1d47df1bade509c7184"
+        }
+      ]
+    },
+    "face": {
+      "category": "characters",
+      "default": "v001",
+      "description": "Legacy generic profile study. Not an approved likeness of Curt or any named person; prefer an obscured profile.",
+      "name": "Face",
+      "versions": [
+        {
+          "created": "2026-09-12T22:08:43+00:00",
+          "id": "v001",
+          "note": "Original storyboard component, preserved without changes.",
+          "parent": null,
+          "sha256": "ae086bbea7c9151c4242ca69e55e3160f8b1075a9f94c86f2696e33d3d08003f"
+        }
+      ]
+    },
+    "flag": {
+      "category": "objects",
+      "default": "v001",
+      "description": "A task result or objective marker, distinct from its acceptance by a grader.",
+      "name": "Flag",
+      "versions": [
+        {
+          "created": "2026-09-12T22:08:43+00:00",
+          "id": "v001",
+          "note": "Original storyboard component, preserved without changes.",
+          "parent": null,
+          "sha256": "60f18737e0dac61efdd4b5a3a92542135013ef03e2ff57e3fc26bf1f3c5f16be"
+        }
+      ]
+    },
+    "folder": {
+      "category": "objects",
+      "default": "v001",
+      "description": "A storage surface or artifact collection that can persist independently of a run.",
+      "name": "Folder",
+      "versions": [
+        {
+          "created": "2026-09-12T22:08:43+00:00",
+          "id": "v001",
+          "note": "Original storyboard component, preserved without changes.",
+          "parent": null,
+          "sha256": "9596bfc9abe71e6eac962f81572f9dbf338c433a9726c3296384d5143090ac02"
+        }
+      ]
+    },
+    "gate": {
+      "category": "objects",
+      "default": "v001",
+      "description": "A closed access or authorization gate. It should remain visibly different from the open state.",
+      "name": "Gate",
+      "versions": [
+        {
+          "created": "2026-09-12T22:08:43+00:00",
+          "id": "v001",
+          "note": "Original storyboard component, preserved without changes.",
+          "parent": null,
+          "sha256": "70e615604f105164cdabcc36cd40abc088294c73774b6c4fbc58274fc69aff78"
+        }
+      ]
+    },
+    "hand": {
+      "category": "characters",
+      "default": "v001",
+      "description": "A reconstructed human gesture at a keyboard, document or control, without identifying a real individual.",
+      "name": "Hand",
+      "versions": [
+        {
+          "created": "2026-09-12T22:08:43+00:00",
+          "id": "v001",
+          "note": "Original storyboard component, preserved without changes.",
+          "parent": null,
+          "sha256": "f158c865fcf47a607b7330a75d53047790d936692df0322ef6666b7130c6d5c6"
+        }
+      ]
+    },
+    "hatched-card": {
+      "category": "objects",
+      "default": "v001",
+      "description": "An inference or uncertainty-bearing card with a texture cue that remains visible in grayscale.",
+      "name": "Hatched card",
+      "versions": [
+        {
+          "created": "2026-09-12T22:08:43+00:00",
+          "id": "v001",
+          "note": "Original storyboard component, preserved without changes.",
+          "parent": null,
+          "sha256": "0cb2f566290ea9973aa27be8d25ebc44656181ea5f284b9130fdcf9bd50892fb"
+        }
+      ]
+    },
+    "hill": {
+      "category": "locations",
+      "default": "v001",
+      "description": "One exterior anthill surface in the authored metaphor. No interior, colony viewpoint or inter-site bridge is implied.",
+      "name": "Hill",
+      "versions": [
+        {
+          "created": "2026-09-12T22:08:43+00:00",
+          "id": "v001",
+          "note": "Original storyboard component, preserved without changes.",
+          "parent": null,
+          "sha256": "1303d36331a695eccfaf83960938a626944d0a12d7f480b2363f31821b9372a5"
+        }
+      ]
+    },
+    "incomplete-sheet": {
+      "category": "objects",
+      "default": "v001",
+      "description": "A spreadsheet whose unfilled cells visibly differ from populated ones.",
+      "name": "Incomplete sheet",
+      "versions": [
+        {
+          "created": "2026-09-12T22:08:43+00:00",
+          "id": "v001",
+          "note": "Original storyboard component, preserved without changes.",
+          "parent": null,
+          "sha256": "8ec3b22ca13563fb8e6d7adf24ebe6ce7165786196467431599e739fa911e01e"
+        }
+      ]
+    },
+    "keyboard": {
+      "category": "objects",
+      "default": "v001",
+      "description": "An ordinary human input device for creator and moderation scenes.",
+      "name": "Keyboard",
+      "versions": [
+        {
+          "created": "2026-09-12T22:08:43+00:00",
+          "id": "v001",
+          "note": "Original storyboard component, preserved without changes.",
+          "parent": null,
+          "sha256": "9c41d2110c2cfa93414234e1f22ae56637d98cfc1754ee56c985fe3c041e99f1"
+        }
+      ]
+    },
+    "light": {
+      "category": "objects",
+      "default": "v001",
+      "description": "A practical room-lighting field; not a supernatural or unexplained machine glow.",
+      "name": "Light",
+      "versions": [
+        {
+          "created": "2026-09-12T22:08:43+00:00",
+          "id": "v001",
+          "note": "Original storyboard component, preserved without changes.",
+          "parent": null,
+          "sha256": "8b3f565984370b301012a3624195f6ae796e1f4073d014e8033f3291eb22324a"
+        }
+      ]
+    },
+    "line": {
+      "category": "connections",
+      "default": "v001",
+      "description": "A neutral rule, interval or alignment guide without a directional arrowhead.",
+      "name": "Line",
+      "versions": [
+        {
+          "created": "2026-09-12T22:08:43+00:00",
+          "id": "v001",
+          "note": "Original storyboard component, preserved without changes.",
+          "parent": null,
+          "sha256": "6d54336172b78c6516f46a23f7c5709b20e52e22b4811dd686443b9b00745f06"
+        }
+      ]
+    },
+    "monitor": {
+      "category": "objects",
+      "default": "v001",
+      "description": "A populated computer display. Internal strokes are abstract content, not quoted source text.",
+      "name": "Monitor",
+      "versions": [
+        {
+          "created": "2026-09-12T22:08:43+00:00",
+          "id": "v001",
+          "note": "Original storyboard component, preserved without changes.",
+          "parent": null,
+          "sha256": "0f97fcafa992ba4d28ba2ee675aaea302470b2c2130c5551596a3d6a7d9f5818"
+        }
+      ]
+    },
+    "obscured-profile": {
+      "category": "characters",
+      "default": "v001",
+      "description": "A cropped, shadowed creator profile with no identifying facial detail.",
+      "name": "Obscured profile",
+      "versions": [
+        {
+          "created": "2026-09-12T22:08:43+00:00",
+          "id": "v001",
+          "note": "Original storyboard component, preserved without changes.",
+          "parent": null,
+          "sha256": "dbd27f3d7947b1424b20f3a4280463a9c5444ed2c1af1040ba2dfa9ecaf5536e"
+        }
+      ]
+    },
+    "open-bracket": {
+      "category": "connections",
+      "default": "v001",
+      "description": "An enclosing claim that fails to close; useful for resisting a false aggregation of distinct roles.",
+      "name": "Open bracket",
+      "versions": [
+        {
+          "created": "2026-09-12T22:08:43+00:00",
+          "id": "v001",
+          "note": "Original storyboard component, preserved without changes.",
+          "parent": null,
+          "sha256": "ef7fba311f0d3bdaf98765f8efdc39e771dc0d6721a450d815c63cee64725b9b"
+        }
+      ]
+    },
+    "open-gate": {
+      "category": "objects",
+      "default": "v001",
+      "description": "An opened gate, used only where the relevant access is established.",
+      "name": "Open gate",
+      "versions": [
+        {
+          "created": "2026-09-12T22:08:43+00:00",
+          "id": "v001",
+          "note": "Original storyboard component, preserved without changes.",
+          "parent": null,
+          "sha256": "308efde754481f333471b9c45d6f2c52b5c9299c0c2ea8c001b02277742723fb"
+        }
+      ]
+    },
+    "outline-box": {
+      "category": "connections",
+      "default": "v001",
+      "description": "An explicit enclosing scope or separate compartment, with a transparent interior.",
+      "name": "Outline box",
+      "versions": [
+        {
+          "created": "2026-09-12T22:08:43+00:00",
+          "id": "v001",
+          "note": "Original storyboard component, preserved without changes.",
+          "parent": null,
+          "sha256": "2e0457233345f4f4f15aa486dd4d18d195b74a15cdc587b21453b8ea3d0e501d"
+        }
+      ]
+    },
+    "packet-match": {
+      "category": "objects",
+      "default": "v001",
+      "description": "Two opaque result shapes aligned on common guides to demonstrate equality without exposing values.",
+      "name": "Packet match",
+      "versions": [
+        {
+          "created": "2026-09-12T22:08:43+00:00",
+          "id": "v001",
+          "note": "Original storyboard component, preserved without changes.",
+          "parent": null,
+          "sha256": "efd1eac36bfcbbd4a1b72a69edad3d5a406d37561099686a0ce6a80989ca8ba0"
+        }
+      ]
+    },
+    "packet-mismatch": {
+      "category": "objects",
+      "default": "v001",
+      "description": "Two opaque result shapes that visibly disagree, preserving concealed contents.",
+      "name": "Packet mismatch",
+      "versions": [
+        {
+          "created": "2026-09-12T22:08:43+00:00",
+          "id": "v001",
+          "note": "Original storyboard component, preserved without changes.",
+          "parent": null,
+          "sha256": "bbc597b84bcef3937d5cce0e6510d97c9362ac9b6ad13aaba43b8bde0520334d"
+        }
+      ]
+    },
+    "paper": {
+      "category": "objects",
+      "default": "v001",
+      "description": "A manuscript or source sheet in a human documentary context.",
+      "name": "Paper",
+      "versions": [
+        {
+          "created": "2026-09-12T22:08:43+00:00",
+          "id": "v001",
+          "note": "Original storyboard component, preserved without changes.",
+          "parent": null,
+          "sha256": "4768c186cc58684e2f1363c41a505551a1dae6e33dac5ea5dbabc54ca03f4140"
+        }
+      ]
+    },
+    "person-seated": {
+      "category": "characters",
+      "default": "v001",
+      "description": "An anonymous seated blocking figure for reconstructed human scenes. No approved likeness is implied.",
+      "name": "Person seated",
+      "versions": [
+        {
+          "created": "2026-09-12T22:08:43+00:00",
+          "id": "v001",
+          "note": "Original storyboard component, preserved without changes.",
+          "parent": null,
+          "sha256": "2c8ccee12678af0737f927fdd506a43cc519364badcf90dbee01d253ab8362df"
+        },
+        {
+          "created": "2026-09-12T22:09:42+00:00",
+          "id": "v002",
+          "note": "Side profile with separate forearm, seat, and bent knees; makes the working posture legible without a face or likeness.",
+          "parent": "v001",
+          "sha256": "736d5cd95b3200c1406b2b97a8c068ee3ccc6961f863b97062a535b0d7ebc56f"
+        }
+      ]
+    },
+    "person-standing": {
+      "category": "characters",
+      "default": "v001",
+      "description": "An anonymous standing functional role. Keep institutional roles distinct through labels and placement.",
+      "name": "Person standing",
+      "versions": [
+        {
+          "created": "2026-09-12T22:08:43+00:00",
+          "id": "v001",
+          "note": "Original storyboard component, preserved without changes.",
+          "parent": null,
+          "sha256": "5c9d183fd83649384c90f313e8b7534b49e1cd01bff7d519f6e30c2fae189de5"
+        }
+      ]
+    },
+    "question": {
+      "category": "objects",
+      "default": "v001",
+      "description": "An unresolved proposition, cause or missing answer; not a claim that all possibilities are equally likely.",
+      "name": "Question",
+      "versions": [
+        {
+          "created": "2026-09-12T22:08:43+00:00",
+          "id": "v001",
+          "note": "Original storyboard component, preserved without changes.",
+          "parent": null,
+          "sha256": "06f8dbd6fbe117ee1330aa296faf94a921545f2c95ac10dc729558719be8b688"
+        }
+      ]
+    },
+    "rack": {
+      "category": "objects",
+      "default": "v001",
+      "description": "A data-center rack that represents infrastructure rather than an agent body.",
+      "name": "Rack",
+      "versions": [
+        {
+          "created": "2026-09-12T22:08:43+00:00",
+          "id": "v001",
+          "note": "Original storyboard component, preserved without changes.",
+          "parent": null,
+          "sha256": "b56d19509c0923ca1d64a8d16cb0551507199e45755840635826475b84e27d0f"
+        }
+      ]
+    },
+    "read-write": {
+      "category": "connections",
+      "default": "v001",
+      "description": "Opposing write and read directions through shared state. It must not imply a direct peer-to-peer channel.",
+      "name": "Read write",
+      "versions": [
+        {
+          "created": "2026-09-12T22:08:43+00:00",
+          "id": "v001",
+          "note": "Original storyboard component, preserved without changes.",
+          "parent": null,
+          "sha256": "47686d05361118d356b830337c394ed1d34b322f36b11ed9a4d55e501d086282"
+        }
+      ]
+    },
+    "reconstructed-box": {
+      "category": "connections",
+      "default": "v001",
+      "description": "A broken frame that distinguishes reconstructed staging from a rigid evidence card.",
+      "name": "Reconstructed box",
+      "versions": [
+        {
+          "created": "2026-09-12T22:08:43+00:00",
+          "id": "v001",
+          "note": "Original storyboard component, preserved without changes.",
+          "parent": null,
+          "sha256": "71a4bced887173efcd9ad894a4a568856de5cf3c90b0f41cfbb217ee2071affd"
+        }
+      ]
+    },
+    "reply-bracket": {
+      "category": "connections",
+      "default": "v001",
+      "description": "A reply relationship between two stored entries, preserving the original above the response.",
+      "name": "Reply bracket",
+      "versions": [
+        {
+          "created": "2026-09-12T22:08:43+00:00",
+          "id": "v001",
+          "note": "Original storyboard component, preserved without changes.",
+          "parent": null,
+          "sha256": "f4bea9747cdfd40fd2dc3128771107b5405e15b8427e0016c397838bd83d5a88"
+        }
+      ]
+    },
+    "room": {
+      "category": "locations",
+      "default": "v001",
+      "description": "A generic room envelope with stable perspective, available for independent environment studies.",
+      "name": "Room",
+      "versions": [
+        {
+          "created": "2026-09-12T22:08:43+00:00",
+          "id": "v001",
+          "note": "Original storyboard component, preserved without changes.",
+          "parent": null,
+          "sha256": "5007513c22e47675a292a3f1d8c61988aef80bbb0bc04a624a4dff42f8f9375a"
+        },
+        {
+          "created": "2026-09-12T22:09:42+00:00",
+          "id": "v002",
+          "note": "An empty room with a rear wall, floor corners, and doorway; leaves the center clear for separately placed characters and objects.",
+          "parent": "v001",
+          "sha256": "71d4f56993badc798d9bf1a153f153d60ae69f8c09d7e3907c497735b461d19e"
+        }
+      ]
+    },
+    "scatter": {
+      "category": "objects",
+      "default": "v001",
+      "description": "A schematic field of records or activity. The number of marks is not a documentary census.",
+      "name": "Scatter",
+      "versions": [
+        {
+          "created": "2026-09-12T22:08:43+00:00",
+          "id": "v001",
+          "note": "Original storyboard component, preserved without changes.",
+          "parent": null,
+          "sha256": "e3e600d5ae334d59d3322ee5f2d44e928c394f003f6838dd5252f2509ee872c1"
+        }
+      ]
+    },
+    "scope-narrow": {
+      "category": "objects",
+      "default": "v001",
+      "description": "An opaque access card with visibly restricted scope. Values remain concealed.",
+      "name": "Scope narrow",
+      "versions": [
+        {
+          "created": "2026-09-12T22:08:43+00:00",
+          "id": "v001",
+          "note": "Original storyboard component, preserved without changes.",
+          "parent": null,
+          "sha256": "85a29b3d42246ed8e8004030e3b123ce8810a6f6216fb59733d0e7f8ff29e65f"
+        }
+      ]
+    },
+    "scope-wide": {
+      "category": "objects",
+      "default": "v001",
+      "description": "An opaque access card with broad scope, comparable at equal scale to narrow scope.",
+      "name": "Scope wide",
+      "versions": [
+        {
+          "created": "2026-09-12T22:08:43+00:00",
+          "id": "v001",
+          "note": "Original storyboard component, preserved without changes.",
+          "parent": null,
+          "sha256": "f4bf0f0c00f24355fa9a2d234229d966571f4dcbf2f16f452bb327952502321a"
+        }
+      ]
+    },
+    "sealed": {
+      "category": "objects",
+      "default": "v001",
+      "description": "A physically redacted artifact with hidden contents; its existence or class can still be shown.",
+      "name": "Sealed",
+      "versions": [
+        {
+          "created": "2026-09-12T22:08:43+00:00",
+          "id": "v001",
+          "note": "Original storyboard component, preserved without changes.",
+          "parent": null,
+          "sha256": "66e69886a15897e8ed493899aae94cd927960d30d12fc6521c2ba93e038464ab"
+        }
+      ]
+    },
+    "sheet": {
+      "category": "objects",
+      "default": "v001",
+      "description": "A tabular documentary surface, such as a scheduler or event ledger.",
+      "name": "Sheet",
+      "versions": [
+        {
+          "created": "2026-09-12T22:08:43+00:00",
+          "id": "v001",
+          "note": "Original storyboard component, preserved without changes.",
+          "parent": null,
+          "sha256": "b0d60268515d617360992a6fd772e1623b148451061ed1dbf5b1174ddeed052b"
+        }
+      ]
+    },
+    "speech": {
+      "category": "connections",
+      "default": "v001",
+      "description": "A speech-shaped connection for disclosed human dialogue, never raw agent interiority.",
+      "name": "Speech",
+      "versions": [
+        {
+          "created": "2026-09-12T22:08:43+00:00",
+          "id": "v001",
+          "note": "Original storyboard component, preserved without changes.",
+          "parent": null,
+          "sha256": "d3a9451263c033160d6ab2801327fee1563afd103278d62a27dd6140fee4bc87"
+        }
+      ]
+    },
+    "stairs": {
+      "category": "objects",
+      "default": "v001",
+      "description": "An analytic sequence of prerequisites. It must not imply a literal ascent or a documented agent plan.",
+      "name": "Stairs",
+      "versions": [
+        {
+          "created": "2026-09-12T22:08:43+00:00",
+          "id": "v001",
+          "note": "Original storyboard component, preserved without changes.",
+          "parent": null,
+          "sha256": "579af7b4944c0fc94bbcbbcb0ba6865c5d90263984a3cfa17c08ff564add44bd"
+        }
+      ]
+    },
+    "task": {
+      "category": "objects",
+      "default": "v001",
+      "description": "A task card with target, objective and remaining-budget fields, distinct from a generic evidence document.",
+      "name": "Task",
+      "versions": [
+        {
+          "created": "2026-09-12T22:08:43+00:00",
+          "id": "v001",
+          "note": "Original storyboard component, preserved without changes.",
+          "parent": null,
+          "sha256": "99163694c922494aed281d7324f1f98407b2ec16b4010ac24718e938a68618b1"
+        }
+      ]
+    },
+    "terminal": {
+      "category": "objects",
+      "default": "v001",
+      "description": "A plain tooling or command interface. Visible commands and exact source text are controlled separately.",
+      "name": "Terminal",
+      "versions": [
+        {
+          "created": "2026-09-12T22:08:43+00:00",
+          "id": "v001",
+          "note": "Original storyboard component, preserved without changes.",
+          "parent": null,
+          "sha256": "e9f0c7b7c2cbded866c094f37601a5327858349118e2d17674e6717f43840d1e"
+        }
+      ]
+    },
+    "threshold": {
+      "category": "objects",
+      "default": "v001",
+      "description": "A severity bar below an explicit threshold, without fabricating a numeric score.",
+      "name": "Threshold",
+      "versions": [
+        {
+          "created": "2026-09-12T22:08:43+00:00",
+          "id": "v001",
+          "note": "Original storyboard component, preserved without changes.",
+          "parent": null,
+          "sha256": "7fcde11d86bece95acf3580b09fd80d5cfa7579bbcb8995f2e4316bd69b5a158"
+        }
+      ]
+    },
+    "transcript": {
+      "category": "objects",
+      "default": "v001",
+      "description": "A retained-record strip with separate sequence gutter and content rows; missingness must be added explicitly.",
+      "name": "Transcript",
+      "versions": [
+        {
+          "created": "2026-09-12T22:08:43+00:00",
+          "id": "v001",
+          "note": "Original storyboard component, preserved without changes.",
+          "parent": null,
+          "sha256": "3a5bcdaef5c0aa71cbec833e6e9a046d1889560193ed924dcb63eee2de6d1643"
+        }
+      ]
+    }
+  },
+  "version": 1
+}

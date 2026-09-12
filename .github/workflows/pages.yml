@@ -65,6 +65,9 @@ jobs:
       - name: Test offline knowledge-map finish boundaries
         run: python -m unittest discover -s scripts -p test_knowledge_map_finish.py
 
+      - name: Check independent SVG components
+        run: python scripts/svg_components.py check
+
       - name: Check deterministic storyboard assets
         run: python scripts/storyboards.py check --complete
 
@@ -98,6 +101,9 @@ jobs:
 
       - name: Build site
         run: python scripts/build-site.py
+
+      - name: Validate built component palette
+        run: python scripts/svg_components.py check --built
 
       - name: Validate built storyboard workshop
         run: python scripts/storyboards.py check --complete --built

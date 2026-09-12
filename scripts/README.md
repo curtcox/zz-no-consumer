@@ -75,6 +75,7 @@ establish current status.
 | `knowledge_maps_fog.py check` | the same for the fog-of-war studies |
 | `knowledge_map_local.py check` | committed local-model concept images and their recorded provenance |
 | `knowledge_map_finish.py check` | structure-preserving finish studies, and that their v1 sources have not moved |
+| `svg_components.py check` | versioned component definitions, preserved SVGs, defaults, panel pins, SVG validation and export parity; `--built` checks the published palette |
 | `storyboards.py check` | scene geometry, source drift, lettering clearance, deterministic assets, stage selection, and production skip behavior; `--complete` requires every reader slot |
 | `panel_layout.py check [--built]` | shared rectangle geometry, selected image ratio/resolution, crop regression fixtures, and published panel positions; see [panel fit](../design/panel-fit.md) |
 | `validate-viewer.py` | every generated viewer route, control, and view setting resolves |
@@ -102,6 +103,7 @@ generation boundaries, so a CI run can never reach for an image model.
 | `epub.py` | writes the novella EPUB 3, page list and all. Deterministic for a given day; byte-identical across machines with `SOURCE_DATE_EPOCH` set. Called by the builder. |
 | `make-thumbnails.py` | the provisional recto/verso spread contact sheet, into the internal build |
 | `textimage.py` | flows text into an image of exactly the requested size, in pure Python. `book` writes a placeholder for every page and panel slot, which is why the whole book is readable before any art exists. |
+| `svg_components.py` | independent SVG palette and local editing workshop (`serve` `add` `choose` `export` `gallery` `check`); see [component workflow](../design/svg-components.md) |
 | `storyboards.py` | deterministic SVG scene previews, versioned placeholder assets, and a comparison workshop (`generate` `check` `gallery`); see [the workflow](../design/storyboard-workflow.md) |
 | `letterpress.py` | composes the controlled lettering layer over panel art (`slots` `panel` `page` `audit`) |
 
@@ -320,6 +322,7 @@ Six modules carry the shared models, and the rest import them rather than re-der
   `pagination.py`, `panels.py`, and the builder, which asks it for one resolver per edition.
 - **`imagegen.py`** — the generator roster and the prompt composer. Imported by `bakeoff.py`,
   `localgen.py`, `produce.py`, `paneltypes.py`, and the knowledge-map studies.
+- **`svg_components.py`** — owns the component catalog, immutable SVG revisions and the default geometry export used by existing artwork tools. Imported by storyboards and the builder.
 - **`storyboards.py`** — structured scene previews and explicit manual lettering placements. Imported by the builder, lettering, and identity tools.
 - **`textimage.py`** — the pure-Python text-into-image primitive. Imported by everything that
   draws.

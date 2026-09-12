@@ -1,0 +1,3137 @@
+{
+  "categories": [
+    "characters",
+    "objects",
+    "connections",
+    "locations"
+  ],
+  "components": [
+    {
+      "category": "characters",
+      "default": "v001",
+      "description": "The edition’s authored ant figure: three body lobes, six jointed legs and two antennae. A disclosed visual convention, never evidence of agent bodies.",
+      "id": "ant",
+      "name": "Ant",
+      "usage": {
+        "default": [
+          "114-01"
+        ],
+        "pinned": {}
+      },
+      "versions": [
+        {
+          "created": "2026-09-12T22:08:43+00:00",
+          "id": "v001",
+          "note": "Original storyboard component, preserved without changes.",
+          "parent": null,
+          "sha256": "95cc5cccff62138e1aa3bd30a9043a9824acabd3146987eb4ff02a34f0a2046e",
+          "url": "versions/ant/v001.svg"
+        }
+      ]
+    },
+    {
+      "category": "objects",
+      "default": "v001",
+      "description": "The existing embedded Apache Ant logo used on the creator’s tooling surface; a document mark rather than an agent character.",
+      "id": "apache-ant-logo",
+      "name": "Apache ant logo",
+      "usage": {
+        "default": [
+          "114-01"
+        ],
+        "pinned": {}
+      },
+      "versions": [
+        {
+          "created": "2026-09-12T22:08:43+00:00",
+          "id": "v001",
+          "note": "Original storyboard component, preserved without changes.",
+          "parent": null,
+          "sha256": "c346aab8f3aed2a797e3534ed6535f01a2d69979b091981471f405ba7322f791",
+          "url": "versions/apache-ant-logo/v001.svg"
+        }
+      ]
+    },
+    {
+      "category": "objects",
+      "default": "v001",
+      "description": "A mechanical inspection aperture for a grader or observer. It must not read as a human eye or imply omniscient access.",
+      "id": "aperture",
+      "name": "Aperture",
+      "usage": {
+        "default": [
+          "009-05",
+          "010-03",
+          "010-04",
+          "012-01",
+          "043-02",
+          "043-03",
+          "053-03",
+          "058-02",
+          "061-04",
+          "071-01",
+          "071-04",
+          "071-05",
+          "072-01",
+          "072-03",
+          "072-04",
+          "077-03",
+          "091-04",
+          "092-02",
+          "092-03",
+          "095-02",
+          "099-05",
+          "100-01",
+          "100-02",
+          "103-01",
+          "103-02",
+          "103-03",
+          "104-01",
+          "112-02",
+          "116-03"
+        ],
+        "pinned": {}
+      },
+      "versions": [
+        {
+          "created": "2026-09-12T22:08:43+00:00",
+          "id": "v001",
+          "note": "Original storyboard component, preserved without changes.",
+          "parent": null,
+          "sha256": "3159c276f3bd8dcb1e424c7022d5497c543619c14ebe33bff92619af1610e40c",
+          "url": "versions/aperture/v001.svg"
+        }
+      ]
+    },
+    {
+      "category": "connections",
+      "default": "v001",
+      "description": "A rightward causal or transfer direction with a clearly identifiable endpoint. Do not use for an unestablished relationship.",
+      "id": "arrow",
+      "name": "Arrow",
+      "usage": {
+        "default": [
+          "001-02",
+          "001-03",
+          "001-04",
+          "003-02",
+          "004-03",
+          "008-01",
+          "008-02",
+          "009-03",
+          "011-03",
+          "011-04",
+          "014-03",
+          "016-03",
+          "017-03",
+          "018-01",
+          "018-02",
+          "021-03",
+          "022-02",
+          "022-04",
+          "023-02",
+          "023-03",
+          "025-02",
+          "026-01",
+          "026-03",
+          "028-06",
+          "030-04",
+          "033-04",
+          "036-02",
+          "037-03",
+          "042-01",
+          "043-01",
+          "043-03",
+          "043-04",
+          "043-05",
+          "043-06",
+          "045-01",
+          "045-03",
+          "045-05",
+          "046-05",
+          "047-05",
+          "048-04",
+          "049-03",
+          "051-05",
+          "054-04",
+          "055-03",
+          "056-03",
+          "058-03",
+          "059-05",
+          "061-05",
+          "062-02",
+          "063-05",
+          "065-02",
+          "066-05",
+          "069-03",
+          "071-01",
+          "071-02",
+          "071-03",
+          "071-04",
+          "076-01",
+          "077-02",
+          "078-03",
+          "079-01",
+          "084-03",
+          "086-01",
+          "096-03",
+          "098-05",
+          "100-05",
+          "101-03",
+          "101-04",
+          "104-02",
+          "108-02",
+          "114-03",
+          "116-03"
+        ],
+        "pinned": {}
+      },
+      "versions": [
+        {
+          "created": "2026-09-12T22:08:43+00:00",
+          "id": "v001",
+          "note": "Original storyboard component, preserved without changes.",
+          "parent": null,
+          "sha256": "2a1971cb961f35b82018552a8b171f8f5685f6980648e3cfee340435e18e4057",
+          "url": "versions/arrow/v001.svg"
+        },
+        {
+          "created": "2026-09-12T22:09:42+00:00",
+          "id": "v002",
+          "note": "A wider arrowhead and continuous shaft for clearer direction at small sizes.",
+          "parent": "v001",
+          "sha256": "8833f7972ba72864ec11b69d371fbd187eaf936c650db5bcfee464e3a538d93b",
+          "url": "versions/arrow/v002.svg"
+        },
+        {
+          "created": "2026-09-12T22:11:13+00:00",
+          "id": "v003",
+          "note": "Filled triangular arrowhead for stronger endpoint emphasis at small sizes.",
+          "parent": "v002",
+          "sha256": "541909d43ab1036b4fa49dd034dada2e573ce33a6d0bfa91e17a92698621a593",
+          "url": "versions/arrow/v003.svg"
+        }
+      ]
+    },
+    {
+      "category": "connections",
+      "default": "v001",
+      "description": "A downward flow between distinct stages or surfaces.",
+      "id": "arrow-down",
+      "name": "Arrow down",
+      "usage": {
+        "default": [
+          "001-03",
+          "007-01",
+          "010-03",
+          "013-03",
+          "014-02",
+          "100-01",
+          "101-04"
+        ],
+        "pinned": {}
+      },
+      "versions": [
+        {
+          "created": "2026-09-12T22:08:43+00:00",
+          "id": "v001",
+          "note": "Original storyboard component, preserved without changes.",
+          "parent": null,
+          "sha256": "b5aaa0e7e3e3a476332c14a230d6cabe792ffe58d27a478540ed0177a8c14d9e",
+          "url": "versions/arrow-down/v001.svg"
+        }
+      ]
+    },
+    {
+      "category": "connections",
+      "default": "v001",
+      "description": "A leftward return, read or response path, distinct from an outgoing write.",
+      "id": "arrow-left",
+      "name": "Arrow left",
+      "usage": {
+        "default": [
+          "008-02",
+          "008-05",
+          "011-04",
+          "021-04",
+          "032-04",
+          "043-01",
+          "043-04",
+          "049-02",
+          "049-04",
+          "076-02",
+          "101-04"
+        ],
+        "pinned": {}
+      },
+      "versions": [
+        {
+          "created": "2026-09-12T22:08:43+00:00",
+          "id": "v001",
+          "note": "Original storyboard component, preserved without changes.",
+          "parent": null,
+          "sha256": "e1eaf04a9fea32376dbd9452ebe42d3aa3f85042f1fc3f4058332d22f45582ef",
+          "url": "versions/arrow-left/v001.svg"
+        }
+      ]
+    },
+    {
+      "category": "connections",
+      "default": "v001",
+      "description": "An upward flow or return to a preceding stage.",
+      "id": "arrow-up",
+      "name": "Arrow up",
+      "usage": {
+        "default": [
+          "038-02",
+          "101-04"
+        ],
+        "pinned": {}
+      },
+      "versions": [
+        {
+          "created": "2026-09-12T22:08:43+00:00",
+          "id": "v001",
+          "note": "Original storyboard component, preserved without changes.",
+          "parent": null,
+          "sha256": "31ddc422851e2e2c33cbb3cd54892fcc6f0c9b534f1130ea53946f9c0a2c7f11",
+          "url": "versions/arrow-up/v001.svg"
+        }
+      ]
+    },
+    {
+      "category": "objects",
+      "default": "v001",
+      "description": "A computer display with an empty text field. Used for an unstarted conversation or deliberately dark interface.",
+      "id": "blank-monitor",
+      "name": "Blank monitor",
+      "usage": {
+        "default": [
+          "013-04",
+          "013-05",
+          "014-01",
+          "015-04",
+          "038-04",
+          "039-01",
+          "039-04",
+          "040-02",
+          "073-01",
+          "074-04",
+          "084-01",
+          "084-03",
+          "084-04",
+          "085-05",
+          "086-01",
+          "090-02",
+          "101-06",
+          "105-03",
+          "111-02",
+          "112-01",
+          "113-01",
+          "113-05"
+        ],
+        "pinned": {}
+      },
+      "versions": [
+        {
+          "created": "2026-09-12T22:08:43+00:00",
+          "id": "v001",
+          "note": "Original storyboard component, preserved without changes.",
+          "parent": null,
+          "sha256": "be96003bbfd57fdc0165f0ca1e861a83afe3e77985645b1bd556a20f5f10ffc2",
+          "url": "versions/blank-monitor/v001.svg"
+        }
+      ]
+    },
+    {
+      "category": "connections",
+      "default": "v001",
+      "description": "A hard scope or authority divider; the component itself does not assert a crossing.",
+      "id": "boundary",
+      "name": "Boundary",
+      "usage": {
+        "default": [
+          "001-02",
+          "001-03",
+          "001-05",
+          "002-01",
+          "003-01",
+          "010-03",
+          "011-02",
+          "014-01",
+          "014-06",
+          "015-05",
+          "016-05",
+          "017-02",
+          "017-03",
+          "017-04",
+          "018-04",
+          "019-02",
+          "021-04",
+          "022-01",
+          "022-03",
+          "024-02",
+          "025-04",
+          "027-05",
+          "029-01",
+          "029-02",
+          "029-03",
+          "030-01",
+          "030-04",
+          "033-03",
+          "035-04",
+          "038-03",
+          "039-03",
+          "041-01",
+          "041-05",
+          "045-04",
+          "046-03",
+          "047-01",
+          "047-02",
+          "047-05",
+          "051-05",
+          "052-05",
+          "054-01",
+          "054-02",
+          "054-03",
+          "054-04",
+          "056-05",
+          "060-05",
+          "061-01",
+          "061-02",
+          "062-05",
+          "064-02",
+          "065-05",
+          "067-01",
+          "070-01",
+          "072-03",
+          "075-03",
+          "076-03",
+          "076-04",
+          "077-01",
+          "078-05",
+          "080-05",
+          "081-04",
+          "085-01",
+          "085-02",
+          "085-03",
+          "085-04",
+          "085-05",
+          "088-01",
+          "088-06",
+          "091-01",
+          "091-03",
+          "091-05",
+          "093-04",
+          "093-05",
+          "094-03",
+          "096-04",
+          "098-01",
+          "098-02",
+          "098-03",
+          "098-04",
+          "098-06",
+          "100-01",
+          "101-03",
+          "104-03",
+          "107-04",
+          "109-03",
+          "110-01",
+          "110-03",
+          "113-04",
+          "117-01",
+          "117-02"
+        ],
+        "pinned": {}
+      },
+      "versions": [
+        {
+          "created": "2026-09-12T22:08:43+00:00",
+          "id": "v001",
+          "note": "Original storyboard component, preserved without changes.",
+          "parent": null,
+          "sha256": "1785ed4cfc94a5bd46c7a82163311ba8f1a8448510f9b4dea3670cde6728a189",
+          "url": "versions/boundary/v001.svg"
+        }
+      ]
+    },
+    {
+      "category": "objects",
+      "default": "v001",
+      "description": "A neutral system, workload or functional block. Meaning comes from the labelled instance and its relationships.",
+      "id": "box",
+      "name": "Box",
+      "usage": {
+        "default": [
+          "001-02",
+          "001-03",
+          "001-04",
+          "001-05",
+          "002-01",
+          "002-03",
+          "003-01",
+          "003-02",
+          "004-02",
+          "004-03",
+          "013-03",
+          "014-02",
+          "014-03",
+          "015-01",
+          "015-03",
+          "015-05",
+          "016-05",
+          "017-05",
+          "019-03",
+          "021-03",
+          "021-05",
+          "022-02",
+          "022-03",
+          "025-02",
+          "026-03",
+          "028-06",
+          "029-01",
+          "030-02",
+          "031-02",
+          "031-05",
+          "032-02",
+          "033-04",
+          "036-02",
+          "037-05",
+          "042-01",
+          "043-02",
+          "043-04",
+          "043-05",
+          "043-06",
+          "045-03",
+          "045-05",
+          "046-05",
+          "047-02",
+          "048-03",
+          "049-01",
+          "049-05",
+          "050-01",
+          "050-02",
+          "051-01",
+          "052-02",
+          "052-03",
+          "052-04",
+          "052-06",
+          "054-02",
+          "054-03",
+          "055-04",
+          "057-01",
+          "058-01",
+          "059-01",
+          "061-01",
+          "061-02",
+          "061-04",
+          "061-05",
+          "062-01",
+          "064-02",
+          "065-01",
+          "065-04",
+          "066-02",
+          "068-01",
+          "068-04",
+          "069-02",
+          "069-03",
+          "069-05",
+          "070-02",
+          "071-01",
+          "071-02",
+          "071-03",
+          "071-04",
+          "076-01",
+          "076-02",
+          "076-03",
+          "076-04",
+          "077-05",
+          "081-03",
+          "084-02",
+          "084-04",
+          "088-01",
+          "092-03",
+          "093-05",
+          "095-01",
+          "095-04",
+          "096-02",
+          "096-04",
+          "096-05",
+          "099-05",
+          "101-03",
+          "101-05",
+          "104-01",
+          "105-04",
+          "112-03",
+          "112-04",
+          "114-01",
+          "115-02",
+          "115-05",
+          "116-02",
+          "118-02"
+        ],
+        "pinned": {}
+      },
+      "versions": [
+        {
+          "created": "2026-09-12T22:08:43+00:00",
+          "id": "v001",
+          "note": "Original storyboard component, preserved without changes.",
+          "parent": null,
+          "sha256": "236dc892c06493204b150f57e1a433dcd7f1f11f043fa501345a9b51ad1cfd5c",
+          "url": "versions/box/v001.svg"
+        }
+      ]
+    },
+    {
+      "category": "connections",
+      "default": "v001",
+      "description": "An interrupted relationship: a failed path or a connection the record does not establish. The scene supplies the distinction.",
+      "id": "broken-trace",
+      "name": "Broken trace",
+      "usage": {
+        "default": [
+          "006-01",
+          "007-01",
+          "033-05",
+          "034-04",
+          "042-04",
+          "044-03",
+          "057-03",
+          "062-04",
+          "063-05",
+          "066-03",
+          "081-03",
+          "116-03"
+        ],
+        "pinned": {}
+      },
+      "versions": [
+        {
+          "created": "2026-09-12T22:08:43+00:00",
+          "id": "v001",
+          "note": "Original storyboard component, preserved without changes.",
+          "parent": null,
+          "sha256": "f2b8ae83b9f1daeb905f8f90e2fa34de654e100ee8a6d47f7bf67554880bbca8",
+          "url": "versions/broken-trace/v001.svg"
+        }
+      ]
+    },
+    {
+      "category": "objects",
+      "default": "v001",
+      "description": "A schematic long remaining budget, with no claim to an exact duration.",
+      "id": "budget-long",
+      "name": "Budget long",
+      "usage": {
+        "default": [
+          "037-04"
+        ],
+        "pinned": {}
+      },
+      "versions": [
+        {
+          "created": "2026-09-12T22:08:43+00:00",
+          "id": "v001",
+          "note": "Original storyboard component, preserved without changes.",
+          "parent": null,
+          "sha256": "863ed78299cb913f966a05e956d26a5747fc6e3f6c7ac29aab891f9b725bc829",
+          "url": "versions/budget-long/v001.svg"
+        }
+      ]
+    },
+    {
+      "category": "objects",
+      "default": "v001",
+      "description": "A schematic short remaining budget. Compare with the long-budget component at equal scale.",
+      "id": "budget-short",
+      "name": "Budget short",
+      "usage": {
+        "default": [
+          "037-04",
+          "058-01"
+        ],
+        "pinned": {}
+      },
+      "versions": [
+        {
+          "created": "2026-09-12T22:08:43+00:00",
+          "id": "v001",
+          "note": "Original storyboard component, preserved without changes.",
+          "parent": null,
+          "sha256": "af2caec9e1d1c478afd5bc84d89aec4ddf9faf5ce4dcdecd4c6872813ebce649",
+          "url": "versions/budget-short/v001.svg"
+        }
+      ]
+    },
+    {
+      "category": "locations",
+      "default": "v001",
+      "description": "A generic institutional exterior or analytic institution symbol. Never a likeness of a specific forum or headquarters.",
+      "id": "building",
+      "name": "Building",
+      "usage": {
+        "default": [
+          "015-02",
+          "016-05",
+          "039-05",
+          "053-04",
+          "054-01",
+          "054-02",
+          "054-03",
+          "094-04",
+          "098-01",
+          "104-03"
+        ],
+        "pinned": {}
+      },
+      "versions": [
+        {
+          "created": "2026-09-12T22:08:43+00:00",
+          "id": "v001",
+          "note": "Original storyboard component, preserved without changes.",
+          "parent": null,
+          "sha256": "e574acb686d5330af3d2e3b61215b009e95be9565030f88a1e60292c60dc6b8f",
+          "url": "versions/building/v001.svg"
+        }
+      ]
+    },
+    {
+      "category": "objects",
+      "default": "v001",
+      "description": "An evidence or status card with distinct header and body fields. Source wording is supplied separately as controlled lettering.",
+      "id": "card",
+      "name": "Card",
+      "usage": {
+        "default": [
+          "001-01",
+          "005-02",
+          "006-01",
+          "008-02",
+          "009-01",
+          "009-03",
+          "010-01",
+          "010-02",
+          "011-03",
+          "011-04",
+          "014-02",
+          "014-03",
+          "014-04",
+          "014-05",
+          "014-06",
+          "016-02",
+          "018-03",
+          "018-04",
+          "019-05",
+          "020-01",
+          "020-03",
+          "020-05",
+          "021-01",
+          "021-02",
+          "021-04",
+          "021-05",
+          "023-04",
+          "024-05",
+          "025-01",
+          "025-02",
+          "025-03",
+          "025-05",
+          "026-01",
+          "026-04",
+          "026-05",
+          "027-01",
+          "028-02",
+          "028-04",
+          "031-02",
+          "031-04",
+          "032-01",
+          "033-02",
+          "034-01",
+          "034-05",
+          "035-03",
+          "035-05",
+          "036-01",
+          "037-01",
+          "037-02",
+          "037-03",
+          "038-02",
+          "038-03",
+          "038-04",
+          "038-05",
+          "039-02",
+          "039-03",
+          "039-05",
+          "040-01",
+          "041-01",
+          "041-03",
+          "041-04",
+          "042-03",
+          "042-04",
+          "043-02",
+          "043-05",
+          "044-01",
+          "044-03",
+          "045-01",
+          "045-02",
+          "045-03",
+          "045-04",
+          "046-01",
+          "046-03",
+          "046-04",
+          "047-03",
+          "047-04",
+          "048-03",
+          "051-01",
+          "051-03",
+          "051-04",
+          "051-05",
+          "052-03",
+          "053-01",
+          "053-05",
+          "054-05",
+          "055-03",
+          "055-05",
+          "056-01",
+          "056-03",
+          "056-05",
+          "057-01",
+          "057-05",
+          "058-01",
+          "058-02",
+          "058-03",
+          "058-04",
+          "059-02",
+          "059-03",
+          "059-04",
+          "060-01",
+          "060-03",
+          "060-04",
+          "061-04",
+          "062-03",
+          "062-04",
+          "063-01",
+          "063-02",
+          "063-04",
+          "064-01",
+          "065-04",
+          "066-01",
+          "066-02",
+          "066-03",
+          "066-04",
+          "066-05",
+          "067-01",
+          "067-02",
+          "068-01",
+          "068-02",
+          "069-01",
+          "069-04",
+          "070-01",
+          "070-02",
+          "070-04",
+          "071-04",
+          "071-05",
+          "072-02",
+          "073-02",
+          "073-03",
+          "073-04",
+          "073-05",
+          "074-01",
+          "074-02",
+          "074-05",
+          "075-04",
+          "076-01",
+          "076-02",
+          "076-05",
+          "077-02",
+          "077-03",
+          "077-04",
+          "077-05",
+          "078-02",
+          "078-03",
+          "078-04",
+          "078-05",
+          "079-01",
+          "079-02",
+          "079-03",
+          "079-04",
+          "079-05",
+          "080-02",
+          "080-03",
+          "080-04",
+          "081-01",
+          "081-04",
+          "082-03",
+          "082-04",
+          "083-01",
+          "083-03",
+          "083-05",
+          "084-02",
+          "084-03",
+          "085-03",
+          "085-04",
+          "086-01",
+          "086-02",
+          "087-03",
+          "088-02",
+          "088-03",
+          "088-04",
+          "088-05",
+          "088-06",
+          "088-07",
+          "089-02",
+          "089-03",
+          "089-04",
+          "089-05",
+          "090-01",
+          "090-03",
+          "090-05",
+          "091-04",
+          "091-05",
+          "092-04",
+          "092-05",
+          "093-01",
+          "093-03",
+          "093-04",
+          "094-01",
+          "094-03",
+          "095-01",
+          "095-02",
+          "096-03",
+          "097-04",
+          "098-03",
+          "099-02",
+          "099-04",
+          "099-05",
+          "100-04",
+          "100-06",
+          "101-04",
+          "101-05",
+          "102-01",
+          "102-02",
+          "102-03",
+          "102-04",
+          "103-02",
+          "105-02",
+          "105-04",
+          "105-05",
+          "106-03",
+          "106-05",
+          "107-01",
+          "107-03",
+          "107-04",
+          "107-05",
+          "108-01",
+          "108-02",
+          "108-03",
+          "108-06",
+          "109-01",
+          "109-02",
+          "109-03",
+          "110-03",
+          "111-03",
+          "111-05",
+          "112-02",
+          "113-03",
+          "113-04",
+          "114-01",
+          "114-02",
+          "115-03",
+          "116-01",
+          "116-02",
+          "116-04",
+          "116-05",
+          "117-01",
+          "117-02",
+          "117-03"
+        ],
+        "pinned": {}
+      },
+      "versions": [
+        {
+          "created": "2026-09-12T22:08:43+00:00",
+          "id": "v001",
+          "note": "Original storyboard component, preserved without changes.",
+          "parent": null,
+          "sha256": "8f1d0d4bb3acedfe28a03283abd49d51fa3937e37df2968819ec8296f6a8b9a1",
+          "url": "versions/card/v001.svg"
+        }
+      ]
+    },
+    {
+      "category": "objects",
+      "default": "v001",
+      "description": "A positive result for one explicitly bounded test or state, not universal verification.",
+      "id": "checkmark",
+      "name": "Checkmark",
+      "usage": {
+        "default": [
+          "008-04",
+          "010-03",
+          "011-03",
+          "028-01",
+          "037-02",
+          "044-05",
+          "065-02",
+          "086-02",
+          "100-01",
+          "104-02",
+          "105-03"
+        ],
+        "pinned": {}
+      },
+      "versions": [
+        {
+          "created": "2026-09-12T22:08:43+00:00",
+          "id": "v001",
+          "note": "Original storyboard component, preserved without changes.",
+          "parent": null,
+          "sha256": "22238db11f7c02f3105720d81327e8dc49ce94765f78d0446adbbd679bf632d3",
+          "url": "versions/checkmark/v001.svg"
+        }
+      ]
+    },
+    {
+      "category": "objects",
+      "default": "v001",
+      "description": "A schematic external-time clock. Exact dates and times belong in controlled lettering.",
+      "id": "clock",
+      "name": "Clock",
+      "usage": {
+        "default": [
+          "004-04",
+          "005-03",
+          "005-04",
+          "006-01",
+          "007-01",
+          "020-02",
+          "022-01",
+          "028-01",
+          "032-02",
+          "033-03",
+          "034-02",
+          "034-03",
+          "038-02",
+          "039-03",
+          "041-02",
+          "041-04",
+          "041-05",
+          "042-02",
+          "042-03",
+          "047-03",
+          "048-02",
+          "057-03",
+          "057-05",
+          "058-05",
+          "060-02",
+          "069-01",
+          "070-02",
+          "070-05",
+          "072-02",
+          "072-05",
+          "075-05",
+          "077-02",
+          "080-02",
+          "080-05",
+          "086-06",
+          "087-02",
+          "092-03",
+          "093-03",
+          "094-03",
+          "097-05",
+          "098-04",
+          "103-02",
+          "103-04",
+          "104-02",
+          "106-02",
+          "106-04",
+          "106-05",
+          "108-01",
+          "108-02",
+          "108-03"
+        ],
+        "pinned": {}
+      },
+      "versions": [
+        {
+          "created": "2026-09-12T22:08:43+00:00",
+          "id": "v001",
+          "note": "Original storyboard component, preserved without changes.",
+          "parent": null,
+          "sha256": "23dd691d1ab7beea50fbe3cb2d6e0b764fe5e3a1a87de555cd028e2b44cecb86",
+          "url": "versions/clock/v001.svg"
+        }
+      ]
+    },
+    {
+      "category": "objects",
+      "default": "v001",
+      "description": "A different schematic task-clock reading, allowing task time and external time to be contrasted visibly.",
+      "id": "clock-task",
+      "name": "Clock task",
+      "usage": {
+        "default": [
+          "106-04"
+        ],
+        "pinned": {}
+      },
+      "versions": [
+        {
+          "created": "2026-09-12T22:08:43+00:00",
+          "id": "v001",
+          "note": "Original storyboard component, preserved without changes.",
+          "parent": null,
+          "sha256": "d1fdb4cb2e7d915488663e80185c1c7499bcc7efb94a3cedd005669cda8571ce",
+          "url": "versions/clock-task/v001.svg"
+        }
+      ]
+    },
+    {
+      "category": "objects",
+      "default": "v001",
+      "description": "A local rejection, closure or failed action. Its position must make the affected object unambiguous.",
+      "id": "cross",
+      "name": "Cross",
+      "usage": {
+        "default": [
+          "001-04",
+          "002-02",
+          "006-01",
+          "007-01",
+          "011-03",
+          "014-01",
+          "015-03",
+          "018-02",
+          "024-02",
+          "028-03",
+          "028-06",
+          "029-02",
+          "030-02",
+          "030-03",
+          "030-04",
+          "040-01",
+          "040-04",
+          "042-04",
+          "045-04",
+          "048-02",
+          "048-04",
+          "049-01",
+          "049-04",
+          "051-05",
+          "058-03",
+          "061-03",
+          "062-01",
+          "072-05",
+          "073-04",
+          "073-05",
+          "074-01",
+          "077-04",
+          "089-03",
+          "090-03",
+          "091-01",
+          "091-02",
+          "092-02",
+          "096-01",
+          "100-05",
+          "105-04",
+          "107-02",
+          "108-04",
+          "108-05",
+          "113-03",
+          "114-01",
+          "116-01"
+        ],
+        "pinned": {}
+      },
+      "versions": [
+        {
+          "created": "2026-09-12T22:08:43+00:00",
+          "id": "v001",
+          "note": "Original storyboard component, preserved without changes.",
+          "parent": null,
+          "sha256": "0b274ff7d2bda461072b30e3134ec90e1f1435e21d1c91f363f2aa01fa170ab4",
+          "url": "versions/cross/v001.svg"
+        }
+      ]
+    },
+    {
+      "category": "objects",
+      "default": "v001",
+      "description": "The creator desk’s ordinary drink, an environment and elapsed-time anchor.",
+      "id": "cup",
+      "name": "Cup",
+      "usage": {
+        "default": [
+          "013-01",
+          "013-03",
+          "025-03",
+          "028-04",
+          "038-01",
+          "038-04",
+          "055-05",
+          "063-01",
+          "073-01",
+          "084-01",
+          "097-04",
+          "104-05",
+          "105-01",
+          "106-01",
+          "111-06",
+          "112-01",
+          "113-01",
+          "113-05"
+        ],
+        "pinned": {}
+      },
+      "versions": [
+        {
+          "created": "2026-09-12T22:08:43+00:00",
+          "id": "v001",
+          "note": "Original storyboard component, preserved without changes.",
+          "parent": null,
+          "sha256": "eabe08fc3d4ccf4ad8db1faa5a571a7df27145a8a7876bc8d184c21786a8dc7a",
+          "url": "versions/cup/v001.svg"
+        }
+      ]
+    },
+    {
+      "category": "objects",
+      "default": "v001",
+      "description": "An insertion cursor marking pending input or local attention, without inventing a message.",
+      "id": "cursor",
+      "name": "Cursor",
+      "usage": {
+        "default": [
+          "002-03",
+          "032-05",
+          "035-01",
+          "117-04",
+          "117-05"
+        ],
+        "pinned": {}
+      },
+      "versions": [
+        {
+          "created": "2026-09-12T22:08:43+00:00",
+          "id": "v001",
+          "note": "Original storyboard component, preserved without changes.",
+          "parent": null,
+          "sha256": "c2b2a93bd328c8e8bc9432d30530f276f55703b89e419f2535f88799e80f6010",
+          "url": "versions/cursor/v001.svg"
+        }
+      ]
+    },
+    {
+      "category": "locations",
+      "default": "v001",
+      "description": "An invented domestic workspace for creator interludes: modest window, wall shelves, and an open floor. Place Curt, desk, and equipment separately so the room can recur with different actions. This is a staging design, not a documented autobiographical interior.",
+      "id": "curt-workroom",
+      "name": "Curt’s workroom",
+      "usage": {
+        "default": [],
+        "pinned": {}
+      },
+      "versions": [
+        {
+          "created": "2026-09-12T22:12:50+00:00",
+          "id": "v001",
+          "note": "Initial component",
+          "parent": null,
+          "sha256": "1936c5881f3a079cd7a616612c69657ab4077ba5b99cba968581d315dd5f76e6",
+          "url": "versions/curt-workroom/v001.svg"
+        }
+      ]
+    },
+    {
+      "category": "objects",
+      "default": "v001",
+      "description": "A practical work surface in a reconstructed human setting.",
+      "id": "desk",
+      "name": "Desk",
+      "usage": {
+        "default": [
+          "013-01",
+          "013-03",
+          "014-02",
+          "014-05",
+          "016-05",
+          "025-01",
+          "025-03",
+          "026-04",
+          "026-05",
+          "027-01",
+          "028-04",
+          "038-01",
+          "038-04",
+          "053-01",
+          "053-05",
+          "055-05",
+          "056-04",
+          "063-01",
+          "073-01",
+          "077-04",
+          "080-01",
+          "084-01",
+          "097-04",
+          "099-01",
+          "099-03",
+          "101-01",
+          "102-01",
+          "102-02",
+          "102-03",
+          "102-04",
+          "104-05",
+          "105-01",
+          "106-01",
+          "111-06",
+          "112-01",
+          "113-01",
+          "113-05",
+          "114-01"
+        ],
+        "pinned": {}
+      },
+      "versions": [
+        {
+          "created": "2026-09-12T22:08:43+00:00",
+          "id": "v001",
+          "note": "Original storyboard component, preserved without changes.",
+          "parent": null,
+          "sha256": "f581c2ed4d2a7f1d06e44e6b441f1144744c152956dbb1bb93a35beb0222ac70",
+          "url": "versions/desk/v001.svg"
+        }
+      ]
+    },
+    {
+      "category": "objects",
+      "default": "v001",
+      "description": "A stored directory entry with a timestamp gutter and file shape, not a chat balloon.",
+      "id": "directory-row",
+      "name": "Directory row",
+      "usage": {
+        "default": [
+          "003-03",
+          "003-04",
+          "004-03",
+          "004-04",
+          "005-01",
+          "005-04",
+          "007-01",
+          "024-02",
+          "033-05",
+          "034-04",
+          "036-03",
+          "036-04"
+        ],
+        "pinned": {}
+      },
+      "versions": [
+        {
+          "created": "2026-09-12T22:08:43+00:00",
+          "id": "v001",
+          "note": "Original storyboard component, preserved without changes.",
+          "parent": null,
+          "sha256": "643f12ae593115f30511608f3460e7ba7b1593a6fa39abd6622021280446d192",
+          "url": "versions/directory-row/v001.svg"
+        }
+      ]
+    },
+    {
+      "category": "connections",
+      "default": "v001",
+      "description": "A tentative or possible relationship. It cannot independently establish transfer or causality.",
+      "id": "dotted-line",
+      "name": "Dotted line",
+      "usage": {
+        "default": [
+          "048-05",
+          "083-02",
+          "114-01",
+          "115-04",
+          "118-02"
+        ],
+        "pinned": {}
+      },
+      "versions": [
+        {
+          "created": "2026-09-12T22:08:43+00:00",
+          "id": "v001",
+          "note": "Original storyboard component, preserved without changes.",
+          "parent": null,
+          "sha256": "a9f37ba1110e155335b9ea2c0420cdf6c248f1a95d6d12782dc63b8a6fac2f4d",
+          "url": "versions/dotted-line/v001.svg"
+        }
+      ]
+    },
+    {
+      "category": "objects",
+      "default": "v001",
+      "description": "An unoccupied operations chair; absence of a seated person must be clear.",
+      "id": "empty-chair",
+      "name": "Empty chair",
+      "usage": {
+        "default": [
+          "056-04"
+        ],
+        "pinned": {}
+      },
+      "versions": [
+        {
+          "created": "2026-09-12T22:08:43+00:00",
+          "id": "v001",
+          "note": "Original storyboard component, preserved without changes.",
+          "parent": null,
+          "sha256": "56feafa1b7755fce65a93711c846b6e2251d8706ab32eb8424411744fc02326b",
+          "url": "versions/empty-chair/v001.svg"
+        }
+      ]
+    },
+    {
+      "category": "objects",
+      "default": "v001",
+      "description": "An unfilled answer, ownership or evidence field. Emptiness differs from a negative result.",
+      "id": "empty-slot",
+      "name": "Empty slot",
+      "usage": {
+        "default": [
+          "002-02",
+          "017-01",
+          "019-01",
+          "020-02",
+          "024-04",
+          "032-03",
+          "048-02",
+          "051-05",
+          "056-03",
+          "058-05",
+          "060-05",
+          "063-05",
+          "077-02",
+          "078-03",
+          "079-05",
+          "086-06",
+          "098-06",
+          "100-03",
+          "107-05"
+        ],
+        "pinned": {}
+      },
+      "versions": [
+        {
+          "created": "2026-09-12T22:08:43+00:00",
+          "id": "v001",
+          "note": "Original storyboard component, preserved without changes.",
+          "parent": null,
+          "sha256": "1988e7ee1fc3927f654e6315f7e17dbae34c8e3c757dc1d47df1bade509c7184",
+          "url": "versions/empty-slot/v001.svg"
+        }
+      ]
+    },
+    {
+      "category": "characters",
+      "default": "v001",
+      "description": "Legacy generic profile study. Not an approved likeness of Curt or any named person; prefer an obscured profile.",
+      "id": "face",
+      "name": "Face",
+      "usage": {
+        "default": [],
+        "pinned": {}
+      },
+      "versions": [
+        {
+          "created": "2026-09-12T22:08:43+00:00",
+          "id": "v001",
+          "note": "Original storyboard component, preserved without changes.",
+          "parent": null,
+          "sha256": "ae086bbea7c9151c4242ca69e55e3160f8b1075a9f94c86f2696e33d3d08003f",
+          "url": "versions/face/v001.svg"
+        }
+      ]
+    },
+    {
+      "category": "objects",
+      "default": "v001",
+      "description": "A task result or objective marker, distinct from its acceptance by a grader.",
+      "id": "flag",
+      "name": "Flag",
+      "usage": {
+        "default": [
+          "001-02",
+          "001-03",
+          "001-05",
+          "002-01",
+          "009-03",
+          "009-04",
+          "010-02",
+          "010-03",
+          "012-01",
+          "012-03",
+          "012-05",
+          "015-02",
+          "052-06",
+          "072-02",
+          "072-03",
+          "072-04",
+          "093-02",
+          "100-01"
+        ],
+        "pinned": {}
+      },
+      "versions": [
+        {
+          "created": "2026-09-12T22:08:43+00:00",
+          "id": "v001",
+          "note": "Original storyboard component, preserved without changes.",
+          "parent": null,
+          "sha256": "60f18737e0dac61efdd4b5a3a92542135013ef03e2ff57e3fc26bf1f3c5f16be",
+          "url": "versions/flag/v001.svg"
+        }
+      ]
+    },
+    {
+      "category": "objects",
+      "default": "v001",
+      "description": "A storage surface or artifact collection that can persist independently of a run.",
+      "id": "folder",
+      "name": "Folder",
+      "usage": {
+        "default": [
+          "003-02",
+          "003-05",
+          "004-01",
+          "004-02",
+          "004-03",
+          "004-05",
+          "005-03",
+          "005-05",
+          "006-01",
+          "007-01",
+          "008-02",
+          "008-05",
+          "010-05",
+          "011-01",
+          "011-04",
+          "012-05",
+          "015-02",
+          "016-01",
+          "016-03",
+          "016-04",
+          "017-03",
+          "017-05",
+          "018-01",
+          "018-03",
+          "018-05",
+          "019-02",
+          "019-03",
+          "019-04",
+          "020-01",
+          "020-05",
+          "021-03",
+          "021-04",
+          "021-05",
+          "022-02",
+          "022-04",
+          "023-04",
+          "023-05",
+          "024-05",
+          "026-02",
+          "026-03",
+          "027-02",
+          "028-03",
+          "028-05",
+          "029-03",
+          "029-04",
+          "030-01",
+          "030-05",
+          "031-01",
+          "031-02",
+          "031-04",
+          "031-05",
+          "032-04",
+          "032-05",
+          "033-01",
+          "033-02",
+          "033-03",
+          "033-04",
+          "034-02",
+          "034-03",
+          "035-01",
+          "035-02",
+          "035-04",
+          "036-01",
+          "036-02",
+          "036-05",
+          "037-01",
+          "037-03",
+          "037-05",
+          "038-02",
+          "040-05",
+          "043-01",
+          "043-04",
+          "044-04",
+          "045-02",
+          "045-05",
+          "046-01",
+          "049-02",
+          "049-03",
+          "049-04",
+          "049-05",
+          "050-04",
+          "051-02",
+          "052-04",
+          "052-06",
+          "053-03",
+          "055-01",
+          "055-02",
+          "055-03",
+          "057-04",
+          "058-02",
+          "058-04",
+          "059-01",
+          "059-05",
+          "061-02",
+          "061-03",
+          "062-03",
+          "062-04",
+          "062-05",
+          "063-03",
+          "063-05",
+          "065-01",
+          "065-03",
+          "065-04",
+          "065-05",
+          "066-01",
+          "066-02",
+          "066-05",
+          "067-01",
+          "068-05",
+          "070-02",
+          "072-05",
+          "074-05",
+          "075-03",
+          "077-01",
+          "077-02",
+          "077-05",
+          "079-01",
+          "079-04",
+          "080-02",
+          "080-05",
+          "083-02",
+          "083-05",
+          "084-02",
+          "084-03",
+          "085-01",
+          "085-02",
+          "086-01",
+          "087-01",
+          "087-05",
+          "087-06",
+          "090-05",
+          "094-05",
+          "098-01",
+          "098-06",
+          "099-03",
+          "099-05",
+          "100-02",
+          "100-05",
+          "100-06",
+          "101-05",
+          "102-05",
+          "103-05",
+          "104-01",
+          "104-03",
+          "105-01",
+          "105-04",
+          "107-01",
+          "108-02",
+          "109-05",
+          "112-02",
+          "112-04",
+          "113-01",
+          "113-02",
+          "114-03",
+          "114-04",
+          "115-05",
+          "116-02",
+          "116-04"
+        ],
+        "pinned": {}
+      },
+      "versions": [
+        {
+          "created": "2026-09-12T22:08:43+00:00",
+          "id": "v001",
+          "note": "Original storyboard component, preserved without changes.",
+          "parent": null,
+          "sha256": "9596bfc9abe71e6eac962f81572f9dbf338c433a9726c3296384d5143090ac02",
+          "url": "versions/folder/v001.svg"
+        }
+      ]
+    },
+    {
+      "category": "objects",
+      "default": "v001",
+      "description": "A closed access or authorization gate. It should remain visibly different from the open state.",
+      "id": "gate",
+      "name": "Gate",
+      "usage": {
+        "default": [
+          "003-01",
+          "006-01",
+          "007-01",
+          "011-05",
+          "012-03",
+          "012-04",
+          "012-05",
+          "017-02",
+          "017-04",
+          "018-01",
+          "018-02",
+          "019-02",
+          "022-03",
+          "022-04",
+          "022-05",
+          "023-01",
+          "026-03",
+          "027-02",
+          "030-03",
+          "030-05",
+          "031-01",
+          "032-03",
+          "038-02",
+          "040-03",
+          "041-01",
+          "041-03",
+          "042-05",
+          "043-06",
+          "044-05",
+          "047-01",
+          "047-02",
+          "047-05",
+          "052-01",
+          "052-02",
+          "052-04",
+          "052-06",
+          "053-03",
+          "054-01",
+          "055-01",
+          "055-04",
+          "056-03",
+          "058-02",
+          "058-04",
+          "059-01",
+          "059-05",
+          "061-01",
+          "061-05",
+          "069-05",
+          "071-01",
+          "091-02",
+          "092-02",
+          "093-05",
+          "094-05",
+          "095-02",
+          "095-03",
+          "096-02",
+          "096-03",
+          "096-04",
+          "096-05",
+          "097-02",
+          "099-05",
+          "100-05",
+          "103-01",
+          "103-02",
+          "103-03",
+          "103-05",
+          "104-01",
+          "104-02",
+          "105-04",
+          "108-03",
+          "115-05",
+          "116-01",
+          "116-02",
+          "116-03"
+        ],
+        "pinned": {}
+      },
+      "versions": [
+        {
+          "created": "2026-09-12T22:08:43+00:00",
+          "id": "v001",
+          "note": "Original storyboard component, preserved without changes.",
+          "parent": null,
+          "sha256": "70e615604f105164cdabcc36cd40abc088294c73774b6c4fbc58274fc69aff78",
+          "url": "versions/gate/v001.svg"
+        }
+      ]
+    },
+    {
+      "category": "characters",
+      "default": "v001",
+      "description": "A reconstructed human gesture at a keyboard, document or control, without identifying a real individual.",
+      "id": "hand",
+      "name": "Hand",
+      "usage": {
+        "default": [
+          "013-03",
+          "013-05",
+          "014-02",
+          "015-01",
+          "015-03",
+          "015-05",
+          "025-05",
+          "027-03",
+          "039-06",
+          "107-02",
+          "108-04",
+          "108-05"
+        ],
+        "pinned": {}
+      },
+      "versions": [
+        {
+          "created": "2026-09-12T22:08:43+00:00",
+          "id": "v001",
+          "note": "Original storyboard component, preserved without changes.",
+          "parent": null,
+          "sha256": "f158c865fcf47a607b7330a75d53047790d936692df0322ef6666b7130c6d5c6",
+          "url": "versions/hand/v001.svg"
+        }
+      ]
+    },
+    {
+      "category": "objects",
+      "default": "v001",
+      "description": "An inference or uncertainty-bearing card with a texture cue that remains visible in grayscale.",
+      "id": "hatched-card",
+      "name": "Hatched card",
+      "usage": {
+        "default": [
+          "014-04",
+          "047-05",
+          "109-02",
+          "110-03"
+        ],
+        "pinned": {}
+      },
+      "versions": [
+        {
+          "created": "2026-09-12T22:08:43+00:00",
+          "id": "v001",
+          "note": "Original storyboard component, preserved without changes.",
+          "parent": null,
+          "sha256": "0cb2f566290ea9973aa27be8d25ebc44656181ea5f284b9130fdcf9bd50892fb",
+          "url": "versions/hatched-card/v001.svg"
+        }
+      ]
+    },
+    {
+      "category": "locations",
+      "default": "v001",
+      "description": "One exterior anthill surface in the authored metaphor. No interior, colony viewpoint or inter-site bridge is implied.",
+      "id": "hill",
+      "name": "Hill",
+      "usage": {
+        "default": [
+          "114-01"
+        ],
+        "pinned": {}
+      },
+      "versions": [
+        {
+          "created": "2026-09-12T22:08:43+00:00",
+          "id": "v001",
+          "note": "Original storyboard component, preserved without changes.",
+          "parent": null,
+          "sha256": "1303d36331a695eccfaf83960938a626944d0a12d7f480b2363f31821b9372a5",
+          "url": "versions/hill/v001.svg"
+        }
+      ]
+    },
+    {
+      "category": "objects",
+      "default": "v001",
+      "description": "A spreadsheet whose unfilled cells visibly differ from populated ones.",
+      "id": "incomplete-sheet",
+      "name": "Incomplete sheet",
+      "usage": {
+        "default": [
+          "017-01",
+          "017-03"
+        ],
+        "pinned": {}
+      },
+      "versions": [
+        {
+          "created": "2026-09-12T22:08:43+00:00",
+          "id": "v001",
+          "note": "Original storyboard component, preserved without changes.",
+          "parent": null,
+          "sha256": "8ec3b22ca13563fb8e6d7adf24ebe6ce7165786196467431599e739fa911e01e",
+          "url": "versions/incomplete-sheet/v001.svg"
+        }
+      ]
+    },
+    {
+      "category": "objects",
+      "default": "v001",
+      "description": "An ordinary human input device for creator and moderation scenes.",
+      "id": "keyboard",
+      "name": "Keyboard",
+      "usage": {
+        "default": [
+          "013-04",
+          "013-05",
+          "015-05"
+        ],
+        "pinned": {}
+      },
+      "versions": [
+        {
+          "created": "2026-09-12T22:08:43+00:00",
+          "id": "v001",
+          "note": "Original storyboard component, preserved without changes.",
+          "parent": null,
+          "sha256": "9c41d2110c2cfa93414234e1f22ae56637d98cfc1754ee56c985fe3c041e99f1",
+          "url": "versions/keyboard/v001.svg"
+        }
+      ]
+    },
+    {
+      "category": "objects",
+      "default": "v001",
+      "description": "A practical room-lighting field; not a supernatural or unexplained machine glow.",
+      "id": "light",
+      "name": "Light",
+      "usage": {
+        "default": [
+          "013-01"
+        ],
+        "pinned": {}
+      },
+      "versions": [
+        {
+          "created": "2026-09-12T22:08:43+00:00",
+          "id": "v001",
+          "note": "Original storyboard component, preserved without changes.",
+          "parent": null,
+          "sha256": "8b3f565984370b301012a3624195f6ae796e1f4073d014e8033f3291eb22324a",
+          "url": "versions/light/v001.svg"
+        }
+      ]
+    },
+    {
+      "category": "connections",
+      "default": "v001",
+      "description": "A neutral rule, interval or alignment guide without a directional arrowhead.",
+      "id": "line",
+      "name": "Line",
+      "usage": {
+        "default": [
+          "001-02",
+          "001-03",
+          "006-01",
+          "007-01",
+          "020-04",
+          "022-01",
+          "028-02",
+          "033-03",
+          "034-04",
+          "042-02",
+          "042-03",
+          "044-03",
+          "049-01",
+          "057-01",
+          "064-01",
+          "064-02",
+          "068-01",
+          "068-02",
+          "068-03",
+          "068-04",
+          "068-05",
+          "069-01",
+          "069-02",
+          "069-03",
+          "069-04",
+          "069-05",
+          "070-01",
+          "070-02",
+          "070-03",
+          "070-04",
+          "070-05",
+          "071-01",
+          "071-02",
+          "071-03",
+          "071-04",
+          "071-05",
+          "072-01",
+          "072-02",
+          "072-03",
+          "072-04",
+          "072-05",
+          "075-02",
+          "083-01",
+          "088-01",
+          "093-03",
+          "094-03",
+          "105-04",
+          "109-02",
+          "111-03",
+          "111-05"
+        ],
+        "pinned": {}
+      },
+      "versions": [
+        {
+          "created": "2026-09-12T22:08:43+00:00",
+          "id": "v001",
+          "note": "Original storyboard component, preserved without changes.",
+          "parent": null,
+          "sha256": "6d54336172b78c6516f46a23f7c5709b20e52e22b4811dd686443b9b00745f06",
+          "url": "versions/line/v001.svg"
+        }
+      ]
+    },
+    {
+      "category": "objects",
+      "default": "v001",
+      "description": "A populated computer display. Internal strokes are abstract content, not quoted source text.",
+      "id": "monitor",
+      "name": "Monitor",
+      "usage": {
+        "default": [
+          "013-01",
+          "013-02",
+          "013-03",
+          "013-04",
+          "013-05",
+          "015-01",
+          "016-05",
+          "025-01",
+          "025-03",
+          "025-04",
+          "028-04",
+          "038-01",
+          "039-01",
+          "055-05",
+          "063-01",
+          "084-01",
+          "085-01",
+          "085-05",
+          "087-01",
+          "087-04",
+          "087-05",
+          "087-06",
+          "088-02",
+          "090-04",
+          "097-04",
+          "101-01",
+          "101-02",
+          "105-01",
+          "106-01",
+          "107-02",
+          "108-04",
+          "108-05",
+          "110-02",
+          "111-02",
+          "111-04",
+          "111-06",
+          "113-01",
+          "114-04"
+        ],
+        "pinned": {}
+      },
+      "versions": [
+        {
+          "created": "2026-09-12T22:08:43+00:00",
+          "id": "v001",
+          "note": "Original storyboard component, preserved without changes.",
+          "parent": null,
+          "sha256": "0f97fcafa992ba4d28ba2ee675aaea302470b2c2130c5551596a3d6a7d9f5818",
+          "url": "versions/monitor/v001.svg"
+        }
+      ]
+    },
+    {
+      "category": "characters",
+      "default": "v001",
+      "description": "A cropped, shadowed creator profile with no identifying facial detail.",
+      "id": "obscured-profile",
+      "name": "Obscured profile",
+      "usage": {
+        "default": [
+          "013-02"
+        ],
+        "pinned": {}
+      },
+      "versions": [
+        {
+          "created": "2026-09-12T22:08:43+00:00",
+          "id": "v001",
+          "note": "Original storyboard component, preserved without changes.",
+          "parent": null,
+          "sha256": "dbd27f3d7947b1424b20f3a4280463a9c5444ed2c1af1040ba2dfa9ecaf5536e",
+          "url": "versions/obscured-profile/v001.svg"
+        }
+      ]
+    },
+    {
+      "category": "connections",
+      "default": "v001",
+      "description": "An enclosing claim that fails to close; useful for resisting a false aggregation of distinct roles.",
+      "id": "open-bracket",
+      "name": "Open bracket",
+      "usage": {
+        "default": [
+          "066-05",
+          "110-05"
+        ],
+        "pinned": {}
+      },
+      "versions": [
+        {
+          "created": "2026-09-12T22:08:43+00:00",
+          "id": "v001",
+          "note": "Original storyboard component, preserved without changes.",
+          "parent": null,
+          "sha256": "ef7fba311f0d3bdaf98765f8efdc39e771dc0d6721a450d815c63cee64725b9b",
+          "url": "versions/open-bracket/v001.svg"
+        }
+      ]
+    },
+    {
+      "category": "objects",
+      "default": "v001",
+      "description": "An opened gate, used only where the relevant access is established.",
+      "id": "open-gate",
+      "name": "Open gate",
+      "usage": {
+        "default": [
+          "068-05",
+          "096-03"
+        ],
+        "pinned": {}
+      },
+      "versions": [
+        {
+          "created": "2026-09-12T22:08:43+00:00",
+          "id": "v001",
+          "note": "Original storyboard component, preserved without changes.",
+          "parent": null,
+          "sha256": "308efde754481f333471b9c45d6f2c52b5c9299c0c2ea8c001b02277742723fb",
+          "url": "versions/open-gate/v001.svg"
+        }
+      ]
+    },
+    {
+      "category": "connections",
+      "default": "v001",
+      "description": "An explicit enclosing scope or separate compartment, with a transparent interior.",
+      "id": "outline-box",
+      "name": "Outline box",
+      "usage": {
+        "default": [
+          "002-03",
+          "006-01",
+          "007-01",
+          "008-03",
+          "009-03",
+          "016-01",
+          "016-02",
+          "020-05",
+          "023-04",
+          "024-05",
+          "026-05",
+          "027-03",
+          "028-03",
+          "028-05",
+          "031-03",
+          "032-02",
+          "034-05",
+          "040-03",
+          "042-01",
+          "042-05",
+          "044-02",
+          "045-03",
+          "046-05",
+          "048-02",
+          "050-01",
+          "050-02",
+          "050-05",
+          "052-05",
+          "060-02",
+          "063-03",
+          "063-04",
+          "064-01",
+          "064-04",
+          "065-01",
+          "065-05",
+          "066-01",
+          "069-03",
+          "069-05",
+          "070-01",
+          "071-02",
+          "071-03",
+          "075-02",
+          "075-04",
+          "082-05",
+          "088-04",
+          "088-07",
+          "092-01",
+          "092-04",
+          "092-05",
+          "093-01",
+          "093-02",
+          "095-04",
+          "098-02",
+          "099-04",
+          "100-04",
+          "100-06",
+          "102-05",
+          "104-05",
+          "105-05",
+          "111-01",
+          "114-01",
+          "114-02",
+          "115-03",
+          "116-05",
+          "117-04"
+        ],
+        "pinned": {}
+      },
+      "versions": [
+        {
+          "created": "2026-09-12T22:08:43+00:00",
+          "id": "v001",
+          "note": "Original storyboard component, preserved without changes.",
+          "parent": null,
+          "sha256": "2e0457233345f4f4f15aa486dd4d18d195b74a15cdc587b21453b8ea3d0e501d",
+          "url": "versions/outline-box/v001.svg"
+        }
+      ]
+    },
+    {
+      "category": "objects",
+      "default": "v001",
+      "description": "Two opaque result shapes aligned on common guides to demonstrate equality without exposing values.",
+      "id": "packet-match",
+      "name": "Packet match",
+      "usage": {
+        "default": [
+          "008-03",
+          "008-04"
+        ],
+        "pinned": {}
+      },
+      "versions": [
+        {
+          "created": "2026-09-12T22:08:43+00:00",
+          "id": "v001",
+          "note": "Original storyboard component, preserved without changes.",
+          "parent": null,
+          "sha256": "efd1eac36bfcbbd4a1b72a69edad3d5a406d37561099686a0ce6a80989ca8ba0",
+          "url": "versions/packet-match/v001.svg"
+        }
+      ]
+    },
+    {
+      "category": "objects",
+      "default": "v001",
+      "description": "Two opaque result shapes that visibly disagree, preserving concealed contents.",
+      "id": "packet-mismatch",
+      "name": "Packet mismatch",
+      "usage": {
+        "default": [
+          "082-02"
+        ],
+        "pinned": {}
+      },
+      "versions": [
+        {
+          "created": "2026-09-12T22:08:43+00:00",
+          "id": "v001",
+          "note": "Original storyboard component, preserved without changes.",
+          "parent": null,
+          "sha256": "bbc597b84bcef3937d5cce0e6510d97c9362ac9b6ad13aaba43b8bde0520334d",
+          "url": "versions/packet-mismatch/v001.svg"
+        }
+      ]
+    },
+    {
+      "category": "objects",
+      "default": "v001",
+      "description": "A manuscript or source sheet in a human documentary context.",
+      "id": "paper",
+      "name": "Paper",
+      "usage": {
+        "default": [
+          "009-03",
+          "012-02",
+          "015-01",
+          "015-03",
+          "038-01",
+          "038-03",
+          "038-05",
+          "039-06",
+          "040-04",
+          "073-01",
+          "074-02",
+          "074-03",
+          "077-03",
+          "077-05",
+          "080-01",
+          "080-04",
+          "084-01",
+          "084-02",
+          "084-03",
+          "084-05",
+          "085-02",
+          "085-03",
+          "085-04",
+          "086-01",
+          "089-01",
+          "089-02",
+          "089-04",
+          "089-05",
+          "090-05",
+          "091-05",
+          "094-01",
+          "094-02",
+          "094-04",
+          "094-05",
+          "097-01",
+          "097-02",
+          "097-03",
+          "099-01",
+          "103-03",
+          "103-04",
+          "104-01",
+          "104-05",
+          "105-01",
+          "106-01",
+          "109-05",
+          "110-01",
+          "111-05",
+          "111-06",
+          "112-01",
+          "112-04",
+          "112-05",
+          "113-02",
+          "113-05",
+          "114-03",
+          "114-04",
+          "114-05",
+          "117-03"
+        ],
+        "pinned": {}
+      },
+      "versions": [
+        {
+          "created": "2026-09-12T22:08:43+00:00",
+          "id": "v001",
+          "note": "Original storyboard component, preserved without changes.",
+          "parent": null,
+          "sha256": "4768c186cc58684e2f1363c41a505551a1dae6e33dac5ea5dbabc54ca03f4140",
+          "url": "versions/paper/v001.svg"
+        }
+      ]
+    },
+    {
+      "category": "characters",
+      "default": "v001",
+      "description": "An anonymous seated blocking figure for reconstructed human scenes. No approved likeness is implied.",
+      "id": "person-seated",
+      "name": "Person seated",
+      "usage": {
+        "default": [
+          "013-01",
+          "014-05",
+          "025-01",
+          "025-03",
+          "027-01",
+          "028-04",
+          "038-01",
+          "038-04",
+          "053-01",
+          "053-05",
+          "055-05",
+          "063-01",
+          "073-01",
+          "077-04",
+          "080-01",
+          "084-01",
+          "097-04",
+          "099-01",
+          "099-03",
+          "101-01",
+          "102-01",
+          "102-02",
+          "102-03",
+          "102-04",
+          "104-05",
+          "105-01",
+          "106-01",
+          "111-06",
+          "112-01",
+          "113-01",
+          "113-05",
+          "114-01"
+        ],
+        "pinned": {}
+      },
+      "versions": [
+        {
+          "created": "2026-09-12T22:08:43+00:00",
+          "id": "v001",
+          "note": "Original storyboard component, preserved without changes.",
+          "parent": null,
+          "sha256": "2c8ccee12678af0737f927fdd506a43cc519364badcf90dbee01d253ab8362df",
+          "url": "versions/person-seated/v001.svg"
+        },
+        {
+          "created": "2026-09-12T22:09:42+00:00",
+          "id": "v002",
+          "note": "Side profile with separate forearm, seat, and bent knees; makes the working posture legible without a face or likeness.",
+          "parent": "v001",
+          "sha256": "736d5cd95b3200c1406b2b97a8c068ee3ccc6961f863b97062a535b0d7ebc56f",
+          "url": "versions/person-seated/v002.svg"
+        }
+      ]
+    },
+    {
+      "category": "characters",
+      "default": "v001",
+      "description": "An anonymous standing functional role. Keep institutional roles distinct through labels and placement.",
+      "id": "person-standing",
+      "name": "Person standing",
+      "usage": {
+        "default": [
+          "026-04",
+          "075-05",
+          "076-05",
+          "101-01",
+          "101-04",
+          "110-05",
+          "112-03"
+        ],
+        "pinned": {}
+      },
+      "versions": [
+        {
+          "created": "2026-09-12T22:08:43+00:00",
+          "id": "v001",
+          "note": "Original storyboard component, preserved without changes.",
+          "parent": null,
+          "sha256": "5c9d183fd83649384c90f313e8b7534b49e1cd01bff7d519f6e30c2fae189de5",
+          "url": "versions/person-standing/v001.svg"
+        }
+      ]
+    },
+    {
+      "category": "objects",
+      "default": "v001",
+      "description": "An unresolved proposition, cause or missing answer; not a claim that all possibilities are equally likely.",
+      "id": "question",
+      "name": "Question",
+      "usage": {
+        "default": [
+          "006-01",
+          "007-01",
+          "009-03",
+          "009-04",
+          "012-02",
+          "031-03",
+          "032-03",
+          "044-05",
+          "048-02",
+          "057-02",
+          "057-03",
+          "057-05",
+          "060-05",
+          "062-03",
+          "064-03",
+          "064-04",
+          "065-02",
+          "071-05",
+          "078-05",
+          "079-04",
+          "088-03",
+          "089-03",
+          "109-04",
+          "110-04",
+          "111-01",
+          "112-05",
+          "116-05"
+        ],
+        "pinned": {}
+      },
+      "versions": [
+        {
+          "created": "2026-09-12T22:08:43+00:00",
+          "id": "v001",
+          "note": "Original storyboard component, preserved without changes.",
+          "parent": null,
+          "sha256": "06f8dbd6fbe117ee1330aa296faf94a921545f2c95ac10dc729558719be8b688",
+          "url": "versions/question/v001.svg"
+        }
+      ]
+    },
+    {
+      "category": "objects",
+      "default": "v001",
+      "description": "A data-center rack that represents infrastructure rather than an agent body.",
+      "id": "rack",
+      "name": "Rack",
+      "usage": {
+        "default": [
+          "001-01",
+          "011-05",
+          "012-05",
+          "014-02",
+          "015-04",
+          "015-05",
+          "027-05",
+          "029-01",
+          "030-05",
+          "031-01",
+          "040-05",
+          "049-05",
+          "052-04",
+          "052-06",
+          "055-04",
+          "091-03",
+          "103-01",
+          "103-05"
+        ],
+        "pinned": {}
+      },
+      "versions": [
+        {
+          "created": "2026-09-12T22:08:43+00:00",
+          "id": "v001",
+          "note": "Original storyboard component, preserved without changes.",
+          "parent": null,
+          "sha256": "b56d19509c0923ca1d64a8d16cb0551507199e45755840635826475b84e27d0f",
+          "url": "versions/rack/v001.svg"
+        }
+      ]
+    },
+    {
+      "category": "connections",
+      "default": "v001",
+      "description": "Opposing write and read directions through shared state. It must not imply a direct peer-to-peer channel.",
+      "id": "read-write",
+      "name": "Read write",
+      "usage": {
+        "default": [
+          "004-02",
+          "004-03",
+          "005-05",
+          "011-04",
+          "019-03",
+          "023-05"
+        ],
+        "pinned": {}
+      },
+      "versions": [
+        {
+          "created": "2026-09-12T22:08:43+00:00",
+          "id": "v001",
+          "note": "Original storyboard component, preserved without changes.",
+          "parent": null,
+          "sha256": "47686d05361118d356b830337c394ed1d34b322f36b11ed9a4d55e501d086282",
+          "url": "versions/read-write/v001.svg"
+        }
+      ]
+    },
+    {
+      "category": "connections",
+      "default": "v001",
+      "description": "A broken frame that distinguishes reconstructed staging from a rigid evidence card.",
+      "id": "reconstructed-box",
+      "name": "Reconstructed box",
+      "usage": {
+        "default": [
+          "014-05",
+          "014-06"
+        ],
+        "pinned": {}
+      },
+      "versions": [
+        {
+          "created": "2026-09-12T22:08:43+00:00",
+          "id": "v001",
+          "note": "Original storyboard component, preserved without changes.",
+          "parent": null,
+          "sha256": "71a4bced887173efcd9ad894a4a568856de5cf3c90b0f41cfbb217ee2071affd",
+          "url": "versions/reconstructed-box/v001.svg"
+        }
+      ]
+    },
+    {
+      "category": "connections",
+      "default": "v001",
+      "description": "A reply relationship between two stored entries, preserving the original above the response.",
+      "id": "reply-bracket",
+      "name": "Reply bracket",
+      "usage": {
+        "default": [
+          "005-01"
+        ],
+        "pinned": {}
+      },
+      "versions": [
+        {
+          "created": "2026-09-12T22:08:43+00:00",
+          "id": "v001",
+          "note": "Original storyboard component, preserved without changes.",
+          "parent": null,
+          "sha256": "f4bea9747cdfd40fd2dc3128771107b5405e15b8427e0016c397838bd83d5a88",
+          "url": "versions/reply-bracket/v001.svg"
+        }
+      ]
+    },
+    {
+      "category": "locations",
+      "default": "v001",
+      "description": "A generic room envelope with stable perspective, available for independent environment studies.",
+      "id": "room",
+      "name": "Room",
+      "usage": {
+        "default": [
+          "001-01",
+          "013-01",
+          "014-02",
+          "025-01",
+          "025-03",
+          "026-04",
+          "027-01",
+          "028-04",
+          "038-01",
+          "038-04",
+          "053-01",
+          "053-05",
+          "055-05",
+          "056-04",
+          "063-01",
+          "073-01",
+          "077-04",
+          "080-01",
+          "084-01",
+          "097-04",
+          "099-01",
+          "099-03",
+          "101-01",
+          "102-01",
+          "102-02",
+          "102-03",
+          "102-04",
+          "104-05",
+          "105-01",
+          "106-01",
+          "111-06",
+          "112-01",
+          "113-01",
+          "113-05",
+          "114-01"
+        ],
+        "pinned": {}
+      },
+      "versions": [
+        {
+          "created": "2026-09-12T22:08:43+00:00",
+          "id": "v001",
+          "note": "Original storyboard component, preserved without changes.",
+          "parent": null,
+          "sha256": "5007513c22e47675a292a3f1d8c61988aef80bbb0bc04a624a4dff42f8f9375a",
+          "url": "versions/room/v001.svg"
+        },
+        {
+          "created": "2026-09-12T22:09:42+00:00",
+          "id": "v002",
+          "note": "An empty room with a rear wall, floor corners, and doorway; leaves the center clear for separately placed characters and objects.",
+          "parent": "v001",
+          "sha256": "71d4f56993badc798d9bf1a153f153d60ae69f8c09d7e3907c497735b461d19e",
+          "url": "versions/room/v002.svg"
+        }
+      ]
+    },
+    {
+      "category": "objects",
+      "default": "v001",
+      "description": "A schematic field of records or activity. The number of marks is not a documentary census.",
+      "id": "scatter",
+      "name": "Scatter",
+      "usage": {
+        "default": [
+          "028-02",
+          "041-05",
+          "048-01",
+          "048-04",
+          "048-05",
+          "054-04",
+          "054-05",
+          "056-05",
+          "062-05",
+          "075-01",
+          "075-02",
+          "075-03",
+          "075-06",
+          "076-05",
+          "082-03",
+          "087-02",
+          "097-05",
+          "098-05",
+          "107-01",
+          "107-03",
+          "114-05"
+        ],
+        "pinned": {}
+      },
+      "versions": [
+        {
+          "created": "2026-09-12T22:08:43+00:00",
+          "id": "v001",
+          "note": "Original storyboard component, preserved without changes.",
+          "parent": null,
+          "sha256": "e3e600d5ae334d59d3322ee5f2d44e928c394f003f6838dd5252f2509ee872c1",
+          "url": "versions/scatter/v001.svg"
+        }
+      ]
+    },
+    {
+      "category": "objects",
+      "default": "v001",
+      "description": "An opaque access card with visibly restricted scope. Values remain concealed.",
+      "id": "scope-narrow",
+      "name": "Scope narrow",
+      "usage": {
+        "default": [
+          "023-03",
+          "091-03"
+        ],
+        "pinned": {}
+      },
+      "versions": [
+        {
+          "created": "2026-09-12T22:08:43+00:00",
+          "id": "v001",
+          "note": "Original storyboard component, preserved without changes.",
+          "parent": null,
+          "sha256": "85a29b3d42246ed8e8004030e3b123ce8810a6f6216fb59733d0e7f8ff29e65f",
+          "url": "versions/scope-narrow/v001.svg"
+        }
+      ]
+    },
+    {
+      "category": "objects",
+      "default": "v001",
+      "description": "An opaque access card with broad scope, comparable at equal scale to narrow scope.",
+      "id": "scope-wide",
+      "name": "Scope wide",
+      "usage": {
+        "default": [
+          "023-03",
+          "042-05",
+          "046-03",
+          "050-05"
+        ],
+        "pinned": {}
+      },
+      "versions": [
+        {
+          "created": "2026-09-12T22:08:43+00:00",
+          "id": "v001",
+          "note": "Original storyboard component, preserved without changes.",
+          "parent": null,
+          "sha256": "f4bf0f0c00f24355fa9a2d234229d966571f4dcbf2f16f452bb327952502321a",
+          "url": "versions/scope-wide/v001.svg"
+        }
+      ]
+    },
+    {
+      "category": "objects",
+      "default": "v001",
+      "description": "A physically redacted artifact with hidden contents; its existence or class can still be shown.",
+      "id": "sealed",
+      "name": "Sealed",
+      "usage": {
+        "default": [
+          "006-01",
+          "007-01",
+          "008-01",
+          "008-03",
+          "011-02",
+          "011-03",
+          "012-02",
+          "012-03",
+          "016-05",
+          "021-03",
+          "022-04",
+          "022-05",
+          "023-01",
+          "023-02",
+          "023-04",
+          "024-01",
+          "024-03",
+          "024-04",
+          "024-05",
+          "025-04",
+          "027-05",
+          "028-01",
+          "028-05",
+          "029-02",
+          "029-03",
+          "030-01",
+          "030-02",
+          "031-01",
+          "033-02",
+          "035-04",
+          "037-02",
+          "040-05",
+          "041-02",
+          "042-01",
+          "042-02",
+          "043-01",
+          "043-03",
+          "044-01",
+          "044-02",
+          "044-04",
+          "045-01",
+          "045-02",
+          "045-03",
+          "045-05",
+          "046-02",
+          "048-03",
+          "049-01",
+          "049-02",
+          "049-03",
+          "050-01",
+          "050-03",
+          "050-04",
+          "051-02",
+          "052-02",
+          "052-03",
+          "053-02",
+          "055-01",
+          "055-02",
+          "055-03",
+          "055-04",
+          "060-02",
+          "061-03",
+          "066-03",
+          "066-04",
+          "066-05",
+          "068-03",
+          "068-04",
+          "068-05",
+          "069-02",
+          "069-04",
+          "070-02",
+          "070-03",
+          "076-03",
+          "079-01",
+          "082-01",
+          "083-02",
+          "083-04",
+          "091-04",
+          "092-01",
+          "103-01",
+          "103-03",
+          "103-04",
+          "112-02",
+          "115-02"
+        ],
+        "pinned": {}
+      },
+      "versions": [
+        {
+          "created": "2026-09-12T22:08:43+00:00",
+          "id": "v001",
+          "note": "Original storyboard component, preserved without changes.",
+          "parent": null,
+          "sha256": "66e69886a15897e8ed493899aae94cd927960d30d12fc6521c2ba93e038464ab",
+          "url": "versions/sealed/v001.svg"
+        }
+      ]
+    },
+    {
+      "category": "objects",
+      "default": "v001",
+      "description": "A tabular documentary surface, such as a scheduler or event ledger.",
+      "id": "sheet",
+      "name": "Sheet",
+      "usage": {
+        "default": [
+          "017-02",
+          "018-02",
+          "020-02",
+          "026-01",
+          "032-01",
+          "032-02",
+          "033-01",
+          "048-03",
+          "055-01",
+          "094-02",
+          "109-05",
+          "111-06"
+        ],
+        "pinned": {}
+      },
+      "versions": [
+        {
+          "created": "2026-09-12T22:08:43+00:00",
+          "id": "v001",
+          "note": "Original storyboard component, preserved without changes.",
+          "parent": null,
+          "sha256": "b0d60268515d617360992a6fd772e1623b148451061ed1dbf5b1174ddeed052b",
+          "url": "versions/sheet/v001.svg"
+        }
+      ]
+    },
+    {
+      "category": "connections",
+      "default": "v001",
+      "description": "A speech-shaped connection for disclosed human dialogue, never raw agent interiority.",
+      "id": "speech",
+      "name": "Speech",
+      "usage": {
+        "default": [],
+        "pinned": {}
+      },
+      "versions": [
+        {
+          "created": "2026-09-12T22:08:43+00:00",
+          "id": "v001",
+          "note": "Original storyboard component, preserved without changes.",
+          "parent": null,
+          "sha256": "d3a9451263c033160d6ab2801327fee1563afd103278d62a27dd6140fee4bc87",
+          "url": "versions/speech/v001.svg"
+        }
+      ]
+    },
+    {
+      "category": "objects",
+      "default": "v001",
+      "description": "An analytic sequence of prerequisites. It must not imply a literal ascent or a documented agent plan.",
+      "id": "stairs",
+      "name": "Stairs",
+      "usage": {
+        "default": [
+          "012-01",
+          "012-02",
+          "012-03",
+          "012-04",
+          "012-05",
+          "052-02",
+          "052-03",
+          "052-04",
+          "052-06",
+          "077-05",
+          "084-02"
+        ],
+        "pinned": {}
+      },
+      "versions": [
+        {
+          "created": "2026-09-12T22:08:43+00:00",
+          "id": "v001",
+          "note": "Original storyboard component, preserved without changes.",
+          "parent": null,
+          "sha256": "579af7b4944c0fc94bbcbbcb0ba6865c5d90263984a3cfa17c08ff564add44bd",
+          "url": "versions/stairs/v001.svg"
+        }
+      ]
+    },
+    {
+      "category": "objects",
+      "default": "v001",
+      "description": "A task card with target, objective and remaining-budget fields, distinct from a generic evidence document.",
+      "id": "task",
+      "name": "Task",
+      "usage": {
+        "default": [
+          "002-02",
+          "002-03",
+          "002-04",
+          "004-03",
+          "004-04",
+          "005-03",
+          "005-05",
+          "006-01",
+          "007-01",
+          "008-01",
+          "008-02",
+          "008-03",
+          "008-05",
+          "011-04",
+          "012-04",
+          "016-04",
+          "017-04",
+          "019-01",
+          "019-03",
+          "020-01",
+          "023-05",
+          "024-02",
+          "026-04",
+          "026-05",
+          "027-01",
+          "030-04",
+          "032-02",
+          "032-04",
+          "032-05",
+          "035-01",
+          "037-04",
+          "037-05",
+          "038-02",
+          "040-03",
+          "043-01",
+          "043-06",
+          "046-05",
+          "047-01",
+          "047-05",
+          "049-02",
+          "049-04",
+          "052-01",
+          "053-02",
+          "053-05",
+          "055-02",
+          "058-03",
+          "059-05",
+          "061-04",
+          "062-02",
+          "063-03",
+          "063-05",
+          "092-05",
+          "098-03",
+          "100-04",
+          "116-03"
+        ],
+        "pinned": {}
+      },
+      "versions": [
+        {
+          "created": "2026-09-12T22:08:43+00:00",
+          "id": "v001",
+          "note": "Original storyboard component, preserved without changes.",
+          "parent": null,
+          "sha256": "99163694c922494aed281d7324f1f98407b2ec16b4010ac24718e938a68618b1",
+          "url": "versions/task/v001.svg"
+        }
+      ]
+    },
+    {
+      "category": "objects",
+      "default": "v001",
+      "description": "A plain tooling or command interface. Visible commands and exact source text are controlled separately.",
+      "id": "terminal",
+      "name": "Terminal",
+      "usage": {
+        "default": [
+          "002-03",
+          "004-01",
+          "004-05",
+          "005-02",
+          "006-01",
+          "007-01",
+          "017-05",
+          "020-04",
+          "023-04",
+          "028-05",
+          "032-02",
+          "055-01",
+          "066-01",
+          "086-02",
+          "086-03",
+          "086-04",
+          "086-05",
+          "086-06",
+          "087-01",
+          "087-02",
+          "087-05",
+          "087-06",
+          "106-02",
+          "115-01"
+        ],
+        "pinned": {}
+      },
+      "versions": [
+        {
+          "created": "2026-09-12T22:08:43+00:00",
+          "id": "v001",
+          "note": "Original storyboard component, preserved without changes.",
+          "parent": null,
+          "sha256": "e9f0c7b7c2cbded866c094f37601a5327858349118e2d17674e6717f43840d1e",
+          "url": "versions/terminal/v001.svg"
+        }
+      ]
+    },
+    {
+      "category": "objects",
+      "default": "v001",
+      "description": "A severity bar below an explicit threshold, without fabricating a numeric score.",
+      "id": "threshold",
+      "name": "Threshold",
+      "usage": {
+        "default": [
+          "056-02"
+        ],
+        "pinned": {}
+      },
+      "versions": [
+        {
+          "created": "2026-09-12T22:08:43+00:00",
+          "id": "v001",
+          "note": "Original storyboard component, preserved without changes.",
+          "parent": null,
+          "sha256": "7fcde11d86bece95acf3580b09fd80d5cfa7579bbcb8995f2e4316bd69b5a158",
+          "url": "versions/threshold/v001.svg"
+        }
+      ]
+    },
+    {
+      "category": "objects",
+      "default": "v001",
+      "description": "A retained-record strip with separate sequence gutter and content rows; missingness must be added explicitly.",
+      "id": "transcript",
+      "name": "Transcript",
+      "usage": {
+        "default": [
+          "009-05",
+          "010-02",
+          "010-03",
+          "026-02",
+          "027-04",
+          "033-05",
+          "034-04",
+          "055-03",
+          "060-05",
+          "065-02",
+          "073-02",
+          "074-03",
+          "075-01",
+          "075-04",
+          "075-06",
+          "078-01",
+          "078-02",
+          "081-02",
+          "086-06",
+          "100-01",
+          "106-04"
+        ],
+        "pinned": {}
+      },
+      "versions": [
+        {
+          "created": "2026-09-12T22:08:43+00:00",
+          "id": "v001",
+          "note": "Original storyboard component, preserved without changes.",
+          "parent": null,
+          "sha256": "3a5bcdaef5c0aa71cbec833e6e9a046d1889560193ed924dcb63eee2de6d1643",
+          "url": "versions/transcript/v001.svg"
+        }
+      ]
+    }
+  ],
+  "editable": false,
+  "revision": "562f9f1a97ae74d9e9fc0bb621b99bdf6256089596ce5582c4ff5b72f2c333f7",
+  "token": null
+}
