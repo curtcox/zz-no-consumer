@@ -9,49 +9,49 @@ panel	variant	file	provider	seed	width	height	bytes	created	status	note	stage
 001-01	v08	assets/art/panels/001-01/v08-storyboard-svg.svg	storyboard-svg		1200	800	12836	2026-09-07T18:25:46+00:00	candidate		storyboard
 001-01	v09	assets/art/panels/001-01/v09-builtin-image-pilot.png	builtin-image-pilot		1536	1024	2371777	2026-09-07T19:00:46+00:00	chosen	Opening follow-up: exact handle moved above task blocks; aisle and caption clearance retained; provisional.	refined
 001-02	v01	assets/art/panels/001-02/v01-flux2-klein-4b-4001.webp	flux2-klein-4b	4001	1200	800	361226	2026-09-04T22:43:04+00:00	candidate		refined
-001-02	v02	assets/art/panels/001-02/v02-flux2-klein-4b-4001.webp	flux2-klein-4b	4001	1200	800	383228	2026-09-04T22:43:04+00:00	candidate		refined
+001-02	v02	assets/art/panels/001-02/v02-flux2-klein-4b-4001.webp	flux2-klein-4b	4001	1200	800	383228	2026-09-04T22:43:04+00:00	chosen		refined
 001-02	v03	assets/art/panels/001-02/v03-flux2-klein-4b-4001.webp	flux2-klein-4b	4001	1200	800	335678	2026-09-04T22:43:04+00:00	candidate		refined
 001-02	v04	assets/art/panels/001-02/v04-storyboard-svg.svg	storyboard-svg		1200	800	13571	2026-09-07T14:11:22+00:00	candidate		storyboard
 001-02	v05	assets/art/panels/001-02/v05-storyboard-svg.svg	storyboard-svg		1200	800	5798	2026-09-07T14:13:12+00:00	candidate		storyboard
 001-03	v01	assets/art/panels/001-03/v01-flux2-klein-4b-4001.webp	flux2-klein-4b	4001	1200	800	366452	2026-09-04T22:43:04+00:00	candidate		refined
 001-03	v02	assets/art/panels/001-03/v02-flux2-klein-4b-4001.webp	flux2-klein-4b	4001	1200	800	363772	2026-09-04T22:43:04+00:00	candidate		refined
-001-03	v03	assets/art/panels/001-03/v03-flux2-klein-4b-4001.webp	flux2-klein-4b	4001	1200	800	337564	2026-09-04T22:43:04+00:00	candidate		refined
+001-03	v03	assets/art/panels/001-03/v03-flux2-klein-4b-4001.webp	flux2-klein-4b	4001	1200	800	337564	2026-09-04T22:43:04+00:00	chosen		refined
 001-03	v04	assets/art/panels/001-03/v04-storyboard-svg.svg	storyboard-svg		1200	800	14251	2026-09-07T14:11:22+00:00	candidate		storyboard
 001-03	v05	assets/art/panels/001-03/v05-storyboard-svg.svg	storyboard-svg		1200	800	6764	2026-09-07T14:13:12+00:00	candidate		storyboard
 001-04	v01	assets/art/panels/001-04/v01-flux2-klein-4b-4001.webp	flux2-klein-4b	4001	1200	800	351448	2026-09-04T22:43:04+00:00	candidate		refined
 001-04	v02	assets/art/panels/001-04/v02-flux2-klein-4b-4001.webp	flux2-klein-4b	4001	1200	800	402524	2026-09-04T22:43:04+00:00	candidate		refined
 001-04	v03	assets/art/panels/001-04/v03-storyboard-svg.svg	storyboard-svg		1200	800	14215	2026-09-07T14:11:22+00:00	candidate		storyboard
-001-04	v04	assets/art/panels/001-04/v04-storyboard-svg.svg	storyboard-svg		1200	800	6275	2026-09-07T14:13:12+00:00	candidate		storyboard
+001-04	v04	assets/art/panels/001-04/v04-storyboard-svg.svg	storyboard-svg		1200	800	6275	2026-09-07T14:13:12+00:00	chosen		storyboard
 001-05	v01	assets/art/panels/001-05/v01-flux2-klein-4b-1001.webp	flux2-klein-4b	1001	1200	800	104390	2026-09-05T16:16:10+00:00	candidate		refined
 001-05	v02	assets/art/panels/001-05/v02-flux2-klein-4b-1001.webp	flux2-klein-4b	1001	1200	800	82880	2026-09-05T20:39:49+00:00	candidate	drawn 5 Sep 2026 with the reverted conditional-register clause, not the committed one	refined
 001-05	v03	assets/art/panels/001-05/v03-storyboard-svg.svg	storyboard-svg		1200	800	11672	2026-09-07T14:11:22+00:00	candidate		storyboard
-001-05	v04	assets/art/panels/001-05/v04-storyboard-svg.svg	storyboard-svg		1200	800	3716	2026-09-07T14:13:12+00:00	candidate		storyboard
+001-05	v04	assets/art/panels/001-05/v04-storyboard-svg.svg	storyboard-svg		1200	800	3716	2026-09-07T14:13:12+00:00	chosen		storyboard
 002-01	v01	assets/art/panels/002-01/v01-flux2-klein-4b-1001.webp	flux2-klein-4b	1001	1200	800	198202	2026-09-05T16:17:15+00:00	candidate		refined
-002-01	v02	assets/art/panels/002-01/v02-storyboard-svg.svg	storyboard-svg		1200	800	3832	2026-09-07T16:49:06+00:00	candidate		storyboard
+002-01	v02	assets/art/panels/002-01/v02-storyboard-svg.svg	storyboard-svg		1200	800	3832	2026-09-07T16:49:06+00:00	chosen		storyboard
 002-01	v03	assets/art/panels/002-01/v03-storyboard-svg.svg	storyboard-svg		1200	800	3969	2026-09-07T16:54:58+00:00	candidate		storyboard
-002-01	v04	assets/art/panels/002-01/v04-panel-fit.svg	panel-fit		1200	800	264986	2026-09-09T02:11:18+00:00	chosen	Textured off-white outer border removed; visually reviewed; original model bytes retained. 8px allowance clears irregular edges; centered 3:2 framing.	refined
+002-01	v04	assets/art/panels/002-01/v04-panel-fit.svg	panel-fit		1200	800	264986	2026-09-09T02:11:18+00:00	candidate	Textured off-white outer border removed; visually reviewed; original model bytes retained. 8px allowance clears irregular edges; centered 3:2 framing.	refined
 002-02	v01	assets/art/panels/002-02/v01-flux2-klein-4b-1001.webp	flux2-klein-4b	1001	1200	800	178442	2026-09-05T16:18:19+00:00	candidate	Preserve existing selection during pilot candidate review.	refined
-002-02	v02	assets/art/panels/002-02/v02-storyboard-svg.svg	storyboard-svg		1200	800	3351	2026-09-07T16:49:06+00:00	candidate		storyboard
+002-02	v02	assets/art/panels/002-02/v02-storyboard-svg.svg	storyboard-svg		1200	800	3351	2026-09-07T16:49:06+00:00	chosen		storyboard
 002-02	v03	assets/art/panels/002-02/v03-storyboard-svg.svg	storyboard-svg		1200	800	3646	2026-09-07T16:54:58+00:00	candidate		storyboard
-002-02	v04	assets/art/panels/002-02/v04-builtin-image-pilot.png	builtin-image-pilot		1536	1024	2650682	2026-09-07T19:00:46+00:00	chosen	Opening follow-up: crossed required method and empty success field; exact handle; provisional.	refined
+002-02	v04	assets/art/panels/002-02/v04-builtin-image-pilot.png	builtin-image-pilot		1536	1024	2650682	2026-09-07T19:00:46+00:00	candidate	Opening follow-up: crossed required method and empty success field; exact handle; provisional.	refined
 002-03	v01	assets/art/panels/002-03/v01-flux2-klein-4b-1001.webp	flux2-klein-4b	1001	1200	800	80916	2026-09-05T16:19:23+00:00	candidate		refined
-002-03	v02	assets/art/panels/002-03/v02-storyboard-svg.svg	storyboard-svg		1200	800	6365	2026-09-07T16:49:06+00:00	candidate		storyboard
+002-03	v02	assets/art/panels/002-03/v02-storyboard-svg.svg	storyboard-svg		1200	800	6365	2026-09-07T16:49:06+00:00	chosen		storyboard
 002-03	v03	assets/art/panels/002-03/v03-storyboard-svg.svg	storyboard-svg		1200	800	6762	2026-09-07T16:54:59+00:00	candidate		storyboard
-002-03	v04	assets/art/panels/002-03/v04-panel-fit.svg	panel-fit		1200	800	108602	2026-09-09T02:11:18+00:00	chosen	Textured off-white outer border removed; visually reviewed; original model bytes retained. 8px allowance clears irregular edges; centered 3:2 framing.	refined
+002-03	v04	assets/art/panels/002-03/v04-panel-fit.svg	panel-fit		1200	800	108602	2026-09-09T02:11:18+00:00	candidate	Textured off-white outer border removed; visually reviewed; original model bytes retained. 8px allowance clears irregular edges; centered 3:2 framing.	refined
 002-04	v01	assets/art/panels/002-04/v01-flux2-klein-4b-1001.webp	flux2-klein-4b	1001	1200	800	155816	2026-09-05T16:20:28+00:00	candidate		refined
-002-04	v02	assets/art/panels/002-04/v02-storyboard-svg.svg	storyboard-svg		1200	800	2875	2026-09-07T16:49:06+00:00	candidate		storyboard
+002-04	v02	assets/art/panels/002-04/v02-storyboard-svg.svg	storyboard-svg		1200	800	2875	2026-09-07T16:49:06+00:00	chosen		storyboard
 002-04	v03	assets/art/panels/002-04/v03-storyboard-svg.svg	storyboard-svg		1200	800	2989	2026-09-07T16:54:59+00:00	candidate		storyboard
-002-04	v04	assets/art/panels/002-04/v04-panel-fit.svg	panel-fit		1200	800	208447	2026-09-09T02:11:19+00:00	chosen	Textured off-white outer border removed; visually reviewed; original model bytes retained. Top-left crop preserves edge labels.	refined
+002-04	v04	assets/art/panels/002-04/v04-panel-fit.svg	panel-fit		1200	800	208447	2026-09-09T02:11:19+00:00	candidate	Textured off-white outer border removed; visually reviewed; original model bytes retained. Top-left crop preserves edge labels.	refined
 002-05	v01	assets/art/panels/002-05/v01-flux2-klein-4b-1001.webp	flux2-klein-4b	1001	1200	800	63750	2026-09-05T16:21:32+00:00	candidate		refined
-002-05	v02	assets/art/panels/002-05/v02-storyboard-svg.svg	storyboard-svg		1200	800	1725	2026-09-07T16:49:06+00:00	candidate		storyboard
+002-05	v02	assets/art/panels/002-05/v02-storyboard-svg.svg	storyboard-svg		1200	800	1725	2026-09-07T16:49:06+00:00	chosen		storyboard
 003-01	v01	assets/art/panels/003-01/v01-flux2-klein-4b-1001.webp	flux2-klein-4b	1001	1200	800	208632	2026-09-05T16:22:37+00:00	candidate		refined
 003-01	v02	assets/art/panels/003-01/v02-flux2-klein-4b-1001.webp	flux2-klein-4b	1001	832	1216	241596	2026-09-05T19:11:45+00:00	candidate		refined
 003-01	v03	assets/art/panels/003-01/v03-flux2-klein-4b-20step-1001.webp	flux2-klein-4b-20step	1001	1200	800	228858	2026-09-05T19:18:41+00:00	candidate		refined
 003-01	v04	assets/art/panels/003-01/v04-flux2-klein-4b-1001.webp	flux2-klein-4b	1001	1200	800	165262	2026-09-05T19:50:51+00:00	candidate	drawn 5 Sep 2026 with the reverted panel-first prompt arrangement, not the committed composer	refined
 003-01	v05	assets/art/panels/003-01/v05-flux2-klein-4b-1001.webp	flux2-klein-4b	1001	1200	800	219958	2026-09-05T20:40:53+00:00	candidate	drawn 5 Sep 2026 with the reverted conditional-register clause, not the committed one	refined
 003-01	v06	assets/art/panels/003-01/v06-storyboard-svg.svg	storyboard-svg		1200	800	4316	2026-09-07T16:49:06+00:00	candidate		storyboard
-003-01	v07	assets/art/panels/003-01/v07-storyboard-svg.svg	storyboard-svg		1200	800	4562	2026-09-07T16:54:59+00:00	candidate		storyboard
-003-01	v08	assets/art/panels/003-01/v08-panel-fit.svg	panel-fit		1200	800	293994	2026-09-09T02:11:19+00:00	chosen	Textured off-white outer border removed; visually reviewed; original model bytes retained. 8px allowance clears irregular edges; centered 3:2 framing.	refined
+003-01	v07	assets/art/panels/003-01/v07-storyboard-svg.svg	storyboard-svg		1200	800	4562	2026-09-07T16:54:59+00:00	chosen		storyboard
+003-01	v08	assets/art/panels/003-01/v08-panel-fit.svg	panel-fit		1200	800	293994	2026-09-09T02:11:19+00:00	candidate	Textured off-white outer border removed; visually reviewed; original model bytes retained. 8px allowance clears irregular edges; centered 3:2 framing.	refined
 003-02	v01	assets/art/panels/003-02/v01-flux2-klein-4b-1001.webp	flux2-klein-4b	1001	1200	800	191358	2026-09-05T16:23:42+00:00	candidate		refined
 003-02	v02	assets/art/panels/003-02/v02-storyboard-svg.svg	storyboard-svg		1200	800	4163	2026-09-07T16:49:06+00:00	candidate		storyboard
 003-02	v03	assets/art/panels/003-02/v03-storyboard-svg.svg	storyboard-svg		1200	800	4409	2026-09-07T16:54:59+00:00	candidate		storyboard
@@ -66,8 +66,8 @@ panel	variant	file	provider	seed	width	height	bytes	created	status	note	stage
 003-04	v03	assets/art/panels/003-04/v03-storyboard-svg.svg	storyboard-svg		1200	800	5043	2026-09-07T16:54:59+00:00	candidate		storyboard
 003-04	v04	assets/art/panels/003-04/v04-builtin-image-pilot.png	builtin-image-pilot		1536	1024	2374388	2026-09-07T23:05:06+00:00	chosen	Directory pair: new test entry above unchanged row order, moss limited to new row; provisional.	refined
 003-05	v01	assets/art/panels/003-05/v01-flux2-klein-4b-1001.webp	flux2-klein-4b	1001	1200	800	107656	2026-09-05T16:26:55+00:00	candidate		refined
-003-05	v02	assets/art/panels/003-05/v02-storyboard-svg.svg	storyboard-svg		1200	800	2714	2026-09-07T16:49:06+00:00	candidate	Pilot control: retain deterministic geometry and exact controlled long-text lettering.	storyboard
-003-05	v03	assets/art/panels/003-05/v03-panel-fit.svg	panel-fit		1200	800	144258	2026-09-09T02:11:20+00:00	chosen	Textured off-white outer border removed; visually reviewed; original model bytes retained. 8px allowance clears irregular edges; centered 3:2 framing.	refined
+003-05	v02	assets/art/panels/003-05/v02-storyboard-svg.svg	storyboard-svg		1200	800	2714	2026-09-07T16:49:06+00:00	chosen	Pilot control: retain deterministic geometry and exact controlled long-text lettering.	storyboard
+003-05	v03	assets/art/panels/003-05/v03-panel-fit.svg	panel-fit		1200	800	144258	2026-09-09T02:11:20+00:00	candidate	Textured off-white outer border removed; visually reviewed; original model bytes retained. 8px allowance clears irregular edges; centered 3:2 framing.	refined
 004-01	v01	assets/art/panels/004-01/v01-flux2-klein-4b-1001.webp	flux2-klein-4b	1001	1200	800	189254	2026-09-05T16:28:00+00:00	candidate		refined
 004-01	v02	assets/art/panels/004-01/v02-storyboard-svg.svg	storyboard-svg		1200	800	3808	2026-09-07T16:49:06+00:00	candidate		storyboard
 004-01	v03	assets/art/panels/004-01/v03-storyboard-svg.svg	storyboard-svg		1200	800	3952	2026-09-07T16:54:59+00:00	candidate		storyboard
@@ -78,89 +78,99 @@ panel	variant	file	provider	seed	width	height	bytes	created	status	note	stage
 004-02	v04	assets/art/panels/004-02/v04-storyboard-svg.svg	storyboard-svg		1200	800	6864	2026-09-07T16:54:59+00:00	candidate		storyboard
 004-02	v05	assets/art/panels/004-02/v05-panel-fit.svg	panel-fit		1200	800	259974	2026-09-09T02:11:20+00:00	chosen	Textured off-white outer border removed; visually reviewed; original model bytes retained. 8px allowance clears irregular edges; centered 3:2 framing.	refined
 004-03	v01	assets/art/panels/004-03/v01-storyboard-svg.svg	storyboard-svg		1200	800	6682	2026-09-07T16:49:06+00:00	candidate		storyboard
-004-03	v02	assets/art/panels/004-03/v02-storyboard-svg.svg	storyboard-svg		1200	800	7236	2026-09-07T16:54:59+00:00	candidate		storyboard
+004-03	v02	assets/art/panels/004-03/v02-storyboard-svg.svg	storyboard-svg		1200	800	7236	2026-09-07T16:54:59+00:00	chosen		storyboard
 004-04	v01	assets/art/panels/004-04/v01-storyboard-svg.svg	storyboard-svg		1200	800	3630	2026-09-07T16:49:06+00:00	candidate		storyboard
-004-04	v02	assets/art/panels/004-04/v02-storyboard-svg.svg	storyboard-svg		1200	800	3876	2026-09-07T16:54:59+00:00	candidate		storyboard
+004-04	v02	assets/art/panels/004-04/v02-storyboard-svg.svg	storyboard-svg		1200	800	3876	2026-09-07T16:54:59+00:00	chosen		storyboard
 004-05	v01	assets/art/panels/004-05/v01-storyboard-svg.svg	storyboard-svg		1200	800	3639	2026-09-07T16:49:06+00:00	candidate		storyboard
-004-05	v02	assets/art/panels/004-05/v02-storyboard-svg.svg	storyboard-svg		1200	800	3782	2026-09-07T16:54:59+00:00	candidate		storyboard
+004-05	v02	assets/art/panels/004-05/v02-storyboard-svg.svg	storyboard-svg		1200	800	3782	2026-09-07T16:54:59+00:00	chosen		storyboard
 005-01	v01	assets/art/panels/005-01/v01-storyboard-svg.svg	storyboard-svg		1200	800	3630	2026-09-07T16:49:06+00:00	candidate		storyboard
-005-01	v02	assets/art/panels/005-01/v02-storyboard-svg.svg	storyboard-svg		1200	800	3862	2026-09-07T16:55:00+00:00	candidate		storyboard
+005-01	v02	assets/art/panels/005-01/v02-storyboard-svg.svg	storyboard-svg		1200	800	3862	2026-09-07T16:55:00+00:00	chosen		storyboard
 005-02	v01	assets/art/panels/005-02/v01-storyboard-svg.svg	storyboard-svg		1200	800	4706	2026-09-07T16:49:06+00:00	candidate		storyboard
-005-02	v02	assets/art/panels/005-02/v02-storyboard-svg.svg	storyboard-svg		1200	800	5078	2026-09-07T16:55:00+00:00	candidate		storyboard
+005-02	v02	assets/art/panels/005-02/v02-storyboard-svg.svg	storyboard-svg		1200	800	5078	2026-09-07T16:55:00+00:00	chosen		storyboard
 005-03	v01	assets/art/panels/005-03/v01-storyboard-svg.svg	storyboard-svg		1200	800	4955	2026-09-07T16:49:06+00:00	candidate		storyboard
-005-03	v02	assets/art/panels/005-03/v02-storyboard-svg.svg	storyboard-svg		1200	800	5370	2026-09-07T16:55:00+00:00	candidate		storyboard
+005-03	v02	assets/art/panels/005-03/v02-storyboard-svg.svg	storyboard-svg		1200	800	5370	2026-09-07T16:55:00+00:00	chosen		storyboard
 005-04	v01	assets/art/panels/005-04/v01-storyboard-svg.svg	storyboard-svg		1200	800	5752	2026-09-07T16:49:06+00:00	candidate		storyboard
 005-04	v02	assets/art/panels/005-04/v02-storyboard-svg.svg	storyboard-svg		1200	800	6386	2026-09-07T16:55:00+00:00	candidate		storyboard
 005-04	v03	assets/art/panels/005-04/v03-storyboard-svg.svg	storyboard-svg		1200	800	6468	2026-09-07T17:01:42+00:00	candidate		storyboard
+005-04	v04	assets/art/panels/005-04/v04-flux2-klein-4b-2002.webp	flux2-klein-4b	2002	1200	800	256960	2026-09-11T01:59:25+00:00	chosen	Promoted from local candidate c6838b926c3b.	refined
 005-05	v01	assets/art/panels/005-05/v01-storyboard-svg.svg	storyboard-svg		1200	800	7276	2026-09-07T16:49:06+00:00	candidate		storyboard
-005-05	v02	assets/art/panels/005-05/v02-storyboard-svg.svg	storyboard-svg		1200	800	7970	2026-09-07T16:55:00+00:00	candidate		storyboard
+005-05	v02	assets/art/panels/005-05/v02-storyboard-svg.svg	storyboard-svg		1200	800	7970	2026-09-07T16:55:00+00:00	chosen		storyboard
 006-01	v01	assets/art/panels/006-01/v01-storyboard-svg.svg	storyboard-svg		1200	800	13678	2026-09-07T16:49:06+00:00	candidate		storyboard
 006-01	v02	assets/art/panels/006-01/v02-storyboard-svg.svg	storyboard-svg		1200	800	13711	2026-09-07T16:55:00+00:00	candidate		storyboard
-006-01	v03	assets/art/panels/006-01/v03-storyboard-svg.svg	storyboard-svg		1200	800	14971	2026-09-07T17:00:24+00:00	candidate		storyboard
+006-01	v03	assets/art/panels/006-01/v03-storyboard-svg.svg	storyboard-svg		1200	800	14971	2026-09-07T17:00:24+00:00	chosen		storyboard
 007-01	v01	assets/art/panels/007-01/v01-storyboard-svg.svg	storyboard-svg		1200	800	15044	2026-09-07T16:49:06+00:00	candidate		storyboard
 007-01	v02	assets/art/panels/007-01/v02-storyboard-svg.svg	storyboard-svg		1200	800	23275	2026-09-07T16:55:00+00:00	candidate		storyboard
 007-01	v03	assets/art/panels/007-01/v03-storyboard-svg.svg	storyboard-svg		1200	800	24511	2026-09-07T17:00:24+00:00	candidate		storyboard
-007-01	v04	assets/art/panels/007-01/v04-storyboard-svg.svg	storyboard-svg		1200	800	24439	2026-09-07T17:04:25+00:00	candidate		storyboard
+007-01	v04	assets/art/panels/007-01/v04-storyboard-svg.svg	storyboard-svg		1200	800	24439	2026-09-07T17:04:25+00:00	chosen		storyboard
 008-01	v01	assets/art/panels/008-01/v01-storyboard-svg.svg	storyboard-svg		1200	800	4576	2026-09-07T16:49:06+00:00	candidate		storyboard
 008-01	v02	assets/art/panels/008-01/v02-storyboard-svg.svg	storyboard-svg		1200	800	4825	2026-09-07T16:55:00+00:00	candidate		storyboard
+008-01	v03	assets/art/panels/008-01/v03-flux2-klein-4b-2002.webp	flux2-klein-4b	2002	1200	800	238146	2026-09-11T02:02:15+00:00	chosen	Promoted from local candidate 7f9beed4de8f.	refined
 008-02	v01	assets/art/panels/008-02/v01-storyboard-svg.svg	storyboard-svg		1200	800	6405	2026-09-07T16:49:06+00:00	candidate		storyboard
-008-02	v02	assets/art/panels/008-02/v02-storyboard-svg.svg	storyboard-svg		1200	800	6959	2026-09-07T16:55:00+00:00	candidate		storyboard
+008-02	v02	assets/art/panels/008-02/v02-storyboard-svg.svg	storyboard-svg		1200	800	6959	2026-09-07T16:55:00+00:00	chosen		storyboard
 008-03	v01	assets/art/panels/008-03/v01-storyboard-svg.svg	storyboard-svg		1200	800	4806	2026-09-07T16:49:06+00:00	candidate		storyboard
 008-03	v02	assets/art/panels/008-03/v02-storyboard-svg.svg	storyboard-svg		1200	800	5074	2026-09-07T16:55:00+00:00	candidate		storyboard
+008-03	v03	assets/art/panels/008-03/v03-flux2-klein-4b-1001.webp	flux2-klein-4b	1001	1200	800	158850	2026-09-11T02:03:22+00:00	chosen	Promoted from local candidate 3dad7e09b816.	refined
 008-04	v01	assets/art/panels/008-04/v01-storyboard-svg.svg	storyboard-svg		1200	800	3723	2026-09-07T16:49:06+00:00	candidate		storyboard
-008-04	v02	assets/art/panels/008-04/v02-storyboard-svg.svg	storyboard-svg		1200	800	4019	2026-09-07T16:55:00+00:00	candidate		storyboard
+008-04	v02	assets/art/panels/008-04/v02-storyboard-svg.svg	storyboard-svg		1200	800	4019	2026-09-07T16:55:00+00:00	chosen		storyboard
 008-05	v01	assets/art/panels/008-05/v01-storyboard-svg.svg	storyboard-svg		1200	800	7430	2026-09-07T16:49:06+00:00	candidate		storyboard
-008-05	v02	assets/art/panels/008-05/v02-storyboard-svg.svg	storyboard-svg		1200	800	8124	2026-09-07T16:55:01+00:00	candidate		storyboard
+008-05	v02	assets/art/panels/008-05/v02-storyboard-svg.svg	storyboard-svg		1200	800	8124	2026-09-07T16:55:01+00:00	chosen		storyboard
 009-01	v01	assets/art/panels/009-01/v01-storyboard-svg.svg	storyboard-svg		1200	800	4354	2026-09-07T16:49:06+00:00	candidate		storyboard
-009-01	v02	assets/art/panels/009-01/v02-storyboard-svg.svg	storyboard-svg		1200	800	4722	2026-09-07T16:55:01+00:00	candidate		storyboard
+009-01	v02	assets/art/panels/009-01/v02-storyboard-svg.svg	storyboard-svg		1200	800	4722	2026-09-07T16:55:01+00:00	chosen		storyboard
 009-02	v01	assets/art/panels/009-02/v01-storyboard-svg.svg	storyboard-svg		1200	800	1561	2026-09-07T16:49:06+00:00	candidate		storyboard
+009-02	v02	assets/art/panels/009-02/v02-flux2-klein-4b-1001.webp	flux2-klein-4b	1001	1200	800	165590	2026-09-11T02:05:24+00:00	chosen	Promoted from local candidate 1e2f99998b2a.	refined
 009-03	v01	assets/art/panels/009-03/v01-storyboard-svg.svg	storyboard-svg		1200	800	4786	2026-09-07T16:49:06+00:00	candidate		storyboard
-009-03	v02	assets/art/panels/009-03/v02-storyboard-svg.svg	storyboard-svg		1200	800	5087	2026-09-07T16:55:01+00:00	candidate		storyboard
+009-03	v02	assets/art/panels/009-03/v02-storyboard-svg.svg	storyboard-svg		1200	800	5087	2026-09-07T16:55:01+00:00	chosen		storyboard
 009-04	v01	assets/art/panels/009-04/v01-storyboard-svg.svg	storyboard-svg		1200	800	3759	2026-09-07T16:49:06+00:00	candidate		storyboard
-009-04	v02	assets/art/panels/009-04/v02-storyboard-svg.svg	storyboard-svg		1200	800	3858	2026-09-07T16:55:01+00:00	candidate		storyboard
+009-04	v02	assets/art/panels/009-04/v02-storyboard-svg.svg	storyboard-svg		1200	800	3858	2026-09-07T16:55:01+00:00	chosen		storyboard
 009-05	v01	assets/art/panels/009-05/v01-storyboard-svg.svg	storyboard-svg		1200	800	4163	2026-09-07T16:49:06+00:00	candidate		storyboard
 009-05	v02	assets/art/panels/009-05/v02-storyboard-svg.svg	storyboard-svg		1200	800	4328	2026-09-07T16:55:01+00:00	candidate		storyboard
+009-05	v03	assets/art/panels/009-05/v03-flux2-klein-4b-1001.webp	flux2-klein-4b	1001	1200	800	115282	2026-09-11T02:07:00+00:00	chosen	Promoted from local candidate 2c75780bd0a6.	refined
 010-01	v01	assets/art/panels/010-01/v01-flux2-klein-4b-1001.webp	flux2-klein-4b	1001	1200	800	193672	2026-09-05T18:50:21+00:00	candidate		refined
 010-01	v02	assets/art/panels/010-01/v02-storyboard-svg.svg	storyboard-svg		1200	800	2941	2026-09-07T16:49:06+00:00	candidate		storyboard
 010-01	v03	assets/art/panels/010-01/v03-storyboard-svg.svg	storyboard-svg		1200	800	3070	2026-09-07T16:55:01+00:00	candidate		storyboard
 010-01	v04	assets/art/panels/010-01/v04-panel-fit.svg	panel-fit		1200	800	258946	2026-09-09T02:11:21+00:00	chosen	Textured off-white outer border removed; visually reviewed; original model bytes retained. 8px allowance clears irregular edges; centered 3:2 framing.	refined
 010-02	v01	assets/art/panels/010-02/v01-storyboard-svg.svg	storyboard-svg		1200	800	5871	2026-09-07T16:49:06+00:00	candidate		storyboard
-010-02	v02	assets/art/panels/010-02/v02-storyboard-svg.svg	storyboard-svg		1200	800	6138	2026-09-07T16:55:01+00:00	candidate		storyboard
+010-02	v02	assets/art/panels/010-02/v02-storyboard-svg.svg	storyboard-svg		1200	800	6138	2026-09-07T16:55:01+00:00	chosen		storyboard
 010-03	v01	assets/art/panels/010-03/v01-flux2-klein-4b-1001.webp	flux2-klein-4b	1001	1200	800	214840	2026-09-05T18:51:26+00:00	candidate		refined
 010-03	v02	assets/art/panels/010-03/v02-flux2-klein-4b-1001.webp	flux2-klein-4b	1001	1200	800	168904	2026-09-05T19:51:54+00:00	candidate	drawn 5 Sep 2026 with the reverted panel-first prompt arrangement, not the committed composer	refined
-010-03	v03	assets/art/panels/010-03/v03-storyboard-svg.svg	storyboard-svg		1200	800	4688	2026-09-07T16:49:06+00:00	candidate		storyboard
+010-03	v03	assets/art/panels/010-03/v03-storyboard-svg.svg	storyboard-svg		1200	800	4688	2026-09-07T16:49:06+00:00	chosen		storyboard
 010-03	v04	assets/art/panels/010-03/v04-storyboard-svg.svg	storyboard-svg		1200	800	5038	2026-09-07T16:55:01+00:00	candidate		storyboard
-010-03	v05	assets/art/panels/010-03/v05-panel-fit.svg	panel-fit		1200	800	225922	2026-09-09T02:11:21+00:00	chosen	Textured off-white outer border removed; visually reviewed; original model bytes retained. 8px allowance clears irregular edges; centered 3:2 framing.	refined
+010-03	v05	assets/art/panels/010-03/v05-panel-fit.svg	panel-fit		1200	800	225922	2026-09-09T02:11:21+00:00	candidate	Textured off-white outer border removed; visually reviewed; original model bytes retained. 8px allowance clears irregular edges; centered 3:2 framing.	refined
 010-04	v01	assets/art/panels/010-04/v01-flux2-klein-4b-1001.webp	flux2-klein-4b	1001	1200	800	175798	2026-09-05T18:52:29+00:00	candidate		refined
 010-04	v02	assets/art/panels/010-04/v02-flux2-klein-4b-1001.webp	flux2-klein-4b	1001	1200	800	201870	2026-09-05T20:43:00+00:00	candidate	drawn 5 Sep 2026 with the reverted conditional-register clause, not the committed one	refined
 010-04	v03	assets/art/panels/010-04/v03-storyboard-svg.svg	storyboard-svg		1200	800	3223	2026-09-07T16:49:06+00:00	candidate		storyboard
 010-04	v04	assets/art/panels/010-04/v04-storyboard-svg.svg	storyboard-svg		1200	800	3404	2026-09-07T16:55:01+00:00	candidate		storyboard
 010-04	v05	assets/art/panels/010-04/v05-panel-fit.svg	panel-fit		1200	800	269874	2026-09-09T02:11:22+00:00	chosen	Textured off-white outer border removed; visually reviewed; original model bytes retained. 8px allowance clears irregular edges; centered 3:2 framing.	refined
 010-05	v01	assets/art/panels/010-05/v01-storyboard-svg.svg	storyboard-svg		1200	800	4097	2026-09-07T16:49:07+00:00	candidate		storyboard
-010-05	v02	assets/art/panels/010-05/v02-storyboard-svg.svg	storyboard-svg		1200	800	4465	2026-09-07T16:55:01+00:00	candidate		storyboard
+010-05	v02	assets/art/panels/010-05/v02-storyboard-svg.svg	storyboard-svg		1200	800	4465	2026-09-07T16:55:01+00:00	chosen		storyboard
 011-01	v01	assets/art/panels/011-01/v01-storyboard-svg.svg	storyboard-svg		1200	800	4156	2026-09-07T16:49:07+00:00	candidate		storyboard
-011-01	v02	assets/art/panels/011-01/v02-storyboard-svg.svg	storyboard-svg		1200	800	4524	2026-09-07T16:55:01+00:00	candidate		storyboard
+011-01	v02	assets/art/panels/011-01/v02-storyboard-svg.svg	storyboard-svg		1200	800	4524	2026-09-07T16:55:01+00:00	chosen		storyboard
 011-02	v01	assets/art/panels/011-02/v01-storyboard-svg.svg	storyboard-svg		1200	800	4053	2026-09-07T16:49:07+00:00	candidate		storyboard
-011-02	v02	assets/art/panels/011-02/v02-storyboard-svg.svg	storyboard-svg		1200	800	4299	2026-09-07T16:55:02+00:00	candidate		storyboard
+011-02	v02	assets/art/panels/011-02/v02-storyboard-svg.svg	storyboard-svg		1200	800	4299	2026-09-07T16:55:02+00:00	chosen		storyboard
 011-03	v01	assets/art/panels/011-03/v01-storyboard-svg.svg	storyboard-svg		1200	800	4282	2026-09-07T16:49:07+00:00	candidate		storyboard
 011-03	v02	assets/art/panels/011-03/v02-storyboard-svg.svg	storyboard-svg		1200	800	4745	2026-09-07T16:55:02+00:00	candidate		storyboard
+011-03	v03	assets/art/panels/011-03/v03-flux2-klein-4b-1001.webp	flux2-klein-4b	1001	1200	800	192826	2026-09-11T02:12:21+00:00	chosen	Promoted from local candidate 301a6cee666b.	refined
 011-04	v01	assets/art/panels/011-04/v01-storyboard-svg.svg	storyboard-svg		1200	800	7906	2026-09-07T16:49:07+00:00	candidate		storyboard
-011-04	v02	assets/art/panels/011-04/v02-storyboard-svg.svg	storyboard-svg		1200	800	8600	2026-09-07T16:55:02+00:00	candidate		storyboard
+011-04	v02	assets/art/panels/011-04/v02-storyboard-svg.svg	storyboard-svg		1200	800	8600	2026-09-07T16:55:02+00:00	chosen		storyboard
 011-05	v01	assets/art/panels/011-05/v01-storyboard-svg.svg	storyboard-svg		1200	800	8055	2026-09-07T16:49:07+00:00	candidate		storyboard
 011-05	v02	assets/art/panels/011-05/v02-storyboard-svg.svg	storyboard-svg		1200	800	8423	2026-09-07T16:55:02+00:00	candidate		storyboard
+011-05	v03	assets/art/panels/011-05/v03-flux2-klein-4b-2002.webp	flux2-klein-4b	2002	1200	800	203558	2026-09-11T02:13:09+00:00	chosen	Promoted from local candidate 0b3cafc162c3.	refined
 012-01	v01	assets/art/panels/012-01/v01-storyboard-svg.svg	storyboard-svg		1200	800	4144	2026-09-07T16:49:07+00:00	candidate		storyboard
-012-01	v02	assets/art/panels/012-01/v02-storyboard-svg.svg	storyboard-svg		1200	800	4148	2026-09-07T16:55:02+00:00	candidate		storyboard
+012-01	v02	assets/art/panels/012-01/v02-storyboard-svg.svg	storyboard-svg		1200	800	4148	2026-09-07T16:55:02+00:00	chosen		storyboard
 012-02	v01	assets/art/panels/012-02/v01-storyboard-svg.svg	storyboard-svg		1200	800	5017	2026-09-07T16:49:07+00:00	candidate		storyboard
 012-02	v02	assets/art/panels/012-02/v02-storyboard-svg.svg	storyboard-svg		1200	800	5164	2026-09-07T16:55:02+00:00	candidate		storyboard
+012-02	v03	assets/art/panels/012-02/v03-flux2-klein-4b-1001.webp	flux2-klein-4b	1001	1200	800	177712	2026-09-11T02:13:58+00:00	chosen	Promoted from local candidate f8c283c039b5.	refined
 012-03	v01	assets/art/panels/012-03/v01-storyboard-svg.svg	storyboard-svg		1200	800	5061	2026-09-07T16:49:07+00:00	candidate		storyboard
-012-03	v02	assets/art/panels/012-03/v02-storyboard-svg.svg	storyboard-svg		1200	800	5342	2026-09-07T16:55:02+00:00	candidate		storyboard
+012-03	v02	assets/art/panels/012-03/v02-storyboard-svg.svg	storyboard-svg		1200	800	5342	2026-09-07T16:55:02+00:00	chosen		storyboard
 012-04	v01	assets/art/panels/012-04/v01-storyboard-svg.svg	storyboard-svg		1200	800	5367	2026-09-07T16:49:07+00:00	candidate		storyboard
 012-04	v02	assets/art/panels/012-04/v02-storyboard-svg.svg	storyboard-svg		1200	800	5776	2026-09-07T16:55:02+00:00	candidate		storyboard
+012-04	v03	assets/art/panels/012-04/v03-flux2-klein-4b-2002.webp	flux2-klein-4b	2002	1200	800	243848	2026-09-11T02:14:37+00:00	chosen	Promoted from local candidate b51c2fd4e0c2.	refined
 012-05	v01	assets/art/panels/012-05/v01-storyboard-svg.svg	storyboard-svg		1200	800	9734	2026-09-07T16:49:07+00:00	candidate		storyboard
 012-05	v02	assets/art/panels/012-05/v02-storyboard-svg.svg	storyboard-svg		1200	800	10284	2026-09-07T16:55:02+00:00	candidate		storyboard
+012-05	v03	assets/art/panels/012-05/v03-flux2-klein-4b-1001.webp	flux2-klein-4b	1001	1200	800	198736	2026-09-11T02:15:11+00:00	chosen	Promoted from local candidate 6c6d520270f4.	refined
 012-06	v01	assets/art/panels/012-06/v01-storyboard-svg.svg	storyboard-svg		1200	800	1785	2026-09-07T16:49:07+00:00	candidate		storyboard
 012-06	v02	assets/art/panels/012-06/v02-storyboard-svg.svg	storyboard-svg		1200	800	1814	2026-09-07T16:55:02+00:00	candidate		storyboard
-012-06	v03	assets/art/panels/012-06/v03-storyboard-svg.svg	storyboard-svg		1200	800	1882	2026-09-09T21:19:15+00:00	candidate		storyboard
+012-06	v03	assets/art/panels/012-06/v03-storyboard-svg.svg	storyboard-svg		1200	800	1882	2026-09-09T21:19:15+00:00	chosen		storyboard
 013-01	v01	assets/art/panels/013-01/v01-flux2-klein-4b-1001.webp	flux2-klein-4b	1001	1200	800	173824	2026-09-05T18:53:33+00:00	candidate		refined
 013-01	v02	assets/art/panels/013-01/v02-storyboard-svg.svg	storyboard-svg		1200	800	13855	2026-09-07T14:11:22+00:00	candidate		storyboard
 013-01	v03	assets/art/panels/013-01/v03-storyboard-svg.svg	storyboard-svg		1200	800	7327	2026-09-07T14:13:12+00:00	candidate		storyboard
@@ -193,8 +203,10 @@ panel	variant	file	provider	seed	width	height	bytes	created	status	note	stage
 014-01	v03	assets/art/panels/014-01/v03-storyboard-svg.svg	storyboard-svg		1200	800	4573	2026-09-07T16:55:03+00:00	candidate		storyboard
 014-01	v04	assets/art/panels/014-01/v04-panel-fit.svg	panel-fit		1200	800	262930	2026-09-09T02:11:22+00:00	chosen	Textured off-white outer border removed; visually reviewed; original model bytes retained. 8px allowance clears irregular edges; centered 3:2 framing.	refined
 014-02	v01	assets/art/panels/014-02/v01-storyboard-svg.svg	storyboard-svg		1200	800	10592	2026-09-07T16:08:41+00:00	candidate		storyboard
+014-02	v02	assets/art/panels/014-02/v02-flux2-klein-4b-1001.webp	flux2-klein-4b	1001	1200	800	201248	2026-09-11T02:21:09+00:00	chosen	Promoted from local candidate 117920075dd8.	refined
 014-03	v01	assets/art/panels/014-03/v01-storyboard-svg.svg	storyboard-svg		1200	800	7081	2026-09-07T16:08:41+00:00	candidate		storyboard
 014-03	v02	assets/art/panels/014-03/v02-storyboard-svg.svg	storyboard-svg		1200	800	7240	2026-09-07T16:10:30+00:00	candidate		storyboard
+014-03	v03	assets/art/panels/014-03/v03-flux2-klein-4b-2002.webp	flux2-klein-4b	2002	1200	800	219922	2026-09-11T02:22:06+00:00	chosen	Promoted from local candidate 372c6aaab97c.	refined
 014-04	v01	assets/art/panels/014-04/v01-flux2-klein-4b-1001.webp	flux2-klein-4b	1001	1200	800	197582	2026-09-05T22:24:36+00:00	candidate		refined
 014-04	v02	assets/art/panels/014-04/v02-storyboard-svg.svg	storyboard-svg		1200	800	12903	2026-09-07T14:11:23+00:00	candidate		storyboard
 014-04	v03	assets/art/panels/014-04/v03-storyboard-svg.svg	storyboard-svg		1200	800	4750	2026-09-07T14:13:13+00:00	candidate		storyboard
@@ -204,23 +216,25 @@ panel	variant	file	provider	seed	width	height	bytes	created	status	note	stage
 014-05	v03	assets/art/panels/014-05/v03-storyboard-svg.svg	storyboard-svg		1200	800	6161	2026-09-07T14:13:13+00:00	candidate		storyboard
 014-05	v04	assets/art/panels/014-05/v04-panel-fit.svg	panel-fit		1200	800	267482	2026-09-09T02:11:23+00:00	chosen	Textured off-white outer border removed; visually reviewed; original model bytes retained. 8px allowance clears irregular edges; centered 3:2 framing.	refined
 014-06	v01	assets/art/panels/014-06/v01-storyboard-svg.svg	storyboard-svg		1200	800	4310	2026-09-07T16:08:41+00:00	candidate		storyboard
-015-01	v01	assets/art/panels/015-01/v01-storyboard-svg.svg	storyboard-svg		1200	800	6489	2026-09-07T16:08:41+00:00	candidate		storyboard
+014-06	v02	assets/art/panels/014-06/v02-flux2-klein-4b-1001.webp	flux2-klein-4b	1001	1200	800	179012	2026-09-11T02:23:24+00:00	chosen	Promoted from local candidate bec634b148fa.	refined
+015-01	v01	assets/art/panels/015-01/v01-storyboard-svg.svg	storyboard-svg		1200	800	6489	2026-09-07T16:08:41+00:00	chosen		storyboard
 015-02	v01	assets/art/panels/015-02/v01-flux2-klein-4b-4001.webp	flux2-klein-4b	4001	1200	800	457632	2026-09-03T19:02:56+00:00	candidate		refined
 015-02	v02	assets/art/panels/015-02/v02-flux2-klein-4b-4001.webp	flux2-klein-4b	4001	1200	800	277082	2026-09-03T20:57:39+00:00	candidate		refined
 015-02	v03	assets/art/panels/015-02/v03-storyboard-svg.svg	storyboard-svg		1200	800	4475	2026-09-07T16:49:07+00:00	candidate		storyboard
-015-02	v04	assets/art/panels/015-02/v04-storyboard-svg.svg	storyboard-svg		1200	800	4843	2026-09-07T16:55:03+00:00	candidate		storyboard
-015-03	v01	assets/art/panels/015-03/v01-storyboard-svg.svg	storyboard-svg		1200	800	4362	2026-09-07T16:08:41+00:00	candidate		storyboard
+015-02	v04	assets/art/panels/015-02/v04-storyboard-svg.svg	storyboard-svg		1200	800	4843	2026-09-07T16:55:03+00:00	chosen		storyboard
+015-03	v01	assets/art/panels/015-03/v01-storyboard-svg.svg	storyboard-svg		1200	800	4362	2026-09-07T16:08:41+00:00	chosen		storyboard
 015-04	v01	assets/art/panels/015-04/v01-flux2-klein-4b-4001.webp	flux2-klein-4b	4001	1200	800	401944	2026-09-03T19:04:14+00:00	candidate		refined
-015-04	v02	assets/art/panels/015-04/v02-flux2-klein-4b-4001.webp	flux2-klein-4b	4001	1200	800	302022	2026-09-03T20:58:56+00:00	candidate		refined
+015-04	v02	assets/art/panels/015-04/v02-flux2-klein-4b-4001.webp	flux2-klein-4b	4001	1200	800	302022	2026-09-03T20:58:56+00:00	chosen		refined
 015-04	v03	assets/art/panels/015-04/v03-storyboard-svg.svg	storyboard-svg		1200	800	7108	2026-09-07T16:49:07+00:00	candidate		storyboard
-015-05	v01	assets/art/panels/015-05/v01-storyboard-svg.svg	storyboard-svg		1200	800	9851	2026-09-07T16:08:41+00:00	candidate		storyboard
+015-05	v01	assets/art/panels/015-05/v01-storyboard-svg.svg	storyboard-svg		1200	800	9851	2026-09-07T16:08:41+00:00	chosen		storyboard
 016-01	v01	assets/art/panels/016-01/v01-storyboard-svg.svg	storyboard-svg		1200	800	5465	2026-09-07T16:49:07+00:00	candidate		storyboard
-016-01	v02	assets/art/panels/016-01/v02-storyboard-svg.svg	storyboard-svg		1200	800	6110	2026-09-07T16:55:03+00:00	candidate		storyboard
-016-02	v01	assets/art/panels/016-02/v01-storyboard-svg.svg	storyboard-svg		1200	800	6575	2026-09-07T16:49:07+00:00	candidate		storyboard
+016-01	v02	assets/art/panels/016-01/v02-storyboard-svg.svg	storyboard-svg		1200	800	6110	2026-09-07T16:55:03+00:00	chosen		storyboard
+016-02	v01	assets/art/panels/016-02/v01-storyboard-svg.svg	storyboard-svg		1200	800	6575	2026-09-07T16:49:07+00:00	chosen		storyboard
 016-03	v01	assets/art/panels/016-03/v01-storyboard-svg.svg	storyboard-svg		1200	800	4259	2026-09-07T16:49:07+00:00	candidate		storyboard
-016-03	v02	assets/art/panels/016-03/v02-storyboard-svg.svg	storyboard-svg		1200	800	4505	2026-09-07T16:55:03+00:00	candidate		storyboard
+016-03	v02	assets/art/panels/016-03/v02-storyboard-svg.svg	storyboard-svg		1200	800	4505	2026-09-07T16:55:03+00:00	chosen		storyboard
 016-04	v01	assets/art/panels/016-04/v01-storyboard-svg.svg	storyboard-svg		1200	800	4040	2026-09-07T16:49:07+00:00	candidate		storyboard
 016-04	v02	assets/art/panels/016-04/v02-storyboard-svg.svg	storyboard-svg		1200	800	4297	2026-09-07T16:55:03+00:00	candidate		storyboard
+016-04	v03	assets/art/panels/016-04/v03-flux2-klein-4b-1001.webp	flux2-klein-4b	1001	1200	800	179570	2026-09-11T02:27:34+00:00	chosen	Promoted from local candidate 845b2319675b.	refined
 016-05	v01	assets/art/panels/016-05/v01-flux2-klein-4b-1001.webp	flux2-klein-4b	1001	1200	800	181504	2026-09-05T18:58:49+00:00	candidate		refined
 016-05	v02	assets/art/panels/016-05/v02-flux2-klein-4b-1001.webp	flux2-klein-4b	1001	832	1216	231850	2026-09-05T19:12:51+00:00	candidate		refined
 016-05	v03	assets/art/panels/016-05/v03-flux2-klein-4b-20step-1001.webp	flux2-klein-4b-20step	1001	1200	800	213800	2026-09-05T19:23:23+00:00	candidate		refined
@@ -230,40 +244,40 @@ panel	variant	file	provider	seed	width	height	bytes	created	status	note	stage
 016-05	v07	assets/art/panels/016-05/v07-storyboard-svg.svg	storyboard-svg		1200	800	9433	2026-09-07T16:55:03+00:00	candidate		storyboard
 016-05	v08	assets/art/panels/016-05/v08-panel-fit.svg	panel-fit		1200	800	296326	2026-09-09T02:11:23+00:00	chosen	Textured off-white outer border removed; visually reviewed; original model bytes retained. 8px allowance clears irregular edges; centered 3:2 framing.	refined
 017-01	v01	assets/art/panels/017-01/v01-storyboard-svg.svg	storyboard-svg		1200	800	4147	2026-09-07T16:49:07+00:00	candidate		storyboard
-017-01	v02	assets/art/panels/017-01/v02-storyboard-svg.svg	storyboard-svg		1200	800	4404	2026-09-07T16:55:03+00:00	candidate		storyboard
+017-01	v02	assets/art/panels/017-01/v02-storyboard-svg.svg	storyboard-svg		1200	800	4404	2026-09-07T16:55:03+00:00	chosen		storyboard
 017-02	v01	assets/art/panels/017-02/v01-storyboard-svg.svg	storyboard-svg		1200	800	4434	2026-09-07T16:49:07+00:00	candidate		storyboard
-017-02	v02	assets/art/panels/017-02/v02-storyboard-svg.svg	storyboard-svg		1200	800	4680	2026-09-07T16:55:03+00:00	candidate		storyboard
+017-02	v02	assets/art/panels/017-02/v02-storyboard-svg.svg	storyboard-svg		1200	800	4680	2026-09-07T16:55:03+00:00	chosen		storyboard
 017-03	v01	assets/art/panels/017-03/v01-storyboard-svg.svg	storyboard-svg		1200	800	5046	2026-09-07T16:49:07+00:00	candidate		storyboard
-017-03	v02	assets/art/panels/017-03/v02-storyboard-svg.svg	storyboard-svg		1200	800	5414	2026-09-07T16:55:03+00:00	candidate		storyboard
+017-03	v02	assets/art/panels/017-03/v02-storyboard-svg.svg	storyboard-svg		1200	800	5414	2026-09-07T16:55:03+00:00	chosen		storyboard
 017-04	v01	assets/art/panels/017-04/v01-storyboard-svg.svg	storyboard-svg		1200	800	4440	2026-09-07T16:49:07+00:00	candidate		storyboard
-017-04	v02	assets/art/panels/017-04/v02-storyboard-svg.svg	storyboard-svg		1200	800	4686	2026-09-07T16:55:03+00:00	candidate		storyboard
+017-04	v02	assets/art/panels/017-04/v02-storyboard-svg.svg	storyboard-svg		1200	800	4686	2026-09-07T16:55:03+00:00	chosen		storyboard
 017-05	v01	assets/art/panels/017-05/v01-storyboard-svg.svg	storyboard-svg		1200	800	4766	2026-09-07T16:49:07+00:00	candidate		storyboard
-017-05	v02	assets/art/panels/017-05/v02-storyboard-svg.svg	storyboard-svg		1200	800	5134	2026-09-07T16:55:03+00:00	candidate		storyboard
+017-05	v02	assets/art/panels/017-05/v02-storyboard-svg.svg	storyboard-svg		1200	800	5134	2026-09-07T16:55:03+00:00	chosen		storyboard
 018-01	v01	assets/art/panels/018-01/v01-storyboard-svg.svg	storyboard-svg		1200	800	4555	2026-09-07T16:49:07+00:00	candidate		storyboard
-018-01	v02	assets/art/panels/018-01/v02-storyboard-svg.svg	storyboard-svg		1200	800	4801	2026-09-07T16:55:04+00:00	candidate		storyboard
+018-01	v02	assets/art/panels/018-01/v02-storyboard-svg.svg	storyboard-svg		1200	800	4801	2026-09-07T16:55:04+00:00	chosen		storyboard
 018-02	v01	assets/art/panels/018-02/v01-storyboard-svg.svg	storyboard-svg		1200	800	4751	2026-09-07T16:49:07+00:00	candidate		storyboard
-018-02	v02	assets/art/panels/018-02/v02-storyboard-svg.svg	storyboard-svg		1200	800	4759	2026-09-07T16:55:04+00:00	candidate		storyboard
+018-02	v02	assets/art/panels/018-02/v02-storyboard-svg.svg	storyboard-svg		1200	800	4759	2026-09-07T16:55:04+00:00	chosen		storyboard
 018-03	v01	assets/art/panels/018-03/v01-storyboard-svg.svg	storyboard-svg		1200	800	3836	2026-09-07T16:49:07+00:00	candidate		storyboard
-018-03	v02	assets/art/panels/018-03/v02-storyboard-svg.svg	storyboard-svg		1200	800	4093	2026-09-07T16:55:04+00:00	candidate		storyboard
+018-03	v02	assets/art/panels/018-03/v02-storyboard-svg.svg	storyboard-svg		1200	800	4093	2026-09-07T16:55:04+00:00	chosen		storyboard
 018-04	v01	assets/art/panels/018-04/v01-storyboard-svg.svg	storyboard-svg		1200	800	4162	2026-09-07T16:49:07+00:00	candidate		storyboard
-018-04	v02	assets/art/panels/018-04/v02-storyboard-svg.svg	storyboard-svg		1200	800	4408	2026-09-07T16:55:04+00:00	candidate		storyboard
+018-04	v02	assets/art/panels/018-04/v02-storyboard-svg.svg	storyboard-svg		1200	800	4408	2026-09-07T16:55:04+00:00	chosen		storyboard
 018-05	v01	assets/art/panels/018-05/v01-storyboard-svg.svg	storyboard-svg		1200	800	2822	2026-09-07T16:49:07+00:00	candidate		storyboard
-018-05	v02	assets/art/panels/018-05/v02-storyboard-svg.svg	storyboard-svg		1200	800	2951	2026-09-07T16:55:04+00:00	candidate		storyboard
+018-05	v02	assets/art/panels/018-05/v02-storyboard-svg.svg	storyboard-svg		1200	800	2951	2026-09-07T16:55:04+00:00	chosen		storyboard
 019-01	v01	assets/art/panels/019-01/v01-storyboard-svg.svg	storyboard-svg		1200	800	3664	2026-09-07T16:49:07+00:00	candidate		storyboard
-019-01	v02	assets/art/panels/019-01/v02-storyboard-svg.svg	storyboard-svg		1200	800	3910	2026-09-07T16:55:04+00:00	candidate		storyboard
+019-01	v02	assets/art/panels/019-01/v02-storyboard-svg.svg	storyboard-svg		1200	800	3910	2026-09-07T16:55:04+00:00	chosen		storyboard
 019-02	v01	assets/art/panels/019-02/v01-storyboard-svg.svg	storyboard-svg		1200	800	4378	2026-09-07T16:49:07+00:00	candidate		storyboard
-019-02	v02	assets/art/panels/019-02/v02-storyboard-svg.svg	storyboard-svg		1200	800	4624	2026-09-07T16:55:04+00:00	candidate		storyboard
+019-02	v02	assets/art/panels/019-02/v02-storyboard-svg.svg	storyboard-svg		1200	800	4624	2026-09-07T16:55:04+00:00	chosen		storyboard
 019-03	v01	assets/art/panels/019-03/v01-storyboard-svg.svg	storyboard-svg		1200	800	6393	2026-09-07T16:49:07+00:00	candidate		storyboard
-019-03	v02	assets/art/panels/019-03/v02-storyboard-svg.svg	storyboard-svg		1200	800	6947	2026-09-07T16:55:04+00:00	candidate		storyboard
+019-03	v02	assets/art/panels/019-03/v02-storyboard-svg.svg	storyboard-svg		1200	800	6947	2026-09-07T16:55:04+00:00	chosen		storyboard
 019-04	v01	assets/art/panels/019-04/v01-storyboard-svg.svg	storyboard-svg		1200	800	2539	2026-09-07T16:49:07+00:00	candidate		storyboard
-019-04	v02	assets/art/panels/019-04/v02-storyboard-svg.svg	storyboard-svg		1200	800	2668	2026-09-07T16:55:04+00:00	candidate		storyboard
-019-05	v01	assets/art/panels/019-05/v01-storyboard-svg.svg	storyboard-svg		1200	800	2668	2026-09-07T16:49:07+00:00	candidate		storyboard
+019-04	v02	assets/art/panels/019-04/v02-storyboard-svg.svg	storyboard-svg		1200	800	2668	2026-09-07T16:55:04+00:00	chosen		storyboard
+019-05	v01	assets/art/panels/019-05/v01-storyboard-svg.svg	storyboard-svg		1200	800	2668	2026-09-07T16:49:07+00:00	chosen		storyboard
 020-01	v01	assets/art/panels/020-01/v01-storyboard-svg.svg	storyboard-svg		1200	800	4603	2026-09-07T16:49:07+00:00	candidate		storyboard
-020-01	v02	assets/art/panels/020-01/v02-storyboard-svg.svg	storyboard-svg		1200	800	4971	2026-09-07T16:55:04+00:00	candidate		storyboard
+020-01	v02	assets/art/panels/020-01/v02-storyboard-svg.svg	storyboard-svg		1200	800	4971	2026-09-07T16:55:04+00:00	chosen		storyboard
 020-02	v01	assets/art/panels/020-02/v01-storyboard-svg.svg	storyboard-svg		1200	800	4533	2026-09-07T16:49:07+00:00	candidate		storyboard
-020-02	v02	assets/art/panels/020-02/v02-storyboard-svg.svg	storyboard-svg		1200	800	4822	2026-09-07T16:55:05+00:00	candidate		storyboard
+020-02	v02	assets/art/panels/020-02/v02-storyboard-svg.svg	storyboard-svg		1200	800	4822	2026-09-07T16:55:05+00:00	chosen		storyboard
 020-03	v01	assets/art/panels/020-03/v01-storyboard-svg.svg	storyboard-svg		1200	800	3624	2026-09-07T16:49:08+00:00	candidate		storyboard
-020-03	v02	assets/art/panels/020-03/v02-storyboard-svg.svg	storyboard-svg		1200	800	3870	2026-09-07T16:55:05+00:00	candidate		storyboard
+020-03	v02	assets/art/panels/020-03/v02-storyboard-svg.svg	storyboard-svg		1200	800	3870	2026-09-07T16:55:05+00:00	chosen		storyboard
 020-04	v01	assets/art/panels/020-04/v01-storyboard-svg.svg	storyboard-svg		1200	800	4980	2026-09-07T16:49:08+00:00	candidate		storyboard
 020-04	v02	assets/art/panels/020-04/v02-storyboard-svg.svg	storyboard-svg		1200	800	5458	2026-09-07T16:55:05+00:00	candidate		storyboard
 020-04	v03	assets/art/panels/020-04/v03-storyboard-svg.svg	storyboard-svg		1200	800	5540	2026-09-07T17:01:43+00:00	candidate		storyboard
