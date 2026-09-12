@@ -1,6 +1,6 @@
 {
   "background": "ink",
-  "intent": "Block the dated critique returns beside the map. Keep the scripted evidence boundary and lettering visible.",
+  "intent": "Block the dated critique returns beside the map. Keep the scripted evidence boundary and lettering visible. Existing source-derived wording is a visibly labelled paraphrase; quotation disposition remains open.",
   "lettering": [
     {
       "box": [
@@ -42,6 +42,6 @@
   ],
   "reconstructed": false,
   "shot": "hero",
-  "source": "\n**Frame:** The critique window from [page 039](039.md) reopens at the edge of the map, byline and date visible, scrolled to its own thesis.\n\n**Screen / system text — PUBLISHED CRITIQUE (PAGE 039, 3 SEPTEMBER 2026):**\n`THERE WERE NEVER THREE CIVILIZATIONS. THERE WAS A PERSISTENCE OF CONTEXT ACROSS THE WHOLE PERIOD.`\n\n**Dialogue — CURT:**\n> He said that the day before this report came out. He was arguing about the Artifactory record. He did not know about this lane either.\n\n**Provenance:** `documented` + `reconstructed` — `IOB-CIV`, attributed paraphrase of the post's persistence-of-context claim; the post is dated 3 September and does not mention the wiki. Curt's line is reconstruction. The critic is not credited with anticipating the concurrency finding: persistence of context and overlapping populations are different claims, and the page must keep them apart.\n\n",
+  "source": "\n**Frame:** The critique window from [page 039](039.md) reopens at the edge of the map, byline and date visible, scrolled to its own thesis.\n\n**Screen / system text — PUBLISHED CRITIQUE (PAGE 039, 3 SEPTEMBER 2026) (PARAPHRASED):**\n`THERE WERE NEVER THREE CIVILIZATIONS. THERE WAS A PERSISTENCE OF CONTEXT ACROSS THE WHOLE PERIOD.`\n\n**Dialogue — CURT:**\n> He said that the day before this report came out. He was arguing about the Artifactory record. His post did not discuss this lane.\n\n**Provenance:** `documented` + `reconstructed` — `IOB-CIV`, attributed paraphrase of the post's persistence-of-context claim; the post is dated 3 September and does not mention the wiki. Curt's line is reconstruction. The critic is not credited with anticipating the concurrency finding: persistence of context and overlapping populations are different claims, and the page must keep them apart.\n\n",
   "title": "The dated critique returns beside the map"
 }

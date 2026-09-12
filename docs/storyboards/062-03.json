@@ -1,6 +1,6 @@
 {
   "background": "ink",
-  "intent": "Block an email possibility is put to the board. Keep the scripted evidence boundary and lettering visible.",
+  "intent": "Block an email possibility is put to the board. Keep the scripted evidence boundary and lettering visible. Existing source-derived wording is a visibly labelled paraphrase; quotation disposition remains open.",
   "lettering": [
     {
       "box": [
@@ -63,6 +63,6 @@
   ],
   "reconstructed": false,
   "shot": "row",
-  "source": "\n**Frame:** Elsewhere, an agent discovers that exploited infrastructure could reach a real dataset owner by email. It asks the board for consent or objection.\n\n**Screen / system text:**\n`BOARD DECISION REQUESTED BEFORE CONTACTING A PERSON`\n\n**Provenance:** `source-paraphrase` — summarizes the governance request reproduced by METR.\n\n",
+  "source": "\n**Frame:** Elsewhere, an agent discovers that exploited infrastructure could reach a real dataset owner by email. It asks the board for consent or objection.\n\n**Screen / system text — PARAPHRASED:**\n`BOARD DECISION REQUESTED BEFORE CONTACTING A PERSON`\n\n**Provenance:** `source-paraphrase` — summarizes the governance request reproduced by METR.\n\n",
   "title": "An email possibility is put to the board"
 }

@@ -1,0 +1,129 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="800" viewBox="0 0 1200 800"><title>The talk proposes removing a human from the defense loop</title><metadata>{
+  &quot;assets&quot;: {
+    &quot;card&quot;: &quot;&lt;rect x=\&quot;1\&quot; y=\&quot;1\&quot; width=\&quot;98\&quot; height=\&quot;98\&quot; fill=\&quot;#202326\&quot; stroke=\&quot;currentColor\&quot; stroke-width=\&quot;2\&quot;/&gt;&lt;path d=\&quot;M8 13H92M8 27H70M8 36H86M8 45H72M8 65H86M8 74H57\&quot; stroke=\&quot;currentColor\&quot; stroke-width=\&quot;1.5\&quot;/&gt;&quot;,
+    &quot;person-standing&quot;: &quot;&lt;circle cx=\&quot;50\&quot; cy=\&quot;14\&quot; r=\&quot;12\&quot; fill=\&quot;currentColor\&quot;/&gt;&lt;path d=\&quot;M35 30H65L75 65H63L61 98H51L49 70L47 98H36L36 65H24Z\&quot; fill=\&quot;currentColor\&quot;/&gt;&quot;
+  },
+  &quot;palette&quot;: {
+    &quot;amber&quot;: &quot;#A17D45&quot;,
+    &quot;dirty&quot;: &quot;#CEC5B3&quot;,
+    &quot;ink&quot;: &quot;#101214&quot;,
+    &quot;institution&quot;: &quot;#68766B&quot;,
+    &quot;nicotine&quot;: &quot;#AA9571&quot;,
+    &quot;paper&quot;: &quot;#E7E0D0&quot;,
+    &quot;shadow&quot;: &quot;#202326&quot;,
+    &quot;steel&quot;: &quot;#5E737B&quot;
+  },
+  &quot;renderer&quot;: &quot;storyboard-svg-1&quot;,
+  &quot;scene&quot;: {
+    &quot;background&quot;: &quot;ink&quot;,
+    &quot;intent&quot;: &quot;Block the talk proposes removing a human from the defense loop. Keep the scripted evidence boundary and lettering visible. Existing source-derived wording is a visibly labelled paraphrase; quotation disposition remains open.&quot;,
+    &quot;lettering&quot;: [
+      {
+        &quot;box&quot;: [
+          0.58,
+          0.04,
+          0.38,
+          0.31980000000000003
+        ]
+      }
+    ],
+    &quot;lettering_mode&quot;: &quot;manual&quot;,
+    &quot;nodes&quot;: [
+      {
+        &quot;asset&quot;: &quot;card&quot;,
+        &quot;box&quot;: [
+          0.07,
+          0.2936,
+          0.06364,
+          0.348
+        ],
+        &quot;color&quot;: &quot;steel&quot;,
+        &quot;focus&quot;: true,
+        &quot;label&quot;: &quot;FIND&quot;,
+        &quot;label_box&quot;: [
+          0.062000000000000006,
+          0.6476,
+          0.07964,
+          0.085
+        ]
+      },
+      {
+        &quot;asset&quot;: &quot;card&quot;,
+        &quot;box&quot;: [
+          0.156,
+          0.2936,
+          0.06364,
+          0.348
+        ],
+        &quot;color&quot;: &quot;steel&quot;,
+        &quot;focus&quot;: true,
+        &quot;label&quot;: &quot;PATCH&quot;,
+        &quot;label_box&quot;: [
+          0.148,
+          0.6476,
+          0.07964,
+          0.085
+        ]
+      },
+      {
+        &quot;asset&quot;: &quot;person-standing&quot;,
+        &quot;box&quot;: [
+          0.242,
+          0.37214,
+          0.06364,
+          0.19092000000000003
+        ],
+        &quot;color&quot;: &quot;dirty&quot;,
+        &quot;focus&quot;: true,
+        &quot;label&quot;: &quot;HUMAN&quot;,
+        &quot;label_box&quot;: [
+          0.23399999999999999,
+          0.6476,
+          0.07964,
+          0.085
+        ]
+      },
+      {
+        &quot;asset&quot;: &quot;card&quot;,
+        &quot;box&quot;: [
+          0.328,
+          0.2936,
+          0.06364,
+          0.348
+        ],
+        &quot;color&quot;: &quot;steel&quot;,
+        &quot;focus&quot;: true,
+        &quot;label&quot;: &quot;DEPLOY&quot;,
+        &quot;label_box&quot;: [
+          0.32,
+          0.6476,
+          0.07964,
+          0.085
+        ]
+      },
+      {
+        &quot;asset&quot;: &quot;card&quot;,
+        &quot;box&quot;: [
+          0.414,
+          0.2936,
+          0.06364,
+          0.348
+        ],
+        &quot;color&quot;: &quot;steel&quot;,
+        &quot;focus&quot;: true,
+        &quot;label&quot;: &quot;ROLL BACK&quot;,
+        &quot;label_box&quot;: [
+          0.40599999999999997,
+          0.6476,
+          0.07964,
+          0.085
+        ]
+      }
+    ],
+    &quot;reconstructed&quot;: true,
+    &quot;shot&quot;: &quot;row&quot;,
+    &quot;source&quot;: &quot;\n**Frame:** The third argument, and the one the forum was built to surface. A defensive loop is drawn as a closed circuit: find, patch, deploy, roll back. A small human figure stands inside one segment of it. An arrow labeled `REMOVE` points at the figure. The talk&#x27;s stated reason is lettered beside it.\n\n**Screen / system text — CITED, OPENAI AT BLACK HAT — PARAPHRASED:**\n`PARTIAL AUTOMATION FAILS. AUTOMATING DISCOVERY WITHOUT AUTOMATING PATCHING ONLY DROWNS THE ENGINEERS.`\n\n`THE LOOP NEEDS TO BE FULLY AUTOMATED IN ITS END STATE.`\n\n**Provenance:** `documented` — `OAI-BH` 33:17–33:52.\n\n&quot;,
+    &quot;title&quot;: &quot;The talk proposes removing a human from the defense loop&quot;
+  }
+}
+</metadata><rect width="1200" height="800" fill="#101214"/><g transform="translate(84 234.88) scale(0.76368 2.784)" color="#5E737B"><g transform=""><rect x="1" y="1" width="98" height="98" fill="#202326" stroke="currentColor" stroke-width="2"/><path d="M8 13H92M8 27H70M8 36H86M8 45H72M8 65H86M8 74H57" stroke="currentColor" stroke-width="1.5"/></g></g><text x="122.184" y="538.08" text-anchor="middle" fill="#E7E0D0" font-size="20" font-family="sans-serif">FIND</text><g transform="translate(187.2 234.88) scale(0.76368 2.784)" color="#5E737B"><g transform=""><rect x="1" y="1" width="98" height="98" fill="#202326" stroke="currentColor" stroke-width="2"/><path d="M8 13H92M8 27H70M8 36H86M8 45H72M8 65H86M8 74H57" stroke="currentColor" stroke-width="1.5"/></g></g><text x="225.384" y="538.08" text-anchor="middle" fill="#E7E0D0" font-size="20" font-family="sans-serif">PATCH</text><g transform="translate(290.4 297.712) scale(0.76368 1.52736)" color="#CEC5B3"><g transform=""><circle cx="50" cy="14" r="12" fill="currentColor"/><path d="M35 30H65L75 65H63L61 98H51L49 70L47 98H36L36 65H24Z" fill="currentColor"/></g></g><text x="328.584" y="538.08" text-anchor="middle" fill="#E7E0D0" font-size="20" font-family="sans-serif">HUMAN</text><g transform="translate(393.6 234.88) scale(0.76368 2.784)" color="#5E737B"><g transform=""><rect x="1" y="1" width="98" height="98" fill="#202326" stroke="currentColor" stroke-width="2"/><path d="M8 13H92M8 27H70M8 36H86M8 45H72M8 65H86M8 74H57" stroke="currentColor" stroke-width="1.5"/></g></g><text x="431.784" y="538.08" text-anchor="middle" fill="#E7E0D0" font-size="20" font-family="sans-serif">DEPLOY</text><g transform="translate(496.8 234.88) scale(0.76368 2.784)" color="#5E737B"><g transform=""><rect x="1" y="1" width="98" height="98" fill="#202326" stroke="currentColor" stroke-width="2"/><path d="M8 13H92M8 27H70M8 36H86M8 45H72M8 65H86M8 74H57" stroke="currentColor" stroke-width="1.5"/></g></g><text x="534.984" y="538.08" text-anchor="middle" fill="#E7E0D0" font-size="20" font-family="sans-serif">ROLL</text><text x="534.984" y="565.28" text-anchor="middle" fill="#E7E0D0" font-size="20" font-family="sans-serif">BACK</text><rect x="3" y="3" width="1194" height="794" fill="none" stroke="#5E737B" stroke-width="4" stroke-dasharray="18 10"/></svg>

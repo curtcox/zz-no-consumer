@@ -17,7 +17,7 @@
   &quot;renderer&quot;: &quot;storyboard-svg-1&quot;,
   &quot;scene&quot;: {
     &quot;background&quot;: &quot;ink&quot;,
-    &quot;intent&quot;: &quot;Block the talk contrasts offense in motion with defense at rest. Keep the scripted evidence boundary and lettering visible.&quot;,
+    &quot;intent&quot;: &quot;Block the talk contrasts offense in motion with defense at rest. Keep the scripted evidence boundary and lettering visible. Existing source-derived wording is a visibly labelled paraphrase; quotation disposition remains open.&quot;,
     &quot;lettering&quot;: [
       {
         &quot;box&quot;: [
@@ -80,7 +80,7 @@
     ],
     &quot;reconstructed&quot;: false,
     &quot;shot&quot;: &quot;row&quot;,
-    &quot;source&quot;: &quot;\n**Frame:** The second argument. A balance with `OFFENSE` already moving and `DEFENSE` still.\n\n**Screen / system text — CITED, OPENAI AT BLACK HAT:**\n`WE HAVE AN EXISTENCE PROOF THAT OFFENSE CAN BE FULLY AUTOMATED. WE HAVE NO SUCH PROOF FOR DEFENSE.`\n\n`IF MODEL INTELLIGENCE IMPROVEMENTS ARE NOT MORE ADDITIVE TO DEFENSE THAN OFFENSE, EVERY INCREASE IN INTELLIGENCE FAVORS THE ATTACKER.`\n\n**Provenance:** `documented` — `OAI-BH` 31:32 and 36:38.\n\n&quot;,
+    &quot;source&quot;: &quot;\n**Frame:** The second argument. A balance with `OFFENSE` already moving and `DEFENSE` still.\n\n**Screen / system text — CITED, OPENAI AT BLACK HAT (PARAPHRASED):**\n`WE HAVE AN EXISTENCE PROOF THAT OFFENSE CAN BE FULLY AUTOMATED. WE HAVE NO SUCH PROOF FOR DEFENSE.`\n\n`IF MODEL INTELLIGENCE IMPROVEMENTS ARE NOT MORE ADDITIVE TO DEFENSE THAN OFFENSE, EVERY INCREASE IN INTELLIGENCE FAVORS THE ATTACKER.`\n\n**Provenance:** `documented` — `OAI-BH` 31:32 and 36:38.\n\n&quot;,
     &quot;title&quot;: &quot;The talk contrasts offense in motion with defense at rest&quot;
   }
 }

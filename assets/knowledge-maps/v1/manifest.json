@@ -3,25 +3,25 @@
   "renderer_version": "knowledge-map-svg-1.1.0",
   "status": "Design samples — not adopted",
   "warning": "Story revelations through page 039. Provisional editorial models, not measured beliefs.",
-  "input_hash": "abe3aae8d94936f7ffb198c171e92dd27dbdf2dfede5700353ab431de19cb651",
+  "input_hash": "4939b27627578a881707d585888646b85c91c76f76695b55a39b8c39cb3fba71",
   "inputs": {
     "data/knowledge-map-samples.json": "f103354f62b0c8558b31e3770bd5f7d8e3380dd7f1754045707fa5e773ebf665",
     "scripts/knowledge_maps.py": "24638c40b954fbb70b5cafad3ee1a5258d3e5905c6d55d928c726fbd145f3764",
     "design/knowledge-map.md": "df39f302e195d6597005e7eba3f19b0c0784bb57b2c9ccc2a5063f29bfbfdf66",
     "design/palette.md": "d1c7b530278df104e39095c8c702b1f546144085ba17bf324e35bccfe6f82ed5",
     "design/lettering.md": "e5af985d18d8875daac412229a45b2aeb349f841f471d49f24136cf68d9417ef",
-    "content/pages/005.md": "4841abb98dc7c9aae8ab59eb357657f860cee55387e193d8d747fe4ab8dabc2a",
-    "content/pages/007.md": "7614896881a47f67dc5d2967ba5856df530e6ec7aa4495cc17f32143e1064ff6",
-    "content/pages/010.md": "98302d1aa5c69a2c2787171308cb7a810e99f74b58da6f3e1b2d846421ac99fd",
-    "content/pages/011.md": "20ab8cdc986bf5e55a3eca5d0a89bff0f99d00d944dc08e25e49482a1b27d1f0",
-    "content/pages/016.md": "d83e7c4f2202c4bde91a2266d9a03144c3158eb6115eca8291992fdcc1d21f8f",
+    "content/pages/005.md": "dadc6cf0dfda50131415e8a27c087658adf70b61ef605d4323232594cecbf873",
+    "content/pages/007.md": "1f21bb6fdb0966e154c1a862e50f4464f421b89c1ca706d017a28e6f1fae4c77",
+    "content/pages/010.md": "ac19d95d16060220ea25d221d220a76abc57a553f4dbc6440b0d34a8955f9d0a",
+    "content/pages/011.md": "5572deffea628855325c0e339f0f0bed8b6af980ab2850bf298eb32315d1efe3",
+    "content/pages/016.md": "fa04df084a20b2a7b1476302b857b7fe4766388d7468dcf6b8e8eee60551d2c0",
     "content/pages/024.md": "5e269bffa77a9ba1fbc720366d0a116c9bcfe73e13bcb3a7f1097e7f8e067431",
     "content/pages/025.md": "e33821c5d2f17cd5aa9571ad44e71809ebb3931dfa5880fc5f34f271a3bc5375",
     "content/pages/026.md": "d20ffe37551b67c8e0680e9fe843e9819c0fcf87583f8258a373e062ca058ce5",
     "content/pages/032.md": "5bde82ca666743421769437958082d8ea43e7383346c181f3ef208b1327973b2",
     "content/pages/035.md": "2fa9c5ef3e263c45a1ee6ea87bf21a1cff3e53c731f699cdab720de72fa2cfc3",
-    "content/pages/038.md": "a950574889ba382e18ba6fbb425158daf03c031922c197becf7aa66faea850ee",
-    "content/pages/039.md": "5d21d4142945de7ad7ba9a28c67650c3515ad3666bf918c67f3ac7b08686f8d2"
+    "content/pages/038.md": "12cf5b8f92871f72dea427711922fd74f947253e0f66b0f9eec790f34ec1a9a0",
+    "content/pages/039.md": "20ba9923ded62c28f1b886738baa30a702dbfe35a8ff0dadf2c3d3f70b4c0543"
   },
   "samples": [
     {

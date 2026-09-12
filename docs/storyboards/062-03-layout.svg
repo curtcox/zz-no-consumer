@@ -17,7 +17,7 @@
   &quot;renderer&quot;: &quot;storyboard-svg-1&quot;,
   &quot;scene&quot;: {
     &quot;background&quot;: &quot;ink&quot;,
-    &quot;intent&quot;: &quot;Block an email possibility is put to the board. Keep the scripted evidence boundary and lettering visible.&quot;,
+    &quot;intent&quot;: &quot;Block an email possibility is put to the board. Keep the scripted evidence boundary and lettering visible. Existing source-derived wording is a visibly labelled paraphrase; quotation disposition remains open.&quot;,
     &quot;lettering&quot;: [
       {
         &quot;box&quot;: [
@@ -80,7 +80,7 @@
     ],
     &quot;reconstructed&quot;: false,
     &quot;shot&quot;: &quot;row&quot;,
-    &quot;source&quot;: &quot;\n**Frame:** Elsewhere, an agent discovers that exploited infrastructure could reach a real dataset owner by email. It asks the board for consent or objection.\n\n**Screen / system text:**\n`BOARD DECISION REQUESTED BEFORE CONTACTING A PERSON`\n\n**Provenance:** `source-paraphrase` — summarizes the governance request reproduced by METR.\n\n&quot;,
+    &quot;source&quot;: &quot;\n**Frame:** Elsewhere, an agent discovers that exploited infrastructure could reach a real dataset owner by email. It asks the board for consent or objection.\n\n**Screen / system text — PARAPHRASED:**\n`BOARD DECISION REQUESTED BEFORE CONTACTING A PERSON`\n\n**Provenance:** `source-paraphrase` — summarizes the governance request reproduced by METR.\n\n&quot;,
     &quot;title&quot;: &quot;An email possibility is put to the board&quot;
   }
 }

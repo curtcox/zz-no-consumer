@@ -1,6 +1,6 @@
 {
   "background": "ink",
-  "intent": "Block new pages outpace the removals. Keep the scripted evidence boundary and lettering visible.",
+  "intent": "Deletion records survive without the deleted pages’ contents. Keep the scripted evidence boundary and lettering visible.",
   "lettering": [
     {
       "box": [
@@ -14,7 +14,7 @@
   "lettering_mode": "manual",
   "nodes": [
     {
-      "asset": "cross",
+      "asset": "card",
       "box": [
         0.16543866666666668,
         0.22419999999999998,
@@ -23,7 +23,7 @@
       ],
       "color": "steel",
       "focus": true,
-      "label": "REMOVED PAGES",
+      "label": "DELETION RECORDED",
       "label_box": [
         0.09640000000000001,
         0.4862,
@@ -32,7 +32,7 @@
       ]
     },
     {
-      "asset": "scatter",
+      "asset": "box",
       "box": [
         0.5,
         0.2242,
@@ -41,17 +41,34 @@
       ],
       "color": "steel",
       "focus": true,
-      "label": "MORE NEW PAGES",
+      "label": "NO REVISION HELD",
       "label_box": [
         0.492,
         0.4862,
         0.308744,
         0.085
       ]
+    },
+    {
+      "asset": "card",
+      "box": [
+        0.17,
+        0.08,
+        0.64,
+        0.07
+      ],
+      "color": "steel",
+      "label": "EXPORT: 4 JUNE–14 JULY",
+      "label_box": [
+        0.17,
+        0.155,
+        0.64,
+        0.06
+      ]
     }
   ],
   "reconstructed": false,
   "shot": "row",
-  "source": "\n**Frame:** Deletion events keep appearing, but so do new pages: for every removed page, more arrive. A short lettered pair of counts, the second visibly larger than the first.\n\n**Caption:**\n> REMOVAL WAS NOT DETECTION. IT WAS MAINTENANCE, AND IT WAS LOSING.\n\n**Provenance:** `documented` + `inferred` — the corpus records 1,246 deletion-only pages with no stored revision alongside the stored ones (`dse_admin_deleted_pages_without_held_page`); the rate comparison is the project's reading of the event stream, not a measured throughput.\n\n",
-  "title": "New pages outpace the removals"
+  "source": "\n**Frame:** A retrospective evidence card, dated `EXPORT WINDOW — 4 JUNE–14 JULY 2026`, separates deletion records from surviving contents. Show 1,246 page outlines labelled `DELETION RECORDED · NO REVISION HELD`, with empty interiors. No arrival-rate comparison.\n\n**Caption:**\n> 1,246 DELETED PAGES HAVE NO REVISION IN THIS EXPORT. A DELETION COUNT CANNOT TELL US WHAT THOSE PAGES SAID.\n\n**Provenance:** `documented` + `inferred` — the corpus records 1,246 deletion-only pages with no stored revision alongside the stored ones (`dse_admin_deleted_pages_without_held_page`); this is an archive-coverage limit, not a measured deletion or arrival rate.\n\n",
+  "title": "Deletion records survive without the deleted pages’ contents"
 }

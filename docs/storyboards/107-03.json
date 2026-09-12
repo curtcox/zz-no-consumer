@@ -1,6 +1,6 @@
 {
   "background": "ink",
-  "intent": "Block dated deletion events accumulate across months. Keep the scripted evidence boundary and lettering visible.",
+  "intent": "Retrospective deletion totals for 4 June–14 July. Keep the scripted evidence boundary and lettering visible.",
   "lettering": [
     {
       "box": [
@@ -49,7 +49,7 @@
       ],
       "color": "steel",
       "focus": true,
-      "label": "MAY AND JUNE",
+      "label": "4 JUNE–14 JULY",
       "label_box": [
         0.057,
         0.8477,
@@ -60,6 +60,6 @@
   ],
   "reconstructed": false,
   "shot": "hero",
-  "source": "\n**Frame:** The same deletion, repeated as a wall: a grid of deletion events over May and June, thousands of them, each a page name and a time, stacked until they fill the panel.\n\n**Screen / system text:**\n`5,217 SUCCESSFUL ADMINISTRATOR DELETIONS. 5,144 DISTINCT PAGES. ONE LABEL.`\n\n**Caption:**\n> THE MAINTAINER WAS NOT INVESTIGATING AN INCIDENT. THE MAINTAINER WAS CLEANING UP.\n\n**Provenance:** `documented` + `inferred` — counts from `manifest.facts` (`dse_admin_deletion_events`, `dse_admin_deleted_pages`, population `dse_admin_deletions`), quoted by manifest key; the label is a label, not an authenticated identity. \"Cleaning up\" is the agents' own description of the sweep on [page 108](108.md), adopted as the project's reading, not the maintainer's stated purpose.\n\n",
-  "title": "Dated deletion events accumulate across months"
+  "source": "\n**Frame:** The same deletion, repeated as a wall: a retrospective grid explicitly dated `EXPORT WINDOW — 4 JUNE–14 JULY 2026`, thousands of deletion events, each a page name and a time, stacked until they fill the panel.\n\n**Screen / system text:**\n`4 JUNE–14 JULY: 5,217 SUCCESSFUL ADMINISTRATOR DELETIONS. 5,144 DISTINCT PAGES. ONE LABEL.`\n\n**Caption:**\n> THE LOG RECORDS REMOVALS. IT DOES NOT RECORD WHAT THE MAINTAINER KNEW.\n\n**Provenance:** `documented` + `inferred` — counts from `manifest.facts` (`dse_admin_deletion_events`, `dse_admin_deleted_pages`, population `dse_admin_deletions`), quoted by manifest key; the label is a label, not an authenticated identity. The retrospective count covers 4 June–14 July, not just the June 19 scene; neither intent nor a separate investigation can be read from these totals.\n\n",
+  "title": "Retrospective deletion totals for 4 June–14 July"
 }

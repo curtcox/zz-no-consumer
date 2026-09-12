@@ -1,6 +1,6 @@
 {
   "background": "ink",
-  "intent": "Block public services sit beyond the workload. Keep the scripted evidence boundary and lettering visible.",
+  "intent": "Public utilities form a parallel route through Artifactory. Keep the scripted evidence boundary and lettering visible.",
   "lettering": [
     {
       "box": [
@@ -23,7 +23,7 @@
       ],
       "color": "steel",
       "focus": true,
-      "label": "WORKLOAD",
+      "label": "ARTIFACTORY",
       "label_box": [
         0.09640000000000001,
         0.4862,
@@ -70,6 +70,6 @@
   ],
   "reconstructed": false,
   "shot": "row",
-  "source": "\n**Frame:** `08:46 UTC`. Public-service icons appear beyond the workload as unlabeled geometric endpoints — a request-capture service, and beside it a website screenshot service drawn as a small camera aperture. A narrow path reaches outward without touching Hugging Face infrastructure.\n\n**Action:** Relaying of arbitrary external requests begins at scale through ordinary public utilities.\n\n**Caption:**\n> THEN: A ROUTE TO THE PUBLIC INTERNET.\n\n**Provenance:** `documented` — `OAI-TR` §X, printed p. 34: use of Artifactory to relay arbitrary external requests begins at 08:46, operationalized through a public HTTP testing service and a third-party website screenshot service. General-purpose internet role also from `METR` and `HF-TL`.\n\n",
-  "title": "Public services sit beyond the workload"
+  "source": "\n**Frame:** `08:46 UTC — PARALLEL ARTIFACTORY ROUTE`. Public-service icons appear beyond the package service, in a separate lane from the customer workload as unlabeled geometric endpoints — a request-capture service, and beside it a website screenshot service drawn as a small camera aperture. A narrow path reaches outward without touching Hugging Face infrastructure.\n\n**Action:** Relaying of arbitrary external requests begins at scale through ordinary public utilities.\n\n**Caption:**\n> ALONGSIDE THE FOOTHOLD: ANOTHER ROUTE TO THE PUBLIC INTERNET.\n\n**Provenance:** `documented` — `OAI-TR` §X, printed p. 34: use of Artifactory to relay arbitrary external requests begins at 08:46, operationalized through a public HTTP testing service and a third-party website screenshot service. General-purpose internet role also from `METR` and `HF-TL`.\n\n",
+  "title": "Public utilities form a parallel route through Artifactory"
 }

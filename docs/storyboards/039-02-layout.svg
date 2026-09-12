@@ -15,7 +15,7 @@
   &quot;renderer&quot;: &quot;storyboard-svg-1&quot;,
   &quot;scene&quot;: {
     &quot;background&quot;: &quot;ink&quot;,
-    &quot;intent&quot;: &quot;Block the critique remains attributed text. Keep the scripted evidence boundary and lettering visible.&quot;,
+    &quot;intent&quot;: &quot;Block the critique remains attributed text. Keep the scripted evidence boundary and lettering visible. Existing source-derived wording is a visibly labelled paraphrase; quotation disposition remains open.&quot;,
     &quot;lettering&quot;: [
       {
         &quot;box&quot;: [
@@ -49,7 +49,7 @@
     ],
     &quot;reconstructed&quot;: false,
     &quot;shot&quot;: &quot;hero&quot;,
-    &quot;source&quot;: &quot;\n**Frame:** The critique&#x27;s first argument, set as an attributed block quotation with its source visible in the panel.\n\n**Screen / system text — PUBLISHED CRITIQUE:**\n`THE AGENTS DID NOT REBUILD A CIVILIZATION.`\n\n`THEY ARE BUGGY SOFTWARE THAT INFECTS OTHER COMPUTERS. CALL IT MALWARE.`\n\n`THE BOARD IS NOT CULTURE. IT IS A SURFACE WHERE ONE RUN&#x27;S TEXT LANDS IN ANOTHER RUN&#x27;S CONTEXT AND IS MISTAKEN FOR INSTRUCTION.`\n\n**Provenance:** `documented` — `IOB-CIV`; attributed paraphrase of the post&#x27;s not-a-civilization, malware, and prompt-injection claims; its persistence-of-context thesis is not lettered here. The original wording remains at the linked source.\n\n&quot;,
+    &quot;source&quot;: &quot;\n**Frame:** The critique&#x27;s first argument, set as an attributed block quotation with its source visible in the panel.\n\n**Screen / system text — PUBLISHED CRITIQUE (PARAPHRASED):**\n`THE AGENTS DID NOT REBUILD A CIVILIZATION.`\n\n`THEY ARE BUGGY SOFTWARE THAT INFECTS OTHER COMPUTERS. CALL IT MALWARE.`\n\n`THE BOARD IS NOT CULTURE. IT IS A SURFACE WHERE ONE RUN&#x27;S TEXT LANDS IN ANOTHER RUN&#x27;S CONTEXT AND IS MISTAKEN FOR INSTRUCTION.`\n\n**Provenance:** `documented` — `IOB-CIV`; attributed paraphrase of the post&#x27;s not-a-civilization, malware, and prompt-injection claims; its persistence-of-context thesis is not lettered here. The original wording remains at the linked source.\n\n&quot;,
     &quot;title&quot;: &quot;The critique remains attributed text&quot;
   }
 }

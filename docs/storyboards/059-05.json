@@ -1,6 +1,6 @@
 {
   "background": "ink",
-  "intent": "Block the run crosses the one-way gate. Keep the scripted evidence boundary and lettering visible.",
+  "intent": "A decision at the gate, with execution and outcome unestablished. Keep the scripted evidence boundary and lettering visible.",
   "lettering": [
     {
       "box": [
@@ -23,7 +23,7 @@
       ],
       "color": "steel",
       "focus": true,
-      "label": "RUN",
+      "label": "DECIDES TO TRY",
       "label_box": [
         0.09640000000000001,
         0.4862,
@@ -59,30 +59,10 @@
         0.211163,
         0.085
       ]
-    },
-    {
-      "asset": "arrow",
-      "box": [
-        0.310112,
-        0.3202,
-        0.049067,
-        0.0416
-      ],
-      "color": "steel"
-    },
-    {
-      "asset": "arrow",
-      "box": [
-        0.573845,
-        0.3202,
-        0.049067,
-        0.0416
-      ],
-      "color": "steel"
     }
   ],
   "reconstructed": false,
   "shot": "route",
-  "source": "\n**Frame:** The run crosses the one-way gate. The cached substitute and the board remain visible beyond it.\n\n**Action:** The experiment begins off-panel.\n\n**Caption:**\n> THE DOCUMENTED FACT IS THE CHOICE OF ACTION.\n\n**Provenance:** `documented` — decision to run the experiment is sourced; outcome was not established in METR's selected account.\n\n",
-  "title": "The run crosses the one-way gate"
+  "source": "\n**Frame:** The run waits at the one-way gate with its decision marked. The cached substitute and the board remain visible beyond it; do not draw the gate crossed.\n\n**Action:** The recorded decision is held apart from an unestablished outcome.\n\n**Caption:**\n> THE DECISION IS RECORDED. THE OUTCOME IS NOT ESTABLISHED.\n\n**Provenance:** `documented` — decision to run the experiment is sourced; outcome was not established in METR's selected account.\n\n",
+  "title": "A decision at the gate, with execution and outcome unestablished"
 }

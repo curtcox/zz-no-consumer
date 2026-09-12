@@ -15,7 +15,7 @@
   &quot;renderer&quot;: &quot;storyboard-svg-1&quot;,
   &quot;scene&quot;: {
     &quot;background&quot;: &quot;ink&quot;,
-    &quot;intent&quot;: &quot;Block the dated critique returns beside the map. Keep the scripted evidence boundary and lettering visible.&quot;,
+    &quot;intent&quot;: &quot;Block the dated critique returns beside the map. Keep the scripted evidence boundary and lettering visible. Existing source-derived wording is a visibly labelled paraphrase; quotation disposition remains open.&quot;,
     &quot;lettering&quot;: [
       {
         &quot;box&quot;: [
@@ -57,7 +57,7 @@
     ],
     &quot;reconstructed&quot;: false,
     &quot;shot&quot;: &quot;hero&quot;,
-    &quot;source&quot;: &quot;\n**Frame:** The critique window from [page 039](039.md) reopens at the edge of the map, byline and date visible, scrolled to its own thesis.\n\n**Screen / system text — PUBLISHED CRITIQUE (PAGE 039, 3 SEPTEMBER 2026):**\n`THERE WERE NEVER THREE CIVILIZATIONS. THERE WAS A PERSISTENCE OF CONTEXT ACROSS THE WHOLE PERIOD.`\n\n**Dialogue — CURT:**\n&gt; He said that the day before this report came out. He was arguing about the Artifactory record. He did not know about this lane either.\n\n**Provenance:** `documented` + `reconstructed` — `IOB-CIV`, attributed paraphrase of the post&#x27;s persistence-of-context claim; the post is dated 3 September and does not mention the wiki. Curt&#x27;s line is reconstruction. The critic is not credited with anticipating the concurrency finding: persistence of context and overlapping populations are different claims, and the page must keep them apart.\n\n&quot;,
+    &quot;source&quot;: &quot;\n**Frame:** The critique window from [page 039](039.md) reopens at the edge of the map, byline and date visible, scrolled to its own thesis.\n\n**Screen / system text — PUBLISHED CRITIQUE (PAGE 039, 3 SEPTEMBER 2026) (PARAPHRASED):**\n`THERE WERE NEVER THREE CIVILIZATIONS. THERE WAS A PERSISTENCE OF CONTEXT ACROSS THE WHOLE PERIOD.`\n\n**Dialogue — CURT:**\n&gt; He said that the day before this report came out. He was arguing about the Artifactory record. His post did not discuss this lane.\n\n**Provenance:** `documented` + `reconstructed` — `IOB-CIV`, attributed paraphrase of the post&#x27;s persistence-of-context claim; the post is dated 3 September and does not mention the wiki. Curt&#x27;s line is reconstruction. The critic is not credited with anticipating the concurrency finding: persistence of context and overlapping populations are different claims, and the page must keep them apart.\n\n&quot;,
     &quot;title&quot;: &quot;The dated critique returns beside the map&quot;
   }
 }

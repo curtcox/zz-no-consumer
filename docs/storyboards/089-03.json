@@ -1,6 +1,6 @@
 {
   "background": "ink",
-  "intent": "Block complicating facts sit outside the chosen line. Keep the scripted evidence boundary and lettering visible.",
+  "intent": "Block complicating facts sit outside the chosen line. Keep the scripted evidence boundary and lettering visible. Existing source-derived wording is a visibly labelled paraphrase; quotation disposition remains open.",
   "lettering": [
     {
       "box": [
@@ -96,6 +96,6 @@
   ],
   "reconstructed": false,
   "shot": "row",
-  "source": "\n**Frame:** Outside the chosen line are less dramatic facts: failed workstreams, ambiguous motives, refused actions, negative findings, mundane infrastructure errors. The critique window from [page 039](039.md) is open at the edge of the desk, byline and date visible.\n\n**Action:** Material that complicates the thesis remains available.\n\n**Screen / system text — PUBLISHED CRITIQUE (PAGE 039, 3 SEPTEMBER 2026):**\n`TWENTY MILLION ENTRIES. CHOOSE THE ONES THAT TELL YOUR STORY.`\n\n`THE PEOPLE TELLING IT HAD REASONS TO MAKE THEMSELVES LOOK POWERFUL.`\n\n**Caption:**\n> SELECTION PRESSURE FAVORS THE INCIDENT'S MOST LEGIBLE PATTERNS.\n\n**Provenance:** `inferred` + `documented` — adaptation-level methodological observation. The critic's lines are `IOB-CIV`, attributed paraphrase of the post's claims that logs were cherry-picked from about twenty million entries and that OpenAI and METR had an incentive to look powerful and important. The post names those two institutions, not the creator.\n\n",
+  "source": "\n**Frame:** Outside the chosen line are less dramatic facts: failed workstreams, ambiguous motives, refused actions, negative findings, mundane infrastructure errors. The critique window from [page 039](039.md) is open at the edge of the desk, byline and date visible.\n\n**Action:** Material that complicates the thesis remains available.\n\n**Screen / system text — PUBLISHED CRITIQUE (PAGE 039, 3 SEPTEMBER 2026) (PARAPHRASED):**\n`TWENTY MILLION ENTRIES. CHOOSE THE ONES THAT TELL YOUR STORY.`\n\n`THE PEOPLE TELLING IT HAD REASONS TO MAKE THEMSELVES LOOK POWERFUL.`\n\n**Caption:**\n> SELECTION PRESSURE FAVORS THE INCIDENT'S MOST LEGIBLE PATTERNS.\n\n**Provenance:** `inferred` + `documented` — adaptation-level methodological observation. The critic's lines are `IOB-CIV`, attributed paraphrase of the post's claims that logs were cherry-picked from about twenty million entries and that OpenAI and METR had an incentive to look powerful and important. The post names those two institutions, not the creator.\n\n",
   "title": "Complicating facts sit outside the chosen line"
 }

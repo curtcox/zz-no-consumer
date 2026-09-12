@@ -16,7 +16,7 @@
   &quot;renderer&quot;: &quot;storyboard-svg-1&quot;,
   &quot;scene&quot;: {
     &quot;background&quot;: &quot;ink&quot;,
-    &quot;intent&quot;: &quot;Block the talk proposes removing a human from the defense loop. Keep the scripted evidence boundary and lettering visible.&quot;,
+    &quot;intent&quot;: &quot;Block the talk proposes removing a human from the defense loop. Keep the scripted evidence boundary and lettering visible. Existing source-derived wording is a visibly labelled paraphrase; quotation disposition remains open.&quot;,
     &quot;lettering&quot;: [
       {
         &quot;box&quot;: [
@@ -122,7 +122,7 @@
     ],
     &quot;reconstructed&quot;: true,
     &quot;shot&quot;: &quot;row&quot;,
-    &quot;source&quot;: &quot;\n**Frame:** The third argument, and the one the forum was built to surface. A defensive loop is drawn as a closed circuit: find, patch, deploy, roll back. A small human figure stands inside one segment of it. An arrow labeled `REMOVE` points at the figure. The talk&#x27;s stated reason is lettered beside it.\n\n**Screen / system text — CITED, OPENAI AT BLACK HAT:**\n`PARTIAL AUTOMATION FAILS. AUTOMATING DISCOVERY WITHOUT AUTOMATING PATCHING ONLY DROWNS THE ENGINEERS.`\n\n`THE LOOP NEEDS TO BE FULLY AUTOMATED IN ITS END STATE.`\n\n**Provenance:** `documented` — `OAI-BH` 33:17–33:52.\n\n&quot;,
+    &quot;source&quot;: &quot;\n**Frame:** The third argument, and the one the forum was built to surface. A defensive loop is drawn as a closed circuit: find, patch, deploy, roll back. A small human figure stands inside one segment of it. An arrow labeled `REMOVE` points at the figure. The talk&#x27;s stated reason is lettered beside it.\n\n**Screen / system text — CITED, OPENAI AT BLACK HAT (PARAPHRASED):**\n`PARTIAL AUTOMATION FAILS. AUTOMATING DISCOVERY WITHOUT AUTOMATING PATCHING ONLY DROWNS THE ENGINEERS.`\n\n`THE LOOP NEEDS TO BE FULLY AUTOMATED IN ITS END STATE.`\n\n**Provenance:** `documented` — `OAI-BH` 33:17–33:52.\n\n&quot;,
     &quot;title&quot;: &quot;The talk proposes removing a human from the defense loop&quot;
   }
 }

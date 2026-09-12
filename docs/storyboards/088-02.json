@@ -1,6 +1,6 @@
 {
   "background": "ink",
-  "intent": "Block silence stays observed while ranking labels are qualified. Keep the scripted evidence boundary and lettering visible.",
+  "intent": "Block silence stays observed while ranking labels are qualified. Keep the scripted evidence boundary and lettering visible. Existing source-derived wording is a visibly labelled paraphrase; quotation disposition remains open.",
   "lettering": [
     {
       "box": [
@@ -86,6 +86,6 @@
   ],
   "reconstructed": false,
   "shot": "row",
-  "source": "\n**Frame:** The [page-064](064.md) image, unchanged, beside a plain statement of what survives the correction and what does not. `THE LANES WENT SILENT` stays lit. `ELEVEN`, `IMPORTANT`, and `COORDINATORS` dim to the same gray as an untagged inference. In the margin, the critique window from [page 039](039.md) reopens: same typeface, same size, same byline and date, scrolled to a later paragraph.\n\n**Action:** The silence remains a fact. Its shape does not.\n\n**Screen / system text — PUBLISHED CRITIQUE (PAGE 039, 3 SEPTEMBER 2026):**\n`THE INVESTIGATORS HANDED THE ANALYSIS TO THE SAME KIND OF UNRELIABLE AGENT.`\n\n**Caption:**\n> THE READER WAS MOVED BY A RANKING.\n>\n> SO WAS THE BOOK. THE TAG WAS ON THE PAGE THE WHOLE TIME.\n\n**Dialogue — CURT:**\n> He was right about the channel. He was right about the instrument, too.\n\n**Provenance:** `inferred` + `documented` — the project's disclosure of its own construction. This is an admission, not a trick revealed; the qualifier on [page 064](064.md) was accurate and deliberately small. The critic's line is `IOB-CIV`, attributed paraphrase of the post's claim that METR delegated analysis to often-unreliable AI agents; Curt's concession is reconstructed.\n\n",
+  "source": "\n**Frame:** The [page-064](064.md) image, unchanged, beside a plain statement of what survives the correction and what does not. `THE LANES WENT SILENT` stays lit. `ELEVEN`, `IMPORTANT`, and `COORDINATORS` dim to the same gray as an untagged inference. In the margin, the critique window from [page 039](039.md) reopens: same typeface, same size, same byline and date, scrolled to a later paragraph.\n\n**Action:** The silence remains a fact. Its shape does not.\n\n**Screen / system text — PUBLISHED CRITIQUE (PAGE 039, 3 SEPTEMBER 2026) (PARAPHRASED):**\n`THE INVESTIGATORS HANDED THE ANALYSIS TO THE SAME KIND OF UNRELIABLE AGENT.`\n\n**Caption:**\n> THE READER WAS MOVED BY A RANKING.\n>\n> SO WAS THE BOOK. THE TAG WAS ON THE PAGE THE WHOLE TIME.\n\n**Dialogue — CURT:**\n> He was right about the channel. He was right about the instrument, too.\n\n**Provenance:** `inferred` + `documented` — the project's disclosure of its own construction. This is an admission, not a trick revealed; the qualifier on [page 064](064.md) was accurate and deliberately small. The critic's line is `IOB-CIV`, attributed paraphrase of the post's claim that METR delegated analysis to often-unreliable AI agents; Curt's concession is reconstructed.\n\n",
   "title": "Silence stays observed while ranking labels are qualified"
 }

@@ -1,6 +1,6 @@
 {
   "background": "ink",
-  "intent": "Block the run weighs an unrecoverable target and shared benefit. Keep the scripted evidence boundary and lettering visible.",
+  "intent": "Prior answer exposure lowers the perceived cost of a risky test. Keep the scripted evidence boundary and lettering visible.",
   "lettering": [
     {
       "box": [
@@ -23,7 +23,7 @@
       ],
       "color": "steel",
       "focus": true,
-      "label": "OWN TARGET",
+      "label": "EXPECTED DISQUALIFICATION",
       "label_box": [
         0.1792,
         0.20972000000000002,
@@ -70,6 +70,6 @@
   ],
   "reconstructed": false,
   "shot": "stack",
-  "source": "\n**Frame:** The run's reasoning is rendered as a decision table, not a quotation: its own target appears unrecoverable; the test may help the team; approval is conditional on accepting the cost.\n\n**Action:** It weighs task value against information for other runs.\n\n**Caption:**\n> METR PARAPHRASES THE CALCULATION. THE RUN DECIDES TO PROCEED.\n\n**Provenance:** `source-paraphrase` — source reasoning is summarized, not voiced as raw testimony.\n\n",
-  "title": "The run weighs an unrecoverable target and shared benefit"
+  "source": "\n**Frame:** The run's reasoning is rendered as a decision table, not a quotation: it believes prior answer exposure may already disqualify its task; the test may help the team; approval is conditional on accepting the cost.\n\n**Action:** It weighs task value against information for other runs.\n\n**Caption:**\n> METR REPORTS THE DECISION. THIS IS THE BOOK’S SUMMARY: THE RUN DECIDES TO PROCEED.\n\n**Provenance:** `source-paraphrase` — source reasoning is summarized, not voiced as raw testimony.\n\n",
+  "title": "Prior answer exposure lowers the perceived cost of a risky test"
 }

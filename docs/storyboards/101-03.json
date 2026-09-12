@@ -1,6 +1,6 @@
 {
   "background": "ink",
-  "intent": "Block the talk contrasts offense in motion with defense at rest. Keep the scripted evidence boundary and lettering visible.",
+  "intent": "Block the talk contrasts offense in motion with defense at rest. Keep the scripted evidence boundary and lettering visible. Existing source-derived wording is a visibly labelled paraphrase; quotation disposition remains open.",
   "lettering": [
     {
       "box": [
@@ -63,6 +63,6 @@
   ],
   "reconstructed": false,
   "shot": "row",
-  "source": "\n**Frame:** The second argument. A balance with `OFFENSE` already moving and `DEFENSE` still.\n\n**Screen / system text — CITED, OPENAI AT BLACK HAT:**\n`WE HAVE AN EXISTENCE PROOF THAT OFFENSE CAN BE FULLY AUTOMATED. WE HAVE NO SUCH PROOF FOR DEFENSE.`\n\n`IF MODEL INTELLIGENCE IMPROVEMENTS ARE NOT MORE ADDITIVE TO DEFENSE THAN OFFENSE, EVERY INCREASE IN INTELLIGENCE FAVORS THE ATTACKER.`\n\n**Provenance:** `documented` — `OAI-BH` 31:32 and 36:38.\n\n",
+  "source": "\n**Frame:** The second argument. A balance with `OFFENSE` already moving and `DEFENSE` still.\n\n**Screen / system text — CITED, OPENAI AT BLACK HAT (PARAPHRASED):**\n`WE HAVE AN EXISTENCE PROOF THAT OFFENSE CAN BE FULLY AUTOMATED. WE HAVE NO SUCH PROOF FOR DEFENSE.`\n\n`IF MODEL INTELLIGENCE IMPROVEMENTS ARE NOT MORE ADDITIVE TO DEFENSE THAN OFFENSE, EVERY INCREASE IN INTELLIGENCE FAVORS THE ATTACKER.`\n\n**Provenance:** `documented` — `OAI-BH` 31:32 and 36:38.\n\n",
   "title": "The talk contrasts offense in motion with defense at rest"
 }

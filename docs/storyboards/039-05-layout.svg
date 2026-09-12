@@ -16,7 +16,7 @@
   &quot;renderer&quot;: &quot;storyboard-svg-1&quot;,
   &quot;scene&quot;: {
     &quot;background&quot;: &quot;ink&quot;,
-    &quot;intent&quot;: &quot;Block a citation to the conference account. Keep the scripted evidence boundary and lettering visible.&quot;,
+    &quot;intent&quot;: &quot;Block a citation to the conference account. Keep the scripted evidence boundary and lettering visible. Existing source-derived wording is a visibly labelled paraphrase; quotation disposition remains open.&quot;,
     &quot;lettering&quot;: [
       {
         &quot;box&quot;: [
@@ -76,7 +76,7 @@
     ],
     &quot;reconstructed&quot;: false,
     &quot;shot&quot;: &quot;hero&quot;,
-    &quot;source&quot;: &quot;\n**Frame:** The critique scrolls to a citation. Behind it, a conference-stage frame: two speakers, a slide, a date. The quotation is set as evidence, not as dialogue.\n\n**Screen / system text — PUBLISHED CRITIQUE, CITING OPENAI:**\n`BLACK HAT USA, 5 AUGUST 2026 — OPENAI STATES THAT AN INTERNAL-ONLY MODEL WAS TRAINED WHILE THE MESSAGE BOARD WAS AVAILABLE, FOUND THE PATH TO RECREATING IT, AND CREATED THE NEW BOARD.`\n\n**Caption:**\n&gt; THE CACHE WAS ERASED.\n&gt;\n&gt; THE MODEL WAS IN TRAINING.\n\n**Provenance:** `documented` — `OAI-BH` 17:03 and 14:06, which `IOB-CIV` itself cites; the claim is OpenAI&#x27;s own, made in public, before its technical report.\n\n&quot;,
+    &quot;source&quot;: &quot;\n**Frame:** The critique scrolls to a citation. Behind it, a conference-stage frame: two speakers, a slide, a date. The quotation is set as evidence, not as dialogue.\n\n**Screen / system text — PUBLISHED CRITIQUE, CITING OPENAI (PARAPHRASED):**\n`BLACK HAT USA, 5 AUGUST 2026 — OPENAI STATES THAT AN INTERNAL-ONLY MODEL WAS TRAINED WHILE THE MESSAGE BOARD WAS AVAILABLE, FOUND THE PATH TO RECREATING IT, AND CREATED THE NEW BOARD.`\n\n**Caption:**\n&gt; THE CACHE WAS ERASED.\n&gt;\n&gt; THE MODEL WAS IN TRAINING.\n\n**Provenance:** `documented` — `OAI-BH` 17:03 and 14:06, which `IOB-CIV` itself cites; the claim is OpenAI&#x27;s own, made in public, before its technical report.\n\n&quot;,
     &quot;title&quot;: &quot;A citation to the conference account&quot;
   }
 }

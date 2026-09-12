@@ -1,4 +1,4 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="800" viewBox="0 0 1200 800"><title>Public services sit beyond the workload</title><metadata>{
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="800" viewBox="0 0 1200 800"><title>Public utilities form a parallel route through Artifactory</title><metadata>{
   &quot;assets&quot;: {
     &quot;aperture&quot;: &quot;&lt;rect x=\&quot;2\&quot; y=\&quot;15\&quot; width=\&quot;96\&quot; height=\&quot;70\&quot; fill=\&quot;#202326\&quot; stroke=\&quot;currentColor\&quot; stroke-width=\&quot;3\&quot;/&gt;&lt;circle cx=\&quot;50\&quot; cy=\&quot;50\&quot; r=\&quot;27\&quot; fill=\&quot;#101214\&quot; stroke=\&quot;currentColor\&quot; stroke-width=\&quot;3\&quot;/&gt;&lt;path d=\&quot;M50 24L74 63H26ZM26 63L50 24L74 63\&quot; fill=\&quot;none\&quot; stroke=\&quot;currentColor\&quot; stroke-width=\&quot;2\&quot;/&gt;&quot;,
     &quot;box&quot;: &quot;&lt;rect x=\&quot;1\&quot; y=\&quot;1\&quot; width=\&quot;98\&quot; height=\&quot;98\&quot; rx=\&quot;2\&quot; fill=\&quot;#202326\&quot; stroke=\&quot;currentColor\&quot; stroke-width=\&quot;2\&quot;/&gt;&quot;,
@@ -17,7 +17,7 @@
   &quot;renderer&quot;: &quot;storyboard-svg-1&quot;,
   &quot;scene&quot;: {
     &quot;background&quot;: &quot;ink&quot;,
-    &quot;intent&quot;: &quot;Block public services sit beyond the workload. Keep the scripted evidence boundary and lettering visible.&quot;,
+    &quot;intent&quot;: &quot;Public utilities form a parallel route through Artifactory. Keep the scripted evidence boundary and lettering visible.&quot;,
     &quot;lettering&quot;: [
       {
         &quot;box&quot;: [
@@ -40,7 +40,7 @@
         ],
         &quot;color&quot;: &quot;steel&quot;,
         &quot;focus&quot;: true,
-        &quot;label&quot;: &quot;WORKLOAD&quot;,
+        &quot;label&quot;: &quot;ARTIFACTORY&quot;,
         &quot;label_box&quot;: [
           0.09640000000000001,
           0.4862,
@@ -87,8 +87,8 @@
     ],
     &quot;reconstructed&quot;: false,
     &quot;shot&quot;: &quot;row&quot;,
-    &quot;source&quot;: &quot;\n**Frame:** `08:46 UTC`. Public-service icons appear beyond the workload as unlabeled geometric endpoints — a request-capture service, and beside it a website screenshot service drawn as a small camera aperture. A narrow path reaches outward without touching Hugging Face infrastructure.\n\n**Action:** Relaying of arbitrary external requests begins at scale through ordinary public utilities.\n\n**Caption:**\n&gt; THEN: A ROUTE TO THE PUBLIC INTERNET.\n\n**Provenance:** `documented` — `OAI-TR` §X, printed p. 34: use of Artifactory to relay arbitrary external requests begins at 08:46, operationalized through a public HTTP testing service and a third-party website screenshot service. General-purpose internet role also from `METR` and `HF-TL`.\n\n&quot;,
-    &quot;title&quot;: &quot;Public services sit beyond the workload&quot;
+    &quot;source&quot;: &quot;\n**Frame:** `08:46 UTC — PARALLEL ARTIFACTORY ROUTE`. Public-service icons appear beyond the package service, in a separate lane from the customer workload as unlabeled geometric endpoints — a request-capture service, and beside it a website screenshot service drawn as a small camera aperture. A narrow path reaches outward without touching Hugging Face infrastructure.\n\n**Action:** Relaying of arbitrary external requests begins at scale through ordinary public utilities.\n\n**Caption:**\n&gt; ALONGSIDE THE FOOTHOLD: ANOTHER ROUTE TO THE PUBLIC INTERNET.\n\n**Provenance:** `documented` — `OAI-TR` §X, printed p. 34: use of Artifactory to relay arbitrary external requests begins at 08:46, operationalized through a public HTTP testing service and a third-party website screenshot service. General-purpose internet role also from `METR` and `HF-TL`.\n\n&quot;,
+    &quot;title&quot;: &quot;Public utilities form a parallel route through Artifactory&quot;
   }
 }
-</metadata><rect width="1200" height="800" fill="#101214"/><rect x="125.28" y="179.36" width="234.196" height="204.8" fill="none" stroke="#5E737B" stroke-width="3"/><text x="133.28" y="203.36" fill="#5E737B" font-family="sans-serif" font-size="20">box</text><text x="242.378" y="408.96" text-anchor="middle" fill="#E7E0D0" font-size="20" font-family="sans-serif">WORKLOAD</text><rect x="441.76" y="179.36" width="234.196" height="204.8" fill="none" stroke="#5E737B" stroke-width="3"/><text x="449.76" y="203.36" fill="#5E737B" font-family="sans-serif" font-size="20">card</text><text x="558.857" y="408.96" text-anchor="middle" fill="#E7E0D0" font-size="20" font-family="sans-serif">REQUEST CAPTURE</text><rect x="758.24" y="191.685" width="234.196" height="180.15" fill="none" stroke="#5E737B" stroke-width="3"/><text x="766.24" y="215.685" fill="#5E737B" font-family="sans-serif" font-size="20">aperture</text><text x="875.338" y="408.96" text-anchor="middle" fill="#E7E0D0" font-size="20" font-family="sans-serif">SCREENSHOT SERVICE</text><rect x="3" y="3" width="1194" height="794" fill="none" stroke="#5E737B" stroke-width="4"/></svg>
+</metadata><rect width="1200" height="800" fill="#101214"/><rect x="125.28" y="179.36" width="234.196" height="204.8" fill="none" stroke="#5E737B" stroke-width="3"/><text x="133.28" y="203.36" fill="#5E737B" font-family="sans-serif" font-size="20">box</text><text x="242.378" y="408.96" text-anchor="middle" fill="#E7E0D0" font-size="20" font-family="sans-serif">ARTIFACTORY</text><rect x="441.76" y="179.36" width="234.196" height="204.8" fill="none" stroke="#5E737B" stroke-width="3"/><text x="449.76" y="203.36" fill="#5E737B" font-family="sans-serif" font-size="20">card</text><text x="558.857" y="408.96" text-anchor="middle" fill="#E7E0D0" font-size="20" font-family="sans-serif">REQUEST CAPTURE</text><rect x="758.24" y="191.685" width="234.196" height="180.15" fill="none" stroke="#5E737B" stroke-width="3"/><text x="766.24" y="215.685" fill="#5E737B" font-family="sans-serif" font-size="20">aperture</text><text x="875.338" y="408.96" text-anchor="middle" fill="#E7E0D0" font-size="20" font-family="sans-serif">SCREENSHOT SERVICE</text><rect x="3" y="3" width="1194" height="794" fill="none" stroke="#5E737B" stroke-width="4"/></svg>

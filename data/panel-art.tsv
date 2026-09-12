@@ -546,12 +546,16 @@ panel	variant	file	provider	seed	width	height	bytes	created	status	note	stage
 039-01	v02	assets/art/panels/039-01/v02-storyboard-svg.svg	storyboard-svg		1200	800	5055	2026-09-07T16:55:14+00:00	candidate		storyboard
 039-02	v01	assets/art/panels/039-02/v01-storyboard-svg.svg	storyboard-svg		1200	800	3182	2026-09-07T16:49:11+00:00	candidate		storyboard
 039-02	v02	assets/art/panels/039-02/v02-storyboard-svg.svg	storyboard-svg		1200	800	3297	2026-09-07T16:55:14+00:00	candidate		storyboard
+039-02	v03	assets/art/panels/039-02/v03-storyboard-svg.svg	storyboard-svg		1200	800	3415	2026-09-12T20:10:16+00:00	candidate		storyboard
+039-02	v04	assets/art/panels/039-02/v04-storyboard-svg.svg	storyboard-svg		1200	800	3413	2026-09-12T20:13:58+00:00	candidate		storyboard
 039-03	v01	assets/art/panels/039-03/v01-storyboard-svg.svg	storyboard-svg		1200	800	4758	2026-09-07T16:49:11+00:00	candidate		storyboard
 039-03	v02	assets/art/panels/039-03/v02-storyboard-svg.svg	storyboard-svg		1200	800	5053	2026-09-07T16:55:14+00:00	candidate		storyboard
 039-04	v01	assets/art/panels/039-04/v01-storyboard-svg.svg	storyboard-svg		1200	800	3062	2026-09-07T16:49:11+00:00	candidate		storyboard
 039-04	v02	assets/art/panels/039-04/v02-storyboard-svg.svg	storyboard-svg		1200	800	3191	2026-09-07T16:55:14+00:00	candidate		storyboard
 039-05	v01	assets/art/panels/039-05/v01-storyboard-svg.svg	storyboard-svg		1200	800	4193	2026-09-07T16:49:11+00:00	candidate		storyboard
 039-05	v02	assets/art/panels/039-05/v02-storyboard-svg.svg	storyboard-svg		1200	800	4435	2026-09-07T16:55:14+00:00	candidate		storyboard
+039-05	v03	assets/art/panels/039-05/v03-storyboard-svg.svg	storyboard-svg		1200	800	4553	2026-09-12T20:10:16+00:00	candidate		storyboard
+039-05	v04	assets/art/panels/039-05/v04-storyboard-svg.svg	storyboard-svg		1200	800	4551	2026-09-12T20:13:58+00:00	candidate		storyboard
 039-06	v01	assets/art/panels/039-06/v01-storyboard-svg.svg	storyboard-svg		1200	800	4438	2026-09-07T16:49:11+00:00	candidate		storyboard
 039-06	v02	assets/art/panels/039-06/v02-storyboard-svg.svg	storyboard-svg		1200	800	4676	2026-09-07T16:55:14+00:00	candidate		storyboard
 039-06	v03	assets/art/panels/039-06/v03-storyboard-svg.svg	storyboard-svg		1200	800	4758	2026-09-07T17:01:43+00:00	candidate		storyboard
@@ -576,6 +580,7 @@ panel	variant	file	provider	seed	width	height	bytes	created	status	note	stage
 041-04	v02	assets/art/panels/041-04/v02-storyboard-svg.svg	storyboard-svg		1200	800	4461	2026-09-07T16:55:15+00:00	candidate		storyboard
 041-05	v01	assets/art/panels/041-05/v01-storyboard-svg.svg	storyboard-svg		1200	800	6533	2026-09-07T16:49:12+00:00	candidate		storyboard
 041-05	v02	assets/art/panels/041-05/v02-storyboard-svg.svg	storyboard-svg		1200	800	6833	2026-09-07T16:55:15+00:00	candidate		storyboard
+041-05	v03	assets/art/panels/041-05/v03-storyboard-svg.svg	storyboard-svg		1200	800	6866	2026-09-12T20:10:16+00:00	candidate		storyboard
 042-01	v01	assets/art/panels/042-01/v01-flux2-klein-4b-1001.webp	flux2-klein-4b	1001	1200	800	177292	2026-09-05T19:07:17+00:00	candidate		refined
 042-01	v02	assets/art/panels/042-01/v02-flux2-klein-4b-1001.webp	flux2-klein-4b	1001	1200	800	140994	2026-09-05T19:57:16+00:00	candidate	drawn 5 Sep 2026 with the reverted panel-first prompt arrangement, not the committed composer	refined
 042-01	v03	assets/art/panels/042-01/v03-storyboard-svg.svg	storyboard-svg		1200	800	4712	2026-09-07T16:49:12+00:00	candidate		storyboard
@@ -596,8 +601,10 @@ panel	variant	file	provider	seed	width	height	bytes	created	status	note	stage
 042-05	v05	assets/art/panels/042-05/v05-panel-fit.svg	panel-fit		1200	800	261106	2026-09-09T02:11:26+00:00	chosen	Textured off-white outer border removed; visually reviewed; original model bytes retained. 8px allowance clears irregular edges; centered 3:2 framing.	refined
 043-01	v01	assets/art/panels/043-01/v01-storyboard-svg.svg	storyboard-svg		1200	800	4356	2026-09-07T16:49:12+00:00	candidate		storyboard
 043-01	v02	assets/art/panels/043-01/v02-storyboard-svg.svg	storyboard-svg		1200	800	4724	2026-09-07T16:55:16+00:00	candidate		storyboard
+043-01	v03	assets/art/panels/043-01/v03-storyboard-svg.svg	storyboard-svg		1200	800	4717	2026-09-12T20:10:16+00:00	candidate		storyboard
 043-02	v01	assets/art/panels/043-02/v01-storyboard-svg.svg	storyboard-svg		1200	800	5508	2026-09-07T16:49:12+00:00	candidate		storyboard
 043-02	v02	assets/art/panels/043-02/v02-storyboard-svg.svg	storyboard-svg		1200	800	5905	2026-09-07T16:55:16+00:00	candidate		storyboard
+043-02	v03	assets/art/panels/043-02/v03-storyboard-svg.svg	storyboard-svg		1200	800	6071	2026-09-12T20:10:16+00:00	candidate		storyboard
 043-03	v01	assets/art/panels/043-03/v01-storyboard-svg.svg	storyboard-svg		1200	800	6243	2026-09-07T16:49:12+00:00	candidate		storyboard
 043-03	v02	assets/art/panels/043-03/v02-storyboard-svg.svg	storyboard-svg		1200	800	6640	2026-09-07T16:55:16+00:00	candidate		storyboard
 043-04	v01	assets/art/panels/043-04/v01-storyboard-svg.svg	storyboard-svg		1200	800	5473	2026-09-07T16:49:12+00:00	candidate		storyboard
@@ -772,8 +779,10 @@ panel	variant	file	provider	seed	width	height	bytes	created	status	note	stage
 059-03	v02	assets/art/panels/059-03/v02-storyboard-svg.svg	storyboard-svg		1200	800	2903	2026-09-07T16:55:25+00:00	candidate		storyboard
 059-04	v01	assets/art/panels/059-04/v01-storyboard-svg.svg	storyboard-svg		1200	800	4514	2026-09-07T16:49:16+00:00	candidate		storyboard
 059-04	v02	assets/art/panels/059-04/v02-storyboard-svg.svg	storyboard-svg		1200	800	4902	2026-09-07T16:55:25+00:00	candidate		storyboard
+059-04	v03	assets/art/panels/059-04/v03-storyboard-svg.svg	storyboard-svg		1200	800	4996	2026-09-12T20:10:17+00:00	candidate		storyboard
 059-05	v01	assets/art/panels/059-05/v01-storyboard-svg.svg	storyboard-svg		1200	800	5524	2026-09-07T16:49:16+00:00	candidate		storyboard
 059-05	v02	assets/art/panels/059-05/v02-storyboard-svg.svg	storyboard-svg		1200	800	5773	2026-09-07T16:55:25+00:00	candidate		storyboard
+059-05	v03	assets/art/panels/059-05/v03-storyboard-svg.svg	storyboard-svg		1200	800	4980	2026-09-12T20:10:17+00:00	candidate		storyboard
 060-01	v01	assets/art/panels/060-01/v01-storyboard-svg.svg	storyboard-svg		1200	800	2815	2026-09-07T16:49:16+00:00	candidate		storyboard
 060-01	v02	assets/art/panels/060-01/v02-storyboard-svg.svg	storyboard-svg		1200	800	2944	2026-09-07T16:55:26+00:00	candidate		storyboard
 060-02	v01	assets/art/panels/060-02/v01-storyboard-svg.svg	storyboard-svg		1200	800	4529	2026-09-07T16:49:16+00:00	candidate		storyboard
@@ -800,6 +809,7 @@ panel	variant	file	provider	seed	width	height	bytes	created	status	note	stage
 062-02	v02	assets/art/panels/062-02/v02-storyboard-svg.svg	storyboard-svg		1200	800	4442	2026-09-07T16:55:27+00:00	candidate		storyboard
 062-03	v01	assets/art/panels/062-03/v01-storyboard-svg.svg	storyboard-svg		1200	800	4665	2026-09-07T16:49:17+00:00	candidate		storyboard
 062-03	v02	assets/art/panels/062-03/v02-storyboard-svg.svg	storyboard-svg		1200	800	4962	2026-09-07T16:55:27+00:00	candidate		storyboard
+062-03	v03	assets/art/panels/062-03/v03-storyboard-svg.svg	storyboard-svg		1200	800	5080	2026-09-12T20:10:17+00:00	candidate		storyboard
 062-04	v01	assets/art/panels/062-04/v01-storyboard-svg.svg	storyboard-svg		1200	800	4452	2026-09-07T16:49:17+00:00	candidate		storyboard
 062-04	v02	assets/art/panels/062-04/v02-storyboard-svg.svg	storyboard-svg		1200	800	4748	2026-09-07T16:55:27+00:00	candidate		storyboard
 062-05	v01	assets/art/panels/062-05/v01-storyboard-svg.svg	storyboard-svg		1200	800	6321	2026-09-07T16:49:17+00:00	candidate		storyboard
@@ -1014,6 +1024,7 @@ panel	variant	file	provider	seed	width	height	bytes	created	status	note	stage
 081-01	v02	assets/art/panels/081-01/v02-storyboard-svg.svg	storyboard-svg		1200	800	3021	2026-09-07T16:55:38+00:00	candidate		storyboard
 081-02	v01	assets/art/panels/081-02/v01-storyboard-svg.svg	storyboard-svg		1200	800	2823	2026-09-07T16:49:23+00:00	candidate		storyboard
 081-02	v02	assets/art/panels/081-02/v02-storyboard-svg.svg	storyboard-svg		1200	800	2952	2026-09-07T16:55:38+00:00	candidate		storyboard
+081-02	v03	assets/art/panels/081-02/v03-storyboard-svg.svg	storyboard-svg		1200	800	3070	2026-09-12T20:10:17+00:00	candidate		storyboard
 081-03	v01	assets/art/panels/081-03/v01-storyboard-svg.svg	storyboard-svg		1200	800	4784	2026-09-07T16:49:23+00:00	candidate		storyboard
 081-03	v02	assets/art/panels/081-03/v02-storyboard-svg.svg	storyboard-svg		1200	800	5419	2026-09-07T16:55:38+00:00	candidate		storyboard
 081-04	v01	assets/art/panels/081-04/v01-storyboard-svg.svg	storyboard-svg		1200	800	4040	2026-09-07T16:49:23+00:00	candidate		storyboard
@@ -1082,6 +1093,8 @@ panel	variant	file	provider	seed	width	height	bytes	created	status	note	stage
 087-03	v02	assets/art/panels/087-03/v02-storyboard-svg.svg	storyboard-svg		1200	800	5034	2026-09-07T16:55:42+00:00	candidate		storyboard
 087-04	v01	assets/art/panels/087-04/v01-storyboard-svg.svg	storyboard-svg		1200	800	3667	2026-09-07T16:49:25+00:00	candidate		storyboard
 087-04	v02	assets/art/panels/087-04/v02-storyboard-svg.svg	storyboard-svg		1200	800	3796	2026-09-07T16:55:42+00:00	candidate		storyboard
+087-04	v03	assets/art/panels/087-04/v03-storyboard-svg.svg	storyboard-svg		1200	800	3914	2026-09-12T20:10:17+00:00	candidate		storyboard
+087-04	v04	assets/art/panels/087-04/v04-storyboard-svg.svg	storyboard-svg		1200	800	3912	2026-09-12T20:13:58+00:00	candidate		storyboard
 087-05	v01	assets/art/panels/087-05/v01-storyboard-svg.svg	storyboard-svg		1200	800	5671	2026-09-07T16:49:25+00:00	candidate		storyboard
 087-05	v02	assets/art/panels/087-05/v02-storyboard-svg.svg	storyboard-svg		1200	800	6151	2026-09-07T16:55:42+00:00	candidate		storyboard
 087-06	v01	assets/art/panels/087-06/v01-storyboard-svg.svg	storyboard-svg		1200	800	5378	2026-09-07T16:49:25+00:00	candidate		storyboard
@@ -1091,6 +1104,8 @@ panel	variant	file	provider	seed	width	height	bytes	created	status	note	stage
 088-01	v03	assets/art/panels/088-01/v03-storyboard-svg.svg	storyboard-svg		1200	800	13967	2026-09-07T17:01:50+00:00	candidate		storyboard
 088-02	v01	assets/art/panels/088-02/v01-storyboard-svg.svg	storyboard-svg		1200	800	6236	2026-09-07T16:49:25+00:00	candidate		storyboard
 088-02	v02	assets/art/panels/088-02/v02-storyboard-svg.svg	storyboard-svg		1200	800	6936	2026-09-07T16:55:43+00:00	candidate		storyboard
+088-02	v03	assets/art/panels/088-02/v03-storyboard-svg.svg	storyboard-svg		1200	800	7054	2026-09-12T20:10:17+00:00	candidate		storyboard
+088-02	v04	assets/art/panels/088-02/v04-storyboard-svg.svg	storyboard-svg		1200	800	7052	2026-09-12T20:13:58+00:00	candidate		storyboard
 088-03	v01	assets/art/panels/088-03/v01-storyboard-svg.svg	storyboard-svg		1200	800	4007	2026-09-07T16:49:26+00:00	candidate		storyboard
 088-03	v02	assets/art/panels/088-03/v02-storyboard-svg.svg	storyboard-svg		1200	800	4270	2026-09-07T16:55:43+00:00	candidate		storyboard
 088-04	v01	assets/art/panels/088-04/v01-storyboard-svg.svg	storyboard-svg		1200	800	3565	2026-09-07T16:49:26+00:00	candidate		storyboard
@@ -1108,6 +1123,8 @@ panel	variant	file	provider	seed	width	height	bytes	created	status	note	stage
 089-02	v03	assets/art/panels/089-02/v03-storyboard-svg.svg	storyboard-svg		1200	800	4677	2026-09-07T17:01:50+00:00	candidate		storyboard
 089-03	v01	assets/art/panels/089-03/v01-storyboard-svg.svg	storyboard-svg		1200	800	6034	2026-09-07T16:49:26+00:00	candidate		storyboard
 089-03	v02	assets/art/panels/089-03/v02-storyboard-svg.svg	storyboard-svg		1200	800	6934	2026-09-07T16:55:44+00:00	candidate		storyboard
+089-03	v03	assets/art/panels/089-03/v03-storyboard-svg.svg	storyboard-svg		1200	800	7052	2026-09-12T20:10:17+00:00	candidate		storyboard
+089-03	v04	assets/art/panels/089-03/v04-storyboard-svg.svg	storyboard-svg		1200	800	7050	2026-09-12T20:13:58+00:00	candidate		storyboard
 089-04	v01	assets/art/panels/089-04/v01-storyboard-svg.svg	storyboard-svg		1200	800	4779	2026-09-07T16:49:26+00:00	candidate		storyboard
 089-04	v02	assets/art/panels/089-04/v02-storyboard-svg.svg	storyboard-svg		1200	800	5259	2026-09-07T16:55:44+00:00	candidate		storyboard
 089-05	v01	assets/art/panels/089-05/v01-storyboard-svg.svg	storyboard-svg		1200	800	3846	2026-09-07T16:49:26+00:00	candidate		storyboard
@@ -1247,10 +1264,16 @@ panel	variant	file	provider	seed	width	height	bytes	created	status	note	stage
 101-01	v02	assets/art/panels/101-01/v02-storyboard-svg.svg	storyboard-svg		1200	800	8242	2026-09-07T16:55:52+00:00	candidate		storyboard
 101-02	v01	assets/art/panels/101-02/v01-storyboard-svg.svg	storyboard-svg		1200	800	3363	2026-09-07T16:49:31+00:00	candidate		storyboard
 101-02	v02	assets/art/panels/101-02/v02-storyboard-svg.svg	storyboard-svg		1200	800	3492	2026-09-07T16:55:52+00:00	candidate		storyboard
+101-02	v03	assets/art/panels/101-02/v03-storyboard-svg.svg	storyboard-svg		1200	800	3610	2026-09-12T20:10:17+00:00	candidate		storyboard
+101-02	v04	assets/art/panels/101-02/v04-storyboard-svg.svg	storyboard-svg		1200	800	3608	2026-09-12T20:13:58+00:00	candidate		storyboard
 101-03	v01	assets/art/panels/101-03/v01-storyboard-svg.svg	storyboard-svg		1200	800	4134	2026-09-07T16:49:31+00:00	candidate		storyboard
 101-03	v02	assets/art/panels/101-03/v02-storyboard-svg.svg	storyboard-svg		1200	800	4384	2026-09-07T16:55:52+00:00	candidate		storyboard
+101-03	v03	assets/art/panels/101-03/v03-storyboard-svg.svg	storyboard-svg		1200	800	4502	2026-09-12T20:10:17+00:00	candidate		storyboard
+101-03	v04	assets/art/panels/101-03/v04-storyboard-svg.svg	storyboard-svg		1200	800	4500	2026-09-12T20:13:58+00:00	candidate		storyboard
 101-04	v01	assets/art/panels/101-04/v01-storyboard-svg.svg	storyboard-svg		1200	800	6210	2026-09-07T16:49:31+00:00	candidate		storyboard
 101-04	v02	assets/art/panels/101-04/v02-storyboard-svg.svg	storyboard-svg		1200	800	6980	2026-09-07T16:55:52+00:00	candidate		storyboard
+101-04	v03	assets/art/panels/101-04/v03-storyboard-svg.svg	storyboard-svg		1200	800	7098	2026-09-12T20:10:17+00:00	candidate		storyboard
+101-04	v04	assets/art/panels/101-04/v04-storyboard-svg.svg	storyboard-svg		1200	800	7096	2026-09-12T20:13:58+00:00	candidate		storyboard
 101-05	v01	assets/art/panels/101-05/v01-storyboard-svg.svg	storyboard-svg		1200	800	6121	2026-09-07T16:49:31+00:00	candidate		storyboard
 101-05	v02	assets/art/panels/101-05/v02-storyboard-svg.svg	storyboard-svg		1200	800	7067	2026-09-07T16:55:52+00:00	candidate		storyboard
 101-06	v01	assets/art/panels/101-06/v01-storyboard-svg.svg	storyboard-svg		1200	800	2770	2026-09-07T16:49:31+00:00	candidate		storyboard
@@ -1311,22 +1334,26 @@ panel	variant	file	provider	seed	width	height	bytes	created	status	note	stage
 107-02	v03	assets/art/panels/107-02/v03-storyboard-svg.svg	storyboard-svg		1200	800	5080	2026-09-07T16:59:01+00:00	candidate		storyboard
 107-03	v01	assets/art/panels/107-03/v01-storyboard-svg.svg	storyboard-svg		1200	800	6483	2026-09-07T16:49:34+00:00	candidate		storyboard
 107-03	v02	assets/art/panels/107-03/v02-storyboard-svg.svg	storyboard-svg		1200	800	6725	2026-09-07T16:55:56+00:00	candidate		storyboard
+107-03	v03	assets/art/panels/107-03/v03-storyboard-svg.svg	storyboard-svg		1200	800	6766	2026-09-12T20:10:17+00:00	candidate		storyboard
 107-04	v01	assets/art/panels/107-04/v01-storyboard-svg.svg	storyboard-svg		1200	800	4354	2026-09-07T16:49:34+00:00	candidate		storyboard
 107-04	v02	assets/art/panels/107-04/v02-storyboard-svg.svg	storyboard-svg		1200	800	4600	2026-09-07T16:55:56+00:00	candidate		storyboard
 107-05	v01	assets/art/panels/107-05/v01-storyboard-svg.svg	storyboard-svg		1200	800	5718	2026-09-07T16:49:34+00:00	candidate		storyboard
 107-05	v02	assets/art/panels/107-05/v02-storyboard-svg.svg	storyboard-svg		1200	800	6013	2026-09-07T16:55:56+00:00	candidate		storyboard
+107-05	v03	assets/art/panels/107-05/v03-storyboard-svg.svg	storyboard-svg		1200	800	5220	2026-09-12T20:10:17+00:00	candidate		storyboard
 108-01	v01	assets/art/panels/108-01/v01-storyboard-svg.svg	storyboard-svg		1200	800	4113	2026-09-07T16:49:34+00:00	candidate		storyboard
 108-01	v02	assets/art/panels/108-01/v02-storyboard-svg.svg	storyboard-svg		1200	800	4370	2026-09-07T16:55:57+00:00	candidate		storyboard
 108-02	v01	assets/art/panels/108-02/v01-storyboard-svg.svg	storyboard-svg		1200	800	5272	2026-09-07T16:49:34+00:00	candidate		storyboard
 108-02	v02	assets/art/panels/108-02/v02-storyboard-svg.svg	storyboard-svg		1200	800	5686	2026-09-07T16:55:57+00:00	candidate		storyboard
 108-03	v01	assets/art/panels/108-03/v01-storyboard-svg.svg	storyboard-svg		1200	800	5372	2026-09-07T16:49:34+00:00	candidate		storyboard
 108-03	v02	assets/art/panels/108-03/v02-storyboard-svg.svg	storyboard-svg		1200	800	5787	2026-09-07T16:55:57+00:00	candidate		storyboard
+108-03	v03	assets/art/panels/108-03/v03-storyboard-svg.svg	storyboard-svg		1200	800	5789	2026-09-12T20:10:17+00:00	candidate		storyboard
 108-04	v01	assets/art/panels/108-04/v01-storyboard-svg.svg	storyboard-svg		1200	800	4737	2026-09-07T16:49:34+00:00	candidate		storyboard
 108-04	v02	assets/art/panels/108-04/v02-storyboard-svg.svg	storyboard-svg		1200	800	5021	2026-09-07T16:55:57+00:00	candidate		storyboard
 108-04	v03	assets/art/panels/108-04/v03-storyboard-svg.svg	storyboard-svg		1200	800	5103	2026-09-07T16:59:01+00:00	candidate		storyboard
 108-05	v01	assets/art/panels/108-05/v01-storyboard-svg.svg	storyboard-svg		1200	800	5012	2026-09-07T16:49:34+00:00	candidate		storyboard
 108-05	v02	assets/art/panels/108-05/v02-storyboard-svg.svg	storyboard-svg		1200	800	5370	2026-09-07T16:55:57+00:00	candidate		storyboard
 108-05	v03	assets/art/panels/108-05/v03-storyboard-svg.svg	storyboard-svg		1200	800	5394	2026-09-07T16:59:01+00:00	candidate		storyboard
+108-05	v04	assets/art/panels/108-05/v04-storyboard-svg.svg	storyboard-svg		1200	800	5385	2026-09-12T20:10:17+00:00	candidate		storyboard
 108-06	v01	assets/art/panels/108-06/v01-storyboard-svg.svg	storyboard-svg		1200	800	4496	2026-09-07T16:49:34+00:00	candidate		storyboard
 108-06	v02	assets/art/panels/108-06/v02-storyboard-svg.svg	storyboard-svg		1200	800	4742	2026-09-07T16:55:57+00:00	candidate		storyboard
 108-06	v03	assets/art/panels/108-06/v03-storyboard-svg.svg	storyboard-svg		1200	800	4226	2026-09-09T21:19:16+00:00	candidate		storyboard
@@ -1336,12 +1363,14 @@ panel	variant	file	provider	seed	width	height	bytes	created	status	note	stage
 109-02	v02	assets/art/panels/109-02/v02-storyboard-svg.svg	storyboard-svg		1200	800	5006	2026-09-07T16:55:58+00:00	candidate		storyboard
 109-03	v01	assets/art/panels/109-03/v01-storyboard-svg.svg	storyboard-svg		1200	800	4598	2026-09-07T16:49:35+00:00	candidate		storyboard
 109-03	v02	assets/art/panels/109-03/v02-storyboard-svg.svg	storyboard-svg		1200	800	4844	2026-09-07T16:55:58+00:00	candidate		storyboard
+109-03	v03	assets/art/panels/109-03/v03-storyboard-svg.svg	storyboard-svg		1200	800	4843	2026-09-12T20:10:17+00:00	candidate		storyboard
 109-04	v01	assets/art/panels/109-04/v01-storyboard-svg.svg	storyboard-svg		1200	800	4451	2026-09-07T16:49:35+00:00	candidate		storyboard
 109-04	v02	assets/art/panels/109-04/v02-storyboard-svg.svg	storyboard-svg		1200	800	4966	2026-09-07T16:55:58+00:00	candidate		storyboard
 109-05	v01	assets/art/panels/109-05/v01-storyboard-svg.svg	storyboard-svg		1200	800	5026	2026-09-07T16:49:35+00:00	candidate		storyboard
 109-05	v02	assets/art/panels/109-05/v02-storyboard-svg.svg	storyboard-svg		1200	800	5394	2026-09-07T16:55:58+00:00	candidate		storyboard
 110-01	v01	assets/art/panels/110-01/v01-storyboard-svg.svg	storyboard-svg		1200	800	4376	2026-09-07T16:49:35+00:00	candidate		storyboard
 110-01	v02	assets/art/panels/110-01/v02-storyboard-svg.svg	storyboard-svg		1200	800	4769	2026-09-07T16:55:58+00:00	candidate		storyboard
+110-01	v03	assets/art/panels/110-01/v03-storyboard-svg.svg	storyboard-svg		1200	800	4783	2026-09-12T20:10:17+00:00	candidate		storyboard
 110-02	v01	assets/art/panels/110-02/v01-storyboard-svg.svg	storyboard-svg		1200	800	3527	2026-09-07T16:49:35+00:00	candidate		storyboard
 110-02	v02	assets/art/panels/110-02/v02-storyboard-svg.svg	storyboard-svg		1200	800	3642	2026-09-07T16:55:58+00:00	candidate		storyboard
 110-03	v01	assets/art/panels/110-03/v01-storyboard-svg.svg	storyboard-svg		1200	800	4831	2026-09-07T16:49:35+00:00	candidate		storyboard
@@ -1358,6 +1387,8 @@ panel	variant	file	provider	seed	width	height	bytes	created	status	note	stage
 111-03	v02	assets/art/panels/111-03/v02-storyboard-svg.svg	storyboard-svg		1200	800	5338	2026-09-07T16:55:59+00:00	candidate		storyboard
 111-04	v01	assets/art/panels/111-04/v01-storyboard-svg.svg	storyboard-svg		1200	800	3900	2026-09-07T16:49:36+00:00	candidate		storyboard
 111-04	v02	assets/art/panels/111-04/v02-storyboard-svg.svg	storyboard-svg		1200	800	4015	2026-09-07T16:55:59+00:00	candidate		storyboard
+111-04	v03	assets/art/panels/111-04/v03-storyboard-svg.svg	storyboard-svg		1200	800	4129	2026-09-12T20:10:17+00:00	candidate		storyboard
+111-04	v04	assets/art/panels/111-04/v04-storyboard-svg.svg	storyboard-svg		1200	800	4127	2026-09-12T20:13:58+00:00	candidate		storyboard
 111-05	v01	assets/art/panels/111-05/v01-storyboard-svg.svg	storyboard-svg		1200	800	5279	2026-09-07T16:49:36+00:00	candidate		storyboard
 111-05	v02	assets/art/panels/111-05/v02-storyboard-svg.svg	storyboard-svg		1200	800	5757	2026-09-07T16:55:59+00:00	candidate		storyboard
 111-05	v03	assets/art/panels/111-05/v03-storyboard-svg.svg	storyboard-svg		1200	800	5839	2026-09-07T17:01:51+00:00	candidate		storyboard

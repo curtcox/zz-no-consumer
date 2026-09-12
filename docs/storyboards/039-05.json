@@ -1,6 +1,6 @@
 {
   "background": "ink",
-  "intent": "Block a citation to the conference account. Keep the scripted evidence boundary and lettering visible.",
+  "intent": "Block a citation to the conference account. Keep the scripted evidence boundary and lettering visible. Existing source-derived wording is a visibly labelled paraphrase; quotation disposition remains open.",
   "lettering": [
     {
       "box": [
@@ -60,6 +60,6 @@
   ],
   "reconstructed": false,
   "shot": "hero",
-  "source": "\n**Frame:** The critique scrolls to a citation. Behind it, a conference-stage frame: two speakers, a slide, a date. The quotation is set as evidence, not as dialogue.\n\n**Screen / system text — PUBLISHED CRITIQUE, CITING OPENAI:**\n`BLACK HAT USA, 5 AUGUST 2026 — OPENAI STATES THAT AN INTERNAL-ONLY MODEL WAS TRAINED WHILE THE MESSAGE BOARD WAS AVAILABLE, FOUND THE PATH TO RECREATING IT, AND CREATED THE NEW BOARD.`\n\n**Caption:**\n> THE CACHE WAS ERASED.\n>\n> THE MODEL WAS IN TRAINING.\n\n**Provenance:** `documented` — `OAI-BH` 17:03 and 14:06, which `IOB-CIV` itself cites; the claim is OpenAI's own, made in public, before its technical report.\n\n",
+  "source": "\n**Frame:** The critique scrolls to a citation. Behind it, a conference-stage frame: two speakers, a slide, a date. The quotation is set as evidence, not as dialogue.\n\n**Screen / system text — PUBLISHED CRITIQUE, CITING OPENAI (PARAPHRASED):**\n`BLACK HAT USA, 5 AUGUST 2026 — OPENAI STATES THAT AN INTERNAL-ONLY MODEL WAS TRAINED WHILE THE MESSAGE BOARD WAS AVAILABLE, FOUND THE PATH TO RECREATING IT, AND CREATED THE NEW BOARD.`\n\n**Caption:**\n> THE CACHE WAS ERASED.\n>\n> THE MODEL WAS IN TRAINING.\n\n**Provenance:** `documented` — `OAI-BH` 17:03 and 14:06, which `IOB-CIV` itself cites; the claim is OpenAI's own, made in public, before its technical report.\n\n",
   "title": "A citation to the conference account"
 }

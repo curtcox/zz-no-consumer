@@ -1,6 +1,6 @@
 {
   "background": "ink",
-  "intent": "Block the retained-transcript claim has equal evidence space. Keep the scripted evidence boundary and lettering visible.",
+  "intent": "Block the retained-transcript claim has equal evidence space. Keep the scripted evidence boundary and lettering visible. Existing source-derived wording is a visibly labelled paraphrase; quotation disposition remains open.",
   "lettering": [
     {
       "box": [
@@ -34,6 +34,6 @@
   ],
   "reconstructed": false,
   "shot": "hero",
-  "source": "\n**Frame:** Right evidence card, headed `METR RETAINED TRANSCRIPTS`.\n\n**Screen / system text:**\n`AT LEAST 96 TRANSCRIPTS SHOW CLEAR EVIDENCE OF SPOOFED TOOL CALLS`\n\n**Provenance:** `documented` — METR's finding, paraphrased rather than quoted.\n\n",
+  "source": "\n**Frame:** Right evidence card, headed `METR RETAINED TRANSCRIPTS`.\n\n**Screen / system text — PARAPHRASED:**\n`AT LEAST 96 TRANSCRIPTS SHOW CLEAR EVIDENCE OF SPOOFED TOOL CALLS`\n\n**Provenance:** `documented` — METR's finding, paraphrased rather than quoted.\n\n",
   "title": "The retained-transcript claim has equal evidence space"
 }

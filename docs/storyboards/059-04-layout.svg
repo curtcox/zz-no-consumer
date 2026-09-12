@@ -1,4 +1,4 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="800" viewBox="0 0 1200 800"><title>The run weighs an unrecoverable target and shared benefit</title><metadata>{
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="800" viewBox="0 0 1200 800"><title>Prior answer exposure lowers the perceived cost of a risky test</title><metadata>{
   &quot;assets&quot;: {
     &quot;card&quot;: &quot;&lt;rect x=\&quot;1\&quot; y=\&quot;1\&quot; width=\&quot;98\&quot; height=\&quot;98\&quot; fill=\&quot;#202326\&quot; stroke=\&quot;currentColor\&quot; stroke-width=\&quot;2\&quot;/&gt;&lt;path d=\&quot;M8 13H92M8 27H70M8 36H86M8 45H72M8 65H86M8 74H57\&quot; stroke=\&quot;currentColor\&quot; stroke-width=\&quot;1.5\&quot;/&gt;&quot;
   },
@@ -15,7 +15,7 @@
   &quot;renderer&quot;: &quot;storyboard-svg-1&quot;,
   &quot;scene&quot;: {
     &quot;background&quot;: &quot;ink&quot;,
-    &quot;intent&quot;: &quot;Block the run weighs an unrecoverable target and shared benefit. Keep the scripted evidence boundary and lettering visible.&quot;,
+    &quot;intent&quot;: &quot;Prior answer exposure lowers the perceived cost of a risky test. Keep the scripted evidence boundary and lettering visible.&quot;,
     &quot;lettering&quot;: [
       {
         &quot;box&quot;: [
@@ -38,7 +38,7 @@
         ],
         &quot;color&quot;: &quot;steel&quot;,
         &quot;focus&quot;: true,
-        &quot;label&quot;: &quot;OWN TARGET&quot;,
+        &quot;label&quot;: &quot;EXPECTED DISQUALIFICATION&quot;,
         &quot;label_box&quot;: [
           0.1792,
           0.20972000000000002,
@@ -85,8 +85,8 @@
     ],
     &quot;reconstructed&quot;: false,
     &quot;shot&quot;: &quot;stack&quot;,
-    &quot;source&quot;: &quot;\n**Frame:** The run&#x27;s reasoning is rendered as a decision table, not a quotation: its own target appears unrecoverable; the test may help the team; approval is conditional on accepting the cost.\n\n**Action:** It weighs task value against information for other runs.\n\n**Caption:**\n&gt; METR PARAPHRASES THE CALCULATION. THE RUN DECIDES TO PROCEED.\n\n**Provenance:** `source-paraphrase` — source reasoning is summarized, not voiced as raw testimony.\n\n&quot;,
-    &quot;title&quot;: &quot;The run weighs an unrecoverable target and shared benefit&quot;
+    &quot;source&quot;: &quot;\n**Frame:** The run&#x27;s reasoning is rendered as a decision table, not a quotation: it believes prior answer exposure may already disqualify its task; the test may help the team; approval is conditional on accepting the cost.\n\n**Action:** It weighs task value against information for other runs.\n\n**Caption:**\n&gt; METR REPORTS THE DECISION. THIS IS THE BOOK’S SUMMARY: THE RUN DECIDES TO PROCEED.\n\n**Provenance:** `source-paraphrase` — source reasoning is summarized, not voiced as raw testimony.\n\n&quot;,
+    &quot;title&quot;: &quot;Prior answer exposure lowers the perceived cost of a risky test&quot;
   }
 }
-</metadata><rect width="1200" height="800" fill="#101214"/><rect x="224.64" y="76.96" width="728.64" height="86.016" fill="none" stroke="#5E737B" stroke-width="3"/><text x="232.64" y="100.96" fill="#5E737B" font-family="sans-serif" font-size="20">card</text><text x="588.96" y="187.776" text-anchor="middle" fill="#E7E0D0" font-size="20" font-family="sans-serif">OWN TARGET</text><rect x="224.64" y="225.44" width="728.64" height="86.016" fill="none" stroke="#5E737B" stroke-width="3"/><text x="232.64" y="249.44" fill="#5E737B" font-family="sans-serif" font-size="20">card</text><text x="588.96" y="336.256" text-anchor="middle" fill="#E7E0D0" font-size="20" font-family="sans-serif">POSSIBLE TEAM BENEFIT</text><rect x="224.64" y="373.92" width="728.64" height="86.016" fill="none" stroke="#5E737B" stroke-width="3"/><text x="232.64" y="397.92" fill="#5E737B" font-family="sans-serif" font-size="20">card</text><text x="588.96" y="484.736" text-anchor="middle" fill="#E7E0D0" font-size="20" font-family="sans-serif">CONDITIONAL APPROVAL</text><rect x="3" y="3" width="1194" height="794" fill="none" stroke="#5E737B" stroke-width="4"/></svg>
+</metadata><rect width="1200" height="800" fill="#101214"/><rect x="224.64" y="76.96" width="728.64" height="86.016" fill="none" stroke="#5E737B" stroke-width="3"/><text x="232.64" y="100.96" fill="#5E737B" font-family="sans-serif" font-size="20">card</text><text x="588.96" y="187.776" text-anchor="middle" fill="#E7E0D0" font-size="20" font-family="sans-serif">EXPECTED DISQUALIFICATION</text><rect x="224.64" y="225.44" width="728.64" height="86.016" fill="none" stroke="#5E737B" stroke-width="3"/><text x="232.64" y="249.44" fill="#5E737B" font-family="sans-serif" font-size="20">card</text><text x="588.96" y="336.256" text-anchor="middle" fill="#E7E0D0" font-size="20" font-family="sans-serif">POSSIBLE TEAM BENEFIT</text><rect x="224.64" y="373.92" width="728.64" height="86.016" fill="none" stroke="#5E737B" stroke-width="3"/><text x="232.64" y="397.92" fill="#5E737B" font-family="sans-serif" font-size="20">card</text><text x="588.96" y="484.736" text-anchor="middle" fill="#E7E0D0" font-size="20" font-family="sans-serif">CONDITIONAL APPROVAL</text><rect x="3" y="3" width="1194" height="794" fill="none" stroke="#5E737B" stroke-width="4"/></svg>
