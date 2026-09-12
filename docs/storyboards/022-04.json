@@ -1,6 +1,6 @@
 {
   "background": "ink",
-  "intent": "Make the route turn toward the internal service through an opaque mechanism block. Direction and crossed scope carry the concept; hidden mechanics must remain hidden.",
+  "intent": "Make the route turn toward the internal service through an opaque mechanism block. Direction and crossed scope carry the concept; hidden mechanics must remain hidden. Visual distinction: A solid tiled network wall with disconnected cable ends. Indicates unavailable reach, not a decision awaiting human approval.",
   "lettering": [
     {
       "box": [
@@ -74,7 +74,7 @@
       "focus": true
     },
     {
-      "asset": "gate",
+      "asset": "network-wall",
       "box": [
         0.674417,
         0.2012,

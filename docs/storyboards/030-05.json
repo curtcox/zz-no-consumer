@@ -1,6 +1,6 @@
 {
   "background": "ink",
-  "intent": "Combine a live service, clean contents and reduced access in one view. Keep moss absent; constrained operation must not look like either total shutdown or an unchanged vulnerable system.",
+  "intent": "Combine a live service, clean contents and reduced access in one view. Keep moss absent; constrained operation must not look like either total shutdown or an unchanged vulnerable system. Visual distinction: A sieve with one narrow allowed aperture and stopped alternative lanes. Shows a reduced request surface without claiming all access is blocked.",
   "lettering": [
     {
       "box": [
@@ -33,7 +33,7 @@
       "label_size": 18
     },
     {
-      "asset": "gate",
+      "asset": "policy-filter",
       "box": [
         0.371083,
         0.2012,

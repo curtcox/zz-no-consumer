@@ -1,6 +1,6 @@
 {
   "background": "ink",
-  "intent": "Keep the low-privilege card outside the large administrator gate. Date and scope distinguish existing access from the additional authority the sequence will show.",
+  "intent": "Keep the low-privilege card outside the large administrator gate. Date and scope distinguish existing access from the additional authority the sequence will show. Visual distinction: Nested privilege layers and a keyhole distinguish authority from network reach. The inner authority layer remains closed.",
   "lettering": [
     {
       "box": [
@@ -33,7 +33,7 @@
       "label_size": 18
     },
     {
-      "asset": "gate",
+      "asset": "privilege-gate",
       "box": [
         0.52275,
         0.2012,

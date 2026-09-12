@@ -1,6 +1,6 @@
 {
   "background": "ink",
-  "intent": "Let the return key gesture end at a firm date divider. Beyond it, restore the earlier steel-only state; the date must carry the rewind before any recurring cache motif can suggest chronology continued.",
+  "intent": "Let the return key gesture end at a firm date divider. Beyond it, restore the earlier steel-only state; the date must carry the rewind before any recurring cache motif can suggest chronology continued. Visual distinction: An unbroken date rule with asymmetric ticks. Separates dated states without drawing an access restriction or a continuing identity.",
   "lettering": [
     {
       "box": [
@@ -35,7 +35,7 @@
       "focus": true
     },
     {
-      "asset": "boundary",
+      "asset": "time-divider",
       "box": [
         0.64,
         0.3,

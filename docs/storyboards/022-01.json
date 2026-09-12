@@ -1,6 +1,6 @@
 {
   "background": "ink",
-  "intent": "Make the date gutter interrupt the earlier path completely. Reintroduce service geometry after the break without carrying a handle or an unbroken trajectory across time.",
+  "intent": "Make the date gutter interrupt the earlier path completely. Reintroduce service geometry after the break without carrying a handle or an unbroken trajectory across time. Visual distinction: An unbroken date rule with asymmetric ticks. Separates dated states without drawing an access restriction or a continuing identity.",
   "lettering": [
     {
       "box": [
@@ -42,11 +42,11 @@
       ]
     },
     {
-      "asset": "boundary",
+      "asset": "time-divider",
       "box": [
-        0.46486649999999996,
+        0.458366,
         0.1794,
-        0.012,
+        0.025,
         0.1408
       ],
       "color": "paper",

@@ -100,3 +100,6 @@ The local service binds only to loopback. Mutations require its session token, m
 origin when supplied, and the current catalog revision. Saves and rebuilds share a lock.
 The checker exercises preservation, rollback, stale-write rejection, invalid SVGs,
 missing version pins, two-version rendering and isolated SVG IDs using temporary data.
+
+See the [barrier and background audit](storyboard-barrier-audit.md) for semantic
+barrier types and their scene-specific applications.

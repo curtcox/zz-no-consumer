@@ -1,7 +1,7 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="800" viewBox="0 0 1200 800"><title>Earlier public sources face the later wiki report</title><desc>Separate earlier public accounts from the later report around a blank wiki lane. Absence from an account becomes a disclosure question, not automatic proof of concealment.</desc><metadata>{
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="800" viewBox="0 0 1200 800"><title>Earlier public sources face the later wiki report</title><desc>Separate earlier public accounts from the later report around a blank wiki lane. Absence from an account becomes a disclosure question, not automatic proof of concealment. Visual distinction: An unbroken date rule with asymmetric ticks. Separates dated states without drawing an access restriction or a continuing identity.</desc><metadata>{
   &quot;assets&quot;: {
-    &quot;boundary&quot;: &quot;&lt;defs&gt;\n&lt;linearGradient id=\&quot;tone\&quot; x1=\&quot;0\&quot; y1=\&quot;0\&quot; x2=\&quot;1\&quot; y2=\&quot;1\&quot;&gt;&lt;stop stop-color=\&quot;currentColor\&quot; /&gt;&lt;stop offset=\&quot;1\&quot; stop-color=\&quot;#101214\&quot; stop-opacity=\&quot;.65\&quot; /&gt;&lt;/linearGradient&gt;\n&lt;pattern id=\&quot;hatch\&quot; width=\&quot;7\&quot; height=\&quot;7\&quot; patternUnits=\&quot;userSpaceOnUse\&quot;&gt;&lt;path d=\&quot;M-1 1L1 -1M0 7L7 0M6 8L8 6\&quot; stroke=\&quot;currentColor\&quot; stroke-width=\&quot;1\&quot; opacity=\&quot;.5\&quot; /&gt;&lt;/pattern&gt;\n&lt;/defs&gt;&lt;rect x=\&quot;39\&quot; y=\&quot;0\&quot; width=\&quot;22\&quot; height=\&quot;100\&quot; fill=\&quot;url(#tone)\&quot; /&gt;&lt;rect x=\&quot;43\&quot; y=\&quot;0\&quot; width=\&quot;14\&quot; height=\&quot;100\&quot; fill=\&quot;url(#hatch)\&quot; /&gt;&lt;path d=\&quot;M39 0V100M61 0V100\&quot; fill=\&quot;none\&quot; stroke=\&quot;#E7E0D0\&quot; stroke-width=\&quot;1\&quot; /&gt;&quot;,
-    &quot;paper&quot;: &quot;&lt;defs&gt;\n&lt;linearGradient id=\&quot;stock\&quot; x1=\&quot;0\&quot; y1=\&quot;0\&quot; x2=\&quot;.8\&quot; y2=\&quot;1\&quot;&gt;&lt;stop stop-color=\&quot;#E7E0D0\&quot; /&gt;&lt;stop offset=\&quot;1\&quot; stop-color=\&quot;#CEC5B3\&quot; /&gt;&lt;/linearGradient&gt;\n&lt;pattern id=\&quot;grain\&quot; width=\&quot;7\&quot; height=\&quot;9\&quot; patternUnits=\&quot;userSpaceOnUse\&quot;&gt;&lt;circle cx=\&quot;1\&quot; cy=\&quot;2\&quot; r=\&quot;.35\&quot; fill=\&quot;#101214\&quot; opacity=\&quot;.18\&quot; /&gt;&lt;path d=\&quot;M4 6h2M1 8h1\&quot; stroke=\&quot;#101214\&quot; stroke-width=\&quot;.3\&quot; opacity=\&quot;.16\&quot; /&gt;&lt;/pattern&gt;\n&lt;/defs&gt;&lt;path d=\&quot;M8 2H73L93 22V96H8Z\&quot; fill=\&quot;url(#stock)\&quot; stroke=\&quot;currentColor\&quot; stroke-width=\&quot;2\&quot; /&gt;&lt;path d=\&quot;M8 2H73L93 22V96H8Z\&quot; fill=\&quot;url(#grain)\&quot; /&gt;&lt;path d=\&quot;M73 2V22H93\&quot; fill=\&quot;#CEC5B3\&quot; stroke=\&quot;#101214\&quot; stroke-width=\&quot;1\&quot; /&gt;&lt;path d=\&quot;M18 33H82M18 43H80M18 53H68M18 67H82M18 77H72M18 87H49\&quot; fill=\&quot;none\&quot; stroke=\&quot;#101214\&quot; stroke-width=\&quot;1.5\&quot; /&gt;&quot;
+    &quot;paper&quot;: &quot;&lt;defs&gt;\n&lt;linearGradient id=\&quot;stock\&quot; x1=\&quot;0\&quot; y1=\&quot;0\&quot; x2=\&quot;.8\&quot; y2=\&quot;1\&quot;&gt;&lt;stop stop-color=\&quot;#E7E0D0\&quot; /&gt;&lt;stop offset=\&quot;1\&quot; stop-color=\&quot;#CEC5B3\&quot; /&gt;&lt;/linearGradient&gt;\n&lt;pattern id=\&quot;grain\&quot; width=\&quot;7\&quot; height=\&quot;9\&quot; patternUnits=\&quot;userSpaceOnUse\&quot;&gt;&lt;circle cx=\&quot;1\&quot; cy=\&quot;2\&quot; r=\&quot;.35\&quot; fill=\&quot;#101214\&quot; opacity=\&quot;.18\&quot; /&gt;&lt;path d=\&quot;M4 6h2M1 8h1\&quot; stroke=\&quot;#101214\&quot; stroke-width=\&quot;.3\&quot; opacity=\&quot;.16\&quot; /&gt;&lt;/pattern&gt;\n&lt;/defs&gt;&lt;path d=\&quot;M8 2H73L93 22V96H8Z\&quot; fill=\&quot;url(#stock)\&quot; stroke=\&quot;currentColor\&quot; stroke-width=\&quot;2\&quot; /&gt;&lt;path d=\&quot;M8 2H73L93 22V96H8Z\&quot; fill=\&quot;url(#grain)\&quot; /&gt;&lt;path d=\&quot;M73 2V22H93\&quot; fill=\&quot;#CEC5B3\&quot; stroke=\&quot;#101214\&quot; stroke-width=\&quot;1\&quot; /&gt;&lt;path d=\&quot;M18 33H82M18 43H80M18 53H68M18 67H82M18 77H72M18 87H49\&quot; fill=\&quot;none\&quot; stroke=\&quot;#101214\&quot; stroke-width=\&quot;1.5\&quot; /&gt;&quot;,
+    &quot;time-divider&quot;: &quot;&lt;path d=\&quot;M50 0V100\&quot; stroke=\&quot;currentColor\&quot; stroke-width=\&quot;16\&quot;/&gt;&lt;path d=\&quot;M5 8H50M5 31H50M50 69H95M50 92H95\&quot; stroke=\&quot;currentColor\&quot; stroke-width=\&quot;8\&quot;/&gt;&quot;
   },
   &quot;palette&quot;: {
     &quot;amber&quot;: &quot;#A17D45&quot;,
@@ -18,7 +18,7 @@
   &quot;renderer&quot;: &quot;storyboard-svg-2&quot;,
   &quot;scene&quot;: {
     &quot;background&quot;: &quot;ink&quot;,
-    &quot;intent&quot;: &quot;Separate earlier public accounts from the later report around a blank wiki lane. Absence from an account becomes a disclosure question, not automatic proof of concealment.&quot;,
+    &quot;intent&quot;: &quot;Separate earlier public accounts from the later report around a blank wiki lane. Absence from an account becomes a disclosure question, not automatic proof of concealment. Visual distinction: An unbroken date rule with asymmetric ticks. Separates dated states without drawing an access restriction or a continuing identity.&quot;,
     &quot;lettering&quot;: [
       {
         &quot;box&quot;: [
@@ -70,11 +70,11 @@
         &quot;label_size&quot;: 18
       },
       {
-        &quot;asset&quot;: &quot;boundary&quot;,
+        &quot;asset&quot;: &quot;time-divider&quot;,
         &quot;box&quot;: [
-          0.49363,
+          0.4875,
           0.406608,
-          0.01274,
+          0.025,
           0.479776
         ],
         &quot;color&quot;: &quot;steel&quot;,
@@ -87,4 +87,4 @@
     &quot;title&quot;: &quot;Earlier public sources face the later wiki report&quot;
   }
 }
-</metadata><rect width="1200" height="800" fill="#101214"/><rect x="81.3" y="403.795" width="469.56" height="169.841" fill="none" stroke="#5E737B" stroke-width="3"/><text x="89.3" y="427.795" fill="#5E737B" font-family="sans-serif" font-size="20">paper</text><text x="316.08" y="601.93" text-anchor="middle" fill="#E7E0D0" font-size="18" font-family="sans-serif">AUGUST ACCOUNTS</text><rect x="627.3" y="403.795" width="469.56" height="169.841" fill="none" stroke="#5E737B" stroke-width="3"/><text x="635.3" y="427.795" fill="#5E737B" font-family="sans-serif" font-size="20">paper</text><text x="862.08" y="601.93" text-anchor="middle" fill="#E7E0D0" font-size="18" font-family="sans-serif">4 SEPTEMBER REPORT</text><rect x="592.356" y="325.286" width="15.288" height="383.821" fill="none" stroke="#5E737B" stroke-width="3"/><text x="600.356" y="349.286" fill="#5E737B" font-family="sans-serif" font-size="20">boundary</text><rect x="3" y="3" width="1194" height="794" fill="none" stroke="#5E737B" stroke-width="4"/></svg>
+</metadata><rect width="1200" height="800" fill="#101214"/><rect x="81.3" y="403.795" width="469.56" height="169.841" fill="none" stroke="#5E737B" stroke-width="3"/><text x="89.3" y="427.795" fill="#5E737B" font-family="sans-serif" font-size="20">paper</text><text x="316.08" y="601.93" text-anchor="middle" fill="#E7E0D0" font-size="18" font-family="sans-serif">AUGUST ACCOUNTS</text><rect x="627.3" y="403.795" width="469.56" height="169.841" fill="none" stroke="#5E737B" stroke-width="3"/><text x="635.3" y="427.795" fill="#5E737B" font-family="sans-serif" font-size="20">paper</text><text x="862.08" y="601.93" text-anchor="middle" fill="#E7E0D0" font-size="18" font-family="sans-serif">4 SEPTEMBER REPORT</text><rect x="585" y="325.286" width="30" height="383.821" fill="none" stroke="#5E737B" stroke-width="3"/><text x="593" y="349.286" fill="#5E737B" font-family="sans-serif" font-size="20">time-divider</text><rect x="3" y="3" width="1194" height="794" fill="none" stroke="#5E737B" stroke-width="4"/></svg>

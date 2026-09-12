@@ -1,6 +1,6 @@
 {
   "background": "ink",
-  "intent": "Remove shared-service paths, narrow privilege and show repeated boundary probes as separate changes. Testing verifies edges rather than automatically certifying them forever.",
+  "intent": "Remove shared-service paths, narrow privilege and show repeated boundary probes as separate changes. Testing verifies edges rather than automatically certifying them forever. Visual distinction: A sieve with one narrow allowed aperture and stopped alternative lanes. Shows a reduced request surface without claiming all access is blocked.",
   "lettering": [
     {
       "box": [
@@ -33,7 +33,7 @@
       "label_size": 18
     },
     {
-      "asset": "gate",
+      "asset": "policy-filter",
       "box": [
         0.371083,
         0.2012,

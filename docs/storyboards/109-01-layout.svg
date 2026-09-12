@@ -1,6 +1,7 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="800" viewBox="0 0 1200 800"><title>The creator adds a second timeline lane</title><desc>Add a separate public-wiki lane beneath the existing incident timeline on the creator&#x27;s desk. Preserve the earlier lane intact rather than rewriting it around the new report.</desc><metadata>{
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="800" viewBox="0 0 1200 800"><title>The creator adds a second timeline lane</title><desc>Add a separate public-wiki lane beneath the existing incident timeline on the creator&#x27;s desk. Preserve the earlier lane intact rather than rewriting it around the new report. Visual distinction: Two separated calendar rails with a wide blank middle gutter and aligned edge ticks. Supports dated comparison without links, shared identities, or additional event marks.</desc><metadata>{
   &quot;assets&quot;: {
-    &quot;card&quot;: &quot;&lt;defs&gt;\n&lt;linearGradient id=\&quot;stock\&quot; x1=\&quot;0\&quot; y1=\&quot;0\&quot; x2=\&quot;.8\&quot; y2=\&quot;1\&quot;&gt;&lt;stop stop-color=\&quot;#E7E0D0\&quot; /&gt;&lt;stop offset=\&quot;1\&quot; stop-color=\&quot;#CEC5B3\&quot; /&gt;&lt;/linearGradient&gt;\n&lt;pattern id=\&quot;grain\&quot; width=\&quot;7\&quot; height=\&quot;9\&quot; patternUnits=\&quot;userSpaceOnUse\&quot;&gt;&lt;circle cx=\&quot;1\&quot; cy=\&quot;2\&quot; r=\&quot;.35\&quot; fill=\&quot;#101214\&quot; opacity=\&quot;.18\&quot; /&gt;&lt;path d=\&quot;M4 6h2M1 8h1\&quot; stroke=\&quot;#101214\&quot; stroke-width=\&quot;.3\&quot; opacity=\&quot;.16\&quot; /&gt;&lt;/pattern&gt;\n&lt;/defs&gt;&lt;path d=\&quot;M5 3H95V97H5Z\&quot; fill=\&quot;url(#stock)\&quot; stroke=\&quot;currentColor\&quot; stroke-width=\&quot;2\&quot; /&gt;&lt;path d=\&quot;M5 3H95V97H5Z\&quot; fill=\&quot;url(#grain)\&quot; /&gt;&lt;rect x=\&quot;5\&quot; y=\&quot;3\&quot; width=\&quot;90\&quot; height=\&quot;15\&quot; fill=\&quot;currentColor\&quot; /&gt;&lt;rect x=\&quot;10\&quot; y=\&quot;25\&quot; width=\&quot;5\&quot; height=\&quot;61\&quot; fill=\&quot;currentColor\&quot; /&gt;&lt;path d=\&quot;M23 29H85M23 38H75M23 48H83M23 66H62M23 78H80\&quot; fill=\&quot;none\&quot; stroke=\&quot;#101214\&quot; stroke-width=\&quot;2\&quot; /&gt;&lt;path d=\&quot;M12 11H42M65 11H86\&quot; fill=\&quot;none\&quot; stroke=\&quot;#E7E0D0\&quot; stroke-width=\&quot;1.4\&quot; /&gt;&quot;
+    &quot;card&quot;: &quot;&lt;defs&gt;\n&lt;linearGradient id=\&quot;stock\&quot; x1=\&quot;0\&quot; y1=\&quot;0\&quot; x2=\&quot;.8\&quot; y2=\&quot;1\&quot;&gt;&lt;stop stop-color=\&quot;#E7E0D0\&quot; /&gt;&lt;stop offset=\&quot;1\&quot; stop-color=\&quot;#CEC5B3\&quot; /&gt;&lt;/linearGradient&gt;\n&lt;pattern id=\&quot;grain\&quot; width=\&quot;7\&quot; height=\&quot;9\&quot; patternUnits=\&quot;userSpaceOnUse\&quot;&gt;&lt;circle cx=\&quot;1\&quot; cy=\&quot;2\&quot; r=\&quot;.35\&quot; fill=\&quot;#101214\&quot; opacity=\&quot;.18\&quot; /&gt;&lt;path d=\&quot;M4 6h2M1 8h1\&quot; stroke=\&quot;#101214\&quot; stroke-width=\&quot;.3\&quot; opacity=\&quot;.16\&quot; /&gt;&lt;/pattern&gt;\n&lt;/defs&gt;&lt;path d=\&quot;M5 3H95V97H5Z\&quot; fill=\&quot;url(#stock)\&quot; stroke=\&quot;currentColor\&quot; stroke-width=\&quot;2\&quot; /&gt;&lt;path d=\&quot;M5 3H95V97H5Z\&quot; fill=\&quot;url(#grain)\&quot; /&gt;&lt;rect x=\&quot;5\&quot; y=\&quot;3\&quot; width=\&quot;90\&quot; height=\&quot;15\&quot; fill=\&quot;currentColor\&quot; /&gt;&lt;rect x=\&quot;10\&quot; y=\&quot;25\&quot; width=\&quot;5\&quot; height=\&quot;61\&quot; fill=\&quot;currentColor\&quot; /&gt;&lt;path d=\&quot;M23 29H85M23 38H75M23 48H83M23 66H62M23 78H80\&quot; fill=\&quot;none\&quot; stroke=\&quot;#101214\&quot; stroke-width=\&quot;2\&quot; /&gt;&lt;path d=\&quot;M12 11H42M65 11H86\&quot; fill=\&quot;none\&quot; stroke=\&quot;#E7E0D0\&quot; stroke-width=\&quot;1.4\&quot; /&gt;&quot;,
+    &quot;parallel-calendar-field&quot;: &quot;&lt;g fill=\&quot;currentColor\&quot; fill-opacity=\&quot;.045\&quot; stroke=\&quot;currentColor\&quot; stroke-opacity=\&quot;.35\&quot;&gt;&lt;path d=\&quot;M2 2H98V41H2Z\&quot;/&gt;&lt;path d=\&quot;M2 59H98V98H2Z\&quot;/&gt;&lt;/g&gt;&lt;path d=\&quot;M3 4V10M25 4V10M49 4V10M73 4V10M97 4V10M3 61V67M25 61V67M49 61V67M73 61V67M97 61V67\&quot; stroke=\&quot;currentColor\&quot; stroke-width=\&quot;1\&quot; opacity=\&quot;.4\&quot;/&gt;&quot;
   },
   &quot;palette&quot;: {
     &quot;amber&quot;: &quot;#A17D45&quot;,
@@ -17,7 +18,7 @@
   &quot;renderer&quot;: &quot;storyboard-svg-2&quot;,
   &quot;scene&quot;: {
     &quot;background&quot;: &quot;ink&quot;,
-    &quot;intent&quot;: &quot;Add a separate public-wiki lane beneath the existing incident timeline on the creator&#x27;s desk. Preserve the earlier lane intact rather than rewriting it around the new report.&quot;,
+    &quot;intent&quot;: &quot;Add a separate public-wiki lane beneath the existing incident timeline on the creator&#x27;s desk. Preserve the earlier lane intact rather than rewriting it around the new report. Visual distinction: Two separated calendar rails with a wide blank middle gutter and aligned edge ticks. Supports dated comparison without links, shared identities, or additional event marks.&quot;,
     &quot;lettering&quot;: [
       {
         &quot;box&quot;: [
@@ -30,6 +31,16 @@
     ],
     &quot;lettering_mode&quot;: &quot;manual&quot;,
     &quot;nodes&quot;: [
+      {
+        &quot;asset&quot;: &quot;parallel-calendar-field&quot;,
+        &quot;box&quot;: [
+          0.06,
+          0.07,
+          0.87,
+          0.57
+        ],
+        &quot;color&quot;: &quot;steel&quot;
+      },
       {
         &quot;asset&quot;: &quot;card&quot;,
         &quot;box&quot;: [
@@ -73,4 +84,4 @@
     &quot;title&quot;: &quot;The creator adds a second timeline lane&quot;
   }
 }
-</metadata><rect width="1200" height="800" fill="#101214"/><rect x="224.64" y="76.96" width="728.64" height="129.024" fill="none" stroke="#5E737B" stroke-width="3"/><text x="232.64" y="100.96" fill="#5E737B" font-family="sans-serif" font-size="20">card</text><text x="588.96" y="230.784" text-anchor="middle" fill="#E7E0D0" font-size="20" font-family="sans-serif">ARTIFACTORY</text><rect x="224.64" y="299.68" width="728.64" height="129.024" fill="none" stroke="#5E737B" stroke-width="3"/><text x="232.64" y="323.68" fill="#5E737B" font-family="sans-serif" font-size="20">card</text><text x="588.96" y="453.504" text-anchor="middle" fill="#E7E0D0" font-size="20" font-family="sans-serif">PUBLIC WIKI</text><rect x="3" y="3" width="1194" height="794" fill="none" stroke="#5E737B" stroke-width="4"/></svg>
+</metadata><rect width="1200" height="800" fill="#101214"/><rect x="72" y="56" width="1044" height="456" fill="none" stroke="#5E737B" stroke-width="3"/><text x="80" y="80" fill="#5E737B" font-family="sans-serif" font-size="20">parallel-calendar-field</text><rect x="224.64" y="76.96" width="728.64" height="129.024" fill="none" stroke="#5E737B" stroke-width="3"/><text x="232.64" y="100.96" fill="#5E737B" font-family="sans-serif" font-size="20">card</text><text x="588.96" y="230.784" text-anchor="middle" fill="#E7E0D0" font-size="20" font-family="sans-serif">ARTIFACTORY</text><rect x="224.64" y="299.68" width="728.64" height="129.024" fill="none" stroke="#5E737B" stroke-width="3"/><text x="232.64" y="323.68" fill="#5E737B" font-family="sans-serif" font-size="20">card</text><text x="588.96" y="453.504" text-anchor="middle" fill="#E7E0D0" font-size="20" font-family="sans-serif">PUBLIC WIKI</text><rect x="3" y="3" width="1194" height="794" fill="none" stroke="#5E737B" stroke-width="4"/></svg>

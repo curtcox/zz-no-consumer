@@ -1,6 +1,6 @@
 {
   "background": "ink",
-  "intent": "Separate earlier public accounts from the later report around a blank wiki lane. Absence from an account becomes a disclosure question, not automatic proof of concealment.",
+  "intent": "Separate earlier public accounts from the later report around a blank wiki lane. Absence from an account becomes a disclosure question, not automatic proof of concealment. Visual distinction: An unbroken date rule with asymmetric ticks. Separates dated states without drawing an access restriction or a continuing identity.",
   "lettering": [
     {
       "box": [
@@ -52,11 +52,11 @@
       "label_size": 18
     },
     {
-      "asset": "boundary",
+      "asset": "time-divider",
       "box": [
-        0.49363,
+        0.4875,
         0.406608,
-        0.01274,
+        0.025,
         0.479776
       ],
       "color": "steel",

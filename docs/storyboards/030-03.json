@@ -1,6 +1,6 @@
 {
   "background": "ink",
-  "intent": "Show two individually blocked routes plus a narrower surviving policy gate. Concrete mitigation must be visible before the narrative asks what conditions it left unchanged.",
+  "intent": "Show two individually blocked routes plus a narrower surviving policy gate. Concrete mitigation must be visible before the narrative asks what conditions it left unchanged. Visual distinction: A sieve with one narrow allowed aperture and stopped alternative lanes. Shows a reduced request surface without claiming all access is blocked.",
   "lettering": [
     {
       "box": [
@@ -52,7 +52,7 @@
       "label_size": 18
     },
     {
-      "asset": "gate",
+      "asset": "policy-filter",
       "box": [
         0.674417,
         0.2012,

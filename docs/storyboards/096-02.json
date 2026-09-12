@@ -1,6 +1,6 @@
 {
   "background": "ink",
-  "intent": "Bring secure execution back first, then route later workloads individually through review. A single reopened lane must not unlock the entire field.",
+  "intent": "Bring secure execution back first, then route later workloads individually through review. A single reopened lane must not unlock the entire field. Visual distinction: A docket slot beside a raised review desk and a closed stop arm. Review is a decision process; no approval is implied.",
   "lettering": [
     {
       "box": [
@@ -33,7 +33,7 @@
       "label_size": 18
     },
     {
-      "asset": "gate",
+      "asset": "review-checkpoint",
       "box": [
         0.52275,
         0.2012,

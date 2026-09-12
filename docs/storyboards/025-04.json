@@ -1,6 +1,6 @@
 {
   "background": "ink",
-  "intent": "Separate responder display and retrospective dossier inset with a hard gutter. The reader may see both, but no sightline or overlay should give the responder the inset's later knowledge.",
+  "intent": "Separate responder display and retrospective dossier inset with a hard gutter. The reader may see both, but no sightline or overlay should give the responder the inset's later knowledge. Visual distinction: A firm source edge with incomplete outer brackets. The blank gutter marks the limit of review, not destruction or proof of absence.",
   "lettering": [
     {
       "box": [
@@ -52,11 +52,11 @@
       "label_size": 18
     },
     {
-      "asset": "boundary",
+      "asset": "evidence-limit",
       "box": [
-        0.49363,
+        0.4875,
         0.0734,
-        0.01274,
+        0.025,
         0.6248
       ],
       "color": "steel",

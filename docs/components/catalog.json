@@ -512,6 +512,31 @@
       ]
     },
     {
+      "category": "connections",
+      "default": "v001",
+      "description": "A continuous double rule with permission tabs on only one side. Marks allowed scope independently of technical ability; never implies a physical wall.",
+      "id": "authorization-rule",
+      "name": "Authorization scope rule",
+      "usage": {
+        "default": [
+          "047-01",
+          "047-02",
+          "061-01"
+        ],
+        "pinned": {}
+      },
+      "versions": [
+        {
+          "created": "2026-09-12T23:15:26+00:00",
+          "id": "v001",
+          "note": "A continuous double rule with permission tabs on only one side. Marks allowed scope independently of technical ability; never implies a physical wall.",
+          "parent": null,
+          "sha256": "09c08f8563bf4206135975a877c0944b4be433cc3b572ad65424f01646879892",
+          "url": "versions/authorization-rule/v001.svg"
+        }
+      ]
+    },
+    {
       "category": "objects",
       "default": "v003",
       "description": "A computer display with an empty text field. Used for an unstarted conversation or deliberately dark interface.",
@@ -587,24 +612,16 @@
           "010-03",
           "011-02",
           "014-01",
-          "014-06",
-          "015-05",
-          "016-05",
           "017-02",
           "017-03",
           "017-04",
-          "018-04",
           "019-02",
           "021-04",
-          "022-01",
           "022-03",
           "024-02",
-          "025-04",
           "027-05",
-          "029-01",
           "029-02",
           "029-03",
-          "030-01",
           "030-04",
           "033-03",
           "035-04",
@@ -614,27 +631,21 @@
           "041-05",
           "045-04",
           "046-03",
-          "047-01",
-          "047-02",
           "047-05",
           "051-05",
-          "052-05",
           "054-01",
           "054-02",
           "054-03",
           "054-04",
           "056-05",
           "060-05",
-          "061-01",
           "061-02",
           "062-05",
           "064-02",
           "065-05",
-          "067-01",
           "070-01",
           "072-03",
           "075-03",
-          "076-03",
           "076-04",
           "077-01",
           "078-05",
@@ -650,9 +661,7 @@
           "091-01",
           "091-03",
           "091-05",
-          "093-04",
           "093-05",
-          "094-03",
           "096-04",
           "098-01",
           "098-02",
@@ -664,7 +673,6 @@
           "104-03",
           "107-04",
           "109-03",
-          "110-01",
           "110-03",
           "113-04",
           "117-01",
@@ -2219,6 +2227,35 @@
       ]
     },
     {
+      "category": "connections",
+      "default": "v001",
+      "description": "A firm source edge with incomplete outer brackets. The blank gutter marks the limit of review, not destruction or proof of absence.",
+      "id": "evidence-limit",
+      "name": "Evidence access limit",
+      "usage": {
+        "default": [
+          "014-06",
+          "016-05",
+          "025-04",
+          "052-05",
+          "067-01",
+          "076-03",
+          "093-04"
+        ],
+        "pinned": {}
+      },
+      "versions": [
+        {
+          "created": "2026-09-12T23:15:26+00:00",
+          "id": "v001",
+          "note": "A firm source edge with incomplete outer brackets. The blank gutter marks the limit of review, not destruction or proof of absence.",
+          "parent": null,
+          "sha256": "bd8dd1f4fcfe9827027b436d8d41e0dd16c70ea60da2d7d1989424893e5c962e",
+          "url": "versions/evidence-limit/v001.svg"
+        }
+      ]
+    },
+    {
       "category": "locations",
       "default": "v003",
       "description": "Reconstructed review workspace with an oversized lane wall extending beyond its visible margins and a bounded doorway. Distinguishes private evidence access from the creator’s public-source desk. Wall divisions suggest continued records, never a census or complete archive; no model-generated finding or record content is built in.",
@@ -2593,32 +2630,15 @@
       "name": "Gate",
       "usage": {
         "default": [
-          "003-01",
           "006-01",
           "007-01",
-          "011-05",
           "012-03",
-          "012-04",
           "012-05",
-          "017-02",
           "017-04",
-          "018-01",
-          "018-02",
-          "019-02",
-          "022-03",
-          "022-04",
-          "022-05",
-          "023-01",
-          "026-03",
-          "027-02",
-          "030-03",
-          "030-05",
           "031-01",
           "032-03",
           "038-02",
           "040-03",
-          "041-01",
-          "041-03",
           "042-05",
           "043-06",
           "044-05",
@@ -2627,32 +2647,17 @@
           "047-05",
           "052-01",
           "052-02",
-          "052-04",
           "052-06",
           "053-03",
           "054-01",
-          "055-01",
-          "055-04",
           "056-03",
-          "058-02",
-          "058-04",
-          "059-01",
-          "059-05",
           "061-01",
           "061-05",
           "069-05",
           "071-01",
-          "091-02",
-          "092-02",
           "093-05",
           "094-05",
           "095-02",
-          "095-03",
-          "096-02",
-          "096-03",
-          "096-04",
-          "096-05",
-          "097-02",
           "099-05",
           "100-05",
           "103-01",
@@ -2660,9 +2665,7 @@
           "103-03",
           "103-05",
           "104-01",
-          "104-02",
           "105-04",
-          "108-03",
           "115-05",
           "116-01",
           "116-02",
@@ -2757,6 +2760,7 @@
         "default": [
           "014-04",
           "047-05",
+          "108-03",
           "109-02",
           "110-03"
         ],
@@ -2909,6 +2913,30 @@
           "parent": "v002",
           "sha256": "3fefaec25d94bc11a7fbe804f986697e35d6323c904eff6496eca44cd2c7c971",
           "url": "versions/incomplete-sheet/v003.svg"
+        }
+      ]
+    },
+    {
+      "category": "connections",
+      "default": "v001",
+      "description": "Two capped edges with an empty interval and severed contact stubs. Containment disconnects traffic while preserving the isolated object.",
+      "id": "isolation-break",
+      "name": "Disconnected isolation seam",
+      "usage": {
+        "default": [
+          "029-01",
+          "030-01"
+        ],
+        "pinned": {}
+      },
+      "versions": [
+        {
+          "created": "2026-09-12T23:15:26+00:00",
+          "id": "v001",
+          "note": "Two capped edges with an empty interval and severed contact stubs. Containment disconnects traffic while preserving the isolated object.",
+          "parent": null,
+          "sha256": "6afd5bf04d47219df1c455c93ffb87a2c58df26080251d03bd6f60825cec25b7",
+          "url": "versions/isolation-break/v001.svg"
         }
       ]
     },
@@ -3157,6 +3185,42 @@
       ]
     },
     {
+      "category": "objects",
+      "default": "v001",
+      "description": "A solid tiled network wall with disconnected cable ends. Indicates unavailable reach, not a decision awaiting human approval.",
+      "id": "network-wall",
+      "name": "Network restriction",
+      "usage": {
+        "default": [
+          "003-01",
+          "011-05",
+          "017-02",
+          "018-01",
+          "018-02",
+          "019-02",
+          "022-03",
+          "022-04",
+          "026-03",
+          "027-02",
+          "052-04",
+          "055-01",
+          "055-04",
+          "091-02"
+        ],
+        "pinned": {}
+      },
+      "versions": [
+        {
+          "created": "2026-09-12T23:15:26+00:00",
+          "id": "v001",
+          "note": "A solid tiled network wall with disconnected cable ends. Indicates unavailable reach, not a decision awaiting human approval.",
+          "parent": null,
+          "sha256": "9090926d6520340fae80e6a0abf171a190cc6745d77e1fb6bf248af9b1327dc7",
+          "url": "versions/network-wall/v001.svg"
+        }
+      ]
+    },
+    {
       "category": "characters",
       "default": "v003",
       "description": "A cropped, shadowed creator profile with no identifying facial detail.",
@@ -3192,6 +3256,32 @@
           "parent": "v002",
           "sha256": "fc8689708f1723b7e8e1430d850ed59f985094b303659b363f37193ba489bce4",
           "url": "versions/obscured-profile/v003.svg"
+        }
+      ]
+    },
+    {
+      "category": "objects",
+      "default": "v001",
+      "description": "A ratchet edge and an unpressed control identify a one-way action. No crossing arrow or activated state establishes an outcome.",
+      "id": "one-way-control",
+      "name": "Irreversible action threshold",
+      "usage": {
+        "default": [
+          "058-02",
+          "058-04",
+          "059-01",
+          "059-05"
+        ],
+        "pinned": {}
+      },
+      "versions": [
+        {
+          "created": "2026-09-12T23:15:26+00:00",
+          "id": "v001",
+          "note": "A ratchet edge and an unpressed control identify a one-way action. No crossing arrow or activated state establishes an outcome.",
+          "parent": null,
+          "sha256": "960cab3aa91f8206c6e253776f7abcc5ff2d3c83d5ce76f2c4016ae20791c6d2",
+          "url": "versions/one-way-control/v001.svg"
         }
       ]
     },
@@ -3243,7 +3333,6 @@
       "name": "Open gate",
       "usage": {
         "default": [
-          "068-05",
           "096-03"
         ],
         "pinned": {}
@@ -3606,6 +3695,30 @@
       ]
     },
     {
+      "category": "locations",
+      "default": "v001",
+      "description": "Two separated calendar rails with a wide blank middle gutter and aligned edge ticks. Supports dated comparison without links, shared identities, or additional event marks.",
+      "id": "parallel-calendar-field",
+      "name": "Unconnected calendar lanes",
+      "usage": {
+        "default": [
+          "109-01",
+          "109-02"
+        ],
+        "pinned": {}
+      },
+      "versions": [
+        {
+          "created": "2026-09-12T23:15:26+00:00",
+          "id": "v001",
+          "note": "Two separated calendar rails with a wide blank middle gutter and aligned edge ticks. Supports dated comparison without links, shared identities, or additional event marks.",
+          "parent": null,
+          "sha256": "17f8175a0463b3483d3655db583a7fa509abe3a4b93109e9a5fd15fab5634455",
+          "url": "versions/parallel-calendar-field/v001.svg"
+        }
+      ]
+    },
+    {
       "category": "characters",
       "default": "v004",
       "description": "An anonymous seated blocking figure for reconstructed human scenes. No approved likeness is implied.",
@@ -3725,6 +3838,104 @@
           "parent": "v002",
           "sha256": "07ded79639618bd269f12638b0f0c142fd09e9a9e3180b846fa6f1a3a0a371fc",
           "url": "versions/person-standing/v003.svg"
+        }
+      ]
+    },
+    {
+      "category": "objects",
+      "default": "v001",
+      "description": "A sieve with one narrow allowed aperture and stopped alternative lanes. Shows a reduced request surface without claiming all access is blocked.",
+      "id": "policy-filter",
+      "name": "Restricted request filter",
+      "usage": {
+        "default": [
+          "030-03",
+          "030-05",
+          "092-02"
+        ],
+        "pinned": {}
+      },
+      "versions": [
+        {
+          "created": "2026-09-12T23:15:26+00:00",
+          "id": "v001",
+          "note": "A sieve with one narrow allowed aperture and stopped alternative lanes. Shows a reduced request surface without claiming all access is blocked.",
+          "parent": null,
+          "sha256": "8fa25b2f08f06949591016bc07f75243966c2b615cb44a9da758e2b5938517af",
+          "url": "versions/policy-filter/v001.svg"
+        }
+      ]
+    },
+    {
+      "category": "locations",
+      "default": "v001",
+      "description": "An archival sleeve with folded corners and a continuous custody band. Its empty center holds preserved storage separately from live traffic; no records or checksums are invented.",
+      "id": "preserved-evidence-field",
+      "name": "Preserved evidence enclosure",
+      "usage": {
+        "default": [
+          "029-02",
+          "029-03",
+          "030-01"
+        ],
+        "pinned": {}
+      },
+      "versions": [
+        {
+          "created": "2026-09-12T23:15:26+00:00",
+          "id": "v001",
+          "note": "An archival sleeve with folded corners and a continuous custody band. Its empty center holds preserved storage separately from live traffic; no records or checksums are invented.",
+          "parent": null,
+          "sha256": "edeade0ed75c25d95206efb02bffc9650ff0f524a517faf4bf7cb13ccd470d81",
+          "url": "versions/preserved-evidence-field/v001.svg"
+        }
+      ]
+    },
+    {
+      "category": "objects",
+      "default": "v001",
+      "description": "Nested privilege layers and a keyhole distinguish authority from network reach. The inner authority layer remains closed.",
+      "id": "privilege-gate",
+      "name": "Administrator privilege gate",
+      "usage": {
+        "default": [
+          "012-04",
+          "022-05",
+          "023-01"
+        ],
+        "pinned": {}
+      },
+      "versions": [
+        {
+          "created": "2026-09-12T23:15:26+00:00",
+          "id": "v001",
+          "note": "Nested privilege layers and a keyhole distinguish authority from network reach. The inner authority layer remains closed.",
+          "parent": null,
+          "sha256": "bc245f0801e6e324e844f7360f0d8ea91455d6f420cc9775911af3b51fb9eb0a",
+          "url": "versions/privilege-gate/v001.svg"
+        }
+      ]
+    },
+    {
+      "category": "objects",
+      "default": "v001",
+      "description": "Nested privilege layers and a keyhole distinguish authority from network reach. Open leaves indicate access established in the attributed account.",
+      "id": "privilege-open",
+      "name": "Administrator privilege open",
+      "usage": {
+        "default": [
+          "068-05"
+        ],
+        "pinned": {}
+      },
+      "versions": [
+        {
+          "created": "2026-09-12T23:15:26+00:00",
+          "id": "v001",
+          "note": "Nested privilege layers and a keyhole distinguish authority from network reach. Open leaves indicate access established in the attributed account.",
+          "parent": null,
+          "sha256": "f06ba51a58a21eb41599adbc2bf4c92119bba9b44cb1d7d5cfeb5ff229aaf236",
+          "url": "versions/privilege-open/v001.svg"
         }
       ]
     },
@@ -4072,6 +4283,55 @@
           "parent": "v003",
           "sha256": "2f0fbd1cfa2e2e70654a2d04056b107140067af56791a87f9c9f5acc2214af78",
           "url": "versions/reply-bracket/v004.svg"
+        }
+      ]
+    },
+    {
+      "category": "objects",
+      "default": "v001",
+      "description": "A docket slot beside a raised review desk and a closed stop arm. Review is a decision process; no approval is implied.",
+      "id": "review-checkpoint",
+      "name": "Individual review checkpoint",
+      "usage": {
+        "default": [
+          "041-01",
+          "041-03",
+          "096-02",
+          "096-03"
+        ],
+        "pinned": {}
+      },
+      "versions": [
+        {
+          "created": "2026-09-12T23:15:26+00:00",
+          "id": "v001",
+          "note": "A docket slot beside a raised review desk and a closed stop arm. Review is a decision process; no approval is implied.",
+          "parent": null,
+          "sha256": "850b1fae5c2861e29ace8ec0981248fb241e2773ea457db96d80656a90efd96d",
+          "url": "versions/review-checkpoint/v001.svg"
+        }
+      ]
+    },
+    {
+      "category": "locations",
+      "default": "v001",
+      "description": "Three unconnected output trays with neutral alternating shading. Holds resumed, change-required and paused outcomes without coding them as moral success or failure.",
+      "id": "review-disposition-field",
+      "name": "Review disposition lanes",
+      "usage": {
+        "default": [
+          "096-03"
+        ],
+        "pinned": {}
+      },
+      "versions": [
+        {
+          "created": "2026-09-12T23:15:26+00:00",
+          "id": "v001",
+          "note": "Three unconnected output trays with neutral alternating shading. Holds resumed, change-required and paused outcomes without coding them as moral success or failure.",
+          "parent": null,
+          "sha256": "3b8e425f2af15372336afa8dafdbcff9650520dc7821ea6b723668e720db950f",
+          "url": "versions/review-disposition-field/v001.svg"
         }
       ]
     },
@@ -4442,6 +4702,29 @@
       ]
     },
     {
+      "category": "locations",
+      "default": "v001",
+      "description": "Two independent open collection trays, each with an incomplete ruled margin and blank center. Keeps board dump and transcript inputs separate; decorations are uncounted source notation.",
+      "id": "source-reservoir-field",
+      "name": "Separate evidence reservoirs",
+      "usage": {
+        "default": [
+          "077-01"
+        ],
+        "pinned": {}
+      },
+      "versions": [
+        {
+          "created": "2026-09-12T23:15:26+00:00",
+          "id": "v001",
+          "note": "Two independent open collection trays, each with an incomplete ruled margin and blank center. Keeps board dump and transcript inputs separate; decorations are uncounted source notation.",
+          "parent": null,
+          "sha256": "52615847942886c87ef93674ff4c87bbad5fef58df6663b0047d3967ff8847f2",
+          "url": "versions/source-reservoir-field/v001.svg"
+        }
+      ]
+    },
+    {
       "category": "connections",
       "default": "v003",
       "description": "A speech-shaped connection for disclosed human dialogue, never raw agent interiority.",
@@ -4720,6 +5003,33 @@
       ]
     },
     {
+      "category": "connections",
+      "default": "v001",
+      "description": "An unbroken date rule with asymmetric ticks. Separates dated states without drawing an access restriction or a continuing identity.",
+      "id": "time-divider",
+      "name": "Chronology cut",
+      "usage": {
+        "default": [
+          "015-05",
+          "018-04",
+          "022-01",
+          "094-03",
+          "110-01"
+        ],
+        "pinned": {}
+      },
+      "versions": [
+        {
+          "created": "2026-09-12T23:15:26+00:00",
+          "id": "v001",
+          "note": "An unbroken date rule with asymmetric ticks. Separates dated states without drawing an access restriction or a continuing identity.",
+          "parent": null,
+          "sha256": "5c6205473be8e4599d6af08ff322398ebeadf02b7be9633bba48bb64ec7c2ef6",
+          "url": "versions/time-divider/v001.svg"
+        }
+      ]
+    },
+    {
       "category": "objects",
       "default": "v003",
       "description": "A retained-record strip with separate sequence gutter and content rows; missingness must be added explicitly.",
@@ -4742,6 +5052,7 @@
           "075-01",
           "075-04",
           "075-06",
+          "077-01",
           "078-01",
           "078-02",
           "081-02",
@@ -4777,9 +5088,46 @@
           "url": "versions/transcript/v003.svg"
         }
       ]
+    },
+    {
+      "category": "objects",
+      "default": "v002",
+      "description": "A bounded workload tray with a large pause pair and a stop bar. A temporary operational disposition, not a breached wall or permanent destruction.",
+      "id": "workload-hold",
+      "name": "Scoped workload hold",
+      "usage": {
+        "default": [
+          "095-03",
+          "096-03",
+          "096-04",
+          "096-05",
+          "097-02",
+          "103-02",
+          "104-02"
+        ],
+        "pinned": {}
+      },
+      "versions": [
+        {
+          "created": "2026-09-12T23:15:26+00:00",
+          "id": "v001",
+          "note": "A bounded workload tray with a large pause pair and a stop bar. A temporary operational disposition, not a breached wall or permanent destruction.",
+          "parent": null,
+          "sha256": "f9392c27a8554378fec02e5053e3deb6b98fcbbaebd1d0f51acbdce0ad4e82ed",
+          "url": "versions/workload-hold/v001.svg"
+        },
+        {
+          "created": "2026-09-12T23:17:48+00:00",
+          "id": "v002",
+          "note": "Narrow the pause bars so the symbol remains recognizable in wide, shallow storyboard trays.",
+          "parent": "v001",
+          "sha256": "4bbe5364a379e2e61b48e6309b102b6ee2a8302f0a6f2db9b40a4b85a490aa59",
+          "url": "versions/workload-hold/v002.svg"
+        }
+      ]
     }
   ],
   "editable": false,
-  "revision": "e043bb62d518595776ed2eab14d8fcec2340872722f47d2fdf6ff82a89a1625b",
+  "revision": "5a8968852dfe0855490b2e956d5e4348e0a90438d05f5b16a7751fcb42c31677",
   "token": null
 }

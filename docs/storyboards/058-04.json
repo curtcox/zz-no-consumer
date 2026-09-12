@@ -1,6 +1,6 @@
 {
   "background": "ink",
-  "intent": "Place the backup before the test control in reading order. Keep the run abstract; preparation communicates anticipated risk without inventing emotion.",
+  "intent": "Place the backup before the test control in reading order. Keep the run abstract; preparation communicates anticipated risk without inventing emotion. Visual distinction: A ratchet edge and an unpressed control identify a one-way action. No crossing arrow or activated state establishes an outcome.",
   "lettering": [
     {
       "box": [
@@ -52,7 +52,7 @@
       "label_size": 18
     },
     {
-      "asset": "gate",
+      "asset": "one-way-control",
       "box": [
         0.674417,
         0.2012,

@@ -1,6 +1,6 @@
 {
   "background": "ink",
-  "intent": "Keep reported improvements and independent-review limits equally visible across a hard divider. A large numerical claim must not hide the scope of its verification.",
+  "intent": "Keep reported improvements and independent-review limits equally visible across a hard divider. A large numerical claim must not hide the scope of its verification. Visual distinction: A firm source edge with incomplete outer brackets. The blank gutter marks the limit of review, not destruction or proof of absence.",
   "lettering": [
     {
       "box": [
@@ -52,11 +52,11 @@
       "label_size": 18
     },
     {
-      "asset": "boundary",
+      "asset": "evidence-limit",
       "box": [
-        0.49363,
+        0.4875,
         0.0734,
-        0.01274,
+        0.025,
         0.6248
       ],
       "color": "steel",

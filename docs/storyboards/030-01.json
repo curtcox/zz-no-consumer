@@ -1,6 +1,6 @@
 {
   "background": "ink",
-  "intent": "Continue the clean directory geometry across the chapter break, keeping old storage dark and isolated beside it. New service availability does not reopen the old instance.",
+  "intent": "Continue the clean directory geometry across the chapter break, keeping old storage dark and isolated beside it. New service availability does not reopen the old instance. Visual distinction: Two capped edges with an empty interval and severed contact stubs. Containment disconnects traffic while preserving the isolated object. An archival sleeve with folded corners and a continuous custody band. Its empty center holds preserved storage separately from live traffic; no records or checksums are invented.",
   "lettering": [
     {
       "box": [
@@ -13,6 +13,16 @@
   ],
   "lettering_mode": "manual",
   "nodes": [
+    {
+      "asset": "preserved-evidence-field",
+      "box": [
+        0.51,
+        0.09,
+        0.435,
+        0.62
+      ],
+      "color": "steel"
+    },
     {
       "asset": "folder",
       "box": [
@@ -52,11 +62,11 @@
       "label_size": 18
     },
     {
-      "asset": "boundary",
+      "asset": "isolation-break",
       "box": [
-        0.49363,
+        0.4875,
         0.0734,
-        0.01274,
+        0.025,
         0.6248
       ],
       "color": "steel",

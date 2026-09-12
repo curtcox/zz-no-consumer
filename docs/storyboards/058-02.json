@@ -1,6 +1,6 @@
 {
   "background": "ink",
-  "intent": "Arrange backup, announcement, proposed irreversible action and observation as separate roles. Keep the action conditional and its operational contents redacted.",
+  "intent": "Arrange backup, announcement, proposed irreversible action and observation as separate roles. Keep the action conditional and its operational contents redacted. Visual distinction: A ratchet edge and an unpressed control identify a one-way action. No crossing arrow or activated state establishes an outcome.",
   "lettering": [
     {
       "box": [
@@ -50,7 +50,7 @@
       ]
     },
     {
-      "asset": "gate",
+      "asset": "one-way-control",
       "box": [
         0.1872,
         0.3746,

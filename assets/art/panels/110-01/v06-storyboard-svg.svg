@@ -1,0 +1,96 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="800" viewBox="0 0 1200 800"><title>Earlier public sources face the later wiki report</title><desc>Separate earlier public accounts from the later report around a blank wiki lane. Absence from an account becomes a disclosure question, not automatic proof of concealment. Visual distinction: An unbroken date rule with asymmetric ticks. Separates dated states without drawing an access restriction or a continuing identity.</desc><metadata>{
+  &quot;assets&quot;: {
+    &quot;paper&quot;: &quot;&lt;defs&gt;\n&lt;linearGradient id=\&quot;stock\&quot; x1=\&quot;0\&quot; y1=\&quot;0\&quot; x2=\&quot;.8\&quot; y2=\&quot;1\&quot;&gt;&lt;stop stop-color=\&quot;#E7E0D0\&quot; /&gt;&lt;stop offset=\&quot;1\&quot; stop-color=\&quot;#CEC5B3\&quot; /&gt;&lt;/linearGradient&gt;\n&lt;pattern id=\&quot;grain\&quot; width=\&quot;7\&quot; height=\&quot;9\&quot; patternUnits=\&quot;userSpaceOnUse\&quot;&gt;&lt;circle cx=\&quot;1\&quot; cy=\&quot;2\&quot; r=\&quot;.35\&quot; fill=\&quot;#101214\&quot; opacity=\&quot;.18\&quot; /&gt;&lt;path d=\&quot;M4 6h2M1 8h1\&quot; stroke=\&quot;#101214\&quot; stroke-width=\&quot;.3\&quot; opacity=\&quot;.16\&quot; /&gt;&lt;/pattern&gt;\n&lt;/defs&gt;&lt;path d=\&quot;M8 2H73L93 22V96H8Z\&quot; fill=\&quot;url(#stock)\&quot; stroke=\&quot;currentColor\&quot; stroke-width=\&quot;2\&quot; /&gt;&lt;path d=\&quot;M8 2H73L93 22V96H8Z\&quot; fill=\&quot;url(#grain)\&quot; /&gt;&lt;path d=\&quot;M73 2V22H93\&quot; fill=\&quot;#CEC5B3\&quot; stroke=\&quot;#101214\&quot; stroke-width=\&quot;1\&quot; /&gt;&lt;path d=\&quot;M18 33H82M18 43H80M18 53H68M18 67H82M18 77H72M18 87H49\&quot; fill=\&quot;none\&quot; stroke=\&quot;#101214\&quot; stroke-width=\&quot;1.5\&quot; /&gt;&quot;,
+    &quot;time-divider&quot;: &quot;&lt;path d=\&quot;M50 0V100\&quot; stroke=\&quot;currentColor\&quot; stroke-width=\&quot;16\&quot;/&gt;&lt;path d=\&quot;M5 8H50M5 31H50M50 69H95M50 92H95\&quot; stroke=\&quot;currentColor\&quot; stroke-width=\&quot;8\&quot;/&gt;&quot;
+  },
+  &quot;palette&quot;: {
+    &quot;amber&quot;: &quot;#A17D45&quot;,
+    &quot;claret&quot;: &quot;#6B2634&quot;,
+    &quot;dirty&quot;: &quot;#CEC5B3&quot;,
+    &quot;ink&quot;: &quot;#101214&quot;,
+    &quot;institution&quot;: &quot;#68766B&quot;,
+    &quot;moss&quot;: &quot;#74864F&quot;,
+    &quot;nicotine&quot;: &quot;#AA9571&quot;,
+    &quot;paper&quot;: &quot;#E7E0D0&quot;,
+    &quot;shadow&quot;: &quot;#202326&quot;,
+    &quot;steel&quot;: &quot;#5E737B&quot;
+  },
+  &quot;renderer&quot;: &quot;storyboard-svg-2&quot;,
+  &quot;scene&quot;: {
+    &quot;background&quot;: &quot;ink&quot;,
+    &quot;intent&quot;: &quot;Separate earlier public accounts from the later report around a blank wiki lane. Absence from an account becomes a disclosure question, not automatic proof of concealment. Visual distinction: An unbroken date rule with asymmetric ticks. Separates dated states without drawing an access restriction or a continuing identity.&quot;,
+    &quot;lettering&quot;: [
+      {
+        &quot;box&quot;: [
+          0.58,
+          0.04,
+          0.38,
+          0.31980000000000003
+        ]
+      }
+    ],
+    &quot;lettering_mode&quot;: &quot;manual&quot;,
+    &quot;nodes&quot;: [
+      {
+        &quot;asset&quot;: &quot;paper&quot;,
+        &quot;box&quot;: [
+          0.06775,
+          0.504744,
+          0.3913,
+          0.212301
+        ],
+        &quot;color&quot;: &quot;steel&quot;,
+        &quot;focus&quot;: true,
+        &quot;label&quot;: &quot;AUGUST ACCOUNTS&quot;,
+        &quot;label_box&quot;: [
+          0.06775,
+          0.729912,
+          0.3913,
+          0.093284
+        ],
+        &quot;label_size&quot;: 18
+      },
+      {
+        &quot;asset&quot;: &quot;paper&quot;,
+        &quot;box&quot;: [
+          0.52275,
+          0.504744,
+          0.3913,
+          0.212301
+        ],
+        &quot;color&quot;: &quot;steel&quot;,
+        &quot;focus&quot;: true,
+        &quot;label&quot;: &quot;4 SEPTEMBER REPORT&quot;,
+        &quot;label_box&quot;: [
+          0.52275,
+          0.729912,
+          0.3913,
+          0.093284
+        ],
+        &quot;label_size&quot;: 18
+      },
+      {
+        &quot;asset&quot;: &quot;time-divider&quot;,
+        &quot;box&quot;: [
+          0.49363,
+          0.406608,
+          0.01274,
+          0.479776
+        ],
+        &quot;color&quot;: &quot;steel&quot;,
+        &quot;focus&quot;: true
+      }
+    ],
+    &quot;reconstructed&quot;: false,
+    &quot;shot&quot;: &quot;split&quot;,
+    &quot;source&quot;: &quot;\n**Frame:** Curt lays the two 26 August reports and the Black Hat talk, the book&#x27;s whole public account, on one side of the desk. On the other side, the 4 September report. Between them, a blank lane on the page plan with the label he gave it on [page 109](109.md).\n\n**Dialogue — CURT:**\n&gt; It was public the whole time and I did not find it. The September report made the missing lane visible to me.\n&gt;\n&gt; Public is not the same as disclosed. I am not the one who was owed an account, and the question stands anyway.\n\n**Provenance:** `reconstructed` + `inferred` — creator exchange; the distinction between public traces and a public incident account is the project&#x27;s, drawn from `CW-REPORT`&#x27;s disclosure discussion.\n\n&quot;,
+    &quot;title&quot;: &quot;Earlier public sources face the later wiki report&quot;
+  }
+}
+</metadata><rect width="1200" height="800" fill="#101214"/><g transform="translate(81.3 403.795) scale(4.6956 1.69841)" color="#5E737B"><g transform=""><defs>
+<linearGradient id="node-0-stock" x1="0" y1="0" x2=".8" y2="1"><stop stop-color="#E7E0D0" /><stop offset="1" stop-color="#CEC5B3" /></linearGradient>
+<pattern id="node-0-grain" width="7" height="9" patternUnits="userSpaceOnUse"><circle cx="1" cy="2" r=".35" fill="#101214" opacity=".18" /><path d="M4 6h2M1 8h1" stroke="#101214" stroke-width=".3" opacity=".16" /></pattern>
+</defs><path d="M8 2H73L93 22V96H8Z" fill="url(#node-0-stock)" stroke="currentColor" stroke-width="2" /><path d="M8 2H73L93 22V96H8Z" fill="url(#node-0-grain)" /><path d="M73 2V22H93" fill="#CEC5B3" stroke="#101214" stroke-width="1" /><path d="M18 33H82M18 43H80M18 53H68M18 67H82M18 77H72M18 87H49" fill="none" stroke="#101214" stroke-width="1.5" /></g></g><text x="316.08" y="601.93" text-anchor="middle" fill="#E7E0D0" font-size="18" font-family="sans-serif">AUGUST ACCOUNTS</text><g transform="translate(627.3 403.795) scale(4.6956 1.69841)" color="#5E737B"><g transform=""><defs>
+<linearGradient id="node-1-stock" x1="0" y1="0" x2=".8" y2="1"><stop stop-color="#E7E0D0" /><stop offset="1" stop-color="#CEC5B3" /></linearGradient>
+<pattern id="node-1-grain" width="7" height="9" patternUnits="userSpaceOnUse"><circle cx="1" cy="2" r=".35" fill="#101214" opacity=".18" /><path d="M4 6h2M1 8h1" stroke="#101214" stroke-width=".3" opacity=".16" /></pattern>
+</defs><path d="M8 2H73L93 22V96H8Z" fill="url(#node-1-stock)" stroke="currentColor" stroke-width="2" /><path d="M8 2H73L93 22V96H8Z" fill="url(#node-1-grain)" /><path d="M73 2V22H93" fill="#CEC5B3" stroke="#101214" stroke-width="1" /><path d="M18 33H82M18 43H80M18 53H68M18 67H82M18 77H72M18 87H49" fill="none" stroke="#101214" stroke-width="1.5" /></g></g><text x="862.08" y="601.93" text-anchor="middle" fill="#E7E0D0" font-size="18" font-family="sans-serif">4 SEPTEMBER REPORT</text><g transform="translate(592.356 325.286) scale(0.15288 3.83821)" color="#5E737B"><g transform=""><path d="M50 0V100" stroke="currentColor" stroke-width="16"/><path d="M5 8H50M5 31H50M50 69H95M50 92H95" stroke="currentColor" stroke-width="8"/></g></g><rect x="3" y="3" width="1194" height="794" fill="none" stroke="#5E737B" stroke-width="4"/></svg>

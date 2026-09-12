@@ -1,6 +1,6 @@
 {
   "background": "ink",
-  "intent": "Add a separate public-wiki lane beneath the existing incident timeline on the creator's desk. Preserve the earlier lane intact rather than rewriting it around the new report.",
+  "intent": "Add a separate public-wiki lane beneath the existing incident timeline on the creator's desk. Preserve the earlier lane intact rather than rewriting it around the new report. Visual distinction: Two separated calendar rails with a wide blank middle gutter and aligned edge ticks. Supports dated comparison without links, shared identities, or additional event marks.",
   "lettering": [
     {
       "box": [
@@ -13,6 +13,16 @@
   ],
   "lettering_mode": "manual",
   "nodes": [
+    {
+      "asset": "parallel-calendar-field",
+      "box": [
+        0.06,
+        0.07,
+        0.87,
+        0.57
+      ],
+      "color": "steel"
+    },
     {
       "asset": "card",
       "box": [

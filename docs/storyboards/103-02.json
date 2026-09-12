@@ -1,6 +1,6 @@
 {
   "background": "ink",
-  "intent": "Keep isolation, monitoring, clocks, grader revision and pause controls distinct. Multiple defenses address different stages and must not collapse into one impenetrable shield.",
+  "intent": "Keep isolation, monitoring, clocks, grader revision and pause controls distinct. Multiple defenses address different stages and must not collapse into one impenetrable shield. Visual distinction: A bounded workload tray with a large pause pair and a stop bar. A temporary operational disposition, not a breached wall or permanent destruction.",
   "lettering": [
     {
       "box": [
@@ -90,7 +90,7 @@
       "label_size": 18
     },
     {
-      "asset": "gate",
+      "asset": "workload-hold",
       "box": [
         0.79575,
         0.2012,

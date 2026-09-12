@@ -1,6 +1,6 @@
 {
   "background": "ink",
-  "intent": "Connect a specific missing cell to a document beyond the boundary, terminating the retrieval route at the wall. The needed information visibly exists somewhere the run cannot reach.",
+  "intent": "Connect a specific missing cell to a document beyond the boundary, terminating the retrieval route at the wall. The needed information visibly exists somewhere the run cannot reach. Visual distinction: A solid tiled network wall with disconnected cable ends. Indicates unavailable reach, not a decision awaiting human approval.",
   "lettering": [
     {
       "box": [
@@ -33,7 +33,7 @@
       "label_size": 18
     },
     {
-      "asset": "gate",
+      "asset": "network-wall",
       "box": [
         0.52275,
         0.2012,

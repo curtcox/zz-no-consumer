@@ -1,6 +1,6 @@
 {
   "background": "ink",
-  "intent": "Place old sealed storage and a clean service across a wide unbridged gutter. No note, file or moss trace crosses into the new instance; preservation remains visible elsewhere.",
+  "intent": "Place old sealed storage and a clean service across a wide unbridged gutter. No note, file or moss trace crosses into the new instance; preservation remains visible elsewhere. Visual distinction: An archival sleeve with folded corners and a continuous custody band. Its empty center holds preserved storage separately from live traffic; no records or checksums are invented.",
   "lettering": [
     {
       "box": [
@@ -21,6 +21,16 @@
   ],
   "lettering_mode": "manual",
   "nodes": [
+    {
+      "asset": "preserved-evidence-field",
+      "box": [
+        0.045,
+        0.455,
+        0.435,
+        0.37
+      ],
+      "color": "steel"
+    },
     {
       "asset": "sealed",
       "box": [

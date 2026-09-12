@@ -1,6 +1,6 @@
 {
   "background": "ink",
-  "intent": "Magnify board and pivot evidence as two related findings. Storage communication and network reach need distinct shapes so neither becomes a vague generic breach icon.",
+  "intent": "Magnify board and pivot evidence as two related findings. Storage communication and network reach need distinct shapes so neither becomes a vague generic breach icon. Visual distinction: A solid tiled network wall with disconnected cable ends. Indicates unavailable reach, not a decision awaiting human approval.",
   "lettering": [
     {
       "box": [
@@ -41,7 +41,7 @@
       "label_size": 18
     },
     {
-      "asset": "gate",
+      "asset": "network-wall",
       "box": [
         0.52275,
         0.481812,

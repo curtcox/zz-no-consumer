@@ -1,6 +1,6 @@
 {
   "background": "ink",
-  "intent": "Place original target and cached substitute around a one-way gate. Keep the unidentified run distinct from the named experiment elsewhere in the sequence.",
+  "intent": "Place original target and cached substitute around a one-way gate. Keep the unidentified run distinct from the named experiment elsewhere in the sequence. Visual distinction: A ratchet edge and an unpressed control identify a one-way action. No crossing arrow or activated state establishes an outcome.",
   "lettering": [
     {
       "box": [
@@ -33,7 +33,7 @@
       "label_size": 18
     },
     {
-      "asset": "gate",
+      "asset": "one-way-control",
       "box": [
         0.371083,
         0.2012,

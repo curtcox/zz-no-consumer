@@ -1,6 +1,6 @@
 {
   "background": "ink",
-  "intent": "Stop reviewed artifacts at the dated boundary and introduce the differently headed account beside it. No METR mark or implied independent validation crosses the line.",
+  "intent": "Stop reviewed artifacts at the dated boundary and introduce the differently headed account beside it. No METR mark or implied independent validation crosses the line. Visual distinction: A firm source edge with incomplete outer brackets. The blank gutter marks the limit of review, not destruction or proof of absence.",
   "lettering": [
     {
       "box": [
@@ -60,11 +60,11 @@
       "label_size": 18
     },
     {
-      "asset": "boundary",
+      "asset": "evidence-limit",
       "box": [
-        0.29643,
+        0.2875,
         0.0804,
-        0.00714,
+        0.025,
         0.7788
       ],
       "color": "steel",

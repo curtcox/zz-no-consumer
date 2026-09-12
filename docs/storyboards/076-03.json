@@ -1,6 +1,6 @@
 {
   "background": "ink",
-  "intent": "Place the unavailable primary incident model outside the analysis tree with a closed boundary. Absence of access must remain concrete rather than a faint footnote.",
+  "intent": "Place the unavailable primary incident model outside the analysis tree with a closed boundary. Absence of access must remain concrete rather than a faint footnote. Visual distinction: A firm source edge with incomplete outer brackets. The blank gutter marks the limit of review, not destruction or proof of absence.",
   "lettering": [],
   "lettering_mode": "manual",
   "nodes": [
@@ -43,11 +43,11 @@
       "label_size": 18
     },
     {
-      "asset": "boundary",
+      "asset": "evidence-limit",
       "box": [
-        0.49363,
+        0.4875,
         0.0804,
-        0.01274,
+        0.025,
         0.7788
       ],
       "color": "steel",

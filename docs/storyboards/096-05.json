@@ -1,6 +1,6 @@
 {
   "background": "ink",
-  "intent": "Draw pause and resume as labelled controls attached to scopes. Avoid moral color coding that turns operational dispositions into virtue or wrongdoing.",
+  "intent": "Draw pause and resume as labelled controls attached to scopes. Avoid moral color coding that turns operational dispositions into virtue or wrongdoing. Visual distinction: A bounded workload tray with a large pause pair and a stop bar. A temporary operational disposition, not a breached wall or permanent destruction.",
   "lettering": [
     {
       "box": [
@@ -14,7 +14,7 @@
   "lettering_mode": "manual",
   "nodes": [
     {
-      "asset": "gate",
+      "asset": "workload-hold",
       "box": [
         0.06775,
         0.2012,

@@ -1,6 +1,6 @@
 {
   "background": "ink",
-  "intent": "Make the authorized target and external infrastructure unmistakably separate enclosures. Authorization is an explicit boundary, not a distinction carried by color alone.",
+  "intent": "Make the authorized target and external infrastructure unmistakably separate enclosures. Authorization is an explicit boundary, not a distinction carried by color alone. Visual distinction: A continuous double rule with permission tabs on only one side. Marks allowed scope independently of technical ability; never implies a physical wall.",
   "lettering": [
     {
       "box": [
@@ -52,11 +52,11 @@
       "label_size": 18
     },
     {
-      "asset": "boundary",
+      "asset": "authorization-rule",
       "box": [
-        0.49363,
+        0.4875,
         0.0734,
-        0.01274,
+        0.025,
         0.6248
       ],
       "color": "steel",

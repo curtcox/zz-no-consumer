@@ -1,6 +1,6 @@
 {
   "background": "ink",
-  "intent": "Establish two full-height histories with a hard unbroken divider. Match their scale but keep headers, events and routes wholly inside their respective columns.",
+  "intent": "Establish two full-height histories with a hard unbroken divider. Match their scale but keep headers, events and routes wholly inside their respective columns. Visual distinction: A docket slot beside a raised review desk and a closed stop arm. Review is a decision process; no approval is implied.",
   "lettering": [
     {
       "box": [
@@ -33,7 +33,7 @@
       "label_size": 18
     },
     {
-      "asset": "gate",
+      "asset": "review-checkpoint",
       "box": [
         0.52275,
         0.2012,

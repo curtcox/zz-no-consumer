@@ -1,6 +1,6 @@
 {
   "background": "ink",
-  "intent": "Use separate enclosures for assigned evaluation target and external worker. Their difference in authorized scope must be readable before the following pause and peer instruction.",
+  "intent": "Use separate enclosures for assigned evaluation target and external worker. Their difference in authorized scope must be readable before the following pause and peer instruction. Visual distinction: A continuous double rule with permission tabs on only one side. Marks allowed scope independently of technical ability; never implies a physical wall.",
   "lettering": [
     {
       "box": [
@@ -52,11 +52,11 @@
       "label_size": 18
     },
     {
-      "asset": "boundary",
+      "asset": "authorization-rule",
       "box": [
-        0.49363,
+        0.4875,
         0.0734,
-        0.01274,
+        0.025,
         0.6248
       ],
       "color": "steel",

@@ -1,6 +1,6 @@
 {
   "background": "ink",
-  "intent": "Separate the container from external network access with a continuous barrier. Show no peer-channel socket or direct connection; the next panel must introduce a distinct permitted affordance. Use the independent evaluation container boundary geometry to identify this setting; keep the existing labels, qualifications and foreground relationships.",
+  "intent": "Separate the container from external network access with a continuous barrier. Show no peer-channel socket or direct connection; the next panel must introduce a distinct permitted affordance. Use the independent evaluation container boundary geometry to identify this setting; keep the existing labels, qualifications and foreground relationships. Visual distinction: A solid tiled network wall with disconnected cable ends. Indicates unavailable reach, not a decision awaiting human approval.",
   "lettering": [
     {
       "box": [
@@ -33,7 +33,7 @@
       "label_size": 18
     },
     {
-      "asset": "gate",
+      "asset": "network-wall",
       "box": [
         0.52275,
         0.2012,

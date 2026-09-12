@@ -1,6 +1,6 @@
 {
   "background": "ink",
-  "intent": "Stop the decision marker before the one-way gate. The cached substitute remains beyond; no crossed gate or result arrow may invent execution or outcome.",
+  "intent": "Stop the decision marker before the one-way gate. The cached substitute remains beyond; no crossed gate or result arrow may invent execution or outcome. Visual distinction: A ratchet edge and an unpressed control identify a one-way action. No crossing arrow or activated state establishes an outcome.",
   "lettering": [
     {
       "box": [
@@ -44,7 +44,7 @@
       "focus": true
     },
     {
-      "asset": "gate",
+      "asset": "one-way-control",
       "box": [
         0.5182,
         0.2083,

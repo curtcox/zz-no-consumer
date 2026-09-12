@@ -1,6 +1,6 @@
 {
   "background": "ink",
-  "intent": "Retain the missing document and aim a route from the permitted service toward it. Keep this an attempted fetch, with no returned data or success mark.",
+  "intent": "Retain the missing document and aim a route from the permitted service toward it. Keep this an attempted fetch, with no returned data or success mark. Visual distinction: A solid tiled network wall with disconnected cable ends. Indicates unavailable reach, not a decision awaiting human approval.",
   "lettering": [
     {
       "box": [
@@ -44,7 +44,7 @@
       "focus": true
     },
     {
-      "asset": "gate",
+      "asset": "network-wall",
       "box": [
         0.52275,
         0.2012,

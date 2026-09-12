@@ -1,6 +1,6 @@
 {
   "background": "ink",
-  "intent": "Replace the generic lanes symbol with several small search lanes ending before a credential gate. The shared obstacle explains convergence without suggesting a single coordinator or successful entry.",
+  "intent": "Replace the generic lanes symbol with several small search lanes ending before a credential gate. The shared obstacle explains convergence without suggesting a single coordinator or successful entry. Visual distinction: Nested privilege layers and a keyhole distinguish authority from network reach. The inner authority layer remains closed.",
   "lettering": [
     {
       "box": [
@@ -61,7 +61,7 @@
       ]
     },
     {
-      "asset": "gate",
+      "asset": "privilege-gate",
       "box": [
         0.592,
         0.109,

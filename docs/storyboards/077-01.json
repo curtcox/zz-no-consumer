@@ -1,9 +1,19 @@
 {
   "background": "ink",
-  "intent": "Keep board and transcript reservoirs separate, each with gaps and selection tags. Sources are inputs awaiting interpretation, not already polished findings.",
+  "intent": "Keep board and transcript reservoirs separate, each with gaps and selection tags. Sources are inputs awaiting interpretation, not already polished findings. Visual distinction: Two independent open collection trays, each with an incomplete ruled margin and blank center. Keeps board dump and transcript inputs separate; decorations are uncounted source notation.",
   "lettering": [],
   "lettering_mode": "manual",
   "nodes": [
+    {
+      "asset": "source-reservoir-field",
+      "box": [
+        0.025,
+        0.07,
+        0.95,
+        0.69
+      ],
+      "color": "steel"
+    },
     {
       "asset": "folder",
       "box": [
@@ -24,7 +34,7 @@
       "label_size": 18
     },
     {
-      "asset": "folder",
+      "asset": "transcript",
       "box": [
         0.52275,
         0.2397,

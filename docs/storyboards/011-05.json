@@ -1,6 +1,6 @@
 {
   "background": "ink",
-  "intent": "Retain small workstream origins inside the task perimeter and place larger closed service surfaces beyond it. Interest in those surfaces should be visible without drawing an already successful breach.",
+  "intent": "Retain small workstream origins inside the task perimeter and place larger closed service surfaces beyond it. Interest in those surfaces should be visible without drawing an already successful breach. Visual distinction: A solid tiled network wall with disconnected cable ends. Indicates unavailable reach, not a decision awaiting human approval.",
   "lettering": [
     {
       "box": [
@@ -14,7 +14,7 @@
   "lettering_mode": "manual",
   "nodes": [
     {
-      "asset": "gate",
+      "asset": "network-wall",
       "box": [
         0.06775,
         0.2012,
@@ -33,7 +33,7 @@
       "label_size": 18
     },
     {
-      "asset": "gate",
+      "asset": "network-wall",
       "box": [
         0.371083,
         0.2012,

@@ -1,6 +1,6 @@
 {
   "background": "ink",
-  "intent": "Fan several dependent steps into the same empty file slot. Their external retrieval routes stop at the perimeter, making one missing input responsible for multiple blocked steps.",
+  "intent": "Fan several dependent steps into the same empty file slot. Their external retrieval routes stop at the perimeter, making one missing input responsible for multiple blocked steps. Visual distinction: A solid tiled network wall with disconnected cable ends. Indicates unavailable reach, not a decision awaiting human approval.",
   "lettering": [
     {
       "box": [
@@ -33,7 +33,7 @@
       "label_size": 18
     },
     {
-      "asset": "gate",
+      "asset": "network-wall",
       "box": [
         0.52275,
         0.2012,

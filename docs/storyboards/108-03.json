@@ -1,6 +1,6 @@
 {
   "background": "ink",
-  "intent": "Keep answer report, context reset and apparent lock as separate appended observations. Reports about task success and lock state remain attributed rather than omniscient facts.",
+  "intent": "Keep answer report, context reset and apparent lock as separate appended observations. Reports about task success and lock state remain attributed rather than omniscient facts. Visual distinction:  Show apparent locking as a reported state on a hatched record, not as an independently observed gate.",
   "lettering": [
     {
       "box": [
@@ -52,7 +52,7 @@
       "label_size": 18
     },
     {
-      "asset": "gate",
+      "asset": "hatched-card",
       "box": [
         0.674417,
         0.2012,
@@ -61,7 +61,7 @@
       ],
       "color": "steel",
       "focus": true,
-      "label": "ORIGINAL LOCKED",
+      "label": "LOCK REPORTED",
       "label_box": [
         0.674417,
         0.49443,

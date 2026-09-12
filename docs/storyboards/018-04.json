@@ -1,6 +1,6 @@
 {
   "background": "ink",
-  "intent": "Use separate date headers and a generous blank gutter between the two file records. No line, identical handle or shared highlight may imply a single continuing author.",
+  "intent": "Use separate date headers and a generous blank gutter between the two file records. No line, identical handle or shared highlight may imply a single continuing author. Visual distinction: An unbroken date rule with asymmetric ticks. Separates dated states without drawing an access restriction or a continuing identity.",
   "lettering": [
     {
       "box": [
@@ -52,11 +52,11 @@
       "label_size": 18
     },
     {
-      "asset": "boundary",
+      "asset": "time-divider",
       "box": [
-        0.49363,
+        0.4875,
         0.0734,
-        0.01274,
+        0.025,
         0.6248
       ],
       "color": "steel",

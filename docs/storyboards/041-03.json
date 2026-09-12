@@ -1,6 +1,6 @@
 {
   "background": "ink",
-  "intent": "Keep the later dataset request in a different lane behind a manual gate. The task identity and approximate time must not migrate into the earlier service-access column.",
+  "intent": "Keep the later dataset request in a different lane behind a manual gate. The task identity and approximate time must not migrate into the earlier service-access column. Visual distinction: A docket slot beside a raised review desk and a closed stop arm. Review is a decision process; no approval is implied.",
   "lettering": [
     {
       "box": [
@@ -14,7 +14,7 @@
   "lettering_mode": "manual",
   "nodes": [
     {
-      "asset": "gate",
+      "asset": "review-checkpoint",
       "box": [
         0.2148,
         0.1282,

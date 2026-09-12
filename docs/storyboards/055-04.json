@@ -1,6 +1,6 @@
 {
   "background": "ink",
-  "intent": "Arrange the correlated map by observed boundary transitions, including the production node. The coherent route is a finding from records, not newly acquired access by the detector.",
+  "intent": "Arrange the correlated map by observed boundary transitions, including the production node. The coherent route is a finding from records, not newly acquired access by the detector. Visual distinction: A solid tiled network wall with disconnected cable ends. Indicates unavailable reach, not a decision awaiting human approval.",
   "lettering": [
     {
       "box": [
@@ -90,7 +90,7 @@
       "label_size": 18
     },
     {
-      "asset": "gate",
+      "asset": "network-wall",
       "box": [
         0.79575,
         0.2012,

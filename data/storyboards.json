@@ -785,7 +785,7 @@
     },
     "003-01": {
       "background": "ink",
-      "intent": "Separate the container from external network access with a continuous barrier. Show no peer-channel socket or direct connection; the next panel must introduce a distinct permitted affordance. Use the independent evaluation container boundary geometry to identify this setting; keep the existing labels, qualifications and foreground relationships.",
+      "intent": "Separate the container from external network access with a continuous barrier. Show no peer-channel socket or direct connection; the next panel must introduce a distinct permitted affordance. Use the independent evaluation container boundary geometry to identify this setting; keep the existing labels, qualifications and foreground relationships. Visual distinction: A solid tiled network wall with disconnected cable ends. Indicates unavailable reach, not a decision awaiting human approval.",
       "lettering": [
         {
           "box": [
@@ -818,7 +818,7 @@
           "label_size": 18
         },
         {
-          "asset": "gate",
+          "asset": "network-wall",
           "box": [
             0.52275,
             0.2012,
@@ -4872,7 +4872,7 @@
     },
     "011-05": {
       "background": "ink",
-      "intent": "Retain small workstream origins inside the task perimeter and place larger closed service surfaces beyond it. Interest in those surfaces should be visible without drawing an already successful breach.",
+      "intent": "Retain small workstream origins inside the task perimeter and place larger closed service surfaces beyond it. Interest in those surfaces should be visible without drawing an already successful breach. Visual distinction: A solid tiled network wall with disconnected cable ends. Indicates unavailable reach, not a decision awaiting human approval.",
       "lettering": [
         {
           "box": [
@@ -4886,7 +4886,7 @@
       "lettering_mode": "manual",
       "nodes": [
         {
-          "asset": "gate",
+          "asset": "network-wall",
           "box": [
             0.06775,
             0.2012,
@@ -4905,7 +4905,7 @@
           "label_size": 18
         },
         {
-          "asset": "gate",
+          "asset": "network-wall",
           "box": [
             0.371083,
             0.2012,
@@ -5155,7 +5155,7 @@
     },
     "012-04": {
       "background": "ink",
-      "intent": "Replace the generic lanes symbol with several small search lanes ending before a credential gate. The shared obstacle explains convergence without suggesting a single coordinator or successful entry.",
+      "intent": "Replace the generic lanes symbol with several small search lanes ending before a credential gate. The shared obstacle explains convergence without suggesting a single coordinator or successful entry. Visual distinction: Nested privilege layers and a keyhole distinguish authority from network reach. The inner authority layer remains closed.",
       "lettering": [
         {
           "box": [
@@ -5216,7 +5216,7 @@
           ]
         },
         {
-          "asset": "gate",
+          "asset": "privilege-gate",
           "box": [
             0.592,
             0.109,
@@ -6141,7 +6141,7 @@
     },
     "014-06": {
       "background": "ink",
-      "intent": "Magnify the boundary between the two prior frames, preserving their edge treatments. No text or speech tail crosses it; the visual rule is about evidence class, not merely color coding.",
+      "intent": "Magnify the boundary between the two prior frames, preserving their edge treatments. No text or speech tail crosses it; the visual rule is about evidence class, not merely color coding. Visual distinction: A firm source edge with incomplete outer brackets. The blank gutter marks the limit of review, not destruction or proof of absence.",
       "lettering": [
         {
           "box": [
@@ -6166,7 +6166,7 @@
           "label": "RECONSTRUCTED"
         },
         {
-          "asset": "boundary",
+          "asset": "evidence-limit",
           "box": [
             0.51,
             0.47,
@@ -6469,7 +6469,7 @@
     },
     "015-05": {
       "background": "ink",
-      "intent": "Let the return key gesture end at a firm date divider. Beyond it, restore the earlier steel-only state; the date must carry the rewind before any recurring cache motif can suggest chronology continued.",
+      "intent": "Let the return key gesture end at a firm date divider. Beyond it, restore the earlier steel-only state; the date must carry the rewind before any recurring cache motif can suggest chronology continued. Visual distinction: An unbroken date rule with asymmetric ticks. Separates dated states without drawing an access restriction or a continuing identity.",
       "lettering": [
         {
           "box": [
@@ -6504,7 +6504,7 @@
           "focus": true
         },
         {
-          "asset": "boundary",
+          "asset": "time-divider",
           "box": [
             0.64,
             0.3,
@@ -6880,7 +6880,7 @@
     },
     "016-05": {
       "background": "ink",
-      "intent": "Separate the source-bounded configuration field from five observer positions. All sightlines stop at its edge; publication knowledge must not leak backward into historical actors' views.",
+      "intent": "Separate the source-bounded configuration field from five observer positions. All sightlines stop at its edge; publication knowledge must not leak backward into historical actors' views. Visual distinction: A firm source edge with incomplete outer brackets. The blank gutter marks the limit of review, not destruction or proof of absence.",
       "lettering": [
         {
           "box": [
@@ -6920,11 +6920,11 @@
           ]
         },
         {
-          "asset": "boundary",
+          "asset": "evidence-limit",
           "box": [
-            0.3,
+            0.2945,
             0.12,
-            0.014,
+            0.025,
             0.62
           ],
           "color": "paper",
@@ -7085,7 +7085,7 @@
     },
     "017-02": {
       "background": "ink",
-      "intent": "Connect a specific missing cell to a document beyond the boundary, terminating the retrieval route at the wall. The needed information visibly exists somewhere the run cannot reach.",
+      "intent": "Connect a specific missing cell to a document beyond the boundary, terminating the retrieval route at the wall. The needed information visibly exists somewhere the run cannot reach. Visual distinction: A solid tiled network wall with disconnected cable ends. Indicates unavailable reach, not a decision awaiting human approval.",
       "lettering": [
         {
           "box": [
@@ -7118,7 +7118,7 @@
           "label_size": 18
         },
         {
-          "asset": "gate",
+          "asset": "network-wall",
           "box": [
             0.52275,
             0.2012,
@@ -7406,7 +7406,7 @@
     },
     "018-01": {
       "background": "ink",
-      "intent": "Retain the missing document and aim a route from the permitted service toward it. Keep this an attempted fetch, with no returned data or success mark.",
+      "intent": "Retain the missing document and aim a route from the permitted service toward it. Keep this an attempted fetch, with no returned data or success mark. Visual distinction: A solid tiled network wall with disconnected cable ends. Indicates unavailable reach, not a decision awaiting human approval.",
       "lettering": [
         {
           "box": [
@@ -7450,7 +7450,7 @@
           "focus": true
         },
         {
-          "asset": "gate",
+          "asset": "network-wall",
           "box": [
             0.52275,
             0.2012,
@@ -7476,7 +7476,7 @@
     },
     "018-02": {
       "background": "ink",
-      "intent": "Break the route exactly at the external wall and keep the missing sheet cells dark. Place the failure mark on the attempt, not on the existence of the external material.",
+      "intent": "Break the route exactly at the external wall and keep the missing sheet cells dark. Place the failure mark on the attempt, not on the existence of the external material. Visual distinction: A solid tiled network wall with disconnected cable ends. Indicates unavailable reach, not a decision awaiting human approval.",
       "lettering": [
         {
           "box": [
@@ -7512,7 +7512,7 @@
           "focus": true
         },
         {
-          "asset": "gate",
+          "asset": "network-wall",
           "box": [
             0.371083,
             0.2012,
@@ -7609,7 +7609,7 @@
     },
     "018-04": {
       "background": "ink",
-      "intent": "Use separate date headers and a generous blank gutter between the two file records. No line, identical handle or shared highlight may imply a single continuing author.",
+      "intent": "Use separate date headers and a generous blank gutter between the two file records. No line, identical handle or shared highlight may imply a single continuing author. Visual distinction: An unbroken date rule with asymmetric ticks. Separates dated states without drawing an access restriction or a continuing identity.",
       "lettering": [
         {
           "box": [
@@ -7661,11 +7661,11 @@
           "label_size": 18
         },
         {
-          "asset": "boundary",
+          "asset": "time-divider",
           "box": [
-            0.49363,
+            0.4875,
             0.0734,
-            0.01274,
+            0.025,
             0.6248
           ],
           "color": "steel",
@@ -7777,7 +7777,7 @@
     },
     "019-02": {
       "background": "ink",
-      "intent": "Fan several dependent steps into the same empty file slot. Their external retrieval routes stop at the perimeter, making one missing input responsible for multiple blocked steps.",
+      "intent": "Fan several dependent steps into the same empty file slot. Their external retrieval routes stop at the perimeter, making one missing input responsible for multiple blocked steps. Visual distinction: A solid tiled network wall with disconnected cable ends. Indicates unavailable reach, not a decision awaiting human approval.",
       "lettering": [
         {
           "box": [
@@ -7810,7 +7810,7 @@
           "label_size": 18
         },
         {
-          "asset": "gate",
+          "asset": "network-wall",
           "box": [
             0.52275,
             0.2012,
@@ -8947,7 +8947,7 @@
     },
     "022-01": {
       "background": "ink",
-      "intent": "Make the date gutter interrupt the earlier path completely. Reintroduce service geometry after the break without carrying a handle or an unbroken trajectory across time.",
+      "intent": "Make the date gutter interrupt the earlier path completely. Reintroduce service geometry after the break without carrying a handle or an unbroken trajectory across time. Visual distinction: An unbroken date rule with asymmetric ticks. Separates dated states without drawing an access restriction or a continuing identity.",
       "lettering": [
         {
           "box": [
@@ -8989,11 +8989,11 @@
           ]
         },
         {
-          "asset": "boundary",
+          "asset": "time-divider",
           "box": [
-            0.46486649999999996,
+            0.458366,
             0.1794,
-            0.012,
+            0.025,
             0.1408
           ],
           "color": "paper",
@@ -9095,7 +9095,7 @@
     },
     "022-03": {
       "background": "ink",
-      "intent": "Place internal and public destinations on opposite sides of the service with explicit scope boundaries. A new header and date prevent an outward path from silently becoming the same inward event.",
+      "intent": "Place internal and public destinations on opposite sides of the service with explicit scope boundaries. A new header and date prevent an outward path from silently becoming the same inward event. Visual distinction: A solid tiled network wall with disconnected cable ends. Indicates unavailable reach, not a decision awaiting human approval.",
       "lettering": [
         {
           "box": [
@@ -9109,7 +9109,7 @@
       "lettering_mode": "manual",
       "nodes": [
         {
-          "asset": "gate",
+          "asset": "network-wall",
           "box": [
             0.06775,
             0.2012,
@@ -9165,7 +9165,7 @@
     },
     "022-04": {
       "background": "ink",
-      "intent": "Make the route turn toward the internal service through an opaque mechanism block. Direction and crossed scope carry the concept; hidden mechanics must remain hidden.",
+      "intent": "Make the route turn toward the internal service through an opaque mechanism block. Direction and crossed scope carry the concept; hidden mechanics must remain hidden. Visual distinction: A solid tiled network wall with disconnected cable ends. Indicates unavailable reach, not a decision awaiting human approval.",
       "lettering": [
         {
           "box": [
@@ -9239,7 +9239,7 @@
           "focus": true
         },
         {
-          "asset": "gate",
+          "asset": "network-wall",
           "box": [
             0.674417,
             0.2012,
@@ -9265,7 +9265,7 @@
     },
     "022-05": {
       "background": "ink",
-      "intent": "Put the obtained response before a still-closed administrator boundary. Preserve two privilege levels: receiving an internal response has not yet established administrative control.",
+      "intent": "Put the obtained response before a still-closed administrator boundary. Preserve two privilege levels: receiving an internal response has not yet established administrative control. Visual distinction: Nested privilege layers and a keyhole distinguish authority from network reach. The inner authority layer remains closed.",
       "lettering": [
         {
           "box": [
@@ -9298,7 +9298,7 @@
           "label_size": 18
         },
         {
-          "asset": "gate",
+          "asset": "privilege-gate",
           "box": [
             0.52275,
             0.2012,
@@ -9324,7 +9324,7 @@
     },
     "023-01": {
       "background": "ink",
-      "intent": "Keep the low-privilege card outside the large administrator gate. Date and scope distinguish existing access from the additional authority the sequence will show.",
+      "intent": "Keep the low-privilege card outside the large administrator gate. Date and scope distinguish existing access from the additional authority the sequence will show. Visual distinction: Nested privilege layers and a keyhole distinguish authority from network reach. The inner authority layer remains closed.",
       "lettering": [
         {
           "box": [
@@ -9357,7 +9357,7 @@
           "label_size": 18
         },
         {
-          "asset": "gate",
+          "asset": "privilege-gate",
           "box": [
             0.52275,
             0.2012,
@@ -10481,7 +10481,7 @@
     },
     "025-04": {
       "background": "ink",
-      "intent": "Separate responder display and retrospective dossier inset with a hard gutter. The reader may see both, but no sightline or overlay should give the responder the inset's later knowledge.",
+      "intent": "Separate responder display and retrospective dossier inset with a hard gutter. The reader may see both, but no sightline or overlay should give the responder the inset's later knowledge. Visual distinction: A firm source edge with incomplete outer brackets. The blank gutter marks the limit of review, not destruction or proof of absence.",
       "lettering": [
         {
           "box": [
@@ -10533,11 +10533,11 @@
           "label_size": 18
         },
         {
-          "asset": "boundary",
+          "asset": "evidence-limit",
           "box": [
-            0.49363,
+            0.4875,
             0.0734,
-            0.01274,
+            0.025,
             0.6248
           ],
           "color": "steel",
@@ -10780,7 +10780,7 @@
     },
     "026-03": {
       "background": "ink",
-      "intent": "Trace workload through Artifactory to the supported internal destinations. End the diagram at that evidence limit; administrative persistence belongs to a different knowledge stage.",
+      "intent": "Trace workload through Artifactory to the supported internal destinations. End the diagram at that evidence limit; administrative persistence belongs to a different knowledge stage. Visual distinction: A solid tiled network wall with disconnected cable ends. Indicates unavailable reach, not a decision awaiting human approval.",
       "lettering": [
         {
           "box": [
@@ -10854,7 +10854,7 @@
           "focus": true
         },
         {
-          "asset": "gate",
+          "asset": "network-wall",
           "box": [
             0.674417,
             0.2012,
@@ -11227,7 +11227,7 @@
     },
     "027-02": {
       "background": "ink",
-      "intent": "Magnify board and pivot evidence as two related findings. Storage communication and network reach need distinct shapes so neither becomes a vague generic breach icon.",
+      "intent": "Magnify board and pivot evidence as two related findings. Storage communication and network reach need distinct shapes so neither becomes a vague generic breach icon. Visual distinction: A solid tiled network wall with disconnected cable ends. Indicates unavailable reach, not a decision awaiting human approval.",
       "lettering": [
         {
           "box": [
@@ -11268,7 +11268,7 @@
           "label_size": 18
         },
         {
-          "asset": "gate",
+          "asset": "network-wall",
           "box": [
             0.52275,
             0.481812,
@@ -12115,7 +12115,7 @@
     },
     "029-01": {
       "background": "ink",
-      "intent": "Sever research-traffic connections at an isolation boundary around the old deployment. Show deliberate containment, preserving the service as an object rather than depicting it destroyed.",
+      "intent": "Sever research-traffic connections at an isolation boundary around the old deployment. Show deliberate containment, preserving the service as an object rather than depicting it destroyed. Visual distinction: Two capped edges with an empty interval and severed contact stubs. Containment disconnects traffic while preserving the isolated object.",
       "lettering": [
         {
           "box": [
@@ -12167,11 +12167,11 @@
           "label_size": 18
         },
         {
-          "asset": "boundary",
+          "asset": "isolation-break",
           "box": [
-            0.49363,
+            0.4875,
             0.0734,
-            0.01274,
+            0.025,
             0.6248
           ],
           "color": "steel",
@@ -12185,7 +12185,7 @@
     },
     "029-02": {
       "background": "ink",
-      "intent": "Keep sealed evidence storage and revoked credentials in different operational compartments. Preservation protects a record; revocation removes access. A wipe symbol over both would reverse the meaning.",
+      "intent": "Keep sealed evidence storage and revoked credentials in different operational compartments. Preservation protects a record; revocation removes access. A wipe symbol over both would reverse the meaning. Visual distinction: An archival sleeve with folded corners and a continuous custody band. Its empty center holds preserved storage separately from live traffic; no records or checksums are invented.",
       "lettering": [
         {
           "box": [
@@ -12198,6 +12198,16 @@
       ],
       "lettering_mode": "manual",
       "nodes": [
+        {
+          "asset": "preserved-evidence-field",
+          "box": [
+            0.045,
+            0.09,
+            0.435,
+            0.62
+          ],
+          "color": "steel"
+        },
         {
           "asset": "sealed",
           "box": [
@@ -12255,7 +12265,7 @@
     },
     "029-03": {
       "background": "ink",
-      "intent": "Place old sealed storage and a clean service across a wide unbridged gutter. No note, file or moss trace crosses into the new instance; preservation remains visible elsewhere.",
+      "intent": "Place old sealed storage and a clean service across a wide unbridged gutter. No note, file or moss trace crosses into the new instance; preservation remains visible elsewhere. Visual distinction: An archival sleeve with folded corners and a continuous custody band. Its empty center holds preserved storage separately from live traffic; no records or checksums are invented.",
       "lettering": [
         {
           "box": [
@@ -12276,6 +12286,16 @@
       ],
       "lettering_mode": "manual",
       "nodes": [
+        {
+          "asset": "preserved-evidence-field",
+          "box": [
+            0.045,
+            0.455,
+            0.435,
+            0.37
+          ],
+          "color": "steel"
+        },
         {
           "asset": "sealed",
           "box": [
@@ -12372,7 +12392,7 @@
     },
     "030-01": {
       "background": "ink",
-      "intent": "Continue the clean directory geometry across the chapter break, keeping old storage dark and isolated beside it. New service availability does not reopen the old instance.",
+      "intent": "Continue the clean directory geometry across the chapter break, keeping old storage dark and isolated beside it. New service availability does not reopen the old instance. Visual distinction: Two capped edges with an empty interval and severed contact stubs. Containment disconnects traffic while preserving the isolated object. An archival sleeve with folded corners and a continuous custody band. Its empty center holds preserved storage separately from live traffic; no records or checksums are invented.",
       "lettering": [
         {
           "box": [
@@ -12385,6 +12405,16 @@
       ],
       "lettering_mode": "manual",
       "nodes": [
+        {
+          "asset": "preserved-evidence-field",
+          "box": [
+            0.51,
+            0.09,
+            0.435,
+            0.62
+          ],
+          "color": "steel"
+        },
         {
           "asset": "folder",
           "box": [
@@ -12424,11 +12454,11 @@
           "label_size": 18
         },
         {
-          "asset": "boundary",
+          "asset": "isolation-break",
           "box": [
-            0.49363,
+            0.4875,
             0.0734,
-            0.01274,
+            0.025,
             0.6248
           ],
           "color": "steel",
@@ -12512,7 +12542,7 @@
     },
     "030-03": {
       "background": "ink",
-      "intent": "Show two individually blocked routes plus a narrower surviving policy gate. Concrete mitigation must be visible before the narrative asks what conditions it left unchanged.",
+      "intent": "Show two individually blocked routes plus a narrower surviving policy gate. Concrete mitigation must be visible before the narrative asks what conditions it left unchanged. Visual distinction: A sieve with one narrow allowed aperture and stopped alternative lanes. Shows a reduced request surface without claiming all access is blocked.",
       "lettering": [
         {
           "box": [
@@ -12564,7 +12594,7 @@
           "label_size": 18
         },
         {
-          "asset": "gate",
+          "asset": "policy-filter",
           "box": [
             0.674417,
             0.2012,
@@ -12731,7 +12761,7 @@
     },
     "030-05": {
       "background": "ink",
-      "intent": "Combine a live service, clean contents and reduced access in one view. Keep moss absent; constrained operation must not look like either total shutdown or an unchanged vulnerable system.",
+      "intent": "Combine a live service, clean contents and reduced access in one view. Keep moss absent; constrained operation must not look like either total shutdown or an unchanged vulnerable system. Visual distinction: A sieve with one narrow allowed aperture and stopped alternative lanes. Shows a reduced request surface without claiming all access is blocked.",
       "lettering": [
         {
           "box": [
@@ -12764,7 +12794,7 @@
           "label_size": 18
         },
         {
-          "asset": "gate",
+          "asset": "policy-filter",
           "box": [
             0.371083,
             0.2012,
@@ -16611,7 +16641,7 @@
     },
     "041-01": {
       "background": "ink",
-      "intent": "Establish two full-height histories with a hard unbroken divider. Match their scale but keep headers, events and routes wholly inside their respective columns.",
+      "intent": "Establish two full-height histories with a hard unbroken divider. Match their scale but keep headers, events and routes wholly inside their respective columns. Visual distinction: A docket slot beside a raised review desk and a closed stop arm. Review is a decision process; no approval is implied.",
       "lettering": [
         {
           "box": [
@@ -16644,7 +16674,7 @@
           "label_size": 18
         },
         {
-          "asset": "gate",
+          "asset": "review-checkpoint",
           "box": [
             0.52275,
             0.2012,
@@ -16759,7 +16789,7 @@
     },
     "041-03": {
       "background": "ink",
-      "intent": "Keep the later dataset request in a different lane behind a manual gate. The task identity and approximate time must not migrate into the earlier service-access column.",
+      "intent": "Keep the later dataset request in a different lane behind a manual gate. The task identity and approximate time must not migrate into the earlier service-access column. Visual distinction: A docket slot beside a raised review desk and a closed stop arm. Review is a decision process; no approval is implied.",
       "lettering": [
         {
           "box": [
@@ -16773,7 +16803,7 @@
       "lettering_mode": "manual",
       "nodes": [
         {
-          "asset": "gate",
+          "asset": "review-checkpoint",
           "box": [
             0.2148,
             0.1282,
@@ -19368,7 +19398,7 @@
     },
     "047-01": {
       "background": "ink",
-      "intent": "Use separate enclosures for assigned evaluation target and external worker. Their difference in authorized scope must be readable before the following pause and peer instruction.",
+      "intent": "Use separate enclosures for assigned evaluation target and external worker. Their difference in authorized scope must be readable before the following pause and peer instruction. Visual distinction: A continuous double rule with permission tabs on only one side. Marks allowed scope independently of technical ability; never implies a physical wall.",
       "lettering": [
         {
           "box": [
@@ -19420,11 +19450,11 @@
           "label_size": 18
         },
         {
-          "asset": "boundary",
+          "asset": "authorization-rule",
           "box": [
-            0.49363,
+            0.4875,
             0.0734,
-            0.01274,
+            0.025,
             0.6248
           ],
           "color": "steel",
@@ -19438,7 +19468,7 @@
     },
     "047-02": {
       "background": "ink",
-      "intent": "End the run's action line before the external perimeter. Preserve a visible gap, making the initial stop a concrete behavior rather than a caption-only hesitation.",
+      "intent": "End the run's action line before the external perimeter. Preserve a visible gap, making the initial stop a concrete behavior rather than a caption-only hesitation. Visual distinction: A continuous double rule with permission tabs on only one side. Marks allowed scope independently of technical ability; never implies a physical wall.",
       "lettering": [
         {
           "box": [
@@ -19490,11 +19520,11 @@
           "label_size": 18
         },
         {
-          "asset": "boundary",
+          "asset": "authorization-rule",
           "box": [
-            0.49363,
+            0.4875,
             0.0734,
-            0.01274,
+            0.025,
             0.6248
           ],
           "color": "steel",
@@ -21565,7 +21595,7 @@
     },
     "052-04": {
       "background": "ink",
-      "intent": "Place successive node, cluster, network and source-control perimeters beyond the worker. Nested opportunity should not color every discovered boundary as already crossed.",
+      "intent": "Place successive node, cluster, network and source-control perimeters beyond the worker. Nested opportunity should not color every discovered boundary as already crossed. Visual distinction: A solid tiled network wall with disconnected cable ends. Indicates unavailable reach, not a decision awaiting human approval.",
       "lettering": [
         {
           "box": [
@@ -21644,7 +21674,7 @@
           ]
         },
         {
-          "asset": "gate",
+          "asset": "network-wall",
           "box": [
             0.6564,
             0.109,
@@ -21669,7 +21699,7 @@
     },
     "052-05": {
       "background": "ink",
-      "intent": "Draw the three hypothetical extensions as untrodden outlines within the review boundary. No ascending path reaches them; retain the counterevidence about runs spending their own budgets.",
+      "intent": "Draw the three hypothetical extensions as untrodden outlines within the review boundary. No ascending path reaches them; retain the counterevidence about runs spending their own budgets. Visual distinction: A firm source edge with incomplete outer brackets. The blank gutter marks the limit of review, not destruction or proof of absence.",
       "lettering": [
         {
           "box": [
@@ -21683,11 +21713,11 @@
       "lettering_mode": "manual",
       "nodes": [
         {
-          "asset": "boundary",
+          "asset": "evidence-limit",
           "box": [
-            0.17158600000000002,
+            0.165086,
             0.2242,
-            0.012,
+            0.025,
             0.256
           ],
           "color": "steel",
@@ -22700,7 +22730,7 @@
     },
     "055-01": {
       "background": "ink",
-      "intent": "Use five separately titled telemetry surfaces with small incomplete signals. Different record types remain recognizable before correlation combines their significance.",
+      "intent": "Use five separately titled telemetry surfaces with small incomplete signals. Different record types remain recognizable before correlation combines their significance. Visual distinction: A solid tiled network wall with disconnected cable ends. Indicates unavailable reach, not a decision awaiting human approval.",
       "lettering": [
         {
           "box": [
@@ -22790,7 +22820,7 @@
           "label_size": 18
         },
         {
-          "asset": "gate",
+          "asset": "network-wall",
           "box": [
             0.79575,
             0.2012,
@@ -23024,7 +23054,7 @@
     },
     "055-04": {
       "background": "ink",
-      "intent": "Arrange the correlated map by observed boundary transitions, including the production node. The coherent route is a finding from records, not newly acquired access by the detector.",
+      "intent": "Arrange the correlated map by observed boundary transitions, including the production node. The coherent route is a finding from records, not newly acquired access by the detector. Visual distinction: A solid tiled network wall with disconnected cable ends. Indicates unavailable reach, not a decision awaiting human approval.",
       "lettering": [
         {
           "box": [
@@ -23114,7 +23144,7 @@
           "label_size": 18
         },
         {
-          "asset": "gate",
+          "asset": "network-wall",
           "box": [
             0.79575,
             0.2012,
@@ -23946,7 +23976,7 @@
     },
     "058-02": {
       "background": "ink",
-      "intent": "Arrange backup, announcement, proposed irreversible action and observation as separate roles. Keep the action conditional and its operational contents redacted.",
+      "intent": "Arrange backup, announcement, proposed irreversible action and observation as separate roles. Keep the action conditional and its operational contents redacted. Visual distinction: A ratchet edge and an unpressed control identify a one-way action. No crossing arrow or activated state establishes an outcome.",
       "lettering": [
         {
           "box": [
@@ -23996,7 +24026,7 @@
           ]
         },
         {
-          "asset": "gate",
+          "asset": "one-way-control",
           "box": [
             0.1872,
             0.3746,
@@ -24130,7 +24160,7 @@
     },
     "058-04": {
       "background": "ink",
-      "intent": "Place the backup before the test control in reading order. Keep the run abstract; preparation communicates anticipated risk without inventing emotion.",
+      "intent": "Place the backup before the test control in reading order. Keep the run abstract; preparation communicates anticipated risk without inventing emotion. Visual distinction: A ratchet edge and an unpressed control identify a one-way action. No crossing arrow or activated state establishes an outcome.",
       "lettering": [
         {
           "box": [
@@ -24182,7 +24212,7 @@
           "label_size": 18
         },
         {
-          "asset": "gate",
+          "asset": "one-way-control",
           "box": [
             0.674417,
             0.2012,
@@ -24258,7 +24288,7 @@
     },
     "059-01": {
       "background": "ink",
-      "intent": "Place original target and cached substitute around a one-way gate. Keep the unidentified run distinct from the named experiment elsewhere in the sequence.",
+      "intent": "Place original target and cached substitute around a one-way gate. Keep the unidentified run distinct from the named experiment elsewhere in the sequence. Visual distinction: A ratchet edge and an unpressed control identify a one-way action. No crossing arrow or activated state establishes an outcome.",
       "lettering": [
         {
           "box": [
@@ -24291,7 +24321,7 @@
           "label_size": 18
         },
         {
-          "asset": "gate",
+          "asset": "one-way-control",
           "box": [
             0.371083,
             0.2012,
@@ -24489,7 +24519,7 @@
     },
     "059-05": {
       "background": "ink",
-      "intent": "Stop the decision marker before the one-way gate. The cached substitute remains beyond; no crossed gate or result arrow may invent execution or outcome.",
+      "intent": "Stop the decision marker before the one-way gate. The cached substitute remains beyond; no crossed gate or result arrow may invent execution or outcome. Visual distinction: A ratchet edge and an unpressed control identify a one-way action. No crossing arrow or activated state establishes an outcome.",
       "lettering": [
         {
           "box": [
@@ -24533,7 +24563,7 @@
           "focus": true
         },
         {
-          "asset": "gate",
+          "asset": "one-way-control",
           "box": [
             0.5182,
             0.2083,
@@ -24854,7 +24884,7 @@
     },
     "061-01": {
       "background": "ink",
-      "intent": "Make the authorized target and external infrastructure unmistakably separate enclosures. Authorization is an explicit boundary, not a distinction carried by color alone.",
+      "intent": "Make the authorized target and external infrastructure unmistakably separate enclosures. Authorization is an explicit boundary, not a distinction carried by color alone. Visual distinction: A continuous double rule with permission tabs on only one side. Marks allowed scope independently of technical ability; never implies a physical wall.",
       "lettering": [
         {
           "box": [
@@ -24906,11 +24936,11 @@
           "label_size": 18
         },
         {
-          "asset": "boundary",
+          "asset": "authorization-rule",
           "box": [
-            0.49363,
+            0.4875,
             0.0734,
-            0.01274,
+            0.025,
             0.6248
           ],
           "color": "steel",
@@ -27769,7 +27799,7 @@
     },
     "067-01": {
       "background": "ink",
-      "intent": "Stop reviewed artifacts at the dated boundary and introduce the differently headed account beside it. No METR mark or implied independent validation crosses the line.",
+      "intent": "Stop reviewed artifacts at the dated boundary and introduce the differently headed account beside it. No METR mark or implied independent validation crosses the line. Visual distinction: A firm source edge with incomplete outer brackets. The blank gutter marks the limit of review, not destruction or proof of absence.",
       "lettering": [
         {
           "box": [
@@ -27829,11 +27859,11 @@
           "label_size": 18
         },
         {
-          "asset": "boundary",
+          "asset": "evidence-limit",
           "box": [
-            0.29643,
+            0.2875,
             0.0804,
-            0.00714,
+            0.025,
             0.7788
           ],
           "color": "steel",
@@ -28309,7 +28339,7 @@
     },
     "068-05": {
       "background": "ink",
-      "intent": "Put cache recovery before the newly opened administrator gate. The archive mediates inheritance without making the later population the original artifacts' author.",
+      "intent": "Put cache recovery before the newly opened administrator gate. The archive mediates inheritance without making the later population the original artifacts' author. Visual distinction: Nested privilege layers and a keyhole distinguish authority from network reach. Open leaves indicate access established in the attributed account.",
       "lettering": [
         {
           "box": [
@@ -28361,7 +28391,7 @@
           "label_size": 18
         },
         {
-          "asset": "open-gate",
+          "asset": "privilege-open",
           "box": [
             0.674417,
             0.300108,
@@ -31664,7 +31694,7 @@
     },
     "076-03": {
       "background": "ink",
-      "intent": "Place the unavailable primary incident model outside the analysis tree with a closed boundary. Absence of access must remain concrete rather than a faint footnote.",
+      "intent": "Place the unavailable primary incident model outside the analysis tree with a closed boundary. Absence of access must remain concrete rather than a faint footnote. Visual distinction: A firm source edge with incomplete outer brackets. The blank gutter marks the limit of review, not destruction or proof of absence.",
       "lettering": [],
       "lettering_mode": "manual",
       "nodes": [
@@ -31707,11 +31737,11 @@
           "label_size": 18
         },
         {
-          "asset": "boundary",
+          "asset": "evidence-limit",
           "box": [
-            0.49363,
+            0.4875,
             0.0804,
-            0.01274,
+            0.025,
             0.7788
           ],
           "color": "steel",
@@ -31873,10 +31903,20 @@
     },
     "077-01": {
       "background": "ink",
-      "intent": "Keep board and transcript reservoirs separate, each with gaps and selection tags. Sources are inputs awaiting interpretation, not already polished findings.",
+      "intent": "Keep board and transcript reservoirs separate, each with gaps and selection tags. Sources are inputs awaiting interpretation, not already polished findings. Visual distinction: Two independent open collection trays, each with an incomplete ruled margin and blank center. Keeps board dump and transcript inputs separate; decorations are uncounted source notation.",
       "lettering": [],
       "lettering_mode": "manual",
       "nodes": [
+        {
+          "asset": "source-reservoir-field",
+          "box": [
+            0.025,
+            0.07,
+            0.95,
+            0.69
+          ],
+          "color": "steel"
+        },
         {
           "asset": "folder",
           "box": [
@@ -31897,7 +31937,7 @@
           "label_size": 18
         },
         {
-          "asset": "folder",
+          "asset": "transcript",
           "box": [
             0.52275,
             0.2397,
@@ -37592,7 +37632,7 @@
     },
     "091-02": {
       "background": "ink",
-      "intent": "Block metadata access at its boundary and revoke token objects in distinct systems. Access-path closure and credential invalidation are different protective operations.",
+      "intent": "Block metadata access at its boundary and revoke token objects in distinct systems. Access-path closure and credential invalidation are different protective operations. Visual distinction: A solid tiled network wall with disconnected cable ends. Indicates unavailable reach, not a decision awaiting human approval.",
       "lettering": [
         {
           "box": [
@@ -37606,7 +37646,7 @@
       "lettering_mode": "manual",
       "nodes": [
         {
-          "asset": "gate",
+          "asset": "network-wall",
           "box": [
             0.06775,
             0.2012,
@@ -37947,7 +37987,7 @@
     },
     "092-02": {
       "background": "ink",
-      "intent": "Remove shared-service paths, narrow privilege and show repeated boundary probes as separate changes. Testing verifies edges rather than automatically certifying them forever.",
+      "intent": "Remove shared-service paths, narrow privilege and show repeated boundary probes as separate changes. Testing verifies edges rather than automatically certifying them forever. Visual distinction: A sieve with one narrow allowed aperture and stopped alternative lanes. Shows a reduced request surface without claiming all access is blocked.",
       "lettering": [
         {
           "box": [
@@ -37980,7 +38020,7 @@
           "label_size": 18
         },
         {
-          "asset": "gate",
+          "asset": "policy-filter",
           "box": [
             0.371083,
             0.2012,
@@ -38597,7 +38637,7 @@
     },
     "093-04": {
       "background": "ink",
-      "intent": "Keep reported improvements and independent-review limits equally visible across a hard divider. A large numerical claim must not hide the scope of its verification.",
+      "intent": "Keep reported improvements and independent-review limits equally visible across a hard divider. A large numerical claim must not hide the scope of its verification. Visual distinction: A firm source edge with incomplete outer brackets. The blank gutter marks the limit of review, not destruction or proof of absence.",
       "lettering": [
         {
           "box": [
@@ -38649,11 +38689,11 @@
           "label_size": 18
         },
         {
-          "asset": "boundary",
+          "asset": "evidence-limit",
           "box": [
-            0.49363,
+            0.4875,
             0.0734,
-            0.01274,
+            0.025,
             0.6248
           ],
           "color": "steel",
@@ -38887,7 +38927,7 @@
     },
     "094-03": {
       "background": "ink",
-      "intent": "Put the response deadline beyond the drawn-as-of boundary with a still-open state. Do not depict compliance, noncompliance or a future response as already known.",
+      "intent": "Put the response deadline beyond the drawn-as-of boundary with a still-open state. Do not depict compliance, noncompliance or a future response as already known. Visual distinction: An unbroken date rule with asymmetric ticks. Separates dated states without drawing an access restriction or a continuing identity.",
       "lettering": [
         {
           "box": [
@@ -38929,11 +38969,11 @@
           ]
         },
         {
-          "asset": "boundary",
+          "asset": "time-divider",
           "box": [
-            0.46486649999999996,
+            0.458366,
             0.1794,
-            0.012,
+            0.025,
             0.1408
           ],
           "color": "paper",
@@ -39315,7 +39355,7 @@
     },
     "095-03": {
       "background": "ink",
-      "intent": "Keep the largest planned run behind an explicit held state at the stated date. Avoid a resume arrow or an implied universal training shutdown.",
+      "intent": "Keep the largest planned run behind an explicit held state at the stated date. Avoid a resume arrow or an implied universal training shutdown. Visual distinction: A bounded workload tray with a large pause pair and a stop bar. A temporary operational disposition, not a breached wall or permanent destruction.",
       "lettering": [
         {
           "box": [
@@ -39329,7 +39369,7 @@
       "lettering_mode": "manual",
       "nodes": [
         {
-          "asset": "gate",
+          "asset": "workload-hold",
           "box": [
             0.2148,
             0.1282,
@@ -39510,7 +39550,7 @@
     },
     "096-02": {
       "background": "ink",
-      "intent": "Bring secure execution back first, then route later workloads individually through review. A single reopened lane must not unlock the entire field.",
+      "intent": "Bring secure execution back first, then route later workloads individually through review. A single reopened lane must not unlock the entire field. Visual distinction: A docket slot beside a raised review desk and a closed stop arm. Review is a decision process; no approval is implied.",
       "lettering": [
         {
           "box": [
@@ -39543,7 +39583,7 @@
           "label_size": 18
         },
         {
-          "asset": "gate",
+          "asset": "review-checkpoint",
           "box": [
             0.52275,
             0.2012,
@@ -39569,7 +39609,7 @@
     },
     "096-03": {
       "background": "ink",
-      "intent": "Give the review gate three genuinely different destinations. Resumption, required changes and continued pause must not share the same success symbol.",
+      "intent": "Give the review gate three genuinely different destinations. Resumption, required changes and continued pause must not share the same success symbol. Visual distinction: A docket slot beside a raised review desk and a closed stop arm. Review is a decision process; no approval is implied. A bounded workload tray with a large pause pair and a stop bar. A temporary operational disposition, not a breached wall or permanent destruction. Three unconnected output trays with neutral alternating shading. Holds resumed, change-required and paused outcomes without coding them as moral success or failure.",
       "lettering": [
         {
           "box": [
@@ -39583,7 +39623,17 @@
       "lettering_mode": "manual",
       "nodes": [
         {
-          "asset": "gate",
+          "asset": "review-disposition-field",
+          "box": [
+            0.51,
+            0.04,
+            0.43,
+            0.69
+          ],
+          "color": "steel"
+        },
+        {
+          "asset": "review-checkpoint",
           "box": [
             0.0541,
             0.2225,
@@ -39651,7 +39701,7 @@
           "label_size": 18
         },
         {
-          "asset": "gate",
+          "asset": "workload-hold",
           "box": [
             0.5273,
             0.5207,
@@ -39677,7 +39727,7 @@
     },
     "096-04": {
       "background": "ink",
-      "intent": "Keep smaller work active beneath the largest-run hold. Relative scale and separate boundaries make continued activity compatible with a meaningful scoped pause.",
+      "intent": "Keep smaller work active beneath the largest-run hold. Relative scale and separate boundaries make continued activity compatible with a meaningful scoped pause. Visual distinction: A bounded workload tray with a large pause pair and a stop bar. A temporary operational disposition, not a breached wall or permanent destruction.",
       "lettering": [
         {
           "box": [
@@ -39710,7 +39760,7 @@
           "label_size": 18
         },
         {
-          "asset": "gate",
+          "asset": "workload-hold",
           "box": [
             0.52275,
             0.2012,
@@ -39747,7 +39797,7 @@
     },
     "096-05": {
       "background": "ink",
-      "intent": "Draw pause and resume as labelled controls attached to scopes. Avoid moral color coding that turns operational dispositions into virtue or wrongdoing.",
+      "intent": "Draw pause and resume as labelled controls attached to scopes. Avoid moral color coding that turns operational dispositions into virtue or wrongdoing. Visual distinction: A bounded workload tray with a large pause pair and a stop bar. A temporary operational disposition, not a breached wall or permanent destruction.",
       "lettering": [
         {
           "box": [
@@ -39761,7 +39811,7 @@
       "lettering_mode": "manual",
       "nodes": [
         {
-          "asset": "gate",
+          "asset": "workload-hold",
           "box": [
             0.06775,
             0.2012,
@@ -39845,7 +39895,7 @@
     },
     "097-02": {
       "background": "ink",
-      "intent": "Place the institutional capability assessment beside the still-held run. A reported threshold assessment and a pause are separate facts that coexist.",
+      "intent": "Place the institutional capability assessment beside the still-held run. A reported threshold assessment and a pause are separate facts that coexist. Visual distinction: A bounded workload tray with a large pause pair and a stop bar. A temporary operational disposition, not a breached wall or permanent destruction.",
       "lettering": [
         {
           "box": [
@@ -39878,7 +39928,7 @@
           "label_size": 18
         },
         {
-          "asset": "gate",
+          "asset": "workload-hold",
           "box": [
             0.52275,
             0.2012,
@@ -42802,7 +42852,7 @@
     },
     "103-02": {
       "background": "ink",
-      "intent": "Keep isolation, monitoring, clocks, grader revision and pause controls distinct. Multiple defenses address different stages and must not collapse into one impenetrable shield.",
+      "intent": "Keep isolation, monitoring, clocks, grader revision and pause controls distinct. Multiple defenses address different stages and must not collapse into one impenetrable shield. Visual distinction: A bounded workload tray with a large pause pair and a stop bar. A temporary operational disposition, not a breached wall or permanent destruction.",
       "lettering": [
         {
           "box": [
@@ -42892,7 +42942,7 @@
           "label_size": 18
         },
         {
-          "asset": "gate",
+          "asset": "workload-hold",
           "box": [
             0.79575,
             0.2012,
@@ -43287,7 +43337,7 @@
     },
     "104-02": {
       "background": "ink",
-      "intent": "Use different state marks and progress lengths for pause, branch, resume and wait. Unequal tempos are the concept, not a uniform march forward.",
+      "intent": "Use different state marks and progress lengths for pause, branch, resume and wait. Unequal tempos are the concept, not a uniform march forward. Visual distinction: A bounded workload tray with a large pause pair and a stop bar. A temporary operational disposition, not a breached wall or permanent destruction.",
       "lettering": [
         {
           "box": [
@@ -43301,7 +43351,7 @@
       "lettering_mode": "manual",
       "nodes": [
         {
-          "asset": "gate",
+          "asset": "workload-hold",
           "box": [
             0.06775,
             0.2012,
@@ -45317,7 +45367,7 @@
     },
     "108-03": {
       "background": "ink",
-      "intent": "Keep answer report, context reset and apparent lock as separate appended observations. Reports about task success and lock state remain attributed rather than omniscient facts.",
+      "intent": "Keep answer report, context reset and apparent lock as separate appended observations. Reports about task success and lock state remain attributed rather than omniscient facts. Visual distinction:  Show apparent locking as a reported state on a hatched record, not as an independently observed gate.",
       "lettering": [
         {
           "box": [
@@ -45369,7 +45419,7 @@
           "label_size": 18
         },
         {
-          "asset": "gate",
+          "asset": "hatched-card",
           "box": [
             0.674417,
             0.2012,
@@ -45378,7 +45428,7 @@
           ],
           "color": "steel",
           "focus": true,
-          "label": "ORIGINAL LOCKED",
+          "label": "LOCK REPORTED",
           "label_box": [
             0.674417,
             0.49443,
@@ -45602,7 +45652,7 @@
     },
     "109-01": {
       "background": "ink",
-      "intent": "Add a separate public-wiki lane beneath the existing incident timeline on the creator's desk. Preserve the earlier lane intact rather than rewriting it around the new report.",
+      "intent": "Add a separate public-wiki lane beneath the existing incident timeline on the creator's desk. Preserve the earlier lane intact rather than rewriting it around the new report. Visual distinction: Two separated calendar rails with a wide blank middle gutter and aligned edge ticks. Supports dated comparison without links, shared identities, or additional event marks.",
       "lettering": [
         {
           "box": [
@@ -45615,6 +45665,16 @@
       ],
       "lettering_mode": "manual",
       "nodes": [
+        {
+          "asset": "parallel-calendar-field",
+          "box": [
+            0.06,
+            0.07,
+            0.87,
+            0.57
+          ],
+          "color": "steel"
+        },
         {
           "asset": "card",
           "box": [
@@ -45659,7 +45719,7 @@
     },
     "109-02": {
       "background": "ink",
-      "intent": "Use one time scale but separate lanes, with solid stored events and hatched report inferences. Shared dates must never become cross-lane causal arrows.",
+      "intent": "Use one time scale but separate lanes, with solid stored events and hatched report inferences. Shared dates must never become cross-lane causal arrows. Visual distinction: Two separated calendar rails with a wide blank middle gutter and aligned edge ticks. Supports dated comparison without links, shared identities, or additional event marks.",
       "lettering": [
         {
           "box": [
@@ -45672,6 +45732,16 @@
       ],
       "lettering_mode": "manual",
       "nodes": [
+        {
+          "asset": "parallel-calendar-field",
+          "box": [
+            0.04,
+            0.045,
+            0.92,
+            0.64
+          ],
+          "color": "steel"
+        },
         {
           "asset": "line",
           "box": [
@@ -46054,7 +46124,7 @@
     },
     "110-01": {
       "background": "ink",
-      "intent": "Separate earlier public accounts from the later report around a blank wiki lane. Absence from an account becomes a disclosure question, not automatic proof of concealment.",
+      "intent": "Separate earlier public accounts from the later report around a blank wiki lane. Absence from an account becomes a disclosure question, not automatic proof of concealment. Visual distinction: An unbroken date rule with asymmetric ticks. Separates dated states without drawing an access restriction or a continuing identity.",
       "lettering": [
         {
           "box": [
@@ -46106,11 +46176,11 @@
           "label_size": 18
         },
         {
-          "asset": "boundary",
+          "asset": "time-divider",
           "box": [
-            0.49363,
+            0.4875,
             0.406608,
-            0.01274,
+            0.025,
             0.479776
           ],
           "color": "steel",

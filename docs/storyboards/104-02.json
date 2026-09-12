@@ -1,6 +1,6 @@
 {
   "background": "ink",
-  "intent": "Use different state marks and progress lengths for pause, branch, resume and wait. Unequal tempos are the concept, not a uniform march forward.",
+  "intent": "Use different state marks and progress lengths for pause, branch, resume and wait. Unequal tempos are the concept, not a uniform march forward. Visual distinction: A bounded workload tray with a large pause pair and a stop bar. A temporary operational disposition, not a breached wall or permanent destruction.",
   "lettering": [
     {
       "box": [
@@ -14,7 +14,7 @@
   "lettering_mode": "manual",
   "nodes": [
     {
-      "asset": "gate",
+      "asset": "workload-hold",
       "box": [
         0.06775,
         0.2012,

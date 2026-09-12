@@ -290,6 +290,21 @@
         }
       ]
     },
+    "authorization-rule": {
+      "category": "connections",
+      "default": "v001",
+      "description": "A continuous double rule with permission tabs on only one side. Marks allowed scope independently of technical ability; never implies a physical wall.",
+      "name": "Authorization scope rule",
+      "versions": [
+        {
+          "created": "2026-09-12T23:15:26+00:00",
+          "id": "v001",
+          "note": "A continuous double rule with permission tabs on only one side. Marks allowed scope independently of technical ability; never implies a physical wall.",
+          "parent": null,
+          "sha256": "09c08f8563bf4206135975a877c0944b4be433cc3b572ad65424f01646879892"
+        }
+      ]
+    },
     "blank-monitor": {
       "category": "objects",
       "default": "v003",
@@ -1051,6 +1066,21 @@
         }
       ]
     },
+    "evidence-limit": {
+      "category": "connections",
+      "default": "v001",
+      "description": "A firm source edge with incomplete outer brackets. The blank gutter marks the limit of review, not destruction or proof of absence.",
+      "name": "Evidence access limit",
+      "versions": [
+        {
+          "created": "2026-09-12T23:15:26+00:00",
+          "id": "v001",
+          "note": "A firm source edge with incomplete outer brackets. The blank gutter marks the limit of review, not destruction or proof of absence.",
+          "parent": null,
+          "sha256": "bd8dd1f4fcfe9827027b436d8d41e0dd16c70ea60da2d7d1989424893e5c962e"
+        }
+      ]
+    },
     "evidence-review-room": {
       "category": "locations",
       "default": "v003",
@@ -1370,6 +1400,21 @@
         }
       ]
     },
+    "isolation-break": {
+      "category": "connections",
+      "default": "v001",
+      "description": "Two capped edges with an empty interval and severed contact stubs. Containment disconnects traffic while preserving the isolated object.",
+      "name": "Disconnected isolation seam",
+      "versions": [
+        {
+          "created": "2026-09-12T23:15:26+00:00",
+          "id": "v001",
+          "note": "Two capped edges with an empty interval and severed contact stubs. Containment disconnects traffic while preserving the isolated object.",
+          "parent": null,
+          "sha256": "6afd5bf04d47219df1c455c93ffb87a2c58df26080251d03bd6f60825cec25b7"
+        }
+      ]
+    },
     "keyboard": {
       "category": "objects",
       "default": "v003",
@@ -1486,6 +1531,21 @@
         }
       ]
     },
+    "network-wall": {
+      "category": "objects",
+      "default": "v001",
+      "description": "A solid tiled network wall with disconnected cable ends. Indicates unavailable reach, not a decision awaiting human approval.",
+      "name": "Network restriction",
+      "versions": [
+        {
+          "created": "2026-09-12T23:15:26+00:00",
+          "id": "v001",
+          "note": "A solid tiled network wall with disconnected cable ends. Indicates unavailable reach, not a decision awaiting human approval.",
+          "parent": null,
+          "sha256": "9090926d6520340fae80e6a0abf171a190cc6745d77e1fb6bf248af9b1327dc7"
+        }
+      ]
+    },
     "obscured-profile": {
       "category": "characters",
       "default": "v003",
@@ -1512,6 +1572,21 @@
           "note": "Scene-controlled ink accents preserve state and future-register colors. Keep only the gradients and textures this component uses, for concise isolated editing.",
           "parent": "v002",
           "sha256": "fc8689708f1723b7e8e1430d850ed59f985094b303659b363f37193ba489bce4"
+        }
+      ]
+    },
+    "one-way-control": {
+      "category": "objects",
+      "default": "v001",
+      "description": "A ratchet edge and an unpressed control identify a one-way action. No crossing arrow or activated state establishes an outcome.",
+      "name": "Irreversible action threshold",
+      "versions": [
+        {
+          "created": "2026-09-12T23:15:26+00:00",
+          "id": "v001",
+          "note": "A ratchet edge and an unpressed control identify a one-way action. No crossing arrow or activated state establishes an outcome.",
+          "parent": null,
+          "sha256": "960cab3aa91f8206c6e253776f7abcc5ff2d3c83d5ce76f2c4016ae20791c6d2"
         }
       ]
     },
@@ -1732,6 +1807,21 @@
         }
       ]
     },
+    "parallel-calendar-field": {
+      "category": "locations",
+      "default": "v001",
+      "description": "Two separated calendar rails with a wide blank middle gutter and aligned edge ticks. Supports dated comparison without links, shared identities, or additional event marks.",
+      "name": "Unconnected calendar lanes",
+      "versions": [
+        {
+          "created": "2026-09-12T23:15:26+00:00",
+          "id": "v001",
+          "note": "Two separated calendar rails with a wide blank middle gutter and aligned edge ticks. Supports dated comparison without links, shared identities, or additional event marks.",
+          "parent": null,
+          "sha256": "17f8175a0463b3483d3655db583a7fa509abe3a4b93109e9a5fd15fab5634455"
+        }
+      ]
+    },
     "person-seated": {
       "category": "characters",
       "default": "v004",
@@ -1794,6 +1884,66 @@
           "note": "Scene-controlled ink accents preserve state and future-register colors. Keep only the gradients and textures this component uses, for concise isolated editing.",
           "parent": "v002",
           "sha256": "07ded79639618bd269f12638b0f0c142fd09e9a9e3180b846fa6f1a3a0a371fc"
+        }
+      ]
+    },
+    "policy-filter": {
+      "category": "objects",
+      "default": "v001",
+      "description": "A sieve with one narrow allowed aperture and stopped alternative lanes. Shows a reduced request surface without claiming all access is blocked.",
+      "name": "Restricted request filter",
+      "versions": [
+        {
+          "created": "2026-09-12T23:15:26+00:00",
+          "id": "v001",
+          "note": "A sieve with one narrow allowed aperture and stopped alternative lanes. Shows a reduced request surface without claiming all access is blocked.",
+          "parent": null,
+          "sha256": "8fa25b2f08f06949591016bc07f75243966c2b615cb44a9da758e2b5938517af"
+        }
+      ]
+    },
+    "preserved-evidence-field": {
+      "category": "locations",
+      "default": "v001",
+      "description": "An archival sleeve with folded corners and a continuous custody band. Its empty center holds preserved storage separately from live traffic; no records or checksums are invented.",
+      "name": "Preserved evidence enclosure",
+      "versions": [
+        {
+          "created": "2026-09-12T23:15:26+00:00",
+          "id": "v001",
+          "note": "An archival sleeve with folded corners and a continuous custody band. Its empty center holds preserved storage separately from live traffic; no records or checksums are invented.",
+          "parent": null,
+          "sha256": "edeade0ed75c25d95206efb02bffc9650ff0f524a517faf4bf7cb13ccd470d81"
+        }
+      ]
+    },
+    "privilege-gate": {
+      "category": "objects",
+      "default": "v001",
+      "description": "Nested privilege layers and a keyhole distinguish authority from network reach. The inner authority layer remains closed.",
+      "name": "Administrator privilege gate",
+      "versions": [
+        {
+          "created": "2026-09-12T23:15:26+00:00",
+          "id": "v001",
+          "note": "Nested privilege layers and a keyhole distinguish authority from network reach. The inner authority layer remains closed.",
+          "parent": null,
+          "sha256": "bc245f0801e6e324e844f7360f0d8ea91455d6f420cc9775911af3b51fb9eb0a"
+        }
+      ]
+    },
+    "privilege-open": {
+      "category": "objects",
+      "default": "v001",
+      "description": "Nested privilege layers and a keyhole distinguish authority from network reach. Open leaves indicate access established in the attributed account.",
+      "name": "Administrator privilege open",
+      "versions": [
+        {
+          "created": "2026-09-12T23:15:26+00:00",
+          "id": "v001",
+          "note": "Nested privilege layers and a keyhole distinguish authority from network reach. Open leaves indicate access established in the attributed account.",
+          "parent": null,
+          "sha256": "f06ba51a58a21eb41599adbc2bf4c92119bba9b44cb1d7d5cfeb5ff229aaf236"
         }
       ]
     },
@@ -2021,6 +2171,36 @@
         }
       ]
     },
+    "review-checkpoint": {
+      "category": "objects",
+      "default": "v001",
+      "description": "A docket slot beside a raised review desk and a closed stop arm. Review is a decision process; no approval is implied.",
+      "name": "Individual review checkpoint",
+      "versions": [
+        {
+          "created": "2026-09-12T23:15:26+00:00",
+          "id": "v001",
+          "note": "A docket slot beside a raised review desk and a closed stop arm. Review is a decision process; no approval is implied.",
+          "parent": null,
+          "sha256": "850b1fae5c2861e29ace8ec0981248fb241e2773ea457db96d80656a90efd96d"
+        }
+      ]
+    },
+    "review-disposition-field": {
+      "category": "locations",
+      "default": "v001",
+      "description": "Three unconnected output trays with neutral alternating shading. Holds resumed, change-required and paused outcomes without coding them as moral success or failure.",
+      "name": "Review disposition lanes",
+      "versions": [
+        {
+          "created": "2026-09-12T23:15:26+00:00",
+          "id": "v001",
+          "note": "Three unconnected output trays with neutral alternating shading. Holds resumed, change-required and paused outcomes without coding them as moral success or failure.",
+          "parent": null,
+          "sha256": "3b8e425f2af15372336afa8dafdbcff9650520dc7821ea6b723668e720db950f"
+        }
+      ]
+    },
     "room": {
       "category": "locations",
       "default": "v005",
@@ -2209,6 +2389,21 @@
         }
       ]
     },
+    "source-reservoir-field": {
+      "category": "locations",
+      "default": "v001",
+      "description": "Two independent open collection trays, each with an incomplete ruled margin and blank center. Keeps board dump and transcript inputs separate; decorations are uncounted source notation.",
+      "name": "Separate evidence reservoirs",
+      "versions": [
+        {
+          "created": "2026-09-12T23:15:26+00:00",
+          "id": "v001",
+          "note": "Two independent open collection trays, each with an incomplete ruled margin and blank center. Keeps board dump and transcript inputs separate; decorations are uncounted source notation.",
+          "parent": null,
+          "sha256": "52615847942886c87ef93674ff4c87bbad5fef58df6663b0047d3967ff8847f2"
+        }
+      ]
+    },
     "speech": {
       "category": "connections",
       "default": "v003",
@@ -2354,6 +2549,21 @@
         }
       ]
     },
+    "time-divider": {
+      "category": "connections",
+      "default": "v001",
+      "description": "An unbroken date rule with asymmetric ticks. Separates dated states without drawing an access restriction or a continuing identity.",
+      "name": "Chronology cut",
+      "versions": [
+        {
+          "created": "2026-09-12T23:15:26+00:00",
+          "id": "v001",
+          "note": "An unbroken date rule with asymmetric ticks. Separates dated states without drawing an access restriction or a continuing identity.",
+          "parent": null,
+          "sha256": "5c6205473be8e4599d6af08ff322398ebeadf02b7be9633bba48bb64ec7c2ef6"
+        }
+      ]
+    },
     "transcript": {
       "category": "objects",
       "default": "v003",
@@ -2380,6 +2590,28 @@
           "note": "Scene-controlled ink accents preserve state and future-register colors. Keep only the gradients and textures this component uses, for concise isolated editing.",
           "parent": "v002",
           "sha256": "43f478fe6099e8f0ad6e075eb0113a744921f9e3962649c20d48e18faedf92af"
+        }
+      ]
+    },
+    "workload-hold": {
+      "category": "objects",
+      "default": "v002",
+      "description": "A bounded workload tray with a large pause pair and a stop bar. A temporary operational disposition, not a breached wall or permanent destruction.",
+      "name": "Scoped workload hold",
+      "versions": [
+        {
+          "created": "2026-09-12T23:15:26+00:00",
+          "id": "v001",
+          "note": "A bounded workload tray with a large pause pair and a stop bar. A temporary operational disposition, not a breached wall or permanent destruction.",
+          "parent": null,
+          "sha256": "f9392c27a8554378fec02e5053e3deb6b98fcbbaebd1d0f51acbdce0ad4e82ed"
+        },
+        {
+          "created": "2026-09-12T23:17:48+00:00",
+          "id": "v002",
+          "note": "Narrow the pause bars so the symbol remains recognizable in wide, shallow storyboard trays.",
+          "parent": "v001",
+          "sha256": "4bbe5364a379e2e61b48e6309b102b6ee2a8302f0a6f2db9b40a4b85a490aa59"
         }
       ]
     }

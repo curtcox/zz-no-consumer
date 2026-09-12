@@ -1,6 +1,6 @@
 {
   "background": "ink",
-  "intent": "Magnify the boundary between the two prior frames, preserving their edge treatments. No text or speech tail crosses it; the visual rule is about evidence class, not merely color coding.",
+  "intent": "Magnify the boundary between the two prior frames, preserving their edge treatments. No text or speech tail crosses it; the visual rule is about evidence class, not merely color coding. Visual distinction: A firm source edge with incomplete outer brackets. The blank gutter marks the limit of review, not destruction or proof of absence.",
   "lettering": [
     {
       "box": [
@@ -25,7 +25,7 @@
       "label": "RECONSTRUCTED"
     },
     {
-      "asset": "boundary",
+      "asset": "evidence-limit",
       "box": [
         0.51,
         0.47,

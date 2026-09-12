@@ -1,6 +1,6 @@
 {
   "background": "ink",
-  "intent": "Keep smaller work active beneath the largest-run hold. Relative scale and separate boundaries make continued activity compatible with a meaningful scoped pause.",
+  "intent": "Keep smaller work active beneath the largest-run hold. Relative scale and separate boundaries make continued activity compatible with a meaningful scoped pause. Visual distinction: A bounded workload tray with a large pause pair and a stop bar. A temporary operational disposition, not a breached wall or permanent destruction.",
   "lettering": [
     {
       "box": [
@@ -33,7 +33,7 @@
       "label_size": 18
     },
     {
-      "asset": "gate",
+      "asset": "workload-hold",
       "box": [
         0.52275,
         0.2012,

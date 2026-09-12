@@ -1,6 +1,6 @@
 {
   "background": "ink",
-  "intent": "Separate the source-bounded configuration field from five observer positions. All sightlines stop at its edge; publication knowledge must not leak backward into historical actors' views.",
+  "intent": "Separate the source-bounded configuration field from five observer positions. All sightlines stop at its edge; publication knowledge must not leak backward into historical actors' views. Visual distinction: A firm source edge with incomplete outer brackets. The blank gutter marks the limit of review, not destruction or proof of absence.",
   "lettering": [
     {
       "box": [
@@ -40,11 +40,11 @@
       ]
     },
     {
-      "asset": "boundary",
+      "asset": "evidence-limit",
       "box": [
-        0.3,
+        0.2945,
         0.12,
-        0.014,
+        0.025,
         0.62
       ],
       "color": "paper",

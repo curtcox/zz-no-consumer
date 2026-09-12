@@ -1,6 +1,6 @@
 {
   "background": "ink",
-  "intent": "Use one time scale but separate lanes, with solid stored events and hatched report inferences. Shared dates must never become cross-lane causal arrows.",
+  "intent": "Use one time scale but separate lanes, with solid stored events and hatched report inferences. Shared dates must never become cross-lane causal arrows. Visual distinction: Two separated calendar rails with a wide blank middle gutter and aligned edge ticks. Supports dated comparison without links, shared identities, or additional event marks.",
   "lettering": [
     {
       "box": [
@@ -13,6 +13,16 @@
   ],
   "lettering_mode": "manual",
   "nodes": [
+    {
+      "asset": "parallel-calendar-field",
+      "box": [
+        0.04,
+        0.045,
+        0.92,
+        0.64
+      ],
+      "color": "steel"
+    },
     {
       "asset": "line",
       "box": [

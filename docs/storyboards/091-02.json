@@ -1,6 +1,6 @@
 {
   "background": "ink",
-  "intent": "Block metadata access at its boundary and revoke token objects in distinct systems. Access-path closure and credential invalidation are different protective operations.",
+  "intent": "Block metadata access at its boundary and revoke token objects in distinct systems. Access-path closure and credential invalidation are different protective operations. Visual distinction: A solid tiled network wall with disconnected cable ends. Indicates unavailable reach, not a decision awaiting human approval.",
   "lettering": [
     {
       "box": [
@@ -14,7 +14,7 @@
   "lettering_mode": "manual",
   "nodes": [
     {
-      "asset": "gate",
+      "asset": "network-wall",
       "box": [
         0.06775,
         0.2012,

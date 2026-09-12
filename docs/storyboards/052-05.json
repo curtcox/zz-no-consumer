@@ -1,6 +1,6 @@
 {
   "background": "ink",
-  "intent": "Draw the three hypothetical extensions as untrodden outlines within the review boundary. No ascending path reaches them; retain the counterevidence about runs spending their own budgets.",
+  "intent": "Draw the three hypothetical extensions as untrodden outlines within the review boundary. No ascending path reaches them; retain the counterevidence about runs spending their own budgets. Visual distinction: A firm source edge with incomplete outer brackets. The blank gutter marks the limit of review, not destruction or proof of absence.",
   "lettering": [
     {
       "box": [
@@ -14,11 +14,11 @@
   "lettering_mode": "manual",
   "nodes": [
     {
-      "asset": "boundary",
+      "asset": "evidence-limit",
       "box": [
-        0.17158600000000002,
+        0.165086,
         0.2242,
-        0.012,
+        0.025,
         0.256
       ],
       "color": "steel",

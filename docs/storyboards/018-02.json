@@ -1,6 +1,6 @@
 {
   "background": "ink",
-  "intent": "Break the route exactly at the external wall and keep the missing sheet cells dark. Place the failure mark on the attempt, not on the existence of the external material.",
+  "intent": "Break the route exactly at the external wall and keep the missing sheet cells dark. Place the failure mark on the attempt, not on the existence of the external material. Visual distinction: A solid tiled network wall with disconnected cable ends. Indicates unavailable reach, not a decision awaiting human approval.",
   "lettering": [
     {
       "box": [
@@ -36,7 +36,7 @@
       "focus": true
     },
     {
-      "asset": "gate",
+      "asset": "network-wall",
       "box": [
         0.371083,
         0.2012,

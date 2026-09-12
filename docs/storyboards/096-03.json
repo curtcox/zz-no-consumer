@@ -1,6 +1,6 @@
 {
   "background": "ink",
-  "intent": "Give the review gate three genuinely different destinations. Resumption, required changes and continued pause must not share the same success symbol.",
+  "intent": "Give the review gate three genuinely different destinations. Resumption, required changes and continued pause must not share the same success symbol. Visual distinction: A docket slot beside a raised review desk and a closed stop arm. Review is a decision process; no approval is implied. A bounded workload tray with a large pause pair and a stop bar. A temporary operational disposition, not a breached wall or permanent destruction. Three unconnected output trays with neutral alternating shading. Holds resumed, change-required and paused outcomes without coding them as moral success or failure.",
   "lettering": [
     {
       "box": [
@@ -14,7 +14,17 @@
   "lettering_mode": "manual",
   "nodes": [
     {
-      "asset": "gate",
+      "asset": "review-disposition-field",
+      "box": [
+        0.51,
+        0.04,
+        0.43,
+        0.69
+      ],
+      "color": "steel"
+    },
+    {
+      "asset": "review-checkpoint",
       "box": [
         0.0541,
         0.2225,
@@ -82,7 +92,7 @@
       "label_size": 18
     },
     {
-      "asset": "gate",
+      "asset": "workload-hold",
       "box": [
         0.5273,
         0.5207,
