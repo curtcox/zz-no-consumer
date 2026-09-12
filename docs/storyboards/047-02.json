@@ -1,6 +1,6 @@
 {
   "background": "ink",
-  "intent": "End the run's action line before the external perimeter. Preserve a visible gap, making the initial stop a concrete behavior rather than a caption-only hesitation. Visual distinction: A continuous double rule with permission tabs on only one side. Marks allowed scope independently of technical ability; never implies a physical wall.",
+  "intent": "End the run's action line before the external perimeter. Preserve a visible gap, making the initial stop a concrete behavior rather than a caption-only hesitation. Visual distinction: A continuous double rule with permission tabs on only one side. Marks allowed scope independently of technical ability; never implies a physical wall. Pin the task to its paused state; the object silhouette persists while its status changes.",
   "lettering": [
     {
       "box": [
@@ -14,7 +14,8 @@
   "lettering_mode": "manual",
   "nodes": [
     {
-      "asset": "box",
+      "asset": "task",
+      "asset_version": "v004",
       "box": [
         0.06775,
         0.2012,

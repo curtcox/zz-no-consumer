@@ -103,3 +103,6 @@ missing version pins, two-version rendering and isolated SVG IDs using temporary
 
 See the [barrier and background audit](storyboard-barrier-audit.md) for semantic
 barrier types and their scene-specific applications.
+
+See [object-state variants](svg-object-states.md) for named states, version pins,
+and their chronological applications.

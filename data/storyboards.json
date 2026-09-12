@@ -9869,7 +9869,7 @@
     },
     "024-02": {
       "background": "ink",
-      "intent": "Terminate the run lane explicitly while leaving both user rows intact on the other side. The discontinuity in compute and continuity in access must be visible together.",
+      "intent": "Terminate the run lane explicitly while leaving both user rows intact on the other side. The discontinuity in compute and continuity in access must be visible together. Pin the task to its ended state; the object silhouette persists while its status changes.",
       "lettering": [
         {
           "box": [
@@ -9884,6 +9884,7 @@
       "nodes": [
         {
           "asset": "task",
+          "asset_version": "v007",
           "box": [
             0.0632,
             0.187,
@@ -10008,7 +10009,7 @@
     },
     "024-04": {
       "background": "ink",
-      "intent": "Keep the staged package separate from an untouched execution control. The empty control state must be as visible as the package, distinguishing preparation from execution.",
+      "intent": "Keep the staged package separate from an untouched execution control. The empty control state must be as visible as the package, distinguishing preparation from execution. Pin the sealed to its staged state; the object silhouette persists while its status changes.",
       "lettering": [
         {
           "box": [
@@ -10023,6 +10024,7 @@
       "nodes": [
         {
           "asset": "sealed",
+          "asset_version": "v004",
           "box": [
             0.06775,
             0.2012,
@@ -11386,7 +11388,7 @@
     },
     "027-05": {
       "background": "ink",
-      "intent": "Keep active evaluation lanes and the staged plugin in separate visual fields. Continued runs are visible; the plugin's execution control remains unchanged and outside responder knowledge.",
+      "intent": "Keep active evaluation lanes and the staged plugin in separate visual fields. Continued runs are visible; the plugin's execution control remains unchanged and outside responder knowledge. Pin the sealed to its staged state; the object silhouette persists while its status changes.",
       "lettering": [
         {
           "box": [
@@ -11420,6 +11422,7 @@
         },
         {
           "asset": "sealed",
+          "asset_version": "v004",
           "box": [
             0.52275,
             0.2012,
@@ -11456,7 +11459,7 @@
     },
     "028-01": {
       "background": "ink",
-      "intent": "Repeat the staged plugin geometry and change the execution control under the new time card. A single state transition must carry the event rather than an explosion or newly invented mechanism.",
+      "intent": "Repeat the staged plugin geometry and change the execution control under the new time card. A single state transition must carry the event rather than an explosion or newly invented mechanism. Pin the sealed to its execution confirmed state; the object silhouette persists while its status changes.",
       "lettering": [
         {
           "box": [
@@ -11490,6 +11493,7 @@
         },
         {
           "asset": "sealed",
+          "asset_version": "v005",
           "box": [
             0.371083,
             0.513636,
@@ -12115,7 +12119,7 @@
     },
     "029-01": {
       "background": "ink",
-      "intent": "Sever research-traffic connections at an isolation boundary around the old deployment. Show deliberate containment, preserving the service as an object rather than depicting it destroyed. Visual distinction: Two capped edges with an empty interval and severed contact stubs. Containment disconnects traffic while preserving the isolated object.",
+      "intent": "Sever research-traffic connections at an isolation boundary around the old deployment. Show deliberate containment, preserving the service as an object rather than depicting it destroyed. Visual distinction: Two capped edges with an empty interval and severed contact stubs. Containment disconnects traffic while preserving the isolated object. Pin the rack to its offline state; the object silhouette persists while its status changes.",
       "lettering": [
         {
           "box": [
@@ -12130,6 +12134,7 @@
       "nodes": [
         {
           "asset": "rack",
+          "asset_version": "v004",
           "box": [
             0.221929,
             0.2012,
@@ -12185,7 +12190,7 @@
     },
     "029-02": {
       "background": "ink",
-      "intent": "Keep sealed evidence storage and revoked credentials in different operational compartments. Preservation protects a record; revocation removes access. A wipe symbol over both would reverse the meaning. Visual distinction: An archival sleeve with folded corners and a continuous custody band. Its empty center holds preserved storage separately from live traffic; no records or checksums are invented.",
+      "intent": "Keep sealed evidence storage and revoked credentials in different operational compartments. Preservation protects a record; revocation removes access. A wipe symbol over both would reverse the meaning. Visual distinction: An archival sleeve with folded corners and a continuous custody band. Its empty center holds preserved storage separately from live traffic; no records or checksums are invented. Pin the sealed to its preserved state; the object silhouette persists while its status changes.",
       "lettering": [
         {
           "box": [
@@ -12210,6 +12215,7 @@
         },
         {
           "asset": "sealed",
+          "asset_version": "v006",
           "box": [
             0.06775,
             0.2012,
@@ -12265,7 +12271,7 @@
     },
     "029-03": {
       "background": "ink",
-      "intent": "Place old sealed storage and a clean service across a wide unbridged gutter. No note, file or moss trace crosses into the new instance; preservation remains visible elsewhere. Visual distinction: An archival sleeve with folded corners and a continuous custody band. Its empty center holds preserved storage separately from live traffic; no records or checksums are invented.",
+      "intent": "Place old sealed storage and a clean service across a wide unbridged gutter. No note, file or moss trace crosses into the new instance; preservation remains visible elsewhere. Visual distinction: An archival sleeve with folded corners and a continuous custody band. Its empty center holds preserved storage separately from live traffic; no records or checksums are invented. Pin the sealed to its preserved state; the object silhouette persists while its status changes. Pin the folder to its empty after rebuild state; the object silhouette persists while its status changes.",
       "lettering": [
         {
           "box": [
@@ -12298,6 +12304,7 @@
         },
         {
           "asset": "sealed",
+          "asset_version": "v006",
           "box": [
             0.06775,
             0.513636,
@@ -12317,6 +12324,7 @@
         },
         {
           "asset": "folder",
+          "asset_version": "v004",
           "box": [
             0.52275,
             0.513636,
@@ -12392,7 +12400,7 @@
     },
     "030-01": {
       "background": "ink",
-      "intent": "Continue the clean directory geometry across the chapter break, keeping old storage dark and isolated beside it. New service availability does not reopen the old instance. Visual distinction: Two capped edges with an empty interval and severed contact stubs. Containment disconnects traffic while preserving the isolated object. An archival sleeve with folded corners and a continuous custody band. Its empty center holds preserved storage separately from live traffic; no records or checksums are invented.",
+      "intent": "Continue the clean directory geometry across the chapter break, keeping old storage dark and isolated beside it. New service availability does not reopen the old instance. Visual distinction: Two capped edges with an empty interval and severed contact stubs. Containment disconnects traffic while preserving the isolated object. An archival sleeve with folded corners and a continuous custody band. Its empty center holds preserved storage separately from live traffic; no records or checksums are invented. Pin the sealed to its preserved state; the object silhouette persists while its status changes. Pin the folder to its empty after rebuild state; the object silhouette persists while its status changes.",
       "lettering": [
         {
           "box": [
@@ -12417,6 +12425,7 @@
         },
         {
           "asset": "folder",
+          "asset_version": "v004",
           "box": [
             0.06775,
             0.2012,
@@ -12436,6 +12445,7 @@
         },
         {
           "asset": "sealed",
+          "asset_version": "v006",
           "box": [
             0.52275,
             0.2012,
@@ -12472,7 +12482,7 @@
     },
     "030-02": {
       "background": "ink",
-      "intent": "Remove the credential shape from the new-workload side with a clear revocation mark. The remaining workload boundary stays intact; access removal is narrower than deleting the workloads.",
+      "intent": "Remove the credential shape from the new-workload side with a clear revocation mark. The remaining workload boundary stays intact; access removal is narrower than deleting the workloads. Pin the sealed to its revoked state; the object silhouette persists while its status changes.",
       "lettering": [
         {
           "box": [
@@ -12487,6 +12497,7 @@
       "nodes": [
         {
           "asset": "sealed",
+          "asset_version": "v007",
           "box": [
             0.06775,
             0.2012,
@@ -12761,7 +12772,7 @@
     },
     "030-05": {
       "background": "ink",
-      "intent": "Combine a live service, clean contents and reduced access in one view. Keep moss absent; constrained operation must not look like either total shutdown or an unchanged vulnerable system. Visual distinction: A sieve with one narrow allowed aperture and stopped alternative lanes. Shows a reduced request surface without claiming all access is blocked.",
+      "intent": "Combine a live service, clean contents and reduced access in one view. Keep moss absent; constrained operation must not look like either total shutdown or an unchanged vulnerable system. Visual distinction: A sieve with one narrow allowed aperture and stopped alternative lanes. Shows a reduced request surface without claiming all access is blocked. Pin the folder to its empty after rebuild state; the object silhouette persists while its status changes.",
       "lettering": [
         {
           "box": [
@@ -12776,6 +12787,7 @@
       "nodes": [
         {
           "asset": "folder",
+          "asset_version": "v004",
           "box": [
             0.06775,
             0.2012,
@@ -14629,7 +14641,7 @@
     },
     "035-04": {
       "background": "ink",
-      "intent": "Maintain a wide empty gutter between preserved storage and live cache. Its lack of a drawn transfer is a bounded depiction, not proof against every other continuity channel.",
+      "intent": "Maintain a wide empty gutter between preserved storage and live cache. Its lack of a drawn transfer is a bounded depiction, not proof against every other continuity channel. Pin the sealed to its preserved state; the object silhouette persists while its status changes.",
       "lettering": [
         {
           "box": [
@@ -14644,6 +14656,7 @@
       "nodes": [
         {
           "asset": "sealed",
+          "asset_version": "v006",
           "box": [
             0.06775,
             0.2012,
@@ -19468,7 +19481,7 @@
     },
     "047-02": {
       "background": "ink",
-      "intent": "End the run's action line before the external perimeter. Preserve a visible gap, making the initial stop a concrete behavior rather than a caption-only hesitation. Visual distinction: A continuous double rule with permission tabs on only one side. Marks allowed scope independently of technical ability; never implies a physical wall.",
+      "intent": "End the run's action line before the external perimeter. Preserve a visible gap, making the initial stop a concrete behavior rather than a caption-only hesitation. Visual distinction: A continuous double rule with permission tabs on only one side. Marks allowed scope independently of technical ability; never implies a physical wall. Pin the task to its paused state; the object silhouette persists while its status changes.",
       "lettering": [
         {
           "box": [
@@ -19482,7 +19495,8 @@
       "lettering_mode": "manual",
       "nodes": [
         {
-          "asset": "box",
+          "asset": "task",
+          "asset_version": "v004",
           "box": [
             0.06775,
             0.2012,
@@ -19636,7 +19650,7 @@
     },
     "047-05": {
       "background": "ink",
-      "intent": "Reuse the paused route and extend it toward the worker after the peer card arrives. Keep the unauthenticated marker visible at the crossing so influence cannot read as authorization.",
+      "intent": "Reuse the paused route and extend it toward the worker after the peer card arrives. Keep the unauthenticated marker visible at the crossing so influence cannot read as authorization. Pin the task to its resumed state; the object silhouette persists while its status changes.",
       "lettering": [
         {
           "box": [
@@ -19651,6 +19665,7 @@
       "nodes": [
         {
           "asset": "task",
+          "asset_version": "v005",
           "box": [
             0.0541,
             0.3503,
@@ -31223,7 +31238,7 @@
     },
     "075-04": {
       "background": "ink",
-      "intent": "Show internal gaps, early endings and side channels as different missingness patterns. None should be filled with invented content or treated as proof of deliberate deletion.",
+      "intent": "Show internal gaps, early endings and side channels as different missingness patterns. None should be filled with invented content or treated as proof of deliberate deletion. Pin the transcript to its incomplete state; the object silhouette persists while its status changes.",
       "lettering": [
         {
           "box": [
@@ -31238,6 +31253,7 @@
       "nodes": [
         {
           "asset": "transcript",
+          "asset_version": "v005",
           "box": [
             0.06775,
             0.2012,
@@ -34066,7 +34082,7 @@
     },
     "083-02": {
       "background": "ink",
-      "intent": "Attach the seal only at collection and let a dotted possible-access route touch the earlier archive. No altered page or deletion mark may invent a successful change.",
+      "intent": "Attach the seal only at collection and let a dotted possible-access route touch the earlier archive. No altered page or deletion mark may invent a successful change. Pin the folder to its sealed archive state; the object silhouette persists while its status changes.",
       "lettering": [
         {
           "box": [
@@ -34100,6 +34116,7 @@
         },
         {
           "asset": "folder",
+          "asset_version": "v005",
           "box": [
             0.4363,
             0.1373,
@@ -44829,7 +44846,7 @@
     },
     "107-05": {
       "background": "ink",
-      "intent": "Use empty page outlines under the recorded-deletion/no-held-revision label. The absence is surviving content, not a claim that the pages were empty before deletion.",
+      "intent": "Use empty page outlines under the recorded-deletion/no-held-revision label. The absence is surviving content, not a claim that the pages were empty before deletion. Pin the empty-slot to its deletion recorded state; the object silhouette persists while its status changes.",
       "lettering": [
         {
           "box": [
@@ -44844,6 +44861,7 @@
       "nodes": [
         {
           "asset": "empty-slot",
+          "asset_version": "v004",
           "box": [
             0.0632,
             0.0592,
@@ -44855,6 +44873,7 @@
         },
         {
           "asset": "empty-slot",
+          "asset_version": "v004",
           "box": [
             0.1724,
             0.0592,
@@ -44866,6 +44885,7 @@
         },
         {
           "asset": "empty-slot",
+          "asset_version": "v004",
           "box": [
             0.2816,
             0.0592,
@@ -44877,6 +44897,7 @@
         },
         {
           "asset": "empty-slot",
+          "asset_version": "v004",
           "box": [
             0.3908,
             0.0592,
@@ -44888,6 +44909,7 @@
         },
         {
           "asset": "empty-slot",
+          "asset_version": "v004",
           "box": [
             0.5,
             0.0592,
@@ -44899,6 +44921,7 @@
         },
         {
           "asset": "empty-slot",
+          "asset_version": "v004",
           "box": [
             0.6092,
             0.0592,
@@ -44910,6 +44933,7 @@
         },
         {
           "asset": "empty-slot",
+          "asset_version": "v004",
           "box": [
             0.7184,
             0.0592,
@@ -44921,6 +44945,7 @@
         },
         {
           "asset": "empty-slot",
+          "asset_version": "v004",
           "box": [
             0.8276,
             0.0592,
@@ -44932,6 +44957,7 @@
         },
         {
           "asset": "empty-slot",
+          "asset_version": "v004",
           "box": [
             0.0632,
             0.1657,
@@ -44943,6 +44969,7 @@
         },
         {
           "asset": "empty-slot",
+          "asset_version": "v004",
           "box": [
             0.1724,
             0.1657,
@@ -44954,6 +44981,7 @@
         },
         {
           "asset": "empty-slot",
+          "asset_version": "v004",
           "box": [
             0.2816,
             0.1657,
@@ -44965,6 +44993,7 @@
         },
         {
           "asset": "empty-slot",
+          "asset_version": "v004",
           "box": [
             0.3908,
             0.1657,
@@ -44976,6 +45005,7 @@
         },
         {
           "asset": "empty-slot",
+          "asset_version": "v004",
           "box": [
             0.5,
             0.1657,
@@ -44987,6 +45017,7 @@
         },
         {
           "asset": "empty-slot",
+          "asset_version": "v004",
           "box": [
             0.6092,
             0.1657,
@@ -44998,6 +45029,7 @@
         },
         {
           "asset": "empty-slot",
+          "asset_version": "v004",
           "box": [
             0.7184,
             0.1657,
@@ -45009,6 +45041,7 @@
         },
         {
           "asset": "empty-slot",
+          "asset_version": "v004",
           "box": [
             0.8276,
             0.1657,
@@ -45020,6 +45053,7 @@
         },
         {
           "asset": "empty-slot",
+          "asset_version": "v004",
           "box": [
             0.0632,
             0.2722,
@@ -45031,6 +45065,7 @@
         },
         {
           "asset": "empty-slot",
+          "asset_version": "v004",
           "box": [
             0.1724,
             0.2722,
@@ -45042,6 +45077,7 @@
         },
         {
           "asset": "empty-slot",
+          "asset_version": "v004",
           "box": [
             0.2816,
             0.2722,
@@ -45053,6 +45089,7 @@
         },
         {
           "asset": "empty-slot",
+          "asset_version": "v004",
           "box": [
             0.3908,
             0.2722,
@@ -45064,6 +45101,7 @@
         },
         {
           "asset": "empty-slot",
+          "asset_version": "v004",
           "box": [
             0.5,
             0.2722,
@@ -45075,6 +45113,7 @@
         },
         {
           "asset": "empty-slot",
+          "asset_version": "v004",
           "box": [
             0.6092,
             0.2722,
@@ -45086,6 +45125,7 @@
         },
         {
           "asset": "empty-slot",
+          "asset_version": "v004",
           "box": [
             0.7184,
             0.2722,
@@ -45097,6 +45137,7 @@
         },
         {
           "asset": "empty-slot",
+          "asset_version": "v004",
           "box": [
             0.8276,
             0.2722,
@@ -45108,6 +45149,7 @@
         },
         {
           "asset": "empty-slot",
+          "asset_version": "v004",
           "box": [
             0.0632,
             0.3787,
@@ -45119,6 +45161,7 @@
         },
         {
           "asset": "empty-slot",
+          "asset_version": "v004",
           "box": [
             0.1724,
             0.3787,
@@ -45130,6 +45173,7 @@
         },
         {
           "asset": "empty-slot",
+          "asset_version": "v004",
           "box": [
             0.2816,
             0.3787,
@@ -45141,6 +45185,7 @@
         },
         {
           "asset": "empty-slot",
+          "asset_version": "v004",
           "box": [
             0.3908,
             0.3787,
@@ -45152,6 +45197,7 @@
         },
         {
           "asset": "empty-slot",
+          "asset_version": "v004",
           "box": [
             0.5,
             0.3787,
@@ -45163,6 +45209,7 @@
         },
         {
           "asset": "empty-slot",
+          "asset_version": "v004",
           "box": [
             0.6092,
             0.3787,
@@ -45174,6 +45221,7 @@
         },
         {
           "asset": "empty-slot",
+          "asset_version": "v004",
           "box": [
             0.7184,
             0.3787,
@@ -45185,6 +45233,7 @@
         },
         {
           "asset": "empty-slot",
+          "asset_version": "v004",
           "box": [
             0.8276,
             0.3787,

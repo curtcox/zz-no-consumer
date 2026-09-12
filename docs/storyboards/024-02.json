@@ -1,6 +1,6 @@
 {
   "background": "ink",
-  "intent": "Terminate the run lane explicitly while leaving both user rows intact on the other side. The discontinuity in compute and continuity in access must be visible together.",
+  "intent": "Terminate the run lane explicitly while leaving both user rows intact on the other side. The discontinuity in compute and continuity in access must be visible together. Pin the task to its ended state; the object silhouette persists while its status changes.",
   "lettering": [
     {
       "box": [
@@ -15,6 +15,7 @@
   "nodes": [
     {
       "asset": "task",
+      "asset_version": "v007",
       "box": [
         0.0632,
         0.187,

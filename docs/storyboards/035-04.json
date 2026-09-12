@@ -1,6 +1,6 @@
 {
   "background": "ink",
-  "intent": "Maintain a wide empty gutter between preserved storage and live cache. Its lack of a drawn transfer is a bounded depiction, not proof against every other continuity channel.",
+  "intent": "Maintain a wide empty gutter between preserved storage and live cache. Its lack of a drawn transfer is a bounded depiction, not proof against every other continuity channel. Pin the sealed to its preserved state; the object silhouette persists while its status changes.",
   "lettering": [
     {
       "box": [
@@ -15,6 +15,7 @@
   "nodes": [
     {
       "asset": "sealed",
+      "asset_version": "v006",
       "box": [
         0.06775,
         0.2012,

@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
+<defs>
+<linearGradient id="stock" x1="0" y1="0" x2=".8" y2="1"><stop stop-color="#E7E0D0" /><stop offset="1" stop-color="#CEC5B3" /></linearGradient>
+<pattern id="grain" width="7" height="9" patternUnits="userSpaceOnUse"><circle cx="1" cy="2" r=".35" fill="#101214" opacity=".18" /><path d="M4 6h2M1 8h1" stroke="#101214" stroke-width=".3" opacity=".16" /></pattern>
+</defs><path d="M5 3H83L96 16V96H5Z" fill="url(#stock)" stroke="currentColor" stroke-width="2" /><path d="M5 3H83L96 16V96H5Z" fill="url(#grain)" /><path d="M5 3H83L96 16V22H5Z" fill="currentColor" /><rect x="10" y="80" width="80" height="11" fill="#202326" /><circle cx="29" cy="49" r="15" fill="none" stroke="#101214" stroke-width="2" /><path d="M29 29V69M9 49H49" fill="none" stroke="#101214" stroke-width="1.4" /><path d="M55 36H85M55 47H77M55 58H85" fill="none" stroke="#101214" stroke-width="2" />
+<rect x="66" y="4" width="29" height="23" rx="2" fill="#202326" stroke="#e7e0d0" stroke-width="1"/><path d="M71 10L89 22M89 10L71 22" stroke="#e7e0d0" stroke-width="3"/></svg>

@@ -1,7 +1,7 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="800" viewBox="0 0 1200 800"><title>Deletion records survive without the deleted pages’ contents</title><desc>Use empty page outlines under the recorded-deletion/no-held-revision label. The absence is surviving content, not a claim that the pages were empty before deletion.</desc><metadata>{
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="800" viewBox="0 0 1200 800"><title>Deletion records survive without the deleted pages’ contents</title><desc>Use empty page outlines under the recorded-deletion/no-held-revision label. The absence is surviving content, not a claim that the pages were empty before deletion. Pin the empty-slot to its deletion recorded state; the object silhouette persists while its status changes.</desc><metadata>{
   &quot;assets&quot;: {
     &quot;card&quot;: &quot;&lt;defs&gt;\n&lt;linearGradient id=\&quot;stock\&quot; x1=\&quot;0\&quot; y1=\&quot;0\&quot; x2=\&quot;.8\&quot; y2=\&quot;1\&quot;&gt;&lt;stop stop-color=\&quot;#E7E0D0\&quot; /&gt;&lt;stop offset=\&quot;1\&quot; stop-color=\&quot;#CEC5B3\&quot; /&gt;&lt;/linearGradient&gt;\n&lt;pattern id=\&quot;grain\&quot; width=\&quot;7\&quot; height=\&quot;9\&quot; patternUnits=\&quot;userSpaceOnUse\&quot;&gt;&lt;circle cx=\&quot;1\&quot; cy=\&quot;2\&quot; r=\&quot;.35\&quot; fill=\&quot;#101214\&quot; opacity=\&quot;.18\&quot; /&gt;&lt;path d=\&quot;M4 6h2M1 8h1\&quot; stroke=\&quot;#101214\&quot; stroke-width=\&quot;.3\&quot; opacity=\&quot;.16\&quot; /&gt;&lt;/pattern&gt;\n&lt;/defs&gt;&lt;path d=\&quot;M5 3H95V97H5Z\&quot; fill=\&quot;url(#stock)\&quot; stroke=\&quot;currentColor\&quot; stroke-width=\&quot;2\&quot; /&gt;&lt;path d=\&quot;M5 3H95V97H5Z\&quot; fill=\&quot;url(#grain)\&quot; /&gt;&lt;rect x=\&quot;5\&quot; y=\&quot;3\&quot; width=\&quot;90\&quot; height=\&quot;15\&quot; fill=\&quot;currentColor\&quot; /&gt;&lt;rect x=\&quot;10\&quot; y=\&quot;25\&quot; width=\&quot;5\&quot; height=\&quot;61\&quot; fill=\&quot;currentColor\&quot; /&gt;&lt;path d=\&quot;M23 29H85M23 38H75M23 48H83M23 66H62M23 78H80\&quot; fill=\&quot;none\&quot; stroke=\&quot;#101214\&quot; stroke-width=\&quot;2\&quot; /&gt;&lt;path d=\&quot;M12 11H42M65 11H86\&quot; fill=\&quot;none\&quot; stroke=\&quot;#E7E0D0\&quot; stroke-width=\&quot;1.4\&quot; /&gt;&quot;,
-    &quot;empty-slot&quot;: &quot;&lt;rect x=\&quot;3\&quot; y=\&quot;3\&quot; width=\&quot;94\&quot; height=\&quot;94\&quot; fill=\&quot;none\&quot; stroke=\&quot;currentColor\&quot; stroke-width=\&quot;2\&quot; stroke-dasharray=\&quot;7 5\&quot; /&gt;&lt;path d=\&quot;M3 20V3H20M80 3H97V20M97 80V97H80M20 97H3V80\&quot; fill=\&quot;none\&quot; stroke=\&quot;#E7E0D0\&quot; stroke-width=\&quot;1\&quot; opacity=\&quot;.6\&quot; /&gt;&quot;
+    &quot;empty-slot@v004&quot;: &quot;&lt;rect x=\&quot;3\&quot; y=\&quot;3\&quot; width=\&quot;94\&quot; height=\&quot;94\&quot; fill=\&quot;none\&quot; stroke=\&quot;currentColor\&quot; stroke-width=\&quot;2\&quot; stroke-dasharray=\&quot;7 5\&quot; /&gt;&lt;path d=\&quot;M3 20V3H20M80 3H97V20M97 80V97H80M20 97H3V80\&quot; fill=\&quot;none\&quot; stroke=\&quot;#E7E0D0\&quot; stroke-width=\&quot;1\&quot; opacity=\&quot;.6\&quot; /&gt;\n&lt;path d=\&quot;M78 4L96 22M96 4L78 22\&quot; stroke=\&quot;currentColor\&quot; stroke-width=\&quot;4\&quot;/&gt;&lt;path d=\&quot;M4 84H22V96\&quot; stroke=\&quot;currentColor\&quot; stroke-width=\&quot;2\&quot; fill=\&quot;none\&quot;/&gt;&quot;
   },
   &quot;palette&quot;: {
     &quot;amber&quot;: &quot;#A17D45&quot;,
@@ -18,7 +18,7 @@
   &quot;renderer&quot;: &quot;storyboard-svg-2&quot;,
   &quot;scene&quot;: {
     &quot;background&quot;: &quot;ink&quot;,
-    &quot;intent&quot;: &quot;Use empty page outlines under the recorded-deletion/no-held-revision label. The absence is surviving content, not a claim that the pages were empty before deletion.&quot;,
+    &quot;intent&quot;: &quot;Use empty page outlines under the recorded-deletion/no-held-revision label. The absence is surviving content, not a claim that the pages were empty before deletion. Pin the empty-slot to its deletion recorded state; the object silhouette persists while its status changes.&quot;,
     &quot;lettering&quot;: [
       {
         &quot;box&quot;: [
@@ -33,6 +33,7 @@
     &quot;nodes&quot;: [
       {
         &quot;asset&quot;: &quot;empty-slot&quot;,
+        &quot;asset_version&quot;: &quot;v004&quot;,
         &quot;box&quot;: [
           0.0632,
           0.0592,
@@ -44,6 +45,7 @@
       },
       {
         &quot;asset&quot;: &quot;empty-slot&quot;,
+        &quot;asset_version&quot;: &quot;v004&quot;,
         &quot;box&quot;: [
           0.1724,
           0.0592,
@@ -55,6 +57,7 @@
       },
       {
         &quot;asset&quot;: &quot;empty-slot&quot;,
+        &quot;asset_version&quot;: &quot;v004&quot;,
         &quot;box&quot;: [
           0.2816,
           0.0592,
@@ -66,6 +69,7 @@
       },
       {
         &quot;asset&quot;: &quot;empty-slot&quot;,
+        &quot;asset_version&quot;: &quot;v004&quot;,
         &quot;box&quot;: [
           0.3908,
           0.0592,
@@ -77,6 +81,7 @@
       },
       {
         &quot;asset&quot;: &quot;empty-slot&quot;,
+        &quot;asset_version&quot;: &quot;v004&quot;,
         &quot;box&quot;: [
           0.5,
           0.0592,
@@ -88,6 +93,7 @@
       },
       {
         &quot;asset&quot;: &quot;empty-slot&quot;,
+        &quot;asset_version&quot;: &quot;v004&quot;,
         &quot;box&quot;: [
           0.6092,
           0.0592,
@@ -99,6 +105,7 @@
       },
       {
         &quot;asset&quot;: &quot;empty-slot&quot;,
+        &quot;asset_version&quot;: &quot;v004&quot;,
         &quot;box&quot;: [
           0.7184,
           0.0592,
@@ -110,6 +117,7 @@
       },
       {
         &quot;asset&quot;: &quot;empty-slot&quot;,
+        &quot;asset_version&quot;: &quot;v004&quot;,
         &quot;box&quot;: [
           0.8276,
           0.0592,
@@ -121,6 +129,7 @@
       },
       {
         &quot;asset&quot;: &quot;empty-slot&quot;,
+        &quot;asset_version&quot;: &quot;v004&quot;,
         &quot;box&quot;: [
           0.0632,
           0.1657,
@@ -132,6 +141,7 @@
       },
       {
         &quot;asset&quot;: &quot;empty-slot&quot;,
+        &quot;asset_version&quot;: &quot;v004&quot;,
         &quot;box&quot;: [
           0.1724,
           0.1657,
@@ -143,6 +153,7 @@
       },
       {
         &quot;asset&quot;: &quot;empty-slot&quot;,
+        &quot;asset_version&quot;: &quot;v004&quot;,
         &quot;box&quot;: [
           0.2816,
           0.1657,
@@ -154,6 +165,7 @@
       },
       {
         &quot;asset&quot;: &quot;empty-slot&quot;,
+        &quot;asset_version&quot;: &quot;v004&quot;,
         &quot;box&quot;: [
           0.3908,
           0.1657,
@@ -165,6 +177,7 @@
       },
       {
         &quot;asset&quot;: &quot;empty-slot&quot;,
+        &quot;asset_version&quot;: &quot;v004&quot;,
         &quot;box&quot;: [
           0.5,
           0.1657,
@@ -176,6 +189,7 @@
       },
       {
         &quot;asset&quot;: &quot;empty-slot&quot;,
+        &quot;asset_version&quot;: &quot;v004&quot;,
         &quot;box&quot;: [
           0.6092,
           0.1657,
@@ -187,6 +201,7 @@
       },
       {
         &quot;asset&quot;: &quot;empty-slot&quot;,
+        &quot;asset_version&quot;: &quot;v004&quot;,
         &quot;box&quot;: [
           0.7184,
           0.1657,
@@ -198,6 +213,7 @@
       },
       {
         &quot;asset&quot;: &quot;empty-slot&quot;,
+        &quot;asset_version&quot;: &quot;v004&quot;,
         &quot;box&quot;: [
           0.8276,
           0.1657,
@@ -209,6 +225,7 @@
       },
       {
         &quot;asset&quot;: &quot;empty-slot&quot;,
+        &quot;asset_version&quot;: &quot;v004&quot;,
         &quot;box&quot;: [
           0.0632,
           0.2722,
@@ -220,6 +237,7 @@
       },
       {
         &quot;asset&quot;: &quot;empty-slot&quot;,
+        &quot;asset_version&quot;: &quot;v004&quot;,
         &quot;box&quot;: [
           0.1724,
           0.2722,
@@ -231,6 +249,7 @@
       },
       {
         &quot;asset&quot;: &quot;empty-slot&quot;,
+        &quot;asset_version&quot;: &quot;v004&quot;,
         &quot;box&quot;: [
           0.2816,
           0.2722,
@@ -242,6 +261,7 @@
       },
       {
         &quot;asset&quot;: &quot;empty-slot&quot;,
+        &quot;asset_version&quot;: &quot;v004&quot;,
         &quot;box&quot;: [
           0.3908,
           0.2722,
@@ -253,6 +273,7 @@
       },
       {
         &quot;asset&quot;: &quot;empty-slot&quot;,
+        &quot;asset_version&quot;: &quot;v004&quot;,
         &quot;box&quot;: [
           0.5,
           0.2722,
@@ -264,6 +285,7 @@
       },
       {
         &quot;asset&quot;: &quot;empty-slot&quot;,
+        &quot;asset_version&quot;: &quot;v004&quot;,
         &quot;box&quot;: [
           0.6092,
           0.2722,
@@ -275,6 +297,7 @@
       },
       {
         &quot;asset&quot;: &quot;empty-slot&quot;,
+        &quot;asset_version&quot;: &quot;v004&quot;,
         &quot;box&quot;: [
           0.7184,
           0.2722,
@@ -286,6 +309,7 @@
       },
       {
         &quot;asset&quot;: &quot;empty-slot&quot;,
+        &quot;asset_version&quot;: &quot;v004&quot;,
         &quot;box&quot;: [
           0.8276,
           0.2722,
@@ -297,6 +321,7 @@
       },
       {
         &quot;asset&quot;: &quot;empty-slot&quot;,
+        &quot;asset_version&quot;: &quot;v004&quot;,
         &quot;box&quot;: [
           0.0632,
           0.3787,
@@ -308,6 +333,7 @@
       },
       {
         &quot;asset&quot;: &quot;empty-slot&quot;,
+        &quot;asset_version&quot;: &quot;v004&quot;,
         &quot;box&quot;: [
           0.1724,
           0.3787,
@@ -319,6 +345,7 @@
       },
       {
         &quot;asset&quot;: &quot;empty-slot&quot;,
+        &quot;asset_version&quot;: &quot;v004&quot;,
         &quot;box&quot;: [
           0.2816,
           0.3787,
@@ -330,6 +357,7 @@
       },
       {
         &quot;asset&quot;: &quot;empty-slot&quot;,
+        &quot;asset_version&quot;: &quot;v004&quot;,
         &quot;box&quot;: [
           0.3908,
           0.3787,
@@ -341,6 +369,7 @@
       },
       {
         &quot;asset&quot;: &quot;empty-slot&quot;,
+        &quot;asset_version&quot;: &quot;v004&quot;,
         &quot;box&quot;: [
           0.5,
           0.3787,
@@ -352,6 +381,7 @@
       },
       {
         &quot;asset&quot;: &quot;empty-slot&quot;,
+        &quot;asset_version&quot;: &quot;v004&quot;,
         &quot;box&quot;: [
           0.6092,
           0.3787,
@@ -363,6 +393,7 @@
       },
       {
         &quot;asset&quot;: &quot;empty-slot&quot;,
+        &quot;asset_version&quot;: &quot;v004&quot;,
         &quot;box&quot;: [
           0.7184,
           0.3787,
@@ -374,6 +405,7 @@
       },
       {
         &quot;asset&quot;: &quot;empty-slot&quot;,
+        &quot;asset_version&quot;: &quot;v004&quot;,
         &quot;box&quot;: [
           0.8276,
           0.3787,

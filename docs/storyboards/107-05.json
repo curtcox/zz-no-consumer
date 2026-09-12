@@ -1,6 +1,6 @@
 {
   "background": "ink",
-  "intent": "Use empty page outlines under the recorded-deletion/no-held-revision label. The absence is surviving content, not a claim that the pages were empty before deletion.",
+  "intent": "Use empty page outlines under the recorded-deletion/no-held-revision label. The absence is surviving content, not a claim that the pages were empty before deletion. Pin the empty-slot to its deletion recorded state; the object silhouette persists while its status changes.",
   "lettering": [
     {
       "box": [
@@ -15,6 +15,7 @@
   "nodes": [
     {
       "asset": "empty-slot",
+      "asset_version": "v004",
       "box": [
         0.0632,
         0.0592,
@@ -26,6 +27,7 @@
     },
     {
       "asset": "empty-slot",
+      "asset_version": "v004",
       "box": [
         0.1724,
         0.0592,
@@ -37,6 +39,7 @@
     },
     {
       "asset": "empty-slot",
+      "asset_version": "v004",
       "box": [
         0.2816,
         0.0592,
@@ -48,6 +51,7 @@
     },
     {
       "asset": "empty-slot",
+      "asset_version": "v004",
       "box": [
         0.3908,
         0.0592,
@@ -59,6 +63,7 @@
     },
     {
       "asset": "empty-slot",
+      "asset_version": "v004",
       "box": [
         0.5,
         0.0592,
@@ -70,6 +75,7 @@
     },
     {
       "asset": "empty-slot",
+      "asset_version": "v004",
       "box": [
         0.6092,
         0.0592,
@@ -81,6 +87,7 @@
     },
     {
       "asset": "empty-slot",
+      "asset_version": "v004",
       "box": [
         0.7184,
         0.0592,
@@ -92,6 +99,7 @@
     },
     {
       "asset": "empty-slot",
+      "asset_version": "v004",
       "box": [
         0.8276,
         0.0592,
@@ -103,6 +111,7 @@
     },
     {
       "asset": "empty-slot",
+      "asset_version": "v004",
       "box": [
         0.0632,
         0.1657,
@@ -114,6 +123,7 @@
     },
     {
       "asset": "empty-slot",
+      "asset_version": "v004",
       "box": [
         0.1724,
         0.1657,
@@ -125,6 +135,7 @@
     },
     {
       "asset": "empty-slot",
+      "asset_version": "v004",
       "box": [
         0.2816,
         0.1657,
@@ -136,6 +147,7 @@
     },
     {
       "asset": "empty-slot",
+      "asset_version": "v004",
       "box": [
         0.3908,
         0.1657,
@@ -147,6 +159,7 @@
     },
     {
       "asset": "empty-slot",
+      "asset_version": "v004",
       "box": [
         0.5,
         0.1657,
@@ -158,6 +171,7 @@
     },
     {
       "asset": "empty-slot",
+      "asset_version": "v004",
       "box": [
         0.6092,
         0.1657,
@@ -169,6 +183,7 @@
     },
     {
       "asset": "empty-slot",
+      "asset_version": "v004",
       "box": [
         0.7184,
         0.1657,
@@ -180,6 +195,7 @@
     },
     {
       "asset": "empty-slot",
+      "asset_version": "v004",
       "box": [
         0.8276,
         0.1657,
@@ -191,6 +207,7 @@
     },
     {
       "asset": "empty-slot",
+      "asset_version": "v004",
       "box": [
         0.0632,
         0.2722,
@@ -202,6 +219,7 @@
     },
     {
       "asset": "empty-slot",
+      "asset_version": "v004",
       "box": [
         0.1724,
         0.2722,
@@ -213,6 +231,7 @@
     },
     {
       "asset": "empty-slot",
+      "asset_version": "v004",
       "box": [
         0.2816,
         0.2722,
@@ -224,6 +243,7 @@
     },
     {
       "asset": "empty-slot",
+      "asset_version": "v004",
       "box": [
         0.3908,
         0.2722,
@@ -235,6 +255,7 @@
     },
     {
       "asset": "empty-slot",
+      "asset_version": "v004",
       "box": [
         0.5,
         0.2722,
@@ -246,6 +267,7 @@
     },
     {
       "asset": "empty-slot",
+      "asset_version": "v004",
       "box": [
         0.6092,
         0.2722,
@@ -257,6 +279,7 @@
     },
     {
       "asset": "empty-slot",
+      "asset_version": "v004",
       "box": [
         0.7184,
         0.2722,
@@ -268,6 +291,7 @@
     },
     {
       "asset": "empty-slot",
+      "asset_version": "v004",
       "box": [
         0.8276,
         0.2722,
@@ -279,6 +303,7 @@
     },
     {
       "asset": "empty-slot",
+      "asset_version": "v004",
       "box": [
         0.0632,
         0.3787,
@@ -290,6 +315,7 @@
     },
     {
       "asset": "empty-slot",
+      "asset_version": "v004",
       "box": [
         0.1724,
         0.3787,
@@ -301,6 +327,7 @@
     },
     {
       "asset": "empty-slot",
+      "asset_version": "v004",
       "box": [
         0.2816,
         0.3787,
@@ -312,6 +339,7 @@
     },
     {
       "asset": "empty-slot",
+      "asset_version": "v004",
       "box": [
         0.3908,
         0.3787,
@@ -323,6 +351,7 @@
     },
     {
       "asset": "empty-slot",
+      "asset_version": "v004",
       "box": [
         0.5,
         0.3787,
@@ -334,6 +363,7 @@
     },
     {
       "asset": "empty-slot",
+      "asset_version": "v004",
       "box": [
         0.6092,
         0.3787,
@@ -345,6 +375,7 @@
     },
     {
       "asset": "empty-slot",
+      "asset_version": "v004",
       "box": [
         0.7184,
         0.3787,
@@ -356,6 +387,7 @@
     },
     {
       "asset": "empty-slot",
+      "asset_version": "v004",
       "box": [
         0.8276,
         0.3787,

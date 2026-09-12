@@ -1,6 +1,6 @@
 {
   "background": "ink",
-  "intent": "Continue the clean directory geometry across the chapter break, keeping old storage dark and isolated beside it. New service availability does not reopen the old instance. Visual distinction: Two capped edges with an empty interval and severed contact stubs. Containment disconnects traffic while preserving the isolated object. An archival sleeve with folded corners and a continuous custody band. Its empty center holds preserved storage separately from live traffic; no records or checksums are invented.",
+  "intent": "Continue the clean directory geometry across the chapter break, keeping old storage dark and isolated beside it. New service availability does not reopen the old instance. Visual distinction: Two capped edges with an empty interval and severed contact stubs. Containment disconnects traffic while preserving the isolated object. An archival sleeve with folded corners and a continuous custody band. Its empty center holds preserved storage separately from live traffic; no records or checksums are invented. Pin the sealed to its preserved state; the object silhouette persists while its status changes. Pin the folder to its empty after rebuild state; the object silhouette persists while its status changes.",
   "lettering": [
     {
       "box": [
@@ -25,6 +25,7 @@
     },
     {
       "asset": "folder",
+      "asset_version": "v004",
       "box": [
         0.06775,
         0.2012,
@@ -44,6 +45,7 @@
     },
     {
       "asset": "sealed",
+      "asset_version": "v006",
       "box": [
         0.52275,
         0.2012,

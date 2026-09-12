@@ -1,6 +1,6 @@
 {
   "background": "ink",
-  "intent": "Keep the staged package separate from an untouched execution control. The empty control state must be as visible as the package, distinguishing preparation from execution.",
+  "intent": "Keep the staged package separate from an untouched execution control. The empty control state must be as visible as the package, distinguishing preparation from execution. Pin the sealed to its staged state; the object silhouette persists while its status changes.",
   "lettering": [
     {
       "box": [
@@ -15,6 +15,7 @@
   "nodes": [
     {
       "asset": "sealed",
+      "asset_version": "v004",
       "box": [
         0.06775,
         0.2012,

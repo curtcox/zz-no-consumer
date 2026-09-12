@@ -1,6 +1,6 @@
 {
   "background": "ink",
-  "intent": "Combine a live service, clean contents and reduced access in one view. Keep moss absent; constrained operation must not look like either total shutdown or an unchanged vulnerable system. Visual distinction: A sieve with one narrow allowed aperture and stopped alternative lanes. Shows a reduced request surface without claiming all access is blocked.",
+  "intent": "Combine a live service, clean contents and reduced access in one view. Keep moss absent; constrained operation must not look like either total shutdown or an unchanged vulnerable system. Visual distinction: A sieve with one narrow allowed aperture and stopped alternative lanes. Shows a reduced request surface without claiming all access is blocked. Pin the folder to its empty after rebuild state; the object silhouette persists while its status changes.",
   "lettering": [
     {
       "box": [
@@ -15,6 +15,7 @@
   "nodes": [
     {
       "asset": "folder",
+      "asset_version": "v004",
       "box": [
         0.06775,
         0.2012,

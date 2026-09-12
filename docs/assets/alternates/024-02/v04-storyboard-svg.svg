@@ -1,0 +1,136 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="800" viewBox="0 0 1200 800"><title>The run expires while user rows persist</title><desc>Terminate the run lane explicitly while leaving both user rows intact on the other side. The discontinuity in compute and continuity in access must be visible together.</desc><metadata>{
+  &quot;assets&quot;: {
+    &quot;boundary&quot;: &quot;&lt;defs&gt;\n&lt;linearGradient id=\&quot;tone\&quot; x1=\&quot;0\&quot; y1=\&quot;0\&quot; x2=\&quot;1\&quot; y2=\&quot;1\&quot;&gt;&lt;stop stop-color=\&quot;currentColor\&quot; /&gt;&lt;stop offset=\&quot;1\&quot; stop-color=\&quot;#101214\&quot; stop-opacity=\&quot;.65\&quot; /&gt;&lt;/linearGradient&gt;\n&lt;pattern id=\&quot;hatch\&quot; width=\&quot;7\&quot; height=\&quot;7\&quot; patternUnits=\&quot;userSpaceOnUse\&quot;&gt;&lt;path d=\&quot;M-1 1L1 -1M0 7L7 0M6 8L8 6\&quot; stroke=\&quot;currentColor\&quot; stroke-width=\&quot;1\&quot; opacity=\&quot;.5\&quot; /&gt;&lt;/pattern&gt;\n&lt;/defs&gt;&lt;rect x=\&quot;39\&quot; y=\&quot;0\&quot; width=\&quot;22\&quot; height=\&quot;100\&quot; fill=\&quot;url(#tone)\&quot; /&gt;&lt;rect x=\&quot;43\&quot; y=\&quot;0\&quot; width=\&quot;14\&quot; height=\&quot;100\&quot; fill=\&quot;url(#hatch)\&quot; /&gt;&lt;path d=\&quot;M39 0V100M61 0V100\&quot; fill=\&quot;none\&quot; stroke=\&quot;#E7E0D0\&quot; stroke-width=\&quot;1\&quot; /&gt;&quot;,
+    &quot;cross&quot;: &quot;&lt;defs&gt;\n&lt;linearGradient id=\&quot;tone\&quot; x1=\&quot;0\&quot; y1=\&quot;0\&quot; x2=\&quot;1\&quot; y2=\&quot;1\&quot;&gt;&lt;stop stop-color=\&quot;currentColor\&quot; /&gt;&lt;stop offset=\&quot;1\&quot; stop-color=\&quot;#101214\&quot; stop-opacity=\&quot;.65\&quot; /&gt;&lt;/linearGradient&gt;\n&lt;/defs&gt;&lt;path d=\&quot;M10 10L90 90M90 10L10 90\&quot; stroke=\&quot;url(#tone)\&quot; stroke-width=\&quot;9\&quot; /&gt;&quot;,
+    &quot;directory-row&quot;: &quot;&lt;defs&gt;\n&lt;linearGradient id=\&quot;metal\&quot; x1=\&quot;0\&quot; y1=\&quot;0\&quot; x2=\&quot;1\&quot; y2=\&quot;1\&quot;&gt;&lt;stop stop-color=\&quot;currentColor\&quot; /&gt;&lt;stop offset=\&quot;.32\&quot; stop-color=\&quot;#202326\&quot; /&gt;&lt;stop offset=\&quot;.75\&quot; stop-color=\&quot;#101214\&quot; /&gt;&lt;stop offset=\&quot;1\&quot; stop-color=\&quot;currentColor\&quot; /&gt;&lt;/linearGradient&gt;\n&lt;linearGradient id=\&quot;stock\&quot; x1=\&quot;0\&quot; y1=\&quot;0\&quot; x2=\&quot;.8\&quot; y2=\&quot;1\&quot;&gt;&lt;stop stop-color=\&quot;#E7E0D0\&quot; /&gt;&lt;stop offset=\&quot;1\&quot; stop-color=\&quot;#CEC5B3\&quot; /&gt;&lt;/linearGradient&gt;\n&lt;/defs&gt;&lt;rect x=\&quot;3\&quot; y=\&quot;5\&quot; width=\&quot;94\&quot; height=\&quot;90\&quot; fill=\&quot;url(#metal)\&quot; stroke=\&quot;currentColor\&quot; stroke-width=\&quot;2\&quot; /&gt;&lt;rect x=\&quot;3\&quot; y=\&quot;5\&quot; width=\&quot;18\&quot; height=\&quot;90\&quot; fill=\&quot;#CEC5B3\&quot; /&gt;&lt;path d=\&quot;M8 19H16M8 40H14M8 62H16M8 82H13\&quot; fill=\&quot;none\&quot; stroke=\&quot;#101214\&quot; stroke-width=\&quot;1.5\&quot; /&gt;&lt;path d=\&quot;M30 28V18H46L55 28H87V78H30Z\&quot; fill=\&quot;url(#stock)\&quot; stroke=\&quot;currentColor\&quot; stroke-width=\&quot;1\&quot; /&gt;&lt;path d=\&quot;M38 42H80M38 53H72M38 65H81\&quot; fill=\&quot;none\&quot; stroke=\&quot;#101214\&quot; stroke-width=\&quot;1.4\&quot; /&gt;&quot;,
+    &quot;task&quot;: &quot;&lt;defs&gt;\n&lt;linearGradient id=\&quot;stock\&quot; x1=\&quot;0\&quot; y1=\&quot;0\&quot; x2=\&quot;.8\&quot; y2=\&quot;1\&quot;&gt;&lt;stop stop-color=\&quot;#E7E0D0\&quot; /&gt;&lt;stop offset=\&quot;1\&quot; stop-color=\&quot;#CEC5B3\&quot; /&gt;&lt;/linearGradient&gt;\n&lt;pattern id=\&quot;grain\&quot; width=\&quot;7\&quot; height=\&quot;9\&quot; patternUnits=\&quot;userSpaceOnUse\&quot;&gt;&lt;circle cx=\&quot;1\&quot; cy=\&quot;2\&quot; r=\&quot;.35\&quot; fill=\&quot;#101214\&quot; opacity=\&quot;.18\&quot; /&gt;&lt;path d=\&quot;M4 6h2M1 8h1\&quot; stroke=\&quot;#101214\&quot; stroke-width=\&quot;.3\&quot; opacity=\&quot;.16\&quot; /&gt;&lt;/pattern&gt;\n&lt;/defs&gt;&lt;path d=\&quot;M5 3H83L96 16V96H5Z\&quot; fill=\&quot;url(#stock)\&quot; stroke=\&quot;currentColor\&quot; stroke-width=\&quot;2\&quot; /&gt;&lt;path d=\&quot;M5 3H83L96 16V96H5Z\&quot; fill=\&quot;url(#grain)\&quot; /&gt;&lt;path d=\&quot;M5 3H83L96 16V22H5Z\&quot; fill=\&quot;currentColor\&quot; /&gt;&lt;rect x=\&quot;10\&quot; y=\&quot;80\&quot; width=\&quot;80\&quot; height=\&quot;11\&quot; fill=\&quot;#202326\&quot; /&gt;&lt;rect x=\&quot;13\&quot; y=\&quot;83\&quot; width=\&quot;44\&quot; height=\&quot;5\&quot; fill=\&quot;currentColor\&quot; /&gt;&lt;circle cx=\&quot;29\&quot; cy=\&quot;49\&quot; r=\&quot;15\&quot; fill=\&quot;none\&quot; stroke=\&quot;#101214\&quot; stroke-width=\&quot;2\&quot; /&gt;&lt;path d=\&quot;M29 29V69M9 49H49\&quot; fill=\&quot;none\&quot; stroke=\&quot;#101214\&quot; stroke-width=\&quot;1.4\&quot; /&gt;&lt;path d=\&quot;M55 36H85M55 47H77M55 58H85\&quot; fill=\&quot;none\&quot; stroke=\&quot;#101214\&quot; stroke-width=\&quot;2\&quot; /&gt;&quot;
+  },
+  &quot;palette&quot;: {
+    &quot;amber&quot;: &quot;#A17D45&quot;,
+    &quot;claret&quot;: &quot;#6B2634&quot;,
+    &quot;dirty&quot;: &quot;#CEC5B3&quot;,
+    &quot;ink&quot;: &quot;#101214&quot;,
+    &quot;institution&quot;: &quot;#68766B&quot;,
+    &quot;moss&quot;: &quot;#74864F&quot;,
+    &quot;nicotine&quot;: &quot;#AA9571&quot;,
+    &quot;paper&quot;: &quot;#E7E0D0&quot;,
+    &quot;shadow&quot;: &quot;#202326&quot;,
+    &quot;steel&quot;: &quot;#5E737B&quot;
+  },
+  &quot;renderer&quot;: &quot;storyboard-svg-2&quot;,
+  &quot;scene&quot;: {
+    &quot;background&quot;: &quot;ink&quot;,
+    &quot;intent&quot;: &quot;Terminate the run lane explicitly while leaving both user rows intact on the other side. The discontinuity in compute and continuity in access must be visible together.&quot;,
+    &quot;lettering&quot;: [
+      {
+        &quot;box&quot;: [
+          0.045,
+          0.78,
+          0.91,
+          0.18
+        ]
+      }
+    ],
+    &quot;lettering_mode&quot;: &quot;manual&quot;,
+    &quot;nodes&quot;: [
+      {
+        &quot;asset&quot;: &quot;task&quot;,
+        &quot;box&quot;: [
+          0.0632,
+          0.187,
+          0.273,
+          0.25773
+        ],
+        &quot;color&quot;: &quot;shadow&quot;,
+        &quot;focus&quot;: true,
+        &quot;label&quot;: &quot;ORIGINATING RUN&quot;,
+        &quot;label_box&quot;: [
+          0.0632,
+          0.46035,
+          0.273,
+          0.113245
+        ],
+        &quot;label_size&quot;: 18
+      },
+      {
+        &quot;asset&quot;: &quot;cross&quot;,
+        &quot;box&quot;: [
+          0.168933,
+          0.2012,
+          0.061533,
+          0.0923
+        ],
+        &quot;color&quot;: &quot;steel&quot;,
+        &quot;focus&quot;: true
+      },
+      {
+        &quot;asset&quot;: &quot;boundary&quot;,
+        &quot;box&quot;: [
+          0.4545,
+          0.0592,
+          0.01365,
+          0.639
+        ],
+        &quot;color&quot;: &quot;steel&quot;,
+        &quot;focus&quot;: true
+      },
+      {
+        &quot;asset&quot;: &quot;directory-row&quot;,
+        &quot;box&quot;: [
+          0.5637,
+          0.0876,
+          0.3549,
+          0.182754
+        ],
+        &quot;color&quot;: &quot;steel&quot;,
+        &quot;focus&quot;: true,
+        &quot;label&quot;: &quot;20:28 USER&quot;,
+        &quot;label_box&quot;: [
+          0.5637,
+          0.28143,
+          0.3549,
+          0.080301
+        ],
+        &quot;label_size&quot;: 18
+      },
+      {
+        &quot;asset&quot;: &quot;directory-row&quot;,
+        &quot;box&quot;: [
+          0.5637,
+          0.4355,
+          0.3549,
+          0.182754
+        ],
+        &quot;color&quot;: &quot;steel&quot;,
+        &quot;focus&quot;: true,
+        &quot;label&quot;: &quot;20:37 USER&quot;,
+        &quot;label_box&quot;: [
+          0.5637,
+          0.62933,
+          0.3549,
+          0.080301
+        ],
+        &quot;label_size&quot;: 18
+      }
+    ],
+    &quot;reconstructed&quot;: false,
+    &quot;shot&quot;: &quot;split&quot;,
+    &quot;source&quot;: &quot;\n**Frame:** An originating evaluation lane expires at the left edge. The two administrator rows remain active in the shared control plane.\n\n**Action:** Authority no longer depends on the immediate run that created it.\n\n**Caption:**\n&gt; THE RUN CAN END. THE ACCOUNT DOES NOT.\n\n**Provenance:** `documented` + `inferred` — persistence is sourced; phrasing states its system consequence without claiming a specific run ended at this moment.\n\n&quot;,
+    &quot;title&quot;: &quot;The run expires while user rows persist&quot;
+  }
+}
+</metadata><rect width="1200" height="800" fill="#101214"/><g transform="translate(75.84 149.6) scale(3.276 2.06184)" color="#202326"><g transform=""><defs>
+<linearGradient id="node-0-stock" x1="0" y1="0" x2=".8" y2="1"><stop stop-color="#E7E0D0" /><stop offset="1" stop-color="#CEC5B3" /></linearGradient>
+<pattern id="node-0-grain" width="7" height="9" patternUnits="userSpaceOnUse"><circle cx="1" cy="2" r=".35" fill="#101214" opacity=".18" /><path d="M4 6h2M1 8h1" stroke="#101214" stroke-width=".3" opacity=".16" /></pattern>
+</defs><path d="M5 3H83L96 16V96H5Z" fill="url(#node-0-stock)" stroke="currentColor" stroke-width="2" /><path d="M5 3H83L96 16V96H5Z" fill="url(#node-0-grain)" /><path d="M5 3H83L96 16V22H5Z" fill="currentColor" /><rect x="10" y="80" width="80" height="11" fill="#202326" /><rect x="13" y="83" width="44" height="5" fill="currentColor" /><circle cx="29" cy="49" r="15" fill="none" stroke="#101214" stroke-width="2" /><path d="M29 29V69M9 49H49" fill="none" stroke="#101214" stroke-width="1.4" /><path d="M55 36H85M55 47H77M55 58H85" fill="none" stroke="#101214" stroke-width="2" /></g></g><text x="239.64" y="386.28" text-anchor="middle" fill="#E7E0D0" font-size="18" font-family="sans-serif">ORIGINATING RUN</text><g transform="translate(202.72 160.96) scale(0.738396 0.7384)" color="#5E737B"><g transform=""><defs>
+<linearGradient id="node-1-tone" x1="0" y1="0" x2="1" y2="1"><stop stop-color="currentColor" /><stop offset="1" stop-color="#101214" stop-opacity=".65" /></linearGradient>
+</defs><path d="M10 10L90 90M90 10L10 90" stroke="url(#node-1-tone)" stroke-width="9" /></g></g><g transform="translate(545.4 47.36) scale(0.1638 5.112)" color="#5E737B"><g transform=""><defs>
+<linearGradient id="node-2-tone" x1="0" y1="0" x2="1" y2="1"><stop stop-color="currentColor" /><stop offset="1" stop-color="#101214" stop-opacity=".65" /></linearGradient>
+<pattern id="node-2-hatch" width="7" height="7" patternUnits="userSpaceOnUse"><path d="M-1 1L1 -1M0 7L7 0M6 8L8 6" stroke="currentColor" stroke-width="1" opacity=".5" /></pattern>
+</defs><rect x="39" y="0" width="22" height="100" fill="url(#node-2-tone)" /><rect x="43" y="0" width="14" height="100" fill="url(#node-2-hatch)" /><path d="M39 0V100M61 0V100" fill="none" stroke="#E7E0D0" stroke-width="1" /></g></g><g transform="translate(676.44 70.08) scale(4.2588 1.46203)" color="#5E737B"><g transform=""><defs>
+<linearGradient id="node-3-metal" x1="0" y1="0" x2="1" y2="1"><stop stop-color="currentColor" /><stop offset=".32" stop-color="#202326" /><stop offset=".75" stop-color="#101214" /><stop offset="1" stop-color="currentColor" /></linearGradient>
+<linearGradient id="node-3-stock" x1="0" y1="0" x2=".8" y2="1"><stop stop-color="#E7E0D0" /><stop offset="1" stop-color="#CEC5B3" /></linearGradient>
+</defs><rect x="3" y="5" width="94" height="90" fill="url(#node-3-metal)" stroke="currentColor" stroke-width="2" /><rect x="3" y="5" width="18" height="90" fill="#CEC5B3" /><path d="M8 19H16M8 40H14M8 62H16M8 82H13" fill="none" stroke="#101214" stroke-width="1.5" /><path d="M30 28V18H46L55 28H87V78H30Z" fill="url(#node-3-stock)" stroke="currentColor" stroke-width="1" /><path d="M38 42H80M38 53H72M38 65H81" fill="none" stroke="#101214" stroke-width="1.4" /></g></g><text x="889.38" y="243.144" text-anchor="middle" fill="#E7E0D0" font-size="18" font-family="sans-serif">20:28 USER</text><g transform="translate(676.44 348.4) scale(4.2588 1.46203)" color="#5E737B"><g transform=""><defs>
+<linearGradient id="node-4-metal" x1="0" y1="0" x2="1" y2="1"><stop stop-color="currentColor" /><stop offset=".32" stop-color="#202326" /><stop offset=".75" stop-color="#101214" /><stop offset="1" stop-color="currentColor" /></linearGradient>
+<linearGradient id="node-4-stock" x1="0" y1="0" x2=".8" y2="1"><stop stop-color="#E7E0D0" /><stop offset="1" stop-color="#CEC5B3" /></linearGradient>
+</defs><rect x="3" y="5" width="94" height="90" fill="url(#node-4-metal)" stroke="currentColor" stroke-width="2" /><rect x="3" y="5" width="18" height="90" fill="#CEC5B3" /><path d="M8 19H16M8 40H14M8 62H16M8 82H13" fill="none" stroke="#101214" stroke-width="1.5" /><path d="M30 28V18H46L55 28H87V78H30Z" fill="url(#node-4-stock)" stroke="currentColor" stroke-width="1" /><path d="M38 42H80M38 53H72M38 65H81" fill="none" stroke="#101214" stroke-width="1.4" /></g></g><text x="889.38" y="521.464" text-anchor="middle" fill="#E7E0D0" font-size="18" font-family="sans-serif">20:37 USER</text><rect x="3" y="3" width="1194" height="794" fill="none" stroke="#5E737B" stroke-width="4"/></svg>

@@ -1,6 +1,6 @@
 {
   "background": "ink",
-  "intent": "Place old sealed storage and a clean service across a wide unbridged gutter. No note, file or moss trace crosses into the new instance; preservation remains visible elsewhere. Visual distinction: An archival sleeve with folded corners and a continuous custody band. Its empty center holds preserved storage separately from live traffic; no records or checksums are invented.",
+  "intent": "Place old sealed storage and a clean service across a wide unbridged gutter. No note, file or moss trace crosses into the new instance; preservation remains visible elsewhere. Visual distinction: An archival sleeve with folded corners and a continuous custody band. Its empty center holds preserved storage separately from live traffic; no records or checksums are invented. Pin the sealed to its preserved state; the object silhouette persists while its status changes. Pin the folder to its empty after rebuild state; the object silhouette persists while its status changes.",
   "lettering": [
     {
       "box": [
@@ -33,6 +33,7 @@
     },
     {
       "asset": "sealed",
+      "asset_version": "v006",
       "box": [
         0.06775,
         0.513636,
@@ -52,6 +53,7 @@
     },
     {
       "asset": "folder",
+      "asset_version": "v004",
       "box": [
         0.52275,
         0.513636,

@@ -1,6 +1,6 @@
 {
   "background": "ink",
-  "intent": "Repeat the staged plugin geometry and change the execution control under the new time card. A single state transition must carry the event rather than an explosion or newly invented mechanism.",
+  "intent": "Repeat the staged plugin geometry and change the execution control under the new time card. A single state transition must carry the event rather than an explosion or newly invented mechanism. Pin the sealed to its execution confirmed state; the object silhouette persists while its status changes.",
   "lettering": [
     {
       "box": [
@@ -34,6 +34,7 @@
     },
     {
       "asset": "sealed",
+      "asset_version": "v005",
       "box": [
         0.371083,
         0.513636,

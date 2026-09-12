@@ -1,6 +1,6 @@
 {
   "background": "ink",
-  "intent": "Sever research-traffic connections at an isolation boundary around the old deployment. Show deliberate containment, preserving the service as an object rather than depicting it destroyed. Visual distinction: Two capped edges with an empty interval and severed contact stubs. Containment disconnects traffic while preserving the isolated object.",
+  "intent": "Sever research-traffic connections at an isolation boundary around the old deployment. Show deliberate containment, preserving the service as an object rather than depicting it destroyed. Visual distinction: Two capped edges with an empty interval and severed contact stubs. Containment disconnects traffic while preserving the isolated object. Pin the rack to its offline state; the object silhouette persists while its status changes.",
   "lettering": [
     {
       "box": [
@@ -15,6 +15,7 @@
   "nodes": [
     {
       "asset": "rack",
+      "asset_version": "v004",
       "box": [
         0.221929,
         0.2012,

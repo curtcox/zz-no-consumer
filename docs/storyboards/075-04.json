@@ -1,6 +1,6 @@
 {
   "background": "ink",
-  "intent": "Show internal gaps, early endings and side channels as different missingness patterns. None should be filled with invented content or treated as proof of deliberate deletion.",
+  "intent": "Show internal gaps, early endings and side channels as different missingness patterns. None should be filled with invented content or treated as proof of deliberate deletion. Pin the transcript to its incomplete state; the object silhouette persists while its status changes.",
   "lettering": [
     {
       "box": [
@@ -15,6 +15,7 @@
   "nodes": [
     {
       "asset": "transcript",
+      "asset_version": "v005",
       "box": [
         0.06775,
         0.2012,

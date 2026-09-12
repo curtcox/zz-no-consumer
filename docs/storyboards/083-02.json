@@ -1,6 +1,6 @@
 {
   "background": "ink",
-  "intent": "Attach the seal only at collection and let a dotted possible-access route touch the earlier archive. No altered page or deletion mark may invent a successful change.",
+  "intent": "Attach the seal only at collection and let a dotted possible-access route touch the earlier archive. No altered page or deletion mark may invent a successful change. Pin the folder to its sealed archive state; the object silhouette persists while its status changes.",
   "lettering": [
     {
       "box": [
@@ -34,6 +34,7 @@
     },
     {
       "asset": "folder",
+      "asset_version": "v005",
       "box": [
         0.4363,
         0.1373,

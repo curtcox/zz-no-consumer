@@ -1,6 +1,6 @@
 {
   "background": "ink",
-  "intent": "Keep sealed evidence storage and revoked credentials in different operational compartments. Preservation protects a record; revocation removes access. A wipe symbol over both would reverse the meaning. Visual distinction: An archival sleeve with folded corners and a continuous custody band. Its empty center holds preserved storage separately from live traffic; no records or checksums are invented.",
+  "intent": "Keep sealed evidence storage and revoked credentials in different operational compartments. Preservation protects a record; revocation removes access. A wipe symbol over both would reverse the meaning. Visual distinction: An archival sleeve with folded corners and a continuous custody band. Its empty center holds preserved storage separately from live traffic; no records or checksums are invented. Pin the sealed to its preserved state; the object silhouette persists while its status changes.",
   "lettering": [
     {
       "box": [
@@ -25,6 +25,7 @@
     },
     {
       "asset": "sealed",
+      "asset_version": "v006",
       "box": [
         0.06775,
         0.2012,

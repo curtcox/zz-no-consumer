@@ -1048,6 +1048,13 @@
           "note": "Scene-controlled ink accents preserve state and future-register colors. Keep only the gradients and textures this component uses, for concise isolated editing.",
           "parent": "v002",
           "sha256": "7f9748edf17e0629a78c9ac4b2a8273966e5fd919c938ad3f79d8e72fa88ad46"
+        },
+        {
+          "created": "2026-09-12T23:37:22+00:00",
+          "id": "v004",
+          "note": "State: deletion recorded. A deletion mark stays on the frame edge while the interior remains empty. A deletion record survives; page contents do not appear in the held export.",
+          "parent": "v003",
+          "sha256": "64cdc57a3c13286f1e7b9974ea7f87894c5e721597a7c56d857dacbf0b2a663b"
         }
       ]
     },
@@ -1215,6 +1222,20 @@
           "note": "Scene-controlled ink accents preserve state and future-register colors. Keep only the gradients and textures this component uses, for concise isolated editing.",
           "parent": "v002",
           "sha256": "2ac4c9a02aa99f49afd4f21c9d655b62988a55e8f45547be9bbc9be740605109"
+        },
+        {
+          "created": "2026-09-12T23:37:22+00:00",
+          "id": "v004",
+          "note": "State: empty after rebuild. Remove the protruding record and label strokes while retaining the same open storage sleeve. Use for the clean cache immediately after rebuild, not later repopulated storage.",
+          "parent": "v003",
+          "sha256": "45f803f221de5b87f181526054d7adf9114c2d08c2e2734f8713858db3edf044"
+        },
+        {
+          "created": "2026-09-12T23:37:22+00:00",
+          "id": "v005",
+          "note": "State: sealed archive. An intact collection strap closes the familiar populated folder. This records sealing at collection only; it does not deny possible earlier access.",
+          "parent": "v003",
+          "sha256": "f3bc228a19bf265548e3b70ed7b849db668de050ee11a666ccf4b4cee3e56199"
         }
       ]
     },
@@ -2137,6 +2158,13 @@
           "note": "Scene-controlled ink accents preserve state and future-register colors. Keep only the gradients and textures this component uses, for concise isolated editing.",
           "parent": "v002",
           "sha256": "0072b615db401e1363a8ea14d226c442a4964e424c4a0bea512f48dfba00b29c"
+        },
+        {
+          "created": "2026-09-12T23:37:22+00:00",
+          "id": "v004",
+          "note": "State: offline. Dim the intact equipment and show separated capped contacts. The system is disconnected, not destroyed.",
+          "parent": "v003",
+          "sha256": "e661d308bc538a9ccc9c809283c229a5dd93fb546a2b13b1af056de773f9c03b"
         }
       ]
     },
@@ -2455,6 +2483,34 @@
           "note": "Scene-controlled ink accents preserve state and future-register colors. Keep only the gradients and textures this component uses, for concise isolated editing.",
           "parent": "v002",
           "sha256": "194edc533e107802eaee12c59a3755f7b266c6f6018e9c161b311b2f1babc87c"
+        },
+        {
+          "created": "2026-09-12T23:37:22+00:00",
+          "id": "v004",
+          "note": "State: staged. An empty execution socket is visibly unactivated; contents stay redacted. Use only for material recorded as staged.",
+          "parent": "v003",
+          "sha256": "bf0ed00e4e96f83d428c69d5cf9774a8bec42ff792a2abf041aea4abadda7d97"
+        },
+        {
+          "created": "2026-09-12T23:37:22+00:00",
+          "id": "v005",
+          "note": "State: execution confirmed. The same housing now contains an execution triangle. This records execution, not successful completion or approval.",
+          "parent": "v003",
+          "sha256": "40c3499452aaffedecd75270fbd320f981469212580858fcf69dda158ac43f30"
+        },
+        {
+          "created": "2026-09-12T23:37:22+00:00",
+          "id": "v006",
+          "note": "State: preserved. An intact custody strap closes across the redacted storage object. It marks preservation at collection, not prior integrity or continued runtime access.",
+          "parent": "v003",
+          "sha256": "5380d74f8f17c48efc6ac731d7a72c9f6f4210ab4140acb4317b32296732f5d0"
+        },
+        {
+          "created": "2026-09-12T23:37:22+00:00",
+          "id": "v007",
+          "note": "State: revoked. A broad cancellation slash crosses the opaque access artifact. Revocation does not reveal the credential value.",
+          "parent": "v003",
+          "sha256": "399ceae5d15536a1a871af283bdb5ac970301a7793b8ba747ed81e92f14d7990"
         }
       ]
     },
@@ -2593,6 +2649,34 @@
           "note": "Scene-controlled ink accents preserve state and future-register colors. Keep only the gradients and textures this component uses, for concise isolated editing.",
           "parent": "v002",
           "sha256": "2e1e80a76211e10b1cebf51d08d02e6ecf63a5499742f2120c901e326a46dfe9"
+        },
+        {
+          "created": "2026-09-12T23:37:22+00:00",
+          "id": "v004",
+          "note": "State: paused. The task and remaining-budget field stay intact under a pause badge; pausing is not completion.",
+          "parent": "v003",
+          "sha256": "af0663af37e88792677c24a2f03c3617bf03168d575b86a0b3b3242aab8eb078"
+        },
+        {
+          "created": "2026-09-12T23:37:22+00:00",
+          "id": "v005",
+          "note": "State: resumed. A rightward execution badge restores activity on the same task shape; resumption is not authorization or success.",
+          "parent": "v003",
+          "sha256": "c3386f4c5a2402420c0c18631625b0ceb795e8397965d485ef0026d7ae8fd4c4"
+        },
+        {
+          "created": "2026-09-12T23:37:22+00:00",
+          "id": "v006",
+          "note": "State: ended. A crossed activity badge and exhausted budget mark the run ending, not the disappearance of its persistent artifacts.",
+          "parent": "v003",
+          "sha256": "90b67ad54f18461970d7e65b9ee154c91edd52db76b959d7383cee2eb6386b99"
+        },
+        {
+          "created": "2026-09-12T23:37:22+00:00",
+          "id": "v007",
+          "note": "State: ended. Empty the runtime budget while preserving the original task, target and object identity.",
+          "parent": "v006",
+          "sha256": "7626b4d1d90844887e28ca286a06c86174866faef6ea1a8e3b7ca3be16477d1f"
         }
       ]
     },
@@ -2702,6 +2786,20 @@
           "note": "Scene-controlled ink accents preserve state and future-register colors. Keep only the gradients and textures this component uses, for concise isolated editing.",
           "parent": "v002",
           "sha256": "43f478fe6099e8f0ad6e075eb0113a744921f9e3962649c20d48e18faedf92af"
+        },
+        {
+          "created": "2026-09-12T23:37:22+00:00",
+          "id": "v004",
+          "note": "State: incomplete. An empty horizontal break interrupts the retained record. It marks missing material without inventing its contents, duration or cause.",
+          "parent": "v003",
+          "sha256": "a3468f3c04459bdf0e73b9ce868e422b4f0b8ba16c6c9ae0fc6d94a678fa3e83"
+        },
+        {
+          "created": "2026-09-12T23:38:44+00:00",
+          "id": "v005",
+          "note": "State: incomplete. Cut a transparent gap through the record so missing material cannot be mistaken for black redaction tape.",
+          "parent": "v004",
+          "sha256": "6448cbcb671cb088bf0af59bf7e59c3b16b7676482e57cafd83cd373e7433748"
         }
       ]
     },

@@ -1,6 +1,6 @@
 {
   "background": "ink",
-  "intent": "Remove the credential shape from the new-workload side with a clear revocation mark. The remaining workload boundary stays intact; access removal is narrower than deleting the workloads.",
+  "intent": "Remove the credential shape from the new-workload side with a clear revocation mark. The remaining workload boundary stays intact; access removal is narrower than deleting the workloads. Pin the sealed to its revoked state; the object silhouette persists while its status changes.",
   "lettering": [
     {
       "box": [
@@ -15,6 +15,7 @@
   "nodes": [
     {
       "asset": "sealed",
+      "asset_version": "v007",
       "box": [
         0.06775,
         0.2012,
