@@ -67,6 +67,7 @@ establish current status.
 | `validate-continuity.py` | the story contract, chapter map, and drafted page metadata agree; `exact_strings` registrations carry all five fields, use the fixed vocabularies, and are `verbatim` + `cleared` before a page locks; a panel declaring `quotation` or `raw-agent-text` letters a registered string; attribution-shaped lettering is registered or marked `PARAPHRASED` (warning) |
 | `validate-production-foundations.py` | palette, visual-continuity, prompt, and asset foundations exist and agree |
 | `crossref.py check --strict` | citation keys resolve, sequences are in range; CI also fails on panel/front-matter provenance drift |
+| `t256.py check` | the 256t implementation reproduces the standard's test vectors, and every registered `pointer` is a well-formed `t256:` URI |
 | `novella.py check` | one prose file per scripted page, front matter matching the script, prose that is not a stub, and `exact_strings` registered and `verbatim` + `cleared` before its page locks |
 | `appendix.py check` | two-stance minimum, fixed fallacy vocabulary, conjecture declarations, live page references |
 | `pagelinks.py check` | every story-page reference in `content/` is a link, pointing at the page it names |
@@ -284,6 +285,16 @@ manifest loads; `link-only` is a disposition about the artifact and is silent ab
 quotation, which [the permissions audit](../research/exact-text-permissions-audit.md) and gate 9
 decide per string. `status` also shows which sources have no vault record, and so cannot carry a
 string to `verification: verbatim`.
+
+`t256.py` names exact bytes by the [256t standard](https://256t.org/): an 8-character base64url
+length prefix, then the content itself up to 64 octets or its SHA-512 above that. It is how a
+quotation is registered when its words cannot be written into a file. `records` lists every vault
+copy with its `t256:` URI; `pointer --id ID --bytes A-B` or `--timecodes 30:47-31:14` makes a pointer
+to a span; `locate --text-file F [--loose]` finds wording supplied by the caller and points at the
+copy's own bytes, `--loose` stepping over punctuation, timestamp lines and fillers in a caption
+transcript; `verify` cuts, hashes and compares every registered pointer against the local vault.
+It prints CIDs, lengths and offsets and never source text. `crossref.py` imports its URI parser to
+check a registration's pointer against its locator range without the vault.
 
 ## How they fit together
 

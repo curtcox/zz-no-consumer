@@ -248,6 +248,12 @@ def yaml_list(metadata: str, field_name: str) -> tuple[str, ...]:
 
 
 EXACT_STRING_FIELDS = ("text", "source", "locator", "verification", "rights")
+# `pointer` may stand in for `text`: a 256t URI of the exact excerpt, when the words cannot be
+# written into the file. Its locator must name the copy (`t256:` of the whole file) and the
+# inclusive byte range, so the pointer is checkable by anyone holding that copy. See
+# scripts/t256.py.
+POINTER_FIELD = "pointer"
+REQUIRED_FIELDS = ("source", "locator", "verification", "rights")
 
 ALLOWED_VERIFICATION = {
     "unchecked",          # registered, nothing checked yet
@@ -300,7 +306,7 @@ def read_exact_strings(metadata: str) -> tuple[list[dict[str, str]], list[str]]:
         entry: dict[str, str] = {}
         for line in chunk.splitlines():
             field_match = re.match(r"^\s*(?:-\s*)?([a-z_]+):\s*(.*?)\s*$", line)
-            if field_match and field_match.group(1) in EXACT_STRING_FIELDS:
+            if field_match and field_match.group(1) in (*EXACT_STRING_FIELDS, POINTER_FIELD):
                 entry[field_match.group(1)] = field_match.group(2).strip().strip('"')
         if not entry:
             problems.append(
@@ -310,6 +316,37 @@ def read_exact_strings(metadata: str) -> tuple[list[dict[str, str]], list[str]]:
             continue
         entries.append(entry)
     return entries, problems
+
+
+def pointer_problems(entry: dict[str, str], label: str) -> list[str]:
+    """What is wrong with a registration's 256t pointer, checkable without the vault.
+
+    The URI must be well formed, and the locator must name the copy and a byte range whose
+    length is the length the pointer declares — a range and a pointer that disagree about
+    how many octets were quoted cannot both be right. Whether the bytes hash to the pointer
+    needs the copy: `t256.py verify`.
+    """
+    import t256
+
+    problems: list[str] = []
+    pointer = entry[POINTER_FIELD]
+    problem = t256.uri_problem(pointer)
+    if problem:
+        return [f"pointer {label!r} {problem}"]
+    record = t256.URI.search(entry.get("locator", ""))
+    span = t256.LOCATOR_RANGE.search(entry.get("locator", ""))
+    if not record or t256.uri_problem(record.group(0)):
+        problems.append(f"pointer {label!r} has no t256 URI for its copy in the locator")
+    if not span:
+        problems.append(f"pointer {label!r} has no bytes=START-END range in the locator")
+    elif int(span.group(2)) - int(span.group(1)) + 1 != t256.declared_length(pointer):
+        problems.append(
+            f"pointer {label!r} declares {t256.declared_length(pointer)} octets but its locator "
+            f"range is {int(span.group(2)) - int(span.group(1)) + 1}"
+        )
+    elif record and int(span.group(2)) >= t256.declared_length(record.group(0)):
+        problems.append(f"pointer {label!r} range runs past the end of its copy")
+    return problems
 
 
 def audit_exact_strings(metadata: str, where: str, *, locked: bool) -> tuple[list[str], list[str]]:
@@ -324,11 +361,15 @@ def audit_exact_strings(metadata: str, where: str, *, locked: bool) -> tuple[lis
     for problem in malformed:
         errors.append(f"{where}: {problem}")
     for entry in registered:
-        label = (entry.get("text") or "?")[:48]
-        missing = [name for name in EXACT_STRING_FIELDS if not entry.get(name)]
+        label = (entry.get("text") or entry.get(POINTER_FIELD) or "?")[:48]
+        missing = [name for name in REQUIRED_FIELDS if not entry.get(name)]
+        if not entry.get("text") and not entry.get(POINTER_FIELD):
+            missing.insert(0, "text (or pointer)")
         if missing:
             errors.append(f"{where}: exact string {label!r} is missing {', '.join(missing)}")
             continue
+        if entry.get(POINTER_FIELD):
+            errors.extend(f"{where}: {problem}" for problem in pointer_problems(entry, label))
         if entry["verification"] not in ALLOWED_VERIFICATION:
             errors.append(
                 f"{where}: exact string {label!r} has unknown verification "
@@ -337,6 +378,11 @@ def audit_exact_strings(metadata: str, where: str, *, locked: bool) -> tuple[lis
         if entry["rights"] not in ALLOWED_RIGHTS:
             errors.append(f"{where}: exact string {label!r} has unknown rights {entry['rights']!r}")
         if locked:
+            if not entry.get("text"):
+                errors.append(
+                    f"{where} is locked but exact string {label!r} is only a pointer; a pointer "
+                    "says where the words are, and a locked page has to print them"
+                )
             if entry["verification"] not in LOCKABLE_VERIFICATION:
                 errors.append(
                     f"{where} is locked but exact string {label!r} is only "
@@ -420,6 +466,8 @@ def is_registered(string: str, registered: list[dict[str, str]]) -> bool:
     fragment must be at least four words on word boundaries, so a one-word label such as
     `OFFENSE` is not mistaken for part of a quotation that happens to contain it.
     """
+    if any(entry.get(POINTER_FIELD) and string.strip() == entry[POINTER_FIELD] for entry in registered):
+        return True
     wording = normalise_wording(string)
     if not wording:
         return False
@@ -484,13 +532,14 @@ def audit_quotation_shape(source: str, metadata: str, where: str) -> tuple[list[
         if quoting:
             visible = normalise_wording(re.sub(r"^>\s?", "", reader_visible, flags=re.MULTILINE))
             if not any(
-                entry.get("text") and normalise_wording(entry["text"]) in visible
+                (entry.get("text") and normalise_wording(entry["text"]) in visible)
+                or (entry.get(POINTER_FIELD) and entry[POINTER_FIELD] in reader_visible)
                 for entry in registered
             ):
                 errors.append(
-                    f"{where} panel {number}: provenance declares `{quoting[0]}` but no string "
-                    "registered in exact_strings appears in the panel — register the words with "
-                    "source, locator, verification and rights"
+                    f"{where} panel {number}: provenance declares `{quoting[0]}` but no string or "
+                    "pointer registered in exact_strings appears in the panel — register the words, "
+                    "or a 256t pointer to them, with source, locator, verification and rights"
                 )
             continue
         if PARAPHRASE_DECLARED.search(provenance) and VERBATIM_SHAPED.search(reader_visible) \

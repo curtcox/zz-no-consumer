@@ -192,6 +192,31 @@ exact_strings:
     rights: cleared                  # unresolved | cleared | paraphrase | redact
 ```
 
+**When the words cannot be written out, point at them.** Some quotations cannot enter a file —
+an extended fragment under rule 4, or anything an agent working here is not permitted to reproduce.
+Do not fall back to paraphrase for that reason. Register a **256t pointer** instead, per
+<https://256t.org/>: `pointer` replaces `text`, and the locator names the vault copy by its own
+`t256:` URI and the inclusive byte range.
+
+```yaml
+exact_strings:
+  - pointer: t256:AAAAAACfOj5Nh4GizBboGbCQ1bargnywV611GNQhhum3sWqOCetwLpjE7OEKPntcFE5woE8cH8h8q5G8IVGif7FlKe3B0g
+    source: OAI-BH
+    locator: t256:AAAAAKE45pOA3XgG4nJg124TkhTIVAJUPEdGNc33z3VbUEpJU93J5EDl5wtYkciVTr1ctJYXry3yMnR4WO8Wl5-XMFXDjw bytes=34713-34871; automatic transcription, 31:32–31:37
+    verification: unchecked
+    rights: unresolved
+```
+
+A CID is the content's length plus its SHA-512, so anyone holding the copy can cut the range,
+hash it, and confirm the words without the repository ever containing them; and the copy is
+named by content, so a re-downloaded or edited transcript is visibly a different copy.
+`scripts/t256.py` makes pointers (`pointer`, `locate`) and checks them (`check` in CI for form;
+`verify` locally against the vault) and **never prints source text**. Two cautions. A span of
+64 octets or fewer has a *literal* CID — the words themselves in base64url — so it is a
+quotation, not a pointer to one. And a pointer cannot be printed: a panel may carry one while in
+review, but a page cannot lock until the registration has `text`. Pointers work the same way in
+research notes, in the appendix, and in conversation with the owner.
+
 The field is required in **every page script and every novella prose file** — the prose edition ships
 as its own targets and shares the page key, so a quotation registered on one and not the other is two
 different books. The model lives in `scripts/crossref.py`; `validate-continuity.py` and
@@ -219,6 +244,7 @@ python3 scripts/validate-continuity.py && \
 python3 scripts/validate-production-foundations.py && \
 python3 scripts/crossref.py check --strict && \
 python3 scripts/novella.py check --strict && \
+python3 scripts/t256.py check && \
 python3 scripts/appendix.py check && \
 python3 scripts/pagelinks.py check && \
 python3 scripts/knowledge_maps.py check && \

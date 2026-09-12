@@ -134,7 +134,8 @@ Four, because collapsing them is how an unchecked claim comes to look checked.
 - **`quoted`** — the claim was checked against that passage, by a named agent, on a date. This is the
   only level that discharges the content-match obligation.
 - **`verbatim`** — the wording is character-exact against a **named** copy of the source, and the row
-  says which copy. Stricter than `quoted`. Required for every direct quotation. A match against an
+  says which copy. Name the copy by its `t256:` URI (`python3 scripts/t256.py records`): a filename
+  can be overwritten, a content address cannot. Stricter than `quoted`. Required for every direct quotation. A match against an
   automatic transcription is `verbatim` against the transcription and **not** against the speaker;
   the row must not blur the two.
 - **`derived`** — the fact was *computed*, not read. **This level does not currently exist in the

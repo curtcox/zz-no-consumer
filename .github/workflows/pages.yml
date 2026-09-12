@@ -38,6 +38,9 @@ jobs:
       - name: Check the novella against the page scripts
         run: python scripts/novella.py check --strict
 
+      - name: Check 256t pointers against the standard's test vectors
+        run: python scripts/t256.py check
+
       - name: Check the appendix of contested assertions, fallacies, and professional objections
         run: python scripts/appendix.py check
 

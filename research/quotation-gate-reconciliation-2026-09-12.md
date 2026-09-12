@@ -144,3 +144,53 @@ None is edited. Each is register-or-reletter, and that is the owner's decision a
 - `crossref.audit_quotation_shape` reads `Screen / system text` labels. A quotation lettered as a
   caption or dialogue under a quoting status is checked; a caption that merely *looks* like a
   quotation without declaring one is not.
+
+## Third pass: 256t pointers, and what page 101 actually letters
+
+**Standing direction from the owner, 12 September 2026:** whenever a direct quotation cannot be
+used, use a 256t pointer to it instead, per <https://256t.org/>. The motivating case is an
+agent that may not reproduce more than a short excerpt of source text. Before this pass, that
+limit pushed work back toward paraphrase, which is the lossy transformation this note exists to
+prevent. A pointer loses nothing: it names the exact bytes by length and SHA-512, and it names
+the copy they were cut from the same way.
+
+**The mechanism.** [`scripts/t256.py`](../scripts/t256.py) implements the standard. It reproduces
+all three published test vectors, and CI runs that check. An `exact_strings` entry may carry
+`pointer` in place of `text`. `crossref.pointer_problems` checks, without the vault, that the URI
+is well formed and that the locator names a copy and a byte range of exactly the length the
+pointer declares. `t256.py verify` cuts, hashes and compares against the local vault. A panel
+declaring `quotation` may carry the pointer in its lettering while in review. A page cannot lock
+on a pointer alone, because a pointer cannot be printed. The tool prints only CIDs, lengths and
+offsets, never source text.
+
+**The Black Hat transcript is now a named copy.** It has no row in
+[`data/256t-sources.tsv`](../data/256t-sources.tsv), so `sync-256t.py` records no URL, retrieval
+date or hash for it. That gap still matters for provenance: nothing says how the transcript was
+made. It no longer matters for identity, because the copy is
+`t256:AAAAAKE45pOA3XgG4nJg124TkhTIVAJUPEdGNc33z3VbUEpJU93J5EDl5wtYkciVTr1ctJYXry3yMnR4WO8Wl5-XMFXDjw`
+(41,272 octets, 5 September). Its form — caption-length chunks, retained fillers, "HuggingFace" as
+one word — is consistent with automatic transcription. That is an observation, not a record.
+
+**Page 101 against that copy.** The page's six lettered lines were compared with the transcript,
+ignoring case, punctuation, timestamp lines and "uh"/"um". The comparison reported only whether
+the words appear contiguously, and the best word-overlap ratio against any equal-length window.
+
+| Panel | Label and provenance | Line | Words | Contiguous | Best overlap |
+| --- | --- | --- | ---: | --- | ---: |
+| 2 | `CITED, OPENAI AT BLACK HAT`; "attributed paraphrase" of 30:47–31:14 | 1 | 7 | yes | 1.00 |
+| 2 | same | 2 | 16 | no | 0.50 |
+| 3 | `CITED, OPENAI AT BLACK HAT`; `documented`, 31:32 and 36:38 | 1 | 18 | no | 0.61 |
+| 3 | same | 2 | 19 | no | 0.58 |
+| 4 | `CITED, OPENAI AT BLACK HAT`; `documented`, 33:17–33:52 | 1 | 12 | no | 0.33 |
+| 4 | same | 2 | 11 | no | 0.91 |
+
+So the question the second pass left open about panels 3 and 4 has an answer. **Neither is
+quotation.** Panel 3's provenance never says "paraphrase", yet both its lines are paraphrase set
+under a citation label. Panel 4's second line is nearly the speaker's words; its first line is
+not. And one line recorded as paraphrase, panel 2's first, is in fact verbatim against the
+transcript.
+
+This is the case for doing the check mechanically rather than by reading: the provenance lines
+were wrong in both directions. Nothing on the page is edited. For each line the repair is
+still the owner's at gate 9: register the transcript's words (or a pointer to them) and letter
+those, or reletter the summary so the reader can see it is the book's.
