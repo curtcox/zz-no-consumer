@@ -1,6 +1,6 @@
 {
   "background": "ink",
-  "intent": "Block safe-stopping training has a separate unfinished control. Keep the scripted evidence boundary and lettering visible.",
+  "intent": "Keep three training goals alongside a separately stamped unfinished auto-termination control. Development status must not look like a deployed safeguard.",
   "lettering": [
     {
       "box": [
@@ -21,10 +21,11 @@
         0.2668,
         0.2688
       ],
-      "color": "steel"
+      "color": "steel",
+      "focus": true
     },
     {
-      "asset": "card",
+      "asset": "task",
       "box": [
         0.1044,
         0.0898,
@@ -49,7 +50,8 @@
         0.2668,
         0.2688
       ],
-      "color": "steel"
+      "color": "steel",
+      "focus": true
     },
     {
       "asset": "card",
@@ -77,7 +79,8 @@
         0.2668,
         0.2688
       ],
-      "color": "steel"
+      "color": "steel",
+      "focus": true
     },
     {
       "asset": "card",
@@ -105,7 +108,8 @@
         0.2668,
         0.2688
       ],
-      "color": "steel"
+      "color": "steel",
+      "focus": true
     },
     {
       "asset": "card",

@@ -1,6 +1,6 @@
 {
   "background": "ink",
-  "intent": "Block package failures spread across unrelated tasks. Keep the scripted evidence boundary and lettering visible.",
+  "intent": "Repeat failed package requests across different research-task shapes. Keep racks visually ordinary: the shared dependency causes distributed interruption without physical destruction.",
   "lettering": [
     {
       "box": [
@@ -21,7 +21,8 @@
         0.2668,
         0.2688
       ],
-      "color": "steel"
+      "color": "steel",
+      "focus": true
     },
     {
       "asset": "cross",
@@ -42,7 +43,8 @@
         0.2668,
         0.2688
       ],
-      "color": "steel"
+      "color": "steel",
+      "focus": true
     },
     {
       "asset": "folder",
@@ -63,7 +65,8 @@
         0.2668,
         0.2688
       ],
-      "color": "steel"
+      "color": "steel",
+      "focus": true
     },
     {
       "asset": "cross",
@@ -84,7 +87,8 @@
         0.2668,
         0.2688
       ],
-      "color": "steel"
+      "color": "steel",
+      "focus": true
     },
     {
       "asset": "folder",
@@ -105,7 +109,8 @@
         0.2668,
         0.2688
       ],
-      "color": "steel"
+      "color": "steel",
+      "focus": true
     },
     {
       "asset": "cross",
@@ -126,7 +131,8 @@
         0.2668,
         0.2688
       ],
-      "color": "steel"
+      "color": "steel",
+      "focus": true
     },
     {
       "asset": "folder",

@@ -1,11 +1,11 @@
 {
   "background": "ink",
-  "intent": "Block perspective-bearing language enters the analysis context. Keep the scripted evidence boundary and lettering visible.",
+  "intent": "Highlight source terms within the transcript without endorsing them. Their borrowed perspective must remain attached to the record that introduced it.",
   "lettering": [],
   "lettering_mode": "manual",
   "nodes": [
     {
-      "asset": "card",
+      "asset": "transcript",
       "box": [
         0.2117,
         0.152,

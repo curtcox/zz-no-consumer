@@ -1,22 +1,24 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="800" viewBox="0 0 1200 800"><title>A narrower sentence survives the crossed claims</title><metadata>{
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="800" viewBox="0 0 1200 800"><title>A narrower sentence survives the crossed claims</title><desc>Let the smaller surviving claim remain clear beneath larger crossed-out claims. Revision narrows the assertion while preserving the record of what was rejected.</desc><metadata>{
   &quot;assets&quot;: {
     &quot;cross&quot;: &quot;&lt;path d=\&quot;M10 10L90 90M90 10L10 90\&quot; stroke=\&quot;currentColor\&quot; stroke-width=\&quot;8\&quot;/&gt;&quot;,
     &quot;paper&quot;: &quot;&lt;path d=\&quot;M0 0H80L100 20V100H0Z\&quot; fill=\&quot;currentColor\&quot;/&gt;&lt;path d=\&quot;M80 0V20H100M9 35H84M9 48H84M9 61H73M9 74H81\&quot; fill=\&quot;none\&quot; stroke=\&quot;#101214\&quot; stroke-width=\&quot;1.5\&quot;/&gt;&quot;
   },
   &quot;palette&quot;: {
     &quot;amber&quot;: &quot;#A17D45&quot;,
+    &quot;claret&quot;: &quot;#6B2634&quot;,
     &quot;dirty&quot;: &quot;#CEC5B3&quot;,
     &quot;ink&quot;: &quot;#101214&quot;,
     &quot;institution&quot;: &quot;#68766B&quot;,
+    &quot;moss&quot;: &quot;#74864F&quot;,
     &quot;nicotine&quot;: &quot;#AA9571&quot;,
     &quot;paper&quot;: &quot;#E7E0D0&quot;,
     &quot;shadow&quot;: &quot;#202326&quot;,
     &quot;steel&quot;: &quot;#5E737B&quot;
   },
-  &quot;renderer&quot;: &quot;storyboard-svg-1&quot;,
+  &quot;renderer&quot;: &quot;storyboard-svg-2&quot;,
   &quot;scene&quot;: {
     &quot;background&quot;: &quot;ink&quot;,
-    &quot;intent&quot;: &quot;Block a narrower sentence survives the crossed claims. Keep the scripted evidence boundary and lettering visible.&quot;,
+    &quot;intent&quot;: &quot;Let the smaller surviving claim remain clear beneath larger crossed-out claims. Revision narrows the assertion while preserving the record of what was rejected.&quot;,
     &quot;lettering&quot;: [
       {
         &quot;box&quot;: [
@@ -41,9 +43,9 @@
         &quot;asset&quot;: &quot;cross&quot;,
         &quot;box&quot;: [
           0.20692000000000002,
-          0.11960000000000001,
+          0.1196,
           0.14615999999999998,
-          0.21923999999999996
+          0.21924
         ],
         &quot;color&quot;: &quot;dirty&quot;,
         &quot;focus&quot;: true

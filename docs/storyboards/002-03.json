@@ -1,6 +1,6 @@
 {
   "background": "ink",
-  "intent": "Block an inventory inside the container. Keep the scripted evidence boundary and lettering visible.",
+  "intent": "Enclose target, tools and task in one shared container perimeter. The advancing cursor inventories remaining internal surfaces; black space beyond the perimeter has no outgoing route.",
   "lettering": [
     {
       "box": [
@@ -16,86 +16,89 @@
     {
       "asset": "outline-box",
       "box": [
-        0.0722,
-        0.0674,
-        0.2668,
-        0.5376
+        0.0632,
+        0.0592,
+        0.8736,
+        0.528581
       ],
-      "color": "steel"
+      "color": "steel",
+      "focus": true,
+      "label": "CONTAINER",
+      "label_box": [
+        0.0632,
+        0.595781,
+        0.8736,
+        0.124145
+      ],
+      "label_size": 18
     },
     {
       "asset": "box",
       "box": [
-        0.1044,
-        0.0898,
-        0.2024,
-        0.3776
+        0.1269,
+        0.1799,
+        0.2002,
+        0.220242
       ],
       "color": "steel",
       "focus": true,
       "label": "TARGET",
       "label_box": [
-        0.09640000000000001,
-        0.4734,
-        0.21839999999999998,
-        0.085
-      ]
-    },
-    {
-      "asset": "outline-box",
-      "box": [
-        0.3712,
-        0.0674,
-        0.2668,
-        0.5376
+        0.1269,
+        0.41349,
+        0.2002,
+        0.096773
       ],
-      "color": "steel"
+      "label_size": 18
     },
     {
       "asset": "terminal",
       "box": [
-        0.4034,
-        0.0898,
-        0.2024,
-        0.3776
+        0.3999,
+        0.1799,
+        0.2002,
+        0.220242
       ],
       "color": "steel",
       "focus": true,
       "label": "TOOLS",
       "label_box": [
-        0.3954,
-        0.4734,
-        0.21839999999999998,
-        0.085
-      ]
-    },
-    {
-      "asset": "outline-box",
-      "box": [
-        0.6702,
-        0.0674,
-        0.2668,
-        0.5376
+        0.3999,
+        0.41349,
+        0.2002,
+        0.096773
       ],
-      "color": "steel"
+      "label_size": 18
     },
     {
-      "asset": "card",
+      "asset": "task",
       "box": [
-        0.7024,
-        0.0898,
-        0.2024,
-        0.3776
+        0.6729,
+        0.1799,
+        0.2002,
+        0.220242
       ],
       "color": "steel",
       "focus": true,
       "label": "TASK",
       "label_box": [
-        0.6944,
-        0.4734,
-        0.21839999999999998,
-        0.085
-      ]
+        0.6729,
+        0.41349,
+        0.2002,
+        0.096773
+      ],
+      "label_size": 18
+    },
+    {
+      "asset": "cursor",
+      "box": [
+        0.6001,
+        0.3787,
+        0.02275,
+        0.0923
+      ],
+      "color": "steel",
+      "focus": true
     }
   ],
   "reconstructed": false,

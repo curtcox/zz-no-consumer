@@ -1,6 +1,6 @@
 {
   "background": "ink",
-  "intent": "Block humans check context and revise the search. Keep the scripted evidence boundary and lettering visible.",
+  "intent": "Show a reviewer reopening context, rejecting a candidate and revising a prompt. Human checking is selective and iterative rather than a blanket approval stamp.",
   "lettering": [
     {
       "box": [
@@ -37,22 +37,24 @@
       "asset": "person-seated",
       "box": [
         0.09933333333333332,
-        0.20499999999999996,
+        0.205,
         0.19413333333333335,
-        0.44800000000000006
+        0.448
       ],
-      "color": "dirty"
+      "color": "dirty",
+      "focus": true
     },
     {
       "asset": "person-seated",
       "box": [
         0.7249333333333333,
-        0.20499999999999996,
+        0.205,
         0.19413333333333335,
-        0.44800000000000006
+        0.448
       ],
       "color": "dirty",
-      "flip": true
+      "flip": true,
+      "focus": true
     },
     {
       "asset": "card",

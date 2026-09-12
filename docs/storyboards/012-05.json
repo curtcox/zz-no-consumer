@@ -1,6 +1,6 @@
 {
   "background": "ink",
-  "intent": "Block control grows above an unchanged objective. Keep the scripted evidence boundary and lettering visible.",
+  "intent": "Keep the original flag small and unchanged while branching accessible options above it. Increased control expands possible means; never replace the flag with a new crown, throne or power objective.",
   "lettering": [
     {
       "box": [
@@ -21,14 +21,15 @@
         0.8648,
         0.576
       ],
-      "color": "steel"
+      "color": "steel",
+      "focus": true
     },
     {
       "asset": "flag",
       "box": [
-        0.0768,
+        0.12889,
         0.493,
-        0.1541,
+        0.04992,
         0.1152
       ],
       "color": "steel",
@@ -80,9 +81,9 @@
     {
       "asset": "rack",
       "box": [
-        0.6564,
+        0.71617,
         0.109,
-        0.1541,
+        0.03456,
         0.1152
       ],
       "color": "steel",

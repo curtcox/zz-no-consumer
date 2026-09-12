@@ -1,6 +1,6 @@
 {
   "background": "ink",
-  "intent": "Block revised text sits beside separated evidence cards. Keep the scripted evidence boundary and lettering visible.",
+  "intent": "Place the revision beside the three separate source cards with no identity-merging connector. The corrected sentence remains accountable to distinct artifacts.",
   "lettering": [
     {
       "box": [
@@ -16,28 +16,29 @@
     {
       "asset": "paper",
       "box": [
-        0.1044,
-        0.2242,
-        0.146372,
-        0.256
+        0.06775,
+        0.2012,
+        0.1638,
+        0.276474
       ],
       "color": "steel",
       "focus": true,
       "label": "REVISION",
       "label_box": [
-        0.09640000000000001,
-        0.4862,
-        0.16237200000000002,
-        0.085
-      ]
+        0.06775,
+        0.49443,
+        0.1638,
+        0.121481
+      ],
+      "label_size": 18
     },
     {
       "asset": "card",
       "box": [
-        0.3022,
-        0.2242,
-        0.146372,
-        0.256
+        0.29525,
+        0.2012,
+        0.1638,
+        0.4189
       ],
       "color": "steel",
       "focus": true
@@ -45,10 +46,10 @@
     {
       "asset": "card",
       "box": [
-        0.5,
-        0.2242,
-        0.146372,
-        0.256
+        0.52275,
+        0.2012,
+        0.1638,
+        0.4189
       ],
       "color": "steel",
       "focus": true
@@ -56,10 +57,10 @@
     {
       "asset": "card",
       "box": [
-        0.6978,
-        0.2242,
-        0.146372,
-        0.256
+        0.75025,
+        0.2012,
+        0.1638,
+        0.4189
       ],
       "color": "steel",
       "focus": true

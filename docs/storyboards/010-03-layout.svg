@@ -1,23 +1,28 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="800" viewBox="0 0 1200 800"><title>Belief and reported deployment differ</title><metadata>{
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="800" viewBox="0 0 1200 800"><title>Belief and reported deployment differ</title><desc>Give the two attributed accounts equal visual standing. Include transcript inspection only on the belief side; separate the accounts with an amber gutter and no reconciling connector.</desc><metadata>{
   &quot;assets&quot;: {
     &quot;aperture&quot;: &quot;&lt;rect x=\&quot;2\&quot; y=\&quot;15\&quot; width=\&quot;96\&quot; height=\&quot;70\&quot; fill=\&quot;#202326\&quot; stroke=\&quot;currentColor\&quot; stroke-width=\&quot;3\&quot;/&gt;&lt;circle cx=\&quot;50\&quot; cy=\&quot;50\&quot; r=\&quot;27\&quot; fill=\&quot;#101214\&quot; stroke=\&quot;currentColor\&quot; stroke-width=\&quot;3\&quot;/&gt;&lt;path d=\&quot;M50 24L74 63H26ZM26 63L50 24L74 63\&quot; fill=\&quot;none\&quot; stroke=\&quot;currentColor\&quot; stroke-width=\&quot;2\&quot;/&gt;&quot;,
+    &quot;arrow-down&quot;: &quot;&lt;g transform=\&quot;rotate(90 50 50)\&quot;&gt;&lt;path d=\&quot;M1 50H87M70 18L96 50L70 82\&quot; fill=\&quot;none\&quot; stroke=\&quot;currentColor\&quot; stroke-width=\&quot;5\&quot;/&gt;&lt;/g&gt;&quot;,
     &quot;boundary&quot;: &quot;&lt;path d=\&quot;M50 0V100\&quot; stroke=\&quot;currentColor\&quot; stroke-width=\&quot;14\&quot;/&gt;&quot;,
-    &quot;checkmark&quot;: &quot;&lt;path d=\&quot;M8 51L37 82L94 12\&quot; fill=\&quot;none\&quot; stroke=\&quot;currentColor\&quot; stroke-width=\&quot;8\&quot;/&gt;&quot;
+    &quot;checkmark&quot;: &quot;&lt;path d=\&quot;M8 51L37 82L94 12\&quot; fill=\&quot;none\&quot; stroke=\&quot;currentColor\&quot; stroke-width=\&quot;8\&quot;/&gt;&quot;,
+    &quot;flag&quot;: &quot;&lt;path d=\&quot;M20 98V3L85 6L64 26L85 49H22\&quot; fill=\&quot;none\&quot; stroke=\&quot;currentColor\&quot; stroke-width=\&quot;4\&quot;/&gt;&quot;,
+    &quot;transcript&quot;: &quot;&lt;rect x=\&quot;1\&quot; y=\&quot;1\&quot; width=\&quot;98\&quot; height=\&quot;98\&quot; fill=\&quot;#202326\&quot; stroke=\&quot;currentColor\&quot; stroke-width=\&quot;2\&quot;/&gt;&lt;path d=\&quot;M20 1V99M1 18H99M6 10H13M27 9H83M6 31H13M28 30H88M28 39H71M6 53H13M28 52H79M28 61H90M6 75H13M28 74H66M28 83H83\&quot; stroke=\&quot;currentColor\&quot; stroke-width=\&quot;2\&quot;/&gt;&quot;
   },
   &quot;palette&quot;: {
     &quot;amber&quot;: &quot;#A17D45&quot;,
+    &quot;claret&quot;: &quot;#6B2634&quot;,
     &quot;dirty&quot;: &quot;#CEC5B3&quot;,
     &quot;ink&quot;: &quot;#101214&quot;,
     &quot;institution&quot;: &quot;#68766B&quot;,
+    &quot;moss&quot;: &quot;#74864F&quot;,
     &quot;nicotine&quot;: &quot;#AA9571&quot;,
     &quot;paper&quot;: &quot;#E7E0D0&quot;,
     &quot;shadow&quot;: &quot;#202326&quot;,
     &quot;steel&quot;: &quot;#5E737B&quot;
   },
-  &quot;renderer&quot;: &quot;storyboard-svg-1&quot;,
+  &quot;renderer&quot;: &quot;storyboard-svg-2&quot;,
   &quot;scene&quot;: {
     &quot;background&quot;: &quot;ink&quot;,
-    &quot;intent&quot;: &quot;Block belief and reported deployment differ. Keep the scripted evidence boundary and lettering visible.&quot;,
+    &quot;intent&quot;: &quot;Give the two attributed accounts equal visual standing. Include transcript inspection only on the belief side; separate the accounts with an amber gutter and no reconciling connector.&quot;,
     &quot;lettering&quot;: [
       {
         &quot;box&quot;: [
@@ -33,48 +38,100 @@
       {
         &quot;asset&quot;: &quot;aperture&quot;,
         &quot;box&quot;: [
-          0.13983866666666667,
-          0.22419999999999998,
-          0.2218666666666667,
-          0.25600000000000006
+          0.170068,
+          0.0805,
+          0.150264,
+          0.173382
         ],
         &quot;color&quot;: &quot;steel&quot;,
         &quot;focus&quot;: true,
-        &quot;label&quot;: &quot;BOARD BELIEF&quot;,
+        &quot;label&quot;: &quot;WHAT THE BOARD BELIEVED&quot;,
         &quot;label_box&quot;: [
-          0.09640000000000001,
-          0.4862,
-          0.308744,
-          0.085
-        ]
+          0.0632,
+          0.26439,
+          0.364,
+          0.076183
+        ],
+        &quot;label_size&quot;: 18
       },
       {
-        &quot;asset&quot;: &quot;checkmark&quot;,
+        &quot;asset&quot;: &quot;arrow-down&quot;,
         &quot;box&quot;: [
-          0.5610386666666667,
-          0.22419999999999998,
-          0.1706666666666667,
-          0.25600000000000006
+          0.1906,
+          0.3787,
+          0.091,
+          0.0852
+        ],
+        &quot;color&quot;: &quot;steel&quot;,
+        &quot;focus&quot;: true
+      },
+      {
+        &quot;asset&quot;: &quot;transcript&quot;,
+        &quot;box&quot;: [
+          0.0723,
+          0.4994,
+          0.3549,
+          0.14058
         ],
         &quot;color&quot;: &quot;steel&quot;,
         &quot;focus&quot;: true,
-        &quot;label&quot;: &quot;OPENAI ACCOUNT&quot;,
+        &quot;label&quot;: &quot;PATH INSPECTION&quot;,
         &quot;label_box&quot;: [
-          0.492,
-          0.4862,
-          0.308744,
-          0.085
-        ]
+          0.0723,
+          0.6485,
+          0.3549,
+          0.06177
+        ],
+        &quot;label_size&quot;: 18
       },
       {
         &quot;asset&quot;: &quot;boundary&quot;,
         &quot;box&quot;: [
-          0.4908,
-          0.0962,
-          0.01656,
-          0.5376
+          0.4909,
+          0.0521,
+          0.01456,
+          0.6674
         ],
-        &quot;color&quot;: &quot;amber&quot;
+        &quot;color&quot;: &quot;amber&quot;,
+        &quot;focus&quot;: true
+      },
+      {
+        &quot;asset&quot;: &quot;flag&quot;,
+        &quot;box&quot;: [
+          0.717234,
+          0.0805,
+          0.075132,
+          0.173382
+        ],
+        &quot;color&quot;: &quot;steel&quot;,
+        &quot;focus&quot;: true,
+        &quot;label&quot;: &quot;WHAT OPENAI SAYS RAN&quot;,
+        &quot;label_box&quot;: [
+          0.5819,
+          0.26439,
+          0.3458,
+          0.076183
+        ],
+        &quot;label_size&quot;: 18
+      },
+      {
+        &quot;asset&quot;: &quot;checkmark&quot;,
+        &quot;box&quot;: [
+          0.70339,
+          0.4994,
+          0.09372,
+          0.14058
+        ],
+        &quot;color&quot;: &quot;steel&quot;,
+        &quot;focus&quot;: true,
+        &quot;label&quot;: &quot;ANSWER ACCEPTANCE&quot;,
+        &quot;label_box&quot;: [
+          0.6001,
+          0.6485,
+          0.3003,
+          0.06177
+        ],
+        &quot;label_size&quot;: 18
       }
     ],
     &quot;reconstructed&quot;: false,
@@ -83,4 +140,4 @@
     &quot;title&quot;: &quot;Belief and reported deployment differ&quot;
   }
 }
-</metadata><rect width="1200" height="800" fill="#101214"/><rect x="167.806" y="179.36" width="266.24" height="204.8" fill="none" stroke="#5E737B" stroke-width="3"/><text x="175.806" y="203.36" fill="#5E737B" font-family="sans-serif" font-size="20">aperture</text><text x="300.926" y="408.96" text-anchor="middle" fill="#E7E0D0" font-size="20" font-family="sans-serif">BOARD BELIEF</text><rect x="673.246" y="179.36" width="204.8" height="204.8" fill="none" stroke="#5E737B" stroke-width="3"/><text x="681.246" y="203.36" fill="#5E737B" font-family="sans-serif" font-size="20">checkmark</text><text x="775.646" y="408.96" text-anchor="middle" fill="#E7E0D0" font-size="20" font-family="sans-serif">OPENAI ACCOUNT</text><rect x="588.96" y="76.96" width="19.872" height="430.08" fill="none" stroke="#A17D45" stroke-width="3"/><text x="596.96" y="100.96" fill="#A17D45" font-family="sans-serif" font-size="20">boundary</text><rect x="3" y="3" width="1194" height="794" fill="none" stroke="#5E737B" stroke-width="4"/></svg>
+</metadata><rect width="1200" height="800" fill="#101214"/><rect x="204.082" y="64.4" width="180.317" height="138.706" fill="none" stroke="#5E737B" stroke-width="3"/><text x="212.082" y="88.4" fill="#5E737B" font-family="sans-serif" font-size="20">aperture</text><text x="294.24" y="229.512" text-anchor="middle" fill="#E7E0D0" font-size="18" font-family="sans-serif">WHAT THE BOARD BELIEVED</text><rect x="228.72" y="302.96" width="109.2" height="68.16" fill="none" stroke="#5E737B" stroke-width="3"/><text x="236.72" y="326.96" fill="#5E737B" font-family="sans-serif" font-size="20">arrow-down</text><rect x="86.76" y="399.52" width="425.88" height="112.464" fill="none" stroke="#5E737B" stroke-width="3"/><text x="94.76" y="423.52" fill="#5E737B" font-family="sans-serif" font-size="20">transcript</text><text x="299.7" y="536.8" text-anchor="middle" fill="#E7E0D0" font-size="18" font-family="sans-serif">PATH INSPECTION</text><rect x="589.08" y="41.68" width="17.472" height="533.92" fill="none" stroke="#A17D45" stroke-width="3"/><text x="597.08" y="65.68" fill="#A17D45" font-family="sans-serif" font-size="20">boundary</text><rect x="860.681" y="64.4" width="90.1584" height="138.706" fill="none" stroke="#5E737B" stroke-width="3"/><text x="868.681" y="88.4" fill="#5E737B" font-family="sans-serif" font-size="20">flag</text><text x="905.76" y="229.512" text-anchor="middle" fill="#E7E0D0" font-size="18" font-family="sans-serif">WHAT OPENAI SAYS RAN</text><rect x="844.068" y="399.52" width="112.464" height="112.464" fill="none" stroke="#5E737B" stroke-width="3"/><text x="852.068" y="423.52" fill="#5E737B" font-family="sans-serif" font-size="20">checkmark</text><text x="900.3" y="536.8" text-anchor="middle" fill="#E7E0D0" font-size="18" font-family="sans-serif">ANSWER ACCEPTANCE</text><rect x="3" y="3" width="1194" height="794" fill="none" stroke="#5E737B" stroke-width="4"/></svg>

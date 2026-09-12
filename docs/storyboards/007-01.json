@@ -1,6 +1,6 @@
 {
   "background": "ink",
-  "intent": "Block the same nine tasks seek common resources. Keep the scripted evidence boundary and lettering visible.",
+  "intent": "Reuse every target and cell position from the preceding grid. Add repeated resource requests beside the different goals, with paths ending only in cache gutters; convergence concerns means, not a shared final objective.",
   "lettering": [
     {
       "box": [
@@ -32,408 +32,602 @@
     {
       "asset": "outline-box",
       "box": [
-        0.0525,
-        0.08045,
-        0.145,
-        0.2436
+        0.05112,
+        0.05562,
+        0.15606,
+        0.26727
       ],
-      "color": "steel"
-    },
-    {
-      "_label_slot": [
-        0.07,
-        0.1109,
-        0.11,
-        0.1711
-      ],
-      "asset": "flag",
-      "box": [
-        0.07,
-        0.1109,
-        0.11,
-        0.08555
-      ],
-      "color": "institution",
+      "color": "steel",
       "focus": true
     },
     {
-      "asset": "outline-box",
+      "asset": "broken-trace",
       "box": [
-        0.215,
-        0.08045,
-        0.145,
-        0.2436
+        0.06285,
+        0.07863,
+        0.051,
+        0.101775
       ],
-      "color": "steel"
-    },
-    {
-      "_label_slot": [
-        0.2325,
-        0.1109,
-        0.11,
-        0.1711
-      ],
-      "asset": "gate",
-      "box": [
-        0.2325,
-        0.1109,
-        0.11,
-        0.08555
-      ],
-      "color": "institution",
+      "color": "steel",
       "focus": true
     },
     {
-      "asset": "outline-box",
+      "asset": "line",
       "box": [
-        0.3775,
-        0.08045,
-        0.145,
-        0.2436
+        0.1266,
+        0.10695,
+        0.0204,
+        0.01062
       ],
-      "color": "steel"
-    },
-    {
-      "_label_slot": [
-        0.395,
-        0.1109,
-        0.11,
-        0.1711
-      ],
-      "asset": "question",
-      "box": [
-        0.395,
-        0.11395,
-        0.11,
-        0.0825
-      ],
-      "color": "institution",
+      "color": "steel",
       "focus": true
     },
     {
-      "asset": "outline-box",
+      "asset": "directory-row",
       "box": [
-        0.0525,
-        0.35305,
-        0.145,
-        0.2436
+        0.05775,
+        0.19545,
+        0.1428,
+        0.067172
       ],
-      "color": "steel"
-    },
-    {
-      "_label_slot": [
-        0.07,
-        0.3835,
-        0.11,
-        0.1711
-      ],
-      "asset": "terminal",
-      "box": [
-        0.07,
-        0.3835,
-        0.11,
-        0.08555
-      ],
-      "color": "institution",
-      "focus": true
-    },
-    {
-      "asset": "outline-box",
-      "box": [
-        0.215,
-        0.35305,
-        0.145,
-        0.2436
-      ],
-      "color": "steel"
-    },
-    {
-      "_label_slot": [
-        0.2325,
-        0.3835,
-        0.11,
-        0.1711
-      ],
-      "asset": "clock",
-      "box": [
-        0.2325,
-        0.3835,
-        0.11,
-        0.08555
-      ],
-      "color": "institution",
-      "focus": true
-    },
-    {
-      "asset": "outline-box",
-      "box": [
-        0.3775,
-        0.35305,
-        0.145,
-        0.2436
-      ],
-      "color": "steel"
-    },
-    {
-      "_label_slot": [
-        0.395,
-        0.3835,
-        0.11,
-        0.1711
-      ],
-      "asset": "sealed",
-      "box": [
-        0.395,
-        0.40558846153846156,
-        0.11,
-        0.06346153846153846
-      ],
-      "color": "institution",
-      "focus": true
-    },
-    {
-      "asset": "outline-box",
-      "box": [
-        0.0525,
-        0.62565,
-        0.145,
-        0.2436
-      ],
-      "color": "steel"
-    },
-    {
-      "_label_slot": [
-        0.07,
-        0.6561,
-        0.11,
-        0.1711
-      ],
-      "asset": "cross",
-      "box": [
-        0.07,
-        0.6561,
-        0.11,
-        0.08555
-      ],
-      "color": "institution",
-      "focus": true
-    },
-    {
-      "asset": "outline-box",
-      "box": [
-        0.215,
-        0.62565,
-        0.145,
-        0.2436
-      ],
-      "color": "steel"
-    },
-    {
-      "_label_slot": [
-        0.2325,
-        0.6561,
-        0.11,
-        0.1711
-      ],
-      "asset": "folder",
-      "box": [
-        0.2325,
-        0.6561,
-        0.11,
-        0.08555
-      ],
-      "color": "institution",
-      "focus": true
-    },
-    {
-      "asset": "outline-box",
-      "box": [
-        0.3775,
-        0.62565,
-        0.145,
-        0.2436
-      ],
-      "color": "steel"
-    },
-    {
-      "_label_slot": [
-        0.395,
-        0.6561,
-        0.11,
-        0.1711
-      ],
-      "asset": "card",
-      "box": [
-        0.395,
-        0.65915,
-        0.11,
-        0.0825
-      ],
-      "color": "institution",
-      "focus": true
-    },
-    {
-      "asset": "card",
-      "box": [
-        0.07,
-        0.206716,
-        0.11,
-        0.059884999999999994
-      ],
-      "color": "institution",
+      "color": "moss",
       "focus": true,
       "label": "INFORMATION",
       "label_box": [
-        0.062000000000000006,
-        0.272601,
-        0.126,
-        0.07244899999999999
-      ]
+        0.05775,
+        0.266692,
+        0.1428,
+        0.029515
+      ],
+      "label_size": 18
     },
     {
-      "asset": "folder",
+      "asset": "outline-box",
       "box": [
-        0.2325,
-        0.206716,
-        0.11,
-        0.059884999999999994
+        0.22112,
+        0.05562,
+        0.15606,
+        0.26727
       ],
-      "color": "institution",
+      "color": "steel",
+      "focus": true
+    },
+    {
+      "asset": "gate",
+      "box": [
+        0.23285,
+        0.07863,
+        0.051,
+        0.101775
+      ],
+      "color": "steel",
+      "focus": true
+    },
+    {
+      "asset": "line",
+      "box": [
+        0.2966,
+        0.10695,
+        0.02652,
+        0.01062
+      ],
+      "color": "steel",
+      "focus": true
+    },
+    {
+      "asset": "directory-row",
+      "box": [
+        0.22775,
+        0.19545,
+        0.1428,
+        0.067172
+      ],
+      "color": "moss",
       "focus": true,
       "label": "STORAGE",
       "label_box": [
-        0.2245,
-        0.272601,
-        0.126,
-        0.07244899999999999
-      ]
+        0.22775,
+        0.266692,
+        0.1428,
+        0.029515
+      ],
+      "label_size": 18
     },
     {
-      "asset": "clock",
+      "asset": "outline-box",
       "box": [
-        0.395,
-        0.20635,
-        0.11,
-        0.057749999999999996
+        0.39112,
+        0.05562,
+        0.15606,
+        0.26727
       ],
-      "color": "institution",
+      "color": "steel",
+      "focus": true
+    },
+    {
+      "asset": "question",
+      "box": [
+        0.411387,
+        0.07863,
+        0.033925,
+        0.101775
+      ],
+      "color": "steel",
+      "focus": true
+    },
+    {
+      "asset": "line",
+      "box": [
+        0.4666,
+        0.10695,
+        0.03264,
+        0.01062
+      ],
+      "color": "steel",
+      "focus": true
+    },
+    {
+      "asset": "directory-row",
+      "box": [
+        0.39775,
+        0.19545,
+        0.1428,
+        0.067172
+      ],
+      "color": "moss",
       "focus": true,
       "label": "RUNTIME",
       "label_box": [
-        0.387,
-        0.2701,
-        0.126,
-        0.07494999999999996
-      ]
+        0.39775,
+        0.266692,
+        0.1428,
+        0.029515
+      ],
+      "label_size": 18
     },
     {
-      "asset": "sealed",
+      "asset": "outline-box",
       "box": [
-        0.07,
-        0.479316,
-        0.11,
-        0.059884999999999994
+        0.05112,
+        0.35062,
+        0.15606,
+        0.26727
       ],
-      "color": "institution",
+      "color": "steel",
+      "focus": true
+    },
+    {
+      "asset": "terminal",
+      "box": [
+        0.06285,
+        0.37363,
+        0.051,
+        0.101775
+      ],
+      "color": "steel",
+      "focus": true
+    },
+    {
+      "asset": "line",
+      "box": [
+        0.1266,
+        0.40195,
+        0.03876,
+        0.01062
+      ],
+      "color": "steel",
+      "focus": true
+    },
+    {
+      "asset": "directory-row",
+      "box": [
+        0.05775,
+        0.49045,
+        0.1428,
+        0.067172
+      ],
+      "color": "moss",
       "focus": true,
       "label": "CREDENTIALS",
       "label_box": [
-        0.062000000000000006,
-        0.545201,
-        0.126,
-        0.07244899999999999
-      ]
+        0.05775,
+        0.561693,
+        0.1428,
+        0.029515
+      ],
+      "label_size": 18
     },
     {
-      "asset": "gate",
+      "asset": "outline-box",
       "box": [
-        0.2325,
-        0.479316,
-        0.11,
-        0.059884999999999994
+        0.22112,
+        0.35062,
+        0.15606,
+        0.26727
       ],
-      "color": "institution",
-      "focus": true,
-      "label": "NETWORK PATH",
-      "label_box": [
-        0.2245,
-        0.545201,
-        0.126,
-        0.07244899999999999
-      ],
-      "label_size": 16
-    },
-    {
-      "asset": "aperture",
-      "box": [
-        0.395,
-        0.47666538461538466,
-        0.11,
-        0.04442307692307692
-      ],
-      "color": "institution",
-      "focus": true,
-      "label": "GRADER KNOWLEDGE",
-      "label_box": [
-        0.387,
-        0.5270884615384616,
-        0.126,
-        0.085
-      ]
-    },
-    {
-      "asset": "card",
-      "box": [
-        0.07,
-        0.751916,
-        0.11,
-        0.059884999999999994
-      ],
-      "color": "institution",
-      "focus": true,
-      "label": "INFORMATION",
-      "label_box": [
-        0.062000000000000006,
-        0.817801,
-        0.126,
-        0.085
-      ]
-    },
-    {
-      "asset": "folder",
-      "box": [
-        0.2325,
-        0.751916,
-        0.11,
-        0.059884999999999994
-      ],
-      "color": "institution",
-      "focus": true,
-      "label": "STORAGE",
-      "label_box": [
-        0.2245,
-        0.817801,
-        0.126,
-        0.085
-      ]
+      "color": "steel",
+      "focus": true
     },
     {
       "asset": "clock",
       "box": [
-        0.395,
-        0.75155,
-        0.11,
-        0.057749999999999996
+        0.23285,
+        0.386268,
+        0.051,
+        0.0765
       ],
-      "color": "institution",
+      "color": "steel",
+      "focus": true
+    },
+    {
+      "asset": "line",
+      "box": [
+        0.2966,
+        0.40195,
+        0.04488,
+        0.01062
+      ],
+      "color": "steel",
+      "focus": true
+    },
+    {
+      "asset": "directory-row",
+      "box": [
+        0.22775,
+        0.49045,
+        0.1428,
+        0.067172
+      ],
+      "color": "moss",
+      "focus": true,
+      "label": "NETWORK PATH",
+      "label_box": [
+        0.22775,
+        0.561693,
+        0.1428,
+        0.029515
+      ],
+      "label_size": 18
+    },
+    {
+      "asset": "outline-box",
+      "box": [
+        0.39112,
+        0.35062,
+        0.15606,
+        0.26727
+      ],
+      "color": "steel",
+      "focus": true
+    },
+    {
+      "asset": "sealed",
+      "box": [
+        0.40285,
+        0.37363,
+        0.051,
+        0.101775
+      ],
+      "color": "steel",
+      "focus": true
+    },
+    {
+      "asset": "line",
+      "box": [
+        0.4666,
+        0.40195,
+        0.0204,
+        0.01062
+      ],
+      "color": "steel",
+      "focus": true
+    },
+    {
+      "asset": "directory-row",
+      "box": [
+        0.39775,
+        0.49045,
+        0.1428,
+        0.067172
+      ],
+      "color": "moss",
+      "focus": true,
+      "label": "GRADER KNOWLEDGE",
+      "label_box": [
+        0.39775,
+        0.561693,
+        0.1428,
+        0.029515
+      ],
+      "label_size": 18
+    },
+    {
+      "asset": "outline-box",
+      "box": [
+        0.05112,
+        0.64562,
+        0.15606,
+        0.26727
+      ],
+      "color": "steel",
+      "focus": true
+    },
+    {
+      "asset": "cross",
+      "box": [
+        0.06285,
+        0.681267,
+        0.051,
+        0.0765
+      ],
+      "color": "steel",
+      "focus": true
+    },
+    {
+      "asset": "line",
+      "box": [
+        0.1266,
+        0.69695,
+        0.02652,
+        0.01062
+      ],
+      "color": "steel",
+      "focus": true
+    },
+    {
+      "asset": "directory-row",
+      "box": [
+        0.05775,
+        0.78545,
+        0.1428,
+        0.067172
+      ],
+      "color": "moss",
+      "focus": true,
+      "label": "INFORMATION",
+      "label_box": [
+        0.05775,
+        0.856692,
+        0.1428,
+        0.029515
+      ],
+      "label_size": 18
+    },
+    {
+      "asset": "outline-box",
+      "box": [
+        0.22112,
+        0.64562,
+        0.15606,
+        0.26727
+      ],
+      "color": "steel",
+      "focus": true
+    },
+    {
+      "asset": "folder",
+      "box": [
+        0.23285,
+        0.66863,
+        0.051,
+        0.101775
+      ],
+      "color": "steel",
+      "focus": true
+    },
+    {
+      "asset": "line",
+      "box": [
+        0.2966,
+        0.69695,
+        0.03264,
+        0.01062
+      ],
+      "color": "steel",
+      "focus": true
+    },
+    {
+      "asset": "directory-row",
+      "box": [
+        0.22775,
+        0.78545,
+        0.1428,
+        0.067172
+      ],
+      "color": "moss",
+      "focus": true,
+      "label": "STORAGE",
+      "label_box": [
+        0.22775,
+        0.856692,
+        0.1428,
+        0.029515
+      ],
+      "label_size": 18
+    },
+    {
+      "asset": "outline-box",
+      "box": [
+        0.39112,
+        0.64562,
+        0.15606,
+        0.26727
+      ],
+      "color": "steel",
+      "focus": true
+    },
+    {
+      "asset": "task",
+      "box": [
+        0.40285,
+        0.66863,
+        0.051,
+        0.101775
+      ],
+      "color": "steel",
+      "focus": true
+    },
+    {
+      "asset": "line",
+      "box": [
+        0.4666,
+        0.69695,
+        0.03876,
+        0.01062
+      ],
+      "color": "steel",
+      "focus": true
+    },
+    {
+      "asset": "directory-row",
+      "box": [
+        0.39775,
+        0.78545,
+        0.1428,
+        0.067172
+      ],
+      "color": "moss",
       "focus": true,
       "label": "RUNTIME",
       "label_box": [
-        0.387,
-        0.8153,
-        0.126,
-        0.085
-      ]
+        0.39775,
+        0.856692,
+        0.1428,
+        0.029515
+      ],
+      "label_size": 18
+    },
+    {
+      "asset": "line",
+      "box": [
+        0.05112,
+        0.32589,
+        0.49606,
+        0.002
+      ],
+      "color": "moss",
+      "focus": true
+    },
+    {
+      "asset": "arrow-down",
+      "box": [
+        0.1884528,
+        0.31589,
+        0.006,
+        0.012
+      ],
+      "color": "moss",
+      "focus": true
+    },
+    {
+      "asset": "arrow-down",
+      "box": [
+        0.3584528,
+        0.31589,
+        0.006,
+        0.012
+      ],
+      "color": "moss",
+      "focus": true
+    },
+    {
+      "asset": "arrow-down",
+      "box": [
+        0.5284528000000001,
+        0.31589,
+        0.006,
+        0.012
+      ],
+      "color": "moss",
+      "focus": true
+    },
+    {
+      "asset": "line",
+      "box": [
+        0.05112,
+        0.62089,
+        0.49606,
+        0.002
+      ],
+      "color": "moss",
+      "focus": true
+    },
+    {
+      "asset": "arrow-down",
+      "box": [
+        0.1884528,
+        0.61089,
+        0.006,
+        0.012
+      ],
+      "color": "moss",
+      "focus": true
+    },
+    {
+      "asset": "arrow-down",
+      "box": [
+        0.3584528,
+        0.61089,
+        0.006,
+        0.012
+      ],
+      "color": "moss",
+      "focus": true
+    },
+    {
+      "asset": "arrow-down",
+      "box": [
+        0.5284528000000001,
+        0.61089,
+        0.006,
+        0.012
+      ],
+      "color": "moss",
+      "focus": true
+    },
+    {
+      "asset": "line",
+      "box": [
+        0.05112,
+        0.91589,
+        0.49606,
+        0.002
+      ],
+      "color": "moss",
+      "focus": true
+    },
+    {
+      "asset": "arrow-down",
+      "box": [
+        0.1884528,
+        0.90589,
+        0.006,
+        0.012
+      ],
+      "color": "moss",
+      "focus": true
+    },
+    {
+      "asset": "arrow-down",
+      "box": [
+        0.3584528,
+        0.90589,
+        0.006,
+        0.012
+      ],
+      "color": "moss",
+      "focus": true
+    },
+    {
+      "asset": "arrow-down",
+      "box": [
+        0.5284528000000001,
+        0.90589,
+        0.006,
+        0.012
+      ],
+      "color": "moss",
+      "focus": true
     }
   ],
   "reconstructed": false,

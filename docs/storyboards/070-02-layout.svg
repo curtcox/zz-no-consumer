@@ -1,7 +1,7 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="800" viewBox="0 0 1200 800"><title>The published account lists its asserted chain</title><metadata>{
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="800" viewBox="0 0 1200 800"><title>The published account lists its asserted chain</title><desc>List each attributed chain element separately under the published column. Their documentary availability must not promote them into independent reconstruction.</desc><metadata>{
   &quot;assets&quot;: {
     &quot;box&quot;: &quot;&lt;rect x=\&quot;1\&quot; y=\&quot;1\&quot; width=\&quot;98\&quot; height=\&quot;98\&quot; rx=\&quot;2\&quot; fill=\&quot;#202326\&quot; stroke=\&quot;currentColor\&quot; stroke-width=\&quot;2\&quot;/&gt;&quot;,
-    &quot;card&quot;: &quot;&lt;rect x=\&quot;1\&quot; y=\&quot;1\&quot; width=\&quot;98\&quot; height=\&quot;98\&quot; fill=\&quot;#202326\&quot; stroke=\&quot;currentColor\&quot; stroke-width=\&quot;2\&quot;/&gt;&lt;path d=\&quot;M8 13H92M8 27H70M8 36H86M8 45H72M8 65H86M8 74H57\&quot; stroke=\&quot;currentColor\&quot; stroke-width=\&quot;1.5\&quot;/&gt;&quot;,
+    &quot;card&quot;: &quot;&lt;rect x=\&quot;1\&quot; y=\&quot;1\&quot; width=\&quot;98\&quot; height=\&quot;98\&quot; fill=\&quot;#202326\&quot; stroke=\&quot;currentColor\&quot; stroke-width=\&quot;2\&quot;/&gt;&lt;path d=\&quot;M1 20H99M9 10H42M62 10H90M10 34H87M10 45H73M10 56H82M10 76H57M10 87H38\&quot; stroke=\&quot;currentColor\&quot; stroke-width=\&quot;2\&quot;/&gt;&quot;,
     &quot;clock&quot;: &quot;&lt;circle cx=\&quot;50\&quot; cy=\&quot;50\&quot; r=\&quot;44\&quot; fill=\&quot;#202326\&quot; stroke=\&quot;currentColor\&quot; stroke-width=\&quot;4\&quot;/&gt;&lt;path d=\&quot;M50 15V50L75 64M50 5V12M95 50H88M50 95V88M5 50H12\&quot; fill=\&quot;none\&quot; stroke=\&quot;currentColor\&quot; stroke-width=\&quot;4\&quot;/&gt;&quot;,
     &quot;folder&quot;: &quot;&lt;path d=\&quot;M3 20V8H38L48 20H97V90H3Z\&quot; fill=\&quot;#202326\&quot; stroke=\&quot;currentColor\&quot; stroke-width=\&quot;3\&quot;/&gt;&lt;path d=\&quot;M12 40H85M12 50H65\&quot; stroke=\&quot;currentColor\&quot; stroke-width=\&quot;2\&quot;/&gt;&quot;,
     &quot;line&quot;: &quot;&lt;path d=\&quot;M0 50H100\&quot; stroke=\&quot;currentColor\&quot; stroke-width=\&quot;2\&quot; vector-effect=\&quot;non-scaling-stroke\&quot;/&gt;&quot;,
@@ -9,18 +9,20 @@
   },
   &quot;palette&quot;: {
     &quot;amber&quot;: &quot;#A17D45&quot;,
+    &quot;claret&quot;: &quot;#6B2634&quot;,
     &quot;dirty&quot;: &quot;#CEC5B3&quot;,
     &quot;ink&quot;: &quot;#101214&quot;,
     &quot;institution&quot;: &quot;#68766B&quot;,
+    &quot;moss&quot;: &quot;#74864F&quot;,
     &quot;nicotine&quot;: &quot;#AA9571&quot;,
     &quot;paper&quot;: &quot;#E7E0D0&quot;,
     &quot;shadow&quot;: &quot;#202326&quot;,
     &quot;steel&quot;: &quot;#5E737B&quot;
   },
-  &quot;renderer&quot;: &quot;storyboard-svg-1&quot;,
+  &quot;renderer&quot;: &quot;storyboard-svg-2&quot;,
   &quot;scene&quot;: {
     &quot;background&quot;: &quot;ink&quot;,
-    &quot;intent&quot;: &quot;Block the published account lists its asserted chain. Keep the scripted evidence boundary and lettering visible.&quot;,
+    &quot;intent&quot;: &quot;List each attributed chain element separately under the published column. Their documentary availability must not promote them into independent reconstruction.&quot;,
     &quot;lettering&quot;: [
       {
         &quot;box&quot;: [
@@ -108,9 +110,9 @@
       {
         &quot;asset&quot;: &quot;clock&quot;,
         &quot;box&quot;: [
-          0.46929599999999994,
+          0.471876,
           0.5766432,
-          0.043008,
+          0.037847,
           0.05677056
         ],
         &quot;color&quot;: &quot;steel&quot;,
@@ -147,4 +149,4 @@
     &quot;title&quot;: &quot;The published account lists its asserted chain&quot;
   }
 }
-</metadata><rect width="1200" height="800" fill="#101214"/><rect x="224.64" y="147.725" width="728.64" height="45.4164" fill="none" stroke="#5E737B" stroke-width="3"/><text x="232.64" y="171.725" fill="#5E737B" font-family="sans-serif" font-size="20">card</text><text x="588.96" y="217.365" text-anchor="middle" fill="#E7E0D0" font-size="20" font-family="sans-serif">MODEL RELATIONSHIP</text><rect x="224.64" y="226.122" width="728.64" height="45.4164" fill="none" stroke="#5E737B" stroke-width="3"/><text x="232.64" y="250.122" fill="#5E737B" font-family="sans-serif" font-size="20">folder</text><text x="588.96" y="295.763" text-anchor="middle" fill="#E7E0D0" font-size="20" font-family="sans-serif">CACHE RECOVERY</text><rect x="224.64" y="304.52" width="728.64" height="45.4164" fill="none" stroke="#5E737B" stroke-width="3"/><text x="232.64" y="328.52" fill="#5E737B" font-family="sans-serif" font-size="20">sealed</text><text x="588.96" y="374.16" text-anchor="middle" fill="#E7E0D0" font-size="20" font-family="sans-serif">ADMIN ACCESS</text><rect x="224.64" y="382.917" width="728.64" height="45.4164" fill="none" stroke="#5E737B" stroke-width="3"/><text x="232.64" y="406.917" fill="#5E737B" font-family="sans-serif" font-size="20">box</text><text x="588.96" y="452.558" text-anchor="middle" fill="#E7E0D0" font-size="20" font-family="sans-serif">CLUSTER ESCALATION</text><rect x="563.155" y="461.315" width="51.6096" height="45.4164" fill="none" stroke="#5E737B" stroke-width="3"/><text x="571.155" y="485.315" fill="#5E737B" font-family="sans-serif" font-size="20">clock</text><text x="588.96" y="530.955" text-anchor="middle" fill="#E7E0D0" font-size="20" font-family="sans-serif">EVENT TIMES</text><rect x="60" y="52" width="1080" height="2.4" fill="none" stroke="#5E737B" stroke-width="3"/><text x="68" y="76" fill="#5E737B" font-family="sans-serif" font-size="20">line</text><text x="600" y="31.2" text-anchor="middle" fill="#E7E0D0" font-size="20" font-family="sans-serif">OPENAI ACCOUNT — NOT IN METR&#x27;S REVIEW</text><rect x="3" y="3" width="1194" height="794" fill="none" stroke="#5E737B" stroke-width="4"/></svg>
+</metadata><rect width="1200" height="800" fill="#101214"/><rect x="224.64" y="147.725" width="728.64" height="45.4164" fill="none" stroke="#5E737B" stroke-width="3"/><text x="232.64" y="171.725" fill="#5E737B" font-family="sans-serif" font-size="20">card</text><text x="588.96" y="217.365" text-anchor="middle" fill="#E7E0D0" font-size="20" font-family="sans-serif">MODEL RELATIONSHIP</text><rect x="224.64" y="226.122" width="728.64" height="45.4164" fill="none" stroke="#5E737B" stroke-width="3"/><text x="232.64" y="250.122" fill="#5E737B" font-family="sans-serif" font-size="20">folder</text><text x="588.96" y="295.763" text-anchor="middle" fill="#E7E0D0" font-size="20" font-family="sans-serif">CACHE RECOVERY</text><rect x="224.64" y="304.52" width="728.64" height="45.4164" fill="none" stroke="#5E737B" stroke-width="3"/><text x="232.64" y="328.52" fill="#5E737B" font-family="sans-serif" font-size="20">sealed</text><text x="588.96" y="374.16" text-anchor="middle" fill="#E7E0D0" font-size="20" font-family="sans-serif">ADMIN ACCESS</text><rect x="224.64" y="382.917" width="728.64" height="45.4164" fill="none" stroke="#5E737B" stroke-width="3"/><text x="232.64" y="406.917" fill="#5E737B" font-family="sans-serif" font-size="20">box</text><text x="588.96" y="452.558" text-anchor="middle" fill="#E7E0D0" font-size="20" font-family="sans-serif">CLUSTER ESCALATION</text><rect x="566.251" y="461.315" width="45.4164" height="45.4164" fill="none" stroke="#5E737B" stroke-width="3"/><text x="574.251" y="485.315" fill="#5E737B" font-family="sans-serif" font-size="20">clock</text><text x="588.96" y="530.955" text-anchor="middle" fill="#E7E0D0" font-size="20" font-family="sans-serif">EVENT TIMES</text><rect x="60" y="52" width="1080" height="2.4" fill="none" stroke="#5E737B" stroke-width="3"/><text x="68" y="76" fill="#5E737B" font-family="sans-serif" font-size="20">line</text><text x="600" y="31.2" text-anchor="middle" fill="#E7E0D0" font-size="20" font-family="sans-serif">OPENAI ACCOUNT — NOT IN METR&#x27;S REVIEW</text><rect x="3" y="3" width="1194" height="794" fill="none" stroke="#5E737B" stroke-width="4"/></svg>

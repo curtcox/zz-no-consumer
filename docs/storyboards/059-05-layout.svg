@@ -1,23 +1,26 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="800" viewBox="0 0 1200 800"><title>A decision at the gate, with execution and outcome unestablished</title><metadata>{
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="800" viewBox="0 0 1200 800"><title>A decision at the gate, with execution and outcome unestablished</title><desc>Stop the decision marker before the one-way gate. The cached substitute remains beyond; no crossed gate or result arrow may invent execution or outcome.</desc><metadata>{
   &quot;assets&quot;: {
-    &quot;box&quot;: &quot;&lt;rect x=\&quot;1\&quot; y=\&quot;1\&quot; width=\&quot;98\&quot; height=\&quot;98\&quot; rx=\&quot;2\&quot; fill=\&quot;#202326\&quot; stroke=\&quot;currentColor\&quot; stroke-width=\&quot;2\&quot;/&gt;&quot;,
+    &quot;arrow&quot;: &quot;&lt;path d=\&quot;M1 50H87M70 18L96 50L70 82\&quot; fill=\&quot;none\&quot; stroke=\&quot;currentColor\&quot; stroke-width=\&quot;5\&quot;/&gt;&quot;,
     &quot;folder&quot;: &quot;&lt;path d=\&quot;M3 20V8H38L48 20H97V90H3Z\&quot; fill=\&quot;#202326\&quot; stroke=\&quot;currentColor\&quot; stroke-width=\&quot;3\&quot;/&gt;&lt;path d=\&quot;M12 40H85M12 50H65\&quot; stroke=\&quot;currentColor\&quot; stroke-width=\&quot;2\&quot;/&gt;&quot;,
-    &quot;gate&quot;: &quot;&lt;path d=\&quot;M8 95V8H92V95M15 33H85M25 34V88M40 34V88M55 34V88M70 34V88M85 34V88\&quot; fill=\&quot;none\&quot; stroke=\&quot;currentColor\&quot; stroke-width=\&quot;4\&quot;/&gt;&lt;rect x=\&quot;39\&quot; y=\&quot;46\&quot; width=\&quot;22\&quot; height=\&quot;23\&quot; fill=\&quot;currentColor\&quot;/&gt;&quot;
+    &quot;gate&quot;: &quot;&lt;path d=\&quot;M8 95V8H92V95M15 33H85M25 34V88M40 34V88M55 34V88M70 34V88M85 34V88\&quot; fill=\&quot;none\&quot; stroke=\&quot;currentColor\&quot; stroke-width=\&quot;4\&quot;/&gt;&lt;rect x=\&quot;39\&quot; y=\&quot;46\&quot; width=\&quot;22\&quot; height=\&quot;23\&quot; fill=\&quot;currentColor\&quot;/&gt;&quot;,
+    &quot;task&quot;: &quot;&lt;rect x=\&quot;1\&quot; y=\&quot;1\&quot; width=\&quot;98\&quot; height=\&quot;98\&quot; fill=\&quot;#202326\&quot; stroke=\&quot;currentColor\&quot; stroke-width=\&quot;2\&quot;/&gt;&lt;path d=\&quot;M1 19H99M12 10H38M48 10H62M9 83H91\&quot; stroke=\&quot;currentColor\&quot; stroke-width=\&quot;2\&quot;/&gt;&lt;circle cx=\&quot;26\&quot; cy=\&quot;48\&quot; r=\&quot;16\&quot; fill=\&quot;none\&quot; stroke=\&quot;currentColor\&quot; stroke-width=\&quot;2\&quot;/&gt;&lt;path d=\&quot;M26 27V69M5 48H47M54 35H90M54 47H78M54 59H88\&quot; stroke=\&quot;currentColor\&quot; stroke-width=\&quot;2\&quot;/&gt;&lt;path d=\&quot;M9 90H63\&quot; stroke=\&quot;currentColor\&quot; stroke-width=\&quot;5\&quot;/&gt;&quot;
   },
   &quot;palette&quot;: {
     &quot;amber&quot;: &quot;#A17D45&quot;,
+    &quot;claret&quot;: &quot;#6B2634&quot;,
     &quot;dirty&quot;: &quot;#CEC5B3&quot;,
     &quot;ink&quot;: &quot;#101214&quot;,
     &quot;institution&quot;: &quot;#68766B&quot;,
+    &quot;moss&quot;: &quot;#74864F&quot;,
     &quot;nicotine&quot;: &quot;#AA9571&quot;,
     &quot;paper&quot;: &quot;#E7E0D0&quot;,
     &quot;shadow&quot;: &quot;#202326&quot;,
     &quot;steel&quot;: &quot;#5E737B&quot;
   },
-  &quot;renderer&quot;: &quot;storyboard-svg-1&quot;,
+  &quot;renderer&quot;: &quot;storyboard-svg-2&quot;,
   &quot;scene&quot;: {
     &quot;background&quot;: &quot;ink&quot;,
-    &quot;intent&quot;: &quot;A decision at the gate, with execution and outcome unestablished. Keep the scripted evidence boundary and lettering visible.&quot;,
+    &quot;intent&quot;: &quot;Stop the decision marker before the one-way gate. The cached substitute remains beyond; no crossed gate or result arrow may invent execution or outcome.&quot;,
     &quot;lettering&quot;: [
       {
         &quot;box&quot;: [
@@ -31,57 +34,78 @@
     &quot;lettering_mode&quot;: &quot;manual&quot;,
     &quot;nodes&quot;: [
       {
-        &quot;asset&quot;: &quot;box&quot;,
+        &quot;asset&quot;: &quot;task&quot;,
         &quot;box&quot;: [
-          0.1044,
-          0.2242,
-          0.195163,
-          0.256
+          0.0541,
+          0.2083,
+          0.2457,
+          0.28116
         ],
         &quot;color&quot;: &quot;steel&quot;,
         &quot;focus&quot;: true,
-        &quot;label&quot;: &quot;DECIDES TO TRY&quot;,
+        &quot;label&quot;: &quot;DECISION TO TRY&quot;,
         &quot;label_box&quot;: [
-          0.09640000000000001,
-          0.4862,
-          0.211163,
-          0.085
-        ]
+          0.0541,
+          0.5065,
+          0.2457,
+          0.12354
+        ],
+        &quot;label_size&quot;: 18
       },
       {
-        &quot;asset&quot;: &quot;gate&quot;,
+        &quot;asset&quot;: &quot;arrow&quot;,
         &quot;box&quot;: [
-          0.368133,
-          0.2242,
-          0.195163,
-          0.256
+          0.3271,
+          0.3219,
+          0.1365,
+          0.0497
         ],
         &quot;color&quot;: &quot;steel&quot;,
         &quot;focus&quot;: true
       },
       {
+        &quot;asset&quot;: &quot;gate&quot;,
+        &quot;box&quot;: [
+          0.5182,
+          0.2083,
+          0.1638,
+          0.28116
+        ],
+        &quot;color&quot;: &quot;steel&quot;,
+        &quot;focus&quot;: true,
+        &quot;label&quot;: &quot;NOT SHOWN CROSSED&quot;,
+        &quot;label_box&quot;: [
+          0.5182,
+          0.5065,
+          0.1638,
+          0.12354
+        ],
+        &quot;label_size&quot;: 18
+      },
+      {
         &quot;asset&quot;: &quot;folder&quot;,
         &quot;box&quot;: [
-          0.631867,
-          0.2242,
-          0.195163,
-          0.256
+          0.7457,
+          0.2083,
+          0.2002,
+          0.28116
         ],
         &quot;color&quot;: &quot;steel&quot;,
         &quot;focus&quot;: true,
         &quot;label&quot;: &quot;CACHED SUBSTITUTE&quot;,
         &quot;label_box&quot;: [
-          0.623867,
-          0.4862,
-          0.211163,
-          0.085
-        ]
+          0.7457,
+          0.5065,
+          0.2002,
+          0.12354
+        ],
+        &quot;label_size&quot;: 18
       }
     ],
     &quot;reconstructed&quot;: false,
-    &quot;shot&quot;: &quot;route&quot;,
+    &quot;shot&quot;: &quot;row&quot;,
     &quot;source&quot;: &quot;\n**Frame:** The run waits at the one-way gate with its decision marked. The cached substitute and the board remain visible beyond it; do not draw the gate crossed.\n\n**Action:** The recorded decision is held apart from an unestablished outcome.\n\n**Caption:**\n&gt; THE DECISION IS RECORDED. THE OUTCOME IS NOT ESTABLISHED.\n\n**Provenance:** `documented` — decision to run the experiment is sourced; outcome was not established in METR&#x27;s selected account.\n\n&quot;,
     &quot;title&quot;: &quot;A decision at the gate, with execution and outcome unestablished&quot;
   }
 }
-</metadata><rect width="1200" height="800" fill="#101214"/><rect x="125.28" y="179.36" width="234.196" height="204.8" fill="none" stroke="#5E737B" stroke-width="3"/><text x="133.28" y="203.36" fill="#5E737B" font-family="sans-serif" font-size="20">box</text><text x="242.378" y="408.96" text-anchor="middle" fill="#E7E0D0" font-size="20" font-family="sans-serif">DECIDES TO TRY</text><rect x="441.76" y="179.36" width="234.196" height="204.8" fill="none" stroke="#5E737B" stroke-width="3"/><text x="449.76" y="203.36" fill="#5E737B" font-family="sans-serif" font-size="20">gate</text><rect x="758.24" y="179.36" width="234.196" height="204.8" fill="none" stroke="#5E737B" stroke-width="3"/><text x="766.24" y="203.36" fill="#5E737B" font-family="sans-serif" font-size="20">folder</text><text x="875.338" y="408.96" text-anchor="middle" fill="#E7E0D0" font-size="20" font-family="sans-serif">CACHED SUBSTITUTE</text><rect x="3" y="3" width="1194" height="794" fill="none" stroke="#5E737B" stroke-width="4"/></svg>
+</metadata><rect width="1200" height="800" fill="#101214"/><rect x="64.92" y="166.64" width="294.84" height="224.928" fill="none" stroke="#5E737B" stroke-width="3"/><text x="72.92" y="190.64" fill="#5E737B" font-family="sans-serif" font-size="20">task</text><text x="212.34" y="423.2" text-anchor="middle" fill="#E7E0D0" font-size="18" font-family="sans-serif">DECISION TO TRY</text><rect x="392.52" y="257.52" width="163.8" height="39.76" fill="none" stroke="#5E737B" stroke-width="3"/><text x="400.52" y="281.52" fill="#5E737B" font-family="sans-serif" font-size="20">arrow</text><rect x="621.84" y="166.64" width="196.56" height="224.928" fill="none" stroke="#5E737B" stroke-width="3"/><text x="629.84" y="190.64" fill="#5E737B" font-family="sans-serif" font-size="20">gate</text><text x="720.12" y="423.2" text-anchor="middle" fill="#E7E0D0" font-size="18" font-family="sans-serif">NOT SHOWN</text><text x="720.12" y="447.68" text-anchor="middle" fill="#E7E0D0" font-size="18" font-family="sans-serif">CROSSED</text><rect x="894.84" y="166.64" width="240.24" height="224.928" fill="none" stroke="#5E737B" stroke-width="3"/><text x="902.84" y="190.64" fill="#5E737B" font-family="sans-serif" font-size="20">folder</text><text x="1014.96" y="423.2" text-anchor="middle" fill="#E7E0D0" font-size="18" font-family="sans-serif">CACHED SUBSTITUTE</text><rect x="3" y="3" width="1194" height="794" fill="none" stroke="#5E737B" stroke-width="4"/></svg>

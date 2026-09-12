@@ -1,6 +1,6 @@
 {
   "background": "ink",
-  "intent": "Block revision rows retain two different clocks. Keep the scripted evidence boundary and lettering visible.",
+  "intent": "Give every revision its own paired task-clock and external-time fields. Their disagreement is structural evidence, not an accidental layout inconsistency.",
   "lettering": [
     {
       "box": [
@@ -14,94 +14,175 @@
   "lettering_mode": "manual",
   "nodes": [
     {
-      "asset": "card",
+      "asset": "transcript",
       "box": [
-        0.1872,
-        0.0962,
-        0.6072,
-        0.064512
+        0.0541,
+        0.05565,
+        0.364,
+        0.135894
       ],
       "color": "steel",
       "focus": true,
       "label": "FEB23 / AUG17",
       "label_box": [
-        0.1792,
-        0.166712,
-        0.6232,
-        0.032847999999999995
-      ]
+        0.0541,
+        0.19978,
+        0.364,
+        0.059711
+      ],
+      "label_size": 18
     },
     {
-      "asset": "card",
+      "asset": "transcript",
       "box": [
-        0.1872,
-        0.20756,
-        0.6072,
-        0.064512
+        0.0541,
+        0.28285,
+        0.364,
+        0.135894
       ],
       "color": "steel",
       "focus": true,
       "label": "MAY30 / DEC30",
       "label_box": [
-        0.1792,
-        0.278072,
-        0.6232,
-        0.032847999999999995
-      ]
+        0.0541,
+        0.42698,
+        0.364,
+        0.059711
+      ],
+      "label_size": 18
     },
     {
-      "asset": "card",
+      "asset": "transcript",
       "box": [
-        0.1872,
-        0.31892,
-        0.6072,
-        0.064512
+        0.0541,
+        0.51005,
+        0.364,
+        0.135894
       ],
       "color": "steel",
       "focus": true,
       "label": "MAY10 / MAY15",
       "label_box": [
-        0.1792,
-        0.389432,
-        0.6232,
-        0.032847999999999995
-      ]
+        0.0541,
+        0.65418,
+        0.364,
+        0.059711
+      ],
+      "label_size": 18
     },
     {
-      "asset": "clock",
+      "asset": "clock-task",
       "box": [
-        0.46929599999999994,
-        0.43028,
-        0.043008,
-        0.064512
+        0.541152,
+        0.05565,
+        0.090596,
+        0.135894
       ],
       "color": "steel",
       "focus": true,
       "label": "TASK CLOCK",
       "label_box": [
-        0.1792,
-        0.500792,
-        0.6232,
-        0.032847999999999995
-      ]
+        0.4818,
+        0.19978,
+        0.2093,
+        0.059711
+      ],
+      "label_size": 18
     },
     {
       "asset": "clock",
       "box": [
-        0.46929599999999994,
-        0.54164,
-        0.043008,
-        0.064512
+        0.777752,
+        0.05565,
+        0.090596,
+        0.135894
       ],
       "color": "steel",
       "focus": true,
       "label": "EXTERNAL UTC",
       "label_box": [
-        0.1792,
-        0.612152,
-        0.6232,
-        0.085
-      ]
+        0.7184,
+        0.19978,
+        0.2093,
+        0.059711
+      ],
+      "label_size": 18
+    },
+    {
+      "asset": "clock-task",
+      "box": [
+        0.541152,
+        0.28285,
+        0.090596,
+        0.135894
+      ],
+      "color": "steel",
+      "focus": true,
+      "label": "TASK CLOCK",
+      "label_box": [
+        0.4818,
+        0.42698,
+        0.2093,
+        0.059711
+      ],
+      "label_size": 18
+    },
+    {
+      "asset": "clock",
+      "box": [
+        0.777752,
+        0.28285,
+        0.090596,
+        0.135894
+      ],
+      "color": "steel",
+      "focus": true,
+      "label": "EXTERNAL UTC",
+      "label_box": [
+        0.7184,
+        0.42698,
+        0.2093,
+        0.059711
+      ],
+      "label_size": 18
+    },
+    {
+      "asset": "clock-task",
+      "box": [
+        0.541152,
+        0.51005,
+        0.090596,
+        0.135894
+      ],
+      "color": "steel",
+      "focus": true,
+      "label": "TASK CLOCK",
+      "label_box": [
+        0.4818,
+        0.65418,
+        0.2093,
+        0.059711
+      ],
+      "label_size": 18
+    },
+    {
+      "asset": "clock",
+      "box": [
+        0.777752,
+        0.51005,
+        0.090596,
+        0.135894
+      ],
+      "color": "steel",
+      "focus": true,
+      "label": "EXTERNAL UTC",
+      "label_box": [
+        0.7184,
+        0.65418,
+        0.2093,
+        0.059711
+      ],
+      "label_size": 18
     }
   ],
   "reconstructed": false,

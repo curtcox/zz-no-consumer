@@ -1,6 +1,6 @@
 {
   "background": "ink",
-  "intent": "Block administrative surfaces become available. Keep the scripted evidence boundary and lettering visible.",
+  "intent": "Reveal repositories, users, configuration and plugins as distinct administrative surfaces. Their outlines become available together within one control plane; do not imply every capability has already been exercised.",
   "lettering": [
     {
       "box": [
@@ -21,7 +21,8 @@
         0.2668,
         0.2688
       ],
-      "color": "steel"
+      "color": "steel",
+      "focus": true
     },
     {
       "asset": "folder",
@@ -49,7 +50,8 @@
         0.2668,
         0.2688
       ],
-      "color": "steel"
+      "color": "steel",
+      "focus": true
     },
     {
       "asset": "card",
@@ -77,7 +79,8 @@
         0.2668,
         0.2688
       ],
-      "color": "steel"
+      "color": "steel",
+      "focus": true
     },
     {
       "asset": "terminal",
@@ -105,7 +108,8 @@
         0.2668,
         0.2688
       ],
-      "color": "steel"
+      "color": "steel",
+      "focus": true
     },
     {
       "asset": "sealed",

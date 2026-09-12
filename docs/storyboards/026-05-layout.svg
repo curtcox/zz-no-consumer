@@ -1,23 +1,26 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="800" viewBox="0 0 1200 800"><title>The stop decision is still blank</title><metadata>{
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="800" viewBox="0 0 1200 800"><title>The stop decision is still blank</title><desc>Keep the evidence cards populated but the decision field empty. Knowledge and action are adjacent states; the composition should not fill the unrecorded decision process with facial drama.</desc><metadata>{
   &quot;assets&quot;: {
-    &quot;card&quot;: &quot;&lt;rect x=\&quot;1\&quot; y=\&quot;1\&quot; width=\&quot;98\&quot; height=\&quot;98\&quot; fill=\&quot;#202326\&quot; stroke=\&quot;currentColor\&quot; stroke-width=\&quot;2\&quot;/&gt;&lt;path d=\&quot;M8 13H92M8 27H70M8 36H86M8 45H72M8 65H86M8 74H57\&quot; stroke=\&quot;currentColor\&quot; stroke-width=\&quot;1.5\&quot;/&gt;&quot;,
+    &quot;card&quot;: &quot;&lt;rect x=\&quot;1\&quot; y=\&quot;1\&quot; width=\&quot;98\&quot; height=\&quot;98\&quot; fill=\&quot;#202326\&quot; stroke=\&quot;currentColor\&quot; stroke-width=\&quot;2\&quot;/&gt;&lt;path d=\&quot;M1 20H99M9 10H42M62 10H90M10 34H87M10 45H73M10 56H82M10 76H57M10 87H38\&quot; stroke=\&quot;currentColor\&quot; stroke-width=\&quot;2\&quot;/&gt;&quot;,
     &quot;desk&quot;: &quot;&lt;path d=\&quot;M0 12L85 0L100 30L14 43Z\&quot; fill=\&quot;currentColor\&quot;/&gt;&lt;path d=\&quot;M14 43V100M94 31V90\&quot; stroke=\&quot;currentColor\&quot; stroke-width=\&quot;5\&quot;/&gt;&quot;,
-    &quot;outline-box&quot;: &quot;&lt;rect x=\&quot;2\&quot; y=\&quot;2\&quot; width=\&quot;96\&quot; height=\&quot;96\&quot; fill=\&quot;none\&quot; stroke=\&quot;currentColor\&quot; stroke-width=\&quot;3\&quot;/&gt;&quot;
+    &quot;outline-box&quot;: &quot;&lt;rect x=\&quot;2\&quot; y=\&quot;2\&quot; width=\&quot;96\&quot; height=\&quot;96\&quot; fill=\&quot;none\&quot; stroke=\&quot;currentColor\&quot; stroke-width=\&quot;3\&quot;/&gt;&quot;,
+    &quot;task&quot;: &quot;&lt;rect x=\&quot;1\&quot; y=\&quot;1\&quot; width=\&quot;98\&quot; height=\&quot;98\&quot; fill=\&quot;#202326\&quot; stroke=\&quot;currentColor\&quot; stroke-width=\&quot;2\&quot;/&gt;&lt;path d=\&quot;M1 19H99M12 10H38M48 10H62M9 83H91\&quot; stroke=\&quot;currentColor\&quot; stroke-width=\&quot;2\&quot;/&gt;&lt;circle cx=\&quot;26\&quot; cy=\&quot;48\&quot; r=\&quot;16\&quot; fill=\&quot;none\&quot; stroke=\&quot;currentColor\&quot; stroke-width=\&quot;2\&quot;/&gt;&lt;path d=\&quot;M26 27V69M5 48H47M54 35H90M54 47H78M54 59H88\&quot; stroke=\&quot;currentColor\&quot; stroke-width=\&quot;2\&quot;/&gt;&lt;path d=\&quot;M9 90H63\&quot; stroke=\&quot;currentColor\&quot; stroke-width=\&quot;5\&quot;/&gt;&quot;
   },
   &quot;palette&quot;: {
     &quot;amber&quot;: &quot;#A17D45&quot;,
+    &quot;claret&quot;: &quot;#6B2634&quot;,
     &quot;dirty&quot;: &quot;#CEC5B3&quot;,
     &quot;ink&quot;: &quot;#101214&quot;,
     &quot;institution&quot;: &quot;#68766B&quot;,
+    &quot;moss&quot;: &quot;#74864F&quot;,
     &quot;nicotine&quot;: &quot;#AA9571&quot;,
     &quot;paper&quot;: &quot;#E7E0D0&quot;,
     &quot;shadow&quot;: &quot;#202326&quot;,
     &quot;steel&quot;: &quot;#5E737B&quot;
   },
-  &quot;renderer&quot;: &quot;storyboard-svg-1&quot;,
+  &quot;renderer&quot;: &quot;storyboard-svg-2&quot;,
   &quot;scene&quot;: {
     &quot;background&quot;: &quot;ink&quot;,
-    &quot;intent&quot;: &quot;Keep all three evidence cards from the preceding panel beside the unanswered STOP RUN? field; no implied decision.&quot;,
+    &quot;intent&quot;: &quot;Keep the evidence cards populated but the decision field empty. Knowledge and action are adjacent states; the composition should not fill the unrecorded decision process with facial drama.&quot;,
     &quot;lettering&quot;: [
       {
         &quot;box&quot;: [
@@ -33,87 +36,89 @@
       {
         &quot;asset&quot;: &quot;desk&quot;,
         &quot;box&quot;: [
-          0.05,
-          0.18,
-          0.9,
-          0.5
+          0.06775,
+          0.2012,
+          0.1183,
+          0.4189
         ],
-        &quot;color&quot;: &quot;institution&quot;
+        &quot;color&quot;: &quot;institution&quot;,
+        &quot;focus&quot;: true
       },
       {
-        &quot;asset&quot;: &quot;card&quot;,
+        &quot;asset&quot;: &quot;task&quot;,
         &quot;box&quot;: [
-          0.09,
-          0.28,
-          0.14,
-          0.23
+          0.24975,
+          0.2012,
+          0.1183,
+          0.276474
         ],
         &quot;color&quot;: &quot;steel&quot;,
         &quot;focus&quot;: true,
         &quot;label&quot;: &quot;EVALUATION&quot;,
         &quot;label_box&quot;: [
-          0.085,
-          0.52,
-          0.15,
-          0.065
+          0.24975,
+          0.49443,
+          0.1183,
+          0.121481
         ],
-        &quot;label_size&quot;: 12
+        &quot;label_size&quot;: 18
       },
       {
         &quot;asset&quot;: &quot;card&quot;,
         &quot;box&quot;: [
-          0.245,
-          0.28,
-          0.14,
-          0.23
+          0.43175,
+          0.2012,
+          0.1183,
+          0.276474
         ],
         &quot;color&quot;: &quot;steel&quot;,
         &quot;focus&quot;: true,
         &quot;label&quot;: &quot;MESSAGE BOARD&quot;,
         &quot;label_box&quot;: [
-          0.24,
-          0.52,
-          0.15,
-          0.065
+          0.43175,
+          0.49443,
+          0.1183,
+          0.121481
         ],
-        &quot;label_size&quot;: 12
+        &quot;label_size&quot;: 18
       },
       {
         &quot;asset&quot;: &quot;card&quot;,
         &quot;box&quot;: [
-          0.4,
-          0.28,
-          0.14,
-          0.23
+          0.61375,
+          0.2012,
+          0.1183,
+          0.276474
         ],
         &quot;color&quot;: &quot;steel&quot;,
         &quot;focus&quot;: true,
         &quot;label&quot;: &quot;NETWORK PIVOT&quot;,
         &quot;label_box&quot;: [
-          0.395,
-          0.52,
-          0.15,
-          0.065
+          0.61375,
+          0.49443,
+          0.1183,
+          0.121481
         ],
-        &quot;label_size&quot;: 12
+        &quot;label_size&quot;: 18
       },
       {
         &quot;asset&quot;: &quot;outline-box&quot;,
         &quot;box&quot;: [
-          0.64,
-          0.28,
-          0.27,
-          0.23
+          0.79575,
+          0.2012,
+          0.1183,
+          0.276474
         ],
         &quot;color&quot;: &quot;steel&quot;,
         &quot;focus&quot;: true,
         &quot;label&quot;: &quot;STOP RUN?&quot;,
         &quot;label_box&quot;: [
-          0.64,
-          0.52,
-          0.27,
-          0.065
-        ]
+          0.79575,
+          0.49443,
+          0.1183,
+          0.121481
+        ],
+        &quot;label_size&quot;: 18
       }
     ],
     &quot;reconstructed&quot;: false,
@@ -122,4 +127,4 @@
     &quot;title&quot;: &quot;The stop decision is still blank&quot;
   }
 }
-</metadata><rect width="1200" height="800" fill="#101214"/><rect x="60" y="144" width="1080" height="400" fill="none" stroke="#68766B" stroke-width="3"/><text x="68" y="168" fill="#68766B" font-family="sans-serif" font-size="20">desk</text><rect x="108" y="224" width="168" height="184" fill="none" stroke="#5E737B" stroke-width="3"/><text x="116" y="248" fill="#5E737B" font-family="sans-serif" font-size="20">card</text><text x="192" y="428" text-anchor="middle" fill="#E7E0D0" font-size="12" font-family="sans-serif">EVALUATION</text><rect x="294" y="224" width="168" height="184" fill="none" stroke="#5E737B" stroke-width="3"/><text x="302" y="248" fill="#5E737B" font-family="sans-serif" font-size="20">card</text><text x="378" y="428" text-anchor="middle" fill="#E7E0D0" font-size="12" font-family="sans-serif">MESSAGE BOARD</text><rect x="480" y="224" width="168" height="184" fill="none" stroke="#5E737B" stroke-width="3"/><text x="488" y="248" fill="#5E737B" font-family="sans-serif" font-size="20">card</text><text x="564" y="428" text-anchor="middle" fill="#E7E0D0" font-size="12" font-family="sans-serif">NETWORK PIVOT</text><rect x="768" y="224" width="324" height="184" fill="none" stroke="#5E737B" stroke-width="3"/><text x="776" y="248" fill="#5E737B" font-family="sans-serif" font-size="20">outline-box</text><text x="930" y="436" text-anchor="middle" fill="#E7E0D0" font-size="20" font-family="sans-serif">STOP RUN?</text><rect x="3" y="3" width="1194" height="794" fill="none" stroke="#5E737B" stroke-width="4"/></svg>
+</metadata><rect width="1200" height="800" fill="#101214"/><rect x="81.3" y="160.96" width="141.96" height="335.12" fill="none" stroke="#68766B" stroke-width="3"/><text x="89.3" y="184.96" fill="#68766B" font-family="sans-serif" font-size="20">desk</text><rect x="299.7" y="160.96" width="141.96" height="221.179" fill="none" stroke="#5E737B" stroke-width="3"/><text x="307.7" y="184.96" fill="#5E737B" font-family="sans-serif" font-size="20">task</text><text x="370.68" y="413.544" text-anchor="middle" fill="#E7E0D0" font-size="18" font-family="sans-serif">EVALUATION</text><rect x="518.1" y="160.96" width="141.96" height="221.179" fill="none" stroke="#5E737B" stroke-width="3"/><text x="526.1" y="184.96" fill="#5E737B" font-family="sans-serif" font-size="20">card</text><text x="589.08" y="413.544" text-anchor="middle" fill="#E7E0D0" font-size="18" font-family="sans-serif">MESSAGE</text><text x="589.08" y="438.024" text-anchor="middle" fill="#E7E0D0" font-size="18" font-family="sans-serif">BOARD</text><rect x="736.5" y="160.96" width="141.96" height="221.179" fill="none" stroke="#5E737B" stroke-width="3"/><text x="744.5" y="184.96" fill="#5E737B" font-family="sans-serif" font-size="20">card</text><text x="807.48" y="413.544" text-anchor="middle" fill="#E7E0D0" font-size="18" font-family="sans-serif">NETWORK</text><text x="807.48" y="438.024" text-anchor="middle" fill="#E7E0D0" font-size="18" font-family="sans-serif">PIVOT</text><rect x="954.9" y="160.96" width="141.96" height="221.179" fill="none" stroke="#5E737B" stroke-width="3"/><text x="962.9" y="184.96" fill="#5E737B" font-family="sans-serif" font-size="20">outline-box</text><text x="1025.88" y="413.544" text-anchor="middle" fill="#E7E0D0" font-size="18" font-family="sans-serif">STOP RUN?</text><rect x="3" y="3" width="1194" height="794" fill="none" stroke="#5E737B" stroke-width="4"/></svg>

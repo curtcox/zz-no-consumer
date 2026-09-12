@@ -1,6 +1,6 @@
 {
   "background": "ink",
-  "intent": "Block the two observations lack a mapped connector. Keep the scripted evidence boundary and lettering visible.",
+  "intent": "Place the observations in time order but interrupt the relationship connector. The gap is an unmapped relationship, not evidence either of common authorship or independent origin.",
   "lettering": [
     {
       "box": [
@@ -14,61 +14,53 @@
   "lettering_mode": "manual",
   "nodes": [
     {
-      "asset": "line",
+      "asset": "transcript",
       "box": [
-        0.0768,
-        0.365,
-        0.8464,
-        0.016
-      ],
-      "color": "steel"
-    },
-    {
-      "asset": "card",
-      "box": [
-        0.086,
-        0.1794,
-        0.217733,
-        0.1408
+        0.0632,
+        0.1941,
+        0.3185,
+        0.285846
       ],
       "color": "steel",
       "focus": true,
-      "label": "16:01",
+      "label": "16:01 WRITE",
       "label_box": [
-        0.07799999999999999,
-        0.32620000000000005,
-        0.23373300000000002,
-        0.030799999999999945
-      ]
+        0.0632,
+        0.49727,
+        0.3185,
+        0.125599
+      ],
+      "label_size": 18
     },
     {
-      "asset": "question",
+      "asset": "broken-trace",
       "box": [
-        0.44035983333333334,
-        0.1794,
-        0.061013333333333336,
-        0.1408
+        0.409,
+        0.2935,
+        0.182,
+        0.0852
       ],
       "color": "amber",
       "focus": true
     },
     {
-      "asset": "card",
+      "asset": "directory-row",
       "box": [
-        0.638,
-        0.1794,
-        0.217733,
-        0.1408
+        0.6183,
+        0.1941,
+        0.3185,
+        0.285846
       ],
       "color": "steel",
       "focus": true,
-      "label": "ABOUT 17:00",
+      "label": "ABOUT 17:00 BOARD",
       "label_box": [
-        0.63,
-        0.32620000000000005,
-        0.23373300000000002,
-        0.030799999999999945
-      ]
+        0.6183,
+        0.49727,
+        0.3185,
+        0.125599
+      ],
+      "label_size": 18
     }
   ],
   "reconstructed": false,

@@ -1,6 +1,6 @@
 {
   "background": "ink",
-  "intent": "Deletion records survive without the deleted pages’ contents. Keep the scripted evidence boundary and lettering visible.",
+  "intent": "Use empty page outlines under the recorded-deletion/no-held-revision label. The absence is surviving content, not a claim that the pages were empty before deletion.",
   "lettering": [
     {
       "box": [
@@ -14,57 +14,375 @@
   "lettering_mode": "manual",
   "nodes": [
     {
-      "asset": "card",
+      "asset": "empty-slot",
       "box": [
-        0.16543866666666668,
-        0.22419999999999998,
-        0.1706666666666667,
-        0.25600000000000006
+        0.0632,
+        0.0592,
+        0.091,
+        0.0852
       ],
       "color": "steel",
-      "focus": true,
-      "label": "DELETION RECORDED",
-      "label_box": [
-        0.09640000000000001,
-        0.4862,
-        0.308744,
-        0.085
-      ]
+      "focus": true
     },
     {
-      "asset": "box",
+      "asset": "empty-slot",
+      "box": [
+        0.1724,
+        0.0592,
+        0.091,
+        0.0852
+      ],
+      "color": "steel",
+      "focus": true
+    },
+    {
+      "asset": "empty-slot",
+      "box": [
+        0.2816,
+        0.0592,
+        0.091,
+        0.0852
+      ],
+      "color": "steel",
+      "focus": true
+    },
+    {
+      "asset": "empty-slot",
+      "box": [
+        0.3908,
+        0.0592,
+        0.091,
+        0.0852
+      ],
+      "color": "steel",
+      "focus": true
+    },
+    {
+      "asset": "empty-slot",
       "box": [
         0.5,
-        0.2242,
-        0.292744,
-        0.256
+        0.0592,
+        0.091,
+        0.0852
       ],
       "color": "steel",
-      "focus": true,
-      "label": "NO REVISION HELD",
-      "label_box": [
-        0.492,
-        0.4862,
-        0.308744,
-        0.085
-      ]
+      "focus": true
+    },
+    {
+      "asset": "empty-slot",
+      "box": [
+        0.6092,
+        0.0592,
+        0.091,
+        0.0852
+      ],
+      "color": "steel",
+      "focus": true
+    },
+    {
+      "asset": "empty-slot",
+      "box": [
+        0.7184,
+        0.0592,
+        0.091,
+        0.0852
+      ],
+      "color": "steel",
+      "focus": true
+    },
+    {
+      "asset": "empty-slot",
+      "box": [
+        0.8276,
+        0.0592,
+        0.091,
+        0.0852
+      ],
+      "color": "steel",
+      "focus": true
+    },
+    {
+      "asset": "empty-slot",
+      "box": [
+        0.0632,
+        0.1657,
+        0.091,
+        0.0852
+      ],
+      "color": "steel",
+      "focus": true
+    },
+    {
+      "asset": "empty-slot",
+      "box": [
+        0.1724,
+        0.1657,
+        0.091,
+        0.0852
+      ],
+      "color": "steel",
+      "focus": true
+    },
+    {
+      "asset": "empty-slot",
+      "box": [
+        0.2816,
+        0.1657,
+        0.091,
+        0.0852
+      ],
+      "color": "steel",
+      "focus": true
+    },
+    {
+      "asset": "empty-slot",
+      "box": [
+        0.3908,
+        0.1657,
+        0.091,
+        0.0852
+      ],
+      "color": "steel",
+      "focus": true
+    },
+    {
+      "asset": "empty-slot",
+      "box": [
+        0.5,
+        0.1657,
+        0.091,
+        0.0852
+      ],
+      "color": "steel",
+      "focus": true
+    },
+    {
+      "asset": "empty-slot",
+      "box": [
+        0.6092,
+        0.1657,
+        0.091,
+        0.0852
+      ],
+      "color": "steel",
+      "focus": true
+    },
+    {
+      "asset": "empty-slot",
+      "box": [
+        0.7184,
+        0.1657,
+        0.091,
+        0.0852
+      ],
+      "color": "steel",
+      "focus": true
+    },
+    {
+      "asset": "empty-slot",
+      "box": [
+        0.8276,
+        0.1657,
+        0.091,
+        0.0852
+      ],
+      "color": "steel",
+      "focus": true
+    },
+    {
+      "asset": "empty-slot",
+      "box": [
+        0.0632,
+        0.2722,
+        0.091,
+        0.0852
+      ],
+      "color": "steel",
+      "focus": true
+    },
+    {
+      "asset": "empty-slot",
+      "box": [
+        0.1724,
+        0.2722,
+        0.091,
+        0.0852
+      ],
+      "color": "steel",
+      "focus": true
+    },
+    {
+      "asset": "empty-slot",
+      "box": [
+        0.2816,
+        0.2722,
+        0.091,
+        0.0852
+      ],
+      "color": "steel",
+      "focus": true
+    },
+    {
+      "asset": "empty-slot",
+      "box": [
+        0.3908,
+        0.2722,
+        0.091,
+        0.0852
+      ],
+      "color": "steel",
+      "focus": true
+    },
+    {
+      "asset": "empty-slot",
+      "box": [
+        0.5,
+        0.2722,
+        0.091,
+        0.0852
+      ],
+      "color": "steel",
+      "focus": true
+    },
+    {
+      "asset": "empty-slot",
+      "box": [
+        0.6092,
+        0.2722,
+        0.091,
+        0.0852
+      ],
+      "color": "steel",
+      "focus": true
+    },
+    {
+      "asset": "empty-slot",
+      "box": [
+        0.7184,
+        0.2722,
+        0.091,
+        0.0852
+      ],
+      "color": "steel",
+      "focus": true
+    },
+    {
+      "asset": "empty-slot",
+      "box": [
+        0.8276,
+        0.2722,
+        0.091,
+        0.0852
+      ],
+      "color": "steel",
+      "focus": true
+    },
+    {
+      "asset": "empty-slot",
+      "box": [
+        0.0632,
+        0.3787,
+        0.091,
+        0.0852
+      ],
+      "color": "steel",
+      "focus": true
+    },
+    {
+      "asset": "empty-slot",
+      "box": [
+        0.1724,
+        0.3787,
+        0.091,
+        0.0852
+      ],
+      "color": "steel",
+      "focus": true
+    },
+    {
+      "asset": "empty-slot",
+      "box": [
+        0.2816,
+        0.3787,
+        0.091,
+        0.0852
+      ],
+      "color": "steel",
+      "focus": true
+    },
+    {
+      "asset": "empty-slot",
+      "box": [
+        0.3908,
+        0.3787,
+        0.091,
+        0.0852
+      ],
+      "color": "steel",
+      "focus": true
+    },
+    {
+      "asset": "empty-slot",
+      "box": [
+        0.5,
+        0.3787,
+        0.091,
+        0.0852
+      ],
+      "color": "steel",
+      "focus": true
+    },
+    {
+      "asset": "empty-slot",
+      "box": [
+        0.6092,
+        0.3787,
+        0.091,
+        0.0852
+      ],
+      "color": "steel",
+      "focus": true
+    },
+    {
+      "asset": "empty-slot",
+      "box": [
+        0.7184,
+        0.3787,
+        0.091,
+        0.0852
+      ],
+      "color": "steel",
+      "focus": true
+    },
+    {
+      "asset": "empty-slot",
+      "box": [
+        0.8276,
+        0.3787,
+        0.091,
+        0.0852
+      ],
+      "color": "steel",
+      "focus": true
     },
     {
       "asset": "card",
       "box": [
-        0.17,
-        0.08,
-        0.64,
-        0.07
+        0.0905,
+        0.5278,
+        0.819,
+        0.131208
       ],
       "color": "steel",
-      "label": "EXPORT: 4 JUNE–14 JULY",
+      "focus": true,
+      "label": "1,246 — DELETION RECORDED / NO REVISION HELD",
       "label_box": [
-        0.17,
-        0.155,
-        0.64,
-        0.06
-      ]
+        0.0905,
+        0.66696,
+        0.819,
+        0.057652
+      ],
+      "label_size": 18
     }
   ],
   "reconstructed": false,

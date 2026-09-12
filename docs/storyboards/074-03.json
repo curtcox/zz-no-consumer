@@ -1,6 +1,6 @@
 {
   "background": "ink",
-  "intent": "Block a bounded sentence sits beneath the transcript cutoff. Keep the scripted evidence boundary and lettering visible.",
+  "intent": "Put the bounded sentence beneath the abrupt transcript cutoff. Its placement must preserve the unknown cause rather than narratively completing the missing ending.",
   "lettering": [
     {
       "box": [
@@ -14,7 +14,7 @@
   "lettering_mode": "manual",
   "nodes": [
     {
-      "asset": "card",
+      "asset": "transcript",
       "box": [
         0.1872,
         0.0962,

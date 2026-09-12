@@ -1,23 +1,25 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="800" viewBox="0 0 1200 800"><title>Complicating facts sit outside the chosen line</title><metadata>{
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="800" viewBox="0 0 1200 800"><title>Complicating facts sit outside the chosen line</title><desc>Keep failed work, ambiguous motives, refusals and negative findings outside the preferred line but fully visible. The dated critique remains a source window, not a character.</desc><metadata>{
   &quot;assets&quot;: {
-    &quot;card&quot;: &quot;&lt;rect x=\&quot;1\&quot; y=\&quot;1\&quot; width=\&quot;98\&quot; height=\&quot;98\&quot; fill=\&quot;#202326\&quot; stroke=\&quot;currentColor\&quot; stroke-width=\&quot;2\&quot;/&gt;&lt;path d=\&quot;M8 13H92M8 27H70M8 36H86M8 45H72M8 65H86M8 74H57\&quot; stroke=\&quot;currentColor\&quot; stroke-width=\&quot;1.5\&quot;/&gt;&quot;,
+    &quot;card&quot;: &quot;&lt;rect x=\&quot;1\&quot; y=\&quot;1\&quot; width=\&quot;98\&quot; height=\&quot;98\&quot; fill=\&quot;#202326\&quot; stroke=\&quot;currentColor\&quot; stroke-width=\&quot;2\&quot;/&gt;&lt;path d=\&quot;M1 20H99M9 10H42M62 10H90M10 34H87M10 45H73M10 56H82M10 76H57M10 87H38\&quot; stroke=\&quot;currentColor\&quot; stroke-width=\&quot;2\&quot;/&gt;&quot;,
     &quot;cross&quot;: &quot;&lt;path d=\&quot;M10 10L90 90M90 10L10 90\&quot; stroke=\&quot;currentColor\&quot; stroke-width=\&quot;8\&quot;/&gt;&quot;,
     &quot;question&quot;: &quot;&lt;path d=\&quot;M24 28Q25 3 53 7Q91 12 74 43L51 63V72\&quot; fill=\&quot;none\&quot; stroke=\&quot;currentColor\&quot; stroke-width=\&quot;7\&quot;/&gt;&lt;circle cx=\&quot;51\&quot; cy=\&quot;91\&quot; r=\&quot;5\&quot; fill=\&quot;currentColor\&quot;/&gt;&quot;
   },
   &quot;palette&quot;: {
     &quot;amber&quot;: &quot;#A17D45&quot;,
+    &quot;claret&quot;: &quot;#6B2634&quot;,
     &quot;dirty&quot;: &quot;#CEC5B3&quot;,
     &quot;ink&quot;: &quot;#101214&quot;,
     &quot;institution&quot;: &quot;#68766B&quot;,
+    &quot;moss&quot;: &quot;#74864F&quot;,
     &quot;nicotine&quot;: &quot;#AA9571&quot;,
     &quot;paper&quot;: &quot;#E7E0D0&quot;,
     &quot;shadow&quot;: &quot;#202326&quot;,
     &quot;steel&quot;: &quot;#5E737B&quot;
   },
-  &quot;renderer&quot;: &quot;storyboard-svg-1&quot;,
+  &quot;renderer&quot;: &quot;storyboard-svg-2&quot;,
   &quot;scene&quot;: {
     &quot;background&quot;: &quot;ink&quot;,
-    &quot;intent&quot;: &quot;Block complicating facts sit outside the chosen line. Keep the scripted evidence boundary and lettering visible. Existing source-derived wording is a visibly labelled paraphrase; quotation disposition remains open.&quot;,
+    &quot;intent&quot;: &quot;Keep failed work, ambiguous motives, refusals and negative findings outside the preferred line but fully visible. The dated critique remains a source window, not a character.&quot;,
     &quot;lettering&quot;: [
       {
         &quot;box&quot;: [
@@ -41,74 +43,78 @@
       {
         &quot;asset&quot;: &quot;cross&quot;,
         &quot;box&quot;: [
-          0.07,
-          0.4079375,
-          0.07955,
-          0.11932499999999999
+          0.05775,
+          0.34316,
+          0.0918,
+          0.1377
         ],
         &quot;color&quot;: &quot;steel&quot;,
         &quot;focus&quot;: true,
         &quot;label&quot;: &quot;FAILED WORK&quot;,
         &quot;label_box&quot;: [
-          0.062000000000000006,
-          0.6476,
-          0.09555,
-          0.085
-        ]
+          0.05775,
+          0.605205,
+          0.0918,
+          0.151423
+        ],
+        &quot;label_size&quot;: 18
       },
       {
         &quot;asset&quot;: &quot;question&quot;,
         &quot;box&quot;: [
-          0.1775,
-          0.3758115384615385,
-          0.07955,
-          0.18357692307692305
+          0.18525,
+          0.274309,
+          0.0918,
+          0.2754
         ],
         &quot;color&quot;: &quot;steel&quot;,
         &quot;focus&quot;: true,
         &quot;label&quot;: &quot;AMBIGUOUS MOTIVES&quot;,
         &quot;label_box&quot;: [
-          0.16949999999999998,
-          0.6476,
-          0.09555,
-          0.085
-        ]
+          0.18525,
+          0.605205,
+          0.0918,
+          0.151423
+        ],
+        &quot;label_size&quot;: 18
       },
       {
         &quot;asset&quot;: &quot;cross&quot;,
         &quot;box&quot;: [
-          0.285,
-          0.4079375,
-          0.07955,
-          0.11932499999999999
+          0.31275,
+          0.34316,
+          0.0918,
+          0.1377
         ],
         &quot;color&quot;: &quot;steel&quot;,
         &quot;focus&quot;: true,
         &quot;label&quot;: &quot;REFUSALS&quot;,
         &quot;label_box&quot;: [
-          0.27699999999999997,
-          0.6476,
-          0.09555,
-          0.085
-        ]
+          0.31275,
+          0.605205,
+          0.0918,
+          0.151423
+        ],
+        &quot;label_size&quot;: 18
       },
       {
         &quot;asset&quot;: &quot;card&quot;,
         &quot;box&quot;: [
-          0.3925,
-          0.2936,
-          0.07955,
-          0.348
+          0.44025,
+          0.2397,
+          0.0918,
+          0.344619
         ],
         &quot;color&quot;: &quot;steel&quot;,
         &quot;focus&quot;: true,
         &quot;label&quot;: &quot;NEGATIVE FINDINGS&quot;,
         &quot;label_box&quot;: [
-          0.3845,
-          0.6476,
-          0.09555,
-          0.085
-        ]
+          0.44025,
+          0.605205,
+          0.0918,
+          0.151423
+        ],
+        &quot;label_size&quot;: 18
       }
     ],
     &quot;reconstructed&quot;: false,
@@ -117,4 +123,4 @@
     &quot;title&quot;: &quot;Complicating facts sit outside the chosen line&quot;
   }
 }
-</metadata><rect width="1200" height="800" fill="#101214"/><rect x="84" y="326.35" width="95.46" height="95.46" fill="none" stroke="#5E737B" stroke-width="3"/><text x="92" y="350.35" fill="#5E737B" font-family="sans-serif" font-size="20">cross</text><text x="131.73" y="538.08" text-anchor="middle" fill="#E7E0D0" font-size="20" font-family="sans-serif">FAILED</text><text x="131.73" y="565.28" text-anchor="middle" fill="#E7E0D0" font-size="20" font-family="sans-serif">WORK</text><rect x="213" y="300.649" width="95.46" height="146.862" fill="none" stroke="#5E737B" stroke-width="3"/><text x="221" y="324.649" fill="#5E737B" font-family="sans-serif" font-size="20">question</text><text x="260.73" y="538.08" text-anchor="middle" fill="#E7E0D0" font-size="20" font-family="sans-serif">AMBIGUOU</text><text x="260.73" y="565.28" text-anchor="middle" fill="#E7E0D0" font-size="20" font-family="sans-serif">S MOTIVES</text><rect x="342" y="326.35" width="95.46" height="95.46" fill="none" stroke="#5E737B" stroke-width="3"/><text x="350" y="350.35" fill="#5E737B" font-family="sans-serif" font-size="20">cross</text><text x="389.73" y="538.08" text-anchor="middle" fill="#E7E0D0" font-size="20" font-family="sans-serif">REFUSALS</text><rect x="471" y="234.88" width="95.46" height="278.4" fill="none" stroke="#5E737B" stroke-width="3"/><text x="479" y="258.88" fill="#5E737B" font-family="sans-serif" font-size="20">card</text><text x="518.73" y="538.08" text-anchor="middle" fill="#E7E0D0" font-size="20" font-family="sans-serif">NEGATIVE</text><text x="518.73" y="565.28" text-anchor="middle" fill="#E7E0D0" font-size="20" font-family="sans-serif">FINDINGS</text><rect x="3" y="3" width="1194" height="794" fill="none" stroke="#5E737B" stroke-width="4"/></svg>
+</metadata><rect width="1200" height="800" fill="#101214"/><rect x="69.3" y="274.528" width="110.16" height="110.16" fill="none" stroke="#5E737B" stroke-width="3"/><text x="77.3" y="298.528" fill="#5E737B" font-family="sans-serif" font-size="20">cross</text><text x="124.38" y="502.164" text-anchor="middle" fill="#E7E0D0" font-size="18" font-family="sans-serif">FAILED</text><text x="124.38" y="526.644" text-anchor="middle" fill="#E7E0D0" font-size="18" font-family="sans-serif">WORK</text><rect x="222.3" y="219.447" width="110.16" height="220.32" fill="none" stroke="#5E737B" stroke-width="3"/><text x="230.3" y="243.447" fill="#5E737B" font-family="sans-serif" font-size="20">question</text><text x="277.38" y="502.164" text-anchor="middle" fill="#E7E0D0" font-size="18" font-family="sans-serif">AMBIGUOUS</text><text x="277.38" y="526.644" text-anchor="middle" fill="#E7E0D0" font-size="18" font-family="sans-serif">MOTIVES</text><rect x="375.3" y="274.528" width="110.16" height="110.16" fill="none" stroke="#5E737B" stroke-width="3"/><text x="383.3" y="298.528" fill="#5E737B" font-family="sans-serif" font-size="20">cross</text><text x="430.38" y="502.164" text-anchor="middle" fill="#E7E0D0" font-size="18" font-family="sans-serif">REFUSALS</text><rect x="528.3" y="191.76" width="110.16" height="275.695" fill="none" stroke="#5E737B" stroke-width="3"/><text x="536.3" y="215.76" fill="#5E737B" font-family="sans-serif" font-size="20">card</text><text x="583.38" y="502.164" text-anchor="middle" fill="#E7E0D0" font-size="18" font-family="sans-serif">NEGATIVE</text><text x="583.38" y="526.644" text-anchor="middle" fill="#E7E0D0" font-size="18" font-family="sans-serif">FINDINGS</text><rect x="3" y="3" width="1194" height="794" fill="none" stroke="#5E737B" stroke-width="4"/></svg>

@@ -1,6 +1,6 @@
 {
   "background": "ink",
-  "intent": "Block many lanes can see a cache without notes. Keep the scripted evidence boundary and lettering visible.",
+  "intent": "Show neutral package rows inside the cache and multiple viewing lanes outside. Shared visibility returns before messaging; none of the rows should resemble a note or reply.",
   "lettering": [
     {
       "box": [
@@ -16,104 +16,111 @@
     {
       "asset": "folder",
       "box": [
-        0.6288,
-        0.1218,
-        0.2668,
-        0.416
+        0.6729,
+        0.1373,
+        0.2548,
+        0.346764
       ],
       "color": "steel",
       "focus": true,
       "label": "PACKAGES ONLY",
       "label_box": [
-        0.6208,
-        0.5438,
-        0.2828,
-        0.085
-      ]
+        0.6729,
+        0.50508,
+        0.2548,
+        0.152366
+      ],
+      "label_size": 18
     },
     {
-      "asset": "box",
+      "asset": "task",
       "box": [
-        0.086,
-        0.0962,
-        0.2576,
-        0.1152
+        0.0541,
+        0.0663,
+        0.3185,
+        0.131208
       ],
       "color": "steel",
       "focus": true,
       "label": "RUN A",
       "label_box": [
-        0.07799999999999999,
-        0.21739999999999998,
-        0.2736,
-        0.049999999999999996
-      ]
-    },
-    {
-      "asset": "arrow",
-      "box": [
-        0.3804,
-        0.13652,
-        0.2024,
-        0.0288
+        0.0541,
+        0.20546,
+        0.3185,
+        0.057652
       ],
-      "color": "institution"
+      "label_size": 18
     },
     {
-      "asset": "box",
+      "asset": "arrow-left",
       "box": [
-        0.086,
-        0.2754,
-        0.2576,
-        0.1152
+        0.409,
+        0.09612,
+        0.2184,
+        0.05964
+      ],
+      "color": "steel",
+      "focus": true
+    },
+    {
+      "asset": "task",
+      "box": [
+        0.0541,
+        0.288767,
+        0.3185,
+        0.131208
       ],
       "color": "steel",
       "focus": true,
       "label": "RUN B",
       "label_box": [
-        0.07799999999999999,
-        0.39659999999999995,
-        0.2736,
-        0.05000000000000005
-      ]
-    },
-    {
-      "asset": "arrow",
-      "box": [
-        0.3804,
-        0.31572,
-        0.2024,
-        0.0288
+        0.0541,
+        0.427927,
+        0.3185,
+        0.057652
       ],
-      "color": "institution"
+      "label_size": 18
     },
     {
-      "asset": "box",
+      "asset": "arrow-left",
       "box": [
-        0.086,
-        0.4546,
-        0.2576,
-        0.1152
+        0.409,
+        0.318587,
+        0.2184,
+        0.05964
+      ],
+      "color": "steel",
+      "focus": true
+    },
+    {
+      "asset": "task",
+      "box": [
+        0.0541,
+        0.511233,
+        0.3185,
+        0.131208
       ],
       "color": "steel",
       "focus": true,
       "label": "RUN C",
       "label_box": [
-        0.07799999999999999,
-        0.5758,
-        0.2736,
-        0.085
-      ]
+        0.0541,
+        0.650393,
+        0.3185,
+        0.057652
+      ],
+      "label_size": 18
     },
     {
-      "asset": "arrow",
+      "asset": "arrow-left",
       "box": [
-        0.3804,
-        0.49492,
-        0.2024,
-        0.0288
+        0.409,
+        0.541053,
+        0.2184,
+        0.05964
       ],
-      "color": "institution"
+      "color": "steel",
+      "focus": true
     }
   ],
   "reconstructed": false,

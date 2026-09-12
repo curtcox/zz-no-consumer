@@ -1,23 +1,24 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="800" viewBox="0 0 1200 800"><title>The directory accumulates messages</title><metadata>{
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="800" viewBox="0 0 1200 800"><title>The directory accumulates messages</title><desc>Repeat one directory frame four times with steadily increasing row counts. Keep existing rows in the same order; only timestamps and added moss edges change, making accumulation inspectable.</desc><metadata>{
   &quot;assets&quot;: {
-    &quot;card&quot;: &quot;&lt;rect x=\&quot;1\&quot; y=\&quot;1\&quot; width=\&quot;98\&quot; height=\&quot;98\&quot; fill=\&quot;#202326\&quot; stroke=\&quot;currentColor\&quot; stroke-width=\&quot;2\&quot;/&gt;&lt;path d=\&quot;M8 13H92M8 27H70M8 36H86M8 45H72M8 65H86M8 74H57\&quot; stroke=\&quot;currentColor\&quot; stroke-width=\&quot;1.5\&quot;/&gt;&quot;,
-    &quot;folder&quot;: &quot;&lt;path d=\&quot;M3 20V8H38L48 20H97V90H3Z\&quot; fill=\&quot;#202326\&quot; stroke=\&quot;currentColor\&quot; stroke-width=\&quot;3\&quot;/&gt;&lt;path d=\&quot;M12 40H85M12 50H65\&quot; stroke=\&quot;currentColor\&quot; stroke-width=\&quot;2\&quot;/&gt;&quot;,
-    &quot;line&quot;: &quot;&lt;path d=\&quot;M0 50H100\&quot; stroke=\&quot;currentColor\&quot; stroke-width=\&quot;2\&quot; vector-effect=\&quot;non-scaling-stroke\&quot;/&gt;&quot;
+    &quot;clock&quot;: &quot;&lt;circle cx=\&quot;50\&quot; cy=\&quot;50\&quot; r=\&quot;44\&quot; fill=\&quot;#202326\&quot; stroke=\&quot;currentColor\&quot; stroke-width=\&quot;4\&quot;/&gt;&lt;path d=\&quot;M50 15V50L75 64M50 5V12M95 50H88M50 95V88M5 50H12\&quot; fill=\&quot;none\&quot; stroke=\&quot;currentColor\&quot; stroke-width=\&quot;4\&quot;/&gt;&quot;,
+    &quot;directory-row&quot;: &quot;&lt;rect x=\&quot;1\&quot; y=\&quot;1\&quot; width=\&quot;98\&quot; height=\&quot;98\&quot; fill=\&quot;#202326\&quot; stroke=\&quot;currentColor\&quot; stroke-width=\&quot;2\&quot;/&gt;&lt;path d=\&quot;M19 1V99M4 24H15M4 43H12M4 72H15M28 27V15H43L51 27H90V81H28ZM35 44H83M35 58H73\&quot; fill=\&quot;none\&quot; stroke=\&quot;currentColor\&quot; stroke-width=\&quot;2\&quot;/&gt;&quot;
   },
   &quot;palette&quot;: {
     &quot;amber&quot;: &quot;#A17D45&quot;,
+    &quot;claret&quot;: &quot;#6B2634&quot;,
     &quot;dirty&quot;: &quot;#CEC5B3&quot;,
     &quot;ink&quot;: &quot;#101214&quot;,
     &quot;institution&quot;: &quot;#68766B&quot;,
+    &quot;moss&quot;: &quot;#74864F&quot;,
     &quot;nicotine&quot;: &quot;#AA9571&quot;,
     &quot;paper&quot;: &quot;#E7E0D0&quot;,
     &quot;shadow&quot;: &quot;#202326&quot;,
     &quot;steel&quot;: &quot;#5E737B&quot;
   },
-  &quot;renderer&quot;: &quot;storyboard-svg-1&quot;,
+  &quot;renderer&quot;: &quot;storyboard-svg-2&quot;,
   &quot;scene&quot;: {
     &quot;background&quot;: &quot;ink&quot;,
-    &quot;intent&quot;: &quot;Block the directory accumulates messages. Keep the scripted evidence boundary and lettering visible.&quot;,
+    &quot;intent&quot;: &quot;Repeat one directory frame four times with steadily increasing row counts. Keep existing rows in the same order; only timestamps and added moss edges change, making accumulation inspectable.&quot;,
     &quot;lettering&quot;: [
       {
         &quot;box&quot;: [
@@ -31,86 +32,174 @@
     &quot;lettering_mode&quot;: &quot;manual&quot;,
     &quot;nodes&quot;: [
       {
-        &quot;asset&quot;: &quot;line&quot;,
+        &quot;asset&quot;: &quot;directory-row&quot;,
         &quot;box&quot;: [
-          0.0768,
-          0.365,
-          0.8464,
-          0.016
+          0.0632,
+          0.116,
+          0.1911,
+          0.07455
         ],
-        &quot;color&quot;: &quot;steel&quot;
+        &quot;color&quot;: &quot;moss&quot;,
+        &quot;focus&quot;: true
       },
       {
-        &quot;asset&quot;: &quot;card&quot;,
+        &quot;asset&quot;: &quot;directory-row&quot;,
         &quot;box&quot;: [
-          0.086,
-          0.1794,
-          0.1633,
-          0.1408
+          0.2907,
+          0.116,
+          0.1911,
+          0.07455
         ],
-        &quot;color&quot;: &quot;institution&quot;,
+        &quot;color&quot;: &quot;moss&quot;,
+        &quot;focus&quot;: true
+      },
+      {
+        &quot;asset&quot;: &quot;directory-row&quot;,
+        &quot;box&quot;: [
+          0.2907,
+          0.21185,
+          0.1911,
+          0.07455
+        ],
+        &quot;color&quot;: &quot;moss&quot;,
+        &quot;focus&quot;: true
+      },
+      {
+        &quot;asset&quot;: &quot;directory-row&quot;,
+        &quot;box&quot;: [
+          0.5182,
+          0.116,
+          0.1911,
+          0.07455
+        ],
+        &quot;color&quot;: &quot;moss&quot;,
+        &quot;focus&quot;: true
+      },
+      {
+        &quot;asset&quot;: &quot;directory-row&quot;,
+        &quot;box&quot;: [
+          0.5182,
+          0.21185,
+          0.1911,
+          0.07455
+        ],
+        &quot;color&quot;: &quot;moss&quot;,
+        &quot;focus&quot;: true
+      },
+      {
+        &quot;asset&quot;: &quot;directory-row&quot;,
+        &quot;box&quot;: [
+          0.5182,
+          0.3077,
+          0.1911,
+          0.07455
+        ],
+        &quot;color&quot;: &quot;moss&quot;,
+        &quot;focus&quot;: true
+      },
+      {
+        &quot;asset&quot;: &quot;directory-row&quot;,
+        &quot;box&quot;: [
+          0.7457,
+          0.116,
+          0.1911,
+          0.07455
+        ],
+        &quot;color&quot;: &quot;moss&quot;,
+        &quot;focus&quot;: true
+      },
+      {
+        &quot;asset&quot;: &quot;directory-row&quot;,
+        &quot;box&quot;: [
+          0.7457,
+          0.21185,
+          0.1911,
+          0.07455
+        ],
+        &quot;color&quot;: &quot;moss&quot;,
+        &quot;focus&quot;: true
+      },
+      {
+        &quot;asset&quot;: &quot;directory-row&quot;,
+        &quot;box&quot;: [
+          0.7457,
+          0.3077,
+          0.1911,
+          0.07455
+        ],
+        &quot;color&quot;: &quot;moss&quot;,
+        &quot;focus&quot;: true
+      },
+      {
+        &quot;asset&quot;: &quot;directory-row&quot;,
+        &quot;box&quot;: [
+          0.7457,
+          0.40355,
+          0.1911,
+          0.07455
+        ],
+        &quot;color&quot;: &quot;moss&quot;,
+        &quot;focus&quot;: true
+      },
+      {
+        &quot;asset&quot;: &quot;clock&quot;,
+        &quot;box&quot;: [
+          0.12751,
+          0.5704,
+          0.06248,
+          0.09372
+        ],
+        &quot;color&quot;: &quot;steel&quot;,
         &quot;focus&quot;: true,
         &quot;label&quot;: &quot;EARLIER&quot;,
         &quot;label_box&quot;: [
-          0.07799999999999999,
-          0.32620000000000005,
-          0.17930000000000001,
-          0.030799999999999945
-        ]
+          0.1087,
+          0.6698,
+          0.1001,
+          0.04118
+        ],
+        &quot;label_size&quot;: 18
       },
       {
-        &quot;asset&quot;: &quot;card&quot;,
+        &quot;asset&quot;: &quot;clock&quot;,
         &quot;box&quot;: [
-          0.293,
-          0.1794,
-          0.1633,
-          0.1408
+          0.338917,
+          0.5704,
+          0.094667,
+          0.142
         ],
-        &quot;color&quot;: &quot;institution&quot;,
+        &quot;color&quot;: &quot;steel&quot;,
+        &quot;focus&quot;: true
+      },
+      {
+        &quot;asset&quot;: &quot;clock&quot;,
+        &quot;box&quot;: [
+          0.566417,
+          0.5704,
+          0.094667,
+          0.142
+        ],
+        &quot;color&quot;: &quot;steel&quot;,
+        &quot;focus&quot;: true
+      },
+      {
+        &quot;asset&quot;: &quot;clock&quot;,
+        &quot;box&quot;: [
+          0.81001,
+          0.5704,
+          0.06248,
+          0.09372
+        ],
+        &quot;color&quot;: &quot;steel&quot;,
         &quot;focus&quot;: true,
         &quot;label&quot;: &quot;LATER&quot;,
         &quot;label_box&quot;: [
-          0.285,
-          0.32620000000000005,
-          0.17930000000000001,
-          0.030799999999999945
-        ]
-      },
-      {
-        &quot;asset&quot;: &quot;folder&quot;,
-        &quot;box&quot;: [
-          0.5,
-          0.1794,
-          0.1633,
-          0.1408
+          0.7912,
+          0.6698,
+          0.1001,
+          0.04118
         ],
-        &quot;color&quot;: &quot;institution&quot;,
-        &quot;focus&quot;: true,
-        &quot;label&quot;: &quot;MORE ROWS&quot;,
-        &quot;label_box&quot;: [
-          0.492,
-          0.32620000000000005,
-          0.17930000000000001,
-          0.030799999999999945
-        ]
-      },
-      {
-        &quot;asset&quot;: &quot;folder&quot;,
-        &quot;box&quot;: [
-          0.707,
-          0.1794,
-          0.1633,
-          0.1408
-        ],
-        &quot;color&quot;: &quot;institution&quot;,
-        &quot;focus&quot;: true,
-        &quot;label&quot;: &quot;SHARED NOTES&quot;,
-        &quot;label_box&quot;: [
-          0.699,
-          0.32620000000000005,
-          0.17930000000000001,
-          0.030799999999999945
-        ]
+        &quot;label_size&quot;: 18
       }
     ],
     &quot;reconstructed&quot;: false,
@@ -119,4 +208,4 @@
     &quot;title&quot;: &quot;The directory accumulates messages&quot;
   }
 }
-</metadata><rect width="1200" height="800" fill="#101214"/><rect x="92.16" y="292" width="1015.68" height="12.8" fill="none" stroke="#5E737B" stroke-width="3"/><text x="100.16" y="316" fill="#5E737B" font-family="sans-serif" font-size="20">line</text><rect x="103.2" y="143.52" width="195.96" height="112.64" fill="none" stroke="#68766B" stroke-width="3"/><text x="111.2" y="167.52" fill="#68766B" font-family="sans-serif" font-size="20">card</text><text x="201.18" y="278.96" text-anchor="middle" fill="#E7E0D0" font-size="18" font-family="sans-serif">EARLIER</text><rect x="351.6" y="143.52" width="195.96" height="112.64" fill="none" stroke="#68766B" stroke-width="3"/><text x="359.6" y="167.52" fill="#68766B" font-family="sans-serif" font-size="20">card</text><text x="449.58" y="278.96" text-anchor="middle" fill="#E7E0D0" font-size="18" font-family="sans-serif">LATER</text><rect x="600" y="143.52" width="195.96" height="112.64" fill="none" stroke="#68766B" stroke-width="3"/><text x="608" y="167.52" fill="#68766B" font-family="sans-serif" font-size="20">folder</text><text x="697.98" y="278.96" text-anchor="middle" fill="#E7E0D0" font-size="18" font-family="sans-serif">MORE ROWS</text><rect x="848.4" y="143.52" width="195.96" height="112.64" fill="none" stroke="#68766B" stroke-width="3"/><text x="856.4" y="167.52" fill="#68766B" font-family="sans-serif" font-size="20">folder</text><text x="946.38" y="278.96" text-anchor="middle" fill="#E7E0D0" font-size="18" font-family="sans-serif">SHARED NOTES</text><rect x="3" y="3" width="1194" height="794" fill="none" stroke="#5E737B" stroke-width="4"/></svg>
+</metadata><rect width="1200" height="800" fill="#101214"/><rect x="75.84" y="92.8" width="229.32" height="59.64" fill="none" stroke="#74864F" stroke-width="3"/><text x="83.84" y="116.8" fill="#74864F" font-family="sans-serif" font-size="20">directory-row</text><rect x="348.84" y="92.8" width="229.32" height="59.64" fill="none" stroke="#74864F" stroke-width="3"/><text x="356.84" y="116.8" fill="#74864F" font-family="sans-serif" font-size="20">directory-row</text><rect x="348.84" y="169.48" width="229.32" height="59.64" fill="none" stroke="#74864F" stroke-width="3"/><text x="356.84" y="193.48" fill="#74864F" font-family="sans-serif" font-size="20">directory-row</text><rect x="621.84" y="92.8" width="229.32" height="59.64" fill="none" stroke="#74864F" stroke-width="3"/><text x="629.84" y="116.8" fill="#74864F" font-family="sans-serif" font-size="20">directory-row</text><rect x="621.84" y="169.48" width="229.32" height="59.64" fill="none" stroke="#74864F" stroke-width="3"/><text x="629.84" y="193.48" fill="#74864F" font-family="sans-serif" font-size="20">directory-row</text><rect x="621.84" y="246.16" width="229.32" height="59.64" fill="none" stroke="#74864F" stroke-width="3"/><text x="629.84" y="270.16" fill="#74864F" font-family="sans-serif" font-size="20">directory-row</text><rect x="894.84" y="92.8" width="229.32" height="59.64" fill="none" stroke="#74864F" stroke-width="3"/><text x="902.84" y="116.8" fill="#74864F" font-family="sans-serif" font-size="20">directory-row</text><rect x="894.84" y="169.48" width="229.32" height="59.64" fill="none" stroke="#74864F" stroke-width="3"/><text x="902.84" y="193.48" fill="#74864F" font-family="sans-serif" font-size="20">directory-row</text><rect x="894.84" y="246.16" width="229.32" height="59.64" fill="none" stroke="#74864F" stroke-width="3"/><text x="902.84" y="270.16" fill="#74864F" font-family="sans-serif" font-size="20">directory-row</text><rect x="894.84" y="322.84" width="229.32" height="59.64" fill="none" stroke="#74864F" stroke-width="3"/><text x="902.84" y="346.84" fill="#74864F" font-family="sans-serif" font-size="20">directory-row</text><rect x="153.012" y="456.32" width="74.976" height="74.976" fill="none" stroke="#5E737B" stroke-width="3"/><text x="161.012" y="480.32" fill="#5E737B" font-family="sans-serif" font-size="20">clock</text><text x="190.5" y="553.84" text-anchor="middle" fill="#E7E0D0" font-size="18" font-family="sans-serif">EARLIER</text><rect x="406.7" y="456.32" width="113.6" height="113.6" fill="none" stroke="#5E737B" stroke-width="3"/><text x="414.7" y="480.32" fill="#5E737B" font-family="sans-serif" font-size="20">clock</text><rect x="679.7" y="456.32" width="113.6" height="113.6" fill="none" stroke="#5E737B" stroke-width="3"/><text x="687.7" y="480.32" fill="#5E737B" font-family="sans-serif" font-size="20">clock</text><rect x="972.012" y="456.32" width="74.976" height="74.976" fill="none" stroke="#5E737B" stroke-width="3"/><text x="980.012" y="480.32" fill="#5E737B" font-family="sans-serif" font-size="20">clock</text><text x="1009.5" y="553.84" text-anchor="middle" fill="#E7E0D0" font-size="18" font-family="sans-serif">LATER</text><rect x="3" y="3" width="1194" height="794" fill="none" stroke="#5E737B" stroke-width="4"/></svg>

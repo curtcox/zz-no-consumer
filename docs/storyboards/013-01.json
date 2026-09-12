@@ -1,6 +1,6 @@
 {
   "background": "ink",
-  "intent": "Two screens and the untouched drink establish the workspace for subsequent shots.",
+  "intent": "Stage two different source-bearing screens, a half-full drink and sparse paper around an obscured seated creator. Warm office light marks the change of register; source reading remains the focal action.",
   "lettering": [],
   "nodes": [
     {
@@ -63,14 +63,15 @@
         0.05,
         0.1
       ],
-      "color": "nicotine"
+      "color": "nicotine",
+      "focus": true
     },
     {
       "asset": "person-seated",
       "box": [
-        0.13,
+        0.136333,
         0.32,
-        0.29,
+        0.277333,
         0.64
       ],
       "color": "dirty",

@@ -1,6 +1,6 @@
 {
   "background": "ink",
-  "intent": "Block the credential gate reveals a processing service. Keep the scripted evidence boundary and lettering visible.",
+  "intent": "Show the credential gate opening onto a still-separate processing service. One prerequisite reveals another; opening the first gate should not make the whole staircase completed.",
   "lettering": [
     {
       "box": [
@@ -21,7 +21,8 @@
         0.8648,
         0.576
       ],
-      "color": "steel"
+      "color": "steel",
+      "focus": true
     },
     {
       "asset": "sealed",

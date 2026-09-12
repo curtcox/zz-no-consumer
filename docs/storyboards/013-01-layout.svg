@@ -1,4 +1,4 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="800" viewBox="0 0 1200 800"><title>Late at the desk</title><metadata>{
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="800" viewBox="0 0 1200 800"><title>Late at the desk</title><desc>Stage two different source-bearing screens, a half-full drink and sparse paper around an obscured seated creator. Warm office light marks the change of register; source reading remains the focal action.</desc><metadata>{
   &quot;assets&quot;: {
     &quot;cup&quot;: &quot;&lt;path d=\&quot;M10 8H70V85Q40 100 10 85Z\&quot; fill=\&quot;#101214\&quot; stroke=\&quot;currentColor\&quot; stroke-width=\&quot;4\&quot;/&gt;&lt;path d=\&quot;M70 22Q110 20 90 58H70M14 50H67\&quot; fill=\&quot;none\&quot; stroke=\&quot;currentColor\&quot; stroke-width=\&quot;4\&quot;/&gt;&quot;,
     &quot;desk&quot;: &quot;&lt;path d=\&quot;M0 12L85 0L100 30L14 43Z\&quot; fill=\&quot;currentColor\&quot;/&gt;&lt;path d=\&quot;M14 43V100M94 31V90\&quot; stroke=\&quot;currentColor\&quot; stroke-width=\&quot;5\&quot;/&gt;&quot;,
@@ -9,18 +9,20 @@
   },
   &quot;palette&quot;: {
     &quot;amber&quot;: &quot;#A17D45&quot;,
+    &quot;claret&quot;: &quot;#6B2634&quot;,
     &quot;dirty&quot;: &quot;#CEC5B3&quot;,
     &quot;ink&quot;: &quot;#101214&quot;,
     &quot;institution&quot;: &quot;#68766B&quot;,
+    &quot;moss&quot;: &quot;#74864F&quot;,
     &quot;nicotine&quot;: &quot;#AA9571&quot;,
     &quot;paper&quot;: &quot;#E7E0D0&quot;,
     &quot;shadow&quot;: &quot;#202326&quot;,
     &quot;steel&quot;: &quot;#5E737B&quot;
   },
-  &quot;renderer&quot;: &quot;storyboard-svg-1&quot;,
+  &quot;renderer&quot;: &quot;storyboard-svg-2&quot;,
   &quot;scene&quot;: {
     &quot;background&quot;: &quot;ink&quot;,
-    &quot;intent&quot;: &quot;Two screens and the untouched drink establish the workspace for subsequent shots.&quot;,
+    &quot;intent&quot;: &quot;Stage two different source-bearing screens, a half-full drink and sparse paper around an obscured seated creator. Warm office light marks the change of register; source reading remains the focal action.&quot;,
     &quot;lettering&quot;: [],
     &quot;nodes&quot;: [
       {
@@ -83,14 +85,15 @@
           0.05,
           0.1
         ],
-        &quot;color&quot;: &quot;nicotine&quot;
+        &quot;color&quot;: &quot;nicotine&quot;,
+        &quot;focus&quot;: true
       },
       {
         &quot;asset&quot;: &quot;person-seated&quot;,
         &quot;box&quot;: [
-          0.13,
+          0.136333,
           0.32,
-          0.29,
+          0.277333,
           0.64
         ],
         &quot;color&quot;: &quot;dirty&quot;,
@@ -103,4 +106,4 @@
     &quot;title&quot;: &quot;Late at the desk&quot;
   }
 }
-</metadata><rect width="1200" height="800" fill="#101214"/><rect x="24" y="40" width="1152" height="720" fill="none" stroke="#202326" stroke-width="3"/><text x="32" y="64" fill="#202326" font-family="sans-serif" font-size="20">room</text><rect x="348" y="144" width="624" height="520" fill="none" stroke="#AA9571" stroke-width="3"/><text x="356" y="168" fill="#AA9571" font-family="sans-serif" font-size="20">light</text><rect x="288" y="536" width="828" height="224" fill="none" stroke="#AA9571" stroke-width="3"/><text x="296" y="560" fill="#AA9571" font-family="sans-serif" font-size="20">desk</text><rect x="456" y="248" width="288" height="280" fill="none" stroke="#5E737B" stroke-width="3"/><text x="464" y="272" fill="#5E737B" font-family="sans-serif" font-size="20">monitor</text><rect x="780" y="240" width="276" height="280" fill="none" stroke="#5E737B" stroke-width="3"/><text x="788" y="264" fill="#5E737B" font-family="sans-serif" font-size="20">monitor</text><rect x="1008" y="520" width="60" height="80" fill="none" stroke="#AA9571" stroke-width="3"/><text x="1016" y="544" fill="#AA9571" font-family="sans-serif" font-size="20">cup</text><rect x="156" y="256" width="348" height="512" fill="none" stroke="#CEC5B3" stroke-width="3"/><text x="164" y="280" fill="#CEC5B3" font-family="sans-serif" font-size="20">person-seated</text><rect x="3" y="3" width="1194" height="794" fill="none" stroke="#5E737B" stroke-width="4" stroke-dasharray="18 10"/></svg>
+</metadata><rect width="1200" height="800" fill="#101214"/><rect x="24" y="40" width="1152" height="720" fill="none" stroke="#202326" stroke-width="3"/><text x="32" y="64" fill="#202326" font-family="sans-serif" font-size="20">room</text><rect x="348" y="144" width="624" height="520" fill="none" stroke="#AA9571" stroke-width="3"/><text x="356" y="168" fill="#AA9571" font-family="sans-serif" font-size="20">light</text><rect x="288" y="536" width="828" height="224" fill="none" stroke="#AA9571" stroke-width="3"/><text x="296" y="560" fill="#AA9571" font-family="sans-serif" font-size="20">desk</text><rect x="456" y="248" width="288" height="280" fill="none" stroke="#5E737B" stroke-width="3"/><text x="464" y="272" fill="#5E737B" font-family="sans-serif" font-size="20">monitor</text><rect x="780" y="240" width="276" height="280" fill="none" stroke="#5E737B" stroke-width="3"/><text x="788" y="264" fill="#5E737B" font-family="sans-serif" font-size="20">monitor</text><rect x="1008" y="520" width="60" height="80" fill="none" stroke="#AA9571" stroke-width="3"/><text x="1016" y="544" fill="#AA9571" font-family="sans-serif" font-size="20">cup</text><rect x="163.6" y="256" width="332.8" height="512" fill="none" stroke="#CEC5B3" stroke-width="3"/><text x="171.6" y="280" fill="#CEC5B3" font-family="sans-serif" font-size="20">person-seated</text><rect x="3" y="3" width="1194" height="794" fill="none" stroke="#5E737B" stroke-width="4" stroke-dasharray="18 10"/></svg>

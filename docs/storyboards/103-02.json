@@ -1,6 +1,6 @@
 {
   "background": "ink",
-  "intent": "Block the lab adds scoped controls and response authority. Keep the scripted evidence boundary and lettering visible.",
+  "intent": "Keep isolation, monitoring, clocks, grader revision and pause controls distinct. Multiple defenses address different stages and must not collapse into one impenetrable shield.",
   "lettering": [
     {
       "box": [
@@ -16,92 +16,97 @@
     {
       "asset": "gate",
       "box": [
-        0.1044,
-        0.2242,
-        0.117098,
-        0.256
+        0.06775,
+        0.2012,
+        0.1183,
+        0.276474
       ],
       "color": "steel",
       "focus": true,
       "label": "ISOLATION",
       "label_box": [
-        0.09640000000000001,
-        0.4862,
-        0.133098,
-        0.085
-      ]
+        0.06775,
+        0.49443,
+        0.1183,
+        0.121481
+      ],
+      "label_size": 18
     },
     {
       "asset": "aperture",
       "box": [
-        0.26264,
-        0.28464346153846154,
-        0.117098,
-        0.13511307692307692
+        0.24975,
+        0.271187,
+        0.1183,
+        0.1365
       ],
       "color": "steel",
       "focus": true,
       "label": "MONITORING",
       "label_box": [
-        0.25464,
-        0.4862,
-        0.133098,
-        0.085
-      ]
+        0.24975,
+        0.49443,
+        0.1183,
+        0.121481
+      ],
+      "label_size": 18
     },
     {
       "asset": "clock",
       "box": [
-        0.42088,
-        0.2643765,
-        0.117098,
-        0.175647
+        0.43175,
+        0.250712,
+        0.1183,
+        0.17745
       ],
       "color": "steel",
       "focus": true,
       "label": "ESCALATION",
       "label_box": [
-        0.41287999999999997,
-        0.4862,
-        0.133098,
-        0.085
-      ]
+        0.43175,
+        0.49443,
+        0.1183,
+        0.121481
+      ],
+      "label_size": 18
     },
     {
       "asset": "card",
       "box": [
-        0.57912,
-        0.2242,
-        0.117098,
-        0.256
+        0.61375,
+        0.2012,
+        0.1183,
+        0.276474
       ],
       "color": "steel",
       "focus": true,
       "label": "GRADER",
       "label_box": [
-        0.57112,
-        0.4862,
-        0.133098,
-        0.085
-      ]
+        0.61375,
+        0.49443,
+        0.1183,
+        0.121481
+      ],
+      "label_size": 18
     },
     {
       "asset": "gate",
       "box": [
-        0.73736,
-        0.2242,
-        0.117098,
-        0.256
+        0.79575,
+        0.2012,
+        0.1183,
+        0.276474
       ],
       "color": "steel",
       "focus": true,
       "label": "PAUSE",
       "label_box": [
-        0.72936,
-        0.4862,
-        0.133098,
-        0.085
-      ]
+        0.79575,
+        0.49443,
+        0.1183,
+        0.121481
+      ],
+      "label_size": 18
     }
   ],
   "reconstructed": false,

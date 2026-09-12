@@ -1,6 +1,6 @@
 {
   "background": "ink",
-  "intent": "Hold eleven terminated lanes above two continuing lanes; approximate timing carries no cause arrow.",
+  "intent": "End the eleven lanes within the narrow time band while other lanes continue below. Simultaneity is visible; no hand, blast or shared cause connector explains it.",
   "lettering": [
     {
       "box": [
@@ -31,7 +31,8 @@
         0.38,
         0.013
       ],
-      "color": "shadow"
+      "color": "shadow",
+      "focus": true
     },
     {
       "asset": "line",
@@ -51,7 +52,8 @@
         0.38,
         0.013
       ],
-      "color": "shadow"
+      "color": "shadow",
+      "focus": true
     },
     {
       "asset": "line",
@@ -71,7 +73,8 @@
         0.38,
         0.013
       ],
-      "color": "shadow"
+      "color": "shadow",
+      "focus": true
     },
     {
       "asset": "line",
@@ -91,7 +94,8 @@
         0.38,
         0.013
       ],
-      "color": "shadow"
+      "color": "shadow",
+      "focus": true
     },
     {
       "asset": "line",
@@ -111,7 +115,8 @@
         0.38,
         0.013
       ],
-      "color": "shadow"
+      "color": "shadow",
+      "focus": true
     },
     {
       "asset": "line",
@@ -131,7 +136,8 @@
         0.38,
         0.013
       ],
-      "color": "shadow"
+      "color": "shadow",
+      "focus": true
     },
     {
       "asset": "line",
@@ -151,7 +157,8 @@
         0.38,
         0.013
       ],
-      "color": "shadow"
+      "color": "shadow",
+      "focus": true
     },
     {
       "asset": "line",
@@ -171,7 +178,8 @@
         0.38,
         0.013
       ],
-      "color": "shadow"
+      "color": "shadow",
+      "focus": true
     },
     {
       "asset": "line",
@@ -191,7 +199,8 @@
         0.38,
         0.013
       ],
-      "color": "shadow"
+      "color": "shadow",
+      "focus": true
     },
     {
       "asset": "line",
@@ -211,7 +220,8 @@
         0.38,
         0.013
       ],
-      "color": "shadow"
+      "color": "shadow",
+      "focus": true
     },
     {
       "asset": "line",
@@ -231,7 +241,8 @@
         0.38,
         0.013
       ],
-      "color": "shadow"
+      "color": "shadow",
+      "focus": true
     },
     {
       "asset": "boundary",

@@ -1,0 +1,85 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="800" viewBox="0 0 1200 800"><title>Earlier public sources face the later wiki report</title><metadata>{
+  &quot;assets&quot;: {
+    &quot;boundary&quot;: &quot;&lt;path d=\&quot;M50 0V100\&quot; stroke=\&quot;currentColor\&quot; stroke-width=\&quot;14\&quot;/&gt;&quot;,
+    &quot;paper&quot;: &quot;&lt;path d=\&quot;M0 0H80L100 20V100H0Z\&quot; fill=\&quot;currentColor\&quot;/&gt;&lt;path d=\&quot;M80 0V20H100M9 35H84M9 48H84M9 61H73M9 74H81\&quot; fill=\&quot;none\&quot; stroke=\&quot;#101214\&quot; stroke-width=\&quot;1.5\&quot;/&gt;&quot;
+  },
+  &quot;palette&quot;: {
+    &quot;amber&quot;: &quot;#A17D45&quot;,
+    &quot;dirty&quot;: &quot;#CEC5B3&quot;,
+    &quot;ink&quot;: &quot;#101214&quot;,
+    &quot;institution&quot;: &quot;#68766B&quot;,
+    &quot;nicotine&quot;: &quot;#AA9571&quot;,
+    &quot;paper&quot;: &quot;#E7E0D0&quot;,
+    &quot;shadow&quot;: &quot;#202326&quot;,
+    &quot;steel&quot;: &quot;#5E737B&quot;
+  },
+  &quot;renderer&quot;: &quot;storyboard-svg-1&quot;,
+  &quot;scene&quot;: {
+    &quot;background&quot;: &quot;ink&quot;,
+    &quot;intent&quot;: &quot;Block earlier public sources face the later wiki report. Keep the scripted evidence boundary and lettering visible.&quot;,
+    &quot;lettering&quot;: [
+      {
+        &quot;box&quot;: [
+          0.58,
+          0.04,
+          0.38,
+          0.31980000000000003
+        ]
+      }
+    ],
+    &quot;lettering_mode&quot;: &quot;manual&quot;,
+    &quot;nodes&quot;: [
+      {
+        &quot;asset&quot;: &quot;paper&quot;,
+        &quot;box&quot;: [
+          0.07,
+          0.2936,
+          0.1591,
+          0.348
+        ],
+        &quot;color&quot;: &quot;steel&quot;,
+        &quot;focus&quot;: true,
+        &quot;label&quot;: &quot;AUGUST ACCOUNTS&quot;,
+        &quot;label_box&quot;: [
+          0.062000000000000006,
+          0.6476,
+          0.17509999999999998,
+          0.085
+        ]
+      },
+      {
+        &quot;asset&quot;: &quot;paper&quot;,
+        &quot;box&quot;: [
+          0.285,
+          0.2936,
+          0.1591,
+          0.348
+        ],
+        &quot;color&quot;: &quot;steel&quot;,
+        &quot;focus&quot;: true,
+        &quot;label&quot;: &quot;4 SEPTEMBER REPORT&quot;,
+        &quot;label_box&quot;: [
+          0.27699999999999997,
+          0.6476,
+          0.17509999999999998,
+          0.085
+        ]
+      },
+      {
+        &quot;asset&quot;: &quot;boundary&quot;,
+        &quot;box&quot;: [
+          0.28,
+          0.1196,
+          0.009,
+          0.7308
+        ],
+        &quot;color&quot;: &quot;amber&quot;
+      }
+    ],
+    &quot;reconstructed&quot;: false,
+    &quot;shot&quot;: &quot;split&quot;,
+    &quot;source&quot;: &quot;\n**Frame:** Curt lays the two 26 August reports and the Black Hat talk, the book&#x27;s whole public account, on one side of the desk. On the other side, the 4 September report. Between them, a blank lane on the page plan with the label he gave it on [page 109](109.md).\n\n**Dialogue — CURT:**\n&gt; It was public the whole time and I did not find it. The September report made the missing lane visible to me.\n&gt;\n&gt; Public is not the same as disclosed. I am not the one who was owed an account, and the question stands anyway.\n\n**Provenance:** `reconstructed` + `inferred` — creator exchange; the distinction between public traces and a public incident account is the project&#x27;s, drawn from `CW-REPORT`&#x27;s disclosure discussion.\n\n&quot;,
+    &quot;title&quot;: &quot;Earlier public sources face the later wiki report&quot;
+  }
+}
+</metadata><rect width="1200" height="800" fill="#101214"/><g transform="translate(84 234.88) scale(1.9092 2.784)" color="#5E737B"><g transform=""><path d="M0 0H80L100 20V100H0Z" fill="currentColor"/><path d="M80 0V20H100M9 35H84M9 48H84M9 61H73M9 74H81" fill="none" stroke="#101214" stroke-width="1.5"/></g></g><text x="179.46" y="538.08" text-anchor="middle" fill="#E7E0D0" font-size="20" font-family="sans-serif">AUGUST ACCOUNTS</text><g transform="translate(342 234.88) scale(1.9092 2.784)" color="#5E737B"><g transform=""><path d="M0 0H80L100 20V100H0Z" fill="currentColor"/><path d="M80 0V20H100M9 35H84M9 48H84M9 61H73M9 74H81" fill="none" stroke="#101214" stroke-width="1.5"/></g></g><text x="437.46" y="538.08" text-anchor="middle" fill="#E7E0D0" font-size="20" font-family="sans-serif">4 SEPTEMBER</text><text x="437.46" y="565.28" text-anchor="middle" fill="#E7E0D0" font-size="20" font-family="sans-serif">REPORT</text><g transform="translate(336 95.68) scale(0.108 5.8464)" color="#A17D45"><g transform=""><path d="M50 0V100" stroke="currentColor" stroke-width="14"/></g></g><rect x="3" y="3" width="1194" height="794" fill="none" stroke="#5E737B" stroke-width="4"/></svg>

@@ -1,54 +1,87 @@
 {
   "background": "ink",
-  "intent": "Block two potential outcomes stay visible. Keep the scripted evidence boundary and lettering visible.",
+  "intent": "Give the information-producing reset and persistent-target-failure outcomes equal branches. The latter must visibly threaten task completion rather than look like a routine retry.",
   "lettering": [],
   "lettering_mode": "manual",
   "nodes": [
     {
+      "asset": "task",
+      "box": [
+        0.0632,
+        0.2928,
+        0.2002,
+        0.280368
+      ],
+      "color": "steel",
+      "focus": true,
+      "label": "EXPERIMENT",
+      "label_box": [
+        0.0632,
+        0.59016,
+        0.2002,
+        0.123192
+      ],
+      "label_size": 18
+    },
+    {
+      "asset": "arrow",
+      "box": [
+        0.2907,
+        0.24855,
+        0.1456,
+        0.0531
+      ],
+      "color": "steel",
+      "focus": true
+    },
+    {
+      "asset": "arrow",
+      "box": [
+        0.2907,
+        0.65565,
+        0.1456,
+        0.0531
+      ],
+      "color": "steel",
+      "focus": true
+    },
+    {
       "asset": "card",
       "box": [
-        0.1001,
-        0.287,
-        0.295926,
-        0.36
+        0.4909,
+        0.07155,
+        0.4459,
+        0.23364
       ],
       "color": "steel",
       "focus": true,
       "label": "RESET / INFORMATION",
       "label_box": [
-        0.09209999999999999,
-        0.653,
-        0.31192600000000004,
-        0.085
-      ]
+        0.4909,
+        0.31935,
+        0.4459,
+        0.10266
+      ],
+      "label_size": 18
     },
     {
       "asset": "cross",
       "box": [
-        0.527963,
-        0.287,
-        0.24,
-        0.36
+        0.63597,
+        0.54945,
+        0.15576,
+        0.23364
       ],
       "color": "steel",
       "focus": true,
-      "label": "TARGET STAYS DOWN",
+      "label": "TARGET DOWN / TASK LIKELY FAILS",
       "label_box": [
-        0.492,
-        0.653,
-        0.31192600000000004,
-        0.085
-      ]
-    },
-    {
-      "asset": "boundary",
-      "box": [
-        0.4907,
-        0.107,
-        0.01674,
-        0.756
+        0.4909,
+        0.79725,
+        0.4459,
+        0.10266
       ],
-      "color": "amber"
+      "label_size": 18
     }
   ],
   "reconstructed": false,

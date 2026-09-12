@@ -1,22 +1,24 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="800" viewBox="0 0 1200 800"><title>The OpenAI dossier records fourteen tokens</title><metadata>{
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="800" viewBox="0 0 1200 800"><title>The OpenAI dossier records fourteen tokens</title><desc>Use exactly fourteen small sealed cards inside the separate institutional frame. Their regular arrangement supports counting without suggesting the two dossiers describe identical token sets.</desc><metadata>{
   &quot;assets&quot;: {
     &quot;outline-box&quot;: &quot;&lt;rect x=\&quot;2\&quot; y=\&quot;2\&quot; width=\&quot;96\&quot; height=\&quot;96\&quot; fill=\&quot;none\&quot; stroke=\&quot;currentColor\&quot; stroke-width=\&quot;3\&quot;/&gt;&quot;,
     &quot;sealed&quot;: &quot;&lt;rect x=\&quot;3\&quot; y=\&quot;9\&quot; width=\&quot;94\&quot; height=\&quot;82\&quot; fill=\&quot;#202326\&quot; stroke=\&quot;currentColor\&quot; stroke-width=\&quot;3\&quot;/&gt;&lt;path d=\&quot;M12 30H88M12 49H88M12 68H88\&quot; stroke=\&quot;#101214\&quot; stroke-width=\&quot;12\&quot;/&gt;&quot;
   },
   &quot;palette&quot;: {
     &quot;amber&quot;: &quot;#A17D45&quot;,
+    &quot;claret&quot;: &quot;#6B2634&quot;,
     &quot;dirty&quot;: &quot;#CEC5B3&quot;,
     &quot;ink&quot;: &quot;#101214&quot;,
     &quot;institution&quot;: &quot;#68766B&quot;,
+    &quot;moss&quot;: &quot;#74864F&quot;,
     &quot;nicotine&quot;: &quot;#AA9571&quot;,
     &quot;paper&quot;: &quot;#E7E0D0&quot;,
     &quot;shadow&quot;: &quot;#202326&quot;,
     &quot;steel&quot;: &quot;#5E737B&quot;
   },
-  &quot;renderer&quot;: &quot;storyboard-svg-1&quot;,
+  &quot;renderer&quot;: &quot;storyboard-svg-2&quot;,
   &quot;scene&quot;: {
     &quot;background&quot;: &quot;ink&quot;,
-    &quot;intent&quot;: &quot;Block the OpenAI dossier records fourteen tokens. Keep the scripted evidence boundary and lettering visible.&quot;,
+    &quot;intent&quot;: &quot;Use exactly fourteen small sealed cards inside the separate institutional frame. Their regular arrangement supports counting without suggesting the two dossiers describe identical token sets.&quot;,
     &quot;lettering&quot;: [
       {
         &quot;box&quot;: [
@@ -37,7 +39,8 @@
           0.2668,
           0.10752
         ],
-        &quot;color&quot;: &quot;steel&quot;
+        &quot;color&quot;: &quot;steel&quot;,
+        &quot;focus&quot;: true
       },
       {
         &quot;asset&quot;: &quot;sealed&quot;,
@@ -58,7 +61,8 @@
           0.2668,
           0.10752
         ],
-        &quot;color&quot;: &quot;steel&quot;
+        &quot;color&quot;: &quot;steel&quot;,
+        &quot;focus&quot;: true
       },
       {
         &quot;asset&quot;: &quot;sealed&quot;,
@@ -79,7 +83,8 @@
           0.2668,
           0.10752
         ],
-        &quot;color&quot;: &quot;steel&quot;
+        &quot;color&quot;: &quot;steel&quot;,
+        &quot;focus&quot;: true
       },
       {
         &quot;asset&quot;: &quot;sealed&quot;,
@@ -100,7 +105,8 @@
           0.2668,
           0.10752
         ],
-        &quot;color&quot;: &quot;steel&quot;
+        &quot;color&quot;: &quot;steel&quot;,
+        &quot;focus&quot;: true
       },
       {
         &quot;asset&quot;: &quot;sealed&quot;,
@@ -121,7 +127,8 @@
           0.2668,
           0.10752
         ],
-        &quot;color&quot;: &quot;steel&quot;
+        &quot;color&quot;: &quot;steel&quot;,
+        &quot;focus&quot;: true
       },
       {
         &quot;asset&quot;: &quot;sealed&quot;,
@@ -142,7 +149,8 @@
           0.2668,
           0.10752
         ],
-        &quot;color&quot;: &quot;steel&quot;
+        &quot;color&quot;: &quot;steel&quot;,
+        &quot;focus&quot;: true
       },
       {
         &quot;asset&quot;: &quot;sealed&quot;,
@@ -163,7 +171,8 @@
           0.2668,
           0.10752
         ],
-        &quot;color&quot;: &quot;steel&quot;
+        &quot;color&quot;: &quot;steel&quot;,
+        &quot;focus&quot;: true
       },
       {
         &quot;asset&quot;: &quot;sealed&quot;,
@@ -184,7 +193,8 @@
           0.2668,
           0.10752
         ],
-        &quot;color&quot;: &quot;steel&quot;
+        &quot;color&quot;: &quot;steel&quot;,
+        &quot;focus&quot;: true
       },
       {
         &quot;asset&quot;: &quot;sealed&quot;,
@@ -205,7 +215,8 @@
           0.2668,
           0.10752
         ],
-        &quot;color&quot;: &quot;steel&quot;
+        &quot;color&quot;: &quot;steel&quot;,
+        &quot;focus&quot;: true
       },
       {
         &quot;asset&quot;: &quot;sealed&quot;,
@@ -226,7 +237,8 @@
           0.2668,
           0.10752
         ],
-        &quot;color&quot;: &quot;steel&quot;
+        &quot;color&quot;: &quot;steel&quot;,
+        &quot;focus&quot;: true
       },
       {
         &quot;asset&quot;: &quot;sealed&quot;,
@@ -247,7 +259,8 @@
           0.2668,
           0.10752
         ],
-        &quot;color&quot;: &quot;steel&quot;
+        &quot;color&quot;: &quot;steel&quot;,
+        &quot;focus&quot;: true
       },
       {
         &quot;asset&quot;: &quot;sealed&quot;,
@@ -268,7 +281,8 @@
           0.2668,
           0.10752
         ],
-        &quot;color&quot;: &quot;steel&quot;
+        &quot;color&quot;: &quot;steel&quot;,
+        &quot;focus&quot;: true
       },
       {
         &quot;asset&quot;: &quot;sealed&quot;,
@@ -289,7 +303,8 @@
           0.2668,
           0.10752
         ],
-        &quot;color&quot;: &quot;steel&quot;
+        &quot;color&quot;: &quot;steel&quot;,
+        &quot;focus&quot;: true
       },
       {
         &quot;asset&quot;: &quot;sealed&quot;,
@@ -310,7 +325,8 @@
           0.2668,
           0.10752
         ],
-        &quot;color&quot;: &quot;steel&quot;
+        &quot;color&quot;: &quot;steel&quot;,
+        &quot;focus&quot;: true
       },
       {
         &quot;asset&quot;: &quot;sealed&quot;,

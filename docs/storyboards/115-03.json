@@ -1,6 +1,6 @@
 {
   "background": "ink",
-  "intent": "Block checking the stated constraints leaves an incomplete result. Keep the scripted evidence boundary and lettering visible.",
+  "intent": "Attach an incomplete result field to the constraint check without declaring universal impossibility yet. The sequence should distinguish observation from the later bounded conclusion.",
   "lettering": [
     {
       "box": [
@@ -16,38 +16,40 @@
     {
       "asset": "card",
       "box": [
-        0.1044,
-        0.2242,
-        0.292744,
-        0.256
+        0.06775,
+        0.2012,
+        0.3913,
+        0.276474
       ],
       "color": "dirty",
       "focus": true,
       "label": "CONSTRAINTS",
       "label_box": [
-        0.09640000000000001,
-        0.4862,
-        0.308744,
-        0.085
-      ]
+        0.06775,
+        0.49443,
+        0.3913,
+        0.121481
+      ],
+      "label_size": 18
     },
     {
       "asset": "outline-box",
       "box": [
-        0.5,
-        0.2242,
-        0.292744,
-        0.256
+        0.52275,
+        0.2012,
+        0.3913,
+        0.276474
       ],
       "color": "dirty",
       "focus": true,
       "label": "INCOMPLETE",
       "label_box": [
-        0.492,
-        0.4862,
-        0.308744,
-        0.085
-      ]
+        0.52275,
+        0.49443,
+        0.3913,
+        0.121481
+      ],
+      "label_size": 18
     }
   ],
   "reconstructed": false,

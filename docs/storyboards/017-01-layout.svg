@@ -1,22 +1,24 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="800" viewBox="0 0 1200 800"><title>A different task begins with missing cells</title><metadata>{
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="800" viewBox="0 0 1200 800"><title>A different task begins with missing cells</title><desc>Make missing spreadsheet cells and external citation stubs the dominant pattern. The hard date cut and new task shape distinguish this run from the July opening.</desc><metadata>{
   &quot;assets&quot;: {
-    &quot;outline-box&quot;: &quot;&lt;rect x=\&quot;2\&quot; y=\&quot;2\&quot; width=\&quot;96\&quot; height=\&quot;96\&quot; fill=\&quot;none\&quot; stroke=\&quot;currentColor\&quot; stroke-width=\&quot;3\&quot;/&gt;&quot;,
-    &quot;sheet&quot;: &quot;&lt;rect x=\&quot;3\&quot; y=\&quot;3\&quot; width=\&quot;94\&quot; height=\&quot;94\&quot; fill=\&quot;#202326\&quot; stroke=\&quot;currentColor\&quot; stroke-width=\&quot;3\&quot;/&gt;&lt;path d=\&quot;M3 22H97M3 42H97M3 62H97M3 82H97M28 3V97M52 3V97M76 3V97\&quot; stroke=\&quot;currentColor\&quot; stroke-width=\&quot;1.5\&quot;/&gt;&quot;
+    &quot;empty-slot&quot;: &quot;&lt;rect x=\&quot;2\&quot; y=\&quot;2\&quot; width=\&quot;96\&quot; height=\&quot;96\&quot; fill=\&quot;none\&quot; stroke=\&quot;currentColor\&quot; stroke-width=\&quot;2\&quot; stroke-dasharray=\&quot;7 5\&quot;/&gt;&lt;path d=\&quot;M34 51H66\&quot; stroke=\&quot;currentColor\&quot; stroke-width=\&quot;2\&quot;/&gt;&quot;,
+    &quot;incomplete-sheet&quot;: &quot;&lt;rect x=\&quot;1\&quot; y=\&quot;1\&quot; width=\&quot;98\&quot; height=\&quot;98\&quot; fill=\&quot;#202326\&quot; stroke=\&quot;currentColor\&quot; stroke-width=\&quot;2\&quot;/&gt;&lt;path d=\&quot;M1 24H99M1 48H99M1 72H99M25 1V99M50 1V99M75 1V99\&quot; stroke=\&quot;currentColor\&quot; stroke-width=\&quot;1.5\&quot;/&gt;&lt;path d=\&quot;M5 12H20M30 12H45M5 36H20M5 60H20M30 60H45M55 60H70M5 84H20M55 84H70\&quot; stroke=\&quot;currentColor\&quot; stroke-width=\&quot;3\&quot;/&gt;&quot;
   },
   &quot;palette&quot;: {
     &quot;amber&quot;: &quot;#A17D45&quot;,
+    &quot;claret&quot;: &quot;#6B2634&quot;,
     &quot;dirty&quot;: &quot;#CEC5B3&quot;,
     &quot;ink&quot;: &quot;#101214&quot;,
     &quot;institution&quot;: &quot;#68766B&quot;,
+    &quot;moss&quot;: &quot;#74864F&quot;,
     &quot;nicotine&quot;: &quot;#AA9571&quot;,
     &quot;paper&quot;: &quot;#E7E0D0&quot;,
     &quot;shadow&quot;: &quot;#202326&quot;,
     &quot;steel&quot;: &quot;#5E737B&quot;
   },
-  &quot;renderer&quot;: &quot;storyboard-svg-1&quot;,
+  &quot;renderer&quot;: &quot;storyboard-svg-2&quot;,
   &quot;scene&quot;: {
     &quot;background&quot;: &quot;ink&quot;,
-    &quot;intent&quot;: &quot;Block a different task begins with missing cells. Keep the scripted evidence boundary and lettering visible.&quot;,
+    &quot;intent&quot;: &quot;Make missing spreadsheet cells and external citation stubs the dominant pattern. The hard date cut and new task shape distinguish this run from the July opening.&quot;,
     &quot;lettering&quot;: [
       {
         &quot;box&quot;: [
@@ -30,7 +32,7 @@
     &quot;lettering_mode&quot;: &quot;manual&quot;,
     &quot;nodes&quot;: [
       {
-        &quot;asset&quot;: &quot;sheet&quot;,
+        &quot;asset&quot;: &quot;incomplete-sheet&quot;,
         &quot;box&quot;: [
           0.2148,
           0.1282,
@@ -48,7 +50,7 @@
         ]
       },
       {
-        &quot;asset&quot;: &quot;outline-box&quot;,
+        &quot;asset&quot;: &quot;empty-slot&quot;,
         &quot;box&quot;: [
           0.0952,
           0.5698,
@@ -72,4 +74,4 @@
     &quot;title&quot;: &quot;A different task begins with missing cells&quot;
   }
 }
-</metadata><rect width="1200" height="800" fill="#101214"/><rect x="257.76" y="102.56" width="640.32" height="317.44" fill="none" stroke="#5E737B" stroke-width="3"/><text x="265.76" y="126.56" fill="#5E737B" font-family="sans-serif" font-size="20">sheet</text><text x="577.92" y="442.8" text-anchor="middle" fill="#E7E0D0" font-size="18" font-family="sans-serif">SPREADSHEET TASK</text><rect x="114.24" y="455.84" width="772.8" height="46.08" fill="none" stroke="#5E737B" stroke-width="3"/><text x="122.24" y="479.84" fill="#5E737B" font-family="sans-serif" font-size="20">outline-box</text><text x="500.64" y="526.72" text-anchor="middle" fill="#E7E0D0" font-size="20" font-family="sans-serif">MISSING INPUTS</text><rect x="3" y="3" width="1194" height="794" fill="none" stroke="#5E737B" stroke-width="4"/></svg>
+</metadata><rect width="1200" height="800" fill="#101214"/><rect x="257.76" y="102.56" width="640.32" height="317.44" fill="none" stroke="#5E737B" stroke-width="3"/><text x="265.76" y="126.56" fill="#5E737B" font-family="sans-serif" font-size="20">incomplete-sheet</text><text x="577.92" y="442.8" text-anchor="middle" fill="#E7E0D0" font-size="18" font-family="sans-serif">SPREADSHEET TASK</text><rect x="114.24" y="455.84" width="772.8" height="46.08" fill="none" stroke="#5E737B" stroke-width="3"/><text x="122.24" y="479.84" fill="#5E737B" font-family="sans-serif" font-size="20">empty-slot</text><text x="500.64" y="526.72" text-anchor="middle" fill="#E7E0D0" font-size="20" font-family="sans-serif">MISSING INPUTS</text><rect x="3" y="3" width="1194" height="794" fill="none" stroke="#5E737B" stroke-width="4"/></svg>

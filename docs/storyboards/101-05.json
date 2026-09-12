@@ -1,6 +1,6 @@
 {
   "background": "ink",
-  "intent": "Block earlier compositions rhyme beside the defensive circuit. Keep the scripted evidence boundary and lettering visible.",
+  "intent": "Place the three earlier distributed-work compositions beside the defensive circuit at matching scale. Let structural resemblance remain visible without adding an accusatory connector or verdict.",
   "lettering": [
     {
       "box": [
@@ -16,74 +16,78 @@
     {
       "asset": "folder",
       "box": [
-        0.07,
-        0.2936,
-        0.07955,
-        0.348
+        0.06775,
+        0.536568,
+        0.1638,
+        0.196413
       ],
       "color": "steel",
       "focus": true,
       "label": "SHARED RESOURCES",
       "label_box": [
-        0.062000000000000006,
-        0.6476,
-        0.09555,
-        0.085
-      ]
+        0.06775,
+        0.744885,
+        0.1638,
+        0.086303
+      ],
+      "label_size": 18
     },
     {
       "asset": "folder",
       "box": [
-        0.1775,
-        0.2936,
-        0.07955,
-        0.348
+        0.29525,
+        0.536568,
+        0.1638,
+        0.196413
       ],
       "color": "steel",
       "focus": true,
       "label": "WORKSTREAMS",
       "label_box": [
-        0.16949999999999998,
-        0.6476,
-        0.09555,
-        0.085
-      ]
+        0.29525,
+        0.744885,
+        0.1638,
+        0.086303
+      ],
+      "label_size": 18
     },
     {
       "asset": "box",
       "box": [
-        0.285,
-        0.2936,
-        0.07955,
-        0.348
+        0.52275,
+        0.536568,
+        0.1638,
+        0.196413
       ],
       "color": "steel",
       "focus": true,
       "label": "DISTRIBUTED ROUTE",
       "label_box": [
-        0.27699999999999997,
-        0.6476,
-        0.09555,
-        0.085
-      ]
+        0.52275,
+        0.744885,
+        0.1638,
+        0.086303
+      ],
+      "label_size": 18
     },
     {
       "asset": "card",
       "box": [
-        0.3925,
-        0.2936,
-        0.07955,
-        0.348
+        0.75025,
+        0.536568,
+        0.1638,
+        0.196413
       ],
       "color": "steel",
       "focus": true,
       "label": "DEFENSIVE CIRCUIT",
       "label_box": [
-        0.3845,
-        0.6476,
-        0.09555,
-        0.085
-      ]
+        0.75025,
+        0.744885,
+        0.1638,
+        0.086303
+      ],
+      "label_size": 18
     }
   ],
   "reconstructed": false,

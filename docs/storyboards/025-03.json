@@ -1,6 +1,6 @@
 {
   "background": "ink",
-  "intent": "Block a responder opens related telemetry. Keep the scripted evidence boundary and lettering visible.",
+  "intent": "Restrict the monitor to telemetry and workload identification. The responder can inspect those records here; the message board and persistent changes remain outside this knowledge field.",
   "lettering": [],
   "lettering_mode": "manual",
   "nodes": [
@@ -28,11 +28,12 @@
       "asset": "person-seated",
       "box": [
         0.0722,
-        0.29600000000000004,
+        0.296,
         0.2418,
-        0.5579999999999999
+        0.558
       ],
-      "color": "dirty"
+      "color": "dirty",
+      "focus": true
     },
     {
       "asset": "monitor",
@@ -78,7 +79,8 @@
         0.0651,
         0.126
       ],
-      "color": "nicotine"
+      "color": "nicotine",
+      "focus": true
     }
   ],
   "reconstructed": true,

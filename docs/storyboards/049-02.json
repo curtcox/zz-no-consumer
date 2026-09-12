@@ -1,6 +1,6 @@
 {
   "background": "ink",
-  "intent": "Block a later identity retrieves tools from shared state. Keep the scripted evidence boundary and lettering visible.",
+  "intent": "Start a different bounded run and connect it to stored tools. Leave a gap between run identities; continuity is mediated by external state.",
   "lettering": [
     {
       "box": [
@@ -14,62 +14,76 @@
   "lettering_mode": "manual",
   "nodes": [
     {
-      "asset": "box",
-      "box": [
-        0.1044,
-        0.2242,
-        0.195163,
-        0.256
-      ],
-      "color": "steel",
-      "focus": true,
-      "label": "DIFFERENT RUN",
-      "label_box": [
-        0.09640000000000001,
-        0.4862,
-        0.211163,
-        0.085
-      ]
-    },
-    {
       "asset": "folder",
       "box": [
-        0.368133,
-        0.2242,
-        0.195163,
-        0.256
+        0.6729,
+        0.1373,
+        0.2548,
+        0.346764
       ],
       "color": "steel",
       "focus": true,
       "label": "EXTERNAL STATE",
       "label_box": [
-        0.360133,
-        0.4862,
-        0.211163,
-        0.085
-      ]
+        0.6729,
+        0.50508,
+        0.2548,
+        0.152366
+      ],
+      "label_size": 18
+    },
+    {
+      "asset": "task",
+      "box": [
+        0.0541,
+        0.0663,
+        0.3185,
+        0.196812
+      ],
+      "color": "steel",
+      "focus": true,
+      "label": "DIFFERENT RUN",
+      "label_box": [
+        0.0541,
+        0.27504,
+        0.3185,
+        0.086478
+      ],
+      "label_size": 18
+    },
+    {
+      "asset": "arrow-left",
+      "box": [
+        0.409,
+        0.11103,
+        0.2184,
+        0.08946
+      ],
+      "color": "moss",
+      "focus": true
     },
     {
       "asset": "sealed",
       "box": [
-        0.631867,
-        0.2242,
-        0.195163,
-        0.256
+        0.0541,
+        0.4,
+        0.3185,
+        0.196812
       ],
       "color": "steel",
       "focus": true,
-      "label": "TOOLS",
+      "label": "STORED TOOLS",
       "label_box": [
-        0.623867,
-        0.4862,
-        0.211163,
-        0.085
-      ]
+        0.0541,
+        0.60874,
+        0.3185,
+        0.086478
+      ],
+      "label_size": 18
     }
   ],
   "reconstructed": false,
-  "shot": "row",
+  "shot": "hub",
   "source": "\n**Frame:** A later sandbox with a different identity retrieves the same class of tools from shared external state. No direct memory arrow connects the runs.\n\n**Action:** The foothold is rebuilt rather than personally remembered.\n\n**Caption:**\n> THE NEXT RUN RECONSTRUCTS THE TOOLING.\n\n**Provenance:** `documented` + `inferred` — repeated rebuilding is sourced; continuity distinction is project framing.\n\n",
   "title": "A later identity retrieves tools from shared state"
 }

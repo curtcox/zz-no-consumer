@@ -1,22 +1,24 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="800" viewBox="0 0 1200 800"><title>Three investigators face a six-day clock</title><metadata>{
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="800" viewBox="0 0 1200 800"><title>Three investigators face a six-day clock</title><desc>Use exactly three investigators against the oversized evidence field with a six-day clock. Human scale and available time jointly establish the review constraint.</desc><metadata>{
   &quot;assets&quot;: {
     &quot;clock&quot;: &quot;&lt;circle cx=\&quot;50\&quot; cy=\&quot;50\&quot; r=\&quot;44\&quot; fill=\&quot;#202326\&quot; stroke=\&quot;currentColor\&quot; stroke-width=\&quot;4\&quot;/&gt;&lt;path d=\&quot;M50 15V50L75 64M50 5V12M95 50H88M50 95V88M5 50H12\&quot; fill=\&quot;none\&quot; stroke=\&quot;currentColor\&quot; stroke-width=\&quot;4\&quot;/&gt;&quot;,
     &quot;person-standing&quot;: &quot;&lt;circle cx=\&quot;50\&quot; cy=\&quot;14\&quot; r=\&quot;12\&quot; fill=\&quot;currentColor\&quot;/&gt;&lt;path d=\&quot;M35 30H65L75 65H63L61 98H51L49 70L47 98H36L36 65H24Z\&quot; fill=\&quot;currentColor\&quot;/&gt;&quot;
   },
   &quot;palette&quot;: {
     &quot;amber&quot;: &quot;#A17D45&quot;,
+    &quot;claret&quot;: &quot;#6B2634&quot;,
     &quot;dirty&quot;: &quot;#CEC5B3&quot;,
     &quot;ink&quot;: &quot;#101214&quot;,
     &quot;institution&quot;: &quot;#68766B&quot;,
+    &quot;moss&quot;: &quot;#74864F&quot;,
     &quot;nicotine&quot;: &quot;#AA9571&quot;,
     &quot;paper&quot;: &quot;#E7E0D0&quot;,
     &quot;shadow&quot;: &quot;#202326&quot;,
     &quot;steel&quot;: &quot;#5E737B&quot;
   },
-  &quot;renderer&quot;: &quot;storyboard-svg-1&quot;,
+  &quot;renderer&quot;: &quot;storyboard-svg-2&quot;,
   &quot;scene&quot;: {
     &quot;background&quot;: &quot;ink&quot;,
-    &quot;intent&quot;: &quot;Block three investigators face a six-day clock. Keep the scripted evidence boundary and lettering visible.&quot;,
+    &quot;intent&quot;: &quot;Use exactly three investigators against the oversized evidence field with a six-day clock. Human scale and available time jointly establish the review constraint.&quot;,
     &quot;lettering&quot;: [
       {
         &quot;box&quot;: [
@@ -32,10 +34,10 @@
       {
         &quot;asset&quot;: &quot;person-standing&quot;,
         &quot;box&quot;: [
-          0.13491933333333334,
-          0.22419999999999998,
-          0.08533333333333334,
-          0.25600000000000006
+          0.079833,
+          0.2012,
+          0.139633,
+          0.4189
         ],
         &quot;color&quot;: &quot;dirty&quot;,
         &quot;focus&quot;: true
@@ -43,10 +45,10 @@
       {
         &quot;asset&quot;: &quot;person-standing&quot;,
         &quot;box&quot;: [
-          0.33271933333333337,
-          0.22419999999999998,
-          0.08533333333333334,
-          0.25600000000000006
+          0.307333,
+          0.2012,
+          0.139633,
+          0.4189
         ],
         &quot;color&quot;: &quot;dirty&quot;,
         &quot;focus&quot;: true
@@ -54,10 +56,10 @@
       {
         &quot;asset&quot;: &quot;person-standing&quot;,
         &quot;box&quot;: [
-          0.5305193333333333,
-          0.22419999999999998,
-          0.08533333333333334,
-          0.25600000000000006
+          0.534833,
+          0.2012,
+          0.139633,
+          0.4189
         ],
         &quot;color&quot;: &quot;dirty&quot;,
         &quot;focus&quot;: true
@@ -65,20 +67,21 @@
       {
         &quot;asset&quot;: &quot;clock&quot;,
         &quot;box&quot;: [
-          0.6978,
-          0.242421,
-          0.146372,
-          0.219558
+          0.75025,
+          0.216587,
+          0.1638,
+          0.2457
         ],
         &quot;color&quot;: &quot;steel&quot;,
         &quot;focus&quot;: true,
         &quot;label&quot;: &quot;SIX DAYS&quot;,
         &quot;label_box&quot;: [
-          0.6898,
-          0.4862,
-          0.16237200000000002,
-          0.085
-        ]
+          0.75025,
+          0.49443,
+          0.1638,
+          0.121481
+        ],
+        &quot;label_size&quot;: 18
       }
     ],
     &quot;reconstructed&quot;: true,
@@ -87,4 +90,4 @@
     &quot;title&quot;: &quot;Three investigators face a six-day clock&quot;
   }
 }
-</metadata><rect width="1200" height="800" fill="#101214"/><rect x="161.903" y="179.36" width="102.4" height="204.8" fill="none" stroke="#CEC5B3" stroke-width="3"/><text x="169.903" y="203.36" fill="#CEC5B3" font-family="sans-serif" font-size="20">person-standing</text><rect x="399.263" y="179.36" width="102.4" height="204.8" fill="none" stroke="#CEC5B3" stroke-width="3"/><text x="407.263" y="203.36" fill="#CEC5B3" font-family="sans-serif" font-size="20">person-standing</text><rect x="636.623" y="179.36" width="102.4" height="204.8" fill="none" stroke="#CEC5B3" stroke-width="3"/><text x="644.623" y="203.36" fill="#CEC5B3" font-family="sans-serif" font-size="20">person-standing</text><rect x="837.36" y="193.937" width="175.646" height="175.646" fill="none" stroke="#5E737B" stroke-width="3"/><text x="845.36" y="217.937" fill="#5E737B" font-family="sans-serif" font-size="20">clock</text><text x="925.183" y="408.96" text-anchor="middle" fill="#E7E0D0" font-size="20" font-family="sans-serif">SIX DAYS</text><rect x="3" y="3" width="1194" height="794" fill="none" stroke="#5E737B" stroke-width="4" stroke-dasharray="18 10"/></svg>
+</metadata><rect width="1200" height="800" fill="#101214"/><rect x="95.7996" y="160.96" width="167.56" height="335.12" fill="none" stroke="#CEC5B3" stroke-width="3"/><text x="103.8" y="184.96" fill="#CEC5B3" font-family="sans-serif" font-size="20">person-standing</text><rect x="368.8" y="160.96" width="167.56" height="335.12" fill="none" stroke="#CEC5B3" stroke-width="3"/><text x="376.8" y="184.96" fill="#CEC5B3" font-family="sans-serif" font-size="20">person-standing</text><rect x="641.8" y="160.96" width="167.56" height="335.12" fill="none" stroke="#CEC5B3" stroke-width="3"/><text x="649.8" y="184.96" fill="#CEC5B3" font-family="sans-serif" font-size="20">person-standing</text><rect x="900.3" y="173.27" width="196.56" height="196.56" fill="none" stroke="#5E737B" stroke-width="3"/><text x="908.3" y="197.27" fill="#5E737B" font-family="sans-serif" font-size="20">clock</text><text x="998.58" y="413.544" text-anchor="middle" fill="#E7E0D0" font-size="18" font-family="sans-serif">SIX DAYS</text><rect x="3" y="3" width="1194" height="794" fill="none" stroke="#5E737B" stroke-width="4" stroke-dasharray="18 10"/></svg>

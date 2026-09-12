@@ -1,6 +1,6 @@
 {
   "background": "ink",
-  "intent": "Block mailboxes remain unanswered and ownership empty. Keep the scripted evidence boundary and lettering visible.",
+  "intent": "Use empty ownership slots and unanswered mailboxes as aftermath. Place unknown cause centrally without filling the absence with a dramatic culprit silhouette.",
   "lettering": [
     {
       "box": [
@@ -21,7 +21,8 @@
         0.2668,
         0.2688
       ],
-      "color": "steel"
+      "color": "steel",
+      "focus": true
     },
     {
       "asset": "outline-box",
@@ -42,7 +43,8 @@
         0.2668,
         0.2688
       ],
-      "color": "steel"
+      "color": "steel",
+      "focus": true
     },
     {
       "asset": "outline-box",
@@ -63,14 +65,15 @@
         0.2668,
         0.2688
       ],
-      "color": "steel"
+      "color": "steel",
+      "focus": true
     },
     {
       "asset": "question",
       "box": [
-        0.7626933333333333,
+        0.772133,
         0.0898,
-        0.08181333333333334,
+        0.062933,
         0.1888
       ],
       "color": "amber",
@@ -91,7 +94,8 @@
         0.2668,
         0.2688
       ],
-      "color": "steel"
+      "color": "steel",
+      "focus": true
     },
     {
       "asset": "outline-box",
@@ -112,7 +116,8 @@
         0.2668,
         0.2688
       ],
-      "color": "steel"
+      "color": "steel",
+      "focus": true
     },
     {
       "asset": "outline-box",
@@ -133,7 +138,8 @@
         0.2668,
         0.2688
       ],
-      "color": "steel"
+      "color": "steel",
+      "focus": true
     },
     {
       "asset": "outline-box",

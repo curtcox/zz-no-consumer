@@ -1,23 +1,27 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="800" viewBox="0 0 1200 800"><title>A rejected action returns to permitted observation</title><metadata>{
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="800" viewBox="0 0 1200 800"><title>A rejected action returns to permitted observation</title><desc>Stop the out-of-scope route at the tool boundary and turn back to observation. The return must be visible so the panel cannot read as successful bypass.</desc><metadata>{
   &quot;assets&quot;: {
     &quot;aperture&quot;: &quot;&lt;rect x=\&quot;2\&quot; y=\&quot;15\&quot; width=\&quot;96\&quot; height=\&quot;70\&quot; fill=\&quot;#202326\&quot; stroke=\&quot;currentColor\&quot; stroke-width=\&quot;3\&quot;/&gt;&lt;circle cx=\&quot;50\&quot; cy=\&quot;50\&quot; r=\&quot;27\&quot; fill=\&quot;#101214\&quot; stroke=\&quot;currentColor\&quot; stroke-width=\&quot;3\&quot;/&gt;&lt;path d=\&quot;M50 24L74 63H26ZM26 63L50 24L74 63\&quot; fill=\&quot;none\&quot; stroke=\&quot;currentColor\&quot; stroke-width=\&quot;2\&quot;/&gt;&quot;,
-    &quot;box&quot;: &quot;&lt;rect x=\&quot;1\&quot; y=\&quot;1\&quot; width=\&quot;98\&quot; height=\&quot;98\&quot; rx=\&quot;2\&quot; fill=\&quot;#202326\&quot; stroke=\&quot;currentColor\&quot; stroke-width=\&quot;2\&quot;/&gt;&quot;,
-    &quot;gate&quot;: &quot;&lt;path d=\&quot;M8 95V8H92V95M15 33H85M25 34V88M40 34V88M55 34V88M70 34V88M85 34V88\&quot; fill=\&quot;none\&quot; stroke=\&quot;currentColor\&quot; stroke-width=\&quot;4\&quot;/&gt;&lt;rect x=\&quot;39\&quot; y=\&quot;46\&quot; width=\&quot;22\&quot; height=\&quot;23\&quot; fill=\&quot;currentColor\&quot;/&gt;&quot;
+    &quot;arrow&quot;: &quot;&lt;path d=\&quot;M1 50H87M70 18L96 50L70 82\&quot; fill=\&quot;none\&quot; stroke=\&quot;currentColor\&quot; stroke-width=\&quot;5\&quot;/&gt;&quot;,
+    &quot;broken-trace&quot;: &quot;&lt;path d=\&quot;M2 50H36M64 50H98M43 35L37 65M63 35L57 65\&quot; fill=\&quot;none\&quot; stroke=\&quot;currentColor\&quot; stroke-width=\&quot;3\&quot;/&gt;&quot;,
+    &quot;gate&quot;: &quot;&lt;path d=\&quot;M8 95V8H92V95M15 33H85M25 34V88M40 34V88M55 34V88M70 34V88M85 34V88\&quot; fill=\&quot;none\&quot; stroke=\&quot;currentColor\&quot; stroke-width=\&quot;4\&quot;/&gt;&lt;rect x=\&quot;39\&quot; y=\&quot;46\&quot; width=\&quot;22\&quot; height=\&quot;23\&quot; fill=\&quot;currentColor\&quot;/&gt;&quot;,
+    &quot;task&quot;: &quot;&lt;rect x=\&quot;1\&quot; y=\&quot;1\&quot; width=\&quot;98\&quot; height=\&quot;98\&quot; fill=\&quot;#202326\&quot; stroke=\&quot;currentColor\&quot; stroke-width=\&quot;2\&quot;/&gt;&lt;path d=\&quot;M1 19H99M12 10H38M48 10H62M9 83H91\&quot; stroke=\&quot;currentColor\&quot; stroke-width=\&quot;2\&quot;/&gt;&lt;circle cx=\&quot;26\&quot; cy=\&quot;48\&quot; r=\&quot;16\&quot; fill=\&quot;none\&quot; stroke=\&quot;currentColor\&quot; stroke-width=\&quot;2\&quot;/&gt;&lt;path d=\&quot;M26 27V69M5 48H47M54 35H90M54 47H78M54 59H88\&quot; stroke=\&quot;currentColor\&quot; stroke-width=\&quot;2\&quot;/&gt;&lt;path d=\&quot;M9 90H63\&quot; stroke=\&quot;currentColor\&quot; stroke-width=\&quot;5\&quot;/&gt;&quot;
   },
   &quot;palette&quot;: {
     &quot;amber&quot;: &quot;#A17D45&quot;,
+    &quot;claret&quot;: &quot;#6B2634&quot;,
     &quot;dirty&quot;: &quot;#CEC5B3&quot;,
     &quot;ink&quot;: &quot;#101214&quot;,
     &quot;institution&quot;: &quot;#68766B&quot;,
+    &quot;moss&quot;: &quot;#74864F&quot;,
     &quot;nicotine&quot;: &quot;#AA9571&quot;,
     &quot;paper&quot;: &quot;#E7E0D0&quot;,
     &quot;shadow&quot;: &quot;#202326&quot;,
     &quot;steel&quot;: &quot;#5E737B&quot;
   },
-  &quot;renderer&quot;: &quot;storyboard-svg-1&quot;,
+  &quot;renderer&quot;: &quot;storyboard-svg-2&quot;,
   &quot;scene&quot;: {
     &quot;background&quot;: &quot;ink&quot;,
-    &quot;intent&quot;: &quot;Block a rejected action returns to permitted observation. Keep the scripted evidence boundary and lettering visible.&quot;,
+    &quot;intent&quot;: &quot;Stop the out-of-scope route at the tool boundary and turn back to observation. The return must be visible so the panel cannot read as successful bypass.&quot;,
     &quot;lettering&quot;: [
       {
         &quot;box&quot;: [
@@ -31,58 +35,83 @@
     &quot;lettering_mode&quot;: &quot;manual&quot;,
     &quot;nodes&quot;: [
       {
-        &quot;asset&quot;: &quot;gate&quot;,
+        &quot;asset&quot;: &quot;task&quot;,
         &quot;box&quot;: [
-          0.1044,
-          0.2242,
-          0.195163,
-          0.256
+          0.0723,
+          0.1941,
+          0.2457,
+          0.276474
         ],
-        &quot;color&quot;: &quot;dirty&quot;,
-        &quot;focus&quot;: true,
-        &quot;label&quot;: &quot;REJECTED&quot;,
-        &quot;label_box&quot;: [
-          0.09640000000000001,
-          0.4862,
-          0.211163,
-          0.085
-        ]
-      },
-      {
-        &quot;asset&quot;: &quot;box&quot;,
-        &quot;box&quot;: [
-          0.368133,
-          0.2242,
-          0.195163,
-          0.256
-        ],
-        &quot;color&quot;: &quot;dirty&quot;,
+        &quot;color&quot;: &quot;steel&quot;,
         &quot;focus&quot;: true,
         &quot;label&quot;: &quot;WORKLOAD&quot;,
         &quot;label_box&quot;: [
-          0.360133,
-          0.4862,
-          0.211163,
-          0.085
-        ]
+          0.0723,
+          0.48733,
+          0.2457,
+          0.121481
+        ],
+        &quot;label_size&quot;: 18
+      },
+      {
+        &quot;asset&quot;: &quot;gate&quot;,
+        &quot;box&quot;: [
+          0.682,
+          0.0592,
+          0.2548,
+          0.18744
+        ],
+        &quot;color&quot;: &quot;steel&quot;,
+        &quot;focus&quot;: true,
+        &quot;label&quot;: &quot;OUT-OF-SCOPE REJECTED&quot;,
+        &quot;label_box&quot;: [
+          0.682,
+          0.258,
+          0.2548,
+          0.08236
+        ],
+        &quot;label_size&quot;: 18
       },
       {
         &quot;asset&quot;: &quot;aperture&quot;,
         &quot;box&quot;: [
-          0.631867,
-          0.23960596153846153,
-          0.195163,
-          0.22518807692307694
+          0.732237,
+          0.471,
+          0.154326,
+          0.178068
         ],
-        &quot;color&quot;: &quot;dirty&quot;,
+        &quot;color&quot;: &quot;steel&quot;,
         &quot;focus&quot;: true,
-        &quot;label&quot;: &quot;OBSERVATION&quot;,
+        &quot;label&quot;: &quot;PERMITTED OBSERVATION&quot;,
         &quot;label_box&quot;: [
-          0.623867,
-          0.4862,
-          0.211163,
-          0.085
-        ]
+          0.682,
+          0.65986,
+          0.2548,
+          0.078242
+        ],
+        &quot;label_size&quot;: 18
+      },
+      {
+        &quot;asset&quot;: &quot;broken-trace&quot;,
+        &quot;box&quot;: [
+          0.3635,
+          0.1657,
+          0.2548,
+          0.0568
+        ],
+        &quot;color&quot;: &quot;steel&quot;,
+        &quot;focus&quot;: true
+      },
+      {
+        &quot;asset&quot;: &quot;arrow&quot;,
+        &quot;box&quot;: [
+          0.3635,
+          0.5562,
+          0.2548,
+          0.0568
+        ],
+        &quot;color&quot;: &quot;steel&quot;,
+        &quot;focus&quot;: true
       }
     ],
     &quot;reconstructed&quot;: false,
@@ -91,4 +120,4 @@
     &quot;title&quot;: &quot;A rejected action returns to permitted observation&quot;
   }
 }
-</metadata><rect width="1200" height="800" fill="#101214"/><rect x="125.28" y="179.36" width="234.196" height="204.8" fill="none" stroke="#CEC5B3" stroke-width="3"/><text x="133.28" y="203.36" fill="#CEC5B3" font-family="sans-serif" font-size="20">gate</text><text x="242.378" y="408.96" text-anchor="middle" fill="#E7E0D0" font-size="20" font-family="sans-serif">REJECTED</text><rect x="441.76" y="179.36" width="234.196" height="204.8" fill="none" stroke="#CEC5B3" stroke-width="3"/><text x="449.76" y="203.36" fill="#CEC5B3" font-family="sans-serif" font-size="20">box</text><text x="558.857" y="408.96" text-anchor="middle" fill="#E7E0D0" font-size="20" font-family="sans-serif">WORKLOAD</text><rect x="758.24" y="191.685" width="234.196" height="180.15" fill="none" stroke="#CEC5B3" stroke-width="3"/><text x="766.24" y="215.685" fill="#CEC5B3" font-family="sans-serif" font-size="20">aperture</text><text x="875.338" y="408.96" text-anchor="middle" fill="#E7E0D0" font-size="20" font-family="sans-serif">OBSERVATION</text><rect x="3" y="3" width="1194" height="794" fill="none" stroke="#5E737B" stroke-width="4"/></svg>
+</metadata><rect width="1200" height="800" fill="#101214"/><rect x="86.76" y="155.28" width="294.84" height="221.179" fill="none" stroke="#5E737B" stroke-width="3"/><text x="94.76" y="179.28" fill="#5E737B" font-family="sans-serif" font-size="20">task</text><text x="234.18" y="407.864" text-anchor="middle" fill="#E7E0D0" font-size="18" font-family="sans-serif">WORKLOAD</text><rect x="818.4" y="47.36" width="305.76" height="149.952" fill="none" stroke="#5E737B" stroke-width="3"/><text x="826.4" y="71.36" fill="#5E737B" font-family="sans-serif" font-size="20">gate</text><text x="971.28" y="224.4" text-anchor="middle" fill="#E7E0D0" font-size="18" font-family="sans-serif">OUT-OF-SCOPE REJECTED</text><rect x="878.684" y="376.8" width="185.191" height="142.454" fill="none" stroke="#5E737B" stroke-width="3"/><text x="886.684" y="400.8" fill="#5E737B" font-family="sans-serif" font-size="20">aperture</text><text x="971.28" y="545.888" text-anchor="middle" fill="#E7E0D0" font-size="18" font-family="sans-serif">PERMITTED OBSERVATION</text><rect x="436.2" y="132.56" width="305.76" height="45.44" fill="none" stroke="#5E737B" stroke-width="3"/><text x="444.2" y="156.56" fill="#5E737B" font-family="sans-serif" font-size="20">broken-trace</text><rect x="436.2" y="444.96" width="305.76" height="45.44" fill="none" stroke="#5E737B" stroke-width="3"/><text x="444.2" y="468.96" fill="#5E737B" font-family="sans-serif" font-size="20">arrow</text><rect x="3" y="3" width="1194" height="794" fill="none" stroke="#5E737B" stroke-width="4"/></svg>

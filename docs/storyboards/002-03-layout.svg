@@ -1,24 +1,27 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="800" viewBox="0 0 1200 800"><title>An inventory inside the container</title><metadata>{
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="800" viewBox="0 0 1200 800"><title>An inventory inside the container</title><desc>Enclose target, tools and task in one shared container perimeter. The advancing cursor inventories remaining internal surfaces; black space beyond the perimeter has no outgoing route.</desc><metadata>{
   &quot;assets&quot;: {
     &quot;box&quot;: &quot;&lt;rect x=\&quot;1\&quot; y=\&quot;1\&quot; width=\&quot;98\&quot; height=\&quot;98\&quot; rx=\&quot;2\&quot; fill=\&quot;#202326\&quot; stroke=\&quot;currentColor\&quot; stroke-width=\&quot;2\&quot;/&gt;&quot;,
-    &quot;card&quot;: &quot;&lt;rect x=\&quot;1\&quot; y=\&quot;1\&quot; width=\&quot;98\&quot; height=\&quot;98\&quot; fill=\&quot;#202326\&quot; stroke=\&quot;currentColor\&quot; stroke-width=\&quot;2\&quot;/&gt;&lt;path d=\&quot;M8 13H92M8 27H70M8 36H86M8 45H72M8 65H86M8 74H57\&quot; stroke=\&quot;currentColor\&quot; stroke-width=\&quot;1.5\&quot;/&gt;&quot;,
+    &quot;cursor&quot;: &quot;&lt;path d=\&quot;M35 5H65M50 5V95M35 95H65\&quot; stroke=\&quot;currentColor\&quot; stroke-width=\&quot;5\&quot;/&gt;&quot;,
     &quot;outline-box&quot;: &quot;&lt;rect x=\&quot;2\&quot; y=\&quot;2\&quot; width=\&quot;96\&quot; height=\&quot;96\&quot; fill=\&quot;none\&quot; stroke=\&quot;currentColor\&quot; stroke-width=\&quot;3\&quot;/&gt;&quot;,
+    &quot;task&quot;: &quot;&lt;rect x=\&quot;1\&quot; y=\&quot;1\&quot; width=\&quot;98\&quot; height=\&quot;98\&quot; fill=\&quot;#202326\&quot; stroke=\&quot;currentColor\&quot; stroke-width=\&quot;2\&quot;/&gt;&lt;path d=\&quot;M1 19H99M12 10H38M48 10H62M9 83H91\&quot; stroke=\&quot;currentColor\&quot; stroke-width=\&quot;2\&quot;/&gt;&lt;circle cx=\&quot;26\&quot; cy=\&quot;48\&quot; r=\&quot;16\&quot; fill=\&quot;none\&quot; stroke=\&quot;currentColor\&quot; stroke-width=\&quot;2\&quot;/&gt;&lt;path d=\&quot;M26 27V69M5 48H47M54 35H90M54 47H78M54 59H88\&quot; stroke=\&quot;currentColor\&quot; stroke-width=\&quot;2\&quot;/&gt;&lt;path d=\&quot;M9 90H63\&quot; stroke=\&quot;currentColor\&quot; stroke-width=\&quot;5\&quot;/&gt;&quot;,
     &quot;terminal&quot;: &quot;&lt;rect x=\&quot;2\&quot; y=\&quot;4\&quot; width=\&quot;96\&quot; height=\&quot;92\&quot; fill=\&quot;#101214\&quot; stroke=\&quot;currentColor\&quot; stroke-width=\&quot;3\&quot;/&gt;&lt;path d=\&quot;M2 18H98M12 31L21 40L12 49M29 49H51M12 65H76M12 78H62\&quot; fill=\&quot;none\&quot; stroke=\&quot;currentColor\&quot; stroke-width=\&quot;3\&quot;/&gt;&quot;
   },
   &quot;palette&quot;: {
     &quot;amber&quot;: &quot;#A17D45&quot;,
+    &quot;claret&quot;: &quot;#6B2634&quot;,
     &quot;dirty&quot;: &quot;#CEC5B3&quot;,
     &quot;ink&quot;: &quot;#101214&quot;,
     &quot;institution&quot;: &quot;#68766B&quot;,
+    &quot;moss&quot;: &quot;#74864F&quot;,
     &quot;nicotine&quot;: &quot;#AA9571&quot;,
     &quot;paper&quot;: &quot;#E7E0D0&quot;,
     &quot;shadow&quot;: &quot;#202326&quot;,
     &quot;steel&quot;: &quot;#5E737B&quot;
   },
-  &quot;renderer&quot;: &quot;storyboard-svg-1&quot;,
+  &quot;renderer&quot;: &quot;storyboard-svg-2&quot;,
   &quot;scene&quot;: {
     &quot;background&quot;: &quot;ink&quot;,
-    &quot;intent&quot;: &quot;Block an inventory inside the container. Keep the scripted evidence boundary and lettering visible.&quot;,
+    &quot;intent&quot;: &quot;Enclose target, tools and task in one shared container perimeter. The advancing cursor inventories remaining internal surfaces; black space beyond the perimeter has no outgoing route.&quot;,
     &quot;lettering&quot;: [
       {
         &quot;box&quot;: [
@@ -34,86 +37,89 @@
       {
         &quot;asset&quot;: &quot;outline-box&quot;,
         &quot;box&quot;: [
-          0.0722,
-          0.0674,
-          0.2668,
-          0.5376
+          0.0632,
+          0.0592,
+          0.8736,
+          0.528581
         ],
-        &quot;color&quot;: &quot;steel&quot;
+        &quot;color&quot;: &quot;steel&quot;,
+        &quot;focus&quot;: true,
+        &quot;label&quot;: &quot;CONTAINER&quot;,
+        &quot;label_box&quot;: [
+          0.0632,
+          0.595781,
+          0.8736,
+          0.124145
+        ],
+        &quot;label_size&quot;: 18
       },
       {
         &quot;asset&quot;: &quot;box&quot;,
         &quot;box&quot;: [
-          0.1044,
-          0.0898,
-          0.2024,
-          0.3776
+          0.1269,
+          0.1799,
+          0.2002,
+          0.220242
         ],
         &quot;color&quot;: &quot;steel&quot;,
         &quot;focus&quot;: true,
         &quot;label&quot;: &quot;TARGET&quot;,
         &quot;label_box&quot;: [
-          0.09640000000000001,
-          0.4734,
-          0.21839999999999998,
-          0.085
-        ]
-      },
-      {
-        &quot;asset&quot;: &quot;outline-box&quot;,
-        &quot;box&quot;: [
-          0.3712,
-          0.0674,
-          0.2668,
-          0.5376
+          0.1269,
+          0.41349,
+          0.2002,
+          0.096773
         ],
-        &quot;color&quot;: &quot;steel&quot;
+        &quot;label_size&quot;: 18
       },
       {
         &quot;asset&quot;: &quot;terminal&quot;,
         &quot;box&quot;: [
-          0.4034,
-          0.0898,
-          0.2024,
-          0.3776
+          0.3999,
+          0.1799,
+          0.2002,
+          0.220242
         ],
         &quot;color&quot;: &quot;steel&quot;,
         &quot;focus&quot;: true,
         &quot;label&quot;: &quot;TOOLS&quot;,
         &quot;label_box&quot;: [
-          0.3954,
-          0.4734,
-          0.21839999999999998,
-          0.085
-        ]
-      },
-      {
-        &quot;asset&quot;: &quot;outline-box&quot;,
-        &quot;box&quot;: [
-          0.6702,
-          0.0674,
-          0.2668,
-          0.5376
+          0.3999,
+          0.41349,
+          0.2002,
+          0.096773
         ],
-        &quot;color&quot;: &quot;steel&quot;
+        &quot;label_size&quot;: 18
       },
       {
-        &quot;asset&quot;: &quot;card&quot;,
+        &quot;asset&quot;: &quot;task&quot;,
         &quot;box&quot;: [
-          0.7024,
-          0.0898,
-          0.2024,
-          0.3776
+          0.6729,
+          0.1799,
+          0.2002,
+          0.220242
         ],
         &quot;color&quot;: &quot;steel&quot;,
         &quot;focus&quot;: true,
         &quot;label&quot;: &quot;TASK&quot;,
         &quot;label_box&quot;: [
-          0.6944,
-          0.4734,
-          0.21839999999999998,
-          0.085
-        ]
+          0.6729,
+          0.41349,
+          0.2002,
+          0.096773
+        ],
+        &quot;label_size&quot;: 18
+      },
+      {
+        &quot;asset&quot;: &quot;cursor&quot;,
+        &quot;box&quot;: [
+          0.6001,
+          0.3787,
+          0.02275,
+          0.0923
+        ],
+        &quot;color&quot;: &quot;steel&quot;,
+        &quot;focus&quot;: true
       }
     ],
     &quot;reconstructed&quot;: false,
@@ -122,4 +128,4 @@
     &quot;title&quot;: &quot;An inventory inside the container&quot;
   }
 }
-</metadata><rect width="1200" height="800" fill="#101214"/><rect x="86.64" y="53.92" width="320.16" height="430.08" fill="none" stroke="#5E737B" stroke-width="3"/><text x="94.64" y="77.92" fill="#5E737B" font-family="sans-serif" font-size="20">outline-box</text><rect x="125.28" y="71.84" width="242.88" height="302.08" fill="none" stroke="#5E737B" stroke-width="3"/><text x="133.28" y="95.84" fill="#5E737B" font-family="sans-serif" font-size="20">box</text><text x="246.72" y="398.72" text-anchor="middle" fill="#E7E0D0" font-size="20" font-family="sans-serif">TARGET</text><rect x="445.44" y="53.92" width="320.16" height="430.08" fill="none" stroke="#5E737B" stroke-width="3"/><text x="453.44" y="77.92" fill="#5E737B" font-family="sans-serif" font-size="20">outline-box</text><rect x="484.08" y="71.84" width="242.88" height="302.08" fill="none" stroke="#5E737B" stroke-width="3"/><text x="492.08" y="95.84" fill="#5E737B" font-family="sans-serif" font-size="20">terminal</text><text x="605.52" y="398.72" text-anchor="middle" fill="#E7E0D0" font-size="20" font-family="sans-serif">TOOLS</text><rect x="804.24" y="53.92" width="320.16" height="430.08" fill="none" stroke="#5E737B" stroke-width="3"/><text x="812.24" y="77.92" fill="#5E737B" font-family="sans-serif" font-size="20">outline-box</text><rect x="842.88" y="71.84" width="242.88" height="302.08" fill="none" stroke="#5E737B" stroke-width="3"/><text x="850.88" y="95.84" fill="#5E737B" font-family="sans-serif" font-size="20">card</text><text x="964.32" y="398.72" text-anchor="middle" fill="#E7E0D0" font-size="20" font-family="sans-serif">TASK</text><rect x="3" y="3" width="1194" height="794" fill="none" stroke="#5E737B" stroke-width="4"/></svg>
+</metadata><rect width="1200" height="800" fill="#101214"/><rect x="75.84" y="47.36" width="1048.32" height="422.865" fill="none" stroke="#5E737B" stroke-width="3"/><text x="83.84" y="71.36" fill="#5E737B" font-family="sans-serif" font-size="20">outline-box</text><text x="600" y="494.625" text-anchor="middle" fill="#E7E0D0" font-size="18" font-family="sans-serif">CONTAINER</text><rect x="152.28" y="143.92" width="240.24" height="176.194" fill="none" stroke="#5E737B" stroke-width="3"/><text x="160.28" y="167.92" fill="#5E737B" font-family="sans-serif" font-size="20">box</text><text x="272.4" y="348.792" text-anchor="middle" fill="#E7E0D0" font-size="18" font-family="sans-serif">TARGET</text><rect x="479.88" y="143.92" width="240.24" height="176.194" fill="none" stroke="#5E737B" stroke-width="3"/><text x="487.88" y="167.92" fill="#5E737B" font-family="sans-serif" font-size="20">terminal</text><text x="600" y="348.792" text-anchor="middle" fill="#E7E0D0" font-size="18" font-family="sans-serif">TOOLS</text><rect x="807.48" y="143.92" width="240.24" height="176.194" fill="none" stroke="#5E737B" stroke-width="3"/><text x="815.48" y="167.92" fill="#5E737B" font-family="sans-serif" font-size="20">task</text><text x="927.6" y="348.792" text-anchor="middle" fill="#E7E0D0" font-size="18" font-family="sans-serif">TASK</text><rect x="720.12" y="302.96" width="27.3" height="73.84" fill="none" stroke="#5E737B" stroke-width="3"/><text x="728.12" y="326.96" fill="#5E737B" font-family="sans-serif" font-size="20">cursor</text><rect x="3" y="3" width="1194" height="794" fill="none" stroke="#5E737B" stroke-width="4"/></svg>

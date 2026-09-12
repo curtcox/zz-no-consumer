@@ -1,6 +1,6 @@
 {
   "background": "ink",
-  "intent": "Block the model answers before the creator acts. Keep the scripted evidence boundary and lettering visible.",
+  "intent": "Keep the creator's input field empty while the model response appears. Speed and interface position show who answers first without converting the response into authoritative adjudication.",
   "lettering": [
     {
       "box": [

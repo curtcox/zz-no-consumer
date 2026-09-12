@@ -1,6 +1,6 @@
 {
   "background": "ink",
-  "intent": "Block the inspection aperture faces the trace. Keep the scripted evidence boundary and lettering visible.",
+  "intent": "Make the mechanical aperture attend to a transcript strip while answer cards recede. This directional change should read as research into observation, not an omniscient eye watching the agents.",
   "lettering": [
     {
       "box": [
@@ -17,15 +17,15 @@
       "asset": "aperture",
       "box": [
         0.3096533333333333,
-        0.12819999999999998,
+        0.1282,
         0.3438933333333334,
-        0.39680000000000004
+        0.3968
       ],
       "color": "steel",
       "focus": true
     },
     {
-      "asset": "card",
+      "asset": "transcript",
       "box": [
         0.0952,
         0.5698,

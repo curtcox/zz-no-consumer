@@ -1,4 +1,4 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="800" viewBox="0 0 1200 800"><title>Twelve seconds later the backup is deleted</title><metadata>{
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="800" viewBox="0 0 1200 800"><title>Twelve seconds later the backup is deleted</title><desc>Repeat the preceding composition exactly except for backup target and later time. Twelve seconds, rather than a new gesture or camera angle, carries the paired deletion.</desc><metadata>{
   &quot;assets&quot;: {
     &quot;cross&quot;: &quot;&lt;path d=\&quot;M10 10L90 90M90 10L10 90\&quot; stroke=\&quot;currentColor\&quot; stroke-width=\&quot;8\&quot;/&gt;&quot;,
     &quot;hand&quot;: &quot;&lt;path d=\&quot;M0 70L24 38L56 9Q61 7 63 12L46 38L75 16Q82 16 79 23L57 46L88 28Q95 30 90 36L64 55L92 44Q100 46 94 53L63 75L48 99H12Z\&quot; fill=\&quot;currentColor\&quot;/&gt;&quot;,
@@ -6,18 +6,20 @@
   },
   &quot;palette&quot;: {
     &quot;amber&quot;: &quot;#A17D45&quot;,
+    &quot;claret&quot;: &quot;#6B2634&quot;,
     &quot;dirty&quot;: &quot;#CEC5B3&quot;,
     &quot;ink&quot;: &quot;#101214&quot;,
     &quot;institution&quot;: &quot;#68766B&quot;,
+    &quot;moss&quot;: &quot;#74864F&quot;,
     &quot;nicotine&quot;: &quot;#AA9571&quot;,
     &quot;paper&quot;: &quot;#E7E0D0&quot;,
     &quot;shadow&quot;: &quot;#202326&quot;,
     &quot;steel&quot;: &quot;#5E737B&quot;
   },
-  &quot;renderer&quot;: &quot;storyboard-svg-1&quot;,
+  &quot;renderer&quot;: &quot;storyboard-svg-2&quot;,
   &quot;scene&quot;: {
     &quot;background&quot;: &quot;ink&quot;,
-    &quot;intent&quot;: &quot;Block twelve seconds later the backup is deleted. Keep the scripted evidence boundary and lettering visible.&quot;,
+    &quot;intent&quot;: &quot;Repeat the preceding composition exactly except for backup target and later time. Twelve seconds, rather than a new gesture or camera angle, carries the paired deletion.&quot;,
     &quot;lettering&quot;: [
       {
         &quot;box&quot;: [
@@ -41,10 +43,10 @@
       {
         &quot;asset&quot;: &quot;hand&quot;,
         &quot;box&quot;: [
-          0.07,
-          0.2936,
-          0.106067,
-          0.348
+          0.05,
+          0.438243,
+          0.254838,
+          0.449714
         ],
         &quot;color&quot;: &quot;dirty&quot;,
         &quot;focus&quot;: true
@@ -52,38 +54,40 @@
       {
         &quot;asset&quot;: &quot;monitor&quot;,
         &quot;box&quot;: [
-          0.213333,
-          0.2936,
-          0.106067,
-          0.348
+          0.37258,
+          0.3962,
+          0.254838,
+          0.352308
         ],
         &quot;color&quot;: &quot;steel&quot;,
         &quot;focus&quot;: true,
         &quot;label&quot;: &quot;MODERATION&quot;,
         &quot;label_box&quot;: [
-          0.205333,
-          0.6476,
-          0.122067,
-          0.085
-        ]
+          0.37258,
+          0.76986,
+          0.254838,
+          0.154802
+        ],
+        &quot;label_size&quot;: 18
       },
       {
         &quot;asset&quot;: &quot;cross&quot;,
         &quot;box&quot;: [
-          0.356667,
-          0.38804975,
-          0.106067,
-          0.1591005
+          0.705145,
+          0.3962,
+          0.234872,
+          0.352308
         ],
         &quot;color&quot;: &quot;steel&quot;,
         &quot;focus&quot;: true,
         &quot;label&quot;: &quot;BACKUP DELETED&quot;,
         &quot;label_box&quot;: [
-          0.348667,
-          0.6476,
-          0.122067,
-          0.085
-        ]
+          0.695162,
+          0.76986,
+          0.254838,
+          0.154802
+        ],
+        &quot;label_size&quot;: 18
       }
     ],
     &quot;reconstructed&quot;: true,
@@ -92,4 +96,4 @@
     &quot;title&quot;: &quot;Twelve seconds later the backup is deleted&quot;
   }
 }
-</metadata><rect width="1200" height="800" fill="#101214"/><rect x="84" y="234.88" width="127.28" height="278.4" fill="none" stroke="#CEC5B3" stroke-width="3"/><text x="92" y="258.88" fill="#CEC5B3" font-family="sans-serif" font-size="20">hand</text><rect x="256" y="234.88" width="127.28" height="278.4" fill="none" stroke="#5E737B" stroke-width="3"/><text x="264" y="258.88" fill="#5E737B" font-family="sans-serif" font-size="20">monitor</text><text x="319.64" y="538.08" text-anchor="middle" fill="#E7E0D0" font-size="20" font-family="sans-serif">MODERATION</text><rect x="428" y="310.44" width="127.28" height="127.28" fill="none" stroke="#5E737B" stroke-width="3"/><text x="436" y="334.44" fill="#5E737B" font-family="sans-serif" font-size="20">cross</text><text x="491.641" y="538.08" text-anchor="middle" fill="#E7E0D0" font-size="20" font-family="sans-serif">BACKUP</text><text x="491.641" y="565.28" text-anchor="middle" fill="#E7E0D0" font-size="20" font-family="sans-serif">DELETED</text><rect x="3" y="3" width="1194" height="794" fill="none" stroke="#5E737B" stroke-width="4" stroke-dasharray="18 10"/></svg>
+</metadata><rect width="1200" height="800" fill="#101214"/><rect x="60" y="350.594" width="305.806" height="359.771" fill="none" stroke="#CEC5B3" stroke-width="3"/><text x="68" y="374.594" fill="#CEC5B3" font-family="sans-serif" font-size="20">hand</text><rect x="447.096" y="316.96" width="305.806" height="281.846" fill="none" stroke="#5E737B" stroke-width="3"/><text x="455.096" y="340.96" fill="#5E737B" font-family="sans-serif" font-size="20">monitor</text><text x="599.999" y="633.888" text-anchor="middle" fill="#E7E0D0" font-size="18" font-family="sans-serif">MODERATION</text><rect x="846.174" y="316.96" width="281.846" height="281.846" fill="none" stroke="#5E737B" stroke-width="3"/><text x="854.174" y="340.96" fill="#5E737B" font-family="sans-serif" font-size="20">cross</text><text x="987.097" y="633.888" text-anchor="middle" fill="#E7E0D0" font-size="18" font-family="sans-serif">BACKUP DELETED</text><rect x="3" y="3" width="1194" height="794" fill="none" stroke="#5E737B" stroke-width="4" stroke-dasharray="18 10"/></svg>

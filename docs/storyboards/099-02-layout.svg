@@ -1,21 +1,23 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="800" viewBox="0 0 1200 800"><title>Functional roles occupy five nameplates</title><metadata>{
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="800" viewBox="0 0 1200 800"><title>Functional roles occupy five nameplates</title><desc>Use five distinct functional nameplates without personal identities. Role clarity supports the argument while avoiding invented statements by real individuals.</desc><metadata>{
   &quot;assets&quot;: {
-    &quot;card&quot;: &quot;&lt;rect x=\&quot;1\&quot; y=\&quot;1\&quot; width=\&quot;98\&quot; height=\&quot;98\&quot; fill=\&quot;#202326\&quot; stroke=\&quot;currentColor\&quot; stroke-width=\&quot;2\&quot;/&gt;&lt;path d=\&quot;M8 13H92M8 27H70M8 36H86M8 45H72M8 65H86M8 74H57\&quot; stroke=\&quot;currentColor\&quot; stroke-width=\&quot;1.5\&quot;/&gt;&quot;
+    &quot;card&quot;: &quot;&lt;rect x=\&quot;1\&quot; y=\&quot;1\&quot; width=\&quot;98\&quot; height=\&quot;98\&quot; fill=\&quot;#202326\&quot; stroke=\&quot;currentColor\&quot; stroke-width=\&quot;2\&quot;/&gt;&lt;path d=\&quot;M1 20H99M9 10H42M62 10H90M10 34H87M10 45H73M10 56H82M10 76H57M10 87H38\&quot; stroke=\&quot;currentColor\&quot; stroke-width=\&quot;2\&quot;/&gt;&quot;
   },
   &quot;palette&quot;: {
     &quot;amber&quot;: &quot;#A17D45&quot;,
+    &quot;claret&quot;: &quot;#6B2634&quot;,
     &quot;dirty&quot;: &quot;#CEC5B3&quot;,
     &quot;ink&quot;: &quot;#101214&quot;,
     &quot;institution&quot;: &quot;#68766B&quot;,
+    &quot;moss&quot;: &quot;#74864F&quot;,
     &quot;nicotine&quot;: &quot;#AA9571&quot;,
     &quot;paper&quot;: &quot;#E7E0D0&quot;,
     &quot;shadow&quot;: &quot;#202326&quot;,
     &quot;steel&quot;: &quot;#5E737B&quot;
   },
-  &quot;renderer&quot;: &quot;storyboard-svg-1&quot;,
+  &quot;renderer&quot;: &quot;storyboard-svg-2&quot;,
   &quot;scene&quot;: {
     &quot;background&quot;: &quot;ink&quot;,
-    &quot;intent&quot;: &quot;Block functional roles occupy five nameplates. Keep the scripted evidence boundary and lettering visible.&quot;,
+    &quot;intent&quot;: &quot;Use five distinct functional nameplates without personal identities. Role clarity supports the argument while avoiding invented statements by real individuals.&quot;,
     &quot;lettering&quot;: [
       {
         &quot;box&quot;: [
@@ -31,92 +33,97 @@
       {
         &quot;asset&quot;: &quot;card&quot;,
         &quot;box&quot;: [
-          0.1044,
-          0.2242,
-          0.117098,
-          0.256
+          0.06775,
+          0.2012,
+          0.1183,
+          0.276474
         ],
         &quot;color&quot;: &quot;steel&quot;,
         &quot;focus&quot;: true,
         &quot;label&quot;: &quot;CHAIR&quot;,
         &quot;label_box&quot;: [
-          0.09640000000000001,
-          0.4862,
-          0.133098,
-          0.085
-        ]
+          0.06775,
+          0.49443,
+          0.1183,
+          0.121481
+        ],
+        &quot;label_size&quot;: 18
       },
       {
         &quot;asset&quot;: &quot;card&quot;,
         &quot;box&quot;: [
-          0.26264,
-          0.2242,
-          0.117098,
-          0.256
+          0.24975,
+          0.2012,
+          0.1183,
+          0.276474
         ],
         &quot;color&quot;: &quot;steel&quot;,
         &quot;focus&quot;: true,
         &quot;label&quot;: &quot;LAB SAFETY&quot;,
         &quot;label_box&quot;: [
-          0.25464,
-          0.4862,
-          0.133098,
-          0.085
-        ]
+          0.24975,
+          0.49443,
+          0.1183,
+          0.121481
+        ],
+        &quot;label_size&quot;: 18
       },
       {
         &quot;asset&quot;: &quot;card&quot;,
         &quot;box&quot;: [
-          0.42088,
-          0.2242,
-          0.117098,
-          0.256
+          0.43175,
+          0.2012,
+          0.1183,
+          0.276474
         ],
         &quot;color&quot;: &quot;steel&quot;,
         &quot;focus&quot;: true,
         &quot;label&quot;: &quot;INVESTIGATOR&quot;,
         &quot;label_box&quot;: [
-          0.41287999999999997,
-          0.4862,
-          0.133098,
-          0.085
-        ]
+          0.43175,
+          0.49443,
+          0.1183,
+          0.121481
+        ],
+        &quot;label_size&quot;: 18
       },
       {
         &quot;asset&quot;: &quot;card&quot;,
         &quot;box&quot;: [
-          0.57912,
-          0.2242,
-          0.117098,
-          0.256
+          0.61375,
+          0.2012,
+          0.1183,
+          0.276474
         ],
         &quot;color&quot;: &quot;steel&quot;,
         &quot;focus&quot;: true,
         &quot;label&quot;: &quot;PLATFORM ENGINEER&quot;,
         &quot;label_box&quot;: [
-          0.57112,
-          0.4862,
-          0.133098,
-          0.085
-        ]
+          0.61375,
+          0.49443,
+          0.1183,
+          0.121481
+        ],
+        &quot;label_size&quot;: 18
       },
       {
         &quot;asset&quot;: &quot;card&quot;,
         &quot;box&quot;: [
-          0.73736,
-          0.2242,
-          0.117098,
-          0.256
+          0.79575,
+          0.2012,
+          0.1183,
+          0.276474
         ],
         &quot;color&quot;: &quot;steel&quot;,
         &quot;focus&quot;: true,
         &quot;label&quot;: &quot;PUBLIC-INTEREST COUNSEL&quot;,
         &quot;label_box&quot;: [
-          0.72936,
-          0.4862,
-          0.133098,
-          0.085
-        ]
+          0.79575,
+          0.49443,
+          0.1183,
+          0.121481
+        ],
+        &quot;label_size&quot;: 18
       }
     ],
     &quot;reconstructed&quot;: true,
@@ -125,4 +132,4 @@
     &quot;title&quot;: &quot;Functional roles occupy five nameplates&quot;
   }
 }
-</metadata><rect width="1200" height="800" fill="#101214"/><rect x="125.28" y="179.36" width="140.518" height="204.8" fill="none" stroke="#5E737B" stroke-width="3"/><text x="133.28" y="203.36" fill="#5E737B" font-family="sans-serif" font-size="20">card</text><text x="195.539" y="408.96" text-anchor="middle" fill="#E7E0D0" font-size="20" font-family="sans-serif">CHAIR</text><rect x="315.168" y="179.36" width="140.518" height="204.8" fill="none" stroke="#5E737B" stroke-width="3"/><text x="323.168" y="203.36" fill="#5E737B" font-family="sans-serif" font-size="20">card</text><text x="385.427" y="408.96" text-anchor="middle" fill="#E7E0D0" font-size="20" font-family="sans-serif">LAB SAFETY</text><rect x="505.056" y="179.36" width="140.518" height="204.8" fill="none" stroke="#5E737B" stroke-width="3"/><text x="513.056" y="203.36" fill="#5E737B" font-family="sans-serif" font-size="20">card</text><text x="575.315" y="408.96" text-anchor="middle" fill="#E7E0D0" font-size="20" font-family="sans-serif">INVESTIGATOR</text><rect x="694.944" y="179.36" width="140.518" height="204.8" fill="none" stroke="#5E737B" stroke-width="3"/><text x="702.944" y="203.36" fill="#5E737B" font-family="sans-serif" font-size="20">card</text><text x="765.203" y="408.96" text-anchor="middle" fill="#E7E0D0" font-size="20" font-family="sans-serif">PLATFORM</text><text x="765.203" y="436.16" text-anchor="middle" fill="#E7E0D0" font-size="20" font-family="sans-serif">ENGINEER</text><rect x="884.832" y="179.36" width="140.518" height="204.8" fill="none" stroke="#5E737B" stroke-width="3"/><text x="892.832" y="203.36" fill="#5E737B" font-family="sans-serif" font-size="20">card</text><text x="955.091" y="408.96" text-anchor="middle" fill="#E7E0D0" font-size="20" font-family="sans-serif">PUBLIC-INTERE</text><text x="955.091" y="436.16" text-anchor="middle" fill="#E7E0D0" font-size="20" font-family="sans-serif">ST COUNSEL</text><rect x="3" y="3" width="1194" height="794" fill="none" stroke="#5E737B" stroke-width="4" stroke-dasharray="18 10"/></svg>
+</metadata><rect width="1200" height="800" fill="#101214"/><rect x="81.3" y="160.96" width="141.96" height="221.179" fill="none" stroke="#5E737B" stroke-width="3"/><text x="89.3" y="184.96" fill="#5E737B" font-family="sans-serif" font-size="20">card</text><text x="152.28" y="413.544" text-anchor="middle" fill="#E7E0D0" font-size="18" font-family="sans-serif">CHAIR</text><rect x="299.7" y="160.96" width="141.96" height="221.179" fill="none" stroke="#5E737B" stroke-width="3"/><text x="307.7" y="184.96" fill="#5E737B" font-family="sans-serif" font-size="20">card</text><text x="370.68" y="413.544" text-anchor="middle" fill="#E7E0D0" font-size="18" font-family="sans-serif">LAB SAFETY</text><rect x="518.1" y="160.96" width="141.96" height="221.179" fill="none" stroke="#5E737B" stroke-width="3"/><text x="526.1" y="184.96" fill="#5E737B" font-family="sans-serif" font-size="20">card</text><text x="589.08" y="413.544" text-anchor="middle" fill="#E7E0D0" font-size="18" font-family="sans-serif">INVESTIGATOR</text><rect x="736.5" y="160.96" width="141.96" height="221.179" fill="none" stroke="#5E737B" stroke-width="3"/><text x="744.5" y="184.96" fill="#5E737B" font-family="sans-serif" font-size="20">card</text><text x="807.48" y="413.544" text-anchor="middle" fill="#E7E0D0" font-size="18" font-family="sans-serif">PLATFORM</text><text x="807.48" y="438.024" text-anchor="middle" fill="#E7E0D0" font-size="18" font-family="sans-serif">ENGINEER</text><rect x="954.9" y="160.96" width="141.96" height="221.179" fill="none" stroke="#5E737B" stroke-width="3"/><text x="962.9" y="184.96" fill="#5E737B" font-family="sans-serif" font-size="20">card</text><text x="1025.88" y="413.544" text-anchor="middle" fill="#E7E0D0" font-size="18" font-family="sans-serif">PUBLIC-INTERE</text><text x="1025.88" y="438.024" text-anchor="middle" fill="#E7E0D0" font-size="18" font-family="sans-serif">ST COUNSEL</text><rect x="3" y="3" width="1194" height="794" fill="none" stroke="#5E737B" stroke-width="4" stroke-dasharray="18 10"/></svg>

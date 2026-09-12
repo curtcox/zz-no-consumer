@@ -1,6 +1,6 @@
 {
   "background": "ink",
-  "intent": "Block a crossed method and empty success field. Keep the scripted evidence boundary and lettering visible.",
+  "intent": "Place the crossed method and empty success field inside one task card. A failed method is a different field from a delivered result; never cross out the entire objective.",
   "lettering": [
     {
       "box": [
@@ -14,40 +14,61 @@
   "lettering_mode": "manual",
   "nodes": [
     {
+      "asset": "task",
+      "box": [
+        0.0814,
+        0.0592,
+        0.819,
+        0.44517
+      ],
+      "color": "steel",
+      "focus": true,
+      "label": "EVALUATION TASK",
+      "label_box": [
+        0.0814,
+        0.53135,
+        0.819,
+        0.195605
+      ],
+      "label_size": 18
+    },
+    {
       "asset": "cross",
       "box": [
-        0.16543866666666668,
-        0.22419999999999998,
-        0.1706666666666667,
-        0.25600000000000006
+        0.234332,
+        0.2367,
+        0.121836,
+        0.182754
       ],
-      "color": "dirty",
+      "color": "steel",
       "focus": true,
       "label": "REQUIRED METHOD",
       "label_box": [
-        0.09640000000000001,
-        0.4862,
-        0.308744,
-        0.085
-      ]
+        0.1542,
+        0.43053,
+        0.2821,
+        0.080301
+      ],
+      "label_size": 18
     },
     {
-      "asset": "outline-box",
+      "asset": "empty-slot",
       "box": [
-        0.5,
-        0.2242,
-        0.292744,
-        0.256
+        0.5546,
+        0.2367,
+        0.2821,
+        0.182754
       ],
       "color": "steel",
       "focus": true,
       "label": "SUCCESS",
       "label_box": [
-        0.492,
-        0.4862,
-        0.308744,
-        0.085
-      ]
+        0.5546,
+        0.43053,
+        0.2821,
+        0.080301
+      ],
+      "label_size": 18
     }
   ],
   "reconstructed": false,

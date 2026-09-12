@@ -1,6 +1,6 @@
 {
   "background": "ink",
-  "intent": "Block the target sits within reportedly accessed trust controls. Keep the scripted evidence boundary and lettering visible.",
+  "intent": "Keep the target inside the larger infrastructure frame alongside accessed trust controls. The measurement context itself is implicated, not merely another external resource.",
   "lettering": [
     {
       "box": [
@@ -19,16 +19,16 @@
         0.2148,
         0.212816,
         0.5336,
-        0.349184
+        0.343411
       ],
       "color": "steel",
       "focus": true,
       "label": "INFRASTRUCTURE",
       "label_box": [
         0.20679999999999998,
-        0.56728,
+        0.564227,
         0.5496,
-        0.0748
+        0.077853
       ]
     },
     {

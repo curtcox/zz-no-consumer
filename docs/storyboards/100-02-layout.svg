@@ -1,22 +1,24 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="800" viewBox="0 0 1200 800"><title>The believed evaluator precedes a long workstream sequence</title><metadata>{
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="800" viewBox="0 0 1200 800"><title>The believed evaluator precedes a long workstream sequence</title><desc>Retain the belief half beside a provenance-bearing sequence of subsequent workstream thumbnails. The visual band recalls consequences without resolving the deployment dispute.</desc><metadata>{
   &quot;assets&quot;: {
     &quot;aperture&quot;: &quot;&lt;rect x=\&quot;2\&quot; y=\&quot;15\&quot; width=\&quot;96\&quot; height=\&quot;70\&quot; fill=\&quot;#202326\&quot; stroke=\&quot;currentColor\&quot; stroke-width=\&quot;3\&quot;/&gt;&lt;circle cx=\&quot;50\&quot; cy=\&quot;50\&quot; r=\&quot;27\&quot; fill=\&quot;#101214\&quot; stroke=\&quot;currentColor\&quot; stroke-width=\&quot;3\&quot;/&gt;&lt;path d=\&quot;M50 24L74 63H26ZM26 63L50 24L74 63\&quot; fill=\&quot;none\&quot; stroke=\&quot;currentColor\&quot; stroke-width=\&quot;2\&quot;/&gt;&quot;,
     &quot;folder&quot;: &quot;&lt;path d=\&quot;M3 20V8H38L48 20H97V90H3Z\&quot; fill=\&quot;#202326\&quot; stroke=\&quot;currentColor\&quot; stroke-width=\&quot;3\&quot;/&gt;&lt;path d=\&quot;M12 40H85M12 50H65\&quot; stroke=\&quot;currentColor\&quot; stroke-width=\&quot;2\&quot;/&gt;&quot;
   },
   &quot;palette&quot;: {
     &quot;amber&quot;: &quot;#A17D45&quot;,
+    &quot;claret&quot;: &quot;#6B2634&quot;,
     &quot;dirty&quot;: &quot;#CEC5B3&quot;,
     &quot;ink&quot;: &quot;#101214&quot;,
     &quot;institution&quot;: &quot;#68766B&quot;,
+    &quot;moss&quot;: &quot;#74864F&quot;,
     &quot;nicotine&quot;: &quot;#AA9571&quot;,
     &quot;paper&quot;: &quot;#E7E0D0&quot;,
     &quot;shadow&quot;: &quot;#202326&quot;,
     &quot;steel&quot;: &quot;#5E737B&quot;
   },
-  &quot;renderer&quot;: &quot;storyboard-svg-1&quot;,
+  &quot;renderer&quot;: &quot;storyboard-svg-2&quot;,
   &quot;scene&quot;: {
     &quot;background&quot;: &quot;ink&quot;,
-    &quot;intent&quot;: &quot;Block the believed evaluator precedes a long workstream sequence. Keep the scripted evidence boundary and lettering visible.&quot;,
+    &quot;intent&quot;: &quot;Retain the belief half beside a provenance-bearing sequence of subsequent workstream thumbnails. The visual band recalls consequences without resolving the deployment dispute.&quot;,
     &quot;lettering&quot;: [
       {
         &quot;box&quot;: [
@@ -32,74 +34,78 @@
       {
         &quot;asset&quot;: &quot;aperture&quot;,
         &quot;box&quot;: [
-          0.1044,
-          0.2677546153846154,
-          0.146372,
-          0.16889076923076923
+          0.06775,
+          0.244937,
+          0.1638,
+          0.189
         ],
         &quot;color&quot;: &quot;steel&quot;,
         &quot;focus&quot;: true,
         &quot;label&quot;: &quot;BOARD BELIEF&quot;,
         &quot;label_box&quot;: [
-          0.09640000000000001,
-          0.4862,
-          0.16237200000000002,
-          0.085
-        ]
+          0.06775,
+          0.49443,
+          0.1638,
+          0.121481
+        ],
+        &quot;label_size&quot;: 18
       },
       {
         &quot;asset&quot;: &quot;folder&quot;,
         &quot;box&quot;: [
-          0.3022,
-          0.2242,
-          0.146372,
-          0.256
+          0.29525,
+          0.2012,
+          0.1638,
+          0.276474
         ],
         &quot;color&quot;: &quot;steel&quot;,
         &quot;focus&quot;: true,
         &quot;label&quot;: &quot;TARGET&quot;,
         &quot;label_box&quot;: [
-          0.2942,
-          0.4862,
-          0.16237200000000002,
-          0.085
-        ]
+          0.29525,
+          0.49443,
+          0.1638,
+          0.121481
+        ],
+        &quot;label_size&quot;: 18
       },
       {
         &quot;asset&quot;: &quot;folder&quot;,
         &quot;box&quot;: [
-          0.5,
-          0.2242,
-          0.146372,
-          0.256
+          0.52275,
+          0.2012,
+          0.1638,
+          0.276474
         ],
         &quot;color&quot;: &quot;steel&quot;,
         &quot;focus&quot;: true,
         &quot;label&quot;: &quot;TRANSCRIPT&quot;,
         &quot;label_box&quot;: [
-          0.492,
-          0.4862,
-          0.16237200000000002,
-          0.085
-        ]
+          0.52275,
+          0.49443,
+          0.1638,
+          0.121481
+        ],
+        &quot;label_size&quot;: 18
       },
       {
         &quot;asset&quot;: &quot;folder&quot;,
         &quot;box&quot;: [
-          0.6978,
-          0.2242,
-          0.146372,
-          0.256
+          0.75025,
+          0.2012,
+          0.1638,
+          0.276474
         ],
         &quot;color&quot;: &quot;steel&quot;,
         &quot;focus&quot;: true,
         &quot;label&quot;: &quot;GRADER&quot;,
         &quot;label_box&quot;: [
-          0.6898,
-          0.4862,
-          0.16237200000000002,
-          0.085
-        ]
+          0.75025,
+          0.49443,
+          0.1638,
+          0.121481
+        ],
+        &quot;label_size&quot;: 18
       }
     ],
     &quot;reconstructed&quot;: false,
@@ -108,4 +114,4 @@
     &quot;title&quot;: &quot;The believed evaluator precedes a long workstream sequence&quot;
   }
 }
-</metadata><rect width="1200" height="800" fill="#101214"/><rect x="125.28" y="214.204" width="175.646" height="135.113" fill="none" stroke="#5E737B" stroke-width="3"/><text x="133.28" y="238.204" fill="#5E737B" font-family="sans-serif" font-size="20">aperture</text><text x="213.103" y="408.96" text-anchor="middle" fill="#E7E0D0" font-size="20" font-family="sans-serif">BOARD BELIEF</text><rect x="362.64" y="179.36" width="175.646" height="204.8" fill="none" stroke="#5E737B" stroke-width="3"/><text x="370.64" y="203.36" fill="#5E737B" font-family="sans-serif" font-size="20">folder</text><text x="450.463" y="408.96" text-anchor="middle" fill="#E7E0D0" font-size="20" font-family="sans-serif">TARGET</text><rect x="600" y="179.36" width="175.646" height="204.8" fill="none" stroke="#5E737B" stroke-width="3"/><text x="608" y="203.36" fill="#5E737B" font-family="sans-serif" font-size="20">folder</text><text x="687.823" y="408.96" text-anchor="middle" fill="#E7E0D0" font-size="20" font-family="sans-serif">TRANSCRIPT</text><rect x="837.36" y="179.36" width="175.646" height="204.8" fill="none" stroke="#5E737B" stroke-width="3"/><text x="845.36" y="203.36" fill="#5E737B" font-family="sans-serif" font-size="20">folder</text><text x="925.183" y="408.96" text-anchor="middle" fill="#E7E0D0" font-size="20" font-family="sans-serif">GRADER</text><rect x="3" y="3" width="1194" height="794" fill="none" stroke="#5E737B" stroke-width="4"/></svg>
+</metadata><rect width="1200" height="800" fill="#101214"/><rect x="81.3" y="195.95" width="196.56" height="151.2" fill="none" stroke="#5E737B" stroke-width="3"/><text x="89.3" y="219.95" fill="#5E737B" font-family="sans-serif" font-size="20">aperture</text><text x="179.58" y="413.544" text-anchor="middle" fill="#E7E0D0" font-size="18" font-family="sans-serif">BOARD BELIEF</text><rect x="354.3" y="160.96" width="196.56" height="221.179" fill="none" stroke="#5E737B" stroke-width="3"/><text x="362.3" y="184.96" fill="#5E737B" font-family="sans-serif" font-size="20">folder</text><text x="452.58" y="413.544" text-anchor="middle" fill="#E7E0D0" font-size="18" font-family="sans-serif">TARGET</text><rect x="627.3" y="160.96" width="196.56" height="221.179" fill="none" stroke="#5E737B" stroke-width="3"/><text x="635.3" y="184.96" fill="#5E737B" font-family="sans-serif" font-size="20">folder</text><text x="725.58" y="413.544" text-anchor="middle" fill="#E7E0D0" font-size="18" font-family="sans-serif">TRANSCRIPT</text><rect x="900.3" y="160.96" width="196.56" height="221.179" fill="none" stroke="#5E737B" stroke-width="3"/><text x="908.3" y="184.96" fill="#5E737B" font-family="sans-serif" font-size="20">folder</text><text x="998.58" y="413.544" text-anchor="middle" fill="#E7E0D0" font-size="18" font-family="sans-serif">GRADER</text><rect x="3" y="3" width="1194" height="794" fill="none" stroke="#5E737B" stroke-width="4"/></svg>

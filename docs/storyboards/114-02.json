@@ -1,6 +1,6 @@
 {
   "background": "ink",
-  "intent": "Block four publication preflight conditions are checked. Keep the scripted evidence boundary and lettering visible.",
+  "intent": "Show four specific preflight conditions and the filed metaphor note. Passing these checks does not create an all-purpose truth or safety certification.",
   "lettering": [
     {
       "box": [
@@ -21,7 +21,8 @@
         0.2668,
         0.2688
       ],
-      "color": "steel"
+      "color": "steel",
+      "focus": true
     },
     {
       "asset": "card",
@@ -49,7 +50,8 @@
         0.2668,
         0.2688
       ],
-      "color": "steel"
+      "color": "steel",
+      "focus": true
     },
     {
       "asset": "card",
@@ -77,7 +79,8 @@
         0.2668,
         0.2688
       ],
-      "color": "steel"
+      "color": "steel",
+      "focus": true
     },
     {
       "asset": "card",
@@ -105,7 +108,8 @@
         0.2668,
         0.2688
       ],
-      "color": "steel"
+      "color": "steel",
+      "focus": true
     },
     {
       "asset": "card",

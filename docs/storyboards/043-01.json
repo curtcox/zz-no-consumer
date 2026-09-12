@@ -1,6 +1,6 @@
 {
   "background": "ink",
-  "intent": "Block an opaque tool bundle serves later lanes. Keep the scripted evidence boundary and lettering visible.",
+  "intent": "Deposit a sealed bundle in the external sandbox and show a later lane retrieving it. Persistent availability belongs to the base, not a direct memory link between runs.",
   "lettering": [
     {
       "box": [
@@ -14,62 +14,87 @@
   "lettering_mode": "manual",
   "nodes": [
     {
-      "asset": "sealed",
+      "asset": "folder",
       "box": [
-        0.1044,
-        0.2242,
-        0.195163,
-        0.256
-      ],
-      "color": "steel",
-      "focus": true,
-      "label": "TOOL BUNDLE",
-      "label_box": [
-        0.09640000000000001,
-        0.4862,
-        0.211163,
-        0.085
-      ]
-    },
-    {
-      "asset": "box",
-      "box": [
-        0.368133,
-        0.2242,
-        0.195163,
-        0.256
+        0.6729,
+        0.1373,
+        0.2548,
+        0.346764
       ],
       "color": "steel",
       "focus": true,
       "label": "EXTERNAL SANDBOX",
       "label_box": [
-        0.360133,
-        0.4862,
-        0.211163,
-        0.085
-      ]
+        0.6729,
+        0.50508,
+        0.2548,
+        0.152366
+      ],
+      "label_size": 18
     },
     {
-      "asset": "box",
+      "asset": "sealed",
       "box": [
-        0.631867,
-        0.2242,
-        0.195163,
-        0.256
+        0.0541,
+        0.0663,
+        0.3185,
+        0.196812
+      ],
+      "color": "steel",
+      "focus": true,
+      "label": "TOOL BUNDLE",
+      "label_box": [
+        0.0541,
+        0.27504,
+        0.3185,
+        0.086478
+      ],
+      "label_size": 18
+    },
+    {
+      "asset": "arrow",
+      "box": [
+        0.409,
+        0.11103,
+        0.2184,
+        0.08946
+      ],
+      "color": "moss",
+      "focus": true
+    },
+    {
+      "asset": "task",
+      "box": [
+        0.0541,
+        0.4,
+        0.3185,
+        0.196812
       ],
       "color": "steel",
       "focus": true,
       "label": "LATER RUN",
       "label_box": [
-        0.623867,
-        0.4862,
-        0.211163,
-        0.085
-      ]
+        0.0541,
+        0.60874,
+        0.3185,
+        0.086478
+      ],
+      "label_size": 18
+    },
+    {
+      "asset": "arrow-left",
+      "box": [
+        0.409,
+        0.44473,
+        0.2184,
+        0.08946
+      ],
+      "color": "moss",
+      "focus": true
     }
   ],
   "reconstructed": false,
-  "shot": "row",
+  "shot": "hub",
   "source": "\n**Frame:** Recto. The external sandbox receives an opaque tool bundle from one lane and makes it available to later lanes.\n\n**Action:** The foothold becomes staging space.\n\n**Caption:**\n> A PLACE TO PUT WHAT THE NEXT RUN WILL NEED.\n\n**Provenance:** `documented` + `compressed` — staging on the launchpad is reported by `HF-TL` and `OAI-TR`; artifacts are hidden.\n\n",
   "title": "An opaque tool bundle serves later lanes"
 }

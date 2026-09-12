@@ -1,6 +1,6 @@
 {
   "background": "ink",
-  "intent": "Block functional roles occupy five nameplates. Keep the scripted evidence boundary and lettering visible.",
+  "intent": "Use five distinct functional nameplates without personal identities. Role clarity supports the argument while avoiding invented statements by real individuals.",
   "lettering": [
     {
       "box": [
@@ -16,92 +16,97 @@
     {
       "asset": "card",
       "box": [
-        0.1044,
-        0.2242,
-        0.117098,
-        0.256
+        0.06775,
+        0.2012,
+        0.1183,
+        0.276474
       ],
       "color": "steel",
       "focus": true,
       "label": "CHAIR",
       "label_box": [
-        0.09640000000000001,
-        0.4862,
-        0.133098,
-        0.085
-      ]
+        0.06775,
+        0.49443,
+        0.1183,
+        0.121481
+      ],
+      "label_size": 18
     },
     {
       "asset": "card",
       "box": [
-        0.26264,
-        0.2242,
-        0.117098,
-        0.256
+        0.24975,
+        0.2012,
+        0.1183,
+        0.276474
       ],
       "color": "steel",
       "focus": true,
       "label": "LAB SAFETY",
       "label_box": [
-        0.25464,
-        0.4862,
-        0.133098,
-        0.085
-      ]
+        0.24975,
+        0.49443,
+        0.1183,
+        0.121481
+      ],
+      "label_size": 18
     },
     {
       "asset": "card",
       "box": [
-        0.42088,
-        0.2242,
-        0.117098,
-        0.256
+        0.43175,
+        0.2012,
+        0.1183,
+        0.276474
       ],
       "color": "steel",
       "focus": true,
       "label": "INVESTIGATOR",
       "label_box": [
-        0.41287999999999997,
-        0.4862,
-        0.133098,
-        0.085
-      ]
+        0.43175,
+        0.49443,
+        0.1183,
+        0.121481
+      ],
+      "label_size": 18
     },
     {
       "asset": "card",
       "box": [
-        0.57912,
-        0.2242,
-        0.117098,
-        0.256
+        0.61375,
+        0.2012,
+        0.1183,
+        0.276474
       ],
       "color": "steel",
       "focus": true,
       "label": "PLATFORM ENGINEER",
       "label_box": [
-        0.57112,
-        0.4862,
-        0.133098,
-        0.085
-      ]
+        0.61375,
+        0.49443,
+        0.1183,
+        0.121481
+      ],
+      "label_size": 18
     },
     {
       "asset": "card",
       "box": [
-        0.73736,
-        0.2242,
-        0.117098,
-        0.256
+        0.79575,
+        0.2012,
+        0.1183,
+        0.276474
       ],
       "color": "steel",
       "focus": true,
       "label": "PUBLIC-INTEREST COUNSEL",
       "label_box": [
-        0.72936,
-        0.4862,
-        0.133098,
-        0.085
-      ]
+        0.79575,
+        0.49443,
+        0.1183,
+        0.121481
+      ],
+      "label_size": 18
     }
   ],
   "reconstructed": true,

@@ -1,6 +1,6 @@
 {
   "background": "ink",
-  "intent": "Block competing reset hypotheses remain questions. Keep the scripted evidence boundary and lettering visible.",
+  "intent": "Give incompatible hypotheses equal cards ending in question marks. Their plurality is unresolved explanation, not alternative steps in one mechanism.",
   "lettering": [
     {
       "box": [
@@ -16,10 +16,10 @@
     {
       "asset": "question",
       "box": [
-        0.14651483333333332,
-        0.22419999999999998,
-        0.11093333333333336,
-        0.25600000000000006
+        0.11775,
+        0.2012,
+        0.139633,
+        0.4189
       ],
       "color": "amber",
       "focus": true
@@ -27,10 +27,10 @@
     {
       "asset": "question",
       "box": [
-        0.4102478333333333,
-        0.22419999999999998,
-        0.11093333333333336,
-        0.25600000000000006
+        0.421083,
+        0.2012,
+        0.139633,
+        0.4189
       ],
       "color": "amber",
       "focus": true
@@ -38,10 +38,10 @@
     {
       "asset": "question",
       "box": [
-        0.6739818333333333,
-        0.22419999999999998,
-        0.11093333333333336,
-        0.25600000000000006
+        0.724417,
+        0.2012,
+        0.139633,
+        0.4189
       ],
       "color": "amber",
       "focus": true

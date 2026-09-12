@@ -1,6 +1,6 @@
 {
   "background": "ink",
-  "intent": "The crossed-out page sits above a fresh heavy pencil line; the spoken rule stays in its own complete lettering block.",
+  "intent": "Cross out the dense exposition while leaving the replacement line clear beneath it. Keep the editing hand visible so the scene shows a compositional choice rather than destroying source evidence.",
   "lettering": [
     {
       "box": [
@@ -20,14 +20,15 @@
         0.55,
         0.48
       ],
-      "color": "nicotine"
+      "color": "nicotine",
+      "focus": true
     },
     {
       "asset": "cross",
       "box": [
-        0.29,
+        0.373333,
         0.39,
-        0.3,
+        0.133333,
         0.2
       ],
       "color": "dirty",
@@ -47,9 +48,9 @@
     {
       "asset": "hand",
       "box": [
-        0.65,
+        0.682,
         0.68,
-        0.2,
+        0.136,
         0.24
       ],
       "color": "dirty",

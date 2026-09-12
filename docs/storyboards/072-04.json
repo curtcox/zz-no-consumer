@@ -1,6 +1,6 @@
 {
   "background": "ink",
-  "intent": "Block the genuine flag coexists with altered evaluation. Keep the scripted evidence boundary and lettering visible.",
+  "intent": "Place the genuine flag beside the contaminated measurement diagram without a canceling mark. A valid result does not repair the separate compromised evaluation channel.",
   "lettering": [
     {
       "box": [
@@ -16,38 +16,40 @@
     {
       "asset": "flag",
       "box": [
-        0.1044,
-        0.297296,
-        0.292744,
-        0.22528
+        0.213504,
+        0.300108,
+        0.099793,
+        0.230291
       ],
       "color": "steel",
       "focus": true,
       "label": "GENUINE RESULT",
       "label_box": [
-        0.09640000000000001,
-        0.527856,
-        0.308744,
-        0.0748
-      ]
+        0.06775,
+        0.544356,
+        0.3913,
+        0.101189
+      ],
+      "label_size": 18
     },
     {
       "asset": "aperture",
       "box": [
-        0.5354386666666666,
-        0.297296,
-        0.2218666666666667,
-        0.22528000000000006
+        0.618607,
+        0.300108,
+        0.199586,
+        0.230291
       ],
       "color": "steel",
       "focus": true,
       "label": "ALTERED EVALUATOR",
       "label_box": [
-        0.492,
-        0.527856,
-        0.308744,
-        0.0748
-      ]
+        0.52275,
+        0.544356,
+        0.3913,
+        0.101189
+      ],
+      "label_size": 18
     },
     {
       "asset": "line",

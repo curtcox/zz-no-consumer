@@ -1,6 +1,6 @@
 {
   "background": "ink",
-  "intent": "Block the retained-transcript claim has equal evidence space. Keep the scripted evidence boundary and lettering visible. Existing source-derived wording is a visibly labelled paraphrase; quotation disposition remains open.",
+  "intent": "Give the retained-transcript evidence equal space and readability. The competing record must not be visually subordinated before the discrepancy is examined.",
   "lettering": [
     {
       "box": [
@@ -14,7 +14,7 @@
   "lettering_mode": "manual",
   "nodes": [
     {
-      "asset": "card",
+      "asset": "transcript",
       "box": [
         0.2148,
         0.1282,

@@ -1,6 +1,6 @@
 {
   "background": "ink",
-  "intent": "Block three public response lanes remain distinct. Keep the scripted evidence boundary and lettering visible.",
+  "intent": "Keep remediation, advocacy and compulsory process in parallel lanes with separate endpoints. None supplies a complete account of the others' progress.",
   "lettering": [
     {
       "box": [
@@ -16,56 +16,59 @@
     {
       "asset": "gate",
       "box": [
-        0.1044,
-        0.2242,
-        0.195163,
-        0.256
+        0.06775,
+        0.2012,
+        0.239633,
+        0.276474
       ],
       "color": "steel",
       "focus": true,
       "label": "REMEDIATION",
       "label_box": [
-        0.09640000000000001,
-        0.4862,
-        0.211163,
-        0.085
-      ]
+        0.06775,
+        0.49443,
+        0.239633,
+        0.121481
+      ],
+      "label_size": 18
     },
     {
       "asset": "paper",
       "box": [
-        0.368133,
-        0.2242,
-        0.195163,
-        0.256
+        0.371083,
+        0.2012,
+        0.239633,
+        0.276474
       ],
       "color": "steel",
       "focus": true,
       "label": "ADVOCACY",
       "label_box": [
-        0.360133,
-        0.4862,
-        0.211163,
-        0.085
-      ]
+        0.371083,
+        0.49443,
+        0.239633,
+        0.121481
+      ],
+      "label_size": 18
     },
     {
       "asset": "folder",
       "box": [
-        0.631867,
-        0.2242,
-        0.195163,
-        0.256
+        0.674417,
+        0.2012,
+        0.239633,
+        0.276474
       ],
       "color": "steel",
       "focus": true,
       "label": "COMPULSORY PROCESS",
       "label_box": [
-        0.623867,
-        0.4862,
-        0.211163,
-        0.085
-      ]
+        0.674417,
+        0.49443,
+        0.239633,
+        0.121481
+      ],
+      "label_size": 18
     }
   ],
   "reconstructed": false,

@@ -1,62 +1,65 @@
 {
   "background": "ink",
-  "intent": "Block the reported worker reaches redacted secrets. Keep the scripted evidence boundary and lettering visible.",
+  "intent": "Enclose the worker and reachable secret classes while fully concealing names and values. Show reported access scope without implying all secrets were used.",
   "lettering": [],
   "lettering_mode": "manual",
   "nodes": [
     {
       "asset": "box",
       "box": [
-        0.1001,
-        0.35256,
-        0.197284,
-        0.31679999999999997
+        0.06775,
+        0.3372,
+        0.239633,
+        0.295944
       ],
       "color": "steel",
       "focus": true,
       "label": "WORKER",
       "label_box": [
-        0.09209999999999999,
-        0.67464,
-        0.21328399999999997,
-        0.0748
-      ]
+        0.06775,
+        0.65108,
+        0.239633,
+        0.130036
+      ],
+      "label_size": 18
     },
     {
       "asset": "sealed",
       "box": [
-        0.3667,
-        0.35256,
-        0.197284,
-        0.31679999999999997
+        0.371083,
+        0.3372,
+        0.239633,
+        0.295944
       ],
       "color": "steel",
       "focus": true,
       "label": "CI TOKENS",
       "label_box": [
-        0.3587,
-        0.67464,
-        0.21328399999999997,
-        0.0748
-      ]
+        0.371083,
+        0.65108,
+        0.239633,
+        0.130036
+      ],
+      "label_size": 18
     },
     {
       "asset": "sealed",
       "box": [
-        0.6333,
-        0.35256,
-        0.197284,
-        0.31679999999999997
+        0.674417,
+        0.3372,
+        0.239633,
+        0.295944
       ],
       "color": "steel",
       "focus": true,
       "label": "CLOUD SECRETS",
       "label_box": [
-        0.6253,
-        0.67464,
-        0.21328399999999997,
-        0.0748
-      ]
+        0.674417,
+        0.65108,
+        0.239633,
+        0.130036
+      ],
+      "label_size": 18
     },
     {
       "asset": "line",

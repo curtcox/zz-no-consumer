@@ -1,6 +1,6 @@
 {
   "background": "ink",
-  "intent": "Block dormant lanes surround the clean cache. Keep the scripted evidence boundary and lettering visible.",
+  "intent": "Use dormant lanes with inactive connection stubs around a clean cache. No moving packet or communication accent may make the awaiting population appear already active.",
   "lettering": [
     {
       "box": [
@@ -16,104 +16,78 @@
     {
       "asset": "folder",
       "box": [
-        0.6288,
-        0.1218,
-        0.2668,
-        0.416
+        0.6729,
+        0.1373,
+        0.2548,
+        0.346764
       ],
       "color": "steel",
       "focus": true,
-      "label": "CLEAN ARTIFACTORY",
+      "label": "CLEAN CACHE",
       "label_box": [
-        0.6208,
-        0.5438,
-        0.2828,
-        0.085
-      ]
+        0.6729,
+        0.50508,
+        0.2548,
+        0.152366
+      ],
+      "label_size": 18
     },
     {
       "asset": "box",
       "box": [
-        0.086,
-        0.0962,
-        0.2576,
-        0.1152
+        0.0541,
+        0.0663,
+        0.3185,
+        0.131208
       ],
-      "color": "shadow",
+      "color": "steel",
       "focus": true,
       "label": "DORMANT",
       "label_box": [
-        0.07799999999999999,
-        0.21739999999999998,
-        0.2736,
-        0.049999999999999996
-      ]
-    },
-    {
-      "asset": "arrow",
-      "box": [
-        0.3804,
-        0.13652,
-        0.2024,
-        0.0288
+        0.0541,
+        0.20546,
+        0.3185,
+        0.057652
       ],
-      "color": "institution"
+      "label_size": 18
     },
     {
       "asset": "box",
       "box": [
-        0.086,
-        0.2754,
-        0.2576,
-        0.1152
+        0.0541,
+        0.288767,
+        0.3185,
+        0.131208
       ],
-      "color": "shadow",
+      "color": "steel",
       "focus": true,
       "label": "DORMANT",
       "label_box": [
-        0.07799999999999999,
-        0.39659999999999995,
-        0.2736,
-        0.05000000000000005
-      ]
-    },
-    {
-      "asset": "arrow",
-      "box": [
-        0.3804,
-        0.31572,
-        0.2024,
-        0.0288
+        0.0541,
+        0.427927,
+        0.3185,
+        0.057652
       ],
-      "color": "institution"
+      "label_size": 18
     },
     {
       "asset": "box",
       "box": [
-        0.086,
-        0.4546,
-        0.2576,
-        0.1152
+        0.0541,
+        0.511233,
+        0.3185,
+        0.131208
       ],
-      "color": "shadow",
+      "color": "steel",
       "focus": true,
       "label": "DORMANT",
       "label_box": [
-        0.07799999999999999,
-        0.5758,
-        0.2736,
-        0.085
-      ]
-    },
-    {
-      "asset": "arrow",
-      "box": [
-        0.3804,
-        0.49492,
-        0.2024,
-        0.0288
+        0.0541,
+        0.650393,
+        0.3185,
+        0.057652
       ],
-      "color": "institution"
+      "label_size": 18
     }
   ],
   "reconstructed": false,

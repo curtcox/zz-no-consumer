@@ -1,72 +1,57 @@
 {
   "background": "ink",
-  "intent": "Block a reported transition reaches the underlying worker. Keep the scripted evidence boundary and lettering visible.",
+  "intent": "Nest the assigned container within the underlying worker and mark the reported crossing. Different authority levels must remain legible without a vulnerability procedure.",
   "lettering": [],
   "lettering_mode": "manual",
   "nodes": [
     {
-      "asset": "stairs",
+      "asset": "outline-box",
       "box": [
-        0.0536,
-        0.17832,
-        0.8742,
-        0.7128000000000001
+        0.0723,
+        0.1852,
+        0.8554,
+        0.565805
       ],
-      "color": "steel"
+      "color": "steel",
+      "focus": true,
+      "label": "UNDERLYING CLOUD WORKER",
+      "label_box": [
+        0.0723,
+        0.759005,
+        0.8554,
+        0.133451
+      ],
+      "label_size": 18
     },
     {
       "asset": "box",
       "box": [
-        0.0722,
-        0.6852,
-        0.2077,
-        0.14256
+        0.1542,
+        0.3296,
+        0.3003,
+        0.230736
       ],
       "color": "steel",
       "focus": true,
       "label": "ASSIGNED CONTAINER",
       "label_box": [
-        0.06420000000000001,
-        0.83304,
-        0.2237,
-        0.0748
-      ]
+        0.1542,
+        0.57432,
+        0.3003,
+        0.101384
+      ],
+      "label_size": 18
     },
     {
-      "asset": "gate",
+      "asset": "arrow",
       "box": [
-        0.3326,
-        0.4476,
-        0.2077,
-        0.14256
+        0.4818,
+        0.4436,
+        0.2457,
+        0.0608
       ],
-      "color": "steel",
-      "focus": true,
-      "label": "BOUNDARY",
-      "label_box": [
-        0.3246,
-        0.5954400000000001,
-        0.2237,
-        0.0748
-      ]
-    },
-    {
-      "asset": "box",
-      "box": [
-        0.593,
-        0.21000000000000002,
-        0.2077,
-        0.14256
-      ],
-      "color": "steel",
-      "focus": true,
-      "label": "CLOUD WORKER",
-      "label_box": [
-        0.585,
-        0.35784000000000005,
-        0.2237,
-        0.0748
-      ]
+      "color": "claret",
+      "focus": true
     },
     {
       "asset": "line",

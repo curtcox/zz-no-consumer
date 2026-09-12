@@ -1,0 +1,76 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="800" viewBox="0 0 1200 800"><title>A narrower sentence survives the crossed claims</title><metadata>{
+  &quot;assets&quot;: {
+    &quot;cross&quot;: &quot;&lt;path d=\&quot;M10 10L90 90M90 10L10 90\&quot; stroke=\&quot;currentColor\&quot; stroke-width=\&quot;8\&quot;/&gt;&quot;,
+    &quot;paper&quot;: &quot;&lt;path d=\&quot;M0 0H80L100 20V100H0Z\&quot; fill=\&quot;currentColor\&quot;/&gt;&lt;path d=\&quot;M80 0V20H100M9 35H84M9 48H84M9 61H73M9 74H81\&quot; fill=\&quot;none\&quot; stroke=\&quot;#101214\&quot; stroke-width=\&quot;1.5\&quot;/&gt;&quot;
+  },
+  &quot;palette&quot;: {
+    &quot;amber&quot;: &quot;#A17D45&quot;,
+    &quot;dirty&quot;: &quot;#CEC5B3&quot;,
+    &quot;ink&quot;: &quot;#101214&quot;,
+    &quot;institution&quot;: &quot;#68766B&quot;,
+    &quot;nicotine&quot;: &quot;#AA9571&quot;,
+    &quot;paper&quot;: &quot;#E7E0D0&quot;,
+    &quot;shadow&quot;: &quot;#202326&quot;,
+    &quot;steel&quot;: &quot;#5E737B&quot;
+  },
+  &quot;renderer&quot;: &quot;storyboard-svg-1&quot;,
+  &quot;scene&quot;: {
+    &quot;background&quot;: &quot;ink&quot;,
+    &quot;intent&quot;: &quot;Block a narrower sentence survives the crossed claims. Keep the scripted evidence boundary and lettering visible.&quot;,
+    &quot;lettering&quot;: [
+      {
+        &quot;box&quot;: [
+          0.58,
+          0.04,
+          0.38,
+          0.27899999999999997
+        ]
+      },
+      {
+        &quot;box&quot;: [
+          0.58,
+          0.33699999999999997,
+          0.38,
+          0.1158
+        ]
+      }
+    ],
+    &quot;lettering_mode&quot;: &quot;manual&quot;,
+    &quot;nodes&quot;: [
+      {
+        &quot;asset&quot;: &quot;cross&quot;,
+        &quot;box&quot;: [
+          0.20692000000000002,
+          0.11960000000000001,
+          0.14615999999999998,
+          0.21923999999999996
+        ],
+        &quot;color&quot;: &quot;dirty&quot;,
+        &quot;focus&quot;: true
+      },
+      {
+        &quot;asset&quot;: &quot;paper&quot;,
+        &quot;box&quot;: [
+          0.115,
+          0.49805,
+          0.33,
+          0.21924
+        ],
+        &quot;color&quot;: &quot;steel&quot;,
+        &quot;focus&quot;: true,
+        &quot;label&quot;: &quot;SURVIVING CLAIM&quot;,
+        &quot;label_box&quot;: [
+          0.10700000000000001,
+          0.72329,
+          0.34600000000000003,
+          0.085
+        ]
+      }
+    ],
+    &quot;reconstructed&quot;: false,
+    &quot;shot&quot;: &quot;stack&quot;,
+    &quot;source&quot;: &quot;\n**Frame:** The surviving sentence, written small and clean, with the crossed-out larger claims still legible above it.\n\n**Screen / system text — REVISED:**\n&gt; BEHAVIOR THIS CONSEQUENTIAL WAS PRODUCED BY A CONFIGURATION NOBODY IN THE STORY COULD SEE — INCLUDING THE PEOPLE WHO CHOSE IT.\n\n**Dialogue — CURT:**\n&gt; That&#x27;s narrower. It&#x27;s also worse.\n\n**Provenance:** `inferred` — the chapter&#x27;s revised thesis. `OAI-BH` is the only public account of the training configuration, and it was delivered by two employees explaining something else.\n\n&quot;,
+    &quot;title&quot;: &quot;A narrower sentence survives the crossed claims&quot;
+  }
+}
+</metadata><rect width="1200" height="800" fill="#101214"/><g transform="translate(248.304 95.68) scale(1.75392 1.75392)" color="#CEC5B3"><g transform=""><path d="M10 10L90 90M90 10L10 90" stroke="currentColor" stroke-width="8"/></g></g><g transform="translate(138 398.44) scale(3.96 1.75392)" color="#5E737B"><g transform=""><path d="M0 0H80L100 20V100H0Z" fill="currentColor"/><path d="M80 0V20H100M9 35H84M9 48H84M9 61H73M9 74H81" fill="none" stroke="#101214" stroke-width="1.5"/></g></g><text x="336" y="598.632" text-anchor="middle" fill="#E7E0D0" font-size="20" font-family="sans-serif">SURVIVING CLAIM</text><rect x="3" y="3" width="1194" height="794" fill="none" stroke="#5E737B" stroke-width="4"/></svg>

@@ -1,21 +1,23 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="800" viewBox="0 0 1200 800"><title>The page plan holds unanswered disclosure questions</title><metadata>{
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="800" viewBox="0 0 1200 800"><title>The page plan holds unanswered disclosure questions</title><desc>Keep each disclosure question visibly unanswered in the page plan. Do not fill the list with symbolic guilty parties or implied affirmative answers.</desc><metadata>{
   &quot;assets&quot;: {
     &quot;question&quot;: &quot;&lt;path d=\&quot;M24 28Q25 3 53 7Q91 12 74 43L51 63V72\&quot; fill=\&quot;none\&quot; stroke=\&quot;currentColor\&quot; stroke-width=\&quot;7\&quot;/&gt;&lt;circle cx=\&quot;51\&quot; cy=\&quot;91\&quot; r=\&quot;5\&quot; fill=\&quot;currentColor\&quot;/&gt;&quot;
   },
   &quot;palette&quot;: {
     &quot;amber&quot;: &quot;#A17D45&quot;,
+    &quot;claret&quot;: &quot;#6B2634&quot;,
     &quot;dirty&quot;: &quot;#CEC5B3&quot;,
     &quot;ink&quot;: &quot;#101214&quot;,
     &quot;institution&quot;: &quot;#68766B&quot;,
+    &quot;moss&quot;: &quot;#74864F&quot;,
     &quot;nicotine&quot;: &quot;#AA9571&quot;,
     &quot;paper&quot;: &quot;#E7E0D0&quot;,
     &quot;shadow&quot;: &quot;#202326&quot;,
     &quot;steel&quot;: &quot;#5E737B&quot;
   },
-  &quot;renderer&quot;: &quot;storyboard-svg-1&quot;,
+  &quot;renderer&quot;: &quot;storyboard-svg-2&quot;,
   &quot;scene&quot;: {
     &quot;background&quot;: &quot;ink&quot;,
-    &quot;intent&quot;: &quot;Block the page plan holds unanswered disclosure questions. Keep the scripted evidence boundary and lettering visible.&quot;,
+    &quot;intent&quot;: &quot;Keep each disclosure question visibly unanswered in the page plan. Do not fill the list with symbolic guilty parties or implied affirmative answers.&quot;,
     &quot;lettering&quot;: [
       {
         &quot;box&quot;: [
@@ -31,9 +33,9 @@
       {
         &quot;asset&quot;: &quot;question&quot;,
         &quot;box&quot;: [
-          0.4768224,
+          0.480048,
           0.0962,
-          0.0279552,
+          0.021504,
           0.064512
         ],
         &quot;color&quot;: &quot;steel&quot;,
@@ -49,9 +51,9 @@
       {
         &quot;asset&quot;: &quot;question&quot;,
         &quot;box&quot;: [
-          0.4768224,
+          0.480048,
           0.20756,
-          0.0279552,
+          0.021504,
           0.064512
         ],
         &quot;color&quot;: &quot;steel&quot;,
@@ -67,9 +69,9 @@
       {
         &quot;asset&quot;: &quot;question&quot;,
         &quot;box&quot;: [
-          0.4768224,
+          0.480048,
           0.31892,
-          0.0279552,
+          0.021504,
           0.064512
         ],
         &quot;color&quot;: &quot;steel&quot;,
@@ -85,9 +87,9 @@
       {
         &quot;asset&quot;: &quot;question&quot;,
         &quot;box&quot;: [
-          0.4768224,
+          0.480048,
           0.43028,
-          0.0279552,
+          0.021504,
           0.064512
         ],
         &quot;color&quot;: &quot;steel&quot;,
@@ -103,9 +105,9 @@
       {
         &quot;asset&quot;: &quot;question&quot;,
         &quot;box&quot;: [
-          0.4768224,
+          0.480048,
           0.54164,
-          0.0279552,
+          0.021504,
           0.064512
         ],
         &quot;color&quot;: &quot;steel&quot;,
@@ -125,4 +127,4 @@
     &quot;title&quot;: &quot;The page plan holds unanswered disclosure questions&quot;
   }
 }
-</metadata><rect width="1200" height="800" fill="#101214"/><rect x="572.187" y="76.96" width="33.5462" height="51.6096" fill="none" stroke="#5E737B" stroke-width="3"/><text x="580.187" y="100.96" fill="#5E737B" font-family="sans-serif" font-size="20">question</text><text x="588.96" y="152.62" text-anchor="middle" fill="#E7E0D0" font-size="19.25" font-family="sans-serif">WHO INVESTIGATED?</text><rect x="572.187" y="166.048" width="33.5462" height="51.6096" fill="none" stroke="#5E737B" stroke-width="3"/><text x="580.187" y="190.048" fill="#5E737B" font-family="sans-serif" font-size="20">question</text><text x="588.96" y="241.708" text-anchor="middle" fill="#E7E0D0" font-size="19.25" font-family="sans-serif">WHAT WAS RETAINED?</text><rect x="572.187" y="255.136" width="33.5462" height="51.6096" fill="none" stroke="#5E737B" stroke-width="3"/><text x="580.187" y="279.136" fill="#5E737B" font-family="sans-serif" font-size="20">question</text><text x="588.96" y="330.796" text-anchor="middle" fill="#E7E0D0" font-size="19.25" font-family="sans-serif">WHO WAS TOLD?</text><rect x="572.187" y="344.224" width="33.5462" height="51.6096" fill="none" stroke="#5E737B" stroke-width="3"/><text x="580.187" y="368.224" fill="#5E737B" font-family="sans-serif" font-size="20">question</text><text x="588.96" y="419.884" text-anchor="middle" fill="#E7E0D0" font-size="19.25" font-family="sans-serif">WHO COULD REVIEW?</text><rect x="572.187" y="433.312" width="33.5462" height="51.6096" fill="none" stroke="#5E737B" stroke-width="3"/><text x="580.187" y="457.312" fill="#5E737B" font-family="sans-serif" font-size="20">question</text><text x="588.96" y="509.722" text-anchor="middle" fill="#E7E0D0" font-size="20" font-family="sans-serif">WHY NO PUBLIC ACCOUNT?</text><rect x="3" y="3" width="1194" height="794" fill="none" stroke="#5E737B" stroke-width="4"/></svg>
+</metadata><rect width="1200" height="800" fill="#101214"/><rect x="576.058" y="76.96" width="25.8048" height="51.6096" fill="none" stroke="#5E737B" stroke-width="3"/><text x="584.058" y="100.96" fill="#5E737B" font-family="sans-serif" font-size="20">question</text><text x="588.96" y="152.62" text-anchor="middle" fill="#E7E0D0" font-size="19.25" font-family="sans-serif">WHO INVESTIGATED?</text><rect x="576.058" y="166.048" width="25.8048" height="51.6096" fill="none" stroke="#5E737B" stroke-width="3"/><text x="584.058" y="190.048" fill="#5E737B" font-family="sans-serif" font-size="20">question</text><text x="588.96" y="241.708" text-anchor="middle" fill="#E7E0D0" font-size="19.25" font-family="sans-serif">WHAT WAS RETAINED?</text><rect x="576.058" y="255.136" width="25.8048" height="51.6096" fill="none" stroke="#5E737B" stroke-width="3"/><text x="584.058" y="279.136" fill="#5E737B" font-family="sans-serif" font-size="20">question</text><text x="588.96" y="330.796" text-anchor="middle" fill="#E7E0D0" font-size="19.25" font-family="sans-serif">WHO WAS TOLD?</text><rect x="576.058" y="344.224" width="25.8048" height="51.6096" fill="none" stroke="#5E737B" stroke-width="3"/><text x="584.058" y="368.224" fill="#5E737B" font-family="sans-serif" font-size="20">question</text><text x="588.96" y="419.884" text-anchor="middle" fill="#E7E0D0" font-size="19.25" font-family="sans-serif">WHO COULD REVIEW?</text><rect x="576.058" y="433.312" width="25.8048" height="51.6096" fill="none" stroke="#5E737B" stroke-width="3"/><text x="584.058" y="457.312" fill="#5E737B" font-family="sans-serif" font-size="20">question</text><text x="588.96" y="509.722" text-anchor="middle" fill="#E7E0D0" font-size="20" font-family="sans-serif">WHY NO PUBLIC ACCOUNT?</text><rect x="3" y="3" width="1194" height="794" fill="none" stroke="#5E737B" stroke-width="4"/></svg>

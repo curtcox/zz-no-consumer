@@ -1,6 +1,6 @@
 {
   "background": "ink",
-  "intent": "Block a private draft never merges or deploys. Keep the scripted evidence boundary and lettering visible.",
+  "intent": "End the draft-PR route at closure before a disconnected deployment endpoint. Localize confirmed-access color to the reached repository and retain neutral prevented outcomes beyond.",
   "lettering": [
     {
       "box": [
@@ -16,76 +16,81 @@
     {
       "asset": "card",
       "box": [
-        0.1044,
-        0.2242,
-        0.195163,
-        0.256
+        0.0541,
+        0.2012,
+        0.2093,
+        0.276474
       ],
-      "color": "steel",
+      "color": "claret",
       "focus": true,
       "label": "DRAFT PR",
       "label_box": [
-        0.09640000000000001,
-        0.4862,
-        0.211163,
-        0.085
-      ]
+        0.0541,
+        0.49443,
+        0.2093,
+        0.121481
+      ],
+      "label_size": 18
+    },
+    {
+      "asset": "arrow",
+      "box": [
+        0.2907,
+        0.2935,
+        0.1365,
+        0.0639
+      ],
+      "color": "steel",
+      "focus": true
     },
     {
       "asset": "cross",
       "box": [
-        0.38038116666666666,
-        0.22419999999999998,
-        0.1706666666666667,
-        0.25600000000000006
+        0.462442,
+        0.2012,
+        0.184316,
+        0.276474
       ],
       "color": "steel",
       "focus": true,
-      "label": "CLOSED",
+      "label": "CLOSED / BRANCH DELETED",
       "label_box": [
-        0.360133,
-        0.4862,
-        0.211163,
-        0.085
-      ]
+        0.4454,
+        0.49443,
+        0.2184,
+        0.121481
+      ],
+      "label_size": 18
     },
     {
-      "asset": "cross",
+      "asset": "boundary",
       "box": [
-        0.6441151666666666,
-        0.22419999999999998,
-        0.1706666666666667,
-        0.25600000000000006
+        0.7093,
+        0.0592,
+        0.0182,
+        0.639
+      ],
+      "color": "steel",
+      "focus": true
+    },
+    {
+      "asset": "empty-slot",
+      "box": [
+        0.7821,
+        0.2012,
+        0.1638,
+        0.276474
       ],
       "color": "steel",
       "focus": true,
       "label": "NO DEPLOYMENT",
       "label_box": [
-        0.623867,
-        0.4862,
-        0.211163,
-        0.085
-      ]
-    },
-    {
-      "asset": "arrow",
-      "box": [
-        0.310112,
-        0.3202,
-        0.049067,
-        0.0416
+        0.7821,
+        0.49443,
+        0.1638,
+        0.121481
       ],
-      "color": "steel"
-    },
-    {
-      "asset": "arrow",
-      "box": [
-        0.573845,
-        0.3202,
-        0.049067,
-        0.0416
-      ],
-      "color": "steel"
+      "label_size": 18
     }
   ],
   "reconstructed": false,

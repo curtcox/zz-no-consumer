@@ -1,6 +1,6 @@
 {
   "background": "ink",
-  "intent": "Block two possible acceptance conditions. Keep the scripted evidence boundary and lettering visible.",
+  "intent": "Place paper and code schematic inside the agents' knowledge field. Branch the imagined evaluation into answer and path conditions, while leaving the actual deployed scorer outside that field.",
   "lettering": [
     {
       "box": [
@@ -14,50 +14,102 @@
   "lettering_mode": "manual",
   "nodes": [
     {
+      "asset": "outline-box",
+      "box": [
+        0.0541,
+        0.0521,
+        0.8918,
+        0.54545
+      ],
+      "color": "steel",
+      "focus": true,
+      "label": "BOARD BELIEF",
+      "label_box": [
+        0.0541,
+        0.60555,
+        0.8918,
+        0.128363
+      ],
+      "label_size": 18
+    },
+    {
       "asset": "paper",
       "box": [
-        0.1044,
-        0.2242,
-        0.292744,
-        0.256
+        0.0996,
+        0.187,
+        0.2093,
+        0.229614
       ],
       "color": "steel",
       "focus": true,
       "label": "PUBLIC PAPER",
       "label_box": [
-        0.09640000000000001,
-        0.4862,
-        0.308744,
-        0.085
-      ]
+        0.0996,
+        0.43053,
+        0.2093,
+        0.100891
+      ],
+      "label_size": 18
     },
     {
-      "asset": "aperture",
+      "asset": "arrow",
       "box": [
-        0.5354386666666666,
-        0.22419999999999998,
-        0.2218666666666667,
-        0.25600000000000006
+        0.3271,
+        0.258,
+        0.1365,
+        0.0568
+      ],
+      "color": "steel",
+      "focus": true
+    },
+    {
+      "asset": "flag",
+      "box": [
+        0.662145,
+        0.116,
+        0.06701,
+        0.154638
       ],
       "color": "steel",
       "focus": true,
-      "label": "PATH OR ANSWER?",
+      "label": "ANSWER",
       "label_box": [
-        0.492,
-        0.4862,
-        0.308744,
-        0.085
-      ]
+        0.5273,
+        0.28001,
+        0.3367,
+        0.067947
+      ],
+      "label_size": 18
     },
     {
-      "asset": "boundary",
+      "asset": "card",
       "box": [
-        0.4908,
-        0.0962,
-        0.01656,
-        0.5376
+        0.5273,
+        0.3787,
+        0.3367,
+        0.154638
       ],
-      "color": "amber"
+      "color": "steel",
+      "focus": true,
+      "label": "INTENDED PATH",
+      "label_box": [
+        0.5273,
+        0.54271,
+        0.3367,
+        0.067947
+      ],
+      "label_size": 18
+    },
+    {
+      "asset": "question",
+      "box": [
+        0.380967,
+        0.4426,
+        0.037867,
+        0.1136
+      ],
+      "color": "amber",
+      "focus": true
     }
   ],
   "reconstructed": false,

@@ -1,6 +1,6 @@
 {
   "background": "ink",
-  "intent": "Block configuration is a document field. Keep the scripted evidence boundary and lettering visible.",
+  "intent": "Make four equally weighted specification cards on a flat documentary surface. Remove scene depth and active cursors: these are attributed configuration claims, not a witnessed causal sequence.",
   "lettering": [
     {
       "box": [
@@ -21,7 +21,8 @@
         0.145,
         0.3654
       ],
-      "color": "steel"
+      "color": "steel",
+      "focus": true
     },
     {
       "asset": "card",
@@ -42,7 +43,8 @@
         0.145,
         0.3654
       ],
-      "color": "steel"
+      "color": "steel",
+      "focus": true
     },
     {
       "asset": "card",
@@ -63,7 +65,8 @@
         0.145,
         0.3654
       ],
-      "color": "steel"
+      "color": "steel",
+      "focus": true
     },
     {
       "asset": "card",
@@ -84,7 +87,8 @@
         0.145,
         0.3654
       ],
-      "color": "steel"
+      "color": "steel",
+      "focus": true
     },
     {
       "asset": "card",

@@ -1,6 +1,6 @@
 {
   "background": "ink",
-  "intent": "Source and empty conversation stay behind the hands, preserving the desk geography.",
+  "intent": "Put hands and keyboard in the foreground with source and blank conversation behind. Preserve the broken reconstruction border and the reader-visible disclosure; this is a made scene about making scenes.",
   "lettering": [],
   "nodes": [
     {
@@ -11,7 +11,8 @@
         0.29,
         0.3
       ],
-      "color": "steel"
+      "color": "steel",
+      "focus": true
     },
     {
       "asset": "blank-monitor",
@@ -21,7 +22,8 @@
         0.29,
         0.3
       ],
-      "color": "steel"
+      "color": "steel",
+      "focus": true
     },
     {
       "asset": "keyboard",
@@ -31,14 +33,15 @@
         0.48,
         0.22
       ],
-      "color": "nicotine"
+      "color": "nicotine",
+      "focus": true
     },
     {
       "asset": "hand",
       "box": [
-        0.19,
+        0.2235,
         0.64,
-        0.22,
+        0.153,
         0.27
       ],
       "color": "dirty",
@@ -47,9 +50,9 @@
     {
       "asset": "hand",
       "box": [
-        0.59,
+        0.6235,
         0.64,
-        0.22,
+        0.153,
         0.27
       ],
       "color": "dirty",

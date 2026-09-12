@@ -1,7 +1,7 @@
 {
   "background": "ink",
   "border": "none",
-  "intent": "Block a generic entry row has no visible author or recipient. Keep the scripted evidence boundary and lettering visible.",
+  "intent": "Keep the generic entry row free of chrome, identity, time and destination. Only canonical lettering may supply readable content; the black field carries the ambiguity.",
   "lettering": [
     {
       "box": [

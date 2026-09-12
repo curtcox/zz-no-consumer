@@ -1,6 +1,6 @@
 {
   "background": "ink",
-  "intent": "Block untrusted code stays inside two isolation layers. Keep the scripted evidence boundary and lettering visible.",
+  "intent": "Nest untrusted execution behind two visibly complete isolation layers. Leave direct and transitive internet routes absent; a decorative double border alone is insufficient.",
   "lettering": [
     {
       "box": [
@@ -16,56 +16,59 @@
     {
       "asset": "outline-box",
       "box": [
-        0.2148,
-        0.1282,
-        0.5336,
-        0.3968
+        0.0541,
+        0.0521,
+        0.8918,
+        0.54545
       ],
       "color": "steel",
       "focus": true,
       "label": "OUTER ISOLATION",
       "label_box": [
-        0.20679999999999998,
-        0.531,
-        0.5496,
-        0.085
-      ]
+        0.0541,
+        0.60555,
+        0.8918,
+        0.128363
+      ],
+      "label_size": 18
     },
     {
       "asset": "outline-box",
       "box": [
-        0.29484,
-        0.19962400000000002,
-        0.34684,
-        0.103168
+        0.1906,
+        0.1302,
+        0.6188,
+        0.337392
       ],
       "color": "steel",
       "focus": true,
       "label": "INNER ISOLATION",
       "label_box": [
-        0.0872,
-        0.6334,
-        0.338,
-        0.085
-      ]
+        0.1906,
+        0.475592,
+        0.6188,
+        0.076348
+      ],
+      "label_size": 18
     },
     {
       "asset": "sealed",
       "box": [
-        0.29484,
-        0.29882400000000003,
-        0.34684,
-        0.103168
+        0.3453,
+        0.2083,
+        0.3094,
+        0.135894
       ],
       "color": "steel",
       "focus": true,
       "label": "UNTRUSTED CODE",
       "label_box": [
-        0.4874,
-        0.6334,
-        0.338,
-        0.085
-      ]
+        0.3453,
+        0.35243,
+        0.3094,
+        0.059711
+      ],
+      "label_size": 18
     }
   ],
   "reconstructed": false,

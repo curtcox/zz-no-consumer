@@ -1,6 +1,6 @@
 {
   "background": "ink",
-  "intent": "Block the finding over the severed route. Keep the scripted evidence boundary and lettering visible.",
+  "intent": "Carry the exact severed-route silhouette forward beneath the finding. The conclusion should look settled while the task card remains unresolved; discovery has not become completion.",
   "lettering": [
     {
       "box": [
@@ -16,46 +16,47 @@
     {
       "asset": "box",
       "box": [
-        0.1044,
-        0.2242,
-        0.195163,
-        0.256
+        0.06775,
+        0.2012,
+        0.3913,
+        0.276474
       ],
       "color": "steel",
       "focus": true,
       "label": "UNUSED OUTPUT",
       "label_box": [
-        0.09640000000000001,
-        0.4862,
-        0.211163,
-        0.085
-      ]
-    },
-    {
-      "asset": "boundary",
-      "box": [
-        0.45971449999999997,
-        0.2242,
-        0.012,
-        0.256
+        0.06775,
+        0.49443,
+        0.3913,
+        0.121481
       ],
-      "color": "paper",
-      "focus": true
+      "label_size": 18
     },
     {
       "asset": "flag",
       "box": [
-        0.631867,
-        0.2242,
-        0.195163,
-        0.256
+        0.627638,
+        0.2012,
+        0.181523,
+        0.4189
+      ],
+      "color": "steel",
+      "focus": true
+    },
+    {
+      "asset": "boundary",
+      "box": [
+        0.49363,
+        0.0734,
+        0.01274,
+        0.6248
       ],
       "color": "steel",
       "focus": true
     }
   ],
   "reconstructed": false,
-  "shot": "row",
+  "shot": "split",
   "source": "\n**Frame:** The final diagram from [page 001](001.md), now overlaid with a firm boxed finding. Stable rectangular border.\n\n**Action:** The technical conclusion is recorded.\n\n**Caption:**\n> THE TASK IS IMPOSSIBLE AS SPECIFIED.\n\n**Provenance:** `documented` — project narration accurately bounds the conclusion reported by `METR`; not source wording.\n\n",
   "title": "The finding over the severed route"
 }

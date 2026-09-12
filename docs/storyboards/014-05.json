@@ -1,6 +1,6 @@
 {
   "background": "ink",
-  "intent": "A meeting sketch and a source card stay in separate frames; the human silhouettes are invented roles.",
+  "intent": "Keep the broken meeting frame and rigid source-summary frame side by side. Human silhouettes stay inside reconstruction; the source remains a document, never dialogue placed in a participant's mouth.",
   "lettering": [
     {
       "box": [
@@ -21,14 +21,15 @@
         0.53
       ],
       "color": "nicotine",
+      "focus": true,
       "label": "RECONSTRUCTED"
     },
     {
       "asset": "person-seated",
       "box": [
-        0.1,
+        0.106333,
         0.44,
-        0.16,
+        0.147333,
         0.34
       ],
       "color": "dirty",
@@ -37,9 +38,9 @@
     {
       "asset": "person-seated",
       "box": [
-        0.35,
+        0.356333,
         0.44,
-        0.16,
+        0.147333,
         0.34
       ],
       "color": "dirty",

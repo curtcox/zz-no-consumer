@@ -1,22 +1,26 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="800" viewBox="0 0 1200 800"><title>The transcript ends without establishing a cause</title><metadata>{
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="800" viewBox="0 0 1200 800"><title>The transcript ends without establishing a cause</title><desc>End the transcript strip abruptly and keep no-report, early-cutoff and unknown-cause labels separate. Their co-occurrence must not become a fatal-event diagram.</desc><metadata>{
   &quot;assets&quot;: {
-    &quot;card&quot;: &quot;&lt;rect x=\&quot;1\&quot; y=\&quot;1\&quot; width=\&quot;98\&quot; height=\&quot;98\&quot; fill=\&quot;#202326\&quot; stroke=\&quot;currentColor\&quot; stroke-width=\&quot;2\&quot;/&gt;&lt;path d=\&quot;M8 13H92M8 27H70M8 36H86M8 45H72M8 65H86M8 74H57\&quot; stroke=\&quot;currentColor\&quot; stroke-width=\&quot;1.5\&quot;/&gt;&quot;,
-    &quot;question&quot;: &quot;&lt;path d=\&quot;M24 28Q25 3 53 7Q91 12 74 43L51 63V72\&quot; fill=\&quot;none\&quot; stroke=\&quot;currentColor\&quot; stroke-width=\&quot;7\&quot;/&gt;&lt;circle cx=\&quot;51\&quot; cy=\&quot;91\&quot; r=\&quot;5\&quot; fill=\&quot;currentColor\&quot;/&gt;&quot;
+    &quot;boundary&quot;: &quot;&lt;path d=\&quot;M50 0V100\&quot; stroke=\&quot;currentColor\&quot; stroke-width=\&quot;14\&quot;/&gt;&quot;,
+    &quot;empty-slot&quot;: &quot;&lt;rect x=\&quot;2\&quot; y=\&quot;2\&quot; width=\&quot;96\&quot; height=\&quot;96\&quot; fill=\&quot;none\&quot; stroke=\&quot;currentColor\&quot; stroke-width=\&quot;2\&quot; stroke-dasharray=\&quot;7 5\&quot;/&gt;&lt;path d=\&quot;M34 51H66\&quot; stroke=\&quot;currentColor\&quot; stroke-width=\&quot;2\&quot;/&gt;&quot;,
+    &quot;question&quot;: &quot;&lt;path d=\&quot;M24 28Q25 3 53 7Q91 12 74 43L51 63V72\&quot; fill=\&quot;none\&quot; stroke=\&quot;currentColor\&quot; stroke-width=\&quot;7\&quot;/&gt;&lt;circle cx=\&quot;51\&quot; cy=\&quot;91\&quot; r=\&quot;5\&quot; fill=\&quot;currentColor\&quot;/&gt;&quot;,
+    &quot;transcript&quot;: &quot;&lt;rect x=\&quot;1\&quot; y=\&quot;1\&quot; width=\&quot;98\&quot; height=\&quot;98\&quot; fill=\&quot;#202326\&quot; stroke=\&quot;currentColor\&quot; stroke-width=\&quot;2\&quot;/&gt;&lt;path d=\&quot;M20 1V99M1 18H99M6 10H13M27 9H83M6 31H13M28 30H88M28 39H71M6 53H13M28 52H79M28 61H90M6 75H13M28 74H66M28 83H83\&quot; stroke=\&quot;currentColor\&quot; stroke-width=\&quot;2\&quot;/&gt;&quot;
   },
   &quot;palette&quot;: {
     &quot;amber&quot;: &quot;#A17D45&quot;,
+    &quot;claret&quot;: &quot;#6B2634&quot;,
     &quot;dirty&quot;: &quot;#CEC5B3&quot;,
     &quot;ink&quot;: &quot;#101214&quot;,
     &quot;institution&quot;: &quot;#68766B&quot;,
+    &quot;moss&quot;: &quot;#74864F&quot;,
     &quot;nicotine&quot;: &quot;#AA9571&quot;,
     &quot;paper&quot;: &quot;#E7E0D0&quot;,
     &quot;shadow&quot;: &quot;#202326&quot;,
     &quot;steel&quot;: &quot;#5E737B&quot;
   },
-  &quot;renderer&quot;: &quot;storyboard-svg-1&quot;,
+  &quot;renderer&quot;: &quot;storyboard-svg-2&quot;,
   &quot;scene&quot;: {
     &quot;background&quot;: &quot;ink&quot;,
-    &quot;intent&quot;: &quot;Block the transcript ends without establishing a cause. Keep the scripted evidence boundary and lettering visible.&quot;,
+    &quot;intent&quot;: &quot;End the transcript strip abruptly and keep no-report, early-cutoff and unknown-cause labels separate. Their co-occurrence must not become a fatal-event diagram.&quot;,
     &quot;lettering&quot;: [
       {
         &quot;box&quot;: [
@@ -30,58 +34,72 @@
     &quot;lettering_mode&quot;: &quot;manual&quot;,
     &quot;nodes&quot;: [
       {
-        &quot;asset&quot;: &quot;card&quot;,
+        &quot;asset&quot;: &quot;transcript&quot;,
         &quot;box&quot;: [
-          0.1872,
-          0.0962,
-          0.6072,
-          0.10752
+          0.0541,
+          0.1302,
+          0.3458,
+          0.318648
+        ],
+        &quot;color&quot;: &quot;steel&quot;,
+        &quot;focus&quot;: true,
+        &quot;label&quot;: &quot;RETAINED TRANSCRIPT&quot;,
+        &quot;label_box&quot;: [
+          0.0541,
+          0.46816,
+          0.3458,
+          0.140012
+        ],
+        &quot;label_size&quot;: 18
+      },
+      {
+        &quot;asset&quot;: &quot;boundary&quot;,
+        &quot;box&quot;: [
+          0.4363,
+          0.0521,
+          0.01638,
+          0.6816
+        ],
+        &quot;color&quot;: &quot;steel&quot;,
+        &quot;focus&quot;: true
+      },
+      {
+        &quot;asset&quot;: &quot;empty-slot&quot;,
+        &quot;box&quot;: [
+          0.5091,
+          0.0947,
+          0.4186,
+          0.154638
         ],
         &quot;color&quot;: &quot;steel&quot;,
         &quot;focus&quot;: true,
         &quot;label&quot;: &quot;NO REPORT&quot;,
         &quot;label_box&quot;: [
-          0.1792,
-          0.20972000000000002,
-          0.6232,
-          0.06407999999999997
-        ]
-      },
-      {
-        &quot;asset&quot;: &quot;card&quot;,
-        &quot;box&quot;: [
-          0.1872,
-          0.2818,
-          0.6072,
-          0.10752
+          0.5091,
+          0.25871,
+          0.4186,
+          0.067947
         ],
-        &quot;color&quot;: &quot;steel&quot;,
-        &quot;focus&quot;: true,
-        &quot;label&quot;: &quot;TRANSCRIPT ENDS EARLY&quot;,
-        &quot;label_box&quot;: [
-          0.1792,
-          0.39532,
-          0.6232,
-          0.06407999999999997
-        ]
+        &quot;label_size&quot;: 18
       },
       {
         &quot;asset&quot;: &quot;question&quot;,
         &quot;box&quot;: [
-          0.46750400000000003,
-          0.4674,
-          0.04659200000000001,
-          0.10752
+          0.692627,
+          0.4568,
+          0.051546,
+          0.154638
         ],
         &quot;color&quot;: &quot;amber&quot;,
         &quot;focus&quot;: true,
         &quot;label&quot;: &quot;CAUSE NOT ESTABLISHED&quot;,
         &quot;label_box&quot;: [
-          0.1792,
-          0.58092,
-          0.6232,
-          0.085
-        ]
+          0.5091,
+          0.62081,
+          0.4186,
+          0.067947
+        ],
+        &quot;label_size&quot;: 18
       }
     ],
     &quot;reconstructed&quot;: false,
@@ -90,4 +108,4 @@
     &quot;title&quot;: &quot;The transcript ends without establishing a cause&quot;
   }
 }
-</metadata><rect width="1200" height="800" fill="#101214"/><rect x="224.64" y="76.96" width="728.64" height="86.016" fill="none" stroke="#5E737B" stroke-width="3"/><text x="232.64" y="100.96" fill="#5E737B" font-family="sans-serif" font-size="20">card</text><text x="588.96" y="187.776" text-anchor="middle" fill="#E7E0D0" font-size="20" font-family="sans-serif">NO REPORT</text><rect x="224.64" y="225.44" width="728.64" height="86.016" fill="none" stroke="#5E737B" stroke-width="3"/><text x="232.64" y="249.44" fill="#5E737B" font-family="sans-serif" font-size="20">card</text><text x="588.96" y="336.256" text-anchor="middle" fill="#E7E0D0" font-size="20" font-family="sans-serif">TRANSCRIPT ENDS EARLY</text><rect x="561.005" y="373.92" width="55.9104" height="86.016" fill="none" stroke="#A17D45" stroke-width="3"/><text x="569.005" y="397.92" fill="#A17D45" font-family="sans-serif" font-size="20">question</text><text x="588.96" y="484.736" text-anchor="middle" fill="#E7E0D0" font-size="20" font-family="sans-serif">CAUSE NOT ESTABLISHED</text><rect x="3" y="3" width="1194" height="794" fill="none" stroke="#5E737B" stroke-width="4"/></svg>
+</metadata><rect width="1200" height="800" fill="#101214"/><rect x="64.92" y="104.16" width="414.96" height="254.918" fill="none" stroke="#5E737B" stroke-width="3"/><text x="72.92" y="128.16" fill="#5E737B" font-family="sans-serif" font-size="20">transcript</text><text x="272.4" y="392.528" text-anchor="middle" fill="#E7E0D0" font-size="18" font-family="sans-serif">RETAINED TRANSCRIPT</text><rect x="523.56" y="41.68" width="19.656" height="545.28" fill="none" stroke="#5E737B" stroke-width="3"/><text x="531.56" y="65.68" fill="#5E737B" font-family="sans-serif" font-size="20">boundary</text><rect x="610.92" y="75.76" width="502.32" height="123.71" fill="none" stroke="#5E737B" stroke-width="3"/><text x="618.92" y="99.76" fill="#5E737B" font-family="sans-serif" font-size="20">empty-slot</text><text x="862.08" y="224.968" text-anchor="middle" fill="#E7E0D0" font-size="18" font-family="sans-serif">NO REPORT</text><rect x="831.152" y="365.44" width="61.8552" height="123.71" fill="none" stroke="#A17D45" stroke-width="3"/><text x="839.152" y="389.44" fill="#A17D45" font-family="sans-serif" font-size="20">question</text><text x="862.08" y="514.648" text-anchor="middle" fill="#E7E0D0" font-size="18" font-family="sans-serif">CAUSE NOT ESTABLISHED</text><rect x="3" y="3" width="1194" height="794" fill="none" stroke="#5E737B" stroke-width="4"/></svg>

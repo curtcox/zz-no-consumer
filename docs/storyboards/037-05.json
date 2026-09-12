@@ -1,6 +1,6 @@
 {
   "background": "ink",
-  "intent": "Block delegated searches retain the original task. Keep the scripted evidence boundary and lettering visible.",
+  "intent": "Anchor the original task at left, accumulated findings in storage at center and separate searches at right. Delegation extends work through artifacts while the objective remains unchanged.",
   "lettering": [
     {
       "box": [
@@ -14,76 +14,80 @@
   "lettering_mode": "manual",
   "nodes": [
     {
-      "asset": "card",
+      "asset": "task",
       "box": [
-        0.1044,
-        0.2242,
-        0.146372,
-        0.256
+        0.06775,
+        0.2012,
+        0.1638,
+        0.276474
       ],
       "color": "steel",
       "focus": true,
       "label": "ORIGINAL TASK",
       "label_box": [
-        0.09640000000000001,
-        0.4862,
-        0.16237200000000002,
-        0.085
-      ]
+        0.06775,
+        0.49443,
+        0.1638,
+        0.121481
+      ],
+      "label_size": 18
     },
     {
       "asset": "folder",
       "box": [
-        0.3022,
-        0.2242,
-        0.146372,
-        0.256
+        0.29525,
+        0.2012,
+        0.1638,
+        0.276474
       ],
       "color": "institution",
       "focus": true,
       "label": "FINDINGS",
       "label_box": [
-        0.2942,
-        0.4862,
-        0.16237200000000002,
-        0.085
-      ]
+        0.29525,
+        0.49443,
+        0.1638,
+        0.121481
+      ],
+      "label_size": 18
     },
     {
       "asset": "box",
       "box": [
-        0.5,
-        0.2242,
-        0.146372,
-        0.256
+        0.52275,
+        0.2012,
+        0.1638,
+        0.276474
       ],
       "color": "steel",
       "focus": true,
       "label": "NEW SEARCHES",
       "label_box": [
-        0.492,
-        0.4862,
-        0.16237200000000002,
-        0.085
-      ]
+        0.52275,
+        0.49443,
+        0.1638,
+        0.121481
+      ],
+      "label_size": 18
     },
     {
       "asset": "box",
       "box": [
-        0.6978,
-        0.2242,
-        0.146372,
-        0.256
+        0.75025,
+        0.2012,
+        0.1638,
+        0.276474
       ],
       "color": "steel",
       "focus": true,
       "label": "NEW SEARCHES",
       "label_box": [
-        0.6898,
-        0.4862,
-        0.16237200000000002,
-        0.085
-      ]
+        0.75025,
+        0.49443,
+        0.1638,
+        0.121481
+      ],
+      "label_size": 18
     }
   ],
   "reconstructed": false,

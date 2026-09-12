@@ -1,6 +1,6 @@
 {
   "background": "ink",
-  "intent": "Block a different task begins with missing cells. Keep the scripted evidence boundary and lettering visible.",
+  "intent": "Make missing spreadsheet cells and external citation stubs the dominant pattern. The hard date cut and new task shape distinguish this run from the July opening.",
   "lettering": [
     {
       "box": [
@@ -14,7 +14,7 @@
   "lettering_mode": "manual",
   "nodes": [
     {
-      "asset": "sheet",
+      "asset": "incomplete-sheet",
       "box": [
         0.2148,
         0.1282,
@@ -32,7 +32,7 @@
       ]
     },
     {
-      "asset": "outline-box",
+      "asset": "empty-slot",
       "box": [
         0.0952,
         0.5698,

@@ -1,6 +1,6 @@
 {
   "background": "ink",
-  "intent": "Block the removed components form one column. Keep the scripted evidence boundary and lettering visible.",
+  "intent": "Align the removed components in one bounded documentary column. Give each a removal state while preserving distinguishable shapes for instance, credential, route and stored contents.",
   "lettering": [
     {
       "box": [
@@ -16,9 +16,9 @@
     {
       "asset": "rack",
       "box": [
-        0.1872,
+        0.478704,
         0.0962,
-        0.6072,
+        0.024192,
         0.08064
       ],
       "color": "shadow",

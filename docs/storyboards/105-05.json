@@ -1,44 +1,46 @@
 {
   "background": "ink",
-  "intent": "Block future blanks wait beside an unread new report. Keep the scripted evidence boundary and lettering visible.",
+  "intent": "Keep future pages blank while the new report notice remains unread in the corner. The looming source addition must not retroactively enter the completed manuscript's knowledge.",
   "lettering": [],
   "lettering_mode": "manual",
   "nodes": [
     {
       "asset": "outline-box",
       "box": [
-        0.1001,
-        0.287,
-        0.295926,
-        0.36
+        0.06775,
+        0.2397,
+        0.3913,
+        0.344619
       ],
       "color": "steel",
       "focus": true,
       "label": "FUTURE PAGES",
       "label_box": [
-        0.09209999999999999,
-        0.653,
-        0.31192600000000004,
-        0.085
-      ]
+        0.06775,
+        0.605205,
+        0.3913,
+        0.151423
+      ],
+      "label_size": 18
     },
     {
       "asset": "card",
       "box": [
-        0.5,
-        0.287,
-        0.295926,
-        0.36
+        0.52275,
+        0.2397,
+        0.3913,
+        0.344619
       ],
       "color": "steel",
       "focus": true,
       "label": "NEW REPORT",
       "label_box": [
-        0.492,
-        0.653,
-        0.31192600000000004,
-        0.085
-      ]
+        0.52275,
+        0.605205,
+        0.3913,
+        0.151423
+      ],
+      "label_size": 18
     }
   ],
   "reconstructed": false,

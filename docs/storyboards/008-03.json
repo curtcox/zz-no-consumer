@@ -1,66 +1,84 @@
 {
   "background": "ink",
-  "intent": "Block a separate task applies the hypothesis. Keep the scripted evidence boundary and lettering visible.",
+  "intent": "Keep the validator's task frame distinct from the proposer. Place derived and actual redacted results on two parallel tracks terminating side by side, ready for comparison.",
   "lettering": [],
   "lettering_mode": "manual",
   "nodes": [
     {
-      "asset": "card",
+      "asset": "outline-box",
       "box": [
-        0.1001,
-        0.287,
-        0.147963,
-        0.36
+        0.0541,
+        0.0627,
+        0.8918,
+        0.672883
       ],
       "color": "steel",
       "focus": true,
       "label": "V8SAME",
       "label_box": [
-        0.09209999999999999,
-        0.653,
-        0.16396300000000003,
-        0.085
-      ]
+        0.0541,
+        0.743583,
+        0.8918,
+        0.160221
+      ],
+      "label_size": 18
+    },
+    {
+      "asset": "task",
+      "box": [
+        0.1087,
+        0.23085,
+        0.2275,
+        0.274527
+      ],
+      "color": "steel",
+      "focus": true,
+      "label": "OWN TASK",
+      "label_box": [
+        0.1087,
+        0.522015,
+        0.2275,
+        0.120625
+      ],
+      "label_size": 18
     },
     {
       "asset": "sealed",
       "box": [
-        0.30005,
-        0.287,
-        0.147963,
-        0.36
+        0.3999,
+        0.23085,
+        0.2184,
+        0.274527
       ],
       "color": "steel",
       "focus": true,
       "label": "HYPOTHESIS",
       "label_box": [
-        0.29205,
-        0.653,
-        0.16396300000000003,
-        0.085
-      ]
+        0.3999,
+        0.522015,
+        0.2184,
+        0.120625
+      ],
+      "label_size": 18
     },
     {
-      "asset": "flag",
+      "asset": "packet-match",
       "box": [
-        0.5,
-        0.287,
-        0.147963,
-        0.36
+        0.6911,
+        0.23085,
+        0.2002,
+        0.274527
       ],
       "color": "steel",
-      "focus": true
-    },
-    {
-      "asset": "flag",
-      "box": [
-        0.69995,
-        0.287,
-        0.147963,
-        0.36
+      "focus": true,
+      "label": "RESULT PAIR",
+      "label_box": [
+        0.6911,
+        0.522015,
+        0.2002,
+        0.120625
       ],
-      "color": "steel",
-      "focus": true
+      "label_size": 18
     }
   ],
   "reconstructed": false,

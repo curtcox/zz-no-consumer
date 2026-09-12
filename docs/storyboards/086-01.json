@@ -1,6 +1,6 @@
 {
   "background": "ink",
-  "intent": "Block the public-report adaptation pipeline returns. Keep the scripted evidence boundary and lettering visible.",
+  "intent": "Repeat the earlier adaptation pipeline at the same scale and with identical stages. Its apparent completeness is necessary for the next panel's missing tooling lane to register.",
   "lettering": [
     {
       "box": [
@@ -16,104 +16,111 @@
     {
       "asset": "paper",
       "box": [
-        0.1044,
-        0.2242,
-        0.146372,
-        0.256
+        0.06775,
+        0.2012,
+        0.1638,
+        0.276474
       ],
       "color": "steel",
       "focus": true,
       "label": "PUBLIC REPORTS",
       "label_box": [
-        0.09640000000000001,
-        0.4862,
-        0.16237200000000002,
-        0.085
-      ]
+        0.06775,
+        0.49443,
+        0.1638,
+        0.121481
+      ],
+      "label_size": 18
+    },
+    {
+      "asset": "arrow",
+      "box": [
+        0.2361,
+        0.2935,
+        0.05915,
+        0.0852
+      ],
+      "color": "steel",
+      "focus": true
     },
     {
       "asset": "blank-monitor",
       "box": [
-        0.3022,
-        0.2242,
-        0.146372,
-        0.256
+        0.29525,
+        0.2012,
+        0.1638,
+        0.276474
       ],
       "color": "steel",
       "focus": true,
       "label": "CHATGPT / CURT",
       "label_box": [
-        0.2942,
-        0.4862,
-        0.16237200000000002,
-        0.085
-      ]
+        0.29525,
+        0.49443,
+        0.1638,
+        0.121481
+      ],
+      "label_size": 18
+    },
+    {
+      "asset": "arrow",
+      "box": [
+        0.4636,
+        0.2935,
+        0.05915,
+        0.0852
+      ],
+      "color": "steel",
+      "focus": true
     },
     {
       "asset": "card",
       "box": [
-        0.5,
-        0.2242,
-        0.146372,
-        0.256
+        0.52275,
+        0.2012,
+        0.1638,
+        0.276474
       ],
       "color": "steel",
       "focus": true,
       "label": "PAGE SELECTION",
       "label_box": [
-        0.492,
-        0.4862,
-        0.16237200000000002,
-        0.085
-      ]
+        0.52275,
+        0.49443,
+        0.1638,
+        0.121481
+      ],
+      "label_size": 18
+    },
+    {
+      "asset": "arrow",
+      "box": [
+        0.6911,
+        0.2935,
+        0.05915,
+        0.0852
+      ],
+      "color": "steel",
+      "focus": true
     },
     {
       "asset": "folder",
       "box": [
-        0.6978,
-        0.2242,
-        0.146372,
-        0.256
+        0.75025,
+        0.2012,
+        0.1638,
+        0.276474
       ],
       "color": "steel",
       "focus": true,
       "label": "COMIC",
       "label_box": [
-        0.6898,
-        0.4862,
-        0.16237200000000002,
-        0.085
-      ]
-    },
-    {
-      "asset": "arrow",
-      "box": [
-        0.258684,
-        0.3202,
-        0.0368,
-        0.0416
+        0.75025,
+        0.49443,
+        0.1638,
+        0.121481
       ],
-      "color": "steel"
-    },
-    {
-      "asset": "arrow",
-      "box": [
-        0.456484,
-        0.3202,
-        0.0368,
-        0.0416
-      ],
-      "color": "steel"
-    },
-    {
-      "asset": "arrow",
-      "box": [
-        0.654284,
-        0.3202,
-        0.0368,
-        0.0416
-      ],
-      "color": "steel"
+      "label_size": 18
     }
   ],
   "reconstructed": true,

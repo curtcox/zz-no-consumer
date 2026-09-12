@@ -1,6 +1,6 @@
 {
   "background": "ink",
-  "intent": "Block the board opens a waiting lane. Keep the scripted evidence boundary and lettering visible.",
+  "intent": "Leave a clearly empty result slot beside a waiting clock. The test stays outside the frame, so expectation cannot become a depicted outcome.",
   "lettering": [
     {
       "box": [
@@ -14,7 +14,7 @@
   "lettering_mode": "manual",
   "nodes": [
     {
-      "asset": "outline-box",
+      "asset": "empty-slot",
       "box": [
         0.2148,
         0.1282,

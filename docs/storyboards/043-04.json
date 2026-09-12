@@ -1,6 +1,6 @@
 {
   "background": "ink",
-  "intent": "Block closed commands and results cross a public queue. Keep the scripted evidence boundary and lettering visible.",
+  "intent": "Show a closed command traveling into the sandbox and a distinct closed result returning to the public queue. Direction distinguishes request from response without exposing protocol fields.",
   "lettering": [
     {
       "box": [
@@ -14,78 +14,80 @@
   "lettering_mode": "manual",
   "nodes": [
     {
-      "asset": "sealed",
+      "asset": "folder",
       "box": [
-        0.1044,
-        0.2242,
-        0.195163,
-        0.256
+        0.0632,
+        0.1799,
+        0.273,
+        0.290532
       ],
       "color": "steel",
       "focus": true,
-      "label": "COMMAND",
+      "label": "PUBLIC QUEUE",
       "label_box": [
-        0.09640000000000001,
-        0.4862,
-        0.211163,
-        0.085
-      ]
+        0.0632,
+        0.48804,
+        0.273,
+        0.127658
+      ],
+      "label_size": 18
     },
     {
       "asset": "box",
       "box": [
-        0.368133,
-        0.2242,
-        0.195163,
-        0.256
+        0.6729,
+        0.1799,
+        0.273,
+        0.290532
       ],
       "color": "steel",
       "focus": true,
       "label": "SANDBOX",
       "label_box": [
-        0.360133,
-        0.4862,
-        0.211163,
-        0.085
-      ]
+        0.6729,
+        0.48804,
+        0.273,
+        0.127658
+      ],
+      "label_size": 18
     },
     {
-      "asset": "sealed",
+      "asset": "arrow",
       "box": [
-        0.631867,
-        0.2242,
-        0.195163,
-        0.256
+        0.3817,
+        0.0876,
+        0.2275,
+        0.16401
+      ],
+      "color": "steel",
+      "focus": true,
+      "label": "COMMAND",
+      "label_box": [
+        0.3817,
+        0.26155,
+        0.2275,
+        0.072065
+      ],
+      "label_size": 18
+    },
+    {
+      "asset": "arrow-left",
+      "box": [
+        0.3817,
+        0.4568,
+        0.2275,
+        0.16401
       ],
       "color": "steel",
       "focus": true,
       "label": "RESULT",
       "label_box": [
-        0.623867,
-        0.4862,
-        0.211163,
-        0.085
-      ]
-    },
-    {
-      "asset": "arrow",
-      "box": [
-        0.310112,
-        0.3202,
-        0.049067,
-        0.0416
+        0.3817,
+        0.63075,
+        0.2275,
+        0.072065
       ],
-      "color": "steel"
-    },
-    {
-      "asset": "arrow",
-      "box": [
-        0.573845,
-        0.3202,
-        0.049067,
-        0.0416
-      ],
-      "color": "steel"
+      "label_size": 18
     }
   ],
   "reconstructed": false,

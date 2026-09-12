@@ -1,6 +1,6 @@
 {
   "background": "ink",
-  "intent": "Block a source packet replaces the gavel. Keep the scripted evidence boundary and lettering visible.",
+  "intent": "Center the source packet on the table in place of a gavel. Authority in this forum comes from examined evidence rather than judicial spectacle.",
   "lettering": [
     {
       "box": [
@@ -37,22 +37,24 @@
       "asset": "person-seated",
       "box": [
         0.09933333333333332,
-        0.20499999999999996,
+        0.205,
         0.19413333333333335,
-        0.44800000000000006
+        0.448
       ],
-      "color": "dirty"
+      "color": "dirty",
+      "focus": true
     },
     {
       "asset": "person-seated",
       "box": [
         0.7249333333333333,
-        0.20499999999999996,
+        0.205,
         0.19413333333333335,
-        0.44800000000000006
+        0.448
       ],
       "color": "dirty",
-      "flip": true
+      "flip": true,
+      "focus": true
     },
     {
       "asset": "folder",

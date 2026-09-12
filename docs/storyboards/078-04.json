@@ -1,6 +1,6 @@
 {
   "background": "ink",
-  "intent": "Block mETR places a limitation over the summary. Keep the scripted evidence boundary and lettering visible.",
+  "intent": "Overlay the limitation card without hiding the underlying summary. The reader needs to see both the persuasive interpretation and the stated reasons to distrust its emphasis.",
   "lettering": [],
   "lettering_mode": "manual",
   "nodes": [

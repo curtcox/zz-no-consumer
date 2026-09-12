@@ -1,6 +1,6 @@
 {
   "background": "ink",
-  "intent": "Block the pause has a scope while other work stays active. Keep the scripted evidence boundary and lettering visible.",
+  "intent": "Bracket the paused scope and leave other lanes lit outside it. Different operational states can coexist within one institution.",
   "lettering": [
     {
       "box": [
@@ -14,50 +14,61 @@
   "lettering_mode": "manual",
   "nodes": [
     {
+      "asset": "outline-box",
+      "box": [
+        0.0541,
+        0.0521,
+        0.4095,
+        0.449856
+      ],
+      "color": "steel",
+      "focus": true,
+      "label": "PAUSE SCOPE",
+      "label_box": [
+        0.0541,
+        0.52922,
+        0.4095,
+        0.197664
+      ],
+      "label_size": 18
+    },
+    {
       "asset": "box",
       "box": [
-        0.1044,
-        0.2242,
-        0.292744,
-        0.256
+        0.136,
+        0.2083,
+        0.2457,
+        0.21087
       ],
       "color": "shadow",
       "focus": true,
       "label": "PAUSED LANE",
       "label_box": [
-        0.09640000000000001,
-        0.4862,
-        0.308744,
-        0.085
-      ]
+        0.136,
+        0.43195,
+        0.2457,
+        0.092655
+      ],
+      "label_size": 18
     },
     {
       "asset": "box",
       "box": [
-        0.5,
-        0.2242,
-        0.292744,
-        0.256
+        0.6274,
+        0.2083,
+        0.2639,
+        0.21087
       ],
       "color": "steel",
       "focus": true,
       "label": "OTHER WORK",
       "label_box": [
-        0.492,
-        0.4862,
-        0.308744,
-        0.085
-      ]
-    },
-    {
-      "asset": "boundary",
-      "box": [
-        0.4908,
-        0.0962,
-        0.01656,
-        0.5376
+        0.6274,
+        0.43195,
+        0.2639,
+        0.092655
       ],
-      "color": "amber"
+      "label_size": 18
     }
   ],
   "reconstructed": false,

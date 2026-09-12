@@ -1,6 +1,6 @@
 {
   "background": "ink",
-  "intent": "Block the original evaluation lies outside later safeguards. Keep the scripted evidence boundary and lettering visible.",
+  "intent": "Place the original evaluation outside the later harness perimeter. This spatial exclusion explains why later safeguard results cannot be projected backward onto the incident.",
   "lettering": [
     {
       "box": [
@@ -16,53 +16,55 @@
     {
       "asset": "box",
       "box": [
-        0.1044,
-        0.2242,
-        0.195163,
-        0.256
+        0.06775,
+        0.2012,
+        0.3913,
+        0.276474
       ],
       "color": "steel",
       "focus": true,
       "label": "ORIGINAL EVALUATION",
       "label_box": [
-        0.09640000000000001,
-        0.4862,
-        0.211163,
-        0.085
-      ]
-    },
-    {
-      "asset": "boundary",
-      "box": [
-        0.45971449999999997,
-        0.2242,
-        0.012,
-        0.256
+        0.06775,
+        0.49443,
+        0.3913,
+        0.121481
       ],
-      "color": "paper",
-      "focus": true
+      "label_size": 18
     },
     {
       "asset": "gate",
       "box": [
-        0.631867,
-        0.2242,
-        0.195163,
-        0.256
+        0.52275,
+        0.2012,
+        0.3913,
+        0.276474
       ],
       "color": "steel",
       "focus": true,
       "label": "LATER HARNESS",
       "label_box": [
-        0.623867,
-        0.4862,
-        0.211163,
-        0.085
-      ]
+        0.52275,
+        0.49443,
+        0.3913,
+        0.121481
+      ],
+      "label_size": 18
+    },
+    {
+      "asset": "boundary",
+      "box": [
+        0.49363,
+        0.0734,
+        0.01274,
+        0.6248
+      ],
+      "color": "steel",
+      "focus": true
     }
   ],
   "reconstructed": false,
-  "shot": "row",
+  "shot": "split",
   "source": "\n**Frame:** The original evaluation lane passes outside the production harness, auto-review, and later monitoring stack.\n\n**Caption:**\n> THE CONTROLS WERE NOT APPLIED TO THE ORIGINAL RUN. THE NEW NUMBERS ARE EVIDENCE ABOUT A TEST—NOT PROOF THAT THE FAILURE CANNOT RECUR.\n\n**Provenance:** `documented` + `inferred` — absence documented; evidentiary limit is project analysis.\n\n",
   "title": "The original evaluation lies outside later safeguards"
 }

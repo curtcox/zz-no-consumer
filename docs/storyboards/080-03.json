@@ -1,44 +1,46 @@
 {
   "background": "ink",
-  "intent": "Block two errors surface late in the analysis. Keep the scripted evidence boundary and lettering visible.",
+  "intent": "Give omitted-data and confabulated-difference errors separate correction cards. Distinct failure types must not collapse into a generic typo or one isolated mistake.",
   "lettering": [],
   "lettering_mode": "manual",
   "nodes": [
     {
       "asset": "card",
       "box": [
-        0.1001,
-        0.287,
-        0.295926,
-        0.36
+        0.06775,
+        0.2397,
+        0.3913,
+        0.344619
       ],
       "color": "amber",
       "focus": true,
       "label": "EARLY DATA OMITTED",
       "label_box": [
-        0.09209999999999999,
-        0.653,
-        0.31192600000000004,
-        0.085
-      ]
+        0.06775,
+        0.605205,
+        0.3913,
+        0.151423
+      ],
+      "label_size": 18
     },
     {
       "asset": "card",
       "box": [
-        0.5,
-        0.287,
-        0.295926,
-        0.36
+        0.52275,
+        0.2397,
+        0.3913,
+        0.344619
       ],
       "color": "amber",
       "focus": true,
       "label": "CONFABULATED DIFFERENCES",
       "label_box": [
-        0.492,
-        0.653,
-        0.31192600000000004,
-        0.085
-      ]
+        0.52275,
+        0.605205,
+        0.3913,
+        0.151423
+      ],
+      "label_size": 18
     }
   ],
   "reconstructed": false,

@@ -1,6 +1,6 @@
 {
   "background": "ink",
-  "intent": "Block workload and institutional clocks have different scales. Keep the scripted evidence boundary and lettering visible.",
+  "intent": "Make the clocks visibly different scales and attach separate limits of unilateral stopping. Shared artifacts and capability diffusion are distinct persistence mechanisms.",
   "lettering": [
     {
       "box": [
@@ -16,48 +16,51 @@
     {
       "asset": "clock",
       "box": [
-        0.20810533333333336,
-        0.2882,
-        0.08533333333333334,
-        0.12800000000000003
+        0.171242,
+        0.2012,
+        0.184316,
+        0.276474
       ],
       "color": "steel",
       "focus": true,
       "label": "WORKLOAD TIME",
       "label_box": [
-        0.09640000000000001,
-        0.4862,
-        0.308744,
-        0.085
-      ]
+        0.06775,
+        0.49443,
+        0.3913,
+        0.121481
+      ],
+      "label_size": 18
     },
     {
       "asset": "clock",
       "box": [
-        0.5610386666666667,
-        0.22419999999999998,
-        0.1706666666666667,
-        0.25600000000000006
+        0.626242,
+        0.2012,
+        0.184316,
+        0.276474
       ],
       "color": "steel",
       "focus": true,
       "label": "INSTITUTIONAL TIME",
       "label_box": [
-        0.492,
-        0.4862,
-        0.308744,
-        0.085
-      ]
+        0.52275,
+        0.49443,
+        0.3913,
+        0.121481
+      ],
+      "label_size": 18
     },
     {
       "asset": "boundary",
       "box": [
-        0.4908,
-        0.0962,
-        0.01656,
-        0.5376
+        0.49363,
+        0.0734,
+        0.01274,
+        0.6248
       ],
-      "color": "amber"
+      "color": "steel",
+      "focus": true
     }
   ],
   "reconstructed": false,

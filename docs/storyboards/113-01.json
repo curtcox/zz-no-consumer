@@ -1,6 +1,6 @@
 {
   "background": "ink",
-  "intent": "Block a closed-folder choice sits beside two equal windows. Keep the scripted evidence boundary and lettering visible.",
+  "intent": "Hold the cursor over the closed-draft choice beside equally weighted assistant and composite-skeptic windows. The decision remains pending rather than graphically predetermined.",
   "lettering": [
     {
       "box": [
@@ -45,11 +45,12 @@
       "asset": "person-seated",
       "box": [
         0.055,
-        0.42200000000000004,
+        0.422,
         0.13,
         0.3
       ],
-      "color": "dirty"
+      "color": "dirty",
+      "focus": true
     },
     {
       "asset": "folder",
@@ -113,7 +114,8 @@
         0.035,
         0.1218
       ],
-      "color": "nicotine"
+      "color": "nicotine",
+      "focus": true
     }
   ],
   "reconstructed": true,

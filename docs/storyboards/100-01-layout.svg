@@ -1,23 +1,28 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="800" viewBox="0 0 1200 800"><title>The earlier scorer distinction is reproduced</title><metadata>{
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="800" viewBox="0 0 1200 800"><title>The earlier scorer distinction is reproduced</title><desc>Reproduce the earlier two-account scorer panel unchanged inside the forum screen. Equal source standing and the amber gap must survive this return.</desc><metadata>{
   &quot;assets&quot;: {
     &quot;aperture&quot;: &quot;&lt;rect x=\&quot;2\&quot; y=\&quot;15\&quot; width=\&quot;96\&quot; height=\&quot;70\&quot; fill=\&quot;#202326\&quot; stroke=\&quot;currentColor\&quot; stroke-width=\&quot;3\&quot;/&gt;&lt;circle cx=\&quot;50\&quot; cy=\&quot;50\&quot; r=\&quot;27\&quot; fill=\&quot;#101214\&quot; stroke=\&quot;currentColor\&quot; stroke-width=\&quot;3\&quot;/&gt;&lt;path d=\&quot;M50 24L74 63H26ZM26 63L50 24L74 63\&quot; fill=\&quot;none\&quot; stroke=\&quot;currentColor\&quot; stroke-width=\&quot;2\&quot;/&gt;&quot;,
+    &quot;arrow-down&quot;: &quot;&lt;g transform=\&quot;rotate(90 50 50)\&quot;&gt;&lt;path d=\&quot;M1 50H87M70 18L96 50L70 82\&quot; fill=\&quot;none\&quot; stroke=\&quot;currentColor\&quot; stroke-width=\&quot;5\&quot;/&gt;&lt;/g&gt;&quot;,
     &quot;boundary&quot;: &quot;&lt;path d=\&quot;M50 0V100\&quot; stroke=\&quot;currentColor\&quot; stroke-width=\&quot;14\&quot;/&gt;&quot;,
-    &quot;checkmark&quot;: &quot;&lt;path d=\&quot;M8 51L37 82L94 12\&quot; fill=\&quot;none\&quot; stroke=\&quot;currentColor\&quot; stroke-width=\&quot;8\&quot;/&gt;&quot;
+    &quot;checkmark&quot;: &quot;&lt;path d=\&quot;M8 51L37 82L94 12\&quot; fill=\&quot;none\&quot; stroke=\&quot;currentColor\&quot; stroke-width=\&quot;8\&quot;/&gt;&quot;,
+    &quot;flag&quot;: &quot;&lt;path d=\&quot;M20 98V3L85 6L64 26L85 49H22\&quot; fill=\&quot;none\&quot; stroke=\&quot;currentColor\&quot; stroke-width=\&quot;4\&quot;/&gt;&quot;,
+    &quot;transcript&quot;: &quot;&lt;rect x=\&quot;1\&quot; y=\&quot;1\&quot; width=\&quot;98\&quot; height=\&quot;98\&quot; fill=\&quot;#202326\&quot; stroke=\&quot;currentColor\&quot; stroke-width=\&quot;2\&quot;/&gt;&lt;path d=\&quot;M20 1V99M1 18H99M6 10H13M27 9H83M6 31H13M28 30H88M28 39H71M6 53H13M28 52H79M28 61H90M6 75H13M28 74H66M28 83H83\&quot; stroke=\&quot;currentColor\&quot; stroke-width=\&quot;2\&quot;/&gt;&quot;
   },
   &quot;palette&quot;: {
     &quot;amber&quot;: &quot;#A17D45&quot;,
+    &quot;claret&quot;: &quot;#6B2634&quot;,
     &quot;dirty&quot;: &quot;#CEC5B3&quot;,
     &quot;ink&quot;: &quot;#101214&quot;,
     &quot;institution&quot;: &quot;#68766B&quot;,
+    &quot;moss&quot;: &quot;#74864F&quot;,
     &quot;nicotine&quot;: &quot;#AA9571&quot;,
     &quot;paper&quot;: &quot;#E7E0D0&quot;,
     &quot;shadow&quot;: &quot;#202326&quot;,
     &quot;steel&quot;: &quot;#5E737B&quot;
   },
-  &quot;renderer&quot;: &quot;storyboard-svg-1&quot;,
+  &quot;renderer&quot;: &quot;storyboard-svg-2&quot;,
   &quot;scene&quot;: {
     &quot;background&quot;: &quot;ink&quot;,
-    &quot;intent&quot;: &quot;Block the earlier scorer distinction is reproduced. Keep the scripted evidence boundary and lettering visible.&quot;,
+    &quot;intent&quot;: &quot;Reproduce the earlier two-account scorer panel unchanged inside the forum screen. Equal source standing and the amber gap must survive this return.&quot;,
     &quot;lettering&quot;: [
       {
         &quot;box&quot;: [
@@ -33,48 +38,100 @@
       {
         &quot;asset&quot;: &quot;aperture&quot;,
         &quot;box&quot;: [
-          0.09491933333333333,
-          0.237296,
-          0.11093333333333336,
-          0.22528000000000006
+          0.168912,
+          0.329872,
+          0.141124,
+          0.162835
         ],
         &quot;color&quot;: &quot;steel&quot;,
         &quot;focus&quot;: true,
-        &quot;label&quot;: &quot;BOARD BELIEF&quot;,
+        &quot;label&quot;: &quot;WHAT THE BOARD BELIEVED&quot;,
         &quot;label_box&quot;: [
-          0.08691933333333332,
-          0.4685760000000001,
-          0.12693333333333334,
-          0.085
-        ]
+          0.05,
+          0.502576,
+          0.378947,
+          0.071549
+        ],
+        &quot;label_size&quot;: 18
       },
       {
-        &quot;asset&quot;: &quot;checkmark&quot;,
+        &quot;asset&quot;: &quot;arrow-down&quot;,
         &quot;box&quot;: [
-          0.30551933333333336,
-          0.237296,
-          0.08533333333333334,
-          0.22528000000000006
+          0.182632,
+          0.609932,
+          0.094737,
+          0.080017
+        ],
+        &quot;color&quot;: &quot;steel&quot;,
+        &quot;focus&quot;: true
+      },
+      {
+        &quot;asset&quot;: &quot;transcript&quot;,
+        &quot;box&quot;: [
+          0.059474,
+          0.723289,
+          0.369474,
+          0.132028
         ],
         &quot;color&quot;: &quot;steel&quot;,
         &quot;focus&quot;: true,
-        &quot;label&quot;: &quot;OPENAI ACCOUNT&quot;,
+        &quot;label&quot;: &quot;PATH INSPECTION&quot;,
         &quot;label_box&quot;: [
-          0.29751933333333336,
-          0.4685760000000001,
-          0.10133333333333334,
-          0.085
-        ]
+          0.059474,
+          0.863319,
+          0.369474,
+          0.058012
+        ],
+        &quot;label_size&quot;: 18
       },
       {
         &quot;asset&quot;: &quot;boundary&quot;,
         &quot;box&quot;: [
-          0.27040000000000003,
-          0.12465599999999999,
-          0.00828,
-          0.47308799999999995
+          0.495263,
+          0.3032,
+          0.015158,
+          0.6268
         ],
-        &quot;color&quot;: &quot;amber&quot;
+        &quot;color&quot;: &quot;amber&quot;,
+        &quot;focus&quot;: true
+      },
+      {
+        &quot;asset&quot;: &quot;flag&quot;,
+        &quot;box&quot;: [
+          0.734719,
+          0.329872,
+          0.070562,
+          0.162835
+        ],
+        &quot;color&quot;: &quot;steel&quot;,
+        &quot;focus&quot;: true,
+        &quot;label&quot;: &quot;WHAT OPENAI SAYS RAN&quot;,
+        &quot;label_box&quot;: [
+          0.59,
+          0.502576,
+          0.36,
+          0.071549
+        ],
+        &quot;label_size&quot;: 18
+      },
+      {
+        &quot;asset&quot;: &quot;checkmark&quot;,
+        &quot;box&quot;: [
+          0.721254,
+          0.723289,
+          0.088019,
+          0.132028
+        ],
+        &quot;color&quot;: &quot;steel&quot;,
+        &quot;focus&quot;: true,
+        &quot;label&quot;: &quot;ANSWER ACCEPTANCE&quot;,
+        &quot;label_box&quot;: [
+          0.608947,
+          0.863319,
+          0.312632,
+          0.058012
+        ],
+        &quot;label_size&quot;: 18
       }
     ],
     &quot;reconstructed&quot;: false,
@@ -83,4 +140,4 @@
     &quot;title&quot;: &quot;The earlier scorer distinction is reproduced&quot;
   }
 }
-</metadata><rect width="1200" height="800" fill="#101214"/><rect x="113.903" y="189.837" width="133.12" height="180.224" fill="none" stroke="#5E737B" stroke-width="3"/><text x="121.903" y="213.837" fill="#5E737B" font-family="sans-serif" font-size="20">aperture</text><text x="180.463" y="394.861" text-anchor="middle" fill="#E7E0D0" font-size="20" font-family="sans-serif">BOARD BELIEF</text><rect x="366.623" y="189.837" width="102.4" height="180.224" fill="none" stroke="#5E737B" stroke-width="3"/><text x="374.623" y="213.837" fill="#5E737B" font-family="sans-serif" font-size="20">checkmark</text><text x="417.823" y="394.861" text-anchor="middle" fill="#E7E0D0" font-size="20" font-family="sans-serif">OPENAI</text><text x="417.823" y="422.061" text-anchor="middle" fill="#E7E0D0" font-size="20" font-family="sans-serif">ACCOUNT</text><rect x="324.48" y="99.7248" width="9.936" height="378.47" fill="none" stroke="#A17D45" stroke-width="3"/><text x="332.48" y="123.725" fill="#A17D45" font-family="sans-serif" font-size="20">boundary</text><rect x="3" y="3" width="1194" height="794" fill="none" stroke="#5E737B" stroke-width="4"/></svg>
+</metadata><rect width="1200" height="800" fill="#101214"/><rect x="202.694" y="263.898" width="169.349" height="130.268" fill="none" stroke="#5E737B" stroke-width="3"/><text x="210.694" y="287.898" fill="#5E737B" font-family="sans-serif" font-size="20">aperture</text><text x="287.368" y="420.061" text-anchor="middle" fill="#E7E0D0" font-size="18" font-family="sans-serif">WHAT THE BOARD BELIEVED</text><rect x="219.158" y="487.946" width="113.684" height="64.0136" fill="none" stroke="#5E737B" stroke-width="3"/><text x="227.158" y="511.946" fill="#5E737B" font-family="sans-serif" font-size="20">arrow-down</text><rect x="71.3688" y="578.631" width="443.369" height="105.622" fill="none" stroke="#5E737B" stroke-width="3"/><text x="79.3688" y="602.631" fill="#5E737B" font-family="sans-serif" font-size="20">transcript</text><text x="293.053" y="708.655" text-anchor="middle" fill="#E7E0D0" font-size="18" font-family="sans-serif">PATH INSPECTION</text><rect x="594.316" y="242.56" width="18.1896" height="501.44" fill="none" stroke="#A17D45" stroke-width="3"/><text x="602.316" y="266.56" fill="#A17D45" font-family="sans-serif" font-size="20">boundary</text><rect x="881.663" y="263.898" width="84.6744" height="130.268" fill="none" stroke="#5E737B" stroke-width="3"/><text x="889.663" y="287.898" fill="#5E737B" font-family="sans-serif" font-size="20">flag</text><text x="924" y="420.061" text-anchor="middle" fill="#E7E0D0" font-size="18" font-family="sans-serif">WHAT OPENAI SAYS RAN</text><rect x="865.505" y="578.631" width="105.623" height="105.622" fill="none" stroke="#5E737B" stroke-width="3"/><text x="873.505" y="602.631" fill="#5E737B" font-family="sans-serif" font-size="20">checkmark</text><text x="918.316" y="708.655" text-anchor="middle" fill="#E7E0D0" font-size="18" font-family="sans-serif">ANSWER ACCEPTANCE</text><rect x="3" y="3" width="1194" height="794" fill="none" stroke="#5E737B" stroke-width="4"/></svg>

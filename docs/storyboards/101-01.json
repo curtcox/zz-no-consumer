@@ -1,6 +1,6 @@
 {
   "background": "ink",
-  "intent": "Block a real dated slide enters the invented forum. Keep the scripted evidence boundary and lettering visible.",
+  "intent": "Place the real dated slide inside the invented room's screen with readable citation. Unidentifiable speaker silhouettes belong to the displayed artifact, not the forum participants.",
   "lettering": [
     {
       "box": [
@@ -45,22 +45,24 @@
       "asset": "person-seated",
       "box": [
         0.055,
-        0.42200000000000004,
+        0.422,
         0.13,
         0.3
       ],
-      "color": "dirty"
+      "color": "dirty",
+      "focus": true
     },
     {
       "asset": "person-seated",
       "box": [
         0.395,
-        0.42200000000000004,
+        0.422,
         0.13,
         0.3
       ],
       "color": "dirty",
-      "flip": true
+      "flip": true,
+      "focus": true
     },
     {
       "asset": "monitor",
@@ -86,7 +88,7 @@
         0.2344665,
         0.3545,
         0.0638,
-        0.19139999999999996
+        0.1914
       ],
       "color": "dirty",
       "focus": true
@@ -97,7 +99,7 @@
         0.3778005,
         0.3545,
         0.0638,
-        0.19139999999999996
+        0.1914
       ],
       "color": "dirty",
       "focus": true

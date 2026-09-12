@@ -1,6 +1,6 @@
 {
   "background": "ink",
-  "intent": "Block three unreadable origins remain mutually uncertain. Keep the scripted evidence boundary and lettering visible.",
+  "intent": "Keep three possible origins unreadable and mutually unresolved. No sharper book icon, readable excerpt or weighted arrow should privilege inheritance over independent rediscovery.",
   "lettering": [
     {
       "box": [
@@ -16,10 +16,10 @@
     {
       "asset": "paper",
       "box": [
-        0.1044,
-        0.2242,
-        0.195163,
-        0.256
+        0.06775,
+        0.2012,
+        0.3913,
+        0.4189
       ],
       "color": "shadow",
       "focus": true
@@ -27,21 +27,10 @@
     {
       "asset": "card",
       "box": [
-        0.368133,
-        0.2242,
-        0.195163,
-        0.256
-      ],
-      "color": "shadow",
-      "focus": true
-    },
-    {
-      "asset": "dotted-line",
-      "box": [
-        0.631867,
-        0.2242,
-        0.195163,
-        0.256
+        0.52275,
+        0.2012,
+        0.3913,
+        0.4189
       ],
       "color": "shadow",
       "focus": true

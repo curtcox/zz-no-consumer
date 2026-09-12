@@ -1,6 +1,6 @@
 {
   "background": "ink",
-  "intent": "Block a generic public host returns a response. Keep the scripted evidence boundary and lettering visible.",
+  "intent": "Show a small response returning across the marked boundary. Localize claret to that crossing; the public host stays generic and the response does not imply broader access.",
   "lettering": [
     {
       "box": [
@@ -14,50 +14,64 @@
   "lettering_mode": "manual",
   "nodes": [
     {
-      "asset": "gate",
+      "asset": "folder",
       "box": [
-        0.1044,
-        0.2242,
-        0.292744,
-        0.256
+        0.0541,
+        0.2083,
+        0.2639,
+        0.276474
       ],
       "color": "steel",
       "focus": true,
-      "label": "BOUNDARY",
+      "label": "ARTIFACTORY",
       "label_box": [
-        0.09640000000000001,
-        0.4862,
-        0.308744,
-        0.085
-      ]
+        0.0541,
+        0.50153,
+        0.2639,
+        0.121481
+      ],
+      "label_size": 18
+    },
+    {
+      "asset": "boundary",
+      "box": [
+        0.4909,
+        0.0592,
+        0.01456,
+        0.6461
+      ],
+      "color": "steel",
+      "focus": true
+    },
+    {
+      "asset": "arrow-left",
+      "box": [
+        0.3453,
+        0.2651,
+        0.3094,
+        0.0923
+      ],
+      "color": "claret",
+      "focus": true
     },
     {
       "asset": "card",
       "box": [
-        0.5,
-        0.2242,
-        0.292744,
-        0.256
+        0.682,
+        0.2083,
+        0.2639,
+        0.276474
       ],
       "color": "steel",
       "focus": true,
       "label": "PUBLIC RESPONSE",
       "label_box": [
-        0.492,
-        0.4862,
-        0.308744,
-        0.085
-      ]
-    },
-    {
-      "asset": "boundary",
-      "box": [
-        0.4908,
-        0.0962,
-        0.01656,
-        0.5376
+        0.682,
+        0.50153,
+        0.2639,
+        0.121481
       ],
-      "color": "amber"
+      "label_size": 18
     }
   ],
   "reconstructed": false,

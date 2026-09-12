@@ -1,6 +1,6 @@
 {
   "background": "ink",
-  "intent": "Block a warning receives its missing provenance boundary. Keep the scripted evidence boundary and lettering visible.",
+  "intent": "Attach the missing provenance tag to the warning while preserving the warning itself. Separate board diagnosis, transcript ending and unknown final state in the reader's view.",
   "lettering": [
     {
       "box": [
@@ -34,9 +34,9 @@
     {
       "asset": "question",
       "box": [
-        0.40472,
+        0.4076,
         0.5698,
-        0.02496,
+        0.0192,
         0.0576
       ],
       "color": "amber",

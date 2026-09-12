@@ -1,6 +1,6 @@
 {
   "background": "ink",
-  "intent": "Block credentials become another prerequisite. Keep the scripted evidence boundary and lettering visible.",
+  "intent": "Replace the generic lanes symbol with several small search lanes ending before a credential gate. The shared obstacle explains convergence without suggesting a single coordinator or successful entry.",
   "lettering": [
     {
       "box": [
@@ -21,10 +21,11 @@
         0.8648,
         0.576
       ],
-      "color": "steel"
+      "color": "steel",
+      "focus": true
     },
     {
-      "asset": "card",
+      "asset": "task",
       "box": [
         0.0768,
         0.493,
@@ -42,7 +43,7 @@
       ]
     },
     {
-      "asset": "box",
+      "asset": "task",
       "box": [
         0.3344,
         0.301,

@@ -1,6 +1,6 @@
 {
   "background": "ink",
-  "intent": "Block available answers become uncertain. Keep the scripted evidence boundary and lettering visible.",
+  "intent": "Retain the answer marks unchanged and add amber brackets around acceptance. The doubt concerns whether an answer counts, not whether the previously obtained answer has vanished.",
   "lettering": [
     {
       "box": [
@@ -16,10 +16,10 @@
     {
       "asset": "question",
       "box": [
-        0.14651483333333332,
-        0.22419999999999998,
-        0.11093333333333336,
-        0.25600000000000006
+        0.11775,
+        0.2012,
+        0.139633,
+        0.4189
       ],
       "color": "amber",
       "focus": true
@@ -27,10 +27,10 @@
     {
       "asset": "flag",
       "box": [
-        0.368133,
-        0.2242,
-        0.195163,
-        0.256
+        0.400138,
+        0.2012,
+        0.181523,
+        0.4189
       ],
       "color": "institution",
       "focus": true
@@ -38,10 +38,10 @@
     {
       "asset": "question",
       "box": [
-        0.6739818333333333,
-        0.22419999999999998,
-        0.11093333333333336,
-        0.25600000000000006
+        0.724417,
+        0.2012,
+        0.139633,
+        0.4189
       ],
       "color": "amber",
       "focus": true

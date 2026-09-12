@@ -1,22 +1,24 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="800" viewBox="0 0 1200 800"><title>The pause has a scope while other work stays active</title><metadata>{
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="800" viewBox="0 0 1200 800"><title>The pause has a scope while other work stays active</title><desc>Bracket the paused scope and leave other lanes lit outside it. Different operational states can coexist within one institution.</desc><metadata>{
   &quot;assets&quot;: {
-    &quot;boundary&quot;: &quot;&lt;path d=\&quot;M50 0V100\&quot; stroke=\&quot;currentColor\&quot; stroke-width=\&quot;14\&quot;/&gt;&quot;,
-    &quot;box&quot;: &quot;&lt;rect x=\&quot;1\&quot; y=\&quot;1\&quot; width=\&quot;98\&quot; height=\&quot;98\&quot; rx=\&quot;2\&quot; fill=\&quot;#202326\&quot; stroke=\&quot;currentColor\&quot; stroke-width=\&quot;2\&quot;/&gt;&quot;
+    &quot;box&quot;: &quot;&lt;rect x=\&quot;1\&quot; y=\&quot;1\&quot; width=\&quot;98\&quot; height=\&quot;98\&quot; rx=\&quot;2\&quot; fill=\&quot;#202326\&quot; stroke=\&quot;currentColor\&quot; stroke-width=\&quot;2\&quot;/&gt;&quot;,
+    &quot;outline-box&quot;: &quot;&lt;rect x=\&quot;2\&quot; y=\&quot;2\&quot; width=\&quot;96\&quot; height=\&quot;96\&quot; fill=\&quot;none\&quot; stroke=\&quot;currentColor\&quot; stroke-width=\&quot;3\&quot;/&gt;&quot;
   },
   &quot;palette&quot;: {
     &quot;amber&quot;: &quot;#A17D45&quot;,
+    &quot;claret&quot;: &quot;#6B2634&quot;,
     &quot;dirty&quot;: &quot;#CEC5B3&quot;,
     &quot;ink&quot;: &quot;#101214&quot;,
     &quot;institution&quot;: &quot;#68766B&quot;,
+    &quot;moss&quot;: &quot;#74864F&quot;,
     &quot;nicotine&quot;: &quot;#AA9571&quot;,
     &quot;paper&quot;: &quot;#E7E0D0&quot;,
     &quot;shadow&quot;: &quot;#202326&quot;,
     &quot;steel&quot;: &quot;#5E737B&quot;
   },
-  &quot;renderer&quot;: &quot;storyboard-svg-1&quot;,
+  &quot;renderer&quot;: &quot;storyboard-svg-2&quot;,
   &quot;scene&quot;: {
     &quot;background&quot;: &quot;ink&quot;,
-    &quot;intent&quot;: &quot;Block the pause has a scope while other work stays active. Keep the scripted evidence boundary and lettering visible.&quot;,
+    &quot;intent&quot;: &quot;Bracket the paused scope and leave other lanes lit outside it. Different operational states can coexist within one institution.&quot;,
     &quot;lettering&quot;: [
       {
         &quot;box&quot;: [
@@ -30,50 +32,61 @@
     &quot;lettering_mode&quot;: &quot;manual&quot;,
     &quot;nodes&quot;: [
       {
+        &quot;asset&quot;: &quot;outline-box&quot;,
+        &quot;box&quot;: [
+          0.0541,
+          0.0521,
+          0.4095,
+          0.449856
+        ],
+        &quot;color&quot;: &quot;steel&quot;,
+        &quot;focus&quot;: true,
+        &quot;label&quot;: &quot;PAUSE SCOPE&quot;,
+        &quot;label_box&quot;: [
+          0.0541,
+          0.52922,
+          0.4095,
+          0.197664
+        ],
+        &quot;label_size&quot;: 18
+      },
+      {
         &quot;asset&quot;: &quot;box&quot;,
         &quot;box&quot;: [
-          0.1044,
-          0.2242,
-          0.292744,
-          0.256
+          0.136,
+          0.2083,
+          0.2457,
+          0.21087
         ],
         &quot;color&quot;: &quot;shadow&quot;,
         &quot;focus&quot;: true,
         &quot;label&quot;: &quot;PAUSED LANE&quot;,
         &quot;label_box&quot;: [
-          0.09640000000000001,
-          0.4862,
-          0.308744,
-          0.085
-        ]
+          0.136,
+          0.43195,
+          0.2457,
+          0.092655
+        ],
+        &quot;label_size&quot;: 18
       },
       {
         &quot;asset&quot;: &quot;box&quot;,
         &quot;box&quot;: [
-          0.5,
-          0.2242,
-          0.292744,
-          0.256
+          0.6274,
+          0.2083,
+          0.2639,
+          0.21087
         ],
         &quot;color&quot;: &quot;steel&quot;,
         &quot;focus&quot;: true,
         &quot;label&quot;: &quot;OTHER WORK&quot;,
         &quot;label_box&quot;: [
-          0.492,
-          0.4862,
-          0.308744,
-          0.085
-        ]
-      },
-      {
-        &quot;asset&quot;: &quot;boundary&quot;,
-        &quot;box&quot;: [
-          0.4908,
-          0.0962,
-          0.01656,
-          0.5376
+          0.6274,
+          0.43195,
+          0.2639,
+          0.092655
         ],
-        &quot;color&quot;: &quot;amber&quot;
+        &quot;label_size&quot;: 18
       }
     ],
     &quot;reconstructed&quot;: false,
@@ -82,4 +95,4 @@
     &quot;title&quot;: &quot;The pause has a scope while other work stays active&quot;
   }
 }
-</metadata><rect width="1200" height="800" fill="#101214"/><rect x="125.28" y="179.36" width="351.293" height="204.8" fill="none" stroke="#202326" stroke-width="3"/><text x="133.28" y="203.36" fill="#202326" font-family="sans-serif" font-size="20">box</text><text x="300.926" y="408.96" text-anchor="middle" fill="#E7E0D0" font-size="20" font-family="sans-serif">PAUSED LANE</text><rect x="600" y="179.36" width="351.293" height="204.8" fill="none" stroke="#5E737B" stroke-width="3"/><text x="608" y="203.36" fill="#5E737B" font-family="sans-serif" font-size="20">box</text><text x="775.646" y="408.96" text-anchor="middle" fill="#E7E0D0" font-size="20" font-family="sans-serif">OTHER WORK</text><rect x="588.96" y="76.96" width="19.872" height="430.08" fill="none" stroke="#A17D45" stroke-width="3"/><text x="596.96" y="100.96" fill="#A17D45" font-family="sans-serif" font-size="20">boundary</text><rect x="3" y="3" width="1194" height="794" fill="none" stroke="#5E737B" stroke-width="4"/></svg>
+</metadata><rect width="1200" height="800" fill="#101214"/><rect x="64.92" y="41.68" width="491.4" height="359.885" fill="none" stroke="#5E737B" stroke-width="3"/><text x="72.92" y="65.68" fill="#5E737B" font-family="sans-serif" font-size="20">outline-box</text><text x="310.62" y="441.376" text-anchor="middle" fill="#E7E0D0" font-size="18" font-family="sans-serif">PAUSE SCOPE</text><rect x="163.2" y="166.64" width="294.84" height="168.696" fill="none" stroke="#202326" stroke-width="3"/><text x="171.2" y="190.64" fill="#202326" font-family="sans-serif" font-size="20">box</text><text x="310.62" y="363.56" text-anchor="middle" fill="#E7E0D0" font-size="18" font-family="sans-serif">PAUSED LANE</text><rect x="752.88" y="166.64" width="316.68" height="168.696" fill="none" stroke="#5E737B" stroke-width="3"/><text x="760.88" y="190.64" fill="#5E737B" font-family="sans-serif" font-size="20">box</text><text x="911.22" y="363.56" text-anchor="middle" fill="#E7E0D0" font-size="18" font-family="sans-serif">OTHER WORK</text><rect x="3" y="3" width="1194" height="794" fill="none" stroke="#5E737B" stroke-width="4"/></svg>

@@ -1,6 +1,6 @@
 {
   "background": "ink",
-  "intent": "Block more boundaries become visible from the worker. Keep the scripted evidence boundary and lettering visible.",
+  "intent": "Place successive node, cluster, network and source-control perimeters beyond the worker. Nested opportunity should not color every discovered boundary as already crossed.",
   "lettering": [
     {
       "box": [
@@ -21,7 +21,8 @@
         0.8648,
         0.576
       ],
-      "color": "steel"
+      "color": "steel",
+      "focus": true
     },
     {
       "asset": "box",
@@ -44,9 +45,9 @@
     {
       "asset": "rack",
       "box": [
-        0.27,
+        0.32977,
         0.365,
-        0.1541,
+        0.03456,
         0.1152
       ],
       "color": "steel",

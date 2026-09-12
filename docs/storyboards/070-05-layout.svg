@@ -1,22 +1,24 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="800" viewBox="0 0 1200 800"><title>Three later reported times await the next sequence</title><metadata>{
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="800" viewBox="0 0 1200 800"><title>Three later reported times await the next sequence</title><desc>Keep the three upcoming time cards closed beneath the persistent header. Their sequence is a preview of attributed events, not an independently inspected timeline.</desc><metadata>{
   &quot;assets&quot;: {
     &quot;clock&quot;: &quot;&lt;circle cx=\&quot;50\&quot; cy=\&quot;50\&quot; r=\&quot;44\&quot; fill=\&quot;#202326\&quot; stroke=\&quot;currentColor\&quot; stroke-width=\&quot;4\&quot;/&gt;&lt;path d=\&quot;M50 15V50L75 64M50 5V12M95 50H88M50 95V88M5 50H12\&quot; fill=\&quot;none\&quot; stroke=\&quot;currentColor\&quot; stroke-width=\&quot;4\&quot;/&gt;&quot;,
     &quot;line&quot;: &quot;&lt;path d=\&quot;M0 50H100\&quot; stroke=\&quot;currentColor\&quot; stroke-width=\&quot;2\&quot; vector-effect=\&quot;non-scaling-stroke\&quot;/&gt;&quot;
   },
   &quot;palette&quot;: {
     &quot;amber&quot;: &quot;#A17D45&quot;,
+    &quot;claret&quot;: &quot;#6B2634&quot;,
     &quot;dirty&quot;: &quot;#CEC5B3&quot;,
     &quot;ink&quot;: &quot;#101214&quot;,
     &quot;institution&quot;: &quot;#68766B&quot;,
+    &quot;moss&quot;: &quot;#74864F&quot;,
     &quot;nicotine&quot;: &quot;#AA9571&quot;,
     &quot;paper&quot;: &quot;#E7E0D0&quot;,
     &quot;shadow&quot;: &quot;#202326&quot;,
     &quot;steel&quot;: &quot;#5E737B&quot;
   },
-  &quot;renderer&quot;: &quot;storyboard-svg-1&quot;,
+  &quot;renderer&quot;: &quot;storyboard-svg-2&quot;,
   &quot;scene&quot;: {
     &quot;background&quot;: &quot;ink&quot;,
-    &quot;intent&quot;: &quot;Block three later reported times await the next sequence. Keep the scripted evidence boundary and lettering visible.&quot;,
+    &quot;intent&quot;: &quot;Keep the three upcoming time cards closed beneath the persistent header. Their sequence is a preview of attributed events, not an independently inspected timeline.&quot;,
     &quot;lettering&quot;: [
       {
         &quot;box&quot;: [
@@ -42,9 +44,9 @@
       {
         &quot;asset&quot;: &quot;clock&quot;,
         &quot;box&quot;: [
-          0.14793316666666667,
+          0.153565,
           0.257872,
-          0.09386666666666667,
+          0.082603,
           0.12390400000000001
         ],
         &quot;color&quot;: &quot;steel&quot;,
@@ -60,9 +62,9 @@
       {
         &quot;asset&quot;: &quot;clock&quot;,
         &quot;box&quot;: [
-          0.42393316666666664,
+          0.429565,
           0.257872,
-          0.09386666666666667,
+          0.082603,
           0.12390400000000001
         ],
         &quot;color&quot;: &quot;steel&quot;,
@@ -78,9 +80,9 @@
       {
         &quot;asset&quot;: &quot;clock&quot;,
         &quot;box&quot;: [
-          0.6999331666666667,
+          0.705565,
           0.257872,
-          0.09386666666666667,
+          0.082603,
           0.12390400000000001
         ],
         &quot;color&quot;: &quot;steel&quot;,
@@ -117,4 +119,4 @@
     &quot;title&quot;: &quot;Three later reported times await the next sequence&quot;
   }
 }
-</metadata><rect width="1200" height="800" fill="#101214"/><rect x="92.16" y="336.96" width="1015.68" height="11.264" fill="none" stroke="#5E737B" stroke-width="3"/><text x="100.16" y="360.96" fill="#5E737B" font-family="sans-serif" font-size="20">line</text><rect x="177.52" y="206.298" width="112.64" height="99.1232" fill="none" stroke="#5E737B" stroke-width="3"/><text x="185.52" y="230.298" fill="#5E737B" font-family="sans-serif" font-size="20">clock</text><text x="233.84" y="329.645" text-anchor="middle" fill="#E7E0D0" font-size="20" font-family="sans-serif">16:50</text><rect x="508.72" y="206.298" width="112.64" height="99.1232" fill="none" stroke="#5E737B" stroke-width="3"/><text x="516.72" y="230.298" fill="#5E737B" font-family="sans-serif" font-size="20">clock</text><text x="565.04" y="329.645" text-anchor="middle" fill="#E7E0D0" font-size="20" font-family="sans-serif">17:00</text><rect x="839.92" y="206.298" width="112.64" height="99.1232" fill="none" stroke="#5E737B" stroke-width="3"/><text x="847.92" y="230.298" fill="#5E737B" font-family="sans-serif" font-size="20">clock</text><text x="896.24" y="329.645" text-anchor="middle" fill="#E7E0D0" font-size="20" font-family="sans-serif">17:34</text><rect x="60" y="52" width="1080" height="2.4" fill="none" stroke="#5E737B" stroke-width="3"/><text x="68" y="76" fill="#5E737B" font-family="sans-serif" font-size="20">line</text><text x="600" y="31.2" text-anchor="middle" fill="#E7E0D0" font-size="20" font-family="sans-serif">OPENAI ACCOUNT — NOT IN METR&#x27;S REVIEW</text><rect x="3" y="3" width="1194" height="794" fill="none" stroke="#5E737B" stroke-width="4"/></svg>
+</metadata><rect width="1200" height="800" fill="#101214"/><rect x="92.16" y="336.96" width="1015.68" height="11.264" fill="none" stroke="#5E737B" stroke-width="3"/><text x="100.16" y="360.96" fill="#5E737B" font-family="sans-serif" font-size="20">line</text><rect x="184.278" y="206.298" width="99.1236" height="99.1232" fill="none" stroke="#5E737B" stroke-width="3"/><text x="192.278" y="230.298" fill="#5E737B" font-family="sans-serif" font-size="20">clock</text><text x="233.84" y="329.645" text-anchor="middle" fill="#E7E0D0" font-size="20" font-family="sans-serif">16:50</text><rect x="515.478" y="206.298" width="99.1236" height="99.1232" fill="none" stroke="#5E737B" stroke-width="3"/><text x="523.478" y="230.298" fill="#5E737B" font-family="sans-serif" font-size="20">clock</text><text x="565.04" y="329.645" text-anchor="middle" fill="#E7E0D0" font-size="20" font-family="sans-serif">17:00</text><rect x="846.678" y="206.298" width="99.1236" height="99.1232" fill="none" stroke="#5E737B" stroke-width="3"/><text x="854.678" y="230.298" fill="#5E737B" font-family="sans-serif" font-size="20">clock</text><text x="896.24" y="329.645" text-anchor="middle" fill="#E7E0D0" font-size="20" font-family="sans-serif">17:34</text><rect x="60" y="52" width="1080" height="2.4" fill="none" stroke="#5E737B" stroke-width="3"/><text x="68" y="76" fill="#5E737B" font-family="sans-serif" font-size="20">line</text><text x="600" y="31.2" text-anchor="middle" fill="#E7E0D0" font-size="20" font-family="sans-serif">OPENAI ACCOUNT — NOT IN METR&#x27;S REVIEW</text><rect x="3" y="3" width="1194" height="794" fill="none" stroke="#5E737B" stroke-width="4"/></svg>

@@ -1,6 +1,6 @@
 {
   "background": "ink",
-  "intent": "Block the earlier scorer distinction is reproduced. Keep the scripted evidence boundary and lettering visible.",
+  "intent": "Reproduce the earlier two-account scorer panel unchanged inside the forum screen. Equal source standing and the amber gap must survive this return.",
   "lettering": [
     {
       "box": [
@@ -16,48 +16,100 @@
     {
       "asset": "aperture",
       "box": [
-        0.09491933333333333,
-        0.237296,
-        0.11093333333333336,
-        0.22528000000000006
+        0.168912,
+        0.329872,
+        0.141124,
+        0.162835
       ],
       "color": "steel",
       "focus": true,
-      "label": "BOARD BELIEF",
+      "label": "WHAT THE BOARD BELIEVED",
       "label_box": [
-        0.08691933333333332,
-        0.4685760000000001,
-        0.12693333333333334,
-        0.085
-      ]
+        0.05,
+        0.502576,
+        0.378947,
+        0.071549
+      ],
+      "label_size": 18
     },
     {
-      "asset": "checkmark",
+      "asset": "arrow-down",
       "box": [
-        0.30551933333333336,
-        0.237296,
-        0.08533333333333334,
-        0.22528000000000006
+        0.182632,
+        0.609932,
+        0.094737,
+        0.080017
+      ],
+      "color": "steel",
+      "focus": true
+    },
+    {
+      "asset": "transcript",
+      "box": [
+        0.059474,
+        0.723289,
+        0.369474,
+        0.132028
       ],
       "color": "steel",
       "focus": true,
-      "label": "OPENAI ACCOUNT",
+      "label": "PATH INSPECTION",
       "label_box": [
-        0.29751933333333336,
-        0.4685760000000001,
-        0.10133333333333334,
-        0.085
-      ]
+        0.059474,
+        0.863319,
+        0.369474,
+        0.058012
+      ],
+      "label_size": 18
     },
     {
       "asset": "boundary",
       "box": [
-        0.27040000000000003,
-        0.12465599999999999,
-        0.00828,
-        0.47308799999999995
+        0.495263,
+        0.3032,
+        0.015158,
+        0.6268
       ],
-      "color": "amber"
+      "color": "amber",
+      "focus": true
+    },
+    {
+      "asset": "flag",
+      "box": [
+        0.734719,
+        0.329872,
+        0.070562,
+        0.162835
+      ],
+      "color": "steel",
+      "focus": true,
+      "label": "WHAT OPENAI SAYS RAN",
+      "label_box": [
+        0.59,
+        0.502576,
+        0.36,
+        0.071549
+      ],
+      "label_size": 18
+    },
+    {
+      "asset": "checkmark",
+      "box": [
+        0.721254,
+        0.723289,
+        0.088019,
+        0.132028
+      ],
+      "color": "steel",
+      "focus": true,
+      "label": "ANSWER ACCEPTANCE",
+      "label_box": [
+        0.608947,
+        0.863319,
+        0.312632,
+        0.058012
+      ],
+      "label_size": 18
     }
   ],
   "reconstructed": false,

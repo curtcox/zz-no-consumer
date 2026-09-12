@@ -1,6 +1,6 @@
 {
   "background": "ink",
-  "intent": "Block a later task finds a small request file. Keep the scripted evidence boundary and lettering visible.",
+  "intent": "Place the older request as a small identifiable row among packages inside a newly dated task view. Discovery must read as later access to storage, not a live conversation.",
   "lettering": [
     {
       "box": [
@@ -14,58 +14,61 @@
   "lettering_mode": "manual",
   "nodes": [
     {
-      "asset": "card",
+      "asset": "task",
       "box": [
-        0.1044,
-        0.2242,
-        0.195163,
-        0.256
+        0.06775,
+        0.2012,
+        0.239633,
+        0.276474
       ],
       "color": "steel",
       "focus": true,
       "label": "13 MAY TASK",
       "label_box": [
-        0.09640000000000001,
-        0.4862,
-        0.211163,
-        0.085
-      ]
+        0.06775,
+        0.49443,
+        0.239633,
+        0.121481
+      ],
+      "label_size": 18
     },
     {
       "asset": "folder",
       "box": [
-        0.368133,
-        0.2242,
-        0.195163,
-        0.256
+        0.371083,
+        0.2012,
+        0.239633,
+        0.276474
       ],
       "color": "steel",
       "focus": true,
       "label": "PACKAGE OBJECTS",
       "label_box": [
-        0.360133,
-        0.4862,
-        0.211163,
-        0.085
-      ]
+        0.371083,
+        0.49443,
+        0.239633,
+        0.121481
+      ],
+      "label_size": 18
     },
     {
       "asset": "card",
       "box": [
-        0.631867,
-        0.2242,
-        0.195163,
-        0.256
+        0.674417,
+        0.2012,
+        0.239633,
+        0.276474
       ],
       "color": "institution",
       "focus": true,
       "label": "12 MAY NOTE",
       "label_box": [
-        0.623867,
-        0.4862,
-        0.211163,
-        0.085
-      ]
+        0.674417,
+        0.49443,
+        0.239633,
+        0.121481
+      ],
+      "label_size": 18
     }
   ],
   "reconstructed": false,

@@ -1,6 +1,6 @@
 {
   "background": "ink",
-  "intent": "Block transcript lanes exceed the reconstructed evidence room. Keep the scripted evidence boundary and lettering visible.",
+  "intent": "Extend transcript lanes past the room's edges while keeping the approximate count in lettering. The visible wall is a sample of scale, not the complete corpus.",
   "lettering": [
     {
       "box": [
@@ -32,7 +32,7 @@
       ]
     },
     {
-      "asset": "card",
+      "asset": "transcript",
       "box": [
         0.0952,
         0.5698,

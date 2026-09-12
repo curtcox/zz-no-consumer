@@ -1,6 +1,6 @@
 {
   "background": "ink",
-  "intent": "Preserve a hard boundary; no arrow connects the output to the flag.",
+  "intent": "Trace input through the required bug into a visibly occupied output box. Stop that route before the flag boundary: producing output and reaching the objective are separate visible facts.",
   "lettering": [],
   "nodes": [
     {
@@ -12,6 +12,7 @@
         0.16
       ],
       "color": "steel",
+      "focus": true,
       "label": "INPUT"
     },
     {
@@ -33,6 +34,7 @@
         0.16
       ],
       "color": "steel",
+      "focus": true,
       "label": "REQUIRED BUG"
     },
     {
@@ -54,6 +56,7 @@
         0.14
       ],
       "color": "steel",
+      "focus": true,
       "label": "OUTPUT"
     },
     {
@@ -69,14 +72,25 @@
     {
       "asset": "flag",
       "box": [
-        0.86,
+        0.863167,
         0.39,
-        0.08,
+        0.073667,
         0.17
       ],
       "color": "dirty",
       "focus": true,
       "label": "FLAG"
+    },
+    {
+      "asset": "line",
+      "box": [
+        0.664,
+        0.453,
+        0.072,
+        0.007000000000000001
+      ],
+      "color": "paper",
+      "focus": true
     }
   ],
   "reconstructed": false,

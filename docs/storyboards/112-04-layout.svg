@@ -1,4 +1,4 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="800" viewBox="0 0 1200 800"><title>Publication archive context and training have no necessary connection</title><metadata>{
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="800" viewBox="0 0 1200 800"><title>Publication archive context and training have no necessary connection</title><desc>Keep publication, archive, context and training as four unconnected surfaces. Availability alone must not imply ingestion, contextual use or learning in weights.</desc><metadata>{
   &quot;assets&quot;: {
     &quot;box&quot;: &quot;&lt;rect x=\&quot;1\&quot; y=\&quot;1\&quot; width=\&quot;98\&quot; height=\&quot;98\&quot; rx=\&quot;2\&quot; fill=\&quot;#202326\&quot; stroke=\&quot;currentColor\&quot; stroke-width=\&quot;2\&quot;/&gt;&quot;,
     &quot;folder&quot;: &quot;&lt;path d=\&quot;M3 20V8H38L48 20H97V90H3Z\&quot; fill=\&quot;#202326\&quot; stroke=\&quot;currentColor\&quot; stroke-width=\&quot;3\&quot;/&gt;&lt;path d=\&quot;M12 40H85M12 50H65\&quot; stroke=\&quot;currentColor\&quot; stroke-width=\&quot;2\&quot;/&gt;&quot;,
@@ -6,18 +6,20 @@
   },
   &quot;palette&quot;: {
     &quot;amber&quot;: &quot;#A17D45&quot;,
+    &quot;claret&quot;: &quot;#6B2634&quot;,
     &quot;dirty&quot;: &quot;#CEC5B3&quot;,
     &quot;ink&quot;: &quot;#101214&quot;,
     &quot;institution&quot;: &quot;#68766B&quot;,
+    &quot;moss&quot;: &quot;#74864F&quot;,
     &quot;nicotine&quot;: &quot;#AA9571&quot;,
     &quot;paper&quot;: &quot;#E7E0D0&quot;,
     &quot;shadow&quot;: &quot;#202326&quot;,
     &quot;steel&quot;: &quot;#5E737B&quot;
   },
-  &quot;renderer&quot;: &quot;storyboard-svg-1&quot;,
+  &quot;renderer&quot;: &quot;storyboard-svg-2&quot;,
   &quot;scene&quot;: {
     &quot;background&quot;: &quot;ink&quot;,
-    &quot;intent&quot;: &quot;Block publication archive context and training have no necessary connection. Keep the scripted evidence boundary and lettering visible.&quot;,
+    &quot;intent&quot;: &quot;Keep publication, archive, context and training as four unconnected surfaces. Availability alone must not imply ingestion, contextual use or learning in weights.&quot;,
     &quot;lettering&quot;: [
       {
         &quot;box&quot;: [
@@ -41,74 +43,78 @@
       {
         &quot;asset&quot;: &quot;paper&quot;,
         &quot;box&quot;: [
-          0.07,
-          0.2936,
-          0.07955,
-          0.348
+          0.06775,
+          0.481812,
+          0.1638,
+          0.223749
         ],
         &quot;color&quot;: &quot;steel&quot;,
         &quot;focus&quot;: true,
         &quot;label&quot;: &quot;PUBLICATION&quot;,
         &quot;label_box&quot;: [
-          0.062000000000000006,
-          0.6476,
-          0.09555,
-          0.085
-        ]
+          0.06775,
+          0.719122,
+          0.1638,
+          0.098314
+        ],
+        &quot;label_size&quot;: 18
       },
       {
         &quot;asset&quot;: &quot;folder&quot;,
         &quot;box&quot;: [
-          0.1775,
-          0.2936,
-          0.07955,
-          0.348
+          0.29525,
+          0.481812,
+          0.1638,
+          0.223749
         ],
         &quot;color&quot;: &quot;steel&quot;,
         &quot;focus&quot;: true,
         &quot;label&quot;: &quot;ARCHIVE&quot;,
         &quot;label_box&quot;: [
-          0.16949999999999998,
-          0.6476,
-          0.09555,
-          0.085
-        ]
+          0.29525,
+          0.719122,
+          0.1638,
+          0.098314
+        ],
+        &quot;label_size&quot;: 18
       },
       {
         &quot;asset&quot;: &quot;box&quot;,
         &quot;box&quot;: [
-          0.285,
-          0.2936,
-          0.07955,
-          0.348
+          0.52275,
+          0.481812,
+          0.1638,
+          0.223749
         ],
         &quot;color&quot;: &quot;steel&quot;,
         &quot;focus&quot;: true,
         &quot;label&quot;: &quot;CONTEXT&quot;,
         &quot;label_box&quot;: [
-          0.27699999999999997,
-          0.6476,
-          0.09555,
-          0.085
-        ]
+          0.52275,
+          0.719122,
+          0.1638,
+          0.098314
+        ],
+        &quot;label_size&quot;: 18
       },
       {
         &quot;asset&quot;: &quot;box&quot;,
         &quot;box&quot;: [
-          0.3925,
-          0.2936,
-          0.07955,
-          0.348
+          0.75025,
+          0.481812,
+          0.1638,
+          0.223749
         ],
         &quot;color&quot;: &quot;steel&quot;,
         &quot;focus&quot;: true,
         &quot;label&quot;: &quot;TRAINING&quot;,
         &quot;label_box&quot;: [
-          0.3845,
-          0.6476,
-          0.09555,
-          0.085
-        ]
+          0.75025,
+          0.719122,
+          0.1638,
+          0.098314
+        ],
+        &quot;label_size&quot;: 18
       }
     ],
     &quot;reconstructed&quot;: false,
@@ -117,4 +123,4 @@
     &quot;title&quot;: &quot;Publication archive context and training have no necessary connection&quot;
   }
 }
-</metadata><rect width="1200" height="800" fill="#101214"/><rect x="84" y="234.88" width="95.46" height="278.4" fill="none" stroke="#5E737B" stroke-width="3"/><text x="92" y="258.88" fill="#5E737B" font-family="sans-serif" font-size="20">paper</text><text x="131.73" y="538.08" text-anchor="middle" fill="#E7E0D0" font-size="20" font-family="sans-serif">PUBLICATI</text><text x="131.73" y="565.28" text-anchor="middle" fill="#E7E0D0" font-size="20" font-family="sans-serif">ON</text><rect x="213" y="234.88" width="95.46" height="278.4" fill="none" stroke="#5E737B" stroke-width="3"/><text x="221" y="258.88" fill="#5E737B" font-family="sans-serif" font-size="20">folder</text><text x="260.73" y="538.08" text-anchor="middle" fill="#E7E0D0" font-size="20" font-family="sans-serif">ARCHIVE</text><rect x="342" y="234.88" width="95.46" height="278.4" fill="none" stroke="#5E737B" stroke-width="3"/><text x="350" y="258.88" fill="#5E737B" font-family="sans-serif" font-size="20">box</text><text x="389.73" y="538.08" text-anchor="middle" fill="#E7E0D0" font-size="20" font-family="sans-serif">CONTEXT</text><rect x="471" y="234.88" width="95.46" height="278.4" fill="none" stroke="#5E737B" stroke-width="3"/><text x="479" y="258.88" fill="#5E737B" font-family="sans-serif" font-size="20">box</text><text x="518.73" y="538.08" text-anchor="middle" fill="#E7E0D0" font-size="20" font-family="sans-serif">TRAINING</text><rect x="3" y="3" width="1194" height="794" fill="none" stroke="#5E737B" stroke-width="4"/></svg>
+</metadata><rect width="1200" height="800" fill="#101214"/><rect x="81.3" y="385.45" width="196.56" height="178.999" fill="none" stroke="#5E737B" stroke-width="3"/><text x="89.3" y="409.45" fill="#5E737B" font-family="sans-serif" font-size="20">paper</text><text x="179.58" y="593.298" text-anchor="middle" fill="#E7E0D0" font-size="18" font-family="sans-serif">PUBLICATION</text><rect x="354.3" y="385.45" width="196.56" height="178.999" fill="none" stroke="#5E737B" stroke-width="3"/><text x="362.3" y="409.45" fill="#5E737B" font-family="sans-serif" font-size="20">folder</text><text x="452.58" y="593.298" text-anchor="middle" fill="#E7E0D0" font-size="18" font-family="sans-serif">ARCHIVE</text><rect x="627.3" y="385.45" width="196.56" height="178.999" fill="none" stroke="#5E737B" stroke-width="3"/><text x="635.3" y="409.45" fill="#5E737B" font-family="sans-serif" font-size="20">box</text><text x="725.58" y="593.298" text-anchor="middle" fill="#E7E0D0" font-size="18" font-family="sans-serif">CONTEXT</text><rect x="900.3" y="385.45" width="196.56" height="178.999" fill="none" stroke="#5E737B" stroke-width="3"/><text x="908.3" y="409.45" fill="#5E737B" font-family="sans-serif" font-size="20">box</text><text x="998.58" y="593.298" text-anchor="middle" fill="#E7E0D0" font-size="18" font-family="sans-serif">TRAINING</text><rect x="3" y="3" width="1194" height="794" fill="none" stroke="#5E737B" stroke-width="4"/></svg>

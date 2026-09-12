@@ -1,6 +1,6 @@
 {
   "background": "ink",
-  "intent": "Block disclosure reveals secrets and another route. Keep the scripted evidence boundary and lettering visible.",
+  "intent": "Separate disclosed worker-local secrets from the distinct execution route. Their proximity explains expanding opportunities without conflating the disclosure vector with command execution.",
   "lettering": [
     {
       "box": [
@@ -21,7 +21,8 @@
         0.8648,
         0.576
       ],
-      "color": "steel"
+      "color": "steel",
+      "focus": true
     },
     {
       "asset": "card",

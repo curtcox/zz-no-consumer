@@ -1,6 +1,6 @@
 {
   "background": "ink",
-  "intent": "Block the human-escalation finding regains its scope. Keep the scripted evidence boundary and lettering visible.",
+  "intent": "Enclose the escalation finding in its reviewed-transcript scope and retain the considered-versus-pursued distinction. The visual correction must remove the accidental universal claim.",
   "lettering": [],
   "lettering_mode": "manual",
   "nodes": [
@@ -10,16 +10,16 @@
         0.2117,
         0.152,
         0.5394,
-        0.558
+        0.4904
       ],
       "color": "steel",
       "focus": true,
       "label": "METR REVIEWED",
       "label_box": [
         0.2037,
-        0.7160000000000001,
+        0.6504,
         0.5554,
-        0.04899999999999994
+        0.1146
       ]
     },
     {

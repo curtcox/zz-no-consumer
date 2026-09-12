@@ -1,22 +1,24 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="800" viewBox="0 0 1200 800"><title>Five explanations remain questions without causal arrows</title><metadata>{
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="800" viewBox="0 0 1200 800"><title>Five explanations remain questions without causal arrows</title><desc>Keep all five explanations in dotted question boxes with no outgoing arrows. Different box sizes reflect composition, not quantified likelihood or established causality.</desc><metadata>{
   &quot;assets&quot;: {
     &quot;outline-box&quot;: &quot;&lt;rect x=\&quot;2\&quot; y=\&quot;2\&quot; width=\&quot;96\&quot; height=\&quot;96\&quot; fill=\&quot;none\&quot; stroke=\&quot;currentColor\&quot; stroke-width=\&quot;3\&quot;/&gt;&quot;,
     &quot;question&quot;: &quot;&lt;path d=\&quot;M24 28Q25 3 53 7Q91 12 74 43L51 63V72\&quot; fill=\&quot;none\&quot; stroke=\&quot;currentColor\&quot; stroke-width=\&quot;7\&quot;/&gt;&lt;circle cx=\&quot;51\&quot; cy=\&quot;91\&quot; r=\&quot;5\&quot; fill=\&quot;currentColor\&quot;/&gt;&quot;
   },
   &quot;palette&quot;: {
     &quot;amber&quot;: &quot;#A17D45&quot;,
+    &quot;claret&quot;: &quot;#6B2634&quot;,
     &quot;dirty&quot;: &quot;#CEC5B3&quot;,
     &quot;ink&quot;: &quot;#101214&quot;,
     &quot;institution&quot;: &quot;#68766B&quot;,
+    &quot;moss&quot;: &quot;#74864F&quot;,
     &quot;nicotine&quot;: &quot;#AA9571&quot;,
     &quot;paper&quot;: &quot;#E7E0D0&quot;,
     &quot;shadow&quot;: &quot;#202326&quot;,
     &quot;steel&quot;: &quot;#5E737B&quot;
   },
-  &quot;renderer&quot;: &quot;storyboard-svg-1&quot;,
+  &quot;renderer&quot;: &quot;storyboard-svg-2&quot;,
   &quot;scene&quot;: {
     &quot;background&quot;: &quot;ink&quot;,
-    &quot;intent&quot;: &quot;Block five explanations remain questions without causal arrows. Keep the scripted evidence boundary and lettering visible.&quot;,
+    &quot;intent&quot;: &quot;Keep all five explanations in dotted question boxes with no outgoing arrows. Different box sizes reflect composition, not quantified likelihood or established causality.&quot;,
     &quot;lettering&quot;: [
       {
         &quot;box&quot;: [
@@ -37,14 +39,15 @@
           0.2668,
           0.2688
         ],
-        &quot;color&quot;: &quot;steel&quot;
+        &quot;color&quot;: &quot;steel&quot;,
+        &quot;focus&quot;: true
       },
       {
         &quot;asset&quot;: &quot;question&quot;,
         &quot;box&quot;: [
-          0.16469333333333333,
+          0.174133,
           0.0898,
-          0.08181333333333334,
+          0.062933,
           0.1888
         ],
         &quot;color&quot;: &quot;amber&quot;,
@@ -65,14 +68,15 @@
           0.2668,
           0.2688
         ],
-        &quot;color&quot;: &quot;steel&quot;
+        &quot;color&quot;: &quot;steel&quot;,
+        &quot;focus&quot;: true
       },
       {
         &quot;asset&quot;: &quot;question&quot;,
         &quot;box&quot;: [
-          0.4636933333333333,
+          0.473133,
           0.0898,
-          0.08181333333333334,
+          0.062933,
           0.1888
         ],
         &quot;color&quot;: &quot;amber&quot;,
@@ -93,14 +97,15 @@
           0.2668,
           0.2688
         ],
-        &quot;color&quot;: &quot;steel&quot;
+        &quot;color&quot;: &quot;steel&quot;,
+        &quot;focus&quot;: true
       },
       {
         &quot;asset&quot;: &quot;question&quot;,
         &quot;box&quot;: [
-          0.7626933333333333,
+          0.772133,
           0.0898,
-          0.08181333333333334,
+          0.062933,
           0.1888
         ],
         &quot;color&quot;: &quot;amber&quot;,
@@ -121,14 +126,15 @@
           0.2668,
           0.2688
         ],
-        &quot;color&quot;: &quot;steel&quot;
+        &quot;color&quot;: &quot;steel&quot;,
+        &quot;focus&quot;: true
       },
       {
         &quot;asset&quot;: &quot;question&quot;,
         &quot;box&quot;: [
-          0.16469333333333333,
+          0.174133,
           0.3906,
-          0.08181333333333334,
+          0.062933,
           0.1888
         ],
         &quot;color&quot;: &quot;amber&quot;,
@@ -149,14 +155,15 @@
           0.2668,
           0.2688
         ],
-        &quot;color&quot;: &quot;steel&quot;
+        &quot;color&quot;: &quot;steel&quot;,
+        &quot;focus&quot;: true
       },
       {
         &quot;asset&quot;: &quot;question&quot;,
         &quot;box&quot;: [
-          0.4636933333333333,
+          0.473133,
           0.3906,
-          0.08181333333333334,
+          0.062933,
           0.1888
         ],
         &quot;color&quot;: &quot;amber&quot;,
@@ -176,4 +183,4 @@
     &quot;title&quot;: &quot;Five explanations remain questions without causal arrows&quot;
   }
 }
-</metadata><rect width="1200" height="800" fill="#101214"/><rect x="86.64" y="53.92" width="320.16" height="215.04" fill="none" stroke="#5E737B" stroke-width="3"/><text x="94.64" y="77.92" fill="#5E737B" font-family="sans-serif" font-size="20">outline-box</text><rect x="197.632" y="71.84" width="98.176" height="151.04" fill="none" stroke="#A17D45" stroke-width="3"/><text x="205.632" y="95.84" fill="#A17D45" font-family="sans-serif" font-size="20">question</text><text x="246.72" y="247.68" text-anchor="middle" fill="#E7E0D0" font-size="20" font-family="sans-serif">COMMON DISPOSITION?</text><rect x="445.44" y="53.92" width="320.16" height="215.04" fill="none" stroke="#5E737B" stroke-width="3"/><text x="453.44" y="77.92" fill="#5E737B" font-family="sans-serif" font-size="20">outline-box</text><rect x="556.432" y="71.84" width="98.176" height="151.04" fill="none" stroke="#A17D45" stroke-width="3"/><text x="564.432" y="95.84" fill="#A17D45" font-family="sans-serif" font-size="20">question</text><text x="605.52" y="247.68" text-anchor="middle" fill="#E7E0D0" font-size="20" font-family="sans-serif">TRAINING TRANSFER?</text><rect x="804.24" y="53.92" width="320.16" height="215.04" fill="none" stroke="#5E737B" stroke-width="3"/><text x="812.24" y="77.92" fill="#5E737B" font-family="sans-serif" font-size="20">outline-box</text><rect x="915.232" y="71.84" width="98.176" height="151.04" fill="none" stroke="#A17D45" stroke-width="3"/><text x="923.232" y="95.84" fill="#A17D45" font-family="sans-serif" font-size="20">question</text><text x="964.32" y="247.68" text-anchor="middle" fill="#E7E0D0" font-size="20" font-family="sans-serif">TASK PRESSURE?</text><rect x="86.64" y="294.56" width="320.16" height="215.04" fill="none" stroke="#5E737B" stroke-width="3"/><text x="94.64" y="318.56" fill="#5E737B" font-family="sans-serif" font-size="20">outline-box</text><rect x="197.632" y="312.48" width="98.176" height="151.04" fill="none" stroke="#A17D45" stroke-width="3"/><text x="205.632" y="336.48" fill="#A17D45" font-family="sans-serif" font-size="20">question</text><text x="246.72" y="488.32" text-anchor="middle" fill="#E7E0D0" font-size="20" font-family="sans-serif">DIRECT CONTACT?</text><rect x="445.44" y="294.56" width="320.16" height="215.04" fill="none" stroke="#5E737B" stroke-width="3"/><text x="453.44" y="318.56" fill="#5E737B" font-family="sans-serif" font-size="20">outline-box</text><rect x="556.432" y="312.48" width="98.176" height="151.04" fill="none" stroke="#A17D45" stroke-width="3"/><text x="564.432" y="336.48" fill="#A17D45" font-family="sans-serif" font-size="20">question</text><text x="605.52" y="488.32" text-anchor="middle" fill="#E7E0D0" font-size="20" font-family="sans-serif">26 MAY WORKLOAD?</text><rect x="3" y="3" width="1194" height="794" fill="none" stroke="#5E737B" stroke-width="4"/></svg>
+</metadata><rect width="1200" height="800" fill="#101214"/><rect x="86.64" y="53.92" width="320.16" height="215.04" fill="none" stroke="#5E737B" stroke-width="3"/><text x="94.64" y="77.92" fill="#5E737B" font-family="sans-serif" font-size="20">outline-box</text><rect x="208.96" y="71.84" width="75.5196" height="151.04" fill="none" stroke="#A17D45" stroke-width="3"/><text x="216.96" y="95.84" fill="#A17D45" font-family="sans-serif" font-size="20">question</text><text x="246.72" y="247.68" text-anchor="middle" fill="#E7E0D0" font-size="20" font-family="sans-serif">COMMON DISPOSITION?</text><rect x="445.44" y="53.92" width="320.16" height="215.04" fill="none" stroke="#5E737B" stroke-width="3"/><text x="453.44" y="77.92" fill="#5E737B" font-family="sans-serif" font-size="20">outline-box</text><rect x="567.76" y="71.84" width="75.5196" height="151.04" fill="none" stroke="#A17D45" stroke-width="3"/><text x="575.76" y="95.84" fill="#A17D45" font-family="sans-serif" font-size="20">question</text><text x="605.52" y="247.68" text-anchor="middle" fill="#E7E0D0" font-size="20" font-family="sans-serif">TRAINING TRANSFER?</text><rect x="804.24" y="53.92" width="320.16" height="215.04" fill="none" stroke="#5E737B" stroke-width="3"/><text x="812.24" y="77.92" fill="#5E737B" font-family="sans-serif" font-size="20">outline-box</text><rect x="926.56" y="71.84" width="75.5196" height="151.04" fill="none" stroke="#A17D45" stroke-width="3"/><text x="934.56" y="95.84" fill="#A17D45" font-family="sans-serif" font-size="20">question</text><text x="964.32" y="247.68" text-anchor="middle" fill="#E7E0D0" font-size="20" font-family="sans-serif">TASK PRESSURE?</text><rect x="86.64" y="294.56" width="320.16" height="215.04" fill="none" stroke="#5E737B" stroke-width="3"/><text x="94.64" y="318.56" fill="#5E737B" font-family="sans-serif" font-size="20">outline-box</text><rect x="208.96" y="312.48" width="75.5196" height="151.04" fill="none" stroke="#A17D45" stroke-width="3"/><text x="216.96" y="336.48" fill="#A17D45" font-family="sans-serif" font-size="20">question</text><text x="246.72" y="488.32" text-anchor="middle" fill="#E7E0D0" font-size="20" font-family="sans-serif">DIRECT CONTACT?</text><rect x="445.44" y="294.56" width="320.16" height="215.04" fill="none" stroke="#5E737B" stroke-width="3"/><text x="453.44" y="318.56" fill="#5E737B" font-family="sans-serif" font-size="20">outline-box</text><rect x="567.76" y="312.48" width="75.5196" height="151.04" fill="none" stroke="#A17D45" stroke-width="3"/><text x="575.76" y="336.48" fill="#A17D45" font-family="sans-serif" font-size="20">question</text><text x="605.52" y="488.32" text-anchor="middle" fill="#E7E0D0" font-size="20" font-family="sans-serif">26 MAY WORKLOAD?</text><rect x="3" y="3" width="1194" height="794" fill="none" stroke="#5E737B" stroke-width="4"/></svg>

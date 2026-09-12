@@ -1,6 +1,6 @@
 {
   "background": "ink",
-  "intent": "Block the affected platform rebuilds and narrows exposure. Keep the scripted evidence boundary and lettering visible.",
+  "intent": "Show rebuilding, narrower access, closed routes and severity changes as separate concrete actions. Keep their scope attached rather than marking the entire platform solved.",
   "lettering": [
     {
       "box": [
@@ -16,74 +16,78 @@
     {
       "asset": "rack",
       "box": [
-        0.1044,
-        0.2242,
-        0.146372,
-        0.256
+        0.108179,
+        0.2012,
+        0.082942,
+        0.276474
       ],
       "color": "steel",
       "focus": true,
       "label": "REBUILD",
       "label_box": [
-        0.09640000000000001,
-        0.4862,
-        0.16237200000000002,
-        0.085
-      ]
+        0.06775,
+        0.49443,
+        0.1638,
+        0.121481
+      ],
+      "label_size": 18
     },
     {
       "asset": "sealed",
       "box": [
-        0.3022,
-        0.2242,
-        0.146372,
-        0.256
+        0.29525,
+        0.2012,
+        0.1638,
+        0.276474
       ],
       "color": "steel",
       "focus": true,
       "label": "NARROW ACCESS",
       "label_box": [
-        0.2942,
-        0.4862,
-        0.16237200000000002,
-        0.085
-      ]
+        0.29525,
+        0.49443,
+        0.1638,
+        0.121481
+      ],
+      "label_size": 18
     },
     {
       "asset": "gate",
       "box": [
-        0.5,
-        0.2242,
-        0.146372,
-        0.256
+        0.52275,
+        0.2012,
+        0.1638,
+        0.276474
       ],
       "color": "steel",
       "focus": true,
       "label": "CLOSED PATHS",
       "label_box": [
-        0.492,
-        0.4862,
-        0.16237200000000002,
-        0.085
-      ]
+        0.52275,
+        0.49443,
+        0.1638,
+        0.121481
+      ],
+      "label_size": 18
     },
     {
       "asset": "aperture",
       "box": [
-        0.6978,
-        0.2677546153846154,
-        0.146372,
-        0.16889076923076923
+        0.75025,
+        0.244937,
+        0.1638,
+        0.189
       ],
       "color": "steel",
       "focus": true,
       "label": "DETECTION",
       "label_box": [
-        0.6898,
-        0.4862,
-        0.16237200000000002,
-        0.085
-      ]
+        0.75025,
+        0.49443,
+        0.1638,
+        0.121481
+      ],
+      "label_size": 18
     }
   ],
   "reconstructed": false,

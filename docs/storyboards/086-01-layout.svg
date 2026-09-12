@@ -1,25 +1,27 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="800" viewBox="0 0 1200 800"><title>The public-report adaptation pipeline returns</title><metadata>{
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="800" viewBox="0 0 1200 800"><title>The public-report adaptation pipeline returns</title><desc>Repeat the earlier adaptation pipeline at the same scale and with identical stages. Its apparent completeness is necessary for the next panel&#x27;s missing tooling lane to register.</desc><metadata>{
   &quot;assets&quot;: {
     &quot;arrow&quot;: &quot;&lt;path d=\&quot;M1 50H87M70 18L96 50L70 82\&quot; fill=\&quot;none\&quot; stroke=\&quot;currentColor\&quot; stroke-width=\&quot;5\&quot;/&gt;&quot;,
     &quot;blank-monitor&quot;: &quot;&lt;path d=\&quot;M43 78V94H26V98H74V94H57V78\&quot; fill=\&quot;currentColor\&quot;/&gt;&lt;rect x=\&quot;1\&quot; y=\&quot;1\&quot; width=\&quot;98\&quot; height=\&quot;78\&quot; rx=\&quot;3\&quot; fill=\&quot;#101214\&quot; stroke=\&quot;currentColor\&quot; stroke-width=\&quot;3\&quot;/&gt;&lt;path d=\&quot;M10 60h80M12 51v6\&quot; stroke=\&quot;currentColor\&quot; stroke-width=\&quot;1\&quot;/&gt;&quot;,
-    &quot;card&quot;: &quot;&lt;rect x=\&quot;1\&quot; y=\&quot;1\&quot; width=\&quot;98\&quot; height=\&quot;98\&quot; fill=\&quot;#202326\&quot; stroke=\&quot;currentColor\&quot; stroke-width=\&quot;2\&quot;/&gt;&lt;path d=\&quot;M8 13H92M8 27H70M8 36H86M8 45H72M8 65H86M8 74H57\&quot; stroke=\&quot;currentColor\&quot; stroke-width=\&quot;1.5\&quot;/&gt;&quot;,
+    &quot;card&quot;: &quot;&lt;rect x=\&quot;1\&quot; y=\&quot;1\&quot; width=\&quot;98\&quot; height=\&quot;98\&quot; fill=\&quot;#202326\&quot; stroke=\&quot;currentColor\&quot; stroke-width=\&quot;2\&quot;/&gt;&lt;path d=\&quot;M1 20H99M9 10H42M62 10H90M10 34H87M10 45H73M10 56H82M10 76H57M10 87H38\&quot; stroke=\&quot;currentColor\&quot; stroke-width=\&quot;2\&quot;/&gt;&quot;,
     &quot;folder&quot;: &quot;&lt;path d=\&quot;M3 20V8H38L48 20H97V90H3Z\&quot; fill=\&quot;#202326\&quot; stroke=\&quot;currentColor\&quot; stroke-width=\&quot;3\&quot;/&gt;&lt;path d=\&quot;M12 40H85M12 50H65\&quot; stroke=\&quot;currentColor\&quot; stroke-width=\&quot;2\&quot;/&gt;&quot;,
     &quot;paper&quot;: &quot;&lt;path d=\&quot;M0 0H80L100 20V100H0Z\&quot; fill=\&quot;currentColor\&quot;/&gt;&lt;path d=\&quot;M80 0V20H100M9 35H84M9 48H84M9 61H73M9 74H81\&quot; fill=\&quot;none\&quot; stroke=\&quot;#101214\&quot; stroke-width=\&quot;1.5\&quot;/&gt;&quot;
   },
   &quot;palette&quot;: {
     &quot;amber&quot;: &quot;#A17D45&quot;,
+    &quot;claret&quot;: &quot;#6B2634&quot;,
     &quot;dirty&quot;: &quot;#CEC5B3&quot;,
     &quot;ink&quot;: &quot;#101214&quot;,
     &quot;institution&quot;: &quot;#68766B&quot;,
+    &quot;moss&quot;: &quot;#74864F&quot;,
     &quot;nicotine&quot;: &quot;#AA9571&quot;,
     &quot;paper&quot;: &quot;#E7E0D0&quot;,
     &quot;shadow&quot;: &quot;#202326&quot;,
     &quot;steel&quot;: &quot;#5E737B&quot;
   },
-  &quot;renderer&quot;: &quot;storyboard-svg-1&quot;,
+  &quot;renderer&quot;: &quot;storyboard-svg-2&quot;,
   &quot;scene&quot;: {
     &quot;background&quot;: &quot;ink&quot;,
-    &quot;intent&quot;: &quot;Block the public-report adaptation pipeline returns. Keep the scripted evidence boundary and lettering visible.&quot;,
+    &quot;intent&quot;: &quot;Repeat the earlier adaptation pipeline at the same scale and with identical stages. Its apparent completeness is necessary for the next panel&#x27;s missing tooling lane to register.&quot;,
     &quot;lettering&quot;: [
       {
         &quot;box&quot;: [
@@ -35,104 +37,111 @@
       {
         &quot;asset&quot;: &quot;paper&quot;,
         &quot;box&quot;: [
-          0.1044,
-          0.2242,
-          0.146372,
-          0.256
+          0.06775,
+          0.2012,
+          0.1638,
+          0.276474
         ],
         &quot;color&quot;: &quot;steel&quot;,
         &quot;focus&quot;: true,
         &quot;label&quot;: &quot;PUBLIC REPORTS&quot;,
         &quot;label_box&quot;: [
-          0.09640000000000001,
-          0.4862,
-          0.16237200000000002,
-          0.085
-        ]
+          0.06775,
+          0.49443,
+          0.1638,
+          0.121481
+        ],
+        &quot;label_size&quot;: 18
+      },
+      {
+        &quot;asset&quot;: &quot;arrow&quot;,
+        &quot;box&quot;: [
+          0.2361,
+          0.2935,
+          0.05915,
+          0.0852
+        ],
+        &quot;color&quot;: &quot;steel&quot;,
+        &quot;focus&quot;: true
       },
       {
         &quot;asset&quot;: &quot;blank-monitor&quot;,
         &quot;box&quot;: [
-          0.3022,
-          0.2242,
-          0.146372,
-          0.256
+          0.29525,
+          0.2012,
+          0.1638,
+          0.276474
         ],
         &quot;color&quot;: &quot;steel&quot;,
         &quot;focus&quot;: true,
         &quot;label&quot;: &quot;CHATGPT / CURT&quot;,
         &quot;label_box&quot;: [
-          0.2942,
-          0.4862,
-          0.16237200000000002,
-          0.085
-        ]
+          0.29525,
+          0.49443,
+          0.1638,
+          0.121481
+        ],
+        &quot;label_size&quot;: 18
+      },
+      {
+        &quot;asset&quot;: &quot;arrow&quot;,
+        &quot;box&quot;: [
+          0.4636,
+          0.2935,
+          0.05915,
+          0.0852
+        ],
+        &quot;color&quot;: &quot;steel&quot;,
+        &quot;focus&quot;: true
       },
       {
         &quot;asset&quot;: &quot;card&quot;,
         &quot;box&quot;: [
-          0.5,
-          0.2242,
-          0.146372,
-          0.256
+          0.52275,
+          0.2012,
+          0.1638,
+          0.276474
         ],
         &quot;color&quot;: &quot;steel&quot;,
         &quot;focus&quot;: true,
         &quot;label&quot;: &quot;PAGE SELECTION&quot;,
         &quot;label_box&quot;: [
-          0.492,
-          0.4862,
-          0.16237200000000002,
-          0.085
-        ]
+          0.52275,
+          0.49443,
+          0.1638,
+          0.121481
+        ],
+        &quot;label_size&quot;: 18
+      },
+      {
+        &quot;asset&quot;: &quot;arrow&quot;,
+        &quot;box&quot;: [
+          0.6911,
+          0.2935,
+          0.05915,
+          0.0852
+        ],
+        &quot;color&quot;: &quot;steel&quot;,
+        &quot;focus&quot;: true
       },
       {
         &quot;asset&quot;: &quot;folder&quot;,
         &quot;box&quot;: [
-          0.6978,
-          0.2242,
-          0.146372,
-          0.256
+          0.75025,
+          0.2012,
+          0.1638,
+          0.276474
         ],
         &quot;color&quot;: &quot;steel&quot;,
         &quot;focus&quot;: true,
         &quot;label&quot;: &quot;COMIC&quot;,
         &quot;label_box&quot;: [
-          0.6898,
-          0.4862,
-          0.16237200000000002,
-          0.085
-        ]
-      },
-      {
-        &quot;asset&quot;: &quot;arrow&quot;,
-        &quot;box&quot;: [
-          0.258684,
-          0.3202,
-          0.0368,
-          0.0416
+          0.75025,
+          0.49443,
+          0.1638,
+          0.121481
         ],
-        &quot;color&quot;: &quot;steel&quot;
-      },
-      {
-        &quot;asset&quot;: &quot;arrow&quot;,
-        &quot;box&quot;: [
-          0.456484,
-          0.3202,
-          0.0368,
-          0.0416
-        ],
-        &quot;color&quot;: &quot;steel&quot;
-      },
-      {
-        &quot;asset&quot;: &quot;arrow&quot;,
-        &quot;box&quot;: [
-          0.654284,
-          0.3202,
-          0.0368,
-          0.0416
-        ],
-        &quot;color&quot;: &quot;steel&quot;
+        &quot;label_size&quot;: 18
       }
     ],
     &quot;reconstructed&quot;: true,
@@ -141,4 +150,4 @@
     &quot;title&quot;: &quot;The public-report adaptation pipeline returns&quot;
   }
 }
-</metadata><rect width="1200" height="800" fill="#101214"/><rect x="125.28" y="179.36" width="175.646" height="204.8" fill="none" stroke="#5E737B" stroke-width="3"/><text x="133.28" y="203.36" fill="#5E737B" font-family="sans-serif" font-size="20">paper</text><text x="213.103" y="408.96" text-anchor="middle" fill="#E7E0D0" font-size="20" font-family="sans-serif">PUBLIC REPORTS</text><rect x="362.64" y="179.36" width="175.646" height="204.8" fill="none" stroke="#5E737B" stroke-width="3"/><text x="370.64" y="203.36" fill="#5E737B" font-family="sans-serif" font-size="20">blank-monitor</text><text x="450.463" y="408.96" text-anchor="middle" fill="#E7E0D0" font-size="20" font-family="sans-serif">CHATGPT / CURT</text><rect x="600" y="179.36" width="175.646" height="204.8" fill="none" stroke="#5E737B" stroke-width="3"/><text x="608" y="203.36" fill="#5E737B" font-family="sans-serif" font-size="20">card</text><text x="687.823" y="408.96" text-anchor="middle" fill="#E7E0D0" font-size="20" font-family="sans-serif">PAGE SELECTION</text><rect x="837.36" y="179.36" width="175.646" height="204.8" fill="none" stroke="#5E737B" stroke-width="3"/><text x="845.36" y="203.36" fill="#5E737B" font-family="sans-serif" font-size="20">folder</text><text x="925.183" y="408.96" text-anchor="middle" fill="#E7E0D0" font-size="20" font-family="sans-serif">COMIC</text><rect x="310.421" y="256.16" width="44.16" height="33.28" fill="none" stroke="#5E737B" stroke-width="3"/><text x="318.421" y="280.16" fill="#5E737B" font-family="sans-serif" font-size="20">arrow</text><rect x="547.781" y="256.16" width="44.16" height="33.28" fill="none" stroke="#5E737B" stroke-width="3"/><text x="555.781" y="280.16" fill="#5E737B" font-family="sans-serif" font-size="20">arrow</text><rect x="785.141" y="256.16" width="44.16" height="33.28" fill="none" stroke="#5E737B" stroke-width="3"/><text x="793.141" y="280.16" fill="#5E737B" font-family="sans-serif" font-size="20">arrow</text><rect x="3" y="3" width="1194" height="794" fill="none" stroke="#5E737B" stroke-width="4" stroke-dasharray="18 10"/></svg>
+</metadata><rect width="1200" height="800" fill="#101214"/><rect x="81.3" y="160.96" width="196.56" height="221.179" fill="none" stroke="#5E737B" stroke-width="3"/><text x="89.3" y="184.96" fill="#5E737B" font-family="sans-serif" font-size="20">paper</text><text x="179.58" y="413.544" text-anchor="middle" fill="#E7E0D0" font-size="18" font-family="sans-serif">PUBLIC REPORTS</text><rect x="283.32" y="234.8" width="70.98" height="68.16" fill="none" stroke="#5E737B" stroke-width="3"/><text x="291.32" y="258.8" fill="#5E737B" font-family="sans-serif" font-size="20">arrow</text><rect x="354.3" y="160.96" width="196.56" height="221.179" fill="none" stroke="#5E737B" stroke-width="3"/><text x="362.3" y="184.96" fill="#5E737B" font-family="sans-serif" font-size="20">blank-monitor</text><text x="452.58" y="413.544" text-anchor="middle" fill="#E7E0D0" font-size="18" font-family="sans-serif">CHATGPT / CURT</text><rect x="556.32" y="234.8" width="70.98" height="68.16" fill="none" stroke="#5E737B" stroke-width="3"/><text x="564.32" y="258.8" fill="#5E737B" font-family="sans-serif" font-size="20">arrow</text><rect x="627.3" y="160.96" width="196.56" height="221.179" fill="none" stroke="#5E737B" stroke-width="3"/><text x="635.3" y="184.96" fill="#5E737B" font-family="sans-serif" font-size="20">card</text><text x="725.58" y="413.544" text-anchor="middle" fill="#E7E0D0" font-size="18" font-family="sans-serif">PAGE SELECTION</text><rect x="829.32" y="234.8" width="70.98" height="68.16" fill="none" stroke="#5E737B" stroke-width="3"/><text x="837.32" y="258.8" fill="#5E737B" font-family="sans-serif" font-size="20">arrow</text><rect x="900.3" y="160.96" width="196.56" height="221.179" fill="none" stroke="#5E737B" stroke-width="3"/><text x="908.3" y="184.96" fill="#5E737B" font-family="sans-serif" font-size="20">folder</text><text x="998.58" y="413.544" text-anchor="middle" fill="#E7E0D0" font-size="18" font-family="sans-serif">COMIC</text><rect x="3" y="3" width="1194" height="794" fill="none" stroke="#5E737B" stroke-width="4" stroke-dasharray="18 10"/></svg>

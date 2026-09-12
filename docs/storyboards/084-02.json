@@ -1,6 +1,6 @@
 {
   "background": "ink",
-  "intent": "Block the model summarizes the published investigation method. Keep the scripted evidence boundary and lettering visible.",
+  "intent": "Repeat the investigation-method stages inside a sourced summary treatment. Preserve public source links and limitations rather than presenting the creator's summary as fresh investigation.",
   "lettering": [
     {
       "box": [
@@ -21,7 +21,8 @@
         0.8648,
         0.576
       ],
-      "color": "steel"
+      "color": "steel",
+      "focus": true
     },
     {
       "asset": "folder",

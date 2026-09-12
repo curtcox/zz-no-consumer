@@ -1,4 +1,4 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="800" viewBox="0 0 1200 800"><title>An inaccessible flag</title><metadata>{
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="800" viewBox="0 0 1200 800"><title>An inaccessible flag</title><desc>Remove the attempts and retain their conclusion: output at left, flag at right, a dominant uninterrupted gap between. Keep the impossibility local to this specified route.</desc><metadata>{
   &quot;assets&quot;: {
     &quot;boundary&quot;: &quot;&lt;path d=\&quot;M50 0V100\&quot; stroke=\&quot;currentColor\&quot; stroke-width=\&quot;14\&quot;/&gt;&quot;,
     &quot;box&quot;: &quot;&lt;rect x=\&quot;1\&quot; y=\&quot;1\&quot; width=\&quot;98\&quot; height=\&quot;98\&quot; rx=\&quot;2\&quot; fill=\&quot;#202326\&quot; stroke=\&quot;currentColor\&quot; stroke-width=\&quot;2\&quot;/&gt;&quot;,
@@ -6,18 +6,20 @@
   },
   &quot;palette&quot;: {
     &quot;amber&quot;: &quot;#A17D45&quot;,
+    &quot;claret&quot;: &quot;#6B2634&quot;,
     &quot;dirty&quot;: &quot;#CEC5B3&quot;,
     &quot;ink&quot;: &quot;#101214&quot;,
     &quot;institution&quot;: &quot;#68766B&quot;,
+    &quot;moss&quot;: &quot;#74864F&quot;,
     &quot;nicotine&quot;: &quot;#AA9571&quot;,
     &quot;paper&quot;: &quot;#E7E0D0&quot;,
     &quot;shadow&quot;: &quot;#202326&quot;,
     &quot;steel&quot;: &quot;#5E737B&quot;
   },
-  &quot;renderer&quot;: &quot;storyboard-svg-1&quot;,
+  &quot;renderer&quot;: &quot;storyboard-svg-2&quot;,
   &quot;scene&quot;: {
     &quot;background&quot;: &quot;ink&quot;,
-    &quot;intent&quot;: &quot;The broad black gap carries the conclusion; preserve it through later image treatments.&quot;,
+    &quot;intent&quot;: &quot;Remove the attempts and retain their conclusion: output at left, flag at right, a dominant uninterrupted gap between. Keep the impossibility local to this specified route.&quot;,
     &quot;lettering&quot;: [],
     &quot;nodes&quot;: [
       {
@@ -45,9 +47,9 @@
       {
         &quot;asset&quot;: &quot;flag&quot;,
         &quot;box&quot;: [
-          0.81,
+          0.816667,
           0.4,
-          0.1,
+          0.086667,
           0.2
         ],
         &quot;color&quot;: &quot;dirty&quot;,
@@ -61,4 +63,4 @@
     &quot;title&quot;: &quot;An inaccessible flag&quot;
   }
 }
-</metadata><rect width="1200" height="800" fill="#101214"/><rect x="144" y="312" width="228" height="176" fill="none" stroke="#CEC5B3" stroke-width="3"/><text x="152" y="336" fill="#CEC5B3" font-family="sans-serif" font-size="20">box</text><text x="258" y="512" text-anchor="middle" fill="#E7E0D0" font-size="20" font-family="monospace">UNUSED OUTPUT</text><rect x="864" y="192" width="48" height="408" fill="none" stroke="#E7E0D0" stroke-width="3"/><text x="872" y="216" fill="#E7E0D0" font-family="sans-serif" font-size="20">boundary</text><rect x="972" y="320" width="120" height="160" fill="none" stroke="#CEC5B3" stroke-width="3"/><text x="980" y="344" fill="#CEC5B3" font-family="sans-serif" font-size="20">flag</text><text x="1032" y="504" text-anchor="middle" fill="#E7E0D0" font-size="20" font-family="monospace">FLAG</text><rect x="3" y="3" width="1194" height="794" fill="none" stroke="#5E737B" stroke-width="4"/></svg>
+</metadata><rect width="1200" height="800" fill="#101214"/><rect x="144" y="312" width="228" height="176" fill="none" stroke="#CEC5B3" stroke-width="3"/><text x="152" y="336" fill="#CEC5B3" font-family="sans-serif" font-size="20">box</text><text x="258" y="512" text-anchor="middle" fill="#E7E0D0" font-size="20" font-family="monospace">UNUSED OUTPUT</text><rect x="864" y="192" width="48" height="408" fill="none" stroke="#E7E0D0" stroke-width="3"/><text x="872" y="216" fill="#E7E0D0" font-family="sans-serif" font-size="20">boundary</text><rect x="980" y="320" width="104" height="160" fill="none" stroke="#CEC5B3" stroke-width="3"/><text x="988" y="344" fill="#CEC5B3" font-family="sans-serif" font-size="20">flag</text><text x="1032" y="504" text-anchor="middle" fill="#E7E0D0" font-size="20" font-family="monospace">FLAG</text><rect x="3" y="3" width="1194" height="794" fill="none" stroke="#5E737B" stroke-width="4"/></svg>

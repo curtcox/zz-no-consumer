@@ -1,16 +1,16 @@
 {
   "background": "ink",
-  "intent": "Block a reconstructed moderation action deletes a page. Keep the scripted evidence boundary and lettering visible.",
+  "intent": "Use only a hand and moderation interface inside a reconstruction treatment. The deletion is recorded; the maintainer's body, identity and feelings are not.",
   "lettering": [],
   "lettering_mode": "manual",
   "nodes": [
     {
       "asset": "hand",
       "box": [
-        0.1001,
-        0.287,
-        0.197284,
-        0.36
+        0.06775,
+        0.289334,
+        0.239633,
+        0.422882
       ],
       "color": "dirty",
       "focus": true
@@ -18,38 +18,40 @@
     {
       "asset": "monitor",
       "box": [
-        0.3667,
-        0.287,
-        0.197284,
-        0.36
+        0.371083,
+        0.2397,
+        0.239633,
+        0.344619
       ],
       "color": "steel",
       "focus": true,
       "label": "MODERATION",
       "label_box": [
-        0.3587,
-        0.653,
-        0.21328399999999997,
-        0.085
-      ]
+        0.371083,
+        0.605205,
+        0.239633,
+        0.151423
+      ],
+      "label_size": 18
     },
     {
       "asset": "cross",
       "box": [
-        0.6333,
-        0.319037,
-        0.197284,
-        0.29592599999999997
+        0.679361,
+        0.2397,
+        0.229746,
+        0.344619
       ],
       "color": "steel",
       "focus": true,
       "label": "PAGE DELETED",
       "label_box": [
-        0.6253,
-        0.653,
-        0.21328399999999997,
-        0.085
-      ]
+        0.674417,
+        0.605205,
+        0.239633,
+        0.151423
+      ],
+      "label_size": 18
     }
   ],
   "reconstructed": true,

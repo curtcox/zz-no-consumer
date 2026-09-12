@@ -1,6 +1,6 @@
 {
   "background": "ink",
-  "intent": "Block the hypothesis arrives as a reply. Keep the scripted evidence boundary and lettering visible.",
+  "intent": "Attach the hypothesis as a reply in the main board and keep its mechanism opaque. The proposer contributes a testable idea rather than an already established universal result.",
   "lettering": [
     {
       "box": [
@@ -16,38 +16,40 @@
     {
       "asset": "folder",
       "box": [
-        0.1044,
-        0.2242,
-        0.292744,
-        0.256
+        0.06775,
+        0.2012,
+        0.3913,
+        0.276474
       ],
       "color": "institution",
       "focus": true,
       "label": "MAIN BOARD",
       "label_box": [
-        0.09640000000000001,
-        0.4862,
-        0.308744,
-        0.085
-      ]
+        0.06775,
+        0.49443,
+        0.3913,
+        0.121481
+      ],
+      "label_size": 18
     },
     {
       "asset": "card",
       "box": [
-        0.5,
-        0.2242,
-        0.292744,
-        0.256
+        0.52275,
+        0.2012,
+        0.3913,
+        0.276474
       ],
       "color": "institution",
       "focus": true,
       "label": "GENERAL FLAG HYPOTHESIS",
       "label_box": [
-        0.492,
-        0.4862,
-        0.308744,
-        0.085
-      ]
+        0.52275,
+        0.49443,
+        0.3913,
+        0.121481
+      ],
+      "label_size": 18
     }
   ],
   "reconstructed": false,

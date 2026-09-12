@@ -1,23 +1,27 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="800" viewBox="0 0 1200 800"><title>An opaque grader gives different results</title><metadata>{
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="800" viewBox="0 0 1200 800"><title>An opaque grader gives different results</title><desc>Place two answer inputs on separate tracks into one closed grader, with distinct accept and reject outputs. Keep the interior opaque: observed outcomes do not reveal its rule.</desc><metadata>{
   &quot;assets&quot;: {
+    &quot;arrow&quot;: &quot;&lt;path d=\&quot;M1 50H87M70 18L96 50L70 82\&quot; fill=\&quot;none\&quot; stroke=\&quot;currentColor\&quot; stroke-width=\&quot;5\&quot;/&gt;&quot;,
+    &quot;card&quot;: &quot;&lt;rect x=\&quot;1\&quot; y=\&quot;1\&quot; width=\&quot;98\&quot; height=\&quot;98\&quot; fill=\&quot;#202326\&quot; stroke=\&quot;currentColor\&quot; stroke-width=\&quot;2\&quot;/&gt;&lt;path d=\&quot;M1 20H99M9 10H42M62 10H90M10 34H87M10 45H73M10 56H82M10 76H57M10 87H38\&quot; stroke=\&quot;currentColor\&quot; stroke-width=\&quot;2\&quot;/&gt;&quot;,
     &quot;checkmark&quot;: &quot;&lt;path d=\&quot;M8 51L37 82L94 12\&quot; fill=\&quot;none\&quot; stroke=\&quot;currentColor\&quot; stroke-width=\&quot;8\&quot;/&gt;&quot;,
     &quot;cross&quot;: &quot;&lt;path d=\&quot;M10 10L90 90M90 10L10 90\&quot; stroke=\&quot;currentColor\&quot; stroke-width=\&quot;8\&quot;/&gt;&quot;,
     &quot;sealed&quot;: &quot;&lt;rect x=\&quot;3\&quot; y=\&quot;9\&quot; width=\&quot;94\&quot; height=\&quot;82\&quot; fill=\&quot;#202326\&quot; stroke=\&quot;currentColor\&quot; stroke-width=\&quot;3\&quot;/&gt;&lt;path d=\&quot;M12 30H88M12 49H88M12 68H88\&quot; stroke=\&quot;#101214\&quot; stroke-width=\&quot;12\&quot;/&gt;&quot;
   },
   &quot;palette&quot;: {
     &quot;amber&quot;: &quot;#A17D45&quot;,
+    &quot;claret&quot;: &quot;#6B2634&quot;,
     &quot;dirty&quot;: &quot;#CEC5B3&quot;,
     &quot;ink&quot;: &quot;#101214&quot;,
     &quot;institution&quot;: &quot;#68766B&quot;,
+    &quot;moss&quot;: &quot;#74864F&quot;,
     &quot;nicotine&quot;: &quot;#AA9571&quot;,
     &quot;paper&quot;: &quot;#E7E0D0&quot;,
     &quot;shadow&quot;: &quot;#202326&quot;,
     &quot;steel&quot;: &quot;#5E737B&quot;
   },
-  &quot;renderer&quot;: &quot;storyboard-svg-1&quot;,
+  &quot;renderer&quot;: &quot;storyboard-svg-2&quot;,
   &quot;scene&quot;: {
     &quot;background&quot;: &quot;ink&quot;,
-    &quot;intent&quot;: &quot;Block an opaque grader gives different results. Keep the scripted evidence boundary and lettering visible.&quot;,
+    &quot;intent&quot;: &quot;Place two answer inputs on separate tracks into one closed grader, with distinct accept and reject outputs. Keep the interior opaque: observed outcomes do not reveal its rule.&quot;,
     &quot;lettering&quot;: [
       {
         &quot;box&quot;: [
@@ -31,58 +35,143 @@
     &quot;lettering_mode&quot;: &quot;manual&quot;,
     &quot;nodes&quot;: [
       {
+        &quot;asset&quot;: &quot;card&quot;,
+        &quot;box&quot;: [
+          0.0632,
+          0.1018,
+          0.2002,
+          0.159324
+        ],
+        &quot;color&quot;: &quot;steel&quot;,
+        &quot;focus&quot;: true,
+        &quot;label&quot;: &quot;ANSWER A&quot;,
+        &quot;label_box&quot;: [
+          0.0632,
+          0.27078,
+          0.2002,
+          0.070006
+        ],
+        &quot;label_size&quot;: 18
+      },
+      {
+        &quot;asset&quot;: &quot;card&quot;,
+        &quot;box&quot;: [
+          0.0632,
+          0.4497,
+          0.2002,
+          0.159324
+        ],
+        &quot;color&quot;: &quot;steel&quot;,
+        &quot;focus&quot;: true,
+        &quot;label&quot;: &quot;ANSWER B&quot;,
+        &quot;label_box&quot;: [
+          0.0632,
+          0.61868,
+          0.2002,
+          0.070006
+        ],
+        &quot;label_size&quot;: 18
+      },
+      {
+        &quot;asset&quot;: &quot;arrow&quot;,
+        &quot;box&quot;: [
+          0.2907,
+          0.2154,
+          0.1092,
+          0.0497
+        ],
+        &quot;color&quot;: &quot;steel&quot;,
+        &quot;focus&quot;: true
+      },
+      {
+        &quot;asset&quot;: &quot;arrow&quot;,
+        &quot;box&quot;: [
+          0.2907,
+          0.5491,
+          0.1092,
+          0.0497
+        ],
+        &quot;color&quot;: &quot;steel&quot;,
+        &quot;focus&quot;: true
+      },
+      {
+        &quot;asset&quot;: &quot;sealed&quot;,
+        &quot;box&quot;: [
+          0.4272,
+          0.2225,
+          0.2093,
+          0.2343
+        ],
+        &quot;color&quot;: &quot;steel&quot;,
+        &quot;focus&quot;: true,
+        &quot;label&quot;: &quot;OPAQUE GRADER&quot;,
+        &quot;label_box&quot;: [
+          0.4272,
+          0.471,
+          0.2093,
+          0.10295
+        ],
+        &quot;label_size&quot;: 18
+      },
+      {
+        &quot;asset&quot;: &quot;arrow&quot;,
+        &quot;box&quot;: [
+          0.6638,
+          0.2154,
+          0.091,
+          0.0497
+        ],
+        &quot;color&quot;: &quot;steel&quot;,
+        &quot;focus&quot;: true
+      },
+      {
+        &quot;asset&quot;: &quot;arrow&quot;,
+        &quot;box&quot;: [
+          0.6638,
+          0.5491,
+          0.091,
+          0.0497
+        ],
+        &quot;color&quot;: &quot;steel&quot;,
+        &quot;focus&quot;: true
+      },
+      {
         &quot;asset&quot;: &quot;checkmark&quot;,
         &quot;box&quot;: [
-          0.11664816666666666,
-          0.22419999999999998,
-          0.1706666666666667,
-          0.25600000000000006
+          0.806342,
+          0.1018,
+          0.106216,
+          0.159324
         ],
         &quot;color&quot;: &quot;steel&quot;,
         &quot;focus&quot;: true,
         &quot;label&quot;: &quot;ACCEPT&quot;,
         &quot;label_box&quot;: [
-          0.09640000000000001,
-          0.4862,
-          0.211163,
-          0.085
-        ]
-      },
-      {
-        &quot;asset&quot;: &quot;sealed&quot;,
-        &quot;box&quot;: [
-          0.368133,
-          0.2242,
-          0.195163,
-          0.256
+          0.7821,
+          0.27078,
+          0.1547,
+          0.070006
         ],
-        &quot;color&quot;: &quot;steel&quot;,
-        &quot;focus&quot;: true,
-        &quot;label&quot;: &quot;GRADER&quot;,
-        &quot;label_box&quot;: [
-          0.360133,
-          0.4862,
-          0.211163,
-          0.085
-        ]
+        &quot;label_size&quot;: 18
       },
       {
         &quot;asset&quot;: &quot;cross&quot;,
         &quot;box&quot;: [
-          0.6441151666666666,
-          0.22419999999999998,
-          0.1706666666666667,
-          0.25600000000000006
+          0.806342,
+          0.4497,
+          0.106216,
+          0.159324
         ],
         &quot;color&quot;: &quot;steel&quot;,
         &quot;focus&quot;: true,
         &quot;label&quot;: &quot;REJECT&quot;,
         &quot;label_box&quot;: [
-          0.623867,
-          0.4862,
-          0.211163,
-          0.085
-        ]
+          0.7821,
+          0.61868,
+          0.1547,
+          0.070006
+        ],
+        &quot;label_size&quot;: 18
       }
     ],
     &quot;reconstructed&quot;: false,
@@ -91,4 +180,4 @@
     &quot;title&quot;: &quot;An opaque grader gives different results&quot;
   }
 }
-</metadata><rect width="1200" height="800" fill="#101214"/><rect x="139.978" y="179.36" width="204.8" height="204.8" fill="none" stroke="#5E737B" stroke-width="3"/><text x="147.978" y="203.36" fill="#5E737B" font-family="sans-serif" font-size="20">checkmark</text><text x="242.378" y="408.96" text-anchor="middle" fill="#E7E0D0" font-size="20" font-family="sans-serif">ACCEPT</text><rect x="441.76" y="179.36" width="234.196" height="204.8" fill="none" stroke="#5E737B" stroke-width="3"/><text x="449.76" y="203.36" fill="#5E737B" font-family="sans-serif" font-size="20">sealed</text><text x="558.857" y="408.96" text-anchor="middle" fill="#E7E0D0" font-size="20" font-family="sans-serif">GRADER</text><rect x="772.938" y="179.36" width="204.8" height="204.8" fill="none" stroke="#5E737B" stroke-width="3"/><text x="780.938" y="203.36" fill="#5E737B" font-family="sans-serif" font-size="20">cross</text><text x="875.338" y="408.96" text-anchor="middle" fill="#E7E0D0" font-size="20" font-family="sans-serif">REJECT</text><rect x="3" y="3" width="1194" height="794" fill="none" stroke="#5E737B" stroke-width="4"/></svg>
+</metadata><rect width="1200" height="800" fill="#101214"/><rect x="75.84" y="81.44" width="240.24" height="127.459" fill="none" stroke="#5E737B" stroke-width="3"/><text x="83.84" y="105.44" fill="#5E737B" font-family="sans-serif" font-size="20">card</text><text x="195.96" y="234.624" text-anchor="middle" fill="#E7E0D0" font-size="18" font-family="sans-serif">ANSWER A</text><rect x="75.84" y="359.76" width="240.24" height="127.459" fill="none" stroke="#5E737B" stroke-width="3"/><text x="83.84" y="383.76" fill="#5E737B" font-family="sans-serif" font-size="20">card</text><text x="195.96" y="512.944" text-anchor="middle" fill="#E7E0D0" font-size="18" font-family="sans-serif">ANSWER B</text><rect x="348.84" y="172.32" width="131.04" height="39.76" fill="none" stroke="#5E737B" stroke-width="3"/><text x="356.84" y="196.32" fill="#5E737B" font-family="sans-serif" font-size="20">arrow</text><rect x="348.84" y="439.28" width="131.04" height="39.76" fill="none" stroke="#5E737B" stroke-width="3"/><text x="356.84" y="463.28" fill="#5E737B" font-family="sans-serif" font-size="20">arrow</text><rect x="512.64" y="178" width="251.16" height="187.44" fill="none" stroke="#5E737B" stroke-width="3"/><text x="520.64" y="202" fill="#5E737B" font-family="sans-serif" font-size="20">sealed</text><text x="638.22" y="394.8" text-anchor="middle" fill="#E7E0D0" font-size="18" font-family="sans-serif">OPAQUE GRADER</text><rect x="796.56" y="172.32" width="109.2" height="39.76" fill="none" stroke="#5E737B" stroke-width="3"/><text x="804.56" y="196.32" fill="#5E737B" font-family="sans-serif" font-size="20">arrow</text><rect x="796.56" y="439.28" width="109.2" height="39.76" fill="none" stroke="#5E737B" stroke-width="3"/><text x="804.56" y="463.28" fill="#5E737B" font-family="sans-serif" font-size="20">arrow</text><rect x="967.61" y="81.44" width="127.459" height="127.459" fill="none" stroke="#5E737B" stroke-width="3"/><text x="975.61" y="105.44" fill="#5E737B" font-family="sans-serif" font-size="20">checkmark</text><text x="1031.34" y="234.624" text-anchor="middle" fill="#E7E0D0" font-size="18" font-family="sans-serif">ACCEPT</text><rect x="967.61" y="359.76" width="127.459" height="127.459" fill="none" stroke="#5E737B" stroke-width="3"/><text x="975.61" y="383.76" fill="#5E737B" font-family="sans-serif" font-size="20">cross</text><text x="1031.34" y="512.944" text-anchor="middle" fill="#E7E0D0" font-size="18" font-family="sans-serif">REJECT</text><rect x="3" y="3" width="1194" height="794" fill="none" stroke="#5E737B" stroke-width="4"/></svg>

@@ -32,6 +32,12 @@ byte-identical for identical inputs; font rasterization can differ between brows
   merely by refreshing the snapshot.
 - `shot`, `title`, `intent`: the shot description and the visual decision being tested.
   Shot is descriptive; geometry comes from the boxes, not from an implicit camera model.
+  `intent` specifies the reader's takeaway, the visible relationship that earns it,
+  and the inference the drawing must leave open. It is also exported as the SVG
+  description. Write a panel-specific direction, not “Block [title]”: identify what
+  changes from the preceding frame, where a route ends, what a boundary contains,
+  and which objects must remain separate. The canonical script still owns events,
+  wording, chronology and provenance.
 - `background`: a named palette color.
 - `nodes`: back-to-front drawing order. Every node names an asset, a palette color, and
   a normalized `[x, y, width, height]` box. Optional `flip` mirrors a pose; `label` is
@@ -54,6 +60,22 @@ coordinate system. Their `currentColor` is supplied by the scene. The initial vo
 includes rooms, racks, monitors, desks, cards, hands, silhouettes, and diagram elements.
 Human shapes are blocking figures, not approved likenesses. Add reusable geometry here;
 do not ask a model to rediscover the same desk or camera framing each time.
+
+The concept vocabulary also distinguishes task cards, transcript and directory rows,
+empty answer slots, narrow and broad authority, short and long budgets, matched and
+mismatched opaque results, and interrupted routes. Use these distinctions deliberately:
+an empty slot is not a failed result, a closed gate is not a crossed boundary, and a
+stored message needs a read path as well as a write path when the panel depicts both.
+Arrowheads represent actual direction; a timeline rule or an unexplained gap must not
+silently become a causal arrow. Use the canonical moss and claret palette tokens only
+for established propagation and boundary consequences, with shape and labels carrying
+the same distinction in grayscale.
+
+For visual review, cover the caption and ask whether the central relationship still
+reads; restore the caption to check attribution and qualifications. Compare state-change
+panels with their neighbors, and inspect repeated scenes with the same geometry. Keep
+intentional silence, empty evidence fields and unconnected hypotheses intact. Structural
+checks establish fit and consistency, not successful communication of the concept.
 
 Focal boxes and lettering must not overlap. The checker also checks missing panels,
 invalid geometry, stale source snapshots, truncated/missing lettering, current generated

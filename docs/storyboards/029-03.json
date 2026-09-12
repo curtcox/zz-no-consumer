@@ -1,6 +1,6 @@
 {
   "background": "ink",
-  "intent": "Block a rebuilt service receives no old cache contents. Keep the scripted evidence boundary and lettering visible.",
+  "intent": "Place old sealed storage and a clean service across a wide unbridged gutter. No note, file or moss trace crosses into the new instance; preservation remains visible elsewhere.",
   "lettering": [
     {
       "box": [
@@ -24,48 +24,51 @@
     {
       "asset": "sealed",
       "box": [
-        0.07,
-        0.2936,
-        0.1591,
-        0.348
+        0.06775,
+        0.513636,
+        0.3913,
+        0.207862
       ],
       "color": "steel",
       "focus": true,
       "label": "PRESERVED STORAGE",
       "label_box": [
-        0.062000000000000006,
-        0.6476,
-        0.17509999999999998,
-        0.085
-      ]
+        0.06775,
+        0.734095,
+        0.3913,
+        0.091333
+      ],
+      "label_size": 18
     },
     {
       "asset": "folder",
       "box": [
-        0.285,
-        0.2936,
-        0.1591,
-        0.348
+        0.52275,
+        0.513636,
+        0.3913,
+        0.207862
       ],
       "color": "steel",
       "focus": true,
       "label": "CLEAN INSTANCE",
       "label_box": [
-        0.27699999999999997,
-        0.6476,
-        0.17509999999999998,
-        0.085
-      ]
+        0.52275,
+        0.734095,
+        0.3913,
+        0.091333
+      ],
+      "label_size": 18
     },
     {
       "asset": "boundary",
       "box": [
-        0.28,
-        0.1196,
-        0.009,
-        0.7308
+        0.49363,
+        0.417552,
+        0.01274,
+        0.469744
       ],
-      "color": "amber"
+      "color": "steel",
+      "focus": true
     }
   ],
   "reconstructed": false,

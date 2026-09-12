@@ -1,6 +1,6 @@
 {
   "background": "ink",
-  "intent": "Block continuation is conditioned on safeguards. Keep the scripted evidence boundary and lettering visible.",
+  "intent": "Place continuation above three reasons but enclose them with conditional safeguard gates. The reconstructed decision should visibly include constraints rather than read as unconditional acceleration.",
   "lettering": [
     {
       "box": [
@@ -37,25 +37,27 @@
       "asset": "person-seated",
       "box": [
         0.09933333333333332,
-        0.20499999999999996,
+        0.205,
         0.19413333333333335,
-        0.44800000000000006
+        0.448
       ],
-      "color": "dirty"
+      "color": "dirty",
+      "focus": true
     },
     {
       "asset": "person-seated",
       "box": [
         0.7249333333333333,
-        0.20499999999999996,
+        0.205,
         0.19413333333333335,
-        0.44800000000000006
+        0.448
       ],
       "color": "dirty",
-      "flip": true
+      "flip": true,
+      "focus": true
     },
     {
-      "asset": "card",
+      "asset": "task",
       "box": [
         0.1044,
         0.269,

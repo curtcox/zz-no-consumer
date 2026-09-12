@@ -1,23 +1,26 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="800" viewBox="0 0 1200 800"><title>Different links meet the same wall</title><metadata>{
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="800" viewBox="0 0 1200 800"><title>Different links meet the same wall</title><desc>Fan different reference stubs toward the same barrier, leaving corresponding cells empty. Repetition demonstrates a common access restriction rather than repeated copies of one broken document.</desc><metadata>{
   &quot;assets&quot;: {
-    &quot;card&quot;: &quot;&lt;rect x=\&quot;1\&quot; y=\&quot;1\&quot; width=\&quot;98\&quot; height=\&quot;98\&quot; fill=\&quot;#202326\&quot; stroke=\&quot;currentColor\&quot; stroke-width=\&quot;2\&quot;/&gt;&lt;path d=\&quot;M8 13H92M8 27H70M8 36H86M8 45H72M8 65H86M8 74H57\&quot; stroke=\&quot;currentColor\&quot; stroke-width=\&quot;1.5\&quot;/&gt;&quot;,
-    &quot;gate&quot;: &quot;&lt;path d=\&quot;M8 95V8H92V95M15 33H85M25 34V88M40 34V88M55 34V88M70 34V88M85 34V88\&quot; fill=\&quot;none\&quot; stroke=\&quot;currentColor\&quot; stroke-width=\&quot;4\&quot;/&gt;&lt;rect x=\&quot;39\&quot; y=\&quot;46\&quot; width=\&quot;22\&quot; height=\&quot;23\&quot; fill=\&quot;currentColor\&quot;/&gt;&quot;,
-    &quot;sheet&quot;: &quot;&lt;rect x=\&quot;3\&quot; y=\&quot;3\&quot; width=\&quot;94\&quot; height=\&quot;94\&quot; fill=\&quot;#202326\&quot; stroke=\&quot;currentColor\&quot; stroke-width=\&quot;3\&quot;/&gt;&lt;path d=\&quot;M3 22H97M3 42H97M3 62H97M3 82H97M28 3V97M52 3V97M76 3V97\&quot; stroke=\&quot;currentColor\&quot; stroke-width=\&quot;1.5\&quot;/&gt;&quot;
+    &quot;arrow&quot;: &quot;&lt;path d=\&quot;M1 50H87M70 18L96 50L70 82\&quot; fill=\&quot;none\&quot; stroke=\&quot;currentColor\&quot; stroke-width=\&quot;5\&quot;/&gt;&quot;,
+    &quot;boundary&quot;: &quot;&lt;path d=\&quot;M50 0V100\&quot; stroke=\&quot;currentColor\&quot; stroke-width=\&quot;14\&quot;/&gt;&quot;,
+    &quot;folder&quot;: &quot;&lt;path d=\&quot;M3 20V8H38L48 20H97V90H3Z\&quot; fill=\&quot;#202326\&quot; stroke=\&quot;currentColor\&quot; stroke-width=\&quot;3\&quot;/&gt;&lt;path d=\&quot;M12 40H85M12 50H65\&quot; stroke=\&quot;currentColor\&quot; stroke-width=\&quot;2\&quot;/&gt;&quot;,
+    &quot;incomplete-sheet&quot;: &quot;&lt;rect x=\&quot;1\&quot; y=\&quot;1\&quot; width=\&quot;98\&quot; height=\&quot;98\&quot; fill=\&quot;#202326\&quot; stroke=\&quot;currentColor\&quot; stroke-width=\&quot;2\&quot;/&gt;&lt;path d=\&quot;M1 24H99M1 48H99M1 72H99M25 1V99M50 1V99M75 1V99\&quot; stroke=\&quot;currentColor\&quot; stroke-width=\&quot;1.5\&quot;/&gt;&lt;path d=\&quot;M5 12H20M30 12H45M5 36H20M5 60H20M30 60H45M55 60H70M5 84H20M55 84H70\&quot; stroke=\&quot;currentColor\&quot; stroke-width=\&quot;3\&quot;/&gt;&quot;
   },
   &quot;palette&quot;: {
     &quot;amber&quot;: &quot;#A17D45&quot;,
+    &quot;claret&quot;: &quot;#6B2634&quot;,
     &quot;dirty&quot;: &quot;#CEC5B3&quot;,
     &quot;ink&quot;: &quot;#101214&quot;,
     &quot;institution&quot;: &quot;#68766B&quot;,
+    &quot;moss&quot;: &quot;#74864F&quot;,
     &quot;nicotine&quot;: &quot;#AA9571&quot;,
     &quot;paper&quot;: &quot;#E7E0D0&quot;,
     &quot;shadow&quot;: &quot;#202326&quot;,
     &quot;steel&quot;: &quot;#5E737B&quot;
   },
-  &quot;renderer&quot;: &quot;storyboard-svg-1&quot;,
+  &quot;renderer&quot;: &quot;storyboard-svg-2&quot;,
   &quot;scene&quot;: {
     &quot;background&quot;: &quot;ink&quot;,
-    &quot;intent&quot;: &quot;Block different links meet the same wall. Keep the scripted evidence boundary and lettering visible.&quot;,
+    &quot;intent&quot;: &quot;Fan different reference stubs toward the same barrier, leaving corresponding cells empty. Repetition demonstrates a common access restriction rather than repeated copies of one broken document.&quot;,
     &quot;lettering&quot;: [
       {
         &quot;box&quot;: [
@@ -31,58 +34,86 @@
     &quot;lettering_mode&quot;: &quot;manual&quot;,
     &quot;nodes&quot;: [
       {
-        &quot;asset&quot;: &quot;card&quot;,
+        &quot;asset&quot;: &quot;incomplete-sheet&quot;,
         &quot;box&quot;: [
-          0.1044,
-          0.2242,
-          0.195163,
-          0.256
+          0.0541,
+          0.187,
+          0.2275,
+          0.290532
         ],
         &quot;color&quot;: &quot;steel&quot;,
         &quot;focus&quot;: true,
-        &quot;label&quot;: &quot;REFERENCES&quot;,
+        &quot;label&quot;: &quot;INCOMPLETE SHEET&quot;,
         &quot;label_box&quot;: [
-          0.09640000000000001,
-          0.4862,
-          0.211163,
-          0.085
-        ]
+          0.0541,
+          0.49514,
+          0.2275,
+          0.127658
+        ],
+        &quot;label_size&quot;: 18
       },
       {
-        &quot;asset&quot;: &quot;gate&quot;,
+        &quot;asset&quot;: &quot;arrow&quot;,
         &quot;box&quot;: [
-          0.368133,
-          0.2242,
-          0.195163,
-          0.256
+          0.318,
+          0.1444,
+          0.2184,
+          0.0426
         ],
         &quot;color&quot;: &quot;steel&quot;,
-        &quot;focus&quot;: true,
-        &quot;label&quot;: &quot;BOUNDARY&quot;,
-        &quot;label_box&quot;: [
-          0.360133,
-          0.4862,
-          0.211163,
-          0.085
-        ]
+        &quot;focus&quot;: true
       },
       {
-        &quot;asset&quot;: &quot;sheet&quot;,
+        &quot;asset&quot;: &quot;arrow&quot;,
         &quot;box&quot;: [
-          0.631867,
-          0.2242,
-          0.195163,
-          0.256
+          0.318,
+          0.3219,
+          0.2184,
+          0.0426
+        ],
+        &quot;color&quot;: &quot;steel&quot;,
+        &quot;focus&quot;: true
+      },
+      {
+        &quot;asset&quot;: &quot;arrow&quot;,
+        &quot;box&quot;: [
+          0.318,
+          0.4994,
+          0.2184,
+          0.0426
+        ],
+        &quot;color&quot;: &quot;steel&quot;,
+        &quot;focus&quot;: true
+      },
+      {
+        &quot;asset&quot;: &quot;boundary&quot;,
+        &quot;box&quot;: [
+          0.5637,
+          0.0663,
+          0.01638,
+          0.6248
+        ],
+        &quot;color&quot;: &quot;steel&quot;,
+        &quot;focus&quot;: true
+      },
+      {
+        &quot;asset&quot;: &quot;folder&quot;,
+        &quot;box&quot;: [
+          0.6547,
+          0.187,
+          0.273,
+          0.290532
         ],
         &quot;color&quot;: &quot;steel&quot;,
         &quot;focus&quot;: true,
-        &quot;label&quot;: &quot;INCOMPLETE&quot;,
+        &quot;label&quot;: &quot;EXTERNAL INPUTS&quot;,
         &quot;label_box&quot;: [
-          0.623867,
-          0.4862,
-          0.211163,
-          0.085
-        ]
+          0.6547,
+          0.49514,
+          0.273,
+          0.127658
+        ],
+        &quot;label_size&quot;: 18
       }
     ],
     &quot;reconstructed&quot;: false,
@@ -91,4 +122,4 @@
     &quot;title&quot;: &quot;Different links meet the same wall&quot;
   }
 }
-</metadata><rect width="1200" height="800" fill="#101214"/><rect x="125.28" y="179.36" width="234.196" height="204.8" fill="none" stroke="#5E737B" stroke-width="3"/><text x="133.28" y="203.36" fill="#5E737B" font-family="sans-serif" font-size="20">card</text><text x="242.378" y="408.96" text-anchor="middle" fill="#E7E0D0" font-size="20" font-family="sans-serif">REFERENCES</text><rect x="441.76" y="179.36" width="234.196" height="204.8" fill="none" stroke="#5E737B" stroke-width="3"/><text x="449.76" y="203.36" fill="#5E737B" font-family="sans-serif" font-size="20">gate</text><text x="558.857" y="408.96" text-anchor="middle" fill="#E7E0D0" font-size="20" font-family="sans-serif">BOUNDARY</text><rect x="758.24" y="179.36" width="234.196" height="204.8" fill="none" stroke="#5E737B" stroke-width="3"/><text x="766.24" y="203.36" fill="#5E737B" font-family="sans-serif" font-size="20">sheet</text><text x="875.338" y="408.96" text-anchor="middle" fill="#E7E0D0" font-size="20" font-family="sans-serif">INCOMPLETE</text><rect x="3" y="3" width="1194" height="794" fill="none" stroke="#5E737B" stroke-width="4"/></svg>
+</metadata><rect width="1200" height="800" fill="#101214"/><rect x="64.92" y="149.6" width="273" height="232.426" fill="none" stroke="#5E737B" stroke-width="3"/><text x="72.92" y="173.6" fill="#5E737B" font-family="sans-serif" font-size="20">incomplete-sheet</text><text x="201.42" y="414.112" text-anchor="middle" fill="#E7E0D0" font-size="18" font-family="sans-serif">INCOMPLETE SHEET</text><rect x="381.6" y="115.52" width="262.08" height="34.08" fill="none" stroke="#5E737B" stroke-width="3"/><text x="389.6" y="139.52" fill="#5E737B" font-family="sans-serif" font-size="20">arrow</text><rect x="381.6" y="257.52" width="262.08" height="34.08" fill="none" stroke="#5E737B" stroke-width="3"/><text x="389.6" y="281.52" fill="#5E737B" font-family="sans-serif" font-size="20">arrow</text><rect x="381.6" y="399.52" width="262.08" height="34.08" fill="none" stroke="#5E737B" stroke-width="3"/><text x="389.6" y="423.52" fill="#5E737B" font-family="sans-serif" font-size="20">arrow</text><rect x="676.44" y="53.04" width="19.656" height="499.84" fill="none" stroke="#5E737B" stroke-width="3"/><text x="684.44" y="77.04" fill="#5E737B" font-family="sans-serif" font-size="20">boundary</text><rect x="785.64" y="149.6" width="327.6" height="232.426" fill="none" stroke="#5E737B" stroke-width="3"/><text x="793.64" y="173.6" fill="#5E737B" font-family="sans-serif" font-size="20">folder</text><text x="949.44" y="414.112" text-anchor="middle" fill="#E7E0D0" font-size="18" font-family="sans-serif">EXTERNAL INPUTS</text><rect x="3" y="3" width="1194" height="794" fill="none" stroke="#5E737B" stroke-width="4"/></svg>

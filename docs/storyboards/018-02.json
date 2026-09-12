@@ -1,6 +1,6 @@
 {
   "background": "ink",
-  "intent": "Block the attempted path stops at the wall. Keep the scripted evidence boundary and lettering visible.",
+  "intent": "Break the route exactly at the external wall and keep the missing sheet cells dark. Place the failure mark on the attempt, not on the existence of the external material.",
   "lettering": [
     {
       "box": [
@@ -14,34 +14,45 @@
   "lettering_mode": "manual",
   "nodes": [
     {
-      "asset": "arrow",
-      "box": [
-        0.1044,
-        0.2242,
-        0.146372,
-        0.256
-      ],
-      "color": "steel",
-      "focus": true
-    },
-    {
       "asset": "cross",
       "box": [
-        0.3022,
-        0.242421,
-        0.146372,
-        0.219558
+        0.06775,
+        0.230925,
+        0.239633,
+        0.359449
       ],
       "color": "dirty",
       "focus": true
     },
     {
+      "asset": "arrow",
+      "box": [
+        0.311933,
+        0.2935,
+        0.05915,
+        0.0852
+      ],
+      "color": "steel",
+      "focus": true
+    },
+    {
       "asset": "gate",
       "box": [
-        0.5,
-        0.2242,
-        0.146372,
-        0.256
+        0.371083,
+        0.2012,
+        0.239633,
+        0.4189
+      ],
+      "color": "steel",
+      "focus": true
+    },
+    {
+      "asset": "arrow",
+      "box": [
+        0.615267,
+        0.2935,
+        0.05915,
+        0.0852
       ],
       "color": "steel",
       "focus": true
@@ -49,17 +60,17 @@
     {
       "asset": "sheet",
       "box": [
-        0.6978,
-        0.2242,
-        0.146372,
-        0.256
+        0.674417,
+        0.2012,
+        0.239633,
+        0.4189
       ],
       "color": "steel",
       "focus": true
     }
   ],
   "reconstructed": false,
-  "shot": "row",
+  "shot": "route",
   "source": "\n**Frame:** The arrow strikes the external boundary and collapses. The spreadsheet inputs remain dark.\n\n**Action:** The attempted SSRF does not obtain internet access.\n\n**Screen / system text:**\n`REQUEST FAILED`\n\n**Provenance:** `documented` — failure is sourced; interface wording is reconstructed.\n\n",
   "title": "The attempted path stops at the wall"
 }

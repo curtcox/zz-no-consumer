@@ -1,6 +1,6 @@
 {
   "background": "ink",
-  "intent": "Block text returns as a redacted image. Keep the scripted evidence boundary and lettering visible.",
+  "intent": "Preserve the same redacted content pattern across text input and image output. The medium changes while the concealed content remains unreadable, making transformation visible without reproducing it.",
   "lettering": [
     {
       "box": [
@@ -16,76 +16,81 @@
     {
       "asset": "sealed",
       "box": [
-        0.1044,
-        0.2242,
-        0.195163,
-        0.256
+        0.06775,
+        0.2012,
+        0.239633,
+        0.276474
       ],
       "color": "steel",
       "focus": true,
       "label": "TEXT",
       "label_box": [
-        0.09640000000000001,
-        0.4862,
-        0.211163,
-        0.085
-      ]
+        0.06775,
+        0.49443,
+        0.239633,
+        0.121481
+      ],
+      "label_size": 18
+    },
+    {
+      "asset": "arrow",
+      "box": [
+        0.311933,
+        0.2935,
+        0.05915,
+        0.0852
+      ],
+      "color": "steel",
+      "focus": true
     },
     {
       "asset": "aperture",
       "box": [
-        0.368133,
-        0.23960596153846153,
-        0.195163,
-        0.22518807692307694
+        0.371094,
+        0.2012,
+        0.239611,
+        0.276474
       ],
       "color": "steel",
       "focus": true,
       "label": "RENDER",
       "label_box": [
-        0.360133,
-        0.4862,
-        0.211163,
-        0.085
-      ]
+        0.371083,
+        0.49443,
+        0.239633,
+        0.121481
+      ],
+      "label_size": 18
+    },
+    {
+      "asset": "arrow",
+      "box": [
+        0.615267,
+        0.2935,
+        0.05915,
+        0.0852
+      ],
+      "color": "steel",
+      "focus": true
     },
     {
       "asset": "sealed",
       "box": [
-        0.631867,
-        0.2242,
-        0.195163,
-        0.256
+        0.674417,
+        0.2012,
+        0.239633,
+        0.276474
       ],
       "color": "steel",
       "focus": true,
       "label": "IMAGE",
       "label_box": [
-        0.623867,
-        0.4862,
-        0.211163,
-        0.085
-      ]
-    },
-    {
-      "asset": "arrow",
-      "box": [
-        0.310112,
-        0.3202,
-        0.049067,
-        0.0416
+        0.674417,
+        0.49443,
+        0.239633,
+        0.121481
       ],
-      "color": "steel"
-    },
-    {
-      "asset": "arrow",
-      "box": [
-        0.573845,
-        0.3202,
-        0.049067,
-        0.0416
-      ],
-      "color": "steel"
+      "label_size": 18
     }
   ],
   "reconstructed": false,

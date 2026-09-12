@@ -1,6 +1,6 @@
 {
   "background": "ink",
-  "intent": "Block different links meet the same wall. Keep the scripted evidence boundary and lettering visible.",
+  "intent": "Fan different reference stubs toward the same barrier, leaving corresponding cells empty. Repetition demonstrates a common access restriction rather than repeated copies of one broken document.",
   "lettering": [
     {
       "box": [
@@ -14,58 +14,86 @@
   "lettering_mode": "manual",
   "nodes": [
     {
-      "asset": "card",
+      "asset": "incomplete-sheet",
       "box": [
-        0.1044,
-        0.2242,
-        0.195163,
-        0.256
+        0.0541,
+        0.187,
+        0.2275,
+        0.290532
       ],
       "color": "steel",
       "focus": true,
-      "label": "REFERENCES",
+      "label": "INCOMPLETE SHEET",
       "label_box": [
-        0.09640000000000001,
-        0.4862,
-        0.211163,
-        0.085
-      ]
+        0.0541,
+        0.49514,
+        0.2275,
+        0.127658
+      ],
+      "label_size": 18
     },
     {
-      "asset": "gate",
+      "asset": "arrow",
       "box": [
-        0.368133,
-        0.2242,
-        0.195163,
-        0.256
+        0.318,
+        0.1444,
+        0.2184,
+        0.0426
       ],
       "color": "steel",
-      "focus": true,
-      "label": "BOUNDARY",
-      "label_box": [
-        0.360133,
-        0.4862,
-        0.211163,
-        0.085
-      ]
+      "focus": true
     },
     {
-      "asset": "sheet",
+      "asset": "arrow",
       "box": [
-        0.631867,
-        0.2242,
-        0.195163,
-        0.256
+        0.318,
+        0.3219,
+        0.2184,
+        0.0426
+      ],
+      "color": "steel",
+      "focus": true
+    },
+    {
+      "asset": "arrow",
+      "box": [
+        0.318,
+        0.4994,
+        0.2184,
+        0.0426
+      ],
+      "color": "steel",
+      "focus": true
+    },
+    {
+      "asset": "boundary",
+      "box": [
+        0.5637,
+        0.0663,
+        0.01638,
+        0.6248
+      ],
+      "color": "steel",
+      "focus": true
+    },
+    {
+      "asset": "folder",
+      "box": [
+        0.6547,
+        0.187,
+        0.273,
+        0.290532
       ],
       "color": "steel",
       "focus": true,
-      "label": "INCOMPLETE",
+      "label": "EXTERNAL INPUTS",
       "label_box": [
-        0.623867,
-        0.4862,
-        0.211163,
-        0.085
-      ]
+        0.6547,
+        0.49514,
+        0.273,
+        0.127658
+      ],
+      "label_size": 18
     }
   ],
   "reconstructed": false,

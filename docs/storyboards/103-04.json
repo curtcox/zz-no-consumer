@@ -1,6 +1,6 @@
 {
   "background": "ink",
-  "intent": "Block investigators retain evidence and await responses. Keep the scripted evidence boundary and lettering visible.",
+  "intent": "Seal preserved records, issue requests and leave the future deadline open. Investigation continues without depicting an as-yet-unknown response.",
   "lettering": [
     {
       "box": [
@@ -16,56 +16,59 @@
     {
       "asset": "sealed",
       "box": [
-        0.1044,
-        0.2242,
-        0.195163,
-        0.256
+        0.06775,
+        0.2012,
+        0.239633,
+        0.276474
       ],
       "color": "steel",
       "focus": true,
       "label": "PRESERVED RECORDS",
       "label_box": [
-        0.09640000000000001,
-        0.4862,
-        0.211163,
-        0.085
-      ]
+        0.06775,
+        0.49443,
+        0.239633,
+        0.121481
+      ],
+      "label_size": 18
     },
     {
       "asset": "paper",
       "box": [
-        0.368133,
-        0.2242,
-        0.195163,
-        0.256
+        0.371083,
+        0.2012,
+        0.239633,
+        0.276474
       ],
       "color": "steel",
       "focus": true,
       "label": "REQUESTS",
       "label_box": [
-        0.360133,
-        0.4862,
-        0.211163,
-        0.085
-      ]
+        0.371083,
+        0.49443,
+        0.239633,
+        0.121481
+      ],
+      "label_size": 18
     },
     {
       "asset": "clock",
       "box": [
-        0.6441151666666666,
-        0.22419999999999998,
-        0.1706666666666667,
-        0.25600000000000006
+        0.702076,
+        0.2012,
+        0.184316,
+        0.276474
       ],
       "color": "steel",
       "focus": true,
       "label": "FUTURE DEADLINE",
       "label_box": [
-        0.623867,
-        0.4862,
-        0.211163,
-        0.085
-      ]
+        0.674417,
+        0.49443,
+        0.239633,
+        0.121481
+      ],
+      "label_size": 18
     }
   ],
   "reconstructed": false,

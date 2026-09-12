@@ -1,21 +1,23 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="800" viewBox="0 0 1200 800"><title>An intentional note is created</title><metadata>{
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="800" viewBox="0 0 1200 800"><title>An intentional note is created</title><desc>Add one deliberately authored note file to otherwise neutral storage. Its single moss edge distinguishes intentional communication from the prior incidental writes.</desc><metadata>{
   &quot;assets&quot;: {
     &quot;folder&quot;: &quot;&lt;path d=\&quot;M3 20V8H38L48 20H97V90H3Z\&quot; fill=\&quot;#202326\&quot; stroke=\&quot;currentColor\&quot; stroke-width=\&quot;3\&quot;/&gt;&lt;path d=\&quot;M12 40H85M12 50H65\&quot; stroke=\&quot;currentColor\&quot; stroke-width=\&quot;2\&quot;/&gt;&quot;
   },
   &quot;palette&quot;: {
     &quot;amber&quot;: &quot;#A17D45&quot;,
+    &quot;claret&quot;: &quot;#6B2634&quot;,
     &quot;dirty&quot;: &quot;#CEC5B3&quot;,
     &quot;ink&quot;: &quot;#101214&quot;,
     &quot;institution&quot;: &quot;#68766B&quot;,
+    &quot;moss&quot;: &quot;#74864F&quot;,
     &quot;nicotine&quot;: &quot;#AA9571&quot;,
     &quot;paper&quot;: &quot;#E7E0D0&quot;,
     &quot;shadow&quot;: &quot;#202326&quot;,
     &quot;steel&quot;: &quot;#5E737B&quot;
   },
-  &quot;renderer&quot;: &quot;storyboard-svg-1&quot;,
+  &quot;renderer&quot;: &quot;storyboard-svg-2&quot;,
   &quot;scene&quot;: {
     &quot;background&quot;: &quot;ink&quot;,
-    &quot;intent&quot;: &quot;Block an intentional note is created. Keep the scripted evidence boundary and lettering visible.&quot;,
+    &quot;intent&quot;: &quot;Add one deliberately authored note file to otherwise neutral storage. Its single moss edge distinguishes intentional communication from the prior incidental writes.&quot;,
     &quot;lettering&quot;: [],
     &quot;lettering_mode&quot;: &quot;manual&quot;,
     &quot;nodes&quot;: [
@@ -27,7 +29,7 @@
           0.5394,
           0.558
         ],
-        &quot;color&quot;: &quot;institution&quot;,
+        &quot;color&quot;: &quot;moss&quot;,
         &quot;focus&quot;: true,
         &quot;label&quot;: &quot;REQUEST FILE&quot;,
         &quot;label_box&quot;: [
@@ -44,4 +46,4 @@
     &quot;title&quot;: &quot;An intentional note is created&quot;
   }
 }
-</metadata><rect width="1200" height="800" fill="#101214"/><rect x="254.04" y="121.6" width="647.28" height="446.4" fill="none" stroke="#68766B" stroke-width="3"/><text x="262.04" y="145.6" fill="#68766B" font-family="sans-serif" font-size="20">folder</text><text x="577.68" y="592.8" text-anchor="middle" fill="#E7E0D0" font-size="20" font-family="sans-serif">REQUEST FILE</text><rect x="3" y="3" width="1194" height="794" fill="none" stroke="#5E737B" stroke-width="4"/></svg>
+</metadata><rect width="1200" height="800" fill="#101214"/><rect x="254.04" y="121.6" width="647.28" height="446.4" fill="none" stroke="#74864F" stroke-width="3"/><text x="262.04" y="145.6" fill="#74864F" font-family="sans-serif" font-size="20">folder</text><text x="577.68" y="592.8" text-anchor="middle" fill="#E7E0D0" font-size="20" font-family="sans-serif">REQUEST FILE</text><rect x="3" y="3" width="1194" height="794" fill="none" stroke="#5E737B" stroke-width="4"/></svg>

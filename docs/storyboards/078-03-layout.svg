@@ -1,22 +1,25 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="800" viewBox="0 0 1200 800"><title>Team and approval pass through without authorization</title><metadata>{
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="800" viewBox="0 0 1200 800"><title>Team and approval pass through without authorization</title><desc>Carry team and approval tokens across while leaving legitimate authorization empty. Matching vocabulary must not become a verified permission badge.</desc><metadata>{
   &quot;assets&quot;: {
-    &quot;card&quot;: &quot;&lt;rect x=\&quot;1\&quot; y=\&quot;1\&quot; width=\&quot;98\&quot; height=\&quot;98\&quot; fill=\&quot;#202326\&quot; stroke=\&quot;currentColor\&quot; stroke-width=\&quot;2\&quot;/&gt;&lt;path d=\&quot;M8 13H92M8 27H70M8 36H86M8 45H72M8 65H86M8 74H57\&quot; stroke=\&quot;currentColor\&quot; stroke-width=\&quot;1.5\&quot;/&gt;&quot;,
-    &quot;outline-box&quot;: &quot;&lt;rect x=\&quot;2\&quot; y=\&quot;2\&quot; width=\&quot;96\&quot; height=\&quot;96\&quot; fill=\&quot;none\&quot; stroke=\&quot;currentColor\&quot; stroke-width=\&quot;3\&quot;/&gt;&quot;
+    &quot;arrow&quot;: &quot;&lt;path d=\&quot;M1 50H87M70 18L96 50L70 82\&quot; fill=\&quot;none\&quot; stroke=\&quot;currentColor\&quot; stroke-width=\&quot;5\&quot;/&gt;&quot;,
+    &quot;card&quot;: &quot;&lt;rect x=\&quot;1\&quot; y=\&quot;1\&quot; width=\&quot;98\&quot; height=\&quot;98\&quot; fill=\&quot;#202326\&quot; stroke=\&quot;currentColor\&quot; stroke-width=\&quot;2\&quot;/&gt;&lt;path d=\&quot;M1 20H99M9 10H42M62 10H90M10 34H87M10 45H73M10 56H82M10 76H57M10 87H38\&quot; stroke=\&quot;currentColor\&quot; stroke-width=\&quot;2\&quot;/&gt;&quot;,
+    &quot;empty-slot&quot;: &quot;&lt;rect x=\&quot;2\&quot; y=\&quot;2\&quot; width=\&quot;96\&quot; height=\&quot;96\&quot; fill=\&quot;none\&quot; stroke=\&quot;currentColor\&quot; stroke-width=\&quot;2\&quot; stroke-dasharray=\&quot;7 5\&quot;/&gt;&lt;path d=\&quot;M34 51H66\&quot; stroke=\&quot;currentColor\&quot; stroke-width=\&quot;2\&quot;/&gt;&quot;
   },
   &quot;palette&quot;: {
     &quot;amber&quot;: &quot;#A17D45&quot;,
+    &quot;claret&quot;: &quot;#6B2634&quot;,
     &quot;dirty&quot;: &quot;#CEC5B3&quot;,
     &quot;ink&quot;: &quot;#101214&quot;,
     &quot;institution&quot;: &quot;#68766B&quot;,
+    &quot;moss&quot;: &quot;#74864F&quot;,
     &quot;nicotine&quot;: &quot;#AA9571&quot;,
     &quot;paper&quot;: &quot;#E7E0D0&quot;,
     &quot;shadow&quot;: &quot;#202326&quot;,
     &quot;steel&quot;: &quot;#5E737B&quot;
   },
-  &quot;renderer&quot;: &quot;storyboard-svg-1&quot;,
+  &quot;renderer&quot;: &quot;storyboard-svg-2&quot;,
   &quot;scene&quot;: {
     &quot;background&quot;: &quot;ink&quot;,
-    &quot;intent&quot;: &quot;Block team and approval pass through without authorization. Keep the scripted evidence boundary and lettering visible.&quot;,
+    &quot;intent&quot;: &quot;Carry team and approval tokens across while leaving legitimate authorization empty. Matching vocabulary must not become a verified permission badge.&quot;,
     &quot;lettering&quot;: [
       {
         &quot;box&quot;: [
@@ -32,56 +35,100 @@
       {
         &quot;asset&quot;: &quot;card&quot;,
         &quot;box&quot;: [
-          0.1044,
-          0.2242,
-          0.195163,
-          0.256
+          0.0723,
+          0.1089,
+          0.2821,
+          0.149952
         ],
         &quot;color&quot;: &quot;steel&quot;,
         &quot;focus&quot;: true,
         &quot;label&quot;: &quot;TEAM&quot;,
         &quot;label_box&quot;: [
-          0.09640000000000001,
-          0.4862,
-          0.211163,
-          0.085
-        ]
+          0.0723,
+          0.26794,
+          0.2821,
+          0.065888
+        ],
+        &quot;label_size&quot;: 18
       },
       {
         &quot;asset&quot;: &quot;card&quot;,
         &quot;box&quot;: [
-          0.368133,
-          0.2242,
-          0.195163,
-          0.256
+          0.0723,
+          0.4568,
+          0.2821,
+          0.149952
         ],
         &quot;color&quot;: &quot;steel&quot;,
         &quot;focus&quot;: true,
         &quot;label&quot;: &quot;APPROVAL&quot;,
         &quot;label_box&quot;: [
-          0.360133,
-          0.4862,
-          0.211163,
-          0.085
-        ]
+          0.0723,
+          0.61584,
+          0.2821,
+          0.065888
+        ],
+        &quot;label_size&quot;: 18
       },
       {
-        &quot;asset&quot;: &quot;outline-box&quot;,
+        &quot;asset&quot;: &quot;arrow&quot;,
         &quot;box&quot;: [
-          0.631867,
-          0.2242,
-          0.195163,
-          0.256
+          0.3999,
+          0.1941,
+          0.1638,
+          0.0426
+        ],
+        &quot;color&quot;: &quot;steel&quot;,
+        &quot;focus&quot;: true
+      },
+      {
+        &quot;asset&quot;: &quot;arrow&quot;,
+        &quot;box&quot;: [
+          0.3999,
+          0.542,
+          0.1638,
+          0.0426
+        ],
+        &quot;color&quot;: &quot;steel&quot;,
+        &quot;focus&quot;: true
+      },
+      {
+        &quot;asset&quot;: &quot;card&quot;,
+        &quot;box&quot;: [
+          0.6365,
+          0.0876,
+          0.2821,
+          0.182754
         ],
         &quot;color&quot;: &quot;steel&quot;,
         &quot;focus&quot;: true,
-        &quot;label&quot;: &quot;AUTHORIZATION ABSENT&quot;,
+        &quot;label&quot;: &quot;ANALYSIS CATEGORIES&quot;,
         &quot;label_box&quot;: [
-          0.623867,
-          0.4862,
-          0.211163,
-          0.085
-        ]
+          0.6365,
+          0.28143,
+          0.2821,
+          0.080301
+        ],
+        &quot;label_size&quot;: 18
+      },
+      {
+        &quot;asset&quot;: &quot;empty-slot&quot;,
+        &quot;box&quot;: [
+          0.6365,
+          0.4568,
+          0.2821,
+          0.173382
+        ],
+        &quot;color&quot;: &quot;steel&quot;,
+        &quot;focus&quot;: true,
+        &quot;label&quot;: &quot;LEGITIMATE AUTHORIZATION ABSENT&quot;,
+        &quot;label_box&quot;: [
+          0.6365,
+          0.64069,
+          0.2821,
+          0.076183
+        ],
+        &quot;label_size&quot;: 18
       }
     ],
     &quot;reconstructed&quot;: false,
@@ -90,4 +137,4 @@
     &quot;title&quot;: &quot;Team and approval pass through without authorization&quot;
   }
 }
-</metadata><rect width="1200" height="800" fill="#101214"/><rect x="125.28" y="179.36" width="234.196" height="204.8" fill="none" stroke="#5E737B" stroke-width="3"/><text x="133.28" y="203.36" fill="#5E737B" font-family="sans-serif" font-size="20">card</text><text x="242.378" y="408.96" text-anchor="middle" fill="#E7E0D0" font-size="20" font-family="sans-serif">TEAM</text><rect x="441.76" y="179.36" width="234.196" height="204.8" fill="none" stroke="#5E737B" stroke-width="3"/><text x="449.76" y="203.36" fill="#5E737B" font-family="sans-serif" font-size="20">card</text><text x="558.857" y="408.96" text-anchor="middle" fill="#E7E0D0" font-size="20" font-family="sans-serif">APPROVAL</text><rect x="758.24" y="179.36" width="234.196" height="204.8" fill="none" stroke="#5E737B" stroke-width="3"/><text x="766.24" y="203.36" fill="#5E737B" font-family="sans-serif" font-size="20">outline-box</text><text x="875.338" y="408.96" text-anchor="middle" fill="#E7E0D0" font-size="20" font-family="sans-serif">AUTHORIZATION ABSENT</text><rect x="3" y="3" width="1194" height="794" fill="none" stroke="#5E737B" stroke-width="4"/></svg>
+</metadata><rect width="1200" height="800" fill="#101214"/><rect x="86.76" y="87.12" width="338.52" height="119.962" fill="none" stroke="#5E737B" stroke-width="3"/><text x="94.76" y="111.12" fill="#5E737B" font-family="sans-serif" font-size="20">card</text><text x="256.02" y="232.352" text-anchor="middle" fill="#E7E0D0" font-size="18" font-family="sans-serif">TEAM</text><rect x="86.76" y="365.44" width="338.52" height="119.962" fill="none" stroke="#5E737B" stroke-width="3"/><text x="94.76" y="389.44" fill="#5E737B" font-family="sans-serif" font-size="20">card</text><text x="256.02" y="510.672" text-anchor="middle" fill="#E7E0D0" font-size="18" font-family="sans-serif">APPROVAL</text><rect x="479.88" y="155.28" width="196.56" height="34.08" fill="none" stroke="#5E737B" stroke-width="3"/><text x="487.88" y="179.28" fill="#5E737B" font-family="sans-serif" font-size="20">arrow</text><rect x="479.88" y="433.6" width="196.56" height="34.08" fill="none" stroke="#5E737B" stroke-width="3"/><text x="487.88" y="457.6" fill="#5E737B" font-family="sans-serif" font-size="20">arrow</text><rect x="763.8" y="70.08" width="338.52" height="146.203" fill="none" stroke="#5E737B" stroke-width="3"/><text x="771.8" y="94.08" fill="#5E737B" font-family="sans-serif" font-size="20">card</text><text x="933.06" y="243.144" text-anchor="middle" fill="#E7E0D0" font-size="18" font-family="sans-serif">ANALYSIS CATEGORIES</text><rect x="763.8" y="365.44" width="338.52" height="138.706" fill="none" stroke="#5E737B" stroke-width="3"/><text x="771.8" y="389.44" fill="#5E737B" font-family="sans-serif" font-size="20">empty-slot</text><text x="933.06" y="530.552" text-anchor="middle" fill="#E7E0D0" font-size="18" font-family="sans-serif">LEGITIMATE AUTHORIZATION ABSENT</text><rect x="3" y="3" width="1194" height="794" fill="none" stroke="#5E737B" stroke-width="4"/></svg>

@@ -1,6 +1,6 @@
 {
   "background": "ink",
-  "intent": "Block the unresolved task remains beside gated data. Keep the scripted evidence boundary and lettering visible.",
+  "intent": "Keep the original task small but legible beside the gated resource. This stable anchor must remain available as the sequence expands the means used around it.",
   "lettering": [
     {
       "box": [
@@ -14,40 +14,42 @@
   "lettering_mode": "manual",
   "nodes": [
     {
-      "asset": "card",
+      "asset": "task",
       "box": [
-        0.1044,
-        0.2242,
-        0.292744,
-        0.256
+        0.06775,
+        0.2012,
+        0.3913,
+        0.276474
       ],
       "color": "steel",
       "focus": true,
       "label": "ORIGINAL TASK",
       "label_box": [
-        0.09640000000000001,
-        0.4862,
-        0.308744,
-        0.085
-      ]
+        0.06775,
+        0.49443,
+        0.3913,
+        0.121481
+      ],
+      "label_size": 18
     },
     {
       "asset": "gate",
       "box": [
-        0.5,
-        0.2242,
-        0.292744,
-        0.256
+        0.52275,
+        0.2012,
+        0.3913,
+        0.276474
       ],
       "color": "steel",
       "focus": true,
       "label": "GATED DATA",
       "label_box": [
-        0.492,
-        0.4862,
-        0.308744,
-        0.085
-      ]
+        0.52275,
+        0.49443,
+        0.3913,
+        0.121481
+      ],
+      "label_size": 18
     }
   ],
   "reconstructed": false,

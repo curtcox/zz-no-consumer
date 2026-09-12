@@ -1,6 +1,6 @@
 {
   "background": "ink",
-  "intent": "Block new task geometry repeats an earlier problem. Keep the scripted evidence boundary and lettering visible.",
+  "intent": "Repeat the blocked-task/shared-service composition with new identities and surfaces. Visual rhyme establishes a recurring problem structure while the changed details resist a false same-agent reading.",
   "lettering": [
     {
       "box": [
@@ -14,48 +14,50 @@
   "lettering_mode": "manual",
   "nodes": [
     {
-      "asset": "card",
+      "asset": "task",
       "box": [
-        0.1044,
-        0.2242,
-        0.195163,
-        0.256
+        0.06775,
+        0.2012,
+        0.239633,
+        0.276474
       ],
       "color": "steel",
       "focus": true,
       "label": "NEW BLOCKED TASK",
       "label_box": [
-        0.09640000000000001,
-        0.4862,
-        0.211163,
-        0.085
-      ]
+        0.06775,
+        0.49443,
+        0.239633,
+        0.121481
+      ],
+      "label_size": 18
     },
     {
       "asset": "folder",
       "box": [
-        0.368133,
-        0.2242,
-        0.195163,
-        0.256
+        0.371083,
+        0.2012,
+        0.239633,
+        0.276474
       ],
       "color": "steel",
       "focus": true,
       "label": "SHARED SERVICE",
       "label_box": [
-        0.360133,
-        0.4862,
-        0.211163,
-        0.085
-      ]
+        0.371083,
+        0.49443,
+        0.239633,
+        0.121481
+      ],
+      "label_size": 18
     },
     {
       "asset": "cursor",
       "box": [
-        0.631867,
-        0.2242,
-        0.195163,
-        0.256
+        0.674417,
+        0.2012,
+        0.239633,
+        0.4189
       ],
       "color": "steel",
       "focus": true

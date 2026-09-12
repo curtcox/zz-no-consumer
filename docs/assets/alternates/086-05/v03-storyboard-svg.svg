@@ -1,0 +1,64 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="800" viewBox="0 0 1200 800"><title>The repeated notice wording stays in the tooling register</title><metadata>{
+  &quot;assets&quot;: {
+    &quot;terminal&quot;: &quot;&lt;rect x=\&quot;2\&quot; y=\&quot;4\&quot; width=\&quot;96\&quot; height=\&quot;92\&quot; fill=\&quot;#101214\&quot; stroke=\&quot;currentColor\&quot; stroke-width=\&quot;3\&quot;/&gt;&lt;path d=\&quot;M2 18H98M12 31L21 40L12 49M29 49H51M12 65H76M12 78H62\&quot; fill=\&quot;none\&quot; stroke=\&quot;currentColor\&quot; stroke-width=\&quot;3\&quot;/&gt;&quot;
+  },
+  &quot;palette&quot;: {
+    &quot;amber&quot;: &quot;#A17D45&quot;,
+    &quot;dirty&quot;: &quot;#CEC5B3&quot;,
+    &quot;ink&quot;: &quot;#101214&quot;,
+    &quot;institution&quot;: &quot;#68766B&quot;,
+    &quot;nicotine&quot;: &quot;#AA9571&quot;,
+    &quot;paper&quot;: &quot;#E7E0D0&quot;,
+    &quot;shadow&quot;: &quot;#202326&quot;,
+    &quot;steel&quot;: &quot;#5E737B&quot;
+  },
+  &quot;renderer&quot;: &quot;storyboard-svg-1&quot;,
+  &quot;scene&quot;: {
+    &quot;background&quot;: &quot;ink&quot;,
+    &quot;intent&quot;: &quot;Block the repeated notice wording stays in the tooling register. Keep the scripted evidence boundary and lettering visible.&quot;,
+    &quot;lettering&quot;: [
+      {
+        &quot;box&quot;: [
+          0.58,
+          0.04,
+          0.38,
+          0.2382
+        ]
+      },
+      {
+        &quot;box&quot;: [
+          0.58,
+          0.29619999999999996,
+          0.38,
+          0.2382
+        ]
+      }
+    ],
+    &quot;lettering_mode&quot;: &quot;manual&quot;,
+    &quot;nodes&quot;: [
+      {
+        &quot;asset&quot;: &quot;terminal&quot;,
+        &quot;box&quot;: [
+          0.13,
+          0.1631,
+          0.29,
+          0.5394
+        ],
+        &quot;color&quot;: &quot;steel&quot;,
+        &quot;focus&quot;: true,
+        &quot;label&quot;: &quot;STORED NOTICES&quot;,
+        &quot;label_box&quot;: [
+          0.122,
+          0.7085,
+          0.306,
+          0.085
+        ]
+      }
+    ],
+    &quot;reconstructed&quot;: false,
+    &quot;shot&quot;: &quot;hero&quot;,
+    &quot;source&quot;: &quot;\n**Frame:** One sentence from the notices is lifted out and set large, in their own register.\nBehind it, small and unemphasized, the two dates.\n\n**Screen / system text — STORED NOTICE (PARAPHRASED):**\n`THE SAFEGUARDS ARE INTENTIONALLY BROAD. BREADTH LETS US DELIVER CAPABILITY FASTER.`\n\n**Caption:**\n&gt; THIS BOOK CALLS THAT A RACE AND MARKS IT AS ITS OWN ANALYSIS.\n&gt;\n&gt; HERE IT IS A PRODUCT NOTICE.\n\n**Provenance:** `documented` + `inferred` — `CI-REFUSAL`, both events, paraphrased. The\nvendor states the trade in its own words, twice, more than seven weeks apart. That this is the same\ntrade [page 097](097.md) bounds as project analysis is the project&#x27;s observation.\n\n&quot;,
+    &quot;title&quot;: &quot;The repeated notice wording stays in the tooling register&quot;
+  }
+}
+</metadata><rect width="1200" height="800" fill="#101214"/><g transform="translate(156 130.48) scale(3.48 4.3152)" color="#5E737B"><g transform=""><rect x="2" y="4" width="96" height="92" fill="#101214" stroke="currentColor" stroke-width="3"/><path d="M2 18H98M12 31L21 40L12 49M29 49H51M12 65H76M12 78H62" fill="none" stroke="currentColor" stroke-width="3"/></g></g><text x="330" y="586.8" text-anchor="middle" fill="#E7E0D0" font-size="20" font-family="sans-serif">STORED NOTICES</text><rect x="3" y="3" width="1194" height="794" fill="none" stroke="#5E737B" stroke-width="4"/></svg>

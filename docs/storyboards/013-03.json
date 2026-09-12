@@ -1,6 +1,6 @@
 {
   "background": "ink",
-  "intent": "Keep the report at left, infrastructure at right and the untouched drink at the far desk edge; the scrolling hand supplies the action.",
+  "intent": "Repeat the untouched drink as the stable time anchor while source windows move from passage to board to infrastructure. The hand and scroll position carry reconsideration, not a new incident event.",
   "lettering": [
     {
       "box": [
@@ -52,7 +52,8 @@
         0.06,
         0.05
       ],
-      "color": "steel"
+      "color": "steel",
+      "focus": true
     },
     {
       "asset": "box",
@@ -62,7 +63,8 @@
         0.06,
         0.05
       ],
-      "color": "steel"
+      "color": "steel",
+      "focus": true
     },
     {
       "asset": "arrow-down",
@@ -77,9 +79,9 @@
     {
       "asset": "hand",
       "box": [
-        0.38,
+        0.417667,
         0.7,
-        0.2,
+        0.124667,
         0.22
       ],
       "color": "dirty",

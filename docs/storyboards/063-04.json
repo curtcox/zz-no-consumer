@@ -1,6 +1,6 @@
 {
   "background": "ink",
-  "intent": "Block the finding is bounded to the reviewed dataset. Keep the scripted evidence boundary and lettering visible.",
+  "intent": "Enclose the entire finding within the dataset, dates, assisted-method and incompleteness qualifiers. The boundary must survive cropping and cannot become a universal agent claim.",
   "lettering": [
     {
       "box": [
@@ -19,16 +19,16 @@
         0.2148,
         0.1282,
         0.5336,
-        0.3968
+        0.39024
       ],
       "color": "steel",
       "focus": true,
       "label": "METR DATASET",
       "label_box": [
         0.20679999999999998,
-        0.531,
+        0.52644,
         0.5496,
-        0.085
+        0.08956
       ]
     },
     {

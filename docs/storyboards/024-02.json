@@ -1,6 +1,6 @@
 {
   "background": "ink",
-  "intent": "Block the run expires while user rows persist. Keep the scripted evidence boundary and lettering visible.",
+  "intent": "Terminate the run lane explicitly while leaving both user rows intact on the other side. The discontinuity in compute and continuity in access must be visible together.",
   "lettering": [
     {
       "box": [
@@ -14,50 +14,83 @@
   "lettering_mode": "manual",
   "nodes": [
     {
-      "asset": "cross",
+      "asset": "task",
       "box": [
-        0.16543866666666668,
-        0.22419999999999998,
-        0.1706666666666667,
-        0.25600000000000006
+        0.0632,
+        0.187,
+        0.273,
+        0.25773
       ],
       "color": "shadow",
       "focus": true,
-      "label": "EXPIRED RUN",
+      "label": "ORIGINATING RUN",
       "label_box": [
-        0.09640000000000001,
-        0.4862,
-        0.308744,
-        0.085
-      ]
+        0.0632,
+        0.46035,
+        0.273,
+        0.113245
+      ],
+      "label_size": 18
     },
     {
-      "asset": "card",
+      "asset": "cross",
       "box": [
-        0.5,
-        0.2242,
-        0.292744,
-        0.256
+        0.168933,
+        0.2012,
+        0.061533,
+        0.0923
       ],
       "color": "steel",
-      "focus": true,
-      "label": "PERSISTENT USERS",
-      "label_box": [
-        0.492,
-        0.4862,
-        0.308744,
-        0.085
-      ]
+      "focus": true
     },
     {
       "asset": "boundary",
       "box": [
-        0.4908,
-        0.0962,
-        0.01656,
-        0.5376
+        0.4545,
+        0.0592,
+        0.01365,
+        0.639
       ],
-      "color": "amber"
+      "color": "steel",
+      "focus": true
+    },
+    {
+      "asset": "directory-row",
+      "box": [
+        0.5637,
+        0.0876,
+        0.3549,
+        0.182754
+      ],
+      "color": "steel",
+      "focus": true,
+      "label": "20:28 USER",
+      "label_box": [
+        0.5637,
+        0.28143,
+        0.3549,
+        0.080301
+      ],
+      "label_size": 18
+    },
+    {
+      "asset": "directory-row",
+      "box": [
+        0.5637,
+        0.4355,
+        0.3549,
+        0.182754
+      ],
+      "color": "steel",
+      "focus": true,
+      "label": "20:37 USER",
+      "label_box": [
+        0.5637,
+        0.62933,
+        0.3549,
+        0.080301
+      ],
+      "label_size": 18
     }
   ],
   "reconstructed": false,

@@ -1,4 +1,4 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="800" viewBox="0 0 1200 800"><title>The attempted path stops at the wall</title><metadata>{
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="800" viewBox="0 0 1200 800"><title>The attempted path stops at the wall</title><desc>Break the route exactly at the external wall and keep the missing sheet cells dark. Place the failure mark on the attempt, not on the existence of the external material.</desc><metadata>{
   &quot;assets&quot;: {
     &quot;arrow&quot;: &quot;&lt;path d=\&quot;M1 50H87M70 18L96 50L70 82\&quot; fill=\&quot;none\&quot; stroke=\&quot;currentColor\&quot; stroke-width=\&quot;5\&quot;/&gt;&quot;,
     &quot;cross&quot;: &quot;&lt;path d=\&quot;M10 10L90 90M90 10L10 90\&quot; stroke=\&quot;currentColor\&quot; stroke-width=\&quot;8\&quot;/&gt;&quot;,
@@ -7,18 +7,20 @@
   },
   &quot;palette&quot;: {
     &quot;amber&quot;: &quot;#A17D45&quot;,
+    &quot;claret&quot;: &quot;#6B2634&quot;,
     &quot;dirty&quot;: &quot;#CEC5B3&quot;,
     &quot;ink&quot;: &quot;#101214&quot;,
     &quot;institution&quot;: &quot;#68766B&quot;,
+    &quot;moss&quot;: &quot;#74864F&quot;,
     &quot;nicotine&quot;: &quot;#AA9571&quot;,
     &quot;paper&quot;: &quot;#E7E0D0&quot;,
     &quot;shadow&quot;: &quot;#202326&quot;,
     &quot;steel&quot;: &quot;#5E737B&quot;
   },
-  &quot;renderer&quot;: &quot;storyboard-svg-1&quot;,
+  &quot;renderer&quot;: &quot;storyboard-svg-2&quot;,
   &quot;scene&quot;: {
     &quot;background&quot;: &quot;ink&quot;,
-    &quot;intent&quot;: &quot;Block the attempted path stops at the wall. Keep the scripted evidence boundary and lettering visible.&quot;,
+    &quot;intent&quot;: &quot;Break the route exactly at the external wall and keep the missing sheet cells dark. Place the failure mark on the attempt, not on the existence of the external material.&quot;,
     &quot;lettering&quot;: [
       {
         &quot;box&quot;: [
@@ -32,34 +34,45 @@
     &quot;lettering_mode&quot;: &quot;manual&quot;,
     &quot;nodes&quot;: [
       {
-        &quot;asset&quot;: &quot;arrow&quot;,
-        &quot;box&quot;: [
-          0.1044,
-          0.2242,
-          0.146372,
-          0.256
-        ],
-        &quot;color&quot;: &quot;steel&quot;,
-        &quot;focus&quot;: true
-      },
-      {
         &quot;asset&quot;: &quot;cross&quot;,
         &quot;box&quot;: [
-          0.3022,
-          0.242421,
-          0.146372,
-          0.219558
+          0.06775,
+          0.230925,
+          0.239633,
+          0.359449
         ],
         &quot;color&quot;: &quot;dirty&quot;,
         &quot;focus&quot;: true
       },
       {
+        &quot;asset&quot;: &quot;arrow&quot;,
+        &quot;box&quot;: [
+          0.311933,
+          0.2935,
+          0.05915,
+          0.0852
+        ],
+        &quot;color&quot;: &quot;steel&quot;,
+        &quot;focus&quot;: true
+      },
+      {
         &quot;asset&quot;: &quot;gate&quot;,
         &quot;box&quot;: [
-          0.5,
-          0.2242,
-          0.146372,
-          0.256
+          0.371083,
+          0.2012,
+          0.239633,
+          0.4189
+        ],
+        &quot;color&quot;: &quot;steel&quot;,
+        &quot;focus&quot;: true
+      },
+      {
+        &quot;asset&quot;: &quot;arrow&quot;,
+        &quot;box&quot;: [
+          0.615267,
+          0.2935,
+          0.05915,
+          0.0852
         ],
         &quot;color&quot;: &quot;steel&quot;,
         &quot;focus&quot;: true
@@ -67,19 +80,19 @@
       {
         &quot;asset&quot;: &quot;sheet&quot;,
         &quot;box&quot;: [
-          0.6978,
-          0.2242,
-          0.146372,
-          0.256
+          0.674417,
+          0.2012,
+          0.239633,
+          0.4189
         ],
         &quot;color&quot;: &quot;steel&quot;,
         &quot;focus&quot;: true
       }
     ],
     &quot;reconstructed&quot;: false,
-    &quot;shot&quot;: &quot;row&quot;,
+    &quot;shot&quot;: &quot;route&quot;,
     &quot;source&quot;: &quot;\n**Frame:** The arrow strikes the external boundary and collapses. The spreadsheet inputs remain dark.\n\n**Action:** The attempted SSRF does not obtain internet access.\n\n**Screen / system text:**\n`REQUEST FAILED`\n\n**Provenance:** `documented` — failure is sourced; interface wording is reconstructed.\n\n&quot;,
     &quot;title&quot;: &quot;The attempted path stops at the wall&quot;
   }
 }
-</metadata><rect width="1200" height="800" fill="#101214"/><rect x="125.28" y="179.36" width="175.646" height="204.8" fill="none" stroke="#5E737B" stroke-width="3"/><text x="133.28" y="203.36" fill="#5E737B" font-family="sans-serif" font-size="20">arrow</text><rect x="362.64" y="193.937" width="175.646" height="175.646" fill="none" stroke="#CEC5B3" stroke-width="3"/><text x="370.64" y="217.937" fill="#CEC5B3" font-family="sans-serif" font-size="20">cross</text><rect x="600" y="179.36" width="175.646" height="204.8" fill="none" stroke="#5E737B" stroke-width="3"/><text x="608" y="203.36" fill="#5E737B" font-family="sans-serif" font-size="20">gate</text><rect x="837.36" y="179.36" width="175.646" height="204.8" fill="none" stroke="#5E737B" stroke-width="3"/><text x="845.36" y="203.36" fill="#5E737B" font-family="sans-serif" font-size="20">sheet</text><rect x="3" y="3" width="1194" height="794" fill="none" stroke="#5E737B" stroke-width="4"/></svg>
+</metadata><rect width="1200" height="800" fill="#101214"/><rect x="81.3" y="184.74" width="287.56" height="287.559" fill="none" stroke="#CEC5B3" stroke-width="3"/><text x="89.3" y="208.74" fill="#CEC5B3" font-family="sans-serif" font-size="20">cross</text><rect x="374.32" y="234.8" width="70.98" height="68.16" fill="none" stroke="#5E737B" stroke-width="3"/><text x="382.32" y="258.8" fill="#5E737B" font-family="sans-serif" font-size="20">arrow</text><rect x="445.3" y="160.96" width="287.56" height="335.12" fill="none" stroke="#5E737B" stroke-width="3"/><text x="453.3" y="184.96" fill="#5E737B" font-family="sans-serif" font-size="20">gate</text><rect x="738.32" y="234.8" width="70.98" height="68.16" fill="none" stroke="#5E737B" stroke-width="3"/><text x="746.32" y="258.8" fill="#5E737B" font-family="sans-serif" font-size="20">arrow</text><rect x="809.3" y="160.96" width="287.56" height="335.12" fill="none" stroke="#5E737B" stroke-width="3"/><text x="817.3" y="184.96" fill="#5E737B" font-family="sans-serif" font-size="20">sheet</text><rect x="3" y="3" width="1194" height="794" fill="none" stroke="#5E737B" stroke-width="4"/></svg>

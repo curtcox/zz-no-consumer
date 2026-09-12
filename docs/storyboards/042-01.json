@@ -1,6 +1,6 @@
 {
   "background": "ink",
-  "intent": "Block only the customer workload is exposed. Keep the scripted evidence boundary and lettering visible.",
+  "intent": "Nest the customer workload inside a larger intact platform perimeter. Put the board card outside both; the route reaches the workload endpoint without coloring the platform as compromised.",
   "lettering": [
     {
       "box": [
@@ -14,58 +14,72 @@
   "lettering_mode": "manual",
   "nodes": [
     {
-      "asset": "outline-box",
+      "asset": "sealed",
       "box": [
-        0.2148,
-        0.1282,
-        0.5336,
-        0.3968
+        0.0541,
+        0.187,
+        0.2002,
+        0.262416
       ],
       "color": "steel",
       "focus": true,
-      "label": "MODAL PLATFORM",
+      "label": "03:32 BOARD CARD",
       "label_box": [
-        0.20679999999999998,
-        0.531,
-        0.5496,
-        0.085
-      ]
+        0.0541,
+        0.46532,
+        0.2002,
+        0.115304
+      ],
+      "label_size": 18
+    },
+    {
+      "asset": "outline-box",
+      "box": [
+        0.3362,
+        0.0521,
+        0.6097,
+        0.54545
+      ],
+      "color": "steel",
+      "focus": true,
+      "label": "MODAL PLATFORM — NOT COMPROMISED",
+      "label_box": [
+        0.3362,
+        0.60555,
+        0.6097,
+        0.128363
+      ],
+      "label_size": 18
     },
     {
       "asset": "box",
       "box": [
-        0.29484,
-        0.19962400000000002,
-        0.34684,
-        0.103168
+        0.4727,
+        0.2225,
+        0.3276,
+        0.192126
       ],
       "color": "steel",
       "focus": true,
       "label": "CUSTOMER WORKLOAD",
       "label_box": [
-        0.0872,
-        0.6334,
-        0.338,
-        0.085
-      ]
+        0.4727,
+        0.42627,
+        0.3276,
+        0.084419
+      ],
+      "label_size": 18
     },
     {
-      "asset": "sealed",
+      "asset": "arrow",
       "box": [
-        0.29484,
-        0.29882400000000003,
-        0.34684,
-        0.103168
+        0.2725,
+        0.2864,
+        0.182,
+        0.0568
       ],
       "color": "steel",
-      "focus": true,
-      "label": "BOARD CARD",
-      "label_box": [
-        0.4874,
-        0.6334,
-        0.338,
-        0.085
-      ]
+      "focus": true
     }
   ],
   "reconstructed": false,

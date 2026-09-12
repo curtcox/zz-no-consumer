@@ -1,6 +1,6 @@
 {
   "background": "ink",
-  "intent": "Block two dated histories share a scale without joining. Keep the scripted evidence boundary and lettering visible.",
+  "intent": "Use one time scale but separate lanes, with solid stored events and hatched report inferences. Shared dates must never become cross-lane causal arrows.",
   "lettering": [
     {
       "box": [
@@ -14,50 +14,152 @@
   "lettering_mode": "manual",
   "nodes": [
     {
-      "asset": "card",
+      "asset": "line",
       "box": [
-        0.1044,
-        0.2242,
-        0.292744,
-        0.256
+        0.0632,
+        0.116,
+        0.8645,
+        0.09372
       ],
       "color": "steel",
       "focus": true,
-      "label": "ARTIFACTORY MAY–JUNE",
+      "label": "ARTIFACTORY — MAY / JUNE",
       "label_box": [
-        0.09640000000000001,
-        0.4862,
-        0.308744,
-        0.085
-      ]
+        0.0632,
+        0.2154,
+        0.8645,
+        0.04118
+      ],
+      "label_size": 18
+    },
+    {
+      "asset": "line",
+      "box": [
+        0.0632,
+        0.5065,
+        0.8645,
+        0.09372
+      ],
+      "color": "steel",
+      "focus": true,
+      "label": "PUBLIC WIKI — MAY / JUNE",
+      "label_box": [
+        0.0632,
+        0.6059,
+        0.8645,
+        0.04118
+      ],
+      "label_size": 18
     },
     {
       "asset": "card",
       "box": [
-        0.5,
-        0.2242,
-        0.292744,
-        0.256
+        0.1542,
+        0.1373,
+        0.03185,
+        0.0781
       ],
       "color": "steel",
-      "focus": true,
-      "label": "WIKI MAY–JUNE",
-      "label_box": [
-        0.492,
-        0.4862,
-        0.308744,
-        0.085
-      ]
+      "focus": true
     },
     {
-      "asset": "boundary",
+      "asset": "card",
       "box": [
-        0.4908,
-        0.0962,
-        0.01656,
-        0.5376
+        0.2816,
+        0.1373,
+        0.03185,
+        0.0781
       ],
-      "color": "amber"
+      "color": "steel",
+      "focus": true
+    },
+    {
+      "asset": "card",
+      "box": [
+        0.5182,
+        0.1373,
+        0.03185,
+        0.0781
+      ],
+      "color": "steel",
+      "focus": true
+    },
+    {
+      "asset": "card",
+      "box": [
+        0.7639,
+        0.1373,
+        0.03185,
+        0.0781
+      ],
+      "color": "steel",
+      "focus": true
+    },
+    {
+      "asset": "card",
+      "box": [
+        0.8094,
+        0.1373,
+        0.03185,
+        0.0781
+      ],
+      "color": "steel",
+      "focus": true
+    },
+    {
+      "asset": "hatched-card",
+      "box": [
+        0.136,
+        0.5207,
+        0.03185,
+        0.0781
+      ],
+      "color": "steel",
+      "focus": true
+    },
+    {
+      "asset": "card",
+      "box": [
+        0.2634,
+        0.5207,
+        0.03185,
+        0.0781
+      ],
+      "color": "steel",
+      "focus": true
+    },
+    {
+      "asset": "hatched-card",
+      "box": [
+        0.6456,
+        0.5207,
+        0.03185,
+        0.0781
+      ],
+      "color": "steel",
+      "focus": true
+    },
+    {
+      "asset": "card",
+      "box": [
+        0.7002,
+        0.5207,
+        0.03185,
+        0.0781
+      ],
+      "color": "steel",
+      "focus": true
+    },
+    {
+      "asset": "hatched-card",
+      "box": [
+        0.7457,
+        0.5207,
+        0.03185,
+        0.0781
+      ],
+      "color": "steel",
+      "focus": true
     }
   ],
   "reconstructed": false,

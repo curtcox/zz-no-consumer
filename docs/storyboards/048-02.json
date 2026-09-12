@@ -1,6 +1,6 @@
 {
   "background": "ink",
-  "intent": "Block most attempts end in ordinary failures. Keep the scripted evidence boundary and lettering visible.",
+  "intent": "Give denials, timeouts, empty returns and wrong hypotheses distinct endpoint shapes. Their multiplicity explains the sparse surviving route without revealing technical requests.",
   "lettering": [
     {
       "box": [
@@ -21,7 +21,8 @@
         0.2668,
         0.2688
       ],
-      "color": "steel"
+      "color": "steel",
+      "focus": true
     },
     {
       "asset": "cross",
@@ -49,7 +50,8 @@
         0.2668,
         0.2688
       ],
-      "color": "steel"
+      "color": "steel",
+      "focus": true
     },
     {
       "asset": "clock",
@@ -77,10 +79,11 @@
         0.2668,
         0.2688
       ],
-      "color": "steel"
+      "color": "steel",
+      "focus": true
     },
     {
-      "asset": "outline-box",
+      "asset": "empty-slot",
       "box": [
         0.7024,
         0.0898,
@@ -105,14 +108,15 @@
         0.2668,
         0.2688
       ],
-      "color": "steel"
+      "color": "steel",
+      "focus": true
     },
     {
       "asset": "question",
       "box": [
-        0.16469333333333333,
+        0.174133,
         0.3906,
-        0.08181333333333334,
+        0.062933,
         0.1888
       ],
       "color": "steel",

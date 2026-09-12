@@ -1,55 +1,57 @@
 {
   "background": "ink",
-  "intent": "Block another task needs missing information. Keep the scripted evidence boundary and lettering visible.",
+  "intent": "Change target shape and budget bar while repeating the missing-input motif. Different assignments can encounter similar obstacles without becoming one continuous workload.",
   "lettering": [],
   "lettering_mode": "manual",
   "nodes": [
     {
       "asset": "sheet",
       "box": [
-        0.1001,
-        0.287,
-        0.197284,
-        0.36
+        0.06775,
+        0.2397,
+        0.239633,
+        0.344619
       ],
       "color": "steel",
       "focus": true,
       "label": "SEPARATE TARGET",
       "label_box": [
-        0.09209999999999999,
-        0.653,
-        0.21328399999999997,
-        0.085
-      ]
+        0.06775,
+        0.605205,
+        0.239633,
+        0.151423
+      ],
+      "label_size": 18
     },
     {
       "asset": "clock",
       "box": [
-        0.3667,
-        0.319037,
-        0.197284,
-        0.29592599999999997
+        0.371083,
+        0.32105,
+        0.239633,
+        0.359449
       ],
       "color": "steel",
       "focus": true
     },
     {
-      "asset": "outline-box",
+      "asset": "empty-slot",
       "box": [
-        0.6333,
-        0.287,
-        0.197284,
-        0.36
+        0.674417,
+        0.2397,
+        0.239633,
+        0.344619
       ],
       "color": "steel",
       "focus": true,
       "label": "MISSING INPUT",
       "label_box": [
-        0.6253,
-        0.653,
-        0.21328399999999997,
-        0.085
-      ]
+        0.674417,
+        0.605205,
+        0.239633,
+        0.151423
+      ],
+      "label_size": 18
     }
   ],
   "reconstructed": false,

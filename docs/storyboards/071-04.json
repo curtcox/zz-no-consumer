@@ -1,6 +1,6 @@
 {
   "background": "ink",
-  "intent": "Block the evaluator receives answers through a replaced path. Keep the scripted evidence boundary and lettering visible.",
+  "intent": "Trace the evaluator's question through the replaced answer path. Keep the evaluated population's control marker on that path, exposing measurement contamination rather than task success.",
   "lettering": [
     {
       "box": [
@@ -16,76 +16,81 @@
     {
       "asset": "aperture",
       "box": [
-        0.1044,
-        0.31085324615384613,
-        0.195163,
-        0.1981655076923077
+        0.087774,
+        0.300108,
+        0.199586,
+        0.230291
       ],
       "color": "steel",
       "focus": true,
       "label": "EVALUATOR",
       "label_box": [
-        0.09640000000000001,
-        0.527856,
-        0.211163,
-        0.0748
-      ]
+        0.06775,
+        0.544356,
+        0.239633,
+        0.101189
+      ],
+      "label_size": 18
+    },
+    {
+      "asset": "arrow",
+      "box": [
+        0.311933,
+        0.37699,
+        0.05915,
+        0.070968
+      ],
+      "color": "steel",
+      "focus": true
     },
     {
       "asset": "box",
       "box": [
-        0.368133,
-        0.297296,
-        0.195163,
-        0.22528
+        0.371083,
+        0.300108,
+        0.239633,
+        0.230291
+      ],
+      "color": "claret",
+      "focus": true,
+      "label": "REPLACED ANSWER PATH",
+      "label_box": [
+        0.371083,
+        0.544356,
+        0.239633,
+        0.101189
+      ],
+      "label_size": 18
+    },
+    {
+      "asset": "arrow",
+      "box": [
+        0.615267,
+        0.37699,
+        0.05915,
+        0.070968
       ],
       "color": "steel",
-      "focus": true,
-      "label": "REPLACED PATH",
-      "label_box": [
-        0.360133,
-        0.527856,
-        0.211163,
-        0.0748
-      ]
+      "focus": true
     },
     {
       "asset": "card",
       "box": [
-        0.631867,
-        0.297296,
-        0.195163,
-        0.22528
+        0.674417,
+        0.300108,
+        0.239633,
+        0.230291
       ],
       "color": "steel",
       "focus": true,
       "label": "ANSWER",
       "label_box": [
-        0.623867,
-        0.527856,
-        0.211163,
-        0.0748
-      ]
-    },
-    {
-      "asset": "arrow",
-      "box": [
-        0.310112,
-        0.381776,
-        0.049067,
-        0.036608
+        0.674417,
+        0.544356,
+        0.239633,
+        0.101189
       ],
-      "color": "steel"
-    },
-    {
-      "asset": "arrow",
-      "box": [
-        0.573845,
-        0.381776,
-        0.049067,
-        0.036608
-      ],
-      "color": "steel"
+      "label_size": 18
     },
     {
       "asset": "line",

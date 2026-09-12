@@ -1,7 +1,7 @@
 {
   "background": "ink",
   "border": "none",
-  "intent": "Block only the final caption remains. Keep the scripted evidence boundary and lettering visible.",
+  "intent": "Preserve absolute black with the canonical final caption as the last readable element. No signature, map, explanatory icon or additional label may follow it.",
   "lettering": [
     {
       "box": [

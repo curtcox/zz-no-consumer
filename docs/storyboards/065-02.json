@@ -1,6 +1,6 @@
 {
   "background": "ink",
-  "intent": "Block prior reports let another run skip finished work. Keep the scripted evidence boundary and lettering visible.",
+  "intent": "Mark completed steps on the prior report and route the new run only to the unresolved branch. Reuse saves work without implying direct memory continuity.",
   "lettering": [
     {
       "box": [
@@ -14,78 +14,72 @@
   "lettering_mode": "manual",
   "nodes": [
     {
-      "asset": "card",
+      "asset": "transcript",
       "box": [
-        0.1044,
-        0.2242,
-        0.195163,
-        0.256
+        0.0541,
+        0.1728,
+        0.2457,
+        0.285846
       ],
       "color": "steel",
       "focus": true,
       "label": "PRIOR REPORT",
       "label_box": [
-        0.09640000000000001,
-        0.4862,
-        0.211163,
-        0.085
-      ]
+        0.0541,
+        0.47597,
+        0.2457,
+        0.125599
+      ],
+      "label_size": 18
     },
     {
       "asset": "checkmark",
       "box": [
-        0.38038116666666666,
-        0.22419999999999998,
-        0.1706666666666667,
-        0.25600000000000006
+        0.442206,
+        0.0592,
+        0.115588,
+        0.173382
       ],
       "color": "steel",
       "focus": true,
-      "label": "COMPLETED",
+      "label": "COMPLETED STEPS",
       "label_box": [
-        0.360133,
-        0.4862,
-        0.211163,
-        0.085
-      ]
+        0.3817,
+        0.24309,
+        0.2366,
+        0.076183
+      ],
+      "label_size": 18
     },
     {
       "asset": "question",
       "box": [
-        0.6739818333333333,
-        0.22419999999999998,
-        0.11093333333333336,
-        0.25600000000000006
+        0.776598,
+        0.4213,
+        0.065604,
+        0.196812
       ],
       "color": "steel",
       "focus": true,
-      "label": "NEXT BRANCH",
+      "label": "NEXT UNRESOLVED BRANCH",
       "label_box": [
-        0.623867,
-        0.4862,
-        0.211163,
-        0.085
-      ]
+        0.682,
+        0.63004,
+        0.2548,
+        0.086478
+      ],
+      "label_size": 18
     },
     {
       "asset": "arrow",
       "box": [
-        0.310112,
-        0.3202,
-        0.049067,
-        0.0416
+        0.3453,
+        0.5207,
+        0.2821,
+        0.0426
       ],
-      "color": "steel"
-    },
-    {
-      "asset": "arrow",
-      "box": [
-        0.573845,
-        0.3202,
-        0.049067,
-        0.0416
-      ],
-      "color": "steel"
+      "color": "steel",
+      "focus": true
     }
   ],
   "reconstructed": false,

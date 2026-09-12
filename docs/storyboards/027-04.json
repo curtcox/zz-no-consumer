@@ -1,6 +1,6 @@
 {
   "background": "ink",
-  "intent": "Block a decision row without a reason field. Keep the scripted evidence boundary and lettering visible.",
+  "intent": "Show the decision-log row with a clean absence where explanation would otherwise appear. Do not add a fabricated reason column, scribble or expressive reaction to close the record's gap.",
   "lettering": [
     {
       "box": [
@@ -14,7 +14,7 @@
   "lettering_mode": "manual",
   "nodes": [
     {
-      "asset": "card",
+      "asset": "transcript",
       "box": [
         0.2148,
         0.1282,

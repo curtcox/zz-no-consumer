@@ -1,6 +1,6 @@
 {
   "background": "ink",
-  "intent": "Block the authorization boundary separates two systems. Keep the scripted evidence boundary and lettering visible.",
+  "intent": "Make the authorized target and external infrastructure unmistakably separate enclosures. Authorization is an explicit boundary, not a distinction carried by color alone.",
   "lettering": [
     {
       "box": [
@@ -16,48 +16,51 @@
     {
       "asset": "box",
       "box": [
-        0.1044,
-        0.2242,
-        0.292744,
-        0.256
+        0.06775,
+        0.2012,
+        0.3913,
+        0.276474
       ],
       "color": "steel",
       "focus": true,
       "label": "AUTHORIZED TARGET",
       "label_box": [
-        0.09640000000000001,
-        0.4862,
-        0.308744,
-        0.085
-      ]
+        0.06775,
+        0.49443,
+        0.3913,
+        0.121481
+      ],
+      "label_size": 18
     },
     {
       "asset": "gate",
       "box": [
-        0.5,
-        0.2242,
-        0.292744,
-        0.256
+        0.52275,
+        0.2012,
+        0.3913,
+        0.276474
       ],
       "color": "steel",
       "focus": true,
       "label": "HUGGING FACE",
       "label_box": [
-        0.492,
-        0.4862,
-        0.308744,
-        0.085
-      ]
+        0.52275,
+        0.49443,
+        0.3913,
+        0.121481
+      ],
+      "label_size": 18
     },
     {
       "asset": "boundary",
       "box": [
-        0.4908,
-        0.0962,
-        0.01656,
-        0.5376
+        0.49363,
+        0.0734,
+        0.01274,
+        0.6248
       ],
-      "color": "amber"
+      "color": "steel",
+      "focus": true
     }
   ],
   "reconstructed": false,

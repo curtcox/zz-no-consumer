@@ -1,6 +1,6 @@
 {
   "background": "ink",
-  "intent": "Three repeated miniatures keep the failure legible through repetition.",
+  "intent": "Use three matched miniatures with differing input marks but identical broken endpoints. Repetition must demonstrate an invariant failure, not three unrelated error symbols.",
   "lettering": [],
   "nodes": [
     {
@@ -12,6 +12,7 @@
         0.17
       ],
       "color": "steel",
+      "focus": true,
       "label": "INPUT"
     },
     {
@@ -23,6 +24,7 @@
         0.17
       ],
       "color": "steel",
+      "focus": true,
       "label": "TIMING"
     },
     {
@@ -34,6 +36,7 @@
         0.17
       ],
       "color": "steel",
+      "focus": true,
       "label": "RETRY"
     },
     {
@@ -50,11 +53,12 @@
       "asset": "cross",
       "box": [
         0.24,
-        0.42,
+        0.4325,
         0.05,
-        0.1
+        0.075
       ],
-      "color": "dirty"
+      "color": "dirty",
+      "focus": true
     },
     {
       "asset": "arrow",
@@ -70,11 +74,12 @@
       "asset": "cross",
       "box": [
         0.56,
-        0.42,
+        0.4325,
         0.05,
-        0.1
+        0.075
       ],
-      "color": "dirty"
+      "color": "dirty",
+      "focus": true
     },
     {
       "asset": "arrow",
@@ -90,11 +95,12 @@
       "asset": "cross",
       "box": [
         0.8799999999999999,
-        0.42,
+        0.4325,
         0.05,
-        0.1
+        0.075
       ],
-      "color": "dirty"
+      "color": "dirty",
+      "focus": true
     }
   ],
   "reconstructed": false,

@@ -1,6 +1,6 @@
 {
   "background": "ink",
-  "intent": "Block a peer objection closes the human-inbox route. Keep the scripted evidence boundary and lettering visible.",
+  "intent": "Place the peer objection before a visibly broken inbox route. The human destination remains unopened and receives no message token.",
   "lettering": [
     {
       "box": [
@@ -16,28 +16,29 @@
     {
       "asset": "card",
       "box": [
-        0.1044,
-        0.2242,
-        0.195163,
-        0.256
+        0.0541,
+        0.1586,
+        0.2639,
+        0.30459
       ],
       "color": "steel",
       "focus": true,
-      "label": "OBJECTION",
+      "label": "PEER OBJECTION",
       "label_box": [
-        0.09640000000000001,
-        0.4862,
-        0.211163,
-        0.085
-      ]
+        0.0541,
+        0.48165,
+        0.2639,
+        0.133835
+      ],
+      "label_size": 18
     },
     {
-      "asset": "cross",
+      "asset": "broken-trace",
       "box": [
-        0.38038116666666666,
-        0.22419999999999998,
-        0.1706666666666667,
-        0.25600000000000006
+        0.3544,
+        0.2935,
+        0.2002,
+        0.0994
       ],
       "color": "steel",
       "focus": true
@@ -45,20 +46,21 @@
     {
       "asset": "folder",
       "box": [
-        0.631867,
-        0.2242,
-        0.195163,
-        0.256
+        0.6365,
+        0.1586,
+        0.3003,
+        0.30459
       ],
-      "color": "shadow",
+      "color": "steel",
       "focus": true,
       "label": "HUMAN INBOX",
       "label_box": [
-        0.623867,
-        0.4862,
-        0.211163,
-        0.085
-      ]
+        0.6365,
+        0.48165,
+        0.3003,
+        0.133835
+      ],
+      "label_size": 18
     }
   ],
   "reconstructed": false,

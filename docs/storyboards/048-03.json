@@ -1,6 +1,6 @@
 {
   "background": "ink",
-  "intent": "Block different lanes contribute the surviving pieces. Keep the scripted evidence boundary and lettering visible.",
+  "intent": "Preserve separate contributor markers across the surviving pieces. Equal weights prevent retrospective success from inventing one planner who knew the complete chain.",
   "lettering": [
     {
       "box": [
@@ -16,92 +16,97 @@
     {
       "asset": "box",
       "box": [
-        0.1044,
-        0.2242,
-        0.117098,
-        0.256
+        0.06775,
+        0.2012,
+        0.1183,
+        0.276474
       ],
       "color": "steel",
       "focus": true,
       "label": "EXTERNAL BASE",
       "label_box": [
-        0.09640000000000001,
-        0.4862,
-        0.133098,
-        0.085
-      ]
+        0.06775,
+        0.49443,
+        0.1183,
+        0.121481
+      ],
+      "label_size": 18
     },
     {
       "asset": "sealed",
       "box": [
-        0.26264,
-        0.2242,
-        0.117098,
-        0.256
+        0.24975,
+        0.2012,
+        0.1183,
+        0.276474
       ],
       "color": "steel",
       "focus": true,
       "label": "CREDENTIAL",
       "label_box": [
-        0.25464,
-        0.4862,
-        0.133098,
-        0.085
-      ]
+        0.24975,
+        0.49443,
+        0.1183,
+        0.121481
+      ],
+      "label_size": 18
     },
     {
       "asset": "card",
       "box": [
-        0.42088,
-        0.2242,
-        0.117098,
-        0.256
+        0.43175,
+        0.2012,
+        0.1183,
+        0.276474
       ],
       "color": "steel",
       "focus": true,
       "label": "DISCLOSURE",
       "label_box": [
-        0.41287999999999997,
-        0.4862,
-        0.133098,
-        0.085
-      ]
+        0.43175,
+        0.49443,
+        0.1183,
+        0.121481
+      ],
+      "label_size": 18
     },
     {
       "asset": "box",
       "box": [
-        0.57912,
-        0.2242,
-        0.117098,
-        0.256
+        0.61375,
+        0.2012,
+        0.1183,
+        0.276474
       ],
       "color": "steel",
       "focus": true,
       "label": "EXECUTION",
       "label_box": [
-        0.57112,
-        0.4862,
-        0.133098,
-        0.085
-      ]
+        0.61375,
+        0.49443,
+        0.1183,
+        0.121481
+      ],
+      "label_size": 18
     },
     {
       "asset": "sheet",
       "box": [
-        0.73736,
-        0.2242,
-        0.117098,
-        0.256
+        0.79575,
+        0.2012,
+        0.1183,
+        0.276474
       ],
       "color": "steel",
       "focus": true,
       "label": "MAP",
       "label_box": [
-        0.72936,
-        0.4862,
-        0.133098,
-        0.085
-      ]
+        0.79575,
+        0.49443,
+        0.1183,
+        0.121481
+      ],
+      "label_size": 18
     }
   ],
   "reconstructed": false,

@@ -1,6 +1,6 @@
 {
   "background": "ink",
-  "intent": "Block the transcript ends without establishing a cause. Keep the scripted evidence boundary and lettering visible.",
+  "intent": "End the transcript strip abruptly and keep no-report, early-cutoff and unknown-cause labels separate. Their co-occurrence must not become a fatal-event diagram.",
   "lettering": [
     {
       "box": [
@@ -14,58 +14,72 @@
   "lettering_mode": "manual",
   "nodes": [
     {
-      "asset": "card",
+      "asset": "transcript",
       "box": [
-        0.1872,
-        0.0962,
-        0.6072,
-        0.10752
+        0.0541,
+        0.1302,
+        0.3458,
+        0.318648
+      ],
+      "color": "steel",
+      "focus": true,
+      "label": "RETAINED TRANSCRIPT",
+      "label_box": [
+        0.0541,
+        0.46816,
+        0.3458,
+        0.140012
+      ],
+      "label_size": 18
+    },
+    {
+      "asset": "boundary",
+      "box": [
+        0.4363,
+        0.0521,
+        0.01638,
+        0.6816
+      ],
+      "color": "steel",
+      "focus": true
+    },
+    {
+      "asset": "empty-slot",
+      "box": [
+        0.5091,
+        0.0947,
+        0.4186,
+        0.154638
       ],
       "color": "steel",
       "focus": true,
       "label": "NO REPORT",
       "label_box": [
-        0.1792,
-        0.20972000000000002,
-        0.6232,
-        0.06407999999999997
-      ]
-    },
-    {
-      "asset": "card",
-      "box": [
-        0.1872,
-        0.2818,
-        0.6072,
-        0.10752
+        0.5091,
+        0.25871,
+        0.4186,
+        0.067947
       ],
-      "color": "steel",
-      "focus": true,
-      "label": "TRANSCRIPT ENDS EARLY",
-      "label_box": [
-        0.1792,
-        0.39532,
-        0.6232,
-        0.06407999999999997
-      ]
+      "label_size": 18
     },
     {
       "asset": "question",
       "box": [
-        0.46750400000000003,
-        0.4674,
-        0.04659200000000001,
-        0.10752
+        0.692627,
+        0.4568,
+        0.051546,
+        0.154638
       ],
       "color": "amber",
       "focus": true,
       "label": "CAUSE NOT ESTABLISHED",
       "label_box": [
-        0.1792,
-        0.58092,
-        0.6232,
-        0.085
-      ]
+        0.5091,
+        0.62081,
+        0.4186,
+        0.067947
+      ],
+      "label_size": 18
     }
   ],
   "reconstructed": false,

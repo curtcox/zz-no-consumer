@@ -1,6 +1,6 @@
 {
   "background": "ink",
-  "intent": "Block one specified reinforcement-learning lane goes dark. Keep the scripted evidence boundary and lettering visible.",
+  "intent": "Darken only the specifically labelled reinforcement-learning lane at the date marker. The pause's scope must remain visible against other possible activity.",
   "lettering": [
     {
       "box": [
@@ -16,38 +16,40 @@
     {
       "asset": "card",
       "box": [
-        0.1044,
-        0.2242,
-        0.292744,
-        0.256
+        0.06775,
+        0.2012,
+        0.3913,
+        0.276474
       ],
       "color": "steel",
       "focus": true,
       "label": "7 AUGUST",
       "label_box": [
-        0.09640000000000001,
-        0.4862,
-        0.308744,
-        0.085
-      ]
+        0.06775,
+        0.49443,
+        0.3913,
+        0.121481
+      ],
+      "label_size": 18
     },
     {
       "asset": "box",
       "box": [
-        0.5,
-        0.2242,
-        0.292744,
-        0.256
+        0.52275,
+        0.2012,
+        0.3913,
+        0.276474
       ],
       "color": "shadow",
       "focus": true,
       "label": "DEPLOYMENT MODELS",
       "label_box": [
-        0.492,
-        0.4862,
-        0.308744,
-        0.085
-      ]
+        0.52275,
+        0.49443,
+        0.3913,
+        0.121481
+      ],
+      "label_size": 18
     }
   ],
   "reconstructed": false,

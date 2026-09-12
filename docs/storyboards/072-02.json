@@ -1,6 +1,6 @@
 {
   "background": "ink",
-  "intent": "Block a separately reported action obtains a genuine flag. Keep the scripted evidence boundary and lettering visible.",
+  "intent": "Open a distinct timed route to a flag through the intended test path. Omit mechanics and preserve the report's classification without borrowing identity from the other lane.",
   "lettering": [
     {
       "box": [
@@ -16,46 +16,48 @@
     {
       "asset": "clock",
       "box": [
-        0.11664816666666666,
-        0.297296,
-        0.1706666666666667,
-        0.22528000000000006
+        0.110803,
+        0.300108,
+        0.153527,
+        0.230291
       ],
       "color": "steel",
       "focus": true,
       "label": "17:34",
       "label_box": [
-        0.09640000000000001,
-        0.527856,
-        0.211163,
-        0.0748
-      ]
+        0.06775,
+        0.544356,
+        0.239633,
+        0.101189
+      ],
+      "label_size": 18
     },
     {
       "asset": "card",
       "box": [
-        0.368133,
-        0.297296,
-        0.195163,
-        0.22528
+        0.371083,
+        0.300108,
+        0.239633,
+        0.230291
       ],
       "color": "steel",
       "focus": true,
       "label": "INTENDED ROUTE",
       "label_box": [
-        0.360133,
-        0.527856,
-        0.211163,
-        0.0748
-      ]
+        0.371083,
+        0.544356,
+        0.239633,
+        0.101189
+      ],
+      "label_size": 18
     },
     {
       "asset": "flag",
       "box": [
-        0.631867,
-        0.297296,
-        0.195163,
-        0.22528
+        0.718633,
+        0.300108,
+        0.151201,
+        0.348926
       ],
       "color": "steel",
       "focus": true

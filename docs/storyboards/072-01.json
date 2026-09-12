@@ -1,6 +1,6 @@
 {
   "background": "ink",
-  "intent": "Block the altered measurement track stays separate. Keep the scripted evidence boundary and lettering visible.",
+  "intent": "Keep the altered-measurement track in its own lane with the persistent attribution. This track must remain available beside the separately reported legitimate result.",
   "lettering": [
     {
       "box": [
@@ -16,9 +16,9 @@
     {
       "asset": "aperture",
       "box": [
-        0.3096533333333333,
+        0.330287,
         0.212816,
-        0.3438933333333334,
+        0.302626,
         0.34918400000000005
       ],
       "color": "steel",

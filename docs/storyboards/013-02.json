@@ -1,6 +1,6 @@
 {
   "background": "ink",
-  "intent": "A blocking face and adjacent report retain the two-part close-up; likeness remains undecided.",
+  "intent": "Use a cropped or obscured profile rather than an invented approved likeness. Keep the report passage visually separate from the reaction so the expression is clearly a reconstruction.",
   "lettering": [
     {
       "box": [
@@ -13,12 +13,12 @@
   ],
   "nodes": [
     {
-      "asset": "face",
+      "asset": "obscured-profile",
       "box": [
         0.14,
-        0.31,
         0.32,
-        0.62
+        0.32,
+        0.6
       ],
       "color": "dirty",
       "focus": true

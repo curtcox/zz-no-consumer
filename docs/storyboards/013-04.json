@@ -1,6 +1,6 @@
 {
   "background": "ink",
-  "intent": "The source remains beside an empty text field. ChatGPT receives no body or face.",
+  "intent": "Contrast the dense source window with an empty conversation field and one cursor. The model is an interface beside evidence, and the newly initiated project is the only action.",
   "lettering": [
     {
       "box": [
@@ -42,7 +42,8 @@
         0.41,
         0.12
       ],
-      "color": "nicotine"
+      "color": "nicotine",
+      "focus": true
     }
   ],
   "reconstructed": true,

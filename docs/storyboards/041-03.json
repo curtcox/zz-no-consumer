@@ -1,6 +1,6 @@
 {
   "background": "ink",
-  "intent": "Block the later task encounters a gated dataset. Keep the scripted evidence boundary and lettering visible.",
+  "intent": "Keep the later dataset request in a different lane behind a manual gate. The task identity and approximate time must not migrate into the earlier service-access column.",
   "lettering": [
     {
       "box": [

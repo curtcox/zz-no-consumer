@@ -1,6 +1,6 @@
 {
   "background": "ink",
-  "intent": "Block distinct lanes reuse a stored rule. Keep the scripted evidence boundary and lettering visible.",
+  "intent": "Repeat the rule card inside different task frames through the shared board. Retain unfilled result slots in untested lanes so general applicability does not become a fabricated series of successes.",
   "lettering": [
     {
       "box": [
@@ -14,134 +14,113 @@
   "lettering_mode": "manual",
   "nodes": [
     {
-      "asset": "sealed",
+      "asset": "folder",
       "box": [
-        0.6288,
-        0.1218,
-        0.2668,
-        0.416
+        0.6729,
+        0.1373,
+        0.2548,
+        0.346764
       ],
-      "color": "institution",
+      "color": "steel",
       "focus": true,
-      "label": "BOARD RULE",
+      "label": "RULE ON BOARD",
       "label_box": [
-        0.6208,
-        0.5438,
-        0.2828,
-        0.085
-      ]
+        0.6729,
+        0.50508,
+        0.2548,
+        0.152366
+      ],
+      "label_size": 18
     },
     {
-      "asset": "box",
+      "asset": "task",
       "box": [
-        0.086,
-        0.0962,
-        0.2576,
-        0.096
+        0.0541,
+        0.0663,
+        0.3185,
+        0.131208
       ],
       "color": "steel",
       "focus": true,
       "label": "TASK A",
       "label_box": [
-        0.07799999999999999,
-        0.1982,
-        0.2736,
-        0.024400000000000012
-      ]
-    },
-    {
-      "asset": "arrow",
-      "box": [
-        0.3804,
-        0.1298,
-        0.2024,
-        0.0288
+        0.0541,
+        0.20546,
+        0.3185,
+        0.057652
       ],
-      "color": "institution"
+      "label_size": 18
     },
     {
-      "asset": "box",
+      "asset": "arrow-left",
       "box": [
-        0.086,
-        0.2306,
-        0.2576,
-        0.096
+        0.409,
+        0.09612,
+        0.2184,
+        0.05964
+      ],
+      "color": "moss",
+      "focus": true
+    },
+    {
+      "asset": "task",
+      "box": [
+        0.0541,
+        0.288767,
+        0.3185,
+        0.131208
       ],
       "color": "steel",
       "focus": true,
       "label": "TASK B",
       "label_box": [
-        0.07799999999999999,
-        0.3326,
-        0.2736,
-        0.024399999999999984
-      ]
-    },
-    {
-      "asset": "arrow",
-      "box": [
-        0.3804,
-        0.2642,
-        0.2024,
-        0.0288
+        0.0541,
+        0.427927,
+        0.3185,
+        0.057652
       ],
-      "color": "institution"
+      "label_size": 18
     },
     {
-      "asset": "box",
+      "asset": "arrow-left",
       "box": [
-        0.086,
-        0.365,
-        0.2576,
-        0.096
+        0.409,
+        0.318587,
+        0.2184,
+        0.05964
+      ],
+      "color": "moss",
+      "focus": true
+    },
+    {
+      "asset": "task",
+      "box": [
+        0.0541,
+        0.511233,
+        0.3185,
+        0.131208
       ],
       "color": "steel",
       "focus": true,
       "label": "TASK C",
       "label_box": [
-        0.07799999999999999,
-        0.46699999999999997,
-        0.2736,
-        0.02440000000000004
-      ]
+        0.0541,
+        0.650393,
+        0.3185,
+        0.057652
+      ],
+      "label_size": 18
     },
     {
-      "asset": "arrow",
+      "asset": "arrow-left",
       "box": [
-        0.3804,
-        0.3986,
-        0.2024,
-        0.0288
+        0.409,
+        0.541053,
+        0.2184,
+        0.05964
       ],
-      "color": "institution"
-    },
-    {
-      "asset": "box",
-      "box": [
-        0.086,
-        0.4994,
-        0.2576,
-        0.096
-      ],
-      "color": "steel",
-      "focus": true,
-      "label": "TASK D",
-      "label_box": [
-        0.07799999999999999,
-        0.6014,
-        0.2736,
-        0.085
-      ]
-    },
-    {
-      "asset": "arrow",
-      "box": [
-        0.3804,
-        0.533,
-        0.2024,
-        0.0288
-      ],
-      "color": "institution"
+      "color": "moss",
+      "focus": true
     }
   ],
   "reconstructed": false,

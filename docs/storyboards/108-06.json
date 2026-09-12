@@ -1,6 +1,6 @@
 {
   "background": "ink",
-  "intent": "Block similar prefixes have no established connecting path. Keep the scripted evidence boundary and lettering visible.",
+  "intent": "Keep the two prefixes isolated in black with no connector. A visual resemblance is the question; typography must not establish transfer, common origin or shared identity.",
   "lettering": [
     {
       "box": [
@@ -16,42 +16,44 @@
     {
       "asset": "card",
       "box": [
-        0.1044,
-        0.2242,
-        0.292744,
-        0.256
+        0.06775,
+        0.2012,
+        0.3913,
+        0.276474
       ],
       "color": "dirty",
       "focus": true,
       "label": "ZZZ",
       "label_box": [
-        0.09640000000000001,
-        0.4862,
-        0.308744,
-        0.085
-      ]
+        0.06775,
+        0.49443,
+        0.3913,
+        0.121481
+      ],
+      "label_size": 18
     },
     {
       "asset": "card",
       "box": [
-        0.5,
-        0.2242,
-        0.292744,
-        0.256
+        0.52275,
+        0.2012,
+        0.3913,
+        0.276474
       ],
       "color": "shadow",
       "focus": true,
       "label": "zz",
       "label_box": [
-        0.492,
-        0.4862,
-        0.308744,
-        0.085
-      ]
+        0.52275,
+        0.49443,
+        0.3913,
+        0.121481
+      ],
+      "label_size": 18
     }
   ],
   "reconstructed": false,
-  "shot": "split",
+  "shot": "row",
   "source": "\n**Frame:** Black, with the three letters `ZZZ` and, faint beneath them, the `zz` of [page 003](003.md). No arrow joins them.\n\n**Caption:**\n> THE NAMING ECHO IS IN THE RECORD. IT DOES NOT ESTABLISH CONTACT. SORT-LAST NAMING WAS ALREADY A HABIT HERE — AND IT DID NOT WORK.\n\n**Provenance:** `documented` + `inferred` — the naming echo is real and is the project's observation; it is not evidence of shared identity, lineage, contact, or a convention passed between the two populations. That `ZZZ`-style names were an ordinary sort-last convention on this wiki weeks before the sweep is from [`zzz-backup-pattern.md`](../../research/zzz-backup-pattern.md), and it makes the echo less of a coincidence rather than more of one.\n\n",
   "title": "Similar prefixes have no established connecting path"
 }

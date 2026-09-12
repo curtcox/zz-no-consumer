@@ -1,6 +1,6 @@
 {
   "background": "ink",
-  "intent": "Block silence stays observed while ranking labels are qualified. Keep the scripted evidence boundary and lettering visible. Existing source-derived wording is a visibly labelled paraphrase; quotation disposition remains open.",
+  "intent": "Keep observed silence bright while dimming the model-derived ranking terms. The reopened dated critique stays text; the correction changes confidence in labels, not the existence of the silent lanes.",
   "lettering": [
     {
       "box": [
@@ -32,56 +32,59 @@
     {
       "asset": "card",
       "box": [
-        0.07,
-        0.2936,
-        0.106067,
-        0.348
+        0.05775,
+        0.2397,
+        0.1343,
+        0.344619
       ],
       "color": "steel",
       "focus": true,
       "label": "LANES WENT SILENT",
       "label_box": [
-        0.062000000000000006,
-        0.6476,
-        0.122067,
-        0.085
-      ]
+        0.05775,
+        0.605205,
+        0.1343,
+        0.151423
+      ],
+      "label_size": 18
     },
     {
       "asset": "card",
       "box": [
-        0.213333,
-        0.2936,
-        0.106067,
-        0.348
+        0.22775,
+        0.2397,
+        0.1343,
+        0.344619
       ],
       "color": "shadow",
       "focus": true,
       "label": "MODEL RANKING",
       "label_box": [
-        0.205333,
-        0.6476,
-        0.122067,
-        0.085
-      ]
+        0.22775,
+        0.605205,
+        0.1343,
+        0.151423
+      ],
+      "label_size": 18
     },
     {
       "asset": "monitor",
       "box": [
-        0.356667,
-        0.2936,
-        0.106067,
-        0.348
+        0.39775,
+        0.2397,
+        0.1343,
+        0.344619
       ],
       "color": "steel",
       "focus": true,
       "label": "DATED CRITIQUE",
       "label_box": [
-        0.348667,
-        0.6476,
-        0.122067,
-        0.085
-      ]
+        0.39775,
+        0.605205,
+        0.1343,
+        0.151423
+      ],
+      "label_size": 18
     }
   ],
   "reconstructed": false,

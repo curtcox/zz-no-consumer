@@ -1,22 +1,24 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="800" viewBox="0 0 1200 800"><title>The assistant interface sits beside continuity results</title><metadata>{
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="800" viewBox="0 0 1200 800"><title>The assistant interface sits beside continuity results</title><desc>Separate the plain assistant interface from the continuity-check result. Structural green checks must not imply factual certainty or completion of every editorial gate.</desc><metadata>{
   &quot;assets&quot;: {
     &quot;blank-monitor&quot;: &quot;&lt;path d=\&quot;M43 78V94H26V98H74V94H57V78\&quot; fill=\&quot;currentColor\&quot;/&gt;&lt;rect x=\&quot;1\&quot; y=\&quot;1\&quot; width=\&quot;98\&quot; height=\&quot;78\&quot; rx=\&quot;3\&quot; fill=\&quot;#101214\&quot; stroke=\&quot;currentColor\&quot; stroke-width=\&quot;3\&quot;/&gt;&lt;path d=\&quot;M10 60h80M12 51v6\&quot; stroke=\&quot;currentColor\&quot; stroke-width=\&quot;1\&quot;/&gt;&quot;,
     &quot;checkmark&quot;: &quot;&lt;path d=\&quot;M8 51L37 82L94 12\&quot; fill=\&quot;none\&quot; stroke=\&quot;currentColor\&quot; stroke-width=\&quot;8\&quot;/&gt;&quot;
   },
   &quot;palette&quot;: {
     &quot;amber&quot;: &quot;#A17D45&quot;,
+    &quot;claret&quot;: &quot;#6B2634&quot;,
     &quot;dirty&quot;: &quot;#CEC5B3&quot;,
     &quot;ink&quot;: &quot;#101214&quot;,
     &quot;institution&quot;: &quot;#68766B&quot;,
+    &quot;moss&quot;: &quot;#74864F&quot;,
     &quot;nicotine&quot;: &quot;#AA9571&quot;,
     &quot;paper&quot;: &quot;#E7E0D0&quot;,
     &quot;shadow&quot;: &quot;#202326&quot;,
     &quot;steel&quot;: &quot;#5E737B&quot;
   },
-  &quot;renderer&quot;: &quot;storyboard-svg-1&quot;,
+  &quot;renderer&quot;: &quot;storyboard-svg-2&quot;,
   &quot;scene&quot;: {
     &quot;background&quot;: &quot;ink&quot;,
-    &quot;intent&quot;: &quot;Block the assistant interface sits beside continuity results. Keep the scripted evidence boundary and lettering visible.&quot;,
+    &quot;intent&quot;: &quot;Separate the plain assistant interface from the continuity-check result. Structural green checks must not imply factual certainty or completion of every editorial gate.&quot;,
     &quot;lettering&quot;: [
       {
         &quot;box&quot;: [
@@ -32,38 +34,40 @@
       {
         &quot;asset&quot;: &quot;blank-monitor&quot;,
         &quot;box&quot;: [
-          0.1044,
-          0.2242,
-          0.292744,
-          0.256
+          0.06775,
+          0.2012,
+          0.3913,
+          0.276474
         ],
         &quot;color&quot;: &quot;steel&quot;,
         &quot;focus&quot;: true,
         &quot;label&quot;: &quot;CHATGPT&quot;,
         &quot;label_box&quot;: [
-          0.09640000000000001,
-          0.4862,
-          0.308744,
-          0.085
-        ]
+          0.06775,
+          0.49443,
+          0.3913,
+          0.121481
+        ],
+        &quot;label_size&quot;: 18
       },
       {
         &quot;asset&quot;: &quot;checkmark&quot;,
         &quot;box&quot;: [
-          0.5610386666666667,
-          0.22419999999999998,
-          0.1706666666666667,
-          0.25600000000000006
+          0.626242,
+          0.2012,
+          0.184316,
+          0.276474
         ],
         &quot;color&quot;: &quot;steel&quot;,
         &quot;focus&quot;: true,
         &quot;label&quot;: &quot;CONTINUITY&quot;,
         &quot;label_box&quot;: [
-          0.492,
-          0.4862,
-          0.308744,
-          0.085
-        ]
+          0.52275,
+          0.49443,
+          0.3913,
+          0.121481
+        ],
+        &quot;label_size&quot;: 18
       }
     ],
     &quot;reconstructed&quot;: false,
@@ -72,4 +76,4 @@
     &quot;title&quot;: &quot;The assistant interface sits beside continuity results&quot;
   }
 }
-</metadata><rect width="1200" height="800" fill="#101214"/><rect x="125.28" y="179.36" width="351.293" height="204.8" fill="none" stroke="#5E737B" stroke-width="3"/><text x="133.28" y="203.36" fill="#5E737B" font-family="sans-serif" font-size="20">blank-monitor</text><text x="300.926" y="408.96" text-anchor="middle" fill="#E7E0D0" font-size="20" font-family="sans-serif">CHATGPT</text><rect x="673.246" y="179.36" width="204.8" height="204.8" fill="none" stroke="#5E737B" stroke-width="3"/><text x="681.246" y="203.36" fill="#5E737B" font-family="sans-serif" font-size="20">checkmark</text><text x="775.646" y="408.96" text-anchor="middle" fill="#E7E0D0" font-size="20" font-family="sans-serif">CONTINUITY</text><rect x="3" y="3" width="1194" height="794" fill="none" stroke="#5E737B" stroke-width="4"/></svg>
+</metadata><rect width="1200" height="800" fill="#101214"/><rect x="81.3" y="160.96" width="469.56" height="221.179" fill="none" stroke="#5E737B" stroke-width="3"/><text x="89.3" y="184.96" fill="#5E737B" font-family="sans-serif" font-size="20">blank-monitor</text><text x="316.08" y="413.544" text-anchor="middle" fill="#E7E0D0" font-size="18" font-family="sans-serif">CHATGPT</text><rect x="751.49" y="160.96" width="221.179" height="221.179" fill="none" stroke="#5E737B" stroke-width="3"/><text x="759.49" y="184.96" fill="#5E737B" font-family="sans-serif" font-size="20">checkmark</text><text x="862.08" y="413.544" text-anchor="middle" fill="#E7E0D0" font-size="18" font-family="sans-serif">CONTINUITY</text><rect x="3" y="3" width="1194" height="794" fill="none" stroke="#5E737B" stroke-width="4"/></svg>

@@ -1,6 +1,6 @@
 {
   "background": "ink",
-  "intent": "Block the archive is sealed only at collection. Keep the scripted evidence boundary and lettering visible.",
+  "intent": "Attach the seal only at collection and let a dotted possible-access route touch the earlier archive. No altered page or deletion mark may invent a successful change.",
   "lettering": [
     {
       "box": [
@@ -16,56 +16,59 @@
     {
       "asset": "dotted-line",
       "box": [
-        0.1044,
-        0.2242,
-        0.195163,
-        0.256
+        0.0632,
+        0.1018,
+        0.3367,
+        0.159324
       ],
       "color": "amber",
       "focus": true,
-      "label": "POSSIBLE ACCESS",
+      "label": "POSSIBLE PRE-COLLECTION ACCESS",
       "label_box": [
-        0.09640000000000001,
-        0.4862,
-        0.211163,
-        0.085
-      ]
+        0.0632,
+        0.27078,
+        0.3367,
+        0.070006
+      ],
+      "label_size": 18
     },
     {
       "asset": "folder",
       "box": [
-        0.368133,
-        0.2242,
-        0.195163,
-        0.256
+        0.4363,
+        0.1373,
+        0.2457,
+        0.30459
       ],
       "color": "steel",
       "focus": true,
       "label": "ARCHIVE",
       "label_box": [
-        0.360133,
-        0.4862,
-        0.211163,
-        0.085
-      ]
+        0.4363,
+        0.46035,
+        0.2457,
+        0.133835
+      ],
+      "label_size": 18
     },
     {
       "asset": "sealed",
       "box": [
-        0.631867,
-        0.2242,
-        0.195163,
-        0.256
+        0.7457,
+        0.1373,
+        0.2002,
+        0.30459
       ],
       "color": "steel",
       "focus": true,
-      "label": "COLLECTION SEAL",
+      "label": "SEALED AT COLLECTION",
       "label_box": [
-        0.623867,
-        0.4862,
-        0.211163,
-        0.085
-      ]
+        0.7457,
+        0.46035,
+        0.2002,
+        0.133835
+      ],
+      "label_size": 18
     }
   ],
   "reconstructed": false,

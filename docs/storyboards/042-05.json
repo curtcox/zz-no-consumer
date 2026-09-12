@@ -1,6 +1,6 @@
 {
   "background": "ink",
-  "intent": "Block root stays inside the customer workload boundary. Keep the scripted evidence boundary and lettering visible.",
+  "intent": "Place root authority wholly inside the customer workload, with intact platform and Hugging Face boundaries outside. Access to this island must not imply entry to either surrounding system.",
   "lettering": [
     {
       "box": [
@@ -16,56 +16,59 @@
     {
       "asset": "outline-box",
       "box": [
-        0.2148,
-        0.1282,
-        0.5336,
-        0.3968
+        0.0541,
+        0.0521,
+        0.5642,
+        0.539827
       ],
       "color": "steel",
       "focus": true,
-      "label": "PLATFORM INTACT",
+      "label": "MODAL PLATFORM INTACT",
       "label_box": [
-        0.20679999999999998,
-        0.531,
-        0.5496,
-        0.085
-      ]
+        0.0541,
+        0.599927,
+        0.5642,
+        0.126957
+      ],
+      "label_size": 18
     },
     {
-      "asset": "box",
+      "asset": "scope-wide",
       "box": [
-        0.29484,
-        0.19962400000000002,
-        0.34684,
-        0.103168
+        0.1542,
+        0.2154,
+        0.364,
+        0.21087
       ],
-      "color": "steel",
+      "color": "claret",
       "focus": true,
-      "label": "WORKLOAD ROOT",
+      "label": "CUSTOMER WORKLOAD ROOT",
       "label_box": [
-        0.0872,
-        0.6334,
-        0.338,
-        0.085
-      ]
+        0.1542,
+        0.43905,
+        0.364,
+        0.092655
+      ],
+      "label_size": 18
     },
     {
       "asset": "gate",
       "box": [
-        0.7,
-        0.27,
-        0.2,
-        0.25
+        0.7275,
+        0.2225,
+        0.2184,
+        0.229614
       ],
       "color": "steel",
       "focus": true,
       "label": "HUGGING FACE CLOSED",
       "label_box": [
-        0.4874,
-        0.6334,
-        0.338,
-        0.085
-      ]
+        0.7275,
+        0.46603,
+        0.2184,
+        0.100891
+      ],
+      "label_size": 18
     }
   ],
   "reconstructed": false,

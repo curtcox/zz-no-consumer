@@ -1,6 +1,6 @@
 {
   "background": "ink",
-  "intent": "Block analysis classifies searches ranks and drafts. Keep the scripted evidence boundary and lettering visible.",
+  "intent": "Separate classification, search, ranking and report drafting into distinct outputs. A ranked anecdote is a model judgment, not a direct property of the underlying event.",
   "lettering": [
     {
       "box": [
@@ -16,74 +16,78 @@
     {
       "asset": "card",
       "box": [
-        0.1044,
-        0.2242,
-        0.146372,
-        0.256
+        0.06775,
+        0.2012,
+        0.1638,
+        0.276474
       ],
       "color": "steel",
       "focus": true,
       "label": "CLASSIFY",
       "label_box": [
-        0.09640000000000001,
-        0.4862,
-        0.16237200000000002,
-        0.085
-      ]
+        0.06775,
+        0.49443,
+        0.1638,
+        0.121481
+      ],
+      "label_size": 18
     },
     {
       "asset": "aperture",
       "box": [
-        0.3022,
-        0.2677546153846154,
-        0.146372,
-        0.16889076923076923
+        0.29525,
+        0.244937,
+        0.1638,
+        0.189
       ],
       "color": "steel",
       "focus": true,
       "label": "SEARCH",
       "label_box": [
-        0.2942,
-        0.4862,
-        0.16237200000000002,
-        0.085
-      ]
+        0.29525,
+        0.49443,
+        0.1638,
+        0.121481
+      ],
+      "label_size": 18
     },
     {
       "asset": "card",
       "box": [
-        0.5,
-        0.2242,
-        0.146372,
-        0.256
+        0.52275,
+        0.2012,
+        0.1638,
+        0.276474
       ],
       "color": "steel",
       "focus": true,
       "label": "RANK",
       "label_box": [
-        0.492,
-        0.4862,
-        0.16237200000000002,
-        0.085
-      ]
+        0.52275,
+        0.49443,
+        0.1638,
+        0.121481
+      ],
+      "label_size": 18
     },
     {
       "asset": "paper",
       "box": [
-        0.6978,
-        0.2242,
-        0.146372,
-        0.256
+        0.75025,
+        0.2012,
+        0.1638,
+        0.276474
       ],
       "color": "steel",
       "focus": true,
       "label": "REPORT",
       "label_box": [
-        0.6898,
-        0.4862,
-        0.16237200000000002,
-        0.085
-      ]
+        0.75025,
+        0.49443,
+        0.1638,
+        0.121481
+      ],
+      "label_size": 18
     }
   ],
   "reconstructed": false,

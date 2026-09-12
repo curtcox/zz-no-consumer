@@ -1,6 +1,6 @@
 {
   "background": "ink",
-  "intent": "Three separately labeled cards lie on the table between standing functional responders; nobody occupies its center.",
+  "intent": "Give the three evidence cards equal space on the shared table, with responders around rather than above them. Collective comparison must remain distinct from a heroic investigator reveal.",
   "lettering": [
     {
       "box": [
@@ -36,26 +36,28 @@
     {
       "asset": "person-standing",
       "box": [
-        0.09933333333333332,
+        0.121733,
         0.20499999999999996,
-        0.19413333333333335,
+        0.149333,
         0.44800000000000006
       ],
-      "color": "dirty"
+      "color": "dirty",
+      "focus": true
     },
     {
       "asset": "person-standing",
       "box": [
-        0.7249333333333333,
+        0.747333,
         0.20499999999999996,
-        0.19413333333333335,
+        0.149333,
         0.44800000000000006
       ],
       "color": "dirty",
-      "flip": true
+      "flip": true,
+      "focus": true
     },
     {
-      "asset": "card",
+      "asset": "task",
       "box": [
         0.1044,
         0.49,

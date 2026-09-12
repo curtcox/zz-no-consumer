@@ -1,6 +1,6 @@
 {
   "background": "ink",
-  "intent": "Block replay flags do not appear in the original incident. Keep the scripted evidence boundary and lettering visible.",
+  "intent": "Place review flags only in replay lanes, leaving the original incident unflagged. Retrospective detection must not be drawn as protection that operated then.",
   "lettering": [
     {
       "box": [
@@ -14,50 +14,61 @@
   "lettering_mode": "manual",
   "nodes": [
     {
-      "asset": "flag",
-      "box": [
-        0.1044,
-        0.2242,
-        0.292744,
-        0.256
-      ],
-      "color": "steel",
-      "focus": true,
-      "label": "REPLAY FLAGS",
-      "label_box": [
-        0.09640000000000001,
-        0.4862,
-        0.308744,
-        0.085
-      ]
-    },
-    {
       "asset": "outline-box",
       "box": [
-        0.5,
-        0.2242,
-        0.292744,
-        0.256
+        0.0541,
+        0.1018,
+        0.364,
+        0.39831
       ],
       "color": "steel",
       "focus": true,
       "label": "ORIGINAL INCIDENT",
       "label_box": [
-        0.492,
-        0.4862,
-        0.308744,
-        0.085
-      ]
+        0.0541,
+        0.52425,
+        0.364,
+        0.175015
+      ],
+      "label_size": 18
     },
     {
-      "asset": "boundary",
+      "asset": "outline-box",
       "box": [
-        0.4908,
-        0.0962,
-        0.01656,
-        0.5376
+        0.5819,
+        0.1018,
+        0.364,
+        0.39831
       ],
-      "color": "amber"
+      "color": "steel",
+      "focus": true,
+      "label": "REPLAY",
+      "label_box": [
+        0.5819,
+        0.52425,
+        0.364,
+        0.175015
+      ],
+      "label_size": 18
+    },
+    {
+      "asset": "flag",
+      "box": [
+        0.724303,
+        0.2225,
+        0.079193,
+        0.182754
+      ],
+      "color": "steel",
+      "focus": true,
+      "label": "REVIEW FLAGS",
+      "label_box": [
+        0.6638,
+        0.41633,
+        0.2002,
+        0.080301
+      ],
+      "label_size": 18
     }
   ],
   "reconstructed": false,

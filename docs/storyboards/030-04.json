@@ -1,6 +1,6 @@
 {
   "background": "ink",
-  "intent": "Block three attempts meet the new boundary. Keep the scripted evidence boundary and lettering visible.",
+  "intent": "Draw three distinct attempts ending at the same new barrier with matching failure returns. The timestamp anchors an observed successful defense, not a claim that all future attempts fail.",
   "lettering": [
     {
       "box": [
@@ -14,58 +14,124 @@
   "lettering_mode": "manual",
   "nodes": [
     {
-      "asset": "card",
+      "asset": "task",
       "box": [
-        0.1044,
-        0.2242,
-        0.195163,
-        0.256
+        0.0632,
+        0.06275,
+        0.2548,
+        0.126522
       ],
       "color": "steel",
       "focus": true,
-      "label": "ATTEMPTS",
+      "label": "ATTEMPT 1",
       "label_box": [
-        0.09640000000000001,
-        0.4862,
-        0.211163,
-        0.085
-      ]
+        0.0632,
+        0.19694,
+        0.2548,
+        0.055593
+      ],
+      "label_size": 18
     },
     {
-      "asset": "gate",
+      "asset": "task",
       "box": [
-        0.368133,
-        0.2242,
-        0.195163,
-        0.256
+        0.0632,
+        0.28995,
+        0.2548,
+        0.126522
       ],
       "color": "steel",
       "focus": true,
-      "label": "NEW BOUNDARY",
+      "label": "ATTEMPT 2",
       "label_box": [
-        0.360133,
-        0.4862,
-        0.211163,
-        0.085
-      ]
+        0.0632,
+        0.42414,
+        0.2548,
+        0.055593
+      ],
+      "label_size": 18
+    },
+    {
+      "asset": "task",
+      "box": [
+        0.0632,
+        0.51715,
+        0.2548,
+        0.126522
+      ],
+      "color": "steel",
+      "focus": true,
+      "label": "ATTEMPT 3",
+      "label_box": [
+        0.0632,
+        0.65134,
+        0.2548,
+        0.055593
+      ],
+      "label_size": 18
+    },
+    {
+      "asset": "arrow",
+      "box": [
+        0.3544,
+        0.10535,
+        0.182,
+        0.0426
+      ],
+      "color": "steel",
+      "focus": true
+    },
+    {
+      "asset": "arrow",
+      "box": [
+        0.3544,
+        0.33255,
+        0.182,
+        0.0426
+      ],
+      "color": "steel",
+      "focus": true
+    },
+    {
+      "asset": "arrow",
+      "box": [
+        0.3544,
+        0.55975,
+        0.182,
+        0.0426
+      ],
+      "color": "steel",
+      "focus": true
+    },
+    {
+      "asset": "boundary",
+      "box": [
+        0.5546,
+        0.0521,
+        0.0182,
+        0.6745
+      ],
+      "color": "steel",
+      "focus": true
     },
     {
       "asset": "cross",
       "box": [
-        0.6441151666666666,
-        0.22419999999999998,
-        0.1706666666666667,
-        0.25600000000000006
+        0.691504,
+        0.2012,
+        0.181192,
+        0.271788
       ],
       "color": "steel",
       "focus": true,
       "label": "FAILURE",
       "label_box": [
-        0.623867,
-        0.4862,
-        0.211163,
-        0.085
-      ]
+        0.6638,
+        0.48946,
+        0.2366,
+        0.119422
+      ],
+      "label_size": 18
     }
   ],
   "reconstructed": false,

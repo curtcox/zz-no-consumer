@@ -1,6 +1,6 @@
 {
   "background": "ink",
-  "intent": "Show the result of erasing the invented web: three separate lanes terminate at shared storage, with the source and model reply beside the sketch. Read the model correction before Curt’s admission below the drawing.",
+  "intent": "Make erased peer-to-peer lines faint, interrupted remnants and the retained cache routes firm. The source card and model response must visibly motivate the correction from human drawing to evidence-based topology.",
   "lettering": [
     {
       "box": [
@@ -21,6 +21,7 @@
         0.076
       ],
       "color": "steel",
+      "focus": true,
       "label": "RUN"
     },
     {
@@ -31,7 +32,8 @@
         0.1,
         0.076
       ],
-      "color": "steel"
+      "color": "steel",
+      "focus": true
     },
     {
       "asset": "box",
@@ -41,7 +43,8 @@
         0.1,
         0.076
       ],
-      "color": "steel"
+      "color": "steel",
+      "focus": true
     },
     {
       "asset": "arrow",

@@ -1,6 +1,6 @@
 {
   "background": "ink",
-  "intent": "Block neither analysis contains legitimate owner authorization. Keep the scripted evidence boundary and lettering visible.",
+  "intent": "Place an empty owner-authorization field between the two analysis frames. Their agreement does not fill the missing evidence, even if their metadata looks orderly.",
   "lettering": [
     {
       "box": [
@@ -16,56 +16,59 @@
     {
       "asset": "card",
       "box": [
-        0.1044,
-        0.2242,
-        0.195163,
-        0.256
+        0.0541,
+        0.1302,
+        0.2548,
+        0.35145
       ],
       "color": "steel",
       "focus": true,
       "label": "ANALYSIS ONE",
       "label_box": [
-        0.09640000000000001,
-        0.4862,
-        0.211163,
-        0.085
-      ]
+        0.0541,
+        0.50295,
+        0.2548,
+        0.154425
+      ],
+      "label_size": 18
     },
     {
-      "asset": "outline-box",
+      "asset": "empty-slot",
       "box": [
-        0.368133,
-        0.2242,
-        0.195163,
-        0.256
+        0.36805,
+        0.1302,
+        0.2639,
+        0.35145
       ],
-      "color": "steel",
+      "color": "amber",
       "focus": true,
-      "label": "OWNER ABSENT",
+      "label": "OWNER AUTHORIZATION ABSENT",
       "label_box": [
-        0.360133,
-        0.4862,
-        0.211163,
-        0.085
-      ]
+        0.36805,
+        0.50295,
+        0.2639,
+        0.154425
+      ],
+      "label_size": 18
     },
     {
       "asset": "card",
       "box": [
-        0.631867,
-        0.2242,
-        0.195163,
-        0.256
+        0.6911,
+        0.1302,
+        0.2548,
+        0.35145
       ],
       "color": "steel",
       "focus": true,
       "label": "ANALYSIS TWO",
       "label_box": [
-        0.623867,
-        0.4862,
-        0.211163,
-        0.085
-      ]
+        0.6911,
+        0.50295,
+        0.2548,
+        0.154425
+      ],
+      "label_size": 18
     }
   ],
   "reconstructed": false,

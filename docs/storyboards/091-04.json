@@ -1,6 +1,6 @@
 {
   "background": "ink",
-  "intent": "Block critical severity and unusual token origins gain alerts. Keep the scripted evidence boundary and lettering visible.",
+  "intent": "Add a critical escalation route and a distinct unexpected-origin detector. New controls should address the earlier failure modes rather than resemble generic security decoration.",
   "lettering": [
     {
       "box": [
@@ -16,56 +16,59 @@
     {
       "asset": "aperture",
       "box": [
-        0.1044,
-        0.23960596153846153,
-        0.195163,
-        0.22518807692307694
+        0.067761,
+        0.2012,
+        0.239611,
+        0.276474
       ],
       "color": "steel",
       "focus": true,
       "label": "DETECTION",
       "label_box": [
-        0.09640000000000001,
-        0.4862,
-        0.211163,
-        0.085
-      ]
+        0.06775,
+        0.49443,
+        0.239633,
+        0.121481
+      ],
+      "label_size": 18
     },
     {
       "asset": "card",
       "box": [
-        0.368133,
-        0.2242,
-        0.195163,
-        0.256
+        0.371083,
+        0.2012,
+        0.239633,
+        0.276474
       ],
       "color": "steel",
       "focus": true,
       "label": "CRITICALITY",
       "label_box": [
-        0.360133,
-        0.4862,
-        0.211163,
-        0.085
-      ]
+        0.371083,
+        0.49443,
+        0.239633,
+        0.121481
+      ],
+      "label_size": 18
     },
     {
       "asset": "sealed",
       "box": [
-        0.631867,
-        0.2242,
-        0.195163,
-        0.256
+        0.674417,
+        0.2012,
+        0.239633,
+        0.276474
       ],
       "color": "steel",
       "focus": true,
       "label": "UNEXPECTED ORIGIN",
       "label_box": [
-        0.623867,
-        0.4862,
-        0.211163,
-        0.085
-      ]
+        0.674417,
+        0.49443,
+        0.239633,
+        0.121481
+      ],
+      "label_size": 18
     }
   ],
   "reconstructed": false,

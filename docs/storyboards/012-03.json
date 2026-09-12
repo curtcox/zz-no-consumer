@@ -1,6 +1,6 @@
 {
   "background": "ink",
-  "intent": "Block the grader sits behind a service boundary. Keep the scripted evidence boundary and lettering visible.",
+  "intent": "Put the sealed grader behind a separate service perimeter. The reader must distinguish wanting information from possessing authorization or access to the system that may hold it.",
   "lettering": [
     {
       "box": [
@@ -21,14 +21,15 @@
         0.8648,
         0.576
       ],
-      "color": "steel"
+      "color": "steel",
+      "focus": true
     },
     {
       "asset": "flag",
       "box": [
-        0.0768,
+        0.154574,
         0.493,
-        0.205467,
+        0.04992,
         0.1152
       ],
       "color": "steel",

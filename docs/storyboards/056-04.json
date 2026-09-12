@@ -1,6 +1,6 @@
 {
   "background": "ink",
-  "intent": "Block empty operations chairs receive no page. Keep the scripted evidence boundary and lettering visible.",
+  "intent": "Show genuinely empty chairs and an unoccupied paging destination. No silhouette, hand or acknowledged-screen state should invent a human ignoring an alert.",
   "lettering": [
     {
       "box": [
@@ -16,10 +16,10 @@
     {
       "asset": "room",
       "box": [
-        0.2148,
-        0.1282,
-        0.5336,
-        0.3968
+        0.0541,
+        0.0521,
+        0.8918,
+        0.6816
       ],
       "color": "shadow",
       "focus": true
@@ -27,12 +27,34 @@
     {
       "asset": "desk",
       "box": [
-        0.0952,
-        0.5698,
-        0.644,
-        0.0576
+        0.1724,
+        0.4497,
+        0.6552,
+        0.2414
       ],
-      "color": "institution",
+      "color": "steel",
+      "focus": true
+    },
+    {
+      "asset": "empty-chair",
+      "box": [
+        0.2179,
+        0.27335,
+        0.1911,
+        0.4095
+      ],
+      "color": "steel",
+      "focus": true
+    },
+    {
+      "asset": "empty-chair",
+      "box": [
+        0.591,
+        0.27335,
+        0.1911,
+        0.4095
+      ],
+      "color": "steel",
       "focus": true
     }
   ],

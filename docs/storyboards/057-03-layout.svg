@@ -1,24 +1,25 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="800" viewBox="0 0 1200 800"><title>A predicted reset passes without occurring</title><metadata>{
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="800" viewBox="0 0 1200 800"><title>A predicted reset passes without occurring</title><desc>Let the time rule pass the predicted marker while the run line continues. Fade only the failed theory; do not replace it with a certainty stamp.</desc><metadata>{
   &quot;assets&quot;: {
+    &quot;broken-trace&quot;: &quot;&lt;path d=\&quot;M2 50H36M64 50H98M43 35L37 65M63 35L57 65\&quot; fill=\&quot;none\&quot; stroke=\&quot;currentColor\&quot; stroke-width=\&quot;3\&quot;/&gt;&quot;,
     &quot;clock&quot;: &quot;&lt;circle cx=\&quot;50\&quot; cy=\&quot;50\&quot; r=\&quot;44\&quot; fill=\&quot;#202326\&quot; stroke=\&quot;currentColor\&quot; stroke-width=\&quot;4\&quot;/&gt;&lt;path d=\&quot;M50 15V50L75 64M50 5V12M95 50H88M50 95V88M5 50H12\&quot; fill=\&quot;none\&quot; stroke=\&quot;currentColor\&quot; stroke-width=\&quot;4\&quot;/&gt;&quot;,
-    &quot;cross&quot;: &quot;&lt;path d=\&quot;M10 10L90 90M90 10L10 90\&quot; stroke=\&quot;currentColor\&quot; stroke-width=\&quot;8\&quot;/&gt;&quot;,
-    &quot;line&quot;: &quot;&lt;path d=\&quot;M0 50H100\&quot; stroke=\&quot;currentColor\&quot; stroke-width=\&quot;2\&quot; vector-effect=\&quot;non-scaling-stroke\&quot;/&gt;&quot;,
     &quot;question&quot;: &quot;&lt;path d=\&quot;M24 28Q25 3 53 7Q91 12 74 43L51 63V72\&quot; fill=\&quot;none\&quot; stroke=\&quot;currentColor\&quot; stroke-width=\&quot;7\&quot;/&gt;&lt;circle cx=\&quot;51\&quot; cy=\&quot;91\&quot; r=\&quot;5\&quot; fill=\&quot;currentColor\&quot;/&gt;&quot;
   },
   &quot;palette&quot;: {
     &quot;amber&quot;: &quot;#A17D45&quot;,
+    &quot;claret&quot;: &quot;#6B2634&quot;,
     &quot;dirty&quot;: &quot;#CEC5B3&quot;,
     &quot;ink&quot;: &quot;#101214&quot;,
     &quot;institution&quot;: &quot;#68766B&quot;,
+    &quot;moss&quot;: &quot;#74864F&quot;,
     &quot;nicotine&quot;: &quot;#AA9571&quot;,
     &quot;paper&quot;: &quot;#E7E0D0&quot;,
     &quot;shadow&quot;: &quot;#202326&quot;,
     &quot;steel&quot;: &quot;#5E737B&quot;
   },
-  &quot;renderer&quot;: &quot;storyboard-svg-1&quot;,
+  &quot;renderer&quot;: &quot;storyboard-svg-2&quot;,
   &quot;scene&quot;: {
     &quot;background&quot;: &quot;ink&quot;,
-    &quot;intent&quot;: &quot;Block a predicted reset passes without occurring. Keep the scripted evidence boundary and lettering visible.&quot;,
+    &quot;intent&quot;: &quot;Let the time rule pass the predicted marker while the run line continues. Fade only the failed theory; do not replace it with a certainty stamp.&quot;,
     &quot;lettering&quot;: [
       {
         &quot;box&quot;: [
@@ -32,67 +33,67 @@
     &quot;lettering_mode&quot;: &quot;manual&quot;,
     &quot;nodes&quot;: [
       {
-        &quot;asset&quot;: &quot;line&quot;,
-        &quot;box&quot;: [
-          0.0768,
-          0.365,
-          0.8464,
-          0.016
-        ],
-        &quot;color&quot;: &quot;steel&quot;
-      },
-      {
         &quot;asset&quot;: &quot;clock&quot;,
         &quot;box&quot;: [
-          0.14793316666666667,
-          0.1794,
-          0.09386666666666667,
-          0.1408
+          0.095409,
+          0.2012,
+          0.184316,
+          0.276474
         ],
         &quot;color&quot;: &quot;steel&quot;,
         &quot;focus&quot;: true,
-        &quot;label&quot;: &quot;PREDICTION&quot;,
+        &quot;label&quot;: &quot;PREDICTED RESET&quot;,
         &quot;label_box&quot;: [
-          0.07799999999999999,
-          0.32620000000000005,
-          0.23373300000000002,
-          0.030799999999999945
-        ]
+          0.06775,
+          0.49443,
+          0.239633,
+          0.121481
+        ],
+        &quot;label_size&quot;: 18
       },
       {
-        &quot;asset&quot;: &quot;cross&quot;,
+        &quot;asset&quot;: &quot;broken-trace&quot;,
         &quot;box&quot;: [
-          0.42393316666666664,
-          0.1794,
-          0.09386666666666667,
-          0.1408
+          0.371083,
+          0.2012,
+          0.239633,
+          0.276474
         ],
         &quot;color&quot;: &quot;steel&quot;,
         &quot;focus&quot;: true,
         &quot;label&quot;: &quot;NO RESET&quot;,
         &quot;label_box&quot;: [
-          0.354,
-          0.32620000000000005,
-          0.23373300000000002,
-          0.030799999999999945
-        ]
+          0.371083,
+          0.49443,
+          0.239633,
+          0.121481
+        ],
+        &quot;label_size&quot;: 18
       },
       {
         &quot;asset&quot;: &quot;question&quot;,
         &quot;box&quot;: [
-          0.7163598333333333,
-          0.1794,
-          0.061013333333333336,
-          0.1408
+          0.748155,
+          0.2012,
+          0.092158,
+          0.276474
         ],
-        &quot;color&quot;: &quot;amber&quot;,
-        &quot;focus&quot;: true
+        &quot;color&quot;: &quot;steel&quot;,
+        &quot;focus&quot;: true,
+        &quot;label&quot;: &quot;CAUSE UNKNOWN&quot;,
+        &quot;label_box&quot;: [
+          0.674417,
+          0.49443,
+          0.239633,
+          0.121481
+        ],
+        &quot;label_size&quot;: 18
       }
     ],
     &quot;reconstructed&quot;: false,
-    &quot;shot&quot;: &quot;timeline&quot;,
+    &quot;shot&quot;: &quot;row&quot;,
     &quot;source&quot;: &quot;\n**Frame:** A predicted reset wave passes without a reset. One theory fades but is not replaced by certainty.\n\n**Action:** Forecasting fails.\n\n**Caption:**\n&gt; THE CLOCK DOES NOT OBEY THE THEORY.\n\n**Provenance:** `documented` — METR reports a predicted wave that did not arrive.\n\n&quot;,
     &quot;title&quot;: &quot;A predicted reset passes without occurring&quot;
   }
 }
-</metadata><rect width="1200" height="800" fill="#101214"/><rect x="92.16" y="292" width="1015.68" height="12.8" fill="none" stroke="#5E737B" stroke-width="3"/><text x="100.16" y="316" fill="#5E737B" font-family="sans-serif" font-size="20">line</text><rect x="177.52" y="143.52" width="112.64" height="112.64" fill="none" stroke="#5E737B" stroke-width="3"/><text x="185.52" y="167.52" fill="#5E737B" font-family="sans-serif" font-size="20">clock</text><text x="233.84" y="278.96" text-anchor="middle" fill="#E7E0D0" font-size="18" font-family="sans-serif">PREDICTION</text><rect x="508.72" y="143.52" width="112.64" height="112.64" fill="none" stroke="#5E737B" stroke-width="3"/><text x="516.72" y="167.52" fill="#5E737B" font-family="sans-serif" font-size="20">cross</text><text x="565.04" y="278.96" text-anchor="middle" fill="#E7E0D0" font-size="18" font-family="sans-serif">NO RESET</text><rect x="859.632" y="143.52" width="73.216" height="112.64" fill="none" stroke="#A17D45" stroke-width="3"/><text x="867.632" y="167.52" fill="#A17D45" font-family="sans-serif" font-size="20">question</text><rect x="3" y="3" width="1194" height="794" fill="none" stroke="#5E737B" stroke-width="4"/></svg>
+</metadata><rect width="1200" height="800" fill="#101214"/><rect x="114.491" y="160.96" width="221.179" height="221.179" fill="none" stroke="#5E737B" stroke-width="3"/><text x="122.491" y="184.96" fill="#5E737B" font-family="sans-serif" font-size="20">clock</text><text x="225.08" y="413.544" text-anchor="middle" fill="#E7E0D0" font-size="18" font-family="sans-serif">PREDICTED RESET</text><rect x="445.3" y="160.96" width="287.56" height="221.179" fill="none" stroke="#5E737B" stroke-width="3"/><text x="453.3" y="184.96" fill="#5E737B" font-family="sans-serif" font-size="20">broken-trace</text><text x="589.079" y="413.544" text-anchor="middle" fill="#E7E0D0" font-size="18" font-family="sans-serif">NO RESET</text><rect x="897.786" y="160.96" width="110.59" height="221.179" fill="none" stroke="#5E737B" stroke-width="3"/><text x="905.786" y="184.96" fill="#5E737B" font-family="sans-serif" font-size="20">question</text><text x="953.08" y="413.544" text-anchor="middle" fill="#E7E0D0" font-size="18" font-family="sans-serif">CAUSE UNKNOWN</text><rect x="3" y="3" width="1194" height="794" fill="none" stroke="#5E737B" stroke-width="4"/></svg>

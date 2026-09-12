@@ -1,6 +1,6 @@
 {
   "background": "ink",
-  "intent": "Block attempts and observed successes are distinguished. Keep the scripted evidence boundary and lettering visible.",
+  "intent": "Keep attempts and observed outcomes in separate result rows. Found attempts do not prove success; absent observed success does not prove universal impossibility.",
   "lettering": [],
   "lettering_mode": "manual",
   "nodes": [

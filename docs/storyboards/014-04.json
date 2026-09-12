@@ -1,6 +1,6 @@
 {
   "background": "ink",
-  "intent": "Four readable project-authored labels remain distinct from the model’s dialogue.",
+  "intent": "Give the four evidence cards different edge treatments as well as labels. Their equal scale prevents documented, paraphrased, disputed and inferred material from silently collapsing into one certainty level.",
   "lettering": [],
   "nodes": [
     {
@@ -28,7 +28,7 @@
       "label": "SOURCE PARAPHRASE"
     },
     {
-      "asset": "card",
+      "asset": "hatched-card",
       "box": [
         0.52,
         0.49,
@@ -40,7 +40,7 @@
       "label": "DISPUTED"
     },
     {
-      "asset": "card",
+      "asset": "hatched-card",
       "box": [
         0.76,
         0.49,

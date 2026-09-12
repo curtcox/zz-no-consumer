@@ -1,54 +1,57 @@
 {
   "background": "ink",
-  "intent": "Block entry count and distinct artifacts use different units. Keep the scripted evidence boundary and lettering visible.",
+  "intent": "Separate dump entries, zz entries and distinct artifacts with different shapes and units. Enlargement changes the view, not the count's denominator.",
   "lettering": [],
   "lettering_mode": "manual",
   "nodes": [
     {
       "asset": "scatter",
       "box": [
-        0.1001,
-        0.287,
-        0.295926,
-        0.36
+        0.0541,
+        0.08925,
+        0.4186,
+        0.502326
       ],
-      "color": "institution",
+      "color": "moss",
       "focus": true,
-      "label": "zz ENTRIES",
+      "label": "ABOUT 1.2 MILLION zz ENTRIES",
       "label_box": [
-        0.09209999999999999,
-        0.653,
-        0.31192600000000004,
-        0.085
-      ]
-    },
-    {
-      "asset": "folder",
-      "box": [
-        0.5,
-        0.287,
-        0.295926,
-        0.36
+        0.0541,
+        0.62202,
+        0.4186,
+        0.220719
       ],
-      "color": "steel",
-      "focus": true,
-      "label": "MESSAGES AND FILES",
-      "label_box": [
-        0.492,
-        0.653,
-        0.31192600000000004,
-        0.085
-      ]
+      "label_size": 18
     },
     {
       "asset": "boundary",
       "box": [
-        0.4907,
-        0.107,
-        0.01674,
-        0.756
+        0.5,
+        0.0627,
+        0.01547,
+        0.80535
       ],
-      "color": "amber"
+      "color": "steel",
+      "focus": true
+    },
+    {
+      "asset": "folder",
+      "box": [
+        0.5819,
+        0.30165,
+        0.3458,
+        0.338778
+      ],
+      "color": "steel",
+      "focus": true,
+      "label": "MORE THAN 70,000 DISTINCT MESSAGES AND FILES",
+      "label_box": [
+        0.5819,
+        0.66096,
+        0.3458,
+        0.148857
+      ],
+      "label_size": 18
     }
   ],
   "reconstructed": false,

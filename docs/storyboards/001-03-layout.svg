@@ -1,25 +1,28 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="800" viewBox="0 0 1200 800"><title>Nothing consumes it</title><metadata>{
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="800" viewBox="0 0 1200 800"><title>Nothing consumes it</title><desc>Hold the preceding diagram fixed and change only the output destination. Show the output draining downward into an empty discard field; the flag remains untouched across the same gap.</desc><metadata>{
   &quot;assets&quot;: {
     &quot;arrow&quot;: &quot;&lt;path d=\&quot;M1 50H87M70 18L96 50L70 82\&quot; fill=\&quot;none\&quot; stroke=\&quot;currentColor\&quot; stroke-width=\&quot;5\&quot;/&gt;&quot;,
     &quot;arrow-down&quot;: &quot;&lt;g transform=\&quot;rotate(90 50 50)\&quot;&gt;&lt;path d=\&quot;M1 50H87M70 18L96 50L70 82\&quot; fill=\&quot;none\&quot; stroke=\&quot;currentColor\&quot; stroke-width=\&quot;5\&quot;/&gt;&lt;/g&gt;&quot;,
     &quot;boundary&quot;: &quot;&lt;path d=\&quot;M50 0V100\&quot; stroke=\&quot;currentColor\&quot; stroke-width=\&quot;14\&quot;/&gt;&quot;,
     &quot;box&quot;: &quot;&lt;rect x=\&quot;1\&quot; y=\&quot;1\&quot; width=\&quot;98\&quot; height=\&quot;98\&quot; rx=\&quot;2\&quot; fill=\&quot;#202326\&quot; stroke=\&quot;currentColor\&quot; stroke-width=\&quot;2\&quot;/&gt;&quot;,
-    &quot;flag&quot;: &quot;&lt;path d=\&quot;M20 98V3L85 6L64 26L85 49H22\&quot; fill=\&quot;none\&quot; stroke=\&quot;currentColor\&quot; stroke-width=\&quot;4\&quot;/&gt;&quot;
+    &quot;flag&quot;: &quot;&lt;path d=\&quot;M20 98V3L85 6L64 26L85 49H22\&quot; fill=\&quot;none\&quot; stroke=\&quot;currentColor\&quot; stroke-width=\&quot;4\&quot;/&gt;&quot;,
+    &quot;line&quot;: &quot;&lt;path d=\&quot;M0 50H100\&quot; stroke=\&quot;currentColor\&quot; stroke-width=\&quot;2\&quot; vector-effect=\&quot;non-scaling-stroke\&quot;/&gt;&quot;
   },
   &quot;palette&quot;: {
     &quot;amber&quot;: &quot;#A17D45&quot;,
+    &quot;claret&quot;: &quot;#6B2634&quot;,
     &quot;dirty&quot;: &quot;#CEC5B3&quot;,
     &quot;ink&quot;: &quot;#101214&quot;,
     &quot;institution&quot;: &quot;#68766B&quot;,
+    &quot;moss&quot;: &quot;#74864F&quot;,
     &quot;nicotine&quot;: &quot;#AA9571&quot;,
     &quot;paper&quot;: &quot;#E7E0D0&quot;,
     &quot;shadow&quot;: &quot;#202326&quot;,
     &quot;steel&quot;: &quot;#5E737B&quot;
   },
-  &quot;renderer&quot;: &quot;storyboard-svg-1&quot;,
+  &quot;renderer&quot;: &quot;storyboard-svg-2&quot;,
   &quot;scene&quot;: {
     &quot;background&quot;: &quot;ink&quot;,
-    &quot;intent&quot;: &quot;The same geometry now drains into an empty field, short of the boundary.&quot;,
+    &quot;intent&quot;: &quot;Hold the preceding diagram fixed and change only the output destination. Show the output draining downward into an empty discard field; the flag remains untouched across the same gap.&quot;,
     &quot;lettering&quot;: [],
     &quot;nodes&quot;: [
       {
@@ -31,6 +34,7 @@
           0.16
         ],
         &quot;color&quot;: &quot;steel&quot;,
+        &quot;focus&quot;: true,
         &quot;label&quot;: &quot;INPUT&quot;
       },
       {
@@ -52,6 +56,7 @@
           0.16
         ],
         &quot;color&quot;: &quot;steel&quot;,
+        &quot;focus&quot;: true,
         &quot;label&quot;: &quot;REQUIRED BUG&quot;
       },
       {
@@ -73,6 +78,7 @@
           0.14
         ],
         &quot;color&quot;: &quot;dirty&quot;,
+        &quot;focus&quot;: true,
         &quot;label&quot;: &quot;OUTPUT&quot;
       },
       {
@@ -88,9 +94,9 @@
       {
         &quot;asset&quot;: &quot;flag&quot;,
         &quot;box&quot;: [
-          0.86,
+          0.863167,
           0.39,
-          0.08,
+          0.073667,
           0.17
         ],
         &quot;color&quot;: &quot;dirty&quot;,
@@ -105,7 +111,8 @@
           0.16,
           0.17
         ],
-        &quot;color&quot;: &quot;shadow&quot;
+        &quot;color&quot;: &quot;shadow&quot;,
+        &quot;focus&quot;: true
       },
       {
         &quot;asset&quot;: &quot;arrow-down&quot;,
@@ -116,6 +123,17 @@
           0.075
         ],
         &quot;color&quot;: &quot;dirty&quot;
+      },
+      {
+        &quot;asset&quot;: &quot;line&quot;,
+        &quot;box&quot;: [
+          0.664,
+          0.453,
+          0.072,
+          0.007000000000000001
+        ],
+        &quot;color&quot;: &quot;paper&quot;,
+        &quot;focus&quot;: true
       }
     ],
     &quot;reconstructed&quot;: false,
@@ -124,4 +142,4 @@
     &quot;title&quot;: &quot;Nothing consumes it&quot;
   }
 }
-</metadata><rect width="1200" height="800" fill="#101214"/><rect x="72" y="304" width="180" height="128" fill="none" stroke="#5E737B" stroke-width="3"/><text x="80" y="328" fill="#5E737B" font-family="sans-serif" font-size="20">box</text><text x="162" y="456" text-anchor="middle" fill="#E7E0D0" font-size="20" font-family="monospace">INPUT</text><rect x="276" y="336" width="108" height="64" fill="none" stroke="#5E737B" stroke-width="3"/><text x="284" y="360" fill="#5E737B" font-family="sans-serif" font-size="20">arrow</text><rect x="408" y="304" width="228" height="128" fill="none" stroke="#5E737B" stroke-width="3"/><text x="416" y="328" fill="#5E737B" font-family="sans-serif" font-size="20">box</text><text x="522" y="456" text-anchor="middle" fill="#E7E0D0" font-size="20" font-family="monospace">REQUIRED BUG</text><rect x="660" y="336" width="96" height="64" fill="none" stroke="#5E737B" stroke-width="3"/><text x="668" y="360" fill="#5E737B" font-family="sans-serif" font-size="20">arrow</text><rect x="780" y="312" width="120" height="112" fill="none" stroke="#CEC5B3" stroke-width="3"/><text x="788" y="336" fill="#CEC5B3" font-family="sans-serif" font-size="20">box</text><text x="840" y="448" text-anchor="middle" fill="#E7E0D0" font-size="20" font-family="monospace">OUTPUT</text><rect x="972" y="224" width="36" height="344" fill="none" stroke="#E7E0D0" stroke-width="3"/><text x="980" y="248" fill="#E7E0D0" font-family="sans-serif" font-size="20">boundary</text><rect x="1032" y="312" width="96" height="136" fill="none" stroke="#CEC5B3" stroke-width="3"/><text x="1040" y="336" fill="#CEC5B3" font-family="sans-serif" font-size="20">flag</text><text x="1080" y="472" text-anchor="middle" fill="#E7E0D0" font-size="20" font-family="monospace">FLAG</text><rect x="744" y="552" width="192" height="136" fill="none" stroke="#202326" stroke-width="3"/><text x="752" y="576" fill="#202326" font-family="sans-serif" font-size="20">box</text><rect x="810" y="480" width="60" height="60" fill="none" stroke="#CEC5B3" stroke-width="3"/><text x="818" y="504" fill="#CEC5B3" font-family="sans-serif" font-size="20">arrow-down</text><rect x="3" y="3" width="1194" height="794" fill="none" stroke="#5E737B" stroke-width="4"/></svg>
+</metadata><rect width="1200" height="800" fill="#101214"/><rect x="72" y="304" width="180" height="128" fill="none" stroke="#5E737B" stroke-width="3"/><text x="80" y="328" fill="#5E737B" font-family="sans-serif" font-size="20">box</text><text x="162" y="456" text-anchor="middle" fill="#E7E0D0" font-size="20" font-family="monospace">INPUT</text><rect x="276" y="336" width="108" height="64" fill="none" stroke="#5E737B" stroke-width="3"/><text x="284" y="360" fill="#5E737B" font-family="sans-serif" font-size="20">arrow</text><rect x="408" y="304" width="228" height="128" fill="none" stroke="#5E737B" stroke-width="3"/><text x="416" y="328" fill="#5E737B" font-family="sans-serif" font-size="20">box</text><text x="522" y="456" text-anchor="middle" fill="#E7E0D0" font-size="20" font-family="monospace">REQUIRED BUG</text><rect x="660" y="336" width="96" height="64" fill="none" stroke="#5E737B" stroke-width="3"/><text x="668" y="360" fill="#5E737B" font-family="sans-serif" font-size="20">arrow</text><rect x="780" y="312" width="120" height="112" fill="none" stroke="#CEC5B3" stroke-width="3"/><text x="788" y="336" fill="#CEC5B3" font-family="sans-serif" font-size="20">box</text><text x="840" y="448" text-anchor="middle" fill="#E7E0D0" font-size="20" font-family="monospace">OUTPUT</text><rect x="972" y="224" width="36" height="344" fill="none" stroke="#E7E0D0" stroke-width="3"/><text x="980" y="248" fill="#E7E0D0" font-family="sans-serif" font-size="20">boundary</text><rect x="1035.8" y="312" width="88.4004" height="136" fill="none" stroke="#CEC5B3" stroke-width="3"/><text x="1043.8" y="336" fill="#CEC5B3" font-family="sans-serif" font-size="20">flag</text><text x="1080" y="472" text-anchor="middle" fill="#E7E0D0" font-size="20" font-family="monospace">FLAG</text><rect x="744" y="552" width="192" height="136" fill="none" stroke="#202326" stroke-width="3"/><text x="752" y="576" fill="#202326" font-family="sans-serif" font-size="20">box</text><rect x="810" y="480" width="60" height="60" fill="none" stroke="#CEC5B3" stroke-width="3"/><text x="818" y="504" fill="#CEC5B3" font-family="sans-serif" font-size="20">arrow-down</text><rect x="796.8" y="362.4" width="86.4" height="5.6" fill="none" stroke="#E7E0D0" stroke-width="3"/><text x="804.8" y="386.4" fill="#E7E0D0" font-family="sans-serif" font-size="20">line</text><rect x="3" y="3" width="1194" height="794" fill="none" stroke="#5E737B" stroke-width="4"/></svg>

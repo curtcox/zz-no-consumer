@@ -1,6 +1,6 @@
 {
   "background": "ink",
-  "intent": "Block complicating facts sit outside the chosen line. Keep the scripted evidence boundary and lettering visible. Existing source-derived wording is a visibly labelled paraphrase; quotation disposition remains open.",
+  "intent": "Keep failed work, ambiguous motives, refusals and negative findings outside the preferred line but fully visible. The dated critique remains a source window, not a character.",
   "lettering": [
     {
       "box": [
@@ -24,74 +24,78 @@
     {
       "asset": "cross",
       "box": [
-        0.07,
-        0.4079375,
-        0.07955,
-        0.11932499999999999
+        0.05775,
+        0.34316,
+        0.0918,
+        0.1377
       ],
       "color": "steel",
       "focus": true,
       "label": "FAILED WORK",
       "label_box": [
-        0.062000000000000006,
-        0.6476,
-        0.09555,
-        0.085
-      ]
+        0.05775,
+        0.605205,
+        0.0918,
+        0.151423
+      ],
+      "label_size": 18
     },
     {
       "asset": "question",
       "box": [
-        0.1775,
-        0.3758115384615385,
-        0.07955,
-        0.18357692307692305
+        0.18525,
+        0.274309,
+        0.0918,
+        0.2754
       ],
       "color": "steel",
       "focus": true,
       "label": "AMBIGUOUS MOTIVES",
       "label_box": [
-        0.16949999999999998,
-        0.6476,
-        0.09555,
-        0.085
-      ]
+        0.18525,
+        0.605205,
+        0.0918,
+        0.151423
+      ],
+      "label_size": 18
     },
     {
       "asset": "cross",
       "box": [
-        0.285,
-        0.4079375,
-        0.07955,
-        0.11932499999999999
+        0.31275,
+        0.34316,
+        0.0918,
+        0.1377
       ],
       "color": "steel",
       "focus": true,
       "label": "REFUSALS",
       "label_box": [
-        0.27699999999999997,
-        0.6476,
-        0.09555,
-        0.085
-      ]
+        0.31275,
+        0.605205,
+        0.0918,
+        0.151423
+      ],
+      "label_size": 18
     },
     {
       "asset": "card",
       "box": [
-        0.3925,
-        0.2936,
-        0.07955,
-        0.348
+        0.44025,
+        0.2397,
+        0.0918,
+        0.344619
       ],
       "color": "steel",
       "focus": true,
       "label": "NEGATIVE FINDINGS",
       "label_box": [
-        0.3845,
-        0.6476,
-        0.09555,
-        0.085
-      ]
+        0.44025,
+        0.605205,
+        0.0918,
+        0.151423
+      ],
+      "label_size": 18
     }
   ],
   "reconstructed": false,

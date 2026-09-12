@@ -1,6 +1,6 @@
 {
   "background": "ink",
-  "intent": "Block a reply below the request. Keep the scripted evidence boundary and lettering visible.",
+  "intent": "Keep the original request above an indented second row, joined by a reply bracket. The new relationship must be unmistakable before either row's words can be read.",
   "lettering": [
     {
       "box": [
@@ -14,40 +14,53 @@
   "lettering_mode": "manual",
   "nodes": [
     {
-      "asset": "card",
+      "asset": "directory-row",
       "box": [
-        0.1872,
-        0.0962,
-        0.6072,
-        0.16128
+        0.227,
+        0.0663,
+        0.6643,
+        0.173382
       ],
-      "color": "institution",
+      "color": "moss",
       "focus": true,
       "label": "REQUEST",
       "label_box": [
-        0.1792,
-        0.26348,
-        0.6232,
-        0.085
-      ]
+        0.227,
+        0.25019,
+        0.6643,
+        0.076183
+      ],
+      "label_size": 18
     },
     {
-      "asset": "card",
+      "asset": "directory-row",
       "box": [
-        0.1872,
-        0.3746,
-        0.6072,
-        0.16128
+        0.3089,
+        0.4568,
+        0.5824,
+        0.173382
       ],
-      "color": "institution",
+      "color": "moss",
       "focus": true,
       "label": "REPLY",
       "label_box": [
-        0.1792,
-        0.54188,
-        0.6232,
-        0.085
-      ]
+        0.3089,
+        0.64069,
+        0.5824,
+        0.076183
+      ],
+      "label_size": 18
+    },
+    {
+      "asset": "reply-bracket",
+      "box": [
+        0.0996,
+        0.1728,
+        0.1365,
+        0.3763
+      ],
+      "color": "moss",
+      "focus": true
     }
   ],
   "reconstructed": false,

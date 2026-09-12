@@ -1,6 +1,6 @@
 {
   "background": "ink",
-  "intent": "Block difficult cards already in the training set. Keep the scripted evidence boundary and lettering visible.",
+  "intent": "Nest a small difficult-task subset inside the larger training-set stack. Relative containment communicates membership, while schematic quantities must not imply an undocumented prevalence.",
   "lettering": [
     {
       "box": [
@@ -16,38 +16,40 @@
     {
       "asset": "folder",
       "box": [
-        0.2148,
-        0.1282,
-        0.5336,
-        0.3968
+        0.0723,
+        0.0521,
+        0.8554,
+        0.454542
       ],
       "color": "steel",
       "focus": true,
       "label": "TRAINING SET",
       "label_box": [
-        0.20679999999999998,
-        0.531,
-        0.5496,
-        0.030799999999999945
-      ]
+        0.0723,
+        0.53419,
+        0.8554,
+        0.199723
+      ],
+      "label_size": 18
     },
     {
-      "asset": "card",
+      "asset": "task",
       "box": [
-        0.0952,
-        0.5698,
-        0.644,
-        0.0576
+        0.3635,
+        0.2296,
+        0.3094,
+        0.196812
       ],
       "color": "steel",
       "focus": true,
-      "label": "IMPOSSIBLE / HARD",
+      "label": "IMPOSSIBLE / VERY HARD",
       "label_box": [
-        0.0872,
-        0.6334,
-        0.66,
-        0.085
-      ]
+        0.3635,
+        0.43834,
+        0.3094,
+        0.086478
+      ],
+      "label_size": 18
     }
   ],
   "reconstructed": false,

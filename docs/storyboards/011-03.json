@@ -1,6 +1,6 @@
 {
   "background": "ink",
-  "intent": "Block an opaque grader gives different results. Keep the scripted evidence boundary and lettering visible.",
+  "intent": "Place two answer inputs on separate tracks into one closed grader, with distinct accept and reject outputs. Keep the interior opaque: observed outcomes do not reveal its rule.",
   "lettering": [
     {
       "box": [
@@ -14,58 +14,143 @@
   "lettering_mode": "manual",
   "nodes": [
     {
+      "asset": "card",
+      "box": [
+        0.0632,
+        0.1018,
+        0.2002,
+        0.159324
+      ],
+      "color": "steel",
+      "focus": true,
+      "label": "ANSWER A",
+      "label_box": [
+        0.0632,
+        0.27078,
+        0.2002,
+        0.070006
+      ],
+      "label_size": 18
+    },
+    {
+      "asset": "card",
+      "box": [
+        0.0632,
+        0.4497,
+        0.2002,
+        0.159324
+      ],
+      "color": "steel",
+      "focus": true,
+      "label": "ANSWER B",
+      "label_box": [
+        0.0632,
+        0.61868,
+        0.2002,
+        0.070006
+      ],
+      "label_size": 18
+    },
+    {
+      "asset": "arrow",
+      "box": [
+        0.2907,
+        0.2154,
+        0.1092,
+        0.0497
+      ],
+      "color": "steel",
+      "focus": true
+    },
+    {
+      "asset": "arrow",
+      "box": [
+        0.2907,
+        0.5491,
+        0.1092,
+        0.0497
+      ],
+      "color": "steel",
+      "focus": true
+    },
+    {
+      "asset": "sealed",
+      "box": [
+        0.4272,
+        0.2225,
+        0.2093,
+        0.2343
+      ],
+      "color": "steel",
+      "focus": true,
+      "label": "OPAQUE GRADER",
+      "label_box": [
+        0.4272,
+        0.471,
+        0.2093,
+        0.10295
+      ],
+      "label_size": 18
+    },
+    {
+      "asset": "arrow",
+      "box": [
+        0.6638,
+        0.2154,
+        0.091,
+        0.0497
+      ],
+      "color": "steel",
+      "focus": true
+    },
+    {
+      "asset": "arrow",
+      "box": [
+        0.6638,
+        0.5491,
+        0.091,
+        0.0497
+      ],
+      "color": "steel",
+      "focus": true
+    },
+    {
       "asset": "checkmark",
       "box": [
-        0.11664816666666666,
-        0.22419999999999998,
-        0.1706666666666667,
-        0.25600000000000006
+        0.806342,
+        0.1018,
+        0.106216,
+        0.159324
       ],
       "color": "steel",
       "focus": true,
       "label": "ACCEPT",
       "label_box": [
-        0.09640000000000001,
-        0.4862,
-        0.211163,
-        0.085
-      ]
-    },
-    {
-      "asset": "sealed",
-      "box": [
-        0.368133,
-        0.2242,
-        0.195163,
-        0.256
+        0.7821,
+        0.27078,
+        0.1547,
+        0.070006
       ],
-      "color": "steel",
-      "focus": true,
-      "label": "GRADER",
-      "label_box": [
-        0.360133,
-        0.4862,
-        0.211163,
-        0.085
-      ]
+      "label_size": 18
     },
     {
       "asset": "cross",
       "box": [
-        0.6441151666666666,
-        0.22419999999999998,
-        0.1706666666666667,
-        0.25600000000000006
+        0.806342,
+        0.4497,
+        0.106216,
+        0.159324
       ],
       "color": "steel",
       "focus": true,
       "label": "REJECT",
       "label_box": [
-        0.623867,
-        0.4862,
-        0.211163,
-        0.085
-      ]
+        0.7821,
+        0.61868,
+        0.1547,
+        0.070006
+      ],
+      "label_size": 18
     }
   ],
   "reconstructed": false,

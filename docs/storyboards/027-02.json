@@ -1,6 +1,6 @@
 {
   "background": "ink",
-  "intent": "Block the communication and pivot evidence. Keep the scripted evidence boundary and lettering visible.",
+  "intent": "Magnify board and pivot evidence as two related findings. Storage communication and network reach need distinct shapes so neither becomes a vague generic breach icon.",
   "lettering": [
     {
       "box": [
@@ -24,38 +24,40 @@
     {
       "asset": "folder",
       "box": [
-        0.07,
-        0.2936,
-        0.1591,
-        0.348
+        0.06775,
+        0.481812,
+        0.3913,
+        0.223749
       ],
       "color": "institution",
       "focus": true,
       "label": "MESSAGE BOARD",
       "label_box": [
-        0.062000000000000006,
-        0.6476,
-        0.17509999999999998,
-        0.085
-      ]
+        0.06775,
+        0.719122,
+        0.3913,
+        0.098314
+      ],
+      "label_size": 18
     },
     {
       "asset": "gate",
       "box": [
-        0.285,
-        0.2936,
-        0.1591,
-        0.348
+        0.52275,
+        0.481812,
+        0.3913,
+        0.223749
       ],
       "color": "steel",
       "focus": true,
       "label": "NETWORK PIVOT",
       "label_box": [
-        0.27699999999999997,
-        0.6476,
-        0.17509999999999998,
-        0.085
-      ]
+        0.52275,
+        0.719122,
+        0.3913,
+        0.098314
+      ],
+      "label_size": 18
     }
   ],
   "reconstructed": false,

@@ -1,6 +1,6 @@
 {
   "background": "ink",
-  "intent": "Block the manuscript enters aftermath with mediation visible. Keep the scripted evidence boundary and lettering visible.",
+  "intent": "Carry role and limitation tags with the manuscript into aftermath. No overhead eye or neutral narrator symbol should promise a view outside mediation.",
   "lettering": [
     {
       "box": [
@@ -24,56 +24,59 @@
     {
       "asset": "paper",
       "box": [
-        0.07,
-        0.2936,
-        0.106067,
-        0.348
+        0.06775,
+        0.481812,
+        0.239633,
+        0.223749
       ],
       "color": "steel",
       "focus": true,
       "label": "MANUSCRIPT",
       "label_box": [
-        0.062000000000000006,
-        0.6476,
-        0.122067,
-        0.085
-      ]
+        0.06775,
+        0.719122,
+        0.239633,
+        0.098314
+      ],
+      "label_size": 18
     },
     {
       "asset": "card",
       "box": [
-        0.213333,
-        0.2936,
-        0.106067,
-        0.348
+        0.371083,
+        0.481812,
+        0.239633,
+        0.223749
       ],
       "color": "steel",
       "focus": true,
       "label": "ROLE AND LIMITS",
       "label_box": [
-        0.205333,
-        0.6476,
-        0.122067,
-        0.085
-      ]
+        0.371083,
+        0.719122,
+        0.239633,
+        0.098314
+      ],
+      "label_size": 18
     },
     {
       "asset": "folder",
       "box": [
-        0.356667,
-        0.2936,
-        0.106067,
-        0.348
+        0.674417,
+        0.481812,
+        0.239633,
+        0.223749
       ],
       "color": "steel",
       "focus": true,
       "label": "AFTERMATH",
       "label_box": [
-        0.348667,
-        0.6476,
-        0.122067,
-        0.085
-      ]
+        0.674417,
+        0.719122,
+        0.239633,
+        0.098314
+      ],
+      "label_size": 18
     }
   ],
   "reconstructed": false,

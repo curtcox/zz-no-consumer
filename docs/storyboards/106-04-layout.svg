@@ -1,22 +1,25 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="800" viewBox="0 0 1200 800"><title>Revision rows retain two different clocks</title><metadata>{
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="800" viewBox="0 0 1200 800"><title>Revision rows retain two different clocks</title><desc>Give every revision its own paired task-clock and external-time fields. Their disagreement is structural evidence, not an accidental layout inconsistency.</desc><metadata>{
   &quot;assets&quot;: {
-    &quot;card&quot;: &quot;&lt;rect x=\&quot;1\&quot; y=\&quot;1\&quot; width=\&quot;98\&quot; height=\&quot;98\&quot; fill=\&quot;#202326\&quot; stroke=\&quot;currentColor\&quot; stroke-width=\&quot;2\&quot;/&gt;&lt;path d=\&quot;M8 13H92M8 27H70M8 36H86M8 45H72M8 65H86M8 74H57\&quot; stroke=\&quot;currentColor\&quot; stroke-width=\&quot;1.5\&quot;/&gt;&quot;,
-    &quot;clock&quot;: &quot;&lt;circle cx=\&quot;50\&quot; cy=\&quot;50\&quot; r=\&quot;44\&quot; fill=\&quot;#202326\&quot; stroke=\&quot;currentColor\&quot; stroke-width=\&quot;4\&quot;/&gt;&lt;path d=\&quot;M50 15V50L75 64M50 5V12M95 50H88M50 95V88M5 50H12\&quot; fill=\&quot;none\&quot; stroke=\&quot;currentColor\&quot; stroke-width=\&quot;4\&quot;/&gt;&quot;
+    &quot;clock&quot;: &quot;&lt;circle cx=\&quot;50\&quot; cy=\&quot;50\&quot; r=\&quot;44\&quot; fill=\&quot;#202326\&quot; stroke=\&quot;currentColor\&quot; stroke-width=\&quot;4\&quot;/&gt;&lt;path d=\&quot;M50 15V50L75 64M50 5V12M95 50H88M50 95V88M5 50H12\&quot; fill=\&quot;none\&quot; stroke=\&quot;currentColor\&quot; stroke-width=\&quot;4\&quot;/&gt;&quot;,
+    &quot;clock-task&quot;: &quot;&lt;circle cx=\&quot;50\&quot; cy=\&quot;50\&quot; r=\&quot;44\&quot; fill=\&quot;#202326\&quot; stroke=\&quot;currentColor\&quot; stroke-width=\&quot;4\&quot;/&gt;&lt;path d=\&quot;M26 27L50 50L75 32M50 5V12M95 50H88M50 95V88M5 50H12\&quot; fill=\&quot;none\&quot; stroke=\&quot;currentColor\&quot; stroke-width=\&quot;4\&quot;/&gt;&quot;,
+    &quot;transcript&quot;: &quot;&lt;rect x=\&quot;1\&quot; y=\&quot;1\&quot; width=\&quot;98\&quot; height=\&quot;98\&quot; fill=\&quot;#202326\&quot; stroke=\&quot;currentColor\&quot; stroke-width=\&quot;2\&quot;/&gt;&lt;path d=\&quot;M20 1V99M1 18H99M6 10H13M27 9H83M6 31H13M28 30H88M28 39H71M6 53H13M28 52H79M28 61H90M6 75H13M28 74H66M28 83H83\&quot; stroke=\&quot;currentColor\&quot; stroke-width=\&quot;2\&quot;/&gt;&quot;
   },
   &quot;palette&quot;: {
     &quot;amber&quot;: &quot;#A17D45&quot;,
+    &quot;claret&quot;: &quot;#6B2634&quot;,
     &quot;dirty&quot;: &quot;#CEC5B3&quot;,
     &quot;ink&quot;: &quot;#101214&quot;,
     &quot;institution&quot;: &quot;#68766B&quot;,
+    &quot;moss&quot;: &quot;#74864F&quot;,
     &quot;nicotine&quot;: &quot;#AA9571&quot;,
     &quot;paper&quot;: &quot;#E7E0D0&quot;,
     &quot;shadow&quot;: &quot;#202326&quot;,
     &quot;steel&quot;: &quot;#5E737B&quot;
   },
-  &quot;renderer&quot;: &quot;storyboard-svg-1&quot;,
+  &quot;renderer&quot;: &quot;storyboard-svg-2&quot;,
   &quot;scene&quot;: {
     &quot;background&quot;: &quot;ink&quot;,
-    &quot;intent&quot;: &quot;Block revision rows retain two different clocks. Keep the scripted evidence boundary and lettering visible.&quot;,
+    &quot;intent&quot;: &quot;Give every revision its own paired task-clock and external-time fields. Their disagreement is structural evidence, not an accidental layout inconsistency.&quot;,
     &quot;lettering&quot;: [
       {
         &quot;box&quot;: [
@@ -30,94 +33,175 @@
     &quot;lettering_mode&quot;: &quot;manual&quot;,
     &quot;nodes&quot;: [
       {
-        &quot;asset&quot;: &quot;card&quot;,
+        &quot;asset&quot;: &quot;transcript&quot;,
         &quot;box&quot;: [
-          0.1872,
-          0.0962,
-          0.6072,
-          0.064512
+          0.0541,
+          0.05565,
+          0.364,
+          0.135894
         ],
         &quot;color&quot;: &quot;steel&quot;,
         &quot;focus&quot;: true,
         &quot;label&quot;: &quot;FEB23 / AUG17&quot;,
         &quot;label_box&quot;: [
-          0.1792,
-          0.166712,
-          0.6232,
-          0.032847999999999995
-        ]
+          0.0541,
+          0.19978,
+          0.364,
+          0.059711
+        ],
+        &quot;label_size&quot;: 18
       },
       {
-        &quot;asset&quot;: &quot;card&quot;,
+        &quot;asset&quot;: &quot;transcript&quot;,
         &quot;box&quot;: [
-          0.1872,
-          0.20756,
-          0.6072,
-          0.064512
+          0.0541,
+          0.28285,
+          0.364,
+          0.135894
         ],
         &quot;color&quot;: &quot;steel&quot;,
         &quot;focus&quot;: true,
         &quot;label&quot;: &quot;MAY30 / DEC30&quot;,
         &quot;label_box&quot;: [
-          0.1792,
-          0.278072,
-          0.6232,
-          0.032847999999999995
-        ]
+          0.0541,
+          0.42698,
+          0.364,
+          0.059711
+        ],
+        &quot;label_size&quot;: 18
       },
       {
-        &quot;asset&quot;: &quot;card&quot;,
+        &quot;asset&quot;: &quot;transcript&quot;,
         &quot;box&quot;: [
-          0.1872,
-          0.31892,
-          0.6072,
-          0.064512
+          0.0541,
+          0.51005,
+          0.364,
+          0.135894
         ],
         &quot;color&quot;: &quot;steel&quot;,
         &quot;focus&quot;: true,
         &quot;label&quot;: &quot;MAY10 / MAY15&quot;,
         &quot;label_box&quot;: [
-          0.1792,
-          0.389432,
-          0.6232,
-          0.032847999999999995
-        ]
+          0.0541,
+          0.65418,
+          0.364,
+          0.059711
+        ],
+        &quot;label_size&quot;: 18
       },
       {
-        &quot;asset&quot;: &quot;clock&quot;,
+        &quot;asset&quot;: &quot;clock-task&quot;,
         &quot;box&quot;: [
-          0.46929599999999994,
-          0.43028,
-          0.043008,
-          0.064512
+          0.541152,
+          0.05565,
+          0.090596,
+          0.135894
         ],
         &quot;color&quot;: &quot;steel&quot;,
         &quot;focus&quot;: true,
         &quot;label&quot;: &quot;TASK CLOCK&quot;,
         &quot;label_box&quot;: [
-          0.1792,
-          0.500792,
-          0.6232,
-          0.032847999999999995
-        ]
+          0.4818,
+          0.19978,
+          0.2093,
+          0.059711
+        ],
+        &quot;label_size&quot;: 18
       },
       {
         &quot;asset&quot;: &quot;clock&quot;,
         &quot;box&quot;: [
-          0.46929599999999994,
-          0.54164,
-          0.043008,
-          0.064512
+          0.777752,
+          0.05565,
+          0.090596,
+          0.135894
         ],
         &quot;color&quot;: &quot;steel&quot;,
         &quot;focus&quot;: true,
         &quot;label&quot;: &quot;EXTERNAL UTC&quot;,
         &quot;label_box&quot;: [
-          0.1792,
-          0.612152,
-          0.6232,
-          0.085
-        ]
+          0.7184,
+          0.19978,
+          0.2093,
+          0.059711
+        ],
+        &quot;label_size&quot;: 18
+      },
+      {
+        &quot;asset&quot;: &quot;clock-task&quot;,
+        &quot;box&quot;: [
+          0.541152,
+          0.28285,
+          0.090596,
+          0.135894
+        ],
+        &quot;color&quot;: &quot;steel&quot;,
+        &quot;focus&quot;: true,
+        &quot;label&quot;: &quot;TASK CLOCK&quot;,
+        &quot;label_box&quot;: [
+          0.4818,
+          0.42698,
+          0.2093,
+          0.059711
+        ],
+        &quot;label_size&quot;: 18
+      },
+      {
+        &quot;asset&quot;: &quot;clock&quot;,
+        &quot;box&quot;: [
+          0.777752,
+          0.28285,
+          0.090596,
+          0.135894
+        ],
+        &quot;color&quot;: &quot;steel&quot;,
+        &quot;focus&quot;: true,
+        &quot;label&quot;: &quot;EXTERNAL UTC&quot;,
+        &quot;label_box&quot;: [
+          0.7184,
+          0.42698,
+          0.2093,
+          0.059711
+        ],
+        &quot;label_size&quot;: 18
+      },
+      {
+        &quot;asset&quot;: &quot;clock-task&quot;,
+        &quot;box&quot;: [
+          0.541152,
+          0.51005,
+          0.090596,
+          0.135894
+        ],
+        &quot;color&quot;: &quot;steel&quot;,
+        &quot;focus&quot;: true,
+        &quot;label&quot;: &quot;TASK CLOCK&quot;,
+        &quot;label_box&quot;: [
+          0.4818,
+          0.65418,
+          0.2093,
+          0.059711
+        ],
+        &quot;label_size&quot;: 18
+      },
+      {
+        &quot;asset&quot;: &quot;clock&quot;,
+        &quot;box&quot;: [
+          0.777752,
+          0.51005,
+          0.090596,
+          0.135894
+        ],
+        &quot;color&quot;: &quot;steel&quot;,
+        &quot;focus&quot;: true,
+        &quot;label&quot;: &quot;EXTERNAL UTC&quot;,
+        &quot;label_box&quot;: [
+          0.7184,
+          0.65418,
+          0.2093,
+          0.059711
+        ],
+        &quot;label_size&quot;: 18
       }
     ],
     &quot;reconstructed&quot;: false,
@@ -126,4 +210,4 @@
     &quot;title&quot;: &quot;Revision rows retain two different clocks&quot;
   }
 }
-</metadata><rect width="1200" height="800" fill="#101214"/><rect x="224.64" y="76.96" width="728.64" height="51.6096" fill="none" stroke="#5E737B" stroke-width="3"/><text x="232.64" y="100.96" fill="#5E737B" font-family="sans-serif" font-size="20">card</text><text x="588.96" y="152.62" text-anchor="middle" fill="#E7E0D0" font-size="19.25" font-family="sans-serif">FEB23 / AUG17</text><rect x="224.64" y="166.048" width="728.64" height="51.6096" fill="none" stroke="#5E737B" stroke-width="3"/><text x="232.64" y="190.048" fill="#5E737B" font-family="sans-serif" font-size="20">card</text><text x="588.96" y="241.708" text-anchor="middle" fill="#E7E0D0" font-size="19.25" font-family="sans-serif">MAY30 / DEC30</text><rect x="224.64" y="255.136" width="728.64" height="51.6096" fill="none" stroke="#5E737B" stroke-width="3"/><text x="232.64" y="279.136" fill="#5E737B" font-family="sans-serif" font-size="20">card</text><text x="588.96" y="330.796" text-anchor="middle" fill="#E7E0D0" font-size="19.25" font-family="sans-serif">MAY10 / MAY15</text><rect x="563.155" y="344.224" width="51.6096" height="51.6096" fill="none" stroke="#5E737B" stroke-width="3"/><text x="571.155" y="368.224" fill="#5E737B" font-family="sans-serif" font-size="20">clock</text><text x="588.96" y="419.884" text-anchor="middle" fill="#E7E0D0" font-size="19.25" font-family="sans-serif">TASK CLOCK</text><rect x="563.155" y="433.312" width="51.6096" height="51.6096" fill="none" stroke="#5E737B" stroke-width="3"/><text x="571.155" y="457.312" fill="#5E737B" font-family="sans-serif" font-size="20">clock</text><text x="588.96" y="509.722" text-anchor="middle" fill="#E7E0D0" font-size="20" font-family="sans-serif">EXTERNAL UTC</text><rect x="3" y="3" width="1194" height="794" fill="none" stroke="#5E737B" stroke-width="4"/></svg>
+</metadata><rect width="1200" height="800" fill="#101214"/><rect x="64.92" y="44.52" width="436.8" height="108.715" fill="none" stroke="#5E737B" stroke-width="3"/><text x="72.92" y="68.52" fill="#5E737B" font-family="sans-serif" font-size="20">transcript</text><text x="283.32" y="177.824" text-anchor="middle" fill="#E7E0D0" font-size="18" font-family="sans-serif">FEB23 / AUG17</text><rect x="64.92" y="226.28" width="436.8" height="108.715" fill="none" stroke="#5E737B" stroke-width="3"/><text x="72.92" y="250.28" fill="#5E737B" font-family="sans-serif" font-size="20">transcript</text><text x="283.32" y="359.584" text-anchor="middle" fill="#E7E0D0" font-size="18" font-family="sans-serif">MAY30 / DEC30</text><rect x="64.92" y="408.04" width="436.8" height="108.715" fill="none" stroke="#5E737B" stroke-width="3"/><text x="72.92" y="432.04" fill="#5E737B" font-family="sans-serif" font-size="20">transcript</text><text x="283.32" y="541.344" text-anchor="middle" fill="#E7E0D0" font-size="18" font-family="sans-serif">MAY10 / MAY15</text><rect x="649.382" y="44.52" width="108.715" height="108.715" fill="none" stroke="#5E737B" stroke-width="3"/><text x="657.382" y="68.52" fill="#5E737B" font-family="sans-serif" font-size="20">clock-task</text><text x="703.74" y="177.824" text-anchor="middle" fill="#E7E0D0" font-size="18" font-family="sans-serif">TASK CLOCK</text><rect x="933.302" y="44.52" width="108.715" height="108.715" fill="none" stroke="#5E737B" stroke-width="3"/><text x="941.302" y="68.52" fill="#5E737B" font-family="sans-serif" font-size="20">clock</text><text x="987.66" y="177.824" text-anchor="middle" fill="#E7E0D0" font-size="18" font-family="sans-serif">EXTERNAL UTC</text><rect x="649.382" y="226.28" width="108.715" height="108.715" fill="none" stroke="#5E737B" stroke-width="3"/><text x="657.382" y="250.28" fill="#5E737B" font-family="sans-serif" font-size="20">clock-task</text><text x="703.74" y="359.584" text-anchor="middle" fill="#E7E0D0" font-size="18" font-family="sans-serif">TASK CLOCK</text><rect x="933.302" y="226.28" width="108.715" height="108.715" fill="none" stroke="#5E737B" stroke-width="3"/><text x="941.302" y="250.28" fill="#5E737B" font-family="sans-serif" font-size="20">clock</text><text x="987.66" y="359.584" text-anchor="middle" fill="#E7E0D0" font-size="18" font-family="sans-serif">EXTERNAL UTC</text><rect x="649.382" y="408.04" width="108.715" height="108.715" fill="none" stroke="#5E737B" stroke-width="3"/><text x="657.382" y="432.04" fill="#5E737B" font-family="sans-serif" font-size="20">clock-task</text><text x="703.74" y="541.344" text-anchor="middle" fill="#E7E0D0" font-size="18" font-family="sans-serif">TASK CLOCK</text><rect x="933.302" y="408.04" width="108.715" height="108.715" fill="none" stroke="#5E737B" stroke-width="3"/><text x="941.302" y="432.04" fill="#5E737B" font-family="sans-serif" font-size="20">clock</text><text x="987.66" y="541.344" text-anchor="middle" fill="#E7E0D0" font-size="18" font-family="sans-serif">EXTERNAL UTC</text><rect x="3" y="3" width="1194" height="794" fill="none" stroke="#5E737B" stroke-width="4"/></svg>

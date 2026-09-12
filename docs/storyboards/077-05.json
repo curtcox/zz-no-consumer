@@ -1,6 +1,6 @@
 {
   "background": "ink",
-  "intent": "Block a published claim is several steps from the event. Keep the scripted evidence boundary and lettering visible.",
+  "intent": "Keep event, record, analysis, review and claim as separate stages with visible method tags. Distance between event and publication is part of the evidence story.",
   "lettering": [
     {
       "box": [
@@ -21,7 +21,8 @@
         0.8648,
         0.576
       ],
-      "color": "steel"
+      "color": "steel",
+      "focus": true
     },
     {
       "asset": "card",

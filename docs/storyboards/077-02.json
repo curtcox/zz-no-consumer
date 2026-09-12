@@ -1,6 +1,6 @@
 {
   "background": "ink",
-  "intent": "Block preprocessing reconstructs records and leaves unmatched pieces. Keep the scripted evidence boundary and lettering visible.",
+  "intent": "Join matching chunks while leaving unmatched pieces outside the assembled files. Approximate time markers must retain their uncertainty through preprocessing.",
   "lettering": [
     {
       "box": [
@@ -16,74 +16,89 @@
     {
       "asset": "card",
       "box": [
-        0.1044,
-        0.2242,
-        0.146372,
-        0.256
+        0.0541,
+        0.1302,
+        0.2093,
+        0.224928
       ],
       "color": "steel",
       "focus": true,
       "label": "CHUNKS",
       "label_box": [
-        0.09640000000000001,
-        0.4862,
-        0.16237200000000002,
-        0.085
-      ]
+        0.0541,
+        0.36876,
+        0.2093,
+        0.098832
+      ],
+      "label_size": 18
+    },
+    {
+      "asset": "arrow",
+      "box": [
+        0.2907,
+        0.2438,
+        0.1183,
+        0.0497
+      ],
+      "color": "steel",
+      "focus": true
     },
     {
       "asset": "folder",
       "box": [
-        0.3022,
-        0.2242,
-        0.146372,
-        0.256
+        0.4454,
+        0.1302,
+        0.2093,
+        0.224928
       ],
       "color": "steel",
       "focus": true,
-      "label": "FILES",
+      "label": "ASSEMBLED FILES",
       "label_box": [
-        0.2942,
-        0.4862,
-        0.16237200000000002,
-        0.085
-      ]
+        0.4454,
+        0.36876,
+        0.2093,
+        0.098832
+      ],
+      "label_size": 18
     },
     {
       "asset": "clock",
       "box": [
-        0.5,
-        0.242421,
-        0.146372,
-        0.219558
+        0.757174,
+        0.1302,
+        0.149952,
+        0.224928
       ],
       "color": "steel",
       "focus": true,
       "label": "APPROXIMATE TIMES",
       "label_box": [
-        0.492,
-        0.4862,
-        0.16237200000000002,
-        0.085
-      ]
+        0.7275,
+        0.36876,
+        0.2093,
+        0.098832
+      ],
+      "label_size": 18
     },
     {
-      "asset": "outline-box",
+      "asset": "empty-slot",
       "box": [
-        0.6978,
-        0.2242,
-        0.146372,
-        0.256
+        0.1906,
+        0.5704,
+        0.6097,
+        0.103092
       ],
       "color": "steel",
       "focus": true,
-      "label": "UNMATCHED",
+      "label": "UNMATCHED MATERIAL",
       "label_box": [
-        0.6898,
-        0.4862,
-        0.16237200000000002,
-        0.085
-      ]
+        0.1906,
+        0.67974,
+        0.6097,
+        0.045298
+      ],
+      "label_size": 18
     }
   ],
   "reconstructed": false,

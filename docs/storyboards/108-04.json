@@ -1,6 +1,6 @@
 {
   "background": "ink",
-  "intent": "Block the maintainer deletes the original page. Keep the scripted evidence boundary and lettering visible.",
+  "intent": "Use the same reconstructed moderation view and exact original-deletion time. Fix hand and screen geometry so the following panel isolates the changed target and elapsed seconds.",
   "lettering": [
     {
       "box": [
@@ -16,10 +16,10 @@
     {
       "asset": "hand",
       "box": [
-        0.07,
-        0.2936,
-        0.106067,
-        0.348
+        0.068878,
+        0.2012,
+        0.237377,
+        0.4189
       ],
       "color": "dirty",
       "focus": true
@@ -27,38 +27,40 @@
     {
       "asset": "monitor",
       "box": [
-        0.213333,
-        0.2936,
-        0.106067,
-        0.348
+        0.371083,
+        0.2012,
+        0.239633,
+        0.276474
       ],
       "color": "steel",
       "focus": true,
       "label": "MODERATION",
       "label_box": [
-        0.205333,
-        0.6476,
-        0.122067,
-        0.085
-      ]
+        0.371083,
+        0.49443,
+        0.239633,
+        0.121481
+      ],
+      "label_size": 18
     },
     {
       "asset": "cross",
       "box": [
-        0.356667,
-        0.38804975,
-        0.106067,
-        0.1591005
+        0.702076,
+        0.2012,
+        0.184316,
+        0.276474
       ],
       "color": "steel",
       "focus": true,
       "label": "ORIGINAL DELETED",
       "label_box": [
-        0.348667,
-        0.6476,
-        0.122067,
-        0.085
-      ]
+        0.674417,
+        0.49443,
+        0.239633,
+        0.121481
+      ],
+      "label_size": 18
     }
   ],
   "reconstructed": true,

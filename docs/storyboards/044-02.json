@@ -1,6 +1,6 @@
 {
   "background": "ink",
-  "intent": "Block the OpenAI dossier records fourteen tokens. Keep the scripted evidence boundary and lettering visible.",
+  "intent": "Use exactly fourteen small sealed cards inside the separate institutional frame. Their regular arrangement supports counting without suggesting the two dossiers describe identical token sets.",
   "lettering": [
     {
       "box": [
@@ -21,7 +21,8 @@
         0.2668,
         0.10752
       ],
-      "color": "steel"
+      "color": "steel",
+      "focus": true
     },
     {
       "asset": "sealed",
@@ -42,7 +43,8 @@
         0.2668,
         0.10752
       ],
-      "color": "steel"
+      "color": "steel",
+      "focus": true
     },
     {
       "asset": "sealed",
@@ -63,7 +65,8 @@
         0.2668,
         0.10752
       ],
-      "color": "steel"
+      "color": "steel",
+      "focus": true
     },
     {
       "asset": "sealed",
@@ -84,7 +87,8 @@
         0.2668,
         0.10752
       ],
-      "color": "steel"
+      "color": "steel",
+      "focus": true
     },
     {
       "asset": "sealed",
@@ -105,7 +109,8 @@
         0.2668,
         0.10752
       ],
-      "color": "steel"
+      "color": "steel",
+      "focus": true
     },
     {
       "asset": "sealed",
@@ -126,7 +131,8 @@
         0.2668,
         0.10752
       ],
-      "color": "steel"
+      "color": "steel",
+      "focus": true
     },
     {
       "asset": "sealed",
@@ -147,7 +153,8 @@
         0.2668,
         0.10752
       ],
-      "color": "steel"
+      "color": "steel",
+      "focus": true
     },
     {
       "asset": "sealed",
@@ -168,7 +175,8 @@
         0.2668,
         0.10752
       ],
-      "color": "steel"
+      "color": "steel",
+      "focus": true
     },
     {
       "asset": "sealed",
@@ -189,7 +197,8 @@
         0.2668,
         0.10752
       ],
-      "color": "steel"
+      "color": "steel",
+      "focus": true
     },
     {
       "asset": "sealed",
@@ -210,7 +219,8 @@
         0.2668,
         0.10752
       ],
-      "color": "steel"
+      "color": "steel",
+      "focus": true
     },
     {
       "asset": "sealed",
@@ -231,7 +241,8 @@
         0.2668,
         0.10752
       ],
-      "color": "steel"
+      "color": "steel",
+      "focus": true
     },
     {
       "asset": "sealed",
@@ -252,7 +263,8 @@
         0.2668,
         0.10752
       ],
-      "color": "steel"
+      "color": "steel",
+      "focus": true
     },
     {
       "asset": "sealed",
@@ -273,7 +285,8 @@
         0.2668,
         0.10752
       ],
-      "color": "steel"
+      "color": "steel",
+      "focus": true
     },
     {
       "asset": "sealed",
@@ -294,7 +307,8 @@
         0.2668,
         0.10752
       ],
-      "color": "steel"
+      "color": "steel",
+      "focus": true
     },
     {
       "asset": "sealed",

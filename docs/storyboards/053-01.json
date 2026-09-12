@@ -1,6 +1,6 @@
 {
   "background": "ink",
-  "intent": "Block a visibly composite meeting of functional roles. Keep the scripted evidence boundary and lettering visible.",
+  "intent": "Use ordinary meeting geometry and a prominent continuous composite disclosure. Functional roles share the table; no venue insignia or recognizable likeness should imply a particular real meeting.",
   "lettering": [],
   "lettering_mode": "manual",
   "nodes": [
@@ -28,22 +28,24 @@
       "asset": "person-seated",
       "box": [
         0.0722,
-        0.29600000000000004,
+        0.296,
         0.2418,
-        0.5579999999999999
+        0.558
       ],
-      "color": "dirty"
+      "color": "dirty",
+      "focus": true
     },
     {
       "asset": "person-seated",
       "box": [
         0.7046,
-        0.29600000000000004,
+        0.296,
         0.2418,
-        0.5579999999999999
+        0.558
       ],
       "color": "dirty",
-      "flip": true
+      "flip": true,
+      "focus": true
     },
     {
       "asset": "card",

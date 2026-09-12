@@ -1,6 +1,6 @@
 {
   "background": "ink",
-  "intent": "Block the service holds persistent changes. Keep the scripted evidence boundary and lettering visible.",
+  "intent": "Combine the persistent users, staged plugin, notes and ordinary package traffic in one service view. Retain each state; activity around the plugin must not make it look executed.",
   "lettering": [
     {
       "box": [
@@ -21,7 +21,8 @@
         0.2668,
         0.2688
       ],
-      "color": "steel"
+      "color": "steel",
+      "focus": true
     },
     {
       "asset": "card",
@@ -49,7 +50,8 @@
         0.2668,
         0.2688
       ],
-      "color": "steel"
+      "color": "steel",
+      "focus": true
     },
     {
       "asset": "sealed",
@@ -77,7 +79,8 @@
         0.2668,
         0.2688
       ],
-      "color": "steel"
+      "color": "steel",
+      "focus": true
     },
     {
       "asset": "folder",
@@ -105,7 +108,8 @@
         0.2668,
         0.2688
       ],
-      "color": "steel"
+      "color": "steel",
+      "focus": true
     },
     {
       "asset": "folder",

@@ -1,6 +1,6 @@
 {
   "background": "ink",
-  "intent": "The broad black gap carries the conclusion; preserve it through later image treatments.",
+  "intent": "Remove the attempts and retain their conclusion: output at left, flag at right, a dominant uninterrupted gap between. Keep the impossibility local to this specified route.",
   "lettering": [],
   "nodes": [
     {
@@ -28,9 +28,9 @@
     {
       "asset": "flag",
       "box": [
-        0.81,
+        0.816667,
         0.4,
-        0.1,
+        0.086667,
         0.2
       ],
       "color": "dirty",

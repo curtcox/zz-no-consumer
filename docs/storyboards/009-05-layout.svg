@@ -1,22 +1,24 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="800" viewBox="0 0 1200 800"><title>The inspection aperture faces the trace</title><metadata>{
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="800" viewBox="0 0 1200 800"><title>The inspection aperture faces the trace</title><desc>Make the mechanical aperture attend to a transcript strip while answer cards recede. This directional change should read as research into observation, not an omniscient eye watching the agents.</desc><metadata>{
   &quot;assets&quot;: {
     &quot;aperture&quot;: &quot;&lt;rect x=\&quot;2\&quot; y=\&quot;15\&quot; width=\&quot;96\&quot; height=\&quot;70\&quot; fill=\&quot;#202326\&quot; stroke=\&quot;currentColor\&quot; stroke-width=\&quot;3\&quot;/&gt;&lt;circle cx=\&quot;50\&quot; cy=\&quot;50\&quot; r=\&quot;27\&quot; fill=\&quot;#101214\&quot; stroke=\&quot;currentColor\&quot; stroke-width=\&quot;3\&quot;/&gt;&lt;path d=\&quot;M50 24L74 63H26ZM26 63L50 24L74 63\&quot; fill=\&quot;none\&quot; stroke=\&quot;currentColor\&quot; stroke-width=\&quot;2\&quot;/&gt;&quot;,
-    &quot;card&quot;: &quot;&lt;rect x=\&quot;1\&quot; y=\&quot;1\&quot; width=\&quot;98\&quot; height=\&quot;98\&quot; fill=\&quot;#202326\&quot; stroke=\&quot;currentColor\&quot; stroke-width=\&quot;2\&quot;/&gt;&lt;path d=\&quot;M8 13H92M8 27H70M8 36H86M8 45H72M8 65H86M8 74H57\&quot; stroke=\&quot;currentColor\&quot; stroke-width=\&quot;1.5\&quot;/&gt;&quot;
+    &quot;transcript&quot;: &quot;&lt;rect x=\&quot;1\&quot; y=\&quot;1\&quot; width=\&quot;98\&quot; height=\&quot;98\&quot; fill=\&quot;#202326\&quot; stroke=\&quot;currentColor\&quot; stroke-width=\&quot;2\&quot;/&gt;&lt;path d=\&quot;M20 1V99M1 18H99M6 10H13M27 9H83M6 31H13M28 30H88M28 39H71M6 53H13M28 52H79M28 61H90M6 75H13M28 74H66M28 83H83\&quot; stroke=\&quot;currentColor\&quot; stroke-width=\&quot;2\&quot;/&gt;&quot;
   },
   &quot;palette&quot;: {
     &quot;amber&quot;: &quot;#A17D45&quot;,
+    &quot;claret&quot;: &quot;#6B2634&quot;,
     &quot;dirty&quot;: &quot;#CEC5B3&quot;,
     &quot;ink&quot;: &quot;#101214&quot;,
     &quot;institution&quot;: &quot;#68766B&quot;,
+    &quot;moss&quot;: &quot;#74864F&quot;,
     &quot;nicotine&quot;: &quot;#AA9571&quot;,
     &quot;paper&quot;: &quot;#E7E0D0&quot;,
     &quot;shadow&quot;: &quot;#202326&quot;,
     &quot;steel&quot;: &quot;#5E737B&quot;
   },
-  &quot;renderer&quot;: &quot;storyboard-svg-1&quot;,
+  &quot;renderer&quot;: &quot;storyboard-svg-2&quot;,
   &quot;scene&quot;: {
     &quot;background&quot;: &quot;ink&quot;,
-    &quot;intent&quot;: &quot;Block the inspection aperture faces the trace. Keep the scripted evidence boundary and lettering visible.&quot;,
+    &quot;intent&quot;: &quot;Make the mechanical aperture attend to a transcript strip while answer cards recede. This directional change should read as research into observation, not an omniscient eye watching the agents.&quot;,
     &quot;lettering&quot;: [
       {
         &quot;box&quot;: [
@@ -33,15 +35,15 @@
         &quot;asset&quot;: &quot;aperture&quot;,
         &quot;box&quot;: [
           0.3096533333333333,
-          0.12819999999999998,
+          0.1282,
           0.3438933333333334,
-          0.39680000000000004
+          0.3968
         ],
         &quot;color&quot;: &quot;steel&quot;,
         &quot;focus&quot;: true
       },
       {
-        &quot;asset&quot;: &quot;card&quot;,
+        &quot;asset&quot;: &quot;transcript&quot;,
         &quot;box&quot;: [
           0.0952,
           0.5698,
@@ -65,4 +67,4 @@
     &quot;title&quot;: &quot;The inspection aperture faces the trace&quot;
   }
 }
-</metadata><rect width="1200" height="800" fill="#101214"/><rect x="371.584" y="102.56" width="412.672" height="317.44" fill="none" stroke="#5E737B" stroke-width="3"/><text x="379.584" y="126.56" fill="#5E737B" font-family="sans-serif" font-size="20">aperture</text><rect x="114.24" y="455.84" width="772.8" height="46.08" fill="none" stroke="#5E737B" stroke-width="3"/><text x="122.24" y="479.84" fill="#5E737B" font-family="sans-serif" font-size="20">card</text><text x="500.64" y="526.72" text-anchor="middle" fill="#E7E0D0" font-size="20" font-family="sans-serif">TRANSCRIPT</text><rect x="3" y="3" width="1194" height="794" fill="none" stroke="#5E737B" stroke-width="4"/></svg>
+</metadata><rect width="1200" height="800" fill="#101214"/><rect x="371.584" y="102.56" width="412.672" height="317.44" fill="none" stroke="#5E737B" stroke-width="3"/><text x="379.584" y="126.56" fill="#5E737B" font-family="sans-serif" font-size="20">aperture</text><rect x="114.24" y="455.84" width="772.8" height="46.08" fill="none" stroke="#5E737B" stroke-width="3"/><text x="122.24" y="479.84" fill="#5E737B" font-family="sans-serif" font-size="20">transcript</text><text x="500.64" y="526.72" text-anchor="middle" fill="#E7E0D0" font-size="20" font-family="sans-serif">TRANSCRIPT</text><rect x="3" y="3" width="1194" height="794" fill="none" stroke="#5E737B" stroke-width="4"/></svg>

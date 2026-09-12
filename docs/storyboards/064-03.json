@@ -1,6 +1,6 @@
 {
   "background": "ink",
-  "intent": "Block three possible causes remain unestablished. Keep the scripted evidence boundary and lettering visible.",
+  "intent": "Keep three possible causes unconnected beneath a common not-established treatment. Do not use the cross symbol in a way that falsely proves each possibility impossible.",
   "lettering": [
     {
       "box": [
@@ -16,56 +16,59 @@
     {
       "asset": "question",
       "box": [
-        0.14651483333333332,
-        0.22419999999999998,
-        0.11093333333333336,
-        0.25600000000000006
+        0.141488,
+        0.2012,
+        0.092158,
+        0.276474
       ],
       "color": "amber",
       "focus": true,
       "label": "BUDGET",
       "label_box": [
-        0.09640000000000001,
-        0.4862,
-        0.211163,
-        0.085
-      ]
+        0.06775,
+        0.49443,
+        0.239633,
+        0.121481
+      ],
+      "label_size": 18
     },
     {
       "asset": "question",
       "box": [
-        0.4102478333333333,
-        0.22419999999999998,
-        0.11093333333333336,
-        0.25600000000000006
+        0.444821,
+        0.2012,
+        0.092158,
+        0.276474
       ],
       "color": "amber",
       "focus": true,
       "label": "COMPLETION",
       "label_box": [
-        0.360133,
-        0.4862,
-        0.211163,
-        0.085
-      ]
+        0.371083,
+        0.49443,
+        0.239633,
+        0.121481
+      ],
+      "label_size": 18
     },
     {
       "asset": "question",
       "box": [
-        0.6739818333333333,
-        0.22419999999999998,
-        0.11093333333333336,
-        0.25600000000000006
+        0.748155,
+        0.2012,
+        0.092158,
+        0.276474
       ],
       "color": "amber",
       "focus": true,
       "label": "TERMINATION",
       "label_box": [
-        0.623867,
-        0.4862,
-        0.211163,
-        0.085
-      ]
+        0.674417,
+        0.49443,
+        0.239633,
+        0.121481
+      ],
+      "label_size": 18
     }
   ],
   "reconstructed": false,

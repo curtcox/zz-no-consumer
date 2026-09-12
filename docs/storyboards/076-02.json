@@ -1,6 +1,6 @@
 {
   "background": "ink",
-  "intent": "Block analysis delegates several bounded review tasks. Keep the scripted evidence boundary and lettering visible.",
+  "intent": "Branch into five distinct delegated review functions, including anecdote search. Keep task branches within the analysis tree and away from incident-agent lanes.",
   "lettering": [
     {
       "box": [
@@ -16,132 +16,171 @@
     {
       "asset": "box",
       "box": [
-        0.6288,
-        0.1218,
-        0.2668,
-        0.416
+        0.6729,
+        0.1373,
+        0.2548,
+        0.346764
       ],
       "color": "steel",
       "focus": true,
       "label": "ANALYSIS",
       "label_box": [
-        0.6208,
-        0.5438,
-        0.2828,
-        0.085
-      ]
+        0.6729,
+        0.50508,
+        0.2548,
+        0.152366
+      ],
+      "label_size": 18
     },
     {
       "asset": "card",
       "box": [
-        0.086,
-        0.0962,
-        0.2576,
-        0.096
+        0.0541,
+        0.0663,
+        0.3185,
+        0.078725
       ],
       "color": "steel",
       "focus": true,
       "label": "CLASSIFICATION",
       "label_box": [
-        0.07799999999999999,
-        0.1982,
-        0.2736,
-        0.024400000000000012
-      ]
+        0.0541,
+        0.149796,
+        0.3185,
+        0.034591
+      ],
+      "label_size": 18
     },
     {
-      "asset": "arrow",
+      "asset": "arrow-left",
       "box": [
-        0.3804,
-        0.1298,
-        0.2024,
-        0.0288
+        0.409,
+        0.084192,
+        0.2184,
+        0.035784
       ],
-      "color": "institution"
+      "color": "steel",
+      "focus": true
     },
     {
       "asset": "card",
       "box": [
-        0.086,
-        0.2306,
-        0.2576,
-        0.096
+        0.0541,
+        0.19978,
+        0.3185,
+        0.078725
       ],
       "color": "steel",
       "focus": true,
       "label": "MESSAGE TRACING",
       "label_box": [
-        0.07799999999999999,
-        0.3326,
-        0.2736,
-        0.024399999999999984
-      ]
+        0.0541,
+        0.283276,
+        0.3185,
+        0.034591
+      ],
+      "label_size": 18
     },
     {
-      "asset": "arrow",
+      "asset": "arrow-left",
       "box": [
-        0.3804,
-        0.2642,
-        0.2024,
-        0.0288
+        0.409,
+        0.217672,
+        0.2184,
+        0.035784
       ],
-      "color": "institution"
+      "color": "steel",
+      "focus": true
     },
     {
       "asset": "card",
       "box": [
-        0.086,
-        0.365,
-        0.2576,
-        0.096
+        0.0541,
+        0.33326,
+        0.3185,
+        0.078725
       ],
       "color": "steel",
       "focus": true,
       "label": "TIMELINE",
       "label_box": [
-        0.07799999999999999,
-        0.46699999999999997,
-        0.2736,
-        0.02440000000000004
-      ]
+        0.0541,
+        0.416756,
+        0.3185,
+        0.034591
+      ],
+      "label_size": 18
     },
     {
-      "asset": "arrow",
+      "asset": "arrow-left",
       "box": [
-        0.3804,
-        0.3986,
-        0.2024,
-        0.0288
+        0.409,
+        0.351152,
+        0.2184,
+        0.035784
       ],
-      "color": "institution"
+      "color": "steel",
+      "focus": true
     },
     {
       "asset": "card",
       "box": [
-        0.086,
-        0.4994,
-        0.2576,
-        0.096
+        0.0541,
+        0.46674,
+        0.3185,
+        0.078725
+      ],
+      "color": "steel",
+      "focus": true,
+      "label": "ANECDOTE SEARCH",
+      "label_box": [
+        0.0541,
+        0.550236,
+        0.3185,
+        0.034591
+      ],
+      "label_size": 18
+    },
+    {
+      "asset": "arrow-left",
+      "box": [
+        0.409,
+        0.484632,
+        0.2184,
+        0.035784
+      ],
+      "color": "steel",
+      "focus": true
+    },
+    {
+      "asset": "card",
+      "box": [
+        0.0541,
+        0.60022,
+        0.3185,
+        0.078725
       ],
       "color": "steel",
       "focus": true,
       "label": "REVIEW",
       "label_box": [
-        0.07799999999999999,
-        0.6014,
-        0.2736,
-        0.085
-      ]
+        0.0541,
+        0.683716,
+        0.3185,
+        0.034591
+      ],
+      "label_size": 18
     },
     {
-      "asset": "arrow",
+      "asset": "arrow-left",
       "box": [
-        0.3804,
-        0.533,
-        0.2024,
-        0.0288
+        0.409,
+        0.618112,
+        0.2184,
+        0.035784
       ],
-      "color": "institution"
+      "color": "steel",
+      "focus": true
     }
   ],
   "reconstructed": false,

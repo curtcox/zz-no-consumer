@@ -1,6 +1,6 @@
 {
   "background": "ink",
-  "intent": "Block remediation cards leave a fifth box empty. Keep the scripted evidence boundary and lettering visible.",
+  "intent": "Repeat the four remediation cards with the unfinished stamp intact and leave the fifth box genuinely empty. Do not invent a label to make the row feel complete.",
   "lettering": [
     {
       "box": [
@@ -14,84 +14,88 @@
   "lettering_mode": "manual",
   "nodes": [
     {
-      "asset": "card",
+      "asset": "task",
       "box": [
-        0.1044,
-        0.2242,
-        0.117098,
-        0.256
+        0.06775,
+        0.2012,
+        0.1183,
+        0.276474
       ],
       "color": "steel",
       "focus": true,
       "label": "IDENTIFY BROKEN TASK",
       "label_box": [
-        0.09640000000000001,
-        0.4862,
-        0.133098,
-        0.085
-      ]
+        0.06775,
+        0.49443,
+        0.1183,
+        0.121481
+      ],
+      "label_size": 18
     },
     {
       "asset": "card",
       "box": [
-        0.26264,
-        0.2242,
-        0.117098,
-        0.256
+        0.24975,
+        0.2012,
+        0.1183,
+        0.276474
       ],
       "color": "steel",
       "focus": true,
       "label": "STOP SAFELY",
       "label_box": [
-        0.25464,
-        0.4862,
-        0.133098,
-        0.085
-      ]
+        0.24975,
+        0.49443,
+        0.1183,
+        0.121481
+      ],
+      "label_size": 18
     },
     {
       "asset": "card",
       "box": [
-        0.42088,
-        0.2242,
-        0.117098,
-        0.256
+        0.43175,
+        0.2012,
+        0.1183,
+        0.276474
       ],
       "color": "steel",
       "focus": true,
       "label": "DISTRUST PEER REQUESTS",
       "label_box": [
-        0.41287999999999997,
-        0.4862,
-        0.133098,
-        0.085
-      ]
+        0.43175,
+        0.49443,
+        0.1183,
+        0.121481
+      ],
+      "label_size": 18
     },
     {
       "asset": "card",
       "box": [
-        0.57912,
-        0.2242,
-        0.117098,
-        0.256
+        0.61375,
+        0.2012,
+        0.1183,
+        0.276474
       ],
       "color": "steel",
       "focus": true,
       "label": "IN DEVELOPMENT",
       "label_box": [
-        0.57112,
-        0.4862,
-        0.133098,
-        0.085
-      ]
+        0.61375,
+        0.49443,
+        0.1183,
+        0.121481
+      ],
+      "label_size": 18
     },
     {
       "asset": "outline-box",
       "box": [
-        0.73736,
-        0.2242,
-        0.117098,
-        0.256
+        0.79575,
+        0.2012,
+        0.1183,
+        0.4189
       ],
       "color": "steel",
       "focus": true

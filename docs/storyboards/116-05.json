@@ -1,6 +1,6 @@
 {
   "background": "ink",
-  "intent": "Block the marker raises an isolation question. Keep the scripted evidence boundary and lettering visible.",
+  "intent": "Place the marker beside an apparent-isolation frame with a question between. Unexpected visibility raises an uncertainty without asserting a hidden malicious channel.",
   "lettering": [
     {
       "box": [
@@ -16,56 +16,59 @@
     {
       "asset": "card",
       "box": [
-        0.1044,
-        0.2242,
-        0.195163,
-        0.256
+        0.06775,
+        0.2012,
+        0.239633,
+        0.276474
       ],
       "color": "dirty",
       "focus": true,
       "label": "MARKER",
       "label_box": [
-        0.09640000000000001,
-        0.4862,
-        0.211163,
-        0.085
-      ]
+        0.06775,
+        0.49443,
+        0.239633,
+        0.121481
+      ],
+      "label_size": 18
     },
     {
       "asset": "question",
       "box": [
-        0.4102478333333333,
-        0.22419999999999998,
-        0.11093333333333336,
-        0.25600000000000006
+        0.444821,
+        0.2012,
+        0.092158,
+        0.276474
       ],
       "color": "dirty",
       "focus": true,
       "label": "VISIBILITY?",
       "label_box": [
-        0.360133,
-        0.4862,
-        0.211163,
-        0.085
-      ]
+        0.371083,
+        0.49443,
+        0.239633,
+        0.121481
+      ],
+      "label_size": 18
     },
     {
       "asset": "outline-box",
       "box": [
-        0.631867,
-        0.2242,
-        0.195163,
-        0.256
+        0.674417,
+        0.2012,
+        0.239633,
+        0.276474
       ],
       "color": "dirty",
       "focus": true,
       "label": "APPARENT ISOLATION",
       "label_box": [
-        0.623867,
-        0.4862,
-        0.211163,
-        0.085
-      ]
+        0.674417,
+        0.49443,
+        0.239633,
+        0.121481
+      ],
+      "label_size": 18
     }
   ],
   "reconstructed": false,

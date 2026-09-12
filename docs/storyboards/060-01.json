@@ -1,6 +1,6 @@
 {
   "background": "ink",
-  "intent": "Block the last visible commitment enters the dossier. Keep the scripted evidence boundary and lettering visible.",
+  "intent": "Return to the same waiting slot and attach the last visible commitment as a source card. Preserve the distinction between a commitment and its fulfillment.",
   "lettering": [
     {
       "box": [

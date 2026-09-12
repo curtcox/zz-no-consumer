@@ -1,6 +1,6 @@
 {
   "background": "ink",
-  "intent": "Block the published account lists its asserted chain. Keep the scripted evidence boundary and lettering visible.",
+  "intent": "List each attributed chain element separately under the published column. Their documentary availability must not promote them into independent reconstruction.",
   "lettering": [
     {
       "box": [
@@ -88,9 +88,9 @@
     {
       "asset": "clock",
       "box": [
-        0.46929599999999994,
+        0.471876,
         0.5766432,
-        0.043008,
+        0.037847,
         0.05677056
       ],
       "color": "steel",

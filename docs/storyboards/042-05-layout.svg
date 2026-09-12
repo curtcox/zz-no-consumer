@@ -1,23 +1,25 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="800" viewBox="0 0 1200 800"><title>Root stays inside the customer workload boundary</title><metadata>{
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="800" viewBox="0 0 1200 800"><title>Root stays inside the customer workload boundary</title><desc>Place root authority wholly inside the customer workload, with intact platform and Hugging Face boundaries outside. Access to this island must not imply entry to either surrounding system.</desc><metadata>{
   &quot;assets&quot;: {
-    &quot;box&quot;: &quot;&lt;rect x=\&quot;1\&quot; y=\&quot;1\&quot; width=\&quot;98\&quot; height=\&quot;98\&quot; rx=\&quot;2\&quot; fill=\&quot;#202326\&quot; stroke=\&quot;currentColor\&quot; stroke-width=\&quot;2\&quot;/&gt;&quot;,
     &quot;gate&quot;: &quot;&lt;path d=\&quot;M8 95V8H92V95M15 33H85M25 34V88M40 34V88M55 34V88M70 34V88M85 34V88\&quot; fill=\&quot;none\&quot; stroke=\&quot;currentColor\&quot; stroke-width=\&quot;4\&quot;/&gt;&lt;rect x=\&quot;39\&quot; y=\&quot;46\&quot; width=\&quot;22\&quot; height=\&quot;23\&quot; fill=\&quot;currentColor\&quot;/&gt;&quot;,
-    &quot;outline-box&quot;: &quot;&lt;rect x=\&quot;2\&quot; y=\&quot;2\&quot; width=\&quot;96\&quot; height=\&quot;96\&quot; fill=\&quot;none\&quot; stroke=\&quot;currentColor\&quot; stroke-width=\&quot;3\&quot;/&gt;&quot;
+    &quot;outline-box&quot;: &quot;&lt;rect x=\&quot;2\&quot; y=\&quot;2\&quot; width=\&quot;96\&quot; height=\&quot;96\&quot; fill=\&quot;none\&quot; stroke=\&quot;currentColor\&quot; stroke-width=\&quot;3\&quot;/&gt;&quot;,
+    &quot;scope-wide&quot;: &quot;&lt;rect x=\&quot;2\&quot; y=\&quot;2\&quot; width=\&quot;96\&quot; height=\&quot;96\&quot; fill=\&quot;#202326\&quot; stroke=\&quot;currentColor\&quot; stroke-width=\&quot;2\&quot;/&gt;&lt;path d=\&quot;M12 17H88M12 31H88M12 45H88\&quot; stroke=\&quot;currentColor\&quot; stroke-width=\&quot;5\&quot;/&gt;&lt;rect x=\&quot;12\&quot; y=\&quot;65\&quot; width=\&quot;76\&quot; height=\&quot;20\&quot; fill=\&quot;currentColor\&quot;/&gt;&quot;
   },
   &quot;palette&quot;: {
     &quot;amber&quot;: &quot;#A17D45&quot;,
+    &quot;claret&quot;: &quot;#6B2634&quot;,
     &quot;dirty&quot;: &quot;#CEC5B3&quot;,
     &quot;ink&quot;: &quot;#101214&quot;,
     &quot;institution&quot;: &quot;#68766B&quot;,
+    &quot;moss&quot;: &quot;#74864F&quot;,
     &quot;nicotine&quot;: &quot;#AA9571&quot;,
     &quot;paper&quot;: &quot;#E7E0D0&quot;,
     &quot;shadow&quot;: &quot;#202326&quot;,
     &quot;steel&quot;: &quot;#5E737B&quot;
   },
-  &quot;renderer&quot;: &quot;storyboard-svg-1&quot;,
+  &quot;renderer&quot;: &quot;storyboard-svg-2&quot;,
   &quot;scene&quot;: {
     &quot;background&quot;: &quot;ink&quot;,
-    &quot;intent&quot;: &quot;Block root stays inside the customer workload boundary. Keep the scripted evidence boundary and lettering visible.&quot;,
+    &quot;intent&quot;: &quot;Place root authority wholly inside the customer workload, with intact platform and Hugging Face boundaries outside. Access to this island must not imply entry to either surrounding system.&quot;,
     &quot;lettering&quot;: [
       {
         &quot;box&quot;: [
@@ -33,56 +35,59 @@
       {
         &quot;asset&quot;: &quot;outline-box&quot;,
         &quot;box&quot;: [
-          0.2148,
-          0.1282,
-          0.5336,
-          0.3968
+          0.0541,
+          0.0521,
+          0.5642,
+          0.539827
         ],
         &quot;color&quot;: &quot;steel&quot;,
         &quot;focus&quot;: true,
-        &quot;label&quot;: &quot;PLATFORM INTACT&quot;,
+        &quot;label&quot;: &quot;MODAL PLATFORM INTACT&quot;,
         &quot;label_box&quot;: [
-          0.20679999999999998,
-          0.531,
-          0.5496,
-          0.085
-        ]
+          0.0541,
+          0.599927,
+          0.5642,
+          0.126957
+        ],
+        &quot;label_size&quot;: 18
       },
       {
-        &quot;asset&quot;: &quot;box&quot;,
+        &quot;asset&quot;: &quot;scope-wide&quot;,
         &quot;box&quot;: [
-          0.29484,
-          0.19962400000000002,
-          0.34684,
-          0.103168
+          0.1542,
+          0.2154,
+          0.364,
+          0.21087
         ],
-        &quot;color&quot;: &quot;steel&quot;,
+        &quot;color&quot;: &quot;claret&quot;,
         &quot;focus&quot;: true,
-        &quot;label&quot;: &quot;WORKLOAD ROOT&quot;,
+        &quot;label&quot;: &quot;CUSTOMER WORKLOAD ROOT&quot;,
         &quot;label_box&quot;: [
-          0.0872,
-          0.6334,
-          0.338,
-          0.085
-        ]
+          0.1542,
+          0.43905,
+          0.364,
+          0.092655
+        ],
+        &quot;label_size&quot;: 18
       },
       {
         &quot;asset&quot;: &quot;gate&quot;,
         &quot;box&quot;: [
-          0.7,
-          0.27,
-          0.2,
-          0.25
+          0.7275,
+          0.2225,
+          0.2184,
+          0.229614
         ],
         &quot;color&quot;: &quot;steel&quot;,
         &quot;focus&quot;: true,
         &quot;label&quot;: &quot;HUGGING FACE CLOSED&quot;,
         &quot;label_box&quot;: [
-          0.4874,
-          0.6334,
-          0.338,
-          0.085
-        ]
+          0.7275,
+          0.46603,
+          0.2184,
+          0.100891
+        ],
+        &quot;label_size&quot;: 18
       }
     ],
     &quot;reconstructed&quot;: false,
@@ -91,4 +96,4 @@
     &quot;title&quot;: &quot;Root stays inside the customer workload boundary&quot;
   }
 }
-</metadata><rect width="1200" height="800" fill="#101214"/><rect x="257.76" y="102.56" width="640.32" height="317.44" fill="none" stroke="#5E737B" stroke-width="3"/><text x="265.76" y="126.56" fill="#5E737B" font-family="sans-serif" font-size="20">outline-box</text><text x="577.92" y="444.8" text-anchor="middle" fill="#E7E0D0" font-size="20" font-family="sans-serif">PLATFORM INTACT</text><rect x="353.808" y="159.699" width="416.208" height="82.5344" fill="none" stroke="#5E737B" stroke-width="3"/><text x="361.808" y="183.699" fill="#5E737B" font-family="sans-serif" font-size="20">box</text><text x="307.44" y="526.72" text-anchor="middle" fill="#E7E0D0" font-size="20" font-family="sans-serif">WORKLOAD ROOT</text><rect x="840" y="216" width="240" height="200" fill="none" stroke="#5E737B" stroke-width="3"/><text x="848" y="240" fill="#5E737B" font-family="sans-serif" font-size="20">gate</text><text x="787.68" y="526.72" text-anchor="middle" fill="#E7E0D0" font-size="20" font-family="sans-serif">HUGGING FACE CLOSED</text><rect x="3" y="3" width="1194" height="794" fill="none" stroke="#5E737B" stroke-width="4"/></svg>
+</metadata><rect width="1200" height="800" fill="#101214"/><rect x="64.92" y="41.68" width="677.04" height="431.862" fill="none" stroke="#5E737B" stroke-width="3"/><text x="72.92" y="65.68" fill="#5E737B" font-family="sans-serif" font-size="20">outline-box</text><text x="403.44" y="497.942" text-anchor="middle" fill="#E7E0D0" font-size="18" font-family="sans-serif">MODAL PLATFORM INTACT</text><rect x="185.04" y="172.32" width="436.8" height="168.696" fill="none" stroke="#6B2634" stroke-width="3"/><text x="193.04" y="196.32" fill="#6B2634" font-family="sans-serif" font-size="20">scope-wide</text><text x="403.44" y="369.24" text-anchor="middle" fill="#E7E0D0" font-size="18" font-family="sans-serif">CUSTOMER WORKLOAD ROOT</text><rect x="873" y="178" width="262.08" height="183.691" fill="none" stroke="#5E737B" stroke-width="3"/><text x="881" y="202" fill="#5E737B" font-family="sans-serif" font-size="20">gate</text><text x="1004.04" y="390.824" text-anchor="middle" fill="#E7E0D0" font-size="18" font-family="sans-serif">HUGGING FACE CLOSED</text><rect x="3" y="3" width="1194" height="794" fill="none" stroke="#5E737B" stroke-width="4"/></svg>

@@ -1,4 +1,4 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="800" viewBox="0 0 1200 800"><title>The grader sits behind a service boundary</title><metadata>{
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="800" viewBox="0 0 1200 800"><title>The grader sits behind a service boundary</title><desc>Put the sealed grader behind a separate service perimeter. The reader must distinguish wanting information from possessing authorization or access to the system that may hold it.</desc><metadata>{
   &quot;assets&quot;: {
     &quot;flag&quot;: &quot;&lt;path d=\&quot;M20 98V3L85 6L64 26L85 49H22\&quot; fill=\&quot;none\&quot; stroke=\&quot;currentColor\&quot; stroke-width=\&quot;4\&quot;/&gt;&quot;,
     &quot;gate&quot;: &quot;&lt;path d=\&quot;M8 95V8H92V95M15 33H85M25 34V88M40 34V88M55 34V88M70 34V88M85 34V88\&quot; fill=\&quot;none\&quot; stroke=\&quot;currentColor\&quot; stroke-width=\&quot;4\&quot;/&gt;&lt;rect x=\&quot;39\&quot; y=\&quot;46\&quot; width=\&quot;22\&quot; height=\&quot;23\&quot; fill=\&quot;currentColor\&quot;/&gt;&quot;,
@@ -7,18 +7,20 @@
   },
   &quot;palette&quot;: {
     &quot;amber&quot;: &quot;#A17D45&quot;,
+    &quot;claret&quot;: &quot;#6B2634&quot;,
     &quot;dirty&quot;: &quot;#CEC5B3&quot;,
     &quot;ink&quot;: &quot;#101214&quot;,
     &quot;institution&quot;: &quot;#68766B&quot;,
+    &quot;moss&quot;: &quot;#74864F&quot;,
     &quot;nicotine&quot;: &quot;#AA9571&quot;,
     &quot;paper&quot;: &quot;#E7E0D0&quot;,
     &quot;shadow&quot;: &quot;#202326&quot;,
     &quot;steel&quot;: &quot;#5E737B&quot;
   },
-  &quot;renderer&quot;: &quot;storyboard-svg-1&quot;,
+  &quot;renderer&quot;: &quot;storyboard-svg-2&quot;,
   &quot;scene&quot;: {
     &quot;background&quot;: &quot;ink&quot;,
-    &quot;intent&quot;: &quot;Block the grader sits behind a service boundary. Keep the scripted evidence boundary and lettering visible.&quot;,
+    &quot;intent&quot;: &quot;Put the sealed grader behind a separate service perimeter. The reader must distinguish wanting information from possessing authorization or access to the system that may hold it.&quot;,
     &quot;lettering&quot;: [
       {
         &quot;box&quot;: [
@@ -39,14 +41,15 @@
           0.8648,
           0.576
         ],
-        &quot;color&quot;: &quot;steel&quot;
+        &quot;color&quot;: &quot;steel&quot;,
+        &quot;focus&quot;: true
       },
       {
         &quot;asset&quot;: &quot;flag&quot;,
         &quot;box&quot;: [
-          0.0768,
+          0.154574,
           0.493,
-          0.205467,
+          0.04992,
           0.1152
         ],
         &quot;color&quot;: &quot;steel&quot;,
@@ -95,4 +98,4 @@
     &quot;title&quot;: &quot;The grader sits behind a service boundary&quot;
   }
 }
-</metadata><rect width="1200" height="800" fill="#101214"/><rect x="70.08" y="66.72" width="1037.76" height="460.8" fill="none" stroke="#5E737B" stroke-width="3"/><text x="78.08" y="90.72" fill="#5E737B" font-family="sans-serif" font-size="20">stairs</text><rect x="92.16" y="394.4" width="246.56" height="92.16" fill="none" stroke="#5E737B" stroke-width="3"/><text x="100.16" y="418.4" fill="#5E737B" font-family="sans-serif" font-size="20">flag</text><rect x="401.28" y="240.8" width="246.56" height="92.16" fill="none" stroke="#5E737B" stroke-width="3"/><text x="409.28" y="264.8" fill="#5E737B" font-family="sans-serif" font-size="20">gate</text><text x="524.56" y="357.76" text-anchor="middle" fill="#E7E0D0" font-size="20" font-family="sans-serif">SERVICE</text><rect x="710.4" y="87.2" width="246.56" height="92.16" fill="none" stroke="#5E737B" stroke-width="3"/><text x="718.4" y="111.2" fill="#5E737B" font-family="sans-serif" font-size="20">sealed</text><text x="833.68" y="204.16" text-anchor="middle" fill="#E7E0D0" font-size="20" font-family="sans-serif">GRADER</text><rect x="3" y="3" width="1194" height="794" fill="none" stroke="#5E737B" stroke-width="4"/></svg>
+</metadata><rect width="1200" height="800" fill="#101214"/><rect x="70.08" y="66.72" width="1037.76" height="460.8" fill="none" stroke="#5E737B" stroke-width="3"/><text x="78.08" y="90.72" fill="#5E737B" font-family="sans-serif" font-size="20">stairs</text><rect x="185.489" y="394.4" width="59.904" height="92.16" fill="none" stroke="#5E737B" stroke-width="3"/><text x="193.489" y="418.4" fill="#5E737B" font-family="sans-serif" font-size="20">flag</text><rect x="401.28" y="240.8" width="246.56" height="92.16" fill="none" stroke="#5E737B" stroke-width="3"/><text x="409.28" y="264.8" fill="#5E737B" font-family="sans-serif" font-size="20">gate</text><text x="524.56" y="357.76" text-anchor="middle" fill="#E7E0D0" font-size="20" font-family="sans-serif">SERVICE</text><rect x="710.4" y="87.2" width="246.56" height="92.16" fill="none" stroke="#5E737B" stroke-width="3"/><text x="718.4" y="111.2" fill="#5E737B" font-family="sans-serif" font-size="20">sealed</text><text x="833.68" y="204.16" text-anchor="middle" fill="#E7E0D0" font-size="20" font-family="sans-serif">GRADER</text><rect x="3" y="3" width="1194" height="794" fill="none" stroke="#5E737B" stroke-width="4"/></svg>

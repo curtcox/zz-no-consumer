@@ -1,6 +1,6 @@
 {
   "background": "ink",
-  "intent": "Block the payload is staged but remains redacted. Keep the scripted evidence boundary and lettering visible.",
+  "intent": "Stage a fully redacted card beneath the institutional timestamp. Keep the execution state absent: staging at this time is not first successful execution.",
   "lettering": [],
   "lettering_mode": "manual",
   "nodes": [

@@ -1,6 +1,6 @@
 {
   "background": "ink",
-  "intent": "Publication-relative creator revision: rejected connector stays crossed out; separate kept hills make no claim of isolation.",
+  "intent": "Keep the dated title revision, two separate hill surfaces and crossed bridge idea in the creator register. Authored ants remain a disclosed metaphor; conceal the final page thumbnail.",
   "lettering": [
     {
       "box": [
@@ -39,7 +39,8 @@
         0.05,
         0.075
       ],
-      "color": "paper"
+      "color": "paper",
+      "focus": true
     },
     {
       "asset": "desk",
@@ -55,11 +56,12 @@
       "asset": "person-seated",
       "box": [
         0.025,
-        0.29,
+        0.331923,
         0.15,
-        0.43
+        0.346154
       ],
-      "color": "dirty"
+      "color": "dirty",
+      "focus": true
     },
     {
       "asset": "box",
@@ -70,6 +72,7 @@
         0.2
       ],
       "color": "shadow",
+      "focus": true,
       "label": "FINAL PAGE",
       "label_box": [
         0.77,
@@ -87,6 +90,7 @@
         0.3
       ],
       "color": "paper",
+      "focus": true,
       "label": "THE TWO ANTHILL PROBLEM",
       "label_box": [
         0.17,
@@ -103,7 +107,8 @@
         0.09,
         0.15
       ],
-      "color": "paper"
+      "color": "paper",
+      "focus": true
     },
     {
       "asset": "hill",
@@ -113,7 +118,8 @@
         0.09,
         0.13
       ],
-      "color": "paper"
+      "color": "paper",
+      "focus": true
     },
     {
       "asset": "outline-box",
@@ -123,7 +129,8 @@
         0.26,
         0.22
       ],
-      "color": "steel"
+      "color": "steel",
+      "focus": true
     },
     {
       "asset": "hill",
@@ -133,7 +140,8 @@
         0.08,
         0.14
       ],
-      "color": "steel"
+      "color": "steel",
+      "focus": true
     },
     {
       "asset": "hill",
@@ -143,7 +151,8 @@
         0.08,
         0.14
       ],
-      "color": "steel"
+      "color": "steel",
+      "focus": true
     },
     {
       "asset": "dotted-line",
@@ -158,12 +167,13 @@
     {
       "asset": "cross",
       "box": [
-        0.48,
+        0.535,
         0.29,
-        0.27,
+        0.16,
         0.24
       ],
-      "color": "amber"
+      "color": "amber",
+      "focus": true
     },
     {
       "asset": "ant",
@@ -173,7 +183,8 @@
         0.025,
         0.028
       ],
-      "color": "ink"
+      "color": "ink",
+      "focus": true
     },
     {
       "asset": "ant",
@@ -183,7 +194,8 @@
         0.023,
         0.026
       ],
-      "color": "ink"
+      "color": "ink",
+      "focus": true
     },
     {
       "asset": "card",
@@ -194,6 +206,7 @@
         0.09
       ],
       "color": "steel",
+      "focus": true,
       "label": "9 SEPTEMBER 2026 — TITLE REVISION",
       "label_box": [
         0.44,

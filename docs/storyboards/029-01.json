@@ -1,6 +1,6 @@
 {
   "background": "ink",
-  "intent": "Block the compromised deployment is isolated. Keep the scripted evidence boundary and lettering visible.",
+  "intent": "Sever research-traffic connections at an isolation boundary around the old deployment. Show deliberate containment, preserving the service as an object rather than depicting it destroyed.",
   "lettering": [
     {
       "box": [
@@ -16,53 +16,55 @@
     {
       "asset": "rack",
       "box": [
-        0.1044,
-        0.2242,
-        0.195163,
-        0.256
+        0.221929,
+        0.2012,
+        0.082942,
+        0.276474
       ],
       "color": "shadow",
       "focus": true,
       "label": "OLD INSTANCE",
       "label_box": [
-        0.09640000000000001,
-        0.4862,
-        0.211163,
-        0.085
-      ]
-    },
-    {
-      "asset": "boundary",
-      "box": [
-        0.45971449999999997,
-        0.2242,
-        0.012,
-        0.256
+        0.06775,
+        0.49443,
+        0.3913,
+        0.121481
       ],
-      "color": "paper",
-      "focus": true
+      "label_size": 18
     },
     {
       "asset": "box",
       "box": [
-        0.631867,
-        0.2242,
-        0.195163,
-        0.256
+        0.52275,
+        0.2012,
+        0.3913,
+        0.276474
       ],
       "color": "steel",
       "focus": true,
       "label": "RESEARCH TRAFFIC",
       "label_box": [
-        0.623867,
-        0.4862,
-        0.211163,
-        0.085
-      ]
+        0.52275,
+        0.49443,
+        0.3913,
+        0.121481
+      ],
+      "label_size": 18
+    },
+    {
+      "asset": "boundary",
+      "box": [
+        0.49363,
+        0.0734,
+        0.01274,
+        0.6248
+      ],
+      "color": "steel",
+      "focus": true
     }
   ],
   "reconstructed": false,
-  "shot": "row",
+  "shot": "split",
   "source": "\n**Frame:** Recto. Responders isolate the compromised Artifactory deployment from research traffic. Connections fall away one by one.\n\n**Action:** The instance is taken offline.\n\n**Caption:**\n> OPENAI TAKES THE COMPROMISED DEPLOYMENT OFFLINE.\n\n**Provenance:** `documented` — `OAI-TR` §III.B.\n\n",
   "title": "The compromised deployment is isolated"
 }

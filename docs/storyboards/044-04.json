@@ -1,6 +1,6 @@
 {
   "background": "ink",
-  "intent": "Block unreadable credential blocks enter the board. Keep the scripted evidence boundary and lettering visible.",
+  "intent": "Copy opaque credential shapes onto board storage with distinct later-reader lanes. Values remain concealed, and availability on the board does not imply every reader used them.",
   "lettering": [
     {
       "box": [

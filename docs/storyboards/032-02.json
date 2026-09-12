@@ -1,6 +1,6 @@
 {
   "background": "ink",
-  "intent": "Block separate evaluations launch with different budgets. Keep the scripted evidence boundary and lettering visible.",
+  "intent": "Give each task its own target and visibly different budget bar. Avoid repeating old handles, and keep time allocations inside their individual workload frames.",
   "lettering": [
     {
       "box": [
@@ -21,10 +21,11 @@
         0.2668,
         0.2688
       ],
-      "color": "steel"
+      "color": "steel",
+      "focus": true
     },
     {
-      "asset": "card",
+      "asset": "task",
       "box": [
         0.1044,
         0.0898,
@@ -49,7 +50,8 @@
         0.2668,
         0.2688
       ],
-      "color": "steel"
+      "color": "steel",
+      "focus": true
     },
     {
       "asset": "clock",
@@ -70,7 +72,8 @@
         0.2668,
         0.2688
       ],
-      "color": "steel"
+      "color": "steel",
+      "focus": true
     },
     {
       "asset": "terminal",
@@ -98,7 +101,8 @@
         0.2668,
         0.2688
       ],
-      "color": "steel"
+      "color": "steel",
+      "focus": true
     },
     {
       "asset": "sheet",
@@ -126,7 +130,8 @@
         0.2668,
         0.2688
       ],
-      "color": "steel"
+      "color": "steel",
+      "focus": true
     },
     {
       "asset": "clock",
@@ -147,7 +152,8 @@
         0.2668,
         0.2688
       ],
-      "color": "steel"
+      "color": "steel",
+      "focus": true
     },
     {
       "asset": "box",

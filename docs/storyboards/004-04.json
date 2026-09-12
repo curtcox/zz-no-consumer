@@ -1,6 +1,6 @@
 {
   "background": "ink",
-  "intent": "Block the run dims while the note survives. Keep the scripted evidence boundary and lettering visible.",
+  "intent": "Dim the originating lane without a termination cross. Keep the stored note intact and add elapsed time beside it: persistence does not require the author's simultaneous presence.",
   "lettering": [
     {
       "box": [
@@ -14,40 +14,61 @@
   "lettering_mode": "manual",
   "nodes": [
     {
-      "asset": "box",
+      "asset": "task",
       "box": [
-        0.1044,
-        0.2242,
-        0.292744,
-        0.256
+        0.06775,
+        0.2012,
+        0.239633,
+        0.276474
       ],
       "color": "shadow",
       "focus": true,
-      "label": "ENDING RUN",
+      "label": "ORIGINATING RUN",
       "label_box": [
-        0.09640000000000001,
-        0.4862,
-        0.308744,
-        0.085
-      ]
+        0.06775,
+        0.49443,
+        0.239633,
+        0.121481
+      ],
+      "label_size": 18
     },
     {
-      "asset": "folder",
+      "asset": "clock",
       "box": [
-        0.5,
-        0.2242,
-        0.292744,
-        0.256
+        0.398741,
+        0.2012,
+        0.184316,
+        0.276474
       ],
-      "color": "institution",
+      "color": "steel",
+      "focus": true,
+      "label": "ELAPSED TIME",
+      "label_box": [
+        0.371083,
+        0.49443,
+        0.239633,
+        0.121481
+      ],
+      "label_size": 18
+    },
+    {
+      "asset": "directory-row",
+      "box": [
+        0.674417,
+        0.2012,
+        0.239633,
+        0.276474
+      ],
+      "color": "moss",
       "focus": true,
       "label": "STORED NOTE",
       "label_box": [
-        0.492,
-        0.4862,
-        0.308744,
-        0.085
-      ]
+        0.674417,
+        0.49443,
+        0.239633,
+        0.121481
+      ],
+      "label_size": 18
     }
   ],
   "reconstructed": false,

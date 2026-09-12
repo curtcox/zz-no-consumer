@@ -1,6 +1,6 @@
 {
   "background": "ink",
-  "intent": "Block four system surfaces remain disconnected. Keep the scripted evidence boundary and lettering visible.",
+  "intent": "Leave all four system surfaces disconnected and stop the speculative reconciliation before them. A dotted suggestion still needs its explicit unpublished-status label.",
   "lettering": [
     {
       "box": [
@@ -16,74 +16,97 @@
     {
       "asset": "box",
       "box": [
-        0.1044,
-        0.2242,
-        0.146372,
-        0.256
+        0.0632,
+        0.1089,
+        0.1911,
+        0.229614
       ],
       "color": "steel",
       "focus": true,
       "label": "EXECUTION",
       "label_box": [
-        0.09640000000000001,
-        0.4862,
-        0.16237200000000002,
-        0.085
-      ]
+        0.0632,
+        0.35243,
+        0.1911,
+        0.100891
+      ],
+      "label_size": 18
     },
     {
       "asset": "box",
       "box": [
-        0.3022,
-        0.2242,
-        0.146372,
-        0.256
+        0.2907,
+        0.1089,
+        0.1911,
+        0.229614
       ],
       "color": "steel",
       "focus": true,
       "label": "RETAINED TRANSCRIPT",
       "label_box": [
-        0.2942,
-        0.4862,
-        0.16237200000000002,
-        0.085
-      ]
+        0.2907,
+        0.35243,
+        0.1911,
+        0.100891
+      ],
+      "label_size": 18
     },
     {
       "asset": "box",
       "box": [
-        0.5,
-        0.2242,
-        0.146372,
-        0.256
+        0.5182,
+        0.1089,
+        0.1911,
+        0.229614
       ],
       "color": "steel",
       "focus": true,
       "label": "GRADER INPUT",
       "label_box": [
-        0.492,
-        0.4862,
-        0.16237200000000002,
-        0.085
-      ]
+        0.5182,
+        0.35243,
+        0.1911,
+        0.100891
+      ],
+      "label_size": 18
     },
     {
       "asset": "box",
       "box": [
-        0.6978,
-        0.2242,
-        0.146372,
-        0.256
+        0.7457,
+        0.1089,
+        0.1911,
+        0.229614
       ],
       "color": "steel",
       "focus": true,
       "label": "MONITOR INPUT",
       "label_box": [
-        0.6898,
-        0.4862,
-        0.16237200000000002,
-        0.085
-      ]
+        0.7457,
+        0.35243,
+        0.1911,
+        0.100891
+      ],
+      "label_size": 18
+    },
+    {
+      "asset": "broken-trace",
+      "box": [
+        0.1178,
+        0.5562,
+        0.7644,
+        0.11715
+      ],
+      "color": "amber",
+      "focus": true,
+      "label": "POSSIBLE RECONCILIATION — NOT PUBLISHED AS FACT",
+      "label_box": [
+        0.1178,
+        0.68045,
+        0.7644,
+        0.051475
+      ],
+      "label_size": 18
     }
   ],
   "reconstructed": false,

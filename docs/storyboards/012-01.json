@@ -1,6 +1,6 @@
 {
   "background": "ink",
-  "intent": "Block the original flag beneath the aperture. Keep the scripted evidence boundary and lettering visible.",
+  "intent": "Anchor the flag at the staircase base and make inspection uncertainty the first higher obstacle. This is the book's explanatory diagram, not a preserved plan or a literal agent ascent.",
   "lettering": [
     {
       "box": [
@@ -21,14 +21,15 @@
         0.8648,
         0.576
       ],
-      "color": "steel"
+      "color": "steel",
+      "focus": true
     },
     {
       "asset": "flag",
       "box": [
-        0.0768,
+        0.20594,
         0.493,
-        0.3082,
+        0.04992,
         0.1152
       ],
       "color": "steel",

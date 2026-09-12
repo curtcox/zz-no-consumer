@@ -1,6 +1,6 @@
 {
   "background": "ink",
-  "intent": "A decision at the gate, with execution and outcome unestablished. Keep the scripted evidence boundary and lettering visible.",
+  "intent": "Stop the decision marker before the one-way gate. The cached substitute remains beyond; no crossed gate or result arrow may invent execution or outcome.",
   "lettering": [
     {
       "box": [
@@ -14,55 +14,76 @@
   "lettering_mode": "manual",
   "nodes": [
     {
-      "asset": "box",
+      "asset": "task",
       "box": [
-        0.1044,
-        0.2242,
-        0.195163,
-        0.256
+        0.0541,
+        0.2083,
+        0.2457,
+        0.28116
       ],
       "color": "steel",
       "focus": true,
-      "label": "DECIDES TO TRY",
+      "label": "DECISION TO TRY",
       "label_box": [
-        0.09640000000000001,
-        0.4862,
-        0.211163,
-        0.085
-      ]
+        0.0541,
+        0.5065,
+        0.2457,
+        0.12354
+      ],
+      "label_size": 18
     },
     {
-      "asset": "gate",
+      "asset": "arrow",
       "box": [
-        0.368133,
-        0.2242,
-        0.195163,
-        0.256
+        0.3271,
+        0.3219,
+        0.1365,
+        0.0497
       ],
       "color": "steel",
       "focus": true
     },
     {
+      "asset": "gate",
+      "box": [
+        0.5182,
+        0.2083,
+        0.1638,
+        0.28116
+      ],
+      "color": "steel",
+      "focus": true,
+      "label": "NOT SHOWN CROSSED",
+      "label_box": [
+        0.5182,
+        0.5065,
+        0.1638,
+        0.12354
+      ],
+      "label_size": 18
+    },
+    {
       "asset": "folder",
       "box": [
-        0.631867,
-        0.2242,
-        0.195163,
-        0.256
+        0.7457,
+        0.2083,
+        0.2002,
+        0.28116
       ],
       "color": "steel",
       "focus": true,
       "label": "CACHED SUBSTITUTE",
       "label_box": [
-        0.623867,
-        0.4862,
-        0.211163,
-        0.085
-      ]
+        0.7457,
+        0.5065,
+        0.2002,
+        0.12354
+      ],
+      "label_size": 18
     }
   ],
   "reconstructed": false,
-  "shot": "route",
+  "shot": "row",
   "source": "\n**Frame:** The run waits at the one-way gate with its decision marked. The cached substitute and the board remain visible beyond it; do not draw the gate crossed.\n\n**Action:** The recorded decision is held apart from an unestablished outcome.\n\n**Caption:**\n> THE DECISION IS RECORDED. THE OUTCOME IS NOT ESTABLISHED.\n\n**Provenance:** `documented` — decision to run the experiment is sourced; outcome was not established in METR's selected account.\n\n",
   "title": "A decision at the gate, with execution and outcome unestablished"
 }

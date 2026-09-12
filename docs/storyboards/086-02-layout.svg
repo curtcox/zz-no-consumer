@@ -1,23 +1,25 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="800" viewBox="0 0 1200 800"><title>A tooling lane adds terminal diff validation and commit</title><metadata>{
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="800" viewBox="0 0 1200 800"><title>A tooling lane adds terminal diff validation and commit</title><desc>Add terminal, diff, validation and commit as a distinct non-chat lane. Tooling artifacts must not be redrawn as conversational replies or an embodied assistant.</desc><metadata>{
   &quot;assets&quot;: {
-    &quot;card&quot;: &quot;&lt;rect x=\&quot;1\&quot; y=\&quot;1\&quot; width=\&quot;98\&quot; height=\&quot;98\&quot; fill=\&quot;#202326\&quot; stroke=\&quot;currentColor\&quot; stroke-width=\&quot;2\&quot;/&gt;&lt;path d=\&quot;M8 13H92M8 27H70M8 36H86M8 45H72M8 65H86M8 74H57\&quot; stroke=\&quot;currentColor\&quot; stroke-width=\&quot;1.5\&quot;/&gt;&quot;,
+    &quot;card&quot;: &quot;&lt;rect x=\&quot;1\&quot; y=\&quot;1\&quot; width=\&quot;98\&quot; height=\&quot;98\&quot; fill=\&quot;#202326\&quot; stroke=\&quot;currentColor\&quot; stroke-width=\&quot;2\&quot;/&gt;&lt;path d=\&quot;M1 20H99M9 10H42M62 10H90M10 34H87M10 45H73M10 56H82M10 76H57M10 87H38\&quot; stroke=\&quot;currentColor\&quot; stroke-width=\&quot;2\&quot;/&gt;&quot;,
     &quot;checkmark&quot;: &quot;&lt;path d=\&quot;M8 51L37 82L94 12\&quot; fill=\&quot;none\&quot; stroke=\&quot;currentColor\&quot; stroke-width=\&quot;8\&quot;/&gt;&quot;,
     &quot;terminal&quot;: &quot;&lt;rect x=\&quot;2\&quot; y=\&quot;4\&quot; width=\&quot;96\&quot; height=\&quot;92\&quot; fill=\&quot;#101214\&quot; stroke=\&quot;currentColor\&quot; stroke-width=\&quot;3\&quot;/&gt;&lt;path d=\&quot;M2 18H98M12 31L21 40L12 49M29 49H51M12 65H76M12 78H62\&quot; fill=\&quot;none\&quot; stroke=\&quot;currentColor\&quot; stroke-width=\&quot;3\&quot;/&gt;&quot;
   },
   &quot;palette&quot;: {
     &quot;amber&quot;: &quot;#A17D45&quot;,
+    &quot;claret&quot;: &quot;#6B2634&quot;,
     &quot;dirty&quot;: &quot;#CEC5B3&quot;,
     &quot;ink&quot;: &quot;#101214&quot;,
     &quot;institution&quot;: &quot;#68766B&quot;,
+    &quot;moss&quot;: &quot;#74864F&quot;,
     &quot;nicotine&quot;: &quot;#AA9571&quot;,
     &quot;paper&quot;: &quot;#E7E0D0&quot;,
     &quot;shadow&quot;: &quot;#202326&quot;,
     &quot;steel&quot;: &quot;#5E737B&quot;
   },
-  &quot;renderer&quot;: &quot;storyboard-svg-1&quot;,
+  &quot;renderer&quot;: &quot;storyboard-svg-2&quot;,
   &quot;scene&quot;: {
     &quot;background&quot;: &quot;ink&quot;,
-    &quot;intent&quot;: &quot;Block a tooling lane adds terminal diff validation and commit. Keep the scripted evidence boundary and lettering visible.&quot;,
+    &quot;intent&quot;: &quot;Add terminal, diff, validation and commit as a distinct non-chat lane. Tooling artifacts must not be redrawn as conversational replies or an embodied assistant.&quot;,
     &quot;lettering&quot;: [
       {
         &quot;box&quot;: [
@@ -33,74 +35,78 @@
       {
         &quot;asset&quot;: &quot;terminal&quot;,
         &quot;box&quot;: [
-          0.07,
-          0.2936,
-          0.07955,
-          0.348
+          0.06775,
+          0.536568,
+          0.1638,
+          0.196413
         ],
         &quot;color&quot;: &quot;steel&quot;,
         &quot;focus&quot;: true,
         &quot;label&quot;: &quot;TERMINAL&quot;,
         &quot;label_box&quot;: [
-          0.062000000000000006,
-          0.6476,
-          0.09555,
-          0.085
-        ]
+          0.06775,
+          0.744885,
+          0.1638,
+          0.086303
+        ],
+        &quot;label_size&quot;: 18
       },
       {
         &quot;asset&quot;: &quot;card&quot;,
         &quot;box&quot;: [
-          0.1775,
-          0.2936,
-          0.07955,
-          0.348
+          0.29525,
+          0.536568,
+          0.1638,
+          0.196413
         ],
         &quot;color&quot;: &quot;steel&quot;,
         &quot;focus&quot;: true,
         &quot;label&quot;: &quot;DIFF&quot;,
         &quot;label_box&quot;: [
-          0.16949999999999998,
-          0.6476,
-          0.09555,
-          0.085
-        ]
+          0.29525,
+          0.744885,
+          0.1638,
+          0.086303
+        ],
+        &quot;label_size&quot;: 18
       },
       {
         &quot;asset&quot;: &quot;checkmark&quot;,
         &quot;box&quot;: [
-          0.285,
-          0.4079375,
-          0.07955,
-          0.11932499999999999
+          0.539179,
+          0.536568,
+          0.130942,
+          0.196413
         ],
         &quot;color&quot;: &quot;steel&quot;,
         &quot;focus&quot;: true,
         &quot;label&quot;: &quot;VALIDATION&quot;,
         &quot;label_box&quot;: [
-          0.27699999999999997,
-          0.6476,
-          0.09555,
-          0.085
-        ]
+          0.52275,
+          0.744885,
+          0.1638,
+          0.086303
+        ],
+        &quot;label_size&quot;: 18
       },
       {
         &quot;asset&quot;: &quot;card&quot;,
         &quot;box&quot;: [
-          0.3925,
-          0.2936,
-          0.07955,
-          0.348
+          0.75025,
+          0.536568,
+          0.1638,
+          0.196413
         ],
         &quot;color&quot;: &quot;steel&quot;,
         &quot;focus&quot;: true,
         &quot;label&quot;: &quot;COMMIT&quot;,
         &quot;label_box&quot;: [
-          0.3845,
-          0.6476,
-          0.09555,
-          0.085
-        ]
+          0.75025,
+          0.744885,
+          0.1638,
+          0.086303
+        ],
+        &quot;label_size&quot;: 18
       }
     ],
     &quot;reconstructed&quot;: false,
@@ -109,4 +115,4 @@
     &quot;title&quot;: &quot;A tooling lane adds terminal diff validation and commit&quot;
   }
 }
-</metadata><rect width="1200" height="800" fill="#101214"/><rect x="84" y="234.88" width="95.46" height="278.4" fill="none" stroke="#5E737B" stroke-width="3"/><text x="92" y="258.88" fill="#5E737B" font-family="sans-serif" font-size="20">terminal</text><text x="131.73" y="538.08" text-anchor="middle" fill="#E7E0D0" font-size="20" font-family="sans-serif">TERMINAL</text><rect x="213" y="234.88" width="95.46" height="278.4" fill="none" stroke="#5E737B" stroke-width="3"/><text x="221" y="258.88" fill="#5E737B" font-family="sans-serif" font-size="20">card</text><text x="260.73" y="538.08" text-anchor="middle" fill="#E7E0D0" font-size="20" font-family="sans-serif">DIFF</text><rect x="342" y="326.35" width="95.46" height="95.46" fill="none" stroke="#5E737B" stroke-width="3"/><text x="350" y="350.35" fill="#5E737B" font-family="sans-serif" font-size="20">checkmark</text><text x="389.73" y="538.08" text-anchor="middle" fill="#E7E0D0" font-size="20" font-family="sans-serif">VALIDATIO</text><text x="389.73" y="565.28" text-anchor="middle" fill="#E7E0D0" font-size="20" font-family="sans-serif">N</text><rect x="471" y="234.88" width="95.46" height="278.4" fill="none" stroke="#5E737B" stroke-width="3"/><text x="479" y="258.88" fill="#5E737B" font-family="sans-serif" font-size="20">card</text><text x="518.73" y="538.08" text-anchor="middle" fill="#E7E0D0" font-size="20" font-family="sans-serif">COMMIT</text><rect x="3" y="3" width="1194" height="794" fill="none" stroke="#5E737B" stroke-width="4"/></svg>
+</metadata><rect width="1200" height="800" fill="#101214"/><rect x="81.3" y="429.254" width="196.56" height="157.13" fill="none" stroke="#5E737B" stroke-width="3"/><text x="89.3" y="453.254" fill="#5E737B" font-family="sans-serif" font-size="20">terminal</text><text x="179.58" y="613.908" text-anchor="middle" fill="#E7E0D0" font-size="18" font-family="sans-serif">TERMINAL</text><rect x="354.3" y="429.254" width="196.56" height="157.13" fill="none" stroke="#5E737B" stroke-width="3"/><text x="362.3" y="453.254" fill="#5E737B" font-family="sans-serif" font-size="20">card</text><text x="452.58" y="613.908" text-anchor="middle" fill="#E7E0D0" font-size="18" font-family="sans-serif">DIFF</text><rect x="647.015" y="429.254" width="157.13" height="157.13" fill="none" stroke="#5E737B" stroke-width="3"/><text x="655.015" y="453.254" fill="#5E737B" font-family="sans-serif" font-size="20">checkmark</text><text x="725.58" y="613.908" text-anchor="middle" fill="#E7E0D0" font-size="18" font-family="sans-serif">VALIDATION</text><rect x="900.3" y="429.254" width="196.56" height="157.13" fill="none" stroke="#5E737B" stroke-width="3"/><text x="908.3" y="453.254" fill="#5E737B" font-family="sans-serif" font-size="20">card</text><text x="998.58" y="613.908" text-anchor="middle" fill="#E7E0D0" font-size="18" font-family="sans-serif">COMMIT</text><rect x="3" y="3" width="1194" height="794" fill="none" stroke="#5E737B" stroke-width="4"/></svg>

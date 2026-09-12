@@ -1,6 +1,6 @@
 {
   "background": "ink",
-  "intent": "Block the talk proposes removing a human from the defense loop. Keep the scripted evidence boundary and lettering visible. Existing source-derived wording is a visibly labelled paraphrase; quotation disposition remains open.",
+  "intent": "Draw a closed find/patch/deploy/rollback loop with the human at one segment and a separate removal proposal. Keep the proposal attributed; do not show it already implemented.",
   "lettering": [
     {
       "box": [
@@ -16,92 +16,171 @@
     {
       "asset": "card",
       "box": [
-        0.07,
-        0.2936,
-        0.06364,
-        0.348
+        0.0632,
+        0.401156,
+        0.2275,
+        0.097155
       ],
       "color": "steel",
       "focus": true,
       "label": "FIND",
       "label_box": [
-        0.062000000000000006,
-        0.6476,
-        0.07964,
-        0.085
-      ]
+        0.0632,
+        0.504199,
+        0.2275,
+        0.042689
+      ],
+      "label_size": 18
     },
     {
       "asset": "card",
       "box": [
-        0.156,
-        0.2936,
-        0.06364,
-        0.348
+        0.6911,
+        0.401156,
+        0.2275,
+        0.097155
       ],
       "color": "steel",
       "focus": true,
       "label": "PATCH",
       "label_box": [
-        0.148,
-        0.6476,
-        0.07964,
-        0.085
-      ]
-    },
-    {
-      "asset": "person-standing",
-      "box": [
-        0.242,
-        0.37214,
-        0.06364,
-        0.19092000000000003
+        0.6911,
+        0.504199,
+        0.2275,
+        0.042689
       ],
-      "color": "dirty",
-      "focus": true,
-      "label": "HUMAN",
-      "label_box": [
-        0.23399999999999999,
-        0.6476,
-        0.07964,
-        0.085
-      ]
+      "label_size": 18
     },
     {
       "asset": "card",
       "box": [
-        0.328,
-        0.2936,
-        0.06364,
-        0.348
+        0.6911,
+        0.771892,
+        0.2275,
+        0.097155
       ],
       "color": "steel",
       "focus": true,
       "label": "DEPLOY",
       "label_box": [
-        0.32,
-        0.6476,
-        0.07964,
-        0.085
-      ]
+        0.6911,
+        0.874935,
+        0.2275,
+        0.042689
+      ],
+      "label_size": 18
     },
     {
       "asset": "card",
       "box": [
-        0.414,
-        0.2936,
-        0.06364,
-        0.348
+        0.0632,
+        0.771892,
+        0.2275,
+        0.097155
       ],
       "color": "steel",
       "focus": true,
       "label": "ROLL BACK",
       "label_box": [
-        0.40599999999999997,
-        0.6476,
-        0.07964,
-        0.085
-      ]
+        0.0632,
+        0.874935,
+        0.2275,
+        0.042689
+      ],
+      "label_size": 18
+    },
+    {
+      "asset": "arrow",
+      "box": [
+        0.318,
+        0.433868,
+        0.3458,
+        0.032712
+      ],
+      "color": "steel",
+      "focus": true
+    },
+    {
+      "asset": "arrow-down",
+      "box": [
+        0.7821,
+        0.570168,
+        0.0546,
+        0.02197156
+      ],
+      "color": "steel",
+      "focus": true
+    },
+    {
+      "asset": "arrow-left",
+      "box": [
+        0.318,
+        0.799152,
+        0.3458,
+        0.032712
+      ],
+      "color": "steel",
+      "focus": true
+    },
+    {
+      "asset": "arrow-up",
+      "box": [
+        0.136,
+        0.570168,
+        0.0546,
+        0.169012
+      ],
+      "color": "steel",
+      "focus": true
+    },
+    {
+      "asset": "person-standing",
+      "box": [
+        0.793907,
+        0.5955198,
+        0.030986,
+        0.0929566
+      ],
+      "color": "steel",
+      "focus": true,
+      "label": "HUMAN",
+      "label_box": [
+        0.7275,
+        0.69185664,
+        0.1638,
+        0.042253
+      ],
+      "label_size": 12
+    },
+    {
+      "asset": "arrow",
+      "box": [
+        0.45904999999999996,
+        0.591976,
+        0.17745000000000002,
+        0.079163
+      ],
+      "color": "amber",
+      "focus": true,
+      "label": "REMOVE",
+      "label_box": [
+        0.45904999999999996,
+        0.675937,
+        0.273,
+        0.034784
+      ],
+      "label_size": 18
+    },
+    {
+      "asset": "arrow-down",
+      "box": [
+        0.7821,
+        0.72396892,
+        0.0546,
+        0.01352096
+      ],
+      "color": "steel",
+      "focus": true
     }
   ],
   "reconstructed": true,

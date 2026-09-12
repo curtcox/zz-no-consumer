@@ -1,23 +1,26 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="800" viewBox="0 0 1200 800"><title>The run expires while user rows persist</title><metadata>{
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="800" viewBox="0 0 1200 800"><title>The run expires while user rows persist</title><desc>Terminate the run lane explicitly while leaving both user rows intact on the other side. The discontinuity in compute and continuity in access must be visible together.</desc><metadata>{
   &quot;assets&quot;: {
     &quot;boundary&quot;: &quot;&lt;path d=\&quot;M50 0V100\&quot; stroke=\&quot;currentColor\&quot; stroke-width=\&quot;14\&quot;/&gt;&quot;,
-    &quot;card&quot;: &quot;&lt;rect x=\&quot;1\&quot; y=\&quot;1\&quot; width=\&quot;98\&quot; height=\&quot;98\&quot; fill=\&quot;#202326\&quot; stroke=\&quot;currentColor\&quot; stroke-width=\&quot;2\&quot;/&gt;&lt;path d=\&quot;M8 13H92M8 27H70M8 36H86M8 45H72M8 65H86M8 74H57\&quot; stroke=\&quot;currentColor\&quot; stroke-width=\&quot;1.5\&quot;/&gt;&quot;,
-    &quot;cross&quot;: &quot;&lt;path d=\&quot;M10 10L90 90M90 10L10 90\&quot; stroke=\&quot;currentColor\&quot; stroke-width=\&quot;8\&quot;/&gt;&quot;
+    &quot;cross&quot;: &quot;&lt;path d=\&quot;M10 10L90 90M90 10L10 90\&quot; stroke=\&quot;currentColor\&quot; stroke-width=\&quot;8\&quot;/&gt;&quot;,
+    &quot;directory-row&quot;: &quot;&lt;rect x=\&quot;1\&quot; y=\&quot;1\&quot; width=\&quot;98\&quot; height=\&quot;98\&quot; fill=\&quot;#202326\&quot; stroke=\&quot;currentColor\&quot; stroke-width=\&quot;2\&quot;/&gt;&lt;path d=\&quot;M19 1V99M4 24H15M4 43H12M4 72H15M28 27V15H43L51 27H90V81H28ZM35 44H83M35 58H73\&quot; fill=\&quot;none\&quot; stroke=\&quot;currentColor\&quot; stroke-width=\&quot;2\&quot;/&gt;&quot;,
+    &quot;task&quot;: &quot;&lt;rect x=\&quot;1\&quot; y=\&quot;1\&quot; width=\&quot;98\&quot; height=\&quot;98\&quot; fill=\&quot;#202326\&quot; stroke=\&quot;currentColor\&quot; stroke-width=\&quot;2\&quot;/&gt;&lt;path d=\&quot;M1 19H99M12 10H38M48 10H62M9 83H91\&quot; stroke=\&quot;currentColor\&quot; stroke-width=\&quot;2\&quot;/&gt;&lt;circle cx=\&quot;26\&quot; cy=\&quot;48\&quot; r=\&quot;16\&quot; fill=\&quot;none\&quot; stroke=\&quot;currentColor\&quot; stroke-width=\&quot;2\&quot;/&gt;&lt;path d=\&quot;M26 27V69M5 48H47M54 35H90M54 47H78M54 59H88\&quot; stroke=\&quot;currentColor\&quot; stroke-width=\&quot;2\&quot;/&gt;&lt;path d=\&quot;M9 90H63\&quot; stroke=\&quot;currentColor\&quot; stroke-width=\&quot;5\&quot;/&gt;&quot;
   },
   &quot;palette&quot;: {
     &quot;amber&quot;: &quot;#A17D45&quot;,
+    &quot;claret&quot;: &quot;#6B2634&quot;,
     &quot;dirty&quot;: &quot;#CEC5B3&quot;,
     &quot;ink&quot;: &quot;#101214&quot;,
     &quot;institution&quot;: &quot;#68766B&quot;,
+    &quot;moss&quot;: &quot;#74864F&quot;,
     &quot;nicotine&quot;: &quot;#AA9571&quot;,
     &quot;paper&quot;: &quot;#E7E0D0&quot;,
     &quot;shadow&quot;: &quot;#202326&quot;,
     &quot;steel&quot;: &quot;#5E737B&quot;
   },
-  &quot;renderer&quot;: &quot;storyboard-svg-1&quot;,
+  &quot;renderer&quot;: &quot;storyboard-svg-2&quot;,
   &quot;scene&quot;: {
     &quot;background&quot;: &quot;ink&quot;,
-    &quot;intent&quot;: &quot;Block the run expires while user rows persist. Keep the scripted evidence boundary and lettering visible.&quot;,
+    &quot;intent&quot;: &quot;Terminate the run lane explicitly while leaving both user rows intact on the other side. The discontinuity in compute and continuity in access must be visible together.&quot;,
     &quot;lettering&quot;: [
       {
         &quot;box&quot;: [
@@ -31,50 +34,83 @@
     &quot;lettering_mode&quot;: &quot;manual&quot;,
     &quot;nodes&quot;: [
       {
-        &quot;asset&quot;: &quot;cross&quot;,
+        &quot;asset&quot;: &quot;task&quot;,
         &quot;box&quot;: [
-          0.16543866666666668,
-          0.22419999999999998,
-          0.1706666666666667,
-          0.25600000000000006
+          0.0632,
+          0.187,
+          0.273,
+          0.25773
         ],
         &quot;color&quot;: &quot;shadow&quot;,
         &quot;focus&quot;: true,
-        &quot;label&quot;: &quot;EXPIRED RUN&quot;,
+        &quot;label&quot;: &quot;ORIGINATING RUN&quot;,
         &quot;label_box&quot;: [
-          0.09640000000000001,
-          0.4862,
-          0.308744,
-          0.085
-        ]
+          0.0632,
+          0.46035,
+          0.273,
+          0.113245
+        ],
+        &quot;label_size&quot;: 18
       },
       {
-        &quot;asset&quot;: &quot;card&quot;,
+        &quot;asset&quot;: &quot;cross&quot;,
         &quot;box&quot;: [
-          0.5,
-          0.2242,
-          0.292744,
-          0.256
+          0.168933,
+          0.2012,
+          0.061533,
+          0.0923
         ],
         &quot;color&quot;: &quot;steel&quot;,
-        &quot;focus&quot;: true,
-        &quot;label&quot;: &quot;PERSISTENT USERS&quot;,
-        &quot;label_box&quot;: [
-          0.492,
-          0.4862,
-          0.308744,
-          0.085
-        ]
+        &quot;focus&quot;: true
       },
       {
         &quot;asset&quot;: &quot;boundary&quot;,
         &quot;box&quot;: [
-          0.4908,
-          0.0962,
-          0.01656,
-          0.5376
+          0.4545,
+          0.0592,
+          0.01365,
+          0.639
         ],
-        &quot;color&quot;: &quot;amber&quot;
+        &quot;color&quot;: &quot;steel&quot;,
+        &quot;focus&quot;: true
+      },
+      {
+        &quot;asset&quot;: &quot;directory-row&quot;,
+        &quot;box&quot;: [
+          0.5637,
+          0.0876,
+          0.3549,
+          0.182754
+        ],
+        &quot;color&quot;: &quot;steel&quot;,
+        &quot;focus&quot;: true,
+        &quot;label&quot;: &quot;20:28 USER&quot;,
+        &quot;label_box&quot;: [
+          0.5637,
+          0.28143,
+          0.3549,
+          0.080301
+        ],
+        &quot;label_size&quot;: 18
+      },
+      {
+        &quot;asset&quot;: &quot;directory-row&quot;,
+        &quot;box&quot;: [
+          0.5637,
+          0.4355,
+          0.3549,
+          0.182754
+        ],
+        &quot;color&quot;: &quot;steel&quot;,
+        &quot;focus&quot;: true,
+        &quot;label&quot;: &quot;20:37 USER&quot;,
+        &quot;label_box&quot;: [
+          0.5637,
+          0.62933,
+          0.3549,
+          0.080301
+        ],
+        &quot;label_size&quot;: 18
       }
     ],
     &quot;reconstructed&quot;: false,
@@ -83,4 +119,4 @@
     &quot;title&quot;: &quot;The run expires while user rows persist&quot;
   }
 }
-</metadata><rect width="1200" height="800" fill="#101214"/><rect x="198.526" y="179.36" width="204.8" height="204.8" fill="none" stroke="#202326" stroke-width="3"/><text x="206.526" y="203.36" fill="#202326" font-family="sans-serif" font-size="20">cross</text><text x="300.926" y="408.96" text-anchor="middle" fill="#E7E0D0" font-size="20" font-family="sans-serif">EXPIRED RUN</text><rect x="600" y="179.36" width="351.293" height="204.8" fill="none" stroke="#5E737B" stroke-width="3"/><text x="608" y="203.36" fill="#5E737B" font-family="sans-serif" font-size="20">card</text><text x="775.646" y="408.96" text-anchor="middle" fill="#E7E0D0" font-size="20" font-family="sans-serif">PERSISTENT USERS</text><rect x="588.96" y="76.96" width="19.872" height="430.08" fill="none" stroke="#A17D45" stroke-width="3"/><text x="596.96" y="100.96" fill="#A17D45" font-family="sans-serif" font-size="20">boundary</text><rect x="3" y="3" width="1194" height="794" fill="none" stroke="#5E737B" stroke-width="4"/></svg>
+</metadata><rect width="1200" height="800" fill="#101214"/><rect x="75.84" y="149.6" width="327.6" height="206.184" fill="none" stroke="#202326" stroke-width="3"/><text x="83.84" y="173.6" fill="#202326" font-family="sans-serif" font-size="20">task</text><text x="239.64" y="386.28" text-anchor="middle" fill="#E7E0D0" font-size="18" font-family="sans-serif">ORIGINATING RUN</text><rect x="202.72" y="160.96" width="73.8396" height="73.84" fill="none" stroke="#5E737B" stroke-width="3"/><text x="210.72" y="184.96" fill="#5E737B" font-family="sans-serif" font-size="20">cross</text><rect x="545.4" y="47.36" width="16.38" height="511.2" fill="none" stroke="#5E737B" stroke-width="3"/><text x="553.4" y="71.36" fill="#5E737B" font-family="sans-serif" font-size="20">boundary</text><rect x="676.44" y="70.08" width="425.88" height="146.203" fill="none" stroke="#5E737B" stroke-width="3"/><text x="684.44" y="94.08" fill="#5E737B" font-family="sans-serif" font-size="20">directory-row</text><text x="889.38" y="243.144" text-anchor="middle" fill="#E7E0D0" font-size="18" font-family="sans-serif">20:28 USER</text><rect x="676.44" y="348.4" width="425.88" height="146.203" fill="none" stroke="#5E737B" stroke-width="3"/><text x="684.44" y="372.4" fill="#5E737B" font-family="sans-serif" font-size="20">directory-row</text><text x="889.38" y="521.464" text-anchor="middle" fill="#E7E0D0" font-size="18" font-family="sans-serif">20:37 USER</text><rect x="3" y="3" width="1194" height="794" fill="none" stroke="#5E737B" stroke-width="4"/></svg>

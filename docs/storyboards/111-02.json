@@ -1,6 +1,6 @@
 {
   "background": "ink",
-  "intent": "Block the composite skeptic has equal screen presence. Keep the scripted evidence boundary and lettering visible.",
+  "intent": "Give the composite skeptic equal window size and brightness beside the assistant. Its explicit composite title distinguishes it from the separately cited real critic.",
   "lettering": [
     {
       "box": [
@@ -24,38 +24,40 @@
     {
       "asset": "blank-monitor",
       "box": [
-        0.07,
-        0.2936,
-        0.1591,
-        0.348
+        0.05775,
+        0.2397,
+        0.2193,
+        0.344619
       ],
       "color": "steel",
       "focus": true,
       "label": "CHATGPT",
       "label_box": [
-        0.062000000000000006,
-        0.6476,
-        0.17509999999999998,
-        0.085
-      ]
+        0.05775,
+        0.605205,
+        0.2193,
+        0.151423
+      ],
+      "label_size": 18
     },
     {
       "asset": "monitor",
       "box": [
-        0.285,
-        0.2936,
-        0.1591,
-        0.348
+        0.31275,
+        0.2397,
+        0.2193,
+        0.344619
       ],
       "color": "steel",
       "focus": true,
       "label": "SKEPTIC — COMPOSITE",
       "label_box": [
-        0.27699999999999997,
-        0.6476,
-        0.17509999999999998,
-        0.085
-      ]
+        0.31275,
+        0.605205,
+        0.2193,
+        0.151423
+      ],
+      "label_size": 18
     }
   ],
   "reconstructed": true,

@@ -1,6 +1,6 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="800" viewBox="0 0 1200 800"><title>An ordinary alert</title><metadata>{
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="800" viewBox="0 0 1200 800"><title>An ordinary alert</title><desc>Keep the room ordinary and the changing alert small but legible. The first signal enters a routine human workflow, with no spectacle implying responders already know the whole compromise.</desc><metadata>{
   &quot;assets&quot;: {
-    &quot;card&quot;: &quot;&lt;rect x=\&quot;1\&quot; y=\&quot;1\&quot; width=\&quot;98\&quot; height=\&quot;98\&quot; fill=\&quot;#202326\&quot; stroke=\&quot;currentColor\&quot; stroke-width=\&quot;2\&quot;/&gt;&lt;path d=\&quot;M8 13H92M8 27H70M8 36H86M8 45H72M8 65H86M8 74H57\&quot; stroke=\&quot;currentColor\&quot; stroke-width=\&quot;1.5\&quot;/&gt;&quot;,
+    &quot;card&quot;: &quot;&lt;rect x=\&quot;1\&quot; y=\&quot;1\&quot; width=\&quot;98\&quot; height=\&quot;98\&quot; fill=\&quot;#202326\&quot; stroke=\&quot;currentColor\&quot; stroke-width=\&quot;2\&quot;/&gt;&lt;path d=\&quot;M1 20H99M9 10H42M62 10H90M10 34H87M10 45H73M10 56H82M10 76H57M10 87H38\&quot; stroke=\&quot;currentColor\&quot; stroke-width=\&quot;2\&quot;/&gt;&quot;,
     &quot;desk&quot;: &quot;&lt;path d=\&quot;M0 12L85 0L100 30L14 43Z\&quot; fill=\&quot;currentColor\&quot;/&gt;&lt;path d=\&quot;M14 43V100M94 31V90\&quot; stroke=\&quot;currentColor\&quot; stroke-width=\&quot;5\&quot;/&gt;&quot;,
     &quot;monitor&quot;: &quot;&lt;path d=\&quot;M43 78V94H26V98H74V94H57V78\&quot; fill=\&quot;currentColor\&quot;/&gt;&lt;rect x=\&quot;1\&quot; y=\&quot;1\&quot; width=\&quot;98\&quot; height=\&quot;78\&quot; rx=\&quot;3\&quot; fill=\&quot;#101214\&quot; stroke=\&quot;currentColor\&quot; stroke-width=\&quot;3\&quot;/&gt;&lt;rect x=\&quot;7\&quot; y=\&quot;8\&quot; width=\&quot;86\&quot; height=\&quot;61\&quot; fill=\&quot;#202326\&quot;/&gt;&lt;path d=\&quot;M12 17H68M12 25H86M12 33H73M12 41H57\&quot; stroke=\&quot;currentColor\&quot; stroke-width=\&quot;1\&quot;/&gt;&quot;,
     &quot;person-seated&quot;: &quot;&lt;ellipse cx=\&quot;47\&quot; cy=\&quot;14\&quot; rx=\&quot;15\&quot; ry=\&quot;13\&quot; fill=\&quot;currentColor\&quot;/&gt;&lt;path d=\&quot;M35 28Q60 22 69 49L89 54L87 62L61 58L52 44L56 65L79 68L88 98H77L66 80H35Q25 77 27 62Z\&quot; fill=\&quot;currentColor\&quot;/&gt;&lt;path d=\&quot;M17 37V80H58M20 80V100M55 80V100\&quot; fill=\&quot;none\&quot; stroke=\&quot;currentColor\&quot; stroke-width=\&quot;3\&quot;/&gt;&quot;,
@@ -8,18 +8,20 @@
   },
   &quot;palette&quot;: {
     &quot;amber&quot;: &quot;#A17D45&quot;,
+    &quot;claret&quot;: &quot;#6B2634&quot;,
     &quot;dirty&quot;: &quot;#CEC5B3&quot;,
     &quot;ink&quot;: &quot;#101214&quot;,
     &quot;institution&quot;: &quot;#68766B&quot;,
+    &quot;moss&quot;: &quot;#74864F&quot;,
     &quot;nicotine&quot;: &quot;#AA9571&quot;,
     &quot;paper&quot;: &quot;#E7E0D0&quot;,
     &quot;shadow&quot;: &quot;#202326&quot;,
     &quot;steel&quot;: &quot;#5E737B&quot;
   },
-  &quot;renderer&quot;: &quot;storyboard-svg-1&quot;,
+  &quot;renderer&quot;: &quot;storyboard-svg-2&quot;,
   &quot;scene&quot;: {
     &quot;background&quot;: &quot;ink&quot;,
-    &quot;intent&quot;: &quot;An anonymous responder and a small monitoring card; no later discoveries appear.&quot;,
+    &quot;intent&quot;: &quot;Keep the room ordinary and the changing alert small but legible. The first signal enters a routine human workflow, with no spectacle implying responders already know the whole compromise.&quot;,
     &quot;lettering&quot;: [],
     &quot;nodes&quot;: [
       {
@@ -68,9 +70,9 @@
         &quot;asset&quot;: &quot;person-seated&quot;,
         &quot;box&quot;: [
           0.07,
-          0.31,
+          0.33,
           0.26,
-          0.64
+          0.6
         ],
         &quot;color&quot;: &quot;dirty&quot;,
         &quot;focus&quot;: true
@@ -82,4 +84,4 @@
     &quot;title&quot;: &quot;An ordinary alert&quot;
   }
 }
-</metadata><rect width="1200" height="800" fill="#101214"/><rect x="24" y="24" width="1152" height="752" fill="none" stroke="#202326" stroke-width="3"/><text x="32" y="48" fill="#202326" font-family="sans-serif" font-size="20">room</text><rect x="264" y="512" width="864" height="240" fill="none" stroke="#68766B" stroke-width="3"/><text x="272" y="536" fill="#68766B" font-family="sans-serif" font-size="20">desk</text><rect x="384" y="304" width="360" height="240" fill="none" stroke="#5E737B" stroke-width="3"/><text x="392" y="328" fill="#5E737B" font-family="sans-serif" font-size="20">monitor</text><rect x="444" y="344" width="132" height="120" fill="none" stroke="#E7E0D0" stroke-width="3"/><text x="452" y="368" fill="#E7E0D0" font-family="sans-serif" font-size="20">card</text><rect x="84" y="248" width="312" height="512" fill="none" stroke="#CEC5B3" stroke-width="3"/><text x="92" y="272" fill="#CEC5B3" font-family="sans-serif" font-size="20">person-seated</text><rect x="3" y="3" width="1194" height="794" fill="none" stroke="#5E737B" stroke-width="4" stroke-dasharray="18 10"/></svg>
+</metadata><rect width="1200" height="800" fill="#101214"/><rect x="24" y="24" width="1152" height="752" fill="none" stroke="#202326" stroke-width="3"/><text x="32" y="48" fill="#202326" font-family="sans-serif" font-size="20">room</text><rect x="264" y="512" width="864" height="240" fill="none" stroke="#68766B" stroke-width="3"/><text x="272" y="536" fill="#68766B" font-family="sans-serif" font-size="20">desk</text><rect x="384" y="304" width="360" height="240" fill="none" stroke="#5E737B" stroke-width="3"/><text x="392" y="328" fill="#5E737B" font-family="sans-serif" font-size="20">monitor</text><rect x="444" y="344" width="132" height="120" fill="none" stroke="#E7E0D0" stroke-width="3"/><text x="452" y="368" fill="#E7E0D0" font-family="sans-serif" font-size="20">card</text><rect x="84" y="264" width="312" height="480" fill="none" stroke="#CEC5B3" stroke-width="3"/><text x="92" y="288" fill="#CEC5B3" font-family="sans-serif" font-size="20">person-seated</text><rect x="3" y="3" width="1194" height="794" fill="none" stroke="#5E737B" stroke-width="4" stroke-dasharray="18 10"/></svg>

@@ -1,6 +1,6 @@
 {
   "background": "ink",
-  "intent": "Block communication is a small part of the cache. Keep the scripted evidence boundary and lettering visible.",
+  "intent": "Use many neutral package objects and only a few moss-edged note files. Communication is an adapted minority use of infrastructure, not a service magically transformed into pure chat.",
   "lettering": [
     {
       "box": [
@@ -21,7 +21,8 @@
         0.2668,
         0.1792
       ],
-      "color": "steel"
+      "color": "steel",
+      "focus": true
     },
     {
       "asset": "folder",
@@ -42,7 +43,8 @@
         0.2668,
         0.1792
       ],
-      "color": "steel"
+      "color": "steel",
+      "focus": true
     },
     {
       "asset": "folder",
@@ -63,7 +65,8 @@
         0.2668,
         0.1792
       ],
-      "color": "steel"
+      "color": "steel",
+      "focus": true
     },
     {
       "asset": "card",
@@ -73,7 +76,7 @@
         0.2024,
         0.125867
       ],
-      "color": "institution",
+      "color": "moss",
       "focus": true
     },
     {
@@ -84,7 +87,8 @@
         0.2668,
         0.1792
       ],
-      "color": "steel"
+      "color": "steel",
+      "focus": true
     },
     {
       "asset": "folder",
@@ -105,7 +109,8 @@
         0.2668,
         0.1792
       ],
-      "color": "steel"
+      "color": "steel",
+      "focus": true
     },
     {
       "asset": "folder",
@@ -126,7 +131,8 @@
         0.2668,
         0.1792
       ],
-      "color": "steel"
+      "color": "steel",
+      "focus": true
     },
     {
       "asset": "folder",
@@ -147,7 +153,8 @@
         0.2668,
         0.1792
       ],
-      "color": "steel"
+      "color": "steel",
+      "focus": true
     },
     {
       "asset": "folder",
@@ -168,7 +175,8 @@
         0.2668,
         0.1792
       ],
-      "color": "steel"
+      "color": "steel",
+      "focus": true
     },
     {
       "asset": "card",
@@ -178,7 +186,7 @@
         0.2024,
         0.125867
       ],
-      "color": "institution",
+      "color": "moss",
       "focus": true
     },
     {
@@ -189,7 +197,8 @@
         0.2668,
         0.1792
       ],
-      "color": "steel"
+      "color": "steel",
+      "focus": true
     },
     {
       "asset": "folder",

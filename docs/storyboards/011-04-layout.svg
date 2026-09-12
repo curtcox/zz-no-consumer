@@ -1,23 +1,28 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="800" viewBox="0 0 1200 800"><title>Results pass through shared storage</title><metadata>{
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="800" viewBox="0 0 1200 800"><title>Results pass through shared storage</title><desc>Show a note deposited by one time-limited run and retrieved by another through storage. Keep contributor lanes separate and give the storage surface no command-center silhouette.</desc><metadata>{
   &quot;assets&quot;: {
     &quot;arrow&quot;: &quot;&lt;path d=\&quot;M1 50H87M70 18L96 50L70 82\&quot; fill=\&quot;none\&quot; stroke=\&quot;currentColor\&quot; stroke-width=\&quot;5\&quot;/&gt;&quot;,
-    &quot;card&quot;: &quot;&lt;rect x=\&quot;1\&quot; y=\&quot;1\&quot; width=\&quot;98\&quot; height=\&quot;98\&quot; fill=\&quot;#202326\&quot; stroke=\&quot;currentColor\&quot; stroke-width=\&quot;2\&quot;/&gt;&lt;path d=\&quot;M8 13H92M8 27H70M8 36H86M8 45H72M8 65H86M8 74H57\&quot; stroke=\&quot;currentColor\&quot; stroke-width=\&quot;1.5\&quot;/&gt;&quot;,
-    &quot;folder&quot;: &quot;&lt;path d=\&quot;M3 20V8H38L48 20H97V90H3Z\&quot; fill=\&quot;#202326\&quot; stroke=\&quot;currentColor\&quot; stroke-width=\&quot;3\&quot;/&gt;&lt;path d=\&quot;M12 40H85M12 50H65\&quot; stroke=\&quot;currentColor\&quot; stroke-width=\&quot;2\&quot;/&gt;&quot;
+    &quot;arrow-left&quot;: &quot;&lt;g transform=\&quot;rotate(180 50 50)\&quot;&gt;&lt;path d=\&quot;M1 50H87M70 18L96 50L70 82\&quot; fill=\&quot;none\&quot; stroke=\&quot;currentColor\&quot; stroke-width=\&quot;5\&quot;/&gt;&lt;/g&gt;&quot;,
+    &quot;card&quot;: &quot;&lt;rect x=\&quot;1\&quot; y=\&quot;1\&quot; width=\&quot;98\&quot; height=\&quot;98\&quot; fill=\&quot;#202326\&quot; stroke=\&quot;currentColor\&quot; stroke-width=\&quot;2\&quot;/&gt;&lt;path d=\&quot;M1 20H99M9 10H42M62 10H90M10 34H87M10 45H73M10 56H82M10 76H57M10 87H38\&quot; stroke=\&quot;currentColor\&quot; stroke-width=\&quot;2\&quot;/&gt;&quot;,
+    &quot;folder&quot;: &quot;&lt;path d=\&quot;M3 20V8H38L48 20H97V90H3Z\&quot; fill=\&quot;#202326\&quot; stroke=\&quot;currentColor\&quot; stroke-width=\&quot;3\&quot;/&gt;&lt;path d=\&quot;M12 40H85M12 50H65\&quot; stroke=\&quot;currentColor\&quot; stroke-width=\&quot;2\&quot;/&gt;&quot;,
+    &quot;read-write&quot;: &quot;&lt;path d=\&quot;M3 27H94L79 12M94 27L79 42M97 73H6L21 58M6 73L21 88\&quot; fill=\&quot;none\&quot; stroke=\&quot;currentColor\&quot; stroke-width=\&quot;4\&quot;/&gt;&quot;,
+    &quot;task&quot;: &quot;&lt;rect x=\&quot;1\&quot; y=\&quot;1\&quot; width=\&quot;98\&quot; height=\&quot;98\&quot; fill=\&quot;#202326\&quot; stroke=\&quot;currentColor\&quot; stroke-width=\&quot;2\&quot;/&gt;&lt;path d=\&quot;M1 19H99M12 10H38M48 10H62M9 83H91\&quot; stroke=\&quot;currentColor\&quot; stroke-width=\&quot;2\&quot;/&gt;&lt;circle cx=\&quot;26\&quot; cy=\&quot;48\&quot; r=\&quot;16\&quot; fill=\&quot;none\&quot; stroke=\&quot;currentColor\&quot; stroke-width=\&quot;2\&quot;/&gt;&lt;path d=\&quot;M26 27V69M5 48H47M54 35H90M54 47H78M54 59H88\&quot; stroke=\&quot;currentColor\&quot; stroke-width=\&quot;2\&quot;/&gt;&lt;path d=\&quot;M9 90H63\&quot; stroke=\&quot;currentColor\&quot; stroke-width=\&quot;5\&quot;/&gt;&quot;
   },
   &quot;palette&quot;: {
     &quot;amber&quot;: &quot;#A17D45&quot;,
+    &quot;claret&quot;: &quot;#6B2634&quot;,
     &quot;dirty&quot;: &quot;#CEC5B3&quot;,
     &quot;ink&quot;: &quot;#101214&quot;,
     &quot;institution&quot;: &quot;#68766B&quot;,
+    &quot;moss&quot;: &quot;#74864F&quot;,
     &quot;nicotine&quot;: &quot;#AA9571&quot;,
     &quot;paper&quot;: &quot;#E7E0D0&quot;,
     &quot;shadow&quot;: &quot;#202326&quot;,
     &quot;steel&quot;: &quot;#5E737B&quot;
   },
-  &quot;renderer&quot;: &quot;storyboard-svg-1&quot;,
+  &quot;renderer&quot;: &quot;storyboard-svg-2&quot;,
   &quot;scene&quot;: {
     &quot;background&quot;: &quot;ink&quot;,
-    &quot;intent&quot;: &quot;Block results pass through shared storage. Keep the scripted evidence boundary and lettering visible.&quot;,
+    &quot;intent&quot;: &quot;Show a note deposited by one time-limited run and retrieved by another through storage. Keep contributor lanes separate and give the storage surface no command-center silhouette.&quot;,
     &quot;lettering&quot;: [
       {
         &quot;box&quot;: [
@@ -33,132 +38,111 @@
       {
         &quot;asset&quot;: &quot;folder&quot;,
         &quot;box&quot;: [
-          0.6288,
-          0.1218,
-          0.2668,
-          0.416
-        ],
-        &quot;color&quot;: &quot;institution&quot;,
-        &quot;focus&quot;: true,
-        &quot;label&quot;: &quot;BOARD&quot;,
-        &quot;label_box&quot;: [
-          0.6208,
-          0.5438,
-          0.2828,
-          0.085
-        ]
-      },
-      {
-        &quot;asset&quot;: &quot;card&quot;,
-        &quot;box&quot;: [
-          0.086,
-          0.0962,
-          0.2576,
-          0.096
+          0.6729,
+          0.1373,
+          0.2548,
+          0.346764
         ],
         &quot;color&quot;: &quot;steel&quot;,
         &quot;focus&quot;: true,
-        &quot;label&quot;: &quot;NOTES&quot;,
+        &quot;label&quot;: &quot;SHARED BOARD&quot;,
         &quot;label_box&quot;: [
-          0.07799999999999999,
-          0.1982,
-          0.2736,
-          0.024400000000000012
-        ]
+          0.6729,
+          0.50508,
+          0.2548,
+          0.152366
+        ],
+        &quot;label_size&quot;: 18
+      },
+      {
+        &quot;asset&quot;: &quot;task&quot;,
+        &quot;box&quot;: [
+          0.0541,
+          0.0663,
+          0.3185,
+          0.131208
+        ],
+        &quot;color&quot;: &quot;steel&quot;,
+        &quot;focus&quot;: true,
+        &quot;label&quot;: &quot;ENDING RUN&quot;,
+        &quot;label_box&quot;: [
+          0.0541,
+          0.20546,
+          0.3185,
+          0.057652
+        ],
+        &quot;label_size&quot;: 18
       },
       {
         &quot;asset&quot;: &quot;arrow&quot;,
         &quot;box&quot;: [
-          0.3804,
-          0.1298,
-          0.2024,
-          0.0288
+          0.409,
+          0.09612,
+          0.2184,
+          0.05964
         ],
-        &quot;color&quot;: &quot;institution&quot;
+        &quot;color&quot;: &quot;moss&quot;,
+        &quot;focus&quot;: true
       },
       {
         &quot;asset&quot;: &quot;card&quot;,
         &quot;box&quot;: [
-          0.086,
-          0.2306,
-          0.2576,
-          0.096
+          0.0541,
+          0.288767,
+          0.3185,
+          0.131208
         ],
         &quot;color&quot;: &quot;steel&quot;,
         &quot;focus&quot;: true,
-        &quot;label&quot;: &quot;RESULTS&quot;,
+        &quot;label&quot;: &quot;RESULTS / NOTES&quot;,
         &quot;label_box&quot;: [
-          0.07799999999999999,
-          0.3326,
-          0.2736,
-          0.024399999999999984
-        ]
-      },
-      {
-        &quot;asset&quot;: &quot;arrow&quot;,
-        &quot;box&quot;: [
-          0.3804,
-          0.2642,
-          0.2024,
-          0.0288
+          0.0541,
+          0.427927,
+          0.3185,
+          0.057652
         ],
-        &quot;color&quot;: &quot;institution&quot;
+        &quot;label_size&quot;: 18
       },
       {
-        &quot;asset&quot;: &quot;card&quot;,
+        &quot;asset&quot;: &quot;read-write&quot;,
         &quot;box&quot;: [
-          0.086,
-          0.365,
-          0.2576,
-          0.096
+          0.409,
+          0.318587,
+          0.2184,
+          0.05964
+        ],
+        &quot;color&quot;: &quot;moss&quot;,
+        &quot;focus&quot;: true
+      },
+      {
+        &quot;asset&quot;: &quot;task&quot;,
+        &quot;box&quot;: [
+          0.0541,
+          0.511233,
+          0.3185,
+          0.131208
         ],
         &quot;color&quot;: &quot;steel&quot;,
         &quot;focus&quot;: true,
-        &quot;label&quot;: &quot;REQUESTS&quot;,
+        &quot;label&quot;: &quot;LATER RUN&quot;,
         &quot;label_box&quot;: [
-          0.07799999999999999,
-          0.46699999999999997,
-          0.2736,
-          0.02440000000000004
-        ]
+          0.0541,
+          0.650393,
+          0.3185,
+          0.057652
+        ],
+        &quot;label_size&quot;: 18
       },
       {
-        &quot;asset&quot;: &quot;arrow&quot;,
+        &quot;asset&quot;: &quot;arrow-left&quot;,
         &quot;box&quot;: [
-          0.3804,
-          0.3986,
-          0.2024,
-          0.0288
+          0.409,
+          0.541053,
+          0.2184,
+          0.05964
         ],
-        &quot;color&quot;: &quot;institution&quot;
-      },
-      {
-        &quot;asset&quot;: &quot;card&quot;,
-        &quot;box&quot;: [
-          0.086,
-          0.4994,
-          0.2576,
-          0.096
-        ],
-        &quot;color&quot;: &quot;steel&quot;,
-        &quot;focus&quot;: true,
-        &quot;label&quot;: &quot;OWNERSHIP&quot;,
-        &quot;label_box&quot;: [
-          0.07799999999999999,
-          0.6014,
-          0.2736,
-          0.085
-        ]
-      },
-      {
-        &quot;asset&quot;: &quot;arrow&quot;,
-        &quot;box&quot;: [
-          0.3804,
-          0.533,
-          0.2024,
-          0.0288
-        ],
-        &quot;color&quot;: &quot;institution&quot;
+        &quot;color&quot;: &quot;moss&quot;,
+        &quot;focus&quot;: true
       }
     ],
     &quot;reconstructed&quot;: false,
@@ -167,4 +151,4 @@
     &quot;title&quot;: &quot;Results pass through shared storage&quot;
   }
 }
-</metadata><rect width="1200" height="800" fill="#101214"/><rect x="754.56" y="97.44" width="320.16" height="332.8" fill="none" stroke="#68766B" stroke-width="3"/><text x="762.56" y="121.44" fill="#68766B" font-family="sans-serif" font-size="20">folder</text><text x="914.64" y="455.04" text-anchor="middle" fill="#E7E0D0" font-size="20" font-family="sans-serif">BOARD</text><rect x="103.2" y="76.96" width="309.12" height="76.8" fill="none" stroke="#5E737B" stroke-width="3"/><text x="111.2" y="100.96" fill="#5E737B" font-family="sans-serif" font-size="20">card</text><text x="257.76" y="172.81" text-anchor="middle" fill="#E7E0D0" font-size="14.25" font-family="sans-serif">NOTES</text><rect x="456.48" y="103.84" width="242.88" height="23.04" fill="none" stroke="#68766B" stroke-width="3"/><text x="464.48" y="127.84" fill="#68766B" font-family="sans-serif" font-size="20">arrow</text><rect x="103.2" y="184.48" width="309.12" height="76.8" fill="none" stroke="#5E737B" stroke-width="3"/><text x="111.2" y="208.48" fill="#5E737B" font-family="sans-serif" font-size="20">card</text><text x="257.76" y="280.33" text-anchor="middle" fill="#E7E0D0" font-size="14.25" font-family="sans-serif">RESULTS</text><rect x="456.48" y="211.36" width="242.88" height="23.04" fill="none" stroke="#68766B" stroke-width="3"/><text x="464.48" y="235.36" fill="#68766B" font-family="sans-serif" font-size="20">arrow</text><rect x="103.2" y="292" width="309.12" height="76.8" fill="none" stroke="#5E737B" stroke-width="3"/><text x="111.2" y="316" fill="#5E737B" font-family="sans-serif" font-size="20">card</text><text x="257.76" y="387.85" text-anchor="middle" fill="#E7E0D0" font-size="14.25" font-family="sans-serif">REQUESTS</text><rect x="456.48" y="318.88" width="242.88" height="23.04" fill="none" stroke="#68766B" stroke-width="3"/><text x="464.48" y="342.88" fill="#68766B" font-family="sans-serif" font-size="20">arrow</text><rect x="103.2" y="399.52" width="309.12" height="76.8" fill="none" stroke="#5E737B" stroke-width="3"/><text x="111.2" y="423.52" fill="#5E737B" font-family="sans-serif" font-size="20">card</text><text x="257.76" y="501.12" text-anchor="middle" fill="#E7E0D0" font-size="20" font-family="sans-serif">OWNERSHIP</text><rect x="456.48" y="426.4" width="242.88" height="23.04" fill="none" stroke="#68766B" stroke-width="3"/><text x="464.48" y="450.4" fill="#68766B" font-family="sans-serif" font-size="20">arrow</text><rect x="3" y="3" width="1194" height="794" fill="none" stroke="#5E737B" stroke-width="4"/></svg>
+</metadata><rect width="1200" height="800" fill="#101214"/><rect x="807.48" y="109.84" width="305.76" height="277.411" fill="none" stroke="#5E737B" stroke-width="3"/><text x="815.48" y="133.84" fill="#5E737B" font-family="sans-serif" font-size="20">folder</text><text x="960.36" y="422.064" text-anchor="middle" fill="#E7E0D0" font-size="18" font-family="sans-serif">SHARED BOARD</text><rect x="64.92" y="53.04" width="382.2" height="104.966" fill="none" stroke="#5E737B" stroke-width="3"/><text x="72.92" y="77.04" fill="#5E737B" font-family="sans-serif" font-size="20">task</text><text x="256.02" y="182.368" text-anchor="middle" fill="#E7E0D0" font-size="18" font-family="sans-serif">ENDING RUN</text><rect x="490.8" y="76.896" width="262.08" height="47.712" fill="none" stroke="#74864F" stroke-width="3"/><text x="498.8" y="100.896" fill="#74864F" font-family="sans-serif" font-size="20">arrow</text><rect x="64.92" y="231.014" width="382.2" height="104.966" fill="none" stroke="#5E737B" stroke-width="3"/><text x="72.92" y="255.014" fill="#5E737B" font-family="sans-serif" font-size="20">card</text><text x="256.02" y="360.342" text-anchor="middle" fill="#E7E0D0" font-size="18" font-family="sans-serif">RESULTS / NOTES</text><rect x="490.8" y="254.87" width="262.08" height="47.712" fill="none" stroke="#74864F" stroke-width="3"/><text x="498.8" y="278.87" fill="#74864F" font-family="sans-serif" font-size="20">read-write</text><rect x="64.92" y="408.986" width="382.2" height="104.966" fill="none" stroke="#5E737B" stroke-width="3"/><text x="72.92" y="432.986" fill="#5E737B" font-family="sans-serif" font-size="20">task</text><text x="256.02" y="538.314" text-anchor="middle" fill="#E7E0D0" font-size="18" font-family="sans-serif">LATER RUN</text><rect x="490.8" y="432.842" width="262.08" height="47.712" fill="none" stroke="#74864F" stroke-width="3"/><text x="498.8" y="456.842" fill="#74864F" font-family="sans-serif" font-size="20">arrow-left</text><rect x="3" y="3" width="1194" height="794" fill="none" stroke="#5E737B" stroke-width="4"/></svg>

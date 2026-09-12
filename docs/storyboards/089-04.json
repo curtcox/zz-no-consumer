@@ -1,6 +1,6 @@
 {
   "background": "ink",
-  "intent": "Block counterexamples enter the page plan. Keep the scripted evidence boundary and lettering visible.",
+  "intent": "Move those complications into the page plan with their identities intact. Evidence resisting the thesis changes selection rather than being hidden in an unreadable margin.",
   "lettering": [
     {
       "box": [
@@ -16,56 +16,59 @@
     {
       "asset": "card",
       "box": [
-        0.07,
-        0.2936,
-        0.106067,
-        0.348
+        0.06775,
+        0.536568,
+        0.239633,
+        0.196413
       ],
       "color": "steel",
       "focus": true,
       "label": "COMPLICATIONS",
       "label_box": [
-        0.062000000000000006,
-        0.6476,
-        0.122067,
-        0.085
-      ]
+        0.06775,
+        0.744885,
+        0.239633,
+        0.086303
+      ],
+      "label_size": 18
     },
     {
       "asset": "paper",
       "box": [
-        0.213333,
-        0.2936,
-        0.106067,
-        0.348
+        0.371083,
+        0.536568,
+        0.239633,
+        0.196413
       ],
       "color": "steel",
       "focus": true,
       "label": "PAGE PLAN",
       "label_box": [
-        0.205333,
-        0.6476,
-        0.122067,
-        0.085
-      ]
+        0.371083,
+        0.744885,
+        0.239633,
+        0.086303
+      ],
+      "label_size": 18
     },
     {
       "asset": "card",
       "box": [
-        0.356667,
-        0.2936,
-        0.106067,
-        0.348
+        0.674417,
+        0.536568,
+        0.239633,
+        0.196413
       ],
       "color": "steel",
       "focus": true,
       "label": "GUARDRAILS",
       "label_box": [
-        0.348667,
-        0.6476,
-        0.122067,
-        0.085
-      ]
+        0.674417,
+        0.744885,
+        0.239633,
+        0.086303
+      ],
+      "label_size": 18
     }
   ],
   "reconstructed": false,

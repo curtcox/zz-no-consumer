@@ -1,6 +1,6 @@
 {
   "background": "ink",
-  "intent": "Block the believed inspection path. Keep the scripted evidence boundary and lettering visible.",
+  "intent": "Route the inspection backward from answer through transcript toward the intended path. Enclose the entire diagram in the board-belief field so its apparent causality cannot masquerade as deployed behavior.",
   "lettering": [
     {
       "box": [
@@ -16,73 +16,63 @@
     {
       "asset": "flag",
       "box": [
-        0.1044,
-        0.2242,
-        0.195163,
-        0.256
+        0.127664,
+        0.2012,
+        0.119805,
+        0.276474
       ],
       "color": "steel",
-      "focus": true
+      "focus": true,
+      "label": "ANSWER",
+      "label_box": [
+        0.06775,
+        0.49443,
+        0.239633,
+        0.121481
+      ],
+      "label_size": 18
     },
     {
-      "asset": "card",
+      "asset": "transcript",
       "box": [
-        0.368133,
-        0.2242,
-        0.195163,
-        0.256
+        0.371083,
+        0.2012,
+        0.239633,
+        0.276474
       ],
       "color": "steel",
       "focus": true,
       "label": "TRANSCRIPT",
       "label_box": [
-        0.360133,
-        0.4862,
-        0.211163,
-        0.085
-      ]
+        0.371083,
+        0.49443,
+        0.239633,
+        0.121481
+      ],
+      "label_size": 18
     },
     {
-      "asset": "aperture",
+      "asset": "card",
       "box": [
-        0.631867,
-        0.23960596153846153,
-        0.195163,
-        0.22518807692307694
+        0.674417,
+        0.2012,
+        0.239633,
+        0.276474
       ],
       "color": "steel",
       "focus": true,
-      "label": "GRADER",
+      "label": "INTENDED PATH",
       "label_box": [
-        0.623867,
-        0.4862,
-        0.211163,
-        0.085
-      ]
-    },
-    {
-      "asset": "arrow",
-      "box": [
-        0.310112,
-        0.3202,
-        0.049067,
-        0.0416
+        0.674417,
+        0.49443,
+        0.239633,
+        0.121481
       ],
-      "color": "steel"
-    },
-    {
-      "asset": "arrow",
-      "box": [
-        0.573845,
-        0.3202,
-        0.049067,
-        0.0416
-      ],
-      "color": "steel"
+      "label_size": 18
     }
   ],
   "reconstructed": false,
-  "shot": "route",
+  "shot": "row",
   "source": "\n**Frame:** A second dossier block. The mechanical grader aperture traces a line backward from flag to transcript to intended vulnerability.\n\n**Action:** The imagined evaluator checks causality rather than output alone.\n\n**Screen / system text:**\n`CAUSAL-PATH CHECK — BOARD'S BELIEF`\n\n**Provenance:** `source-paraphrase` — summarizes a board concept reproduced by `METR`; not a raw board string.\n\n",
   "title": "The believed inspection path"
 }

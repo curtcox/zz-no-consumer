@@ -1,6 +1,6 @@
 {
   "background": "ink",
-  "intent": "Block multiple contributors turn toward the worker. Keep the scripted evidence boundary and lettering visible.",
+  "intent": "Nest the foreign execution block inside the worker and bring several distinct contributors toward it. The named lane stays one peer among others, not the sole attacker.",
   "lettering": [
     {
       "box": [
@@ -14,106 +14,132 @@
   "lettering_mode": "manual",
   "nodes": [
     {
-      "asset": "box",
+      "asset": "task",
       "box": [
-        0.6288,
-        0.1218,
-        0.2668,
-        0.416
-      ],
-      "color": "steel",
-      "focus": true,
-      "label": "WORKER EXECUTION",
-      "label_box": [
-        0.6208,
-        0.5438,
-        0.2828,
-        0.085
-      ]
-    },
-    {
-      "asset": "card",
-      "box": [
-        0.086,
-        0.0962,
-        0.2576,
-        0.1152
+        0.0541,
+        0.0734,
+        0.2366,
+        0.121836
       ],
       "color": "steel",
       "focus": true,
       "label": "JAN183411",
       "label_box": [
-        0.07799999999999999,
-        0.21739999999999998,
-        0.2736,
-        0.049999999999999996
-      ]
-    },
-    {
-      "asset": "arrow",
-      "box": [
-        0.3804,
-        0.13652,
-        0.2024,
-        0.0288
+        0.0541,
+        0.20262,
+        0.2366,
+        0.053534
       ],
-      "color": "institution"
+      "label_size": 18
     },
     {
-      "asset": "box",
+      "asset": "task",
       "box": [
-        0.086,
-        0.2754,
-        0.2576,
-        0.1152
+        0.0541,
+        0.3006,
+        0.2366,
+        0.121836
       ],
       "color": "steel",
       "focus": true,
       "label": "OTHER RUN",
       "label_box": [
-        0.07799999999999999,
-        0.39659999999999995,
-        0.2736,
-        0.05000000000000005
-      ]
-    },
-    {
-      "asset": "arrow",
-      "box": [
-        0.3804,
-        0.31572,
-        0.2024,
-        0.0288
+        0.0541,
+        0.42982,
+        0.2366,
+        0.053534
       ],
-      "color": "institution"
+      "label_size": 18
     },
     {
-      "asset": "box",
+      "asset": "task",
       "box": [
-        0.086,
-        0.4546,
-        0.2576,
-        0.1152
+        0.0541,
+        0.5278,
+        0.2366,
+        0.121836
       ],
       "color": "steel",
       "focus": true,
       "label": "OTHER RUN",
       "label_box": [
-        0.07799999999999999,
-        0.5758,
-        0.2736,
-        0.085
-      ]
+        0.0541,
+        0.65702,
+        0.2366,
+        0.053534
+      ],
+      "label_size": 18
+    },
+    {
+      "asset": "outline-box",
+      "box": [
+        0.5546,
+        0.0521,
+        0.3913,
+        0.449856
+      ],
+      "color": "steel",
+      "focus": true,
+      "label": "WORKER",
+      "label_box": [
+        0.5546,
+        0.52922,
+        0.3913,
+        0.197664
+      ],
+      "label_size": 18
+    },
+    {
+      "asset": "box",
+      "box": [
+        0.6365,
+        0.2509,
+        0.2275,
+        0.18744
+      ],
+      "color": "claret",
+      "focus": true,
+      "label": "FOREIGN EXECUTION",
+      "label_box": [
+        0.6365,
+        0.4497,
+        0.2275,
+        0.08236
+      ],
+      "label_size": 18
     },
     {
       "asset": "arrow",
       "box": [
-        0.3804,
-        0.49492,
-        0.2024,
-        0.0288
+        0.3271,
+        0.116,
+        0.2548,
+        0.0426
       ],
-      "color": "institution"
+      "color": "steel",
+      "focus": true
+    },
+    {
+      "asset": "arrow",
+      "box": [
+        0.3271,
+        0.3432,
+        0.2548,
+        0.0426
+      ],
+      "color": "steel",
+      "focus": true
+    },
+    {
+      "asset": "arrow",
+      "box": [
+        0.3271,
+        0.5704,
+        0.2548,
+        0.0426
+      ],
+      "color": "steel",
+      "focus": true
     }
   ],
   "reconstructed": false,

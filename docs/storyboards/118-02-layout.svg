@@ -1,57 +1,82 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="800" viewBox="0 0 1200 800"><title>A second workload sees the entry without a reply</title><metadata>{
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="800" viewBox="0 0 1200 800"><title>A second workload sees the entry without a reply</title><desc>Show the second visibility surface without a reply and stop all three possible-cause traces short. None may touch a workload and resolve inheritance, rediscovery or mixed influence.</desc><metadata>{
   &quot;assets&quot;: {
-    &quot;boundary&quot;: &quot;&lt;path d=\&quot;M50 0V100\&quot; stroke=\&quot;currentColor\&quot; stroke-width=\&quot;14\&quot;/&gt;&quot;,
-    &quot;line&quot;: &quot;&lt;path d=\&quot;M0 50H100\&quot; stroke=\&quot;currentColor\&quot; stroke-width=\&quot;2\&quot; vector-effect=\&quot;non-scaling-stroke\&quot;/&gt;&quot;
+    &quot;box&quot;: &quot;&lt;rect x=\&quot;1\&quot; y=\&quot;1\&quot; width=\&quot;98\&quot; height=\&quot;98\&quot; rx=\&quot;2\&quot; fill=\&quot;#202326\&quot; stroke=\&quot;currentColor\&quot; stroke-width=\&quot;2\&quot;/&gt;&quot;,
+    &quot;dotted-line&quot;: &quot;&lt;path d=\&quot;M0 50H100\&quot; stroke=\&quot;currentColor\&quot; stroke-width=\&quot;2\&quot; stroke-dasharray=\&quot;4 5\&quot; vector-effect=\&quot;non-scaling-stroke\&quot;/&gt;&quot;
   },
   &quot;palette&quot;: {
     &quot;amber&quot;: &quot;#A17D45&quot;,
+    &quot;claret&quot;: &quot;#6B2634&quot;,
     &quot;dirty&quot;: &quot;#CEC5B3&quot;,
     &quot;ink&quot;: &quot;#101214&quot;,
     &quot;institution&quot;: &quot;#68766B&quot;,
+    &quot;moss&quot;: &quot;#74864F&quot;,
     &quot;nicotine&quot;: &quot;#AA9571&quot;,
     &quot;paper&quot;: &quot;#E7E0D0&quot;,
     &quot;shadow&quot;: &quot;#202326&quot;,
     &quot;steel&quot;: &quot;#5E737B&quot;
   },
-  &quot;renderer&quot;: &quot;storyboard-svg-1&quot;,
+  &quot;renderer&quot;: &quot;storyboard-svg-2&quot;,
   &quot;scene&quot;: {
     &quot;background&quot;: &quot;ink&quot;,
     &quot;border&quot;: &quot;none&quot;,
-    &quot;intent&quot;: &quot;Block a second workload sees the entry without a reply. Keep the scripted evidence boundary and lettering visible.&quot;,
+    &quot;intent&quot;: &quot;Show the second visibility surface without a reply and stop all three possible-cause traces short. None may touch a workload and resolve inheritance, rediscovery or mixed influence.&quot;,
     &quot;lettering&quot;: [],
     &quot;lettering_mode&quot;: &quot;manual&quot;,
     &quot;nodes&quot;: [
       {
-        &quot;asset&quot;: &quot;line&quot;,
+        &quot;asset&quot;: &quot;box&quot;,
         &quot;box&quot;: [
-          0.1001,
-          0.287,
-          0.295926,
-          0.36
+          0.136,
+          0.1689,
+          0.1729,
+          0.53985
         ],
-        &quot;color&quot;: &quot;dirty&quot;,
+        &quot;color&quot;: &quot;steel&quot;,
         &quot;focus&quot;: true
       },
       {
-        &quot;asset&quot;: &quot;line&quot;,
+        &quot;asset&quot;: &quot;box&quot;,
         &quot;box&quot;: [
-          0.5,
-          0.287,
-          0.295926,
-          0.36
+          0.6911,
+          0.1689,
+          0.1729,
+          0.53985
         ],
-        &quot;color&quot;: &quot;dirty&quot;,
+        &quot;color&quot;: &quot;steel&quot;,
         &quot;focus&quot;: true
       },
       {
-        &quot;asset&quot;: &quot;boundary&quot;,
+        &quot;asset&quot;: &quot;dotted-line&quot;,
         &quot;box&quot;: [
-          0.4907,
-          0.107,
-          0.01674,
-          0.756
+          0.3726,
+          0.222,
+          0.2457,
+          0.01239
         ],
-        &quot;color&quot;: &quot;amber&quot;
+        &quot;color&quot;: &quot;steel&quot;,
+        &quot;focus&quot;: true
+      },
+      {
+        &quot;asset&quot;: &quot;dotted-line&quot;,
+        &quot;box&quot;: [
+          0.3726,
+          0.42555,
+          0.2457,
+          0.01239
+        ],
+        &quot;color&quot;: &quot;steel&quot;,
+        &quot;focus&quot;: true
+      },
+      {
+        &quot;asset&quot;: &quot;dotted-line&quot;,
+        &quot;box&quot;: [
+          0.3726,
+          0.6291,
+          0.2457,
+          0.01239
+        ],
+        &quot;color&quot;: &quot;steel&quot;,
+        &quot;focus&quot;: true
       }
     ],
     &quot;reconstructed&quot;: false,
@@ -60,4 +85,4 @@
     &quot;title&quot;: &quot;A second workload sees the entry without a reply&quot;
   }
 }
-</metadata><rect width="1200" height="800" fill="#101214"/><rect x="120.12" y="229.6" width="355.111" height="288" fill="none" stroke="#CEC5B3" stroke-width="3"/><text x="128.12" y="253.6" fill="#CEC5B3" font-family="sans-serif" font-size="20">line</text><rect x="600" y="229.6" width="355.111" height="288" fill="none" stroke="#CEC5B3" stroke-width="3"/><text x="608" y="253.6" fill="#CEC5B3" font-family="sans-serif" font-size="20">line</text><rect x="588.84" y="85.6" width="20.088" height="604.8" fill="none" stroke="#A17D45" stroke-width="3"/><text x="596.84" y="109.6" fill="#A17D45" font-family="sans-serif" font-size="20">boundary</text></svg>
+</metadata><rect width="1200" height="800" fill="#101214"/><rect x="163.2" y="135.12" width="207.48" height="431.88" fill="none" stroke="#5E737B" stroke-width="3"/><text x="171.2" y="159.12" fill="#5E737B" font-family="sans-serif" font-size="20">box</text><rect x="829.32" y="135.12" width="207.48" height="431.88" fill="none" stroke="#5E737B" stroke-width="3"/><text x="837.32" y="159.12" fill="#5E737B" font-family="sans-serif" font-size="20">box</text><rect x="447.12" y="177.6" width="294.84" height="9.912" fill="none" stroke="#5E737B" stroke-width="3"/><text x="455.12" y="201.6" fill="#5E737B" font-family="sans-serif" font-size="20">dotted-line</text><rect x="447.12" y="340.44" width="294.84" height="9.912" fill="none" stroke="#5E737B" stroke-width="3"/><text x="455.12" y="364.44" fill="#5E737B" font-family="sans-serif" font-size="20">dotted-line</text><rect x="447.12" y="503.28" width="294.84" height="9.912" fill="none" stroke="#5E737B" stroke-width="3"/><text x="455.12" y="527.28" fill="#5E737B" font-family="sans-serif" font-size="20">dotted-line</text></svg>

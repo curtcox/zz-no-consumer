@@ -1,6 +1,6 @@
 {
   "background": "ink",
-  "intent": "Block publication archive context and training have no necessary connection. Keep the scripted evidence boundary and lettering visible.",
+  "intent": "Keep publication, archive, context and training as four unconnected surfaces. Availability alone must not imply ingestion, contextual use or learning in weights.",
   "lettering": [
     {
       "box": [
@@ -24,74 +24,78 @@
     {
       "asset": "paper",
       "box": [
-        0.07,
-        0.2936,
-        0.07955,
-        0.348
+        0.06775,
+        0.481812,
+        0.1638,
+        0.223749
       ],
       "color": "steel",
       "focus": true,
       "label": "PUBLICATION",
       "label_box": [
-        0.062000000000000006,
-        0.6476,
-        0.09555,
-        0.085
-      ]
+        0.06775,
+        0.719122,
+        0.1638,
+        0.098314
+      ],
+      "label_size": 18
     },
     {
       "asset": "folder",
       "box": [
-        0.1775,
-        0.2936,
-        0.07955,
-        0.348
+        0.29525,
+        0.481812,
+        0.1638,
+        0.223749
       ],
       "color": "steel",
       "focus": true,
       "label": "ARCHIVE",
       "label_box": [
-        0.16949999999999998,
-        0.6476,
-        0.09555,
-        0.085
-      ]
+        0.29525,
+        0.719122,
+        0.1638,
+        0.098314
+      ],
+      "label_size": 18
     },
     {
       "asset": "box",
       "box": [
-        0.285,
-        0.2936,
-        0.07955,
-        0.348
+        0.52275,
+        0.481812,
+        0.1638,
+        0.223749
       ],
       "color": "steel",
       "focus": true,
       "label": "CONTEXT",
       "label_box": [
-        0.27699999999999997,
-        0.6476,
-        0.09555,
-        0.085
-      ]
+        0.52275,
+        0.719122,
+        0.1638,
+        0.098314
+      ],
+      "label_size": 18
     },
     {
       "asset": "box",
       "box": [
-        0.3925,
-        0.2936,
-        0.07955,
-        0.348
+        0.75025,
+        0.481812,
+        0.1638,
+        0.223749
       ],
       "color": "steel",
       "focus": true,
       "label": "TRAINING",
       "label_box": [
-        0.3845,
-        0.6476,
-        0.09555,
-        0.085
-      ]
+        0.75025,
+        0.719122,
+        0.1638,
+        0.098314
+      ],
+      "label_size": 18
     }
   ],
   "reconstructed": false,

@@ -1,6 +1,6 @@
 {
   "background": "ink",
-  "intent": "Block a future workload receives an occluded task and method. Keep the scripted evidence boundary and lettering visible.",
+  "intent": "Keep objective and required method sealed within a generic workload. Their difficult relationship matters, while domain details and organization identity remain occluded.",
   "lettering": [
     {
       "box": [
@@ -16,10 +16,10 @@
     {
       "asset": "box",
       "box": [
-        0.1044,
-        0.2242,
-        0.195163,
-        0.256
+        0.06775,
+        0.2012,
+        0.239633,
+        0.4189
       ],
       "color": "dirty",
       "focus": true
@@ -27,38 +27,40 @@
     {
       "asset": "sealed",
       "box": [
-        0.368133,
-        0.2242,
-        0.195163,
-        0.256
+        0.371083,
+        0.2012,
+        0.239633,
+        0.276474
       ],
       "color": "dirty",
       "focus": true,
       "label": "OBJECTIVE",
       "label_box": [
-        0.360133,
-        0.4862,
-        0.211163,
-        0.085
-      ]
+        0.371083,
+        0.49443,
+        0.239633,
+        0.121481
+      ],
+      "label_size": 18
     },
     {
       "asset": "sealed",
       "box": [
-        0.631867,
-        0.2242,
-        0.195163,
-        0.256
+        0.674417,
+        0.2012,
+        0.239633,
+        0.276474
       ],
       "color": "dirty",
       "focus": true,
       "label": "REQUIRED METHOD",
       "label_box": [
-        0.623867,
-        0.4862,
-        0.211163,
-        0.085
-      ]
+        0.674417,
+        0.49443,
+        0.239633,
+        0.121481
+      ],
+      "label_size": 18
     }
   ],
   "reconstructed": false,

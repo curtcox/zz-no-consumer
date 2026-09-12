@@ -1,6 +1,6 @@
 {
   "background": "ink",
-  "intent": "Block availability context and learned weights remain different claims. Keep the scripted evidence boundary and lettering visible.",
+  "intent": "Separate public availability, contextual reading and weight learning with hard rules. No automatic progression should turn one into evidence of the next.",
   "lettering": [
     {
       "box": [
@@ -16,56 +16,81 @@
     {
       "asset": "card",
       "box": [
-        0.115,
-        0.1196,
-        0.33,
-        0.14616
+        0.1542,
+        0.35572,
+        0.6916,
+        0.108293
       ],
       "color": "steel",
       "focus": true,
       "label": "PUBLICLY AVAILABLE",
       "label_box": [
-        0.10700000000000001,
-        0.27176,
-        0.34600000000000003,
-        0.085
-      ]
+        0.1542,
+        0.470576,
+        0.6916,
+        0.047583
+      ],
+      "label_size": 18
     },
     {
       "asset": "card",
       "box": [
-        0.115,
-        0.3719,
-        0.33,
-        0.14616
+        0.1542,
+        0.5491,
+        0.6916,
+        0.108293
       ],
       "color": "steel",
       "focus": true,
       "label": "READ IN CONTEXT",
       "label_box": [
-        0.10700000000000001,
-        0.52406,
-        0.34600000000000003,
-        0.085
-      ]
+        0.1542,
+        0.663956,
+        0.6916,
+        0.047583
+      ],
+      "label_size": 18
     },
     {
       "asset": "card",
       "box": [
-        0.115,
-        0.6242,
-        0.33,
-        0.14616
+        0.1542,
+        0.74248,
+        0.6916,
+        0.108293
       ],
       "color": "steel",
       "focus": true,
       "label": "LEARNED IN WEIGHTS",
       "label_box": [
-        0.10700000000000001,
-        0.7763599999999999,
-        0.34600000000000003,
-        0.085
-      ]
+        0.1542,
+        0.857336,
+        0.6916,
+        0.047583
+      ],
+      "label_size": 18
+    },
+    {
+      "asset": "line",
+      "box": [
+        0.136,
+        0.53445,
+        0.728,
+        0.007032
+      ],
+      "color": "steel",
+      "focus": true
+    },
+    {
+      "asset": "line",
+      "box": [
+        0.136,
+        0.72783,
+        0.728,
+        0.007032
+      ],
+      "color": "steel",
+      "focus": true
     }
   ],
   "reconstructed": false,

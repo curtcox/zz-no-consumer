@@ -1,21 +1,24 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="800" viewBox="0 0 1200 800"><title>A reply below the request</title><metadata>{
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="800" viewBox="0 0 1200 800"><title>A reply below the request</title><desc>Keep the original request above an indented second row, joined by a reply bracket. The new relationship must be unmistakable before either row&#x27;s words can be read.</desc><metadata>{
   &quot;assets&quot;: {
-    &quot;card&quot;: &quot;&lt;rect x=\&quot;1\&quot; y=\&quot;1\&quot; width=\&quot;98\&quot; height=\&quot;98\&quot; fill=\&quot;#202326\&quot; stroke=\&quot;currentColor\&quot; stroke-width=\&quot;2\&quot;/&gt;&lt;path d=\&quot;M8 13H92M8 27H70M8 36H86M8 45H72M8 65H86M8 74H57\&quot; stroke=\&quot;currentColor\&quot; stroke-width=\&quot;1.5\&quot;/&gt;&quot;
+    &quot;directory-row&quot;: &quot;&lt;rect x=\&quot;1\&quot; y=\&quot;1\&quot; width=\&quot;98\&quot; height=\&quot;98\&quot; fill=\&quot;#202326\&quot; stroke=\&quot;currentColor\&quot; stroke-width=\&quot;2\&quot;/&gt;&lt;path d=\&quot;M19 1V99M4 24H15M4 43H12M4 72H15M28 27V15H43L51 27H90V81H28ZM35 44H83M35 58H73\&quot; fill=\&quot;none\&quot; stroke=\&quot;currentColor\&quot; stroke-width=\&quot;2\&quot;/&gt;&quot;,
+    &quot;reply-bracket&quot;: &quot;&lt;path d=\&quot;M12 2V75H87M70 58L87 75L70 92\&quot; fill=\&quot;none\&quot; stroke=\&quot;currentColor\&quot; stroke-width=\&quot;4\&quot;/&gt;&quot;
   },
   &quot;palette&quot;: {
     &quot;amber&quot;: &quot;#A17D45&quot;,
+    &quot;claret&quot;: &quot;#6B2634&quot;,
     &quot;dirty&quot;: &quot;#CEC5B3&quot;,
     &quot;ink&quot;: &quot;#101214&quot;,
     &quot;institution&quot;: &quot;#68766B&quot;,
+    &quot;moss&quot;: &quot;#74864F&quot;,
     &quot;nicotine&quot;: &quot;#AA9571&quot;,
     &quot;paper&quot;: &quot;#E7E0D0&quot;,
     &quot;shadow&quot;: &quot;#202326&quot;,
     &quot;steel&quot;: &quot;#5E737B&quot;
   },
-  &quot;renderer&quot;: &quot;storyboard-svg-1&quot;,
+  &quot;renderer&quot;: &quot;storyboard-svg-2&quot;,
   &quot;scene&quot;: {
     &quot;background&quot;: &quot;ink&quot;,
-    &quot;intent&quot;: &quot;Block a reply below the request. Keep the scripted evidence boundary and lettering visible.&quot;,
+    &quot;intent&quot;: &quot;Keep the original request above an indented second row, joined by a reply bracket. The new relationship must be unmistakable before either row&#x27;s words can be read.&quot;,
     &quot;lettering&quot;: [
       {
         &quot;box&quot;: [
@@ -29,40 +32,53 @@
     &quot;lettering_mode&quot;: &quot;manual&quot;,
     &quot;nodes&quot;: [
       {
-        &quot;asset&quot;: &quot;card&quot;,
+        &quot;asset&quot;: &quot;directory-row&quot;,
         &quot;box&quot;: [
-          0.1872,
-          0.0962,
-          0.6072,
-          0.16128
+          0.227,
+          0.0663,
+          0.6643,
+          0.173382
         ],
-        &quot;color&quot;: &quot;institution&quot;,
+        &quot;color&quot;: &quot;moss&quot;,
         &quot;focus&quot;: true,
         &quot;label&quot;: &quot;REQUEST&quot;,
         &quot;label_box&quot;: [
-          0.1792,
-          0.26348,
-          0.6232,
-          0.085
-        ]
+          0.227,
+          0.25019,
+          0.6643,
+          0.076183
+        ],
+        &quot;label_size&quot;: 18
       },
       {
-        &quot;asset&quot;: &quot;card&quot;,
+        &quot;asset&quot;: &quot;directory-row&quot;,
         &quot;box&quot;: [
-          0.1872,
-          0.3746,
-          0.6072,
-          0.16128
+          0.3089,
+          0.4568,
+          0.5824,
+          0.173382
         ],
-        &quot;color&quot;: &quot;institution&quot;,
+        &quot;color&quot;: &quot;moss&quot;,
         &quot;focus&quot;: true,
         &quot;label&quot;: &quot;REPLY&quot;,
         &quot;label_box&quot;: [
-          0.1792,
-          0.54188,
-          0.6232,
-          0.085
-        ]
+          0.3089,
+          0.64069,
+          0.5824,
+          0.076183
+        ],
+        &quot;label_size&quot;: 18
+      },
+      {
+        &quot;asset&quot;: &quot;reply-bracket&quot;,
+        &quot;box&quot;: [
+          0.0996,
+          0.1728,
+          0.1365,
+          0.3763
+        ],
+        &quot;color&quot;: &quot;moss&quot;,
+        &quot;focus&quot;: true
       }
     ],
     &quot;reconstructed&quot;: false,
@@ -71,4 +87,4 @@
     &quot;title&quot;: &quot;A reply below the request&quot;
   }
 }
-</metadata><rect width="1200" height="800" fill="#101214"/><rect x="224.64" y="76.96" width="728.64" height="129.024" fill="none" stroke="#68766B" stroke-width="3"/><text x="232.64" y="100.96" fill="#68766B" font-family="sans-serif" font-size="20">card</text><text x="588.96" y="230.784" text-anchor="middle" fill="#E7E0D0" font-size="20" font-family="sans-serif">REQUEST</text><rect x="224.64" y="299.68" width="728.64" height="129.024" fill="none" stroke="#68766B" stroke-width="3"/><text x="232.64" y="323.68" fill="#68766B" font-family="sans-serif" font-size="20">card</text><text x="588.96" y="453.504" text-anchor="middle" fill="#E7E0D0" font-size="20" font-family="sans-serif">REPLY</text><rect x="3" y="3" width="1194" height="794" fill="none" stroke="#5E737B" stroke-width="4"/></svg>
+</metadata><rect width="1200" height="800" fill="#101214"/><rect x="272.4" y="53.04" width="797.16" height="138.706" fill="none" stroke="#74864F" stroke-width="3"/><text x="280.4" y="77.04" fill="#74864F" font-family="sans-serif" font-size="20">directory-row</text><text x="670.98" y="218.152" text-anchor="middle" fill="#E7E0D0" font-size="18" font-family="sans-serif">REQUEST</text><rect x="370.68" y="365.44" width="698.88" height="138.706" fill="none" stroke="#74864F" stroke-width="3"/><text x="378.68" y="389.44" fill="#74864F" font-family="sans-serif" font-size="20">directory-row</text><text x="720.12" y="530.552" text-anchor="middle" fill="#E7E0D0" font-size="18" font-family="sans-serif">REPLY</text><rect x="119.52" y="138.24" width="163.8" height="301.04" fill="none" stroke="#74864F" stroke-width="3"/><text x="127.52" y="162.24" fill="#74864F" font-family="sans-serif" font-size="20">reply-bracket</text><rect x="3" y="3" width="1194" height="794" fill="none" stroke="#5E737B" stroke-width="4"/></svg>

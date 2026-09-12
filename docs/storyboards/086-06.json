@@ -1,6 +1,6 @@
 {
   "background": "ink",
-  "intent": "Block absent messages precede an unmarked resumption. Keep the scripted evidence boundary and lettering visible.",
+  "intent": "Draw a real empty gap for the seven absent messages, then a separately timed resumption. Do not strike through imaginary text or add a restoration marker absent from the record.",
   "lettering": [
     {
       "box": [
@@ -14,86 +14,80 @@
   "lettering_mode": "manual",
   "nodes": [
     {
-      "asset": "line",
+      "asset": "transcript",
       "box": [
-        0.0768,
-        0.365,
-        0.8464,
-        0.016
-      ],
-      "color": "steel"
-    },
-    {
-      "asset": "card",
-      "box": [
-        0.086,
-        0.1794,
-        0.1633,
-        0.1408
+        0.0541,
+        0.1657,
+        0.2093,
+        0.318648
       ],
       "color": "steel",
       "focus": true,
-      "label": "TRANSCRIPT",
+      "label": "RETAINED BEFORE",
       "label_box": [
-        0.07799999999999999,
-        0.32620000000000005,
-        0.17930000000000001,
-        0.030799999999999945
-      ]
+        0.0541,
+        0.50366,
+        0.2093,
+        0.140012
+      ],
+      "label_size": 18
     },
     {
-      "asset": "outline-box",
+      "asset": "empty-slot",
       "box": [
-        0.293,
-        0.1794,
-        0.1633,
-        0.1408
+        0.2998,
+        0.1657,
+        0.2184,
+        0.318648
       ],
       "color": "steel",
       "focus": true,
       "label": "SEVEN MESSAGES ABSENT",
       "label_box": [
-        0.285,
-        0.32620000000000005,
-        0.17930000000000001,
-        0.030799999999999945
-      ]
+        0.2998,
+        0.50366,
+        0.2184,
+        0.140012
+      ],
+      "label_size": 18
     },
     {
       "asset": "clock",
       "box": [
-        0.5347166666666666,
-        0.1794,
-        0.09386666666666667,
-        0.1408
+        0.5546,
+        0.215824,
+        0.1456,
+        0.2184
       ],
       "color": "steel",
       "focus": true,
       "label": "32 SECONDS",
       "label_box": [
-        0.492,
-        0.32620000000000005,
-        0.17930000000000001,
-        0.030799999999999945
-      ]
+        0.5546,
+        0.50366,
+        0.1456,
+        0.140012
+      ],
+      "label_size": 18
     },
     {
       "asset": "terminal",
       "box": [
-        0.707,
-        0.1794,
-        0.1633,
-        0.1408
+        0.7457,
+        0.1657,
+        0.2002,
+        0.318648
       ],
       "color": "steel",
       "focus": true,
       "label": "RESUMPTION",
       "label_box": [
-        0.699,
-        0.32620000000000005,
-        0.17930000000000001,
-        0.030799999999999945
-      ]
+        0.7457,
+        0.50366,
+        0.2002,
+        0.140012
+      ],
+      "label_size": 18
     }
   ],
   "reconstructed": false,

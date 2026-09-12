@@ -1,6 +1,6 @@
 {
   "background": "ink",
-  "intent": "Block fresh lanes begin under the OpenAI-only header. Keep the scripted evidence boundary and lettering visible.",
+  "intent": "Start fresh lanes under the persistent source header with a new date. Do not reuse coordinator identities or visually resurrect ended runs.",
   "lettering": [
     {
       "box": [
@@ -16,56 +16,59 @@
     {
       "asset": "card",
       "box": [
-        0.1044,
-        0.297296,
-        0.195163,
-        0.22528
+        0.06775,
+        0.300108,
+        0.239633,
+        0.230291
       ],
       "color": "steel",
       "focus": true,
       "label": "19 JULY",
       "label_box": [
-        0.09640000000000001,
-        0.527856,
-        0.211163,
-        0.0748
-      ]
+        0.06775,
+        0.544356,
+        0.239633,
+        0.101189
+      ],
+      "label_size": 18
     },
     {
       "asset": "box",
       "box": [
-        0.368133,
-        0.297296,
-        0.195163,
-        0.22528
+        0.371083,
+        0.300108,
+        0.239633,
+        0.230291
       ],
       "color": "steel",
       "focus": true,
       "label": "NEW RUN",
       "label_box": [
-        0.360133,
-        0.527856,
-        0.211163,
-        0.0748
-      ]
+        0.371083,
+        0.544356,
+        0.239633,
+        0.101189
+      ],
+      "label_size": 18
     },
     {
       "asset": "box",
       "box": [
-        0.631867,
-        0.297296,
-        0.195163,
-        0.22528
+        0.674417,
+        0.300108,
+        0.239633,
+        0.230291
       ],
       "color": "steel",
       "focus": true,
       "label": "NEW RUN",
       "label_box": [
-        0.623867,
-        0.527856,
-        0.211163,
-        0.0748
-      ]
+        0.674417,
+        0.544356,
+        0.239633,
+        0.101189
+      ],
+      "label_size": 18
     },
     {
       "asset": "line",

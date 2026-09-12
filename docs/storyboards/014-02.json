@@ -1,6 +1,6 @@
 {
   "background": "ink",
-  "intent": "Four separate thumbnails establish rack, directory, empty room and machine text without giving any run a body.",
+  "intent": "Put the rack, directory, empty room and text strip on a common sketch surface. Reuse their incident geometry so the reader can see the visual vocabulary being deliberately selected.",
   "lettering": [
     {
       "box": [
@@ -15,9 +15,9 @@
     {
       "asset": "rack",
       "box": [
-        0.07,
+        0.081,
         0.37,
-        0.13,
+        0.108,
         0.36
       ],
       "color": "steel",
@@ -31,7 +31,8 @@
         0.08,
         0.07
       ],
-      "color": "steel"
+      "color": "steel",
+      "focus": true
     },
     {
       "asset": "arrow-down",
@@ -51,7 +52,8 @@
         0.08,
         0.07
       ],
-      "color": "steel"
+      "color": "steel",
+      "focus": true
     },
     {
       "asset": "room",
@@ -88,12 +90,13 @@
     {
       "asset": "hand",
       "box": [
-        0.32,
+        0.371833,
         0.76,
-        0.2,
+        0.096333,
         0.17
       ],
-      "color": "dirty"
+      "color": "dirty",
+      "focus": true
     }
   ],
   "reconstructed": true,

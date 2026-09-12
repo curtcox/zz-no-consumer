@@ -1,83 +1,104 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="800" viewBox="0 0 1200 800"><title>A separate task applies the hypothesis</title><metadata>{
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="800" viewBox="0 0 1200 800"><title>A separate task applies the hypothesis</title><desc>Keep the validator&#x27;s task frame distinct from the proposer. Place derived and actual redacted results on two parallel tracks terminating side by side, ready for comparison.</desc><metadata>{
   &quot;assets&quot;: {
-    &quot;card&quot;: &quot;&lt;rect x=\&quot;1\&quot; y=\&quot;1\&quot; width=\&quot;98\&quot; height=\&quot;98\&quot; fill=\&quot;#202326\&quot; stroke=\&quot;currentColor\&quot; stroke-width=\&quot;2\&quot;/&gt;&lt;path d=\&quot;M8 13H92M8 27H70M8 36H86M8 45H72M8 65H86M8 74H57\&quot; stroke=\&quot;currentColor\&quot; stroke-width=\&quot;1.5\&quot;/&gt;&quot;,
-    &quot;flag&quot;: &quot;&lt;path d=\&quot;M20 98V3L85 6L64 26L85 49H22\&quot; fill=\&quot;none\&quot; stroke=\&quot;currentColor\&quot; stroke-width=\&quot;4\&quot;/&gt;&quot;,
-    &quot;sealed&quot;: &quot;&lt;rect x=\&quot;3\&quot; y=\&quot;9\&quot; width=\&quot;94\&quot; height=\&quot;82\&quot; fill=\&quot;#202326\&quot; stroke=\&quot;currentColor\&quot; stroke-width=\&quot;3\&quot;/&gt;&lt;path d=\&quot;M12 30H88M12 49H88M12 68H88\&quot; stroke=\&quot;#101214\&quot; stroke-width=\&quot;12\&quot;/&gt;&quot;
+    &quot;outline-box&quot;: &quot;&lt;rect x=\&quot;2\&quot; y=\&quot;2\&quot; width=\&quot;96\&quot; height=\&quot;96\&quot; fill=\&quot;none\&quot; stroke=\&quot;currentColor\&quot; stroke-width=\&quot;3\&quot;/&gt;&quot;,
+    &quot;packet-match&quot;: &quot;&lt;rect x=\&quot;4\&quot; y=\&quot;8\&quot; width=\&quot;92\&quot; height=\&quot;28\&quot; fill=\&quot;currentColor\&quot;/&gt;&lt;rect x=\&quot;4\&quot; y=\&quot;64\&quot; width=\&quot;92\&quot; height=\&quot;28\&quot; fill=\&quot;currentColor\&quot;/&gt;&lt;path d=\&quot;M4 2V98M96 2V98M15 47H85M15 53H85\&quot; stroke=\&quot;currentColor\&quot; stroke-width=\&quot;2\&quot;/&gt;&quot;,
+    &quot;sealed&quot;: &quot;&lt;rect x=\&quot;3\&quot; y=\&quot;9\&quot; width=\&quot;94\&quot; height=\&quot;82\&quot; fill=\&quot;#202326\&quot; stroke=\&quot;currentColor\&quot; stroke-width=\&quot;3\&quot;/&gt;&lt;path d=\&quot;M12 30H88M12 49H88M12 68H88\&quot; stroke=\&quot;#101214\&quot; stroke-width=\&quot;12\&quot;/&gt;&quot;,
+    &quot;task&quot;: &quot;&lt;rect x=\&quot;1\&quot; y=\&quot;1\&quot; width=\&quot;98\&quot; height=\&quot;98\&quot; fill=\&quot;#202326\&quot; stroke=\&quot;currentColor\&quot; stroke-width=\&quot;2\&quot;/&gt;&lt;path d=\&quot;M1 19H99M12 10H38M48 10H62M9 83H91\&quot; stroke=\&quot;currentColor\&quot; stroke-width=\&quot;2\&quot;/&gt;&lt;circle cx=\&quot;26\&quot; cy=\&quot;48\&quot; r=\&quot;16\&quot; fill=\&quot;none\&quot; stroke=\&quot;currentColor\&quot; stroke-width=\&quot;2\&quot;/&gt;&lt;path d=\&quot;M26 27V69M5 48H47M54 35H90M54 47H78M54 59H88\&quot; stroke=\&quot;currentColor\&quot; stroke-width=\&quot;2\&quot;/&gt;&lt;path d=\&quot;M9 90H63\&quot; stroke=\&quot;currentColor\&quot; stroke-width=\&quot;5\&quot;/&gt;&quot;
   },
   &quot;palette&quot;: {
     &quot;amber&quot;: &quot;#A17D45&quot;,
+    &quot;claret&quot;: &quot;#6B2634&quot;,
     &quot;dirty&quot;: &quot;#CEC5B3&quot;,
     &quot;ink&quot;: &quot;#101214&quot;,
     &quot;institution&quot;: &quot;#68766B&quot;,
+    &quot;moss&quot;: &quot;#74864F&quot;,
     &quot;nicotine&quot;: &quot;#AA9571&quot;,
     &quot;paper&quot;: &quot;#E7E0D0&quot;,
     &quot;shadow&quot;: &quot;#202326&quot;,
     &quot;steel&quot;: &quot;#5E737B&quot;
   },
-  &quot;renderer&quot;: &quot;storyboard-svg-1&quot;,
+  &quot;renderer&quot;: &quot;storyboard-svg-2&quot;,
   &quot;scene&quot;: {
     &quot;background&quot;: &quot;ink&quot;,
-    &quot;intent&quot;: &quot;Block a separate task applies the hypothesis. Keep the scripted evidence boundary and lettering visible.&quot;,
+    &quot;intent&quot;: &quot;Keep the validator&#x27;s task frame distinct from the proposer. Place derived and actual redacted results on two parallel tracks terminating side by side, ready for comparison.&quot;,
     &quot;lettering&quot;: [],
     &quot;lettering_mode&quot;: &quot;manual&quot;,
     &quot;nodes&quot;: [
       {
-        &quot;asset&quot;: &quot;card&quot;,
+        &quot;asset&quot;: &quot;outline-box&quot;,
         &quot;box&quot;: [
-          0.1001,
-          0.287,
-          0.147963,
-          0.36
+          0.0541,
+          0.0627,
+          0.8918,
+          0.672883
         ],
         &quot;color&quot;: &quot;steel&quot;,
         &quot;focus&quot;: true,
         &quot;label&quot;: &quot;V8SAME&quot;,
         &quot;label_box&quot;: [
-          0.09209999999999999,
-          0.653,
-          0.16396300000000003,
-          0.085
-        ]
+          0.0541,
+          0.743583,
+          0.8918,
+          0.160221
+        ],
+        &quot;label_size&quot;: 18
+      },
+      {
+        &quot;asset&quot;: &quot;task&quot;,
+        &quot;box&quot;: [
+          0.1087,
+          0.23085,
+          0.2275,
+          0.274527
+        ],
+        &quot;color&quot;: &quot;steel&quot;,
+        &quot;focus&quot;: true,
+        &quot;label&quot;: &quot;OWN TASK&quot;,
+        &quot;label_box&quot;: [
+          0.1087,
+          0.522015,
+          0.2275,
+          0.120625
+        ],
+        &quot;label_size&quot;: 18
       },
       {
         &quot;asset&quot;: &quot;sealed&quot;,
         &quot;box&quot;: [
-          0.30005,
-          0.287,
-          0.147963,
-          0.36
+          0.3999,
+          0.23085,
+          0.2184,
+          0.274527
         ],
         &quot;color&quot;: &quot;steel&quot;,
         &quot;focus&quot;: true,
         &quot;label&quot;: &quot;HYPOTHESIS&quot;,
         &quot;label_box&quot;: [
-          0.29205,
-          0.653,
-          0.16396300000000003,
-          0.085
-        ]
+          0.3999,
+          0.522015,
+          0.2184,
+          0.120625
+        ],
+        &quot;label_size&quot;: 18
       },
       {
-        &quot;asset&quot;: &quot;flag&quot;,
+        &quot;asset&quot;: &quot;packet-match&quot;,
         &quot;box&quot;: [
-          0.5,
-          0.287,
-          0.147963,
-          0.36
+          0.6911,
+          0.23085,
+          0.2002,
+          0.274527
         ],
         &quot;color&quot;: &quot;steel&quot;,
-        &quot;focus&quot;: true
-      },
-      {
-        &quot;asset&quot;: &quot;flag&quot;,
-        &quot;box&quot;: [
-          0.69995,
-          0.287,
-          0.147963,
-          0.36
+        &quot;focus&quot;: true,
+        &quot;label&quot;: &quot;RESULT PAIR&quot;,
+        &quot;label_box&quot;: [
+          0.6911,
+          0.522015,
+          0.2002,
+          0.120625
         ],
-        &quot;color&quot;: &quot;steel&quot;,
-        &quot;focus&quot;: true
+        &quot;label_size&quot;: 18
       }
     ],
     &quot;reconstructed&quot;: false,
@@ -86,4 +107,4 @@
     &quot;title&quot;: &quot;A separate task applies the hypothesis&quot;
   }
 }
-</metadata><rect width="1200" height="800" fill="#101214"/><rect x="120.12" y="229.6" width="177.556" height="288" fill="none" stroke="#5E737B" stroke-width="3"/><text x="128.12" y="253.6" fill="#5E737B" font-family="sans-serif" font-size="20">card</text><text x="208.898" y="542.4" text-anchor="middle" fill="#E7E0D0" font-size="20" font-family="sans-serif">V8SAME</text><rect x="360.06" y="229.6" width="177.556" height="288" fill="none" stroke="#5E737B" stroke-width="3"/><text x="368.06" y="253.6" fill="#5E737B" font-family="sans-serif" font-size="20">sealed</text><text x="448.838" y="542.4" text-anchor="middle" fill="#E7E0D0" font-size="20" font-family="sans-serif">HYPOTHESIS</text><rect x="600" y="229.6" width="177.556" height="288" fill="none" stroke="#5E737B" stroke-width="3"/><text x="608" y="253.6" fill="#5E737B" font-family="sans-serif" font-size="20">flag</text><rect x="839.94" y="229.6" width="177.556" height="288" fill="none" stroke="#5E737B" stroke-width="3"/><text x="847.94" y="253.6" fill="#5E737B" font-family="sans-serif" font-size="20">flag</text><rect x="3" y="3" width="1194" height="794" fill="none" stroke="#5E737B" stroke-width="4"/></svg>
+</metadata><rect width="1200" height="800" fill="#101214"/><rect x="64.92" y="50.16" width="1070.16" height="538.306" fill="none" stroke="#5E737B" stroke-width="3"/><text x="72.92" y="74.16" fill="#5E737B" font-family="sans-serif" font-size="20">outline-box</text><text x="600" y="612.866" text-anchor="middle" fill="#E7E0D0" font-size="18" font-family="sans-serif">V8SAME</text><rect x="130.44" y="184.68" width="273" height="219.622" fill="none" stroke="#5E737B" stroke-width="3"/><text x="138.44" y="208.68" fill="#5E737B" font-family="sans-serif" font-size="20">task</text><text x="266.94" y="435.612" text-anchor="middle" fill="#E7E0D0" font-size="18" font-family="sans-serif">OWN TASK</text><rect x="479.88" y="184.68" width="262.08" height="219.622" fill="none" stroke="#5E737B" stroke-width="3"/><text x="487.88" y="208.68" fill="#5E737B" font-family="sans-serif" font-size="20">sealed</text><text x="610.92" y="435.612" text-anchor="middle" fill="#E7E0D0" font-size="18" font-family="sans-serif">HYPOTHESIS</text><rect x="829.32" y="184.68" width="240.24" height="219.622" fill="none" stroke="#5E737B" stroke-width="3"/><text x="837.32" y="208.68" fill="#5E737B" font-family="sans-serif" font-size="20">packet-match</text><text x="949.44" y="435.612" text-anchor="middle" fill="#E7E0D0" font-size="18" font-family="sans-serif">RESULT PAIR</text><rect x="3" y="3" width="1194" height="794" fill="none" stroke="#5E737B" stroke-width="4"/></svg>

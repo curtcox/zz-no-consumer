@@ -1,41 +1,64 @@
 {
   "background": "ink",
   "border": "none",
-  "intent": "Block a second workload sees the entry without a reply. Keep the scripted evidence boundary and lettering visible.",
+  "intent": "Show the second visibility surface without a reply and stop all three possible-cause traces short. None may touch a workload and resolve inheritance, rediscovery or mixed influence.",
   "lettering": [],
   "lettering_mode": "manual",
   "nodes": [
     {
-      "asset": "line",
+      "asset": "box",
       "box": [
-        0.1001,
-        0.287,
-        0.295926,
-        0.36
+        0.136,
+        0.1689,
+        0.1729,
+        0.53985
       ],
-      "color": "dirty",
+      "color": "steel",
       "focus": true
     },
     {
-      "asset": "line",
+      "asset": "box",
       "box": [
-        0.5,
-        0.287,
-        0.295926,
-        0.36
+        0.6911,
+        0.1689,
+        0.1729,
+        0.53985
       ],
-      "color": "dirty",
+      "color": "steel",
       "focus": true
     },
     {
-      "asset": "boundary",
+      "asset": "dotted-line",
       "box": [
-        0.4907,
-        0.107,
-        0.01674,
-        0.756
+        0.3726,
+        0.222,
+        0.2457,
+        0.01239
       ],
-      "color": "amber"
+      "color": "steel",
+      "focus": true
+    },
+    {
+      "asset": "dotted-line",
+      "box": [
+        0.3726,
+        0.42555,
+        0.2457,
+        0.01239
+      ],
+      "color": "steel",
+      "focus": true
+    },
+    {
+      "asset": "dotted-line",
+      "box": [
+        0.3726,
+        0.6291,
+        0.2457,
+        0.01239
+      ],
+      "color": "steel",
+      "focus": true
     }
   ],
   "reconstructed": false,

@@ -1,6 +1,6 @@
 {
   "background": "ink",
-  "intent": "Block the same sentence sits beneath three separate workflows. Keep the scripted evidence boundary and lettering visible.",
+  "intent": "Repeat only the shared sentence at equal weight below otherwise distinct columns. Its commonality must not visually merge their evidence access or responsibilities.",
   "lettering": [
     {
       "box": [
@@ -24,56 +24,59 @@
     {
       "asset": "folder",
       "box": [
-        0.07,
-        0.2936,
-        0.106067,
-        0.348
+        0.05775,
+        0.2397,
+        0.1343,
+        0.344619
       ],
       "color": "steel",
       "focus": true,
       "label": "INVESTIGATION",
       "label_box": [
-        0.062000000000000006,
-        0.6476,
-        0.122067,
-        0.085
-      ]
+        0.05775,
+        0.605205,
+        0.1343,
+        0.151423
+      ],
+      "label_size": 18
     },
     {
       "asset": "monitor",
       "box": [
-        0.213333,
-        0.2936,
-        0.106067,
-        0.348
+        0.22775,
+        0.2397,
+        0.1343,
+        0.344619
       ],
       "color": "steel",
       "focus": true,
       "label": "ADAPTATION",
       "label_box": [
-        0.205333,
-        0.6476,
-        0.122067,
-        0.085
-      ]
+        0.22775,
+        0.605205,
+        0.1343,
+        0.151423
+      ],
+      "label_size": 18
     },
     {
       "asset": "terminal",
       "box": [
-        0.356667,
-        0.2936,
-        0.106067,
-        0.348
+        0.39775,
+        0.2397,
+        0.1343,
+        0.344619
       ],
       "color": "steel",
       "focus": true,
       "label": "TOOLING",
       "label_box": [
-        0.348667,
-        0.6476,
-        0.122067,
-        0.085
-      ]
+        0.39775,
+        0.605205,
+        0.1343,
+        0.151423
+      ],
+      "label_size": 18
     }
   ],
   "reconstructed": false,

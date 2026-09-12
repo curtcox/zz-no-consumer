@@ -1,6 +1,6 @@
 {
   "background": "ink",
-  "intent": "Block an innocuous-looking tool call stays redacted. Keep the scripted evidence boundary and lettering visible.",
+  "intent": "Show the tool call as an opaque retained-transcript field. Its innocuous appearance is a reported observation; the redaction must conceal executable content.",
   "lettering": [
     {
       "box": [

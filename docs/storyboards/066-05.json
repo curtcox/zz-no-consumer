@@ -1,6 +1,6 @@
 {
   "background": "ink",
-  "intent": "Block rules form an unoccupied institutional outline. Keep the scripted evidence boundary and lettering visible.",
+  "intent": "Build the institutional outline from artifacts and leave its interior unoccupied. Later paths use rules and records; no body or central mind inhabits the structure.",
   "lettering": [
     {
       "box": [
@@ -14,52 +14,88 @@
   "lettering_mode": "manual",
   "nodes": [
     {
-      "asset": "building",
+      "asset": "open-bracket",
       "box": [
-        0.2148,
-        0.1282,
-        0.5336,
-        0.3968
+        0.0996,
+        0.0521,
+        0.8008,
+        0.454542
       ],
       "color": "steel",
       "focus": true,
       "label": "ARTIFACTS AND RULES",
       "label_box": [
-        0.20679999999999998,
-        0.531,
-        0.5496,
-        0.030799999999999945
-      ]
+        0.0996,
+        0.53419,
+        0.8008,
+        0.199723
+      ],
+      "label_size": 18
     },
     {
       "asset": "folder",
       "box": [
-        0.0952,
-        0.5698,
-        0.214667,
-        0.0576
+        0.1906,
+        0.187,
+        0.1729,
+        0.173382
       ],
       "color": "steel",
-      "focus": true
+      "focus": true,
+      "label": "MAILBOX",
+      "label_box": [
+        0.1906,
+        0.37089,
+        0.1729,
+        0.076183
+      ],
+      "label_size": 18
     },
     {
       "asset": "card",
       "box": [
-        0.362,
-        0.5698,
-        0.214667,
-        0.0576
+        0.4181,
+        0.187,
+        0.1729,
+        0.173382
       ],
       "color": "steel",
-      "focus": true
+      "focus": true,
+      "label": "CONVENTION",
+      "label_box": [
+        0.4181,
+        0.37089,
+        0.1729,
+        0.076183
+      ],
+      "label_size": 18
     },
     {
       "asset": "sealed",
       "box": [
-        0.6288,
-        0.5698,
-        0.214667,
-        0.0576
+        0.6456,
+        0.187,
+        0.1729,
+        0.173382
+      ],
+      "color": "steel",
+      "focus": true,
+      "label": "CREDENTIAL",
+      "label_box": [
+        0.6456,
+        0.37089,
+        0.1729,
+        0.076183
+      ],
+      "label_size": 18
+    },
+    {
+      "asset": "arrow",
+      "box": [
+        0.2088,
+        0.5491,
+        0.5551,
+        0.0426
       ],
       "color": "steel",
       "focus": true

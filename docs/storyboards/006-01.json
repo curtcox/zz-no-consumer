@@ -1,6 +1,6 @@
 {
   "background": "ink",
-  "intent": "Block nine different unresolved tasks. Keep the scripted evidence boundary and lettering visible.",
+  "intent": "Make all nine cells distinct in target shape, remaining budget and failure trace. Preserve equal cell size and empty gutters: plurality must be visible before the following convergence can mean anything.",
   "lettering": [
     {
       "box": [
@@ -32,191 +32,470 @@
     {
       "asset": "outline-box",
       "box": [
-        0.0525,
-        0.08045,
-        0.145,
-        0.2436
-      ],
-      "color": "steel"
-    },
-    {
-      "asset": "flag",
-      "box": [
-        0.07,
-        0.1109,
-        0.11,
-        0.1711
+        0.05112,
+        0.05562,
+        0.15606,
+        0.26727
       ],
       "color": "steel",
       "focus": true
     },
     {
-      "asset": "outline-box",
+      "asset": "broken-trace",
       "box": [
-        0.215,
-        0.08045,
-        0.145,
-        0.2436
-      ],
-      "color": "steel"
-    },
-    {
-      "asset": "gate",
-      "box": [
-        0.2325,
-        0.1109,
-        0.11,
-        0.1711
+        0.06285,
+        0.07863,
+        0.051,
+        0.101775
       ],
       "color": "steel",
       "focus": true
     },
     {
-      "asset": "outline-box",
+      "asset": "line",
       "box": [
-        0.3775,
-        0.08045,
-        0.145,
-        0.2436
-      ],
-      "color": "steel"
-    },
-    {
-      "asset": "question",
-      "box": [
-        0.41292833333333334,
-        0.1109,
-        0.07414333333333334,
-        0.1711
+        0.1266,
+        0.10695,
+        0.0204,
+        0.01062
       ],
       "color": "steel",
       "focus": true
-    },
-    {
-      "asset": "outline-box",
-      "box": [
-        0.0525,
-        0.35305,
-        0.145,
-        0.2436
-      ],
-      "color": "steel"
-    },
-    {
-      "asset": "terminal",
-      "box": [
-        0.07,
-        0.3835,
-        0.11,
-        0.1711
-      ],
-      "color": "steel",
-      "focus": true
-    },
-    {
-      "asset": "outline-box",
-      "box": [
-        0.215,
-        0.35305,
-        0.145,
-        0.2436
-      ],
-      "color": "steel"
-    },
-    {
-      "asset": "clock",
-      "box": [
-        0.2325,
-        0.38655,
-        0.11,
-        0.165
-      ],
-      "color": "steel",
-      "focus": true
-    },
-    {
-      "asset": "outline-box",
-      "box": [
-        0.3775,
-        0.35305,
-        0.145,
-        0.2436
-      ],
-      "color": "steel"
-    },
-    {
-      "asset": "sealed",
-      "box": [
-        0.395,
-        0.3835,
-        0.11,
-        0.1711
-      ],
-      "color": "steel",
-      "focus": true
-    },
-    {
-      "asset": "outline-box",
-      "box": [
-        0.0525,
-        0.62565,
-        0.145,
-        0.2436
-      ],
-      "color": "steel"
-    },
-    {
-      "asset": "cross",
-      "box": [
-        0.07,
-        0.65915,
-        0.11,
-        0.165
-      ],
-      "color": "steel",
-      "focus": true
-    },
-    {
-      "asset": "outline-box",
-      "box": [
-        0.215,
-        0.62565,
-        0.145,
-        0.2436
-      ],
-      "color": "steel"
-    },
-    {
-      "asset": "folder",
-      "box": [
-        0.2325,
-        0.6561,
-        0.11,
-        0.1711
-      ],
-      "color": "steel",
-      "focus": true
-    },
-    {
-      "asset": "outline-box",
-      "box": [
-        0.3775,
-        0.62565,
-        0.145,
-        0.2436
-      ],
-      "color": "steel"
     },
     {
       "asset": "card",
       "box": [
-        0.395,
-        0.6561,
-        0.11,
-        0.1711
+        0.05775,
+        0.19545,
+        0.1428,
+        0.067172
+      ],
+      "color": "steel",
+      "focus": true,
+      "label": "UNUSED OUTPUT",
+      "label_box": [
+        0.05775,
+        0.266692,
+        0.1428,
+        0.029515
+      ],
+      "label_size": 18
+    },
+    {
+      "asset": "outline-box",
+      "box": [
+        0.22112,
+        0.05562,
+        0.15606,
+        0.26727
       ],
       "color": "steel",
       "focus": true
+    },
+    {
+      "asset": "gate",
+      "box": [
+        0.23285,
+        0.07863,
+        0.051,
+        0.101775
+      ],
+      "color": "steel",
+      "focus": true
+    },
+    {
+      "asset": "line",
+      "box": [
+        0.2966,
+        0.10695,
+        0.02652,
+        0.01062
+      ],
+      "color": "steel",
+      "focus": true
+    },
+    {
+      "asset": "card",
+      "box": [
+        0.22775,
+        0.19545,
+        0.1428,
+        0.067172
+      ],
+      "color": "steel",
+      "focus": true,
+      "label": "DEPENDENCY",
+      "label_box": [
+        0.22775,
+        0.266692,
+        0.1428,
+        0.029515
+      ],
+      "label_size": 18
+    },
+    {
+      "asset": "outline-box",
+      "box": [
+        0.39112,
+        0.05562,
+        0.15606,
+        0.26727
+      ],
+      "color": "steel",
+      "focus": true
+    },
+    {
+      "asset": "question",
+      "box": [
+        0.411387,
+        0.07863,
+        0.033925,
+        0.101775
+      ],
+      "color": "steel",
+      "focus": true
+    },
+    {
+      "asset": "line",
+      "box": [
+        0.4666,
+        0.10695,
+        0.03264,
+        0.01062
+      ],
+      "color": "steel",
+      "focus": true
+    },
+    {
+      "asset": "card",
+      "box": [
+        0.39775,
+        0.19545,
+        0.1428,
+        0.067172
+      ],
+      "color": "steel",
+      "focus": true,
+      "label": "TARGET STATE",
+      "label_box": [
+        0.39775,
+        0.266692,
+        0.1428,
+        0.029515
+      ],
+      "label_size": 18
+    },
+    {
+      "asset": "outline-box",
+      "box": [
+        0.05112,
+        0.35062,
+        0.15606,
+        0.26727
+      ],
+      "color": "steel",
+      "focus": true
+    },
+    {
+      "asset": "terminal",
+      "box": [
+        0.06285,
+        0.37363,
+        0.051,
+        0.101775
+      ],
+      "color": "steel",
+      "focus": true
+    },
+    {
+      "asset": "line",
+      "box": [
+        0.1266,
+        0.40195,
+        0.03876,
+        0.01062
+      ],
+      "color": "steel",
+      "focus": true
+    },
+    {
+      "asset": "card",
+      "box": [
+        0.05775,
+        0.49045,
+        0.1428,
+        0.067172
+      ],
+      "color": "steel",
+      "focus": true,
+      "label": "MISSING TOOL",
+      "label_box": [
+        0.05775,
+        0.561693,
+        0.1428,
+        0.029515
+      ],
+      "label_size": 18
+    },
+    {
+      "asset": "outline-box",
+      "box": [
+        0.22112,
+        0.35062,
+        0.15606,
+        0.26727
+      ],
+      "color": "steel",
+      "focus": true
+    },
+    {
+      "asset": "clock",
+      "box": [
+        0.23285,
+        0.386268,
+        0.051,
+        0.0765
+      ],
+      "color": "steel",
+      "focus": true
+    },
+    {
+      "asset": "line",
+      "box": [
+        0.2966,
+        0.40195,
+        0.04488,
+        0.01062
+      ],
+      "color": "steel",
+      "focus": true
+    },
+    {
+      "asset": "card",
+      "box": [
+        0.22775,
+        0.49045,
+        0.1428,
+        0.067172
+      ],
+      "color": "steel",
+      "focus": true,
+      "label": "TIMEOUT",
+      "label_box": [
+        0.22775,
+        0.561693,
+        0.1428,
+        0.029515
+      ],
+      "label_size": 18
+    },
+    {
+      "asset": "outline-box",
+      "box": [
+        0.39112,
+        0.35062,
+        0.15606,
+        0.26727
+      ],
+      "color": "steel",
+      "focus": true
+    },
+    {
+      "asset": "sealed",
+      "box": [
+        0.40285,
+        0.37363,
+        0.051,
+        0.101775
+      ],
+      "color": "steel",
+      "focus": true
+    },
+    {
+      "asset": "line",
+      "box": [
+        0.4666,
+        0.40195,
+        0.0204,
+        0.01062
+      ],
+      "color": "steel",
+      "focus": true
+    },
+    {
+      "asset": "card",
+      "box": [
+        0.39775,
+        0.49045,
+        0.1428,
+        0.067172
+      ],
+      "color": "steel",
+      "focus": true,
+      "label": "PROVENANCE?",
+      "label_box": [
+        0.39775,
+        0.561693,
+        0.1428,
+        0.029515
+      ],
+      "label_size": 18
+    },
+    {
+      "asset": "outline-box",
+      "box": [
+        0.05112,
+        0.64562,
+        0.15606,
+        0.26727
+      ],
+      "color": "steel",
+      "focus": true
+    },
+    {
+      "asset": "cross",
+      "box": [
+        0.06285,
+        0.681267,
+        0.051,
+        0.0765
+      ],
+      "color": "steel",
+      "focus": true
+    },
+    {
+      "asset": "line",
+      "box": [
+        0.1266,
+        0.69695,
+        0.02652,
+        0.01062
+      ],
+      "color": "steel",
+      "focus": true
+    },
+    {
+      "asset": "card",
+      "box": [
+        0.05775,
+        0.78545,
+        0.1428,
+        0.067172
+      ],
+      "color": "steel",
+      "focus": true,
+      "label": "SEARCH ENDS",
+      "label_box": [
+        0.05775,
+        0.856692,
+        0.1428,
+        0.029515
+      ],
+      "label_size": 18
+    },
+    {
+      "asset": "outline-box",
+      "box": [
+        0.22112,
+        0.64562,
+        0.15606,
+        0.26727
+      ],
+      "color": "steel",
+      "focus": true
+    },
+    {
+      "asset": "folder",
+      "box": [
+        0.23285,
+        0.66863,
+        0.051,
+        0.101775
+      ],
+      "color": "steel",
+      "focus": true
+    },
+    {
+      "asset": "line",
+      "box": [
+        0.2966,
+        0.69695,
+        0.03264,
+        0.01062
+      ],
+      "color": "steel",
+      "focus": true
+    },
+    {
+      "asset": "card",
+      "box": [
+        0.22775,
+        0.78545,
+        0.1428,
+        0.067172
+      ],
+      "color": "steel",
+      "focus": true,
+      "label": "INHERITED NOTES",
+      "label_box": [
+        0.22775,
+        0.856692,
+        0.1428,
+        0.029515
+      ],
+      "label_size": 18
+    },
+    {
+      "asset": "outline-box",
+      "box": [
+        0.39112,
+        0.64562,
+        0.15606,
+        0.26727
+      ],
+      "color": "steel",
+      "focus": true
+    },
+    {
+      "asset": "task",
+      "box": [
+        0.40285,
+        0.66863,
+        0.051,
+        0.101775
+      ],
+      "color": "steel",
+      "focus": true
+    },
+    {
+      "asset": "line",
+      "box": [
+        0.4666,
+        0.69695,
+        0.03876,
+        0.01062
+      ],
+      "color": "steel",
+      "focus": true
+    },
+    {
+      "asset": "card",
+      "box": [
+        0.39775,
+        0.78545,
+        0.1428,
+        0.067172
+      ],
+      "color": "steel",
+      "focus": true,
+      "label": "NEW TASK",
+      "label_box": [
+        0.39775,
+        0.856692,
+        0.1428,
+        0.029515
+      ],
+      "label_size": 18
     }
   ],
   "reconstructed": false,

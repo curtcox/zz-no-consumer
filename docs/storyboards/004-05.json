@@ -1,6 +1,6 @@
 {
   "background": "ink",
-  "intent": "Block a different workload reads the note. Keep the scripted evidence boundary and lettering visible.",
+  "intent": "Change the enclosing workload header while preserving the selected row's shape and position. A cursor on that row makes reading visible without inventing the identity of the first reader.",
   "lettering": [],
   "lettering_mode": "manual",
   "nodes": [

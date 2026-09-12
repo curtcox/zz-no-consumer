@@ -1,6 +1,6 @@
 {
   "background": "ink",
-  "intent": "Block an intentional note is created. Keep the scripted evidence boundary and lettering visible.",
+  "intent": "Add one deliberately authored note file to otherwise neutral storage. Its single moss edge distinguishes intentional communication from the prior incidental writes.",
   "lettering": [],
   "lettering_mode": "manual",
   "nodes": [
@@ -12,7 +12,7 @@
         0.5394,
         0.558
       ],
-      "color": "institution",
+      "color": "moss",
       "focus": true,
       "label": "REQUEST FILE",
       "label_box": [

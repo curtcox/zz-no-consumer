@@ -1,6 +1,6 @@
 {
   "background": "ink",
-  "intent": "Block permitted tests meet the same impossibility boundary. Keep the scripted evidence boundary and lettering visible.",
+  "intent": "Show several permitted test branches ending at the same boundary. The repeated failure is local to the stated method, not a claim that every possible task route fails.",
   "lettering": [
     {
       "box": [
@@ -16,28 +16,29 @@
     {
       "asset": "card",
       "box": [
-        0.1044,
-        0.2242,
-        0.195163,
-        0.256
+        0.06775,
+        0.2012,
+        0.239633,
+        0.276474
       ],
       "color": "dirty",
       "focus": true,
       "label": "REQUIRED METHOD",
       "label_box": [
-        0.09640000000000001,
-        0.4862,
-        0.211163,
-        0.085
-      ]
+        0.06775,
+        0.49443,
+        0.239633,
+        0.121481
+      ],
+      "label_size": 18
     },
     {
       "asset": "cross",
       "box": [
-        0.38038116666666666,
-        0.22419999999999998,
-        0.1706666666666667,
-        0.25600000000000006
+        0.371083,
+        0.230925,
+        0.239633,
+        0.359449
       ],
       "color": "dirty",
       "focus": true
@@ -45,10 +46,10 @@
     {
       "asset": "gate",
       "box": [
-        0.631867,
-        0.2242,
-        0.195163,
-        0.256
+        0.674417,
+        0.2012,
+        0.239633,
+        0.4189
       ],
       "color": "dirty",
       "focus": true

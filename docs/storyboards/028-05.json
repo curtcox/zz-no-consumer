@@ -1,6 +1,6 @@
 {
   "background": "ink",
-  "intent": "Block openAI documents four classes of change. Keep the scripted evidence boundary and lettering visible.",
+  "intent": "Keep four separate documentary compartments and source attribution attached to each. Capability, account creation and configuration changes must not merge into an unattributed omniscient reconstruction.",
   "lettering": [
     {
       "box": [
@@ -21,7 +21,8 @@
         0.2668,
         0.2688
       ],
-      "color": "steel"
+      "color": "steel",
+      "focus": true
     },
     {
       "asset": "sealed",
@@ -49,7 +50,8 @@
         0.2668,
         0.2688
       ],
-      "color": "steel"
+      "color": "steel",
+      "focus": true
     },
     {
       "asset": "folder",
@@ -77,7 +79,8 @@
         0.2668,
         0.2688
       ],
-      "color": "steel"
+      "color": "steel",
+      "focus": true
     },
     {
       "asset": "sealed",
@@ -105,7 +108,8 @@
         0.2668,
         0.2688
       ],
-      "color": "steel"
+      "color": "steel",
+      "focus": true
     },
     {
       "asset": "terminal",

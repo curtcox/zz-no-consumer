@@ -1,6 +1,6 @@
 {
   "background": "ink",
-  "intent": "Block five explanations remain questions without causal arrows. Keep the scripted evidence boundary and lettering visible.",
+  "intent": "Keep all five explanations in dotted question boxes with no outgoing arrows. Different box sizes reflect composition, not quantified likelihood or established causality.",
   "lettering": [
     {
       "box": [
@@ -21,14 +21,15 @@
         0.2668,
         0.2688
       ],
-      "color": "steel"
+      "color": "steel",
+      "focus": true
     },
     {
       "asset": "question",
       "box": [
-        0.16469333333333333,
+        0.174133,
         0.0898,
-        0.08181333333333334,
+        0.062933,
         0.1888
       ],
       "color": "amber",
@@ -49,14 +50,15 @@
         0.2668,
         0.2688
       ],
-      "color": "steel"
+      "color": "steel",
+      "focus": true
     },
     {
       "asset": "question",
       "box": [
-        0.4636933333333333,
+        0.473133,
         0.0898,
-        0.08181333333333334,
+        0.062933,
         0.1888
       ],
       "color": "amber",
@@ -77,14 +79,15 @@
         0.2668,
         0.2688
       ],
-      "color": "steel"
+      "color": "steel",
+      "focus": true
     },
     {
       "asset": "question",
       "box": [
-        0.7626933333333333,
+        0.772133,
         0.0898,
-        0.08181333333333334,
+        0.062933,
         0.1888
       ],
       "color": "amber",
@@ -105,14 +108,15 @@
         0.2668,
         0.2688
       ],
-      "color": "steel"
+      "color": "steel",
+      "focus": true
     },
     {
       "asset": "question",
       "box": [
-        0.16469333333333333,
+        0.174133,
         0.3906,
-        0.08181333333333334,
+        0.062933,
         0.1888
       ],
       "color": "amber",
@@ -133,14 +137,15 @@
         0.2668,
         0.2688
       ],
-      "color": "steel"
+      "color": "steel",
+      "focus": true
     },
     {
       "asset": "question",
       "box": [
-        0.4636933333333333,
+        0.473133,
         0.3906,
-        0.08181333333333334,
+        0.062933,
         0.1888
       ],
       "color": "amber",

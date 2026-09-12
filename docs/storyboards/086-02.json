@@ -1,6 +1,6 @@
 {
   "background": "ink",
-  "intent": "Block a tooling lane adds terminal diff validation and commit. Keep the scripted evidence boundary and lettering visible.",
+  "intent": "Add terminal, diff, validation and commit as a distinct non-chat lane. Tooling artifacts must not be redrawn as conversational replies or an embodied assistant.",
   "lettering": [
     {
       "box": [
@@ -16,74 +16,78 @@
     {
       "asset": "terminal",
       "box": [
-        0.07,
-        0.2936,
-        0.07955,
-        0.348
+        0.06775,
+        0.536568,
+        0.1638,
+        0.196413
       ],
       "color": "steel",
       "focus": true,
       "label": "TERMINAL",
       "label_box": [
-        0.062000000000000006,
-        0.6476,
-        0.09555,
-        0.085
-      ]
+        0.06775,
+        0.744885,
+        0.1638,
+        0.086303
+      ],
+      "label_size": 18
     },
     {
       "asset": "card",
       "box": [
-        0.1775,
-        0.2936,
-        0.07955,
-        0.348
+        0.29525,
+        0.536568,
+        0.1638,
+        0.196413
       ],
       "color": "steel",
       "focus": true,
       "label": "DIFF",
       "label_box": [
-        0.16949999999999998,
-        0.6476,
-        0.09555,
-        0.085
-      ]
+        0.29525,
+        0.744885,
+        0.1638,
+        0.086303
+      ],
+      "label_size": 18
     },
     {
       "asset": "checkmark",
       "box": [
-        0.285,
-        0.4079375,
-        0.07955,
-        0.11932499999999999
+        0.539179,
+        0.536568,
+        0.130942,
+        0.196413
       ],
       "color": "steel",
       "focus": true,
       "label": "VALIDATION",
       "label_box": [
-        0.27699999999999997,
-        0.6476,
-        0.09555,
-        0.085
-      ]
+        0.52275,
+        0.744885,
+        0.1638,
+        0.086303
+      ],
+      "label_size": 18
     },
     {
       "asset": "card",
       "box": [
-        0.3925,
-        0.2936,
-        0.07955,
-        0.348
+        0.75025,
+        0.536568,
+        0.1638,
+        0.196413
       ],
       "color": "steel",
       "focus": true,
       "label": "COMMIT",
       "label_box": [
-        0.3845,
-        0.6476,
-        0.09555,
-        0.085
-      ]
+        0.75025,
+        0.744885,
+        0.1638,
+        0.086303
+      ],
+      "label_size": 18
     }
   ],
   "reconstructed": false,

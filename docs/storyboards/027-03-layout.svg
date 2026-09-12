@@ -1,32 +1,34 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="800" viewBox="0 0 1200 800"><title>Distributed hands surround the decision</title><metadata>{
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="800" viewBox="0 0 1200 800"><title>Distributed hands surround the decision</title><desc>Distribute hands and screens around the central unanswered decision field. No hand alone owns it, and no gesture should supply an undocumented motive.</desc><metadata>{
   &quot;assets&quot;: {
     &quot;hand&quot;: &quot;&lt;path d=\&quot;M0 70L24 38L56 9Q61 7 63 12L46 38L75 16Q82 16 79 23L57 46L88 28Q95 30 90 36L64 55L92 44Q100 46 94 53L63 75L48 99H12Z\&quot; fill=\&quot;currentColor\&quot;/&gt;&quot;,
     &quot;outline-box&quot;: &quot;&lt;rect x=\&quot;2\&quot; y=\&quot;2\&quot; width=\&quot;96\&quot; height=\&quot;96\&quot; fill=\&quot;none\&quot; stroke=\&quot;currentColor\&quot; stroke-width=\&quot;3\&quot;/&gt;&quot;
   },
   &quot;palette&quot;: {
     &quot;amber&quot;: &quot;#A17D45&quot;,
+    &quot;claret&quot;: &quot;#6B2634&quot;,
     &quot;dirty&quot;: &quot;#CEC5B3&quot;,
     &quot;ink&quot;: &quot;#101214&quot;,
     &quot;institution&quot;: &quot;#68766B&quot;,
+    &quot;moss&quot;: &quot;#74864F&quot;,
     &quot;nicotine&quot;: &quot;#AA9571&quot;,
     &quot;paper&quot;: &quot;#E7E0D0&quot;,
     &quot;shadow&quot;: &quot;#202326&quot;,
     &quot;steel&quot;: &quot;#5E737B&quot;
   },
-  &quot;renderer&quot;: &quot;storyboard-svg-1&quot;,
+  &quot;renderer&quot;: &quot;storyboard-svg-2&quot;,
   &quot;scene&quot;: {
     &quot;background&quot;: &quot;ink&quot;,
-    &quot;intent&quot;: &quot;Block distributed hands surround the decision. Keep the scripted evidence boundary and lettering visible.&quot;,
+    &quot;intent&quot;: &quot;Distribute hands and screens around the central unanswered decision field. No hand alone owns it, and no gesture should supply an undocumented motive.&quot;,
     &quot;lettering&quot;: [],
     &quot;lettering_mode&quot;: &quot;manual&quot;,
     &quot;nodes&quot;: [
       {
         &quot;asset&quot;: &quot;hand&quot;,
         &quot;box&quot;: [
-          0.1001,
-          0.287,
-          0.197284,
-          0.36
+          0.06775,
+          0.289334,
+          0.239633,
+          0.422882
         ],
         &quot;color&quot;: &quot;dirty&quot;,
         &quot;focus&quot;: true
@@ -34,28 +36,29 @@
       {
         &quot;asset&quot;: &quot;outline-box&quot;,
         &quot;box&quot;: [
-          0.3667,
-          0.287,
-          0.197284,
-          0.36
+          0.371083,
+          0.2397,
+          0.239633,
+          0.344619
         ],
         &quot;color&quot;: &quot;steel&quot;,
         &quot;focus&quot;: true,
         &quot;label&quot;: &quot;STOP RUN?&quot;,
         &quot;label_box&quot;: [
-          0.3587,
-          0.653,
-          0.21328399999999997,
-          0.085
-        ]
+          0.371083,
+          0.605205,
+          0.239633,
+          0.151423
+        ],
+        &quot;label_size&quot;: 18
       },
       {
         &quot;asset&quot;: &quot;hand&quot;,
         &quot;box&quot;: [
-          0.6333,
-          0.287,
-          0.197284,
-          0.36
+          0.674417,
+          0.289334,
+          0.239633,
+          0.422882
         ],
         &quot;color&quot;: &quot;dirty&quot;,
         &quot;focus&quot;: true
@@ -67,4 +70,4 @@
     &quot;title&quot;: &quot;Distributed hands surround the decision&quot;
   }
 }
-</metadata><rect width="1200" height="800" fill="#101214"/><rect x="120.12" y="229.6" width="236.741" height="288" fill="none" stroke="#CEC5B3" stroke-width="3"/><text x="128.12" y="253.6" fill="#CEC5B3" font-family="sans-serif" font-size="20">hand</text><rect x="440.04" y="229.6" width="236.741" height="288" fill="none" stroke="#5E737B" stroke-width="3"/><text x="448.04" y="253.6" fill="#5E737B" font-family="sans-serif" font-size="20">outline-box</text><text x="558.41" y="542.4" text-anchor="middle" fill="#E7E0D0" font-size="20" font-family="sans-serif">STOP RUN?</text><rect x="759.96" y="229.6" width="236.741" height="288" fill="none" stroke="#CEC5B3" stroke-width="3"/><text x="767.96" y="253.6" fill="#CEC5B3" font-family="sans-serif" font-size="20">hand</text><rect x="3" y="3" width="1194" height="794" fill="none" stroke="#5E737B" stroke-width="4"/></svg>
+</metadata><rect width="1200" height="800" fill="#101214"/><rect x="81.3" y="231.467" width="287.56" height="338.306" fill="none" stroke="#CEC5B3" stroke-width="3"/><text x="89.3" y="255.467" fill="#CEC5B3" font-family="sans-serif" font-size="20">hand</text><rect x="445.3" y="191.76" width="287.56" height="275.695" fill="none" stroke="#5E737B" stroke-width="3"/><text x="453.3" y="215.76" fill="#5E737B" font-family="sans-serif" font-size="20">outline-box</text><text x="589.079" y="502.164" text-anchor="middle" fill="#E7E0D0" font-size="18" font-family="sans-serif">STOP RUN?</text><rect x="809.3" y="231.467" width="287.56" height="338.306" fill="none" stroke="#CEC5B3" stroke-width="3"/><text x="817.3" y="255.467" fill="#CEC5B3" font-family="sans-serif" font-size="20">hand</text><rect x="3" y="3" width="1194" height="794" fill="none" stroke="#5E737B" stroke-width="4"/></svg>

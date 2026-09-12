@@ -1,6 +1,6 @@
 {
   "background": "ink",
-  "intent": "Block the agent field fades while assurance remains unresolved. Keep the scripted evidence boundary and lettering visible.",
+  "intent": "Fade the agent example while retaining the institutional field and empty assurance channel. The comparison leaves an unresolved problem rather than a verdict of equivalence.",
   "lettering": [
     {
       "box": [
@@ -16,48 +16,51 @@
     {
       "asset": "folder",
       "box": [
-        0.1044,
-        0.2242,
-        0.292744,
-        0.256
+        0.06775,
+        0.2012,
+        0.3913,
+        0.276474
       ],
       "color": "shadow",
       "focus": true,
       "label": "AGENT FIELD",
       "label_box": [
-        0.09640000000000001,
-        0.4862,
-        0.308744,
-        0.085
-      ]
+        0.06775,
+        0.49443,
+        0.3913,
+        0.121481
+      ],
+      "label_size": 18
     },
     {
-      "asset": "outline-box",
+      "asset": "empty-slot",
       "box": [
-        0.5,
-        0.2242,
-        0.292744,
-        0.256
+        0.52275,
+        0.2012,
+        0.3913,
+        0.276474
       ],
       "color": "steel",
       "focus": true,
       "label": "EMPTY ASSURANCE",
       "label_box": [
-        0.492,
-        0.4862,
-        0.308744,
-        0.085
-      ]
+        0.52275,
+        0.49443,
+        0.3913,
+        0.121481
+      ],
+      "label_size": 18
     },
     {
       "asset": "boundary",
       "box": [
-        0.4908,
-        0.0962,
-        0.01656,
-        0.5376
+        0.49363,
+        0.0734,
+        0.01274,
+        0.6248
       ],
-      "color": "amber"
+      "color": "steel",
+      "focus": true
     }
   ],
   "reconstructed": false,

@@ -1,6 +1,6 @@
 {
   "background": "ink",
-  "intent": "Block sophisticated missed tampering stays possible. Keep the scripted evidence boundary and lettering visible.",
+  "intent": "Leave the sophisticated-tampering possibility as an open qualified field. Open uncertainty is neither a confirmed attack nor evidence that the possibility is negligible.",
   "lettering": [
     {
       "box": [
@@ -19,16 +19,16 @@
         0.2148,
         0.1282,
         0.5336,
-        0.3968
+        0.39024
       ],
       "color": "amber",
       "focus": true,
       "label": "CANNOT RULE OUT",
       "label_box": [
         0.20679999999999998,
-        0.531,
+        0.52644,
         0.5496,
-        0.085
+        0.08956
       ]
     }
   ],

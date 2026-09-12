@@ -1,6 +1,6 @@
 {
   "background": "ink",
-  "intent": "Block model-built navigation serves a time-bounded review. Keep the scripted evidence boundary and lettering visible.",
+  "intent": "Place model-built navigation beneath the oversized corpus and six-day clock. Tooling enables pointing into evidence; it is not another source of incident facts.",
   "lettering": [
     {
       "box": [
@@ -16,56 +16,59 @@
     {
       "asset": "clock",
       "box": [
-        0.07,
-        0.38804975,
-        0.106067,
-        0.1591005
+        0.122096,
+        0.536568,
+        0.130942,
+        0.196413
       ],
       "color": "steel",
       "focus": true,
       "label": "SIX DAYS",
       "label_box": [
-        0.062000000000000006,
-        0.6476,
-        0.122067,
-        0.085
-      ]
+        0.06775,
+        0.744885,
+        0.239633,
+        0.086303
+      ],
+      "label_size": 18
     },
     {
       "asset": "scatter",
       "box": [
-        0.213333,
-        0.2936,
-        0.106067,
-        0.348
+        0.371083,
+        0.536568,
+        0.239633,
+        0.196413
       ],
       "color": "steel",
       "focus": true,
       "label": "TRANSCRIPTS",
       "label_box": [
-        0.205333,
-        0.6476,
-        0.122067,
-        0.085
-      ]
+        0.371083,
+        0.744885,
+        0.239633,
+        0.086303
+      ],
+      "label_size": 18
     },
     {
       "asset": "terminal",
       "box": [
-        0.356667,
-        0.2936,
-        0.106067,
-        0.348
+        0.674417,
+        0.536568,
+        0.239633,
+        0.196413
       ],
       "color": "steel",
       "focus": true,
       "label": "NAVIGATION TOOLING",
       "label_box": [
-        0.348667,
-        0.6476,
-        0.122067,
-        0.085
-      ]
+        0.674417,
+        0.744885,
+        0.239633,
+        0.086303
+      ],
+      "label_size": 18
     }
   ],
   "reconstructed": false,

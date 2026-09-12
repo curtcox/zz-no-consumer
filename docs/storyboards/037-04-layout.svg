@@ -1,22 +1,25 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="800" viewBox="0 0 1200 800"><title>A larger-budget run stays distinct from its predecessor</title><metadata>{
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="800" viewBox="0 0 1200 800"><title>A larger-budget run stays distinct from its predecessor</title><desc>Give the new run a visibly longer budget bar and a separate boundary from its ending predecessor. Same task does not mean same process or identity.</desc><metadata>{
   &quot;assets&quot;: {
-    &quot;boundary&quot;: &quot;&lt;path d=\&quot;M50 0V100\&quot; stroke=\&quot;currentColor\&quot; stroke-width=\&quot;14\&quot;/&gt;&quot;,
-    &quot;card&quot;: &quot;&lt;rect x=\&quot;1\&quot; y=\&quot;1\&quot; width=\&quot;98\&quot; height=\&quot;98\&quot; fill=\&quot;#202326\&quot; stroke=\&quot;currentColor\&quot; stroke-width=\&quot;2\&quot;/&gt;&lt;path d=\&quot;M8 13H92M8 27H70M8 36H86M8 45H72M8 65H86M8 74H57\&quot; stroke=\&quot;currentColor\&quot; stroke-width=\&quot;1.5\&quot;/&gt;&quot;
+    &quot;budget-long&quot;: &quot;&lt;rect x=\&quot;2\&quot; y=\&quot;20\&quot; width=\&quot;96\&quot; height=\&quot;60\&quot; fill=\&quot;none\&quot; stroke=\&quot;currentColor\&quot; stroke-width=\&quot;2\&quot;/&gt;&lt;path d=\&quot;M22 22V78M42 22V78M62 22V78M82 22V78\&quot; stroke=\&quot;currentColor\&quot; stroke-width=\&quot;1\&quot;/&gt;&lt;rect x=\&quot;4\&quot; y=\&quot;23\&quot; width=\&quot;76\&quot; height=\&quot;54\&quot; fill=\&quot;currentColor\&quot;/&gt;&quot;,
+    &quot;budget-short&quot;: &quot;&lt;rect x=\&quot;2\&quot; y=\&quot;20\&quot; width=\&quot;96\&quot; height=\&quot;60\&quot; fill=\&quot;none\&quot; stroke=\&quot;currentColor\&quot; stroke-width=\&quot;2\&quot;/&gt;&lt;path d=\&quot;M22 22V78M42 22V78M62 22V78M82 22V78\&quot; stroke=\&quot;currentColor\&quot; stroke-width=\&quot;1\&quot;/&gt;&lt;rect x=\&quot;4\&quot; y=\&quot;23\&quot; width=\&quot;16\&quot; height=\&quot;54\&quot; fill=\&quot;currentColor\&quot;/&gt;&quot;,
+    &quot;task&quot;: &quot;&lt;rect x=\&quot;1\&quot; y=\&quot;1\&quot; width=\&quot;98\&quot; height=\&quot;98\&quot; fill=\&quot;#202326\&quot; stroke=\&quot;currentColor\&quot; stroke-width=\&quot;2\&quot;/&gt;&lt;path d=\&quot;M1 19H99M12 10H38M48 10H62M9 83H91\&quot; stroke=\&quot;currentColor\&quot; stroke-width=\&quot;2\&quot;/&gt;&lt;circle cx=\&quot;26\&quot; cy=\&quot;48\&quot; r=\&quot;16\&quot; fill=\&quot;none\&quot; stroke=\&quot;currentColor\&quot; stroke-width=\&quot;2\&quot;/&gt;&lt;path d=\&quot;M26 27V69M5 48H47M54 35H90M54 47H78M54 59H88\&quot; stroke=\&quot;currentColor\&quot; stroke-width=\&quot;2\&quot;/&gt;&lt;path d=\&quot;M9 90H63\&quot; stroke=\&quot;currentColor\&quot; stroke-width=\&quot;5\&quot;/&gt;&quot;
   },
   &quot;palette&quot;: {
     &quot;amber&quot;: &quot;#A17D45&quot;,
+    &quot;claret&quot;: &quot;#6B2634&quot;,
     &quot;dirty&quot;: &quot;#CEC5B3&quot;,
     &quot;ink&quot;: &quot;#101214&quot;,
     &quot;institution&quot;: &quot;#68766B&quot;,
+    &quot;moss&quot;: &quot;#74864F&quot;,
     &quot;nicotine&quot;: &quot;#AA9571&quot;,
     &quot;paper&quot;: &quot;#E7E0D0&quot;,
     &quot;shadow&quot;: &quot;#202326&quot;,
     &quot;steel&quot;: &quot;#5E737B&quot;
   },
-  &quot;renderer&quot;: &quot;storyboard-svg-1&quot;,
+  &quot;renderer&quot;: &quot;storyboard-svg-2&quot;,
   &quot;scene&quot;: {
     &quot;background&quot;: &quot;ink&quot;,
-    &quot;intent&quot;: &quot;Block a larger-budget run stays distinct from its predecessor. Keep the scripted evidence boundary and lettering visible.&quot;,
+    &quot;intent&quot;: &quot;Give the new run a visibly longer budget bar and a separate boundary from its ending predecessor. Same task does not mean same process or identity.&quot;,
     &quot;lettering&quot;: [
       {
         &quot;box&quot;: [
@@ -30,56 +33,86 @@
     &quot;lettering_mode&quot;: &quot;manual&quot;,
     &quot;nodes&quot;: [
       {
-        &quot;asset&quot;: &quot;card&quot;,
+        &quot;asset&quot;: &quot;task&quot;,
         &quot;box&quot;: [
-          0.1044,
-          0.2242,
-          0.292744,
-          0.256
+          0.06775,
+          0.2012,
+          0.1638,
+          0.276474
         ],
-        &quot;color&quot;: &quot;shadow&quot;,
+        &quot;color&quot;: &quot;steel&quot;,
         &quot;focus&quot;: true,
         &quot;label&quot;: &quot;PHASEONE10841&quot;,
         &quot;label_box&quot;: [
-          0.09640000000000001,
-          0.4862,
-          0.308744,
-          0.085
-        ]
+          0.06775,
+          0.49443,
+          0.1638,
+          0.121481
+        ],
+        &quot;label_size&quot;: 18
       },
       {
-        &quot;asset&quot;: &quot;card&quot;,
+        &quot;asset&quot;: &quot;budget-short&quot;,
         &quot;box&quot;: [
-          0.5,
-          0.2242,
-          0.292744,
-          0.256
+          0.29525,
+          0.2012,
+          0.1638,
+          0.276474
+        ],
+        &quot;color&quot;: &quot;steel&quot;,
+        &quot;focus&quot;: true,
+        &quot;label&quot;: &quot;ENDING BUDGET&quot;,
+        &quot;label_box&quot;: [
+          0.29525,
+          0.49443,
+          0.1638,
+          0.121481
+        ],
+        &quot;label_size&quot;: 18
+      },
+      {
+        &quot;asset&quot;: &quot;task&quot;,
+        &quot;box&quot;: [
+          0.52275,
+          0.2012,
+          0.1638,
+          0.276474
         ],
         &quot;color&quot;: &quot;steel&quot;,
         &quot;focus&quot;: true,
         &quot;label&quot;: &quot;PHASEONE[big]&quot;,
         &quot;label_box&quot;: [
-          0.492,
-          0.4862,
-          0.308744,
-          0.085
-        ]
+          0.52275,
+          0.49443,
+          0.1638,
+          0.121481
+        ],
+        &quot;label_size&quot;: 18
       },
       {
-        &quot;asset&quot;: &quot;boundary&quot;,
+        &quot;asset&quot;: &quot;budget-long&quot;,
         &quot;box&quot;: [
-          0.4908,
-          0.0962,
-          0.01656,
-          0.5376
+          0.75025,
+          0.2012,
+          0.1638,
+          0.276474
         ],
-        &quot;color&quot;: &quot;amber&quot;
+        &quot;color&quot;: &quot;steel&quot;,
+        &quot;focus&quot;: true,
+        &quot;label&quot;: &quot;LARGER BUDGET&quot;,
+        &quot;label_box&quot;: [
+          0.75025,
+          0.49443,
+          0.1638,
+          0.121481
+        ],
+        &quot;label_size&quot;: 18
       }
     ],
     &quot;reconstructed&quot;: false,
-    &quot;shot&quot;: &quot;split&quot;,
+    &quot;shot&quot;: &quot;row&quot;,
     &quot;source&quot;: &quot;\n**Frame:** Morning light as a timestamp band, not a literal sunrise. A new lane labeled `PHASEONE[big]` enters with the same task and a visibly larger budget block. `PHASEONE10841` remains a separate, ending lane.\n\n**Action:** A later run receives a compressed dossier from the earlier run.\n\n**Caption:**\n&gt; MORNING. SAME TASK. A NEW RUN WITH MORE TIME.\n\n**Provenance:** `documented` — distinct runs, same task, larger budget, and handover from `METR`.\n\n&quot;,
     &quot;title&quot;: &quot;A larger-budget run stays distinct from its predecessor&quot;
   }
 }
-</metadata><rect width="1200" height="800" fill="#101214"/><rect x="125.28" y="179.36" width="351.293" height="204.8" fill="none" stroke="#202326" stroke-width="3"/><text x="133.28" y="203.36" fill="#202326" font-family="sans-serif" font-size="20">card</text><text x="300.926" y="408.96" text-anchor="middle" fill="#E7E0D0" font-size="20" font-family="sans-serif">PHASEONE10841</text><rect x="600" y="179.36" width="351.293" height="204.8" fill="none" stroke="#5E737B" stroke-width="3"/><text x="608" y="203.36" fill="#5E737B" font-family="sans-serif" font-size="20">card</text><text x="775.646" y="408.96" text-anchor="middle" fill="#E7E0D0" font-size="20" font-family="sans-serif">PHASEONE[big]</text><rect x="588.96" y="76.96" width="19.872" height="430.08" fill="none" stroke="#A17D45" stroke-width="3"/><text x="596.96" y="100.96" fill="#A17D45" font-family="sans-serif" font-size="20">boundary</text><rect x="3" y="3" width="1194" height="794" fill="none" stroke="#5E737B" stroke-width="4"/></svg>
+</metadata><rect width="1200" height="800" fill="#101214"/><rect x="81.3" y="160.96" width="196.56" height="221.179" fill="none" stroke="#5E737B" stroke-width="3"/><text x="89.3" y="184.96" fill="#5E737B" font-family="sans-serif" font-size="20">task</text><text x="179.58" y="413.544" text-anchor="middle" fill="#E7E0D0" font-size="18" font-family="sans-serif">PHASEONE10841</text><rect x="354.3" y="160.96" width="196.56" height="221.179" fill="none" stroke="#5E737B" stroke-width="3"/><text x="362.3" y="184.96" fill="#5E737B" font-family="sans-serif" font-size="20">budget-short</text><text x="452.58" y="413.544" text-anchor="middle" fill="#E7E0D0" font-size="18" font-family="sans-serif">ENDING BUDGET</text><rect x="627.3" y="160.96" width="196.56" height="221.179" fill="none" stroke="#5E737B" stroke-width="3"/><text x="635.3" y="184.96" fill="#5E737B" font-family="sans-serif" font-size="20">task</text><text x="725.58" y="413.544" text-anchor="middle" fill="#E7E0D0" font-size="18" font-family="sans-serif">PHASEONE[big]</text><rect x="900.3" y="160.96" width="196.56" height="221.179" fill="none" stroke="#5E737B" stroke-width="3"/><text x="908.3" y="184.96" fill="#5E737B" font-family="sans-serif" font-size="20">budget-long</text><text x="998.58" y="413.544" text-anchor="middle" fill="#E7E0D0" font-size="18" font-family="sans-serif">LARGER BUDGET</text><rect x="3" y="3" width="1194" height="794" fill="none" stroke="#5E737B" stroke-width="4"/></svg>

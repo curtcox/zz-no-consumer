@@ -1,6 +1,6 @@
 {
   "background": "ink",
-  "intent": "Block different controls produce different tempos. Keep the scripted evidence boundary and lettering visible.",
+  "intent": "Use different state marks and progress lengths for pause, branch, resume and wait. Unequal tempos are the concept, not a uniform march forward.",
   "lettering": [
     {
       "box": [
@@ -16,78 +16,85 @@
     {
       "asset": "gate",
       "box": [
-        0.1044,
-        0.2242,
-        0.146372,
-        0.256
+        0.06775,
+        0.2012,
+        0.239633,
+        0.276474
       ],
       "color": "steel",
       "focus": true,
       "label": "PAUSE",
       "label_box": [
-        0.09640000000000001,
-        0.4862,
-        0.16237200000000002,
-        0.085
-      ]
+        0.06775,
+        0.49443,
+        0.239633,
+        0.121481
+      ],
+      "label_size": 18
     },
     {
       "asset": "arrow",
       "box": [
-        0.3022,
-        0.2242,
-        0.146372,
-        0.256
+        0.311933,
+        0.2935,
+        0.05915,
+        0.0852
       ],
       "color": "steel",
-      "focus": true,
-      "label": "BRANCH",
-      "label_box": [
-        0.2942,
-        0.4862,
-        0.16237200000000002,
-        0.085
-      ]
+      "focus": true
     },
     {
       "asset": "checkmark",
       "box": [
-        0.5,
-        0.242421,
-        0.146372,
-        0.219558
+        0.398741,
+        0.2012,
+        0.184316,
+        0.276474
       ],
       "color": "steel",
       "focus": true,
       "label": "RESUME",
       "label_box": [
-        0.492,
-        0.4862,
-        0.16237200000000002,
-        0.085
-      ]
+        0.371083,
+        0.49443,
+        0.239633,
+        0.121481
+      ],
+      "label_size": 18
+    },
+    {
+      "asset": "arrow",
+      "box": [
+        0.615267,
+        0.2935,
+        0.05915,
+        0.0852
+      ],
+      "color": "steel",
+      "focus": true
     },
     {
       "asset": "clock",
       "box": [
-        0.6978,
-        0.242421,
-        0.146372,
-        0.219558
+        0.702076,
+        0.2012,
+        0.184316,
+        0.276474
       ],
       "color": "steel",
       "focus": true,
       "label": "WAIT",
       "label_box": [
-        0.6898,
-        0.4862,
-        0.16237200000000002,
-        0.085
-      ]
+        0.674417,
+        0.49443,
+        0.239633,
+        0.121481
+      ],
+      "label_size": 18
     }
   ],
   "reconstructed": false,
-  "shot": "row",
+  "shot": "route",
   "source": "\n**Frame:** Some lanes pause at controls; some branch; some resume; some wait on information. None moves at the same speed.\n\n**Caption:**\n> FIVE LANES. FIVE CLOCKS.\n\n**Provenance:** `inferred`.\n\n",
   "title": "Different controls produce different tempos"
 }

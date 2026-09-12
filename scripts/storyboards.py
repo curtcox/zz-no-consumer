@@ -28,7 +28,7 @@ import panel_layout
 ROOT = Path(__file__).resolve().parents[1]
 DATA = ROOT / 'data/storyboards.json'
 LIBRARY = ROOT / 'data/storyboard-assets.json'
-VERSION = 'storyboard-svg-1'
+VERSION = 'storyboard-svg-2'
 W, H = textimage.PANEL_SIZE
 
 
@@ -166,6 +166,7 @@ def render(scene, data, *, layout=False, size=None):
     snapshot = {'renderer': VERSION, 'scene': scene, 'assets': used_assets, 'palette': palette}
     parts = [f'<svg xmlns="http://www.w3.org/2000/svg" width="{W}" height="{H}" viewBox="0 0 {W} {H}">',
              '<title>' + html.escape(scene['title']) + '</title>',
+             '<desc>' + html.escape(scene['intent']) + '</desc>',
              '<metadata>' + html.escape(encoded(snapshot)) + '</metadata>',
              f'<rect width="{W}" height="{H}" fill="{palette[scene["background"]]}"/>']
     for node in scene['nodes']:

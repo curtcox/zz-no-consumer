@@ -1,6 +1,6 @@
 {
   "background": "ink",
-  "intent": "Block the reviewed record ends at a hard dated boundary. Keep the scripted evidence boundary and lettering visible.",
+  "intent": "Stop reviewed artifacts at the dated boundary and introduce the differently headed account beside it. No METR mark or implied independent validation crosses the line.",
   "lettering": [
     {
       "box": [
@@ -24,48 +24,51 @@
     {
       "asset": "folder",
       "box": [
-        0.07,
-        0.2936,
-        0.1591,
-        0.348
+        0.05775,
+        0.2397,
+        0.2193,
+        0.344619
       ],
       "color": "steel",
       "focus": true,
       "label": "REVIEWED ARTIFACTS",
       "label_box": [
-        0.062000000000000006,
-        0.6476,
-        0.17509999999999998,
-        0.085
-      ]
+        0.05775,
+        0.605205,
+        0.2193,
+        0.151423
+      ],
+      "label_size": 18
     },
     {
       "asset": "card",
       "box": [
-        0.285,
-        0.2936,
-        0.1591,
-        0.348
+        0.31275,
+        0.2397,
+        0.2193,
+        0.344619
       ],
       "color": "steel",
       "focus": true,
       "label": "OPENAI ACCOUNT",
       "label_box": [
-        0.27699999999999997,
-        0.6476,
-        0.17509999999999998,
-        0.085
-      ]
+        0.31275,
+        0.605205,
+        0.2193,
+        0.151423
+      ],
+      "label_size": 18
     },
     {
       "asset": "boundary",
       "box": [
-        0.28,
-        0.1196,
-        0.009,
-        0.7308
+        0.29643,
+        0.0804,
+        0.00714,
+        0.7788
       ],
-      "color": "amber"
+      "color": "steel",
+      "focus": true
     }
   ],
   "reconstructed": false,

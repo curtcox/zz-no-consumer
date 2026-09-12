@@ -1,6 +1,6 @@
 {
   "background": "ink",
-  "intent": "Block the review gate has three dispositions. Keep the scripted evidence boundary and lettering visible.",
+  "intent": "Give the review gate three genuinely different destinations. Resumption, required changes and continued pause must not share the same success symbol.",
   "lettering": [
     {
       "box": [
@@ -14,58 +14,91 @@
   "lettering_mode": "manual",
   "nodes": [
     {
-      "asset": "card",
+      "asset": "gate",
       "box": [
-        0.1044,
-        0.2242,
-        0.195163,
-        0.256
+        0.0541,
+        0.2225,
+        0.2275,
+        0.229614
+      ],
+      "color": "steel",
+      "focus": true,
+      "label": "REVIEW",
+      "label_box": [
+        0.0541,
+        0.46603,
+        0.2275,
+        0.100891
+      ],
+      "label_size": 18
+    },
+    {
+      "asset": "arrow",
+      "box": [
+        0.3089,
+        0.3219,
+        0.1365,
+        0.0568
+      ],
+      "color": "steel",
+      "focus": true
+    },
+    {
+      "asset": "open-gate",
+      "box": [
+        0.5273,
+        0.0592,
+        0.4004,
+        0.131208
       ],
       "color": "steel",
       "focus": true,
       "label": "RESUMED",
       "label_box": [
-        0.09640000000000001,
-        0.4862,
-        0.211163,
-        0.085
-      ]
+        0.5273,
+        0.19836,
+        0.4004,
+        0.057652
+      ],
+      "label_size": 18
     },
     {
       "asset": "card",
       "box": [
-        0.368133,
-        0.2242,
-        0.195163,
-        0.256
+        0.5273,
+        0.28995,
+        0.4004,
+        0.131208
       ],
       "color": "steel",
       "focus": true,
-      "label": "MORE CHANGES",
+      "label": "MORE CHANGES REQUIRED",
       "label_box": [
-        0.360133,
-        0.4862,
-        0.211163,
-        0.085
-      ]
+        0.5273,
+        0.42911,
+        0.4004,
+        0.057652
+      ],
+      "label_size": 18
     },
     {
-      "asset": "card",
+      "asset": "gate",
       "box": [
-        0.631867,
-        0.2242,
-        0.195163,
-        0.256
+        0.5273,
+        0.5207,
+        0.4004,
+        0.131208
       ],
       "color": "steel",
       "focus": true,
       "label": "PAUSED",
       "label_box": [
-        0.623867,
-        0.4862,
-        0.211163,
-        0.085
-      ]
+        0.5273,
+        0.65986,
+        0.4004,
+        0.057652
+      ],
+      "label_size": 18
     }
   ],
   "reconstructed": false,

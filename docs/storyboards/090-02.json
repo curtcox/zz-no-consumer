@@ -1,6 +1,6 @@
 {
   "background": "ink",
-  "intent": "Block the assistant answers as a plain interface block. Keep the scripted evidence boundary and lettering visible.",
+  "intent": "Keep the answer in a plain interface block without avatar or balloon. The model's role is textual contribution, not a new embodied narrator.",
   "lettering": [
     {
       "box": [

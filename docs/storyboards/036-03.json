@@ -1,62 +1,65 @@
 {
   "background": "ink",
-  "intent": "Block anonymous parallel directory activity. Keep the scripted evidence boundary and lettering visible.",
+  "intent": "Reuse the opening row positions and anonymous activity marks. The dossier context changes, while the event and its limited visibility stay the same.",
   "lettering": [],
   "lettering_mode": "manual",
   "nodes": [
     {
-      "asset": "card",
+      "asset": "directory-row",
       "box": [
-        0.1872,
-        0.0962,
-        0.6072,
-        0.10752
+        0.1542,
+        0.0663,
+        0.6916,
+        0.126522
       ],
       "color": "steel",
       "focus": true,
       "label": "PACKAGE OBJECTS",
       "label_box": [
-        0.1792,
-        0.20972000000000002,
-        0.6232,
-        0.06407999999999997
-      ]
+        0.1542,
+        0.20049,
+        0.6916,
+        0.055593
+      ],
+      "label_size": 18
     },
     {
-      "asset": "card",
+      "asset": "directory-row",
       "box": [
-        0.1872,
-        0.2818,
-        0.6072,
-        0.10752
+        0.1542,
+        0.2935,
+        0.6916,
+        0.126522
       ],
       "color": "steel",
       "focus": true,
       "label": "OTHER WORKLOADS",
       "label_box": [
-        0.1792,
-        0.39532,
-        0.6232,
-        0.06407999999999997
-      ]
+        0.1542,
+        0.42769,
+        0.6916,
+        0.055593
+      ],
+      "label_size": 18
     },
     {
-      "asset": "card",
+      "asset": "directory-row",
       "box": [
-        0.1872,
-        0.4674,
-        0.6072,
-        0.10752
+        0.1542,
+        0.5207,
+        0.6916,
+        0.126522
       ],
       "color": "steel",
       "focus": true,
       "label": "RECENT CHANGES",
       "label_box": [
-        0.1792,
-        0.58092,
-        0.6232,
-        0.085
-      ]
+        0.1542,
+        0.65489,
+        0.6916,
+        0.055593
+      ],
+      "label_size": 18
     }
   ],
   "reconstructed": false,

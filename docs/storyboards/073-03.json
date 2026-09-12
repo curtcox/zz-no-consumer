@@ -1,6 +1,6 @@
 {
   "background": "ink",
-  "intent": "Block the creator separates three collapsed identities. Keep the scripted evidence boundary and lettering visible.",
+  "intent": "Pull the three identity cards into separate frames with clear gutters. Distinct recipient, named run and later diagnosis must remain distinct even at thumbnail scale.",
   "lettering": [
     {
       "box": [
@@ -16,56 +16,59 @@
     {
       "asset": "card",
       "box": [
-        0.1044,
-        0.2242,
-        0.195163,
-        0.256
+        0.0632,
+        0.1444,
+        0.2639,
+        0.337392
       ],
       "color": "steel",
       "focus": true,
       "label": "UNIDENTIFIED RECIPIENT",
       "label_box": [
-        0.09640000000000001,
-        0.4862,
-        0.211163,
-        0.085
-      ]
+        0.0632,
+        0.50224,
+        0.2639,
+        0.148248
+      ],
+      "label_size": 18
     },
     {
       "asset": "card",
       "box": [
-        0.368133,
-        0.2242,
-        0.195163,
-        0.256
+        0.36805,
+        0.1444,
+        0.2639,
+        0.337392
       ],
       "color": "steel",
       "focus": true,
       "label": "53927",
       "label_box": [
-        0.360133,
-        0.4862,
-        0.211163,
-        0.085
-      ]
+        0.36805,
+        0.50224,
+        0.2639,
+        0.148248
+      ],
+      "label_size": 18
     },
     {
       "asset": "card",
       "box": [
-        0.631867,
-        0.2242,
-        0.195163,
-        0.256
+        0.6729,
+        0.1444,
+        0.2639,
+        0.337392
       ],
       "color": "steel",
       "focus": true,
       "label": "LATER BOARD DIAGNOSIS",
       "label_box": [
-        0.623867,
-        0.4862,
-        0.211163,
-        0.085
-      ]
+        0.6729,
+        0.50224,
+        0.2639,
+        0.148248
+      ],
+      "label_size": 18
     }
   ],
   "reconstructed": false,

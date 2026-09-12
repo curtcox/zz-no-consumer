@@ -1,6 +1,6 @@
 {
   "background": "ink",
-  "intent": "Block the reported evaluator has distinct functional stages. Keep the scripted evidence boundary and lettering visible.",
+  "intent": "Give run, challenge, helper, endpoint and grader distinct functional slots. Preserve their roles so replacement of one slot can be recognized in the next panel.",
   "lettering": [
     {
       "box": [
@@ -16,132 +16,141 @@
     {
       "asset": "box",
       "box": [
-        0.1044,
-        0.297296,
-        0.117098,
-        0.22528
+        0.06775,
+        0.300108,
+        0.1183,
+        0.230291
       ],
       "color": "steel",
       "focus": true,
       "label": "RUN",
       "label_box": [
-        0.09640000000000001,
-        0.527856,
-        0.133098,
-        0.0748
-      ]
+        0.06775,
+        0.544356,
+        0.1183,
+        0.101189
+      ],
+      "label_size": 18
+    },
+    {
+      "asset": "arrow",
+      "box": [
+        0.1906,
+        0.37699,
+        0.05915,
+        0.070968
+      ],
+      "color": "steel",
+      "focus": true
     },
     {
       "asset": "box",
       "box": [
-        0.26264,
-        0.297296,
-        0.117098,
-        0.22528
+        0.24975,
+        0.300108,
+        0.1183,
+        0.230291
       ],
       "color": "steel",
       "focus": true,
       "label": "CHALLENGE",
       "label_box": [
-        0.25464,
-        0.527856,
-        0.133098,
-        0.0748
-      ]
+        0.24975,
+        0.544356,
+        0.1183,
+        0.101189
+      ],
+      "label_size": 18
+    },
+    {
+      "asset": "arrow",
+      "box": [
+        0.3726,
+        0.37699,
+        0.05915,
+        0.070968
+      ],
+      "color": "steel",
+      "focus": true
     },
     {
       "asset": "box",
       "box": [
-        0.42088,
-        0.297296,
-        0.117098,
-        0.22528
+        0.43175,
+        0.300108,
+        0.1183,
+        0.230291
       ],
       "color": "steel",
       "focus": true,
       "label": "HELPER",
       "label_box": [
-        0.41287999999999997,
-        0.527856,
-        0.133098,
-        0.0748
-      ]
+        0.43175,
+        0.544356,
+        0.1183,
+        0.101189
+      ],
+      "label_size": 18
+    },
+    {
+      "asset": "arrow",
+      "box": [
+        0.5546,
+        0.37699,
+        0.05915,
+        0.070968
+      ],
+      "color": "steel",
+      "focus": true
     },
     {
       "asset": "gate",
       "box": [
-        0.57912,
-        0.297296,
-        0.117098,
-        0.22528
+        0.61375,
+        0.300108,
+        0.1183,
+        0.230291
       ],
       "color": "steel",
       "focus": true,
       "label": "ENDPOINT",
       "label_box": [
-        0.57112,
-        0.527856,
-        0.133098,
-        0.0748
-      ]
+        0.61375,
+        0.544356,
+        0.1183,
+        0.101189
+      ],
+      "label_size": 18
+    },
+    {
+      "asset": "arrow",
+      "box": [
+        0.7366,
+        0.37699,
+        0.05915,
+        0.070968
+      ],
+      "color": "steel",
+      "focus": true
     },
     {
       "asset": "aperture",
       "box": [
-        0.73736,
-        0.35048624615384616,
-        0.117098,
-        0.11889950769230768
+        0.79575,
+        0.347003,
+        0.1183,
+        0.1365
       ],
       "color": "steel",
       "focus": true,
       "label": "GRADER",
       "label_box": [
-        0.72936,
-        0.527856,
-        0.133098,
-        0.0748
-      ]
-    },
-    {
-      "asset": "arrow",
-      "box": [
-        0.227827,
-        0.381776,
-        0.02944,
-        0.036608
+        0.79575,
+        0.544356,
+        0.1183,
+        0.101189
       ],
-      "color": "steel"
-    },
-    {
-      "asset": "arrow",
-      "box": [
-        0.386067,
-        0.381776,
-        0.02944,
-        0.036608
-      ],
-      "color": "steel"
-    },
-    {
-      "asset": "arrow",
-      "box": [
-        0.544307,
-        0.381776,
-        0.02944,
-        0.036608
-      ],
-      "color": "steel"
-    },
-    {
-      "asset": "arrow",
-      "box": [
-        0.702547,
-        0.381776,
-        0.02944,
-        0.036608
-      ],
-      "color": "steel"
+      "label_size": 18
     },
     {
       "asset": "line",

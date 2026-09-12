@@ -1,6 +1,6 @@
 {
   "background": "ink",
-  "intent": "Block a draft wrongly joins distinct artifacts into an arc. Keep the scripted evidence boundary and lettering visible.",
+  "intent": "Make the draft's mistaken joining line visibly an overlay across separate artifacts. The composition should expose the tempting narrative construction, not endorse it.",
   "lettering": [
     {
       "box": [
@@ -50,7 +50,7 @@
       ]
     },
     {
-      "asset": "card",
+      "asset": "transcript",
       "box": [
         0.1872,
         0.4674,

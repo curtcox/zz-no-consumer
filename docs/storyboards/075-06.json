@@ -1,6 +1,6 @@
 {
   "background": "ink",
-  "intent": "Block one transcript opens before a vast closed field. Keep the scripted evidence boundary and lettering visible.",
+  "intent": "Open one narrow transcript window while most lanes remain closed beyond it. Reading a selected excerpt should not appear to expose its entire surrounding record.",
   "lettering": [
     {
       "box": [
@@ -25,7 +25,7 @@
       "focus": true
     },
     {
-      "asset": "card",
+      "asset": "transcript",
       "box": [
         0.0952,
         0.5698,

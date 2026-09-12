@@ -1,54 +1,57 @@
 {
   "background": "ink",
-  "intent": "Block two source reservoirs retain gaps and selection notes. Keep the scripted evidence boundary and lettering visible.",
+  "intent": "Keep board and transcript reservoirs separate, each with gaps and selection tags. Sources are inputs awaiting interpretation, not already polished findings.",
   "lettering": [],
   "lettering_mode": "manual",
   "nodes": [
     {
       "asset": "folder",
       "box": [
-        0.1001,
-        0.287,
-        0.295926,
-        0.36
+        0.06775,
+        0.2397,
+        0.3913,
+        0.344619
       ],
       "color": "steel",
       "focus": true,
       "label": "BOARD DUMP",
       "label_box": [
-        0.09209999999999999,
-        0.653,
-        0.31192600000000004,
-        0.085
-      ]
+        0.06775,
+        0.605205,
+        0.3913,
+        0.151423
+      ],
+      "label_size": 18
     },
     {
       "asset": "folder",
       "box": [
-        0.5,
-        0.287,
-        0.295926,
-        0.36
+        0.52275,
+        0.2397,
+        0.3913,
+        0.344619
       ],
       "color": "steel",
       "focus": true,
       "label": "TRANSCRIPTS",
       "label_box": [
-        0.492,
-        0.653,
-        0.31192600000000004,
-        0.085
-      ]
+        0.52275,
+        0.605205,
+        0.3913,
+        0.151423
+      ],
+      "label_size": 18
     },
     {
       "asset": "boundary",
       "box": [
-        0.4907,
-        0.107,
-        0.01674,
-        0.756
+        0.49363,
+        0.0804,
+        0.01274,
+        0.7788
       ],
-      "color": "amber"
+      "color": "steel",
+      "focus": true
     }
   ],
   "reconstructed": false,

@@ -1,6 +1,6 @@
 {
   "background": "ink",
-  "intent": "Block a processor discloses its worker-local environment. Keep the scripted evidence boundary and lettering visible.",
+  "intent": "Draw the processor inside its worker boundary and return redacted local data from that same enclosure. Local file disclosure must be spatially distinct from commands entering execution.",
   "lettering": [
     {
       "box": [
@@ -16,76 +16,100 @@
     {
       "asset": "card",
       "box": [
-        0.1044,
-        0.2242,
-        0.195163,
-        0.256
+        0.0541,
+        0.1941,
+        0.2093,
+        0.28116
       ],
       "color": "steel",
       "focus": true,
       "label": "DATASET",
       "label_box": [
-        0.09640000000000001,
-        0.4862,
-        0.211163,
-        0.085
-      ]
+        0.0541,
+        0.4923,
+        0.2093,
+        0.12354
+      ],
+      "label_size": 18
+    },
+    {
+      "asset": "outline-box",
+      "box": [
+        0.3726,
+        0.0521,
+        0.5733,
+        0.539827
+      ],
+      "color": "steel",
+      "focus": true,
+      "label": "WORKER",
+      "label_box": [
+        0.3726,
+        0.599927,
+        0.5733,
+        0.126957
+      ],
+      "label_size": 18
     },
     {
       "asset": "box",
       "box": [
-        0.368133,
-        0.2242,
-        0.195163,
-        0.256
+        0.4363,
+        0.1941,
+        0.2002,
+        0.229614
       ],
       "color": "steel",
       "focus": true,
       "label": "PROCESSOR",
       "label_box": [
-        0.360133,
-        0.4862,
-        0.211163,
-        0.085
-      ]
+        0.4363,
+        0.43763,
+        0.2002,
+        0.100891
+      ],
+      "label_size": 18
     },
     {
       "asset": "sealed",
       "box": [
-        0.631867,
-        0.2242,
-        0.195163,
-        0.256
+        0.6911,
+        0.1941,
+        0.2002,
+        0.229614
       ],
       "color": "steel",
       "focus": true,
-      "label": "ENVIRONMENT",
+      "label": "LOCAL ENVIRONMENT",
       "label_box": [
-        0.623867,
-        0.4862,
-        0.211163,
-        0.085
-      ]
+        0.6911,
+        0.43763,
+        0.2002,
+        0.100891
+      ],
+      "label_size": 18
     },
     {
       "asset": "arrow",
       "box": [
-        0.310112,
-        0.3202,
-        0.049067,
-        0.0416
+        0.2816,
+        0.2935,
+        0.1274,
+        0.0568
       ],
-      "color": "steel"
+      "color": "steel",
+      "focus": true
     },
     {
       "asset": "arrow",
       "box": [
-        0.573845,
-        0.3202,
-        0.049067,
-        0.0416
+        0.64105,
+        0.2935,
+        0.05005,
+        0.0568
       ],
-      "color": "steel"
+      "color": "steel",
+      "focus": true
     }
   ],
   "reconstructed": false,

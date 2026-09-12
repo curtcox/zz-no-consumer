@@ -1,6 +1,6 @@
 {
   "background": "ink",
-  "intent": "Block the page plan holds unanswered disclosure questions. Keep the scripted evidence boundary and lettering visible.",
+  "intent": "Keep each disclosure question visibly unanswered in the page plan. Do not fill the list with symbolic guilty parties or implied affirmative answers.",
   "lettering": [
     {
       "box": [
@@ -16,9 +16,9 @@
     {
       "asset": "question",
       "box": [
-        0.4768224,
+        0.480048,
         0.0962,
-        0.0279552,
+        0.021504,
         0.064512
       ],
       "color": "steel",
@@ -34,9 +34,9 @@
     {
       "asset": "question",
       "box": [
-        0.4768224,
+        0.480048,
         0.20756,
-        0.0279552,
+        0.021504,
         0.064512
       ],
       "color": "steel",
@@ -52,9 +52,9 @@
     {
       "asset": "question",
       "box": [
-        0.4768224,
+        0.480048,
         0.31892,
-        0.0279552,
+        0.021504,
         0.064512
       ],
       "color": "steel",
@@ -70,9 +70,9 @@
     {
       "asset": "question",
       "box": [
-        0.4768224,
+        0.480048,
         0.43028,
-        0.0279552,
+        0.021504,
         0.064512
       ],
       "color": "steel",
@@ -88,9 +88,9 @@
     {
       "asset": "question",
       "box": [
-        0.4768224,
+        0.480048,
         0.54164,
-        0.0279552,
+        0.021504,
         0.064512
       ],
       "color": "steel",

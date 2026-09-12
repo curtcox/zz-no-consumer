@@ -1,6 +1,6 @@
 {
   "background": "ink",
-  "intent": "Block team and approval pass through without authorization. Keep the scripted evidence boundary and lettering visible.",
+  "intent": "Carry team and approval tokens across while leaving legitimate authorization empty. Matching vocabulary must not become a verified permission badge.",
   "lettering": [
     {
       "box": [
@@ -16,56 +16,100 @@
     {
       "asset": "card",
       "box": [
-        0.1044,
-        0.2242,
-        0.195163,
-        0.256
+        0.0723,
+        0.1089,
+        0.2821,
+        0.149952
       ],
       "color": "steel",
       "focus": true,
       "label": "TEAM",
       "label_box": [
-        0.09640000000000001,
-        0.4862,
-        0.211163,
-        0.085
-      ]
+        0.0723,
+        0.26794,
+        0.2821,
+        0.065888
+      ],
+      "label_size": 18
     },
     {
       "asset": "card",
       "box": [
-        0.368133,
-        0.2242,
-        0.195163,
-        0.256
+        0.0723,
+        0.4568,
+        0.2821,
+        0.149952
       ],
       "color": "steel",
       "focus": true,
       "label": "APPROVAL",
       "label_box": [
-        0.360133,
-        0.4862,
-        0.211163,
-        0.085
-      ]
+        0.0723,
+        0.61584,
+        0.2821,
+        0.065888
+      ],
+      "label_size": 18
     },
     {
-      "asset": "outline-box",
+      "asset": "arrow",
       "box": [
-        0.631867,
-        0.2242,
-        0.195163,
-        0.256
+        0.3999,
+        0.1941,
+        0.1638,
+        0.0426
+      ],
+      "color": "steel",
+      "focus": true
+    },
+    {
+      "asset": "arrow",
+      "box": [
+        0.3999,
+        0.542,
+        0.1638,
+        0.0426
+      ],
+      "color": "steel",
+      "focus": true
+    },
+    {
+      "asset": "card",
+      "box": [
+        0.6365,
+        0.0876,
+        0.2821,
+        0.182754
       ],
       "color": "steel",
       "focus": true,
-      "label": "AUTHORIZATION ABSENT",
+      "label": "ANALYSIS CATEGORIES",
       "label_box": [
-        0.623867,
-        0.4862,
-        0.211163,
-        0.085
-      ]
+        0.6365,
+        0.28143,
+        0.2821,
+        0.080301
+      ],
+      "label_size": 18
+    },
+    {
+      "asset": "empty-slot",
+      "box": [
+        0.6365,
+        0.4568,
+        0.2821,
+        0.173382
+      ],
+      "color": "steel",
+      "focus": true,
+      "label": "LEGITIMATE AUTHORIZATION ABSENT",
+      "label_box": [
+        0.6365,
+        0.64069,
+        0.2821,
+        0.076183
+      ],
+      "label_size": 18
     }
   ],
   "reconstructed": false,

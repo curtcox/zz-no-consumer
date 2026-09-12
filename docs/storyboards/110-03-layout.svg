@@ -1,22 +1,25 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="800" viewBox="0 0 1200 800"><title>An attributed visit inference sits beside a recorded response</title><metadata>{
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="800" viewBox="0 0 1200 800"><title>An attributed visit inference sits beside a recorded response</title><desc>Use hatching for attributed-visit inference and solid treatment for the recorded response. Touching cards share chronology but receive no causal or knowledge-transfer connector.</desc><metadata>{
   &quot;assets&quot;: {
     &quot;boundary&quot;: &quot;&lt;path d=\&quot;M50 0V100\&quot; stroke=\&quot;currentColor\&quot; stroke-width=\&quot;14\&quot;/&gt;&quot;,
-    &quot;card&quot;: &quot;&lt;rect x=\&quot;1\&quot; y=\&quot;1\&quot; width=\&quot;98\&quot; height=\&quot;98\&quot; fill=\&quot;#202326\&quot; stroke=\&quot;currentColor\&quot; stroke-width=\&quot;2\&quot;/&gt;&lt;path d=\&quot;M8 13H92M8 27H70M8 36H86M8 45H72M8 65H86M8 74H57\&quot; stroke=\&quot;currentColor\&quot; stroke-width=\&quot;1.5\&quot;/&gt;&quot;
+    &quot;card&quot;: &quot;&lt;rect x=\&quot;1\&quot; y=\&quot;1\&quot; width=\&quot;98\&quot; height=\&quot;98\&quot; fill=\&quot;#202326\&quot; stroke=\&quot;currentColor\&quot; stroke-width=\&quot;2\&quot;/&gt;&lt;path d=\&quot;M1 20H99M9 10H42M62 10H90M10 34H87M10 45H73M10 56H82M10 76H57M10 87H38\&quot; stroke=\&quot;currentColor\&quot; stroke-width=\&quot;2\&quot;/&gt;&quot;,
+    &quot;hatched-card&quot;: &quot;&lt;rect x=\&quot;1\&quot; y=\&quot;1\&quot; width=\&quot;98\&quot; height=\&quot;98\&quot; fill=\&quot;#202326\&quot; stroke=\&quot;currentColor\&quot; stroke-width=\&quot;2\&quot; stroke-dasharray=\&quot;5 3\&quot;/&gt;&lt;path d=\&quot;M3 18L18 3M3 34L34 3M3 50L50 3M3 66L66 3M3 82L82 3M3 98L98 3M19 98L98 19M35 98L98 35M51 98L98 51M67 98L98 67M83 98L98 83\&quot; stroke=\&quot;currentColor\&quot; stroke-width=\&quot;1\&quot; opacity=\&quot;.35\&quot;/&gt;&quot;
   },
   &quot;palette&quot;: {
     &quot;amber&quot;: &quot;#A17D45&quot;,
+    &quot;claret&quot;: &quot;#6B2634&quot;,
     &quot;dirty&quot;: &quot;#CEC5B3&quot;,
     &quot;ink&quot;: &quot;#101214&quot;,
     &quot;institution&quot;: &quot;#68766B&quot;,
+    &quot;moss&quot;: &quot;#74864F&quot;,
     &quot;nicotine&quot;: &quot;#AA9571&quot;,
     &quot;paper&quot;: &quot;#E7E0D0&quot;,
     &quot;shadow&quot;: &quot;#202326&quot;,
     &quot;steel&quot;: &quot;#5E737B&quot;
   },
-  &quot;renderer&quot;: &quot;storyboard-svg-1&quot;,
+  &quot;renderer&quot;: &quot;storyboard-svg-2&quot;,
   &quot;scene&quot;: {
     &quot;background&quot;: &quot;ink&quot;,
-    &quot;intent&quot;: &quot;Block an attributed visit inference sits beside a recorded response. Keep the scripted evidence boundary and lettering visible.&quot;,
+    &quot;intent&quot;: &quot;Use hatching for attributed-visit inference and solid treatment for the recorded response. Touching cards share chronology but receive no causal or knowledge-transfer connector.&quot;,
     &quot;lettering&quot;: [
       {
         &quot;box&quot;: [
@@ -30,50 +33,53 @@
     &quot;lettering_mode&quot;: &quot;manual&quot;,
     &quot;nodes&quot;: [
       {
-        &quot;asset&quot;: &quot;card&quot;,
+        &quot;asset&quot;: &quot;hatched-card&quot;,
         &quot;box&quot;: [
-          0.1044,
-          0.2242,
-          0.292744,
-          0.256
+          0.06775,
+          0.2012,
+          0.3913,
+          0.276474
         ],
         &quot;color&quot;: &quot;amber&quot;,
         &quot;focus&quot;: true,
-        &quot;label&quot;: &quot;26 JUNE INFERENCE&quot;,
+        &quot;label&quot;: &quot;26 JUNE — VISIT INFERENCE&quot;,
         &quot;label_box&quot;: [
-          0.09640000000000001,
-          0.4862,
-          0.308744,
-          0.085
-        ]
+          0.06775,
+          0.49443,
+          0.3913,
+          0.121481
+        ],
+        &quot;label_size&quot;: 18
       },
       {
         &quot;asset&quot;: &quot;card&quot;,
         &quot;box&quot;: [
-          0.5,
-          0.2242,
-          0.292744,
-          0.256
+          0.52275,
+          0.2012,
+          0.3913,
+          0.276474
         ],
         &quot;color&quot;: &quot;steel&quot;,
         &quot;focus&quot;: true,
-        &quot;label&quot;: &quot;27 JUNE RESPONSE&quot;,
+        &quot;label&quot;: &quot;27 JUNE — RECORDED RESPONSE&quot;,
         &quot;label_box&quot;: [
-          0.492,
-          0.4862,
-          0.308744,
-          0.085
-        ]
+          0.52275,
+          0.49443,
+          0.3913,
+          0.121481
+        ],
+        &quot;label_size&quot;: 18
       },
       {
         &quot;asset&quot;: &quot;boundary&quot;,
         &quot;box&quot;: [
-          0.4908,
-          0.0962,
-          0.01656,
-          0.5376
+          0.49363,
+          0.0734,
+          0.01274,
+          0.6248
         ],
-        &quot;color&quot;: &quot;amber&quot;
+        &quot;color&quot;: &quot;amber&quot;,
+        &quot;focus&quot;: true
       }
     ],
     &quot;reconstructed&quot;: false,
@@ -82,4 +88,4 @@
     &quot;title&quot;: &quot;An attributed visit inference sits beside a recorded response&quot;
   }
 }
-</metadata><rect width="1200" height="800" fill="#101214"/><rect x="125.28" y="179.36" width="351.293" height="204.8" fill="none" stroke="#A17D45" stroke-width="3"/><text x="133.28" y="203.36" fill="#A17D45" font-family="sans-serif" font-size="20">card</text><text x="300.926" y="408.96" text-anchor="middle" fill="#E7E0D0" font-size="20" font-family="sans-serif">26 JUNE INFERENCE</text><rect x="600" y="179.36" width="351.293" height="204.8" fill="none" stroke="#5E737B" stroke-width="3"/><text x="608" y="203.36" fill="#5E737B" font-family="sans-serif" font-size="20">card</text><text x="775.646" y="408.96" text-anchor="middle" fill="#E7E0D0" font-size="20" font-family="sans-serif">27 JUNE RESPONSE</text><rect x="588.96" y="76.96" width="19.872" height="430.08" fill="none" stroke="#A17D45" stroke-width="3"/><text x="596.96" y="100.96" fill="#A17D45" font-family="sans-serif" font-size="20">boundary</text><rect x="3" y="3" width="1194" height="794" fill="none" stroke="#5E737B" stroke-width="4"/></svg>
+</metadata><rect width="1200" height="800" fill="#101214"/><rect x="81.3" y="160.96" width="469.56" height="221.179" fill="none" stroke="#A17D45" stroke-width="3"/><text x="89.3" y="184.96" fill="#A17D45" font-family="sans-serif" font-size="20">hatched-card</text><text x="316.08" y="413.544" text-anchor="middle" fill="#E7E0D0" font-size="18" font-family="sans-serif">26 JUNE — VISIT INFERENCE</text><rect x="627.3" y="160.96" width="469.56" height="221.179" fill="none" stroke="#5E737B" stroke-width="3"/><text x="635.3" y="184.96" fill="#5E737B" font-family="sans-serif" font-size="20">card</text><text x="862.08" y="413.544" text-anchor="middle" fill="#E7E0D0" font-size="18" font-family="sans-serif">27 JUNE — RECORDED RESPONSE</text><rect x="592.356" y="58.72" width="15.288" height="499.84" fill="none" stroke="#A17D45" stroke-width="3"/><text x="600.356" y="82.72" fill="#A17D45" font-family="sans-serif" font-size="20">boundary</text><rect x="3" y="3" width="1194" height="794" fill="none" stroke="#5E737B" stroke-width="4"/></svg>

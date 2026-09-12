@@ -1,6 +1,6 @@
 {
   "background": "ink",
-  "intent": "Block the earlier board observation. Keep the scripted evidence boundary and lettering visible.",
+  "intent": "Give the earlier board its own source block, approximate clock and discussion-name geometry. Preserve the approximation mark rather than sharpening it into an exact time.",
   "lettering": [],
   "lettering_mode": "manual",
   "nodes": [

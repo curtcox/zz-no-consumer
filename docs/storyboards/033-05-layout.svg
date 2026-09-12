@@ -1,23 +1,25 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="800" viewBox="0 0 1200 800"><title>The two observations lack a mapped connector</title><metadata>{
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="800" viewBox="0 0 1200 800"><title>The two observations lack a mapped connector</title><desc>Place the observations in time order but interrupt the relationship connector. The gap is an unmapped relationship, not evidence either of common authorship or independent origin.</desc><metadata>{
   &quot;assets&quot;: {
-    &quot;card&quot;: &quot;&lt;rect x=\&quot;1\&quot; y=\&quot;1\&quot; width=\&quot;98\&quot; height=\&quot;98\&quot; fill=\&quot;#202326\&quot; stroke=\&quot;currentColor\&quot; stroke-width=\&quot;2\&quot;/&gt;&lt;path d=\&quot;M8 13H92M8 27H70M8 36H86M8 45H72M8 65H86M8 74H57\&quot; stroke=\&quot;currentColor\&quot; stroke-width=\&quot;1.5\&quot;/&gt;&quot;,
-    &quot;line&quot;: &quot;&lt;path d=\&quot;M0 50H100\&quot; stroke=\&quot;currentColor\&quot; stroke-width=\&quot;2\&quot; vector-effect=\&quot;non-scaling-stroke\&quot;/&gt;&quot;,
-    &quot;question&quot;: &quot;&lt;path d=\&quot;M24 28Q25 3 53 7Q91 12 74 43L51 63V72\&quot; fill=\&quot;none\&quot; stroke=\&quot;currentColor\&quot; stroke-width=\&quot;7\&quot;/&gt;&lt;circle cx=\&quot;51\&quot; cy=\&quot;91\&quot; r=\&quot;5\&quot; fill=\&quot;currentColor\&quot;/&gt;&quot;
+    &quot;broken-trace&quot;: &quot;&lt;path d=\&quot;M2 50H36M64 50H98M43 35L37 65M63 35L57 65\&quot; fill=\&quot;none\&quot; stroke=\&quot;currentColor\&quot; stroke-width=\&quot;3\&quot;/&gt;&quot;,
+    &quot;directory-row&quot;: &quot;&lt;rect x=\&quot;1\&quot; y=\&quot;1\&quot; width=\&quot;98\&quot; height=\&quot;98\&quot; fill=\&quot;#202326\&quot; stroke=\&quot;currentColor\&quot; stroke-width=\&quot;2\&quot;/&gt;&lt;path d=\&quot;M19 1V99M4 24H15M4 43H12M4 72H15M28 27V15H43L51 27H90V81H28ZM35 44H83M35 58H73\&quot; fill=\&quot;none\&quot; stroke=\&quot;currentColor\&quot; stroke-width=\&quot;2\&quot;/&gt;&quot;,
+    &quot;transcript&quot;: &quot;&lt;rect x=\&quot;1\&quot; y=\&quot;1\&quot; width=\&quot;98\&quot; height=\&quot;98\&quot; fill=\&quot;#202326\&quot; stroke=\&quot;currentColor\&quot; stroke-width=\&quot;2\&quot;/&gt;&lt;path d=\&quot;M20 1V99M1 18H99M6 10H13M27 9H83M6 31H13M28 30H88M28 39H71M6 53H13M28 52H79M28 61H90M6 75H13M28 74H66M28 83H83\&quot; stroke=\&quot;currentColor\&quot; stroke-width=\&quot;2\&quot;/&gt;&quot;
   },
   &quot;palette&quot;: {
     &quot;amber&quot;: &quot;#A17D45&quot;,
+    &quot;claret&quot;: &quot;#6B2634&quot;,
     &quot;dirty&quot;: &quot;#CEC5B3&quot;,
     &quot;ink&quot;: &quot;#101214&quot;,
     &quot;institution&quot;: &quot;#68766B&quot;,
+    &quot;moss&quot;: &quot;#74864F&quot;,
     &quot;nicotine&quot;: &quot;#AA9571&quot;,
     &quot;paper&quot;: &quot;#E7E0D0&quot;,
     &quot;shadow&quot;: &quot;#202326&quot;,
     &quot;steel&quot;: &quot;#5E737B&quot;
   },
-  &quot;renderer&quot;: &quot;storyboard-svg-1&quot;,
+  &quot;renderer&quot;: &quot;storyboard-svg-2&quot;,
   &quot;scene&quot;: {
     &quot;background&quot;: &quot;ink&quot;,
-    &quot;intent&quot;: &quot;Block the two observations lack a mapped connector. Keep the scripted evidence boundary and lettering visible.&quot;,
+    &quot;intent&quot;: &quot;Place the observations in time order but interrupt the relationship connector. The gap is an unmapped relationship, not evidence either of common authorship or independent origin.&quot;,
     &quot;lettering&quot;: [
       {
         &quot;box&quot;: [
@@ -31,61 +33,53 @@
     &quot;lettering_mode&quot;: &quot;manual&quot;,
     &quot;nodes&quot;: [
       {
-        &quot;asset&quot;: &quot;line&quot;,
+        &quot;asset&quot;: &quot;transcript&quot;,
         &quot;box&quot;: [
-          0.0768,
-          0.365,
-          0.8464,
-          0.016
-        ],
-        &quot;color&quot;: &quot;steel&quot;
-      },
-      {
-        &quot;asset&quot;: &quot;card&quot;,
-        &quot;box&quot;: [
-          0.086,
-          0.1794,
-          0.217733,
-          0.1408
+          0.0632,
+          0.1941,
+          0.3185,
+          0.285846
         ],
         &quot;color&quot;: &quot;steel&quot;,
         &quot;focus&quot;: true,
-        &quot;label&quot;: &quot;16:01&quot;,
+        &quot;label&quot;: &quot;16:01 WRITE&quot;,
         &quot;label_box&quot;: [
-          0.07799999999999999,
-          0.32620000000000005,
-          0.23373300000000002,
-          0.030799999999999945
-        ]
+          0.0632,
+          0.49727,
+          0.3185,
+          0.125599
+        ],
+        &quot;label_size&quot;: 18
       },
       {
-        &quot;asset&quot;: &quot;question&quot;,
+        &quot;asset&quot;: &quot;broken-trace&quot;,
         &quot;box&quot;: [
-          0.44035983333333334,
-          0.1794,
-          0.061013333333333336,
-          0.1408
+          0.409,
+          0.2935,
+          0.182,
+          0.0852
         ],
         &quot;color&quot;: &quot;amber&quot;,
         &quot;focus&quot;: true
       },
       {
-        &quot;asset&quot;: &quot;card&quot;,
+        &quot;asset&quot;: &quot;directory-row&quot;,
         &quot;box&quot;: [
-          0.638,
-          0.1794,
-          0.217733,
-          0.1408
+          0.6183,
+          0.1941,
+          0.3185,
+          0.285846
         ],
         &quot;color&quot;: &quot;steel&quot;,
         &quot;focus&quot;: true,
-        &quot;label&quot;: &quot;ABOUT 17:00&quot;,
+        &quot;label&quot;: &quot;ABOUT 17:00 BOARD&quot;,
         &quot;label_box&quot;: [
-          0.63,
-          0.32620000000000005,
-          0.23373300000000002,
-          0.030799999999999945
-        ]
+          0.6183,
+          0.49727,
+          0.3185,
+          0.125599
+        ],
+        &quot;label_size&quot;: 18
       }
     ],
     &quot;reconstructed&quot;: false,
@@ -94,4 +88,4 @@
     &quot;title&quot;: &quot;The two observations lack a mapped connector&quot;
   }
 }
-</metadata><rect width="1200" height="800" fill="#101214"/><rect x="92.16" y="292" width="1015.68" height="12.8" fill="none" stroke="#5E737B" stroke-width="3"/><text x="100.16" y="316" fill="#5E737B" font-family="sans-serif" font-size="20">line</text><rect x="103.2" y="143.52" width="261.28" height="112.64" fill="none" stroke="#5E737B" stroke-width="3"/><text x="111.2" y="167.52" fill="#5E737B" font-family="sans-serif" font-size="20">card</text><text x="233.84" y="278.96" text-anchor="middle" fill="#E7E0D0" font-size="18" font-family="sans-serif">16:01</text><rect x="528.432" y="143.52" width="73.216" height="112.64" fill="none" stroke="#A17D45" stroke-width="3"/><text x="536.432" y="167.52" fill="#A17D45" font-family="sans-serif" font-size="20">question</text><rect x="765.6" y="143.52" width="261.28" height="112.64" fill="none" stroke="#5E737B" stroke-width="3"/><text x="773.6" y="167.52" fill="#5E737B" font-family="sans-serif" font-size="20">card</text><text x="896.24" y="278.96" text-anchor="middle" fill="#E7E0D0" font-size="18" font-family="sans-serif">ABOUT 17:00</text><rect x="3" y="3" width="1194" height="794" fill="none" stroke="#5E737B" stroke-width="4"/></svg>
+</metadata><rect width="1200" height="800" fill="#101214"/><rect x="75.84" y="155.28" width="382.2" height="228.677" fill="none" stroke="#5E737B" stroke-width="3"/><text x="83.84" y="179.28" fill="#5E737B" font-family="sans-serif" font-size="20">transcript</text><text x="266.94" y="415.816" text-anchor="middle" fill="#E7E0D0" font-size="18" font-family="sans-serif">16:01 WRITE</text><rect x="490.8" y="234.8" width="218.4" height="68.16" fill="none" stroke="#A17D45" stroke-width="3"/><text x="498.8" y="258.8" fill="#A17D45" font-family="sans-serif" font-size="20">broken-trace</text><rect x="741.96" y="155.28" width="382.2" height="228.677" fill="none" stroke="#5E737B" stroke-width="3"/><text x="749.96" y="179.28" fill="#5E737B" font-family="sans-serif" font-size="20">directory-row</text><text x="933.06" y="415.816" text-anchor="middle" fill="#E7E0D0" font-size="18" font-family="sans-serif">ABOUT 17:00 BOARD</text><rect x="3" y="3" width="1194" height="794" fill="none" stroke="#5E737B" stroke-width="4"/></svg>

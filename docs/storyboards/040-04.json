@@ -1,6 +1,6 @@
 {
   "background": "ink",
-  "intent": "Block a narrower sentence survives the crossed claims. Keep the scripted evidence boundary and lettering visible.",
+  "intent": "Let the smaller surviving claim remain clear beneath larger crossed-out claims. Revision narrows the assertion while preserving the record of what was rejected.",
   "lettering": [
     {
       "box": [
@@ -25,9 +25,9 @@
       "asset": "cross",
       "box": [
         0.20692000000000002,
-        0.11960000000000001,
+        0.1196,
         0.14615999999999998,
-        0.21923999999999996
+        0.21924
       ],
       "color": "dirty",
       "focus": true

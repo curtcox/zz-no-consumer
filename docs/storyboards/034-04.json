@@ -1,6 +1,6 @@
 {
   "background": "ink",
-  "intent": "Block chronology does not establish identity. Keep the scripted evidence boundary and lettering visible.",
+  "intent": "Separate chronological order from identity linkage: an ordinary time rule may continue beneath blocks, but the first two blocks retain a labelled relational gap above it.",
   "lettering": [
     {
       "box": [
@@ -14,69 +14,91 @@
   "lettering_mode": "manual",
   "nodes": [
     {
-      "asset": "card",
+      "asset": "transcript",
       "box": [
-        0.1044,
-        0.2242,
-        0.146372,
-        0.256
+        0.0632,
+        0.116,
+        0.2275,
+        0.229614
       ],
       "color": "steel",
       "focus": true,
       "label": "16:01",
       "label_box": [
-        0.09640000000000001,
-        0.4862,
-        0.16237200000000002,
-        0.085
-      ]
+        0.0632,
+        0.35953,
+        0.2275,
+        0.100891
+      ],
+      "label_size": 18
     },
     {
-      "asset": "question",
+      "asset": "broken-trace",
       "box": [
-        0.31991933333333333,
-        0.22419999999999998,
-        0.11093333333333336,
-        0.25600000000000006
+        0.30435,
+        0.2154,
+        0.10465,
+        0.0781
       ],
       "color": "amber",
       "focus": true
     },
     {
-      "asset": "card",
+      "asset": "directory-row",
       "box": [
-        0.5,
-        0.2242,
-        0.146372,
-        0.256
+        0.4272,
+        0.116,
+        0.2275,
+        0.229614
       ],
       "color": "steel",
       "focus": true,
-      "label": "17:00",
+      "label": "ABOUT 17:00",
       "label_box": [
-        0.492,
-        0.4862,
-        0.16237200000000002,
-        0.085
-      ]
+        0.4272,
+        0.35953,
+        0.2275,
+        0.100891
+      ],
+      "label_size": 18
     },
     {
-      "asset": "card",
+      "asset": "directory-row",
       "box": [
-        0.6978,
-        0.2242,
-        0.146372,
-        0.256
+        0.7093,
+        0.116,
+        0.2275,
+        0.229614
       ],
       "color": "steel",
       "focus": true,
       "label": "23:00",
       "label_box": [
-        0.6898,
-        0.4862,
-        0.16237200000000002,
-        0.085
-      ]
+        0.7093,
+        0.35953,
+        0.2275,
+        0.100891
+      ],
+      "label_size": 18
+    },
+    {
+      "asset": "line",
+      "box": [
+        0.0723,
+        0.613,
+        0.8463,
+        0.07029
+      ],
+      "color": "steel",
+      "focus": true,
+      "label": "TIME ORDER",
+      "label_box": [
+        0.0723,
+        0.68755,
+        0.8463,
+        0.030885
+      ],
+      "label_size": 18
     }
   ],
   "reconstructed": false,

@@ -1,6 +1,6 @@
 {
   "background": "ink",
-  "intent": "Block the incident returns to three opaque destinations. Keep the scripted evidence boundary and lettering visible.",
+  "intent": "Straighten the border at the dated return to incident evidence. Keep the three destinations opaque and query-bearing lanes separate, showing research directions rather than achieved access.",
   "lettering": [
     {
       "box": [
@@ -16,56 +16,59 @@
     {
       "asset": "folder",
       "box": [
-        0.1044,
-        0.2242,
-        0.195163,
-        0.256
+        0.06775,
+        0.2012,
+        0.239633,
+        0.276474
       ],
       "color": "steel",
       "focus": true,
       "label": "PUBLIC MATERIAL",
       "label_box": [
-        0.09640000000000001,
-        0.4862,
-        0.211163,
-        0.085
-      ]
+        0.06775,
+        0.49443,
+        0.239633,
+        0.121481
+      ],
+      "label_size": 18
     },
     {
       "asset": "sealed",
       "box": [
-        0.368133,
-        0.2242,
-        0.195163,
-        0.256
+        0.371083,
+        0.2012,
+        0.239633,
+        0.276474
       ],
       "color": "steel",
       "focus": true,
       "label": "CREDENTIALS",
       "label_box": [
-        0.360133,
-        0.4862,
-        0.211163,
-        0.085
-      ]
+        0.371083,
+        0.49443,
+        0.239633,
+        0.121481
+      ],
+      "label_size": 18
     },
     {
       "asset": "rack",
       "box": [
-        0.631867,
-        0.2242,
-        0.195163,
-        0.256
+        0.752762,
+        0.2012,
+        0.082942,
+        0.276474
       ],
       "color": "steel",
       "focus": true,
       "label": "INFRASTRUCTURE",
       "label_box": [
-        0.623867,
-        0.4862,
-        0.211163,
-        0.085
-      ]
+        0.674417,
+        0.49443,
+        0.239633,
+        0.121481
+      ],
+      "label_size": 18
     }
   ],
   "reconstructed": false,

@@ -1,6 +1,6 @@
 {
   "background": "ink",
-  "intent": "Block earlier documented scenes enter without testimony. Keep the scripted evidence boundary and lettering visible.",
+  "intent": "Place five provenance-bearing scene thumbnails only in the documented-event column. No speaking role or witness gesture should convert the montage into invented testimony.",
   "lettering": [
     {
       "box": [
@@ -63,7 +63,7 @@
         0.2419984,
         0.42236,
         0.0760032,
-        0.08769600000000001
+        0.087696
       ],
       "color": "steel",
       "focus": true,

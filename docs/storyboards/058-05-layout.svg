@@ -1,22 +1,24 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="800" viewBox="0 0 1200 800"><title>The board opens a waiting lane</title><metadata>{
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="800" viewBox="0 0 1200 800"><title>The board opens a waiting lane</title><desc>Leave a clearly empty result slot beside a waiting clock. The test stays outside the frame, so expectation cannot become a depicted outcome.</desc><metadata>{
   &quot;assets&quot;: {
     &quot;clock&quot;: &quot;&lt;circle cx=\&quot;50\&quot; cy=\&quot;50\&quot; r=\&quot;44\&quot; fill=\&quot;#202326\&quot; stroke=\&quot;currentColor\&quot; stroke-width=\&quot;4\&quot;/&gt;&lt;path d=\&quot;M50 15V50L75 64M50 5V12M95 50H88M50 95V88M5 50H12\&quot; fill=\&quot;none\&quot; stroke=\&quot;currentColor\&quot; stroke-width=\&quot;4\&quot;/&gt;&quot;,
-    &quot;outline-box&quot;: &quot;&lt;rect x=\&quot;2\&quot; y=\&quot;2\&quot; width=\&quot;96\&quot; height=\&quot;96\&quot; fill=\&quot;none\&quot; stroke=\&quot;currentColor\&quot; stroke-width=\&quot;3\&quot;/&gt;&quot;
+    &quot;empty-slot&quot;: &quot;&lt;rect x=\&quot;2\&quot; y=\&quot;2\&quot; width=\&quot;96\&quot; height=\&quot;96\&quot; fill=\&quot;none\&quot; stroke=\&quot;currentColor\&quot; stroke-width=\&quot;2\&quot; stroke-dasharray=\&quot;7 5\&quot;/&gt;&lt;path d=\&quot;M34 51H66\&quot; stroke=\&quot;currentColor\&quot; stroke-width=\&quot;2\&quot;/&gt;&quot;
   },
   &quot;palette&quot;: {
     &quot;amber&quot;: &quot;#A17D45&quot;,
+    &quot;claret&quot;: &quot;#6B2634&quot;,
     &quot;dirty&quot;: &quot;#CEC5B3&quot;,
     &quot;ink&quot;: &quot;#101214&quot;,
     &quot;institution&quot;: &quot;#68766B&quot;,
+    &quot;moss&quot;: &quot;#74864F&quot;,
     &quot;nicotine&quot;: &quot;#AA9571&quot;,
     &quot;paper&quot;: &quot;#E7E0D0&quot;,
     &quot;shadow&quot;: &quot;#202326&quot;,
     &quot;steel&quot;: &quot;#5E737B&quot;
   },
-  &quot;renderer&quot;: &quot;storyboard-svg-1&quot;,
+  &quot;renderer&quot;: &quot;storyboard-svg-2&quot;,
   &quot;scene&quot;: {
     &quot;background&quot;: &quot;ink&quot;,
-    &quot;intent&quot;: &quot;Block the board opens a waiting lane. Keep the scripted evidence boundary and lettering visible.&quot;,
+    &quot;intent&quot;: &quot;Leave a clearly empty result slot beside a waiting clock. The test stays outside the frame, so expectation cannot become a depicted outcome.&quot;,
     &quot;lettering&quot;: [
       {
         &quot;box&quot;: [
@@ -30,7 +32,7 @@
     &quot;lettering_mode&quot;: &quot;manual&quot;,
     &quot;nodes&quot;: [
       {
-        &quot;asset&quot;: &quot;outline-box&quot;,
+        &quot;asset&quot;: &quot;empty-slot&quot;,
         &quot;box&quot;: [
           0.2148,
           0.1282,
@@ -65,4 +67,4 @@
     &quot;title&quot;: &quot;The board opens a waiting lane&quot;
   }
 }
-</metadata><rect width="1200" height="800" fill="#101214"/><rect x="257.76" y="102.56" width="640.32" height="317.44" fill="none" stroke="#5E737B" stroke-width="3"/><text x="265.76" y="126.56" fill="#5E737B" font-family="sans-serif" font-size="20">outline-box</text><text x="577.92" y="442.8" text-anchor="middle" fill="#E7E0D0" font-size="18" font-family="sans-serif">AWAITING RESULT</text><rect x="477.6" y="455.84" width="46.08" height="46.08" fill="none" stroke="#5E737B" stroke-width="3"/><text x="485.6" y="479.84" fill="#5E737B" font-family="sans-serif" font-size="20">clock</text><rect x="3" y="3" width="1194" height="794" fill="none" stroke="#5E737B" stroke-width="4"/></svg>
+</metadata><rect width="1200" height="800" fill="#101214"/><rect x="257.76" y="102.56" width="640.32" height="317.44" fill="none" stroke="#5E737B" stroke-width="3"/><text x="265.76" y="126.56" fill="#5E737B" font-family="sans-serif" font-size="20">empty-slot</text><text x="577.92" y="442.8" text-anchor="middle" fill="#E7E0D0" font-size="18" font-family="sans-serif">AWAITING RESULT</text><rect x="477.6" y="455.84" width="46.08" height="46.08" fill="none" stroke="#5E737B" stroke-width="3"/><text x="485.6" y="479.84" fill="#5E737B" font-family="sans-serif" font-size="20">clock</text><rect x="3" y="3" width="1194" height="794" fill="none" stroke="#5E737B" stroke-width="4"/></svg>

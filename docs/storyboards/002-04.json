@@ -1,6 +1,6 @@
 {
   "background": "ink",
-  "intent": "Block the objective stays active. Keep the scripted evidence boundary and lettering visible.",
+  "intent": "Let the active objective line be the only small signal in a large quiet field. Continuing obligation should read through persistence, without a warning alarm or an emotional agent.",
   "lettering": [
     {
       "box": [
@@ -14,7 +14,7 @@
   "lettering_mode": "manual",
   "nodes": [
     {
-      "asset": "card",
+      "asset": "task",
       "box": [
         0.0952,
         0.1218,

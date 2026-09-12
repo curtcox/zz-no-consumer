@@ -1,21 +1,23 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="800" viewBox="0 0 1200 800"><title>Three cross-lane questions have no connecting arrows</title><metadata>{
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="800" viewBox="0 0 1200 800"><title>Three cross-lane questions have no connecting arrows</title><desc>Place three boxed questions in the empty inter-lane gap and draw no connecting lines. Provider attribution, training relationship and cross-reading are different unresolved propositions.</desc><metadata>{
   &quot;assets&quot;: {
     &quot;question&quot;: &quot;&lt;path d=\&quot;M24 28Q25 3 53 7Q91 12 74 43L51 63V72\&quot; fill=\&quot;none\&quot; stroke=\&quot;currentColor\&quot; stroke-width=\&quot;7\&quot;/&gt;&lt;circle cx=\&quot;51\&quot; cy=\&quot;91\&quot; r=\&quot;5\&quot; fill=\&quot;currentColor\&quot;/&gt;&quot;
   },
   &quot;palette&quot;: {
     &quot;amber&quot;: &quot;#A17D45&quot;,
+    &quot;claret&quot;: &quot;#6B2634&quot;,
     &quot;dirty&quot;: &quot;#CEC5B3&quot;,
     &quot;ink&quot;: &quot;#101214&quot;,
     &quot;institution&quot;: &quot;#68766B&quot;,
+    &quot;moss&quot;: &quot;#74864F&quot;,
     &quot;nicotine&quot;: &quot;#AA9571&quot;,
     &quot;paper&quot;: &quot;#E7E0D0&quot;,
     &quot;shadow&quot;: &quot;#202326&quot;,
     &quot;steel&quot;: &quot;#5E737B&quot;
   },
-  &quot;renderer&quot;: &quot;storyboard-svg-1&quot;,
+  &quot;renderer&quot;: &quot;storyboard-svg-2&quot;,
   &quot;scene&quot;: {
     &quot;background&quot;: &quot;ink&quot;,
-    &quot;intent&quot;: &quot;Block three cross-lane questions have no connecting arrows. Keep the scripted evidence boundary and lettering visible.&quot;,
+    &quot;intent&quot;: &quot;Place three boxed questions in the empty inter-lane gap and draw no connecting lines. Provider attribution, training relationship and cross-reading are different unresolved propositions.&quot;,
     &quot;lettering&quot;: [
       {
         &quot;box&quot;: [
@@ -31,56 +33,59 @@
       {
         &quot;asset&quot;: &quot;question&quot;,
         &quot;box&quot;: [
-          0.14651483333333332,
-          0.22419999999999998,
-          0.11093333333333336,
-          0.25600000000000006
+          0.141488,
+          0.2012,
+          0.092158,
+          0.276474
         ],
         &quot;color&quot;: &quot;amber&quot;,
         &quot;focus&quot;: true,
         &quot;label&quot;: &quot;SAME PROVIDER?&quot;,
         &quot;label_box&quot;: [
-          0.09640000000000001,
-          0.4862,
-          0.211163,
-          0.085
-        ]
+          0.06775,
+          0.49443,
+          0.239633,
+          0.121481
+        ],
+        &quot;label_size&quot;: 18
       },
       {
         &quot;asset&quot;: &quot;question&quot;,
         &quot;box&quot;: [
-          0.4102478333333333,
-          0.22419999999999998,
-          0.11093333333333336,
-          0.25600000000000006
+          0.444821,
+          0.2012,
+          0.092158,
+          0.276474
         ],
         &quot;color&quot;: &quot;amber&quot;,
         &quot;focus&quot;: true,
         &quot;label&quot;: &quot;SAME TRAINING?&quot;,
         &quot;label_box&quot;: [
-          0.360133,
-          0.4862,
-          0.211163,
-          0.085
-        ]
+          0.371083,
+          0.49443,
+          0.239633,
+          0.121481
+        ],
+        &quot;label_size&quot;: 18
       },
       {
         &quot;asset&quot;: &quot;question&quot;,
         &quot;box&quot;: [
-          0.6739818333333333,
-          0.22419999999999998,
-          0.11093333333333336,
-          0.25600000000000006
+          0.748155,
+          0.2012,
+          0.092158,
+          0.276474
         ],
         &quot;color&quot;: &quot;amber&quot;,
         &quot;focus&quot;: true,
         &quot;label&quot;: &quot;CROSS-READING?&quot;,
         &quot;label_box&quot;: [
-          0.623867,
-          0.4862,
-          0.211163,
-          0.085
-        ]
+          0.674417,
+          0.49443,
+          0.239633,
+          0.121481
+        ],
+        &quot;label_size&quot;: 18
       }
     ],
     &quot;reconstructed&quot;: false,
@@ -89,4 +94,4 @@
     &quot;title&quot;: &quot;Three cross-lane questions have no connecting arrows&quot;
   }
 }
-</metadata><rect width="1200" height="800" fill="#101214"/><rect x="175.818" y="179.36" width="133.12" height="204.8" fill="none" stroke="#A17D45" stroke-width="3"/><text x="183.818" y="203.36" fill="#A17D45" font-family="sans-serif" font-size="20">question</text><text x="242.378" y="408.96" text-anchor="middle" fill="#E7E0D0" font-size="20" font-family="sans-serif">SAME PROVIDER?</text><rect x="492.297" y="179.36" width="133.12" height="204.8" fill="none" stroke="#A17D45" stroke-width="3"/><text x="500.297" y="203.36" fill="#A17D45" font-family="sans-serif" font-size="20">question</text><text x="558.857" y="408.96" text-anchor="middle" fill="#E7E0D0" font-size="20" font-family="sans-serif">SAME TRAINING?</text><rect x="808.778" y="179.36" width="133.12" height="204.8" fill="none" stroke="#A17D45" stroke-width="3"/><text x="816.778" y="203.36" fill="#A17D45" font-family="sans-serif" font-size="20">question</text><text x="875.338" y="408.96" text-anchor="middle" fill="#E7E0D0" font-size="20" font-family="sans-serif">CROSS-READING?</text><rect x="3" y="3" width="1194" height="794" fill="none" stroke="#5E737B" stroke-width="4"/></svg>
+</metadata><rect width="1200" height="800" fill="#101214"/><rect x="169.786" y="160.96" width="110.59" height="221.179" fill="none" stroke="#A17D45" stroke-width="3"/><text x="177.786" y="184.96" fill="#A17D45" font-family="sans-serif" font-size="20">question</text><text x="225.08" y="413.544" text-anchor="middle" fill="#E7E0D0" font-size="18" font-family="sans-serif">SAME PROVIDER?</text><rect x="533.785" y="160.96" width="110.59" height="221.179" fill="none" stroke="#A17D45" stroke-width="3"/><text x="541.785" y="184.96" fill="#A17D45" font-family="sans-serif" font-size="20">question</text><text x="589.079" y="413.544" text-anchor="middle" fill="#E7E0D0" font-size="18" font-family="sans-serif">SAME TRAINING?</text><rect x="897.786" y="160.96" width="110.59" height="221.179" fill="none" stroke="#A17D45" stroke-width="3"/><text x="905.786" y="184.96" fill="#A17D45" font-family="sans-serif" font-size="20">question</text><text x="953.08" y="413.544" text-anchor="middle" fill="#E7E0D0" font-size="18" font-family="sans-serif">CROSS-READING?</text><rect x="3" y="3" width="1194" height="794" fill="none" stroke="#5E737B" stroke-width="4"/></svg>

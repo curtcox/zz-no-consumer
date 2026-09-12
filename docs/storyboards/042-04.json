@@ -1,6 +1,6 @@
 {
   "background": "ink",
-  "intent": "Block the timing discrepancy stays unreconciled. Keep the scripted evidence boundary and lettering visible.",
+  "intent": "Give both times equal standing and label their unresolved interval. Visibly strike the tempting unified-first-event label; alignment in a graphic cannot resolve inconsistent reporting.",
   "lettering": [
     {
       "box": [
@@ -16,56 +16,89 @@
     {
       "asset": "card",
       "box": [
-        0.1044,
-        0.2242,
-        0.195163,
-        0.256
+        0.0541,
+        0.0947,
+        0.2548,
+        0.192126
       ],
       "color": "steel",
       "focus": true,
       "label": "04:01",
       "label_box": [
-        0.09640000000000001,
-        0.4862,
-        0.211163,
-        0.085
-      ]
+        0.0541,
+        0.29847,
+        0.2548,
+        0.084419
+      ],
+      "label_size": 18
     },
     {
-      "asset": "question",
+      "asset": "broken-trace",
       "box": [
-        0.4102478333333333,
-        0.22419999999999998,
-        0.11093333333333336,
-        0.25600000000000006
+        0.3544,
+        0.1444,
+        0.273,
+        0.206184
       ],
       "color": "amber",
       "focus": true,
-      "label": "4H 29M",
+      "label": "4H 29M UNRECONCILED",
       "label_box": [
-        0.360133,
-        0.4862,
-        0.211163,
-        0.085
-      ]
+        0.3544,
+        0.36308,
+        0.273,
+        0.090596
+      ],
+      "label_size": 18
     },
     {
       "asset": "card",
       "box": [
-        0.631867,
-        0.2242,
-        0.195163,
-        0.256
+        0.6911,
+        0.0947,
+        0.2548,
+        0.192126
       ],
       "color": "steel",
       "focus": true,
       "label": "08:30",
       "label_box": [
-        0.623867,
-        0.4862,
-        0.211163,
-        0.085
-      ]
+        0.6911,
+        0.29847,
+        0.2548,
+        0.084419
+      ],
+      "label_size": 18
+    },
+    {
+      "asset": "card",
+      "box": [
+        0.2998,
+        0.5278,
+        0.4004,
+        0.121836
+      ],
+      "color": "steel",
+      "focus": true,
+      "label": "THE FIRST RCE",
+      "label_box": [
+        0.2998,
+        0.65702,
+        0.4004,
+        0.053534
+      ],
+      "label_size": 18
+    },
+    {
+      "asset": "cross",
+      "box": [
+        0.4716,
+        0.5136,
+        0.0568,
+        0.0852
+      ],
+      "color": "amber",
+      "focus": true
     }
   ],
   "reconstructed": false,

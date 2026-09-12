@@ -1,6 +1,6 @@
 {
   "background": "ink",
-  "intent": "Block selected snippets go to human review. Keep the scripted evidence boundary and lettering visible.",
+  "intent": "Pass a small selected snippet set from the large corpus toward human review. Selection remains visible as an intermediate act, not a neutral transfer of everything.",
   "lettering": [
     {
       "box": [
@@ -16,56 +16,59 @@
     {
       "asset": "scatter",
       "box": [
-        0.1044,
-        0.2242,
-        0.195163,
-        0.256
+        0.06775,
+        0.2012,
+        0.239633,
+        0.276474
       ],
       "color": "steel",
       "focus": true,
       "label": "SOURCE WALL",
       "label_box": [
-        0.09640000000000001,
-        0.4862,
-        0.211163,
-        0.085
-      ]
+        0.06775,
+        0.49443,
+        0.239633,
+        0.121481
+      ],
+      "label_size": 18
     },
     {
       "asset": "card",
       "box": [
-        0.368133,
-        0.2242,
-        0.195163,
-        0.256
+        0.371083,
+        0.2012,
+        0.239633,
+        0.276474
       ],
       "color": "steel",
       "focus": true,
       "label": "SNIPPETS",
       "label_box": [
-        0.360133,
-        0.4862,
-        0.211163,
-        0.085
-      ]
+        0.371083,
+        0.49443,
+        0.239633,
+        0.121481
+      ],
+      "label_size": 18
     },
     {
       "asset": "person-standing",
       "box": [
-        0.6867818333333333,
-        0.22419999999999998,
-        0.08533333333333334,
-        0.25600000000000006
+        0.748155,
+        0.2012,
+        0.092158,
+        0.276474
       ],
       "color": "dirty",
       "focus": true,
       "label": "REVIEWER",
       "label_box": [
-        0.623867,
-        0.4862,
-        0.211163,
-        0.085
-      ]
+        0.674417,
+        0.49443,
+        0.239633,
+        0.121481
+      ],
+      "label_size": 18
     }
   ],
   "reconstructed": true,

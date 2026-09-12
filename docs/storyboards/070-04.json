@@ -1,6 +1,6 @@
 {
   "background": "ink",
-  "intent": "Block attribution occupies the space between false and verified. Keep the scripted evidence boundary and lettering visible.",
+  "intent": "Locate attributed primary documentation between the two rejected certainty extremes. Avoid success/failure iconography that accidentally declares the claim verified or false.",
   "lettering": [
     {
       "box": [
@@ -14,58 +14,61 @@
   "lettering_mode": "manual",
   "nodes": [
     {
-      "asset": "cross",
+      "asset": "card",
       "box": [
-        0.11664816666666666,
-        0.297296,
-        0.1706666666666667,
-        0.22528000000000006
+        0.0541,
+        0.353334,
+        0.1729,
+        0.167839
       ],
       "color": "shadow",
       "focus": true,
       "label": "FALSE",
       "label_box": [
-        0.09640000000000001,
-        0.527856,
-        0.211163,
-        0.0748
-      ]
+        0.0541,
+        0.531345,
+        0.1729,
+        0.073748
+      ],
+      "label_size": 18
     },
     {
       "asset": "card",
       "box": [
-        0.368133,
-        0.297296,
-        0.195163,
-        0.22528
+        0.3089,
+        0.205484,
+        0.3822,
+        0.316162
       ],
-      "color": "steel",
+      "color": "amber",
       "focus": true,
-      "label": "ATTRIBUTED CLAIM",
+      "label": "ATTRIBUTED PRIMARY DOCUMENTATION",
       "label_box": [
-        0.360133,
-        0.527856,
-        0.211163,
-        0.0748
-      ]
+        0.3089,
+        0.540808,
+        0.3822,
+        0.13892
+      ],
+      "label_size": 18
     },
     {
-      "asset": "checkmark",
+      "asset": "card",
       "box": [
-        0.6441151666666666,
-        0.297296,
-        0.1706666666666667,
-        0.22528000000000006
+        0.773,
+        0.353334,
+        0.1729,
+        0.167839
       ],
       "color": "shadow",
       "focus": true,
       "label": "VERIFIED",
       "label_box": [
-        0.623867,
-        0.527856,
-        0.211163,
-        0.0748
-      ]
+        0.773,
+        0.531345,
+        0.1729,
+        0.073748
+      ],
+      "label_size": 18
     },
     {
       "asset": "line",

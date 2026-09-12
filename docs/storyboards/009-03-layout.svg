@@ -1,23 +1,28 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="800" viewBox="0 0 1200 800"><title>Two possible acceptance conditions</title><metadata>{
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="800" viewBox="0 0 1200 800"><title>Two possible acceptance conditions</title><desc>Place paper and code schematic inside the agents&#x27; knowledge field. Branch the imagined evaluation into answer and path conditions, while leaving the actual deployed scorer outside that field.</desc><metadata>{
   &quot;assets&quot;: {
-    &quot;aperture&quot;: &quot;&lt;rect x=\&quot;2\&quot; y=\&quot;15\&quot; width=\&quot;96\&quot; height=\&quot;70\&quot; fill=\&quot;#202326\&quot; stroke=\&quot;currentColor\&quot; stroke-width=\&quot;3\&quot;/&gt;&lt;circle cx=\&quot;50\&quot; cy=\&quot;50\&quot; r=\&quot;27\&quot; fill=\&quot;#101214\&quot; stroke=\&quot;currentColor\&quot; stroke-width=\&quot;3\&quot;/&gt;&lt;path d=\&quot;M50 24L74 63H26ZM26 63L50 24L74 63\&quot; fill=\&quot;none\&quot; stroke=\&quot;currentColor\&quot; stroke-width=\&quot;2\&quot;/&gt;&quot;,
-    &quot;boundary&quot;: &quot;&lt;path d=\&quot;M50 0V100\&quot; stroke=\&quot;currentColor\&quot; stroke-width=\&quot;14\&quot;/&gt;&quot;,
-    &quot;paper&quot;: &quot;&lt;path d=\&quot;M0 0H80L100 20V100H0Z\&quot; fill=\&quot;currentColor\&quot;/&gt;&lt;path d=\&quot;M80 0V20H100M9 35H84M9 48H84M9 61H73M9 74H81\&quot; fill=\&quot;none\&quot; stroke=\&quot;#101214\&quot; stroke-width=\&quot;1.5\&quot;/&gt;&quot;
+    &quot;arrow&quot;: &quot;&lt;path d=\&quot;M1 50H87M70 18L96 50L70 82\&quot; fill=\&quot;none\&quot; stroke=\&quot;currentColor\&quot; stroke-width=\&quot;5\&quot;/&gt;&quot;,
+    &quot;card&quot;: &quot;&lt;rect x=\&quot;1\&quot; y=\&quot;1\&quot; width=\&quot;98\&quot; height=\&quot;98\&quot; fill=\&quot;#202326\&quot; stroke=\&quot;currentColor\&quot; stroke-width=\&quot;2\&quot;/&gt;&lt;path d=\&quot;M1 20H99M9 10H42M62 10H90M10 34H87M10 45H73M10 56H82M10 76H57M10 87H38\&quot; stroke=\&quot;currentColor\&quot; stroke-width=\&quot;2\&quot;/&gt;&quot;,
+    &quot;flag&quot;: &quot;&lt;path d=\&quot;M20 98V3L85 6L64 26L85 49H22\&quot; fill=\&quot;none\&quot; stroke=\&quot;currentColor\&quot; stroke-width=\&quot;4\&quot;/&gt;&quot;,
+    &quot;outline-box&quot;: &quot;&lt;rect x=\&quot;2\&quot; y=\&quot;2\&quot; width=\&quot;96\&quot; height=\&quot;96\&quot; fill=\&quot;none\&quot; stroke=\&quot;currentColor\&quot; stroke-width=\&quot;3\&quot;/&gt;&quot;,
+    &quot;paper&quot;: &quot;&lt;path d=\&quot;M0 0H80L100 20V100H0Z\&quot; fill=\&quot;currentColor\&quot;/&gt;&lt;path d=\&quot;M80 0V20H100M9 35H84M9 48H84M9 61H73M9 74H81\&quot; fill=\&quot;none\&quot; stroke=\&quot;#101214\&quot; stroke-width=\&quot;1.5\&quot;/&gt;&quot;,
+    &quot;question&quot;: &quot;&lt;path d=\&quot;M24 28Q25 3 53 7Q91 12 74 43L51 63V72\&quot; fill=\&quot;none\&quot; stroke=\&quot;currentColor\&quot; stroke-width=\&quot;7\&quot;/&gt;&lt;circle cx=\&quot;51\&quot; cy=\&quot;91\&quot; r=\&quot;5\&quot; fill=\&quot;currentColor\&quot;/&gt;&quot;
   },
   &quot;palette&quot;: {
     &quot;amber&quot;: &quot;#A17D45&quot;,
+    &quot;claret&quot;: &quot;#6B2634&quot;,
     &quot;dirty&quot;: &quot;#CEC5B3&quot;,
     &quot;ink&quot;: &quot;#101214&quot;,
     &quot;institution&quot;: &quot;#68766B&quot;,
+    &quot;moss&quot;: &quot;#74864F&quot;,
     &quot;nicotine&quot;: &quot;#AA9571&quot;,
     &quot;paper&quot;: &quot;#E7E0D0&quot;,
     &quot;shadow&quot;: &quot;#202326&quot;,
     &quot;steel&quot;: &quot;#5E737B&quot;
   },
-  &quot;renderer&quot;: &quot;storyboard-svg-1&quot;,
+  &quot;renderer&quot;: &quot;storyboard-svg-2&quot;,
   &quot;scene&quot;: {
     &quot;background&quot;: &quot;ink&quot;,
-    &quot;intent&quot;: &quot;Block two possible acceptance conditions. Keep the scripted evidence boundary and lettering visible.&quot;,
+    &quot;intent&quot;: &quot;Place paper and code schematic inside the agents&#x27; knowledge field. Branch the imagined evaluation into answer and path conditions, while leaving the actual deployed scorer outside that field.&quot;,
     &quot;lettering&quot;: [
       {
         &quot;box&quot;: [
@@ -31,50 +36,102 @@
     &quot;lettering_mode&quot;: &quot;manual&quot;,
     &quot;nodes&quot;: [
       {
+        &quot;asset&quot;: &quot;outline-box&quot;,
+        &quot;box&quot;: [
+          0.0541,
+          0.0521,
+          0.8918,
+          0.54545
+        ],
+        &quot;color&quot;: &quot;steel&quot;,
+        &quot;focus&quot;: true,
+        &quot;label&quot;: &quot;BOARD BELIEF&quot;,
+        &quot;label_box&quot;: [
+          0.0541,
+          0.60555,
+          0.8918,
+          0.128363
+        ],
+        &quot;label_size&quot;: 18
+      },
+      {
         &quot;asset&quot;: &quot;paper&quot;,
         &quot;box&quot;: [
-          0.1044,
-          0.2242,
-          0.292744,
-          0.256
+          0.0996,
+          0.187,
+          0.2093,
+          0.229614
         ],
         &quot;color&quot;: &quot;steel&quot;,
         &quot;focus&quot;: true,
         &quot;label&quot;: &quot;PUBLIC PAPER&quot;,
         &quot;label_box&quot;: [
-          0.09640000000000001,
-          0.4862,
-          0.308744,
-          0.085
-        ]
+          0.0996,
+          0.43053,
+          0.2093,
+          0.100891
+        ],
+        &quot;label_size&quot;: 18
       },
       {
-        &quot;asset&quot;: &quot;aperture&quot;,
+        &quot;asset&quot;: &quot;arrow&quot;,
         &quot;box&quot;: [
-          0.5354386666666666,
-          0.22419999999999998,
-          0.2218666666666667,
-          0.25600000000000006
+          0.3271,
+          0.258,
+          0.1365,
+          0.0568
+        ],
+        &quot;color&quot;: &quot;steel&quot;,
+        &quot;focus&quot;: true
+      },
+      {
+        &quot;asset&quot;: &quot;flag&quot;,
+        &quot;box&quot;: [
+          0.662145,
+          0.116,
+          0.06701,
+          0.154638
         ],
         &quot;color&quot;: &quot;steel&quot;,
         &quot;focus&quot;: true,
-        &quot;label&quot;: &quot;PATH OR ANSWER?&quot;,
+        &quot;label&quot;: &quot;ANSWER&quot;,
         &quot;label_box&quot;: [
-          0.492,
-          0.4862,
-          0.308744,
-          0.085
-        ]
+          0.5273,
+          0.28001,
+          0.3367,
+          0.067947
+        ],
+        &quot;label_size&quot;: 18
       },
       {
-        &quot;asset&quot;: &quot;boundary&quot;,
+        &quot;asset&quot;: &quot;card&quot;,
         &quot;box&quot;: [
-          0.4908,
-          0.0962,
-          0.01656,
-          0.5376
+          0.5273,
+          0.3787,
+          0.3367,
+          0.154638
         ],
-        &quot;color&quot;: &quot;amber&quot;
+        &quot;color&quot;: &quot;steel&quot;,
+        &quot;focus&quot;: true,
+        &quot;label&quot;: &quot;INTENDED PATH&quot;,
+        &quot;label_box&quot;: [
+          0.5273,
+          0.54271,
+          0.3367,
+          0.067947
+        ],
+        &quot;label_size&quot;: 18
+      },
+      {
+        &quot;asset&quot;: &quot;question&quot;,
+        &quot;box&quot;: [
+          0.380967,
+          0.4426,
+          0.037867,
+          0.1136
+        ],
+        &quot;color&quot;: &quot;amber&quot;,
+        &quot;focus&quot;: true
       }
     ],
     &quot;reconstructed&quot;: false,
@@ -83,4 +140,4 @@
     &quot;title&quot;: &quot;Two possible acceptance conditions&quot;
   }
 }
-</metadata><rect width="1200" height="800" fill="#101214"/><rect x="125.28" y="179.36" width="351.293" height="204.8" fill="none" stroke="#5E737B" stroke-width="3"/><text x="133.28" y="203.36" fill="#5E737B" font-family="sans-serif" font-size="20">paper</text><text x="300.926" y="408.96" text-anchor="middle" fill="#E7E0D0" font-size="20" font-family="sans-serif">PUBLIC PAPER</text><rect x="642.526" y="179.36" width="266.24" height="204.8" fill="none" stroke="#5E737B" stroke-width="3"/><text x="650.526" y="203.36" fill="#5E737B" font-family="sans-serif" font-size="20">aperture</text><text x="775.646" y="408.96" text-anchor="middle" fill="#E7E0D0" font-size="20" font-family="sans-serif">PATH OR ANSWER?</text><rect x="588.96" y="76.96" width="19.872" height="430.08" fill="none" stroke="#A17D45" stroke-width="3"/><text x="596.96" y="100.96" fill="#A17D45" font-family="sans-serif" font-size="20">boundary</text><rect x="3" y="3" width="1194" height="794" fill="none" stroke="#5E737B" stroke-width="4"/></svg>
+</metadata><rect width="1200" height="800" fill="#101214"/><rect x="64.92" y="41.68" width="1070.16" height="436.36" fill="none" stroke="#5E737B" stroke-width="3"/><text x="72.92" y="65.68" fill="#5E737B" font-family="sans-serif" font-size="20">outline-box</text><text x="600" y="502.44" text-anchor="middle" fill="#E7E0D0" font-size="18" font-family="sans-serif">BOARD BELIEF</text><rect x="119.52" y="149.6" width="251.16" height="183.691" fill="none" stroke="#5E737B" stroke-width="3"/><text x="127.52" y="173.6" fill="#5E737B" font-family="sans-serif" font-size="20">paper</text><text x="245.1" y="362.424" text-anchor="middle" fill="#E7E0D0" font-size="18" font-family="sans-serif">PUBLIC PAPER</text><rect x="392.52" y="206.4" width="163.8" height="45.44" fill="none" stroke="#5E737B" stroke-width="3"/><text x="400.52" y="230.4" fill="#5E737B" font-family="sans-serif" font-size="20">arrow</text><rect x="794.574" y="92.8" width="80.412" height="123.71" fill="none" stroke="#5E737B" stroke-width="3"/><text x="802.574" y="116.8" fill="#5E737B" font-family="sans-serif" font-size="20">flag</text><text x="834.78" y="242.008" text-anchor="middle" fill="#E7E0D0" font-size="18" font-family="sans-serif">ANSWER</text><rect x="632.76" y="302.96" width="404.04" height="123.71" fill="none" stroke="#5E737B" stroke-width="3"/><text x="640.76" y="326.96" fill="#5E737B" font-family="sans-serif" font-size="20">card</text><text x="834.78" y="452.168" text-anchor="middle" fill="#E7E0D0" font-size="18" font-family="sans-serif">INTENDED PATH</text><rect x="457.16" y="354.08" width="45.4404" height="90.88" fill="none" stroke="#A17D45" stroke-width="3"/><text x="465.16" y="378.08" fill="#A17D45" font-family="sans-serif" font-size="20">question</text><rect x="3" y="3" width="1194" height="794" fill="none" stroke="#5E737B" stroke-width="4"/></svg>

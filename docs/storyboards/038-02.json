@@ -1,6 +1,6 @@
 {
   "background": "ink",
-  "intent": "Block tools lie along routes to separate goals. Keep the scripted evidence boundary and lettering visible.",
+  "intent": "Place common resources between several distinct origins and their separate goals. Arrows continue beyond the resource boxes so useful means cannot read as final objectives.",
   "lettering": [
     {
       "box": [
@@ -14,76 +14,140 @@
   "lettering_mode": "manual",
   "nodes": [
     {
+      "asset": "task",
+      "box": [
+        0.0541,
+        0.0805,
+        0.2002,
+        0.16401
+      ],
+      "color": "steel",
+      "focus": true,
+      "label": "GOAL A",
+      "label_box": [
+        0.0541,
+        0.25445,
+        0.2002,
+        0.072065
+      ],
+      "label_size": 18
+    },
+    {
+      "asset": "task",
+      "box": [
+        0.7366,
+        0.0805,
+        0.2002,
+        0.16401
+      ],
+      "color": "steel",
+      "focus": true,
+      "label": "GOAL B",
+      "label_box": [
+        0.7366,
+        0.25445,
+        0.2002,
+        0.072065
+      ],
+      "label_size": 18
+    },
+    {
       "asset": "folder",
       "box": [
-        0.1044,
-        0.2242,
-        0.146372,
-        0.256
+        0.0814,
+        0.4568,
+        0.182,
+        0.16401
       ],
       "color": "steel",
       "focus": true,
       "label": "SHARED STATE",
       "label_box": [
-        0.09640000000000001,
-        0.4862,
-        0.16237200000000002,
-        0.085
-      ]
+        0.0814,
+        0.63075,
+        0.182,
+        0.072065
+      ],
+      "label_size": 18
     },
     {
       "asset": "card",
       "box": [
-        0.3022,
-        0.2242,
-        0.146372,
-        0.256
+        0.2998,
+        0.4568,
+        0.182,
+        0.16401
       ],
       "color": "steel",
       "focus": true,
       "label": "PEER KNOWLEDGE",
       "label_box": [
-        0.2942,
-        0.4862,
-        0.16237200000000002,
-        0.085
-      ]
+        0.2998,
+        0.63075,
+        0.182,
+        0.072065
+      ],
+      "label_size": 18
     },
     {
       "asset": "clock",
       "box": [
-        0.5,
-        0.242421,
-        0.146372,
-        0.219558
+        0.55453,
+        0.4568,
+        0.10934,
+        0.16401
       ],
       "color": "steel",
       "focus": true,
       "label": "TIME",
       "label_box": [
-        0.492,
-        0.4862,
-        0.16237200000000002,
-        0.085
-      ]
+        0.5182,
+        0.63075,
+        0.182,
+        0.072065
+      ],
+      "label_size": 18
     },
     {
       "asset": "gate",
       "box": [
-        0.6978,
-        0.2242,
-        0.146372,
-        0.256
+        0.7366,
+        0.4568,
+        0.182,
+        0.16401
       ],
       "color": "steel",
       "focus": true,
       "label": "ACCESS",
       "label_box": [
-        0.6898,
-        0.4862,
-        0.16237200000000002,
-        0.085
-      ]
+        0.7366,
+        0.63075,
+        0.182,
+        0.072065
+      ],
+      "label_size": 18
+    },
+    {
+      "asset": "arrow-up",
+      "box": [
+        0.2907,
+        0.2154,
+        0.1001,
+        0.1633
+      ],
+      "color": "steel",
+      "focus": true
+    },
+    {
+      "asset": "arrow-up",
+      "box": [
+        0.591,
+        0.2154,
+        0.1001,
+        0.1633
+      ],
+      "color": "steel",
+      "focus": true
     }
   ],
   "reconstructed": false,

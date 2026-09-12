@@ -1,6 +1,6 @@
 {
   "background": "ink",
-  "intent": "Block human response freezes both tracks as evidence. Keep the scripted evidence boundary and lettering visible.",
+  "intent": "Freeze both tracks as evidence when response begins stopping runs. Human intervention ends active activity here without retrospectively validating either record.",
   "lettering": [
     {
       "box": [
@@ -16,56 +16,59 @@
     {
       "asset": "clock",
       "box": [
-        0.11664816666666666,
-        0.297296,
-        0.1706666666666667,
-        0.22528000000000006
+        0.110803,
+        0.300108,
+        0.153527,
+        0.230291
       ],
       "color": "steel",
       "focus": true,
       "label": "17:37",
       "label_box": [
-        0.09640000000000001,
-        0.527856,
-        0.211163,
-        0.0748
-      ]
+        0.06775,
+        0.544356,
+        0.239633,
+        0.101189
+      ],
+      "label_size": 18
     },
     {
       "asset": "cross",
       "box": [
-        0.38038116666666666,
-        0.297296,
-        0.1706666666666667,
-        0.22528000000000006
+        0.414136,
+        0.300108,
+        0.153527,
+        0.230291
       ],
       "color": "steel",
       "focus": true,
       "label": "RUNS STOP",
       "label_box": [
-        0.360133,
-        0.527856,
-        0.211163,
-        0.0748
-      ]
+        0.371083,
+        0.544356,
+        0.239633,
+        0.101189
+      ],
+      "label_size": 18
     },
     {
       "asset": "folder",
       "box": [
-        0.631867,
-        0.297296,
-        0.195163,
-        0.22528
+        0.674417,
+        0.300108,
+        0.239633,
+        0.230291
       ],
       "color": "steel",
       "focus": true,
       "label": "EVIDENCE",
       "label_box": [
-        0.623867,
-        0.527856,
-        0.211163,
-        0.0748
-      ]
+        0.674417,
+        0.544356,
+        0.239633,
+        0.101189
+      ],
+      "label_size": 18
     },
     {
       "asset": "line",

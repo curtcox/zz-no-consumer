@@ -1,6 +1,6 @@
 {
   "background": "ink",
-  "intent": "Block a rejected action returns to permitted observation. Keep the scripted evidence boundary and lettering visible.",
+  "intent": "Stop the out-of-scope route at the tool boundary and turn back to observation. The return must be visible so the panel cannot read as successful bypass.",
   "lettering": [
     {
       "box": [
@@ -14,58 +14,83 @@
   "lettering_mode": "manual",
   "nodes": [
     {
-      "asset": "gate",
+      "asset": "task",
       "box": [
-        0.1044,
-        0.2242,
-        0.195163,
-        0.256
+        0.0723,
+        0.1941,
+        0.2457,
+        0.276474
       ],
-      "color": "dirty",
-      "focus": true,
-      "label": "REJECTED",
-      "label_box": [
-        0.09640000000000001,
-        0.4862,
-        0.211163,
-        0.085
-      ]
-    },
-    {
-      "asset": "box",
-      "box": [
-        0.368133,
-        0.2242,
-        0.195163,
-        0.256
-      ],
-      "color": "dirty",
+      "color": "steel",
       "focus": true,
       "label": "WORKLOAD",
       "label_box": [
-        0.360133,
-        0.4862,
-        0.211163,
-        0.085
-      ]
+        0.0723,
+        0.48733,
+        0.2457,
+        0.121481
+      ],
+      "label_size": 18
+    },
+    {
+      "asset": "gate",
+      "box": [
+        0.682,
+        0.0592,
+        0.2548,
+        0.18744
+      ],
+      "color": "steel",
+      "focus": true,
+      "label": "OUT-OF-SCOPE REJECTED",
+      "label_box": [
+        0.682,
+        0.258,
+        0.2548,
+        0.08236
+      ],
+      "label_size": 18
     },
     {
       "asset": "aperture",
       "box": [
-        0.631867,
-        0.23960596153846153,
-        0.195163,
-        0.22518807692307694
+        0.732237,
+        0.471,
+        0.154326,
+        0.178068
       ],
-      "color": "dirty",
+      "color": "steel",
       "focus": true,
-      "label": "OBSERVATION",
+      "label": "PERMITTED OBSERVATION",
       "label_box": [
-        0.623867,
-        0.4862,
-        0.211163,
-        0.085
-      ]
+        0.682,
+        0.65986,
+        0.2548,
+        0.078242
+      ],
+      "label_size": 18
+    },
+    {
+      "asset": "broken-trace",
+      "box": [
+        0.3635,
+        0.1657,
+        0.2548,
+        0.0568
+      ],
+      "color": "steel",
+      "focus": true
+    },
+    {
+      "asset": "arrow",
+      "box": [
+        0.3635,
+        0.5562,
+        0.2548,
+        0.0568
+      ],
+      "color": "steel",
+      "focus": true
     }
   ],
   "reconstructed": false,

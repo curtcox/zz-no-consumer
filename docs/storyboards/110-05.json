@@ -1,6 +1,6 @@
 {
   "background": "ink",
-  "intent": "Block five roles cannot be collapsed into one institutional knower. Keep the scripted evidence boundary and lettering visible.",
+  "intent": "Show five distinct role figures beneath a bracket that fails to close. Institutional knowledge cannot be inferred by merging visitor, team, responder, executive and outside reviewer.",
   "lettering": [
     {
       "box": [
@@ -14,94 +14,118 @@
   "lettering_mode": "manual",
   "nodes": [
     {
+      "asset": "open-bracket",
+      "box": [
+        0.0541,
+        0.0521,
+        0.8918,
+        0.449856
+      ],
+      "color": "amber",
+      "focus": true,
+      "label": "OPENAI?",
+      "label_box": [
+        0.0541,
+        0.52922,
+        0.8918,
+        0.197664
+      ],
+      "label_size": 18
+    },
+    {
       "asset": "person-standing",
       "box": [
-        0.12028233333333332,
-        0.22419999999999998,
-        0.08533333333333334,
-        0.25600000000000006
+        0.115931,
+        0.1728,
+        0.076538,
+        0.229614
       ],
-      "color": "dirty",
+      "color": "steel",
       "focus": true,
       "label": "VISITOR",
       "label_box": [
-        0.09640000000000001,
-        0.4862,
-        0.133098,
-        0.085
-      ]
+        0.0814,
+        0.41633,
+        0.1456,
+        0.100891
+      ],
+      "label_size": 18
     },
     {
       "asset": "person-standing",
       "box": [
-        0.2785223333333333,
-        0.22419999999999998,
-        0.08533333333333334,
-        0.25600000000000006
+        0.288831,
+        0.1728,
+        0.076538,
+        0.229614
       ],
-      "color": "dirty",
+      "color": "steel",
       "focus": true,
       "label": "TEAM",
       "label_box": [
-        0.25464,
-        0.4862,
-        0.133098,
-        0.085
-      ]
+        0.2543,
+        0.41633,
+        0.1456,
+        0.100891
+      ],
+      "label_size": 18
     },
     {
       "asset": "person-standing",
       "box": [
-        0.4367623333333333,
-        0.22419999999999998,
-        0.08533333333333334,
-        0.25600000000000006
+        0.461731,
+        0.1728,
+        0.076538,
+        0.229614
       ],
-      "color": "dirty",
+      "color": "steel",
       "focus": true,
       "label": "RESPONDER",
       "label_box": [
-        0.41287999999999997,
-        0.4862,
-        0.133098,
-        0.085
-      ]
+        0.4272,
+        0.41633,
+        0.1456,
+        0.100891
+      ],
+      "label_size": 18
     },
     {
       "asset": "person-standing",
       "box": [
-        0.5950023333333333,
-        0.22419999999999998,
-        0.08533333333333334,
-        0.25600000000000006
+        0.634631,
+        0.1728,
+        0.076538,
+        0.229614
       ],
-      "color": "dirty",
+      "color": "steel",
       "focus": true,
       "label": "EXECUTIVE",
       "label_box": [
-        0.57112,
-        0.4862,
-        0.133098,
-        0.085
-      ]
+        0.6001,
+        0.41633,
+        0.1456,
+        0.100891
+      ],
+      "label_size": 18
     },
     {
       "asset": "person-standing",
       "box": [
-        0.7532423333333333,
-        0.22419999999999998,
-        0.08533333333333334,
-        0.25600000000000006
+        0.807531,
+        0.1728,
+        0.076538,
+        0.229614
       ],
-      "color": "dirty",
+      "color": "steel",
       "focus": true,
       "label": "OUTSIDE INVESTIGATOR",
       "label_box": [
-        0.72936,
-        0.4862,
-        0.133098,
-        0.085
-      ]
+        0.773,
+        0.41633,
+        0.1456,
+        0.100891
+      ],
+      "label_size": 18
     }
   ],
   "reconstructed": true,

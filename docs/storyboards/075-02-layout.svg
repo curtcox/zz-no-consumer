@@ -1,22 +1,25 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="800" viewBox="0 0 1200 800"><title>The namespace dump contains a smaller zz band</title><metadata>{
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="800" viewBox="0 0 1200 800"><title>The namespace dump contains a smaller zz band</title><desc>Make the zz band narrow within the much larger namespace field. Distinct nested regions prevent the highlighted subset from being mistaken for the whole dump.</desc><metadata>{
   &quot;assets&quot;: {
     &quot;line&quot;: &quot;&lt;path d=\&quot;M0 50H100\&quot; stroke=\&quot;currentColor\&quot; stroke-width=\&quot;2\&quot; vector-effect=\&quot;non-scaling-stroke\&quot;/&gt;&quot;,
+    &quot;outline-box&quot;: &quot;&lt;rect x=\&quot;2\&quot; y=\&quot;2\&quot; width=\&quot;96\&quot; height=\&quot;96\&quot; fill=\&quot;none\&quot; stroke=\&quot;currentColor\&quot; stroke-width=\&quot;3\&quot;/&gt;&quot;,
     &quot;scatter&quot;: &quot;&lt;path d=\&quot;M5 8h3 M12 8h3 M19 8h3 M26 8h3 M33 8h3 M40 8h3 M47 8h3 M54 8h3 M61 8h3 M68 8h3 M75 8h3 M82 8h3 M89 8h3 M5 17h3 M12 17h3 M19 17h3 M26 17h3 M33 17h3 M40 17h3 M47 17h3 M54 17h3 M61 17h3 M68 17h3 M75 17h3 M82 17h3 M89 17h3 M5 26h3 M12 26h3 M19 26h3 M26 26h3 M33 26h3 M40 26h3 M47 26h3 M54 26h3 M61 26h3 M68 26h3 M75 26h3 M82 26h3 M89 26h3 M5 35h3 M12 35h3 M19 35h3 M26 35h3 M33 35h3 M40 35h3 M47 35h3 M54 35h3 M61 35h3 M68 35h3 M75 35h3 M82 35h3 M89 35h3 M5 44h3 M12 44h3 M19 44h3 M26 44h3 M33 44h3 M40 44h3 M47 44h3 M54 44h3 M61 44h3 M68 44h3 M75 44h3 M82 44h3 M89 44h3 M5 53h3 M12 53h3 M19 53h3 M26 53h3 M33 53h3 M40 53h3 M47 53h3 M54 53h3 M61 53h3 M68 53h3 M75 53h3 M82 53h3 M89 53h3 M5 62h3 M12 62h3 M19 62h3 M26 62h3 M33 62h3 M40 62h3 M47 62h3 M54 62h3 M61 62h3 M68 62h3 M75 62h3 M82 62h3 M89 62h3 M5 71h3 M12 71h3 M19 71h3 M26 71h3 M33 71h3 M40 71h3 M47 71h3 M54 71h3 M61 71h3 M68 71h3 M75 71h3 M82 71h3 M89 71h3 M5 80h3 M12 80h3 M19 80h3 M26 80h3 M33 80h3 M40 80h3 M47 80h3 M54 80h3 M61 80h3 M68 80h3 M75 80h3 M82 80h3 M89 80h3 M5 89h3 M12 89h3 M19 89h3 M26 89h3 M33 89h3 M40 89h3 M47 89h3 M54 89h3 M61 89h3 M68 89h3 M75 89h3 M82 89h3 M89 89h3\&quot; stroke=\&quot;currentColor\&quot; stroke-width=\&quot;2\&quot;/&gt;&quot;
   },
   &quot;palette&quot;: {
     &quot;amber&quot;: &quot;#A17D45&quot;,
+    &quot;claret&quot;: &quot;#6B2634&quot;,
     &quot;dirty&quot;: &quot;#CEC5B3&quot;,
     &quot;ink&quot;: &quot;#101214&quot;,
     &quot;institution&quot;: &quot;#68766B&quot;,
+    &quot;moss&quot;: &quot;#74864F&quot;,
     &quot;nicotine&quot;: &quot;#AA9571&quot;,
     &quot;paper&quot;: &quot;#E7E0D0&quot;,
     &quot;shadow&quot;: &quot;#202326&quot;,
     &quot;steel&quot;: &quot;#5E737B&quot;
   },
-  &quot;renderer&quot;: &quot;storyboard-svg-1&quot;,
+  &quot;renderer&quot;: &quot;storyboard-svg-2&quot;,
   &quot;scene&quot;: {
     &quot;background&quot;: &quot;ink&quot;,
-    &quot;intent&quot;: &quot;Block the namespace dump contains a smaller zz band. Keep the scripted evidence boundary and lettering visible.&quot;,
+    &quot;intent&quot;: &quot;Make the zz band narrow within the much larger namespace field. Distinct nested regions prevent the highlighted subset from being mistaken for the whole dump.&quot;,
     &quot;lettering&quot;: [
       {
         &quot;box&quot;: [
@@ -32,38 +35,43 @@
       {
         &quot;asset&quot;: &quot;scatter&quot;,
         &quot;box&quot;: [
-          0.2148,
-          0.1282,
-          0.5336,
-          0.3968
+          0.0541,
+          0.0521,
+          0.8918,
+          0.454542
         ],
         &quot;color&quot;: &quot;steel&quot;,
         &quot;focus&quot;: true,
-        &quot;label&quot;: &quot;NAMESPACE DUMP&quot;,
+        &quot;label&quot;: &quot;MAIN NAMESPACE: ABOUT 20,000,000 ENTRIES&quot;,
         &quot;label_box&quot;: [
-          0.20679999999999998,
-          0.531,
-          0.5496,
-          0.030799999999999945
-        ]
+          0.0541,
+          0.53419,
+          0.8918,
+          0.199723
+        ],
+        &quot;label_size&quot;: 18
+      },
+      {
+        &quot;asset&quot;: &quot;outline-box&quot;,
+        &quot;box&quot;: [
+          0.1724,
+          0.3503,
+          0.6552,
+          0.0852
+        ],
+        &quot;color&quot;: &quot;moss&quot;,
+        &quot;focus&quot;: true
       },
       {
         &quot;asset&quot;: &quot;line&quot;,
         &quot;box&quot;: [
-          0.0952,
-          0.5698,
-          0.644,
-          0.0576
+          0.1815,
+          0.3645,
+          0.637,
+          0.044517
         ],
-        &quot;color&quot;: &quot;institution&quot;,
-        &quot;focus&quot;: true,
-        &quot;label&quot;: &quot;zz BAND&quot;,
-        &quot;label_box&quot;: [
-          0.0872,
-          0.6334,
-          0.66,
-          0.085
-        ]
+        &quot;color&quot;: &quot;moss&quot;,
+        &quot;focus&quot;: true
       }
     ],
     &quot;reconstructed&quot;: false,
@@ -72,4 +80,4 @@
     &quot;title&quot;: &quot;The namespace dump contains a smaller zz band&quot;
   }
 }
-</metadata><rect width="1200" height="800" fill="#101214"/><rect x="257.76" y="102.56" width="640.32" height="317.44" fill="none" stroke="#5E737B" stroke-width="3"/><text x="265.76" y="126.56" fill="#5E737B" font-family="sans-serif" font-size="20">scatter</text><text x="577.92" y="442.8" text-anchor="middle" fill="#E7E0D0" font-size="18" font-family="sans-serif">NAMESPACE DUMP</text><rect x="114.24" y="455.84" width="772.8" height="46.08" fill="none" stroke="#68766B" stroke-width="3"/><text x="122.24" y="479.84" fill="#68766B" font-family="sans-serif" font-size="20">line</text><text x="500.64" y="526.72" text-anchor="middle" fill="#E7E0D0" font-size="20" font-family="sans-serif">zz BAND</text><rect x="3" y="3" width="1194" height="794" fill="none" stroke="#5E737B" stroke-width="4"/></svg>
+</metadata><rect width="1200" height="800" fill="#101214"/><rect x="64.92" y="41.68" width="1070.16" height="363.634" fill="none" stroke="#5E737B" stroke-width="3"/><text x="72.92" y="65.68" fill="#5E737B" font-family="sans-serif" font-size="20">scatter</text><text x="600" y="445.352" text-anchor="middle" fill="#E7E0D0" font-size="18" font-family="sans-serif">MAIN NAMESPACE: ABOUT 20,000,000 ENTRIES</text><rect x="206.88" y="280.24" width="786.24" height="68.16" fill="none" stroke="#74864F" stroke-width="3"/><text x="214.88" y="304.24" fill="#74864F" font-family="sans-serif" font-size="20">outline-box</text><rect x="217.8" y="291.6" width="764.4" height="35.6136" fill="none" stroke="#74864F" stroke-width="3"/><text x="225.8" y="315.6" fill="#74864F" font-family="sans-serif" font-size="20">line</text><rect x="3" y="3" width="1194" height="794" fill="none" stroke="#5E737B" stroke-width="4"/></svg>

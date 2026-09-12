@@ -1,6 +1,6 @@
 {
   "background": "ink",
-  "intent": "Block the hand stops above the contested inference. Keep the scripted evidence boundary and lettering visible.",
+  "intent": "Freeze the hand over the keyboard and retain the original recurrence circle. The newly drawn through-wipe line belongs to the contested explanatory sketch, never to a confirmed cache-transfer diagram.",
   "lettering": [
     {
       "box": [
@@ -16,10 +16,10 @@
     {
       "asset": "hand",
       "box": [
-        0.1044,
-        0.2242,
-        0.195163,
-        0.256
+        0.144712,
+        0.2012,
+        0.237377,
+        0.4189
       ],
       "color": "dirty",
       "focus": true
@@ -27,38 +27,21 @@
     {
       "asset": "paper",
       "box": [
-        0.368133,
-        0.2242,
-        0.195163,
-        0.256
+        0.52275,
+        0.2012,
+        0.3913,
+        0.276474
       ],
       "color": "steel",
       "focus": true,
       "label": "RECURRENCE",
       "label_box": [
-        0.360133,
-        0.4862,
-        0.211163,
-        0.085
-      ]
-    },
-    {
-      "asset": "line",
-      "box": [
-        0.631867,
-        0.2242,
-        0.195163,
-        0.256
+        0.52275,
+        0.49443,
+        0.3913,
+        0.121481
       ],
-      "color": "amber",
-      "focus": true,
-      "label": "THROUGH THE WIPE",
-      "label_box": [
-        0.623867,
-        0.4862,
-        0.211163,
-        0.085
-      ]
+      "label_size": 18
     }
   ],
   "reconstructed": false,

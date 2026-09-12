@@ -1,6 +1,6 @@
 {
   "background": "ink",
-  "intent": "Block a tentative inference is drawn on the pad. Keep the scripted evidence boundary and lettering visible.",
+  "intent": "Circle the recurring structure but use an interrupted connector toward the theory label. The visible inferential status must survive in grayscale as well as in caption wording.",
   "lettering": [
     {
       "box": [
@@ -16,49 +16,40 @@
     {
       "asset": "paper",
       "box": [
-        0.1044,
-        0.2242,
-        0.195163,
-        0.256
+        0.06775,
+        0.2012,
+        0.3913,
+        0.276474
       ],
       "color": "steel",
       "focus": true,
       "label": "RECURRENCE",
       "label_box": [
-        0.09640000000000001,
-        0.4862,
-        0.211163,
-        0.085
-      ]
-    },
-    {
-      "asset": "dotted-line",
-      "box": [
-        0.368133,
-        0.2242,
-        0.195163,
-        0.256
+        0.06775,
+        0.49443,
+        0.3913,
+        0.121481
       ],
-      "color": "amber",
-      "focus": true
+      "label_size": 18
     },
     {
       "asset": "card",
       "box": [
-        0.631867,
-        0.2242,
-        0.195163,
-        0.256
+        0.52275,
+        0.2012,
+        0.3913,
+        0.276474
       ],
       "color": "steel",
       "focus": true,
       "label": "CONVERGENCE",
       "label_box": [
-        0.623867,
-        0.4862,
-        0.211163,
-        0.085
-      ]
+        0.52275,
+        0.49443,
+        0.3913,
+        0.121481
+      ],
+      "label_size": 18
     }
   ],
   "reconstructed": false,

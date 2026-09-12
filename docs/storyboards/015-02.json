@@ -1,6 +1,6 @@
 {
   "background": "ink",
-  "intent": "Block three ideas become story thumbnails. Keep the scripted evidence boundary and lettering visible.",
+  "intent": "Pair each idea with a different small causal scene: unresolved objective, separate goals sharing resources, institutions continuing. The thumbnails must show a change or pressure rather than three interchangeable icons.",
   "lettering": [
     {
       "box": [
@@ -16,56 +16,59 @@
     {
       "asset": "flag",
       "box": [
-        0.1044,
-        0.2242,
-        0.195163,
-        0.256
+        0.127664,
+        0.2012,
+        0.119805,
+        0.276474
       ],
       "color": "steel",
       "focus": true,
       "label": "OBJECTIVE",
       "label_box": [
-        0.09640000000000001,
-        0.4862,
-        0.211163,
-        0.085
-      ]
+        0.06775,
+        0.49443,
+        0.239633,
+        0.121481
+      ],
+      "label_size": 18
     },
     {
       "asset": "folder",
       "box": [
-        0.368133,
-        0.2242,
-        0.195163,
-        0.256
+        0.371083,
+        0.2012,
+        0.239633,
+        0.276474
       ],
       "color": "steel",
       "focus": true,
       "label": "COMMON RESOURCES",
       "label_box": [
-        0.360133,
-        0.4862,
-        0.211163,
-        0.085
-      ]
+        0.371083,
+        0.49443,
+        0.239633,
+        0.121481
+      ],
+      "label_size": 18
     },
     {
       "asset": "building",
       "box": [
-        0.631867,
-        0.2242,
-        0.195163,
-        0.256
+        0.674417,
+        0.2012,
+        0.239633,
+        0.276474
       ],
       "color": "steel",
       "focus": true,
       "label": "INSTITUTIONS",
       "label_box": [
-        0.623867,
-        0.4862,
-        0.211163,
-        0.085
-      ]
+        0.674417,
+        0.49443,
+        0.239633,
+        0.121481
+      ],
+      "label_size": 18
     }
   ],
   "reconstructed": true,

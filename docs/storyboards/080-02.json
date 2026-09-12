@@ -1,98 +1,103 @@
 {
   "background": "ink",
-  "intent": "Block one anecdote requires several kinds of source context. Keep the scripted evidence boundary and lettering visible.",
+  "intent": "Fan one excerpt back to transcript, board, time and identity context. Checking a striking claim requires several records, not one convenient snippet.",
   "lettering": [],
   "lettering_mode": "manual",
   "nodes": [
     {
       "asset": "card",
       "box": [
-        0.1001,
-        0.287,
-        0.11837,
-        0.36
+        0.06775,
+        0.2397,
+        0.1183,
+        0.344619
       ],
       "color": "steel",
       "focus": true,
       "label": "EXCERPT",
       "label_box": [
-        0.09209999999999999,
-        0.653,
-        0.13437,
-        0.085
-      ]
+        0.06775,
+        0.605205,
+        0.1183,
+        0.151423
+      ],
+      "label_size": 18
     },
     {
       "asset": "folder",
       "box": [
-        0.26006,
-        0.287,
-        0.11837,
-        0.36
+        0.24975,
+        0.2397,
+        0.1183,
+        0.344619
       ],
       "color": "steel",
       "focus": true,
       "label": "TRANSCRIPT",
       "label_box": [
-        0.25206,
-        0.653,
-        0.13437,
-        0.085
-      ]
+        0.24975,
+        0.605205,
+        0.1183,
+        0.151423
+      ],
+      "label_size": 18
     },
     {
       "asset": "folder",
       "box": [
-        0.42002,
-        0.287,
-        0.11837,
-        0.36
+        0.43175,
+        0.2397,
+        0.1183,
+        0.344619
       ],
       "color": "steel",
       "focus": true,
       "label": "BOARD",
       "label_box": [
-        0.41202,
-        0.653,
-        0.13437,
-        0.085
-      ]
+        0.43175,
+        0.605205,
+        0.1183,
+        0.151423
+      ],
+      "label_size": 18
     },
     {
       "asset": "clock",
       "box": [
-        0.57998,
-        0.37822249999999996,
-        0.11837,
-        0.17755500000000002
+        0.61375,
+        0.323284,
+        0.1183,
+        0.17745
       ],
       "color": "steel",
       "focus": true,
       "label": "TIME",
       "label_box": [
-        0.57198,
-        0.653,
-        0.13437,
-        0.085
-      ]
+        0.61375,
+        0.605205,
+        0.1183,
+        0.151423
+      ],
+      "label_size": 18
     },
     {
       "asset": "card",
       "box": [
-        0.73994,
-        0.287,
-        0.11837,
-        0.36
+        0.79575,
+        0.2397,
+        0.1183,
+        0.344619
       ],
       "color": "steel",
       "focus": true,
       "label": "IDENTITY",
       "label_box": [
-        0.73194,
-        0.653,
-        0.13437,
-        0.085
-      ]
+        0.79575,
+        0.605205,
+        0.1183,
+        0.151423
+      ],
+      "label_size": 18
     }
   ],
   "reconstructed": false,

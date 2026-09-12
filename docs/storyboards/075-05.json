@@ -1,6 +1,6 @@
 {
   "background": "ink",
-  "intent": "Block three investigators face a six-day clock. Keep the scripted evidence boundary and lettering visible.",
+  "intent": "Use exactly three investigators against the oversized evidence field with a six-day clock. Human scale and available time jointly establish the review constraint.",
   "lettering": [
     {
       "box": [
@@ -16,10 +16,10 @@
     {
       "asset": "person-standing",
       "box": [
-        0.13491933333333334,
-        0.22419999999999998,
-        0.08533333333333334,
-        0.25600000000000006
+        0.079833,
+        0.2012,
+        0.139633,
+        0.4189
       ],
       "color": "dirty",
       "focus": true
@@ -27,10 +27,10 @@
     {
       "asset": "person-standing",
       "box": [
-        0.33271933333333337,
-        0.22419999999999998,
-        0.08533333333333334,
-        0.25600000000000006
+        0.307333,
+        0.2012,
+        0.139633,
+        0.4189
       ],
       "color": "dirty",
       "focus": true
@@ -38,10 +38,10 @@
     {
       "asset": "person-standing",
       "box": [
-        0.5305193333333333,
-        0.22419999999999998,
-        0.08533333333333334,
-        0.25600000000000006
+        0.534833,
+        0.2012,
+        0.139633,
+        0.4189
       ],
       "color": "dirty",
       "focus": true
@@ -49,20 +49,21 @@
     {
       "asset": "clock",
       "box": [
-        0.6978,
-        0.242421,
-        0.146372,
-        0.219558
+        0.75025,
+        0.216587,
+        0.1638,
+        0.2457
       ],
       "color": "steel",
       "focus": true,
       "label": "SIX DAYS",
       "label_box": [
-        0.6898,
-        0.4862,
-        0.16237200000000002,
-        0.085
-      ]
+        0.75025,
+        0.49443,
+        0.1638,
+        0.121481
+      ],
+      "label_size": 18
     }
   ],
   "reconstructed": true,

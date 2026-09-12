@@ -1,4 +1,4 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="800" viewBox="0 0 1200 800"><title>Return to April</title><metadata>{
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="800" viewBox="0 0 1200 800"><title>Return to April</title><desc>Let the return key gesture end at a firm date divider. Beyond it, restore the earlier steel-only state; the date must carry the rewind before any recurring cache motif can suggest chronology continued.</desc><metadata>{
   &quot;assets&quot;: {
     &quot;boundary&quot;: &quot;&lt;path d=\&quot;M50 0V100\&quot; stroke=\&quot;currentColor\&quot; stroke-width=\&quot;14\&quot;/&gt;&quot;,
     &quot;box&quot;: &quot;&lt;rect x=\&quot;1\&quot; y=\&quot;1\&quot; width=\&quot;98\&quot; height=\&quot;98\&quot; rx=\&quot;2\&quot; fill=\&quot;#202326\&quot; stroke=\&quot;currentColor\&quot; stroke-width=\&quot;2\&quot;/&gt;&quot;,
@@ -8,18 +8,20 @@
   },
   &quot;palette&quot;: {
     &quot;amber&quot;: &quot;#A17D45&quot;,
+    &quot;claret&quot;: &quot;#6B2634&quot;,
     &quot;dirty&quot;: &quot;#CEC5B3&quot;,
     &quot;ink&quot;: &quot;#101214&quot;,
     &quot;institution&quot;: &quot;#68766B&quot;,
+    &quot;moss&quot;: &quot;#74864F&quot;,
     &quot;nicotine&quot;: &quot;#AA9571&quot;,
     &quot;paper&quot;: &quot;#E7E0D0&quot;,
     &quot;shadow&quot;: &quot;#202326&quot;,
     &quot;steel&quot;: &quot;#5E737B&quot;
   },
-  &quot;renderer&quot;: &quot;storyboard-svg-1&quot;,
+  &quot;renderer&quot;: &quot;storyboard-svg-2&quot;,
   &quot;scene&quot;: {
     &quot;background&quot;: &quot;ink&quot;,
-    &quot;intent&quot;: &quot;Hands and keyboard complete the creator action while a steel timestamp boundary at right prepares the chapter rewind without moss or July markings.&quot;,
+    &quot;intent&quot;: &quot;Let the return key gesture end at a firm date divider. Beyond it, restore the earlier steel-only state; the date must carry the rewind before any recurring cache motif can suggest chronology continued.&quot;,
     &quot;lettering&quot;: [
       {
         &quot;box&quot;: [
@@ -39,14 +41,15 @@
           0.48,
           0.25
         ],
-        &quot;color&quot;: &quot;nicotine&quot;
+        &quot;color&quot;: &quot;nicotine&quot;,
+        &quot;focus&quot;: true
       },
       {
         &quot;asset&quot;: &quot;hand&quot;,
         &quot;box&quot;: [
-          0.29,
+          0.314167,
           0.47,
-          0.19,
+          0.141667,
           0.25
         ],
         &quot;color&quot;: &quot;dirty&quot;,
@@ -65,9 +68,9 @@
       {
         &quot;asset&quot;: &quot;rack&quot;,
         &quot;box&quot;: [
-          0.76,
+          0.7735,
           0.42,
-          0.12,
+          0.093,
           0.31
         ],
         &quot;color&quot;: &quot;steel&quot;,
@@ -82,6 +85,7 @@
           0.02
         ],
         &quot;color&quot;: &quot;steel&quot;,
+        &quot;focus&quot;: true,
         &quot;label&quot;: &quot;20 APRIL 2026&quot;
       }
     ],
@@ -91,4 +95,4 @@
     &quot;title&quot;: &quot;Return to April&quot;
   }
 }
-</metadata><rect width="1200" height="800" fill="#101214"/><rect x="96" y="464" width="576" height="200" fill="none" stroke="#AA9571" stroke-width="3"/><text x="104" y="488" fill="#AA9571" font-family="sans-serif" font-size="20">keyboard</text><rect x="348" y="376" width="228" height="200" fill="none" stroke="#CEC5B3" stroke-width="3"/><text x="356" y="400" fill="#CEC5B3" font-family="sans-serif" font-size="20">hand</text><rect x="768" y="240" width="30" height="488" fill="none" stroke="#5E737B" stroke-width="3"/><text x="776" y="264" fill="#5E737B" font-family="sans-serif" font-size="20">boundary</text><rect x="912" y="336" width="144" height="248" fill="none" stroke="#5E737B" stroke-width="3"/><text x="920" y="360" fill="#5E737B" font-family="sans-serif" font-size="20">rack</text><rect x="840" y="632" width="276" height="16" fill="none" stroke="#5E737B" stroke-width="3"/><text x="848" y="656" fill="#5E737B" font-family="sans-serif" font-size="20">box</text><text x="978" y="672" text-anchor="middle" fill="#E7E0D0" font-size="20" font-family="monospace">20 APRIL 2026</text><rect x="3" y="3" width="1194" height="794" fill="none" stroke="#5E737B" stroke-width="4" stroke-dasharray="18 10"/></svg>
+</metadata><rect width="1200" height="800" fill="#101214"/><rect x="96" y="464" width="576" height="200" fill="none" stroke="#AA9571" stroke-width="3"/><text x="104" y="488" fill="#AA9571" font-family="sans-serif" font-size="20">keyboard</text><rect x="377" y="376" width="170" height="200" fill="none" stroke="#CEC5B3" stroke-width="3"/><text x="385" y="400" fill="#CEC5B3" font-family="sans-serif" font-size="20">hand</text><rect x="768" y="240" width="30" height="488" fill="none" stroke="#5E737B" stroke-width="3"/><text x="776" y="264" fill="#5E737B" font-family="sans-serif" font-size="20">boundary</text><rect x="928.2" y="336" width="111.6" height="248" fill="none" stroke="#5E737B" stroke-width="3"/><text x="936.2" y="360" fill="#5E737B" font-family="sans-serif" font-size="20">rack</text><rect x="840" y="632" width="276" height="16" fill="none" stroke="#5E737B" stroke-width="3"/><text x="848" y="656" fill="#5E737B" font-family="sans-serif" font-size="20">box</text><text x="978" y="672" text-anchor="middle" fill="#E7E0D0" font-size="20" font-family="monospace">20 APRIL 2026</text><rect x="3" y="3" width="1194" height="794" fill="none" stroke="#5E737B" stroke-width="4" stroke-dasharray="18 10"/></svg>

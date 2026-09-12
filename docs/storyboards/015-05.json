@@ -1,6 +1,6 @@
 {
   "background": "ink",
-  "intent": "Hands and keyboard complete the creator action while a steel timestamp boundary at right prepares the chapter rewind without moss or July markings.",
+  "intent": "Let the return key gesture end at a firm date divider. Beyond it, restore the earlier steel-only state; the date must carry the rewind before any recurring cache motif can suggest chronology continued.",
   "lettering": [
     {
       "box": [
@@ -20,14 +20,15 @@
         0.48,
         0.25
       ],
-      "color": "nicotine"
+      "color": "nicotine",
+      "focus": true
     },
     {
       "asset": "hand",
       "box": [
-        0.29,
+        0.314167,
         0.47,
-        0.19,
+        0.141667,
         0.25
       ],
       "color": "dirty",
@@ -46,9 +47,9 @@
     {
       "asset": "rack",
       "box": [
-        0.76,
+        0.7735,
         0.42,
-        0.12,
+        0.093,
         0.31
       ],
       "color": "steel",
@@ -63,6 +64,7 @@
         0.02
       ],
       "color": "steel",
+      "focus": true,
       "label": "20 APRIL 2026"
     }
   ],

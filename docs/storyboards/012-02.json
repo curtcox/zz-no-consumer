@@ -1,6 +1,6 @@
 {
   "background": "ink",
-  "intent": "Block public material surrounds the opaque grader. Keep the scripted evidence boundary and lettering visible.",
+  "intent": "Surround the still-sealed grader with incomplete papers. More available information must not make the hidden rule appear solved; the next prerequisite remains visible above the original objective.",
   "lettering": [
     {
       "box": [
@@ -21,7 +21,8 @@
         0.8648,
         0.576
       ],
-      "color": "steel"
+      "color": "steel",
+      "focus": true
     },
     {
       "asset": "paper",
@@ -55,9 +56,9 @@
     {
       "asset": "question",
       "box": [
-        0.6697735,
+        0.675534,
         0.109,
-        0.04992,
+        0.0384,
         0.1152
       ],
       "color": "amber",

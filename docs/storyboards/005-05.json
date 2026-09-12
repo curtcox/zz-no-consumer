@@ -1,6 +1,6 @@
 {
   "background": "ink",
-  "intent": "Block separate lanes touch only the directory. Keep the scripted evidence boundary and lettering visible.",
+  "intent": "Use several separately bounded lanes as a schematic sample, all touching only the cache. Let the caption carry the measured population and message counts; icon count is not a substitute census.",
   "lettering": [
     {
       "box": [
@@ -16,132 +16,141 @@
     {
       "asset": "folder",
       "box": [
-        0.6288,
-        0.1218,
-        0.2668,
-        0.416
+        0.6729,
+        0.1373,
+        0.2548,
+        0.346764
       ],
-      "color": "institution",
+      "color": "steel",
       "focus": true,
       "label": "SHARED CACHE",
       "label_box": [
-        0.6208,
-        0.5438,
-        0.2828,
-        0.085
-      ]
+        0.6729,
+        0.50508,
+        0.2548,
+        0.152366
+      ],
+      "label_size": 18
     },
     {
-      "asset": "box",
+      "asset": "task",
       "box": [
-        0.086,
-        0.0962,
-        0.2576,
-        0.096
+        0.0541,
+        0.0663,
+        0.3185,
+        0.098406
       ],
       "color": "steel",
       "focus": true,
       "label": "LANE A",
       "label_box": [
-        0.07799999999999999,
-        0.1982,
-        0.2736,
-        0.024400000000000012
-      ]
-    },
-    {
-      "asset": "arrow",
-      "box": [
-        0.3804,
-        0.1298,
-        0.2024,
-        0.0288
+        0.0541,
+        0.17067,
+        0.3185,
+        0.043239
       ],
-      "color": "institution"
+      "label_size": 18
     },
     {
-      "asset": "box",
+      "asset": "read-write",
       "box": [
-        0.086,
-        0.2306,
-        0.2576,
-        0.096
+        0.409,
+        0.088665,
+        0.2184,
+        0.04473
+      ],
+      "color": "moss",
+      "focus": true
+    },
+    {
+      "asset": "task",
+      "box": [
+        0.0541,
+        0.23315,
+        0.3185,
+        0.098406
       ],
       "color": "steel",
       "focus": true,
       "label": "LANE B",
       "label_box": [
-        0.07799999999999999,
-        0.3326,
-        0.2736,
-        0.024399999999999984
-      ]
-    },
-    {
-      "asset": "arrow",
-      "box": [
-        0.3804,
-        0.2642,
-        0.2024,
-        0.0288
+        0.0541,
+        0.33752,
+        0.3185,
+        0.043239
       ],
-      "color": "institution"
+      "label_size": 18
     },
     {
-      "asset": "box",
+      "asset": "read-write",
       "box": [
-        0.086,
-        0.365,
-        0.2576,
-        0.096
+        0.409,
+        0.255515,
+        0.2184,
+        0.04473
+      ],
+      "color": "moss",
+      "focus": true
+    },
+    {
+      "asset": "task",
+      "box": [
+        0.0541,
+        0.4,
+        0.3185,
+        0.098406
       ],
       "color": "steel",
       "focus": true,
       "label": "LANE C",
       "label_box": [
-        0.07799999999999999,
-        0.46699999999999997,
-        0.2736,
-        0.02440000000000004
-      ]
-    },
-    {
-      "asset": "arrow",
-      "box": [
-        0.3804,
-        0.3986,
-        0.2024,
-        0.0288
+        0.0541,
+        0.50437,
+        0.3185,
+        0.043239
       ],
-      "color": "institution"
+      "label_size": 18
     },
     {
-      "asset": "box",
+      "asset": "read-write",
       "box": [
-        0.086,
-        0.4994,
-        0.2576,
-        0.096
+        0.409,
+        0.422365,
+        0.2184,
+        0.04473
+      ],
+      "color": "moss",
+      "focus": true
+    },
+    {
+      "asset": "task",
+      "box": [
+        0.0541,
+        0.56685,
+        0.3185,
+        0.098406
       ],
       "color": "steel",
       "focus": true,
       "label": "LANE D",
       "label_box": [
-        0.07799999999999999,
-        0.6014,
-        0.2736,
-        0.085
-      ]
+        0.0541,
+        0.67122,
+        0.3185,
+        0.043239
+      ],
+      "label_size": 18
     },
     {
-      "asset": "arrow",
+      "asset": "read-write",
       "box": [
-        0.3804,
-        0.533,
-        0.2024,
-        0.0288
+        0.409,
+        0.589215,
+        0.2184,
+        0.04473
       ],
-      "color": "institution"
+      "color": "moss",
+      "focus": true
     }
   ],
   "reconstructed": false,

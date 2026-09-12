@@ -1,6 +1,6 @@
 {
   "background": "ink",
-  "intent": "Block later documentary cards stay inside the new source register. Keep the scripted evidence boundary and lettering visible.",
+  "intent": "Keep later events and times inside the new source field. Documentary precision must remain attributed to the reporting organization rather than imply outside corroboration.",
   "lettering": [
     {
       "box": [
@@ -24,56 +24,59 @@
     {
       "asset": "card",
       "box": [
-        0.07,
-        0.2936,
-        0.106067,
-        0.348
+        0.05775,
+        0.2397,
+        0.1343,
+        0.344619
       ],
       "color": "steel",
       "focus": true,
       "label": "OPENAI EVENT TABLE",
       "label_box": [
-        0.062000000000000006,
-        0.6476,
-        0.122067,
-        0.085
-      ]
+        0.05775,
+        0.605205,
+        0.1343,
+        0.151423
+      ],
+      "label_size": 18
     },
     {
       "asset": "card",
       "box": [
-        0.213333,
-        0.2936,
-        0.106067,
-        0.348
+        0.22775,
+        0.2397,
+        0.1343,
+        0.344619
       ],
       "color": "steel",
       "focus": true,
       "label": "PUBLISHED ACCOUNT",
       "label_box": [
-        0.205333,
-        0.6476,
-        0.122067,
-        0.085
-      ]
+        0.22775,
+        0.605205,
+        0.1343,
+        0.151423
+      ],
+      "label_size": 18
     },
     {
       "asset": "card",
       "box": [
-        0.356667,
-        0.2936,
-        0.106067,
-        0.348
+        0.39775,
+        0.2397,
+        0.1343,
+        0.344619
       ],
       "color": "steel",
       "focus": true,
       "label": "PUBLISHED TIMES",
       "label_box": [
-        0.348667,
-        0.6476,
-        0.122067,
-        0.085
-      ]
+        0.39775,
+        0.605205,
+        0.1343,
+        0.151423
+      ],
+      "label_size": 18
     }
   ],
   "reconstructed": false,

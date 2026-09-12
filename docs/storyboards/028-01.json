@@ -1,6 +1,6 @@
 {
   "background": "ink",
-  "intent": "Block the staged plugin changes execution state. Keep the scripted evidence boundary and lettering visible.",
+  "intent": "Repeat the staged plugin geometry and change the execution control under the new time card. A single state transition must carry the event rather than an explosion or newly invented mechanism.",
   "lettering": [
     {
       "box": [
@@ -24,10 +24,10 @@
     {
       "asset": "clock",
       "box": [
-        0.07,
-        0.38804975,
-        0.106067,
-        0.1591005
+        0.082586,
+        0.513636,
+        0.209961,
+        0.314942
       ],
       "color": "steel",
       "focus": true
@@ -35,38 +35,40 @@
     {
       "asset": "sealed",
       "box": [
-        0.213333,
-        0.2936,
-        0.106067,
-        0.348
+        0.371083,
+        0.513636,
+        0.239633,
+        0.207862
       ],
       "color": "steel",
       "focus": true,
       "label": "PLUGIN",
       "label_box": [
-        0.205333,
-        0.6476,
-        0.122067,
-        0.085
-      ]
+        0.371083,
+        0.734095,
+        0.239633,
+        0.091333
+      ],
+      "label_size": 18
     },
     {
       "asset": "checkmark",
       "box": [
-        0.356667,
-        0.38804975,
-        0.106067,
-        0.1591005
+        0.724946,
+        0.513636,
+        0.138575,
+        0.207862
       ],
       "color": "steel",
       "focus": true,
       "label": "EXECUTED",
       "label_box": [
-        0.348667,
-        0.6476,
-        0.122067,
-        0.085
-      ]
+        0.674417,
+        0.734095,
+        0.239633,
+        0.091333
+      ],
+      "label_size": 18
     }
   ],
   "reconstructed": false,

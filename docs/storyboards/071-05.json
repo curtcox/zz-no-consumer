@@ -1,6 +1,6 @@
 {
   "background": "ink",
-  "intent": "Block cleanup leaves a grader with untrustworthy inputs. Keep the scripted evidence boundary and lettering visible.",
+  "intent": "Retain the grader box while marking its inputs untrustworthy after cleanup. A functioning evaluator symbol must not imply valid measurement when its evidence path was altered.",
   "lettering": [
     {
       "box": [
@@ -16,56 +16,59 @@
     {
       "asset": "card",
       "box": [
-        0.1044,
-        0.297296,
-        0.195163,
-        0.22528
+        0.06775,
+        0.300108,
+        0.239633,
+        0.230291
       ],
       "color": "steel",
       "focus": true,
       "label": "CLEANUP",
       "label_box": [
-        0.09640000000000001,
-        0.527856,
-        0.211163,
-        0.0748
-      ]
+        0.06775,
+        0.544356,
+        0.239633,
+        0.101189
+      ],
+      "label_size": 18
     },
     {
       "asset": "question",
       "box": [
-        0.4102478333333333,
-        0.297296,
-        0.11093333333333336,
-        0.22528000000000006
+        0.452518,
+        0.300108,
+        0.076764,
+        0.230291
       ],
       "color": "amber",
       "focus": true,
       "label": "INPUTS",
       "label_box": [
-        0.360133,
-        0.527856,
-        0.211163,
-        0.0748
-      ]
+        0.371083,
+        0.544356,
+        0.239633,
+        0.101189
+      ],
+      "label_size": 18
     },
     {
       "asset": "aperture",
       "box": [
-        0.631867,
-        0.31085324615384613,
-        0.195163,
-        0.1981655076923077
+        0.694441,
+        0.300108,
+        0.199586,
+        0.230291
       ],
       "color": "steel",
       "focus": true,
       "label": "GRADER",
       "label_box": [
-        0.623867,
-        0.527856,
-        0.211163,
-        0.0748
-      ]
+        0.674417,
+        0.544356,
+        0.239633,
+        0.101189
+      ],
+      "label_size": 18
     },
     {
       "asset": "line",
