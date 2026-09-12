@@ -419,9 +419,15 @@ argument about whether anyone installs them.
 - **`RM-SANDBOX` has no captured transcript** and must not be paraphrased until it does. The book will
   be characterising a 2017 argument through its author's 2026 summary of it, which is second-hand
   about his own earlier position. Capture the original.
-- **ASR caveat.** AssemblyAI is automatic transcription, the same class of limitation
-  `klein-toner-title` carries. Paraphrase; do not quote. The distinctive phrasing is tempting and the
-  transcript also contains profanity the book has no reason to reproduce.
+- **Transcription caveat, and the corrected quotation rule.** AssemblyAI is automatic
+  transcription, the same class of limitation `klein-toner-title` carries. An earlier version of this
+  entry said *paraphrase, do not quote.* **That was wrong.** Quoting is not the same as claiming
+  verbatim: quote the string, mark it as an automatic transcription of the linked video, and a reader
+  can check it. Paraphrasing an already-lossy single source merges its errors with the adapter's
+  reading, attributes both to the speaker, and makes the result unfalsifiable — which is the opposite
+  of what this book's apparatus is for. The vehemence of the retraction is also part of the evidence
+  that it is sincere, and summarising it away removes that. See
+  [the quotation-rule note](./quotation-and-paraphrase-2026-09-12.md).
 
 ### C15. The practitioner's version: the controls were textbook, and absent — `read`
 
