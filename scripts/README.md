@@ -64,7 +64,7 @@ establish current status.
 
 | Tool | Checks |
 | --- | --- |
-| `validate-continuity.py` | the story contract, chapter map, and drafted page metadata agree |
+| `validate-continuity.py` | the story contract, chapter map, and drafted page metadata agree; `exact_strings` registrations carry all five fields, use the fixed vocabularies, and are `verbatim` + `cleared` before a page locks |
 | `validate-production-foundations.py` | palette, visual-continuity, prompt, and asset foundations exist and agree |
 | `crossref.py check --strict` | citation keys resolve, sequences are in range; CI also fails on panel/front-matter provenance drift |
 | `novella.py check` | one prose file per scripted page, front matter matching the script, prose that is not a stub |

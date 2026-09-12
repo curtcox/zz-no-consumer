@@ -167,12 +167,24 @@ Two corollaries, both learned the hard way and recorded in
   its security rule. The argument survives its removal from the page; the record does not survive its
   removal from the record.
 
-**One current constraint this does not override.** No story page may carry a third-party exact
-string: `validate-continuity.py` hard-fails any page except the last whose front matter is not
-`exact_strings: []`. That check encodes the *old* default and is now pointed the wrong way; a
-proposed fix is in [`tasks/citation-verification.md`](tasks/citation-verification.md) and is the
-owner's to approve. Until then, draft on ground truth by holding the quotation in the vault and the
-research note, not in the page script.
+**How a page holds a quotation.** `exact_strings` in the front matter is a **registration**, not a
+prohibition. Either `exact_strings: []`, or one entry per string with all five fields:
+
+```yaml
+exact_strings:
+  - text: THIS STORY IS NOW PART OF THE TRAINING DATA.
+    source: PROJECT-AUTHORED
+    locator: content/premise.md, final caption
+    verification: project-authored   # unchecked | exists | locator | quoted | verbatim | derived | project-authored
+    rights: cleared                  # unresolved | cleared | paraphrase | redact
+```
+
+`validate-continuity.py` enforces it: a bare string with no registration is an error, an unknown
+vocabulary value is an error, and a page in `review` carrying an `unchecked` or `unresolved` entry
+gets a warning naming gate 9. A page may not reach `status: locked` unless every entry is `verbatim`
+(or `project-authored`) **and** `rights: cleared` — **`quoted` is deliberately not enough**, because
+checking that a source supports a claim is not checking that the wording is exact. `rights:
+paraphrase` or `redact` on a locked page means a decision was recorded and never applied.
 
 Sourcing and invention status belong **inside the narrative voice**, not in an italic prefatory
 notice above the passage. Prefer "in an account of its own systems that no outside review covers" to

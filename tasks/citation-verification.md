@@ -98,26 +98,32 @@ is gone. The reasoning is in
 [`research/quotation-and-paraphrase-2026-09-12.md`](../research/quotation-and-paraphrase-2026-09-12.md).
 The disposition now happens **once, late, with the original in hand** — which is what gate 9 is for.
 
-**What this changes about the existing machinery, and it needs a decision.**
-[`validate-continuity.py`](../scripts/validate-continuity.py) currently **hard-fails any page except
-the last that carries anything other than `exact_strings: []`**. That check enforces the old default:
-it makes it impossible to hold a quotation in a page script at all, which is precisely what the new
-working rule asks for. The check is pointed the wrong way.
+**The machinery was changed on 12 September 2026, on the owner's instruction.**
+[`validate-continuity.py`](../scripts/validate-continuity.py) used to hard-fail any page except the
+last that carried anything other than `exact_strings: []` — the 2 September permissions disposition
+frozen into a check, which made drafting on ground truth impossible. It now validates a
+**registration**:
 
-The shape of the fix, for the owner to approve rather than for a session to apply:
+- `exact_strings` is either `[]` or a list of entries carrying **text, source, locator, verification,
+  rights**. A bare string is an error, because a string with no source, locator or decision is what
+  the check exists to catch.
+- Vocabularies are fixed and enforced: `verification` in {unchecked, exists, locator, quoted,
+  verbatim, derived, project-authored}; `rights` in {unresolved, cleared, paraphrase, redact}.
+- A page in `review` may hold an undispositioned string and gets a **warning** naming gate 9.
+- A page may not reach `status: locked` unless every entry is **`verbatim`** (or `project-authored`)
+  **and `rights: cleared`**. `quoted` is deliberately insufficient — confirming a source supports a
+  claim is not confirming the wording is exact. `paraphrase` or `redact` surviving to lock means a
+  decision was recorded and never applied.
 
-- `exact_strings` becomes a **registration** again — the string, its source key, its locator, its
-  verification level, its rights status — rather than a field that must be empty.
-- The emptiness requirement moves from *always* to **gate 9**: a page may carry registered exact
-  strings while in `review`, and may not reach `locked` with one that is unregistered, unverified, or
-  rights-unresolved.
-- [`research/exact-text-permissions-audit.md`](../research/exact-text-permissions-audit.md) rule 5
-  already anticipates this: it says to reopen the gate for a specific excerpt rather than restoring
-  the former set wholesale. A per-string registration is what reopening looks like mechanically.
+The emptiness requirement therefore moved from *always* to *lock*, which is where gate 9 is. Page 118's
+two project-authored strings were migrated to the registered form; they are the only registrations in
+the book today. All four behaviours were tested against a scratch copy before commit.
 
-Until that decision is taken, **the constraint is real and current**: no story page may carry a
-third-party exact string, and drafting on ground truth means holding the quotation in the vault
-record and the research note, not in the page script.
+**Not done, and belonging to another tool.** The check validates the registration's *shape*, not its
+*source key*. Cross-validating `source:` against `research/scene-provenance.md` and the chapter source
+packets is `crossref.py`'s job — it owns the provenance graph per the
+[shared-module map](../scripts/README.md#how-they-fit-together) — and is a follow-on, not a second
+parser here.
 
 ## Verification levels
 

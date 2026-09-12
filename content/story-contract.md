@@ -128,7 +128,9 @@ Research gaps may be dramatized only by preserving the gap.
 
 ## Default editorial choices
 
-- Use attributed paraphrase for source-derived agent language; keep exact originals in the ignored vault and link the publisher's source.
+- **Work on ground truth; decide quotation late (revised 12 September 2026).** Use direct quotation wherever it is appropriate and keep the original wording in the record. A page in `review` may carry an exact string as long as the string is *registered* in its front matter — text, source key, locator, verification level, rights status — and `scripts/validate-continuity.py` enforces the registration. Quotation against paraphrase against redaction is decided **once**, at gate 9 in `content/draft-readiness.md`, immediately before lock: a page may not reach `locked` carrying a string that is not `verbatim` against a named copy and `rights: cleared`. The previous default applied paraphrase during drafting, which spent the original before anyone could review the transformation against it.
+- **Two limits survive that change, because they are different hazards.** Do not turn a source author's summary of agent output into agent dialogue — that upgrades an evidence class, and no rights clearance fixes it. And a visible exact string may never be operational detail, however clean its rights: the security rule governs that independently.
+- Keep exact originals in the ignored vault and link the publisher's source, whether or not the page quotes.
 - Depict exploit chains consequence-first in story panels. Precise mechanism names may live in provenance notes, but visible story text must not become a reusable attack procedure.
 - Keep the final project-authored incomplete help prefix deliberately ambiguous.
 - Expose provenance in page notes and make it available in the web edition; the reading view need not display every tag by default.

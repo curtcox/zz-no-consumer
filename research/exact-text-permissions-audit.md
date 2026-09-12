@@ -32,6 +32,42 @@ The tracked URL record is [`data/256t-sources.tsv`](../data/256t-sources.tsv), a
 
 All third-party `exact_strings` registrations were removed from the canonical page front matter. Page 118 retains only project-authored display language.
 
+## Superseded in part — 12 September 2026
+
+**The disposition below stands as a record of what was decided on 2 September 2026. It is no longer
+the rule for new material.**
+
+That pass resolved a real rights hold by paraphrasing 23 strings, and the hold is genuinely resolved:
+nothing in the current script depends on third-party exact quotation. What it also did, without
+meaning to, was turn its remedy into a permanent check — `validate-continuity.py` came to reject any
+page carrying an exact string at all. That applied the lossy transformation **during drafting**, at
+the one moment when the original was still available to review the transformation against.
+
+The owner's instruction of 12 September reverses the default: **work with direct quotes wherever
+appropriate, stay as close to ground truth as possible while drafting, and decide quotation against
+paraphrase against redaction once, at gate 9, immediately before publication.** This is rule 5 below
+generalised — that rule already said to reopen the gate for a specific excerpt rather than restoring
+the former set wholesale, and a per-string registration is what reopening looks like mechanically.
+
+**The mechanism.** `exact_strings` in a page's front matter is now a registration: `[]`, or one entry
+per string carrying **text, source, locator, verification, rights**. A page in `review` may hold an
+undispositioned string, with a warning. A page may not reach `locked` unless every entry is
+`verbatim` against a named copy and `rights: cleared`; `quoted` is insufficient, because confirming
+that a source supports a claim is not confirming that the wording is exact. Page 118's two
+project-authored strings were migrated to that form and are the only registrations in the book today.
+
+**What did not change, because it is a different hazard.** Rules 1, 2, 3 and 5 below all stand. In
+particular rule 3 — do not turn a source author's paraphrase into agent dialogue — is about upgrading
+an evidence class, and no rights clearance fixes it. The contract's security rule stands
+independently: a visible exact string may never be operational detail however clean its rights.
+
+**Rule 4 needs the owner's decision.** As written it forbids raw source wording in tracked research
+notes without a new documented rights decision. Established practice in `research/` is otherwise —
+short attributed quotations appear in several notes, and two were added on 12 September in
+[`asymmetry-problem-2026-09-12.md`](./asymmetry-problem-2026-09-12.md). The new working rule makes
+that practice deliberate rather than incidental, so rule 4 should either be narrowed to extended
+fragments and expressive wording, or it should be enforced. It is currently neither.
+
 ## Editorial rules going forward
 
 1. Link the controlling original publication instead of pasting a report page, screenshot, or extended fragment.
