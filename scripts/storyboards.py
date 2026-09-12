@@ -21,6 +21,7 @@ import xml.etree.ElementTree as ET
 
 import panelart
 import panels
+import crossref
 import textimage
 import panel_layout
 
@@ -41,14 +42,16 @@ def load():
 
 def source_bodies():
     scripts = panels.read_scripts().values()
-    sources = {f'{page.id}-{section.index:02d}': section.body
+    # References are a later renderer's citation pool, not visual composition or
+    # lettering. Citation-only edits must not require hundreds of identical drawings.
+    sources = {f'{page.id}-{section.index:02d}': crossref.without_panel_references(section.body)
                for page in scripts for section in page.sections}
     # A grouped run is one reader image, not nine independently numbered boards.
     # Snapshot the entire grouped script so provenance and page-note drift also
     # require review; use the shared parser's grouped-run identity.
     for page in scripts:
         if page.grouped and not page.sections:
-            sources[f'{page.id}-01'] = page.text
+            sources[f'{page.id}-01'] = crossref.without_panel_references(page.text)
     return sources
 
 

@@ -910,6 +910,7 @@ NEW_PANEL_BODY = (
     "**Action:** [Only what changes during the panel.]\n"
     "\n"
     "**Provenance:** `invented` — `NONE-FICTION`; placeholder for an unwritten panel.\n"
+    "\n**References:** none\n"
     "\n"
 )
 

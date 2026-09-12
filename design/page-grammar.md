@@ -154,7 +154,9 @@ This example uses [page 045](../content/pages/045.md), panel 3, to show the form
 
 A score is an editorial judgment, made in the script where it can be reviewed. Do not raise one so that a reference is more likely to become a code, and do not write code direction — payload, size, placement — into `**Frame:**` or `**Action:**`. A reference that a rendering run prints as a QR code is a citation in the book and passes [gate 9](../content/draft-readiness.md) like any other; a score is not a verification.
 
-**Not yet settled or enforced (12 September 2026).** No tool reads or checks this block yet. Pages drafted before this date don't carry one; add it when drafting or revising a panel. The placeholder panels that `panels.py insert` and `pagination.py insert` write don't include one either. Where a code may sit is also open: [QR codes drawn in ants](qr-ant-codes.md) currently says a symbol never appears in a panel, gutter or margin. Codes added to story pages mean revisiting that rule, and that belongs to the later rendering decision (see its open question 6).
+**Coverage and enforcement (12 September 2026).** The existing scripts now carry a block for every panel or grouped run. `crossref.py check` checks placement, registered keys, score syntax and order, duplicate key/locator pairs, coverage of explicitly cited provenance keys, and sources of registered quotations appearing in the panel. It cannot judge whether a source supports a claim or whether an editorial score is appropriate. The JSON cross reference preserves each locator, score and support note, with contextual references kept separate from provenance assertions. New panel/page placeholders carry `**References:** none` until drafted. Citation-only changes do not invalidate storyboard composition snapshots; story direction and provenance still do.
+
+**Rendering remains open.** Where a code may sit is still undecided: [QR codes drawn in ants](qr-ant-codes.md) currently says a symbol never appears in a panel, gutter or margin. Codes added to story pages mean revisiting that rule, and that belongs to the later rendering decision (see its open question 6).
 
 ## Density checks
 

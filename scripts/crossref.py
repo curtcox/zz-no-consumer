@@ -95,6 +95,7 @@ class Panel:
     sources: tuple[str, ...]
     note: str
     invalid_statuses: tuple[str, ...] = ()
+    references: tuple[tuple[str, str, float, str], ...] = ()
 
 
 @dataclass(frozen=True)
@@ -133,7 +134,8 @@ class Page:
 
     @property
     def sources(self) -> tuple[str, ...]:
-        return tuple(dict.fromkeys(self.declared_sources + self.panel_sources))
+        reference_keys = tuple(row[0] for panel in self.panels for row in panel.references)
+        return tuple(dict.fromkeys(self.declared_sources + self.panel_sources + reference_keys))
 
 
 @dataclass(frozen=True)
@@ -422,6 +424,64 @@ ATTRIBUTION_LABEL = re.compile(r"CITED|CITING|PUBLISHED|ATTRIBUTED|QUOTED|QUOTAT
 LETTERING_LABEL = re.compile(r"^\*\*Screen / system text(?:\s*—\s*([^*]*?))?:\*\*\s*$", re.MULTILINE)
 
 
+def without_panel_references(source: str) -> str:
+    """Remove citation direction while retaining all story/provenance source bytes."""
+    return re.sub(r"\n\n\*\*References:\*\*[^\n]*(?:\n- [^\n]*)*", "", source)
+
+
+def audit_panel_references(source: str, known_keys: set[str]) -> list[str]:
+    """Check editorial citation coverage and syntax, never assign relevance scores."""
+    errors = []
+    registered, _ = read_exact_strings(front_matter(source))
+    for number, provenance, visible in panel_chunks(source):
+        # Locate the original section: panel_chunks deliberately excludes apparatus.
+        match = re.search(r"^## Panels? " + re.escape(number) + r"\n(.*?)(?=^## |\Z)",
+                          source, re.M | re.S)
+        body = match.group(1)
+        blocks = re.findall(r"^\*\*References:\*\*([^\n]*)(.*)\Z", body, re.M | re.S)
+        label = f"panel {number}"
+        if len(re.findall(r"^\*\*References:\*\*", body, re.M)) != 1 or not blocks:
+            errors.append(f"{label}: requires one final References field")
+            continue
+        if body.index('**References:**') < body.find('**Provenance:**'):
+            errors.append(f"{label}: References must follow Provenance")
+        inline, tail = blocks[0]
+        keys, scores, identities = set(), [], set()
+        if inline.strip() == 'none':
+            if tail.strip():
+                errors.append(f"{label}: References: none must be the final field")
+        else:
+            if inline.strip() or not tail.strip():
+                errors.append(f"{label}: expected reference rows or explicit none")
+            for line in tail.strip().splitlines():
+                row = re.fullmatch(r"- `([^`]+)`(?: `([^`]+)`)? — (0\.\d{2}|1\.00) — (\S.*)", line)
+                if not row:
+                    errors.append(f"{label}: malformed reference row: {line}")
+                    continue
+                key, locator, score, _ = row.groups()
+                if key not in known_keys or key in {'NONE-FICTION', 'PROJECT-INFERENCE'}:
+                    errors.append(f"{label}: reference key {key!r} must identify a registered source")
+                identity = (key, locator)
+                if identity in identities:
+                    errors.append(f"{label}: duplicate reference {key} at {locator}")
+                identities.add(identity)
+                keys.add(key)
+                scores.append(float(score))
+        if scores != sorted(scores, reverse=True):
+            errors.append(f"{label}: references must be ordered by descending relevance")
+        required = {key for token in re.findall(r'`([^`]+)`', provenance)
+                    for key in split_key(token) if key in known_keys}
+        required -= {'NONE-FICTION', 'PROJECT-INFERENCE'}
+        for entry in registered:
+            key = entry.get('source')
+            if key in known_keys and key not in {'NONE-FICTION', 'PROJECT-INFERENCE'}:
+                if entry.get('text') and normalise_wording(entry['text']) in normalise_wording(visible):
+                    required.add(key)
+        if required - keys:
+            errors.append(f"{label}: missing references for {', '.join(sorted(required - keys))}")
+    return errors
+
+
 def panel_chunks(source: str) -> list[tuple[str, str, str]]:
     """Each panel as (number, provenance text, reader-visible text).
 
@@ -435,7 +495,9 @@ def panel_chunks(source: str) -> list[tuple[str, str, str]]:
         chunk = re.split(r"^## ", chunk, flags=re.MULTILINE)[0]
         provenance = re.search(r"^\*\*Provenance:\*\*(.*?)(?:\n\s*\n|\Z)", chunk, re.MULTILINE | re.DOTALL)
         provenance_text = provenance.group(1) if provenance else ""
-        reader_visible = chunk.replace(provenance.group(0), "\n") if provenance else chunk
+        reader_visible = without_panel_references(chunk)
+        if provenance:
+            reader_visible = reader_visible.replace(provenance.group(0), "\n")
         panels.append((number, provenance_text, reader_visible))
     return panels
 
@@ -614,7 +676,12 @@ def read_panels(body: str, known_keys: set[str]) -> tuple[Panel, ...]:
                 if key in known_keys
             )
         )
+        references = tuple((key, locator or '', float(score), note) for key, locator, score, note in
+                           re.findall(r'^- `([^`]+)`(?: `([^`]+)`)? — (0\.\d{2}|1\.00) — (\S.*)$',
+                                      chunk.split('**References:**', 1)[1] if '**References:**' in chunk else '',
+                                      re.M))
         panel = Panel(number=number, statuses=statuses, sources=sources, note=tail.strip() or line.strip(),
+                  references=references,
                   invalid_statuses=tuple(token for token in re.findall(r"`([^`]+)`", head)
                                          if token not in PROVENANCE_STATUSES))
         panels.extend(replace(panel, number=n) for n in numbers)
@@ -844,6 +911,8 @@ def to_json(model: CrossReference) -> dict[str, object]:
                     {
                         "number": panel.number, "statuses": list(panel.statuses),
                         "sources": list(panel.sources), "note": panel.note,
+                        "references": [{"source": key, "locator": locator, "relevance": score, "note": note}
+                                       for key, locator, score, note in panel.references],
                     }
                     for panel in page.panels
                 ],
@@ -945,6 +1014,21 @@ def check_provenance_regressions() -> None:
     assert not missing[0].statuses
 
 
+def check_reference_regressions() -> None:
+    original = '## Panels 1–9\n\n**Caption:**\n> Authored words.\n\n**Provenance:** `documented` — `METR`\n\n'
+    block = '**References:**\n- `METR` `fn. 8` — 0.95 — Shared cache.\n\n'
+    valid = original + block + '## Page notes\n\nKeep this note.\n'
+    assert not audit_panel_references(valid, {'METR'})
+    assert without_panel_references(valid) == original + '## Page notes\n\nKeep this note.\n'
+    assert 'Shared cache' not in panel_chunks(valid)[0][2]
+    for damaged in (valid.replace(block, ''), valid.replace(block, '**References:** none\n\n'),
+                    valid.replace('0.95', '1.01'), valid.replace('0.95', '0.9'),
+                    valid.replace('`METR` `fn.', '`UNKNOWN` `fn.'),
+                    valid.replace(block, block.rstrip() + '\n- `METR` `fn. 9` — 1.00 — Other.\n\n'),
+                    valid.replace(block, block + '**Caption:** extra\n\n')):
+        assert audit_panel_references(damaged, {'METR'}), damaged
+
+
 def main(argv: list[str] | None = None) -> int:
     parser = argparse.ArgumentParser(description=__doc__.splitlines()[0])
     parser.add_argument(
@@ -971,6 +1055,13 @@ def main(argv: list[str] | None = None) -> int:
 
     if args.command == "check":
         check_provenance_regressions()
+        check_reference_regressions()
+        reference_errors = [f'{path.relative_to(ROOT)}: {error}'
+                            for path in sorted((ROOT / 'content/pages').glob('*.md'))
+                            for error in audit_panel_references(path.read_text(encoding='utf-8'),
+                                                                set(model.sources))]
+        for error in reference_errors:
+            print(f'Error: {error}')
         blocking = by_severity(model, "error")
         if args.strict:
             blocking += by_severity(model, "warning")
@@ -980,8 +1071,8 @@ def main(argv: list[str] | None = None) -> int:
                 print(f"{level.title()}s:")
                 for item in items:
                     print(f"- {item.subject}: {item.message}")
-        if blocking:
-            print(f"Cross-reference check failed: {len(blocking)} blocking findings.")
+        if blocking or reference_errors:
+            print(f"Cross-reference check failed: {len(blocking) + len(reference_errors)} blocking findings.")
             return 1
         print(
             f"Cross-reference check passed: {len(model.pages)} pages, {len(model.used_sources())} cited "

@@ -66,7 +66,7 @@ establish current status.
 | --- | --- |
 | `validate-continuity.py` | the story contract, chapter map, and drafted page metadata agree; `exact_strings` registrations carry all five fields, use the fixed vocabularies, and are `verbatim` + `cleared` before a page locks; a panel declaring `quotation` or `raw-agent-text` letters a registered string; attribution-shaped lettering is registered or marked `PARAPHRASED` (warning) |
 | `validate-production-foundations.py` | palette, visual-continuity, prompt, and asset foundations exist and agree |
-| `crossref.py check --strict` | citation keys resolve, sequences are in range; CI also fails on panel/front-matter provenance drift |
+| `crossref.py check --strict` | citation keys resolve, sequences are in range; panel reference blocks have registered sources, ordered two-place scores, and explicit provenance/quotation-source coverage; CI also fails on panel/front-matter provenance drift |
 | `t256.py check` | the 256t implementation reproduces the standard's test vectors, and every registered `pointer` is a well-formed `t256:` URI |
 | `novella.py check` | one prose file per scripted page, front matter matching the script, prose that is not a stub, and `exact_strings` registered and `verbatim` + `cleared` before its page locks |
 | `appendix.py check` | two-stance minimum, fixed fallacy vocabulary, conjecture declarations, live page references |

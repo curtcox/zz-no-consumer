@@ -712,6 +712,7 @@ def new_page_script(page: PageRecord, population: str) -> str:
         "**Action:** [What changes.]\n"
         "\n"
         "**Provenance:** `invented` — `NONE-FICTION`; placeholder for an unwritten page.\n"
+        "\n**References:** none\n"
         "\n"
         "## Page notes\n"
         "\n"
