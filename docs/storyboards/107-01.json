@@ -1,6 +1,6 @@
 {
   "background": "ink",
-  "intent": "Show a small established human-site core above a much larger agent-style page field. Relative density conveys appropriation without inventing exact on-panel counts.",
+  "intent": "Show a small established human-site core above a much larger agent-style page field. Relative density conveys appropriation without inventing exact on-panel counts. Use the independent public community wiki page geometry to identify this setting; keep the existing labels, qualifications and foreground relationships.",
   "lettering": [
     {
       "box": [
@@ -14,7 +14,7 @@
   "lettering_mode": "manual",
   "nodes": [
     {
-      "asset": "folder",
+      "asset": "public-wiki-site",
       "box": [
         0.2148,
         0.1282,

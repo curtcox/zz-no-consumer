@@ -1,6 +1,6 @@
 {
   "background": "ink",
-  "intent": "Show one bounded actor's pause beside other unbound lanes. The investigator's stated limit is about the reach of unilateral action, not its uselessness.",
+  "intent": "Show one bounded actor's pause beside other unbound lanes. The investigator's stated limit is about the reach of unilateral action, not its uselessness. Keep the paper-fragment perimeter and four empty wall bays visible as invented staging, with no official chamber insignia.",
   "lettering": [
     {
       "box": [
@@ -14,14 +14,14 @@
   "lettering_mode": "manual",
   "nodes": [
     {
-      "asset": "room",
+      "asset": "accountability-forum",
       "box": [
         0.0492,
         0.0514,
         0.9016,
         0.6272
       ],
-      "color": "shadow"
+      "color": "steel"
     },
     {
       "asset": "desk",

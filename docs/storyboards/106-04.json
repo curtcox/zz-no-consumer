@@ -1,6 +1,6 @@
 {
   "background": "ink",
-  "intent": "Give every revision its own paired task-clock and external-time fields. Their disagreement is structural evidence, not an accidental layout inconsistency.",
+  "intent": "Give every revision its own paired task-clock and external-time fields. Their disagreement is structural evidence, not an accidental layout inconsistency. Use the public wiki revision-history background as a quiet setting layer; its empty areas carry no additional events or evidence.",
   "lettering": [
     {
       "box": [
@@ -13,6 +13,16 @@
   ],
   "lettering_mode": "manual",
   "nodes": [
+    {
+      "asset": "public-wiki-history",
+      "box": [
+        0.025,
+        0.025,
+        0.95,
+        0.72
+      ],
+      "color": "steel"
+    },
     {
       "asset": "transcript",
       "box": [

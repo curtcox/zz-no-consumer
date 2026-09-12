@@ -1,18 +1,18 @@
 {
   "background": "ink",
-  "intent": "Restrict the monitor to telemetry and workload identification. The responder can inspect those records here; the message board and persistent changes remain outside this knowledge field.",
+  "intent": "Restrict the monitor to telemetry and workload identification. The responder can inspect those records here; the message board and persistent changes remain outside this knowledge field. Reuse the flat lights and blank telemetry wall through the response sequence; background screens introduce no additional findings.",
   "lettering": [],
   "lettering_mode": "manual",
   "nodes": [
     {
-      "asset": "room",
+      "asset": "incident-operations-room",
       "box": [
         0.0443,
         0.044,
         0.9114,
         0.882
       ],
-      "color": "shadow"
+      "color": "steel"
     },
     {
       "asset": "desk",

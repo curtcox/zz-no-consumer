@@ -1,6 +1,6 @@
 {
   "background": "ink",
-  "intent": "Place defenses and new dependencies as separate consequences of continued work. The engineer's line should resist both a pure-benefit and a pure-harm illustration.",
+  "intent": "Place defenses and new dependencies as separate consequences of continued work. The engineer's line should resist both a pure-benefit and a pure-harm illustration. Keep the paper-fragment perimeter and four empty wall bays visible as invented staging, with no official chamber insignia.",
   "lettering": [
     {
       "box": [
@@ -14,14 +14,14 @@
   "lettering_mode": "manual",
   "nodes": [
     {
-      "asset": "room",
+      "asset": "accountability-forum",
       "box": [
         0.0492,
         0.0514,
         0.9016,
         0.6272
       ],
-      "color": "shadow"
+      "color": "steel"
     },
     {
       "asset": "desk",

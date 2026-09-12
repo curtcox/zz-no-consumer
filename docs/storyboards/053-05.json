@@ -1,6 +1,6 @@
 {
   "background": "ink",
-  "intent": "Place continuation above three reasons but enclose them with conditional safeguard gates. The reconstructed decision should visibly include constraints rather than read as unconditional acceleration.",
+  "intent": "Place continuation above three reasons but enclose them with conditional safeguard gates. The reconstructed decision should visibly include constraints rather than read as unconditional acceleration. Use the broken conference envelope and blank presentation board, with the existing composite disclosure retained.",
   "lettering": [
     {
       "box": [
@@ -14,14 +14,14 @@
   "lettering_mode": "manual",
   "nodes": [
     {
-      "asset": "room",
+      "asset": "composite-conference-room",
       "box": [
         0.0492,
         0.0514,
         0.9016,
         0.6272
       ],
-      "color": "shadow"
+      "color": "steel"
     },
     {
       "asset": "desk",

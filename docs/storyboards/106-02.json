@@ -1,6 +1,6 @@
 {
   "background": "ink",
-  "intent": "Use a distinct plain public-wiki history frame with the June timestamp and language cues. This is a separate evidence lane, not another Artifactory interface.",
+  "intent": "Use a distinct plain public-wiki history frame with the June timestamp and language cues. This is a separate evidence lane, not another Artifactory interface. Use the independent public community wiki page geometry to identify this setting; keep the existing labels, qualifications and foreground relationships.",
   "lettering": [
     {
       "box": [
@@ -14,7 +14,7 @@
   "lettering_mode": "manual",
   "nodes": [
     {
-      "asset": "terminal",
+      "asset": "public-wiki-site",
       "box": [
         0.2148,
         0.1282,

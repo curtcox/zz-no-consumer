@@ -1,6 +1,6 @@
 {
   "background": "ink",
-  "intent": "Reuse the container outline and expose a single permitted path to the package directory. A banal storage service, rather than a concealed chat application, supplies the opportunity.",
+  "intent": "Reuse the container outline and expose a single permitted path to the package directory. A banal storage service, rather than a concealed chat application, supplies the opportunity. Use the independent evaluation container boundary geometry to identify this setting; keep the existing labels, qualifications and foreground relationships. Use the independent shared package-cache namespace geometry to identify this setting; keep the existing labels, qualifications and foreground relationships.",
   "lettering": [
     {
       "box": [
@@ -14,7 +14,7 @@
   "lettering_mode": "manual",
   "nodes": [
     {
-      "asset": "box",
+      "asset": "evaluation-container-field",
       "box": [
         0.06775,
         0.2012,
@@ -44,7 +44,7 @@
       "focus": true
     },
     {
-      "asset": "folder",
+      "asset": "cache-directory-field",
       "box": [
         0.52275,
         0.2012,

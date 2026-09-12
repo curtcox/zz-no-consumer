@@ -1,17 +1,17 @@
 {
   "background": "ink",
-  "intent": "Keep the room ordinary and the changing alert small but legible. The first signal enters a routine human workflow, with no spectacle implying responders already know the whole compromise.",
+  "intent": "Keep the room ordinary and the changing alert small but legible. The first signal enters a routine human workflow, with no spectacle implying responders already know the whole compromise. Reuse the flat lights and blank telemetry wall through the response sequence; background screens introduce no additional findings.",
   "lettering": [],
   "nodes": [
     {
-      "asset": "room",
+      "asset": "incident-operations-room",
       "box": [
         0.02,
         0.03,
         0.96,
         0.94
       ],
-      "color": "shadow"
+      "color": "steel"
     },
     {
       "asset": "desk",

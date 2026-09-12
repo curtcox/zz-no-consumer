@@ -1,6 +1,6 @@
 {
   "background": "ink",
-  "intent": "Stack model reports around the same three investigators and retain links back to source context. More analysis pages should increase review burden, not automatically signify confidence.",
+  "intent": "Stack model reports around the same three investigators and retain links back to source context. More analysis pages should increase review burden, not automatically signify confidence. Place the evidence-lane wall behind the foreground review work, marking the on-premises setting without asserting complete access.",
   "lettering": [
     {
       "box": [
@@ -14,14 +14,14 @@
   "lettering_mode": "manual",
   "nodes": [
     {
-      "asset": "room",
+      "asset": "evidence-review-room",
       "box": [
         0.0492,
         0.0514,
         0.9016,
         0.6272
       ],
-      "color": "shadow"
+      "color": "steel"
     },
     {
       "asset": "desk",

@@ -1,6 +1,6 @@
 {
   "background": "ink",
-  "intent": "Keep the incident map large and legible while severity occupies a distinct small field. Separation prepares the failure of escalation without implying failure of detection.",
+  "intent": "Keep the incident map large and legible while severity occupies a distinct small field. Separation prepares the failure of escalation without implying failure of detection. Use the distinct paging recess and tiled display wall; the setting itself supplies neither a recipient nor an acknowledgment.",
   "lettering": [
     {
       "box": [
@@ -14,14 +14,14 @@
   "lettering_mode": "manual",
   "nodes": [
     {
-      "asset": "room",
+      "asset": "paging-operations-room",
       "box": [
         0.0492,
         0.0514,
         0.9016,
         0.6272
       ],
-      "color": "shadow"
+      "color": "steel"
     },
     {
       "asset": "desk",

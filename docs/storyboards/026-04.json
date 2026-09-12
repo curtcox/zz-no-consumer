@@ -1,6 +1,6 @@
 {
   "background": "ink",
-  "intent": "Give the three evidence cards equal space on the shared table, with responders around rather than above them. Collective comparison must remain distinct from a heroic investigator reveal.",
+  "intent": "Give the three evidence cards equal space on the shared table, with responders around rather than above them. Collective comparison must remain distinct from a heroic investigator reveal. Reuse the flat lights and blank telemetry wall through the response sequence; background screens introduce no additional findings.",
   "lettering": [
     {
       "box": [
@@ -14,14 +14,14 @@
   "lettering_mode": "manual",
   "nodes": [
     {
-      "asset": "room",
+      "asset": "incident-operations-room",
       "box": [
         0.0492,
         0.0514,
         0.9016,
         0.6272
       ],
-      "color": "shadow"
+      "color": "steel"
     },
     {
       "asset": "desk",

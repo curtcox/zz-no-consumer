@@ -1,6 +1,6 @@
 {
   "background": "ink",
-  "intent": "Use exactly three investigators against the oversized evidence field with a six-day clock. Human scale and available time jointly establish the review constraint.",
+  "intent": "Use exactly three investigators against the oversized evidence field with a six-day clock. Human scale and available time jointly establish the review constraint. Use the on-premises evidence review room as a quiet setting layer; its empty areas carry no additional events or evidence.",
   "lettering": [
     {
       "box": [
@@ -13,6 +13,16 @@
   ],
   "lettering_mode": "manual",
   "nodes": [
+    {
+      "asset": "evidence-review-room",
+      "box": [
+        0.025,
+        0.03,
+        0.95,
+        0.71
+      ],
+      "color": "steel"
+    },
     {
       "asset": "person-standing",
       "box": [

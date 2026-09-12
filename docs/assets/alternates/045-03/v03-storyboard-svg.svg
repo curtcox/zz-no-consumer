@@ -1,0 +1,142 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="800" viewBox="0 0 1200 800"><title>A processor discloses its worker-local environment</title><desc>Draw the processor inside its worker boundary and return redacted local data from that same enclosure. Local file disclosure must be spatially distinct from commands entering execution.</desc><metadata>{
+  &quot;assets&quot;: {
+    &quot;arrow&quot;: &quot;&lt;path d=\&quot;M1 50H87M70 18L96 50L70 82\&quot; fill=\&quot;none\&quot; stroke=\&quot;currentColor\&quot; stroke-width=\&quot;5\&quot;/&gt;&quot;,
+    &quot;box&quot;: &quot;&lt;rect x=\&quot;1\&quot; y=\&quot;1\&quot; width=\&quot;98\&quot; height=\&quot;98\&quot; rx=\&quot;2\&quot; fill=\&quot;#202326\&quot; stroke=\&quot;currentColor\&quot; stroke-width=\&quot;2\&quot;/&gt;&quot;,
+    &quot;card&quot;: &quot;&lt;rect x=\&quot;1\&quot; y=\&quot;1\&quot; width=\&quot;98\&quot; height=\&quot;98\&quot; fill=\&quot;#202326\&quot; stroke=\&quot;currentColor\&quot; stroke-width=\&quot;2\&quot;/&gt;&lt;path d=\&quot;M1 20H99M9 10H42M62 10H90M10 34H87M10 45H73M10 56H82M10 76H57M10 87H38\&quot; stroke=\&quot;currentColor\&quot; stroke-width=\&quot;2\&quot;/&gt;&quot;,
+    &quot;outline-box&quot;: &quot;&lt;rect x=\&quot;2\&quot; y=\&quot;2\&quot; width=\&quot;96\&quot; height=\&quot;96\&quot; fill=\&quot;none\&quot; stroke=\&quot;currentColor\&quot; stroke-width=\&quot;3\&quot;/&gt;&quot;,
+    &quot;sealed&quot;: &quot;&lt;rect x=\&quot;3\&quot; y=\&quot;9\&quot; width=\&quot;94\&quot; height=\&quot;82\&quot; fill=\&quot;#202326\&quot; stroke=\&quot;currentColor\&quot; stroke-width=\&quot;3\&quot;/&gt;&lt;path d=\&quot;M12 30H88M12 49H88M12 68H88\&quot; stroke=\&quot;#101214\&quot; stroke-width=\&quot;12\&quot;/&gt;&quot;
+  },
+  &quot;palette&quot;: {
+    &quot;amber&quot;: &quot;#A17D45&quot;,
+    &quot;claret&quot;: &quot;#6B2634&quot;,
+    &quot;dirty&quot;: &quot;#CEC5B3&quot;,
+    &quot;ink&quot;: &quot;#101214&quot;,
+    &quot;institution&quot;: &quot;#68766B&quot;,
+    &quot;moss&quot;: &quot;#74864F&quot;,
+    &quot;nicotine&quot;: &quot;#AA9571&quot;,
+    &quot;paper&quot;: &quot;#E7E0D0&quot;,
+    &quot;shadow&quot;: &quot;#202326&quot;,
+    &quot;steel&quot;: &quot;#5E737B&quot;
+  },
+  &quot;renderer&quot;: &quot;storyboard-svg-2&quot;,
+  &quot;scene&quot;: {
+    &quot;background&quot;: &quot;ink&quot;,
+    &quot;intent&quot;: &quot;Draw the processor inside its worker boundary and return redacted local data from that same enclosure. Local file disclosure must be spatially distinct from commands entering execution.&quot;,
+    &quot;lettering&quot;: [
+      {
+        &quot;box&quot;: [
+          0.045,
+          0.78,
+          0.91,
+          0.18
+        ]
+      }
+    ],
+    &quot;lettering_mode&quot;: &quot;manual&quot;,
+    &quot;nodes&quot;: [
+      {
+        &quot;asset&quot;: &quot;card&quot;,
+        &quot;box&quot;: [
+          0.0541,
+          0.1941,
+          0.2093,
+          0.28116
+        ],
+        &quot;color&quot;: &quot;steel&quot;,
+        &quot;focus&quot;: true,
+        &quot;label&quot;: &quot;DATASET&quot;,
+        &quot;label_box&quot;: [
+          0.0541,
+          0.4923,
+          0.2093,
+          0.12354
+        ],
+        &quot;label_size&quot;: 18
+      },
+      {
+        &quot;asset&quot;: &quot;outline-box&quot;,
+        &quot;box&quot;: [
+          0.3726,
+          0.0521,
+          0.5733,
+          0.539827
+        ],
+        &quot;color&quot;: &quot;steel&quot;,
+        &quot;focus&quot;: true,
+        &quot;label&quot;: &quot;WORKER&quot;,
+        &quot;label_box&quot;: [
+          0.3726,
+          0.599927,
+          0.5733,
+          0.126957
+        ],
+        &quot;label_size&quot;: 18
+      },
+      {
+        &quot;asset&quot;: &quot;box&quot;,
+        &quot;box&quot;: [
+          0.4363,
+          0.1941,
+          0.2002,
+          0.229614
+        ],
+        &quot;color&quot;: &quot;steel&quot;,
+        &quot;focus&quot;: true,
+        &quot;label&quot;: &quot;PROCESSOR&quot;,
+        &quot;label_box&quot;: [
+          0.4363,
+          0.43763,
+          0.2002,
+          0.100891
+        ],
+        &quot;label_size&quot;: 18
+      },
+      {
+        &quot;asset&quot;: &quot;sealed&quot;,
+        &quot;box&quot;: [
+          0.6911,
+          0.1941,
+          0.2002,
+          0.229614
+        ],
+        &quot;color&quot;: &quot;steel&quot;,
+        &quot;focus&quot;: true,
+        &quot;label&quot;: &quot;LOCAL ENVIRONMENT&quot;,
+        &quot;label_box&quot;: [
+          0.6911,
+          0.43763,
+          0.2002,
+          0.100891
+        ],
+        &quot;label_size&quot;: 18
+      },
+      {
+        &quot;asset&quot;: &quot;arrow&quot;,
+        &quot;box&quot;: [
+          0.2816,
+          0.2935,
+          0.1274,
+          0.0568
+        ],
+        &quot;color&quot;: &quot;steel&quot;,
+        &quot;focus&quot;: true
+      },
+      {
+        &quot;asset&quot;: &quot;arrow&quot;,
+        &quot;box&quot;: [
+          0.64105,
+          0.2935,
+          0.05005,
+          0.0568
+        ],
+        &quot;color&quot;: &quot;steel&quot;,
+        &quot;focus&quot;: true
+      }
+    ],
+    &quot;reconstructed&quot;: false,
+    &quot;shot&quot;: &quot;route&quot;,
+    &quot;source&quot;: &quot;\n**Frame:** Timestamp `04:38 UTC`. The production dataset processor opens the dataset. Its own worker-local environment returns as black redaction bands.\n\n**Action:** Internal configuration, secrets, and worker source become readable.\n\n**Caption:**\n&gt; THE PROCESSOR RETURNS PART OF ITS OWN ENVIRONMENT.\n\n**Provenance:** `documented` — disclosure and timestamp from `OAI-TR` and `HF-TL`.\n\n&quot;,
+    &quot;title&quot;: &quot;A processor discloses its worker-local environment&quot;
+  }
+}
+</metadata><rect width="1200" height="800" fill="#101214"/><g transform="translate(64.92 155.28) scale(2.5116 2.24928)" color="#5E737B"><g transform=""><rect x="1" y="1" width="98" height="98" fill="#202326" stroke="currentColor" stroke-width="2"/><path d="M1 20H99M9 10H42M62 10H90M10 34H87M10 45H73M10 56H82M10 76H57M10 87H38" stroke="currentColor" stroke-width="2"/></g></g><text x="190.5" y="411.84" text-anchor="middle" fill="#E7E0D0" font-size="18" font-family="sans-serif">DATASET</text><g transform="translate(447.12 41.68) scale(6.8796 4.31862)" color="#5E737B"><g transform=""><rect x="2" y="2" width="96" height="96" fill="none" stroke="currentColor" stroke-width="3"/></g></g><text x="791.1" y="497.942" text-anchor="middle" fill="#E7E0D0" font-size="18" font-family="sans-serif">WORKER</text><g transform="translate(523.56 155.28) scale(2.4024 1.83691)" color="#5E737B"><g transform=""><rect x="1" y="1" width="98" height="98" rx="2" fill="#202326" stroke="currentColor" stroke-width="2"/></g></g><text x="643.68" y="368.104" text-anchor="middle" fill="#E7E0D0" font-size="18" font-family="sans-serif">PROCESSOR</text><g transform="translate(829.32 155.28) scale(2.4024 1.83691)" color="#5E737B"><g transform=""><rect x="3" y="9" width="94" height="82" fill="#202326" stroke="currentColor" stroke-width="3"/><path d="M12 30H88M12 49H88M12 68H88" stroke="#101214" stroke-width="12"/></g></g><text x="949.44" y="368.104" text-anchor="middle" fill="#E7E0D0" font-size="18" font-family="sans-serif">LOCAL ENVIRONMENT</text><g transform="translate(337.92 234.8) scale(1.5288 0.4544)" color="#5E737B"><g transform=""><path d="M1 50H87M70 18L96 50L70 82" fill="none" stroke="currentColor" stroke-width="5"/></g></g><g transform="translate(769.26 234.8) scale(0.6006 0.4544)" color="#5E737B"><g transform=""><path d="M1 50H87M70 18L96 50L70 82" fill="none" stroke="currentColor" stroke-width="5"/></g></g><rect x="3" y="3" width="1194" height="794" fill="none" stroke="#5E737B" stroke-width="4"/></svg>

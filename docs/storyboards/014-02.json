@@ -1,6 +1,6 @@
 {
   "background": "ink",
-  "intent": "Put the rack, directory, empty room and text strip on a common sketch surface. Reuse their incident geometry so the reader can see the visual vocabulary being deliberately selected.",
+  "intent": "Put the rack, directory, empty room and text strip on a common sketch surface. Reuse their incident geometry so the reader can see the visual vocabulary being deliberately selected. The operations-room sketch uses the same fluorescent-wall geometry as the reconstructed response setting.",
   "lettering": [
     {
       "box": [
@@ -56,7 +56,7 @@
       "focus": true
     },
     {
-      "asset": "room",
+      "asset": "incident-operations-room",
       "box": [
         0.47,
         0.35,

@@ -1,6 +1,6 @@
 {
   "background": "ink",
-  "intent": "Give the chair's question separate threshold, verification, pause and restart positions. Empty authority fields preserve the interrogative nature of the scene.",
+  "intent": "Give the chair's question separate threshold, verification, pause and restart positions. Empty authority fields preserve the interrogative nature of the scene. Keep the paper-fragment perimeter and four empty wall bays visible as invented staging, with no official chamber insignia.",
   "lettering": [
     {
       "box": [
@@ -14,14 +14,14 @@
   "lettering_mode": "manual",
   "nodes": [
     {
-      "asset": "room",
+      "asset": "accountability-forum",
       "box": [
         0.0492,
         0.0514,
         0.9016,
         0.6272
       ],
-      "color": "shadow"
+      "color": "steel"
     },
     {
       "asset": "desk",

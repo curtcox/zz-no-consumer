@@ -1,6 +1,6 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="800" viewBox="0 0 1200 800"><title>An unfamiliar generic evaluation interface appears</title><desc>Use unfamiliar neutral interface geometry without incident brands, dates or architecture. The future is invented and must not look like a documented continuation of one facility.</desc><metadata>{
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="800" viewBox="0 0 1200 800"><title>An unfamiliar generic evaluation interface appears</title><desc>Use unfamiliar neutral interface geometry without incident brands, dates or architecture. The future is invented and must not look like a documented continuation of one facility. Use the independent unidentified future evaluation surface geometry to identify this setting; keep the existing labels, qualifications and foreground relationships.</desc><metadata>{
   &quot;assets&quot;: {
-    &quot;terminal&quot;: &quot;&lt;rect x=\&quot;2\&quot; y=\&quot;4\&quot; width=\&quot;96\&quot; height=\&quot;92\&quot; fill=\&quot;#101214\&quot; stroke=\&quot;currentColor\&quot; stroke-width=\&quot;3\&quot;/&gt;&lt;path d=\&quot;M2 18H98M12 31L21 40L12 49M29 49H51M12 65H76M12 78H62\&quot; fill=\&quot;none\&quot; stroke=\&quot;currentColor\&quot; stroke-width=\&quot;3\&quot;/&gt;&quot;
+    &quot;future-evaluation-field&quot;: &quot;&lt;g fill=\&quot;none\&quot; stroke=\&quot;currentColor\&quot; stroke-width=\&quot;0.9\&quot; stroke-linejoin=\&quot;round\&quot; opacity=\&quot;1\&quot;&gt;&lt;path d=\&quot;M12 3H88L97 12V88L88 97H12L3 88V12Z\&quot;/&gt;&lt;path d=\&quot;M18 13H39M61 13H82M12 28V72M88 28V72M18 87H39M61 87H82\&quot;/&gt;&lt;path d=\&quot;M22 27H78V73H22Z\&quot; stroke-dasharray=\&quot;1 4\&quot;/&gt;&lt;/g&gt;&quot;
   },
   &quot;palette&quot;: {
     &quot;amber&quot;: &quot;#A17D45&quot;,
@@ -17,7 +17,7 @@
   &quot;renderer&quot;: &quot;storyboard-svg-2&quot;,
   &quot;scene&quot;: {
     &quot;background&quot;: &quot;ink&quot;,
-    &quot;intent&quot;: &quot;Use unfamiliar neutral interface geometry without incident brands, dates or architecture. The future is invented and must not look like a documented continuation of one facility.&quot;,
+    &quot;intent&quot;: &quot;Use unfamiliar neutral interface geometry without incident brands, dates or architecture. The future is invented and must not look like a documented continuation of one facility. Use the independent unidentified future evaluation surface geometry to identify this setting; keep the existing labels, qualifications and foreground relationships.&quot;,
     &quot;lettering&quot;: [
       {
         &quot;box&quot;: [
@@ -31,7 +31,7 @@
     &quot;lettering_mode&quot;: &quot;manual&quot;,
     &quot;nodes&quot;: [
       {
-        &quot;asset&quot;: &quot;terminal&quot;,
+        &quot;asset&quot;: &quot;future-evaluation-field&quot;,
         &quot;box&quot;: [
           0.2148,
           0.1282,
@@ -48,4 +48,4 @@
     &quot;title&quot;: &quot;An unfamiliar generic evaluation interface appears&quot;
   }
 }
-</metadata><rect width="1200" height="800" fill="#101214"/><rect x="257.76" y="102.56" width="640.32" height="317.44" fill="none" stroke="#CEC5B3" stroke-width="3"/><text x="265.76" y="126.56" fill="#CEC5B3" font-family="sans-serif" font-size="20">terminal</text><rect x="3" y="3" width="1194" height="794" fill="none" stroke="#5E737B" stroke-width="4"/></svg>
+</metadata><rect width="1200" height="800" fill="#101214"/><rect x="257.76" y="102.56" width="640.32" height="317.44" fill="none" stroke="#CEC5B3" stroke-width="3"/><text x="265.76" y="126.56" fill="#CEC5B3" font-family="sans-serif" font-size="20">future-evaluation-field</text><rect x="3" y="3" width="1194" height="794" fill="none" stroke="#5E737B" stroke-width="4"/></svg>

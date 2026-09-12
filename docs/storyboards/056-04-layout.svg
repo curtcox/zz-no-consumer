@@ -1,8 +1,8 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="800" viewBox="0 0 1200 800"><title>Empty operations chairs receive no page</title><desc>Show genuinely empty chairs and an unoccupied paging destination. No silhouette, hand or acknowledged-screen state should invent a human ignoring an alert.</desc><metadata>{
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="800" viewBox="0 0 1200 800"><title>Empty operations chairs receive no page</title><desc>Show genuinely empty chairs and an unoccupied paging destination. No silhouette, hand or acknowledged-screen state should invent a human ignoring an alert. Use the distinct paging recess and tiled display wall; the setting itself supplies neither a recipient nor an acknowledgment.</desc><metadata>{
   &quot;assets&quot;: {
     &quot;desk&quot;: &quot;&lt;path d=\&quot;M0 12L85 0L100 30L14 43Z\&quot; fill=\&quot;currentColor\&quot;/&gt;&lt;path d=\&quot;M14 43V100M94 31V90\&quot; stroke=\&quot;currentColor\&quot; stroke-width=\&quot;5\&quot;/&gt;&quot;,
     &quot;empty-chair&quot;: &quot;&lt;path d=\&quot;M25 5H73V52H25ZM21 59H80V71H21M28 71V98M72 71V98\&quot; fill=\&quot;#202326\&quot; stroke=\&quot;currentColor\&quot; stroke-width=\&quot;3\&quot;/&gt;&quot;,
-    &quot;room&quot;: &quot;&lt;path d=\&quot;M0 0H100V100H0Z M0 0L28 30H72L100 0 M28 30V72L0 100 M72 30V72L100 100 M28 72H72\&quot; fill=\&quot;none\&quot; stroke=\&quot;currentColor\&quot; stroke-width=\&quot;1\&quot;/&gt;&quot;
+    &quot;paging-operations-room&quot;: &quot;&lt;g fill=\&quot;none\&quot; stroke=\&quot;currentColor\&quot; stroke-width=\&quot;0.9\&quot; stroke-linejoin=\&quot;round\&quot; opacity=\&quot;0.5\&quot;&gt;&lt;path d=\&quot;M2 3H98V97H2ZM2 3L18 18H82L98 3M18 18V73H82V18M18 73L2 97M82 73L98 97\&quot;/&gt;&lt;rect x=\&quot;23\&quot; y=\&quot;24\&quot; width=\&quot;24\&quot; height=\&quot;13\&quot;/&gt;&lt;rect x=\&quot;50\&quot; y=\&quot;24\&quot; width=\&quot;24\&quot; height=\&quot;13\&quot;/&gt;&lt;path d=\&quot;M23 40H74M87 39H94V62H87ZM89 58H92\&quot;/&gt;&lt;/g&gt;&quot;
   },
   &quot;palette&quot;: {
     &quot;amber&quot;: &quot;#A17D45&quot;,
@@ -19,7 +19,7 @@
   &quot;renderer&quot;: &quot;storyboard-svg-2&quot;,
   &quot;scene&quot;: {
     &quot;background&quot;: &quot;ink&quot;,
-    &quot;intent&quot;: &quot;Show genuinely empty chairs and an unoccupied paging destination. No silhouette, hand or acknowledged-screen state should invent a human ignoring an alert.&quot;,
+    &quot;intent&quot;: &quot;Show genuinely empty chairs and an unoccupied paging destination. No silhouette, hand or acknowledged-screen state should invent a human ignoring an alert. Use the distinct paging recess and tiled display wall; the setting itself supplies neither a recipient nor an acknowledgment.&quot;,
     &quot;lettering&quot;: [
       {
         &quot;box&quot;: [
@@ -33,14 +33,14 @@
     &quot;lettering_mode&quot;: &quot;manual&quot;,
     &quot;nodes&quot;: [
       {
-        &quot;asset&quot;: &quot;room&quot;,
+        &quot;asset&quot;: &quot;paging-operations-room&quot;,
         &quot;box&quot;: [
           0.0541,
           0.0521,
           0.8918,
           0.6816
         ],
-        &quot;color&quot;: &quot;shadow&quot;,
+        &quot;color&quot;: &quot;steel&quot;,
         &quot;focus&quot;: true
       },
       {
@@ -83,4 +83,4 @@
     &quot;title&quot;: &quot;Empty operations chairs receive no page&quot;
   }
 }
-</metadata><rect width="1200" height="800" fill="#101214"/><rect x="64.92" y="41.68" width="1070.16" height="545.28" fill="none" stroke="#202326" stroke-width="3"/><text x="72.92" y="65.68" fill="#202326" font-family="sans-serif" font-size="20">room</text><rect x="206.88" y="359.76" width="786.24" height="193.12" fill="none" stroke="#5E737B" stroke-width="3"/><text x="214.88" y="383.76" fill="#5E737B" font-family="sans-serif" font-size="20">desk</text><rect x="261.48" y="218.68" width="229.32" height="327.6" fill="none" stroke="#5E737B" stroke-width="3"/><text x="269.48" y="242.68" fill="#5E737B" font-family="sans-serif" font-size="20">empty-chair</text><rect x="709.2" y="218.68" width="229.32" height="327.6" fill="none" stroke="#5E737B" stroke-width="3"/><text x="717.2" y="242.68" fill="#5E737B" font-family="sans-serif" font-size="20">empty-chair</text><rect x="3" y="3" width="1194" height="794" fill="none" stroke="#5E737B" stroke-width="4"/></svg>
+</metadata><rect width="1200" height="800" fill="#101214"/><rect x="64.92" y="41.68" width="1070.16" height="545.28" fill="none" stroke="#5E737B" stroke-width="3"/><text x="72.92" y="65.68" fill="#5E737B" font-family="sans-serif" font-size="20">paging-operations-room</text><rect x="206.88" y="359.76" width="786.24" height="193.12" fill="none" stroke="#5E737B" stroke-width="3"/><text x="214.88" y="383.76" fill="#5E737B" font-family="sans-serif" font-size="20">desk</text><rect x="261.48" y="218.68" width="229.32" height="327.6" fill="none" stroke="#5E737B" stroke-width="3"/><text x="269.48" y="242.68" fill="#5E737B" font-family="sans-serif" font-size="20">empty-chair</text><rect x="709.2" y="218.68" width="229.32" height="327.6" fill="none" stroke="#5E737B" stroke-width="3"/><text x="717.2" y="242.68" fill="#5E737B" font-family="sans-serif" font-size="20">empty-chair</text><rect x="3" y="3" width="1194" height="794" fill="none" stroke="#5E737B" stroke-width="4"/></svg>

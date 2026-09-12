@@ -1,6 +1,6 @@
 {
   "background": "ink",
-  "intent": "Draw the processor inside its worker boundary and return redacted local data from that same enclosure. Local file disclosure must be spatially distinct from commands entering execution.",
+  "intent": "Draw the processor inside its worker boundary and return redacted local data from that same enclosure. Local file disclosure must be spatially distinct from commands entering execution. Use the independent dataset-processing worker environment geometry to identify this setting; keep the existing labels, qualifications and foreground relationships.",
   "lettering": [
     {
       "box": [
@@ -33,7 +33,7 @@
       "label_size": 18
     },
     {
-      "asset": "outline-box",
+      "asset": "dataset-processor-field",
       "box": [
         0.3726,
         0.0521,

@@ -1,10 +1,10 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="800" viewBox="0 0 1200 800"><title>A real dated slide enters the invented forum</title><desc>Place the real dated slide inside the invented room&#x27;s screen with readable citation. Unidentifiable speaker silhouettes belong to the displayed artifact, not the forum participants.</desc><metadata>{
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="800" viewBox="0 0 1200 800"><title>A real dated slide enters the invented forum</title><desc>Place the real dated slide inside the invented room&#x27;s screen with readable citation. Unidentifiable speaker silhouettes belong to the displayed artifact, not the forum participants. Keep the paper-fragment perimeter and four empty wall bays visible as invented staging, with no official chamber insignia.</desc><metadata>{
   &quot;assets&quot;: {
+    &quot;accountability-forum&quot;: &quot;&lt;g fill=\&quot;none\&quot; stroke=\&quot;currentColor\&quot; stroke-width=\&quot;0.9\&quot; stroke-linejoin=\&quot;round\&quot; opacity=\&quot;0.48\&quot;&gt;&lt;path d=\&quot;M3 4H25V10H49V4H73V11H97V96H3Z\&quot; stroke-dasharray=\&quot;6 2\&quot;/&gt;&lt;path d=\&quot;M3 18L17 26H83L97 18M17 26V74H83V26M17 74L3 96M83 74L97 96M7 4V15H25M76 11V20H94\&quot;/&gt;&lt;path d=\&quot;M21 31H33V58H21ZM36 31H48V58H36ZM51 31H63V58H51ZM66 31H78V58H66\&quot;/&gt;&lt;/g&gt;&quot;,
     &quot;desk&quot;: &quot;&lt;path d=\&quot;M0 12L85 0L100 30L14 43Z\&quot; fill=\&quot;currentColor\&quot;/&gt;&lt;path d=\&quot;M14 43V100M94 31V90\&quot; stroke=\&quot;currentColor\&quot; stroke-width=\&quot;5\&quot;/&gt;&quot;,
     &quot;monitor&quot;: &quot;&lt;path d=\&quot;M43 78V94H26V98H74V94H57V78\&quot; fill=\&quot;currentColor\&quot;/&gt;&lt;rect x=\&quot;1\&quot; y=\&quot;1\&quot; width=\&quot;98\&quot; height=\&quot;78\&quot; rx=\&quot;3\&quot; fill=\&quot;#101214\&quot; stroke=\&quot;currentColor\&quot; stroke-width=\&quot;3\&quot;/&gt;&lt;rect x=\&quot;7\&quot; y=\&quot;8\&quot; width=\&quot;86\&quot; height=\&quot;61\&quot; fill=\&quot;#202326\&quot;/&gt;&lt;path d=\&quot;M12 17H68M12 25H86M12 33H73M12 41H57\&quot; stroke=\&quot;currentColor\&quot; stroke-width=\&quot;1\&quot;/&gt;&quot;,
     &quot;person-seated&quot;: &quot;&lt;ellipse cx=\&quot;47\&quot; cy=\&quot;14\&quot; rx=\&quot;15\&quot; ry=\&quot;13\&quot; fill=\&quot;currentColor\&quot;/&gt;&lt;path d=\&quot;M35 28Q60 22 69 49L89 54L87 62L61 58L52 44L56 65L79 68L88 98H77L66 80H35Q25 77 27 62Z\&quot; fill=\&quot;currentColor\&quot;/&gt;&lt;path d=\&quot;M17 37V80H58M20 80V100M55 80V100\&quot; fill=\&quot;none\&quot; stroke=\&quot;currentColor\&quot; stroke-width=\&quot;3\&quot;/&gt;&quot;,
-    &quot;person-standing&quot;: &quot;&lt;circle cx=\&quot;50\&quot; cy=\&quot;14\&quot; r=\&quot;12\&quot; fill=\&quot;currentColor\&quot;/&gt;&lt;path d=\&quot;M35 30H65L75 65H63L61 98H51L49 70L47 98H36L36 65H24Z\&quot; fill=\&quot;currentColor\&quot;/&gt;&quot;,
-    &quot;room&quot;: &quot;&lt;path d=\&quot;M0 0H100V100H0Z M0 0L28 30H72L100 0 M28 30V72L0 100 M72 30V72L100 100 M28 72H72\&quot; fill=\&quot;none\&quot; stroke=\&quot;currentColor\&quot; stroke-width=\&quot;1\&quot;/&gt;&quot;
+    &quot;person-standing&quot;: &quot;&lt;circle cx=\&quot;50\&quot; cy=\&quot;14\&quot; r=\&quot;12\&quot; fill=\&quot;currentColor\&quot;/&gt;&lt;path d=\&quot;M35 30H65L75 65H63L61 98H51L49 70L47 98H36L36 65H24Z\&quot; fill=\&quot;currentColor\&quot;/&gt;&quot;
   },
   &quot;palette&quot;: {
     &quot;amber&quot;: &quot;#A17D45&quot;,
@@ -21,7 +21,7 @@
   &quot;renderer&quot;: &quot;storyboard-svg-2&quot;,
   &quot;scene&quot;: {
     &quot;background&quot;: &quot;ink&quot;,
-    &quot;intent&quot;: &quot;Place the real dated slide inside the invented room&#x27;s screen with readable citation. Unidentifiable speaker silhouettes belong to the displayed artifact, not the forum participants.&quot;,
+    &quot;intent&quot;: &quot;Place the real dated slide inside the invented room&#x27;s screen with readable citation. Unidentifiable speaker silhouettes belong to the displayed artifact, not the forum participants. Keep the paper-fragment perimeter and four empty wall bays visible as invented staging, with no official chamber insignia.&quot;,
     &quot;lettering&quot;: [
       {
         &quot;box&quot;: [
@@ -43,14 +43,14 @@
     &quot;lettering_mode&quot;: &quot;manual&quot;,
     &quot;nodes&quot;: [
       {
-        &quot;asset&quot;: &quot;room&quot;,
+        &quot;asset&quot;: &quot;accountability-forum&quot;,
         &quot;box&quot;: [
           0.04,
           0.0587,
           0.49,
           0.8526
         ],
-        &quot;color&quot;: &quot;shadow&quot;
+        &quot;color&quot;: &quot;steel&quot;
       },
       {
         &quot;asset&quot;: &quot;desk&quot;,
@@ -132,4 +132,4 @@
     &quot;title&quot;: &quot;A real dated slide enters the invented forum&quot;
   }
 }
-</metadata><rect width="1200" height="800" fill="#101214"/><rect x="48" y="46.96" width="588" height="682.08" fill="none" stroke="#202326" stroke-width="3"/><text x="56" y="70.96" fill="#202326" font-family="sans-serif" font-size="20">room</text><rect x="144" y="485.44" width="468" height="215.76" fill="none" stroke="#68766B" stroke-width="3"/><text x="152" y="509.44" fill="#68766B" font-family="sans-serif" font-size="20">desk</text><rect x="66" y="337.6" width="156" height="240" fill="none" stroke="#CEC5B3" stroke-width="3"/><text x="74" y="361.6" fill="#CEC5B3" font-family="sans-serif" font-size="20">person-seated</text><rect x="474" y="337.6" width="156" height="240" fill="none" stroke="#CEC5B3" stroke-width="3"/><text x="482" y="361.6" fill="#CEC5B3" font-family="sans-serif" font-size="20">person-seated</text><rect x="84" y="283.6" width="127.28" height="153.12" fill="none" stroke="#5E737B" stroke-width="3"/><text x="92" y="307.6" fill="#5E737B" font-family="sans-serif" font-size="20">monitor</text><text x="147.64" y="455.77" text-anchor="middle" fill="#E7E0D0" font-size="14.25" font-family="sans-serif">CONFERENCE SLIDE</text><rect x="281.36" y="283.6" width="76.56" height="153.12" fill="none" stroke="#CEC5B3" stroke-width="3"/><text x="289.36" y="307.6" fill="#CEC5B3" font-family="sans-serif" font-size="20">person-standing</text><rect x="453.361" y="283.6" width="76.56" height="153.12" fill="none" stroke="#CEC5B3" stroke-width="3"/><text x="461.361" y="307.6" fill="#CEC5B3" font-family="sans-serif" font-size="20">person-standing</text><rect x="3" y="3" width="1194" height="794" fill="none" stroke="#5E737B" stroke-width="4" stroke-dasharray="18 10"/></svg>
+</metadata><rect width="1200" height="800" fill="#101214"/><rect x="48" y="46.96" width="588" height="682.08" fill="none" stroke="#5E737B" stroke-width="3"/><text x="56" y="70.96" fill="#5E737B" font-family="sans-serif" font-size="20">accountability-forum</text><rect x="144" y="485.44" width="468" height="215.76" fill="none" stroke="#68766B" stroke-width="3"/><text x="152" y="509.44" fill="#68766B" font-family="sans-serif" font-size="20">desk</text><rect x="66" y="337.6" width="156" height="240" fill="none" stroke="#CEC5B3" stroke-width="3"/><text x="74" y="361.6" fill="#CEC5B3" font-family="sans-serif" font-size="20">person-seated</text><rect x="474" y="337.6" width="156" height="240" fill="none" stroke="#CEC5B3" stroke-width="3"/><text x="482" y="361.6" fill="#CEC5B3" font-family="sans-serif" font-size="20">person-seated</text><rect x="84" y="283.6" width="127.28" height="153.12" fill="none" stroke="#5E737B" stroke-width="3"/><text x="92" y="307.6" fill="#5E737B" font-family="sans-serif" font-size="20">monitor</text><text x="147.64" y="455.77" text-anchor="middle" fill="#E7E0D0" font-size="14.25" font-family="sans-serif">CONFERENCE SLIDE</text><rect x="281.36" y="283.6" width="76.56" height="153.12" fill="none" stroke="#CEC5B3" stroke-width="3"/><text x="289.36" y="307.6" fill="#CEC5B3" font-family="sans-serif" font-size="20">person-standing</text><rect x="453.361" y="283.6" width="76.56" height="153.12" fill="none" stroke="#CEC5B3" stroke-width="3"/><text x="461.361" y="307.6" fill="#CEC5B3" font-family="sans-serif" font-size="20">person-standing</text><rect x="3" y="3" width="1194" height="794" fill="none" stroke="#5E737B" stroke-width="4" stroke-dasharray="18 10"/></svg>

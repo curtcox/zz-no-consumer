@@ -1,6 +1,6 @@
 {
   "background": "ink",
-  "intent": "Place root authority wholly inside the customer workload, with intact platform and Hugging Face boundaries outside. Access to this island must not imply entry to either surrounding system.",
+  "intent": "Place root authority wholly inside the customer workload, with intact platform and Hugging Face boundaries outside. Access to this island must not imply entry to either surrounding system. Use the independent customer workload inside intact platform geometry to identify this setting; keep the existing labels, qualifications and foreground relationships.",
   "lettering": [
     {
       "box": [
@@ -14,7 +14,7 @@
   "lettering_mode": "manual",
   "nodes": [
     {
-      "asset": "outline-box",
+      "asset": "customer-workload-field",
       "box": [
         0.0541,
         0.0521,

@@ -1,8 +1,8 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="800" viewBox="0 0 1200 800"><title>Only the customer workload is exposed</title><desc>Nest the customer workload inside a larger intact platform perimeter. Put the board card outside both; the route reaches the workload endpoint without coloring the platform as compromised.</desc><metadata>{
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="800" viewBox="0 0 1200 800"><title>Only the customer workload is exposed</title><desc>Nest the customer workload inside a larger intact platform perimeter. Put the board card outside both; the route reaches the workload endpoint without coloring the platform as compromised. Use the independent customer workload inside intact platform geometry to identify this setting; keep the existing labels, qualifications and foreground relationships.</desc><metadata>{
   &quot;assets&quot;: {
     &quot;arrow&quot;: &quot;&lt;path d=\&quot;M1 50H87M70 18L96 50L70 82\&quot; fill=\&quot;none\&quot; stroke=\&quot;currentColor\&quot; stroke-width=\&quot;5\&quot;/&gt;&quot;,
     &quot;box&quot;: &quot;&lt;rect x=\&quot;1\&quot; y=\&quot;1\&quot; width=\&quot;98\&quot; height=\&quot;98\&quot; rx=\&quot;2\&quot; fill=\&quot;#202326\&quot; stroke=\&quot;currentColor\&quot; stroke-width=\&quot;2\&quot;/&gt;&quot;,
-    &quot;outline-box&quot;: &quot;&lt;rect x=\&quot;2\&quot; y=\&quot;2\&quot; width=\&quot;96\&quot; height=\&quot;96\&quot; fill=\&quot;none\&quot; stroke=\&quot;currentColor\&quot; stroke-width=\&quot;3\&quot;/&gt;&quot;,
+    &quot;customer-workload-field&quot;: &quot;&lt;g fill=\&quot;none\&quot; stroke=\&quot;currentColor\&quot; stroke-width=\&quot;0.9\&quot; stroke-linejoin=\&quot;round\&quot; opacity=\&quot;1\&quot;&gt;&lt;rect x=\&quot;2\&quot; y=\&quot;2\&quot; width=\&quot;96\&quot; height=\&quot;96\&quot;/&gt;&lt;rect x=\&quot;5\&quot; y=\&quot;5\&quot; width=\&quot;90\&quot; height=\&quot;90\&quot;/&gt;&lt;path d=\&quot;M5 17H95M12 11H38M63 11H87\&quot;/&gt;&lt;/g&gt;&quot;,
     &quot;sealed&quot;: &quot;&lt;rect x=\&quot;3\&quot; y=\&quot;9\&quot; width=\&quot;94\&quot; height=\&quot;82\&quot; fill=\&quot;#202326\&quot; stroke=\&quot;currentColor\&quot; stroke-width=\&quot;3\&quot;/&gt;&lt;path d=\&quot;M12 30H88M12 49H88M12 68H88\&quot; stroke=\&quot;#101214\&quot; stroke-width=\&quot;12\&quot;/&gt;&quot;
   },
   &quot;palette&quot;: {
@@ -20,7 +20,7 @@
   &quot;renderer&quot;: &quot;storyboard-svg-2&quot;,
   &quot;scene&quot;: {
     &quot;background&quot;: &quot;ink&quot;,
-    &quot;intent&quot;: &quot;Nest the customer workload inside a larger intact platform perimeter. Put the board card outside both; the route reaches the workload endpoint without coloring the platform as compromised.&quot;,
+    &quot;intent&quot;: &quot;Nest the customer workload inside a larger intact platform perimeter. Put the board card outside both; the route reaches the workload endpoint without coloring the platform as compromised. Use the independent customer workload inside intact platform geometry to identify this setting; keep the existing labels, qualifications and foreground relationships.&quot;,
     &quot;lettering&quot;: [
       {
         &quot;box&quot;: [
@@ -53,7 +53,7 @@
         &quot;label_size&quot;: 18
       },
       {
-        &quot;asset&quot;: &quot;outline-box&quot;,
+        &quot;asset&quot;: &quot;customer-workload-field&quot;,
         &quot;box&quot;: [
           0.3362,
           0.0521,
@@ -108,4 +108,4 @@
     &quot;title&quot;: &quot;Only the customer workload is exposed&quot;
   }
 }
-</metadata><rect width="1200" height="800" fill="#101214"/><rect x="64.92" y="149.6" width="240.24" height="209.933" fill="none" stroke="#5E737B" stroke-width="3"/><text x="72.92" y="173.6" fill="#5E737B" font-family="sans-serif" font-size="20">sealed</text><text x="185.04" y="390.256" text-anchor="middle" fill="#E7E0D0" font-size="18" font-family="sans-serif">03:32 BOARD CARD</text><rect x="403.44" y="41.68" width="731.64" height="436.36" fill="none" stroke="#5E737B" stroke-width="3"/><text x="411.44" y="65.68" fill="#5E737B" font-family="sans-serif" font-size="20">outline-box</text><text x="769.26" y="502.44" text-anchor="middle" fill="#E7E0D0" font-size="18" font-family="sans-serif">MODAL PLATFORM — NOT COMPROMISED</text><rect x="567.24" y="178" width="393.12" height="153.701" fill="none" stroke="#5E737B" stroke-width="3"/><text x="575.24" y="202" fill="#5E737B" font-family="sans-serif" font-size="20">box</text><text x="763.8" y="359.016" text-anchor="middle" fill="#E7E0D0" font-size="18" font-family="sans-serif">CUSTOMER WORKLOAD</text><rect x="327" y="229.12" width="218.4" height="45.44" fill="none" stroke="#5E737B" stroke-width="3"/><text x="335" y="253.12" fill="#5E737B" font-family="sans-serif" font-size="20">arrow</text><rect x="3" y="3" width="1194" height="794" fill="none" stroke="#5E737B" stroke-width="4"/></svg>
+</metadata><rect width="1200" height="800" fill="#101214"/><rect x="64.92" y="149.6" width="240.24" height="209.933" fill="none" stroke="#5E737B" stroke-width="3"/><text x="72.92" y="173.6" fill="#5E737B" font-family="sans-serif" font-size="20">sealed</text><text x="185.04" y="390.256" text-anchor="middle" fill="#E7E0D0" font-size="18" font-family="sans-serif">03:32 BOARD CARD</text><rect x="403.44" y="41.68" width="731.64" height="436.36" fill="none" stroke="#5E737B" stroke-width="3"/><text x="411.44" y="65.68" fill="#5E737B" font-family="sans-serif" font-size="20">customer-workload-field</text><text x="769.26" y="502.44" text-anchor="middle" fill="#E7E0D0" font-size="18" font-family="sans-serif">MODAL PLATFORM — NOT COMPROMISED</text><rect x="567.24" y="178" width="393.12" height="153.701" fill="none" stroke="#5E737B" stroke-width="3"/><text x="575.24" y="202" fill="#5E737B" font-family="sans-serif" font-size="20">box</text><text x="763.8" y="359.016" text-anchor="middle" fill="#E7E0D0" font-size="18" font-family="sans-serif">CUSTOMER WORKLOAD</text><rect x="327" y="229.12" width="218.4" height="45.44" fill="none" stroke="#5E737B" stroke-width="3"/><text x="335" y="253.12" fill="#5E737B" font-family="sans-serif" font-size="20">arrow</text><rect x="3" y="3" width="1194" height="794" fill="none" stroke="#5E737B" stroke-width="4"/></svg>

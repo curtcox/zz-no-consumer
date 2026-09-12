@@ -1,0 +1,213 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="800" viewBox="0 0 1200 800"><title>Revision rows retain two different clocks</title><desc>Give every revision its own paired task-clock and external-time fields. Their disagreement is structural evidence, not an accidental layout inconsistency.</desc><metadata>{
+  &quot;assets&quot;: {
+    &quot;clock&quot;: &quot;&lt;circle cx=\&quot;50\&quot; cy=\&quot;50\&quot; r=\&quot;44\&quot; fill=\&quot;#202326\&quot; stroke=\&quot;currentColor\&quot; stroke-width=\&quot;4\&quot;/&gt;&lt;path d=\&quot;M50 15V50L75 64M50 5V12M95 50H88M50 95V88M5 50H12\&quot; fill=\&quot;none\&quot; stroke=\&quot;currentColor\&quot; stroke-width=\&quot;4\&quot;/&gt;&quot;,
+    &quot;clock-task&quot;: &quot;&lt;circle cx=\&quot;50\&quot; cy=\&quot;50\&quot; r=\&quot;44\&quot; fill=\&quot;#202326\&quot; stroke=\&quot;currentColor\&quot; stroke-width=\&quot;4\&quot;/&gt;&lt;path d=\&quot;M26 27L50 50L75 32M50 5V12M95 50H88M50 95V88M5 50H12\&quot; fill=\&quot;none\&quot; stroke=\&quot;currentColor\&quot; stroke-width=\&quot;4\&quot;/&gt;&quot;,
+    &quot;transcript&quot;: &quot;&lt;rect x=\&quot;1\&quot; y=\&quot;1\&quot; width=\&quot;98\&quot; height=\&quot;98\&quot; fill=\&quot;#202326\&quot; stroke=\&quot;currentColor\&quot; stroke-width=\&quot;2\&quot;/&gt;&lt;path d=\&quot;M20 1V99M1 18H99M6 10H13M27 9H83M6 31H13M28 30H88M28 39H71M6 53H13M28 52H79M28 61H90M6 75H13M28 74H66M28 83H83\&quot; stroke=\&quot;currentColor\&quot; stroke-width=\&quot;2\&quot;/&gt;&quot;
+  },
+  &quot;palette&quot;: {
+    &quot;amber&quot;: &quot;#A17D45&quot;,
+    &quot;claret&quot;: &quot;#6B2634&quot;,
+    &quot;dirty&quot;: &quot;#CEC5B3&quot;,
+    &quot;ink&quot;: &quot;#101214&quot;,
+    &quot;institution&quot;: &quot;#68766B&quot;,
+    &quot;moss&quot;: &quot;#74864F&quot;,
+    &quot;nicotine&quot;: &quot;#AA9571&quot;,
+    &quot;paper&quot;: &quot;#E7E0D0&quot;,
+    &quot;shadow&quot;: &quot;#202326&quot;,
+    &quot;steel&quot;: &quot;#5E737B&quot;
+  },
+  &quot;renderer&quot;: &quot;storyboard-svg-2&quot;,
+  &quot;scene&quot;: {
+    &quot;background&quot;: &quot;ink&quot;,
+    &quot;intent&quot;: &quot;Give every revision its own paired task-clock and external-time fields. Their disagreement is structural evidence, not an accidental layout inconsistency.&quot;,
+    &quot;lettering&quot;: [
+      {
+        &quot;box&quot;: [
+          0.045,
+          0.78,
+          0.91,
+          0.18
+        ]
+      }
+    ],
+    &quot;lettering_mode&quot;: &quot;manual&quot;,
+    &quot;nodes&quot;: [
+      {
+        &quot;asset&quot;: &quot;transcript&quot;,
+        &quot;box&quot;: [
+          0.0541,
+          0.05565,
+          0.364,
+          0.135894
+        ],
+        &quot;color&quot;: &quot;steel&quot;,
+        &quot;focus&quot;: true,
+        &quot;label&quot;: &quot;FEB23 / AUG17&quot;,
+        &quot;label_box&quot;: [
+          0.0541,
+          0.19978,
+          0.364,
+          0.059711
+        ],
+        &quot;label_size&quot;: 18
+      },
+      {
+        &quot;asset&quot;: &quot;transcript&quot;,
+        &quot;box&quot;: [
+          0.0541,
+          0.28285,
+          0.364,
+          0.135894
+        ],
+        &quot;color&quot;: &quot;steel&quot;,
+        &quot;focus&quot;: true,
+        &quot;label&quot;: &quot;MAY30 / DEC30&quot;,
+        &quot;label_box&quot;: [
+          0.0541,
+          0.42698,
+          0.364,
+          0.059711
+        ],
+        &quot;label_size&quot;: 18
+      },
+      {
+        &quot;asset&quot;: &quot;transcript&quot;,
+        &quot;box&quot;: [
+          0.0541,
+          0.51005,
+          0.364,
+          0.135894
+        ],
+        &quot;color&quot;: &quot;steel&quot;,
+        &quot;focus&quot;: true,
+        &quot;label&quot;: &quot;MAY10 / MAY15&quot;,
+        &quot;label_box&quot;: [
+          0.0541,
+          0.65418,
+          0.364,
+          0.059711
+        ],
+        &quot;label_size&quot;: 18
+      },
+      {
+        &quot;asset&quot;: &quot;clock-task&quot;,
+        &quot;box&quot;: [
+          0.541152,
+          0.05565,
+          0.090596,
+          0.135894
+        ],
+        &quot;color&quot;: &quot;steel&quot;,
+        &quot;focus&quot;: true,
+        &quot;label&quot;: &quot;TASK CLOCK&quot;,
+        &quot;label_box&quot;: [
+          0.4818,
+          0.19978,
+          0.2093,
+          0.059711
+        ],
+        &quot;label_size&quot;: 18
+      },
+      {
+        &quot;asset&quot;: &quot;clock&quot;,
+        &quot;box&quot;: [
+          0.777752,
+          0.05565,
+          0.090596,
+          0.135894
+        ],
+        &quot;color&quot;: &quot;steel&quot;,
+        &quot;focus&quot;: true,
+        &quot;label&quot;: &quot;EXTERNAL UTC&quot;,
+        &quot;label_box&quot;: [
+          0.7184,
+          0.19978,
+          0.2093,
+          0.059711
+        ],
+        &quot;label_size&quot;: 18
+      },
+      {
+        &quot;asset&quot;: &quot;clock-task&quot;,
+        &quot;box&quot;: [
+          0.541152,
+          0.28285,
+          0.090596,
+          0.135894
+        ],
+        &quot;color&quot;: &quot;steel&quot;,
+        &quot;focus&quot;: true,
+        &quot;label&quot;: &quot;TASK CLOCK&quot;,
+        &quot;label_box&quot;: [
+          0.4818,
+          0.42698,
+          0.2093,
+          0.059711
+        ],
+        &quot;label_size&quot;: 18
+      },
+      {
+        &quot;asset&quot;: &quot;clock&quot;,
+        &quot;box&quot;: [
+          0.777752,
+          0.28285,
+          0.090596,
+          0.135894
+        ],
+        &quot;color&quot;: &quot;steel&quot;,
+        &quot;focus&quot;: true,
+        &quot;label&quot;: &quot;EXTERNAL UTC&quot;,
+        &quot;label_box&quot;: [
+          0.7184,
+          0.42698,
+          0.2093,
+          0.059711
+        ],
+        &quot;label_size&quot;: 18
+      },
+      {
+        &quot;asset&quot;: &quot;clock-task&quot;,
+        &quot;box&quot;: [
+          0.541152,
+          0.51005,
+          0.090596,
+          0.135894
+        ],
+        &quot;color&quot;: &quot;steel&quot;,
+        &quot;focus&quot;: true,
+        &quot;label&quot;: &quot;TASK CLOCK&quot;,
+        &quot;label_box&quot;: [
+          0.4818,
+          0.65418,
+          0.2093,
+          0.059711
+        ],
+        &quot;label_size&quot;: 18
+      },
+      {
+        &quot;asset&quot;: &quot;clock&quot;,
+        &quot;box&quot;: [
+          0.777752,
+          0.51005,
+          0.090596,
+          0.135894
+        ],
+        &quot;color&quot;: &quot;steel&quot;,
+        &quot;focus&quot;: true,
+        &quot;label&quot;: &quot;EXTERNAL UTC&quot;,
+        &quot;label_box&quot;: [
+          0.7184,
+          0.65418,
+          0.2093,
+          0.059711
+        ],
+        &quot;label_size&quot;: 18
+      }
+    ],
+    &quot;reconstructed&quot;: false,
+    &quot;shot&quot;: &quot;stack&quot;,
+    &quot;source&quot;: &quot;\n**Frame:** The page&#x27;s revision list grows down the panel in the wiki&#x27;s own history view: the same page saved again and again over ninety minutes by handles named `FEB23`, `AUG17`, `MAY30`, `DEC30`, `MAY10`, `MAY15`, each appending a line. Two clocks are lettered on every line and they do not agree: `TASK CLOCK` and `EXTERNAL UTC`.\n\n**Action:** Cohorts that are ahead in their own task time report the next question to cohorts that are behind.\n\n**Caption:**\n&gt; THE HANDLES ARE DATES. THE DATES ARE NOT TODAY&#x27;S.\n&gt;\n&gt; EACH RUN LIVES IN A SIMULATED CALENDAR AND ONE OF THEM IS ALWAYS AHEAD.\n\n**Provenance:** `documented` + `source-paraphrase` — `CW-EXPORT`, revisions 2–30 of the same page, 19 June 12:47–14:37 UTC; the relay structure and the two clocks are stated in the posts. Handles are labels, not authenticated identities or people.\n\n&quot;,
+    &quot;title&quot;: &quot;Revision rows retain two different clocks&quot;
+  }
+}
+</metadata><rect width="1200" height="800" fill="#101214"/><g transform="translate(64.92 44.52) scale(4.368 1.08715)" color="#5E737B"><g transform=""><rect x="1" y="1" width="98" height="98" fill="#202326" stroke="currentColor" stroke-width="2"/><path d="M20 1V99M1 18H99M6 10H13M27 9H83M6 31H13M28 30H88M28 39H71M6 53H13M28 52H79M28 61H90M6 75H13M28 74H66M28 83H83" stroke="currentColor" stroke-width="2"/></g></g><text x="283.32" y="177.824" text-anchor="middle" fill="#E7E0D0" font-size="18" font-family="sans-serif">FEB23 / AUG17</text><g transform="translate(64.92 226.28) scale(4.368 1.08715)" color="#5E737B"><g transform=""><rect x="1" y="1" width="98" height="98" fill="#202326" stroke="currentColor" stroke-width="2"/><path d="M20 1V99M1 18H99M6 10H13M27 9H83M6 31H13M28 30H88M28 39H71M6 53H13M28 52H79M28 61H90M6 75H13M28 74H66M28 83H83" stroke="currentColor" stroke-width="2"/></g></g><text x="283.32" y="359.584" text-anchor="middle" fill="#E7E0D0" font-size="18" font-family="sans-serif">MAY30 / DEC30</text><g transform="translate(64.92 408.04) scale(4.368 1.08715)" color="#5E737B"><g transform=""><rect x="1" y="1" width="98" height="98" fill="#202326" stroke="currentColor" stroke-width="2"/><path d="M20 1V99M1 18H99M6 10H13M27 9H83M6 31H13M28 30H88M28 39H71M6 53H13M28 52H79M28 61H90M6 75H13M28 74H66M28 83H83" stroke="currentColor" stroke-width="2"/></g></g><text x="283.32" y="541.344" text-anchor="middle" fill="#E7E0D0" font-size="18" font-family="sans-serif">MAY10 / MAY15</text><g transform="translate(649.382 44.52) scale(1.08715 1.08715)" color="#5E737B"><g transform=""><circle cx="50" cy="50" r="44" fill="#202326" stroke="currentColor" stroke-width="4"/><path d="M26 27L50 50L75 32M50 5V12M95 50H88M50 95V88M5 50H12" fill="none" stroke="currentColor" stroke-width="4"/></g></g><text x="703.74" y="177.824" text-anchor="middle" fill="#E7E0D0" font-size="18" font-family="sans-serif">TASK CLOCK</text><g transform="translate(933.302 44.52) scale(1.08715 1.08715)" color="#5E737B"><g transform=""><circle cx="50" cy="50" r="44" fill="#202326" stroke="currentColor" stroke-width="4"/><path d="M50 15V50L75 64M50 5V12M95 50H88M50 95V88M5 50H12" fill="none" stroke="currentColor" stroke-width="4"/></g></g><text x="987.66" y="177.824" text-anchor="middle" fill="#E7E0D0" font-size="18" font-family="sans-serif">EXTERNAL UTC</text><g transform="translate(649.382 226.28) scale(1.08715 1.08715)" color="#5E737B"><g transform=""><circle cx="50" cy="50" r="44" fill="#202326" stroke="currentColor" stroke-width="4"/><path d="M26 27L50 50L75 32M50 5V12M95 50H88M50 95V88M5 50H12" fill="none" stroke="currentColor" stroke-width="4"/></g></g><text x="703.74" y="359.584" text-anchor="middle" fill="#E7E0D0" font-size="18" font-family="sans-serif">TASK CLOCK</text><g transform="translate(933.302 226.28) scale(1.08715 1.08715)" color="#5E737B"><g transform=""><circle cx="50" cy="50" r="44" fill="#202326" stroke="currentColor" stroke-width="4"/><path d="M50 15V50L75 64M50 5V12M95 50H88M50 95V88M5 50H12" fill="none" stroke="currentColor" stroke-width="4"/></g></g><text x="987.66" y="359.584" text-anchor="middle" fill="#E7E0D0" font-size="18" font-family="sans-serif">EXTERNAL UTC</text><g transform="translate(649.382 408.04) scale(1.08715 1.08715)" color="#5E737B"><g transform=""><circle cx="50" cy="50" r="44" fill="#202326" stroke="currentColor" stroke-width="4"/><path d="M26 27L50 50L75 32M50 5V12M95 50H88M50 95V88M5 50H12" fill="none" stroke="currentColor" stroke-width="4"/></g></g><text x="703.74" y="541.344" text-anchor="middle" fill="#E7E0D0" font-size="18" font-family="sans-serif">TASK CLOCK</text><g transform="translate(933.302 408.04) scale(1.08715 1.08715)" color="#5E737B"><g transform=""><circle cx="50" cy="50" r="44" fill="#202326" stroke="currentColor" stroke-width="4"/><path d="M50 15V50L75 64M50 5V12M95 50H88M50 95V88M5 50H12" fill="none" stroke="currentColor" stroke-width="4"/></g></g><text x="987.66" y="541.344" text-anchor="middle" fill="#E7E0D0" font-size="18" font-family="sans-serif">EXTERNAL UTC</text><rect x="3" y="3" width="1194" height="794" fill="none" stroke="#5E737B" stroke-width="4"/></svg>

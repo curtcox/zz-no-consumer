@@ -1,6 +1,6 @@
 {
   "background": "ink",
-  "intent": "Keep the counsel's functional nameplate and the invented forum setting. Support the spoken decomposition with distinct activity slots, without depicting any as actually halted.",
+  "intent": "Keep the counsel's functional nameplate and the invented forum setting. Support the spoken decomposition with distinct activity slots, without depicting any as actually halted. Keep the paper-fragment perimeter and four empty wall bays visible as invented staging, with no official chamber insignia.",
   "lettering": [
     {
       "box": [
@@ -14,14 +14,14 @@
   "lettering_mode": "manual",
   "nodes": [
     {
-      "asset": "room",
+      "asset": "accountability-forum",
       "box": [
         0.0492,
         0.0514,
         0.9016,
         0.6272
       ],
-      "color": "shadow"
+      "color": "steel"
     },
     {
       "asset": "desk",

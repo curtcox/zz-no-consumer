@@ -1,0 +1,86 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="800" viewBox="0 0 1200 800"><title>Empty operations chairs receive no page</title><desc>Show genuinely empty chairs and an unoccupied paging destination. No silhouette, hand or acknowledged-screen state should invent a human ignoring an alert.</desc><metadata>{
+  &quot;assets&quot;: {
+    &quot;desk&quot;: &quot;&lt;path d=\&quot;M0 12L85 0L100 30L14 43Z\&quot; fill=\&quot;currentColor\&quot;/&gt;&lt;path d=\&quot;M14 43V100M94 31V90\&quot; stroke=\&quot;currentColor\&quot; stroke-width=\&quot;5\&quot;/&gt;&quot;,
+    &quot;empty-chair&quot;: &quot;&lt;path d=\&quot;M25 5H73V52H25ZM21 59H80V71H21M28 71V98M72 71V98\&quot; fill=\&quot;#202326\&quot; stroke=\&quot;currentColor\&quot; stroke-width=\&quot;3\&quot;/&gt;&quot;,
+    &quot;room&quot;: &quot;&lt;path d=\&quot;M0 0H100V100H0Z M0 0L28 30H72L100 0 M28 30V72L0 100 M72 30V72L100 100 M28 72H72\&quot; fill=\&quot;none\&quot; stroke=\&quot;currentColor\&quot; stroke-width=\&quot;1\&quot;/&gt;&quot;
+  },
+  &quot;palette&quot;: {
+    &quot;amber&quot;: &quot;#A17D45&quot;,
+    &quot;claret&quot;: &quot;#6B2634&quot;,
+    &quot;dirty&quot;: &quot;#CEC5B3&quot;,
+    &quot;ink&quot;: &quot;#101214&quot;,
+    &quot;institution&quot;: &quot;#68766B&quot;,
+    &quot;moss&quot;: &quot;#74864F&quot;,
+    &quot;nicotine&quot;: &quot;#AA9571&quot;,
+    &quot;paper&quot;: &quot;#E7E0D0&quot;,
+    &quot;shadow&quot;: &quot;#202326&quot;,
+    &quot;steel&quot;: &quot;#5E737B&quot;
+  },
+  &quot;renderer&quot;: &quot;storyboard-svg-2&quot;,
+  &quot;scene&quot;: {
+    &quot;background&quot;: &quot;ink&quot;,
+    &quot;intent&quot;: &quot;Show genuinely empty chairs and an unoccupied paging destination. No silhouette, hand or acknowledged-screen state should invent a human ignoring an alert.&quot;,
+    &quot;lettering&quot;: [
+      {
+        &quot;box&quot;: [
+          0.045,
+          0.78,
+          0.91,
+          0.18
+        ]
+      }
+    ],
+    &quot;lettering_mode&quot;: &quot;manual&quot;,
+    &quot;nodes&quot;: [
+      {
+        &quot;asset&quot;: &quot;room&quot;,
+        &quot;box&quot;: [
+          0.0541,
+          0.0521,
+          0.8918,
+          0.6816
+        ],
+        &quot;color&quot;: &quot;shadow&quot;,
+        &quot;focus&quot;: true
+      },
+      {
+        &quot;asset&quot;: &quot;desk&quot;,
+        &quot;box&quot;: [
+          0.1724,
+          0.4497,
+          0.6552,
+          0.2414
+        ],
+        &quot;color&quot;: &quot;steel&quot;,
+        &quot;focus&quot;: true
+      },
+      {
+        &quot;asset&quot;: &quot;empty-chair&quot;,
+        &quot;box&quot;: [
+          0.2179,
+          0.27335,
+          0.1911,
+          0.4095
+        ],
+        &quot;color&quot;: &quot;steel&quot;,
+        &quot;focus&quot;: true
+      },
+      {
+        &quot;asset&quot;: &quot;empty-chair&quot;,
+        &quot;box&quot;: [
+          0.591,
+          0.27335,
+          0.1911,
+          0.4095
+        ],
+        &quot;color&quot;: &quot;steel&quot;,
+        &quot;focus&quot;: true
+      }
+    ],
+    &quot;reconstructed&quot;: false,
+    &quot;shot&quot;: &quot;hero&quot;,
+    &quot;source&quot;: &quot;\n**Frame:** Empty reconstructed operations chairs. Do not show a human viewing, dismissing, or acknowledging the alert.\n\n**Action:** No timely human response is initiated through this path.\n\n**Caption:**\n&gt; NO HUMAN HAS TO IGNORE THE WARNING.\n&gt;\n&gt; THE WARNING NEVER REACHES THEM AS A PAGE.\n\n**Provenance:** `documented` + `inferred` — paging failure is sourced; contrast avoids inventing human negligence.\n\n&quot;,
+    &quot;title&quot;: &quot;Empty operations chairs receive no page&quot;
+  }
+}
+</metadata><rect width="1200" height="800" fill="#101214"/><g transform="translate(64.92 41.68) scale(10.7016 5.4528)" color="#202326"><g transform=""><path d="M0 0H100V100H0Z M0 0L28 30H72L100 0 M28 30V72L0 100 M72 30V72L100 100 M28 72H72" fill="none" stroke="currentColor" stroke-width="1"/></g></g><g transform="translate(206.88 359.76) scale(7.8624 1.9312)" color="#5E737B"><g transform=""><path d="M0 12L85 0L100 30L14 43Z" fill="currentColor"/><path d="M14 43V100M94 31V90" stroke="currentColor" stroke-width="5"/></g></g><g transform="translate(261.48 218.68) scale(2.2932 3.276)" color="#5E737B"><g transform=""><path d="M25 5H73V52H25ZM21 59H80V71H21M28 71V98M72 71V98" fill="#202326" stroke="currentColor" stroke-width="3"/></g></g><g transform="translate(709.2 218.68) scale(2.2932 3.276)" color="#5E737B"><g transform=""><path d="M25 5H73V52H25ZM21 59H80V71H21M28 71V98M72 71V98" fill="#202326" stroke="currentColor" stroke-width="3"/></g></g><rect x="3" y="3" width="1194" height="794" fill="none" stroke="#5E737B" stroke-width="4"/></svg>

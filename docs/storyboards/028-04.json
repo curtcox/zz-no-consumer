@@ -1,18 +1,18 @@
 {
   "background": "ink",
-  "intent": "Bring a broader service-failure alert into the same ordinary response environment. The exact timestamp and enlarged incident scope distinguish this escalation from the earlier network signal.",
+  "intent": "Bring a broader service-failure alert into the same ordinary response environment. The exact timestamp and enlarged incident scope distinguish this escalation from the earlier network signal. Reuse the flat lights and blank telemetry wall through the response sequence; background screens introduce no additional findings.",
   "lettering": [],
   "lettering_mode": "manual",
   "nodes": [
     {
-      "asset": "room",
+      "asset": "incident-operations-room",
       "box": [
         0.0443,
         0.044,
         0.9114,
         0.882
       ],
-      "color": "shadow"
+      "color": "steel"
     },
     {
       "asset": "desk",

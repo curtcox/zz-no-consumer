@@ -1,6 +1,6 @@
 {
   "background": "ink",
-  "intent": "Place the real dated slide inside the invented room's screen with readable citation. Unidentifiable speaker silhouettes belong to the displayed artifact, not the forum participants.",
+  "intent": "Place the real dated slide inside the invented room's screen with readable citation. Unidentifiable speaker silhouettes belong to the displayed artifact, not the forum participants. Keep the paper-fragment perimeter and four empty wall bays visible as invented staging, with no official chamber insignia.",
   "lettering": [
     {
       "box": [
@@ -22,14 +22,14 @@
   "lettering_mode": "manual",
   "nodes": [
     {
-      "asset": "room",
+      "asset": "accountability-forum",
       "box": [
         0.04,
         0.0587,
         0.49,
         0.8526
       ],
-      "color": "shadow"
+      "color": "steel"
     },
     {
       "asset": "desk",

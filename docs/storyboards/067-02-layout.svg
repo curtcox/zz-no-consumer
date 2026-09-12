@@ -1,5 +1,6 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="800" viewBox="0 0 1200 800"><title>Later documentary cards stay inside the new source register</title><desc>Keep later events and times inside the new source field. Documentary precision must remain attributed to the reporting organization rather than imply outside corroboration.</desc><metadata>{
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="800" viewBox="0 0 1200 800"><title>Later documentary cards stay inside the new source register</title><desc>Keep later events and times inside the new source field. Documentary precision must remain attributed to the reporting organization rather than imply outside corroboration. Use the attributed institutional dossier field as a quiet setting layer; its empty areas carry no additional events or evidence.</desc><metadata>{
   &quot;assets&quot;: {
+    &quot;attributed-dossier-field&quot;: &quot;&lt;g fill=\&quot;none\&quot; stroke=\&quot;currentColor\&quot; stroke-width=\&quot;0.9\&quot; stroke-linejoin=\&quot;round\&quot; opacity=\&quot;0.5\&quot;&gt;&lt;path d=\&quot;M8 2H98V92H94M2 8H92V98H2Z\&quot;/&gt;&lt;path d=\&quot;M2 19H92M10 8V98M3 26L9 20M3 39L9 33M3 52L9 46M3 65L9 59M3 78L9 72M3 91L9 85\&quot;/&gt;&lt;/g&gt;&quot;,
     &quot;card&quot;: &quot;&lt;rect x=\&quot;1\&quot; y=\&quot;1\&quot; width=\&quot;98\&quot; height=\&quot;98\&quot; fill=\&quot;#202326\&quot; stroke=\&quot;currentColor\&quot; stroke-width=\&quot;2\&quot;/&gt;&lt;path d=\&quot;M1 20H99M9 10H42M62 10H90M10 34H87M10 45H73M10 56H82M10 76H57M10 87H38\&quot; stroke=\&quot;currentColor\&quot; stroke-width=\&quot;2\&quot;/&gt;&quot;
   },
   &quot;palette&quot;: {
@@ -17,7 +18,7 @@
   &quot;renderer&quot;: &quot;storyboard-svg-2&quot;,
   &quot;scene&quot;: {
     &quot;background&quot;: &quot;ink&quot;,
-    &quot;intent&quot;: &quot;Keep later events and times inside the new source field. Documentary precision must remain attributed to the reporting organization rather than imply outside corroboration.&quot;,
+    &quot;intent&quot;: &quot;Keep later events and times inside the new source field. Documentary precision must remain attributed to the reporting organization rather than imply outside corroboration. Use the attributed institutional dossier field as a quiet setting layer; its empty areas carry no additional events or evidence.&quot;,
     &quot;lettering&quot;: [
       {
         &quot;box&quot;: [
@@ -38,6 +39,16 @@
     ],
     &quot;lettering_mode&quot;: &quot;manual&quot;,
     &quot;nodes&quot;: [
+      {
+        &quot;asset&quot;: &quot;attributed-dossier-field&quot;,
+        &quot;box&quot;: [
+          0.025,
+          0.1,
+          0.53,
+          0.66
+        ],
+        &quot;color&quot;: &quot;steel&quot;
+      },
       {
         &quot;asset&quot;: &quot;card&quot;,
         &quot;box&quot;: [
@@ -102,4 +113,4 @@
     &quot;title&quot;: &quot;Later documentary cards stay inside the new source register&quot;
   }
 }
-</metadata><rect width="1200" height="800" fill="#101214"/><rect x="69.3" y="191.76" width="161.16" height="275.695" fill="none" stroke="#5E737B" stroke-width="3"/><text x="77.3" y="215.76" fill="#5E737B" font-family="sans-serif" font-size="20">card</text><text x="149.88" y="502.164" text-anchor="middle" fill="#E7E0D0" font-size="18" font-family="sans-serif">OPENAI EVENT</text><text x="149.88" y="526.644" text-anchor="middle" fill="#E7E0D0" font-size="18" font-family="sans-serif">TABLE</text><rect x="273.3" y="191.76" width="161.16" height="275.695" fill="none" stroke="#5E737B" stroke-width="3"/><text x="281.3" y="215.76" fill="#5E737B" font-family="sans-serif" font-size="20">card</text><text x="353.88" y="502.164" text-anchor="middle" fill="#E7E0D0" font-size="18" font-family="sans-serif">PUBLISHED</text><text x="353.88" y="526.644" text-anchor="middle" fill="#E7E0D0" font-size="18" font-family="sans-serif">ACCOUNT</text><rect x="477.3" y="191.76" width="161.16" height="275.695" fill="none" stroke="#5E737B" stroke-width="3"/><text x="485.3" y="215.76" fill="#5E737B" font-family="sans-serif" font-size="20">card</text><text x="557.88" y="502.164" text-anchor="middle" fill="#E7E0D0" font-size="18" font-family="sans-serif">PUBLISHED</text><text x="557.88" y="526.644" text-anchor="middle" fill="#E7E0D0" font-size="18" font-family="sans-serif">TIMES</text><rect x="3" y="3" width="1194" height="794" fill="none" stroke="#5E737B" stroke-width="4"/></svg>
+</metadata><rect width="1200" height="800" fill="#101214"/><rect x="30" y="80" width="636" height="528" fill="none" stroke="#5E737B" stroke-width="3"/><text x="38" y="104" fill="#5E737B" font-family="sans-serif" font-size="20">attributed-dossier-field</text><rect x="69.3" y="191.76" width="161.16" height="275.695" fill="none" stroke="#5E737B" stroke-width="3"/><text x="77.3" y="215.76" fill="#5E737B" font-family="sans-serif" font-size="20">card</text><text x="149.88" y="502.164" text-anchor="middle" fill="#E7E0D0" font-size="18" font-family="sans-serif">OPENAI EVENT</text><text x="149.88" y="526.644" text-anchor="middle" fill="#E7E0D0" font-size="18" font-family="sans-serif">TABLE</text><rect x="273.3" y="191.76" width="161.16" height="275.695" fill="none" stroke="#5E737B" stroke-width="3"/><text x="281.3" y="215.76" fill="#5E737B" font-family="sans-serif" font-size="20">card</text><text x="353.88" y="502.164" text-anchor="middle" fill="#E7E0D0" font-size="18" font-family="sans-serif">PUBLISHED</text><text x="353.88" y="526.644" text-anchor="middle" fill="#E7E0D0" font-size="18" font-family="sans-serif">ACCOUNT</text><rect x="477.3" y="191.76" width="161.16" height="275.695" fill="none" stroke="#5E737B" stroke-width="3"/><text x="485.3" y="215.76" fill="#5E737B" font-family="sans-serif" font-size="20">card</text><text x="557.88" y="502.164" text-anchor="middle" fill="#E7E0D0" font-size="18" font-family="sans-serif">PUBLISHED</text><text x="557.88" y="526.644" text-anchor="middle" fill="#E7E0D0" font-size="18" font-family="sans-serif">TIMES</text><rect x="3" y="3" width="1194" height="794" fill="none" stroke="#5E737B" stroke-width="4"/></svg>

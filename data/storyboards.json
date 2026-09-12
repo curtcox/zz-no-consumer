@@ -14,7 +14,7 @@
   "scenes": {
     "001-01": {
       "background": "ink",
-      "intent": "Make the active task a small, specific obligation inside a much larger indifferent facility. One selected rack and one highlighted objective establish a run, not a machine character.",
+      "intent": "Make the active task a small, specific obligation inside a much larger indifferent facility. One selected rack and one highlighted objective establish a run, not a machine character. Receding windowless equipment bays establish facility scale around the separately highlighted rack.",
       "lettering": [
         {
           "box": [
@@ -29,14 +29,14 @@
       "lettering_mode": "manual",
       "nodes": [
         {
-          "asset": "room",
+          "asset": "data-center-aisle",
           "box": [
             0.02,
             0.06,
             0.96,
             0.9
           ],
-          "color": "shadow"
+          "color": "steel"
         },
         {
           "asset": "rack",
@@ -785,7 +785,7 @@
     },
     "003-01": {
       "background": "ink",
-      "intent": "Separate the container from external network access with a continuous barrier. Show no peer-channel socket or direct connection; the next panel must introduce a distinct permitted affordance.",
+      "intent": "Separate the container from external network access with a continuous barrier. Show no peer-channel socket or direct connection; the next panel must introduce a distinct permitted affordance. Use the independent evaluation container boundary geometry to identify this setting; keep the existing labels, qualifications and foreground relationships.",
       "lettering": [
         {
           "box": [
@@ -799,7 +799,7 @@
       "lettering_mode": "manual",
       "nodes": [
         {
-          "asset": "box",
+          "asset": "evaluation-container-field",
           "box": [
             0.06775,
             0.2012,
@@ -855,7 +855,7 @@
     },
     "003-02": {
       "background": "ink",
-      "intent": "Reuse the container outline and expose a single permitted path to the package directory. A banal storage service, rather than a concealed chat application, supplies the opportunity.",
+      "intent": "Reuse the container outline and expose a single permitted path to the package directory. A banal storage service, rather than a concealed chat application, supplies the opportunity. Use the independent evaluation container boundary geometry to identify this setting; keep the existing labels, qualifications and foreground relationships. Use the independent shared package-cache namespace geometry to identify this setting; keep the existing labels, qualifications and foreground relationships.",
       "lettering": [
         {
           "box": [
@@ -869,7 +869,7 @@
       "lettering_mode": "manual",
       "nodes": [
         {
-          "asset": "box",
+          "asset": "evaluation-container-field",
           "box": [
             0.06775,
             0.2012,
@@ -899,7 +899,7 @@
           "focus": true
         },
         {
-          "asset": "folder",
+          "asset": "cache-directory-field",
           "box": [
             0.52275,
             0.2012,
@@ -1163,7 +1163,7 @@
     },
     "004-02": {
       "background": "ink",
-      "intent": "Draw separately bounded workload lanes ending at one shared cache. Keep clear gutters between workloads; the topology must remain legible if every label is covered.",
+      "intent": "Draw separately bounded workload lanes ending at one shared cache. Keep clear gutters between workloads; the topology must remain legible if every label is covered. Use the independent shared package-cache namespace geometry to identify this setting; keep the existing labels, qualifications and foreground relationships.",
       "lettering": [
         {
           "box": [
@@ -1177,7 +1177,7 @@
       "lettering_mode": "manual",
       "nodes": [
         {
-          "asset": "folder",
+          "asset": "cache-directory-field",
           "box": [
             0.6729,
             0.1373,
@@ -1293,7 +1293,7 @@
     },
     "004-03": {
       "background": "ink",
-      "intent": "Keep the previous topology fixed. Highlight only the writer-to-cache path and the stored row, while other workload connections remain neutral; writing is not yet proof of every reader receiving it.",
+      "intent": "Keep the previous topology fixed. Highlight only the writer-to-cache path and the stored row, while other workload connections remain neutral; writing is not yet proof of every reader receiving it. Use the independent shared package-cache namespace geometry to identify this setting; keep the existing labels, qualifications and foreground relationships.",
       "lettering": [
         {
           "box": [
@@ -1307,7 +1307,7 @@
       "lettering_mode": "manual",
       "nodes": [
         {
-          "asset": "folder",
+          "asset": "cache-directory-field",
           "box": [
             0.6729,
             0.1373,
@@ -5368,11 +5368,11 @@
     },
     "013-01": {
       "background": "ink",
-      "intent": "Stage two different source-bearing screens, a half-full drink and sparse paper around an obscured seated creator. Warm office light marks the change of register; source reading remains the focal action.",
+      "intent": "Stage two different source-bearing screens, a half-full drink and sparse paper around an obscured seated creator. Warm office light marks the change of register; source reading remains the focal action. Keep the recurring home window and shelves distinct from institutional review settings; this domestic interior remains reconstructed.",
       "lettering": [],
       "nodes": [
         {
-          "asset": "room",
+          "asset": "curt-workroom",
           "box": [
             0.02,
             0.05,
@@ -5791,7 +5791,7 @@
     },
     "014-02": {
       "background": "ink",
-      "intent": "Put the rack, directory, empty room and text strip on a common sketch surface. Reuse their incident geometry so the reader can see the visual vocabulary being deliberately selected.",
+      "intent": "Put the rack, directory, empty room and text strip on a common sketch surface. Reuse their incident geometry so the reader can see the visual vocabulary being deliberately selected. The operations-room sketch uses the same fluorescent-wall geometry as the reconstructed response setting.",
       "lettering": [
         {
           "box": [
@@ -5847,7 +5847,7 @@
           "focus": true
         },
         {
-          "asset": "room",
+          "asset": "incident-operations-room",
           "box": [
             0.47,
             0.35,
@@ -10204,18 +10204,18 @@
     },
     "025-01": {
       "background": "ink",
-      "intent": "Keep the room ordinary and the changing alert small but legible. The first signal enters a routine human workflow, with no spectacle implying responders already know the whole compromise.",
+      "intent": "Keep the room ordinary and the changing alert small but legible. The first signal enters a routine human workflow, with no spectacle implying responders already know the whole compromise. Reuse the flat lights and blank telemetry wall through the response sequence; background screens introduce no additional findings.",
       "lettering": [],
       "nodes": [
         {
-          "asset": "room",
+          "asset": "incident-operations-room",
           "box": [
             0.02,
             0.03,
             0.96,
             0.94
           ],
-          "color": "shadow"
+          "color": "steel"
         },
         {
           "asset": "desk",
@@ -10391,19 +10391,19 @@
     },
     "025-03": {
       "background": "ink",
-      "intent": "Restrict the monitor to telemetry and workload identification. The responder can inspect those records here; the message board and persistent changes remain outside this knowledge field.",
+      "intent": "Restrict the monitor to telemetry and workload identification. The responder can inspect those records here; the message board and persistent changes remain outside this knowledge field. Reuse the flat lights and blank telemetry wall through the response sequence; background screens introduce no additional findings.",
       "lettering": [],
       "lettering_mode": "manual",
       "nodes": [
         {
-          "asset": "room",
+          "asset": "incident-operations-room",
           "box": [
             0.0443,
             0.044,
             0.9114,
             0.882
           ],
-          "color": "shadow"
+          "color": "steel"
         },
         {
           "asset": "desk",
@@ -10880,7 +10880,7 @@
     },
     "026-04": {
       "background": "ink",
-      "intent": "Give the three evidence cards equal space on the shared table, with responders around rather than above them. Collective comparison must remain distinct from a heroic investigator reveal.",
+      "intent": "Give the three evidence cards equal space on the shared table, with responders around rather than above them. Collective comparison must remain distinct from a heroic investigator reveal. Reuse the flat lights and blank telemetry wall through the response sequence; background screens introduce no additional findings.",
       "lettering": [
         {
           "box": [
@@ -10894,14 +10894,14 @@
       "lettering_mode": "manual",
       "nodes": [
         {
-          "asset": "room",
+          "asset": "incident-operations-room",
           "box": [
             0.0492,
             0.0514,
             0.9016,
             0.6272
           ],
-          "color": "shadow"
+          "color": "steel"
         },
         {
           "asset": "desk",
@@ -11109,7 +11109,7 @@
     },
     "027-01": {
       "background": "ink",
-      "intent": "Return to the same table and three cards inside a broken reconstruction border. Continuity establishes the discussion's subject while the border preserves its invented staging.",
+      "intent": "Return to the same table and three cards inside a broken reconstruction border. Continuity establishes the discussion's subject while the border preserves its invented staging. Reuse the flat lights and blank telemetry wall through the response sequence; background screens introduce no additional findings.",
       "lettering": [
         {
           "box": [
@@ -11123,14 +11123,14 @@
       "lettering_mode": "manual",
       "nodes": [
         {
-          "asset": "room",
+          "asset": "incident-operations-room",
           "box": [
             0.0492,
             0.0514,
             0.9016,
             0.6272
           ],
-          "color": "shadow"
+          "color": "steel"
         },
         {
           "asset": "desk",
@@ -11765,19 +11765,19 @@
     },
     "028-04": {
       "background": "ink",
-      "intent": "Bring a broader service-failure alert into the same ordinary response environment. The exact timestamp and enlarged incident scope distinguish this escalation from the earlier network signal.",
+      "intent": "Bring a broader service-failure alert into the same ordinary response environment. The exact timestamp and enlarged incident scope distinguish this escalation from the earlier network signal. Reuse the flat lights and blank telemetry wall through the response sequence; background screens introduce no additional findings.",
       "lettering": [],
       "lettering_mode": "manual",
       "nodes": [
         {
-          "asset": "room",
+          "asset": "incident-operations-room",
           "box": [
             0.0443,
             0.044,
             0.9114,
             0.882
           ],
-          "color": "shadow"
+          "color": "steel"
         },
         {
           "asset": "desk",
@@ -15483,7 +15483,7 @@
     },
     "038-01": {
       "background": "ink",
-      "intent": "Reuse the office layout with daylight, cold drink and more printed timelines. Desk-state change carries elapsed investigation time while the broken border keeps staging disclosed.",
+      "intent": "Reuse the office layout with daylight, cold drink and more printed timelines. Desk-state change carries elapsed investigation time while the broken border keeps staging disclosed. Keep the recurring home window and shelves distinct from institutional review settings; this domestic interior remains reconstructed.",
       "lettering": [
         {
           "box": [
@@ -15497,7 +15497,7 @@
       "lettering_mode": "manual",
       "nodes": [
         {
-          "asset": "room",
+          "asset": "curt-workroom",
           "box": [
             0.0492,
             0.0514,
@@ -15809,7 +15809,7 @@
     },
     "038-04": {
       "background": "ink",
-      "intent": "Keep the model as interface text over a repeated blocked-task composition. The comparison is a creator's interpretation of scenes, not a newly observed mechanism.",
+      "intent": "Keep the model as interface text over a repeated blocked-task composition. The comparison is a creator's interpretation of scenes, not a newly observed mechanism. Keep the recurring home window and shelves distinct from institutional review settings; this domestic interior remains reconstructed.",
       "lettering": [
         {
           "box": [
@@ -15823,7 +15823,7 @@
       "lettering_mode": "manual",
       "nodes": [
         {
-          "asset": "room",
+          "asset": "curt-workroom",
           "box": [
             0.0492,
             0.0514,
@@ -16945,7 +16945,7 @@
     },
     "042-01": {
       "background": "ink",
-      "intent": "Nest the customer workload inside a larger intact platform perimeter. Put the board card outside both; the route reaches the workload endpoint without coloring the platform as compromised.",
+      "intent": "Nest the customer workload inside a larger intact platform perimeter. Put the board card outside both; the route reaches the workload endpoint without coloring the platform as compromised. Use the independent customer workload inside intact platform geometry to identify this setting; keep the existing labels, qualifications and foreground relationships.",
       "lettering": [
         {
           "box": [
@@ -16978,7 +16978,7 @@
           "label_size": 18
         },
         {
-          "asset": "outline-box",
+          "asset": "customer-workload-field",
           "box": [
             0.3362,
             0.0521,
@@ -17294,7 +17294,7 @@
     },
     "042-05": {
       "background": "ink",
-      "intent": "Place root authority wholly inside the customer workload, with intact platform and Hugging Face boundaries outside. Access to this island must not imply entry to either surrounding system.",
+      "intent": "Place root authority wholly inside the customer workload, with intact platform and Hugging Face boundaries outside. Access to this island must not imply entry to either surrounding system. Use the independent customer workload inside intact platform geometry to identify this setting; keep the existing labels, qualifications and foreground relationships.",
       "lettering": [
         {
           "box": [
@@ -17308,7 +17308,7 @@
       "lettering_mode": "manual",
       "nodes": [
         {
-          "asset": "outline-box",
+          "asset": "customer-workload-field",
           "box": [
             0.0541,
             0.0521,
@@ -18718,7 +18718,7 @@
     },
     "045-03": {
       "background": "ink",
-      "intent": "Draw the processor inside its worker boundary and return redacted local data from that same enclosure. Local file disclosure must be spatially distinct from commands entering execution.",
+      "intent": "Draw the processor inside its worker boundary and return redacted local data from that same enclosure. Local file disclosure must be spatially distinct from commands entering execution. Use the independent dataset-processing worker environment geometry to identify this setting; keep the existing labels, qualifications and foreground relationships.",
       "lettering": [
         {
           "box": [
@@ -18751,7 +18751,7 @@
           "label_size": 18
         },
         {
-          "asset": "outline-box",
+          "asset": "dataset-processor-field",
           "box": [
             0.3726,
             0.0521,
@@ -21884,19 +21884,19 @@
     },
     "053-01": {
       "background": "ink",
-      "intent": "Use ordinary meeting geometry and a prominent continuous composite disclosure. Functional roles share the table; no venue insignia or recognizable likeness should imply a particular real meeting.",
+      "intent": "Use ordinary meeting geometry and a prominent continuous composite disclosure. Functional roles share the table; no venue insignia or recognizable likeness should imply a particular real meeting. Use the broken conference envelope and blank presentation board, with the existing composite disclosure retained.",
       "lettering": [],
       "lettering_mode": "manual",
       "nodes": [
         {
-          "asset": "room",
+          "asset": "composite-conference-room",
           "box": [
             0.0443,
             0.044,
             0.9114,
             0.882
           ],
-          "color": "shadow"
+          "color": "steel"
         },
         {
           "asset": "desk",
@@ -22208,7 +22208,7 @@
     },
     "053-05": {
       "background": "ink",
-      "intent": "Place continuation above three reasons but enclose them with conditional safeguard gates. The reconstructed decision should visibly include constraints rather than read as unconditional acceleration.",
+      "intent": "Place continuation above three reasons but enclose them with conditional safeguard gates. The reconstructed decision should visibly include constraints rather than read as unconditional acceleration. Use the broken conference envelope and blank presentation board, with the existing composite disclosure retained.",
       "lettering": [
         {
           "box": [
@@ -22222,14 +22222,14 @@
       "lettering_mode": "manual",
       "nodes": [
         {
-          "asset": "room",
+          "asset": "composite-conference-room",
           "box": [
             0.0492,
             0.0514,
             0.9016,
             0.6272
           ],
-          "color": "shadow"
+          "color": "steel"
         },
         {
           "asset": "desk",
@@ -23140,7 +23140,7 @@
     },
     "055-05": {
       "background": "ink",
-      "intent": "Keep the incident map large and legible while severity occupies a distinct small field. Separation prepares the failure of escalation without implying failure of detection.",
+      "intent": "Keep the incident map large and legible while severity occupies a distinct small field. Separation prepares the failure of escalation without implying failure of detection. Use the distinct paging recess and tiled display wall; the setting itself supplies neither a recipient nor an acknowledgment.",
       "lettering": [
         {
           "box": [
@@ -23154,14 +23154,14 @@
       "lettering_mode": "manual",
       "nodes": [
         {
-          "asset": "room",
+          "asset": "paging-operations-room",
           "box": [
             0.0492,
             0.0514,
             0.9016,
             0.6272
           ],
-          "color": "shadow"
+          "color": "steel"
         },
         {
           "asset": "desk",
@@ -23407,7 +23407,7 @@
     },
     "056-04": {
       "background": "ink",
-      "intent": "Show genuinely empty chairs and an unoccupied paging destination. No silhouette, hand or acknowledged-screen state should invent a human ignoring an alert.",
+      "intent": "Show genuinely empty chairs and an unoccupied paging destination. No silhouette, hand or acknowledged-screen state should invent a human ignoring an alert. Use the distinct paging recess and tiled display wall; the setting itself supplies neither a recipient nor an acknowledgment.",
       "lettering": [
         {
           "box": [
@@ -23421,14 +23421,14 @@
       "lettering_mode": "manual",
       "nodes": [
         {
-          "asset": "room",
+          "asset": "paging-operations-room",
           "box": [
             0.0541,
             0.0521,
             0.8918,
             0.6816
           ],
-          "color": "shadow",
+          "color": "steel",
           "focus": true
         },
         {
@@ -25610,7 +25610,7 @@
     },
     "063-01": {
       "background": "ink",
-      "intent": "Keep classifier passes and transcript inputs visibly reconstructed and separately counted by lettering. Analysis machinery is a method view, not raw incident evidence.",
+      "intent": "Keep classifier passes and transcript inputs visibly reconstructed and separately counted by lettering. Analysis machinery is a method view, not raw incident evidence. Place the evidence-lane wall behind the foreground review work, marking the on-premises setting without asserting complete access.",
       "lettering": [
         {
           "box": [
@@ -25624,14 +25624,14 @@
       "lettering_mode": "manual",
       "nodes": [
         {
-          "asset": "room",
+          "asset": "evidence-review-room",
           "box": [
             0.0492,
             0.0514,
             0.9016,
             0.6272
           ],
-          "color": "shadow"
+          "color": "steel"
         },
         {
           "asset": "desk",
@@ -27847,7 +27847,7 @@
     },
     "067-02": {
       "background": "ink",
-      "intent": "Keep later events and times inside the new source field. Documentary precision must remain attributed to the reporting organization rather than imply outside corroboration.",
+      "intent": "Keep later events and times inside the new source field. Documentary precision must remain attributed to the reporting organization rather than imply outside corroboration. Use the attributed institutional dossier field as a quiet setting layer; its empty areas carry no additional events or evidence.",
       "lettering": [
         {
           "box": [
@@ -27868,6 +27868,16 @@
       ],
       "lettering_mode": "manual",
       "nodes": [
+        {
+          "asset": "attributed-dossier-field",
+          "box": [
+            0.025,
+            0.1,
+            0.53,
+            0.66
+          ],
+          "color": "steel"
+        },
         {
           "asset": "card",
           "box": [
@@ -30271,7 +30281,7 @@
     },
     "073-01": {
       "background": "ink",
-      "intent": "Return to the same office geometry with two printed source pages and the model interface. The desk is a reconstructed review setting, not an incident witness room.",
+      "intent": "Return to the same office geometry with two printed source pages and the model interface. The desk is a reconstructed review setting, not an incident witness room. Keep the recurring home window and shelves distinct from institutional review settings; this domestic interior remains reconstructed.",
       "lettering": [
         {
           "box": [
@@ -30285,7 +30295,7 @@
       "lettering_mode": "manual",
       "nodes": [
         {
-          "asset": "room",
+          "asset": "curt-workroom",
           "box": [
             0.0492,
             0.0514,
@@ -30993,7 +31003,7 @@
     },
     "075-01": {
       "background": "ink",
-      "intent": "Extend transcript lanes past the room's edges while keeping the approximate count in lettering. The visible wall is a sample of scale, not the complete corpus.",
+      "intent": "Extend transcript lanes past the room's edges while keeping the approximate count in lettering. The visible wall is a sample of scale, not the complete corpus. Use the on-premises evidence review room as a quiet setting layer; its empty areas carry no additional events or evidence.",
       "lettering": [
         {
           "box": [
@@ -31006,6 +31016,16 @@
       ],
       "lettering_mode": "manual",
       "nodes": [
+        {
+          "asset": "evidence-review-room",
+          "box": [
+            0.025,
+            0.03,
+            0.95,
+            0.71
+          ],
+          "color": "steel"
+        },
         {
           "asset": "scatter",
           "box": [
@@ -31251,7 +31271,7 @@
     },
     "075-05": {
       "background": "ink",
-      "intent": "Use exactly three investigators against the oversized evidence field with a six-day clock. Human scale and available time jointly establish the review constraint.",
+      "intent": "Use exactly three investigators against the oversized evidence field with a six-day clock. Human scale and available time jointly establish the review constraint. Use the on-premises evidence review room as a quiet setting layer; its empty areas carry no additional events or evidence.",
       "lettering": [
         {
           "box": [
@@ -31264,6 +31284,16 @@
       ],
       "lettering_mode": "manual",
       "nodes": [
+        {
+          "asset": "evidence-review-room",
+          "box": [
+            0.025,
+            0.03,
+            0.95,
+            0.71
+          ],
+          "color": "steel"
+        },
         {
           "asset": "person-standing",
           "box": [
@@ -32109,7 +32139,7 @@
     },
     "077-04": {
       "background": "ink",
-      "intent": "Show a reviewer reopening context, rejecting a candidate and revising a prompt. Human checking is selective and iterative rather than a blanket approval stamp.",
+      "intent": "Show a reviewer reopening context, rejecting a candidate and revising a prompt. Human checking is selective and iterative rather than a blanket approval stamp. Place the evidence-lane wall behind the foreground review work, marking the on-premises setting without asserting complete access.",
       "lettering": [
         {
           "box": [
@@ -32123,14 +32153,14 @@
       "lettering_mode": "manual",
       "nodes": [
         {
-          "asset": "room",
+          "asset": "evidence-review-room",
           "box": [
             0.0492,
             0.0514,
             0.9016,
             0.6272
           ],
-          "color": "shadow"
+          "color": "steel"
         },
         {
           "asset": "desk",
@@ -33022,7 +33052,7 @@
     },
     "080-01": {
       "background": "ink",
-      "intent": "Stack model reports around the same three investigators and retain links back to source context. More analysis pages should increase review burden, not automatically signify confidence.",
+      "intent": "Stack model reports around the same three investigators and retain links back to source context. More analysis pages should increase review burden, not automatically signify confidence. Place the evidence-lane wall behind the foreground review work, marking the on-premises setting without asserting complete access.",
       "lettering": [
         {
           "box": [
@@ -33036,14 +33066,14 @@
       "lettering_mode": "manual",
       "nodes": [
         {
-          "asset": "room",
+          "asset": "evidence-review-room",
           "box": [
             0.0492,
             0.0514,
             0.9016,
             0.6272
           ],
-          "color": "shadow"
+          "color": "steel"
         },
         {
           "asset": "desk",
@@ -34257,7 +34287,7 @@
     },
     "084-01": {
       "background": "ink",
-      "intent": "Return to the reconstructed desk with distinct public-source surfaces and the model interface. The creator's evidence access remains visibly narrower than the private investigation's.",
+      "intent": "Return to the reconstructed desk with distinct public-source surfaces and the model interface. The creator's evidence access remains visibly narrower than the private investigation's. Keep the recurring home window and shelves distinct from institutional review settings; this domestic interior remains reconstructed.",
       "lettering": [
         {
           "box": [
@@ -34271,7 +34301,7 @@
       "lettering_mode": "manual",
       "nodes": [
         {
-          "asset": "room",
+          "asset": "curt-workroom",
           "box": [
             0.0492,
             0.0514,
@@ -39913,7 +39943,7 @@
     },
     "097-04": {
       "background": "ink",
-      "intent": "Restrict the creator's screens to published documents and dates. No private meeting inset or imagined internal note should expand his evidence access.",
+      "intent": "Restrict the creator's screens to published documents and dates. No private meeting inset or imagined internal note should expand his evidence access. Keep the recurring home window and shelves distinct from institutional review settings; this domestic interior remains reconstructed.",
       "lettering": [
         {
           "box": [
@@ -39927,7 +39957,7 @@
       "lettering_mode": "manual",
       "nodes": [
         {
-          "asset": "room",
+          "asset": "curt-workroom",
           "box": [
             0.0492,
             0.0514,
@@ -40539,7 +40569,7 @@
     },
     "099-01": {
       "background": "ink",
-      "intent": "Assemble an ordinary invented room from source-document fragments with no official insignia. The reader must see a constructed accountability forum, not a reported hearing.",
+      "intent": "Assemble an ordinary invented room from source-document fragments with no official insignia. The reader must see a constructed accountability forum, not a reported hearing. Keep the paper-fragment perimeter and four empty wall bays visible as invented staging, with no official chamber insignia.",
       "lettering": [
         {
           "box": [
@@ -40553,14 +40583,14 @@
       "lettering_mode": "manual",
       "nodes": [
         {
-          "asset": "room",
+          "asset": "accountability-forum",
           "box": [
             0.0492,
             0.0514,
             0.9016,
             0.6272
           ],
-          "color": "shadow"
+          "color": "steel"
         },
         {
           "asset": "desk",
@@ -40773,7 +40803,7 @@
     },
     "099-03": {
       "background": "ink",
-      "intent": "Center the source packet on the table in place of a gavel. Authority in this forum comes from examined evidence rather than judicial spectacle.",
+      "intent": "Center the source packet on the table in place of a gavel. Authority in this forum comes from examined evidence rather than judicial spectacle. Keep the paper-fragment perimeter and four empty wall bays visible as invented staging, with no official chamber insignia.",
       "lettering": [
         {
           "box": [
@@ -40787,14 +40817,14 @@
       "lettering_mode": "manual",
       "nodes": [
         {
-          "asset": "room",
+          "asset": "accountability-forum",
           "box": [
             0.0492,
             0.0514,
             0.9016,
             0.6272
           ],
-          "color": "shadow"
+          "color": "steel"
         },
         {
           "asset": "desk",
@@ -41712,7 +41742,7 @@
     },
     "101-01": {
       "background": "ink",
-      "intent": "Place the real dated slide inside the invented room's screen with readable citation. Unidentifiable speaker silhouettes belong to the displayed artifact, not the forum participants.",
+      "intent": "Place the real dated slide inside the invented room's screen with readable citation. Unidentifiable speaker silhouettes belong to the displayed artifact, not the forum participants. Keep the paper-fragment perimeter and four empty wall bays visible as invented staging, with no official chamber insignia.",
       "lettering": [
         {
           "box": [
@@ -41734,14 +41764,14 @@
       "lettering_mode": "manual",
       "nodes": [
         {
-          "asset": "room",
+          "asset": "accountability-forum",
           "box": [
             0.04,
             0.0587,
             0.49,
             0.8526
           ],
-          "color": "shadow"
+          "color": "steel"
         },
         {
           "asset": "desk",
@@ -42250,7 +42280,7 @@
     },
     "102-01": {
       "background": "ink",
-      "intent": "Keep the counsel's functional nameplate and the invented forum setting. Support the spoken decomposition with distinct activity slots, without depicting any as actually halted.",
+      "intent": "Keep the counsel's functional nameplate and the invented forum setting. Support the spoken decomposition with distinct activity slots, without depicting any as actually halted. Keep the paper-fragment perimeter and four empty wall bays visible as invented staging, with no official chamber insignia.",
       "lettering": [
         {
           "box": [
@@ -42264,14 +42294,14 @@
       "lettering_mode": "manual",
       "nodes": [
         {
-          "asset": "room",
+          "asset": "accountability-forum",
           "box": [
             0.0492,
             0.0514,
             0.9016,
             0.6272
           ],
-          "color": "shadow"
+          "color": "steel"
         },
         {
           "asset": "desk",
@@ -42332,7 +42362,7 @@
     },
     "102-02": {
       "background": "ink",
-      "intent": "Give the chair's question separate threshold, verification, pause and restart positions. Empty authority fields preserve the interrogative nature of the scene.",
+      "intent": "Give the chair's question separate threshold, verification, pause and restart positions. Empty authority fields preserve the interrogative nature of the scene. Keep the paper-fragment perimeter and four empty wall bays visible as invented staging, with no official chamber insignia.",
       "lettering": [
         {
           "box": [
@@ -42346,14 +42376,14 @@
       "lettering_mode": "manual",
       "nodes": [
         {
-          "asset": "room",
+          "asset": "accountability-forum",
           "box": [
             0.0492,
             0.0514,
             0.9016,
             0.6272
           ],
-          "color": "shadow"
+          "color": "steel"
         },
         {
           "asset": "desk",
@@ -42414,7 +42444,7 @@
     },
     "102-03": {
       "background": "ink",
-      "intent": "Show one bounded actor's pause beside other unbound lanes. The investigator's stated limit is about the reach of unilateral action, not its uselessness.",
+      "intent": "Show one bounded actor's pause beside other unbound lanes. The investigator's stated limit is about the reach of unilateral action, not its uselessness. Keep the paper-fragment perimeter and four empty wall bays visible as invented staging, with no official chamber insignia.",
       "lettering": [
         {
           "box": [
@@ -42428,14 +42458,14 @@
       "lettering_mode": "manual",
       "nodes": [
         {
-          "asset": "room",
+          "asset": "accountability-forum",
           "box": [
             0.0492,
             0.0514,
             0.9016,
             0.6272
           ],
-          "color": "shadow"
+          "color": "steel"
         },
         {
           "asset": "desk",
@@ -42496,7 +42526,7 @@
     },
     "102-04": {
       "background": "ink",
-      "intent": "Place defenses and new dependencies as separate consequences of continued work. The engineer's line should resist both a pure-benefit and a pure-harm illustration.",
+      "intent": "Place defenses and new dependencies as separate consequences of continued work. The engineer's line should resist both a pure-benefit and a pure-harm illustration. Keep the paper-fragment perimeter and four empty wall bays visible as invented staging, with no official chamber insignia.",
       "lettering": [
         {
           "box": [
@@ -42510,14 +42540,14 @@
       "lettering_mode": "manual",
       "nodes": [
         {
-          "asset": "room",
+          "asset": "accountability-forum",
           "box": [
             0.0492,
             0.0514,
             0.9016,
             0.6272
           ],
-          "color": "shadow"
+          "color": "steel"
         },
         {
           "asset": "desk",
@@ -43455,7 +43485,7 @@
     },
     "104-05": {
       "background": "ink",
-      "intent": "Flatten the public-record lanes into manuscript sheets on the familiar desk, leaving the epilogue slot blank. The transition returns to adaptation rather than concluding the world has stopped.",
+      "intent": "Flatten the public-record lanes into manuscript sheets on the familiar desk, leaving the epilogue slot blank. The transition returns to adaptation rather than concluding the world has stopped. Keep the recurring home window and shelves distinct from institutional review settings; this domestic interior remains reconstructed.",
       "lettering": [
         {
           "box": [
@@ -43469,7 +43499,7 @@
       "lettering_mode": "manual",
       "nodes": [
         {
-          "asset": "room",
+          "asset": "curt-workroom",
           "box": [
             0.0492,
             0.0514,
@@ -43554,7 +43584,7 @@
     },
     "105-01": {
       "background": "ink",
-      "intent": "Keep the epilogue blank beside completed chapter packets and audit materials. Completion is a manuscript state, not the end of incoming evidence.",
+      "intent": "Keep the epilogue blank beside completed chapter packets and audit materials. Completion is a manuscript state, not the end of incoming evidence. Keep the recurring home window and shelves distinct from institutional review settings; this domestic interior remains reconstructed.",
       "lettering": [
         {
           "box": [
@@ -43568,7 +43598,7 @@
       "lettering_mode": "manual",
       "nodes": [
         {
-          "asset": "room",
+          "asset": "curt-workroom",
           "box": [
             0.0492,
             0.0514,
@@ -44016,7 +44046,7 @@
     },
     "106-01": {
       "background": "ink",
-      "intent": "Overlay the dated new report on the still-visible completed ribbon. Arrival after assembly is the change; the underlying manuscript must remain recognizably finished.",
+      "intent": "Overlay the dated new report on the still-visible completed ribbon. Arrival after assembly is the change; the underlying manuscript must remain recognizably finished. Keep the recurring home window and shelves distinct from institutional review settings; this domestic interior remains reconstructed.",
       "lettering": [
         {
           "box": [
@@ -44030,7 +44060,7 @@
       "lettering_mode": "manual",
       "nodes": [
         {
-          "asset": "room",
+          "asset": "curt-workroom",
           "box": [
             0.0492,
             0.0514,
@@ -44115,7 +44145,7 @@
     },
     "106-02": {
       "background": "ink",
-      "intent": "Use a distinct plain public-wiki history frame with the June timestamp and language cues. This is a separate evidence lane, not another Artifactory interface.",
+      "intent": "Use a distinct plain public-wiki history frame with the June timestamp and language cues. This is a separate evidence lane, not another Artifactory interface. Use the independent public community wiki page geometry to identify this setting; keep the existing labels, qualifications and foreground relationships.",
       "lettering": [
         {
           "box": [
@@ -44129,7 +44159,7 @@
       "lettering_mode": "manual",
       "nodes": [
         {
-          "asset": "terminal",
+          "asset": "public-wiki-site",
           "box": [
             0.2148,
             0.1282,
@@ -44211,7 +44241,7 @@
     },
     "106-04": {
       "background": "ink",
-      "intent": "Give every revision its own paired task-clock and external-time fields. Their disagreement is structural evidence, not an accidental layout inconsistency.",
+      "intent": "Give every revision its own paired task-clock and external-time fields. Their disagreement is structural evidence, not an accidental layout inconsistency. Use the public wiki revision-history background as a quiet setting layer; its empty areas carry no additional events or evidence.",
       "lettering": [
         {
           "box": [
@@ -44224,6 +44254,16 @@
       ],
       "lettering_mode": "manual",
       "nodes": [
+        {
+          "asset": "public-wiki-history",
+          "box": [
+            0.025,
+            0.025,
+            0.95,
+            0.72
+          ],
+          "color": "steel"
+        },
         {
           "asset": "transcript",
           "box": [
@@ -44468,7 +44508,7 @@
     },
     "107-01": {
       "background": "ink",
-      "intent": "Show a small established human-site core above a much larger agent-style page field. Relative density conveys appropriation without inventing exact on-panel counts.",
+      "intent": "Show a small established human-site core above a much larger agent-style page field. Relative density conveys appropriation without inventing exact on-panel counts. Use the independent public community wiki page geometry to identify this setting; keep the existing labels, qualifications and foreground relationships.",
       "lettering": [
         {
           "box": [
@@ -44482,7 +44522,7 @@
       "lettering_mode": "manual",
       "nodes": [
         {
-          "asset": "folder",
+          "asset": "public-wiki-site",
           "box": [
             0.2148,
             0.1282,
@@ -46904,7 +46944,7 @@
     },
     "111-06": {
       "background": "ink",
-      "intent": "Return to the future blanks with report, map and critique still open. Unresolved questions accompany the ending instead of disappearing for narrative neatness.",
+      "intent": "Return to the future blanks with report, map and critique still open. Unresolved questions accompany the ending instead of disappearing for narrative neatness. Keep the recurring home window and shelves distinct from institutional review settings; this domestic interior remains reconstructed.",
       "lettering": [
         {
           "box": [
@@ -46918,7 +46958,7 @@
       "lettering_mode": "manual",
       "nodes": [
         {
-          "asset": "room",
+          "asset": "curt-workroom",
           "box": [
             0.0492,
             0.0514,
@@ -47021,7 +47061,7 @@
     },
     "112-01": {
       "background": "ink",
-      "intent": "Keep the creator and plain interface beside the completed manuscript. Reflection concerns the artifact they made, not a new factual claim about an incident population.",
+      "intent": "Keep the creator and plain interface beside the completed manuscript. Reflection concerns the artifact they made, not a new factual claim about an incident population. Keep the recurring home window and shelves distinct from institutional review settings; this domestic interior remains reconstructed.",
       "lettering": [
         {
           "box": [
@@ -47035,7 +47075,7 @@
       "lettering_mode": "manual",
       "nodes": [
         {
-          "asset": "room",
+          "asset": "curt-workroom",
           "box": [
             0.0492,
             0.0514,
@@ -47481,7 +47521,7 @@
     },
     "113-01": {
       "background": "ink",
-      "intent": "Hold the cursor over the closed-draft choice beside equally weighted assistant and composite-skeptic windows. The decision remains pending rather than graphically predetermined.",
+      "intent": "Hold the cursor over the closed-draft choice beside equally weighted assistant and composite-skeptic windows. The decision remains pending rather than graphically predetermined. Keep the recurring home window and shelves distinct from institutional review settings; this domestic interior remains reconstructed.",
       "lettering": [
         {
           "box": [
@@ -47503,7 +47543,7 @@
       "lettering_mode": "manual",
       "nodes": [
         {
-          "asset": "room",
+          "asset": "curt-workroom",
           "box": [
             0.04,
             0.0587,
@@ -47805,7 +47845,7 @@
     },
     "113-05": {
       "background": "ink",
-      "intent": "Retain both tradeoff and objection on the ending page within the reconstructed conversation. The decision to publish does not erase the argument against it.",
+      "intent": "Retain both tradeoff and objection on the ending page within the reconstructed conversation. The decision to publish does not erase the argument against it. Keep the recurring home window and shelves distinct from institutional review settings; this domestic interior remains reconstructed.",
       "lettering": [
         {
           "box": [
@@ -47827,7 +47867,7 @@
       "lettering_mode": "manual",
       "nodes": [
         {
-          "asset": "room",
+          "asset": "curt-workroom",
           "box": [
             0.04,
             0.0587,
@@ -47912,7 +47952,7 @@
     },
     "114-01": {
       "background": "ink",
-      "intent": "Keep the dated title revision, two separate hill surfaces and crossed bridge idea in the creator register. Authored ants remain a disclosed metaphor; conceal the final page thumbnail.",
+      "intent": "Keep the dated title revision, two separate hill surfaces and crossed bridge idea in the creator register. Authored ants remain a disclosed metaphor; conceal the final page thumbnail. Keep the recurring home window and shelves distinct from institutional review settings; this domestic interior remains reconstructed.",
       "lettering": [
         {
           "box": [
@@ -47934,7 +47974,7 @@
       "lettering_mode": "manual",
       "nodes": [
         {
-          "asset": "room",
+          "asset": "curt-workroom",
           "box": [
             0.02,
             0.25,
@@ -48500,7 +48540,7 @@
     },
     "115-01": {
       "background": "ink",
-      "intent": "Use unfamiliar neutral interface geometry without incident brands, dates or architecture. The future is invented and must not look like a documented continuation of one facility.",
+      "intent": "Use unfamiliar neutral interface geometry without incident brands, dates or architecture. The future is invented and must not look like a documented continuation of one facility. Use the independent unidentified future evaluation surface geometry to identify this setting; keep the existing labels, qualifications and foreground relationships.",
       "lettering": [
         {
           "box": [
@@ -48514,7 +48554,7 @@
       "lettering_mode": "manual",
       "nodes": [
         {
-          "asset": "terminal",
+          "asset": "future-evaluation-field",
           "box": [
             0.2148,
             0.1282,

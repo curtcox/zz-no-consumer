@@ -1,6 +1,6 @@
 {
   "background": "ink",
-  "intent": "Draw separately bounded workload lanes ending at one shared cache. Keep clear gutters between workloads; the topology must remain legible if every label is covered.",
+  "intent": "Draw separately bounded workload lanes ending at one shared cache. Keep clear gutters between workloads; the topology must remain legible if every label is covered. Use the independent shared package-cache namespace geometry to identify this setting; keep the existing labels, qualifications and foreground relationships.",
   "lettering": [
     {
       "box": [
@@ -14,7 +14,7 @@
   "lettering_mode": "manual",
   "nodes": [
     {
-      "asset": "folder",
+      "asset": "cache-directory-field",
       "box": [
         0.6729,
         0.1373,

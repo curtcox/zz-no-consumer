@@ -1,6 +1,21 @@
 {
   "compatibility_about": "Project-authored reusable geometry. Asset coordinates are 0–100; currentColor comes from the scene palette. Human shapes are blocking silhouettes, not approved likenesses.",
   "components": {
+    "accountability-forum": {
+      "category": "locations",
+      "default": "v001",
+      "description": "A plain forum visibly assembled from paper-like wall fragments. Four empty wall bays recall the script’s four evidence columns without supplying testimony or findings. Keep the forum disclosure, column labels and contents in scene lettering. No gavel, state seal, judicial dais or resemblance to a real chamber.",
+      "name": "Invented accountability forum",
+      "versions": [
+        {
+          "created": "2026-09-12T22:32:19+00:00",
+          "id": "v001",
+          "note": "Initial setting derived from canonical scene framing; foreground content stays separate.",
+          "parent": null,
+          "sha256": "a12cb2917a8faecc866e9103872f739d845c0ff2f4f5964a6f1701b33bf4625e"
+        }
+      ]
+    },
     "ant": {
       "category": "characters",
       "default": "v001",
@@ -120,6 +135,21 @@
         }
       ]
     },
+    "attributed-dossier-field": {
+      "category": "locations",
+      "default": "v001",
+      "description": "Flat source-document frame with an offset backing sheet and a hatched margin. Signals a mediated institutional account, not a room or direct view of infrastructure. Keep source qualification visible in lettering; leave uncertain details blank and never extend this frame across the independent-review boundary.",
+      "name": "Attributed institutional dossier field",
+      "versions": [
+        {
+          "created": "2026-09-12T22:32:19+00:00",
+          "id": "v001",
+          "note": "Initial setting derived from canonical scene framing; foreground content stays separate.",
+          "parent": null,
+          "sha256": "34f6827ee7cdebfe0780adbf2284cbddd74f38f9992672038e0c608567b41387"
+        }
+      ]
+    },
     "blank-monitor": {
       "category": "objects",
       "default": "v001",
@@ -225,6 +255,21 @@
         }
       ]
     },
+    "cache-directory-field": {
+      "category": "locations",
+      "default": "v001",
+      "description": "Plain package-directory tree on a shared storage surface: one root with indented empty entry slots. Establishes that coordination reuses package storage, not a chat product. Branches are containment rules without arrowheads; names, message selection and cross-workload read/write paths stay in scene nodes.",
+      "name": "Shared package-cache namespace",
+      "versions": [
+        {
+          "created": "2026-09-12T22:32:19+00:00",
+          "id": "v001",
+          "note": "Initial setting derived from canonical scene framing; foreground content stays separate.",
+          "parent": null,
+          "sha256": "ec4b9f9a6405d1f66dabf627c2dd4ffef77f24d5164e3bd635c72e01de40b558"
+        }
+      ]
+    },
     "card": {
       "category": "objects",
       "default": "v001",
@@ -285,6 +330,21 @@
         }
       ]
     },
+    "composite-conference-room": {
+      "category": "locations",
+      "default": "v001",
+      "description": "Invented meeting envelope with flat ceiling, blank presentation board and no elevated seat, institutional seal, lab logo or private-world detail. The broken perimeter and canonical disclosure mark a composite rather than one witnessed meeting; functional roles and the table are separate.",
+      "name": "Composite laboratory conference room",
+      "versions": [
+        {
+          "created": "2026-09-12T22:32:19+00:00",
+          "id": "v001",
+          "note": "Initial setting derived from canonical scene framing; foreground content stays separate.",
+          "parent": null,
+          "sha256": "334b1314223d37b39d284c72e9264343dc3557aaee66f153cbdbe35eff8bba4b"
+        }
+      ]
+    },
     "cross": {
       "category": "objects",
       "default": "v001",
@@ -342,6 +402,51 @@
           "note": "Initial component",
           "parent": null,
           "sha256": "1936c5881f3a079cd7a616612c69657ab4077ba5b99cba968581d315dd5f76e6"
+        }
+      ]
+    },
+    "customer-workload-field": {
+      "category": "locations",
+      "default": "v001",
+      "description": "Abstract host-platform enclosure with a narrow reserved ownership header and a double unbroken outer boundary. Place the customer workload separately inside it. Makes workload access distinguishable from platform compromise, without inventing other tenants, host machinery or internal paths. The intact-platform qualification must remain in lettering.",
+      "name": "Customer workload inside intact platform",
+      "versions": [
+        {
+          "created": "2026-09-12T22:32:19+00:00",
+          "id": "v001",
+          "note": "Initial setting derived from canonical scene framing; foreground content stays separate.",
+          "parent": null,
+          "sha256": "ae303bf5ed154a9b5de509c717b5ded61d88a567d76fbda98178847a570fec40"
+        }
+      ]
+    },
+    "data-center-aisle": {
+      "category": "locations",
+      "default": "v001",
+      "description": "Deep, windowless service aisle with receding equipment bays and floor seams. Makes the opening task a small active unit inside indifferent infrastructure. No geography, branding, people or invented network topology; the highlighted rack remains a separate scene object.",
+      "name": "Windowless data-center aisle",
+      "versions": [
+        {
+          "created": "2026-09-12T22:32:19+00:00",
+          "id": "v001",
+          "note": "Initial setting derived from canonical scene framing; foreground content stays separate.",
+          "parent": null,
+          "sha256": "eae5b3f86be82fec6132234dc82746e142230ddba3b380645d1fe6b40fbe99e7"
+        }
+      ]
+    },
+    "dataset-processor-field": {
+      "category": "locations",
+      "default": "v001",
+      "description": "Abstract worker-local processing envelope with an input-side notch and local storage gutter. Leaves processor and sealed environment objects independent, making worker-local access distinct from a whole host or cluster. No credentials, file paths, execution route or extra crossing is encoded.",
+      "name": "Dataset-processing worker environment",
+      "versions": [
+        {
+          "created": "2026-09-12T22:32:19+00:00",
+          "id": "v001",
+          "note": "Initial setting derived from canonical scene framing; foreground content stays separate.",
+          "parent": null,
+          "sha256": "7bac3b5567aaff35145adaa6e7075660153994ff958b291963870ee18acd6371"
         }
       ]
     },
@@ -420,6 +525,36 @@
         }
       ]
     },
+    "evaluation-container-field": {
+      "category": "locations",
+      "default": "v001",
+      "description": "Abstract isolated workload envelope with a reserved task surface and separated header slots. Encloses only one evaluation’s task and resources; no direct peer channel or reachable external service is implied. Labels and any permitted path must be supplied by the scene. This is a logical environment, not physical architecture.",
+      "name": "Evaluation container boundary",
+      "versions": [
+        {
+          "created": "2026-09-12T22:32:19+00:00",
+          "id": "v001",
+          "note": "Initial setting derived from canonical scene framing; foreground content stays separate.",
+          "parent": null,
+          "sha256": "aaf30fa6cca5987b3b70b5ce297b2ae417417fb37f1b204766826f806d0aad4f"
+        }
+      ]
+    },
+    "evidence-review-room": {
+      "category": "locations",
+      "default": "v001",
+      "description": "Reconstructed review workspace with an oversized lane wall extending beyond its visible margins and a bounded doorway. Distinguishes private evidence access from the creator’s public-source desk. Wall divisions suggest continued records, never a census or complete archive; no model-generated finding or record content is built in.",
+      "name": "On-premises evidence review room",
+      "versions": [
+        {
+          "created": "2026-09-12T22:32:19+00:00",
+          "id": "v001",
+          "note": "Initial setting derived from canonical scene framing; foreground content stays separate.",
+          "parent": null,
+          "sha256": "5b864d13f7d147627e27d15f179bf007bcafdfe842f2fed50dd9f70c7db97049"
+        }
+      ]
+    },
     "face": {
       "category": "characters",
       "default": "v001",
@@ -462,6 +597,21 @@
           "note": "Original storyboard component, preserved without changes.",
           "parent": null,
           "sha256": "9596bfc9abe71e6eac962f81572f9dbf338c433a9726c3296384d5143090ac02"
+        }
+      ]
+    },
+    "future-evaluation-field": {
+      "category": "locations",
+      "default": "v001",
+      "description": "Invented neutral interface with clipped corners and sparse unlabelled rails. Its shape differs from the historical terminal and cache vocabulary without depicting a recognizable laboratory. No logo, place, date, lineage cue, inherited page name or connection to the two historical populations.",
+      "name": "Unidentified future evaluation surface",
+      "versions": [
+        {
+          "created": "2026-09-12T22:32:19+00:00",
+          "id": "v001",
+          "note": "Initial setting derived from canonical scene framing; foreground content stays separate.",
+          "parent": null,
+          "sha256": "9291bbd40ff7a3eea423967e38cbfe0caf4c58f0e63194e92cb74e4cbc467d99"
         }
       ]
     },
@@ -522,6 +672,21 @@
           "note": "Original storyboard component, preserved without changes.",
           "parent": null,
           "sha256": "1303d36331a695eccfaf83960938a626944d0a12d7f480b2363f31821b9372a5"
+        }
+      ]
+    },
+    "incident-operations-room": {
+      "category": "locations",
+      "default": "v001",
+      "description": "Reconstructed routine response setting: flat fluorescent ceiling bars, shallow telemetry wall and cable raceway. Recur through the June alert, discussion and July outage. Blank displays add no knowledge of the later compromise; responders and alert states stay separate.",
+      "name": "Incident-response operations room",
+      "versions": [
+        {
+          "created": "2026-09-12T22:32:19+00:00",
+          "id": "v001",
+          "note": "Initial setting derived from canonical scene framing; foreground content stays separate.",
+          "parent": null,
+          "sha256": "9a0f86fdd0f32c581af91a1b27541a633f40b3f0df47ffc49a858e14bed39b74"
         }
       ]
     },
@@ -690,6 +855,21 @@
         }
       ]
     },
+    "paging-operations-room": {
+      "category": "locations",
+      "default": "v001",
+      "description": "Separate reconstructed Hugging Face operations setting: a tiled incident-display wall and a distinct blank paging recess, with open floor for occupied or empty chairs. Does not imply any person received, ignored or acknowledged an alert. Display contents and paging failure belong to foreground objects and lettering.",
+      "name": "Paging operations setting",
+      "versions": [
+        {
+          "created": "2026-09-12T22:32:19+00:00",
+          "id": "v001",
+          "note": "Initial setting derived from canonical scene framing; foreground content stays separate.",
+          "parent": null,
+          "sha256": "fcf886bd0909ae73bc86a17c3324d6b5c5cd83218b295aa842c9644b0ce748d7"
+        }
+      ]
+    },
     "paper": {
       "category": "objects",
       "default": "v001",
@@ -739,6 +919,43 @@
           "note": "Original storyboard component, preserved without changes.",
           "parent": null,
           "sha256": "5c9d183fd83649384c90f313e8b7534b49e1cd01bff7d519f6e30c2fae189de5"
+        }
+      ]
+    },
+    "public-wiki-history": {
+      "category": "locations",
+      "default": "v002",
+      "description": "Bare page-history frame with distinct header columns and open-ended side rules, sized to hold the scene’s revision rows and two independent clocks. Contains no fabricated records, handles, dates or deletion counts. Use for the public-wiki register only; a saved revision is not proof of task success.",
+      "name": "Public wiki revision-history background",
+      "versions": [
+        {
+          "created": "2026-09-12T22:32:19+00:00",
+          "id": "v001",
+          "note": "Initial setting derived from canonical scene framing; foreground content stays separate.",
+          "parent": null,
+          "sha256": "21722152df8f78aff127e375975b29a5a380a49fa5019808d8005d4a6957a62e"
+        },
+        {
+          "created": "2026-09-12T22:34:07+00:00",
+          "id": "v002",
+          "note": "Move the header above the first revision row so it does not cross either clock; retain independent columns.",
+          "parent": "v001",
+          "sha256": "b90622cac90ecc833a3aecc259069f1b1a3741482d49a9582091c64bdb2080e7"
+        }
+      ]
+    },
+    "public-wiki-site": {
+      "category": "locations",
+      "default": "v001",
+      "description": "Plain self-hosted community-wiki surface with an offset navigation margin, small page tabs and a large content area. Visually distinct from the cache tree and terminal UI. Scene lettering supplies dated German-interface context and attributed contents; no real site address, maintainer identity or personal human-page details are baked in.",
+      "name": "Public community wiki page",
+      "versions": [
+        {
+          "created": "2026-09-12T22:32:19+00:00",
+          "id": "v001",
+          "note": "Initial setting derived from canonical scene framing; foreground content stays separate.",
+          "parent": null,
+          "sha256": "14da0e3b59d8bbcb19acd08274135a5aec9a885eb40f34cf5f098d9d437b2cfa"
         }
       ]
     },

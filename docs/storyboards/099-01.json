@@ -1,6 +1,6 @@
 {
   "background": "ink",
-  "intent": "Assemble an ordinary invented room from source-document fragments with no official insignia. The reader must see a constructed accountability forum, not a reported hearing.",
+  "intent": "Assemble an ordinary invented room from source-document fragments with no official insignia. The reader must see a constructed accountability forum, not a reported hearing. Keep the paper-fragment perimeter and four empty wall bays visible as invented staging, with no official chamber insignia.",
   "lettering": [
     {
       "box": [
@@ -14,14 +14,14 @@
   "lettering_mode": "manual",
   "nodes": [
     {
-      "asset": "room",
+      "asset": "accountability-forum",
       "box": [
         0.0492,
         0.0514,
         0.9016,
         0.6272
       ],
-      "color": "shadow"
+      "color": "steel"
     },
     {
       "asset": "desk",

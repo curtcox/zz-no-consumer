@@ -1,6 +1,6 @@
 {
   "background": "ink",
-  "intent": "Separate the container from external network access with a continuous barrier. Show no peer-channel socket or direct connection; the next panel must introduce a distinct permitted affordance.",
+  "intent": "Separate the container from external network access with a continuous barrier. Show no peer-channel socket or direct connection; the next panel must introduce a distinct permitted affordance. Use the independent evaluation container boundary geometry to identify this setting; keep the existing labels, qualifications and foreground relationships.",
   "lettering": [
     {
       "box": [
@@ -14,7 +14,7 @@
   "lettering_mode": "manual",
   "nodes": [
     {
-      "asset": "box",
+      "asset": "evaluation-container-field",
       "box": [
         0.06775,
         0.2012,

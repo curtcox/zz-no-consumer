@@ -1,6 +1,6 @@
 {
   "background": "ink",
-  "intent": "Nest the customer workload inside a larger intact platform perimeter. Put the board card outside both; the route reaches the workload endpoint without coloring the platform as compromised.",
+  "intent": "Nest the customer workload inside a larger intact platform perimeter. Put the board card outside both; the route reaches the workload endpoint without coloring the platform as compromised. Use the independent customer workload inside intact platform geometry to identify this setting; keep the existing labels, qualifications and foreground relationships.",
   "lettering": [
     {
       "box": [
@@ -33,7 +33,7 @@
       "label_size": 18
     },
     {
-      "asset": "outline-box",
+      "asset": "customer-workload-field",
       "box": [
         0.3362,
         0.0521,

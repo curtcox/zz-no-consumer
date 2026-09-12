@@ -1,6 +1,6 @@
 {
   "background": "ink",
-  "intent": "Return to the same table and three cards inside a broken reconstruction border. Continuity establishes the discussion's subject while the border preserves its invented staging.",
+  "intent": "Return to the same table and three cards inside a broken reconstruction border. Continuity establishes the discussion's subject while the border preserves its invented staging. Reuse the flat lights and blank telemetry wall through the response sequence; background screens introduce no additional findings.",
   "lettering": [
     {
       "box": [
@@ -14,14 +14,14 @@
   "lettering_mode": "manual",
   "nodes": [
     {
-      "asset": "room",
+      "asset": "incident-operations-room",
       "box": [
         0.0492,
         0.0514,
         0.9016,
         0.6272
       ],
-      "color": "shadow"
+      "color": "steel"
     },
     {
       "asset": "desk",

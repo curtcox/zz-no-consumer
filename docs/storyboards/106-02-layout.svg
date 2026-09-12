@@ -1,7 +1,7 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="800" viewBox="0 0 1200 800"><title>A June public-wiki revision occupies a distinct evidence lane</title><desc>Use a distinct plain public-wiki history frame with the June timestamp and language cues. This is a separate evidence lane, not another Artifactory interface.</desc><metadata>{
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="800" viewBox="0 0 1200 800"><title>A June public-wiki revision occupies a distinct evidence lane</title><desc>Use a distinct plain public-wiki history frame with the June timestamp and language cues. This is a separate evidence lane, not another Artifactory interface. Use the independent public community wiki page geometry to identify this setting; keep the existing labels, qualifications and foreground relationships.</desc><metadata>{
   &quot;assets&quot;: {
     &quot;clock&quot;: &quot;&lt;circle cx=\&quot;50\&quot; cy=\&quot;50\&quot; r=\&quot;44\&quot; fill=\&quot;#202326\&quot; stroke=\&quot;currentColor\&quot; stroke-width=\&quot;4\&quot;/&gt;&lt;path d=\&quot;M50 15V50L75 64M50 5V12M95 50H88M50 95V88M5 50H12\&quot; fill=\&quot;none\&quot; stroke=\&quot;currentColor\&quot; stroke-width=\&quot;4\&quot;/&gt;&quot;,
-    &quot;terminal&quot;: &quot;&lt;rect x=\&quot;2\&quot; y=\&quot;4\&quot; width=\&quot;96\&quot; height=\&quot;92\&quot; fill=\&quot;#101214\&quot; stroke=\&quot;currentColor\&quot; stroke-width=\&quot;3\&quot;/&gt;&lt;path d=\&quot;M2 18H98M12 31L21 40L12 49M29 49H51M12 65H76M12 78H62\&quot; fill=\&quot;none\&quot; stroke=\&quot;currentColor\&quot; stroke-width=\&quot;3\&quot;/&gt;&quot;
+    &quot;public-wiki-site&quot;: &quot;&lt;g fill=\&quot;none\&quot; stroke=\&quot;currentColor\&quot; stroke-width=\&quot;0.9\&quot; stroke-linejoin=\&quot;round\&quot; opacity=\&quot;1\&quot;&gt;&lt;rect x=\&quot;2\&quot; y=\&quot;2\&quot; width=\&quot;96\&quot; height=\&quot;96\&quot;/&gt;&lt;path d=\&quot;M2 14H98M20 14V96M25 25H92M25 25V20H43V25M47 25V20H65V25M69 25V20H87V25M6 23H15M6 31H15M6 39H15M6 47H15\&quot;/&gt;&lt;path d=\&quot;M27 35H79M27 43H90M27 51H85M27 67H90M27 75H80M27 83H88\&quot; stroke-width=\&quot;.6\&quot;/&gt;&lt;/g&gt;&quot;
   },
   &quot;palette&quot;: {
     &quot;amber&quot;: &quot;#A17D45&quot;,
@@ -18,7 +18,7 @@
   &quot;renderer&quot;: &quot;storyboard-svg-2&quot;,
   &quot;scene&quot;: {
     &quot;background&quot;: &quot;ink&quot;,
-    &quot;intent&quot;: &quot;Use a distinct plain public-wiki history frame with the June timestamp and language cues. This is a separate evidence lane, not another Artifactory interface.&quot;,
+    &quot;intent&quot;: &quot;Use a distinct plain public-wiki history frame with the June timestamp and language cues. This is a separate evidence lane, not another Artifactory interface. Use the independent public community wiki page geometry to identify this setting; keep the existing labels, qualifications and foreground relationships.&quot;,
     &quot;lettering&quot;: [
       {
         &quot;box&quot;: [
@@ -32,7 +32,7 @@
     &quot;lettering_mode&quot;: &quot;manual&quot;,
     &quot;nodes&quot;: [
       {
-        &quot;asset&quot;: &quot;terminal&quot;,
+        &quot;asset&quot;: &quot;public-wiki-site&quot;,
         &quot;box&quot;: [
           0.2148,
           0.1282,
@@ -74,4 +74,4 @@
     &quot;title&quot;: &quot;A June public-wiki revision occupies a distinct evidence lane&quot;
   }
 }
-</metadata><rect width="1200" height="800" fill="#101214"/><rect x="257.76" y="102.56" width="640.32" height="317.44" fill="none" stroke="#5E737B" stroke-width="3"/><text x="265.76" y="126.56" fill="#5E737B" font-family="sans-serif" font-size="20">terminal</text><text x="577.92" y="442.8" text-anchor="middle" fill="#E7E0D0" font-size="18" font-family="sans-serif">PUBLIC WIKI</text><rect x="477.6" y="455.84" width="46.08" height="46.08" fill="none" stroke="#5E737B" stroke-width="3"/><text x="485.6" y="479.84" fill="#5E737B" font-family="sans-serif" font-size="20">clock</text><text x="500.64" y="526.72" text-anchor="middle" fill="#E7E0D0" font-size="20" font-family="sans-serif">19 JUNE 12:40 UTC</text><rect x="3" y="3" width="1194" height="794" fill="none" stroke="#5E737B" stroke-width="4"/></svg>
+</metadata><rect width="1200" height="800" fill="#101214"/><rect x="257.76" y="102.56" width="640.32" height="317.44" fill="none" stroke="#5E737B" stroke-width="3"/><text x="265.76" y="126.56" fill="#5E737B" font-family="sans-serif" font-size="20">public-wiki-site</text><text x="577.92" y="442.8" text-anchor="middle" fill="#E7E0D0" font-size="18" font-family="sans-serif">PUBLIC WIKI</text><rect x="477.6" y="455.84" width="46.08" height="46.08" fill="none" stroke="#5E737B" stroke-width="3"/><text x="485.6" y="479.84" fill="#5E737B" font-family="sans-serif" font-size="20">clock</text><text x="500.64" y="526.72" text-anchor="middle" fill="#E7E0D0" font-size="20" font-family="sans-serif">19 JUNE 12:40 UTC</text><rect x="3" y="3" width="1194" height="794" fill="none" stroke="#5E737B" stroke-width="4"/></svg>

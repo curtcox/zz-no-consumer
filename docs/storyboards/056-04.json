@@ -1,6 +1,6 @@
 {
   "background": "ink",
-  "intent": "Show genuinely empty chairs and an unoccupied paging destination. No silhouette, hand or acknowledged-screen state should invent a human ignoring an alert.",
+  "intent": "Show genuinely empty chairs and an unoccupied paging destination. No silhouette, hand or acknowledged-screen state should invent a human ignoring an alert. Use the distinct paging recess and tiled display wall; the setting itself supplies neither a recipient nor an acknowledgment.",
   "lettering": [
     {
       "box": [
@@ -14,14 +14,14 @@
   "lettering_mode": "manual",
   "nodes": [
     {
-      "asset": "room",
+      "asset": "paging-operations-room",
       "box": [
         0.0541,
         0.0521,
         0.8918,
         0.6816
       ],
-      "color": "shadow",
+      "color": "steel",
       "focus": true
     },
     {

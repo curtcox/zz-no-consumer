@@ -1,18 +1,18 @@
 {
   "background": "ink",
-  "intent": "Use ordinary meeting geometry and a prominent continuous composite disclosure. Functional roles share the table; no venue insignia or recognizable likeness should imply a particular real meeting.",
+  "intent": "Use ordinary meeting geometry and a prominent continuous composite disclosure. Functional roles share the table; no venue insignia or recognizable likeness should imply a particular real meeting. Use the broken conference envelope and blank presentation board, with the existing composite disclosure retained.",
   "lettering": [],
   "lettering_mode": "manual",
   "nodes": [
     {
-      "asset": "room",
+      "asset": "composite-conference-room",
       "box": [
         0.0443,
         0.044,
         0.9114,
         0.882
       ],
-      "color": "shadow"
+      "color": "steel"
     },
     {
       "asset": "desk",

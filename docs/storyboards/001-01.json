@@ -1,6 +1,6 @@
 {
   "background": "ink",
-  "intent": "Make the active task a small, specific obligation inside a much larger indifferent facility. One selected rack and one highlighted objective establish a run, not a machine character.",
+  "intent": "Make the active task a small, specific obligation inside a much larger indifferent facility. One selected rack and one highlighted objective establish a run, not a machine character. Receding windowless equipment bays establish facility scale around the separately highlighted rack.",
   "lettering": [
     {
       "box": [
@@ -15,14 +15,14 @@
   "lettering_mode": "manual",
   "nodes": [
     {
-      "asset": "room",
+      "asset": "data-center-aisle",
       "box": [
         0.02,
         0.06,
         0.96,
         0.9
       ],
-      "color": "shadow"
+      "color": "steel"
     },
     {
       "asset": "rack",

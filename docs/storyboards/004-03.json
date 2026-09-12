@@ -1,6 +1,6 @@
 {
   "background": "ink",
-  "intent": "Keep the previous topology fixed. Highlight only the writer-to-cache path and the stored row, while other workload connections remain neutral; writing is not yet proof of every reader receiving it.",
+  "intent": "Keep the previous topology fixed. Highlight only the writer-to-cache path and the stored row, while other workload connections remain neutral; writing is not yet proof of every reader receiving it. Use the independent shared package-cache namespace geometry to identify this setting; keep the existing labels, qualifications and foreground relationships.",
   "lettering": [
     {
       "box": [
@@ -14,7 +14,7 @@
   "lettering_mode": "manual",
   "nodes": [
     {
-      "asset": "folder",
+      "asset": "cache-directory-field",
       "box": [
         0.6729,
         0.1373,

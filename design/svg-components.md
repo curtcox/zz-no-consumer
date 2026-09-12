@@ -70,6 +70,9 @@ alternatives and a separate reconstructed creator-workroom location. These are s
 designs, not approved likenesses or documentary interiors. The visual purpose is an
 editorial instruction, not proof that the drawing already communicates it successfully.
 
+See the [story location audit](story-location-audit.md) for setting-specific additions,
+canonical panel anchors and the distinction between physical rooms and logical environments.
+
 ## CLI and published gallery
 
 ```bash

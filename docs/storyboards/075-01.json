@@ -1,6 +1,6 @@
 {
   "background": "ink",
-  "intent": "Extend transcript lanes past the room's edges while keeping the approximate count in lettering. The visible wall is a sample of scale, not the complete corpus.",
+  "intent": "Extend transcript lanes past the room's edges while keeping the approximate count in lettering. The visible wall is a sample of scale, not the complete corpus. Use the on-premises evidence review room as a quiet setting layer; its empty areas carry no additional events or evidence.",
   "lettering": [
     {
       "box": [
@@ -13,6 +13,16 @@
   ],
   "lettering_mode": "manual",
   "nodes": [
+    {
+      "asset": "evidence-review-room",
+      "box": [
+        0.025,
+        0.03,
+        0.95,
+        0.71
+      ],
+      "color": "steel"
+    },
     {
       "asset": "scatter",
       "box": [

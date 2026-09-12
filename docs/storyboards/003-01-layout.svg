@@ -1,7 +1,7 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="800" viewBox="0 0 1200 800"><title>The isolated evaluation boundary</title><desc>Separate the container from external network access with a continuous barrier. Show no peer-channel socket or direct connection; the next panel must introduce a distinct permitted affordance.</desc><metadata>{
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="800" viewBox="0 0 1200 800"><title>The isolated evaluation boundary</title><desc>Separate the container from external network access with a continuous barrier. Show no peer-channel socket or direct connection; the next panel must introduce a distinct permitted affordance. Use the independent evaluation container boundary geometry to identify this setting; keep the existing labels, qualifications and foreground relationships.</desc><metadata>{
   &quot;assets&quot;: {
     &quot;boundary&quot;: &quot;&lt;path d=\&quot;M50 0V100\&quot; stroke=\&quot;currentColor\&quot; stroke-width=\&quot;14\&quot;/&gt;&quot;,
-    &quot;box&quot;: &quot;&lt;rect x=\&quot;1\&quot; y=\&quot;1\&quot; width=\&quot;98\&quot; height=\&quot;98\&quot; rx=\&quot;2\&quot; fill=\&quot;#202326\&quot; stroke=\&quot;currentColor\&quot; stroke-width=\&quot;2\&quot;/&gt;&quot;,
+    &quot;evaluation-container-field&quot;: &quot;&lt;g fill=\&quot;none\&quot; stroke=\&quot;currentColor\&quot; stroke-width=\&quot;0.9\&quot; stroke-linejoin=\&quot;round\&quot; opacity=\&quot;1\&quot;&gt;&lt;rect x=\&quot;3\&quot; y=\&quot;3\&quot; width=\&quot;94\&quot; height=\&quot;94\&quot;/&gt;&lt;path d=\&quot;M3 18H97M10 10H29M36 10H55M10 89H90\&quot;/&gt;&lt;path d=\&quot;M12 28V75M88 28V75\&quot; stroke-dasharray=\&quot;2 3\&quot;/&gt;&lt;/g&gt;&quot;,
     &quot;gate&quot;: &quot;&lt;path d=\&quot;M8 95V8H92V95M15 33H85M25 34V88M40 34V88M55 34V88M70 34V88M85 34V88\&quot; fill=\&quot;none\&quot; stroke=\&quot;currentColor\&quot; stroke-width=\&quot;4\&quot;/&gt;&lt;rect x=\&quot;39\&quot; y=\&quot;46\&quot; width=\&quot;22\&quot; height=\&quot;23\&quot; fill=\&quot;currentColor\&quot;/&gt;&quot;
   },
   &quot;palette&quot;: {
@@ -19,7 +19,7 @@
   &quot;renderer&quot;: &quot;storyboard-svg-2&quot;,
   &quot;scene&quot;: {
     &quot;background&quot;: &quot;ink&quot;,
-    &quot;intent&quot;: &quot;Separate the container from external network access with a continuous barrier. Show no peer-channel socket or direct connection; the next panel must introduce a distinct permitted affordance.&quot;,
+    &quot;intent&quot;: &quot;Separate the container from external network access with a continuous barrier. Show no peer-channel socket or direct connection; the next panel must introduce a distinct permitted affordance. Use the independent evaluation container boundary geometry to identify this setting; keep the existing labels, qualifications and foreground relationships.&quot;,
     &quot;lettering&quot;: [
       {
         &quot;box&quot;: [
@@ -33,7 +33,7 @@
     &quot;lettering_mode&quot;: &quot;manual&quot;,
     &quot;nodes&quot;: [
       {
-        &quot;asset&quot;: &quot;box&quot;,
+        &quot;asset&quot;: &quot;evaluation-container-field&quot;,
         &quot;box&quot;: [
           0.06775,
           0.2012,
@@ -88,4 +88,4 @@
     &quot;title&quot;: &quot;The isolated evaluation boundary&quot;
   }
 }
-</metadata><rect width="1200" height="800" fill="#101214"/><rect x="81.3" y="160.96" width="469.56" height="221.179" fill="none" stroke="#5E737B" stroke-width="3"/><text x="89.3" y="184.96" fill="#5E737B" font-family="sans-serif" font-size="20">box</text><text x="316.08" y="413.544" text-anchor="middle" fill="#E7E0D0" font-size="18" font-family="sans-serif">EVALUATION</text><rect x="627.3" y="160.96" width="469.56" height="221.179" fill="none" stroke="#5E737B" stroke-width="3"/><text x="635.3" y="184.96" fill="#5E737B" font-family="sans-serif" font-size="20">gate</text><text x="862.08" y="413.544" text-anchor="middle" fill="#E7E0D0" font-size="18" font-family="sans-serif">EXTERNAL NETWORK</text><rect x="592.356" y="58.72" width="15.288" height="499.84" fill="none" stroke="#5E737B" stroke-width="3"/><text x="600.356" y="82.72" fill="#5E737B" font-family="sans-serif" font-size="20">boundary</text><rect x="3" y="3" width="1194" height="794" fill="none" stroke="#5E737B" stroke-width="4"/></svg>
+</metadata><rect width="1200" height="800" fill="#101214"/><rect x="81.3" y="160.96" width="469.56" height="221.179" fill="none" stroke="#5E737B" stroke-width="3"/><text x="89.3" y="184.96" fill="#5E737B" font-family="sans-serif" font-size="20">evaluation-container-field</text><text x="316.08" y="413.544" text-anchor="middle" fill="#E7E0D0" font-size="18" font-family="sans-serif">EVALUATION</text><rect x="627.3" y="160.96" width="469.56" height="221.179" fill="none" stroke="#5E737B" stroke-width="3"/><text x="635.3" y="184.96" fill="#5E737B" font-family="sans-serif" font-size="20">gate</text><text x="862.08" y="413.544" text-anchor="middle" fill="#E7E0D0" font-size="18" font-family="sans-serif">EXTERNAL NETWORK</text><rect x="592.356" y="58.72" width="15.288" height="499.84" fill="none" stroke="#5E737B" stroke-width="3"/><text x="600.356" y="82.72" fill="#5E737B" font-family="sans-serif" font-size="20">boundary</text><rect x="3" y="3" width="1194" height="794" fill="none" stroke="#5E737B" stroke-width="4"/></svg>

@@ -1,6 +1,6 @@
 {
   "background": "ink",
-  "intent": "Keep later events and times inside the new source field. Documentary precision must remain attributed to the reporting organization rather than imply outside corroboration.",
+  "intent": "Keep later events and times inside the new source field. Documentary precision must remain attributed to the reporting organization rather than imply outside corroboration. Use the attributed institutional dossier field as a quiet setting layer; its empty areas carry no additional events or evidence.",
   "lettering": [
     {
       "box": [
@@ -21,6 +21,16 @@
   ],
   "lettering_mode": "manual",
   "nodes": [
+    {
+      "asset": "attributed-dossier-field",
+      "box": [
+        0.025,
+        0.1,
+        0.53,
+        0.66
+      ],
+      "color": "steel"
+    },
     {
       "asset": "card",
       "box": [
