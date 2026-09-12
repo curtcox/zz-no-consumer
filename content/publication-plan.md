@@ -133,10 +133,20 @@ contract's dated-record procedure governs any further one.
 
 ### A10. Lock
 
-Gate 8: validate source links, page metadata, reading order, accessibility text, print
-dimensions, and the viewer, then move all 118 pages from `review` to `locked`. Every
-target ships from the locked tree; a target that ships from anything else is a
-different book.
+Gate 9 first, then gate 8.
+
+**Gate 9 — quote and citation verification.** Every direct quotation and every citation,
+checked one at a time against its source, immediately before lock and again before each
+target ships. Existence and content-match are separate questions; a quotation adds a third,
+whether the wording is exactly right and whether what we call it is what it is. Each item
+leaves with a disposition — quote as it stands, paraphrase, or redact. This is the gate that
+lets the drafting stay on ground truth: the lossy decision is made once, late, with the
+original still in hand. See [`tasks/citation-verification.md`](../tasks/citation-verification.md).
+
+**Gate 8 — final proof and lock.** Validate source links, page metadata, reading order,
+accessibility text, print dimensions, and the viewer, then move all 118 pages from `review`
+to `locked`. Every target ships from the locked tree; a target that ships from anything else
+is a different book.
 
 ---
 

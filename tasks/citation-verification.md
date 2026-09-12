@@ -67,6 +67,58 @@ So rows are claims, keyed to a source, each carrying:
 That last field is what makes the register survive editing. Without it, the register records that
 someone once checked something that may no longer be what the book says.
 
+## Quotations are rows in the same register
+
+**Added 12 September 2026**, on a standing instruction from the owner: work with direct quotes
+wherever they are appropriate, stay as close to the ground truth as possible while drafting, and
+check every quote immediately before publication exactly as citations are checked — paraphrasing or
+redacting then, if then is when it is needed.
+
+This does not need a second register. A direct quotation **is** a claim about a source's content —
+the strictest kind — so it is the same row with a tighter match rule. Three questions instead of
+two:
+
+| Question | Applies to | Discharged by |
+| --- | --- | --- |
+| Does the source exist and resolve? | every citation | `exists` |
+| Does it say what we claim? | every citation | `quoted` |
+| **Is the wording exactly right, and is what we call it what it is?** | **quotations only** | **`verbatim`** — a fifth level |
+
+`verbatim` is a stricter level than `quoted`, not a parallel one: it requires a character-exact match
+against a named copy of the source, and it records **which** copy. That last part is the one that
+bites. A quotation checked against an automatic transcription is `verbatim` **against that
+transcription** and nothing more, and the row must say so — the string may be exactly what the
+transcript contains and not what the speaker said. Two rows, two different claims, and collapsing
+them is how a transcription error becomes a quotation in a printed book.
+
+**The rule this replaces, and why.** Until 12 September the working default was to paraphrase
+uncertain sources during drafting. That is backwards: it applies the lossy transformation at the
+moment when review is still possible, and by the time anyone reviews it the thing to review against
+is gone. The reasoning is in
+[`research/quotation-and-paraphrase-2026-09-12.md`](../research/quotation-and-paraphrase-2026-09-12.md).
+The disposition now happens **once, late, with the original in hand** — which is what gate 9 is for.
+
+**What this changes about the existing machinery, and it needs a decision.**
+[`validate-continuity.py`](../scripts/validate-continuity.py) currently **hard-fails any page except
+the last that carries anything other than `exact_strings: []`**. That check enforces the old default:
+it makes it impossible to hold a quotation in a page script at all, which is precisely what the new
+working rule asks for. The check is pointed the wrong way.
+
+The shape of the fix, for the owner to approve rather than for a session to apply:
+
+- `exact_strings` becomes a **registration** again — the string, its source key, its locator, its
+  verification level, its rights status — rather than a field that must be empty.
+- The emptiness requirement moves from *always* to **gate 9**: a page may carry registered exact
+  strings while in `review`, and may not reach `locked` with one that is unregistered, unverified, or
+  rights-unresolved.
+- [`research/exact-text-permissions-audit.md`](../research/exact-text-permissions-audit.md) rule 5
+  already anticipates this: it says to reopen the gate for a specific excerpt rather than restoring
+  the former set wholesale. A per-string registration is what reopening looks like mechanically.
+
+Until that decision is taken, **the constraint is real and current**: no story page may carry a
+third-party exact string, and drafting on ground truth means holding the quotation in the vault
+record and the research note, not in the page script.
+
 ## Verification levels
 
 Four, because collapsing them is how an unchecked claim comes to look checked.
@@ -75,6 +127,10 @@ Four, because collapsing them is how an unchecked claim comes to look checked.
 - **`locator`** — a specific passage, page or timestamp is recorded. Still nothing about content.
 - **`quoted`** — the claim was checked against that passage, by a named agent, on a date. This is the
   only level that discharges the content-match obligation.
+- **`verbatim`** — the wording is character-exact against a **named** copy of the source, and the row
+  says which copy. Stricter than `quoted`. Required for every direct quotation. A match against an
+  automatic transcription is `verbatim` against the transcription and **not** against the speaker;
+  the row must not blur the two.
 - **`derived`** — the fact was *computed*, not read. **This level does not currently exist in the
   repository and it should, because this session created an instance of it:** `DS-GRADIENT`'s date of
   6 September 2026 was derived from an X snowflake identifier, not read off the post. The derivation
@@ -113,9 +169,13 @@ The owner's requirement is repeated checking, intensifying before publication.
 2. **`probe` on a cadence** — weekly or fortnightly — with results committed as a dated record, so link
    rot is noticed as it happens rather than discovered at lock.
 3. **`probe` plus a full `quoted` re-pass at page lock**, and again immediately before publication.
-   Not a sample. Every claim-bearing citation.
+   Not a sample. Every claim-bearing citation — **and every quotation to `verbatim`.** This is
+   [gate 9](../content/draft-readiness.md), and it is where each quotation gets its disposition:
+   quote as it stands, paraphrase, or redact.
 4. **A publication gate**: the build refuses to produce a release while any claim-bearing citation is
-   below `quoted`, is stale past its threshold, or has a claim hash that does not match the prose.
+   below `quoted`, any quotation is below `verbatim`, either is stale past its threshold, or a claim
+   hash does not match the prose. Six targets ship from one locked tree, so the gate runs at lock and
+   again per target — a clearance is only good while the tree has not moved.
 
 Item 3 is the expensive one and it is the one the owner asked for. It cannot be automated away, because
 `quoted` requires someone to read the passage and the claim together. What tooling can do is make the

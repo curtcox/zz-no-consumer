@@ -144,9 +144,39 @@ partly cover.
 
 ## Prose conventions
 
-Recent editorial direction (see the last few commits): sourcing and invention status belong
-**inside the narrative voice**, not in an italic prefatory notice above the passage. Prefer
-"in an account of its own systems that no outside review covers" to a bracketed disclaimer.
+**Stay on ground truth while working (12 September 2026).** Work with **direct quotation wherever it
+is appropriate**, and keep the original wording in the record — the vault copy, the source
+assessment, the research note. Do **not** paraphrase during drafting to pre-empt a problem.
+Quotation against paraphrase against redaction is decided **once, late**, at
+[gate 9](content/draft-readiness.md) immediately before publication, when the original is still in
+hand and the decision can be reviewed. A transformation applied early cannot be reviewed later,
+because the thing it would be reviewed against is gone.
+
+Two corollaries, both learned the hard way and recorded in
+[`research/quotation-and-paraphrase-2026-09-12.md`](research/quotation-and-paraphrase-2026-09-12.md):
+
+- **Quoting a string is not claiming it is verbatim.** Quote it, and label how the record was made —
+  "automatic transcription of this video" — and a reader can check and correct. Paraphrasing an
+  unreliable source merges its errors with your reading, attributes both to the speaker, and makes
+  the result unfalsifiable. Unreliability is a reason **to** quote with a label.
+- **Never format a paraphrase as a quotation.** Screen text, block quotes and lettered `Screen /
+  system text` all read as verbatim. If the words are not the source's, do not put them in a shape
+  that says they are.
+- **Never alter a record.** The vault stores what the source said, including wording the book would
+  not print. What the book prints is a separate decision, governed by the contract's critic rule and
+  its security rule. The argument survives its removal from the page; the record does not survive its
+  removal from the record.
+
+**One current constraint this does not override.** No story page may carry a third-party exact
+string: `validate-continuity.py` hard-fails any page except the last whose front matter is not
+`exact_strings: []`. That check encodes the *old* default and is now pointed the wrong way; a
+proposed fix is in [`tasks/citation-verification.md`](tasks/citation-verification.md) and is the
+owner's to approve. Until then, draft on ground truth by holding the quotation in the vault and the
+research note, not in the page script.
+
+Sourcing and invention status belong **inside the narrative voice**, not in an italic prefatory
+notice above the passage. Prefer "in an account of its own systems that no outside review covers" to
+a bracketed disclaimer.
 
 Prose uses typographic punctuation — curly quotes, en and em dashes — and the tools' regexes
 read it as written. Match the file you are editing.
