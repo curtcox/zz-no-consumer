@@ -1,0 +1,155 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="800" viewBox="0 0 1200 800"><title>Five roles cannot be collapsed into one institutional knower</title><desc>Show five distinct role figures beneath a bracket that fails to close. Institutional knowledge cannot be inferred by merging visitor, team, responder, executive and outside reviewer.</desc><metadata>{
+  &quot;assets&quot;: {
+    &quot;open-bracket&quot;: &quot;&lt;path d=\&quot;M8 30V5H92V30M8 70V95H37M63 95H92V70\&quot; fill=\&quot;none\&quot; stroke=\&quot;currentColor\&quot; stroke-width=\&quot;3\&quot;/&gt;&quot;,
+    &quot;person-standing&quot;: &quot;&lt;circle cx=\&quot;50\&quot; cy=\&quot;14\&quot; r=\&quot;12\&quot; fill=\&quot;currentColor\&quot;/&gt;&lt;path d=\&quot;M35 30H65L75 65H63L61 98H51L49 70L47 98H36L36 65H24Z\&quot; fill=\&quot;currentColor\&quot;/&gt;&quot;
+  },
+  &quot;palette&quot;: {
+    &quot;amber&quot;: &quot;#A17D45&quot;,
+    &quot;claret&quot;: &quot;#6B2634&quot;,
+    &quot;dirty&quot;: &quot;#CEC5B3&quot;,
+    &quot;ink&quot;: &quot;#101214&quot;,
+    &quot;institution&quot;: &quot;#68766B&quot;,
+    &quot;moss&quot;: &quot;#74864F&quot;,
+    &quot;nicotine&quot;: &quot;#AA9571&quot;,
+    &quot;paper&quot;: &quot;#E7E0D0&quot;,
+    &quot;shadow&quot;: &quot;#202326&quot;,
+    &quot;steel&quot;: &quot;#5E737B&quot;
+  },
+  &quot;renderer&quot;: &quot;storyboard-svg-2&quot;,
+  &quot;scene&quot;: {
+    &quot;background&quot;: &quot;ink&quot;,
+    &quot;intent&quot;: &quot;Show five distinct role figures beneath a bracket that fails to close. Institutional knowledge cannot be inferred by merging visitor, team, responder, executive and outside reviewer.&quot;,
+    &quot;lettering&quot;: [
+      {
+        &quot;box&quot;: [
+          0.045,
+          0.78,
+          0.91,
+          0.18
+        ]
+      }
+    ],
+    &quot;lettering_mode&quot;: &quot;manual&quot;,
+    &quot;nodes&quot;: [
+      {
+        &quot;asset&quot;: &quot;open-bracket&quot;,
+        &quot;box&quot;: [
+          0.0541,
+          0.0521,
+          0.8918,
+          0.449856
+        ],
+        &quot;color&quot;: &quot;amber&quot;,
+        &quot;focus&quot;: true,
+        &quot;label&quot;: &quot;OPENAI?&quot;,
+        &quot;label_box&quot;: [
+          0.0541,
+          0.52922,
+          0.8918,
+          0.197664
+        ],
+        &quot;label_size&quot;: 18
+      },
+      {
+        &quot;asset&quot;: &quot;person-standing&quot;,
+        &quot;box&quot;: [
+          0.115931,
+          0.1728,
+          0.076538,
+          0.229614
+        ],
+        &quot;color&quot;: &quot;steel&quot;,
+        &quot;focus&quot;: true,
+        &quot;label&quot;: &quot;VISITOR&quot;,
+        &quot;label_box&quot;: [
+          0.0814,
+          0.41633,
+          0.1456,
+          0.100891
+        ],
+        &quot;label_size&quot;: 18
+      },
+      {
+        &quot;asset&quot;: &quot;person-standing&quot;,
+        &quot;box&quot;: [
+          0.288831,
+          0.1728,
+          0.076538,
+          0.229614
+        ],
+        &quot;color&quot;: &quot;steel&quot;,
+        &quot;focus&quot;: true,
+        &quot;label&quot;: &quot;TEAM&quot;,
+        &quot;label_box&quot;: [
+          0.2543,
+          0.41633,
+          0.1456,
+          0.100891
+        ],
+        &quot;label_size&quot;: 18
+      },
+      {
+        &quot;asset&quot;: &quot;person-standing&quot;,
+        &quot;box&quot;: [
+          0.461731,
+          0.1728,
+          0.076538,
+          0.229614
+        ],
+        &quot;color&quot;: &quot;steel&quot;,
+        &quot;focus&quot;: true,
+        &quot;label&quot;: &quot;RESPONDER&quot;,
+        &quot;label_box&quot;: [
+          0.4272,
+          0.41633,
+          0.1456,
+          0.100891
+        ],
+        &quot;label_size&quot;: 18
+      },
+      {
+        &quot;asset&quot;: &quot;person-standing&quot;,
+        &quot;box&quot;: [
+          0.634631,
+          0.1728,
+          0.076538,
+          0.229614
+        ],
+        &quot;color&quot;: &quot;steel&quot;,
+        &quot;focus&quot;: true,
+        &quot;label&quot;: &quot;EXECUTIVE&quot;,
+        &quot;label_box&quot;: [
+          0.6001,
+          0.41633,
+          0.1456,
+          0.100891
+        ],
+        &quot;label_size&quot;: 18
+      },
+      {
+        &quot;asset&quot;: &quot;person-standing&quot;,
+        &quot;box&quot;: [
+          0.807531,
+          0.1728,
+          0.076538,
+          0.229614
+        ],
+        &quot;color&quot;: &quot;steel&quot;,
+        &quot;focus&quot;: true,
+        &quot;label&quot;: &quot;OUTSIDE INVESTIGATOR&quot;,
+        &quot;label_box&quot;: [
+          0.773,
+          0.41633,
+          0.1456,
+          0.100891
+        ],
+        &quot;label_size&quot;: 18
+      }
+    ],
+    &quot;reconstructed&quot;: true,
+    &quot;shot&quot;: &quot;row&quot;,
+    &quot;source&quot;: &quot;\n**Frame:** Five small labelled figures, drawn as the silhouettes of [page 016](016.md): `A VISITOR`, `A TEAM`, `A RESPONDER`, `AN EXECUTIVE`, `AN OUTSIDE INVESTIGATOR`. A bracket tries to enclose them under one word, `OPENAI`, and fails to close.\n\n**Caption:**\n&gt; \&quot;OPENAI KNEW\&quot; IS FIVE DIFFERENT CLAIMS. THE RECORD SUPPORTS AT MOST ONE OF THEM, ABOUT A VISITOR, BY INFERENCE.\n\n**Provenance:** `inferred` — the project&#x27;s decomposition of the disclosure question; the single supported claim is `CW-REPORT`&#x27;s attributed-visit inference, not an authenticated account of any person&#x27;s conclusions.\n\n&quot;,
+    &quot;title&quot;: &quot;Five roles cannot be collapsed into one institutional knower&quot;
+  }
+}
+</metadata><rect width="1200" height="800" fill="#101214"/><g transform="translate(64.92 41.68) scale(10.7016 3.59885)" color="#A17D45"><g transform=""><path d="M8 30V5H92V30M8 70V95H37M63 95H92V70" fill="none" stroke="currentColor" stroke-width="3"/></g></g><text x="600" y="441.376" text-anchor="middle" fill="#E7E0D0" font-size="18" font-family="sans-serif">OPENAI?</text><g transform="translate(139.117 138.24) scale(0.918456 1.83691)" color="#5E737B"><g transform=""><circle cx="50" cy="14" r="12" fill="currentColor"/><path d="M35 30H65L75 65H63L61 98H51L49 70L47 98H36L36 65H24Z" fill="currentColor"/></g></g><text x="185.04" y="351.064" text-anchor="middle" fill="#E7E0D0" font-size="18" font-family="sans-serif">VISITOR</text><g transform="translate(346.597 138.24) scale(0.918456 1.83691)" color="#5E737B"><g transform=""><circle cx="50" cy="14" r="12" fill="currentColor"/><path d="M35 30H65L75 65H63L61 98H51L49 70L47 98H36L36 65H24Z" fill="currentColor"/></g></g><text x="392.52" y="351.064" text-anchor="middle" fill="#E7E0D0" font-size="18" font-family="sans-serif">TEAM</text><g transform="translate(554.077 138.24) scale(0.918456 1.83691)" color="#5E737B"><g transform=""><circle cx="50" cy="14" r="12" fill="currentColor"/><path d="M35 30H65L75 65H63L61 98H51L49 70L47 98H36L36 65H24Z" fill="currentColor"/></g></g><text x="600" y="351.064" text-anchor="middle" fill="#E7E0D0" font-size="18" font-family="sans-serif">RESPONDER</text><g transform="translate(761.557 138.24) scale(0.918456 1.83691)" color="#5E737B"><g transform=""><circle cx="50" cy="14" r="12" fill="currentColor"/><path d="M35 30H65L75 65H63L61 98H51L49 70L47 98H36L36 65H24Z" fill="currentColor"/></g></g><text x="807.48" y="351.064" text-anchor="middle" fill="#E7E0D0" font-size="18" font-family="sans-serif">EXECUTIVE</text><g transform="translate(969.037 138.24) scale(0.918456 1.83691)" color="#5E737B"><g transform=""><circle cx="50" cy="14" r="12" fill="currentColor"/><path d="M35 30H65L75 65H63L61 98H51L49 70L47 98H36L36 65H24Z" fill="currentColor"/></g></g><text x="1014.96" y="351.064" text-anchor="middle" fill="#E7E0D0" font-size="18" font-family="sans-serif">OUTSIDE</text><text x="1014.96" y="375.544" text-anchor="middle" fill="#E7E0D0" font-size="18" font-family="sans-serif">INVESTIGATOR</text><rect x="3" y="3" width="1194" height="794" fill="none" stroke="#5E737B" stroke-width="4" stroke-dasharray="18 10"/></svg>

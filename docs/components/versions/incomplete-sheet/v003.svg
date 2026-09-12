@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
+<defs>
+<linearGradient id="stock" x1="0" y1="0" x2=".8" y2="1"><stop stop-color="#E7E0D0" /><stop offset="1" stop-color="#CEC5B3" /></linearGradient>
+<pattern id="grain" width="7" height="9" patternUnits="userSpaceOnUse"><circle cx="1" cy="2" r=".35" fill="#101214" opacity=".18" /><path d="M4 6h2M1 8h1" stroke="#101214" stroke-width=".3" opacity=".16" /></pattern>
+</defs><path d="M5 3H95V97H5Z" fill="url(#stock)" stroke="currentColor" stroke-width="2" /><path d="M5 3H95V97H5Z" fill="url(#grain)" /><rect x="5" y="3" width="90" height="16" fill="currentColor" /><rect x="5" y="19" width="17" height="78" fill="#CEC5B3" /><path d="M5 19H95M5 38H95M5 57H95M5 76H95M22 3V97M46 19V97M70 19V97" fill="none" stroke="#101214" stroke-width="0.9" /><rect x="27" y="27" width="13" height="3" fill="#101214" /><rect x="51" y="27" width="13" height="3" fill="#101214" /><rect x="27" y="46" width="13" height="3" fill="#101214" /><rect x="27" y="65" width="13" height="3" fill="#101214" /><rect x="75" y="65" width="13" height="3" fill="#101214" /><rect x="27" y="84" width="13" height="3" fill="#101214" />
+</svg>

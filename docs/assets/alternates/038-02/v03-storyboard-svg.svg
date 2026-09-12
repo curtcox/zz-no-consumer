@@ -1,0 +1,181 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="800" viewBox="0 0 1200 800"><title>Tools lie along routes to separate goals</title><desc>Place common resources between several distinct origins and their separate goals. Arrows continue beyond the resource boxes so useful means cannot read as final objectives.</desc><metadata>{
+  &quot;assets&quot;: {
+    &quot;arrow-up&quot;: &quot;&lt;g transform=\&quot;rotate(-90 50 50)\&quot;&gt;&lt;path d=\&quot;M1 50H87M70 18L96 50L70 82\&quot; fill=\&quot;none\&quot; stroke=\&quot;currentColor\&quot; stroke-width=\&quot;5\&quot;/&gt;&lt;/g&gt;&quot;,
+    &quot;card&quot;: &quot;&lt;rect x=\&quot;1\&quot; y=\&quot;1\&quot; width=\&quot;98\&quot; height=\&quot;98\&quot; fill=\&quot;#202326\&quot; stroke=\&quot;currentColor\&quot; stroke-width=\&quot;2\&quot;/&gt;&lt;path d=\&quot;M1 20H99M9 10H42M62 10H90M10 34H87M10 45H73M10 56H82M10 76H57M10 87H38\&quot; stroke=\&quot;currentColor\&quot; stroke-width=\&quot;2\&quot;/&gt;&quot;,
+    &quot;clock&quot;: &quot;&lt;circle cx=\&quot;50\&quot; cy=\&quot;50\&quot; r=\&quot;44\&quot; fill=\&quot;#202326\&quot; stroke=\&quot;currentColor\&quot; stroke-width=\&quot;4\&quot;/&gt;&lt;path d=\&quot;M50 15V50L75 64M50 5V12M95 50H88M50 95V88M5 50H12\&quot; fill=\&quot;none\&quot; stroke=\&quot;currentColor\&quot; stroke-width=\&quot;4\&quot;/&gt;&quot;,
+    &quot;folder&quot;: &quot;&lt;path d=\&quot;M3 20V8H38L48 20H97V90H3Z\&quot; fill=\&quot;#202326\&quot; stroke=\&quot;currentColor\&quot; stroke-width=\&quot;3\&quot;/&gt;&lt;path d=\&quot;M12 40H85M12 50H65\&quot; stroke=\&quot;currentColor\&quot; stroke-width=\&quot;2\&quot;/&gt;&quot;,
+    &quot;gate&quot;: &quot;&lt;path d=\&quot;M8 95V8H92V95M15 33H85M25 34V88M40 34V88M55 34V88M70 34V88M85 34V88\&quot; fill=\&quot;none\&quot; stroke=\&quot;currentColor\&quot; stroke-width=\&quot;4\&quot;/&gt;&lt;rect x=\&quot;39\&quot; y=\&quot;46\&quot; width=\&quot;22\&quot; height=\&quot;23\&quot; fill=\&quot;currentColor\&quot;/&gt;&quot;,
+    &quot;task&quot;: &quot;&lt;rect x=\&quot;1\&quot; y=\&quot;1\&quot; width=\&quot;98\&quot; height=\&quot;98\&quot; fill=\&quot;#202326\&quot; stroke=\&quot;currentColor\&quot; stroke-width=\&quot;2\&quot;/&gt;&lt;path d=\&quot;M1 19H99M12 10H38M48 10H62M9 83H91\&quot; stroke=\&quot;currentColor\&quot; stroke-width=\&quot;2\&quot;/&gt;&lt;circle cx=\&quot;26\&quot; cy=\&quot;48\&quot; r=\&quot;16\&quot; fill=\&quot;none\&quot; stroke=\&quot;currentColor\&quot; stroke-width=\&quot;2\&quot;/&gt;&lt;path d=\&quot;M26 27V69M5 48H47M54 35H90M54 47H78M54 59H88\&quot; stroke=\&quot;currentColor\&quot; stroke-width=\&quot;2\&quot;/&gt;&lt;path d=\&quot;M9 90H63\&quot; stroke=\&quot;currentColor\&quot; stroke-width=\&quot;5\&quot;/&gt;&quot;
+  },
+  &quot;palette&quot;: {
+    &quot;amber&quot;: &quot;#A17D45&quot;,
+    &quot;claret&quot;: &quot;#6B2634&quot;,
+    &quot;dirty&quot;: &quot;#CEC5B3&quot;,
+    &quot;ink&quot;: &quot;#101214&quot;,
+    &quot;institution&quot;: &quot;#68766B&quot;,
+    &quot;moss&quot;: &quot;#74864F&quot;,
+    &quot;nicotine&quot;: &quot;#AA9571&quot;,
+    &quot;paper&quot;: &quot;#E7E0D0&quot;,
+    &quot;shadow&quot;: &quot;#202326&quot;,
+    &quot;steel&quot;: &quot;#5E737B&quot;
+  },
+  &quot;renderer&quot;: &quot;storyboard-svg-2&quot;,
+  &quot;scene&quot;: {
+    &quot;background&quot;: &quot;ink&quot;,
+    &quot;intent&quot;: &quot;Place common resources between several distinct origins and their separate goals. Arrows continue beyond the resource boxes so useful means cannot read as final objectives.&quot;,
+    &quot;lettering&quot;: [
+      {
+        &quot;box&quot;: [
+          0.045,
+          0.78,
+          0.91,
+          0.18
+        ]
+      }
+    ],
+    &quot;lettering_mode&quot;: &quot;manual&quot;,
+    &quot;nodes&quot;: [
+      {
+        &quot;asset&quot;: &quot;task&quot;,
+        &quot;box&quot;: [
+          0.0541,
+          0.0805,
+          0.2002,
+          0.16401
+        ],
+        &quot;color&quot;: &quot;steel&quot;,
+        &quot;focus&quot;: true,
+        &quot;label&quot;: &quot;GOAL A&quot;,
+        &quot;label_box&quot;: [
+          0.0541,
+          0.25445,
+          0.2002,
+          0.072065
+        ],
+        &quot;label_size&quot;: 18
+      },
+      {
+        &quot;asset&quot;: &quot;task&quot;,
+        &quot;box&quot;: [
+          0.7366,
+          0.0805,
+          0.2002,
+          0.16401
+        ],
+        &quot;color&quot;: &quot;steel&quot;,
+        &quot;focus&quot;: true,
+        &quot;label&quot;: &quot;GOAL B&quot;,
+        &quot;label_box&quot;: [
+          0.7366,
+          0.25445,
+          0.2002,
+          0.072065
+        ],
+        &quot;label_size&quot;: 18
+      },
+      {
+        &quot;asset&quot;: &quot;folder&quot;,
+        &quot;box&quot;: [
+          0.0814,
+          0.4568,
+          0.182,
+          0.16401
+        ],
+        &quot;color&quot;: &quot;steel&quot;,
+        &quot;focus&quot;: true,
+        &quot;label&quot;: &quot;SHARED STATE&quot;,
+        &quot;label_box&quot;: [
+          0.0814,
+          0.63075,
+          0.182,
+          0.072065
+        ],
+        &quot;label_size&quot;: 18
+      },
+      {
+        &quot;asset&quot;: &quot;card&quot;,
+        &quot;box&quot;: [
+          0.2998,
+          0.4568,
+          0.182,
+          0.16401
+        ],
+        &quot;color&quot;: &quot;steel&quot;,
+        &quot;focus&quot;: true,
+        &quot;label&quot;: &quot;PEER KNOWLEDGE&quot;,
+        &quot;label_box&quot;: [
+          0.2998,
+          0.63075,
+          0.182,
+          0.072065
+        ],
+        &quot;label_size&quot;: 18
+      },
+      {
+        &quot;asset&quot;: &quot;clock&quot;,
+        &quot;box&quot;: [
+          0.55453,
+          0.4568,
+          0.10934,
+          0.16401
+        ],
+        &quot;color&quot;: &quot;steel&quot;,
+        &quot;focus&quot;: true,
+        &quot;label&quot;: &quot;TIME&quot;,
+        &quot;label_box&quot;: [
+          0.5182,
+          0.63075,
+          0.182,
+          0.072065
+        ],
+        &quot;label_size&quot;: 18
+      },
+      {
+        &quot;asset&quot;: &quot;gate&quot;,
+        &quot;box&quot;: [
+          0.7366,
+          0.4568,
+          0.182,
+          0.16401
+        ],
+        &quot;color&quot;: &quot;steel&quot;,
+        &quot;focus&quot;: true,
+        &quot;label&quot;: &quot;ACCESS&quot;,
+        &quot;label_box&quot;: [
+          0.7366,
+          0.63075,
+          0.182,
+          0.072065
+        ],
+        &quot;label_size&quot;: 18
+      },
+      {
+        &quot;asset&quot;: &quot;arrow-up&quot;,
+        &quot;box&quot;: [
+          0.2907,
+          0.2154,
+          0.1001,
+          0.1633
+        ],
+        &quot;color&quot;: &quot;steel&quot;,
+        &quot;focus&quot;: true
+      },
+      {
+        &quot;asset&quot;: &quot;arrow-up&quot;,
+        &quot;box&quot;: [
+          0.591,
+          0.2154,
+          0.1001,
+          0.1633
+        ],
+        &quot;color&quot;: &quot;steel&quot;,
+        &quot;focus&quot;: true
+      }
+    ],
+    &quot;reconstructed&quot;: false,
+    &quot;shot&quot;: &quot;row&quot;,
+    &quot;source&quot;: &quot;\n**Frame:** On the legal pad, many task arrows converge on small boxes labeled `SHARED STATE`, `PEER KNOWLEDGE`, `TIME`, and `ACCESS`. The boxes remain tools along routes to other goals.\n\n**Action:** Curt redraws recurrence as a resource pattern.\n\n**Dialogue — CURT:**\n&gt; And they keep discovering the same kinds of prerequisites.\n\n**Provenance:** `reconstructed` + `inferred` — dialogue and diagram express the project&#x27;s instrumental-convergence interpretation.\n\n&quot;,
+    &quot;title&quot;: &quot;Tools lie along routes to separate goals&quot;
+  }
+}
+</metadata><rect width="1200" height="800" fill="#101214"/><g transform="translate(64.92 64.4) scale(2.4024 1.31208)" color="#5E737B"><g transform=""><rect x="1" y="1" width="98" height="98" fill="#202326" stroke="currentColor" stroke-width="2"/><path d="M1 19H99M12 10H38M48 10H62M9 83H91" stroke="currentColor" stroke-width="2"/><circle cx="26" cy="48" r="16" fill="none" stroke="currentColor" stroke-width="2"/><path d="M26 27V69M5 48H47M54 35H90M54 47H78M54 59H88" stroke="currentColor" stroke-width="2"/><path d="M9 90H63" stroke="currentColor" stroke-width="5"/></g></g><text x="185.04" y="221.56" text-anchor="middle" fill="#E7E0D0" font-size="18" font-family="sans-serif">GOAL A</text><g transform="translate(883.92 64.4) scale(2.4024 1.31208)" color="#5E737B"><g transform=""><rect x="1" y="1" width="98" height="98" fill="#202326" stroke="currentColor" stroke-width="2"/><path d="M1 19H99M12 10H38M48 10H62M9 83H91" stroke="currentColor" stroke-width="2"/><circle cx="26" cy="48" r="16" fill="none" stroke="currentColor" stroke-width="2"/><path d="M26 27V69M5 48H47M54 35H90M54 47H78M54 59H88" stroke="currentColor" stroke-width="2"/><path d="M9 90H63" stroke="currentColor" stroke-width="5"/></g></g><text x="1004.04" y="221.56" text-anchor="middle" fill="#E7E0D0" font-size="18" font-family="sans-serif">GOAL B</text><g transform="translate(97.68 365.44) scale(2.184 1.31208)" color="#5E737B"><g transform=""><path d="M3 20V8H38L48 20H97V90H3Z" fill="#202326" stroke="currentColor" stroke-width="3"/><path d="M12 40H85M12 50H65" stroke="currentColor" stroke-width="2"/></g></g><text x="206.88" y="522.6" text-anchor="middle" fill="#E7E0D0" font-size="18" font-family="sans-serif">SHARED STATE</text><g transform="translate(359.76 365.44) scale(2.184 1.31208)" color="#5E737B"><g transform=""><rect x="1" y="1" width="98" height="98" fill="#202326" stroke="currentColor" stroke-width="2"/><path d="M1 20H99M9 10H42M62 10H90M10 34H87M10 45H73M10 56H82M10 76H57M10 87H38" stroke="currentColor" stroke-width="2"/></g></g><text x="468.96" y="522.6" text-anchor="middle" fill="#E7E0D0" font-size="18" font-family="sans-serif">PEER KNOWLEDGE</text><g transform="translate(665.436 365.44) scale(1.31208 1.31208)" color="#5E737B"><g transform=""><circle cx="50" cy="50" r="44" fill="#202326" stroke="currentColor" stroke-width="4"/><path d="M50 15V50L75 64M50 5V12M95 50H88M50 95V88M5 50H12" fill="none" stroke="currentColor" stroke-width="4"/></g></g><text x="731.04" y="522.6" text-anchor="middle" fill="#E7E0D0" font-size="18" font-family="sans-serif">TIME</text><g transform="translate(883.92 365.44) scale(2.184 1.31208)" color="#5E737B"><g transform=""><path d="M8 95V8H92V95M15 33H85M25 34V88M40 34V88M55 34V88M70 34V88M85 34V88" fill="none" stroke="currentColor" stroke-width="4"/><rect x="39" y="46" width="22" height="23" fill="currentColor"/></g></g><text x="993.12" y="522.6" text-anchor="middle" fill="#E7E0D0" font-size="18" font-family="sans-serif">ACCESS</text><g transform="translate(348.84 172.32) scale(1.2012 1.3064)" color="#5E737B"><g transform=""><g transform="rotate(-90 50 50)"><path d="M1 50H87M70 18L96 50L70 82" fill="none" stroke="currentColor" stroke-width="5"/></g></g></g><g transform="translate(709.2 172.32) scale(1.2012 1.3064)" color="#5E737B"><g transform=""><g transform="rotate(-90 50 50)"><path d="M1 50H87M70 18L96 50L70 82" fill="none" stroke="currentColor" stroke-width="5"/></g></g></g><rect x="3" y="3" width="1194" height="794" fill="none" stroke="#5E737B" stroke-width="4"/></svg>

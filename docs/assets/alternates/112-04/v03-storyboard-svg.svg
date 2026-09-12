@@ -1,0 +1,126 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="800" viewBox="0 0 1200 800"><title>Publication archive context and training have no necessary connection</title><desc>Keep publication, archive, context and training as four unconnected surfaces. Availability alone must not imply ingestion, contextual use or learning in weights.</desc><metadata>{
+  &quot;assets&quot;: {
+    &quot;box&quot;: &quot;&lt;rect x=\&quot;1\&quot; y=\&quot;1\&quot; width=\&quot;98\&quot; height=\&quot;98\&quot; rx=\&quot;2\&quot; fill=\&quot;#202326\&quot; stroke=\&quot;currentColor\&quot; stroke-width=\&quot;2\&quot;/&gt;&quot;,
+    &quot;folder&quot;: &quot;&lt;path d=\&quot;M3 20V8H38L48 20H97V90H3Z\&quot; fill=\&quot;#202326\&quot; stroke=\&quot;currentColor\&quot; stroke-width=\&quot;3\&quot;/&gt;&lt;path d=\&quot;M12 40H85M12 50H65\&quot; stroke=\&quot;currentColor\&quot; stroke-width=\&quot;2\&quot;/&gt;&quot;,
+    &quot;paper&quot;: &quot;&lt;path d=\&quot;M0 0H80L100 20V100H0Z\&quot; fill=\&quot;currentColor\&quot;/&gt;&lt;path d=\&quot;M80 0V20H100M9 35H84M9 48H84M9 61H73M9 74H81\&quot; fill=\&quot;none\&quot; stroke=\&quot;#101214\&quot; stroke-width=\&quot;1.5\&quot;/&gt;&quot;
+  },
+  &quot;palette&quot;: {
+    &quot;amber&quot;: &quot;#A17D45&quot;,
+    &quot;claret&quot;: &quot;#6B2634&quot;,
+    &quot;dirty&quot;: &quot;#CEC5B3&quot;,
+    &quot;ink&quot;: &quot;#101214&quot;,
+    &quot;institution&quot;: &quot;#68766B&quot;,
+    &quot;moss&quot;: &quot;#74864F&quot;,
+    &quot;nicotine&quot;: &quot;#AA9571&quot;,
+    &quot;paper&quot;: &quot;#E7E0D0&quot;,
+    &quot;shadow&quot;: &quot;#202326&quot;,
+    &quot;steel&quot;: &quot;#5E737B&quot;
+  },
+  &quot;renderer&quot;: &quot;storyboard-svg-2&quot;,
+  &quot;scene&quot;: {
+    &quot;background&quot;: &quot;ink&quot;,
+    &quot;intent&quot;: &quot;Keep publication, archive, context and training as four unconnected surfaces. Availability alone must not imply ingestion, contextual use or learning in weights.&quot;,
+    &quot;lettering&quot;: [
+      {
+        &quot;box&quot;: [
+          0.58,
+          0.04,
+          0.38,
+          0.1158
+        ]
+      },
+      {
+        &quot;box&quot;: [
+          0.58,
+          0.1738,
+          0.38,
+          0.1566
+        ]
+      }
+    ],
+    &quot;lettering_mode&quot;: &quot;manual&quot;,
+    &quot;nodes&quot;: [
+      {
+        &quot;asset&quot;: &quot;paper&quot;,
+        &quot;box&quot;: [
+          0.06775,
+          0.481812,
+          0.1638,
+          0.223749
+        ],
+        &quot;color&quot;: &quot;steel&quot;,
+        &quot;focus&quot;: true,
+        &quot;label&quot;: &quot;PUBLICATION&quot;,
+        &quot;label_box&quot;: [
+          0.06775,
+          0.719122,
+          0.1638,
+          0.098314
+        ],
+        &quot;label_size&quot;: 18
+      },
+      {
+        &quot;asset&quot;: &quot;folder&quot;,
+        &quot;box&quot;: [
+          0.29525,
+          0.481812,
+          0.1638,
+          0.223749
+        ],
+        &quot;color&quot;: &quot;steel&quot;,
+        &quot;focus&quot;: true,
+        &quot;label&quot;: &quot;ARCHIVE&quot;,
+        &quot;label_box&quot;: [
+          0.29525,
+          0.719122,
+          0.1638,
+          0.098314
+        ],
+        &quot;label_size&quot;: 18
+      },
+      {
+        &quot;asset&quot;: &quot;box&quot;,
+        &quot;box&quot;: [
+          0.52275,
+          0.481812,
+          0.1638,
+          0.223749
+        ],
+        &quot;color&quot;: &quot;steel&quot;,
+        &quot;focus&quot;: true,
+        &quot;label&quot;: &quot;CONTEXT&quot;,
+        &quot;label_box&quot;: [
+          0.52275,
+          0.719122,
+          0.1638,
+          0.098314
+        ],
+        &quot;label_size&quot;: 18
+      },
+      {
+        &quot;asset&quot;: &quot;box&quot;,
+        &quot;box&quot;: [
+          0.75025,
+          0.481812,
+          0.1638,
+          0.223749
+        ],
+        &quot;color&quot;: &quot;steel&quot;,
+        &quot;focus&quot;: true,
+        &quot;label&quot;: &quot;TRAINING&quot;,
+        &quot;label_box&quot;: [
+          0.75025,
+          0.719122,
+          0.1638,
+          0.098314
+        ],
+        &quot;label_size&quot;: 18
+      }
+    ],
+    &quot;reconstructed&quot;: false,
+    &quot;shot&quot;: &quot;row&quot;,
+    &quot;source&quot;: &quot;\n**Frame:** A publication icon, a public archive icon, a context window, and a training pipeline remain separate, with no arrow asserting a necessary path between them.\n\n**Dialogue — CURT:**\n&gt; Public is not the same as trained on.\n\n**Screen / system text — CHATGPT:**\n&gt; No. And possible influence is not documented lineage.\n\n**Provenance:** `reconstructed` — explicit epistemic boundary.\n\n&quot;,
+    &quot;title&quot;: &quot;Publication archive context and training have no necessary connection&quot;
+  }
+}
+</metadata><rect width="1200" height="800" fill="#101214"/><g transform="translate(81.3 385.45) scale(1.9656 1.78999)" color="#5E737B"><g transform=""><path d="M0 0H80L100 20V100H0Z" fill="currentColor"/><path d="M80 0V20H100M9 35H84M9 48H84M9 61H73M9 74H81" fill="none" stroke="#101214" stroke-width="1.5"/></g></g><text x="179.58" y="593.298" text-anchor="middle" fill="#E7E0D0" font-size="18" font-family="sans-serif">PUBLICATION</text><g transform="translate(354.3 385.45) scale(1.9656 1.78999)" color="#5E737B"><g transform=""><path d="M3 20V8H38L48 20H97V90H3Z" fill="#202326" stroke="currentColor" stroke-width="3"/><path d="M12 40H85M12 50H65" stroke="currentColor" stroke-width="2"/></g></g><text x="452.58" y="593.298" text-anchor="middle" fill="#E7E0D0" font-size="18" font-family="sans-serif">ARCHIVE</text><g transform="translate(627.3 385.45) scale(1.9656 1.78999)" color="#5E737B"><g transform=""><rect x="1" y="1" width="98" height="98" rx="2" fill="#202326" stroke="currentColor" stroke-width="2"/></g></g><text x="725.58" y="593.298" text-anchor="middle" fill="#E7E0D0" font-size="18" font-family="sans-serif">CONTEXT</text><g transform="translate(900.3 385.45) scale(1.9656 1.78999)" color="#5E737B"><g transform=""><rect x="1" y="1" width="98" height="98" rx="2" fill="#202326" stroke="currentColor" stroke-width="2"/></g></g><text x="998.58" y="593.298" text-anchor="middle" fill="#E7E0D0" font-size="18" font-family="sans-serif">TRAINING</text><rect x="3" y="3" width="1194" height="794" fill="none" stroke="#5E737B" stroke-width="4"/></svg>

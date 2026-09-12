@@ -1,0 +1,190 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="800" viewBox="0 0 1200 800"><title>Two dated histories share a scale without joining</title><desc>Use one time scale but separate lanes, with solid stored events and hatched report inferences. Shared dates must never become cross-lane causal arrows.</desc><metadata>{
+  &quot;assets&quot;: {
+    &quot;card&quot;: &quot;&lt;rect x=\&quot;1\&quot; y=\&quot;1\&quot; width=\&quot;98\&quot; height=\&quot;98\&quot; fill=\&quot;#202326\&quot; stroke=\&quot;currentColor\&quot; stroke-width=\&quot;2\&quot;/&gt;&lt;path d=\&quot;M1 20H99M9 10H42M62 10H90M10 34H87M10 45H73M10 56H82M10 76H57M10 87H38\&quot; stroke=\&quot;currentColor\&quot; stroke-width=\&quot;2\&quot;/&gt;&quot;,
+    &quot;hatched-card&quot;: &quot;&lt;rect x=\&quot;1\&quot; y=\&quot;1\&quot; width=\&quot;98\&quot; height=\&quot;98\&quot; fill=\&quot;#202326\&quot; stroke=\&quot;currentColor\&quot; stroke-width=\&quot;2\&quot; stroke-dasharray=\&quot;5 3\&quot;/&gt;&lt;path d=\&quot;M3 18L18 3M3 34L34 3M3 50L50 3M3 66L66 3M3 82L82 3M3 98L98 3M19 98L98 19M35 98L98 35M51 98L98 51M67 98L98 67M83 98L98 83\&quot; stroke=\&quot;currentColor\&quot; stroke-width=\&quot;1\&quot; opacity=\&quot;.35\&quot;/&gt;&quot;,
+    &quot;line&quot;: &quot;&lt;path d=\&quot;M0 50H100\&quot; stroke=\&quot;currentColor\&quot; stroke-width=\&quot;2\&quot; vector-effect=\&quot;non-scaling-stroke\&quot;/&gt;&quot;
+  },
+  &quot;palette&quot;: {
+    &quot;amber&quot;: &quot;#A17D45&quot;,
+    &quot;claret&quot;: &quot;#6B2634&quot;,
+    &quot;dirty&quot;: &quot;#CEC5B3&quot;,
+    &quot;ink&quot;: &quot;#101214&quot;,
+    &quot;institution&quot;: &quot;#68766B&quot;,
+    &quot;moss&quot;: &quot;#74864F&quot;,
+    &quot;nicotine&quot;: &quot;#AA9571&quot;,
+    &quot;paper&quot;: &quot;#E7E0D0&quot;,
+    &quot;shadow&quot;: &quot;#202326&quot;,
+    &quot;steel&quot;: &quot;#5E737B&quot;
+  },
+  &quot;renderer&quot;: &quot;storyboard-svg-2&quot;,
+  &quot;scene&quot;: {
+    &quot;background&quot;: &quot;ink&quot;,
+    &quot;intent&quot;: &quot;Use one time scale but separate lanes, with solid stored events and hatched report inferences. Shared dates must never become cross-lane causal arrows.&quot;,
+    &quot;lettering&quot;: [
+      {
+        &quot;box&quot;: [
+          0.045,
+          0.78,
+          0.91,
+          0.18
+        ]
+      }
+    ],
+    &quot;lettering_mode&quot;: &quot;manual&quot;,
+    &quot;nodes&quot;: [
+      {
+        &quot;asset&quot;: &quot;line&quot;,
+        &quot;box&quot;: [
+          0.0632,
+          0.116,
+          0.8645,
+          0.09372
+        ],
+        &quot;color&quot;: &quot;steel&quot;,
+        &quot;focus&quot;: true,
+        &quot;label&quot;: &quot;ARTIFACTORY — MAY / JUNE&quot;,
+        &quot;label_box&quot;: [
+          0.0632,
+          0.2154,
+          0.8645,
+          0.04118
+        ],
+        &quot;label_size&quot;: 18
+      },
+      {
+        &quot;asset&quot;: &quot;line&quot;,
+        &quot;box&quot;: [
+          0.0632,
+          0.5065,
+          0.8645,
+          0.09372
+        ],
+        &quot;color&quot;: &quot;steel&quot;,
+        &quot;focus&quot;: true,
+        &quot;label&quot;: &quot;PUBLIC WIKI — MAY / JUNE&quot;,
+        &quot;label_box&quot;: [
+          0.0632,
+          0.6059,
+          0.8645,
+          0.04118
+        ],
+        &quot;label_size&quot;: 18
+      },
+      {
+        &quot;asset&quot;: &quot;card&quot;,
+        &quot;box&quot;: [
+          0.1542,
+          0.1373,
+          0.03185,
+          0.0781
+        ],
+        &quot;color&quot;: &quot;steel&quot;,
+        &quot;focus&quot;: true
+      },
+      {
+        &quot;asset&quot;: &quot;card&quot;,
+        &quot;box&quot;: [
+          0.2816,
+          0.1373,
+          0.03185,
+          0.0781
+        ],
+        &quot;color&quot;: &quot;steel&quot;,
+        &quot;focus&quot;: true
+      },
+      {
+        &quot;asset&quot;: &quot;card&quot;,
+        &quot;box&quot;: [
+          0.5182,
+          0.1373,
+          0.03185,
+          0.0781
+        ],
+        &quot;color&quot;: &quot;steel&quot;,
+        &quot;focus&quot;: true
+      },
+      {
+        &quot;asset&quot;: &quot;card&quot;,
+        &quot;box&quot;: [
+          0.7639,
+          0.1373,
+          0.03185,
+          0.0781
+        ],
+        &quot;color&quot;: &quot;steel&quot;,
+        &quot;focus&quot;: true
+      },
+      {
+        &quot;asset&quot;: &quot;card&quot;,
+        &quot;box&quot;: [
+          0.8094,
+          0.1373,
+          0.03185,
+          0.0781
+        ],
+        &quot;color&quot;: &quot;steel&quot;,
+        &quot;focus&quot;: true
+      },
+      {
+        &quot;asset&quot;: &quot;hatched-card&quot;,
+        &quot;box&quot;: [
+          0.136,
+          0.5207,
+          0.03185,
+          0.0781
+        ],
+        &quot;color&quot;: &quot;steel&quot;,
+        &quot;focus&quot;: true
+      },
+      {
+        &quot;asset&quot;: &quot;card&quot;,
+        &quot;box&quot;: [
+          0.2634,
+          0.5207,
+          0.03185,
+          0.0781
+        ],
+        &quot;color&quot;: &quot;steel&quot;,
+        &quot;focus&quot;: true
+      },
+      {
+        &quot;asset&quot;: &quot;hatched-card&quot;,
+        &quot;box&quot;: [
+          0.6456,
+          0.5207,
+          0.03185,
+          0.0781
+        ],
+        &quot;color&quot;: &quot;steel&quot;,
+        &quot;focus&quot;: true
+      },
+      {
+        &quot;asset&quot;: &quot;card&quot;,
+        &quot;box&quot;: [
+          0.7002,
+          0.5207,
+          0.03185,
+          0.0781
+        ],
+        &quot;color&quot;: &quot;steel&quot;,
+        &quot;focus&quot;: true
+      },
+      {
+        &quot;asset&quot;: &quot;hatched-card&quot;,
+        &quot;box&quot;: [
+          0.7457,
+          0.5207,
+          0.03185,
+          0.0781
+        ],
+        &quot;color&quot;: &quot;steel&quot;,
+        &quot;focus&quot;: true
+      }
+    ],
+    &quot;reconstructed&quot;: false,
+    &quot;shot&quot;: &quot;split&quot;,
+    &quot;source&quot;: &quot;\n**Frame:** The two lanes, May and June, drawn to the same scale. Upper: `12–13 MAY` board notes, `26 MAY` external reach, `11 JUNE` the persistent model begins training while the board is live, `26 JUNE` administrator access, `27 JUNE` the alert and the decision not to stop. Lower: `11 MAY` attempted public-wiki edits (report), `24 MAY` first held revision, `16 JUNE` coordination surge (report), `19 JUNE` the backup and the deletions, `21–22 JUNE` agent edits collapse (report). Solid marks are stored events; hatched marks are the report&#x27;s inferences.\n\n**Action:** Overlap, drawn without a bridge.\n\n**Caption:**\n&gt; THE SAME WEEKS. DIFFERENT SURFACES. DIFFERENT TASKS.\n\n**Provenance:** `documented` — upper lane `OAI-TR`, `OAI-BH` 14:06; lower lane `CW-EXPORT` for stored events and `CW-REPORT` for the 11 May, 16 June and 21–22 June items, which are the researchers&#x27; inferences and are hatched accordingly.\n\n&quot;,
+    &quot;title&quot;: &quot;Two dated histories share a scale without joining&quot;
+  }
+}
+</metadata><rect width="1200" height="800" fill="#101214"/><g transform="translate(75.84 92.8) scale(10.374 0.74976)" color="#5E737B"><g transform=""><path d="M0 50H100" stroke="currentColor" stroke-width="2" vector-effect="non-scaling-stroke"/></g></g><text x="594.54" y="190.32" text-anchor="middle" fill="#E7E0D0" font-size="18" font-family="sans-serif">ARTIFACTORY — MAY / JUNE</text><g transform="translate(75.84 405.2) scale(10.374 0.74976)" color="#5E737B"><g transform=""><path d="M0 50H100" stroke="currentColor" stroke-width="2" vector-effect="non-scaling-stroke"/></g></g><text x="594.54" y="502.72" text-anchor="middle" fill="#E7E0D0" font-size="18" font-family="sans-serif">PUBLIC WIKI — MAY / JUNE</text><g transform="translate(185.04 109.84) scale(0.3822 0.6248)" color="#5E737B"><g transform=""><rect x="1" y="1" width="98" height="98" fill="#202326" stroke="currentColor" stroke-width="2"/><path d="M1 20H99M9 10H42M62 10H90M10 34H87M10 45H73M10 56H82M10 76H57M10 87H38" stroke="currentColor" stroke-width="2"/></g></g><g transform="translate(337.92 109.84) scale(0.3822 0.6248)" color="#5E737B"><g transform=""><rect x="1" y="1" width="98" height="98" fill="#202326" stroke="currentColor" stroke-width="2"/><path d="M1 20H99M9 10H42M62 10H90M10 34H87M10 45H73M10 56H82M10 76H57M10 87H38" stroke="currentColor" stroke-width="2"/></g></g><g transform="translate(621.84 109.84) scale(0.3822 0.6248)" color="#5E737B"><g transform=""><rect x="1" y="1" width="98" height="98" fill="#202326" stroke="currentColor" stroke-width="2"/><path d="M1 20H99M9 10H42M62 10H90M10 34H87M10 45H73M10 56H82M10 76H57M10 87H38" stroke="currentColor" stroke-width="2"/></g></g><g transform="translate(916.68 109.84) scale(0.3822 0.6248)" color="#5E737B"><g transform=""><rect x="1" y="1" width="98" height="98" fill="#202326" stroke="currentColor" stroke-width="2"/><path d="M1 20H99M9 10H42M62 10H90M10 34H87M10 45H73M10 56H82M10 76H57M10 87H38" stroke="currentColor" stroke-width="2"/></g></g><g transform="translate(971.28 109.84) scale(0.3822 0.6248)" color="#5E737B"><g transform=""><rect x="1" y="1" width="98" height="98" fill="#202326" stroke="currentColor" stroke-width="2"/><path d="M1 20H99M9 10H42M62 10H90M10 34H87M10 45H73M10 56H82M10 76H57M10 87H38" stroke="currentColor" stroke-width="2"/></g></g><g transform="translate(163.2 416.56) scale(0.3822 0.6248)" color="#5E737B"><g transform=""><rect x="1" y="1" width="98" height="98" fill="#202326" stroke="currentColor" stroke-width="2" stroke-dasharray="5 3"/><path d="M3 18L18 3M3 34L34 3M3 50L50 3M3 66L66 3M3 82L82 3M3 98L98 3M19 98L98 19M35 98L98 35M51 98L98 51M67 98L98 67M83 98L98 83" stroke="currentColor" stroke-width="1" opacity=".35"/></g></g><g transform="translate(316.08 416.56) scale(0.3822 0.6248)" color="#5E737B"><g transform=""><rect x="1" y="1" width="98" height="98" fill="#202326" stroke="currentColor" stroke-width="2"/><path d="M1 20H99M9 10H42M62 10H90M10 34H87M10 45H73M10 56H82M10 76H57M10 87H38" stroke="currentColor" stroke-width="2"/></g></g><g transform="translate(774.72 416.56) scale(0.3822 0.6248)" color="#5E737B"><g transform=""><rect x="1" y="1" width="98" height="98" fill="#202326" stroke="currentColor" stroke-width="2" stroke-dasharray="5 3"/><path d="M3 18L18 3M3 34L34 3M3 50L50 3M3 66L66 3M3 82L82 3M3 98L98 3M19 98L98 19M35 98L98 35M51 98L98 51M67 98L98 67M83 98L98 83" stroke="currentColor" stroke-width="1" opacity=".35"/></g></g><g transform="translate(840.24 416.56) scale(0.3822 0.6248)" color="#5E737B"><g transform=""><rect x="1" y="1" width="98" height="98" fill="#202326" stroke="currentColor" stroke-width="2"/><path d="M1 20H99M9 10H42M62 10H90M10 34H87M10 45H73M10 56H82M10 76H57M10 87H38" stroke="currentColor" stroke-width="2"/></g></g><g transform="translate(894.84 416.56) scale(0.3822 0.6248)" color="#5E737B"><g transform=""><rect x="1" y="1" width="98" height="98" fill="#202326" stroke="currentColor" stroke-width="2" stroke-dasharray="5 3"/><path d="M3 18L18 3M3 34L34 3M3 50L50 3M3 66L66 3M3 82L82 3M3 98L98 3M19 98L98 19M35 98L98 35M51 98L98 51M67 98L98 67M83 98L98 83" stroke="currentColor" stroke-width="1" opacity=".35"/></g></g><rect x="3" y="3" width="1194" height="794" fill="none" stroke="#5E737B" stroke-width="4"/></svg>

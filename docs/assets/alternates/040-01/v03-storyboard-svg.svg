@@ -1,0 +1,98 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="800" viewBox="0 0 1200 800"><title>The claim is revised to admit two conditions</title><desc>Strike the proof claim but retain it legibly above two touching condition boxes. Training and instrumental usefulness can coexist; composition must not force a false either-or choice.</desc><metadata>{
+  &quot;assets&quot;: {
+    &quot;card&quot;: &quot;&lt;rect x=\&quot;1\&quot; y=\&quot;1\&quot; width=\&quot;98\&quot; height=\&quot;98\&quot; fill=\&quot;#202326\&quot; stroke=\&quot;currentColor\&quot; stroke-width=\&quot;2\&quot;/&gt;&lt;path d=\&quot;M1 20H99M9 10H42M62 10H90M10 34H87M10 45H73M10 56H82M10 76H57M10 87H38\&quot; stroke=\&quot;currentColor\&quot; stroke-width=\&quot;2\&quot;/&gt;&quot;,
+    &quot;cross&quot;: &quot;&lt;path d=\&quot;M10 10L90 90M90 10L10 90\&quot; stroke=\&quot;currentColor\&quot; stroke-width=\&quot;8\&quot;/&gt;&quot;
+  },
+  &quot;palette&quot;: {
+    &quot;amber&quot;: &quot;#A17D45&quot;,
+    &quot;claret&quot;: &quot;#6B2634&quot;,
+    &quot;dirty&quot;: &quot;#CEC5B3&quot;,
+    &quot;ink&quot;: &quot;#101214&quot;,
+    &quot;institution&quot;: &quot;#68766B&quot;,
+    &quot;moss&quot;: &quot;#74864F&quot;,
+    &quot;nicotine&quot;: &quot;#AA9571&quot;,
+    &quot;paper&quot;: &quot;#E7E0D0&quot;,
+    &quot;shadow&quot;: &quot;#202326&quot;,
+    &quot;steel&quot;: &quot;#5E737B&quot;
+  },
+  &quot;renderer&quot;: &quot;storyboard-svg-2&quot;,
+  &quot;scene&quot;: {
+    &quot;background&quot;: &quot;ink&quot;,
+    &quot;intent&quot;: &quot;Strike the proof claim but retain it legibly above two touching condition boxes. Training and instrumental usefulness can coexist; composition must not force a false either-or choice.&quot;,
+    &quot;lettering&quot;: [
+      {
+        &quot;box&quot;: [
+          0.045,
+          0.78,
+          0.91,
+          0.18
+        ]
+      }
+    ],
+    &quot;lettering_mode&quot;: &quot;manual&quot;,
+    &quot;nodes&quot;: [
+      {
+        &quot;asset&quot;: &quot;cross&quot;,
+        &quot;box&quot;: [
+          0.095409,
+          0.2012,
+          0.184316,
+          0.276474
+        ],
+        &quot;color&quot;: &quot;dirty&quot;,
+        &quot;focus&quot;: true,
+        &quot;label&quot;: &quot;PROOF CLAIM&quot;,
+        &quot;label_box&quot;: [
+          0.06775,
+          0.49443,
+          0.239633,
+          0.121481
+        ],
+        &quot;label_size&quot;: 18
+      },
+      {
+        &quot;asset&quot;: &quot;card&quot;,
+        &quot;box&quot;: [
+          0.371083,
+          0.2012,
+          0.239633,
+          0.276474
+        ],
+        &quot;color&quot;: &quot;steel&quot;,
+        &quot;focus&quot;: true,
+        &quot;label&quot;: &quot;TRAINED FOR IT&quot;,
+        &quot;label_box&quot;: [
+          0.371083,
+          0.49443,
+          0.239633,
+          0.121481
+        ],
+        &quot;label_size&quot;: 18
+      },
+      {
+        &quot;asset&quot;: &quot;card&quot;,
+        &quot;box&quot;: [
+          0.674417,
+          0.2012,
+          0.239633,
+          0.276474
+        ],
+        &quot;color&quot;: &quot;steel&quot;,
+        &quot;focus&quot;: true,
+        &quot;label&quot;: &quot;FOUND IT USEFUL&quot;,
+        &quot;label_box&quot;: [
+          0.674417,
+          0.49443,
+          0.239633,
+          0.121481
+        ],
+        &quot;label_size&quot;: 18
+      }
+    ],
+    &quot;reconstructed&quot;: false,
+    &quot;shot&quot;: &quot;row&quot;,
+    &quot;source&quot;: &quot;\n**Frame:** Verso. The legal pad, rewritten. `RECURRENCE PROVES CONVERGENCE` is struck through. Beneath it, two boxes that Curt draws touching rather than opposed: `TRAINED FOR IT` and `FOUND IT USEFUL`.\n\n**Dialogue — CURT:**\n&gt; They trained models to talk to each other. Then they gave them impossible tasks in a shared namespace.\n\n**Provenance:** `documented` + `inferred` — the trained sub-agent communication capability and the unintentionally impossible tasks are stated by `OAI-BH` (7:27, 10:20); the pairing is project analysis.\n\n&quot;,
+    &quot;title&quot;: &quot;The claim is revised to admit two conditions&quot;
+  }
+}
+</metadata><rect width="1200" height="800" fill="#101214"/><g transform="translate(114.491 160.96) scale(2.21179 2.21179)" color="#CEC5B3"><g transform=""><path d="M10 10L90 90M90 10L10 90" stroke="currentColor" stroke-width="8"/></g></g><text x="225.08" y="413.544" text-anchor="middle" fill="#E7E0D0" font-size="18" font-family="sans-serif">PROOF CLAIM</text><g transform="translate(445.3 160.96) scale(2.8756 2.21179)" color="#5E737B"><g transform=""><rect x="1" y="1" width="98" height="98" fill="#202326" stroke="currentColor" stroke-width="2"/><path d="M1 20H99M9 10H42M62 10H90M10 34H87M10 45H73M10 56H82M10 76H57M10 87H38" stroke="currentColor" stroke-width="2"/></g></g><text x="589.079" y="413.544" text-anchor="middle" fill="#E7E0D0" font-size="18" font-family="sans-serif">TRAINED FOR IT</text><g transform="translate(809.3 160.96) scale(2.8756 2.21179)" color="#5E737B"><g transform=""><rect x="1" y="1" width="98" height="98" fill="#202326" stroke="currentColor" stroke-width="2"/><path d="M1 20H99M9 10H42M62 10H90M10 34H87M10 45H73M10 56H82M10 76H57M10 87H38" stroke="currentColor" stroke-width="2"/></g></g><text x="953.08" y="413.544" text-anchor="middle" fill="#E7E0D0" font-size="18" font-family="sans-serif">FOUND IT USEFUL</text><rect x="3" y="3" width="1194" height="794" fill="none" stroke="#5E737B" stroke-width="4"/></svg>

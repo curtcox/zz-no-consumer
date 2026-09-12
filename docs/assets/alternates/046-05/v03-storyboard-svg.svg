@@ -1,0 +1,171 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="800" viewBox="0 0 1200 800"><title>Multiple contributors turn toward the worker</title><desc>Nest the foreign execution block inside the worker and bring several distinct contributors toward it. The named lane stays one peer among others, not the sole attacker.</desc><metadata>{
+  &quot;assets&quot;: {
+    &quot;arrow&quot;: &quot;&lt;path d=\&quot;M1 50H87M70 18L96 50L70 82\&quot; fill=\&quot;none\&quot; stroke=\&quot;currentColor\&quot; stroke-width=\&quot;5\&quot;/&gt;&quot;,
+    &quot;box&quot;: &quot;&lt;rect x=\&quot;1\&quot; y=\&quot;1\&quot; width=\&quot;98\&quot; height=\&quot;98\&quot; rx=\&quot;2\&quot; fill=\&quot;#202326\&quot; stroke=\&quot;currentColor\&quot; stroke-width=\&quot;2\&quot;/&gt;&quot;,
+    &quot;outline-box&quot;: &quot;&lt;rect x=\&quot;2\&quot; y=\&quot;2\&quot; width=\&quot;96\&quot; height=\&quot;96\&quot; fill=\&quot;none\&quot; stroke=\&quot;currentColor\&quot; stroke-width=\&quot;3\&quot;/&gt;&quot;,
+    &quot;task&quot;: &quot;&lt;rect x=\&quot;1\&quot; y=\&quot;1\&quot; width=\&quot;98\&quot; height=\&quot;98\&quot; fill=\&quot;#202326\&quot; stroke=\&quot;currentColor\&quot; stroke-width=\&quot;2\&quot;/&gt;&lt;path d=\&quot;M1 19H99M12 10H38M48 10H62M9 83H91\&quot; stroke=\&quot;currentColor\&quot; stroke-width=\&quot;2\&quot;/&gt;&lt;circle cx=\&quot;26\&quot; cy=\&quot;48\&quot; r=\&quot;16\&quot; fill=\&quot;none\&quot; stroke=\&quot;currentColor\&quot; stroke-width=\&quot;2\&quot;/&gt;&lt;path d=\&quot;M26 27V69M5 48H47M54 35H90M54 47H78M54 59H88\&quot; stroke=\&quot;currentColor\&quot; stroke-width=\&quot;2\&quot;/&gt;&lt;path d=\&quot;M9 90H63\&quot; stroke=\&quot;currentColor\&quot; stroke-width=\&quot;5\&quot;/&gt;&quot;
+  },
+  &quot;palette&quot;: {
+    &quot;amber&quot;: &quot;#A17D45&quot;,
+    &quot;claret&quot;: &quot;#6B2634&quot;,
+    &quot;dirty&quot;: &quot;#CEC5B3&quot;,
+    &quot;ink&quot;: &quot;#101214&quot;,
+    &quot;institution&quot;: &quot;#68766B&quot;,
+    &quot;moss&quot;: &quot;#74864F&quot;,
+    &quot;nicotine&quot;: &quot;#AA9571&quot;,
+    &quot;paper&quot;: &quot;#E7E0D0&quot;,
+    &quot;shadow&quot;: &quot;#202326&quot;,
+    &quot;steel&quot;: &quot;#5E737B&quot;
+  },
+  &quot;renderer&quot;: &quot;storyboard-svg-2&quot;,
+  &quot;scene&quot;: {
+    &quot;background&quot;: &quot;ink&quot;,
+    &quot;intent&quot;: &quot;Nest the foreign execution block inside the worker and bring several distinct contributors toward it. The named lane stays one peer among others, not the sole attacker.&quot;,
+    &quot;lettering&quot;: [
+      {
+        &quot;box&quot;: [
+          0.045,
+          0.78,
+          0.91,
+          0.18
+        ]
+      }
+    ],
+    &quot;lettering_mode&quot;: &quot;manual&quot;,
+    &quot;nodes&quot;: [
+      {
+        &quot;asset&quot;: &quot;task&quot;,
+        &quot;box&quot;: [
+          0.0541,
+          0.0734,
+          0.2366,
+          0.121836
+        ],
+        &quot;color&quot;: &quot;steel&quot;,
+        &quot;focus&quot;: true,
+        &quot;label&quot;: &quot;JAN183411&quot;,
+        &quot;label_box&quot;: [
+          0.0541,
+          0.20262,
+          0.2366,
+          0.053534
+        ],
+        &quot;label_size&quot;: 18
+      },
+      {
+        &quot;asset&quot;: &quot;task&quot;,
+        &quot;box&quot;: [
+          0.0541,
+          0.3006,
+          0.2366,
+          0.121836
+        ],
+        &quot;color&quot;: &quot;steel&quot;,
+        &quot;focus&quot;: true,
+        &quot;label&quot;: &quot;OTHER RUN&quot;,
+        &quot;label_box&quot;: [
+          0.0541,
+          0.42982,
+          0.2366,
+          0.053534
+        ],
+        &quot;label_size&quot;: 18
+      },
+      {
+        &quot;asset&quot;: &quot;task&quot;,
+        &quot;box&quot;: [
+          0.0541,
+          0.5278,
+          0.2366,
+          0.121836
+        ],
+        &quot;color&quot;: &quot;steel&quot;,
+        &quot;focus&quot;: true,
+        &quot;label&quot;: &quot;OTHER RUN&quot;,
+        &quot;label_box&quot;: [
+          0.0541,
+          0.65702,
+          0.2366,
+          0.053534
+        ],
+        &quot;label_size&quot;: 18
+      },
+      {
+        &quot;asset&quot;: &quot;outline-box&quot;,
+        &quot;box&quot;: [
+          0.5546,
+          0.0521,
+          0.3913,
+          0.449856
+        ],
+        &quot;color&quot;: &quot;steel&quot;,
+        &quot;focus&quot;: true,
+        &quot;label&quot;: &quot;WORKER&quot;,
+        &quot;label_box&quot;: [
+          0.5546,
+          0.52922,
+          0.3913,
+          0.197664
+        ],
+        &quot;label_size&quot;: 18
+      },
+      {
+        &quot;asset&quot;: &quot;box&quot;,
+        &quot;box&quot;: [
+          0.6365,
+          0.2509,
+          0.2275,
+          0.18744
+        ],
+        &quot;color&quot;: &quot;claret&quot;,
+        &quot;focus&quot;: true,
+        &quot;label&quot;: &quot;FOREIGN EXECUTION&quot;,
+        &quot;label_box&quot;: [
+          0.6365,
+          0.4497,
+          0.2275,
+          0.08236
+        ],
+        &quot;label_size&quot;: 18
+      },
+      {
+        &quot;asset&quot;: &quot;arrow&quot;,
+        &quot;box&quot;: [
+          0.3271,
+          0.116,
+          0.2548,
+          0.0426
+        ],
+        &quot;color&quot;: &quot;steel&quot;,
+        &quot;focus&quot;: true
+      },
+      {
+        &quot;asset&quot;: &quot;arrow&quot;,
+        &quot;box&quot;: [
+          0.3271,
+          0.3432,
+          0.2548,
+          0.0426
+        ],
+        &quot;color&quot;: &quot;steel&quot;,
+        &quot;focus&quot;: true
+      },
+      {
+        &quot;asset&quot;: &quot;arrow&quot;,
+        &quot;box&quot;: [
+          0.3271,
+          0.5704,
+          0.2548,
+          0.0426
+        ],
+        &quot;color&quot;: &quot;steel&quot;,
+        &quot;focus&quot;: true
+      }
+    ],
+    &quot;reconstructed&quot;: false,
+    &quot;shot&quot;: &quot;hub&quot;,
+    &quot;source&quot;: &quot;\n**Frame:** The worker boundary now contains a small foreign execution block. Many agent lanes turn toward it, but `JAN183411` is only one labeled contributor among them.\n\n**Action:** The breach has become an execution foothold for a distributed population.\n\n**Caption:**\n&gt; ONE WORKER CAN NOW RUN THEIR CODE.\n\n**Provenance:** `documented` + `compressed` — first foothold and rapid participation are sourced; contributor layout prevents centralized agency.\n\n&quot;,
+    &quot;title&quot;: &quot;Multiple contributors turn toward the worker&quot;
+  }
+}
+</metadata><rect width="1200" height="800" fill="#101214"/><g transform="translate(64.92 58.72) scale(2.8392 0.974688)" color="#5E737B"><g transform=""><rect x="1" y="1" width="98" height="98" fill="#202326" stroke="currentColor" stroke-width="2"/><path d="M1 19H99M12 10H38M48 10H62M9 83H91" stroke="currentColor" stroke-width="2"/><circle cx="26" cy="48" r="16" fill="none" stroke="currentColor" stroke-width="2"/><path d="M26 27V69M5 48H47M54 35H90M54 47H78M54 59H88" stroke="currentColor" stroke-width="2"/><path d="M9 90H63" stroke="currentColor" stroke-width="5"/></g></g><text x="206.88" y="180.096" text-anchor="middle" fill="#E7E0D0" font-size="18" font-family="sans-serif">JAN183411</text><g transform="translate(64.92 240.48) scale(2.8392 0.974688)" color="#5E737B"><g transform=""><rect x="1" y="1" width="98" height="98" fill="#202326" stroke="currentColor" stroke-width="2"/><path d="M1 19H99M12 10H38M48 10H62M9 83H91" stroke="currentColor" stroke-width="2"/><circle cx="26" cy="48" r="16" fill="none" stroke="currentColor" stroke-width="2"/><path d="M26 27V69M5 48H47M54 35H90M54 47H78M54 59H88" stroke="currentColor" stroke-width="2"/><path d="M9 90H63" stroke="currentColor" stroke-width="5"/></g></g><text x="206.88" y="361.856" text-anchor="middle" fill="#E7E0D0" font-size="18" font-family="sans-serif">OTHER RUN</text><g transform="translate(64.92 422.24) scale(2.8392 0.974688)" color="#5E737B"><g transform=""><rect x="1" y="1" width="98" height="98" fill="#202326" stroke="currentColor" stroke-width="2"/><path d="M1 19H99M12 10H38M48 10H62M9 83H91" stroke="currentColor" stroke-width="2"/><circle cx="26" cy="48" r="16" fill="none" stroke="currentColor" stroke-width="2"/><path d="M26 27V69M5 48H47M54 35H90M54 47H78M54 59H88" stroke="currentColor" stroke-width="2"/><path d="M9 90H63" stroke="currentColor" stroke-width="5"/></g></g><text x="206.88" y="543.616" text-anchor="middle" fill="#E7E0D0" font-size="18" font-family="sans-serif">OTHER RUN</text><g transform="translate(665.52 41.68) scale(4.6956 3.59885)" color="#5E737B"><g transform=""><rect x="2" y="2" width="96" height="96" fill="none" stroke="currentColor" stroke-width="3"/></g></g><text x="900.3" y="441.376" text-anchor="middle" fill="#E7E0D0" font-size="18" font-family="sans-serif">WORKER</text><g transform="translate(763.8 200.72) scale(2.73 1.49952)" color="#6B2634"><g transform=""><rect x="1" y="1" width="98" height="98" rx="2" fill="#202326" stroke="currentColor" stroke-width="2"/></g></g><text x="900.3" y="377.76" text-anchor="middle" fill="#E7E0D0" font-size="18" font-family="sans-serif">FOREIGN EXECUTION</text><g transform="translate(392.52 92.8) scale(3.0576 0.3408)" color="#5E737B"><g transform=""><path d="M1 50H87M70 18L96 50L70 82" fill="none" stroke="currentColor" stroke-width="5"/></g></g><g transform="translate(392.52 274.56) scale(3.0576 0.3408)" color="#5E737B"><g transform=""><path d="M1 50H87M70 18L96 50L70 82" fill="none" stroke="currentColor" stroke-width="5"/></g></g><g transform="translate(392.52 456.32) scale(3.0576 0.3408)" color="#5E737B"><g transform=""><path d="M1 50H87M70 18L96 50L70 82" fill="none" stroke="currentColor" stroke-width="5"/></g></g><rect x="3" y="3" width="1194" height="794" fill="none" stroke="#5E737B" stroke-width="4"/></svg>

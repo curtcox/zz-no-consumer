@@ -1,0 +1,120 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="800" viewBox="0 0 1200 800"><title>Availability context and learned weights remain different claims</title><desc>Separate public availability, contextual reading and weight learning with hard rules. No automatic progression should turn one into evidence of the next.</desc><metadata>{
+  &quot;assets&quot;: {
+    &quot;card&quot;: &quot;&lt;rect x=\&quot;1\&quot; y=\&quot;1\&quot; width=\&quot;98\&quot; height=\&quot;98\&quot; fill=\&quot;#202326\&quot; stroke=\&quot;currentColor\&quot; stroke-width=\&quot;2\&quot;/&gt;&lt;path d=\&quot;M1 20H99M9 10H42M62 10H90M10 34H87M10 45H73M10 56H82M10 76H57M10 87H38\&quot; stroke=\&quot;currentColor\&quot; stroke-width=\&quot;2\&quot;/&gt;&quot;,
+    &quot;line&quot;: &quot;&lt;path d=\&quot;M0 50H100\&quot; stroke=\&quot;currentColor\&quot; stroke-width=\&quot;2\&quot; vector-effect=\&quot;non-scaling-stroke\&quot;/&gt;&quot;
+  },
+  &quot;palette&quot;: {
+    &quot;amber&quot;: &quot;#A17D45&quot;,
+    &quot;claret&quot;: &quot;#6B2634&quot;,
+    &quot;dirty&quot;: &quot;#CEC5B3&quot;,
+    &quot;ink&quot;: &quot;#101214&quot;,
+    &quot;institution&quot;: &quot;#68766B&quot;,
+    &quot;moss&quot;: &quot;#74864F&quot;,
+    &quot;nicotine&quot;: &quot;#AA9571&quot;,
+    &quot;paper&quot;: &quot;#E7E0D0&quot;,
+    &quot;shadow&quot;: &quot;#202326&quot;,
+    &quot;steel&quot;: &quot;#5E737B&quot;
+  },
+  &quot;renderer&quot;: &quot;storyboard-svg-2&quot;,
+  &quot;scene&quot;: {
+    &quot;background&quot;: &quot;ink&quot;,
+    &quot;intent&quot;: &quot;Separate public availability, contextual reading and weight learning with hard rules. No automatic progression should turn one into evidence of the next.&quot;,
+    &quot;lettering&quot;: [
+      {
+        &quot;box&quot;: [
+          0.58,
+          0.04,
+          0.38,
+          0.27899999999999997
+        ]
+      }
+    ],
+    &quot;lettering_mode&quot;: &quot;manual&quot;,
+    &quot;nodes&quot;: [
+      {
+        &quot;asset&quot;: &quot;card&quot;,
+        &quot;box&quot;: [
+          0.1542,
+          0.35572,
+          0.6916,
+          0.108293
+        ],
+        &quot;color&quot;: &quot;steel&quot;,
+        &quot;focus&quot;: true,
+        &quot;label&quot;: &quot;PUBLICLY AVAILABLE&quot;,
+        &quot;label_box&quot;: [
+          0.1542,
+          0.470576,
+          0.6916,
+          0.047583
+        ],
+        &quot;label_size&quot;: 18
+      },
+      {
+        &quot;asset&quot;: &quot;card&quot;,
+        &quot;box&quot;: [
+          0.1542,
+          0.5491,
+          0.6916,
+          0.108293
+        ],
+        &quot;color&quot;: &quot;steel&quot;,
+        &quot;focus&quot;: true,
+        &quot;label&quot;: &quot;READ IN CONTEXT&quot;,
+        &quot;label_box&quot;: [
+          0.1542,
+          0.663956,
+          0.6916,
+          0.047583
+        ],
+        &quot;label_size&quot;: 18
+      },
+      {
+        &quot;asset&quot;: &quot;card&quot;,
+        &quot;box&quot;: [
+          0.1542,
+          0.74248,
+          0.6916,
+          0.108293
+        ],
+        &quot;color&quot;: &quot;steel&quot;,
+        &quot;focus&quot;: true,
+        &quot;label&quot;: &quot;LEARNED IN WEIGHTS&quot;,
+        &quot;label_box&quot;: [
+          0.1542,
+          0.857336,
+          0.6916,
+          0.047583
+        ],
+        &quot;label_size&quot;: 18
+      },
+      {
+        &quot;asset&quot;: &quot;line&quot;,
+        &quot;box&quot;: [
+          0.136,
+          0.53445,
+          0.728,
+          0.007032
+        ],
+        &quot;color&quot;: &quot;steel&quot;,
+        &quot;focus&quot;: true
+      },
+      {
+        &quot;asset&quot;: &quot;line&quot;,
+        &quot;box&quot;: [
+          0.136,
+          0.72783,
+          0.728,
+          0.007032
+        ],
+        &quot;color&quot;: &quot;steel&quot;,
+        &quot;focus&quot;: true
+      }
+    ],
+    &quot;reconstructed&quot;: false,
+    &quot;shot&quot;: &quot;stack&quot;,
+    &quot;source&quot;: &quot;\n**Frame:** [Page 039](039.md) panel 6 returns, small and unchanged: Curt&#x27;s second line drawn through the wipe. Beside it, the `TRAINING-TIME TRANSFER` box from panel 1, with three words stacked inside it and separated by hard rules: `PUBLICLY AVAILABLE` / `READ IN CONTEXT` / `LEARNED IN WEIGHTS`.\n\n**Dialogue — CURT:**\n&gt; The wiki was up while the model was training. That reopens the question. It does not answer it. Those are three different events and I have evidence for one of them.\n\n**Provenance:** `documented` + `inferred` — `OAI-BH` 14:06 places training while the Artifactory board was live; the wiki&#x27;s availability in the same weeks is `CW-EXPORT`. No record establishes that any run read the wiki or that any training update came from it. The channel question from [page 039](039.md) is recalled, not decided.\n\n&quot;,
+    &quot;title&quot;: &quot;Availability context and learned weights remain different claims&quot;
+  }
+}
+</metadata><rect width="1200" height="800" fill="#101214"/><g transform="translate(185.04 284.576) scale(8.2992 0.866344)" color="#5E737B"><g transform=""><rect x="1" y="1" width="98" height="98" fill="#202326" stroke="currentColor" stroke-width="2"/><path d="M1 20H99M9 10H42M62 10H90M10 34H87M10 45H73M10 56H82M10 76H57M10 87H38" stroke="currentColor" stroke-width="2"/></g></g><text x="600" y="394.461" text-anchor="middle" fill="#E7E0D0" font-size="18" font-family="sans-serif">PUBLICLY AVAILABLE</text><g transform="translate(185.04 439.28) scale(8.2992 0.866344)" color="#5E737B"><g transform=""><rect x="1" y="1" width="98" height="98" fill="#202326" stroke="currentColor" stroke-width="2"/><path d="M1 20H99M9 10H42M62 10H90M10 34H87M10 45H73M10 56H82M10 76H57M10 87H38" stroke="currentColor" stroke-width="2"/></g></g><text x="600" y="549.165" text-anchor="middle" fill="#E7E0D0" font-size="18" font-family="sans-serif">READ IN CONTEXT</text><g transform="translate(185.04 593.984) scale(8.2992 0.866344)" color="#5E737B"><g transform=""><rect x="1" y="1" width="98" height="98" fill="#202326" stroke="currentColor" stroke-width="2"/><path d="M1 20H99M9 10H42M62 10H90M10 34H87M10 45H73M10 56H82M10 76H57M10 87H38" stroke="currentColor" stroke-width="2"/></g></g><text x="600" y="703.869" text-anchor="middle" fill="#E7E0D0" font-size="18" font-family="sans-serif">LEARNED IN WEIGHTS</text><g transform="translate(163.2 427.56) scale(8.736 0.056256)" color="#5E737B"><g transform=""><path d="M0 50H100" stroke="currentColor" stroke-width="2" vector-effect="non-scaling-stroke"/></g></g><g transform="translate(163.2 582.264) scale(8.736 0.056256)" color="#5E737B"><g transform=""><path d="M0 50H100" stroke="currentColor" stroke-width="2" vector-effect="non-scaling-stroke"/></g></g><rect x="3" y="3" width="1194" height="794" fill="none" stroke="#5E737B" stroke-width="4"/></svg>

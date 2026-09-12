@@ -1,6 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="1200" height="800" viewBox="0 0 1200 800"><title>Specified inference workloads are switched off</title><desc>Switch off the specified inference activity classes across research clusters. The labels bound the shutdown rather than implying every model or every deployment stopped.</desc><metadata>{
   &quot;assets&quot;: {
-    &quot;cross&quot;: &quot;&lt;path d=\&quot;M10 10L90 90M90 10L10 90\&quot; stroke=\&quot;currentColor\&quot; stroke-width=\&quot;8\&quot;/&gt;&quot;
+    &quot;cross&quot;: &quot;&lt;defs&gt;\n&lt;linearGradient id=\&quot;tone\&quot; x1=\&quot;0\&quot; y1=\&quot;0\&quot; x2=\&quot;1\&quot; y2=\&quot;1\&quot;&gt;&lt;stop stop-color=\&quot;currentColor\&quot; /&gt;&lt;stop offset=\&quot;1\&quot; stop-color=\&quot;#101214\&quot; stop-opacity=\&quot;.65\&quot; /&gt;&lt;/linearGradient&gt;\n&lt;/defs&gt;&lt;path d=\&quot;M10 10L90 90M90 10L10 90\&quot; stroke=\&quot;url(#tone)\&quot; stroke-width=\&quot;9\&quot; /&gt;&quot;
   },
   &quot;palette&quot;: {
     &quot;amber&quot;: &quot;#A17D45&quot;,

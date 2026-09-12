@@ -1,6 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="1200" height="800" viewBox="0 0 1200 800"><title>Criticality stays below the paging threshold</title><desc>Use a measured-looking severity bar that ends below a clearly labelled paging threshold, without inventing a numeric score. Spatial shortfall must explain the missing escalation.</desc><metadata>{
   &quot;assets&quot;: {
-    &quot;threshold&quot;: &quot;&lt;path d=\&quot;M5 5V95H95M5 29H95\&quot; fill=\&quot;none\&quot; stroke=\&quot;currentColor\&quot; stroke-width=\&quot;3\&quot;/&gt;&lt;rect x=\&quot;22\&quot; y=\&quot;57\&quot; width=\&quot;24\&quot; height=\&quot;36\&quot; fill=\&quot;currentColor\&quot;/&gt;&lt;path d=\&quot;M54 29H95\&quot; stroke=\&quot;currentColor\&quot; stroke-width=\&quot;5\&quot;/&gt;&quot;
+    &quot;threshold&quot;: &quot;&lt;rect x=\&quot;5\&quot; y=\&quot;29\&quot; width=\&quot;89\&quot; height=\&quot;65\&quot; fill=\&quot;#202326\&quot; opacity=\&quot;.4\&quot; /&gt;&lt;path d=\&quot;M5 5V95H95M5 29H95\&quot; fill=\&quot;none\&quot; stroke=\&quot;currentColor\&quot; stroke-width=\&quot;3\&quot; /&gt;&lt;rect x=\&quot;22\&quot; y=\&quot;57\&quot; width=\&quot;24\&quot; height=\&quot;36\&quot; fill=\&quot;currentColor\&quot; /&gt;&lt;path d=\&quot;M54 29H95\&quot; stroke=\&quot;currentColor\&quot; stroke-width=\&quot;5\&quot; /&gt;&lt;path d=\&quot;M56 20V38M72 20V38M88 20V38\&quot; fill=\&quot;none\&quot; stroke=\&quot;#CEC5B3\&quot; stroke-width=\&quot;1\&quot; /&gt;&quot;
   },
   &quot;palette&quot;: {
     &quot;amber&quot;: &quot;#A17D45&quot;,

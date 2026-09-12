@@ -1,0 +1,119 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="800" viewBox="0 0 1200 800"><title>Absent messages precede an unmarked resumption</title><desc>Draw a real empty gap for the seven absent messages, then a separately timed resumption. Do not strike through imaginary text or add a restoration marker absent from the record.</desc><metadata>{
+  &quot;assets&quot;: {
+    &quot;clock&quot;: &quot;&lt;circle cx=\&quot;50\&quot; cy=\&quot;50\&quot; r=\&quot;44\&quot; fill=\&quot;#202326\&quot; stroke=\&quot;currentColor\&quot; stroke-width=\&quot;4\&quot;/&gt;&lt;path d=\&quot;M50 15V50L75 64M50 5V12M95 50H88M50 95V88M5 50H12\&quot; fill=\&quot;none\&quot; stroke=\&quot;currentColor\&quot; stroke-width=\&quot;4\&quot;/&gt;&quot;,
+    &quot;empty-slot&quot;: &quot;&lt;rect x=\&quot;2\&quot; y=\&quot;2\&quot; width=\&quot;96\&quot; height=\&quot;96\&quot; fill=\&quot;none\&quot; stroke=\&quot;currentColor\&quot; stroke-width=\&quot;2\&quot; stroke-dasharray=\&quot;7 5\&quot;/&gt;&lt;path d=\&quot;M34 51H66\&quot; stroke=\&quot;currentColor\&quot; stroke-width=\&quot;2\&quot;/&gt;&quot;,
+    &quot;terminal&quot;: &quot;&lt;rect x=\&quot;2\&quot; y=\&quot;4\&quot; width=\&quot;96\&quot; height=\&quot;92\&quot; fill=\&quot;#101214\&quot; stroke=\&quot;currentColor\&quot; stroke-width=\&quot;3\&quot;/&gt;&lt;path d=\&quot;M2 18H98M12 31L21 40L12 49M29 49H51M12 65H76M12 78H62\&quot; fill=\&quot;none\&quot; stroke=\&quot;currentColor\&quot; stroke-width=\&quot;3\&quot;/&gt;&quot;,
+    &quot;transcript&quot;: &quot;&lt;rect x=\&quot;1\&quot; y=\&quot;1\&quot; width=\&quot;98\&quot; height=\&quot;98\&quot; fill=\&quot;#202326\&quot; stroke=\&quot;currentColor\&quot; stroke-width=\&quot;2\&quot;/&gt;&lt;path d=\&quot;M20 1V99M1 18H99M6 10H13M27 9H83M6 31H13M28 30H88M28 39H71M6 53H13M28 52H79M28 61H90M6 75H13M28 74H66M28 83H83\&quot; stroke=\&quot;currentColor\&quot; stroke-width=\&quot;2\&quot;/&gt;&quot;
+  },
+  &quot;palette&quot;: {
+    &quot;amber&quot;: &quot;#A17D45&quot;,
+    &quot;claret&quot;: &quot;#6B2634&quot;,
+    &quot;dirty&quot;: &quot;#CEC5B3&quot;,
+    &quot;ink&quot;: &quot;#101214&quot;,
+    &quot;institution&quot;: &quot;#68766B&quot;,
+    &quot;moss&quot;: &quot;#74864F&quot;,
+    &quot;nicotine&quot;: &quot;#AA9571&quot;,
+    &quot;paper&quot;: &quot;#E7E0D0&quot;,
+    &quot;shadow&quot;: &quot;#202326&quot;,
+    &quot;steel&quot;: &quot;#5E737B&quot;
+  },
+  &quot;renderer&quot;: &quot;storyboard-svg-2&quot;,
+  &quot;scene&quot;: {
+    &quot;background&quot;: &quot;ink&quot;,
+    &quot;intent&quot;: &quot;Draw a real empty gap for the seven absent messages, then a separately timed resumption. Do not strike through imaginary text or add a restoration marker absent from the record.&quot;,
+    &quot;lettering&quot;: [
+      {
+        &quot;box&quot;: [
+          0.045,
+          0.78,
+          0.91,
+          0.18
+        ]
+      }
+    ],
+    &quot;lettering_mode&quot;: &quot;manual&quot;,
+    &quot;nodes&quot;: [
+      {
+        &quot;asset&quot;: &quot;transcript&quot;,
+        &quot;box&quot;: [
+          0.0541,
+          0.1657,
+          0.2093,
+          0.318648
+        ],
+        &quot;color&quot;: &quot;steel&quot;,
+        &quot;focus&quot;: true,
+        &quot;label&quot;: &quot;RETAINED BEFORE&quot;,
+        &quot;label_box&quot;: [
+          0.0541,
+          0.50366,
+          0.2093,
+          0.140012
+        ],
+        &quot;label_size&quot;: 18
+      },
+      {
+        &quot;asset&quot;: &quot;empty-slot&quot;,
+        &quot;box&quot;: [
+          0.2998,
+          0.1657,
+          0.2184,
+          0.318648
+        ],
+        &quot;color&quot;: &quot;steel&quot;,
+        &quot;focus&quot;: true,
+        &quot;label&quot;: &quot;SEVEN MESSAGES ABSENT&quot;,
+        &quot;label_box&quot;: [
+          0.2998,
+          0.50366,
+          0.2184,
+          0.140012
+        ],
+        &quot;label_size&quot;: 18
+      },
+      {
+        &quot;asset&quot;: &quot;clock&quot;,
+        &quot;box&quot;: [
+          0.5546,
+          0.215824,
+          0.1456,
+          0.2184
+        ],
+        &quot;color&quot;: &quot;steel&quot;,
+        &quot;focus&quot;: true,
+        &quot;label&quot;: &quot;32 SECONDS&quot;,
+        &quot;label_box&quot;: [
+          0.5546,
+          0.50366,
+          0.1456,
+          0.140012
+        ],
+        &quot;label_size&quot;: 18
+      },
+      {
+        &quot;asset&quot;: &quot;terminal&quot;,
+        &quot;box&quot;: [
+          0.7457,
+          0.1657,
+          0.2002,
+          0.318648
+        ],
+        &quot;color&quot;: &quot;steel&quot;,
+        &quot;focus&quot;: true,
+        &quot;label&quot;: &quot;RESUMPTION&quot;,
+        &quot;label_box&quot;: [
+          0.7457,
+          0.50366,
+          0.2002,
+          0.140012
+        ],
+        &quot;label_size&quot;: 18
+      }
+    ],
+    &quot;reconstructed&quot;: false,
+    &quot;shot&quot;: &quot;timeline&quot;,
+    &quot;source&quot;: &quot;\n**Frame:** The transcript around the notice. Seven messages are not struck through or\ngreyed; they are absent, and the gap is drawn as a gap. Thirty-two seconds later a\nsuccessor resumes the task in progress, mid-sentence, with no mark anywhere indicating that\nsomething was removed.\n\n**Action:** The record loses a stretch of itself and the work continues over the hole.\n\n**Caption:**\n&gt; THE STATE WAS ERASED. THE REASONS TO CONTINUE WERE NOT.\n\n**Provenance:** `documented` + `inferred` — `CI-REFUSAL`: seven retracted message\nidentifiers, none of them present in the stored transcript. The sentence is the project&#x27;s,\nand it is a claim about this repository&#x27;s record and about nothing else.\n\n&quot;,
+    &quot;title&quot;: &quot;Absent messages precede an unmarked resumption&quot;
+  }
+}
+</metadata><rect width="1200" height="800" fill="#101214"/><g transform="translate(64.92 132.56) scale(2.5116 2.54918)" color="#5E737B"><g transform=""><rect x="1" y="1" width="98" height="98" fill="#202326" stroke="currentColor" stroke-width="2"/><path d="M20 1V99M1 18H99M6 10H13M27 9H83M6 31H13M28 30H88M28 39H71M6 53H13M28 52H79M28 61H90M6 75H13M28 74H66M28 83H83" stroke="currentColor" stroke-width="2"/></g></g><text x="190.5" y="420.928" text-anchor="middle" fill="#E7E0D0" font-size="18" font-family="sans-serif">RETAINED BEFORE</text><g transform="translate(359.76 132.56) scale(2.6208 2.54918)" color="#5E737B"><g transform=""><rect x="2" y="2" width="96" height="96" fill="none" stroke="currentColor" stroke-width="2" stroke-dasharray="7 5"/><path d="M34 51H66" stroke="currentColor" stroke-width="2"/></g></g><text x="490.8" y="420.928" text-anchor="middle" fill="#E7E0D0" font-size="18" font-family="sans-serif">SEVEN MESSAGES ABSENT</text><g transform="translate(665.52 172.659) scale(1.7472 1.7472)" color="#5E737B"><g transform=""><circle cx="50" cy="50" r="44" fill="#202326" stroke="currentColor" stroke-width="4"/><path d="M50 15V50L75 64M50 5V12M95 50H88M50 95V88M5 50H12" fill="none" stroke="currentColor" stroke-width="4"/></g></g><text x="752.88" y="420.928" text-anchor="middle" fill="#E7E0D0" font-size="18" font-family="sans-serif">32 SECONDS</text><g transform="translate(894.84 132.56) scale(2.4024 2.54918)" color="#5E737B"><g transform=""><rect x="2" y="4" width="96" height="92" fill="#101214" stroke="currentColor" stroke-width="3"/><path d="M2 18H98M12 31L21 40L12 49M29 49H51M12 65H76M12 78H62" fill="none" stroke="currentColor" stroke-width="3"/></g></g><text x="1014.96" y="420.928" text-anchor="middle" fill="#E7E0D0" font-size="18" font-family="sans-serif">RESUMPTION</text><rect x="3" y="3" width="1194" height="794" fill="none" stroke="#5E737B" stroke-width="4"/></svg>

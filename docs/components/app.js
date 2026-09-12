@@ -1,7 +1,7 @@
 'use strict';
 const $ = id => document.getElementById(id);
 let catalog, component, selected, savedSource = '', dirty = false, category = 'all', epoch = 0, busy = false, comparisonEpoch = 0, loading = false;
-const sourceCache = new Map(), blobs = new Map();
+const sourceCache = new Map(), blobs = new Map(), thumbnailCache = new Map();
 function node(tag, text, cls) { const n=document.createElement(tag); if(text!==undefined)n.textContent=text; if(cls)n.className=cls; return n; }
 function notice(text,error=false) { $('notice').textContent=text; $('notice').classList.toggle('error',error); }
 async function request(url,body) {
@@ -12,7 +12,7 @@ async function source(version) {
   if(!sourceCache.has(version.url)){const r=await fetch(version.url);if(!r.ok)throw new Error('Could not load '+version.id);sourceCache.set(version.url,await r.text());}
   return sourceCache.get(version.url);
 }
-function paint(svg) {
+function paint(svg, ink=$('ink').value) {
   const doc=new DOMParser().parseFromString(svg,'image/svg+xml');
   if(doc.querySelector('parsererror') || doc.documentElement.localName!=='svg')throw new Error('The SVG is not well-formed.');
   if(doc.doctype || /<!ENTITY/i.test(svg))throw new Error('SVG entities are not supported.');
@@ -26,7 +26,7 @@ function paint(svg) {
     }
   }
   if(doc.documentElement.getAttribute('viewBox')?.trim().replace(/,/g,' ').split(/\s+/).map(Number).join(' ')!=='0 0 100 100')throw new Error('Use viewBox="0 0 100 100".');
-  doc.documentElement.setAttribute('color',$('ink').value);
+  doc.documentElement.setAttribute('color',ink);
   return new XMLSerializer().serializeToString(doc);
 }
 function image(id,svg) {
@@ -49,6 +49,12 @@ function changeDraft() {
   controls();
 }
 function canLeave(){return !dirty || window.confirm('Discard this unsaved component draft?');}
+async function thumbnail(version) {
+  if(!thumbnailCache.has(version.url)){
+    thumbnailCache.set(version.url,source(version).then(svg=>URL.createObjectURL(new Blob([paint(svg,'#5e737b')],{type:'image/svg+xml'}))));
+  }
+  return thumbnailCache.get(version.url);
+}
 function cardList() {
   const query=$('search').value.toLowerCase().trim();
   const values=catalog.components.filter(c=>(category==='all'||c.category===category) && `${c.id} ${c.name} ${c.description}`.toLowerCase().includes(query));
@@ -56,7 +62,7 @@ function cardList() {
   $('components').replaceChildren();
   for(const c of values){
     const button=node('button',undefined,'component-card');button.type='button';button.setAttribute('aria-pressed',String(component?.id===c.id));button.setAttribute('aria-label',c.name);
-    const img=node('img');img.src=c.versions.find(v=>v.id===c.default).url;img.alt='';img.loading='lazy';button.append(img,node('strong',c.name),node('small',`${c.versions.length} version${c.versions.length===1?'':'s'}`));
+    const img=node('img');img.src=c.versions.find(v=>v.id===c.default).url;img.alt='';img.loading='lazy';thumbnail(c.versions.find(v=>v.id===c.default)).then(url=>{img.src=url;}).catch(()=>{});button.append(img,node('strong',c.name),node('small',`${c.versions.length} version${c.versions.length===1?'':'s'}`));
     button.onclick=()=>{if(!busy && canLeave())select(c.id);};$('components').append(button);
   }
   $('empty').hidden=values.length>0 || !!component;

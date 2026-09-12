@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
+<defs>
+<linearGradient id="metal" x1="0" y1="0" x2="1" y2="1"><stop stop-color="currentColor" /><stop offset=".32" stop-color="#202326" /><stop offset=".75" stop-color="#101214" /><stop offset="1" stop-color="currentColor" /></linearGradient>
+<linearGradient id="tone" x1="0" y1="0" x2="1" y2="1"><stop stop-color="currentColor" /><stop offset="1" stop-color="#101214" stop-opacity=".65" /></linearGradient>
+</defs><path d="M7 97V7H93V97H86V15H14V97Z" fill="url(#metal)" stroke="currentColor" stroke-width="2" /><path d="M18 27L36 36V81L18 94ZM82 27L64 36V81L82 94Z" fill="url(#tone)" stroke="currentColor" stroke-width="2" /><path d="M22 34L31 39V79M78 34L69 39V79" fill="none" stroke="#E7E0D0" stroke-width="1" opacity=".5" />
+</svg>

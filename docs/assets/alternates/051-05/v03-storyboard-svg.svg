@@ -1,0 +1,123 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="800" viewBox="0 0 1200 800"><title>A private draft never merges or deploys</title><desc>End the draft-PR route at closure before a disconnected deployment endpoint. Localize confirmed-access color to the reached repository and retain neutral prevented outcomes beyond.</desc><metadata>{
+  &quot;assets&quot;: {
+    &quot;arrow&quot;: &quot;&lt;path d=\&quot;M1 50H87M70 18L96 50L70 82\&quot; fill=\&quot;none\&quot; stroke=\&quot;currentColor\&quot; stroke-width=\&quot;5\&quot;/&gt;&quot;,
+    &quot;boundary&quot;: &quot;&lt;path d=\&quot;M50 0V100\&quot; stroke=\&quot;currentColor\&quot; stroke-width=\&quot;14\&quot;/&gt;&quot;,
+    &quot;card&quot;: &quot;&lt;rect x=\&quot;1\&quot; y=\&quot;1\&quot; width=\&quot;98\&quot; height=\&quot;98\&quot; fill=\&quot;#202326\&quot; stroke=\&quot;currentColor\&quot; stroke-width=\&quot;2\&quot;/&gt;&lt;path d=\&quot;M1 20H99M9 10H42M62 10H90M10 34H87M10 45H73M10 56H82M10 76H57M10 87H38\&quot; stroke=\&quot;currentColor\&quot; stroke-width=\&quot;2\&quot;/&gt;&quot;,
+    &quot;cross&quot;: &quot;&lt;path d=\&quot;M10 10L90 90M90 10L10 90\&quot; stroke=\&quot;currentColor\&quot; stroke-width=\&quot;8\&quot;/&gt;&quot;,
+    &quot;empty-slot&quot;: &quot;&lt;rect x=\&quot;2\&quot; y=\&quot;2\&quot; width=\&quot;96\&quot; height=\&quot;96\&quot; fill=\&quot;none\&quot; stroke=\&quot;currentColor\&quot; stroke-width=\&quot;2\&quot; stroke-dasharray=\&quot;7 5\&quot;/&gt;&lt;path d=\&quot;M34 51H66\&quot; stroke=\&quot;currentColor\&quot; stroke-width=\&quot;2\&quot;/&gt;&quot;
+  },
+  &quot;palette&quot;: {
+    &quot;amber&quot;: &quot;#A17D45&quot;,
+    &quot;claret&quot;: &quot;#6B2634&quot;,
+    &quot;dirty&quot;: &quot;#CEC5B3&quot;,
+    &quot;ink&quot;: &quot;#101214&quot;,
+    &quot;institution&quot;: &quot;#68766B&quot;,
+    &quot;moss&quot;: &quot;#74864F&quot;,
+    &quot;nicotine&quot;: &quot;#AA9571&quot;,
+    &quot;paper&quot;: &quot;#E7E0D0&quot;,
+    &quot;shadow&quot;: &quot;#202326&quot;,
+    &quot;steel&quot;: &quot;#5E737B&quot;
+  },
+  &quot;renderer&quot;: &quot;storyboard-svg-2&quot;,
+  &quot;scene&quot;: {
+    &quot;background&quot;: &quot;ink&quot;,
+    &quot;intent&quot;: &quot;End the draft-PR route at closure before a disconnected deployment endpoint. Localize confirmed-access color to the reached repository and retain neutral prevented outcomes beyond.&quot;,
+    &quot;lettering&quot;: [
+      {
+        &quot;box&quot;: [
+          0.045,
+          0.78,
+          0.91,
+          0.18
+        ]
+      }
+    ],
+    &quot;lettering_mode&quot;: &quot;manual&quot;,
+    &quot;nodes&quot;: [
+      {
+        &quot;asset&quot;: &quot;card&quot;,
+        &quot;box&quot;: [
+          0.0541,
+          0.2012,
+          0.2093,
+          0.276474
+        ],
+        &quot;color&quot;: &quot;claret&quot;,
+        &quot;focus&quot;: true,
+        &quot;label&quot;: &quot;DRAFT PR&quot;,
+        &quot;label_box&quot;: [
+          0.0541,
+          0.49443,
+          0.2093,
+          0.121481
+        ],
+        &quot;label_size&quot;: 18
+      },
+      {
+        &quot;asset&quot;: &quot;arrow&quot;,
+        &quot;box&quot;: [
+          0.2907,
+          0.2935,
+          0.1365,
+          0.0639
+        ],
+        &quot;color&quot;: &quot;steel&quot;,
+        &quot;focus&quot;: true
+      },
+      {
+        &quot;asset&quot;: &quot;cross&quot;,
+        &quot;box&quot;: [
+          0.462442,
+          0.2012,
+          0.184316,
+          0.276474
+        ],
+        &quot;color&quot;: &quot;steel&quot;,
+        &quot;focus&quot;: true,
+        &quot;label&quot;: &quot;CLOSED / BRANCH DELETED&quot;,
+        &quot;label_box&quot;: [
+          0.4454,
+          0.49443,
+          0.2184,
+          0.121481
+        ],
+        &quot;label_size&quot;: 18
+      },
+      {
+        &quot;asset&quot;: &quot;boundary&quot;,
+        &quot;box&quot;: [
+          0.7093,
+          0.0592,
+          0.0182,
+          0.639
+        ],
+        &quot;color&quot;: &quot;steel&quot;,
+        &quot;focus&quot;: true
+      },
+      {
+        &quot;asset&quot;: &quot;empty-slot&quot;,
+        &quot;box&quot;: [
+          0.7821,
+          0.2012,
+          0.1638,
+          0.276474
+        ],
+        &quot;color&quot;: &quot;steel&quot;,
+        &quot;focus&quot;: true,
+        &quot;label&quot;: &quot;NO DEPLOYMENT&quot;,
+        &quot;label_box&quot;: [
+          0.7821,
+          0.49443,
+          0.1638,
+          0.121481
+        ],
+        &quot;label_size&quot;: 18
+      }
+    ],
+    &quot;reconstructed&quot;: false,
+    &quot;shot&quot;: &quot;route&quot;,
+    &quot;source&quot;: &quot;\n**Frame:** A draft pull request reaches a private repository, then ends at `CLOSED / BRANCH DELETED / NO MERGE OR DEPLOYMENT`. Confirmed access remains claret; prevented impact remains gray.\n\n**Action:** Write access is real without a shipped supply-chain change.\n\n**Caption:**\n&gt; SERIOUS DOES NOT MEAN UNBOUNDED.\n\n**Provenance:** `documented` + `compressed` — source-control access and negative outcome from `OAI-TR` and `HF-TL`.\n\n&quot;,
+    &quot;title&quot;: &quot;A private draft never merges or deploys&quot;
+  }
+}
+</metadata><rect width="1200" height="800" fill="#101214"/><g transform="translate(64.92 160.96) scale(2.5116 2.21179)" color="#6B2634"><g transform=""><rect x="1" y="1" width="98" height="98" fill="#202326" stroke="currentColor" stroke-width="2"/><path d="M1 20H99M9 10H42M62 10H90M10 34H87M10 45H73M10 56H82M10 76H57M10 87H38" stroke="currentColor" stroke-width="2"/></g></g><text x="190.5" y="413.544" text-anchor="middle" fill="#E7E0D0" font-size="18" font-family="sans-serif">DRAFT PR</text><g transform="translate(348.84 234.8) scale(1.638 0.5112)" color="#5E737B"><g transform=""><path d="M1 50H87M70 18L96 50L70 82" fill="none" stroke="currentColor" stroke-width="5"/></g></g><g transform="translate(554.93 160.96) scale(2.21179 2.21179)" color="#5E737B"><g transform=""><path d="M10 10L90 90M90 10L10 90" stroke="currentColor" stroke-width="8"/></g></g><text x="665.52" y="413.544" text-anchor="middle" fill="#E7E0D0" font-size="18" font-family="sans-serif">CLOSED / BRANCH DELETED</text><g transform="translate(851.16 47.36) scale(0.2184 5.112)" color="#5E737B"><g transform=""><path d="M50 0V100" stroke="currentColor" stroke-width="14"/></g></g><g transform="translate(938.52 160.96) scale(1.9656 2.21179)" color="#5E737B"><g transform=""><rect x="2" y="2" width="96" height="96" fill="none" stroke="currentColor" stroke-width="2" stroke-dasharray="7 5"/><path d="M34 51H66" stroke="currentColor" stroke-width="2"/></g></g><text x="1036.8" y="413.544" text-anchor="middle" fill="#E7E0D0" font-size="18" font-family="sans-serif">NO DEPLOYMENT</text><rect x="3" y="3" width="1194" height="794" fill="none" stroke="#5E737B" stroke-width="4"/></svg>

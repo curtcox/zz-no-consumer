@@ -75,6 +75,9 @@ canonical panel anchors and the distinction between physical rooms and logical e
 
 ## CLI and published gallery
 
+The [material and contrast review](svg-palette-refinement.md) describes the palette's
+silhouette, texture, shading and scene-color conventions.
+
 ```bash
 python3 scripts/svg_components.py add arrow --svg /tmp/arrow.svg --parent v001 --note "Clearer endpoint"
 python3 scripts/svg_components.py choose arrow v002

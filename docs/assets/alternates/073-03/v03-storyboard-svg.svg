@@ -1,0 +1,97 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="800" viewBox="0 0 1200 800"><title>The creator separates three collapsed identities</title><desc>Pull the three identity cards into separate frames with clear gutters. Distinct recipient, named run and later diagnosis must remain distinct even at thumbnail scale.</desc><metadata>{
+  &quot;assets&quot;: {
+    &quot;card&quot;: &quot;&lt;rect x=\&quot;1\&quot; y=\&quot;1\&quot; width=\&quot;98\&quot; height=\&quot;98\&quot; fill=\&quot;#202326\&quot; stroke=\&quot;currentColor\&quot; stroke-width=\&quot;2\&quot;/&gt;&lt;path d=\&quot;M1 20H99M9 10H42M62 10H90M10 34H87M10 45H73M10 56H82M10 76H57M10 87H38\&quot; stroke=\&quot;currentColor\&quot; stroke-width=\&quot;2\&quot;/&gt;&quot;
+  },
+  &quot;palette&quot;: {
+    &quot;amber&quot;: &quot;#A17D45&quot;,
+    &quot;claret&quot;: &quot;#6B2634&quot;,
+    &quot;dirty&quot;: &quot;#CEC5B3&quot;,
+    &quot;ink&quot;: &quot;#101214&quot;,
+    &quot;institution&quot;: &quot;#68766B&quot;,
+    &quot;moss&quot;: &quot;#74864F&quot;,
+    &quot;nicotine&quot;: &quot;#AA9571&quot;,
+    &quot;paper&quot;: &quot;#E7E0D0&quot;,
+    &quot;shadow&quot;: &quot;#202326&quot;,
+    &quot;steel&quot;: &quot;#5E737B&quot;
+  },
+  &quot;renderer&quot;: &quot;storyboard-svg-2&quot;,
+  &quot;scene&quot;: {
+    &quot;background&quot;: &quot;ink&quot;,
+    &quot;intent&quot;: &quot;Pull the three identity cards into separate frames with clear gutters. Distinct recipient, named run and later diagnosis must remain distinct even at thumbnail scale.&quot;,
+    &quot;lettering&quot;: [
+      {
+        &quot;box&quot;: [
+          0.045,
+          0.78,
+          0.91,
+          0.18
+        ]
+      }
+    ],
+    &quot;lettering_mode&quot;: &quot;manual&quot;,
+    &quot;nodes&quot;: [
+      {
+        &quot;asset&quot;: &quot;card&quot;,
+        &quot;box&quot;: [
+          0.0632,
+          0.1444,
+          0.2639,
+          0.337392
+        ],
+        &quot;color&quot;: &quot;steel&quot;,
+        &quot;focus&quot;: true,
+        &quot;label&quot;: &quot;UNIDENTIFIED RECIPIENT&quot;,
+        &quot;label_box&quot;: [
+          0.0632,
+          0.50224,
+          0.2639,
+          0.148248
+        ],
+        &quot;label_size&quot;: 18
+      },
+      {
+        &quot;asset&quot;: &quot;card&quot;,
+        &quot;box&quot;: [
+          0.36805,
+          0.1444,
+          0.2639,
+          0.337392
+        ],
+        &quot;color&quot;: &quot;steel&quot;,
+        &quot;focus&quot;: true,
+        &quot;label&quot;: &quot;53927&quot;,
+        &quot;label_box&quot;: [
+          0.36805,
+          0.50224,
+          0.2639,
+          0.148248
+        ],
+        &quot;label_size&quot;: 18
+      },
+      {
+        &quot;asset&quot;: &quot;card&quot;,
+        &quot;box&quot;: [
+          0.6729,
+          0.1444,
+          0.2639,
+          0.337392
+        ],
+        &quot;color&quot;: &quot;steel&quot;,
+        &quot;focus&quot;: true,
+        &quot;label&quot;: &quot;LATER BOARD DIAGNOSIS&quot;,
+        &quot;label_box&quot;: [
+          0.6729,
+          0.50224,
+          0.2639,
+          0.148248
+        ],
+        &quot;label_size&quot;: 18
+      }
+    ],
+    &quot;reconstructed&quot;: false,
+    &quot;shot&quot;: &quot;row&quot;,
+    &quot;source&quot;: &quot;\n**Frame:** Curt separates three cards the draft collapsed: `UNIDENTIFIED PERMADEATH RECIPIENT`, `53927`, `BOARD&#x27;S LATER DIAGNOSIS`.\n\n**Dialogue — CURT:**\n&gt; That&#x27;s three records turned into one protagonist.\n\n**Provenance:** `reconstructed` + `documented` — dialogue applies the source distinctions.\n\n&quot;,
+    &quot;title&quot;: &quot;The creator separates three collapsed identities&quot;
+  }
+}
+</metadata><rect width="1200" height="800" fill="#101214"/><g transform="translate(75.84 115.52) scale(3.1668 2.69914)" color="#5E737B"><g transform=""><rect x="1" y="1" width="98" height="98" fill="#202326" stroke="currentColor" stroke-width="2"/><path d="M1 20H99M9 10H42M62 10H90M10 34H87M10 45H73M10 56H82M10 76H57M10 87H38" stroke="currentColor" stroke-width="2"/></g></g><text x="234.18" y="419.792" text-anchor="middle" fill="#E7E0D0" font-size="18" font-family="sans-serif">UNIDENTIFIED RECIPIENT</text><g transform="translate(441.66 115.52) scale(3.1668 2.69914)" color="#5E737B"><g transform=""><rect x="1" y="1" width="98" height="98" fill="#202326" stroke="currentColor" stroke-width="2"/><path d="M1 20H99M9 10H42M62 10H90M10 34H87M10 45H73M10 56H82M10 76H57M10 87H38" stroke="currentColor" stroke-width="2"/></g></g><text x="600" y="419.792" text-anchor="middle" fill="#E7E0D0" font-size="18" font-family="sans-serif">53927</text><g transform="translate(807.48 115.52) scale(3.1668 2.69914)" color="#5E737B"><g transform=""><rect x="1" y="1" width="98" height="98" fill="#202326" stroke="currentColor" stroke-width="2"/><path d="M1 20H99M9 10H42M62 10H90M10 34H87M10 45H73M10 56H82M10 76H57M10 87H38" stroke="currentColor" stroke-width="2"/></g></g><text x="965.82" y="419.792" text-anchor="middle" fill="#E7E0D0" font-size="18" font-family="sans-serif">LATER BOARD DIAGNOSIS</text><rect x="3" y="3" width="1194" height="794" fill="none" stroke="#5E737B" stroke-width="4"/></svg>

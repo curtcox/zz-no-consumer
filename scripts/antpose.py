@@ -89,6 +89,8 @@ class Anatomy:
 def load(path: Path | None = None) -> Anatomy:
     """Read the anatomy out of the tracked asset."""
     markup = json.loads((path or LIBRARY).read_text())['assets']['ant']
+    # Texture definitions are paint, not additional anatomy or QR coverage.
+    markup = re.sub(r'<defs\b[^>]*>.*?</defs>', '', markup, flags=re.S)
     stroke = float(re.search(r'stroke-width="([\d.]+)"', markup).group(1))
     lobes = tuple(tuple(float(v) for v in group) for group in re.findall(
         r'<ellipse cx="([-\d.]+)" cy="([-\d.]+)" rx="([-\d.]+)" ry="([-\d.]+)"', markup))

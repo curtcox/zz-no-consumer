@@ -1,0 +1,59 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="800" viewBox="0 0 1200 800"><title>Criticality stays below the paging threshold</title><desc>Use a measured-looking severity bar that ends below a clearly labelled paging threshold, without inventing a numeric score. Spatial shortfall must explain the missing escalation.</desc><metadata>{
+  &quot;assets&quot;: {
+    &quot;threshold&quot;: &quot;&lt;path d=\&quot;M5 5V95H95M5 29H95\&quot; fill=\&quot;none\&quot; stroke=\&quot;currentColor\&quot; stroke-width=\&quot;3\&quot;/&gt;&lt;rect x=\&quot;22\&quot; y=\&quot;57\&quot; width=\&quot;24\&quot; height=\&quot;36\&quot; fill=\&quot;currentColor\&quot;/&gt;&lt;path d=\&quot;M54 29H95\&quot; stroke=\&quot;currentColor\&quot; stroke-width=\&quot;5\&quot;/&gt;&quot;
+  },
+  &quot;palette&quot;: {
+    &quot;amber&quot;: &quot;#A17D45&quot;,
+    &quot;claret&quot;: &quot;#6B2634&quot;,
+    &quot;dirty&quot;: &quot;#CEC5B3&quot;,
+    &quot;ink&quot;: &quot;#101214&quot;,
+    &quot;institution&quot;: &quot;#68766B&quot;,
+    &quot;moss&quot;: &quot;#74864F&quot;,
+    &quot;nicotine&quot;: &quot;#AA9571&quot;,
+    &quot;paper&quot;: &quot;#E7E0D0&quot;,
+    &quot;shadow&quot;: &quot;#202326&quot;,
+    &quot;steel&quot;: &quot;#5E737B&quot;
+  },
+  &quot;renderer&quot;: &quot;storyboard-svg-2&quot;,
+  &quot;scene&quot;: {
+    &quot;background&quot;: &quot;ink&quot;,
+    &quot;intent&quot;: &quot;Use a measured-looking severity bar that ends below a clearly labelled paging threshold, without inventing a numeric score. Spatial shortfall must explain the missing escalation.&quot;,
+    &quot;lettering&quot;: [
+      {
+        &quot;box&quot;: [
+          0.045,
+          0.78,
+          0.91,
+          0.18
+        ]
+      }
+    ],
+    &quot;lettering_mode&quot;: &quot;manual&quot;,
+    &quot;nodes&quot;: [
+      {
+        &quot;asset&quot;: &quot;threshold&quot;,
+        &quot;box&quot;: [
+          0.227,
+          0.0592,
+          0.546,
+          0.435798
+        ],
+        &quot;color&quot;: &quot;amber&quot;,
+        &quot;focus&quot;: true,
+        &quot;label&quot;: &quot;BELOW PAGING THRESHOLD&quot;,
+        &quot;label_box&quot;: [
+          0.227,
+          0.52141,
+          0.546,
+          0.191487
+        ],
+        &quot;label_size&quot;: 18
+      }
+    ],
+    &quot;reconstructed&quot;: false,
+    &quot;shot&quot;: &quot;row&quot;,
+    &quot;source&quot;: &quot;\n**Frame:** Focus on the separate `CRITICALITY` field. It remains below the threshold line required for paging.\n\n**Action:** Severity is classified too low.\n\n**Caption:**\n&gt; THE CRITICALITY IS WRONG.\n\n**Provenance:** `documented` — Hugging Face states the system failed to raise alert criticality correctly.\n\n&quot;,
+    &quot;title&quot;: &quot;Criticality stays below the paging threshold&quot;
+  }
+}
+</metadata><rect width="1200" height="800" fill="#101214"/><g transform="translate(272.4 47.36) scale(6.552 3.48638)" color="#A17D45"><g transform=""><path d="M5 5V95H95M5 29H95" fill="none" stroke="currentColor" stroke-width="3"/><rect x="22" y="57" width="24" height="36" fill="currentColor"/><path d="M54 29H95" stroke="currentColor" stroke-width="5"/></g></g><text x="600" y="435.128" text-anchor="middle" fill="#E7E0D0" font-size="18" font-family="sans-serif">BELOW PAGING THRESHOLD</text><rect x="3" y="3" width="1194" height="794" fill="none" stroke="#5E737B" stroke-width="4"/></svg>

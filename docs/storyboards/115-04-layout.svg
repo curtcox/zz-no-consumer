@@ -1,6 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="1200" height="800" viewBox="0 0 1200 800"><title>An unreadable context fragment remains ambiguous</title><desc>Use only an unreadable fragment that supports several visual interpretations. Avoid recognizable words, logos or exact earlier panel geometry that would resolve its origin.</desc><metadata>{
   &quot;assets&quot;: {
-    &quot;dotted-line&quot;: &quot;&lt;path d=\&quot;M0 50H100\&quot; stroke=\&quot;currentColor\&quot; stroke-width=\&quot;2\&quot; stroke-dasharray=\&quot;4 5\&quot; vector-effect=\&quot;non-scaling-stroke\&quot;/&gt;&quot;
+    &quot;dotted-line&quot;: &quot;&lt;path d=\&quot;M0 50H100\&quot; stroke=\&quot;currentColor\&quot; stroke-width=\&quot;3\&quot; stroke-dasharray=\&quot;1 8\&quot; vector-effect=\&quot;non-scaling-stroke\&quot; stroke-linecap=\&quot;round\&quot; /&gt;&quot;
   },
   &quot;palette&quot;: {
     &quot;amber&quot;: &quot;#A17D45&quot;,

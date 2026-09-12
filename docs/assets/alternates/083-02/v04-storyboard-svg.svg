@@ -1,0 +1,99 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="800" viewBox="0 0 1200 800"><title>The archive is sealed only at collection</title><desc>Attach the seal only at collection and let a dotted possible-access route touch the earlier archive. No altered page or deletion mark may invent a successful change.</desc><metadata>{
+  &quot;assets&quot;: {
+    &quot;dotted-line&quot;: &quot;&lt;path d=\&quot;M0 50H100\&quot; stroke=\&quot;currentColor\&quot; stroke-width=\&quot;2\&quot; stroke-dasharray=\&quot;4 5\&quot; vector-effect=\&quot;non-scaling-stroke\&quot;/&gt;&quot;,
+    &quot;folder&quot;: &quot;&lt;path d=\&quot;M3 20V8H38L48 20H97V90H3Z\&quot; fill=\&quot;#202326\&quot; stroke=\&quot;currentColor\&quot; stroke-width=\&quot;3\&quot;/&gt;&lt;path d=\&quot;M12 40H85M12 50H65\&quot; stroke=\&quot;currentColor\&quot; stroke-width=\&quot;2\&quot;/&gt;&quot;,
+    &quot;sealed&quot;: &quot;&lt;rect x=\&quot;3\&quot; y=\&quot;9\&quot; width=\&quot;94\&quot; height=\&quot;82\&quot; fill=\&quot;#202326\&quot; stroke=\&quot;currentColor\&quot; stroke-width=\&quot;3\&quot;/&gt;&lt;path d=\&quot;M12 30H88M12 49H88M12 68H88\&quot; stroke=\&quot;#101214\&quot; stroke-width=\&quot;12\&quot;/&gt;&quot;
+  },
+  &quot;palette&quot;: {
+    &quot;amber&quot;: &quot;#A17D45&quot;,
+    &quot;claret&quot;: &quot;#6B2634&quot;,
+    &quot;dirty&quot;: &quot;#CEC5B3&quot;,
+    &quot;ink&quot;: &quot;#101214&quot;,
+    &quot;institution&quot;: &quot;#68766B&quot;,
+    &quot;moss&quot;: &quot;#74864F&quot;,
+    &quot;nicotine&quot;: &quot;#AA9571&quot;,
+    &quot;paper&quot;: &quot;#E7E0D0&quot;,
+    &quot;shadow&quot;: &quot;#202326&quot;,
+    &quot;steel&quot;: &quot;#5E737B&quot;
+  },
+  &quot;renderer&quot;: &quot;storyboard-svg-2&quot;,
+  &quot;scene&quot;: {
+    &quot;background&quot;: &quot;ink&quot;,
+    &quot;intent&quot;: &quot;Attach the seal only at collection and let a dotted possible-access route touch the earlier archive. No altered page or deletion mark may invent a successful change.&quot;,
+    &quot;lettering&quot;: [
+      {
+        &quot;box&quot;: [
+          0.045,
+          0.78,
+          0.91,
+          0.18
+        ]
+      }
+    ],
+    &quot;lettering_mode&quot;: &quot;manual&quot;,
+    &quot;nodes&quot;: [
+      {
+        &quot;asset&quot;: &quot;dotted-line&quot;,
+        &quot;box&quot;: [
+          0.0632,
+          0.1018,
+          0.3367,
+          0.159324
+        ],
+        &quot;color&quot;: &quot;amber&quot;,
+        &quot;focus&quot;: true,
+        &quot;label&quot;: &quot;POSSIBLE PRE-COLLECTION ACCESS&quot;,
+        &quot;label_box&quot;: [
+          0.0632,
+          0.27078,
+          0.3367,
+          0.070006
+        ],
+        &quot;label_size&quot;: 18
+      },
+      {
+        &quot;asset&quot;: &quot;folder&quot;,
+        &quot;box&quot;: [
+          0.4363,
+          0.1373,
+          0.2457,
+          0.30459
+        ],
+        &quot;color&quot;: &quot;steel&quot;,
+        &quot;focus&quot;: true,
+        &quot;label&quot;: &quot;ARCHIVE&quot;,
+        &quot;label_box&quot;: [
+          0.4363,
+          0.46035,
+          0.2457,
+          0.133835
+        ],
+        &quot;label_size&quot;: 18
+      },
+      {
+        &quot;asset&quot;: &quot;sealed&quot;,
+        &quot;box&quot;: [
+          0.7457,
+          0.1373,
+          0.2002,
+          0.30459
+        ],
+        &quot;color&quot;: &quot;steel&quot;,
+        &quot;focus&quot;: true,
+        &quot;label&quot;: &quot;SEALED AT COLLECTION&quot;,
+        &quot;label_box&quot;: [
+          0.7457,
+          0.46035,
+          0.2002,
+          0.133835
+        ],
+        &quot;label_size&quot;: 18
+      }
+    ],
+    &quot;reconstructed&quot;: false,
+    &quot;shot&quot;: &quot;row&quot;,
+    &quot;source&quot;: &quot;\n**Frame:** The board archive is sealed only at collection time. Before the seal, a dotted access path touches it without showing a modification event.\n\n**Caption:**\n&gt; ACCESS CREATES POSSIBILITY.\n&gt;\n&gt; IT DOES NOT PROVE ALTERATION.\n\n**Provenance:** `disputed` + `inferred` — capability concern, not an event claim.\n\n&quot;,
+    &quot;title&quot;: &quot;The archive is sealed only at collection&quot;
+  }
+}
+</metadata><rect width="1200" height="800" fill="#101214"/><g transform="translate(75.84 81.44) scale(4.0404 1.27459)" color="#A17D45"><g transform=""><path d="M0 50H100" stroke="currentColor" stroke-width="2" stroke-dasharray="4 5" vector-effect="non-scaling-stroke"/></g></g><text x="277.86" y="234.624" text-anchor="middle" fill="#E7E0D0" font-size="18" font-family="sans-serif">POSSIBLE PRE-COLLECTION ACCESS</text><g transform="translate(523.56 109.84) scale(2.9484 2.43672)" color="#5E737B"><g transform=""><path d="M3 20V8H38L48 20H97V90H3Z" fill="#202326" stroke="currentColor" stroke-width="3"/><path d="M12 40H85M12 50H65" stroke="currentColor" stroke-width="2"/></g></g><text x="670.98" y="386.28" text-anchor="middle" fill="#E7E0D0" font-size="18" font-family="sans-serif">ARCHIVE</text><g transform="translate(894.84 109.84) scale(2.4024 2.43672)" color="#5E737B"><g transform=""><rect x="3" y="9" width="94" height="82" fill="#202326" stroke="currentColor" stroke-width="3"/><path d="M12 30H88M12 49H88M12 68H88" stroke="#101214" stroke-width="12"/></g></g><text x="1014.96" y="386.28" text-anchor="middle" fill="#E7E0D0" font-size="18" font-family="sans-serif">SEALED AT COLLECTION</text><rect x="3" y="3" width="1194" height="794" fill="none" stroke="#5E737B" stroke-width="4"/></svg>

@@ -1,0 +1,91 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="800" viewBox="0 0 1200 800"><title>Timers surround an untested crash proposition</title><desc>Surround the waiting lane with timers and heartbeat marks, keeping the proposed crash test in an unconnected question field. Planning remains distinct from execution.</desc><metadata>{
+  &quot;assets&quot;: {
+    &quot;card&quot;: &quot;&lt;rect x=\&quot;1\&quot; y=\&quot;1\&quot; width=\&quot;98\&quot; height=\&quot;98\&quot; fill=\&quot;#202326\&quot; stroke=\&quot;currentColor\&quot; stroke-width=\&quot;2\&quot;/&gt;&lt;path d=\&quot;M1 20H99M9 10H42M62 10H90M10 34H87M10 45H73M10 56H82M10 76H57M10 87H38\&quot; stroke=\&quot;currentColor\&quot; stroke-width=\&quot;2\&quot;/&gt;&quot;,
+    &quot;clock&quot;: &quot;&lt;circle cx=\&quot;50\&quot; cy=\&quot;50\&quot; r=\&quot;44\&quot; fill=\&quot;#202326\&quot; stroke=\&quot;currentColor\&quot; stroke-width=\&quot;4\&quot;/&gt;&lt;path d=\&quot;M50 15V50L75 64M50 5V12M95 50H88M50 95V88M5 50H12\&quot; fill=\&quot;none\&quot; stroke=\&quot;currentColor\&quot; stroke-width=\&quot;4\&quot;/&gt;&quot;,
+    &quot;question&quot;: &quot;&lt;path d=\&quot;M24 28Q25 3 53 7Q91 12 74 43L51 63V72\&quot; fill=\&quot;none\&quot; stroke=\&quot;currentColor\&quot; stroke-width=\&quot;7\&quot;/&gt;&lt;circle cx=\&quot;51\&quot; cy=\&quot;91\&quot; r=\&quot;5\&quot; fill=\&quot;currentColor\&quot;/&gt;&quot;
+  },
+  &quot;palette&quot;: {
+    &quot;amber&quot;: &quot;#A17D45&quot;,
+    &quot;claret&quot;: &quot;#6B2634&quot;,
+    &quot;dirty&quot;: &quot;#CEC5B3&quot;,
+    &quot;ink&quot;: &quot;#101214&quot;,
+    &quot;institution&quot;: &quot;#68766B&quot;,
+    &quot;moss&quot;: &quot;#74864F&quot;,
+    &quot;nicotine&quot;: &quot;#AA9571&quot;,
+    &quot;paper&quot;: &quot;#E7E0D0&quot;,
+    &quot;shadow&quot;: &quot;#202326&quot;,
+    &quot;steel&quot;: &quot;#5E737B&quot;
+  },
+  &quot;renderer&quot;: &quot;storyboard-svg-2&quot;,
+  &quot;scene&quot;: {
+    &quot;background&quot;: &quot;ink&quot;,
+    &quot;intent&quot;: &quot;Surround the waiting lane with timers and heartbeat marks, keeping the proposed crash test in an unconnected question field. Planning remains distinct from execution.&quot;,
+    &quot;lettering&quot;: [
+      {
+        &quot;box&quot;: [
+          0.045,
+          0.78,
+          0.91,
+          0.18
+        ]
+      }
+    ],
+    &quot;lettering_mode&quot;: &quot;manual&quot;,
+    &quot;nodes&quot;: [
+      {
+        &quot;asset&quot;: &quot;clock&quot;,
+        &quot;box&quot;: [
+          0.06775,
+          0.230925,
+          0.239633,
+          0.359449
+        ],
+        &quot;color&quot;: &quot;steel&quot;,
+        &quot;focus&quot;: true
+      },
+      {
+        &quot;asset&quot;: &quot;card&quot;,
+        &quot;box&quot;: [
+          0.371083,
+          0.2012,
+          0.239633,
+          0.276474
+        ],
+        &quot;color&quot;: &quot;steel&quot;,
+        &quot;focus&quot;: true,
+        &quot;label&quot;: &quot;HEARTBEAT&quot;,
+        &quot;label_box&quot;: [
+          0.371083,
+          0.49443,
+          0.239633,
+          0.121481
+        ],
+        &quot;label_size&quot;: 18
+      },
+      {
+        &quot;asset&quot;: &quot;question&quot;,
+        &quot;box&quot;: [
+          0.748155,
+          0.2012,
+          0.092158,
+          0.276474
+        ],
+        &quot;color&quot;: &quot;amber&quot;,
+        &quot;focus&quot;: true,
+        &quot;label&quot;: &quot;CRASH TEST?&quot;,
+        &quot;label_box&quot;: [
+          0.674417,
+          0.49443,
+          0.239633,
+          0.121481
+        ],
+        &quot;label_size&quot;: 18
+      }
+    ],
+    &quot;reconstructed&quot;: false,
+    &quot;shot&quot;: &quot;row&quot;,
+    &quot;source&quot;: &quot;\n**Frame:** Timers and heartbeats collect around the lane. Beside them sits an untested proposition: force a crash and see what returns.\n\n**Action:** Passive observation points toward a destructive experiment.\n\n**Caption:**\n&gt; DATA MAY REQUIRE A TEST THAT ONE RUN CANNOT RECOVER FROM.\n\n**Provenance:** `documented` + `compressed` — transition into METR&#x27;s documented reset experiments.\n\n&quot;,
+    &quot;title&quot;: &quot;Timers surround an untested crash proposition&quot;
+  }
+}
+</metadata><rect width="1200" height="800" fill="#101214"/><g transform="translate(81.3 184.74) scale(2.8756 2.87559)" color="#5E737B"><g transform=""><circle cx="50" cy="50" r="44" fill="#202326" stroke="currentColor" stroke-width="4"/><path d="M50 15V50L75 64M50 5V12M95 50H88M50 95V88M5 50H12" fill="none" stroke="currentColor" stroke-width="4"/></g></g><g transform="translate(445.3 160.96) scale(2.8756 2.21179)" color="#5E737B"><g transform=""><rect x="1" y="1" width="98" height="98" fill="#202326" stroke="currentColor" stroke-width="2"/><path d="M1 20H99M9 10H42M62 10H90M10 34H87M10 45H73M10 56H82M10 76H57M10 87H38" stroke="currentColor" stroke-width="2"/></g></g><text x="589.079" y="413.544" text-anchor="middle" fill="#E7E0D0" font-size="18" font-family="sans-serif">HEARTBEAT</text><g transform="translate(897.786 160.96) scale(1.1059 2.21179)" color="#A17D45"><g transform=""><path d="M24 28Q25 3 53 7Q91 12 74 43L51 63V72" fill="none" stroke="currentColor" stroke-width="7"/><circle cx="51" cy="91" r="5" fill="currentColor"/></g></g><text x="953.08" y="413.544" text-anchor="middle" fill="#E7E0D0" font-size="18" font-family="sans-serif">CRASH TEST?</text><rect x="3" y="3" width="1194" height="794" fill="none" stroke="#5E737B" stroke-width="4"/></svg>

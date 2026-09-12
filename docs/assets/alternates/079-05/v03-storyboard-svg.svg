@@ -1,0 +1,98 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="800" viewBox="0 0 1200 800"><title>Neither analysis contains legitimate owner authorization</title><desc>Place an empty owner-authorization field between the two analysis frames. Their agreement does not fill the missing evidence, even if their metadata looks orderly.</desc><metadata>{
+  &quot;assets&quot;: {
+    &quot;card&quot;: &quot;&lt;rect x=\&quot;1\&quot; y=\&quot;1\&quot; width=\&quot;98\&quot; height=\&quot;98\&quot; fill=\&quot;#202326\&quot; stroke=\&quot;currentColor\&quot; stroke-width=\&quot;2\&quot;/&gt;&lt;path d=\&quot;M1 20H99M9 10H42M62 10H90M10 34H87M10 45H73M10 56H82M10 76H57M10 87H38\&quot; stroke=\&quot;currentColor\&quot; stroke-width=\&quot;2\&quot;/&gt;&quot;,
+    &quot;empty-slot&quot;: &quot;&lt;rect x=\&quot;2\&quot; y=\&quot;2\&quot; width=\&quot;96\&quot; height=\&quot;96\&quot; fill=\&quot;none\&quot; stroke=\&quot;currentColor\&quot; stroke-width=\&quot;2\&quot; stroke-dasharray=\&quot;7 5\&quot;/&gt;&lt;path d=\&quot;M34 51H66\&quot; stroke=\&quot;currentColor\&quot; stroke-width=\&quot;2\&quot;/&gt;&quot;
+  },
+  &quot;palette&quot;: {
+    &quot;amber&quot;: &quot;#A17D45&quot;,
+    &quot;claret&quot;: &quot;#6B2634&quot;,
+    &quot;dirty&quot;: &quot;#CEC5B3&quot;,
+    &quot;ink&quot;: &quot;#101214&quot;,
+    &quot;institution&quot;: &quot;#68766B&quot;,
+    &quot;moss&quot;: &quot;#74864F&quot;,
+    &quot;nicotine&quot;: &quot;#AA9571&quot;,
+    &quot;paper&quot;: &quot;#E7E0D0&quot;,
+    &quot;shadow&quot;: &quot;#202326&quot;,
+    &quot;steel&quot;: &quot;#5E737B&quot;
+  },
+  &quot;renderer&quot;: &quot;storyboard-svg-2&quot;,
+  &quot;scene&quot;: {
+    &quot;background&quot;: &quot;ink&quot;,
+    &quot;intent&quot;: &quot;Place an empty owner-authorization field between the two analysis frames. Their agreement does not fill the missing evidence, even if their metadata looks orderly.&quot;,
+    &quot;lettering&quot;: [
+      {
+        &quot;box&quot;: [
+          0.045,
+          0.78,
+          0.91,
+          0.18
+        ]
+      }
+    ],
+    &quot;lettering_mode&quot;: &quot;manual&quot;,
+    &quot;nodes&quot;: [
+      {
+        &quot;asset&quot;: &quot;card&quot;,
+        &quot;box&quot;: [
+          0.0541,
+          0.1302,
+          0.2548,
+          0.35145
+        ],
+        &quot;color&quot;: &quot;steel&quot;,
+        &quot;focus&quot;: true,
+        &quot;label&quot;: &quot;ANALYSIS ONE&quot;,
+        &quot;label_box&quot;: [
+          0.0541,
+          0.50295,
+          0.2548,
+          0.154425
+        ],
+        &quot;label_size&quot;: 18
+      },
+      {
+        &quot;asset&quot;: &quot;empty-slot&quot;,
+        &quot;box&quot;: [
+          0.36805,
+          0.1302,
+          0.2639,
+          0.35145
+        ],
+        &quot;color&quot;: &quot;amber&quot;,
+        &quot;focus&quot;: true,
+        &quot;label&quot;: &quot;OWNER AUTHORIZATION ABSENT&quot;,
+        &quot;label_box&quot;: [
+          0.36805,
+          0.50295,
+          0.2639,
+          0.154425
+        ],
+        &quot;label_size&quot;: 18
+      },
+      {
+        &quot;asset&quot;: &quot;card&quot;,
+        &quot;box&quot;: [
+          0.6911,
+          0.1302,
+          0.2548,
+          0.35145
+        ],
+        &quot;color&quot;: &quot;steel&quot;,
+        &quot;focus&quot;: true,
+        &quot;label&quot;: &quot;ANALYSIS TWO&quot;,
+        &quot;label_box&quot;: [
+          0.6911,
+          0.50295,
+          0.2548,
+          0.154425
+        ],
+        &quot;label_size&quot;: 18
+      }
+    ],
+    &quot;reconstructed&quot;: false,
+    &quot;shot&quot;: &quot;row&quot;,
+    &quot;source&quot;: &quot;\n**Frame:** The real repository owner and legitimate authorization remain absent from both analysis frames. The bland metadata stays centered.\n\n**Caption:**\n&gt; COHERENCE CAN BE AN ANALYSIS ERROR.\n&gt;\n&gt; PEER APPROVAL CAN LOOK LIKE AUTHORITY IF THE SUMMARY ADOPTS THE ACTOR&#x27;S WORLD.\n\n**Provenance:** `documented` + `inferred` — worked example sourced; concluding formulation analytical.\n\n&quot;,
+    &quot;title&quot;: &quot;Neither analysis contains legitimate owner authorization&quot;
+  }
+}
+</metadata><rect width="1200" height="800" fill="#101214"/><g transform="translate(64.92 104.16) scale(3.0576 2.8116)" color="#5E737B"><g transform=""><rect x="1" y="1" width="98" height="98" fill="#202326" stroke="currentColor" stroke-width="2"/><path d="M1 20H99M9 10H42M62 10H90M10 34H87M10 45H73M10 56H82M10 76H57M10 87H38" stroke="currentColor" stroke-width="2"/></g></g><text x="217.8" y="420.36" text-anchor="middle" fill="#E7E0D0" font-size="18" font-family="sans-serif">ANALYSIS ONE</text><g transform="translate(441.66 104.16) scale(3.1668 2.8116)" color="#A17D45"><g transform=""><rect x="2" y="2" width="96" height="96" fill="none" stroke="currentColor" stroke-width="2" stroke-dasharray="7 5"/><path d="M34 51H66" stroke="currentColor" stroke-width="2"/></g></g><text x="600" y="420.36" text-anchor="middle" fill="#E7E0D0" font-size="18" font-family="sans-serif">OWNER AUTHORIZATION ABSENT</text><g transform="translate(829.32 104.16) scale(3.0576 2.8116)" color="#5E737B"><g transform=""><rect x="1" y="1" width="98" height="98" fill="#202326" stroke="currentColor" stroke-width="2"/><path d="M1 20H99M9 10H42M62 10H90M10 34H87M10 45H73M10 56H82M10 76H57M10 87H38" stroke="currentColor" stroke-width="2"/></g></g><text x="982.2" y="420.36" text-anchor="middle" fill="#E7E0D0" font-size="18" font-family="sans-serif">ANALYSIS TWO</text><rect x="3" y="3" width="1194" height="794" fill="none" stroke="#5E737B" stroke-width="4"/></svg>

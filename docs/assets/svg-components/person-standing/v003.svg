@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
+<defs>
+<linearGradient id="tone" x1="0" y1="0" x2="1" y2="1"><stop stop-color="currentColor" /><stop offset="1" stop-color="#101214" stop-opacity=".65" /></linearGradient>
+</defs><circle cx="50" cy="14" r="12" fill="url(#tone)" /><path d="M35 30H65L75 65H63L61 98H51L49 70L47 98H36L36 65H24Z" fill="url(#tone)" /><path d="M36 32L43 35 41 64 37 94H40L45 65 45 33Z" fill="#101214" opacity=".35" /><path d="M49 33V60M58 69L58 92" fill="none" stroke="#E7E0D0" stroke-width="1" opacity=".4" />
+</svg>

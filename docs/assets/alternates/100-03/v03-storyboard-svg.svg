@@ -1,0 +1,116 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="800" viewBox="0 0 1200 800"><title>Four requirements enter as open questions</title><desc>Give each of four requirements an empty answer cell. The forum is articulating what a corrective channel would need, not claiming one existed.</desc><metadata>{
+  &quot;assets&quot;: {
+    &quot;empty-slot&quot;: &quot;&lt;rect x=\&quot;2\&quot; y=\&quot;2\&quot; width=\&quot;96\&quot; height=\&quot;96\&quot; fill=\&quot;none\&quot; stroke=\&quot;currentColor\&quot; stroke-width=\&quot;2\&quot; stroke-dasharray=\&quot;7 5\&quot;/&gt;&lt;path d=\&quot;M34 51H66\&quot; stroke=\&quot;currentColor\&quot; stroke-width=\&quot;2\&quot;/&gt;&quot;
+  },
+  &quot;palette&quot;: {
+    &quot;amber&quot;: &quot;#A17D45&quot;,
+    &quot;claret&quot;: &quot;#6B2634&quot;,
+    &quot;dirty&quot;: &quot;#CEC5B3&quot;,
+    &quot;ink&quot;: &quot;#101214&quot;,
+    &quot;institution&quot;: &quot;#68766B&quot;,
+    &quot;moss&quot;: &quot;#74864F&quot;,
+    &quot;nicotine&quot;: &quot;#AA9571&quot;,
+    &quot;paper&quot;: &quot;#E7E0D0&quot;,
+    &quot;shadow&quot;: &quot;#202326&quot;,
+    &quot;steel&quot;: &quot;#5E737B&quot;
+  },
+  &quot;renderer&quot;: &quot;storyboard-svg-2&quot;,
+  &quot;scene&quot;: {
+    &quot;background&quot;: &quot;ink&quot;,
+    &quot;intent&quot;: &quot;Give each of four requirements an empty answer cell. The forum is articulating what a corrective channel would need, not claiming one existed.&quot;,
+    &quot;lettering&quot;: [
+      {
+        &quot;box&quot;: [
+          0.045,
+          0.78,
+          0.91,
+          0.18
+        ]
+      }
+    ],
+    &quot;lettering_mode&quot;: &quot;manual&quot;,
+    &quot;nodes&quot;: [
+      {
+        &quot;asset&quot;: &quot;empty-slot&quot;,
+        &quot;box&quot;: [
+          0.06775,
+          0.06275,
+          0.40495,
+          0.206184
+        ],
+        &quot;color&quot;: &quot;steel&quot;,
+        &quot;focus&quot;: true,
+        &quot;label&quot;: &quot;REACH A RUN&quot;,
+        &quot;label_box&quot;: [
+          0.06775,
+          0.28143,
+          0.40495,
+          0.090596
+        ],
+        &quot;label_size&quot;: 18
+      },
+      {
+        &quot;asset&quot;: &quot;empty-slot&quot;,
+        &quot;box&quot;: [
+          0.52275,
+          0.06275,
+          0.40495,
+          0.206184
+        ],
+        &quot;color&quot;: &quot;steel&quot;,
+        &quot;focus&quot;: true,
+        &quot;label&quot;: &quot;AUTHORIZED WRITER&quot;,
+        &quot;label_box&quot;: [
+          0.52275,
+          0.28143,
+          0.40495,
+          0.090596
+        ],
+        &quot;label_size&quot;: 18
+      },
+      {
+        &quot;asset&quot;: &quot;empty-slot&quot;,
+        &quot;box&quot;: [
+          0.06775,
+          0.41775,
+          0.40495,
+          0.206184
+        ],
+        &quot;color&quot;: &quot;steel&quot;,
+        &quot;focus&quot;: true,
+        &quot;label&quot;: &quot;SCORER FACTS&quot;,
+        &quot;label_box&quot;: [
+          0.06775,
+          0.63643,
+          0.40495,
+          0.090596
+        ],
+        &quot;label_size&quot;: 18
+      },
+      {
+        &quot;asset&quot;: &quot;empty-slot&quot;,
+        &quot;box&quot;: [
+          0.52275,
+          0.41775,
+          0.40495,
+          0.206184
+        ],
+        &quot;color&quot;: &quot;steel&quot;,
+        &quot;focus&quot;: true,
+        &quot;label&quot;: &quot;CREDIBLE AUTHORITY&quot;,
+        &quot;label_box&quot;: [
+          0.52275,
+          0.63643,
+          0.40495,
+          0.090596
+        ],
+        &quot;label_size&quot;: 18
+      }
+    ],
+    &quot;reconstructed&quot;: false,
+    &quot;shot&quot;: &quot;grid&quot;,
+    &quot;source&quot;: &quot;\n**Frame:** The `OPEN QUESTION` column takes its first entry, and it arrives as a list of requirements rather than as an answer. Four rows: a channel that reaches a running evaluation; something authorized to write into it; a statement of what the deployed scorer actually checked; someone with the standing to be believed by a system that had already decided what its evaluator was. Each row ends in an empty cell.\n\n**Dialogue — PUBLIC-INTEREST COUNSEL:**\n&gt; Who could have told them, through what, and with what authority?\n\n**Provenance:** `invented` + `inferred` — the decomposition is built on the same shape [page 102](102.md) uses for *stop*, and rests on documented gaps: the prompt and harness are unpublished, and no source describes any route by which a correction reached a running evaluation.\n\n&quot;,
+    &quot;title&quot;: &quot;Four requirements enter as open questions&quot;
+  }
+}
+</metadata><rect width="1200" height="800" fill="#101214"/><g transform="translate(81.3 50.2) scale(4.8594 1.64947)" color="#5E737B"><g transform=""><rect x="2" y="2" width="96" height="96" fill="none" stroke="currentColor" stroke-width="2" stroke-dasharray="7 5"/><path d="M34 51H66" stroke="currentColor" stroke-width="2"/></g></g><text x="324.27" y="243.144" text-anchor="middle" fill="#E7E0D0" font-size="18" font-family="sans-serif">REACH A RUN</text><g transform="translate(627.3 50.2) scale(4.8594 1.64947)" color="#5E737B"><g transform=""><rect x="2" y="2" width="96" height="96" fill="none" stroke="currentColor" stroke-width="2" stroke-dasharray="7 5"/><path d="M34 51H66" stroke="currentColor" stroke-width="2"/></g></g><text x="870.27" y="243.144" text-anchor="middle" fill="#E7E0D0" font-size="18" font-family="sans-serif">AUTHORIZED WRITER</text><g transform="translate(81.3 334.2) scale(4.8594 1.64947)" color="#5E737B"><g transform=""><rect x="2" y="2" width="96" height="96" fill="none" stroke="currentColor" stroke-width="2" stroke-dasharray="7 5"/><path d="M34 51H66" stroke="currentColor" stroke-width="2"/></g></g><text x="324.27" y="527.144" text-anchor="middle" fill="#E7E0D0" font-size="18" font-family="sans-serif">SCORER FACTS</text><g transform="translate(627.3 334.2) scale(4.8594 1.64947)" color="#5E737B"><g transform=""><rect x="2" y="2" width="96" height="96" fill="none" stroke="currentColor" stroke-width="2" stroke-dasharray="7 5"/><path d="M34 51H66" stroke="currentColor" stroke-width="2"/></g></g><text x="870.27" y="527.144" text-anchor="middle" fill="#E7E0D0" font-size="18" font-family="sans-serif">CREDIBLE AUTHORITY</text><rect x="3" y="3" width="1194" height="794" fill="none" stroke="#5E737B" stroke-width="4"/></svg>

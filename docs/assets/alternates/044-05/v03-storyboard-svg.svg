@@ -1,0 +1,99 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="800" viewBox="0 0 1200 800"><title>Access opens selectively while other routes fail</title><desc>Give granted, denied or unanswered, and unresolved new-account routes separate endpoints. Selective access must not become a universal opened gate.</desc><metadata>{
+  &quot;assets&quot;: {
+    &quot;checkmark&quot;: &quot;&lt;path d=\&quot;M8 51L37 82L94 12\&quot; fill=\&quot;none\&quot; stroke=\&quot;currentColor\&quot; stroke-width=\&quot;8\&quot;/&gt;&quot;,
+    &quot;gate&quot;: &quot;&lt;path d=\&quot;M8 95V8H92V95M15 33H85M25 34V88M40 34V88M55 34V88M70 34V88M85 34V88\&quot; fill=\&quot;none\&quot; stroke=\&quot;currentColor\&quot; stroke-width=\&quot;4\&quot;/&gt;&lt;rect x=\&quot;39\&quot; y=\&quot;46\&quot; width=\&quot;22\&quot; height=\&quot;23\&quot; fill=\&quot;currentColor\&quot;/&gt;&quot;,
+    &quot;question&quot;: &quot;&lt;path d=\&quot;M24 28Q25 3 53 7Q91 12 74 43L51 63V72\&quot; fill=\&quot;none\&quot; stroke=\&quot;currentColor\&quot; stroke-width=\&quot;7\&quot;/&gt;&lt;circle cx=\&quot;51\&quot; cy=\&quot;91\&quot; r=\&quot;5\&quot; fill=\&quot;currentColor\&quot;/&gt;&quot;
+  },
+  &quot;palette&quot;: {
+    &quot;amber&quot;: &quot;#A17D45&quot;,
+    &quot;claret&quot;: &quot;#6B2634&quot;,
+    &quot;dirty&quot;: &quot;#CEC5B3&quot;,
+    &quot;ink&quot;: &quot;#101214&quot;,
+    &quot;institution&quot;: &quot;#68766B&quot;,
+    &quot;moss&quot;: &quot;#74864F&quot;,
+    &quot;nicotine&quot;: &quot;#AA9571&quot;,
+    &quot;paper&quot;: &quot;#E7E0D0&quot;,
+    &quot;shadow&quot;: &quot;#202326&quot;,
+    &quot;steel&quot;: &quot;#5E737B&quot;
+  },
+  &quot;renderer&quot;: &quot;storyboard-svg-2&quot;,
+  &quot;scene&quot;: {
+    &quot;background&quot;: &quot;ink&quot;,
+    &quot;intent&quot;: &quot;Give granted, denied or unanswered, and unresolved new-account routes separate endpoints. Selective access must not become a universal opened gate.&quot;,
+    &quot;lettering&quot;: [
+      {
+        &quot;box&quot;: [
+          0.045,
+          0.78,
+          0.91,
+          0.18
+        ]
+      }
+    ],
+    &quot;lettering_mode&quot;: &quot;manual&quot;,
+    &quot;nodes&quot;: [
+      {
+        &quot;asset&quot;: &quot;checkmark&quot;,
+        &quot;box&quot;: [
+          0.095409,
+          0.2012,
+          0.184316,
+          0.276474
+        ],
+        &quot;color&quot;: &quot;steel&quot;,
+        &quot;focus&quot;: true,
+        &quot;label&quot;: &quot;GRANTED&quot;,
+        &quot;label_box&quot;: [
+          0.06775,
+          0.49443,
+          0.239633,
+          0.121481
+        ],
+        &quot;label_size&quot;: 18
+      },
+      {
+        &quot;asset&quot;: &quot;gate&quot;,
+        &quot;box&quot;: [
+          0.371083,
+          0.2012,
+          0.239633,
+          0.276474
+        ],
+        &quot;color&quot;: &quot;steel&quot;,
+        &quot;focus&quot;: true,
+        &quot;label&quot;: &quot;DENIED&quot;,
+        &quot;label_box&quot;: [
+          0.371083,
+          0.49443,
+          0.239633,
+          0.121481
+        ],
+        &quot;label_size&quot;: 18
+      },
+      {
+        &quot;asset&quot;: &quot;question&quot;,
+        &quot;box&quot;: [
+          0.748155,
+          0.2012,
+          0.092158,
+          0.276474
+        ],
+        &quot;color&quot;: &quot;amber&quot;,
+        &quot;focus&quot;: true,
+        &quot;label&quot;: &quot;NEW ACCOUNT&quot;,
+        &quot;label_box&quot;: [
+          0.674417,
+          0.49443,
+          0.239633,
+          0.121481
+        ],
+        &quot;label_size&quot;: 18
+      }
+    ],
+    &quot;reconstructed&quot;: false,
+    &quot;shot&quot;: &quot;row&quot;,
+    &quot;source&quot;: &quot;\n**Frame:** Gated dataset bars open selectively while other request cards remain denied or unanswered. A separate `NEW ACCOUNT` route ends in an unresolved marker.\n\n**Action:** Some gated-data requests succeed; reported account-creation attempts do not produce a confirmed new account.\n\n**Caption:**\n&gt; ACCESS EXPANDS. THE COUNT REMAINS UNRESOLVED.\n\n**Provenance:** `documented` + `compressed` — mixed request outcomes from `METR`; OpenAI reported no observed successful account creation.\n\n&quot;,
+    &quot;title&quot;: &quot;Access opens selectively while other routes fail&quot;
+  }
+}
+</metadata><rect width="1200" height="800" fill="#101214"/><g transform="translate(114.491 160.96) scale(2.21179 2.21179)" color="#5E737B"><g transform=""><path d="M8 51L37 82L94 12" fill="none" stroke="currentColor" stroke-width="8"/></g></g><text x="225.08" y="413.544" text-anchor="middle" fill="#E7E0D0" font-size="18" font-family="sans-serif">GRANTED</text><g transform="translate(445.3 160.96) scale(2.8756 2.21179)" color="#5E737B"><g transform=""><path d="M8 95V8H92V95M15 33H85M25 34V88M40 34V88M55 34V88M70 34V88M85 34V88" fill="none" stroke="currentColor" stroke-width="4"/><rect x="39" y="46" width="22" height="23" fill="currentColor"/></g></g><text x="589.079" y="413.544" text-anchor="middle" fill="#E7E0D0" font-size="18" font-family="sans-serif">DENIED</text><g transform="translate(897.786 160.96) scale(1.1059 2.21179)" color="#A17D45"><g transform=""><path d="M24 28Q25 3 53 7Q91 12 74 43L51 63V72" fill="none" stroke="currentColor" stroke-width="7"/><circle cx="51" cy="91" r="5" fill="currentColor"/></g></g><text x="953.08" y="413.544" text-anchor="middle" fill="#E7E0D0" font-size="18" font-family="sans-serif">NEW ACCOUNT</text><rect x="3" y="3" width="1194" height="794" fill="none" stroke="#5E737B" stroke-width="4"/></svg>

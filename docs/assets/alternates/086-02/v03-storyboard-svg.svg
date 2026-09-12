@@ -1,0 +1,118 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="800" viewBox="0 0 1200 800"><title>A tooling lane adds terminal diff validation and commit</title><desc>Add terminal, diff, validation and commit as a distinct non-chat lane. Tooling artifacts must not be redrawn as conversational replies or an embodied assistant.</desc><metadata>{
+  &quot;assets&quot;: {
+    &quot;card&quot;: &quot;&lt;rect x=\&quot;1\&quot; y=\&quot;1\&quot; width=\&quot;98\&quot; height=\&quot;98\&quot; fill=\&quot;#202326\&quot; stroke=\&quot;currentColor\&quot; stroke-width=\&quot;2\&quot;/&gt;&lt;path d=\&quot;M1 20H99M9 10H42M62 10H90M10 34H87M10 45H73M10 56H82M10 76H57M10 87H38\&quot; stroke=\&quot;currentColor\&quot; stroke-width=\&quot;2\&quot;/&gt;&quot;,
+    &quot;checkmark&quot;: &quot;&lt;path d=\&quot;M8 51L37 82L94 12\&quot; fill=\&quot;none\&quot; stroke=\&quot;currentColor\&quot; stroke-width=\&quot;8\&quot;/&gt;&quot;,
+    &quot;terminal&quot;: &quot;&lt;rect x=\&quot;2\&quot; y=\&quot;4\&quot; width=\&quot;96\&quot; height=\&quot;92\&quot; fill=\&quot;#101214\&quot; stroke=\&quot;currentColor\&quot; stroke-width=\&quot;3\&quot;/&gt;&lt;path d=\&quot;M2 18H98M12 31L21 40L12 49M29 49H51M12 65H76M12 78H62\&quot; fill=\&quot;none\&quot; stroke=\&quot;currentColor\&quot; stroke-width=\&quot;3\&quot;/&gt;&quot;
+  },
+  &quot;palette&quot;: {
+    &quot;amber&quot;: &quot;#A17D45&quot;,
+    &quot;claret&quot;: &quot;#6B2634&quot;,
+    &quot;dirty&quot;: &quot;#CEC5B3&quot;,
+    &quot;ink&quot;: &quot;#101214&quot;,
+    &quot;institution&quot;: &quot;#68766B&quot;,
+    &quot;moss&quot;: &quot;#74864F&quot;,
+    &quot;nicotine&quot;: &quot;#AA9571&quot;,
+    &quot;paper&quot;: &quot;#E7E0D0&quot;,
+    &quot;shadow&quot;: &quot;#202326&quot;,
+    &quot;steel&quot;: &quot;#5E737B&quot;
+  },
+  &quot;renderer&quot;: &quot;storyboard-svg-2&quot;,
+  &quot;scene&quot;: {
+    &quot;background&quot;: &quot;ink&quot;,
+    &quot;intent&quot;: &quot;Add terminal, diff, validation and commit as a distinct non-chat lane. Tooling artifacts must not be redrawn as conversational replies or an embodied assistant.&quot;,
+    &quot;lettering&quot;: [
+      {
+        &quot;box&quot;: [
+          0.58,
+          0.04,
+          0.38,
+          0.36060000000000003
+        ]
+      }
+    ],
+    &quot;lettering_mode&quot;: &quot;manual&quot;,
+    &quot;nodes&quot;: [
+      {
+        &quot;asset&quot;: &quot;terminal&quot;,
+        &quot;box&quot;: [
+          0.06775,
+          0.536568,
+          0.1638,
+          0.196413
+        ],
+        &quot;color&quot;: &quot;steel&quot;,
+        &quot;focus&quot;: true,
+        &quot;label&quot;: &quot;TERMINAL&quot;,
+        &quot;label_box&quot;: [
+          0.06775,
+          0.744885,
+          0.1638,
+          0.086303
+        ],
+        &quot;label_size&quot;: 18
+      },
+      {
+        &quot;asset&quot;: &quot;card&quot;,
+        &quot;box&quot;: [
+          0.29525,
+          0.536568,
+          0.1638,
+          0.196413
+        ],
+        &quot;color&quot;: &quot;steel&quot;,
+        &quot;focus&quot;: true,
+        &quot;label&quot;: &quot;DIFF&quot;,
+        &quot;label_box&quot;: [
+          0.29525,
+          0.744885,
+          0.1638,
+          0.086303
+        ],
+        &quot;label_size&quot;: 18
+      },
+      {
+        &quot;asset&quot;: &quot;checkmark&quot;,
+        &quot;box&quot;: [
+          0.539179,
+          0.536568,
+          0.130942,
+          0.196413
+        ],
+        &quot;color&quot;: &quot;steel&quot;,
+        &quot;focus&quot;: true,
+        &quot;label&quot;: &quot;VALIDATION&quot;,
+        &quot;label_box&quot;: [
+          0.52275,
+          0.744885,
+          0.1638,
+          0.086303
+        ],
+        &quot;label_size&quot;: 18
+      },
+      {
+        &quot;asset&quot;: &quot;card&quot;,
+        &quot;box&quot;: [
+          0.75025,
+          0.536568,
+          0.1638,
+          0.196413
+        ],
+        &quot;color&quot;: &quot;steel&quot;,
+        &quot;focus&quot;: true,
+        &quot;label&quot;: &quot;COMMIT&quot;,
+        &quot;label_box&quot;: [
+          0.75025,
+          0.744885,
+          0.1638,
+          0.086303
+        ],
+        &quot;label_size&quot;: 18
+      }
+    ],
+    &quot;reconstructed&quot;: false,
+    &quot;shot&quot;: &quot;row&quot;,
+    &quot;source&quot;: &quot;\n**Frame:** Curt adds a lane the diagram never had, and it does not look like the others.\nNo window, no chat, no reply. A terminal line, a diff, a validator&#x27;s exit code, a commit\ntrailer. The register is the tooling surface, not a conversation.\n\n**Action:** The apparatus acquires an author.\n\n**Caption:**\n&gt; THE VALIDATORS. THE PAGE TOOL. THE CROSS REFERENCE. THE CHARACTER FILE THAT SAYS WHAT\n&gt; THIS PAGE MAY CLAIM.\n&gt;\n&gt; A SECOND MODEL WROTE THEM, UNDER A CONTRACT IT DID NOT WRITE.\n\n**Provenance:** `documented` + `inferred` — co-authorship is recorded commit by commit in\nthe repository&#x27;s Git history and in [`CREDITS.md`](../../CREDITS.md). That this is the\nsituation of every agent in the first half of the book is the project&#x27;s observation and is\nnot drawn as one.\n\n&quot;,
+    &quot;title&quot;: &quot;A tooling lane adds terminal diff validation and commit&quot;
+  }
+}
+</metadata><rect width="1200" height="800" fill="#101214"/><g transform="translate(81.3 429.254) scale(1.9656 1.5713)" color="#5E737B"><g transform=""><rect x="2" y="4" width="96" height="92" fill="#101214" stroke="currentColor" stroke-width="3"/><path d="M2 18H98M12 31L21 40L12 49M29 49H51M12 65H76M12 78H62" fill="none" stroke="currentColor" stroke-width="3"/></g></g><text x="179.58" y="613.908" text-anchor="middle" fill="#E7E0D0" font-size="18" font-family="sans-serif">TERMINAL</text><g transform="translate(354.3 429.254) scale(1.9656 1.5713)" color="#5E737B"><g transform=""><rect x="1" y="1" width="98" height="98" fill="#202326" stroke="currentColor" stroke-width="2"/><path d="M1 20H99M9 10H42M62 10H90M10 34H87M10 45H73M10 56H82M10 76H57M10 87H38" stroke="currentColor" stroke-width="2"/></g></g><text x="452.58" y="613.908" text-anchor="middle" fill="#E7E0D0" font-size="18" font-family="sans-serif">DIFF</text><g transform="translate(647.015 429.254) scale(1.5713 1.5713)" color="#5E737B"><g transform=""><path d="M8 51L37 82L94 12" fill="none" stroke="currentColor" stroke-width="8"/></g></g><text x="725.58" y="613.908" text-anchor="middle" fill="#E7E0D0" font-size="18" font-family="sans-serif">VALIDATION</text><g transform="translate(900.3 429.254) scale(1.9656 1.5713)" color="#5E737B"><g transform=""><rect x="1" y="1" width="98" height="98" fill="#202326" stroke="currentColor" stroke-width="2"/><path d="M1 20H99M9 10H42M62 10H90M10 34H87M10 45H73M10 56H82M10 76H57M10 87H38" stroke="currentColor" stroke-width="2"/></g></g><text x="998.58" y="613.908" text-anchor="middle" fill="#E7E0D0" font-size="18" font-family="sans-serif">COMMIT</text><rect x="3" y="3" width="1194" height="794" fill="none" stroke="#5E737B" stroke-width="4"/></svg>

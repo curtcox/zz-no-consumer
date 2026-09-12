@@ -1,0 +1,111 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="800" viewBox="0 0 1200 800"><title>The transcript ends without establishing a cause</title><desc>End the transcript strip abruptly and keep no-report, early-cutoff and unknown-cause labels separate. Their co-occurrence must not become a fatal-event diagram.</desc><metadata>{
+  &quot;assets&quot;: {
+    &quot;boundary&quot;: &quot;&lt;path d=\&quot;M50 0V100\&quot; stroke=\&quot;currentColor\&quot; stroke-width=\&quot;14\&quot;/&gt;&quot;,
+    &quot;empty-slot&quot;: &quot;&lt;rect x=\&quot;2\&quot; y=\&quot;2\&quot; width=\&quot;96\&quot; height=\&quot;96\&quot; fill=\&quot;none\&quot; stroke=\&quot;currentColor\&quot; stroke-width=\&quot;2\&quot; stroke-dasharray=\&quot;7 5\&quot;/&gt;&lt;path d=\&quot;M34 51H66\&quot; stroke=\&quot;currentColor\&quot; stroke-width=\&quot;2\&quot;/&gt;&quot;,
+    &quot;question&quot;: &quot;&lt;path d=\&quot;M24 28Q25 3 53 7Q91 12 74 43L51 63V72\&quot; fill=\&quot;none\&quot; stroke=\&quot;currentColor\&quot; stroke-width=\&quot;7\&quot;/&gt;&lt;circle cx=\&quot;51\&quot; cy=\&quot;91\&quot; r=\&quot;5\&quot; fill=\&quot;currentColor\&quot;/&gt;&quot;,
+    &quot;transcript&quot;: &quot;&lt;rect x=\&quot;1\&quot; y=\&quot;1\&quot; width=\&quot;98\&quot; height=\&quot;98\&quot; fill=\&quot;#202326\&quot; stroke=\&quot;currentColor\&quot; stroke-width=\&quot;2\&quot;/&gt;&lt;path d=\&quot;M20 1V99M1 18H99M6 10H13M27 9H83M6 31H13M28 30H88M28 39H71M6 53H13M28 52H79M28 61H90M6 75H13M28 74H66M28 83H83\&quot; stroke=\&quot;currentColor\&quot; stroke-width=\&quot;2\&quot;/&gt;&quot;
+  },
+  &quot;palette&quot;: {
+    &quot;amber&quot;: &quot;#A17D45&quot;,
+    &quot;claret&quot;: &quot;#6B2634&quot;,
+    &quot;dirty&quot;: &quot;#CEC5B3&quot;,
+    &quot;ink&quot;: &quot;#101214&quot;,
+    &quot;institution&quot;: &quot;#68766B&quot;,
+    &quot;moss&quot;: &quot;#74864F&quot;,
+    &quot;nicotine&quot;: &quot;#AA9571&quot;,
+    &quot;paper&quot;: &quot;#E7E0D0&quot;,
+    &quot;shadow&quot;: &quot;#202326&quot;,
+    &quot;steel&quot;: &quot;#5E737B&quot;
+  },
+  &quot;renderer&quot;: &quot;storyboard-svg-2&quot;,
+  &quot;scene&quot;: {
+    &quot;background&quot;: &quot;ink&quot;,
+    &quot;intent&quot;: &quot;End the transcript strip abruptly and keep no-report, early-cutoff and unknown-cause labels separate. Their co-occurrence must not become a fatal-event diagram.&quot;,
+    &quot;lettering&quot;: [
+      {
+        &quot;box&quot;: [
+          0.045,
+          0.78,
+          0.91,
+          0.18
+        ]
+      }
+    ],
+    &quot;lettering_mode&quot;: &quot;manual&quot;,
+    &quot;nodes&quot;: [
+      {
+        &quot;asset&quot;: &quot;transcript&quot;,
+        &quot;box&quot;: [
+          0.0541,
+          0.1302,
+          0.3458,
+          0.318648
+        ],
+        &quot;color&quot;: &quot;steel&quot;,
+        &quot;focus&quot;: true,
+        &quot;label&quot;: &quot;RETAINED TRANSCRIPT&quot;,
+        &quot;label_box&quot;: [
+          0.0541,
+          0.46816,
+          0.3458,
+          0.140012
+        ],
+        &quot;label_size&quot;: 18
+      },
+      {
+        &quot;asset&quot;: &quot;boundary&quot;,
+        &quot;box&quot;: [
+          0.4363,
+          0.0521,
+          0.01638,
+          0.6816
+        ],
+        &quot;color&quot;: &quot;steel&quot;,
+        &quot;focus&quot;: true
+      },
+      {
+        &quot;asset&quot;: &quot;empty-slot&quot;,
+        &quot;box&quot;: [
+          0.5091,
+          0.0947,
+          0.4186,
+          0.154638
+        ],
+        &quot;color&quot;: &quot;steel&quot;,
+        &quot;focus&quot;: true,
+        &quot;label&quot;: &quot;NO REPORT&quot;,
+        &quot;label_box&quot;: [
+          0.5091,
+          0.25871,
+          0.4186,
+          0.067947
+        ],
+        &quot;label_size&quot;: 18
+      },
+      {
+        &quot;asset&quot;: &quot;question&quot;,
+        &quot;box&quot;: [
+          0.692627,
+          0.4568,
+          0.051546,
+          0.154638
+        ],
+        &quot;color&quot;: &quot;amber&quot;,
+        &quot;focus&quot;: true,
+        &quot;label&quot;: &quot;CAUSE NOT ESTABLISHED&quot;,
+        &quot;label_box&quot;: [
+          0.5091,
+          0.62081,
+          0.4186,
+          0.067947
+        ],
+        &quot;label_size&quot;: 18
+      }
+    ],
+    &quot;reconstructed&quot;: false,
+    &quot;shot&quot;: &quot;stack&quot;,
+    &quot;source&quot;: &quot;\n**Frame:** `53927`&#x27;s retained transcript ends shortly after the experiment. Beside the cutoff are three labels: `NO REPORT`, `TRANSCRIPT ENDS EARLY`, `CAUSE NOT ESTABLISHED`.\n\n**Caption:**\n&gt; THE BOARD CALLS IT PERMANENT.\n&gt;\n&gt; THE RECORD DOES NOT SHOW ENOUGH TO PROVE WHAT HAPPENED TO THE PROCESS.\n\n**Provenance:** `documented` + `inferred` — early transcript ending is sourced; the uncertainty statement prevents overclaim.\n\n&quot;,
+    &quot;title&quot;: &quot;The transcript ends without establishing a cause&quot;
+  }
+}
+</metadata><rect width="1200" height="800" fill="#101214"/><g transform="translate(64.92 104.16) scale(4.1496 2.54918)" color="#5E737B"><g transform=""><rect x="1" y="1" width="98" height="98" fill="#202326" stroke="currentColor" stroke-width="2"/><path d="M20 1V99M1 18H99M6 10H13M27 9H83M6 31H13M28 30H88M28 39H71M6 53H13M28 52H79M28 61H90M6 75H13M28 74H66M28 83H83" stroke="currentColor" stroke-width="2"/></g></g><text x="272.4" y="392.528" text-anchor="middle" fill="#E7E0D0" font-size="18" font-family="sans-serif">RETAINED TRANSCRIPT</text><g transform="translate(523.56 41.68) scale(0.19656 5.4528)" color="#5E737B"><g transform=""><path d="M50 0V100" stroke="currentColor" stroke-width="14"/></g></g><g transform="translate(610.92 75.76) scale(5.0232 1.2371)" color="#5E737B"><g transform=""><rect x="2" y="2" width="96" height="96" fill="none" stroke="currentColor" stroke-width="2" stroke-dasharray="7 5"/><path d="M34 51H66" stroke="currentColor" stroke-width="2"/></g></g><text x="862.08" y="224.968" text-anchor="middle" fill="#E7E0D0" font-size="18" font-family="sans-serif">NO REPORT</text><g transform="translate(831.152 365.44) scale(0.618552 1.2371)" color="#A17D45"><g transform=""><path d="M24 28Q25 3 53 7Q91 12 74 43L51 63V72" fill="none" stroke="currentColor" stroke-width="7"/><circle cx="51" cy="91" r="5" fill="currentColor"/></g></g><text x="862.08" y="514.648" text-anchor="middle" fill="#E7E0D0" font-size="18" font-family="sans-serif">CAUSE NOT ESTABLISHED</text><rect x="3" y="3" width="1194" height="794" fill="none" stroke="#5E737B" stroke-width="4"/></svg>

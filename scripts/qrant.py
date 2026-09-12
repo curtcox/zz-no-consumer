@@ -81,6 +81,8 @@ def ant_shapes() -> list[tuple]:
     cannot drift away from the ant the pages draw.
     """
     markup = json.loads(LIBRARY.read_text())['assets']['ant']
+    # Texture definitions are paint, not additional anatomy or QR coverage.
+    markup = re.sub(r'<defs\b[^>]*>.*?</defs>', '', markup, flags=re.S)
     width = float(re.search(r'stroke-width="([\d.]+)"', markup).group(1))
     shapes = []
     for cx, cy, rx, ry in re.findall(

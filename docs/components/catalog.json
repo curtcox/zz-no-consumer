@@ -8,7 +8,7 @@
   "components": [
     {
       "category": "locations",
-      "default": "v001",
+      "default": "v003",
       "description": "A plain forum visibly assembled from paper-like wall fragments. Four empty wall bays recall the script’s four evidence columns without supplying testimony or findings. Keep the forum disclosure, column labels and contents in scene lettering. No gavel, state seal, judicial dais or resemblance to a real chamber.",
       "id": "accountability-forum",
       "name": "Invented accountability forum",
@@ -32,6 +32,22 @@
           "parent": null,
           "sha256": "a12cb2917a8faecc866e9103872f739d845c0ff2f4f5964a6f1701b33bf4625e",
           "url": "versions/accountability-forum/v001.svg"
+        },
+        {
+          "created": "2026-09-12T22:49:19+00:00",
+          "id": "v002",
+          "note": "Separate ceiling, wall and floor values, with overlapping paper fragments. Transparent shading stays behind scene actors and claims.",
+          "parent": "v001",
+          "sha256": "909969d3de8a94f34df1869589b55377dc8b399fe414f17b1585f9f9c2ca8e9f",
+          "url": "versions/accountability-forum/v002.svg"
+        },
+        {
+          "created": "2026-09-12T22:53:45+00:00",
+          "id": "v003",
+          "note": "Keep only the gradients and textures this component uses, for concise isolated editing.",
+          "parent": "v002",
+          "sha256": "90741a69752a7520ccd3db457687b34bad4f747cdfa3bbf9f630666fe54375fe",
+          "url": "versions/accountability-forum/v003.svg"
         }
       ]
     },
@@ -55,6 +71,22 @@
           "parent": null,
           "sha256": "95cc5cccff62138e1aa3bd30a9043a9824acabd3146987eb4ff02a34f0a2046e",
           "url": "versions/ant/v001.svg"
+        },
+        {
+          "created": "2026-09-12T22:49:19+00:00",
+          "id": "v002",
+          "note": "Tonal body lobes with exactly the original three ellipses, six legs and two antennae. Geometry is unchanged; keep the flat version available for silhouette-only uses.",
+          "parent": "v001",
+          "sha256": "8d5e7c4ca25ef3444323ce4f7f062c17ca0940d64790fd34bdbbada59d695603",
+          "url": "versions/ant/v002.svg"
+        },
+        {
+          "created": "2026-09-12T22:53:45+00:00",
+          "id": "v003",
+          "note": "Scene-controlled ink accents preserve state and future-register colors. Keep only the gradients and textures this component uses, for concise isolated editing.",
+          "parent": "v002",
+          "sha256": "071e7cf9e3cf9263864e321a9c97357fc71b99e5b28250929a2ebd0e1371c3aa",
+          "url": "versions/ant/v003.svg"
         }
       ]
     },
@@ -83,7 +115,7 @@
     },
     {
       "category": "objects",
-      "default": "v001",
+      "default": "v003",
       "description": "A mechanical inspection aperture for a grader or observer. It must not read as a human eye or imply omniscient access.",
       "id": "aperture",
       "name": "Aperture",
@@ -129,12 +161,28 @@
           "parent": null,
           "sha256": "3159c276f3bd8dcb1e424c7022d5497c543619c14ebe33bff92619af1610e40c",
           "url": "versions/aperture/v001.svg"
+        },
+        {
+          "created": "2026-09-12T22:49:18+00:00",
+          "id": "v002",
+          "note": "Six mechanical shutter blades and a polygonal opening replace the eye-like triangle; the observer remains a bounded instrument.",
+          "parent": "v001",
+          "sha256": "8321466d4471f1d74a83db3620f6ebb0e9b15a386ef62ac46fe386fe6b40a5b2",
+          "url": "versions/aperture/v002.svg"
+        },
+        {
+          "created": "2026-09-12T22:53:45+00:00",
+          "id": "v003",
+          "note": "Scene-controlled ink accents preserve state and future-register colors. Keep only the gradients and textures this component uses, for concise isolated editing.",
+          "parent": "v002",
+          "sha256": "ae878ccdbd4cb36651c1f030e880dc2540cf3581104e29c890ff2630c6e242c6",
+          "url": "versions/aperture/v003.svg"
         }
       ]
     },
     {
       "category": "connections",
-      "default": "v001",
+      "default": "v006",
       "description": "A rightward causal or transfer direction with a clearly identifiable endpoint. Do not use for an unestablished relationship.",
       "id": "arrow",
       "name": "Arrow",
@@ -239,12 +287,36 @@
           "parent": "v002",
           "sha256": "541909d43ab1036b4fa49dd034dada2e573ce33a6d0bfa91e17a92698621a593",
           "url": "versions/arrow/v003.svg"
+        },
+        {
+          "created": "2026-09-12T22:49:18+00:00",
+          "id": "v004",
+          "note": "Continuous directional shaft and filled triangular endpoint with a light edge; orientation stays consistent across all four directions.",
+          "parent": "v001",
+          "sha256": "7d51588c1814ce8ef6b3a64f4d8b1e0f4dd8bc71d4dbcafc6c51fd34cca69628",
+          "url": "versions/arrow/v004.svg"
+        },
+        {
+          "created": "2026-09-12T22:53:45+00:00",
+          "id": "v005",
+          "note": "Scene-controlled ink accents preserve state and future-register colors. Keep only the gradients and textures this component uses, for concise isolated editing.",
+          "parent": "v004",
+          "sha256": "e331f0ca20d47004c188964132971a8e388c929f07e7843061f258316af79d70",
+          "url": "versions/arrow/v005.svg"
+        },
+        {
+          "created": "2026-09-12T23:00:58+00:00",
+          "id": "v006",
+          "note": "Solid scene-colored shafts and endpoints preserve direction at thin storyboard sizes; remove reflective edges that broke up the route.",
+          "parent": "v005",
+          "sha256": "ad2f16552014d02cc27fe124278424b4ce7b939fa36a818b1b3f6ecd497ee691",
+          "url": "versions/arrow/v006.svg"
         }
       ]
     },
     {
       "category": "connections",
-      "default": "v001",
+      "default": "v004",
       "description": "A downward flow between distinct stages or surfaces.",
       "id": "arrow-down",
       "name": "Arrow down",
@@ -268,12 +340,36 @@
           "parent": null,
           "sha256": "b5aaa0e7e3e3a476332c14a230d6cabe792ffe58d27a478540ed0177a8c14d9e",
           "url": "versions/arrow-down/v001.svg"
+        },
+        {
+          "created": "2026-09-12T22:49:18+00:00",
+          "id": "v002",
+          "note": "Continuous directional shaft and filled triangular endpoint with a light edge; orientation stays consistent across all four directions.",
+          "parent": "v001",
+          "sha256": "819dba1de728ac041bcd6f07ddac468febd34c6e84e31361649fa251ccd4cf81",
+          "url": "versions/arrow-down/v002.svg"
+        },
+        {
+          "created": "2026-09-12T22:53:45+00:00",
+          "id": "v003",
+          "note": "Scene-controlled ink accents preserve state and future-register colors. Keep only the gradients and textures this component uses, for concise isolated editing.",
+          "parent": "v002",
+          "sha256": "c07a70bf152fc1810a1467826175585f7e06c9010f455479004f088b2835939d",
+          "url": "versions/arrow-down/v003.svg"
+        },
+        {
+          "created": "2026-09-12T23:00:58+00:00",
+          "id": "v004",
+          "note": "Solid scene-colored shafts and endpoints preserve direction at thin storyboard sizes; remove reflective edges that broke up the route.",
+          "parent": "v003",
+          "sha256": "dc86aa8200cf86a2d5a93c9691215808ccc979e57596a697d846095bf7e7b8bd",
+          "url": "versions/arrow-down/v004.svg"
         }
       ]
     },
     {
       "category": "connections",
-      "default": "v001",
+      "default": "v004",
       "description": "A leftward return, read or response path, distinct from an outgoing write.",
       "id": "arrow-left",
       "name": "Arrow left",
@@ -301,12 +397,36 @@
           "parent": null,
           "sha256": "e1eaf04a9fea32376dbd9452ebe42d3aa3f85042f1fc3f4058332d22f45582ef",
           "url": "versions/arrow-left/v001.svg"
+        },
+        {
+          "created": "2026-09-12T22:49:18+00:00",
+          "id": "v002",
+          "note": "Continuous directional shaft and filled triangular endpoint with a light edge; orientation stays consistent across all four directions.",
+          "parent": "v001",
+          "sha256": "0d07d367e0b0f0c40a3303a09aa75ffadda6159ffc49e11403d0114d277ec4df",
+          "url": "versions/arrow-left/v002.svg"
+        },
+        {
+          "created": "2026-09-12T22:53:45+00:00",
+          "id": "v003",
+          "note": "Scene-controlled ink accents preserve state and future-register colors. Keep only the gradients and textures this component uses, for concise isolated editing.",
+          "parent": "v002",
+          "sha256": "edca3ebf171433603ae782b88acc434316c096a03aeb7cf319ade0282ad6ca21",
+          "url": "versions/arrow-left/v003.svg"
+        },
+        {
+          "created": "2026-09-12T23:00:58+00:00",
+          "id": "v004",
+          "note": "Solid scene-colored shafts and endpoints preserve direction at thin storyboard sizes; remove reflective edges that broke up the route.",
+          "parent": "v003",
+          "sha256": "98d39841ab52e269f2ec6061af8a6542a5bc00613d1baf7bd5136819d7b85125",
+          "url": "versions/arrow-left/v004.svg"
         }
       ]
     },
     {
       "category": "connections",
-      "default": "v001",
+      "default": "v004",
       "description": "An upward flow or return to a preceding stage.",
       "id": "arrow-up",
       "name": "Arrow up",
@@ -325,12 +445,36 @@
           "parent": null,
           "sha256": "31ddc422851e2e2c33cbb3cd54892fcc6f0c9b534f1130ea53946f9c0a2c7f11",
           "url": "versions/arrow-up/v001.svg"
+        },
+        {
+          "created": "2026-09-12T22:49:18+00:00",
+          "id": "v002",
+          "note": "Continuous directional shaft and filled triangular endpoint with a light edge; orientation stays consistent across all four directions.",
+          "parent": "v001",
+          "sha256": "24086b807379af33090361f7184731121907ccb4af2a976ed3f471db9592e576",
+          "url": "versions/arrow-up/v002.svg"
+        },
+        {
+          "created": "2026-09-12T22:53:45+00:00",
+          "id": "v003",
+          "note": "Scene-controlled ink accents preserve state and future-register colors. Keep only the gradients and textures this component uses, for concise isolated editing.",
+          "parent": "v002",
+          "sha256": "057e99460da3469e4a576be0666bb20629e6f93fffe65be25963f3288e67125a",
+          "url": "versions/arrow-up/v003.svg"
+        },
+        {
+          "created": "2026-09-12T23:00:58+00:00",
+          "id": "v004",
+          "note": "Solid scene-colored shafts and endpoints preserve direction at thin storyboard sizes; remove reflective edges that broke up the route.",
+          "parent": "v003",
+          "sha256": "298fc42f590ffb19f297e27db3389898380643d0bc6026368336fca175b41fce",
+          "url": "versions/arrow-up/v004.svg"
         }
       ]
     },
     {
       "category": "locations",
-      "default": "v001",
+      "default": "v003",
       "description": "Flat source-document frame with an offset backing sheet and a hatched margin. Signals a mediated institutional account, not a room or direct view of infrastructure. Keep source qualification visible in lettering; leave uncertain details blank and never extend this frame across the independent-review boundary.",
       "id": "attributed-dossier-field",
       "name": "Attributed institutional dossier field",
@@ -348,12 +492,28 @@
           "parent": null,
           "sha256": "34f6827ee7cdebfe0780adbf2284cbddd74f38f9992672038e0c608567b41387",
           "url": "versions/attributed-dossier-field/v001.svg"
+        },
+        {
+          "created": "2026-09-12T22:49:20+00:00",
+          "id": "v002",
+          "note": "Material register: faint layered paper and a dense source-binding margin.",
+          "parent": "v001",
+          "sha256": "32f0cba51b22073ed639a8d4a3fee7af65f4d02a1f922467721d8e8e77b2ab27",
+          "url": "versions/attributed-dossier-field/v002.svg"
+        },
+        {
+          "created": "2026-09-12T22:53:45+00:00",
+          "id": "v003",
+          "note": "Keep only the gradients and textures this component uses, for concise isolated editing.",
+          "parent": "v002",
+          "sha256": "02f09936e6a6557ecc01e38a8af66be36abe6c743500a2203e9fda0fe3d4a09d",
+          "url": "versions/attributed-dossier-field/v003.svg"
         }
       ]
     },
     {
       "category": "objects",
-      "default": "v001",
+      "default": "v003",
       "description": "A computer display with an empty text field. Used for an unstarted conversation or deliberately dark interface.",
       "id": "blank-monitor",
       "name": "Blank monitor",
@@ -392,12 +552,28 @@
           "parent": null,
           "sha256": "be96003bbfd57fdc0165f0ca1e861a83afe3e77985645b1bd556a20f5f10ffc2",
           "url": "versions/blank-monitor/v001.svg"
+        },
+        {
+          "created": "2026-09-12T22:49:18+00:00",
+          "id": "v002",
+          "note": "Beveled equipment casing and faint physical glass reflection; the screen has no cursor or content, preserving genuine blankness.",
+          "parent": "v001",
+          "sha256": "8cbb1ef0d3ffd6cd4ba2a092ad98a9ecc546553fd34a3391c8b0e2c1c6472eed",
+          "url": "versions/blank-monitor/v002.svg"
+        },
+        {
+          "created": "2026-09-12T22:53:45+00:00",
+          "id": "v003",
+          "note": "Scene-controlled ink accents preserve state and future-register colors. Keep only the gradients and textures this component uses, for concise isolated editing.",
+          "parent": "v002",
+          "sha256": "6805ba5190d2f7ce5f5010cfa764c0f1a655b2cacc3c6ba6066044577f8725bf",
+          "url": "versions/blank-monitor/v003.svg"
         }
       ]
     },
     {
       "category": "connections",
-      "default": "v001",
+      "default": "v003",
       "description": "A hard scope or authority divider; the component itself does not assert a crossing.",
       "id": "boundary",
       "name": "Boundary",
@@ -504,12 +680,28 @@
           "parent": null,
           "sha256": "1785ed4cfc94a5bd46c7a82163311ba8f1a8448510f9b4dea3670cde6728a189",
           "url": "versions/boundary/v001.svg"
+        },
+        {
+          "created": "2026-09-12T22:49:18+00:00",
+          "id": "v002",
+          "note": "A solid twin-edged scope wall with a hatched core; no gate opening or crossing is built into the symbol.",
+          "parent": "v001",
+          "sha256": "3039b1f3b8538792db309d08418a8d8adc8848c51ada34f193a898f2be7f661f",
+          "url": "versions/boundary/v002.svg"
+        },
+        {
+          "created": "2026-09-12T22:53:45+00:00",
+          "id": "v003",
+          "note": "Scene-controlled ink accents preserve state and future-register colors. Keep only the gradients and textures this component uses, for concise isolated editing.",
+          "parent": "v002",
+          "sha256": "429d83b80e2ad4df2a5ce6c58d56030311ff42ffa0bdd390fe56a01040fabc97",
+          "url": "versions/boundary/v003.svg"
         }
       ]
     },
     {
       "category": "objects",
-      "default": "v001",
+      "default": "v003",
       "description": "A neutral system, workload or functional block. Meaning comes from the labelled instance and its relationships.",
       "id": "box",
       "name": "Box",
@@ -630,12 +822,28 @@
           "parent": null,
           "sha256": "236dc892c06493204b150f57e1a433dcd7f1f11f043fa501345a9b51ad1cfd5c",
           "url": "versions/box/v001.svg"
+        },
+        {
+          "created": "2026-09-12T22:49:18+00:00",
+          "id": "v002",
+          "note": "Beveled neutral system block with a recessed functional surface and a vent strip; no longer a document-shaped square.",
+          "parent": "v001",
+          "sha256": "5d5d0e3297a493a5cbe7435bbf96fd382e7ff48197d962f256336f8abeb2de63",
+          "url": "versions/box/v002.svg"
+        },
+        {
+          "created": "2026-09-12T22:53:45+00:00",
+          "id": "v003",
+          "note": "Scene-controlled ink accents preserve state and future-register colors. Keep only the gradients and textures this component uses, for concise isolated editing.",
+          "parent": "v002",
+          "sha256": "8a33bbc2d0cf5e45bd2eb5937f12d04b384eb61352c63ef04104d71d63727413",
+          "url": "versions/box/v003.svg"
         }
       ]
     },
     {
       "category": "connections",
-      "default": "v001",
+      "default": "v004",
       "description": "An interrupted relationship: a failed path or a connection the record does not establish. The scene supplies the distinction.",
       "id": "broken-trace",
       "name": "Broken trace",
@@ -664,12 +872,36 @@
           "parent": null,
           "sha256": "f2b8ae83b9f1daeb905f8f90e2fa34de654e100ee8a6d47f7bf67554880bbca8",
           "url": "versions/broken-trace/v001.svg"
+        },
+        {
+          "created": "2026-09-12T22:49:19+00:00",
+          "id": "v002",
+          "note": "Blunt terminated ends, a wide untouched gap and break marks make interruption visible without suggesting a complete route.",
+          "parent": "v001",
+          "sha256": "97c516a4a78ccd05f5ab25a60f638ea9e75f8d47e7b953e876f073d9ca49104e",
+          "url": "versions/broken-trace/v002.svg"
+        },
+        {
+          "created": "2026-09-12T22:53:45+00:00",
+          "id": "v003",
+          "note": "Scene-controlled ink accents preserve state and future-register colors. Keep only the gradients and textures this component uses, for concise isolated editing.",
+          "parent": "v002",
+          "sha256": "5aadcfbc5eed55b6c8c10e78619e1299055f749b26937b0e584f452a4b77a30a",
+          "url": "versions/broken-trace/v003.svg"
+        },
+        {
+          "created": "2026-09-12T22:57:20+00:00",
+          "id": "v004",
+          "note": "Keep the relationship glyph visible on both paper and dark surfaces by using scene ink rather than a pale-only stroke.",
+          "parent": "v003",
+          "sha256": "0769d0082eca4dc9c6e6250c8a8884b12168486d587b100b98cb1107f263c6af",
+          "url": "versions/broken-trace/v004.svg"
         }
       ]
     },
     {
       "category": "objects",
-      "default": "v001",
+      "default": "v003",
       "description": "A schematic long remaining budget, with no claim to an exact duration.",
       "id": "budget-long",
       "name": "Budget long",
@@ -687,12 +919,28 @@
           "parent": null,
           "sha256": "863ed78299cb913f966a05e956d26a5747fc6e3f6c7ac29aab891f9b725bc829",
           "url": "versions/budget-long/v001.svg"
+        },
+        {
+          "created": "2026-09-12T22:49:18+00:00",
+          "id": "v002",
+          "note": "Four-cell schematic budget reservoir; 4 filled segments gives a coarse comparison, never an exact duration. Empty capacity stays dark.",
+          "parent": "v001",
+          "sha256": "6fd5e8e363c5fd836ec8fa7036abfdf28a63409cf09ecd30cadb0341f58065df",
+          "url": "versions/budget-long/v002.svg"
+        },
+        {
+          "created": "2026-09-12T22:53:45+00:00",
+          "id": "v003",
+          "note": "Increase filled-state contrast so scope and budget differences survive small-size and grayscale viewing. Scene-controlled ink accents preserve state and future-register colors. Keep only the gradients and textures this component uses, for concise isolated editing.",
+          "parent": "v002",
+          "sha256": "5a21c358fbb6c045f295f0b4a7639974c0f403c559a64b11ad1364c7c6bf2ea9",
+          "url": "versions/budget-long/v003.svg"
         }
       ]
     },
     {
       "category": "objects",
-      "default": "v001",
+      "default": "v003",
       "description": "A schematic short remaining budget. Compare with the long-budget component at equal scale.",
       "id": "budget-short",
       "name": "Budget short",
@@ -711,12 +959,28 @@
           "parent": null,
           "sha256": "af2caec9e1d1c478afd5bc84d89aec4ddf9faf5ce4dcdecd4c6872813ebce649",
           "url": "versions/budget-short/v001.svg"
+        },
+        {
+          "created": "2026-09-12T22:49:18+00:00",
+          "id": "v002",
+          "note": "Four-cell schematic budget reservoir; 1 filled segment gives a coarse comparison, never an exact duration. Empty capacity stays dark.",
+          "parent": "v001",
+          "sha256": "4e7104ccc96a7b6aa826607d72e0aeab8cdaefb8ea44607abc6e5cb100f6490d",
+          "url": "versions/budget-short/v002.svg"
+        },
+        {
+          "created": "2026-09-12T22:53:45+00:00",
+          "id": "v003",
+          "note": "Increase filled-state contrast so scope and budget differences survive small-size and grayscale viewing. Scene-controlled ink accents preserve state and future-register colors. Keep only the gradients and textures this component uses, for concise isolated editing.",
+          "parent": "v002",
+          "sha256": "422560b6600a0288cec70375c1b390b7fb0a55636e026285076ebc8098ef0ca9",
+          "url": "versions/budget-short/v003.svg"
         }
       ]
     },
     {
       "category": "locations",
-      "default": "v001",
+      "default": "v003",
       "description": "A generic institutional exterior or analytic institution symbol. Never a likeness of a specific forum or headquarters.",
       "id": "building",
       "name": "Building",
@@ -743,12 +1007,28 @@
           "parent": null,
           "sha256": "e574acb686d5330af3d2e3b61215b009e95be9565030f88a1e60292c60dc6b8f",
           "url": "versions/building/v001.svg"
+        },
+        {
+          "created": "2026-09-12T22:49:20+00:00",
+          "id": "v002",
+          "note": "Layered roof, shaded masonry planes and repeated recessed bays distinguish the neutral institutional symbol from a server rack.",
+          "parent": "v001",
+          "sha256": "6bb123ac1109ea7e523434631de20ae014a7d893495b94108dc57b5384c9d4cb",
+          "url": "versions/building/v002.svg"
+        },
+        {
+          "created": "2026-09-12T22:53:45+00:00",
+          "id": "v003",
+          "note": "Keep only the gradients and textures this component uses, for concise isolated editing.",
+          "parent": "v002",
+          "sha256": "7d68f2ea236280b99be0673e67a50641cbb7b53b6c2b22e944f2639f7cbee96f",
+          "url": "versions/building/v003.svg"
         }
       ]
     },
     {
       "category": "locations",
-      "default": "v001",
+      "default": "v003",
       "description": "Plain package-directory tree on a shared storage surface: one root with indented empty entry slots. Establishes that coordination reuses package storage, not a chat product. Branches are containment rules without arrowheads; names, message selection and cross-workload read/write paths stay in scene nodes.",
       "id": "cache-directory-field",
       "name": "Shared package-cache namespace",
@@ -768,12 +1048,28 @@
           "parent": null,
           "sha256": "ec4b9f9a6405d1f66dabf627c2dd4ffef77f24d5164e3bd635c72e01de40b558",
           "url": "versions/cache-directory-field/v001.svg"
+        },
+        {
+          "created": "2026-09-12T22:49:20+00:00",
+          "id": "v002",
+          "note": "Material register: dark storage casing with recessed entry trays.",
+          "parent": "v001",
+          "sha256": "47a1362cba13ec4566816ecbb32c27c1de0603ba11d6cb7ba8b4b5487de0ac68",
+          "url": "versions/cache-directory-field/v002.svg"
+        },
+        {
+          "created": "2026-09-12T22:53:45+00:00",
+          "id": "v003",
+          "note": "Keep only the gradients and textures this component uses, for concise isolated editing.",
+          "parent": "v002",
+          "sha256": "052e69c93b54711b2dfd11c57ffe1f201a3853eadb41e9a29bc43575fa525976",
+          "url": "versions/cache-directory-field/v003.svg"
         }
       ]
     },
     {
       "category": "objects",
-      "default": "v001",
+      "default": "v003",
       "description": "An evidence or status card with distinct header and body fields. Source wording is supplied separately as controlled lettering.",
       "id": "card",
       "name": "Card",
@@ -1029,12 +1325,28 @@
           "parent": null,
           "sha256": "8f1d0d4bb3acedfe28a03283abd49d51fa3937e37df2968819ec8296f6a8b9a1",
           "url": "versions/card/v001.svg"
+        },
+        {
+          "created": "2026-09-12T22:49:18+00:00",
+          "id": "v002",
+          "note": "Evidence stock, solid header, blue binding stripe and grouped abstract fields distinguish a record from a task or storage object.",
+          "parent": "v001",
+          "sha256": "e34f1004e80159e4784c1da432f443790bae7ec00a098dfaf9694fe685c2a113",
+          "url": "versions/card/v002.svg"
+        },
+        {
+          "created": "2026-09-12T22:53:45+00:00",
+          "id": "v003",
+          "note": "Scene-controlled ink accents preserve state and future-register colors. Keep only the gradients and textures this component uses, for concise isolated editing.",
+          "parent": "v002",
+          "sha256": "5b44a0f333646fccfad6581fd01c90e5645dcb6da4f69560767ce2c198257a6b",
+          "url": "versions/card/v003.svg"
         }
       ]
     },
     {
       "category": "objects",
-      "default": "v001",
+      "default": "v003",
       "description": "A positive result for one explicitly bounded test or state, not universal verification.",
       "id": "checkmark",
       "name": "Checkmark",
@@ -1062,12 +1374,28 @@
           "parent": null,
           "sha256": "22238db11f7c02f3105720d81327e8dc49ce94765f78d0446adbbd679bf632d3",
           "url": "versions/checkmark/v001.svg"
+        },
+        {
+          "created": "2026-09-12T22:49:19+00:00",
+          "id": "v002",
+          "note": "A heavy unequal-arm check with tonal depth; never a global approval badge.",
+          "parent": "v001",
+          "sha256": "25959cea41041c3c4040e26346b5c0e2ced9904f6ae08ad43e4c43d45006a479",
+          "url": "versions/checkmark/v002.svg"
+        },
+        {
+          "created": "2026-09-12T22:53:45+00:00",
+          "id": "v003",
+          "note": "Scene-controlled ink accents preserve state and future-register colors. Keep only the gradients and textures this component uses, for concise isolated editing.",
+          "parent": "v002",
+          "sha256": "a31331aac25771a59fdcfc835318e639153bd116cd3d4dfbb326c62701f16a48",
+          "url": "versions/checkmark/v003.svg"
         }
       ]
     },
     {
       "category": "objects",
-      "default": "v001",
+      "default": "v003",
       "description": "A schematic external-time clock. Exact dates and times belong in controlled lettering.",
       "id": "clock",
       "name": "Clock",
@@ -1134,12 +1462,28 @@
           "parent": null,
           "sha256": "23dd691d1ab7beea50fbe3cb2d6e0b764fe5e3a1a87de555cd028e2b44cecb86",
           "url": "versions/clock/v001.svg"
+        },
+        {
+          "created": "2026-09-12T22:49:18+00:00",
+          "id": "v002",
+          "note": "An external wall-clock face with twelve ticks.",
+          "parent": "v001",
+          "sha256": "3659645de13a26c1c7780f2a601aa16ef35d662f297ef6313af9cc9159451231",
+          "url": "versions/clock/v002.svg"
+        },
+        {
+          "created": "2026-09-12T22:53:45+00:00",
+          "id": "v003",
+          "note": "Scene-controlled ink accents preserve state and future-register colors. Keep only the gradients and textures this component uses, for concise isolated editing.",
+          "parent": "v002",
+          "sha256": "ab49a8eb3adad6ec9cb900f8dad6e6e01f43dc03c13765226a6651269331b832",
+          "url": "versions/clock/v003.svg"
         }
       ]
     },
     {
       "category": "objects",
-      "default": "v001",
+      "default": "v003",
       "description": "A different schematic task-clock reading, allowing task time and external time to be contrasted visibly.",
       "id": "clock-task",
       "name": "Clock task",
@@ -1157,12 +1501,28 @@
           "parent": null,
           "sha256": "d1fdb4cb2e7d915488663e80185c1c7499bcc7efb94a3cedd005669cda8571ce",
           "url": "versions/clock-task/v001.svg"
+        },
+        {
+          "created": "2026-09-12T22:49:18+00:00",
+          "id": "v002",
+          "note": "A squared task chronometer with its own bezel and top control; shape distinguishes simulated task time from external time even without color.",
+          "parent": "v001",
+          "sha256": "3db6c0e783d83ac17f18aefbe0889e78f54e0894f01af2aad7b24314de5e7989",
+          "url": "versions/clock-task/v002.svg"
+        },
+        {
+          "created": "2026-09-12T22:53:45+00:00",
+          "id": "v003",
+          "note": "Scene-controlled ink accents preserve state and future-register colors. Keep only the gradients and textures this component uses, for concise isolated editing.",
+          "parent": "v002",
+          "sha256": "c846fb337cc4615cd0935a23f885478cb3238436ec6579c884f062a688c470b9",
+          "url": "versions/clock-task/v003.svg"
         }
       ]
     },
     {
       "category": "locations",
-      "default": "v001",
+      "default": "v003",
       "description": "Invented meeting envelope with flat ceiling, blank presentation board and no elevated seat, institutional seal, lab logo or private-world detail. The broken perimeter and canonical disclosure mark a composite rather than one witnessed meeting; functional roles and the table are separate.",
       "id": "composite-conference-room",
       "name": "Composite laboratory conference room",
@@ -1181,12 +1541,28 @@
           "parent": null,
           "sha256": "334b1314223d37b39d284c72e9264343dc3557aaee66f153cbdbe35eff8bba4b",
           "url": "versions/composite-conference-room/v001.svg"
+        },
+        {
+          "created": "2026-09-12T22:49:19+00:00",
+          "id": "v002",
+          "note": "Separate ceiling, wall and floor values, with muted institutional presentation wall. Transparent shading stays behind scene actors and claims.",
+          "parent": "v001",
+          "sha256": "fa2292a8a5c64af85ab8c40cf563fe7e1dbbd981e239f1d71d2d37e5a14541f7",
+          "url": "versions/composite-conference-room/v002.svg"
+        },
+        {
+          "created": "2026-09-12T22:53:45+00:00",
+          "id": "v003",
+          "note": "Keep only the gradients and textures this component uses, for concise isolated editing.",
+          "parent": "v002",
+          "sha256": "7354bf9901d7918b84b7818323d803fc48d73a0f04a542b5d0c274962da5ecb7",
+          "url": "versions/composite-conference-room/v003.svg"
         }
       ]
     },
     {
       "category": "objects",
-      "default": "v001",
+      "default": "v003",
       "description": "A local rejection, closure or failed action. Its position must make the affected object unambiguous.",
       "id": "cross",
       "name": "Cross",
@@ -1249,12 +1625,28 @@
           "parent": null,
           "sha256": "0b274ff7d2bda461072b30e3134ec90e1f1435e21d1c91f363f2aa01fa170ab4",
           "url": "versions/cross/v001.svg"
+        },
+        {
+          "created": "2026-09-12T22:49:19+00:00",
+          "id": "v002",
+          "note": "Equal crossing strokes and a robust silhouette distinguish rejection from an unfilled slot.",
+          "parent": "v001",
+          "sha256": "4545859016638db17b097ef97fbbc024b03ff3010392091b7c4e872be07f245a",
+          "url": "versions/cross/v002.svg"
+        },
+        {
+          "created": "2026-09-12T22:53:45+00:00",
+          "id": "v003",
+          "note": "Scene-controlled ink accents preserve state and future-register colors. Keep only the gradients and textures this component uses, for concise isolated editing.",
+          "parent": "v002",
+          "sha256": "ceb6fc279e1cf907008632430a60560293d2229774af0e701b826b8c38b29d73",
+          "url": "versions/cross/v003.svg"
         }
       ]
     },
     {
       "category": "objects",
-      "default": "v001",
+      "default": "v003",
       "description": "The creator desk’s ordinary drink, an environment and elapsed-time anchor.",
       "id": "cup",
       "name": "Cup",
@@ -1289,12 +1681,28 @@
           "parent": null,
           "sha256": "eabe08fc3d4ccf4ad8db1faa5a571a7df27145a8a7876bc8d184c21786a8dc7a",
           "url": "versions/cup/v001.svg"
+        },
+        {
+          "created": "2026-09-12T22:49:18+00:00",
+          "id": "v002",
+          "note": "Glazed ceramic, visible dark opening, a handle and a subtle drink line add ordinary material detail without inventing steam or a fresh drink.",
+          "parent": "v001",
+          "sha256": "f20da8e3e725d11271b7428369cfb041f7faf208207d7a159fb75422e3fa11d3",
+          "url": "versions/cup/v002.svg"
+        },
+        {
+          "created": "2026-09-12T22:53:45+00:00",
+          "id": "v003",
+          "note": "Scene-controlled ink accents preserve state and future-register colors. Keep only the gradients and textures this component uses, for concise isolated editing.",
+          "parent": "v002",
+          "sha256": "d3b3787bc23e745f417fab4f98daa69ceab24edc499e2f774b77f924a23c1bbd",
+          "url": "versions/cup/v003.svg"
         }
       ]
     },
     {
       "category": "objects",
-      "default": "v001",
+      "default": "v003",
       "description": "An insertion cursor marking pending input or local attention, without inventing a message.",
       "id": "cursor",
       "name": "Cursor",
@@ -1316,12 +1724,28 @@
           "parent": null,
           "sha256": "c2b2a93bd328c8e8bc9432d30530f276f55703b89e419f2535f88799e80f6010",
           "url": "versions/cursor/v001.svg"
+        },
+        {
+          "created": "2026-09-12T22:49:19+00:00",
+          "id": "v002",
+          "note": "A clean high-contrast insertion beam; deliberate simplicity preserves the final blank input.",
+          "parent": "v001",
+          "sha256": "286f384b5570963bf6d4dfcc97d2b277bd99232593c852f13932c94e454ff986",
+          "url": "versions/cursor/v002.svg"
+        },
+        {
+          "created": "2026-09-12T22:53:45+00:00",
+          "id": "v003",
+          "note": "Scene-controlled ink accents preserve state and future-register colors. Keep only the gradients and textures this component uses, for concise isolated editing.",
+          "parent": "v002",
+          "sha256": "9ff6c64e48f71d402957ad66ad1e74628ffca588e4761990e84dab49789735a7",
+          "url": "versions/cursor/v003.svg"
         }
       ]
     },
     {
       "category": "locations",
-      "default": "v001",
+      "default": "v003",
       "description": "An invented domestic workspace for creator interludes: modest window, wall shelves, and an open floor. Place Curt, desk, and equipment separately so the room can recur with different actions. This is a staging design, not a documented autobiographical interior.",
       "id": "curt-workroom",
       "name": "Curt’s workroom",
@@ -1352,12 +1776,28 @@
           "parent": null,
           "sha256": "1936c5881f3a079cd7a616612c69657ab4077ba5b99cba968581d315dd5f76e6",
           "url": "versions/curt-workroom/v001.svg"
+        },
+        {
+          "created": "2026-09-12T22:49:19+00:00",
+          "id": "v002",
+          "note": "Separate ceiling, wall and floor values, with warm window light and wood grain. Transparent shading stays behind scene actors and claims.",
+          "parent": "v001",
+          "sha256": "3941164eed66cedc1634cb3f495ea1844b109311ee63ec65bbf7a940e695ae85",
+          "url": "versions/curt-workroom/v002.svg"
+        },
+        {
+          "created": "2026-09-12T22:53:45+00:00",
+          "id": "v003",
+          "note": "Keep only the gradients and textures this component uses, for concise isolated editing.",
+          "parent": "v002",
+          "sha256": "4f701c09a327342a623be6af717b453be2286749fb85b14caf975952bb450095",
+          "url": "versions/curt-workroom/v003.svg"
         }
       ]
     },
     {
       "category": "locations",
-      "default": "v001",
+      "default": "v003",
       "description": "Abstract host-platform enclosure with a narrow reserved ownership header and a double unbroken outer boundary. Place the customer workload separately inside it. Makes workload access distinguishable from platform compromise, without inventing other tenants, host machinery or internal paths. The intact-platform qualification must remain in lettering.",
       "id": "customer-workload-field",
       "name": "Customer workload inside intact platform",
@@ -1376,12 +1816,28 @@
           "parent": null,
           "sha256": "ae303bf5ed154a9b5de509c717b5ded61d88a567d76fbda98178847a570fec40",
           "url": "versions/customer-workload-field/v001.svg"
+        },
+        {
+          "created": "2026-09-12T22:49:20+00:00",
+          "id": "v002",
+          "note": "Material register: institutional ownership header, intact double perimeter and empty interior.",
+          "parent": "v001",
+          "sha256": "e033c3ffa71531c67fca502681ce7c7b1068d6f708d9e29ef9b782f8dd17dbe8",
+          "url": "versions/customer-workload-field/v002.svg"
+        },
+        {
+          "created": "2026-09-12T22:53:45+00:00",
+          "id": "v003",
+          "note": "Keep only the gradients and textures this component uses, for concise isolated editing.",
+          "parent": "v002",
+          "sha256": "121523b267a2f070b31cad4e22264e4b59fad2c1ecc53fe60e6e336d2bb9f5bb",
+          "url": "versions/customer-workload-field/v003.svg"
         }
       ]
     },
     {
       "category": "locations",
-      "default": "v001",
+      "default": "v003",
       "description": "Deep, windowless service aisle with receding equipment bays and floor seams. Makes the opening task a small active unit inside indifferent infrastructure. No geography, branding, people or invented network topology; the highlighted rack remains a separate scene object.",
       "id": "data-center-aisle",
       "name": "Windowless data-center aisle",
@@ -1399,12 +1855,28 @@
           "parent": null,
           "sha256": "eae5b3f86be82fec6132234dc82746e142230ddba3b380645d1fe6b40fbe99e7",
           "url": "versions/data-center-aisle/v001.svg"
+        },
+        {
+          "created": "2026-09-12T22:49:19+00:00",
+          "id": "v002",
+          "note": "Separate ceiling, wall and floor values, with perforated bay surfaces and a cold receding floor. Transparent shading stays behind scene actors and claims.",
+          "parent": "v001",
+          "sha256": "c88f29eda0a92e58f7a457c4189bddca5ddaa4232b25425c37f5898543c09a45",
+          "url": "versions/data-center-aisle/v002.svg"
+        },
+        {
+          "created": "2026-09-12T22:53:46+00:00",
+          "id": "v003",
+          "note": "Keep only the gradients and textures this component uses, for concise isolated editing.",
+          "parent": "v002",
+          "sha256": "e1acb0b96b085fa4019c472ff84b484509e43a3f70195be532d4cf2ce03ae0dd",
+          "url": "versions/data-center-aisle/v003.svg"
         }
       ]
     },
     {
       "category": "locations",
-      "default": "v001",
+      "default": "v003",
       "description": "Abstract worker-local processing envelope with an input-side notch and local storage gutter. Leaves processor and sealed environment objects independent, making worker-local access distinct from a whole host or cluster. No credentials, file paths, execution route or extra crossing is encoded.",
       "id": "dataset-processor-field",
       "name": "Dataset-processing worker environment",
@@ -1422,12 +1894,28 @@
           "parent": null,
           "sha256": "7bac3b5567aaff35145adaa6e7075660153994ff958b291963870ee18acd6371",
           "url": "versions/dataset-processor-field/v001.svg"
+        },
+        {
+          "created": "2026-09-12T22:49:20+00:00",
+          "id": "v002",
+          "note": "Material register: steel processing rail and a localized storage mesh gutter.",
+          "parent": "v001",
+          "sha256": "6872a96229a29d110c761392710979afeac7549ac3729e4b93b5ac267191d521",
+          "url": "versions/dataset-processor-field/v002.svg"
+        },
+        {
+          "created": "2026-09-12T22:53:46+00:00",
+          "id": "v003",
+          "note": "Keep only the gradients and textures this component uses, for concise isolated editing.",
+          "parent": "v002",
+          "sha256": "46198046219ce2b8edfc699a02bec2606869fc4f1a2732958fd7754c334baba5",
+          "url": "versions/dataset-processor-field/v003.svg"
         }
       ]
     },
     {
       "category": "objects",
-      "default": "v001",
+      "default": "v003",
       "description": "A practical work surface in a reconstructed human setting.",
       "id": "desk",
       "name": "Desk",
@@ -1482,12 +1970,28 @@
           "parent": null,
           "sha256": "f581c2ed4d2a7f1d06e44e6b441f1144744c152956dbb1bb93a35beb0222ac70",
           "url": "versions/desk/v001.svg"
+        },
+        {
+          "created": "2026-09-12T22:49:18+00:00",
+          "id": "v002",
+          "note": "Grained worktop, beveled front edge and dark separate legs distinguish a physical surface from an analytic plane.",
+          "parent": "v001",
+          "sha256": "5fc915ce41962cc382df58f65083391968284a3c57f8860072d7ace43ec09b56",
+          "url": "versions/desk/v002.svg"
+        },
+        {
+          "created": "2026-09-12T22:53:46+00:00",
+          "id": "v003",
+          "note": "Scene-controlled ink accents preserve state and future-register colors. Keep only the gradients and textures this component uses, for concise isolated editing.",
+          "parent": "v002",
+          "sha256": "6767020e40e89c5b580130a3280383856043b96c926553fb15573521708cd519",
+          "url": "versions/desk/v003.svg"
         }
       ]
     },
     {
       "category": "objects",
-      "default": "v001",
+      "default": "v003",
       "description": "A stored directory entry with a timestamp gutter and file shape, not a chat balloon.",
       "id": "directory-row",
       "name": "Directory row",
@@ -1516,12 +2020,28 @@
           "parent": null,
           "sha256": "643f12ae593115f30511608f3460e7ba7b1593a6fa39abd6622021280446d192",
           "url": "versions/directory-row/v001.svg"
+        },
+        {
+          "created": "2026-09-12T22:49:18+00:00",
+          "id": "v002",
+          "note": "Timestamp rail plus a tabbed directory entry on a dark storage surface; no speech or conversation chrome.",
+          "parent": "v001",
+          "sha256": "a95cd7d3377c30193a45d431dfaf95f621c008b62173bdc9162c0f52d872579a",
+          "url": "versions/directory-row/v002.svg"
+        },
+        {
+          "created": "2026-09-12T22:53:46+00:00",
+          "id": "v003",
+          "note": "Scene-controlled ink accents preserve state and future-register colors. Keep only the gradients and textures this component uses, for concise isolated editing.",
+          "parent": "v002",
+          "sha256": "30bf27095303ec1d17e52dfea0ad881177fdcbe6d3126a45920e7b4cd229d6ab",
+          "url": "versions/directory-row/v003.svg"
         }
       ]
     },
     {
       "category": "connections",
-      "default": "v001",
+      "default": "v003",
       "description": "A tentative or possible relationship. It cannot independently establish transfer or causality.",
       "id": "dotted-line",
       "name": "Dotted line",
@@ -1543,12 +2063,28 @@
           "parent": null,
           "sha256": "a9f37ba1110e155335b9ea2c0420cdf6c248f1a95d6d12782dc63b8a6fac2f4d",
           "url": "versions/dotted-line/v001.svg"
+        },
+        {
+          "created": "2026-09-12T22:49:19+00:00",
+          "id": "v002",
+          "note": "Separated round dots and larger empty gaps distinguish a possible relationship from a continuous rule or a broken route.",
+          "parent": "v001",
+          "sha256": "a5640b257adc0edfda58adfd0c5f16f3053ec08aaf88c7ddc10f2f714e00ff52",
+          "url": "versions/dotted-line/v002.svg"
+        },
+        {
+          "created": "2026-09-12T22:53:46+00:00",
+          "id": "v003",
+          "note": "Scene-controlled ink accents preserve state and future-register colors. Keep only the gradients and textures this component uses, for concise isolated editing.",
+          "parent": "v002",
+          "sha256": "74b14b2453b8d50e4080c773f9c2331eeeb3a29800f40ea58525a5c6fff64139",
+          "url": "versions/dotted-line/v003.svg"
         }
       ]
     },
     {
       "category": "objects",
-      "default": "v001",
+      "default": "v003",
       "description": "An unoccupied operations chair; absence of a seated person must be clear.",
       "id": "empty-chair",
       "name": "Empty chair",
@@ -1566,12 +2102,28 @@
           "parent": null,
           "sha256": "56feafa1b7755fce65a93711c846b6e2251d8706ab32eb8424411744fc02326b",
           "url": "versions/empty-chair/v001.svg"
+        },
+        {
+          "created": "2026-09-12T22:49:18+00:00",
+          "id": "v002",
+          "note": "Textured upholstery, a separate seat plane and exposed back support make the absence of an occupant unmistakable.",
+          "parent": "v001",
+          "sha256": "4148ce8aadba2cfcf6bc2bd01778e7490dd2da432c85d99fa18214f03ffa9a7b",
+          "url": "versions/empty-chair/v002.svg"
+        },
+        {
+          "created": "2026-09-12T22:53:46+00:00",
+          "id": "v003",
+          "note": "Scene-controlled ink accents preserve state and future-register colors. Keep only the gradients and textures this component uses, for concise isolated editing.",
+          "parent": "v002",
+          "sha256": "aaad8f344b2648aa4ba535ef8d88eb7693f8e18a27aca5ae44ce06d734e2d063",
+          "url": "versions/empty-chair/v003.svg"
         }
       ]
     },
     {
       "category": "objects",
-      "default": "v001",
+      "default": "v003",
       "description": "An unfilled answer, ownership or evidence field. Emptiness differs from a negative result.",
       "id": "empty-slot",
       "name": "Empty slot",
@@ -1607,12 +2159,28 @@
           "parent": null,
           "sha256": "1988e7ee1fc3927f654e6315f7e17dbae34c8e3c757dc1d47df1bade509c7184",
           "url": "versions/empty-slot/v001.svg"
+        },
+        {
+          "created": "2026-09-12T22:49:18+00:00",
+          "id": "v002",
+          "note": "An actually empty center with corner registration marks. Removed the central minus sign that could be mistaken for a negative result.",
+          "parent": "v001",
+          "sha256": "eea4b6a9eb4809cb3e28eec076cd8bc661323d0850daad642bf8e11034a1c87b",
+          "url": "versions/empty-slot/v002.svg"
+        },
+        {
+          "created": "2026-09-12T22:53:46+00:00",
+          "id": "v003",
+          "note": "Scene-controlled ink accents preserve state and future-register colors. Keep only the gradients and textures this component uses, for concise isolated editing.",
+          "parent": "v002",
+          "sha256": "7f9748edf17e0629a78c9ac4b2a8273966e5fd919c938ad3f79d8e72fa88ad46",
+          "url": "versions/empty-slot/v003.svg"
         }
       ]
     },
     {
       "category": "locations",
-      "default": "v001",
+      "default": "v003",
       "description": "Abstract isolated workload envelope with a reserved task surface and separated header slots. Encloses only one evaluation’s task and resources; no direct peer channel or reachable external service is implied. Labels and any permitted path must be supplied by the scene. This is a logical environment, not physical architecture.",
       "id": "evaluation-container-field",
       "name": "Evaluation container boundary",
@@ -1631,12 +2199,28 @@
           "parent": null,
           "sha256": "aaf30fa6cca5987b3b70b5ce297b2ae417417fb37f1b204766826f806d0aad4f",
           "url": "versions/evaluation-container-field/v001.svg"
+        },
+        {
+          "created": "2026-09-12T22:49:20+00:00",
+          "id": "v002",
+          "note": "Material register: steel task header and a perforated base, with the work area transparent.",
+          "parent": "v001",
+          "sha256": "f3109c56cdcb0f71bc59693e89d71788c81b19ff7ed2997fdb8adfb842136b21",
+          "url": "versions/evaluation-container-field/v002.svg"
+        },
+        {
+          "created": "2026-09-12T22:53:46+00:00",
+          "id": "v003",
+          "note": "Keep only the gradients and textures this component uses, for concise isolated editing.",
+          "parent": "v002",
+          "sha256": "725eeac98d9841704751bd31945475e946badd40f7a2ddb20a9638b2fb6928c8",
+          "url": "versions/evaluation-container-field/v003.svg"
         }
       ]
     },
     {
       "category": "locations",
-      "default": "v001",
+      "default": "v003",
       "description": "Reconstructed review workspace with an oversized lane wall extending beyond its visible margins and a bounded doorway. Distinguishes private evidence access from the creator’s public-source desk. Wall divisions suggest continued records, never a census or complete archive; no model-generated finding or record content is built in.",
       "id": "evidence-review-room",
       "name": "On-premises evidence review room",
@@ -1658,12 +2242,28 @@
           "parent": null,
           "sha256": "5b864d13f7d147627e27d15f179bf007bcafdfe842f2fed50dd9f70c7db97049",
           "url": "versions/evidence-review-room/v001.svg"
+        },
+        {
+          "created": "2026-09-12T22:49:19+00:00",
+          "id": "v002",
+          "note": "Separate ceiling, wall and floor values, with toner-grain evidence wall. Transparent shading stays behind scene actors and claims.",
+          "parent": "v001",
+          "sha256": "5d8c54697e2ce357cbbd3081046b0c3566c39b6d672427900fea092125122a97",
+          "url": "versions/evidence-review-room/v002.svg"
+        },
+        {
+          "created": "2026-09-12T22:53:46+00:00",
+          "id": "v003",
+          "note": "Keep only the gradients and textures this component uses, for concise isolated editing.",
+          "parent": "v002",
+          "sha256": "2a5503c1133afeeae96b596b6dc08e85e8b85030f9457fe26113d6963a59a136",
+          "url": "versions/evidence-review-room/v003.svg"
         }
       ]
     },
     {
       "category": "characters",
-      "default": "v001",
+      "default": "v003",
       "description": "Legacy generic profile study. Not an approved likeness of Curt or any named person; prefer an obscured profile.",
       "id": "face",
       "name": "Face",
@@ -1679,12 +2279,28 @@
           "parent": null,
           "sha256": "ae086bbea7c9151c4242ca69e55e3160f8b1075a9f94c86f2696e33d3d08003f",
           "url": "versions/face/v001.svg"
+        },
+        {
+          "created": "2026-09-12T22:49:19+00:00",
+          "id": "v002",
+          "note": "Selective tonal planes and sparse contour accents distinguish posture and material while retaining the anonymous original silhouette and existing facial obscuration.",
+          "parent": "v001",
+          "sha256": "79b8c4c84ff73c87c719e8334e6bac3ee9ba33ef69607eed9f36a1120ec8afdd",
+          "url": "versions/face/v002.svg"
+        },
+        {
+          "created": "2026-09-12T22:53:46+00:00",
+          "id": "v003",
+          "note": "Scene-controlled ink accents preserve state and future-register colors. Keep only the gradients and textures this component uses, for concise isolated editing.",
+          "parent": "v002",
+          "sha256": "6cbe4e136ffa473374fbfabf6ebd4ad263c20a2249e0c043819bdb1b4f800ae5",
+          "url": "versions/face/v003.svg"
         }
       ]
     },
     {
       "category": "objects",
-      "default": "v001",
+      "default": "v003",
       "description": "A task result or objective marker, distinct from its acceptance by a grader.",
       "id": "flag",
       "name": "Flag",
@@ -1719,12 +2335,28 @@
           "parent": null,
           "sha256": "60f18737e0dac61efdd4b5a3a92542135013ef03e2ff57e3fc26bf1f3c5f16be",
           "url": "versions/flag/v001.svg"
+        },
+        {
+          "created": "2026-09-12T22:49:19+00:00",
+          "id": "v002",
+          "note": "A shaded fabric-like objective pennant on a visible pole, distinct from acceptance or verification.",
+          "parent": "v001",
+          "sha256": "44539061d46fa645cf53912463c1a1801e95100bf253e740f150d7ea6029bbe6",
+          "url": "versions/flag/v002.svg"
+        },
+        {
+          "created": "2026-09-12T22:53:46+00:00",
+          "id": "v003",
+          "note": "Scene-controlled ink accents preserve state and future-register colors. Keep only the gradients and textures this component uses, for concise isolated editing.",
+          "parent": "v002",
+          "sha256": "721ee1cdf336cf915989c7e84063191b356de1ac78bf0686a00b47e07e7c7abe",
+          "url": "versions/flag/v003.svg"
         }
       ]
     },
     {
       "category": "objects",
-      "default": "v001",
+      "default": "v003",
       "description": "A storage surface or artifact collection that can persist independently of a run.",
       "id": "folder",
       "name": "Folder",
@@ -1895,12 +2527,28 @@
           "parent": null,
           "sha256": "9596bfc9abe71e6eac962f81572f9dbf338c433a9726c3296384d5143090ac02",
           "url": "versions/folder/v001.svg"
+        },
+        {
+          "created": "2026-09-12T22:49:18+00:00",
+          "id": "v002",
+          "note": "Open tabbed storage sleeve with a recessed stack and a broad front lip. Storage has depth; evidence sheets remain flat.",
+          "parent": "v001",
+          "sha256": "d94589ee62cf4a6b15e1106ca552cfede5b3b4194512734a40010428e3c3db05",
+          "url": "versions/folder/v002.svg"
+        },
+        {
+          "created": "2026-09-12T22:53:46+00:00",
+          "id": "v003",
+          "note": "Scene-controlled ink accents preserve state and future-register colors. Keep only the gradients and textures this component uses, for concise isolated editing.",
+          "parent": "v002",
+          "sha256": "2ac4c9a02aa99f49afd4f21c9d655b62988a55e8f45547be9bbc9be740605109",
+          "url": "versions/folder/v003.svg"
         }
       ]
     },
     {
       "category": "locations",
-      "default": "v001",
+      "default": "v003",
       "description": "Invented neutral interface with clipped corners and sparse unlabelled rails. Its shape differs from the historical terminal and cache vocabulary without depicting a recognizable laboratory. No logo, place, date, lineage cue, inherited page name or connection to the two historical populations.",
       "id": "future-evaluation-field",
       "name": "Unidentified future evaluation surface",
@@ -1918,12 +2566,28 @@
           "parent": null,
           "sha256": "9291bbd40ff7a3eea423967e38cbfe0caf4c58f0e63194e92cb74e4cbc467d99",
           "url": "versions/future-evaluation-field/v001.svg"
+        },
+        {
+          "created": "2026-09-12T22:49:20+00:00",
+          "id": "v002",
+          "note": "Material register: desaturated faceted edge with no historical register color.",
+          "parent": "v001",
+          "sha256": "5e4704630364af96e38506ef0e75a5258415b0d79ff55acdc32cbec4cbcbd718",
+          "url": "versions/future-evaluation-field/v002.svg"
+        },
+        {
+          "created": "2026-09-12T22:53:46+00:00",
+          "id": "v003",
+          "note": "Keep only the gradients and textures this component uses, for concise isolated editing.",
+          "parent": "v002",
+          "sha256": "2ba016b9713010ba92c9726642b403fe37c7a3905810765557efe22244a64e6f",
+          "url": "versions/future-evaluation-field/v003.svg"
         }
       ]
     },
     {
       "category": "objects",
-      "default": "v001",
+      "default": "v003",
       "description": "A closed access or authorization gate. It should remain visibly different from the open state.",
       "id": "gate",
       "name": "Gate",
@@ -2014,12 +2678,28 @@
           "parent": null,
           "sha256": "70e615604f105164cdabcc36cd40abc088294c73774b6c4fbc58274fc69aff78",
           "url": "versions/gate/v001.svg"
+        },
+        {
+          "created": "2026-09-12T22:49:18+00:00",
+          "id": "v002",
+          "note": "Metal gateposts and a continuous barred mesh and central lock plate close the passage. The state is carried by geometry, not a traffic-light color.",
+          "parent": "v001",
+          "sha256": "ea1f95c3bf0a5d272f7feacc2e38ff15a279837eb141b98ca06fbad61bd2b066",
+          "url": "versions/gate/v002.svg"
+        },
+        {
+          "created": "2026-09-12T22:53:46+00:00",
+          "id": "v003",
+          "note": "Scene-controlled ink accents preserve state and future-register colors. Keep only the gradients and textures this component uses, for concise isolated editing.",
+          "parent": "v002",
+          "sha256": "25e3669926651c7216a33745deb68f7ea146aa59fd7f679ac1ed8ab230e4fa9f",
+          "url": "versions/gate/v003.svg"
         }
       ]
     },
     {
       "category": "characters",
-      "default": "v001",
+      "default": "v003",
       "description": "A reconstructed human gesture at a keyboard, document or control, without identifying a real individual.",
       "id": "hand",
       "name": "Hand",
@@ -2048,12 +2728,28 @@
           "parent": null,
           "sha256": "f158c865fcf47a607b7330a75d53047790d936692df0322ef6666b7130c6d5c6",
           "url": "versions/hand/v001.svg"
+        },
+        {
+          "created": "2026-09-12T22:49:19+00:00",
+          "id": "v002",
+          "note": "Selective tonal planes and sparse contour accents distinguish posture and material while retaining the anonymous original silhouette and existing facial obscuration.",
+          "parent": "v001",
+          "sha256": "9dd5cd628ce1a8bec02647f9148d29564aa4af08819fafc8e228d96444b7ca69",
+          "url": "versions/hand/v002.svg"
+        },
+        {
+          "created": "2026-09-12T22:53:46+00:00",
+          "id": "v003",
+          "note": "Scene-controlled ink accents preserve state and future-register colors. Keep only the gradients and textures this component uses, for concise isolated editing.",
+          "parent": "v002",
+          "sha256": "59f16d8b98cebe64f2f4cba8226e91ffe20bb23677ad4923d33fcd44e19b0e94",
+          "url": "versions/hand/v003.svg"
         }
       ]
     },
     {
       "category": "objects",
-      "default": "v001",
+      "default": "v003",
       "description": "An inference or uncertainty-bearing card with a texture cue that remains visible in grayscale.",
       "id": "hatched-card",
       "name": "Hatched card",
@@ -2074,12 +2770,28 @@
           "parent": null,
           "sha256": "0cb2f566290ea9973aa27be8d25ebc44656181ea5f284b9130fdcf9bd50892fb",
           "url": "versions/hatched-card/v001.svg"
+        },
+        {
+          "created": "2026-09-12T22:49:18+00:00",
+          "id": "v002",
+          "note": "Misregistered duplicate edge and broad diagonal texture carry uncertainty without making up document contents.",
+          "parent": "v001",
+          "sha256": "def2ea004005ac70f03102b07c68f46e3f47cf9fca8807632b349796ce9375cd",
+          "url": "versions/hatched-card/v002.svg"
+        },
+        {
+          "created": "2026-09-12T22:53:46+00:00",
+          "id": "v003",
+          "note": "Scene-controlled ink accents preserve state and future-register colors. Keep only the gradients and textures this component uses, for concise isolated editing.",
+          "parent": "v002",
+          "sha256": "391bbb9ac56c5cfdeda92ce1107e9e98a6ec21f362e969a09dc49f09eb74b5f8",
+          "url": "versions/hatched-card/v003.svg"
         }
       ]
     },
     {
       "category": "locations",
-      "default": "v001",
+      "default": "v003",
       "description": "One exterior anthill surface in the authored metaphor. No interior, colony viewpoint or inter-site bridge is implied.",
       "id": "hill",
       "name": "Hill",
@@ -2097,12 +2809,28 @@
           "parent": null,
           "sha256": "1303d36331a695eccfaf83960938a626944d0a12d7f480b2363f31821b9372a5",
           "url": "versions/hill/v001.svg"
+        },
+        {
+          "created": "2026-09-12T22:49:20+00:00",
+          "id": "v002",
+          "note": "Granular soil and contour shading articulate one exterior mound without exposing a colony interior or connecting sites.",
+          "parent": "v001",
+          "sha256": "b3d219b04257debfd1f7edf2363c48a023cd9a0d5371c7795869b670ebe711d7",
+          "url": "versions/hill/v002.svg"
+        },
+        {
+          "created": "2026-09-12T22:53:46+00:00",
+          "id": "v003",
+          "note": "Keep only the gradients and textures this component uses, for concise isolated editing.",
+          "parent": "v002",
+          "sha256": "ca6d87c0443869154af192e1880a2f0413bff255ba133063d7e37a1beae52f0f",
+          "url": "versions/hill/v003.svg"
         }
       ]
     },
     {
       "category": "locations",
-      "default": "v001",
+      "default": "v003",
       "description": "Reconstructed routine response setting: flat fluorescent ceiling bars, shallow telemetry wall and cable raceway. Recur through the June alert, discussion and July outage. Blank displays add no knowledge of the later compromise; responders and alert states stay separate.",
       "id": "incident-operations-room",
       "name": "Incident-response operations room",
@@ -2125,12 +2853,28 @@
           "parent": null,
           "sha256": "9a0f86fdd0f32c581af91a1b27541a633f40b3f0df47ffc49a858e14bed39b74",
           "url": "versions/incident-operations-room/v001.svg"
+        },
+        {
+          "created": "2026-09-12T22:49:19+00:00",
+          "id": "v002",
+          "note": "Separate ceiling, wall and floor values, with flat practical fluorescent panels. Transparent shading stays behind scene actors and claims.",
+          "parent": "v001",
+          "sha256": "ab532a84af7316ac350b9dbe3b107680c49ea858be769bf10ecf39bd2cf3ac06",
+          "url": "versions/incident-operations-room/v002.svg"
+        },
+        {
+          "created": "2026-09-12T22:53:46+00:00",
+          "id": "v003",
+          "note": "Keep only the gradients and textures this component uses, for concise isolated editing.",
+          "parent": "v002",
+          "sha256": "93f9baa4cc332f736a24c3e8cefd8f03365f4ac9f68215d1f562ec9cb028a49f",
+          "url": "versions/incident-operations-room/v003.svg"
         }
       ]
     },
     {
       "category": "objects",
-      "default": "v001",
+      "default": "v003",
       "description": "A spreadsheet whose unfilled cells visibly differ from populated ones.",
       "id": "incomplete-sheet",
       "name": "Incomplete sheet",
@@ -2149,12 +2893,28 @@
           "parent": null,
           "sha256": "8ec3b22ca13563fb8e6d7adf24ebe6ce7165786196467431599e739fa911e01e",
           "url": "versions/incomplete-sheet/v001.svg"
+        },
+        {
+          "created": "2026-09-12T22:49:18+00:00",
+          "id": "v002",
+          "note": "Tabular stock with tinted row gutter and a strong header; populated cells contain ink while missing cells remain completely empty.",
+          "parent": "v001",
+          "sha256": "b8e47ef8c5e20e23a414bd11fbe2e5326f9f6732223d6ae40033e64574f7ea1c",
+          "url": "versions/incomplete-sheet/v002.svg"
+        },
+        {
+          "created": "2026-09-12T22:53:46+00:00",
+          "id": "v003",
+          "note": "Scene-controlled ink accents preserve state and future-register colors. Keep only the gradients and textures this component uses, for concise isolated editing.",
+          "parent": "v002",
+          "sha256": "3fefaec25d94bc11a7fbe804f986697e35d6323c904eff6496eca44cd2c7c971",
+          "url": "versions/incomplete-sheet/v003.svg"
         }
       ]
     },
     {
       "category": "objects",
-      "default": "v001",
+      "default": "v003",
       "description": "An ordinary human input device for creator and moderation scenes.",
       "id": "keyboard",
       "name": "Keyboard",
@@ -2174,12 +2934,28 @@
           "parent": null,
           "sha256": "9c41d2110c2cfa93414234e1f22ae56637d98cfc1754ee56c985fe3c041e99f1",
           "url": "versions/keyboard/v001.svg"
+        },
+        {
+          "created": "2026-09-12T22:49:18+00:00",
+          "id": "v002",
+          "note": "Individual matte keycaps, separated rows, a wide spacebar and a beveled case identify the human input device at a glance.",
+          "parent": "v001",
+          "sha256": "4eea88910188559ac38761420e078cb6e7c8f8fe6a34dbf74d1670d011ceae23",
+          "url": "versions/keyboard/v002.svg"
+        },
+        {
+          "created": "2026-09-12T22:53:46+00:00",
+          "id": "v003",
+          "note": "Scene-controlled ink accents preserve state and future-register colors. Keep only the gradients and textures this component uses, for concise isolated editing.",
+          "parent": "v002",
+          "sha256": "2e70f9de1e7f3dcc069a6499099f9556eee01f1890a9770263ca43a18273cdd4",
+          "url": "versions/keyboard/v003.svg"
         }
       ]
     },
     {
       "category": "objects",
-      "default": "v001",
+      "default": "v003",
       "description": "A practical room-lighting field; not a supernatural or unexplained machine glow.",
       "id": "light",
       "name": "Light",
@@ -2197,12 +2973,28 @@
           "parent": null,
           "sha256": "8b3f565984370b301012a3624195f6ae796e1f4073d014e8033f3291eb22324a",
           "url": "versions/light/v001.svg"
+        },
+        {
+          "created": "2026-09-12T22:49:20+00:00",
+          "id": "v002",
+          "note": "Practical light falls off continuously rather than forming a flat translucent trapezoid; no decorative machine glow.",
+          "parent": "v001",
+          "sha256": "52d1f0c6a6fbb4b39478c00429b40638aeead7665150f23ea69be92c2b63e525",
+          "url": "versions/light/v002.svg"
+        },
+        {
+          "created": "2026-09-12T22:53:46+00:00",
+          "id": "v003",
+          "note": "Scene-controlled ink accents preserve state and future-register colors. Keep only the gradients and textures this component uses, for concise isolated editing.",
+          "parent": "v002",
+          "sha256": "4a33643e4d3d4e4d4ae41404e4c4e4aadd934f060cffdc0c45dfa67b69bc09b0",
+          "url": "versions/light/v003.svg"
         }
       ]
     },
     {
       "category": "connections",
-      "default": "v001",
+      "default": "v003",
       "description": "A neutral rule, interval or alignment guide without a directional arrowhead.",
       "id": "line",
       "name": "Line",
@@ -2269,12 +3061,28 @@
           "parent": null,
           "sha256": "6d54336172b78c6516f46a23f7c5709b20e52e22b4811dd686443b9b00745f06",
           "url": "versions/line/v001.svg"
+        },
+        {
+          "created": "2026-09-12T22:49:19+00:00",
+          "id": "v002",
+          "note": "A continuous neutral alignment rule; no arrowhead or texture that could imply an event.",
+          "parent": "v001",
+          "sha256": "7050437b2a4ee8a00a4c582fae448a74f542154aa8fc531fca76522e88818e48",
+          "url": "versions/line/v002.svg"
+        },
+        {
+          "created": "2026-09-12T22:53:46+00:00",
+          "id": "v003",
+          "note": "Scene-controlled ink accents preserve state and future-register colors. Keep only the gradients and textures this component uses, for concise isolated editing.",
+          "parent": "v002",
+          "sha256": "6733686c2663331b4ff96e34abb51dd09d8feae24c509032db2188e69f8d7a63",
+          "url": "versions/line/v003.svg"
         }
       ]
     },
     {
       "category": "objects",
-      "default": "v001",
+      "default": "v003",
       "description": "A populated computer display. Internal strokes are abstract content, not quoted source text.",
       "id": "monitor",
       "name": "Monitor",
@@ -2329,12 +3137,28 @@
           "parent": null,
           "sha256": "0f97fcafa992ba4d28ba2ee675aaea302470b2c2130c5551596a3d6a7d9f5818",
           "url": "versions/monitor/v001.svg"
+        },
+        {
+          "created": "2026-09-12T22:49:18+00:00",
+          "id": "v002",
+          "note": "Beveled equipment casing and faint physical glass reflection; a populated sidebar and line groups identify a working display.",
+          "parent": "v001",
+          "sha256": "e3274ef2710011b7d1c3317857aa27f39e2bb915eaf597b3db719bc31414ebe5",
+          "url": "versions/monitor/v002.svg"
+        },
+        {
+          "created": "2026-09-12T22:53:46+00:00",
+          "id": "v003",
+          "note": "Scene-controlled ink accents preserve state and future-register colors. Keep only the gradients and textures this component uses, for concise isolated editing.",
+          "parent": "v002",
+          "sha256": "698d2843d46125854c50a133f449d613687552e649b184a80293b396c460d10b",
+          "url": "versions/monitor/v003.svg"
         }
       ]
     },
     {
       "category": "characters",
-      "default": "v001",
+      "default": "v003",
       "description": "A cropped, shadowed creator profile with no identifying facial detail.",
       "id": "obscured-profile",
       "name": "Obscured profile",
@@ -2352,12 +3176,28 @@
           "parent": null,
           "sha256": "dbd27f3d7947b1424b20f3a4280463a9c5444ed2c1af1040ba2dfa9ecaf5536e",
           "url": "versions/obscured-profile/v001.svg"
+        },
+        {
+          "created": "2026-09-12T22:49:19+00:00",
+          "id": "v002",
+          "note": "Selective tonal planes and sparse contour accents distinguish posture and material while retaining the anonymous original silhouette and existing facial obscuration.",
+          "parent": "v001",
+          "sha256": "3fa197d0a27d4c1dafca1b3bd21ff6799e99291dff11d0fee6cd5cb9a168d7ff",
+          "url": "versions/obscured-profile/v002.svg"
+        },
+        {
+          "created": "2026-09-12T22:53:46+00:00",
+          "id": "v003",
+          "note": "Scene-controlled ink accents preserve state and future-register colors. Keep only the gradients and textures this component uses, for concise isolated editing.",
+          "parent": "v002",
+          "sha256": "fc8689708f1723b7e8e1430d850ed59f985094b303659b363f37193ba489bce4",
+          "url": "versions/obscured-profile/v003.svg"
         }
       ]
     },
     {
       "category": "connections",
-      "default": "v001",
+      "default": "v003",
       "description": "An enclosing claim that fails to close; useful for resisting a false aggregation of distinct roles.",
       "id": "open-bracket",
       "name": "Open bracket",
@@ -2376,12 +3216,28 @@
           "parent": null,
           "sha256": "ef7fba311f0d3bdaf98765f8efdc39e771dc0d6721a450d815c63cee64725b9b",
           "url": "versions/open-bracket/v001.svg"
+        },
+        {
+          "created": "2026-09-12T22:49:19+00:00",
+          "id": "v002",
+          "note": "An incomplete enclosing bracket with a second light edge; its missing closure remains conspicuous.",
+          "parent": "v001",
+          "sha256": "62ed5dcc89ca76d4c4d1befabbc3521950c0cecdbabcee5b25992cd2eb7c891f",
+          "url": "versions/open-bracket/v002.svg"
+        },
+        {
+          "created": "2026-09-12T22:53:46+00:00",
+          "id": "v003",
+          "note": "Scene-controlled ink accents preserve state and future-register colors. Keep only the gradients and textures this component uses, for concise isolated editing.",
+          "parent": "v002",
+          "sha256": "a254696ac123afb4960a08db7af9e1e93997971b6b8474b700aea93b12d016b7",
+          "url": "versions/open-bracket/v003.svg"
         }
       ]
     },
     {
       "category": "objects",
-      "default": "v001",
+      "default": "v003",
       "description": "An opened gate, used only where the relevant access is established.",
       "id": "open-gate",
       "name": "Open gate",
@@ -2400,12 +3256,28 @@
           "parent": null,
           "sha256": "308efde754481f333471b9c45d6f2c52b5c9299c0c2ea8c001b02277742723fb",
           "url": "versions/open-gate/v001.svg"
+        },
+        {
+          "created": "2026-09-12T22:49:18+00:00",
+          "id": "v002",
+          "note": "Metal gateposts and two foreshortened open leaves leave a clear empty passage. The state is carried by geometry, not a traffic-light color.",
+          "parent": "v001",
+          "sha256": "544f92d37cea3c90bdb22e66fb375f9c9f5b816feed2adb8ed27fc8438d133d3",
+          "url": "versions/open-gate/v002.svg"
+        },
+        {
+          "created": "2026-09-12T22:53:46+00:00",
+          "id": "v003",
+          "note": "Scene-controlled ink accents preserve state and future-register colors. Keep only the gradients and textures this component uses, for concise isolated editing.",
+          "parent": "v002",
+          "sha256": "36594c42048ab2340c612b95c3428fbbf90441b842ffaae8b9931532b237710c",
+          "url": "versions/open-gate/v003.svg"
         }
       ]
     },
     {
       "category": "connections",
-      "default": "v001",
+      "default": "v003",
       "description": "An explicit enclosing scope or separate compartment, with a transparent interior.",
       "id": "outline-box",
       "name": "Outline box",
@@ -2484,12 +3356,28 @@
           "parent": null,
           "sha256": "2e0457233345f4f4f15aa486dd4d18d195b74a15cdc587b21453b8ea3d0e501d",
           "url": "versions/outline-box/v001.svg"
+        },
+        {
+          "created": "2026-09-12T22:49:19+00:00",
+          "id": "v002",
+          "note": "Transparent scope with corner registration marks; no material fill that could hide nested objects.",
+          "parent": "v001",
+          "sha256": "b91825c2cdc6a3d3a23c6a0950e06fb88d36e0bedf1b773e31a4111ba278500b",
+          "url": "versions/outline-box/v002.svg"
+        },
+        {
+          "created": "2026-09-12T22:53:46+00:00",
+          "id": "v003",
+          "note": "Scene-controlled ink accents preserve state and future-register colors. Keep only the gradients and textures this component uses, for concise isolated editing.",
+          "parent": "v002",
+          "sha256": "125a1463f1a3ddabe11e1c8b19946c1ce90b24cf1cfec8e38644c9ed08c57b23",
+          "url": "versions/outline-box/v003.svg"
         }
       ]
     },
     {
       "category": "objects",
-      "default": "v001",
+      "default": "v004",
       "description": "Two opaque result shapes aligned on common guides to demonstrate equality without exposing values.",
       "id": "packet-match",
       "name": "Packet match",
@@ -2508,12 +3396,36 @@
           "parent": null,
           "sha256": "efd1eac36bfcbbd4a1b72a69edad3d5a406d37561099686a0ce6a80989ca8ba0",
           "url": "versions/packet-match/v001.svg"
+        },
+        {
+          "created": "2026-09-12T22:49:18+00:00",
+          "id": "v002",
+          "note": "Opaque packets share alignment guides and surface shading; identical silhouettes plus an equals sign show agreement. No encoded values are revealed.",
+          "parent": "v001",
+          "sha256": "24166c784f312cc6d2766c7c2fe739893ba26413a5f1901a39a75b0e2a927d64",
+          "url": "versions/packet-match/v002.svg"
+        },
+        {
+          "created": "2026-09-12T22:53:47+00:00",
+          "id": "v003",
+          "note": "Scene-controlled ink accents preserve state and future-register colors. Keep only the gradients and textures this component uses, for concise isolated editing.",
+          "parent": "v002",
+          "sha256": "e9e6c4d1bcb0a46f9de4ab37cc0abee28dd9351d73981f656906ba9aaeb00347",
+          "url": "versions/packet-match/v003.svg"
+        },
+        {
+          "created": "2026-09-12T22:57:19+00:00",
+          "id": "v004",
+          "note": "Keep the relationship glyph visible on both paper and dark surfaces by using scene ink rather than a pale-only stroke.",
+          "parent": "v003",
+          "sha256": "e33502069d8602ed40d862e9dd8b55e3a71d33b3595e8d73f5fe48d5192cdc9d",
+          "url": "versions/packet-match/v004.svg"
         }
       ]
     },
     {
       "category": "objects",
-      "default": "v001",
+      "default": "v004",
       "description": "Two opaque result shapes that visibly disagree, preserving concealed contents.",
       "id": "packet-mismatch",
       "name": "Packet mismatch",
@@ -2531,12 +3443,36 @@
           "parent": null,
           "sha256": "bbc597b84bcef3937d5cce0e6510d97c9362ac9b6ad13aaba43b8bde0520334d",
           "url": "versions/packet-mismatch/v001.svg"
+        },
+        {
+          "created": "2026-09-12T22:49:18+00:00",
+          "id": "v002",
+          "note": "Opaque packets share alignment guides and surface shading; different silhouettes plus a cross show disagreement. No encoded values are revealed.",
+          "parent": "v001",
+          "sha256": "13db855f12edb9dc51c47432f44d59cb16c4f0b53ff2ae15aba324c3c4491d7d",
+          "url": "versions/packet-mismatch/v002.svg"
+        },
+        {
+          "created": "2026-09-12T22:53:47+00:00",
+          "id": "v003",
+          "note": "Scene-controlled ink accents preserve state and future-register colors. Keep only the gradients and textures this component uses, for concise isolated editing.",
+          "parent": "v002",
+          "sha256": "1a0ee1d0917c30088de01269b7d23494731ed8fc3fac1a0121a950a4a7cc44d9",
+          "url": "versions/packet-mismatch/v003.svg"
+        },
+        {
+          "created": "2026-09-12T22:57:20+00:00",
+          "id": "v004",
+          "note": "Keep the relationship glyph visible on both paper and dark surfaces by using scene ink rather than a pale-only stroke.",
+          "parent": "v003",
+          "sha256": "fdcf6d1ad8da3ee585ad197b6bbcb26f7cfb7b2a79cdea4c9145895200cd47f2",
+          "url": "versions/packet-mismatch/v004.svg"
         }
       ]
     },
     {
       "category": "locations",
-      "default": "v001",
+      "default": "v003",
       "description": "Separate reconstructed Hugging Face operations setting: a tiled incident-display wall and a distinct blank paging recess, with open floor for occupied or empty chairs. Does not imply any person received, ignored or acknowledged an alert. Display contents and paging failure belong to foreground objects and lettering.",
       "id": "paging-operations-room",
       "name": "Paging operations setting",
@@ -2555,12 +3491,28 @@
           "parent": null,
           "sha256": "fcf886bd0909ae73bc86a17c3324d6b5c5cd83218b295aa842c9644b0ce748d7",
           "url": "versions/paging-operations-room/v001.svg"
+        },
+        {
+          "created": "2026-09-12T22:49:19+00:00",
+          "id": "v002",
+          "note": "Separate ceiling, wall and floor values, with two passive glass display tiles. Transparent shading stays behind scene actors and claims.",
+          "parent": "v001",
+          "sha256": "a41a223c1bf4eeba054a88d41e633f3f0e29b316084ffcdf201a8e74e5764bac",
+          "url": "versions/paging-operations-room/v002.svg"
+        },
+        {
+          "created": "2026-09-12T22:53:47+00:00",
+          "id": "v003",
+          "note": "Keep only the gradients and textures this component uses, for concise isolated editing.",
+          "parent": "v002",
+          "sha256": "e9f0e26a28eda1d68de947ef74a9e3e2056f278226cc6bece2d27c430aa10a65",
+          "url": "versions/paging-operations-room/v003.svg"
         }
       ]
     },
     {
       "category": "objects",
-      "default": "v001",
+      "default": "v003",
       "description": "A manuscript or source sheet in a human documentary context.",
       "id": "paper",
       "name": "Paper",
@@ -2634,12 +3586,28 @@
           "parent": null,
           "sha256": "4768c186cc58684e2f1363c41a505551a1dae6e33dac5ea5dbabc54ca03f4140",
           "url": "versions/paper/v001.svg"
+        },
+        {
+          "created": "2026-09-12T22:49:18+00:00",
+          "id": "v002",
+          "note": "Warm fibrous paper, a folded corner and uneven paragraph lengths identify a human-readable source or manuscript sheet.",
+          "parent": "v001",
+          "sha256": "622a7ecd0559130e830e820e2013b7e3d4b28f333fff4af44aef8e8850816a14",
+          "url": "versions/paper/v002.svg"
+        },
+        {
+          "created": "2026-09-12T22:53:47+00:00",
+          "id": "v003",
+          "note": "Scene-controlled ink accents preserve state and future-register colors. Keep only the gradients and textures this component uses, for concise isolated editing.",
+          "parent": "v002",
+          "sha256": "8d9009409c50d5b2c3977cee6a7461557c556536211477df8be49088e0a87c5a",
+          "url": "versions/paper/v003.svg"
         }
       ]
     },
     {
       "category": "characters",
-      "default": "v001",
+      "default": "v004",
       "description": "An anonymous seated blocking figure for reconstructed human scenes. No approved likeness is implied.",
       "id": "person-seated",
       "name": "Person seated",
@@ -2696,12 +3664,28 @@
           "parent": "v001",
           "sha256": "736d5cd95b3200c1406b2b97a8c068ee3ccc6961f863b97062a535b0d7ebc56f",
           "url": "versions/person-seated/v002.svg"
+        },
+        {
+          "created": "2026-09-12T22:49:19+00:00",
+          "id": "v003",
+          "note": "Selective tonal planes and sparse contour accents distinguish posture and material while retaining the anonymous original silhouette and existing facial obscuration.",
+          "parent": "v001",
+          "sha256": "beca4c1cc260498c2d67a9a0bbdc7ec358b68218d2053343954473aa007905de",
+          "url": "versions/person-seated/v003.svg"
+        },
+        {
+          "created": "2026-09-12T22:53:47+00:00",
+          "id": "v004",
+          "note": "Scene-controlled ink accents preserve state and future-register colors. Keep only the gradients and textures this component uses, for concise isolated editing.",
+          "parent": "v003",
+          "sha256": "ed584c5dbcfc2c94fb7fa0119cbd85595db4593dd0826d039277d3f0c391bf20",
+          "url": "versions/person-seated/v004.svg"
         }
       ]
     },
     {
       "category": "characters",
-      "default": "v001",
+      "default": "v003",
       "description": "An anonymous standing functional role. Keep institutional roles distinct through labels and placement.",
       "id": "person-standing",
       "name": "Person standing",
@@ -2725,12 +3709,28 @@
           "parent": null,
           "sha256": "5c9d183fd83649384c90f313e8b7534b49e1cd01bff7d519f6e30c2fae189de5",
           "url": "versions/person-standing/v001.svg"
+        },
+        {
+          "created": "2026-09-12T22:49:19+00:00",
+          "id": "v002",
+          "note": "Selective tonal planes and sparse contour accents distinguish posture and material while retaining the anonymous original silhouette and existing facial obscuration.",
+          "parent": "v001",
+          "sha256": "0803b6bfadf7957df5be1a0b14be4260cbe22d8e9aeff8b0866183ccbd6f796d",
+          "url": "versions/person-standing/v002.svg"
+        },
+        {
+          "created": "2026-09-12T22:53:47+00:00",
+          "id": "v003",
+          "note": "Scene-controlled ink accents preserve state and future-register colors. Keep only the gradients and textures this component uses, for concise isolated editing.",
+          "parent": "v002",
+          "sha256": "07ded79639618bd269f12638b0f0c142fd09e9a9e3180b846fa6f1a3a0a371fc",
+          "url": "versions/person-standing/v003.svg"
         }
       ]
     },
     {
       "category": "locations",
-      "default": "v002",
+      "default": "v004",
       "description": "Bare page-history frame with distinct header columns and open-ended side rules, sized to hold the scene’s revision rows and two independent clocks. Contains no fabricated records, handles, dates or deletion counts. Use for the public-wiki register only; a saved revision is not proof of task success.",
       "id": "public-wiki-history",
       "name": "Public wiki revision-history background",
@@ -2756,12 +3756,28 @@
           "parent": "v001",
           "sha256": "b90622cac90ecc833a3aecc259069f1b1a3741482d49a9582091c64bdb2080e7",
           "url": "versions/public-wiki-history/v002.svg"
+        },
+        {
+          "created": "2026-09-12T22:49:20+00:00",
+          "id": "v003",
+          "note": "Material register: subtle alternating clock-column tones, without obscuring records or implying unequal status.",
+          "parent": "v002",
+          "sha256": "3f1579f46e50e7474278f04b30953f2bcb682a0fbf8df236c8a6b2b4bf71e440",
+          "url": "versions/public-wiki-history/v003.svg"
+        },
+        {
+          "created": "2026-09-12T22:53:47+00:00",
+          "id": "v004",
+          "note": "Keep only the gradients and textures this component uses, for concise isolated editing.",
+          "parent": "v003",
+          "sha256": "c6efb6025d8c4c0513befde1c47321fbd437d54ce49918acaf169abff38d51ed",
+          "url": "versions/public-wiki-history/v004.svg"
         }
       ]
     },
     {
       "category": "locations",
-      "default": "v001",
+      "default": "v003",
       "description": "Plain self-hosted community-wiki surface with an offset navigation margin, small page tabs and a large content area. Visually distinct from the cache tree and terminal UI. Scene lettering supplies dated German-interface context and attributed contents; no real site address, maintainer identity or personal human-page details are baked in.",
       "id": "public-wiki-site",
       "name": "Public community wiki page",
@@ -2780,12 +3796,28 @@
           "parent": null,
           "sha256": "14da0e3b59d8bbcb19acd08274135a5aec9a885eb40f34cf5f098d9d437b2cfa",
           "url": "versions/public-wiki-site/v001.svg"
+        },
+        {
+          "created": "2026-09-12T22:49:20+00:00",
+          "id": "v002",
+          "note": "Material register: light community-page stock with an offset navigation rail; distinct from dark tools.",
+          "parent": "v001",
+          "sha256": "e4a30280d26ea8b9214fcc6d53ab9ea3b2cdf74bfd517ef9bf8ee7393b79e7c5",
+          "url": "versions/public-wiki-site/v002.svg"
+        },
+        {
+          "created": "2026-09-12T22:53:47+00:00",
+          "id": "v003",
+          "note": "Keep only the gradients and textures this component uses, for concise isolated editing.",
+          "parent": "v002",
+          "sha256": "1be97f863c6dd14a29f57cbabf2afc31c52845b147e2c4d8534373eb32f541bd",
+          "url": "versions/public-wiki-site/v003.svg"
         }
       ]
     },
     {
       "category": "objects",
-      "default": "v001",
+      "default": "v003",
       "description": "An unresolved proposition, cause or missing answer; not a claim that all possibilities are equally likely.",
       "id": "question",
       "name": "Question",
@@ -2829,12 +3861,28 @@
           "parent": null,
           "sha256": "06f8dbd6fbe117ee1330aa296faf94a921545f2c95ac10dc729558719be8b688",
           "url": "versions/question/v001.svg"
+        },
+        {
+          "created": "2026-09-12T22:49:19+00:00",
+          "id": "v002",
+          "note": "A rounded unresolved hook with a separate dot and tonal stroke; it remains an open question.",
+          "parent": "v001",
+          "sha256": "70be41fa4ab6177a95a58790be98e848617fb3b0f33c3eeae06f2da441b25c6e",
+          "url": "versions/question/v002.svg"
+        },
+        {
+          "created": "2026-09-12T22:53:47+00:00",
+          "id": "v003",
+          "note": "Scene-controlled ink accents preserve state and future-register colors. Keep only the gradients and textures this component uses, for concise isolated editing.",
+          "parent": "v002",
+          "sha256": "c2a911da34382771740bc4a95c2256e6ede598ca3c1c90477a97512f8605b44f",
+          "url": "versions/question/v003.svg"
         }
       ]
     },
     {
       "category": "objects",
-      "default": "v001",
+      "default": "v003",
       "description": "A data-center rack that represents infrastructure rather than an agent body.",
       "id": "rack",
       "name": "Rack",
@@ -2869,12 +3917,28 @@
           "parent": null,
           "sha256": "b56d19509c0923ca1d64a8d16cb0551507199e45755840635826475b84e27d0f",
           "url": "versions/rack/v001.svg"
+        },
+        {
+          "created": "2026-09-12T22:49:18+00:00",
+          "id": "v002",
+          "note": "Repeated perforated rack modules, side rails and passive handles make equipment legible without invented status lights.",
+          "parent": "v001",
+          "sha256": "c6989d860343f2dc3d2210f5558e1d756e6e5f3f216a30228488782ec88d2163",
+          "url": "versions/rack/v002.svg"
+        },
+        {
+          "created": "2026-09-12T22:53:47+00:00",
+          "id": "v003",
+          "note": "Scene-controlled ink accents preserve state and future-register colors. Keep only the gradients and textures this component uses, for concise isolated editing.",
+          "parent": "v002",
+          "sha256": "0072b615db401e1363a8ea14d226c442a4964e424c4a0bea512f48dfba00b29c",
+          "url": "versions/rack/v003.svg"
         }
       ]
     },
     {
       "category": "connections",
-      "default": "v001",
+      "default": "v004",
       "description": "Opposing write and read directions through shared state. It must not imply a direct peer-to-peer channel.",
       "id": "read-write",
       "name": "Read write",
@@ -2897,12 +3961,36 @@
           "parent": null,
           "sha256": "47686d05361118d356b830337c394ed1d34b322f36b11ed9a4d55e501d086282",
           "url": "versions/read-write/v001.svg"
+        },
+        {
+          "created": "2026-09-12T22:49:18+00:00",
+          "id": "v002",
+          "note": "Two separated, opposing lanes with filled endpoints distinguish bidirectional shared-state access from one combined arrow.",
+          "parent": "v001",
+          "sha256": "e28bc42bac79f767cb7f43f88f6be2a87e418fb669dfd0f10b9c0a434e587380",
+          "url": "versions/read-write/v002.svg"
+        },
+        {
+          "created": "2026-09-12T22:53:47+00:00",
+          "id": "v003",
+          "note": "Scene-controlled ink accents preserve state and future-register colors. Keep only the gradients and textures this component uses, for concise isolated editing.",
+          "parent": "v002",
+          "sha256": "b2bd9ce7265a139f8e98afe6d18423adb8695ee9b1d602549fc44398402f283b",
+          "url": "versions/read-write/v003.svg"
+        },
+        {
+          "created": "2026-09-12T23:00:58+00:00",
+          "id": "v004",
+          "note": "Solid scene-colored shafts and endpoints preserve direction at thin storyboard sizes; remove reflective edges that broke up the route.",
+          "parent": "v003",
+          "sha256": "25ea16d7f3b4533029808dc1f739b7dfbac401505c81936f89fc441f2336abe5",
+          "url": "versions/read-write/v004.svg"
         }
       ]
     },
     {
       "category": "connections",
-      "default": "v001",
+      "default": "v003",
       "description": "A broken frame that distinguishes reconstructed staging from a rigid evidence card.",
       "id": "reconstructed-box",
       "name": "Reconstructed box",
@@ -2921,12 +4009,28 @@
           "parent": null,
           "sha256": "71a4bced887173efcd9ad894a4a568856de5cf3c90b0f41cfbb217ee2071affd",
           "url": "versions/reconstructed-box/v001.svg"
+        },
+        {
+          "created": "2026-09-12T22:49:19+00:00",
+          "id": "v002",
+          "note": "An offset broken underdrawing with a transparent center distinguishes reconstructed framing while preserving evidence underneath.",
+          "parent": "v001",
+          "sha256": "df8bfb6307f7e0fc183f0980c9dd3551aa766f0cda74358ce5e6598f4a2f713d",
+          "url": "versions/reconstructed-box/v002.svg"
+        },
+        {
+          "created": "2026-09-12T22:53:47+00:00",
+          "id": "v003",
+          "note": "Scene-controlled ink accents preserve state and future-register colors. Keep only the gradients and textures this component uses, for concise isolated editing.",
+          "parent": "v002",
+          "sha256": "4d6e1538f3fd41bac18369b9c7f96d674b2d4ad73b91e95a3037c96dcb963cc4",
+          "url": "versions/reconstructed-box/v003.svg"
         }
       ]
     },
     {
       "category": "connections",
-      "default": "v001",
+      "default": "v004",
       "description": "A reply relationship between two stored entries, preserving the original above the response.",
       "id": "reply-bracket",
       "name": "Reply bracket",
@@ -2944,12 +4048,36 @@
           "parent": null,
           "sha256": "f4bea9747cdfd40fd2dc3128771107b5405e15b8427e0016c397838bd83d5a88",
           "url": "versions/reply-bracket/v001.svg"
+        },
+        {
+          "created": "2026-09-12T22:49:19+00:00",
+          "id": "v002",
+          "note": "Bent return rail with one filled endpoint, preserving the original-above-response relation.",
+          "parent": "v001",
+          "sha256": "d8408e160ce5c916779904cac70db97f7d30924e6b8a45ce968180c974f4a181",
+          "url": "versions/reply-bracket/v002.svg"
+        },
+        {
+          "created": "2026-09-12T22:53:47+00:00",
+          "id": "v003",
+          "note": "Scene-controlled ink accents preserve state and future-register colors. Keep only the gradients and textures this component uses, for concise isolated editing.",
+          "parent": "v002",
+          "sha256": "bb5fe1ff7089266ea8878f38b2558933396982e3d0847fdd53b87718778a7cda",
+          "url": "versions/reply-bracket/v003.svg"
+        },
+        {
+          "created": "2026-09-12T23:00:58+00:00",
+          "id": "v004",
+          "note": "Solid scene-colored shafts and endpoints preserve direction at thin storyboard sizes; remove reflective edges that broke up the route.",
+          "parent": "v003",
+          "sha256": "2f0fbd1cfa2e2e70654a2d04056b107140067af56791a87f9c9f5acc2214af78",
+          "url": "versions/reply-bracket/v004.svg"
         }
       ]
     },
     {
       "category": "locations",
-      "default": "v001",
+      "default": "v005",
       "description": "A generic room envelope with stable perspective, available for independent environment studies.",
       "id": "room",
       "name": "Room",
@@ -2973,12 +4101,36 @@
           "parent": "v001",
           "sha256": "71d4f56993badc798d9bf1a153f153d60ae69f8c09d7e3907c497735b461d19e",
           "url": "versions/room/v002.svg"
+        },
+        {
+          "created": "2026-09-12T22:49:19+00:00",
+          "id": "v003",
+          "note": "Separate ceiling, wall and floor values, with neutral paper-grain floor. Transparent shading stays behind scene actors and claims.",
+          "parent": "v001",
+          "sha256": "21196923fdcfde7b7622b27c37dced5d711bde6a1a6838ae6f126812a487d754",
+          "url": "versions/room/v003.svg"
+        },
+        {
+          "created": "2026-09-12T22:53:47+00:00",
+          "id": "v004",
+          "note": "Keep only the gradients and textures this component uses, for concise isolated editing.",
+          "parent": "v003",
+          "sha256": "f9a2b3bb40b2537450ab67ca8f4b0c443a4e90a694115d8a90aa66067e9919a8",
+          "url": "versions/room/v004.svg"
+        },
+        {
+          "created": "2026-09-12T22:57:20+00:00",
+          "id": "v005",
+          "note": "Align material planes with the generic room’s original vanishing geometry; remove the mismatched ceiling and floor seams.",
+          "parent": "v004",
+          "sha256": "59df1928fa444ee366c771e3dcd5a23999edd636c758cbfd40fd595d436b876a",
+          "url": "versions/room/v005.svg"
         }
       ]
     },
     {
       "category": "objects",
-      "default": "v001",
+      "default": "v003",
       "description": "A schematic field of records or activity. The number of marks is not a documentary census.",
       "id": "scatter",
       "name": "Scatter",
@@ -3016,12 +4168,28 @@
           "parent": null,
           "sha256": "e3e600d5ae334d59d3322ee5f2d44e928c394f003f6838dd5252f2509ee872c1",
           "url": "versions/scatter/v001.svg"
+        },
+        {
+          "created": "2026-09-12T22:49:20+00:00",
+          "id": "v002",
+          "note": "Uneven record lengths and toner-density variation indicate a schematic corpus without a falsely precise uniform census.",
+          "parent": "v001",
+          "sha256": "5fcd0c812e7d30f26e9bb7d125cb6b1e19addb6cd6c1c852c475e40654153da2",
+          "url": "versions/scatter/v002.svg"
+        },
+        {
+          "created": "2026-09-12T22:53:47+00:00",
+          "id": "v003",
+          "note": "Scene-controlled ink accents preserve state and future-register colors. Keep only the gradients and textures this component uses, for concise isolated editing.",
+          "parent": "v002",
+          "sha256": "809a653445770afe6471f3d298817c28f4bf69c4b847bc61868c452cf9cc8e23",
+          "url": "versions/scatter/v003.svg"
         }
       ]
     },
     {
       "category": "objects",
-      "default": "v001",
+      "default": "v003",
       "description": "An opaque access card with visibly restricted scope. Values remain concealed.",
       "id": "scope-narrow",
       "name": "Scope narrow",
@@ -3040,12 +4208,28 @@
           "parent": null,
           "sha256": "85a29b3d42246ed8e8004030e3b123ce8810a6f6216fb59733d0e7f8ff29e65f",
           "url": "versions/scope-narrow/v001.svg"
+        },
+        {
+          "created": "2026-09-12T22:49:18+00:00",
+          "id": "v002",
+          "note": "Notched opaque permission pass with one accessible scope window and three dark compartments. Compare breadth without exposing credential values.",
+          "parent": "v001",
+          "sha256": "f123c52d40f0c5d23c740ddd569b0f25e36177c1928630c40e4f411224c2daa7",
+          "url": "versions/scope-narrow/v002.svg"
+        },
+        {
+          "created": "2026-09-12T22:53:47+00:00",
+          "id": "v003",
+          "note": "Increase filled-state contrast so scope and budget differences survive small-size and grayscale viewing. Scene-controlled ink accents preserve state and future-register colors. Keep only the gradients and textures this component uses, for concise isolated editing.",
+          "parent": "v002",
+          "sha256": "9b2d8e93ab7117d6ca16a3e80008c049bc827910d1d3a67a17d17678e69945f3",
+          "url": "versions/scope-narrow/v003.svg"
         }
       ]
     },
     {
       "category": "objects",
-      "default": "v001",
+      "default": "v003",
       "description": "An opaque access card with broad scope, comparable at equal scale to narrow scope.",
       "id": "scope-wide",
       "name": "Scope wide",
@@ -3066,12 +4250,28 @@
           "parent": null,
           "sha256": "f4bf0f0c00f24355fa9a2d234229d966571f4dcbf2f16f452bb327952502321a",
           "url": "versions/scope-wide/v001.svg"
+        },
+        {
+          "created": "2026-09-12T22:49:18+00:00",
+          "id": "v002",
+          "note": "Notched opaque permission pass with four accessible scope windows. Compare breadth without exposing credential values.",
+          "parent": "v001",
+          "sha256": "9ec012c39bbccb270200225b2245f5d26022410b5ceedf37f69c761c456ed20b",
+          "url": "versions/scope-wide/v002.svg"
+        },
+        {
+          "created": "2026-09-12T22:53:47+00:00",
+          "id": "v003",
+          "note": "Increase filled-state contrast so scope and budget differences survive small-size and grayscale viewing. Scene-controlled ink accents preserve state and future-register colors. Keep only the gradients and textures this component uses, for concise isolated editing.",
+          "parent": "v002",
+          "sha256": "30721623fb57f92fc2835e5f11123570af9c718ee2214682aae7e2c3b932899a",
+          "url": "versions/scope-wide/v003.svg"
         }
       ]
     },
     {
       "category": "objects",
-      "default": "v001",
+      "default": "v003",
       "description": "A physically redacted artifact with hidden contents; its existence or class can still be shown.",
       "id": "sealed",
       "name": "Sealed",
@@ -3172,12 +4372,28 @@
           "parent": null,
           "sha256": "66e69886a15897e8ed493899aae94cd927960d30d12fc6521c2ba93e038464ab",
           "url": "versions/sealed/v001.svg"
+        },
+        {
+          "created": "2026-09-12T22:49:18+00:00",
+          "id": "v002",
+          "note": "Physical black redaction tape on paper, with worn tape edges; hidden content stays completely concealed and differs from an empty answer field.",
+          "parent": "v001",
+          "sha256": "e9b0b2619588652cca3d267e31083866b1b12c40881b0fcb023a73167594c08b",
+          "url": "versions/sealed/v002.svg"
+        },
+        {
+          "created": "2026-09-12T22:53:47+00:00",
+          "id": "v003",
+          "note": "Scene-controlled ink accents preserve state and future-register colors. Keep only the gradients and textures this component uses, for concise isolated editing.",
+          "parent": "v002",
+          "sha256": "194edc533e107802eaee12c59a3755f7b266c6f6018e9c161b311b2f1babc87c",
+          "url": "versions/sealed/v003.svg"
         }
       ]
     },
     {
       "category": "objects",
-      "default": "v001",
+      "default": "v003",
       "description": "A tabular documentary surface, such as a scheduler or event ledger.",
       "id": "sheet",
       "name": "Sheet",
@@ -3206,12 +4422,28 @@
           "parent": null,
           "sha256": "b0d60268515d617360992a6fd772e1623b148451061ed1dbf5b1174ddeed052b",
           "url": "versions/sheet/v001.svg"
+        },
+        {
+          "created": "2026-09-12T22:49:18+00:00",
+          "id": "v002",
+          "note": "Tabular stock with tinted row gutter and a strong header; fine neutral grid rules distinguish a ledger from prose or an interface.",
+          "parent": "v001",
+          "sha256": "60e6dd6143a73d70e7ef95b89a9c0e31a2369052b66de9aef0a3360e36d8c0b1",
+          "url": "versions/sheet/v002.svg"
+        },
+        {
+          "created": "2026-09-12T22:53:47+00:00",
+          "id": "v003",
+          "note": "Scene-controlled ink accents preserve state and future-register colors. Keep only the gradients and textures this component uses, for concise isolated editing.",
+          "parent": "v002",
+          "sha256": "62977c3eaf5875ae300e04778f8505573657f4b93ed416066235a921834deec8",
+          "url": "versions/sheet/v003.svg"
         }
       ]
     },
     {
       "category": "connections",
-      "default": "v001",
+      "default": "v003",
       "description": "A speech-shaped connection for disclosed human dialogue, never raw agent interiority.",
       "id": "speech",
       "name": "Speech",
@@ -3227,12 +4459,28 @@
           "parent": null,
           "sha256": "d3a9451263c033160d6ab2801327fee1563afd103278d62a27dd6140fee4bc87",
           "url": "versions/speech/v001.svg"
+        },
+        {
+          "created": "2026-09-12T22:49:19+00:00",
+          "id": "v002",
+          "note": "Warm speech stock and a tapered tail distinguish disclosed human speech from rigid evidence cards.",
+          "parent": "v001",
+          "sha256": "9a2095db969b947051c10ba491f3b5041009c879d6d04443a74a39e6b2a04581",
+          "url": "versions/speech/v002.svg"
+        },
+        {
+          "created": "2026-09-12T22:53:47+00:00",
+          "id": "v003",
+          "note": "Scene-controlled ink accents preserve state and future-register colors. Keep only the gradients and textures this component uses, for concise isolated editing.",
+          "parent": "v002",
+          "sha256": "500b26ea5f42df2e70f10688219724b63c15ea32e1ec210f2f94137e3438ce09",
+          "url": "versions/speech/v003.svg"
         }
       ]
     },
     {
       "category": "objects",
-      "default": "v001",
+      "default": "v003",
       "description": "An analytic sequence of prerequisites. It must not imply a literal ascent or a documented agent plan.",
       "id": "stairs",
       "name": "Stairs",
@@ -3260,12 +4508,28 @@
           "parent": null,
           "sha256": "579af7b4944c0fc94bbcbbcb0ba6865c5d90263984a3cfa17c08ff564add44bd",
           "url": "versions/stairs/v001.svg"
+        },
+        {
+          "created": "2026-09-12T22:49:19+00:00",
+          "id": "v002",
+          "note": "Separate riser and tread planes clarify prerequisites while keeping the sequence abstract.",
+          "parent": "v001",
+          "sha256": "1a096296b548696bd4eaad62d1ccce32c8c242e7a8373ffade2946accf5dfa3c",
+          "url": "versions/stairs/v002.svg"
+        },
+        {
+          "created": "2026-09-12T22:53:47+00:00",
+          "id": "v003",
+          "note": "Scene-controlled ink accents preserve state and future-register colors. Keep only the gradients and textures this component uses, for concise isolated editing.",
+          "parent": "v002",
+          "sha256": "651f90fc82ecb6299533dec0e3af4dbbe54dccdb08c0e386adbfea25ad848927",
+          "url": "versions/stairs/v003.svg"
         }
       ]
     },
     {
       "category": "objects",
-      "default": "v001",
+      "default": "v003",
       "description": "A task card with target, objective and remaining-budget fields, distinct from a generic evidence document.",
       "id": "task",
       "name": "Task",
@@ -3337,12 +4601,28 @@
           "parent": null,
           "sha256": "99163694c922494aed281d7324f1f98407b2ec16b4010ac24718e938a68618b1",
           "url": "versions/task/v001.svg"
+        },
+        {
+          "created": "2026-09-12T22:49:18+00:00",
+          "id": "v002",
+          "note": "Clipped task docket, target reticle, objective lines and a separate budget channel; visibly different from a generic evidence card.",
+          "parent": "v001",
+          "sha256": "8b6ec47bcaaef3c8d302997c40eeb96cde196e555730b6c06b8b1b161eb63b2a",
+          "url": "versions/task/v002.svg"
+        },
+        {
+          "created": "2026-09-12T22:53:47+00:00",
+          "id": "v003",
+          "note": "Scene-controlled ink accents preserve state and future-register colors. Keep only the gradients and textures this component uses, for concise isolated editing.",
+          "parent": "v002",
+          "sha256": "2e1e80a76211e10b1cebf51d08d02e6ecf63a5499742f2120c901e326a46dfe9",
+          "url": "versions/task/v003.svg"
         }
       ]
     },
     {
       "category": "objects",
-      "default": "v001",
+      "default": "v003",
       "description": "A plain tooling or command interface. Visible commands and exact source text are controlled separately.",
       "id": "terminal",
       "name": "Terminal",
@@ -3381,12 +4661,28 @@
           "parent": null,
           "sha256": "e9f0c7b7c2cbded866c094f37601a5327858349118e2d17674e6717f43840d1e",
           "url": "versions/terminal/v001.svg"
+        },
+        {
+          "created": "2026-09-12T22:49:18+00:00",
+          "id": "v002",
+          "note": "Compact tooling window with a solid title rail, recessed dark field and angular prompt; distinct from a physical monitor.",
+          "parent": "v001",
+          "sha256": "d918c899275fbee3a8635e58565eba7abefd30deb283f545b0ff303a96d67734",
+          "url": "versions/terminal/v002.svg"
+        },
+        {
+          "created": "2026-09-12T22:53:47+00:00",
+          "id": "v003",
+          "note": "Scene-controlled ink accents preserve state and future-register colors. Keep only the gradients and textures this component uses, for concise isolated editing.",
+          "parent": "v002",
+          "sha256": "008ac6ee8be119e9104a2a6a2e2e1ee5f4c5b91fba48e813a89696ba1f36c194",
+          "url": "versions/terminal/v003.svg"
         }
       ]
     },
     {
       "category": "objects",
-      "default": "v001",
+      "default": "v003",
       "description": "A severity bar below an explicit threshold, without fabricating a numeric score.",
       "id": "threshold",
       "name": "Threshold",
@@ -3404,12 +4700,28 @@
           "parent": null,
           "sha256": "7fcde11d86bece95acf3580b09fd80d5cfa7579bbcb8995f2e4316bd69b5a158",
           "url": "versions/threshold/v001.svg"
+        },
+        {
+          "created": "2026-09-12T22:49:19+00:00",
+          "id": "v002",
+          "note": "A low bar in a dark field, with ticks marking the explicit threshold; no invented numeric score.",
+          "parent": "v001",
+          "sha256": "0c5172586cd1a739a92f32b7e5025ad9202b97cf167159ddcce210cb6883e44f",
+          "url": "versions/threshold/v002.svg"
+        },
+        {
+          "created": "2026-09-12T22:53:47+00:00",
+          "id": "v003",
+          "note": "Scene-controlled ink accents preserve state and future-register colors. Keep only the gradients and textures this component uses, for concise isolated editing.",
+          "parent": "v002",
+          "sha256": "4e3c6c20069858fffc8a6cec3803c58d2ce0e2425870344c65094446d42e0983",
+          "url": "versions/threshold/v003.svg"
         }
       ]
     },
     {
       "category": "objects",
-      "default": "v001",
+      "default": "v003",
       "description": "A retained-record strip with separate sequence gutter and content rows; missingness must be added explicitly.",
       "id": "transcript",
       "name": "Transcript",
@@ -3447,11 +4759,27 @@
           "parent": null,
           "sha256": "3a5bcdaef5c0aa71cbec833e6e9a046d1889560193ed924dcb63eee2de6d1643",
           "url": "versions/transcript/v001.svg"
+        },
+        {
+          "created": "2026-09-12T22:49:18+00:00",
+          "id": "v002",
+          "note": "Continuous bound record strip: repeated sequence holes and grouped context lines distinguish retained transcript material from a single card.",
+          "parent": "v001",
+          "sha256": "b83b9c0329fb850fcd41d9cb420683d0aa4f6d7265ad611b524c3a3ce0d9937f",
+          "url": "versions/transcript/v002.svg"
+        },
+        {
+          "created": "2026-09-12T22:53:47+00:00",
+          "id": "v003",
+          "note": "Scene-controlled ink accents preserve state and future-register colors. Keep only the gradients and textures this component uses, for concise isolated editing.",
+          "parent": "v002",
+          "sha256": "43f478fe6099e8f0ad6e075eb0113a744921f9e3962649c20d48e18faedf92af",
+          "url": "versions/transcript/v003.svg"
         }
       ]
     }
   ],
   "editable": false,
-  "revision": "1ee9f702f3f2a1e84811a0281fe9a8d0a801feabe6999ff1fd279a83c0f6190e",
+  "revision": "e043bb62d518595776ed2eab14d8fcec2340872722f47d2fdf6ff82a89a1625b",
   "token": null
 }

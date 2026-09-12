@@ -394,6 +394,19 @@ def check():
         assert lib.errors(),'Missing pins must fail'
         (root/'data/storyboards.json').unlink()
         out=root/'out';gallery(out,lib);check_built(out,lib)
+        # Paint definitions must not become extra limbs or alter QR geometry.
+        import antpose
+        import qrant
+        ant=json.loads(Library().compat.read_text())['assets']['ant']
+        painted='<defs><pattern id="dots" width="5" height="5"><path d="M0 0Q2 3 5 0" stroke-width=".4"/></pattern></defs>'+ant
+        antfile=root/'painted-ant.json'
+        antfile.write_text(encoded(dict(assets=dict(ant=painted))))
+        assert antpose.load(antfile)==antpose.load()
+        expected=qrant.ant_shapes();old_library=qrant.LIBRARY
+        try:
+            qrant.LIBRARY=antfile
+            assert qrant.ant_shapes()==expected
+        finally:qrant.LIBRARY=old_library
         lib.path('route',first).write_text('changed')
         assert lib.errors(),'Historical tampering must fail'
     print('SVG components: catalog, immutable versions, defaults, stale-write rejection, SVG safety, ID scoping and static export passed.')

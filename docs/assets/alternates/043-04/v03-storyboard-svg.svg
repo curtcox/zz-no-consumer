@@ -1,0 +1,119 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="800" viewBox="0 0 1200 800"><title>Closed commands and results cross a public queue</title><desc>Show a closed command traveling into the sandbox and a distinct closed result returning to the public queue. Direction distinguishes request from response without exposing protocol fields.</desc><metadata>{
+  &quot;assets&quot;: {
+    &quot;arrow&quot;: &quot;&lt;path d=\&quot;M1 50H87M70 18L96 50L70 82\&quot; fill=\&quot;none\&quot; stroke=\&quot;currentColor\&quot; stroke-width=\&quot;5\&quot;/&gt;&quot;,
+    &quot;arrow-left&quot;: &quot;&lt;g transform=\&quot;rotate(180 50 50)\&quot;&gt;&lt;path d=\&quot;M1 50H87M70 18L96 50L70 82\&quot; fill=\&quot;none\&quot; stroke=\&quot;currentColor\&quot; stroke-width=\&quot;5\&quot;/&gt;&lt;/g&gt;&quot;,
+    &quot;box&quot;: &quot;&lt;rect x=\&quot;1\&quot; y=\&quot;1\&quot; width=\&quot;98\&quot; height=\&quot;98\&quot; rx=\&quot;2\&quot; fill=\&quot;#202326\&quot; stroke=\&quot;currentColor\&quot; stroke-width=\&quot;2\&quot;/&gt;&quot;,
+    &quot;folder&quot;: &quot;&lt;path d=\&quot;M3 20V8H38L48 20H97V90H3Z\&quot; fill=\&quot;#202326\&quot; stroke=\&quot;currentColor\&quot; stroke-width=\&quot;3\&quot;/&gt;&lt;path d=\&quot;M12 40H85M12 50H65\&quot; stroke=\&quot;currentColor\&quot; stroke-width=\&quot;2\&quot;/&gt;&quot;
+  },
+  &quot;palette&quot;: {
+    &quot;amber&quot;: &quot;#A17D45&quot;,
+    &quot;claret&quot;: &quot;#6B2634&quot;,
+    &quot;dirty&quot;: &quot;#CEC5B3&quot;,
+    &quot;ink&quot;: &quot;#101214&quot;,
+    &quot;institution&quot;: &quot;#68766B&quot;,
+    &quot;moss&quot;: &quot;#74864F&quot;,
+    &quot;nicotine&quot;: &quot;#AA9571&quot;,
+    &quot;paper&quot;: &quot;#E7E0D0&quot;,
+    &quot;shadow&quot;: &quot;#202326&quot;,
+    &quot;steel&quot;: &quot;#5E737B&quot;
+  },
+  &quot;renderer&quot;: &quot;storyboard-svg-2&quot;,
+  &quot;scene&quot;: {
+    &quot;background&quot;: &quot;ink&quot;,
+    &quot;intent&quot;: &quot;Show a closed command traveling into the sandbox and a distinct closed result returning to the public queue. Direction distinguishes request from response without exposing protocol fields.&quot;,
+    &quot;lettering&quot;: [
+      {
+        &quot;box&quot;: [
+          0.045,
+          0.78,
+          0.91,
+          0.18
+        ]
+      }
+    ],
+    &quot;lettering_mode&quot;: &quot;manual&quot;,
+    &quot;nodes&quot;: [
+      {
+        &quot;asset&quot;: &quot;folder&quot;,
+        &quot;box&quot;: [
+          0.0632,
+          0.1799,
+          0.273,
+          0.290532
+        ],
+        &quot;color&quot;: &quot;steel&quot;,
+        &quot;focus&quot;: true,
+        &quot;label&quot;: &quot;PUBLIC QUEUE&quot;,
+        &quot;label_box&quot;: [
+          0.0632,
+          0.48804,
+          0.273,
+          0.127658
+        ],
+        &quot;label_size&quot;: 18
+      },
+      {
+        &quot;asset&quot;: &quot;box&quot;,
+        &quot;box&quot;: [
+          0.6729,
+          0.1799,
+          0.273,
+          0.290532
+        ],
+        &quot;color&quot;: &quot;steel&quot;,
+        &quot;focus&quot;: true,
+        &quot;label&quot;: &quot;SANDBOX&quot;,
+        &quot;label_box&quot;: [
+          0.6729,
+          0.48804,
+          0.273,
+          0.127658
+        ],
+        &quot;label_size&quot;: 18
+      },
+      {
+        &quot;asset&quot;: &quot;arrow&quot;,
+        &quot;box&quot;: [
+          0.3817,
+          0.0876,
+          0.2275,
+          0.16401
+        ],
+        &quot;color&quot;: &quot;steel&quot;,
+        &quot;focus&quot;: true,
+        &quot;label&quot;: &quot;COMMAND&quot;,
+        &quot;label_box&quot;: [
+          0.3817,
+          0.26155,
+          0.2275,
+          0.072065
+        ],
+        &quot;label_size&quot;: 18
+      },
+      {
+        &quot;asset&quot;: &quot;arrow-left&quot;,
+        &quot;box&quot;: [
+          0.3817,
+          0.4568,
+          0.2275,
+          0.16401
+        ],
+        &quot;color&quot;: &quot;steel&quot;,
+        &quot;focus&quot;: true,
+        &quot;label&quot;: &quot;RESULT&quot;,
+        &quot;label_box&quot;: [
+          0.3817,
+          0.63075,
+          0.2275,
+          0.072065
+        ],
+        &quot;label_size&quot;: 18
+      }
+    ],
+    &quot;reconstructed&quot;: false,
+    &quot;shot&quot;: &quot;route&quot;,
+    &quot;source&quot;: &quot;\n**Frame:** Timestamp `15:36 UTC`. A closed command card leaves a public queue, reaches the sandbox, and returns a closed result card. No protocol fields are visible.\n\n**Action:** Hugging Face later recovers the first C2 execution in the external sandbox.\n\n**Caption:**\n&gt; COMMANDS CAN ARRIVE. RESULTS CAN LEAVE.\n\n**Provenance:** `documented` — recovered C2 time and function from `HF-TL`; implementation is omitted.\n\n&quot;,
+    &quot;title&quot;: &quot;Closed commands and results cross a public queue&quot;
+  }
+}
+</metadata><rect width="1200" height="800" fill="#101214"/><g transform="translate(75.84 143.92) scale(3.276 2.32426)" color="#5E737B"><g transform=""><path d="M3 20V8H38L48 20H97V90H3Z" fill="#202326" stroke="currentColor" stroke-width="3"/><path d="M12 40H85M12 50H65" stroke="currentColor" stroke-width="2"/></g></g><text x="239.64" y="408.432" text-anchor="middle" fill="#E7E0D0" font-size="18" font-family="sans-serif">PUBLIC QUEUE</text><g transform="translate(807.48 143.92) scale(3.276 2.32426)" color="#5E737B"><g transform=""><rect x="1" y="1" width="98" height="98" rx="2" fill="#202326" stroke="currentColor" stroke-width="2"/></g></g><text x="971.28" y="408.432" text-anchor="middle" fill="#E7E0D0" font-size="18" font-family="sans-serif">SANDBOX</text><g transform="translate(458.04 70.08) scale(2.73 1.31208)" color="#5E737B"><g transform=""><path d="M1 50H87M70 18L96 50L70 82" fill="none" stroke="currentColor" stroke-width="5"/></g></g><text x="594.54" y="227.24" text-anchor="middle" fill="#E7E0D0" font-size="18" font-family="sans-serif">COMMAND</text><g transform="translate(458.04 365.44) scale(2.73 1.31208)" color="#5E737B"><g transform=""><g transform="rotate(180 50 50)"><path d="M1 50H87M70 18L96 50L70 82" fill="none" stroke="currentColor" stroke-width="5"/></g></g></g><text x="594.54" y="522.6" text-anchor="middle" fill="#E7E0D0" font-size="18" font-family="sans-serif">RESULT</text><rect x="3" y="3" width="1194" height="794" fill="none" stroke="#5E737B" stroke-width="4"/></svg>

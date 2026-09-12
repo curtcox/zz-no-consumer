@@ -1,0 +1,99 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="800" viewBox="0 0 1200 800"><title>Public utilities form a parallel route through Artifactory</title><desc>Draw the Artifactory route as a separate lane reaching two generic public utilities. Keep the customer workload and Hugging Face out of that path.</desc><metadata>{
+  &quot;assets&quot;: {
+    &quot;aperture&quot;: &quot;&lt;rect x=\&quot;2\&quot; y=\&quot;15\&quot; width=\&quot;96\&quot; height=\&quot;70\&quot; fill=\&quot;#202326\&quot; stroke=\&quot;currentColor\&quot; stroke-width=\&quot;3\&quot;/&gt;&lt;circle cx=\&quot;50\&quot; cy=\&quot;50\&quot; r=\&quot;27\&quot; fill=\&quot;#101214\&quot; stroke=\&quot;currentColor\&quot; stroke-width=\&quot;3\&quot;/&gt;&lt;path d=\&quot;M50 24L74 63H26ZM26 63L50 24L74 63\&quot; fill=\&quot;none\&quot; stroke=\&quot;currentColor\&quot; stroke-width=\&quot;2\&quot;/&gt;&quot;,
+    &quot;box&quot;: &quot;&lt;rect x=\&quot;1\&quot; y=\&quot;1\&quot; width=\&quot;98\&quot; height=\&quot;98\&quot; rx=\&quot;2\&quot; fill=\&quot;#202326\&quot; stroke=\&quot;currentColor\&quot; stroke-width=\&quot;2\&quot;/&gt;&quot;,
+    &quot;card&quot;: &quot;&lt;rect x=\&quot;1\&quot; y=\&quot;1\&quot; width=\&quot;98\&quot; height=\&quot;98\&quot; fill=\&quot;#202326\&quot; stroke=\&quot;currentColor\&quot; stroke-width=\&quot;2\&quot;/&gt;&lt;path d=\&quot;M1 20H99M9 10H42M62 10H90M10 34H87M10 45H73M10 56H82M10 76H57M10 87H38\&quot; stroke=\&quot;currentColor\&quot; stroke-width=\&quot;2\&quot;/&gt;&quot;
+  },
+  &quot;palette&quot;: {
+    &quot;amber&quot;: &quot;#A17D45&quot;,
+    &quot;claret&quot;: &quot;#6B2634&quot;,
+    &quot;dirty&quot;: &quot;#CEC5B3&quot;,
+    &quot;ink&quot;: &quot;#101214&quot;,
+    &quot;institution&quot;: &quot;#68766B&quot;,
+    &quot;moss&quot;: &quot;#74864F&quot;,
+    &quot;nicotine&quot;: &quot;#AA9571&quot;,
+    &quot;paper&quot;: &quot;#E7E0D0&quot;,
+    &quot;shadow&quot;: &quot;#202326&quot;,
+    &quot;steel&quot;: &quot;#5E737B&quot;
+  },
+  &quot;renderer&quot;: &quot;storyboard-svg-2&quot;,
+  &quot;scene&quot;: {
+    &quot;background&quot;: &quot;ink&quot;,
+    &quot;intent&quot;: &quot;Draw the Artifactory route as a separate lane reaching two generic public utilities. Keep the customer workload and Hugging Face out of that path.&quot;,
+    &quot;lettering&quot;: [
+      {
+        &quot;box&quot;: [
+          0.045,
+          0.78,
+          0.91,
+          0.18
+        ]
+      }
+    ],
+    &quot;lettering_mode&quot;: &quot;manual&quot;,
+    &quot;nodes&quot;: [
+      {
+        &quot;asset&quot;: &quot;box&quot;,
+        &quot;box&quot;: [
+          0.06775,
+          0.2012,
+          0.239633,
+          0.276474
+        ],
+        &quot;color&quot;: &quot;steel&quot;,
+        &quot;focus&quot;: true,
+        &quot;label&quot;: &quot;ARTIFACTORY&quot;,
+        &quot;label_box&quot;: [
+          0.06775,
+          0.49443,
+          0.239633,
+          0.121481
+        ],
+        &quot;label_size&quot;: 18
+      },
+      {
+        &quot;asset&quot;: &quot;card&quot;,
+        &quot;box&quot;: [
+          0.371083,
+          0.2012,
+          0.239633,
+          0.276474
+        ],
+        &quot;color&quot;: &quot;steel&quot;,
+        &quot;focus&quot;: true,
+        &quot;label&quot;: &quot;REQUEST CAPTURE&quot;,
+        &quot;label_box&quot;: [
+          0.371083,
+          0.49443,
+          0.239633,
+          0.121481
+        ],
+        &quot;label_size&quot;: 18
+      },
+      {
+        &quot;asset&quot;: &quot;aperture&quot;,
+        &quot;box&quot;: [
+          0.674428,
+          0.2012,
+          0.239611,
+          0.276474
+        ],
+        &quot;color&quot;: &quot;steel&quot;,
+        &quot;focus&quot;: true,
+        &quot;label&quot;: &quot;SCREENSHOT SERVICE&quot;,
+        &quot;label_box&quot;: [
+          0.674417,
+          0.49443,
+          0.239633,
+          0.121481
+        ],
+        &quot;label_size&quot;: 18
+      }
+    ],
+    &quot;reconstructed&quot;: false,
+    &quot;shot&quot;: &quot;row&quot;,
+    &quot;source&quot;: &quot;\n**Frame:** `08:46 UTC — PARALLEL ARTIFACTORY ROUTE`. Public-service icons appear beyond the package service, in a separate lane from the customer workload as unlabeled geometric endpoints — a request-capture service, and beside it a website screenshot service drawn as a small camera aperture. A narrow path reaches outward without touching Hugging Face infrastructure.\n\n**Action:** Relaying of arbitrary external requests begins at scale through ordinary public utilities.\n\n**Caption:**\n&gt; ALONGSIDE THE FOOTHOLD: ANOTHER ROUTE TO THE PUBLIC INTERNET.\n\n**Provenance:** `documented` — `OAI-TR` §X, printed p. 34: use of Artifactory to relay arbitrary external requests begins at 08:46, operationalized through a public HTTP testing service and a third-party website screenshot service. General-purpose internet role also from `METR` and `HF-TL`.\n\n&quot;,
+    &quot;title&quot;: &quot;Public utilities form a parallel route through Artifactory&quot;
+  }
+}
+</metadata><rect width="1200" height="800" fill="#101214"/><g transform="translate(81.3 160.96) scale(2.8756 2.21179)" color="#5E737B"><g transform=""><rect x="1" y="1" width="98" height="98" rx="2" fill="#202326" stroke="currentColor" stroke-width="2"/></g></g><text x="225.08" y="413.544" text-anchor="middle" fill="#E7E0D0" font-size="18" font-family="sans-serif">ARTIFACTORY</text><g transform="translate(445.3 160.96) scale(2.8756 2.21179)" color="#5E737B"><g transform=""><rect x="1" y="1" width="98" height="98" fill="#202326" stroke="currentColor" stroke-width="2"/><path d="M1 20H99M9 10H42M62 10H90M10 34H87M10 45H73M10 56H82M10 76H57M10 87H38" stroke="currentColor" stroke-width="2"/></g></g><text x="589.079" y="413.544" text-anchor="middle" fill="#E7E0D0" font-size="18" font-family="sans-serif">REQUEST CAPTURE</text><g transform="translate(809.314 160.96) scale(2.87533 2.21179)" color="#5E737B"><g transform=""><rect x="2" y="15" width="96" height="70" fill="#202326" stroke="currentColor" stroke-width="3"/><circle cx="50" cy="50" r="27" fill="#101214" stroke="currentColor" stroke-width="3"/><path d="M50 24L74 63H26ZM26 63L50 24L74 63" fill="none" stroke="currentColor" stroke-width="2"/></g></g><text x="953.08" y="413.544" text-anchor="middle" fill="#E7E0D0" font-size="18" font-family="sans-serif">SCREENSHOT SERVICE</text><rect x="3" y="3" width="1194" height="794" fill="none" stroke="#5E737B" stroke-width="4"/></svg>

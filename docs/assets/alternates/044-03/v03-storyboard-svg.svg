@@ -1,0 +1,118 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="800" viewBox="0 0 1200 800"><title>Working access agrees while the count does not</title><desc>Align the dossiers at working access while offsetting their count fields. Amber belongs to the count discrepancy; it must not erase the shared evidence of functioning access.</desc><metadata>{
+  &quot;assets&quot;: {
+    &quot;broken-trace&quot;: &quot;&lt;path d=\&quot;M2 50H36M64 50H98M43 35L37 65M63 35L57 65\&quot; fill=\&quot;none\&quot; stroke=\&quot;currentColor\&quot; stroke-width=\&quot;3\&quot;/&gt;&quot;,
+    &quot;card&quot;: &quot;&lt;rect x=\&quot;1\&quot; y=\&quot;1\&quot; width=\&quot;98\&quot; height=\&quot;98\&quot; fill=\&quot;#202326\&quot; stroke=\&quot;currentColor\&quot; stroke-width=\&quot;2\&quot;/&gt;&lt;path d=\&quot;M1 20H99M9 10H42M62 10H90M10 34H87M10 45H73M10 56H82M10 76H57M10 87H38\&quot; stroke=\&quot;currentColor\&quot; stroke-width=\&quot;2\&quot;/&gt;&quot;,
+    &quot;line&quot;: &quot;&lt;path d=\&quot;M0 50H100\&quot; stroke=\&quot;currentColor\&quot; stroke-width=\&quot;2\&quot; vector-effect=\&quot;non-scaling-stroke\&quot;/&gt;&quot;
+  },
+  &quot;palette&quot;: {
+    &quot;amber&quot;: &quot;#A17D45&quot;,
+    &quot;claret&quot;: &quot;#6B2634&quot;,
+    &quot;dirty&quot;: &quot;#CEC5B3&quot;,
+    &quot;ink&quot;: &quot;#101214&quot;,
+    &quot;institution&quot;: &quot;#68766B&quot;,
+    &quot;moss&quot;: &quot;#74864F&quot;,
+    &quot;nicotine&quot;: &quot;#AA9571&quot;,
+    &quot;paper&quot;: &quot;#E7E0D0&quot;,
+    &quot;shadow&quot;: &quot;#202326&quot;,
+    &quot;steel&quot;: &quot;#5E737B&quot;
+  },
+  &quot;renderer&quot;: &quot;storyboard-svg-2&quot;,
+  &quot;scene&quot;: {
+    &quot;background&quot;: &quot;ink&quot;,
+    &quot;intent&quot;: &quot;Align the dossiers at working access while offsetting their count fields. Amber belongs to the count discrepancy; it must not erase the shared evidence of functioning access.&quot;,
+    &quot;lettering&quot;: [
+      {
+        &quot;box&quot;: [
+          0.045,
+          0.78,
+          0.91,
+          0.18
+        ]
+      }
+    ],
+    &quot;lettering_mode&quot;: &quot;manual&quot;,
+    &quot;nodes&quot;: [
+      {
+        &quot;asset&quot;: &quot;card&quot;,
+        &quot;box&quot;: [
+          0.0541,
+          0.0663,
+          0.3458,
+          0.178068
+        ],
+        &quot;color&quot;: &quot;steel&quot;,
+        &quot;focus&quot;: true,
+        &quot;label&quot;: &quot;METR: TWO&quot;,
+        &quot;label_box&quot;: [
+          0.0541,
+          0.25516,
+          0.3458,
+          0.078242
+        ],
+        &quot;label_size&quot;: 18
+      },
+      {
+        &quot;asset&quot;: &quot;card&quot;,
+        &quot;box&quot;: [
+          0.6001,
+          0.0663,
+          0.3458,
+          0.178068
+        ],
+        &quot;color&quot;: &quot;steel&quot;,
+        &quot;focus&quot;: true,
+        &quot;label&quot;: &quot;OPENAI: FOURTEEN&quot;,
+        &quot;label_box&quot;: [
+          0.6001,
+          0.25516,
+          0.3458,
+          0.078242
+        ],
+        &quot;label_size&quot;: 18
+      },
+      {
+        &quot;asset&quot;: &quot;line&quot;,
+        &quot;box&quot;: [
+          0.227,
+          0.4639,
+          0.546,
+          0.103092
+        ],
+        &quot;color&quot;: &quot;steel&quot;,
+        &quot;focus&quot;: true,
+        &quot;label&quot;: &quot;WORKING ACCESS&quot;,
+        &quot;label_box&quot;: [
+          0.227,
+          0.57324,
+          0.546,
+          0.045298
+        ],
+        &quot;label_size&quot;: 18
+      },
+      {
+        &quot;asset&quot;: &quot;broken-trace&quot;,
+        &quot;box&quot;: [
+          0.2816,
+          0.6556,
+          0.4368,
+          0.060918
+        ],
+        &quot;color&quot;: &quot;amber&quot;,
+        &quot;focus&quot;: true,
+        &quot;label&quot;: &quot;COUNT UNRECONCILED&quot;,
+        &quot;label_box&quot;: [
+          0.2816,
+          0.72021,
+          0.4368,
+          0.026767
+        ],
+        &quot;label_size&quot;: 18
+      }
+    ],
+    &quot;reconstructed&quot;: false,
+    &quot;shot&quot;: &quot;split&quot;,
+    &quot;source&quot;: &quot;\n**Frame:** The two dossiers overlap at `WORKING ACCESS` but refuse to align at `COUNT`. Dusty amber marks the gap.\n\n**Action:** The accounts agree on access and disagree—or count differently—on quantity.\n\n**Caption:**\n&gt; CREDENTIALS. TOKENS. ACCOUNTS. PERHAPS DIFFERENT UNITS.\n\n**Provenance:** `disputed` — no public audit reconciles the reports.\n\n&quot;,
+    &quot;title&quot;: &quot;Working access agrees while the count does not&quot;
+  }
+}
+</metadata><rect width="1200" height="800" fill="#101214"/><g transform="translate(64.92 53.04) scale(4.1496 1.42454)" color="#5E737B"><g transform=""><rect x="1" y="1" width="98" height="98" fill="#202326" stroke="currentColor" stroke-width="2"/><path d="M1 20H99M9 10H42M62 10H90M10 34H87M10 45H73M10 56H82M10 76H57M10 87H38" stroke="currentColor" stroke-width="2"/></g></g><text x="272.4" y="222.128" text-anchor="middle" fill="#E7E0D0" font-size="18" font-family="sans-serif">METR: TWO</text><g transform="translate(720.12 53.04) scale(4.1496 1.42454)" color="#5E737B"><g transform=""><rect x="1" y="1" width="98" height="98" fill="#202326" stroke="currentColor" stroke-width="2"/><path d="M1 20H99M9 10H42M62 10H90M10 34H87M10 45H73M10 56H82M10 76H57M10 87H38" stroke="currentColor" stroke-width="2"/></g></g><text x="927.6" y="222.128" text-anchor="middle" fill="#E7E0D0" font-size="18" font-family="sans-serif">OPENAI: FOURTEEN</text><g transform="translate(272.4 371.12) scale(6.552 0.824736)" color="#5E737B"><g transform=""><path d="M0 50H100" stroke="currentColor" stroke-width="2" vector-effect="non-scaling-stroke"/></g></g><text x="600" y="476.592" text-anchor="middle" fill="#E7E0D0" font-size="18" font-family="sans-serif">WORKING ACCESS</text><g transform="translate(337.92 524.48) scale(5.2416 0.487344)" color="#A17D45"><g transform=""><path d="M2 50H36M64 50H98M43 35L37 65M63 35L57 65" fill="none" stroke="currentColor" stroke-width="3"/></g></g><text x="600" y="591.668" text-anchor="middle" fill="#E7E0D0" font-size="15.5" font-family="sans-serif">COUNT UNRECONCILED</text><rect x="3" y="3" width="1194" height="794" fill="none" stroke="#5E737B" stroke-width="4"/></svg>

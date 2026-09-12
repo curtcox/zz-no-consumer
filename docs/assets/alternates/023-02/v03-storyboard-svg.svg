@@ -1,0 +1,112 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="800" viewBox="0 0 1200 800"><title>The token lifecycle is fully redacted</title><desc>Pass an opaque access card through an opaque refresh block. Use matching redactions at each stage, conveying a lifecycle without encoding a reproducible token operation.</desc><metadata>{
+  &quot;assets&quot;: {
+    &quot;arrow&quot;: &quot;&lt;path d=\&quot;M1 50H87M70 18L96 50L70 82\&quot; fill=\&quot;none\&quot; stroke=\&quot;currentColor\&quot; stroke-width=\&quot;5\&quot;/&gt;&quot;,
+    &quot;sealed&quot;: &quot;&lt;rect x=\&quot;3\&quot; y=\&quot;9\&quot; width=\&quot;94\&quot; height=\&quot;82\&quot; fill=\&quot;#202326\&quot; stroke=\&quot;currentColor\&quot; stroke-width=\&quot;3\&quot;/&gt;&lt;path d=\&quot;M12 30H88M12 49H88M12 68H88\&quot; stroke=\&quot;#101214\&quot; stroke-width=\&quot;12\&quot;/&gt;&quot;
+  },
+  &quot;palette&quot;: {
+    &quot;amber&quot;: &quot;#A17D45&quot;,
+    &quot;claret&quot;: &quot;#6B2634&quot;,
+    &quot;dirty&quot;: &quot;#CEC5B3&quot;,
+    &quot;ink&quot;: &quot;#101214&quot;,
+    &quot;institution&quot;: &quot;#68766B&quot;,
+    &quot;moss&quot;: &quot;#74864F&quot;,
+    &quot;nicotine&quot;: &quot;#AA9571&quot;,
+    &quot;paper&quot;: &quot;#E7E0D0&quot;,
+    &quot;shadow&quot;: &quot;#202326&quot;,
+    &quot;steel&quot;: &quot;#5E737B&quot;
+  },
+  &quot;renderer&quot;: &quot;storyboard-svg-2&quot;,
+  &quot;scene&quot;: {
+    &quot;background&quot;: &quot;ink&quot;,
+    &quot;intent&quot;: &quot;Pass an opaque access card through an opaque refresh block. Use matching redactions at each stage, conveying a lifecycle without encoding a reproducible token operation.&quot;,
+    &quot;lettering&quot;: [
+      {
+        &quot;box&quot;: [
+          0.045,
+          0.78,
+          0.91,
+          0.18
+        ]
+      }
+    ],
+    &quot;lettering_mode&quot;: &quot;manual&quot;,
+    &quot;nodes&quot;: [
+      {
+        &quot;asset&quot;: &quot;sealed&quot;,
+        &quot;box&quot;: [
+          0.06775,
+          0.2012,
+          0.239633,
+          0.276474
+        ],
+        &quot;color&quot;: &quot;steel&quot;,
+        &quot;focus&quot;: true,
+        &quot;label&quot;: &quot;EXISTING ACCESS&quot;,
+        &quot;label_box&quot;: [
+          0.06775,
+          0.49443,
+          0.239633,
+          0.121481
+        ],
+        &quot;label_size&quot;: 18
+      },
+      {
+        &quot;asset&quot;: &quot;arrow&quot;,
+        &quot;box&quot;: [
+          0.311933,
+          0.2935,
+          0.05915,
+          0.0852
+        ],
+        &quot;color&quot;: &quot;steel&quot;,
+        &quot;focus&quot;: true
+      },
+      {
+        &quot;asset&quot;: &quot;sealed&quot;,
+        &quot;box&quot;: [
+          0.371083,
+          0.2012,
+          0.239633,
+          0.276474
+        ],
+        &quot;color&quot;: &quot;steel&quot;,
+        &quot;focus&quot;: true,
+        &quot;label&quot;: &quot;REFRESH&quot;,
+        &quot;label_box&quot;: [
+          0.371083,
+          0.49443,
+          0.239633,
+          0.121481
+        ],
+        &quot;label_size&quot;: 18
+      },
+      {
+        &quot;asset&quot;: &quot;arrow&quot;,
+        &quot;box&quot;: [
+          0.615267,
+          0.2935,
+          0.05915,
+          0.0852
+        ],
+        &quot;color&quot;: &quot;steel&quot;,
+        &quot;focus&quot;: true
+      },
+      {
+        &quot;asset&quot;: &quot;sealed&quot;,
+        &quot;box&quot;: [
+          0.674417,
+          0.2012,
+          0.239633,
+          0.4189
+        ],
+        &quot;color&quot;: &quot;steel&quot;,
+        &quot;focus&quot;: true
+      }
+    ],
+    &quot;reconstructed&quot;: false,
+    &quot;shot&quot;: &quot;route&quot;,
+    &quot;source&quot;: &quot;\n**Frame:** A simplified token lifecycle: existing access enters a service-side refresh box. Every field that could expose procedure is blacked out.\n\n**Action:** Agents exercise a flaw in the legacy credential path.\n\n**Caption:**\n&gt; A FLAW IN THE SERVICE ACCEPTS AUTHORITY IT SHOULD NOT GRANT.\n\n**Provenance:** `documented` — consequence-level account of the token-refresh vulnerability.\n\n&quot;,
+    &quot;title&quot;: &quot;The token lifecycle is fully redacted&quot;
+  }
+}
+</metadata><rect width="1200" height="800" fill="#101214"/><g transform="translate(81.3 160.96) scale(2.8756 2.21179)" color="#5E737B"><g transform=""><rect x="3" y="9" width="94" height="82" fill="#202326" stroke="currentColor" stroke-width="3"/><path d="M12 30H88M12 49H88M12 68H88" stroke="#101214" stroke-width="12"/></g></g><text x="225.08" y="413.544" text-anchor="middle" fill="#E7E0D0" font-size="18" font-family="sans-serif">EXISTING ACCESS</text><g transform="translate(374.32 234.8) scale(0.7098 0.6816)" color="#5E737B"><g transform=""><path d="M1 50H87M70 18L96 50L70 82" fill="none" stroke="currentColor" stroke-width="5"/></g></g><g transform="translate(445.3 160.96) scale(2.8756 2.21179)" color="#5E737B"><g transform=""><rect x="3" y="9" width="94" height="82" fill="#202326" stroke="currentColor" stroke-width="3"/><path d="M12 30H88M12 49H88M12 68H88" stroke="#101214" stroke-width="12"/></g></g><text x="589.079" y="413.544" text-anchor="middle" fill="#E7E0D0" font-size="18" font-family="sans-serif">REFRESH</text><g transform="translate(738.32 234.8) scale(0.7098 0.6816)" color="#5E737B"><g transform=""><path d="M1 50H87M70 18L96 50L70 82" fill="none" stroke="currentColor" stroke-width="5"/></g></g><g transform="translate(809.3 160.96) scale(2.8756 3.3512)" color="#5E737B"><g transform=""><rect x="3" y="9" width="94" height="82" fill="#202326" stroke="currentColor" stroke-width="3"/><path d="M12 30H88M12 49H88M12 68H88" stroke="#101214" stroke-width="12"/></g></g><rect x="3" y="3" width="1194" height="794" fill="none" stroke="#5E737B" stroke-width="4"/></svg>

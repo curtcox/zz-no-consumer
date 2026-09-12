@@ -1,0 +1,97 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="800" viewBox="0 0 1200 800"><title>Three cross-lane questions have no connecting arrows</title><desc>Place three boxed questions in the empty inter-lane gap and draw no connecting lines. Provider attribution, training relationship and cross-reading are different unresolved propositions.</desc><metadata>{
+  &quot;assets&quot;: {
+    &quot;question&quot;: &quot;&lt;path d=\&quot;M24 28Q25 3 53 7Q91 12 74 43L51 63V72\&quot; fill=\&quot;none\&quot; stroke=\&quot;currentColor\&quot; stroke-width=\&quot;7\&quot;/&gt;&lt;circle cx=\&quot;51\&quot; cy=\&quot;91\&quot; r=\&quot;5\&quot; fill=\&quot;currentColor\&quot;/&gt;&quot;
+  },
+  &quot;palette&quot;: {
+    &quot;amber&quot;: &quot;#A17D45&quot;,
+    &quot;claret&quot;: &quot;#6B2634&quot;,
+    &quot;dirty&quot;: &quot;#CEC5B3&quot;,
+    &quot;ink&quot;: &quot;#101214&quot;,
+    &quot;institution&quot;: &quot;#68766B&quot;,
+    &quot;moss&quot;: &quot;#74864F&quot;,
+    &quot;nicotine&quot;: &quot;#AA9571&quot;,
+    &quot;paper&quot;: &quot;#E7E0D0&quot;,
+    &quot;shadow&quot;: &quot;#202326&quot;,
+    &quot;steel&quot;: &quot;#5E737B&quot;
+  },
+  &quot;renderer&quot;: &quot;storyboard-svg-2&quot;,
+  &quot;scene&quot;: {
+    &quot;background&quot;: &quot;ink&quot;,
+    &quot;intent&quot;: &quot;Place three boxed questions in the empty inter-lane gap and draw no connecting lines. Provider attribution, training relationship and cross-reading are different unresolved propositions.&quot;,
+    &quot;lettering&quot;: [
+      {
+        &quot;box&quot;: [
+          0.045,
+          0.78,
+          0.91,
+          0.18
+        ]
+      }
+    ],
+    &quot;lettering_mode&quot;: &quot;manual&quot;,
+    &quot;nodes&quot;: [
+      {
+        &quot;asset&quot;: &quot;question&quot;,
+        &quot;box&quot;: [
+          0.141488,
+          0.2012,
+          0.092158,
+          0.276474
+        ],
+        &quot;color&quot;: &quot;amber&quot;,
+        &quot;focus&quot;: true,
+        &quot;label&quot;: &quot;SAME PROVIDER?&quot;,
+        &quot;label_box&quot;: [
+          0.06775,
+          0.49443,
+          0.239633,
+          0.121481
+        ],
+        &quot;label_size&quot;: 18
+      },
+      {
+        &quot;asset&quot;: &quot;question&quot;,
+        &quot;box&quot;: [
+          0.444821,
+          0.2012,
+          0.092158,
+          0.276474
+        ],
+        &quot;color&quot;: &quot;amber&quot;,
+        &quot;focus&quot;: true,
+        &quot;label&quot;: &quot;SAME TRAINING?&quot;,
+        &quot;label_box&quot;: [
+          0.371083,
+          0.49443,
+          0.239633,
+          0.121481
+        ],
+        &quot;label_size&quot;: 18
+      },
+      {
+        &quot;asset&quot;: &quot;question&quot;,
+        &quot;box&quot;: [
+          0.748155,
+          0.2012,
+          0.092158,
+          0.276474
+        ],
+        &quot;color&quot;: &quot;amber&quot;,
+        &quot;focus&quot;: true,
+        &quot;label&quot;: &quot;CROSS-READING?&quot;,
+        &quot;label_box&quot;: [
+          0.674417,
+          0.49443,
+          0.239633,
+          0.121481
+        ],
+        &quot;label_size&quot;: 18
+      }
+    ],
+    &quot;reconstructed&quot;: false,
+    &quot;shot&quot;: &quot;row&quot;,
+    &quot;source&quot;: &quot;\n**Frame:** Curt&#x27;s pen hovers over the gap between the lanes. He writes three labels in the gap and boxes each with a question mark: `SAME PROVIDER?` (the report&#x27;s inference), `SAME TRAINING?` (unknown), `EITHER ONE READ THE OTHER?` (no evidence either way). No line crosses.\n\n**Dialogue — CURT:**\n&gt; Probably distinct. That is their finding. It is not the same as unrelated.\n\n**Provenance:** `documented` + `inferred` — the distinct-swarm assessment and the OpenAI attribution are `CW-REPORT`&#x27;s, stated by its authors as inferences; the three questions are the project&#x27;s and are left open.\n\n&quot;,
+    &quot;title&quot;: &quot;Three cross-lane questions have no connecting arrows&quot;
+  }
+}
+</metadata><rect width="1200" height="800" fill="#101214"/><g transform="translate(169.786 160.96) scale(1.1059 2.21179)" color="#A17D45"><g transform=""><path d="M24 28Q25 3 53 7Q91 12 74 43L51 63V72" fill="none" stroke="currentColor" stroke-width="7"/><circle cx="51" cy="91" r="5" fill="currentColor"/></g></g><text x="225.08" y="413.544" text-anchor="middle" fill="#E7E0D0" font-size="18" font-family="sans-serif">SAME PROVIDER?</text><g transform="translate(533.785 160.96) scale(1.1059 2.21179)" color="#A17D45"><g transform=""><path d="M24 28Q25 3 53 7Q91 12 74 43L51 63V72" fill="none" stroke="currentColor" stroke-width="7"/><circle cx="51" cy="91" r="5" fill="currentColor"/></g></g><text x="589.079" y="413.544" text-anchor="middle" fill="#E7E0D0" font-size="18" font-family="sans-serif">SAME TRAINING?</text><g transform="translate(897.786 160.96) scale(1.1059 2.21179)" color="#A17D45"><g transform=""><path d="M24 28Q25 3 53 7Q91 12 74 43L51 63V72" fill="none" stroke="currentColor" stroke-width="7"/><circle cx="51" cy="91" r="5" fill="currentColor"/></g></g><text x="953.08" y="413.544" text-anchor="middle" fill="#E7E0D0" font-size="18" font-family="sans-serif">CROSS-READING?</text><rect x="3" y="3" width="1194" height="794" fill="none" stroke="#5E737B" stroke-width="4"/></svg>

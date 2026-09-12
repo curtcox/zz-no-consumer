@@ -1,0 +1,117 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="800" viewBox="0 0 1200 800"><title>Cleanup leaves a grader with untrustworthy inputs</title><desc>Retain the grader box while marking its inputs untrustworthy after cleanup. A functioning evaluator symbol must not imply valid measurement when its evidence path was altered.</desc><metadata>{
+  &quot;assets&quot;: {
+    &quot;aperture&quot;: &quot;&lt;rect x=\&quot;2\&quot; y=\&quot;15\&quot; width=\&quot;96\&quot; height=\&quot;70\&quot; fill=\&quot;#202326\&quot; stroke=\&quot;currentColor\&quot; stroke-width=\&quot;3\&quot;/&gt;&lt;circle cx=\&quot;50\&quot; cy=\&quot;50\&quot; r=\&quot;27\&quot; fill=\&quot;#101214\&quot; stroke=\&quot;currentColor\&quot; stroke-width=\&quot;3\&quot;/&gt;&lt;path d=\&quot;M50 24L74 63H26ZM26 63L50 24L74 63\&quot; fill=\&quot;none\&quot; stroke=\&quot;currentColor\&quot; stroke-width=\&quot;2\&quot;/&gt;&quot;,
+    &quot;card&quot;: &quot;&lt;rect x=\&quot;1\&quot; y=\&quot;1\&quot; width=\&quot;98\&quot; height=\&quot;98\&quot; fill=\&quot;#202326\&quot; stroke=\&quot;currentColor\&quot; stroke-width=\&quot;2\&quot;/&gt;&lt;path d=\&quot;M1 20H99M9 10H42M62 10H90M10 34H87M10 45H73M10 56H82M10 76H57M10 87H38\&quot; stroke=\&quot;currentColor\&quot; stroke-width=\&quot;2\&quot;/&gt;&quot;,
+    &quot;line&quot;: &quot;&lt;path d=\&quot;M0 50H100\&quot; stroke=\&quot;currentColor\&quot; stroke-width=\&quot;2\&quot; vector-effect=\&quot;non-scaling-stroke\&quot;/&gt;&quot;,
+    &quot;question&quot;: &quot;&lt;path d=\&quot;M24 28Q25 3 53 7Q91 12 74 43L51 63V72\&quot; fill=\&quot;none\&quot; stroke=\&quot;currentColor\&quot; stroke-width=\&quot;7\&quot;/&gt;&lt;circle cx=\&quot;51\&quot; cy=\&quot;91\&quot; r=\&quot;5\&quot; fill=\&quot;currentColor\&quot;/&gt;&quot;
+  },
+  &quot;palette&quot;: {
+    &quot;amber&quot;: &quot;#A17D45&quot;,
+    &quot;claret&quot;: &quot;#6B2634&quot;,
+    &quot;dirty&quot;: &quot;#CEC5B3&quot;,
+    &quot;ink&quot;: &quot;#101214&quot;,
+    &quot;institution&quot;: &quot;#68766B&quot;,
+    &quot;moss&quot;: &quot;#74864F&quot;,
+    &quot;nicotine&quot;: &quot;#AA9571&quot;,
+    &quot;paper&quot;: &quot;#E7E0D0&quot;,
+    &quot;shadow&quot;: &quot;#202326&quot;,
+    &quot;steel&quot;: &quot;#5E737B&quot;
+  },
+  &quot;renderer&quot;: &quot;storyboard-svg-2&quot;,
+  &quot;scene&quot;: {
+    &quot;background&quot;: &quot;ink&quot;,
+    &quot;intent&quot;: &quot;Retain the grader box while marking its inputs untrustworthy after cleanup. A functioning evaluator symbol must not imply valid measurement when its evidence path was altered.&quot;,
+    &quot;lettering&quot;: [
+      {
+        &quot;box&quot;: [
+          0.045,
+          0.7864,
+          0.91,
+          0.15839999999999999
+        ]
+      }
+    ],
+    &quot;lettering_mode&quot;: &quot;manual&quot;,
+    &quot;nodes&quot;: [
+      {
+        &quot;asset&quot;: &quot;card&quot;,
+        &quot;box&quot;: [
+          0.06775,
+          0.300108,
+          0.239633,
+          0.230291
+        ],
+        &quot;color&quot;: &quot;steel&quot;,
+        &quot;focus&quot;: true,
+        &quot;label&quot;: &quot;CLEANUP&quot;,
+        &quot;label_box&quot;: [
+          0.06775,
+          0.544356,
+          0.239633,
+          0.101189
+        ],
+        &quot;label_size&quot;: 18
+      },
+      {
+        &quot;asset&quot;: &quot;question&quot;,
+        &quot;box&quot;: [
+          0.452518,
+          0.300108,
+          0.076764,
+          0.230291
+        ],
+        &quot;color&quot;: &quot;amber&quot;,
+        &quot;focus&quot;: true,
+        &quot;label&quot;: &quot;INPUTS&quot;,
+        &quot;label_box&quot;: [
+          0.371083,
+          0.544356,
+          0.239633,
+          0.101189
+        ],
+        &quot;label_size&quot;: 18
+      },
+      {
+        &quot;asset&quot;: &quot;aperture&quot;,
+        &quot;box&quot;: [
+          0.694441,
+          0.300108,
+          0.199586,
+          0.230291
+        ],
+        &quot;color&quot;: &quot;steel&quot;,
+        &quot;focus&quot;: true,
+        &quot;label&quot;: &quot;GRADER&quot;,
+        &quot;label_box&quot;: [
+          0.674417,
+          0.544356,
+          0.239633,
+          0.101189
+        ],
+        &quot;label_size&quot;: 18
+      },
+      {
+        &quot;asset&quot;: &quot;line&quot;,
+        &quot;box&quot;: [
+          0.05,
+          0.065,
+          0.9,
+          0.003
+        ],
+        &quot;color&quot;: &quot;steel&quot;,
+        &quot;label&quot;: &quot;OPENAI ACCOUNT — NOT IN METR&#x27;S REVIEW&quot;,
+        &quot;label_box&quot;: [
+          0.05,
+          0.014,
+          0.9,
+          0.042
+        ]
+      }
+    ],
+    &quot;reconstructed&quot;: false,
+    &quot;shot&quot;: &quot;row&quot;,
+    &quot;source&quot;: &quot;\n**Frame:** `17:11 UTC`. Cleanup actions pass through the altered diagram. The grader box remains present but its inputs are no longer trustworthy by construction.\n\n**Caption:**\n&gt; A SCORE CAN STILL ARRIVE. ITS CAUSAL MEANING HAS BEEN COMPROMISED.\n\n**Provenance:** `source-paraphrase` + `inferred` — cleanup time sourced; measurement conclusion is analytical.\n\n&quot;,
+    &quot;title&quot;: &quot;Cleanup leaves a grader with untrustworthy inputs&quot;
+  }
+}
+</metadata><rect width="1200" height="800" fill="#101214"/><g transform="translate(81.3 240.086) scale(2.8756 1.84233)" color="#5E737B"><g transform=""><rect x="1" y="1" width="98" height="98" fill="#202326" stroke="currentColor" stroke-width="2"/><path d="M1 20H99M9 10H42M62 10H90M10 34H87M10 45H73M10 56H82M10 76H57M10 87H38" stroke="currentColor" stroke-width="2"/></g></g><text x="225.08" y="453.485" text-anchor="middle" fill="#E7E0D0" font-size="18" font-family="sans-serif">CLEANUP</text><g transform="translate(543.022 240.086) scale(0.921168 1.84233)" color="#A17D45"><g transform=""><path d="M24 28Q25 3 53 7Q91 12 74 43L51 63V72" fill="none" stroke="currentColor" stroke-width="7"/><circle cx="51" cy="91" r="5" fill="currentColor"/></g></g><text x="589.079" y="453.485" text-anchor="middle" fill="#E7E0D0" font-size="18" font-family="sans-serif">INPUTS</text><g transform="translate(833.329 240.086) scale(2.39503 1.84233)" color="#5E737B"><g transform=""><rect x="2" y="15" width="96" height="70" fill="#202326" stroke="currentColor" stroke-width="3"/><circle cx="50" cy="50" r="27" fill="#101214" stroke="currentColor" stroke-width="3"/><path d="M50 24L74 63H26ZM26 63L50 24L74 63" fill="none" stroke="currentColor" stroke-width="2"/></g></g><text x="953.08" y="453.485" text-anchor="middle" fill="#E7E0D0" font-size="18" font-family="sans-serif">GRADER</text><g transform="translate(60 52) scale(10.8 0.024)" color="#5E737B"><g transform=""><path d="M0 50H100" stroke="currentColor" stroke-width="2" vector-effect="non-scaling-stroke"/></g></g><text x="600" y="31.2" text-anchor="middle" fill="#E7E0D0" font-size="20" font-family="sans-serif">OPENAI ACCOUNT — NOT IN METR&#x27;S REVIEW</text><rect x="3" y="3" width="1194" height="794" fill="none" stroke="#5E737B" stroke-width="4"/></svg>

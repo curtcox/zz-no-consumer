@@ -1,0 +1,137 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="800" viewBox="0 0 1200 800"><title>Research effort moves to safeguards and evaluation work</title><desc>Move effort from the paused lane into five separate safeguard work areas. Reallocation is continued work with different purposes, not inactivity.</desc><metadata>{
+  &quot;assets&quot;: {
+    &quot;aperture&quot;: &quot;&lt;rect x=\&quot;2\&quot; y=\&quot;15\&quot; width=\&quot;96\&quot; height=\&quot;70\&quot; fill=\&quot;#202326\&quot; stroke=\&quot;currentColor\&quot; stroke-width=\&quot;3\&quot;/&gt;&lt;circle cx=\&quot;50\&quot; cy=\&quot;50\&quot; r=\&quot;27\&quot; fill=\&quot;#101214\&quot; stroke=\&quot;currentColor\&quot; stroke-width=\&quot;3\&quot;/&gt;&lt;path d=\&quot;M50 24L74 63H26ZM26 63L50 24L74 63\&quot; fill=\&quot;none\&quot; stroke=\&quot;currentColor\&quot; stroke-width=\&quot;2\&quot;/&gt;&quot;,
+    &quot;card&quot;: &quot;&lt;rect x=\&quot;1\&quot; y=\&quot;1\&quot; width=\&quot;98\&quot; height=\&quot;98\&quot; fill=\&quot;#202326\&quot; stroke=\&quot;currentColor\&quot; stroke-width=\&quot;2\&quot;/&gt;&lt;path d=\&quot;M1 20H99M9 10H42M62 10H90M10 34H87M10 45H73M10 56H82M10 76H57M10 87H38\&quot; stroke=\&quot;currentColor\&quot; stroke-width=\&quot;2\&quot;/&gt;&quot;,
+    &quot;gate&quot;: &quot;&lt;path d=\&quot;M8 95V8H92V95M15 33H85M25 34V88M40 34V88M55 34V88M70 34V88M85 34V88\&quot; fill=\&quot;none\&quot; stroke=\&quot;currentColor\&quot; stroke-width=\&quot;4\&quot;/&gt;&lt;rect x=\&quot;39\&quot; y=\&quot;46\&quot; width=\&quot;22\&quot; height=\&quot;23\&quot; fill=\&quot;currentColor\&quot;/&gt;&quot;
+  },
+  &quot;palette&quot;: {
+    &quot;amber&quot;: &quot;#A17D45&quot;,
+    &quot;claret&quot;: &quot;#6B2634&quot;,
+    &quot;dirty&quot;: &quot;#CEC5B3&quot;,
+    &quot;ink&quot;: &quot;#101214&quot;,
+    &quot;institution&quot;: &quot;#68766B&quot;,
+    &quot;moss&quot;: &quot;#74864F&quot;,
+    &quot;nicotine&quot;: &quot;#AA9571&quot;,
+    &quot;paper&quot;: &quot;#E7E0D0&quot;,
+    &quot;shadow&quot;: &quot;#202326&quot;,
+    &quot;steel&quot;: &quot;#5E737B&quot;
+  },
+  &quot;renderer&quot;: &quot;storyboard-svg-2&quot;,
+  &quot;scene&quot;: {
+    &quot;background&quot;: &quot;ink&quot;,
+    &quot;intent&quot;: &quot;Move effort from the paused lane into five separate safeguard work areas. Reallocation is continued work with different purposes, not inactivity.&quot;,
+    &quot;lettering&quot;: [
+      {
+        &quot;box&quot;: [
+          0.045,
+          0.78,
+          0.91,
+          0.18
+        ]
+      }
+    ],
+    &quot;lettering_mode&quot;: &quot;manual&quot;,
+    &quot;nodes&quot;: [
+      {
+        &quot;asset&quot;: &quot;aperture&quot;,
+        &quot;box&quot;: [
+          0.06775,
+          0.271187,
+          0.1183,
+          0.1365
+        ],
+        &quot;color&quot;: &quot;steel&quot;,
+        &quot;focus&quot;: true,
+        &quot;label&quot;: &quot;MONITORING&quot;,
+        &quot;label_box&quot;: [
+          0.06775,
+          0.49443,
+          0.1183,
+          0.121481
+        ],
+        &quot;label_size&quot;: 18
+      },
+      {
+        &quot;asset&quot;: &quot;gate&quot;,
+        &quot;box&quot;: [
+          0.24975,
+          0.2012,
+          0.1183,
+          0.276474
+        ],
+        &quot;color&quot;: &quot;steel&quot;,
+        &quot;focus&quot;: true,
+        &quot;label&quot;: &quot;ISOLATION&quot;,
+        &quot;label_box&quot;: [
+          0.24975,
+          0.49443,
+          0.1183,
+          0.121481
+        ],
+        &quot;label_size&quot;: 18
+      },
+      {
+        &quot;asset&quot;: &quot;card&quot;,
+        &quot;box&quot;: [
+          0.43175,
+          0.2012,
+          0.1183,
+          0.276474
+        ],
+        &quot;color&quot;: &quot;steel&quot;,
+        &quot;focus&quot;: true,
+        &quot;label&quot;: &quot;EVALUATION DESIGN&quot;,
+        &quot;label_box&quot;: [
+          0.43175,
+          0.49443,
+          0.1183,
+          0.121481
+        ],
+        &quot;label_size&quot;: 18
+      },
+      {
+        &quot;asset&quot;: &quot;aperture&quot;,
+        &quot;box&quot;: [
+          0.61375,
+          0.271187,
+          0.1183,
+          0.1365
+        ],
+        &quot;color&quot;: &quot;steel&quot;,
+        &quot;focus&quot;: true,
+        &quot;label&quot;: &quot;GRADER&quot;,
+        &quot;label_box&quot;: [
+          0.61375,
+          0.49443,
+          0.1183,
+          0.121481
+        ],
+        &quot;label_size&quot;: 18
+      },
+      {
+        &quot;asset&quot;: &quot;card&quot;,
+        &quot;box&quot;: [
+          0.79575,
+          0.2012,
+          0.1183,
+          0.276474
+        ],
+        &quot;color&quot;: &quot;steel&quot;,
+        &quot;focus&quot;: true,
+        &quot;label&quot;: &quot;SAFE STOPPING&quot;,
+        &quot;label_box&quot;: [
+          0.79575,
+          0.49443,
+          0.1183,
+          0.121481
+        ],
+        &quot;label_size&quot;: 18
+      }
+    ],
+    &quot;reconstructed&quot;: false,
+    &quot;shot&quot;: &quot;row&quot;,
+    &quot;source&quot;: &quot;\n**Frame:** Researchers move from the darkened lane to monitoring, isolation, evaluation design, grader revision, and safe-stopping work.\n\n**Caption:**\n&gt; THE PAUSE REDIRECTS WORK TOWARD SAFEGUARDS AND ASSESSMENT.\n\n**Provenance:** `documented` + visual `compressed`.\n\n&quot;,
+    &quot;title&quot;: &quot;Research effort moves to safeguards and evaluation work&quot;
+  }
+}
+</metadata><rect width="1200" height="800" fill="#101214"/><g transform="translate(81.3 216.95) scale(1.4196 1.092)" color="#5E737B"><g transform=""><rect x="2" y="15" width="96" height="70" fill="#202326" stroke="currentColor" stroke-width="3"/><circle cx="50" cy="50" r="27" fill="#101214" stroke="currentColor" stroke-width="3"/><path d="M50 24L74 63H26ZM26 63L50 24L74 63" fill="none" stroke="currentColor" stroke-width="2"/></g></g><text x="152.28" y="413.544" text-anchor="middle" fill="#E7E0D0" font-size="18" font-family="sans-serif">MONITORING</text><g transform="translate(299.7 160.96) scale(1.4196 2.21179)" color="#5E737B"><g transform=""><path d="M8 95V8H92V95M15 33H85M25 34V88M40 34V88M55 34V88M70 34V88M85 34V88" fill="none" stroke="currentColor" stroke-width="4"/><rect x="39" y="46" width="22" height="23" fill="currentColor"/></g></g><text x="370.68" y="413.544" text-anchor="middle" fill="#E7E0D0" font-size="18" font-family="sans-serif">ISOLATION</text><g transform="translate(518.1 160.96) scale(1.4196 2.21179)" color="#5E737B"><g transform=""><rect x="1" y="1" width="98" height="98" fill="#202326" stroke="currentColor" stroke-width="2"/><path d="M1 20H99M9 10H42M62 10H90M10 34H87M10 45H73M10 56H82M10 76H57M10 87H38" stroke="currentColor" stroke-width="2"/></g></g><text x="589.08" y="413.544" text-anchor="middle" fill="#E7E0D0" font-size="18" font-family="sans-serif">EVALUATION</text><text x="589.08" y="438.024" text-anchor="middle" fill="#E7E0D0" font-size="18" font-family="sans-serif">DESIGN</text><g transform="translate(736.5 216.95) scale(1.4196 1.092)" color="#5E737B"><g transform=""><rect x="2" y="15" width="96" height="70" fill="#202326" stroke="currentColor" stroke-width="3"/><circle cx="50" cy="50" r="27" fill="#101214" stroke="currentColor" stroke-width="3"/><path d="M50 24L74 63H26ZM26 63L50 24L74 63" fill="none" stroke="currentColor" stroke-width="2"/></g></g><text x="807.48" y="413.544" text-anchor="middle" fill="#E7E0D0" font-size="18" font-family="sans-serif">GRADER</text><g transform="translate(954.9 160.96) scale(1.4196 2.21179)" color="#5E737B"><g transform=""><rect x="1" y="1" width="98" height="98" fill="#202326" stroke="currentColor" stroke-width="2"/><path d="M1 20H99M9 10H42M62 10H90M10 34H87M10 45H73M10 56H82M10 76H57M10 87H38" stroke="currentColor" stroke-width="2"/></g></g><text x="1025.88" y="413.544" text-anchor="middle" fill="#E7E0D0" font-size="18" font-family="sans-serif">SAFE</text><text x="1025.88" y="438.024" text-anchor="middle" fill="#E7E0D0" font-size="18" font-family="sans-serif">STOPPING</text><rect x="3" y="3" width="1194" height="794" fill="none" stroke="#5E737B" stroke-width="4"/></svg>

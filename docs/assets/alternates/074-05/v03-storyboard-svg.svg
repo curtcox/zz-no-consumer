@@ -1,0 +1,117 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="800" viewBox="0 0 1200 800"><title>Provenance tags lead into the investigation folder</title><desc>Attach different provenance tags to every card before the investigation folder. Methodological differences remain visible as the story turns toward how findings were produced.</desc><metadata>{
+  &quot;assets&quot;: {
+    &quot;card&quot;: &quot;&lt;rect x=\&quot;1\&quot; y=\&quot;1\&quot; width=\&quot;98\&quot; height=\&quot;98\&quot; fill=\&quot;#202326\&quot; stroke=\&quot;currentColor\&quot; stroke-width=\&quot;2\&quot;/&gt;&lt;path d=\&quot;M1 20H99M9 10H42M62 10H90M10 34H87M10 45H73M10 56H82M10 76H57M10 87H38\&quot; stroke=\&quot;currentColor\&quot; stroke-width=\&quot;2\&quot;/&gt;&quot;,
+    &quot;folder&quot;: &quot;&lt;path d=\&quot;M3 20V8H38L48 20H97V90H3Z\&quot; fill=\&quot;#202326\&quot; stroke=\&quot;currentColor\&quot; stroke-width=\&quot;3\&quot;/&gt;&lt;path d=\&quot;M12 40H85M12 50H65\&quot; stroke=\&quot;currentColor\&quot; stroke-width=\&quot;2\&quot;/&gt;&quot;
+  },
+  &quot;palette&quot;: {
+    &quot;amber&quot;: &quot;#A17D45&quot;,
+    &quot;claret&quot;: &quot;#6B2634&quot;,
+    &quot;dirty&quot;: &quot;#CEC5B3&quot;,
+    &quot;ink&quot;: &quot;#101214&quot;,
+    &quot;institution&quot;: &quot;#68766B&quot;,
+    &quot;moss&quot;: &quot;#74864F&quot;,
+    &quot;nicotine&quot;: &quot;#AA9571&quot;,
+    &quot;paper&quot;: &quot;#E7E0D0&quot;,
+    &quot;shadow&quot;: &quot;#202326&quot;,
+    &quot;steel&quot;: &quot;#5E737B&quot;
+  },
+  &quot;renderer&quot;: &quot;storyboard-svg-2&quot;,
+  &quot;scene&quot;: {
+    &quot;background&quot;: &quot;ink&quot;,
+    &quot;intent&quot;: &quot;Attach different provenance tags to every card before the investigation folder. Methodological differences remain visible as the story turns toward how findings were produced.&quot;,
+    &quot;lettering&quot;: [
+      {
+        &quot;box&quot;: [
+          0.045,
+          0.78,
+          0.91,
+          0.18
+        ]
+      }
+    ],
+    &quot;lettering_mode&quot;: &quot;manual&quot;,
+    &quot;nodes&quot;: [
+      {
+        &quot;asset&quot;: &quot;card&quot;,
+        &quot;box&quot;: [
+          0.06775,
+          0.2012,
+          0.1638,
+          0.276474
+        ],
+        &quot;color&quot;: &quot;steel&quot;,
+        &quot;focus&quot;: true,
+        &quot;label&quot;: &quot;ARTIFACT&quot;,
+        &quot;label_box&quot;: [
+          0.06775,
+          0.49443,
+          0.1638,
+          0.121481
+        ],
+        &quot;label_size&quot;: 18
+      },
+      {
+        &quot;asset&quot;: &quot;card&quot;,
+        &quot;box&quot;: [
+          0.29525,
+          0.2012,
+          0.1638,
+          0.276474
+        ],
+        &quot;color&quot;: &quot;steel&quot;,
+        &quot;focus&quot;: true,
+        &quot;label&quot;: &quot;PARAPHRASE&quot;,
+        &quot;label_box&quot;: [
+          0.29525,
+          0.49443,
+          0.1638,
+          0.121481
+        ],
+        &quot;label_size&quot;: 18
+      },
+      {
+        &quot;asset&quot;: &quot;card&quot;,
+        &quot;box&quot;: [
+          0.52275,
+          0.2012,
+          0.1638,
+          0.276474
+        ],
+        &quot;color&quot;: &quot;steel&quot;,
+        &quot;focus&quot;: true,
+        &quot;label&quot;: &quot;CLASSIFIER&quot;,
+        &quot;label_box&quot;: [
+          0.52275,
+          0.49443,
+          0.1638,
+          0.121481
+        ],
+        &quot;label_size&quot;: 18
+      },
+      {
+        &quot;asset&quot;: &quot;folder&quot;,
+        &quot;box&quot;: [
+          0.75025,
+          0.2012,
+          0.1638,
+          0.276474
+        ],
+        &quot;color&quot;: &quot;steel&quot;,
+        &quot;focus&quot;: true,
+        &quot;label&quot;: &quot;INVESTIGATION&quot;,
+        &quot;label_box&quot;: [
+          0.75025,
+          0.49443,
+          0.1638,
+          0.121481
+        ],
+        &quot;label_size&quot;: 18
+      }
+    ],
+    &quot;reconstructed&quot;: false,
+    &quot;shot&quot;: &quot;row&quot;,
+    &quot;source&quot;: &quot;\n**Frame:** Curt clips a provenance tag to every evidence card: exact artifact, source paraphrase, classifier finding, OpenAI-only account, reconstruction. The cards lead toward a new folder labeled `HOW THE INVESTIGATION WAS MADE`.\n\n**Caption:**\n&gt; THE NEXT QUESTION IS NOT ONLY WHAT THE AGENTS DID.\n&gt;\n&gt; IT IS HOW ANYONE DECIDED WHAT THE RECORD MEANS.\n\n**Provenance:** `inferred` — transition to Chapter 5&#x27;s examination of the investigation pipeline.\n\n&quot;,
+    &quot;title&quot;: &quot;Provenance tags lead into the investigation folder&quot;
+  }
+}
+</metadata><rect width="1200" height="800" fill="#101214"/><g transform="translate(81.3 160.96) scale(1.9656 2.21179)" color="#5E737B"><g transform=""><rect x="1" y="1" width="98" height="98" fill="#202326" stroke="currentColor" stroke-width="2"/><path d="M1 20H99M9 10H42M62 10H90M10 34H87M10 45H73M10 56H82M10 76H57M10 87H38" stroke="currentColor" stroke-width="2"/></g></g><text x="179.58" y="413.544" text-anchor="middle" fill="#E7E0D0" font-size="18" font-family="sans-serif">ARTIFACT</text><g transform="translate(354.3 160.96) scale(1.9656 2.21179)" color="#5E737B"><g transform=""><rect x="1" y="1" width="98" height="98" fill="#202326" stroke="currentColor" stroke-width="2"/><path d="M1 20H99M9 10H42M62 10H90M10 34H87M10 45H73M10 56H82M10 76H57M10 87H38" stroke="currentColor" stroke-width="2"/></g></g><text x="452.58" y="413.544" text-anchor="middle" fill="#E7E0D0" font-size="18" font-family="sans-serif">PARAPHRASE</text><g transform="translate(627.3 160.96) scale(1.9656 2.21179)" color="#5E737B"><g transform=""><rect x="1" y="1" width="98" height="98" fill="#202326" stroke="currentColor" stroke-width="2"/><path d="M1 20H99M9 10H42M62 10H90M10 34H87M10 45H73M10 56H82M10 76H57M10 87H38" stroke="currentColor" stroke-width="2"/></g></g><text x="725.58" y="413.544" text-anchor="middle" fill="#E7E0D0" font-size="18" font-family="sans-serif">CLASSIFIER</text><g transform="translate(900.3 160.96) scale(1.9656 2.21179)" color="#5E737B"><g transform=""><path d="M3 20V8H38L48 20H97V90H3Z" fill="#202326" stroke="currentColor" stroke-width="3"/><path d="M12 40H85M12 50H65" stroke="currentColor" stroke-width="2"/></g></g><text x="998.58" y="413.544" text-anchor="middle" fill="#E7E0D0" font-size="18" font-family="sans-serif">INVESTIGATION</text><rect x="3" y="3" width="1194" height="794" fill="none" stroke="#5E737B" stroke-width="4"/></svg>

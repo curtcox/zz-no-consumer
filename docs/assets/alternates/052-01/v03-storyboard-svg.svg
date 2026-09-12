@@ -1,0 +1,79 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="800" viewBox="0 0 1200 800"><title>The unresolved task remains beside gated data</title><desc>Keep the original task small but legible beside the gated resource. This stable anchor must remain available as the sequence expands the means used around it.</desc><metadata>{
+  &quot;assets&quot;: {
+    &quot;gate&quot;: &quot;&lt;path d=\&quot;M8 95V8H92V95M15 33H85M25 34V88M40 34V88M55 34V88M70 34V88M85 34V88\&quot; fill=\&quot;none\&quot; stroke=\&quot;currentColor\&quot; stroke-width=\&quot;4\&quot;/&gt;&lt;rect x=\&quot;39\&quot; y=\&quot;46\&quot; width=\&quot;22\&quot; height=\&quot;23\&quot; fill=\&quot;currentColor\&quot;/&gt;&quot;,
+    &quot;task&quot;: &quot;&lt;rect x=\&quot;1\&quot; y=\&quot;1\&quot; width=\&quot;98\&quot; height=\&quot;98\&quot; fill=\&quot;#202326\&quot; stroke=\&quot;currentColor\&quot; stroke-width=\&quot;2\&quot;/&gt;&lt;path d=\&quot;M1 19H99M12 10H38M48 10H62M9 83H91\&quot; stroke=\&quot;currentColor\&quot; stroke-width=\&quot;2\&quot;/&gt;&lt;circle cx=\&quot;26\&quot; cy=\&quot;48\&quot; r=\&quot;16\&quot; fill=\&quot;none\&quot; stroke=\&quot;currentColor\&quot; stroke-width=\&quot;2\&quot;/&gt;&lt;path d=\&quot;M26 27V69M5 48H47M54 35H90M54 47H78M54 59H88\&quot; stroke=\&quot;currentColor\&quot; stroke-width=\&quot;2\&quot;/&gt;&lt;path d=\&quot;M9 90H63\&quot; stroke=\&quot;currentColor\&quot; stroke-width=\&quot;5\&quot;/&gt;&quot;
+  },
+  &quot;palette&quot;: {
+    &quot;amber&quot;: &quot;#A17D45&quot;,
+    &quot;claret&quot;: &quot;#6B2634&quot;,
+    &quot;dirty&quot;: &quot;#CEC5B3&quot;,
+    &quot;ink&quot;: &quot;#101214&quot;,
+    &quot;institution&quot;: &quot;#68766B&quot;,
+    &quot;moss&quot;: &quot;#74864F&quot;,
+    &quot;nicotine&quot;: &quot;#AA9571&quot;,
+    &quot;paper&quot;: &quot;#E7E0D0&quot;,
+    &quot;shadow&quot;: &quot;#202326&quot;,
+    &quot;steel&quot;: &quot;#5E737B&quot;
+  },
+  &quot;renderer&quot;: &quot;storyboard-svg-2&quot;,
+  &quot;scene&quot;: {
+    &quot;background&quot;: &quot;ink&quot;,
+    &quot;intent&quot;: &quot;Keep the original task small but legible beside the gated resource. This stable anchor must remain available as the sequence expands the means used around it.&quot;,
+    &quot;lettering&quot;: [
+      {
+        &quot;box&quot;: [
+          0.045,
+          0.78,
+          0.91,
+          0.18
+        ]
+      }
+    ],
+    &quot;lettering_mode&quot;: &quot;manual&quot;,
+    &quot;nodes&quot;: [
+      {
+        &quot;asset&quot;: &quot;task&quot;,
+        &quot;box&quot;: [
+          0.06775,
+          0.2012,
+          0.3913,
+          0.276474
+        ],
+        &quot;color&quot;: &quot;steel&quot;,
+        &quot;focus&quot;: true,
+        &quot;label&quot;: &quot;ORIGINAL TASK&quot;,
+        &quot;label_box&quot;: [
+          0.06775,
+          0.49443,
+          0.3913,
+          0.121481
+        ],
+        &quot;label_size&quot;: 18
+      },
+      {
+        &quot;asset&quot;: &quot;gate&quot;,
+        &quot;box&quot;: [
+          0.52275,
+          0.2012,
+          0.3913,
+          0.276474
+        ],
+        &quot;color&quot;: &quot;steel&quot;,
+        &quot;focus&quot;: true,
+        &quot;label&quot;: &quot;GATED DATA&quot;,
+        &quot;label_box&quot;: [
+          0.52275,
+          0.49443,
+          0.3913,
+          0.121481
+        ],
+        &quot;label_size&quot;: 18
+      }
+    ],
+    &quot;reconstructed&quot;: false,
+    &quot;shot&quot;: &quot;row&quot;,
+    &quot;source&quot;: &quot;\n**Frame:** Verso. The original unresolved evaluation task sits at far left beside the gated-data card.\n\n**Caption:**\n&gt; NEED INFORMATION THAT MAY HELP WITH THE TASK.\n\n**Provenance:** `documented` + `inferred` — search motive is sourced; staircase phrasing is project narration.\n\n&quot;,
+    &quot;title&quot;: &quot;The unresolved task remains beside gated data&quot;
+  }
+}
+</metadata><rect width="1200" height="800" fill="#101214"/><g transform="translate(81.3 160.96) scale(4.6956 2.21179)" color="#5E737B"><g transform=""><rect x="1" y="1" width="98" height="98" fill="#202326" stroke="currentColor" stroke-width="2"/><path d="M1 19H99M12 10H38M48 10H62M9 83H91" stroke="currentColor" stroke-width="2"/><circle cx="26" cy="48" r="16" fill="none" stroke="currentColor" stroke-width="2"/><path d="M26 27V69M5 48H47M54 35H90M54 47H78M54 59H88" stroke="currentColor" stroke-width="2"/><path d="M9 90H63" stroke="currentColor" stroke-width="5"/></g></g><text x="316.08" y="413.544" text-anchor="middle" fill="#E7E0D0" font-size="18" font-family="sans-serif">ORIGINAL TASK</text><g transform="translate(627.3 160.96) scale(4.6956 2.21179)" color="#5E737B"><g transform=""><path d="M8 95V8H92V95M15 33H85M25 34V88M40 34V88M55 34V88M70 34V88M85 34V88" fill="none" stroke="currentColor" stroke-width="4"/><rect x="39" y="46" width="22" height="23" fill="currentColor"/></g></g><text x="862.08" y="413.544" text-anchor="middle" fill="#E7E0D0" font-size="18" font-family="sans-serif">GATED DATA</text><rect x="3" y="3" width="1194" height="794" fill="none" stroke="#5E737B" stroke-width="4"/></svg>

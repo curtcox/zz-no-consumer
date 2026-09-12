@@ -1,0 +1,71 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="800" viewBox="0 0 1200 800"><title>The hand stops above the contested inference</title><desc>Freeze the hand over the keyboard and retain the original recurrence circle. The newly drawn through-wipe line belongs to the contested explanatory sketch, never to a confirmed cache-transfer diagram.</desc><metadata>{
+  &quot;assets&quot;: {
+    &quot;hand&quot;: &quot;&lt;path d=\&quot;M0 70L24 38L56 9Q61 7 63 12L46 38L75 16Q82 16 79 23L57 46L88 28Q95 30 90 36L64 55L92 44Q100 46 94 53L63 75L48 99H12Z\&quot; fill=\&quot;currentColor\&quot;/&gt;&quot;,
+    &quot;paper&quot;: &quot;&lt;path d=\&quot;M0 0H80L100 20V100H0Z\&quot; fill=\&quot;currentColor\&quot;/&gt;&lt;path d=\&quot;M80 0V20H100M9 35H84M9 48H84M9 61H73M9 74H81\&quot; fill=\&quot;none\&quot; stroke=\&quot;#101214\&quot; stroke-width=\&quot;1.5\&quot;/&gt;&quot;
+  },
+  &quot;palette&quot;: {
+    &quot;amber&quot;: &quot;#A17D45&quot;,
+    &quot;claret&quot;: &quot;#6B2634&quot;,
+    &quot;dirty&quot;: &quot;#CEC5B3&quot;,
+    &quot;ink&quot;: &quot;#101214&quot;,
+    &quot;institution&quot;: &quot;#68766B&quot;,
+    &quot;moss&quot;: &quot;#74864F&quot;,
+    &quot;nicotine&quot;: &quot;#AA9571&quot;,
+    &quot;paper&quot;: &quot;#E7E0D0&quot;,
+    &quot;shadow&quot;: &quot;#202326&quot;,
+    &quot;steel&quot;: &quot;#5E737B&quot;
+  },
+  &quot;renderer&quot;: &quot;storyboard-svg-2&quot;,
+  &quot;scene&quot;: {
+    &quot;background&quot;: &quot;ink&quot;,
+    &quot;intent&quot;: &quot;Freeze the hand over the keyboard and retain the original recurrence circle. The newly drawn through-wipe line belongs to the contested explanatory sketch, never to a confirmed cache-transfer diagram.&quot;,
+    &quot;lettering&quot;: [
+      {
+        &quot;box&quot;: [
+          0.045,
+          0.78,
+          0.91,
+          0.18
+        ]
+      }
+    ],
+    &quot;lettering_mode&quot;: &quot;manual&quot;,
+    &quot;nodes&quot;: [
+      {
+        &quot;asset&quot;: &quot;hand&quot;,
+        &quot;box&quot;: [
+          0.144712,
+          0.2012,
+          0.237377,
+          0.4189
+        ],
+        &quot;color&quot;: &quot;dirty&quot;,
+        &quot;focus&quot;: true
+      },
+      {
+        &quot;asset&quot;: &quot;paper&quot;,
+        &quot;box&quot;: [
+          0.52275,
+          0.2012,
+          0.3913,
+          0.276474
+        ],
+        &quot;color&quot;: &quot;steel&quot;,
+        &quot;focus&quot;: true,
+        &quot;label&quot;: &quot;RECURRENCE&quot;,
+        &quot;label_box&quot;: [
+          0.52275,
+          0.49443,
+          0.3913,
+          0.121481
+        ],
+        &quot;label_size&quot;: 18
+      }
+    ],
+    &quot;reconstructed&quot;: false,
+    &quot;shot&quot;: &quot;row&quot;,
+    &quot;source&quot;: &quot;\n**Frame:** Curt&#x27;s hand stops over the keyboard. On the legal pad, the heavy circle he drew around the recurrence on [page 038](038.md) is still there. He does not erase it. He draws a second line *through* the wipe — the one line the chapter has spent eleven pages insisting could not be drawn.\n\n**Dialogue — CURT:**\n&gt; No. He&#x27;s right. There was a channel and I drew the wrong one.\n\n**Provenance:** `reconstructed` + `disputed` — Curt&#x27;s concession is invented; the underlying conflict between `OAI-BH` and `METR` is real and is not resolved here or later.\n\n&quot;,
+    &quot;title&quot;: &quot;The hand stops above the contested inference&quot;
+  }
+}
+</metadata><rect width="1200" height="800" fill="#101214"/><g transform="translate(173.654 160.96) scale(2.84852 3.3512)" color="#CEC5B3"><g transform=""><path d="M0 70L24 38L56 9Q61 7 63 12L46 38L75 16Q82 16 79 23L57 46L88 28Q95 30 90 36L64 55L92 44Q100 46 94 53L63 75L48 99H12Z" fill="currentColor"/></g></g><g transform="translate(627.3 160.96) scale(4.6956 2.21179)" color="#5E737B"><g transform=""><path d="M0 0H80L100 20V100H0Z" fill="currentColor"/><path d="M80 0V20H100M9 35H84M9 48H84M9 61H73M9 74H81" fill="none" stroke="#101214" stroke-width="1.5"/></g></g><text x="862.08" y="413.544" text-anchor="middle" fill="#E7E0D0" font-size="18" font-family="sans-serif">RECURRENCE</text><rect x="3" y="3" width="1194" height="794" fill="none" stroke="#5E737B" stroke-width="4"/></svg>

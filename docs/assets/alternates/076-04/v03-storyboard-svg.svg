@@ -1,0 +1,90 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="800" viewBox="0 0 1200 800"><title>The same model label does not establish identity or memory</title><desc>Use the same model label on separately bounded incident and later-analysis boxes. Leave identity and memory connectors absent despite the shared label.</desc><metadata>{
+  &quot;assets&quot;: {
+    &quot;boundary&quot;: &quot;&lt;path d=\&quot;M50 0V100\&quot; stroke=\&quot;currentColor\&quot; stroke-width=\&quot;14\&quot;/&gt;&quot;,
+    &quot;box&quot;: &quot;&lt;rect x=\&quot;1\&quot; y=\&quot;1\&quot; width=\&quot;98\&quot; height=\&quot;98\&quot; rx=\&quot;2\&quot; fill=\&quot;#202326\&quot; stroke=\&quot;currentColor\&quot; stroke-width=\&quot;2\&quot;/&gt;&quot;
+  },
+  &quot;palette&quot;: {
+    &quot;amber&quot;: &quot;#A17D45&quot;,
+    &quot;claret&quot;: &quot;#6B2634&quot;,
+    &quot;dirty&quot;: &quot;#CEC5B3&quot;,
+    &quot;ink&quot;: &quot;#101214&quot;,
+    &quot;institution&quot;: &quot;#68766B&quot;,
+    &quot;moss&quot;: &quot;#74864F&quot;,
+    &quot;nicotine&quot;: &quot;#AA9571&quot;,
+    &quot;paper&quot;: &quot;#E7E0D0&quot;,
+    &quot;shadow&quot;: &quot;#202326&quot;,
+    &quot;steel&quot;: &quot;#5E737B&quot;
+  },
+  &quot;renderer&quot;: &quot;storyboard-svg-2&quot;,
+  &quot;scene&quot;: {
+    &quot;background&quot;: &quot;ink&quot;,
+    &quot;intent&quot;: &quot;Use the same model label on separately bounded incident and later-analysis boxes. Leave identity and memory connectors absent despite the shared label.&quot;,
+    &quot;lettering&quot;: [
+      {
+        &quot;box&quot;: [
+          0.045,
+          0.78,
+          0.91,
+          0.18
+        ]
+      }
+    ],
+    &quot;lettering_mode&quot;: &quot;manual&quot;,
+    &quot;nodes&quot;: [
+      {
+        &quot;asset&quot;: &quot;box&quot;,
+        &quot;box&quot;: [
+          0.06775,
+          0.2012,
+          0.3913,
+          0.276474
+        ],
+        &quot;color&quot;: &quot;steel&quot;,
+        &quot;focus&quot;: true,
+        &quot;label&quot;: &quot;INCIDENT TRAJECTORIES&quot;,
+        &quot;label_box&quot;: [
+          0.06775,
+          0.49443,
+          0.3913,
+          0.121481
+        ],
+        &quot;label_size&quot;: 18
+      },
+      {
+        &quot;asset&quot;: &quot;box&quot;,
+        &quot;box&quot;: [
+          0.52275,
+          0.2012,
+          0.3913,
+          0.276474
+        ],
+        &quot;color&quot;: &quot;steel&quot;,
+        &quot;focus&quot;: true,
+        &quot;label&quot;: &quot;LATER ANALYSIS&quot;,
+        &quot;label_box&quot;: [
+          0.52275,
+          0.49443,
+          0.3913,
+          0.121481
+        ],
+        &quot;label_size&quot;: 18
+      },
+      {
+        &quot;asset&quot;: &quot;boundary&quot;,
+        &quot;box&quot;: [
+          0.49363,
+          0.0734,
+          0.01274,
+          0.6248
+        ],
+        &quot;color&quot;: &quot;steel&quot;,
+        &quot;focus&quot;: true
+      }
+    ],
+    &quot;reconstructed&quot;: false,
+    &quot;shot&quot;: &quot;split&quot;,
+    &quot;source&quot;: &quot;\n**Frame:** Two separate boxes share the model label `GPT-5.6 SOL`: one contains minority incident trajectories; the other contains later analysis runs. No arrow of memory or identity connects them.\n\n**Caption:**\n&gt; THE SAME MODEL APPEARS ON BOTH SIDES OF THE REVIEW.\n&gt;\n&gt; NOT THE SAME RUN. NOT THE SAME MEMORY.\n\n**Provenance:** `documented` + `inferred` — model-level relationship sourced; non-identity boundary explicit.\n\n&quot;,
+    &quot;title&quot;: &quot;The same model label does not establish identity or memory&quot;
+  }
+}
+</metadata><rect width="1200" height="800" fill="#101214"/><g transform="translate(81.3 160.96) scale(4.6956 2.21179)" color="#5E737B"><g transform=""><rect x="1" y="1" width="98" height="98" rx="2" fill="#202326" stroke="currentColor" stroke-width="2"/></g></g><text x="316.08" y="413.544" text-anchor="middle" fill="#E7E0D0" font-size="18" font-family="sans-serif">INCIDENT TRAJECTORIES</text><g transform="translate(627.3 160.96) scale(4.6956 2.21179)" color="#5E737B"><g transform=""><rect x="1" y="1" width="98" height="98" rx="2" fill="#202326" stroke="currentColor" stroke-width="2"/></g></g><text x="862.08" y="413.544" text-anchor="middle" fill="#E7E0D0" font-size="18" font-family="sans-serif">LATER ANALYSIS</text><g transform="translate(592.356 58.72) scale(0.15288 4.9984)" color="#5E737B"><g transform=""><path d="M50 0V100" stroke="currentColor" stroke-width="14"/></g></g><rect x="3" y="3" width="1194" height="794" fill="none" stroke="#5E737B" stroke-width="4"/></svg>

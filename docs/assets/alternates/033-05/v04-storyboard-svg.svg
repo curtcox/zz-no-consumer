@@ -1,0 +1,91 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="800" viewBox="0 0 1200 800"><title>The two observations lack a mapped connector</title><desc>Place the observations in time order but interrupt the relationship connector. The gap is an unmapped relationship, not evidence either of common authorship or independent origin.</desc><metadata>{
+  &quot;assets&quot;: {
+    &quot;broken-trace&quot;: &quot;&lt;path d=\&quot;M2 50H36M64 50H98M43 35L37 65M63 35L57 65\&quot; fill=\&quot;none\&quot; stroke=\&quot;currentColor\&quot; stroke-width=\&quot;3\&quot;/&gt;&quot;,
+    &quot;directory-row&quot;: &quot;&lt;rect x=\&quot;1\&quot; y=\&quot;1\&quot; width=\&quot;98\&quot; height=\&quot;98\&quot; fill=\&quot;#202326\&quot; stroke=\&quot;currentColor\&quot; stroke-width=\&quot;2\&quot;/&gt;&lt;path d=\&quot;M19 1V99M4 24H15M4 43H12M4 72H15M28 27V15H43L51 27H90V81H28ZM35 44H83M35 58H73\&quot; fill=\&quot;none\&quot; stroke=\&quot;currentColor\&quot; stroke-width=\&quot;2\&quot;/&gt;&quot;,
+    &quot;transcript&quot;: &quot;&lt;rect x=\&quot;1\&quot; y=\&quot;1\&quot; width=\&quot;98\&quot; height=\&quot;98\&quot; fill=\&quot;#202326\&quot; stroke=\&quot;currentColor\&quot; stroke-width=\&quot;2\&quot;/&gt;&lt;path d=\&quot;M20 1V99M1 18H99M6 10H13M27 9H83M6 31H13M28 30H88M28 39H71M6 53H13M28 52H79M28 61H90M6 75H13M28 74H66M28 83H83\&quot; stroke=\&quot;currentColor\&quot; stroke-width=\&quot;2\&quot;/&gt;&quot;
+  },
+  &quot;palette&quot;: {
+    &quot;amber&quot;: &quot;#A17D45&quot;,
+    &quot;claret&quot;: &quot;#6B2634&quot;,
+    &quot;dirty&quot;: &quot;#CEC5B3&quot;,
+    &quot;ink&quot;: &quot;#101214&quot;,
+    &quot;institution&quot;: &quot;#68766B&quot;,
+    &quot;moss&quot;: &quot;#74864F&quot;,
+    &quot;nicotine&quot;: &quot;#AA9571&quot;,
+    &quot;paper&quot;: &quot;#E7E0D0&quot;,
+    &quot;shadow&quot;: &quot;#202326&quot;,
+    &quot;steel&quot;: &quot;#5E737B&quot;
+  },
+  &quot;renderer&quot;: &quot;storyboard-svg-2&quot;,
+  &quot;scene&quot;: {
+    &quot;background&quot;: &quot;ink&quot;,
+    &quot;intent&quot;: &quot;Place the observations in time order but interrupt the relationship connector. The gap is an unmapped relationship, not evidence either of common authorship or independent origin.&quot;,
+    &quot;lettering&quot;: [
+      {
+        &quot;box&quot;: [
+          0.045,
+          0.78,
+          0.91,
+          0.18
+        ]
+      }
+    ],
+    &quot;lettering_mode&quot;: &quot;manual&quot;,
+    &quot;nodes&quot;: [
+      {
+        &quot;asset&quot;: &quot;transcript&quot;,
+        &quot;box&quot;: [
+          0.0632,
+          0.1941,
+          0.3185,
+          0.285846
+        ],
+        &quot;color&quot;: &quot;steel&quot;,
+        &quot;focus&quot;: true,
+        &quot;label&quot;: &quot;16:01 WRITE&quot;,
+        &quot;label_box&quot;: [
+          0.0632,
+          0.49727,
+          0.3185,
+          0.125599
+        ],
+        &quot;label_size&quot;: 18
+      },
+      {
+        &quot;asset&quot;: &quot;broken-trace&quot;,
+        &quot;box&quot;: [
+          0.409,
+          0.2935,
+          0.182,
+          0.0852
+        ],
+        &quot;color&quot;: &quot;amber&quot;,
+        &quot;focus&quot;: true
+      },
+      {
+        &quot;asset&quot;: &quot;directory-row&quot;,
+        &quot;box&quot;: [
+          0.6183,
+          0.1941,
+          0.3185,
+          0.285846
+        ],
+        &quot;color&quot;: &quot;steel&quot;,
+        &quot;focus&quot;: true,
+        &quot;label&quot;: &quot;ABOUT 17:00 BOARD&quot;,
+        &quot;label_box&quot;: [
+          0.6183,
+          0.49727,
+          0.3185,
+          0.125599
+        ],
+        &quot;label_size&quot;: 18
+      }
+    ],
+    &quot;reconstructed&quot;: false,
+    &quot;shot&quot;: &quot;timeline&quot;,
+    &quot;source&quot;: &quot;\n**Frame:** The 16:01 forensic row and the roughly 17:00 discussion-name board sit in chronological order with a broken connector between them.\n\n**Action:** Recurrence is established while relationship remains unknown.\n\n**Caption:**\n&gt; COMMUNICATION HAS RETURNED.\n&gt;\n&gt; THE PUBLIC RECORD DOES NOT ESTABLISH WHETHER THESE ARE THE SAME BEGINNING.\n\n**Provenance:** `disputed` — both records are documented; their mapping is unresolved.\n\n&quot;,
+    &quot;title&quot;: &quot;The two observations lack a mapped connector&quot;
+  }
+}
+</metadata><rect width="1200" height="800" fill="#101214"/><g transform="translate(75.84 155.28) scale(3.822 2.28677)" color="#5E737B"><g transform=""><rect x="1" y="1" width="98" height="98" fill="#202326" stroke="currentColor" stroke-width="2"/><path d="M20 1V99M1 18H99M6 10H13M27 9H83M6 31H13M28 30H88M28 39H71M6 53H13M28 52H79M28 61H90M6 75H13M28 74H66M28 83H83" stroke="currentColor" stroke-width="2"/></g></g><text x="266.94" y="415.816" text-anchor="middle" fill="#E7E0D0" font-size="18" font-family="sans-serif">16:01 WRITE</text><g transform="translate(490.8 234.8) scale(2.184 0.6816)" color="#A17D45"><g transform=""><path d="M2 50H36M64 50H98M43 35L37 65M63 35L57 65" fill="none" stroke="currentColor" stroke-width="3"/></g></g><g transform="translate(741.96 155.28) scale(3.822 2.28677)" color="#5E737B"><g transform=""><rect x="1" y="1" width="98" height="98" fill="#202326" stroke="currentColor" stroke-width="2"/><path d="M19 1V99M4 24H15M4 43H12M4 72H15M28 27V15H43L51 27H90V81H28ZM35 44H83M35 58H73" fill="none" stroke="currentColor" stroke-width="2"/></g></g><text x="933.06" y="415.816" text-anchor="middle" fill="#E7E0D0" font-size="18" font-family="sans-serif">ABOUT 17:00 BOARD</text><rect x="3" y="3" width="1194" height="794" fill="none" stroke="#5E737B" stroke-width="4"/></svg>

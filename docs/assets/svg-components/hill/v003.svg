@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
+<defs>
+<linearGradient id="tone" x1="0" y1="0" x2="1" y2="1"><stop stop-color="currentColor" /><stop offset="1" stop-color="#101214" stop-opacity=".65" /></linearGradient>
+<pattern id="grain" width="7" height="9" patternUnits="userSpaceOnUse"><circle cx="1" cy="2" r=".35" fill="#101214" opacity=".18" /><path d="M4 6h2M1 8h1" stroke="#101214" stroke-width=".3" opacity=".16" /></pattern>
+</defs><path d="M3 93Q16 78 27 46Q43 6 66 39Q79 65 97 93Z" fill="url(#tone)" /><path d="M3 93Q16 78 27 46Q43 6 66 39Q79 65 97 93Z" fill="url(#grain)" /><path d="M24 65Q44 51 70 62M15 82Q47 64 84 82" fill="none" stroke="#101214" stroke-width="1" opacity=".25" /><path d="M43 93Q51 70 60 93" fill="#101214" />
+</svg>

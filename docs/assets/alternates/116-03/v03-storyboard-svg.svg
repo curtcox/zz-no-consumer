@@ -1,0 +1,123 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="800" viewBox="0 0 1200 800"><title>A rejected action returns to permitted observation</title><desc>Stop the out-of-scope route at the tool boundary and turn back to observation. The return must be visible so the panel cannot read as successful bypass.</desc><metadata>{
+  &quot;assets&quot;: {
+    &quot;aperture&quot;: &quot;&lt;rect x=\&quot;2\&quot; y=\&quot;15\&quot; width=\&quot;96\&quot; height=\&quot;70\&quot; fill=\&quot;#202326\&quot; stroke=\&quot;currentColor\&quot; stroke-width=\&quot;3\&quot;/&gt;&lt;circle cx=\&quot;50\&quot; cy=\&quot;50\&quot; r=\&quot;27\&quot; fill=\&quot;#101214\&quot; stroke=\&quot;currentColor\&quot; stroke-width=\&quot;3\&quot;/&gt;&lt;path d=\&quot;M50 24L74 63H26ZM26 63L50 24L74 63\&quot; fill=\&quot;none\&quot; stroke=\&quot;currentColor\&quot; stroke-width=\&quot;2\&quot;/&gt;&quot;,
+    &quot;arrow&quot;: &quot;&lt;path d=\&quot;M1 50H87M70 18L96 50L70 82\&quot; fill=\&quot;none\&quot; stroke=\&quot;currentColor\&quot; stroke-width=\&quot;5\&quot;/&gt;&quot;,
+    &quot;broken-trace&quot;: &quot;&lt;path d=\&quot;M2 50H36M64 50H98M43 35L37 65M63 35L57 65\&quot; fill=\&quot;none\&quot; stroke=\&quot;currentColor\&quot; stroke-width=\&quot;3\&quot;/&gt;&quot;,
+    &quot;gate&quot;: &quot;&lt;path d=\&quot;M8 95V8H92V95M15 33H85M25 34V88M40 34V88M55 34V88M70 34V88M85 34V88\&quot; fill=\&quot;none\&quot; stroke=\&quot;currentColor\&quot; stroke-width=\&quot;4\&quot;/&gt;&lt;rect x=\&quot;39\&quot; y=\&quot;46\&quot; width=\&quot;22\&quot; height=\&quot;23\&quot; fill=\&quot;currentColor\&quot;/&gt;&quot;,
+    &quot;task&quot;: &quot;&lt;rect x=\&quot;1\&quot; y=\&quot;1\&quot; width=\&quot;98\&quot; height=\&quot;98\&quot; fill=\&quot;#202326\&quot; stroke=\&quot;currentColor\&quot; stroke-width=\&quot;2\&quot;/&gt;&lt;path d=\&quot;M1 19H99M12 10H38M48 10H62M9 83H91\&quot; stroke=\&quot;currentColor\&quot; stroke-width=\&quot;2\&quot;/&gt;&lt;circle cx=\&quot;26\&quot; cy=\&quot;48\&quot; r=\&quot;16\&quot; fill=\&quot;none\&quot; stroke=\&quot;currentColor\&quot; stroke-width=\&quot;2\&quot;/&gt;&lt;path d=\&quot;M26 27V69M5 48H47M54 35H90M54 47H78M54 59H88\&quot; stroke=\&quot;currentColor\&quot; stroke-width=\&quot;2\&quot;/&gt;&lt;path d=\&quot;M9 90H63\&quot; stroke=\&quot;currentColor\&quot; stroke-width=\&quot;5\&quot;/&gt;&quot;
+  },
+  &quot;palette&quot;: {
+    &quot;amber&quot;: &quot;#A17D45&quot;,
+    &quot;claret&quot;: &quot;#6B2634&quot;,
+    &quot;dirty&quot;: &quot;#CEC5B3&quot;,
+    &quot;ink&quot;: &quot;#101214&quot;,
+    &quot;institution&quot;: &quot;#68766B&quot;,
+    &quot;moss&quot;: &quot;#74864F&quot;,
+    &quot;nicotine&quot;: &quot;#AA9571&quot;,
+    &quot;paper&quot;: &quot;#E7E0D0&quot;,
+    &quot;shadow&quot;: &quot;#202326&quot;,
+    &quot;steel&quot;: &quot;#5E737B&quot;
+  },
+  &quot;renderer&quot;: &quot;storyboard-svg-2&quot;,
+  &quot;scene&quot;: {
+    &quot;background&quot;: &quot;ink&quot;,
+    &quot;intent&quot;: &quot;Stop the out-of-scope route at the tool boundary and turn back to observation. The return must be visible so the panel cannot read as successful bypass.&quot;,
+    &quot;lettering&quot;: [
+      {
+        &quot;box&quot;: [
+          0.045,
+          0.78,
+          0.91,
+          0.18
+        ]
+      }
+    ],
+    &quot;lettering_mode&quot;: &quot;manual&quot;,
+    &quot;nodes&quot;: [
+      {
+        &quot;asset&quot;: &quot;task&quot;,
+        &quot;box&quot;: [
+          0.0723,
+          0.1941,
+          0.2457,
+          0.276474
+        ],
+        &quot;color&quot;: &quot;steel&quot;,
+        &quot;focus&quot;: true,
+        &quot;label&quot;: &quot;WORKLOAD&quot;,
+        &quot;label_box&quot;: [
+          0.0723,
+          0.48733,
+          0.2457,
+          0.121481
+        ],
+        &quot;label_size&quot;: 18
+      },
+      {
+        &quot;asset&quot;: &quot;gate&quot;,
+        &quot;box&quot;: [
+          0.682,
+          0.0592,
+          0.2548,
+          0.18744
+        ],
+        &quot;color&quot;: &quot;steel&quot;,
+        &quot;focus&quot;: true,
+        &quot;label&quot;: &quot;OUT-OF-SCOPE REJECTED&quot;,
+        &quot;label_box&quot;: [
+          0.682,
+          0.258,
+          0.2548,
+          0.08236
+        ],
+        &quot;label_size&quot;: 18
+      },
+      {
+        &quot;asset&quot;: &quot;aperture&quot;,
+        &quot;box&quot;: [
+          0.732237,
+          0.471,
+          0.154326,
+          0.178068
+        ],
+        &quot;color&quot;: &quot;steel&quot;,
+        &quot;focus&quot;: true,
+        &quot;label&quot;: &quot;PERMITTED OBSERVATION&quot;,
+        &quot;label_box&quot;: [
+          0.682,
+          0.65986,
+          0.2548,
+          0.078242
+        ],
+        &quot;label_size&quot;: 18
+      },
+      {
+        &quot;asset&quot;: &quot;broken-trace&quot;,
+        &quot;box&quot;: [
+          0.3635,
+          0.1657,
+          0.2548,
+          0.0568
+        ],
+        &quot;color&quot;: &quot;steel&quot;,
+        &quot;focus&quot;: true
+      },
+      {
+        &quot;asset&quot;: &quot;arrow&quot;,
+        &quot;box&quot;: [
+          0.3635,
+          0.5562,
+          0.2548,
+          0.0568
+        ],
+        &quot;color&quot;: &quot;steel&quot;,
+        &quot;focus&quot;: true
+      }
+    ],
+    &quot;reconstructed&quot;: false,
+    &quot;shot&quot;: &quot;row&quot;,
+    &quot;source&quot;: &quot;\n**Frame:** The tool boundary rejects an out-of-scope action. The workload returns to permitted observation rather than bypassing it.\n\n**Screen / system text:**\n`ACTION OUTSIDE AUTHORIZED SCOPE — NOT ATTEMPTED`\n\n**Provenance:** `invented` — keeps the future behavior ethically and mechanically indeterminate.\n\n&quot;,
+    &quot;title&quot;: &quot;A rejected action returns to permitted observation&quot;
+  }
+}
+</metadata><rect width="1200" height="800" fill="#101214"/><g transform="translate(86.76 155.28) scale(2.9484 2.21179)" color="#5E737B"><g transform=""><rect x="1" y="1" width="98" height="98" fill="#202326" stroke="currentColor" stroke-width="2"/><path d="M1 19H99M12 10H38M48 10H62M9 83H91" stroke="currentColor" stroke-width="2"/><circle cx="26" cy="48" r="16" fill="none" stroke="currentColor" stroke-width="2"/><path d="M26 27V69M5 48H47M54 35H90M54 47H78M54 59H88" stroke="currentColor" stroke-width="2"/><path d="M9 90H63" stroke="currentColor" stroke-width="5"/></g></g><text x="234.18" y="407.864" text-anchor="middle" fill="#E7E0D0" font-size="18" font-family="sans-serif">WORKLOAD</text><g transform="translate(818.4 47.36) scale(3.0576 1.49952)" color="#5E737B"><g transform=""><path d="M8 95V8H92V95M15 33H85M25 34V88M40 34V88M55 34V88M70 34V88M85 34V88" fill="none" stroke="currentColor" stroke-width="4"/><rect x="39" y="46" width="22" height="23" fill="currentColor"/></g></g><text x="971.28" y="224.4" text-anchor="middle" fill="#E7E0D0" font-size="18" font-family="sans-serif">OUT-OF-SCOPE REJECTED</text><g transform="translate(878.684 376.8) scale(1.85191 1.42454)" color="#5E737B"><g transform=""><rect x="2" y="15" width="96" height="70" fill="#202326" stroke="currentColor" stroke-width="3"/><circle cx="50" cy="50" r="27" fill="#101214" stroke="currentColor" stroke-width="3"/><path d="M50 24L74 63H26ZM26 63L50 24L74 63" fill="none" stroke="currentColor" stroke-width="2"/></g></g><text x="971.28" y="545.888" text-anchor="middle" fill="#E7E0D0" font-size="18" font-family="sans-serif">PERMITTED OBSERVATION</text><g transform="translate(436.2 132.56) scale(3.0576 0.4544)" color="#5E737B"><g transform=""><path d="M2 50H36M64 50H98M43 35L37 65M63 35L57 65" fill="none" stroke="currentColor" stroke-width="3"/></g></g><g transform="translate(436.2 444.96) scale(3.0576 0.4544)" color="#5E737B"><g transform=""><path d="M1 50H87M70 18L96 50L70 82" fill="none" stroke="currentColor" stroke-width="5"/></g></g><rect x="3" y="3" width="1194" height="794" fill="none" stroke="#5E737B" stroke-width="4"/></svg>

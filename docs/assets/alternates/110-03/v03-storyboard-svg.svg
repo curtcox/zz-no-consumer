@@ -1,0 +1,91 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="800" viewBox="0 0 1200 800"><title>An attributed visit inference sits beside a recorded response</title><desc>Use hatching for attributed-visit inference and solid treatment for the recorded response. Touching cards share chronology but receive no causal or knowledge-transfer connector.</desc><metadata>{
+  &quot;assets&quot;: {
+    &quot;boundary&quot;: &quot;&lt;path d=\&quot;M50 0V100\&quot; stroke=\&quot;currentColor\&quot; stroke-width=\&quot;14\&quot;/&gt;&quot;,
+    &quot;card&quot;: &quot;&lt;rect x=\&quot;1\&quot; y=\&quot;1\&quot; width=\&quot;98\&quot; height=\&quot;98\&quot; fill=\&quot;#202326\&quot; stroke=\&quot;currentColor\&quot; stroke-width=\&quot;2\&quot;/&gt;&lt;path d=\&quot;M1 20H99M9 10H42M62 10H90M10 34H87M10 45H73M10 56H82M10 76H57M10 87H38\&quot; stroke=\&quot;currentColor\&quot; stroke-width=\&quot;2\&quot;/&gt;&quot;,
+    &quot;hatched-card&quot;: &quot;&lt;rect x=\&quot;1\&quot; y=\&quot;1\&quot; width=\&quot;98\&quot; height=\&quot;98\&quot; fill=\&quot;#202326\&quot; stroke=\&quot;currentColor\&quot; stroke-width=\&quot;2\&quot; stroke-dasharray=\&quot;5 3\&quot;/&gt;&lt;path d=\&quot;M3 18L18 3M3 34L34 3M3 50L50 3M3 66L66 3M3 82L82 3M3 98L98 3M19 98L98 19M35 98L98 35M51 98L98 51M67 98L98 67M83 98L98 83\&quot; stroke=\&quot;currentColor\&quot; stroke-width=\&quot;1\&quot; opacity=\&quot;.35\&quot;/&gt;&quot;
+  },
+  &quot;palette&quot;: {
+    &quot;amber&quot;: &quot;#A17D45&quot;,
+    &quot;claret&quot;: &quot;#6B2634&quot;,
+    &quot;dirty&quot;: &quot;#CEC5B3&quot;,
+    &quot;ink&quot;: &quot;#101214&quot;,
+    &quot;institution&quot;: &quot;#68766B&quot;,
+    &quot;moss&quot;: &quot;#74864F&quot;,
+    &quot;nicotine&quot;: &quot;#AA9571&quot;,
+    &quot;paper&quot;: &quot;#E7E0D0&quot;,
+    &quot;shadow&quot;: &quot;#202326&quot;,
+    &quot;steel&quot;: &quot;#5E737B&quot;
+  },
+  &quot;renderer&quot;: &quot;storyboard-svg-2&quot;,
+  &quot;scene&quot;: {
+    &quot;background&quot;: &quot;ink&quot;,
+    &quot;intent&quot;: &quot;Use hatching for attributed-visit inference and solid treatment for the recorded response. Touching cards share chronology but receive no causal or knowledge-transfer connector.&quot;,
+    &quot;lettering&quot;: [
+      {
+        &quot;box&quot;: [
+          0.045,
+          0.78,
+          0.91,
+          0.18
+        ]
+      }
+    ],
+    &quot;lettering_mode&quot;: &quot;manual&quot;,
+    &quot;nodes&quot;: [
+      {
+        &quot;asset&quot;: &quot;hatched-card&quot;,
+        &quot;box&quot;: [
+          0.06775,
+          0.2012,
+          0.3913,
+          0.276474
+        ],
+        &quot;color&quot;: &quot;amber&quot;,
+        &quot;focus&quot;: true,
+        &quot;label&quot;: &quot;26 JUNE — VISIT INFERENCE&quot;,
+        &quot;label_box&quot;: [
+          0.06775,
+          0.49443,
+          0.3913,
+          0.121481
+        ],
+        &quot;label_size&quot;: 18
+      },
+      {
+        &quot;asset&quot;: &quot;card&quot;,
+        &quot;box&quot;: [
+          0.52275,
+          0.2012,
+          0.3913,
+          0.276474
+        ],
+        &quot;color&quot;: &quot;steel&quot;,
+        &quot;focus&quot;: true,
+        &quot;label&quot;: &quot;27 JUNE — RECORDED RESPONSE&quot;,
+        &quot;label_box&quot;: [
+          0.52275,
+          0.49443,
+          0.3913,
+          0.121481
+        ],
+        &quot;label_size&quot;: 18
+      },
+      {
+        &quot;asset&quot;: &quot;boundary&quot;,
+        &quot;box&quot;: [
+          0.49363,
+          0.0734,
+          0.01274,
+          0.6248
+        ],
+        &quot;color&quot;: &quot;amber&quot;,
+        &quot;focus&quot;: true
+      }
+    ],
+    &quot;reconstructed&quot;: false,
+    &quot;shot&quot;: &quot;split&quot;,
+    &quot;source&quot;: &quot;\n**Frame:** Two dated cards from the two lanes of [page 109](109.md), placed touching but not joined. Left, hatched: `26 JUNE — RESEARCHERS ATTRIBUTE CONCENTRATED VISITS TO THE WIKI TO OPENAI-ASSOCIATED ADDRESSES, INCLUDING RECOVERY OF ARCHIVED PAGES`. Right, solid: `27 JUNE — RESPONDERS IDENTIFY THE EVALUATION, THE BOARD, AND THE PIVOT, AND ADVISE THAT STOPPING IS NOT REQUIRED` ([page 027](027.md)).\n\n**Action:** One day apart, two channels, and no record of whether knowledge of one reached the people handling the other.\n\n**Caption:**\n&gt; DID THE PEOPLE WHO FOUND ONE CHANNEL TALK TO THE PEOPLE WHO DECIDED ABOUT THE OTHER?\n&gt;\n&gt; THE RECORD DOES NOT SAY. THE BOOK WILL NOT GUESS.\n\n**Provenance:** `documented` + `inferred` — the 26 June attribution is `CW-REPORT`&#x27;s inference about visitors, hatched; the 27 June decision is `OAI-TR` §X, already on [page 027](027.md). Placing them side by side is the project&#x27;s; joining them would be invention.\n\n&quot;,
+    &quot;title&quot;: &quot;An attributed visit inference sits beside a recorded response&quot;
+  }
+}
+</metadata><rect width="1200" height="800" fill="#101214"/><g transform="translate(81.3 160.96) scale(4.6956 2.21179)" color="#A17D45"><g transform=""><rect x="1" y="1" width="98" height="98" fill="#202326" stroke="currentColor" stroke-width="2" stroke-dasharray="5 3"/><path d="M3 18L18 3M3 34L34 3M3 50L50 3M3 66L66 3M3 82L82 3M3 98L98 3M19 98L98 19M35 98L98 35M51 98L98 51M67 98L98 67M83 98L98 83" stroke="currentColor" stroke-width="1" opacity=".35"/></g></g><text x="316.08" y="413.544" text-anchor="middle" fill="#E7E0D0" font-size="18" font-family="sans-serif">26 JUNE — VISIT INFERENCE</text><g transform="translate(627.3 160.96) scale(4.6956 2.21179)" color="#5E737B"><g transform=""><rect x="1" y="1" width="98" height="98" fill="#202326" stroke="currentColor" stroke-width="2"/><path d="M1 20H99M9 10H42M62 10H90M10 34H87M10 45H73M10 56H82M10 76H57M10 87H38" stroke="currentColor" stroke-width="2"/></g></g><text x="862.08" y="413.544" text-anchor="middle" fill="#E7E0D0" font-size="18" font-family="sans-serif">27 JUNE — RECORDED RESPONSE</text><g transform="translate(592.356 58.72) scale(0.15288 4.9984)" color="#A17D45"><g transform=""><path d="M50 0V100" stroke="currentColor" stroke-width="14"/></g></g><rect x="3" y="3" width="1194" height="794" fill="none" stroke="#5E737B" stroke-width="4"/></svg>

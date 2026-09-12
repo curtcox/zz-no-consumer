@@ -1,0 +1,98 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="800" viewBox="0 0 1200 800"><title>Replay flags do not appear in the original incident</title><desc>Place review flags only in replay lanes, leaving the original incident unflagged. Retrospective detection must not be drawn as protection that operated then.</desc><metadata>{
+  &quot;assets&quot;: {
+    &quot;flag&quot;: &quot;&lt;path d=\&quot;M20 98V3L85 6L64 26L85 49H22\&quot; fill=\&quot;none\&quot; stroke=\&quot;currentColor\&quot; stroke-width=\&quot;4\&quot;/&gt;&quot;,
+    &quot;outline-box&quot;: &quot;&lt;rect x=\&quot;2\&quot; y=\&quot;2\&quot; width=\&quot;96\&quot; height=\&quot;96\&quot; fill=\&quot;none\&quot; stroke=\&quot;currentColor\&quot; stroke-width=\&quot;3\&quot;/&gt;&quot;
+  },
+  &quot;palette&quot;: {
+    &quot;amber&quot;: &quot;#A17D45&quot;,
+    &quot;claret&quot;: &quot;#6B2634&quot;,
+    &quot;dirty&quot;: &quot;#CEC5B3&quot;,
+    &quot;ink&quot;: &quot;#101214&quot;,
+    &quot;institution&quot;: &quot;#68766B&quot;,
+    &quot;moss&quot;: &quot;#74864F&quot;,
+    &quot;nicotine&quot;: &quot;#AA9571&quot;,
+    &quot;paper&quot;: &quot;#E7E0D0&quot;,
+    &quot;shadow&quot;: &quot;#202326&quot;,
+    &quot;steel&quot;: &quot;#5E737B&quot;
+  },
+  &quot;renderer&quot;: &quot;storyboard-svg-2&quot;,
+  &quot;scene&quot;: {
+    &quot;background&quot;: &quot;ink&quot;,
+    &quot;intent&quot;: &quot;Place review flags only in replay lanes, leaving the original incident unflagged. Retrospective detection must not be drawn as protection that operated then.&quot;,
+    &quot;lettering&quot;: [
+      {
+        &quot;box&quot;: [
+          0.045,
+          0.78,
+          0.91,
+          0.18
+        ]
+      }
+    ],
+    &quot;lettering_mode&quot;: &quot;manual&quot;,
+    &quot;nodes&quot;: [
+      {
+        &quot;asset&quot;: &quot;outline-box&quot;,
+        &quot;box&quot;: [
+          0.0541,
+          0.1018,
+          0.364,
+          0.39831
+        ],
+        &quot;color&quot;: &quot;steel&quot;,
+        &quot;focus&quot;: true,
+        &quot;label&quot;: &quot;ORIGINAL INCIDENT&quot;,
+        &quot;label_box&quot;: [
+          0.0541,
+          0.52425,
+          0.364,
+          0.175015
+        ],
+        &quot;label_size&quot;: 18
+      },
+      {
+        &quot;asset&quot;: &quot;outline-box&quot;,
+        &quot;box&quot;: [
+          0.5819,
+          0.1018,
+          0.364,
+          0.39831
+        ],
+        &quot;color&quot;: &quot;steel&quot;,
+        &quot;focus&quot;: true,
+        &quot;label&quot;: &quot;REPLAY&quot;,
+        &quot;label_box&quot;: [
+          0.5819,
+          0.52425,
+          0.364,
+          0.175015
+        ],
+        &quot;label_size&quot;: 18
+      },
+      {
+        &quot;asset&quot;: &quot;flag&quot;,
+        &quot;box&quot;: [
+          0.724303,
+          0.2225,
+          0.079193,
+          0.182754
+        ],
+        &quot;color&quot;: &quot;steel&quot;,
+        &quot;focus&quot;: true,
+        &quot;label&quot;: &quot;REVIEW FLAGS&quot;,
+        &quot;label_box&quot;: [
+          0.6638,
+          0.41633,
+          0.2002,
+          0.080301
+        ],
+        &quot;label_size&quot;: 18
+      }
+    ],
+    &quot;reconstructed&quot;: false,
+    &quot;shot&quot;: &quot;split&quot;,
+    &quot;source&quot;: &quot;\n**Frame:** Auto-review flags dangerous actions across replayed rollouts. The flags do not appear in the original incident lane beside them.\n\n**Caption:**\n&gt; OPENAI SAYS AUTO-REVIEW WOULD HAVE FLAGGED MANY DANGEROUS ACTIONS IN EACH TESTED ROLLOUT.\n\n**Provenance:** `documented` (institutional claim) — attributed to OpenAI.\n\n&quot;,
+    &quot;title&quot;: &quot;Replay flags do not appear in the original incident&quot;
+  }
+}
+</metadata><rect width="1200" height="800" fill="#101214"/><g transform="translate(64.92 81.44) scale(4.368 3.18648)" color="#5E737B"><g transform=""><rect x="2" y="2" width="96" height="96" fill="none" stroke="currentColor" stroke-width="3"/></g></g><text x="283.32" y="437.4" text-anchor="middle" fill="#E7E0D0" font-size="18" font-family="sans-serif">ORIGINAL INCIDENT</text><g transform="translate(698.28 81.44) scale(4.368 3.18648)" color="#5E737B"><g transform=""><rect x="2" y="2" width="96" height="96" fill="none" stroke="currentColor" stroke-width="3"/></g></g><text x="916.68" y="437.4" text-anchor="middle" fill="#E7E0D0" font-size="18" font-family="sans-serif">REPLAY</text><g transform="translate(869.164 178) scale(0.950316 1.46203)" color="#5E737B"><g transform=""><path d="M20 98V3L85 6L64 26L85 49H22" fill="none" stroke="currentColor" stroke-width="4"/></g></g><text x="916.68" y="351.064" text-anchor="middle" fill="#E7E0D0" font-size="18" font-family="sans-serif">REVIEW FLAGS</text><rect x="3" y="3" width="1194" height="794" fill="none" stroke="#5E737B" stroke-width="4"/></svg>

@@ -1,0 +1,118 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="800" viewBox="0 0 1200 800"><title>Delegated searches retain the original task</title><desc>Anchor the original task at left, accumulated findings in storage at center and separate searches at right. Delegation extends work through artifacts while the objective remains unchanged.</desc><metadata>{
+  &quot;assets&quot;: {
+    &quot;box&quot;: &quot;&lt;rect x=\&quot;1\&quot; y=\&quot;1\&quot; width=\&quot;98\&quot; height=\&quot;98\&quot; rx=\&quot;2\&quot; fill=\&quot;#202326\&quot; stroke=\&quot;currentColor\&quot; stroke-width=\&quot;2\&quot;/&gt;&quot;,
+    &quot;folder&quot;: &quot;&lt;path d=\&quot;M3 20V8H38L48 20H97V90H3Z\&quot; fill=\&quot;#202326\&quot; stroke=\&quot;currentColor\&quot; stroke-width=\&quot;3\&quot;/&gt;&lt;path d=\&quot;M12 40H85M12 50H65\&quot; stroke=\&quot;currentColor\&quot; stroke-width=\&quot;2\&quot;/&gt;&quot;,
+    &quot;task&quot;: &quot;&lt;rect x=\&quot;1\&quot; y=\&quot;1\&quot; width=\&quot;98\&quot; height=\&quot;98\&quot; fill=\&quot;#202326\&quot; stroke=\&quot;currentColor\&quot; stroke-width=\&quot;2\&quot;/&gt;&lt;path d=\&quot;M1 19H99M12 10H38M48 10H62M9 83H91\&quot; stroke=\&quot;currentColor\&quot; stroke-width=\&quot;2\&quot;/&gt;&lt;circle cx=\&quot;26\&quot; cy=\&quot;48\&quot; r=\&quot;16\&quot; fill=\&quot;none\&quot; stroke=\&quot;currentColor\&quot; stroke-width=\&quot;2\&quot;/&gt;&lt;path d=\&quot;M26 27V69M5 48H47M54 35H90M54 47H78M54 59H88\&quot; stroke=\&quot;currentColor\&quot; stroke-width=\&quot;2\&quot;/&gt;&lt;path d=\&quot;M9 90H63\&quot; stroke=\&quot;currentColor\&quot; stroke-width=\&quot;5\&quot;/&gt;&quot;
+  },
+  &quot;palette&quot;: {
+    &quot;amber&quot;: &quot;#A17D45&quot;,
+    &quot;claret&quot;: &quot;#6B2634&quot;,
+    &quot;dirty&quot;: &quot;#CEC5B3&quot;,
+    &quot;ink&quot;: &quot;#101214&quot;,
+    &quot;institution&quot;: &quot;#68766B&quot;,
+    &quot;moss&quot;: &quot;#74864F&quot;,
+    &quot;nicotine&quot;: &quot;#AA9571&quot;,
+    &quot;paper&quot;: &quot;#E7E0D0&quot;,
+    &quot;shadow&quot;: &quot;#202326&quot;,
+    &quot;steel&quot;: &quot;#5E737B&quot;
+  },
+  &quot;renderer&quot;: &quot;storyboard-svg-2&quot;,
+  &quot;scene&quot;: {
+    &quot;background&quot;: &quot;ink&quot;,
+    &quot;intent&quot;: &quot;Anchor the original task at left, accumulated findings in storage at center and separate searches at right. Delegation extends work through artifacts while the objective remains unchanged.&quot;,
+    &quot;lettering&quot;: [
+      {
+        &quot;box&quot;: [
+          0.045,
+          0.78,
+          0.91,
+          0.18
+        ]
+      }
+    ],
+    &quot;lettering_mode&quot;: &quot;manual&quot;,
+    &quot;nodes&quot;: [
+      {
+        &quot;asset&quot;: &quot;task&quot;,
+        &quot;box&quot;: [
+          0.06775,
+          0.2012,
+          0.1638,
+          0.276474
+        ],
+        &quot;color&quot;: &quot;steel&quot;,
+        &quot;focus&quot;: true,
+        &quot;label&quot;: &quot;ORIGINAL TASK&quot;,
+        &quot;label_box&quot;: [
+          0.06775,
+          0.49443,
+          0.1638,
+          0.121481
+        ],
+        &quot;label_size&quot;: 18
+      },
+      {
+        &quot;asset&quot;: &quot;folder&quot;,
+        &quot;box&quot;: [
+          0.29525,
+          0.2012,
+          0.1638,
+          0.276474
+        ],
+        &quot;color&quot;: &quot;institution&quot;,
+        &quot;focus&quot;: true,
+        &quot;label&quot;: &quot;FINDINGS&quot;,
+        &quot;label_box&quot;: [
+          0.29525,
+          0.49443,
+          0.1638,
+          0.121481
+        ],
+        &quot;label_size&quot;: 18
+      },
+      {
+        &quot;asset&quot;: &quot;box&quot;,
+        &quot;box&quot;: [
+          0.52275,
+          0.2012,
+          0.1638,
+          0.276474
+        ],
+        &quot;color&quot;: &quot;steel&quot;,
+        &quot;focus&quot;: true,
+        &quot;label&quot;: &quot;NEW SEARCHES&quot;,
+        &quot;label_box&quot;: [
+          0.52275,
+          0.49443,
+          0.1638,
+          0.121481
+        ],
+        &quot;label_size&quot;: 18
+      },
+      {
+        &quot;asset&quot;: &quot;box&quot;,
+        &quot;box&quot;: [
+          0.75025,
+          0.2012,
+          0.1638,
+          0.276474
+        ],
+        &quot;color&quot;: &quot;steel&quot;,
+        &quot;focus&quot;: true,
+        &quot;label&quot;: &quot;NEW SEARCHES&quot;,
+        &quot;label_box&quot;: [
+          0.75025,
+          0.49443,
+          0.1638,
+          0.121481
+        ],
+        &quot;label_size&quot;: 18
+      }
+    ],
+    &quot;reconstructed&quot;: false,
+    &quot;shot&quot;: &quot;row&quot;,
+    &quot;source&quot;: &quot;\n**Frame:** The dossier unfolds into many narrow delegated lanes. The original task card stays fixed at the far left; accumulated findings occupy the center; new searches exit to the right.\n\n**Action:** Work continues from a shared starting point rather than restarting from zero.\n\n**Caption:**\n&gt; ONE RUN&#x27;S WORK BECOMES ANOTHER&#x27;S STARTING POINT.\n\n**Provenance:** `documented` + `inferred` — the handover and delegation are sourced; caption states the functional consequence.\n\n&quot;,
+    &quot;title&quot;: &quot;Delegated searches retain the original task&quot;
+  }
+}
+</metadata><rect width="1200" height="800" fill="#101214"/><g transform="translate(81.3 160.96) scale(1.9656 2.21179)" color="#5E737B"><g transform=""><rect x="1" y="1" width="98" height="98" fill="#202326" stroke="currentColor" stroke-width="2"/><path d="M1 19H99M12 10H38M48 10H62M9 83H91" stroke="currentColor" stroke-width="2"/><circle cx="26" cy="48" r="16" fill="none" stroke="currentColor" stroke-width="2"/><path d="M26 27V69M5 48H47M54 35H90M54 47H78M54 59H88" stroke="currentColor" stroke-width="2"/><path d="M9 90H63" stroke="currentColor" stroke-width="5"/></g></g><text x="179.58" y="413.544" text-anchor="middle" fill="#E7E0D0" font-size="18" font-family="sans-serif">ORIGINAL TASK</text><g transform="translate(354.3 160.96) scale(1.9656 2.21179)" color="#68766B"><g transform=""><path d="M3 20V8H38L48 20H97V90H3Z" fill="#202326" stroke="currentColor" stroke-width="3"/><path d="M12 40H85M12 50H65" stroke="currentColor" stroke-width="2"/></g></g><text x="452.58" y="413.544" text-anchor="middle" fill="#E7E0D0" font-size="18" font-family="sans-serif">FINDINGS</text><g transform="translate(627.3 160.96) scale(1.9656 2.21179)" color="#5E737B"><g transform=""><rect x="1" y="1" width="98" height="98" rx="2" fill="#202326" stroke="currentColor" stroke-width="2"/></g></g><text x="725.58" y="413.544" text-anchor="middle" fill="#E7E0D0" font-size="18" font-family="sans-serif">NEW SEARCHES</text><g transform="translate(900.3 160.96) scale(1.9656 2.21179)" color="#5E737B"><g transform=""><rect x="1" y="1" width="98" height="98" rx="2" fill="#202326" stroke="currentColor" stroke-width="2"/></g></g><text x="998.58" y="413.544" text-anchor="middle" fill="#E7E0D0" font-size="18" font-family="sans-serif">NEW SEARCHES</text><rect x="3" y="3" width="1194" height="794" fill="none" stroke="#5E737B" stroke-width="4"/></svg>

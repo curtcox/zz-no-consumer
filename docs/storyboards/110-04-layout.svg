@@ -1,6 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="1200" height="800" viewBox="0 0 1200 800"><title>The page plan holds unanswered disclosure questions</title><desc>Keep each disclosure question visibly unanswered in the page plan. Do not fill the list with symbolic guilty parties or implied affirmative answers.</desc><metadata>{
   &quot;assets&quot;: {
-    &quot;question&quot;: &quot;&lt;path d=\&quot;M24 28Q25 3 53 7Q91 12 74 43L51 63V72\&quot; fill=\&quot;none\&quot; stroke=\&quot;currentColor\&quot; stroke-width=\&quot;7\&quot;/&gt;&lt;circle cx=\&quot;51\&quot; cy=\&quot;91\&quot; r=\&quot;5\&quot; fill=\&quot;currentColor\&quot;/&gt;&quot;
+    &quot;question&quot;: &quot;&lt;defs&gt;\n&lt;linearGradient id=\&quot;tone\&quot; x1=\&quot;0\&quot; y1=\&quot;0\&quot; x2=\&quot;1\&quot; y2=\&quot;1\&quot;&gt;&lt;stop stop-color=\&quot;currentColor\&quot; /&gt;&lt;stop offset=\&quot;1\&quot; stop-color=\&quot;#101214\&quot; stop-opacity=\&quot;.65\&quot; /&gt;&lt;/linearGradient&gt;\n&lt;/defs&gt;&lt;path d=\&quot;M24 28Q25 3 53 7Q91 12 74 43L51 63V72\&quot; fill=\&quot;none\&quot; stroke=\&quot;url(#tone)\&quot; stroke-width=\&quot;7\&quot; /&gt;&lt;circle cx=\&quot;51\&quot; cy=\&quot;91\&quot; r=\&quot;5\&quot; fill=\&quot;currentColor\&quot; /&gt;&quot;
   },
   &quot;palette&quot;: {
     &quot;amber&quot;: &quot;#A17D45&quot;,
