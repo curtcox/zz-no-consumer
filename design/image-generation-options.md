@@ -612,6 +612,13 @@ any `exact_strings`, both of them the project's own — so there was never a reu
 about drawing them. The prohibition was a production convention, and it was costing more
 than it bought.
 
+> **Superseded in part, 12 September 2026.** Pages may now carry registered third-party
+> quotations, so "there was never a reuse question" no longer holds for every string. A
+> registered quotation is withheld from the model: `imagegen.exact_text_clause` drops any
+> display string registered in the page's `exact_strings` with a source other than
+> `PROJECT-AUTHORED`, and asks for the surface to be left blank. A model's approximate rendering
+> of a quotation would be a paraphrase in a verbatim shape. Quotations go on the lettering layer.
+
 What replaced it:
 
 - The prompt now names **two text systems**. In-scene text — what a screen, card, or label

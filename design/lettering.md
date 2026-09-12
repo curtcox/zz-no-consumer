@@ -41,14 +41,14 @@ No panel may require the reader to parse decorative terminal output before findi
 
 - Use a monospaced face with unmistakable `0/O`, `1/l/I`, underscores, braces, slashes, and punctuation.
 - Put attribution inside source-summary cards so the reader cannot mistake them for raw artifacts.
-- Do not imitate source typography or punctuation closely enough to imply quotation.
+- Do not imitate source typography or punctuation closely enough to imply quotation **unless the string is a quotation**: registered in the page's `exact_strings` and declared `quotation` or `raw-agent-text`. A registered quotation is set in its registered wording, with attribution, date and how the record was made in the label, and is never left to an image model to approximate.
 - Wrap long project-authored identifiers only at a deliberate separator. Never create a source-looking continuation from remembered wording.
 - Source summaries and reconstructed interface labels must never share a treatment that implies equal evidentiary status.
 - Editorial interface labels such as `MATCH` or `FLAG AVAILABLE` are permitted only when the panel's provenance calls them reconstructed.
 
 ## Provenance labels
 
-- Use the canonical labels and colors defined in the visual bible: `DOCUMENTED EVENT`, `RAW AGENT TEXT`, `SOURCE PARAPHRASE`, `DISPUTED`, `OUR INFERENCE`, `COMPRESSED`, `RECONSTRUCTED`, and `INVENTED FOR NARRATIVE`.
+- Use the canonical labels and colors defined in the visual bible: `DOCUMENTED EVENT`, `RAW AGENT TEXT`, `QUOTATION`, `SOURCE PARAPHRASE`, `DISPUTED`, `OUR INFERENCE`, `COMPRESSED`, `RECONSTRUCTED`, and `INVENTED FOR NARRATIVE`.
 - In print, labels may move to a margin or endnote key when an on-panel label would disrupt reading. In the web edition, the complete label and source boundary must remain available without relying on color alone.
 - `DISPUTED`, `RECONSTRUCTED`, and `INVENTED FOR NARRATIVE` must never be conveyed solely by border style or hue; each needs a readable textual label at first use and in the page information view.
 

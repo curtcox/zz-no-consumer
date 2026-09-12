@@ -83,3 +83,64 @@ own register. Quoting it would replace an imitation of OpenAI's voice with OpenA
   are not the source's — but prose quotation marks also carry invented dialogue throughout, so the
   page-script shape test does not transfer. The prose edition's `exact_strings` registration is
   enforced; its *shape* is not checked.
+
+## Second pass, later on 12 September: the rules that still said "paraphrase"
+
+After the first pass the owner asked whether anything in the repository still stood between a
+drafter and a quotation, and then asked for every obstacle to be removed: "I want the auditable
+truth whenever possible." Four remained, and one was enforced by a check.
+
+| Obstacle | State before | Now |
+| --- | --- | --- |
+| [`continuity.md`](../content/continuity.md) source-language policy | "Distributed story pages use attributed paraphrases" for agent output, report prose, metadata and command output; **`validate-continuity.py` failed the build if the sentence was removed**. Dialogue rules and the lock checklist said the same | Policy rewritten to the ground-truth default; the check now requires the new sentence. Dialogue rules and checklist follow |
+| [Story contract](../content/story-contract.md), named living humans and the critic rule | "attributed paraphrases of public statements"; critics cited "through attributed paraphrase"; critiques enter "paraphrased" — contradicting the contract's own revised default | Quotation or visible paraphrase, registered and labelled. The critic rule now says in words that it governs **depiction**, which the first pass asserted and the contract did not |
+| Provenance vocabulary ([`crossref.py`](../scripts/crossref.py), [`validate-continuity.py`](../scripts/validate-continuity.py), [page grammar](../design/page-grammar.md)) | No status meant "these are the source's words"; `raw-agent-text` reserved for private research | `raw-agent-text` reopened and `quotation` added. Labels and treatments added to the [premise](../content/premise.md), [visual bible](../content/visual-bible.md), [lettering](../design/lettering.md) and [visual continuity](../design/visual-continuity.md) |
+| Audit rule 4 | Withheld "expressive wording" from generated pages and accessibility text — so a registered quotation could be lettered but not described to a screen-reader user | A registered string travels with its panel into lettering, accessibility text, transcript and builds; it is withheld from image models and promotional copy |
+
+Two stale design notes were reconciled rather than rewritten: the Toner paraphrase in the
+[two-anthill plan](../design/two-anthill-problem-plan.md) now gives its real reason (the attribution
+chain, which still holds), and the 3 September text-rendering decision in
+[image-generation-options](../design/image-generation-options.md) carries a dated note that its
+"no reuse question" premise no longer covers every string.
+
+### What makes a quotation auditable, mechanically
+
+- **A quoting status requires a registration.** `crossref.audit_quotation_shape` fails a panel that
+  declares `quotation` or `raw-agent-text` when no string registered in the page's `exact_strings`
+  appears in the panel. The status is a claim about wording; with nothing registered there is
+  nothing to check it against.
+- **An attribution-shaped label requires a registration or a disclosure.** A `Screen / system
+  text` label reading `CITED`, `PUBLISHED`, `ATTRIBUTED`, `QUOTED` or `VERBATIM`, over strings that
+  are neither registered nor marked `PARAPHRASED`, is a warning. This catches what the
+  paraphrase-shape check cannot: panels whose provenance does not say "paraphrase" at all.
+- **An image model never draws a quotation.** `imagegen.exact_text_clause` withholds registered
+  third-party strings. The measured error rate for strings of quotation length is about one error
+  per string; a drawn quotation would be unverifiable at gate 9.
+
+### A bug the new check exposed in the old one
+
+`audit_paraphrase_shape` removed only the **first line** of a panel's Provenance paragraph before
+looking for a reader-visible disclosure. [Page 087](../content/pages/087.md) panel 4's provenance
+wraps, and its second line contains "describing" — so a disclosure word the reader never sees
+suppressed the warning. The whole paragraph is now removed. Page 087 panel 4 is flagged.
+
+### What the checks find now: eleven panels (12 September 2026)
+
+The six in the table above, plus:
+
+| Panel | Lettered as | Why it was missed |
+| --- | --- | --- |
+| [page 087](../content/pages/087.md) panel 4 | `PUBLISHED, ATTRIBUTED` — a named investigator's caution; provenance says "attributed paraphrase" | The wrapped-provenance bug above |
+| [page 039](../content/pages/039.md) panel 5 | `PUBLISHED CRITIQUE, CITING OPENAI` — a critic's report of what OpenAI stated | Provenance does not declare a paraphrase |
+| [page 101](../content/pages/101.md) panels 3 and 4 | `CITED, OPENAI AT BLACK HAT` with timecodes; provenance `documented` | Provenance does not declare a paraphrase, and nothing registers the words. **Either these are quotations and are unregistered, or they are paraphrases lettered as citation.** The record does not say which, and that is the finding |
+| [page 111](../content/pages/111.md) panel 4 | `PUBLISHED CRITIQUE (PAGE 039, 3 SEPTEMBER 2026)`; provenance "attributed paraphrase" | Curt's dialogue in the same panel says "report", which the old check accepted as disclosure |
+
+None is edited. Each is register-or-reletter, and that is the owner's decision at gate 9.
+
+### Still open
+
+- **The novella's shape is not checked**, for the reason given above.
+- **No source row is `quote-cleared`**, which blocks lock, not drafting.
+- `crossref.audit_quotation_shape` reads `Screen / system text` labels. A quotation lettered as a
+  caption or dialogue under a quoting status is checked; a caption that merely *looks* like a
+  quotation without declaring one is not.

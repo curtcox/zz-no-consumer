@@ -609,9 +609,8 @@ def display_strings(page: str, panel: int) -> list[str]:
     placeholder, so the literals are read here from the source instead, and
     handed to the model as an explicit list rather than left buried in prose.
 
-    These are project-authored strings. `research/exact-text-permissions-audit.md`
-    records that distributed pages paraphrase rather than quote their sources, so
-    rendering them carries no reuse question.
+    This is every literal the panel shows, including any third-party quotation;
+    `exact_text_clause` decides which of them a model may draw.
     """
     source = (PAGE_DIR / f"{page}.md").read_text(encoding="utf-8")
     sections = re.split(r"^## Panel \d+\s*$", source, flags=re.M)[1:]
@@ -648,15 +647,38 @@ def panel_direction(page: str, panel: int) -> str:
     raise SystemExit(f"Page {page} has no panel {panel}.")
 
 
+def registered_quotations(page: str) -> list[dict[str, str]]:
+    """The page's registered third-party strings: everything not PROJECT-AUTHORED."""
+    import crossref
+
+    source = (PAGE_DIR / f"{page}.md").read_text(encoding="utf-8")
+    registered, _ = crossref.read_exact_strings(crossref.front_matter(source) or "")
+    return [entry for entry in registered if entry.get("source") != "PROJECT-AUTHORED"]
+
+
 def exact_text_clause(page: str, panel: int) -> str:
-    """Tell the model exactly which words to letter, and to spell them correctly."""
+    """Tell the model exactly which words to letter, and to spell them correctly.
+
+    A registered third-party quotation is withheld. A model's rendering is an
+    approximation — measured at about one error per 26–40 character string — and an
+    approximate quotation is a paraphrase in a verbatim shape, which gate 9 cannot
+    check against its source. Quotations go on the lettering layer, which sets the
+    registered wording exactly; the model leaves their surface blank.
+    """
+    import crossref
+
     strings = display_strings(page, panel)
+    quotations = registered_quotations(page)
+    withheld = [item for item in strings if crossref.is_registered(item, quotations)]
+    strings = [item for item in strings if item not in withheld]
+    blank = (" Leave blank any surface meant to carry a quotation; it is lettered separately."
+             if withheld else "")
     if not strings:
-        return ""
+        return blank.strip()
     quoted = "; ".join(f'"{item}"' for item in strings)
     return (f"Lettering shown inside the scene — render these exact words, correctly "
             f"spelled, legible at reading size, and nothing else in their place: {quoted}. "
-            f"Leave any other surface blank rather than inventing words for it.")
+            f"Leave any other surface blank rather than inventing words for it.{blank}")
 
 
 def compose_panel(page: str, panel: int, register: str, *, budget: int = 0) -> str:

@@ -94,12 +94,13 @@ Keep these visually and typographically distinct in scripts:
 - creator dialogue;
 - reconstructed human dialogue;
 - attributed summaries of agent reasoning;
+- registered quotation and raw agent text;
 - source paraphrase;
 - summarized board artifacts;
 - terminal output;
 - provenance annotations.
 
-Third-party strings remain in the ignored source vault and original publications. Distributed scripts paraphrase and attribute them. Project-authored display strings may be proofread and fitted normally.
+Third-party strings are quoted where appropriate and registered in the page's `exact_strings` front matter with source, locator, verification and rights; the full original stays in the ignored source vault and the publisher's link. A quotation is set on the lettering layer in its registered wording, never approximated by an image model. Where the page summarises instead, the lettering must not take a shape that reads as the source's words. Quote, paraphrase or redact is decided at gate 9. Project-authored display strings may be proofread and fitted normally.
 
 ## Technical depiction
 
@@ -113,7 +114,7 @@ Third-party strings remain in the ignored source vault and original publications
 
 Every factual panel receives a provenance status in the script even when the printed comic does not display the tag.
 
-The permitted distributed-page statuses are `documented`, `source-paraphrase`, `disputed`, `inferred`, `compressed`, `reconstructed`, and `invented`. `raw-agent-text` is reserved for private research unless a separate rights decision reopens it.
+The permitted distributed-page statuses are `documented`, `raw-agent-text`, `quotation`, `source-paraphrase`, `disputed`, `inferred`, `compressed`, `reconstructed`, and `invented`. `raw-agent-text` and `quotation` say the lettering is the source's own words, so `validate-continuity.py` fails a panel declaring either unless a registered string appears in it. `raw-agent-text` is agent output as the source record preserves it — never a source author's summary of that output (reopened 12 September 2026; it had been reserved for private research).
 
 If one panel mixes statuses, identify the boundary explicitly. A reconstructed room cannot make its dialogue documented; a documented quotation cannot make the surrounding scene observed.
 

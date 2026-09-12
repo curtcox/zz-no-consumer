@@ -105,6 +105,7 @@ Use these provenance classes throughout development:
 | --- | --- |
 | `DOCUMENTED EVENT` | Directly supported by a primary incident source. |
 | `RAW AGENT TEXT` | Verbatim agent output preserved in the source record. |
+| `QUOTATION` | A person's or institution's own words from a dated public record, labelled by how that record was made. |
 | `SOURCE PARAPHRASE` | A source author's summary of underlying evidence. |
 | `DISPUTED` | Materially conflicting accounts or interpretations exist. |
 | `OUR INFERENCE` | Curt and ChatGPT's interpretation of documented material. |

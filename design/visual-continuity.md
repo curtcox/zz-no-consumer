@@ -90,7 +90,7 @@ The recurring palette, environment geometry, creator-desk progression, provenanc
 | `UI-CACHE-ROWS` | Reverse-sorted rows, timestamp gutter, blank text band | Message density, moss propagation, wipe. |
 | `UI-EVIDENCE-CARD` | Source header, summary field, locator footer, provenance tab | Institution, status, claim, date. |
 | `UI-INCIDENT-CARD` | Signals, correlation, severity, owner, page state | Accumulating evidence and escalation outcome. |
-| `UI-PROVENANCE-SLATE` | Compact label plus texture/shape cue | Documented, paraphrased, disputed, inferred, compressed, reconstructed, invented. |
+| `UI-PROVENANCE-SLATE` | Compact label plus texture/shape cue | Documented, raw agent text, quotation, paraphrased, disputed, inferred, compressed, reconstructed, invented. |
 
 ## Human continuity
 

@@ -38,13 +38,13 @@ The book is documentary in subject and interpretive in form.
 
 - OpenAI, Hugging Face, METR/Redwood, ExploitGym, CyberGym, Modal, JFrog, and other documented institutions may be named.
 - Documented agent handles may be used when a source connects the handle to the depicted action.
-- Named living humans appear only through documented public actions or attributed paraphrases of public statements.
+- Named living humans appear only through documented public actions and their dated public statements — quoted, registered, attributed and labelled by how the record was made, or paraphrased in wording the reader can see is the book's. A paraphrase of a named person is never lettered in a shape that reads as their words.
 - Private meetings and institutional conversations use functional roles or disclosed composites.
 - Composite characters never receive a real person's name.
 - Reconstructed dialogue must express a documented decision, uncertainty, or institutional pressure; it may not invent a new factual event.
 - The hearing is a composite public-accountability forum, not a claim that the depicted hearing occurred. Its page notes must label it `invented` or `compressed` as appropriate.
 - Curt is a named autobiographical creator-character. Curt/ChatGPT dialogue is reconstructed and compressed unless a page note identifies a preserved exchange.
-- Published critics of this incident's coverage may be cited by name through attributed paraphrase of dated public writing, and appear on the page only as text. They may not be given a face, a body, a room, or invented dialogue. A recurring skeptical foil, if one is drafted, is a disclosed composite and carries no real person's name.
+- Published critics of this incident's coverage may be cited by name from dated public writing — by short registered quotation, which is preferred because it lets the reader check the book against the critic, or by visible paraphrase — and appear on the page only as text. They may not be given a face, a body, a room, or invented dialogue. This rule governs how a critic is **depicted**; it does not require their words to be replaced with the book's. A recurring skeptical foil, if one is drafted, is a disclosed composite and carries no real person's name.
 - One construction in this book is deliberately misleading on first reading: [page 064](pages/064.md) presents an analysis-model ranking with an accurate but deliberately small qualifier, and [page 088](pages/088.md) discloses it and takes responsibility. This is permitted precisely once, nothing in it may be false, and the disclosure is mandatory.
 
 ## Research record and dates
@@ -57,7 +57,7 @@ Rules:
 - **No retrofitting.** A scene drawn as of a date may not act on knowledge that became available later. Later knowledge arrives in a dated frame (a creator scene, an endnote, a dated site update), or by a load-bearing correction that is logged below.
 - **Admission is a recorded decision, one source at a time.** A later source enters the canonical index with its date, its evidence level (event record, institutional account, researchers' interpretation, or published argument), and the pages it may support. Routine news does not reshape the draft; a source is admitted because it changes or bounds a claim.
 - **Corrections are always allowed.** A later source may correct dates, source summaries, identities, or technical claims on any page before lock; the correction is noted on the page.
-- **Published critiques of the coverage** enter the creator register under the critic rule above: with their date, paraphrased, text on screen, evidence of what was argued and not of what happened.
+- **Published critiques of the coverage** enter the creator register under the critic rule above: with their date, in their own words where quoted and registered, text on screen, evidence of what was argued and not of what happened.
 
 Admissions log:
 

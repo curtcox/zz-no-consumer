@@ -115,8 +115,10 @@ remain unadmitted.
 - **Evidence level is expert commentary, not investigation.** Toner is not an investigator
   of this incident. Her method and policy analysis is attributable argument; her recounting
   of events is secondary to `METR`, `OAI-BH`, `OAI-TR` and `HF-TL`, and where they disagree
-  the reports govern. Handle her as `IOB-CIV` is handled: attributed paraphrase, text on
-  screen, dated byline, no face, body, room, or invented dialogue.
+  the reports govern. Handle her under the critic rule — text on screen, dated byline, no face,
+  body, room, or invented dialogue. Unlike `IOB-CIV`, which may now be quoted, the relayed image
+  stays paraphrased: the fragile thing is a three-deep attribution chain, not the wording
+  (reconciled 12 September 2026; see `EK-TONER` in `research/scene-provenance.md`).
 - **It is inside the dated record, which makes this simpler than the recent admissions.**
   18 August 2026 precedes the 30 August freeze, so it needs no post-cutoff clause and no
   dated-addition lane; it is available to the Chapter 6 and epilogue scenes without
@@ -386,7 +388,9 @@ These are proposals. Each names where it lands.
   each need a page that is already doing the thing before they may be lettered. The relayed-image
   paraphrase carries a further constraint the other motifs do not — it is a real person’s relayed
   formulation, so a lettered version is attributed paraphrase with a byline and a date, never
-  a caption in the book’s own voice.
+  a caption in the book’s own voice. This survives the 12 September quotation default because
+  quoting a relayed formulation would make the book another link in the chain; the paraphrase
+  must still be lettered so the reader can see the wording is the book’s.
 
 ### Topics
 

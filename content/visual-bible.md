@@ -184,7 +184,7 @@ Reserve page turns for conceptual reversals:
 ### Machine text
 
 - Monospaced typeface with a clear distinction among `0/O`, `1/l/I`, and punctuation.
-- Source-derived language appears as attributed summaries rather than simulated raw strings.
+- Source-derived language appears either as a registered quotation in its exact registered wording, labelled with attribution and how the record was made, or as an attributed summary that does not look like a raw string. Never simulate a raw string the page has not registered.
 - Do not reconstruct a documented directory or message name from memory.
 - Long project-authored machine strings may wrap only at deliberate separators; show continuation marks if needed.
 
@@ -193,6 +193,8 @@ Reserve page turns for conceptual reversals:
 | Tag | Treatment |
 | --- | --- |
 | `DOCUMENTED EVENT` | Steel-blue rule and compact uppercase label. |
+| `RAW AGENT TEXT` | Steel-blue rule, monospaced label, and a locator line naming the preserved record. |
+| `QUOTATION` | Steel-blue rule with a closed bracket mark, byline, date, and how the record was made. |
 | `SOURCE PARAPHRASE` | Gray-green label. |
 | `DISPUTED` | Dusty amber bracket or stamp. |
 | `OUR INFERENCE` | Off-white label with a hand-drawn outline. |

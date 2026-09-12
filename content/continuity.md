@@ -27,7 +27,8 @@ Every significant scene, line, and system string should carry one status in its 
 | Status | Definition | May be presented without annotation in comic? |
 | --- | --- | --- |
 | `documented` | Directly supported by a cited primary source. | Yes, if citation is available on site. |
-| `raw-agent-text` | Verbatim preserved agent text. | Private research only unless a separate rights decision clears it. |
+| `raw-agent-text` | Agent output in the words the source record preserves — not a source author's summary of it. | Yes, when every string is registered in `exact_strings` and the label says how the record was made; gate 9 decides whether it prints. |
+| `quotation` | A person's or institution's own words, from a dated public record. | Yes, when every string is registered in `exact_strings`, attributed on the panel, and labelled by how the record was made; gate 9 decides whether it prints. |
 | `source-paraphrase` | Source summarizes underlying evidence not reproduced directly. | Yes, with source attribution. |
 | `disputed` | Meaningful conflict exists. | No; conflict must remain visible. |
 | `inferred` | Interpretation by the creators. | Only when creator voice or annotation is clear. |
@@ -60,7 +61,7 @@ counterpart. The two hills are incident sites; viewpoints remain separately labe
 
 ## Source-language policy
 
-Distributed story pages use attributed paraphrases for third-party agent output, report prose, repository metadata, and command/output examples. Preserve exact wording only in the ignored `256t/` reference vault and link the controlling original publication from tracked notes. Project-authored display language—such as the deliberately incomplete future help prefix and final thematic caption—remains eligible for exact-string proofreading.
+Distributed story pages work on ground truth (revised 12 September 2026). Quote third-party agent output, report prose, and public statements directly wherever it is appropriate: register every exact string in the page's `exact_strings` front matter, attribute it on the panel, label how the record was made ("automatic transcription of this video"), and declare the panel `quotation` or `raw-agent-text`. Quotation against paraphrase against redaction is decided once, at gate 9, with the original in hand — not during drafting. A paraphrase is never lettered in a shape that reads as the source's words; if the words are the project's, the label or the frame says so. Keep the full original in the ignored `256t/` reference vault and link the controlling publication, whether or not the page quotes. Two limits are unchanged because they are different hazards: a source author's summary of agent output never becomes agent dialogue, and no visible string — quoted or not — may be operational detail. Project-authored display language registers as `PROJECT-AUTHORED`. The 2 September paraphrase disposition is recorded in `research/exact-text-permissions-audit.md`.
 
 ## Chronology model
 
@@ -252,8 +253,8 @@ The creator register has one disclosed composite: `SKEPTIC — COMPOSITE`, a scr
 
 ### Dialogue rules
 
-- Raw agent text: private research only unless separately cleared; distributed pages use attributed paraphrase.
-- Documented human language: paraphrase with source unless a separate rights decision clears quotation.
+- Raw agent text: quote it as the source record preserves it, registered and labelled `raw-agent-text`; never promote a source author's summary of agent output into agent dialogue.
+- Documented human language: quote it, registered, attributed, dated, and labelled `quotation`; or paraphrase it visibly as the project's wording. Gate 9 makes the final disposition.
 - Reconstructed human dialogue: concise, plausible, and labeled in page source.
 - Creator dialogue: may be adapted from the actual Curt/ChatGPT conversation; preserve the intent and disclose compression.
 - Hearing dialogue: presumed invented or composite until sourced.
@@ -342,7 +343,7 @@ Before locking any page:
 
 - Are population, time, and location unambiguous?
 - Does every actor possess the information used in its decision?
-- Are source-derived strings paraphrased and linked unless separately cleared?
+- Is every source-derived string either registered in `exact_strings` (verbatim against a named copy, rights cleared) or visibly the project's own wording, and is the source linked?
 - Is the board state correct for this point in chronology?
 - Does the color state match the communication and boundary state?
 - Are provenance status and source recorded for every factual claim?

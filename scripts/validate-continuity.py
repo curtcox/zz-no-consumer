@@ -14,6 +14,8 @@ ROOT = Path(__file__).resolve().parents[1]
 
 ALLOWED_PROVENANCE = {
     "documented",
+    "raw-agent-text",
+    "quotation",
     "source-paraphrase",
     "disputed",
     "inferred",
@@ -124,8 +126,8 @@ def main() -> int:
         errors.append("Story outline does not lock the opening request summary to page 003")
 
     continuity = (ROOT / "content" / "continuity.md").read_text(encoding="utf-8")
-    if "Distributed story pages use attributed paraphrases" not in continuity:
-        errors.append("Continuity guide does not enforce the source-paraphrase policy")
+    if "Distributed story pages work on ground truth" not in continuity:
+        errors.append("Continuity guide does not state the source-language policy")
 
     grammar = (ROOT / "design" / "page-grammar.md").read_text(encoding="utf-8")
     if "story_time: 2026-05-08" in grammar or re.search(r"chapter: prologue[\s\S]{0,160}population: first", grammar):
@@ -241,6 +243,12 @@ def main() -> int:
         warnings.extend(
             crossref.audit_paraphrase_shape(source, str(path.relative_to(ROOT)))
         )
+        # And the shape of the ones it presents as a source's words.
+        found, noted = crossref.audit_quotation_shape(
+            source, metadata, str(path.relative_to(ROOT))
+        )
+        errors.extend(found)
+        warnings.extend(noted)
 
     if errors:
         print("Continuity validation failed:")

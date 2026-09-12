@@ -165,8 +165,16 @@ Two corollaries, both learned the hard way and recorded in
   paraphrase, letters it as `Screen / system text`, and says nothing in the **reader's** view about
   the wording being ours. The provenance line does not count — the reader never sees it — and neither
   does attribution, because attributing a paraphrase to a named person is the failure, not the
-  remedy. Six panels are flagged today and are the owner's to disposition; see
+  remedy. A second check warns on a label that presents text as a third party's — `CITED`,
+  `PUBLISHED`, `ATTRIBUTED` — over strings neither registered nor marked `PARAPHRASED`. The flagged
+  panels are the owner's to disposition; see
   [`research/quotation-gate-reconciliation-2026-09-12.md`](research/quotation-gate-reconciliation-2026-09-12.md).
+- **A quoting status is a claim about wording.** `quotation` (a person's or institution's words) and
+  `raw-agent-text` (agent output as the source record preserves it) are permitted on distributed
+  pages. `validate-continuity.py` fails a panel declaring either unless a string registered in the
+  page's `exact_strings` appears in it. A registered third-party string is never handed to an image
+  model — `imagegen.exact_text_clause` withholds it — because a drawn approximation of a quotation
+  is a paraphrase in a verbatim shape.
 - **Never alter a record.** The vault stores what the source said, including wording the book would
   not print. What the book prints is a separate decision, governed by the contract's critic rule and
   its security rule. The argument survives its removal from the page; the record does not survive its

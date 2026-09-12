@@ -64,7 +64,7 @@ establish current status.
 
 | Tool | Checks |
 | --- | --- |
-| `validate-continuity.py` | the story contract, chapter map, and drafted page metadata agree; `exact_strings` registrations carry all five fields, use the fixed vocabularies, and are `verbatim` + `cleared` before a page locks |
+| `validate-continuity.py` | the story contract, chapter map, and drafted page metadata agree; `exact_strings` registrations carry all five fields, use the fixed vocabularies, and are `verbatim` + `cleared` before a page locks; a panel declaring `quotation` or `raw-agent-text` letters a registered string; attribution-shaped lettering is registered or marked `PARAPHRASED` (warning) |
 | `validate-production-foundations.py` | palette, visual-continuity, prompt, and asset foundations exist and agree |
 | `crossref.py check --strict` | citation keys resolve, sequences are in range; CI also fails on panel/front-matter provenance drift |
 | `novella.py check` | one prose file per scripted page, front matter matching the script, prose that is not a stub, and `exact_strings` registered and `verbatim` + `cleared` before its page locks |
@@ -293,7 +293,10 @@ Six modules carry the shared models, and the rest import them rather than re-der
   registration model that holds both editions to the same quotation rule, and
   `audit_paraphrase_shape`, which warns where a declared paraphrase is lettered as
   `Screen / system text` with nothing in the reader's view saying the wording is the project's —
-  the opposite failure, which the registration cannot see because nothing is registered.
+  the opposite failure, which the registration cannot see because nothing is registered — and
+  `audit_quotation_shape`, which fails a quoting status with nothing registered and warns on a
+  `CITED`/`PUBLISHED`/`ATTRIBUTED` label over unregistered strings. `is_registered` is the one
+  matcher, also used by `imagegen.py` to withhold registered quotations from image models.
   Imported by
   `pagination.py`, `panels.py`, `novella.py`, `appendix.py`, `validate-continuity.py`, and the
   builder.

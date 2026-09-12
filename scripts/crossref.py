@@ -32,6 +32,8 @@ ROOT = Path(__file__).resolve().parents[1]
 # Kept in step with ALLOWED_PROVENANCE in validate-continuity.py.
 PROVENANCE_STATUSES = (
     "documented",
+    "raw-agent-text",
+    "quotation",
     "source-paraphrase",
     "disputed",
     "inferred",
@@ -42,6 +44,8 @@ PROVENANCE_STATUSES = (
 
 STATUS_NOTES = {
     "documented": "Asserted by a cited source and narrowed, never widened, on the page.",
+    "raw-agent-text": "Agent output in the words the source record preserves, registered on the page with its locator.",
+    "quotation": "A person's or institution's own words, registered on the page with source, locator, and how the record was made.",
     "source-paraphrase": "An attributed summary standing in for source language that is not reproduced.",
     "disputed": "Sources disagree; the page keeps both accounts visible.",
     "inferred": "A conclusion this project draws from cited events, stated as project analysis.",
@@ -365,6 +369,69 @@ SUMMARY_DISCLOSED = re.compile(
     r"summar|paraphras|editorial|abstract|redact|restat|report|describ|treats|belief|states that",
     re.IGNORECASE,
 )
+# The two statuses that say the lettering is the source's own words.
+QUOTING_STATUSES = ("quotation", "raw-agent-text")
+# A lettering label that presents its text as a third party's words.
+ATTRIBUTION_LABEL = re.compile(r"CITED|CITING|PUBLISHED|ATTRIBUTED|QUOTED|QUOTATION|VERBATIM")
+LETTERING_LABEL = re.compile(r"^\*\*Screen / system text(?:\s*—\s*([^*]*?))?:\*\*\s*$", re.MULTILINE)
+
+
+def panel_chunks(source: str) -> list[tuple[str, str, str]]:
+    """Each panel as (number, provenance text, reader-visible text).
+
+    The whole Provenance paragraph is production text, including its continuation lines, so
+    all of it is removed from the reader's view — a disclosure word that only appears on the
+    second line of a provenance note is still invisible to the reader.
+    """
+    panels: list[tuple[str, str, str]] = []
+    for chunk in re.split(r"^## Panels? ", source, flags=re.MULTILINE)[1:]:
+        number = chunk.split("\n", 1)[0].strip()
+        chunk = re.split(r"^## ", chunk, flags=re.MULTILINE)[0]
+        provenance = re.search(r"^\*\*Provenance:\*\*(.*?)(?:\n\s*\n|\Z)", chunk, re.MULTILINE | re.DOTALL)
+        provenance_text = provenance.group(1) if provenance else ""
+        reader_visible = chunk.replace(provenance.group(0), "\n") if provenance else chunk
+        panels.append((number, provenance_text, reader_visible))
+    return panels
+
+
+def normalise_wording(text: str) -> str:
+    """Compare wording, not typography: case, quote style, backticks, and line wrapping."""
+    text = text.replace("`", "").translate(str.maketrans("‘’“”", "''\"\""))
+    return re.sub(r"\s+", " ", text).strip().casefold()
+
+
+def lettered_under_label(reader_visible: str) -> list[tuple[str, list[str]]]:
+    """Each `Screen / system text` block as (label, the backticked strings it letters)."""
+    blocks: list[tuple[str, list[str]]] = []
+    for match in LETTERING_LABEL.finditer(reader_visible):
+        rest = reader_visible[match.end():]
+        stop = re.search(r"^\*\*", rest, re.MULTILINE)
+        body = rest[: stop.start()] if stop else rest
+        strings = [item for item in re.findall(r"`([^`]+)`", body) if item.strip()]
+        blocks.append(((match.group(1) or "").strip(), strings))
+    return blocks
+
+
+def is_registered(string: str, registered: list[dict[str, str]]) -> bool:
+    """A lettered string is registered when its wording is a registered entry, or a run of it.
+
+    One direction only: a lettered line may be part of a registered quotation split across
+    lines, but a line that adds words to a registration is carrying unregistered words. A
+    fragment must be at least four words on word boundaries, so a one-word label such as
+    `OFFENSE` is not mistaken for part of a quotation that happens to contain it.
+    """
+    wording = normalise_wording(string)
+    if not wording:
+        return False
+    for entry in registered:
+        text = normalise_wording(entry.get("text", ""))
+        if not text:
+            continue
+        if wording == text:
+            return True
+        if len(wording.split()) >= 4 and re.search(rf"(?<!\w){re.escape(wording)}(?!\w)", text):
+            return True
+    return False
 
 
 def audit_paraphrase_shape(source: str, where: str) -> list[str]:
@@ -377,13 +444,9 @@ def audit_paraphrase_shape(source: str, where: str) -> list[str]:
     relettering the summary, is an editorial decision for gate 9.
     """
     warnings: list[str] = []
-    for chunk in re.split(r"^## Panel ", source, flags=re.MULTILINE)[1:]:
-        number = chunk.split("\n", 1)[0].strip()
-        provenance = re.search(r"^\*\*Provenance:\*\*(.*)$", chunk, re.MULTILINE)
-        if not provenance or not PARAPHRASE_DECLARED.search(provenance.group(1)):
+    for number, provenance, reader_visible in panel_chunks(source):
+        if not PARAPHRASE_DECLARED.search(provenance):
             continue
-        reader_visible = re.split(r"^## Page notes", chunk, flags=re.MULTILINE)[0]
-        reader_visible = re.sub(r"^\*\*Provenance:\*\*.*$", "", reader_visible, flags=re.MULTILINE)
         if not VERBATIM_SHAPED.search(reader_visible):
             continue
         if SUMMARY_DISCLOSED.search(reader_visible):
@@ -394,6 +457,57 @@ def audit_paraphrase_shape(source: str, where: str) -> list[str]:
             "project's — quote the source or reletter the summary at gate 9"
         )
     return warnings
+
+
+def audit_quotation_shape(source: str, metadata: str, where: str) -> tuple[list[str], list[str]]:
+    """Hold lettering that claims to be a source's words to the registration. (errors, warnings)
+
+    Two failures, both invisible to `audit_exact_strings`, which reads front matter only:
+
+    - A panel declaring `quotation` or `raw-agent-text` whose page registers none of the words
+      it letters. The status says "these are the source's words"; with nothing registered there
+      is no source, locator, or verification to check them against. Error, for the same reason a
+      bare string in `exact_strings` is an error.
+    - A lettering label that presents its text as a third party's — `CITED`, `PUBLISHED`,
+      `ATTRIBUTED` — over strings that are neither registered nor marked `PARAPHRASED` in the
+      label. Whether they are the source's words or the project's, the reader cannot tell and
+      the record does not say. Warning: the repair, register or reletter, is gate 9's. Panels
+      that `audit_paraphrase_shape` already flags are not flagged twice.
+    """
+    errors: list[str] = []
+    warnings: list[str] = []
+    registered, _ = read_exact_strings(metadata)
+    for number, provenance, reader_visible in panel_chunks(source):
+        head = provenance.partition("—")[0]
+        quoting = [status for status in QUOTING_STATUSES if f"`{status}`" in head]
+        blocks = lettered_under_label(reader_visible)
+        if quoting:
+            visible = normalise_wording(re.sub(r"^>\s?", "", reader_visible, flags=re.MULTILINE))
+            if not any(
+                entry.get("text") and normalise_wording(entry["text"]) in visible
+                for entry in registered
+            ):
+                errors.append(
+                    f"{where} panel {number}: provenance declares `{quoting[0]}` but no string "
+                    "registered in exact_strings appears in the panel — register the words with "
+                    "source, locator, verification and rights"
+                )
+            continue
+        if PARAPHRASE_DECLARED.search(provenance) and VERBATIM_SHAPED.search(reader_visible) \
+                and not SUMMARY_DISCLOSED.search(reader_visible):
+            continue  # already reported by audit_paraphrase_shape
+        for label, strings in blocks:
+            if not ATTRIBUTION_LABEL.search(label) or re.search(r"PARAPHRAS", label):
+                continue
+            unregistered = [string for string in strings if not is_registered(string, registered)]
+            if unregistered:
+                warnings.append(
+                    f"{where} panel {number}: lettering labelled `{label}` presents "
+                    f"{len(unregistered)} string(s) as a third party's words that are neither "
+                    "registered in exact_strings nor marked PARAPHRASED — register the quotation "
+                    "or reletter the summary at gate 9"
+                )
+    return errors, warnings
 
 
 def read_chapters() -> list[Chapter]:

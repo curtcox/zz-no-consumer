@@ -340,7 +340,7 @@
       ],
       "continuity_checks": [
         "first-moss-green-message",
-        "title-string-is-post-wipe-only",
+        "opening-request-is-post-wipe-only",
         "no-claim-this-is-first-board-in-history"
       ]
     },
@@ -12221,7 +12221,7 @@
       "title": "",
       "url": "",
       "registered": true,
-      "ledger_note": "Klein/Toner interview, 18 Aug 2026; title FAQ only, expert commentary relaying an unnamed person’s image. Narrow title admission checked against video auto-captions at 28:00; paraphrase only, not an authoritative verbatim transcript. Attributed paraphrase only. See [toner-title-source.md](./toner-title-source.md). No incident scene or interview figures admitted.",
+      "ledger_note": "Klein/Toner interview, 18 Aug 2026; title FAQ only, expert commentary relaying an unnamed person’s image. Narrow title admission checked against video auto-captions at 28:00, which are not an authoritative verbatim transcript. **Paraphrase, and this one is not superseded by the 12 September default:** the fragile thing here is the attribution chain — Toner relaying a phrasing she credits to an unnamed third person — and quoting it would make the book the fourth link. There is also no vault record (`klein-toner-title`), so `verbatim` is not reachable. See [toner-title-source.md](./toner-title-source.md) and [quotation-and-paraphrase-2026-09-12.md](./quotation-and-paraphrase-2026-09-12.md), which records why this precedent does not generalise. No incident scene or interview figures admitted.",
       "packets": [],
       "pages": [],
       "provenance_statuses": []
@@ -12265,7 +12265,7 @@
       "title": "",
       "url": "",
       "registered": true,
-      "ledger_note": "*Hard Fork* (The New York Times), 4 Sep 2026: Kevin Roose and Casey Newton interview Ajeya Cotra, one of the three METR/Redwood investigators. Attributed paraphrase only, as text on screen, never given a face, body, room, or invented dialogue. Cotra's method statements are investigator testimony; the hosts' figures and speculation are reporting and are weaker than the reports. Postdates the 30 Aug cutoff; admitted 6 Sep 2026. Assessed item by item in [cotra-hardfork-interview.md](./cotra-hardfork-interview.md).",
+      "ledger_note": "*Hard Fork* (The New York Times), 4 Sep 2026: Kevin Roose and Casey Newton interview Ajeya Cotra, one of the three METR/Redwood investigators. Depiction is bound by the contract's critic rule: text on screen, never a face, body, room, or invented dialogue. **That rule governs depiction, not wording** — it never forbade quotation, and the 12 September default now prefers short attributed quotation, labelled as the automatic transcription it is drawn from and discharged per string at gate 9. Vault records exist (`nyt-hf-podcast`, `nyt-hf-podcast-video`), so `verbatim` is reachable. Cotra's method statements are investigator testimony; the hosts' figures and speculation are reporting and are weaker than the reports. Postdates the 30 Aug cutoff; admitted 6 Sep 2026. Assessed item by item in [cotra-hardfork-interview.md](./cotra-hardfork-interview.md).",
       "packets": [],
       "pages": [
         "073",
@@ -12328,7 +12328,7 @@
       "packets": [
         {
           "chapter": "02",
-          "note": "[Carl Brown, *No — AI Agents Did Not Build Secret Civilizations: Stop Anthropomorphizing Malware*](https://internetofbugs.substack.com/p/noai-agents-did-not-build-secret), Internet of Bugs Substack, 3 September 2026. The published critique on page 039: the agents are buggy software to be handled as malware; the board was a prompt-injection surface where copied text is mistaken for instruction; there was a persistence of context across the whole period rather than three civilizations. It cites `OAI-BH` for the internal-only model trained while the board was live. Attributed paraphrase only; the author appears as text on screen and never as a body. It is dated after the 30 August aftermath scenes and was admitted on 5 September 2026 in the contract's admissions log, as a dated source for the creator register, not as incident evidence."
+          "note": "[Carl Brown, *No — AI Agents Did Not Build Secret Civilizations: Stop Anthropomorphizing Malware*](https://internetofbugs.substack.com/p/noai-agents-did-not-build-secret), Internet of Bugs Substack, 3 September 2026. The published critique on page 039: the agents are buggy software to be handled as malware; the board was a prompt-injection surface where copied text is mistaken for instruction; there was a persistence of context across the whole period rather than three civilizations. It cites `OAI-BH` for the internal-only model trained while the board was live. Depiction is bound by the contract's critic rule: the author appears as text on screen and never as a body, and is never given invented dialogue. **That rule governs depiction, not wording.** Under the 12 September default a short attributed quotation from the post is permitted and preferred over a paraphrase lettered in a quotation's shape; a vault record exists (`internetofbugs-civilizations`), so `verbatim` is reachable, and the decision is discharged per string at gate 9. See [quotation-and-paraphrase-2026-09-12.md](../quotation-and-paraphrase-2026-09-12.md). It is dated after the 30 August aftermath scenes and was admitted on 5 September 2026 in the contract's admissions log, as a dated source for the creator register, not as incident evidence."
         },
         {
           "chapter": "05",
@@ -13100,6 +13100,18 @@
         "OAI-PACE",
         "OAI-TR"
       ]
+    },
+    {
+      "status": "raw-agent-text",
+      "note": "Agent output in the words the source record preserves, registered on the page with its locator.",
+      "pages": [],
+      "sources": []
+    },
+    {
+      "status": "quotation",
+      "note": "A person's or institution's own words, registered on the page with source, locator, and how the record was made.",
+      "pages": [],
+      "sources": []
     },
     {
       "status": "source-paraphrase",

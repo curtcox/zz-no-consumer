@@ -2458,7 +2458,7 @@ def build_crossref(model: crossref.CrossReference, *, internal: bool) -> int:
     write_crossref_page(
         provenance_index,
         "Provenance statuses",
-        f'''<p>The seven evidentiary statuses a panel may carry. A page script may narrow the claim its
+        f'''<p>The {len(crossref.PROVENANCE_STATUSES)} evidentiary statuses a panel may carry. A page script may narrow the claim its
         sources support; it may not silently upgrade it.</p>
         {table(
             ["Status", "What it means", "Pages", "Sources"],
