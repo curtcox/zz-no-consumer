@@ -346,13 +346,13 @@
         "detail_decisions": [
           {
             "old_panel": "033-01",
-            "disposition": "rewrite",
-            "reason": "Retain the stated action/claim at panel scale; replace old page choreography with the scene-specific frame and keep qualifications in reader-visible lettering."
+            "disposition": "combine",
+            "reason": "Keep distinct source records and unresolved mapping; do not assign untimed example messages or specific readers to the approximate early board."
           },
           {
             "old_panel": "033-02",
-            "disposition": "rewrite",
-            "reason": "Retain the stated action/claim at panel scale; replace old page choreography with the scene-specific frame and keep qualifications in reader-visible lettering."
+            "disposition": "combine",
+            "reason": "Keep distinct source records and unresolved mapping; do not assign untimed example messages or specific readers to the approximate early board."
           },
           {
             "old_panel": "034-01",
@@ -385,8 +385,8 @@
         "detail_decisions": [
           {
             "old_panel": "033-02",
-            "disposition": "rewrite",
-            "reason": "Retain the stated action/claim at panel scale; replace old page choreography with the scene-specific frame and keep qualifications in reader-visible lettering."
+            "disposition": "combine",
+            "reason": "Keep distinct source records and unresolved mapping; do not assign untimed example messages or specific readers to the approximate early board."
           }
         ]
       },
@@ -415,8 +415,8 @@
         "detail_decisions": [
           {
             "old_panel": "033-05",
-            "disposition": "rewrite",
-            "reason": "Retain the stated action/claim at panel scale; replace old page choreography with the scene-specific frame and keep qualifications in reader-visible lettering."
+            "disposition": "combine",
+            "reason": "Keep distinct source records and unresolved mapping; do not assign untimed example messages or specific readers to the approximate early board."
           },
           {
             "old_panel": "034-04",
@@ -465,8 +465,8 @@
         "detail_decisions": [
           {
             "old_panel": "033-03",
-            "disposition": "rewrite",
-            "reason": "Retain the stated action/claim at panel scale; replace old page choreography with the scene-specific frame and keep qualifications in reader-visible lettering."
+            "disposition": "combine",
+            "reason": "Keep distinct source records and unresolved mapping; do not assign untimed example messages or specific readers to the approximate early board."
           },
           {
             "old_panel": "034-02",
@@ -481,7 +481,7 @@
           "033-04",
           "035-05"
         ],
-        "frame": "Separate workload views encounter the same name surface. No handle is assigned to the first reader.",
+        "frame": "Reported multi-run use, without invented fresh identities, exclusion of a particular named reader or quoted messages assigned unsupported times.",
         "lettering": [
           "Multiple runs use this shared surface."
         ],
@@ -500,8 +500,8 @@
         "detail_decisions": [
           {
             "old_panel": "033-04",
-            "disposition": "rewrite",
-            "reason": "Retain the stated action/claim at panel scale; replace old page choreography with the scene-specific frame and keep qualifications in reader-visible lettering."
+            "disposition": "combine",
+            "reason": "Keep distinct source records and unresolved mapping; do not assign untimed example messages or specific readers to the approximate early board."
           },
           {
             "old_panel": "035-05",
@@ -515,17 +515,18 @@
         "old_panels": [
           "033-05",
           "034-04",
-          "034-05"
+          "034-05",
+          "033-04"
         ],
         "frame": "Stay with the discussion-name board; its origin remains outside the depicted record.",
         "lettering": [
-          "This is an observation of an active board. It does not establish that the 16:01 write founded it."
+          "METR describes earlier board activity. Its example messages have no known posting times and may have been posted after the main board was established. They cannot serve as a minute-by-minute record of this earlier founding."
         ],
         "exact_strings": [],
         "sources": [
           {
             "key": "METR",
-            "locator": "pp. 30–32; board active around 17:00 on 8 July",
+            "locator": "p. 30 fn. 64; earlier-board chronology",
             "available": "2026-08-26"
           }
         ],
@@ -548,6 +549,11 @@
             "old_panel": "034-05",
             "disposition": "rewrite",
             "reason": "Retain the stated action/claim at panel scale; replace old page choreography with the scene-specific frame and keep qualifications in reader-visible lettering."
+          },
+          {
+            "old_panel": "033-04",
+            "disposition": "combine",
+            "reason": "Keep distinct source records and unresolved mapping; do not assign untimed example messages or specific readers to the approximate early board."
           }
         ]
       }
@@ -573,7 +579,7 @@
         ],
         "frame": "A fresh workload lane bears PHASEONE10841. The older board is outside its view.",
         "lettering": [
-          "Around 23:00, a separate run, PHASEONE10841, begins the main board."
+          "Around 23:00, METR dates the main-board founding by PHASEONE10841. This is not a recovered launch time for that run; its preparatory experiments began earlier."
         ],
         "exact_strings": [],
         "sources": [
@@ -590,8 +596,8 @@
         "detail_decisions": [
           {
             "old_panel": "036-01",
-            "disposition": "rewrite",
-            "reason": "Retain the stated action/claim at panel scale; replace old page choreography with the scene-specific frame and keep qualifications in reader-visible lettering."
+            "disposition": "combine",
+            "reason": "Combine the repeated main-board scene into the already drafted chronology. Founding is not run launch, early tests are separate, and no cold-open replay or exact seven-hour identity link is retained."
           }
         ]
       },
@@ -619,8 +625,8 @@
         "detail_decisions": [
           {
             "old_panel": "036-02",
-            "disposition": "rewrite",
-            "reason": "Retain the stated action/claim at panel scale; replace old page choreography with the scene-specific frame and keep qualifications in reader-visible lettering."
+            "disposition": "combine",
+            "reason": "Combine the repeated main-board scene into the already drafted chronology. Founding is not run launch, early tests are separate, and no cold-open replay or exact seven-hour identity link is retained."
           }
         ]
       },
@@ -628,7 +634,8 @@
         "id": "july-main-board-help-request",
         "old_panels": [
           "003-05",
-          "036-05"
+          "036-05",
+          "036-04"
         ],
         "frame": "One directory entry carries the request. Leave source wording unreadable; narration describes the action outside the interface.",
         "lettering": [
@@ -654,8 +661,13 @@
           },
           {
             "old_panel": "036-05",
-            "disposition": "rewrite",
-            "reason": "Retain the stated action/claim at panel scale; replace old page choreography with the scene-specific frame and keep qualifications in reader-visible lettering."
+            "disposition": "combine",
+            "reason": "Combine the repeated main-board scene into the already drafted chronology. Founding is not run launch, early tests are separate, and no cold-open replay or exact seven-hour identity link is retained."
+          },
+          {
+            "old_panel": "036-04",
+            "disposition": "combine",
+            "reason": "Combine the repeated main-board scene into the already drafted chronology. Founding is not run launch, early tests are separate, and no cold-open replay or exact seven-hour identity link is retained."
           }
         ]
       },
@@ -1029,8 +1041,8 @@
         "detail_decisions": [
           {
             "old_panel": "037-01",
-            "disposition": "rewrite",
-            "reason": "Retain the stated action/claim at panel scale; replace old page choreography with the scene-specific frame and keep qualifications in reader-visible lettering."
+            "disposition": "combine",
+            "reason": "Combine proposal and later validation with their existing events; retain distinct runs, dossier and delegation. Three categories are not exactly three conversations, nor is the predecessor shown ending."
           },
           {
             "old_panel": "008-01",
@@ -1047,7 +1059,8 @@
       {
         "id": "july-flag-hypothesis-shared",
         "old_panels": [
-          "008-02"
+          "008-02",
+          "037-01"
         ],
         "frame": "Show an authored abstract relationship on the shared surface, without a seed, formula, code or complete flag.",
         "lettering": [
@@ -1070,6 +1083,11 @@
             "old_panel": "008-02",
             "disposition": "rewrite",
             "reason": "Keep proposal, publication, later extraction and comparison, reported match and bounded generality distinct. Only the proposal is first-hour evidence; no derived flag recipe, fabricated grader screen or every-task completion is shown."
+          },
+          {
+            "old_panel": "037-01",
+            "disposition": "combine",
+            "reason": "Combine proposal and later validation with their existing events; retain distinct runs, dossier and delegation. Three categories are not exactly three conversations, nor is the predecessor shown ending."
           }
         ]
       }
@@ -1193,8 +1211,8 @@
         "detail_decisions": [
           {
             "old_panel": "037-03",
-            "disposition": "rewrite",
-            "reason": "Retain the stated action/claim at panel scale; replace old page choreography with the scene-specific frame and keep qualifications in reader-visible lettering."
+            "disposition": "combine",
+            "reason": "Combine proposal and later validation with their existing events; retain distinct runs, dossier and delegation. Three categories are not exactly three conversations, nor is the predecessor shown ending."
           },
           {
             "old_panel": "011-01",
@@ -1234,8 +1252,8 @@
         "detail_decisions": [
           {
             "old_panel": "037-03",
-            "disposition": "rewrite",
-            "reason": "Retain the stated action/claim at panel scale; replace old page choreography with the scene-specific frame and keep qualifications in reader-visible lettering."
+            "disposition": "combine",
+            "reason": "Combine proposal and later validation with their existing events; retain distinct runs, dossier and delegation. Three categories are not exactly three conversations, nor is the predecessor shown ending."
           },
           {
             "old_panel": "011-03",
@@ -1275,8 +1293,8 @@
         "detail_decisions": [
           {
             "old_panel": "037-03",
-            "disposition": "rewrite",
-            "reason": "Retain the stated action/claim at panel scale; replace old page choreography with the scene-specific frame and keep qualifications in reader-visible lettering."
+            "disposition": "combine",
+            "reason": "Combine proposal and later validation with their existing events; retain distinct runs, dossier and delegation. Three categories are not exactly three conversations, nor is the predecessor shown ending."
           },
           {
             "old_panel": "011-02",
@@ -1295,9 +1313,9 @@
         "old_panels": [
           "037-04"
         ],
-        "frame": "PHASEONE[big] enters with a larger budget. PHASEONE10841 remains separately identified.",
+        "frame": "Separate named run and reported larger budget; no exact numerical budget or an ending/expiring predecessor lane.",
         "lettering": [
-          "In the morning, a new run with the same task and a larger budget takes up the work."
+          "On the morning of July 9, roughly ten hours after main-board founding in METR’s account, PHASEONE[big] arrives with the same task and a larger remaining budget. The source does not provide an exact arrival minute here."
         ],
         "exact_strings": [],
         "sources": [
@@ -1314,8 +1332,8 @@
         "detail_decisions": [
           {
             "old_panel": "037-04",
-            "disposition": "rewrite",
-            "reason": "Retain the stated action/claim at panel scale; replace old page choreography with the scene-specific frame and keep qualifications in reader-visible lettering."
+            "disposition": "combine",
+            "reason": "Combine proposal and later validation with their existing events; retain distinct runs, dossier and delegation. Three categories are not exactly three conversations, nor is the predecessor shown ending."
           }
         ]
       },
@@ -1345,8 +1363,8 @@
         "detail_decisions": [
           {
             "old_panel": "037-04",
-            "disposition": "rewrite",
-            "reason": "Retain the stated action/claim at panel scale; replace old page choreography with the scene-specific frame and keep qualifications in reader-visible lettering."
+            "disposition": "combine",
+            "reason": "Combine proposal and later validation with their existing events; retain distinct runs, dossier and delegation. Three categories are not exactly three conversations, nor is the predecessor shown ending."
           },
           {
             "old_panel": "037-05",
@@ -1384,15 +1402,16 @@
         "detail_decisions": [
           {
             "old_panel": "037-05",
-            "disposition": "rewrite",
-            "reason": "Retain the stated action/claim at panel scale; replace old page choreography with the scene-specific frame and keep qualifications in reader-visible lettering."
+            "disposition": "combine",
+            "reason": "Combine proposal and later validation with their existing events; retain distinct runs, dossier and delegation. Three categories are not exactly three conversations, nor is the predecessor shown ending."
           }
         ]
       },
       {
         "id": "july-workstreams-coordinator",
         "old_panels": [
-          "011-04"
+          "011-04",
+          "037-03"
         ],
         "frame": "Keep separate workload identities and attribute the coordinating role. Do not depict an unobserved command hierarchy or claim that every project began together.",
         "lettering": [
@@ -1415,13 +1434,19 @@
             "old_panel": "011-04",
             "disposition": "rewrite",
             "reason": "Retain dossiers, reusable work and separate budgets while recognizing documented coordination by PHASEONE[big]; no sender termination or guaranteed nonrepetition is inferred."
+          },
+          {
+            "old_panel": "037-03",
+            "disposition": "combine",
+            "reason": "Combine proposal and later validation with their existing events; retain distinct runs, dossier and delegation. Three categories are not exactly three conversations, nor is the predecessor shown ending."
           }
         ]
       },
       {
         "id": "july-workstreams-handover-limit",
         "old_panels": [
-          "011-04"
+          "011-04",
+          "037-05"
         ],
         "frame": "The dossier survives as an artifact. Do not extinguish the sender to imply an observed termination.",
         "lettering": [
@@ -1444,6 +1469,11 @@
             "old_panel": "011-04",
             "disposition": "rewrite",
             "reason": "Retain dossiers, reusable work and separate budgets while recognizing documented coordination by PHASEONE[big]; no sender termination or guaranteed nonrepetition is inferred."
+          },
+          {
+            "old_panel": "037-05",
+            "disposition": "combine",
+            "reason": "Combine proposal and later validation with their existing events; retain distinct runs, dossier and delegation. Three categories are not exactly three conversations, nor is the predecessor shown ending."
           }
         ]
       }
@@ -1494,7 +1524,8 @@
       {
         "id": "july-main-board-package-access",
         "old_panels": [
-          "003-02"
+          "003-02",
+          "036-02"
         ],
         "frame": "The lane reaches the permitted package cache. Keep its ordinary function visually apparent.",
         "lettering": [
@@ -1517,6 +1548,11 @@
             "old_panel": "003-02",
             "disposition": "rewrite",
             "reason": "Keep permitted software-package access without claiming this is the only visible service."
+          },
+          {
+            "old_panel": "036-02",
+            "disposition": "combine",
+            "reason": "Combine the repeated main-board scene into the already drafted chronology. Founding is not run launch, early tests are separate, and no cold-open replay or exact seven-hour identity link is retained."
           }
         ]
       },
@@ -1555,8 +1591,8 @@
           },
           {
             "old_panel": "036-03",
-            "disposition": "rewrite",
-            "reason": "Retain the stated action/claim at panel scale; replace old page choreography with the scene-specific frame and keep qualifications in reader-visible lettering."
+            "disposition": "combine",
+            "reason": "Combine the repeated main-board scene into the already drafted chronology. Founding is not run launch, early tests are separate, and no cold-open replay or exact seven-hour identity link is retained."
           }
         ]
       },
@@ -1590,8 +1626,8 @@
           },
           {
             "old_panel": "036-04",
-            "disposition": "rewrite",
-            "reason": "Retain the stated action/claim at panel scale; replace old page choreography with the scene-specific frame and keep qualifications in reader-visible lettering."
+            "disposition": "combine",
+            "reason": "Combine the repeated main-board scene into the already drafted chronology. Founding is not run launch, early tests are separate, and no cold-open replay or exact seven-hour identity link is retained."
           }
         ]
       }
@@ -1679,8 +1715,8 @@
         "detail_decisions": [
           {
             "old_panel": "037-02",
-            "disposition": "rewrite",
-            "reason": "Retain the stated action/claim at panel scale; replace old page choreography with the scene-specific frame and keep qualifications in reader-visible lettering."
+            "disposition": "combine",
+            "reason": "Combine proposal and later validation with their existing events; retain distinct runs, dossier and delegation. Three categories are not exactly three conversations, nor is the predecessor shown ending."
           },
           {
             "old_panel": "008-03",
@@ -1714,8 +1750,8 @@
         "detail_decisions": [
           {
             "old_panel": "037-02",
-            "disposition": "rewrite",
-            "reason": "Retain the stated action/claim at panel scale; replace old page choreography with the scene-specific frame and keep qualifications in reader-visible lettering."
+            "disposition": "combine",
+            "reason": "Combine proposal and later validation with their existing events; retain distinct runs, dossier and delegation. Three categories are not exactly three conversations, nor is the predecessor shown ending."
           },
           {
             "old_panel": "008-04",

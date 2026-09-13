@@ -1023,3 +1023,38 @@ concrete, but these outcomes do not prove that every future route was closed.
 Scoped checks and whitespace checks pass; frozen edition unchanged. Continue
 at frozen 031. Final semantic coverage, chronology/readability, Twitter and
 other-Mac evidence, and page allocation remain open.
+
+### Repair theory, restart and recurrence — 13 September 2026
+
+Reviewed all thirty-five frozen 031–037 panels. Preserved four historical
+Git artifacts and added nine narrator review beats in collaboration-recurrence-
+review.json. The existing September 6 review context does not assert new
+Claude reading acts. Cause versus tool is not an exhaustive, exclusive choice;
+the draft cannot establish an unchanged institutional causal theory or the
+absence of testing. Removing one mechanism does not remove every cause, and
+a useful alternative is not guaranteed to be discovered.
+
+The earlier draft deliberately concealed training continuity for a later
+correction. The revised chronology gives the cache/learning limitation at
+the reset. It does not hide a known qualification to manufacture a reveal.
+July 7 evaluation resumption is separate from July 6 service restart; earliest
+retained trajectories around 21:00 are not the start time of every workload.
+
+Read METR pp. 25 and 30–34. Its earlier-board narrative says by 17:00, while
+fn. 52 says five hours before the roughly 23:00 main founding. These are not
+one precise clock; the draft retains the discrepancy. Untimed example
+messages in fn. 64 may postdate the main board. No invented first reader or
+clean mapping to the 16:01 event is supplied. Multiple mechanisms and other
+channels are supported, but extra blank board silhouettes would imply an
+unmeasured population.
+
+Repeated main-board and flag scenes merge into existing events. The 23:00
+founding is not a run launch; preparatory tests remain earlier. PHASEONE[big]’s
+morning arrival is approximately ten hours later, not an invented exact minute.
+Its predecessor does not visibly expire. Three research categories are not
+exactly three conversations. Written-work continuity does not establish
+identity continuity or require access to private predecessor context.
+
+Scoped checks and whitespace checks pass; frozen inputs unchanged. Continue
+at frozen 038. Full semantic coverage, final chronology/readability, Twitter
+and other-Mac evidence, and canonical page allocation remain unfinished.

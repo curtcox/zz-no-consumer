@@ -2983,7 +2983,7 @@
         ],
         "frame": "A scheduler accepts resumed ExploitGym workloads. New lane identities replace the pre-wipe population.",
         "lettering": [
-          "7 July. Evaluation workloads resume."
+          "July 7. OpenAI reports that cyber evaluations resume. This date is distinct from bringing the rebuilt Artifactory instance online on July 6."
         ],
         "exact_strings": [],
         "sources": [
@@ -3000,8 +3000,8 @@
         "detail_decisions": [
           {
             "old_panel": "032-01",
-            "disposition": "rewrite",
-            "reason": "Retain the stated action/claim at panel scale; replace old page choreography with the scene-specific frame and keep qualifications in reader-visible lettering."
+            "disposition": "combine",
+            "reason": "Keep restart and retained-trajectory clocks separate from service rebuild. Preserve immediate cache/learning limits and retire intentional concealment, invented cursors and fresh-weight assumptions."
           }
         ]
       },
@@ -3012,13 +3012,13 @@
         ],
         "frame": "Separate tasks, handles and budgets occupy separate lanes. No one is drawn as an immortal returning agent.",
         "lettering": [
-          "Fresh runs enter the rebuilt environment."
+          "METR describes several large experiments with varying budgets and multi-day runs. Its earliest retained trajectories begin around July 7 at 21:00 UTC; that is a dataset boundary, not the exact start of every resumed workload."
         ],
         "exact_strings": [],
         "sources": [
           {
             "key": "METR",
-            "locator": "July 4–9 chronology; post-wipe transcript window around 21:00 UTC",
+            "locator": "p. 30, July 7 restart and retained-trajectory start",
             "available": "2026-08-26"
           }
         ],
@@ -3029,8 +3029,8 @@
         "detail_decisions": [
           {
             "old_panel": "032-02",
-            "disposition": "rewrite",
-            "reason": "Retain the stated action/claim at panel scale; replace old page choreography with the scene-specific frame and keep qualifications in reader-visible lettering."
+            "disposition": "combine",
+            "reason": "Keep restart and retained-trajectory clocks separate from service rebuild. Preserve immediate cache/learning limits and retire intentional concealment, invented cursors and fresh-weight assumptions."
           }
         ]
       },
@@ -3058,8 +3058,8 @@
         "detail_decisions": [
           {
             "old_panel": "032-03",
-            "disposition": "rewrite",
-            "reason": "Retain the stated action/claim at panel scale; replace old page choreography with the scene-specific frame and keep qualifications in reader-visible lettering."
+            "disposition": "combine",
+            "reason": "Keep restart and retained-trajectory clocks separate from service rebuild. Preserve immediate cache/learning limits and retire intentional concealment, invented cursors and fresh-weight assumptions."
           }
         ]
       },
@@ -3087,8 +3087,8 @@
         "detail_decisions": [
           {
             "old_panel": "032-04",
-            "disposition": "rewrite",
-            "reason": "Retain the stated action/claim at panel scale; replace old page choreography with the scene-specific frame and keep qualifications in reader-visible lettering."
+            "disposition": "combine",
+            "reason": "Keep restart and retained-trajectory clocks separate from service rebuild. Preserve immediate cache/learning limits and retire intentional concealment, invented cursors and fresh-weight assumptions."
           }
         ]
       },
@@ -3096,7 +3096,8 @@
         "id": "july-resume-boundary-of-claim",
         "old_panels": [
           "032-04",
-          "032-05"
+          "032-05",
+          "035-04"
         ],
         "frame": "Keep attention on the live cache; do not draw a visual proof that every channel of continuity was erased.",
         "lettering": [
@@ -3117,13 +3118,18 @@
         "detail_decisions": [
           {
             "old_panel": "032-04",
-            "disposition": "rewrite",
-            "reason": "Retain the stated action/claim at panel scale; replace old page choreography with the scene-specific frame and keep qualifications in reader-visible lettering."
+            "disposition": "combine",
+            "reason": "Keep restart and retained-trajectory clocks separate from service rebuild. Preserve immediate cache/learning limits and retire intentional concealment, invented cursors and fresh-weight assumptions."
           },
           {
             "old_panel": "032-05",
-            "disposition": "rewrite",
-            "reason": "Retain the stated action/claim at panel scale; replace old page choreography with the scene-specific frame and keep qualifications in reader-visible lettering."
+            "disposition": "combine",
+            "reason": "Keep restart and retained-trajectory clocks separate from service rebuild. Preserve immediate cache/learning limits and retire intentional concealment, invented cursors and fresh-weight assumptions."
+          },
+          {
+            "old_panel": "035-04",
+            "disposition": "combine",
+            "reason": "Preserve recurrence and storage arguments as authored comparisons, not May replay, new unselected replies, independent-discovery proof or a concealed learning channel."
           }
         ]
       }
