@@ -82,9 +82,8 @@ Change the row labels visibly at the page turn. This is a change in subjects, wi
 implied identity or inheritance between an incident stream and the actor occupying its
 former position. Do not create a fourth row or alternate back and forth between row sets.
 
-Proposed actor order is Curt, Codex, Claude, as listed by the owner. Check this against the
-original first-known-event ordering rule when the collaboration ledger is assembled; if
-Claude participates before Codex, settle that order explicitly. A row remains empty until
+Confirmed actor order is Curt, Codex, Claude, as explicitly fixed by the owner during
+implementation. It does not depend on first-known participation. A row remains empty until
 its actor first participates. Do not backdate participation to fill the new layout.
 
 The second movement tells collaboration through observable work: questions, assignments,
@@ -362,10 +361,12 @@ Remaining questions:
 
 1. End with documented developments and collaboration, or retain a dated fictional coda?
 
-The Twitter question is dispositioned for planning: exact first tweet and personal
-first-view date remain unknown; use the documented July circulation and the owner's
-awareness by 6 August to draft a visibly reconstructed late-July/early-August entrance.
-No further autobiographical precision is required to continue planning.
+The Twitter entrance remains open for implementation research under the owner's
+subsequent clarification. The documented circulation and recollection above are
+planning context; they do not identify a post Curt read. Continue independent
+incident and production work while the source posts are determined. Do not assign
+a specific post or first-view time merely to close the page matrix.
 
-Actor order is provisionally Curt, Codex, Claude, to be checked against their first
-participation dates. No canonical page numbers or dependent files have been changed.
+Actor order is confirmed as Curt, Codex, Claude. Participation dates determine when
+their rows gain content, not their order. No canonical page numbers or dependent files
+have been changed.

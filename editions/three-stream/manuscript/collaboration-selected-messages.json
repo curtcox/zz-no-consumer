@@ -1,0 +1,677 @@
+[
+  {
+    "id": "prod-setup-request",
+    "title": "A publishing request",
+    "movement": "collaboration",
+    "owner": "Curt",
+    "start": "2026-09-02T01:56:21.519Z",
+    "end": "2026-09-02T01:56:21.519Z",
+    "original_timezone": "UTC",
+    "precision": "millisecond",
+    "chronology_basis": "Stored message timestamp, preserving source precision; no inferred typing, delivery or encounter time.",
+    "source_limit": "Selected message is a dated production record. The sequence before and after it remains to be assembled from both Macs and GitHub. This is not a staged first entrance.",
+    "status": "detailed-draft",
+    "beats": [
+      {
+        "id": "prod-setup-request-message",
+        "old_panels": [],
+        "frame": "Curt’s recorded request appears with the proposed directory tree. No physical room or typing gesture is reconstructed.",
+        "lettering": [
+          "Curt asks for a repository structure and automatic GitHub Pages publishing when main changes."
+        ],
+        "exact_strings": [],
+        "sources": [
+          {
+            "key": "PROD-24182a5d6b32",
+            "locator": "256t/editions/selected-messages/24182a5d6b3285cd17f031d9db21fac2f62709670d4acf23bb1dae59eedbe4bd.json; record SHA-256 24182a5d6b3285cd17f031d9db21fac2f62709670d4acf23bb1dae59eedbe4bd",
+            "available": "2026-09-02T01:56:21.519Z"
+          }
+        ],
+        "evidence_status": "documented-message-with-reconstructed-visualization",
+        "time_start": "2026-09-02T01:56:21.519Z",
+        "time_end": "2026-09-02T01:56:21.519Z",
+        "art_reuse": "none-approved",
+        "detail_decisions": [],
+        "source_record": "current-mac:rollout-2026-09-01T20-53-34-01a05fd2-5486-7d12-8a9c-f13eab35fba8:7"
+      }
+    ]
+  },
+  {
+    "id": "prod-setup-response",
+    "title": "Codex proposes an implementation approach",
+    "movement": "collaboration",
+    "owner": "Codex",
+    "start": "2026-09-02T01:56:25.967Z",
+    "end": "2026-09-02T01:56:25.967Z",
+    "original_timezone": "UTC",
+    "precision": "millisecond",
+    "chronology_basis": "Stored message timestamp, preserving source precision; no inferred typing, delivery or encounter time.",
+    "source_limit": "Selected message is a dated production record. The sequence before and after it remains to be assembled from both Macs and GitHub. This is not a staged first entrance.",
+    "status": "detailed-draft",
+    "beats": [
+      {
+        "id": "prod-setup-response-message",
+        "old_panels": [],
+        "frame": "The response appears in Codex’s row at its own stored time.",
+        "lettering": [
+          "Codex says it will inspect the repository and use a dependency-light static build unless an existing toolchain dictates otherwise."
+        ],
+        "exact_strings": [],
+        "sources": [
+          {
+            "key": "PROD-2ae7dabf9887",
+            "locator": "256t/editions/selected-messages/2ae7dabf9887127bdf39123dc34755fdcd2581e92d845f353a3c8a4ceba108cc.json; record SHA-256 2ae7dabf9887127bdf39123dc34755fdcd2581e92d845f353a3c8a4ceba108cc",
+            "available": "2026-09-02T01:56:25.967Z"
+          }
+        ],
+        "evidence_status": "documented-message-with-reconstructed-visualization",
+        "time_start": "2026-09-02T01:56:25.967Z",
+        "time_end": "2026-09-02T01:56:25.967Z",
+        "art_reuse": "none-approved",
+        "detail_decisions": [],
+        "source_record": "current-mac:rollout-2026-09-01T20-53-34-01a05fd2-5486-7d12-8a9c-f13eab35fba8:12"
+      }
+    ]
+  },
+  {
+    "id": "prod-parallel-request",
+    "title": "An earlier request for parallel accounts",
+    "movement": "collaboration",
+    "owner": "Curt",
+    "start": "2026-09-02T03:40:49.597Z",
+    "end": "2026-09-02T03:40:49.597Z",
+    "original_timezone": "UTC",
+    "precision": "millisecond",
+    "chronology_basis": "Stored message timestamp, preserving source precision; no inferred typing, delivery or encounter time.",
+    "source_limit": "Selected message is a dated production record. The sequence before and after it remains to be assembled from both Macs and GitHub. This is not a staged first entrance.",
+    "status": "detailed-draft",
+    "beats": [
+      {
+        "id": "prod-parallel-request-message",
+        "old_panels": [],
+        "frame": "Curt’s request names multiple viewpoints rather than the later fixed three-row design.",
+        "lettering": [
+          "Curt asks for additional parallel tracks to be proposed and ranked. This is an earlier design request."
+        ],
+        "exact_strings": [],
+        "sources": [
+          {
+            "key": "PROD-e30346fdc99d",
+            "locator": "256t/editions/selected-messages/e30346fdc99de8c48f37f4ba392be12757e3383919a2a8dac9939424c3d58b20.json; record SHA-256 e30346fdc99de8c48f37f4ba392be12757e3383919a2a8dac9939424c3d58b20",
+            "available": "2026-09-02T03:40:49.597Z"
+          }
+        ],
+        "evidence_status": "documented-message-with-reconstructed-visualization",
+        "time_start": "2026-09-02T03:40:49.597Z",
+        "time_end": "2026-09-02T03:40:49.597Z",
+        "art_reuse": "none-approved",
+        "detail_decisions": [],
+        "source_record": "current-mac:rollout-2026-09-01T22-36-59-01a06031-01d6-71a1-8f27-00a71217ffe9:9"
+      }
+    ]
+  },
+  {
+    "id": "prod-parallel-response",
+    "title": "A promise to investigate",
+    "movement": "collaboration",
+    "owner": "Codex",
+    "start": "2026-09-02T03:40:54.822Z",
+    "end": "2026-09-02T03:40:54.822Z",
+    "original_timezone": "UTC",
+    "precision": "millisecond",
+    "chronology_basis": "Stored message timestamp, preserving source precision; no inferred typing, delivery or encounter time.",
+    "source_limit": "Selected message is a dated production record. The sequence before and after it remains to be assembled from both Macs and GitHub. This is not a staged first entrance.",
+    "status": "detailed-draft",
+    "beats": [
+      {
+        "id": "prod-parallel-response-message",
+        "old_panels": [],
+        "frame": "Codex’s response stays a stated plan, without completed rankings shown beside it.",
+        "lettering": [
+          "Codex says it will inspect the structure and rank tracks by narrative value, distinctiveness and integration cost. The selected local record does not contain a completed ranking."
+        ],
+        "exact_strings": [],
+        "sources": [
+          {
+            "key": "PROD-01fea12e58b5",
+            "locator": "256t/editions/selected-messages/01fea12e58b55bcb400d2b6c71f86667bd055a6392ff4a9b2f473ac87255feb5.json; record SHA-256 01fea12e58b55bcb400d2b6c71f86667bd055a6392ff4a9b2f473ac87255feb5",
+            "available": "2026-09-02T03:40:54.822Z"
+          }
+        ],
+        "evidence_status": "documented-message-with-reconstructed-visualization",
+        "time_start": "2026-09-02T03:40:54.822Z",
+        "time_end": "2026-09-02T03:40:54.822Z",
+        "art_reuse": "none-approved",
+        "detail_decisions": [],
+        "source_record": "current-mac:rollout-2026-09-01T22-36-59-01a06031-01d6-71a1-8f27-00a71217ffe9:14"
+      }
+    ]
+  },
+  {
+    "id": "prod-readiness-request",
+    "title": "What remains before chapters?",
+    "movement": "collaboration",
+    "owner": "Curt",
+    "start": "2026-09-02T19:53:55.402Z",
+    "end": "2026-09-02T19:53:55.402Z",
+    "original_timezone": "UTC",
+    "precision": "millisecond",
+    "chronology_basis": "Stored message timestamp, preserving source precision; no inferred typing, delivery or encounter time.",
+    "source_limit": "Selected message is a dated production record. The sequence before and after it remains to be assembled from both Macs and GitHub. This is not a staged first entrance.",
+    "status": "detailed-draft",
+    "beats": [
+      {
+        "id": "prod-readiness-request-message",
+        "old_panels": [],
+        "frame": "The recorded request appears in Curt’s row, addressed to Claude.",
+        "lettering": [
+          "Curt asks Claude to determine what remains before writing the chapters."
+        ],
+        "exact_strings": [],
+        "sources": [
+          {
+            "key": "PROD-f0a81b12f26e",
+            "locator": "256t/editions/selected-messages/f0a81b12f26ebbf4595eced7cb2bcf6724ce5b42c7fc8db166708f94d786b3cc.json; record SHA-256 f0a81b12f26ebbf4595eced7cb2bcf6724ce5b42c7fc8db166708f94d786b3cc",
+            "available": "2026-09-02T19:53:55.402Z"
+          }
+        ],
+        "evidence_status": "documented-message-with-reconstructed-visualization",
+        "time_start": "2026-09-02T19:53:55.402Z",
+        "time_end": "2026-09-02T19:53:55.402Z",
+        "art_reuse": "none-approved",
+        "detail_decisions": [],
+        "source_record": "current-mac:42d0dc8f-3e4e-4862-956a-2a143012c080:3"
+      }
+    ]
+  },
+  {
+    "id": "prod-readiness-response",
+    "title": "Claude starts with the project state",
+    "movement": "collaboration",
+    "owner": "Claude",
+    "start": "2026-09-02T19:53:57.013Z",
+    "end": "2026-09-02T19:53:57.013Z",
+    "original_timezone": "UTC",
+    "precision": "millisecond",
+    "chronology_basis": "Stored message timestamp, preserving source precision; no inferred typing, delivery or encounter time.",
+    "source_limit": "Selected message is a dated production record. The sequence before and after it remains to be assembled from both Macs and GitHub. This is not a staged first entrance.",
+    "status": "detailed-draft",
+    "beats": [
+      {
+        "id": "prod-readiness-response-message",
+        "old_panels": [],
+        "frame": "Claude’s text appears in its own row at its recorded time.",
+        "lettering": [
+          "Claude replies that it will inspect the project state."
+        ],
+        "exact_strings": [],
+        "sources": [
+          {
+            "key": "PROD-f4efb887a373",
+            "locator": "256t/editions/selected-messages/f4efb887a373d367d3ee8e460d6f70a0efe0bc746a59b9efdb43cc65542196be.json; record SHA-256 f4efb887a373d367d3ee8e460d6f70a0efe0bc746a59b9efdb43cc65542196be",
+            "available": "2026-09-02T19:53:57.013Z"
+          }
+        ],
+        "evidence_status": "documented-message-with-reconstructed-visualization",
+        "time_start": "2026-09-02T19:53:57.013Z",
+        "time_end": "2026-09-02T19:53:57.013Z",
+        "art_reuse": "none-approved",
+        "detail_decisions": [],
+        "source_record": "current-mac:42d0dc8f-3e4e-4862-956a-2a143012c080:15"
+      }
+    ]
+  },
+  {
+    "id": "prod-identity-request",
+    "title": "Design before implementation",
+    "movement": "collaboration",
+    "owner": "Curt",
+    "start": "2026-09-04T12:23:12.980Z",
+    "end": "2026-09-04T12:23:12.980Z",
+    "original_timezone": "UTC",
+    "precision": "millisecond",
+    "chronology_basis": "Stored message timestamp, preserving source precision; no inferred typing, delivery or encounter time.",
+    "source_limit": "Selected message is a dated production record. The sequence before and after it remains to be assembled from both Macs and GitHub. This is not a staged first entrance.",
+    "status": "detailed-draft",
+    "beats": [
+      {
+        "id": "prod-identity-request-message",
+        "old_panels": [],
+        "frame": "Curt’s task request points to the page-identity brief as an artifact, not another actor’s private memory.",
+        "lettering": [
+          "Curt asks Claude to implement the page-identity task and start with the design note."
+        ],
+        "exact_strings": [],
+        "sources": [
+          {
+            "key": "PROD-7b9e29f7ca4e",
+            "locator": "256t/editions/selected-messages/7b9e29f7ca4e029a8fdbe8dfb2d7ec1bbda24514d632ab4b8cdc48480cea3ee8.json; record SHA-256 7b9e29f7ca4e029a8fdbe8dfb2d7ec1bbda24514d632ab4b8cdc48480cea3ee8",
+            "available": "2026-09-04T12:23:12.980Z"
+          }
+        ],
+        "evidence_status": "documented-message-with-reconstructed-visualization",
+        "time_start": "2026-09-04T12:23:12.980Z",
+        "time_end": "2026-09-04T12:23:12.980Z",
+        "art_reuse": "none-approved",
+        "detail_decisions": [],
+        "source_record": "current-mac:15165d3f-da7d-4993-9b5a-a9ecd2308990:3"
+      }
+    ]
+  },
+  {
+    "id": "prod-identity-response",
+    "title": "Claude opens the brief",
+    "movement": "collaboration",
+    "owner": "Claude",
+    "start": "2026-09-04T12:23:14.565Z",
+    "end": "2026-09-04T12:23:14.565Z",
+    "original_timezone": "UTC",
+    "precision": "millisecond",
+    "chronology_basis": "Stored message timestamp, preserving source precision; no inferred typing, delivery or encounter time.",
+    "source_limit": "Selected message is a dated production record. The sequence before and after it remains to be assembled from both Macs and GitHub. This is not a staged first entrance.",
+    "status": "detailed-draft",
+    "beats": [
+      {
+        "id": "prod-identity-response-message",
+        "old_panels": [],
+        "frame": "The response acknowledges the requested starting point.",
+        "lettering": [
+          "Claude says it will begin by reading the task brief."
+        ],
+        "exact_strings": [],
+        "sources": [
+          {
+            "key": "PROD-d6d7cce76a17",
+            "locator": "256t/editions/selected-messages/d6d7cce76a1758c6569813bac569b359b1248bf04128b94540487362610f58b2.json; record SHA-256 d6d7cce76a1758c6569813bac569b359b1248bf04128b94540487362610f58b2",
+            "available": "2026-09-04T12:23:14.565Z"
+          }
+        ],
+        "evidence_status": "documented-message-with-reconstructed-visualization",
+        "time_start": "2026-09-04T12:23:14.565Z",
+        "time_end": "2026-09-04T12:23:14.565Z",
+        "art_reuse": "none-approved",
+        "detail_decisions": [],
+        "source_record": "current-mac:15165d3f-da7d-4993-9b5a-a9ecd2308990:14"
+      }
+    ]
+  },
+  {
+    "id": "prod-wiki-request",
+    "title": "Make the source corpus usable",
+    "movement": "collaboration",
+    "owner": "Curt",
+    "start": "2026-09-04T22:54:28.679Z",
+    "end": "2026-09-04T22:54:28.679Z",
+    "original_timezone": "UTC",
+    "precision": "millisecond",
+    "chronology_basis": "Stored message timestamp, preserving source precision; no inferred typing, delivery or encounter time.",
+    "source_limit": "Selected message is a dated production record. The sequence before and after it remains to be assembled from both Macs and GitHub. This is not a staged first entrance.",
+    "status": "detailed-draft",
+    "beats": [
+      {
+        "id": "prod-wiki-request-message",
+        "old_panels": [],
+        "frame": "Curt’s request points to the collusion research directory.",
+        "lettering": [
+          "Curt asks for extraction of the wiki material and a location that makes the files accessible for future work."
+        ],
+        "exact_strings": [],
+        "sources": [
+          {
+            "key": "PROD-3993cf377647",
+            "locator": "256t/editions/selected-messages/3993cf3776472df76db518a2eedd5c175ccda25ce16cd53b215046ef939914ae.json; record SHA-256 3993cf3776472df76db518a2eedd5c175ccda25ce16cd53b215046ef939914ae",
+            "available": "2026-09-04T22:54:28.679Z"
+          }
+        ],
+        "evidence_status": "documented-message-with-reconstructed-visualization",
+        "time_start": "2026-09-04T22:54:28.679Z",
+        "time_end": "2026-09-04T22:54:28.679Z",
+        "art_reuse": "none-approved",
+        "detail_decisions": [],
+        "source_record": "current-mac:6b657858-b5ae-4a61-82cc-034af30aa67e:3"
+      }
+    ]
+  },
+  {
+    "id": "prod-wiki-response",
+    "title": "Claude examines the supplied directory",
+    "movement": "collaboration",
+    "owner": "Claude",
+    "start": "2026-09-04T22:54:30.023Z",
+    "end": "2026-09-04T22:54:30.023Z",
+    "original_timezone": "UTC",
+    "precision": "millisecond",
+    "chronology_basis": "Stored message timestamp, preserving source precision; no inferred typing, delivery or encounter time.",
+    "source_limit": "Selected message is a dated production record. The sequence before and after it remains to be assembled from both Macs and GitHub. This is not a staged first entrance.",
+    "status": "detailed-draft",
+    "beats": [
+      {
+        "id": "prod-wiki-response-message",
+        "old_panels": [],
+        "frame": "The response remains a plan to inspect, not proof of an already completed extraction.",
+        "lettering": [
+          "Claude says it will look at the directory’s contents."
+        ],
+        "exact_strings": [],
+        "sources": [
+          {
+            "key": "PROD-93d644976155",
+            "locator": "256t/editions/selected-messages/93d644976155fd64f470010e6055fc6765c356a754b1593b9cdf215d550a15bf.json; record SHA-256 93d644976155fd64f470010e6055fc6765c356a754b1593b9cdf215d550a15bf",
+            "available": "2026-09-04T22:54:30.023Z"
+          }
+        ],
+        "evidence_status": "documented-message-with-reconstructed-visualization",
+        "time_start": "2026-09-04T22:54:30.023Z",
+        "time_end": "2026-09-04T22:54:30.023Z",
+        "art_reuse": "none-approved",
+        "detail_decisions": [],
+        "source_record": "current-mac:6b657858-b5ae-4a61-82cc-034af30aa67e:14"
+      }
+    ]
+  },
+  {
+    "id": "prod-prose-request",
+    "title": "A prose retelling is requested",
+    "movement": "collaboration",
+    "owner": "Curt",
+    "start": "2026-09-06T00:03:52.514Z",
+    "end": "2026-09-06T00:03:52.514Z",
+    "original_timezone": "UTC",
+    "precision": "millisecond",
+    "chronology_basis": "Stored message timestamp, preserving source precision; no inferred typing, delivery or encounter time.",
+    "source_limit": "Selected message is a dated production record. The sequence before and after it remains to be assembled from both Macs and GitHub. This is not a staged first entrance.",
+    "status": "detailed-draft",
+    "beats": [
+      {
+        "id": "prod-prose-request-message",
+        "old_panels": [],
+        "frame": "Curt’s recorded instruction distinguishes prose retelling from the graphic script.",
+        "lettering": [
+          "Curt asks for a parallel prose account, with length varying as warranted. This request predates the isolated graphic-only restructuring."
+        ],
+        "exact_strings": [],
+        "sources": [
+          {
+            "key": "PROD-74d9fbc5e192",
+            "locator": "256t/editions/selected-messages/74d9fbc5e19288fb99611a93865b8f1e2243ea7db30a229e57f7b54cda5b057d.json; record SHA-256 74d9fbc5e19288fb99611a93865b8f1e2243ea7db30a229e57f7b54cda5b057d",
+            "available": "2026-09-06T00:03:52.514Z"
+          }
+        ],
+        "evidence_status": "documented-message-with-reconstructed-visualization",
+        "time_start": "2026-09-06T00:03:52.514Z",
+        "time_end": "2026-09-06T00:03:52.514Z",
+        "art_reuse": "none-approved",
+        "detail_decisions": [],
+        "source_record": "current-mac:fb8d8282-73f5-4665-8ed6-f6be28a4e822:3"
+      }
+    ]
+  },
+  {
+    "id": "prod-prose-response",
+    "title": "Claude explores the existing organization",
+    "movement": "collaboration",
+    "owner": "Claude",
+    "start": "2026-09-06T00:04:09.681Z",
+    "end": "2026-09-06T00:04:09.681Z",
+    "original_timezone": "UTC",
+    "precision": "millisecond",
+    "chronology_basis": "Stored message timestamp, preserving source precision; no inferred typing, delivery or encounter time.",
+    "source_limit": "Selected message is a dated production record. The sequence before and after it remains to be assembled from both Macs and GitHub. This is not a staged first entrance.",
+    "status": "detailed-draft",
+    "beats": [
+      {
+        "id": "prod-prose-response-message",
+        "old_panels": [],
+        "frame": "Claude’s response appears without newly completed prose pages.",
+        "lettering": [
+          "Claude says it will inspect the graphic novel’s organization before asking questions."
+        ],
+        "exact_strings": [],
+        "sources": [
+          {
+            "key": "PROD-91c8cfa17023",
+            "locator": "256t/editions/selected-messages/91c8cfa170233b7564f2952752f501b3d56914d002c590a9d3231355b95288c0.json; record SHA-256 91c8cfa170233b7564f2952752f501b3d56914d002c590a9d3231355b95288c0",
+            "available": "2026-09-06T00:04:09.681Z"
+          }
+        ],
+        "evidence_status": "documented-message-with-reconstructed-visualization",
+        "time_start": "2026-09-06T00:04:09.681Z",
+        "time_end": "2026-09-06T00:04:09.681Z",
+        "art_reuse": "none-approved",
+        "detail_decisions": [],
+        "source_record": "current-mac:fb8d8282-73f5-4665-8ed6-f6be28a4e822:15"
+      }
+    ]
+  },
+  {
+    "id": "prod-gs-research-request",
+    "title": "A supplied account becomes a research lead",
+    "movement": "collaboration",
+    "owner": "Curt",
+    "start": "2026-09-13T02:28:41.429Z",
+    "end": "2026-09-13T02:28:41.429Z",
+    "original_timezone": "UTC",
+    "precision": "millisecond",
+    "chronology_basis": "Stored message timestamp, preserving source precision; no inferred typing, delivery or encounter time.",
+    "source_limit": "Selected message is a dated production record. The sequence before and after it remains to be assembled from both Macs and GitHub. This is not a staged first entrance.",
+    "status": "detailed-draft",
+    "beats": [
+      {
+        "id": "prod-gs-research-request-message",
+        "old_panels": [],
+        "frame": "Curt supplies a GemStuffer summary and asks for research. The summary is not rendered as an independently verified incident report.",
+        "lettering": [
+          "Curt asks Codex to research GemStuffer. The supplied account contains claims whose attribution and dates still need checking."
+        ],
+        "exact_strings": [],
+        "sources": [
+          {
+            "key": "PROD-5b89a80a2ef7",
+            "locator": "256t/editions/selected-messages/5b89a80a2ef7e66e3052cba3f70ad4454e89d60e28f1381c38a0597a297c3251.json; record SHA-256 5b89a80a2ef7e66e3052cba3f70ad4454e89d60e28f1381c38a0597a297c3251",
+            "available": "2026-09-13T02:28:41.429Z"
+          }
+        ],
+        "evidence_status": "documented-message-with-reconstructed-visualization",
+        "time_start": "2026-09-13T02:28:41.429Z",
+        "time_end": "2026-09-13T02:28:41.429Z",
+        "art_reuse": "none-approved",
+        "detail_decisions": [],
+        "source_record": "current-mac:rollout-2026-09-12T21-27-23-01a09897-3e9e-7102-8bd1-367a339f1774:9"
+      }
+    ]
+  },
+  {
+    "id": "prod-gs-research-response",
+    "title": "Codex commits to source checking",
+    "movement": "collaboration",
+    "owner": "Codex",
+    "start": "2026-09-13T02:28:45.896Z",
+    "end": "2026-09-13T02:28:45.896Z",
+    "original_timezone": "UTC",
+    "precision": "millisecond",
+    "chronology_basis": "Stored message timestamp, preserving source precision; no inferred typing, delivery or encounter time.",
+    "source_limit": "Selected message is a dated production record. The sequence before and after it remains to be assembled from both Macs and GitHub. This is not a staged first entrance.",
+    "status": "detailed-draft",
+    "beats": [
+      {
+        "id": "prod-gs-research-response-message",
+        "old_panels": [],
+        "frame": "Codex’s response is rendered as a production message, with its exact selected sentence below.",
+        "lettering": [
+          "Codex states its research approach.",
+          "I’ll trace the supplied account to primary sources, check the attribution and timeline, and add a sourced research note to the repository."
+        ],
+        "exact_strings": [
+          {
+            "text": "I’ll trace the supplied account to primary sources, check the attribution and timeline, and add a sourced research note to the repository.",
+            "source": "PROD-f5aa66b031d3",
+            "locator": "256t/editions/selected-messages/f5aa66b031d3d2bb9307321a9e7270fce0cf6de19acdd603b86da85e2ec07440.json; message content",
+            "verification": "verbatim",
+            "rights": "unresolved"
+          }
+        ],
+        "sources": [
+          {
+            "key": "PROD-f5aa66b031d3",
+            "locator": "256t/editions/selected-messages/f5aa66b031d3d2bb9307321a9e7270fce0cf6de19acdd603b86da85e2ec07440.json; record SHA-256 f5aa66b031d3d2bb9307321a9e7270fce0cf6de19acdd603b86da85e2ec07440",
+            "available": "2026-09-13T02:28:45.896Z"
+          }
+        ],
+        "evidence_status": "recorded-quotation-with-reconstructed-visualization",
+        "time_start": "2026-09-13T02:28:45.896Z",
+        "time_end": "2026-09-13T02:28:45.896Z",
+        "art_reuse": "none-approved",
+        "detail_decisions": [],
+        "source_record": "current-mac:rollout-2026-09-12T21-27-23-01a09897-3e9e-7102-8bd1-367a339f1774:12"
+      }
+    ]
+  },
+  {
+    "id": "prod-setup-result",
+    "title": "Publication setup — later response",
+    "movement": "collaboration",
+    "owner": "Codex",
+    "start": "2026-09-02T02:00:25.362Z",
+    "end": "2026-09-02T02:00:25.362Z",
+    "original_timezone": "UTC",
+    "precision": "millisecond",
+    "chronology_basis": "Stored message timestamp, preserving source precision; no inferred typing, delivery or encounter time.",
+    "source_limit": "Selected message is a dated production record. The sequence before and after it remains to be assembled from both Macs and GitHub. This is not a staged first entrance.",
+    "status": "detailed-draft",
+    "beats": [
+      {
+        "id": "prod-setup-result-message",
+        "old_panels": [],
+        "frame": "The selected later system message appears as a dated record. Do not invent a human reading it at the same instant.",
+        "lettering": [
+          "Codex reports adding the structure, builder and Pages workflow, generating 34 HTML pages, and leaving the license as a placeholder because terms were unspecified. This is the system’s completion report; historical repository changes are separate evidence."
+        ],
+        "exact_strings": [],
+        "sources": [
+          {
+            "key": "PROD-6cf05d5c8b04",
+            "locator": "256t/editions/selected-messages/6cf05d5c8b04f3259bdec8b3d68d2992edf7a36086372f5a00547228701880da.json; record SHA-256 6cf05d5c8b04f3259bdec8b3d68d2992edf7a36086372f5a00547228701880da",
+            "available": "2026-09-02T02:00:25.362Z"
+          }
+        ],
+        "evidence_status": "documented-message-with-reconstructed-visualization",
+        "time_start": "2026-09-02T02:00:25.362Z",
+        "time_end": "2026-09-02T02:00:25.362Z",
+        "art_reuse": "none-approved",
+        "detail_decisions": [],
+        "source_record": "current-mac:rollout-2026-09-01T20-53-34-01a05fd2-5486-7d12-8a9c-f13eab35fba8:86"
+      }
+    ]
+  },
+  {
+    "id": "prod-identity-result",
+    "title": "Identity tools — later response",
+    "movement": "collaboration",
+    "owner": "Claude",
+    "start": "2026-09-04T12:52:45.879Z",
+    "end": "2026-09-04T12:52:45.879Z",
+    "original_timezone": "UTC",
+    "precision": "millisecond",
+    "chronology_basis": "Stored message timestamp, preserving source precision; no inferred typing, delivery or encounter time.",
+    "source_limit": "Selected message is a dated production record. The sequence before and after it remains to be assembled from both Macs and GitHub. This is not a staged first entrance.",
+    "status": "detailed-draft",
+    "beats": [
+      {
+        "id": "prod-identity-result-message",
+        "old_panels": [],
+        "frame": "The selected later system message appears as a dated record. Do not invent a human reading it at the same instant.",
+        "lettering": [
+          "Claude reports retaining ordinal page identity and implementing coordinated rewrites. It also reports unresolved parity findings. A tooling result and its remaining defects appear in the same account."
+        ],
+        "exact_strings": [],
+        "sources": [
+          {
+            "key": "PROD-936e2627354b",
+            "locator": "256t/editions/selected-messages/936e2627354bccf73cb000f3c42daa9263ae50058c2a3ca834531364f8e3ef31.json; record SHA-256 936e2627354bccf73cb000f3c42daa9263ae50058c2a3ca834531364f8e3ef31",
+            "available": "2026-09-04T12:52:45.879Z"
+          }
+        ],
+        "evidence_status": "documented-message-with-reconstructed-visualization",
+        "time_start": "2026-09-04T12:52:45.879Z",
+        "time_end": "2026-09-04T12:52:45.879Z",
+        "art_reuse": "none-approved",
+        "detail_decisions": [],
+        "source_record": "current-mac:15165d3f-da7d-4993-9b5a-a9ecd2308990:487"
+      }
+    ]
+  },
+  {
+    "id": "prod-wiki-result",
+    "title": "Wiki corpus extraction — later response",
+    "movement": "collaboration",
+    "owner": "Claude",
+    "start": "2026-09-04T22:59:26.071Z",
+    "end": "2026-09-04T22:59:26.071Z",
+    "original_timezone": "UTC",
+    "precision": "millisecond",
+    "chronology_basis": "Stored message timestamp, preserving source precision; no inferred typing, delivery or encounter time.",
+    "source_limit": "Selected message is a dated production record. The sequence before and after it remains to be assembled from both Macs and GitHub. This is not a staged first entrance.",
+    "status": "detailed-draft",
+    "beats": [
+      {
+        "id": "prod-wiki-result-message",
+        "old_panels": [],
+        "frame": "The selected later system message appears as a dated record. Do not invent a human reading it at the same instant.",
+        "lettering": [
+          "Claude reports that the differently named archives contain identical data. It corrects the repository’s earlier Wikipedia description: the records concern four small self-hosted wikis."
+        ],
+        "exact_strings": [],
+        "sources": [
+          {
+            "key": "PROD-19348c2f0aa5",
+            "locator": "256t/editions/selected-messages/19348c2f0aa5b11a25b21f1c90c3f3bde9c9d977e2323037f4611aaa87b44b9d.json; record SHA-256 19348c2f0aa5b11a25b21f1c90c3f3bde9c9d977e2323037f4611aaa87b44b9d",
+            "available": "2026-09-04T22:59:26.071Z"
+          }
+        ],
+        "evidence_status": "documented-message-with-reconstructed-visualization",
+        "time_start": "2026-09-04T22:59:26.071Z",
+        "time_end": "2026-09-04T22:59:26.071Z",
+        "art_reuse": "none-approved",
+        "detail_decisions": [],
+        "source_record": "current-mac:6b657858-b5ae-4a61-82cc-034af30aa67e:162"
+      }
+    ]
+  },
+  {
+    "id": "prod-gs-research-result",
+    "title": "GemStuffer research — later response",
+    "movement": "collaboration",
+    "owner": "Codex",
+    "start": "2026-09-13T02:34:45.712Z",
+    "end": "2026-09-13T02:34:45.712Z",
+    "original_timezone": "UTC",
+    "precision": "millisecond",
+    "chronology_basis": "Stored message timestamp, preserving source precision; no inferred typing, delivery or encounter time.",
+    "source_limit": "Selected message is a dated production record. The sequence before and after it remains to be assembled from both Macs and GitHub. This is not a staged first entrance.",
+    "status": "detailed-draft",
+    "beats": [
+      {
+        "id": "prod-gs-research-result-message",
+        "old_panels": [],
+        "frame": "The selected later system message appears as a dated record. Do not invent a human reading it at the same instant.",
+        "lettering": [
+          "Codex reports adding a research assessment with corrected dates, attribution limits and unresolved theft outcomes. The dated production act is the report of research completion, not a September reenactment of May package execution."
+        ],
+        "exact_strings": [],
+        "sources": [
+          {
+            "key": "PROD-cd49dbfcd453",
+            "locator": "256t/editions/selected-messages/cd49dbfcd4539f4dcd680733e72631f813597e9c975435c58dce3e17dd47ab9f.json; record SHA-256 cd49dbfcd4539f4dcd680733e72631f813597e9c975435c58dce3e17dd47ab9f",
+            "available": "2026-09-13T02:34:45.712Z"
+          }
+        ],
+        "evidence_status": "documented-message-with-reconstructed-visualization",
+        "time_start": "2026-09-13T02:34:45.712Z",
+        "time_end": "2026-09-13T02:34:45.712Z",
+        "art_reuse": "none-approved",
+        "detail_decisions": [],
+        "source_record": "current-mac:rollout-2026-09-12T21-27-23-01a09897-3e9e-7102-8bd1-367a339f1774:154"
+      }
+    ]
+  }
+]

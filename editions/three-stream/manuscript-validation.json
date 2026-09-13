@@ -1,0 +1,64 @@
+{
+  "checked_at": "2026-09-13T04:41:38.218184+00:00",
+  "status": "structural draft checks passed; editorial completion not claimed",
+  "commands": [
+    {
+      "command": "python3 scripts/working_edition.py check --draft",
+      "result": "passed"
+    },
+    {
+      "command": "python3 scripts/pagination.py check",
+      "result": "passed"
+    },
+    {
+      "command": "python3 scripts/panels.py check",
+      "result": "passed"
+    },
+    {
+      "command": "python3 scripts/crossref.py check --strict",
+      "result": "passed"
+    },
+    {
+      "command": "python3 scripts/validate-continuity.py",
+      "result": "passed"
+    },
+    {
+      "command": "git --no-optional-locks -c diff.autoRefreshIndex=false diff --check",
+      "result": "passed"
+    }
+  ],
+  "warnings": "Existing ambiguous-reference warnings in pagination/panels; unused registered-source notes in crossref. No frozen-file drift.",
+  "files": {
+    "manuscript/collaboration-selected-messages.json": "c1de0a5d8087732297045eea411be8fb705ec540b3d20fc4cd08a5f722265818",
+    "manuscript/gemstuffer-incident.json": "fadc75718d200ac21c938fb4b54cc0d5612ff12aab8a9f2c56583615e6e13bf8",
+    "manuscript/huggingface-board-return.json": "c39d70b15ed6d893d894f5bb8124c756fde549dd7f98c04525cf4cea1cf5d13b",
+    "manuscript/huggingface-counterexamples.json": "609404b0456fa1325171adcf6a7c24449d52eb5c0e175a944bed7d5538582629",
+    "manuscript/huggingface-intrusion-opening.json": "cafdf63e73532698f21911682010857fc2f4e4e6670d1bf3f42ebbaad6551766",
+    "manuscript/huggingface-lateral-and-later.json": "997eeeaf660b794b07994fbbbad517a74c892552d318e1da7f87fa0783c02ea7",
+    "manuscript/huggingface-prehistory.json": "f7ff070a95220a658bf88d3dc5ba98506cf2a4e8e3404f0fcad47a5325470609",
+    "manuscript/wiki-counterexamples.json": "7b7b0e1557d68af5ef55199216864d648dc2e107e649dc471485fc7197400fe7",
+    "manuscript/wiki-selected-exchanges.json": "471f2dec2c30a2ee237528f5e8354a58bdd1cd1ac3462815ca4a70ca05aa3653"
+  },
+  "counts": {
+    "scenes": 185,
+    "drafted_beats": 450,
+    "canonical_pages": null,
+    "associated_old_panels": 231,
+    "by_row": {
+      "HuggingFace": 280,
+      "GemStuffer": 37,
+      "Collusion Wiki": 115,
+      "Curt": 7,
+      "Codex": 5,
+      "Claude": 6
+    }
+  },
+  "not_verified": [
+    "Full old-element disposition and semantic completeness",
+    "Final chronology reconciliation and three-row page allocation",
+    "Complete two-Mac production history and Twitter entrance",
+    "Full scene read-through against all primary artifacts",
+    "Print layout, thumbnails, lettering fit and artwork",
+    "Final graphic manuscript and deferred-edition handoff"
+  ]
+}

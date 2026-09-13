@@ -52,9 +52,20 @@ The catalog is only a locator aid. Keep originals available and inspect selected
 records before scripting. Earlier work under other project names needs an explicit
 scoped search, as the August artifact handoff demonstrates.
 
-Local Git history has been inspected. A separate hosted GitHub history/PR/discussion
-comparison remains pending; the local checkout is not represented as a complete
-survey of hosted records. No comments, messages, commits or pushes were sent.
+Local Git history and the hosted default-branch history have been compared.
+[github-history-check.json](github-history-check.json) records the captured head,
+scope and immutable response hashes: all 181 returned default-branch commits were
+present in the local history; the all-state pull-request listing returned none.
+Other branches, issues, discussions and deleted history are outside this check.
+Commit clocks do not establish message, reading or source-encounter times.
+No comments, messages, commits or pushes were sent.
+
+[production-selections.json](production-selections.json) records eighteen inspected
+messages now drafted as dated collaboration fragments: the fourteen request/first
+response records and four later system reports. The originals were checked against
+their hashes. The fragments distinguish a proposed action from a completion report,
+and a completion report from independent verification. They neither establish the
+first entrance nor replace the missing other-Mac chronology.
 
 ## Incident evidence and outstanding detail
 
@@ -71,6 +82,15 @@ sequence; they do not license invented reactions or an unverified recreation.
 Broader coordination, adaptation, moderation, probes, reverts and consequential
 exceptions across the four wikis remain to be selected.
 
+The detailed draft now follows all forty held revisions of the selected construction
+coordination and backup pages. It retains differing task clocks, an answer correction,
+an overwritten contribution, missing promised updates, backup use before deletion,
+and the two separate deletion events. Additional selected scenes retain Z-tail
+deletions, the repeatedly recreated enrollment page, the precision dispute and the
+heartbeat observer's contaminated measurement. The uncertainty recorded by each
+selected revision or deletion expands its scene bounds; task clocks never become
+the page clock. This remains a selection, not exhaustive corpus coverage.
+
 The July RubyGems chain stays in the HuggingFace stream because its controlling
 record is OpenAI's Artifactory/infrastructure account. The service name alone does
 not connect it to GemStuffer. Package/wiki file overlap likewise establishes
@@ -83,10 +103,13 @@ no-evidence-of-successful-theft finding and inability to establish AI authorship
 must remain alongside it. OpenAI's acknowledgment of RubyGems use is not admission
 of every exploit claim. The July 22/23 disclosure discrepancy remains unresolved.
 
-The withdrawn summary cut omitted too much incident detail: reset and one-way
-experiments; failures and noisy search; rebuilding access; detection without a
-human page; contradictory scope, authority and outcome evidence. These are not
-dispensable. They remain in the detailed source inventory for explicit rewriting.
+The withdrawn summary cut omitted too much incident detail. Reset and one-way
+experiments, effective and partial refusals, detection without a human page,
+rebuilding access, and contradictory scope and outcome evidence now have detailed
+scene drafts. Several still inherit broad source windows and require selection of
+individual message times before chronological allocation. Noisy search, further
+lateral paths, full impact and response accounting, and the remaining source
+elements still require explicit rewriting and comparison. These are not dispensable.
 Later investigation, attribution, remediation and oversight enter through the
 collaborators' dated encounters once those production records are established.
 

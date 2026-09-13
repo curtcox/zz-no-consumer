@@ -1,0 +1,21 @@
+{
+  "captured_at": "2026-09-13T04:37:22.837268+00:00",
+  "repository": "curtcox/zz-no-consumer",
+  "scope": "REST default-branch commit listing and all-state pull-request listing; not all branches, issues, discussions or deleted history",
+  "default_branch": "main",
+  "hosted_head": "046c8bebcbdfffca64ecac2dfeb1279d8a5ba924",
+  "commit_count": 181,
+  "hosted_commits_missing_from_local": [],
+  "pull_request_count": 0,
+  "source_records": [
+    {
+      "path": "256t/editions/github-commits.json",
+      "sha256": "36df20fc3f78fc78aa3eab1dea5f9a05d78709ddcea43e871dd3499945a63c91"
+    },
+    {
+      "path": "256t/editions/github-pulls.json",
+      "sha256": "cf1cbb66a638b4860a516671fb74850e6ccf787fe6c4c8d29e9c04efe880bd05"
+    }
+  ],
+  "claim_limit": "Commit dates are neither message times nor proof of who read a source. Co-author trailers do not establish exclusive authorship or first participation."
+}

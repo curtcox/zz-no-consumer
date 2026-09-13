@@ -343,6 +343,7 @@ def migrate(edition, apply=False, draft=False):
     if (edition / "detail-inventory.json").exists():
         import edition_detail
         errors += edition_detail.errors(edition)
+        errors += edition_detail.check_manuscript(edition)
     if errors:
         raise ValueError("\n".join(errors))
     generated = outputs(model)
@@ -381,6 +382,7 @@ def check(edition, draft=False, *, fixtures=True):
     if (edition / "detail-inventory.json").exists():
         import edition_detail
         errors += edition_detail.errors(edition)
+        errors += edition_detail.check_manuscript(edition)
     if not errors:
         expected = outputs(model)
         for name, content in expected.items():
@@ -392,13 +394,20 @@ def check(edition, draft=False, *, fixtures=True):
             errors.append("unexpected/missing generated output")
     if errors:
         raise ValueError("\n".join(errors))
-    print(f"Working {'draft ' if draft else ''}edition check passed: {len(model['windows'])} pages, {len(model['ledger'])} beats, "
-          f"{len(model['old-panels'])} old panels inventoried; frozen edition unchanged.")
+    if model["readiness"].get("kind") == "withdrawn-chronology-study":
+        print("Scoped draft check passed: withdrawn study remains withdrawn; frozen edition unchanged.")
+        if (edition / "manuscript").exists():
+            scenes = edition_detail.manuscript(edition)
+            print(f"Detailed draft: {len(scenes)} sequences, {sum(len(s['beats']) for s in scenes)} beats; "
+                  "no canonical pages allocated. Coverage and chronology review remain open.")
+    else:
+        print(f"Working {'draft ' if draft else ''}edition check passed: {len(model['windows'])} pages, {len(model['ledger'])} beats, "
+              f"{len(model['old-panels'])} old panels inventoried; frozen edition unchanged.")
 
 
 def main(argv=None):
     parser = argparse.ArgumentParser(description=__doc__.splitlines()[0])
-    parser.add_argument("command", choices=("snapshot", "inventory", "check"))
+    parser.add_argument("command", choices=("snapshot", "inventory", "manuscript", "check"))
     parser.add_argument("--edition", type=Path, default=DEFAULT)
     parser.add_argument("--draft", action="store_true", help="validate incomplete cut without claiming completion")
     args = parser.parse_args(argv)
@@ -408,6 +417,9 @@ def main(argv=None):
         elif args.command == "inventory":
             import edition_detail
             edition_detail.write(args.edition)
+        elif args.command == "manuscript":
+            import edition_detail
+            edition_detail.write_manuscript(args.edition)
         else:
             check(args.edition, args.draft)
     except (ValueError, KeyError, OSError) as error:

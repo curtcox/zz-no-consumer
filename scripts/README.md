@@ -5,7 +5,9 @@ The unfinished three-stream restructuring has an explicitly isolated workspace a
 `pagination.py edition --root editions/three-stream` prints a many-to-many mapping
 before `--apply`; it preserves ordinary identity commands and the published edition.
 `working_edition.py inventory` extracts detailed source elements through the shared
-panel parser. `check --draft` tests the isolated machinery without claiming editorial
+panel parser. `working_edition.py manuscript` validates the authored unallocated
+scenes and generates a readable review plus conservative coverage records.
+`check --draft` tests both the isolated machinery and that review without claiming editorial
 completion. `collaboration_records.py` catalogs explicitly supplied local histories
 as byte/hash locators without exporting message bodies. The initial condensed
 chronology is withdrawn as a manuscript candidate; its count is not a target.

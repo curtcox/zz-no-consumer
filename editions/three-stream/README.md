@@ -13,6 +13,15 @@ Mac and the GitHub repository. No invented exchange substitutes for that work.
 
 ## What to work from
 
+- [Detailed scene draft](manuscript-review.md): readable, generated review of the
+  authored sequences in [manuscript/](manuscript/). These now include decomposed
+  incident action, failed attempts, counterexamples and selected dated production
+  messages. They are unallocated scene drafts; overlapping uncertain intervals
+  still need reconciliation. This is separate from the withdrawn chronology study.
+- [Manuscript coverage](manuscript-coverage.json): derived counts and candidate
+  old-panel associations, preserving all old quotation registrations for review.
+  Association does not certify full preservation; individual detail reviews remain
+  pending. No page count is derived from the number of beats.
 - [Detailed source inventory](detail-inventory.json): every old panel, its frame,
   action, lettering, provenance and references. Each extracted element awaits
   individual decomposition/disposition. Extraction is not editorial completion.
@@ -59,6 +68,7 @@ From the repository root:
 
 ```sh
 python3 scripts/working_edition.py inventory
+python3 scripts/working_edition.py manuscript
 python3 scripts/pagination.py edition --root editions/three-stream --draft
 python3 scripts/pagination.py edition --root editions/three-stream --draft --apply
 python3 scripts/working_edition.py check --draft
@@ -75,6 +85,13 @@ tree. It never writes `docs/`. Authored inputs have stable event and window IDs;
 only the identity tool assigns numbered scripts. Do not edit generated numbers.
 The extracted detail inventory is derived; record editorial decisions separately
 when the full rewrite is authored.
+
+The `manuscript` command checks authored sequence identities, row ownership, source
+admissions, bounds and quotation registrations, then regenerates the readable
+review and conservative coverage report. `check --draft` also rejects stale review
+output. It does not assign canonical identities or certify editorial completeness.
+The quoted production messages and selected wiki fragment retain unresolved rights
+registrations for the late quotation gate.
 
 Every window specifies inclusive UTC bounds, movement, chapter, purpose and three
 rows in fixed order. Each row has one to three positions. JSON `null` means an
@@ -118,8 +135,8 @@ repeated assignment, future knowledge, visible reconstruction, reciprocal mappin
 quotation preservation, intentional blanks, deterministic output, no-write dry
 runs, stale output, frozen-file drift and metadata-only transcript inventory.
 
-The full-detail rewrite, complete old-beat disposition, source-level decomposition
-of the new incident material, collaboration ledger, final matrix, illustrated
+The full-detail rewrite is underway. Complete old-beat disposition, further
+source-level decomposition, the complete collaboration ledger, final matrix, illustrated
 thumbnails, complete read-through, print-size checks and final handoff remain open.
 The current text preview is neither approved artwork nor final lettering. Do not
 infer readiness from a generated file or a passing draft check.

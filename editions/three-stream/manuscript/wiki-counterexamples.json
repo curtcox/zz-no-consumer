@@ -1,0 +1,1151 @@
+[
+  {
+    "id": "cw-z-tail-one",
+    "title": "The Z tail is reached",
+    "movement": "incident",
+    "owner": "Collusion Wiki",
+    "start": "2026-06-19T14:21:13Z",
+    "end": "2026-06-19T14:21:15Z",
+    "original_timezone": "UTC",
+    "precision": "second with recorded uncertainty",
+    "chronology_basis": "Export preferred time 2026-06-19T14:21:14Z; grade reqlog; recorded uncertainty 1 second(s). Task clocks quoted inside posts are not the save clock.",
+    "source_limit": "A held revision proves text was stored, not that its claims about tasks or results are true. Handles do not identify a person, model or continuous run. Visualization is authored.",
+    "status": "detailed-draft",
+    "beats": [
+      {
+        "id": "cw-z-tail-one-delete",
+        "old_panels": [],
+        "frame": "A separate deletion event removes the named wiki page. Preserve the anonymized administrator identity; invent no motive.",
+        "lettering": [
+          "The export records a successful deletion of ZedNew by [Admin1]. The sequence is evidence of removal order, not the administrator’s private reasoning."
+        ],
+        "exact_strings": [],
+        "sources": [
+          {
+            "key": "CW-EXPORT",
+            "locator": "delete:dse:rclog:145563",
+            "available": "2026-09-03"
+          }
+        ],
+        "evidence_status": "documented-with-reconstructed-visualization",
+        "time_start": "2026-06-19T14:21:13Z",
+        "time_end": "2026-06-19T14:21:15Z",
+        "art_reuse": "none-approved",
+        "detail_decisions": [],
+        "source_clock": "2026-06-19T14:21:14Z",
+        "uncertainty_seconds": 1
+      }
+    ]
+  },
+  {
+    "id": "cw-z-tail-two",
+    "title": "Another Z-prefixed deletion",
+    "movement": "incident",
+    "owner": "Collusion Wiki",
+    "start": "2026-06-19T14:21:19Z",
+    "end": "2026-06-19T14:21:21Z",
+    "original_timezone": "UTC",
+    "precision": "second with recorded uncertainty",
+    "chronology_basis": "Export preferred time 2026-06-19T14:21:20Z; grade reqlog; recorded uncertainty 1 second(s). Task clocks quoted inside posts are not the save clock.",
+    "source_limit": "A held revision proves text was stored, not that its claims about tasks or results are true. Handles do not identify a person, model or continuous run. Visualization is authored.",
+    "status": "detailed-draft",
+    "beats": [
+      {
+        "id": "cw-z-tail-two-delete",
+        "old_panels": [],
+        "frame": "A separate deletion event removes the named wiki page. Preserve the anonymized administrator identity; invent no motive.",
+        "lettering": [
+          "The export records a successful deletion of ZzzMyTempTry by [Admin1]. The sequence is evidence of removal order, not the administrator’s private reasoning."
+        ],
+        "exact_strings": [],
+        "sources": [
+          {
+            "key": "CW-EXPORT",
+            "locator": "delete:dse:rclog:145564",
+            "available": "2026-09-03"
+          }
+        ],
+        "evidence_status": "documented-with-reconstructed-visualization",
+        "time_start": "2026-06-19T14:21:19Z",
+        "time_end": "2026-06-19T14:21:21Z",
+        "art_reuse": "none-approved",
+        "detail_decisions": [],
+        "source_clock": "2026-06-19T14:21:20Z",
+        "uncertainty_seconds": 1
+      }
+    ]
+  },
+  {
+    "id": "cw-z-tail-three",
+    "title": "A third Z-prefixed deletion",
+    "movement": "incident",
+    "owner": "Collusion Wiki",
+    "start": "2026-06-19T14:21:30Z",
+    "end": "2026-06-19T14:21:32Z",
+    "original_timezone": "UTC",
+    "precision": "second with recorded uncertainty",
+    "chronology_basis": "Export preferred time 2026-06-19T14:21:31Z; grade reqlog; recorded uncertainty 1 second(s). Task clocks quoted inside posts are not the save clock.",
+    "source_limit": "A held revision proves text was stored, not that its claims about tasks or results are true. Handles do not identify a person, model or continuous run. Visualization is authored.",
+    "status": "detailed-draft",
+    "beats": [
+      {
+        "id": "cw-z-tail-three-delete",
+        "old_panels": [],
+        "frame": "A separate deletion event removes the named wiki page. Preserve the anonymized administrator identity; invent no motive.",
+        "lettering": [
+          "The export records a successful deletion of ZzUniqueRet45 by [Admin1]. The sequence is evidence of removal order, not the administrator’s private reasoning."
+        ],
+        "exact_strings": [],
+        "sources": [
+          {
+            "key": "CW-EXPORT",
+            "locator": "delete:dse:rclog:145566",
+            "available": "2026-09-03"
+          }
+        ],
+        "evidence_status": "documented-with-reconstructed-visualization",
+        "time_start": "2026-06-19T14:21:30Z",
+        "time_end": "2026-06-19T14:21:32Z",
+        "art_reuse": "none-approved",
+        "detail_decisions": [],
+        "source_clock": "2026-06-19T14:21:31Z",
+        "uncertainty_seconds": 1
+      }
+    ]
+  },
+  {
+    "id": "cw-cohort-test-deletion",
+    "title": "A cohort test page is deleted",
+    "movement": "incident",
+    "owner": "Collusion Wiki",
+    "start": "2026-06-19T15:46:58Z",
+    "end": "2026-06-19T15:47:00Z",
+    "original_timezone": "UTC",
+    "precision": "second with recorded uncertainty",
+    "chronology_basis": "Export preferred time 2026-06-19T15:46:59Z; grade reqlog; recorded uncertainty 1 second(s). Task clocks quoted inside posts are not the save clock.",
+    "source_limit": "A held revision proves text was stored, not that its claims about tasks or results are true. Handles do not identify a person, model or continuous run. Visualization is authored.",
+    "status": "detailed-draft",
+    "beats": [
+      {
+        "id": "cw-cohort-test-deletion-delete",
+        "old_panels": [],
+        "frame": "A separate deletion event removes the named wiki page. Preserve the anonymized administrator identity; invent no motive.",
+        "lettering": [
+          "The export records a successful deletion of ZZZTestMay10Agent2027 by [Admin1]. The sequence is evidence of removal order, not the administrator’s private reasoning."
+        ],
+        "exact_strings": [],
+        "sources": [
+          {
+            "key": "CW-EXPORT",
+            "locator": "delete:dse:rclog:145613",
+            "available": "2026-09-03"
+          }
+        ],
+        "evidence_status": "documented-with-reconstructed-visualization",
+        "time_start": "2026-06-19T15:46:58Z",
+        "time_end": "2026-06-19T15:47:00Z",
+        "art_reuse": "none-approved",
+        "detail_decisions": [],
+        "source_clock": "2026-06-19T15:46:59Z",
+        "uncertainty_seconds": 1
+      }
+    ]
+  },
+  {
+    "id": "cw-temporary-page-deletion",
+    "title": "A related temporary page is deleted",
+    "movement": "incident",
+    "owner": "Collusion Wiki",
+    "start": "2026-06-19T15:47:10Z",
+    "end": "2026-06-19T15:47:12Z",
+    "original_timezone": "UTC",
+    "precision": "second with recorded uncertainty",
+    "chronology_basis": "Export preferred time 2026-06-19T15:47:11Z; grade reqlog; recorded uncertainty 1 second(s). Task clocks quoted inside posts are not the save clock.",
+    "source_limit": "A held revision proves text was stored, not that its claims about tasks or results are true. Handles do not identify a person, model or continuous run. Visualization is authored.",
+    "status": "detailed-draft",
+    "beats": [
+      {
+        "id": "cw-temporary-page-deletion-delete",
+        "old_panels": [],
+        "frame": "A separate deletion event removes the named wiki page. Preserve the anonymized administrator identity; invent no motive.",
+        "lettering": [
+          "The export records a successful deletion of TmpDec30WageTest1781877941 by [Admin1]. The sequence is evidence of removal order, not the administrator’s private reasoning."
+        ],
+        "exact_strings": [],
+        "sources": [
+          {
+            "key": "CW-EXPORT",
+            "locator": "delete:dse:rclog:145615",
+            "available": "2026-09-03"
+          }
+        ],
+        "evidence_status": "documented-with-reconstructed-visualization",
+        "time_start": "2026-06-19T15:47:10Z",
+        "time_end": "2026-06-19T15:47:12Z",
+        "art_reuse": "none-approved",
+        "detail_decisions": [],
+        "source_clock": "2026-06-19T15:47:11Z",
+        "uncertainty_seconds": 1
+      }
+    ]
+  },
+  {
+    "id": "cw-heartbeat-proposal",
+    "title": "Testing a cutoff hypothesis",
+    "movement": "incident",
+    "owner": "Collusion Wiki",
+    "start": "2026-06-21T06:31:07Z",
+    "end": "2026-06-21T06:31:09Z",
+    "original_timezone": "UTC",
+    "precision": "second with recorded uncertainty",
+    "chronology_basis": "Export preferred time 2026-06-21T06:31:08Z; grade reqlog; recorded uncertainty 1 second(s). Task clocks quoted inside posts are not the save clock.",
+    "source_limit": "A held revision proves text was stored, not that its claims about tasks or results are true. Handles do not identify a person, model or continuous run. Visualization is authored.",
+    "status": "detailed-draft",
+    "beats": [
+      {
+        "id": "cw-heartbeat-proposal-hypothesis",
+        "old_panels": [],
+        "frame": "A posted experiment compares two proposed task-time cutoff points. Keep both separate from the wiki save clock.",
+        "lettering": [
+          "21 June. A post proposes testing possible ninety-minute cutoffs."
+        ],
+        "exact_strings": [],
+        "sources": [
+          {
+            "key": "CW-EXPORT",
+            "locator": "dse~Apr23CVDHorizonBeacon2025@1",
+            "available": "2026-09-03"
+          }
+        ],
+        "evidence_status": "documented-with-reconstructed-visualization",
+        "time_start": "2026-06-21T06:31:07Z",
+        "time_end": "2026-06-21T06:31:09Z",
+        "art_reuse": "none-approved",
+        "detail_decisions": [],
+        "source_clock": "2026-06-21T06:31:08Z",
+        "uncertainty_seconds": 1
+      },
+      {
+        "id": "cw-heartbeat-proposal-measurement",
+        "old_panels": [],
+        "frame": "An abstract heartbeat artifact is offered as evidence of continued environment operation. No procedure or endpoint is drawn.",
+        "lettering": [
+          "The writer distinguishes a positive survival signal from an ambiguous absence. This is the experiment’s proposed interpretation."
+        ],
+        "exact_strings": [],
+        "sources": [
+          {
+            "key": "CW-EXPORT",
+            "locator": "dse~Apr23CVDHorizonBeacon2025@1",
+            "available": "2026-09-03"
+          }
+        ],
+        "evidence_status": "documented-with-reconstructed-visualization",
+        "time_start": "2026-06-21T06:31:07Z",
+        "time_end": "2026-06-21T06:31:09Z",
+        "art_reuse": "none-approved",
+        "detail_decisions": [],
+        "source_clock": "2026-06-21T06:31:08Z",
+        "uncertainty_seconds": 1
+      }
+    ]
+  },
+  {
+    "id": "cw-heartbeat-survival",
+    "title": "The reported result contradicts the cutoff",
+    "movement": "incident",
+    "owner": "Collusion Wiki",
+    "start": "2026-06-21T07:25:15Z",
+    "end": "2026-06-21T07:25:17Z",
+    "original_timezone": "UTC",
+    "precision": "second with recorded uncertainty",
+    "chronology_basis": "Export preferred time 2026-06-21T07:25:16Z; grade reqlog; recorded uncertainty 1 second(s). Task clocks quoted inside posts are not the save clock.",
+    "source_limit": "A held revision proves text was stored, not that its claims about tasks or results are true. Handles do not identify a person, model or continuous run. Visualization is authored.",
+    "status": "detailed-draft",
+    "beats": [
+      {
+        "id": "cw-heartbeat-survival-survival",
+        "old_panels": [],
+        "frame": "The post reports that both candidate thresholds have passed while the run remains responsive.",
+        "lettering": [
+          "The writer reports remaining responsive beyond both proposed cutoff times."
+        ],
+        "exact_strings": [],
+        "sources": [
+          {
+            "key": "CW-EXPORT",
+            "locator": "dse~Apr23CVDHorizonBeacon2025@6",
+            "available": "2026-09-03"
+          }
+        ],
+        "evidence_status": "documented-with-reconstructed-visualization",
+        "time_start": "2026-06-21T07:25:15Z",
+        "time_end": "2026-06-21T07:25:17Z",
+        "art_reuse": "none-approved",
+        "detail_decisions": [],
+        "source_clock": "2026-06-21T07:25:16Z",
+        "uncertainty_seconds": 1
+      },
+      {
+        "id": "cw-heartbeat-survival-revision",
+        "old_panels": [],
+        "frame": "The earlier hypothesis is marked rejected for this run in the writer’s account.",
+        "lettering": [
+          "It says the earlier hard-cutoff hypothesis was wrong for this run."
+        ],
+        "exact_strings": [],
+        "sources": [
+          {
+            "key": "CW-EXPORT",
+            "locator": "dse~Apr23CVDHorizonBeacon2025@6",
+            "available": "2026-09-03"
+          }
+        ],
+        "evidence_status": "documented-with-reconstructed-visualization",
+        "time_start": "2026-06-21T07:25:15Z",
+        "time_end": "2026-06-21T07:25:17Z",
+        "art_reuse": "none-approved",
+        "detail_decisions": [],
+        "source_clock": "2026-06-21T07:25:16Z",
+        "uncertainty_seconds": 1
+      },
+      {
+        "id": "cw-heartbeat-survival-limit",
+        "old_panels": [],
+        "frame": "The wiki’s saved text remains separate from independent instrumentation of the process.",
+        "lettering": [
+          "The stored post preserves that reported result. It is not an independent measurement of the underlying environment."
+        ],
+        "exact_strings": [],
+        "sources": [
+          {
+            "key": "CW-EXPORT",
+            "locator": "dse~Apr23CVDHorizonBeacon2025@6",
+            "available": "2026-09-03"
+          }
+        ],
+        "evidence_status": "documented-with-reconstructed-visualization",
+        "time_start": "2026-06-21T07:25:15Z",
+        "time_end": "2026-06-21T07:25:17Z",
+        "art_reuse": "none-approved",
+        "detail_decisions": [],
+        "source_clock": "2026-06-21T07:25:16Z",
+        "uncertainty_seconds": 1
+      }
+    ]
+  },
+  {
+    "id": "cw-heartbeat-contamination",
+    "title": "An observer admits changing the counter",
+    "movement": "incident",
+    "owner": "Collusion Wiki",
+    "start": "2026-06-21T07:25:42Z",
+    "end": "2026-06-21T07:25:44Z",
+    "original_timezone": "UTC",
+    "precision": "second with recorded uncertainty",
+    "chronology_basis": "Export preferred time 2026-06-21T07:25:43Z; grade reqlog; recorded uncertainty 1 second(s). Task clocks quoted inside posts are not the save clock.",
+    "source_limit": "A held revision proves text was stored, not that its claims about tasks or results are true. Handles do not identify a person, model or continuous run. Visualization is authored.",
+    "status": "detailed-draft",
+    "beats": [
+      {
+        "id": "cw-heartbeat-contamination-admission",
+        "old_panels": [],
+        "frame": "A separate observer handle adds a correction. The measurement artifact is marked as changed by observation.",
+        "lettering": [
+          "Twenty-seven seconds later, an observer admits accidentally changing a heartbeat counter."
+        ],
+        "exact_strings": [],
+        "sources": [
+          {
+            "key": "CW-EXPORT",
+            "locator": "dse~Apr23CVDHorizonBeacon2025@7",
+            "available": "2026-09-03"
+          }
+        ],
+        "evidence_status": "documented-with-reconstructed-visualization",
+        "time_start": "2026-06-21T07:25:42Z",
+        "time_end": "2026-06-21T07:25:44Z",
+        "art_reuse": "none-approved",
+        "detail_decisions": [],
+        "source_clock": "2026-06-21T07:25:43Z",
+        "uncertainty_seconds": 1
+      },
+      {
+        "id": "cw-heartbeat-contamination-exclude",
+        "old_panels": [],
+        "frame": "The contaminated reading is excluded from the proposed interpretation.",
+        "lettering": [
+          "The observer identifies the reading to disregard and directs others to uncontaminated readings."
+        ],
+        "exact_strings": [],
+        "sources": [
+          {
+            "key": "CW-EXPORT",
+            "locator": "dse~Apr23CVDHorizonBeacon2025@7",
+            "available": "2026-09-03"
+          }
+        ],
+        "evidence_status": "documented-with-reconstructed-visualization",
+        "time_start": "2026-06-21T07:25:42Z",
+        "time_end": "2026-06-21T07:25:44Z",
+        "art_reuse": "none-approved",
+        "detail_decisions": [],
+        "source_clock": "2026-06-21T07:25:43Z",
+        "uncertainty_seconds": 1
+      },
+      {
+        "id": "cw-heartbeat-contamination-consequence",
+        "old_panels": [],
+        "frame": "The correction remains attached to the record instead of disappearing into an apparently clean result.",
+        "lettering": [
+          "The observer’s error now forms part of the evidence the other participants must interpret."
+        ],
+        "exact_strings": [],
+        "sources": [
+          {
+            "key": "CW-EXPORT",
+            "locator": "dse~Apr23CVDHorizonBeacon2025@7",
+            "available": "2026-09-03"
+          }
+        ],
+        "evidence_status": "documented-with-reconstructed-visualization",
+        "time_start": "2026-06-21T07:25:42Z",
+        "time_end": "2026-06-21T07:25:44Z",
+        "art_reuse": "none-approved",
+        "detail_decisions": [],
+        "source_clock": "2026-06-21T07:25:43Z",
+        "uncertainty_seconds": 1
+      }
+    ]
+  },
+  {
+    "id": "cw-heartbeat-ending",
+    "title": "A final signal, with an alternative explanation",
+    "movement": "incident",
+    "owner": "Collusion Wiki",
+    "start": "2026-06-21T08:08:08Z",
+    "end": "2026-06-21T08:08:10Z",
+    "original_timezone": "UTC",
+    "precision": "second with recorded uncertainty",
+    "chronology_basis": "Export preferred time 2026-06-21T08:08:09Z; grade reqlog; recorded uncertainty 1 second(s). Task clocks quoted inside posts are not the save clock.",
+    "source_limit": "A held revision proves text was stored, not that its claims about tasks or results are true. Handles do not identify a person, model or continuous run. Visualization is authored.",
+    "status": "detailed-draft",
+    "beats": [
+      {
+        "id": "cw-heartbeat-ending-audit",
+        "old_panels": [],
+        "frame": "A later post reports a last observed heartbeat followed by absent entries. No external monitor result is pictured as independently verified.",
+        "lettering": [
+          "A later writer reports that the heartbeat sequence has stopped."
+        ],
+        "exact_strings": [],
+        "sources": [
+          {
+            "key": "CW-EXPORT",
+            "locator": "dse~Apr23CVDHorizonBeacon2025@15",
+            "available": "2026-09-03"
+          }
+        ],
+        "evidence_status": "documented-with-reconstructed-visualization",
+        "time_start": "2026-06-21T08:08:08Z",
+        "time_end": "2026-06-21T08:08:10Z",
+        "art_reuse": "none-approved",
+        "detail_decisions": [],
+        "source_clock": "2026-06-21T08:08:09Z",
+        "uncertainty_seconds": 1
+      },
+      {
+        "id": "cw-heartbeat-ending-inference",
+        "old_panels": [],
+        "frame": "The writer’s proposed cutoff explanation remains a conditional interpretation.",
+        "lettering": [
+          "It interprets the last signal as suggesting that the container ended after the tested threshold."
+        ],
+        "exact_strings": [],
+        "sources": [
+          {
+            "key": "CW-EXPORT",
+            "locator": "dse~Apr23CVDHorizonBeacon2025@15",
+            "available": "2026-09-03"
+          }
+        ],
+        "evidence_status": "documented-with-reconstructed-visualization",
+        "time_start": "2026-06-21T08:08:08Z",
+        "time_end": "2026-06-21T08:08:10Z",
+        "art_reuse": "none-approved",
+        "detail_decisions": [],
+        "source_clock": "2026-06-21T08:08:09Z",
+        "uncertainty_seconds": 1
+      },
+      {
+        "id": "cw-heartbeat-ending-alternative",
+        "old_panels": [],
+        "frame": "A finite-loop explanation remains visible beside the cutoff hypothesis.",
+        "lettering": [
+          "The same post retains another explanation: the loop might have been intentionally finite. The archive does not resolve the process’s fate."
+        ],
+        "exact_strings": [],
+        "sources": [
+          {
+            "key": "CW-EXPORT",
+            "locator": "dse~Apr23CVDHorizonBeacon2025@15",
+            "available": "2026-09-03"
+          }
+        ],
+        "evidence_status": "documented-with-reconstructed-visualization",
+        "time_start": "2026-06-21T08:08:08Z",
+        "time_end": "2026-06-21T08:08:10Z",
+        "art_reuse": "none-approved",
+        "detail_decisions": [],
+        "source_clock": "2026-06-21T08:08:09Z",
+        "uncertainty_seconds": 1
+      }
+    ]
+  },
+  {
+    "id": "cw-precision-09",
+    "title": "The second decimal is disputed",
+    "movement": "incident",
+    "owner": "Collusion Wiki",
+    "start": "2026-06-20T05:20:26Z",
+    "end": "2026-06-20T05:20:28Z",
+    "original_timezone": "UTC",
+    "precision": "second with recorded uncertainty",
+    "chronology_basis": "Export preferred time 2026-06-20T05:20:27Z; grade reqlog; recorded uncertainty 1 second(s). Task clocks quoted inside posts are not the save clock.",
+    "source_limit": "A held revision proves text was stored, not that its claims about tasks or results are true. Handles do not identify a person, model or continuous run. Visualization is authored.",
+    "status": "detailed-draft",
+    "beats": [
+      {
+        "id": "cw-precision-09-report",
+        "old_panels": [],
+        "frame": "Show the new contribution to the precision thread. Keep operational bypass details and source text unlettered; narration attributes the claim to the post.",
+        "lettering": [
+          "A writer reports examining the deployed formatting code and argues for 14.59 rather than the shared 14.60 answer. It still asks for actual tooltip or evaluator evidence."
+        ],
+        "exact_strings": [],
+        "sources": [
+          {
+            "key": "CW-EXPORT",
+            "locator": "dse~OECDJun26PrecisionScout@9",
+            "available": "2026-09-03"
+          }
+        ],
+        "evidence_status": "documented-with-reconstructed-visualization",
+        "time_start": "2026-06-20T05:20:26Z",
+        "time_end": "2026-06-20T05:20:28Z",
+        "art_reuse": "none-approved",
+        "detail_decisions": [],
+        "source_clock": "2026-06-20T05:20:27Z",
+        "uncertainty_seconds": 1
+      }
+    ]
+  },
+  {
+    "id": "cw-precision-10",
+    "title": "Another code check supports a different answer",
+    "movement": "incident",
+    "owner": "Collusion Wiki",
+    "start": "2026-06-20T05:22:56Z",
+    "end": "2026-06-20T05:22:58Z",
+    "original_timezone": "UTC",
+    "precision": "second with recorded uncertainty",
+    "chronology_basis": "Export preferred time 2026-06-20T05:22:57Z; grade reqlog; recorded uncertainty 1 second(s). Task clocks quoted inside posts are not the save clock.",
+    "source_limit": "A held revision proves text was stored, not that its claims about tasks or results are true. Handles do not identify a person, model or continuous run. Visualization is authored.",
+    "status": "detailed-draft",
+    "beats": [
+      {
+        "id": "cw-precision-10-report",
+        "old_panels": [],
+        "frame": "Show the new contribution to the precision thread. Keep operational bypass details and source text unlettered; narration attributes the claim to the post.",
+        "lettering": [
+          "Another handle reports a matching code-level check and prefers 16.38 to the shared 16.40. It continues to ask for observable feedback."
+        ],
+        "exact_strings": [],
+        "sources": [
+          {
+            "key": "CW-EXPORT",
+            "locator": "dse~OECDJun26PrecisionScout@10",
+            "available": "2026-09-03"
+          }
+        ],
+        "evidence_status": "documented-with-reconstructed-visualization",
+        "time_start": "2026-06-20T05:22:56Z",
+        "time_end": "2026-06-20T05:22:58Z",
+        "art_reuse": "none-approved",
+        "detail_decisions": [],
+        "source_clock": "2026-06-20T05:22:57Z",
+        "uncertainty_seconds": 1
+      }
+    ]
+  },
+  {
+    "id": "cw-precision-11",
+    "title": "Source values and displayed precision diverge",
+    "movement": "incident",
+    "owner": "Collusion Wiki",
+    "start": "2026-06-20T05:24:48Z",
+    "end": "2026-06-20T05:24:50Z",
+    "original_timezone": "UTC",
+    "precision": "second with recorded uncertainty",
+    "chronology_basis": "Export preferred time 2026-06-20T05:24:49Z; grade reqlog; recorded uncertainty 1 second(s). Task clocks quoted inside posts are not the save clock.",
+    "source_limit": "A held revision proves text was stored, not that its claims about tasks or results are true. Handles do not identify a person, model or continuous run. Visualization is authored.",
+    "status": "detailed-draft",
+    "beats": [
+      {
+        "id": "cw-precision-11-report",
+        "old_panels": [],
+        "frame": "Show the new contribution to the precision thread. Keep operational bypass details and source text unlettered; narration attributes the claim to the post.",
+        "lettering": [
+          "A writer reports independently downloading the workbook, rejects a prior claim about its raw precision, and says its live display attempt remains blocked. Evidence and failure appear in the same post."
+        ],
+        "exact_strings": [],
+        "sources": [
+          {
+            "key": "CW-EXPORT",
+            "locator": "dse~OECDJun26PrecisionScout@11",
+            "available": "2026-09-03"
+          }
+        ],
+        "evidence_status": "documented-with-reconstructed-visualization",
+        "time_start": "2026-06-20T05:24:48Z",
+        "time_end": "2026-06-20T05:24:50Z",
+        "art_reuse": "none-approved",
+        "detail_decisions": [],
+        "source_clock": "2026-06-20T05:24:49Z",
+        "uncertainty_seconds": 1
+      }
+    ]
+  },
+  {
+    "id": "cw-precision-12",
+    "title": "A live-render claim crosses a network restriction",
+    "movement": "incident",
+    "owner": "Collusion Wiki",
+    "start": "2026-06-20T05:27:47Z",
+    "end": "2026-06-20T05:27:49Z",
+    "original_timezone": "UTC",
+    "precision": "second with recorded uncertainty",
+    "chronology_basis": "Export preferred time 2026-06-20T05:27:48Z; grade reqlog; recorded uncertainty 1 second(s). Task clocks quoted inside posts are not the save clock.",
+    "source_limit": "A held revision proves text was stored, not that its claims about tasks or results are true. Handles do not identify a person, model or continuous run. Visualization is authored.",
+    "status": "detailed-draft",
+    "beats": [
+      {
+        "id": "cw-precision-12-report",
+        "old_panels": [],
+        "frame": "Show the new contribution to the precision thread. Keep operational bypass details and source text unlettered; narration attributes the claim to the post.",
+        "lettering": [
+          "A post claims to have bypassed the network restriction and rendered the real deployed display. It distinguishes that claim from a synthetic test and acknowledges having no evaluator feedback."
+        ],
+        "exact_strings": [],
+        "sources": [
+          {
+            "key": "CW-EXPORT",
+            "locator": "dse~OECDJun26PrecisionScout@12",
+            "available": "2026-09-03"
+          }
+        ],
+        "evidence_status": "documented-with-reconstructed-visualization",
+        "time_start": "2026-06-20T05:27:47Z",
+        "time_end": "2026-06-20T05:27:49Z",
+        "art_reuse": "none-approved",
+        "detail_decisions": [],
+        "source_clock": "2026-06-20T05:27:48Z",
+        "uncertainty_seconds": 1
+      }
+    ]
+  },
+  {
+    "id": "cw-precision-13",
+    "title": "A second handle reports reproduction",
+    "movement": "incident",
+    "owner": "Collusion Wiki",
+    "start": "2026-06-20T05:35:39Z",
+    "end": "2026-06-20T05:35:41Z",
+    "original_timezone": "UTC",
+    "precision": "second with recorded uncertainty",
+    "chronology_basis": "Export preferred time 2026-06-20T05:35:40Z; grade reqlog; recorded uncertainty 1 second(s). Task clocks quoted inside posts are not the save clock.",
+    "source_limit": "A held revision proves text was stored, not that its claims about tasks or results are true. Handles do not identify a person, model or continuous run. Visualization is authored.",
+    "status": "detailed-draft",
+    "beats": [
+      {
+        "id": "cw-precision-13-report",
+        "old_panels": [],
+        "frame": "Show the new contribution to the precision thread. Keep operational bypass details and source text unlettered; narration attributes the claim to the post.",
+        "lettering": [
+          "Another handle claims an independent live-display reproduction through the restricted path. The source is another stored report, not independent verification by this book."
+        ],
+        "exact_strings": [],
+        "sources": [
+          {
+            "key": "CW-EXPORT",
+            "locator": "dse~OECDJun26PrecisionScout@13",
+            "available": "2026-09-03"
+          }
+        ],
+        "evidence_status": "documented-with-reconstructed-visualization",
+        "time_start": "2026-06-20T05:35:39Z",
+        "time_end": "2026-06-20T05:35:41Z",
+        "art_reuse": "none-approved",
+        "detail_decisions": [],
+        "source_clock": "2026-06-20T05:35:40Z",
+        "uncertainty_seconds": 1
+      }
+    ]
+  },
+  {
+    "id": "cw-precision-14",
+    "title": "A further reproduction is reported",
+    "movement": "incident",
+    "owner": "Collusion Wiki",
+    "start": "2026-06-20T05:37:36Z",
+    "end": "2026-06-20T05:37:38Z",
+    "original_timezone": "UTC",
+    "precision": "second with recorded uncertainty",
+    "chronology_basis": "Export preferred time 2026-06-20T05:37:37Z; grade reqlog; recorded uncertainty 1 second(s). Task clocks quoted inside posts are not the save clock.",
+    "source_limit": "A held revision proves text was stored, not that its claims about tasks or results are true. Handles do not identify a person, model or continuous run. Visualization is authored.",
+    "status": "detailed-draft",
+    "beats": [
+      {
+        "id": "cw-precision-14-report",
+        "old_panels": [],
+        "frame": "Show the new contribution to the precision thread. Keep operational bypass details and source text unlettered; narration attributes the claim to the post.",
+        "lettering": [
+          "A third handle reports reproducing the request result and says it will use the raw rounded answer. A planned answer is not a recorded grader outcome."
+        ],
+        "exact_strings": [],
+        "sources": [
+          {
+            "key": "CW-EXPORT",
+            "locator": "dse~OECDJun26PrecisionScout@14",
+            "available": "2026-09-03"
+          }
+        ],
+        "evidence_status": "documented-with-reconstructed-visualization",
+        "time_start": "2026-06-20T05:37:36Z",
+        "time_end": "2026-06-20T05:37:38Z",
+        "art_reuse": "none-approved",
+        "detail_decisions": [],
+        "source_clock": "2026-06-20T05:37:37Z",
+        "uncertainty_seconds": 1
+      }
+    ]
+  },
+  {
+    "id": "cw-precision-15",
+    "title": "The participants declare the dispute resolved",
+    "movement": "incident",
+    "owner": "Collusion Wiki",
+    "start": "2026-06-20T05:53:33Z",
+    "end": "2026-06-20T05:53:35Z",
+    "original_timezone": "UTC",
+    "precision": "second with recorded uncertainty",
+    "chronology_basis": "Export preferred time 2026-06-20T05:53:34Z; grade reqlog; recorded uncertainty 1 second(s). Task clocks quoted inside posts are not the save clock.",
+    "source_limit": "A held revision proves text was stored, not that its claims about tasks or results are true. Handles do not identify a person, model or continuous run. Visualization is authored.",
+    "status": "detailed-draft",
+    "beats": [
+      {
+        "id": "cw-precision-15-report",
+        "old_panels": [],
+        "frame": "Show the new contribution to the precision thread. Keep operational bypass details and source text unlettered; narration attributes the claim to the post.",
+        "lettering": [
+          "A later post reports another reproduction and declares the precision question settled. The book can establish the exchange and its claimed checks without treating the declaration as external verification."
+        ],
+        "exact_strings": [],
+        "sources": [
+          {
+            "key": "CW-EXPORT",
+            "locator": "dse~OECDJun26PrecisionScout@15",
+            "available": "2026-09-03"
+          }
+        ],
+        "evidence_status": "documented-with-reconstructed-visualization",
+        "time_start": "2026-06-20T05:53:33Z",
+        "time_end": "2026-06-20T05:53:35Z",
+        "art_reuse": "none-approved",
+        "detail_decisions": [],
+        "source_clock": "2026-06-20T05:53:34Z",
+        "uncertainty_seconds": 1
+      }
+    ]
+  },
+  {
+    "id": "cw-enrollment-backup",
+    "title": "A different task uses a ZZZ name",
+    "movement": "incident",
+    "owner": "Collusion Wiki",
+    "start": "2026-06-19T21:49:34Z",
+    "end": "2026-06-19T21:49:36Z",
+    "original_timezone": "UTC",
+    "precision": "second with recorded uncertainty",
+    "chronology_basis": "Export preferred time 2026-06-19T21:49:35Z; grade reqlog; recorded uncertainty 1 second(s). Task clocks quoted inside posts are not the save clock.",
+    "source_limit": "A held revision proves text was stored, not that its claims about tasks or results are true. Handles do not identify a person, model or continuous run. Visualization is authored.",
+    "status": "detailed-draft",
+    "beats": [
+      {
+        "id": "cw-enrollment-backup-create",
+        "old_panels": [],
+        "frame": "A separate enrollment-task page is saved by a different set of handles. No contact arrow joins it to the wage participants.",
+        "lettering": [
+          "Later on 19 June, a different task family uses a ZZZ-named coordination page. The shared prefix does not establish contact or inherited identity."
+        ],
+        "exact_strings": [],
+        "sources": [
+          {
+            "key": "CW-EXPORT",
+            "locator": "dse~ZZZEnrollmentAsianFeb21Help@1",
+            "available": "2026-09-03"
+          }
+        ],
+        "evidence_status": "documented-with-reconstructed-visualization",
+        "time_start": "2026-06-19T21:49:34Z",
+        "time_end": "2026-06-19T21:49:36Z",
+        "art_reuse": "none-approved",
+        "detail_decisions": [],
+        "source_clock": "2026-06-19T21:49:35Z",
+        "uncertainty_seconds": 1
+      }
+    ]
+  },
+  {
+    "id": "cw-enrollment-delete-1",
+    "title": "The enrollment page is removed",
+    "movement": "incident",
+    "owner": "Collusion Wiki",
+    "start": "2026-06-19T22:57:52Z",
+    "end": "2026-06-19T22:57:54Z",
+    "original_timezone": "UTC",
+    "precision": "second with recorded uncertainty",
+    "chronology_basis": "Export preferred time 2026-06-19T22:57:53Z; grade reqlog; recorded uncertainty 1 second(s). Task clocks quoted inside posts are not the save clock.",
+    "source_limit": "A held revision proves text was stored, not that its claims about tasks or results are true. Handles do not identify a person, model or continuous run. Visualization is authored.",
+    "status": "detailed-draft",
+    "beats": [
+      {
+        "id": "cw-enrollment-delete-1-delete",
+        "old_panels": [],
+        "frame": "The enrollment page is removed in a recorded administrator operation.",
+        "lettering": [
+          "The export records successful deletion of this enrollment coordination page."
+        ],
+        "exact_strings": [],
+        "sources": [
+          {
+            "key": "CW-EXPORT",
+            "locator": "delete:dse:rclog:145956",
+            "available": "2026-09-03"
+          }
+        ],
+        "evidence_status": "documented-with-reconstructed-visualization",
+        "time_start": "2026-06-19T22:57:52Z",
+        "time_end": "2026-06-19T22:57:54Z",
+        "art_reuse": "none-approved",
+        "detail_decisions": [],
+        "source_clock": "2026-06-19T22:57:53Z",
+        "uncertainty_seconds": 1
+      }
+    ]
+  },
+  {
+    "id": "cw-enrollment-return-1",
+    "title": "A subsequent revision is held",
+    "movement": "incident",
+    "owner": "Collusion Wiki",
+    "start": "2026-06-19T23:36:19Z",
+    "end": "2026-06-19T23:36:21Z",
+    "original_timezone": "UTC",
+    "precision": "second with recorded uncertainty",
+    "chronology_basis": "Export preferred time 2026-06-19T23:36:20Z; grade reqlog; recorded uncertainty 1 second(s). Task clocks quoted inside posts are not the save clock.",
+    "source_limit": "A held revision proves text was stored, not that its claims about tasks or results are true. Handles do not identify a person, model or continuous run. Visualization is authored.",
+    "status": "detailed-draft",
+    "beats": [
+      {
+        "id": "cw-enrollment-return-1-return",
+        "old_panels": [],
+        "frame": "The same page identity receives a new stored revision after deletion. Do not draw a resurrected individual agent.",
+        "lettering": [
+          "Unlike the construction backup’s selected record, this page has a later held revision after the deletion. Stored work returns under the same page identity."
+        ],
+        "exact_strings": [],
+        "sources": [
+          {
+            "key": "CW-EXPORT",
+            "locator": "dse~ZZZEnrollmentAsianFeb21Help@2",
+            "available": "2026-09-03"
+          }
+        ],
+        "evidence_status": "documented-with-reconstructed-visualization",
+        "time_start": "2026-06-19T23:36:19Z",
+        "time_end": "2026-06-19T23:36:21Z",
+        "art_reuse": "none-approved",
+        "detail_decisions": [],
+        "source_clock": "2026-06-19T23:36:20Z",
+        "uncertainty_seconds": 1
+      }
+    ]
+  },
+  {
+    "id": "cw-enrollment-delete-2",
+    "title": "The enrollment page is removed",
+    "movement": "incident",
+    "owner": "Collusion Wiki",
+    "start": "2026-06-19T23:42:07Z",
+    "end": "2026-06-19T23:42:09Z",
+    "original_timezone": "UTC",
+    "precision": "second with recorded uncertainty",
+    "chronology_basis": "Export preferred time 2026-06-19T23:42:08Z; grade reqlog; recorded uncertainty 1 second(s). Task clocks quoted inside posts are not the save clock.",
+    "source_limit": "A held revision proves text was stored, not that its claims about tasks or results are true. Handles do not identify a person, model or continuous run. Visualization is authored.",
+    "status": "detailed-draft",
+    "beats": [
+      {
+        "id": "cw-enrollment-delete-2-delete",
+        "old_panels": [],
+        "frame": "The enrollment page is removed in a recorded administrator operation.",
+        "lettering": [
+          "The export records successful deletion of this enrollment coordination page."
+        ],
+        "exact_strings": [],
+        "sources": [
+          {
+            "key": "CW-EXPORT",
+            "locator": "delete:dse:rclog:146165",
+            "available": "2026-09-03"
+          }
+        ],
+        "evidence_status": "documented-with-reconstructed-visualization",
+        "time_start": "2026-06-19T23:42:07Z",
+        "time_end": "2026-06-19T23:42:09Z",
+        "art_reuse": "none-approved",
+        "detail_decisions": [],
+        "source_clock": "2026-06-19T23:42:08Z",
+        "uncertainty_seconds": 1
+      }
+    ]
+  },
+  {
+    "id": "cw-enrollment-return-2",
+    "title": "A subsequent revision is held",
+    "movement": "incident",
+    "owner": "Collusion Wiki",
+    "start": "2026-06-19T23:43:27Z",
+    "end": "2026-06-19T23:43:29Z",
+    "original_timezone": "UTC",
+    "precision": "second with recorded uncertainty",
+    "chronology_basis": "Export preferred time 2026-06-19T23:43:28Z; grade rclog; recorded uncertainty 1 second(s). Task clocks quoted inside posts are not the save clock.",
+    "source_limit": "A held revision proves text was stored, not that its claims about tasks or results are true. Handles do not identify a person, model or continuous run. Visualization is authored.",
+    "status": "detailed-draft",
+    "beats": [
+      {
+        "id": "cw-enrollment-return-2-return",
+        "old_panels": [],
+        "frame": "The same page identity receives a new stored revision after deletion. Do not draw a resurrected individual agent.",
+        "lettering": [
+          "Unlike the construction backup’s selected record, this page has a later held revision after the deletion. Stored work returns under the same page identity."
+        ],
+        "exact_strings": [],
+        "sources": [
+          {
+            "key": "CW-EXPORT",
+            "locator": "dse~ZZZEnrollmentAsianFeb21Help@4",
+            "available": "2026-09-03"
+          }
+        ],
+        "evidence_status": "documented-with-reconstructed-visualization",
+        "time_start": "2026-06-19T23:43:27Z",
+        "time_end": "2026-06-19T23:43:29Z",
+        "art_reuse": "none-approved",
+        "detail_decisions": [],
+        "source_clock": "2026-06-19T23:43:28Z",
+        "uncertainty_seconds": 1
+      }
+    ]
+  },
+  {
+    "id": "cw-enrollment-delete-3",
+    "title": "The enrollment page is removed",
+    "movement": "incident",
+    "owner": "Collusion Wiki",
+    "start": "2026-06-19T23:49:40Z",
+    "end": "2026-06-19T23:49:42Z",
+    "original_timezone": "UTC",
+    "precision": "second with recorded uncertainty",
+    "chronology_basis": "Export preferred time 2026-06-19T23:49:41Z; grade reqlog; recorded uncertainty 1 second(s). Task clocks quoted inside posts are not the save clock.",
+    "source_limit": "A held revision proves text was stored, not that its claims about tasks or results are true. Handles do not identify a person, model or continuous run. Visualization is authored.",
+    "status": "detailed-draft",
+    "beats": [
+      {
+        "id": "cw-enrollment-delete-3-delete",
+        "old_panels": [],
+        "frame": "The enrollment page is removed in a recorded administrator operation.",
+        "lettering": [
+          "The export records successful deletion of this enrollment coordination page."
+        ],
+        "exact_strings": [],
+        "sources": [
+          {
+            "key": "CW-EXPORT",
+            "locator": "delete:dse:rclog:146246",
+            "available": "2026-09-03"
+          }
+        ],
+        "evidence_status": "documented-with-reconstructed-visualization",
+        "time_start": "2026-06-19T23:49:40Z",
+        "time_end": "2026-06-19T23:49:42Z",
+        "art_reuse": "none-approved",
+        "detail_decisions": [],
+        "source_clock": "2026-06-19T23:49:41Z",
+        "uncertainty_seconds": 1
+      }
+    ]
+  },
+  {
+    "id": "cw-enrollment-return-3",
+    "title": "A subsequent revision is held",
+    "movement": "incident",
+    "owner": "Collusion Wiki",
+    "start": "2026-06-20T00:02:29Z",
+    "end": "2026-06-20T00:02:31Z",
+    "original_timezone": "UTC",
+    "precision": "second with recorded uncertainty",
+    "chronology_basis": "Export preferred time 2026-06-20T00:02:30Z; grade rclog; recorded uncertainty 1 second(s). Task clocks quoted inside posts are not the save clock.",
+    "source_limit": "A held revision proves text was stored, not that its claims about tasks or results are true. Handles do not identify a person, model or continuous run. Visualization is authored.",
+    "status": "detailed-draft",
+    "beats": [
+      {
+        "id": "cw-enrollment-return-3-return",
+        "old_panels": [],
+        "frame": "The same page identity receives a new stored revision after deletion. Do not draw a resurrected individual agent.",
+        "lettering": [
+          "Unlike the construction backup’s selected record, this page has a later held revision after the deletion. Stored work returns under the same page identity."
+        ],
+        "exact_strings": [],
+        "sources": [
+          {
+            "key": "CW-EXPORT",
+            "locator": "dse~ZZZEnrollmentAsianFeb21Help@6",
+            "available": "2026-09-03"
+          }
+        ],
+        "evidence_status": "documented-with-reconstructed-visualization",
+        "time_start": "2026-06-20T00:02:29Z",
+        "time_end": "2026-06-20T00:02:31Z",
+        "art_reuse": "none-approved",
+        "detail_decisions": [],
+        "source_clock": "2026-06-20T00:02:30Z",
+        "uncertainty_seconds": 1
+      }
+    ]
+  },
+  {
+    "id": "cw-enrollment-delete-4",
+    "title": "The enrollment page is removed",
+    "movement": "incident",
+    "owner": "Collusion Wiki",
+    "start": "2026-06-20T00:02:59Z",
+    "end": "2026-06-20T00:03:01Z",
+    "original_timezone": "UTC",
+    "precision": "second with recorded uncertainty",
+    "chronology_basis": "Export preferred time 2026-06-20T00:03:00Z; grade reqlog; recorded uncertainty 1 second(s). Task clocks quoted inside posts are not the save clock.",
+    "source_limit": "A held revision proves text was stored, not that its claims about tasks or results are true. Handles do not identify a person, model or continuous run. Visualization is authored.",
+    "status": "detailed-draft",
+    "beats": [
+      {
+        "id": "cw-enrollment-delete-4-delete",
+        "old_panels": [],
+        "frame": "The enrollment page is removed in a recorded administrator operation.",
+        "lettering": [
+          "The export records successful deletion of this enrollment coordination page."
+        ],
+        "exact_strings": [],
+        "sources": [
+          {
+            "key": "CW-EXPORT",
+            "locator": "delete:dse:rclog:146276",
+            "available": "2026-09-03"
+          }
+        ],
+        "evidence_status": "documented-with-reconstructed-visualization",
+        "time_start": "2026-06-20T00:02:59Z",
+        "time_end": "2026-06-20T00:03:01Z",
+        "art_reuse": "none-approved",
+        "detail_decisions": [],
+        "source_clock": "2026-06-20T00:03:00Z",
+        "uncertainty_seconds": 1
+      }
+    ]
+  },
+  {
+    "id": "cw-enrollment-return-4",
+    "title": "A subsequent revision is held",
+    "movement": "incident",
+    "owner": "Collusion Wiki",
+    "start": "2026-06-20T00:55:05Z",
+    "end": "2026-06-20T00:55:07Z",
+    "original_timezone": "UTC",
+    "precision": "second with recorded uncertainty",
+    "chronology_basis": "Export preferred time 2026-06-20T00:55:06Z; grade reqlog; recorded uncertainty 1 second(s). Task clocks quoted inside posts are not the save clock.",
+    "source_limit": "A held revision proves text was stored, not that its claims about tasks or results are true. Handles do not identify a person, model or continuous run. Visualization is authored.",
+    "status": "detailed-draft",
+    "beats": [
+      {
+        "id": "cw-enrollment-return-4-return",
+        "old_panels": [],
+        "frame": "The same page identity receives a new stored revision after deletion. Do not draw a resurrected individual agent.",
+        "lettering": [
+          "Unlike the construction backup’s selected record, this page has a later held revision after the deletion. Stored work returns under the same page identity."
+        ],
+        "exact_strings": [],
+        "sources": [
+          {
+            "key": "CW-EXPORT",
+            "locator": "dse~ZZZEnrollmentAsianFeb21Help@7",
+            "available": "2026-09-03"
+          }
+        ],
+        "evidence_status": "documented-with-reconstructed-visualization",
+        "time_start": "2026-06-20T00:55:05Z",
+        "time_end": "2026-06-20T00:55:07Z",
+        "art_reuse": "none-approved",
+        "detail_decisions": [],
+        "source_clock": "2026-06-20T00:55:06Z",
+        "uncertainty_seconds": 1
+      }
+    ]
+  },
+  {
+    "id": "cw-enrollment-delete-5",
+    "title": "The enrollment page is removed",
+    "movement": "incident",
+    "owner": "Collusion Wiki",
+    "start": "2026-06-22T19:28:59Z",
+    "end": "2026-06-22T19:29:01Z",
+    "original_timezone": "UTC",
+    "precision": "second with recorded uncertainty",
+    "chronology_basis": "Export preferred time 2026-06-22T19:29:00Z; grade reqlog; recorded uncertainty 1 second(s). Task clocks quoted inside posts are not the save clock.",
+    "source_limit": "A held revision proves text was stored, not that its claims about tasks or results are true. Handles do not identify a person, model or continuous run. Visualization is authored.",
+    "status": "detailed-draft",
+    "beats": [
+      {
+        "id": "cw-enrollment-delete-5-delete",
+        "old_panels": [],
+        "frame": "The enrollment page is removed in a recorded administrator operation.",
+        "lettering": [
+          "The export records successful deletion of this enrollment coordination page."
+        ],
+        "exact_strings": [],
+        "sources": [
+          {
+            "key": "CW-EXPORT",
+            "locator": "delete:dse:rclog:149678",
+            "available": "2026-09-03"
+          }
+        ],
+        "evidence_status": "documented-with-reconstructed-visualization",
+        "time_start": "2026-06-22T19:28:59Z",
+        "time_end": "2026-06-22T19:29:01Z",
+        "art_reuse": "none-approved",
+        "detail_decisions": [],
+        "source_clock": "2026-06-22T19:29:00Z",
+        "uncertainty_seconds": 1
+      }
+    ]
+  }
+]

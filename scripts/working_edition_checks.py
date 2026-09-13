@@ -7,6 +7,7 @@ from pathlib import Path
 import tempfile
 
 import collaboration_records
+import edition_detail
 import working_edition as edition
 
 
@@ -94,4 +95,40 @@ def run():
         assert len(records) == 1 and records[0]["actor"] == "Codex"
         assert "PRIVATE BODY" not in json.dumps(records)
         assert not collaboration_records.inventory([transcript], "fixture-mac", "other")
+    # Scene drafts cannot silently lose their identity, source clock or quotation.
+    with tempfile.TemporaryDirectory() as temp:
+        root = Path(temp)
+        (root / "manuscript").mkdir()
+        (root / "sources.json").write_text(edition.dump({"SOURCE": {"available": "2026-07-20"}}))
+        (root / "old-panels.json").write_text(edition.dump(good["old-panels"]))
+        beat = dict(id="beat", frame="A recorded message.", lettering=["Original wording"],
+                    time_start="2026-07-21", time_end="2026-07-21", old_panels=["001-01"],
+                    detail_decisions=[dict(old_panel="001-01", disposition="rewrite", reason="Retain the action")],
+                    sources=[dict(key="SOURCE", available="2026-07-20", locator="record")],
+                    evidence_status="documented", exact_strings=[dict(text="Original wording", source="SOURCE",
+                    locator="record", verification="verbatim", rights="unresolved")])
+        scene = dict(id="scene", owner="Curt", movement="collaboration", start="2026-07-21", end="2026-07-21",
+                     precision="day", original_timezone="UTC", chronology_basis="Recorded date",
+                     source_limit="No delivery time", title="Fixture", beats=[beat])
+        path = root / "manuscript/fixture.json"
+        path.write_text(edition.dump([scene]))
+        assert not edition_detail.manuscript_errors(root)
+        with redirect_stdout(io.StringIO()):
+            edition_detail.write_manuscript(root)
+        assert not edition_detail.check_manuscript(root)
+        for change, expected in [
+            (lambda s: s["beats"].append(copy.deepcopy(s["beats"][0])), "duplicate"),
+            (lambda s: s["beats"][0].update(time_end="2026-07-22"), "outside"),
+            (lambda s: s["beats"][0].update(lettering=["Changed words"]), "wording absent"),
+            (lambda s: s["beats"][0]["sources"][0].update(available="2026-07-22"), "later evidence"),
+            (lambda s: s["beats"][0]["sources"][0].update(key="UNKNOWN"), "unknown source"),
+            (lambda s: s["beats"][0].update(old_panels=["999-99"]), "unknown frozen"),
+        ]:
+            changed = copy.deepcopy(scene)
+            change(changed)
+            path.write_text(edition.dump([changed]))
+            assert any(expected in e for e in edition_detail.manuscript_errors(root)), expected
+        path.write_text(edition.dump([scene]))
+        (root / "manuscript-review.md").write_text("stale")
+        assert any("stale" in e for e in edition_detail.check_manuscript(root))
     print("Working edition regression fixtures passed.")

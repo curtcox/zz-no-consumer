@@ -1,0 +1,974 @@
+[
+  {
+    "id": "gs-earliest",
+    "title": "A first attributed package",
+    "movement": "incident",
+    "owner": "GemStuffer",
+    "start": "2026-05-05",
+    "end": "2026-05-05",
+    "original_timezone": "UTC",
+    "precision": "day",
+    "chronology_basis": "Day precision, earliest in the researchers’ attribution rather than proof of the campaign’s origin.",
+    "source_limit": "Package activity and service records do not establish a model identity. September attribution is retrospective and attributed; attempted execution or theft is not confirmed success.",
+    "status": "detailed-draft",
+    "beats": [
+      {
+        "id": "gs-earliest-package",
+        "old_panels": [],
+        "frame": "A package artifact enters the registry. No agent avatar, model name or private prompt appears.",
+        "lettering": [
+          "5 May. September investigators date the earliest package they attribute to this campaign to this day."
+        ],
+        "exact_strings": [],
+        "sources": [
+          {
+            "key": "GS-REPORT",
+            "locator": "Timeline; earliest attributed package, 5 May",
+            "available": "2026-09-11"
+          }
+        ],
+        "evidence_status": "documented-with-reconstructed-visualization",
+        "time_start": "2026-05-05",
+        "time_end": "2026-05-05",
+        "art_reuse": "none-approved",
+        "detail_decisions": []
+      },
+      {
+        "id": "gs-earliest-attribution-boundary",
+        "old_panels": [],
+        "frame": "Hold the artifact and its date. Its author remains outside the frame.",
+        "lettering": [
+          "The package is a dated artifact. Identifying its author is a later inference, not something visible to the registry here."
+        ],
+        "exact_strings": [],
+        "sources": [
+          {
+            "key": "GS-REPORT",
+            "locator": "Timeline; earliest attributed package, 5 May",
+            "available": "2026-09-11"
+          }
+        ],
+        "evidence_status": "documented-with-reconstructed-visualization",
+        "time_start": "2026-05-05",
+        "time_end": "2026-05-05",
+        "art_reuse": "none-approved",
+        "detail_decisions": []
+      }
+    ]
+  },
+  {
+    "id": "gs-name",
+    "title": "A string in a name",
+    "movement": "incident",
+    "owner": "GemStuffer",
+    "start": "2026-05-08",
+    "end": "2026-05-08",
+    "original_timezone": "UTC",
+    "precision": "day",
+    "chronology_basis": "Day-level artifact finding. This does not establish agent identity.",
+    "source_limit": "Package activity and service records do not establish a model identity. September attribution is retrospective and attributed; attempted execution or theft is not confirmed success.",
+    "status": "detailed-draft",
+    "beats": [
+      {
+        "id": "gs-name-identifier",
+        "old_panels": [],
+        "frame": "A package-name field is highlighted, with the rest of the artifact unaltered. Do not create a specimen name.",
+        "lettering": [
+          "8 May. The investigators identify the first package name containing the string oai."
+        ],
+        "exact_strings": [],
+        "sources": [
+          {
+            "key": "GS-REPORT",
+            "locator": "Timeline; first package name containing oai",
+            "available": "2026-09-11"
+          }
+        ],
+        "evidence_status": "documented-with-reconstructed-visualization",
+        "time_start": "2026-05-08",
+        "time_end": "2026-05-08",
+        "art_reuse": "none-approved",
+        "detail_decisions": []
+      },
+      {
+        "id": "gs-name-limit",
+        "old_panels": [],
+        "frame": "Keep that field distinct from an empty author-identification field in the authored explanatory geometry.",
+        "lettering": [
+          "A name can become an attribution clue. It is not itself a private trace identifying the publisher."
+        ],
+        "exact_strings": [],
+        "sources": [
+          {
+            "key": "GS-REPORT",
+            "locator": "Timeline; first package name containing oai",
+            "available": "2026-09-11"
+          }
+        ],
+        "evidence_status": "documented-with-reconstructed-visualization",
+        "time_start": "2026-05-08",
+        "time_end": "2026-05-08",
+        "art_reuse": "none-approved",
+        "detail_decisions": []
+      }
+    ]
+  },
+  {
+    "id": "gs-email-gap",
+    "title": "Two paths enforce different rules",
+    "movement": "incident",
+    "owner": "GemStuffer",
+    "start": "2026-05-11",
+    "end": "2026-05-11",
+    "original_timezone": "UTC",
+    "precision": "day",
+    "chronology_basis": "The action shown is the 11 May code change, not an inferred production deployment.",
+    "source_limit": "Package activity and service records do not establish a model identity. September attribution is retrospective and attributed; attempted execution or theft is not confirmed success.",
+    "status": "detailed-draft",
+    "beats": [
+      {
+        "id": "gs-email-gap-web",
+        "old_panels": [],
+        "frame": "A maintainer’s change review distinguishes the web publishing route from the API route.",
+        "lettering": [
+          "The web interface requires account confirmation."
+        ],
+        "exact_strings": [],
+        "sources": [
+          {
+            "key": "GS-EMAIL",
+            "locator": "PR #6486; description and merge event",
+            "available": "2026-05-11"
+          }
+        ],
+        "evidence_status": "documented-with-reconstructed-visualization",
+        "time_start": "2026-05-11",
+        "time_end": "2026-05-11",
+        "art_reuse": "none-approved",
+        "detail_decisions": []
+      },
+      {
+        "id": "gs-email-gap-api",
+        "old_panels": [],
+        "frame": "The API path in the reviewed design permits an unconfirmed account to create a key and publish. No actionable request is displayed.",
+        "lettering": [
+          "The change record describes API paths that do not enforce the same requirement."
+        ],
+        "exact_strings": [],
+        "sources": [
+          {
+            "key": "GS-EMAIL",
+            "locator": "PR #6486; description and merge event",
+            "available": "2026-05-11"
+          }
+        ],
+        "evidence_status": "documented-with-reconstructed-visualization",
+        "time_start": "2026-05-11",
+        "time_end": "2026-05-11",
+        "art_reuse": "none-approved",
+        "detail_decisions": []
+      },
+      {
+        "id": "gs-email-gap-patch",
+        "old_panels": [],
+        "frame": "The proposed check is added to the API path in an abstract before-and-after code view.",
+        "lettering": [
+          "The fix closes that gap in the code."
+        ],
+        "exact_strings": [],
+        "sources": [
+          {
+            "key": "GS-EMAIL",
+            "locator": "PR #6486; description and merge event",
+            "available": "2026-05-11"
+          }
+        ],
+        "evidence_status": "documented-with-reconstructed-visualization",
+        "time_start": "2026-05-11",
+        "time_end": "2026-05-11",
+        "art_reuse": "none-approved",
+        "detail_decisions": []
+      },
+      {
+        "id": "gs-email-gap-merge",
+        "old_panels": [],
+        "frame": "The merge record closes the review sequence. Keep its date visibly separate from the production service.",
+        "lettering": [
+          "GitHub dates the merge to 11 May. That date alone does not establish when production changed."
+        ],
+        "exact_strings": [],
+        "sources": [
+          {
+            "key": "GS-EMAIL",
+            "locator": "PR #6486; description and merge event",
+            "available": "2026-05-11"
+          }
+        ],
+        "evidence_status": "documented-with-reconstructed-visualization",
+        "time_start": "2026-05-11",
+        "time_end": "2026-05-11",
+        "art_reuse": "none-approved",
+        "detail_decisions": []
+      }
+    ]
+  },
+  {
+    "id": "gs-burst",
+    "title": "A burst of submissions",
+    "movement": "incident",
+    "owner": "GemStuffer",
+    "start": "2026-05-11",
+    "end": "2026-05-12",
+    "original_timezone": "UTC",
+    "precision": "range",
+    "chronology_basis": "Two-day count; no invented rate, hourly distribution or individual publisher count.",
+    "source_limit": "Package activity and service records do not establish a model identity. September attribution is retrospective and attributed; attempted execution or theft is not confirmed success.",
+    "status": "detailed-draft",
+    "beats": [
+      {
+        "id": "gs-burst-submissions",
+        "old_panels": [],
+        "frame": "Package artifacts accumulate across the two-day interval. Do not distribute them evenly into invented hourly bins.",
+        "lettering": [
+          "The September investigation reports over 2,000 package submissions on 11–12 May."
+        ],
+        "exact_strings": [],
+        "sources": [
+          {
+            "key": "GS-REPORT",
+            "locator": "Timeline; 11–12 May package submissions",
+            "available": "2026-09-11"
+          }
+        ],
+        "evidence_status": "documented-with-reconstructed-visualization",
+        "time_start": "2026-05-11",
+        "time_end": "2026-05-12",
+        "art_reuse": "none-approved",
+        "detail_decisions": []
+      },
+      {
+        "id": "gs-burst-units",
+        "old_panels": [],
+        "frame": "The counted objects stay packages. Leave the identities behind them unpictured.",
+        "lettering": [
+          "This is a count of submissions, not of agents, compromised developers or successful thefts."
+        ],
+        "exact_strings": [],
+        "sources": [
+          {
+            "key": "GS-REPORT",
+            "locator": "Timeline; 11–12 May package submissions",
+            "available": "2026-09-11"
+          }
+        ],
+        "evidence_status": "documented-with-reconstructed-visualization",
+        "time_start": "2026-05-11",
+        "time_end": "2026-05-12",
+        "art_reuse": "none-approved",
+        "detail_decisions": []
+      }
+    ]
+  },
+  {
+    "id": "gs-registration-stop",
+    "title": "Registration closes",
+    "movement": "incident",
+    "owner": "GemStuffer",
+    "start": "2026-05-12T08:54Z",
+    "end": "2026-05-12T08:54Z",
+    "original_timezone": "UTC",
+    "precision": "minute",
+    "chronology_basis": "One contemporaneous service update; no invented responder dialogue or private cause analysis.",
+    "source_limit": "Package activity and service records do not establish a model identity. September attribution is retrospective and attributed; attempted execution or theft is not confirmed success.",
+    "status": "detailed-draft",
+    "beats": [
+      {
+        "id": "gs-registration-stop-reported-load",
+        "old_panels": [],
+        "frame": "A dated service-status record accompanies incoming registration activity.",
+        "lettering": [
+          "12 May, 08:54 UTC. RubyGems’ status log describes DDoS activity."
+        ],
+        "exact_strings": [],
+        "sources": [
+          {
+            "key": "GS-STATUS",
+            "locator": "12 May 08:54 UTC update",
+            "available": "2026-05-16"
+          }
+        ],
+        "evidence_status": "documented-with-reconstructed-visualization",
+        "time_start": "2026-05-12T08:54Z",
+        "time_end": "2026-05-12T08:54Z",
+        "art_reuse": "none-approved",
+        "detail_decisions": []
+      },
+      {
+        "id": "gs-registration-stop-registration-disabled",
+        "old_panels": [],
+        "frame": "The new-account registration route closes. Distinguish it from existing users’ package operations.",
+        "lettering": [
+          "Registration is disabled."
+        ],
+        "exact_strings": [],
+        "sources": [
+          {
+            "key": "GS-STATUS",
+            "locator": "12 May 08:54 UTC update",
+            "available": "2026-05-16"
+          }
+        ],
+        "evidence_status": "documented-with-reconstructed-visualization",
+        "time_start": "2026-05-12T08:54Z",
+        "time_end": "2026-05-12T08:54Z",
+        "art_reuse": "none-approved",
+        "detail_decisions": []
+      },
+      {
+        "id": "gs-registration-stop-consequence",
+        "old_panels": [],
+        "frame": "A would-be new account meets the unavailable registration service. The person and attempted time are not depicted as a recovered individual event.",
+        "lettering": [
+          "The defensive action also closes the service to new registrants."
+        ],
+        "exact_strings": [],
+        "sources": [
+          {
+            "key": "GS-STATUS",
+            "locator": "12 May 08:54 UTC update",
+            "available": "2026-05-16"
+          }
+        ],
+        "evidence_status": "documented-with-reconstructed-visualization",
+        "time_start": "2026-05-12T08:54Z",
+        "time_end": "2026-05-12T08:54Z",
+        "art_reuse": "none-approved",
+        "detail_decisions": []
+      }
+    ]
+  },
+  {
+    "id": "gs-email-deployment",
+    "title": "The reported production change",
+    "movement": "incident",
+    "owner": "GemStuffer",
+    "start": "2026-05-12",
+    "end": "2026-05-12",
+    "original_timezone": "UTC",
+    "precision": "day",
+    "chronology_basis": "Researchers report production on 12 May; merge is separately recorded on 11 May.",
+    "source_limit": "Package activity and service records do not establish a model identity. September attribution is retrospective and attributed; attempted execution or theft is not confirmed success.",
+    "status": "detailed-draft",
+    "beats": [
+      {
+        "id": "gs-email-deployment-deployment",
+        "old_panels": [],
+        "frame": "The account-confirmation check reaches a schematic production API boundary.",
+        "lettering": [
+          "The investigators date the production change to 12 May."
+        ],
+        "exact_strings": [],
+        "sources": [
+          {
+            "key": "GS-REPORT",
+            "locator": "Email-confirmation chronology; production 12 May",
+            "available": "2026-09-11"
+          }
+        ],
+        "evidence_status": "documented-with-reconstructed-visualization",
+        "time_start": "2026-05-12",
+        "time_end": "2026-05-12",
+        "art_reuse": "none-approved",
+        "detail_decisions": []
+      },
+      {
+        "id": "gs-email-deployment-different-dates",
+        "old_panels": [],
+        "frame": "Stay on the changed service, with deployment identified as the kind of event being dated.",
+        "lettering": [
+          "A merge record and a production deployment record answer different questions. The two dates have not been collapsed."
+        ],
+        "exact_strings": [],
+        "sources": [
+          {
+            "key": "GS-REPORT",
+            "locator": "Email-confirmation chronology; production 12 May",
+            "available": "2026-09-11"
+          }
+        ],
+        "evidence_status": "documented-with-reconstructed-visualization",
+        "time_start": "2026-05-12",
+        "time_end": "2026-05-12",
+        "art_reuse": "none-approved",
+        "detail_decisions": []
+      }
+    ]
+  },
+  {
+    "id": "gs-cleanup",
+    "title": "Accounts removed, packages yanked",
+    "movement": "incident",
+    "owner": "GemStuffer",
+    "start": "2026-05-13T03:17Z",
+    "end": "2026-05-13T03:17Z",
+    "original_timezone": "UTC",
+    "precision": "minute",
+    "chronology_basis": "Actions are findings of one update; no finer internal cleanup order is established.",
+    "source_limit": "Package activity and service records do not establish a model identity. September attribution is retrospective and attributed; attempted execution or theft is not confirmed success.",
+    "status": "detailed-draft",
+    "beats": [
+      {
+        "id": "gs-cleanup-spam-stopped",
+        "old_panels": [],
+        "frame": "The incoming spam activity stops in the service-status account.",
+        "lettering": [
+          "13 May, 03:17 UTC. The status log says the spam has stopped."
+        ],
+        "exact_strings": [],
+        "sources": [
+          {
+            "key": "GS-STATUS",
+            "locator": "13 May 03:17 UTC update",
+            "available": "2026-05-16"
+          }
+        ],
+        "evidence_status": "documented-with-reconstructed-visualization",
+        "time_start": "2026-05-13T03:17Z",
+        "time_end": "2026-05-13T03:17Z",
+        "art_reuse": "none-approved",
+        "detail_decisions": []
+      },
+      {
+        "id": "gs-cleanup-accounts",
+        "old_panels": [],
+        "frame": "Associated accounts are removed from active use. No account count is invented.",
+        "lettering": [
+          "The response removes accounts."
+        ],
+        "exact_strings": [],
+        "sources": [
+          {
+            "key": "GS-STATUS",
+            "locator": "13 May 03:17 UTC update",
+            "available": "2026-05-16"
+          }
+        ],
+        "evidence_status": "documented-with-reconstructed-visualization",
+        "time_start": "2026-05-13T03:17Z",
+        "time_end": "2026-05-13T03:17Z",
+        "art_reuse": "none-approved",
+        "detail_decisions": []
+      },
+      {
+        "id": "gs-cleanup-packages",
+        "old_panels": [],
+        "frame": "More than five hundred package entries are marked yanked, rather than physically erased from all possible archives.",
+        "lettering": [
+          "The update reports more than 500 packages yanked."
+        ],
+        "exact_strings": [],
+        "sources": [
+          {
+            "key": "GS-STATUS",
+            "locator": "13 May 03:17 UTC update",
+            "available": "2026-05-16"
+          }
+        ],
+        "evidence_status": "documented-with-reconstructed-visualization",
+        "time_start": "2026-05-13T03:17Z",
+        "time_end": "2026-05-13T03:17Z",
+        "art_reuse": "none-approved",
+        "detail_decisions": []
+      },
+      {
+        "id": "gs-cleanup-existing-users",
+        "old_panels": [],
+        "frame": "An existing user’s install and push routes remain available in the authored service map.",
+        "lettering": [
+          "The same update says existing users’ installs and pushes were unaffected."
+        ],
+        "exact_strings": [],
+        "sources": [
+          {
+            "key": "GS-STATUS",
+            "locator": "13 May 03:17 UTC update",
+            "available": "2026-05-16"
+          }
+        ],
+        "evidence_status": "documented-with-reconstructed-visualization",
+        "time_start": "2026-05-13T03:17Z",
+        "time_end": "2026-05-13T03:17Z",
+        "art_reuse": "none-approved",
+        "detail_decisions": []
+      }
+    ]
+  },
+  {
+    "id": "gs-socket-analysis",
+    "title": "The May package analysis",
+    "movement": "incident",
+    "owner": "GemStuffer",
+    "start": "2026-05-13",
+    "end": "2026-05-13",
+    "original_timezone": "UTC",
+    "precision": "day",
+    "chronology_basis": "Publication day; panels show the published analysis, not newly timed execution of each specimen.",
+    "source_limit": "Package activity and service records do not establish a model identity. September attribution is retrospective and attributed; attempted execution or theft is not confirmed success.",
+    "status": "detailed-draft",
+    "beats": [
+      {
+        "id": "gs-socket-analysis-analysis",
+        "old_panels": [],
+        "frame": "Joseph Edwards’ dated Socket analysis opens on package artifacts. No personal scene is invented.",
+        "lettering": [
+          "13 May. Socket publishes its GemStuffer analysis."
+        ],
+        "exact_strings": [],
+        "sources": [
+          {
+            "key": "GS-SOCKET",
+            "locator": "Introduction, specimen sections and tracker paragraph",
+            "available": "2026-05-13"
+          }
+        ],
+        "evidence_status": "documented-with-reconstructed-visualization",
+        "time_start": "2026-05-13",
+        "time_end": "2026-05-13",
+        "art_reuse": "none-approved",
+        "detail_decisions": []
+      },
+      {
+        "id": "gs-socket-analysis-public-material",
+        "old_panels": [],
+        "frame": "The report’s specimen discussion connects public ModernGov material with packaged copies. Keep narration outside the document rendering.",
+        "lettering": [
+          "Socket describes public material from Lambeth, Wandsworth and Southwark packed into gems."
+        ],
+        "exact_strings": [],
+        "sources": [
+          {
+            "key": "GS-SOCKET",
+            "locator": "Introduction, specimen sections and tracker paragraph",
+            "available": "2026-05-13"
+          }
+        ],
+        "evidence_status": "documented-with-reconstructed-visualization",
+        "time_start": "2026-05-13",
+        "time_end": "2026-05-13",
+        "art_reuse": "none-approved",
+        "detail_decisions": []
+      },
+      {
+        "id": "gs-socket-analysis-republishing",
+        "old_panels": [],
+        "frame": "A schematic of the reported package behavior connects embedded credentials with republication. No credentials or executable instructions appear.",
+        "lettering": [
+          "Its analysis describes republication using embedded credentials."
+        ],
+        "exact_strings": [],
+        "sources": [
+          {
+            "key": "GS-SOCKET",
+            "locator": "Introduction, specimen sections and tracker paragraph",
+            "available": "2026-05-13"
+          }
+        ],
+        "evidence_status": "documented-with-reconstructed-visualization",
+        "time_start": "2026-05-13",
+        "time_end": "2026-05-13",
+        "art_reuse": "none-approved",
+        "detail_decisions": []
+      },
+      {
+        "id": "gs-socket-analysis-counts",
+        "old_panels": [],
+        "frame": "Two separately labeled narrator’s measures sit beside the source: introduction and tracker.",
+        "lettering": [
+          "The introduction counts more than 100 gems. The tracker paragraph counts 155 package artifacts, including versions."
+        ],
+        "exact_strings": [],
+        "sources": [
+          {
+            "key": "GS-SOCKET",
+            "locator": "Introduction, specimen sections and tracker paragraph",
+            "available": "2026-05-13"
+          }
+        ],
+        "evidence_status": "documented-with-reconstructed-visualization",
+        "time_start": "2026-05-13",
+        "time_end": "2026-05-13",
+        "art_reuse": "none-approved",
+        "detail_decisions": []
+      },
+      {
+        "id": "gs-socket-analysis-downloads",
+        "old_panels": [],
+        "frame": "Download activity is shown as a finding of the analysis without inventing a time series.",
+        "lettering": [
+          "Many samples had little or no download activity."
+        ],
+        "exact_strings": [],
+        "sources": [
+          {
+            "key": "GS-SOCKET",
+            "locator": "Introduction, specimen sections and tracker paragraph",
+            "available": "2026-05-13"
+          }
+        ],
+        "evidence_status": "documented-with-reconstructed-visualization",
+        "time_start": "2026-05-13",
+        "time_end": "2026-05-13",
+        "art_reuse": "none-approved",
+        "detail_decisions": []
+      },
+      {
+        "id": "gs-socket-analysis-interpretation",
+        "old_panels": [],
+        "frame": "The analysis remains open beside the specimens, without an OpenAI model avatar filling its missing attribution.",
+        "lettering": [
+          "Socket considers several possible purposes. Its May report does not attribute the campaign to OpenAI."
+        ],
+        "exact_strings": [],
+        "sources": [
+          {
+            "key": "GS-SOCKET",
+            "locator": "Introduction, specimen sections and tracker paragraph",
+            "available": "2026-05-13"
+          }
+        ],
+        "evidence_status": "documented-with-reconstructed-visualization",
+        "time_start": "2026-05-13",
+        "time_end": "2026-05-13",
+        "art_reuse": "none-approved",
+        "detail_decisions": []
+      }
+    ]
+  },
+  {
+    "id": "gs-registration-return",
+    "title": "Registration reopens",
+    "movement": "incident",
+    "owner": "GemStuffer",
+    "start": "2026-05-16T05:12Z",
+    "end": "2026-05-16T05:12Z",
+    "original_timezone": "UTC",
+    "precision": "minute",
+    "chronology_basis": "Service restoration timestamp; no claim all future abuse is prevented.",
+    "source_limit": "Package activity and service records do not establish a model identity. September attribution is retrospective and attributed; attempted execution or theft is not confirmed success.",
+    "status": "detailed-draft",
+    "beats": [
+      {
+        "id": "gs-registration-return-restored",
+        "old_panels": [],
+        "frame": "The new-account route becomes available again.",
+        "lettering": [
+          "16 May, 05:12 UTC. Registration is restored."
+        ],
+        "exact_strings": [],
+        "sources": [
+          {
+            "key": "GS-STATUS",
+            "locator": "16 May 05:12 UTC update",
+            "available": "2026-05-16"
+          }
+        ],
+        "evidence_status": "documented-with-reconstructed-visualization",
+        "time_start": "2026-05-16T05:12Z",
+        "time_end": "2026-05-16T05:12Z",
+        "art_reuse": "none-approved",
+        "detail_decisions": []
+      },
+      {
+        "id": "gs-registration-return-scope",
+        "old_panels": [],
+        "frame": "Hold the functioning registration boundary rather than a triumphant all-clear for every package or credential.",
+        "lettering": [
+          "This update establishes the return of registration. It does not settle the authorship or purpose of the earlier packages."
+        ],
+        "exact_strings": [],
+        "sources": [
+          {
+            "key": "GS-STATUS",
+            "locator": "16 May 05:12 UTC update",
+            "available": "2026-05-16"
+          }
+        ],
+        "evidence_status": "documented-with-reconstructed-visualization",
+        "time_start": "2026-05-16T05:12Z",
+        "time_end": "2026-05-16T05:12Z",
+        "art_reuse": "none-approved",
+        "detail_decisions": []
+      }
+    ]
+  },
+  {
+    "id": "gs-later-may",
+    "title": "Further packages",
+    "movement": "incident",
+    "owner": "GemStuffer",
+    "start": "2026-05-26",
+    "end": "2026-05-27",
+    "original_timezone": "UTC",
+    "precision": "range",
+    "chronology_basis": "Two-day total; package-by-package timing is not selected.",
+    "source_limit": "Package activity and service records do not establish a model identity. September attribution is retrospective and attributed; attempted execution or theft is not confirmed success.",
+    "status": "detailed-draft",
+    "beats": [
+      {
+        "id": "gs-later-may-five",
+        "old_panels": [],
+        "frame": "Five later package artifacts are grouped under the supported two-day interval.",
+        "lettering": [
+          "The investigators identify five further packages on 26–27 May."
+        ],
+        "exact_strings": [],
+        "sources": [
+          {
+            "key": "GS-REPORT",
+            "locator": "Timeline; five packages on 26–27 May",
+            "available": "2026-09-11"
+          }
+        ],
+        "evidence_status": "documented-with-reconstructed-visualization",
+        "time_start": "2026-05-26",
+        "time_end": "2026-05-27",
+        "art_reuse": "none-approved",
+        "detail_decisions": []
+      },
+      {
+        "id": "gs-later-may-boundary",
+        "old_panels": [],
+        "frame": "The artifacts remain visible without drawing the same hand behind every upload.",
+        "lettering": [
+          "Further artifacts extend the observed activity. They do not identify one continuous run."
+        ],
+        "exact_strings": [],
+        "sources": [
+          {
+            "key": "GS-REPORT",
+            "locator": "Timeline; five packages on 26–27 May",
+            "available": "2026-09-11"
+          }
+        ],
+        "evidence_status": "documented-with-reconstructed-visualization",
+        "time_start": "2026-05-26",
+        "time_end": "2026-05-27",
+        "art_reuse": "none-approved",
+        "detail_decisions": []
+      }
+    ]
+  },
+  {
+    "id": "gs-june-packages",
+    "title": "June activity",
+    "movement": "incident",
+    "owner": "GemStuffer",
+    "start": "2026-06-18",
+    "end": "2026-06-18",
+    "original_timezone": "UTC",
+    "precision": "day",
+    "chronology_basis": "Day-level count; do not draw an invented synchronized wiki/package exchange.",
+    "source_limit": "Package activity and service records do not establish a model identity. September attribution is retrospective and attributed; attempted execution or theft is not confirmed success.",
+    "status": "detailed-draft",
+    "beats": [
+      {
+        "id": "gs-june-packages-eighty-three",
+        "old_panels": [],
+        "frame": "A dated group of package artifacts occupies the registry view.",
+        "lettering": [
+          "The researchers identify 83 packages on 18 June."
+        ],
+        "exact_strings": [],
+        "sources": [
+          {
+            "key": "GS-REPORT",
+            "locator": "Timeline; 83 packages on 18 June",
+            "available": "2026-09-11"
+          }
+        ],
+        "evidence_status": "documented-with-reconstructed-visualization",
+        "time_start": "2026-06-18",
+        "time_end": "2026-06-18",
+        "art_reuse": "none-approved",
+        "detail_decisions": []
+      },
+      {
+        "id": "gs-june-packages-no-invented-handoff",
+        "old_panels": [],
+        "frame": "Keep the registry action entirely inside this row. No arrow crosses into a wiki post as if a handoff had been observed.",
+        "lettering": [
+          "The package record gives artifacts and dates. Shared identity and cooperation require additional evidence."
+        ],
+        "exact_strings": [],
+        "sources": [
+          {
+            "key": "GS-REPORT",
+            "locator": "Timeline; 83 packages on 18 June",
+            "available": "2026-09-11"
+          }
+        ],
+        "evidence_status": "documented-with-reconstructed-visualization",
+        "time_start": "2026-06-18",
+        "time_end": "2026-06-18",
+        "art_reuse": "none-approved",
+        "detail_decisions": []
+      }
+    ]
+  },
+  {
+    "id": "gs-cache-report",
+    "title": "A cache flaw is reported",
+    "movement": "incident",
+    "owner": "GemStuffer",
+    "start": "2026-07-06",
+    "end": "2026-07-06",
+    "original_timezone": "UTC",
+    "precision": "day",
+    "chronology_basis": "Reported discovery communication date; not a dated campaign exploitation event.",
+    "source_limit": "Package activity and service records do not establish a model identity. September attribution is retrospective and attributed; attempted execution or theft is not confirmed success.",
+    "status": "detailed-draft",
+    "beats": [
+      {
+        "id": "gs-cache-report-report",
+        "old_panels": [],
+        "frame": "A vulnerability report reaches RubyGems. The reporter’s name is attributed in narration, with no invented email body.",
+        "lettering": [
+          "6 July. Luke Marshall reports a cache flaw to RubyGems."
+        ],
+        "exact_strings": [],
+        "sources": [
+          {
+            "key": "GS-CACHE",
+            "locator": "Advisory timeline; report by Luke Marshall on 6 July",
+            "available": "2026-07-23"
+          }
+        ],
+        "evidence_status": "documented-with-reconstructed-visualization",
+        "time_start": "2026-07-06",
+        "time_end": "2026-07-06",
+        "art_reuse": "none-approved",
+        "detail_decisions": []
+      },
+      {
+        "id": "gs-cache-report-exposure",
+        "old_panels": [],
+        "frame": "The legacy sign-in key path is highlighted in an abstract service map, separately from package publishing.",
+        "lettering": [
+          "The maintainer advisory describes conditional exposure of legacy sign-in keys."
+        ],
+        "exact_strings": [],
+        "sources": [
+          {
+            "key": "GS-CACHE",
+            "locator": "Advisory timeline; report by Luke Marshall on 6 July",
+            "available": "2026-07-23"
+          }
+        ],
+        "evidence_status": "documented-with-reconstructed-visualization",
+        "time_start": "2026-07-06",
+        "time_end": "2026-07-06",
+        "art_reuse": "none-approved",
+        "detail_decisions": []
+      },
+      {
+        "id": "gs-cache-report-distinct-system",
+        "old_panels": [],
+        "frame": "Keep the RubyGems service boundary clear and do not join it to an Artifactory request route.",
+        "lettering": [
+          "This is a flaw in RubyGems’ cache behavior. It is separate from the Artifactory proxy vulnerability."
+        ],
+        "exact_strings": [],
+        "sources": [
+          {
+            "key": "GS-CACHE",
+            "locator": "Advisory timeline; report by Luke Marshall on 6 July",
+            "available": "2026-07-23"
+          }
+        ],
+        "evidence_status": "documented-with-reconstructed-visualization",
+        "time_start": "2026-07-06",
+        "time_end": "2026-07-06",
+        "art_reuse": "none-approved",
+        "detail_decisions": []
+      }
+    ]
+  },
+  {
+    "id": "gs-cache-fix",
+    "title": "Repair and cache purge",
+    "movement": "incident",
+    "owner": "GemStuffer",
+    "start": "2026-07-09",
+    "end": "2026-07-09",
+    "original_timezone": "UTC",
+    "precision": "day",
+    "chronology_basis": "Day precision for deployment and purge; no invented relative sub-action times.",
+    "source_limit": "Package activity and service records do not establish a model identity. September attribution is retrospective and attributed; attempted execution or theft is not confirmed success.",
+    "status": "detailed-draft",
+    "beats": [
+      {
+        "id": "gs-cache-fix-root-cause",
+        "old_panels": [],
+        "frame": "A service-side change removes the faulty cache behavior.",
+        "lettering": [
+          "9 July. The root-cause fix is deployed."
+        ],
+        "exact_strings": [],
+        "sources": [
+          {
+            "key": "GS-CACHE",
+            "locator": "The fix and timeline; 9 July deployment",
+            "available": "2026-07-23"
+          }
+        ],
+        "evidence_status": "documented-with-reconstructed-visualization",
+        "time_start": "2026-07-09",
+        "time_end": "2026-07-09",
+        "art_reuse": "none-approved",
+        "detail_decisions": []
+      },
+      {
+        "id": "gs-cache-fix-purge",
+        "old_panels": [],
+        "frame": "Cached responses are removed from Fastly as a separate response operation.",
+        "lettering": [
+          "The Fastly cache is purged."
+        ],
+        "exact_strings": [],
+        "sources": [
+          {
+            "key": "GS-CACHE",
+            "locator": "The fix and timeline; 9 July deployment",
+            "available": "2026-07-23"
+          }
+        ],
+        "evidence_status": "documented-with-reconstructed-visualization",
+        "time_start": "2026-07-09",
+        "time_end": "2026-07-09",
+        "art_reuse": "none-approved",
+        "detail_decisions": []
+      },
+      {
+        "id": "gs-cache-fix-limited-class",
+        "old_panels": [],
+        "frame": "Legacy sign-in keys remain a distinct credential class in the narrator’s diagram.",
+        "lettering": [
+          "The advisory says scoped and short-lived keys were unaffected. The affected class must not be expanded to every RubyGems key."
+        ],
+        "exact_strings": [],
+        "sources": [
+          {
+            "key": "GS-CACHE",
+            "locator": "The fix and timeline; 9 July deployment",
+            "available": "2026-07-23"
+          }
+        ],
+        "evidence_status": "documented-with-reconstructed-visualization",
+        "time_start": "2026-07-09",
+        "time_end": "2026-07-09",
+        "art_reuse": "none-approved",
+        "detail_decisions": []
+      }
+    ]
+  }
+]

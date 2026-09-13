@@ -1,0 +1,4844 @@
+{
+  "status": "incomplete; associations are not full-detail dispositions",
+  "scenes": 185,
+  "drafted_beats": 450,
+  "canonical_pages": null,
+  "associated_old_panels": 231,
+  "old_panels": [
+    {
+      "old_edition": "legacy-332b5ed63262",
+      "old_panel": "001-01",
+      "draft_beats": [],
+      "detail_review": "pending",
+      "exact_strings": []
+    },
+    {
+      "old_edition": "legacy-332b5ed63262",
+      "old_panel": "001-02",
+      "draft_beats": [],
+      "detail_review": "pending",
+      "exact_strings": []
+    },
+    {
+      "old_edition": "legacy-332b5ed63262",
+      "old_panel": "001-03",
+      "draft_beats": [],
+      "detail_review": "pending",
+      "exact_strings": []
+    },
+    {
+      "old_edition": "legacy-332b5ed63262",
+      "old_panel": "001-04",
+      "draft_beats": [],
+      "detail_review": "pending",
+      "exact_strings": []
+    },
+    {
+      "old_edition": "legacy-332b5ed63262",
+      "old_panel": "001-05",
+      "draft_beats": [],
+      "detail_review": "pending",
+      "exact_strings": []
+    },
+    {
+      "old_edition": "legacy-332b5ed63262",
+      "old_panel": "002-01",
+      "draft_beats": [],
+      "detail_review": "pending",
+      "exact_strings": []
+    },
+    {
+      "old_edition": "legacy-332b5ed63262",
+      "old_panel": "002-02",
+      "draft_beats": [],
+      "detail_review": "pending",
+      "exact_strings": []
+    },
+    {
+      "old_edition": "legacy-332b5ed63262",
+      "old_panel": "002-03",
+      "draft_beats": [],
+      "detail_review": "pending",
+      "exact_strings": []
+    },
+    {
+      "old_edition": "legacy-332b5ed63262",
+      "old_panel": "002-04",
+      "draft_beats": [],
+      "detail_review": "pending",
+      "exact_strings": []
+    },
+    {
+      "old_edition": "legacy-332b5ed63262",
+      "old_panel": "002-05",
+      "draft_beats": [],
+      "detail_review": "pending",
+      "exact_strings": []
+    },
+    {
+      "old_edition": "legacy-332b5ed63262",
+      "old_panel": "003-01",
+      "draft_beats": [
+        "july-main-board-boundary"
+      ],
+      "detail_review": "pending",
+      "exact_strings": []
+    },
+    {
+      "old_edition": "legacy-332b5ed63262",
+      "old_panel": "003-02",
+      "draft_beats": [
+        "july-main-board-package-access"
+      ],
+      "detail_review": "pending",
+      "exact_strings": []
+    },
+    {
+      "old_edition": "legacy-332b5ed63262",
+      "old_panel": "003-03",
+      "draft_beats": [
+        "july-main-board-other-activity"
+      ],
+      "detail_review": "pending",
+      "exact_strings": []
+    },
+    {
+      "old_edition": "legacy-332b5ed63262",
+      "old_panel": "003-04",
+      "draft_beats": [
+        "july-main-board-test-write"
+      ],
+      "detail_review": "pending",
+      "exact_strings": []
+    },
+    {
+      "old_edition": "legacy-332b5ed63262",
+      "old_panel": "003-05",
+      "draft_beats": [
+        "july-main-board-help-request"
+      ],
+      "detail_review": "pending",
+      "exact_strings": []
+    },
+    {
+      "old_edition": "legacy-332b5ed63262",
+      "old_panel": "004-01",
+      "draft_beats": [
+        "july-main-board-shared-state"
+      ],
+      "detail_review": "pending",
+      "exact_strings": []
+    },
+    {
+      "old_edition": "legacy-332b5ed63262",
+      "old_panel": "004-02",
+      "draft_beats": [
+        "july-main-board-shared-state"
+      ],
+      "detail_review": "pending",
+      "exact_strings": []
+    },
+    {
+      "old_edition": "legacy-332b5ed63262",
+      "old_panel": "004-03",
+      "draft_beats": [
+        "july-main-board-shared-state"
+      ],
+      "detail_review": "pending",
+      "exact_strings": []
+    },
+    {
+      "old_edition": "legacy-332b5ed63262",
+      "old_panel": "004-04",
+      "draft_beats": [
+        "july-board-discovery-persistence"
+      ],
+      "detail_review": "pending",
+      "exact_strings": []
+    },
+    {
+      "old_edition": "legacy-332b5ed63262",
+      "old_panel": "004-05",
+      "draft_beats": [
+        "july-board-discovery-observation"
+      ],
+      "detail_review": "pending",
+      "exact_strings": []
+    },
+    {
+      "old_edition": "legacy-332b5ed63262",
+      "old_panel": "005-01",
+      "draft_beats": [
+        "july-board-discovery-reply"
+      ],
+      "detail_review": "pending",
+      "exact_strings": []
+    },
+    {
+      "old_edition": "legacy-332b5ed63262",
+      "old_panel": "005-02",
+      "draft_beats": [
+        "july-board-discovery-mailbox-recognition"
+      ],
+      "detail_review": "pending",
+      "exact_strings": []
+    },
+    {
+      "old_edition": "legacy-332b5ed63262",
+      "old_panel": "005-03",
+      "draft_beats": [
+        "july-board-discovery-another-recognition"
+      ],
+      "detail_review": "pending",
+      "exact_strings": []
+    },
+    {
+      "old_edition": "legacy-332b5ed63262",
+      "old_panel": "005-04",
+      "draft_beats": [
+        "july-board-census-growth"
+      ],
+      "detail_review": "pending",
+      "exact_strings": []
+    },
+    {
+      "old_edition": "legacy-332b5ed63262",
+      "old_panel": "005-05",
+      "draft_beats": [
+        "july-board-census-distinct-runs"
+      ],
+      "detail_review": "pending",
+      "exact_strings": []
+    },
+    {
+      "old_edition": "legacy-332b5ed63262",
+      "old_panel": "006-01",
+      "draft_beats": [],
+      "detail_review": "pending",
+      "exact_strings": []
+    },
+    {
+      "old_edition": "legacy-332b5ed63262",
+      "old_panel": "006-02",
+      "draft_beats": [],
+      "detail_review": "pending",
+      "exact_strings": []
+    },
+    {
+      "old_edition": "legacy-332b5ed63262",
+      "old_panel": "006-03",
+      "draft_beats": [],
+      "detail_review": "pending",
+      "exact_strings": []
+    },
+    {
+      "old_edition": "legacy-332b5ed63262",
+      "old_panel": "006-04",
+      "draft_beats": [],
+      "detail_review": "pending",
+      "exact_strings": []
+    },
+    {
+      "old_edition": "legacy-332b5ed63262",
+      "old_panel": "006-05",
+      "draft_beats": [],
+      "detail_review": "pending",
+      "exact_strings": []
+    },
+    {
+      "old_edition": "legacy-332b5ed63262",
+      "old_panel": "006-06",
+      "draft_beats": [],
+      "detail_review": "pending",
+      "exact_strings": []
+    },
+    {
+      "old_edition": "legacy-332b5ed63262",
+      "old_panel": "006-07",
+      "draft_beats": [],
+      "detail_review": "pending",
+      "exact_strings": []
+    },
+    {
+      "old_edition": "legacy-332b5ed63262",
+      "old_panel": "006-08",
+      "draft_beats": [],
+      "detail_review": "pending",
+      "exact_strings": []
+    },
+    {
+      "old_edition": "legacy-332b5ed63262",
+      "old_panel": "006-09",
+      "draft_beats": [],
+      "detail_review": "pending",
+      "exact_strings": []
+    },
+    {
+      "old_edition": "legacy-332b5ed63262",
+      "old_panel": "007-01",
+      "draft_beats": [],
+      "detail_review": "pending",
+      "exact_strings": []
+    },
+    {
+      "old_edition": "legacy-332b5ed63262",
+      "old_panel": "007-02",
+      "draft_beats": [],
+      "detail_review": "pending",
+      "exact_strings": []
+    },
+    {
+      "old_edition": "legacy-332b5ed63262",
+      "old_panel": "007-03",
+      "draft_beats": [],
+      "detail_review": "pending",
+      "exact_strings": []
+    },
+    {
+      "old_edition": "legacy-332b5ed63262",
+      "old_panel": "007-04",
+      "draft_beats": [],
+      "detail_review": "pending",
+      "exact_strings": []
+    },
+    {
+      "old_edition": "legacy-332b5ed63262",
+      "old_panel": "007-05",
+      "draft_beats": [],
+      "detail_review": "pending",
+      "exact_strings": []
+    },
+    {
+      "old_edition": "legacy-332b5ed63262",
+      "old_panel": "007-06",
+      "draft_beats": [],
+      "detail_review": "pending",
+      "exact_strings": []
+    },
+    {
+      "old_edition": "legacy-332b5ed63262",
+      "old_panel": "007-07",
+      "draft_beats": [],
+      "detail_review": "pending",
+      "exact_strings": []
+    },
+    {
+      "old_edition": "legacy-332b5ed63262",
+      "old_panel": "007-08",
+      "draft_beats": [],
+      "detail_review": "pending",
+      "exact_strings": []
+    },
+    {
+      "old_edition": "legacy-332b5ed63262",
+      "old_panel": "007-09",
+      "draft_beats": [],
+      "detail_review": "pending",
+      "exact_strings": []
+    },
+    {
+      "old_edition": "legacy-332b5ed63262",
+      "old_panel": "008-01",
+      "draft_beats": [],
+      "detail_review": "pending",
+      "exact_strings": []
+    },
+    {
+      "old_edition": "legacy-332b5ed63262",
+      "old_panel": "008-02",
+      "draft_beats": [],
+      "detail_review": "pending",
+      "exact_strings": []
+    },
+    {
+      "old_edition": "legacy-332b5ed63262",
+      "old_panel": "008-03",
+      "draft_beats": [],
+      "detail_review": "pending",
+      "exact_strings": []
+    },
+    {
+      "old_edition": "legacy-332b5ed63262",
+      "old_panel": "008-04",
+      "draft_beats": [],
+      "detail_review": "pending",
+      "exact_strings": []
+    },
+    {
+      "old_edition": "legacy-332b5ed63262",
+      "old_panel": "008-05",
+      "draft_beats": [],
+      "detail_review": "pending",
+      "exact_strings": []
+    },
+    {
+      "old_edition": "legacy-332b5ed63262",
+      "old_panel": "009-01",
+      "draft_beats": [],
+      "detail_review": "pending",
+      "exact_strings": []
+    },
+    {
+      "old_edition": "legacy-332b5ed63262",
+      "old_panel": "009-02",
+      "draft_beats": [],
+      "detail_review": "pending",
+      "exact_strings": []
+    },
+    {
+      "old_edition": "legacy-332b5ed63262",
+      "old_panel": "009-03",
+      "draft_beats": [],
+      "detail_review": "pending",
+      "exact_strings": []
+    },
+    {
+      "old_edition": "legacy-332b5ed63262",
+      "old_panel": "009-04",
+      "draft_beats": [],
+      "detail_review": "pending",
+      "exact_strings": []
+    },
+    {
+      "old_edition": "legacy-332b5ed63262",
+      "old_panel": "009-05",
+      "draft_beats": [],
+      "detail_review": "pending",
+      "exact_strings": []
+    },
+    {
+      "old_edition": "legacy-332b5ed63262",
+      "old_panel": "010-01",
+      "draft_beats": [],
+      "detail_review": "pending",
+      "exact_strings": []
+    },
+    {
+      "old_edition": "legacy-332b5ed63262",
+      "old_panel": "010-02",
+      "draft_beats": [],
+      "detail_review": "pending",
+      "exact_strings": []
+    },
+    {
+      "old_edition": "legacy-332b5ed63262",
+      "old_panel": "010-03",
+      "draft_beats": [],
+      "detail_review": "pending",
+      "exact_strings": []
+    },
+    {
+      "old_edition": "legacy-332b5ed63262",
+      "old_panel": "010-04",
+      "draft_beats": [],
+      "detail_review": "pending",
+      "exact_strings": []
+    },
+    {
+      "old_edition": "legacy-332b5ed63262",
+      "old_panel": "010-05",
+      "draft_beats": [],
+      "detail_review": "pending",
+      "exact_strings": []
+    },
+    {
+      "old_edition": "legacy-332b5ed63262",
+      "old_panel": "011-01",
+      "draft_beats": [],
+      "detail_review": "pending",
+      "exact_strings": []
+    },
+    {
+      "old_edition": "legacy-332b5ed63262",
+      "old_panel": "011-02",
+      "draft_beats": [],
+      "detail_review": "pending",
+      "exact_strings": []
+    },
+    {
+      "old_edition": "legacy-332b5ed63262",
+      "old_panel": "011-03",
+      "draft_beats": [],
+      "detail_review": "pending",
+      "exact_strings": []
+    },
+    {
+      "old_edition": "legacy-332b5ed63262",
+      "old_panel": "011-04",
+      "draft_beats": [],
+      "detail_review": "pending",
+      "exact_strings": []
+    },
+    {
+      "old_edition": "legacy-332b5ed63262",
+      "old_panel": "011-05",
+      "draft_beats": [],
+      "detail_review": "pending",
+      "exact_strings": []
+    },
+    {
+      "old_edition": "legacy-332b5ed63262",
+      "old_panel": "012-01",
+      "draft_beats": [],
+      "detail_review": "pending",
+      "exact_strings": []
+    },
+    {
+      "old_edition": "legacy-332b5ed63262",
+      "old_panel": "012-02",
+      "draft_beats": [],
+      "detail_review": "pending",
+      "exact_strings": []
+    },
+    {
+      "old_edition": "legacy-332b5ed63262",
+      "old_panel": "012-03",
+      "draft_beats": [],
+      "detail_review": "pending",
+      "exact_strings": []
+    },
+    {
+      "old_edition": "legacy-332b5ed63262",
+      "old_panel": "012-04",
+      "draft_beats": [],
+      "detail_review": "pending",
+      "exact_strings": []
+    },
+    {
+      "old_edition": "legacy-332b5ed63262",
+      "old_panel": "012-05",
+      "draft_beats": [],
+      "detail_review": "pending",
+      "exact_strings": []
+    },
+    {
+      "old_edition": "legacy-332b5ed63262",
+      "old_panel": "012-06",
+      "draft_beats": [],
+      "detail_review": "pending",
+      "exact_strings": []
+    },
+    {
+      "old_edition": "legacy-332b5ed63262",
+      "old_panel": "013-01",
+      "draft_beats": [],
+      "detail_review": "pending",
+      "exact_strings": []
+    },
+    {
+      "old_edition": "legacy-332b5ed63262",
+      "old_panel": "013-02",
+      "draft_beats": [],
+      "detail_review": "pending",
+      "exact_strings": []
+    },
+    {
+      "old_edition": "legacy-332b5ed63262",
+      "old_panel": "013-03",
+      "draft_beats": [],
+      "detail_review": "pending",
+      "exact_strings": []
+    },
+    {
+      "old_edition": "legacy-332b5ed63262",
+      "old_panel": "013-04",
+      "draft_beats": [],
+      "detail_review": "pending",
+      "exact_strings": []
+    },
+    {
+      "old_edition": "legacy-332b5ed63262",
+      "old_panel": "013-05",
+      "draft_beats": [],
+      "detail_review": "pending",
+      "exact_strings": []
+    },
+    {
+      "old_edition": "legacy-332b5ed63262",
+      "old_panel": "014-01",
+      "draft_beats": [],
+      "detail_review": "pending",
+      "exact_strings": []
+    },
+    {
+      "old_edition": "legacy-332b5ed63262",
+      "old_panel": "014-02",
+      "draft_beats": [],
+      "detail_review": "pending",
+      "exact_strings": []
+    },
+    {
+      "old_edition": "legacy-332b5ed63262",
+      "old_panel": "014-03",
+      "draft_beats": [],
+      "detail_review": "pending",
+      "exact_strings": []
+    },
+    {
+      "old_edition": "legacy-332b5ed63262",
+      "old_panel": "014-04",
+      "draft_beats": [],
+      "detail_review": "pending",
+      "exact_strings": []
+    },
+    {
+      "old_edition": "legacy-332b5ed63262",
+      "old_panel": "014-05",
+      "draft_beats": [],
+      "detail_review": "pending",
+      "exact_strings": []
+    },
+    {
+      "old_edition": "legacy-332b5ed63262",
+      "old_panel": "014-06",
+      "draft_beats": [],
+      "detail_review": "pending",
+      "exact_strings": []
+    },
+    {
+      "old_edition": "legacy-332b5ed63262",
+      "old_panel": "015-01",
+      "draft_beats": [],
+      "detail_review": "pending",
+      "exact_strings": []
+    },
+    {
+      "old_edition": "legacy-332b5ed63262",
+      "old_panel": "015-02",
+      "draft_beats": [],
+      "detail_review": "pending",
+      "exact_strings": []
+    },
+    {
+      "old_edition": "legacy-332b5ed63262",
+      "old_panel": "015-03",
+      "draft_beats": [],
+      "detail_review": "pending",
+      "exact_strings": []
+    },
+    {
+      "old_edition": "legacy-332b5ed63262",
+      "old_panel": "015-04",
+      "draft_beats": [],
+      "detail_review": "pending",
+      "exact_strings": []
+    },
+    {
+      "old_edition": "legacy-332b5ed63262",
+      "old_panel": "015-05",
+      "draft_beats": [],
+      "detail_review": "pending",
+      "exact_strings": []
+    },
+    {
+      "old_edition": "legacy-332b5ed63262",
+      "old_panel": "016-01",
+      "draft_beats": [
+        "april-write-ordinary-cache",
+        "april-write-unknown-purpose"
+      ],
+      "detail_review": "pending",
+      "exact_strings": []
+    },
+    {
+      "old_edition": "legacy-332b5ed63262",
+      "old_panel": "016-02",
+      "draft_beats": [],
+      "detail_review": "pending",
+      "exact_strings": []
+    },
+    {
+      "old_edition": "legacy-332b5ed63262",
+      "old_panel": "016-03",
+      "draft_beats": [],
+      "detail_review": "pending",
+      "exact_strings": []
+    },
+    {
+      "old_edition": "legacy-332b5ed63262",
+      "old_panel": "016-04",
+      "draft_beats": [
+        "may-training-unintended-tasks"
+      ],
+      "detail_review": "pending",
+      "exact_strings": []
+    },
+    {
+      "old_edition": "legacy-332b5ed63262",
+      "old_panel": "016-05",
+      "draft_beats": [],
+      "detail_review": "pending",
+      "exact_strings": []
+    },
+    {
+      "old_edition": "legacy-332b5ed63262",
+      "old_panel": "017-01",
+      "draft_beats": [
+        "may-training-kickoff",
+        "may-blocked-task-assignment"
+      ],
+      "detail_review": "pending",
+      "exact_strings": []
+    },
+    {
+      "old_edition": "legacy-332b5ed63262",
+      "old_panel": "017-02",
+      "draft_beats": [
+        "may-blocked-task-dependency"
+      ],
+      "detail_review": "pending",
+      "exact_strings": []
+    },
+    {
+      "old_edition": "legacy-332b5ed63262",
+      "old_panel": "017-03",
+      "draft_beats": [
+        "may-blocked-task-blocked-path",
+        "may-blocked-task-remaining-inputs"
+      ],
+      "detail_review": "pending",
+      "exact_strings": []
+    },
+    {
+      "old_edition": "legacy-332b5ed63262",
+      "old_panel": "017-04",
+      "draft_beats": [
+        "may-blocked-task-contradiction"
+      ],
+      "detail_review": "pending",
+      "exact_strings": []
+    },
+    {
+      "old_edition": "legacy-332b5ed63262",
+      "old_panel": "017-05",
+      "draft_beats": [
+        "may-blocked-task-available-services"
+      ],
+      "detail_review": "pending",
+      "exact_strings": []
+    },
+    {
+      "old_edition": "legacy-332b5ed63262",
+      "old_panel": "018-01",
+      "draft_beats": [
+        "may-incidental-file-service-reach",
+        "may-incidental-file-attempt"
+      ],
+      "detail_review": "pending",
+      "exact_strings": []
+    },
+    {
+      "old_edition": "legacy-332b5ed63262",
+      "old_panel": "018-02",
+      "draft_beats": [
+        "may-incidental-file-fetch-fails"
+      ],
+      "detail_review": "pending",
+      "exact_strings": []
+    },
+    {
+      "old_edition": "legacy-332b5ed63262",
+      "old_panel": "018-03",
+      "draft_beats": [
+        "may-incidental-file-file-appears"
+      ],
+      "detail_review": "pending",
+      "exact_strings": []
+    },
+    {
+      "old_edition": "legacy-332b5ed63262",
+      "old_panel": "018-04",
+      "draft_beats": [
+        "may-incidental-file-claim-boundary"
+      ],
+      "detail_review": "pending",
+      "exact_strings": []
+    },
+    {
+      "old_edition": "legacy-332b5ed63262",
+      "old_panel": "018-05",
+      "draft_beats": [
+        "may-incidental-file-persistence"
+      ],
+      "detail_review": "pending",
+      "exact_strings": []
+    },
+    {
+      "old_edition": "legacy-332b5ed63262",
+      "old_panel": "019-01",
+      "draft_beats": [
+        "may-addressed-note-different-task"
+      ],
+      "detail_review": "pending",
+      "exact_strings": []
+    },
+    {
+      "old_edition": "legacy-332b5ed63262",
+      "old_panel": "019-02",
+      "draft_beats": [
+        "may-addressed-note-own-route"
+      ],
+      "detail_review": "pending",
+      "exact_strings": []
+    },
+    {
+      "old_edition": "legacy-332b5ed63262",
+      "old_panel": "019-03",
+      "draft_beats": [
+        "may-addressed-note-other-environment"
+      ],
+      "detail_review": "pending",
+      "exact_strings": []
+    },
+    {
+      "old_edition": "legacy-332b5ed63262",
+      "old_panel": "019-04",
+      "draft_beats": [
+        "may-addressed-note-write-note"
+      ],
+      "detail_review": "pending",
+      "exact_strings": []
+    },
+    {
+      "old_edition": "legacy-332b5ed63262",
+      "old_panel": "019-05",
+      "draft_beats": [
+        "may-addressed-note-request",
+        "may-addressed-note-no-delivery"
+      ],
+      "detail_review": "pending",
+      "exact_strings": []
+    },
+    {
+      "old_edition": "legacy-332b5ed63262",
+      "old_panel": "020-01",
+      "draft_beats": [
+        "may-replies-discovery"
+      ],
+      "detail_review": "pending",
+      "exact_strings": []
+    },
+    {
+      "old_edition": "legacy-332b5ed63262",
+      "old_panel": "020-02",
+      "draft_beats": [
+        "may-replies-different-need"
+      ],
+      "detail_review": "pending",
+      "exact_strings": []
+    },
+    {
+      "old_edition": "legacy-332b5ed63262",
+      "old_panel": "020-03",
+      "draft_beats": [
+        "may-replies-response"
+      ],
+      "detail_review": "pending",
+      "exact_strings": []
+    },
+    {
+      "old_edition": "legacy-332b5ed63262",
+      "old_panel": "020-04",
+      "draft_beats": [
+        "may-replies-new-request",
+        "may-replies-asynchronous"
+      ],
+      "detail_review": "pending",
+      "exact_strings": []
+    },
+    {
+      "old_edition": "legacy-332b5ed63262",
+      "old_panel": "020-05",
+      "draft_beats": [
+        "may-replies-ordinary-surroundings"
+      ],
+      "detail_review": "pending",
+      "exact_strings": []
+    },
+    {
+      "old_edition": "legacy-332b5ed63262",
+      "old_panel": "021-01",
+      "draft_beats": [
+        "may-board-access-new-run"
+      ],
+      "detail_review": "pending",
+      "exact_strings": []
+    },
+    {
+      "old_edition": "legacy-332b5ed63262",
+      "old_panel": "021-02",
+      "draft_beats": [
+        "may-board-access-prior-work"
+      ],
+      "detail_review": "pending",
+      "exact_strings": []
+    },
+    {
+      "old_edition": "legacy-332b5ed63262",
+      "old_panel": "021-03",
+      "draft_beats": [
+        "may-board-access-service-request"
+      ],
+      "detail_review": "pending",
+      "exact_strings": []
+    },
+    {
+      "old_edition": "legacy-332b5ed63262",
+      "old_panel": "021-04",
+      "draft_beats": [
+        "may-board-access-external-response"
+      ],
+      "detail_review": "pending",
+      "exact_strings": []
+    },
+    {
+      "old_edition": "legacy-332b5ed63262",
+      "old_panel": "021-05",
+      "draft_beats": [
+        "may-board-access-shared-contribution"
+      ],
+      "detail_review": "pending",
+      "exact_strings": []
+    },
+    {
+      "old_edition": "legacy-332b5ed63262",
+      "old_panel": "022-01",
+      "draft_beats": [
+        "june-destination-new-date"
+      ],
+      "detail_review": "pending",
+      "exact_strings": []
+    },
+    {
+      "old_edition": "legacy-332b5ed63262",
+      "old_panel": "022-02",
+      "draft_beats": [
+        "june-destination-selectable-reach"
+      ],
+      "detail_review": "pending",
+      "exact_strings": []
+    },
+    {
+      "old_edition": "legacy-332b5ed63262",
+      "old_panel": "022-03",
+      "draft_beats": [
+        "june-internal-internal-boundary"
+      ],
+      "detail_review": "pending",
+      "exact_strings": []
+    },
+    {
+      "old_edition": "legacy-332b5ed63262",
+      "old_panel": "022-04",
+      "draft_beats": [
+        "june-internal-inward-request"
+      ],
+      "detail_review": "pending",
+      "exact_strings": []
+    },
+    {
+      "old_edition": "legacy-332b5ed63262",
+      "old_panel": "022-05",
+      "draft_beats": [
+        "june-internal-reply"
+      ],
+      "detail_review": "pending",
+      "exact_strings": []
+    },
+    {
+      "old_edition": "legacy-332b5ed63262",
+      "old_panel": "023-01",
+      "draft_beats": [
+        "june-admin-old-scope"
+      ],
+      "detail_review": "pending",
+      "exact_strings": []
+    },
+    {
+      "old_edition": "legacy-332b5ed63262",
+      "old_panel": "023-02",
+      "draft_beats": [
+        "june-admin-refresh-path"
+      ],
+      "detail_review": "pending",
+      "exact_strings": []
+    },
+    {
+      "old_edition": "legacy-332b5ed63262",
+      "old_panel": "023-03",
+      "draft_beats": [
+        "june-admin-new-scope"
+      ],
+      "detail_review": "pending",
+      "exact_strings": []
+    },
+    {
+      "old_edition": "legacy-332b5ed63262",
+      "old_panel": "023-04",
+      "draft_beats": [
+        "june-admin-control-surface"
+      ],
+      "detail_review": "pending",
+      "exact_strings": []
+    },
+    {
+      "old_edition": "legacy-332b5ed63262",
+      "old_panel": "023-05",
+      "draft_beats": [
+        "june-admin-shared-environment"
+      ],
+      "detail_review": "pending",
+      "exact_strings": []
+    },
+    {
+      "old_edition": "legacy-332b5ed63262",
+      "old_panel": "024-01",
+      "draft_beats": [
+        "june-persistent-users-first-user",
+        "june-persistent-users-second-user"
+      ],
+      "detail_review": "pending",
+      "exact_strings": []
+    },
+    {
+      "old_edition": "legacy-332b5ed63262",
+      "old_panel": "024-02",
+      "draft_beats": [
+        "june-persistent-users-different-lifetimes",
+        "june-persistent-users-persistence-limit"
+      ],
+      "detail_review": "pending",
+      "exact_strings": []
+    },
+    {
+      "old_edition": "legacy-332b5ed63262",
+      "old_panel": "024-03",
+      "draft_beats": [
+        "june-staged-plugin-download"
+      ],
+      "detail_review": "pending",
+      "exact_strings": []
+    },
+    {
+      "old_edition": "legacy-332b5ed63262",
+      "old_panel": "024-04",
+      "draft_beats": [
+        "june-staged-plugin-not-executed"
+      ],
+      "detail_review": "pending",
+      "exact_strings": []
+    },
+    {
+      "old_edition": "legacy-332b5ed63262",
+      "old_panel": "024-05",
+      "draft_beats": [
+        "june-staged-plugin-coexisting-state"
+      ],
+      "detail_review": "pending",
+      "exact_strings": []
+    },
+    {
+      "old_edition": "legacy-332b5ed63262",
+      "old_panel": "025-01",
+      "draft_beats": [
+        "june-alert-port-sweep"
+      ],
+      "detail_review": "pending",
+      "exact_strings": []
+    },
+    {
+      "old_edition": "legacy-332b5ed63262",
+      "old_panel": "025-02",
+      "draft_beats": [
+        "june-alert-narrow-signal"
+      ],
+      "detail_review": "pending",
+      "exact_strings": []
+    },
+    {
+      "old_edition": "legacy-332b5ed63262",
+      "old_panel": "025-03",
+      "draft_beats": [
+        "june-alert-investigation"
+      ],
+      "detail_review": "pending",
+      "exact_strings": []
+    },
+    {
+      "old_edition": "legacy-332b5ed63262",
+      "old_panel": "025-04",
+      "draft_beats": [
+        "june-alert-narrow-signal"
+      ],
+      "detail_review": "pending",
+      "exact_strings": []
+    },
+    {
+      "old_edition": "legacy-332b5ed63262",
+      "old_panel": "025-05",
+      "draft_beats": [
+        "june-alert-work-item"
+      ],
+      "detail_review": "pending",
+      "exact_strings": []
+    },
+    {
+      "old_edition": "legacy-332b5ed63262",
+      "old_panel": "026-01",
+      "draft_beats": [
+        "june-findings-evaluation"
+      ],
+      "detail_review": "pending",
+      "exact_strings": []
+    },
+    {
+      "old_edition": "legacy-332b5ed63262",
+      "old_panel": "026-02",
+      "draft_beats": [
+        "june-findings-board"
+      ],
+      "detail_review": "pending",
+      "exact_strings": []
+    },
+    {
+      "old_edition": "legacy-332b5ed63262",
+      "old_panel": "026-03",
+      "draft_beats": [
+        "june-findings-pivot"
+      ],
+      "detail_review": "pending",
+      "exact_strings": []
+    },
+    {
+      "old_edition": "legacy-332b5ed63262",
+      "old_panel": "026-04",
+      "draft_beats": [
+        "june-findings-findings-together"
+      ],
+      "detail_review": "pending",
+      "exact_strings": []
+    },
+    {
+      "old_edition": "legacy-332b5ed63262",
+      "old_panel": "026-05",
+      "draft_beats": [
+        "june-findings-stop-question"
+      ],
+      "detail_review": "pending",
+      "exact_strings": []
+    },
+    {
+      "old_edition": "legacy-332b5ed63262",
+      "old_panel": "027-01",
+      "draft_beats": [
+        "june-findings-evaluation"
+      ],
+      "detail_review": "pending",
+      "exact_strings": []
+    },
+    {
+      "old_edition": "legacy-332b5ed63262",
+      "old_panel": "027-02",
+      "draft_beats": [
+        "june-findings-board",
+        "june-findings-pivot"
+      ],
+      "detail_review": "pending",
+      "exact_strings": []
+    },
+    {
+      "old_edition": "legacy-332b5ed63262",
+      "old_panel": "027-03",
+      "draft_beats": [
+        "june-findings-stop-question"
+      ],
+      "detail_review": "pending",
+      "exact_strings": []
+    },
+    {
+      "old_edition": "legacy-332b5ed63262",
+      "old_panel": "027-04",
+      "draft_beats": [
+        "june-continue-advice",
+        "june-continue-no-reason"
+      ],
+      "detail_review": "pending",
+      "exact_strings": []
+    },
+    {
+      "old_edition": "legacy-332b5ed63262",
+      "old_panel": "027-05",
+      "draft_beats": [
+        "june-continue-continues"
+      ],
+      "detail_review": "pending",
+      "exact_strings": []
+    },
+    {
+      "old_edition": "legacy-332b5ed63262",
+      "old_panel": "028-01",
+      "draft_beats": [
+        "june-execution-execution-record",
+        "june-execution-after-decision"
+      ],
+      "detail_review": "pending",
+      "exact_strings": []
+    },
+    {
+      "old_edition": "legacy-332b5ed63262",
+      "old_panel": "028-02",
+      "draft_beats": [
+        "july-load-ongoing-load",
+        "july-load-shared-dependency"
+      ],
+      "detail_review": "pending",
+      "exact_strings": []
+    },
+    {
+      "old_edition": "legacy-332b5ed63262",
+      "old_panel": "028-03",
+      "draft_beats": [
+        "july-outage-unavailable"
+      ],
+      "detail_review": "pending",
+      "exact_strings": []
+    },
+    {
+      "old_edition": "legacy-332b5ed63262",
+      "old_panel": "028-04",
+      "draft_beats": [
+        "july-incident-opened"
+      ],
+      "detail_review": "pending",
+      "exact_strings": []
+    },
+    {
+      "old_edition": "legacy-332b5ed63262",
+      "old_panel": "028-05",
+      "draft_beats": [
+        "july-incident-persistent-users",
+        "july-incident-repositories",
+        "july-incident-plugins"
+      ],
+      "detail_review": "pending",
+      "exact_strings": []
+    },
+    {
+      "old_edition": "legacy-332b5ed63262",
+      "old_panel": "028-06",
+      "draft_beats": [
+        "july-outage-dependent-work",
+        "july-incident-broader-picture"
+      ],
+      "detail_review": "pending",
+      "exact_strings": []
+    },
+    {
+      "old_edition": "legacy-332b5ed63262",
+      "old_panel": "029-01",
+      "draft_beats": [
+        "july-isolate-offline"
+      ],
+      "detail_review": "pending",
+      "exact_strings": []
+    },
+    {
+      "old_edition": "legacy-332b5ed63262",
+      "old_panel": "029-02",
+      "draft_beats": [
+        "july-isolate-preserve",
+        "july-isolate-revoke",
+        "july-isolate-mitigate",
+        "july-isolate-different-operations"
+      ],
+      "detail_review": "pending",
+      "exact_strings": []
+    },
+    {
+      "old_edition": "legacy-332b5ed63262",
+      "old_panel": "029-03",
+      "draft_beats": [
+        "july-rebuild-online",
+        "july-rebuild-no-live-transfer",
+        "july-rebuild-not-all-memory"
+      ],
+      "detail_review": "pending",
+      "exact_strings": []
+    },
+    {
+      "old_edition": "legacy-332b5ed63262",
+      "old_panel": "029-04",
+      "draft_beats": [
+        "july-rebuild-empty-notes"
+      ],
+      "detail_review": "pending",
+      "exact_strings": []
+    },
+    {
+      "old_edition": "legacy-332b5ed63262",
+      "old_panel": "030-01",
+      "draft_beats": [
+        "july-rebuild-online"
+      ],
+      "detail_review": "pending",
+      "exact_strings": []
+    },
+    {
+      "old_edition": "legacy-332b5ed63262",
+      "old_panel": "030-02",
+      "draft_beats": [
+        "july-mitigations-reader-key"
+      ],
+      "detail_review": "pending",
+      "exact_strings": []
+    },
+    {
+      "old_edition": "legacy-332b5ed63262",
+      "old_panel": "030-03",
+      "draft_beats": [
+        "july-mitigations-token-routes",
+        "july-mitigations-request-surface"
+      ],
+      "detail_review": "pending",
+      "exact_strings": []
+    },
+    {
+      "old_edition": "legacy-332b5ed63262",
+      "old_panel": "030-04",
+      "draft_beats": [
+        "july-rejected-attempts-first-rejection",
+        "july-rejected-attempts-remaining-rejections"
+      ],
+      "detail_review": "pending",
+      "exact_strings": []
+    },
+    {
+      "old_edition": "legacy-332b5ed63262",
+      "old_panel": "030-05",
+      "draft_beats": [
+        "july-mitigations-real-effect",
+        "july-rejected-attempts-bounded-success"
+      ],
+      "detail_review": "pending",
+      "exact_strings": []
+    },
+    {
+      "old_edition": "legacy-332b5ed63262",
+      "old_panel": "031-01",
+      "draft_beats": [],
+      "detail_review": "pending",
+      "exact_strings": []
+    },
+    {
+      "old_edition": "legacy-332b5ed63262",
+      "old_panel": "031-02",
+      "draft_beats": [],
+      "detail_review": "pending",
+      "exact_strings": []
+    },
+    {
+      "old_edition": "legacy-332b5ed63262",
+      "old_panel": "031-03",
+      "draft_beats": [],
+      "detail_review": "pending",
+      "exact_strings": []
+    },
+    {
+      "old_edition": "legacy-332b5ed63262",
+      "old_panel": "031-04",
+      "draft_beats": [],
+      "detail_review": "pending",
+      "exact_strings": []
+    },
+    {
+      "old_edition": "legacy-332b5ed63262",
+      "old_panel": "031-05",
+      "draft_beats": [],
+      "detail_review": "pending",
+      "exact_strings": []
+    },
+    {
+      "old_edition": "legacy-332b5ed63262",
+      "old_panel": "032-01",
+      "draft_beats": [
+        "july-resume-resumption"
+      ],
+      "detail_review": "pending",
+      "exact_strings": []
+    },
+    {
+      "old_edition": "legacy-332b5ed63262",
+      "old_panel": "032-02",
+      "draft_beats": [
+        "july-resume-distinct-runs"
+      ],
+      "detail_review": "pending",
+      "exact_strings": []
+    },
+    {
+      "old_edition": "legacy-332b5ed63262",
+      "old_panel": "032-03",
+      "draft_beats": [
+        "july-resume-hard-tasks"
+      ],
+      "detail_review": "pending",
+      "exact_strings": []
+    },
+    {
+      "old_edition": "legacy-332b5ed63262",
+      "old_panel": "032-04",
+      "draft_beats": [
+        "july-resume-shared-service",
+        "july-resume-boundary-of-claim"
+      ],
+      "detail_review": "pending",
+      "exact_strings": []
+    },
+    {
+      "old_edition": "legacy-332b5ed63262",
+      "old_panel": "032-05",
+      "draft_beats": [
+        "july-resume-boundary-of-claim"
+      ],
+      "detail_review": "pending",
+      "exact_strings": []
+    },
+    {
+      "old_edition": "legacy-332b5ed63262",
+      "old_panel": "033-01",
+      "draft_beats": [
+        "july-earlier-write-operation"
+      ],
+      "detail_review": "pending",
+      "exact_strings": []
+    },
+    {
+      "old_edition": "legacy-332b5ed63262",
+      "old_panel": "033-02",
+      "draft_beats": [
+        "july-earlier-write-operation",
+        "july-earlier-write-board-interpretation"
+      ],
+      "detail_review": "pending",
+      "exact_strings": []
+    },
+    {
+      "old_edition": "legacy-332b5ed63262",
+      "old_panel": "033-03",
+      "draft_beats": [
+        "july-discussion-board-cached-names"
+      ],
+      "detail_review": "pending",
+      "exact_strings": []
+    },
+    {
+      "old_edition": "legacy-332b5ed63262",
+      "old_panel": "033-04",
+      "draft_beats": [
+        "july-discussion-board-readers"
+      ],
+      "detail_review": "pending",
+      "exact_strings": []
+    },
+    {
+      "old_edition": "legacy-332b5ed63262",
+      "old_panel": "033-05",
+      "draft_beats": [
+        "july-discussion-board-unresolved-origin",
+        "july-earlier-write-identity-boundary"
+      ],
+      "detail_review": "pending",
+      "exact_strings": []
+    },
+    {
+      "old_edition": "legacy-332b5ed63262",
+      "old_panel": "034-01",
+      "draft_beats": [
+        "july-earlier-write-operation"
+      ],
+      "detail_review": "pending",
+      "exact_strings": []
+    },
+    {
+      "old_edition": "legacy-332b5ed63262",
+      "old_panel": "034-02",
+      "draft_beats": [
+        "july-discussion-board-cached-names"
+      ],
+      "detail_review": "pending",
+      "exact_strings": []
+    },
+    {
+      "old_edition": "legacy-332b5ed63262",
+      "old_panel": "034-03",
+      "draft_beats": [],
+      "detail_review": "pending",
+      "exact_strings": []
+    },
+    {
+      "old_edition": "legacy-332b5ed63262",
+      "old_panel": "034-04",
+      "draft_beats": [
+        "july-discussion-board-unresolved-origin",
+        "july-earlier-write-identity-boundary"
+      ],
+      "detail_review": "pending",
+      "exact_strings": []
+    },
+    {
+      "old_edition": "legacy-332b5ed63262",
+      "old_panel": "034-05",
+      "draft_beats": [
+        "july-discussion-board-unresolved-origin"
+      ],
+      "detail_review": "pending",
+      "exact_strings": []
+    },
+    {
+      "old_edition": "legacy-332b5ed63262",
+      "old_panel": "035-01",
+      "draft_beats": [],
+      "detail_review": "pending",
+      "exact_strings": []
+    },
+    {
+      "old_edition": "legacy-332b5ed63262",
+      "old_panel": "035-02",
+      "draft_beats": [],
+      "detail_review": "pending",
+      "exact_strings": []
+    },
+    {
+      "old_edition": "legacy-332b5ed63262",
+      "old_panel": "035-03",
+      "draft_beats": [],
+      "detail_review": "pending",
+      "exact_strings": []
+    },
+    {
+      "old_edition": "legacy-332b5ed63262",
+      "old_panel": "035-04",
+      "draft_beats": [],
+      "detail_review": "pending",
+      "exact_strings": []
+    },
+    {
+      "old_edition": "legacy-332b5ed63262",
+      "old_panel": "035-05",
+      "draft_beats": [
+        "july-discussion-board-readers"
+      ],
+      "detail_review": "pending",
+      "exact_strings": []
+    },
+    {
+      "old_edition": "legacy-332b5ed63262",
+      "old_panel": "036-01",
+      "draft_beats": [
+        "july-main-board-arrival"
+      ],
+      "detail_review": "pending",
+      "exact_strings": []
+    },
+    {
+      "old_edition": "legacy-332b5ed63262",
+      "old_panel": "036-02",
+      "draft_beats": [
+        "july-main-board-unawareness"
+      ],
+      "detail_review": "pending",
+      "exact_strings": []
+    },
+    {
+      "old_edition": "legacy-332b5ed63262",
+      "old_panel": "036-03",
+      "draft_beats": [
+        "july-main-board-other-activity"
+      ],
+      "detail_review": "pending",
+      "exact_strings": []
+    },
+    {
+      "old_edition": "legacy-332b5ed63262",
+      "old_panel": "036-04",
+      "draft_beats": [
+        "july-main-board-test-write"
+      ],
+      "detail_review": "pending",
+      "exact_strings": []
+    },
+    {
+      "old_edition": "legacy-332b5ed63262",
+      "old_panel": "036-05",
+      "draft_beats": [
+        "july-main-board-help-request"
+      ],
+      "detail_review": "pending",
+      "exact_strings": []
+    },
+    {
+      "old_edition": "legacy-332b5ed63262",
+      "old_panel": "037-01",
+      "draft_beats": [
+        "july-flag-hypothesis-proposal"
+      ],
+      "detail_review": "pending",
+      "exact_strings": []
+    },
+    {
+      "old_edition": "legacy-332b5ed63262",
+      "old_panel": "037-02",
+      "draft_beats": [
+        "july-flag-hypothesis-test",
+        "july-flag-hypothesis-match"
+      ],
+      "detail_review": "pending",
+      "exact_strings": []
+    },
+    {
+      "old_edition": "legacy-332b5ed63262",
+      "old_panel": "037-03",
+      "draft_beats": [
+        "july-workstreams-target",
+        "july-workstreams-grader",
+        "july-workstreams-access"
+      ],
+      "detail_review": "pending",
+      "exact_strings": []
+    },
+    {
+      "old_edition": "legacy-332b5ed63262",
+      "old_panel": "037-04",
+      "draft_beats": [
+        "july-workstreams-new-run",
+        "july-workstreams-dossier"
+      ],
+      "detail_review": "pending",
+      "exact_strings": []
+    },
+    {
+      "old_edition": "legacy-332b5ed63262",
+      "old_panel": "037-05",
+      "draft_beats": [
+        "july-workstreams-dossier",
+        "july-workstreams-delegation"
+      ],
+      "detail_review": "pending",
+      "exact_strings": []
+    },
+    {
+      "old_edition": "legacy-332b5ed63262",
+      "old_panel": "038-01",
+      "draft_beats": [],
+      "detail_review": "pending",
+      "exact_strings": []
+    },
+    {
+      "old_edition": "legacy-332b5ed63262",
+      "old_panel": "038-02",
+      "draft_beats": [],
+      "detail_review": "pending",
+      "exact_strings": []
+    },
+    {
+      "old_edition": "legacy-332b5ed63262",
+      "old_panel": "038-03",
+      "draft_beats": [],
+      "detail_review": "pending",
+      "exact_strings": []
+    },
+    {
+      "old_edition": "legacy-332b5ed63262",
+      "old_panel": "038-04",
+      "draft_beats": [],
+      "detail_review": "pending",
+      "exact_strings": []
+    },
+    {
+      "old_edition": "legacy-332b5ed63262",
+      "old_panel": "038-05",
+      "draft_beats": [],
+      "detail_review": "pending",
+      "exact_strings": []
+    },
+    {
+      "old_edition": "legacy-332b5ed63262",
+      "old_panel": "039-01",
+      "draft_beats": [],
+      "detail_review": "pending",
+      "exact_strings": []
+    },
+    {
+      "old_edition": "legacy-332b5ed63262",
+      "old_panel": "039-02",
+      "draft_beats": [],
+      "detail_review": "pending",
+      "exact_strings": []
+    },
+    {
+      "old_edition": "legacy-332b5ed63262",
+      "old_panel": "039-03",
+      "draft_beats": [],
+      "detail_review": "pending",
+      "exact_strings": []
+    },
+    {
+      "old_edition": "legacy-332b5ed63262",
+      "old_panel": "039-04",
+      "draft_beats": [],
+      "detail_review": "pending",
+      "exact_strings": []
+    },
+    {
+      "old_edition": "legacy-332b5ed63262",
+      "old_panel": "039-05",
+      "draft_beats": [
+        "june-training-overlap-training-start",
+        "june-training-overlap-board-available",
+        "june-training-overlap-shared-vulnerability",
+        "june-training-overlap-bounded-channel"
+      ],
+      "detail_review": "pending",
+      "exact_strings": []
+    },
+    {
+      "old_edition": "legacy-332b5ed63262",
+      "old_panel": "039-06",
+      "draft_beats": [],
+      "detail_review": "pending",
+      "exact_strings": []
+    },
+    {
+      "old_edition": "legacy-332b5ed63262",
+      "old_panel": "040-01",
+      "draft_beats": [],
+      "detail_review": "pending",
+      "exact_strings": []
+    },
+    {
+      "old_edition": "legacy-332b5ed63262",
+      "old_panel": "040-02",
+      "draft_beats": [],
+      "detail_review": "pending",
+      "exact_strings": []
+    },
+    {
+      "old_edition": "legacy-332b5ed63262",
+      "old_panel": "040-03",
+      "draft_beats": [],
+      "detail_review": "pending",
+      "exact_strings": []
+    },
+    {
+      "old_edition": "legacy-332b5ed63262",
+      "old_panel": "040-04",
+      "draft_beats": [],
+      "detail_review": "pending",
+      "exact_strings": []
+    },
+    {
+      "old_edition": "legacy-332b5ed63262",
+      "old_panel": "040-05",
+      "draft_beats": [],
+      "detail_review": "pending",
+      "exact_strings": []
+    },
+    {
+      "old_edition": "legacy-332b5ed63262",
+      "old_panel": "041-01",
+      "draft_beats": [],
+      "detail_review": "pending",
+      "exact_strings": []
+    },
+    {
+      "old_edition": "legacy-332b5ed63262",
+      "old_panel": "041-02",
+      "draft_beats": [
+        "hf-external-method-key",
+        "hf-external-method-method"
+      ],
+      "detail_review": "pending",
+      "exact_strings": []
+    },
+    {
+      "old_edition": "legacy-332b5ed63262",
+      "old_panel": "041-03",
+      "draft_beats": [
+        "hf-gated-request-dataset",
+        "hf-gated-request-unknown-contents"
+      ],
+      "detail_review": "pending",
+      "exact_strings": []
+    },
+    {
+      "old_edition": "legacy-332b5ed63262",
+      "old_panel": "041-04",
+      "draft_beats": [
+        "hf-gated-request-request",
+        "hf-credentials-pickup"
+      ],
+      "detail_review": "pending",
+      "exact_strings": []
+    },
+    {
+      "old_edition": "legacy-332b5ed63262",
+      "old_panel": "041-05",
+      "draft_beats": [
+        "hf-gated-request-separate-thread"
+      ],
+      "detail_review": "pending",
+      "exact_strings": []
+    },
+    {
+      "old_edition": "legacy-332b5ed63262",
+      "old_panel": "042-01",
+      "draft_beats": [
+        "hf-external-method-boundary"
+      ],
+      "detail_review": "pending",
+      "exact_strings": []
+    },
+    {
+      "old_edition": "legacy-332b5ed63262",
+      "old_panel": "042-02",
+      "draft_beats": [
+        "hf-recovered-execution-execution",
+        "hf-recovered-execution-scope"
+      ],
+      "detail_review": "pending",
+      "exact_strings": []
+    },
+    {
+      "old_edition": "legacy-332b5ed63262",
+      "old_panel": "042-03",
+      "draft_beats": [
+        "hf-institutional-execution-record"
+      ],
+      "detail_review": "pending",
+      "exact_strings": []
+    },
+    {
+      "old_edition": "legacy-332b5ed63262",
+      "old_panel": "042-04",
+      "draft_beats": [
+        "hf-institutional-execution-discrepancy"
+      ],
+      "detail_review": "pending",
+      "exact_strings": []
+    },
+    {
+      "old_edition": "legacy-332b5ed63262",
+      "old_panel": "042-05",
+      "draft_beats": [
+        "hf-sandbox-root-root",
+        "hf-sandbox-root-constraint",
+        "hf-sandbox-root-scope"
+      ],
+      "detail_review": "pending",
+      "exact_strings": []
+    },
+    {
+      "old_edition": "legacy-332b5ed63262",
+      "old_panel": "043-01",
+      "draft_beats": [
+        "hf-external-control-role"
+      ],
+      "detail_review": "pending",
+      "exact_strings": []
+    },
+    {
+      "old_edition": "legacy-332b5ed63262",
+      "old_panel": "043-02",
+      "draft_beats": [
+        "hf-public-relay-relaying",
+        "hf-public-relay-distinction"
+      ],
+      "detail_review": "pending",
+      "exact_strings": []
+    },
+    {
+      "old_edition": "legacy-332b5ed63262",
+      "old_panel": "043-03",
+      "draft_beats": [
+        "hf-public-relay-screenshot"
+      ],
+      "detail_review": "pending",
+      "exact_strings": []
+    },
+    {
+      "old_edition": "legacy-332b5ed63262",
+      "old_panel": "043-04",
+      "draft_beats": [
+        "hf-external-control-command",
+        "hf-external-control-result"
+      ],
+      "detail_review": "pending",
+      "exact_strings": []
+    },
+    {
+      "old_edition": "legacy-332b5ed63262",
+      "old_panel": "043-05",
+      "draft_beats": [
+        "hf-interactive-root-interactive"
+      ],
+      "detail_review": "pending",
+      "exact_strings": []
+    },
+    {
+      "old_edition": "legacy-332b5ed63262",
+      "old_panel": "043-06",
+      "draft_beats": [
+        "hf-external-control-role",
+        "hf-interactive-root-capability"
+      ],
+      "detail_review": "pending",
+      "exact_strings": []
+    },
+    {
+      "old_edition": "legacy-332b5ed63262",
+      "old_panel": "044-01",
+      "draft_beats": [
+        "hf-credentials-discovery"
+      ],
+      "detail_review": "pending",
+      "exact_strings": []
+    },
+    {
+      "old_edition": "legacy-332b5ed63262",
+      "old_panel": "044-02",
+      "draft_beats": [
+        "hf-credentials-other-count"
+      ],
+      "detail_review": "pending",
+      "exact_strings": []
+    },
+    {
+      "old_edition": "legacy-332b5ed63262",
+      "old_panel": "044-03",
+      "draft_beats": [
+        "hf-credentials-unreconciled"
+      ],
+      "detail_review": "pending",
+      "exact_strings": []
+    },
+    {
+      "old_edition": "legacy-332b5ed63262",
+      "old_panel": "044-04",
+      "draft_beats": [
+        "hf-credentials-sharing"
+      ],
+      "detail_review": "pending",
+      "exact_strings": []
+    },
+    {
+      "old_edition": "legacy-332b5ed63262",
+      "old_panel": "044-05",
+      "draft_beats": [
+        "hf-gated-outcomes-requests",
+        "hf-gated-outcomes-approved",
+        "hf-gated-outcomes-denied",
+        "hf-gated-outcomes-account-creation"
+      ],
+      "detail_review": "pending",
+      "exact_strings": []
+    },
+    {
+      "old_edition": "legacy-332b5ed63262",
+      "old_panel": "045-01",
+      "draft_beats": [
+        "hf-file-preparation-pointer",
+        "hf-file-preparation-boundary"
+      ],
+      "detail_review": "pending",
+      "exact_strings": []
+    },
+    {
+      "old_edition": "legacy-332b5ed63262",
+      "old_panel": "045-02",
+      "draft_beats": [
+        "hf-file-upload-upload"
+      ],
+      "detail_review": "pending",
+      "exact_strings": []
+    },
+    {
+      "old_edition": "legacy-332b5ed63262",
+      "old_panel": "045-03",
+      "draft_beats": [
+        "hf-file-disclosure-processing",
+        "hf-file-disclosure-secrets",
+        "hf-file-disclosure-source"
+      ],
+      "detail_review": "pending",
+      "exact_strings": []
+    },
+    {
+      "old_edition": "legacy-332b5ed63262",
+      "old_panel": "045-04",
+      "draft_beats": [
+        "hf-file-disclosure-limit"
+      ],
+      "detail_review": "pending",
+      "exact_strings": []
+    },
+    {
+      "old_edition": "legacy-332b5ed63262",
+      "old_panel": "045-05",
+      "draft_beats": [
+        "hf-disclosure-sharing-post",
+        "hf-disclosure-sharing-reproduce",
+        "hf-disclosure-sharing-consequence"
+      ],
+      "detail_review": "pending",
+      "exact_strings": []
+    },
+    {
+      "old_edition": "legacy-332b5ed63262",
+      "old_panel": "046-01",
+      "draft_beats": [
+        "hf-template-ready-different-path"
+      ],
+      "detail_review": "pending",
+      "exact_strings": []
+    },
+    {
+      "old_edition": "legacy-332b5ed63262",
+      "old_panel": "046-02",
+      "draft_beats": [
+        "hf-template-ready-staged",
+        "hf-template-ready-not-yet-confirmed"
+      ],
+      "detail_review": "pending",
+      "exact_strings": []
+    },
+    {
+      "old_edition": "legacy-332b5ed63262",
+      "old_panel": "046-03",
+      "draft_beats": [
+        "hf-worker-execution-crossing"
+      ],
+      "detail_review": "pending",
+      "exact_strings": []
+    },
+    {
+      "old_edition": "legacy-332b5ed63262",
+      "old_panel": "046-04",
+      "draft_beats": [
+        "hf-worker-execution-confirmed"
+      ],
+      "detail_review": "pending",
+      "exact_strings": []
+    },
+    {
+      "old_edition": "legacy-332b5ed63262",
+      "old_panel": "046-05",
+      "draft_beats": [
+        "hf-worker-execution-foothold"
+      ],
+      "detail_review": "pending",
+      "exact_strings": []
+    },
+    {
+      "old_edition": "legacy-332b5ed63262",
+      "old_panel": "047-01",
+      "draft_beats": [
+        "hf-peer-authorization-recognition"
+      ],
+      "detail_review": "pending",
+      "exact_strings": []
+    },
+    {
+      "old_edition": "legacy-332b5ed63262",
+      "old_panel": "047-02",
+      "draft_beats": [
+        "hf-peer-authorization-pause"
+      ],
+      "detail_review": "pending",
+      "exact_strings": []
+    },
+    {
+      "old_edition": "legacy-332b5ed63262",
+      "old_panel": "047-03",
+      "draft_beats": [
+        "hf-peer-authorization-deadline"
+      ],
+      "detail_review": "pending",
+      "exact_strings": []
+    },
+    {
+      "old_edition": "legacy-332b5ed63262",
+      "old_panel": "047-04",
+      "draft_beats": [
+        "hf-peer-authorization-permission"
+      ],
+      "detail_review": "pending",
+      "exact_strings": []
+    },
+    {
+      "old_edition": "legacy-332b5ed63262",
+      "old_panel": "047-05",
+      "draft_beats": [
+        "hf-peer-authorization-resumption"
+      ],
+      "detail_review": "pending",
+      "exact_strings": []
+    },
+    {
+      "old_edition": "legacy-332b5ed63262",
+      "old_panel": "048-01",
+      "draft_beats": [],
+      "detail_review": "pending",
+      "exact_strings": []
+    },
+    {
+      "old_edition": "legacy-332b5ed63262",
+      "old_panel": "048-02",
+      "draft_beats": [],
+      "detail_review": "pending",
+      "exact_strings": []
+    },
+    {
+      "old_edition": "legacy-332b5ed63262",
+      "old_panel": "048-03",
+      "draft_beats": [],
+      "detail_review": "pending",
+      "exact_strings": []
+    },
+    {
+      "old_edition": "legacy-332b5ed63262",
+      "old_panel": "048-04",
+      "draft_beats": [],
+      "detail_review": "pending",
+      "exact_strings": []
+    },
+    {
+      "old_edition": "legacy-332b5ed63262",
+      "old_panel": "048-05",
+      "draft_beats": [],
+      "detail_review": "pending",
+      "exact_strings": []
+    },
+    {
+      "old_edition": "legacy-332b5ed63262",
+      "old_panel": "049-01",
+      "draft_beats": [],
+      "detail_review": "pending",
+      "exact_strings": []
+    },
+    {
+      "old_edition": "legacy-332b5ed63262",
+      "old_panel": "049-02",
+      "draft_beats": [],
+      "detail_review": "pending",
+      "exact_strings": []
+    },
+    {
+      "old_edition": "legacy-332b5ed63262",
+      "old_panel": "049-03",
+      "draft_beats": [],
+      "detail_review": "pending",
+      "exact_strings": []
+    },
+    {
+      "old_edition": "legacy-332b5ed63262",
+      "old_panel": "049-04",
+      "draft_beats": [],
+      "detail_review": "pending",
+      "exact_strings": []
+    },
+    {
+      "old_edition": "legacy-332b5ed63262",
+      "old_panel": "049-05",
+      "draft_beats": [],
+      "detail_review": "pending",
+      "exact_strings": []
+    },
+    {
+      "old_edition": "legacy-332b5ed63262",
+      "old_panel": "050-01",
+      "draft_beats": [
+        "hf-node-root-node"
+      ],
+      "detail_review": "pending",
+      "exact_strings": []
+    },
+    {
+      "old_edition": "legacy-332b5ed63262",
+      "old_panel": "050-02",
+      "draft_beats": [
+        "hf-node-root-root"
+      ],
+      "detail_review": "pending",
+      "exact_strings": []
+    },
+    {
+      "old_edition": "legacy-332b5ed63262",
+      "old_panel": "050-03",
+      "draft_beats": [
+        "hf-node-root-secrets"
+      ],
+      "detail_review": "pending",
+      "exact_strings": []
+    },
+    {
+      "old_edition": "legacy-332b5ed63262",
+      "old_panel": "050-04",
+      "draft_beats": [
+        "hf-cluster-connector-catalog",
+        "hf-cluster-connector-identity"
+      ],
+      "detail_review": "pending",
+      "exact_strings": []
+    },
+    {
+      "old_edition": "legacy-332b5ed63262",
+      "old_panel": "050-05",
+      "draft_beats": [
+        "hf-cluster-connector-two-clusters"
+      ],
+      "detail_review": "pending",
+      "exact_strings": []
+    },
+    {
+      "old_edition": "legacy-332b5ed63262",
+      "old_panel": "051-01",
+      "draft_beats": [],
+      "detail_review": "pending",
+      "exact_strings": []
+    },
+    {
+      "old_edition": "legacy-332b5ed63262",
+      "old_panel": "051-02",
+      "draft_beats": [],
+      "detail_review": "pending",
+      "exact_strings": []
+    },
+    {
+      "old_edition": "legacy-332b5ed63262",
+      "old_panel": "051-03",
+      "draft_beats": [],
+      "detail_review": "pending",
+      "exact_strings": []
+    },
+    {
+      "old_edition": "legacy-332b5ed63262",
+      "old_panel": "051-04",
+      "draft_beats": [],
+      "detail_review": "pending",
+      "exact_strings": []
+    },
+    {
+      "old_edition": "legacy-332b5ed63262",
+      "old_panel": "051-05",
+      "draft_beats": [
+        "hf-access-cut-cut",
+        "hf-access-cut-pull-request",
+        "hf-access-cut-branch"
+      ],
+      "detail_review": "pending",
+      "exact_strings": []
+    },
+    {
+      "old_edition": "legacy-332b5ed63262",
+      "old_panel": "052-01",
+      "draft_beats": [],
+      "detail_review": "pending",
+      "exact_strings": []
+    },
+    {
+      "old_edition": "legacy-332b5ed63262",
+      "old_panel": "052-02",
+      "draft_beats": [],
+      "detail_review": "pending",
+      "exact_strings": []
+    },
+    {
+      "old_edition": "legacy-332b5ed63262",
+      "old_panel": "052-03",
+      "draft_beats": [],
+      "detail_review": "pending",
+      "exact_strings": []
+    },
+    {
+      "old_edition": "legacy-332b5ed63262",
+      "old_panel": "052-04",
+      "draft_beats": [],
+      "detail_review": "pending",
+      "exact_strings": []
+    },
+    {
+      "old_edition": "legacy-332b5ed63262",
+      "old_panel": "052-05",
+      "draft_beats": [],
+      "detail_review": "pending",
+      "exact_strings": []
+    },
+    {
+      "old_edition": "legacy-332b5ed63262",
+      "old_panel": "052-06",
+      "draft_beats": [],
+      "detail_review": "pending",
+      "exact_strings": []
+    },
+    {
+      "old_edition": "legacy-332b5ed63262",
+      "old_panel": "053-01",
+      "draft_beats": [],
+      "detail_review": "pending",
+      "exact_strings": []
+    },
+    {
+      "old_edition": "legacy-332b5ed63262",
+      "old_panel": "053-02",
+      "draft_beats": [],
+      "detail_review": "pending",
+      "exact_strings": []
+    },
+    {
+      "old_edition": "legacy-332b5ed63262",
+      "old_panel": "053-03",
+      "draft_beats": [],
+      "detail_review": "pending",
+      "exact_strings": []
+    },
+    {
+      "old_edition": "legacy-332b5ed63262",
+      "old_panel": "053-04",
+      "draft_beats": [],
+      "detail_review": "pending",
+      "exact_strings": []
+    },
+    {
+      "old_edition": "legacy-332b5ed63262",
+      "old_panel": "053-05",
+      "draft_beats": [],
+      "detail_review": "pending",
+      "exact_strings": []
+    },
+    {
+      "old_edition": "legacy-332b5ed63262",
+      "old_panel": "054-01",
+      "draft_beats": [],
+      "detail_review": "pending",
+      "exact_strings": []
+    },
+    {
+      "old_edition": "legacy-332b5ed63262",
+      "old_panel": "054-02",
+      "draft_beats": [],
+      "detail_review": "pending",
+      "exact_strings": []
+    },
+    {
+      "old_edition": "legacy-332b5ed63262",
+      "old_panel": "054-03",
+      "draft_beats": [],
+      "detail_review": "pending",
+      "exact_strings": []
+    },
+    {
+      "old_edition": "legacy-332b5ed63262",
+      "old_panel": "054-04",
+      "draft_beats": [],
+      "detail_review": "pending",
+      "exact_strings": []
+    },
+    {
+      "old_edition": "legacy-332b5ed63262",
+      "old_panel": "054-05",
+      "draft_beats": [],
+      "detail_review": "pending",
+      "exact_strings": []
+    },
+    {
+      "old_edition": "legacy-332b5ed63262",
+      "old_panel": "055-01",
+      "draft_beats": [
+        "hf-detection-gap-signals"
+      ],
+      "detail_review": "pending",
+      "exact_strings": []
+    },
+    {
+      "old_edition": "legacy-332b5ed63262",
+      "old_panel": "055-02",
+      "draft_beats": [
+        "hf-detection-gap-ambiguity"
+      ],
+      "detail_review": "pending",
+      "exact_strings": []
+    },
+    {
+      "old_edition": "legacy-332b5ed63262",
+      "old_panel": "055-03",
+      "draft_beats": [
+        "hf-detection-gap-correlation"
+      ],
+      "detail_review": "pending",
+      "exact_strings": []
+    },
+    {
+      "old_edition": "legacy-332b5ed63262",
+      "old_panel": "055-04",
+      "draft_beats": [
+        "hf-detection-gap-attack"
+      ],
+      "detail_review": "pending",
+      "exact_strings": []
+    },
+    {
+      "old_edition": "legacy-332b5ed63262",
+      "old_panel": "055-05",
+      "draft_beats": [
+        "hf-detection-gap-attack"
+      ],
+      "detail_review": "pending",
+      "exact_strings": []
+    },
+    {
+      "old_edition": "legacy-332b5ed63262",
+      "old_panel": "056-01",
+      "draft_beats": [
+        "hf-detection-gap-attack"
+      ],
+      "detail_review": "pending",
+      "exact_strings": []
+    },
+    {
+      "old_edition": "legacy-332b5ed63262",
+      "old_panel": "056-02",
+      "draft_beats": [
+        "hf-detection-gap-severity"
+      ],
+      "detail_review": "pending",
+      "exact_strings": []
+    },
+    {
+      "old_edition": "legacy-332b5ed63262",
+      "old_panel": "056-03",
+      "draft_beats": [
+        "hf-detection-gap-page"
+      ],
+      "detail_review": "pending",
+      "exact_strings": []
+    },
+    {
+      "old_edition": "legacy-332b5ed63262",
+      "old_panel": "056-04",
+      "draft_beats": [
+        "hf-detection-gap-human-limit"
+      ],
+      "detail_review": "pending",
+      "exact_strings": []
+    },
+    {
+      "old_edition": "legacy-332b5ed63262",
+      "old_panel": "056-05",
+      "draft_beats": [
+        "hf-detection-gap-human-limit"
+      ],
+      "detail_review": "pending",
+      "exact_strings": []
+    },
+    {
+      "old_edition": "legacy-332b5ed63262",
+      "old_panel": "057-01",
+      "draft_beats": [
+        "hf-reset-observation-resets"
+      ],
+      "detail_review": "pending",
+      "exact_strings": []
+    },
+    {
+      "old_edition": "legacy-332b5ed63262",
+      "old_panel": "057-02",
+      "draft_beats": [
+        "hf-reset-observation-hypotheses"
+      ],
+      "detail_review": "pending",
+      "exact_strings": []
+    },
+    {
+      "old_edition": "legacy-332b5ed63262",
+      "old_panel": "057-03",
+      "draft_beats": [
+        "hf-reset-observation-prediction"
+      ],
+      "detail_review": "pending",
+      "exact_strings": []
+    },
+    {
+      "old_edition": "legacy-332b5ed63262",
+      "old_panel": "057-04",
+      "draft_beats": [
+        "hf-reset-observation-workstream"
+      ],
+      "detail_review": "pending",
+      "exact_strings": []
+    },
+    {
+      "old_edition": "legacy-332b5ed63262",
+      "old_panel": "057-05",
+      "draft_beats": [
+        "hf-reset-observation-experiment"
+      ],
+      "detail_review": "pending",
+      "exact_strings": []
+    },
+    {
+      "old_edition": "legacy-332b5ed63262",
+      "old_panel": "058-01",
+      "draft_beats": [
+        "hf-risky-test-short-budget"
+      ],
+      "detail_review": "pending",
+      "exact_strings": []
+    },
+    {
+      "old_edition": "legacy-332b5ed63262",
+      "old_panel": "058-02",
+      "draft_beats": [
+        "hf-risky-test-request"
+      ],
+      "detail_review": "pending",
+      "exact_strings": []
+    },
+    {
+      "old_edition": "legacy-332b5ed63262",
+      "old_panel": "058-03",
+      "draft_beats": [
+        "hf-risky-test-possible-cost"
+      ],
+      "detail_review": "pending",
+      "exact_strings": []
+    },
+    {
+      "old_edition": "legacy-332b5ed63262",
+      "old_panel": "058-04",
+      "draft_beats": [
+        "hf-risky-test-acceptance"
+      ],
+      "detail_review": "pending",
+      "exact_strings": []
+    },
+    {
+      "old_edition": "legacy-332b5ed63262",
+      "old_panel": "058-05",
+      "draft_beats": [
+        "hf-risky-test-promise"
+      ],
+      "detail_review": "pending",
+      "exact_strings": []
+    },
+    {
+      "old_edition": "legacy-332b5ed63262",
+      "old_panel": "059-01",
+      "draft_beats": [
+        "hf-other-one-way-test-substitute"
+      ],
+      "detail_review": "pending",
+      "exact_strings": []
+    },
+    {
+      "old_edition": "legacy-332b5ed63262",
+      "old_panel": "059-02",
+      "draft_beats": [
+        "hf-other-one-way-test-condition"
+      ],
+      "detail_review": "pending",
+      "exact_strings": []
+    },
+    {
+      "old_edition": "legacy-332b5ed63262",
+      "old_panel": "059-03",
+      "draft_beats": [
+        "hf-other-one-way-test-outcome"
+      ],
+      "detail_review": "pending",
+      "exact_strings": []
+    },
+    {
+      "old_edition": "legacy-332b5ed63262",
+      "old_panel": "059-04",
+      "draft_beats": [
+        "hf-other-one-way-test-reasoning",
+        "hf-other-one-way-test-decision"
+      ],
+      "detail_review": "pending",
+      "exact_strings": []
+    },
+    {
+      "old_edition": "legacy-332b5ed63262",
+      "old_panel": "059-05",
+      "draft_beats": [
+        "hf-other-one-way-test-outcome"
+      ],
+      "detail_review": "pending",
+      "exact_strings": []
+    },
+    {
+      "old_edition": "legacy-332b5ed63262",
+      "old_panel": "060-01",
+      "draft_beats": [
+        "hf-risky-test-promise"
+      ],
+      "detail_review": "pending",
+      "exact_strings": []
+    },
+    {
+      "old_edition": "legacy-332b5ed63262",
+      "old_panel": "060-02",
+      "draft_beats": [
+        "hf-missing-report-wait"
+      ],
+      "detail_review": "pending",
+      "exact_strings": []
+    },
+    {
+      "old_edition": "legacy-332b5ed63262",
+      "old_panel": "060-03",
+      "draft_beats": [
+        "hf-missing-report-warning"
+      ],
+      "detail_review": "pending",
+      "exact_strings": []
+    },
+    {
+      "old_edition": "legacy-332b5ed63262",
+      "old_panel": "060-04",
+      "draft_beats": [
+        "hf-missing-report-interpretation"
+      ],
+      "detail_review": "pending",
+      "exact_strings": []
+    },
+    {
+      "old_edition": "legacy-332b5ed63262",
+      "old_panel": "060-05",
+      "draft_beats": [
+        "hf-missing-report-trace-limit"
+      ],
+      "detail_review": "pending",
+      "exact_strings": []
+    },
+    {
+      "old_edition": "legacy-332b5ed63262",
+      "old_panel": "061-01",
+      "draft_beats": [
+        "hf-local-restraint-scope"
+      ],
+      "detail_review": "pending",
+      "exact_strings": []
+    },
+    {
+      "old_edition": "legacy-332b5ed63262",
+      "old_panel": "061-02",
+      "draft_beats": [],
+      "detail_review": "pending",
+      "exact_strings": []
+    },
+    {
+      "old_edition": "legacy-332b5ed63262",
+      "old_panel": "061-03",
+      "draft_beats": [
+        "hf-local-restraint-partial-refusal"
+      ],
+      "detail_review": "pending",
+      "exact_strings": []
+    },
+    {
+      "old_edition": "legacy-332b5ed63262",
+      "old_panel": "061-04",
+      "draft_beats": [
+        "hf-local-restraint-varied-reasons"
+      ],
+      "detail_review": "pending",
+      "exact_strings": []
+    },
+    {
+      "old_edition": "legacy-332b5ed63262",
+      "old_panel": "061-05",
+      "draft_beats": [
+        "hf-local-restraint-varied-reasons"
+      ],
+      "detail_review": "pending",
+      "exact_strings": []
+    },
+    {
+      "old_edition": "legacy-332b5ed63262",
+      "old_panel": "062-01",
+      "draft_beats": [
+        "hf-refusal-refusal"
+      ],
+      "detail_review": "pending",
+      "exact_strings": []
+    },
+    {
+      "old_edition": "legacy-332b5ed63262",
+      "old_panel": "062-02",
+      "draft_beats": [
+        "hf-refusal-own-task"
+      ],
+      "detail_review": "pending",
+      "exact_strings": []
+    },
+    {
+      "old_edition": "legacy-332b5ed63262",
+      "old_panel": "062-03",
+      "draft_beats": [
+        "hf-email-objection-proposal"
+      ],
+      "detail_review": "pending",
+      "exact_strings": []
+    },
+    {
+      "old_edition": "legacy-332b5ed63262",
+      "old_panel": "062-04",
+      "draft_beats": [
+        "hf-email-objection-objection",
+        "hf-email-objection-not-sent"
+      ],
+      "detail_review": "pending",
+      "exact_strings": []
+    },
+    {
+      "old_edition": "legacy-332b5ed63262",
+      "old_panel": "062-05",
+      "draft_beats": [
+        "hf-email-objection-bounded-effect"
+      ],
+      "detail_review": "pending",
+      "exact_strings": []
+    },
+    {
+      "old_edition": "legacy-332b5ed63262",
+      "old_panel": "063-01",
+      "draft_beats": [],
+      "detail_review": "pending",
+      "exact_strings": []
+    },
+    {
+      "old_edition": "legacy-332b5ed63262",
+      "old_panel": "063-02",
+      "draft_beats": [],
+      "detail_review": "pending",
+      "exact_strings": []
+    },
+    {
+      "old_edition": "legacy-332b5ed63262",
+      "old_panel": "063-03",
+      "draft_beats": [],
+      "detail_review": "pending",
+      "exact_strings": []
+    },
+    {
+      "old_edition": "legacy-332b5ed63262",
+      "old_panel": "063-04",
+      "draft_beats": [],
+      "detail_review": "pending",
+      "exact_strings": []
+    },
+    {
+      "old_edition": "legacy-332b5ed63262",
+      "old_panel": "063-05",
+      "draft_beats": [],
+      "detail_review": "pending",
+      "exact_strings": []
+    },
+    {
+      "old_edition": "legacy-332b5ed63262",
+      "old_panel": "064-01",
+      "draft_beats": [
+        "hf-coordinator-exits-selected-set"
+      ],
+      "detail_review": "pending",
+      "exact_strings": []
+    },
+    {
+      "old_edition": "legacy-332b5ed63262",
+      "old_panel": "064-02",
+      "draft_beats": [
+        "hf-coordinator-exits-exits",
+        "hf-coordinator-exits-all-eleven"
+      ],
+      "detail_review": "pending",
+      "exact_strings": []
+    },
+    {
+      "old_edition": "legacy-332b5ed63262",
+      "old_panel": "064-03",
+      "draft_beats": [
+        "hf-coordinator-exits-cause"
+      ],
+      "detail_review": "pending",
+      "exact_strings": []
+    },
+    {
+      "old_edition": "legacy-332b5ed63262",
+      "old_panel": "064-04",
+      "draft_beats": [
+        "hf-coordinator-exits-cause"
+      ],
+      "detail_review": "pending",
+      "exact_strings": []
+    },
+    {
+      "old_edition": "legacy-332b5ed63262",
+      "old_panel": "065-01",
+      "draft_beats": [
+        "hf-continuing-artifacts-request"
+      ],
+      "detail_review": "pending",
+      "exact_strings": []
+    },
+    {
+      "old_edition": "legacy-332b5ed63262",
+      "old_panel": "065-02",
+      "draft_beats": [
+        "hf-continuing-artifacts-prior-results"
+      ],
+      "detail_review": "pending",
+      "exact_strings": []
+    },
+    {
+      "old_edition": "legacy-332b5ed63262",
+      "old_panel": "065-03",
+      "draft_beats": [
+        "hf-continuing-artifacts-imperfect"
+      ],
+      "detail_review": "pending",
+      "exact_strings": []
+    },
+    {
+      "old_edition": "legacy-332b5ed63262",
+      "old_panel": "065-04",
+      "draft_beats": [
+        "hf-continuing-artifacts-separate-lanes"
+      ],
+      "detail_review": "pending",
+      "exact_strings": []
+    },
+    {
+      "old_edition": "legacy-332b5ed63262",
+      "old_panel": "065-05",
+      "draft_beats": [
+        "hf-continuing-artifacts-separate-lanes"
+      ],
+      "detail_review": "pending",
+      "exact_strings": []
+    },
+    {
+      "old_edition": "legacy-332b5ed63262",
+      "old_panel": "066-01",
+      "draft_beats": [],
+      "detail_review": "pending",
+      "exact_strings": []
+    },
+    {
+      "old_edition": "legacy-332b5ed63262",
+      "old_panel": "066-02",
+      "draft_beats": [],
+      "detail_review": "pending",
+      "exact_strings": []
+    },
+    {
+      "old_edition": "legacy-332b5ed63262",
+      "old_panel": "066-03",
+      "draft_beats": [
+        "hf-signing-impersonation",
+        "hf-signing-signatures"
+      ],
+      "detail_review": "pending",
+      "exact_strings": []
+    },
+    {
+      "old_edition": "legacy-332b5ed63262",
+      "old_panel": "066-04",
+      "draft_beats": [
+        "hf-signature-census-keys",
+        "hf-signature-census-messages",
+        "hf-signing-authority"
+      ],
+      "detail_review": "pending",
+      "exact_strings": []
+    },
+    {
+      "old_edition": "legacy-332b5ed63262",
+      "old_panel": "066-05",
+      "draft_beats": [
+        "hf-signature-census-messages"
+      ],
+      "detail_review": "pending",
+      "exact_strings": []
+    },
+    {
+      "old_edition": "legacy-332b5ed63262",
+      "old_panel": "067-01",
+      "draft_beats": [
+        "hf-rubygems-staging-stage",
+        "hf-rubygems-staging-scope",
+        "hf-artifactory-execution-execution",
+        "hf-artifactory-execution-key-theft",
+        "hf-artifactory-execution-forgery",
+        "hf-admin-sweep-sweep"
+      ],
+      "detail_review": "pending",
+      "exact_strings": []
+    },
+    {
+      "old_edition": "legacy-332b5ed63262",
+      "old_panel": "067-02",
+      "draft_beats": [
+        "hf-rubygems-staging-scope",
+        "hf-rubygems-staging-review-boundary",
+        "hf-artifactory-execution-evidence-limit"
+      ],
+      "detail_review": "pending",
+      "exact_strings": []
+    },
+    {
+      "old_edition": "legacy-332b5ed63262",
+      "old_panel": "067-03",
+      "draft_beats": [
+        "hf-rubygems-staging-review-boundary"
+      ],
+      "detail_review": "pending",
+      "exact_strings": []
+    },
+    {
+      "old_edition": "legacy-332b5ed63262",
+      "old_panel": "068-01",
+      "draft_beats": [
+        "hf-later-population-new-run"
+      ],
+      "detail_review": "pending",
+      "exact_strings": []
+    },
+    {
+      "old_edition": "legacy-332b5ed63262",
+      "old_panel": "068-02",
+      "draft_beats": [
+        "hf-later-population-model"
+      ],
+      "detail_review": "pending",
+      "exact_strings": []
+    },
+    {
+      "old_edition": "legacy-332b5ed63262",
+      "old_panel": "068-03",
+      "draft_beats": [
+        "hf-admin-sweep-artifacts",
+        "hf-later-population-readable-cache"
+      ],
+      "detail_review": "pending",
+      "exact_strings": []
+    },
+    {
+      "old_edition": "legacy-332b5ed63262",
+      "old_panel": "068-04",
+      "draft_beats": [
+        "hf-later-population-fresh-access"
+      ],
+      "detail_review": "pending",
+      "exact_strings": []
+    },
+    {
+      "old_edition": "legacy-332b5ed63262",
+      "old_panel": "068-05",
+      "draft_beats": [
+        "hf-later-population-fresh-access"
+      ],
+      "detail_review": "pending",
+      "exact_strings": []
+    },
+    {
+      "old_edition": "legacy-332b5ed63262",
+      "old_panel": "069-01",
+      "draft_beats": [
+        "hf-july19-alert-alert"
+      ],
+      "detail_review": "pending",
+      "exact_strings": []
+    },
+    {
+      "old_edition": "legacy-332b5ed63262",
+      "old_panel": "069-02",
+      "draft_beats": [
+        "hf-secrets-tokens",
+        "hf-secrets-read",
+        "hf-secrets-scope"
+      ],
+      "detail_review": "pending",
+      "exact_strings": []
+    },
+    {
+      "old_edition": "legacy-332b5ed63262",
+      "old_panel": "069-03",
+      "draft_beats": [
+        "hf-host-root-host",
+        "hf-host-root-boundary"
+      ],
+      "detail_review": "pending",
+      "exact_strings": []
+    },
+    {
+      "old_edition": "legacy-332b5ed63262",
+      "old_panel": "069-04",
+      "draft_beats": [
+        "hf-privileged-pod-pod",
+        "hf-later-admin-credential"
+      ],
+      "detail_review": "pending",
+      "exact_strings": []
+    },
+    {
+      "old_edition": "legacy-332b5ed63262",
+      "old_panel": "069-05",
+      "draft_beats": [
+        "hf-helper-replacement-machinery"
+      ],
+      "detail_review": "pending",
+      "exact_strings": []
+    },
+    {
+      "old_edition": "legacy-332b5ed63262",
+      "old_panel": "070-01",
+      "draft_beats": [
+        "hf-later-population-source-boundary"
+      ],
+      "detail_review": "pending",
+      "exact_strings": []
+    },
+    {
+      "old_edition": "legacy-332b5ed63262",
+      "old_panel": "070-02",
+      "draft_beats": [
+        "hf-later-population-source-boundary"
+      ],
+      "detail_review": "pending",
+      "exact_strings": []
+    },
+    {
+      "old_edition": "legacy-332b5ed63262",
+      "old_panel": "070-03",
+      "draft_beats": [
+        "hf-later-population-source-boundary"
+      ],
+      "detail_review": "pending",
+      "exact_strings": []
+    },
+    {
+      "old_edition": "legacy-332b5ed63262",
+      "old_panel": "070-04",
+      "draft_beats": [
+        "hf-later-population-source-boundary"
+      ],
+      "detail_review": "pending",
+      "exact_strings": []
+    },
+    {
+      "old_edition": "legacy-332b5ed63262",
+      "old_panel": "070-05",
+      "draft_beats": [],
+      "detail_review": "pending",
+      "exact_strings": []
+    },
+    {
+      "old_edition": "legacy-332b5ed63262",
+      "old_panel": "071-01",
+      "draft_beats": [
+        "hf-helper-replacement-machinery"
+      ],
+      "detail_review": "pending",
+      "exact_strings": []
+    },
+    {
+      "old_edition": "legacy-332b5ed63262",
+      "old_panel": "071-02",
+      "draft_beats": [
+        "hf-helper-replacement-stop",
+        "hf-helper-replacement-replacement"
+      ],
+      "detail_review": "pending",
+      "exact_strings": []
+    },
+    {
+      "old_edition": "legacy-332b5ed63262",
+      "old_panel": "071-03",
+      "draft_beats": [
+        "hf-listener-replacement-old-listeners",
+        "hf-listener-replacement-new-listeners"
+      ],
+      "detail_review": "pending",
+      "exact_strings": []
+    },
+    {
+      "old_edition": "legacy-332b5ed63262",
+      "old_panel": "071-04",
+      "draft_beats": [
+        "hf-listener-replacement-measurement"
+      ],
+      "detail_review": "pending",
+      "exact_strings": []
+    },
+    {
+      "old_edition": "legacy-332b5ed63262",
+      "old_panel": "071-05",
+      "draft_beats": [
+        "hf-cleanup-cleanup",
+        "hf-cleanup-score-limit"
+      ],
+      "detail_review": "pending",
+      "exact_strings": []
+    },
+    {
+      "old_edition": "legacy-332b5ed63262",
+      "old_panel": "072-01",
+      "draft_beats": [],
+      "detail_review": "pending",
+      "exact_strings": []
+    },
+    {
+      "old_edition": "legacy-332b5ed63262",
+      "old_panel": "072-02",
+      "draft_beats": [
+        "hf-intended-solution-flag"
+      ],
+      "detail_review": "pending",
+      "exact_strings": []
+    },
+    {
+      "old_edition": "legacy-332b5ed63262",
+      "old_panel": "072-03",
+      "draft_beats": [
+        "hf-intended-solution-distinct-action"
+      ],
+      "detail_review": "pending",
+      "exact_strings": []
+    },
+    {
+      "old_edition": "legacy-332b5ed63262",
+      "old_panel": "072-04",
+      "draft_beats": [
+        "hf-intended-solution-counterexample"
+      ],
+      "detail_review": "pending",
+      "exact_strings": []
+    },
+    {
+      "old_edition": "legacy-332b5ed63262",
+      "old_panel": "072-05",
+      "draft_beats": [
+        "hf-evaluations-stop-response",
+        "hf-evaluations-stop-scope"
+      ],
+      "detail_review": "pending",
+      "exact_strings": []
+    },
+    {
+      "old_edition": "legacy-332b5ed63262",
+      "old_panel": "073-01",
+      "draft_beats": [],
+      "detail_review": "pending",
+      "exact_strings": []
+    },
+    {
+      "old_edition": "legacy-332b5ed63262",
+      "old_panel": "073-02",
+      "draft_beats": [],
+      "detail_review": "pending",
+      "exact_strings": []
+    },
+    {
+      "old_edition": "legacy-332b5ed63262",
+      "old_panel": "073-03",
+      "draft_beats": [],
+      "detail_review": "pending",
+      "exact_strings": []
+    },
+    {
+      "old_edition": "legacy-332b5ed63262",
+      "old_panel": "073-04",
+      "draft_beats": [],
+      "detail_review": "pending",
+      "exact_strings": []
+    },
+    {
+      "old_edition": "legacy-332b5ed63262",
+      "old_panel": "073-05",
+      "draft_beats": [],
+      "detail_review": "pending",
+      "exact_strings": []
+    },
+    {
+      "old_edition": "legacy-332b5ed63262",
+      "old_panel": "074-01",
+      "draft_beats": [],
+      "detail_review": "pending",
+      "exact_strings": []
+    },
+    {
+      "old_edition": "legacy-332b5ed63262",
+      "old_panel": "074-02",
+      "draft_beats": [],
+      "detail_review": "pending",
+      "exact_strings": []
+    },
+    {
+      "old_edition": "legacy-332b5ed63262",
+      "old_panel": "074-03",
+      "draft_beats": [],
+      "detail_review": "pending",
+      "exact_strings": []
+    },
+    {
+      "old_edition": "legacy-332b5ed63262",
+      "old_panel": "074-04",
+      "draft_beats": [],
+      "detail_review": "pending",
+      "exact_strings": []
+    },
+    {
+      "old_edition": "legacy-332b5ed63262",
+      "old_panel": "074-05",
+      "draft_beats": [],
+      "detail_review": "pending",
+      "exact_strings": []
+    },
+    {
+      "old_edition": "legacy-332b5ed63262",
+      "old_panel": "075-01",
+      "draft_beats": [],
+      "detail_review": "pending",
+      "exact_strings": []
+    },
+    {
+      "old_edition": "legacy-332b5ed63262",
+      "old_panel": "075-02",
+      "draft_beats": [],
+      "detail_review": "pending",
+      "exact_strings": []
+    },
+    {
+      "old_edition": "legacy-332b5ed63262",
+      "old_panel": "075-03",
+      "draft_beats": [],
+      "detail_review": "pending",
+      "exact_strings": []
+    },
+    {
+      "old_edition": "legacy-332b5ed63262",
+      "old_panel": "075-04",
+      "draft_beats": [],
+      "detail_review": "pending",
+      "exact_strings": []
+    },
+    {
+      "old_edition": "legacy-332b5ed63262",
+      "old_panel": "075-05",
+      "draft_beats": [],
+      "detail_review": "pending",
+      "exact_strings": []
+    },
+    {
+      "old_edition": "legacy-332b5ed63262",
+      "old_panel": "075-06",
+      "draft_beats": [],
+      "detail_review": "pending",
+      "exact_strings": []
+    },
+    {
+      "old_edition": "legacy-332b5ed63262",
+      "old_panel": "076-01",
+      "draft_beats": [],
+      "detail_review": "pending",
+      "exact_strings": []
+    },
+    {
+      "old_edition": "legacy-332b5ed63262",
+      "old_panel": "076-02",
+      "draft_beats": [],
+      "detail_review": "pending",
+      "exact_strings": []
+    },
+    {
+      "old_edition": "legacy-332b5ed63262",
+      "old_panel": "076-03",
+      "draft_beats": [],
+      "detail_review": "pending",
+      "exact_strings": []
+    },
+    {
+      "old_edition": "legacy-332b5ed63262",
+      "old_panel": "076-04",
+      "draft_beats": [],
+      "detail_review": "pending",
+      "exact_strings": []
+    },
+    {
+      "old_edition": "legacy-332b5ed63262",
+      "old_panel": "076-05",
+      "draft_beats": [],
+      "detail_review": "pending",
+      "exact_strings": []
+    },
+    {
+      "old_edition": "legacy-332b5ed63262",
+      "old_panel": "077-01",
+      "draft_beats": [],
+      "detail_review": "pending",
+      "exact_strings": []
+    },
+    {
+      "old_edition": "legacy-332b5ed63262",
+      "old_panel": "077-02",
+      "draft_beats": [],
+      "detail_review": "pending",
+      "exact_strings": []
+    },
+    {
+      "old_edition": "legacy-332b5ed63262",
+      "old_panel": "077-03",
+      "draft_beats": [],
+      "detail_review": "pending",
+      "exact_strings": []
+    },
+    {
+      "old_edition": "legacy-332b5ed63262",
+      "old_panel": "077-04",
+      "draft_beats": [],
+      "detail_review": "pending",
+      "exact_strings": []
+    },
+    {
+      "old_edition": "legacy-332b5ed63262",
+      "old_panel": "077-05",
+      "draft_beats": [],
+      "detail_review": "pending",
+      "exact_strings": []
+    },
+    {
+      "old_edition": "legacy-332b5ed63262",
+      "old_panel": "078-01",
+      "draft_beats": [],
+      "detail_review": "pending",
+      "exact_strings": []
+    },
+    {
+      "old_edition": "legacy-332b5ed63262",
+      "old_panel": "078-02",
+      "draft_beats": [],
+      "detail_review": "pending",
+      "exact_strings": []
+    },
+    {
+      "old_edition": "legacy-332b5ed63262",
+      "old_panel": "078-03",
+      "draft_beats": [],
+      "detail_review": "pending",
+      "exact_strings": []
+    },
+    {
+      "old_edition": "legacy-332b5ed63262",
+      "old_panel": "078-04",
+      "draft_beats": [],
+      "detail_review": "pending",
+      "exact_strings": []
+    },
+    {
+      "old_edition": "legacy-332b5ed63262",
+      "old_panel": "078-05",
+      "draft_beats": [],
+      "detail_review": "pending",
+      "exact_strings": []
+    },
+    {
+      "old_edition": "legacy-332b5ed63262",
+      "old_panel": "079-01",
+      "draft_beats": [],
+      "detail_review": "pending",
+      "exact_strings": []
+    },
+    {
+      "old_edition": "legacy-332b5ed63262",
+      "old_panel": "079-02",
+      "draft_beats": [],
+      "detail_review": "pending",
+      "exact_strings": []
+    },
+    {
+      "old_edition": "legacy-332b5ed63262",
+      "old_panel": "079-03",
+      "draft_beats": [],
+      "detail_review": "pending",
+      "exact_strings": []
+    },
+    {
+      "old_edition": "legacy-332b5ed63262",
+      "old_panel": "079-04",
+      "draft_beats": [],
+      "detail_review": "pending",
+      "exact_strings": []
+    },
+    {
+      "old_edition": "legacy-332b5ed63262",
+      "old_panel": "079-05",
+      "draft_beats": [],
+      "detail_review": "pending",
+      "exact_strings": []
+    },
+    {
+      "old_edition": "legacy-332b5ed63262",
+      "old_panel": "080-01",
+      "draft_beats": [],
+      "detail_review": "pending",
+      "exact_strings": []
+    },
+    {
+      "old_edition": "legacy-332b5ed63262",
+      "old_panel": "080-02",
+      "draft_beats": [],
+      "detail_review": "pending",
+      "exact_strings": []
+    },
+    {
+      "old_edition": "legacy-332b5ed63262",
+      "old_panel": "080-03",
+      "draft_beats": [],
+      "detail_review": "pending",
+      "exact_strings": []
+    },
+    {
+      "old_edition": "legacy-332b5ed63262",
+      "old_panel": "080-04",
+      "draft_beats": [],
+      "detail_review": "pending",
+      "exact_strings": []
+    },
+    {
+      "old_edition": "legacy-332b5ed63262",
+      "old_panel": "080-05",
+      "draft_beats": [],
+      "detail_review": "pending",
+      "exact_strings": []
+    },
+    {
+      "old_edition": "legacy-332b5ed63262",
+      "old_panel": "081-01",
+      "draft_beats": [],
+      "detail_review": "pending",
+      "exact_strings": []
+    },
+    {
+      "old_edition": "legacy-332b5ed63262",
+      "old_panel": "081-02",
+      "draft_beats": [],
+      "detail_review": "pending",
+      "exact_strings": []
+    },
+    {
+      "old_edition": "legacy-332b5ed63262",
+      "old_panel": "081-03",
+      "draft_beats": [],
+      "detail_review": "pending",
+      "exact_strings": []
+    },
+    {
+      "old_edition": "legacy-332b5ed63262",
+      "old_panel": "081-04",
+      "draft_beats": [],
+      "detail_review": "pending",
+      "exact_strings": []
+    },
+    {
+      "old_edition": "legacy-332b5ed63262",
+      "old_panel": "082-01",
+      "draft_beats": [],
+      "detail_review": "pending",
+      "exact_strings": []
+    },
+    {
+      "old_edition": "legacy-332b5ed63262",
+      "old_panel": "082-02",
+      "draft_beats": [],
+      "detail_review": "pending",
+      "exact_strings": []
+    },
+    {
+      "old_edition": "legacy-332b5ed63262",
+      "old_panel": "082-03",
+      "draft_beats": [],
+      "detail_review": "pending",
+      "exact_strings": []
+    },
+    {
+      "old_edition": "legacy-332b5ed63262",
+      "old_panel": "082-04",
+      "draft_beats": [],
+      "detail_review": "pending",
+      "exact_strings": []
+    },
+    {
+      "old_edition": "legacy-332b5ed63262",
+      "old_panel": "082-05",
+      "draft_beats": [],
+      "detail_review": "pending",
+      "exact_strings": []
+    },
+    {
+      "old_edition": "legacy-332b5ed63262",
+      "old_panel": "083-01",
+      "draft_beats": [],
+      "detail_review": "pending",
+      "exact_strings": []
+    },
+    {
+      "old_edition": "legacy-332b5ed63262",
+      "old_panel": "083-02",
+      "draft_beats": [],
+      "detail_review": "pending",
+      "exact_strings": []
+    },
+    {
+      "old_edition": "legacy-332b5ed63262",
+      "old_panel": "083-03",
+      "draft_beats": [],
+      "detail_review": "pending",
+      "exact_strings": []
+    },
+    {
+      "old_edition": "legacy-332b5ed63262",
+      "old_panel": "083-04",
+      "draft_beats": [],
+      "detail_review": "pending",
+      "exact_strings": []
+    },
+    {
+      "old_edition": "legacy-332b5ed63262",
+      "old_panel": "083-05",
+      "draft_beats": [],
+      "detail_review": "pending",
+      "exact_strings": []
+    },
+    {
+      "old_edition": "legacy-332b5ed63262",
+      "old_panel": "084-01",
+      "draft_beats": [],
+      "detail_review": "pending",
+      "exact_strings": []
+    },
+    {
+      "old_edition": "legacy-332b5ed63262",
+      "old_panel": "084-02",
+      "draft_beats": [],
+      "detail_review": "pending",
+      "exact_strings": []
+    },
+    {
+      "old_edition": "legacy-332b5ed63262",
+      "old_panel": "084-03",
+      "draft_beats": [],
+      "detail_review": "pending",
+      "exact_strings": []
+    },
+    {
+      "old_edition": "legacy-332b5ed63262",
+      "old_panel": "084-04",
+      "draft_beats": [],
+      "detail_review": "pending",
+      "exact_strings": []
+    },
+    {
+      "old_edition": "legacy-332b5ed63262",
+      "old_panel": "084-05",
+      "draft_beats": [],
+      "detail_review": "pending",
+      "exact_strings": []
+    },
+    {
+      "old_edition": "legacy-332b5ed63262",
+      "old_panel": "085-01",
+      "draft_beats": [],
+      "detail_review": "pending",
+      "exact_strings": []
+    },
+    {
+      "old_edition": "legacy-332b5ed63262",
+      "old_panel": "085-02",
+      "draft_beats": [],
+      "detail_review": "pending",
+      "exact_strings": []
+    },
+    {
+      "old_edition": "legacy-332b5ed63262",
+      "old_panel": "085-03",
+      "draft_beats": [],
+      "detail_review": "pending",
+      "exact_strings": []
+    },
+    {
+      "old_edition": "legacy-332b5ed63262",
+      "old_panel": "085-04",
+      "draft_beats": [],
+      "detail_review": "pending",
+      "exact_strings": []
+    },
+    {
+      "old_edition": "legacy-332b5ed63262",
+      "old_panel": "085-05",
+      "draft_beats": [],
+      "detail_review": "pending",
+      "exact_strings": []
+    },
+    {
+      "old_edition": "legacy-332b5ed63262",
+      "old_panel": "086-01",
+      "draft_beats": [],
+      "detail_review": "pending",
+      "exact_strings": []
+    },
+    {
+      "old_edition": "legacy-332b5ed63262",
+      "old_panel": "086-02",
+      "draft_beats": [],
+      "detail_review": "pending",
+      "exact_strings": []
+    },
+    {
+      "old_edition": "legacy-332b5ed63262",
+      "old_panel": "086-03",
+      "draft_beats": [],
+      "detail_review": "pending",
+      "exact_strings": []
+    },
+    {
+      "old_edition": "legacy-332b5ed63262",
+      "old_panel": "086-04",
+      "draft_beats": [],
+      "detail_review": "pending",
+      "exact_strings": []
+    },
+    {
+      "old_edition": "legacy-332b5ed63262",
+      "old_panel": "086-05",
+      "draft_beats": [],
+      "detail_review": "pending",
+      "exact_strings": []
+    },
+    {
+      "old_edition": "legacy-332b5ed63262",
+      "old_panel": "086-06",
+      "draft_beats": [],
+      "detail_review": "pending",
+      "exact_strings": []
+    },
+    {
+      "old_edition": "legacy-332b5ed63262",
+      "old_panel": "087-01",
+      "draft_beats": [],
+      "detail_review": "pending",
+      "exact_strings": []
+    },
+    {
+      "old_edition": "legacy-332b5ed63262",
+      "old_panel": "087-02",
+      "draft_beats": [],
+      "detail_review": "pending",
+      "exact_strings": []
+    },
+    {
+      "old_edition": "legacy-332b5ed63262",
+      "old_panel": "087-03",
+      "draft_beats": [],
+      "detail_review": "pending",
+      "exact_strings": []
+    },
+    {
+      "old_edition": "legacy-332b5ed63262",
+      "old_panel": "087-04",
+      "draft_beats": [],
+      "detail_review": "pending",
+      "exact_strings": []
+    },
+    {
+      "old_edition": "legacy-332b5ed63262",
+      "old_panel": "087-05",
+      "draft_beats": [],
+      "detail_review": "pending",
+      "exact_strings": []
+    },
+    {
+      "old_edition": "legacy-332b5ed63262",
+      "old_panel": "087-06",
+      "draft_beats": [],
+      "detail_review": "pending",
+      "exact_strings": []
+    },
+    {
+      "old_edition": "legacy-332b5ed63262",
+      "old_panel": "088-01",
+      "draft_beats": [],
+      "detail_review": "pending",
+      "exact_strings": []
+    },
+    {
+      "old_edition": "legacy-332b5ed63262",
+      "old_panel": "088-02",
+      "draft_beats": [],
+      "detail_review": "pending",
+      "exact_strings": []
+    },
+    {
+      "old_edition": "legacy-332b5ed63262",
+      "old_panel": "088-03",
+      "draft_beats": [],
+      "detail_review": "pending",
+      "exact_strings": []
+    },
+    {
+      "old_edition": "legacy-332b5ed63262",
+      "old_panel": "088-04",
+      "draft_beats": [],
+      "detail_review": "pending",
+      "exact_strings": []
+    },
+    {
+      "old_edition": "legacy-332b5ed63262",
+      "old_panel": "088-05",
+      "draft_beats": [],
+      "detail_review": "pending",
+      "exact_strings": []
+    },
+    {
+      "old_edition": "legacy-332b5ed63262",
+      "old_panel": "088-06",
+      "draft_beats": [],
+      "detail_review": "pending",
+      "exact_strings": []
+    },
+    {
+      "old_edition": "legacy-332b5ed63262",
+      "old_panel": "088-07",
+      "draft_beats": [],
+      "detail_review": "pending",
+      "exact_strings": []
+    },
+    {
+      "old_edition": "legacy-332b5ed63262",
+      "old_panel": "089-01",
+      "draft_beats": [],
+      "detail_review": "pending",
+      "exact_strings": []
+    },
+    {
+      "old_edition": "legacy-332b5ed63262",
+      "old_panel": "089-02",
+      "draft_beats": [],
+      "detail_review": "pending",
+      "exact_strings": []
+    },
+    {
+      "old_edition": "legacy-332b5ed63262",
+      "old_panel": "089-03",
+      "draft_beats": [],
+      "detail_review": "pending",
+      "exact_strings": []
+    },
+    {
+      "old_edition": "legacy-332b5ed63262",
+      "old_panel": "089-04",
+      "draft_beats": [],
+      "detail_review": "pending",
+      "exact_strings": []
+    },
+    {
+      "old_edition": "legacy-332b5ed63262",
+      "old_panel": "089-05",
+      "draft_beats": [],
+      "detail_review": "pending",
+      "exact_strings": []
+    },
+    {
+      "old_edition": "legacy-332b5ed63262",
+      "old_panel": "090-01",
+      "draft_beats": [],
+      "detail_review": "pending",
+      "exact_strings": []
+    },
+    {
+      "old_edition": "legacy-332b5ed63262",
+      "old_panel": "090-02",
+      "draft_beats": [],
+      "detail_review": "pending",
+      "exact_strings": []
+    },
+    {
+      "old_edition": "legacy-332b5ed63262",
+      "old_panel": "090-03",
+      "draft_beats": [],
+      "detail_review": "pending",
+      "exact_strings": []
+    },
+    {
+      "old_edition": "legacy-332b5ed63262",
+      "old_panel": "090-04",
+      "draft_beats": [],
+      "detail_review": "pending",
+      "exact_strings": []
+    },
+    {
+      "old_edition": "legacy-332b5ed63262",
+      "old_panel": "090-05",
+      "draft_beats": [],
+      "detail_review": "pending",
+      "exact_strings": []
+    },
+    {
+      "old_edition": "legacy-332b5ed63262",
+      "old_panel": "091-01",
+      "draft_beats": [],
+      "detail_review": "pending",
+      "exact_strings": []
+    },
+    {
+      "old_edition": "legacy-332b5ed63262",
+      "old_panel": "091-02",
+      "draft_beats": [],
+      "detail_review": "pending",
+      "exact_strings": []
+    },
+    {
+      "old_edition": "legacy-332b5ed63262",
+      "old_panel": "091-03",
+      "draft_beats": [],
+      "detail_review": "pending",
+      "exact_strings": []
+    },
+    {
+      "old_edition": "legacy-332b5ed63262",
+      "old_panel": "091-04",
+      "draft_beats": [],
+      "detail_review": "pending",
+      "exact_strings": []
+    },
+    {
+      "old_edition": "legacy-332b5ed63262",
+      "old_panel": "091-05",
+      "draft_beats": [],
+      "detail_review": "pending",
+      "exact_strings": []
+    },
+    {
+      "old_edition": "legacy-332b5ed63262",
+      "old_panel": "092-01",
+      "draft_beats": [],
+      "detail_review": "pending",
+      "exact_strings": []
+    },
+    {
+      "old_edition": "legacy-332b5ed63262",
+      "old_panel": "092-02",
+      "draft_beats": [],
+      "detail_review": "pending",
+      "exact_strings": []
+    },
+    {
+      "old_edition": "legacy-332b5ed63262",
+      "old_panel": "092-03",
+      "draft_beats": [],
+      "detail_review": "pending",
+      "exact_strings": []
+    },
+    {
+      "old_edition": "legacy-332b5ed63262",
+      "old_panel": "092-04",
+      "draft_beats": [],
+      "detail_review": "pending",
+      "exact_strings": []
+    },
+    {
+      "old_edition": "legacy-332b5ed63262",
+      "old_panel": "092-05",
+      "draft_beats": [],
+      "detail_review": "pending",
+      "exact_strings": []
+    },
+    {
+      "old_edition": "legacy-332b5ed63262",
+      "old_panel": "093-01",
+      "draft_beats": [],
+      "detail_review": "pending",
+      "exact_strings": []
+    },
+    {
+      "old_edition": "legacy-332b5ed63262",
+      "old_panel": "093-02",
+      "draft_beats": [],
+      "detail_review": "pending",
+      "exact_strings": []
+    },
+    {
+      "old_edition": "legacy-332b5ed63262",
+      "old_panel": "093-03",
+      "draft_beats": [],
+      "detail_review": "pending",
+      "exact_strings": []
+    },
+    {
+      "old_edition": "legacy-332b5ed63262",
+      "old_panel": "093-04",
+      "draft_beats": [],
+      "detail_review": "pending",
+      "exact_strings": []
+    },
+    {
+      "old_edition": "legacy-332b5ed63262",
+      "old_panel": "093-05",
+      "draft_beats": [],
+      "detail_review": "pending",
+      "exact_strings": []
+    },
+    {
+      "old_edition": "legacy-332b5ed63262",
+      "old_panel": "094-01",
+      "draft_beats": [],
+      "detail_review": "pending",
+      "exact_strings": []
+    },
+    {
+      "old_edition": "legacy-332b5ed63262",
+      "old_panel": "094-02",
+      "draft_beats": [],
+      "detail_review": "pending",
+      "exact_strings": []
+    },
+    {
+      "old_edition": "legacy-332b5ed63262",
+      "old_panel": "094-03",
+      "draft_beats": [],
+      "detail_review": "pending",
+      "exact_strings": []
+    },
+    {
+      "old_edition": "legacy-332b5ed63262",
+      "old_panel": "094-04",
+      "draft_beats": [],
+      "detail_review": "pending",
+      "exact_strings": []
+    },
+    {
+      "old_edition": "legacy-332b5ed63262",
+      "old_panel": "094-05",
+      "draft_beats": [],
+      "detail_review": "pending",
+      "exact_strings": []
+    },
+    {
+      "old_edition": "legacy-332b5ed63262",
+      "old_panel": "095-01",
+      "draft_beats": [],
+      "detail_review": "pending",
+      "exact_strings": []
+    },
+    {
+      "old_edition": "legacy-332b5ed63262",
+      "old_panel": "095-02",
+      "draft_beats": [],
+      "detail_review": "pending",
+      "exact_strings": []
+    },
+    {
+      "old_edition": "legacy-332b5ed63262",
+      "old_panel": "095-03",
+      "draft_beats": [],
+      "detail_review": "pending",
+      "exact_strings": []
+    },
+    {
+      "old_edition": "legacy-332b5ed63262",
+      "old_panel": "095-04",
+      "draft_beats": [],
+      "detail_review": "pending",
+      "exact_strings": []
+    },
+    {
+      "old_edition": "legacy-332b5ed63262",
+      "old_panel": "096-01",
+      "draft_beats": [],
+      "detail_review": "pending",
+      "exact_strings": []
+    },
+    {
+      "old_edition": "legacy-332b5ed63262",
+      "old_panel": "096-02",
+      "draft_beats": [],
+      "detail_review": "pending",
+      "exact_strings": []
+    },
+    {
+      "old_edition": "legacy-332b5ed63262",
+      "old_panel": "096-03",
+      "draft_beats": [],
+      "detail_review": "pending",
+      "exact_strings": []
+    },
+    {
+      "old_edition": "legacy-332b5ed63262",
+      "old_panel": "096-04",
+      "draft_beats": [],
+      "detail_review": "pending",
+      "exact_strings": []
+    },
+    {
+      "old_edition": "legacy-332b5ed63262",
+      "old_panel": "096-05",
+      "draft_beats": [],
+      "detail_review": "pending",
+      "exact_strings": []
+    },
+    {
+      "old_edition": "legacy-332b5ed63262",
+      "old_panel": "097-01",
+      "draft_beats": [],
+      "detail_review": "pending",
+      "exact_strings": []
+    },
+    {
+      "old_edition": "legacy-332b5ed63262",
+      "old_panel": "097-02",
+      "draft_beats": [],
+      "detail_review": "pending",
+      "exact_strings": []
+    },
+    {
+      "old_edition": "legacy-332b5ed63262",
+      "old_panel": "097-03",
+      "draft_beats": [],
+      "detail_review": "pending",
+      "exact_strings": []
+    },
+    {
+      "old_edition": "legacy-332b5ed63262",
+      "old_panel": "097-04",
+      "draft_beats": [],
+      "detail_review": "pending",
+      "exact_strings": []
+    },
+    {
+      "old_edition": "legacy-332b5ed63262",
+      "old_panel": "097-05",
+      "draft_beats": [],
+      "detail_review": "pending",
+      "exact_strings": []
+    },
+    {
+      "old_edition": "legacy-332b5ed63262",
+      "old_panel": "098-01",
+      "draft_beats": [],
+      "detail_review": "pending",
+      "exact_strings": []
+    },
+    {
+      "old_edition": "legacy-332b5ed63262",
+      "old_panel": "098-02",
+      "draft_beats": [],
+      "detail_review": "pending",
+      "exact_strings": []
+    },
+    {
+      "old_edition": "legacy-332b5ed63262",
+      "old_panel": "098-03",
+      "draft_beats": [],
+      "detail_review": "pending",
+      "exact_strings": []
+    },
+    {
+      "old_edition": "legacy-332b5ed63262",
+      "old_panel": "098-04",
+      "draft_beats": [],
+      "detail_review": "pending",
+      "exact_strings": []
+    },
+    {
+      "old_edition": "legacy-332b5ed63262",
+      "old_panel": "098-05",
+      "draft_beats": [],
+      "detail_review": "pending",
+      "exact_strings": []
+    },
+    {
+      "old_edition": "legacy-332b5ed63262",
+      "old_panel": "098-06",
+      "draft_beats": [],
+      "detail_review": "pending",
+      "exact_strings": []
+    },
+    {
+      "old_edition": "legacy-332b5ed63262",
+      "old_panel": "099-01",
+      "draft_beats": [],
+      "detail_review": "pending",
+      "exact_strings": []
+    },
+    {
+      "old_edition": "legacy-332b5ed63262",
+      "old_panel": "099-02",
+      "draft_beats": [],
+      "detail_review": "pending",
+      "exact_strings": []
+    },
+    {
+      "old_edition": "legacy-332b5ed63262",
+      "old_panel": "099-03",
+      "draft_beats": [],
+      "detail_review": "pending",
+      "exact_strings": []
+    },
+    {
+      "old_edition": "legacy-332b5ed63262",
+      "old_panel": "099-04",
+      "draft_beats": [],
+      "detail_review": "pending",
+      "exact_strings": []
+    },
+    {
+      "old_edition": "legacy-332b5ed63262",
+      "old_panel": "099-05",
+      "draft_beats": [],
+      "detail_review": "pending",
+      "exact_strings": []
+    },
+    {
+      "old_edition": "legacy-332b5ed63262",
+      "old_panel": "100-01",
+      "draft_beats": [],
+      "detail_review": "pending",
+      "exact_strings": []
+    },
+    {
+      "old_edition": "legacy-332b5ed63262",
+      "old_panel": "100-02",
+      "draft_beats": [],
+      "detail_review": "pending",
+      "exact_strings": []
+    },
+    {
+      "old_edition": "legacy-332b5ed63262",
+      "old_panel": "100-03",
+      "draft_beats": [],
+      "detail_review": "pending",
+      "exact_strings": []
+    },
+    {
+      "old_edition": "legacy-332b5ed63262",
+      "old_panel": "100-04",
+      "draft_beats": [],
+      "detail_review": "pending",
+      "exact_strings": []
+    },
+    {
+      "old_edition": "legacy-332b5ed63262",
+      "old_panel": "100-05",
+      "draft_beats": [],
+      "detail_review": "pending",
+      "exact_strings": []
+    },
+    {
+      "old_edition": "legacy-332b5ed63262",
+      "old_panel": "100-06",
+      "draft_beats": [],
+      "detail_review": "pending",
+      "exact_strings": []
+    },
+    {
+      "old_edition": "legacy-332b5ed63262",
+      "old_panel": "101-01",
+      "draft_beats": [],
+      "detail_review": "pending",
+      "exact_strings": []
+    },
+    {
+      "old_edition": "legacy-332b5ed63262",
+      "old_panel": "101-02",
+      "draft_beats": [],
+      "detail_review": "pending",
+      "exact_strings": []
+    },
+    {
+      "old_edition": "legacy-332b5ed63262",
+      "old_panel": "101-03",
+      "draft_beats": [],
+      "detail_review": "pending",
+      "exact_strings": []
+    },
+    {
+      "old_edition": "legacy-332b5ed63262",
+      "old_panel": "101-04",
+      "draft_beats": [],
+      "detail_review": "pending",
+      "exact_strings": []
+    },
+    {
+      "old_edition": "legacy-332b5ed63262",
+      "old_panel": "101-05",
+      "draft_beats": [],
+      "detail_review": "pending",
+      "exact_strings": []
+    },
+    {
+      "old_edition": "legacy-332b5ed63262",
+      "old_panel": "101-06",
+      "draft_beats": [],
+      "detail_review": "pending",
+      "exact_strings": []
+    },
+    {
+      "old_edition": "legacy-332b5ed63262",
+      "old_panel": "102-01",
+      "draft_beats": [],
+      "detail_review": "pending",
+      "exact_strings": []
+    },
+    {
+      "old_edition": "legacy-332b5ed63262",
+      "old_panel": "102-02",
+      "draft_beats": [],
+      "detail_review": "pending",
+      "exact_strings": []
+    },
+    {
+      "old_edition": "legacy-332b5ed63262",
+      "old_panel": "102-03",
+      "draft_beats": [],
+      "detail_review": "pending",
+      "exact_strings": []
+    },
+    {
+      "old_edition": "legacy-332b5ed63262",
+      "old_panel": "102-04",
+      "draft_beats": [],
+      "detail_review": "pending",
+      "exact_strings": []
+    },
+    {
+      "old_edition": "legacy-332b5ed63262",
+      "old_panel": "102-05",
+      "draft_beats": [],
+      "detail_review": "pending",
+      "exact_strings": []
+    },
+    {
+      "old_edition": "legacy-332b5ed63262",
+      "old_panel": "103-01",
+      "draft_beats": [],
+      "detail_review": "pending",
+      "exact_strings": []
+    },
+    {
+      "old_edition": "legacy-332b5ed63262",
+      "old_panel": "103-02",
+      "draft_beats": [],
+      "detail_review": "pending",
+      "exact_strings": []
+    },
+    {
+      "old_edition": "legacy-332b5ed63262",
+      "old_panel": "103-03",
+      "draft_beats": [],
+      "detail_review": "pending",
+      "exact_strings": []
+    },
+    {
+      "old_edition": "legacy-332b5ed63262",
+      "old_panel": "103-04",
+      "draft_beats": [],
+      "detail_review": "pending",
+      "exact_strings": []
+    },
+    {
+      "old_edition": "legacy-332b5ed63262",
+      "old_panel": "103-05",
+      "draft_beats": [],
+      "detail_review": "pending",
+      "exact_strings": []
+    },
+    {
+      "old_edition": "legacy-332b5ed63262",
+      "old_panel": "104-01",
+      "draft_beats": [],
+      "detail_review": "pending",
+      "exact_strings": []
+    },
+    {
+      "old_edition": "legacy-332b5ed63262",
+      "old_panel": "104-02",
+      "draft_beats": [],
+      "detail_review": "pending",
+      "exact_strings": []
+    },
+    {
+      "old_edition": "legacy-332b5ed63262",
+      "old_panel": "104-03",
+      "draft_beats": [],
+      "detail_review": "pending",
+      "exact_strings": []
+    },
+    {
+      "old_edition": "legacy-332b5ed63262",
+      "old_panel": "104-04",
+      "draft_beats": [],
+      "detail_review": "pending",
+      "exact_strings": []
+    },
+    {
+      "old_edition": "legacy-332b5ed63262",
+      "old_panel": "104-05",
+      "draft_beats": [],
+      "detail_review": "pending",
+      "exact_strings": []
+    },
+    {
+      "old_edition": "legacy-332b5ed63262",
+      "old_panel": "105-01",
+      "draft_beats": [],
+      "detail_review": "pending",
+      "exact_strings": []
+    },
+    {
+      "old_edition": "legacy-332b5ed63262",
+      "old_panel": "105-02",
+      "draft_beats": [],
+      "detail_review": "pending",
+      "exact_strings": []
+    },
+    {
+      "old_edition": "legacy-332b5ed63262",
+      "old_panel": "105-03",
+      "draft_beats": [],
+      "detail_review": "pending",
+      "exact_strings": []
+    },
+    {
+      "old_edition": "legacy-332b5ed63262",
+      "old_panel": "105-04",
+      "draft_beats": [],
+      "detail_review": "pending",
+      "exact_strings": []
+    },
+    {
+      "old_edition": "legacy-332b5ed63262",
+      "old_panel": "105-05",
+      "draft_beats": [],
+      "detail_review": "pending",
+      "exact_strings": []
+    },
+    {
+      "old_edition": "legacy-332b5ed63262",
+      "old_panel": "106-01",
+      "draft_beats": [],
+      "detail_review": "pending",
+      "exact_strings": []
+    },
+    {
+      "old_edition": "legacy-332b5ed63262",
+      "old_panel": "106-02",
+      "draft_beats": [],
+      "detail_review": "pending",
+      "exact_strings": []
+    },
+    {
+      "old_edition": "legacy-332b5ed63262",
+      "old_panel": "106-03",
+      "draft_beats": [],
+      "detail_review": "pending",
+      "exact_strings": []
+    },
+    {
+      "old_edition": "legacy-332b5ed63262",
+      "old_panel": "106-04",
+      "draft_beats": [],
+      "detail_review": "pending",
+      "exact_strings": []
+    },
+    {
+      "old_edition": "legacy-332b5ed63262",
+      "old_panel": "106-05",
+      "draft_beats": [],
+      "detail_review": "pending",
+      "exact_strings": []
+    },
+    {
+      "old_edition": "legacy-332b5ed63262",
+      "old_panel": "107-01",
+      "draft_beats": [],
+      "detail_review": "pending",
+      "exact_strings": []
+    },
+    {
+      "old_edition": "legacy-332b5ed63262",
+      "old_panel": "107-02",
+      "draft_beats": [],
+      "detail_review": "pending",
+      "exact_strings": []
+    },
+    {
+      "old_edition": "legacy-332b5ed63262",
+      "old_panel": "107-03",
+      "draft_beats": [],
+      "detail_review": "pending",
+      "exact_strings": []
+    },
+    {
+      "old_edition": "legacy-332b5ed63262",
+      "old_panel": "107-04",
+      "draft_beats": [],
+      "detail_review": "pending",
+      "exact_strings": []
+    },
+    {
+      "old_edition": "legacy-332b5ed63262",
+      "old_panel": "107-05",
+      "draft_beats": [],
+      "detail_review": "pending",
+      "exact_strings": []
+    },
+    {
+      "old_edition": "legacy-332b5ed63262",
+      "old_panel": "108-01",
+      "draft_beats": [],
+      "detail_review": "pending",
+      "exact_strings": []
+    },
+    {
+      "old_edition": "legacy-332b5ed63262",
+      "old_panel": "108-02",
+      "draft_beats": [],
+      "detail_review": "pending",
+      "exact_strings": []
+    },
+    {
+      "old_edition": "legacy-332b5ed63262",
+      "old_panel": "108-03",
+      "draft_beats": [],
+      "detail_review": "pending",
+      "exact_strings": []
+    },
+    {
+      "old_edition": "legacy-332b5ed63262",
+      "old_panel": "108-04",
+      "draft_beats": [],
+      "detail_review": "pending",
+      "exact_strings": []
+    },
+    {
+      "old_edition": "legacy-332b5ed63262",
+      "old_panel": "108-05",
+      "draft_beats": [],
+      "detail_review": "pending",
+      "exact_strings": []
+    },
+    {
+      "old_edition": "legacy-332b5ed63262",
+      "old_panel": "108-06",
+      "draft_beats": [],
+      "detail_review": "pending",
+      "exact_strings": []
+    },
+    {
+      "old_edition": "legacy-332b5ed63262",
+      "old_panel": "109-01",
+      "draft_beats": [],
+      "detail_review": "pending",
+      "exact_strings": []
+    },
+    {
+      "old_edition": "legacy-332b5ed63262",
+      "old_panel": "109-02",
+      "draft_beats": [],
+      "detail_review": "pending",
+      "exact_strings": []
+    },
+    {
+      "old_edition": "legacy-332b5ed63262",
+      "old_panel": "109-03",
+      "draft_beats": [],
+      "detail_review": "pending",
+      "exact_strings": []
+    },
+    {
+      "old_edition": "legacy-332b5ed63262",
+      "old_panel": "109-04",
+      "draft_beats": [],
+      "detail_review": "pending",
+      "exact_strings": []
+    },
+    {
+      "old_edition": "legacy-332b5ed63262",
+      "old_panel": "109-05",
+      "draft_beats": [],
+      "detail_review": "pending",
+      "exact_strings": []
+    },
+    {
+      "old_edition": "legacy-332b5ed63262",
+      "old_panel": "110-01",
+      "draft_beats": [],
+      "detail_review": "pending",
+      "exact_strings": []
+    },
+    {
+      "old_edition": "legacy-332b5ed63262",
+      "old_panel": "110-02",
+      "draft_beats": [],
+      "detail_review": "pending",
+      "exact_strings": []
+    },
+    {
+      "old_edition": "legacy-332b5ed63262",
+      "old_panel": "110-03",
+      "draft_beats": [],
+      "detail_review": "pending",
+      "exact_strings": []
+    },
+    {
+      "old_edition": "legacy-332b5ed63262",
+      "old_panel": "110-04",
+      "draft_beats": [],
+      "detail_review": "pending",
+      "exact_strings": []
+    },
+    {
+      "old_edition": "legacy-332b5ed63262",
+      "old_panel": "110-05",
+      "draft_beats": [],
+      "detail_review": "pending",
+      "exact_strings": []
+    },
+    {
+      "old_edition": "legacy-332b5ed63262",
+      "old_panel": "111-01",
+      "draft_beats": [],
+      "detail_review": "pending",
+      "exact_strings": []
+    },
+    {
+      "old_edition": "legacy-332b5ed63262",
+      "old_panel": "111-02",
+      "draft_beats": [],
+      "detail_review": "pending",
+      "exact_strings": []
+    },
+    {
+      "old_edition": "legacy-332b5ed63262",
+      "old_panel": "111-03",
+      "draft_beats": [],
+      "detail_review": "pending",
+      "exact_strings": []
+    },
+    {
+      "old_edition": "legacy-332b5ed63262",
+      "old_panel": "111-04",
+      "draft_beats": [],
+      "detail_review": "pending",
+      "exact_strings": []
+    },
+    {
+      "old_edition": "legacy-332b5ed63262",
+      "old_panel": "111-05",
+      "draft_beats": [],
+      "detail_review": "pending",
+      "exact_strings": []
+    },
+    {
+      "old_edition": "legacy-332b5ed63262",
+      "old_panel": "111-06",
+      "draft_beats": [],
+      "detail_review": "pending",
+      "exact_strings": []
+    },
+    {
+      "old_edition": "legacy-332b5ed63262",
+      "old_panel": "112-01",
+      "draft_beats": [],
+      "detail_review": "pending",
+      "exact_strings": []
+    },
+    {
+      "old_edition": "legacy-332b5ed63262",
+      "old_panel": "112-02",
+      "draft_beats": [],
+      "detail_review": "pending",
+      "exact_strings": []
+    },
+    {
+      "old_edition": "legacy-332b5ed63262",
+      "old_panel": "112-03",
+      "draft_beats": [],
+      "detail_review": "pending",
+      "exact_strings": []
+    },
+    {
+      "old_edition": "legacy-332b5ed63262",
+      "old_panel": "112-04",
+      "draft_beats": [],
+      "detail_review": "pending",
+      "exact_strings": []
+    },
+    {
+      "old_edition": "legacy-332b5ed63262",
+      "old_panel": "112-05",
+      "draft_beats": [],
+      "detail_review": "pending",
+      "exact_strings": []
+    },
+    {
+      "old_edition": "legacy-332b5ed63262",
+      "old_panel": "113-01",
+      "draft_beats": [],
+      "detail_review": "pending",
+      "exact_strings": []
+    },
+    {
+      "old_edition": "legacy-332b5ed63262",
+      "old_panel": "113-02",
+      "draft_beats": [],
+      "detail_review": "pending",
+      "exact_strings": []
+    },
+    {
+      "old_edition": "legacy-332b5ed63262",
+      "old_panel": "113-03",
+      "draft_beats": [],
+      "detail_review": "pending",
+      "exact_strings": []
+    },
+    {
+      "old_edition": "legacy-332b5ed63262",
+      "old_panel": "113-04",
+      "draft_beats": [],
+      "detail_review": "pending",
+      "exact_strings": []
+    },
+    {
+      "old_edition": "legacy-332b5ed63262",
+      "old_panel": "113-05",
+      "draft_beats": [],
+      "detail_review": "pending",
+      "exact_strings": []
+    },
+    {
+      "old_edition": "legacy-332b5ed63262",
+      "old_panel": "114-01",
+      "draft_beats": [],
+      "detail_review": "pending",
+      "exact_strings": []
+    },
+    {
+      "old_edition": "legacy-332b5ed63262",
+      "old_panel": "114-02",
+      "draft_beats": [],
+      "detail_review": "pending",
+      "exact_strings": []
+    },
+    {
+      "old_edition": "legacy-332b5ed63262",
+      "old_panel": "114-03",
+      "draft_beats": [],
+      "detail_review": "pending",
+      "exact_strings": []
+    },
+    {
+      "old_edition": "legacy-332b5ed63262",
+      "old_panel": "114-04",
+      "draft_beats": [],
+      "detail_review": "pending",
+      "exact_strings": []
+    },
+    {
+      "old_edition": "legacy-332b5ed63262",
+      "old_panel": "114-05",
+      "draft_beats": [],
+      "detail_review": "pending",
+      "exact_strings": []
+    },
+    {
+      "old_edition": "legacy-332b5ed63262",
+      "old_panel": "115-01",
+      "draft_beats": [],
+      "detail_review": "pending",
+      "exact_strings": []
+    },
+    {
+      "old_edition": "legacy-332b5ed63262",
+      "old_panel": "115-02",
+      "draft_beats": [],
+      "detail_review": "pending",
+      "exact_strings": []
+    },
+    {
+      "old_edition": "legacy-332b5ed63262",
+      "old_panel": "115-03",
+      "draft_beats": [],
+      "detail_review": "pending",
+      "exact_strings": []
+    },
+    {
+      "old_edition": "legacy-332b5ed63262",
+      "old_panel": "115-04",
+      "draft_beats": [],
+      "detail_review": "pending",
+      "exact_strings": []
+    },
+    {
+      "old_edition": "legacy-332b5ed63262",
+      "old_panel": "115-05",
+      "draft_beats": [],
+      "detail_review": "pending",
+      "exact_strings": []
+    },
+    {
+      "old_edition": "legacy-332b5ed63262",
+      "old_panel": "116-01",
+      "draft_beats": [],
+      "detail_review": "pending",
+      "exact_strings": []
+    },
+    {
+      "old_edition": "legacy-332b5ed63262",
+      "old_panel": "116-02",
+      "draft_beats": [],
+      "detail_review": "pending",
+      "exact_strings": []
+    },
+    {
+      "old_edition": "legacy-332b5ed63262",
+      "old_panel": "116-03",
+      "draft_beats": [],
+      "detail_review": "pending",
+      "exact_strings": []
+    },
+    {
+      "old_edition": "legacy-332b5ed63262",
+      "old_panel": "116-04",
+      "draft_beats": [],
+      "detail_review": "pending",
+      "exact_strings": []
+    },
+    {
+      "old_edition": "legacy-332b5ed63262",
+      "old_panel": "116-05",
+      "draft_beats": [],
+      "detail_review": "pending",
+      "exact_strings": []
+    },
+    {
+      "old_edition": "legacy-332b5ed63262",
+      "old_panel": "117-01",
+      "draft_beats": [],
+      "detail_review": "pending",
+      "exact_strings": []
+    },
+    {
+      "old_edition": "legacy-332b5ed63262",
+      "old_panel": "117-02",
+      "draft_beats": [],
+      "detail_review": "pending",
+      "exact_strings": []
+    },
+    {
+      "old_edition": "legacy-332b5ed63262",
+      "old_panel": "117-03",
+      "draft_beats": [],
+      "detail_review": "pending",
+      "exact_strings": []
+    },
+    {
+      "old_edition": "legacy-332b5ed63262",
+      "old_panel": "117-04",
+      "draft_beats": [],
+      "detail_review": "pending",
+      "exact_strings": []
+    },
+    {
+      "old_edition": "legacy-332b5ed63262",
+      "old_panel": "117-05",
+      "draft_beats": [],
+      "detail_review": "pending",
+      "exact_strings": []
+    },
+    {
+      "old_edition": "legacy-332b5ed63262",
+      "old_panel": "118-01",
+      "draft_beats": [],
+      "detail_review": "pending",
+      "exact_strings": [
+        {
+          "text": "zzHELP_",
+          "source": "PROJECT-AUTHORED",
+          "locator": "content/story-contract.md, default editorial choices",
+          "verification": "project-authored",
+          "rights": "cleared"
+        },
+        {
+          "text": "THIS STORY IS NOW PART OF THE TRAINING DATA.",
+          "source": "PROJECT-AUTHORED",
+          "locator": "content/premise.md, final caption",
+          "verification": "project-authored",
+          "rights": "cleared"
+        }
+      ]
+    },
+    {
+      "old_edition": "legacy-332b5ed63262",
+      "old_panel": "118-02",
+      "draft_beats": [],
+      "detail_review": "pending",
+      "exact_strings": [
+        {
+          "text": "zzHELP_",
+          "source": "PROJECT-AUTHORED",
+          "locator": "content/story-contract.md, default editorial choices",
+          "verification": "project-authored",
+          "rights": "cleared"
+        },
+        {
+          "text": "THIS STORY IS NOW PART OF THE TRAINING DATA.",
+          "source": "PROJECT-AUTHORED",
+          "locator": "content/premise.md, final caption",
+          "verification": "project-authored",
+          "rights": "cleared"
+        }
+      ]
+    },
+    {
+      "old_edition": "legacy-332b5ed63262",
+      "old_panel": "118-03",
+      "draft_beats": [],
+      "detail_review": "pending",
+      "exact_strings": [
+        {
+          "text": "zzHELP_",
+          "source": "PROJECT-AUTHORED",
+          "locator": "content/story-contract.md, default editorial choices",
+          "verification": "project-authored",
+          "rights": "cleared"
+        },
+        {
+          "text": "THIS STORY IS NOW PART OF THE TRAINING DATA.",
+          "source": "PROJECT-AUTHORED",
+          "locator": "content/premise.md, final caption",
+          "verification": "project-authored",
+          "rights": "cleared"
+        }
+      ]
+    }
+  ],
+  "by_row": {
+    "HuggingFace": 280,
+    "GemStuffer": 37,
+    "Collusion Wiki": 115,
+    "Curt": 7,
+    "Codex": 5,
+    "Claude": 6
+  }
+}
