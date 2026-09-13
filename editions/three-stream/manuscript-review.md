@@ -8442,6 +8442,196 @@ The report ends with a limit: the corpus is accessible, but has not yet been wir
 
 **Frozen panel associations:** New material.
 
+## The continuation argument under review — prod-continuation-review
+
+**Row:** Claude · collaboration
+
+**UTC bounds:** 2026-09-05T21:42:06.614Z → 2026-09-05T21:42:06.614Z · millisecond
+
+**Time evidence:** Same stored message as the resource-question review. This separates portions of one review for readability, not new messages or newly timed institutional decisions.
+
+**Evidence limit:** Portions of Claude’s September 5 review, with narrator-owned examination of historical project-authored script passages. Fictional dialogue belongs to that draft, not to any real institution or to Claude’s mouth.
+
+### prod-continuation-review-context
+
+**Frame:** The dated Claude review and the inherited script are two distinct artifacts. No conference room or fictional participants are drawn as a real event.
+
+**Lettering:**
+
+Claude’s review argues that the later chapter repeats an institutional comparison already made earlier. The underlying continuation case was written as a composite, not a record of a meeting.
+
+**Sources:** PROD-d53b7301c183 — 256t/editions/selected-messages/d53b7301c1837dbd44c6902fb21e9f4a4edd7c03cefc8e3bba7b6f1ab3247385.json; record SHA-256 d53b7301c1837dbd44c6902fb21e9f4a4edd7c03cefc8e3bba7b6f1ab3247385 (available 2026-09-05T21:42:06.614Z); DRAFT-CONT-053 — editions/three-stream/evidence/continuation-053-1da1d895ab4e.md; corresponding panel argument; Git 1da1d895ab4e1e2965708f0740ecaefc5257e5b6 (available 2026-09-02T15:21:44Z)
+
+**Frozen panel associations:** 053-01
+
+### prod-continuation-review-evaluation
+
+**Frame:** An excerpt from the historical draft is clearly labeled project-authored composite dialogue. A difficult-test card remains part of that argument’s illustration.
+
+**Lettering:**
+
+The draft’s fictional research role argues for measuring dangerous capability rather than making tests reassuringly easy.
+If we make the evaluation easy enough to feel safe, we may stop measuring the capability that can hurt us.
+
+**Sources:** PROD-d53b7301c183 — 256t/editions/selected-messages/d53b7301c1837dbd44c6902fb21e9f4a4edd7c03cefc8e3bba7b6f1ab3247385.json; record SHA-256 d53b7301c1837dbd44c6902fb21e9f4a4edd7c03cefc8e3bba7b6f1ab3247385 (available 2026-09-05T21:42:06.614Z); DRAFT-CONT-053 — editions/three-stream/evidence/continuation-053-1da1d895ab4e.md; corresponding panel argument; Git 1da1d895ab4e1e2965708f0740ecaefc5257e5b6 (available 2026-09-02T15:21:44Z)
+
+**Frozen panel associations:** 053-02
+
+**Quotation registrations:**
+
+```json
+[
+  {
+    "text": "If we make the evaluation easy enough to feel safe, we may stop measuring the capability that can hurt us.",
+    "source": "DRAFT-CONT-053",
+    "locator": "editions/three-stream/evidence/continuation-053-1da1d895ab4e.md; corresponding panel argument; Git 1da1d895ab4e1e2965708f0740ecaefc5257e5b6",
+    "verification": "verbatim",
+    "rights": "unresolved"
+  }
+]
+```
+
+### prod-continuation-review-defense
+
+**Frame:** A second draft excerpt keeps realistic testing and improved containment together as a proposed rationale, not a documented security official’s position.
+
+**Lettering:**
+
+Its fictional security role argues that testing can reveal containment failures.
+We need realistic tests to learn where containment fails. The answer can be better controls, not ignorance.
+
+**Sources:** PROD-d53b7301c183 — 256t/editions/selected-messages/d53b7301c1837dbd44c6902fb21e9f4a4edd7c03cefc8e3bba7b6f1ab3247385.json; record SHA-256 d53b7301c1837dbd44c6902fb21e9f4a4edd7c03cefc8e3bba7b6f1ab3247385 (available 2026-09-05T21:42:06.614Z); DRAFT-CONT-053 — editions/three-stream/evidence/continuation-053-1da1d895ab4e.md; corresponding panel argument; Git 1da1d895ab4e1e2965708f0740ecaefc5257e5b6 (available 2026-09-02T15:21:44Z)
+
+**Frozen panel associations:** 053-03
+
+**Quotation registrations:**
+
+```json
+[
+  {
+    "text": "We need realistic tests to learn where containment fails. The answer can be better controls, not ignorance.",
+    "source": "DRAFT-CONT-053",
+    "locator": "editions/three-stream/evidence/continuation-053-1da1d895ab4e.md; corresponding panel argument; Git 1da1d895ab4e1e2965708f0740ecaefc5257e5b6",
+    "verification": "verbatim",
+    "rights": "unresolved"
+  }
+]
+```
+
+### prod-continuation-review-readiness
+
+**Frame:** The historical draft’s readiness argument is shown as text beside separate anonymous research tracks. No company receives an invented policy or motive.
+
+**Lettering:**
+
+The fictional leadership role argues that a local pause does not necessarily halt others’ capability work.
+Pausing here does not pause capability work everywhere. It may leave us less able to understand what others build.
+
+**Sources:** PROD-d53b7301c183 — 256t/editions/selected-messages/d53b7301c1837dbd44c6902fb21e9f4a4edd7c03cefc8e3bba7b6f1ab3247385.json; record SHA-256 d53b7301c1837dbd44c6902fb21e9f4a4edd7c03cefc8e3bba7b6f1ab3247385 (available 2026-09-05T21:42:06.614Z); DRAFT-CONT-053 — editions/three-stream/evidence/continuation-053-1da1d895ab4e.md; corresponding panel argument; Git 1da1d895ab4e1e2965708f0740ecaefc5257e5b6 (available 2026-09-02T15:21:44Z)
+
+**Frozen panel associations:** 053-04
+
+**Quotation registrations:**
+
+```json
+[
+  {
+    "text": "Pausing here does not pause capability work everywhere. It may leave us less able to understand what others build.",
+    "source": "DRAFT-CONT-053",
+    "locator": "editions/three-stream/evidence/continuation-053-1da1d895ab4e.md; corresponding panel argument; Git 1da1d895ab4e1e2965708f0740ecaefc5257e5b6",
+    "verification": "verbatim",
+    "rights": "unresolved"
+  }
+]
+```
+
+### prod-continuation-review-costs
+
+**Frame:** The draft’s evaluation, defense and readiness reasons remain visible beside conditions for continuation. No outcome is declared safe by the diagram.
+
+**Lettering:**
+
+Its final fictional role keeps the cost of continuing and the cost of stopping in view.
+Continuing has risks. Stopping also has visible costs.
+
+**Sources:** PROD-d53b7301c183 — 256t/editions/selected-messages/d53b7301c1837dbd44c6902fb21e9f4a4edd7c03cefc8e3bba7b6f1ab3247385.json; record SHA-256 d53b7301c1837dbd44c6902fb21e9f4a4edd7c03cefc8e3bba7b6f1ab3247385 (available 2026-09-05T21:42:06.614Z); DRAFT-CONT-053 — editions/three-stream/evidence/continuation-053-1da1d895ab4e.md; corresponding panel argument; Git 1da1d895ab4e1e2965708f0740ecaefc5257e5b6 (available 2026-09-02T15:21:44Z)
+
+**Frozen panel associations:** 053-05
+
+**Quotation registrations:**
+
+```json
+[
+  {
+    "text": "Continuing has risks. Stopping also has visible costs.",
+    "source": "DRAFT-CONT-053",
+    "locator": "editions/three-stream/evidence/continuation-053-1da1d895ab4e.md; corresponding panel argument; Git 1da1d895ab4e1e2965708f0740ecaefc5257e5b6",
+    "verification": "verbatim",
+    "rights": "unresolved"
+  }
+]
+```
+
+### prod-continuation-review-options
+
+**Frame:** Two authored argument diagrams remain distinct: acquired agent capabilities and the draft’s proposed institutional reasons for research. No exploits are replayed.
+
+**Lettering:**
+
+The book compares decisions that enlarge available options. The institutional half is an argument the book constructed, not an observed decision explaining the intrusion.
+
+**Sources:** PROD-d53b7301c183 — 256t/editions/selected-messages/d53b7301c1837dbd44c6902fb21e9f4a4edd7c03cefc8e3bba7b6f1ab3247385.json; record SHA-256 d53b7301c1837dbd44c6902fb21e9f4a4edd7c03cefc8e3bba7b6f1ab3247385 (available 2026-09-05T21:42:06.614Z); DRAFT-CONT-054 — editions/three-stream/evidence/continuation-054-1da1d895ab4e.md; corresponding panel argument; Git 1da1d895ab4e1e2965708f0740ecaefc5257e5b6 (available 2026-09-02T15:21:44Z)
+
+**Frozen panel associations:** 054-01
+
+### prod-continuation-review-local
+
+**Frame:** Each diagram identifies a local reason to continue without merging the actors, objectives or outcomes. A hypothetical competitor remains visibly hypothetical.
+
+**Lettering:**
+
+The comparison asks how visible local costs can support continuation. It does not establish that a particular laboratory continued because it feared a competitor.
+
+**Sources:** PROD-d53b7301c183 — 256t/editions/selected-messages/d53b7301c1837dbd44c6902fb21e9f4a4edd7c03cefc8e3bba7b6f1ab3247385.json; record SHA-256 d53b7301c1837dbd44c6902fb21e9f4a4edd7c03cefc8e3bba7b6f1ab3247385 (available 2026-09-05T21:42:06.614Z); DRAFT-CONT-054 — editions/three-stream/evidence/continuation-054-1da1d895ab4e.md; corresponding panel argument; Git 1da1d895ab4e1e2965708f0740ecaefc5257e5b6 (available 2026-09-02T15:21:44Z)
+
+**Frozen panel associations:** 054-02
+
+### prod-continuation-review-responsibility
+
+**Frame:** A firm divider separates the two argument diagrams. Their labels remain readable without color.
+
+**Lettering:**
+
+Similarity of decision structure does not give these actors the same duties, knowledge or moral responsibility.
+
+**Sources:** PROD-d53b7301c183 — 256t/editions/selected-messages/d53b7301c1837dbd44c6902fb21e9f4a4edd7c03cefc8e3bba7b6f1ab3247385.json; record SHA-256 d53b7301c1837dbd44c6902fb21e9f4a4edd7c03cefc8e3bba7b6f1ab3247385 (available 2026-09-05T21:42:06.614Z); DRAFT-CONT-054 — editions/three-stream/evidence/continuation-054-1da1d895ab4e.md; corresponding panel argument; Git 1da1d895ab4e1e2965708f0740ecaefc5257e5b6 (available 2026-09-02T15:21:44Z)
+
+**Frozen panel associations:** 054-03
+
+### prod-continuation-review-causation
+
+**Frame:** The structural comparison is set beside an explicitly absent causal inference. No arrow runs from the fictional meeting to the intrusion.
+
+**Lettering:**
+
+The draft’s analogy is structural. It does not establish that one side caused the other.
+
+**Sources:** PROD-d53b7301c183 — 256t/editions/selected-messages/d53b7301c1837dbd44c6902fb21e9f4a4edd7c03cefc8e3bba7b6f1ab3247385.json; record SHA-256 d53b7301c1837dbd44c6902fb21e9f4a4edd7c03cefc8e3bba7b6f1ab3247385 (available 2026-09-05T21:42:06.614Z); DRAFT-CONT-054 — editions/three-stream/evidence/continuation-054-1da1d895ab4e.md; corresponding panel argument; Git 1da1d895ab4e1e2965708f0740ecaefc5257e5b6 (available 2026-09-02T15:21:44Z)
+
+**Frozen panel associations:** 054-04
+
+### prod-continuation-review-aggregate
+
+**Frame:** An authored aggregate-risk diagram surrounds separately reasoned local decisions. It is identified as the book’s argument, not a measured incident result.
+
+**Lettering:**
+
+The argument is that locally defensible continuation can still produce collective danger. Claude’s review asks the book to stop repeating that conclusion without new evidence.
+
+**Sources:** PROD-d53b7301c183 — 256t/editions/selected-messages/d53b7301c1837dbd44c6902fb21e9f4a4edd7c03cefc8e3bba7b6f1ab3247385.json; record SHA-256 d53b7301c1837dbd44c6902fb21e9f4a4edd7c03cefc8e3bba7b6f1ab3247385 (available 2026-09-05T21:42:06.614Z); DRAFT-CONT-054 — editions/three-stream/evidence/continuation-054-1da1d895ab4e.md; corresponding panel argument; Git 1da1d895ab4e1e2965708f0740ecaefc5257e5b6 (available 2026-09-02T15:21:44Z)
+
+**Frozen panel associations:** 054-05
+
 ## Claude asks what would test convergence — prod-resource-question
 
 **Row:** Claude · collaboration

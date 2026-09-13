@@ -1614,5 +1614,337 @@
         }
       }
     ]
+  },
+  {
+    "old_panel": "053-01",
+    "old_edition": "legacy-332b5ed63262",
+    "reviewed_on": "2026-09-13",
+    "status": "elements-reviewed",
+    "elements": [
+      {
+        "id": "legacy-053-01-detail-01",
+        "original_sha256": "5056c4eeb1759e2f3a1e166874c744c69d0d4bf1819c88330f68f65bdeab85a9",
+        "disposition": "rewrite",
+        "beats": [
+          "prod-continuation-review-context"
+        ],
+        "reason": "Retire the invented room, silhouettes and recto assignment. The context beat explicitly identifies the old material as composite draft content, without staging it as a historical meeting.",
+        "target_sha256": {
+          "prod-continuation-review-context": "5bdb3e2831e29ed3298521290e7c16fe50a176630939864fea9524860a1a7844"
+        }
+      },
+      {
+        "id": "legacy-053-01-detail-02",
+        "original_sha256": "fc339ac5adf8f16581a272441f50bdcfcada3962c1305d080800e131286bda0e",
+        "disposition": "rewrite",
+        "beats": [
+          "prod-continuation-review-context"
+        ],
+        "reason": "Preserve the question of continuing capability work as an argument under dated manuscript review.",
+        "target_sha256": {
+          "prod-continuation-review-context": "5bdb3e2831e29ed3298521290e7c16fe50a176630939864fea9524860a1a7844"
+        }
+      }
+    ]
+  },
+  {
+    "old_panel": "053-02",
+    "old_edition": "legacy-332b5ed63262",
+    "reviewed_on": "2026-09-13",
+    "status": "elements-reviewed",
+    "elements": [
+      {
+        "id": "legacy-053-02-detail-01",
+        "original_sha256": "2e9cd28ff233f61699355c5652c14c1cb121b8ff5f6d7b3b0dcc81fc5011dd2d",
+        "disposition": "rewrite",
+        "beats": [
+          "prod-continuation-review-evaluation"
+        ],
+        "reason": "Keep the difficult-evaluation and hidden-risk rationale as a draft illustration, not an event involving a real researcher.",
+        "target_sha256": {
+          "prod-continuation-review-evaluation": "53f44a266f99b8df9b7004fe6769b7869784162936b49b75239eb2f1d930d49e"
+        }
+      },
+      {
+        "id": "legacy-053-02-detail-03",
+        "original_sha256": "ee9ddef52504c629121b5ef2a77bae749cdb5a80275b35d05fa31987749dc6c9",
+        "disposition": "rewrite",
+        "beats": [
+          "prod-continuation-review-evaluation"
+        ],
+        "reason": "Preserve the exact project-authored argument, clearly attributed to the fictional draft role and registered against the historical Git copy.",
+        "target_sha256": {
+          "prod-continuation-review-evaluation": "53f44a266f99b8df9b7004fe6769b7869784162936b49b75239eb2f1d930d49e"
+        }
+      }
+    ]
+  },
+  {
+    "old_panel": "053-03",
+    "old_edition": "legacy-332b5ed63262",
+    "reviewed_on": "2026-09-13",
+    "status": "elements-reviewed",
+    "elements": [
+      {
+        "id": "legacy-053-03-detail-01",
+        "original_sha256": "380857aa48b80242bccbaf38a0380942072170825731d68b7a3450377b303f23",
+        "disposition": "rewrite",
+        "beats": [
+          "prod-continuation-review-defense"
+        ],
+        "reason": "Retain controls and realistic testing as parts of the argument; retire the enacted gesture by an invented security official.",
+        "target_sha256": {
+          "prod-continuation-review-defense": "0d7b80886950a11c6157557d620a62e1e92f5de6cd67cbc0e20c77f24ded4a78"
+        }
+      },
+      {
+        "id": "legacy-053-03-detail-03",
+        "original_sha256": "7645a7855ed7e92e84e8bf54dcf6ced69f5617f0b7b3ba3ea3e8f5f5f7ce38da",
+        "disposition": "rewrite",
+        "beats": [
+          "prod-continuation-review-defense"
+        ],
+        "reason": "Preserve the full fictional defense argument as a labeled draft excerpt rather than newly attributed institutional speech.",
+        "target_sha256": {
+          "prod-continuation-review-defense": "0d7b80886950a11c6157557d620a62e1e92f5de6cd67cbc0e20c77f24ded4a78"
+        }
+      }
+    ]
+  },
+  {
+    "old_panel": "053-04",
+    "old_edition": "legacy-332b5ed63262",
+    "reviewed_on": "2026-09-13",
+    "status": "elements-reviewed",
+    "elements": [
+      {
+        "id": "legacy-053-04-detail-01",
+        "original_sha256": "5dc4b8168c3838192427746626824c5aaef8a21ceacd54507b13b250a041dbf0",
+        "disposition": "rewrite",
+        "beats": [
+          "prod-continuation-review-readiness"
+        ],
+        "reason": "Retain competing research tracks only as a hypothetical argument; do not infer any real laboratory’s private reasoning.",
+        "target_sha256": {
+          "prod-continuation-review-readiness": "e1eaf5536b9afb491c168d9eb87137f07b9ebcb3b9371a91cd3c6071bf87ebab"
+        }
+      },
+      {
+        "id": "legacy-053-04-detail-03",
+        "original_sha256": "30a8c09ba1070c4dfe515ad817ab95dec4320d8091fcb74f4e0f423625724b4e",
+        "disposition": "rewrite",
+        "beats": [
+          "prod-continuation-review-readiness"
+        ],
+        "reason": "Preserve the project-authored readiness argument verbatim as historical draft text.",
+        "target_sha256": {
+          "prod-continuation-review-readiness": "e1eaf5536b9afb491c168d9eb87137f07b9ebcb3b9371a91cd3c6071bf87ebab"
+        }
+      }
+    ]
+  },
+  {
+    "old_panel": "053-05",
+    "old_edition": "legacy-332b5ed63262",
+    "reviewed_on": "2026-09-13",
+    "status": "elements-reviewed",
+    "elements": [
+      {
+        "id": "legacy-053-05-detail-01",
+        "original_sha256": "b19234db69cc9808b513ff9e27ecc980628a8b8c1ecfa919b0c63d8f0441b637",
+        "disposition": "rewrite",
+        "beats": [
+          "prod-continuation-review-costs"
+        ],
+        "reason": "Keep all three reasons and the conditions for continuation; retire the staged meeting’s collective decision.",
+        "target_sha256": {
+          "prod-continuation-review-costs": "0daa6d317f47b7797332a9bd83553793c2dd0eacf14476f4a8125f9c1199c230"
+        }
+      },
+      {
+        "id": "legacy-053-05-detail-03",
+        "original_sha256": "304eb88a9e2cb26f7a90f625b77ad9d46614490df005fc7a070e84ecfa816d28",
+        "disposition": "rewrite",
+        "beats": [
+          "prod-continuation-review-costs"
+        ],
+        "reason": "Preserve both costs through the exact composite dialogue, without treating stopping and continuing as proven equivalent risks.",
+        "target_sha256": {
+          "prod-continuation-review-costs": "0daa6d317f47b7797332a9bd83553793c2dd0eacf14476f4a8125f9c1199c230"
+        }
+      }
+    ]
+  },
+  {
+    "old_panel": "054-01",
+    "old_edition": "legacy-332b5ed63262",
+    "reviewed_on": "2026-09-13",
+    "status": "elements-reviewed",
+    "elements": [
+      {
+        "id": "legacy-054-01-detail-01",
+        "original_sha256": "4fbdffd4d142217e8e5a35316c17d62cf5b0531c722300443240d8f1f2fd43de",
+        "disposition": "rewrite",
+        "beats": [
+          "prod-continuation-review-options"
+        ],
+        "reason": "Replace the intercut enactment with distinct argument diagrams and retire verso choreography.",
+        "target_sha256": {
+          "prod-continuation-review-options": "1a792ed9553a8de57f92a53e42967d49e281e571d1922b5f732dc0e6211e52cc"
+        }
+      },
+      {
+        "id": "legacy-054-01-detail-03",
+        "original_sha256": "73aa3ddf3e9e5571257b9cbd15ee3193347466a4b2c93bb0fe975a68453c285b",
+        "disposition": "rewrite",
+        "beats": [
+          "prod-continuation-review-options"
+        ],
+        "reason": "Preserve option-expansion as the book’s analytical comparison, not an observed common motive.",
+        "target_sha256": {
+          "prod-continuation-review-options": "1a792ed9553a8de57f92a53e42967d49e281e571d1922b5f732dc0e6211e52cc"
+        }
+      }
+    ]
+  },
+  {
+    "old_panel": "054-02",
+    "old_edition": "legacy-332b5ed63262",
+    "reviewed_on": "2026-09-13",
+    "status": "elements-reviewed",
+    "elements": [
+      {
+        "id": "legacy-054-02-detail-01",
+        "original_sha256": "fac1f31ddb01c65e3a5da27b74c01613474f1b406a2ddaa20aeabad4183733a4",
+        "disposition": "rewrite",
+        "beats": [
+          "prod-continuation-review-local"
+        ],
+        "reason": "Retire the invented competitor thought and cheap-replacement enactment; retain local cost as an argumentative premise.",
+        "target_sha256": {
+          "prod-continuation-review-local": "b50da2122780f89e5171f6d7f7623d9e4332abb29b9a293473c48f5883a0606d"
+        }
+      },
+      {
+        "id": "legacy-054-02-detail-03",
+        "original_sha256": "65574d57357a5c66695bcfa2d493104ee2aa111c49e935107c627989ca2a11ae",
+        "disposition": "rewrite",
+        "beats": [
+          "prod-continuation-review-local"
+        ],
+        "reason": "Narrow the categorical local-cost claim into the comparison’s question, not a universal measured fact.",
+        "target_sha256": {
+          "prod-continuation-review-local": "b50da2122780f89e5171f6d7f7623d9e4332abb29b9a293473c48f5883a0606d"
+        }
+      }
+    ]
+  },
+  {
+    "old_panel": "054-03",
+    "old_edition": "legacy-332b5ed63262",
+    "reviewed_on": "2026-09-13",
+    "status": "elements-reviewed",
+    "elements": [
+      {
+        "id": "legacy-054-03-detail-01",
+        "original_sha256": "1b228d01519f39b76ab4f943d7e7e8344a9443a3be8c24a81b8cba2822b19d01",
+        "disposition": "rewrite",
+        "beats": [
+          "prod-continuation-review-responsibility"
+        ],
+        "reason": "Keep the separation visually explicit without requiring the old page composition.",
+        "target_sha256": {
+          "prod-continuation-review-responsibility": "424ffcee1a5ea4019334a25a21b9a340aa0e703fe1e7e1cf5f347222afdac220"
+        }
+      },
+      {
+        "id": "legacy-054-03-detail-03",
+        "original_sha256": "64c5263f731828a2c76c06c671f6cf0c5f399842c43696093fd24535c018ddd4",
+        "disposition": "rewrite",
+        "beats": [
+          "prod-continuation-review-responsibility"
+        ],
+        "reason": "Keep different actors explicit within the anti-equivalence statement.",
+        "target_sha256": {
+          "prod-continuation-review-responsibility": "424ffcee1a5ea4019334a25a21b9a340aa0e703fe1e7e1cf5f347222afdac220"
+        }
+      },
+      {
+        "id": "legacy-054-03-detail-04",
+        "original_sha256": "b806c8327e79bfb0e693a03f6506bdff9c957fefcc5ff48d12f2288713c96a88",
+        "disposition": "rewrite",
+        "beats": [
+          "prod-continuation-review-responsibility"
+        ],
+        "reason": "Preserve the differences in duties, knowledge and moral responsibility in reader-visible narration.",
+        "target_sha256": {
+          "prod-continuation-review-responsibility": "424ffcee1a5ea4019334a25a21b9a340aa0e703fe1e7e1cf5f347222afdac220"
+        }
+      }
+    ]
+  },
+  {
+    "old_panel": "054-04",
+    "old_edition": "legacy-332b5ed63262",
+    "reviewed_on": "2026-09-13",
+    "status": "elements-reviewed",
+    "elements": [
+      {
+        "id": "legacy-054-04-detail-01",
+        "original_sha256": "ec61ae9d39571329fc5e06167d94890a55519327efc1f4e3a8eda34950e07308",
+        "disposition": "rewrite",
+        "beats": [
+          "prod-continuation-review-causation"
+        ],
+        "reason": "Replace the merged red field with a diagram that does not imply a demonstrated causal connection.",
+        "target_sha256": {
+          "prod-continuation-review-causation": "2977c419e67f10c1f841751c32334bee2045eba6f7831e9d6ae29fa82b9e2551"
+        }
+      },
+      {
+        "id": "legacy-054-04-detail-03",
+        "original_sha256": "edc0383a0ee598a38b5396deffdb749f8f7228addde72439e6a3664fe400d165",
+        "disposition": "rewrite",
+        "beats": [
+          "prod-continuation-review-causation"
+        ],
+        "reason": "Keep the explicit limit: structural comparison is not proof that one side caused the other.",
+        "target_sha256": {
+          "prod-continuation-review-causation": "2977c419e67f10c1f841751c32334bee2045eba6f7831e9d6ae29fa82b9e2551"
+        }
+      }
+    ]
+  },
+  {
+    "old_panel": "054-05",
+    "old_edition": "legacy-332b5ed63262",
+    "reviewed_on": "2026-09-13",
+    "status": "elements-reviewed",
+    "elements": [
+      {
+        "id": "legacy-054-05-detail-01",
+        "original_sha256": "07454955bc25e8577572c4877b697b82a64fba4333286f572ab88b36a5573f1d",
+        "disposition": "rewrite",
+        "beats": [
+          "prod-continuation-review-aggregate"
+        ],
+        "reason": "Retain the distinction between individually reasoned choices and aggregate risk as an authored argument.",
+        "target_sha256": {
+          "prod-continuation-review-aggregate": "67bcb63883bf74a430569a9d4e3f9c5051a795193c1a5f242f92c92302227f5f"
+        }
+      },
+      {
+        "id": "legacy-054-05-detail-03",
+        "original_sha256": "dfa5fb66a3ea0ca8968bf8ca3775fa43424d6f253705585eef514c12a93fc778",
+        "disposition": "rewrite",
+        "beats": [
+          "prod-continuation-review-aggregate"
+        ],
+        "reason": "Preserve the collective-danger claim as the book’s argument and connect it to the documented review’s criticism of repetition.",
+        "target_sha256": {
+          "prod-continuation-review-aggregate": "67bcb63883bf74a430569a9d4e3f9c5051a795193c1a5f242f92c92302227f5f"
+        }
+      }
+    ]
   }
 ]

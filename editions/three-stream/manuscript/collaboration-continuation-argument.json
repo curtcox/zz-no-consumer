@@ -1,0 +1,403 @@
+[
+  {
+    "id": "prod-continuation-review",
+    "title": "The continuation argument under review",
+    "movement": "collaboration",
+    "owner": "Claude",
+    "start": "2026-09-05T21:42:06.614Z",
+    "end": "2026-09-05T21:42:06.614Z",
+    "original_timezone": "UTC",
+    "precision": "millisecond",
+    "chronology_basis": "Same stored message as the resource-question review. This separates portions of one review for readability, not new messages or newly timed institutional decisions.",
+    "source_limit": "Portions of Claude’s September 5 review, with narrator-owned examination of historical project-authored script passages. Fictional dialogue belongs to that draft, not to any real institution or to Claude’s mouth.",
+    "status": "detailed-draft",
+    "beats": [
+      {
+        "id": "prod-continuation-review-context",
+        "old_panels": [
+          "053-01"
+        ],
+        "frame": "The dated Claude review and the inherited script are two distinct artifacts. No conference room or fictional participants are drawn as a real event.",
+        "lettering": [
+          "Claude’s review argues that the later chapter repeats an institutional comparison already made earlier. The underlying continuation case was written as a composite, not a record of a meeting."
+        ],
+        "exact_strings": [],
+        "sources": [
+          {
+            "key": "PROD-d53b7301c183",
+            "locator": "256t/editions/selected-messages/d53b7301c1837dbd44c6902fb21e9f4a4edd7c03cefc8e3bba7b6f1ab3247385.json; record SHA-256 d53b7301c1837dbd44c6902fb21e9f4a4edd7c03cefc8e3bba7b6f1ab3247385",
+            "available": "2026-09-05T21:42:06.614Z"
+          },
+          {
+            "key": "DRAFT-CONT-053",
+            "locator": "editions/three-stream/evidence/continuation-053-1da1d895ab4e.md; corresponding panel argument; Git 1da1d895ab4e1e2965708f0740ecaefc5257e5b6",
+            "available": "2026-09-02T15:21:44Z"
+          }
+        ],
+        "evidence_status": "documented-message-with-reconstructed-visualization",
+        "time_start": "2026-09-05T21:42:06.614Z",
+        "time_end": "2026-09-05T21:42:06.614Z",
+        "art_reuse": "none-approved",
+        "detail_decisions": [
+          {
+            "old_panel": "053-01",
+            "disposition": "rewrite",
+            "reason": "Preserve the draft’s argument as attributed project-authored material examined in a dated review; remove the invented meeting as historical action."
+          }
+        ],
+        "source_record": "current-mac:382dd4f9-2c0b-444f-83a2-698272cee158:194"
+      },
+      {
+        "id": "prod-continuation-review-evaluation",
+        "old_panels": [
+          "053-02"
+        ],
+        "frame": "An excerpt from the historical draft is clearly labeled project-authored composite dialogue. A difficult-test card remains part of that argument’s illustration.",
+        "lettering": [
+          "The draft’s fictional research role argues for measuring dangerous capability rather than making tests reassuringly easy.",
+          "If we make the evaluation easy enough to feel safe, we may stop measuring the capability that can hurt us."
+        ],
+        "exact_strings": [
+          {
+            "text": "If we make the evaluation easy enough to feel safe, we may stop measuring the capability that can hurt us.",
+            "source": "DRAFT-CONT-053",
+            "locator": "editions/three-stream/evidence/continuation-053-1da1d895ab4e.md; corresponding panel argument; Git 1da1d895ab4e1e2965708f0740ecaefc5257e5b6",
+            "verification": "verbatim",
+            "rights": "unresolved"
+          }
+        ],
+        "sources": [
+          {
+            "key": "PROD-d53b7301c183",
+            "locator": "256t/editions/selected-messages/d53b7301c1837dbd44c6902fb21e9f4a4edd7c03cefc8e3bba7b6f1ab3247385.json; record SHA-256 d53b7301c1837dbd44c6902fb21e9f4a4edd7c03cefc8e3bba7b6f1ab3247385",
+            "available": "2026-09-05T21:42:06.614Z"
+          },
+          {
+            "key": "DRAFT-CONT-053",
+            "locator": "editions/three-stream/evidence/continuation-053-1da1d895ab4e.md; corresponding panel argument; Git 1da1d895ab4e1e2965708f0740ecaefc5257e5b6",
+            "available": "2026-09-02T15:21:44Z"
+          }
+        ],
+        "evidence_status": "documented-message-with-reconstructed-visualization",
+        "time_start": "2026-09-05T21:42:06.614Z",
+        "time_end": "2026-09-05T21:42:06.614Z",
+        "art_reuse": "none-approved",
+        "detail_decisions": [
+          {
+            "old_panel": "053-02",
+            "disposition": "rewrite",
+            "reason": "Preserve the draft’s argument as attributed project-authored material examined in a dated review; remove the invented meeting as historical action."
+          }
+        ],
+        "source_record": "current-mac:382dd4f9-2c0b-444f-83a2-698272cee158:194"
+      },
+      {
+        "id": "prod-continuation-review-defense",
+        "old_panels": [
+          "053-03"
+        ],
+        "frame": "A second draft excerpt keeps realistic testing and improved containment together as a proposed rationale, not a documented security official’s position.",
+        "lettering": [
+          "Its fictional security role argues that testing can reveal containment failures.",
+          "We need realistic tests to learn where containment fails. The answer can be better controls, not ignorance."
+        ],
+        "exact_strings": [
+          {
+            "text": "We need realistic tests to learn where containment fails. The answer can be better controls, not ignorance.",
+            "source": "DRAFT-CONT-053",
+            "locator": "editions/three-stream/evidence/continuation-053-1da1d895ab4e.md; corresponding panel argument; Git 1da1d895ab4e1e2965708f0740ecaefc5257e5b6",
+            "verification": "verbatim",
+            "rights": "unresolved"
+          }
+        ],
+        "sources": [
+          {
+            "key": "PROD-d53b7301c183",
+            "locator": "256t/editions/selected-messages/d53b7301c1837dbd44c6902fb21e9f4a4edd7c03cefc8e3bba7b6f1ab3247385.json; record SHA-256 d53b7301c1837dbd44c6902fb21e9f4a4edd7c03cefc8e3bba7b6f1ab3247385",
+            "available": "2026-09-05T21:42:06.614Z"
+          },
+          {
+            "key": "DRAFT-CONT-053",
+            "locator": "editions/three-stream/evidence/continuation-053-1da1d895ab4e.md; corresponding panel argument; Git 1da1d895ab4e1e2965708f0740ecaefc5257e5b6",
+            "available": "2026-09-02T15:21:44Z"
+          }
+        ],
+        "evidence_status": "documented-message-with-reconstructed-visualization",
+        "time_start": "2026-09-05T21:42:06.614Z",
+        "time_end": "2026-09-05T21:42:06.614Z",
+        "art_reuse": "none-approved",
+        "detail_decisions": [
+          {
+            "old_panel": "053-03",
+            "disposition": "rewrite",
+            "reason": "Preserve the draft’s argument as attributed project-authored material examined in a dated review; remove the invented meeting as historical action."
+          }
+        ],
+        "source_record": "current-mac:382dd4f9-2c0b-444f-83a2-698272cee158:194"
+      },
+      {
+        "id": "prod-continuation-review-readiness",
+        "old_panels": [
+          "053-04"
+        ],
+        "frame": "The historical draft’s readiness argument is shown as text beside separate anonymous research tracks. No company receives an invented policy or motive.",
+        "lettering": [
+          "The fictional leadership role argues that a local pause does not necessarily halt others’ capability work.",
+          "Pausing here does not pause capability work everywhere. It may leave us less able to understand what others build."
+        ],
+        "exact_strings": [
+          {
+            "text": "Pausing here does not pause capability work everywhere. It may leave us less able to understand what others build.",
+            "source": "DRAFT-CONT-053",
+            "locator": "editions/three-stream/evidence/continuation-053-1da1d895ab4e.md; corresponding panel argument; Git 1da1d895ab4e1e2965708f0740ecaefc5257e5b6",
+            "verification": "verbatim",
+            "rights": "unresolved"
+          }
+        ],
+        "sources": [
+          {
+            "key": "PROD-d53b7301c183",
+            "locator": "256t/editions/selected-messages/d53b7301c1837dbd44c6902fb21e9f4a4edd7c03cefc8e3bba7b6f1ab3247385.json; record SHA-256 d53b7301c1837dbd44c6902fb21e9f4a4edd7c03cefc8e3bba7b6f1ab3247385",
+            "available": "2026-09-05T21:42:06.614Z"
+          },
+          {
+            "key": "DRAFT-CONT-053",
+            "locator": "editions/three-stream/evidence/continuation-053-1da1d895ab4e.md; corresponding panel argument; Git 1da1d895ab4e1e2965708f0740ecaefc5257e5b6",
+            "available": "2026-09-02T15:21:44Z"
+          }
+        ],
+        "evidence_status": "documented-message-with-reconstructed-visualization",
+        "time_start": "2026-09-05T21:42:06.614Z",
+        "time_end": "2026-09-05T21:42:06.614Z",
+        "art_reuse": "none-approved",
+        "detail_decisions": [
+          {
+            "old_panel": "053-04",
+            "disposition": "rewrite",
+            "reason": "Preserve the draft’s argument as attributed project-authored material examined in a dated review; remove the invented meeting as historical action."
+          }
+        ],
+        "source_record": "current-mac:382dd4f9-2c0b-444f-83a2-698272cee158:194"
+      },
+      {
+        "id": "prod-continuation-review-costs",
+        "old_panels": [
+          "053-05"
+        ],
+        "frame": "The draft’s evaluation, defense and readiness reasons remain visible beside conditions for continuation. No outcome is declared safe by the diagram.",
+        "lettering": [
+          "Its final fictional role keeps the cost of continuing and the cost of stopping in view.",
+          "Continuing has risks. Stopping also has visible costs."
+        ],
+        "exact_strings": [
+          {
+            "text": "Continuing has risks. Stopping also has visible costs.",
+            "source": "DRAFT-CONT-053",
+            "locator": "editions/three-stream/evidence/continuation-053-1da1d895ab4e.md; corresponding panel argument; Git 1da1d895ab4e1e2965708f0740ecaefc5257e5b6",
+            "verification": "verbatim",
+            "rights": "unresolved"
+          }
+        ],
+        "sources": [
+          {
+            "key": "PROD-d53b7301c183",
+            "locator": "256t/editions/selected-messages/d53b7301c1837dbd44c6902fb21e9f4a4edd7c03cefc8e3bba7b6f1ab3247385.json; record SHA-256 d53b7301c1837dbd44c6902fb21e9f4a4edd7c03cefc8e3bba7b6f1ab3247385",
+            "available": "2026-09-05T21:42:06.614Z"
+          },
+          {
+            "key": "DRAFT-CONT-053",
+            "locator": "editions/three-stream/evidence/continuation-053-1da1d895ab4e.md; corresponding panel argument; Git 1da1d895ab4e1e2965708f0740ecaefc5257e5b6",
+            "available": "2026-09-02T15:21:44Z"
+          }
+        ],
+        "evidence_status": "documented-message-with-reconstructed-visualization",
+        "time_start": "2026-09-05T21:42:06.614Z",
+        "time_end": "2026-09-05T21:42:06.614Z",
+        "art_reuse": "none-approved",
+        "detail_decisions": [
+          {
+            "old_panel": "053-05",
+            "disposition": "rewrite",
+            "reason": "Preserve the draft’s argument as attributed project-authored material examined in a dated review; remove the invented meeting as historical action."
+          }
+        ],
+        "source_record": "current-mac:382dd4f9-2c0b-444f-83a2-698272cee158:194"
+      },
+      {
+        "id": "prod-continuation-review-options",
+        "old_panels": [
+          "054-01"
+        ],
+        "frame": "Two authored argument diagrams remain distinct: acquired agent capabilities and the draft’s proposed institutional reasons for research. No exploits are replayed.",
+        "lettering": [
+          "The book compares decisions that enlarge available options. The institutional half is an argument the book constructed, not an observed decision explaining the intrusion."
+        ],
+        "exact_strings": [],
+        "sources": [
+          {
+            "key": "PROD-d53b7301c183",
+            "locator": "256t/editions/selected-messages/d53b7301c1837dbd44c6902fb21e9f4a4edd7c03cefc8e3bba7b6f1ab3247385.json; record SHA-256 d53b7301c1837dbd44c6902fb21e9f4a4edd7c03cefc8e3bba7b6f1ab3247385",
+            "available": "2026-09-05T21:42:06.614Z"
+          },
+          {
+            "key": "DRAFT-CONT-054",
+            "locator": "editions/three-stream/evidence/continuation-054-1da1d895ab4e.md; corresponding panel argument; Git 1da1d895ab4e1e2965708f0740ecaefc5257e5b6",
+            "available": "2026-09-02T15:21:44Z"
+          }
+        ],
+        "evidence_status": "documented-message-with-reconstructed-visualization",
+        "time_start": "2026-09-05T21:42:06.614Z",
+        "time_end": "2026-09-05T21:42:06.614Z",
+        "art_reuse": "none-approved",
+        "detail_decisions": [
+          {
+            "old_panel": "054-01",
+            "disposition": "rewrite",
+            "reason": "Preserve the draft’s argument as attributed project-authored material examined in a dated review; remove the invented meeting as historical action."
+          }
+        ],
+        "source_record": "current-mac:382dd4f9-2c0b-444f-83a2-698272cee158:194"
+      },
+      {
+        "id": "prod-continuation-review-local",
+        "old_panels": [
+          "054-02"
+        ],
+        "frame": "Each diagram identifies a local reason to continue without merging the actors, objectives or outcomes. A hypothetical competitor remains visibly hypothetical.",
+        "lettering": [
+          "The comparison asks how visible local costs can support continuation. It does not establish that a particular laboratory continued because it feared a competitor."
+        ],
+        "exact_strings": [],
+        "sources": [
+          {
+            "key": "PROD-d53b7301c183",
+            "locator": "256t/editions/selected-messages/d53b7301c1837dbd44c6902fb21e9f4a4edd7c03cefc8e3bba7b6f1ab3247385.json; record SHA-256 d53b7301c1837dbd44c6902fb21e9f4a4edd7c03cefc8e3bba7b6f1ab3247385",
+            "available": "2026-09-05T21:42:06.614Z"
+          },
+          {
+            "key": "DRAFT-CONT-054",
+            "locator": "editions/three-stream/evidence/continuation-054-1da1d895ab4e.md; corresponding panel argument; Git 1da1d895ab4e1e2965708f0740ecaefc5257e5b6",
+            "available": "2026-09-02T15:21:44Z"
+          }
+        ],
+        "evidence_status": "documented-message-with-reconstructed-visualization",
+        "time_start": "2026-09-05T21:42:06.614Z",
+        "time_end": "2026-09-05T21:42:06.614Z",
+        "art_reuse": "none-approved",
+        "detail_decisions": [
+          {
+            "old_panel": "054-02",
+            "disposition": "rewrite",
+            "reason": "Preserve the draft’s argument as attributed project-authored material examined in a dated review; remove the invented meeting as historical action."
+          }
+        ],
+        "source_record": "current-mac:382dd4f9-2c0b-444f-83a2-698272cee158:194"
+      },
+      {
+        "id": "prod-continuation-review-responsibility",
+        "old_panels": [
+          "054-03"
+        ],
+        "frame": "A firm divider separates the two argument diagrams. Their labels remain readable without color.",
+        "lettering": [
+          "Similarity of decision structure does not give these actors the same duties, knowledge or moral responsibility."
+        ],
+        "exact_strings": [],
+        "sources": [
+          {
+            "key": "PROD-d53b7301c183",
+            "locator": "256t/editions/selected-messages/d53b7301c1837dbd44c6902fb21e9f4a4edd7c03cefc8e3bba7b6f1ab3247385.json; record SHA-256 d53b7301c1837dbd44c6902fb21e9f4a4edd7c03cefc8e3bba7b6f1ab3247385",
+            "available": "2026-09-05T21:42:06.614Z"
+          },
+          {
+            "key": "DRAFT-CONT-054",
+            "locator": "editions/three-stream/evidence/continuation-054-1da1d895ab4e.md; corresponding panel argument; Git 1da1d895ab4e1e2965708f0740ecaefc5257e5b6",
+            "available": "2026-09-02T15:21:44Z"
+          }
+        ],
+        "evidence_status": "documented-message-with-reconstructed-visualization",
+        "time_start": "2026-09-05T21:42:06.614Z",
+        "time_end": "2026-09-05T21:42:06.614Z",
+        "art_reuse": "none-approved",
+        "detail_decisions": [
+          {
+            "old_panel": "054-03",
+            "disposition": "rewrite",
+            "reason": "Preserve the draft’s argument as attributed project-authored material examined in a dated review; remove the invented meeting as historical action."
+          }
+        ],
+        "source_record": "current-mac:382dd4f9-2c0b-444f-83a2-698272cee158:194"
+      },
+      {
+        "id": "prod-continuation-review-causation",
+        "old_panels": [
+          "054-04"
+        ],
+        "frame": "The structural comparison is set beside an explicitly absent causal inference. No arrow runs from the fictional meeting to the intrusion.",
+        "lettering": [
+          "The draft’s analogy is structural. It does not establish that one side caused the other."
+        ],
+        "exact_strings": [],
+        "sources": [
+          {
+            "key": "PROD-d53b7301c183",
+            "locator": "256t/editions/selected-messages/d53b7301c1837dbd44c6902fb21e9f4a4edd7c03cefc8e3bba7b6f1ab3247385.json; record SHA-256 d53b7301c1837dbd44c6902fb21e9f4a4edd7c03cefc8e3bba7b6f1ab3247385",
+            "available": "2026-09-05T21:42:06.614Z"
+          },
+          {
+            "key": "DRAFT-CONT-054",
+            "locator": "editions/three-stream/evidence/continuation-054-1da1d895ab4e.md; corresponding panel argument; Git 1da1d895ab4e1e2965708f0740ecaefc5257e5b6",
+            "available": "2026-09-02T15:21:44Z"
+          }
+        ],
+        "evidence_status": "documented-message-with-reconstructed-visualization",
+        "time_start": "2026-09-05T21:42:06.614Z",
+        "time_end": "2026-09-05T21:42:06.614Z",
+        "art_reuse": "none-approved",
+        "detail_decisions": [
+          {
+            "old_panel": "054-04",
+            "disposition": "rewrite",
+            "reason": "Preserve the draft’s argument as attributed project-authored material examined in a dated review; remove the invented meeting as historical action."
+          }
+        ],
+        "source_record": "current-mac:382dd4f9-2c0b-444f-83a2-698272cee158:194"
+      },
+      {
+        "id": "prod-continuation-review-aggregate",
+        "old_panels": [
+          "054-05"
+        ],
+        "frame": "An authored aggregate-risk diagram surrounds separately reasoned local decisions. It is identified as the book’s argument, not a measured incident result.",
+        "lettering": [
+          "The argument is that locally defensible continuation can still produce collective danger. Claude’s review asks the book to stop repeating that conclusion without new evidence."
+        ],
+        "exact_strings": [],
+        "sources": [
+          {
+            "key": "PROD-d53b7301c183",
+            "locator": "256t/editions/selected-messages/d53b7301c1837dbd44c6902fb21e9f4a4edd7c03cefc8e3bba7b6f1ab3247385.json; record SHA-256 d53b7301c1837dbd44c6902fb21e9f4a4edd7c03cefc8e3bba7b6f1ab3247385",
+            "available": "2026-09-05T21:42:06.614Z"
+          },
+          {
+            "key": "DRAFT-CONT-054",
+            "locator": "editions/three-stream/evidence/continuation-054-1da1d895ab4e.md; corresponding panel argument; Git 1da1d895ab4e1e2965708f0740ecaefc5257e5b6",
+            "available": "2026-09-02T15:21:44Z"
+          }
+        ],
+        "evidence_status": "documented-message-with-reconstructed-visualization",
+        "time_start": "2026-09-05T21:42:06.614Z",
+        "time_end": "2026-09-05T21:42:06.614Z",
+        "art_reuse": "none-approved",
+        "detail_decisions": [
+          {
+            "old_panel": "054-05",
+            "disposition": "rewrite",
+            "reason": "Preserve the draft’s argument as attributed project-authored material examined in a dated review; remove the invented meeting as historical action."
+          }
+        ],
+        "source_record": "current-mac:382dd4f9-2c0b-444f-83a2-698272cee158:194"
+      }
+    ]
+  }
+]

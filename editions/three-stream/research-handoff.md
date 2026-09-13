@@ -334,3 +334,24 @@ reconstructed METR workspace is retired. Scope dates are preserved through
 the already drafted September 6 distinction between engagement scope and
 reviewed transcripts. The new treatment does not claim universal secrecy,
 loyalty or an outcome for a counterfactual reporting channel.
+
+The continuation-argument pass completes the twenty-one source-element decisions
+for old 053 and 054. The invented institutional meeting is replaced by ten beats
+of historical draft material accompanying Claude’s September 5 critique of
+repeated arguments. The evaluation, defense, readiness and stopping-cost cases
+survive as explicitly project-authored composite dialogue, never as quotations
+from real officials. The comparison retains different responsibilities and
+knowledge, and rejects a causal inference from structural similarity.
+
+Historical source copies of those two scripts are retained under `evidence/`,
+read directly from commit `1da1d895ab4e1e2965708f0740ecaefc5257e5b6` (September 2,
+15:21:44 UTC). The present frozen scripts have additional metadata and references,
+so the historical copies are separately admitted as DRAFT-CONT-053/054 rather
+than treating the later files as exact records of what existed at the review.
+The selected dialogue was checked against those Git copies. These are evidence
+artifacts with old identities, not new pages for pagination. The chronology
+remains the review message’s time; no synthetic meeting date was assigned.
+
+The later hearing/repetition panels still need their own element decisions.
+Their similarity to this argument is a lead for combining material, not an
+automatic disposition or permission to drop their strongest distinct questions.

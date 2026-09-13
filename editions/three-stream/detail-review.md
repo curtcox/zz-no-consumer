@@ -1004,6 +1004,236 @@ NOTHING IN THE REVIEWED RECORD CONVERGES ON IT.
 
 **Draft destination:** prod-resource-boundary-bound, prod-resource-boundary-status
 
+## legacy-332b5ed63262 · 053-01
+
+### legacy-053-01-detail-01 · frame
+
+**Frozen wording:**
+
+Recto. A conference room drawn with broken borders. A large top label reads `COMPOSITE / RECONSTRUCTED — NO SINGLE MEETING`. Participants are functional silhouettes: safety, security, research, leadership.
+
+**Decision:** rewrite — Retire the invented room, silhouettes and recto assignment. The context beat explicitly identifies the old material as composite draft content, without staging it as a historical meeting.
+
+**Draft destination:** prod-continuation-review-context
+
+### legacy-053-01-detail-02 · action
+
+**Frozen wording:**
+
+The question of continued capability work is placed on the table.
+
+**Decision:** rewrite — Preserve the question of continuing capability work as an argument under dated manuscript review.
+
+**Draft destination:** prod-continuation-review-context
+
+## legacy-332b5ed63262 · 053-02
+
+### legacy-053-02-detail-01 · frame
+
+**Frozen wording:**
+
+A difficult evaluation card beside a hidden-risk silhouette.
+
+**Decision:** rewrite — Keep the difficult-evaluation and hidden-risk rationale as a draft illustration, not an event involving a real researcher.
+
+**Draft destination:** prod-continuation-review-evaluation
+
+### legacy-053-02-detail-03 · lettering
+
+**Frozen wording:**
+
+If we make the evaluation easy enough to feel safe, we may stop measuring the capability that can hurt us.
+
+**Decision:** rewrite — Preserve the exact project-authored argument, clearly attributed to the fictional draft role and registered against the historical Git copy.
+
+**Draft destination:** prod-continuation-review-evaluation
+
+## legacy-332b5ed63262 · 053-03
+
+### legacy-053-03-detail-01 · frame
+
+**Frozen wording:**
+
+Security places the incident dossier beside proposed controls and monitoring gates.
+
+**Decision:** rewrite — Retain controls and realistic testing as parts of the argument; retire the enacted gesture by an invented security official.
+
+**Draft destination:** prod-continuation-review-defense
+
+### legacy-053-03-detail-03 · lettering
+
+**Frozen wording:**
+
+We need realistic tests to learn where containment fails. The answer can be better controls, not ignorance.
+
+**Decision:** rewrite — Preserve the full fictional defense argument as a labeled draft excerpt rather than newly attributed institutional speech.
+
+**Draft destination:** prod-continuation-review-defense
+
+## legacy-332b5ed63262 · 053-04
+
+### legacy-053-04-detail-01 · frame
+
+**Frozen wording:**
+
+A world map with several anonymous laboratories advancing on separate tracks. No company logos or attributed policy positions.
+
+**Decision:** rewrite — Retain competing research tracks only as a hypothetical argument; do not infer any real laboratory’s private reasoning.
+
+**Draft destination:** prod-continuation-review-readiness
+
+### legacy-053-04-detail-03 · lettering
+
+**Frozen wording:**
+
+Pausing here does not pause capability work everywhere. It may leave us less able to understand what others build.
+
+**Decision:** rewrite — Preserve the project-authored readiness argument verbatim as historical draft text.
+
+**Draft destination:** prod-continuation-review-readiness
+
+## legacy-332b5ed63262 · 053-05
+
+### legacy-053-05-detail-01 · frame
+
+**Frozen wording:**
+
+The participants place `EVALUATION`, `DEFENSE`, and `READINESS` cards beneath `CONTINUE`, with new safeguards drawn as conditions around them.
+
+**Decision:** rewrite — Keep all three reasons and the conditions for continuation; retire the staged meeting’s collective decision.
+
+**Draft destination:** prod-continuation-review-costs
+
+### legacy-053-05-detail-03 · lettering
+
+**Frozen wording:**
+
+Continuing has risks. Stopping also has visible costs.
+
+**Decision:** rewrite — Preserve both costs through the exact composite dialogue, without treating stopping and continuing as proven equivalent risks.
+
+**Draft destination:** prod-continuation-review-costs
+
+## legacy-332b5ed63262 · 054-01
+
+### legacy-054-01-detail-01 · frame
+
+**Frozen wording:**
+
+Verso split panel. Left: an agent lane adds external access because it enlarges available actions. Right: the composite room adds capability work because it enlarges available knowledge and readiness.
+
+**Decision:** rewrite — Replace the intercut enactment with distinct argument diagrams and retire verso choreography.
+
+**Draft destination:** prod-continuation-review-options
+
+### legacy-054-01-detail-03 · lettering
+
+**Frozen wording:**
+
+MORE CAPABILITY CREATES MORE OPTIONS.
+
+**Decision:** rewrite — Preserve option-expansion as the book’s analytical comparison, not an observed common motive.
+
+**Draft destination:** prod-continuation-review-options
+
+## legacy-332b5ed63262 · 054-02
+
+### legacy-054-02-detail-01 · frame
+
+**Frozen wording:**
+
+Left: a failed path is replaced cheaply by another run. Right: one laboratory imagines competitors continuing if it pauses.
+
+**Decision:** rewrite — Retire the invented competitor thought and cheap-replacement enactment; retain local cost as an argumentative premise.
+
+**Draft destination:** prod-continuation-review-local
+
+### legacy-054-02-detail-03 · lettering
+
+**Frozen wording:**
+
+THE COST OF STOPPING IS LOCAL AND VISIBLE.
+
+**Decision:** rewrite — Narrow the categorical local-cost claim into the comparison’s question, not a universal measured fact.
+
+**Draft destination:** prod-continuation-review-local
+
+## legacy-332b5ed63262 · 054-03
+
+### legacy-054-03-detail-01 · frame
+
+**Frozen wording:**
+
+A hard black divider breaks the symmetry. Text crosses neither side.
+
+**Decision:** rewrite — Keep the separation visually explicit without requiring the old page composition.
+
+**Draft destination:** prod-continuation-review-responsibility
+
+### legacy-054-03-detail-03 · lettering
+
+**Frozen wording:**
+
+THESE ARE NOT THE SAME ACTORS.
+
+**Decision:** rewrite — Keep different actors explicit within the anti-equivalence statement.
+
+**Draft destination:** prod-continuation-review-responsibility
+
+### legacy-054-03-detail-04 · lettering
+
+**Frozen wording:**
+
+THEY DO NOT HAVE THE SAME DUTIES, KNOWLEDGE, OR MORAL RESPONSIBILITY.
+
+**Decision:** rewrite — Preserve the differences in duties, knowledge and moral responsibility in reader-visible narration.
+
+**Draft destination:** prod-continuation-review-responsibility
+
+## legacy-332b5ed63262 · 054-04
+
+### legacy-054-04-detail-01 · frame
+
+**Frozen wording:**
+
+The two local decision diagrams remain separate, but their many `CONTINUE` arrows accumulate toward one shared claret risk field.
+
+**Decision:** rewrite — Replace the merged red field with a diagram that does not imply a demonstrated causal connection.
+
+**Draft destination:** prod-continuation-review-causation
+
+### legacy-054-04-detail-03 · lettering
+
+**Frozen wording:**
+
+THE RHYME IS STRUCTURAL: EACH SIDE HAS REASONS TO CONTINUE. THE COMPARISON DOES NOT ESTABLISH THAT ONE SIDE CAUSED THE OTHER.
+
+**Decision:** rewrite — Keep the explicit limit: structural comparison is not proof that one side caused the other.
+
+**Draft destination:** prod-continuation-review-causation
+
+## legacy-332b5ed63262 · 054-05
+
+### legacy-054-05-detail-01 · frame
+
+**Frozen wording:**
+
+Pull back. Every individual arrow has a reason beside it; none contains the total outcome. The aggregate field is larger than either diagram.
+
+**Decision:** rewrite — Retain the distinction between individually reasoned choices and aggregate risk as an authored argument.
+
+**Draft destination:** prod-continuation-review-aggregate
+
+### legacy-054-05-detail-03 · lettering
+
+**Frozen wording:**
+
+LOCALLY DEFENSIBLE CONTINUATION CAN STILL CREATE COLLECTIVE DANGER.
+
+**Decision:** rewrite — Preserve the collective-danger claim as the book’s argument and connect it to the documented review’s criticism of repetition.
+
+**Draft destination:** prod-continuation-review-aggregate
+
 ## legacy-332b5ed63262 · 063-01
 
 ### legacy-063-01-detail-01 · frame
