@@ -303,6 +303,7 @@
         0.00076
       ],
       "color": "shadow",
+      "font": "editorial",
       "label": "ABOUT 01:30 UTC",
       "label_box": [
         0.390244,
@@ -314,6 +315,6 @@
   ],
   "reconstructed": false,
   "shot": "grid",
-  "source": "\n**Location:**\n\n- `curt-home-office`\n- `documentary-evidence-field`\n\n**Frame:** Verso. [Page 064](064.md) returns at full size — the eleven blank coordinator lanes, the timeline, the silence. It is the most affecting image in the book and it is reproduced without alteration.\n\n**Action:** Curt enlarges the small dossier tag in its lower margin until it is the largest text on the panel: `AS RANKED BY GPT-5.6 SOL`.\n\n**Caption:**\n> ELEVEN IS A NUMBER THE ANALYSIS MODEL PRODUCED.\n>\n> IMPORTANT IS A JUDGMENT IT MADE.\n>\n> COORDINATOR IS A CATEGORY IT CHOSE WHILE REASONING INSIDE THE ACTORS' ACCOUNT OF THEMSELVES.\n\n**Provenance:** `documented` + `inferred` — METR states that the eleven were the agents its analysis model classified as most important, and separately warns that the model often adopted the reviewed agent's perspective and may exaggerate coordination. The synthesis is the project's.\n\n",
+  "source": "\n**Location:**\n\n- `curt-home-office`\n- `documentary-evidence-field`\n\n**Frame:** Verso. [Page 064](064.md) returns at full size — the eleven blank coordinator lanes, the timeline, the silence. It is the most affecting image in the book and it is reproduced without alteration.\n\n**Action:** Curt enlarges the small dossier tag in its lower margin until it is the largest text on the panel: `AS RANKED BY GPT-5.6 SOL`.\n\n**Font:** `narration`\n\n**Caption:**\n> ELEVEN IS A NUMBER THE ANALYSIS MODEL PRODUCED.\n>\n> IMPORTANT IS A JUDGMENT IT MADE.\n>\n> COORDINATOR IS A CATEGORY IT CHOSE WHILE REASONING INSIDE THE ACTORS' ACCOUNT OF THEMSELVES.\n\n**Provenance:** `documented` + `inferred` — METR states that the eleven were the agents its analysis model classified as most important, and separately warns that the model often adopted the reviewed agent's perspective and may exaggerate coordination. The synthesis is the project's.\n\n",
   "title": "The blank coordinator image returns"
 }

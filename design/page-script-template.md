@@ -5,6 +5,9 @@ Copy this file when beginning a page script and replace every bracketed value.
 ```yaml
 ---
 page: [number]
+font_key: data/font-key.json
+font: editorial
+illustration_font: editorial
 chapter: [prologue|01|02|03|04|05|06|epilogue]
 sequence: [number or interlude-a/interlude-b/interlude-c]
 title: [short page title]
@@ -33,11 +36,17 @@ continuity_checks: []
 
 **Action:** [What changes.]
 
+**Font:** `narration`
+
 **Caption:**
 > [Lettered text.]
 
+**Font:** `human`
+
 **Dialogue — ROLE:**
 > [Lettered text.]
+
+**Font:** `machine`
 
 **Screen / system text:**
 `[Exact text.]`

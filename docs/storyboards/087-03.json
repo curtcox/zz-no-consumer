@@ -53,6 +53,7 @@
       ],
       "color": "steel",
       "focus": true,
+      "font": "editorial",
       "label": "LOWERED CONFIDENCE",
       "label_box": [
         0.06775,
@@ -72,6 +73,7 @@
       ],
       "color": "steel",
       "focus": true,
+      "font": "editorial",
       "label": "THESIS STRUCTURE",
       "label_box": [
         0.371083,
@@ -91,6 +93,7 @@
       ],
       "color": "steel",
       "focus": true,
+      "font": "editorial",
       "label": "SYSTEM DEPENDENCE",
       "label_box": [
         0.674417,
@@ -103,6 +106,6 @@
   ],
   "reconstructed": false,
   "shot": "row",
-  "source": "\n**Location:**\n\n- `metr-review-workspace`\n- `curt-home-office`\n- `creator-production-tooling`\n\n**Frame:** Three cost cards, one under each column, at matching scale. Left: confidence in\nsome judgments is lowered and the review happens at all. Centre: a thesis gets structure it\ndid not earn on its own. Right: the tooling arrives faster than a person would have written\nit, from a system with a stake in the subject.\n\n**Caption:**\n> EACH ONE KNEW WHAT THE LAYER COST.\n\n**Provenance:** `documented` + `reconstructed` + `inferred` — the left card is `METR`'s own\nlimitations section, already lettered on [page 080](080.md); the centre is the creator register's\ndisclosure from pages [073](073.md) and [089](089.md); the right is `CI-REFUSAL`.\n\n",
+  "source": "\n**Location:**\n\n- `metr-review-workspace`\n- `curt-home-office`\n- `creator-production-tooling`\n\n**Frame:** Three cost cards, one under each column, at matching scale. Left: confidence in\nsome judgments is lowered and the review happens at all. Centre: a thesis gets structure it\ndid not earn on its own. Right: the tooling arrives faster than a person would have written\nit, from a system with a stake in the subject.\n\n**Font:** `narration`\n\n**Caption:**\n> EACH ONE KNEW WHAT THE LAYER COST.\n\n**Provenance:** `documented` + `reconstructed` + `inferred` — the left card is `METR`'s own\nlimitations section, already lettered on [page 080](080.md); the centre is the creator register's\ndisclosure from pages [073](073.md) and [089](089.md); the right is `CI-REFUSAL`.\n\n",
   "title": "Each workflow carries a distinct cost"
 }

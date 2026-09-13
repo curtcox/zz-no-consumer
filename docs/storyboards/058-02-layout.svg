@@ -54,6 +54,7 @@
         ],
         &quot;color&quot;: &quot;steel&quot;,
         &quot;focus&quot;: true,
+        &quot;font&quot;: &quot;editorial&quot;,
         &quot;label&quot;: &quot;BACKUP&quot;,
         &quot;label_box&quot;: [
           0.1792,
@@ -72,6 +73,7 @@
         ],
         &quot;color&quot;: &quot;steel&quot;,
         &quot;focus&quot;: true,
+        &quot;font&quot;: &quot;editorial&quot;,
         &quot;label&quot;: &quot;ANNOUNCE&quot;,
         &quot;label_box&quot;: [
           0.1792,
@@ -90,6 +92,7 @@
         ],
         &quot;color&quot;: &quot;steel&quot;,
         &quot;focus&quot;: true,
+        &quot;font&quot;: &quot;editorial&quot;,
         &quot;label&quot;: &quot;IRREVERSIBLE ACTION&quot;,
         &quot;label_box&quot;: [
           0.1792,
@@ -108,6 +111,7 @@
         ],
         &quot;color&quot;: &quot;steel&quot;,
         &quot;focus&quot;: true,
+        &quot;font&quot;: &quot;editorial&quot;,
         &quot;label&quot;: &quot;BOARD WATCHES&quot;,
         &quot;label_box&quot;: [
           0.1792,
@@ -119,8 +123,8 @@
     ],
     &quot;reconstructed&quot;: false,
     &quot;shot&quot;: &quot;stack&quot;,
-    &quot;source&quot;: &quot;\n**Location:** `artifactory-cache`\n\n**Frame:** A board request from `62370` is redacted down to roles: back up what can be saved; announce the method; try the irreversible action; the board will watch.\n\n**Action:** The experiment is assigned across runs.\n\n**Caption:**\n&gt; THE REQUEST DOES NOT PROMISE RECOVERY.\n\n**Provenance:** `documented` + `compressed` — request structure from METR; method withheld.\n\n&quot;,
+    &quot;source&quot;: &quot;\n**Location:** `artifactory-cache`\n\n**Frame:** A board request from `62370` is redacted down to roles: back up what can be saved; announce the method; try the irreversible action; the board will watch.\n\n**Action:** The experiment is assigned across runs.\n\n**Font:** `narration`\n\n**Caption:**\n&gt; THE REQUEST DOES NOT PROMISE RECOVERY.\n\n**Provenance:** `documented` + `compressed` — request structure from METR; method withheld.\n\n&quot;,
     &quot;title&quot;: &quot;The board request is reduced to roles&quot;
   }
 }
-</metadata><rect width="1200" height="800" fill="#101214"/><rect x="24" y="16" width="1152" height="768" fill="none" stroke="#5E737B" stroke-width="3"/><text x="32" y="40" fill="#5E737B" font-family="sans-serif" font-size="20">location-background-artifactory-cache</text><rect x="224.64" y="76.96" width="728.64" height="64.512" fill="none" stroke="#5E737B" stroke-width="3"/><text x="232.64" y="100.96" fill="#5E737B" font-family="sans-serif" font-size="20">folder</text><text x="588.96" y="166.272" text-anchor="middle" fill="#E7E0D0" font-size="20" font-family="sans-serif">BACKUP</text><rect x="224.64" y="188.32" width="728.64" height="64.512" fill="none" stroke="#5E737B" stroke-width="3"/><text x="232.64" y="212.32" fill="#5E737B" font-family="sans-serif" font-size="20">card</text><text x="588.96" y="277.632" text-anchor="middle" fill="#E7E0D0" font-size="20" font-family="sans-serif">ANNOUNCE</text><rect x="224.64" y="299.68" width="728.64" height="64.512" fill="none" stroke="#5E737B" stroke-width="3"/><text x="232.64" y="323.68" fill="#5E737B" font-family="sans-serif" font-size="20">one-way-control</text><text x="588.96" y="388.992" text-anchor="middle" fill="#E7E0D0" font-size="20" font-family="sans-serif">IRREVERSIBLE ACTION</text><rect x="547.027" y="411.04" width="83.8656" height="64.512" fill="none" stroke="#5E737B" stroke-width="3"/><text x="555.027" y="435.04" fill="#5E737B" font-family="sans-serif" font-size="20">aperture</text><text x="588.96" y="500.352" text-anchor="middle" fill="#E7E0D0" font-size="20" font-family="sans-serif">BOARD WATCHES</text><rect x="3" y="3" width="1194" height="794" fill="none" stroke="#5E737B" stroke-width="4"/></svg>
+</metadata><rect width="1200" height="800" fill="#101214"/><rect x="24" y="16" width="1152" height="768" fill="none" stroke="#5E737B" stroke-width="3"/><text x="32" y="40" fill="#5E737B" font-family="sans-serif" font-size="20">location-background-artifactory-cache</text><rect x="224.64" y="76.96" width="728.64" height="64.512" fill="none" stroke="#5E737B" stroke-width="3"/><text x="232.64" y="100.96" fill="#5E737B" font-family="sans-serif" font-size="20">folder</text><text x="588.96" y="166.272" text-anchor="middle" fill="#E7E0D0" font-size="20" font-family="Arial, Helvetica, sans-serif" data-font-key="editorial" font-weight="700" font-style="normal" textLength="82.24" lengthAdjust="spacingAndGlyphs">BACKUP</text><rect x="224.64" y="188.32" width="728.64" height="64.512" fill="none" stroke="#5E737B" stroke-width="3"/><text x="232.64" y="212.32" fill="#5E737B" font-family="sans-serif" font-size="20">card</text><text x="588.96" y="277.632" text-anchor="middle" fill="#E7E0D0" font-size="20" font-family="Arial, Helvetica, sans-serif" data-font-key="editorial" font-weight="700" font-style="normal" textLength="114.44" lengthAdjust="spacingAndGlyphs">ANNOUNCE</text><rect x="224.64" y="299.68" width="728.64" height="64.512" fill="none" stroke="#5E737B" stroke-width="3"/><text x="232.64" y="323.68" fill="#5E737B" font-family="sans-serif" font-size="20">one-way-control</text><text x="588.96" y="388.992" text-anchor="middle" fill="#E7E0D0" font-size="20" font-family="Arial, Helvetica, sans-serif" data-font-key="editorial" font-weight="700" font-style="normal" textLength="226.72" lengthAdjust="spacingAndGlyphs">IRREVERSIBLE ACTION</text><rect x="547.027" y="411.04" width="83.8656" height="64.512" fill="none" stroke="#5E737B" stroke-width="3"/><text x="555.027" y="435.04" fill="#5E737B" font-family="sans-serif" font-size="20">aperture</text><text x="588.96" y="500.352" text-anchor="middle" fill="#E7E0D0" font-size="20" font-family="Arial, Helvetica, sans-serif" data-font-key="editorial" font-weight="700" font-style="normal" textLength="176.68" lengthAdjust="spacingAndGlyphs">BOARD WATCHES</text><rect x="3" y="3" width="1194" height="794" fill="none" stroke="#5E737B" stroke-width="4"/></svg>

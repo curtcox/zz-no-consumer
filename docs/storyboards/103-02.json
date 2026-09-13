@@ -33,6 +33,7 @@
       ],
       "color": "steel",
       "focus": true,
+      "font": "editorial",
       "label": "ISOLATION",
       "label_box": [
         0.06775,
@@ -52,6 +53,7 @@
       ],
       "color": "steel",
       "focus": true,
+      "font": "editorial",
       "label": "MONITORING",
       "label_box": [
         0.24975,
@@ -71,6 +73,7 @@
       ],
       "color": "steel",
       "focus": true,
+      "font": "editorial",
       "label": "ESCALATION",
       "label_box": [
         0.43175,
@@ -90,6 +93,7 @@
       ],
       "color": "steel",
       "focus": true,
+      "font": "editorial",
       "label": "GRADER",
       "label_box": [
         0.61375,
@@ -109,6 +113,7 @@
       ],
       "color": "steel",
       "focus": true,
+      "font": "editorial",
       "label": "PAUSE",
       "label_box": [
         0.79575,
@@ -121,6 +126,6 @@
   ],
   "reconstructed": false,
   "shot": "row",
-  "source": "\n**Location:** `openai-research-infrastructure`\n\n**Frame:** OpenAI adds isolation, monitor lanes, escalation clocks, grader revisions, and scoped pause controls.\n\n**Caption:**\n> THE LAB LEARNS IN BOUNDARIES, INCENTIVES, AND RESPONSE RULES.\n\n**Provenance:** `documented` + `compressed`.\n\n",
+  "source": "\n**Location:** `openai-research-infrastructure`\n\n**Frame:** OpenAI adds isolation, monitor lanes, escalation clocks, grader revisions, and scoped pause controls.\n\n**Font:** `narration`\n\n**Caption:**\n> THE LAB LEARNS IN BOUNDARIES, INCENTIVES, AND RESPONSE RULES.\n\n**Provenance:** `documented` + `compressed`.\n\n",
   "title": "The lab adds scoped controls and response authority"
 }

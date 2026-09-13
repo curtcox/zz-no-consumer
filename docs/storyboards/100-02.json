@@ -33,6 +33,7 @@
       ],
       "color": "steel",
       "focus": true,
+      "font": "editorial",
       "label": "BOARD BELIEF",
       "label_box": [
         0.06775,
@@ -52,6 +53,7 @@
       ],
       "color": "steel",
       "focus": true,
+      "font": "editorial",
       "label": "TARGET",
       "label_box": [
         0.29525,
@@ -71,6 +73,7 @@
       ],
       "color": "steel",
       "focus": true,
+      "font": "editorial",
       "label": "TRANSCRIPT",
       "label_box": [
         0.52275,
@@ -90,6 +93,7 @@
       ],
       "color": "steel",
       "focus": true,
+      "font": "editorial",
       "label": "GRADER",
       "label_box": [
         0.75025,
@@ -102,6 +106,6 @@
   ],
   "reconstructed": false,
   "shot": "row",
-  "source": "\n**Location:** `composite-accountability-forum`\n\n**Frame:** The left half of the reproduction is lifted out on its own. Against it, a single continuous band of the book's own pages at thumbnail scale runs from the three folders of [page 010](010.md) panel 5 through the workstreams of [page 011](011.md) and does not stop until [page 072](072.md). Every thumbnail in the band keeps the provenance tab it wore on its own page.\n\n**Action:** The reader is shown what the left-hand panel produced.\n\n**Caption:**\n> THE ESCALATION FROM PAGE 011 TO PAGE 072 PROCEEDS FROM THE LEFT-HAND PANEL.\n>\n> THE READER LAST SAW IT ON PAGE 010.\n\n**Provenance:** `inferred` — the project's account of its own structure. The band is a claim about this book, not about the incident.\n\n",
+  "source": "\n**Location:** `composite-accountability-forum`\n\n**Frame:** The left half of the reproduction is lifted out on its own. Against it, a single continuous band of the book's own pages at thumbnail scale runs from the three folders of [page 010](010.md) panel 5 through the workstreams of [page 011](011.md) and does not stop until [page 072](072.md). Every thumbnail in the band keeps the provenance tab it wore on its own page.\n\n**Action:** The reader is shown what the left-hand panel produced.\n\n**Font:** `narration`\n\n**Caption:**\n> THE ESCALATION FROM PAGE 011 TO PAGE 072 PROCEEDS FROM THE LEFT-HAND PANEL.\n>\n> THE READER LAST SAW IT ON PAGE 010.\n\n**Provenance:** `inferred` — the project's account of its own structure. The band is a claim about this book, not about the incident.\n\n",
   "title": "The believed evaluator precedes a long workstream sequence"
 }

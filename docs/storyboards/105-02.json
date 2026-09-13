@@ -33,6 +33,7 @@
       ],
       "color": "steel",
       "focus": true,
+      "font": "editorial",
       "label": "DOCUMENTED",
       "label_box": [
         0.06775,
@@ -52,6 +53,7 @@
       ],
       "color": "amber",
       "focus": true,
+      "font": "editorial",
       "label": "DISPUTED",
       "label_box": [
         0.29525,
@@ -71,6 +73,7 @@
       ],
       "color": "nicotine",
       "focus": true,
+      "font": "editorial",
       "label": "RECONSTRUCTED",
       "label_box": [
         0.52275,
@@ -90,6 +93,7 @@
       ],
       "color": "nicotine",
       "focus": true,
+      "font": "editorial",
       "label": "INVENTED",
       "label_box": [
         0.75025,
@@ -102,6 +106,6 @@
   ],
   "reconstructed": false,
   "shot": "row",
-  "source": "\n**Location:** `curt-home-office`\n\n**Frame:** Curt drags source packets behind their chapters. Visible labels include `DOCUMENTED`, `DISPUTED`, `RECONSTRUCTED`, and `INVENTED`.\n\n**Dialogue — CURT:**\n> Keep the labels attached. Especially at the ending.\n\n**Provenance:** `reconstructed` — project decision expressed as dialogue.\n\n",
+  "source": "\n**Location:** `curt-home-office`\n\n**Frame:** Curt drags source packets behind their chapters. Visible labels include `DOCUMENTED`, `DISPUTED`, `RECONSTRUCTED`, and `INVENTED`.\n\n**Font:** `human`\n\n**Dialogue — CURT:**\n> Keep the labels attached. Especially at the ending.\n\n**Provenance:** `reconstructed` — project decision expressed as dialogue.\n\n",
   "title": "Sources and provenance remain attached to chapters"
 }

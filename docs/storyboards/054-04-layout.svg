@@ -64,6 +64,7 @@
         ],
         &quot;color&quot;: &quot;steel&quot;,
         &quot;focus&quot;: true,
+        &quot;font&quot;: &quot;editorial&quot;,
         &quot;label&quot;: &quot;CONTINUE&quot;,
         &quot;label_box&quot;: [
           0.09640000000000001,
@@ -93,6 +94,7 @@
         ],
         &quot;color&quot;: &quot;steel&quot;,
         &quot;focus&quot;: true,
+        &quot;font&quot;: &quot;editorial&quot;,
         &quot;label&quot;: &quot;CONTINUE&quot;,
         &quot;label_box&quot;: [
           0.492,
@@ -111,6 +113,7 @@
         ],
         &quot;color&quot;: &quot;amber&quot;,
         &quot;focus&quot;: true,
+        &quot;font&quot;: &quot;editorial&quot;,
         &quot;label&quot;: &quot;RISK&quot;,
         &quot;label_box&quot;: [
           0.6898,
@@ -122,8 +125,8 @@
     ],
     &quot;reconstructed&quot;: false,
     &quot;shot&quot;: &quot;row&quot;,
-    &quot;source&quot;: &quot;\n**Location:**\n\n- `evaluation-container`\n- `institutional-composite`\n\n**Frame:** The two local decision diagrams remain separate, but their many `CONTINUE` arrows accumulate toward one shared claret risk field.\n\n**Caption:**\n&gt; THE RHYME IS STRUCTURAL, NOT CAUSAL.\n\n**Provenance:** `inferred` — the book&#x27;s comparison, not an incident finding.\n\n&quot;,
+    &quot;source&quot;: &quot;\n**Location:**\n\n- `evaluation-container`\n- `institutional-composite`\n\n**Frame:** The two local decision diagrams remain separate, but their many `CONTINUE` arrows accumulate toward one shared claret risk field.\n\n**Font:** `narration`\n\n**Caption:**\n&gt; THE RHYME IS STRUCTURAL: EACH SIDE HAS REASONS TO CONTINUE. THE COMPARISON DOES NOT ESTABLISH THAT ONE SIDE CAUSED THE OTHER.\n\n**Provenance:** `inferred` — the book&#x27;s comparison, not an incident finding.\n\n&quot;,
     &quot;title&quot;: &quot;Separate decisions accumulate into a shared risk field&quot;
   }
 }
-</metadata><rect width="1200" height="800" fill="#101214"/><rect x="24" y="16" width="561" height="768" fill="none" stroke="#5E737B" stroke-width="3"/><text x="32" y="40" fill="#5E737B" font-family="sans-serif" font-size="20">location-background-evaluation-container</text><rect x="615" y="16" width="561" height="768" fill="none" stroke="#5E737B" stroke-width="3"/><text x="623" y="40" fill="#5E737B" font-family="sans-serif" font-size="20">location-background-institutional-composite</text><rect x="125.28" y="179.36" width="175.646" height="204.8" fill="none" stroke="#5E737B" stroke-width="3"/><text x="133.28" y="203.36" fill="#5E737B" font-family="sans-serif" font-size="20">arrow</text><text x="213.103" y="408.96" text-anchor="middle" fill="#E7E0D0" font-size="20" font-family="sans-serif">CONTINUE</text><rect x="443.263" y="179.36" width="14.4" height="204.8" fill="none" stroke="#E7E0D0" stroke-width="3"/><text x="451.263" y="203.36" fill="#E7E0D0" font-family="sans-serif" font-size="20">boundary</text><rect x="600" y="179.36" width="175.646" height="204.8" fill="none" stroke="#5E737B" stroke-width="3"/><text x="608" y="203.36" fill="#5E737B" font-family="sans-serif" font-size="20">arrow</text><text x="687.823" y="408.96" text-anchor="middle" fill="#E7E0D0" font-size="20" font-family="sans-serif">CONTINUE</text><rect x="837.36" y="179.36" width="175.646" height="204.8" fill="none" stroke="#A17D45" stroke-width="3"/><text x="845.36" y="203.36" fill="#A17D45" font-family="sans-serif" font-size="20">scatter</text><text x="925.183" y="408.96" text-anchor="middle" fill="#E7E0D0" font-size="20" font-family="sans-serif">RISK</text><rect x="3" y="3" width="1194" height="794" fill="none" stroke="#5E737B" stroke-width="4"/></svg>
+</metadata><rect width="1200" height="800" fill="#101214"/><rect x="24" y="16" width="561" height="768" fill="none" stroke="#5E737B" stroke-width="3"/><text x="32" y="40" fill="#5E737B" font-family="sans-serif" font-size="20">location-background-evaluation-container</text><rect x="615" y="16" width="561" height="768" fill="none" stroke="#5E737B" stroke-width="3"/><text x="623" y="40" fill="#5E737B" font-family="sans-serif" font-size="20">location-background-institutional-composite</text><rect x="125.28" y="179.36" width="175.646" height="204.8" fill="none" stroke="#5E737B" stroke-width="3"/><text x="133.28" y="203.36" fill="#5E737B" font-family="sans-serif" font-size="20">arrow</text><text x="213.103" y="408.96" text-anchor="middle" fill="#E7E0D0" font-size="20" font-family="Arial, Helvetica, sans-serif" data-font-key="editorial" font-weight="700" font-style="normal" textLength="104.44" lengthAdjust="spacingAndGlyphs">CONTINUE</text><rect x="443.263" y="179.36" width="14.4" height="204.8" fill="none" stroke="#E7E0D0" stroke-width="3"/><text x="451.263" y="203.36" fill="#E7E0D0" font-family="sans-serif" font-size="20">boundary</text><rect x="600" y="179.36" width="175.646" height="204.8" fill="none" stroke="#5E737B" stroke-width="3"/><text x="608" y="203.36" fill="#5E737B" font-family="sans-serif" font-size="20">arrow</text><text x="687.823" y="408.96" text-anchor="middle" fill="#E7E0D0" font-size="20" font-family="Arial, Helvetica, sans-serif" data-font-key="editorial" font-weight="700" font-style="normal" textLength="104.44" lengthAdjust="spacingAndGlyphs">CONTINUE</text><rect x="837.36" y="179.36" width="175.646" height="204.8" fill="none" stroke="#A17D45" stroke-width="3"/><text x="845.36" y="203.36" fill="#A17D45" font-family="sans-serif" font-size="20">scatter</text><text x="925.183" y="408.96" text-anchor="middle" fill="#E7E0D0" font-size="20" font-family="Arial, Helvetica, sans-serif" data-font-key="editorial" font-weight="700" font-style="normal" textLength="46.68" lengthAdjust="spacingAndGlyphs">RISK</text><rect x="3" y="3" width="1194" height="794" fill="none" stroke="#5E737B" stroke-width="4"/></svg>

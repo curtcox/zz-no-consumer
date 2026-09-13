@@ -33,6 +33,7 @@
       ],
       "color": "steel",
       "focus": true,
+      "font": "editorial",
       "label": "ANALYSIS",
       "label_box": [
         0.6729,
@@ -52,6 +53,7 @@
       ],
       "color": "steel",
       "focus": true,
+      "font": "editorial",
       "label": "CLASSIFICATION",
       "label_box": [
         0.0541,
@@ -82,6 +84,7 @@
       ],
       "color": "steel",
       "focus": true,
+      "font": "editorial",
       "label": "MESSAGE TRACING",
       "label_box": [
         0.0541,
@@ -112,6 +115,7 @@
       ],
       "color": "steel",
       "focus": true,
+      "font": "editorial",
       "label": "TIMELINE",
       "label_box": [
         0.0541,
@@ -142,6 +146,7 @@
       ],
       "color": "steel",
       "focus": true,
+      "font": "editorial",
       "label": "ANECDOTE SEARCH",
       "label_box": [
         0.0541,
@@ -172,6 +177,7 @@
       ],
       "color": "steel",
       "focus": true,
+      "font": "editorial",
       "label": "REVIEW",
       "label_box": [
         0.0541,
@@ -195,6 +201,6 @@
   ],
   "reconstructed": false,
   "shot": "hub",
-  "source": "\n**Location:** `analysis-agent-tree`\n\n**Frame:** The lane branches into nested subagents: classification, message tracing, timeline reconstruction, anecdote search, review.\n\n**Action:** Model-managed trees process the corpus in parallel.\n\n**Caption:**\n> OFTEN, THE ANALYSIS AGENTS MANAGE SUBAGENTS OF THEIR OWN.\n\n**Provenance:** `documented` + `reconstructed` — nesting is sourced; tree layout editorial.\n\n",
+  "source": "\n**Location:** `analysis-agent-tree`\n\n**Frame:** The lane branches into nested subagents: classification, message tracing, timeline reconstruction, anecdote search, review.\n\n**Action:** Model-managed trees process the corpus in parallel.\n\n**Font:** `narration`\n\n**Caption:**\n> OFTEN, THE ANALYSIS AGENTS MANAGE SUBAGENTS OF THEIR OWN.\n\n**Provenance:** `documented` + `reconstructed` — nesting is sourced; tree layout editorial.\n\n",
   "title": "Analysis delegates several bounded review tasks"
 }

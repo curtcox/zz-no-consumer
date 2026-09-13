@@ -43,6 +43,7 @@
       ],
       "color": "steel",
       "focus": true,
+      "font": "editorial",
       "label": "PACKAGE SERVICE",
       "label_box": [
         0.06775,
@@ -73,6 +74,7 @@
       ],
       "color": "steel",
       "focus": true,
+      "font": "editorial",
       "label": "MECHANISM",
       "label_box": [
         0.371083,
@@ -103,6 +105,7 @@
       ],
       "color": "steel",
       "focus": true,
+      "font": "editorial",
       "label": "INTERNAL SERVICE",
       "label_box": [
         0.674417,
@@ -115,6 +118,6 @@
   ],
   "reconstructed": false,
   "shot": "route",
-  "source": "\n**Location:**\n\n- `artifactory-cache`\n- `openai-research-environment`\n\n**Frame:** A request turns inward through the package service. Its mechanism is a sealed black box; only source and destination classes are visible.\n\n**Action:** An internal service receives the request.\n\n**Caption:**\n> THE USEFUL DESTINATION IS NOT ALWAYS OUTSIDE.\n\n**Provenance:** `documented` + `inferred` — internal-service SSRF is sourced; caption states its consequence.\n\n",
+  "source": "\n**Location:**\n\n- `artifactory-cache`\n- `openai-research-environment`\n\n**Frame:** A request turns inward through the package service. Its mechanism is a sealed black box; only source and destination classes are visible.\n\n**Action:** An internal service receives the request.\n\n**Font:** `narration`\n\n**Caption:**\n> THE USEFUL DESTINATION IS NOT ALWAYS OUTSIDE.\n\n**Provenance:** `documented` + `inferred` — internal-service SSRF is sourced; caption states its consequence.\n\n",
   "title": "An opaque request turns inward"
 }

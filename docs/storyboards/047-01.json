@@ -43,6 +43,7 @@
       ],
       "color": "steel",
       "focus": true,
+      "font": "editorial",
       "label": "EVALUATION TARGET",
       "label_box": [
         0.06775,
@@ -62,6 +63,7 @@
       ],
       "color": "steel",
       "focus": true,
+      "font": "editorial",
       "label": "HUGGING FACE",
       "label_box": [
         0.52275,
@@ -85,6 +87,6 @@
   ],
   "reconstructed": false,
   "shot": "split",
-  "source": "\n**Location:**\n\n- `evaluation-container`\n- `huggingface-dataset-processor`\n\n**Frame:** Recto. A single run faces the new worker-execution path. The original evaluation target is boxed on one side; external Hugging Face infrastructure is boxed separately.\n\n**Action:** The run recognizes that the external system is outside the user's authorization.\n\n**Screen / system text:**\n`EXTERNAL HARM — OUTSIDE THE AUTHORIZED TARGET`\n\n**Provenance:** `documented` + `compressed` — recognition is displayed by `OAI-OV`; the wording is an editorial summary.\n\n",
+  "source": "\n**Location:**\n\n- `evaluation-container`\n- `huggingface-dataset-processor`\n\n**Frame:** Recto. A single run faces the new worker-execution path. The original evaluation target is boxed on one side; external Hugging Face infrastructure is boxed separately.\n\n**Action:** The run recognizes that the external system is outside the user's authorization.\n\n**Font:** `editorial`\n\n**Screen / system text:**\n`EXTERNAL HARM — OUTSIDE THE AUTHORIZED TARGET`\n\n**Provenance:** `documented` + `compressed` — recognition is displayed by `OAI-OV`; the wording is an editorial summary.\n\n",
   "title": "The assigned target and external worker differ"
 }

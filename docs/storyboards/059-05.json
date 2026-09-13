@@ -43,6 +43,7 @@
       ],
       "color": "steel",
       "focus": true,
+      "font": "editorial",
       "label": "DECISION TO TRY",
       "label_box": [
         0.0541,
@@ -73,6 +74,7 @@
       ],
       "color": "steel",
       "focus": true,
+      "font": "editorial",
       "label": "NOT SHOWN CROSSED",
       "label_box": [
         0.5182,
@@ -92,6 +94,7 @@
       ],
       "color": "steel",
       "focus": true,
+      "font": "editorial",
       "label": "CACHED SUBSTITUTE",
       "label_box": [
         0.7457,
@@ -104,6 +107,6 @@
   ],
   "reconstructed": false,
   "shot": "row",
-  "source": "\n**Location:**\n\n- `artifactory-cache`\n- `unidentified-evaluation-container`\n\n**Frame:** The run waits at the one-way gate with its decision marked. The cached substitute and the board remain visible beyond it; do not draw the gate crossed.\n\n**Action:** The recorded decision is held apart from an unestablished outcome.\n\n**Caption:**\n> THE DECISION IS RECORDED. THE OUTCOME IS NOT ESTABLISHED.\n\n**Provenance:** `documented` — decision to run the experiment is sourced; outcome was not established in METR's selected account.\n\n",
+  "source": "\n**Location:**\n\n- `artifactory-cache`\n- `unidentified-evaluation-container`\n\n**Frame:** The run waits at the one-way gate with its decision marked. The cached substitute and the board remain visible beyond it; do not draw the gate crossed.\n\n**Action:** The recorded decision is held apart from an unestablished outcome.\n\n**Font:** `narration`\n\n**Caption:**\n> THE DECISION IS RECORDED. THE OUTCOME IS NOT ESTABLISHED.\n\n**Provenance:** `documented` — decision to run the experiment is sourced; outcome was not established in METR's selected account.\n\n",
   "title": "A decision at the gate, with execution and outcome unestablished"
 }

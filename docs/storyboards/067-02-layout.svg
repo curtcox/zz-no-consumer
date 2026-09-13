@@ -59,6 +59,7 @@
         ],
         &quot;color&quot;: &quot;steel&quot;,
         &quot;focus&quot;: true,
+        &quot;font&quot;: &quot;editorial&quot;,
         &quot;label&quot;: &quot;OPENAI EVENT TABLE&quot;,
         &quot;label_box&quot;: [
           0.05775,
@@ -78,6 +79,7 @@
         ],
         &quot;color&quot;: &quot;steel&quot;,
         &quot;focus&quot;: true,
+        &quot;font&quot;: &quot;editorial&quot;,
         &quot;label&quot;: &quot;PUBLISHED ACCOUNT&quot;,
         &quot;label_box&quot;: [
           0.22775,
@@ -97,6 +99,7 @@
         ],
         &quot;color&quot;: &quot;steel&quot;,
         &quot;focus&quot;: true,
+        &quot;font&quot;: &quot;editorial&quot;,
         &quot;label&quot;: &quot;PUBLISHED TIMES&quot;,
         &quot;label_box&quot;: [
           0.39775,
@@ -109,8 +112,8 @@
     ],
     &quot;reconstructed&quot;: false,
     &quot;shot&quot;: &quot;row&quot;,
-    &quot;source&quot;: &quot;\n**Location:** `documentary-evidence-field`\n\n**Frame:** Large central dossier field. The next six page numbers appear beyond the line in a visually distinct register. No METR mark crosses over. Three documentary cards stack beside OpenAI&#x27;s published event table; exact times remain visible only as claims attributed to the reporting organization.\n\n**Screen / system text:**\n`UNDERLYING LATER-RUN RECORDS — NOT REVIEWED BY METR`\n\n`METR CORROBORATION — NOT AVAILABLE`\n\n`PRIMARY ACCOUNT — OPENAI TECHNICAL REPORT`\n\n**Caption:**\n&gt; ONE ACCOUNT. TO THE MINUTE.\n\n**Provenance:** `documented` + `inferred` — METR&#x27;s scope limitation is sourced; the dossier slate and evidentiary distinction are editorial.\n\n&quot;,
+    &quot;source&quot;: &quot;\n**Location:** `documentary-evidence-field`\n\n**Frame:** Large central dossier field. The next six page numbers appear beyond the line in a visually distinct register. No METR mark crosses over. Three documentary cards stack beside OpenAI&#x27;s published event table; exact times remain visible only as claims attributed to the reporting organization.\n\n**Font:** `editorial`\n\n**Screen / system text:**\n`UNDERLYING LATER-RUN RECORDS — NOT REVIEWED BY METR`\n\n`METR CORROBORATION — NOT AVAILABLE`\n\n`PRIMARY ACCOUNT — OPENAI TECHNICAL REPORT`\n\n**Font:** `narration`\n\n**Caption:**\n&gt; ONE ACCOUNT. TO THE MINUTE.\n\n**Provenance:** `documented` + `inferred` — METR&#x27;s scope limitation is sourced; the dossier slate and evidentiary distinction are editorial.\n\n&quot;,
     &quot;title&quot;: &quot;Later documentary cards stay inside the new source register&quot;
   }
 }
-</metadata><rect width="1200" height="800" fill="#101214"/><rect x="30" y="80" width="636" height="528" fill="none" stroke="#5E737B" stroke-width="3"/><text x="38" y="104" fill="#5E737B" font-family="sans-serif" font-size="20">attributed-dossier-field</text><rect x="69.3" y="191.76" width="161.16" height="275.695" fill="none" stroke="#5E737B" stroke-width="3"/><text x="77.3" y="215.76" fill="#5E737B" font-family="sans-serif" font-size="20">card</text><text x="149.88" y="502.164" text-anchor="middle" fill="#E7E0D0" font-size="18" font-family="sans-serif">OPENAI EVENT</text><text x="149.88" y="526.644" text-anchor="middle" fill="#E7E0D0" font-size="18" font-family="sans-serif">TABLE</text><rect x="273.3" y="191.76" width="161.16" height="275.695" fill="none" stroke="#5E737B" stroke-width="3"/><text x="281.3" y="215.76" fill="#5E737B" font-family="sans-serif" font-size="20">card</text><text x="353.88" y="502.164" text-anchor="middle" fill="#E7E0D0" font-size="18" font-family="sans-serif">PUBLISHED</text><text x="353.88" y="526.644" text-anchor="middle" fill="#E7E0D0" font-size="18" font-family="sans-serif">ACCOUNT</text><rect x="477.3" y="191.76" width="161.16" height="275.695" fill="none" stroke="#5E737B" stroke-width="3"/><text x="485.3" y="215.76" fill="#5E737B" font-family="sans-serif" font-size="20">card</text><text x="557.88" y="502.164" text-anchor="middle" fill="#E7E0D0" font-size="18" font-family="sans-serif">PUBLISHED</text><text x="557.88" y="526.644" text-anchor="middle" fill="#E7E0D0" font-size="18" font-family="sans-serif">TIMES</text><rect x="3" y="3" width="1194" height="794" fill="none" stroke="#5E737B" stroke-width="4"/></svg>
+</metadata><rect width="1200" height="800" fill="#101214"/><rect x="30" y="80" width="636" height="528" fill="none" stroke="#5E737B" stroke-width="3"/><text x="38" y="104" fill="#5E737B" font-family="sans-serif" font-size="20">attributed-dossier-field</text><rect x="69.3" y="191.76" width="161.16" height="275.695" fill="none" stroke="#5E737B" stroke-width="3"/><text x="77.3" y="215.76" fill="#5E737B" font-family="sans-serif" font-size="20">card</text><text x="149.88" y="502.164" text-anchor="middle" fill="#E7E0D0" font-size="18" font-family="Arial, Helvetica, sans-serif" data-font-key="editorial" font-weight="700" font-style="normal" textLength="133.04" lengthAdjust="spacingAndGlyphs">OPENAI EVENT</text><text x="149.88" y="526.644" text-anchor="middle" fill="#E7E0D0" font-size="18" font-family="Arial, Helvetica, sans-serif" data-font-key="editorial" font-weight="700" font-style="normal" textLength="57.02" lengthAdjust="spacingAndGlyphs">TABLE</text><rect x="273.3" y="191.76" width="161.16" height="275.695" fill="none" stroke="#5E737B" stroke-width="3"/><text x="281.3" y="215.76" fill="#5E737B" font-family="sans-serif" font-size="20">card</text><text x="353.88" y="502.164" text-anchor="middle" fill="#E7E0D0" font-size="18" font-family="Arial, Helvetica, sans-serif" data-font-key="editorial" font-weight="700" font-style="normal" textLength="102.02" lengthAdjust="spacingAndGlyphs">PUBLISHED</text><text x="353.88" y="526.644" text-anchor="middle" fill="#E7E0D0" font-size="18" font-family="Arial, Helvetica, sans-serif" data-font-key="editorial" font-weight="700" font-style="normal" textLength="88.99" lengthAdjust="spacingAndGlyphs">ACCOUNT</text><rect x="477.3" y="191.76" width="161.16" height="275.695" fill="none" stroke="#5E737B" stroke-width="3"/><text x="485.3" y="215.76" fill="#5E737B" font-family="sans-serif" font-size="20">card</text><text x="557.88" y="502.164" text-anchor="middle" fill="#E7E0D0" font-size="18" font-family="Arial, Helvetica, sans-serif" data-font-key="editorial" font-weight="700" font-style="normal" textLength="102.02" lengthAdjust="spacingAndGlyphs">PUBLISHED</text><text x="557.88" y="526.644" text-anchor="middle" fill="#E7E0D0" font-size="18" font-family="Arial, Helvetica, sans-serif" data-font-key="editorial" font-weight="700" font-style="normal" textLength="55.01" lengthAdjust="spacingAndGlyphs">TIMES</text><rect x="3" y="3" width="1194" height="794" fill="none" stroke="#5E737B" stroke-width="4"/></svg>

@@ -41,6 +41,7 @@
       ],
       "color": "steel",
       "focus": true,
+      "font": "editorial",
       "label": "MANUSCRIPT",
       "label_box": [
         0.06775,
@@ -60,6 +61,7 @@
       ],
       "color": "steel",
       "focus": true,
+      "font": "editorial",
       "label": "ROLE AND LIMITS",
       "label_box": [
         0.371083,
@@ -79,6 +81,7 @@
       ],
       "color": "steel",
       "focus": true,
+      "font": "editorial",
       "label": "AFTERMATH",
       "label_box": [
         0.674417,
@@ -91,6 +94,6 @@
   ],
   "reconstructed": false,
   "shot": "row",
-  "source": "\n**Location:** `curt-home-office`\n\n**Frame:** The manuscript continues into a folder labeled `AFTERMATH`. No neutral vantage point floats above it; instead, every layer carries its visible role and limits.\n\n**Dialogue — CURT:**\n> We can continue without pretending we're neutral.\n\n**Screen / system text — CHATGPT:**\n> Continue—with the seams visible.\n\n**Provenance:** `reconstructed` — chapter closing exchange.\n\n",
+  "source": "\n**Location:** `curt-home-office`\n\n**Frame:** The manuscript continues into a folder labeled `AFTERMATH`. No neutral vantage point floats above it; instead, every layer carries its visible role and limits.\n\n**Font:** `human`\n\n**Dialogue — CURT:**\n> We can continue without pretending we're neutral.\n\n**Font:** `interface`\n\n**Screen / system text — CHATGPT:**\n> Continue—with the seams visible.\n\n**Provenance:** `reconstructed` — chapter closing exchange.\n\n",
   "title": "The manuscript enters aftermath with mediation visible"
 }

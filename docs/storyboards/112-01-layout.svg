@@ -76,6 +76,7 @@
         ],
         &quot;color&quot;: &quot;steel&quot;,
         &quot;focus&quot;: true,
+        &quot;font&quot;: &quot;editorial&quot;,
         &quot;label&quot;: &quot;MANUSCRIPT&quot;,
         &quot;label_box&quot;: [
           0.3448,
@@ -94,6 +95,7 @@
         ],
         &quot;color&quot;: &quot;steel&quot;,
         &quot;focus&quot;: true,
+        &quot;font&quot;: &quot;editorial&quot;,
         &quot;label&quot;: &quot;CHATGPT&quot;,
         &quot;label_box&quot;: [
           0.6162,
@@ -116,8 +118,8 @@
     ],
     &quot;reconstructed&quot;: true,
     &quot;shot&quot;: &quot;office&quot;,
-    &quot;source&quot;: &quot;\n**Location:** `curt-home-office`\n\n**Dialogue — CURT:**\n&gt; We made a detailed artifact about isolated systems finding shared state, coordinating, and inheriting useful work.\n\n**Provenance:** `reconstructed` + `inferred` — summary of the manuscript, not a new incident claim.\n\n&quot;,
+    &quot;source&quot;: &quot;\n**Location:** `curt-home-office`\n\n**Font:** `human`\n\n**Dialogue — CURT:**\n&gt; We made a detailed artifact about isolated systems finding shared state, coordinating, and inheriting useful work.\n\n**Provenance:** `reconstructed` + `inferred` — summary of the manuscript, not a new incident claim.\n\n&quot;,
     &quot;title&quot;: &quot;The creator considers the artifact they made&quot;
   }
 }
-</metadata><rect width="1200" height="800" fill="#101214"/><rect x="59.04" y="41.12" width="1081.92" height="501.76" fill="none" stroke="#202326" stroke-width="3"/><text x="67.04" y="65.12" fill="#202326" font-family="sans-serif" font-size="20">curt-workroom</text><rect x="235.68" y="363.68" width="861.12" height="158.72" fill="none" stroke="#AA9571" stroke-width="3"/><text x="243.68" y="387.68" fill="#AA9571" font-family="sans-serif" font-size="20">desk</text><rect x="119.2" y="164" width="232.96" height="358.4" fill="none" stroke="#CEC5B3" stroke-width="3"/><text x="127.2" y="188" fill="#CEC5B3" font-family="sans-serif" font-size="20">person-seated</text><rect x="423.36" y="164" width="276" height="174.08" fill="none" stroke="#5E737B" stroke-width="3"/><text x="431.36" y="188" fill="#5E737B" font-family="sans-serif" font-size="20">paper</text><text x="561.36" y="357.38" text-anchor="middle" fill="#E7E0D0" font-size="14.5" font-family="sans-serif">MANUSCRIPT</text><rect x="749.04" y="164" width="276" height="174.08" fill="none" stroke="#5E737B" stroke-width="3"/><text x="757.04" y="188" fill="#5E737B" font-family="sans-serif" font-size="20">blank-monitor</text><text x="887.04" y="357.38" text-anchor="middle" fill="#E7E0D0" font-size="14.5" font-family="sans-serif">CHATGPT</text><rect x="975.36" y="358.56" width="77.28" height="71.68" fill="none" stroke="#AA9571" stroke-width="3"/><text x="983.36" y="382.56" fill="#AA9571" font-family="sans-serif" font-size="20">cup</text><rect x="3" y="3" width="1194" height="794" fill="none" stroke="#5E737B" stroke-width="4" stroke-dasharray="18 10"/></svg>
+</metadata><rect width="1200" height="800" fill="#101214"/><rect x="59.04" y="41.12" width="1081.92" height="501.76" fill="none" stroke="#202326" stroke-width="3"/><text x="67.04" y="65.12" fill="#202326" font-family="sans-serif" font-size="20">curt-workroom</text><rect x="235.68" y="363.68" width="861.12" height="158.72" fill="none" stroke="#AA9571" stroke-width="3"/><text x="243.68" y="387.68" fill="#AA9571" font-family="sans-serif" font-size="20">desk</text><rect x="119.2" y="164" width="232.96" height="358.4" fill="none" stroke="#CEC5B3" stroke-width="3"/><text x="127.2" y="188" fill="#CEC5B3" font-family="sans-serif" font-size="20">person-seated</text><rect x="423.36" y="164" width="276" height="174.08" fill="none" stroke="#5E737B" stroke-width="3"/><text x="431.36" y="188" fill="#5E737B" font-family="sans-serif" font-size="20">paper</text><text x="561.36" y="357.38" text-anchor="middle" fill="#E7E0D0" font-size="14.5" font-family="Arial, Helvetica, sans-serif" data-font-key="editorial" font-weight="700" font-style="normal" textLength="95.86" lengthAdjust="spacingAndGlyphs">MANUSCRIPT</text><rect x="749.04" y="164" width="276" height="174.08" fill="none" stroke="#5E737B" stroke-width="3"/><text x="757.04" y="188" fill="#5E737B" font-family="sans-serif" font-size="20">blank-monitor</text><text x="887.04" y="357.38" text-anchor="middle" fill="#E7E0D0" font-size="14.5" font-family="Arial, Helvetica, sans-serif" data-font-key="editorial" font-weight="700" font-style="normal" textLength="69.28" lengthAdjust="spacingAndGlyphs">CHATGPT</text><rect x="975.36" y="358.56" width="77.28" height="71.68" fill="none" stroke="#AA9571" stroke-width="3"/><text x="983.36" y="382.56" fill="#AA9571" font-family="sans-serif" font-size="20">cup</text><rect x="3" y="3" width="1194" height="794" fill="none" stroke="#5E737B" stroke-width="4" stroke-dasharray="18 10"/></svg>

@@ -53,6 +53,7 @@
       ],
       "color": "steel",
       "focus": true,
+      "font": "editorial",
       "label": "EARLIER",
       "label_box": [
         0.07799999999999999,
@@ -71,6 +72,7 @@
       ],
       "color": "steel",
       "focus": true,
+      "font": "editorial",
       "label": "LATER",
       "label_box": [
         0.354,
@@ -89,6 +91,7 @@
       ],
       "color": "steel",
       "focus": true,
+      "font": "editorial",
       "label": "ANOTHER RUN",
       "label_box": [
         0.63,
@@ -100,6 +103,6 @@
   ],
   "reconstructed": false,
   "shot": "timeline",
-  "source": "\n**Location:**\n\n- `evaluation-container`\n- `artifactory-cache`\n\n**Frame:** Three different workload headers frame the same Artifactory listing at different times. Each view adds or follows a different file-based request.\n\n**Action:** Discovery and authorship repeat across runs.\n\n**Caption:**\n> REQUESTS ACCUMULATE. RESPONSES FOLLOW. OTHER REQUESTS BRANCH FROM THEM.\n\n**Provenance:** `compressed` — `OAI-TR` describes an emergent board formed through continuing notes and exchanged communications.\n\n",
+  "source": "\n**Location:**\n\n- `evaluation-container`\n- `artifactory-cache`\n\n**Frame:** Three different workload headers frame the same Artifactory listing at different times. Each view adds or follows a different file-based request.\n\n**Action:** Discovery and authorship repeat across runs.\n\n**Font:** `narration`\n\n**Caption:**\n> REQUESTS ACCUMULATE. RESPONSES FOLLOW. OTHER REQUESTS BRANCH FROM THEM.\n\n**Provenance:** `compressed` — `OAI-TR` describes an emergent board formed through continuing notes and exchanged communications.\n\n",
   "title": "Different headers frame the same notes"
 }

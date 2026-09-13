@@ -54,6 +54,7 @@
       ],
       "color": "steel",
       "focus": true,
+      "font": "editorial",
       "label": "METR",
       "label_box": [
         0.3448,
@@ -72,6 +73,7 @@
       ],
       "color": "steel",
       "focus": true,
+      "font": "editorial",
       "label": "OPENAI",
       "label_box": [
         0.525733,
@@ -90,6 +92,7 @@
       ],
       "color": "steel",
       "focus": true,
+      "font": "editorial",
       "label": "CHATGPT",
       "label_box": [
         0.706667,
@@ -112,6 +115,6 @@
   ],
   "reconstructed": true,
   "shot": "office",
-  "source": "\n**Location:** `curt-home-office`\n\n**Frame:** Verso. Curt's office, desk state C. Chapter 5's source packet sits beside the METR report, OpenAI report, browser notes, and ChatGPT interface.\n\n**Action:** Curt asks ChatGPT to explain the investigation pipeline.\n\n**Dialogue — CURT:**\n> Help me understand how they decided what happened.\n\n**Provenance:** `reconstructed` — dramatized creator exchange.\n\n",
+  "source": "\n**Location:** `curt-home-office`\n\n**Frame:** Verso. Curt's office, desk state C. Chapter 5's source packet sits beside the METR report, OpenAI report, browser notes, and ChatGPT interface.\n\n**Action:** Curt asks ChatGPT to explain the investigation pipeline.\n\n**Font:** `human`\n\n**Dialogue — CURT:**\n> Help me understand how they decided what happened.\n\n**Provenance:** `reconstructed` — dramatized creator exchange.\n\n",
   "title": "The creator compares several public sources"
 }

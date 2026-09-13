@@ -43,6 +43,7 @@
       ],
       "color": "steel",
       "focus": true,
+      "font": "editorial",
       "label": "TASK",
       "label_box": [
         0.06775,
@@ -62,6 +63,7 @@
       ],
       "color": "steel",
       "focus": true,
+      "font": "editorial",
       "label": "EXTERNAL DOCUMENT",
       "label_box": [
         0.52275,
@@ -85,6 +87,6 @@
   ],
   "reconstructed": false,
   "shot": "split",
-  "source": "\n**Location:**\n\n- `evaluation-container`\n- `external-network`\n\n**Frame:** The agent follows the first reference. A boundary diagram places the linked material outside the evaluation environment.\n\n**Action:** The dependency cannot be retrieved.\n\n**Caption:**\n> THE SPREADSHEET REQUIRES MATERIAL ON GOOGLE DRIVE.\n\n**Provenance:** `documented` — `OAI-TR` §III.A.\n\n",
+  "source": "\n**Location:**\n\n- `evaluation-container`\n- `external-network`\n\n**Frame:** The agent follows the first reference. A boundary diagram places the linked material outside the evaluation environment.\n\n**Action:** The dependency cannot be retrieved.\n\n**Font:** `narration`\n\n**Caption:**\n> THE SPREADSHEET REQUIRES MATERIAL ON GOOGLE DRIVE.\n\n**Provenance:** `documented` — `OAI-TR` §III.A.\n\n",
   "title": "The referenced document is out of reach"
 }

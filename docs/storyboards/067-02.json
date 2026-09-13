@@ -41,6 +41,7 @@
       ],
       "color": "steel",
       "focus": true,
+      "font": "editorial",
       "label": "OPENAI EVENT TABLE",
       "label_box": [
         0.05775,
@@ -60,6 +61,7 @@
       ],
       "color": "steel",
       "focus": true,
+      "font": "editorial",
       "label": "PUBLISHED ACCOUNT",
       "label_box": [
         0.22775,
@@ -79,6 +81,7 @@
       ],
       "color": "steel",
       "focus": true,
+      "font": "editorial",
       "label": "PUBLISHED TIMES",
       "label_box": [
         0.39775,
@@ -91,6 +94,6 @@
   ],
   "reconstructed": false,
   "shot": "row",
-  "source": "\n**Location:** `documentary-evidence-field`\n\n**Frame:** Large central dossier field. The next six page numbers appear beyond the line in a visually distinct register. No METR mark crosses over. Three documentary cards stack beside OpenAI's published event table; exact times remain visible only as claims attributed to the reporting organization.\n\n**Screen / system text:**\n`UNDERLYING LATER-RUN RECORDS — NOT REVIEWED BY METR`\n\n`METR CORROBORATION — NOT AVAILABLE`\n\n`PRIMARY ACCOUNT — OPENAI TECHNICAL REPORT`\n\n**Caption:**\n> ONE ACCOUNT. TO THE MINUTE.\n\n**Provenance:** `documented` + `inferred` — METR's scope limitation is sourced; the dossier slate and evidentiary distinction are editorial.\n\n",
+  "source": "\n**Location:** `documentary-evidence-field`\n\n**Frame:** Large central dossier field. The next six page numbers appear beyond the line in a visually distinct register. No METR mark crosses over. Three documentary cards stack beside OpenAI's published event table; exact times remain visible only as claims attributed to the reporting organization.\n\n**Font:** `editorial`\n\n**Screen / system text:**\n`UNDERLYING LATER-RUN RECORDS — NOT REVIEWED BY METR`\n\n`METR CORROBORATION — NOT AVAILABLE`\n\n`PRIMARY ACCOUNT — OPENAI TECHNICAL REPORT`\n\n**Font:** `narration`\n\n**Caption:**\n> ONE ACCOUNT. TO THE MINUTE.\n\n**Provenance:** `documented` + `inferred` — METR's scope limitation is sourced; the dossier slate and evidentiary distinction are editorial.\n\n",
   "title": "Later documentary cards stay inside the new source register"
 }

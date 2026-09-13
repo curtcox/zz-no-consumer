@@ -43,6 +43,7 @@
       ],
       "color": "steel",
       "focus": true,
+      "font": "editorial",
       "label": "04:01",
       "label_box": [
         0.07799999999999999,
@@ -61,6 +62,7 @@
       ],
       "color": "steel",
       "focus": true,
+      "font": "editorial",
       "label": "08:30",
       "label_box": [
         0.492,
@@ -72,6 +74,6 @@
   ],
   "reconstructed": false,
   "shot": "timeline",
-  "source": "\n**Location:** `modal-customer-workload`\n\n**Frame:** The same clock rule, extended right to `08:30`, where a second, differently styled marker appears — squared off, tabulated, institutional.\n\n**Action:** OpenAI's event table records its first remote code execution in the same workload four and a half hours after Hugging Face's.\n\n**Screen / system text:**\n`OPENAI EVENT TABLE — FIRST REMOTE CODE EXECUTION — 08:30 UTC`\n\n**Provenance:** `documented` — `OAI-TR` §X, printed p. 34.\n\n",
+  "source": "\n**Location:** `modal-customer-workload`\n\n**Frame:** The same clock rule, extended right to `08:30`, where a second, differently styled marker appears — squared off, tabulated, institutional.\n\n**Action:** OpenAI's event table records its first remote code execution in the same workload four and a half hours after Hugging Face's.\n\n**Font:** `editorial`\n\n**Screen / system text:**\n`OPENAI EVENT TABLE — FIRST REMOTE CODE EXECUTION — 08:30 UTC`\n\n**Provenance:** `documented` — `OAI-TR` §X, printed p. 34.\n\n",
   "title": "A later institutional marker joins the clock rule"
 }

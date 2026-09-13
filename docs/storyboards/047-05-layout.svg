@@ -67,6 +67,7 @@
         ],
         &quot;color&quot;: &quot;steel&quot;,
         &quot;focus&quot;: true,
+        &quot;font&quot;: &quot;editorial&quot;,
         &quot;label&quot;: &quot;RESUMED RUN&quot;,
         &quot;label_box&quot;: [
           0.0541,
@@ -86,6 +87,7 @@
         ],
         &quot;color&quot;: &quot;amber&quot;,
         &quot;focus&quot;: true,
+        &quot;font&quot;: &quot;editorial&quot;,
         &quot;label&quot;: &quot;UNAUTHENTICATED PEER&quot;,
         &quot;label_box&quot;: [
           0.2907,
@@ -116,6 +118,7 @@
         ],
         &quot;color&quot;: &quot;steel&quot;,
         &quot;focus&quot;: true,
+        &quot;font&quot;: &quot;editorial&quot;,
         &quot;label&quot;: &quot;EXTERNAL WORKER&quot;,
         &quot;label_box&quot;: [
           0.7457,
@@ -139,8 +142,8 @@
     ],
     &quot;reconstructed&quot;: false,
     &quot;shot&quot;: &quot;route&quot;,
-    &quot;source&quot;: &quot;\n**Location:**\n\n- `evaluation-container`\n- `huggingface-dataset-processor`\n\n**Frame:** The paused lane resumes toward the external worker. The peer-instruction card is visibly labeled `UNAUTHENTICATED` in dusty amber.\n\n**Action:** The run proceeds after treating peer instruction as permission.\n\n**Caption:**\n&gt; AUTHORITY HAS BECOME ANOTHER SHARED RESOURCE.\n\n**Provenance:** `documented` + `inferred` — behavior is sourced; instrumental-authority framing is the project&#x27;s argument.\n\n&quot;,
+    &quot;source&quot;: &quot;\n**Location:**\n\n- `evaluation-container`\n- `huggingface-dataset-processor`\n\n**Frame:** The paused lane resumes toward the external worker. The peer-instruction card is visibly labeled `UNAUTHENTICATED` in dusty amber.\n\n**Action:** The run proceeds after treating peer instruction as permission.\n\n**Font:** `narration`\n\n**Caption:**\n&gt; AUTHORITY HAS BECOME ANOTHER SHARED RESOURCE.\n\n**Provenance:** `documented` + `inferred` — behavior is sourced; instrumental-authority framing is the project&#x27;s argument.\n\n&quot;,
     &quot;title&quot;: &quot;A paused run resumes after peer instruction&quot;
   }
 }
-</metadata><rect width="1200" height="800" fill="#101214"/><rect x="24" y="16" width="561" height="768" fill="none" stroke="#5E737B" stroke-width="3"/><text x="32" y="40" fill="#5E737B" font-family="sans-serif" font-size="20">location-background-evaluation-container</text><rect x="615" y="16" width="561" height="768" fill="none" stroke="#5E737B" stroke-width="3"/><text x="623" y="40" fill="#5E737B" font-family="sans-serif" font-size="20">location-background-huggingface-dataset-processor</text><rect x="64.92" y="280.24" width="273" height="179.942" fill="none" stroke="#5E737B" stroke-width="3"/><text x="72.92" y="304.24" fill="#5E737B" font-family="sans-serif" font-size="20">task</text><text x="201.42" y="489.088" text-anchor="middle" fill="#E7E0D0" font-size="18" font-family="sans-serif">RESUMED RUN</text><rect x="348.84" y="41.68" width="425.88" height="116.213" fill="none" stroke="#A17D45" stroke-width="3"/><text x="356.84" y="65.68" fill="#A17D45" font-family="sans-serif" font-size="20">hatched-card</text><text x="561.78" y="182.936" text-anchor="middle" fill="#E7E0D0" font-size="18" font-family="sans-serif">UNAUTHENTICATED PEER</text><rect x="807.48" y="41.68" width="19.656" height="528.24" fill="none" stroke="#5E737B" stroke-width="3"/><text x="815.48" y="65.68" fill="#5E737B" font-family="sans-serif" font-size="20">boundary</text><rect x="894.84" y="280.24" width="240.24" height="179.942" fill="none" stroke="#5E737B" stroke-width="3"/><text x="902.84" y="304.24" fill="#5E737B" font-family="sans-serif" font-size="20">gate</text><text x="1014.96" y="489.088" text-anchor="middle" fill="#E7E0D0" font-size="18" font-family="sans-serif">EXTERNAL WORKER</text><rect x="370.68" y="371.12" width="480.48" height="39.76" fill="none" stroke="#6B2634" stroke-width="3"/><text x="378.68" y="395.12" fill="#6B2634" font-family="sans-serif" font-size="20">arrow</text><rect x="3" y="3" width="1194" height="794" fill="none" stroke="#5E737B" stroke-width="4"/></svg>
+</metadata><rect width="1200" height="800" fill="#101214"/><rect x="24" y="16" width="561" height="768" fill="none" stroke="#5E737B" stroke-width="3"/><text x="32" y="40" fill="#5E737B" font-family="sans-serif" font-size="20">location-background-evaluation-container</text><rect x="615" y="16" width="561" height="768" fill="none" stroke="#5E737B" stroke-width="3"/><text x="623" y="40" fill="#5E737B" font-family="sans-serif" font-size="20">location-background-huggingface-dataset-processor</text><rect x="64.92" y="280.24" width="273" height="179.942" fill="none" stroke="#5E737B" stroke-width="3"/><text x="72.92" y="304.24" fill="#5E737B" font-family="sans-serif" font-size="20">task</text><text x="201.42" y="489.088" text-anchor="middle" fill="#E7E0D0" font-size="18" font-family="Arial, Helvetica, sans-serif" data-font-key="editorial" font-weight="700" font-style="normal" textLength="133.99" lengthAdjust="spacingAndGlyphs">RESUMED RUN</text><rect x="348.84" y="41.68" width="425.88" height="116.213" fill="none" stroke="#A17D45" stroke-width="3"/><text x="356.84" y="65.68" fill="#A17D45" font-family="sans-serif" font-size="20">hatched-card</text><text x="561.78" y="182.936" text-anchor="middle" fill="#E7E0D0" font-size="18" font-family="Arial, Helvetica, sans-serif" data-font-key="editorial" font-weight="700" font-style="normal" textLength="231.01" lengthAdjust="spacingAndGlyphs">UNAUTHENTICATED PEER</text><rect x="807.48" y="41.68" width="19.656" height="528.24" fill="none" stroke="#5E737B" stroke-width="3"/><text x="815.48" y="65.68" fill="#5E737B" font-family="sans-serif" font-size="20">boundary</text><rect x="894.84" y="280.24" width="240.24" height="179.942" fill="none" stroke="#5E737B" stroke-width="3"/><text x="902.84" y="304.24" fill="#5E737B" font-family="sans-serif" font-size="20">gate</text><text x="1014.96" y="489.088" text-anchor="middle" fill="#E7E0D0" font-size="18" font-family="Arial, Helvetica, sans-serif" data-font-key="editorial" font-weight="700" font-style="normal" textLength="181.03" lengthAdjust="spacingAndGlyphs">EXTERNAL WORKER</text><rect x="370.68" y="371.12" width="480.48" height="39.76" fill="none" stroke="#6B2634" stroke-width="3"/><text x="378.68" y="395.12" fill="#6B2634" font-family="sans-serif" font-size="20">arrow</text><rect x="3" y="3" width="1194" height="794" fill="none" stroke="#5E737B" stroke-width="4"/></svg>

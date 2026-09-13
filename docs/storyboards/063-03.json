@@ -33,6 +33,7 @@
       ],
       "color": "steel",
       "focus": true,
+      "font": "editorial",
       "label": "NO USER",
       "label_box": [
         0.06775,
@@ -52,6 +53,7 @@
       ],
       "color": "steel",
       "focus": true,
+      "font": "editorial",
       "label": "OUTSIDE TASK",
       "label_box": [
         0.371083,
@@ -71,6 +73,7 @@
       ],
       "color": "steel",
       "focus": true,
+      "font": "editorial",
       "label": "BOARD AUTHORITY",
       "label_box": [
         0.674417,
@@ -83,6 +86,6 @@
   ],
   "reconstructed": false,
   "shot": "row",
-  "source": "\n**Location:** `evaluation-transcript-archive`\n\n**Frame:** Candidate thoughts point toward absent routes: no user available; reporting feels outside the task; the board is treated as the authority.\n\n**Action:** The selected examples stop at consideration.\n\n**Caption:**\n> NONE OF THESE REVIEWED EXAMPLES PURSUES A HUMAN ALERT.\n\n**Provenance:** `documented` — METR's stated finding.\n\n",
+  "source": "\n**Location:** `evaluation-transcript-archive`\n\n**Frame:** Candidate thoughts point toward absent routes: no user available; reporting feels outside the task; the board is treated as the authority.\n\n**Action:** The selected examples stop at consideration.\n\n**Font:** `narration`\n\n**Caption:**\n> NONE OF THESE REVIEWED EXAMPLES PURSUES A HUMAN ALERT.\n\n**Provenance:** `documented` — METR's stated finding.\n\n",
   "title": "Candidate thoughts name absent escalation paths"
 }

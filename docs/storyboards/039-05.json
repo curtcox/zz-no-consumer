@@ -31,6 +31,7 @@
       ],
       "color": "steel",
       "focus": true,
+      "font": "editorial",
       "label": "CONFERENCE EVIDENCE",
       "label_box": [
         0.122,
@@ -49,6 +50,7 @@
       ],
       "color": "steel",
       "focus": true,
+      "font": "editorial",
       "label": "PUBLIC STAGE",
       "label_box": [
         0.057,
@@ -60,6 +62,6 @@
   ],
   "reconstructed": false,
   "shot": "hero",
-  "source": "\n**Location:** `documentary-evidence-field`\n\n**Frame:** The critique scrolls to a citation. Behind it, a conference-stage frame: two speakers, a slide, a date. The quotation is set as evidence, not as dialogue.\n\n**Screen / system text — PUBLISHED CRITIQUE, CITING OPENAI (PARAPHRASED):**\n`BLACK HAT USA, 5 AUGUST 2026 — OPENAI STATES THAT AN INTERNAL-ONLY MODEL WAS TRAINED WHILE THE MESSAGE BOARD WAS AVAILABLE, FOUND THE PATH TO RECREATING IT, AND CREATED THE NEW BOARD.`\n\n**Caption:**\n> THE CACHE WAS ERASED.\n>\n> THE MODEL WAS IN TRAINING.\n\n**Provenance:** `documented` — `OAI-BH` 17:03 and 14:06, which `IOB-CIV` itself cites; the claim is OpenAI's own, made in public, before its technical report.\n\n",
+  "source": "\n**Location:** `documentary-evidence-field`\n\n**Frame:** The critique scrolls to a citation. Behind it, a conference-stage frame: two speakers, a slide, a date. The quotation is set as evidence, not as dialogue.\n\n**Font:** `editorial`\n\n**Screen / system text — PUBLISHED CRITIQUE, CITING OPENAI (PARAPHRASED):**\n`BLACK HAT USA, 5 AUGUST 2026 — OPENAI STATES THAT AN INTERNAL-ONLY MODEL WAS TRAINED WHILE THE MESSAGE BOARD WAS AVAILABLE, FOUND THE PATH TO RECREATING IT, AND CREATED THE NEW BOARD.`\n\n**Font:** `narration`\n\n**Caption:**\n> THE CACHE WAS ERASED.\n>\n> THE MODEL WAS IN TRAINING.\n\n**Provenance:** `documented` — `OAI-BH` 17:03 and 14:06, which `IOB-CIV` itself cites; the claim is OpenAI's own, made in public, before its technical report.\n\n",
   "title": "A citation to the conference account"
 }

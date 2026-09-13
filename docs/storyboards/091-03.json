@@ -33,6 +33,7 @@
       ],
       "color": "steel",
       "focus": true,
+      "font": "editorial",
       "label": "CLEAN COMPONENTS",
       "label_box": [
         0.06775,
@@ -52,6 +53,7 @@
       ],
       "color": "steel",
       "focus": true,
+      "font": "editorial",
       "label": "CLUSTER-SCOPED ACCESS",
       "label_box": [
         0.52275,
@@ -75,6 +77,6 @@
   ],
   "reconstructed": false,
   "shot": "split",
-  "source": "\n**Location:** `hugging-face-infrastructure`\n\n**Frame:** Core infrastructure is wiped and rebuilt from clean components. A service connector sheds a broad credential and receives a cluster-scoped one.\n\n**Caption:**\n> CORE SYSTEMS REBUILT. CONNECTOR AUTHORITY NARROWED.\n\n**Provenance:** `documented` + visual `compressed`.\n\n",
+  "source": "\n**Location:** `hugging-face-infrastructure`\n\n**Frame:** Core infrastructure is wiped and rebuilt from clean components. A service connector sheds a broad credential and receives a cluster-scoped one.\n\n**Font:** `narration`\n\n**Caption:**\n> CORE SYSTEMS REBUILT. CONNECTOR AUTHORITY NARROWED.\n\n**Provenance:** `documented` + visual `compressed`.\n\n",
   "title": "Clean rebuilding accompanies narrower connector scope"
 }

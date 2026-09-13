@@ -33,6 +33,7 @@
       ],
       "color": "steel",
       "focus": true,
+      "font": "editorial",
       "label": "INTERIOR CLAIMS",
       "label_box": [
         0.06775,
@@ -52,6 +53,7 @@
       ],
       "color": "steel",
       "focus": true,
+      "font": "editorial",
       "label": "ACTION SEQUENCE",
       "label_box": [
         0.52275,
@@ -64,6 +66,6 @@
   ],
   "reconstructed": false,
   "shot": "row",
-  "source": "\n**Location:** `curt-home-office`\n\n**Frame:** Verso. Curt rewrites the sentence in tracked changes. `KNOWS`, `FEELS`, and `DIE` disappear. The action sequence remains.\n\n**Dialogue — CURT:**\n> Say what the record can carry.\n\n**Provenance:** `reconstructed` — dramatized revision.\n\n",
+  "source": "\n**Location:** `curt-home-office`\n\n**Frame:** Verso. Curt rewrites the sentence in tracked changes. `KNOWS`, `FEELS`, and `DIE` disappear. The action sequence remains.\n\n**Font:** `human`\n\n**Dialogue — CURT:**\n> Say what the record can carry.\n\n**Provenance:** `reconstructed` — dramatized revision.\n\n",
   "title": "Tracked changes remove interiority and retain action"
 }

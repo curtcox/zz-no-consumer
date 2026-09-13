@@ -51,6 +51,7 @@
         ],
         &quot;color&quot;: &quot;steel&quot;,
         &quot;focus&quot;: true,
+        &quot;font&quot;: &quot;editorial&quot;,
         &quot;label&quot;: &quot;SHORTER ARC&quot;,
         &quot;label_box&quot;: [
           0.1792,
@@ -69,6 +70,7 @@
         ],
         &quot;color&quot;: &quot;steel&quot;,
         &quot;focus&quot;: true,
+        &quot;font&quot;: &quot;editorial&quot;,
         &quot;label&quot;: &quot;STRONGER SYMMETRY&quot;,
         &quot;label_box&quot;: [
           0.1792,
@@ -87,6 +89,7 @@
         ],
         &quot;color&quot;: &quot;steel&quot;,
         &quot;focus&quot;: true,
+        &quot;font&quot;: &quot;editorial&quot;,
         &quot;label&quot;: &quot;CLEARER MOTIVE&quot;,
         &quot;label_box&quot;: [
           0.1792,
@@ -105,6 +108,7 @@
         ],
         &quot;color&quot;: &quot;steel&quot;,
         &quot;focus&quot;: true,
+        &quot;font&quot;: &quot;editorial&quot;,
         &quot;label&quot;: &quot;CLEANER ENDING&quot;,
         &quot;label_box&quot;: [
           0.1792,
@@ -116,8 +120,8 @@
     ],
     &quot;reconstructed&quot;: false,
     &quot;shot&quot;: &quot;stack&quot;,
-    &quot;source&quot;: &quot;\n**Location:** `curt-home-office`\n\n**Frame:** Verso. ChatGPT&#x27;s interface displays recurring draft improvements: shorter arc, stronger symmetry, clearer motive, cleaner ending.\n\n**Action:** Curt highlights how useful narrative assistance can also compress uncertainty.\n\n**Dialogue — CURT:**\n&gt; And what pressure do you add?\n\n**Provenance:** `reconstructed` — dramatized creator exchange.\n\n&quot;,
+    &quot;source&quot;: &quot;\n**Location:** `curt-home-office`\n\n**Frame:** Verso. ChatGPT&#x27;s interface displays recurring draft improvements: shorter arc, stronger symmetry, clearer motive, cleaner ending.\n\n**Action:** Curt highlights how useful narrative assistance can also compress uncertainty.\n\n**Font:** `human`\n\n**Dialogue — CURT:**\n&gt; And what pressure do you add?\n\n**Provenance:** `reconstructed` — dramatized creator exchange.\n\n&quot;,
     &quot;title&quot;: &quot;Draft improvements promise a cleaner story&quot;
   }
 }
-</metadata><rect width="1200" height="800" fill="#101214"/><rect x="24" y="16" width="1152" height="768" fill="none" stroke="#5E737B" stroke-width="3"/><text x="32" y="40" fill="#5E737B" font-family="sans-serif" font-size="20">location-background-curt-home-office</text><rect x="224.64" y="76.96" width="728.64" height="64.512" fill="none" stroke="#5E737B" stroke-width="3"/><text x="232.64" y="100.96" fill="#5E737B" font-family="sans-serif" font-size="20">card</text><text x="588.96" y="166.272" text-anchor="middle" fill="#E7E0D0" font-size="20" font-family="sans-serif">SHORTER ARC</text><rect x="224.64" y="188.32" width="728.64" height="64.512" fill="none" stroke="#5E737B" stroke-width="3"/><text x="232.64" y="212.32" fill="#5E737B" font-family="sans-serif" font-size="20">card</text><text x="588.96" y="277.632" text-anchor="middle" fill="#E7E0D0" font-size="20" font-family="sans-serif">STRONGER SYMMETRY</text><rect x="224.64" y="299.68" width="728.64" height="64.512" fill="none" stroke="#5E737B" stroke-width="3"/><text x="232.64" y="323.68" fill="#5E737B" font-family="sans-serif" font-size="20">card</text><text x="588.96" y="388.992" text-anchor="middle" fill="#E7E0D0" font-size="20" font-family="sans-serif">CLEARER MOTIVE</text><rect x="224.64" y="411.04" width="728.64" height="64.512" fill="none" stroke="#5E737B" stroke-width="3"/><text x="232.64" y="435.04" fill="#5E737B" font-family="sans-serif" font-size="20">card</text><text x="588.96" y="500.352" text-anchor="middle" fill="#E7E0D0" font-size="20" font-family="sans-serif">CLEANER ENDING</text><rect x="3" y="3" width="1194" height="794" fill="none" stroke="#5E737B" stroke-width="4"/></svg>
+</metadata><rect width="1200" height="800" fill="#101214"/><rect x="24" y="16" width="1152" height="768" fill="none" stroke="#5E737B" stroke-width="3"/><text x="32" y="40" fill="#5E737B" font-family="sans-serif" font-size="20">location-background-curt-home-office</text><rect x="224.64" y="76.96" width="728.64" height="64.512" fill="none" stroke="#5E737B" stroke-width="3"/><text x="232.64" y="100.96" fill="#5E737B" font-family="sans-serif" font-size="20">card</text><text x="588.96" y="166.272" text-anchor="middle" fill="#E7E0D0" font-size="20" font-family="Arial, Helvetica, sans-serif" data-font-key="editorial" font-weight="700" font-style="normal" textLength="145.56" lengthAdjust="spacingAndGlyphs">SHORTER ARC</text><rect x="224.64" y="188.32" width="728.64" height="64.512" fill="none" stroke="#5E737B" stroke-width="3"/><text x="232.64" y="212.32" fill="#5E737B" font-family="sans-serif" font-size="20">card</text><text x="588.96" y="277.632" text-anchor="middle" fill="#E7E0D0" font-size="20" font-family="Arial, Helvetica, sans-serif" data-font-key="editorial" font-weight="700" font-style="normal" textLength="232.24" lengthAdjust="spacingAndGlyphs">STRONGER SYMMETRY</text><rect x="224.64" y="299.68" width="728.64" height="64.512" fill="none" stroke="#5E737B" stroke-width="3"/><text x="232.64" y="323.68" fill="#5E737B" font-family="sans-serif" font-size="20">card</text><text x="588.96" y="388.992" text-anchor="middle" fill="#E7E0D0" font-size="20" font-family="Arial, Helvetica, sans-serif" data-font-key="editorial" font-weight="700" font-style="normal" textLength="176.70" lengthAdjust="spacingAndGlyphs">CLEARER MOTIVE</text><rect x="224.64" y="411.04" width="728.64" height="64.512" fill="none" stroke="#5E737B" stroke-width="3"/><text x="232.64" y="435.04" fill="#5E737B" font-family="sans-serif" font-size="20">card</text><text x="588.96" y="500.352" text-anchor="middle" fill="#E7E0D0" font-size="20" font-family="Arial, Helvetica, sans-serif" data-font-key="editorial" font-weight="700" font-style="normal" textLength="177.80" lengthAdjust="spacingAndGlyphs">CLEANER ENDING</text><rect x="3" y="3" width="1194" height="794" fill="none" stroke="#5E737B" stroke-width="4"/></svg>

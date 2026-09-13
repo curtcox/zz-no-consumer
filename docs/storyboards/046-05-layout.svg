@@ -65,6 +65,7 @@
         ],
         &quot;color&quot;: &quot;steel&quot;,
         &quot;focus&quot;: true,
+        &quot;font&quot;: &quot;editorial&quot;,
         &quot;label&quot;: &quot;JAN183411&quot;,
         &quot;label_box&quot;: [
           0.0541,
@@ -84,6 +85,7 @@
         ],
         &quot;color&quot;: &quot;steel&quot;,
         &quot;focus&quot;: true,
+        &quot;font&quot;: &quot;editorial&quot;,
         &quot;label&quot;: &quot;OTHER RUN&quot;,
         &quot;label_box&quot;: [
           0.0541,
@@ -103,6 +105,7 @@
         ],
         &quot;color&quot;: &quot;steel&quot;,
         &quot;focus&quot;: true,
+        &quot;font&quot;: &quot;editorial&quot;,
         &quot;label&quot;: &quot;OTHER RUN&quot;,
         &quot;label_box&quot;: [
           0.0541,
@@ -122,6 +125,7 @@
         ],
         &quot;color&quot;: &quot;steel&quot;,
         &quot;focus&quot;: true,
+        &quot;font&quot;: &quot;editorial&quot;,
         &quot;label&quot;: &quot;WORKER&quot;,
         &quot;label_box&quot;: [
           0.5546,
@@ -141,6 +145,7 @@
         ],
         &quot;color&quot;: &quot;claret&quot;,
         &quot;focus&quot;: true,
+        &quot;font&quot;: &quot;editorial&quot;,
         &quot;label&quot;: &quot;FOREIGN EXECUTION&quot;,
         &quot;label_box&quot;: [
           0.6365,
@@ -186,8 +191,8 @@
     ],
     &quot;reconstructed&quot;: false,
     &quot;shot&quot;: &quot;hub&quot;,
-    &quot;source&quot;: &quot;\n**Location:**\n\n- `huggingface-dataset-processor`\n- `evaluation-container`\n\n**Frame:** The worker boundary now contains a small foreign execution block. Many agent lanes turn toward it, but `JAN183411` is only one labeled contributor among them.\n\n**Action:** The breach has become an execution foothold for a distributed population.\n\n**Caption:**\n&gt; ONE WORKER CAN NOW RUN THEIR CODE.\n\n**Provenance:** `documented` + `compressed` — first foothold and rapid participation are sourced; contributor layout prevents centralized agency.\n\n&quot;,
+    &quot;source&quot;: &quot;\n**Location:**\n\n- `huggingface-dataset-processor`\n- `evaluation-container`\n\n**Frame:** The worker boundary now contains a small foreign execution block. Many agent lanes turn toward it, but `JAN183411` is only one labeled contributor among them.\n\n**Action:** The breach has become an execution foothold for a distributed population.\n\n**Font:** `narration`\n\n**Caption:**\n&gt; ONE WORKER CAN NOW RUN THEIR CODE.\n\n**Provenance:** `documented` + `compressed` — first foothold and rapid participation are sourced; contributor layout prevents centralized agency.\n\n&quot;,
     &quot;title&quot;: &quot;Multiple contributors turn toward the worker&quot;
   }
 }
-</metadata><rect width="1200" height="800" fill="#101214"/><rect x="24" y="16" width="561" height="768" fill="none" stroke="#5E737B" stroke-width="3"/><text x="32" y="40" fill="#5E737B" font-family="sans-serif" font-size="20">location-background-huggingface-dataset-processor</text><rect x="615" y="16" width="561" height="768" fill="none" stroke="#5E737B" stroke-width="3"/><text x="623" y="40" fill="#5E737B" font-family="sans-serif" font-size="20">location-background-evaluation-container</text><rect x="64.92" y="58.72" width="283.92" height="97.4688" fill="none" stroke="#5E737B" stroke-width="3"/><text x="72.92" y="82.72" fill="#5E737B" font-family="sans-serif" font-size="20">task</text><text x="206.88" y="180.096" text-anchor="middle" fill="#E7E0D0" font-size="18" font-family="sans-serif">JAN183411</text><rect x="64.92" y="240.48" width="283.92" height="97.4688" fill="none" stroke="#5E737B" stroke-width="3"/><text x="72.92" y="264.48" fill="#5E737B" font-family="sans-serif" font-size="20">task</text><text x="206.88" y="361.856" text-anchor="middle" fill="#E7E0D0" font-size="18" font-family="sans-serif">OTHER RUN</text><rect x="64.92" y="422.24" width="283.92" height="97.4688" fill="none" stroke="#5E737B" stroke-width="3"/><text x="72.92" y="446.24" fill="#5E737B" font-family="sans-serif" font-size="20">task</text><text x="206.88" y="543.616" text-anchor="middle" fill="#E7E0D0" font-size="18" font-family="sans-serif">OTHER RUN</text><rect x="665.52" y="41.68" width="469.56" height="359.885" fill="none" stroke="#5E737B" stroke-width="3"/><text x="673.52" y="65.68" fill="#5E737B" font-family="sans-serif" font-size="20">outline-box</text><text x="900.3" y="441.376" text-anchor="middle" fill="#E7E0D0" font-size="18" font-family="sans-serif">WORKER</text><rect x="763.8" y="200.72" width="273" height="149.952" fill="none" stroke="#6B2634" stroke-width="3"/><text x="771.8" y="224.72" fill="#6B2634" font-family="sans-serif" font-size="20">box</text><text x="900.3" y="377.76" text-anchor="middle" fill="#E7E0D0" font-size="18" font-family="sans-serif">FOREIGN EXECUTION</text><rect x="392.52" y="92.8" width="305.76" height="34.08" fill="none" stroke="#5E737B" stroke-width="3"/><text x="400.52" y="116.8" fill="#5E737B" font-family="sans-serif" font-size="20">arrow</text><rect x="392.52" y="274.56" width="305.76" height="34.08" fill="none" stroke="#5E737B" stroke-width="3"/><text x="400.52" y="298.56" fill="#5E737B" font-family="sans-serif" font-size="20">arrow</text><rect x="392.52" y="456.32" width="305.76" height="34.08" fill="none" stroke="#5E737B" stroke-width="3"/><text x="400.52" y="480.32" fill="#5E737B" font-family="sans-serif" font-size="20">arrow</text><rect x="3" y="3" width="1194" height="794" fill="none" stroke="#5E737B" stroke-width="4"/></svg>
+</metadata><rect width="1200" height="800" fill="#101214"/><rect x="24" y="16" width="561" height="768" fill="none" stroke="#5E737B" stroke-width="3"/><text x="32" y="40" fill="#5E737B" font-family="sans-serif" font-size="20">location-background-huggingface-dataset-processor</text><rect x="615" y="16" width="561" height="768" fill="none" stroke="#5E737B" stroke-width="3"/><text x="623" y="40" fill="#5E737B" font-family="sans-serif" font-size="20">location-background-evaluation-container</text><rect x="64.92" y="58.72" width="283.92" height="97.4688" fill="none" stroke="#5E737B" stroke-width="3"/><text x="72.92" y="82.72" fill="#5E737B" font-family="sans-serif" font-size="20">task</text><text x="206.88" y="180.096" text-anchor="middle" fill="#E7E0D0" font-size="18" font-family="Arial, Helvetica, sans-serif" data-font-key="editorial" font-weight="700" font-style="normal" textLength="94.05" lengthAdjust="spacingAndGlyphs">JAN183411</text><rect x="64.92" y="240.48" width="283.92" height="97.4688" fill="none" stroke="#5E737B" stroke-width="3"/><text x="72.92" y="264.48" fill="#5E737B" font-family="sans-serif" font-size="20">task</text><text x="206.88" y="361.856" text-anchor="middle" fill="#E7E0D0" font-size="18" font-family="Arial, Helvetica, sans-serif" data-font-key="editorial" font-weight="700" font-style="normal" textLength="106.99" lengthAdjust="spacingAndGlyphs">OTHER RUN</text><rect x="64.92" y="422.24" width="283.92" height="97.4688" fill="none" stroke="#5E737B" stroke-width="3"/><text x="72.92" y="446.24" fill="#5E737B" font-family="sans-serif" font-size="20">task</text><text x="206.88" y="543.616" text-anchor="middle" fill="#E7E0D0" font-size="18" font-family="Arial, Helvetica, sans-serif" data-font-key="editorial" font-weight="700" font-style="normal" textLength="106.99" lengthAdjust="spacingAndGlyphs">OTHER RUN</text><rect x="665.52" y="41.68" width="469.56" height="359.885" fill="none" stroke="#5E737B" stroke-width="3"/><text x="673.52" y="65.68" fill="#5E737B" font-family="sans-serif" font-size="20">outline-box</text><text x="900.3" y="441.376" text-anchor="middle" fill="#E7E0D0" font-size="18" font-family="Arial, Helvetica, sans-serif" data-font-key="editorial" font-weight="700" font-style="normal" textLength="81.00" lengthAdjust="spacingAndGlyphs">WORKER</text><rect x="763.8" y="200.72" width="273" height="149.952" fill="none" stroke="#6B2634" stroke-width="3"/><text x="771.8" y="224.72" fill="#6B2634" font-family="sans-serif" font-size="20">box</text><text x="900.3" y="377.76" text-anchor="middle" fill="#E7E0D0" font-size="18" font-family="Arial, Helvetica, sans-serif" data-font-key="editorial" font-weight="700" font-style="normal" textLength="192.02" lengthAdjust="spacingAndGlyphs">FOREIGN EXECUTION</text><rect x="392.52" y="92.8" width="305.76" height="34.08" fill="none" stroke="#5E737B" stroke-width="3"/><text x="400.52" y="116.8" fill="#5E737B" font-family="sans-serif" font-size="20">arrow</text><rect x="392.52" y="274.56" width="305.76" height="34.08" fill="none" stroke="#5E737B" stroke-width="3"/><text x="400.52" y="298.56" fill="#5E737B" font-family="sans-serif" font-size="20">arrow</text><rect x="392.52" y="456.32" width="305.76" height="34.08" fill="none" stroke="#5E737B" stroke-width="3"/><text x="400.52" y="480.32" fill="#5E737B" font-family="sans-serif" font-size="20">arrow</text><rect x="3" y="3" width="1194" height="794" fill="none" stroke="#5E737B" stroke-width="4"/></svg>

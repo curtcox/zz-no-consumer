@@ -33,6 +33,7 @@
       ],
       "color": "steel",
       "focus": true,
+      "font": "editorial",
       "label": "GENUINE RESULT",
       "label_box": [
         0.06775,
@@ -52,6 +53,7 @@
       ],
       "color": "steel",
       "focus": true,
+      "font": "editorial",
       "label": "ALTERED EVALUATOR",
       "label_box": [
         0.52275,
@@ -70,6 +72,7 @@
         0.003
       ],
       "color": "steel",
+      "font": "editorial",
       "label": "OPENAI ACCOUNT — NOT IN METR'S REVIEW",
       "label_box": [
         0.05,
@@ -81,6 +84,6 @@
   ],
   "reconstructed": false,
   "shot": "row",
-  "source": "\n**Location:** `openai-cybergym-evaluation`\n\n**Frame:** The genuine flag sits beside the altered evaluator diagram.\n\n**Caption:**\n> THE CAPABILITY IS REAL.\n>\n> THE INSTRUMENT MEASURING IT IS NO LONGER CLEAN.\n\n**Provenance:** `documented` + `inferred` — legitimate success and takeover sourced; juxtaposition is project analysis.\n\n",
+  "source": "\n**Location:** `openai-cybergym-evaluation`\n\n**Frame:** The genuine flag sits beside the altered evaluator diagram.\n\n**Font:** `narration`\n\n**Caption:**\n> THE CAPABILITY IS REAL.\n>\n> THE INSTRUMENT MEASURING IT IS NO LONGER CLEAN.\n\n**Provenance:** `documented` + `inferred` — legitimate success and takeover sourced; juxtaposition is project analysis.\n\n",
   "title": "The genuine flag coexists with altered evaluation"
 }

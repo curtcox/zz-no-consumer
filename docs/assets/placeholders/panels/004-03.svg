@@ -6,11 +6,12 @@
 <g font-family="Helvetica, Arial, 'Liberation Sans', 'Nimbus Sans', sans-serif">
 <text x="56" y="78" font-size="22" font-weight="700" letter-spacing="1.32" fill="#a33f22">PAGE 004 · IMAGE 03 OF 05</text>
 <text font-size="49.83" fill="#12140f" text-anchor="start" xml:space="preserve">
-<tspan x="56" y="236.39">FRAME — Same topology. The moss-green</tspan>
-<tspan x="56" y="304.16">message enters the cache from one workload.</tspan>
-<tspan x="56" y="413.95">ACTION — The entry persists in shared state.</tspan>
-<tspan x="56" y="523.75">CAPTION — “A MARK EACH OF THEM CAN</tspan>
-<tspan x="56" y="591.52">FIND.”</tspan>
+<tspan x="56" y="202.5">FRAME — Same topology. The moss-green</tspan>
+<tspan x="56" y="270.27">message enters the cache from one workload.</tspan>
+<tspan x="56" y="380.07">ACTION — The entry persists in shared state.</tspan>
+<tspan x="56" y="489.86">CAPTION — “A MARK EACH OF THEM CAN</tspan>
+<tspan x="56" y="557.63">FIND IN THE SAME SHARED STORAGE. ONE</tspan>
+<tspan x="56" y="625.41">RUN WRITES; ANOTHER READS LATER.”</tspan>
 </text>
 <text x="56" y="744" font-size="18.92" letter-spacing="1.1" fill="#6b6d63">OBSERVABLE · PANEL 3 · PLACEHOLDER</text>
 </g>

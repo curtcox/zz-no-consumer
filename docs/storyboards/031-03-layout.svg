@@ -52,6 +52,7 @@
         ],
         &quot;color&quot;: &quot;amber&quot;,
         &quot;focus&quot;: true,
+        &quot;font&quot;: &quot;editorial&quot;,
         &quot;label&quot;: &quot;CAUSE&quot;,
         &quot;label_box&quot;: [
           0.06775,
@@ -71,6 +72,7 @@
         ],
         &quot;color&quot;: &quot;institution&quot;,
         &quot;focus&quot;: true,
+        &quot;font&quot;: &quot;editorial&quot;,
         &quot;label&quot;: &quot;OLD BOARD&quot;,
         &quot;label_box&quot;: [
           0.371083,
@@ -90,6 +92,7 @@
         ],
         &quot;color&quot;: &quot;amber&quot;,
         &quot;focus&quot;: true,
+        &quot;font&quot;: &quot;editorial&quot;,
         &quot;label&quot;: &quot;TOOL&quot;,
         &quot;label_box&quot;: [
           0.674417,
@@ -102,8 +105,8 @@
     ],
     &quot;reconstructed&quot;: false,
     &quot;shot&quot;: &quot;row&quot;,
-    &quot;source&quot;: &quot;\n**Location:** `artifactory-cache`\n\n**Frame:** The first board appears as a moss-green outline inside the now-black old cache. A question bracket surrounds it: `CAUSE` on one side, `TOOL` on the other.\n\n**Action:** The same artifact supports two explanations.\n\n**Caption:**\n&gt; DID THE SHARED CACHE CAUSE COORDINATION?\n\n**Provenance:** `inferred` — explicit creator question.\n\n&quot;,
+    &quot;source&quot;: &quot;\n**Location:** `artifactory-cache`\n\n**Frame:** The first board appears as a moss-green outline inside the now-black old cache. A question bracket surrounds it: `CAUSE` on one side, `TOOL` on the other.\n\n**Action:** The same artifact supports two explanations.\n\n**Font:** `narration`\n\n**Caption:**\n&gt; DID THE SHARED CACHE CAUSE COORDINATION?\n\n**Provenance:** `inferred` — explicit creator question.\n\n&quot;,
     &quot;title&quot;: &quot;The old board is bracketed as cause or tool&quot;
   }
 }
-</metadata><rect width="1200" height="800" fill="#101214"/><rect x="24" y="16" width="1152" height="768" fill="none" stroke="#5E737B" stroke-width="3"/><text x="32" y="40" fill="#5E737B" font-family="sans-serif" font-size="20">location-background-artifactory-cache</text><rect x="169.786" y="160.96" width="110.59" height="221.179" fill="none" stroke="#A17D45" stroke-width="3"/><text x="177.786" y="184.96" fill="#A17D45" font-family="sans-serif" font-size="20">question</text><text x="225.08" y="413.544" text-anchor="middle" fill="#E7E0D0" font-size="18" font-family="sans-serif">CAUSE</text><rect x="445.3" y="160.96" width="287.56" height="221.179" fill="none" stroke="#68766B" stroke-width="3"/><text x="453.3" y="184.96" fill="#68766B" font-family="sans-serif" font-size="20">outline-box</text><text x="589.079" y="413.544" text-anchor="middle" fill="#E7E0D0" font-size="18" font-family="sans-serif">OLD BOARD</text><rect x="897.786" y="160.96" width="110.59" height="221.179" fill="none" stroke="#A17D45" stroke-width="3"/><text x="905.786" y="184.96" fill="#A17D45" font-family="sans-serif" font-size="20">question</text><text x="953.08" y="413.544" text-anchor="middle" fill="#E7E0D0" font-size="18" font-family="sans-serif">TOOL</text><rect x="3" y="3" width="1194" height="794" fill="none" stroke="#5E737B" stroke-width="4"/></svg>
+</metadata><rect width="1200" height="800" fill="#101214"/><rect x="24" y="16" width="1152" height="768" fill="none" stroke="#5E737B" stroke-width="3"/><text x="32" y="40" fill="#5E737B" font-family="sans-serif" font-size="20">location-background-artifactory-cache</text><rect x="169.786" y="160.96" width="110.59" height="221.179" fill="none" stroke="#A17D45" stroke-width="3"/><text x="177.786" y="184.96" fill="#A17D45" font-family="sans-serif" font-size="20">question</text><text x="225.08" y="413.544" text-anchor="middle" fill="#E7E0D0" font-size="18" font-family="Arial, Helvetica, sans-serif" data-font-key="editorial" font-weight="700" font-style="normal" textLength="62.01" lengthAdjust="spacingAndGlyphs">CAUSE</text><rect x="445.3" y="160.96" width="287.56" height="221.179" fill="none" stroke="#68766B" stroke-width="3"/><text x="453.3" y="184.96" fill="#68766B" font-family="sans-serif" font-size="20">outline-box</text><text x="589.079" y="413.544" text-anchor="middle" fill="#E7E0D0" font-size="18" font-family="Arial, Helvetica, sans-serif" data-font-key="editorial" font-weight="700" font-style="normal" textLength="106.02" lengthAdjust="spacingAndGlyphs">OLD BOARD</text><rect x="897.786" y="160.96" width="110.59" height="221.179" fill="none" stroke="#A17D45" stroke-width="3"/><text x="905.786" y="184.96" fill="#A17D45" font-family="sans-serif" font-size="20">question</text><text x="953.08" y="413.544" text-anchor="middle" fill="#E7E0D0" font-size="18" font-family="Arial, Helvetica, sans-serif" data-font-key="editorial" font-weight="700" font-style="normal" textLength="49.01" lengthAdjust="spacingAndGlyphs">TOOL</text><rect x="3" y="3" width="1194" height="794" fill="none" stroke="#5E737B" stroke-width="4"/></svg>

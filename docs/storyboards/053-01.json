@@ -57,6 +57,7 @@
       ],
       "color": "steel",
       "focus": true,
+      "font": "editorial",
       "label": "SAFETY",
       "label_box": [
         0.09209999999999999,
@@ -75,6 +76,7 @@
       ],
       "color": "steel",
       "focus": true,
+      "font": "editorial",
       "label": "SECURITY",
       "label_box": [
         0.3587,
@@ -93,6 +95,7 @@
       ],
       "color": "steel",
       "focus": true,
+      "font": "editorial",
       "label": "RESEARCH",
       "label_box": [
         0.6253,

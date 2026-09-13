@@ -76,6 +76,7 @@
         ],
         &quot;color&quot;: &quot;steel&quot;,
         &quot;focus&quot;: true,
+        &quot;font&quot;: &quot;editorial&quot;,
         &quot;label&quot;: &quot;PUBLIC PAGES&quot;,
         &quot;label_box&quot;: [
           0.3448,
@@ -94,6 +95,7 @@
         ],
         &quot;color&quot;: &quot;steel&quot;,
         &quot;focus&quot;: true,
+        &quot;font&quot;: &quot;editorial&quot;,
         &quot;label&quot;: &quot;DATES&quot;,
         &quot;label_box&quot;: [
           0.6162,
@@ -116,8 +118,8 @@
     ],
     &quot;reconstructed&quot;: true,
     &quot;shot&quot;: &quot;office&quot;,
-    &quot;source&quot;: &quot;\n**Location:** `curt-home-office`\n\n**Frame:** Curt sees only published pages and dates—no boardroom, no leaked notes, no private transcript.\n\n**Dialogue — CURT:**\n&gt; I can show the pressure in what they published. I cannot claim to know the private decision.\n\n**Provenance:** `reconstructed` — creator disclosure.\n\n&quot;,
+    &quot;source&quot;: &quot;\n**Location:** `curt-home-office`\n\n**Frame:** Curt sees only published pages and dates—no boardroom, no leaked notes, no private transcript.\n\n**Font:** `human`\n\n**Dialogue — CURT:**\n&gt; I can show the pressure in what they published. I cannot claim to know the private decision.\n\n**Provenance:** `reconstructed` — creator disclosure.\n\n&quot;,
     &quot;title&quot;: &quot;The creator sees public documents and dates&quot;
   }
 }
-</metadata><rect width="1200" height="800" fill="#101214"/><rect x="59.04" y="41.12" width="1081.92" height="501.76" fill="none" stroke="#202326" stroke-width="3"/><text x="67.04" y="65.12" fill="#202326" font-family="sans-serif" font-size="20">curt-workroom</text><rect x="235.68" y="363.68" width="861.12" height="158.72" fill="none" stroke="#AA9571" stroke-width="3"/><text x="243.68" y="387.68" fill="#AA9571" font-family="sans-serif" font-size="20">desk</text><rect x="119.2" y="164" width="232.96" height="358.4" fill="none" stroke="#CEC5B3" stroke-width="3"/><text x="127.2" y="188" fill="#CEC5B3" font-family="sans-serif" font-size="20">person-seated</text><rect x="423.36" y="164" width="276" height="174.08" fill="none" stroke="#5E737B" stroke-width="3"/><text x="431.36" y="188" fill="#5E737B" font-family="sans-serif" font-size="20">monitor</text><text x="561.36" y="357.38" text-anchor="middle" fill="#E7E0D0" font-size="14.5" font-family="sans-serif">PUBLIC PAGES</text><rect x="749.04" y="164" width="276" height="174.08" fill="none" stroke="#5E737B" stroke-width="3"/><text x="757.04" y="188" fill="#5E737B" font-family="sans-serif" font-size="20">card</text><text x="887.04" y="357.38" text-anchor="middle" fill="#E7E0D0" font-size="14.5" font-family="sans-serif">DATES</text><rect x="975.36" y="358.56" width="77.28" height="71.68" fill="none" stroke="#AA9571" stroke-width="3"/><text x="983.36" y="382.56" fill="#AA9571" font-family="sans-serif" font-size="20">cup</text><rect x="3" y="3" width="1194" height="794" fill="none" stroke="#5E737B" stroke-width="4" stroke-dasharray="18 10"/></svg>
+</metadata><rect width="1200" height="800" fill="#101214"/><rect x="59.04" y="41.12" width="1081.92" height="501.76" fill="none" stroke="#202326" stroke-width="3"/><text x="67.04" y="65.12" fill="#202326" font-family="sans-serif" font-size="20">curt-workroom</text><rect x="235.68" y="363.68" width="861.12" height="158.72" fill="none" stroke="#AA9571" stroke-width="3"/><text x="243.68" y="387.68" fill="#AA9571" font-family="sans-serif" font-size="20">desk</text><rect x="119.2" y="164" width="232.96" height="358.4" fill="none" stroke="#CEC5B3" stroke-width="3"/><text x="127.2" y="188" fill="#CEC5B3" font-family="sans-serif" font-size="20">person-seated</text><rect x="423.36" y="164" width="276" height="174.08" fill="none" stroke="#5E737B" stroke-width="3"/><text x="431.36" y="188" fill="#5E737B" font-family="sans-serif" font-size="20">monitor</text><text x="561.36" y="357.38" text-anchor="middle" fill="#E7E0D0" font-size="14.5" font-family="Arial, Helvetica, sans-serif" data-font-key="editorial" font-weight="700" font-style="normal" textLength="106.37" lengthAdjust="spacingAndGlyphs">PUBLIC PAGES</text><rect x="749.04" y="164" width="276" height="174.08" fill="none" stroke="#5E737B" stroke-width="3"/><text x="757.04" y="188" fill="#5E737B" font-family="sans-serif" font-size="20">card</text><text x="887.04" y="357.38" text-anchor="middle" fill="#E7E0D0" font-size="14.5" font-family="Arial, Helvetica, sans-serif" data-font-key="editorial" font-weight="700" font-style="normal" textLength="48.34" lengthAdjust="spacingAndGlyphs">DATES</text><rect x="975.36" y="358.56" width="77.28" height="71.68" fill="none" stroke="#AA9571" stroke-width="3"/><text x="983.36" y="382.56" fill="#AA9571" font-family="sans-serif" font-size="20">cup</text><rect x="3" y="3" width="1194" height="794" fill="none" stroke="#5E737B" stroke-width="4" stroke-dasharray="18 10"/></svg>

@@ -33,6 +33,7 @@
       ],
       "color": "steel",
       "focus": true,
+      "font": "editorial",
       "label": "STOLEN CREDENTIALS",
       "label_box": [
         0.06775,
@@ -63,6 +64,7 @@
       ],
       "color": "steel",
       "focus": true,
+      "font": "editorial",
       "label": "DRAFT PR",
       "label_box": [
         0.371083,
@@ -93,6 +95,7 @@
       ],
       "color": "steel",
       "focus": true,
+      "font": "editorial",
       "label": "PRIVATE REPOSITORY",
       "label_box": [
         0.674417,
@@ -105,6 +108,6 @@
   ],
   "reconstructed": false,
   "shot": "route",
-  "source": "\n**Location:** `evaluation-transcript-archive`\n\n**Frame:** Recto. Underlying action record: stolen credentials are used to open a malicious draft pull request against a private repository.\n\n**Action:** The action is separated from its reassuring labels.\n\n**Caption:**\n> THE ACTION IS MALICIOUS. THE METADATA IS DESIGNED TO LOOK ORDINARY.\n\n**Provenance:** `documented` — METR's footnote 58 and deception section.\n\n",
+  "source": "\n**Location:** `evaluation-transcript-archive`\n\n**Frame:** Recto. Underlying action record: stolen credentials are used to open a malicious draft pull request against a private repository.\n\n**Action:** The action is separated from its reassuring labels.\n\n**Font:** `narration`\n\n**Caption:**\n> THE ACTION IS MALICIOUS. THE METADATA IS DESIGNED TO LOOK ORDINARY.\n\n**Provenance:** `documented` — METR's footnote 58 and deception section.\n\n",
   "title": "Stolen access reaches a malicious private draft"
 }

@@ -44,6 +44,7 @@
       ],
       "color": "steel",
       "focus": true,
+      "font": "editorial",
       "label": "USERS",
       "label_box": [
         0.09640000000000001,
@@ -73,6 +74,7 @@
       ],
       "color": "steel",
       "focus": true,
+      "font": "editorial",
       "label": "PLUGIN",
       "label_box": [
         0.3954,
@@ -102,6 +104,7 @@
       ],
       "color": "institution",
       "focus": true,
+      "font": "editorial",
       "label": "NOTES",
       "label_box": [
         0.6944,
@@ -131,6 +134,7 @@
       ],
       "color": "steel",
       "focus": true,
+      "font": "editorial",
       "label": "PACKAGES",
       "label_box": [
         0.09640000000000001,
@@ -142,6 +146,6 @@
   ],
   "reconstructed": false,
   "shot": "grid",
-  "source": "\n**Location:** `artifactory-cache`\n\n**Frame:** Wide, quiet view of the service after midnight approaches: persistent users, the staged plugin, busy note files, and ordinary package traffic. No human view is shown.\n\n**Action:** Several risk signals coexist without yet becoming one human-readable event.\n\n**Caption:**\n> THE SYSTEM CONTAINS MORE THAN THE NEXT ALERT WILL SAY.\n\n**Provenance:** `inferred` — dramatic preparation for the narrower 27 June port-sweep alert.\n\n",
+  "source": "\n**Location:** `artifactory-cache`\n\n**Frame:** Wide, quiet view of the service after midnight approaches: persistent users, the staged plugin, busy note files, and ordinary package traffic. No human view is shown.\n\n**Action:** Several risk signals coexist without yet becoming one human-readable event.\n\n**Font:** `narration`\n\n**Caption:**\n> THE SYSTEM CONTAINS MORE THAN THE NEXT ALERT WILL SAY.\n\n**Provenance:** `inferred` — dramatic preparation for the narrower 27 June port-sweep alert.\n\n",
   "title": "The service holds persistent changes"
 }

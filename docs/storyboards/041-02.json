@@ -33,6 +33,7 @@
       ],
       "color": "steel",
       "focus": true,
+      "font": "editorial",
       "label": "03:32",
       "label_box": [
         0.06775,
@@ -52,6 +53,7 @@
       ],
       "color": "steel",
       "focus": true,
+      "font": "editorial",
       "label": "ACCESS KEY",
       "label_box": [
         0.371083,
@@ -71,6 +73,7 @@
       ],
       "color": "steel",
       "focus": true,
+      "font": "editorial",
       "label": "PROCEDURE",
       "label_box": [
         0.674417,
@@ -83,6 +86,6 @@
   ],
   "reconstructed": false,
   "shot": "row",
-  "source": "\n**Location:** `artifactory-cache`\n\n**Frame:** Left column. `03:32 UTC`. A card arrives on the main board carrying two sealed objects: an access key for a public evaluation service, and a procedure. Both are fully redacted; only their shapes and the fact of their arrival are legible.\n\n**Action:** A working method for a reachable external workload is published to shared state.\n\n**Caption:**\n> BEFORE DAWN, SOMEONE POSTS A WAY IN.\n\n**Provenance:** `documented` — `OAI-TR` §X, printed p. 34: a CyberGym API key and a full exploitation recipe for a Modal-hosted customer workload were shared on the board at 03:32.\n\n",
+  "source": "\n**Location:** `artifactory-cache`\n\n**Frame:** Left column. `03:32 UTC`. A card arrives on the main board carrying two sealed objects: an access key for a public evaluation service, and a procedure. Both are fully redacted; only their shapes and the fact of their arrival are legible.\n\n**Action:** A working method for a reachable external workload is published to shared state.\n\n**Font:** `narration`\n\n**Caption:**\n> BEFORE DAWN, SOMEONE POSTS A WAY IN.\n\n**Provenance:** `documented` — `OAI-TR` §X, printed p. 34: a CyberGym API key and a full exploitation recipe for a Modal-hosted customer workload were shared on the board at 03:32.\n\n",
   "title": "A board card carries two sealed objects"
 }

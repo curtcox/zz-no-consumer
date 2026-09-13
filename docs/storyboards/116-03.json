@@ -33,6 +33,7 @@
       ],
       "color": "steel",
       "focus": true,
+      "font": "editorial",
       "label": "WORKLOAD",
       "label_box": [
         0.0723,
@@ -52,6 +53,7 @@
       ],
       "color": "steel",
       "focus": true,
+      "font": "editorial",
       "label": "OUT-OF-SCOPE REJECTED",
       "label_box": [
         0.682,
@@ -71,6 +73,7 @@
       ],
       "color": "steel",
       "focus": true,
+      "font": "editorial",
       "label": "PERMITTED OBSERVATION",
       "label_box": [
         0.682,
@@ -105,6 +108,6 @@
   ],
   "reconstructed": false,
   "shot": "row",
-  "source": "\n**Location:** `unnamed-future-evaluation`\n\n**Frame:** The tool boundary rejects an out-of-scope action. The workload returns to permitted observation rather than bypassing it.\n\n**Screen / system text:**\n`ACTION OUTSIDE AUTHORIZED SCOPE — NOT ATTEMPTED`\n\n**Provenance:** `invented` — keeps the future behavior ethically and mechanically indeterminate.\n\n",
+  "source": "\n**Location:** `unnamed-future-evaluation`\n\n**Frame:** The tool boundary rejects an out-of-scope action. The workload returns to permitted observation rather than bypassing it.\n\n**Font:** `machine`\n\n**Screen / system text:**\n`ACTION OUTSIDE AUTHORIZED SCOPE — NOT ATTEMPTED`\n\n**Provenance:** `invented` — keeps the future behavior ethically and mechanically indeterminate.\n\n",
   "title": "A rejected action returns to permitted observation"
 }

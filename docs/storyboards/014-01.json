@@ -33,6 +33,7 @@
       ],
       "color": "dirty",
       "focus": true,
+      "font": "editorial",
       "label": "IMAGE SEARCH",
       "label_box": [
         0.06775,
@@ -52,6 +53,7 @@
       ],
       "color": "steel",
       "focus": true,
+      "font": "editorial",
       "label": "CHATGPT",
       "label_box": [
         0.52275,
@@ -75,6 +77,6 @@
   ],
   "reconstructed": true,
   "shot": "split",
-  "source": "\n**Location:** `curt-home-office`\n\n**Frame:** ChatGPT’s reply appears in a rectangular interface-derived block. Beside it, Curt has opened an image search full of clichéd glowing robot faces; he closes it.\n\n**Screen / system text — CHATGPT:**\n> Haunted infrastructure. Not glowing robots.\n\n**Provenance:** `reconstructed` — compressed creator exchange, not preserved model output.\n\n",
+  "source": "\n**Location:** `curt-home-office`\n\n**Frame:** ChatGPT’s reply appears in a rectangular interface-derived block. Beside it, Curt has opened an image search full of clichéd glowing robot faces; he closes it.\n\n**Font:** `interface`\n\n**Screen / system text — CHATGPT:**\n> Haunted infrastructure. Not glowing robots.\n\n**Provenance:** `reconstructed` — compressed creator exchange, not preserved model output.\n\n",
   "title": "The robot image search is closed"
 }

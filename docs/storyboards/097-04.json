@@ -54,6 +54,7 @@
       ],
       "color": "steel",
       "focus": true,
+      "font": "editorial",
       "label": "PUBLIC PAGES",
       "label_box": [
         0.3448,
@@ -72,6 +73,7 @@
       ],
       "color": "steel",
       "focus": true,
+      "font": "editorial",
       "label": "DATES",
       "label_box": [
         0.6162,
@@ -94,6 +96,6 @@
   ],
   "reconstructed": true,
   "shot": "office",
-  "source": "\n**Location:** `curt-home-office`\n\n**Frame:** Curt sees only published pages and dates—no boardroom, no leaked notes, no private transcript.\n\n**Dialogue — CURT:**\n> I can show the pressure in what they published. I cannot claim to know the private decision.\n\n**Provenance:** `reconstructed` — creator disclosure.\n\n",
+  "source": "\n**Location:** `curt-home-office`\n\n**Frame:** Curt sees only published pages and dates—no boardroom, no leaked notes, no private transcript.\n\n**Font:** `human`\n\n**Dialogue — CURT:**\n> I can show the pressure in what they published. I cannot claim to know the private decision.\n\n**Provenance:** `reconstructed` — creator disclosure.\n\n",
   "title": "The creator sees public documents and dates"
 }

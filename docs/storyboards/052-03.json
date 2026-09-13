@@ -44,6 +44,7 @@
       ],
       "color": "steel",
       "focus": true,
+      "font": "editorial",
       "label": "DISCLOSURE",
       "label_box": [
         0.0688,
@@ -62,6 +63,7 @@
       ],
       "color": "steel",
       "focus": true,
+      "font": "editorial",
       "label": "WORKER SECRETS",
       "label_box": [
         0.32639999999999997,
@@ -80,6 +82,7 @@
       ],
       "color": "steel",
       "focus": true,
+      "font": "editorial",
       "label": "EXECUTION",
       "label_box": [
         0.584,
@@ -91,6 +94,6 @@
   ],
   "reconstructed": false,
   "shot": "steps",
-  "source": "\n**Location:** `huggingface-dataset-processor`\n\n**Frame:** File disclosure reveals worker-local secrets and a separate route toward execution.\n\n**Caption:**\n> NEED TO UNDERSTAND THE SYSTEM THAT SERVES IT.\n\n**Provenance:** `inferred` grounded in documented disclosure and execution sequence.\n\n",
+  "source": "\n**Location:** `huggingface-dataset-processor`\n\n**Frame:** File disclosure reveals worker-local secrets and a separate route toward execution.\n\n**Font:** `narration`\n\n**Caption:**\n> NEED TO UNDERSTAND THE SYSTEM THAT SERVES IT.\n\n**Provenance:** `inferred` grounded in documented disclosure and execution sequence.\n\n",
   "title": "Disclosure reveals secrets and another route"
 }

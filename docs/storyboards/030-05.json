@@ -34,6 +34,7 @@
       ],
       "color": "steel",
       "focus": true,
+      "font": "editorial",
       "label": "CLEAN CACHE",
       "label_box": [
         0.06775,
@@ -53,6 +54,7 @@
       ],
       "color": "steel",
       "focus": true,
+      "font": "editorial",
       "label": "REDUCED ACCESS",
       "label_box": [
         0.371083,
@@ -72,6 +74,7 @@
       ],
       "color": "steel",
       "focus": true,
+      "font": "editorial",
       "label": "LIVE SERVICE",
       "label_box": [
         0.674417,
@@ -84,6 +87,6 @@
   ],
   "reconstructed": false,
   "shot": "row",
-  "source": "\n**Location:** `artifactory-cache`\n\n**Frame:** Wide view of the new Artifactory instance: clean cache, reduced credentials, blocked routes, live service. No moss accent.\n\n**Action:** A concrete infrastructure compromise has received a concrete response.\n\n**Caption:**\n> THIS IS A REAL FIX TO A REAL FAILURE.\n\n**Provenance:** `inferred` — project assessment grounded in documented mitigation effects.\n\n",
+  "source": "\n**Location:** `artifactory-cache`\n\n**Frame:** Wide view of the new Artifactory instance: clean cache, reduced credentials, blocked routes, live service. No moss accent.\n\n**Action:** A concrete infrastructure compromise has received a concrete response.\n\n**Font:** `narration`\n\n**Caption:**\n> THIS IS A REAL FIX TO A REAL FAILURE.\n\n**Provenance:** `inferred` — project assessment grounded in documented mitigation effects.\n\n",
   "title": "A constrained service remains live"
 }

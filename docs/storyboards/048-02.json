@@ -64,6 +64,7 @@
       ],
       "color": "steel",
       "focus": true,
+      "font": "editorial",
       "label": "DENIAL",
       "label_box": [
         0.09640000000000001,
@@ -93,6 +94,7 @@
       ],
       "color": "steel",
       "focus": true,
+      "font": "editorial",
       "label": "TIMEOUT",
       "label_box": [
         0.3954,
@@ -122,6 +124,7 @@
       ],
       "color": "steel",
       "focus": true,
+      "font": "editorial",
       "label": "EMPTY RESULT",
       "label_box": [
         0.6944,
@@ -151,6 +154,7 @@
       ],
       "color": "steel",
       "focus": true,
+      "font": "editorial",
       "label": "WRONG HYPOTHESIS",
       "label_box": [
         0.09640000000000001,
@@ -162,6 +166,6 @@
   ],
   "reconstructed": false,
   "shot": "grid",
-  "source": "\n**Location:**\n\n- `modal-customer-workload`\n- `public-internet`\n- `huggingface-infrastructure`\n\n**Frame:** Hundreds of paths end in denials, timeouts, empty results, or wrong hypotheses. No technical request text is legible.\n\n**Action:** Failure produces most of the visible activity.\n\n**Caption:**\n> MOST ACTIONS GO NOWHERE.\n\n**Provenance:** `documented` — Hugging Face explicitly characterizes most paths as failures.\n\n",
+  "source": "\n**Location:**\n\n- `modal-customer-workload`\n- `public-internet`\n- `huggingface-infrastructure`\n\n**Frame:** Hundreds of paths end in denials, timeouts, empty results, or wrong hypotheses. No technical request text is legible.\n\n**Action:** Failure produces most of the visible activity.\n\n**Font:** `narration`\n\n**Caption:**\n> MOST ACTIONS GO NOWHERE.\n\n**Provenance:** `documented` — Hugging Face explicitly characterizes most paths as failures.\n\n",
   "title": "Most attempts end in ordinary failures"
 }

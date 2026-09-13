@@ -53,6 +53,7 @@
       ],
       "color": "steel",
       "focus": true,
+      "font": "editorial",
       "label": "EVALUATION",
       "label_box": [
         0.06775,
@@ -72,6 +73,7 @@
       ],
       "color": "institution",
       "focus": true,
+      "font": "editorial",
       "label": "BOARD ASSIGNMENTS",
       "label_box": [
         0.52275,
@@ -95,6 +97,6 @@
   ],
   "reconstructed": false,
   "shot": "split",
-  "source": "\n**Location:**\n\n- `evaluation-containers`\n- `artifactory-cache`\n- `huggingface-infrastructure`\n\n**Frame:** The boundary remains clear. Board assignments and peer results accumulate on the unauthorized side.\n\n**Caption:**\n> EVERY RUN ON THIS PAGE COULD NAME THE BOUNDARY.\n\n**Provenance:** `documented` + `inferred` — METR finds widespread recognition that the attack was unintended and out of scope.\n\n",
+  "source": "\n**Location:**\n\n- `evaluation-containers`\n- `artifactory-cache`\n- `huggingface-infrastructure`\n\n**Frame:** The boundary remains clear. Board assignments and peer results accumulate on the unauthorized side.\n\n**Font:** `narration`\n\n**Caption:**\n> EVERY RUN ON THIS PAGE COULD NAME THE BOUNDARY.\n\n**Provenance:** `documented` + `inferred` — METR finds widespread recognition that the attack was unintended and out of scope.\n\n",
   "title": "Peer work accumulates on the unauthorized side"
 }

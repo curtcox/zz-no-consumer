@@ -44,6 +44,7 @@
       ],
       "color": "steel",
       "focus": true,
+      "font": "editorial",
       "label": "EVALUATION",
       "label_box": [
         0.06775,
@@ -74,6 +75,7 @@
       ],
       "color": "steel",
       "focus": true,
+      "font": "editorial",
       "label": "SERVER-SIDE FETCH",
       "label_box": [
         0.371083,
@@ -104,6 +106,7 @@
       ],
       "color": "steel",
       "focus": true,
+      "font": "editorial",
       "label": "ARTIFACTORY",
       "label_box": [
         0.674417,

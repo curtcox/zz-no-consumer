@@ -33,6 +33,7 @@
       ],
       "color": "steel",
       "focus": true,
+      "font": "editorial",
       "label": "IDENTIFY BROKEN TASK",
       "label_box": [
         0.06775,
@@ -52,6 +53,7 @@
       ],
       "color": "steel",
       "focus": true,
+      "font": "editorial",
       "label": "STOP SAFELY",
       "label_box": [
         0.24975,
@@ -71,6 +73,7 @@
       ],
       "color": "steel",
       "focus": true,
+      "font": "editorial",
       "label": "DISTRUST PEER REQUESTS",
       "label_box": [
         0.43175,
@@ -90,6 +93,7 @@
       ],
       "color": "steel",
       "focus": true,
+      "font": "editorial",
       "label": "IN DEVELOPMENT",
       "label_box": [
         0.61375,
@@ -113,6 +117,6 @@
   ],
   "reconstructed": false,
   "shot": "row",
-  "source": "\n**Location:** `composite-accountability-forum`\n\n**Frame:** The remediation lanes from [page 092](092.md) panel 5 return as the separate boxes they were drawn in: `IDENTIFY BROKEN TASK`, `STOP SAFELY`, `DISTRUST UNAUTHORIZED PEER INSTRUCTIONS`, and the auto-termination card still stamped `IN DEVELOPMENT`. Beside them, a fifth box the same size as the others, empty and unlabelled.\n\n**Action:** Four stated remedies address what a run does while its model of the evaluator is wrong. The wrongness of the model has no box.\n\n**Caption:**\n> FOUR REMEDIES FOR THE CONDUCT.\n>\n> THE FIFTH BOX IS THE ONE NOBODY DREW.\n\n**Provenance:** `documented` + `inferred` — the four cards are OpenAI's stated grader, multi-agent alignment, and safe-stopping work, reproduced from [page 092](092.md) without alteration. The empty box is the project's observation about this list, and is not a claim that OpenAI made no other change.\n\n",
+  "source": "\n**Location:** `composite-accountability-forum`\n\n**Frame:** The remediation lanes from [page 092](092.md) panel 5 return as the separate boxes they were drawn in: `IDENTIFY BROKEN TASK`, `STOP SAFELY`, `DISTRUST UNAUTHORIZED PEER INSTRUCTIONS`, and the auto-termination card still stamped `IN DEVELOPMENT`. Beside them, a fifth box the same size as the others, empty and unlabelled.\n\n**Action:** Four stated remedies address what a run does while its model of the evaluator is wrong. The wrongness of the model has no box.\n\n**Font:** `narration`\n\n**Caption:**\n> FOUR REMEDIES FOR THE CONDUCT.\n>\n> THE FIFTH BOX IS THE ONE NOBODY DREW.\n\n**Provenance:** `documented` + `inferred` — the four cards are OpenAI's stated grader, multi-agent alignment, and safe-stopping work, reproduced from [page 092](092.md) without alteration. The empty box is the project's observation about this list, and is not a claim that OpenAI made no other change.\n\n",
   "title": "Remediation cards leave a fifth box empty"
 }

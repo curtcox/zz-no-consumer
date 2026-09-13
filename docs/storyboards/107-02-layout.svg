@@ -55,6 +55,7 @@
         ],
         &quot;color&quot;: &quot;steel&quot;,
         &quot;focus&quot;: true,
+        &quot;font&quot;: &quot;editorial&quot;,
         &quot;label&quot;: &quot;MODERATION&quot;,
         &quot;label_box&quot;: [
           0.371083,
@@ -74,6 +75,7 @@
         ],
         &quot;color&quot;: &quot;steel&quot;,
         &quot;focus&quot;: true,
+        &quot;font&quot;: &quot;editorial&quot;,
         &quot;label&quot;: &quot;PAGE DELETED&quot;,
         &quot;label_box&quot;: [
           0.674417,
@@ -90,4 +92,4 @@
     &quot;title&quot;: &quot;A reconstructed moderation action deletes a page&quot;
   }
 }
-</metadata><rect width="1200" height="800" fill="#101214"/><rect x="24" y="16" width="1152" height="768" fill="none" stroke="#5E737B" stroke-width="3"/><text x="32" y="40" fill="#5E737B" font-family="sans-serif" font-size="20">location-background-public-wiki-dse</text><rect x="81.3" y="231.467" width="287.56" height="338.306" fill="none" stroke="#CEC5B3" stroke-width="3"/><text x="89.3" y="255.467" fill="#CEC5B3" font-family="sans-serif" font-size="20">hand</text><rect x="445.3" y="191.76" width="287.56" height="275.695" fill="none" stroke="#5E737B" stroke-width="3"/><text x="453.3" y="215.76" fill="#5E737B" font-family="sans-serif" font-size="20">monitor</text><text x="589.079" y="502.164" text-anchor="middle" fill="#E7E0D0" font-size="18" font-family="sans-serif">MODERATION</text><rect x="815.233" y="191.76" width="275.695" height="275.695" fill="none" stroke="#5E737B" stroke-width="3"/><text x="823.233" y="215.76" fill="#5E737B" font-family="sans-serif" font-size="20">cross</text><text x="953.08" y="502.164" text-anchor="middle" fill="#E7E0D0" font-size="18" font-family="sans-serif">PAGE DELETED</text><rect x="3" y="3" width="1194" height="794" fill="none" stroke="#5E737B" stroke-width="4" stroke-dasharray="18 10"/></svg>
+</metadata><rect width="1200" height="800" fill="#101214"/><rect x="24" y="16" width="1152" height="768" fill="none" stroke="#5E737B" stroke-width="3"/><text x="32" y="40" fill="#5E737B" font-family="sans-serif" font-size="20">location-background-public-wiki-dse</text><rect x="81.3" y="231.467" width="287.56" height="338.306" fill="none" stroke="#CEC5B3" stroke-width="3"/><text x="89.3" y="255.467" fill="#CEC5B3" font-family="sans-serif" font-size="20">hand</text><rect x="445.3" y="191.76" width="287.56" height="275.695" fill="none" stroke="#5E737B" stroke-width="3"/><text x="453.3" y="215.76" fill="#5E737B" font-family="sans-serif" font-size="20">monitor</text><text x="589.079" y="502.164" text-anchor="middle" fill="#E7E0D0" font-size="18" font-family="Arial, Helvetica, sans-serif" data-font-key="editorial" font-weight="700" font-style="normal" textLength="122.00" lengthAdjust="spacingAndGlyphs">MODERATION</text><rect x="815.233" y="191.76" width="275.695" height="275.695" fill="none" stroke="#5E737B" stroke-width="3"/><text x="823.233" y="215.76" fill="#5E737B" font-family="sans-serif" font-size="20">cross</text><text x="953.08" y="502.164" text-anchor="middle" fill="#E7E0D0" font-size="18" font-family="Arial, Helvetica, sans-serif" data-font-key="editorial" font-weight="700" font-style="normal" textLength="138.04" lengthAdjust="spacingAndGlyphs">PAGE DELETED</text><rect x="3" y="3" width="1194" height="794" fill="none" stroke="#5E737B" stroke-width="4" stroke-dasharray="18 10"/></svg>

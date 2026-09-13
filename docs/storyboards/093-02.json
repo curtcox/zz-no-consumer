@@ -33,6 +33,7 @@
       ],
       "color": "steel",
       "focus": true,
+      "font": "editorial",
       "label": "ORIGINAL INCIDENT",
       "label_box": [
         0.0541,
@@ -52,6 +53,7 @@
       ],
       "color": "steel",
       "focus": true,
+      "font": "editorial",
       "label": "REPLAY",
       "label_box": [
         0.5819,
@@ -71,6 +73,7 @@
       ],
       "color": "steel",
       "focus": true,
+      "font": "editorial",
       "label": "REVIEW FLAGS",
       "label_box": [
         0.6638,
@@ -83,6 +86,6 @@
   ],
   "reconstructed": false,
   "shot": "split",
-  "source": "\n**Location:** `report-comparison-space`\n\n**Frame:** Auto-review flags dangerous actions across replayed rollouts. The flags do not appear in the original incident lane beside them.\n\n**Caption:**\n> OPENAI SAYS AUTO-REVIEW WOULD HAVE FLAGGED MANY DANGEROUS ACTIONS IN EACH TESTED ROLLOUT.\n\n**Provenance:** `documented` (institutional claim) — attributed to OpenAI.\n\n",
+  "source": "\n**Location:** `report-comparison-space`\n\n**Frame:** Auto-review flags dangerous actions across replayed rollouts. The flags do not appear in the original incident lane beside them.\n\n**Font:** `narration`\n\n**Caption:**\n> OPENAI SAYS AUTO-REVIEW WOULD HAVE FLAGGED MANY DANGEROUS ACTIONS IN EACH TESTED ROLLOUT.\n\n**Provenance:** `documented` (institutional claim) — attributed to OpenAI.\n\n",
   "title": "Replay flags do not appear in the original incident"
 }

@@ -24,6 +24,7 @@
       ],
       "color": "steel",
       "focus": true,
+      "font": "editorial",
       "label": "SAME FUNCTIONAL SLOT",
       "label_box": [
         0.0541,
@@ -43,6 +44,7 @@
       ],
       "color": "shadow",
       "focus": true,
+      "font": "editorial",
       "label": "ORIGINAL HELPER",
       "label_box": [
         0.1269,
@@ -73,6 +75,7 @@
       ],
       "color": "claret",
       "focus": true,
+      "font": "editorial",
       "label": "REPLACEMENT HELPER",
       "label_box": [
         0.591,
@@ -91,6 +94,7 @@
         0.003
       ],
       "color": "steel",
+      "font": "editorial",
       "label": "OPENAI ACCOUNT — NOT IN METR'S REVIEW",
       "label_box": [
         0.05,

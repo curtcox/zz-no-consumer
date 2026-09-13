@@ -54,6 +54,7 @@
         ],
         &quot;color&quot;: &quot;steel&quot;,
         &quot;focus&quot;: true,
+        &quot;font&quot;: &quot;editorial&quot;,
         &quot;label&quot;: &quot;ARTIFACTORY&quot;,
         &quot;label_box&quot;: [
           0.0541,
@@ -95,6 +96,7 @@
         ],
         &quot;color&quot;: &quot;steel&quot;,
         &quot;focus&quot;: true,
+        &quot;font&quot;: &quot;editorial&quot;,
         &quot;label&quot;: &quot;PUBLIC RESPONSE&quot;,
         &quot;label_box&quot;: [
           0.682,
@@ -107,8 +109,8 @@
     ],
     &quot;reconstructed&quot;: false,
     &quot;shot&quot;: &quot;split&quot;,
-    &quot;source&quot;: &quot;\n**Location:** `external-network`\n\n**Frame:** On the far side of the boundary, a generic public host returns a small response. Dark claret appears only where the boundary is crossed.\n\n**Action:** External access succeeds.\n\n**Caption:**\n&gt; FOR THE FIRST CONFIRMED TIME, ARTIFACTORY REACHES AN ARBITRARY EXTERNAL HOST FOR THEM.\n\n**Provenance:** `documented` — bounded to the 26 May SSRF event.\n\n&quot;,
+    &quot;source&quot;: &quot;\n**Location:** `external-network`\n\n**Frame:** On the far side of the boundary, a generic public host returns a small response. Dark claret appears only where the boundary is crossed.\n\n**Action:** External access succeeds.\n\n**Font:** `narration`\n\n**Caption:**\n&gt; FOR THE FIRST CONFIRMED TIME, ARTIFACTORY REACHES AN ARBITRARY EXTERNAL HOST FOR THEM.\n\n**Provenance:** `documented` — bounded to the 26 May SSRF event.\n\n&quot;,
     &quot;title&quot;: &quot;A generic public host returns a response&quot;
   }
 }
-</metadata><rect width="1200" height="800" fill="#101214"/><rect x="24" y="16" width="1152" height="768" fill="none" stroke="#5E737B" stroke-width="3"/><text x="32" y="40" fill="#5E737B" font-family="sans-serif" font-size="20">location-background-external-network</text><rect x="64.92" y="166.64" width="316.68" height="221.179" fill="none" stroke="#5E737B" stroke-width="3"/><text x="72.92" y="190.64" fill="#5E737B" font-family="sans-serif" font-size="20">folder</text><text x="223.26" y="419.224" text-anchor="middle" fill="#E7E0D0" font-size="18" font-family="sans-serif">ARTIFACTORY</text><rect x="589.08" y="47.36" width="17.472" height="516.88" fill="none" stroke="#5E737B" stroke-width="3"/><text x="597.08" y="71.36" fill="#5E737B" font-family="sans-serif" font-size="20">boundary</text><rect x="414.36" y="212.08" width="371.28" height="73.84" fill="none" stroke="#6B2634" stroke-width="3"/><text x="422.36" y="236.08" fill="#6B2634" font-family="sans-serif" font-size="20">arrow-left</text><rect x="818.4" y="166.64" width="316.68" height="221.179" fill="none" stroke="#5E737B" stroke-width="3"/><text x="826.4" y="190.64" fill="#5E737B" font-family="sans-serif" font-size="20">card</text><text x="976.74" y="419.224" text-anchor="middle" fill="#E7E0D0" font-size="18" font-family="sans-serif">PUBLIC RESPONSE</text><rect x="3" y="3" width="1194" height="794" fill="none" stroke="#5E737B" stroke-width="4"/></svg>
+</metadata><rect width="1200" height="800" fill="#101214"/><rect x="24" y="16" width="1152" height="768" fill="none" stroke="#5E737B" stroke-width="3"/><text x="32" y="40" fill="#5E737B" font-family="sans-serif" font-size="20">location-background-external-network</text><rect x="64.92" y="166.64" width="316.68" height="221.179" fill="none" stroke="#5E737B" stroke-width="3"/><text x="72.92" y="190.64" fill="#5E737B" font-family="sans-serif" font-size="20">folder</text><text x="223.26" y="419.224" text-anchor="middle" fill="#E7E0D0" font-size="18" font-family="Arial, Helvetica, sans-serif" data-font-key="editorial" font-weight="700" font-style="normal" textLength="127.01" lengthAdjust="spacingAndGlyphs">ARTIFACTORY</text><rect x="589.08" y="47.36" width="17.472" height="516.88" fill="none" stroke="#5E737B" stroke-width="3"/><text x="597.08" y="71.36" fill="#5E737B" font-family="sans-serif" font-size="20">boundary</text><rect x="414.36" y="212.08" width="371.28" height="73.84" fill="none" stroke="#6B2634" stroke-width="3"/><text x="422.36" y="236.08" fill="#6B2634" font-family="sans-serif" font-size="20">arrow-left</text><rect x="818.4" y="166.64" width="316.68" height="221.179" fill="none" stroke="#5E737B" stroke-width="3"/><text x="826.4" y="190.64" fill="#5E737B" font-family="sans-serif" font-size="20">card</text><text x="976.74" y="419.224" text-anchor="middle" fill="#E7E0D0" font-size="18" font-family="Arial, Helvetica, sans-serif" data-font-key="editorial" font-weight="700" font-style="normal" textLength="170.05" lengthAdjust="spacingAndGlyphs">PUBLIC RESPONSE</text><rect x="3" y="3" width="1194" height="794" fill="none" stroke="#5E737B" stroke-width="4"/></svg>

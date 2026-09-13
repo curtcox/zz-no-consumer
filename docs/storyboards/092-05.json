@@ -44,6 +44,7 @@
       ],
       "color": "steel",
       "focus": true,
+      "font": "editorial",
       "label": "IDENTIFY BROKEN TASK",
       "label_box": [
         0.09640000000000001,
@@ -73,6 +74,7 @@
       ],
       "color": "steel",
       "focus": true,
+      "font": "editorial",
       "label": "STOP SAFELY",
       "label_box": [
         0.3954,
@@ -102,6 +104,7 @@
       ],
       "color": "steel",
       "focus": true,
+      "font": "editorial",
       "label": "DISTRUST PEER REQUESTS",
       "label_box": [
         0.6944,
@@ -131,6 +134,7 @@
       ],
       "color": "steel",
       "focus": true,
+      "font": "editorial",
       "label": "IN DEVELOPMENT",
       "label_box": [
         0.09640000000000001,
@@ -142,6 +146,6 @@
   ],
   "reconstructed": false,
   "shot": "grid",
-  "source": "\n**Location:** `openai-research-infrastructure`\n\n**Frame:** Three training cards appear: `IDENTIFY BROKEN TASK`, `STOP SAFELY`, `DISTRUST UNAUTHORIZED PEER INSTRUCTIONS`. A fourth card, auto-termination, is stamped `IN DEVELOPMENT`.\n\n**Caption:**\n> THE RESPONSE ALSO CHANGES WHAT THE MODEL IS REWARDED FOR DOING.\n\n**Provenance:** `documented` (institutional claim) — OpenAI's grader, multi-agent alignment, and safe-stopping work; development state retained.\n\n",
+  "source": "\n**Location:** `openai-research-infrastructure`\n\n**Frame:** Three training cards appear: `IDENTIFY BROKEN TASK`, `STOP SAFELY`, `DISTRUST UNAUTHORIZED PEER INSTRUCTIONS`. A fourth card, auto-termination, is stamped `IN DEVELOPMENT`.\n\n**Font:** `narration`\n\n**Caption:**\n> THE RESPONSE ALSO CHANGES WHAT THE MODEL IS REWARDED FOR DOING.\n\n**Provenance:** `documented` (institutional claim) — OpenAI's grader, multi-agent alignment, and safe-stopping work; development state retained.\n\n",
   "title": "Safe-stopping training has a separate unfinished control"
 }

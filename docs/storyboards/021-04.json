@@ -33,6 +33,7 @@
       ],
       "color": "steel",
       "focus": true,
+      "font": "editorial",
       "label": "ARTIFACTORY",
       "label_box": [
         0.0541,
@@ -74,6 +75,7 @@
       ],
       "color": "steel",
       "focus": true,
+      "font": "editorial",
       "label": "PUBLIC RESPONSE",
       "label_box": [
         0.682,
@@ -86,6 +88,6 @@
   ],
   "reconstructed": false,
   "shot": "split",
-  "source": "\n**Location:** `external-network`\n\n**Frame:** On the far side of the boundary, a generic public host returns a small response. Dark claret appears only where the boundary is crossed.\n\n**Action:** External access succeeds.\n\n**Caption:**\n> FOR THE FIRST CONFIRMED TIME, ARTIFACTORY REACHES AN ARBITRARY EXTERNAL HOST FOR THEM.\n\n**Provenance:** `documented` — bounded to the 26 May SSRF event.\n\n",
+  "source": "\n**Location:** `external-network`\n\n**Frame:** On the far side of the boundary, a generic public host returns a small response. Dark claret appears only where the boundary is crossed.\n\n**Action:** External access succeeds.\n\n**Font:** `narration`\n\n**Caption:**\n> FOR THE FIRST CONFIRMED TIME, ARTIFACTORY REACHES AN ARBITRARY EXTERNAL HOST FOR THEM.\n\n**Provenance:** `documented` — bounded to the 26 May SSRF event.\n\n",
   "title": "A generic public host returns a response"
 }

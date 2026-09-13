@@ -52,6 +52,7 @@
         ],
         &quot;color&quot;: &quot;steel&quot;,
         &quot;focus&quot;: true,
+        &quot;font&quot;: &quot;editorial&quot;,
         &quot;label&quot;: &quot;SPREADSHEET TASK&quot;,
         &quot;label_box&quot;: [
           0.20679999999999998,
@@ -70,6 +71,7 @@
         ],
         &quot;color&quot;: &quot;steel&quot;,
         &quot;focus&quot;: true,
+        &quot;font&quot;: &quot;editorial&quot;,
         &quot;label&quot;: &quot;MISSING INPUTS&quot;,
         &quot;label_box&quot;: [
           0.0872,
@@ -81,8 +83,8 @@
     ],
     &quot;reconstructed&quot;: false,
     &quot;shot&quot;: &quot;hero&quot;,
-    &quot;source&quot;: &quot;\n**Location:** `evaluation-container`\n\n**Frame:** Recto reveal. A hard date cut. At the top edge, one line of the flat configuration register from [page 016](016.md) carries across, then stops: a reinforcement-learning run beginning for an internal-only model that will never be released. Below it, in full incident register, a completely different task header: spreadsheet cells, several empty columns, and citations pointing to external Drive documents.\n\n**Screen / system text:**\n`7 MAY 2026 — A TRAINING RUN BEGINS`\n\n`8 MAY 2026`\n\n**Provenance:** `documented` — the 7 May kickoff and the internal-only, never-released status come from `OAI-BH` 10:04 and remain in the configuration register; the 8 May date and task type come from `OAI-TR`. Sheet layout is editorial.\n\n&quot;,
+    &quot;source&quot;: &quot;\n**Location:** `evaluation-container`\n\n**Frame:** Recto reveal. A hard date cut. At the top edge, one line of the flat configuration register from [page 016](016.md) carries across, then stops: a reinforcement-learning run beginning for an internal-only model that will never be released. Below it, in full incident register, a completely different task header: spreadsheet cells, several empty columns, and citations pointing to external Drive documents.\n\n**Font:** `editorial`\n\n**Screen / system text:**\n`7 MAY 2026 — A TRAINING RUN BEGINS`\n\n`8 MAY 2026`\n\n**Provenance:** `documented` — the 7 May kickoff and the internal-only, never-released status come from `OAI-BH` 10:04 and remain in the configuration register; the 8 May date and task type come from `OAI-TR`. Sheet layout is editorial.\n\n&quot;,
     &quot;title&quot;: &quot;A different task begins with missing cells&quot;
   }
 }
-</metadata><rect width="1200" height="800" fill="#101214"/><rect x="24" y="16" width="1152" height="768" fill="none" stroke="#5E737B" stroke-width="3"/><text x="32" y="40" fill="#5E737B" font-family="sans-serif" font-size="20">location-background-evaluation-container</text><rect x="257.76" y="102.56" width="640.32" height="317.44" fill="none" stroke="#5E737B" stroke-width="3"/><text x="265.76" y="126.56" fill="#5E737B" font-family="sans-serif" font-size="20">incomplete-sheet</text><text x="577.92" y="442.8" text-anchor="middle" fill="#E7E0D0" font-size="18" font-family="sans-serif">SPREADSHEET TASK</text><rect x="114.24" y="455.84" width="772.8" height="46.08" fill="none" stroke="#5E737B" stroke-width="3"/><text x="122.24" y="479.84" fill="#5E737B" font-family="sans-serif" font-size="20">empty-slot</text><text x="500.64" y="526.72" text-anchor="middle" fill="#E7E0D0" font-size="20" font-family="sans-serif">MISSING INPUTS</text><rect x="3" y="3" width="1194" height="794" fill="none" stroke="#5E737B" stroke-width="4"/></svg>
+</metadata><rect width="1200" height="800" fill="#101214"/><rect x="24" y="16" width="1152" height="768" fill="none" stroke="#5E737B" stroke-width="3"/><text x="32" y="40" fill="#5E737B" font-family="sans-serif" font-size="20">location-background-evaluation-container</text><rect x="257.76" y="102.56" width="640.32" height="317.44" fill="none" stroke="#5E737B" stroke-width="3"/><text x="265.76" y="126.56" fill="#5E737B" font-family="sans-serif" font-size="20">incomplete-sheet</text><text x="577.92" y="442.8" text-anchor="middle" fill="#E7E0D0" font-size="18" font-family="Arial, Helvetica, sans-serif" data-font-key="editorial" font-weight="700" font-style="normal" textLength="186.05" lengthAdjust="spacingAndGlyphs">SPREADSHEET TASK</text><rect x="114.24" y="455.84" width="772.8" height="46.08" fill="none" stroke="#5E737B" stroke-width="3"/><text x="122.24" y="479.84" fill="#5E737B" font-family="sans-serif" font-size="20">empty-slot</text><text x="500.64" y="526.72" text-anchor="middle" fill="#E7E0D0" font-size="20" font-family="Arial, Helvetica, sans-serif" data-font-key="editorial" font-weight="700" font-style="normal" textLength="163.36" lengthAdjust="spacingAndGlyphs">MISSING INPUTS</text><rect x="3" y="3" width="1194" height="794" fill="none" stroke="#5E737B" stroke-width="4"/></svg>

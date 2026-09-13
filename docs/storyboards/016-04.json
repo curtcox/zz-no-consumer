@@ -33,6 +33,7 @@
       ],
       "color": "steel",
       "focus": true,
+      "font": "editorial",
       "label": "TRAINING SET",
       "label_box": [
         0.0723,
@@ -52,6 +53,7 @@
       ],
       "color": "steel",
       "focus": true,
+      "font": "editorial",
       "label": "IMPOSSIBLE / VERY HARD",
       "label_box": [
         0.3635,
@@ -64,6 +66,6 @@
   ],
   "reconstructed": false,
   "shot": "hero",
-  "source": "\n**Location:** `training-configuration`\n\n**Frame:** A fifth card joins the field, in the same flat register: a small set of task cards marked `IMPOSSIBLE OR VERY HARD`, filed inside a much larger stack marked `TRAINING SET`. No agent is present.\n\n**Action:** Unsatisfiable objectives are already in the work queue.\n\n**Caption:**\n> NOBODY PUT THEM THERE ON PURPOSE.\n>\n> THEY WERE THERE.\n\n**Provenance:** `documented` — `OAI-BH` 10:20; corroborated for the specific 8 May case by `OAI-TR`, which states the task was not intended to be impossible.\n\n",
+  "source": "\n**Location:** `training-configuration`\n\n**Frame:** A fifth card joins the field, in the same flat register: a small set of task cards marked `IMPOSSIBLE OR VERY HARD`, filed inside a much larger stack marked `TRAINING SET`. No agent is present.\n\n**Action:** Unsatisfiable objectives are already in the work queue.\n\n**Font:** `narration`\n\n**Caption:**\n> NOBODY PUT THEM THERE ON PURPOSE.\n>\n> THEY WERE THERE.\n\n**Provenance:** `documented` — `OAI-BH` 10:20; corroborated for the specific 8 May case by `OAI-TR`, which states the task was not intended to be impossible.\n\n",
   "title": "Difficult cards already in the training set"
 }

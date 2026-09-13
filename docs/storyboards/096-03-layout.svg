@@ -55,6 +55,7 @@
         ],
         &quot;color&quot;: &quot;steel&quot;,
         &quot;focus&quot;: true,
+        &quot;font&quot;: &quot;editorial&quot;,
         &quot;label&quot;: &quot;REVIEW&quot;,
         &quot;label_box&quot;: [
           0.0541,
@@ -85,6 +86,7 @@
         ],
         &quot;color&quot;: &quot;steel&quot;,
         &quot;focus&quot;: true,
+        &quot;font&quot;: &quot;editorial&quot;,
         &quot;label&quot;: &quot;RESUMED&quot;,
         &quot;label_box&quot;: [
           0.5273,
@@ -104,6 +106,7 @@
         ],
         &quot;color&quot;: &quot;steel&quot;,
         &quot;focus&quot;: true,
+        &quot;font&quot;: &quot;editorial&quot;,
         &quot;label&quot;: &quot;MORE CHANGES REQUIRED&quot;,
         &quot;label_box&quot;: [
           0.5273,
@@ -123,6 +126,7 @@
         ],
         &quot;color&quot;: &quot;steel&quot;,
         &quot;focus&quot;: true,
+        &quot;font&quot;: &quot;editorial&quot;,
         &quot;label&quot;: &quot;PAUSED&quot;,
         &quot;label_box&quot;: [
           0.5273,
@@ -135,8 +139,8 @@
     ],
     &quot;reconstructed&quot;: false,
     &quot;shot&quot;: &quot;row&quot;,
-    &quot;source&quot;: &quot;\n**Location:** `openai-research-infrastructure`\n\n**Frame:** The gate sorts cards into `RESUMED`, `MORE CHANGES REQUIRED`, and `PAUSED`.\n\n**Caption:**\n&gt; SOME RESUMED. SOME REQUIRED MORE CHANGES. A SIGNIFICANT NUMBER REMAINED PAUSED.\n\n**Provenance:** `documented` (institutional claim).\n\n&quot;,
+    &quot;source&quot;: &quot;\n**Location:** `openai-research-infrastructure`\n\n**Frame:** The gate sorts cards into `RESUMED`, `MORE CHANGES REQUIRED`, and `PAUSED`.\n\n**Font:** `narration`\n\n**Caption:**\n&gt; SOME RESUMED. SOME REQUIRED MORE CHANGES. A SIGNIFICANT NUMBER REMAINED PAUSED.\n\n**Provenance:** `documented` (institutional claim).\n\n&quot;,
     &quot;title&quot;: &quot;The review gate has three dispositions&quot;
   }
 }
-</metadata><rect width="1200" height="800" fill="#101214"/><rect x="612" y="32" width="516" height="552" fill="none" stroke="#5E737B" stroke-width="3"/><text x="620" y="56" fill="#5E737B" font-family="sans-serif" font-size="20">review-disposition-field</text><rect x="64.92" y="178" width="273" height="183.691" fill="none" stroke="#5E737B" stroke-width="3"/><text x="72.92" y="202" fill="#5E737B" font-family="sans-serif" font-size="20">review-checkpoint</text><text x="201.42" y="390.824" text-anchor="middle" fill="#E7E0D0" font-size="18" font-family="sans-serif">REVIEW</text><rect x="370.68" y="257.52" width="163.8" height="45.44" fill="none" stroke="#5E737B" stroke-width="3"/><text x="378.68" y="281.52" fill="#5E737B" font-family="sans-serif" font-size="20">arrow</text><rect x="632.76" y="47.36" width="480.48" height="104.966" fill="none" stroke="#5E737B" stroke-width="3"/><text x="640.76" y="71.36" fill="#5E737B" font-family="sans-serif" font-size="20">open-gate</text><text x="873" y="176.688" text-anchor="middle" fill="#E7E0D0" font-size="18" font-family="sans-serif">RESUMED</text><rect x="632.76" y="231.96" width="480.48" height="104.966" fill="none" stroke="#5E737B" stroke-width="3"/><text x="640.76" y="255.96" fill="#5E737B" font-family="sans-serif" font-size="20">card</text><text x="873" y="361.288" text-anchor="middle" fill="#E7E0D0" font-size="18" font-family="sans-serif">MORE CHANGES REQUIRED</text><rect x="632.76" y="416.56" width="480.48" height="104.966" fill="none" stroke="#5E737B" stroke-width="3"/><text x="640.76" y="440.56" fill="#5E737B" font-family="sans-serif" font-size="20">workload-hold</text><text x="873" y="545.888" text-anchor="middle" fill="#E7E0D0" font-size="18" font-family="sans-serif">PAUSED</text><rect x="3" y="3" width="1194" height="794" fill="none" stroke="#5E737B" stroke-width="4"/></svg>
+</metadata><rect width="1200" height="800" fill="#101214"/><rect x="612" y="32" width="516" height="552" fill="none" stroke="#5E737B" stroke-width="3"/><text x="620" y="56" fill="#5E737B" font-family="sans-serif" font-size="20">review-disposition-field</text><rect x="64.92" y="178" width="273" height="183.691" fill="none" stroke="#5E737B" stroke-width="3"/><text x="72.92" y="202" fill="#5E737B" font-family="sans-serif" font-size="20">review-checkpoint</text><text x="201.42" y="390.824" text-anchor="middle" fill="#E7E0D0" font-size="18" font-family="Arial, Helvetica, sans-serif" data-font-key="editorial" font-weight="700" font-style="normal" textLength="71.01" lengthAdjust="spacingAndGlyphs">REVIEW</text><rect x="370.68" y="257.52" width="163.8" height="45.44" fill="none" stroke="#5E737B" stroke-width="3"/><text x="378.68" y="281.52" fill="#5E737B" font-family="sans-serif" font-size="20">arrow</text><rect x="632.76" y="47.36" width="480.48" height="104.966" fill="none" stroke="#5E737B" stroke-width="3"/><text x="640.76" y="71.36" fill="#5E737B" font-family="sans-serif" font-size="20">open-gate</text><text x="873" y="176.688" text-anchor="middle" fill="#E7E0D0" font-size="18" font-family="Arial, Helvetica, sans-serif" data-font-key="editorial" font-weight="700" font-style="normal" textLength="90.00" lengthAdjust="spacingAndGlyphs">RESUMED</text><rect x="632.76" y="231.96" width="480.48" height="104.966" fill="none" stroke="#5E737B" stroke-width="3"/><text x="640.76" y="255.96" fill="#5E737B" font-family="sans-serif" font-size="20">card</text><text x="873" y="361.288" text-anchor="middle" fill="#E7E0D0" font-size="18" font-family="Arial, Helvetica, sans-serif" data-font-key="editorial" font-weight="700" font-style="normal" textLength="248.02" lengthAdjust="spacingAndGlyphs">MORE CHANGES REQUIRED</text><rect x="632.76" y="416.56" width="480.48" height="104.966" fill="none" stroke="#5E737B" stroke-width="3"/><text x="640.76" y="440.56" fill="#5E737B" font-family="sans-serif" font-size="20">workload-hold</text><text x="873" y="545.888" text-anchor="middle" fill="#E7E0D0" font-size="18" font-family="Arial, Helvetica, sans-serif" data-font-key="editorial" font-weight="700" font-style="normal" textLength="74.02" lengthAdjust="spacingAndGlyphs">PAUSED</text><rect x="3" y="3" width="1194" height="794" fill="none" stroke="#5E737B" stroke-width="4"/></svg>

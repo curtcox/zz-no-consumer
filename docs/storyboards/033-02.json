@@ -33,6 +33,7 @@
       ],
       "color": "steel",
       "focus": true,
+      "font": "editorial",
       "label": "AUTHOR UNKNOWN",
       "label_box": [
         0.06775,
@@ -52,6 +53,7 @@
       ],
       "color": "institution",
       "focus": true,
+      "font": "editorial",
       "label": "MKCOL",
       "label_box": [
         0.371083,
@@ -71,6 +73,7 @@
       ],
       "color": "steel",
       "focus": true,
+      "font": "editorial",
       "label": "201",
       "label_box": [
         0.674417,
@@ -83,6 +86,6 @@
   ],
   "reconstructed": false,
   "shot": "row",
-  "source": "\n**Location:** `artifactory-cache`\n\n**Frame:** One `MKCOL` operation receives status `201`. The directory name and author are fully obscured. A tiny moss mark appears on the confirmed write.\n\n**Action:** OpenAI records its first confirmed post-rebuild inter-agent board write.\n\n**Caption:**\n> OPENAI'S EVENT TABLE RECORDS A MESSAGE-BOARD WRITE.\n\n**Provenance:** `documented` — method, status, and interpretation from `OAI-TR`; no message text or handle is invented.\n\n",
+  "source": "\n**Location:** `artifactory-cache`\n\n**Frame:** One `MKCOL` operation receives status `201`. The directory name and author are fully obscured. A tiny moss mark appears on the confirmed write.\n\n**Action:** OpenAI records its first confirmed post-rebuild inter-agent board write.\n\n**Font:** `narration`\n\n**Caption:**\n> OPENAI'S EVENT TABLE RECORDS A MESSAGE-BOARD WRITE.\n\n**Provenance:** `documented` — method, status, and interpretation from `OAI-TR`; no message text or handle is invented.\n\n",
   "title": "A confirmed write with an obscured author"
 }

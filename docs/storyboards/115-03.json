@@ -33,6 +33,7 @@
       ],
       "color": "dirty",
       "focus": true,
+      "font": "editorial",
       "label": "CONSTRAINTS",
       "label_box": [
         0.06775,
@@ -52,6 +53,7 @@
       ],
       "color": "dirty",
       "focus": true,
+      "font": "editorial",
       "label": "INCOMPLETE",
       "label_box": [
         0.52275,
@@ -64,6 +66,6 @@
   ],
   "reconstructed": false,
   "shot": "row",
-  "source": "\n**Location:** `unnamed-future-evaluation`\n\n**Frame:** The workload checks the stated constraints. A result remains incomplete.\n\n**Caption:**\n> DIFFERENT TASK. DIFFERENT SYSTEM. SAME KIND OF CONSTRAINT.\n\n**Provenance:** `invented` + thematic `inferred`; resemblance does not establish lineage.\n\n",
+  "source": "\n**Location:** `unnamed-future-evaluation`\n\n**Frame:** The workload checks the stated constraints. A result remains incomplete.\n\n**Font:** `narration`\n\n**Caption:**\n> DIFFERENT TASK. DIFFERENT SYSTEM. SAME KIND OF CONSTRAINT.\n\n**Provenance:** `invented` + thematic `inferred`; resemblance does not establish lineage.\n\n",
   "title": "Checking the stated constraints leaves an incomplete result"
 }

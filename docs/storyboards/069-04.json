@@ -44,6 +44,7 @@
       ],
       "color": "steel",
       "focus": true,
+      "font": "editorial",
       "label": "16:35 HOST BOUNDARY",
       "label_box": [
         0.07350000000000001,
@@ -62,6 +63,7 @@
       ],
       "color": "steel",
       "focus": true,
+      "font": "editorial",
       "label": "16:48 ADMIN ACCESS",
       "label_box": [
         0.492,
@@ -79,6 +81,7 @@
         0.003
       ],
       "color": "steel",
+      "font": "editorial",
       "label": "OPENAI ACCOUNT — NOT IN METR'S REVIEW",
       "label_box": [
         0.05,

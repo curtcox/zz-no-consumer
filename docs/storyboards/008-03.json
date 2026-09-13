@@ -24,6 +24,7 @@
       ],
       "color": "steel",
       "focus": true,
+      "font": "editorial",
       "label": "V8SAME",
       "label_box": [
         0.0541,
@@ -43,6 +44,7 @@
       ],
       "color": "steel",
       "focus": true,
+      "font": "editorial",
       "label": "OWN TASK",
       "label_box": [
         0.1087,
@@ -62,6 +64,7 @@
       ],
       "color": "steel",
       "focus": true,
+      "font": "editorial",
       "label": "HYPOTHESIS",
       "label_box": [
         0.3999,
@@ -81,6 +84,7 @@
       ],
       "color": "steel",
       "focus": true,
+      "font": "editorial",
       "label": "RESULT PAIR",
       "label_box": [
         0.6911,

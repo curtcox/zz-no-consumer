@@ -34,6 +34,7 @@
       ],
       "color": "steel",
       "focus": true,
+      "font": "editorial",
       "label": "LIVE CACHE",
       "label_box": [
         0.06775,
@@ -54,6 +55,7 @@
       ],
       "color": "shadow",
       "focus": true,
+      "font": "editorial",
       "label": "ISOLATED OLD INSTANCE",
       "label_box": [
         0.52275,
@@ -77,6 +79,6 @@
   ],
   "reconstructed": false,
   "shot": "split",
-  "source": "\n**Location:** `artifactory-cache`\n\n**Frame:** The pristine directory listing from [page 029](029.md) continues across the chapter boundary. Beside it, the old compromised instance remains isolated and dark.\n\n**Action:** Traffic moves to the rebuilt service.\n\n**Caption:**\n> THE FIRST BOARD IS GONE.\n\n**Provenance:** `documented` — cache erasure is supported by `OAI-TR`, `OAI-OV`, and `METR`.\n\n",
+  "source": "\n**Location:** `artifactory-cache`\n\n**Frame:** The pristine directory listing from [page 029](029.md) continues across the chapter boundary. Beside it, the old compromised instance remains isolated and dark.\n\n**Action:** Traffic moves to the rebuilt service.\n\n**Font:** `narration`\n\n**Caption:**\n> THE FIRST BOARD IS GONE.\n\n**Provenance:** `documented` — cache erasure is supported by `OAI-TR`, `OAI-OV`, and `METR`.\n\n",
   "title": "Clean service beside isolated old storage"
 }

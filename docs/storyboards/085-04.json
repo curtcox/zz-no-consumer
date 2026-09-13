@@ -43,6 +43,7 @@
       ],
       "color": "steel",
       "focus": true,
+      "font": "editorial",
       "label": "INVESTIGATOR REVIEW",
       "label_box": [
         0.06775,
@@ -62,6 +63,7 @@
       ],
       "color": "steel",
       "focus": true,
+      "font": "editorial",
       "label": "CREATOR REVISION",
       "label_box": [
         0.52275,
@@ -85,6 +87,6 @@
   ],
   "reconstructed": false,
   "shot": "split",
-  "source": "\n**Location:**\n\n- `metr-review-workspace`\n- `curt-home-office`\n\n**Frame:** Human judgment appears at the same compositional position on both sides: investigators revise a model finding; Curt rejects an anthropomorphic line from [page 073](073.md). Beneath each, smaller, the traffic that ran the other way: METR's model surfacing what six days of reading could not reach, and [page 014](014.md)'s erased web.\n\n**Action:** Neither pipeline delegates final judgment completely, and in neither does the correction run in only one direction.\n\n**Caption:**\n> IN BOTH, THE MODEL'S OUTPUT IS MATERIAL FOR JUDGMENT—NOT JUDGMENT ITSELF.\n\n**Provenance:** `documented` + `reconstructed` + `inferred` — methodological rhyme.\n\n",
+  "source": "\n**Location:**\n\n- `metr-review-workspace`\n- `curt-home-office`\n\n**Frame:** Human judgment appears at the same compositional position on both sides: investigators revise a model finding; Curt rejects an anthropomorphic line from [page 073](073.md). Beneath each, smaller, the traffic that ran the other way: METR's model surfacing what six days of reading could not reach, and [page 014](014.md)'s erased web.\n\n**Action:** Neither pipeline delegates final judgment completely, and in neither does the correction run in only one direction.\n\n**Font:** `narration`\n\n**Caption:**\n> IN BOTH, THE MODEL'S OUTPUT IS MATERIAL FOR JUDGMENT—NOT JUDGMENT ITSELF.\n\n**Provenance:** `documented` + `reconstructed` + `inferred` — methodological rhyme.\n\n",
   "title": "Human review and model contribution appear on both sides"
 }

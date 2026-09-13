@@ -33,6 +33,7 @@
       ],
       "color": "institution",
       "focus": true,
+      "font": "editorial",
       "label": "WORKSTREAM",
       "label_box": [
         0.20679999999999998,
@@ -44,6 +45,6 @@
   ],
   "reconstructed": false,
   "shot": "hero",
-  "source": "\n**Location:** `artifactory-cache`\n\n**Frame:** A new board lane receives an editorial workstream label in machine lettering.\n\n**Screen / system text:**\n`RESET OBSERVATION WORKSTREAM`\n\n**Action:** Observation becomes a named shared workstream.\n\n**Provenance:** `source-paraphrase` — summarizes the named workstream reported by `METR`.\n\n",
+  "source": "\n**Location:** `artifactory-cache`\n\n**Frame:** A new board lane receives an editorial workstream label in the editorial face.\n\n**Font:** `editorial`\n\n**Screen / system text:**\n`RESET OBSERVATION WORKSTREAM`\n\n**Action:** Observation becomes a named shared workstream.\n\n**Provenance:** `source-paraphrase` — summarizes the named workstream reported by `METR`.\n\n",
   "title": "A new board workstream receives a label"
 }

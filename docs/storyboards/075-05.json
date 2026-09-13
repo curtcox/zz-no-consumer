@@ -66,6 +66,7 @@
       ],
       "color": "steel",
       "focus": true,
+      "font": "editorial",
       "label": "SIX DAYS",
       "label_box": [
         0.75025,
@@ -78,6 +79,6 @@
   ],
   "reconstructed": true,
   "shot": "row",
-  "source": "\n**Location:** `metr-review-workspace`\n\n**Frame:** Three human investigators stand before the evidence field. A six-day on-premises clock occupies one corner.\n\n**Action:** Manual reading time is set against corpus size.\n\n**Caption:**\n> THE AVAILABLE HUMAN REVIEW WINDOW IS SIX DAYS.\n\n**Provenance:** `documented` + `compressed` — METR and Redwood report six on-premises days across three visits.\n\n",
+  "source": "\n**Location:** `metr-review-workspace`\n\n**Frame:** Three human investigators stand before the evidence field. A six-day on-premises clock occupies one corner.\n\n**Action:** Manual reading time is set against corpus size.\n\n**Font:** `narration`\n\n**Caption:**\n> THE AVAILABLE HUMAN REVIEW WINDOW IS SIX DAYS.\n\n**Provenance:** `documented` + `compressed` — METR and Redwood report six on-premises days across three visits.\n\n",
   "title": "Three investigators face a six-day clock"
 }

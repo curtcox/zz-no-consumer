@@ -42,6 +42,7 @@
       ],
       "color": "steel",
       "focus": true,
+      "font": "editorial",
       "label": "PRESERVED STORAGE",
       "label_box": [
         0.06775,
@@ -62,6 +63,7 @@
       ],
       "color": "steel",
       "focus": true,
+      "font": "editorial",
       "label": "CLEAN INSTANCE",
       "label_box": [
         0.52275,
@@ -85,6 +87,6 @@
   ],
   "reconstructed": false,
   "shot": "split",
-  "source": "\n**Location:** `artifactory-cache`\n\n**Frame:** Tall before/after panel. A clean Artifactory instance rises beside the isolated old one. As the timestamp locks, the former note field from pages [019](019.md)–[021](021.md) drops away; no cache contents cross the wide internal gutter. The preserved-storage seal remains visible elsewhere.\n\n**Action:** Service is rebuilt rather than restored from the compromised cache state. The reset erases the board without implying all stored evidence was destroyed.\n\n**Screen / system text:**\n`6 JULY 2026 — 01:16 UTC`\n\n**Caption:**\n> THE STORAGE SURVIVES FOR INVESTIGATION.\n>\n> THE CACHE DOES NOT SURVIVE THE REBUILD.\n\n**Provenance:** `documented` + `compressed` — rebuilt-instance timestamp from `OAI-TR` §X; `OAI-TR`, `OAI-OV`, and `METR` support preserved storage and erased cache state.\n\n",
+  "source": "\n**Location:** `artifactory-cache`\n\n**Frame:** Tall before/after panel. A clean Artifactory instance rises beside the isolated old one. As the timestamp locks, the former note field from pages [019](019.md)–[021](021.md) drops away; no cache contents cross the wide internal gutter. The preserved-storage seal remains visible elsewhere.\n\n**Action:** Service is rebuilt rather than restored from the compromised cache state. The reset erases the board without implying all stored evidence was destroyed.\n\n**Font:** `editorial`\n\n**Screen / system text:**\n`6 JULY 2026 — 01:16 UTC`\n\n**Font:** `narration`\n\n**Caption:**\n> THE STORAGE SURVIVES FOR INVESTIGATION.\n>\n> THE CACHE DOES NOT SURVIVE THE REBUILD.\n\n**Provenance:** `documented` + `compressed` — rebuilt-instance timestamp from `OAI-TR` §X; `OAI-TR`, `OAI-OV`, and `METR` support preserved storage and erased cache state.\n\n",
   "title": "A rebuilt service receives no old cache contents"
 }

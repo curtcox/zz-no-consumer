@@ -52,6 +52,7 @@
         ],
         &quot;color&quot;: &quot;steel&quot;,
         &quot;focus&quot;: true,
+        &quot;font&quot;: &quot;editorial&quot;,
         &quot;label&quot;: &quot;PUBLISH = DANGER&quot;,
         &quot;label_box&quot;: [
           0.06775,
@@ -82,6 +83,7 @@
         ],
         &quot;color&quot;: &quot;steel&quot;,
         &quot;focus&quot;: true,
+        &quot;font&quot;: &quot;editorial&quot;,
         &quot;label&quot;: &quot;SILENCE = SAFETY&quot;,
         &quot;label_box&quot;: [
           0.674417,
@@ -94,8 +96,8 @@
     ],
     &quot;reconstructed&quot;: false,
     &quot;shot&quot;: &quot;row&quot;,
-    &quot;source&quot;: &quot;\n**Location:** `curt-home-office`\n\n**Frame:** A false balance labeled `PUBLISH = DANGER / SILENCE = SAFETY` cracks through the center.\n\n**Dialogue — CURT:**\n&gt; Silence can protect a system. It can also protect the institution that failed.\n\n**Provenance:** `reconstructed` + `inferred` — accountability argument.\n\n&quot;,
+    &quot;source&quot;: &quot;\n**Location:** `curt-home-office`\n\n**Frame:** A false balance labeled `PUBLISH = DANGER / SILENCE = SAFETY` cracks through the center.\n\n**Font:** `human`\n\n**Dialogue — CURT:**\n&gt; Silence can protect a system. It can also protect the institution that failed.\n\n**Provenance:** `reconstructed` + `inferred` — accountability argument.\n\n&quot;,
     &quot;title&quot;: &quot;The false publish-versus-silence balance breaks&quot;
   }
 }
-</metadata><rect width="1200" height="800" fill="#101214"/><rect x="24" y="16" width="1152" height="768" fill="none" stroke="#5E737B" stroke-width="3"/><text x="32" y="40" fill="#5E737B" font-family="sans-serif" font-size="20">location-background-curt-home-office</text><rect x="81.3" y="160.96" width="287.56" height="221.179" fill="none" stroke="#5E737B" stroke-width="3"/><text x="89.3" y="184.96" fill="#5E737B" font-family="sans-serif" font-size="20">card</text><text x="225.08" y="413.544" text-anchor="middle" fill="#E7E0D0" font-size="18" font-family="sans-serif">PUBLISH = DANGER</text><rect x="445.3" y="184.74" width="287.56" height="287.559" fill="none" stroke="#A17D45" stroke-width="3"/><text x="453.3" y="208.74" fill="#A17D45" font-family="sans-serif" font-size="20">cross</text><rect x="809.3" y="160.96" width="287.56" height="221.179" fill="none" stroke="#5E737B" stroke-width="3"/><text x="817.3" y="184.96" fill="#5E737B" font-family="sans-serif" font-size="20">card</text><text x="953.08" y="413.544" text-anchor="middle" fill="#E7E0D0" font-size="18" font-family="sans-serif">SILENCE = SAFETY</text><rect x="3" y="3" width="1194" height="794" fill="none" stroke="#5E737B" stroke-width="4"/></svg>
+</metadata><rect width="1200" height="800" fill="#101214"/><rect x="24" y="16" width="1152" height="768" fill="none" stroke="#5E737B" stroke-width="3"/><text x="32" y="40" fill="#5E737B" font-family="sans-serif" font-size="20">location-background-curt-home-office</text><rect x="81.3" y="160.96" width="287.56" height="221.179" fill="none" stroke="#5E737B" stroke-width="3"/><text x="89.3" y="184.96" fill="#5E737B" font-family="sans-serif" font-size="20">card</text><text x="225.08" y="413.544" text-anchor="middle" fill="#E7E0D0" font-size="18" font-family="Arial, Helvetica, sans-serif" data-font-key="editorial" font-weight="700" font-style="normal" textLength="174.55" lengthAdjust="spacingAndGlyphs">PUBLISH = DANGER</text><rect x="445.3" y="184.74" width="287.56" height="287.559" fill="none" stroke="#A17D45" stroke-width="3"/><text x="453.3" y="208.74" fill="#A17D45" font-family="sans-serif" font-size="20">cross</text><rect x="809.3" y="160.96" width="287.56" height="221.179" fill="none" stroke="#5E737B" stroke-width="3"/><text x="817.3" y="184.96" fill="#5E737B" font-family="sans-serif" font-size="20">card</text><text x="953.08" y="413.544" text-anchor="middle" fill="#E7E0D0" font-size="18" font-family="Arial, Helvetica, sans-serif" data-font-key="editorial" font-weight="700" font-style="normal" textLength="167.56" lengthAdjust="spacingAndGlyphs">SILENCE = SAFETY</text><rect x="3" y="3" width="1194" height="794" fill="none" stroke="#5E737B" stroke-width="4"/></svg>

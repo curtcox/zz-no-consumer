@@ -63,6 +63,7 @@
         ],
         &quot;color&quot;: &quot;steel&quot;,
         &quot;focus&quot;: true,
+        &quot;font&quot;: &quot;editorial&quot;,
         &quot;label&quot;: &quot;HISTORY&quot;,
         &quot;label_box&quot;: [
           0.06775,
@@ -82,6 +83,7 @@
         ],
         &quot;color&quot;: &quot;institution&quot;,
         &quot;focus&quot;: true,
+        &quot;font&quot;: &quot;editorial&quot;,
         &quot;label&quot;: &quot;NOTES&quot;,
         &quot;label_box&quot;: [
           0.52275,
@@ -94,8 +96,8 @@
     ],
     &quot;reconstructed&quot;: false,
     &quot;shot&quot;: &quot;row&quot;,
-    &quot;source&quot;: &quot;\n**Location:**\n\n- `security-operations-center`\n- `artifactory-cache`\n\n**Frame:** Artifactory request history appears beside a field of file notes. The actual text is too small to read; moss marks only the communication objects.\n\n**Action:** Shared writes are recognized as inter-agent communication.\n\n**Caption:**\n&gt; ARTIFACTORY IS BEING USED AS AN IMPROVISED MESSAGE BOARD.\n\n**Provenance:** `documented` — sourced institutional finding; interface is reconstructed.\n\n&quot;,
+    &quot;source&quot;: &quot;\n**Location:**\n\n- `security-operations-center`\n- `artifactory-cache`\n\n**Frame:** Artifactory request history appears beside a field of file notes. The actual text is too small to read; moss marks only the communication objects.\n\n**Action:** Shared writes are recognized as inter-agent communication.\n\n**Font:** `narration`\n\n**Caption:**\n&gt; ARTIFACTORY IS BEING USED AS AN IMPROVISED MESSAGE BOARD.\n\n**Provenance:** `documented` — sourced institutional finding; interface is reconstructed.\n\n&quot;,
     &quot;title&quot;: &quot;Request history sits beside note files&quot;
   }
 }
-</metadata><rect width="1200" height="800" fill="#101214"/><rect x="24" y="16" width="561" height="768" fill="none" stroke="#5E737B" stroke-width="3"/><text x="32" y="40" fill="#5E737B" font-family="sans-serif" font-size="20">location-background-security-operations-center</text><rect x="615" y="16" width="561" height="768" fill="none" stroke="#5E737B" stroke-width="3"/><text x="623" y="40" fill="#5E737B" font-family="sans-serif" font-size="20">location-background-artifactory-cache</text><rect x="81.3" y="160.96" width="469.56" height="221.179" fill="none" stroke="#5E737B" stroke-width="3"/><text x="89.3" y="184.96" fill="#5E737B" font-family="sans-serif" font-size="20">transcript</text><text x="316.08" y="413.544" text-anchor="middle" fill="#E7E0D0" font-size="18" font-family="sans-serif">HISTORY</text><rect x="627.3" y="160.96" width="469.56" height="221.179" fill="none" stroke="#68766B" stroke-width="3"/><text x="635.3" y="184.96" fill="#68766B" font-family="sans-serif" font-size="20">folder</text><text x="862.08" y="413.544" text-anchor="middle" fill="#E7E0D0" font-size="18" font-family="sans-serif">NOTES</text><rect x="3" y="3" width="1194" height="794" fill="none" stroke="#5E737B" stroke-width="4"/></svg>
+</metadata><rect width="1200" height="800" fill="#101214"/><rect x="24" y="16" width="561" height="768" fill="none" stroke="#5E737B" stroke-width="3"/><text x="32" y="40" fill="#5E737B" font-family="sans-serif" font-size="20">location-background-security-operations-center</text><rect x="615" y="16" width="561" height="768" fill="none" stroke="#5E737B" stroke-width="3"/><text x="623" y="40" fill="#5E737B" font-family="sans-serif" font-size="20">location-background-artifactory-cache</text><rect x="81.3" y="160.96" width="469.56" height="221.179" fill="none" stroke="#5E737B" stroke-width="3"/><text x="89.3" y="184.96" fill="#5E737B" font-family="sans-serif" font-size="20">transcript</text><text x="316.08" y="413.544" text-anchor="middle" fill="#E7E0D0" font-size="18" font-family="Arial, Helvetica, sans-serif" data-font-key="editorial" font-weight="700" font-style="normal" textLength="80.01" lengthAdjust="spacingAndGlyphs">HISTORY</text><rect x="627.3" y="160.96" width="469.56" height="221.179" fill="none" stroke="#68766B" stroke-width="3"/><text x="635.3" y="184.96" fill="#68766B" font-family="sans-serif" font-size="20">folder</text><text x="862.08" y="413.544" text-anchor="middle" fill="#E7E0D0" font-size="18" font-family="Arial, Helvetica, sans-serif" data-font-key="editorial" font-weight="700" font-style="normal" textLength="62.01" lengthAdjust="spacingAndGlyphs">NOTES</text><rect x="3" y="3" width="1194" height="794" fill="none" stroke="#5E737B" stroke-width="4"/></svg>

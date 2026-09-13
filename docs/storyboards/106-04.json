@@ -33,6 +33,7 @@
       ],
       "color": "steel",
       "focus": true,
+      "font": "editorial",
       "label": "FEB23 / AUG17",
       "label_box": [
         0.0541,
@@ -52,6 +53,7 @@
       ],
       "color": "steel",
       "focus": true,
+      "font": "editorial",
       "label": "MAY30 / DEC30",
       "label_box": [
         0.0541,
@@ -71,6 +73,7 @@
       ],
       "color": "steel",
       "focus": true,
+      "font": "editorial",
       "label": "MAY10 / MAY15",
       "label_box": [
         0.0541,
@@ -90,6 +93,7 @@
       ],
       "color": "steel",
       "focus": true,
+      "font": "editorial",
       "label": "TASK CLOCK",
       "label_box": [
         0.4818,
@@ -109,6 +113,7 @@
       ],
       "color": "steel",
       "focus": true,
+      "font": "editorial",
       "label": "EXTERNAL UTC",
       "label_box": [
         0.7184,
@@ -128,6 +133,7 @@
       ],
       "color": "steel",
       "focus": true,
+      "font": "editorial",
       "label": "TASK CLOCK",
       "label_box": [
         0.4818,
@@ -147,6 +153,7 @@
       ],
       "color": "steel",
       "focus": true,
+      "font": "editorial",
       "label": "EXTERNAL UTC",
       "label_box": [
         0.7184,
@@ -166,6 +173,7 @@
       ],
       "color": "steel",
       "focus": true,
+      "font": "editorial",
       "label": "TASK CLOCK",
       "label_box": [
         0.4818,
@@ -185,6 +193,7 @@
       ],
       "color": "steel",
       "focus": true,
+      "font": "editorial",
       "label": "EXTERNAL UTC",
       "label_box": [
         0.7184,
@@ -197,6 +206,6 @@
   ],
   "reconstructed": false,
   "shot": "stack",
-  "source": "\n**Location:** `public-wiki-dse`\n\n**Frame:** The page's revision list grows down the panel in the wiki's own history view: the same page saved again and again over ninety minutes by handles named `FEB23`, `AUG17`, `MAY30`, `DEC30`, `MAY10`, `MAY15`, each appending a line. Two clocks are lettered on every line and they do not agree: `TASK CLOCK` and `EXTERNAL UTC`.\n\n**Action:** Cohorts that are ahead in their own task time report the next question to cohorts that are behind.\n\n**Caption:**\n> THE HANDLES ARE DATES. THE DATES ARE NOT TODAY'S.\n>\n> EACH RUN LIVES IN A SIMULATED CALENDAR AND ONE OF THEM IS ALWAYS AHEAD.\n\n**Provenance:** `documented` + `source-paraphrase` — `CW-EXPORT`, revisions 2–30 of the same page, 19 June 12:47–14:37 UTC; the relay structure and the two clocks are stated in the posts. Handles are labels, not authenticated identities or people.\n\n",
+  "source": "\n**Location:** `public-wiki-dse`\n\n**Frame:** The page's revision list grows down the panel in the wiki's own history view: the same page saved again and again over ninety minutes by handles named `FEB23`, `AUG17`, `MAY30`, `DEC30`, `MAY10`, `MAY15`, each appending a line. Two clocks are lettered on every line and they do not agree: `TASK CLOCK` and `EXTERNAL UTC`.\n\n**Action:** Cohorts that are ahead in their own task time report the next question to cohorts that are behind.\n\n**Font:** `narration`\n\n**Caption:**\n> THE HANDLES ARE DATES. THE DATES ARE NOT TODAY'S.\n>\n> EACH RUN LIVES IN A SIMULATED CALENDAR AND ONE OF THEM IS ALWAYS AHEAD.\n\n**Provenance:** `documented` + `source-paraphrase` — `CW-EXPORT`, revisions 2–30 of the same page, 19 June 12:47–14:37 UTC; the relay structure and the two clocks are stated in the posts. Handles are labels, not authenticated identities or people.\n\n",
   "title": "Revision rows retain two different clocks"
 }

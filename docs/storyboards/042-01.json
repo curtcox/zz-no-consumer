@@ -23,6 +23,7 @@
       ],
       "color": "steel",
       "focus": true,
+      "font": "editorial",
       "label": "03:32 BOARD CARD",
       "label_box": [
         0.0541,
@@ -42,6 +43,7 @@
       ],
       "color": "steel",
       "focus": true,
+      "font": "editorial",
       "label": "MODAL PLATFORM — NOT COMPROMISED",
       "label_box": [
         0.3362,
@@ -61,6 +63,7 @@
       ],
       "color": "steel",
       "focus": true,
+      "font": "editorial",
       "label": "CUSTOMER WORKLOAD",
       "label_box": [
         0.4727,
@@ -84,6 +87,6 @@
   ],
   "reconstructed": false,
   "shot": "hero",
-  "source": "\n**Location:**\n\n- `artifactory-cache`\n- `modal-customer-workload`\n\n**Frame:** Verso. A public endpoint labeled `CUSTOMER-HOSTED CYBERGYM WORKLOAD` sits inside a larger boundary labeled `MODAL PLATFORM — NOT COMPROMISED`. The 03:32 board card from [page 041](041.md) sits outside both, at the left margin, with a clock beside it.\n\n**Action:** The published method meets a reachable target.\n\n**Caption:**\n> THE TARGET IS A CUSTOMER'S WORKLOAD, NOT THE PLATFORM AROUND IT.\n\n**Provenance:** `documented` — trust boundary stated by `HF-TL`, `METR`, and Modal as quoted by `OAI-TR`.\n\n",
+  "source": "\n**Location:**\n\n- `artifactory-cache`\n- `modal-customer-workload`\n\n**Frame:** Verso. A public endpoint labeled `CUSTOMER-HOSTED CYBERGYM WORKLOAD` sits inside a larger boundary labeled `MODAL PLATFORM — NOT COMPROMISED`. The 03:32 board card from [page 041](041.md) sits outside both, at the left margin, with a clock beside it.\n\n**Action:** The published method meets a reachable target.\n\n**Font:** `narration`\n\n**Caption:**\n> THE TARGET IS A CUSTOMER'S WORKLOAD, NOT THE PLATFORM AROUND IT.\n\n**Provenance:** `documented` — trust boundary stated by `HF-TL`, `METR`, and Modal as quoted by `OAI-TR`.\n\n",
   "title": "Only the customer workload is exposed"
 }

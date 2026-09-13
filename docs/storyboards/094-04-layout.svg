@@ -41,6 +41,7 @@
         ],
         &quot;color&quot;: &quot;steel&quot;,
         &quot;focus&quot;: true,
+        &quot;font&quot;: &quot;editorial&quot;,
         &quot;label&quot;: &quot;PUBLIC LETTER&quot;,
         &quot;label_box&quot;: [
           0.06775,
@@ -60,6 +61,7 @@
         ],
         &quot;color&quot;: &quot;steel&quot;,
         &quot;focus&quot;: true,
+        &quot;font&quot;: &quot;editorial&quot;,
         &quot;label&quot;: &quot;ORGANIZATIONS&quot;,
         &quot;label_box&quot;: [
           0.29525,
@@ -79,6 +81,7 @@
         ],
         &quot;color&quot;: &quot;steel&quot;,
         &quot;focus&quot;: true,
+        &quot;font&quot;: &quot;editorial&quot;,
         &quot;label&quot;: &quot;GOVERNMENTS&quot;,
         &quot;label_box&quot;: [
           0.52275,
@@ -98,6 +101,7 @@
         ],
         &quot;color&quot;: &quot;steel&quot;,
         &quot;focus&quot;: true,
+        &quot;font&quot;: &quot;editorial&quot;,
         &quot;label&quot;: &quot;LABORATORIES&quot;,
         &quot;label_box&quot;: [
           0.75025,
@@ -110,8 +114,8 @@
     ],
     &quot;reconstructed&quot;: false,
     &quot;shot&quot;: &quot;row&quot;,
-    &quot;source&quot;: &quot;\n**Location:** `public-record`\n\n**Frame:** A separate public letter branches into organizations, security companies, governments, and frontier labs.\n\n**Caption:**\n&gt; OPENAI AND OTHER SIGNATORIES CALL FOR DEFENSIVE ACCESS AND A COORDINATED RESPONSE.\n\n**Provenance:** `documented` — public collective-cyber-defense letter.\n\n&quot;,
+    &quot;source&quot;: &quot;\n**Location:** `public-record`\n\n**Frame:** A separate public letter branches into organizations, security companies, governments, and frontier labs.\n\n**Font:** `narration`\n\n**Caption:**\n&gt; OPENAI AND OTHER SIGNATORIES CALL FOR DEFENSIVE ACCESS AND A COORDINATED RESPONSE.\n\n**Provenance:** `documented` — public collective-cyber-defense letter.\n\n&quot;,
     &quot;title&quot;: &quot;A separate public letter reaches several constituencies&quot;
   }
 }
-</metadata><rect width="1200" height="800" fill="#101214"/><rect x="81.3" y="160.96" width="196.56" height="221.179" fill="none" stroke="#5E737B" stroke-width="3"/><text x="89.3" y="184.96" fill="#5E737B" font-family="sans-serif" font-size="20">paper</text><text x="179.58" y="413.544" text-anchor="middle" fill="#E7E0D0" font-size="18" font-family="sans-serif">PUBLIC LETTER</text><rect x="354.3" y="160.96" width="196.56" height="221.179" fill="none" stroke="#5E737B" stroke-width="3"/><text x="362.3" y="184.96" fill="#5E737B" font-family="sans-serif" font-size="20">building</text><text x="452.58" y="413.544" text-anchor="middle" fill="#E7E0D0" font-size="18" font-family="sans-serif">ORGANIZATIONS</text><rect x="627.3" y="160.96" width="196.56" height="221.179" fill="none" stroke="#5E737B" stroke-width="3"/><text x="635.3" y="184.96" fill="#5E737B" font-family="sans-serif" font-size="20">building</text><text x="725.58" y="413.544" text-anchor="middle" fill="#E7E0D0" font-size="18" font-family="sans-serif">GOVERNMENTS</text><rect x="900.3" y="160.96" width="196.56" height="221.179" fill="none" stroke="#5E737B" stroke-width="3"/><text x="908.3" y="184.96" fill="#5E737B" font-family="sans-serif" font-size="20">building</text><text x="998.58" y="413.544" text-anchor="middle" fill="#E7E0D0" font-size="18" font-family="sans-serif">LABORATORIES</text><rect x="3" y="3" width="1194" height="794" fill="none" stroke="#5E737B" stroke-width="4"/></svg>
+</metadata><rect width="1200" height="800" fill="#101214"/><rect x="81.3" y="160.96" width="196.56" height="221.179" fill="none" stroke="#5E737B" stroke-width="3"/><text x="89.3" y="184.96" fill="#5E737B" font-family="sans-serif" font-size="20">paper</text><text x="179.58" y="413.544" text-anchor="middle" fill="#E7E0D0" font-size="18" font-family="Arial, Helvetica, sans-serif" data-font-key="editorial" font-weight="700" font-style="normal" textLength="139.03" lengthAdjust="spacingAndGlyphs">PUBLIC LETTER</text><rect x="354.3" y="160.96" width="196.56" height="221.179" fill="none" stroke="#5E737B" stroke-width="3"/><text x="362.3" y="184.96" fill="#5E737B" font-family="sans-serif" font-size="20">building</text><text x="452.58" y="413.544" text-anchor="middle" fill="#E7E0D0" font-size="18" font-family="Arial, Helvetica, sans-serif" data-font-key="editorial" font-weight="700" font-style="normal" textLength="149.02" lengthAdjust="spacingAndGlyphs">ORGANIZATIONS</text><rect x="627.3" y="160.96" width="196.56" height="221.179" fill="none" stroke="#5E737B" stroke-width="3"/><text x="635.3" y="184.96" fill="#5E737B" font-family="sans-serif" font-size="20">building</text><text x="725.58" y="413.544" text-anchor="middle" fill="#E7E0D0" font-size="18" font-family="Arial, Helvetica, sans-serif" data-font-key="editorial" font-weight="700" font-style="normal" textLength="141.01" lengthAdjust="spacingAndGlyphs">GOVERNMENTS</text><rect x="900.3" y="160.96" width="196.56" height="221.179" fill="none" stroke="#5E737B" stroke-width="3"/><text x="908.3" y="184.96" fill="#5E737B" font-family="sans-serif" font-size="20">building</text><text x="998.58" y="413.544" text-anchor="middle" fill="#E7E0D0" font-size="18" font-family="Arial, Helvetica, sans-serif" data-font-key="editorial" font-weight="700" font-style="normal" textLength="140.04" lengthAdjust="spacingAndGlyphs">LABORATORIES</text><rect x="3" y="3" width="1194" height="794" fill="none" stroke="#5E737B" stroke-width="4"/></svg>

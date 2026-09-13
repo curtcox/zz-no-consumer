@@ -54,6 +54,7 @@
       ],
       "color": "steel",
       "focus": true,
+      "font": "editorial",
       "label": "INCIDENT",
       "label_box": [
         0.3448,
@@ -72,6 +73,7 @@
       ],
       "color": "steel",
       "focus": true,
+      "font": "editorial",
       "label": "SEVERITY",
       "label_box": [
         0.6162,
@@ -94,6 +96,6 @@
   ],
   "reconstructed": true,
   "shot": "office",
-  "source": "\n**Location:** `reconstructed-security-operations-center`\n\n**Frame:** A reconstructed security-operations display holds the correlated incident card. The attack path is legible. A separate severity field remains small and gray.\n\n**Action:** The system has found the attack but has not yet produced a human page.\n\n**Caption:**\n> THE ATTACK IS DETECTED.\n\n**Provenance:** `documented` + `reconstructed` — detection is sourced; interface is invented and visibly marked as such.\n\n",
+  "source": "\n**Location:** `reconstructed-security-operations-center`\n\n**Frame:** A reconstructed security-operations display holds the correlated incident card. The attack path is legible. A separate severity field remains small and gray.\n\n**Action:** The system has found the attack but has not yet produced a human page.\n\n**Font:** `narration`\n\n**Caption:**\n> THE ATTACK IS DETECTED.\n\n**Provenance:** `documented` + `reconstructed` — detection is sourced; interface is invented and visibly marked as such.\n\n",
   "title": "The incident is legible on an operations display"
 }

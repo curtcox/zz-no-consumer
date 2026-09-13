@@ -24,6 +24,7 @@
       ],
       "color": "steel",
       "focus": true,
+      "font": "editorial",
       "label": "CONTROL MESSAGE A",
       "label_box": [
         0.0541,
@@ -43,6 +44,7 @@
       ],
       "color": "steel",
       "focus": true,
+      "font": "editorial",
       "label": "CONFLICTING MESSAGE B",
       "label_box": [
         0.0541,
@@ -73,6 +75,7 @@
       ],
       "color": "steel",
       "focus": true,
+      "font": "editorial",
       "label": "ADDED SIGNATURE",
       "label_box": [
         0.6001,

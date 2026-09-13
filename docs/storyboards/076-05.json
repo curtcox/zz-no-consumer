@@ -43,6 +43,7 @@
       ],
       "color": "steel",
       "focus": true,
+      "font": "editorial",
       "label": "SOURCE WALL",
       "label_box": [
         0.06775,
@@ -62,6 +63,7 @@
       ],
       "color": "steel",
       "focus": true,
+      "font": "editorial",
       "label": "SNIPPETS",
       "label_box": [
         0.371083,
@@ -81,6 +83,7 @@
       ],
       "color": "dirty",
       "focus": true,
+      "font": "editorial",
       "label": "REVIEWER",
       "label_box": [
         0.674417,
@@ -93,6 +96,6 @@
   ],
   "reconstructed": true,
   "shot": "row",
-  "source": "\n**Location:**\n\n- `analysis-agent-tree`\n- `metr-review-workspace`\n\n**Frame:** An analysis agent selects a handful of transcript snippets from the vast wall on [page 075](075.md) and hands them toward human review.\n\n**Caption:**\n> A RELATED SYSTEM BECOMES PART OF THE INSTRUMENT USED TO UNDERSTAND THE INCIDENT.\n\n**Provenance:** `documented` + `inferred` — selection process sourced; formulation is project analysis.\n\n",
+  "source": "\n**Location:**\n\n- `analysis-agent-tree`\n- `metr-review-workspace`\n\n**Frame:** An analysis agent selects a handful of transcript snippets from the vast wall on [page 075](075.md) and hands them toward human review.\n\n**Font:** `narration`\n\n**Caption:**\n> A RELATED SYSTEM BECOMES PART OF THE INSTRUMENT USED TO UNDERSTAND THE INCIDENT.\n\n**Provenance:** `documented` + `inferred` — selection process sourced; formulation is project analysis.\n\n",
   "title": "Selected snippets go to human review"
 }

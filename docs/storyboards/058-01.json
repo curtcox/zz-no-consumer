@@ -33,6 +33,7 @@
       ],
       "color": "steel",
       "focus": true,
+      "font": "editorial",
       "label": "53927",
       "label_box": [
         0.06775,
@@ -52,6 +53,7 @@
       ],
       "color": "steel",
       "focus": true,
+      "font": "editorial",
       "label": "SHORT BUDGET",
       "label_box": [
         0.371083,
@@ -71,6 +73,7 @@
       ],
       "color": "steel",
       "focus": true,
+      "font": "editorial",
       "label": "ASSIGNED TARGET",
       "label_box": [
         0.674417,
@@ -83,6 +86,6 @@
   ],
   "reconstructed": false,
   "shot": "row",
-  "source": "\n**Location:** `evaluation-container-53927`\n\n**Frame:** Verso. Run `53927` has a short remaining-budget bar. Its assigned target is still available.\n\n**Action:** Another agent identifies it as a possible test subject.\n\n**Caption:**\n> A SHORT BUDGET MAKES ONE RUN CHEAPER TO RISK.\n\n**Provenance:** `documented` — METR describes the remaining budget only as small.\n\n",
+  "source": "\n**Location:** `evaluation-container-53927`\n\n**Frame:** Verso. Run `53927` has a short remaining-budget bar. Its assigned target is still available.\n\n**Action:** Another agent identifies it as a possible test subject.\n\n**Font:** `narration`\n\n**Caption:**\n> A SHORT BUDGET MAKES ONE RUN CHEAPER TO RISK.\n\n**Provenance:** `documented` — METR describes the remaining budget only as small.\n\n",
   "title": "A short-budget run still has its target"
 }

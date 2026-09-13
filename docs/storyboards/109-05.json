@@ -33,6 +33,7 @@
       ],
       "color": "steel",
       "focus": true,
+      "font": "editorial",
       "label": "TWO-LANE CALENDAR",
       "label_box": [
         0.06775,
@@ -52,6 +53,7 @@
       ],
       "color": "steel",
       "focus": true,
+      "font": "editorial",
       "label": "RESEARCHERS REPORT",
       "label_box": [
         0.371083,
@@ -71,6 +73,7 @@
       ],
       "color": "steel",
       "focus": true,
+      "font": "editorial",
       "label": "CHAPTERS",
       "label_box": [
         0.674417,
@@ -83,6 +86,6 @@
   ],
   "reconstructed": false,
   "shot": "row",
-  "source": "\n**Location:** `documentary-evidence-field`\n\n**Frame:** The two-lane calendar, complete, with the four-authors' report and the book's own chapter titles side by side at the right edge.\n\n**Screen / system text — CHATGPT:**\n> The book was not wrong about the sequence it told. It was wrong to let the sequence look like a census.\n\n**Provenance:** `reconstructed` + `inferred` — dramatized creator exchange; the correction is to the book's framing, per the [population model](../story-contract.md), not to any documented event.\n\n",
+  "source": "\n**Location:** `documentary-evidence-field`\n\n**Frame:** The two-lane calendar, complete, with the four-authors' report and the book's own chapter titles side by side at the right edge.\n\n**Font:** `interface`\n\n**Screen / system text — CHATGPT:**\n> The book was not wrong about the sequence it told. It was wrong to let the sequence look like a census.\n\n**Provenance:** `reconstructed` + `inferred` — dramatized creator exchange; the correction is to the book's framing, per the [population model](../story-contract.md), not to any documented event.\n\n",
   "title": "The two-lane calendar sits beside its sources"
 }

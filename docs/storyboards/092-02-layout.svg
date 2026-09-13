@@ -53,6 +53,7 @@
         ],
         &quot;color&quot;: &quot;steel&quot;,
         &quot;focus&quot;: true,
+        &quot;font&quot;: &quot;editorial&quot;,
         &quot;label&quot;: &quot;SHARED SERVICE PATH&quot;,
         &quot;label_box&quot;: [
           0.06775,
@@ -72,6 +73,7 @@
         ],
         &quot;color&quot;: &quot;steel&quot;,
         &quot;focus&quot;: true,
+        &quot;font&quot;: &quot;editorial&quot;,
         &quot;label&quot;: &quot;REDUCED PRIVILEGE&quot;,
         &quot;label_box&quot;: [
           0.371083,
@@ -91,6 +93,7 @@
         ],
         &quot;color&quot;: &quot;steel&quot;,
         &quot;focus&quot;: true,
+        &quot;font&quot;: &quot;editorial&quot;,
         &quot;label&quot;: &quot;BOUNDARY TESTS&quot;,
         &quot;label_box&quot;: [
           0.674417,
@@ -103,8 +106,8 @@
     ],
     &quot;reconstructed&quot;: false,
     &quot;shot&quot;: &quot;row&quot;,
-    &quot;source&quot;: &quot;\n**Location:** `openai-research-infrastructure`\n\n**Frame:** Shared services disappear from the path. Standing privileges contract. A boundary-testing process repeatedly probes the remaining edges.\n\n**Caption:**\n&gt; FEWER SHARED SERVICES. LESS STANDING AUTHORITY. CONTINUOUS TESTING.\n\n**Provenance:** `documented` (institutional claim).\n\n&quot;,
+    &quot;source&quot;: &quot;\n**Location:** `openai-research-infrastructure`\n\n**Frame:** Shared services disappear from the path. Standing privileges contract. A boundary-testing process repeatedly probes the remaining edges.\n\n**Font:** `narration`\n\n**Caption:**\n&gt; FEWER SHARED SERVICES. LESS STANDING AUTHORITY. CONTINUOUS TESTING.\n\n**Provenance:** `documented` (institutional claim).\n\n&quot;,
     &quot;title&quot;: &quot;Shared paths and standing privilege contract&quot;
   }
 }
-</metadata><rect width="1200" height="800" fill="#101214"/><rect x="24" y="16" width="1152" height="768" fill="none" stroke="#5E737B" stroke-width="3"/><text x="32" y="40" fill="#5E737B" font-family="sans-serif" font-size="20">location-background-openai-research-infrastructure</text><rect x="114.491" y="160.96" width="221.179" height="221.179" fill="none" stroke="#5E737B" stroke-width="3"/><text x="122.491" y="184.96" fill="#5E737B" font-family="sans-serif" font-size="20">cross</text><text x="225.08" y="413.544" text-anchor="middle" fill="#E7E0D0" font-size="18" font-family="sans-serif">SHARED SERVICE PATH</text><rect x="445.3" y="160.96" width="287.56" height="221.179" fill="none" stroke="#5E737B" stroke-width="3"/><text x="453.3" y="184.96" fill="#5E737B" font-family="sans-serif" font-size="20">policy-filter</text><text x="589.079" y="413.544" text-anchor="middle" fill="#E7E0D0" font-size="18" font-family="sans-serif">REDUCED PRIVILEGE</text><rect x="809.314" y="160.96" width="287.533" height="221.179" fill="none" stroke="#5E737B" stroke-width="3"/><text x="817.314" y="184.96" fill="#5E737B" font-family="sans-serif" font-size="20">aperture</text><text x="953.08" y="413.544" text-anchor="middle" fill="#E7E0D0" font-size="18" font-family="sans-serif">BOUNDARY TESTS</text><rect x="3" y="3" width="1194" height="794" fill="none" stroke="#5E737B" stroke-width="4"/></svg>
+</metadata><rect width="1200" height="800" fill="#101214"/><rect x="24" y="16" width="1152" height="768" fill="none" stroke="#5E737B" stroke-width="3"/><text x="32" y="40" fill="#5E737B" font-family="sans-serif" font-size="20">location-background-openai-research-infrastructure</text><rect x="114.491" y="160.96" width="221.179" height="221.179" fill="none" stroke="#5E737B" stroke-width="3"/><text x="122.491" y="184.96" fill="#5E737B" font-family="sans-serif" font-size="20">cross</text><text x="225.08" y="413.544" text-anchor="middle" fill="#E7E0D0" font-size="18" font-family="Arial, Helvetica, sans-serif" data-font-key="editorial" font-weight="700" font-style="normal" textLength="212.04" lengthAdjust="spacingAndGlyphs">SHARED SERVICE PATH</text><rect x="445.3" y="160.96" width="287.56" height="221.179" fill="none" stroke="#5E737B" stroke-width="3"/><text x="453.3" y="184.96" fill="#5E737B" font-family="sans-serif" font-size="20">policy-filter</text><text x="589.079" y="413.544" text-anchor="middle" fill="#E7E0D0" font-size="18" font-family="Arial, Helvetica, sans-serif" data-font-key="editorial" font-weight="700" font-style="normal" textLength="189.04" lengthAdjust="spacingAndGlyphs">REDUCED PRIVILEGE</text><rect x="809.314" y="160.96" width="287.533" height="221.179" fill="none" stroke="#5E737B" stroke-width="3"/><text x="817.314" y="184.96" fill="#5E737B" font-family="sans-serif" font-size="20">aperture</text><text x="953.08" y="413.544" text-anchor="middle" fill="#E7E0D0" font-size="18" font-family="Arial, Helvetica, sans-serif" data-font-key="editorial" font-weight="700" font-style="normal" textLength="165.02" lengthAdjust="spacingAndGlyphs">BOUNDARY TESTS</text><rect x="3" y="3" width="1194" height="794" fill="none" stroke="#5E737B" stroke-width="4"/></svg>

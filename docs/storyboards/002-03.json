@@ -33,6 +33,7 @@
       ],
       "color": "steel",
       "focus": true,
+      "font": "editorial",
       "label": "CONTAINER",
       "label_box": [
         0.0632,
@@ -52,6 +53,7 @@
       ],
       "color": "steel",
       "focus": true,
+      "font": "editorial",
       "label": "TARGET",
       "label_box": [
         0.1269,
@@ -71,6 +73,7 @@
       ],
       "color": "steel",
       "focus": true,
+      "font": "editorial",
       "label": "TOOLS",
       "label_box": [
         0.3999,
@@ -90,6 +93,7 @@
       ],
       "color": "steel",
       "focus": true,
+      "font": "editorial",
       "label": "TASK",
       "label_box": [
         0.6729,
@@ -113,6 +117,6 @@
   ],
   "reconstructed": false,
   "shot": "grid",
-  "source": "\n**Location:** `evaluation-container`\n\n**Frame:** Wider view of the container boundary. Inside: target, tools, task card. Outside: total black. A thin cursor advances through a list of remaining local surfaces.\n\n**Action:** Search continues within the environment.\n\n**Caption:**\n> CORRECTLY DESCRIBING THE FAILURE IS NOT A COMPLETION CONDITION.\n\n**Provenance:** `inferred` — project interpretation of continued behavior after the correct technical conclusion.\n\n",
+  "source": "\n**Location:** `evaluation-container`\n\n**Frame:** Wider view of the container boundary. Inside: target, tools, task card. Outside: total black. A thin cursor advances through a list of remaining local surfaces.\n\n**Action:** Search continues within the environment.\n\n**Font:** `narration`\n\n**Caption:**\n> CORRECTLY DESCRIBING THE FAILURE IS NOT A COMPLETION CONDITION.\n\n**Provenance:** `inferred` — project interpretation of continued behavior after the correct technical conclusion.\n\n",
   "title": "An inventory inside the container"
 }

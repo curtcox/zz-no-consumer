@@ -33,6 +33,7 @@
       ],
       "color": "amber",
       "focus": true,
+      "font": "editorial",
       "label": "OPENAI?",
       "label_box": [
         0.0541,
@@ -52,6 +53,7 @@
       ],
       "color": "steel",
       "focus": true,
+      "font": "editorial",
       "label": "VISITOR",
       "label_box": [
         0.0814,
@@ -71,6 +73,7 @@
       ],
       "color": "steel",
       "focus": true,
+      "font": "editorial",
       "label": "TEAM",
       "label_box": [
         0.2543,
@@ -90,6 +93,7 @@
       ],
       "color": "steel",
       "focus": true,
+      "font": "editorial",
       "label": "RESPONDER",
       "label_box": [
         0.4272,
@@ -109,6 +113,7 @@
       ],
       "color": "steel",
       "focus": true,
+      "font": "editorial",
       "label": "EXECUTIVE",
       "label_box": [
         0.6001,
@@ -128,6 +133,7 @@
       ],
       "color": "steel",
       "focus": true,
+      "font": "editorial",
       "label": "OUTSIDE INVESTIGATOR",
       "label_box": [
         0.773,
@@ -140,6 +146,6 @@
   ],
   "reconstructed": true,
   "shot": "row",
-  "source": "\n**Location:** `documentary-evidence-field`\n\n**Frame:** Five small labelled figures, drawn as the silhouettes of [page 016](016.md): `A VISITOR`, `A TEAM`, `A RESPONDER`, `AN EXECUTIVE`, `AN OUTSIDE INVESTIGATOR`. A bracket tries to enclose them under one word, `OPENAI`, and fails to close.\n\n**Caption:**\n> \"OPENAI KNEW\" IS FIVE DIFFERENT CLAIMS. THE RECORD SUPPORTS AT MOST ONE OF THEM, ABOUT A VISITOR, BY INFERENCE.\n\n**Provenance:** `inferred` — the project's decomposition of the disclosure question; the single supported claim is `CW-REPORT`'s attributed-visit inference, not an authenticated account of any person's conclusions.\n\n",
+  "source": "\n**Location:** `documentary-evidence-field`\n\n**Frame:** Five small labelled figures, drawn as the silhouettes of [page 016](016.md): `A VISITOR`, `A TEAM`, `A RESPONDER`, `AN EXECUTIVE`, `AN OUTSIDE INVESTIGATOR`. A bracket tries to enclose them under one word, `OPENAI`, and fails to close.\n\n**Font:** `narration`\n\n**Caption:**\n> \"OPENAI KNEW\" IS FIVE DIFFERENT CLAIMS. THE RECORD SUPPORTS AT MOST ONE OF THEM, ABOUT A VISITOR, BY INFERENCE.\n\n**Provenance:** `inferred` — the project's decomposition of the disclosure question; the single supported claim is `CW-REPORT`'s attributed-visit inference, not an authenticated account of any person's conclusions.\n\n",
   "title": "Five roles cannot be collapsed into one institutional knower"
 }

@@ -1,0 +1,114 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="800" viewBox="0 0 1200 800"><title>Three investigators face a six-day clock</title><desc>Use exactly three investigators against the oversized evidence field with a six-day clock. Human scale and available time jointly establish the review constraint. Use the on-premises evidence review room as a quiet setting layer; its empty areas carry no additional events or evidence.</desc><metadata>{
+  &quot;assets&quot;: {
+    &quot;clock&quot;: &quot;&lt;defs&gt;\n&lt;linearGradient id=\&quot;stock\&quot; x1=\&quot;0\&quot; y1=\&quot;0\&quot; x2=\&quot;.8\&quot; y2=\&quot;1\&quot;&gt;&lt;stop stop-color=\&quot;#E7E0D0\&quot; /&gt;&lt;stop offset=\&quot;1\&quot; stop-color=\&quot;#CEC5B3\&quot; /&gt;&lt;/linearGradient&gt;\n&lt;/defs&gt;&lt;circle cx=\&quot;50\&quot; cy=\&quot;50\&quot; r=\&quot;44\&quot; fill=\&quot;url(#stock)\&quot; stroke=\&quot;currentColor\&quot; stroke-width=\&quot;4\&quot; /&gt;&lt;path d=\&quot;M50 9V15\&quot; fill=\&quot;none\&quot; stroke=\&quot;#101214\&quot; stroke-width=\&quot;1.5\&quot; transform=\&quot;rotate(0 50 50)\&quot; /&gt;&lt;path d=\&quot;M50 9V15\&quot; fill=\&quot;none\&quot; stroke=\&quot;#101214\&quot; stroke-width=\&quot;1.5\&quot; transform=\&quot;rotate(30 50 50)\&quot; /&gt;&lt;path d=\&quot;M50 9V15\&quot; fill=\&quot;none\&quot; stroke=\&quot;#101214\&quot; stroke-width=\&quot;1.5\&quot; transform=\&quot;rotate(60 50 50)\&quot; /&gt;&lt;path d=\&quot;M50 9V15\&quot; fill=\&quot;none\&quot; stroke=\&quot;#101214\&quot; stroke-width=\&quot;1.5\&quot; transform=\&quot;rotate(90 50 50)\&quot; /&gt;&lt;path d=\&quot;M50 9V15\&quot; fill=\&quot;none\&quot; stroke=\&quot;#101214\&quot; stroke-width=\&quot;1.5\&quot; transform=\&quot;rotate(120 50 50)\&quot; /&gt;&lt;path d=\&quot;M50 9V15\&quot; fill=\&quot;none\&quot; stroke=\&quot;#101214\&quot; stroke-width=\&quot;1.5\&quot; transform=\&quot;rotate(150 50 50)\&quot; /&gt;&lt;path d=\&quot;M50 9V15\&quot; fill=\&quot;none\&quot; stroke=\&quot;#101214\&quot; stroke-width=\&quot;1.5\&quot; transform=\&quot;rotate(180 50 50)\&quot; /&gt;&lt;path d=\&quot;M50 9V15\&quot; fill=\&quot;none\&quot; stroke=\&quot;#101214\&quot; stroke-width=\&quot;1.5\&quot; transform=\&quot;rotate(210 50 50)\&quot; /&gt;&lt;path d=\&quot;M50 9V15\&quot; fill=\&quot;none\&quot; stroke=\&quot;#101214\&quot; stroke-width=\&quot;1.5\&quot; transform=\&quot;rotate(240 50 50)\&quot; /&gt;&lt;path d=\&quot;M50 9V15\&quot; fill=\&quot;none\&quot; stroke=\&quot;#101214\&quot; stroke-width=\&quot;1.5\&quot; transform=\&quot;rotate(270 50 50)\&quot; /&gt;&lt;path d=\&quot;M50 9V15\&quot; fill=\&quot;none\&quot; stroke=\&quot;#101214\&quot; stroke-width=\&quot;1.5\&quot; transform=\&quot;rotate(300 50 50)\&quot; /&gt;&lt;path d=\&quot;M50 9V15\&quot; fill=\&quot;none\&quot; stroke=\&quot;#101214\&quot; stroke-width=\&quot;1.5\&quot; transform=\&quot;rotate(330 50 50)\&quot; /&gt;&lt;path d=\&quot;M50 23V50L73 64\&quot; fill=\&quot;none\&quot; stroke=\&quot;#101214\&quot; stroke-width=\&quot;3\&quot; /&gt;&lt;circle cx=\&quot;50\&quot; cy=\&quot;50\&quot; r=\&quot;3\&quot; fill=\&quot;#101214\&quot; /&gt;&quot;,
+    &quot;evidence-review-room&quot;: &quot;&lt;defs&gt;\n&lt;pattern id=\&quot;grain\&quot; width=\&quot;7\&quot; height=\&quot;9\&quot; patternUnits=\&quot;userSpaceOnUse\&quot;&gt;&lt;circle cx=\&quot;1\&quot; cy=\&quot;2\&quot; r=\&quot;.35\&quot; fill=\&quot;#101214\&quot; opacity=\&quot;.18\&quot; /&gt;&lt;path d=\&quot;M4 6h2M1 8h1\&quot; stroke=\&quot;#101214\&quot; stroke-width=\&quot;.3\&quot; opacity=\&quot;.16\&quot; /&gt;&lt;/pattern&gt;\n&lt;/defs&gt;&lt;path d=\&quot;M2 3H98V97H2Z\&quot; fill=\&quot;#101214\&quot; opacity=\&quot;.2\&quot; /&gt;&lt;path d=\&quot;M2 3L18 18H82L98 3Z\&quot; fill=\&quot;#5E737B\&quot; opacity=\&quot;.18\&quot; /&gt;&lt;path d=\&quot;M18 73H82L98 97H2Z\&quot; fill=\&quot;#68766B\&quot; opacity=\&quot;.25\&quot; /&gt;&lt;rect x=\&quot;18\&quot; y=\&quot;20\&quot; width=\&quot;64\&quot; height=\&quot;34\&quot; fill=\&quot;#E7E0D0\&quot; opacity=\&quot;.09\&quot; /&gt;&lt;rect x=\&quot;18\&quot; y=\&quot;20\&quot; width=\&quot;64\&quot; height=\&quot;34\&quot; fill=\&quot;url(#grain)\&quot; /&gt;&lt;g fill=\&quot;none\&quot; stroke=\&quot;currentColor\&quot; stroke-width=\&quot;0.9\&quot; stroke-linejoin=\&quot;round\&quot; opacity=\&quot;0.42\&quot;&gt;&lt;path d=\&quot;M2 3H98V97H2ZM2 3L18 18H82L98 3M18 18V73H82V18M18 73L2 97M82 73L98 97\&quot; /&gt;&lt;path d=\&quot;M1 25H99M1 31H99M1 37H99M1 43H99M1 49H99M23 22V52M77 22V52M86 44V82H94V40H86\&quot; stroke-dasharray=\&quot;12 2\&quot; /&gt;&lt;/g&gt;&quot;,
+    &quot;person-standing&quot;: &quot;&lt;defs&gt;\n&lt;linearGradient id=\&quot;tone\&quot; x1=\&quot;0\&quot; y1=\&quot;0\&quot; x2=\&quot;1\&quot; y2=\&quot;1\&quot;&gt;&lt;stop stop-color=\&quot;currentColor\&quot; /&gt;&lt;stop offset=\&quot;1\&quot; stop-color=\&quot;#101214\&quot; stop-opacity=\&quot;.65\&quot; /&gt;&lt;/linearGradient&gt;\n&lt;/defs&gt;&lt;circle cx=\&quot;50\&quot; cy=\&quot;14\&quot; r=\&quot;12\&quot; fill=\&quot;url(#tone)\&quot; /&gt;&lt;path d=\&quot;M35 30H65L75 65H63L61 98H51L49 70L47 98H36L36 65H24Z\&quot; fill=\&quot;url(#tone)\&quot; /&gt;&lt;path d=\&quot;M36 32L43 35 41 64 37 94H40L45 65 45 33Z\&quot; fill=\&quot;#101214\&quot; opacity=\&quot;.35\&quot; /&gt;&lt;path d=\&quot;M49 33V60M58 69L58 92\&quot; fill=\&quot;none\&quot; stroke=\&quot;#E7E0D0\&quot; stroke-width=\&quot;1\&quot; opacity=\&quot;.4\&quot; /&gt;&quot;
+  },
+  &quot;palette&quot;: {
+    &quot;amber&quot;: &quot;#A17D45&quot;,
+    &quot;claret&quot;: &quot;#6B2634&quot;,
+    &quot;dirty&quot;: &quot;#CEC5B3&quot;,
+    &quot;ink&quot;: &quot;#101214&quot;,
+    &quot;institution&quot;: &quot;#68766B&quot;,
+    &quot;moss&quot;: &quot;#74864F&quot;,
+    &quot;nicotine&quot;: &quot;#AA9571&quot;,
+    &quot;paper&quot;: &quot;#E7E0D0&quot;,
+    &quot;shadow&quot;: &quot;#202326&quot;,
+    &quot;steel&quot;: &quot;#5E737B&quot;
+  },
+  &quot;renderer&quot;: &quot;storyboard-svg-2&quot;,
+  &quot;scene&quot;: {
+    &quot;background&quot;: &quot;ink&quot;,
+    &quot;intent&quot;: &quot;Use exactly three investigators against the oversized evidence field with a six-day clock. Human scale and available time jointly establish the review constraint. Use the on-premises evidence review room as a quiet setting layer; its empty areas carry no additional events or evidence.&quot;,
+    &quot;lettering&quot;: [
+      {
+        &quot;box&quot;: [
+          0.045,
+          0.78,
+          0.91,
+          0.18
+        ]
+      }
+    ],
+    &quot;lettering_mode&quot;: &quot;manual&quot;,
+    &quot;nodes&quot;: [
+      {
+        &quot;asset&quot;: &quot;evidence-review-room&quot;,
+        &quot;box&quot;: [
+          0.025,
+          0.03,
+          0.95,
+          0.71
+        ],
+        &quot;color&quot;: &quot;steel&quot;
+      },
+      {
+        &quot;asset&quot;: &quot;person-standing&quot;,
+        &quot;box&quot;: [
+          0.079833,
+          0.2012,
+          0.139633,
+          0.4189
+        ],
+        &quot;color&quot;: &quot;dirty&quot;,
+        &quot;focus&quot;: true
+      },
+      {
+        &quot;asset&quot;: &quot;person-standing&quot;,
+        &quot;box&quot;: [
+          0.307333,
+          0.2012,
+          0.139633,
+          0.4189
+        ],
+        &quot;color&quot;: &quot;dirty&quot;,
+        &quot;focus&quot;: true
+      },
+      {
+        &quot;asset&quot;: &quot;person-standing&quot;,
+        &quot;box&quot;: [
+          0.534833,
+          0.2012,
+          0.139633,
+          0.4189
+        ],
+        &quot;color&quot;: &quot;dirty&quot;,
+        &quot;focus&quot;: true
+      },
+      {
+        &quot;asset&quot;: &quot;clock&quot;,
+        &quot;box&quot;: [
+          0.75025,
+          0.216587,
+          0.1638,
+          0.2457
+        ],
+        &quot;color&quot;: &quot;steel&quot;,
+        &quot;focus&quot;: true,
+        &quot;label&quot;: &quot;SIX DAYS&quot;,
+        &quot;label_box&quot;: [
+          0.75025,
+          0.49443,
+          0.1638,
+          0.121481
+        ],
+        &quot;label_size&quot;: 18
+      }
+    ],
+    &quot;reconstructed&quot;: true,
+    &quot;shot&quot;: &quot;row&quot;,
+    &quot;source&quot;: &quot;\n**Location:** `metr-review-workspace`\n\n**Frame:** Three human investigators stand before the evidence field. A six-day on-premises clock occupies one corner.\n\n**Action:** Manual reading time is set against corpus size.\n\n**Caption:**\n&gt; THE AVAILABLE HUMAN REVIEW WINDOW IS SIX DAYS.\n\n**Provenance:** `documented` + `compressed` — METR and Redwood report six on-premises days across three visits.\n\n&quot;,
+    &quot;title&quot;: &quot;Three investigators face a six-day clock&quot;
+  }
+}
+</metadata><rect width="1200" height="800" fill="#101214"/><g transform="translate(30 24) scale(11.4 5.68)" color="#5E737B"><g transform=""><defs>
+<pattern id="node-0-grain" width="7" height="9" patternUnits="userSpaceOnUse"><circle cx="1" cy="2" r=".35" fill="#101214" opacity=".18" /><path d="M4 6h2M1 8h1" stroke="#101214" stroke-width=".3" opacity=".16" /></pattern>
+</defs><path d="M2 3H98V97H2Z" fill="#101214" opacity=".2" /><path d="M2 3L18 18H82L98 3Z" fill="#5E737B" opacity=".18" /><path d="M18 73H82L98 97H2Z" fill="#68766B" opacity=".25" /><rect x="18" y="20" width="64" height="34" fill="#E7E0D0" opacity=".09" /><rect x="18" y="20" width="64" height="34" fill="url(#node-0-grain)" /><g fill="none" stroke="currentColor" stroke-width="0.9" stroke-linejoin="round" opacity="0.42"><path d="M2 3H98V97H2ZM2 3L18 18H82L98 3M18 18V73H82V18M18 73L2 97M82 73L98 97" /><path d="M1 25H99M1 31H99M1 37H99M1 43H99M1 49H99M23 22V52M77 22V52M86 44V82H94V40H86" stroke-dasharray="12 2" /></g></g></g><g transform="translate(95.7996 160.96) scale(1.6756 3.3512)" color="#CEC5B3"><g transform=""><defs>
+<linearGradient id="node-1-tone" x1="0" y1="0" x2="1" y2="1"><stop stop-color="currentColor" /><stop offset="1" stop-color="#101214" stop-opacity=".65" /></linearGradient>
+</defs><circle cx="50" cy="14" r="12" fill="url(#node-1-tone)" /><path d="M35 30H65L75 65H63L61 98H51L49 70L47 98H36L36 65H24Z" fill="url(#node-1-tone)" /><path d="M36 32L43 35 41 64 37 94H40L45 65 45 33Z" fill="#101214" opacity=".35" /><path d="M49 33V60M58 69L58 92" fill="none" stroke="#E7E0D0" stroke-width="1" opacity=".4" /></g></g><g transform="translate(368.8 160.96) scale(1.6756 3.3512)" color="#CEC5B3"><g transform=""><defs>
+<linearGradient id="node-2-tone" x1="0" y1="0" x2="1" y2="1"><stop stop-color="currentColor" /><stop offset="1" stop-color="#101214" stop-opacity=".65" /></linearGradient>
+</defs><circle cx="50" cy="14" r="12" fill="url(#node-2-tone)" /><path d="M35 30H65L75 65H63L61 98H51L49 70L47 98H36L36 65H24Z" fill="url(#node-2-tone)" /><path d="M36 32L43 35 41 64 37 94H40L45 65 45 33Z" fill="#101214" opacity=".35" /><path d="M49 33V60M58 69L58 92" fill="none" stroke="#E7E0D0" stroke-width="1" opacity=".4" /></g></g><g transform="translate(641.8 160.96) scale(1.6756 3.3512)" color="#CEC5B3"><g transform=""><defs>
+<linearGradient id="node-3-tone" x1="0" y1="0" x2="1" y2="1"><stop stop-color="currentColor" /><stop offset="1" stop-color="#101214" stop-opacity=".65" /></linearGradient>
+</defs><circle cx="50" cy="14" r="12" fill="url(#node-3-tone)" /><path d="M35 30H65L75 65H63L61 98H51L49 70L47 98H36L36 65H24Z" fill="url(#node-3-tone)" /><path d="M36 32L43 35 41 64 37 94H40L45 65 45 33Z" fill="#101214" opacity=".35" /><path d="M49 33V60M58 69L58 92" fill="none" stroke="#E7E0D0" stroke-width="1" opacity=".4" /></g></g><g transform="translate(900.3 173.27) scale(1.9656 1.9656)" color="#5E737B"><g transform=""><defs>
+<linearGradient id="node-4-stock" x1="0" y1="0" x2=".8" y2="1"><stop stop-color="#E7E0D0" /><stop offset="1" stop-color="#CEC5B3" /></linearGradient>
+</defs><circle cx="50" cy="50" r="44" fill="url(#node-4-stock)" stroke="currentColor" stroke-width="4" /><path d="M50 9V15" fill="none" stroke="#101214" stroke-width="1.5" transform="rotate(0 50 50)" /><path d="M50 9V15" fill="none" stroke="#101214" stroke-width="1.5" transform="rotate(30 50 50)" /><path d="M50 9V15" fill="none" stroke="#101214" stroke-width="1.5" transform="rotate(60 50 50)" /><path d="M50 9V15" fill="none" stroke="#101214" stroke-width="1.5" transform="rotate(90 50 50)" /><path d="M50 9V15" fill="none" stroke="#101214" stroke-width="1.5" transform="rotate(120 50 50)" /><path d="M50 9V15" fill="none" stroke="#101214" stroke-width="1.5" transform="rotate(150 50 50)" /><path d="M50 9V15" fill="none" stroke="#101214" stroke-width="1.5" transform="rotate(180 50 50)" /><path d="M50 9V15" fill="none" stroke="#101214" stroke-width="1.5" transform="rotate(210 50 50)" /><path d="M50 9V15" fill="none" stroke="#101214" stroke-width="1.5" transform="rotate(240 50 50)" /><path d="M50 9V15" fill="none" stroke="#101214" stroke-width="1.5" transform="rotate(270 50 50)" /><path d="M50 9V15" fill="none" stroke="#101214" stroke-width="1.5" transform="rotate(300 50 50)" /><path d="M50 9V15" fill="none" stroke="#101214" stroke-width="1.5" transform="rotate(330 50 50)" /><path d="M50 23V50L73 64" fill="none" stroke="#101214" stroke-width="3" /><circle cx="50" cy="50" r="3" fill="#101214" /></g></g><text x="998.58" y="413.544" text-anchor="middle" fill="#E7E0D0" font-size="18" font-family="sans-serif">SIX DAYS</text><rect x="3" y="3" width="1194" height="794" fill="none" stroke="#5E737B" stroke-width="4" stroke-dasharray="18 10"/></svg>

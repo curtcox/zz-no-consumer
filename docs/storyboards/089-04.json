@@ -33,6 +33,7 @@
       ],
       "color": "steel",
       "focus": true,
+      "font": "editorial",
       "label": "COMPLICATIONS",
       "label_box": [
         0.06775,
@@ -52,6 +53,7 @@
       ],
       "color": "steel",
       "focus": true,
+      "font": "editorial",
       "label": "PAGE PLAN",
       "label_box": [
         0.371083,
@@ -71,6 +73,7 @@
       ],
       "color": "steel",
       "focus": true,
+      "font": "editorial",
       "label": "GUARDRAILS",
       "label_box": [
         0.674417,
@@ -83,6 +86,6 @@
   ],
   "reconstructed": false,
   "shot": "row",
-  "source": "\n**Location:** `curt-home-office`\n\n**Frame:** Curt moves the complicating facts into the page plan rather than discarding them. Earlier chapter guardrails and counterexamples light up.\n\n**Dialogue — CURT:**\n> He's describing them. He's also describing me. I don't have their incentive. I have a thesis, which is worse, because it doesn't show up on a balance sheet.\n>\n> The fit is a reason to investigate harder, not permission to simplify.\n\n**Provenance:** `reconstructed` — creator method; Curt's application of the critic's point to himself is his own, not the post's.\n\n",
+  "source": "\n**Location:** `curt-home-office`\n\n**Frame:** Curt moves the complicating facts into the page plan rather than discarding them. Earlier chapter guardrails and counterexamples light up.\n\n**Font:** `human`\n\n**Dialogue — CURT:**\n> He's describing them. He's also describing me. I don't have their incentive. I have a thesis, which is worse, because it doesn't show up on a balance sheet.\n>\n> The fit is a reason to investigate harder, not permission to simplify.\n\n**Provenance:** `reconstructed` — creator method; Curt's application of the critic's point to himself is his own, not the post's.\n\n",
   "title": "Counterexamples enter the page plan"
 }

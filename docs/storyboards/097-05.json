@@ -33,6 +33,7 @@
       ],
       "color": "steel",
       "focus": true,
+      "font": "editorial",
       "label": "CAPABILITY DELAY",
       "label_box": [
         0.06775,
@@ -52,6 +53,7 @@
       ],
       "color": "steel",
       "focus": true,
+      "font": "editorial",
       "label": "DEFENSE DELAY",
       "label_box": [
         0.371083,
@@ -71,6 +73,7 @@
       ],
       "color": "amber",
       "focus": true,
+      "font": "editorial",
       "label": "CONTINUATION RISK",
       "label_box": [
         0.674417,
@@ -83,6 +86,6 @@
   ],
   "reconstructed": false,
   "shot": "row",
-  "source": "\n**Location:** `curt-home-office`\n\n**Frame:** Three visible costs balance on the desk: delay to capability work, delay to defensive tools, and risk from continuing.\n\n**Caption:**\n> “RACE” IS THIS BOOK'S ANALYSIS OF THE PUBLIC INCENTIVES—NOT A SECRET MEETING FACT.\n\n**Provenance:** `inferred` — project analysis, explicitly bounded.\n\n",
+  "source": "\n**Location:** `curt-home-office`\n\n**Frame:** Three visible costs balance on the desk: delay to capability work, delay to defensive tools, and risk from continuing.\n\n**Font:** `narration`\n\n**Caption:**\n> “RACE” IS THIS BOOK'S ANALYSIS OF THE PUBLIC INCENTIVES—NOT A SECRET MEETING FACT.\n\n**Provenance:** `inferred` — project analysis, explicitly bounded.\n\n",
   "title": "Three different costs remain visible"
 }

@@ -1,0 +1,99 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="800" viewBox="0 0 1200 800"><title>Empty operations chairs receive no page</title><desc>Show genuinely empty chairs and an unoccupied paging destination. No silhouette, hand or acknowledged-screen state should invent a human ignoring an alert. Use the distinct paging recess and tiled display wall; the setting itself supplies neither a recipient nor an acknowledgment.</desc><metadata>{
+  &quot;assets&quot;: {
+    &quot;desk&quot;: &quot;&lt;defs&gt;\n&lt;linearGradient id=\&quot;tone\&quot; x1=\&quot;0\&quot; y1=\&quot;0\&quot; x2=\&quot;1\&quot; y2=\&quot;1\&quot;&gt;&lt;stop stop-color=\&quot;currentColor\&quot; /&gt;&lt;stop offset=\&quot;1\&quot; stop-color=\&quot;#101214\&quot; stop-opacity=\&quot;.65\&quot; /&gt;&lt;/linearGradient&gt;\n&lt;pattern id=\&quot;wood\&quot; width=\&quot;35\&quot; height=\&quot;9\&quot; patternUnits=\&quot;userSpaceOnUse\&quot;&gt;&lt;path d=\&quot;M0 2Q10 5 35 2M0 7Q16 3 35 7\&quot; fill=\&quot;none\&quot; stroke=\&quot;#101214\&quot; stroke-width=\&quot;.6\&quot; opacity=\&quot;.28\&quot; /&gt;&lt;/pattern&gt;\n&lt;/defs&gt;&lt;path d=\&quot;M1 15L82 3 98 28 17 42Z\&quot; fill=\&quot;url(#tone)\&quot; stroke=\&quot;currentColor\&quot; stroke-width=\&quot;2\&quot; /&gt;&lt;path d=\&quot;M1 15L82 3 98 28 17 42Z\&quot; fill=\&quot;url(#wood)\&quot; /&gt;&lt;path d=\&quot;M17 42V98H24V43M90 31V91H96V29\&quot; fill=\&quot;#202326\&quot; stroke=\&quot;currentColor\&quot; stroke-width=\&quot;1.5\&quot; /&gt;&lt;path d=\&quot;M17 42L98 28\&quot; fill=\&quot;none\&quot; stroke=\&quot;#E7E0D0\&quot; stroke-width=\&quot;1\&quot; opacity=\&quot;.5\&quot; /&gt;&quot;,
+    &quot;empty-chair&quot;: &quot;&lt;defs&gt;\n&lt;linearGradient id=\&quot;metal\&quot; x1=\&quot;0\&quot; y1=\&quot;0\&quot; x2=\&quot;1\&quot; y2=\&quot;1\&quot;&gt;&lt;stop stop-color=\&quot;currentColor\&quot; /&gt;&lt;stop offset=\&quot;.32\&quot; stop-color=\&quot;#202326\&quot; /&gt;&lt;stop offset=\&quot;.75\&quot; stop-color=\&quot;#101214\&quot; /&gt;&lt;stop offset=\&quot;1\&quot; stop-color=\&quot;currentColor\&quot; /&gt;&lt;/linearGradient&gt;\n&lt;linearGradient id=\&quot;tone\&quot; x1=\&quot;0\&quot; y1=\&quot;0\&quot; x2=\&quot;1\&quot; y2=\&quot;1\&quot;&gt;&lt;stop stop-color=\&quot;currentColor\&quot; /&gt;&lt;stop offset=\&quot;1\&quot; stop-color=\&quot;#101214\&quot; stop-opacity=\&quot;.65\&quot; /&gt;&lt;/linearGradient&gt;\n&lt;pattern id=\&quot;mesh\&quot; width=\&quot;5\&quot; height=\&quot;5\&quot; patternUnits=\&quot;userSpaceOnUse\&quot;&gt;&lt;circle cx=\&quot;2.5\&quot; cy=\&quot;2.5\&quot; r=\&quot;.7\&quot; fill=\&quot;#101214\&quot; /&gt;&lt;path d=\&quot;M0 0H5\&quot; stroke=\&quot;#E7E0D0\&quot; stroke-opacity=\&quot;.08\&quot; stroke-width=\&quot;.4\&quot; /&gt;&lt;/pattern&gt;\n&lt;/defs&gt;&lt;rect x=\&quot;26\&quot; y=\&quot;5\&quot; width=\&quot;47\&quot; height=\&quot;44\&quot; rx=\&quot;5\&quot; fill=\&quot;url(#metal)\&quot; stroke=\&quot;currentColor\&quot; stroke-width=\&quot;2\&quot; /&gt;&lt;rect x=\&quot;30\&quot; y=\&quot;9\&quot; width=\&quot;39\&quot; height=\&quot;34\&quot; rx=\&quot;3\&quot; fill=\&quot;url(#mesh)\&quot; /&gt;&lt;path d=\&quot;M22 58H78L83 71H18Z\&quot; fill=\&quot;url(#tone)\&quot; stroke=\&quot;currentColor\&quot; stroke-width=\&quot;2\&quot; /&gt;&lt;path d=\&quot;M28 72V96M72 72V96M50 50V58\&quot; fill=\&quot;none\&quot; stroke=\&quot;currentColor\&quot; stroke-width=\&quot;3\&quot; /&gt;&quot;,
+    &quot;paging-operations-room&quot;: &quot;&lt;defs&gt;\n&lt;linearGradient id=\&quot;glass\&quot; x1=\&quot;0\&quot; y1=\&quot;0\&quot; x2=\&quot;0\&quot; y2=\&quot;1\&quot;&gt;&lt;stop stop-color=\&quot;#5E737B\&quot; stop-opacity=\&quot;.55\&quot; /&gt;&lt;stop offset=\&quot;1\&quot; stop-color=\&quot;#101214\&quot; /&gt;&lt;/linearGradient&gt;\n&lt;/defs&gt;&lt;path d=\&quot;M2 3H98V97H2Z\&quot; fill=\&quot;#101214\&quot; opacity=\&quot;.2\&quot; /&gt;&lt;path d=\&quot;M2 3L18 18H82L98 3Z\&quot; fill=\&quot;#5E737B\&quot; opacity=\&quot;.18\&quot; /&gt;&lt;path d=\&quot;M18 73H82L98 97H2Z\&quot; fill=\&quot;#68766B\&quot; opacity=\&quot;.25\&quot; /&gt;&lt;rect x=\&quot;23\&quot; y=\&quot;24\&quot; width=\&quot;24\&quot; height=\&quot;13\&quot; fill=\&quot;url(#glass)\&quot; /&gt;&lt;rect x=\&quot;50\&quot; y=\&quot;24\&quot; width=\&quot;24\&quot; height=\&quot;13\&quot; fill=\&quot;url(#glass)\&quot; /&gt;&lt;g fill=\&quot;none\&quot; stroke=\&quot;currentColor\&quot; stroke-width=\&quot;0.9\&quot; stroke-linejoin=\&quot;round\&quot; opacity=\&quot;0.5\&quot;&gt;&lt;path d=\&quot;M2 3H98V97H2ZM2 3L18 18H82L98 3M18 18V73H82V18M18 73L2 97M82 73L98 97\&quot; /&gt;&lt;rect x=\&quot;23\&quot; y=\&quot;24\&quot; width=\&quot;24\&quot; height=\&quot;13\&quot; /&gt;&lt;rect x=\&quot;50\&quot; y=\&quot;24\&quot; width=\&quot;24\&quot; height=\&quot;13\&quot; /&gt;&lt;path d=\&quot;M23 40H74M87 39H94V62H87ZM89 58H92\&quot; /&gt;&lt;/g&gt;&quot;
+  },
+  &quot;palette&quot;: {
+    &quot;amber&quot;: &quot;#A17D45&quot;,
+    &quot;claret&quot;: &quot;#6B2634&quot;,
+    &quot;dirty&quot;: &quot;#CEC5B3&quot;,
+    &quot;ink&quot;: &quot;#101214&quot;,
+    &quot;institution&quot;: &quot;#68766B&quot;,
+    &quot;moss&quot;: &quot;#74864F&quot;,
+    &quot;nicotine&quot;: &quot;#AA9571&quot;,
+    &quot;paper&quot;: &quot;#E7E0D0&quot;,
+    &quot;shadow&quot;: &quot;#202326&quot;,
+    &quot;steel&quot;: &quot;#5E737B&quot;
+  },
+  &quot;renderer&quot;: &quot;storyboard-svg-2&quot;,
+  &quot;scene&quot;: {
+    &quot;background&quot;: &quot;ink&quot;,
+    &quot;intent&quot;: &quot;Show genuinely empty chairs and an unoccupied paging destination. No silhouette, hand or acknowledged-screen state should invent a human ignoring an alert. Use the distinct paging recess and tiled display wall; the setting itself supplies neither a recipient nor an acknowledgment.&quot;,
+    &quot;lettering&quot;: [
+      {
+        &quot;box&quot;: [
+          0.045,
+          0.78,
+          0.91,
+          0.18
+        ]
+      }
+    ],
+    &quot;lettering_mode&quot;: &quot;manual&quot;,
+    &quot;nodes&quot;: [
+      {
+        &quot;asset&quot;: &quot;paging-operations-room&quot;,
+        &quot;box&quot;: [
+          0.0541,
+          0.0521,
+          0.8918,
+          0.6816
+        ],
+        &quot;color&quot;: &quot;steel&quot;,
+        &quot;focus&quot;: true
+      },
+      {
+        &quot;asset&quot;: &quot;desk&quot;,
+        &quot;box&quot;: [
+          0.1724,
+          0.4497,
+          0.6552,
+          0.2414
+        ],
+        &quot;color&quot;: &quot;steel&quot;,
+        &quot;focus&quot;: true
+      },
+      {
+        &quot;asset&quot;: &quot;empty-chair&quot;,
+        &quot;box&quot;: [
+          0.2179,
+          0.27335,
+          0.1911,
+          0.4095
+        ],
+        &quot;color&quot;: &quot;steel&quot;,
+        &quot;focus&quot;: true
+      },
+      {
+        &quot;asset&quot;: &quot;empty-chair&quot;,
+        &quot;box&quot;: [
+          0.591,
+          0.27335,
+          0.1911,
+          0.4095
+        ],
+        &quot;color&quot;: &quot;steel&quot;,
+        &quot;focus&quot;: true
+      }
+    ],
+    &quot;reconstructed&quot;: false,
+    &quot;shot&quot;: &quot;hero&quot;,
+    &quot;source&quot;: &quot;\n**Location:** `reconstructed-security-operations-center`\n\n**Frame:** Empty reconstructed operations chairs. Do not show a human viewing, dismissing, or acknowledging the alert.\n\n**Action:** No timely human response is initiated through this path.\n\n**Caption:**\n&gt; NO HUMAN HAS TO IGNORE THE WARNING.\n&gt;\n&gt; THE WARNING NEVER REACHES THEM AS A PAGE.\n\n**Provenance:** `documented` + `inferred` — paging failure is sourced; contrast avoids inventing human negligence.\n\n&quot;,
+    &quot;title&quot;: &quot;Empty operations chairs receive no page&quot;
+  }
+}
+</metadata><rect width="1200" height="800" fill="#101214"/><g transform="translate(64.92 41.68) scale(10.7016 5.4528)" color="#5E737B"><g transform=""><defs>
+<linearGradient id="node-0-glass" x1="0" y1="0" x2="0" y2="1"><stop stop-color="#5E737B" stop-opacity=".55" /><stop offset="1" stop-color="#101214" /></linearGradient>
+</defs><path d="M2 3H98V97H2Z" fill="#101214" opacity=".2" /><path d="M2 3L18 18H82L98 3Z" fill="#5E737B" opacity=".18" /><path d="M18 73H82L98 97H2Z" fill="#68766B" opacity=".25" /><rect x="23" y="24" width="24" height="13" fill="url(#node-0-glass)" /><rect x="50" y="24" width="24" height="13" fill="url(#node-0-glass)" /><g fill="none" stroke="currentColor" stroke-width="0.9" stroke-linejoin="round" opacity="0.5"><path d="M2 3H98V97H2ZM2 3L18 18H82L98 3M18 18V73H82V18M18 73L2 97M82 73L98 97" /><rect x="23" y="24" width="24" height="13" /><rect x="50" y="24" width="24" height="13" /><path d="M23 40H74M87 39H94V62H87ZM89 58H92" /></g></g></g><g transform="translate(206.88 359.76) scale(7.8624 1.9312)" color="#5E737B"><g transform=""><defs>
+<linearGradient id="node-1-tone" x1="0" y1="0" x2="1" y2="1"><stop stop-color="currentColor" /><stop offset="1" stop-color="#101214" stop-opacity=".65" /></linearGradient>
+<pattern id="node-1-wood" width="35" height="9" patternUnits="userSpaceOnUse"><path d="M0 2Q10 5 35 2M0 7Q16 3 35 7" fill="none" stroke="#101214" stroke-width=".6" opacity=".28" /></pattern>
+</defs><path d="M1 15L82 3 98 28 17 42Z" fill="url(#node-1-tone)" stroke="currentColor" stroke-width="2" /><path d="M1 15L82 3 98 28 17 42Z" fill="url(#node-1-wood)" /><path d="M17 42V98H24V43M90 31V91H96V29" fill="#202326" stroke="currentColor" stroke-width="1.5" /><path d="M17 42L98 28" fill="none" stroke="#E7E0D0" stroke-width="1" opacity=".5" /></g></g><g transform="translate(261.48 218.68) scale(2.2932 3.276)" color="#5E737B"><g transform=""><defs>
+<linearGradient id="node-2-metal" x1="0" y1="0" x2="1" y2="1"><stop stop-color="currentColor" /><stop offset=".32" stop-color="#202326" /><stop offset=".75" stop-color="#101214" /><stop offset="1" stop-color="currentColor" /></linearGradient>
+<linearGradient id="node-2-tone" x1="0" y1="0" x2="1" y2="1"><stop stop-color="currentColor" /><stop offset="1" stop-color="#101214" stop-opacity=".65" /></linearGradient>
+<pattern id="node-2-mesh" width="5" height="5" patternUnits="userSpaceOnUse"><circle cx="2.5" cy="2.5" r=".7" fill="#101214" /><path d="M0 0H5" stroke="#E7E0D0" stroke-opacity=".08" stroke-width=".4" /></pattern>
+</defs><rect x="26" y="5" width="47" height="44" rx="5" fill="url(#node-2-metal)" stroke="currentColor" stroke-width="2" /><rect x="30" y="9" width="39" height="34" rx="3" fill="url(#node-2-mesh)" /><path d="M22 58H78L83 71H18Z" fill="url(#node-2-tone)" stroke="currentColor" stroke-width="2" /><path d="M28 72V96M72 72V96M50 50V58" fill="none" stroke="currentColor" stroke-width="3" /></g></g><g transform="translate(709.2 218.68) scale(2.2932 3.276)" color="#5E737B"><g transform=""><defs>
+<linearGradient id="node-3-metal" x1="0" y1="0" x2="1" y2="1"><stop stop-color="currentColor" /><stop offset=".32" stop-color="#202326" /><stop offset=".75" stop-color="#101214" /><stop offset="1" stop-color="currentColor" /></linearGradient>
+<linearGradient id="node-3-tone" x1="0" y1="0" x2="1" y2="1"><stop stop-color="currentColor" /><stop offset="1" stop-color="#101214" stop-opacity=".65" /></linearGradient>
+<pattern id="node-3-mesh" width="5" height="5" patternUnits="userSpaceOnUse"><circle cx="2.5" cy="2.5" r=".7" fill="#101214" /><path d="M0 0H5" stroke="#E7E0D0" stroke-opacity=".08" stroke-width=".4" /></pattern>
+</defs><rect x="26" y="5" width="47" height="44" rx="5" fill="url(#node-3-metal)" stroke="currentColor" stroke-width="2" /><rect x="30" y="9" width="39" height="34" rx="3" fill="url(#node-3-mesh)" /><path d="M22 58H78L83 71H18Z" fill="url(#node-3-tone)" stroke="currentColor" stroke-width="2" /><path d="M28 72V96M72 72V96M50 50V58" fill="none" stroke="currentColor" stroke-width="3" /></g></g><rect x="3" y="3" width="1194" height="794" fill="none" stroke="#5E737B" stroke-width="4"/></svg>

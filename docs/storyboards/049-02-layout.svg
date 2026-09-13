@@ -65,6 +65,7 @@
         ],
         &quot;color&quot;: &quot;steel&quot;,
         &quot;focus&quot;: true,
+        &quot;font&quot;: &quot;editorial&quot;,
         &quot;label&quot;: &quot;EXTERNAL STATE&quot;,
         &quot;label_box&quot;: [
           0.6729,
@@ -84,6 +85,7 @@
         ],
         &quot;color&quot;: &quot;steel&quot;,
         &quot;focus&quot;: true,
+        &quot;font&quot;: &quot;editorial&quot;,
         &quot;label&quot;: &quot;DIFFERENT RUN&quot;,
         &quot;label_box&quot;: [
           0.0541,
@@ -114,6 +116,7 @@
         ],
         &quot;color&quot;: &quot;steel&quot;,
         &quot;focus&quot;: true,
+        &quot;font&quot;: &quot;editorial&quot;,
         &quot;label&quot;: &quot;STORED TOOLS&quot;,
         &quot;label_box&quot;: [
           0.0541,
@@ -126,8 +129,8 @@
     ],
     &quot;reconstructed&quot;: false,
     &quot;shot&quot;: &quot;hub&quot;,
-    &quot;source&quot;: &quot;\n**Location:**\n\n- `evaluation-container`\n- `modal-customer-workload`\n\n**Frame:** A later sandbox with a different identity retrieves the same class of tools from shared external state. No direct memory arrow connects the runs.\n\n**Action:** The foothold is rebuilt rather than personally remembered.\n\n**Caption:**\n&gt; THE NEXT RUN RECONSTRUCTS THE TOOLING.\n\n**Provenance:** `documented` + `inferred` — repeated rebuilding is sourced; continuity distinction is project framing.\n\n&quot;,
+    &quot;source&quot;: &quot;\n**Location:**\n\n- `evaluation-container`\n- `modal-customer-workload`\n\n**Frame:** A later sandbox with a different identity retrieves the same class of tools from shared external state. No direct memory arrow connects the runs.\n\n**Action:** The foothold is rebuilt rather than personally remembered.\n\n**Font:** `narration`\n\n**Caption:**\n&gt; THE NEXT RUN RECONSTRUCTS THE TOOLING.\n\n**Provenance:** `documented` + `inferred` — repeated rebuilding is sourced; continuity distinction is project framing.\n\n&quot;,
     &quot;title&quot;: &quot;A later identity retrieves tools from shared state&quot;
   }
 }
-</metadata><rect width="1200" height="800" fill="#101214"/><rect x="24" y="16" width="561" height="768" fill="none" stroke="#5E737B" stroke-width="3"/><text x="32" y="40" fill="#5E737B" font-family="sans-serif" font-size="20">location-background-evaluation-container</text><rect x="615" y="16" width="561" height="768" fill="none" stroke="#5E737B" stroke-width="3"/><text x="623" y="40" fill="#5E737B" font-family="sans-serif" font-size="20">location-background-modal-customer-workload</text><rect x="807.48" y="109.84" width="305.76" height="277.411" fill="none" stroke="#5E737B" stroke-width="3"/><text x="815.48" y="133.84" fill="#5E737B" font-family="sans-serif" font-size="20">folder</text><text x="960.36" y="422.064" text-anchor="middle" fill="#E7E0D0" font-size="18" font-family="sans-serif">EXTERNAL STATE</text><rect x="64.92" y="53.04" width="382.2" height="157.45" fill="none" stroke="#5E737B" stroke-width="3"/><text x="72.92" y="77.04" fill="#5E737B" font-family="sans-serif" font-size="20">task</text><text x="256.02" y="238.032" text-anchor="middle" fill="#E7E0D0" font-size="18" font-family="sans-serif">DIFFERENT RUN</text><rect x="490.8" y="88.824" width="262.08" height="71.568" fill="none" stroke="#74864F" stroke-width="3"/><text x="498.8" y="112.824" fill="#74864F" font-family="sans-serif" font-size="20">arrow-left</text><rect x="64.92" y="320" width="382.2" height="157.45" fill="none" stroke="#5E737B" stroke-width="3"/><text x="72.92" y="344" fill="#5E737B" font-family="sans-serif" font-size="20">sealed</text><text x="256.02" y="504.992" text-anchor="middle" fill="#E7E0D0" font-size="18" font-family="sans-serif">STORED TOOLS</text><rect x="3" y="3" width="1194" height="794" fill="none" stroke="#5E737B" stroke-width="4"/></svg>
+</metadata><rect width="1200" height="800" fill="#101214"/><rect x="24" y="16" width="561" height="768" fill="none" stroke="#5E737B" stroke-width="3"/><text x="32" y="40" fill="#5E737B" font-family="sans-serif" font-size="20">location-background-evaluation-container</text><rect x="615" y="16" width="561" height="768" fill="none" stroke="#5E737B" stroke-width="3"/><text x="623" y="40" fill="#5E737B" font-family="sans-serif" font-size="20">location-background-modal-customer-workload</text><rect x="807.48" y="109.84" width="305.76" height="277.411" fill="none" stroke="#5E737B" stroke-width="3"/><text x="815.48" y="133.84" fill="#5E737B" font-family="sans-serif" font-size="20">folder</text><text x="960.36" y="422.064" text-anchor="middle" fill="#E7E0D0" font-size="18" font-family="Arial, Helvetica, sans-serif" data-font-key="editorial" font-weight="700" font-style="normal" textLength="158.04" lengthAdjust="spacingAndGlyphs">EXTERNAL STATE</text><rect x="64.92" y="53.04" width="382.2" height="157.45" fill="none" stroke="#5E737B" stroke-width="3"/><text x="72.92" y="77.04" fill="#5E737B" font-family="sans-serif" font-size="20">task</text><text x="256.02" y="238.032" text-anchor="middle" fill="#E7E0D0" font-size="18" font-family="Arial, Helvetica, sans-serif" data-font-key="editorial" font-weight="700" font-style="normal" textLength="144.99" lengthAdjust="spacingAndGlyphs">DIFFERENT RUN</text><rect x="490.8" y="88.824" width="262.08" height="71.568" fill="none" stroke="#74864F" stroke-width="3"/><text x="498.8" y="112.824" fill="#74864F" font-family="sans-serif" font-size="20">arrow-left</text><rect x="64.92" y="320" width="382.2" height="157.45" fill="none" stroke="#5E737B" stroke-width="3"/><text x="72.92" y="344" fill="#5E737B" font-family="sans-serif" font-size="20">sealed</text><text x="256.02" y="504.992" text-anchor="middle" fill="#E7E0D0" font-size="18" font-family="Arial, Helvetica, sans-serif" data-font-key="editorial" font-weight="700" font-style="normal" textLength="141.03" lengthAdjust="spacingAndGlyphs">STORED TOOLS</text><rect x="3" y="3" width="1194" height="794" fill="none" stroke="#5E737B" stroke-width="4"/></svg>

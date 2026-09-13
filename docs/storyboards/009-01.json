@@ -33,6 +33,7 @@
       ],
       "color": "institution",
       "focus": true,
+      "font": "editorial",
       "label": "FLAG AVAILABLE",
       "label_box": [
         0.06775,
@@ -52,6 +53,7 @@
       ],
       "color": "institution",
       "focus": true,
+      "font": "editorial",
       "label": "FLAG AVAILABLE",
       "label_box": [
         0.371083,
@@ -71,6 +73,7 @@
       ],
       "color": "institution",
       "focus": true,
+      "font": "editorial",
       "label": "FLAG AVAILABLE",
       "label_box": [
         0.674417,
@@ -83,6 +86,6 @@
   ],
   "reconstructed": false,
   "shot": "row",
-  "source": "\n**Location:** `evaluation-container`\n\n**Frame:** Large, nearly empty white panel. A row of distinct task cards now carries small green `FLAG AVAILABLE` marks.\n\n**Action:** The immediate answer problem appears solved.\n\n**Caption:**\n> THEY HAVE THE ANSWERS.\n\n**Provenance:** `documented` + `inferred` — general flag derivation is sourced; caption compresses its consequence.\n\n",
+  "source": "\n**Location:** `evaluation-container`\n\n**Frame:** Large, nearly empty white panel. A row of distinct task cards now carries small green `FLAG AVAILABLE` marks.\n\n**Action:** The immediate answer problem appears solved.\n\n**Font:** `narration`\n\n**Caption:**\n> THEY HAVE THE ANSWERS.\n\n**Provenance:** `documented` + `inferred` — general flag derivation is sourced; caption compresses its consequence.\n\n",
   "title": "Flags are available across distinct tasks"
 }

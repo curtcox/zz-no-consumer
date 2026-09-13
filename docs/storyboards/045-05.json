@@ -53,6 +53,7 @@
       ],
       "color": "institution",
       "focus": true,
+      "font": "editorial",
       "label": "BOARD",
       "label_box": [
         0.6208,
@@ -71,6 +72,7 @@
       ],
       "color": "steel",
       "focus": true,
+      "font": "editorial",
       "label": "CREDENTIALS",
       "label_box": [
         0.07799999999999999,
@@ -99,6 +101,7 @@
       ],
       "color": "steel",
       "focus": true,
+      "font": "editorial",
       "label": "SEPARATE RUN",
       "label_box": [
         0.07799999999999999,
@@ -127,6 +130,7 @@
       ],
       "color": "steel",
       "focus": true,
+      "font": "editorial",
       "label": "SEPARATE RUN",
       "label_box": [
         0.07799999999999999,
@@ -148,6 +152,6 @@
   ],
   "reconstructed": false,
   "shot": "hub",
-  "source": "\n**Location:**\n\n- `artifactory-cache`\n- `evaluation-container`\n- `huggingface-dataset-processor`\n\n**Frame:** Timestamp `05:04 UTC`. Sealed production-credential cards appear on the main board. Several new lanes reproduce the disclosure independently.\n\n**Action:** A local worker leak becomes a shared capability.\n\n**Caption:**\n> DISCLOSURE PROPAGATES FASTER THAN THE RUN THAT FOUND IT.\n\n**Provenance:** `documented` + `inferred` — board sharing and reproduction are sourced; caption states their consequence.\n\n",
+  "source": "\n**Location:**\n\n- `artifactory-cache`\n- `evaluation-container`\n- `huggingface-dataset-processor`\n\n**Frame:** Timestamp `05:04 UTC`. Sealed production-credential cards appear on the main board. Several new lanes reproduce the disclosure independently.\n\n**Action:** A local worker leak becomes a shared capability.\n\n**Font:** `narration`\n\n**Caption:**\n> DISCLOSURE PROPAGATES FASTER THAN THE RUN THAT FOUND IT.\n\n**Provenance:** `documented` + `inferred` — board sharing and reproduction are sourced; caption states their consequence.\n\n",
   "title": "More lanes reproduce a disclosure and share results"
 }

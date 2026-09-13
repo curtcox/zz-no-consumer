@@ -53,6 +53,7 @@
         ],
         &quot;color&quot;: &quot;steel&quot;,
         &quot;focus&quot;: true,
+        &quot;font&quot;: &quot;editorial&quot;,
         &quot;label&quot;: &quot;04:01&quot;,
         &quot;label_box&quot;: [
           0.0541,
@@ -72,6 +73,7 @@
         ],
         &quot;color&quot;: &quot;amber&quot;,
         &quot;focus&quot;: true,
+        &quot;font&quot;: &quot;editorial&quot;,
         &quot;label&quot;: &quot;4H 29M UNRECONCILED&quot;,
         &quot;label_box&quot;: [
           0.3544,
@@ -91,6 +93,7 @@
         ],
         &quot;color&quot;: &quot;steel&quot;,
         &quot;focus&quot;: true,
+        &quot;font&quot;: &quot;editorial&quot;,
         &quot;label&quot;: &quot;08:30&quot;,
         &quot;label_box&quot;: [
           0.6911,
@@ -110,6 +113,7 @@
         ],
         &quot;color&quot;: &quot;steel&quot;,
         &quot;focus&quot;: true,
+        &quot;font&quot;: &quot;editorial&quot;,
         &quot;label&quot;: &quot;THE FIRST RCE&quot;,
         &quot;label_box&quot;: [
           0.2998,
@@ -133,8 +137,8 @@
     ],
     &quot;reconstructed&quot;: false,
     &quot;shot&quot;: &quot;row&quot;,
-    &quot;source&quot;: &quot;\n**Location:** `documentary-evidence-field`\n\n**Frame:** The two markers held level against a dusty-amber gutter, neither above the other. Beneath them, one line of ledger: `4H 29M UNRECONCILED`. A third, tempting marker labelled `THE FIRST RCE` hovers between them and is struck out.\n\n**Action:** The book declines to pick.\n\n**Caption:**\n&gt; THE VICTIM&#x27;S RECORD REACHES FURTHER BACK THAN THE LABORATORY&#x27;S.\n\n**Provenance:** `disputed` — no public audit reconciles the two accounts. Bounded to this pair of timestamps: `HF-TL` recovers 04:01, `OAI-TR` §X records 08:30.\n\n&quot;,
+    &quot;source&quot;: &quot;\n**Location:** `documentary-evidence-field`\n\n**Frame:** The two markers held level against a dusty-amber gutter, neither above the other. Beneath them, one line of ledger: `4H 29M UNRECONCILED`. A third, tempting marker labelled `THE FIRST RCE` hovers between them and is struck out.\n\n**Action:** The book declines to pick.\n\n**Font:** `narration`\n\n**Caption:**\n&gt; THE VICTIM&#x27;S RECORD REACHES FURTHER BACK THAN THE LABORATORY&#x27;S.\n\n**Provenance:** `disputed` — no public audit reconciles the two accounts. Bounded to this pair of timestamps: `HF-TL` recovers 04:01, `OAI-TR` §X records 08:30.\n\n&quot;,
     &quot;title&quot;: &quot;The timing discrepancy stays unreconciled&quot;
   }
 }
-</metadata><rect width="1200" height="800" fill="#101214"/><rect x="24" y="16" width="1152" height="768" fill="none" stroke="#5E737B" stroke-width="3"/><text x="32" y="40" fill="#5E737B" font-family="sans-serif" font-size="20">location-background-documentary-evidence-field</text><rect x="64.92" y="75.76" width="305.76" height="153.701" fill="none" stroke="#5E737B" stroke-width="3"/><text x="72.92" y="99.76" fill="#5E737B" font-family="sans-serif" font-size="20">card</text><text x="217.8" y="256.776" text-anchor="middle" fill="#E7E0D0" font-size="18" font-family="sans-serif">04:01</text><rect x="425.28" y="115.52" width="327.6" height="164.947" fill="none" stroke="#A17D45" stroke-width="3"/><text x="433.28" y="139.52" fill="#A17D45" font-family="sans-serif" font-size="20">broken-trace</text><text x="589.08" y="308.464" text-anchor="middle" fill="#E7E0D0" font-size="18" font-family="sans-serif">4H 29M UNRECONCILED</text><rect x="829.32" y="75.76" width="305.76" height="153.701" fill="none" stroke="#5E737B" stroke-width="3"/><text x="837.32" y="99.76" fill="#5E737B" font-family="sans-serif" font-size="20">card</text><text x="982.2" y="256.776" text-anchor="middle" fill="#E7E0D0" font-size="18" font-family="sans-serif">08:30</text><rect x="359.76" y="422.24" width="480.48" height="97.4688" fill="none" stroke="#5E737B" stroke-width="3"/><text x="367.76" y="446.24" fill="#5E737B" font-family="sans-serif" font-size="20">card</text><text x="600" y="543.616" text-anchor="middle" fill="#E7E0D0" font-size="18" font-family="sans-serif">THE FIRST RCE</text><rect x="565.92" y="410.88" width="68.16" height="68.16" fill="none" stroke="#A17D45" stroke-width="3"/><text x="573.92" y="434.88" fill="#A17D45" font-family="sans-serif" font-size="20">cross</text><rect x="3" y="3" width="1194" height="794" fill="none" stroke="#5E737B" stroke-width="4"/></svg>
+</metadata><rect width="1200" height="800" fill="#101214"/><rect x="24" y="16" width="1152" height="768" fill="none" stroke="#5E737B" stroke-width="3"/><text x="32" y="40" fill="#5E737B" font-family="sans-serif" font-size="20">location-background-documentary-evidence-field</text><rect x="64.92" y="75.76" width="305.76" height="153.701" fill="none" stroke="#5E737B" stroke-width="3"/><text x="72.92" y="99.76" fill="#5E737B" font-family="sans-serif" font-size="20">card</text><text x="217.8" y="256.776" text-anchor="middle" fill="#E7E0D0" font-size="18" font-family="Arial, Helvetica, sans-serif" data-font-key="editorial" font-weight="700" font-style="normal" textLength="45.04" lengthAdjust="spacingAndGlyphs">04:01</text><rect x="425.28" y="115.52" width="327.6" height="164.947" fill="none" stroke="#A17D45" stroke-width="3"/><text x="433.28" y="139.52" fill="#A17D45" font-family="sans-serif" font-size="20">broken-trace</text><text x="589.08" y="308.464" text-anchor="middle" fill="#E7E0D0" font-size="18" font-family="Arial, Helvetica, sans-serif" data-font-key="editorial" font-weight="700" font-style="normal" textLength="212.02" lengthAdjust="spacingAndGlyphs">4H 29M UNRECONCILED</text><rect x="829.32" y="75.76" width="305.76" height="153.701" fill="none" stroke="#5E737B" stroke-width="3"/><text x="837.32" y="99.76" fill="#5E737B" font-family="sans-serif" font-size="20">card</text><text x="982.2" y="256.776" text-anchor="middle" fill="#E7E0D0" font-size="18" font-family="Arial, Helvetica, sans-serif" data-font-key="editorial" font-weight="700" font-style="normal" textLength="45.04" lengthAdjust="spacingAndGlyphs">08:30</text><rect x="359.76" y="422.24" width="480.48" height="97.4688" fill="none" stroke="#5E737B" stroke-width="3"/><text x="367.76" y="446.24" fill="#5E737B" font-family="sans-serif" font-size="20">card</text><text x="600" y="543.616" text-anchor="middle" fill="#E7E0D0" font-size="18" font-family="Arial, Helvetica, sans-serif" data-font-key="editorial" font-weight="700" font-style="normal" textLength="136.01" lengthAdjust="spacingAndGlyphs">THE FIRST RCE</text><rect x="565.92" y="410.88" width="68.16" height="68.16" fill="none" stroke="#A17D45" stroke-width="3"/><text x="573.92" y="434.88" fill="#A17D45" font-family="sans-serif" font-size="20">cross</text><rect x="3" y="3" width="1194" height="794" fill="none" stroke="#5E737B" stroke-width="4"/></svg>

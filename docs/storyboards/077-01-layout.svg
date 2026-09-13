@@ -44,6 +44,7 @@
         ],
         &quot;color&quot;: &quot;steel&quot;,
         &quot;focus&quot;: true,
+        &quot;font&quot;: &quot;editorial&quot;,
         &quot;label&quot;: &quot;BOARD DUMP&quot;,
         &quot;label_box&quot;: [
           0.06775,
@@ -63,6 +64,7 @@
         ],
         &quot;color&quot;: &quot;steel&quot;,
         &quot;focus&quot;: true,
+        &quot;font&quot;: &quot;editorial&quot;,
         &quot;label&quot;: &quot;TRANSCRIPTS&quot;,
         &quot;label_box&quot;: [
           0.52275,
@@ -90,4 +92,4 @@
     &quot;title&quot;: &quot;Two source reservoirs retain gaps and selection notes&quot;
   }
 }
-</metadata><rect width="1200" height="800" fill="#101214"/><rect x="30" y="56" width="1140" height="552" fill="none" stroke="#5E737B" stroke-width="3"/><text x="38" y="80" fill="#5E737B" font-family="sans-serif" font-size="20">source-reservoir-field</text><rect x="81.3" y="191.76" width="469.56" height="275.695" fill="none" stroke="#5E737B" stroke-width="3"/><text x="89.3" y="215.76" fill="#5E737B" font-family="sans-serif" font-size="20">folder</text><text x="316.08" y="502.164" text-anchor="middle" fill="#E7E0D0" font-size="18" font-family="sans-serif">BOARD DUMP</text><rect x="627.3" y="191.76" width="469.56" height="275.695" fill="none" stroke="#5E737B" stroke-width="3"/><text x="635.3" y="215.76" fill="#5E737B" font-family="sans-serif" font-size="20">transcript</text><text x="862.08" y="502.164" text-anchor="middle" fill="#E7E0D0" font-size="18" font-family="sans-serif">TRANSCRIPTS</text><rect x="592.356" y="64.32" width="15.288" height="623.04" fill="none" stroke="#5E737B" stroke-width="3"/><text x="600.356" y="88.32" fill="#5E737B" font-family="sans-serif" font-size="20">boundary</text><rect x="3" y="3" width="1194" height="794" fill="none" stroke="#5E737B" stroke-width="4"/></svg>
+</metadata><rect width="1200" height="800" fill="#101214"/><rect x="30" y="56" width="1140" height="552" fill="none" stroke="#5E737B" stroke-width="3"/><text x="38" y="80" fill="#5E737B" font-family="sans-serif" font-size="20">source-reservoir-field</text><rect x="81.3" y="191.76" width="469.56" height="275.695" fill="none" stroke="#5E737B" stroke-width="3"/><text x="89.3" y="215.76" fill="#5E737B" font-family="sans-serif" font-size="20">folder</text><text x="316.08" y="502.164" text-anchor="middle" fill="#E7E0D0" font-size="18" font-family="Arial, Helvetica, sans-serif" data-font-key="editorial" font-weight="700" font-style="normal" textLength="122.00" lengthAdjust="spacingAndGlyphs">BOARD DUMP</text><rect x="627.3" y="191.76" width="469.56" height="275.695" fill="none" stroke="#5E737B" stroke-width="3"/><text x="635.3" y="215.76" fill="#5E737B" font-family="sans-serif" font-size="20">transcript</text><text x="862.08" y="502.164" text-anchor="middle" fill="#E7E0D0" font-size="18" font-family="Arial, Helvetica, sans-serif" data-font-key="editorial" font-weight="700" font-style="normal" textLength="127.01" lengthAdjust="spacingAndGlyphs">TRANSCRIPTS</text><rect x="592.356" y="64.32" width="15.288" height="623.04" fill="none" stroke="#5E737B" stroke-width="3"/><text x="600.356" y="88.32" fill="#5E737B" font-family="sans-serif" font-size="20">boundary</text><rect x="3" y="3" width="1194" height="794" fill="none" stroke="#5E737B" stroke-width="4"/></svg>

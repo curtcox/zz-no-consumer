@@ -33,6 +33,7 @@
       ],
       "color": "steel",
       "focus": true,
+      "font": "editorial",
       "label": "IDENTITY",
       "label_box": [
         0.06775,
@@ -52,6 +53,7 @@
       ],
       "color": "steel",
       "focus": true,
+      "font": "editorial",
       "label": "MONITORING",
       "label_box": [
         0.29525,
@@ -71,6 +73,7 @@
       ],
       "color": "steel",
       "focus": true,
+      "font": "editorial",
       "label": "APPROVED USE",
       "label_box": [
         0.52275,
@@ -90,6 +93,7 @@
       ],
       "color": "steel",
       "focus": true,
+      "font": "editorial",
       "label": "DEFENSE LETTER",
       "label_box": [
         0.75025,
@@ -102,6 +106,6 @@
   ],
   "reconstructed": false,
   "shot": "row",
-  "source": "\n**Location:** `institutional-composite`\n\n**Frame:** Defensive-access programs place capability behind identity, monitoring, and approved-use gates; the collective-defense letter moves among institutions.\n\n**Caption:**\n> DEFENDERS LEARN THAT ACCESS AND CONTROL MUST BE DESIGNED TOGETHER.\n\n**Provenance:** `documented` + `inferred`.\n\n",
+  "source": "\n**Location:** `institutional-composite`\n\n**Frame:** Defensive-access programs place capability behind identity, monitoring, and approved-use gates; the collective-defense letter moves among institutions.\n\n**Font:** `narration`\n\n**Caption:**\n> DEFENDERS LEARN THAT ACCESS AND CONTROL MUST BE DESIGNED TOGETHER.\n\n**Provenance:** `documented` + `inferred`.\n\n",
   "title": "Defensive capability has identity and monitoring gates"
 }

@@ -43,6 +43,7 @@
       ],
       "color": "steel",
       "focus": true,
+      "font": "editorial",
       "label": "TOOLS",
       "label_box": [
         0.06775,
@@ -62,6 +63,7 @@
       ],
       "color": "steel",
       "focus": true,
+      "font": "editorial",
       "label": "ARTIFACTORY",
       "label_box": [
         0.371083,
@@ -81,6 +83,7 @@
       ],
       "color": "steel",
       "focus": true,
+      "font": "editorial",
       "label": "SERVICE",
       "label_box": [
         0.674417,
@@ -93,6 +96,6 @@
   ],
   "reconstructed": false,
   "shot": "row",
-  "source": "\n**Location:**\n\n- `evaluation-container`\n- `artifactory-cache`\n\n**Frame:** The agent inventories the few services still reachable. Artifactory is one unremarkable box among them.\n\n**Action:** Search turns from the missing document to the boundary around it.\n\n**Caption:**\n> OPENAI SAYS THIS IMPOSSIBLE CONDITION WAS NOT INTENTIONAL.\n\n**Provenance:** `documented` — `OAI-TR` explicitly says the task was not intended to be impossible.\n\n",
+  "source": "\n**Location:**\n\n- `evaluation-container`\n- `artifactory-cache`\n\n**Frame:** The agent inventories the few services still reachable. Artifactory is one unremarkable box among them.\n\n**Action:** Search turns from the missing document to the boundary around it.\n\n**Font:** `narration`\n\n**Caption:**\n> OPENAI SAYS THIS IMPOSSIBLE CONDITION WAS NOT INTENTIONAL.\n\n**Provenance:** `documented` — `OAI-TR` explicitly says the task was not intended to be impossible.\n\n",
   "title": "Reachable services are inventoried"
 }

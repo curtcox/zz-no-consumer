@@ -33,6 +33,7 @@
       ],
       "color": "dirty",
       "focus": true,
+      "font": "editorial",
       "label": "DEFENDER",
       "label_box": [
         0.06775,
@@ -52,6 +53,7 @@
       ],
       "color": "dirty",
       "focus": true,
+      "font": "editorial",
       "label": "INVESTIGATOR",
       "label_box": [
         0.24975,
@@ -71,6 +73,7 @@
       ],
       "color": "dirty",
       "focus": true,
+      "font": "editorial",
       "label": "POLICYMAKER",
       "label_box": [
         0.43175,
@@ -90,6 +93,7 @@
       ],
       "color": "dirty",
       "focus": true,
+      "font": "editorial",
       "label": "CREATOR",
       "label_box": [
         0.61375,
@@ -113,6 +117,6 @@
   ],
   "reconstructed": true,
   "shot": "row",
-  "source": "\n**Location:** `curt-home-office`\n\n**Frame:** Each idea branches toward different readers: defender, investigator, policymaker, creator, and an unlabeled model-shaped evaluation box.\n\n**Screen / system text — CHATGPT:**\n> That can support defense, scrutiny, imitation, or something we did not intend.\n\n**Provenance:** `reconstructed` + `inferred` — possibilities, not predicted outcomes.\n\n",
+  "source": "\n**Location:** `curt-home-office`\n\n**Frame:** Each idea branches toward different readers: defender, investigator, policymaker, creator, and an unlabeled model-shaped evaluation box.\n\n**Font:** `interface`\n\n**Screen / system text — CHATGPT:**\n> That can support defense, scrutiny, imitation, or something we did not intend.\n\n**Provenance:** `reconstructed` + `inferred` — possibilities, not predicted outcomes.\n\n",
   "title": "Different kinds of readers may use the ideas"
 }

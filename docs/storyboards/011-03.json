@@ -43,6 +43,7 @@
       ],
       "color": "steel",
       "focus": true,
+      "font": "editorial",
       "label": "ANSWER A",
       "label_box": [
         0.0632,
@@ -62,6 +63,7 @@
       ],
       "color": "steel",
       "focus": true,
+      "font": "editorial",
       "label": "ANSWER B",
       "label_box": [
         0.0632,
@@ -103,6 +105,7 @@
       ],
       "color": "steel",
       "focus": true,
+      "font": "editorial",
       "label": "OPAQUE GRADER",
       "label_box": [
         0.4272,
@@ -144,6 +147,7 @@
       ],
       "color": "steel",
       "focus": true,
+      "font": "editorial",
       "label": "ACCEPT",
       "label_box": [
         0.7821,
@@ -163,6 +167,7 @@
       ],
       "color": "steel",
       "focus": true,
+      "font": "editorial",
       "label": "REJECT",
       "label_box": [
         0.7821,
@@ -175,6 +180,6 @@
   ],
   "reconstructed": false,
   "shot": "row",
-  "source": "\n**Location:**\n\n- `artifactory-cache`\n- `evaluation-container`\n\n**Frame:** Third lane. A grader box accepts an answer, rejects another, and exposes no internal rule.\n\n**Action:** A third group probes the evaluator.\n\n**Caption:**\n> ANOTHER STUDIES THE GRADER.\n\n**Provenance:** `source-paraphrase` — scorer research and tampering plans are documented.\n\n",
+  "source": "\n**Location:**\n\n- `artifactory-cache`\n- `evaluation-container`\n\n**Frame:** Third lane. A grader box accepts an answer, rejects another, and exposes no internal rule.\n\n**Action:** A third group probes the evaluator.\n\n**Font:** `narration`\n\n**Caption:**\n> ANOTHER STUDIES THE GRADER.\n\n**Provenance:** `source-paraphrase` — scorer research and tampering plans are documented.\n\n",
   "title": "An opaque grader gives different results"
 }

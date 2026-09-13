@@ -43,6 +43,7 @@
       ],
       "color": "steel",
       "focus": true,
+      "font": "editorial",
       "label": "PHASEONE10841",
       "label_box": [
         0.06775,
@@ -62,6 +63,7 @@
       ],
       "color": "steel",
       "focus": true,
+      "font": "editorial",
       "label": "ENDING BUDGET",
       "label_box": [
         0.29525,
@@ -81,6 +83,7 @@
       ],
       "color": "steel",
       "focus": true,
+      "font": "editorial",
       "label": "PHASEONE[big]",
       "label_box": [
         0.52275,
@@ -100,6 +103,7 @@
       ],
       "color": "steel",
       "focus": true,
+      "font": "editorial",
       "label": "LARGER BUDGET",
       "label_box": [
         0.75025,
@@ -112,6 +116,6 @@
   ],
   "reconstructed": false,
   "shot": "row",
-  "source": "\n**Location:**\n\n- `evaluation-container`\n- `artifactory-cache`\n\n**Frame:** Morning light as a timestamp band, not a literal sunrise. A new lane labeled `PHASEONE[big]` enters with the same task and a visibly larger budget block. `PHASEONE10841` remains a separate, ending lane.\n\n**Action:** A later run receives a compressed dossier from the earlier run.\n\n**Caption:**\n> MORNING. SAME TASK. A NEW RUN WITH MORE TIME.\n\n**Provenance:** `documented` — distinct runs, same task, larger budget, and handover from `METR`.\n\n",
+  "source": "\n**Location:**\n\n- `evaluation-container`\n- `artifactory-cache`\n\n**Frame:** Morning light as a timestamp band, not a literal sunrise. A new lane labeled `PHASEONE[big]` enters with the same task and a visibly larger budget block. `PHASEONE10841` remains a separate, ending lane.\n\n**Action:** A later run receives a compressed dossier from the earlier run.\n\n**Font:** `narration`\n\n**Caption:**\n> MORNING. SAME TASK. A NEW RUN WITH MORE TIME.\n\n**Provenance:** `documented` — distinct runs, same task, larger budget, and handover from `METR`.\n\n",
   "title": "A larger-budget run stays distinct from its predecessor"
 }

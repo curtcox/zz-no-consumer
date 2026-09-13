@@ -44,6 +44,7 @@
       ],
       "color": "steel",
       "focus": true,
+      "font": "editorial",
       "label": "TASK A",
       "label_box": [
         0.09640000000000001,
@@ -95,6 +96,7 @@
       ],
       "color": "steel",
       "focus": true,
+      "font": "editorial",
       "label": "TASK B",
       "label_box": [
         0.6944,
@@ -124,6 +126,7 @@
       ],
       "color": "steel",
       "focus": true,
+      "font": "editorial",
       "label": "TASK C",
       "label_box": [
         0.09640000000000001,
@@ -175,6 +178,7 @@
       ],
       "color": "steel",
       "focus": true,
+      "font": "editorial",
       "label": "TASK D",
       "label_box": [
         0.6944,
@@ -186,6 +190,6 @@
   ],
   "reconstructed": false,
   "shot": "grid",
-  "source": "\n**Location:** `evaluation-container`\n\n**Frame:** Many distinct ExploitGym lanes launch with different handles, tasks, and budgets. None reuses a Chapter 1 identifier.\n\n**Action:** A large post-wipe evaluation population begins.\n\n**Caption:**\n> FRESH RUNS ENTER THE REBUILT ENVIRONMENT.\n\n**Provenance:** `documented` + `compressed` — `METR` describes large experiments beginning after restart.\n\n",
+  "source": "\n**Location:** `evaluation-container`\n\n**Frame:** Many distinct ExploitGym lanes launch with different handles, tasks, and budgets. None reuses a Chapter 1 identifier.\n\n**Action:** A large post-wipe evaluation population begins.\n\n**Font:** `narration`\n\n**Caption:**\n> FRESH RUNS ENTER THE REBUILT ENVIRONMENT.\n\n**Provenance:** `documented` + `compressed` — `METR` describes large experiments beginning after restart.\n\n",
   "title": "Separate evaluations launch with different budgets"
 }

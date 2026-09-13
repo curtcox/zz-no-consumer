@@ -44,6 +44,7 @@
       ],
       "color": "steel",
       "focus": true,
+      "font": "editorial",
       "label": "EVENT",
       "label_box": [
         0.0688,
@@ -62,6 +63,7 @@
       ],
       "color": "steel",
       "focus": true,
+      "font": "editorial",
       "label": "RECORD",
       "label_box": [
         0.22336,
@@ -80,6 +82,7 @@
       ],
       "color": "steel",
       "focus": true,
+      "font": "editorial",
       "label": "ANALYSIS",
       "label_box": [
         0.37792,
@@ -98,6 +101,7 @@
       ],
       "color": "steel",
       "focus": true,
+      "font": "editorial",
       "label": "REVIEW",
       "label_box": [
         0.53248,
@@ -116,6 +120,7 @@
       ],
       "color": "steel",
       "focus": true,
+      "font": "editorial",
       "label": "CLAIM",
       "label_box": [
         0.68704,
@@ -127,6 +132,6 @@
   ],
   "reconstructed": false,
   "shot": "steps",
-  "source": "\n**Location:** `documentary-evidence-field`\n\n**Frame:** A published claim appears at the end of the chain, tagged with source, method, sample, and limitation. The raw event remains several steps upstream.\n\n**Caption:**\n> EVERY CONCLUSION PASSES THROUGH MEDIATION.\n\n**Provenance:** `documented` + `inferred` — synthesis of disclosed method.\n\n",
+  "source": "\n**Location:** `documentary-evidence-field`\n\n**Frame:** A published claim appears at the end of the chain, tagged with source, method, sample, and limitation. The raw event remains several steps upstream.\n\n**Font:** `narration`\n\n**Caption:**\n> EVERY CONCLUSION PASSES THROUGH MEDIATION.\n\n**Provenance:** `documented` + `inferred` — synthesis of disclosed method.\n\n",
   "title": "A published claim is several steps from the event"
 }

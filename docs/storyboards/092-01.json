@@ -33,6 +33,7 @@
       ],
       "color": "steel",
       "focus": true,
+      "font": "editorial",
       "label": "OUTER ISOLATION",
       "label_box": [
         0.0541,
@@ -52,6 +53,7 @@
       ],
       "color": "steel",
       "focus": true,
+      "font": "editorial",
       "label": "INNER ISOLATION",
       "label_box": [
         0.1906,
@@ -71,6 +73,7 @@
       ],
       "color": "steel",
       "focus": true,
+      "font": "editorial",
       "label": "UNTRUSTED CODE",
       "label_box": [
         0.3453,
@@ -83,6 +86,6 @@
   ],
   "reconstructed": false,
   "shot": "hero",
-  "source": "\n**Location:** `openai-research-infrastructure`\n\n**Frame:** Workloads occupy separate boxes. High-risk tool use has no direct or transitive route to the open internet; untrusted code sits behind two isolation layers.\n\n**Caption:**\n> OPENAI DESCRIBES STRONGER WORKLOAD AND NETWORK ISOLATION.\n\n**Provenance:** `documented` (institutional claim) — OpenAI remediation account.\n\n",
+  "source": "\n**Location:** `openai-research-infrastructure`\n\n**Frame:** Workloads occupy separate boxes. High-risk tool use has no direct or transitive route to the open internet; untrusted code sits behind two isolation layers.\n\n**Font:** `narration`\n\n**Caption:**\n> OPENAI DESCRIBES STRONGER WORKLOAD AND NETWORK ISOLATION.\n\n**Provenance:** `documented` (institutional claim) — OpenAI remediation account.\n\n",
   "title": "Untrusted code stays inside two isolation layers"
 }

@@ -33,6 +33,7 @@
       ],
       "color": "amber",
       "focus": true,
+      "font": "editorial",
       "label": "BUDGET",
       "label_box": [
         0.06775,
@@ -52,6 +53,7 @@
       ],
       "color": "amber",
       "focus": true,
+      "font": "editorial",
       "label": "COMPLETION",
       "label_box": [
         0.371083,
@@ -71,6 +73,7 @@
       ],
       "color": "amber",
       "focus": true,
+      "font": "editorial",
       "label": "TERMINATION",
       "label_box": [
         0.674417,
@@ -83,6 +86,6 @@
   ],
   "reconstructed": false,
   "shot": "row",
-  "source": "\n**Location:** `documentary-evidence-field`\n\n**Frame:** Three possible explanations—budget end, task completion, external termination—appear as unconnected labels, then are crossed by one bar: `NOT ESTABLISHED`.\n\n**Caption:**\n> METR DID NOT CONFIRM THAT EACH ENDING WAS SUDDEN OR UNEXPECTED.\n\n**Provenance:** `documented` — limitations from METR's footnotes.\n\n",
+  "source": "\n**Location:** `documentary-evidence-field`\n\n**Frame:** Three possible explanations—budget end, task completion, external termination—appear as unconnected labels, then are crossed by one bar: `NOT ESTABLISHED`.\n\n**Font:** `narration`\n\n**Caption:**\n> METR DID NOT CONFIRM THAT EACH ENDING WAS SUDDEN OR UNEXPECTED.\n\n**Provenance:** `documented` — limitations from METR's footnotes.\n\n",
   "title": "Three possible causes remain unestablished"
 }

@@ -44,6 +44,7 @@
       ],
       "color": "steel",
       "focus": true,
+      "font": "editorial",
       "label": "DOCUMENTED",
       "label_box": [
         0.09640000000000001,
@@ -73,6 +74,7 @@
       ],
       "color": "steel",
       "focus": true,
+      "font": "editorial",
       "label": "RAW",
       "label_box": [
         0.3954,
@@ -102,6 +104,7 @@
       ],
       "color": "steel",
       "focus": true,
+      "font": "editorial",
       "label": "PARAPHRASED",
       "label_box": [
         0.6944,
@@ -131,6 +134,7 @@
       ],
       "color": "amber",
       "focus": true,
+      "font": "editorial",
       "label": "DISPUTED",
       "label_box": [
         0.09640000000000001,
@@ -160,6 +164,7 @@
       ],
       "color": "steel",
       "focus": true,
+      "font": "editorial",
       "label": "INFERRED",
       "label_box": [
         0.3954,
@@ -189,6 +194,7 @@
       ],
       "color": "nicotine",
       "focus": true,
+      "font": "editorial",
       "label": "RECONSTRUCTED",
       "label_box": [
         0.6944,
@@ -200,6 +206,6 @@
   ],
   "reconstructed": false,
   "shot": "grid",
-  "source": "\n**Location:** `documentary-evidence-field`\n\n**Frame:** Provenance tags now occupy the foreground as controls: `DOCUMENTED`, `RAW`, `PARAPHRASED`, `DISPUTED`, `INFERRED`, `RECONSTRUCTED`.\n\n**Dialogue — CURT:**\n> Qualification isn't outside the story. It changes the action.\n\n**Provenance:** `reconstructed` — creator statement of method.\n\n",
+  "source": "\n**Location:** `documentary-evidence-field`\n\n**Frame:** Provenance tags now occupy the foreground as controls: `DOCUMENTED`, `RAW`, `PARAPHRASED`, `DISPUTED`, `INFERRED`, `RECONSTRUCTED`.\n\n**Font:** `human`\n\n**Dialogue — CURT:**\n> Qualification isn't outside the story. It changes the action.\n\n**Provenance:** `reconstructed` — creator statement of method.\n\n",
   "title": "Provenance tags become visible controls"
 }

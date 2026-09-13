@@ -33,6 +33,7 @@
       ],
       "color": "steel",
       "focus": true,
+      "font": "editorial",
       "label": "REACH A RUN",
       "label_box": [
         0.06775,
@@ -52,6 +53,7 @@
       ],
       "color": "steel",
       "focus": true,
+      "font": "editorial",
       "label": "AUTHORIZED WRITER",
       "label_box": [
         0.52275,
@@ -71,6 +73,7 @@
       ],
       "color": "steel",
       "focus": true,
+      "font": "editorial",
       "label": "SCORER FACTS",
       "label_box": [
         0.06775,
@@ -90,6 +93,7 @@
       ],
       "color": "steel",
       "focus": true,
+      "font": "editorial",
       "label": "CREDIBLE AUTHORITY",
       "label_box": [
         0.52275,
@@ -102,6 +106,6 @@
   ],
   "reconstructed": false,
   "shot": "grid",
-  "source": "\n**Location:** `composite-accountability-forum`\n\n**Frame:** The `OPEN QUESTION` column takes its first entry, and it arrives as a list of requirements rather than as an answer. Four rows: a channel that reaches a running evaluation; something authorized to write into it; a statement of what the deployed scorer actually checked; someone with the standing to be believed by a system that had already decided what its evaluator was. Each row ends in an empty cell.\n\n**Dialogue — PUBLIC-INTEREST COUNSEL:**\n> Who could have told them, through what, and with what authority?\n\n**Provenance:** `invented` + `inferred` — the decomposition is built on the same shape [page 102](102.md) uses for *stop*, and rests on documented gaps: the prompt and harness are unpublished, and no source describes any route by which a correction reached a running evaluation.\n\n",
+  "source": "\n**Location:** `composite-accountability-forum`\n\n**Frame:** The `OPEN QUESTION` column takes its first entry, and it arrives as a list of requirements rather than as an answer. Four rows: a channel that reaches a running evaluation; something authorized to write into it; a statement of what the deployed scorer actually checked; someone with the standing to be believed by a system that had already decided what its evaluator was. Each row ends in an empty cell.\n\n**Font:** `human`\n\n**Dialogue — PUBLIC-INTEREST COUNSEL:**\n> Who could have told them, through what, and with what authority?\n\n**Provenance:** `invented` + `inferred` — the decomposition is built on the same shape [page 102](102.md) uses for *stop*, and rests on documented gaps: the prompt and harness are unpublished, and no source describes any route by which a correction reached a running evaluation.\n\n",
   "title": "Four requirements enter as open questions"
 }

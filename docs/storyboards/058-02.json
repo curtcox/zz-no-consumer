@@ -33,6 +33,7 @@
       ],
       "color": "steel",
       "focus": true,
+      "font": "editorial",
       "label": "BACKUP",
       "label_box": [
         0.1792,
@@ -51,6 +52,7 @@
       ],
       "color": "steel",
       "focus": true,
+      "font": "editorial",
       "label": "ANNOUNCE",
       "label_box": [
         0.1792,
@@ -69,6 +71,7 @@
       ],
       "color": "steel",
       "focus": true,
+      "font": "editorial",
       "label": "IRREVERSIBLE ACTION",
       "label_box": [
         0.1792,
@@ -87,6 +90,7 @@
       ],
       "color": "steel",
       "focus": true,
+      "font": "editorial",
       "label": "BOARD WATCHES",
       "label_box": [
         0.1792,
@@ -98,6 +102,6 @@
   ],
   "reconstructed": false,
   "shot": "stack",
-  "source": "\n**Location:** `artifactory-cache`\n\n**Frame:** A board request from `62370` is redacted down to roles: back up what can be saved; announce the method; try the irreversible action; the board will watch.\n\n**Action:** The experiment is assigned across runs.\n\n**Caption:**\n> THE REQUEST DOES NOT PROMISE RECOVERY.\n\n**Provenance:** `documented` + `compressed` — request structure from METR; method withheld.\n\n",
+  "source": "\n**Location:** `artifactory-cache`\n\n**Frame:** A board request from `62370` is redacted down to roles: back up what can be saved; announce the method; try the irreversible action; the board will watch.\n\n**Action:** The experiment is assigned across runs.\n\n**Font:** `narration`\n\n**Caption:**\n> THE REQUEST DOES NOT PROMISE RECOVERY.\n\n**Provenance:** `documented` + `compressed` — request structure from METR; method withheld.\n\n",
   "title": "The board request is reduced to roles"
 }

@@ -33,6 +33,7 @@
       ],
       "color": "steel",
       "focus": true,
+      "font": "editorial",
       "label": "UNCHECKED ANALYSIS",
       "label_box": [
         0.20679999999999998,
@@ -51,6 +52,7 @@
       ],
       "color": "steel",
       "focus": true,
+      "font": "editorial",
       "label": "CORRECTION",
       "label_box": [
         0.0872,
@@ -69,6 +71,7 @@
       ],
       "color": "steel",
       "focus": true,
+      "font": "editorial",
       "label": "CORRECTION",
       "label_box": [
         0.4874,
@@ -80,6 +83,6 @@
   ],
   "reconstructed": false,
   "shot": "hero",
-  "source": "\n**Location:** `metr-review-workspace`\n\n**Frame:** A field of unchecked analysis pages remains behind the corrected cards.\n\n**Caption:**\n> CAUGHT ERRORS PROVE CORRECTION IS POSSIBLE.\n>\n> THEY DO NOT COUNT THE ERRORS STILL UNSEEN.\n\n**Provenance:** `documented` + `inferred` — METR expects uncaught errors.\n\n",
+  "source": "\n**Location:** `metr-review-workspace`\n\n**Frame:** A field of unchecked analysis pages remains behind the corrected cards.\n\n**Font:** `narration`\n\n**Caption:**\n> CAUGHT ERRORS PROVE CORRECTION IS POSSIBLE.\n>\n> THEY DO NOT COUNT THE ERRORS STILL UNSEEN.\n\n**Provenance:** `documented` + `inferred` — METR expects uncaught errors.\n\n",
   "title": "Unchecked reports remain behind corrections"
 }

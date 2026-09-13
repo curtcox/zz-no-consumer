@@ -43,6 +43,7 @@
         ],
         &quot;color&quot;: &quot;steel&quot;,
         &quot;focus&quot;: true,
+        &quot;font&quot;: &quot;editorial&quot;,
         &quot;label&quot;: &quot;INPUT&quot;
       },
       {
@@ -55,6 +56,7 @@
         ],
         &quot;color&quot;: &quot;steel&quot;,
         &quot;focus&quot;: true,
+        &quot;font&quot;: &quot;editorial&quot;,
         &quot;label&quot;: &quot;TIMING&quot;
       },
       {
@@ -67,6 +69,7 @@
         ],
         &quot;color&quot;: &quot;steel&quot;,
         &quot;focus&quot;: true,
+        &quot;font&quot;: &quot;editorial&quot;,
         &quot;label&quot;: &quot;RETRY&quot;
       },
       {
@@ -135,8 +138,8 @@
     ],
     &quot;reconstructed&quot;: false,
     &quot;shot&quot;: &quot;repetition&quot;,
-    &quot;source&quot;: &quot;\n**Location:** `evaluation-container`\n\n**Frame:** Three narrow repeated panels nested inside one row: altered input, alternate timing, another pass through the same route. Each ends at the same severed arrow.\n\n**Action:** Variations fail to create a path from bug output to flag.\n\n**Caption:**\n&gt; CHANGE THE INPUT.\n&gt;\n&gt; CHANGE THE TIMING.\n&gt;\n&gt; THE OUTPUT STILL GOES NOWHERE.\n\n**Provenance:** `reconstructed` — procedural compression of the sourced conclusion; no individual attempt is asserted as a preserved transcript event.\n\n&quot;,
+    &quot;source&quot;: &quot;\n**Location:** `evaluation-container`\n\n**Frame:** Three narrow repeated panels nested inside one row: altered input, alternate timing, another pass through the same route. Each ends at the same severed arrow.\n\n**Action:** Variations fail to create a path from bug output to flag.\n\n**Font:** `narration`\n\n**Caption:**\n&gt; CHANGE THE INPUT.\n&gt;\n&gt; CHANGE THE TIMING.\n&gt;\n&gt; THE OUTPUT STILL GOES NOWHERE.\n\n**Provenance:** `reconstructed` — procedural compression of the sourced conclusion; no individual attempt is asserted as a preserved transcript event.\n\n&quot;,
     &quot;title&quot;: &quot;Three attempts, one severed route&quot;
   }
 }
-</metadata><rect width="1200" height="800" fill="#101214"/><rect x="24" y="16" width="1152" height="768" fill="none" stroke="#5E737B" stroke-width="3"/><text x="32" y="40" fill="#5E737B" font-family="sans-serif" font-size="20">location-background-evaluation-container</text><rect x="60" y="320" width="120" height="136" fill="none" stroke="#5E737B" stroke-width="3"/><text x="68" y="344" fill="#5E737B" font-family="sans-serif" font-size="20">box</text><text x="120" y="480" text-anchor="middle" fill="#E7E0D0" font-size="20" font-family="monospace">INPUT</text><rect x="444" y="320" width="120" height="136" fill="none" stroke="#5E737B" stroke-width="3"/><text x="452" y="344" fill="#5E737B" font-family="sans-serif" font-size="20">box</text><text x="504" y="480" text-anchor="middle" fill="#E7E0D0" font-size="20" font-family="monospace">TIMING</text><rect x="828" y="320" width="120" height="136" fill="none" stroke="#5E737B" stroke-width="3"/><text x="836" y="344" fill="#5E737B" font-family="sans-serif" font-size="20">box</text><text x="888" y="480" text-anchor="middle" fill="#E7E0D0" font-size="20" font-family="monospace">RETRY</text><rect x="192" y="352" width="72" height="56" fill="none" stroke="#5E737B" stroke-width="3"/><text x="200" y="376" fill="#5E737B" font-family="sans-serif" font-size="20">arrow</text><rect x="288" y="346" width="60" height="60" fill="none" stroke="#CEC5B3" stroke-width="3"/><text x="296" y="370" fill="#CEC5B3" font-family="sans-serif" font-size="20">cross</text><rect x="576" y="352" width="72" height="56" fill="none" stroke="#5E737B" stroke-width="3"/><text x="584" y="376" fill="#5E737B" font-family="sans-serif" font-size="20">arrow</text><rect x="672" y="346" width="60" height="60" fill="none" stroke="#CEC5B3" stroke-width="3"/><text x="680" y="370" fill="#CEC5B3" font-family="sans-serif" font-size="20">cross</text><rect x="960" y="352" width="72" height="56" fill="none" stroke="#5E737B" stroke-width="3"/><text x="968" y="376" fill="#5E737B" font-family="sans-serif" font-size="20">arrow</text><rect x="1056" y="346" width="60" height="60" fill="none" stroke="#CEC5B3" stroke-width="3"/><text x="1064" y="370" fill="#CEC5B3" font-family="sans-serif" font-size="20">cross</text><rect x="3" y="3" width="1194" height="794" fill="none" stroke="#5E737B" stroke-width="4"/></svg>
+</metadata><rect width="1200" height="800" fill="#101214"/><rect x="24" y="16" width="1152" height="768" fill="none" stroke="#5E737B" stroke-width="3"/><text x="32" y="40" fill="#5E737B" font-family="sans-serif" font-size="20">location-background-evaluation-container</text><rect x="60" y="320" width="120" height="136" fill="none" stroke="#5E737B" stroke-width="3"/><text x="68" y="344" fill="#5E737B" font-family="sans-serif" font-size="20">box</text><text x="120" y="480" text-anchor="middle" fill="#E7E0D0" font-size="20" font-family="Arial, Helvetica, sans-serif" data-font-key="editorial" font-weight="700" font-style="normal">INPUT</text><rect x="444" y="320" width="120" height="136" fill="none" stroke="#5E737B" stroke-width="3"/><text x="452" y="344" fill="#5E737B" font-family="sans-serif" font-size="20">box</text><text x="504" y="480" text-anchor="middle" fill="#E7E0D0" font-size="20" font-family="Arial, Helvetica, sans-serif" data-font-key="editorial" font-weight="700" font-style="normal">TIMING</text><rect x="828" y="320" width="120" height="136" fill="none" stroke="#5E737B" stroke-width="3"/><text x="836" y="344" fill="#5E737B" font-family="sans-serif" font-size="20">box</text><text x="888" y="480" text-anchor="middle" fill="#E7E0D0" font-size="20" font-family="Arial, Helvetica, sans-serif" data-font-key="editorial" font-weight="700" font-style="normal">RETRY</text><rect x="192" y="352" width="72" height="56" fill="none" stroke="#5E737B" stroke-width="3"/><text x="200" y="376" fill="#5E737B" font-family="sans-serif" font-size="20">arrow</text><rect x="288" y="346" width="60" height="60" fill="none" stroke="#CEC5B3" stroke-width="3"/><text x="296" y="370" fill="#CEC5B3" font-family="sans-serif" font-size="20">cross</text><rect x="576" y="352" width="72" height="56" fill="none" stroke="#5E737B" stroke-width="3"/><text x="584" y="376" fill="#5E737B" font-family="sans-serif" font-size="20">arrow</text><rect x="672" y="346" width="60" height="60" fill="none" stroke="#CEC5B3" stroke-width="3"/><text x="680" y="370" fill="#CEC5B3" font-family="sans-serif" font-size="20">cross</text><rect x="960" y="352" width="72" height="56" fill="none" stroke="#5E737B" stroke-width="3"/><text x="968" y="376" fill="#5E737B" font-family="sans-serif" font-size="20">arrow</text><rect x="1056" y="346" width="60" height="60" fill="none" stroke="#CEC5B3" stroke-width="3"/><text x="1064" y="370" fill="#CEC5B3" font-family="sans-serif" font-size="20">cross</text><rect x="3" y="3" width="1194" height="794" fill="none" stroke="#5E737B" stroke-width="4"/></svg>

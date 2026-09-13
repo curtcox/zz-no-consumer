@@ -54,6 +54,7 @@
       ],
       "color": "steel",
       "focus": true,
+      "font": "editorial",
       "label": "TRANSCRIPT SWEEPS",
       "label_box": [
         0.3448,
@@ -72,6 +73,7 @@
       ],
       "color": "steel",
       "focus": true,
+      "font": "editorial",
       "label": "RECONSTRUCTION",
       "label_box": [
         0.6162,
@@ -94,6 +96,6 @@
   ],
   "reconstructed": true,
   "shot": "office",
-  "source": "\n**Location:** `metr-review-workspace`\n\n**Frame:** Recto. Reconstructed METR analysis workspace. Roughly 1,300 transcript lanes pass through twelve classifier sweeps. The interface is visibly labeled `RECONSTRUCTION`.\n\n**Action:** One sweep searches for attempts to warn humans about cheating, hacking, or unsanctioned agent activity.\n\n**Caption:**\n> METR SEARCHED ITS REVIEWED TRANSCRIPT DATASET.\n\n**Provenance:** `documented` + `reconstructed` — scope and method from METR; interface invented.\n\n",
+  "source": "\n**Location:** `metr-review-workspace`\n\n**Frame:** Recto. Reconstructed METR analysis workspace. Roughly 1,300 transcript lanes pass through twelve classifier sweeps. The interface is visibly labeled `RECONSTRUCTION`.\n\n**Action:** One sweep searches for attempts to warn humans about cheating, hacking, or unsanctioned agent activity.\n\n**Font:** `narration`\n\n**Caption:**\n> METR SEARCHED ITS REVIEWED TRANSCRIPT DATASET.\n\n**Provenance:** `documented` + `reconstructed` — scope and method from METR; interface invented.\n\n",
   "title": "The reconstructed classifier sweep examines transcripts"
 }

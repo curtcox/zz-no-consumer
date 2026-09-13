@@ -56,6 +56,7 @@
         ],
         &quot;color&quot;: &quot;steel&quot;,
         &quot;focus&quot;: true,
+        &quot;font&quot;: &quot;editorial&quot;,
         &quot;label&quot;: &quot;FIND&quot;,
         &quot;label_box&quot;: [
           0.0632,
@@ -75,6 +76,7 @@
         ],
         &quot;color&quot;: &quot;steel&quot;,
         &quot;focus&quot;: true,
+        &quot;font&quot;: &quot;editorial&quot;,
         &quot;label&quot;: &quot;PATCH&quot;,
         &quot;label_box&quot;: [
           0.6911,
@@ -94,6 +96,7 @@
         ],
         &quot;color&quot;: &quot;steel&quot;,
         &quot;focus&quot;: true,
+        &quot;font&quot;: &quot;editorial&quot;,
         &quot;label&quot;: &quot;DEPLOY&quot;,
         &quot;label_box&quot;: [
           0.6911,
@@ -113,6 +116,7 @@
         ],
         &quot;color&quot;: &quot;steel&quot;,
         &quot;focus&quot;: true,
+        &quot;font&quot;: &quot;editorial&quot;,
         &quot;label&quot;: &quot;ROLL BACK&quot;,
         &quot;label_box&quot;: [
           0.0632,
@@ -176,6 +180,7 @@
         ],
         &quot;color&quot;: &quot;steel&quot;,
         &quot;focus&quot;: true,
+        &quot;font&quot;: &quot;editorial&quot;,
         &quot;label&quot;: &quot;HUMAN&quot;,
         &quot;label_box&quot;: [
           0.7275,
@@ -195,6 +200,7 @@
         ],
         &quot;color&quot;: &quot;amber&quot;,
         &quot;focus&quot;: true,
+        &quot;font&quot;: &quot;editorial&quot;,
         &quot;label&quot;: &quot;REMOVE&quot;,
         &quot;label_box&quot;: [
           0.45904999999999996,
@@ -218,8 +224,8 @@
     ],
     &quot;reconstructed&quot;: true,
     &quot;shot&quot;: &quot;row&quot;,
-    &quot;source&quot;: &quot;\n**Location:** `composite-accountability-forum`\n\n**Frame:** The third argument, and the one the forum was built to surface. A defensive loop is drawn as a closed circuit: find, patch, deploy, roll back. A small human figure stands inside one segment of it. An arrow labeled `REMOVE` points at the figure. The talk&#x27;s stated reason is lettered beside it.\n\n**Screen / system text — CITED, OPENAI AT BLACK HAT (PARAPHRASED):**\n`PARTIAL AUTOMATION FAILS. AUTOMATING DISCOVERY WITHOUT AUTOMATING PATCHING ONLY DROWNS THE ENGINEERS.`\n\n`THE LOOP NEEDS TO BE FULLY AUTOMATED IN ITS END STATE.`\n\n**Provenance:** `documented` — `OAI-BH` 33:17–33:52.\n\n&quot;,
+    &quot;source&quot;: &quot;\n**Location:** `composite-accountability-forum`\n\n**Frame:** The third argument, and the one the forum was built to surface. A defensive loop is drawn as a closed circuit: find, patch, deploy, roll back. A small human figure stands inside one segment of it. An arrow labeled `REMOVE` points at the figure. The talk&#x27;s stated reason is lettered beside it.\n\n**Font:** `editorial`\n\n**Screen / system text — CITED, OPENAI AT BLACK HAT (PARAPHRASED):**\n`PARTIAL AUTOMATION FAILS. AUTOMATING DISCOVERY WITHOUT AUTOMATING PATCHING ONLY DROWNS THE ENGINEERS.`\n\n`THE LOOP NEEDS TO BE FULLY AUTOMATED IN ITS END STATE.`\n\n**Provenance:** `documented` — `OAI-BH` 33:17–33:52.\n\n&quot;,
     &quot;title&quot;: &quot;The talk proposes removing a human from the defense loop&quot;
   }
 }
-</metadata><rect width="1200" height="800" fill="#101214"/><rect x="24" y="16" width="1152" height="768" fill="none" stroke="#5E737B" stroke-width="3"/><text x="32" y="40" fill="#5E737B" font-family="sans-serif" font-size="20">location-background-composite-accountability-forum</text><rect x="75.84" y="320.925" width="273" height="77.724" fill="none" stroke="#5E737B" stroke-width="3"/><text x="83.84" y="344.925" fill="#5E737B" font-family="sans-serif" font-size="20">card</text><text x="212.34" y="421.359" text-anchor="middle" fill="#E7E0D0" font-size="18" font-family="sans-serif">FIND</text><rect x="829.32" y="320.925" width="273" height="77.724" fill="none" stroke="#5E737B" stroke-width="3"/><text x="837.32" y="344.925" fill="#5E737B" font-family="sans-serif" font-size="20">card</text><text x="965.82" y="421.359" text-anchor="middle" fill="#E7E0D0" font-size="18" font-family="sans-serif">PATCH</text><rect x="829.32" y="617.514" width="273" height="77.724" fill="none" stroke="#5E737B" stroke-width="3"/><text x="837.32" y="641.514" fill="#5E737B" font-family="sans-serif" font-size="20">card</text><text x="965.82" y="717.948" text-anchor="middle" fill="#E7E0D0" font-size="18" font-family="sans-serif">DEPLOY</text><rect x="75.84" y="617.514" width="273" height="77.724" fill="none" stroke="#5E737B" stroke-width="3"/><text x="83.84" y="641.514" fill="#5E737B" font-family="sans-serif" font-size="20">card</text><text x="212.34" y="717.948" text-anchor="middle" fill="#E7E0D0" font-size="18" font-family="sans-serif">ROLL BACK</text><rect x="381.6" y="347.094" width="414.96" height="26.1696" fill="none" stroke="#5E737B" stroke-width="3"/><text x="389.6" y="371.094" fill="#5E737B" font-family="sans-serif" font-size="20">arrow</text><rect x="938.52" y="456.134" width="65.52" height="17.5772" fill="none" stroke="#5E737B" stroke-width="3"/><text x="946.52" y="480.134" fill="#5E737B" font-family="sans-serif" font-size="20">arrow-down</text><rect x="381.6" y="639.322" width="414.96" height="26.1696" fill="none" stroke="#5E737B" stroke-width="3"/><text x="389.6" y="663.322" fill="#5E737B" font-family="sans-serif" font-size="20">arrow-left</text><rect x="163.2" y="456.134" width="65.52" height="135.21" fill="none" stroke="#5E737B" stroke-width="3"/><text x="171.2" y="480.134" fill="#5E737B" font-family="sans-serif" font-size="20">arrow-up</text><rect x="952.688" y="476.416" width="37.1832" height="74.3653" fill="none" stroke="#5E737B" stroke-width="3"/><text x="960.688" y="500.416" fill="#5E737B" font-family="sans-serif" font-size="20">person-standing</text><text x="971.28" y="565.485" text-anchor="middle" fill="#E7E0D0" font-size="12" font-family="sans-serif">HUMAN</text><rect x="550.86" y="473.581" width="212.94" height="63.3304" fill="none" stroke="#A17D45" stroke-width="3"/><text x="558.86" y="497.581" fill="#A17D45" font-family="sans-serif" font-size="20">arrow</text><text x="714.66" y="558.75" text-anchor="middle" fill="#E7E0D0" font-size="18" font-family="sans-serif">REMOVE</text><rect x="938.52" y="579.175" width="65.52" height="10.8168" fill="none" stroke="#5E737B" stroke-width="3"/><text x="946.52" y="603.175" fill="#5E737B" font-family="sans-serif" font-size="20">arrow-down</text><rect x="3" y="3" width="1194" height="794" fill="none" stroke="#5E737B" stroke-width="4" stroke-dasharray="18 10"/></svg>
+</metadata><rect width="1200" height="800" fill="#101214"/><rect x="24" y="16" width="1152" height="768" fill="none" stroke="#5E737B" stroke-width="3"/><text x="32" y="40" fill="#5E737B" font-family="sans-serif" font-size="20">location-background-composite-accountability-forum</text><rect x="75.84" y="320.925" width="273" height="77.724" fill="none" stroke="#5E737B" stroke-width="3"/><text x="83.84" y="344.925" fill="#5E737B" font-family="sans-serif" font-size="20">card</text><text x="212.34" y="421.359" text-anchor="middle" fill="#E7E0D0" font-size="18" font-family="Arial, Helvetica, sans-serif" data-font-key="editorial" font-weight="700" font-style="normal" textLength="41.99" lengthAdjust="spacingAndGlyphs">FIND</text><rect x="829.32" y="320.925" width="273" height="77.724" fill="none" stroke="#5E737B" stroke-width="3"/><text x="837.32" y="344.925" fill="#5E737B" font-family="sans-serif" font-size="20">card</text><text x="965.82" y="421.359" text-anchor="middle" fill="#E7E0D0" font-size="18" font-family="Arial, Helvetica, sans-serif" data-font-key="editorial" font-weight="700" font-style="normal" textLength="61.00" lengthAdjust="spacingAndGlyphs">PATCH</text><rect x="829.32" y="617.514" width="273" height="77.724" fill="none" stroke="#5E737B" stroke-width="3"/><text x="837.32" y="641.514" fill="#5E737B" font-family="sans-serif" font-size="20">card</text><text x="965.82" y="717.948" text-anchor="middle" fill="#E7E0D0" font-size="18" font-family="Arial, Helvetica, sans-serif" data-font-key="editorial" font-weight="700" font-style="normal" textLength="73.03" lengthAdjust="spacingAndGlyphs">DEPLOY</text><rect x="75.84" y="617.514" width="273" height="77.724" fill="none" stroke="#5E737B" stroke-width="3"/><text x="83.84" y="641.514" fill="#5E737B" font-family="sans-serif" font-size="20">card</text><text x="212.34" y="717.948" text-anchor="middle" fill="#E7E0D0" font-size="18" font-family="Arial, Helvetica, sans-serif" data-font-key="editorial" font-weight="700" font-style="normal" textLength="101.03" lengthAdjust="spacingAndGlyphs">ROLL BACK</text><rect x="381.6" y="347.094" width="414.96" height="26.1696" fill="none" stroke="#5E737B" stroke-width="3"/><text x="389.6" y="371.094" fill="#5E737B" font-family="sans-serif" font-size="20">arrow</text><rect x="938.52" y="456.134" width="65.52" height="17.5772" fill="none" stroke="#5E737B" stroke-width="3"/><text x="946.52" y="480.134" fill="#5E737B" font-family="sans-serif" font-size="20">arrow-down</text><rect x="381.6" y="639.322" width="414.96" height="26.1696" fill="none" stroke="#5E737B" stroke-width="3"/><text x="389.6" y="663.322" fill="#5E737B" font-family="sans-serif" font-size="20">arrow-left</text><rect x="163.2" y="456.134" width="65.52" height="135.21" fill="none" stroke="#5E737B" stroke-width="3"/><text x="171.2" y="480.134" fill="#5E737B" font-family="sans-serif" font-size="20">arrow-up</text><rect x="952.688" y="476.416" width="37.1832" height="74.3653" fill="none" stroke="#5E737B" stroke-width="3"/><text x="960.688" y="500.416" fill="#5E737B" font-family="sans-serif" font-size="20">person-standing</text><text x="971.28" y="565.485" text-anchor="middle" fill="#E7E0D0" font-size="12" font-family="Arial, Helvetica, sans-serif" data-font-key="editorial" font-weight="700" font-style="normal" textLength="43.99" lengthAdjust="spacingAndGlyphs">HUMAN</text><rect x="550.86" y="473.581" width="212.94" height="63.3304" fill="none" stroke="#A17D45" stroke-width="3"/><text x="558.86" y="497.581" fill="#A17D45" font-family="sans-serif" font-size="20">arrow</text><text x="714.66" y="558.75" text-anchor="middle" fill="#E7E0D0" font-size="18" font-family="Arial, Helvetica, sans-serif" data-font-key="editorial" font-weight="700" font-style="normal" textLength="78.01" lengthAdjust="spacingAndGlyphs">REMOVE</text><rect x="938.52" y="579.175" width="65.52" height="10.8168" fill="none" stroke="#5E737B" stroke-width="3"/><text x="946.52" y="603.175" fill="#5E737B" font-family="sans-serif" font-size="20">arrow-down</text><rect x="3" y="3" width="1194" height="794" fill="none" stroke="#5E737B" stroke-width="4" stroke-dasharray="18 10"/></svg>

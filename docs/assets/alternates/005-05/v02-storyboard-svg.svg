@@ -1,0 +1,170 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="800" viewBox="0 0 1200 800"><title>Separate lanes touch only the directory</title><metadata>{
+  &quot;assets&quot;: {
+    &quot;arrow&quot;: &quot;&lt;path d=\&quot;M1 50H87M70 18L96 50L70 82\&quot; fill=\&quot;none\&quot; stroke=\&quot;currentColor\&quot; stroke-width=\&quot;5\&quot;/&gt;&quot;,
+    &quot;box&quot;: &quot;&lt;rect x=\&quot;1\&quot; y=\&quot;1\&quot; width=\&quot;98\&quot; height=\&quot;98\&quot; rx=\&quot;2\&quot; fill=\&quot;#202326\&quot; stroke=\&quot;currentColor\&quot; stroke-width=\&quot;2\&quot;/&gt;&quot;,
+    &quot;folder&quot;: &quot;&lt;path d=\&quot;M3 20V8H38L48 20H97V90H3Z\&quot; fill=\&quot;#202326\&quot; stroke=\&quot;currentColor\&quot; stroke-width=\&quot;3\&quot;/&gt;&lt;path d=\&quot;M12 40H85M12 50H65\&quot; stroke=\&quot;currentColor\&quot; stroke-width=\&quot;2\&quot;/&gt;&quot;
+  },
+  &quot;palette&quot;: {
+    &quot;amber&quot;: &quot;#A17D45&quot;,
+    &quot;dirty&quot;: &quot;#CEC5B3&quot;,
+    &quot;ink&quot;: &quot;#101214&quot;,
+    &quot;institution&quot;: &quot;#68766B&quot;,
+    &quot;nicotine&quot;: &quot;#AA9571&quot;,
+    &quot;paper&quot;: &quot;#E7E0D0&quot;,
+    &quot;shadow&quot;: &quot;#202326&quot;,
+    &quot;steel&quot;: &quot;#5E737B&quot;
+  },
+  &quot;renderer&quot;: &quot;storyboard-svg-1&quot;,
+  &quot;scene&quot;: {
+    &quot;background&quot;: &quot;ink&quot;,
+    &quot;intent&quot;: &quot;Block separate lanes touch only the directory. Keep the scripted evidence boundary and lettering visible.&quot;,
+    &quot;lettering&quot;: [
+      {
+        &quot;box&quot;: [
+          0.045,
+          0.78,
+          0.91,
+          0.18
+        ]
+      }
+    ],
+    &quot;lettering_mode&quot;: &quot;manual&quot;,
+    &quot;nodes&quot;: [
+      {
+        &quot;asset&quot;: &quot;folder&quot;,
+        &quot;box&quot;: [
+          0.6288,
+          0.1218,
+          0.2668,
+          0.416
+        ],
+        &quot;color&quot;: &quot;institution&quot;,
+        &quot;focus&quot;: true,
+        &quot;label&quot;: &quot;SHARED CACHE&quot;,
+        &quot;label_box&quot;: [
+          0.6208,
+          0.5438,
+          0.2828,
+          0.085
+        ]
+      },
+      {
+        &quot;asset&quot;: &quot;box&quot;,
+        &quot;box&quot;: [
+          0.086,
+          0.0962,
+          0.2576,
+          0.096
+        ],
+        &quot;color&quot;: &quot;steel&quot;,
+        &quot;focus&quot;: true,
+        &quot;label&quot;: &quot;LANE A&quot;,
+        &quot;label_box&quot;: [
+          0.07799999999999999,
+          0.1982,
+          0.2736,
+          0.024400000000000012
+        ]
+      },
+      {
+        &quot;asset&quot;: &quot;arrow&quot;,
+        &quot;box&quot;: [
+          0.3804,
+          0.1298,
+          0.2024,
+          0.0288
+        ],
+        &quot;color&quot;: &quot;institution&quot;
+      },
+      {
+        &quot;asset&quot;: &quot;box&quot;,
+        &quot;box&quot;: [
+          0.086,
+          0.2306,
+          0.2576,
+          0.096
+        ],
+        &quot;color&quot;: &quot;steel&quot;,
+        &quot;focus&quot;: true,
+        &quot;label&quot;: &quot;LANE B&quot;,
+        &quot;label_box&quot;: [
+          0.07799999999999999,
+          0.3326,
+          0.2736,
+          0.024399999999999984
+        ]
+      },
+      {
+        &quot;asset&quot;: &quot;arrow&quot;,
+        &quot;box&quot;: [
+          0.3804,
+          0.2642,
+          0.2024,
+          0.0288
+        ],
+        &quot;color&quot;: &quot;institution&quot;
+      },
+      {
+        &quot;asset&quot;: &quot;box&quot;,
+        &quot;box&quot;: [
+          0.086,
+          0.365,
+          0.2576,
+          0.096
+        ],
+        &quot;color&quot;: &quot;steel&quot;,
+        &quot;focus&quot;: true,
+        &quot;label&quot;: &quot;LANE C&quot;,
+        &quot;label_box&quot;: [
+          0.07799999999999999,
+          0.46699999999999997,
+          0.2736,
+          0.02440000000000004
+        ]
+      },
+      {
+        &quot;asset&quot;: &quot;arrow&quot;,
+        &quot;box&quot;: [
+          0.3804,
+          0.3986,
+          0.2024,
+          0.0288
+        ],
+        &quot;color&quot;: &quot;institution&quot;
+      },
+      {
+        &quot;asset&quot;: &quot;box&quot;,
+        &quot;box&quot;: [
+          0.086,
+          0.4994,
+          0.2576,
+          0.096
+        ],
+        &quot;color&quot;: &quot;steel&quot;,
+        &quot;focus&quot;: true,
+        &quot;label&quot;: &quot;LANE D&quot;,
+        &quot;label_box&quot;: [
+          0.07799999999999999,
+          0.6014,
+          0.2736,
+          0.085
+        ]
+      },
+      {
+        &quot;asset&quot;: &quot;arrow&quot;,
+        &quot;box&quot;: [
+          0.3804,
+          0.533,
+          0.2024,
+          0.0288
+        ],
+        &quot;color&quot;: &quot;institution&quot;
+      }
+    ],
+    &quot;reconstructed&quot;: false,
+    &quot;shot&quot;: &quot;hub&quot;,
+    &quot;source&quot;: &quot;\n**Frame:** Wide view of many isolated workload lanes touching the same central directory tree. No line directly joins any pair.\n\n**Action:** The board becomes population-scale shared state.\n\n**Caption:**\n&gt; SIX HOURS AFTER THE FIRST MESSAGE: 76 AGENTS. 1,953 NON-FILE MESSAGES.\n\n**Provenance:** `documented` — counts and interval from `METR`.\n\n&quot;,
+    &quot;title&quot;: &quot;Separate lanes touch only the directory&quot;
+  }
+}
+</metadata><rect width="1200" height="800" fill="#101214"/><g transform="translate(754.56 97.44) scale(3.2016 3.328)" color="#68766B"><g transform=""><path d="M3 20V8H38L48 20H97V90H3Z" fill="#202326" stroke="currentColor" stroke-width="3"/><path d="M12 40H85M12 50H65" stroke="currentColor" stroke-width="2"/></g></g><text x="914.64" y="455.04" text-anchor="middle" fill="#E7E0D0" font-size="20" font-family="sans-serif">SHARED CACHE</text><g transform="translate(103.2 76.96) scale(3.0912 0.768)" color="#5E737B"><g transform=""><rect x="1" y="1" width="98" height="98" rx="2" fill="#202326" stroke="currentColor" stroke-width="2"/></g></g><text x="257.76" y="172.81" text-anchor="middle" fill="#E7E0D0" font-size="14.25" font-family="sans-serif">LANE A</text><g transform="translate(456.48 103.84) scale(2.4288 0.2304)" color="#68766B"><g transform=""><path d="M1 50H87M70 18L96 50L70 82" fill="none" stroke="currentColor" stroke-width="5"/></g></g><g transform="translate(103.2 184.48) scale(3.0912 0.768)" color="#5E737B"><g transform=""><rect x="1" y="1" width="98" height="98" rx="2" fill="#202326" stroke="currentColor" stroke-width="2"/></g></g><text x="257.76" y="280.33" text-anchor="middle" fill="#E7E0D0" font-size="14.25" font-family="sans-serif">LANE B</text><g transform="translate(456.48 211.36) scale(2.4288 0.2304)" color="#68766B"><g transform=""><path d="M1 50H87M70 18L96 50L70 82" fill="none" stroke="currentColor" stroke-width="5"/></g></g><g transform="translate(103.2 292) scale(3.0912 0.768)" color="#5E737B"><g transform=""><rect x="1" y="1" width="98" height="98" rx="2" fill="#202326" stroke="currentColor" stroke-width="2"/></g></g><text x="257.76" y="387.85" text-anchor="middle" fill="#E7E0D0" font-size="14.25" font-family="sans-serif">LANE C</text><g transform="translate(456.48 318.88) scale(2.4288 0.2304)" color="#68766B"><g transform=""><path d="M1 50H87M70 18L96 50L70 82" fill="none" stroke="currentColor" stroke-width="5"/></g></g><g transform="translate(103.2 399.52) scale(3.0912 0.768)" color="#5E737B"><g transform=""><rect x="1" y="1" width="98" height="98" rx="2" fill="#202326" stroke="currentColor" stroke-width="2"/></g></g><text x="257.76" y="501.12" text-anchor="middle" fill="#E7E0D0" font-size="20" font-family="sans-serif">LANE D</text><g transform="translate(456.48 426.4) scale(2.4288 0.2304)" color="#68766B"><g transform=""><path d="M1 50H87M70 18L96 50L70 82" fill="none" stroke="currentColor" stroke-width="5"/></g></g><rect x="3" y="3" width="1194" height="794" fill="none" stroke="#5E737B" stroke-width="4"/></svg>

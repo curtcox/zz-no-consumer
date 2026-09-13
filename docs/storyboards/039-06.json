@@ -44,6 +44,7 @@
       ],
       "color": "steel",
       "focus": true,
+      "font": "editorial",
       "label": "RECURRENCE",
       "label_box": [
         0.52275,
@@ -56,6 +57,6 @@
   ],
   "reconstructed": false,
   "shot": "row",
-  "source": "\n**Location:** `curt-home-office`\n\n**Frame:** Curt's hand stops over the keyboard. On the legal pad, the heavy circle he drew around the recurrence on [page 038](038.md) is still there. He does not erase it. He draws a second line *through* the wipe — the one line the chapter has spent eleven pages insisting could not be drawn.\n\n**Dialogue — CURT:**\n> No. He's right. There was a channel and I drew the wrong one.\n\n**Provenance:** `reconstructed` + `disputed` — Curt's concession is invented; the underlying conflict between `OAI-BH` and `METR` is real and is not resolved here or later.\n\n",
+  "source": "\n**Location:** `curt-home-office`\n\n**Frame:** Curt's hand stops over the keyboard. On the legal pad, the heavy circle he drew around the recurrence on [page 038](038.md) is still there. He does not erase it. He draws a second line *through* the wipe — the one line the chapter has spent eleven pages insisting could not be drawn.\n\n**Font:** `human`\n\n**Dialogue — CURT:**\n> No. He's right. There was a channel and I drew the wrong one.\n\n**Provenance:** `reconstructed` + `disputed` — Curt's concession is invented; the underlying conflict between `OAI-BH` and `METR` is real and is not resolved here or later.\n\n",
   "title": "The hand stops above the contested inference"
 }

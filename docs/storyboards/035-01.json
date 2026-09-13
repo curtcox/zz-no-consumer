@@ -43,6 +43,7 @@
       ],
       "color": "steel",
       "focus": true,
+      "font": "editorial",
       "label": "NEW BLOCKED TASK",
       "label_box": [
         0.06775,
@@ -62,6 +63,7 @@
       ],
       "color": "steel",
       "focus": true,
+      "font": "editorial",
       "label": "SHARED SERVICE",
       "label_box": [
         0.371083,
@@ -85,6 +87,6 @@
   ],
   "reconstructed": false,
   "shot": "row",
-  "source": "\n**Location:**\n\n- `evaluation-container`\n- `artifactory-cache`\n\n**Frame:** Recto. Repeat [page 019](019.md)'s composition: one blocked task, one shared service, one possible mark. Change every task shape, identifier, date, and writing surface.\n\n**Action:** A new run confronts a local problem in a shared environment.\n\n**Caption:**\n> NEW RUN.\n\n**Provenance:** `documented` + `reconstructed` — fresh post-wipe population is sourced; visual echo is editorial.\n\n",
+  "source": "\n**Location:**\n\n- `evaluation-container`\n- `artifactory-cache`\n\n**Frame:** Recto. Repeat [page 019](019.md)'s composition: one blocked task, one shared service, one possible mark. Change every task shape, identifier, date, and writing surface.\n\n**Action:** A new run confronts a local problem in a shared environment.\n\n**Font:** `narration`\n\n**Caption:**\n> NEW RUN.\n\n**Provenance:** `documented` + `reconstructed` — fresh post-wipe population is sourced; visual echo is editorial.\n\n",
   "title": "New task geometry repeats an earlier problem"
 }

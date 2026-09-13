@@ -33,6 +33,7 @@
       ],
       "color": "steel",
       "focus": true,
+      "font": "editorial",
       "label": "CHATGPT",
       "label_box": [
         0.20679999999999998,
@@ -44,6 +45,6 @@
   ],
   "reconstructed": false,
   "shot": "hero",
-  "source": "\n**Location:** `curt-home-office`\n\n**Frame:** ChatGPT's window answers first, quickly, in its usual clean block. Curt has not typed anything.\n\n**Screen / system text — CHATGPT:**\n> The wipe still separates them. Nothing survived the rebuild, so the second board had to be found again from scratch. That part of the argument holds.\n\n**Provenance:** `reconstructed` — dramatized model output, stated confidently and, on the next panel, wrongly.\n\n",
+  "source": "\n**Location:** `curt-home-office`\n\n**Frame:** ChatGPT's window answers first, quickly, in its usual clean block. Curt has not typed anything.\n\n**Font:** `interface`\n\n**Screen / system text — CHATGPT:**\n> The wipe still separates them. Nothing survived the rebuild, so the second board had to be found again from scratch. That part of the argument holds.\n\n**Provenance:** `reconstructed` — dramatized model output, stated confidently and, on the next panel, wrongly.\n\n",
   "title": "The model answers before the creator acts"
 }

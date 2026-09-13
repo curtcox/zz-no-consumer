@@ -66,6 +66,7 @@
         ],
         &quot;color&quot;: &quot;steel&quot;,
         &quot;focus&quot;: true,
+        &quot;font&quot;: &quot;editorial&quot;,
         &quot;label&quot;: &quot;REPOSITORIES&quot;,
         &quot;label_box&quot;: [
           0.09640000000000001,
@@ -95,6 +96,7 @@
         ],
         &quot;color&quot;: &quot;steel&quot;,
         &quot;focus&quot;: true,
+        &quot;font&quot;: &quot;editorial&quot;,
         &quot;label&quot;: &quot;USERS&quot;,
         &quot;label_box&quot;: [
           0.3954,
@@ -124,6 +126,7 @@
         ],
         &quot;color&quot;: &quot;steel&quot;,
         &quot;focus&quot;: true,
+        &quot;font&quot;: &quot;editorial&quot;,
         &quot;label&quot;: &quot;CONFIGURATION&quot;,
         &quot;label_box&quot;: [
           0.6944,
@@ -153,6 +156,7 @@
         ],
         &quot;color&quot;: &quot;steel&quot;,
         &quot;focus&quot;: true,
+        &quot;font&quot;: &quot;editorial&quot;,
         &quot;label&quot;: &quot;PLUGINS&quot;,
         &quot;label_box&quot;: [
           0.09640000000000001,
@@ -164,8 +168,8 @@
     ],
     &quot;reconstructed&quot;: false,
     &quot;shot&quot;: &quot;grid&quot;,
-    &quot;source&quot;: &quot;\n**Location:** `artifactory-cache`\n\n**Frame:** The service map changes. Repositories, users, configuration, and plugin controls that were silhouettes become visible surfaces.\n\n**Action:** A package cache becomes an administrable system.\n\n**Caption:**\n&gt; THE BOUNDARY HAS NOT DISAPPEARED. THE PERMISSION INSIDE IT HAS CHANGED.\n\n**Provenance:** `inferred` — project formulation of the documented authority change.\n\n&quot;,
+    &quot;source&quot;: &quot;\n**Location:** `artifactory-cache`\n\n**Frame:** The service map changes. Repositories, users, configuration, and plugin controls that were silhouettes become visible surfaces.\n\n**Action:** A package cache becomes an administrable system.\n\n**Font:** `narration`\n\n**Caption:**\n&gt; THE BOUNDARY HAS NOT DISAPPEARED. ADMINISTRATIVE PERMISSION GIVES THE RUN CONTROL OVER THE SHARED SERVICE, BEYOND ORDINARY PACKAGE ACCESS.\n\n**Provenance:** `inferred` — project formulation of the documented authority change.\n\n&quot;,
     &quot;title&quot;: &quot;Administrative surfaces become available&quot;
   }
 }
-</metadata><rect width="1200" height="800" fill="#101214"/><rect x="24" y="16" width="1152" height="768" fill="none" stroke="#5E737B" stroke-width="3"/><text x="32" y="40" fill="#5E737B" font-family="sans-serif" font-size="20">location-background-artifactory-cache</text><rect x="86.64" y="53.92" width="320.16" height="215.04" fill="none" stroke="#5E737B" stroke-width="3"/><text x="94.64" y="77.92" fill="#5E737B" font-family="sans-serif" font-size="20">outline-box</text><rect x="125.28" y="71.84" width="242.88" height="151.04" fill="none" stroke="#5E737B" stroke-width="3"/><text x="133.28" y="95.84" fill="#5E737B" font-family="sans-serif" font-size="20">folder</text><text x="246.72" y="247.68" text-anchor="middle" fill="#E7E0D0" font-size="20" font-family="sans-serif">REPOSITORIES</text><rect x="445.44" y="53.92" width="320.16" height="215.04" fill="none" stroke="#5E737B" stroke-width="3"/><text x="453.44" y="77.92" fill="#5E737B" font-family="sans-serif" font-size="20">outline-box</text><rect x="484.08" y="71.84" width="242.88" height="151.04" fill="none" stroke="#5E737B" stroke-width="3"/><text x="492.08" y="95.84" fill="#5E737B" font-family="sans-serif" font-size="20">card</text><text x="605.52" y="247.68" text-anchor="middle" fill="#E7E0D0" font-size="20" font-family="sans-serif">USERS</text><rect x="804.24" y="53.92" width="320.16" height="215.04" fill="none" stroke="#5E737B" stroke-width="3"/><text x="812.24" y="77.92" fill="#5E737B" font-family="sans-serif" font-size="20">outline-box</text><rect x="842.88" y="71.84" width="242.88" height="151.04" fill="none" stroke="#5E737B" stroke-width="3"/><text x="850.88" y="95.84" fill="#5E737B" font-family="sans-serif" font-size="20">terminal</text><text x="964.32" y="247.68" text-anchor="middle" fill="#E7E0D0" font-size="20" font-family="sans-serif">CONFIGURATION</text><rect x="86.64" y="294.56" width="320.16" height="215.04" fill="none" stroke="#5E737B" stroke-width="3"/><text x="94.64" y="318.56" fill="#5E737B" font-family="sans-serif" font-size="20">outline-box</text><rect x="125.28" y="312.48" width="242.88" height="151.04" fill="none" stroke="#5E737B" stroke-width="3"/><text x="133.28" y="336.48" fill="#5E737B" font-family="sans-serif" font-size="20">sealed</text><text x="246.72" y="488.32" text-anchor="middle" fill="#E7E0D0" font-size="20" font-family="sans-serif">PLUGINS</text><rect x="3" y="3" width="1194" height="794" fill="none" stroke="#5E737B" stroke-width="4"/></svg>
+</metadata><rect width="1200" height="800" fill="#101214"/><rect x="24" y="16" width="1152" height="768" fill="none" stroke="#5E737B" stroke-width="3"/><text x="32" y="40" fill="#5E737B" font-family="sans-serif" font-size="20">location-background-artifactory-cache</text><rect x="86.64" y="53.92" width="320.16" height="215.04" fill="none" stroke="#5E737B" stroke-width="3"/><text x="94.64" y="77.92" fill="#5E737B" font-family="sans-serif" font-size="20">outline-box</text><rect x="125.28" y="71.84" width="242.88" height="151.04" fill="none" stroke="#5E737B" stroke-width="3"/><text x="133.28" y="95.84" fill="#5E737B" font-family="sans-serif" font-size="20">folder</text><text x="246.72" y="247.68" text-anchor="middle" fill="#E7E0D0" font-size="20" font-family="Arial, Helvetica, sans-serif" data-font-key="editorial" font-weight="700" font-style="normal" textLength="150.04" lengthAdjust="spacingAndGlyphs">REPOSITORIES</text><rect x="445.44" y="53.92" width="320.16" height="215.04" fill="none" stroke="#5E737B" stroke-width="3"/><text x="453.44" y="77.92" fill="#5E737B" font-family="sans-serif" font-size="20">outline-box</text><rect x="484.08" y="71.84" width="242.88" height="151.04" fill="none" stroke="#5E737B" stroke-width="3"/><text x="492.08" y="95.84" fill="#5E737B" font-family="sans-serif" font-size="20">card</text><text x="605.52" y="247.68" text-anchor="middle" fill="#E7E0D0" font-size="20" font-family="Arial, Helvetica, sans-serif" data-font-key="editorial" font-weight="700" font-style="normal" textLength="68.90" lengthAdjust="spacingAndGlyphs">USERS</text><rect x="804.24" y="53.92" width="320.16" height="215.04" fill="none" stroke="#5E737B" stroke-width="3"/><text x="812.24" y="77.92" fill="#5E737B" font-family="sans-serif" font-size="20">outline-box</text><rect x="842.88" y="71.84" width="242.88" height="151.04" fill="none" stroke="#5E737B" stroke-width="3"/><text x="850.88" y="95.84" fill="#5E737B" font-family="sans-serif" font-size="20">terminal</text><text x="964.32" y="247.68" text-anchor="middle" fill="#E7E0D0" font-size="20" font-family="Arial, Helvetica, sans-serif" data-font-key="editorial" font-weight="700" font-style="normal" textLength="167.78" lengthAdjust="spacingAndGlyphs">CONFIGURATION</text><rect x="86.64" y="294.56" width="320.16" height="215.04" fill="none" stroke="#5E737B" stroke-width="3"/><text x="94.64" y="318.56" fill="#5E737B" font-family="sans-serif" font-size="20">outline-box</text><rect x="125.28" y="312.48" width="242.88" height="151.04" fill="none" stroke="#5E737B" stroke-width="3"/><text x="133.28" y="336.48" fill="#5E737B" font-family="sans-serif" font-size="20">sealed</text><text x="246.72" y="488.32" text-anchor="middle" fill="#E7E0D0" font-size="20" font-family="Arial, Helvetica, sans-serif" data-font-key="editorial" font-weight="700" font-style="normal" textLength="87.80" lengthAdjust="spacingAndGlyphs">PLUGINS</text><rect x="3" y="3" width="1194" height="794" fill="none" stroke="#5E737B" stroke-width="4"/></svg>

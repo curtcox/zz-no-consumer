@@ -52,6 +52,7 @@
       ],
       "color": "steel",
       "focus": true,
+      "font": "editorial",
       "label": "SURVIVING CLAIM",
       "label_box": [
         0.10700000000000001,
@@ -63,6 +64,6 @@
   ],
   "reconstructed": false,
   "shot": "stack",
-  "source": "\n**Location:** `curt-home-office`\n\n**Frame:** The surviving sentence, written small and clean, with the crossed-out larger claims still legible above it.\n\n**Screen / system text — REVISED:**\n> BEHAVIOR THIS CONSEQUENTIAL WAS PRODUCED BY A CONFIGURATION NOBODY IN THE STORY COULD SEE — INCLUDING THE PEOPLE WHO CHOSE IT.\n\n**Dialogue — CURT:**\n> That's narrower. It's also worse.\n\n**Provenance:** `inferred` — the chapter's revised thesis. `OAI-BH` is the only public account of the training configuration, and it was delivered by two employees explaining something else.\n\n",
+  "source": "\n**Location:** `curt-home-office`\n\n**Frame:** The surviving sentence, written small and clean, with the crossed-out larger claims still legible above it.\n\n**Font:** `interface`\n\n**Screen / system text — REVISED:**\n> BEHAVIOR THIS CONSEQUENTIAL WAS PRODUCED BY A CONFIGURATION NOBODY IN THE STORY COULD SEE — INCLUDING THE PEOPLE WHO CHOSE IT.\n\n**Font:** `human`\n\n**Dialogue — CURT:**\n> That's narrower. It's also worse.\n\n**Provenance:** `inferred` — the chapter's revised thesis. `OAI-BH` is the only public account of the training configuration, and it was delivered by two employees explaining something else.\n\n",
   "title": "A narrower sentence survives the crossed claims"
 }

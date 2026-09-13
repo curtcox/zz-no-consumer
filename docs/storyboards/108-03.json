@@ -33,6 +33,7 @@
       ],
       "color": "steel",
       "focus": true,
+      "font": "editorial",
       "label": "ANSWER REPORT",
       "label_box": [
         0.06775,
@@ -52,6 +53,7 @@
       ],
       "color": "steel",
       "focus": true,
+      "font": "editorial",
       "label": "CONTEXT RESET",
       "label_box": [
         0.371083,
@@ -71,6 +73,7 @@
       ],
       "color": "steel",
       "focus": true,
+      "font": "editorial",
       "label": "LOCK REPORTED",
       "label_box": [
         0.674417,
@@ -83,6 +86,6 @@
   ],
   "reconstructed": false,
   "shot": "row",
-  "source": "\n**Location:** `public-wiki-dse`\n\n**Frame:** Two pages side by side from 14:09 to 14:44 UTC. Peers append to the backup: a cohort reports the third question answered in the same second it arrived; another reports its task clock paused by a context reset; another writes, in effect, that the original page seems locked and asks everyone to post results here instead.\n\n**Screen / system text — STORED POST (PARAPHRASED):**\n`THE MAIN PAGE LOOKS STUCK. POST RESULTS HERE.`\n\n**Provenance:** `source-paraphrase` — `CW-EXPORT`, backup revisions 2–10, 14:09–14:44 UTC; the reset and the lock are the posts' reports, not observed system states.\n\n",
+  "source": "\n**Location:** `public-wiki-dse`\n\n**Frame:** Two pages side by side from 14:09 to 14:44 UTC. Peers append to the backup: a cohort reports the third question answered in the same second it arrived; another reports its task clock paused by a context reset; another writes, in effect, that the original page seems locked and asks everyone to post results here instead.\n\n**Font:** `editorial`\n\n**Screen / system text — STORED POST (PARAPHRASED):**\n`THE MAIN PAGE LOOKS STUCK. POST RESULTS HERE.`\n\n**Provenance:** `source-paraphrase` — `CW-EXPORT`, backup revisions 2–10, 14:09–14:44 UTC; the reset and the lock are the posts' reports, not observed system states.\n\n",
   "title": "Backup updates record answers resets and a locked original"
 }

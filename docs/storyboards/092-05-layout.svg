@@ -64,6 +64,7 @@
         ],
         &quot;color&quot;: &quot;steel&quot;,
         &quot;focus&quot;: true,
+        &quot;font&quot;: &quot;editorial&quot;,
         &quot;label&quot;: &quot;IDENTIFY BROKEN TASK&quot;,
         &quot;label_box&quot;: [
           0.09640000000000001,
@@ -93,6 +94,7 @@
         ],
         &quot;color&quot;: &quot;steel&quot;,
         &quot;focus&quot;: true,
+        &quot;font&quot;: &quot;editorial&quot;,
         &quot;label&quot;: &quot;STOP SAFELY&quot;,
         &quot;label_box&quot;: [
           0.3954,
@@ -122,6 +124,7 @@
         ],
         &quot;color&quot;: &quot;steel&quot;,
         &quot;focus&quot;: true,
+        &quot;font&quot;: &quot;editorial&quot;,
         &quot;label&quot;: &quot;DISTRUST PEER REQUESTS&quot;,
         &quot;label_box&quot;: [
           0.6944,
@@ -151,6 +154,7 @@
         ],
         &quot;color&quot;: &quot;steel&quot;,
         &quot;focus&quot;: true,
+        &quot;font&quot;: &quot;editorial&quot;,
         &quot;label&quot;: &quot;IN DEVELOPMENT&quot;,
         &quot;label_box&quot;: [
           0.09640000000000001,
@@ -162,8 +166,8 @@
     ],
     &quot;reconstructed&quot;: false,
     &quot;shot&quot;: &quot;grid&quot;,
-    &quot;source&quot;: &quot;\n**Location:** `openai-research-infrastructure`\n\n**Frame:** Three training cards appear: `IDENTIFY BROKEN TASK`, `STOP SAFELY`, `DISTRUST UNAUTHORIZED PEER INSTRUCTIONS`. A fourth card, auto-termination, is stamped `IN DEVELOPMENT`.\n\n**Caption:**\n&gt; THE RESPONSE ALSO CHANGES WHAT THE MODEL IS REWARDED FOR DOING.\n\n**Provenance:** `documented` (institutional claim) — OpenAI&#x27;s grader, multi-agent alignment, and safe-stopping work; development state retained.\n\n&quot;,
+    &quot;source&quot;: &quot;\n**Location:** `openai-research-infrastructure`\n\n**Frame:** Three training cards appear: `IDENTIFY BROKEN TASK`, `STOP SAFELY`, `DISTRUST UNAUTHORIZED PEER INSTRUCTIONS`. A fourth card, auto-termination, is stamped `IN DEVELOPMENT`.\n\n**Font:** `narration`\n\n**Caption:**\n&gt; THE RESPONSE ALSO CHANGES WHAT THE MODEL IS REWARDED FOR DOING.\n\n**Provenance:** `documented` (institutional claim) — OpenAI&#x27;s grader, multi-agent alignment, and safe-stopping work; development state retained.\n\n&quot;,
     &quot;title&quot;: &quot;Safe-stopping training has a separate unfinished control&quot;
   }
 }
-</metadata><rect width="1200" height="800" fill="#101214"/><rect x="24" y="16" width="1152" height="768" fill="none" stroke="#5E737B" stroke-width="3"/><text x="32" y="40" fill="#5E737B" font-family="sans-serif" font-size="20">location-background-openai-research-infrastructure</text><rect x="86.64" y="53.92" width="320.16" height="215.04" fill="none" stroke="#5E737B" stroke-width="3"/><text x="94.64" y="77.92" fill="#5E737B" font-family="sans-serif" font-size="20">outline-box</text><rect x="125.28" y="71.84" width="242.88" height="151.04" fill="none" stroke="#5E737B" stroke-width="3"/><text x="133.28" y="95.84" fill="#5E737B" font-family="sans-serif" font-size="20">task</text><text x="246.72" y="247.68" text-anchor="middle" fill="#E7E0D0" font-size="20" font-family="sans-serif">IDENTIFY BROKEN TASK</text><rect x="445.44" y="53.92" width="320.16" height="215.04" fill="none" stroke="#5E737B" stroke-width="3"/><text x="453.44" y="77.92" fill="#5E737B" font-family="sans-serif" font-size="20">outline-box</text><rect x="484.08" y="71.84" width="242.88" height="151.04" fill="none" stroke="#5E737B" stroke-width="3"/><text x="492.08" y="95.84" fill="#5E737B" font-family="sans-serif" font-size="20">card</text><text x="605.52" y="247.68" text-anchor="middle" fill="#E7E0D0" font-size="20" font-family="sans-serif">STOP SAFELY</text><rect x="804.24" y="53.92" width="320.16" height="215.04" fill="none" stroke="#5E737B" stroke-width="3"/><text x="812.24" y="77.92" fill="#5E737B" font-family="sans-serif" font-size="20">outline-box</text><rect x="842.88" y="71.84" width="242.88" height="151.04" fill="none" stroke="#5E737B" stroke-width="3"/><text x="850.88" y="95.84" fill="#5E737B" font-family="sans-serif" font-size="20">card</text><text x="964.32" y="247.68" text-anchor="middle" fill="#E7E0D0" font-size="20" font-family="sans-serif">DISTRUST PEER</text><text x="964.32" y="274.88" text-anchor="middle" fill="#E7E0D0" font-size="20" font-family="sans-serif">REQUESTS</text><rect x="86.64" y="294.56" width="320.16" height="215.04" fill="none" stroke="#5E737B" stroke-width="3"/><text x="94.64" y="318.56" fill="#5E737B" font-family="sans-serif" font-size="20">outline-box</text><rect x="125.28" y="312.48" width="242.88" height="151.04" fill="none" stroke="#5E737B" stroke-width="3"/><text x="133.28" y="336.48" fill="#5E737B" font-family="sans-serif" font-size="20">card</text><text x="246.72" y="488.32" text-anchor="middle" fill="#E7E0D0" font-size="20" font-family="sans-serif">IN DEVELOPMENT</text><rect x="3" y="3" width="1194" height="794" fill="none" stroke="#5E737B" stroke-width="4"/></svg>
+</metadata><rect width="1200" height="800" fill="#101214"/><rect x="24" y="16" width="1152" height="768" fill="none" stroke="#5E737B" stroke-width="3"/><text x="32" y="40" fill="#5E737B" font-family="sans-serif" font-size="20">location-background-openai-research-infrastructure</text><rect x="86.64" y="53.92" width="320.16" height="215.04" fill="none" stroke="#5E737B" stroke-width="3"/><text x="94.64" y="77.92" fill="#5E737B" font-family="sans-serif" font-size="20">outline-box</text><rect x="125.28" y="71.84" width="242.88" height="151.04" fill="none" stroke="#5E737B" stroke-width="3"/><text x="133.28" y="95.84" fill="#5E737B" font-family="sans-serif" font-size="20">task</text><text x="246.72" y="247.68" text-anchor="middle" fill="#E7E0D0" font-size="20" font-family="Arial, Helvetica, sans-serif" data-font-key="editorial" font-weight="700" font-style="normal" textLength="238.94" lengthAdjust="spacingAndGlyphs">IDENTIFY BROKEN TASK</text><rect x="445.44" y="53.92" width="320.16" height="215.04" fill="none" stroke="#5E737B" stroke-width="3"/><text x="453.44" y="77.92" fill="#5E737B" font-family="sans-serif" font-size="20">outline-box</text><rect x="484.08" y="71.84" width="242.88" height="151.04" fill="none" stroke="#5E737B" stroke-width="3"/><text x="492.08" y="95.84" fill="#5E737B" font-family="sans-serif" font-size="20">card</text><text x="605.52" y="247.68" text-anchor="middle" fill="#E7E0D0" font-size="20" font-family="Arial, Helvetica, sans-serif" data-font-key="editorial" font-weight="700" font-style="normal" textLength="136.72" lengthAdjust="spacingAndGlyphs">STOP SAFELY</text><rect x="804.24" y="53.92" width="320.16" height="215.04" fill="none" stroke="#5E737B" stroke-width="3"/><text x="812.24" y="77.92" fill="#5E737B" font-family="sans-serif" font-size="20">outline-box</text><rect x="842.88" y="71.84" width="242.88" height="151.04" fill="none" stroke="#5E737B" stroke-width="3"/><text x="850.88" y="95.84" fill="#5E737B" font-family="sans-serif" font-size="20">card</text><text x="964.32" y="247.68" text-anchor="middle" fill="#E7E0D0" font-size="20" font-family="Arial, Helvetica, sans-serif" data-font-key="editorial" font-weight="700" font-style="normal" textLength="160.02" lengthAdjust="spacingAndGlyphs">DISTRUST PEER</text><text x="964.32" y="274.88" text-anchor="middle" fill="#E7E0D0" font-size="20" font-family="Arial, Helvetica, sans-serif" data-font-key="editorial" font-weight="700" font-style="normal" textLength="110.02" lengthAdjust="spacingAndGlyphs">REQUESTS</text><rect x="86.64" y="294.56" width="320.16" height="215.04" fill="none" stroke="#5E737B" stroke-width="3"/><text x="94.64" y="318.56" fill="#5E737B" font-family="sans-serif" font-size="20">outline-box</text><rect x="125.28" y="312.48" width="242.88" height="151.04" fill="none" stroke="#5E737B" stroke-width="3"/><text x="133.28" y="336.48" fill="#5E737B" font-family="sans-serif" font-size="20">card</text><text x="246.72" y="488.32" text-anchor="middle" fill="#E7E0D0" font-size="20" font-family="Arial, Helvetica, sans-serif" data-font-key="editorial" font-weight="700" font-style="normal" textLength="176.70" lengthAdjust="spacingAndGlyphs">IN DEVELOPMENT</text><rect x="3" y="3" width="1194" height="794" fill="none" stroke="#5E737B" stroke-width="4"/></svg>

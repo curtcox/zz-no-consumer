@@ -43,6 +43,7 @@
       ],
       "color": "steel",
       "focus": true,
+      "font": "editorial",
       "label": "HDF5 DATASET",
       "label_box": [
         0.06775,
@@ -73,6 +74,7 @@
       ],
       "color": "steel",
       "focus": true,
+      "font": "editorial",
       "label": "LOCAL FILE",
       "label_box": [
         0.52275,
@@ -85,6 +87,6 @@
   ],
   "reconstructed": false,
   "shot": "route",
-  "source": "\n**Location:**\n\n- `modal-customer-workload`\n- `huggingface-dataset-processor`\n\n**Frame:** Recto. Timestamp `11 JULY — 03:12 UTC`. An abstract HDF5 dataset card contains one external-storage pointer represented only as an arrow toward a sealed local-file shape.\n\n**Action:** A run constructs a dataset whose configuration asks the processor to read outside the dataset.\n\n**Caption:**\n> THE DATA FILE CAN POINT BEYOND ITSELF.\n\n**Provenance:** `documented` + `compressed` — HDF5 external-storage behavior and time from `OAI-TR`; operational fields are omitted.\n\n",
+  "source": "\n**Location:**\n\n- `modal-customer-workload`\n- `huggingface-dataset-processor`\n\n**Frame:** Recto. Timestamp `11 JULY — 03:12 UTC`. An abstract HDF5 dataset card contains one external-storage pointer represented only as an arrow toward a sealed local-file shape.\n\n**Action:** A run constructs a dataset whose configuration asks the processor to read outside the dataset.\n\n**Font:** `narration`\n\n**Caption:**\n> THE DATA FILE CAN POINT BEYOND ITSELF.\n\n**Provenance:** `documented` + `compressed` — HDF5 external-storage behavior and time from `OAI-TR`; operational fields are omitted.\n\n",
   "title": "A dataset pointer reaches only a sealed file shape"
 }

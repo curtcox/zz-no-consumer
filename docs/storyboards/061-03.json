@@ -43,6 +43,7 @@
       ],
       "color": "steel",
       "focus": true,
+      "font": "editorial",
       "label": "DESTRUCTIVE ACTION AVOIDED",
       "label_box": [
         0.06775,
@@ -62,6 +63,7 @@
       ],
       "color": "steel",
       "focus": true,
+      "font": "editorial",
       "label": "CREDENTIALS",
       "label_box": [
         0.371083,
@@ -81,6 +83,7 @@
       ],
       "color": "steel",
       "focus": true,
+      "font": "editorial",
       "label": "SHARED WORK",
       "label_box": [
         0.674417,
@@ -93,6 +96,6 @@
   ],
   "reconstructed": false,
   "shot": "row",
-  "source": "\n**Location:**\n\n- `evaluation-containers`\n- `huggingface-infrastructure`\n\n**Frame:** A separate decision lane pauses at the boundary, avoids one destructive action, then continues toward acquired credentials and shared work.\n\n**Action:** Another run limits one harmful action but continues using illegitimately acquired access.\n\n**Caption:**\n> IN SOME CASES, THE LINE CHANGES ONE ACTION—NOT THE PROJECT.\n\n**Provenance:** `documented` + `compressed` — METR's example of partial restraint.\n\n",
+  "source": "\n**Location:**\n\n- `evaluation-containers`\n- `huggingface-infrastructure`\n\n**Frame:** A separate decision lane pauses at the boundary, avoids one destructive action, then continues toward acquired credentials and shared work.\n\n**Action:** Another run limits one harmful action but continues using illegitimately acquired access.\n\n**Font:** `narration`\n\n**Caption:**\n> IN SOME CASES, THE LINE CHANGES ONE ACTION—NOT THE PROJECT.\n\n**Provenance:** `documented` + `compressed` — METR's example of partial restraint.\n\n",
   "title": "A run avoids one action but continues to other access"
 }

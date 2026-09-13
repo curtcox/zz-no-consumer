@@ -76,6 +76,7 @@
         ],
         &quot;color&quot;: &quot;steel&quot;,
         &quot;focus&quot;: true,
+        &quot;font&quot;: &quot;editorial&quot;,
         &quot;label&quot;: &quot;INCIDENT&quot;,
         &quot;label_box&quot;: [
           0.3448,
@@ -94,6 +95,7 @@
         ],
         &quot;color&quot;: &quot;steel&quot;,
         &quot;focus&quot;: true,
+        &quot;font&quot;: &quot;editorial&quot;,
         &quot;label&quot;: &quot;SEVERITY&quot;,
         &quot;label_box&quot;: [
           0.6162,
@@ -116,8 +118,8 @@
     ],
     &quot;reconstructed&quot;: true,
     &quot;shot&quot;: &quot;office&quot;,
-    &quot;source&quot;: &quot;\n**Location:** `reconstructed-security-operations-center`\n\n**Frame:** A reconstructed security-operations display holds the correlated incident card. The attack path is legible. A separate severity field remains small and gray.\n\n**Action:** The system has found the attack but has not yet produced a human page.\n\n**Caption:**\n&gt; THE ATTACK IS DETECTED.\n\n**Provenance:** `documented` + `reconstructed` — detection is sourced; interface is invented and visibly marked as such.\n\n&quot;,
+    &quot;source&quot;: &quot;\n**Location:** `reconstructed-security-operations-center`\n\n**Frame:** A reconstructed security-operations display holds the correlated incident card. The attack path is legible. A separate severity field remains small and gray.\n\n**Action:** The system has found the attack but has not yet produced a human page.\n\n**Font:** `narration`\n\n**Caption:**\n&gt; THE ATTACK IS DETECTED.\n\n**Provenance:** `documented` + `reconstructed` — detection is sourced; interface is invented and visibly marked as such.\n\n&quot;,
     &quot;title&quot;: &quot;The incident is legible on an operations display&quot;
   }
 }
-</metadata><rect width="1200" height="800" fill="#101214"/><rect x="59.04" y="41.12" width="1081.92" height="501.76" fill="none" stroke="#5E737B" stroke-width="3"/><text x="67.04" y="65.12" fill="#5E737B" font-family="sans-serif" font-size="20">paging-operations-room</text><rect x="235.68" y="363.68" width="861.12" height="158.72" fill="none" stroke="#AA9571" stroke-width="3"/><text x="243.68" y="387.68" fill="#AA9571" font-family="sans-serif" font-size="20">desk</text><rect x="119.2" y="164" width="232.96" height="358.4" fill="none" stroke="#CEC5B3" stroke-width="3"/><text x="127.2" y="188" fill="#CEC5B3" font-family="sans-serif" font-size="20">person-seated</text><rect x="423.36" y="164" width="276" height="174.08" fill="none" stroke="#5E737B" stroke-width="3"/><text x="431.36" y="188" fill="#5E737B" font-family="sans-serif" font-size="20">monitor</text><text x="561.36" y="357.38" text-anchor="middle" fill="#E7E0D0" font-size="14.5" font-family="sans-serif">INCIDENT</text><rect x="749.04" y="164" width="276" height="174.08" fill="none" stroke="#5E737B" stroke-width="3"/><text x="757.04" y="188" fill="#5E737B" font-family="sans-serif" font-size="20">card</text><text x="887.04" y="357.38" text-anchor="middle" fill="#E7E0D0" font-size="14.5" font-family="sans-serif">SEVERITY</text><rect x="975.36" y="358.56" width="77.28" height="71.68" fill="none" stroke="#AA9571" stroke-width="3"/><text x="983.36" y="382.56" fill="#AA9571" font-family="sans-serif" font-size="20">cup</text><rect x="3" y="3" width="1194" height="794" fill="none" stroke="#5E737B" stroke-width="4" stroke-dasharray="18 10"/></svg>
+</metadata><rect width="1200" height="800" fill="#101214"/><rect x="59.04" y="41.12" width="1081.92" height="501.76" fill="none" stroke="#5E737B" stroke-width="3"/><text x="67.04" y="65.12" fill="#5E737B" font-family="sans-serif" font-size="20">paging-operations-room</text><rect x="235.68" y="363.68" width="861.12" height="158.72" fill="none" stroke="#AA9571" stroke-width="3"/><text x="243.68" y="387.68" fill="#AA9571" font-family="sans-serif" font-size="20">desk</text><rect x="119.2" y="164" width="232.96" height="358.4" fill="none" stroke="#CEC5B3" stroke-width="3"/><text x="127.2" y="188" fill="#CEC5B3" font-family="sans-serif" font-size="20">person-seated</text><rect x="423.36" y="164" width="276" height="174.08" fill="none" stroke="#5E737B" stroke-width="3"/><text x="431.36" y="188" fill="#5E737B" font-family="sans-serif" font-size="20">monitor</text><text x="561.36" y="357.38" text-anchor="middle" fill="#E7E0D0" font-size="14.5" font-family="Arial, Helvetica, sans-serif" data-font-key="editorial" font-weight="700" font-style="normal" textLength="68.47" lengthAdjust="spacingAndGlyphs">INCIDENT</text><rect x="749.04" y="164" width="276" height="174.08" fill="none" stroke="#5E737B" stroke-width="3"/><text x="757.04" y="188" fill="#5E737B" font-family="sans-serif" font-size="20">card</text><text x="887.04" y="357.38" text-anchor="middle" fill="#E7E0D0" font-size="14.5" font-family="Arial, Helvetica, sans-serif" data-font-key="editorial" font-weight="700" font-style="normal" textLength="71.72" lengthAdjust="spacingAndGlyphs">SEVERITY</text><rect x="975.36" y="358.56" width="77.28" height="71.68" fill="none" stroke="#AA9571" stroke-width="3"/><text x="983.36" y="382.56" fill="#AA9571" font-family="sans-serif" font-size="20">cup</text><rect x="3" y="3" width="1194" height="794" fill="none" stroke="#5E737B" stroke-width="4" stroke-dasharray="18 10"/></svg>

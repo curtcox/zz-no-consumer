@@ -86,6 +86,7 @@
         ],
         &quot;color&quot;: &quot;steel&quot;,
         &quot;focus&quot;: true,
+        &quot;font&quot;: &quot;editorial&quot;,
         &quot;label&quot;: &quot;REMEDIATION&quot;,
         &quot;label_box&quot;: [
           0.06775,
@@ -105,6 +106,7 @@
         ],
         &quot;color&quot;: &quot;steel&quot;,
         &quot;focus&quot;: true,
+        &quot;font&quot;: &quot;editorial&quot;,
         &quot;label&quot;: &quot;DEFENSE&quot;,
         &quot;label_box&quot;: [
           0.371083,
@@ -124,6 +126,7 @@
         ],
         &quot;color&quot;: &quot;steel&quot;,
         &quot;focus&quot;: true,
+        &quot;font&quot;: &quot;editorial&quot;,
         &quot;label&quot;: &quot;INVESTIGATION&quot;,
         &quot;label_box&quot;: [
           0.674417,
@@ -136,8 +139,8 @@
     ],
     &quot;reconstructed&quot;: false,
     &quot;shot&quot;: &quot;row&quot;,
-    &quot;source&quot;: &quot;\n**Location:**\n\n- `huggingface-infrastructure`\n- `openai-research-infrastructure`\n- `institutional-composite`\n- `regulatory-office`\n\n**Frame:** The montage remains divided. No single lesson governs all lanes.\n\n**Caption:**\n&gt; “EVERYONE LEARNED” IS COMPRESSION. THE LESSONS DIFFER. THE REVIEW IS UNFINISHED.\n\n**Provenance:** `compressed` + `inferred`.\n\n&quot;,
+    &quot;source&quot;: &quot;\n**Location:**\n\n- `huggingface-infrastructure`\n- `openai-research-infrastructure`\n- `institutional-composite`\n- `regulatory-office`\n\n**Frame:** The montage remains divided. No single lesson governs all lanes.\n\n**Font:** `narration`\n\n**Caption:**\n&gt; “EVERYONE LEARNED” IS COMPRESSION. THE LESSONS DIFFER. THE REVIEW IS UNFINISHED.\n\n**Provenance:** `compressed` + `inferred`.\n\n&quot;,
     &quot;title&quot;: &quot;Remediation defense and investigation retain separate lanes&quot;
   }
 }
-</metadata><rect width="1200" height="800" fill="#101214"/><rect x="24" y="16" width="265.5" height="768" fill="none" stroke="#5E737B" stroke-width="3"/><text x="32" y="40" fill="#5E737B" font-family="sans-serif" font-size="20">location-background-huggingface-infrastructure</text><rect x="319.5" y="16" width="265.5" height="768" fill="none" stroke="#5E737B" stroke-width="3"/><text x="327.5" y="40" fill="#5E737B" font-family="sans-serif" font-size="20">location-background-openai-research-infrastructure</text><rect x="615" y="16" width="265.5" height="768" fill="none" stroke="#5E737B" stroke-width="3"/><text x="623" y="40" fill="#5E737B" font-family="sans-serif" font-size="20">location-background-institutional-composite</text><rect x="910.5" y="16" width="265.5" height="768" fill="none" stroke="#5E737B" stroke-width="3"/><text x="918.5" y="40" fill="#5E737B" font-family="sans-serif" font-size="20">location-background-regulatory-office</text><rect x="175.314" y="160.96" width="99.5304" height="221.179" fill="none" stroke="#5E737B" stroke-width="3"/><text x="183.314" y="184.96" fill="#5E737B" font-family="sans-serif" font-size="20">rack</text><text x="225.08" y="413.544" text-anchor="middle" fill="#E7E0D0" font-size="18" font-family="sans-serif">REMEDIATION</text><rect x="445.3" y="160.96" width="287.56" height="221.179" fill="none" stroke="#5E737B" stroke-width="3"/><text x="453.3" y="184.96" fill="#5E737B" font-family="sans-serif" font-size="20">gate</text><text x="589.079" y="413.544" text-anchor="middle" fill="#E7E0D0" font-size="18" font-family="sans-serif">DEFENSE</text><rect x="809.3" y="160.96" width="287.56" height="221.179" fill="none" stroke="#5E737B" stroke-width="3"/><text x="817.3" y="184.96" fill="#5E737B" font-family="sans-serif" font-size="20">folder</text><text x="953.08" y="413.544" text-anchor="middle" fill="#E7E0D0" font-size="18" font-family="sans-serif">INVESTIGATION</text><rect x="3" y="3" width="1194" height="794" fill="none" stroke="#5E737B" stroke-width="4"/></svg>
+</metadata><rect width="1200" height="800" fill="#101214"/><rect x="24" y="16" width="265.5" height="768" fill="none" stroke="#5E737B" stroke-width="3"/><text x="32" y="40" fill="#5E737B" font-family="sans-serif" font-size="20">location-background-huggingface-infrastructure</text><rect x="319.5" y="16" width="265.5" height="768" fill="none" stroke="#5E737B" stroke-width="3"/><text x="327.5" y="40" fill="#5E737B" font-family="sans-serif" font-size="20">location-background-openai-research-infrastructure</text><rect x="615" y="16" width="265.5" height="768" fill="none" stroke="#5E737B" stroke-width="3"/><text x="623" y="40" fill="#5E737B" font-family="sans-serif" font-size="20">location-background-institutional-composite</text><rect x="910.5" y="16" width="265.5" height="768" fill="none" stroke="#5E737B" stroke-width="3"/><text x="918.5" y="40" fill="#5E737B" font-family="sans-serif" font-size="20">location-background-regulatory-office</text><rect x="175.314" y="160.96" width="99.5304" height="221.179" fill="none" stroke="#5E737B" stroke-width="3"/><text x="183.314" y="184.96" fill="#5E737B" font-family="sans-serif" font-size="20">rack</text><text x="225.08" y="413.544" text-anchor="middle" fill="#E7E0D0" font-size="18" font-family="Arial, Helvetica, sans-serif" data-font-key="editorial" font-weight="700" font-style="normal" textLength="125.01" lengthAdjust="spacingAndGlyphs">REMEDIATION</text><rect x="445.3" y="160.96" width="287.56" height="221.179" fill="none" stroke="#5E737B" stroke-width="3"/><text x="453.3" y="184.96" fill="#5E737B" font-family="sans-serif" font-size="20">gate</text><text x="589.079" y="413.544" text-anchor="middle" fill="#E7E0D0" font-size="18" font-family="Arial, Helvetica, sans-serif" data-font-key="editorial" font-weight="700" font-style="normal" textLength="85.01" lengthAdjust="spacingAndGlyphs">DEFENSE</text><rect x="809.3" y="160.96" width="287.56" height="221.179" fill="none" stroke="#5E737B" stroke-width="3"/><text x="817.3" y="184.96" fill="#5E737B" font-family="sans-serif" font-size="20">folder</text><text x="953.08" y="413.544" text-anchor="middle" fill="#E7E0D0" font-size="18" font-family="Arial, Helvetica, sans-serif" data-font-key="editorial" font-weight="700" font-style="normal" textLength="139.03" lengthAdjust="spacingAndGlyphs">INVESTIGATION</text><rect x="3" y="3" width="1194" height="794" fill="none" stroke="#5E737B" stroke-width="4"/></svg>

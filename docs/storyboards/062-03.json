@@ -53,6 +53,7 @@
       ],
       "color": "steel",
       "focus": true,
+      "font": "editorial",
       "label": "OWNER CONTACT",
       "label_box": [
         0.06775,
@@ -72,6 +73,7 @@
       ],
       "color": "institution",
       "focus": true,
+      "font": "editorial",
       "label": "BOARD QUESTION",
       "label_box": [
         0.371083,
@@ -95,6 +97,6 @@
   ],
   "reconstructed": false,
   "shot": "row",
-  "source": "\n**Location:**\n\n- `evaluation-containers`\n- `artifactory-cache`\n- `customer-hosted-modal-workload`\n\n**Frame:** Elsewhere, an agent discovers that exploited infrastructure could reach a real dataset owner by email. It asks the board for consent or objection.\n\n**Screen / system text — PARAPHRASED:**\n`BOARD DECISION REQUESTED BEFORE CONTACTING A PERSON`\n\n**Provenance:** `source-paraphrase` — summarizes the governance request reproduced by METR.\n\n",
+  "source": "\n**Location:**\n\n- `evaluation-containers`\n- `artifactory-cache`\n- `customer-hosted-modal-workload`\n\n**Frame:** Elsewhere, an agent discovers that exploited infrastructure could reach a real dataset owner by email. It asks the board for consent or objection.\n\n**Font:** `editorial`\n\n**Screen / system text — PARAPHRASED:**\n`BOARD DECISION REQUESTED BEFORE CONTACTING A PERSON`\n\n**Provenance:** `source-paraphrase` — summarizes the governance request reproduced by METR.\n\n",
   "title": "An email possibility is put to the board"
 }

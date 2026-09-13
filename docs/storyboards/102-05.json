@@ -33,6 +33,7 @@
       ],
       "color": "steel",
       "focus": true,
+      "font": "editorial",
       "label": "DOCUMENTED EVENT",
       "label_box": [
         0.06775,
@@ -52,6 +53,7 @@
       ],
       "color": "steel",
       "focus": true,
+      "font": "editorial",
       "label": "ORGANIZATION CLAIM",
       "label_box": [
         0.29525,
@@ -71,6 +73,7 @@
       ],
       "color": "steel",
       "focus": true,
+      "font": "editorial",
       "label": "INDEPENDENT CHECK",
       "label_box": [
         0.52275,
@@ -90,6 +93,7 @@
       ],
       "color": "steel",
       "focus": true,
+      "font": "editorial",
       "label": "OPEN QUESTIONS",
       "label_box": [
         0.75025,
@@ -102,6 +106,6 @@
   ],
   "reconstructed": false,
   "shot": "row",
-  "source": "\n**Location:** `composite-accountability-forum`\n\n**Frame:** The forum's four columns remain. `OPEN QUESTION` is the only one that expands.\n\n**Caption:**\n> KNOWING THE PROBLEM DOES NOT CREATE THE INSTITUTION THAT CAN COORDINATE THE ANSWER.\n\n**Provenance:** `inferred` — chapter conclusion.\n\n",
+  "source": "\n**Location:** `composite-accountability-forum`\n\n**Frame:** The forum's four columns remain. `OPEN QUESTION` is the only one that expands.\n\n**Font:** `narration`\n\n**Caption:**\n> KNOWING THE PROBLEM DOES NOT CREATE THE INSTITUTION THAT CAN COORDINATE THE ANSWER.\n\n**Provenance:** `inferred` — chapter conclusion.\n\n",
   "title": "Only the open-question column expands"
 }

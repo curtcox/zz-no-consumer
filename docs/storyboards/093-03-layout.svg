@@ -63,6 +63,7 @@
         ],
         &quot;color&quot;: &quot;steel&quot;,
         &quot;focus&quot;: true,
+        &quot;font&quot;: &quot;editorial&quot;,
         &quot;label&quot;: &quot;MONITOR ALARM&quot;,
         &quot;label_box&quot;: [
           0.07799999999999999,
@@ -81,6 +82,7 @@
         ],
         &quot;color&quot;: &quot;steel&quot;,
         &quot;focus&quot;: true,
+        &quot;font&quot;: &quot;editorial&quot;,
         &quot;label&quot;: &quot;MORE THAN ONE DAY&quot;,
         &quot;label_box&quot;: [
           0.354,
@@ -99,6 +101,7 @@
         ],
         &quot;color&quot;: &quot;steel&quot;,
         &quot;focus&quot;: true,
+        &quot;font&quot;: &quot;editorial&quot;,
         &quot;label&quot;: &quot;BREACH&quot;,
         &quot;label_box&quot;: [
           0.63,
@@ -110,8 +113,8 @@
     ],
     &quot;reconstructed&quot;: false,
     &quot;shot&quot;: &quot;timeline&quot;,
-    &quot;source&quot;: &quot;\n**Location:** `report-comparison-space`\n\n**Frame:** A monitoring alarm appears more than one day before the breach marker on a reconstructed timeline.\n\n**Caption:**\n&gt; OPENAI SAYS ITS CHAIN-OF-THOUGHT MONITORING WOULD HAVE PAGED MORE THAN A DAY BEFORE THE HUGGING FACE BREACH.\n\n**Provenance:** `documented` (institutional claim) — counterfactual safeguard assessment by OpenAI.\n\n&quot;,
+    &quot;source&quot;: &quot;\n**Location:** `report-comparison-space`\n\n**Frame:** A monitoring alarm appears more than one day before the breach marker on a reconstructed timeline.\n\n**Font:** `narration`\n\n**Caption:**\n&gt; OPENAI SAYS ITS CHAIN-OF-THOUGHT MONITORING WOULD HAVE PAGED MORE THAN A DAY BEFORE THE HUGGING FACE BREACH.\n\n**Provenance:** `documented` (institutional claim) — counterfactual safeguard assessment by OpenAI.\n\n&quot;,
     &quot;title&quot;: &quot;A reconstructed alarm precedes the breach marker&quot;
   }
 }
-</metadata><rect width="1200" height="800" fill="#101214"/><rect x="24" y="16" width="1152" height="768" fill="none" stroke="#5E737B" stroke-width="3"/><text x="32" y="40" fill="#5E737B" font-family="sans-serif" font-size="20">location-background-report-comparison-space</text><rect x="92.16" y="292" width="1015.68" height="12.8" fill="none" stroke="#5E737B" stroke-width="3"/><text x="100.16" y="316" fill="#5E737B" font-family="sans-serif" font-size="20">line</text><rect x="103.2" y="143.52" width="261.28" height="112.64" fill="none" stroke="#5E737B" stroke-width="3"/><text x="111.2" y="167.52" fill="#5E737B" font-family="sans-serif" font-size="20">card</text><text x="233.84" y="278.96" text-anchor="middle" fill="#E7E0D0" font-size="18" font-family="sans-serif">MONITOR ALARM</text><rect x="508.72" y="143.52" width="112.64" height="112.64" fill="none" stroke="#5E737B" stroke-width="3"/><text x="516.72" y="167.52" fill="#5E737B" font-family="sans-serif" font-size="20">clock</text><text x="565.04" y="278.96" text-anchor="middle" fill="#E7E0D0" font-size="18" font-family="sans-serif">MORE THAN ONE DAY</text><rect x="765.6" y="143.52" width="261.28" height="112.64" fill="none" stroke="#5E737B" stroke-width="3"/><text x="773.6" y="167.52" fill="#5E737B" font-family="sans-serif" font-size="20">card</text><text x="896.24" y="278.96" text-anchor="middle" fill="#E7E0D0" font-size="18" font-family="sans-serif">BREACH</text><rect x="3" y="3" width="1194" height="794" fill="none" stroke="#5E737B" stroke-width="4"/></svg>
+</metadata><rect width="1200" height="800" fill="#101214"/><rect x="24" y="16" width="1152" height="768" fill="none" stroke="#5E737B" stroke-width="3"/><text x="32" y="40" fill="#5E737B" font-family="sans-serif" font-size="20">location-background-report-comparison-space</text><rect x="92.16" y="292" width="1015.68" height="12.8" fill="none" stroke="#5E737B" stroke-width="3"/><text x="100.16" y="316" fill="#5E737B" font-family="sans-serif" font-size="20">line</text><rect x="103.2" y="143.52" width="261.28" height="112.64" fill="none" stroke="#5E737B" stroke-width="3"/><text x="111.2" y="167.52" fill="#5E737B" font-family="sans-serif" font-size="20">card</text><text x="233.84" y="278.96" text-anchor="middle" fill="#E7E0D0" font-size="18" font-family="Arial, Helvetica, sans-serif" data-font-key="editorial" font-weight="700" font-style="normal" textLength="152.01" lengthAdjust="spacingAndGlyphs">MONITOR ALARM</text><rect x="508.72" y="143.52" width="112.64" height="112.64" fill="none" stroke="#5E737B" stroke-width="3"/><text x="516.72" y="167.52" fill="#5E737B" font-family="sans-serif" font-size="20">clock</text><text x="565.04" y="278.96" text-anchor="middle" fill="#E7E0D0" font-size="18" font-family="Arial, Helvetica, sans-serif" data-font-key="editorial" font-weight="700" font-style="normal" textLength="194.02" lengthAdjust="spacingAndGlyphs">MORE THAN ONE DAY</text><rect x="765.6" y="143.52" width="261.28" height="112.64" fill="none" stroke="#5E737B" stroke-width="3"/><text x="773.6" y="167.52" fill="#5E737B" font-family="sans-serif" font-size="20">card</text><text x="896.24" y="278.96" text-anchor="middle" fill="#E7E0D0" font-size="18" font-family="Arial, Helvetica, sans-serif" data-font-key="editorial" font-weight="700" font-style="normal" textLength="75.01" lengthAdjust="spacingAndGlyphs">BREACH</text><rect x="3" y="3" width="1194" height="794" fill="none" stroke="#5E737B" stroke-width="4"/></svg>

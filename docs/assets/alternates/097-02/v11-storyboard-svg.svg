@@ -1,0 +1,94 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="800" viewBox="0 0 1200 800"><title>The threshold claim coexists with the held run</title><desc>Place the institutional capability assessment beside the still-held run. A reported threshold assessment and a pause are separate facts that coexist. Visual distinction: A bounded workload tray with a large pause pair and a stop bar. A temporary operational disposition, not a breached wall or permanent destruction.</desc><metadata>{
+  &quot;assets&quot;: {
+    &quot;location-background-public-announcement-ledger&quot;: &quot;&lt;title&gt;Dated announcement folio — ruled&lt;/title&gt;&lt;defs&gt;&lt;linearGradient id=\&quot;wash\&quot; x1=\&quot;0\&quot; y1=\&quot;0\&quot; x2=\&quot;1\&quot; y2=\&quot;1\&quot;&gt;&lt;stop stop-color=\&quot;#C8B39C\&quot; stop-opacity=\&quot;.45\&quot;/&gt;&lt;stop offset=\&quot;.5\&quot; stop-color=\&quot;#5F4D3A\&quot; stop-opacity=\&quot;.22\&quot;/&gt;&lt;stop offset=\&quot;1\&quot; stop-color=\&quot;#C8B39C\&quot; stop-opacity=\&quot;.27\&quot;/&gt;&lt;/linearGradient&gt;&lt;radialGradient id=\&quot;fade\&quot;&gt;&lt;stop offset=\&quot;.35\&quot; stop-color=\&quot;black\&quot;/&gt;&lt;stop offset=\&quot;.7\&quot; stop-color=\&quot;#555555\&quot;/&gt;&lt;stop offset=\&quot;1\&quot; stop-color=\&quot;white\&quot;/&gt;&lt;/radialGradient&gt;&lt;mask id=\&quot;rim\&quot;&gt;&lt;rect width=\&quot;100\&quot; height=\&quot;100\&quot; fill=\&quot;url(#fade)\&quot;/&gt;&lt;/mask&gt;&lt;pattern id=\&quot;material\&quot; width=\&quot;16\&quot; height=\&quot;16\&quot; patternUnits=\&quot;userSpaceOnUse\&quot;&gt;&lt;g fill=\&quot;none\&quot; stroke=\&quot;#C8B39C\&quot; stroke-width=\&quot;.3\&quot; opacity=\&quot;.55\&quot;&gt;&lt;path d=\&quot;M0 4H16M0 12H16M3 0V16\&quot;/&gt;&lt;/g&gt;&lt;/pattern&gt;&lt;/defs&gt;\n&lt;rect x=\&quot;3\&quot; y=\&quot;3\&quot; width=\&quot;94\&quot; height=\&quot;94\&quot; rx=\&quot;1\&quot; fill=\&quot;url(#wash)\&quot;/&gt;&lt;rect x=\&quot;3\&quot; y=\&quot;3\&quot; width=\&quot;94\&quot; height=\&quot;94\&quot; fill=\&quot;url(#material)\&quot; mask=\&quot;url(#rim)\&quot;/&gt;&lt;path d=\&quot;M3 3H20V97H3Z\&quot; fill=\&quot;#5F4D3A\&quot; opacity=\&quot;.58\&quot;/&gt;&lt;path d=\&quot;M3 3H20V97H3Z\&quot; fill=\&quot;url(#material)\&quot;/&gt;&lt;path d=\&quot;M20 4V96\&quot; fill=\&quot;none\&quot; stroke=\&quot;#C8B39C\&quot; opacity=\&quot;.4\&quot; stroke-width=\&quot;.6\&quot;/&gt;&lt;path d=\&quot;M8 9H92V94H8ZM8 23H92M19 5V16M40 5V16M61 5V16M82 5V16M13 31H22M13 47H22M13 63H22M13 79H22M32 88H84\&quot; fill=\&quot;none\&quot; stroke=\&quot;#080B0D\&quot; stroke-width=\&quot;1.7\&quot; opacity=\&quot;.45\&quot; transform=\&quot;translate(.35 .5)\&quot;/&gt;&lt;path d=\&quot;M8 9H92V94H8ZM8 23H92M19 5V16M40 5V16M61 5V16M82 5V16M13 31H22M13 47H22M13 63H22M13 79H22M32 88H84\&quot; fill=\&quot;none\&quot; stroke=\&quot;#C8B39C\&quot; stroke-width=\&quot;.8\&quot; stroke-linejoin=\&quot;round\&quot; opacity=\&quot;.66\&quot;/&gt;&quot;,
+    &quot;paper&quot;: &quot;&lt;defs&gt;\n&lt;linearGradient id=\&quot;stock\&quot; x1=\&quot;0\&quot; y1=\&quot;0\&quot; x2=\&quot;.8\&quot; y2=\&quot;1\&quot;&gt;&lt;stop stop-color=\&quot;#E7E0D0\&quot; /&gt;&lt;stop offset=\&quot;1\&quot; stop-color=\&quot;#CEC5B3\&quot; /&gt;&lt;/linearGradient&gt;\n&lt;pattern id=\&quot;grain\&quot; width=\&quot;7\&quot; height=\&quot;9\&quot; patternUnits=\&quot;userSpaceOnUse\&quot;&gt;&lt;circle cx=\&quot;1\&quot; cy=\&quot;2\&quot; r=\&quot;.35\&quot; fill=\&quot;#101214\&quot; opacity=\&quot;.18\&quot; /&gt;&lt;path d=\&quot;M4 6h2M1 8h1\&quot; stroke=\&quot;#101214\&quot; stroke-width=\&quot;.3\&quot; opacity=\&quot;.16\&quot; /&gt;&lt;/pattern&gt;\n&lt;/defs&gt;&lt;path d=\&quot;M8 2H73L93 22V96H8Z\&quot; fill=\&quot;url(#stock)\&quot; stroke=\&quot;currentColor\&quot; stroke-width=\&quot;2\&quot; /&gt;&lt;path d=\&quot;M8 2H73L93 22V96H8Z\&quot; fill=\&quot;url(#grain)\&quot; /&gt;&lt;path d=\&quot;M73 2V22H93\&quot; fill=\&quot;#CEC5B3\&quot; stroke=\&quot;#101214\&quot; stroke-width=\&quot;1\&quot; /&gt;&lt;path d=\&quot;M18 33H82M18 43H80M18 53H68M18 67H82M18 77H72M18 87H49\&quot; fill=\&quot;none\&quot; stroke=\&quot;#101214\&quot; stroke-width=\&quot;1.5\&quot; /&gt;&quot;,
+    &quot;workload-hold&quot;: &quot;&lt;defs&gt;&lt;linearGradient id=\&quot;metal\&quot; x2=\&quot;0\&quot; y2=\&quot;1\&quot;&gt;&lt;stop stop-color=\&quot;currentColor\&quot; /&gt;&lt;stop offset=\&quot;1\&quot; stop-color=\&quot;#101214\&quot; /&gt;&lt;/linearGradient&gt;&lt;/defs&gt;&lt;path d=\&quot;M8 12H92V88H8Z\&quot; fill=\&quot;none\&quot; stroke=\&quot;currentColor\&quot; stroke-width=\&quot;3\&quot; /&gt;&lt;rect x=\&quot;13\&quot; y=\&quot;17\&quot; width=\&quot;74\&quot; height=\&quot;66\&quot; fill=\&quot;url(#metal)\&quot; opacity=\&quot;.35\&quot; /&gt;&lt;rect x=\&quot;35\&quot; y=\&quot;28\&quot; width=\&quot;6\&quot; height=\&quot;38\&quot; fill=\&quot;#e7e0d0\&quot; /&gt;&lt;rect x=\&quot;59\&quot; y=\&quot;28\&quot; width=\&quot;6\&quot; height=\&quot;38\&quot; fill=\&quot;#e7e0d0\&quot; /&gt;&lt;path d=\&quot;M18 75H82\&quot; stroke=\&quot;currentColor\&quot; stroke-width=\&quot;5\&quot; /&gt;&lt;defs&gt;&lt;pattern id=\&quot;brushed\&quot; width=\&quot;8\&quot; height=\&quot;5\&quot; patternUnits=\&quot;userSpaceOnUse\&quot;&gt;&lt;path d=\&quot;M0 1H6M3 4H8\&quot; stroke=\&quot;#e7e0d0\&quot; stroke-width=\&quot;.4\&quot; opacity=\&quot;.25\&quot; /&gt;&lt;/pattern&gt;&lt;/defs&gt;&lt;path d=\&quot;M10 14H90V86H10Z\&quot; fill=\&quot;none\&quot; stroke=\&quot;#e7e0d0\&quot; stroke-opacity=\&quot;.4\&quot; /&gt;&lt;path d=\&quot;M14 19H86V23H14Z\&quot; fill=\&quot;url(#brushed)\&quot; /&gt;&quot;
+  },
+  &quot;palette&quot;: {
+    &quot;amber&quot;: &quot;#A17D45&quot;,
+    &quot;claret&quot;: &quot;#6B2634&quot;,
+    &quot;dirty&quot;: &quot;#CEC5B3&quot;,
+    &quot;ink&quot;: &quot;#101214&quot;,
+    &quot;institution&quot;: &quot;#68766B&quot;,
+    &quot;moss&quot;: &quot;#74864F&quot;,
+    &quot;nicotine&quot;: &quot;#AA9571&quot;,
+    &quot;paper&quot;: &quot;#E7E0D0&quot;,
+    &quot;shadow&quot;: &quot;#202326&quot;,
+    &quot;steel&quot;: &quot;#5E737B&quot;
+  },
+  &quot;renderer&quot;: &quot;storyboard-svg-2&quot;,
+  &quot;scene&quot;: {
+    &quot;background&quot;: &quot;ink&quot;,
+    &quot;intent&quot;: &quot;Place the institutional capability assessment beside the still-held run. A reported threshold assessment and a pause are separate facts that coexist. Visual distinction: A bounded workload tray with a large pause pair and a stop bar. A temporary operational disposition, not a breached wall or permanent destruction.&quot;,
+    &quot;lettering&quot;: [
+      {
+        &quot;box&quot;: [
+          0.045,
+          0.78,
+          0.91,
+          0.18
+        ]
+      }
+    ],
+    &quot;lettering_mode&quot;: &quot;manual&quot;,
+    &quot;nodes&quot;: [
+      {
+        &quot;asset&quot;: &quot;location-background-public-announcement-ledger&quot;,
+        &quot;box&quot;: [
+          0.02,
+          0.02,
+          0.96,
+          0.96
+        ],
+        &quot;color&quot;: &quot;steel&quot;
+      },
+      {
+        &quot;asset&quot;: &quot;paper&quot;,
+        &quot;box&quot;: [
+          0.06775,
+          0.2012,
+          0.3913,
+          0.276474
+        ],
+        &quot;color&quot;: &quot;steel&quot;,
+        &quot;focus&quot;: true,
+        &quot;label&quot;: &quot;18 AUGUST ASSESSMENT&quot;,
+        &quot;label_box&quot;: [
+          0.06775,
+          0.49443,
+          0.3913,
+          0.121481
+        ],
+        &quot;label_size&quot;: 18
+      },
+      {
+        &quot;asset&quot;: &quot;workload-hold&quot;,
+        &quot;box&quot;: [
+          0.52275,
+          0.2012,
+          0.3913,
+          0.276474
+        ],
+        &quot;color&quot;: &quot;steel&quot;,
+        &quot;focus&quot;: true,
+        &quot;label&quot;: &quot;RL RUN HELD&quot;,
+        &quot;label_box&quot;: [
+          0.52275,
+          0.49443,
+          0.3913,
+          0.121481
+        ],
+        &quot;label_size&quot;: 18
+      }
+    ],
+    &quot;reconstructed&quot;: false,
+    &quot;shot&quot;: &quot;row&quot;,
+    &quot;source&quot;: &quot;\n**Location:** `public-announcement-ledger`\n\n**Frame:** Public ledger, 18 August. OpenAI says Astra may meet its Critical cyber threshold even as the largest planned RL run remains held.\n\n**Caption:**\n&gt; THE RISK ASSESSMENT RISES. THE WORK DOES NOT BECOME ONE THING.\n\n**Provenance:** `documented` (institutional claim) + `inferred`.\n\n&quot;,
+    &quot;title&quot;: &quot;The threshold claim coexists with the held run&quot;
+  }
+}
+</metadata><rect width="1200" height="800" fill="#101214"/><g transform="translate(24 16) scale(11.52 7.68)" color="#5E737B"><g transform=""><title>Dated announcement folio — ruled</title><defs><linearGradient id="node-0-wash" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#C8B39C" stop-opacity=".45" /><stop offset=".5" stop-color="#5F4D3A" stop-opacity=".22" /><stop offset="1" stop-color="#C8B39C" stop-opacity=".27" /></linearGradient><radialGradient id="node-0-fade"><stop offset=".35" stop-color="black" /><stop offset=".7" stop-color="#555555" /><stop offset="1" stop-color="white" /></radialGradient><mask id="node-0-rim"><rect width="100" height="100" fill="url(#node-0-fade)" /></mask><pattern id="node-0-material" width="16" height="16" patternUnits="userSpaceOnUse"><g fill="none" stroke="#C8B39C" stroke-width=".3" opacity=".55"><path d="M0 4H16M0 12H16M3 0V16" /></g></pattern></defs>
+<rect x="3" y="3" width="94" height="94" rx="1" fill="url(#node-0-wash)" /><rect x="3" y="3" width="94" height="94" fill="url(#node-0-material)" mask="url(#node-0-rim)" /><path d="M3 3H20V97H3Z" fill="#5F4D3A" opacity=".58" /><path d="M3 3H20V97H3Z" fill="url(#node-0-material)" /><path d="M20 4V96" fill="none" stroke="#C8B39C" opacity=".4" stroke-width=".6" /><path d="M8 9H92V94H8ZM8 23H92M19 5V16M40 5V16M61 5V16M82 5V16M13 31H22M13 47H22M13 63H22M13 79H22M32 88H84" fill="none" stroke="#080B0D" stroke-width="1.7" opacity=".45" transform="translate(.35 .5)" /><path d="M8 9H92V94H8ZM8 23H92M19 5V16M40 5V16M61 5V16M82 5V16M13 31H22M13 47H22M13 63H22M13 79H22M32 88H84" fill="none" stroke="#C8B39C" stroke-width=".8" stroke-linejoin="round" opacity=".66" /></g></g><g transform="translate(81.3 160.96) scale(4.6956 2.21179)" color="#5E737B"><g transform=""><defs>
+<linearGradient id="node-1-stock" x1="0" y1="0" x2=".8" y2="1"><stop stop-color="#E7E0D0" /><stop offset="1" stop-color="#CEC5B3" /></linearGradient>
+<pattern id="node-1-grain" width="7" height="9" patternUnits="userSpaceOnUse"><circle cx="1" cy="2" r=".35" fill="#101214" opacity=".18" /><path d="M4 6h2M1 8h1" stroke="#101214" stroke-width=".3" opacity=".16" /></pattern>
+</defs><path d="M8 2H73L93 22V96H8Z" fill="url(#node-1-stock)" stroke="currentColor" stroke-width="2" /><path d="M8 2H73L93 22V96H8Z" fill="url(#node-1-grain)" /><path d="M73 2V22H93" fill="#CEC5B3" stroke="#101214" stroke-width="1" /><path d="M18 33H82M18 43H80M18 53H68M18 67H82M18 77H72M18 87H49" fill="none" stroke="#101214" stroke-width="1.5" /></g></g><text x="316.08" y="413.544" text-anchor="middle" fill="#E7E0D0" font-size="18" font-family="sans-serif">18 AUGUST ASSESSMENT</text><g transform="translate(627.3 160.96) scale(4.6956 2.21179)" color="#5E737B"><g transform=""><defs><linearGradient id="node-2-metal" x2="0" y2="1"><stop stop-color="currentColor" /><stop offset="1" stop-color="#101214" /></linearGradient></defs><path d="M8 12H92V88H8Z" fill="none" stroke="currentColor" stroke-width="3" /><rect x="13" y="17" width="74" height="66" fill="url(#node-2-metal)" opacity=".35" /><rect x="35" y="28" width="6" height="38" fill="#e7e0d0" /><rect x="59" y="28" width="6" height="38" fill="#e7e0d0" /><path d="M18 75H82" stroke="currentColor" stroke-width="5" /><defs><pattern id="node-2-brushed" width="8" height="5" patternUnits="userSpaceOnUse"><path d="M0 1H6M3 4H8" stroke="#e7e0d0" stroke-width=".4" opacity=".25" /></pattern></defs><path d="M10 14H90V86H10Z" fill="none" stroke="#e7e0d0" stroke-opacity=".4" /><path d="M14 19H86V23H14Z" fill="url(#node-2-brushed)" /></g></g><text x="862.08" y="413.544" text-anchor="middle" fill="#E7E0D0" font-size="18" font-family="sans-serif">RL RUN HELD</text><rect x="3" y="3" width="1194" height="794" fill="none" stroke="#5E737B" stroke-width="4"/></svg>

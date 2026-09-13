@@ -33,6 +33,7 @@
       ],
       "color": "steel",
       "focus": true,
+      "font": "editorial",
       "label": "REBUILD",
       "label_box": [
         0.06775,
@@ -52,6 +53,7 @@
       ],
       "color": "steel",
       "focus": true,
+      "font": "editorial",
       "label": "NARROW ACCESS",
       "label_box": [
         0.29525,
@@ -71,6 +73,7 @@
       ],
       "color": "steel",
       "focus": true,
+      "font": "editorial",
       "label": "CLOSED PATHS",
       "label_box": [
         0.52275,
@@ -90,6 +93,7 @@
       ],
       "color": "steel",
       "focus": true,
+      "font": "editorial",
       "label": "DETECTION",
       "label_box": [
         0.75025,
@@ -102,6 +106,6 @@
   ],
   "reconstructed": false,
   "shot": "row",
-  "source": "\n**Location:** `huggingface-infrastructure`\n\n**Frame:** Hugging Face rebuilds systems, narrows credentials, closes paths, and changes detection severity.\n\n**Caption:**\n> THE PLATFORM LEARNS IN INFRASTRUCTURE.\n\n**Provenance:** `documented` + `compressed`.\n\n",
+  "source": "\n**Location:** `huggingface-infrastructure`\n\n**Frame:** Hugging Face rebuilds systems, narrows credentials, closes paths, and changes detection severity.\n\n**Font:** `narration`\n\n**Caption:**\n> THE PLATFORM LEARNS IN INFRASTRUCTURE: REBUILDING SYSTEMS, REPLACING KEYS, AND NARROWING WHAT A COMPROMISED WORKER CAN REACH.\n\n**Provenance:** `documented` + `compressed`.\n\n",
   "title": "The affected platform rebuilds and narrows exposure"
 }

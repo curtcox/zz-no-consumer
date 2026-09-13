@@ -72,6 +72,7 @@
         ],
         &quot;color&quot;: &quot;steel&quot;,
         &quot;focus&quot;: true,
+        &quot;font&quot;: &quot;editorial&quot;,
         &quot;label&quot;: &quot;MODERATION&quot;,
         &quot;label_box&quot;: [
           0.37258,
@@ -91,6 +92,7 @@
         ],
         &quot;color&quot;: &quot;steel&quot;,
         &quot;focus&quot;: true,
+        &quot;font&quot;: &quot;editorial&quot;,
         &quot;label&quot;: &quot;BACKUP DELETED&quot;,
         &quot;label_box&quot;: [
           0.695162,
@@ -103,8 +105,8 @@
     ],
     &quot;reconstructed&quot;: true,
     &quot;shot&quot;: &quot;row&quot;,
-    &quot;source&quot;: &quot;\n**Location:** `public-wiki-dse`\n\n**Frame:** The same screen, the same hand, twelve seconds later. The `ZZZ` page is deleted. Nothing else in the composition changes.\n\n**Screen / system text:**\n`DELETED — 15:46:49 UTC`\n\n**Caption:**\n&gt; TWELVE SECONDS.\n&gt;\n&gt; THE LOG GIVES TWO DELETION TIMES. IT DOES NOT SHOW THE MAINTAINER’S LIST.\n\n**Provenance:** `documented` + `inferred` — `CW-EXPORT`, `delete:dse:rclog:145611`; successive, not simultaneous. The interval does not establish adjacency in a private moderation list or whether the maintainer read either page.\n\n&quot;,
+    &quot;source&quot;: &quot;\n**Location:** `public-wiki-dse`\n\n**Frame:** The same screen, the same hand, twelve seconds later. The `ZZZ` page is deleted. Nothing else in the composition changes.\n\n**Font:** `editorial`\n\n**Screen / system text:**\n`DELETED — 15:46:49 UTC`\n\n**Font:** `narration`\n\n**Caption:**\n&gt; TWELVE SECONDS.\n&gt;\n&gt; THE LOG GIVES TWO DELETION TIMES. IT DOES NOT SHOW THE MAINTAINER’S LIST.\n\n**Provenance:** `documented` + `inferred` — `CW-EXPORT`, `delete:dse:rclog:145611`; successive, not simultaneous. The interval does not establish adjacency in a private moderation list or whether the maintainer read either page.\n\n&quot;,
     &quot;title&quot;: &quot;Twelve seconds later the backup is deleted&quot;
   }
 }
-</metadata><rect width="1200" height="800" fill="#101214"/><rect x="24" y="16" width="1152" height="768" fill="none" stroke="#5E737B" stroke-width="3"/><text x="32" y="40" fill="#5E737B" font-family="sans-serif" font-size="20">location-background-public-wiki-dse</text><rect x="60" y="350.594" width="305.806" height="359.771" fill="none" stroke="#CEC5B3" stroke-width="3"/><text x="68" y="374.594" fill="#CEC5B3" font-family="sans-serif" font-size="20">hand</text><rect x="447.096" y="316.96" width="305.806" height="281.846" fill="none" stroke="#5E737B" stroke-width="3"/><text x="455.096" y="340.96" fill="#5E737B" font-family="sans-serif" font-size="20">monitor</text><text x="599.999" y="633.888" text-anchor="middle" fill="#E7E0D0" font-size="18" font-family="sans-serif">MODERATION</text><rect x="846.174" y="316.96" width="281.846" height="281.846" fill="none" stroke="#5E737B" stroke-width="3"/><text x="854.174" y="340.96" fill="#5E737B" font-family="sans-serif" font-size="20">cross</text><text x="987.097" y="633.888" text-anchor="middle" fill="#E7E0D0" font-size="18" font-family="sans-serif">BACKUP DELETED</text><rect x="3" y="3" width="1194" height="794" fill="none" stroke="#5E737B" stroke-width="4" stroke-dasharray="18 10"/></svg>
+</metadata><rect width="1200" height="800" fill="#101214"/><rect x="24" y="16" width="1152" height="768" fill="none" stroke="#5E737B" stroke-width="3"/><text x="32" y="40" fill="#5E737B" font-family="sans-serif" font-size="20">location-background-public-wiki-dse</text><rect x="60" y="350.594" width="305.806" height="359.771" fill="none" stroke="#CEC5B3" stroke-width="3"/><text x="68" y="374.594" fill="#CEC5B3" font-family="sans-serif" font-size="20">hand</text><rect x="447.096" y="316.96" width="305.806" height="281.846" fill="none" stroke="#5E737B" stroke-width="3"/><text x="455.096" y="340.96" fill="#5E737B" font-family="sans-serif" font-size="20">monitor</text><text x="599.999" y="633.888" text-anchor="middle" fill="#E7E0D0" font-size="18" font-family="Arial, Helvetica, sans-serif" data-font-key="editorial" font-weight="700" font-style="normal" textLength="122.00" lengthAdjust="spacingAndGlyphs">MODERATION</text><rect x="846.174" y="316.96" width="281.846" height="281.846" fill="none" stroke="#5E737B" stroke-width="3"/><text x="854.174" y="340.96" fill="#5E737B" font-family="sans-serif" font-size="20">cross</text><text x="987.097" y="633.888" text-anchor="middle" fill="#E7E0D0" font-size="18" font-family="Arial, Helvetica, sans-serif" data-font-key="editorial" font-weight="700" font-style="normal" textLength="162.04" lengthAdjust="spacingAndGlyphs">BACKUP DELETED</text><rect x="3" y="3" width="1194" height="794" fill="none" stroke="#5E737B" stroke-width="4" stroke-dasharray="18 10"/></svg>

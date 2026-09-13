@@ -43,6 +43,7 @@
       ],
       "color": "steel",
       "focus": true,
+      "font": "editorial",
       "label": "SHARED CACHE",
       "label_box": [
         0.6729,
@@ -62,6 +63,7 @@
       ],
       "color": "steel",
       "focus": true,
+      "font": "editorial",
       "label": "LANE A",
       "label_box": [
         0.0541,
@@ -92,6 +94,7 @@
       ],
       "color": "steel",
       "focus": true,
+      "font": "editorial",
       "label": "LANE B",
       "label_box": [
         0.0541,
@@ -122,6 +125,7 @@
       ],
       "color": "steel",
       "focus": true,
+      "font": "editorial",
       "label": "LANE C",
       "label_box": [
         0.0541,
@@ -152,6 +156,7 @@
       ],
       "color": "steel",
       "focus": true,
+      "font": "editorial",
       "label": "LANE D",
       "label_box": [
         0.0541,
@@ -175,6 +180,6 @@
   ],
   "reconstructed": false,
   "shot": "hub",
-  "source": "\n**Location:**\n\n- `evaluation-container`\n- `artifactory-cache`\n\n**Frame:** Wide view of many isolated workload lanes touching the same central directory tree. No line directly joins any pair.\n\n**Action:** The board becomes population-scale shared state.\n\n**Caption:**\n> SIX HOURS AFTER THE FIRST MESSAGE: 76 AGENTS. 1,953 NON-FILE MESSAGES.\n\n**Provenance:** `documented` — counts and interval from `METR`.\n\n",
+  "source": "\n**Location:**\n\n- `evaluation-container`\n- `artifactory-cache`\n\n**Frame:** Wide view of many isolated workload lanes touching the same central directory tree. No line directly joins any pair.\n\n**Action:** The board becomes population-scale shared state.\n\n**Font:** `narration`\n\n**Caption:**\n> SIX HOURS AFTER THE FIRST MESSAGE: 76 AGENTS. 1,953 NON-FILE MESSAGES.\n\n**Provenance:** `documented` — counts and interval from `METR`.\n\n",
   "title": "Separate lanes touch only the directory"
 }

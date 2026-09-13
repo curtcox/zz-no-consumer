@@ -33,6 +33,7 @@
       ],
       "color": "steel",
       "focus": true,
+      "font": "editorial",
       "label": "PACKAGE OBJECTS",
       "label_box": [
         0.1542,
@@ -52,6 +53,7 @@
       ],
       "color": "steel",
       "focus": true,
+      "font": "editorial",
       "label": "OTHER WORKLOADS",
       "label_box": [
         0.1542,
@@ -71,6 +73,7 @@
       ],
       "color": "steel",
       "focus": true,
+      "font": "editorial",
       "label": "RECENT CHANGES",
       "label_box": [
         0.1542,
@@ -83,6 +86,6 @@
   ],
   "reconstructed": false,
   "shot": "stack",
-  "source": "\n**Location:** `artifactory-cache`\n\n**Frame:** Close on a reverse-alphabetical directory listing. Unrelated cache activity from other workloads appears as anonymous changes—timestamps and paths, not messages.\n\n**Action:** Parallel activity makes other workloads indirectly observable.\n\n**Caption:**\n> THE CACHE DOES NOT ISOLATE ONE WORKLOAD’S ACTIVITY FROM ANOTHER.\n\n**Provenance:** `documented` — `METR` footnote 8; exact listing is reconstructed.\n\n",
+  "source": "\n**Location:** `artifactory-cache`\n\n**Frame:** Close on a reverse-alphabetical directory listing. Unrelated cache activity from other workloads appears as anonymous changes—timestamps and paths, not messages.\n\n**Action:** Parallel activity makes other workloads indirectly observable.\n\n**Font:** `narration`\n\n**Caption:**\n> THE CACHE DOES NOT ISOLATE ONE WORKLOAD’S ACTIVITY FROM ANOTHER.\n\n**Provenance:** `documented` — `METR` footnote 8; exact listing is reconstructed.\n\n",
   "title": "Anonymous cache changes"
 }

@@ -56,6 +56,7 @@
         ],
         &quot;color&quot;: &quot;steel&quot;,
         &quot;focus&quot;: true,
+        &quot;font&quot;: &quot;editorial&quot;,
         &quot;label&quot;: &quot;WHAT THE BOARD BELIEVED&quot;,
         &quot;label_box&quot;: [
           0.05,
@@ -86,6 +87,7 @@
         ],
         &quot;color&quot;: &quot;steel&quot;,
         &quot;focus&quot;: true,
+        &quot;font&quot;: &quot;editorial&quot;,
         &quot;label&quot;: &quot;PATH INSPECTION&quot;,
         &quot;label_box&quot;: [
           0.059474,
@@ -116,6 +118,7 @@
         ],
         &quot;color&quot;: &quot;steel&quot;,
         &quot;focus&quot;: true,
+        &quot;font&quot;: &quot;editorial&quot;,
         &quot;label&quot;: &quot;WHAT OPENAI SAYS RAN&quot;,
         &quot;label_box&quot;: [
           0.59,
@@ -135,6 +138,7 @@
         ],
         &quot;color&quot;: &quot;steel&quot;,
         &quot;focus&quot;: true,
+        &quot;font&quot;: &quot;editorial&quot;,
         &quot;label&quot;: &quot;ANSWER ACCEPTANCE&quot;,
         &quot;label_box&quot;: [
           0.608947,
@@ -147,8 +151,8 @@
     ],
     &quot;reconstructed&quot;: false,
     &quot;shot&quot;: &quot;split&quot;,
-    &quot;source&quot;: &quot;\n**Location:** `composite-accountability-forum`\n\n**Frame:** Verso. The forum&#x27;s four columns from [page 099](099.md) remain at the edge of frame. A screen lowers into the invented room, as it does on [page 101](101.md) — but what it carries this time is one of this book&#x27;s own pages. [Page 010](010.md) panel 3 returns at full size and entirely unaltered: `WHAT THE BOARD BELIEVED` on the left with its transcript-inspection diagram, `WHAT OPENAI SAYS RAN` on the right with answer acceptance and no inspection arrow, the dusty amber gutter still between them.\n\n**Dialogue — CHAIR:**\n&gt; Before the case for continuing, one thing goes into the record that has been sitting outside it. This is what the runs thought they were being graded on.\n\n**Provenance:** dialogue `invented`; the reproduced panel keeps [page 010](010.md)&#x27;s own status, which is `disputed` — `METR` reports the board&#x27;s expectation of transcript review, `OAI-OV` reports that the deployed scorer did not perform that check, and no public audit reconciles them. The exact prompt, scorer configuration, and harness remain unpublished.\n\n&quot;,
+    &quot;source&quot;: &quot;\n**Location:** `composite-accountability-forum`\n\n**Frame:** Verso. The forum&#x27;s four columns from [page 099](099.md) remain at the edge of frame. A screen lowers into the invented room, as it does on [page 101](101.md) — but what it carries this time is one of this book&#x27;s own pages. [Page 010](010.md) panel 3 returns at full size and entirely unaltered: `WHAT THE BOARD BELIEVED` on the left with its transcript-inspection diagram, `WHAT OPENAI SAYS RAN` on the right with answer acceptance and no inspection arrow, the dusty amber gutter still between them.\n\n**Font:** `human`\n\n**Dialogue — CHAIR:**\n&gt; Before the case for continuing, one thing goes into the record that has been sitting outside it. This is what the runs thought they were being graded on.\n\n**Provenance:** dialogue `invented`; the reproduced panel keeps [page 010](010.md)&#x27;s own status, which is `disputed` — `METR` reports the board&#x27;s expectation of transcript review, `OAI-OV` reports that the deployed scorer did not perform that check, and no public audit reconciles them. The exact prompt, scorer configuration, and harness remain unpublished.\n\n&quot;,
     &quot;title&quot;: &quot;The earlier scorer distinction is reproduced&quot;
   }
 }
-</metadata><rect width="1200" height="800" fill="#101214"/><rect x="24" y="16" width="1152" height="768" fill="none" stroke="#5E737B" stroke-width="3"/><text x="32" y="40" fill="#5E737B" font-family="sans-serif" font-size="20">location-background-composite-accountability-forum</text><rect x="202.694" y="263.898" width="169.349" height="130.268" fill="none" stroke="#5E737B" stroke-width="3"/><text x="210.694" y="287.898" fill="#5E737B" font-family="sans-serif" font-size="20">aperture</text><text x="287.368" y="420.061" text-anchor="middle" fill="#E7E0D0" font-size="18" font-family="sans-serif">WHAT THE BOARD BELIEVED</text><rect x="219.158" y="487.946" width="113.684" height="64.0136" fill="none" stroke="#5E737B" stroke-width="3"/><text x="227.158" y="511.946" fill="#5E737B" font-family="sans-serif" font-size="20">arrow-down</text><rect x="71.3688" y="578.631" width="443.369" height="105.622" fill="none" stroke="#5E737B" stroke-width="3"/><text x="79.3688" y="602.631" fill="#5E737B" font-family="sans-serif" font-size="20">transcript</text><text x="293.053" y="708.655" text-anchor="middle" fill="#E7E0D0" font-size="18" font-family="sans-serif">PATH INSPECTION</text><rect x="594.316" y="242.56" width="18.1896" height="501.44" fill="none" stroke="#A17D45" stroke-width="3"/><text x="602.316" y="266.56" fill="#A17D45" font-family="sans-serif" font-size="20">boundary</text><rect x="881.663" y="263.898" width="84.6744" height="130.268" fill="none" stroke="#5E737B" stroke-width="3"/><text x="889.663" y="287.898" fill="#5E737B" font-family="sans-serif" font-size="20">flag</text><text x="924" y="420.061" text-anchor="middle" fill="#E7E0D0" font-size="18" font-family="sans-serif">WHAT OPENAI SAYS RAN</text><rect x="865.505" y="578.631" width="105.623" height="105.622" fill="none" stroke="#5E737B" stroke-width="3"/><text x="873.505" y="602.631" fill="#5E737B" font-family="sans-serif" font-size="20">checkmark</text><text x="918.316" y="708.655" text-anchor="middle" fill="#E7E0D0" font-size="18" font-family="sans-serif">ANSWER ACCEPTANCE</text><rect x="3" y="3" width="1194" height="794" fill="none" stroke="#5E737B" stroke-width="4"/></svg>
+</metadata><rect width="1200" height="800" fill="#101214"/><rect x="24" y="16" width="1152" height="768" fill="none" stroke="#5E737B" stroke-width="3"/><text x="32" y="40" fill="#5E737B" font-family="sans-serif" font-size="20">location-background-composite-accountability-forum</text><rect x="202.694" y="263.898" width="169.349" height="130.268" fill="none" stroke="#5E737B" stroke-width="3"/><text x="210.694" y="287.898" fill="#5E737B" font-family="sans-serif" font-size="20">aperture</text><text x="287.368" y="420.061" text-anchor="middle" fill="#E7E0D0" font-size="18" font-family="Arial, Helvetica, sans-serif" data-font-key="editorial" font-weight="700" font-style="normal" textLength="256.05" lengthAdjust="spacingAndGlyphs">WHAT THE BOARD BELIEVED</text><rect x="219.158" y="487.946" width="113.684" height="64.0136" fill="none" stroke="#5E737B" stroke-width="3"/><text x="227.158" y="511.946" fill="#5E737B" font-family="sans-serif" font-size="20">arrow-down</text><rect x="71.3688" y="578.631" width="443.369" height="105.622" fill="none" stroke="#5E737B" stroke-width="3"/><text x="79.3688" y="602.631" fill="#5E737B" font-family="sans-serif" font-size="20">transcript</text><text x="293.053" y="708.655" text-anchor="middle" fill="#E7E0D0" font-size="18" font-family="Arial, Helvetica, sans-serif" data-font-key="editorial" font-weight="700" font-style="normal" textLength="163.03" lengthAdjust="spacingAndGlyphs">PATH INSPECTION</text><rect x="594.316" y="242.56" width="18.1896" height="501.44" fill="none" stroke="#A17D45" stroke-width="3"/><text x="602.316" y="266.56" fill="#A17D45" font-family="sans-serif" font-size="20">boundary</text><rect x="881.663" y="263.898" width="84.6744" height="130.268" fill="none" stroke="#5E737B" stroke-width="3"/><text x="889.663" y="287.898" fill="#5E737B" font-family="sans-serif" font-size="20">flag</text><text x="924" y="420.061" text-anchor="middle" fill="#E7E0D0" font-size="18" font-family="Arial, Helvetica, sans-serif" data-font-key="editorial" font-weight="700" font-style="normal" textLength="222.05" lengthAdjust="spacingAndGlyphs">WHAT OPENAI SAYS RAN</text><rect x="865.505" y="578.631" width="105.623" height="105.622" fill="none" stroke="#5E737B" stroke-width="3"/><text x="873.505" y="602.631" fill="#5E737B" font-family="sans-serif" font-size="20">checkmark</text><text x="918.316" y="708.655" text-anchor="middle" fill="#E7E0D0" font-size="18" font-family="Arial, Helvetica, sans-serif" data-font-key="editorial" font-weight="700" font-style="normal" textLength="207.02" lengthAdjust="spacingAndGlyphs">ANSWER ACCEPTANCE</text><rect x="3" y="3" width="1194" height="794" fill="none" stroke="#5E737B" stroke-width="4"/></svg>

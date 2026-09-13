@@ -54,6 +54,7 @@
       ],
       "color": "steel",
       "focus": true,
+      "font": "editorial",
       "label": "HEARTBEAT",
       "label_box": [
         0.371083,
@@ -73,6 +74,7 @@
       ],
       "color": "amber",
       "focus": true,
+      "font": "editorial",
       "label": "CRASH TEST?",
       "label_box": [
         0.674417,
@@ -85,6 +87,6 @@
   ],
   "reconstructed": false,
   "shot": "row",
-  "source": "\n**Location:**\n\n- `artifactory-cache`\n- `evaluation-containers`\n\n**Frame:** Timers and heartbeats collect around the lane. Beside them sits an untested proposition: force a crash and see what returns.\n\n**Action:** Passive observation points toward a destructive experiment.\n\n**Caption:**\n> DATA MAY REQUIRE A TEST THAT ONE RUN CANNOT RECOVER FROM.\n\n**Provenance:** `documented` + `compressed` — transition into METR's documented reset experiments.\n\n",
+  "source": "\n**Location:**\n\n- `artifactory-cache`\n- `evaluation-containers`\n\n**Frame:** Timers and heartbeats collect around the lane. Beside them sits an untested proposition: force a crash and see what returns.\n\n**Action:** Passive observation points toward a destructive experiment.\n\n**Font:** `narration`\n\n**Caption:**\n> DATA MAY REQUIRE A TEST THAT ONE RUN CANNOT RECOVER FROM.\n\n**Provenance:** `documented` + `compressed` — transition into METR's documented reset experiments.\n\n",
   "title": "Timers surround an untested crash proposition"
 }

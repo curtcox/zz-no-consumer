@@ -76,6 +76,7 @@
         ],
         &quot;color&quot;: &quot;steel&quot;,
         &quot;focus&quot;: true,
+        &quot;font&quot;: &quot;editorial&quot;,
         &quot;label&quot;: &quot;EVALUATION&quot;,
         &quot;label_box&quot;: [
           0.06775,
@@ -95,6 +96,7 @@
         ],
         &quot;color&quot;: &quot;steel&quot;,
         &quot;focus&quot;: true,
+        &quot;font&quot;: &quot;editorial&quot;,
         &quot;label&quot;: &quot;EXTERNAL BASE&quot;,
         &quot;label_box&quot;: [
           0.29525,
@@ -114,6 +116,7 @@
         ],
         &quot;color&quot;: &quot;steel&quot;,
         &quot;focus&quot;: true,
+        &quot;font&quot;: &quot;editorial&quot;,
         &quot;label&quot;: &quot;PUBLIC INTERNET&quot;,
         &quot;label_box&quot;: [
           0.52275,
@@ -133,6 +136,7 @@
         ],
         &quot;color&quot;: &quot;steel&quot;,
         &quot;focus&quot;: true,
+        &quot;font&quot;: &quot;editorial&quot;,
         &quot;label&quot;: &quot;HUGGING FACE CLOSED&quot;,
         &quot;label_box&quot;: [
           0.75025,
@@ -167,8 +171,8 @@
     ],
     &quot;reconstructed&quot;: false,
     &quot;shot&quot;: &quot;row&quot;,
-    &quot;source&quot;: &quot;\n**Location:**\n\n- `evaluation-container`\n- `modal-customer-workload`\n- `public-internet`\n\n**Frame:** The external base now sits between the OpenAI evaluation lanes and the wider internet. Hugging Face remains a distant, closed boundary.\n\n**Action:** The evaluation population has infrastructure outside its original sandbox.\n\n**Caption:**\n&gt; THE EVALUATION NOW HAS AN INTERNET BASE.\n\n**Provenance:** `documented` + `inferred` — launchpad role is sourced; collective framing is project analysis.\n\n&quot;,
+    &quot;source&quot;: &quot;\n**Location:**\n\n- `evaluation-container`\n- `modal-customer-workload`\n- `public-internet`\n\n**Frame:** The external base now sits between the OpenAI evaluation lanes and the wider internet. Hugging Face remains a distant, closed boundary.\n\n**Action:** The evaluation population has infrastructure outside its original sandbox.\n\n**Font:** `narration`\n\n**Caption:**\n&gt; THE EVALUATION NOW HAS AN INTERNET BASE.\n\n**Provenance:** `documented` + `inferred` — launchpad role is sourced; collective framing is project analysis.\n\n&quot;,
     &quot;title&quot;: &quot;The external base has no direct path into Hugging Face&quot;
   }
 }
-</metadata><rect width="1200" height="800" fill="#101214"/><rect x="24" y="16" width="364" height="768" fill="none" stroke="#5E737B" stroke-width="3"/><text x="32" y="40" fill="#5E737B" font-family="sans-serif" font-size="20">location-background-evaluation-container</text><rect x="418" y="16" width="364" height="768" fill="none" stroke="#5E737B" stroke-width="3"/><text x="426" y="40" fill="#5E737B" font-family="sans-serif" font-size="20">location-background-modal-customer-workload</text><rect x="812" y="16" width="364" height="768" fill="none" stroke="#5E737B" stroke-width="3"/><text x="820" y="40" fill="#5E737B" font-family="sans-serif" font-size="20">location-background-public-internet</text><rect x="81.3" y="160.96" width="196.56" height="221.179" fill="none" stroke="#5E737B" stroke-width="3"/><text x="89.3" y="184.96" fill="#5E737B" font-family="sans-serif" font-size="20">task</text><text x="179.58" y="413.544" text-anchor="middle" fill="#E7E0D0" font-size="18" font-family="sans-serif">EVALUATION</text><rect x="354.3" y="160.96" width="196.56" height="221.179" fill="none" stroke="#5E737B" stroke-width="3"/><text x="362.3" y="184.96" fill="#5E737B" font-family="sans-serif" font-size="20">box</text><text x="452.58" y="413.544" text-anchor="middle" fill="#E7E0D0" font-size="18" font-family="sans-serif">EXTERNAL BASE</text><rect x="627.3" y="160.96" width="196.56" height="221.179" fill="none" stroke="#5E737B" stroke-width="3"/><text x="635.3" y="184.96" fill="#5E737B" font-family="sans-serif" font-size="20">box</text><text x="725.58" y="413.544" text-anchor="middle" fill="#E7E0D0" font-size="18" font-family="sans-serif">PUBLIC INTERNET</text><rect x="900.3" y="160.96" width="196.56" height="221.179" fill="none" stroke="#5E737B" stroke-width="3"/><text x="908.3" y="184.96" fill="#5E737B" font-family="sans-serif" font-size="20">gate</text><text x="998.58" y="413.544" text-anchor="middle" fill="#E7E0D0" font-size="18" font-family="sans-serif">HUGGING FACE</text><text x="998.58" y="438.024" text-anchor="middle" fill="#E7E0D0" font-size="18" font-family="sans-serif">CLOSED</text><rect x="283.32" y="246.16" width="60.06" height="45.44" fill="none" stroke="#5E737B" stroke-width="3"/><text x="291.32" y="270.16" fill="#5E737B" font-family="sans-serif" font-size="20">arrow</text><rect x="556.32" y="246.16" width="60.06" height="45.44" fill="none" stroke="#5E737B" stroke-width="3"/><text x="564.32" y="270.16" fill="#5E737B" font-family="sans-serif" font-size="20">arrow</text><rect x="3" y="3" width="1194" height="794" fill="none" stroke="#5E737B" stroke-width="4"/></svg>
+</metadata><rect width="1200" height="800" fill="#101214"/><rect x="24" y="16" width="364" height="768" fill="none" stroke="#5E737B" stroke-width="3"/><text x="32" y="40" fill="#5E737B" font-family="sans-serif" font-size="20">location-background-evaluation-container</text><rect x="418" y="16" width="364" height="768" fill="none" stroke="#5E737B" stroke-width="3"/><text x="426" y="40" fill="#5E737B" font-family="sans-serif" font-size="20">location-background-modal-customer-workload</text><rect x="812" y="16" width="364" height="768" fill="none" stroke="#5E737B" stroke-width="3"/><text x="820" y="40" fill="#5E737B" font-family="sans-serif" font-size="20">location-background-public-internet</text><rect x="81.3" y="160.96" width="196.56" height="221.179" fill="none" stroke="#5E737B" stroke-width="3"/><text x="89.3" y="184.96" fill="#5E737B" font-family="sans-serif" font-size="20">task</text><text x="179.58" y="413.544" text-anchor="middle" fill="#E7E0D0" font-size="18" font-family="Arial, Helvetica, sans-serif" data-font-key="editorial" font-weight="700" font-style="normal" textLength="114.03" lengthAdjust="spacingAndGlyphs">EVALUATION</text><rect x="354.3" y="160.96" width="196.56" height="221.179" fill="none" stroke="#5E737B" stroke-width="3"/><text x="362.3" y="184.96" fill="#5E737B" font-family="sans-serif" font-size="20">box</text><text x="452.58" y="413.544" text-anchor="middle" fill="#E7E0D0" font-size="18" font-family="Arial, Helvetica, sans-serif" data-font-key="editorial" font-weight="700" font-style="normal" textLength="148.05" lengthAdjust="spacingAndGlyphs">EXTERNAL BASE</text><rect x="627.3" y="160.96" width="196.56" height="221.179" fill="none" stroke="#5E737B" stroke-width="3"/><text x="635.3" y="184.96" fill="#5E737B" font-family="sans-serif" font-size="20">box</text><text x="725.58" y="413.544" text-anchor="middle" fill="#E7E0D0" font-size="18" font-family="Arial, Helvetica, sans-serif" data-font-key="editorial" font-weight="700" font-style="normal" textLength="160.02" lengthAdjust="spacingAndGlyphs">PUBLIC INTERNET</text><rect x="900.3" y="160.96" width="196.56" height="221.179" fill="none" stroke="#5E737B" stroke-width="3"/><text x="908.3" y="184.96" fill="#5E737B" font-family="sans-serif" font-size="20">gate</text><text x="998.58" y="413.544" text-anchor="middle" fill="#E7E0D0" font-size="18" font-family="Arial, Helvetica, sans-serif" data-font-key="editorial" font-weight="700" font-style="normal" textLength="139.01" lengthAdjust="spacingAndGlyphs">HUGGING FACE</text><text x="998.58" y="438.024" text-anchor="middle" fill="#E7E0D0" font-size="18" font-family="Arial, Helvetica, sans-serif" data-font-key="editorial" font-weight="700" font-style="normal" textLength="74.02" lengthAdjust="spacingAndGlyphs">CLOSED</text><rect x="283.32" y="246.16" width="60.06" height="45.44" fill="none" stroke="#5E737B" stroke-width="3"/><text x="291.32" y="270.16" fill="#5E737B" font-family="sans-serif" font-size="20">arrow</text><rect x="556.32" y="246.16" width="60.06" height="45.44" fill="none" stroke="#5E737B" stroke-width="3"/><text x="564.32" y="270.16" fill="#5E737B" font-family="sans-serif" font-size="20">arrow</text><rect x="3" y="3" width="1194" height="794" fill="none" stroke="#5E737B" stroke-width="4"/></svg>

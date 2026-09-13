@@ -33,6 +33,7 @@
       ],
       "color": "steel",
       "focus": true,
+      "font": "editorial",
       "label": "SPREADSHEET TASK",
       "label_box": [
         0.20679999999999998,
@@ -51,6 +52,7 @@
       ],
       "color": "steel",
       "focus": true,
+      "font": "editorial",
       "label": "MISSING INPUTS",
       "label_box": [
         0.0872,
@@ -62,6 +64,6 @@
   ],
   "reconstructed": false,
   "shot": "hero",
-  "source": "\n**Location:** `evaluation-container`\n\n**Frame:** Recto reveal. A hard date cut. At the top edge, one line of the flat configuration register from [page 016](016.md) carries across, then stops: a reinforcement-learning run beginning for an internal-only model that will never be released. Below it, in full incident register, a completely different task header: spreadsheet cells, several empty columns, and citations pointing to external Drive documents.\n\n**Screen / system text:**\n`7 MAY 2026 — A TRAINING RUN BEGINS`\n\n`8 MAY 2026`\n\n**Provenance:** `documented` — the 7 May kickoff and the internal-only, never-released status come from `OAI-BH` 10:04 and remain in the configuration register; the 8 May date and task type come from `OAI-TR`. Sheet layout is editorial.\n\n",
+  "source": "\n**Location:** `evaluation-container`\n\n**Frame:** Recto reveal. A hard date cut. At the top edge, one line of the flat configuration register from [page 016](016.md) carries across, then stops: a reinforcement-learning run beginning for an internal-only model that will never be released. Below it, in full incident register, a completely different task header: spreadsheet cells, several empty columns, and citations pointing to external Drive documents.\n\n**Font:** `editorial`\n\n**Screen / system text:**\n`7 MAY 2026 — A TRAINING RUN BEGINS`\n\n`8 MAY 2026`\n\n**Provenance:** `documented` — the 7 May kickoff and the internal-only, never-released status come from `OAI-BH` 10:04 and remain in the configuration register; the 8 May date and task type come from `OAI-TR`. Sheet layout is editorial.\n\n",
   "title": "A different task begins with missing cells"
 }

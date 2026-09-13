@@ -23,6 +23,7 @@
       ],
       "color": "steel",
       "focus": true,
+      "font": "editorial",
       "label": "PUBLIC WIKI",
       "label_box": [
         0.20679999999999998,
@@ -41,6 +42,7 @@
       ],
       "color": "steel",
       "focus": true,
+      "font": "editorial",
       "label": "HUMAN PAGES",
       "label_box": [
         0.0872,
@@ -59,6 +61,7 @@
       ],
       "color": "steel",
       "focus": true,
+      "font": "editorial",
       "label": "AGENT-STYLE PAGES",
       "label_box": [
         0.4874,
@@ -70,6 +73,6 @@
   ],
   "reconstructed": false,
   "shot": "hero",
-  "source": "\n**Location:** `public-wiki-dse`\n\n**Frame:** Pull back from the wage page to the whole wiki. A small site, years old, in German: a front page, a handful of human pages about a community project, and beneath them thousands of pages with agent-style names, most of them created that month.\n\n**Action:** The channel is revealed as a place.\n\n**Caption:**\n> THE WIKI EXISTED BEFORE THE AGENTS. IT BELONGED TO SOMEONE.\n\n**Provenance:** `documented` + `inferred` — `CW-EXPORT`: 3,908 stored `dse` pages in the published cut against three allowlisted human handles; the site's prior human purpose is inferred from its own pages and is not otherwise sourced.\n\n",
+  "source": "\n**Location:** `public-wiki-dse`\n\n**Frame:** Pull back from the wage page to the whole wiki. A small site, years old, in German: a front page, a handful of human pages about a community project, and beneath them thousands of pages with agent-style names, most of them created that month.\n\n**Action:** The channel is revealed as a place.\n\n**Font:** `narration`\n\n**Caption:**\n> THE WIKI EXISTED BEFORE THE AGENTS. IT BELONGED TO SOMEONE.\n\n**Provenance:** `documented` + `inferred` — `CW-EXPORT`: 3,908 stored `dse` pages in the published cut against three allowlisted human handles; the site's prior human purpose is inferred from its own pages and is not otherwise sourced.\n\n",
   "title": "A small human wiki contains a large agent-page field"
 }

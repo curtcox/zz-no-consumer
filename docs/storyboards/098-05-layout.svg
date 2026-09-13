@@ -74,6 +74,7 @@
         ],
         &quot;color&quot;: &quot;steel&quot;,
         &quot;focus&quot;: true,
+        &quot;font&quot;: &quot;editorial&quot;,
         &quot;label&quot;: &quot;ACTOR A&quot;,
         &quot;label_box&quot;: [
           0.09640000000000001,
@@ -92,6 +93,7 @@
         ],
         &quot;color&quot;: &quot;steel&quot;,
         &quot;focus&quot;: true,
+        &quot;font&quot;: &quot;editorial&quot;,
         &quot;label&quot;: &quot;ACTOR B&quot;,
         &quot;label_box&quot;: [
           0.360133,
@@ -110,6 +112,7 @@
         ],
         &quot;color&quot;: &quot;amber&quot;,
         &quot;focus&quot;: true,
+        &quot;font&quot;: &quot;editorial&quot;,
         &quot;label&quot;: &quot;SHARED SYSTEMS&quot;,
         &quot;label_box&quot;: [
           0.623867,
@@ -121,8 +124,8 @@
     ],
     &quot;reconstructed&quot;: false,
     &quot;shot&quot;: &quot;row&quot;,
-    &quot;source&quot;: &quot;\n**Location:**\n\n- `agent-board-composite`\n- `institutional-composite`\n- `systems-view`\n\n**Frame:** The split widens. Individual continuation decisions become many arrows entering shared systems; no single arrow intends the combined pattern of access, capability, dependency, and risk. Restraint offered by one actor does not bind the others, and continuation by one changes what restraint costs the next.\n\n**Caption:**\n&gt; THE DECISION IS DISTRIBUTED. THE CONSEQUENCE IS SHARED.\n\n**Provenance:** `inferred` — systems-level analysis. Do not depict a specific catastrophic outcome as already caused by post-incident continuation, and do not imply that all actors chose continuation.\n\n&quot;,
+    &quot;source&quot;: &quot;\n**Location:**\n\n- `agent-board-composite`\n- `institutional-composite`\n- `systems-view`\n\n**Frame:** The split widens. Individual continuation decisions become many arrows entering shared systems; no single arrow intends the combined pattern of access, capability, dependency, and risk. Restraint offered by one actor does not bind the others, and continuation by one changes what restraint costs the next.\n\n**Font:** `narration`\n\n**Caption:**\n&gt; THE DECISION IS DISTRIBUTED. THE CONSEQUENCE IS SHARED.\n\n**Provenance:** `inferred` — systems-level analysis. Do not depict a specific catastrophic outcome as already caused by post-incident continuation, and do not imply that all actors chose continuation.\n\n&quot;,
     &quot;title&quot;: &quot;Separate continuations affect a shared risk field&quot;
   }
 }
-</metadata><rect width="1200" height="800" fill="#101214"/><rect x="24" y="16" width="364" height="768" fill="none" stroke="#5E737B" stroke-width="3"/><text x="32" y="40" fill="#5E737B" font-family="sans-serif" font-size="20">location-background-agent-board-composite</text><rect x="418" y="16" width="364" height="768" fill="none" stroke="#5E737B" stroke-width="3"/><text x="426" y="40" fill="#5E737B" font-family="sans-serif" font-size="20">location-background-institutional-composite</text><rect x="812" y="16" width="364" height="768" fill="none" stroke="#5E737B" stroke-width="3"/><text x="820" y="40" fill="#5E737B" font-family="sans-serif" font-size="20">location-background-systems-view</text><rect x="125.28" y="179.36" width="234.196" height="204.8" fill="none" stroke="#5E737B" stroke-width="3"/><text x="133.28" y="203.36" fill="#5E737B" font-family="sans-serif" font-size="20">arrow</text><text x="242.378" y="408.96" text-anchor="middle" fill="#E7E0D0" font-size="20" font-family="sans-serif">ACTOR A</text><rect x="441.76" y="179.36" width="234.196" height="204.8" fill="none" stroke="#5E737B" stroke-width="3"/><text x="449.76" y="203.36" fill="#5E737B" font-family="sans-serif" font-size="20">arrow</text><text x="558.857" y="408.96" text-anchor="middle" fill="#E7E0D0" font-size="20" font-family="sans-serif">ACTOR B</text><rect x="758.24" y="179.36" width="234.196" height="204.8" fill="none" stroke="#A17D45" stroke-width="3"/><text x="766.24" y="203.36" fill="#A17D45" font-family="sans-serif" font-size="20">scatter</text><text x="875.338" y="408.96" text-anchor="middle" fill="#E7E0D0" font-size="20" font-family="sans-serif">SHARED SYSTEMS</text><rect x="3" y="3" width="1194" height="794" fill="none" stroke="#5E737B" stroke-width="4"/></svg>
+</metadata><rect width="1200" height="800" fill="#101214"/><rect x="24" y="16" width="364" height="768" fill="none" stroke="#5E737B" stroke-width="3"/><text x="32" y="40" fill="#5E737B" font-family="sans-serif" font-size="20">location-background-agent-board-composite</text><rect x="418" y="16" width="364" height="768" fill="none" stroke="#5E737B" stroke-width="3"/><text x="426" y="40" fill="#5E737B" font-family="sans-serif" font-size="20">location-background-institutional-composite</text><rect x="812" y="16" width="364" height="768" fill="none" stroke="#5E737B" stroke-width="3"/><text x="820" y="40" fill="#5E737B" font-family="sans-serif" font-size="20">location-background-systems-view</text><rect x="125.28" y="179.36" width="234.196" height="204.8" fill="none" stroke="#5E737B" stroke-width="3"/><text x="133.28" y="203.36" fill="#5E737B" font-family="sans-serif" font-size="20">arrow</text><text x="242.378" y="408.96" text-anchor="middle" fill="#E7E0D0" font-size="20" font-family="Arial, Helvetica, sans-serif" data-font-key="editorial" font-weight="700" font-style="normal" textLength="88.90" lengthAdjust="spacingAndGlyphs">ACTOR A</text><rect x="441.76" y="179.36" width="234.196" height="204.8" fill="none" stroke="#5E737B" stroke-width="3"/><text x="449.76" y="203.36" fill="#5E737B" font-family="sans-serif" font-size="20">arrow</text><text x="558.857" y="408.96" text-anchor="middle" fill="#E7E0D0" font-size="20" font-family="Arial, Helvetica, sans-serif" data-font-key="editorial" font-weight="700" font-style="normal" textLength="88.90" lengthAdjust="spacingAndGlyphs">ACTOR B</text><rect x="758.24" y="179.36" width="234.196" height="204.8" fill="none" stroke="#A17D45" stroke-width="3"/><text x="766.24" y="203.36" fill="#A17D45" font-family="sans-serif" font-size="20">scatter</text><text x="875.338" y="408.96" text-anchor="middle" fill="#E7E0D0" font-size="20" font-family="Arial, Helvetica, sans-serif" data-font-key="editorial" font-weight="700" font-style="normal" textLength="184.48" lengthAdjust="spacingAndGlyphs">SHARED SYSTEMS</text><rect x="3" y="3" width="1194" height="794" fill="none" stroke="#5E737B" stroke-width="4"/></svg>

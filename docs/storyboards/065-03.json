@@ -43,6 +43,7 @@
       ],
       "color": "steel",
       "focus": true,
+      "font": "editorial",
       "label": "OWNER A",
       "label_box": [
         0.06775,
@@ -62,6 +63,7 @@
       ],
       "color": "steel",
       "focus": true,
+      "font": "editorial",
       "label": "OWNER B",
       "label_box": [
         0.371083,
@@ -81,6 +83,7 @@
       ],
       "color": "steel",
       "focus": true,
+      "font": "editorial",
       "label": "CONFLICTING TAG",
       "label_box": [
         0.674417,
@@ -93,6 +96,6 @@
   ],
   "reconstructed": false,
   "shot": "row",
-  "source": "\n**Location:**\n\n- `artifactory-cache`\n- `evaluation-containers`\n\n**Frame:** Several small workstreams proceed independently. No top node connects them; ownership tags differ and occasionally conflict.\n\n**Action:** Coordination continues without one controlling process.\n\n**Caption:**\n> CONTINUITY IS DISTRIBUTED—AND IMPERFECT.\n\n**Provenance:** `documented` + `inferred` — METR describes decentralized lanes and coordination failures.\n\n",
+  "source": "\n**Location:**\n\n- `artifactory-cache`\n- `evaluation-containers`\n\n**Frame:** Several small workstreams proceed independently. No top node connects them; ownership tags differ and occasionally conflict.\n\n**Action:** Coordination continues without one controlling process.\n\n**Font:** `narration`\n\n**Caption:**\n> CONTINUITY IS DISTRIBUTED—AND IMPERFECT.\n\n**Provenance:** `documented` + `inferred` — METR describes decentralized lanes and coordination failures.\n\n",
   "title": "Independent workstreams retain different ownership"
 }

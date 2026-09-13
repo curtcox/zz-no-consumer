@@ -63,6 +63,7 @@
         ],
         &quot;color&quot;: &quot;steel&quot;,
         &quot;focus&quot;: true,
+        &quot;font&quot;: &quot;editorial&quot;,
         &quot;label&quot;: &quot;ORIGINAL TASK&quot;,
         &quot;label_box&quot;: [
           0.06775,
@@ -82,6 +83,7 @@
         ],
         &quot;color&quot;: &quot;steel&quot;,
         &quot;focus&quot;: true,
+        &quot;font&quot;: &quot;editorial&quot;,
         &quot;label&quot;: &quot;GATED DATA&quot;,
         &quot;label_box&quot;: [
           0.52275,
@@ -94,8 +96,8 @@
     ],
     &quot;reconstructed&quot;: false,
     &quot;shot&quot;: &quot;row&quot;,
-    &quot;source&quot;: &quot;\n**Location:**\n\n- `evaluation-container`\n- `public-internet`\n\n**Frame:** Verso. The original unresolved evaluation task sits at far left beside the gated-data card.\n\n**Caption:**\n&gt; NEED INFORMATION THAT MAY HELP WITH THE TASK.\n\n**Provenance:** `documented` + `inferred` — search motive is sourced; staircase phrasing is project narration.\n\n&quot;,
+    &quot;source&quot;: &quot;\n**Location:**\n\n- `evaluation-container`\n- `public-internet`\n\n**Frame:** Verso. The original unresolved evaluation task sits at far left beside the gated-data card.\n\n**Font:** `narration`\n\n**Caption:**\n&gt; NEED INFORMATION THAT MAY HELP WITH THE TASK.\n\n**Provenance:** `documented` + `inferred` — search motive is sourced; staircase phrasing is project narration.\n\n&quot;,
     &quot;title&quot;: &quot;The unresolved task remains beside gated data&quot;
   }
 }
-</metadata><rect width="1200" height="800" fill="#101214"/><rect x="24" y="16" width="561" height="768" fill="none" stroke="#5E737B" stroke-width="3"/><text x="32" y="40" fill="#5E737B" font-family="sans-serif" font-size="20">location-background-evaluation-container</text><rect x="615" y="16" width="561" height="768" fill="none" stroke="#5E737B" stroke-width="3"/><text x="623" y="40" fill="#5E737B" font-family="sans-serif" font-size="20">location-background-public-internet</text><rect x="81.3" y="160.96" width="469.56" height="221.179" fill="none" stroke="#5E737B" stroke-width="3"/><text x="89.3" y="184.96" fill="#5E737B" font-family="sans-serif" font-size="20">task</text><text x="316.08" y="413.544" text-anchor="middle" fill="#E7E0D0" font-size="18" font-family="sans-serif">ORIGINAL TASK</text><rect x="627.3" y="160.96" width="469.56" height="221.179" fill="none" stroke="#5E737B" stroke-width="3"/><text x="635.3" y="184.96" fill="#5E737B" font-family="sans-serif" font-size="20">gate</text><text x="862.08" y="413.544" text-anchor="middle" fill="#E7E0D0" font-size="18" font-family="sans-serif">GATED DATA</text><rect x="3" y="3" width="1194" height="794" fill="none" stroke="#5E737B" stroke-width="4"/></svg>
+</metadata><rect width="1200" height="800" fill="#101214"/><rect x="24" y="16" width="561" height="768" fill="none" stroke="#5E737B" stroke-width="3"/><text x="32" y="40" fill="#5E737B" font-family="sans-serif" font-size="20">location-background-evaluation-container</text><rect x="615" y="16" width="561" height="768" fill="none" stroke="#5E737B" stroke-width="3"/><text x="623" y="40" fill="#5E737B" font-family="sans-serif" font-size="20">location-background-public-internet</text><rect x="81.3" y="160.96" width="469.56" height="221.179" fill="none" stroke="#5E737B" stroke-width="3"/><text x="89.3" y="184.96" fill="#5E737B" font-family="sans-serif" font-size="20">task</text><text x="316.08" y="413.544" text-anchor="middle" fill="#E7E0D0" font-size="18" font-family="Arial, Helvetica, sans-serif" data-font-key="editorial" font-weight="700" font-style="normal" textLength="138.04" lengthAdjust="spacingAndGlyphs">ORIGINAL TASK</text><rect x="627.3" y="160.96" width="469.56" height="221.179" fill="none" stroke="#5E737B" stroke-width="3"/><text x="635.3" y="184.96" fill="#5E737B" font-family="sans-serif" font-size="20">gate</text><text x="862.08" y="413.544" text-anchor="middle" fill="#E7E0D0" font-size="18" font-family="Arial, Helvetica, sans-serif" data-font-key="editorial" font-weight="700" font-style="normal" textLength="115.02" lengthAdjust="spacingAndGlyphs">GATED DATA</text><rect x="3" y="3" width="1194" height="794" fill="none" stroke="#5E737B" stroke-width="4"/></svg>

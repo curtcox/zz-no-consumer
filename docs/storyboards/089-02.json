@@ -33,6 +33,7 @@
       ],
       "color": "steel",
       "focus": true,
+      "font": "editorial",
       "label": "INCIDENT FEATURES",
       "label_box": [
         0.06775,
@@ -52,6 +53,7 @@
       ],
       "color": "steel",
       "focus": true,
+      "font": "editorial",
       "label": "EXISTING CONCERNS",
       "label_box": [
         0.52275,
@@ -64,6 +66,6 @@
   ],
   "reconstructed": false,
   "shot": "row",
-  "source": "\n**Location:** `curt-home-office`\n\n**Frame:** Lines connect incident features to existing concerns. The fit is visually strong.\n\n**Dialogue — CURT:**\n> I chose it because it already touched questions I was worried about.\n\n**Provenance:** `reconstructed` — creator admission.\n\n",
+  "source": "\n**Location:** `curt-home-office`\n\n**Frame:** Lines connect incident features to existing concerns. The fit is visually strong.\n\n**Font:** `human`\n\n**Dialogue — CURT:**\n> I chose it because it already touched questions I was worried about.\n\n**Provenance:** `reconstructed` — creator admission.\n\n",
   "title": "The selected incident features fit existing concerns"
 }

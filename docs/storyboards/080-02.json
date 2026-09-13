@@ -24,6 +24,7 @@
       ],
       "color": "steel",
       "focus": true,
+      "font": "editorial",
       "label": "EXCERPT",
       "label_box": [
         0.06775,
@@ -43,6 +44,7 @@
       ],
       "color": "steel",
       "focus": true,
+      "font": "editorial",
       "label": "TRANSCRIPT",
       "label_box": [
         0.24975,
@@ -62,6 +64,7 @@
       ],
       "color": "steel",
       "focus": true,
+      "font": "editorial",
       "label": "BOARD",
       "label_box": [
         0.43175,
@@ -81,6 +84,7 @@
       ],
       "color": "steel",
       "focus": true,
+      "font": "editorial",
       "label": "TIME",
       "label_box": [
         0.61375,
@@ -100,6 +104,7 @@
       ],
       "color": "steel",
       "focus": true,
+      "font": "editorial",
       "label": "IDENTITY",
       "label_box": [
         0.79575,

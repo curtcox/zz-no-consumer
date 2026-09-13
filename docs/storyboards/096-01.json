@@ -33,6 +33,7 @@
       ],
       "color": "steel",
       "focus": true,
+      "font": "editorial",
       "label": "CODE",
       "label_box": [
         0.06775,
@@ -52,6 +53,7 @@
       ],
       "color": "steel",
       "focus": true,
+      "font": "editorial",
       "label": "TOOLS",
       "label_box": [
         0.371083,
@@ -71,6 +73,7 @@
       ],
       "color": "steel",
       "focus": true,
+      "font": "editorial",
       "label": "INTERNET",
       "label_box": [
         0.674417,
@@ -83,6 +86,6 @@
   ],
   "reconstructed": false,
   "shot": "row",
-  "source": "\n**Location:** `openai-research-infrastructure`\n\n**Frame:** Immediately after the incident, frontier-model inference lanes for code, tools, or internet access are switched off across research clusters.\n\n**Caption:**\n> OPENAI SAYS IT PAUSED FRONTIER INFERENCE FOR TOOL-CAPABLE RESEARCH WORKLOADS.\n\n**Provenance:** `documented` (institutional claim).\n\n",
+  "source": "\n**Location:** `openai-research-infrastructure`\n\n**Frame:** Immediately after the incident, frontier-model inference lanes for code, tools, or internet access are switched off across research clusters.\n\n**Font:** `narration`\n\n**Caption:**\n> OPENAI SAYS IT PAUSED FRONTIER INFERENCE FOR TOOL-CAPABLE RESEARCH WORKLOADS: RUNNING THE MODELS WITH TOOLS, A DIFFERENT ACTIVITY FROM TRAINING THEM.\n\n**Provenance:** `documented` (institutional claim).\n\n",
   "title": "Specified inference workloads are switched off"
 }

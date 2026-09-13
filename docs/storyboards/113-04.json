@@ -33,6 +33,7 @@
       ],
       "color": "steel",
       "focus": true,
+      "font": "editorial",
       "label": "PUBLICATION RISKS",
       "label_box": [
         0.06775,
@@ -52,6 +53,7 @@
       ],
       "color": "steel",
       "focus": true,
+      "font": "editorial",
       "label": "NONPUBLICATION RISKS",
       "label_box": [
         0.52275,
@@ -75,6 +77,6 @@
   ],
   "reconstructed": false,
   "shot": "split",
-  "source": "\n**Location:** `curt-home-office`\n\n**Frame:** Two columns remain: publication risks misuse and compression; nonpublication risks secrecy, lost scrutiny, and repeated ignorance. Neither column empties.\n\n**Screen / system text — CHATGPT:**\n> There is no neutral distribution choice.\n\n**Provenance:** `reconstructed` + `inferred`.\n\n",
+  "source": "\n**Location:** `curt-home-office`\n\n**Frame:** Two columns remain: publication risks misuse and compression; nonpublication risks secrecy, lost scrutiny, and repeated ignorance. Neither column empties.\n\n**Font:** `interface`\n\n**Screen / system text — CHATGPT:**\n> There is no neutral distribution choice.\n\n**Provenance:** `reconstructed` + `inferred`.\n\n",
   "title": "Both publication and nonpublication retain costs"
 }

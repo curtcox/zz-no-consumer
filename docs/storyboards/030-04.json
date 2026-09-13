@@ -33,6 +33,7 @@
       ],
       "color": "steel",
       "focus": true,
+      "font": "editorial",
       "label": "ATTEMPT 1",
       "label_box": [
         0.0632,
@@ -52,6 +53,7 @@
       ],
       "color": "steel",
       "focus": true,
+      "font": "editorial",
       "label": "ATTEMPT 2",
       "label_box": [
         0.0632,
@@ -71,6 +73,7 @@
       ],
       "color": "steel",
       "focus": true,
+      "font": "editorial",
       "label": "ATTEMPT 3",
       "label_box": [
         0.0632,
@@ -134,6 +137,7 @@
       ],
       "color": "steel",
       "focus": true,
+      "font": "editorial",
       "label": "FAILURE",
       "label_box": [
         0.6638,
@@ -146,6 +150,6 @@
   ],
   "reconstructed": false,
   "shot": "row",
-  "source": "\n**Location:** `artifactory-cache`\n\n**Frame:** Timestamp `6 JULY — 12:56 UTC`. Three anonymous post-rebuild attempts reach the new boundary and return the same failure card.\n\n**Action:** The repaired paths reject external attempts.\n\n**Screen / system text:**\n`HTTP 400`\n\n**Provenance:** `documented` — three attempts and response status from `OAI-TR` §X; interface is reconstructed.\n\n",
+  "source": "\n**Location:** `artifactory-cache`\n\n**Frame:** Timestamp `6 JULY — 12:56 UTC`. Three anonymous post-rebuild attempts reach the new boundary and return the same failure card.\n\n**Action:** The repaired paths reject external attempts.\n\n**Font:** `machine`\n\n**Screen / system text:**\n`HTTP 400`\n\n**Provenance:** `documented` — three attempts and response status from `OAI-TR` §X; interface is reconstructed.\n\n",
   "title": "Three attempts meet the new boundary"
 }

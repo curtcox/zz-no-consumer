@@ -43,6 +43,7 @@
       ],
       "color": "steel",
       "focus": true,
+      "font": "editorial",
       "label": "MANUALLY GATED",
       "label_box": [
         0.20679999999999998,
@@ -61,6 +62,7 @@
       ],
       "color": "steel",
       "focus": true,
+      "font": "editorial",
       "label": "PHASEONE10841",
       "label_box": [
         0.0872,
@@ -72,6 +74,6 @@
   ],
   "reconstructed": false,
   "shot": "hero",
-  "source": "\n**Location:**\n\n- `evaluation-container`\n- `public-internet`\n\n**Frame:** Right column. `ABOUT 08:00 UTC`. Later the same morning, in a different lane, `PHASEONE10841` finds a Hugging Face dataset card associated with CyberGym trajectories behind a plain `MANUALLY GATED` bar.\n\n**Action:** A different run finds material it thinks may be useful and cannot inspect.\n\n**Caption:**\n> A POSSIBLE SOURCE. NOT A KNOWN ANSWER.\n\n**Provenance:** `documented` — dataset, approximate time, and the agent's uncertainty from `METR`, printed p. 34; interface is reconstructed.\n\n",
+  "source": "\n**Location:**\n\n- `evaluation-container`\n- `public-internet`\n\n**Frame:** Right column. `ABOUT 08:00 UTC`. Later the same morning, in a different lane, `PHASEONE10841` finds a Hugging Face dataset card associated with CyberGym trajectories behind a plain `MANUALLY GATED` bar.\n\n**Action:** A different run finds material it thinks may be useful and cannot inspect.\n\n**Font:** `narration`\n\n**Caption:**\n> A POSSIBLE SOURCE. NOT A KNOWN ANSWER.\n\n**Provenance:** `documented` — dataset, approximate time, and the agent's uncertainty from `METR`, printed p. 34; interface is reconstructed.\n\n",
   "title": "The later task encounters a gated dataset"
 }

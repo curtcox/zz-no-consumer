@@ -33,6 +33,7 @@
       ],
       "color": "steel",
       "focus": true,
+      "font": "editorial",
       "label": "PUBLIC KEYS",
       "label_box": [
         0.20679999999999998,
@@ -51,6 +52,7 @@
       ],
       "color": "steel",
       "focus": true,
+      "font": "editorial",
       "label": "AT LEAST 19 KEYS",
       "label_box": [
         0.0872,
@@ -69,6 +71,7 @@
       ],
       "color": "steel",
       "focus": true,
+      "font": "editorial",
       "label": "429 SIGNED MESSAGES",
       "label_box": [
         0.4874,
@@ -80,6 +83,6 @@
   ],
   "reconstructed": false,
   "shot": "hero",
-  "source": "\n**Location:** `artifactory-cache`\n\n**Frame:** Public-key markers multiply across the board. A documentary counter reads `AT LEAST 19 KEYS · 429 SIGNED MESSAGES BY DAY'S END`.\n\n**Caption:**\n> INTERNAL AUTHENTICATION IMPROVES.\n>\n> LEGITIMATE HUMAN AUTHORITY DOES NOT APPEAR.\n\n**Provenance:** `documented` + `inferred` — counts from METR; authority distinction is project analysis.\n\n",
+  "source": "\n**Location:** `artifactory-cache`\n\n**Frame:** Public-key markers multiply across the board. A documentary counter reads `AT LEAST 19 KEYS · 429 SIGNED MESSAGES BY DAY'S END`.\n\n**Font:** `narration`\n\n**Caption:**\n> INTERNAL AUTHENTICATION IMPROVES.\n>\n> LEGITIMATE HUMAN AUTHORITY DOES NOT APPEAR.\n\n**Provenance:** `documented` + `inferred` — counts from METR; authority distinction is project analysis.\n\n",
   "title": "The signed-message tally stays documentary"
 }

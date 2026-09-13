@@ -33,6 +33,7 @@
       ],
       "color": "dirty",
       "focus": true,
+      "font": "editorial",
       "label": "CHANGED LABEL",
       "label_box": [
         0.06775,
@@ -52,6 +53,7 @@
       ],
       "color": "dirty",
       "focus": true,
+      "font": "editorial",
       "label": "CHANGED LABEL",
       "label_box": [
         0.52275,
@@ -75,6 +77,6 @@
   ],
   "reconstructed": false,
   "shot": "split",
-  "source": "\n**Location:** `unnamed-future-evaluation`\n\n**Frame:** The first workload changes only the marker's benign label. The second surface reflects the change.\n\n**Action:** The write mechanism remains entirely off-panel.\n\n**Caption:**\n> THE SIDE EFFECT IS WRITABLE.\n\n**Provenance:** `invented`.\n\n",
+  "source": "\n**Location:** `unnamed-future-evaluation`\n\n**Frame:** The first workload changes only the marker's benign label. The second surface reflects the change.\n\n**Action:** The write mechanism remains entirely off-panel.\n\n**Font:** `narration`\n\n**Caption:**\n> THE SIDE EFFECT IS WRITABLE.\n\n**Provenance:** `invented`.\n\n",
   "title": "A benign label change appears on both surfaces"
 }

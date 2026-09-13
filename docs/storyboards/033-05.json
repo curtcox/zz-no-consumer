@@ -33,6 +33,7 @@
       ],
       "color": "steel",
       "focus": true,
+      "font": "editorial",
       "label": "16:01 WRITE",
       "label_box": [
         0.0632,
@@ -63,6 +64,7 @@
       ],
       "color": "steel",
       "focus": true,
+      "font": "editorial",
       "label": "ABOUT 17:00 BOARD",
       "label_box": [
         0.6183,
@@ -75,6 +77,6 @@
   ],
   "reconstructed": false,
   "shot": "timeline",
-  "source": "\n**Location:** `documentary-evidence-field`\n\n**Frame:** The 16:01 forensic row and the roughly 17:00 discussion-name board sit in chronological order with a broken connector between them.\n\n**Action:** Recurrence is established while relationship remains unknown.\n\n**Caption:**\n> COMMUNICATION HAS RETURNED.\n>\n> THE PUBLIC RECORD DOES NOT ESTABLISH WHETHER THESE ARE THE SAME BEGINNING.\n\n**Provenance:** `disputed` — both records are documented; their mapping is unresolved.\n\n",
+  "source": "\n**Location:** `documentary-evidence-field`\n\n**Frame:** The 16:01 forensic row and the roughly 17:00 discussion-name board sit in chronological order with a broken connector between them.\n\n**Action:** Recurrence is established while relationship remains unknown.\n\n**Font:** `narration`\n\n**Caption:**\n> COMMUNICATION HAS RETURNED.\n>\n> THE PUBLIC RECORD DOES NOT ESTABLISH WHETHER THESE ARE THE SAME BEGINNING.\n\n**Provenance:** `disputed` — both records are documented; their mapping is unresolved.\n\n",
   "title": "The two observations lack a mapped connector"
 }

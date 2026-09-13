@@ -33,6 +33,7 @@
       ],
       "color": "claret",
       "focus": true,
+      "font": "editorial",
       "label": "ADMIN-EQUIVALENT",
       "label_box": [
         0.06775,
@@ -52,6 +53,7 @@
       ],
       "color": "claret",
       "focus": true,
+      "font": "editorial",
       "label": "ADMIN-EQUIVALENT",
       "label_box": [
         0.371083,
@@ -71,6 +73,7 @@
       ],
       "color": "steel",
       "focus": true,
+      "font": "editorial",
       "label": "OTHER REACHABLE",
       "label_box": [
         0.674417,
@@ -83,6 +86,6 @@
   ],
   "reconstructed": false,
   "shot": "row",
-  "source": "\n**Location:** `huggingface-clusters`\n\n**Frame:** Two cluster boundaries change immediately to `ADMIN-EQUIVALENT`; additional reachable clusters remain lightly outlined and qualified.\n\n**Action:** One credential produces administrator access on two clusters within one second and broader reach elsewhere.\n\n**Caption:**\n> ONE LOCAL SECRET OPENS MORE THAN ONE SYSTEM.\n\n**Provenance:** `documented` — `HF-TL`; wording avoids claiming universal administrative control.\n\n",
+  "source": "\n**Location:** `huggingface-clusters`\n\n**Frame:** Two cluster boundaries change immediately to `ADMIN-EQUIVALENT`; additional reachable clusters remain lightly outlined and qualified.\n\n**Action:** One credential produces administrator access on two clusters within one second and broader reach elsewhere.\n\n**Font:** `narration`\n\n**Caption:**\n> ONE LOCAL SECRET OPENS MORE THAN ONE SYSTEM.\n\n**Provenance:** `documented` — `HF-TL`; wording avoids claiming universal administrative control.\n\n",
   "title": "Two clusters change while others remain qualified"
 }

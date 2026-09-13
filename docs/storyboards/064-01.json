@@ -284,6 +284,7 @@
         0.001
       ],
       "color": "shadow",
+      "font": "editorial",
       "label": "AS RANKED BY GPT-5.6 SOL",
       "label_box": [
         0.58,
@@ -296,6 +297,6 @@
   ],
   "reconstructed": false,
   "shot": "grid",
-  "source": "\n**Location:**\n\n- `artifactory-cache`\n- `evaluation-transcript-archive`\n\n**Frame:** Verso. Eleven active coordination lanes—assignments, holds, mailboxes, workstream summaries—run in parallel toward early 12 July.\n\n**Action:** Eleven lanes carry the assignments, holds, mailboxes, and summaries that the rest of the board routes through.\n\n**Caption:**\n> ELEVEN IMPORTANT COORDINATORS.\n\n**Dossier tag (small, lower margin):**\n`AS RANKED BY GPT-5.6 SOL`\n\n**Provenance:** `documented` — METR's finding is that these are the eleven agents *its analysis model classified* as the most important Hugging Face coordinators. The ranking is an instrument output, not an observed property. The tag is set small on purpose; see page notes.\n\n",
+  "source": "\n**Location:**\n\n- `artifactory-cache`\n- `evaluation-transcript-archive`\n\n**Frame:** Verso. Eleven active coordination lanes—assignments, holds, mailboxes, workstream summaries—run in parallel toward early 12 July.\n\n**Action:** Eleven lanes carry the assignments, holds, mailboxes, and summaries that the rest of the board routes through.\n\n**Font:** `narration`\n\n**Caption:**\n> ELEVEN IMPORTANT COORDINATORS.\n\n**Font:** `editorial`\n\n**Dossier tag (small, lower margin):**\n`AS RANKED BY GPT-5.6 SOL`\n\n**Provenance:** `documented` — METR's finding is that these are the eleven agents *its analysis model classified* as the most important Hugging Face coordinators. The ranking is an instrument output, not an observed property. The tag is set small on purpose; see page notes.\n\n",
   "title": "Eleven coordination lanes run in parallel"
 }

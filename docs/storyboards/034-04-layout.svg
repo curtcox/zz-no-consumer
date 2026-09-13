@@ -54,6 +54,7 @@
         ],
         &quot;color&quot;: &quot;steel&quot;,
         &quot;focus&quot;: true,
+        &quot;font&quot;: &quot;editorial&quot;,
         &quot;label&quot;: &quot;16:01&quot;,
         &quot;label_box&quot;: [
           0.0632,
@@ -84,6 +85,7 @@
         ],
         &quot;color&quot;: &quot;steel&quot;,
         &quot;focus&quot;: true,
+        &quot;font&quot;: &quot;editorial&quot;,
         &quot;label&quot;: &quot;ABOUT 17:00&quot;,
         &quot;label_box&quot;: [
           0.4272,
@@ -103,6 +105,7 @@
         ],
         &quot;color&quot;: &quot;steel&quot;,
         &quot;focus&quot;: true,
+        &quot;font&quot;: &quot;editorial&quot;,
         &quot;label&quot;: &quot;23:00&quot;,
         &quot;label_box&quot;: [
           0.7093,
@@ -122,6 +125,7 @@
         ],
         &quot;color&quot;: &quot;steel&quot;,
         &quot;focus&quot;: true,
+        &quot;font&quot;: &quot;editorial&quot;,
         &quot;label&quot;: &quot;TIME ORDER&quot;,
         &quot;label_box&quot;: [
           0.0723,
@@ -134,8 +138,8 @@
     ],
     &quot;reconstructed&quot;: false,
     &quot;shot&quot;: &quot;row&quot;,
-    &quot;source&quot;: &quot;\n**Location:** `documentary-evidence-field`\n\n**Frame:** The first two blocks refuse to snap together. A dusty-amber bracket reads `RELATIONSHIP NOT PUBLICLY MAPPED`. The third block is connected only by forward time.\n\n**Action:** Uncertainty becomes the central evidence.\n\n**Caption:**\n&gt; AT LEAST TWO BOARDS. MORE THAN ONE MECHANISM.\n\n**Provenance:** `disputed` + `compressed` — bounded synthesis of the two primary accounts.\n\n&quot;,
+    &quot;source&quot;: &quot;\n**Location:** `documentary-evidence-field`\n\n**Frame:** The first two blocks refuse to snap together. A dusty-amber bracket reads `RELATIONSHIP NOT PUBLICLY MAPPED`. The third block is connected only by forward time.\n\n**Action:** Uncertainty becomes the central evidence.\n\n**Font:** `narration`\n\n**Caption:**\n&gt; AT LEAST TWO BOARDS. MORE THAN ONE MECHANISM FOR LEAVING READABLE MARKS IN THE SERVICE. THEIR HISTORIES CANNOT BE COLLAPSED INTO ONE.\n\n**Provenance:** `disputed` + `compressed` — bounded synthesis of the two primary accounts.\n\n&quot;,
     &quot;title&quot;: &quot;Chronology does not establish identity&quot;
   }
 }
-</metadata><rect width="1200" height="800" fill="#101214"/><rect x="24" y="16" width="1152" height="768" fill="none" stroke="#5E737B" stroke-width="3"/><text x="32" y="40" fill="#5E737B" font-family="sans-serif" font-size="20">location-background-documentary-evidence-field</text><rect x="75.84" y="92.8" width="273" height="183.691" fill="none" stroke="#5E737B" stroke-width="3"/><text x="83.84" y="116.8" fill="#5E737B" font-family="sans-serif" font-size="20">transcript</text><text x="212.34" y="305.624" text-anchor="middle" fill="#E7E0D0" font-size="18" font-family="sans-serif">16:01</text><rect x="365.22" y="172.32" width="125.58" height="62.48" fill="none" stroke="#A17D45" stroke-width="3"/><text x="373.22" y="196.32" fill="#A17D45" font-family="sans-serif" font-size="20">broken-trace</text><rect x="512.64" y="92.8" width="273" height="183.691" fill="none" stroke="#5E737B" stroke-width="3"/><text x="520.64" y="116.8" fill="#5E737B" font-family="sans-serif" font-size="20">directory-row</text><text x="649.14" y="305.624" text-anchor="middle" fill="#E7E0D0" font-size="18" font-family="sans-serif">ABOUT 17:00</text><rect x="851.16" y="92.8" width="273" height="183.691" fill="none" stroke="#5E737B" stroke-width="3"/><text x="859.16" y="116.8" fill="#5E737B" font-family="sans-serif" font-size="20">directory-row</text><text x="987.66" y="305.624" text-anchor="middle" fill="#E7E0D0" font-size="18" font-family="sans-serif">23:00</text><rect x="86.76" y="490.4" width="1015.56" height="56.232" fill="none" stroke="#5E737B" stroke-width="3"/><text x="94.76" y="514.4" fill="#5E737B" font-family="sans-serif" font-size="20">line</text><text x="594.54" y="568.04" text-anchor="middle" fill="#E7E0D0" font-size="18" font-family="sans-serif">TIME ORDER</text><rect x="3" y="3" width="1194" height="794" fill="none" stroke="#5E737B" stroke-width="4"/></svg>
+</metadata><rect width="1200" height="800" fill="#101214"/><rect x="24" y="16" width="1152" height="768" fill="none" stroke="#5E737B" stroke-width="3"/><text x="32" y="40" fill="#5E737B" font-family="sans-serif" font-size="20">location-background-documentary-evidence-field</text><rect x="75.84" y="92.8" width="273" height="183.691" fill="none" stroke="#5E737B" stroke-width="3"/><text x="83.84" y="116.8" fill="#5E737B" font-family="sans-serif" font-size="20">transcript</text><text x="212.34" y="305.624" text-anchor="middle" fill="#E7E0D0" font-size="18" font-family="Arial, Helvetica, sans-serif" data-font-key="editorial" font-weight="700" font-style="normal" textLength="45.04" lengthAdjust="spacingAndGlyphs">16:01</text><rect x="365.22" y="172.32" width="125.58" height="62.48" fill="none" stroke="#A17D45" stroke-width="3"/><text x="373.22" y="196.32" fill="#A17D45" font-family="sans-serif" font-size="20">broken-trace</text><rect x="512.64" y="92.8" width="273" height="183.691" fill="none" stroke="#5E737B" stroke-width="3"/><text x="520.64" y="116.8" fill="#5E737B" font-family="sans-serif" font-size="20">directory-row</text><text x="649.14" y="305.624" text-anchor="middle" fill="#E7E0D0" font-size="18" font-family="Arial, Helvetica, sans-serif" data-font-key="editorial" font-weight="700" font-style="normal" textLength="112.05" lengthAdjust="spacingAndGlyphs">ABOUT 17:00</text><rect x="851.16" y="92.8" width="273" height="183.691" fill="none" stroke="#5E737B" stroke-width="3"/><text x="859.16" y="116.8" fill="#5E737B" font-family="sans-serif" font-size="20">directory-row</text><text x="987.66" y="305.624" text-anchor="middle" fill="#E7E0D0" font-size="18" font-family="Arial, Helvetica, sans-serif" data-font-key="editorial" font-weight="700" font-style="normal" textLength="45.04" lengthAdjust="spacingAndGlyphs">23:00</text><rect x="86.76" y="490.4" width="1015.56" height="56.232" fill="none" stroke="#5E737B" stroke-width="3"/><text x="94.76" y="514.4" fill="#5E737B" font-family="sans-serif" font-size="20">line</text><text x="594.54" y="568.04" text-anchor="middle" fill="#E7E0D0" font-size="18" font-family="Arial, Helvetica, sans-serif" data-font-key="editorial" font-weight="700" font-style="normal" textLength="113.00" lengthAdjust="spacingAndGlyphs">TIME ORDER</text><rect x="3" y="3" width="1194" height="794" fill="none" stroke="#5E737B" stroke-width="4"/></svg>

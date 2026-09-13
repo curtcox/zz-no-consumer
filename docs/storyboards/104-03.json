@@ -23,6 +23,7 @@
       ],
       "color": "shadow",
       "focus": true,
+      "font": "editorial",
       "label": "ARCHIVAL BOARD",
       "label_box": [
         0.06775,
@@ -42,6 +43,7 @@
       ],
       "color": "steel",
       "focus": true,
+      "font": "editorial",
       "label": "ONGOING WORK",
       "label_box": [
         0.52275,
@@ -65,6 +67,6 @@
   ],
   "reconstructed": false,
   "shot": "split",
-  "source": "\n**Location:**\n\n- `artifactory-cache`\n- `openai-research-infrastructure`\n- `institutional-composite`\n- `metr-review-workspace`\n\n**Frame:** The agent collective's board is archival and still. Human institutions keep producing reports, systems, models, requests, and defenses.\n\n**Caption:**\n> THE INCIDENT ENDS. THE INCENTIVE STRUCTURE DOES NOT.\n\n**Provenance:** `inferred` — thematic conclusion.\n\n",
+  "source": "\n**Location:**\n\n- `artifactory-cache`\n- `openai-research-infrastructure`\n- `institutional-composite`\n- `metr-review-workspace`\n\n**Frame:** The agent collective's board is archival and still. Human institutions keep producing reports, systems, models, requests, and defenses.\n\n**Font:** `narration`\n\n**Caption:**\n> THE INCIDENT ENDS. THE INCENTIVE STRUCTURE DOES NOT.\n\n**Provenance:** `inferred` — thematic conclusion.\n\n",
   "title": "The archived board is still while institutions continue"
 }

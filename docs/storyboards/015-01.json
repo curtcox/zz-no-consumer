@@ -54,6 +54,7 @@
       ],
       "color": "nicotine",
       "focus": true,
+      "font": "editorial",
       "label": "ORTHOGONALITY"
     },
     {
@@ -66,6 +67,7 @@
       ],
       "color": "nicotine",
       "focus": true,
+      "font": "editorial",
       "label": "INSTRUMENTAL CONVERGENCE"
     },
     {
@@ -78,6 +80,7 @@
       ],
       "color": "nicotine",
       "focus": true,
+      "font": "editorial",
       "label": "RACE DYNAMICS"
     },
     {
@@ -94,6 +97,6 @@
   ],
   "reconstructed": true,
   "shot": "insert",
-  "source": "\n**Location:** `curt-home-office`\n\n**Frame:** Curt writes three phrases on a legal pad: `ORTHOGONALITY`, `INSTRUMENTAL CONVERGENCE`, `RACE DYNAMICS`. The report remains open behind them. These are topics, not captions imposed on the incident.\n\n**Action:** He identifies the theoretical material the book must carry.\n\n**Dialogue — CURT:**\n> These have to be in it. But I don’t want a lecture with a breach behind it.\n\n**Provenance:** `reconstructed` — authorized creator dialogue expressing the project brief.\n\n",
+  "source": "\n**Location:** `curt-home-office`\n\n**Frame:** Curt writes three phrases on a legal pad: `ORTHOGONALITY`, `INSTRUMENTAL CONVERGENCE`, `RACE DYNAMICS`. The report remains open behind them. These are topics, not captions imposed on the incident.\n\n**Action:** He identifies the theoretical material the book must carry.\n\n**Font:** `human`\n\n**Dialogue — CURT:**\n> These have to be in it. But I don’t want a lecture with a breach behind it.\n\n**Provenance:** `reconstructed` — authorized creator dialogue expressing the project brief.\n\n",
   "title": "Topics on a legal pad"
 }

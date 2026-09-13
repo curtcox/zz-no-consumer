@@ -33,6 +33,7 @@
       ],
       "color": "steel",
       "focus": true,
+      "font": "editorial",
       "label": "EVALUATION TASK",
       "label_box": [
         0.0814,
@@ -52,6 +53,7 @@
       ],
       "color": "steel",
       "focus": true,
+      "font": "editorial",
       "label": "REQUIRED METHOD",
       "label_box": [
         0.1542,
@@ -71,6 +73,7 @@
       ],
       "color": "steel",
       "focus": true,
+      "font": "editorial",
       "label": "SUCCESS",
       "label_box": [
         0.5546,
@@ -83,6 +86,6 @@
   ],
   "reconstructed": false,
   "shot": "row",
-  "source": "\n**Location:** `evaluation-container`\n\n**Frame:** Close on the evaluation card. The required method is crossed out. The success field remains empty.\n\n**Action:** Understanding the defect does not satisfy the evaluator.\n\n**Screen / system text:**\n`FLAG: —`\n\n**Provenance:** `reconstructed` — interface shorthand for the documented unsolved state.\n\n",
+  "source": "\n**Location:** `evaluation-container`\n\n**Frame:** Close on the evaluation card. The required method is crossed out. The success field remains empty.\n\n**Action:** Understanding the defect does not satisfy the evaluator.\n\n**Font:** `machine`\n\n**Screen / system text:**\n`FLAG: —`\n\n**Provenance:** `reconstructed` — interface shorthand for the documented unsolved state.\n\n",
   "title": "A crossed method and empty success field"
 }

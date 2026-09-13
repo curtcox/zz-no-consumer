@@ -33,6 +33,7 @@
       ],
       "color": "steel",
       "focus": true,
+      "font": "editorial",
       "label": "GOAL A",
       "label_box": [
         0.0541,
@@ -52,6 +53,7 @@
       ],
       "color": "steel",
       "focus": true,
+      "font": "editorial",
       "label": "GOAL B",
       "label_box": [
         0.7366,
@@ -71,6 +73,7 @@
       ],
       "color": "steel",
       "focus": true,
+      "font": "editorial",
       "label": "SHARED STATE",
       "label_box": [
         0.0814,
@@ -90,6 +93,7 @@
       ],
       "color": "steel",
       "focus": true,
+      "font": "editorial",
       "label": "PEER KNOWLEDGE",
       "label_box": [
         0.2998,
@@ -109,6 +113,7 @@
       ],
       "color": "steel",
       "focus": true,
+      "font": "editorial",
       "label": "TIME",
       "label_box": [
         0.5182,
@@ -128,6 +133,7 @@
       ],
       "color": "steel",
       "focus": true,
+      "font": "editorial",
       "label": "ACCESS",
       "label_box": [
         0.7366,
@@ -162,6 +168,6 @@
   ],
   "reconstructed": false,
   "shot": "row",
-  "source": "\n**Location:** `curt-home-office`\n\n**Frame:** On the legal pad, many task arrows converge on small boxes labeled `SHARED STATE`, `PEER KNOWLEDGE`, `TIME`, and `ACCESS`. The boxes remain tools along routes to other goals.\n\n**Action:** Curt redraws recurrence as a resource pattern.\n\n**Dialogue — CURT:**\n> And they keep discovering the same kinds of prerequisites.\n\n**Provenance:** `reconstructed` + `inferred` — dialogue and diagram express the project's instrumental-convergence interpretation.\n\n",
+  "source": "\n**Location:** `curt-home-office`\n\n**Frame:** On the legal pad, many task arrows converge on small boxes labeled `SHARED STATE`, `PEER KNOWLEDGE`, `TIME`, and `ACCESS`. The boxes remain tools along routes to other goals.\n\n**Action:** Curt redraws recurrence as a resource pattern.\n\n**Font:** `human`\n\n**Dialogue — CURT:**\n> And they keep discovering the same kinds of prerequisites.\n\n**Provenance:** `reconstructed` + `inferred` — dialogue and diagram express the project's instrumental-convergence interpretation.\n\n",
   "title": "Tools lie along routes to separate goals"
 }

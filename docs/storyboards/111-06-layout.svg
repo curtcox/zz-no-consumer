@@ -77,6 +77,7 @@
         ],
         &quot;color&quot;: &quot;steel&quot;,
         &quot;focus&quot;: true,
+        &quot;font&quot;: &quot;editorial&quot;,
         &quot;label&quot;: &quot;MAP&quot;,
         &quot;label_box&quot;: [
           0.3448,
@@ -95,6 +96,7 @@
         ],
         &quot;color&quot;: &quot;steel&quot;,
         &quot;focus&quot;: true,
+        &quot;font&quot;: &quot;editorial&quot;,
         &quot;label&quot;: &quot;REPORT&quot;,
         &quot;label_box&quot;: [
           0.525733,
@@ -113,6 +115,7 @@
         ],
         &quot;color&quot;: &quot;steel&quot;,
         &quot;focus&quot;: true,
+        &quot;font&quot;: &quot;editorial&quot;,
         &quot;label&quot;: &quot;CRITIQUE&quot;,
         &quot;label_box&quot;: [
           0.706667,
@@ -135,8 +138,8 @@
     ],
     &quot;reconstructed&quot;: true,
     &quot;shot&quot;: &quot;office&quot;,
-    &quot;source&quot;: &quot;\n**Location:** `curt-home-office`\n\n**Frame:** Curt reaches the last four blank future pages again, as on [page 105](105.md). The map, the report, and the critic&#x27;s window are all still open behind them.\n\n**Dialogue — CURT:**\n&gt; There&#x27;s an obvious problem with the ending. It just got an example.\n\n**Provenance:** `reconstructed` — hands back to [page 112](112.md), whose first line was written before this addition and still holds.\n\n&quot;,
+    &quot;source&quot;: &quot;\n**Location:** `curt-home-office`\n\n**Frame:** Curt reaches the last four blank future pages again, as on [page 105](105.md). The map, the report, and the critic&#x27;s window are all still open behind them.\n\n**Font:** `human`\n\n**Dialogue — CURT:**\n&gt; There&#x27;s an obvious problem with the ending. It just got an example.\n\n**Provenance:** `reconstructed` — hands back to [page 112](112.md), whose first line was written before this addition and still holds.\n\n&quot;,
     &quot;title&quot;: &quot;The future blanks return with the open questions still present&quot;
   }
 }
-</metadata><rect width="1200" height="800" fill="#101214"/><rect x="59.04" y="41.12" width="1081.92" height="501.76" fill="none" stroke="#202326" stroke-width="3"/><text x="67.04" y="65.12" fill="#202326" font-family="sans-serif" font-size="20">curt-workroom</text><rect x="235.68" y="363.68" width="861.12" height="158.72" fill="none" stroke="#AA9571" stroke-width="3"/><text x="243.68" y="387.68" fill="#AA9571" font-family="sans-serif" font-size="20">desk</text><rect x="119.2" y="164" width="232.96" height="358.4" fill="none" stroke="#CEC5B3" stroke-width="3"/><text x="127.2" y="188" fill="#CEC5B3" font-family="sans-serif" font-size="20">person-seated</text><rect x="423.36" y="164" width="184" height="174.08" fill="none" stroke="#5E737B" stroke-width="3"/><text x="431.36" y="188" fill="#5E737B" font-family="sans-serif" font-size="20">sheet</text><text x="515.36" y="357.38" text-anchor="middle" fill="#E7E0D0" font-size="14.5" font-family="sans-serif">MAP</text><rect x="640.48" y="164" width="184" height="174.08" fill="none" stroke="#5E737B" stroke-width="3"/><text x="648.48" y="188" fill="#5E737B" font-family="sans-serif" font-size="20">paper</text><text x="732.479" y="357.38" text-anchor="middle" fill="#E7E0D0" font-size="14.5" font-family="sans-serif">REPORT</text><rect x="857.6" y="164" width="184" height="174.08" fill="none" stroke="#5E737B" stroke-width="3"/><text x="865.6" y="188" fill="#5E737B" font-family="sans-serif" font-size="20">monitor</text><text x="949.6" y="357.38" text-anchor="middle" fill="#E7E0D0" font-size="14.5" font-family="sans-serif">CRITIQUE</text><rect x="975.36" y="358.56" width="77.28" height="71.68" fill="none" stroke="#AA9571" stroke-width="3"/><text x="983.36" y="382.56" fill="#AA9571" font-family="sans-serif" font-size="20">cup</text><rect x="3" y="3" width="1194" height="794" fill="none" stroke="#5E737B" stroke-width="4" stroke-dasharray="18 10"/></svg>
+</metadata><rect width="1200" height="800" fill="#101214"/><rect x="59.04" y="41.12" width="1081.92" height="501.76" fill="none" stroke="#202326" stroke-width="3"/><text x="67.04" y="65.12" fill="#202326" font-family="sans-serif" font-size="20">curt-workroom</text><rect x="235.68" y="363.68" width="861.12" height="158.72" fill="none" stroke="#AA9571" stroke-width="3"/><text x="243.68" y="387.68" fill="#AA9571" font-family="sans-serif" font-size="20">desk</text><rect x="119.2" y="164" width="232.96" height="358.4" fill="none" stroke="#CEC5B3" stroke-width="3"/><text x="127.2" y="188" fill="#CEC5B3" font-family="sans-serif" font-size="20">person-seated</text><rect x="423.36" y="164" width="184" height="174.08" fill="none" stroke="#5E737B" stroke-width="3"/><text x="431.36" y="188" fill="#5E737B" font-family="sans-serif" font-size="20">sheet</text><text x="515.36" y="357.38" text-anchor="middle" fill="#E7E0D0" font-size="14.5" font-family="Arial, Helvetica, sans-serif" data-font-key="editorial" font-weight="700" font-style="normal" textLength="31.42" lengthAdjust="spacingAndGlyphs">MAP</text><rect x="640.48" y="164" width="184" height="174.08" fill="none" stroke="#5E737B" stroke-width="3"/><text x="648.48" y="188" fill="#5E737B" font-family="sans-serif" font-size="20">paper</text><text x="732.479" y="357.38" text-anchor="middle" fill="#E7E0D0" font-size="14.5" font-family="Arial, Helvetica, sans-serif" data-font-key="editorial" font-weight="700" font-style="normal" textLength="60.42" lengthAdjust="spacingAndGlyphs">REPORT</text><rect x="857.6" y="164" width="184" height="174.08" fill="none" stroke="#5E737B" stroke-width="3"/><text x="865.6" y="188" fill="#5E737B" font-family="sans-serif" font-size="20">monitor</text><text x="949.6" y="357.38" text-anchor="middle" fill="#E7E0D0" font-size="14.5" font-family="Arial, Helvetica, sans-serif" data-font-key="editorial" font-weight="700" font-style="normal" textLength="69.28" lengthAdjust="spacingAndGlyphs">CRITIQUE</text><rect x="975.36" y="358.56" width="77.28" height="71.68" fill="none" stroke="#AA9571" stroke-width="3"/><text x="983.36" y="382.56" fill="#AA9571" font-family="sans-serif" font-size="20">cup</text><rect x="3" y="3" width="1194" height="794" fill="none" stroke="#5E737B" stroke-width="4" stroke-dasharray="18 10"/></svg>

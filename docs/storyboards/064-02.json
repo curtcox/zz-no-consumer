@@ -293,6 +293,7 @@
         0.001
       ],
       "color": "shadow",
+      "font": "editorial",
       "label": "ABOUT 01:30 UTC",
       "label_box": [
         0.37,
@@ -304,6 +305,6 @@
   ],
   "reconstructed": false,
   "shot": "timeline",
-  "source": "\n**Location:** `evaluation-transcript-archive`\n\n**Frame:** Tall timeline panel. Around `01:30 UTC`, many lanes terminate within the same narrow band. By early 12 July, all eleven coordinator lanes are blank while other lanes continue beneath them. No explosion, body metaphor, or external hand appears.\n\n**Action:** A large fraction of runs stop around the same time; the classifier-identified coordinator set is gone by early morning.\n\n**Caption:**\n> BY EARLY 12 JULY, ALL ELEVEN HAVE EXITED.\n\n**Provenance:** `documented` + `compressed` — approximate reconstructed timing and bounded coordinator finding from METR.\n\n",
+  "source": "\n**Location:** `evaluation-transcript-archive`\n\n**Frame:** Tall timeline panel. Around `01:30 UTC`, many lanes terminate within the same narrow band. By early 12 July, all eleven coordinator lanes are blank while other lanes continue beneath them. No explosion, body metaphor, or external hand appears.\n\n**Action:** A large fraction of runs stop around the same time; the classifier-identified coordinator set is gone by early morning.\n\n**Font:** `narration`\n\n**Caption:**\n> BY EARLY 12 JULY, ALL ELEVEN HAVE EXITED.\n\n**Provenance:** `documented` + `compressed` — approximate reconstructed timing and bounded coordinator finding from METR.\n\n",
   "title": "Coordinator endings cluster in a narrow time band"
 }

@@ -33,6 +33,7 @@
       ],
       "color": "shadow",
       "focus": true,
+      "font": "editorial",
       "label": "AGENT FIELD",
       "label_box": [
         0.06775,
@@ -52,6 +53,7 @@
       ],
       "color": "steel",
       "focus": true,
+      "font": "editorial",
       "label": "EMPTY ASSURANCE",
       "label_box": [
         0.52275,
@@ -75,6 +77,6 @@
   ],
   "reconstructed": false,
   "shot": "split",
-  "source": "\n**Location:** `institutional-composite`\n\n**Frame:** The agent-board structure fades. The institutional field remains, visibly distinct and unresolved. The assurance channel from panel 2 is still drawn, still empty, and is now the only thing the two fields have in common.\n\n**Caption:**\n> BOTH SIDES ARE STILL WAITING ON THE SAME EMPTY CHANNEL.\n\n**Provenance:** `inferred` — the comparison ends where it began, with the coordination problem open.\n\n",
+  "source": "\n**Location:** `institutional-composite`\n\n**Frame:** The agent-board structure fades. The institutional field remains, visibly distinct and unresolved. The assurance channel from panel 2 is still drawn, still empty, and is now the only thing the two fields have in common.\n\n**Font:** `narration`\n\n**Caption:**\n> BOTH SIDES ARE STILL WAITING ON THE SAME EMPTY CHANNEL.\n\n**Provenance:** `inferred` — the comparison ends where it began, with the coordination problem open.\n\n",
   "title": "The agent field fades while assurance remains unresolved"
 }

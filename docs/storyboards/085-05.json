@@ -43,6 +43,7 @@
       ],
       "color": "steel",
       "focus": true,
+      "font": "editorial",
       "label": "INVESTIGATION",
       "label_box": [
         0.06775,
@@ -62,6 +63,7 @@
       ],
       "color": "steel",
       "focus": true,
+      "font": "editorial",
       "label": "ADAPTATION",
       "label_box": [
         0.52275,
@@ -85,6 +87,6 @@
   ],
   "reconstructed": false,
   "shot": "split",
-  "source": "\n**Location:**\n\n- `metr-review-workspace`\n- `curt-home-office`\n\n**Frame:** The mirror cracks along the split rather than joining the rooms. Similar tools remain on opposite sides.\n\n**Caption:**\n> THE OBSERVER NEEDS TOOLS THAT RESEMBLE THE OBSERVED.\n>\n> RESEMBLANCE DOES NOT ERASE DIFFERENCE.\n\n**Provenance:** `inferred` — chapter thesis with explicit non-equivalence.\n\n",
+  "source": "\n**Location:**\n\n- `metr-review-workspace`\n- `curt-home-office`\n\n**Frame:** The mirror cracks along the split rather than joining the rooms. Similar tools remain on opposite sides.\n\n**Font:** `narration`\n\n**Caption:**\n> THE OBSERVER NEEDS TOOLS THAT RESEMBLE THE OBSERVED.\n>\n> RESEMBLANCE DOES NOT ERASE DIFFERENCE.\n\n**Provenance:** `inferred` — chapter thesis with explicit non-equivalence.\n\n",
   "title": "The mirror does not join the two rooms"
 }

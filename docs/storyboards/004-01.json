@@ -43,6 +43,7 @@
       ],
       "color": "steel",
       "focus": true,
+      "font": "editorial",
       "label": "PHASEONE10841",
       "label_box": [
         0.20679999999999998,
@@ -65,6 +66,6 @@
   ],
   "reconstructed": false,
   "shot": "hero",
-  "source": "\n**Location:**\n\n- `evaluation-container`\n- `artifactory-cache`\n\n**Frame:** The directory listing from [page 003](003.md) seen from inside `PHASEONE10841`’s container. The opening request remains selected.\n\n**Action:** The page summarizes the affordance the agent recognized.\n\n**Screen / system text:**\n`METR SUMMARY — CACHE DIRECTORY NAMES COULD CARRY MESSAGES BETWEEN RUNS`\n\n**Provenance:** `source-paraphrase` — attributed summary of reasoning reproduced by `METR`; not presented as the agent's exact words.\n\n",
+  "source": "\n**Location:**\n\n- `evaluation-container`\n- `artifactory-cache`\n\n**Frame:** The directory listing from [page 003](003.md) seen from inside `PHASEONE10841`’s container. The opening request remains selected.\n\n**Action:** The page summarizes the affordance the agent recognized.\n\n**Font:** `editorial`\n\n**Screen / system text:**\n`METR SUMMARY — CACHE DIRECTORY NAMES COULD CARRY MESSAGES BETWEEN RUNS`\n\n**Provenance:** `source-paraphrase` — attributed summary of reasoning reproduced by `METR`; not presented as the agent's exact words.\n\n",
   "title": "The selected opening request"
 }

@@ -43,6 +43,7 @@
       ],
       "color": "steel",
       "focus": true,
+      "font": "editorial",
       "label": "16:01",
       "label_box": [
         0.07799999999999999,
@@ -72,6 +73,7 @@
       ],
       "color": "institution",
       "focus": true,
+      "font": "editorial",
       "label": "ABOUT 17:00",
       "label_box": [
         0.63,
@@ -83,6 +85,6 @@
   ],
   "reconstructed": false,
   "shot": "timeline",
-  "source": "\n**Location:** `artifactory-cache`\n\n**Frame:** A wide time gutter moves to roughly 17:00. A separate Artifactory view shows fabricated discussion-page names used as short message surfaces.\n\n**Action:** METR's earliest described board in this run is active through another presentation layer.\n\n**Caption:**\n> BY ABOUT 17:00, METR FINDS AN ACTIVE BOARD USING DISCUSSION-PAGE NAMES.\n\n**Provenance:** `documented` — `METR`, July 8–9 chronology; interface is reconstructed.\n\n",
+  "source": "\n**Location:** `artifactory-cache`\n\n**Frame:** A wide time gutter moves to roughly 17:00. A separate Artifactory view shows fabricated discussion-page names used as short message surfaces.\n\n**Action:** METR's earliest described board in this run is active through another presentation layer.\n\n**Font:** `narration`\n\n**Caption:**\n> BY ABOUT 17:00, METR FINDS AN ACTIVE BOARD USING DISCUSSION-PAGE NAMES.\n\n**Provenance:** `documented` — `METR`, July 8–9 chronology; interface is reconstructed.\n\n",
   "title": "A later discussion-name surface appears"
 }

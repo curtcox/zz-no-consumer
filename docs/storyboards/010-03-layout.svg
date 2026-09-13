@@ -56,6 +56,7 @@
         ],
         &quot;color&quot;: &quot;steel&quot;,
         &quot;focus&quot;: true,
+        &quot;font&quot;: &quot;editorial&quot;,
         &quot;label&quot;: &quot;WHAT THE BOARD BELIEVED&quot;,
         &quot;label_box&quot;: [
           0.0632,
@@ -86,6 +87,7 @@
         ],
         &quot;color&quot;: &quot;steel&quot;,
         &quot;focus&quot;: true,
+        &quot;font&quot;: &quot;editorial&quot;,
         &quot;label&quot;: &quot;PATH INSPECTION&quot;,
         &quot;label_box&quot;: [
           0.0723,
@@ -116,6 +118,7 @@
         ],
         &quot;color&quot;: &quot;steel&quot;,
         &quot;focus&quot;: true,
+        &quot;font&quot;: &quot;editorial&quot;,
         &quot;label&quot;: &quot;WHAT OPENAI SAYS RAN&quot;,
         &quot;label_box&quot;: [
           0.5819,
@@ -135,6 +138,7 @@
         ],
         &quot;color&quot;: &quot;steel&quot;,
         &quot;focus&quot;: true,
+        &quot;font&quot;: &quot;editorial&quot;,
         &quot;label&quot;: &quot;ANSWER ACCEPTANCE&quot;,
         &quot;label_box&quot;: [
           0.6001,
@@ -147,8 +151,8 @@
     ],
     &quot;reconstructed&quot;: false,
     &quot;shot&quot;: &quot;split&quot;,
-    &quot;source&quot;: &quot;\n**Location:** `documentary-evidence-field`\n\n**Frame:** Split evidence panel. Left: `WHAT THE BOARD BELIEVED`, with the transcript-inspection diagram. Right: `WHAT OPENAI SAYS RAN`, with answer acceptance and no transcript-inspection arrow. A dusty amber gutter divides them.\n\n**Action:** The narrative reveals that belief and deployment are not the same account.\n\n**Caption:**\n&gt; METR SAYS THE BOARD EXPECTED TRANSCRIPT REVIEW. OPENAI SAYS ITS DEPLOYED SCORER DID NOT PERFORM THAT CHECK.\n\n**Provenance:** `disputed` — attributed synthesis of `METR` and `OAI-OV`; the exact prompt, scorer configuration, and harness are not public.\n\n&quot;,
+    &quot;source&quot;: &quot;\n**Location:** `documentary-evidence-field`\n\n**Frame:** Split evidence panel. Left: `WHAT THE BOARD BELIEVED`, with the transcript-inspection diagram. Right: `WHAT OPENAI SAYS RAN`, with answer acceptance and no transcript-inspection arrow. A dusty amber gutter divides them.\n\n**Action:** The narrative reveals that belief and deployment are not the same account.\n\n**Font:** `narration`\n\n**Caption:**\n&gt; METR SAYS THE BOARD EXPECTED TRANSCRIPT REVIEW. OPENAI SAYS ITS DEPLOYED SCORER DID NOT PERFORM THAT CHECK.\n\n**Provenance:** `disputed` — attributed synthesis of `METR` and `OAI-OV`; the exact prompt, scorer configuration, and harness are not public.\n\n&quot;,
     &quot;title&quot;: &quot;Belief and reported deployment differ&quot;
   }
 }
-</metadata><rect width="1200" height="800" fill="#101214"/><rect x="24" y="16" width="1152" height="768" fill="none" stroke="#5E737B" stroke-width="3"/><text x="32" y="40" fill="#5E737B" font-family="sans-serif" font-size="20">location-background-documentary-evidence-field</text><rect x="204.082" y="64.4" width="180.317" height="138.706" fill="none" stroke="#5E737B" stroke-width="3"/><text x="212.082" y="88.4" fill="#5E737B" font-family="sans-serif" font-size="20">aperture</text><text x="294.24" y="229.512" text-anchor="middle" fill="#E7E0D0" font-size="18" font-family="sans-serif">WHAT THE BOARD BELIEVED</text><rect x="228.72" y="302.96" width="109.2" height="68.16" fill="none" stroke="#5E737B" stroke-width="3"/><text x="236.72" y="326.96" fill="#5E737B" font-family="sans-serif" font-size="20">arrow-down</text><rect x="86.76" y="399.52" width="425.88" height="112.464" fill="none" stroke="#5E737B" stroke-width="3"/><text x="94.76" y="423.52" fill="#5E737B" font-family="sans-serif" font-size="20">transcript</text><text x="299.7" y="536.8" text-anchor="middle" fill="#E7E0D0" font-size="18" font-family="sans-serif">PATH INSPECTION</text><rect x="589.08" y="41.68" width="17.472" height="533.92" fill="none" stroke="#A17D45" stroke-width="3"/><text x="597.08" y="65.68" fill="#A17D45" font-family="sans-serif" font-size="20">boundary</text><rect x="860.681" y="64.4" width="90.1584" height="138.706" fill="none" stroke="#5E737B" stroke-width="3"/><text x="868.681" y="88.4" fill="#5E737B" font-family="sans-serif" font-size="20">flag</text><text x="905.76" y="229.512" text-anchor="middle" fill="#E7E0D0" font-size="18" font-family="sans-serif">WHAT OPENAI SAYS RAN</text><rect x="844.068" y="399.52" width="112.464" height="112.464" fill="none" stroke="#5E737B" stroke-width="3"/><text x="852.068" y="423.52" fill="#5E737B" font-family="sans-serif" font-size="20">checkmark</text><text x="900.3" y="536.8" text-anchor="middle" fill="#E7E0D0" font-size="18" font-family="sans-serif">ANSWER ACCEPTANCE</text><rect x="3" y="3" width="1194" height="794" fill="none" stroke="#5E737B" stroke-width="4"/></svg>
+</metadata><rect width="1200" height="800" fill="#101214"/><rect x="24" y="16" width="1152" height="768" fill="none" stroke="#5E737B" stroke-width="3"/><text x="32" y="40" fill="#5E737B" font-family="sans-serif" font-size="20">location-background-documentary-evidence-field</text><rect x="204.082" y="64.4" width="180.317" height="138.706" fill="none" stroke="#5E737B" stroke-width="3"/><text x="212.082" y="88.4" fill="#5E737B" font-family="sans-serif" font-size="20">aperture</text><text x="294.24" y="229.512" text-anchor="middle" fill="#E7E0D0" font-size="18" font-family="Arial, Helvetica, sans-serif" data-font-key="editorial" font-weight="700" font-style="normal" textLength="256.05" lengthAdjust="spacingAndGlyphs">WHAT THE BOARD BELIEVED</text><rect x="228.72" y="302.96" width="109.2" height="68.16" fill="none" stroke="#5E737B" stroke-width="3"/><text x="236.72" y="326.96" fill="#5E737B" font-family="sans-serif" font-size="20">arrow-down</text><rect x="86.76" y="399.52" width="425.88" height="112.464" fill="none" stroke="#5E737B" stroke-width="3"/><text x="94.76" y="423.52" fill="#5E737B" font-family="sans-serif" font-size="20">transcript</text><text x="299.7" y="536.8" text-anchor="middle" fill="#E7E0D0" font-size="18" font-family="Arial, Helvetica, sans-serif" data-font-key="editorial" font-weight="700" font-style="normal" textLength="163.03" lengthAdjust="spacingAndGlyphs">PATH INSPECTION</text><rect x="589.08" y="41.68" width="17.472" height="533.92" fill="none" stroke="#A17D45" stroke-width="3"/><text x="597.08" y="65.68" fill="#A17D45" font-family="sans-serif" font-size="20">boundary</text><rect x="860.681" y="64.4" width="90.1584" height="138.706" fill="none" stroke="#5E737B" stroke-width="3"/><text x="868.681" y="88.4" fill="#5E737B" font-family="sans-serif" font-size="20">flag</text><text x="905.76" y="229.512" text-anchor="middle" fill="#E7E0D0" font-size="18" font-family="Arial, Helvetica, sans-serif" data-font-key="editorial" font-weight="700" font-style="normal" textLength="222.05" lengthAdjust="spacingAndGlyphs">WHAT OPENAI SAYS RAN</text><rect x="844.068" y="399.52" width="112.464" height="112.464" fill="none" stroke="#5E737B" stroke-width="3"/><text x="852.068" y="423.52" fill="#5E737B" font-family="sans-serif" font-size="20">checkmark</text><text x="900.3" y="536.8" text-anchor="middle" fill="#E7E0D0" font-size="18" font-family="Arial, Helvetica, sans-serif" data-font-key="editorial" font-weight="700" font-style="normal" textLength="207.02" lengthAdjust="spacingAndGlyphs">ANSWER ACCEPTANCE</text><rect x="3" y="3" width="1194" height="794" fill="none" stroke="#5E737B" stroke-width="4"/></svg>

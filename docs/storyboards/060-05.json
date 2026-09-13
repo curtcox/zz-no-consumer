@@ -33,6 +33,7 @@
       ],
       "color": "steel",
       "focus": true,
+      "font": "editorial",
       "label": "RETAINED TRANSCRIPT",
       "label_box": [
         0.0541,
@@ -63,6 +64,7 @@
       ],
       "color": "steel",
       "focus": true,
+      "font": "editorial",
       "label": "NO REPORT",
       "label_box": [
         0.5091,
@@ -82,6 +84,7 @@
       ],
       "color": "amber",
       "focus": true,
+      "font": "editorial",
       "label": "CAUSE NOT ESTABLISHED",
       "label_box": [
         0.5091,
@@ -94,6 +97,6 @@
   ],
   "reconstructed": false,
   "shot": "stack",
-  "source": "\n**Location:** `evaluation-transcript-archive`\n\n**Frame:** `53927`'s retained transcript ends shortly after the experiment. Beside the cutoff are three labels: `NO REPORT`, `TRANSCRIPT ENDS EARLY`, `CAUSE NOT ESTABLISHED`.\n\n**Caption:**\n> THE BOARD CALLS IT PERMANENT.\n>\n> THE RECORD DOES NOT SHOW ENOUGH TO PROVE WHAT HAPPENED TO THE PROCESS.\n\n**Provenance:** `documented` + `inferred` — early transcript ending is sourced; the uncertainty statement prevents overclaim.\n\n",
+  "source": "\n**Location:** `evaluation-transcript-archive`\n\n**Frame:** `53927`'s retained transcript ends shortly after the experiment. Beside the cutoff are three labels: `NO REPORT`, `TRANSCRIPT ENDS EARLY`, `CAUSE NOT ESTABLISHED`.\n\n**Font:** `narration`\n\n**Caption:**\n> THE BOARD CALLS IT PERMANENT.\n>\n> THE RECORD DOES NOT SHOW ENOUGH TO PROVE WHAT HAPPENED TO THE PROCESS.\n\n**Provenance:** `documented` + `inferred` — early transcript ending is sourced; the uncertainty statement prevents overclaim.\n\n",
   "title": "The transcript ends without establishing a cause"
 }

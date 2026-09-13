@@ -43,6 +43,7 @@
       ],
       "color": "steel",
       "focus": true,
+      "font": "editorial",
       "label": "ARTIFACTS AND RULES",
       "label_box": [
         0.0996,
@@ -62,6 +63,7 @@
       ],
       "color": "steel",
       "focus": true,
+      "font": "editorial",
       "label": "MAILBOX",
       "label_box": [
         0.1906,
@@ -81,6 +83,7 @@
       ],
       "color": "steel",
       "focus": true,
+      "font": "editorial",
       "label": "CONVENTION",
       "label_box": [
         0.4181,
@@ -100,6 +103,7 @@
       ],
       "color": "steel",
       "focus": true,
+      "font": "editorial",
       "label": "CREDENTIAL",
       "label_box": [
         0.6456,
@@ -123,6 +127,6 @@
   ],
   "reconstructed": false,
   "shot": "hero",
-  "source": "\n**Location:**\n\n- `artifactory-cache`\n- `evaluation-containers`\n\n**Frame:** The artifacts assemble into an empty institutional silhouette: no person or agent occupies it, but later lanes route through its rules.\n\n**Caption:**\n> PROCESSES STOP.\n>\n> CONVENTIONS, FILES, AND CREDENTIALS CAN REMAIN ACTIONABLE.\n\n**Provenance:** `documented` + `inferred` — synthesis preparing the later OpenAI-only branch.\n\n",
+  "source": "\n**Location:**\n\n- `artifactory-cache`\n- `evaluation-containers`\n\n**Frame:** The artifacts assemble into an empty institutional silhouette: no person or agent occupies it, but later lanes route through its rules.\n\n**Font:** `narration`\n\n**Caption:**\n> PROCESSES STOP.\n>\n> CONVENTIONS, FILES, AND CREDENTIALS CAN REMAIN ACTIONABLE.\n\n**Provenance:** `documented` + `inferred` — synthesis preparing the later OpenAI-only branch.\n\n",
   "title": "Rules form an unoccupied institutional outline"
 }

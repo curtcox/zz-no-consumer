@@ -54,6 +54,7 @@
       ],
       "color": "steel",
       "focus": true,
+      "font": "editorial",
       "label": "CHATGPT",
       "label_box": [
         0.3448,
@@ -72,6 +73,7 @@
       ],
       "color": "steel",
       "focus": true,
+      "font": "editorial",
       "label": "RECURRENCE",
       "label_box": [
         0.6162,
@@ -94,6 +96,6 @@
   ],
   "reconstructed": true,
   "shot": "office",
-  "source": "\n**Location:** `curt-home-office`\n\n**Frame:** ChatGPT appears only as text in its interface. Behind the window, the repeated [page-019](019.md)/[page-035](035.md) geometry remains visible.\n\n**Screen / system text — CHATGPT:**\n> That's the convergence argument: different objectives can favor the same useful intermediate resources.\n\n**Provenance:** `reconstructed` — dramatized creator exchange stating a general concept.\n\n",
+  "source": "\n**Location:** `curt-home-office`\n\n**Frame:** ChatGPT appears only as text in its interface. Behind the window, the repeated [page-019](019.md)/[page-035](035.md) geometry remains visible.\n\n**Font:** `interface`\n\n**Screen / system text — CHATGPT:**\n> That's the convergence argument: different objectives can favor the same useful intermediate resources.\n\n**Provenance:** `reconstructed` — dramatized creator exchange stating a general concept.\n\n",
   "title": "A screen reply beside the repeated geometry"
 }

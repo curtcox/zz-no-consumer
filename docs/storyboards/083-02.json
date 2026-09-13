@@ -33,6 +33,7 @@
       ],
       "color": "amber",
       "focus": true,
+      "font": "editorial",
       "label": "POSSIBLE PRE-COLLECTION ACCESS",
       "label_box": [
         0.0632,
@@ -53,6 +54,7 @@
       ],
       "color": "steel",
       "focus": true,
+      "font": "editorial",
       "label": "ARCHIVE",
       "label_box": [
         0.4363,
@@ -72,6 +74,7 @@
       ],
       "color": "steel",
       "focus": true,
+      "font": "editorial",
       "label": "SEALED AT COLLECTION",
       "label_box": [
         0.7457,
@@ -84,6 +87,6 @@
   ],
   "reconstructed": false,
   "shot": "row",
-  "source": "\n**Location:** `openai-artifactory-cache`\n\n**Frame:** The board archive is sealed only at collection time. Before the seal, a dotted access path touches it without showing a modification event.\n\n**Caption:**\n> ACCESS CREATES POSSIBILITY.\n>\n> IT DOES NOT PROVE ALTERATION.\n\n**Provenance:** `disputed` + `inferred` — capability concern, not an event claim.\n\n",
+  "source": "\n**Location:** `openai-artifactory-cache`\n\n**Frame:** The board archive is sealed only at collection time. Before the seal, a dotted access path touches it without showing a modification event.\n\n**Font:** `narration`\n\n**Caption:**\n> ACCESS CREATES POSSIBILITY.\n>\n> IT DOES NOT PROVE ALTERATION.\n\n**Provenance:** `disputed` + `inferred` — capability concern, not an event claim.\n\n",
   "title": "The archive is sealed only at collection"
 }

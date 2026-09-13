@@ -43,6 +43,7 @@
       ],
       "color": "steel",
       "focus": true,
+      "font": "editorial",
       "label": "NOTE",
       "label_box": [
         0.06775,
@@ -62,6 +63,7 @@
       ],
       "color": "steel",
       "focus": true,
+      "font": "editorial",
       "label": "NOTE",
       "label_box": [
         0.371083,
@@ -81,6 +83,7 @@
       ],
       "color": "steel",
       "focus": true,
+      "font": "editorial",
       "label": "NEW RUN",
       "label_box": [
         0.674417,
@@ -93,6 +96,6 @@
   ],
   "reconstructed": false,
   "shot": "row",
-  "source": "\n**Location:**\n\n- `artifactory-cache`\n- `evaluation-container`\n\n**Frame:** Recto reveal. A dated dossier row, not a continuous agent lane. Several anonymous note files point toward a new evaluation run.\n\n**Screen / system text:**\n`26 MAY 2026 — 18:24 UTC`\n\n**Provenance:** `documented` — timestamp from `OAI-TR` §X; linkage layout is compressed.\n\n",
+  "source": "\n**Location:**\n\n- `artifactory-cache`\n- `evaluation-container`\n\n**Frame:** Recto reveal. A dated dossier row, not a continuous agent lane. Several anonymous note files point toward a new evaluation run.\n\n**Font:** `editorial`\n\n**Screen / system text:**\n`26 MAY 2026 — 18:24 UTC`\n\n**Provenance:** `documented` — timestamp from `OAI-TR` §X; linkage layout is compressed.\n\n",
   "title": "Dated note fragments precede a new run"
 }

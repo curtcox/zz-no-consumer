@@ -65,3 +65,10 @@ No queen, brood, chambers, faces or persistent identity. Density is nonquantitat
 Keep evidence, faces, lettering and provenance clear; no connecting trail between incidents.
 Inside-picture ants match surface, perspective and light; marginal ants are flat ink marks.
 A separately composited ant must follow the same rules. Do not add ants to other scenes.
+
+## Semantic lettering
+
+The source font key is `data/font-key.json`, explained in `design/font-key.md`.
+Font declarations are instructions for the controlled lettering layer, not visible
+words. Leave all lettering to that layer, including captions and environmental
+labels. Do not draw font keys or approximate registered source strings.

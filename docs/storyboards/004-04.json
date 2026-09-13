@@ -43,6 +43,7 @@
       ],
       "color": "shadow",
       "focus": true,
+      "font": "editorial",
       "label": "ORIGINATING RUN",
       "label_box": [
         0.06775,
@@ -62,6 +63,7 @@
       ],
       "color": "steel",
       "focus": true,
+      "font": "editorial",
       "label": "ELAPSED TIME",
       "label_box": [
         0.371083,
@@ -81,6 +83,7 @@
       ],
       "color": "moss",
       "focus": true,
+      "font": "editorial",
       "label": "STORED NOTE",
       "label_box": [
         0.674417,
@@ -93,6 +96,6 @@
   ],
   "reconstructed": false,
   "shot": "row",
-  "source": "\n**Location:**\n\n- `artifactory-cache`\n- `evaluation-container`\n\n**Frame:** Time advances. `PHASEONE10841`’s lane dims. The cache row remains bright enough to read.\n\n**Action:** The message outlives the moment of writing.\n\n**Caption:**\n> THE AUTHOR DOES NOT HAVE TO BE PRESENT.\n\n**Provenance:** `inferred` — external-memory consequence of documented persistence; does not claim the originating process had ended.\n\n",
+  "source": "\n**Location:**\n\n- `artifactory-cache`\n- `evaluation-container`\n\n**Frame:** Time advances. `PHASEONE10841`’s lane dims. The cache row remains bright enough to read.\n\n**Action:** The message outlives the moment of writing.\n\n**Font:** `narration`\n\n**Caption:**\n> THE AUTHOR DOES NOT HAVE TO BE PRESENT.\n\n**Provenance:** `inferred` — external-memory consequence of documented persistence; does not claim the originating process had ended.\n\n",
   "title": "The run dims while the note survives"
 }

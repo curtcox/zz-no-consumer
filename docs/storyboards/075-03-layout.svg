@@ -44,6 +44,7 @@
         ],
         &quot;color&quot;: &quot;moss&quot;,
         &quot;focus&quot;: true,
+        &quot;font&quot;: &quot;editorial&quot;,
         &quot;label&quot;: &quot;ABOUT 1.2 MILLION zz ENTRIES&quot;,
         &quot;label_box&quot;: [
           0.0541,
@@ -74,6 +75,7 @@
         ],
         &quot;color&quot;: &quot;steel&quot;,
         &quot;focus&quot;: true,
+        &quot;font&quot;: &quot;editorial&quot;,
         &quot;label&quot;: &quot;MORE THAN 70,000 DISTINCT MESSAGES AND FILES&quot;,
         &quot;label_box&quot;: [
           0.5819,
@@ -90,4 +92,4 @@
     &quot;title&quot;: &quot;Entry count and distinct artifacts use different units&quot;
   }
 }
-</metadata><rect width="1200" height="800" fill="#101214"/><rect x="24" y="16" width="1152" height="768" fill="none" stroke="#5E737B" stroke-width="3"/><text x="32" y="40" fill="#5E737B" font-family="sans-serif" font-size="20">location-background-openai-provided-evidence-store</text><rect x="64.92" y="71.4" width="502.32" height="401.861" fill="none" stroke="#74864F" stroke-width="3"/><text x="72.92" y="95.4" fill="#74864F" font-family="sans-serif" font-size="20">scatter</text><text x="316.08" y="515.616" text-anchor="middle" fill="#E7E0D0" font-size="18" font-family="sans-serif">ABOUT 1.2 MILLION zz ENTRIES</text><rect x="600" y="50.16" width="18.564" height="644.28" fill="none" stroke="#5E737B" stroke-width="3"/><text x="608" y="74.16" fill="#5E737B" font-family="sans-serif" font-size="20">boundary</text><rect x="698.28" y="241.32" width="414.96" height="271.022" fill="none" stroke="#5E737B" stroke-width="3"/><text x="706.28" y="265.32" fill="#5E737B" font-family="sans-serif" font-size="20">folder</text><text x="905.76" y="546.768" text-anchor="middle" fill="#E7E0D0" font-size="18" font-family="sans-serif">MORE THAN 70,000 DISTINCT MESSAGES AND</text><text x="905.76" y="571.248" text-anchor="middle" fill="#E7E0D0" font-size="18" font-family="sans-serif">FILES</text><rect x="3" y="3" width="1194" height="794" fill="none" stroke="#5E737B" stroke-width="4"/></svg>
+</metadata><rect width="1200" height="800" fill="#101214"/><rect x="24" y="16" width="1152" height="768" fill="none" stroke="#5E737B" stroke-width="3"/><text x="32" y="40" fill="#5E737B" font-family="sans-serif" font-size="20">location-background-openai-provided-evidence-store</text><rect x="64.92" y="71.4" width="502.32" height="401.861" fill="none" stroke="#74864F" stroke-width="3"/><text x="72.92" y="95.4" fill="#74864F" font-family="sans-serif" font-size="20">scatter</text><text x="316.08" y="515.616" text-anchor="middle" fill="#E7E0D0" font-size="18" font-family="Arial, Helvetica, sans-serif" data-font-key="editorial" font-weight="700" font-style="normal" textLength="275.08" lengthAdjust="spacingAndGlyphs">ABOUT 1.2 MILLION zz ENTRIES</text><rect x="600" y="50.16" width="18.564" height="644.28" fill="none" stroke="#5E737B" stroke-width="3"/><text x="608" y="74.16" fill="#5E737B" font-family="sans-serif" font-size="20">boundary</text><rect x="698.28" y="241.32" width="414.96" height="271.022" fill="none" stroke="#5E737B" stroke-width="3"/><text x="706.28" y="265.32" fill="#5E737B" font-family="sans-serif" font-size="20">folder</text><text x="905.76" y="546.768" text-anchor="middle" fill="#E7E0D0" font-size="18" font-family="Arial, Helvetica, sans-serif" data-font-key="editorial" font-weight="700" font-style="normal" textLength="405.09" lengthAdjust="spacingAndGlyphs">MORE THAN 70,000 DISTINCT MESSAGES AND</text><text x="905.76" y="571.248" text-anchor="middle" fill="#E7E0D0" font-size="18" font-family="Arial, Helvetica, sans-serif" data-font-key="editorial" font-weight="700" font-style="normal" textLength="50.02" lengthAdjust="spacingAndGlyphs">FILES</text><rect x="3" y="3" width="1194" height="794" fill="none" stroke="#5E737B" stroke-width="4"/></svg>

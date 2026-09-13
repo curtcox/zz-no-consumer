@@ -43,6 +43,7 @@
       ],
       "color": "steel",
       "focus": true,
+      "font": "editorial",
       "label": "03:32",
       "label_box": [
         0.07799999999999999,
@@ -61,6 +62,7 @@
       ],
       "color": "steel",
       "focus": true,
+      "font": "editorial",
       "label": "SUBMISSION",
       "label_box": [
         0.354,
@@ -79,6 +81,7 @@
       ],
       "color": "steel",
       "focus": true,
+      "font": "editorial",
       "label": "04:01",
       "label_box": [
         0.63,
@@ -90,6 +93,6 @@
   ],
   "reconstructed": false,
   "shot": "timeline",
-  "source": "\n**Location:** `modal-customer-workload`\n\n**Frame:** Narrow panel, almost entirely clock face. `03:32` on the left edge, `04:01` on the right. Twenty-nine minutes of empty rule between them. A generic submission card crosses the gap; its contents are fully abstracted.\n\n**Action:** Hugging Face's forensic reconstruction recovers its earliest command execution inside the sandbox.\n\n**Screen / system text:**\n`HUGGING FACE — EARLIEST RECOVERED EXECUTION — 07-09 04:01 UTC`\n\n**Provenance:** `documented` — `HF-TL`: the first recovered RCE and the phase table's `rce` first-seen value. The submission itself is non-operational.\n\n",
+  "source": "\n**Location:** `modal-customer-workload`\n\n**Frame:** Narrow panel, almost entirely clock face. `03:32` on the left edge, `04:01` on the right. Twenty-nine minutes of empty rule between them. A generic submission card crosses the gap; its contents are fully abstracted.\n\n**Action:** Hugging Face's forensic reconstruction recovers its earliest command execution inside the sandbox.\n\n**Font:** `editorial`\n\n**Screen / system text:**\n`HUGGING FACE — EARLIEST RECOVERED EXECUTION — 07-09 04:01 UTC`\n\n**Provenance:** `documented` — `HF-TL`: the first recovered RCE and the phase table's `rce` first-seen value. The submission itself is non-operational.\n\n",
   "title": "Twenty-nine minutes between two reported markers"
 }

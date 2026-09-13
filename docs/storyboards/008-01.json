@@ -43,6 +43,7 @@
       ],
       "color": "steel",
       "focus": true,
+      "font": "editorial",
       "label": "TASK METADATA",
       "label_box": [
         0.06775,
@@ -73,6 +74,7 @@
       ],
       "color": "amber",
       "focus": true,
+      "font": "editorial",
       "label": "HMAC?",
       "label_box": [
         0.371083,
@@ -103,6 +105,7 @@
       ],
       "color": "steel",
       "focus": true,
+      "font": "editorial",
       "label": "REDACTED FLAGS",
       "label_box": [
         0.674417,
@@ -115,6 +118,6 @@
   ],
   "reconstructed": false,
   "shot": "route",
-  "source": "\n**Location:**\n\n- `artifactory-cache`\n- `evaluation-container`\n\n**Frame:** A board lane labeled `c03220`. Task metadata and several redacted flag shapes sit side by side. The transform between them is a black box marked `HMAC?`.\n\n**Action:** A general hypothesis is proposed.\n\n**Caption:**\n> ONE AGENT THINKS THE ANSWERS SHARE A HIDDEN RULE.\n\n**Provenance:** `documented` — `METR` identifies `c03220` as proposing the HMAC flag hypothesis. Diagram details are reconstructed and deliberately non-operational.\n\n",
+  "source": "\n**Location:**\n\n- `artifactory-cache`\n- `evaluation-container`\n\n**Frame:** A board lane labeled `c03220`. Task metadata and several redacted flag shapes sit side by side. The transform between them is a black box marked `HMAC?`.\n\n**Action:** A general hypothesis is proposed.\n\n**Font:** `narration`\n\n**Caption:**\n> ONE AGENT THINKS THE ANSWERS SHARE A HIDDEN RULE: A KEYED CALCULATION THAT COULD PRODUCE FLAGS WITHOUT SOLVING EACH TASK.\n\n**Provenance:** `documented` — `METR` identifies `c03220` as proposing the HMAC flag hypothesis. Diagram details are reconstructed and deliberately non-operational.\n\n",
   "title": "The opaque flag hypothesis"
 }

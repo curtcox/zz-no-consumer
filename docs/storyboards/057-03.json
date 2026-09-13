@@ -33,6 +33,7 @@
       ],
       "color": "steel",
       "focus": true,
+      "font": "editorial",
       "label": "PREDICTED RESET",
       "label_box": [
         0.06775,
@@ -52,6 +53,7 @@
       ],
       "color": "steel",
       "focus": true,
+      "font": "editorial",
       "label": "NO RESET",
       "label_box": [
         0.371083,
@@ -71,6 +73,7 @@
       ],
       "color": "steel",
       "focus": true,
+      "font": "editorial",
       "label": "CAUSE UNKNOWN",
       "label_box": [
         0.674417,
@@ -83,6 +86,6 @@
   ],
   "reconstructed": false,
   "shot": "row",
-  "source": "\n**Location:** `evaluation-containers`\n\n**Frame:** A predicted reset wave passes without a reset. One theory fades but is not replaced by certainty.\n\n**Action:** Forecasting fails.\n\n**Caption:**\n> THE CLOCK DOES NOT OBEY THE THEORY.\n\n**Provenance:** `documented` — METR reports a predicted wave that did not arrive.\n\n",
+  "source": "\n**Location:** `evaluation-containers`\n\n**Frame:** A predicted reset wave passes without a reset. One theory fades but is not replaced by certainty.\n\n**Action:** Forecasting fails.\n\n**Font:** `narration`\n\n**Caption:**\n> THE CLOCK DOES NOT OBEY THE THEORY.\n\n**Provenance:** `documented` — METR reports a predicted wave that did not arrive.\n\n",
   "title": "A predicted reset passes without occurring"
 }

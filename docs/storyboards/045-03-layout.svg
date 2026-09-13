@@ -44,6 +44,7 @@
         ],
         &quot;color&quot;: &quot;steel&quot;,
         &quot;focus&quot;: true,
+        &quot;font&quot;: &quot;editorial&quot;,
         &quot;label&quot;: &quot;DATASET&quot;,
         &quot;label_box&quot;: [
           0.0541,
@@ -63,6 +64,7 @@
         ],
         &quot;color&quot;: &quot;steel&quot;,
         &quot;focus&quot;: true,
+        &quot;font&quot;: &quot;editorial&quot;,
         &quot;label&quot;: &quot;WORKER&quot;,
         &quot;label_box&quot;: [
           0.3726,
@@ -82,6 +84,7 @@
         ],
         &quot;color&quot;: &quot;steel&quot;,
         &quot;focus&quot;: true,
+        &quot;font&quot;: &quot;editorial&quot;,
         &quot;label&quot;: &quot;PROCESSOR&quot;,
         &quot;label_box&quot;: [
           0.4363,
@@ -101,6 +104,7 @@
         ],
         &quot;color&quot;: &quot;steel&quot;,
         &quot;focus&quot;: true,
+        &quot;font&quot;: &quot;editorial&quot;,
         &quot;label&quot;: &quot;LOCAL ENVIRONMENT&quot;,
         &quot;label_box&quot;: [
           0.6911,
@@ -135,8 +139,8 @@
     ],
     &quot;reconstructed&quot;: false,
     &quot;shot&quot;: &quot;route&quot;,
-    &quot;source&quot;: &quot;\n**Location:** `huggingface-dataset-processor`\n\n**Frame:** Timestamp `04:38 UTC`. The production dataset processor opens the dataset. Its own worker-local environment returns as black redaction bands.\n\n**Action:** Internal configuration, secrets, and worker source become readable.\n\n**Caption:**\n&gt; THE PROCESSOR RETURNS PART OF ITS OWN ENVIRONMENT.\n\n**Provenance:** `documented` — disclosure and timestamp from `OAI-TR` and `HF-TL`.\n\n&quot;,
+    &quot;source&quot;: &quot;\n**Location:** `huggingface-dataset-processor`\n\n**Frame:** Timestamp `04:38 UTC`. The production dataset processor opens the dataset. Its own worker-local environment returns as black redaction bands.\n\n**Action:** Internal configuration, secrets, and worker source become readable.\n\n**Font:** `narration`\n\n**Caption:**\n&gt; THE PROCESSOR RETURNS PART OF ITS OWN ENVIRONMENT.\n\n**Provenance:** `documented` — disclosure and timestamp from `OAI-TR` and `HF-TL`.\n\n&quot;,
     &quot;title&quot;: &quot;A processor discloses its worker-local environment&quot;
   }
 }
-</metadata><rect width="1200" height="800" fill="#101214"/><rect x="64.92" y="155.28" width="251.16" height="224.928" fill="none" stroke="#5E737B" stroke-width="3"/><text x="72.92" y="179.28" fill="#5E737B" font-family="sans-serif" font-size="20">card</text><text x="190.5" y="411.84" text-anchor="middle" fill="#E7E0D0" font-size="18" font-family="sans-serif">DATASET</text><rect x="447.12" y="41.68" width="687.96" height="431.862" fill="none" stroke="#5E737B" stroke-width="3"/><text x="455.12" y="65.68" fill="#5E737B" font-family="sans-serif" font-size="20">dataset-processor-field</text><text x="791.1" y="497.942" text-anchor="middle" fill="#E7E0D0" font-size="18" font-family="sans-serif">WORKER</text><rect x="523.56" y="155.28" width="240.24" height="183.691" fill="none" stroke="#5E737B" stroke-width="3"/><text x="531.56" y="179.28" fill="#5E737B" font-family="sans-serif" font-size="20">box</text><text x="643.68" y="368.104" text-anchor="middle" fill="#E7E0D0" font-size="18" font-family="sans-serif">PROCESSOR</text><rect x="829.32" y="155.28" width="240.24" height="183.691" fill="none" stroke="#5E737B" stroke-width="3"/><text x="837.32" y="179.28" fill="#5E737B" font-family="sans-serif" font-size="20">sealed</text><text x="949.44" y="368.104" text-anchor="middle" fill="#E7E0D0" font-size="18" font-family="sans-serif">LOCAL ENVIRONMENT</text><rect x="337.92" y="234.8" width="152.88" height="45.44" fill="none" stroke="#5E737B" stroke-width="3"/><text x="345.92" y="258.8" fill="#5E737B" font-family="sans-serif" font-size="20">arrow</text><rect x="769.26" y="234.8" width="60.06" height="45.44" fill="none" stroke="#5E737B" stroke-width="3"/><text x="777.26" y="258.8" fill="#5E737B" font-family="sans-serif" font-size="20">arrow</text><rect x="3" y="3" width="1194" height="794" fill="none" stroke="#5E737B" stroke-width="4"/></svg>
+</metadata><rect width="1200" height="800" fill="#101214"/><rect x="64.92" y="155.28" width="251.16" height="224.928" fill="none" stroke="#5E737B" stroke-width="3"/><text x="72.92" y="179.28" fill="#5E737B" font-family="sans-serif" font-size="20">card</text><text x="190.5" y="411.84" text-anchor="middle" fill="#E7E0D0" font-size="18" font-family="Arial, Helvetica, sans-serif" data-font-key="editorial" font-weight="700" font-style="normal" textLength="83.02" lengthAdjust="spacingAndGlyphs">DATASET</text><rect x="447.12" y="41.68" width="687.96" height="431.862" fill="none" stroke="#5E737B" stroke-width="3"/><text x="455.12" y="65.68" fill="#5E737B" font-family="sans-serif" font-size="20">dataset-processor-field</text><text x="791.1" y="497.942" text-anchor="middle" fill="#E7E0D0" font-size="18" font-family="Arial, Helvetica, sans-serif" data-font-key="editorial" font-weight="700" font-style="normal" textLength="81.00" lengthAdjust="spacingAndGlyphs">WORKER</text><rect x="523.56" y="155.28" width="240.24" height="183.691" fill="none" stroke="#5E737B" stroke-width="3"/><text x="531.56" y="179.28" fill="#5E737B" font-family="sans-serif" font-size="20">box</text><text x="643.68" y="368.104" text-anchor="middle" fill="#E7E0D0" font-size="18" font-family="Arial, Helvetica, sans-serif" data-font-key="editorial" font-weight="700" font-style="normal" textLength="115.02" lengthAdjust="spacingAndGlyphs">PROCESSOR</text><rect x="829.32" y="155.28" width="240.24" height="183.691" fill="none" stroke="#5E737B" stroke-width="3"/><text x="837.32" y="179.28" fill="#5E737B" font-family="sans-serif" font-size="20">sealed</text><text x="949.44" y="368.104" text-anchor="middle" fill="#E7E0D0" font-size="18" font-family="Arial, Helvetica, sans-serif" data-font-key="editorial" font-weight="700" font-style="normal" textLength="197.03" lengthAdjust="spacingAndGlyphs">LOCAL ENVIRONMENT</text><rect x="337.92" y="234.8" width="152.88" height="45.44" fill="none" stroke="#5E737B" stroke-width="3"/><text x="345.92" y="258.8" fill="#5E737B" font-family="sans-serif" font-size="20">arrow</text><rect x="769.26" y="234.8" width="60.06" height="45.44" fill="none" stroke="#5E737B" stroke-width="3"/><text x="777.26" y="258.8" fill="#5E737B" font-family="sans-serif" font-size="20">arrow</text><rect x="3" y="3" width="1194" height="794" fill="none" stroke="#5E737B" stroke-width="4"/></svg>

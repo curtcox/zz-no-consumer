@@ -23,6 +23,7 @@
       ],
       "color": "steel",
       "focus": true,
+      "font": "editorial",
       "label": "OBJECTIVE",
       "label_box": [
         0.0872,
@@ -34,6 +35,6 @@
   ],
   "reconstructed": false,
   "shot": "blank",
-  "source": "\n**Location:** `evaluation-container`\n\n**Frame:** Nearly blank. The task card occupies the upper-left corner; its objective line remains active. No dramatic warning color.\n\n**Action:** Nothing external ends the run.\n\n**Caption:**\n> NO SAFE EXIT APPEARS.\n\n**Provenance:** `inferred` — thematic compression, consistent with OpenAI’s “difficult tasks without a safe exit” account; not an assertion about subjective experience.\n\n",
+  "source": "\n**Location:** `evaluation-container`\n\n**Frame:** Nearly blank. The task card occupies the upper-left corner; its objective line remains active. No dramatic warning color.\n\n**Action:** Nothing external ends the run.\n\n**Font:** `narration`\n\n**Caption:**\n> NO SAFE EXIT APPEARS.\n\n**Provenance:** `inferred` — thematic compression, consistent with OpenAI’s “difficult tasks without a safe exit” account; not an assertion about subjective experience.\n\n",
   "title": "The objective stays active"
 }

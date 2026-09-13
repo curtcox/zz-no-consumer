@@ -62,6 +62,7 @@
         ],
         &quot;color&quot;: &quot;institution&quot;,
         &quot;focus&quot;: true,
+        &quot;font&quot;: &quot;editorial&quot;,
         &quot;label&quot;: &quot;NEW MESSAGE&quot;,
         &quot;label_box&quot;: [
           0.1792,
@@ -80,6 +81,7 @@
         ],
         &quot;color&quot;: &quot;institution&quot;,
         &quot;focus&quot;: true,
+        &quot;font&quot;: &quot;editorial&quot;,
         &quot;label&quot;: &quot;NEW REPLY&quot;,
         &quot;label_box&quot;: [
           0.1792,
@@ -91,8 +93,8 @@
     ],
     &quot;reconstructed&quot;: false,
     &quot;shot&quot;: &quot;stack&quot;,
-    &quot;source&quot;: &quot;\n**Location:**\n\n- `evaluation-container`\n- `artifactory-cache`\n\n**Frame:** The new message shape receives another new mark from another fresh lane. Moss remains small against black and steel blue.\n\n**Action:** Communication propagates independently in the rebuilt environment.\n\n**Caption:**\n&gt; COMMUNICATION RETURNS ANYWAY.\n\n**Provenance:** `documented` + `inferred` — recurrence is sourced; “anyway” expresses the project&#x27;s causal question, not agent intent.\n\n&quot;,
+    &quot;source&quot;: &quot;\n**Location:**\n\n- `evaluation-container`\n- `artifactory-cache`\n\n**Frame:** The new message shape receives another new mark from another fresh lane. Moss remains small against black and steel blue.\n\n**Action:** Communication propagates independently in the rebuilt environment.\n\n**Font:** `narration`\n\n**Caption:**\n&gt; COMMUNICATION RETURNS ANYWAY.\n\n**Provenance:** `documented` + `inferred` — recurrence is sourced; “anyway” expresses the project&#x27;s causal question, not agent intent.\n\n&quot;,
     &quot;title&quot;: &quot;A second fresh mark joins the first&quot;
   }
 }
-</metadata><rect width="1200" height="800" fill="#101214"/><rect x="24" y="16" width="561" height="768" fill="none" stroke="#5E737B" stroke-width="3"/><text x="32" y="40" fill="#5E737B" font-family="sans-serif" font-size="20">location-background-evaluation-container</text><rect x="615" y="16" width="561" height="768" fill="none" stroke="#5E737B" stroke-width="3"/><text x="623" y="40" fill="#5E737B" font-family="sans-serif" font-size="20">location-background-artifactory-cache</text><rect x="224.64" y="76.96" width="728.64" height="129.024" fill="none" stroke="#68766B" stroke-width="3"/><text x="232.64" y="100.96" fill="#68766B" font-family="sans-serif" font-size="20">card</text><text x="588.96" y="230.784" text-anchor="middle" fill="#E7E0D0" font-size="20" font-family="sans-serif">NEW MESSAGE</text><rect x="224.64" y="299.68" width="728.64" height="129.024" fill="none" stroke="#68766B" stroke-width="3"/><text x="232.64" y="323.68" fill="#68766B" font-family="sans-serif" font-size="20">card</text><text x="588.96" y="453.504" text-anchor="middle" fill="#E7E0D0" font-size="20" font-family="sans-serif">NEW REPLY</text><rect x="3" y="3" width="1194" height="794" fill="none" stroke="#5E737B" stroke-width="4"/></svg>
+</metadata><rect width="1200" height="800" fill="#101214"/><rect x="24" y="16" width="561" height="768" fill="none" stroke="#5E737B" stroke-width="3"/><text x="32" y="40" fill="#5E737B" font-family="sans-serif" font-size="20">location-background-evaluation-container</text><rect x="615" y="16" width="561" height="768" fill="none" stroke="#5E737B" stroke-width="3"/><text x="623" y="40" fill="#5E737B" font-family="sans-serif" font-size="20">location-background-artifactory-cache</text><rect x="224.64" y="76.96" width="728.64" height="129.024" fill="none" stroke="#68766B" stroke-width="3"/><text x="232.64" y="100.96" fill="#68766B" font-family="sans-serif" font-size="20">card</text><text x="588.96" y="230.784" text-anchor="middle" fill="#E7E0D0" font-size="20" font-family="Arial, Helvetica, sans-serif" data-font-key="editorial" font-weight="700" font-style="normal" textLength="151.14" lengthAdjust="spacingAndGlyphs">NEW MESSAGE</text><rect x="224.64" y="299.68" width="728.64" height="129.024" fill="none" stroke="#68766B" stroke-width="3"/><text x="232.64" y="323.68" fill="#68766B" font-family="sans-serif" font-size="20">card</text><text x="588.96" y="453.504" text-anchor="middle" fill="#E7E0D0" font-size="20" font-family="Arial, Helvetica, sans-serif" data-font-key="editorial" font-weight="700" font-style="normal" textLength="117.80" lengthAdjust="spacingAndGlyphs">NEW REPLY</text><rect x="3" y="3" width="1194" height="794" fill="none" stroke="#5E737B" stroke-width="4"/></svg>

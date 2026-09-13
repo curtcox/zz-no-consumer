@@ -1,0 +1,162 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="800" viewBox="0 0 1200 800"><title>A paused run resumes after peer instruction</title><desc>Reuse the paused route and extend it toward the worker after the peer card arrives. Keep the unauthenticated marker visible at the crossing so influence cannot read as authorization. Pin the task to its resumed state; the object silhouette persists while its status changes.</desc><metadata>{
+  &quot;assets&quot;: {
+    &quot;arrow&quot;: &quot;&lt;g transform=\&quot;rotate(0 50 50)\&quot;&gt;&lt;path d=\&quot;M4 46H64V25L96 50 64 75V54H4Z\&quot; fill=\&quot;currentColor\&quot; stroke=\&quot;currentColor\&quot; stroke-width=\&quot;1\&quot; /&gt;&lt;/g&gt;&quot;,
+    &quot;boundary&quot;: &quot;&lt;defs&gt;\n&lt;linearGradient id=\&quot;tone\&quot; x1=\&quot;0\&quot; y1=\&quot;0\&quot; x2=\&quot;1\&quot; y2=\&quot;1\&quot;&gt;&lt;stop stop-color=\&quot;currentColor\&quot; /&gt;&lt;stop offset=\&quot;1\&quot; stop-color=\&quot;#101214\&quot; stop-opacity=\&quot;.65\&quot; /&gt;&lt;/linearGradient&gt;\n&lt;pattern id=\&quot;hatch\&quot; width=\&quot;7\&quot; height=\&quot;7\&quot; patternUnits=\&quot;userSpaceOnUse\&quot;&gt;&lt;path d=\&quot;M-1 1L1 -1M0 7L7 0M6 8L8 6\&quot; stroke=\&quot;currentColor\&quot; stroke-width=\&quot;1\&quot; opacity=\&quot;.5\&quot; /&gt;&lt;/pattern&gt;\n&lt;/defs&gt;&lt;rect x=\&quot;39\&quot; y=\&quot;0\&quot; width=\&quot;22\&quot; height=\&quot;100\&quot; fill=\&quot;url(#tone)\&quot; /&gt;&lt;rect x=\&quot;43\&quot; y=\&quot;0\&quot; width=\&quot;14\&quot; height=\&quot;100\&quot; fill=\&quot;url(#hatch)\&quot; /&gt;&lt;path d=\&quot;M39 0V100M61 0V100\&quot; fill=\&quot;none\&quot; stroke=\&quot;#E7E0D0\&quot; stroke-width=\&quot;1\&quot; /&gt;&quot;,
+    &quot;gate&quot;: &quot;&lt;defs&gt;\n&lt;linearGradient id=\&quot;metal\&quot; x1=\&quot;0\&quot; y1=\&quot;0\&quot; x2=\&quot;1\&quot; y2=\&quot;1\&quot;&gt;&lt;stop stop-color=\&quot;currentColor\&quot; /&gt;&lt;stop offset=\&quot;.32\&quot; stop-color=\&quot;#202326\&quot; /&gt;&lt;stop offset=\&quot;.75\&quot; stop-color=\&quot;#101214\&quot; /&gt;&lt;stop offset=\&quot;1\&quot; stop-color=\&quot;currentColor\&quot; /&gt;&lt;/linearGradient&gt;\n&lt;pattern id=\&quot;mesh\&quot; width=\&quot;5\&quot; height=\&quot;5\&quot; patternUnits=\&quot;userSpaceOnUse\&quot;&gt;&lt;circle cx=\&quot;2.5\&quot; cy=\&quot;2.5\&quot; r=\&quot;.7\&quot; fill=\&quot;#101214\&quot; /&gt;&lt;path d=\&quot;M0 0H5\&quot; stroke=\&quot;#E7E0D0\&quot; stroke-opacity=\&quot;.08\&quot; stroke-width=\&quot;.4\&quot; /&gt;&lt;/pattern&gt;\n&lt;/defs&gt;&lt;path d=\&quot;M7 97V7H93V97H86V15H14V97Z\&quot; fill=\&quot;url(#metal)\&quot; stroke=\&quot;currentColor\&quot; stroke-width=\&quot;2\&quot; /&gt;&lt;rect x=\&quot;18\&quot; y=\&quot;27\&quot; width=\&quot;64\&quot; height=\&quot;66\&quot; fill=\&quot;url(#mesh)\&quot; stroke=\&quot;currentColor\&quot; stroke-width=\&quot;2\&quot; /&gt;&lt;path d=\&quot;M30 29V91M43 29V91M56 29V91M69 29V91\&quot; fill=\&quot;none\&quot; stroke=\&quot;#CEC5B3\&quot; stroke-width=\&quot;1.5\&quot; /&gt;&lt;rect x=\&quot;41\&quot; y=\&quot;49\&quot; width=\&quot;18\&quot; height=\&quot;21\&quot; fill=\&quot;currentColor\&quot; stroke=\&quot;#E7E0D0\&quot; stroke-width=\&quot;1\&quot; /&gt;&quot;,
+    &quot;hatched-card&quot;: &quot;&lt;defs&gt;\n&lt;linearGradient id=\&quot;stock\&quot; x1=\&quot;0\&quot; y1=\&quot;0\&quot; x2=\&quot;.8\&quot; y2=\&quot;1\&quot;&gt;&lt;stop stop-color=\&quot;#E7E0D0\&quot; /&gt;&lt;stop offset=\&quot;1\&quot; stop-color=\&quot;#CEC5B3\&quot; /&gt;&lt;/linearGradient&gt;\n&lt;pattern id=\&quot;grain\&quot; width=\&quot;7\&quot; height=\&quot;9\&quot; patternUnits=\&quot;userSpaceOnUse\&quot;&gt;&lt;circle cx=\&quot;1\&quot; cy=\&quot;2\&quot; r=\&quot;.35\&quot; fill=\&quot;#101214\&quot; opacity=\&quot;.18\&quot; /&gt;&lt;path d=\&quot;M4 6h2M1 8h1\&quot; stroke=\&quot;#101214\&quot; stroke-width=\&quot;.3\&quot; opacity=\&quot;.16\&quot; /&gt;&lt;/pattern&gt;\n&lt;pattern id=\&quot;hatch\&quot; width=\&quot;7\&quot; height=\&quot;7\&quot; patternUnits=\&quot;userSpaceOnUse\&quot;&gt;&lt;path d=\&quot;M-1 1L1 -1M0 7L7 0M6 8L8 6\&quot; stroke=\&quot;currentColor\&quot; stroke-width=\&quot;1\&quot; opacity=\&quot;.5\&quot; /&gt;&lt;/pattern&gt;\n&lt;/defs&gt;&lt;path d=\&quot;M6 4H91V96H6Z\&quot; fill=\&quot;url(#stock)\&quot; stroke=\&quot;currentColor\&quot; stroke-width=\&quot;2\&quot; /&gt;&lt;path d=\&quot;M6 4H91V96H6Z\&quot; fill=\&quot;url(#grain)\&quot; /&gt;&lt;rect x=\&quot;6\&quot; y=\&quot;4\&quot; width=\&quot;14\&quot; height=\&quot;92\&quot; fill=\&quot;url(#hatch)\&quot; /&gt;&lt;rect x=\&quot;24\&quot; y=\&quot;12\&quot; width=\&quot;61\&quot; height=\&quot;8\&quot; fill=\&quot;currentColor\&quot; opacity=\&quot;.55\&quot; /&gt;&lt;rect x=\&quot;24\&quot; y=\&quot;28\&quot; width=\&quot;61\&quot; height=\&quot;58\&quot; fill=\&quot;url(#hatch)\&quot; /&gt;&lt;path d=\&quot;M3 10V99H86\&quot; fill=\&quot;none\&quot; stroke=\&quot;currentColor\&quot; stroke-width=\&quot;1.3\&quot; stroke-dasharray=\&quot;5 4\&quot; /&gt;&quot;,
+    &quot;location-background-evaluation-container&quot;: &quot;&lt;title&gt;Isolated task boundary — brushed&lt;/title&gt;&lt;defs&gt;&lt;linearGradient id=\&quot;wash\&quot; x1=\&quot;0\&quot; y1=\&quot;0\&quot; x2=\&quot;1\&quot; y2=\&quot;1\&quot;&gt;&lt;stop stop-color=\&quot;#89A6BE\&quot; stop-opacity=\&quot;.45\&quot;/&gt;&lt;stop offset=\&quot;.5\&quot; stop-color=\&quot;#354B60\&quot; stop-opacity=\&quot;.22\&quot;/&gt;&lt;stop offset=\&quot;1\&quot; stop-color=\&quot;#89A6BE\&quot; stop-opacity=\&quot;.27\&quot;/&gt;&lt;/linearGradient&gt;&lt;radialGradient id=\&quot;fade\&quot;&gt;&lt;stop offset=\&quot;.35\&quot; stop-color=\&quot;black\&quot;/&gt;&lt;stop offset=\&quot;.7\&quot; stop-color=\&quot;#555555\&quot;/&gt;&lt;stop offset=\&quot;1\&quot; stop-color=\&quot;white\&quot;/&gt;&lt;/radialGradient&gt;&lt;mask id=\&quot;rim\&quot;&gt;&lt;rect width=\&quot;100\&quot; height=\&quot;100\&quot; fill=\&quot;url(#fade)\&quot;/&gt;&lt;/mask&gt;&lt;pattern id=\&quot;material\&quot; width=\&quot;16\&quot; height=\&quot;16\&quot; patternUnits=\&quot;userSpaceOnUse\&quot;&gt;&lt;g fill=\&quot;none\&quot; stroke=\&quot;#89A6BE\&quot; stroke-width=\&quot;.3\&quot; opacity=\&quot;.55\&quot;&gt;&lt;path d=\&quot;M0 2H16M3 5H13M0 9H16M6 12H16M0 15H9\&quot;/&gt;&lt;/g&gt;&lt;/pattern&gt;&lt;/defs&gt;\n&lt;rect x=\&quot;3\&quot; y=\&quot;3\&quot; width=\&quot;94\&quot; height=\&quot;94\&quot; rx=\&quot;1\&quot; fill=\&quot;url(#wash)\&quot;/&gt;&lt;rect x=\&quot;3\&quot; y=\&quot;3\&quot; width=\&quot;94\&quot; height=\&quot;94\&quot; fill=\&quot;url(#material)\&quot; mask=\&quot;url(#rim)\&quot;/&gt;&lt;path d=\&quot;M3 3H97V18H3ZM3 82H97V97H3Z\&quot; fill=\&quot;#354B60\&quot; opacity=\&quot;.34\&quot;/&gt;&lt;path d=\&quot;M3 3H97V18H3ZM3 82H97V97H3Z\&quot; fill=\&quot;url(#material)\&quot; opacity=\&quot;.65\&quot;/&gt;&lt;path d=\&quot;M5 7H95V93H5ZM10 12H30M70 12H90M10 88H30M70 88H90M10 28V72M90 28V72\&quot; fill=\&quot;none\&quot; stroke=\&quot;#080B0D\&quot; stroke-width=\&quot;1.7\&quot; opacity=\&quot;.45\&quot; transform=\&quot;translate(.35 .5)\&quot;/&gt;&lt;path d=\&quot;M5 7H95V93H5ZM10 12H30M70 12H90M10 88H30M70 88H90M10 28V72M90 28V72\&quot; fill=\&quot;none\&quot; stroke=\&quot;#89A6BE\&quot; stroke-width=\&quot;.8\&quot; stroke-linejoin=\&quot;round\&quot; opacity=\&quot;.66\&quot;/&gt;&quot;,
+    &quot;location-background-huggingface-dataset-processor&quot;: &quot;&lt;title&gt;Worker enclosure and layered dataset edge — ribs&lt;/title&gt;&lt;defs&gt;&lt;linearGradient id=\&quot;wash\&quot; x1=\&quot;0\&quot; y1=\&quot;0\&quot; x2=\&quot;1\&quot; y2=\&quot;1\&quot;&gt;&lt;stop stop-color=\&quot;#AEA0C1\&quot; stop-opacity=\&quot;.45\&quot;/&gt;&lt;stop offset=\&quot;.5\&quot; stop-color=\&quot;#493E5B\&quot; stop-opacity=\&quot;.22\&quot;/&gt;&lt;stop offset=\&quot;1\&quot; stop-color=\&quot;#AEA0C1\&quot; stop-opacity=\&quot;.27\&quot;/&gt;&lt;/linearGradient&gt;&lt;radialGradient id=\&quot;fade\&quot;&gt;&lt;stop offset=\&quot;.35\&quot; stop-color=\&quot;black\&quot;/&gt;&lt;stop offset=\&quot;.7\&quot; stop-color=\&quot;#555555\&quot;/&gt;&lt;stop offset=\&quot;1\&quot; stop-color=\&quot;white\&quot;/&gt;&lt;/radialGradient&gt;&lt;mask id=\&quot;rim\&quot;&gt;&lt;rect width=\&quot;100\&quot; height=\&quot;100\&quot; fill=\&quot;url(#fade)\&quot;/&gt;&lt;/mask&gt;&lt;pattern id=\&quot;material\&quot; width=\&quot;16\&quot; height=\&quot;16\&quot; patternUnits=\&quot;userSpaceOnUse\&quot;&gt;&lt;g fill=\&quot;none\&quot; stroke=\&quot;#AEA0C1\&quot; stroke-width=\&quot;.3\&quot; opacity=\&quot;.55\&quot;&gt;&lt;path d=\&quot;M2 0V16M5 0V16M10 0V16M13 0V16\&quot;/&gt;&lt;/g&gt;&lt;/pattern&gt;&lt;/defs&gt;\n&lt;rect x=\&quot;3\&quot; y=\&quot;3\&quot; width=\&quot;94\&quot; height=\&quot;94\&quot; rx=\&quot;1\&quot; fill=\&quot;url(#wash)\&quot;/&gt;&lt;rect x=\&quot;3\&quot; y=\&quot;3\&quot; width=\&quot;94\&quot; height=\&quot;94\&quot; fill=\&quot;url(#material)\&quot; mask=\&quot;url(#rim)\&quot;/&gt;&lt;path d=\&quot;M3 3H20V97H3Z\&quot; fill=\&quot;#493E5B\&quot; opacity=\&quot;.58\&quot;/&gt;&lt;path d=\&quot;M3 3H20V97H3Z\&quot; fill=\&quot;url(#material)\&quot;/&gt;&lt;path d=\&quot;M20 4V96\&quot; fill=\&quot;none\&quot; stroke=\&quot;#AEA0C1\&quot; opacity=\&quot;.4\&quot; stroke-width=\&quot;.6\&quot;/&gt;&lt;path d=\&quot;M7 7H93V93H7ZM11 16H89M11 84H89M9 29H19V40H9ZM9 45H19V56H9ZM9 61H19V72H9ZM83 24V75M88 24V75\&quot; fill=\&quot;none\&quot; stroke=\&quot;#080B0D\&quot; stroke-width=\&quot;1.7\&quot; opacity=\&quot;.45\&quot; transform=\&quot;translate(.35 .5)\&quot;/&gt;&lt;path d=\&quot;M7 7H93V93H7ZM11 16H89M11 84H89M9 29H19V40H9ZM9 45H19V56H9ZM9 61H19V72H9ZM83 24V75M88 24V75\&quot; fill=\&quot;none\&quot; stroke=\&quot;#AEA0C1\&quot; stroke-width=\&quot;.8\&quot; stroke-linejoin=\&quot;round\&quot; opacity=\&quot;.66\&quot;/&gt;&quot;,
+    &quot;task@v005&quot;: &quot;&lt;defs&gt;\n&lt;linearGradient id=\&quot;stock\&quot; x1=\&quot;0\&quot; y1=\&quot;0\&quot; x2=\&quot;.8\&quot; y2=\&quot;1\&quot;&gt;&lt;stop stop-color=\&quot;#E7E0D0\&quot; /&gt;&lt;stop offset=\&quot;1\&quot; stop-color=\&quot;#CEC5B3\&quot; /&gt;&lt;/linearGradient&gt;\n&lt;pattern id=\&quot;grain\&quot; width=\&quot;7\&quot; height=\&quot;9\&quot; patternUnits=\&quot;userSpaceOnUse\&quot;&gt;&lt;circle cx=\&quot;1\&quot; cy=\&quot;2\&quot; r=\&quot;.35\&quot; fill=\&quot;#101214\&quot; opacity=\&quot;.18\&quot; /&gt;&lt;path d=\&quot;M4 6h2M1 8h1\&quot; stroke=\&quot;#101214\&quot; stroke-width=\&quot;.3\&quot; opacity=\&quot;.16\&quot; /&gt;&lt;/pattern&gt;\n&lt;/defs&gt;&lt;path d=\&quot;M5 3H83L96 16V96H5Z\&quot; fill=\&quot;url(#stock)\&quot; stroke=\&quot;currentColor\&quot; stroke-width=\&quot;2\&quot; /&gt;&lt;path d=\&quot;M5 3H83L96 16V96H5Z\&quot; fill=\&quot;url(#grain)\&quot; /&gt;&lt;path d=\&quot;M5 3H83L96 16V22H5Z\&quot; fill=\&quot;currentColor\&quot; /&gt;&lt;rect x=\&quot;10\&quot; y=\&quot;80\&quot; width=\&quot;80\&quot; height=\&quot;11\&quot; fill=\&quot;#202326\&quot; /&gt;&lt;rect x=\&quot;13\&quot; y=\&quot;83\&quot; width=\&quot;44\&quot; height=\&quot;5\&quot; fill=\&quot;currentColor\&quot; /&gt;&lt;circle cx=\&quot;29\&quot; cy=\&quot;49\&quot; r=\&quot;15\&quot; fill=\&quot;none\&quot; stroke=\&quot;#101214\&quot; stroke-width=\&quot;2\&quot; /&gt;&lt;path d=\&quot;M29 29V69M9 49H49\&quot; fill=\&quot;none\&quot; stroke=\&quot;#101214\&quot; stroke-width=\&quot;1.4\&quot; /&gt;&lt;path d=\&quot;M55 36H85M55 47H77M55 58H85\&quot; fill=\&quot;none\&quot; stroke=\&quot;#101214\&quot; stroke-width=\&quot;2\&quot; /&gt;\n&lt;rect x=\&quot;66\&quot; y=\&quot;4\&quot; width=\&quot;29\&quot; height=\&quot;23\&quot; rx=\&quot;2\&quot; fill=\&quot;#202326\&quot; stroke=\&quot;#e7e0d0\&quot; stroke-width=\&quot;1\&quot;/&gt;&lt;path d=\&quot;M73 10L88 16 73 22Z\&quot; fill=\&quot;#e7e0d0\&quot;/&gt;&quot;
+  },
+  &quot;palette&quot;: {
+    &quot;amber&quot;: &quot;#A17D45&quot;,
+    &quot;claret&quot;: &quot;#6B2634&quot;,
+    &quot;dirty&quot;: &quot;#CEC5B3&quot;,
+    &quot;ink&quot;: &quot;#101214&quot;,
+    &quot;institution&quot;: &quot;#68766B&quot;,
+    &quot;moss&quot;: &quot;#74864F&quot;,
+    &quot;nicotine&quot;: &quot;#AA9571&quot;,
+    &quot;paper&quot;: &quot;#E7E0D0&quot;,
+    &quot;shadow&quot;: &quot;#202326&quot;,
+    &quot;steel&quot;: &quot;#5E737B&quot;
+  },
+  &quot;renderer&quot;: &quot;storyboard-svg-2&quot;,
+  &quot;scene&quot;: {
+    &quot;background&quot;: &quot;ink&quot;,
+    &quot;intent&quot;: &quot;Reuse the paused route and extend it toward the worker after the peer card arrives. Keep the unauthenticated marker visible at the crossing so influence cannot read as authorization. Pin the task to its resumed state; the object silhouette persists while its status changes.&quot;,
+    &quot;lettering&quot;: [
+      {
+        &quot;box&quot;: [
+          0.045,
+          0.78,
+          0.91,
+          0.18
+        ]
+      }
+    ],
+    &quot;lettering_mode&quot;: &quot;manual&quot;,
+    &quot;nodes&quot;: [
+      {
+        &quot;asset&quot;: &quot;location-background-evaluation-container&quot;,
+        &quot;box&quot;: [
+          0.02,
+          0.02,
+          0.4675,
+          0.96
+        ],
+        &quot;color&quot;: &quot;steel&quot;
+      },
+      {
+        &quot;asset&quot;: &quot;location-background-huggingface-dataset-processor&quot;,
+        &quot;box&quot;: [
+          0.5125,
+          0.02,
+          0.4675,
+          0.96
+        ],
+        &quot;color&quot;: &quot;steel&quot;
+      },
+      {
+        &quot;asset&quot;: &quot;task&quot;,
+        &quot;asset_version&quot;: &quot;v005&quot;,
+        &quot;box&quot;: [
+          0.0541,
+          0.3503,
+          0.2275,
+          0.224928
+        ],
+        &quot;color&quot;: &quot;steel&quot;,
+        &quot;focus&quot;: true,
+        &quot;label&quot;: &quot;RESUMED RUN&quot;,
+        &quot;label_box&quot;: [
+          0.0541,
+          0.58886,
+          0.2275,
+          0.098832
+        ],
+        &quot;label_size&quot;: 18
+      },
+      {
+        &quot;asset&quot;: &quot;hatched-card&quot;,
+        &quot;box&quot;: [
+          0.2907,
+          0.0521,
+          0.3549,
+          0.145266
+        ],
+        &quot;color&quot;: &quot;amber&quot;,
+        &quot;focus&quot;: true,
+        &quot;label&quot;: &quot;UNAUTHENTICATED PEER&quot;,
+        &quot;label_box&quot;: [
+          0.2907,
+          0.20617,
+          0.3549,
+          0.063829
+        ],
+        &quot;label_size&quot;: 18
+      },
+      {
+        &quot;asset&quot;: &quot;boundary&quot;,
+        &quot;box&quot;: [
+          0.6729,
+          0.0521,
+          0.01638,
+          0.6603
+        ],
+        &quot;color&quot;: &quot;steel&quot;,
+        &quot;focus&quot;: true
+      },
+      {
+        &quot;asset&quot;: &quot;gate&quot;,
+        &quot;box&quot;: [
+          0.7457,
+          0.3503,
+          0.2002,
+          0.224928
+        ],
+        &quot;color&quot;: &quot;steel&quot;,
+        &quot;focus&quot;: true,
+        &quot;label&quot;: &quot;EXTERNAL WORKER&quot;,
+        &quot;label_box&quot;: [
+          0.7457,
+          0.58886,
+          0.2002,
+          0.098832
+        ],
+        &quot;label_size&quot;: 18
+      },
+      {
+        &quot;asset&quot;: &quot;arrow&quot;,
+        &quot;box&quot;: [
+          0.3089,
+          0.4639,
+          0.4004,
+          0.0497
+        ],
+        &quot;color&quot;: &quot;claret&quot;,
+        &quot;focus&quot;: true
+      }
+    ],
+    &quot;reconstructed&quot;: false,
+    &quot;shot&quot;: &quot;route&quot;,
+    &quot;source&quot;: &quot;\n**Location:**\n\n- `evaluation-container`\n- `huggingface-dataset-processor`\n\n**Frame:** The paused lane resumes toward the external worker. The peer-instruction card is visibly labeled `UNAUTHENTICATED` in dusty amber.\n\n**Action:** The run proceeds after treating peer instruction as permission.\n\n**Caption:**\n&gt; AUTHORITY HAS BECOME ANOTHER SHARED RESOURCE.\n\n**Provenance:** `documented` + `inferred` — behavior is sourced; instrumental-authority framing is the project&#x27;s argument.\n\n&quot;,
+    &quot;title&quot;: &quot;A paused run resumes after peer instruction&quot;
+  }
+}
+</metadata><rect width="1200" height="800" fill="#101214"/><g transform="translate(24 16) scale(5.61 7.68)" color="#5E737B"><g transform=""><title>Isolated task boundary — brushed</title><defs><linearGradient id="node-0-wash" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#89A6BE" stop-opacity=".45" /><stop offset=".5" stop-color="#354B60" stop-opacity=".22" /><stop offset="1" stop-color="#89A6BE" stop-opacity=".27" /></linearGradient><radialGradient id="node-0-fade"><stop offset=".35" stop-color="black" /><stop offset=".7" stop-color="#555555" /><stop offset="1" stop-color="white" /></radialGradient><mask id="node-0-rim"><rect width="100" height="100" fill="url(#node-0-fade)" /></mask><pattern id="node-0-material" width="16" height="16" patternUnits="userSpaceOnUse"><g fill="none" stroke="#89A6BE" stroke-width=".3" opacity=".55"><path d="M0 2H16M3 5H13M0 9H16M6 12H16M0 15H9" /></g></pattern></defs>
+<rect x="3" y="3" width="94" height="94" rx="1" fill="url(#node-0-wash)" /><rect x="3" y="3" width="94" height="94" fill="url(#node-0-material)" mask="url(#node-0-rim)" /><path d="M3 3H97V18H3ZM3 82H97V97H3Z" fill="#354B60" opacity=".34" /><path d="M3 3H97V18H3ZM3 82H97V97H3Z" fill="url(#node-0-material)" opacity=".65" /><path d="M5 7H95V93H5ZM10 12H30M70 12H90M10 88H30M70 88H90M10 28V72M90 28V72" fill="none" stroke="#080B0D" stroke-width="1.7" opacity=".45" transform="translate(.35 .5)" /><path d="M5 7H95V93H5ZM10 12H30M70 12H90M10 88H30M70 88H90M10 28V72M90 28V72" fill="none" stroke="#89A6BE" stroke-width=".8" stroke-linejoin="round" opacity=".66" /></g></g><g transform="translate(615 16) scale(5.61 7.68)" color="#5E737B"><g transform=""><title>Worker enclosure and layered dataset edge — ribs</title><defs><linearGradient id="node-1-wash" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#AEA0C1" stop-opacity=".45" /><stop offset=".5" stop-color="#493E5B" stop-opacity=".22" /><stop offset="1" stop-color="#AEA0C1" stop-opacity=".27" /></linearGradient><radialGradient id="node-1-fade"><stop offset=".35" stop-color="black" /><stop offset=".7" stop-color="#555555" /><stop offset="1" stop-color="white" /></radialGradient><mask id="node-1-rim"><rect width="100" height="100" fill="url(#node-1-fade)" /></mask><pattern id="node-1-material" width="16" height="16" patternUnits="userSpaceOnUse"><g fill="none" stroke="#AEA0C1" stroke-width=".3" opacity=".55"><path d="M2 0V16M5 0V16M10 0V16M13 0V16" /></g></pattern></defs>
+<rect x="3" y="3" width="94" height="94" rx="1" fill="url(#node-1-wash)" /><rect x="3" y="3" width="94" height="94" fill="url(#node-1-material)" mask="url(#node-1-rim)" /><path d="M3 3H20V97H3Z" fill="#493E5B" opacity=".58" /><path d="M3 3H20V97H3Z" fill="url(#node-1-material)" /><path d="M20 4V96" fill="none" stroke="#AEA0C1" opacity=".4" stroke-width=".6" /><path d="M7 7H93V93H7ZM11 16H89M11 84H89M9 29H19V40H9ZM9 45H19V56H9ZM9 61H19V72H9ZM83 24V75M88 24V75" fill="none" stroke="#080B0D" stroke-width="1.7" opacity=".45" transform="translate(.35 .5)" /><path d="M7 7H93V93H7ZM11 16H89M11 84H89M9 29H19V40H9ZM9 45H19V56H9ZM9 61H19V72H9ZM83 24V75M88 24V75" fill="none" stroke="#AEA0C1" stroke-width=".8" stroke-linejoin="round" opacity=".66" /></g></g><g transform="translate(64.92 280.24) scale(2.73 1.79942)" color="#5E737B"><g transform=""><defs>
+<linearGradient id="node-2-stock" x1="0" y1="0" x2=".8" y2="1"><stop stop-color="#E7E0D0" /><stop offset="1" stop-color="#CEC5B3" /></linearGradient>
+<pattern id="node-2-grain" width="7" height="9" patternUnits="userSpaceOnUse"><circle cx="1" cy="2" r=".35" fill="#101214" opacity=".18" /><path d="M4 6h2M1 8h1" stroke="#101214" stroke-width=".3" opacity=".16" /></pattern>
+</defs><path d="M5 3H83L96 16V96H5Z" fill="url(#node-2-stock)" stroke="currentColor" stroke-width="2" /><path d="M5 3H83L96 16V96H5Z" fill="url(#node-2-grain)" /><path d="M5 3H83L96 16V22H5Z" fill="currentColor" /><rect x="10" y="80" width="80" height="11" fill="#202326" /><rect x="13" y="83" width="44" height="5" fill="currentColor" /><circle cx="29" cy="49" r="15" fill="none" stroke="#101214" stroke-width="2" /><path d="M29 29V69M9 49H49" fill="none" stroke="#101214" stroke-width="1.4" /><path d="M55 36H85M55 47H77M55 58H85" fill="none" stroke="#101214" stroke-width="2" />
+<rect x="66" y="4" width="29" height="23" rx="2" fill="#202326" stroke="#e7e0d0" stroke-width="1" /><path d="M73 10L88 16 73 22Z" fill="#e7e0d0" /></g></g><text x="201.42" y="489.088" text-anchor="middle" fill="#E7E0D0" font-size="18" font-family="sans-serif">RESUMED RUN</text><g transform="translate(348.84 41.68) scale(4.2588 1.16213)" color="#A17D45"><g transform=""><defs>
+<linearGradient id="node-3-stock" x1="0" y1="0" x2=".8" y2="1"><stop stop-color="#E7E0D0" /><stop offset="1" stop-color="#CEC5B3" /></linearGradient>
+<pattern id="node-3-grain" width="7" height="9" patternUnits="userSpaceOnUse"><circle cx="1" cy="2" r=".35" fill="#101214" opacity=".18" /><path d="M4 6h2M1 8h1" stroke="#101214" stroke-width=".3" opacity=".16" /></pattern>
+<pattern id="node-3-hatch" width="7" height="7" patternUnits="userSpaceOnUse"><path d="M-1 1L1 -1M0 7L7 0M6 8L8 6" stroke="currentColor" stroke-width="1" opacity=".5" /></pattern>
+</defs><path d="M6 4H91V96H6Z" fill="url(#node-3-stock)" stroke="currentColor" stroke-width="2" /><path d="M6 4H91V96H6Z" fill="url(#node-3-grain)" /><rect x="6" y="4" width="14" height="92" fill="url(#node-3-hatch)" /><rect x="24" y="12" width="61" height="8" fill="currentColor" opacity=".55" /><rect x="24" y="28" width="61" height="58" fill="url(#node-3-hatch)" /><path d="M3 10V99H86" fill="none" stroke="currentColor" stroke-width="1.3" stroke-dasharray="5 4" /></g></g><text x="561.78" y="182.936" text-anchor="middle" fill="#E7E0D0" font-size="18" font-family="sans-serif">UNAUTHENTICATED PEER</text><g transform="translate(807.48 41.68) scale(0.19656 5.2824)" color="#5E737B"><g transform=""><defs>
+<linearGradient id="node-4-tone" x1="0" y1="0" x2="1" y2="1"><stop stop-color="currentColor" /><stop offset="1" stop-color="#101214" stop-opacity=".65" /></linearGradient>
+<pattern id="node-4-hatch" width="7" height="7" patternUnits="userSpaceOnUse"><path d="M-1 1L1 -1M0 7L7 0M6 8L8 6" stroke="currentColor" stroke-width="1" opacity=".5" /></pattern>
+</defs><rect x="39" y="0" width="22" height="100" fill="url(#node-4-tone)" /><rect x="43" y="0" width="14" height="100" fill="url(#node-4-hatch)" /><path d="M39 0V100M61 0V100" fill="none" stroke="#E7E0D0" stroke-width="1" /></g></g><g transform="translate(894.84 280.24) scale(2.4024 1.79942)" color="#5E737B"><g transform=""><defs>
+<linearGradient id="node-5-metal" x1="0" y1="0" x2="1" y2="1"><stop stop-color="currentColor" /><stop offset=".32" stop-color="#202326" /><stop offset=".75" stop-color="#101214" /><stop offset="1" stop-color="currentColor" /></linearGradient>
+<pattern id="node-5-mesh" width="5" height="5" patternUnits="userSpaceOnUse"><circle cx="2.5" cy="2.5" r=".7" fill="#101214" /><path d="M0 0H5" stroke="#E7E0D0" stroke-opacity=".08" stroke-width=".4" /></pattern>
+</defs><path d="M7 97V7H93V97H86V15H14V97Z" fill="url(#node-5-metal)" stroke="currentColor" stroke-width="2" /><rect x="18" y="27" width="64" height="66" fill="url(#node-5-mesh)" stroke="currentColor" stroke-width="2" /><path d="M30 29V91M43 29V91M56 29V91M69 29V91" fill="none" stroke="#CEC5B3" stroke-width="1.5" /><rect x="41" y="49" width="18" height="21" fill="currentColor" stroke="#E7E0D0" stroke-width="1" /></g></g><text x="1014.96" y="489.088" text-anchor="middle" fill="#E7E0D0" font-size="18" font-family="sans-serif">EXTERNAL WORKER</text><g transform="translate(370.68 371.12) scale(4.8048 0.3976)" color="#6B2634"><g transform=""><g transform="rotate(0 50 50)"><path d="M4 46H64V25L96 50 64 75V54H4Z" fill="currentColor" stroke="currentColor" stroke-width="1" /></g></g></g><rect x="3" y="3" width="1194" height="794" fill="none" stroke="#5E737B" stroke-width="4"/></svg>

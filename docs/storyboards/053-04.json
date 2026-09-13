@@ -23,6 +23,7 @@
       ],
       "color": "steel",
       "focus": true,
+      "font": "editorial",
       "label": "LAB A",
       "label_box": [
         0.06775,
@@ -42,6 +43,7 @@
       ],
       "color": "steel",
       "focus": true,
+      "font": "editorial",
       "label": "LAB B",
       "label_box": [
         0.371083,
@@ -61,6 +63,7 @@
       ],
       "color": "steel",
       "focus": true,
+      "font": "editorial",
       "label": "LAB C",
       "label_box": [
         0.674417,
@@ -73,6 +76,6 @@
   ],
   "reconstructed": false,
   "shot": "row",
-  "source": "\n**Location:** `institutional-composite`\n\n**Frame:** A world map with several anonymous laboratories advancing on separate tracks. No company logos or attributed policy positions.\n\n**Dialogue — LEADERSHIP:**\n> Pausing here does not pause capability work everywhere. It may leave us less able to understand what others build.\n\n**Provenance:** `reconstructed` + `inferred` — competitive-readiness argument presented without attribution to an actual institution.\n\n",
+  "source": "\n**Location:** `institutional-composite`\n\n**Frame:** A world map with several anonymous laboratories advancing on separate tracks. No company logos or attributed policy positions.\n\n**Font:** `human`\n\n**Dialogue — LEADERSHIP:**\n> Pausing here does not pause capability work everywhere. It may leave us less able to understand what others build.\n\n**Provenance:** `reconstructed` + `inferred` — competitive-readiness argument presented without attribution to an actual institution.\n\n",
   "title": "Anonymous laboratories advance separately"
 }

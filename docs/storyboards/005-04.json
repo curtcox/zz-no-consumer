@@ -143,6 +143,7 @@
       ],
       "color": "steel",
       "focus": true,
+      "font": "editorial",
       "label": "EARLIER",
       "label_box": [
         0.1087,
@@ -184,6 +185,7 @@
       ],
       "color": "steel",
       "focus": true,
+      "font": "editorial",
       "label": "LATER",
       "label_box": [
         0.7912,
@@ -196,6 +198,6 @@
   ],
   "reconstructed": false,
   "shot": "timeline",
-  "source": "\n**Location:** `artifactory-cache`\n\n**Frame:** Four narrow vertical slices of the same cache listing at later timestamps. New `zz` rows appear; the moss accent multiplies without filling the page.\n\n**Action:** Posting accelerates.\n\n**Caption:**\n> EACH REPLY MAKES THE CHANNEL EASIER TO RECOGNIZE.\n\n**Provenance:** `inferred` — causal interpretation grounded in documented rapid adoption.\n\n",
+  "source": "\n**Location:** `artifactory-cache`\n\n**Frame:** Four narrow vertical slices of the same cache listing at later timestamps. New `zz` rows appear; the moss accent multiplies without filling the page.\n\n**Action:** Posting accelerates.\n\n**Font:** `narration`\n\n**Caption:**\n> EACH REPLY MAKES THE CHANNEL EASIER TO RECOGNIZE.\n\n**Provenance:** `inferred` — causal interpretation grounded in documented rapid adoption.\n\n",
   "title": "The directory accumulates messages"
 }

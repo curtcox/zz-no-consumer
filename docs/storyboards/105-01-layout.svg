@@ -77,6 +77,7 @@
         ],
         &quot;color&quot;: &quot;steel&quot;,
         &quot;focus&quot;: true,
+        &quot;font&quot;: &quot;editorial&quot;,
         &quot;label&quot;: &quot;CHAPTER PACKETS&quot;,
         &quot;label_box&quot;: [
           0.3448,
@@ -95,6 +96,7 @@
         ],
         &quot;color&quot;: &quot;steel&quot;,
         &quot;focus&quot;: true,
+        &quot;font&quot;: &quot;editorial&quot;,
         &quot;label&quot;: &quot;AUDIT&quot;,
         &quot;label_box&quot;: [
           0.525733,
@@ -113,6 +115,7 @@
         ],
         &quot;color&quot;: &quot;steel&quot;,
         &quot;focus&quot;: true,
+        &quot;font&quot;: &quot;editorial&quot;,
         &quot;label&quot;: &quot;VIEWER&quot;,
         &quot;label_box&quot;: [
           0.706667,
@@ -135,8 +138,8 @@
     ],
     &quot;reconstructed&quot;: true,
     &quot;shot&quot;: &quot;office&quot;,
-    &quot;source&quot;: &quot;\n**Location:** `curt-home-office`\n\n**Frame:** Recto. The blank epilogue page from [page 104](104.md) sits beside 104 completed page scripts. The desk now holds chapter packets, a source-language audit, uncertainty notes, and the generated viewer.\n\n**Caption:**\n&gt; THE INCIDENT HAS BECOME A MANUSCRIPT.\n\n**Provenance:** `reconstructed` — creator workspace assembled from real project artifacts, not a documentary photograph.\n\n&quot;,
+    &quot;source&quot;: &quot;\n**Location:** `curt-home-office`\n\n**Frame:** Recto. The blank epilogue page from [page 104](104.md) sits beside 104 completed page scripts. The desk now holds chapter packets, a source-language audit, uncertainty notes, and the generated viewer.\n\n**Font:** `narration`\n\n**Caption:**\n&gt; THE INCIDENT HAS BECOME A MANUSCRIPT.\n\n**Provenance:** `reconstructed` — creator workspace assembled from real project artifacts, not a documentary photograph.\n\n&quot;,
     &quot;title&quot;: &quot;The blank epilogue sits beside completed chapter packets&quot;
   }
 }
-</metadata><rect width="1200" height="800" fill="#101214"/><rect x="59.04" y="41.12" width="1081.92" height="501.76" fill="none" stroke="#202326" stroke-width="3"/><text x="67.04" y="65.12" fill="#202326" font-family="sans-serif" font-size="20">curt-workroom</text><rect x="235.68" y="363.68" width="861.12" height="158.72" fill="none" stroke="#AA9571" stroke-width="3"/><text x="243.68" y="387.68" fill="#AA9571" font-family="sans-serif" font-size="20">desk</text><rect x="119.2" y="164" width="232.96" height="358.4" fill="none" stroke="#CEC5B3" stroke-width="3"/><text x="127.2" y="188" fill="#CEC5B3" font-family="sans-serif" font-size="20">person-seated</text><rect x="423.36" y="164" width="184" height="174.08" fill="none" stroke="#5E737B" stroke-width="3"/><text x="431.36" y="188" fill="#5E737B" font-family="sans-serif" font-size="20">folder</text><text x="515.36" y="357.38" text-anchor="middle" fill="#E7E0D0" font-size="14.5" font-family="sans-serif">CHAPTER PACKETS</text><rect x="640.48" y="164" width="184" height="174.08" fill="none" stroke="#5E737B" stroke-width="3"/><text x="648.48" y="188" fill="#5E737B" font-family="sans-serif" font-size="20">paper</text><text x="732.479" y="357.38" text-anchor="middle" fill="#E7E0D0" font-size="14.5" font-family="sans-serif">AUDIT</text><rect x="857.6" y="164" width="184" height="174.08" fill="none" stroke="#5E737B" stroke-width="3"/><text x="865.6" y="188" fill="#5E737B" font-family="sans-serif" font-size="20">monitor</text><text x="949.6" y="357.38" text-anchor="middle" fill="#E7E0D0" font-size="14.5" font-family="sans-serif">VIEWER</text><rect x="975.36" y="358.56" width="77.28" height="71.68" fill="none" stroke="#AA9571" stroke-width="3"/><text x="983.36" y="382.56" fill="#AA9571" font-family="sans-serif" font-size="20">cup</text><rect x="3" y="3" width="1194" height="794" fill="none" stroke="#5E737B" stroke-width="4" stroke-dasharray="18 10"/></svg>
+</metadata><rect width="1200" height="800" fill="#101214"/><rect x="59.04" y="41.12" width="1081.92" height="501.76" fill="none" stroke="#202326" stroke-width="3"/><text x="67.04" y="65.12" fill="#202326" font-family="sans-serif" font-size="20">curt-workroom</text><rect x="235.68" y="363.68" width="861.12" height="158.72" fill="none" stroke="#AA9571" stroke-width="3"/><text x="243.68" y="387.68" fill="#AA9571" font-family="sans-serif" font-size="20">desk</text><rect x="119.2" y="164" width="232.96" height="358.4" fill="none" stroke="#CEC5B3" stroke-width="3"/><text x="127.2" y="188" fill="#CEC5B3" font-family="sans-serif" font-size="20">person-seated</text><rect x="423.36" y="164" width="184" height="174.08" fill="none" stroke="#5E737B" stroke-width="3"/><text x="431.36" y="188" fill="#5E737B" font-family="sans-serif" font-size="20">folder</text><text x="515.36" y="357.38" text-anchor="middle" fill="#E7E0D0" font-size="14.5" font-family="Arial, Helvetica, sans-serif" data-font-key="editorial" font-weight="700" font-style="normal" textLength="141.00" lengthAdjust="spacingAndGlyphs">CHAPTER PACKETS</text><rect x="640.48" y="164" width="184" height="174.08" fill="none" stroke="#5E737B" stroke-width="3"/><text x="648.48" y="188" fill="#5E737B" font-family="sans-serif" font-size="20">paper</text><text x="732.479" y="357.38" text-anchor="middle" fill="#E7E0D0" font-size="14.5" font-family="Arial, Helvetica, sans-serif" data-font-key="editorial" font-weight="700" font-style="normal" textLength="43.50" lengthAdjust="spacingAndGlyphs">AUDIT</text><rect x="857.6" y="164" width="184" height="174.08" fill="none" stroke="#5E737B" stroke-width="3"/><text x="865.6" y="188" fill="#5E737B" font-family="sans-serif" font-size="20">monitor</text><text x="949.6" y="357.38" text-anchor="middle" fill="#E7E0D0" font-size="14.5" font-family="Arial, Helvetica, sans-serif" data-font-key="editorial" font-weight="700" font-style="normal" textLength="57.20" lengthAdjust="spacingAndGlyphs">VIEWER</text><rect x="975.36" y="358.56" width="77.28" height="71.68" fill="none" stroke="#AA9571" stroke-width="3"/><text x="983.36" y="382.56" fill="#AA9571" font-family="sans-serif" font-size="20">cup</text><rect x="3" y="3" width="1194" height="794" fill="none" stroke="#5E737B" stroke-width="4" stroke-dasharray="18 10"/></svg>

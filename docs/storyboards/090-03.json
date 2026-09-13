@@ -33,6 +33,7 @@
       ],
       "color": "steel",
       "focus": true,
+      "font": "editorial",
       "label": "INVENTED INTERIORITY",
       "label_box": [
         0.06775,
@@ -52,6 +53,7 @@
       ],
       "color": "steel",
       "focus": true,
+      "font": "editorial",
       "label": "BLAND ANALYSIS",
       "label_box": [
         0.371083,
@@ -71,6 +73,7 @@
       ],
       "color": "steel",
       "focus": true,
+      "font": "editorial",
       "label": "INVENTED ARCHITECTURE",
       "label_box": [
         0.674417,
@@ -83,6 +86,6 @@
   ],
   "reconstructed": false,
   "shot": "row",
-  "source": "\n**Location:** `curt-home-office`\n\n**Frame:** The rejected sentence from [page 073](073.md), the clean analysis from [page 079](079.md), and the invented log architecture from [page 081](081.md) align as three examples of gaps being overfilled.\n\n**Caption:**\n> A CLEAN PATTERN CAN ENTER AT EVERY LAYER.\n\n**Provenance:** `inferred` — synthesis across chapter examples.\n\n",
+  "source": "\n**Location:** `curt-home-office`\n\n**Frame:** The rejected sentence from [page 073](073.md), the clean analysis from [page 079](079.md), and the invented log architecture from [page 081](081.md) align as three examples of gaps being overfilled.\n\n**Font:** `narration`\n\n**Caption:**\n> A CLEAN PATTERN CAN ENTER AT EVERY LAYER.\n\n**Provenance:** `inferred` — synthesis across chapter examples.\n\n",
   "title": "Three examples reveal overfilled gaps"
 }

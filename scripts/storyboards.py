@@ -23,6 +23,7 @@ import panelart
 import panels
 import crossref
 import textimage
+import font_key
 import panel_layout
 import svg_components
 
@@ -91,11 +92,12 @@ def place_manual(scene, fields, width, height):
         x, y, w, h = specs[i]['box']
         x, y, w, h = x*width, y*height, w*width, h*height
         spec = specs[i]
-        flow = textimage.flow(text, w-32, h-52, min_size=12, max_size=spec.get('max_size', 24))
+        font = getattr(text, 'font', 'editorial')
+        flow = font_key.flow(text, w-32, h-52, key=font, min_size=12, max_size=spec.get('max_size', 24))
         role = spec.get('role', 'interface')
         placed.append(letterpress.Placed(role, f'manual-{i}',
                       '' if role == 'plain' else letterpress.speaker_of(field), x, y, w, h, flow.size,
-                      flow.leading, flow.lines, flow.truncated))
+                      flow.leading, flow.lines, flow.truncated, font))
     return placed, remaining
 
 
@@ -148,6 +150,8 @@ def validate(data):
         for node in scene['nodes']:
             if node.get('focus') and any(overlap(node['box'], z) for z in zones):
                 errors.append(f'{key}: focal subject overlaps lettering: {node["asset"]}')
+            if node.get('label') and node.get('font') not in font_key.load():
+                errors.append(f'{key}: missing or invalid illustration font')
             if 'label_box' in node:
                 if not box(node['label_box']):
                     errors.append(f'{key}: invalid label box')
@@ -189,13 +193,16 @@ def render(scene, data, *, layout=False, size=None, component_library=None):
             transform = 'translate(100 0) scale(-1 1)' if node.get('flip') else ''
             parts.append(f'<g transform="translate({x:g} {y:g}) scale({w/100:g} {h/100:g})" color="{color}"><g transform="{transform}">' + svg_components.scope_ids(used_assets[asset_key(node)], f'node-{node_index}-') + '</g></g>')
         if node.get('label'):
+            label_font = node['font']
+            label_family = font_key.family(label_font)
+            label_face = font_key.load()[label_font]
             if 'label_box' in node:
                 lx, ly, lw, lh = node['label_box']
                 flow = textimage.flow(node['label'], lw*W, lh*H, min_size=12, max_size=node.get('label_size', 20))
                 for i, line in enumerate(flow.lines):
-                    parts.append(f'<text x="{(lx+lw/2)*W:g}" y="{ly*H+flow.size+i*flow.leading:g}" text-anchor="middle" fill="{palette["paper"]}" font-size="{flow.size:g}" font-family="sans-serif">{html.escape(line)}</text>')
+                    parts.append(f'<text x="{(lx+lw/2)*W:g}" y="{ly*H+flow.size+i*flow.leading:g}" text-anchor="middle" fill="{palette["paper"]}" font-size="{flow.size:g}" font-family="{label_family}" data-font-key="{label_font}" font-weight="{label_face["weight"]}" font-style="{label_face["style"]}" textLength="{textimage.advance(line, flow.size):.2f}" lengthAdjust="spacingAndGlyphs">{html.escape(line)}</text>')
             else:
-                parts.append(f'<text x="{x+w/2:g}" y="{y+h+24:g}" text-anchor="middle" fill="{palette["paper"]}" font-size="20" font-family="monospace">{html.escape(node["label"])}</text>')
+                parts.append(f'<text x="{x+w/2:g}" y="{y+h+24:g}" text-anchor="middle" fill="{palette["paper"]}" font-size="20" font-family="{label_family}" data-font-key="{label_font}" font-weight="{label_face["weight"]}" font-style="{label_face["style"]}">{html.escape(node["label"])}</text>')
     border = ' stroke-dasharray="18 10"' if scene.get('reconstructed') else ''
     if scene.get('border', 'default') != 'none':
         parts.append(f'<rect x="3" y="3" width="{W-6}" height="{H-6}" fill="none" stroke="{palette["steel"]}" stroke-width="4"{border}/>')

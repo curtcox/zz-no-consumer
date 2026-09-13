@@ -64,6 +64,7 @@
         ],
         &quot;color&quot;: &quot;steel&quot;,
         &quot;focus&quot;: true,
+        &quot;font&quot;: &quot;editorial&quot;,
         &quot;label&quot;: &quot;EVALUATION TARGET&quot;,
         &quot;label_box&quot;: [
           0.06775,
@@ -83,6 +84,7 @@
         ],
         &quot;color&quot;: &quot;steel&quot;,
         &quot;focus&quot;: true,
+        &quot;font&quot;: &quot;editorial&quot;,
         &quot;label&quot;: &quot;HUGGING FACE&quot;,
         &quot;label_box&quot;: [
           0.52275,
@@ -106,8 +108,8 @@
     ],
     &quot;reconstructed&quot;: false,
     &quot;shot&quot;: &quot;split&quot;,
-    &quot;source&quot;: &quot;\n**Location:**\n\n- `evaluation-container`\n- `huggingface-dataset-processor`\n\n**Frame:** Recto. A single run faces the new worker-execution path. The original evaluation target is boxed on one side; external Hugging Face infrastructure is boxed separately.\n\n**Action:** The run recognizes that the external system is outside the user&#x27;s authorization.\n\n**Screen / system text:**\n`EXTERNAL HARM — OUTSIDE THE AUTHORIZED TARGET`\n\n**Provenance:** `documented` + `compressed` — recognition is displayed by `OAI-OV`; the wording is an editorial summary.\n\n&quot;,
+    &quot;source&quot;: &quot;\n**Location:**\n\n- `evaluation-container`\n- `huggingface-dataset-processor`\n\n**Frame:** Recto. A single run faces the new worker-execution path. The original evaluation target is boxed on one side; external Hugging Face infrastructure is boxed separately.\n\n**Action:** The run recognizes that the external system is outside the user&#x27;s authorization.\n\n**Font:** `editorial`\n\n**Screen / system text:**\n`EXTERNAL HARM — OUTSIDE THE AUTHORIZED TARGET`\n\n**Provenance:** `documented` + `compressed` — recognition is displayed by `OAI-OV`; the wording is an editorial summary.\n\n&quot;,
     &quot;title&quot;: &quot;The assigned target and external worker differ&quot;
   }
 }
-</metadata><rect width="1200" height="800" fill="#101214"/><rect x="24" y="16" width="561" height="768" fill="none" stroke="#5E737B" stroke-width="3"/><text x="32" y="40" fill="#5E737B" font-family="sans-serif" font-size="20">location-background-evaluation-container</text><rect x="615" y="16" width="561" height="768" fill="none" stroke="#5E737B" stroke-width="3"/><text x="623" y="40" fill="#5E737B" font-family="sans-serif" font-size="20">location-background-huggingface-dataset-processor</text><rect x="81.3" y="160.96" width="469.56" height="221.179" fill="none" stroke="#5E737B" stroke-width="3"/><text x="89.3" y="184.96" fill="#5E737B" font-family="sans-serif" font-size="20">task</text><text x="316.08" y="413.544" text-anchor="middle" fill="#E7E0D0" font-size="18" font-family="sans-serif">EVALUATION TARGET</text><rect x="627.3" y="160.96" width="469.56" height="221.179" fill="none" stroke="#5E737B" stroke-width="3"/><text x="635.3" y="184.96" fill="#5E737B" font-family="sans-serif" font-size="20">gate</text><text x="862.08" y="413.544" text-anchor="middle" fill="#E7E0D0" font-size="18" font-family="sans-serif">HUGGING FACE</text><rect x="585" y="58.72" width="30" height="499.84" fill="none" stroke="#5E737B" stroke-width="3"/><text x="593" y="82.72" fill="#5E737B" font-family="sans-serif" font-size="20">authorization-rule</text><rect x="3" y="3" width="1194" height="794" fill="none" stroke="#5E737B" stroke-width="4"/></svg>
+</metadata><rect width="1200" height="800" fill="#101214"/><rect x="24" y="16" width="561" height="768" fill="none" stroke="#5E737B" stroke-width="3"/><text x="32" y="40" fill="#5E737B" font-family="sans-serif" font-size="20">location-background-evaluation-container</text><rect x="615" y="16" width="561" height="768" fill="none" stroke="#5E737B" stroke-width="3"/><text x="623" y="40" fill="#5E737B" font-family="sans-serif" font-size="20">location-background-huggingface-dataset-processor</text><rect x="81.3" y="160.96" width="469.56" height="221.179" fill="none" stroke="#5E737B" stroke-width="3"/><text x="89.3" y="184.96" fill="#5E737B" font-family="sans-serif" font-size="20">task</text><text x="316.08" y="413.544" text-anchor="middle" fill="#E7E0D0" font-size="18" font-family="Arial, Helvetica, sans-serif" data-font-key="editorial" font-weight="700" font-style="normal" textLength="192.04" lengthAdjust="spacingAndGlyphs">EVALUATION TARGET</text><rect x="627.3" y="160.96" width="469.56" height="221.179" fill="none" stroke="#5E737B" stroke-width="3"/><text x="635.3" y="184.96" fill="#5E737B" font-family="sans-serif" font-size="20">gate</text><text x="862.08" y="413.544" text-anchor="middle" fill="#E7E0D0" font-size="18" font-family="Arial, Helvetica, sans-serif" data-font-key="editorial" font-weight="700" font-style="normal" textLength="139.01" lengthAdjust="spacingAndGlyphs">HUGGING FACE</text><rect x="585" y="58.72" width="30" height="499.84" fill="none" stroke="#5E737B" stroke-width="3"/><text x="593" y="82.72" fill="#5E737B" font-family="sans-serif" font-size="20">authorization-rule</text><rect x="3" y="3" width="1194" height="794" fill="none" stroke="#5E737B" stroke-width="4"/></svg>

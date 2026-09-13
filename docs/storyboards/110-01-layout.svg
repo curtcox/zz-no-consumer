@@ -52,6 +52,7 @@
         ],
         &quot;color&quot;: &quot;steel&quot;,
         &quot;focus&quot;: true,
+        &quot;font&quot;: &quot;editorial&quot;,
         &quot;label&quot;: &quot;AUGUST ACCOUNTS&quot;,
         &quot;label_box&quot;: [
           0.06775,
@@ -71,6 +72,7 @@
         ],
         &quot;color&quot;: &quot;steel&quot;,
         &quot;focus&quot;: true,
+        &quot;font&quot;: &quot;editorial&quot;,
         &quot;label&quot;: &quot;4 SEPTEMBER REPORT&quot;,
         &quot;label_box&quot;: [
           0.52275,
@@ -94,8 +96,8 @@
     ],
     &quot;reconstructed&quot;: false,
     &quot;shot&quot;: &quot;split&quot;,
-    &quot;source&quot;: &quot;\n**Location:** `curt-home-office`\n\n**Frame:** Curt lays the two 26 August reports and the Black Hat talk, the book&#x27;s whole public account, on one side of the desk. On the other side, the 4 September report. Between them, a blank lane on the page plan with the label he gave it on [page 109](109.md).\n\n**Dialogue — CURT:**\n&gt; It was public the whole time and I did not find it. The September report made the missing lane visible to me.\n&gt;\n&gt; Public is not the same as disclosed. I am not the one who was owed an account, and the question stands anyway.\n\n**Provenance:** `reconstructed` + `inferred` — creator exchange; the distinction between public traces and a public incident account is the project&#x27;s, drawn from `CW-REPORT`&#x27;s disclosure discussion.\n\n&quot;,
+    &quot;source&quot;: &quot;\n**Location:** `curt-home-office`\n\n**Frame:** Curt lays the two 26 August reports and the Black Hat talk, the book&#x27;s whole public account, on one side of the desk. On the other side, the 4 September report. Between them, a blank lane on the page plan with the label he gave it on [page 109](109.md).\n\n**Font:** `human`\n\n**Dialogue — CURT:**\n&gt; It was public the whole time and I did not find it. The September report made the missing lane visible to me.\n&gt;\n&gt; Public is not the same as disclosed. I am not the one who was owed an account, and the question stands anyway.\n\n**Provenance:** `reconstructed` + `inferred` — creator exchange; the distinction between public traces and a public incident account is the project&#x27;s, drawn from `CW-REPORT`&#x27;s disclosure discussion.\n\n&quot;,
     &quot;title&quot;: &quot;Earlier public sources face the later wiki report&quot;
   }
 }
-</metadata><rect width="1200" height="800" fill="#101214"/><rect x="24" y="16" width="1152" height="768" fill="none" stroke="#5E737B" stroke-width="3"/><text x="32" y="40" fill="#5E737B" font-family="sans-serif" font-size="20">location-background-curt-home-office</text><rect x="81.3" y="403.795" width="469.56" height="169.841" fill="none" stroke="#5E737B" stroke-width="3"/><text x="89.3" y="427.795" fill="#5E737B" font-family="sans-serif" font-size="20">paper</text><text x="316.08" y="601.93" text-anchor="middle" fill="#E7E0D0" font-size="18" font-family="sans-serif">AUGUST ACCOUNTS</text><rect x="627.3" y="403.795" width="469.56" height="169.841" fill="none" stroke="#5E737B" stroke-width="3"/><text x="635.3" y="427.795" fill="#5E737B" font-family="sans-serif" font-size="20">paper</text><text x="862.08" y="601.93" text-anchor="middle" fill="#E7E0D0" font-size="18" font-family="sans-serif">4 SEPTEMBER REPORT</text><rect x="585" y="325.286" width="30" height="383.821" fill="none" stroke="#5E737B" stroke-width="3"/><text x="593" y="349.286" fill="#5E737B" font-family="sans-serif" font-size="20">time-divider</text><rect x="3" y="3" width="1194" height="794" fill="none" stroke="#5E737B" stroke-width="4"/></svg>
+</metadata><rect width="1200" height="800" fill="#101214"/><rect x="24" y="16" width="1152" height="768" fill="none" stroke="#5E737B" stroke-width="3"/><text x="32" y="40" fill="#5E737B" font-family="sans-serif" font-size="20">location-background-curt-home-office</text><rect x="81.3" y="403.795" width="469.56" height="169.841" fill="none" stroke="#5E737B" stroke-width="3"/><text x="89.3" y="427.795" fill="#5E737B" font-family="sans-serif" font-size="20">paper</text><text x="316.08" y="601.93" text-anchor="middle" fill="#E7E0D0" font-size="18" font-family="Arial, Helvetica, sans-serif" data-font-key="editorial" font-weight="700" font-style="normal" textLength="181.01" lengthAdjust="spacingAndGlyphs">AUGUST ACCOUNTS</text><rect x="627.3" y="403.795" width="469.56" height="169.841" fill="none" stroke="#5E737B" stroke-width="3"/><text x="635.3" y="427.795" fill="#5E737B" font-family="sans-serif" font-size="20">paper</text><text x="862.08" y="601.93" text-anchor="middle" fill="#E7E0D0" font-size="18" font-family="Arial, Helvetica, sans-serif" data-font-key="editorial" font-weight="700" font-style="normal" textLength="206.05" lengthAdjust="spacingAndGlyphs">4 SEPTEMBER REPORT</text><rect x="585" y="325.286" width="30" height="383.821" fill="none" stroke="#5E737B" stroke-width="3"/><text x="593" y="349.286" fill="#5E737B" font-family="sans-serif" font-size="20">time-divider</text><rect x="3" y="3" width="1194" height="794" fill="none" stroke="#5E737B" stroke-width="4"/></svg>

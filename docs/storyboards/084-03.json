@@ -33,6 +33,7 @@
       ],
       "color": "steel",
       "focus": true,
+      "font": "editorial",
       "label": "PUBLIC REPORTS",
       "label_box": [
         0.06775,
@@ -63,6 +64,7 @@
       ],
       "color": "steel",
       "focus": true,
+      "font": "editorial",
       "label": "CHATGPT / CURT",
       "label_box": [
         0.29525,
@@ -93,6 +95,7 @@
       ],
       "color": "steel",
       "focus": true,
+      "font": "editorial",
       "label": "PAGE SELECTION",
       "label_box": [
         0.52275,
@@ -123,6 +126,7 @@
       ],
       "color": "steel",
       "focus": true,
+      "font": "editorial",
       "label": "COMIC",
       "label_box": [
         0.75025,
@@ -135,6 +139,6 @@
   ],
   "reconstructed": false,
   "shot": "route",
-  "source": "\n**Location:** `curt-home-office`\n\n**Frame:** Curt notices a smaller pipeline on his desk: `PUBLIC REPORTS → CHATGPT / CURT → PAGE SELECTION → COMIC`.\n\n**Action:** The creator process becomes visible beside the investigation process.\n\n**Dialogue — CURT:**\n> So I'm using AI to interpret an investigation that used AI to interpret AI.\n\n**Provenance:** `reconstructed` + `inferred` — recursive observation.\n\n",
+  "source": "\n**Location:** `curt-home-office`\n\n**Frame:** Curt notices a smaller pipeline on his desk: `PUBLIC REPORTS → CHATGPT / CURT → PAGE SELECTION → COMIC`.\n\n**Action:** The creator process becomes visible beside the investigation process.\n\n**Font:** `human`\n\n**Dialogue — CURT:**\n> So I'm using AI to interpret an investigation that used AI to interpret AI.\n\n**Provenance:** `reconstructed` + `inferred` — recursive observation.\n\n",
   "title": "A smaller mediation pipeline sits on the desk"
 }

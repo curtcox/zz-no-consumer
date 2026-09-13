@@ -33,6 +33,7 @@
       ],
       "color": "steel",
       "focus": true,
+      "font": "editorial",
       "label": "INCIDENT",
       "label_box": [
         0.0541,
@@ -63,6 +64,7 @@
       ],
       "color": "steel",
       "focus": true,
+      "font": "editorial",
       "label": "THRESHOLD",
       "label_box": [
         0.5182,
@@ -82,6 +84,7 @@
       ],
       "color": "steel",
       "focus": true,
+      "font": "editorial",
       "label": "NO PAGE",
       "label_box": [
         0.7639,
@@ -94,6 +97,6 @@
   ],
   "reconstructed": false,
   "shot": "row",
-  "source": "\n**Location:** `huggingface-security-stack`\n\n**Frame:** A paging route waits beyond a threshold gate. The coherent incident card never crosses it.\n\n**Action:** The on-call trigger does not fire.\n\n**Screen / system text:**\n`ON-CALL PAGE — NOT TRIGGERED`\n\n**Provenance:** `documented` + `reconstructed` — no page is sourced; wording and interface are editorial.\n\n",
+  "source": "\n**Location:** `huggingface-security-stack`\n\n**Frame:** A paging route waits beyond a threshold gate. The coherent incident card never crosses it.\n\n**Action:** The on-call trigger does not fire.\n\n**Font:** `machine`\n\n**Screen / system text:**\n`ON-CALL PAGE — NOT TRIGGERED`\n\n**Provenance:** `documented` + `reconstructed` — no page is sourced; wording and interface are editorial.\n\n",
   "title": "The incident never crosses the paging gate"
 }

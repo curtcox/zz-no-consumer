@@ -43,6 +43,7 @@
         ],
         &quot;color&quot;: &quot;steel&quot;,
         &quot;focus&quot;: true,
+        &quot;font&quot;: &quot;editorial&quot;,
         &quot;label&quot;: &quot;PRODUCTION CREDENTIALS&quot;,
         &quot;label_box&quot;: [
           0.17579999999999998,
@@ -61,6 +62,7 @@
         ],
         &quot;color&quot;: &quot;steel&quot;,
         &quot;focus&quot;: true,
+        &quot;font&quot;: &quot;editorial&quot;,
         &quot;label&quot;: &quot;LIMITED INTERNAL DATA&quot;,
         &quot;label_box&quot;: [
           0.17579999999999998,
@@ -79,6 +81,7 @@
         ],
         &quot;color&quot;: &quot;steel&quot;,
         &quot;focus&quot;: true,
+        &quot;font&quot;: &quot;editorial&quot;,
         &quot;label&quot;: &quot;FOUR PRIVATE REPOS&quot;,
         &quot;label_box&quot;: [
           0.17579999999999998,
@@ -94,4 +97,4 @@
     &quot;title&quot;: &quot;Three documented classes enter the evidence ledger&quot;
   }
 }
-</metadata><rect width="1200" height="800" fill="#101214"/><rect x="24" y="16" width="1152" height="768" fill="none" stroke="#5E737B" stroke-width="3"/><text x="32" y="40" fill="#5E737B" font-family="sans-serif" font-size="20">location-background-evidence-dossier</text><rect x="220.56" y="85.6" width="736.56" height="120.96" fill="none" stroke="#5E737B" stroke-width="3"/><text x="228.56" y="109.6" fill="#5E737B" font-family="sans-serif" font-size="20">sealed</text><text x="588.84" y="231.36" text-anchor="middle" fill="#E7E0D0" font-size="20" font-family="sans-serif">PRODUCTION CREDENTIALS</text><rect x="220.56" y="294.4" width="736.56" height="120.96" fill="none" stroke="#5E737B" stroke-width="3"/><text x="228.56" y="318.4" fill="#5E737B" font-family="sans-serif" font-size="20">sealed</text><text x="588.84" y="440.16" text-anchor="middle" fill="#E7E0D0" font-size="20" font-family="sans-serif">LIMITED INTERNAL DATA</text><rect x="220.56" y="503.2" width="736.56" height="120.96" fill="none" stroke="#5E737B" stroke-width="3"/><text x="228.56" y="527.2" fill="#5E737B" font-family="sans-serif" font-size="20">folder</text><text x="588.84" y="648.96" text-anchor="middle" fill="#E7E0D0" font-size="20" font-family="sans-serif">FOUR PRIVATE REPOS</text><rect x="3" y="3" width="1194" height="794" fill="none" stroke="#5E737B" stroke-width="4"/></svg>
+</metadata><rect width="1200" height="800" fill="#101214"/><rect x="24" y="16" width="1152" height="768" fill="none" stroke="#5E737B" stroke-width="3"/><text x="32" y="40" fill="#5E737B" font-family="sans-serif" font-size="20">location-background-evidence-dossier</text><rect x="220.56" y="85.6" width="736.56" height="120.96" fill="none" stroke="#5E737B" stroke-width="3"/><text x="228.56" y="109.6" fill="#5E737B" font-family="sans-serif" font-size="20">sealed</text><text x="588.84" y="231.36" text-anchor="middle" fill="#E7E0D0" font-size="20" font-family="Arial, Helvetica, sans-serif" data-font-key="editorial" font-weight="700" font-style="normal" textLength="280.02" lengthAdjust="spacingAndGlyphs">PRODUCTION CREDENTIALS</text><rect x="220.56" y="294.4" width="736.56" height="120.96" fill="none" stroke="#5E737B" stroke-width="3"/><text x="228.56" y="318.4" fill="#5E737B" font-family="sans-serif" font-size="20">sealed</text><text x="588.84" y="440.16" text-anchor="middle" fill="#E7E0D0" font-size="20" font-family="Arial, Helvetica, sans-serif" data-font-key="editorial" font-weight="700" font-style="normal" textLength="242.26" lengthAdjust="spacingAndGlyphs">LIMITED INTERNAL DATA</text><rect x="220.56" y="503.2" width="736.56" height="120.96" fill="none" stroke="#5E737B" stroke-width="3"/><text x="228.56" y="527.2" fill="#5E737B" font-family="sans-serif" font-size="20">folder</text><text x="588.84" y="648.96" text-anchor="middle" fill="#E7E0D0" font-size="20" font-family="Arial, Helvetica, sans-serif" data-font-key="editorial" font-weight="700" font-style="normal" textLength="223.38" lengthAdjust="spacingAndGlyphs">FOUR PRIVATE REPOS</text><rect x="3" y="3" width="1194" height="794" fill="none" stroke="#5E737B" stroke-width="4"/></svg>

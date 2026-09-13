@@ -33,6 +33,7 @@
       ],
       "color": "steel",
       "focus": true,
+      "font": "editorial",
       "label": "SIX DAYS",
       "label_box": [
         0.06775,
@@ -52,6 +53,7 @@
       ],
       "color": "steel",
       "focus": true,
+      "font": "editorial",
       "label": "TRANSCRIPTS",
       "label_box": [
         0.371083,
@@ -71,6 +73,7 @@
       ],
       "color": "steel",
       "focus": true,
+      "font": "editorial",
       "label": "NAVIGATION TOOLING",
       "label_box": [
         0.674417,
@@ -83,6 +86,6 @@
   ],
   "reconstructed": false,
   "shot": "row",
-  "source": "\n**Location:** `metr-review-workspace`\n\n**Frame:** The left column, in the register [page 075](075.md) used. The six-day clock. The\ntranscripts that run past the panel edge. Beneath them, something [page 077](077.md) never drew: the\nnavigation tooling itself, built by a model so that the corpus could be pointed at.\n\n**Screen / system text — INVESTIGATOR, 4 SEPTEMBER 2026 (PARAPHRASED):**\n`WE USED A MODEL TO BUILD TOOLS THAT WOULD POINT US AT THE SMALL PARTS WORTH READING.`\n\n`THE TOOL COULD NOT READ A WHOLE TRANSCRIPT EITHER. IT DIVIDED THEM AMONG OTHER AGENTS.`\n\n**Action:** The instrument that made the record navigable was itself made by the instrument.\n\n**Provenance:** `documented` — `HF-POD`, attributed paraphrase of Ajeya Cotra describing her\nown investigation. Chapter 5 has shown models reading the corpus since [page 076](076.md); this is the\nlayer beneath that, and the book had not drawn it.\n\n",
+  "source": "\n**Location:** `metr-review-workspace`\n\n**Frame:** The left column, in the register [page 075](075.md) used. The six-day clock. The\ntranscripts that run past the panel edge. Beneath them, something [page 077](077.md) never drew: the\nnavigation tooling itself, built by a model so that the corpus could be pointed at.\n\n**Font:** `editorial`\n\n**Screen / system text — INVESTIGATOR, 4 SEPTEMBER 2026 (PARAPHRASED):**\n`WE USED A MODEL TO BUILD TOOLS THAT WOULD POINT US AT THE SMALL PARTS WORTH READING.`\n\n`THE TOOL COULD NOT READ A WHOLE TRANSCRIPT EITHER. IT DIVIDED THEM AMONG OTHER AGENTS.`\n\n**Action:** The instrument that made the record navigable was itself made by the instrument.\n\n**Provenance:** `documented` — `HF-POD`, attributed paraphrase of Ajeya Cotra describing her\nown investigation. Chapter 5 has shown models reading the corpus since [page 076](076.md); this is the\nlayer beneath that, and the book had not drawn it.\n\n",
   "title": "Model-built navigation serves a time-bounded review"
 }

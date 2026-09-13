@@ -33,6 +33,7 @@
       ],
       "color": "steel",
       "focus": true,
+      "font": "editorial",
       "label": "CHUNKS",
       "label_box": [
         0.0541,
@@ -63,6 +64,7 @@
       ],
       "color": "steel",
       "focus": true,
+      "font": "editorial",
       "label": "ASSEMBLED FILES",
       "label_box": [
         0.4454,
@@ -82,6 +84,7 @@
       ],
       "color": "steel",
       "focus": true,
+      "font": "editorial",
       "label": "APPROXIMATE TIMES",
       "label_box": [
         0.7275,
@@ -101,6 +104,7 @@
       ],
       "color": "steel",
       "focus": true,
+      "font": "editorial",
       "label": "UNMATCHED MATERIAL",
       "label_box": [
         0.1906,
@@ -113,6 +117,6 @@
   ],
   "reconstructed": false,
   "shot": "row",
-  "source": "\n**Location:** `metr-review-workspace`\n\n**Frame:** Preprocessing joins chunks into files, traces messages to writers and readers, and reconstructs approximate action times. Unmatched material remains visibly unmatched.\n\n**Caption:**\n> FIRST, THE RECORD MUST BE MADE QUERYABLE.\n\n**Provenance:** `documented` + `compressed` — METR's reconstruction methods.\n\n",
+  "source": "\n**Location:** `metr-review-workspace`\n\n**Frame:** Preprocessing joins chunks into files, traces messages to writers and readers, and reconstructs approximate action times. Unmatched material remains visibly unmatched.\n\n**Font:** `narration`\n\n**Caption:**\n> FIRST, THE RECORD MUST BE MADE SEARCHABLE, SO A QUESTION CAN LEAD TO PARTICULAR ENTRIES A PERSON CAN CHECK.\n\n**Provenance:** `documented` + `compressed` — METR's reconstruction methods.\n\n",
   "title": "Preprocessing reconstructs records and leaves unmatched pieces"
 }

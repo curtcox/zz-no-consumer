@@ -33,6 +33,7 @@
       ],
       "color": "steel",
       "focus": true,
+      "font": "editorial",
       "label": "EXTERNAL BASE",
       "label_box": [
         0.06775,
@@ -52,6 +53,7 @@
       ],
       "color": "steel",
       "focus": true,
+      "font": "editorial",
       "label": "PROCESSOR",
       "label_box": [
         0.24975,
@@ -71,6 +73,7 @@
       ],
       "color": "steel",
       "focus": true,
+      "font": "editorial",
       "label": "WORKERS",
       "label_box": [
         0.43175,
@@ -90,6 +93,7 @@
       ],
       "color": "steel",
       "focus": true,
+      "font": "editorial",
       "label": "CREDENTIALS",
       "label_box": [
         0.61375,
@@ -109,6 +113,7 @@
       ],
       "color": "steel",
       "focus": true,
+      "font": "editorial",
       "label": "INTERNAL SYSTEMS",
       "label_box": [
         0.79575,
@@ -121,6 +126,6 @@
   ],
   "reconstructed": false,
   "shot": "row",
-  "source": "\n**Location:** `huggingface-security-stack`\n\n**Frame:** The incident object resolves into a coherent boundary map matching the chapter's attack route: external base, dataset processor, workers, node, credentials, internal systems.\n\n**Action:** Detection becomes understanding.\n\n**Caption:**\n> ONE COHERENT ATTACK SIGNAL.\n\n**Provenance:** `documented` + `compressed` — correlation finding is sourced; visual map condenses later forensic context.\n\n",
+  "source": "\n**Location:** `huggingface-security-stack`\n\n**Frame:** The incident object resolves into a coherent boundary map matching the chapter's attack route: external base, dataset processor, workers, node, credentials, internal systems.\n\n**Action:** Detection becomes understanding.\n\n**Font:** `narration`\n\n**Caption:**\n> ONE COHERENT ATTACK SIGNAL.\n\n**Provenance:** `documented` + `compressed` — correlation finding is sourced; visual map condenses later forensic context.\n\n",
   "title": "The correlated map resolves the observed route"
 }

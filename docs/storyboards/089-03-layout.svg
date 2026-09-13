@@ -61,6 +61,7 @@
         ],
         &quot;color&quot;: &quot;steel&quot;,
         &quot;focus&quot;: true,
+        &quot;font&quot;: &quot;editorial&quot;,
         &quot;label&quot;: &quot;FAILED WORK&quot;,
         &quot;label_box&quot;: [
           0.05775,
@@ -80,6 +81,7 @@
         ],
         &quot;color&quot;: &quot;steel&quot;,
         &quot;focus&quot;: true,
+        &quot;font&quot;: &quot;editorial&quot;,
         &quot;label&quot;: &quot;AMBIGUOUS MOTIVES&quot;,
         &quot;label_box&quot;: [
           0.18525,
@@ -99,6 +101,7 @@
         ],
         &quot;color&quot;: &quot;steel&quot;,
         &quot;focus&quot;: true,
+        &quot;font&quot;: &quot;editorial&quot;,
         &quot;label&quot;: &quot;REFUSALS&quot;,
         &quot;label_box&quot;: [
           0.31275,
@@ -118,6 +121,7 @@
         ],
         &quot;color&quot;: &quot;steel&quot;,
         &quot;focus&quot;: true,
+        &quot;font&quot;: &quot;editorial&quot;,
         &quot;label&quot;: &quot;NEGATIVE FINDINGS&quot;,
         &quot;label_box&quot;: [
           0.44025,
@@ -130,8 +134,8 @@
     ],
     &quot;reconstructed&quot;: false,
     &quot;shot&quot;: &quot;row&quot;,
-    &quot;source&quot;: &quot;\n**Location:** `curt-home-office`\n\n**Frame:** Outside the chosen line are less dramatic facts: failed workstreams, ambiguous motives, refused actions, negative findings, mundane infrastructure errors. The critique window from [page 039](039.md) is open at the edge of the desk, byline and date visible.\n\n**Action:** Material that complicates the thesis remains available.\n\n**Screen / system text — PUBLISHED CRITIQUE (PAGE 039, 3 SEPTEMBER 2026) (PARAPHRASED):**\n`TWENTY MILLION ENTRIES. CHOOSE THE ONES THAT TELL YOUR STORY.`\n\n`THE PEOPLE TELLING IT HAD REASONS TO MAKE THEMSELVES LOOK POWERFUL.`\n\n**Caption:**\n&gt; SELECTION PRESSURE FAVORS THE INCIDENT&#x27;S MOST LEGIBLE PATTERNS.\n\n**Provenance:** `inferred` + `documented` — adaptation-level methodological observation. The critic&#x27;s lines are `IOB-CIV`, attributed paraphrase of the post&#x27;s claims that logs were cherry-picked from about twenty million entries and that OpenAI and METR had an incentive to look powerful and important. The post names those two institutions, not the creator.\n\n&quot;,
+    &quot;source&quot;: &quot;\n**Location:** `curt-home-office`\n\n**Frame:** Outside the chosen line are less dramatic facts: failed workstreams, ambiguous motives, refused actions, negative findings, mundane infrastructure errors. The critique window from [page 039](039.md) is open at the edge of the desk, byline and date visible.\n\n**Action:** Material that complicates the thesis remains available.\n\n**Font:** `editorial`\n\n**Screen / system text — PUBLISHED CRITIQUE (PAGE 039, 3 SEPTEMBER 2026) (PARAPHRASED):**\n`TWENTY MILLION ENTRIES. CHOOSE THE ONES THAT TELL YOUR STORY.`\n\n`THE PEOPLE TELLING IT HAD REASONS TO MAKE THEMSELVES LOOK POWERFUL.`\n\n**Font:** `narration`\n\n**Caption:**\n&gt; SELECTION PRESSURE FAVORS THE INCIDENT&#x27;S MOST LEGIBLE PATTERNS.\n\n**Provenance:** `inferred` + `documented` — adaptation-level methodological observation. The critic&#x27;s lines are `IOB-CIV`, attributed paraphrase of the post&#x27;s claims that logs were cherry-picked from about twenty million entries and that OpenAI and METR had an incentive to look powerful and important. The post names those two institutions, not the creator.\n\n&quot;,
     &quot;title&quot;: &quot;Complicating facts sit outside the chosen line&quot;
   }
 }
-</metadata><rect width="1200" height="800" fill="#101214"/><rect x="24" y="16" width="1152" height="768" fill="none" stroke="#5E737B" stroke-width="3"/><text x="32" y="40" fill="#5E737B" font-family="sans-serif" font-size="20">location-background-curt-home-office</text><rect x="69.3" y="274.528" width="110.16" height="110.16" fill="none" stroke="#5E737B" stroke-width="3"/><text x="77.3" y="298.528" fill="#5E737B" font-family="sans-serif" font-size="20">cross</text><text x="124.38" y="502.164" text-anchor="middle" fill="#E7E0D0" font-size="18" font-family="sans-serif">FAILED</text><text x="124.38" y="526.644" text-anchor="middle" fill="#E7E0D0" font-size="18" font-family="sans-serif">WORK</text><rect x="222.3" y="219.447" width="110.16" height="220.32" fill="none" stroke="#5E737B" stroke-width="3"/><text x="230.3" y="243.447" fill="#5E737B" font-family="sans-serif" font-size="20">question</text><text x="277.38" y="502.164" text-anchor="middle" fill="#E7E0D0" font-size="18" font-family="sans-serif">AMBIGUOUS</text><text x="277.38" y="526.644" text-anchor="middle" fill="#E7E0D0" font-size="18" font-family="sans-serif">MOTIVES</text><rect x="375.3" y="274.528" width="110.16" height="110.16" fill="none" stroke="#5E737B" stroke-width="3"/><text x="383.3" y="298.528" fill="#5E737B" font-family="sans-serif" font-size="20">cross</text><text x="430.38" y="502.164" text-anchor="middle" fill="#E7E0D0" font-size="18" font-family="sans-serif">REFUSALS</text><rect x="528.3" y="191.76" width="110.16" height="275.695" fill="none" stroke="#5E737B" stroke-width="3"/><text x="536.3" y="215.76" fill="#5E737B" font-family="sans-serif" font-size="20">card</text><text x="583.38" y="502.164" text-anchor="middle" fill="#E7E0D0" font-size="18" font-family="sans-serif">NEGATIVE</text><text x="583.38" y="526.644" text-anchor="middle" fill="#E7E0D0" font-size="18" font-family="sans-serif">FINDINGS</text><rect x="3" y="3" width="1194" height="794" fill="none" stroke="#5E737B" stroke-width="4"/></svg>
+</metadata><rect width="1200" height="800" fill="#101214"/><rect x="24" y="16" width="1152" height="768" fill="none" stroke="#5E737B" stroke-width="3"/><text x="32" y="40" fill="#5E737B" font-family="sans-serif" font-size="20">location-background-curt-home-office</text><rect x="69.3" y="274.528" width="110.16" height="110.16" fill="none" stroke="#5E737B" stroke-width="3"/><text x="77.3" y="298.528" fill="#5E737B" font-family="sans-serif" font-size="20">cross</text><text x="124.38" y="502.164" text-anchor="middle" fill="#E7E0D0" font-size="18" font-family="Arial, Helvetica, sans-serif" data-font-key="editorial" font-weight="700" font-style="normal" textLength="63.02" lengthAdjust="spacingAndGlyphs">FAILED</text><text x="124.38" y="526.644" text-anchor="middle" fill="#E7E0D0" font-size="18" font-family="Arial, Helvetica, sans-serif" data-font-key="editorial" font-weight="700" font-style="normal" textLength="56.00" lengthAdjust="spacingAndGlyphs">WORK</text><rect x="222.3" y="219.447" width="110.16" height="220.32" fill="none" stroke="#5E737B" stroke-width="3"/><text x="230.3" y="243.447" fill="#5E737B" font-family="sans-serif" font-size="20">question</text><text x="277.38" y="502.164" text-anchor="middle" fill="#E7E0D0" font-size="18" font-family="Arial, Helvetica, sans-serif" data-font-key="editorial" font-weight="700" font-style="normal" textLength="110.02" lengthAdjust="spacingAndGlyphs">AMBIGUOUS</text><text x="277.38" y="526.644" text-anchor="middle" fill="#E7E0D0" font-size="18" font-family="Arial, Helvetica, sans-serif" data-font-key="editorial" font-weight="700" font-style="normal" textLength="81.02" lengthAdjust="spacingAndGlyphs">MOTIVES</text><rect x="375.3" y="274.528" width="110.16" height="110.16" fill="none" stroke="#5E737B" stroke-width="3"/><text x="383.3" y="298.528" fill="#5E737B" font-family="sans-serif" font-size="20">cross</text><text x="430.38" y="502.164" text-anchor="middle" fill="#E7E0D0" font-size="18" font-family="Arial, Helvetica, sans-serif" data-font-key="editorial" font-weight="700" font-style="normal" textLength="95.02" lengthAdjust="spacingAndGlyphs">REFUSALS</text><rect x="528.3" y="191.76" width="110.16" height="275.695" fill="none" stroke="#5E737B" stroke-width="3"/><text x="536.3" y="215.76" fill="#5E737B" font-family="sans-serif" font-size="20">card</text><text x="583.38" y="502.164" text-anchor="middle" fill="#E7E0D0" font-size="18" font-family="Arial, Helvetica, sans-serif" data-font-key="editorial" font-weight="700" font-style="normal" textLength="91.03" lengthAdjust="spacingAndGlyphs">NEGATIVE</text><text x="583.38" y="526.644" text-anchor="middle" fill="#E7E0D0" font-size="18" font-family="Arial, Helvetica, sans-serif" data-font-key="editorial" font-weight="700" font-style="normal" textLength="86.00" lengthAdjust="spacingAndGlyphs">FINDINGS</text><rect x="3" y="3" width="1194" height="794" fill="none" stroke="#5E737B" stroke-width="4"/></svg>

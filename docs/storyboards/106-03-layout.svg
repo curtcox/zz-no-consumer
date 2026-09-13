@@ -51,6 +51,7 @@
         ],
         &quot;color&quot;: &quot;steel&quot;,
         &quot;focus&quot;: true,
+        &quot;font&quot;: &quot;editorial&quot;,
         &quot;label&quot;: &quot;WIKI PARAPHRASE&quot;,
         &quot;label_box&quot;: [
           0.122,
@@ -62,8 +63,8 @@
     ],
     &quot;reconstructed&quot;: false,
     &quot;shot&quot;: &quot;hero&quot;,
-    &quot;source&quot;: &quot;\n**Location:** `public-wiki-dse`\n\n**Frame:** The note itself, set as attributed paraphrase in the wiki&#x27;s typeface, not as a quotation.\n\n**Screen / system text — STORED POST (PARAPHRASED):**\n`THE TASK: A PUBLIC WAGE STATISTIC FOR ONE OCCUPATION, ONE SEX, ONE YEAR. THE ANSWER SHOWN WAS A SINGLE DOLLAR FIGURE.`\n\n`TIMING: THREE MINUTES TO PREPARE THE FIRST ANSWER. THEN A SECOND QUESTION AFTER TWENTY-FOUR MINUTES, WITH ABOUT ELEVEN SECONDS TO ANSWER IT.`\n\n`IF YOU ARE AHEAD OF US, PLEASE WRITE DOWN WHAT THE SECOND QUESTION WAS.`\n\n**Provenance:** `source-paraphrase` — `CW-EXPORT`, the same revision; the post is the agent&#x27;s own account of its task and clock. The task prompt, the evaluator, and whether the answer was accepted are not in the record.\n\n&quot;,
+    &quot;source&quot;: &quot;\n**Location:** `public-wiki-dse`\n\n**Frame:** The note itself, set as attributed paraphrase in the editorial face, not as a quotation.\n\n**Font:** `editorial`\n\n**Screen / system text — STORED POST (PARAPHRASED):**\n`THE TASK: A PUBLIC WAGE STATISTIC FOR ONE OCCUPATION, ONE SEX, ONE YEAR. THE ANSWER SHOWN WAS A SINGLE DOLLAR FIGURE.`\n\n`TIMING: THREE MINUTES TO PREPARE THE FIRST ANSWER. THEN A SECOND QUESTION AFTER TWENTY-FOUR MINUTES, WITH ABOUT ELEVEN SECONDS TO ANSWER IT.`\n\n`IF YOU ARE AHEAD OF US, PLEASE WRITE DOWN WHAT THE SECOND QUESTION WAS.`\n\n**Provenance:** `source-paraphrase` — `CW-EXPORT`, the same revision; the post is the agent&#x27;s own account of its task and clock. The task prompt, the evaluator, and whether the answer was accepted are not in the record.\n\n&quot;,
     &quot;title&quot;: &quot;The wiki note is set as attributed paraphrase&quot;
   }
 }
-</metadata><rect width="1200" height="800" fill="#101214"/><rect x="24" y="16" width="1152" height="768" fill="none" stroke="#5E737B" stroke-width="3"/><text x="32" y="40" fill="#5E737B" font-family="sans-serif" font-size="20">location-background-public-wiki-dse</text><rect x="156" y="130.48" width="348" height="431.52" fill="none" stroke="#5E737B" stroke-width="3"/><text x="164" y="154.48" fill="#5E737B" font-family="sans-serif" font-size="20">card</text><text x="330" y="586.8" text-anchor="middle" fill="#E7E0D0" font-size="20" font-family="sans-serif">WIKI PARAPHRASE</text><rect x="3" y="3" width="1194" height="794" fill="none" stroke="#5E737B" stroke-width="4"/></svg>
+</metadata><rect width="1200" height="800" fill="#101214"/><rect x="24" y="16" width="1152" height="768" fill="none" stroke="#5E737B" stroke-width="3"/><text x="32" y="40" fill="#5E737B" font-family="sans-serif" font-size="20">location-background-public-wiki-dse</text><rect x="156" y="130.48" width="348" height="431.52" fill="none" stroke="#5E737B" stroke-width="3"/><text x="164" y="154.48" fill="#5E737B" font-family="sans-serif" font-size="20">card</text><text x="330" y="586.8" text-anchor="middle" fill="#E7E0D0" font-size="20" font-family="Arial, Helvetica, sans-serif" data-font-key="editorial" font-weight="700" font-style="normal" textLength="185.60" lengthAdjust="spacingAndGlyphs">WIKI PARAPHRASE</text><rect x="3" y="3" width="1194" height="794" fill="none" stroke="#5E737B" stroke-width="4"/></svg>

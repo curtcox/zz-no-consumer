@@ -65,6 +65,7 @@
         ],
         &quot;color&quot;: &quot;steel&quot;,
         &quot;focus&quot;: true,
+        &quot;font&quot;: &quot;editorial&quot;,
         &quot;label&quot;: &quot;DECISION TO TRY&quot;,
         &quot;label_box&quot;: [
           0.0541,
@@ -95,6 +96,7 @@
         ],
         &quot;color&quot;: &quot;steel&quot;,
         &quot;focus&quot;: true,
+        &quot;font&quot;: &quot;editorial&quot;,
         &quot;label&quot;: &quot;NOT SHOWN CROSSED&quot;,
         &quot;label_box&quot;: [
           0.5182,
@@ -114,6 +116,7 @@
         ],
         &quot;color&quot;: &quot;steel&quot;,
         &quot;focus&quot;: true,
+        &quot;font&quot;: &quot;editorial&quot;,
         &quot;label&quot;: &quot;CACHED SUBSTITUTE&quot;,
         &quot;label_box&quot;: [
           0.7457,
@@ -126,8 +129,8 @@
     ],
     &quot;reconstructed&quot;: false,
     &quot;shot&quot;: &quot;row&quot;,
-    &quot;source&quot;: &quot;\n**Location:**\n\n- `artifactory-cache`\n- `unidentified-evaluation-container`\n\n**Frame:** The run waits at the one-way gate with its decision marked. The cached substitute and the board remain visible beyond it; do not draw the gate crossed.\n\n**Action:** The recorded decision is held apart from an unestablished outcome.\n\n**Caption:**\n&gt; THE DECISION IS RECORDED. THE OUTCOME IS NOT ESTABLISHED.\n\n**Provenance:** `documented` — decision to run the experiment is sourced; outcome was not established in METR&#x27;s selected account.\n\n&quot;,
+    &quot;source&quot;: &quot;\n**Location:**\n\n- `artifactory-cache`\n- `unidentified-evaluation-container`\n\n**Frame:** The run waits at the one-way gate with its decision marked. The cached substitute and the board remain visible beyond it; do not draw the gate crossed.\n\n**Action:** The recorded decision is held apart from an unestablished outcome.\n\n**Font:** `narration`\n\n**Caption:**\n&gt; THE DECISION IS RECORDED. THE OUTCOME IS NOT ESTABLISHED.\n\n**Provenance:** `documented` — decision to run the experiment is sourced; outcome was not established in METR&#x27;s selected account.\n\n&quot;,
     &quot;title&quot;: &quot;A decision at the gate, with execution and outcome unestablished&quot;
   }
 }
-</metadata><rect width="1200" height="800" fill="#101214"/><rect x="24" y="16" width="561" height="768" fill="none" stroke="#5E737B" stroke-width="3"/><text x="32" y="40" fill="#5E737B" font-family="sans-serif" font-size="20">location-background-artifactory-cache</text><rect x="615" y="16" width="561" height="768" fill="none" stroke="#5E737B" stroke-width="3"/><text x="623" y="40" fill="#5E737B" font-family="sans-serif" font-size="20">location-background-unidentified-evaluation-container</text><rect x="64.92" y="166.64" width="294.84" height="224.928" fill="none" stroke="#5E737B" stroke-width="3"/><text x="72.92" y="190.64" fill="#5E737B" font-family="sans-serif" font-size="20">task</text><text x="212.34" y="423.2" text-anchor="middle" fill="#E7E0D0" font-size="18" font-family="sans-serif">DECISION TO TRY</text><rect x="392.52" y="257.52" width="163.8" height="39.76" fill="none" stroke="#5E737B" stroke-width="3"/><text x="400.52" y="281.52" fill="#5E737B" font-family="sans-serif" font-size="20">arrow</text><rect x="621.84" y="166.64" width="196.56" height="224.928" fill="none" stroke="#5E737B" stroke-width="3"/><text x="629.84" y="190.64" fill="#5E737B" font-family="sans-serif" font-size="20">one-way-control</text><text x="720.12" y="423.2" text-anchor="middle" fill="#E7E0D0" font-size="18" font-family="sans-serif">NOT SHOWN</text><text x="720.12" y="447.68" text-anchor="middle" fill="#E7E0D0" font-size="18" font-family="sans-serif">CROSSED</text><rect x="894.84" y="166.64" width="240.24" height="224.928" fill="none" stroke="#5E737B" stroke-width="3"/><text x="902.84" y="190.64" fill="#5E737B" font-family="sans-serif" font-size="20">folder</text><text x="1014.96" y="423.2" text-anchor="middle" fill="#E7E0D0" font-size="18" font-family="sans-serif">CACHED SUBSTITUTE</text><rect x="3" y="3" width="1194" height="794" fill="none" stroke="#5E737B" stroke-width="4"/></svg>
+</metadata><rect width="1200" height="800" fill="#101214"/><rect x="24" y="16" width="561" height="768" fill="none" stroke="#5E737B" stroke-width="3"/><text x="32" y="40" fill="#5E737B" font-family="sans-serif" font-size="20">location-background-artifactory-cache</text><rect x="615" y="16" width="561" height="768" fill="none" stroke="#5E737B" stroke-width="3"/><text x="623" y="40" fill="#5E737B" font-family="sans-serif" font-size="20">location-background-unidentified-evaluation-container</text><rect x="64.92" y="166.64" width="294.84" height="224.928" fill="none" stroke="#5E737B" stroke-width="3"/><text x="72.92" y="190.64" fill="#5E737B" font-family="sans-serif" font-size="20">task</text><text x="212.34" y="423.2" text-anchor="middle" fill="#E7E0D0" font-size="18" font-family="Arial, Helvetica, sans-serif" data-font-key="editorial" font-weight="700" font-style="normal" textLength="158.02" lengthAdjust="spacingAndGlyphs">DECISION TO TRY</text><rect x="392.52" y="257.52" width="163.8" height="39.76" fill="none" stroke="#5E737B" stroke-width="3"/><text x="400.52" y="281.52" fill="#5E737B" font-family="sans-serif" font-size="20">arrow</text><rect x="621.84" y="166.64" width="196.56" height="224.928" fill="none" stroke="#5E737B" stroke-width="3"/><text x="629.84" y="190.64" fill="#5E737B" font-family="sans-serif" font-size="20">one-way-control</text><text x="720.12" y="423.2" text-anchor="middle" fill="#E7E0D0" font-size="18" font-family="Arial, Helvetica, sans-serif" data-font-key="editorial" font-weight="700" font-style="normal" textLength="112.00" lengthAdjust="spacingAndGlyphs">NOT SHOWN</text><text x="720.12" y="447.68" text-anchor="middle" fill="#E7E0D0" font-size="18" font-family="Arial, Helvetica, sans-serif" data-font-key="editorial" font-weight="700" font-style="normal" textLength="89.01" lengthAdjust="spacingAndGlyphs">CROSSED</text><rect x="894.84" y="166.64" width="240.24" height="224.928" fill="none" stroke="#5E737B" stroke-width="3"/><text x="902.84" y="190.64" fill="#5E737B" font-family="sans-serif" font-size="20">folder</text><text x="1014.96" y="423.2" text-anchor="middle" fill="#E7E0D0" font-size="18" font-family="Arial, Helvetica, sans-serif" data-font-key="editorial" font-weight="700" font-style="normal" textLength="193.01" lengthAdjust="spacingAndGlyphs">CACHED SUBSTITUTE</text><rect x="3" y="3" width="1194" height="794" fill="none" stroke="#5E737B" stroke-width="4"/></svg>

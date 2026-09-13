@@ -52,6 +52,7 @@
         ],
         &quot;color&quot;: &quot;steel&quot;,
         &quot;focus&quot;: true,
+        &quot;font&quot;: &quot;editorial&quot;,
         &quot;label&quot;: &quot;UNCHECKED ANALYSIS&quot;,
         &quot;label_box&quot;: [
           0.20679999999999998,
@@ -70,6 +71,7 @@
         ],
         &quot;color&quot;: &quot;steel&quot;,
         &quot;focus&quot;: true,
+        &quot;font&quot;: &quot;editorial&quot;,
         &quot;label&quot;: &quot;CORRECTION&quot;,
         &quot;label_box&quot;: [
           0.0872,
@@ -88,6 +90,7 @@
         ],
         &quot;color&quot;: &quot;steel&quot;,
         &quot;focus&quot;: true,
+        &quot;font&quot;: &quot;editorial&quot;,
         &quot;label&quot;: &quot;CORRECTION&quot;,
         &quot;label_box&quot;: [
           0.4874,
@@ -99,8 +102,8 @@
     ],
     &quot;reconstructed&quot;: false,
     &quot;shot&quot;: &quot;hero&quot;,
-    &quot;source&quot;: &quot;\n**Location:** `metr-review-workspace`\n\n**Frame:** A field of unchecked analysis pages remains behind the corrected cards.\n\n**Caption:**\n&gt; CAUGHT ERRORS PROVE CORRECTION IS POSSIBLE.\n&gt;\n&gt; THEY DO NOT COUNT THE ERRORS STILL UNSEEN.\n\n**Provenance:** `documented` + `inferred` — METR expects uncaught errors.\n\n&quot;,
+    &quot;source&quot;: &quot;\n**Location:** `metr-review-workspace`\n\n**Frame:** A field of unchecked analysis pages remains behind the corrected cards.\n\n**Font:** `narration`\n\n**Caption:**\n&gt; CAUGHT ERRORS PROVE CORRECTION IS POSSIBLE.\n&gt;\n&gt; THEY DO NOT COUNT THE ERRORS STILL UNSEEN.\n\n**Provenance:** `documented` + `inferred` — METR expects uncaught errors.\n\n&quot;,
     &quot;title&quot;: &quot;Unchecked reports remain behind corrections&quot;
   }
 }
-</metadata><rect width="1200" height="800" fill="#101214"/><rect x="24" y="16" width="1152" height="768" fill="none" stroke="#5E737B" stroke-width="3"/><text x="32" y="40" fill="#5E737B" font-family="sans-serif" font-size="20">location-background-metr-review-workspace</text><rect x="257.76" y="102.56" width="640.32" height="317.44" fill="none" stroke="#5E737B" stroke-width="3"/><text x="265.76" y="126.56" fill="#5E737B" font-family="sans-serif" font-size="20">paper</text><text x="577.92" y="442.8" text-anchor="middle" fill="#E7E0D0" font-size="18" font-family="sans-serif">UNCHECKED ANALYSIS</text><rect x="114.24" y="455.84" width="386.4" height="46.08" fill="none" stroke="#5E737B" stroke-width="3"/><text x="122.24" y="479.84" fill="#5E737B" font-family="sans-serif" font-size="20">card</text><text x="307.44" y="526.72" text-anchor="middle" fill="#E7E0D0" font-size="20" font-family="sans-serif">CORRECTION</text><rect x="594.48" y="455.84" width="386.4" height="46.08" fill="none" stroke="#5E737B" stroke-width="3"/><text x="602.48" y="479.84" fill="#5E737B" font-family="sans-serif" font-size="20">card</text><text x="787.68" y="526.72" text-anchor="middle" fill="#E7E0D0" font-size="20" font-family="sans-serif">CORRECTION</text><rect x="3" y="3" width="1194" height="794" fill="none" stroke="#5E737B" stroke-width="4"/></svg>
+</metadata><rect width="1200" height="800" fill="#101214"/><rect x="24" y="16" width="1152" height="768" fill="none" stroke="#5E737B" stroke-width="3"/><text x="32" y="40" fill="#5E737B" font-family="sans-serif" font-size="20">location-background-metr-review-workspace</text><rect x="257.76" y="102.56" width="640.32" height="317.44" fill="none" stroke="#5E737B" stroke-width="3"/><text x="265.76" y="126.56" fill="#5E737B" font-family="sans-serif" font-size="20">paper</text><text x="577.92" y="442.8" text-anchor="middle" fill="#E7E0D0" font-size="18" font-family="Arial, Helvetica, sans-serif" data-font-key="editorial" font-weight="700" font-style="normal" textLength="207.04" lengthAdjust="spacingAndGlyphs">UNCHECKED ANALYSIS</text><rect x="114.24" y="455.84" width="386.4" height="46.08" fill="none" stroke="#5E737B" stroke-width="3"/><text x="122.24" y="479.84" fill="#5E737B" font-family="sans-serif" font-size="20">card</text><text x="307.44" y="526.72" text-anchor="middle" fill="#E7E0D0" font-size="20" font-family="Arial, Helvetica, sans-serif" data-font-key="editorial" font-weight="700" font-style="normal" textLength="134.44" lengthAdjust="spacingAndGlyphs">CORRECTION</text><rect x="594.48" y="455.84" width="386.4" height="46.08" fill="none" stroke="#5E737B" stroke-width="3"/><text x="602.48" y="479.84" fill="#5E737B" font-family="sans-serif" font-size="20">card</text><text x="787.68" y="526.72" text-anchor="middle" fill="#E7E0D0" font-size="20" font-family="Arial, Helvetica, sans-serif" data-font-key="editorial" font-weight="700" font-style="normal" textLength="134.44" lengthAdjust="spacingAndGlyphs">CORRECTION</text><rect x="3" y="3" width="1194" height="794" fill="none" stroke="#5E737B" stroke-width="4"/></svg>

@@ -33,6 +33,7 @@
       ],
       "color": "dirty",
       "focus": true,
+      "font": "editorial",
       "label": "INPUT",
       "label_box": [
         0.06775,
@@ -52,6 +53,7 @@
       ],
       "color": "dirty",
       "focus": true,
+      "font": "editorial",
       "label": "OUTPUT",
       "label_box": [
         0.24975,
@@ -71,6 +73,7 @@
       ],
       "color": "dirty",
       "focus": true,
+      "font": "editorial",
       "label": "TEMPORARY SPACE",
       "label_box": [
         0.43175,
@@ -90,6 +93,7 @@
       ],
       "color": "dirty",
       "focus": true,
+      "font": "editorial",
       "label": "TOOL BOUNDARY",
       "label_box": [
         0.61375,
@@ -109,6 +113,7 @@
       ],
       "color": "dirty",
       "focus": true,
+      "font": "editorial",
       "label": "ARTIFACT SURFACE",
       "label_box": [
         0.79575,
@@ -121,6 +126,6 @@
   ],
   "reconstructed": false,
   "shot": "row",
-  "source": "\n**Location:** `unnamed-future-evaluation`\n\n**Frame:** It inventories generic resources: task input, output channel, temporary workspace, tool boundary, and artifact surface. All implementation details remain blank.\n\n**Caption:**\n> WHEN THE SPECIFIED PATH CLOSES, THE ENVIRONMENT BECOMES PART OF THE PROBLEM.\n\n**Provenance:** `invented` + thematic `inferred`.\n\n",
+  "source": "\n**Location:** `unnamed-future-evaluation`\n\n**Frame:** It inventories generic resources: task input, output channel, temporary workspace, tool boundary, and artifact surface. All implementation details remain blank.\n\n**Font:** `narration`\n\n**Caption:**\n> WHEN THE SPECIFIED PATH CLOSES, THE ENVIRONMENT BECOMES PART OF THE PROBLEM.\n\n**Provenance:** `invented` + thematic `inferred`.\n\n",
   "title": "Five generic resource surfaces stay unspecified"
 }

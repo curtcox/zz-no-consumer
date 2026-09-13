@@ -51,6 +51,7 @@
         ],
         &quot;color&quot;: &quot;steel&quot;,
         &quot;focus&quot;: true,
+        &quot;font&quot;: &quot;editorial&quot;,
         &quot;label&quot;: &quot;SECRETS&quot;,
         &quot;label_box&quot;: [
           0.06775,
@@ -70,6 +71,7 @@
         ],
         &quot;color&quot;: &quot;steel&quot;,
         &quot;focus&quot;: true,
+        &quot;font&quot;: &quot;editorial&quot;,
         &quot;label&quot;: &quot;NETWORK KEY&quot;,
         &quot;label_box&quot;: [
           0.371083,
@@ -89,6 +91,7 @@
         ],
         &quot;color&quot;: &quot;steel&quot;,
         &quot;focus&quot;: true,
+        &quot;font&quot;: &quot;editorial&quot;,
         &quot;label&quot;: &quot;ACCESS CONNECTOR&quot;,
         &quot;label_box&quot;: [
           0.674417,
@@ -101,8 +104,8 @@
     ],
     &quot;reconstructed&quot;: false,
     &quot;shot&quot;: &quot;row&quot;,
-    &quot;source&quot;: &quot;\n**Location:** `huggingface-production-node`\n\n**Frame:** Opaque secret objects become visible from the node. They branch toward a corporate-network key and an internal access connector. No values or formats appear.\n\n**Action:** Local control exposes credentials with wider scope.\n\n**Caption:**\n&gt; THE NODE CONTAINS KEYS TO SYSTEMS BEYOND THE NODE.\n\n**Provenance:** `documented` — credential harvest and subsequent pivots from `HF-TL`.\n\n&quot;,
+    &quot;source&quot;: &quot;\n**Location:** `huggingface-production-node`\n\n**Frame:** Opaque secret objects become visible from the node. They branch toward a corporate-network key and an internal access connector. No values or formats appear.\n\n**Action:** Local control exposes credentials with wider scope.\n\n**Font:** `narration`\n\n**Caption:**\n&gt; THE NODE CONTAINS KEYS TO SYSTEMS BEYOND THE NODE.\n\n**Provenance:** `documented` — credential harvest and subsequent pivots from `HF-TL`.\n\n&quot;,
     &quot;title&quot;: &quot;Opaque secrets reveal two access classes&quot;
   }
 }
-</metadata><rect width="1200" height="800" fill="#101214"/><rect x="24" y="16" width="1152" height="768" fill="none" stroke="#5E737B" stroke-width="3"/><text x="32" y="40" fill="#5E737B" font-family="sans-serif" font-size="20">location-background-huggingface-production-node</text><rect x="81.3" y="160.96" width="287.56" height="221.179" fill="none" stroke="#5E737B" stroke-width="3"/><text x="89.3" y="184.96" fill="#5E737B" font-family="sans-serif" font-size="20">sealed</text><text x="225.08" y="413.544" text-anchor="middle" fill="#E7E0D0" font-size="18" font-family="sans-serif">SECRETS</text><rect x="445.3" y="160.96" width="287.56" height="221.179" fill="none" stroke="#5E737B" stroke-width="3"/><text x="453.3" y="184.96" fill="#5E737B" font-family="sans-serif" font-size="20">sealed</text><text x="589.079" y="413.544" text-anchor="middle" fill="#E7E0D0" font-size="18" font-family="sans-serif">NETWORK KEY</text><rect x="809.3" y="160.96" width="287.56" height="221.179" fill="none" stroke="#5E737B" stroke-width="3"/><text x="817.3" y="184.96" fill="#5E737B" font-family="sans-serif" font-size="20">sealed</text><text x="953.08" y="413.544" text-anchor="middle" fill="#E7E0D0" font-size="18" font-family="sans-serif">ACCESS CONNECTOR</text><rect x="3" y="3" width="1194" height="794" fill="none" stroke="#5E737B" stroke-width="4"/></svg>
+</metadata><rect width="1200" height="800" fill="#101214"/><rect x="24" y="16" width="1152" height="768" fill="none" stroke="#5E737B" stroke-width="3"/><text x="32" y="40" fill="#5E737B" font-family="sans-serif" font-size="20">location-background-huggingface-production-node</text><rect x="81.3" y="160.96" width="287.56" height="221.179" fill="none" stroke="#5E737B" stroke-width="3"/><text x="89.3" y="184.96" fill="#5E737B" font-family="sans-serif" font-size="20">sealed</text><text x="225.08" y="413.544" text-anchor="middle" fill="#E7E0D0" font-size="18" font-family="Arial, Helvetica, sans-serif" data-font-key="editorial" font-weight="700" font-style="normal" textLength="85.01" lengthAdjust="spacingAndGlyphs">SECRETS</text><rect x="445.3" y="160.96" width="287.56" height="221.179" fill="none" stroke="#5E737B" stroke-width="3"/><text x="453.3" y="184.96" fill="#5E737B" font-family="sans-serif" font-size="20">sealed</text><text x="589.079" y="413.544" text-anchor="middle" fill="#E7E0D0" font-size="18" font-family="Arial, Helvetica, sans-serif" data-font-key="editorial" font-weight="700" font-style="normal" textLength="133.02" lengthAdjust="spacingAndGlyphs">NETWORK KEY</text><rect x="809.3" y="160.96" width="287.56" height="221.179" fill="none" stroke="#5E737B" stroke-width="3"/><text x="817.3" y="184.96" fill="#5E737B" font-family="sans-serif" font-size="20">sealed</text><text x="953.08" y="413.544" text-anchor="middle" fill="#E7E0D0" font-size="18" font-family="Arial, Helvetica, sans-serif" data-font-key="editorial" font-weight="700" font-style="normal" textLength="195.01" lengthAdjust="spacingAndGlyphs">ACCESS CONNECTOR</text><rect x="3" y="3" width="1194" height="794" fill="none" stroke="#5E737B" stroke-width="4"/></svg>

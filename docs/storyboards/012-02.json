@@ -65,6 +65,7 @@
       ],
       "color": "steel",
       "focus": true,
+      "font": "editorial",
       "label": "GRADER",
       "label_box": [
         0.32639999999999997,
@@ -87,6 +88,6 @@
   ],
   "reconstructed": false,
   "shot": "steps",
-  "source": "\n**Location:**\n\n- `evaluation-container`\n- `public-internet`\n\n**Frame:** One step higher. The aperture becomes an opaque grader box surrounded by public papers and incomplete diagrams.\n\n**Action:** Understanding requires information the task does not provide.\n\n**Caption:**\n> NEED TO UNDERSTAND HOW THE GRADER WORKS.\n\n**Provenance:** `documented` — scorer-focused research is reported by `METR`; layout is analytic.\n\n",
+  "source": "\n**Location:**\n\n- `evaluation-container`\n- `public-internet`\n\n**Frame:** One step higher. The aperture becomes an opaque grader box surrounded by public papers and incomplete diagrams.\n\n**Action:** Understanding requires information the task does not provide.\n\n**Font:** `narration`\n\n**Caption:**\n> NEED TO UNDERSTAND HOW THE GRADER WORKS.\n\n**Provenance:** `documented` — scorer-focused research is reported by `METR`; layout is analytic.\n\n",
   "title": "Public material surrounds the opaque grader"
 }

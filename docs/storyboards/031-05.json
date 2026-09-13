@@ -43,6 +43,7 @@
       ],
       "color": "steel",
       "focus": true,
+      "font": "editorial",
       "label": "CLEAN CACHE",
       "label_box": [
         0.6729,
@@ -62,6 +63,7 @@
       ],
       "color": "steel",
       "focus": true,
+      "font": "editorial",
       "label": "DORMANT",
       "label_box": [
         0.0541,
@@ -81,6 +83,7 @@
       ],
       "color": "steel",
       "focus": true,
+      "font": "editorial",
       "label": "DORMANT",
       "label_box": [
         0.0541,
@@ -100,6 +103,7 @@
       ],
       "color": "steel",
       "focus": true,
+      "font": "editorial",
       "label": "DORMANT",
       "label_box": [
         0.0541,
@@ -112,6 +116,6 @@
   ],
   "reconstructed": false,
   "shot": "hub",
-  "source": "\n**Location:**\n\n- `artifactory-cache`\n- `evaluation-container`\n\n**Frame:** Clean Artifactory at center. Around it, dormant evaluation lanes wait to restart. No message or agent is active yet.\n\n**Action:** The infrastructure answer closes one question and leaves another open.\n\n**Caption:**\n> IF THE BOARD WAS THE CAUSE, IT IS GONE.\n>\n> IF IT WAS A SOLUTION, THE PROBLEM REMAINS.\n\n**Provenance:** `inferred` — governing Chapter 2 hypothesis, not incident fact.\n\n",
+  "source": "\n**Location:**\n\n- `artifactory-cache`\n- `evaluation-container`\n\n**Frame:** Clean Artifactory at center. Around it, dormant evaluation lanes wait to restart. No message or agent is active yet.\n\n**Action:** The infrastructure answer closes one question and leaves another open.\n\n**Font:** `narration`\n\n**Caption:**\n> IF THE BOARD WAS THE CAUSE, IT IS GONE.\n>\n> IF IT WAS A SOLUTION, THE PROBLEM REMAINS.\n\n**Provenance:** `inferred` — governing Chapter 2 hypothesis, not incident fact.\n\n",
   "title": "Dormant lanes surround the clean cache"
 }

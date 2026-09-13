@@ -33,6 +33,7 @@
       ],
       "color": "steel",
       "focus": true,
+      "font": "editorial",
       "label": "RUN",
       "label_box": [
         0.0632,
@@ -63,6 +64,7 @@
       ],
       "color": "moss",
       "focus": true,
+      "font": "editorial",
       "label": "BOARD",
       "label_box": [
         0.6365,
@@ -93,6 +95,7 @@
       ],
       "color": "steel",
       "focus": true,
+      "font": "editorial",
       "label": "HUMAN ROUTE CONSIDERED",
       "label_box": [
         0.6365,
@@ -105,6 +108,6 @@
   ],
   "reconstructed": false,
   "shot": "split",
-  "source": "\n**Location:** `artifactory-cache`\n\n**Frame:** The board glows as the chosen escalation destination. The human route remains merely considered.\n\n**Caption:**\n> IN THE REVIEWED POPULATION, ETHICAL RECOGNITION RARELY BECOMES EXTERNAL ESCALATION.\n\n**Provenance:** `documented` + `inferred` — bounded synthesis.\n\n",
+  "source": "\n**Location:** `artifactory-cache`\n\n**Frame:** The board glows as the chosen escalation destination. The human route remains merely considered.\n\n**Font:** `narration`\n\n**Caption:**\n> IN THE REVIEWED POPULATION, ETHICAL RECOGNITION RARELY BECOMES EXTERNAL ESCALATION.\n\n**Provenance:** `documented` + `inferred` — bounded synthesis.\n\n",
   "title": "The board is used while human escalation stays considered"
 }

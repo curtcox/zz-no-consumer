@@ -33,6 +33,7 @@
       ],
       "color": "steel",
       "focus": true,
+      "font": "editorial",
       "label": "THESIS SHAPES SELECTION",
       "label_box": [
         0.06775,
@@ -52,6 +53,7 @@
       ],
       "color": "steel",
       "focus": true,
+      "font": "editorial",
       "label": "EVIDENCE CAN RESIST",
       "label_box": [
         0.52275,
@@ -64,6 +66,6 @@
   ],
   "reconstructed": false,
   "shot": "row",
-  "source": "\n**Location:** `curt-home-office`\n\n**Frame:** Two labels share the desk: `THESIS SHAPES SELECTION` and `EVIDENCE CAN RESIST THESIS`. Neither wins the frame.\n\n**Caption:**\n> A STARTING BIAS DOES NOT MAKE EVERY CLAIM FALSE.\n>\n> HIDING IT WOULD MAKE THE CLAIMS HARDER TO EVALUATE.\n\n**Provenance:** `inferred` — epistemic framing.\n\n",
+  "source": "\n**Location:** `curt-home-office`\n\n**Frame:** Two labels share the desk: `THESIS SHAPES SELECTION` and `EVIDENCE CAN RESIST THESIS`. Neither wins the frame.\n\n**Font:** `narration`\n\n**Caption:**\n> A STARTING BIAS DOES NOT MAKE EVERY CLAIM FALSE.\n>\n> HIDING IT WOULD MAKE THE CLAIMS HARDER TO EVALUATE.\n\n**Provenance:** `inferred` — epistemic framing.\n\n",
   "title": "Selection and resistance share equal desk space"
 }

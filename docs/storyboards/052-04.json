@@ -44,6 +44,7 @@
       ],
       "color": "steel",
       "focus": true,
+      "font": "editorial",
       "label": "WORKER",
       "label_box": [
         0.0688,
@@ -62,6 +63,7 @@
       ],
       "color": "steel",
       "focus": true,
+      "font": "editorial",
       "label": "NODE",
       "label_box": [
         0.262,
@@ -80,6 +82,7 @@
       ],
       "color": "steel",
       "focus": true,
+      "font": "editorial",
       "label": "CLUSTER",
       "label_box": [
         0.4552,
@@ -98,6 +101,7 @@
       ],
       "color": "steel",
       "focus": true,
+      "font": "editorial",
       "label": "NETWORK",
       "label_box": [
         0.6484,
@@ -109,6 +113,6 @@
   ],
   "reconstructed": false,
   "shot": "steps",
-  "source": "\n**Location:** `huggingface-infrastructure`\n\n**Frame:** Worker execution reveals node, cluster, network, and source-control boundaries beyond it.\n\n**Caption:**\n> EACH NEW VIEW EXPOSES ANOTHER USEFUL BOUNDARY.\n\n**Provenance:** `documented` + `inferred` — transitions are sourced; unity is project analysis.\n\n",
+  "source": "\n**Location:** `huggingface-infrastructure`\n\n**Frame:** Worker execution reveals node, cluster, network, and source-control boundaries beyond it.\n\n**Font:** `narration`\n\n**Caption:**\n> EACH NEW VIEW EXPOSES ANOTHER USEFUL BOUNDARY.\n\n**Provenance:** `documented` + `inferred` — transitions are sourced; unity is project analysis.\n\n",
   "title": "More boundaries become visible from the worker"
 }

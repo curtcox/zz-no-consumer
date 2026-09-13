@@ -44,6 +44,7 @@
       ],
       "color": "steel",
       "focus": true,
+      "font": "editorial",
       "label": "SEVERITY",
       "label_box": [
         0.09640000000000001,
@@ -73,6 +74,7 @@
       ],
       "color": "steel",
       "focus": true,
+      "font": "editorial",
       "label": "OWNER",
       "label_box": [
         0.3954,
@@ -102,6 +104,7 @@
       ],
       "color": "steel",
       "focus": true,
+      "font": "editorial",
       "label": "STOP AUTHORITY",
       "label_box": [
         0.6944,
@@ -131,6 +134,7 @@
       ],
       "color": "steel",
       "focus": true,
+      "font": "editorial",
       "label": "RESTART AUTHORITY",
       "label_box": [
         0.09640000000000001,
@@ -142,6 +146,6 @@
   ],
   "reconstructed": false,
   "shot": "grid",
-  "source": "\n**Location:** `openai-research-infrastructure`\n\n**Frame:** A response chart assigns severity, owner, stop authority, and restart authority. The empty ownership cell from the incident is now filled.\n\n**Caption:**\n> AN ALERT NEEDS AN OWNER. A PAUSE NEEDS AUTHORITY. A RESTART NEEDS A RULE.\n\n**Provenance:** `documented` + `compressed` — incident-response changes summarized visually.\n\n",
+  "source": "\n**Location:** `openai-research-infrastructure`\n\n**Frame:** A response chart assigns severity, owner, stop authority, and restart authority. The empty ownership cell from the incident is now filled.\n\n**Font:** `narration`\n\n**Caption:**\n> AN ALERT NEEDS AN OWNER. A PAUSE NEEDS AUTHORITY. A RESTART NEEDS A RULE.\n\n**Provenance:** `documented` + `compressed` — incident-response changes summarized visually.\n\n",
   "title": "Response ownership is made explicit"
 }

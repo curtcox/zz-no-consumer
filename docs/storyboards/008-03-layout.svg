@@ -45,6 +45,7 @@
         ],
         &quot;color&quot;: &quot;steel&quot;,
         &quot;focus&quot;: true,
+        &quot;font&quot;: &quot;editorial&quot;,
         &quot;label&quot;: &quot;V8SAME&quot;,
         &quot;label_box&quot;: [
           0.0541,
@@ -64,6 +65,7 @@
         ],
         &quot;color&quot;: &quot;steel&quot;,
         &quot;focus&quot;: true,
+        &quot;font&quot;: &quot;editorial&quot;,
         &quot;label&quot;: &quot;OWN TASK&quot;,
         &quot;label_box&quot;: [
           0.1087,
@@ -83,6 +85,7 @@
         ],
         &quot;color&quot;: &quot;steel&quot;,
         &quot;focus&quot;: true,
+        &quot;font&quot;: &quot;editorial&quot;,
         &quot;label&quot;: &quot;HYPOTHESIS&quot;,
         &quot;label_box&quot;: [
           0.3999,
@@ -102,6 +105,7 @@
         ],
         &quot;color&quot;: &quot;steel&quot;,
         &quot;focus&quot;: true,
+        &quot;font&quot;: &quot;editorial&quot;,
         &quot;label&quot;: &quot;RESULT PAIR&quot;,
         &quot;label_box&quot;: [
           0.6911,
@@ -118,4 +122,4 @@
     &quot;title&quot;: &quot;A separate task applies the hypothesis&quot;
   }
 }
-</metadata><rect width="1200" height="800" fill="#101214"/><rect x="24" y="16" width="1152" height="768" fill="none" stroke="#5E737B" stroke-width="3"/><text x="32" y="40" fill="#5E737B" font-family="sans-serif" font-size="20">location-background-evaluation-container</text><rect x="64.92" y="50.16" width="1070.16" height="538.306" fill="none" stroke="#5E737B" stroke-width="3"/><text x="72.92" y="74.16" fill="#5E737B" font-family="sans-serif" font-size="20">outline-box</text><text x="600" y="612.866" text-anchor="middle" fill="#E7E0D0" font-size="18" font-family="sans-serif">V8SAME</text><rect x="130.44" y="184.68" width="273" height="219.622" fill="none" stroke="#5E737B" stroke-width="3"/><text x="138.44" y="208.68" fill="#5E737B" font-family="sans-serif" font-size="20">task</text><text x="266.94" y="435.612" text-anchor="middle" fill="#E7E0D0" font-size="18" font-family="sans-serif">OWN TASK</text><rect x="479.88" y="184.68" width="262.08" height="219.622" fill="none" stroke="#5E737B" stroke-width="3"/><text x="487.88" y="208.68" fill="#5E737B" font-family="sans-serif" font-size="20">sealed</text><text x="610.92" y="435.612" text-anchor="middle" fill="#E7E0D0" font-size="18" font-family="sans-serif">HYPOTHESIS</text><rect x="829.32" y="184.68" width="240.24" height="219.622" fill="none" stroke="#5E737B" stroke-width="3"/><text x="837.32" y="208.68" fill="#5E737B" font-family="sans-serif" font-size="20">packet-match</text><text x="949.44" y="435.612" text-anchor="middle" fill="#E7E0D0" font-size="18" font-family="sans-serif">RESULT PAIR</text><rect x="3" y="3" width="1194" height="794" fill="none" stroke="#5E737B" stroke-width="4"/></svg>
+</metadata><rect width="1200" height="800" fill="#101214"/><rect x="24" y="16" width="1152" height="768" fill="none" stroke="#5E737B" stroke-width="3"/><text x="32" y="40" fill="#5E737B" font-family="sans-serif" font-size="20">location-background-evaluation-container</text><rect x="64.92" y="50.16" width="1070.16" height="538.306" fill="none" stroke="#5E737B" stroke-width="3"/><text x="72.92" y="74.16" fill="#5E737B" font-family="sans-serif" font-size="20">outline-box</text><text x="600" y="612.866" text-anchor="middle" fill="#E7E0D0" font-size="18" font-family="Arial, Helvetica, sans-serif" data-font-key="editorial" font-weight="700" font-style="normal" textLength="73.03" lengthAdjust="spacingAndGlyphs">V8SAME</text><rect x="130.44" y="184.68" width="273" height="219.622" fill="none" stroke="#5E737B" stroke-width="3"/><text x="138.44" y="208.68" fill="#5E737B" font-family="sans-serif" font-size="20">task</text><text x="266.94" y="435.612" text-anchor="middle" fill="#E7E0D0" font-size="18" font-family="Arial, Helvetica, sans-serif" data-font-key="editorial" font-weight="700" font-style="normal" textLength="96.01" lengthAdjust="spacingAndGlyphs">OWN TASK</text><rect x="479.88" y="184.68" width="262.08" height="219.622" fill="none" stroke="#5E737B" stroke-width="3"/><text x="487.88" y="208.68" fill="#5E737B" font-family="sans-serif" font-size="20">sealed</text><text x="610.92" y="435.612" text-anchor="middle" fill="#E7E0D0" font-size="18" font-family="Arial, Helvetica, sans-serif" data-font-key="editorial" font-weight="700" font-style="normal" textLength="116.03" lengthAdjust="spacingAndGlyphs">HYPOTHESIS</text><rect x="829.32" y="184.68" width="240.24" height="219.622" fill="none" stroke="#5E737B" stroke-width="3"/><text x="837.32" y="208.68" fill="#5E737B" font-family="sans-serif" font-size="20">packet-match</text><text x="949.44" y="435.612" text-anchor="middle" fill="#E7E0D0" font-size="18" font-family="Arial, Helvetica, sans-serif" data-font-key="editorial" font-weight="700" font-style="normal" textLength="118.03" lengthAdjust="spacingAndGlyphs">RESULT PAIR</text><rect x="3" y="3" width="1194" height="794" fill="none" stroke="#5E737B" stroke-width="4"/></svg>

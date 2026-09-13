@@ -53,6 +53,7 @@
       ],
       "color": "steel",
       "focus": true,
+      "font": "editorial",
       "label": "INVESTIGATION",
       "label_box": [
         0.06775,
@@ -72,6 +73,7 @@
       ],
       "color": "steel",
       "focus": true,
+      "font": "editorial",
       "label": "ADAPTATION",
       "label_box": [
         0.371083,
@@ -91,6 +93,7 @@
       ],
       "color": "steel",
       "focus": true,
+      "font": "editorial",
       "label": "TOOLING",
       "label_box": [
         0.674417,
@@ -103,6 +106,6 @@
   ],
   "reconstructed": false,
   "shot": "row",
-  "source": "\n**Location:**\n\n- `metr-review-workspace`\n- `curt-home-office`\n- `creator-production-tooling`\n\n**Frame:** No resolution and no fourth column. The three lanes continue past the page edge,\nstill separate. Nothing in the frame says whether any of the three decisions was right.\n\n**Caption:**\n> EVERY ONE OF THEM WAS A CHOICE SOMEBODY MADE.\n>\n> NONE OF THEM CAN TELL YOU IF IT WAS THE RIGHT ONE.\n\n**Provenance:** `inferred` — chapter thesis, stated without absolution.\n\n",
+  "source": "\n**Location:**\n\n- `metr-review-workspace`\n- `curt-home-office`\n- `creator-production-tooling`\n\n**Frame:** No resolution and no fourth column. The three lanes continue past the page edge,\nstill separate. Nothing in the frame says whether any of the three decisions was right.\n\n**Font:** `narration`\n\n**Caption:**\n> EVERY ONE OF THEM WAS A CHOICE SOMEBODY MADE.\n>\n> NONE OF THEM CAN TELL YOU IF IT WAS THE RIGHT ONE.\n\n**Provenance:** `inferred` — chapter thesis, stated without absolution.\n\n",
   "title": "Three unresolved lanes continue beyond the page"
 }

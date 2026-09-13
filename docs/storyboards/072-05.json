@@ -43,6 +43,7 @@
       ],
       "color": "steel",
       "focus": true,
+      "font": "editorial",
       "label": "17:37",
       "label_box": [
         0.06775,
@@ -62,6 +63,7 @@
       ],
       "color": "steel",
       "focus": true,
+      "font": "editorial",
       "label": "RUNS STOP",
       "label_box": [
         0.371083,
@@ -81,6 +83,7 @@
       ],
       "color": "steel",
       "focus": true,
+      "font": "editorial",
       "label": "EVIDENCE",
       "label_box": [
         0.674417,
@@ -99,6 +102,7 @@
         0.003
       ],
       "color": "steel",
+      "font": "editorial",
       "label": "OPENAI ACCOUNT — NOT IN METR'S REVIEW",
       "label_box": [
         0.05,
@@ -110,6 +114,6 @@
   ],
   "reconstructed": false,
   "shot": "row",
-  "source": "\n**Location:**\n\n- `openai-cybergym-evaluation`\n- `openai-incident-response`\n\n**Frame:** `17:37 UTC`. Human response lanes begin stopping active runs. Both success tracks freeze as evidence.\n\n**Caption:**\n> THREE MINUTES LATER, OPENAI RESPONDERS BEGIN SHUTTING THE EVALUATIONS DOWN.\n\n**Provenance:** `documented` — OpenAI event-table timing; response room abstracted.\n\n",
+  "source": "\n**Location:**\n\n- `openai-cybergym-evaluation`\n- `openai-incident-response`\n\n**Frame:** `17:37 UTC`. Human response lanes begin stopping active runs. Both success tracks freeze as evidence.\n\n**Font:** `narration`\n\n**Caption:**\n> THREE MINUTES LATER, OPENAI RESPONDERS BEGIN SHUTTING THE EVALUATIONS DOWN.\n\n**Provenance:** `documented` — OpenAI event-table timing; response room abstracted.\n\n",
   "title": "Human response freezes both tracks as evidence"
 }

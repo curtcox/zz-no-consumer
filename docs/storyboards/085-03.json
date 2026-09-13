@@ -43,6 +43,7 @@
       ],
       "color": "steel",
       "focus": true,
+      "font": "editorial",
       "label": "FACTUAL INVESTIGATION",
       "label_box": [
         0.06775,
@@ -62,6 +63,7 @@
       ],
       "color": "steel",
       "focus": true,
+      "font": "editorial",
       "label": "ADAPTATION BRIEF",
       "label_box": [
         0.52275,
@@ -85,6 +87,6 @@
   ],
   "reconstructed": false,
   "shot": "split",
-  "source": "\n**Location:**\n\n- `metr-review-workspace`\n- `curt-home-office`\n\n**Frame:** Left carries an independent-investigation mandate and must answer scoped factual questions. Right carries an adaptation brief and a thesis it wants to test.\n\n**Caption:**\n> ONE ANSWERS SCOPED QUESTIONS UNDER A MANDATE.\n>\n> ONE IS TESTING A THESIS IT ALREADY HAS.\n\n**Provenance:** `documented` + `reconstructed` — roles stated accurately.\n\n",
+  "source": "\n**Location:**\n\n- `metr-review-workspace`\n- `curt-home-office`\n\n**Frame:** Left carries an independent-investigation mandate and must answer scoped factual questions. Right carries an adaptation brief and a thesis it wants to test.\n\n**Font:** `narration`\n\n**Caption:**\n> ONE ANSWERS SCOPED QUESTIONS UNDER A MANDATE.\n>\n> ONE IS TESTING A THESIS IT ALREADY HAS.\n\n**Provenance:** `documented` + `reconstructed` — roles stated accurately.\n\n",
   "title": "Investigation and adaptation have different mandates"
 }

@@ -1,0 +1,126 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="800" viewBox="0 0 1200 800"><title>A reconstructed alarm precedes the breach marker</title><desc>Show the alarm before the breach on an explicitly reconstructed assessment timeline. Preserve the more-than-one-day relation without fabricating an exact earlier timestamp.</desc><metadata>{
+  &quot;assets&quot;: {
+    &quot;card&quot;: &quot;&lt;defs&gt;\n&lt;linearGradient id=\&quot;stock\&quot; x1=\&quot;0\&quot; y1=\&quot;0\&quot; x2=\&quot;.8\&quot; y2=\&quot;1\&quot;&gt;&lt;stop stop-color=\&quot;#E7E0D0\&quot; /&gt;&lt;stop offset=\&quot;1\&quot; stop-color=\&quot;#CEC5B3\&quot; /&gt;&lt;/linearGradient&gt;\n&lt;pattern id=\&quot;grain\&quot; width=\&quot;7\&quot; height=\&quot;9\&quot; patternUnits=\&quot;userSpaceOnUse\&quot;&gt;&lt;circle cx=\&quot;1\&quot; cy=\&quot;2\&quot; r=\&quot;.35\&quot; fill=\&quot;#101214\&quot; opacity=\&quot;.18\&quot; /&gt;&lt;path d=\&quot;M4 6h2M1 8h1\&quot; stroke=\&quot;#101214\&quot; stroke-width=\&quot;.3\&quot; opacity=\&quot;.16\&quot; /&gt;&lt;/pattern&gt;\n&lt;/defs&gt;&lt;path d=\&quot;M5 3H95V97H5Z\&quot; fill=\&quot;url(#stock)\&quot; stroke=\&quot;currentColor\&quot; stroke-width=\&quot;2\&quot; /&gt;&lt;path d=\&quot;M5 3H95V97H5Z\&quot; fill=\&quot;url(#grain)\&quot; /&gt;&lt;rect x=\&quot;5\&quot; y=\&quot;3\&quot; width=\&quot;90\&quot; height=\&quot;15\&quot; fill=\&quot;currentColor\&quot; /&gt;&lt;rect x=\&quot;10\&quot; y=\&quot;25\&quot; width=\&quot;5\&quot; height=\&quot;61\&quot; fill=\&quot;currentColor\&quot; /&gt;&lt;path d=\&quot;M23 29H85M23 38H75M23 48H83M23 66H62M23 78H80\&quot; fill=\&quot;none\&quot; stroke=\&quot;#101214\&quot; stroke-width=\&quot;2\&quot; /&gt;&lt;path d=\&quot;M12 11H42M65 11H86\&quot; fill=\&quot;none\&quot; stroke=\&quot;#E7E0D0\&quot; stroke-width=\&quot;1.4\&quot; /&gt;&quot;,
+    &quot;clock&quot;: &quot;&lt;defs&gt;\n&lt;linearGradient id=\&quot;stock\&quot; x1=\&quot;0\&quot; y1=\&quot;0\&quot; x2=\&quot;.8\&quot; y2=\&quot;1\&quot;&gt;&lt;stop stop-color=\&quot;#E7E0D0\&quot; /&gt;&lt;stop offset=\&quot;1\&quot; stop-color=\&quot;#CEC5B3\&quot; /&gt;&lt;/linearGradient&gt;\n&lt;/defs&gt;&lt;circle cx=\&quot;50\&quot; cy=\&quot;50\&quot; r=\&quot;44\&quot; fill=\&quot;url(#stock)\&quot; stroke=\&quot;currentColor\&quot; stroke-width=\&quot;4\&quot; /&gt;&lt;path d=\&quot;M50 9V15\&quot; fill=\&quot;none\&quot; stroke=\&quot;#101214\&quot; stroke-width=\&quot;1.5\&quot; transform=\&quot;rotate(0 50 50)\&quot; /&gt;&lt;path d=\&quot;M50 9V15\&quot; fill=\&quot;none\&quot; stroke=\&quot;#101214\&quot; stroke-width=\&quot;1.5\&quot; transform=\&quot;rotate(30 50 50)\&quot; /&gt;&lt;path d=\&quot;M50 9V15\&quot; fill=\&quot;none\&quot; stroke=\&quot;#101214\&quot; stroke-width=\&quot;1.5\&quot; transform=\&quot;rotate(60 50 50)\&quot; /&gt;&lt;path d=\&quot;M50 9V15\&quot; fill=\&quot;none\&quot; stroke=\&quot;#101214\&quot; stroke-width=\&quot;1.5\&quot; transform=\&quot;rotate(90 50 50)\&quot; /&gt;&lt;path d=\&quot;M50 9V15\&quot; fill=\&quot;none\&quot; stroke=\&quot;#101214\&quot; stroke-width=\&quot;1.5\&quot; transform=\&quot;rotate(120 50 50)\&quot; /&gt;&lt;path d=\&quot;M50 9V15\&quot; fill=\&quot;none\&quot; stroke=\&quot;#101214\&quot; stroke-width=\&quot;1.5\&quot; transform=\&quot;rotate(150 50 50)\&quot; /&gt;&lt;path d=\&quot;M50 9V15\&quot; fill=\&quot;none\&quot; stroke=\&quot;#101214\&quot; stroke-width=\&quot;1.5\&quot; transform=\&quot;rotate(180 50 50)\&quot; /&gt;&lt;path d=\&quot;M50 9V15\&quot; fill=\&quot;none\&quot; stroke=\&quot;#101214\&quot; stroke-width=\&quot;1.5\&quot; transform=\&quot;rotate(210 50 50)\&quot; /&gt;&lt;path d=\&quot;M50 9V15\&quot; fill=\&quot;none\&quot; stroke=\&quot;#101214\&quot; stroke-width=\&quot;1.5\&quot; transform=\&quot;rotate(240 50 50)\&quot; /&gt;&lt;path d=\&quot;M50 9V15\&quot; fill=\&quot;none\&quot; stroke=\&quot;#101214\&quot; stroke-width=\&quot;1.5\&quot; transform=\&quot;rotate(270 50 50)\&quot; /&gt;&lt;path d=\&quot;M50 9V15\&quot; fill=\&quot;none\&quot; stroke=\&quot;#101214\&quot; stroke-width=\&quot;1.5\&quot; transform=\&quot;rotate(300 50 50)\&quot; /&gt;&lt;path d=\&quot;M50 9V15\&quot; fill=\&quot;none\&quot; stroke=\&quot;#101214\&quot; stroke-width=\&quot;1.5\&quot; transform=\&quot;rotate(330 50 50)\&quot; /&gt;&lt;path d=\&quot;M50 23V50L73 64\&quot; fill=\&quot;none\&quot; stroke=\&quot;#101214\&quot; stroke-width=\&quot;3\&quot; /&gt;&lt;circle cx=\&quot;50\&quot; cy=\&quot;50\&quot; r=\&quot;3\&quot; fill=\&quot;#101214\&quot; /&gt;&quot;,
+    &quot;line&quot;: &quot;&lt;path d=\&quot;M0 50H100\&quot; stroke=\&quot;currentColor\&quot; stroke-width=\&quot;2.4\&quot; vector-effect=\&quot;non-scaling-stroke\&quot; /&gt;&quot;,
+    &quot;location-background-report-comparison-space&quot;: &quot;&lt;title&gt;Two independent source gutters — paper&lt;/title&gt;&lt;defs&gt;&lt;linearGradient id=\&quot;wash\&quot; x1=\&quot;0\&quot; y1=\&quot;0\&quot; x2=\&quot;1\&quot; y2=\&quot;1\&quot;&gt;&lt;stop stop-color=\&quot;#BFB0A9\&quot; stop-opacity=\&quot;.45\&quot;/&gt;&lt;stop offset=\&quot;.5\&quot; stop-color=\&quot;#594B46\&quot; stop-opacity=\&quot;.22\&quot;/&gt;&lt;stop offset=\&quot;1\&quot; stop-color=\&quot;#BFB0A9\&quot; stop-opacity=\&quot;.27\&quot;/&gt;&lt;/linearGradient&gt;&lt;radialGradient id=\&quot;fade\&quot;&gt;&lt;stop offset=\&quot;.35\&quot; stop-color=\&quot;black\&quot;/&gt;&lt;stop offset=\&quot;.7\&quot; stop-color=\&quot;#555555\&quot;/&gt;&lt;stop offset=\&quot;1\&quot; stop-color=\&quot;white\&quot;/&gt;&lt;/radialGradient&gt;&lt;mask id=\&quot;rim\&quot;&gt;&lt;rect width=\&quot;100\&quot; height=\&quot;100\&quot; fill=\&quot;url(#fade)\&quot;/&gt;&lt;/mask&gt;&lt;pattern id=\&quot;material\&quot; width=\&quot;16\&quot; height=\&quot;16\&quot; patternUnits=\&quot;userSpaceOnUse\&quot;&gt;&lt;g fill=\&quot;none\&quot; stroke=\&quot;#BFB0A9\&quot; stroke-width=\&quot;.3\&quot; opacity=\&quot;.55\&quot;&gt;&lt;path d=\&quot;M1 2L5 1M8 7L13 6M2 12L6 13M12 2L14 3\&quot;/&gt;&lt;/g&gt;&lt;/pattern&gt;&lt;/defs&gt;\n&lt;rect x=\&quot;3\&quot; y=\&quot;3\&quot; width=\&quot;94\&quot; height=\&quot;94\&quot; rx=\&quot;1\&quot; fill=\&quot;url(#wash)\&quot;/&gt;&lt;rect x=\&quot;3\&quot; y=\&quot;3\&quot; width=\&quot;94\&quot; height=\&quot;94\&quot; fill=\&quot;url(#material)\&quot; mask=\&quot;url(#rim)\&quot;/&gt;&lt;path d=\&quot;M3 3H97V18H3ZM3 82H97V97H3Z\&quot; fill=\&quot;#594B46\&quot; opacity=\&quot;.34\&quot;/&gt;&lt;path d=\&quot;M3 3H97V18H3ZM3 82H97V97H3Z\&quot; fill=\&quot;url(#material)\&quot; opacity=\&quot;.65\&quot;/&gt;&lt;path d=\&quot;M5 7H44M56 7H95M5 7V93H44M56 93H95V7M44 7V17M56 7V17M44 83V93M56 83V93M11 17H31M69 17H89M11 83H31M69 83H89\&quot; fill=\&quot;none\&quot; stroke=\&quot;#080B0D\&quot; stroke-width=\&quot;1.7\&quot; opacity=\&quot;.45\&quot; transform=\&quot;translate(.35 .5)\&quot;/&gt;&lt;path d=\&quot;M5 7H44M56 7H95M5 7V93H44M56 93H95V7M44 7V17M56 7V17M44 83V93M56 83V93M11 17H31M69 17H89M11 83H31M69 83H89\&quot; fill=\&quot;none\&quot; stroke=\&quot;#BFB0A9\&quot; stroke-width=\&quot;.8\&quot; stroke-linejoin=\&quot;round\&quot; opacity=\&quot;.66\&quot;/&gt;&quot;
+  },
+  &quot;palette&quot;: {
+    &quot;amber&quot;: &quot;#A17D45&quot;,
+    &quot;claret&quot;: &quot;#6B2634&quot;,
+    &quot;dirty&quot;: &quot;#CEC5B3&quot;,
+    &quot;ink&quot;: &quot;#101214&quot;,
+    &quot;institution&quot;: &quot;#68766B&quot;,
+    &quot;moss&quot;: &quot;#74864F&quot;,
+    &quot;nicotine&quot;: &quot;#AA9571&quot;,
+    &quot;paper&quot;: &quot;#E7E0D0&quot;,
+    &quot;shadow&quot;: &quot;#202326&quot;,
+    &quot;steel&quot;: &quot;#5E737B&quot;
+  },
+  &quot;renderer&quot;: &quot;storyboard-svg-2&quot;,
+  &quot;scene&quot;: {
+    &quot;background&quot;: &quot;ink&quot;,
+    &quot;intent&quot;: &quot;Show the alarm before the breach on an explicitly reconstructed assessment timeline. Preserve the more-than-one-day relation without fabricating an exact earlier timestamp.&quot;,
+    &quot;lettering&quot;: [
+      {
+        &quot;box&quot;: [
+          0.045,
+          0.78,
+          0.91,
+          0.18
+        ]
+      }
+    ],
+    &quot;lettering_mode&quot;: &quot;manual&quot;,
+    &quot;nodes&quot;: [
+      {
+        &quot;asset&quot;: &quot;location-background-report-comparison-space&quot;,
+        &quot;box&quot;: [
+          0.02,
+          0.02,
+          0.96,
+          0.96
+        ],
+        &quot;color&quot;: &quot;steel&quot;
+      },
+      {
+        &quot;asset&quot;: &quot;line&quot;,
+        &quot;box&quot;: [
+          0.0768,
+          0.365,
+          0.8464,
+          0.016
+        ],
+        &quot;color&quot;: &quot;steel&quot;
+      },
+      {
+        &quot;asset&quot;: &quot;card&quot;,
+        &quot;box&quot;: [
+          0.086,
+          0.1794,
+          0.217733,
+          0.1408
+        ],
+        &quot;color&quot;: &quot;steel&quot;,
+        &quot;focus&quot;: true,
+        &quot;label&quot;: &quot;MONITOR ALARM&quot;,
+        &quot;label_box&quot;: [
+          0.07799999999999999,
+          0.32620000000000005,
+          0.23373300000000002,
+          0.030799999999999945
+        ]
+      },
+      {
+        &quot;asset&quot;: &quot;clock&quot;,
+        &quot;box&quot;: [
+          0.42393316666666664,
+          0.1794,
+          0.09386666666666667,
+          0.1408
+        ],
+        &quot;color&quot;: &quot;steel&quot;,
+        &quot;focus&quot;: true,
+        &quot;label&quot;: &quot;MORE THAN ONE DAY&quot;,
+        &quot;label_box&quot;: [
+          0.354,
+          0.32620000000000005,
+          0.23373300000000002,
+          0.030799999999999945
+        ]
+      },
+      {
+        &quot;asset&quot;: &quot;card&quot;,
+        &quot;box&quot;: [
+          0.638,
+          0.1794,
+          0.217733,
+          0.1408
+        ],
+        &quot;color&quot;: &quot;steel&quot;,
+        &quot;focus&quot;: true,
+        &quot;label&quot;: &quot;BREACH&quot;,
+        &quot;label_box&quot;: [
+          0.63,
+          0.32620000000000005,
+          0.23373300000000002,
+          0.030799999999999945
+        ]
+      }
+    ],
+    &quot;reconstructed&quot;: false,
+    &quot;shot&quot;: &quot;timeline&quot;,
+    &quot;source&quot;: &quot;\n**Location:** `report-comparison-space`\n\n**Frame:** A monitoring alarm appears more than one day before the breach marker on a reconstructed timeline.\n\n**Caption:**\n&gt; OPENAI SAYS ITS CHAIN-OF-THOUGHT MONITORING WOULD HAVE PAGED MORE THAN A DAY BEFORE THE HUGGING FACE BREACH.\n\n**Provenance:** `documented` (institutional claim) — counterfactual safeguard assessment by OpenAI.\n\n&quot;,
+    &quot;title&quot;: &quot;A reconstructed alarm precedes the breach marker&quot;
+  }
+}
+</metadata><rect width="1200" height="800" fill="#101214"/><g transform="translate(24 16) scale(11.52 7.68)" color="#5E737B"><g transform=""><title>Two independent source gutters — paper</title><defs><linearGradient id="node-0-wash" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#BFB0A9" stop-opacity=".45" /><stop offset=".5" stop-color="#594B46" stop-opacity=".22" /><stop offset="1" stop-color="#BFB0A9" stop-opacity=".27" /></linearGradient><radialGradient id="node-0-fade"><stop offset=".35" stop-color="black" /><stop offset=".7" stop-color="#555555" /><stop offset="1" stop-color="white" /></radialGradient><mask id="node-0-rim"><rect width="100" height="100" fill="url(#node-0-fade)" /></mask><pattern id="node-0-material" width="16" height="16" patternUnits="userSpaceOnUse"><g fill="none" stroke="#BFB0A9" stroke-width=".3" opacity=".55"><path d="M1 2L5 1M8 7L13 6M2 12L6 13M12 2L14 3" /></g></pattern></defs>
+<rect x="3" y="3" width="94" height="94" rx="1" fill="url(#node-0-wash)" /><rect x="3" y="3" width="94" height="94" fill="url(#node-0-material)" mask="url(#node-0-rim)" /><path d="M3 3H97V18H3ZM3 82H97V97H3Z" fill="#594B46" opacity=".34" /><path d="M3 3H97V18H3ZM3 82H97V97H3Z" fill="url(#node-0-material)" opacity=".65" /><path d="M5 7H44M56 7H95M5 7V93H44M56 93H95V7M44 7V17M56 7V17M44 83V93M56 83V93M11 17H31M69 17H89M11 83H31M69 83H89" fill="none" stroke="#080B0D" stroke-width="1.7" opacity=".45" transform="translate(.35 .5)" /><path d="M5 7H44M56 7H95M5 7V93H44M56 93H95V7M44 7V17M56 7V17M44 83V93M56 83V93M11 17H31M69 17H89M11 83H31M69 83H89" fill="none" stroke="#BFB0A9" stroke-width=".8" stroke-linejoin="round" opacity=".66" /></g></g><g transform="translate(92.16 292) scale(10.1568 0.128)" color="#5E737B"><g transform=""><path d="M0 50H100" stroke="currentColor" stroke-width="2.4" vector-effect="non-scaling-stroke" /></g></g><g transform="translate(103.2 143.52) scale(2.6128 1.1264)" color="#5E737B"><g transform=""><defs>
+<linearGradient id="node-2-stock" x1="0" y1="0" x2=".8" y2="1"><stop stop-color="#E7E0D0" /><stop offset="1" stop-color="#CEC5B3" /></linearGradient>
+<pattern id="node-2-grain" width="7" height="9" patternUnits="userSpaceOnUse"><circle cx="1" cy="2" r=".35" fill="#101214" opacity=".18" /><path d="M4 6h2M1 8h1" stroke="#101214" stroke-width=".3" opacity=".16" /></pattern>
+</defs><path d="M5 3H95V97H5Z" fill="url(#node-2-stock)" stroke="currentColor" stroke-width="2" /><path d="M5 3H95V97H5Z" fill="url(#node-2-grain)" /><rect x="5" y="3" width="90" height="15" fill="currentColor" /><rect x="10" y="25" width="5" height="61" fill="currentColor" /><path d="M23 29H85M23 38H75M23 48H83M23 66H62M23 78H80" fill="none" stroke="#101214" stroke-width="2" /><path d="M12 11H42M65 11H86" fill="none" stroke="#E7E0D0" stroke-width="1.4" /></g></g><text x="233.84" y="278.96" text-anchor="middle" fill="#E7E0D0" font-size="18" font-family="sans-serif">MONITOR ALARM</text><g transform="translate(508.72 143.52) scale(1.1264 1.1264)" color="#5E737B"><g transform=""><defs>
+<linearGradient id="node-3-stock" x1="0" y1="0" x2=".8" y2="1"><stop stop-color="#E7E0D0" /><stop offset="1" stop-color="#CEC5B3" /></linearGradient>
+</defs><circle cx="50" cy="50" r="44" fill="url(#node-3-stock)" stroke="currentColor" stroke-width="4" /><path d="M50 9V15" fill="none" stroke="#101214" stroke-width="1.5" transform="rotate(0 50 50)" /><path d="M50 9V15" fill="none" stroke="#101214" stroke-width="1.5" transform="rotate(30 50 50)" /><path d="M50 9V15" fill="none" stroke="#101214" stroke-width="1.5" transform="rotate(60 50 50)" /><path d="M50 9V15" fill="none" stroke="#101214" stroke-width="1.5" transform="rotate(90 50 50)" /><path d="M50 9V15" fill="none" stroke="#101214" stroke-width="1.5" transform="rotate(120 50 50)" /><path d="M50 9V15" fill="none" stroke="#101214" stroke-width="1.5" transform="rotate(150 50 50)" /><path d="M50 9V15" fill="none" stroke="#101214" stroke-width="1.5" transform="rotate(180 50 50)" /><path d="M50 9V15" fill="none" stroke="#101214" stroke-width="1.5" transform="rotate(210 50 50)" /><path d="M50 9V15" fill="none" stroke="#101214" stroke-width="1.5" transform="rotate(240 50 50)" /><path d="M50 9V15" fill="none" stroke="#101214" stroke-width="1.5" transform="rotate(270 50 50)" /><path d="M50 9V15" fill="none" stroke="#101214" stroke-width="1.5" transform="rotate(300 50 50)" /><path d="M50 9V15" fill="none" stroke="#101214" stroke-width="1.5" transform="rotate(330 50 50)" /><path d="M50 23V50L73 64" fill="none" stroke="#101214" stroke-width="3" /><circle cx="50" cy="50" r="3" fill="#101214" /></g></g><text x="565.04" y="278.96" text-anchor="middle" fill="#E7E0D0" font-size="18" font-family="sans-serif">MORE THAN ONE DAY</text><g transform="translate(765.6 143.52) scale(2.6128 1.1264)" color="#5E737B"><g transform=""><defs>
+<linearGradient id="node-4-stock" x1="0" y1="0" x2=".8" y2="1"><stop stop-color="#E7E0D0" /><stop offset="1" stop-color="#CEC5B3" /></linearGradient>
+<pattern id="node-4-grain" width="7" height="9" patternUnits="userSpaceOnUse"><circle cx="1" cy="2" r=".35" fill="#101214" opacity=".18" /><path d="M4 6h2M1 8h1" stroke="#101214" stroke-width=".3" opacity=".16" /></pattern>
+</defs><path d="M5 3H95V97H5Z" fill="url(#node-4-stock)" stroke="currentColor" stroke-width="2" /><path d="M5 3H95V97H5Z" fill="url(#node-4-grain)" /><rect x="5" y="3" width="90" height="15" fill="currentColor" /><rect x="10" y="25" width="5" height="61" fill="currentColor" /><path d="M23 29H85M23 38H75M23 48H83M23 66H62M23 78H80" fill="none" stroke="#101214" stroke-width="2" /><path d="M12 11H42M65 11H86" fill="none" stroke="#E7E0D0" stroke-width="1.4" /></g></g><text x="896.24" y="278.96" text-anchor="middle" fill="#E7E0D0" font-size="18" font-family="sans-serif">BREACH</text><rect x="3" y="3" width="1194" height="794" fill="none" stroke="#5E737B" stroke-width="4"/></svg>

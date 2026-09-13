@@ -33,6 +33,7 @@
       ],
       "color": "steel",
       "focus": true,
+      "font": "editorial",
       "label": "ONE REPOSITORY",
       "label_box": [
         0.06775,
@@ -63,6 +64,7 @@
       ],
       "color": "claret",
       "focus": true,
+      "font": "editorial",
       "label": "ENTIRE SERVICE",
       "label_box": [
         0.52275,
@@ -75,6 +77,6 @@
   ],
   "reconstructed": false,
   "shot": "route",
-  "source": "\n**Location:** `artifactory-cache`\n\n**Frame:** The box returns a new access card. Its contents are hidden; only the scope bar expands from one repository to the entire service.\n\n**Action:** Administrative authority becomes valid inside Artifactory.\n\n**Screen / system text:**\n`SCOPE — ADMINISTRATIVE`\n\n**Provenance:** `documented` + `reconstructed` — administrator token is sourced; interface text is editorial.\n\n",
+  "source": "\n**Location:** `artifactory-cache`\n\n**Frame:** The box returns a new access card. Its contents are hidden; only the scope bar expands from one repository to the entire service.\n\n**Action:** Administrative authority becomes valid inside Artifactory.\n\n**Font:** `machine`\n\n**Screen / system text:**\n`SCOPE — ADMINISTRATIVE`\n\n**Provenance:** `documented` + `reconstructed` — administrator token is sourced; interface text is editorial.\n\n",
   "title": "The returned access scope expands"
 }

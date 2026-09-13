@@ -52,6 +52,7 @@
         ],
         &quot;color&quot;: &quot;steel&quot;,
         &quot;focus&quot;: true,
+        &quot;font&quot;: &quot;editorial&quot;,
         &quot;label&quot;: &quot;PAUSE SCOPE&quot;,
         &quot;label_box&quot;: [
           0.0541,
@@ -71,6 +72,7 @@
         ],
         &quot;color&quot;: &quot;shadow&quot;,
         &quot;focus&quot;: true,
+        &quot;font&quot;: &quot;editorial&quot;,
         &quot;label&quot;: &quot;PAUSED LANE&quot;,
         &quot;label_box&quot;: [
           0.136,
@@ -90,6 +92,7 @@
         ],
         &quot;color&quot;: &quot;steel&quot;,
         &quot;focus&quot;: true,
+        &quot;font&quot;: &quot;editorial&quot;,
         &quot;label&quot;: &quot;OTHER WORK&quot;,
         &quot;label_box&quot;: [
           0.6274,
@@ -102,8 +105,8 @@
     ],
     &quot;reconstructed&quot;: false,
     &quot;shot&quot;: &quot;split&quot;,
-    &quot;source&quot;: &quot;\n**Location:** `openai-training-program`\n\n**Frame:** A pause control has a visible scope bracket. Beyond it, other work lanes remain lit.\n\n**Caption:**\n&gt; THIS IS A REAL SLOWDOWN. IT IS NOT THE END OF CAPABILITY WORK.\n\n**Provenance:** `documented` + `inferred` — scope from OpenAI; interpretation stated narrowly.\n\n&quot;,
+    &quot;source&quot;: &quot;\n**Location:** `openai-training-program`\n\n**Frame:** A pause control has a visible scope bracket. Beyond it, other work lanes remain lit.\n\n**Font:** `narration`\n\n**Caption:**\n&gt; THIS IS A REAL SLOWDOWN. IT IS NOT THE END OF CAPABILITY WORK.\n\n**Provenance:** `documented` + `inferred` — scope from OpenAI; interpretation stated narrowly.\n\n&quot;,
     &quot;title&quot;: &quot;The pause has a scope while other work stays active&quot;
   }
 }
-</metadata><rect width="1200" height="800" fill="#101214"/><rect x="24" y="16" width="1152" height="768" fill="none" stroke="#5E737B" stroke-width="3"/><text x="32" y="40" fill="#5E737B" font-family="sans-serif" font-size="20">location-background-openai-training-program</text><rect x="64.92" y="41.68" width="491.4" height="359.885" fill="none" stroke="#5E737B" stroke-width="3"/><text x="72.92" y="65.68" fill="#5E737B" font-family="sans-serif" font-size="20">outline-box</text><text x="310.62" y="441.376" text-anchor="middle" fill="#E7E0D0" font-size="18" font-family="sans-serif">PAUSE SCOPE</text><rect x="163.2" y="166.64" width="294.84" height="168.696" fill="none" stroke="#202326" stroke-width="3"/><text x="171.2" y="190.64" fill="#202326" font-family="sans-serif" font-size="20">box</text><text x="310.62" y="363.56" text-anchor="middle" fill="#E7E0D0" font-size="18" font-family="sans-serif">PAUSED LANE</text><rect x="752.88" y="166.64" width="316.68" height="168.696" fill="none" stroke="#5E737B" stroke-width="3"/><text x="760.88" y="190.64" fill="#5E737B" font-family="sans-serif" font-size="20">box</text><text x="911.22" y="363.56" text-anchor="middle" fill="#E7E0D0" font-size="18" font-family="sans-serif">OTHER WORK</text><rect x="3" y="3" width="1194" height="794" fill="none" stroke="#5E737B" stroke-width="4"/></svg>
+</metadata><rect width="1200" height="800" fill="#101214"/><rect x="24" y="16" width="1152" height="768" fill="none" stroke="#5E737B" stroke-width="3"/><text x="32" y="40" fill="#5E737B" font-family="sans-serif" font-size="20">location-background-openai-training-program</text><rect x="64.92" y="41.68" width="491.4" height="359.885" fill="none" stroke="#5E737B" stroke-width="3"/><text x="72.92" y="65.68" fill="#5E737B" font-family="sans-serif" font-size="20">outline-box</text><text x="310.62" y="441.376" text-anchor="middle" fill="#E7E0D0" font-size="18" font-family="Arial, Helvetica, sans-serif" data-font-key="editorial" font-weight="700" font-style="normal" textLength="129.04" lengthAdjust="spacingAndGlyphs">PAUSE SCOPE</text><rect x="163.2" y="166.64" width="294.84" height="168.696" fill="none" stroke="#202326" stroke-width="3"/><text x="171.2" y="190.64" fill="#202326" font-family="sans-serif" font-size="20">box</text><text x="310.62" y="363.56" text-anchor="middle" fill="#E7E0D0" font-size="18" font-family="Arial, Helvetica, sans-serif" data-font-key="editorial" font-weight="700" font-style="normal" textLength="126.04" lengthAdjust="spacingAndGlyphs">PAUSED LANE</text><rect x="752.88" y="166.64" width="316.68" height="168.696" fill="none" stroke="#5E737B" stroke-width="3"/><text x="760.88" y="190.64" fill="#5E737B" font-family="sans-serif" font-size="20">box</text><text x="911.22" y="363.56" text-anchor="middle" fill="#E7E0D0" font-size="18" font-family="Arial, Helvetica, sans-serif" data-font-key="editorial" font-weight="700" font-style="normal" textLength="124.00" lengthAdjust="spacingAndGlyphs">OTHER WORK</text><rect x="3" y="3" width="1194" height="794" fill="none" stroke="#5E737B" stroke-width="4"/></svg>

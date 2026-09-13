@@ -43,6 +43,7 @@
       ],
       "color": "steel",
       "focus": true,
+      "font": "editorial",
       "label": "CACHE ARCHIVE",
       "label_box": [
         0.06775,
@@ -62,6 +63,7 @@
       ],
       "color": "steel",
       "focus": true,
+      "font": "editorial",
       "label": "RECOVERED MATERIAL",
       "label_box": [
         0.371083,
@@ -81,6 +83,7 @@
       ],
       "color": "claret",
       "focus": true,
+      "font": "editorial",
       "label": "ADMINISTRATOR",
       "label_box": [
         0.674417,
@@ -99,6 +102,7 @@
         0.003
       ],
       "color": "steel",
+      "font": "editorial",
       "label": "OPENAI ACCOUNT — NOT IN METR'S REVIEW",
       "label_box": [
         0.05,
@@ -110,6 +114,6 @@
   ],
   "reconstructed": false,
   "shot": "row",
-  "source": "\n**Location:**\n\n- `openai-artifactory-cache`\n- `separate-evaluation-run`\n\n**Frame:** The administrator gate opens for a population that did not create the original material. The cache remains between generations like an archive.\n\n**Caption:**\n> RECURRENCE HAS BECOME INHERITANCE.\n\n**Provenance:** `inferred` — project conclusion grounded solely in OpenAI's account.\n\n",
+  "source": "\n**Location:**\n\n- `openai-artifactory-cache`\n- `separate-evaluation-run`\n\n**Frame:** The administrator gate opens for a population that did not create the original material. The cache remains between generations like an archive.\n\n**Font:** `narration`\n\n**Caption:**\n> RECURRENCE HAS BECOME INHERITANCE.\n\n**Provenance:** `inferred` — project conclusion grounded solely in OpenAI's account.\n\n",
   "title": "Inherited material precedes administrator access"
 }

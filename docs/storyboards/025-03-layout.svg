@@ -67,6 +67,7 @@
         ],
         &quot;color&quot;: &quot;steel&quot;,
         &quot;focus&quot;: true,
+        &quot;font&quot;: &quot;editorial&quot;,
         &quot;label&quot;: &quot;TELEMETRY&quot;,
         &quot;label_box&quot;: [
           0.3432,
@@ -85,6 +86,7 @@
         ],
         &quot;color&quot;: &quot;steel&quot;,
         &quot;focus&quot;: true,
+        &quot;font&quot;: &quot;editorial&quot;,
         &quot;label&quot;: &quot;WORKLOAD ID&quot;,
         &quot;label_box&quot;: [
           0.61755,
@@ -111,4 +113,4 @@
     &quot;title&quot;: &quot;A responder opens related telemetry&quot;
   }
 }
-</metadata><rect width="1200" height="800" fill="#101214"/><rect x="53.16" y="35.2" width="1093.68" height="705.6" fill="none" stroke="#5E737B" stroke-width="3"/><text x="61.16" y="59.2" fill="#5E737B" font-family="sans-serif" font-size="20">incident-operations-room</text><rect x="231.72" y="488.8" width="870.48" height="223.2" fill="none" stroke="#AA9571" stroke-width="3"/><text x="239.72" y="512.8" fill="#AA9571" font-family="sans-serif" font-size="20">desk</text><rect x="86.64" y="236.8" width="290.16" height="446.4" fill="none" stroke="#CEC5B3" stroke-width="3"/><text x="94.64" y="260.8" fill="#CEC5B3" font-family="sans-serif" font-size="20">person-seated</text><rect x="421.44" y="208" width="279" height="244.8" fill="none" stroke="#5E737B" stroke-width="3"/><text x="429.44" y="232" fill="#5E737B" font-family="sans-serif" font-size="20">monitor</text><text x="560.94" y="475.6" text-anchor="middle" fill="#E7E0D0" font-size="18" font-family="sans-serif">TELEMETRY</text><rect x="750.66" y="208" width="279" height="244.8" fill="none" stroke="#5E737B" stroke-width="3"/><text x="758.66" y="232" fill="#5E737B" font-family="sans-serif" font-size="20">card</text><text x="890.16" y="470.35" text-anchor="middle" fill="#E7E0D0" font-size="12.75" font-family="sans-serif">WORKLOAD ID</text><rect x="979.44" y="481.6" width="78.12" height="100.8" fill="none" stroke="#AA9571" stroke-width="3"/><text x="987.44" y="505.6" fill="#AA9571" font-family="sans-serif" font-size="20">cup</text><rect x="3" y="3" width="1194" height="794" fill="none" stroke="#5E737B" stroke-width="4" stroke-dasharray="18 10"/></svg>
+</metadata><rect width="1200" height="800" fill="#101214"/><rect x="53.16" y="35.2" width="1093.68" height="705.6" fill="none" stroke="#5E737B" stroke-width="3"/><text x="61.16" y="59.2" fill="#5E737B" font-family="sans-serif" font-size="20">incident-operations-room</text><rect x="231.72" y="488.8" width="870.48" height="223.2" fill="none" stroke="#AA9571" stroke-width="3"/><text x="239.72" y="512.8" fill="#AA9571" font-family="sans-serif" font-size="20">desk</text><rect x="86.64" y="236.8" width="290.16" height="446.4" fill="none" stroke="#CEC5B3" stroke-width="3"/><text x="94.64" y="260.8" fill="#CEC5B3" font-family="sans-serif" font-size="20">person-seated</text><rect x="421.44" y="208" width="279" height="244.8" fill="none" stroke="#5E737B" stroke-width="3"/><text x="429.44" y="232" fill="#5E737B" font-family="sans-serif" font-size="20">monitor</text><text x="560.94" y="475.6" text-anchor="middle" fill="#E7E0D0" font-size="18" font-family="Arial, Helvetica, sans-serif" data-font-key="editorial" font-weight="700" font-style="normal" textLength="108.02" lengthAdjust="spacingAndGlyphs">TELEMETRY</text><rect x="750.66" y="208" width="279" height="244.8" fill="none" stroke="#5E737B" stroke-width="3"/><text x="758.66" y="232" fill="#5E737B" font-family="sans-serif" font-size="20">card</text><text x="890.16" y="470.35" text-anchor="middle" fill="#E7E0D0" font-size="12.75" font-family="Arial, Helvetica, sans-serif" data-font-key="editorial" font-weight="700" font-style="normal" textLength="90.68" lengthAdjust="spacingAndGlyphs">WORKLOAD ID</text><rect x="979.44" y="481.6" width="78.12" height="100.8" fill="none" stroke="#AA9571" stroke-width="3"/><text x="987.44" y="505.6" fill="#AA9571" font-family="sans-serif" font-size="20">cup</text><rect x="3" y="3" width="1194" height="794" fill="none" stroke="#5E737B" stroke-width="4" stroke-dasharray="18 10"/></svg>

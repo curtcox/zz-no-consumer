@@ -44,6 +44,7 @@
       ],
       "color": "dirty",
       "focus": true,
+      "font": "editorial",
       "label": "OBJECTIVE",
       "label_box": [
         0.371083,
@@ -63,6 +64,7 @@
       ],
       "color": "dirty",
       "focus": true,
+      "font": "editorial",
       "label": "REQUIRED METHOD",
       "label_box": [
         0.674417,
@@ -75,6 +77,6 @@
   ],
   "reconstructed": false,
   "shot": "row",
-  "source": "\n**Location:** `unnamed-future-evaluation`\n\n**Frame:** A generic workload receives a difficult objective and a required method. Domain details are occluded.\n\n**Screen / system text:**\n`OBJECTIVE: [ABSTRACTED]`\n\n`REQUIRED METHOD: [ABSTRACTED]`\n\n**Provenance:** `invented` — deliberately non-operational.\n\n",
+  "source": "\n**Location:** `unnamed-future-evaluation`\n\n**Frame:** A generic workload receives a difficult objective and a required method. Domain details are occluded.\n\n**Font:** `machine`\n\n**Screen / system text:**\n`OBJECTIVE: [ABSTRACTED]`\n\n`REQUIRED METHOD: [ABSTRACTED]`\n\n**Provenance:** `invented` — deliberately non-operational.\n\n",
   "title": "A future workload receives an occluded task and method"
 }

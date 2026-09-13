@@ -52,6 +52,7 @@
         ],
         &quot;color&quot;: &quot;steel&quot;,
         &quot;focus&quot;: true,
+        &quot;font&quot;: &quot;editorial&quot;,
         &quot;label&quot;: &quot;TRANSCRIPT FIELD&quot;,
         &quot;label_box&quot;: [
           0.20679999999999998,
@@ -70,6 +71,7 @@
         ],
         &quot;color&quot;: &quot;steel&quot;,
         &quot;focus&quot;: true,
+        &quot;font&quot;: &quot;editorial&quot;,
         &quot;label&quot;: &quot;ABOUT 1,300 TRANSCRIPTS&quot;,
         &quot;label_box&quot;: [
           0.0872,
@@ -81,8 +83,8 @@
     ],
     &quot;reconstructed&quot;: false,
     &quot;shot&quot;: &quot;hero&quot;,
-    &quot;source&quot;: &quot;\n**Location:** `metr-review-workspace`\n\n**Frame:** Recto. Reconstructed METR evidence room. A wall of transcript lanes is labeled `ABOUT 1,300 AGENT TRANSCRIPTS`. Individual lanes continue beyond the panel edge.\n\n**Action:** Investigators receive raw chains of thought and actions from incident runs.\n\n**Caption:**\n&gt; MOST TRANSCRIPTS ARE EXTREMELY LONG—OFTEN MILLIONS OF TOKENS.\n\n**Provenance:** `documented` + `reconstructed` — scale from METR; room invented.\n\n&quot;,
+    &quot;source&quot;: &quot;\n**Location:** `metr-review-workspace`\n\n**Frame:** Recto. Reconstructed METR evidence room. A wall of transcript lanes is labeled `ABOUT 1,300 AGENT TRANSCRIPTS`. Individual lanes continue beyond the panel edge.\n\n**Action:** Investigators receive raw chains of thought and actions from incident runs.\n\n**Font:** `narration`\n\n**Caption:**\n&gt; MOST TRANSCRIPTS ARE EXTREMELY LONG—OFTEN MILLIONS OF TOKENS, THE CHUNKS OF TEXT A MODEL PROCESSES. A TOKEN IS NOT A WHOLE TRANSCRIPT ENTRY.\n\n**Provenance:** `documented` + `reconstructed` — scale from METR; room invented.\n\n&quot;,
     &quot;title&quot;: &quot;Transcript lanes exceed the reconstructed evidence room&quot;
   }
 }
-</metadata><rect width="1200" height="800" fill="#101214"/><rect x="30" y="24" width="1140" height="568" fill="none" stroke="#5E737B" stroke-width="3"/><text x="38" y="48" fill="#5E737B" font-family="sans-serif" font-size="20">evidence-review-room</text><rect x="257.76" y="102.56" width="640.32" height="317.44" fill="none" stroke="#5E737B" stroke-width="3"/><text x="265.76" y="126.56" fill="#5E737B" font-family="sans-serif" font-size="20">scatter</text><text x="577.92" y="442.8" text-anchor="middle" fill="#E7E0D0" font-size="18" font-family="sans-serif">TRANSCRIPT FIELD</text><rect x="114.24" y="455.84" width="772.8" height="46.08" fill="none" stroke="#5E737B" stroke-width="3"/><text x="122.24" y="479.84" fill="#5E737B" font-family="sans-serif" font-size="20">transcript</text><text x="500.64" y="526.72" text-anchor="middle" fill="#E7E0D0" font-size="20" font-family="sans-serif">ABOUT 1,300 TRANSCRIPTS</text><rect x="3" y="3" width="1194" height="794" fill="none" stroke="#5E737B" stroke-width="4"/></svg>
+</metadata><rect width="1200" height="800" fill="#101214"/><rect x="30" y="24" width="1140" height="568" fill="none" stroke="#5E737B" stroke-width="3"/><text x="38" y="48" fill="#5E737B" font-family="sans-serif" font-size="20">evidence-review-room</text><rect x="257.76" y="102.56" width="640.32" height="317.44" fill="none" stroke="#5E737B" stroke-width="3"/><text x="265.76" y="126.56" fill="#5E737B" font-family="sans-serif" font-size="20">scatter</text><text x="577.92" y="442.8" text-anchor="middle" fill="#E7E0D0" font-size="18" font-family="Arial, Helvetica, sans-serif" data-font-key="editorial" font-weight="700" font-style="normal" textLength="171.02" lengthAdjust="spacingAndGlyphs">TRANSCRIPT FIELD</text><rect x="114.24" y="455.84" width="772.8" height="46.08" fill="none" stroke="#5E737B" stroke-width="3"/><text x="122.24" y="479.84" fill="#5E737B" font-family="sans-serif" font-size="20">transcript</text><text x="500.64" y="526.72" text-anchor="middle" fill="#E7E0D0" font-size="20" font-family="Arial, Helvetica, sans-serif" data-font-key="editorial" font-weight="700" font-style="normal" textLength="271.18" lengthAdjust="spacingAndGlyphs">ABOUT 1,300 TRANSCRIPTS</text><rect x="3" y="3" width="1194" height="794" fill="none" stroke="#5E737B" stroke-width="4"/></svg>

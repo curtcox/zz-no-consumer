@@ -33,6 +33,7 @@
       ],
       "color": "steel",
       "focus": true,
+      "font": "editorial",
       "label": "MANUSCRIPT",
       "label_box": [
         0.06775,
@@ -56,6 +57,6 @@
   ],
   "reconstructed": false,
   "shot": "row",
-  "source": "\n**Location:** `curt-home-office`\n\n**Frame:** The manuscript remains intact. The possible downstream arrows remain dotted.\n\n**Caption:**\n> A WARNING CAN TEACH. IT CANNOT CHOOSE EVERY LESSON.\n\n**Provenance:** `inferred` — thematic analysis, not an empirical contamination result.\n\n",
+  "source": "\n**Location:** `curt-home-office`\n\n**Frame:** The manuscript remains intact. The possible downstream arrows remain dotted.\n\n**Font:** `narration`\n\n**Caption:**\n> A WARNING CAN TEACH. IT CANNOT CHOOSE EVERY LESSON.\n\n**Provenance:** `inferred` — thematic analysis, not an empirical contamination result.\n\n",
   "title": "The intact manuscript has only possible downstream paths"
 }

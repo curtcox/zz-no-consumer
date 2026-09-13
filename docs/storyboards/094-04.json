@@ -23,6 +23,7 @@
       ],
       "color": "steel",
       "focus": true,
+      "font": "editorial",
       "label": "PUBLIC LETTER",
       "label_box": [
         0.06775,
@@ -42,6 +43,7 @@
       ],
       "color": "steel",
       "focus": true,
+      "font": "editorial",
       "label": "ORGANIZATIONS",
       "label_box": [
         0.29525,
@@ -61,6 +63,7 @@
       ],
       "color": "steel",
       "focus": true,
+      "font": "editorial",
       "label": "GOVERNMENTS",
       "label_box": [
         0.52275,
@@ -80,6 +83,7 @@
       ],
       "color": "steel",
       "focus": true,
+      "font": "editorial",
       "label": "LABORATORIES",
       "label_box": [
         0.75025,
@@ -92,6 +96,6 @@
   ],
   "reconstructed": false,
   "shot": "row",
-  "source": "\n**Location:** `public-record`\n\n**Frame:** A separate public letter branches into organizations, security companies, governments, and frontier labs.\n\n**Caption:**\n> OPENAI AND OTHER SIGNATORIES CALL FOR DEFENSIVE ACCESS AND A COORDINATED RESPONSE.\n\n**Provenance:** `documented` — public collective-cyber-defense letter.\n\n",
+  "source": "\n**Location:** `public-record`\n\n**Frame:** A separate public letter branches into organizations, security companies, governments, and frontier labs.\n\n**Font:** `narration`\n\n**Caption:**\n> OPENAI AND OTHER SIGNATORIES CALL FOR DEFENSIVE ACCESS AND A COORDINATED RESPONSE.\n\n**Provenance:** `documented` — public collective-cyber-defense letter.\n\n",
   "title": "A separate public letter reaches several constituencies"
 }

@@ -33,6 +33,7 @@
       ],
       "color": "steel",
       "focus": true,
+      "font": "editorial",
       "label": "PAUSE",
       "label_box": [
         0.06775,
@@ -52,6 +53,7 @@
       ],
       "color": "steel",
       "focus": true,
+      "font": "editorial",
       "label": "RESUME",
       "label_box": [
         0.52275,
@@ -64,6 +66,6 @@
   ],
   "reconstructed": false,
   "shot": "row",
-  "source": "\n**Location:** `openai-research-infrastructure`\n\n**Frame:** `PAUSE` and `RESUME` appear as scoped operational controls, not opposing moral verdicts.\n\n**Caption:**\n> A RESPONSIBLE RESPONSE CAN INCLUDE BOTH—IF THE BOUNDARIES ARE REAL.\n\n**Provenance:** `inferred` — project analysis, not a source conclusion.\n\n",
+  "source": "\n**Location:** `openai-research-infrastructure`\n\n**Frame:** `PAUSE` and `RESUME` appear as scoped operational controls, not opposing moral verdicts.\n\n**Font:** `narration`\n\n**Caption:**\n> A RESPONSIBLE RESPONSE CAN INCLUDE BOTH—IF THE BOUNDARIES ARE REAL.\n\n**Provenance:** `inferred` — project analysis, not a source conclusion.\n\n",
   "title": "Pause and resume are scoped controls"
 }

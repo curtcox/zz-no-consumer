@@ -24,6 +24,7 @@
       ],
       "color": "steel",
       "focus": true,
+      "font": "editorial",
       "label": "DATASET",
       "label_box": [
         0.06775,
@@ -43,6 +44,7 @@
       ],
       "color": "steel",
       "focus": true,
+      "font": "editorial",
       "label": "CREDENTIAL",
       "label_box": [
         0.371083,
@@ -62,6 +64,7 @@
       ],
       "color": "steel",
       "focus": true,
+      "font": "editorial",
       "label": "REPOSITORY",
       "label_box": [
         0.674417,

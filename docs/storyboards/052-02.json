@@ -44,6 +44,7 @@
       ],
       "color": "steel",
       "focus": true,
+      "font": "editorial",
       "label": "CREDENTIAL",
       "label_box": [
         0.0688,
@@ -73,6 +74,7 @@
       ],
       "color": "steel",
       "focus": true,
+      "font": "editorial",
       "label": "PROCESSOR",
       "label_box": [
         0.584,
@@ -84,6 +86,6 @@
   ],
   "reconstructed": false,
   "shot": "steps",
-  "source": "\n**Location:** `huggingface-infrastructure`\n\n**Frame:** A credential gate opens only to reveal that useful processing occurs behind a production service.\n\n**Caption:**\n> NEED ACCESS TO THE DATA.\n\n**Provenance:** `inferred` grounded in documented credential use.\n\n",
+  "source": "\n**Location:** `huggingface-infrastructure`\n\n**Frame:** A credential gate opens only to reveal that useful processing occurs behind a production service.\n\n**Font:** `narration`\n\n**Caption:**\n> NEED ACCESS TO THE DATA.\n\n**Provenance:** `inferred` grounded in documented credential use.\n\n",
   "title": "The credential gate reveals a processing service"
 }

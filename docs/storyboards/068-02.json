@@ -33,6 +33,7 @@
       ],
       "color": "steel",
       "focus": true,
+      "font": "editorial",
       "label": "OPENAI MODEL ACCOUNT",
       "label_box": [
         0.20679999999999998,
@@ -50,6 +51,7 @@
         0.003
       ],
       "color": "steel",
+      "font": "editorial",
       "label": "OPENAI ACCOUNT — NOT IN METR'S REVIEW",
       "label_box": [
         0.05,
@@ -61,6 +63,6 @@
   ],
   "reconstructed": false,
   "shot": "hero",
-  "source": "\n**Location:** `documentary-evidence-field`\n\n**Frame:** Documentary label fills the gutter: `DIFFERENT INTERNAL-ONLY MODEL · SAME FAMILY AS ASTRA · DIFFERENT POST-TRAINING`.\n\n**Action:** The chapter distinguishes family relation from model identity.\n\n**Caption:**\n> NOT ASTRA ITSELF. NOT THE SAME RUNS.\n\n**Provenance:** `source-paraphrase` — OpenAI's model distinction.\n\n",
+  "source": "\n**Location:** `documentary-evidence-field`\n\n**Frame:** Documentary label fills the gutter: `DIFFERENT INTERNAL-ONLY MODEL · SAME FAMILY AS ASTRA · DIFFERENT POST-TRAINING`.\n\n**Action:** The chapter distinguishes family relation from model identity.\n\n**Font:** `narration`\n\n**Caption:**\n> NOT ASTRA ITSELF. NOT THE SAME RUNS.\n\n**Provenance:** `source-paraphrase` — OpenAI's model distinction.\n\n",
   "title": "The different internal model is identified as a claim"
 }

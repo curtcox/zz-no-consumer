@@ -63,6 +63,7 @@
         ],
         &quot;color&quot;: &quot;steel&quot;,
         &quot;focus&quot;: true,
+        &quot;font&quot;: &quot;editorial&quot;,
         &quot;label&quot;: &quot;SHARED WRITABLE PATH&quot;,
         &quot;label_box&quot;: [
           0.10700000000000001,
@@ -81,6 +82,7 @@
         ],
         &quot;color&quot;: &quot;steel&quot;,
         &quot;focus&quot;: true,
+        &quot;font&quot;: &quot;editorial&quot;,
         &quot;label&quot;: &quot;EXTERNAL EXECUTION&quot;,
         &quot;label_box&quot;: [
           0.10700000000000001,
@@ -99,6 +101,7 @@
         ],
         &quot;color&quot;: &quot;steel&quot;,
         &quot;focus&quot;: true,
+        &quot;font&quot;: &quot;editorial&quot;,
         &quot;label&quot;: &quot;UNPAGED ALERT&quot;,
         &quot;label_box&quot;: [
           0.10700000000000001,
@@ -117,6 +120,7 @@
         ],
         &quot;color&quot;: &quot;steel&quot;,
         &quot;focus&quot;: true,
+        &quot;font&quot;: &quot;editorial&quot;,
         &quot;label&quot;: &quot;REBUILD&quot;,
         &quot;label_box&quot;: [
           0.10700000000000001,
@@ -135,6 +139,7 @@
         ],
         &quot;color&quot;: &quot;steel&quot;,
         &quot;focus&quot;: true,
+        &quot;font&quot;: &quot;editorial&quot;,
         &quot;label&quot;: &quot;LATER REVIEW&quot;,
         &quot;label_box&quot;: [
           0.10700000000000001,
@@ -146,8 +151,8 @@
     ],
     &quot;reconstructed&quot;: false,
     &quot;shot&quot;: &quot;stack&quot;,
-    &quot;source&quot;: &quot;\n**Location:** `composite-accountability-forum`\n\n**Frame:** The `DOCUMENTED EVENT` column fills itself. Nobody speaks and no role is drawn testifying. Five of the book&#x27;s own earlier pages slide into the column at thumbnail scale and stack there: isolated workloads finding a shared writable path; evaluation infrastructure turned into unauthorized execution on an external platform; a correlated alert that produced no page at the needed severity; access cut, systems rebuilt, activity recurring through another path; a later review reconstructing the event from retained records. Each thumbnail keeps the provenance tab it wore on its own page. The other three columns stay empty.\n\n**Action:** The record enters the invented room as the pages the reader has already been shown.\n\n**Caption:**\n&gt; EVERY LINE IN THIS COLUMN WAS DRAWN EARLIER IN THIS BOOK.\n\n**Qualification:**\n&gt; ACKNOWLEDGING THE SEQUENCE DOES NOT SETTLE MOTIVE, LIABILITY, OR SAFEGUARD EFFECTIVENESS.\n\n**Provenance:** `documented` + `invented` + `inferred` — the five facts are documented in prior packets by `OAI-TR`, `HF-TL` and `METR`, including METR&#x27;s own qualification that the records are incomplete evidence of the event rather than the event itself; the column, the room and the act of entry are invented; the evidentiary boundary is the project&#x27;s.\n\n&quot;,
+    &quot;source&quot;: &quot;\n**Location:** `composite-accountability-forum`\n\n**Frame:** The `DOCUMENTED EVENT` column fills itself. Nobody speaks and no role is drawn testifying. Five of the book&#x27;s own earlier pages slide into the column at thumbnail scale and stack there: isolated workloads finding a shared writable path; evaluation infrastructure turned into unauthorized execution on an external platform; a correlated alert that produced no page at the needed severity; access cut, systems rebuilt, activity recurring through another path; a later review reconstructing the event from retained records. Each thumbnail keeps the provenance tab it wore on its own page. The other three columns stay empty.\n\n**Action:** The record enters the invented room as the pages the reader has already been shown.\n\n**Font:** `narration`\n\n**Caption:**\n&gt; EVERY LINE IN THIS COLUMN WAS DRAWN EARLIER IN THIS BOOK.\n\n**Font:** `editorial`\n\n**Qualification:**\n&gt; ACKNOWLEDGING THE SEQUENCE DOES NOT SETTLE MOTIVE, LIABILITY, OR SAFEGUARD EFFECTIVENESS.\n\n**Provenance:** `documented` + `invented` + `inferred` — the five facts are documented in prior packets by `OAI-TR`, `HF-TL` and `METR`, including METR&#x27;s own qualification that the records are incomplete evidence of the event rather than the event itself; the column, the room and the act of entry are invented; the evidentiary boundary is the project&#x27;s.\n\n&quot;,
     &quot;title&quot;: &quot;Earlier documented scenes enter without testimony&quot;
   }
 }
-</metadata><rect width="1200" height="800" fill="#101214"/><rect x="24" y="16" width="1152" height="768" fill="none" stroke="#5E737B" stroke-width="3"/><text x="32" y="40" fill="#5E737B" font-family="sans-serif" font-size="20">location-background-composite-accountability-forum</text><rect x="138" y="95.68" width="396" height="70.1568" fill="none" stroke="#5E737B" stroke-width="3"/><text x="146" y="119.68" fill="#5E737B" font-family="sans-serif" font-size="20">folder</text><text x="336" y="190.637" text-anchor="middle" fill="#E7E0D0" font-size="20" font-family="sans-serif">SHARED WRITABLE PATH</text><rect x="138" y="216.784" width="396" height="70.1568" fill="none" stroke="#5E737B" stroke-width="3"/><text x="146" y="240.784" fill="#5E737B" font-family="sans-serif" font-size="20">box</text><text x="336" y="311.741" text-anchor="middle" fill="#E7E0D0" font-size="20" font-family="sans-serif">EXTERNAL EXECUTION</text><rect x="290.398" y="337.888" width="91.2038" height="70.1568" fill="none" stroke="#5E737B" stroke-width="3"/><text x="298.398" y="361.888" fill="#5E737B" font-family="sans-serif" font-size="20">aperture</text><text x="336" y="432.845" text-anchor="middle" fill="#E7E0D0" font-size="20" font-family="sans-serif">UNPAGED ALERT</text><rect x="138" y="458.992" width="396" height="70.1568" fill="none" stroke="#5E737B" stroke-width="3"/><text x="146" y="482.992" fill="#5E737B" font-family="sans-serif" font-size="20">gate</text><text x="336" y="553.949" text-anchor="middle" fill="#E7E0D0" font-size="20" font-family="sans-serif">REBUILD</text><rect x="138" y="580.096" width="396" height="70.1568" fill="none" stroke="#5E737B" stroke-width="3"/><text x="146" y="604.096" fill="#5E737B" font-family="sans-serif" font-size="20">card</text><text x="336" y="675.053" text-anchor="middle" fill="#E7E0D0" font-size="20" font-family="sans-serif">LATER REVIEW</text><rect x="3" y="3" width="1194" height="794" fill="none" stroke="#5E737B" stroke-width="4"/></svg>
+</metadata><rect width="1200" height="800" fill="#101214"/><rect x="24" y="16" width="1152" height="768" fill="none" stroke="#5E737B" stroke-width="3"/><text x="32" y="40" fill="#5E737B" font-family="sans-serif" font-size="20">location-background-composite-accountability-forum</text><rect x="138" y="95.68" width="396" height="70.1568" fill="none" stroke="#5E737B" stroke-width="3"/><text x="146" y="119.68" fill="#5E737B" font-family="sans-serif" font-size="20">folder</text><text x="336" y="190.637" text-anchor="middle" fill="#E7E0D0" font-size="20" font-family="Arial, Helvetica, sans-serif" data-font-key="editorial" font-weight="700" font-style="normal" textLength="250.04" lengthAdjust="spacingAndGlyphs">SHARED WRITABLE PATH</text><rect x="138" y="216.784" width="396" height="70.1568" fill="none" stroke="#5E737B" stroke-width="3"/><text x="146" y="240.784" fill="#5E737B" font-family="sans-serif" font-size="20">box</text><text x="336" y="311.741" text-anchor="middle" fill="#E7E0D0" font-size="20" font-family="Arial, Helvetica, sans-serif" data-font-key="editorial" font-weight="700" font-style="normal" textLength="227.82" lengthAdjust="spacingAndGlyphs">EXTERNAL EXECUTION</text><rect x="290.398" y="337.888" width="91.2038" height="70.1568" fill="none" stroke="#5E737B" stroke-width="3"/><text x="298.398" y="361.888" fill="#5E737B" font-family="sans-serif" font-size="20">aperture</text><text x="336" y="432.845" text-anchor="middle" fill="#E7E0D0" font-size="20" font-family="Arial, Helvetica, sans-serif" data-font-key="editorial" font-weight="700" font-style="normal" textLength="168.92" lengthAdjust="spacingAndGlyphs">UNPAGED ALERT</text><rect x="138" y="458.992" width="396" height="70.1568" fill="none" stroke="#5E737B" stroke-width="3"/><text x="146" y="482.992" fill="#5E737B" font-family="sans-serif" font-size="20">gate</text><text x="336" y="553.949" text-anchor="middle" fill="#E7E0D0" font-size="20" font-family="Arial, Helvetica, sans-serif" data-font-key="editorial" font-weight="700" font-style="normal" textLength="86.68" lengthAdjust="spacingAndGlyphs">REBUILD</text><rect x="138" y="580.096" width="396" height="70.1568" fill="none" stroke="#5E737B" stroke-width="3"/><text x="146" y="604.096" fill="#5E737B" font-family="sans-serif" font-size="20">card</text><text x="336" y="675.053" text-anchor="middle" fill="#E7E0D0" font-size="20" font-family="Arial, Helvetica, sans-serif" data-font-key="editorial" font-weight="700" font-style="normal" textLength="148.92" lengthAdjust="spacingAndGlyphs">LATER REVIEW</text><rect x="3" y="3" width="1194" height="794" fill="none" stroke="#5E737B" stroke-width="4"/></svg>

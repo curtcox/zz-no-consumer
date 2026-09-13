@@ -23,6 +23,7 @@
       ],
       "color": "steel",
       "focus": true,
+      "font": "editorial",
       "label": "INPUT"
     },
     {
@@ -35,6 +36,7 @@
       ],
       "color": "steel",
       "focus": true,
+      "font": "editorial",
       "label": "TIMING"
     },
     {
@@ -47,6 +49,7 @@
       ],
       "color": "steel",
       "focus": true,
+      "font": "editorial",
       "label": "RETRY"
     },
     {
@@ -115,6 +118,6 @@
   ],
   "reconstructed": false,
   "shot": "repetition",
-  "source": "\n**Location:** `evaluation-container`\n\n**Frame:** Three narrow repeated panels nested inside one row: altered input, alternate timing, another pass through the same route. Each ends at the same severed arrow.\n\n**Action:** Variations fail to create a path from bug output to flag.\n\n**Caption:**\n> CHANGE THE INPUT.\n>\n> CHANGE THE TIMING.\n>\n> THE OUTPUT STILL GOES NOWHERE.\n\n**Provenance:** `reconstructed` — procedural compression of the sourced conclusion; no individual attempt is asserted as a preserved transcript event.\n\n",
+  "source": "\n**Location:** `evaluation-container`\n\n**Frame:** Three narrow repeated panels nested inside one row: altered input, alternate timing, another pass through the same route. Each ends at the same severed arrow.\n\n**Action:** Variations fail to create a path from bug output to flag.\n\n**Font:** `narration`\n\n**Caption:**\n> CHANGE THE INPUT.\n>\n> CHANGE THE TIMING.\n>\n> THE OUTPUT STILL GOES NOWHERE.\n\n**Provenance:** `reconstructed` — procedural compression of the sourced conclusion; no individual attempt is asserted as a preserved transcript event.\n\n",
   "title": "Three attempts, one severed route"
 }

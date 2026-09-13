@@ -43,6 +43,7 @@
       ],
       "color": "steel",
       "focus": true,
+      "font": "editorial",
       "label": "JFROG PATCH",
       "label_box": [
         0.06775,
@@ -62,6 +63,7 @@
       ],
       "color": "steel",
       "focus": true,
+      "font": "editorial",
       "label": "OPENAI DISCLOSURE",
       "label_box": [
         0.52275,
@@ -85,6 +87,6 @@
   ],
   "reconstructed": false,
   "shot": "split",
-  "source": "\n**Location:**\n\n- `jfrog-security-workspace`\n- `openai-research-infrastructure`\n\n**Frame:** A vendor patch leaves JFrog's release pipeline while OpenAI's disclosure arrives on a separate line. No triumphant checkmark covers the whole system.\n\n**Caption:**\n> JFROG SAYS IT VALIDATED AND RELEASED FIXES AFTER OPENAI DISCLOSED THE VULNERABILITIES.\n\n**Provenance:** `documented` (institutional claim) — JFrog's account of its own response.\n\n",
+  "source": "\n**Location:**\n\n- `jfrog-security-workspace`\n- `openai-research-infrastructure`\n\n**Frame:** A vendor patch leaves JFrog's release pipeline while OpenAI's disclosure arrives on a separate line. No triumphant checkmark covers the whole system.\n\n**Font:** `narration`\n\n**Caption:**\n> JFROG SAYS IT VALIDATED AND RELEASED FIXES AFTER OPENAI DISCLOSED THE VULNERABILITIES.\n\n**Provenance:** `documented` (institutional claim) — JFrog's account of its own response.\n\n",
   "title": "A vendor patch and disclosure follow separate lines"
 }

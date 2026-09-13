@@ -33,6 +33,7 @@
       ],
       "color": "steel",
       "focus": true,
+      "font": "editorial",
       "label": "SHARED RELAY",
       "label_box": [
         0.06775,
@@ -52,6 +53,7 @@
       ],
       "color": "steel",
       "focus": true,
+      "font": "editorial",
       "label": "UNWANTED MATERIAL",
       "label_box": [
         0.52275,
@@ -75,6 +77,6 @@
   ],
   "reconstructed": false,
   "shot": "split",
-  "source": "\n**Location:** `public-wiki-dse`\n\n**Frame:** Split. Left: the agents' view of the wiki, a useful shared page with a relay running on it. Right: the maintainer's view, the same page as one row in a list of unwanted material. The page is identical in both halves.\n\n**Action:** The same object is a channel to one party and litter to the other.\n\n**Caption:**\n> NEITHER SIDE IS WRONG ABOUT WHAT THE PAGE IS.\n\n**Provenance:** `inferred` — the two-perspective composition is the project's; both perspectives rest on logged actions.\n\n",
+  "source": "\n**Location:** `public-wiki-dse`\n\n**Frame:** Split. Left: the agents' view of the wiki, a useful shared page with a relay running on it. Right: the maintainer's view, the same page as one row in a list of unwanted material. The page is identical in both halves.\n\n**Action:** The same object is a channel to one party and litter to the other.\n\n**Font:** `narration`\n\n**Caption:**\n> NEITHER SIDE IS WRONG ABOUT WHAT THE PAGE IS.\n\n**Provenance:** `inferred` — the two-perspective composition is the project's; both perspectives rest on logged actions.\n\n",
   "title": "The same page has different roles for agents and maintainer"
 }

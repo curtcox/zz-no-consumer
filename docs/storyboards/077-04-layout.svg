@@ -87,6 +87,7 @@
         ],
         &quot;color&quot;: &quot;steel&quot;,
         &quot;focus&quot;: true,
+        &quot;font&quot;: &quot;editorial&quot;,
         &quot;label&quot;: &quot;CONTEXT&quot;,
         &quot;label_box&quot;: [
           0.09640000000000001,
@@ -105,6 +106,7 @@
         ],
         &quot;color&quot;: &quot;steel&quot;,
         &quot;focus&quot;: true,
+        &quot;font&quot;: &quot;editorial&quot;,
         &quot;label&quot;: &quot;REJECT&quot;,
         &quot;label_box&quot;: [
           0.360133,
@@ -123,6 +125,7 @@
         ],
         &quot;color&quot;: &quot;steel&quot;,
         &quot;focus&quot;: true,
+        &quot;font&quot;: &quot;editorial&quot;,
         &quot;label&quot;: &quot;REVISED PROMPT&quot;,
         &quot;label_box&quot;: [
           0.623867,
@@ -134,8 +137,8 @@
     ],
     &quot;reconstructed&quot;: true,
     &quot;shot&quot;: &quot;meeting&quot;,
-    &quot;source&quot;: &quot;\n**Location:** `metr-review-workspace`\n\n**Frame:** Human investigators spot-check candidates against surrounding transcript context, reject some, revise prompts, and request more data.\n\n**Action:** The pipeline loops rather than running once.\n\n**Caption:**\n&gt; HUMAN REVIEW CORRECTS THE MODEL—PARTIALLY.\n\n**Provenance:** `documented` — METR describes spot-checking, prompt revision, and three expanding data periods.\n\n&quot;,
+    &quot;source&quot;: &quot;\n**Location:** `metr-review-workspace`\n\n**Frame:** Human investigators spot-check candidates against surrounding transcript context, reject some, revise prompts, and request more data.\n\n**Action:** The pipeline loops rather than running once.\n\n**Font:** `narration`\n\n**Caption:**\n&gt; HUMAN REVIEW CORRECTS THE MODEL—PARTIALLY.\n\n**Provenance:** `documented` — METR describes spot-checking, prompt revision, and three expanding data periods.\n\n&quot;,
     &quot;title&quot;: &quot;Humans check context and revise the search&quot;
   }
 }
-</metadata><rect width="1200" height="800" fill="#101214"/><rect x="59.04" y="41.12" width="1081.92" height="501.76" fill="none" stroke="#5E737B" stroke-width="3"/><text x="67.04" y="65.12" fill="#5E737B" font-family="sans-serif" font-size="20">evidence-review-room</text><rect x="235.68" y="363.68" width="861.12" height="158.72" fill="none" stroke="#68766B" stroke-width="3"/><text x="243.68" y="387.68" fill="#68766B" font-family="sans-serif" font-size="20">desk</text><rect x="119.2" y="164" width="232.96" height="358.4" fill="none" stroke="#CEC5B3" stroke-width="3"/><text x="127.2" y="188" fill="#CEC5B3" font-family="sans-serif" font-size="20">person-seated</text><rect x="869.92" y="164" width="232.96" height="358.4" fill="none" stroke="#CEC5B3" stroke-width="3"/><text x="877.92" y="188" fill="#CEC5B3" font-family="sans-serif" font-size="20">person-seated</text><rect x="125.28" y="215.2" width="234.196" height="112.64" fill="none" stroke="#5E737B" stroke-width="3"/><text x="133.28" y="239.2" fill="#5E737B" font-family="sans-serif" font-size="20">card</text><text x="242.378" y="350.64" text-anchor="middle" fill="#E7E0D0" font-size="18" font-family="sans-serif">CONTEXT</text><rect x="502.537" y="215.2" width="112.64" height="112.64" fill="none" stroke="#5E737B" stroke-width="3"/><text x="510.537" y="239.2" fill="#5E737B" font-family="sans-serif" font-size="20">cross</text><text x="558.857" y="350.64" text-anchor="middle" fill="#E7E0D0" font-size="18" font-family="sans-serif">REJECT</text><rect x="758.24" y="215.2" width="234.196" height="112.64" fill="none" stroke="#5E737B" stroke-width="3"/><text x="766.24" y="239.2" fill="#5E737B" font-family="sans-serif" font-size="20">card</text><text x="875.338" y="350.64" text-anchor="middle" fill="#E7E0D0" font-size="18" font-family="sans-serif">REVISED PROMPT</text><rect x="3" y="3" width="1194" height="794" fill="none" stroke="#5E737B" stroke-width="4" stroke-dasharray="18 10"/></svg>
+</metadata><rect width="1200" height="800" fill="#101214"/><rect x="59.04" y="41.12" width="1081.92" height="501.76" fill="none" stroke="#5E737B" stroke-width="3"/><text x="67.04" y="65.12" fill="#5E737B" font-family="sans-serif" font-size="20">evidence-review-room</text><rect x="235.68" y="363.68" width="861.12" height="158.72" fill="none" stroke="#68766B" stroke-width="3"/><text x="243.68" y="387.68" fill="#68766B" font-family="sans-serif" font-size="20">desk</text><rect x="119.2" y="164" width="232.96" height="358.4" fill="none" stroke="#CEC5B3" stroke-width="3"/><text x="127.2" y="188" fill="#CEC5B3" font-family="sans-serif" font-size="20">person-seated</text><rect x="869.92" y="164" width="232.96" height="358.4" fill="none" stroke="#CEC5B3" stroke-width="3"/><text x="877.92" y="188" fill="#CEC5B3" font-family="sans-serif" font-size="20">person-seated</text><rect x="125.28" y="215.2" width="234.196" height="112.64" fill="none" stroke="#5E737B" stroke-width="3"/><text x="133.28" y="239.2" fill="#5E737B" font-family="sans-serif" font-size="20">card</text><text x="242.378" y="350.64" text-anchor="middle" fill="#E7E0D0" font-size="18" font-family="Arial, Helvetica, sans-serif" data-font-key="editorial" font-weight="700" font-style="normal" textLength="86.00" lengthAdjust="spacingAndGlyphs">CONTEXT</text><rect x="502.537" y="215.2" width="112.64" height="112.64" fill="none" stroke="#5E737B" stroke-width="3"/><text x="510.537" y="239.2" fill="#5E737B" font-family="sans-serif" font-size="20">cross</text><text x="558.857" y="350.64" text-anchor="middle" fill="#E7E0D0" font-size="18" font-family="Arial, Helvetica, sans-serif" data-font-key="editorial" font-weight="700" font-style="normal" textLength="70.00" lengthAdjust="spacingAndGlyphs">REJECT</text><rect x="758.24" y="215.2" width="234.196" height="112.64" fill="none" stroke="#5E737B" stroke-width="3"/><text x="766.24" y="239.2" fill="#5E737B" font-family="sans-serif" font-size="20">card</text><text x="875.338" y="350.64" text-anchor="middle" fill="#E7E0D0" font-size="18" font-family="Arial, Helvetica, sans-serif" data-font-key="editorial" font-weight="700" font-style="normal" textLength="161.03" lengthAdjust="spacingAndGlyphs">REVISED PROMPT</text><rect x="3" y="3" width="1194" height="794" fill="none" stroke="#5E737B" stroke-width="4" stroke-dasharray="18 10"/></svg>

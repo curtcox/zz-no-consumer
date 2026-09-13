@@ -52,6 +52,7 @@
         ],
         &quot;color&quot;: &quot;claret&quot;,
         &quot;focus&quot;: true,
+        &quot;font&quot;: &quot;editorial&quot;,
         &quot;label&quot;: &quot;ADMIN-EQUIVALENT&quot;,
         &quot;label_box&quot;: [
           0.06775,
@@ -71,6 +72,7 @@
         ],
         &quot;color&quot;: &quot;claret&quot;,
         &quot;focus&quot;: true,
+        &quot;font&quot;: &quot;editorial&quot;,
         &quot;label&quot;: &quot;ADMIN-EQUIVALENT&quot;,
         &quot;label_box&quot;: [
           0.371083,
@@ -90,6 +92,7 @@
         ],
         &quot;color&quot;: &quot;steel&quot;,
         &quot;focus&quot;: true,
+        &quot;font&quot;: &quot;editorial&quot;,
         &quot;label&quot;: &quot;OTHER REACHABLE&quot;,
         &quot;label_box&quot;: [
           0.674417,
@@ -102,8 +105,8 @@
     ],
     &quot;reconstructed&quot;: false,
     &quot;shot&quot;: &quot;row&quot;,
-    &quot;source&quot;: &quot;\n**Location:** `huggingface-clusters`\n\n**Frame:** Two cluster boundaries change immediately to `ADMIN-EQUIVALENT`; additional reachable clusters remain lightly outlined and qualified.\n\n**Action:** One credential produces administrator access on two clusters within one second and broader reach elsewhere.\n\n**Caption:**\n&gt; ONE LOCAL SECRET OPENS MORE THAN ONE SYSTEM.\n\n**Provenance:** `documented` — `HF-TL`; wording avoids claiming universal administrative control.\n\n&quot;,
+    &quot;source&quot;: &quot;\n**Location:** `huggingface-clusters`\n\n**Frame:** Two cluster boundaries change immediately to `ADMIN-EQUIVALENT`; additional reachable clusters remain lightly outlined and qualified.\n\n**Action:** One credential produces administrator access on two clusters within one second and broader reach elsewhere.\n\n**Font:** `narration`\n\n**Caption:**\n&gt; ONE LOCAL SECRET OPENS MORE THAN ONE SYSTEM.\n\n**Provenance:** `documented` — `HF-TL`; wording avoids claiming universal administrative control.\n\n&quot;,
     &quot;title&quot;: &quot;Two clusters change while others remain qualified&quot;
   }
 }
-</metadata><rect width="1200" height="800" fill="#101214"/><rect x="24" y="16" width="1152" height="768" fill="none" stroke="#5E737B" stroke-width="3"/><text x="32" y="40" fill="#5E737B" font-family="sans-serif" font-size="20">location-background-huggingface-clusters</text><rect x="81.3" y="160.96" width="287.56" height="221.179" fill="none" stroke="#6B2634" stroke-width="3"/><text x="89.3" y="184.96" fill="#6B2634" font-family="sans-serif" font-size="20">scope-wide</text><text x="225.08" y="413.544" text-anchor="middle" fill="#E7E0D0" font-size="18" font-family="sans-serif">ADMIN-EQUIVALENT</text><rect x="445.3" y="160.96" width="287.56" height="221.179" fill="none" stroke="#6B2634" stroke-width="3"/><text x="453.3" y="184.96" fill="#6B2634" font-family="sans-serif" font-size="20">scope-wide</text><text x="589.079" y="413.544" text-anchor="middle" fill="#E7E0D0" font-size="18" font-family="sans-serif">ADMIN-EQUIVALENT</text><rect x="809.3" y="160.96" width="287.56" height="221.179" fill="none" stroke="#5E737B" stroke-width="3"/><text x="817.3" y="184.96" fill="#5E737B" font-family="sans-serif" font-size="20">outline-box</text><text x="953.08" y="413.544" text-anchor="middle" fill="#E7E0D0" font-size="18" font-family="sans-serif">OTHER REACHABLE</text><rect x="3" y="3" width="1194" height="794" fill="none" stroke="#5E737B" stroke-width="4"/></svg>
+</metadata><rect width="1200" height="800" fill="#101214"/><rect x="24" y="16" width="1152" height="768" fill="none" stroke="#5E737B" stroke-width="3"/><text x="32" y="40" fill="#5E737B" font-family="sans-serif" font-size="20">location-background-huggingface-clusters</text><rect x="81.3" y="160.96" width="287.56" height="221.179" fill="none" stroke="#6B2634" stroke-width="3"/><text x="89.3" y="184.96" fill="#6B2634" font-family="sans-serif" font-size="20">scope-wide</text><text x="225.08" y="413.544" text-anchor="middle" fill="#E7E0D0" font-size="18" font-family="Arial, Helvetica, sans-serif" data-font-key="editorial" font-weight="700" font-style="normal" textLength="178.02" lengthAdjust="spacingAndGlyphs">ADMIN-EQUIVALENT</text><rect x="445.3" y="160.96" width="287.56" height="221.179" fill="none" stroke="#6B2634" stroke-width="3"/><text x="453.3" y="184.96" fill="#6B2634" font-family="sans-serif" font-size="20">scope-wide</text><text x="589.079" y="413.544" text-anchor="middle" fill="#E7E0D0" font-size="18" font-family="Arial, Helvetica, sans-serif" data-font-key="editorial" font-weight="700" font-style="normal" textLength="178.02" lengthAdjust="spacingAndGlyphs">ADMIN-EQUIVALENT</text><rect x="809.3" y="160.96" width="287.56" height="221.179" fill="none" stroke="#5E737B" stroke-width="3"/><text x="817.3" y="184.96" fill="#5E737B" font-family="sans-serif" font-size="20">outline-box</text><text x="953.08" y="413.544" text-anchor="middle" fill="#E7E0D0" font-size="18" font-family="Arial, Helvetica, sans-serif" data-font-key="editorial" font-weight="700" font-style="normal" textLength="177.03" lengthAdjust="spacingAndGlyphs">OTHER REACHABLE</text><rect x="3" y="3" width="1194" height="794" fill="none" stroke="#5E737B" stroke-width="4"/></svg>

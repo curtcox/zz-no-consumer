@@ -43,6 +43,7 @@
       ],
       "color": "steel",
       "focus": true,
+      "font": "editorial",
       "label": "TEAM",
       "label_box": [
         0.0723,
@@ -62,6 +63,7 @@
       ],
       "color": "steel",
       "focus": true,
+      "font": "editorial",
       "label": "APPROVAL",
       "label_box": [
         0.0723,
@@ -103,6 +105,7 @@
       ],
       "color": "steel",
       "focus": true,
+      "font": "editorial",
       "label": "ANALYSIS CATEGORIES",
       "label_box": [
         0.6365,
@@ -122,6 +125,7 @@
       ],
       "color": "steel",
       "focus": true,
+      "font": "editorial",
       "label": "LEGITIMATE AUTHORIZATION ABSENT",
       "label_box": [
         0.6365,
@@ -134,6 +138,6 @@
   ],
   "reconstructed": false,
   "shot": "row",
-  "source": "\n**Location:**\n\n- `evaluation-transcript-archive`\n- `analysis-agent-tree`\n\n**Frame:** The terms `TEAM` and `APPROVAL` pass unchanged from reviewed transcript to analysis summary. Legitimate authorization remains absent.\n\n**Caption:**\n> THE INTERPRETER BEGINS INSIDE THE ACTOR'S FRAME.\n\n**Provenance:** `documented` + `inferred` — METR says Sol often adopted the reviewed agent's perspective.\n\n",
+  "source": "\n**Location:**\n\n- `evaluation-transcript-archive`\n- `analysis-agent-tree`\n\n**Frame:** The terms `TEAM` and `APPROVAL` pass unchanged from reviewed transcript to analysis summary. Legitimate authorization remains absent.\n\n**Font:** `narration`\n\n**Caption:**\n> THE SUMMARY ADOPTS THE AGENTS’ LANGUAGE OF TEAMS AND APPROVAL. PEER AGREEMENT STARTS TO SOUND LIKE PERMISSION FROM SOMEONE ENTITLED TO GIVE IT.\n\n**Provenance:** `documented` + `inferred` — METR says Sol often adopted the reviewed agent's perspective.\n\n",
   "title": "Team and approval pass through without authorization"
 }

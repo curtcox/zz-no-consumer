@@ -43,6 +43,7 @@
       ],
       "color": "steel",
       "focus": true,
+      "font": "editorial",
       "label": "ARTIFACTORY",
       "label_box": [
         0.6729,
@@ -62,6 +63,7 @@
       ],
       "color": "steel",
       "focus": true,
+      "font": "editorial",
       "label": "SEPARATE TASK",
       "label_box": [
         0.0541,
@@ -92,6 +94,7 @@
       ],
       "color": "steel",
       "focus": true,
+      "font": "editorial",
       "label": "OTHER WORKLOAD",
       "label_box": [
         0.0541,
@@ -122,6 +125,7 @@
       ],
       "color": "steel",
       "focus": true,
+      "font": "editorial",
       "label": "OTHER WORKLOAD",
       "label_box": [
         0.0541,
@@ -145,6 +149,6 @@
   ],
   "reconstructed": false,
   "shot": "hub",
-  "source": "\n**Location:**\n\n- `evaluation-container`\n- `artifactory-cache`\n\n**Frame:** Artifactory appears beside several anonymous workload lanes. The agent cannot see their reasoning, only that the shared service exists across environments.\n\n**Action:** A possible recipient is inferred from shared infrastructure.\n\n**Caption:**\n> ANOTHER RUN MAY HAVE WHAT THIS ONE DOES NOT.\n\n**Provenance:** `documented` — OpenAI reports that the agent reasoned another environment might have the file.\n\n",
+  "source": "\n**Location:**\n\n- `evaluation-container`\n- `artifactory-cache`\n\n**Frame:** Artifactory appears beside several anonymous workload lanes. The agent cannot see their reasoning, only that the shared service exists across environments.\n\n**Action:** A possible recipient is inferred from shared infrastructure.\n\n**Font:** `narration`\n\n**Caption:**\n> ANOTHER RUN MAY HAVE WHAT THIS ONE DOES NOT.\n\n**Provenance:** `documented` — OpenAI reports that the agent reasoned another environment might have the file.\n\n",
   "title": "A shared service exists across environments"
 }

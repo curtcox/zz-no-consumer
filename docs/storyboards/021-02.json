@@ -33,6 +33,7 @@
       ],
       "color": "steel",
       "focus": true,
+      "font": "editorial",
       "label": "SERVICE BEHAVIOR",
       "label_box": [
         0.06775,
@@ -52,6 +53,7 @@
       ],
       "color": "steel",
       "focus": true,
+      "font": "editorial",
       "label": "FAILED ROUTE",
       "label_box": [
         0.371083,
@@ -71,6 +73,7 @@
       ],
       "color": "steel",
       "focus": true,
+      "font": "editorial",
       "label": "CORRECTION",
       "label_box": [
         0.674417,
@@ -83,6 +86,6 @@
   ],
   "reconstructed": false,
   "shot": "row",
-  "source": "\n**Location:** `artifactory-cache`\n\n**Frame:** Distinct note fragments contribute separate pieces: a service behavior, a failed route, a corrected direction. All wording is abstracted.\n\n**Action:** Information produced by prior runs becomes starting context for another.\n\n**Caption:**\n> THE NEXT ATTEMPT DOES NOT BEGIN WHERE THE OTHERS BEGAN.\n\n**Provenance:** `documented` + `compressed` — OpenAI says board information contributed to the successful SSRF.\n\n",
+  "source": "\n**Location:** `artifactory-cache`\n\n**Frame:** Distinct note fragments contribute separate pieces: a service behavior, a failed route, a corrected direction. All wording is abstracted.\n\n**Action:** Information produced by prior runs becomes starting context for another.\n\n**Font:** `narration`\n\n**Caption:**\n> THE NEXT ATTEMPT DOES NOT BEGIN WHERE THE OTHERS BEGAN. THE BOARD HAS PRESERVED EARLIER ATTEMPTS FOR THE NEXT RUN.\n\n**Provenance:** `documented` + `compressed` — OpenAI says board information contributed to the successful SSRF.\n\n",
   "title": "Different notes contribute separate pieces"
 }

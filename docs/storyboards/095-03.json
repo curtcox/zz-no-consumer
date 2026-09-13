@@ -33,6 +33,7 @@
       ],
       "color": "steel",
       "focus": true,
+      "font": "editorial",
       "label": "18 AUGUST HOLD",
       "label_box": [
         0.20679999999999998,
@@ -44,6 +45,6 @@
   ],
   "reconstructed": false,
   "shot": "hero",
-  "source": "\n**Location:** `openai-training-program`\n\n**Frame:** The largest planned frontier RL run remains behind a hold marker on 18 August.\n\n**Caption:**\n> THE LARGEST PLANNED RUN REMAINS ON HOLD.\n\n**Provenance:** `documented` (institutional claim) — dated public status.\n\n",
+  "source": "\n**Location:** `openai-training-program`\n\n**Frame:** The largest planned frontier RL run remains behind a hold marker on 18 August.\n\n**Font:** `narration`\n\n**Caption:**\n> THE LARGEST PLANNED RUN REMAINS ON HOLD.\n\n**Provenance:** `documented` (institutional claim) — dated public status.\n\n",
   "title": "The largest planned run remains held at the stated date"
 }

@@ -33,6 +33,7 @@
       ],
       "color": "steel",
       "focus": true,
+      "font": "editorial",
       "label": "15 JULY 2026",
       "label_box": [
         0.20679999999999998,
@@ -44,6 +45,6 @@
   ],
   "reconstructed": false,
   "shot": "hero",
-  "source": "\n**Location:** `creator-production-tooling`\n\n**Frame:** Beside it, a second stored notice, older and from somewhere else entirely.\n`15 JULY 2026`. A different repository, a different subject — two design documents and a\nplan. The same bracketed word.\n\n**Action:** The category arrives without the subject.\n\n**Caption:**\n> IT WAS NOT ABOUT THIS BOOK.\n>\n> IT HAPPENED SEVEN WEEKS EARLIER, IN A PROJECT ABOUT SOMETHING ELSE.\n\n**Provenance:** `documented` — `CI-REFUSAL`, Event A. This panel exists to close the\nreading the page would otherwise invite; see the page notes.\n\n",
+  "source": "\n**Location:** `creator-production-tooling`\n\n**Frame:** Beside it, a second stored notice, older and from somewhere else entirely.\n`15 JULY 2026`. A different repository, a different subject — two design documents and a\nplan. The same bracketed word.\n\n**Action:** The category arrives without the subject.\n\n**Font:** `narration`\n\n**Caption:**\n> IT WAS NOT ABOUT THIS BOOK.\n>\n> IT HAPPENED SEVEN WEEKS EARLIER, IN A PROJECT ABOUT SOMETHING ELSE.\n\n**Provenance:** `documented` — `CI-REFUSAL`, Event A. This panel exists to close the\nreading the page would otherwise invite; see the page notes.\n\n",
   "title": "An older notice remains in a different repository context"
 }

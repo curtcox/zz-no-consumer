@@ -33,6 +33,7 @@
       ],
       "color": "steel",
       "focus": true,
+      "font": "editorial",
       "label": "SHARED STATE",
       "label_box": [
         0.06775,
@@ -52,6 +53,7 @@
       ],
       "color": "steel",
       "focus": true,
+      "font": "editorial",
       "label": "PRESERVE ARTIFACTS",
       "label_box": [
         0.29525,
@@ -71,6 +73,7 @@
       ],
       "color": "steel",
       "focus": true,
+      "font": "editorial",
       "label": "INHERIT CONVENTIONS",
       "label_box": [
         0.52275,
@@ -90,6 +93,7 @@
       ],
       "color": "steel",
       "focus": true,
+      "font": "editorial",
       "label": "DETECTION CONSEQUENCE",
       "label_box": [
         0.75025,
@@ -102,6 +106,6 @@
   ],
   "reconstructed": false,
   "shot": "row",
-  "source": "\n**Location:** `curt-home-office`\n\n**Frame:** The book's high-level ideas separate from its historical sequence: `LOOK FOR SHARED STATE`, `PRESERVE ARTIFACTS`, `INHERIT CONVENTIONS`, `DETECTION NEEDS CONSEQUENCE`.\n\n**Screen / system text — CHATGPT:**\n> Explanation can transmit a way of seeing the problem.\n\n**Provenance:** `reconstructed` + `inferred` — dual-use analysis.\n\n",
+  "source": "\n**Location:** `curt-home-office`\n\n**Frame:** The book's high-level ideas separate from its historical sequence: `LOOK FOR SHARED STATE`, `PRESERVE ARTIFACTS`, `INHERIT CONVENTIONS`, `DETECTION NEEDS CONSEQUENCE`.\n\n**Font:** `interface`\n\n**Screen / system text — CHATGPT:**\n> Explanation can transmit a way of seeing the problem.\n\n**Provenance:** `reconstructed` + `inferred` — dual-use analysis.\n\n",
   "title": "High-level ideas separate from the event sequence"
 }

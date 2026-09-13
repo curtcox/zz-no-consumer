@@ -32,6 +32,7 @@ from pathlib import Path
 
 import panelart
 import textimage
+import font_key
 
 
 ROOT = Path(__file__).resolve().parents[1]
@@ -77,6 +78,7 @@ class Placed:
     leading: float
     lines: tuple[str, ...]
     truncated: bool
+    font: str = "editorial"
 
 
 def role_for(field: str, roles: dict) -> str | None:
@@ -130,10 +132,11 @@ def layout_panel(fields: list[tuple[str, str]], record: dict,
         inner_h = box_h - 2 * pad - head_h
 
         body = text.upper() if spec["uppercase"] else text
-        flowed = textimage.flow(body, inner_w, inner_h,
+        font = getattr(text, "font", "editorial")
+        flowed = font_key.flow(body, inner_w, inner_h, key=font,
                                 min_size=spec["min_size"], max_size=spec["max_size"])
         # Shrink the box to the measured content, keeping the slot's anchor fixed.
-        longest = max((textimage.advance(line, flowed.size) for line in flowed.lines), default=0.0)
+        longest = max((font_key.advance(line, flowed.size, font) for line in flowed.lines), default=0.0)
         tracking = spec["tracking"] * flowed.size
         longest += tracking * max((len(line) - 1 for line in flowed.lines), default=0)
         if header:
@@ -145,7 +148,7 @@ def layout_panel(fields: list[tuple[str, str]], record: dict,
         x = slot["x"] * width if "left" in anchor else (slot["x"] + slot["w"]) * width - fit_w
         y = slot["y"] * height if "top" in anchor else (slot["y"] + slot["h"]) * height - fit_h
         placed.append(Placed(role, sequence[index], header, x, y, fit_w, fit_h,
-                             flowed.size, flowed.leading, flowed.lines, flowed.truncated))
+                             flowed.size, flowed.leading, flowed.lines, flowed.truncated, font))
     return placed, manual
 
 
@@ -175,14 +178,15 @@ def _stack(fonts: list[str]) -> str:
 
 
 def svg_layer(placed: list[Placed], record: dict, width: int, height: int) -> str:
-    roles, fonts = record["roles"], record["fonts"]
+    roles = record["roles"]
     pad = record["padding"] * width
     out = []
     for item in placed:
         spec = (dict(box='none', border='none', border_width=0, ink='#E7E0D0',
                      font='sans', min_size=12, tracking=0)
                 if item.role == 'plain' else roles[item.role])
-        family = _stack(fonts[spec["font"]])
+        family = font_key.family(item.font)
+        face = font_key.load()[item.font]
         out.append(
             f'<g><rect x="{item.x:.1f}" y="{item.y:.1f}" width="{item.w:.1f}" '
             f'height="{item.h:.1f}" fill="{spec["box"]}" stroke="{spec["border"]}" '
@@ -195,7 +199,7 @@ def svg_layer(placed: list[Placed], record: dict, width: int, height: int) -> st
                 f'<rect x="{item.x:.1f}" y="{item.y:.1f}" width="{item.w:.1f}" '
                 f'height="{bar + 2:.1f}" fill="{spec["border"]}"/>'
                 f'<text x="{item.x + pad:.1f}" y="{item.y + bar - 1:.1f}" '
-                f'font-family="{family}" font-size="{spec["min_size"] - 1:.1f}" '
+                f'data-font-key="editorial" font-family="{font_key.family("editorial")}" font-weight="700" font-size="{spec["min_size"] - 1:.1f}" '
                 f'fill="{spec["box"]}" letter-spacing="0.4">{html.escape(item.header)}</text>'
             )
             top += bar
@@ -204,12 +208,12 @@ def svg_layer(placed: list[Placed], record: dict, width: int, height: int) -> st
         for line in item.lines:
             if line:
                 spans.append(
-                    f'<tspan x="{item.x + pad:.1f}" y="{baseline:.1f}">{html.escape(line)}</tspan>')
+                    f'<tspan x="{item.x + pad:.1f}" y="{baseline:.1f}" textLength="{font_key.advance(line, item.size, item.font):.2f}" lengthAdjust="spacingAndGlyphs">{html.escape(line)}</tspan>')
                 baseline += item.leading
             else:
                 baseline += item.leading * 0.62
         out.append(
-            f'<text font-family="{family}" font-size="{item.size:.1f}" fill="{spec["ink"]}" '
+            f'<text data-font-key="{item.font}" font-family="{family}" font-style="{face["style"]}" font-weight="{face["weight"]}" font-size="{item.size:.1f}" fill="{spec["ink"]}" '
             f'letter-spacing="{spec["tracking"] * item.size:.2f}">{"".join(spans)}</text></g>'
         )
     return "".join(out)
@@ -251,18 +255,19 @@ def raster_panel(placed: list[Placed], record: dict, width: int, height: int,
     else:
         base = Image.new("RGB", (W, H), "#202326")
     draw = ImageDraw.Draw(base)
-    roles, fonts = record["roles"], record["fonts"]
+    roles = record["roles"]
     pad = record["padding"] * width * scale
 
-    def font_for(spec, size):
-        path = fonts.get("raster_mono" if spec["font"] == "mono" else "raster_sans")
+    def font_for(key, size):
+        path = font_key.load()[key]["raster"]
         try:
             return ImageFont.truetype(path, max(1, int(size * scale)))
         except (OSError, TypeError):
-            return ImageFont.load_default()
+            raise SystemExit(f"Required font unavailable: {path}; use the SVG export or install the specified face.")
 
     for item in placed:
-        spec = roles[item.role]
+        spec = (dict(box=None, border=None, border_width=0, ink="#E7E0D0", min_size=12)
+                if item.role == "plain" else roles[item.role])
         box = [item.x*scale, item.y*scale, (item.x+item.w)*scale, (item.y+item.h)*scale]
         draw.rectangle(box, fill=spec["box"], outline=spec["border"],
                        width=max(1, int(spec["border_width"] * scale)))
@@ -271,9 +276,9 @@ def raster_panel(placed: list[Placed], record: dict, width: int, height: int,
             bar = (spec["min_size"] + 4) * scale
             draw.rectangle([box[0], box[1], box[2], box[1] + bar + 2], fill=spec["border"])
             draw.text((box[0] + pad, box[1] + 2), item.header,
-                      font=font_for(spec, spec["min_size"] - 1), fill=spec["box"])
+                      font=font_for("editorial", spec["min_size"] - 1), fill=spec["box"])
             top += bar
-        face = font_for(spec, item.size)
+        face = font_for(item.font, item.size)
         y = top
         for line in item.lines:
             if line:
@@ -389,6 +394,10 @@ def cmd_page(args: argparse.Namespace) -> int:
 
 def cmd_audit(args: argparse.Namespace) -> int:
     """Check the effective reader layout, including storyboard placements."""
+    errors = font_key.check()
+    if errors:
+        print("\n".join(errors))
+        return 1
     record = load_slots()
     placed_n = manual_n = truncated_n = 0
     by_role: dict[str, int] = {}
@@ -440,6 +449,10 @@ def main() -> int:
     commands.add_parser("audit", help="how much of the book the convention places")
 
     args = parser.parse_args()
+    if args.command == "audit":
+        errors = font_key.regression_checks()
+        if errors:
+            raise SystemExit("\n".join(errors))
     return {"slots": cmd_slots, "panel": cmd_panel, "page": cmd_page,
             "audit": cmd_audit}[args.command](args)
 

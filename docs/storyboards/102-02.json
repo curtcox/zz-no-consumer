@@ -66,6 +66,7 @@
       ],
       "color": "steel",
       "focus": true,
+      "font": "editorial",
       "label": "CHAIR",
       "label_box": [
         0.09640000000000001,
@@ -77,6 +78,6 @@
   ],
   "reconstructed": true,
   "shot": "meeting",
-  "source": "\n**Location:** `composite-accountability-forum`\n\n**Dialogue — CHAIR:**\n> Who decides the threshold? Who verifies compliance? Who can order a pause? Who can authorize restart?\n\n**Provenance:** `invented` + `inferred` — questions derived from documented response gaps.\n\n",
+  "source": "\n**Location:** `composite-accountability-forum`\n\n**Font:** `human`\n\n**Dialogue — CHAIR:**\n> Who decides the threshold? Who verifies compliance? Who can order a pause? Who can authorize restart?\n\n**Provenance:** `invented` + `inferred` — questions derived from documented response gaps.\n\n",
   "title": "The chair asks who holds decision authority"
 }

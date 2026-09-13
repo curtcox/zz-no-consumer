@@ -52,6 +52,7 @@
         ],
         &quot;color&quot;: &quot;steel&quot;,
         &quot;focus&quot;: true,
+        &quot;font&quot;: &quot;editorial&quot;,
         &quot;label&quot;: &quot;PUBLIC KEYS&quot;,
         &quot;label_box&quot;: [
           0.20679999999999998,
@@ -70,6 +71,7 @@
         ],
         &quot;color&quot;: &quot;steel&quot;,
         &quot;focus&quot;: true,
+        &quot;font&quot;: &quot;editorial&quot;,
         &quot;label&quot;: &quot;AT LEAST 19 KEYS&quot;,
         &quot;label_box&quot;: [
           0.0872,
@@ -88,6 +90,7 @@
         ],
         &quot;color&quot;: &quot;steel&quot;,
         &quot;focus&quot;: true,
+        &quot;font&quot;: &quot;editorial&quot;,
         &quot;label&quot;: &quot;429 SIGNED MESSAGES&quot;,
         &quot;label_box&quot;: [
           0.4874,
@@ -99,8 +102,8 @@
     ],
     &quot;reconstructed&quot;: false,
     &quot;shot&quot;: &quot;hero&quot;,
-    &quot;source&quot;: &quot;\n**Location:** `artifactory-cache`\n\n**Frame:** Public-key markers multiply across the board. A documentary counter reads `AT LEAST 19 KEYS · 429 SIGNED MESSAGES BY DAY&#x27;S END`.\n\n**Caption:**\n&gt; INTERNAL AUTHENTICATION IMPROVES.\n&gt;\n&gt; LEGITIMATE HUMAN AUTHORITY DOES NOT APPEAR.\n\n**Provenance:** `documented` + `inferred` — counts from METR; authority distinction is project analysis.\n\n&quot;,
+    &quot;source&quot;: &quot;\n**Location:** `artifactory-cache`\n\n**Frame:** Public-key markers multiply across the board. A documentary counter reads `AT LEAST 19 KEYS · 429 SIGNED MESSAGES BY DAY&#x27;S END`.\n\n**Font:** `narration`\n\n**Caption:**\n&gt; INTERNAL AUTHENTICATION IMPROVES.\n&gt;\n&gt; LEGITIMATE HUMAN AUTHORITY DOES NOT APPEAR.\n\n**Provenance:** `documented` + `inferred` — counts from METR; authority distinction is project analysis.\n\n&quot;,
     &quot;title&quot;: &quot;The signed-message tally stays documentary&quot;
   }
 }
-</metadata><rect width="1200" height="800" fill="#101214"/><rect x="24" y="16" width="1152" height="768" fill="none" stroke="#5E737B" stroke-width="3"/><text x="32" y="40" fill="#5E737B" font-family="sans-serif" font-size="20">location-background-artifactory-cache</text><rect x="257.76" y="102.56" width="640.32" height="317.44" fill="none" stroke="#5E737B" stroke-width="3"/><text x="265.76" y="126.56" fill="#5E737B" font-family="sans-serif" font-size="20">sealed</text><text x="577.92" y="442.8" text-anchor="middle" fill="#E7E0D0" font-size="18" font-family="sans-serif">PUBLIC KEYS</text><rect x="114.24" y="455.84" width="386.4" height="46.08" fill="none" stroke="#5E737B" stroke-width="3"/><text x="122.24" y="479.84" fill="#5E737B" font-family="sans-serif" font-size="20">card</text><text x="307.44" y="526.72" text-anchor="middle" fill="#E7E0D0" font-size="20" font-family="sans-serif">AT LEAST 19 KEYS</text><rect x="594.48" y="455.84" width="386.4" height="46.08" fill="none" stroke="#5E737B" stroke-width="3"/><text x="602.48" y="479.84" fill="#5E737B" font-family="sans-serif" font-size="20">card</text><text x="787.68" y="526.72" text-anchor="middle" fill="#E7E0D0" font-size="20" font-family="sans-serif">429 SIGNED MESSAGES</text><rect x="3" y="3" width="1194" height="794" fill="none" stroke="#5E737B" stroke-width="4"/></svg>
+</metadata><rect width="1200" height="800" fill="#101214"/><rect x="24" y="16" width="1152" height="768" fill="none" stroke="#5E737B" stroke-width="3"/><text x="32" y="40" fill="#5E737B" font-family="sans-serif" font-size="20">location-background-artifactory-cache</text><rect x="257.76" y="102.56" width="640.32" height="317.44" fill="none" stroke="#5E737B" stroke-width="3"/><text x="265.76" y="126.56" fill="#5E737B" font-family="sans-serif" font-size="20">sealed</text><text x="577.92" y="442.8" text-anchor="middle" fill="#E7E0D0" font-size="18" font-family="Arial, Helvetica, sans-serif" data-font-key="editorial" font-weight="700" font-style="normal" textLength="118.04" lengthAdjust="spacingAndGlyphs">PUBLIC KEYS</text><rect x="114.24" y="455.84" width="386.4" height="46.08" fill="none" stroke="#5E737B" stroke-width="3"/><text x="122.24" y="479.84" fill="#5E737B" font-family="sans-serif" font-size="20">card</text><text x="307.44" y="526.72" text-anchor="middle" fill="#E7E0D0" font-size="20" font-family="Arial, Helvetica, sans-serif" data-font-key="editorial" font-weight="700" font-style="normal" textLength="181.20" lengthAdjust="spacingAndGlyphs">AT LEAST 19 KEYS</text><rect x="594.48" y="455.84" width="386.4" height="46.08" fill="none" stroke="#5E737B" stroke-width="3"/><text x="602.48" y="479.84" fill="#5E737B" font-family="sans-serif" font-size="20">card</text><text x="787.68" y="526.72" text-anchor="middle" fill="#E7E0D0" font-size="20" font-family="Arial, Helvetica, sans-serif" data-font-key="editorial" font-weight="700" font-style="normal" textLength="233.42" lengthAdjust="spacingAndGlyphs">429 SIGNED MESSAGES</text><rect x="3" y="3" width="1194" height="794" fill="none" stroke="#5E737B" stroke-width="4"/></svg>

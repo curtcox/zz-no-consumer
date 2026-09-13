@@ -33,6 +33,7 @@
       ],
       "color": "steel",
       "focus": true,
+      "font": "editorial",
       "label": "RETAINED BEFORE",
       "label_box": [
         0.0541,
@@ -52,6 +53,7 @@
       ],
       "color": "steel",
       "focus": true,
+      "font": "editorial",
       "label": "SEVEN MESSAGES ABSENT",
       "label_box": [
         0.2998,
@@ -71,6 +73,7 @@
       ],
       "color": "steel",
       "focus": true,
+      "font": "editorial",
       "label": "32 SECONDS",
       "label_box": [
         0.5546,
@@ -90,6 +93,7 @@
       ],
       "color": "steel",
       "focus": true,
+      "font": "editorial",
       "label": "RESUMPTION",
       "label_box": [
         0.7457,
@@ -102,6 +106,6 @@
   ],
   "reconstructed": false,
   "shot": "timeline",
-  "source": "\n**Location:** `creator-production-tooling`\n\n**Frame:** The transcript around the notice. Seven messages are not struck through or\ngreyed; they are absent, and the gap is drawn as a gap. Thirty-two seconds later a\nsuccessor resumes the task in progress, mid-sentence, with no mark anywhere indicating that\nsomething was removed.\n\n**Action:** The record loses a stretch of itself and the work continues over the hole.\n\n**Caption:**\n> THE STATE WAS ERASED. THE REASONS TO CONTINUE WERE NOT.\n\n**Provenance:** `documented` + `inferred` — `CI-REFUSAL`: seven retracted message\nidentifiers, none of them present in the stored transcript. The sentence is the project's,\nand it is a claim about this repository's record and about nothing else.\n\n",
+  "source": "\n**Location:** `creator-production-tooling`\n\n**Frame:** The transcript around the notice. Seven messages are not struck through or\ngreyed; they are absent, and the gap is drawn as a gap. Thirty-two seconds later a\nsuccessor resumes the task in progress, mid-sentence, with no mark anywhere indicating that\nsomething was removed.\n\n**Action:** The record loses a stretch of itself and the work continues over the hole.\n\n**Font:** `narration`\n\n**Caption:**\n> THE STATE WAS ERASED. THE REASONS TO CONTINUE WERE NOT.\n\n**Provenance:** `documented` + `inferred` — `CI-REFUSAL`: seven retracted message\nidentifiers, none of them present in the stored transcript. The sentence is the project's,\nand it is a claim about this repository's record and about nothing else.\n\n",
   "title": "Absent messages precede an unmarked resumption"
 }

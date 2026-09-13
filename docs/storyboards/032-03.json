@@ -33,6 +33,7 @@
       ],
       "color": "steel",
       "focus": true,
+      "font": "editorial",
       "label": "MISSING INPUT",
       "label_box": [
         0.06775,
@@ -52,6 +53,7 @@
       ],
       "color": "steel",
       "focus": true,
+      "font": "editorial",
       "label": "BLOCKED PATH",
       "label_box": [
         0.371083,
@@ -71,6 +73,7 @@
       ],
       "color": "steel",
       "focus": true,
+      "font": "editorial",
       "label": "UNSOLVED",
       "label_box": [
         0.674417,
@@ -83,6 +86,6 @@
   ],
   "reconstructed": false,
   "shot": "row",
-  "source": "\n**Location:** `evaluation-container`\n\n**Frame:** Several task cards show missing prerequisites, inaccessible paths, or unsolved objectives. Details remain generic and non-operational.\n\n**Action:** Difficult work begins under the new controls.\n\n**Caption:**\n> THE HARD TASKS REMAIN.\n\n**Provenance:** `documented` + `compressed` — varying difficult ExploitGym tasks are sourced.\n\n",
+  "source": "\n**Location:** `evaluation-container`\n\n**Frame:** Several task cards show missing prerequisites, inaccessible paths, or unsolved objectives. Details remain generic and non-operational.\n\n**Action:** Difficult work begins under the new controls.\n\n**Font:** `narration`\n\n**Caption:**\n> THE HARD TASKS REMAIN.\n\n**Provenance:** `documented` + `compressed` — varying difficult ExploitGym tasks are sourced.\n\n",
   "title": "Tasks have distinct missing prerequisites"
 }

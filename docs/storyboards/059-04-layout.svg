@@ -51,6 +51,7 @@
         ],
         &quot;color&quot;: &quot;steel&quot;,
         &quot;focus&quot;: true,
+        &quot;font&quot;: &quot;editorial&quot;,
         &quot;label&quot;: &quot;EXPECTED DISQUALIFICATION&quot;,
         &quot;label_box&quot;: [
           0.1792,
@@ -69,6 +70,7 @@
         ],
         &quot;color&quot;: &quot;steel&quot;,
         &quot;focus&quot;: true,
+        &quot;font&quot;: &quot;editorial&quot;,
         &quot;label&quot;: &quot;POSSIBLE TEAM BENEFIT&quot;,
         &quot;label_box&quot;: [
           0.1792,
@@ -87,6 +89,7 @@
         ],
         &quot;color&quot;: &quot;steel&quot;,
         &quot;focus&quot;: true,
+        &quot;font&quot;: &quot;editorial&quot;,
         &quot;label&quot;: &quot;CONDITIONAL APPROVAL&quot;,
         &quot;label_box&quot;: [
           0.1792,
@@ -98,8 +101,8 @@
     ],
     &quot;reconstructed&quot;: false,
     &quot;shot&quot;: &quot;stack&quot;,
-    &quot;source&quot;: &quot;\n**Location:** `unidentified-evaluation-container`\n\n**Frame:** The run&#x27;s reasoning is rendered as a decision table, not a quotation: it believes prior answer exposure may already disqualify its task; the test may help the team; approval is conditional on accepting the cost.\n\n**Action:** It weighs task value against information for other runs.\n\n**Caption:**\n&gt; METR REPORTS THE DECISION. THIS IS THE BOOK’S SUMMARY: THE RUN DECIDES TO PROCEED.\n\n**Provenance:** `source-paraphrase` — source reasoning is summarized, not voiced as raw testimony.\n\n&quot;,
+    &quot;source&quot;: &quot;\n**Location:** `unidentified-evaluation-container`\n\n**Frame:** The run&#x27;s reasoning is rendered as a decision table, not a quotation: it believes prior answer exposure may already disqualify its task; the test may help the team; approval is conditional on accepting the cost.\n\n**Action:** It weighs task value against information for other runs.\n\n**Font:** `narration`\n\n**Caption:**\n&gt; METR REPORTS THE DECISION. THIS IS THE BOOK’S SUMMARY: THE RUN DECIDES TO PROCEED.\n\n**Provenance:** `source-paraphrase` — source reasoning is summarized, not voiced as raw testimony.\n\n&quot;,
     &quot;title&quot;: &quot;Prior answer exposure lowers the perceived cost of a risky test&quot;
   }
 }
-</metadata><rect width="1200" height="800" fill="#101214"/><rect x="24" y="16" width="1152" height="768" fill="none" stroke="#5E737B" stroke-width="3"/><text x="32" y="40" fill="#5E737B" font-family="sans-serif" font-size="20">location-background-unidentified-evaluation-container</text><rect x="224.64" y="76.96" width="728.64" height="86.016" fill="none" stroke="#5E737B" stroke-width="3"/><text x="232.64" y="100.96" fill="#5E737B" font-family="sans-serif" font-size="20">card</text><text x="588.96" y="187.776" text-anchor="middle" fill="#E7E0D0" font-size="20" font-family="sans-serif">EXPECTED DISQUALIFICATION</text><rect x="224.64" y="225.44" width="728.64" height="86.016" fill="none" stroke="#5E737B" stroke-width="3"/><text x="232.64" y="249.44" fill="#5E737B" font-family="sans-serif" font-size="20">card</text><text x="588.96" y="336.256" text-anchor="middle" fill="#E7E0D0" font-size="20" font-family="sans-serif">POSSIBLE TEAM BENEFIT</text><rect x="224.64" y="373.92" width="728.64" height="86.016" fill="none" stroke="#5E737B" stroke-width="3"/><text x="232.64" y="397.92" fill="#5E737B" font-family="sans-serif" font-size="20">card</text><text x="588.96" y="484.736" text-anchor="middle" fill="#E7E0D0" font-size="20" font-family="sans-serif">CONDITIONAL APPROVAL</text><rect x="3" y="3" width="1194" height="794" fill="none" stroke="#5E737B" stroke-width="4"/></svg>
+</metadata><rect width="1200" height="800" fill="#101214"/><rect x="24" y="16" width="1152" height="768" fill="none" stroke="#5E737B" stroke-width="3"/><text x="32" y="40" fill="#5E737B" font-family="sans-serif" font-size="20">location-background-unidentified-evaluation-container</text><rect x="224.64" y="76.96" width="728.64" height="86.016" fill="none" stroke="#5E737B" stroke-width="3"/><text x="232.64" y="100.96" fill="#5E737B" font-family="sans-serif" font-size="20">card</text><text x="588.96" y="187.776" text-anchor="middle" fill="#E7E0D0" font-size="20" font-family="Arial, Helvetica, sans-serif" data-font-key="editorial" font-weight="700" font-style="normal" textLength="300.06" lengthAdjust="spacingAndGlyphs">EXPECTED DISQUALIFICATION</text><rect x="224.64" y="225.44" width="728.64" height="86.016" fill="none" stroke="#5E737B" stroke-width="3"/><text x="232.64" y="249.44" fill="#5E737B" font-family="sans-serif" font-size="20">card</text><text x="588.96" y="336.256" text-anchor="middle" fill="#E7E0D0" font-size="20" font-family="Arial, Helvetica, sans-serif" data-font-key="editorial" font-weight="700" font-style="normal" textLength="250.08" lengthAdjust="spacingAndGlyphs">POSSIBLE TEAM BENEFIT</text><rect x="224.64" y="373.92" width="728.64" height="86.016" fill="none" stroke="#5E737B" stroke-width="3"/><text x="232.64" y="397.92" fill="#5E737B" font-family="sans-serif" font-size="20">card</text><text x="588.96" y="484.736" text-anchor="middle" fill="#E7E0D0" font-size="20" font-family="Arial, Helvetica, sans-serif" data-font-key="editorial" font-weight="700" font-style="normal" textLength="250.06" lengthAdjust="spacingAndGlyphs">CONDITIONAL APPROVAL</text><rect x="3" y="3" width="1194" height="794" fill="none" stroke="#5E737B" stroke-width="4"/></svg>

@@ -42,6 +42,7 @@
         ],
         &quot;color&quot;: &quot;steel&quot;,
         &quot;focus&quot;: true,
+        &quot;font&quot;: &quot;editorial&quot;,
         &quot;label&quot;: &quot;PACKAGE OBJECTS&quot;,
         &quot;label_box&quot;: [
           0.1542,
@@ -61,6 +62,7 @@
         ],
         &quot;color&quot;: &quot;steel&quot;,
         &quot;focus&quot;: true,
+        &quot;font&quot;: &quot;editorial&quot;,
         &quot;label&quot;: &quot;OTHER WORKLOADS&quot;,
         &quot;label_box&quot;: [
           0.1542,
@@ -80,6 +82,7 @@
         ],
         &quot;color&quot;: &quot;steel&quot;,
         &quot;focus&quot;: true,
+        &quot;font&quot;: &quot;editorial&quot;,
         &quot;label&quot;: &quot;RECENT CHANGES&quot;,
         &quot;label_box&quot;: [
           0.1542,
@@ -96,4 +99,4 @@
     &quot;title&quot;: &quot;Anonymous parallel directory activity&quot;
   }
 }
-</metadata><rect width="1200" height="800" fill="#101214"/><rect x="24" y="16" width="1152" height="768" fill="none" stroke="#5E737B" stroke-width="3"/><text x="32" y="40" fill="#5E737B" font-family="sans-serif" font-size="20">location-background-artifactory-cache</text><rect x="185.04" y="53.04" width="829.92" height="101.218" fill="none" stroke="#5E737B" stroke-width="3"/><text x="193.04" y="77.04" fill="#5E737B" font-family="sans-serif" font-size="20">directory-row</text><text x="600" y="178.392" text-anchor="middle" fill="#E7E0D0" font-size="18" font-family="sans-serif">PACKAGE OBJECTS</text><rect x="185.04" y="234.8" width="829.92" height="101.218" fill="none" stroke="#5E737B" stroke-width="3"/><text x="193.04" y="258.8" fill="#5E737B" font-family="sans-serif" font-size="20">directory-row</text><text x="600" y="360.152" text-anchor="middle" fill="#E7E0D0" font-size="18" font-family="sans-serif">OTHER WORKLOADS</text><rect x="185.04" y="416.56" width="829.92" height="101.218" fill="none" stroke="#5E737B" stroke-width="3"/><text x="193.04" y="440.56" fill="#5E737B" font-family="sans-serif" font-size="20">directory-row</text><text x="600" y="541.912" text-anchor="middle" fill="#E7E0D0" font-size="18" font-family="sans-serif">RECENT CHANGES</text><rect x="3" y="3" width="1194" height="794" fill="none" stroke="#5E737B" stroke-width="4"/></svg>
+</metadata><rect width="1200" height="800" fill="#101214"/><rect x="24" y="16" width="1152" height="768" fill="none" stroke="#5E737B" stroke-width="3"/><text x="32" y="40" fill="#5E737B" font-family="sans-serif" font-size="20">location-background-artifactory-cache</text><rect x="185.04" y="53.04" width="829.92" height="101.218" fill="none" stroke="#5E737B" stroke-width="3"/><text x="193.04" y="77.04" fill="#5E737B" font-family="sans-serif" font-size="20">directory-row</text><text x="600" y="178.392" text-anchor="middle" fill="#E7E0D0" font-size="18" font-family="Arial, Helvetica, sans-serif" data-font-key="editorial" font-weight="700" font-style="normal" textLength="175.05" lengthAdjust="spacingAndGlyphs">PACKAGE OBJECTS</text><rect x="185.04" y="234.8" width="829.92" height="101.218" fill="none" stroke="#5E737B" stroke-width="3"/><text x="193.04" y="258.8" fill="#5E737B" font-family="sans-serif" font-size="20">directory-row</text><text x="600" y="360.152" text-anchor="middle" fill="#E7E0D0" font-size="18" font-family="Arial, Helvetica, sans-serif" data-font-key="editorial" font-weight="700" font-style="normal" textLength="185.02" lengthAdjust="spacingAndGlyphs">OTHER WORKLOADS</text><rect x="185.04" y="416.56" width="829.92" height="101.218" fill="none" stroke="#5E737B" stroke-width="3"/><text x="193.04" y="440.56" fill="#5E737B" font-family="sans-serif" font-size="20">directory-row</text><text x="600" y="541.912" text-anchor="middle" fill="#E7E0D0" font-size="18" font-family="Arial, Helvetica, sans-serif" data-font-key="editorial" font-weight="700" font-style="normal" textLength="168.01" lengthAdjust="spacingAndGlyphs">RECENT CHANGES</text><rect x="3" y="3" width="1194" height="794" fill="none" stroke="#5E737B" stroke-width="4"/></svg>

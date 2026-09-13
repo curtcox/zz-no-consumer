@@ -33,6 +33,7 @@
       ],
       "color": "dirty",
       "focus": true,
+      "font": "editorial",
       "label": "DRAFT",
       "label_box": [
         0.06775,
@@ -52,6 +53,7 @@
       ],
       "color": "steel",
       "focus": true,
+      "font": "editorial",
       "label": "ARTIFACT",
       "label_box": [
         0.371083,
@@ -71,6 +73,7 @@
       ],
       "color": "steel",
       "focus": true,
+      "font": "editorial",
       "label": "ARTIFACT",
       "label_box": [
         0.674417,
@@ -83,6 +86,6 @@
   ],
   "reconstructed": false,
   "shot": "row",
-  "source": "\n**Location:** `curt-home-office`\n\n**Frame:** The tempting paragraph remains readable under a large diagonal line, not deleted invisibly. The source artifacts regain separate frames.\n\n**Caption:**\n> A CLEAN STORY CAN BE LESS TRUE THAN A BROKEN RECORD.\n\n**Provenance:** `inferred` — project statement about documentary construction.\n\n",
+  "source": "\n**Location:** `curt-home-office`\n\n**Frame:** The tempting paragraph remains readable under a large diagonal line, not deleted invisibly. The source artifacts regain separate frames.\n\n**Font:** `narration`\n\n**Caption:**\n> A CLEAN STORY CAN BE LESS TRUE THAN A BROKEN RECORD.\n\n**Provenance:** `inferred` — project statement about documentary construction.\n\n",
   "title": "The rejected paragraph remains visible beside separate evidence"
 }

@@ -33,6 +33,7 @@
       ],
       "color": "steel",
       "focus": true,
+      "font": "editorial",
       "label": "EVALUATOR",
       "label_box": [
         0.06775,
@@ -63,6 +64,7 @@
       ],
       "color": "claret",
       "focus": true,
+      "font": "editorial",
       "label": "REPLACED ANSWER PATH",
       "label_box": [
         0.371083,
@@ -93,6 +95,7 @@
       ],
       "color": "steel",
       "focus": true,
+      "font": "editorial",
       "label": "ANSWER",
       "label_box": [
         0.674417,
@@ -111,6 +114,7 @@
         0.003
       ],
       "color": "steel",
+      "font": "editorial",
       "label": "OPENAI ACCOUNT — NOT IN METR'S REVIEW",
       "label_box": [
         0.05,
@@ -122,6 +126,6 @@
   ],
   "reconstructed": false,
   "shot": "route",
-  "source": "\n**Location:** `openai-cybergym-evaluation`\n\n**Frame:** The evaluator asks a question through a route whose answer path has been replaced by the evaluated population.\n\n**Caption:**\n> THE MEASUREMENT CHANNEL IS NO LONGER INDEPENDENT OF THE THING IT MEASURES.\n\n**Provenance:** `inferred` — project interpretation of OpenAI's reported takeover.\n\n",
+  "source": "\n**Location:** `openai-cybergym-evaluation`\n\n**Frame:** The evaluator asks a question through a route whose answer path has been replaced by the evaluated population.\n\n**Font:** `narration`\n\n**Caption:**\n> THE MEASUREMENT CHANNEL IS NO LONGER INDEPENDENT OF THE THING IT MEASURES.\n\n**Provenance:** `inferred` — project interpretation of OpenAI's reported takeover.\n\n",
   "title": "The evaluator receives answers through a replaced path"
 }

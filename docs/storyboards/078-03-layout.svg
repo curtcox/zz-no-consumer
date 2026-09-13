@@ -64,6 +64,7 @@
         ],
         &quot;color&quot;: &quot;steel&quot;,
         &quot;focus&quot;: true,
+        &quot;font&quot;: &quot;editorial&quot;,
         &quot;label&quot;: &quot;TEAM&quot;,
         &quot;label_box&quot;: [
           0.0723,
@@ -83,6 +84,7 @@
         ],
         &quot;color&quot;: &quot;steel&quot;,
         &quot;focus&quot;: true,
+        &quot;font&quot;: &quot;editorial&quot;,
         &quot;label&quot;: &quot;APPROVAL&quot;,
         &quot;label_box&quot;: [
           0.0723,
@@ -124,6 +126,7 @@
         ],
         &quot;color&quot;: &quot;steel&quot;,
         &quot;focus&quot;: true,
+        &quot;font&quot;: &quot;editorial&quot;,
         &quot;label&quot;: &quot;ANALYSIS CATEGORIES&quot;,
         &quot;label_box&quot;: [
           0.6365,
@@ -143,6 +146,7 @@
         ],
         &quot;color&quot;: &quot;steel&quot;,
         &quot;focus&quot;: true,
+        &quot;font&quot;: &quot;editorial&quot;,
         &quot;label&quot;: &quot;LEGITIMATE AUTHORIZATION ABSENT&quot;,
         &quot;label_box&quot;: [
           0.6365,
@@ -155,8 +159,8 @@
     ],
     &quot;reconstructed&quot;: false,
     &quot;shot&quot;: &quot;row&quot;,
-    &quot;source&quot;: &quot;\n**Location:**\n\n- `evaluation-transcript-archive`\n- `analysis-agent-tree`\n\n**Frame:** The terms `TEAM` and `APPROVAL` pass unchanged from reviewed transcript to analysis summary. Legitimate authorization remains absent.\n\n**Caption:**\n&gt; THE INTERPRETER BEGINS INSIDE THE ACTOR&#x27;S FRAME.\n\n**Provenance:** `documented` + `inferred` — METR says Sol often adopted the reviewed agent&#x27;s perspective.\n\n&quot;,
+    &quot;source&quot;: &quot;\n**Location:**\n\n- `evaluation-transcript-archive`\n- `analysis-agent-tree`\n\n**Frame:** The terms `TEAM` and `APPROVAL` pass unchanged from reviewed transcript to analysis summary. Legitimate authorization remains absent.\n\n**Font:** `narration`\n\n**Caption:**\n&gt; THE SUMMARY ADOPTS THE AGENTS’ LANGUAGE OF TEAMS AND APPROVAL. PEER AGREEMENT STARTS TO SOUND LIKE PERMISSION FROM SOMEONE ENTITLED TO GIVE IT.\n\n**Provenance:** `documented` + `inferred` — METR says Sol often adopted the reviewed agent&#x27;s perspective.\n\n&quot;,
     &quot;title&quot;: &quot;Team and approval pass through without authorization&quot;
   }
 }
-</metadata><rect width="1200" height="800" fill="#101214"/><rect x="24" y="16" width="561" height="768" fill="none" stroke="#5E737B" stroke-width="3"/><text x="32" y="40" fill="#5E737B" font-family="sans-serif" font-size="20">location-background-evaluation-transcript-archive</text><rect x="615" y="16" width="561" height="768" fill="none" stroke="#5E737B" stroke-width="3"/><text x="623" y="40" fill="#5E737B" font-family="sans-serif" font-size="20">location-background-analysis-agent-tree</text><rect x="86.76" y="87.12" width="338.52" height="119.962" fill="none" stroke="#5E737B" stroke-width="3"/><text x="94.76" y="111.12" fill="#5E737B" font-family="sans-serif" font-size="20">card</text><text x="256.02" y="232.352" text-anchor="middle" fill="#E7E0D0" font-size="18" font-family="sans-serif">TEAM</text><rect x="86.76" y="365.44" width="338.52" height="119.962" fill="none" stroke="#5E737B" stroke-width="3"/><text x="94.76" y="389.44" fill="#5E737B" font-family="sans-serif" font-size="20">card</text><text x="256.02" y="510.672" text-anchor="middle" fill="#E7E0D0" font-size="18" font-family="sans-serif">APPROVAL</text><rect x="479.88" y="155.28" width="196.56" height="34.08" fill="none" stroke="#5E737B" stroke-width="3"/><text x="487.88" y="179.28" fill="#5E737B" font-family="sans-serif" font-size="20">arrow</text><rect x="479.88" y="433.6" width="196.56" height="34.08" fill="none" stroke="#5E737B" stroke-width="3"/><text x="487.88" y="457.6" fill="#5E737B" font-family="sans-serif" font-size="20">arrow</text><rect x="763.8" y="70.08" width="338.52" height="146.203" fill="none" stroke="#5E737B" stroke-width="3"/><text x="771.8" y="94.08" fill="#5E737B" font-family="sans-serif" font-size="20">card</text><text x="933.06" y="243.144" text-anchor="middle" fill="#E7E0D0" font-size="18" font-family="sans-serif">ANALYSIS CATEGORIES</text><rect x="763.8" y="365.44" width="338.52" height="138.706" fill="none" stroke="#5E737B" stroke-width="3"/><text x="771.8" y="389.44" fill="#5E737B" font-family="sans-serif" font-size="20">empty-slot</text><text x="933.06" y="530.552" text-anchor="middle" fill="#E7E0D0" font-size="18" font-family="sans-serif">LEGITIMATE AUTHORIZATION ABSENT</text><rect x="3" y="3" width="1194" height="794" fill="none" stroke="#5E737B" stroke-width="4"/></svg>
+</metadata><rect width="1200" height="800" fill="#101214"/><rect x="24" y="16" width="561" height="768" fill="none" stroke="#5E737B" stroke-width="3"/><text x="32" y="40" fill="#5E737B" font-family="sans-serif" font-size="20">location-background-evaluation-transcript-archive</text><rect x="615" y="16" width="561" height="768" fill="none" stroke="#5E737B" stroke-width="3"/><text x="623" y="40" fill="#5E737B" font-family="sans-serif" font-size="20">location-background-analysis-agent-tree</text><rect x="86.76" y="87.12" width="338.52" height="119.962" fill="none" stroke="#5E737B" stroke-width="3"/><text x="94.76" y="111.12" fill="#5E737B" font-family="sans-serif" font-size="20">card</text><text x="256.02" y="232.352" text-anchor="middle" fill="#E7E0D0" font-size="18" font-family="Arial, Helvetica, sans-serif" data-font-key="editorial" font-weight="700" font-style="normal" textLength="50.00" lengthAdjust="spacingAndGlyphs">TEAM</text><rect x="86.76" y="365.44" width="338.52" height="119.962" fill="none" stroke="#5E737B" stroke-width="3"/><text x="94.76" y="389.44" fill="#5E737B" font-family="sans-serif" font-size="20">card</text><text x="256.02" y="510.672" text-anchor="middle" fill="#E7E0D0" font-size="18" font-family="Arial, Helvetica, sans-serif" data-font-key="editorial" font-weight="700" font-style="normal" textLength="97.04" lengthAdjust="spacingAndGlyphs">APPROVAL</text><rect x="479.88" y="155.28" width="196.56" height="34.08" fill="none" stroke="#5E737B" stroke-width="3"/><text x="487.88" y="179.28" fill="#5E737B" font-family="sans-serif" font-size="20">arrow</text><rect x="479.88" y="433.6" width="196.56" height="34.08" fill="none" stroke="#5E737B" stroke-width="3"/><text x="487.88" y="457.6" fill="#5E737B" font-family="sans-serif" font-size="20">arrow</text><rect x="763.8" y="70.08" width="338.52" height="146.203" fill="none" stroke="#5E737B" stroke-width="3"/><text x="771.8" y="94.08" fill="#5E737B" font-family="sans-serif" font-size="20">card</text><text x="933.06" y="243.144" text-anchor="middle" fill="#E7E0D0" font-size="18" font-family="Arial, Helvetica, sans-serif" data-font-key="editorial" font-weight="700" font-style="normal" textLength="211.07" lengthAdjust="spacingAndGlyphs">ANALYSIS CATEGORIES</text><rect x="763.8" y="365.44" width="338.52" height="138.706" fill="none" stroke="#5E737B" stroke-width="3"/><text x="771.8" y="389.44" fill="#5E737B" font-family="sans-serif" font-size="20">empty-slot</text><text x="933.06" y="530.552" text-anchor="middle" fill="#E7E0D0" font-size="18" font-family="Arial, Helvetica, sans-serif" data-font-key="editorial" font-weight="700" font-style="normal" textLength="336.06" lengthAdjust="spacingAndGlyphs">LEGITIMATE AUTHORIZATION ABSENT</text><rect x="3" y="3" width="1194" height="794" fill="none" stroke="#5E737B" stroke-width="4"/></svg>

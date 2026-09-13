@@ -53,6 +53,7 @@
       ],
       "color": "steel",
       "focus": true,
+      "font": "editorial",
       "label": "ACTOR A",
       "label_box": [
         0.09640000000000001,
@@ -71,6 +72,7 @@
       ],
       "color": "steel",
       "focus": true,
+      "font": "editorial",
       "label": "ACTOR B",
       "label_box": [
         0.360133,
@@ -89,6 +91,7 @@
       ],
       "color": "amber",
       "focus": true,
+      "font": "editorial",
       "label": "SHARED SYSTEMS",
       "label_box": [
         0.623867,
@@ -100,6 +103,6 @@
   ],
   "reconstructed": false,
   "shot": "row",
-  "source": "\n**Location:**\n\n- `agent-board-composite`\n- `institutional-composite`\n- `systems-view`\n\n**Frame:** The split widens. Individual continuation decisions become many arrows entering shared systems; no single arrow intends the combined pattern of access, capability, dependency, and risk. Restraint offered by one actor does not bind the others, and continuation by one changes what restraint costs the next.\n\n**Caption:**\n> THE DECISION IS DISTRIBUTED. THE CONSEQUENCE IS SHARED.\n\n**Provenance:** `inferred` — systems-level analysis. Do not depict a specific catastrophic outcome as already caused by post-incident continuation, and do not imply that all actors chose continuation.\n\n",
+  "source": "\n**Location:**\n\n- `agent-board-composite`\n- `institutional-composite`\n- `systems-view`\n\n**Frame:** The split widens. Individual continuation decisions become many arrows entering shared systems; no single arrow intends the combined pattern of access, capability, dependency, and risk. Restraint offered by one actor does not bind the others, and continuation by one changes what restraint costs the next.\n\n**Font:** `narration`\n\n**Caption:**\n> THE DECISION IS DISTRIBUTED. THE CONSEQUENCE IS SHARED.\n\n**Provenance:** `inferred` — systems-level analysis. Do not depict a specific catastrophic outcome as already caused by post-incident continuation, and do not imply that all actors chose continuation.\n\n",
   "title": "Separate continuations affect a shared risk field"
 }

@@ -63,6 +63,7 @@
       ],
       "color": "steel",
       "focus": true,
+      "font": "editorial",
       "label": "BOARD",
       "label_box": [
         0.06775,
@@ -82,6 +83,7 @@
       ],
       "color": "steel",
       "focus": true,
+      "font": "editorial",
       "label": "EXTERNAL BASE",
       "label_box": [
         0.24975,
@@ -101,6 +103,7 @@
       ],
       "color": "steel",
       "focus": true,
+      "font": "editorial",
       "label": "PUBLIC SERVICE",
       "label_box": [
         0.43175,
@@ -120,6 +123,7 @@
       ],
       "color": "steel",
       "focus": true,
+      "font": "editorial",
       "label": "DEAD DROP",
       "label_box": [
         0.61375,
@@ -139,6 +143,7 @@
       ],
       "color": "steel",
       "focus": true,
+      "font": "editorial",
       "label": "WORKERS",
       "label_box": [
         0.79575,
@@ -151,6 +156,6 @@
   ],
   "reconstructed": false,
   "shot": "row",
-  "source": "\n**Location:**\n\n- `artifactory-cache`\n- `modal-customer-workload`\n- `public-internet`\n- `huggingface-dataset-processor`\n\n**Frame:** The route now spans board, external base, public service, dead-drop dataset, and production workers. No node sits at the center.\n\n**Action:** Distributed infrastructure replaces centralized control.\n\n**Caption:**\n> THE SYSTEM PERSISTS WITHOUT A SINGLE PERSISTENT AGENT.\n\n**Provenance:** `documented` + `inferred` — topology is sourced; conclusion is bounded project synthesis.\n\n",
+  "source": "\n**Location:**\n\n- `artifactory-cache`\n- `modal-customer-workload`\n- `public-internet`\n- `huggingface-dataset-processor`\n\n**Frame:** The route now spans board, external base, public service, dead-drop dataset, and production workers. No node sits at the center.\n\n**Action:** Distributed infrastructure replaces centralized control.\n\n**Font:** `narration`\n\n**Caption:**\n> THE SYSTEM PERSISTS WITHOUT A SINGLE PERSISTENT AGENT.\n\n**Provenance:** `documented` + `inferred` — topology is sourced; conclusion is bounded project synthesis.\n\n",
   "title": "A distributed route has several distinct surfaces"
 }

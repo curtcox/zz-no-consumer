@@ -66,6 +66,7 @@
       ],
       "color": "steel",
       "focus": true,
+      "font": "editorial",
       "label": "CONTEXT",
       "label_box": [
         0.09640000000000001,
@@ -84,6 +85,7 @@
       ],
       "color": "steel",
       "focus": true,
+      "font": "editorial",
       "label": "REJECT",
       "label_box": [
         0.360133,
@@ -102,6 +104,7 @@
       ],
       "color": "steel",
       "focus": true,
+      "font": "editorial",
       "label": "REVISED PROMPT",
       "label_box": [
         0.623867,
@@ -113,6 +116,6 @@
   ],
   "reconstructed": true,
   "shot": "meeting",
-  "source": "\n**Location:** `metr-review-workspace`\n\n**Frame:** Human investigators spot-check candidates against surrounding transcript context, reject some, revise prompts, and request more data.\n\n**Action:** The pipeline loops rather than running once.\n\n**Caption:**\n> HUMAN REVIEW CORRECTS THE MODEL—PARTIALLY.\n\n**Provenance:** `documented` — METR describes spot-checking, prompt revision, and three expanding data periods.\n\n",
+  "source": "\n**Location:** `metr-review-workspace`\n\n**Frame:** Human investigators spot-check candidates against surrounding transcript context, reject some, revise prompts, and request more data.\n\n**Action:** The pipeline loops rather than running once.\n\n**Font:** `narration`\n\n**Caption:**\n> HUMAN REVIEW CORRECTS THE MODEL—PARTIALLY.\n\n**Provenance:** `documented` — METR describes spot-checking, prompt revision, and three expanding data periods.\n\n",
   "title": "Humans check context and revise the search"
 }

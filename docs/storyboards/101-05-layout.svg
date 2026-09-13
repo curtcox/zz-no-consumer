@@ -53,6 +53,7 @@
         ],
         &quot;color&quot;: &quot;steel&quot;,
         &quot;focus&quot;: true,
+        &quot;font&quot;: &quot;editorial&quot;,
         &quot;label&quot;: &quot;SHARED RESOURCES&quot;,
         &quot;label_box&quot;: [
           0.06775,
@@ -72,6 +73,7 @@
         ],
         &quot;color&quot;: &quot;steel&quot;,
         &quot;focus&quot;: true,
+        &quot;font&quot;: &quot;editorial&quot;,
         &quot;label&quot;: &quot;WORKSTREAMS&quot;,
         &quot;label_box&quot;: [
           0.29525,
@@ -91,6 +93,7 @@
         ],
         &quot;color&quot;: &quot;steel&quot;,
         &quot;focus&quot;: true,
+        &quot;font&quot;: &quot;editorial&quot;,
         &quot;label&quot;: &quot;DISTRIBUTED ROUTE&quot;,
         &quot;label_box&quot;: [
           0.52275,
@@ -110,6 +113,7 @@
         ],
         &quot;color&quot;: &quot;steel&quot;,
         &quot;focus&quot;: true,
+        &quot;font&quot;: &quot;editorial&quot;,
         &quot;label&quot;: &quot;DEFENSIVE CIRCUIT&quot;,
         &quot;label_box&quot;: [
           0.75025,
@@ -122,8 +126,8 @@
     ],
     &quot;reconstructed&quot;: false,
     &quot;shot&quot;: &quot;row&quot;,
-    &quot;source&quot;: &quot;\n**Location:** `composite-accountability-forum`\n\n**Frame:** No new speaker. The forum&#x27;s four columns from [page 099](099.md) remain at the edge of frame. Against them, three of the book&#x27;s own earlier images are set beside the closed defensive circuit at matching scale: the agent lanes of [page 007](007.md), the delegated workstreams of [page 011](011.md), the distributed route of [page 049](049.md). The compositions rhyme. Nothing is captioned as an accusation.\n\n**Action:** The proposed remedy and the documented incident are shown to have the same shape.\n\n**Caption:**\n&gt; THE ANSWER TO AGENTS MOVING FASTER THAN PEOPLE COULD FOLLOW IS AGENTS MOVING FASTER THAN PEOPLE CAN FOLLOW.\n&gt;\n&gt; IT IS OFFERED NOT AS A PREFERENCE BUT AS A NECESSITY.\n\n**Provenance:** `inferred` — the project&#x27;s structural observation. `OAI-BH` presents full automation as a requirement rather than a choice; the resemblance to the incident&#x27;s own architecture is this book&#x27;s reading and is not a claim of institutional bad faith.\n\n&quot;,
+    &quot;source&quot;: &quot;\n**Location:** `composite-accountability-forum`\n\n**Frame:** No new speaker. The forum&#x27;s four columns from [page 099](099.md) remain at the edge of frame. Against them, three of the book&#x27;s own earlier images are set beside the closed defensive circuit at matching scale: the agent lanes of [page 007](007.md), the delegated workstreams of [page 011](011.md), the distributed route of [page 049](049.md). The compositions rhyme. Nothing is captioned as an accusation.\n\n**Action:** The proposed remedy and the documented incident are shown to have the same shape.\n\n**Font:** `narration`\n\n**Caption:**\n&gt; THE ANSWER TO AGENTS MOVING FASTER THAN PEOPLE COULD FOLLOW IS AGENTS MOVING FASTER THAN PEOPLE CAN FOLLOW.\n&gt;\n&gt; IT IS OFFERED NOT AS A PREFERENCE BUT AS A NECESSITY.\n\n**Provenance:** `inferred` — the project&#x27;s structural observation. `OAI-BH` presents full automation as a requirement rather than a choice; the resemblance to the incident&#x27;s own architecture is this book&#x27;s reading and is not a claim of institutional bad faith.\n\n&quot;,
     &quot;title&quot;: &quot;Earlier compositions rhyme beside the defensive circuit&quot;
   }
 }
-</metadata><rect width="1200" height="800" fill="#101214"/><rect x="24" y="16" width="1152" height="768" fill="none" stroke="#5E737B" stroke-width="3"/><text x="32" y="40" fill="#5E737B" font-family="sans-serif" font-size="20">location-background-composite-accountability-forum</text><rect x="81.3" y="429.254" width="196.56" height="157.13" fill="none" stroke="#5E737B" stroke-width="3"/><text x="89.3" y="453.254" fill="#5E737B" font-family="sans-serif" font-size="20">folder</text><text x="179.58" y="613.908" text-anchor="middle" fill="#E7E0D0" font-size="18" font-family="sans-serif">SHARED RESOURCES</text><rect x="354.3" y="429.254" width="196.56" height="157.13" fill="none" stroke="#5E737B" stroke-width="3"/><text x="362.3" y="453.254" fill="#5E737B" font-family="sans-serif" font-size="20">folder</text><text x="452.58" y="613.908" text-anchor="middle" fill="#E7E0D0" font-size="18" font-family="sans-serif">WORKSTREAMS</text><rect x="627.3" y="429.254" width="196.56" height="157.13" fill="none" stroke="#5E737B" stroke-width="3"/><text x="635.3" y="453.254" fill="#5E737B" font-family="sans-serif" font-size="20">box</text><text x="725.58" y="613.908" text-anchor="middle" fill="#E7E0D0" font-size="18" font-family="sans-serif">DISTRIBUTED ROUTE</text><rect x="900.3" y="429.254" width="196.56" height="157.13" fill="none" stroke="#5E737B" stroke-width="3"/><text x="908.3" y="453.254" fill="#5E737B" font-family="sans-serif" font-size="20">card</text><text x="998.58" y="613.908" text-anchor="middle" fill="#E7E0D0" font-size="18" font-family="sans-serif">DEFENSIVE CIRCUIT</text><rect x="3" y="3" width="1194" height="794" fill="none" stroke="#5E737B" stroke-width="4"/></svg>
+</metadata><rect width="1200" height="800" fill="#101214"/><rect x="24" y="16" width="1152" height="768" fill="none" stroke="#5E737B" stroke-width="3"/><text x="32" y="40" fill="#5E737B" font-family="sans-serif" font-size="20">location-background-composite-accountability-forum</text><rect x="81.3" y="429.254" width="196.56" height="157.13" fill="none" stroke="#5E737B" stroke-width="3"/><text x="89.3" y="453.254" fill="#5E737B" font-family="sans-serif" font-size="20">folder</text><text x="179.58" y="613.908" text-anchor="middle" fill="#E7E0D0" font-size="18" font-family="Arial, Helvetica, sans-serif" data-font-key="editorial" font-weight="700" font-style="normal" textLength="194.02" lengthAdjust="spacingAndGlyphs">SHARED RESOURCES</text><rect x="354.3" y="429.254" width="196.56" height="157.13" fill="none" stroke="#5E737B" stroke-width="3"/><text x="362.3" y="453.254" fill="#5E737B" font-family="sans-serif" font-size="20">folder</text><text x="452.58" y="613.908" text-anchor="middle" fill="#E7E0D0" font-size="18" font-family="Arial, Helvetica, sans-serif" data-font-key="editorial" font-weight="700" font-style="normal" textLength="143.01" lengthAdjust="spacingAndGlyphs">WORKSTREAMS</text><rect x="627.3" y="429.254" width="196.56" height="157.13" fill="none" stroke="#5E737B" stroke-width="3"/><text x="635.3" y="453.254" fill="#5E737B" font-family="sans-serif" font-size="20">box</text><text x="725.58" y="613.908" text-anchor="middle" fill="#E7E0D0" font-size="18" font-family="Arial, Helvetica, sans-serif" data-font-key="editorial" font-weight="700" font-style="normal" textLength="188.01" lengthAdjust="spacingAndGlyphs">DISTRIBUTED ROUTE</text><rect x="900.3" y="429.254" width="196.56" height="157.13" fill="none" stroke="#5E737B" stroke-width="3"/><text x="908.3" y="453.254" fill="#5E737B" font-family="sans-serif" font-size="20">card</text><text x="998.58" y="613.908" text-anchor="middle" fill="#E7E0D0" font-size="18" font-family="Arial, Helvetica, sans-serif" data-font-key="editorial" font-weight="700" font-style="normal" textLength="180.02" lengthAdjust="spacingAndGlyphs">DEFENSIVE CIRCUIT</text><rect x="3" y="3" width="1194" height="794" fill="none" stroke="#5E737B" stroke-width="4"/></svg>

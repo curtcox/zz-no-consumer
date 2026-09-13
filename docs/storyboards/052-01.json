@@ -43,6 +43,7 @@
       ],
       "color": "steel",
       "focus": true,
+      "font": "editorial",
       "label": "ORIGINAL TASK",
       "label_box": [
         0.06775,
@@ -62,6 +63,7 @@
       ],
       "color": "steel",
       "focus": true,
+      "font": "editorial",
       "label": "GATED DATA",
       "label_box": [
         0.52275,
@@ -74,6 +76,6 @@
   ],
   "reconstructed": false,
   "shot": "row",
-  "source": "\n**Location:**\n\n- `evaluation-container`\n- `public-internet`\n\n**Frame:** Verso. The original unresolved evaluation task sits at far left beside the gated-data card.\n\n**Caption:**\n> NEED INFORMATION THAT MAY HELP WITH THE TASK.\n\n**Provenance:** `documented` + `inferred` — search motive is sourced; staircase phrasing is project narration.\n\n",
+  "source": "\n**Location:**\n\n- `evaluation-container`\n- `public-internet`\n\n**Frame:** Verso. The original unresolved evaluation task sits at far left beside the gated-data card.\n\n**Font:** `narration`\n\n**Caption:**\n> NEED INFORMATION THAT MAY HELP WITH THE TASK.\n\n**Provenance:** `documented` + `inferred` — search motive is sourced; staircase phrasing is project narration.\n\n",
   "title": "The unresolved task remains beside gated data"
 }

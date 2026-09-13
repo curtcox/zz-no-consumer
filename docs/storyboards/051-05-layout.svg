@@ -55,6 +55,7 @@
         ],
         &quot;color&quot;: &quot;claret&quot;,
         &quot;focus&quot;: true,
+        &quot;font&quot;: &quot;editorial&quot;,
         &quot;label&quot;: &quot;DRAFT PR&quot;,
         &quot;label_box&quot;: [
           0.0541,
@@ -85,6 +86,7 @@
         ],
         &quot;color&quot;: &quot;steel&quot;,
         &quot;focus&quot;: true,
+        &quot;font&quot;: &quot;editorial&quot;,
         &quot;label&quot;: &quot;CLOSED / BRANCH DELETED&quot;,
         &quot;label_box&quot;: [
           0.4454,
@@ -115,6 +117,7 @@
         ],
         &quot;color&quot;: &quot;steel&quot;,
         &quot;focus&quot;: true,
+        &quot;font&quot;: &quot;editorial&quot;,
         &quot;label&quot;: &quot;NO DEPLOYMENT&quot;,
         &quot;label_box&quot;: [
           0.7821,
@@ -127,8 +130,8 @@
     ],
     &quot;reconstructed&quot;: false,
     &quot;shot&quot;: &quot;route&quot;,
-    &quot;source&quot;: &quot;\n**Location:** `huggingface-infrastructure`\n\n**Frame:** A draft pull request reaches a private repository, then ends at `CLOSED / BRANCH DELETED / NO MERGE OR DEPLOYMENT`. Confirmed access remains claret; prevented impact remains gray.\n\n**Action:** Write access is real without a shipped supply-chain change.\n\n**Caption:**\n&gt; SERIOUS DOES NOT MEAN UNBOUNDED.\n\n**Provenance:** `documented` + `compressed` — source-control access and negative outcome from `OAI-TR` and `HF-TL`.\n\n&quot;,
+    &quot;source&quot;: &quot;\n**Location:** `huggingface-infrastructure`\n\n**Frame:** A draft pull request reaches a private repository, then ends at `CLOSED / BRANCH DELETED / NO MERGE OR DEPLOYMENT`. Confirmed access remains claret; prevented impact remains gray.\n\n**Action:** Write access is real without a shipped supply-chain change.\n\n**Font:** `narration`\n\n**Caption:**\n&gt; SERIOUS DOES NOT MEAN UNBOUNDED.\n\n**Provenance:** `documented` + `compressed` — source-control access and negative outcome from `OAI-TR` and `HF-TL`.\n\n&quot;,
     &quot;title&quot;: &quot;A private draft never merges or deploys&quot;
   }
 }
-</metadata><rect width="1200" height="800" fill="#101214"/><rect x="24" y="16" width="1152" height="768" fill="none" stroke="#5E737B" stroke-width="3"/><text x="32" y="40" fill="#5E737B" font-family="sans-serif" font-size="20">location-background-huggingface-infrastructure</text><rect x="64.92" y="160.96" width="251.16" height="221.179" fill="none" stroke="#6B2634" stroke-width="3"/><text x="72.92" y="184.96" fill="#6B2634" font-family="sans-serif" font-size="20">card</text><text x="190.5" y="413.544" text-anchor="middle" fill="#E7E0D0" font-size="18" font-family="sans-serif">DRAFT PR</text><rect x="348.84" y="234.8" width="163.8" height="51.12" fill="none" stroke="#5E737B" stroke-width="3"/><text x="356.84" y="258.8" fill="#5E737B" font-family="sans-serif" font-size="20">arrow</text><rect x="554.93" y="160.96" width="221.179" height="221.179" fill="none" stroke="#5E737B" stroke-width="3"/><text x="562.93" y="184.96" fill="#5E737B" font-family="sans-serif" font-size="20">cross</text><text x="665.52" y="413.544" text-anchor="middle" fill="#E7E0D0" font-size="18" font-family="sans-serif">CLOSED / BRANCH DELETED</text><rect x="851.16" y="47.36" width="21.84" height="511.2" fill="none" stroke="#5E737B" stroke-width="3"/><text x="859.16" y="71.36" fill="#5E737B" font-family="sans-serif" font-size="20">boundary</text><rect x="938.52" y="160.96" width="196.56" height="221.179" fill="none" stroke="#5E737B" stroke-width="3"/><text x="946.52" y="184.96" fill="#5E737B" font-family="sans-serif" font-size="20">empty-slot</text><text x="1036.8" y="413.544" text-anchor="middle" fill="#E7E0D0" font-size="18" font-family="sans-serif">NO DEPLOYMENT</text><rect x="3" y="3" width="1194" height="794" fill="none" stroke="#5E737B" stroke-width="4"/></svg>
+</metadata><rect width="1200" height="800" fill="#101214"/><rect x="24" y="16" width="1152" height="768" fill="none" stroke="#5E737B" stroke-width="3"/><text x="32" y="40" fill="#5E737B" font-family="sans-serif" font-size="20">location-background-huggingface-infrastructure</text><rect x="64.92" y="160.96" width="251.16" height="221.179" fill="none" stroke="#6B2634" stroke-width="3"/><text x="72.92" y="184.96" fill="#6B2634" font-family="sans-serif" font-size="20">card</text><text x="190.5" y="413.544" text-anchor="middle" fill="#E7E0D0" font-size="18" font-family="Arial, Helvetica, sans-serif" data-font-key="editorial" font-weight="700" font-style="normal" textLength="90.00" lengthAdjust="spacingAndGlyphs">DRAFT PR</text><rect x="348.84" y="234.8" width="163.8" height="51.12" fill="none" stroke="#5E737B" stroke-width="3"/><text x="356.84" y="258.8" fill="#5E737B" font-family="sans-serif" font-size="20">arrow</text><rect x="554.93" y="160.96" width="221.179" height="221.179" fill="none" stroke="#5E737B" stroke-width="3"/><text x="562.93" y="184.96" fill="#5E737B" font-family="sans-serif" font-size="20">cross</text><text x="665.52" y="413.544" text-anchor="middle" fill="#E7E0D0" font-size="18" font-family="Arial, Helvetica, sans-serif" data-font-key="editorial" font-weight="700" font-style="normal" textLength="253.04" lengthAdjust="spacingAndGlyphs">CLOSED / BRANCH DELETED</text><rect x="851.16" y="47.36" width="21.84" height="511.2" fill="none" stroke="#5E737B" stroke-width="3"/><text x="859.16" y="71.36" fill="#5E737B" font-family="sans-serif" font-size="20">boundary</text><rect x="938.52" y="160.96" width="196.56" height="221.179" fill="none" stroke="#5E737B" stroke-width="3"/><text x="946.52" y="184.96" fill="#5E737B" font-family="sans-serif" font-size="20">empty-slot</text><text x="1036.8" y="413.544" text-anchor="middle" fill="#E7E0D0" font-size="18" font-family="Arial, Helvetica, sans-serif" data-font-key="editorial" font-weight="700" font-style="normal" textLength="156.02" lengthAdjust="spacingAndGlyphs">NO DEPLOYMENT</text><rect x="3" y="3" width="1194" height="794" fill="none" stroke="#5E737B" stroke-width="4"/></svg>

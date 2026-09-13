@@ -33,6 +33,7 @@
       ],
       "color": "steel",
       "focus": true,
+      "font": "editorial",
       "label": "18 AUGUST ASSESSMENT",
       "label_box": [
         0.06775,
@@ -52,6 +53,7 @@
       ],
       "color": "steel",
       "focus": true,
+      "font": "editorial",
       "label": "RL RUN HELD",
       "label_box": [
         0.52275,
@@ -64,6 +66,6 @@
   ],
   "reconstructed": false,
   "shot": "row",
-  "source": "\n**Location:** `public-announcement-ledger`\n\n**Frame:** Public ledger, 18 August. OpenAI says Astra may meet its Critical cyber threshold even as the largest planned RL run remains held.\n\n**Caption:**\n> THE RISK ASSESSMENT RISES. THE WORK DOES NOT BECOME ONE THING.\n\n**Provenance:** `documented` (institutional claim) + `inferred`.\n\n",
+  "source": "\n**Location:** `public-announcement-ledger`\n\n**Frame:** Public ledger, 18 August. OpenAI says Astra may meet its Critical cyber threshold even as the largest planned RL run remains held.\n\n**Font:** `narration`\n\n**Caption:**\n> THE RISK ASSESSMENT RISES. THE WORK DOES NOT BECOME ONE THING.\n\n**Provenance:** `documented` (institutional claim) + `inferred`.\n\n",
   "title": "The threshold claim coexists with the held run"
 }

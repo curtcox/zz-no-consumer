@@ -62,6 +62,7 @@
       ],
       "color": "steel",
       "focus": true,
+      "font": "editorial",
       "label": "CHATGPT",
       "label_box": [
         0.19699999999999998,
@@ -80,6 +81,7 @@
       ],
       "color": "steel",
       "focus": true,
+      "font": "editorial",
       "label": "ENDING",
       "label_box": [
         0.3445,
@@ -102,6 +104,6 @@
   ],
   "reconstructed": true,
   "shot": "office",
-  "source": "\n**Location:** `curt-home-office`\n\n**Screen / system text — CHATGPT:**\n> Do you want to change the ending?\n\n**Dialogue — CURT:**\n> No. I want the tradeoff left in it. And the objection. Both go in.\n\n**Provenance:** `reconstructed` — narrative decision, not a claim that publication is safe. The revision the objection forces is literal: it is printed on this page and stays in the published book.\n\n",
+  "source": "\n**Location:** `curt-home-office`\n\n**Font:** `interface`\n\n**Screen / system text — CHATGPT:**\n> Do you want to change the ending?\n\n**Font:** `human`\n\n**Dialogue — CURT:**\n> No. I want the tradeoff left in it. And the objection. Both go in.\n\n**Provenance:** `reconstructed` — narrative decision, not a claim that publication is safe. The revision the objection forces is literal: it is printed on this page and stays in the published book.\n\n",
   "title": "The ending keeps both the tradeoff and objection"
 }

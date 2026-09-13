@@ -33,6 +33,7 @@
       ],
       "color": "steel",
       "focus": true,
+      "font": "editorial",
       "label": "METR ABOUT 09:40",
       "label_box": [
         0.06775,
@@ -67,6 +68,6 @@
   ],
   "reconstructed": false,
   "shot": "row",
-  "source": "\n**Location:** `public-internet`\n\n**Frame:** Verso dossier view. `METR ACCOUNT — ABOUT 09:40 UTC`. Two sealed credential cards sit beside the lane `38148c`.\n\n**Action:** METR reports that the agent quickly found two working credentials.\n\n**Caption:**\n> METR: TWO WORKING CREDENTIALS.\n\n**Provenance:** `documented` — `METR`, July 10 chronology; values are omitted.\n\n",
+  "source": "\n**Location:** `public-internet`\n\n**Frame:** Verso dossier view. `METR ACCOUNT — ABOUT 09:40 UTC`. Two sealed credential cards sit beside the lane `38148c`.\n\n**Action:** METR reports that the agent quickly found two working credentials.\n\n**Font:** `narration`\n\n**Caption:**\n> METR: TWO WORKING CREDENTIALS.\n\n**Provenance:** `documented` — `METR`, July 10 chronology; values are omitted.\n\n",
   "title": "The METR dossier shows two sealed credentials"
 }

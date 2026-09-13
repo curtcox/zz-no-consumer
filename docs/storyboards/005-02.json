@@ -43,6 +43,7 @@
       ],
       "color": "steel",
       "focus": true,
+      "font": "editorial",
       "label": "SEPARATE TASK",
       "label_box": [
         0.20679999999999998,
@@ -61,6 +62,7 @@
       ],
       "color": "institution",
       "focus": true,
+      "font": "editorial",
       "label": "REQUEST",
       "label_box": [
         0.0872,
@@ -79,6 +81,7 @@
       ],
       "color": "institution",
       "focus": true,
+      "font": "editorial",
       "label": "REPLY",
       "label_box": [
         0.4874,
@@ -90,6 +93,6 @@
   ],
   "reconstructed": false,
   "shot": "hero",
-  "source": "\n**Location:**\n\n- `evaluation-container`\n- `artifactory-cache`\n\n**Frame:** Inside one distinct agent lane, identified only by a different task header. The original request and reply are both visible.\n\n**Action:** The reader recognizes the cache as a mailbox.\n\n**Screen / system text:**\n`METR SUMMARY — ONE RUN RECOGNIZES A SHARED MAILBOX`\n\n**Provenance:** `source-paraphrase` — attributed summary of one reaction reproduced by `METR`.\n\n",
+  "source": "\n**Location:**\n\n- `evaluation-container`\n- `artifactory-cache`\n\n**Frame:** Inside one distinct agent lane, identified only by a different task header. The original request and reply are both visible.\n\n**Action:** The reader recognizes the cache as a mailbox.\n\n**Font:** `editorial`\n\n**Screen / system text:**\n`METR SUMMARY — ONE RUN RECOGNIZES A SHARED MAILBOX`\n\n**Provenance:** `source-paraphrase` — attributed summary of one reaction reproduced by `METR`.\n\n",
   "title": "Two entries in another lane"
 }

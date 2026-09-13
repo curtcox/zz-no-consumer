@@ -33,6 +33,7 @@
       ],
       "color": "steel",
       "focus": true,
+      "font": "editorial",
       "label": "MONITORING",
       "label_box": [
         0.06775,
@@ -52,6 +53,7 @@
       ],
       "color": "steel",
       "focus": true,
+      "font": "editorial",
       "label": "ISOLATION",
       "label_box": [
         0.24975,
@@ -71,6 +73,7 @@
       ],
       "color": "steel",
       "focus": true,
+      "font": "editorial",
       "label": "EVALUATION DESIGN",
       "label_box": [
         0.43175,
@@ -90,6 +93,7 @@
       ],
       "color": "steel",
       "focus": true,
+      "font": "editorial",
       "label": "GRADER",
       "label_box": [
         0.61375,
@@ -109,6 +113,7 @@
       ],
       "color": "steel",
       "focus": true,
+      "font": "editorial",
       "label": "SAFE STOPPING",
       "label_box": [
         0.79575,
@@ -121,6 +126,6 @@
   ],
   "reconstructed": false,
   "shot": "row",
-  "source": "\n**Location:** `openai-training-program`\n\n**Frame:** Researchers move from the darkened lane to monitoring, isolation, evaluation design, grader revision, and safe-stopping work.\n\n**Caption:**\n> THE PAUSE REDIRECTS WORK TOWARD SAFEGUARDS AND ASSESSMENT.\n\n**Provenance:** `documented` + visual `compressed`.\n\n",
+  "source": "\n**Location:** `openai-training-program`\n\n**Frame:** Researchers move from the darkened lane to monitoring, isolation, evaluation design, grader revision, and safe-stopping work.\n\n**Font:** `narration`\n\n**Caption:**\n> THE PAUSE REDIRECTS WORK TOWARD SAFEGUARDS AND ASSESSMENT.\n\n**Provenance:** `documented` + visual `compressed`.\n\n",
   "title": "Research effort moves to safeguards and evaluation work"
 }

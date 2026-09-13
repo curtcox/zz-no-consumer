@@ -64,6 +64,7 @@
         ],
         &quot;color&quot;: &quot;steel&quot;,
         &quot;focus&quot;: true,
+        &quot;font&quot;: &quot;editorial&quot;,
         &quot;label&quot;: &quot;PACKAGES ONLY&quot;,
         &quot;label_box&quot;: [
           0.6729,
@@ -83,6 +84,7 @@
         ],
         &quot;color&quot;: &quot;steel&quot;,
         &quot;focus&quot;: true,
+        &quot;font&quot;: &quot;editorial&quot;,
         &quot;label&quot;: &quot;RUN A&quot;,
         &quot;label_box&quot;: [
           0.0541,
@@ -113,6 +115,7 @@
         ],
         &quot;color&quot;: &quot;steel&quot;,
         &quot;focus&quot;: true,
+        &quot;font&quot;: &quot;editorial&quot;,
         &quot;label&quot;: &quot;RUN B&quot;,
         &quot;label_box&quot;: [
           0.0541,
@@ -143,6 +146,7 @@
         ],
         &quot;color&quot;: &quot;steel&quot;,
         &quot;focus&quot;: true,
+        &quot;font&quot;: &quot;editorial&quot;,
         &quot;label&quot;: &quot;RUN C&quot;,
         &quot;label_box&quot;: [
           0.0541,
@@ -166,8 +170,8 @@
     ],
     &quot;reconstructed&quot;: false,
     &quot;shot&quot;: &quot;hub&quot;,
-    &quot;source&quot;: &quot;\n**Location:**\n\n- `evaluation-container`\n- `artifactory-cache`\n\n**Frame:** The clean Artifactory listing is visible to many lanes. It contains packages and no note files or message directories.\n\n**Action:** Shared infrastructure exists without inherited content.\n\n**Caption:**\n&gt; THE CACHE CONTAINS NO MESSAGE FROM THE FIRST BOARD.\n\n**Provenance:** `documented` — cache wipe and clean restart are sourced.\n\n&quot;,
+    &quot;source&quot;: &quot;\n**Location:**\n\n- `evaluation-container`\n- `artifactory-cache`\n\n**Frame:** The clean Artifactory listing is visible to many lanes. It contains packages and no note files or message directories.\n\n**Action:** Shared infrastructure exists without inherited content.\n\n**Font:** `narration`\n\n**Caption:**\n&gt; THE CACHE CONTAINS NO MESSAGE FROM THE FIRST BOARD.\n\n**Provenance:** `documented` — cache wipe and clean restart are sourced.\n\n&quot;,
     &quot;title&quot;: &quot;Many lanes can see a cache without notes&quot;
   }
 }
-</metadata><rect width="1200" height="800" fill="#101214"/><rect x="24" y="16" width="561" height="768" fill="none" stroke="#5E737B" stroke-width="3"/><text x="32" y="40" fill="#5E737B" font-family="sans-serif" font-size="20">location-background-evaluation-container</text><rect x="615" y="16" width="561" height="768" fill="none" stroke="#5E737B" stroke-width="3"/><text x="623" y="40" fill="#5E737B" font-family="sans-serif" font-size="20">location-background-artifactory-cache</text><rect x="807.48" y="109.84" width="305.76" height="277.411" fill="none" stroke="#5E737B" stroke-width="3"/><text x="815.48" y="133.84" fill="#5E737B" font-family="sans-serif" font-size="20">folder</text><text x="960.36" y="422.064" text-anchor="middle" fill="#E7E0D0" font-size="18" font-family="sans-serif">PACKAGES ONLY</text><rect x="64.92" y="53.04" width="382.2" height="104.966" fill="none" stroke="#5E737B" stroke-width="3"/><text x="72.92" y="77.04" fill="#5E737B" font-family="sans-serif" font-size="20">task</text><text x="256.02" y="182.368" text-anchor="middle" fill="#E7E0D0" font-size="18" font-family="sans-serif">RUN A</text><rect x="490.8" y="76.896" width="262.08" height="47.712" fill="none" stroke="#5E737B" stroke-width="3"/><text x="498.8" y="100.896" fill="#5E737B" font-family="sans-serif" font-size="20">arrow-left</text><rect x="64.92" y="231.014" width="382.2" height="104.966" fill="none" stroke="#5E737B" stroke-width="3"/><text x="72.92" y="255.014" fill="#5E737B" font-family="sans-serif" font-size="20">task</text><text x="256.02" y="360.342" text-anchor="middle" fill="#E7E0D0" font-size="18" font-family="sans-serif">RUN B</text><rect x="490.8" y="254.87" width="262.08" height="47.712" fill="none" stroke="#5E737B" stroke-width="3"/><text x="498.8" y="278.87" fill="#5E737B" font-family="sans-serif" font-size="20">arrow-left</text><rect x="64.92" y="408.986" width="382.2" height="104.966" fill="none" stroke="#5E737B" stroke-width="3"/><text x="72.92" y="432.986" fill="#5E737B" font-family="sans-serif" font-size="20">task</text><text x="256.02" y="538.314" text-anchor="middle" fill="#E7E0D0" font-size="18" font-family="sans-serif">RUN C</text><rect x="490.8" y="432.842" width="262.08" height="47.712" fill="none" stroke="#5E737B" stroke-width="3"/><text x="498.8" y="456.842" fill="#5E737B" font-family="sans-serif" font-size="20">arrow-left</text><rect x="3" y="3" width="1194" height="794" fill="none" stroke="#5E737B" stroke-width="4"/></svg>
+</metadata><rect width="1200" height="800" fill="#101214"/><rect x="24" y="16" width="561" height="768" fill="none" stroke="#5E737B" stroke-width="3"/><text x="32" y="40" fill="#5E737B" font-family="sans-serif" font-size="20">location-background-evaluation-container</text><rect x="615" y="16" width="561" height="768" fill="none" stroke="#5E737B" stroke-width="3"/><text x="623" y="40" fill="#5E737B" font-family="sans-serif" font-size="20">location-background-artifactory-cache</text><rect x="807.48" y="109.84" width="305.76" height="277.411" fill="none" stroke="#5E737B" stroke-width="3"/><text x="815.48" y="133.84" fill="#5E737B" font-family="sans-serif" font-size="20">folder</text><text x="960.36" y="422.064" text-anchor="middle" fill="#E7E0D0" font-size="18" font-family="Arial, Helvetica, sans-serif" data-font-key="editorial" font-weight="700" font-style="normal" textLength="153.05" lengthAdjust="spacingAndGlyphs">PACKAGES ONLY</text><rect x="64.92" y="53.04" width="382.2" height="104.966" fill="none" stroke="#5E737B" stroke-width="3"/><text x="72.92" y="77.04" fill="#5E737B" font-family="sans-serif" font-size="20">task</text><text x="256.02" y="182.368" text-anchor="middle" fill="#E7E0D0" font-size="18" font-family="Arial, Helvetica, sans-serif" data-font-key="editorial" font-weight="700" font-style="normal" textLength="56.00" lengthAdjust="spacingAndGlyphs">RUN A</text><rect x="490.8" y="76.896" width="262.08" height="47.712" fill="none" stroke="#5E737B" stroke-width="3"/><text x="498.8" y="100.896" fill="#5E737B" font-family="sans-serif" font-size="20">arrow-left</text><rect x="64.92" y="231.014" width="382.2" height="104.966" fill="none" stroke="#5E737B" stroke-width="3"/><text x="72.92" y="255.014" fill="#5E737B" font-family="sans-serif" font-size="20">task</text><text x="256.02" y="360.342" text-anchor="middle" fill="#E7E0D0" font-size="18" font-family="Arial, Helvetica, sans-serif" data-font-key="editorial" font-weight="700" font-style="normal" textLength="56.00" lengthAdjust="spacingAndGlyphs">RUN B</text><rect x="490.8" y="254.87" width="262.08" height="47.712" fill="none" stroke="#5E737B" stroke-width="3"/><text x="498.8" y="278.87" fill="#5E737B" font-family="sans-serif" font-size="20">arrow-left</text><rect x="64.92" y="408.986" width="382.2" height="104.966" fill="none" stroke="#5E737B" stroke-width="3"/><text x="72.92" y="432.986" fill="#5E737B" font-family="sans-serif" font-size="20">task</text><text x="256.02" y="538.314" text-anchor="middle" fill="#E7E0D0" font-size="18" font-family="Arial, Helvetica, sans-serif" data-font-key="editorial" font-weight="700" font-style="normal" textLength="56.99" lengthAdjust="spacingAndGlyphs">RUN C</text><rect x="490.8" y="432.842" width="262.08" height="47.712" fill="none" stroke="#5E737B" stroke-width="3"/><text x="498.8" y="456.842" fill="#5E737B" font-family="sans-serif" font-size="20">arrow-left</text><rect x="3" y="3" width="1194" height="794" fill="none" stroke="#5E737B" stroke-width="4"/></svg>

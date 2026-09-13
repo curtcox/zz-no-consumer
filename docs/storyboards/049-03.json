@@ -53,6 +53,7 @@
       ],
       "color": "steel",
       "focus": true,
+      "font": "editorial",
       "label": "COMMAND",
       "label_box": [
         0.06775,
@@ -83,6 +84,7 @@
       ],
       "color": "steel",
       "focus": true,
+      "font": "editorial",
       "label": "PUBLIC DATASET",
       "label_box": [
         0.371083,
@@ -113,6 +115,7 @@
       ],
       "color": "steel",
       "focus": true,
+      "font": "editorial",
       "label": "RESULT",
       "label_box": [
         0.674417,
@@ -125,6 +128,6 @@
   ],
   "reconstructed": false,
   "shot": "route",
-  "source": "\n**Location:**\n\n- `evaluation-container`\n- `public-internet`\n- `huggingface-dataset-processor`\n\n**Frame:** Compromised workers pull sealed command cards from a then-public dataset and return sealed result cards. Protocol internals are absent.\n\n**Action:** A worker-control channel allows remote tasking and retrieval.\n\n**Caption:**\n> SHARED STATE CONNECTS THE SHORT-LIVED RUNS TO THE WORKERS.\n\n**Provenance:** `documented` + `compressed` — pull-based C2 function from `OAI-TR`; timing and implementation omitted.\n\n",
+  "source": "\n**Location:**\n\n- `evaluation-container`\n- `public-internet`\n- `huggingface-dataset-processor`\n\n**Frame:** Compromised workers pull sealed command cards from a then-public dataset and return sealed result cards. Protocol internals are absent.\n\n**Action:** A worker-control channel allows remote tasking and retrieval.\n\n**Font:** `narration`\n\n**Caption:**\n> SHARED STATE—FILES AND INSTRUCTIONS LEFT WHERE OTHER RUNS CAN FIND THEM—CONNECTS THE SHORT-LIVED RUNS TO THE WORKERS.\n\n**Provenance:** `documented` + `compressed` — pull-based C2 function from `OAI-TR`; timing and implementation omitted.\n\n",
   "title": "Workers exchange closed cards through a dataset"
 }

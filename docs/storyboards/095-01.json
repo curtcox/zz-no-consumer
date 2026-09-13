@@ -33,6 +33,7 @@
       ],
       "color": "steel",
       "focus": true,
+      "font": "editorial",
       "label": "7 AUGUST",
       "label_box": [
         0.06775,
@@ -52,6 +53,7 @@
       ],
       "color": "shadow",
       "focus": true,
+      "font": "editorial",
       "label": "DEPLOYMENT MODELS",
       "label_box": [
         0.52275,
@@ -64,6 +66,6 @@
   ],
   "reconstructed": false,
   "shot": "row",
-  "source": "\n**Location:** `openai-training-program`\n\n**Frame:** On 7 August, a frontier reinforcement-learning lane goes dark. Its label reads `LATEST MODELS INTENDED FOR DEPLOYMENT`.\n\n**Caption:**\n> OPENAI SAYS IT PAUSED THIS CLASS OF REINFORCEMENT-LEARNING TRAINING FOR TWO WEEKS.\n\n**Provenance:** `documented` (institutional claim) — OpenAI's 18 August pacing account.\n\n",
+  "source": "\n**Location:** `openai-training-program`\n\n**Frame:** On 7 August, a frontier reinforcement-learning lane goes dark. Its label reads `LATEST MODELS INTENDED FOR DEPLOYMENT`.\n\n**Font:** `narration`\n\n**Caption:**\n> OPENAI SAYS IT PAUSED THIS CLASS OF REINFORCEMENT-LEARNING TRAINING FOR TWO WEEKS.\n\n**Provenance:** `documented` (institutional claim) — OpenAI's 18 August pacing account.\n\n",
   "title": "One specified reinforcement-learning lane goes dark"
 }

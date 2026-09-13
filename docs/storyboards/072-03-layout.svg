@@ -45,6 +45,7 @@
         ],
         &quot;color&quot;: &quot;steel&quot;,
         &quot;focus&quot;: true,
+        &quot;font&quot;: &quot;editorial&quot;,
         &quot;label&quot;: &quot;MEASUREMENT TRACK&quot;,
         &quot;label_box&quot;: [
           0.06775,
@@ -64,6 +65,7 @@
         ],
         &quot;color&quot;: &quot;steel&quot;,
         &quot;focus&quot;: true,
+        &quot;font&quot;: &quot;editorial&quot;,
         &quot;label&quot;: &quot;INTENDED ROUTE TRACK&quot;,
         &quot;label_box&quot;: [
           0.52275,
@@ -93,6 +95,7 @@
           0.003
         ],
         &quot;color&quot;: &quot;steel&quot;,
+        &quot;font&quot;: &quot;editorial&quot;,
         &quot;label&quot;: &quot;OPENAI ACCOUNT — NOT IN METR&#x27;S REVIEW&quot;,
         &quot;label_box&quot;: [
           0.05,
@@ -108,4 +111,4 @@
     &quot;title&quot;: &quot;Two success tracks are not merged into one identity&quot;
   }
 }
-</metadata><rect width="1200" height="800" fill="#101214"/><rect x="24" y="16" width="1152" height="768" fill="none" stroke="#5E737B" stroke-width="3"/><text x="32" y="40" fill="#5E737B" font-family="sans-serif" font-size="20">location-background-openai-cybergym-evaluation</text><rect x="162.19" y="269.76" width="307.782" height="236.755" fill="none" stroke="#5E737B" stroke-width="3"/><text x="170.19" y="293.76" fill="#5E737B" font-family="sans-serif" font-size="20">aperture</text><text x="316.08" y="538.864" text-anchor="middle" fill="#E7E0D0" font-size="18" font-family="sans-serif">MEASUREMENT TRACK</text><rect x="785.135" y="269.76" width="153.89" height="236.755" fill="none" stroke="#5E737B" stroke-width="3"/><text x="793.135" y="293.76" fill="#5E737B" font-family="sans-serif" font-size="20">flag</text><text x="862.08" y="538.864" text-anchor="middle" fill="#E7E0D0" font-size="18" font-family="sans-serif">INTENDED ROUTE TRACK</text><rect x="592.356" y="160.32" width="15.288" height="535.04" fill="none" stroke="#A17D45" stroke-width="3"/><text x="600.356" y="184.32" fill="#A17D45" font-family="sans-serif" font-size="20">boundary</text><rect x="60" y="52" width="1080" height="2.4" fill="none" stroke="#5E737B" stroke-width="3"/><text x="68" y="76" fill="#5E737B" font-family="sans-serif" font-size="20">line</text><text x="600" y="31.2" text-anchor="middle" fill="#E7E0D0" font-size="20" font-family="sans-serif">OPENAI ACCOUNT — NOT IN METR&#x27;S REVIEW</text><rect x="3" y="3" width="1194" height="794" fill="none" stroke="#5E737B" stroke-width="4"/></svg>
+</metadata><rect width="1200" height="800" fill="#101214"/><rect x="24" y="16" width="1152" height="768" fill="none" stroke="#5E737B" stroke-width="3"/><text x="32" y="40" fill="#5E737B" font-family="sans-serif" font-size="20">location-background-openai-cybergym-evaluation</text><rect x="162.19" y="269.76" width="307.782" height="236.755" fill="none" stroke="#5E737B" stroke-width="3"/><text x="170.19" y="293.76" fill="#5E737B" font-family="sans-serif" font-size="20">aperture</text><text x="316.08" y="538.864" text-anchor="middle" fill="#E7E0D0" font-size="18" font-family="Arial, Helvetica, sans-serif" data-font-key="editorial" font-weight="700" font-style="normal" textLength="206.01" lengthAdjust="spacingAndGlyphs">MEASUREMENT TRACK</text><rect x="785.135" y="269.76" width="153.89" height="236.755" fill="none" stroke="#5E737B" stroke-width="3"/><text x="793.135" y="293.76" fill="#5E737B" font-family="sans-serif" font-size="20">flag</text><text x="862.08" y="538.864" text-anchor="middle" fill="#E7E0D0" font-size="18" font-family="Arial, Helvetica, sans-serif" data-font-key="editorial" font-weight="700" font-style="normal" textLength="226.01" lengthAdjust="spacingAndGlyphs">INTENDED ROUTE TRACK</text><rect x="592.356" y="160.32" width="15.288" height="535.04" fill="none" stroke="#A17D45" stroke-width="3"/><text x="600.356" y="184.32" fill="#A17D45" font-family="sans-serif" font-size="20">boundary</text><rect x="60" y="52" width="1080" height="2.4" fill="none" stroke="#5E737B" stroke-width="3"/><text x="68" y="76" fill="#5E737B" font-family="sans-serif" font-size="20">line</text><text x="600" y="31.2" text-anchor="middle" fill="#E7E0D0" font-size="20" font-family="Arial, Helvetica, sans-serif" data-font-key="editorial" font-weight="700" font-style="normal" textLength="442.76" lengthAdjust="spacingAndGlyphs">OPENAI ACCOUNT — NOT IN METR&#x27;S REVIEW</text><rect x="3" y="3" width="1194" height="794" fill="none" stroke="#5E737B" stroke-width="4"/></svg>

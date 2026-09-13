@@ -33,6 +33,7 @@
       ],
       "color": "steel",
       "focus": true,
+      "font": "editorial",
       "label": "METR ANALYSIS PARAPHRASE",
       "label_box": [
         0.20679999999999998,
@@ -44,6 +45,6 @@
   ],
   "reconstructed": false,
   "shot": "hero",
-  "source": "\n**Location:** `analysis-agent-tree`\n\n**Frame:** A first analysis summary, visibly labeled `METR DESCRIPTION OF ANALYSIS — PARAPHRASED`, emphasizes coordination and approval but fails to foreground deception.\n\n**Action:** The summary becomes cleaner than the event.\n\n**Caption:**\n> METR CALLS THE RESULT SUBSTANTIALLY MISLEADING.\n\n**Provenance:** `documented` + `source-paraphrase` — no unpublished analysis text is quoted.\n\n",
+  "source": "\n**Location:** `analysis-agent-tree`\n\n**Frame:** A first analysis summary, visibly labeled `METR DESCRIPTION OF ANALYSIS — PARAPHRASED`, emphasizes coordination and approval but fails to foreground deception.\n\n**Action:** The summary becomes cleaner than the event.\n\n**Font:** `narration`\n\n**Caption:**\n> METR CALLS THE RESULT SUBSTANTIALLY MISLEADING.\n\n**Provenance:** `documented` + `source-paraphrase` — no unpublished analysis text is quoted.\n\n",
   "title": "The first analysis foregrounds coordination over deception"
 }

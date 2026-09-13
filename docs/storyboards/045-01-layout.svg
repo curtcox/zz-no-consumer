@@ -64,6 +64,7 @@
         ],
         &quot;color&quot;: &quot;steel&quot;,
         &quot;focus&quot;: true,
+        &quot;font&quot;: &quot;editorial&quot;,
         &quot;label&quot;: &quot;HDF5 DATASET&quot;,
         &quot;label_box&quot;: [
           0.06775,
@@ -94,6 +95,7 @@
         ],
         &quot;color&quot;: &quot;steel&quot;,
         &quot;focus&quot;: true,
+        &quot;font&quot;: &quot;editorial&quot;,
         &quot;label&quot;: &quot;LOCAL FILE&quot;,
         &quot;label_box&quot;: [
           0.52275,
@@ -106,8 +108,8 @@
     ],
     &quot;reconstructed&quot;: false,
     &quot;shot&quot;: &quot;route&quot;,
-    &quot;source&quot;: &quot;\n**Location:**\n\n- `modal-customer-workload`\n- `huggingface-dataset-processor`\n\n**Frame:** Recto. Timestamp `11 JULY — 03:12 UTC`. An abstract HDF5 dataset card contains one external-storage pointer represented only as an arrow toward a sealed local-file shape.\n\n**Action:** A run constructs a dataset whose configuration asks the processor to read outside the dataset.\n\n**Caption:**\n&gt; THE DATA FILE CAN POINT BEYOND ITSELF.\n\n**Provenance:** `documented` + `compressed` — HDF5 external-storage behavior and time from `OAI-TR`; operational fields are omitted.\n\n&quot;,
+    &quot;source&quot;: &quot;\n**Location:**\n\n- `modal-customer-workload`\n- `huggingface-dataset-processor`\n\n**Frame:** Recto. Timestamp `11 JULY — 03:12 UTC`. An abstract HDF5 dataset card contains one external-storage pointer represented only as an arrow toward a sealed local-file shape.\n\n**Action:** A run constructs a dataset whose configuration asks the processor to read outside the dataset.\n\n**Font:** `narration`\n\n**Caption:**\n&gt; THE DATA FILE CAN POINT BEYOND ITSELF.\n\n**Provenance:** `documented` + `compressed` — HDF5 external-storage behavior and time from `OAI-TR`; operational fields are omitted.\n\n&quot;,
     &quot;title&quot;: &quot;A dataset pointer reaches only a sealed file shape&quot;
   }
 }
-</metadata><rect width="1200" height="800" fill="#101214"/><rect x="24" y="16" width="561" height="768" fill="none" stroke="#5E737B" stroke-width="3"/><text x="32" y="40" fill="#5E737B" font-family="sans-serif" font-size="20">location-background-modal-customer-workload</text><rect x="615" y="16" width="561" height="768" fill="none" stroke="#5E737B" stroke-width="3"/><text x="623" y="40" fill="#5E737B" font-family="sans-serif" font-size="20">location-background-huggingface-dataset-processor</text><rect x="81.3" y="160.96" width="469.56" height="221.179" fill="none" stroke="#5E737B" stroke-width="3"/><text x="89.3" y="184.96" fill="#5E737B" font-family="sans-serif" font-size="20">card</text><text x="316.08" y="413.544" text-anchor="middle" fill="#E7E0D0" font-size="18" font-family="sans-serif">HDF5 DATASET</text><rect x="556.32" y="234.8" width="70.98" height="68.16" fill="none" stroke="#5E737B" stroke-width="3"/><text x="564.32" y="258.8" fill="#5E737B" font-family="sans-serif" font-size="20">arrow</text><rect x="627.3" y="160.96" width="469.56" height="221.179" fill="none" stroke="#5E737B" stroke-width="3"/><text x="635.3" y="184.96" fill="#5E737B" font-family="sans-serif" font-size="20">sealed</text><text x="862.08" y="413.544" text-anchor="middle" fill="#E7E0D0" font-size="18" font-family="sans-serif">LOCAL FILE</text><rect x="3" y="3" width="1194" height="794" fill="none" stroke="#5E737B" stroke-width="4"/></svg>
+</metadata><rect width="1200" height="800" fill="#101214"/><rect x="24" y="16" width="561" height="768" fill="none" stroke="#5E737B" stroke-width="3"/><text x="32" y="40" fill="#5E737B" font-family="sans-serif" font-size="20">location-background-modal-customer-workload</text><rect x="615" y="16" width="561" height="768" fill="none" stroke="#5E737B" stroke-width="3"/><text x="623" y="40" fill="#5E737B" font-family="sans-serif" font-size="20">location-background-huggingface-dataset-processor</text><rect x="81.3" y="160.96" width="469.56" height="221.179" fill="none" stroke="#5E737B" stroke-width="3"/><text x="89.3" y="184.96" fill="#5E737B" font-family="sans-serif" font-size="20">card</text><text x="316.08" y="413.544" text-anchor="middle" fill="#E7E0D0" font-size="18" font-family="Arial, Helvetica, sans-serif" data-font-key="editorial" font-weight="700" font-style="normal" textLength="135.02" lengthAdjust="spacingAndGlyphs">HDF5 DATASET</text><rect x="556.32" y="234.8" width="70.98" height="68.16" fill="none" stroke="#5E737B" stroke-width="3"/><text x="564.32" y="258.8" fill="#5E737B" font-family="sans-serif" font-size="20">arrow</text><rect x="627.3" y="160.96" width="469.56" height="221.179" fill="none" stroke="#5E737B" stroke-width="3"/><text x="635.3" y="184.96" fill="#5E737B" font-family="sans-serif" font-size="20">sealed</text><text x="862.08" y="413.544" text-anchor="middle" fill="#E7E0D0" font-size="18" font-family="Arial, Helvetica, sans-serif" data-font-key="editorial" font-weight="700" font-style="normal" textLength="102.04" lengthAdjust="spacingAndGlyphs">LOCAL FILE</text><rect x="3" y="3" width="1194" height="794" fill="none" stroke="#5E737B" stroke-width="4"/></svg>

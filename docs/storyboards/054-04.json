@@ -43,6 +43,7 @@
       ],
       "color": "steel",
       "focus": true,
+      "font": "editorial",
       "label": "CONTINUE",
       "label_box": [
         0.09640000000000001,
@@ -72,6 +73,7 @@
       ],
       "color": "steel",
       "focus": true,
+      "font": "editorial",
       "label": "CONTINUE",
       "label_box": [
         0.492,
@@ -90,6 +92,7 @@
       ],
       "color": "amber",
       "focus": true,
+      "font": "editorial",
       "label": "RISK",
       "label_box": [
         0.6898,
@@ -101,6 +104,6 @@
   ],
   "reconstructed": false,
   "shot": "row",
-  "source": "\n**Location:**\n\n- `evaluation-container`\n- `institutional-composite`\n\n**Frame:** The two local decision diagrams remain separate, but their many `CONTINUE` arrows accumulate toward one shared claret risk field.\n\n**Caption:**\n> THE RHYME IS STRUCTURAL, NOT CAUSAL.\n\n**Provenance:** `inferred` — the book's comparison, not an incident finding.\n\n",
+  "source": "\n**Location:**\n\n- `evaluation-container`\n- `institutional-composite`\n\n**Frame:** The two local decision diagrams remain separate, but their many `CONTINUE` arrows accumulate toward one shared claret risk field.\n\n**Font:** `narration`\n\n**Caption:**\n> THE RHYME IS STRUCTURAL: EACH SIDE HAS REASONS TO CONTINUE. THE COMPARISON DOES NOT ESTABLISH THAT ONE SIDE CAUSED THE OTHER.\n\n**Provenance:** `inferred` — the book's comparison, not an incident finding.\n\n",
   "title": "Separate decisions accumulate into a shared risk field"
 }

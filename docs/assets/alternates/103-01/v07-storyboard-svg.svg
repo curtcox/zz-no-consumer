@@ -1,0 +1,143 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="800" viewBox="0 0 1200 800"><title>The affected platform rebuilds and narrows exposure</title><desc>Show rebuilding, narrower access, closed routes and severity changes as separate concrete actions. Keep their scope attached rather than marking the entire platform solved.</desc><metadata>{
+  &quot;assets&quot;: {
+    &quot;aperture&quot;: &quot;&lt;defs&gt;\n&lt;linearGradient id=\&quot;metal\&quot; x1=\&quot;0\&quot; y1=\&quot;0\&quot; x2=\&quot;1\&quot; y2=\&quot;1\&quot;&gt;&lt;stop stop-color=\&quot;currentColor\&quot; /&gt;&lt;stop offset=\&quot;.32\&quot; stop-color=\&quot;#202326\&quot; /&gt;&lt;stop offset=\&quot;.75\&quot; stop-color=\&quot;#101214\&quot; /&gt;&lt;stop offset=\&quot;1\&quot; stop-color=\&quot;currentColor\&quot; /&gt;&lt;/linearGradient&gt;\n&lt;linearGradient id=\&quot;tone\&quot; x1=\&quot;0\&quot; y1=\&quot;0\&quot; x2=\&quot;1\&quot; y2=\&quot;1\&quot;&gt;&lt;stop stop-color=\&quot;currentColor\&quot; /&gt;&lt;stop offset=\&quot;1\&quot; stop-color=\&quot;#101214\&quot; stop-opacity=\&quot;.65\&quot; /&gt;&lt;/linearGradient&gt;\n&lt;/defs&gt;&lt;rect x=\&quot;3\&quot; y=\&quot;14\&quot; width=\&quot;94\&quot; height=\&quot;73\&quot; rx=\&quot;4\&quot; fill=\&quot;url(#metal)\&quot; stroke=\&quot;currentColor\&quot; stroke-width=\&quot;2\&quot; /&gt;&lt;circle cx=\&quot;50\&quot; cy=\&quot;50\&quot; r=\&quot;29\&quot; fill=\&quot;#101214\&quot; stroke=\&quot;#CEC5B3\&quot; stroke-width=\&quot;2\&quot; /&gt;&lt;path d=\&quot;M50 23L73 37 64 52 50 40Z\&quot; fill=\&quot;url(#tone)\&quot; stroke=\&quot;currentColor\&quot; stroke-width=\&quot;0.8\&quot; transform=\&quot;rotate(0 50 50)\&quot; /&gt;&lt;path d=\&quot;M50 23L73 37 64 52 50 40Z\&quot; fill=\&quot;url(#tone)\&quot; stroke=\&quot;currentColor\&quot; stroke-width=\&quot;0.8\&quot; transform=\&quot;rotate(60 50 50)\&quot; /&gt;&lt;path d=\&quot;M50 23L73 37 64 52 50 40Z\&quot; fill=\&quot;url(#tone)\&quot; stroke=\&quot;currentColor\&quot; stroke-width=\&quot;0.8\&quot; transform=\&quot;rotate(120 50 50)\&quot; /&gt;&lt;path d=\&quot;M50 23L73 37 64 52 50 40Z\&quot; fill=\&quot;url(#tone)\&quot; stroke=\&quot;currentColor\&quot; stroke-width=\&quot;0.8\&quot; transform=\&quot;rotate(180 50 50)\&quot; /&gt;&lt;path d=\&quot;M50 23L73 37 64 52 50 40Z\&quot; fill=\&quot;url(#tone)\&quot; stroke=\&quot;currentColor\&quot; stroke-width=\&quot;0.8\&quot; transform=\&quot;rotate(240 50 50)\&quot; /&gt;&lt;path d=\&quot;M50 23L73 37 64 52 50 40Z\&quot; fill=\&quot;url(#tone)\&quot; stroke=\&quot;currentColor\&quot; stroke-width=\&quot;0.8\&quot; transform=\&quot;rotate(300 50 50)\&quot; /&gt;&lt;polygon points=\&quot;50,40 59,45 59,55 50,60 41,55 41,45\&quot; fill=\&quot;#101214\&quot; /&gt;&quot;,
+    &quot;gate&quot;: &quot;&lt;defs&gt;\n&lt;linearGradient id=\&quot;metal\&quot; x1=\&quot;0\&quot; y1=\&quot;0\&quot; x2=\&quot;1\&quot; y2=\&quot;1\&quot;&gt;&lt;stop stop-color=\&quot;currentColor\&quot; /&gt;&lt;stop offset=\&quot;.32\&quot; stop-color=\&quot;#202326\&quot; /&gt;&lt;stop offset=\&quot;.75\&quot; stop-color=\&quot;#101214\&quot; /&gt;&lt;stop offset=\&quot;1\&quot; stop-color=\&quot;currentColor\&quot; /&gt;&lt;/linearGradient&gt;\n&lt;pattern id=\&quot;mesh\&quot; width=\&quot;5\&quot; height=\&quot;5\&quot; patternUnits=\&quot;userSpaceOnUse\&quot;&gt;&lt;circle cx=\&quot;2.5\&quot; cy=\&quot;2.5\&quot; r=\&quot;.7\&quot; fill=\&quot;#101214\&quot; /&gt;&lt;path d=\&quot;M0 0H5\&quot; stroke=\&quot;#E7E0D0\&quot; stroke-opacity=\&quot;.08\&quot; stroke-width=\&quot;.4\&quot; /&gt;&lt;/pattern&gt;\n&lt;/defs&gt;&lt;path d=\&quot;M7 97V7H93V97H86V15H14V97Z\&quot; fill=\&quot;url(#metal)\&quot; stroke=\&quot;currentColor\&quot; stroke-width=\&quot;2\&quot; /&gt;&lt;rect x=\&quot;18\&quot; y=\&quot;27\&quot; width=\&quot;64\&quot; height=\&quot;66\&quot; fill=\&quot;url(#mesh)\&quot; stroke=\&quot;currentColor\&quot; stroke-width=\&quot;2\&quot; /&gt;&lt;path d=\&quot;M30 29V91M43 29V91M56 29V91M69 29V91\&quot; fill=\&quot;none\&quot; stroke=\&quot;#CEC5B3\&quot; stroke-width=\&quot;1.5\&quot; /&gt;&lt;rect x=\&quot;41\&quot; y=\&quot;49\&quot; width=\&quot;18\&quot; height=\&quot;21\&quot; fill=\&quot;currentColor\&quot; stroke=\&quot;#E7E0D0\&quot; stroke-width=\&quot;1\&quot; /&gt;&quot;,
+    &quot;location-background-huggingface-infrastructure&quot;: &quot;&lt;title&gt;Stepped infrastructure surround — ceramic&lt;/title&gt;&lt;defs&gt;&lt;linearGradient id=\&quot;wash\&quot; x1=\&quot;0\&quot; y1=\&quot;0\&quot; x2=\&quot;1\&quot; y2=\&quot;1\&quot;&gt;&lt;stop stop-color=\&quot;#A99BB6\&quot; stop-opacity=\&quot;.45\&quot;/&gt;&lt;stop offset=\&quot;.5\&quot; stop-color=\&quot;#463D55\&quot; stop-opacity=\&quot;.22\&quot;/&gt;&lt;stop offset=\&quot;1\&quot; stop-color=\&quot;#A99BB6\&quot; stop-opacity=\&quot;.27\&quot;/&gt;&lt;/linearGradient&gt;&lt;radialGradient id=\&quot;fade\&quot;&gt;&lt;stop offset=\&quot;.35\&quot; stop-color=\&quot;black\&quot;/&gt;&lt;stop offset=\&quot;.7\&quot; stop-color=\&quot;#555555\&quot;/&gt;&lt;stop offset=\&quot;1\&quot; stop-color=\&quot;white\&quot;/&gt;&lt;/radialGradient&gt;&lt;mask id=\&quot;rim\&quot;&gt;&lt;rect width=\&quot;100\&quot; height=\&quot;100\&quot; fill=\&quot;url(#fade)\&quot;/&gt;&lt;/mask&gt;&lt;pattern id=\&quot;material\&quot; width=\&quot;16\&quot; height=\&quot;16\&quot; patternUnits=\&quot;userSpaceOnUse\&quot;&gt;&lt;g fill=\&quot;none\&quot; stroke=\&quot;#A99BB6\&quot; stroke-width=\&quot;.3\&quot; opacity=\&quot;.55\&quot;&gt;&lt;path d=\&quot;M0 0H16V16H0ZM1 1H15M1 1V15\&quot;/&gt;&lt;/g&gt;&lt;/pattern&gt;&lt;/defs&gt;\n&lt;rect x=\&quot;3\&quot; y=\&quot;3\&quot; width=\&quot;94\&quot; height=\&quot;94\&quot; rx=\&quot;1\&quot; fill=\&quot;url(#wash)\&quot;/&gt;&lt;rect x=\&quot;3\&quot; y=\&quot;3\&quot; width=\&quot;94\&quot; height=\&quot;94\&quot; fill=\&quot;url(#material)\&quot; mask=\&quot;url(#rim)\&quot;/&gt;&lt;path d=\&quot;M3 3H97V18H3ZM3 82H97V97H3Z\&quot; fill=\&quot;#463D55\&quot; opacity=\&quot;.34\&quot;/&gt;&lt;path d=\&quot;M3 3H97V18H3ZM3 82H97V97H3Z\&quot; fill=\&quot;url(#material)\&quot; opacity=\&quot;.65\&quot;/&gt;&lt;path d=\&quot;M4 26V12H30V6H70V12H96V26M4 74V88H30V94H70V88H96V74M9 32V68M91 32V68M16 17H32M68 17H84\&quot; fill=\&quot;none\&quot; stroke=\&quot;#080B0D\&quot; stroke-width=\&quot;1.7\&quot; opacity=\&quot;.45\&quot; transform=\&quot;translate(.35 .5)\&quot;/&gt;&lt;path d=\&quot;M4 26V12H30V6H70V12H96V26M4 74V88H30V94H70V88H96V74M9 32V68M91 32V68M16 17H32M68 17H84\&quot; fill=\&quot;none\&quot; stroke=\&quot;#A99BB6\&quot; stroke-width=\&quot;.8\&quot; stroke-linejoin=\&quot;round\&quot; opacity=\&quot;.66\&quot;/&gt;&quot;,
+    &quot;rack&quot;: &quot;&lt;defs&gt;\n&lt;linearGradient id=\&quot;metal\&quot; x1=\&quot;0\&quot; y1=\&quot;0\&quot; x2=\&quot;1\&quot; y2=\&quot;1\&quot;&gt;&lt;stop stop-color=\&quot;currentColor\&quot; /&gt;&lt;stop offset=\&quot;.32\&quot; stop-color=\&quot;#202326\&quot; /&gt;&lt;stop offset=\&quot;.75\&quot; stop-color=\&quot;#101214\&quot; /&gt;&lt;stop offset=\&quot;1\&quot; stop-color=\&quot;currentColor\&quot; /&gt;&lt;/linearGradient&gt;\n&lt;pattern id=\&quot;mesh\&quot; width=\&quot;5\&quot; height=\&quot;5\&quot; patternUnits=\&quot;userSpaceOnUse\&quot;&gt;&lt;circle cx=\&quot;2.5\&quot; cy=\&quot;2.5\&quot; r=\&quot;.7\&quot; fill=\&quot;#101214\&quot; /&gt;&lt;path d=\&quot;M0 0H5\&quot; stroke=\&quot;#E7E0D0\&quot; stroke-opacity=\&quot;.08\&quot; stroke-width=\&quot;.4\&quot; /&gt;&lt;/pattern&gt;\n&lt;/defs&gt;&lt;rect x=\&quot;5\&quot; y=\&quot;2\&quot; width=\&quot;90\&quot; height=\&quot;96\&quot; rx=\&quot;2\&quot; fill=\&quot;url(#metal)\&quot; stroke=\&quot;currentColor\&quot; stroke-width=\&quot;2\&quot; /&gt;&lt;rect x=\&quot;8\&quot; y=\&quot;6\&quot; width=\&quot;7\&quot; height=\&quot;86\&quot; fill=\&quot;url(#mesh)\&quot; /&gt;&lt;rect x=\&quot;85\&quot; y=\&quot;6\&quot; width=\&quot;7\&quot; height=\&quot;86\&quot; fill=\&quot;url(#mesh)\&quot; /&gt;&lt;rect x=\&quot;20\&quot; y=\&quot;8\&quot; width=\&quot;60\&quot; height=\&quot;10\&quot; fill=\&quot;#202326\&quot; stroke=\&quot;currentColor\&quot; stroke-width=\&quot;0.7\&quot; /&gt;&lt;rect x=\&quot;24\&quot; y=\&quot;10\&quot; width=\&quot;38\&quot; height=\&quot;6\&quot; fill=\&quot;url(#mesh)\&quot; /&gt;&lt;path d=\&quot;M71 11V15\&quot; fill=\&quot;none\&quot; stroke=\&quot;#E7E0D0\&quot; stroke-width=\&quot;1.3\&quot; /&gt;&lt;rect x=\&quot;20\&quot; y=\&quot;21\&quot; width=\&quot;60\&quot; height=\&quot;10\&quot; fill=\&quot;#202326\&quot; stroke=\&quot;currentColor\&quot; stroke-width=\&quot;0.7\&quot; /&gt;&lt;rect x=\&quot;24\&quot; y=\&quot;23\&quot; width=\&quot;38\&quot; height=\&quot;6\&quot; fill=\&quot;url(#mesh)\&quot; /&gt;&lt;path d=\&quot;M71 24V28\&quot; fill=\&quot;none\&quot; stroke=\&quot;#E7E0D0\&quot; stroke-width=\&quot;1.3\&quot; /&gt;&lt;rect x=\&quot;20\&quot; y=\&quot;34\&quot; width=\&quot;60\&quot; height=\&quot;10\&quot; fill=\&quot;#202326\&quot; stroke=\&quot;currentColor\&quot; stroke-width=\&quot;0.7\&quot; /&gt;&lt;rect x=\&quot;24\&quot; y=\&quot;36\&quot; width=\&quot;38\&quot; height=\&quot;6\&quot; fill=\&quot;url(#mesh)\&quot; /&gt;&lt;path d=\&quot;M71 37V41\&quot; fill=\&quot;none\&quot; stroke=\&quot;#E7E0D0\&quot; stroke-width=\&quot;1.3\&quot; /&gt;&lt;rect x=\&quot;20\&quot; y=\&quot;47\&quot; width=\&quot;60\&quot; height=\&quot;10\&quot; fill=\&quot;#202326\&quot; stroke=\&quot;currentColor\&quot; stroke-width=\&quot;0.7\&quot; /&gt;&lt;rect x=\&quot;24\&quot; y=\&quot;49\&quot; width=\&quot;38\&quot; height=\&quot;6\&quot; fill=\&quot;url(#mesh)\&quot; /&gt;&lt;path d=\&quot;M71 50V54\&quot; fill=\&quot;none\&quot; stroke=\&quot;#E7E0D0\&quot; stroke-width=\&quot;1.3\&quot; /&gt;&lt;rect x=\&quot;20\&quot; y=\&quot;60\&quot; width=\&quot;60\&quot; height=\&quot;10\&quot; fill=\&quot;#202326\&quot; stroke=\&quot;currentColor\&quot; stroke-width=\&quot;0.7\&quot; /&gt;&lt;rect x=\&quot;24\&quot; y=\&quot;62\&quot; width=\&quot;38\&quot; height=\&quot;6\&quot; fill=\&quot;url(#mesh)\&quot; /&gt;&lt;path d=\&quot;M71 63V67\&quot; fill=\&quot;none\&quot; stroke=\&quot;#E7E0D0\&quot; stroke-width=\&quot;1.3\&quot; /&gt;&lt;rect x=\&quot;20\&quot; y=\&quot;73\&quot; width=\&quot;60\&quot; height=\&quot;10\&quot; fill=\&quot;#202326\&quot; stroke=\&quot;currentColor\&quot; stroke-width=\&quot;0.7\&quot; /&gt;&lt;rect x=\&quot;24\&quot; y=\&quot;75\&quot; width=\&quot;38\&quot; height=\&quot;6\&quot; fill=\&quot;url(#mesh)\&quot; /&gt;&lt;path d=\&quot;M71 76V80\&quot; fill=\&quot;none\&quot; stroke=\&quot;#E7E0D0\&quot; stroke-width=\&quot;1.3\&quot; /&gt;&lt;rect x=\&quot;20\&quot; y=\&quot;86\&quot; width=\&quot;60\&quot; height=\&quot;10\&quot; fill=\&quot;#202326\&quot; stroke=\&quot;currentColor\&quot; stroke-width=\&quot;0.7\&quot; /&gt;&lt;rect x=\&quot;24\&quot; y=\&quot;88\&quot; width=\&quot;38\&quot; height=\&quot;6\&quot; fill=\&quot;url(#mesh)\&quot; /&gt;&lt;path d=\&quot;M71 89V93\&quot; fill=\&quot;none\&quot; stroke=\&quot;#E7E0D0\&quot; stroke-width=\&quot;1.3\&quot; /&gt;&quot;,
+    &quot;sealed&quot;: &quot;&lt;defs&gt;\n&lt;linearGradient id=\&quot;stock\&quot; x1=\&quot;0\&quot; y1=\&quot;0\&quot; x2=\&quot;.8\&quot; y2=\&quot;1\&quot;&gt;&lt;stop stop-color=\&quot;#E7E0D0\&quot; /&gt;&lt;stop offset=\&quot;1\&quot; stop-color=\&quot;#CEC5B3\&quot; /&gt;&lt;/linearGradient&gt;\n&lt;pattern id=\&quot;grain\&quot; width=\&quot;7\&quot; height=\&quot;9\&quot; patternUnits=\&quot;userSpaceOnUse\&quot;&gt;&lt;circle cx=\&quot;1\&quot; cy=\&quot;2\&quot; r=\&quot;.35\&quot; fill=\&quot;#101214\&quot; opacity=\&quot;.18\&quot; /&gt;&lt;path d=\&quot;M4 6h2M1 8h1\&quot; stroke=\&quot;#101214\&quot; stroke-width=\&quot;.3\&quot; opacity=\&quot;.16\&quot; /&gt;&lt;/pattern&gt;\n&lt;/defs&gt;&lt;path d=\&quot;M5 10H95V91H5Z\&quot; fill=\&quot;url(#stock)\&quot; stroke=\&quot;currentColor\&quot; stroke-width=\&quot;2\&quot; /&gt;&lt;path d=\&quot;M5 10H95V91H5Z\&quot; fill=\&quot;url(#grain)\&quot; /&gt;&lt;rect x=\&quot;7\&quot; y=\&quot;12\&quot; width=\&quot;86\&quot; height=\&quot;77\&quot; fill=\&quot;url(#grain)\&quot; /&gt;&lt;rect x=\&quot;12\&quot; y=\&quot;25\&quot; width=\&quot;76\&quot; height=\&quot;11\&quot; fill=\&quot;#101214\&quot; /&gt;&lt;rect x=\&quot;12\&quot; y=\&quot;44\&quot; width=\&quot;76\&quot; height=\&quot;11\&quot; fill=\&quot;#101214\&quot; /&gt;&lt;rect x=\&quot;12\&quot; y=\&quot;63\&quot; width=\&quot;76\&quot; height=\&quot;11\&quot; fill=\&quot;#101214\&quot; /&gt;&lt;path d=\&quot;M15 27H84M15 46H85M15 65H82\&quot; fill=\&quot;none\&quot; stroke=\&quot;#202326\&quot; stroke-width=\&quot;0.6\&quot; /&gt;&lt;path d=\&quot;M5 12L20 10 20 17 5 19ZM79 84L95 82 95 89 79 91Z\&quot; fill=\&quot;#CEC5B3\&quot; /&gt;&quot;
+  },
+  &quot;palette&quot;: {
+    &quot;amber&quot;: &quot;#A17D45&quot;,
+    &quot;claret&quot;: &quot;#6B2634&quot;,
+    &quot;dirty&quot;: &quot;#CEC5B3&quot;,
+    &quot;ink&quot;: &quot;#101214&quot;,
+    &quot;institution&quot;: &quot;#68766B&quot;,
+    &quot;moss&quot;: &quot;#74864F&quot;,
+    &quot;nicotine&quot;: &quot;#AA9571&quot;,
+    &quot;paper&quot;: &quot;#E7E0D0&quot;,
+    &quot;shadow&quot;: &quot;#202326&quot;,
+    &quot;steel&quot;: &quot;#5E737B&quot;
+  },
+  &quot;renderer&quot;: &quot;storyboard-svg-2&quot;,
+  &quot;scene&quot;: {
+    &quot;background&quot;: &quot;ink&quot;,
+    &quot;intent&quot;: &quot;Show rebuilding, narrower access, closed routes and severity changes as separate concrete actions. Keep their scope attached rather than marking the entire platform solved.&quot;,
+    &quot;lettering&quot;: [
+      {
+        &quot;box&quot;: [
+          0.045,
+          0.78,
+          0.91,
+          0.18
+        ]
+      }
+    ],
+    &quot;lettering_mode&quot;: &quot;manual&quot;,
+    &quot;nodes&quot;: [
+      {
+        &quot;asset&quot;: &quot;location-background-huggingface-infrastructure&quot;,
+        &quot;box&quot;: [
+          0.02,
+          0.02,
+          0.96,
+          0.96
+        ],
+        &quot;color&quot;: &quot;steel&quot;
+      },
+      {
+        &quot;asset&quot;: &quot;rack&quot;,
+        &quot;box&quot;: [
+          0.108179,
+          0.2012,
+          0.082942,
+          0.276474
+        ],
+        &quot;color&quot;: &quot;steel&quot;,
+        &quot;focus&quot;: true,
+        &quot;label&quot;: &quot;REBUILD&quot;,
+        &quot;label_box&quot;: [
+          0.06775,
+          0.49443,
+          0.1638,
+          0.121481
+        ],
+        &quot;label_size&quot;: 18
+      },
+      {
+        &quot;asset&quot;: &quot;sealed&quot;,
+        &quot;box&quot;: [
+          0.29525,
+          0.2012,
+          0.1638,
+          0.276474
+        ],
+        &quot;color&quot;: &quot;steel&quot;,
+        &quot;focus&quot;: true,
+        &quot;label&quot;: &quot;NARROW ACCESS&quot;,
+        &quot;label_box&quot;: [
+          0.29525,
+          0.49443,
+          0.1638,
+          0.121481
+        ],
+        &quot;label_size&quot;: 18
+      },
+      {
+        &quot;asset&quot;: &quot;gate&quot;,
+        &quot;box&quot;: [
+          0.52275,
+          0.2012,
+          0.1638,
+          0.276474
+        ],
+        &quot;color&quot;: &quot;steel&quot;,
+        &quot;focus&quot;: true,
+        &quot;label&quot;: &quot;CLOSED PATHS&quot;,
+        &quot;label_box&quot;: [
+          0.52275,
+          0.49443,
+          0.1638,
+          0.121481
+        ],
+        &quot;label_size&quot;: 18
+      },
+      {
+        &quot;asset&quot;: &quot;aperture&quot;,
+        &quot;box&quot;: [
+          0.75025,
+          0.244937,
+          0.1638,
+          0.189
+        ],
+        &quot;color&quot;: &quot;steel&quot;,
+        &quot;focus&quot;: true,
+        &quot;label&quot;: &quot;DETECTION&quot;,
+        &quot;label_box&quot;: [
+          0.75025,
+          0.49443,
+          0.1638,
+          0.121481
+        ],
+        &quot;label_size&quot;: 18
+      }
+    ],
+    &quot;reconstructed&quot;: false,
+    &quot;shot&quot;: &quot;row&quot;,
+    &quot;source&quot;: &quot;\n**Location:** `huggingface-infrastructure`\n\n**Frame:** Hugging Face rebuilds systems, narrows credentials, closes paths, and changes detection severity.\n\n**Caption:**\n&gt; THE PLATFORM LEARNS IN INFRASTRUCTURE.\n\n**Provenance:** `documented` + `compressed`.\n\n&quot;,
+    &quot;title&quot;: &quot;The affected platform rebuilds and narrows exposure&quot;
+  }
+}
+</metadata><rect width="1200" height="800" fill="#101214"/><g transform="translate(24 16) scale(11.52 7.68)" color="#5E737B"><g transform=""><title>Stepped infrastructure surround — ceramic</title><defs><linearGradient id="node-0-wash" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#A99BB6" stop-opacity=".45" /><stop offset=".5" stop-color="#463D55" stop-opacity=".22" /><stop offset="1" stop-color="#A99BB6" stop-opacity=".27" /></linearGradient><radialGradient id="node-0-fade"><stop offset=".35" stop-color="black" /><stop offset=".7" stop-color="#555555" /><stop offset="1" stop-color="white" /></radialGradient><mask id="node-0-rim"><rect width="100" height="100" fill="url(#node-0-fade)" /></mask><pattern id="node-0-material" width="16" height="16" patternUnits="userSpaceOnUse"><g fill="none" stroke="#A99BB6" stroke-width=".3" opacity=".55"><path d="M0 0H16V16H0ZM1 1H15M1 1V15" /></g></pattern></defs>
+<rect x="3" y="3" width="94" height="94" rx="1" fill="url(#node-0-wash)" /><rect x="3" y="3" width="94" height="94" fill="url(#node-0-material)" mask="url(#node-0-rim)" /><path d="M3 3H97V18H3ZM3 82H97V97H3Z" fill="#463D55" opacity=".34" /><path d="M3 3H97V18H3ZM3 82H97V97H3Z" fill="url(#node-0-material)" opacity=".65" /><path d="M4 26V12H30V6H70V12H96V26M4 74V88H30V94H70V88H96V74M9 32V68M91 32V68M16 17H32M68 17H84" fill="none" stroke="#080B0D" stroke-width="1.7" opacity=".45" transform="translate(.35 .5)" /><path d="M4 26V12H30V6H70V12H96V26M4 74V88H30V94H70V88H96V74M9 32V68M91 32V68M16 17H32M68 17H84" fill="none" stroke="#A99BB6" stroke-width=".8" stroke-linejoin="round" opacity=".66" /></g></g><g transform="translate(129.815 160.96) scale(0.995304 2.21179)" color="#5E737B"><g transform=""><defs>
+<linearGradient id="node-1-metal" x1="0" y1="0" x2="1" y2="1"><stop stop-color="currentColor" /><stop offset=".32" stop-color="#202326" /><stop offset=".75" stop-color="#101214" /><stop offset="1" stop-color="currentColor" /></linearGradient>
+<pattern id="node-1-mesh" width="5" height="5" patternUnits="userSpaceOnUse"><circle cx="2.5" cy="2.5" r=".7" fill="#101214" /><path d="M0 0H5" stroke="#E7E0D0" stroke-opacity=".08" stroke-width=".4" /></pattern>
+</defs><rect x="5" y="2" width="90" height="96" rx="2" fill="url(#node-1-metal)" stroke="currentColor" stroke-width="2" /><rect x="8" y="6" width="7" height="86" fill="url(#node-1-mesh)" /><rect x="85" y="6" width="7" height="86" fill="url(#node-1-mesh)" /><rect x="20" y="8" width="60" height="10" fill="#202326" stroke="currentColor" stroke-width="0.7" /><rect x="24" y="10" width="38" height="6" fill="url(#node-1-mesh)" /><path d="M71 11V15" fill="none" stroke="#E7E0D0" stroke-width="1.3" /><rect x="20" y="21" width="60" height="10" fill="#202326" stroke="currentColor" stroke-width="0.7" /><rect x="24" y="23" width="38" height="6" fill="url(#node-1-mesh)" /><path d="M71 24V28" fill="none" stroke="#E7E0D0" stroke-width="1.3" /><rect x="20" y="34" width="60" height="10" fill="#202326" stroke="currentColor" stroke-width="0.7" /><rect x="24" y="36" width="38" height="6" fill="url(#node-1-mesh)" /><path d="M71 37V41" fill="none" stroke="#E7E0D0" stroke-width="1.3" /><rect x="20" y="47" width="60" height="10" fill="#202326" stroke="currentColor" stroke-width="0.7" /><rect x="24" y="49" width="38" height="6" fill="url(#node-1-mesh)" /><path d="M71 50V54" fill="none" stroke="#E7E0D0" stroke-width="1.3" /><rect x="20" y="60" width="60" height="10" fill="#202326" stroke="currentColor" stroke-width="0.7" /><rect x="24" y="62" width="38" height="6" fill="url(#node-1-mesh)" /><path d="M71 63V67" fill="none" stroke="#E7E0D0" stroke-width="1.3" /><rect x="20" y="73" width="60" height="10" fill="#202326" stroke="currentColor" stroke-width="0.7" /><rect x="24" y="75" width="38" height="6" fill="url(#node-1-mesh)" /><path d="M71 76V80" fill="none" stroke="#E7E0D0" stroke-width="1.3" /><rect x="20" y="86" width="60" height="10" fill="#202326" stroke="currentColor" stroke-width="0.7" /><rect x="24" y="88" width="38" height="6" fill="url(#node-1-mesh)" /><path d="M71 89V93" fill="none" stroke="#E7E0D0" stroke-width="1.3" /></g></g><text x="179.58" y="413.544" text-anchor="middle" fill="#E7E0D0" font-size="18" font-family="sans-serif">REBUILD</text><g transform="translate(354.3 160.96) scale(1.9656 2.21179)" color="#5E737B"><g transform=""><defs>
+<linearGradient id="node-2-stock" x1="0" y1="0" x2=".8" y2="1"><stop stop-color="#E7E0D0" /><stop offset="1" stop-color="#CEC5B3" /></linearGradient>
+<pattern id="node-2-grain" width="7" height="9" patternUnits="userSpaceOnUse"><circle cx="1" cy="2" r=".35" fill="#101214" opacity=".18" /><path d="M4 6h2M1 8h1" stroke="#101214" stroke-width=".3" opacity=".16" /></pattern>
+</defs><path d="M5 10H95V91H5Z" fill="url(#node-2-stock)" stroke="currentColor" stroke-width="2" /><path d="M5 10H95V91H5Z" fill="url(#node-2-grain)" /><rect x="7" y="12" width="86" height="77" fill="url(#node-2-grain)" /><rect x="12" y="25" width="76" height="11" fill="#101214" /><rect x="12" y="44" width="76" height="11" fill="#101214" /><rect x="12" y="63" width="76" height="11" fill="#101214" /><path d="M15 27H84M15 46H85M15 65H82" fill="none" stroke="#202326" stroke-width="0.6" /><path d="M5 12L20 10 20 17 5 19ZM79 84L95 82 95 89 79 91Z" fill="#CEC5B3" /></g></g><text x="452.58" y="413.544" text-anchor="middle" fill="#E7E0D0" font-size="18" font-family="sans-serif">NARROW ACCESS</text><g transform="translate(627.3 160.96) scale(1.9656 2.21179)" color="#5E737B"><g transform=""><defs>
+<linearGradient id="node-3-metal" x1="0" y1="0" x2="1" y2="1"><stop stop-color="currentColor" /><stop offset=".32" stop-color="#202326" /><stop offset=".75" stop-color="#101214" /><stop offset="1" stop-color="currentColor" /></linearGradient>
+<pattern id="node-3-mesh" width="5" height="5" patternUnits="userSpaceOnUse"><circle cx="2.5" cy="2.5" r=".7" fill="#101214" /><path d="M0 0H5" stroke="#E7E0D0" stroke-opacity=".08" stroke-width=".4" /></pattern>
+</defs><path d="M7 97V7H93V97H86V15H14V97Z" fill="url(#node-3-metal)" stroke="currentColor" stroke-width="2" /><rect x="18" y="27" width="64" height="66" fill="url(#node-3-mesh)" stroke="currentColor" stroke-width="2" /><path d="M30 29V91M43 29V91M56 29V91M69 29V91" fill="none" stroke="#CEC5B3" stroke-width="1.5" /><rect x="41" y="49" width="18" height="21" fill="currentColor" stroke="#E7E0D0" stroke-width="1" /></g></g><text x="725.58" y="413.544" text-anchor="middle" fill="#E7E0D0" font-size="18" font-family="sans-serif">CLOSED PATHS</text><g transform="translate(900.3 195.95) scale(1.9656 1.512)" color="#5E737B"><g transform=""><defs>
+<linearGradient id="node-4-metal" x1="0" y1="0" x2="1" y2="1"><stop stop-color="currentColor" /><stop offset=".32" stop-color="#202326" /><stop offset=".75" stop-color="#101214" /><stop offset="1" stop-color="currentColor" /></linearGradient>
+<linearGradient id="node-4-tone" x1="0" y1="0" x2="1" y2="1"><stop stop-color="currentColor" /><stop offset="1" stop-color="#101214" stop-opacity=".65" /></linearGradient>
+</defs><rect x="3" y="14" width="94" height="73" rx="4" fill="url(#node-4-metal)" stroke="currentColor" stroke-width="2" /><circle cx="50" cy="50" r="29" fill="#101214" stroke="#CEC5B3" stroke-width="2" /><path d="M50 23L73 37 64 52 50 40Z" fill="url(#node-4-tone)" stroke="currentColor" stroke-width="0.8" transform="rotate(0 50 50)" /><path d="M50 23L73 37 64 52 50 40Z" fill="url(#node-4-tone)" stroke="currentColor" stroke-width="0.8" transform="rotate(60 50 50)" /><path d="M50 23L73 37 64 52 50 40Z" fill="url(#node-4-tone)" stroke="currentColor" stroke-width="0.8" transform="rotate(120 50 50)" /><path d="M50 23L73 37 64 52 50 40Z" fill="url(#node-4-tone)" stroke="currentColor" stroke-width="0.8" transform="rotate(180 50 50)" /><path d="M50 23L73 37 64 52 50 40Z" fill="url(#node-4-tone)" stroke="currentColor" stroke-width="0.8" transform="rotate(240 50 50)" /><path d="M50 23L73 37 64 52 50 40Z" fill="url(#node-4-tone)" stroke="currentColor" stroke-width="0.8" transform="rotate(300 50 50)" /><polygon points="50,40 59,45 59,55 50,60 41,55 41,45" fill="#101214" /></g></g><text x="998.58" y="413.544" text-anchor="middle" fill="#E7E0D0" font-size="18" font-family="sans-serif">DETECTION</text><rect x="3" y="3" width="1194" height="794" fill="none" stroke="#5E737B" stroke-width="4"/></svg>

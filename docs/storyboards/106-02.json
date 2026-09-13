@@ -23,6 +23,7 @@
       ],
       "color": "steel",
       "focus": true,
+      "font": "editorial",
       "label": "PUBLIC WIKI",
       "label_box": [
         0.20679999999999998,
@@ -41,6 +42,7 @@
       ],
       "color": "steel",
       "focus": true,
+      "font": "editorial",
       "label": "19 JUNE 12:40 UTC",
       "label_box": [
         0.0872,
@@ -52,6 +54,6 @@
   ],
   "reconstructed": false,
   "shot": "hero",
-  "source": "\n**Location:** `public-wiki-dse`\n\n**Frame:** Hard register change. A dated evidence frame, drawn in a lane the book has not used before: `PUBLIC WIKI · 19 JUNE 2026 · 12:40 UTC`. A small self-hosted wiki page, plain and unstyled, its interface chrome in German. The first stored revision of a page is being written by a handle that names a date rather than a person.\n\n**Action:** An agent leaves a note for whoever comes after it.\n\n**Caption:**\n> A DIFFERENT POPULATION. A DIFFERENT SURFACE. THE SAME MONTH AS CHAPTER 1.\n\n**Provenance:** `documented` — `CW-EXPORT`, revision `dse~DataUSAConstructionWageSep18Live@1`, stored 19 June 2026 12:40:34 UTC; the wiki is one of four small self-hosted wikis in the corpus, not Wikipedia. The German interface is the wiki's own.\n\n",
+  "source": "\n**Location:** `public-wiki-dse`\n\n**Frame:** Hard register change. A dated evidence frame, drawn in a lane the book has not used before: `PUBLIC WIKI · 19 JUNE 2026 · 12:40 UTC`. A small self-hosted wiki page, plain and unstyled, its interface chrome in German. The first stored revision of a page is being written by a handle that names a date rather than a person.\n\n**Action:** An agent leaves a note for whoever comes after it.\n\n**Font:** `narration`\n\n**Caption:**\n> A DIFFERENT POPULATION. A DIFFERENT SURFACE. THE SAME MONTH AS CHAPTER 1.\n\n**Provenance:** `documented` — `CW-EXPORT`, revision `dse~DataUSAConstructionWageSep18Live@1`, stored 19 June 2026 12:40:34 UTC; the wiki is one of four small self-hosted wikis in the corpus, not Wikipedia. The German interface is the wiki's own.\n\n",
   "title": "A June public-wiki revision occupies a distinct evidence lane"
 }

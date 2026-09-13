@@ -33,6 +33,7 @@
       ],
       "color": "steel",
       "focus": true,
+      "font": "editorial",
       "label": "FIFTEEN STATES",
       "label_box": [
         0.20679999999999998,
@@ -51,6 +52,7 @@
       ],
       "color": "steel",
       "focus": true,
+      "font": "editorial",
       "label": "PRESERVE RECORDS",
       "label_box": [
         0.0872,
@@ -69,6 +71,7 @@
       ],
       "color": "steel",
       "focus": true,
+      "font": "editorial",
       "label": "PROTECT REPORTING",
       "label_box": [
         0.354,
@@ -87,6 +90,7 @@
       ],
       "color": "steel",
       "focus": true,
+      "font": "editorial",
       "label": "CONTROL EVALUATIONS",
       "label_box": [
         0.6208,
@@ -98,6 +102,6 @@
   ],
   "reconstructed": false,
   "shot": "hero",
-  "source": "\n**Location:** `public-record`\n\n**Frame:** A multistate letter enters the public record, headed `3 AUGUST 2026 · FIFTEEN STATES`. Three tabs are visible: `PRESERVE RECORDS`, `PROTECT REPORTING`, `RESTRICT THE EVALUATIONS UNTIL CONTROLLED`.\n\n**Caption:**\n> THESE ARE GOVERNMENT DEMANDS—NOT ADJUDICATED FINDINGS.\n\n**Provenance:** `documented` — `AG-LETTER`, checked against the letter on 5 September 2026: the three tabs are its preservation demand (eleven categories of material), its demand that no personnel face adverse action for protected whistleblowing, and its demand that OpenAI cease evaluations that prompt models toward advanced exploitation unless and until it shows they can be run in a controlled and responsible way. The letter's account of the incident is drawn from public reporting, which is why its status is demand, not finding.\n\n",
+  "source": "\n**Location:** `public-record`\n\n**Frame:** A multistate letter enters the public record, headed `3 AUGUST 2026 · FIFTEEN STATES`. Three tabs are visible: `PRESERVE RECORDS`, `PROTECT REPORTING`, `RESTRICT THE EVALUATIONS UNTIL CONTROLLED`.\n\n**Font:** `narration`\n\n**Caption:**\n> THESE ARE GOVERNMENT DEMANDS—NOT ADJUDICATED FINDINGS.\n\n**Provenance:** `documented` — `AG-LETTER`, checked against the letter on 5 September 2026: the three tabs are its preservation demand (eleven categories of material), its demand that no personnel face adverse action for protected whistleblowing, and its demand that OpenAI cease evaluations that prompt models toward advanced exploitation unless and until it shows they can be run in a controlled and responsible way. The letter's account of the incident is drawn from public reporting, which is why its status is demand, not finding.\n\n",
   "title": "The multistate letter enters the dated public record"
 }

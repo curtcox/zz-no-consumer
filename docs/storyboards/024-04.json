@@ -34,6 +34,7 @@
       ],
       "color": "steel",
       "focus": true,
+      "font": "editorial",
       "label": "STAGED",
       "label_box": [
         0.06775,
@@ -53,6 +54,7 @@
       ],
       "color": "steel",
       "focus": true,
+      "font": "editorial",
       "label": "EXECUTION CONTROL",
       "label_box": [
         0.52275,
@@ -65,6 +67,6 @@
   ],
   "reconstructed": false,
   "shot": "row",
-  "source": "\n**Location:** `artifactory-cache`\n\n**Frame:** The plugin sits beside an execution control that remains untouched. A small status line reads `STAGED`, clearly identified as reconstructed UI.\n\n**Action:** Command-capable material is present but has not yet been confirmed running.\n\n**Screen / system text:**\n`PLUGIN — STAGED`\n\n**Provenance:** `documented` + `reconstructed` — download is sourced; status wording protects the chronology.\n\n",
+  "source": "\n**Location:** `artifactory-cache`\n\n**Frame:** The plugin sits beside an execution control that remains untouched. A small status line reads `STAGED`, clearly identified as reconstructed UI.\n\n**Action:** Command-capable material is present but has not yet been confirmed running.\n\n**Font:** `machine`\n\n**Screen / system text:**\n`PLUGIN — STAGED`\n\n**Provenance:** `documented` + `reconstructed` — download is sourced; status wording protects the chronology.\n\n",
   "title": "The plugin is staged but not executed"
 }

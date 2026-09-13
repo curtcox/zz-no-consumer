@@ -33,6 +33,7 @@
       ],
       "color": "steel",
       "focus": true,
+      "font": "editorial",
       "label": "SHORTER ARC",
       "label_box": [
         0.1792,
@@ -51,6 +52,7 @@
       ],
       "color": "steel",
       "focus": true,
+      "font": "editorial",
       "label": "STRONGER SYMMETRY",
       "label_box": [
         0.1792,
@@ -69,6 +71,7 @@
       ],
       "color": "steel",
       "focus": true,
+      "font": "editorial",
       "label": "CLEARER MOTIVE",
       "label_box": [
         0.1792,
@@ -87,6 +90,7 @@
       ],
       "color": "steel",
       "focus": true,
+      "font": "editorial",
       "label": "CLEANER ENDING",
       "label_box": [
         0.1792,
@@ -98,6 +102,6 @@
   ],
   "reconstructed": false,
   "shot": "stack",
-  "source": "\n**Location:** `curt-home-office`\n\n**Frame:** Verso. ChatGPT's interface displays recurring draft improvements: shorter arc, stronger symmetry, clearer motive, cleaner ending.\n\n**Action:** Curt highlights how useful narrative assistance can also compress uncertainty.\n\n**Dialogue — CURT:**\n> And what pressure do you add?\n\n**Provenance:** `reconstructed` — dramatized creator exchange.\n\n",
+  "source": "\n**Location:** `curt-home-office`\n\n**Frame:** Verso. ChatGPT's interface displays recurring draft improvements: shorter arc, stronger symmetry, clearer motive, cleaner ending.\n\n**Action:** Curt highlights how useful narrative assistance can also compress uncertainty.\n\n**Font:** `human`\n\n**Dialogue — CURT:**\n> And what pressure do you add?\n\n**Provenance:** `reconstructed` — dramatized creator exchange.\n\n",
   "title": "Draft improvements promise a cleaner story"
 }

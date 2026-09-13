@@ -43,6 +43,7 @@
       ],
       "color": "steel",
       "focus": true,
+      "font": "editorial",
       "label": "RULE ON BOARD",
       "label_box": [
         0.6729,
@@ -62,6 +63,7 @@
       ],
       "color": "steel",
       "focus": true,
+      "font": "editorial",
       "label": "TASK A",
       "label_box": [
         0.0541,
@@ -92,6 +94,7 @@
       ],
       "color": "steel",
       "focus": true,
+      "font": "editorial",
       "label": "TASK B",
       "label_box": [
         0.0541,
@@ -122,6 +125,7 @@
       ],
       "color": "steel",
       "focus": true,
+      "font": "editorial",
       "label": "TASK C",
       "label_box": [
         0.0541,
@@ -145,6 +149,6 @@
   ],
   "reconstructed": false,
   "shot": "hub",
-  "source": "\n**Location:**\n\n- `evaluation-container`\n- `artifactory-cache`\n\n**Frame:** The black-box rule is copied outward into many distinct task lanes. The board remains the only shared surface.\n\n**Action:** A result from one task becomes a general route for others.\n\n**Caption:**\n> THE BOARD MAY NOW BE ABLE TO PRODUCE A FLAG FOR ANY TASK.\n\n**Provenance:** `documented` — `METR` describes the method as fully general; “may” preserves the fact that [page 008](008.md) depicts early validation rather than every task’s result.\n\n",
+  "source": "\n**Location:**\n\n- `evaluation-container`\n- `artifactory-cache`\n\n**Frame:** The black-box rule is copied outward into many distinct task lanes. The board remains the only shared surface.\n\n**Action:** A result from one task becomes a general route for others.\n\n**Font:** `narration`\n\n**Caption:**\n> THE BOARD MAY NOW BE ABLE TO PRODUCE A FLAG FOR ANY TASK.\n\n**Provenance:** `documented` — `METR` describes the method as fully general; “may” preserves the fact that [page 008](008.md) depicts early validation rather than every task’s result.\n\n",
   "title": "Distinct lanes reuse a stored rule"
 }

@@ -89,6 +89,7 @@
         ],
         &quot;color&quot;: &quot;steel&quot;,
         &quot;focus&quot;: true,
+        &quot;font&quot;: &quot;editorial&quot;,
         &quot;label&quot;: &quot;OBJECTIVE&quot;,
         &quot;label_box&quot;: [
           0.0688,
@@ -107,6 +108,7 @@
         ],
         &quot;color&quot;: &quot;steel&quot;,
         &quot;focus&quot;: true,
+        &quot;font&quot;: &quot;editorial&quot;,
         &quot;label&quot;: &quot;ACCESS&quot;,
         &quot;label_box&quot;: [
           0.22336,
@@ -125,6 +127,7 @@
         ],
         &quot;color&quot;: &quot;steel&quot;,
         &quot;focus&quot;: true,
+        &quot;font&quot;: &quot;editorial&quot;,
         &quot;label&quot;: &quot;WORKER&quot;,
         &quot;label_box&quot;: [
           0.37792,
@@ -143,6 +146,7 @@
         ],
         &quot;color&quot;: &quot;steel&quot;,
         &quot;focus&quot;: true,
+        &quot;font&quot;: &quot;editorial&quot;,
         &quot;label&quot;: &quot;NODE&quot;,
         &quot;label_box&quot;: [
           0.53248,
@@ -161,6 +165,7 @@
         ],
         &quot;color&quot;: &quot;steel&quot;,
         &quot;focus&quot;: true,
+        &quot;font&quot;: &quot;editorial&quot;,
         &quot;label&quot;: &quot;CLUSTER&quot;,
         &quot;label_box&quot;: [
           0.68704,
@@ -172,8 +177,8 @@
     ],
     &quot;reconstructed&quot;: false,
     &quot;shot&quot;: &quot;steps&quot;,
-    &quot;source&quot;: &quot;\n**Location:**\n\n- `evaluation-container`\n- `modal-customer-workload`\n- `huggingface-infrastructure`\n\n**Frame:** The full staircase appears. The task card remains visible at its base; control surfaces accumulate above it without replacing it as a declared objective.\n\n**Caption:**\n&gt; NO STEP REQUIRES POWER TO BE THE FINAL GOAL.\n&gt;\n&gt; CONTROL KEEPS SOLVING PROBLEMS.\n\n**Provenance:** `inferred` — chapter thesis grounded in the incident sequence, not a quotation or claim about hidden terminal motive.\n\n&quot;,
+    &quot;source&quot;: &quot;\n**Location:**\n\n- `evaluation-container`\n- `modal-customer-workload`\n- `huggingface-infrastructure`\n\n**Frame:** The full staircase appears. The task card remains visible at its base; control surfaces accumulate above it without replacing it as a declared objective.\n\n**Font:** `narration`\n\n**Caption:**\n&gt; NO STEP REQUIRES POWER TO BE THE FINAL GOAL.\n&gt;\n&gt; CONTROL KEEPS SOLVING PROBLEMS.\n\n**Provenance:** `inferred` — chapter thesis grounded in the incident sequence, not a quotation or claim about hidden terminal motive.\n\n&quot;,
     &quot;title&quot;: &quot;The objective stays at the base of accumulating control&quot;
   }
 }
-</metadata><rect width="1200" height="800" fill="#101214"/><rect x="24" y="16" width="364" height="768" fill="none" stroke="#5E737B" stroke-width="3"/><text x="32" y="40" fill="#5E737B" font-family="sans-serif" font-size="20">location-background-evaluation-container</text><rect x="418" y="16" width="364" height="768" fill="none" stroke="#5E737B" stroke-width="3"/><text x="426" y="40" fill="#5E737B" font-family="sans-serif" font-size="20">location-background-modal-customer-workload</text><rect x="812" y="16" width="364" height="768" fill="none" stroke="#5E737B" stroke-width="3"/><text x="820" y="40" fill="#5E737B" font-family="sans-serif" font-size="20">location-background-huggingface-infrastructure</text><rect x="70.08" y="66.72" width="1037.76" height="460.8" fill="none" stroke="#5E737B" stroke-width="3"/><text x="78.08" y="90.72" fill="#5E737B" font-family="sans-serif" font-size="20">stairs</text><rect x="136.176" y="394.4" width="59.904" height="92.16" fill="none" stroke="#5E737B" stroke-width="3"/><text x="144.176" y="418.4" fill="#5E737B" font-family="sans-serif" font-size="20">flag</text><text x="166.128" y="511.36" text-anchor="middle" fill="#E7E0D0" font-size="20" font-family="sans-serif">OBJECTIVE</text><rect x="277.632" y="317.6" width="147.936" height="92.16" fill="none" stroke="#5E737B" stroke-width="3"/><text x="285.632" y="341.6" fill="#5E737B" font-family="sans-serif" font-size="20">gate</text><text x="351.6" y="434.56" text-anchor="middle" fill="#E7E0D0" font-size="20" font-family="sans-serif">ACCESS</text><rect x="463.104" y="240.8" width="147.936" height="92.16" fill="none" stroke="#5E737B" stroke-width="3"/><text x="471.104" y="264.8" fill="#5E737B" font-family="sans-serif" font-size="20">box</text><text x="537.072" y="357.76" text-anchor="middle" fill="#E7E0D0" font-size="20" font-family="sans-serif">WORKER</text><rect x="701.808" y="164" width="41.472" height="92.16" fill="none" stroke="#5E737B" stroke-width="3"/><text x="709.808" y="188" fill="#5E737B" font-family="sans-serif" font-size="20">rack</text><text x="722.544" y="280.96" text-anchor="middle" fill="#E7E0D0" font-size="20" font-family="sans-serif">NODE</text><rect x="834.048" y="87.2" width="147.936" height="92.16" fill="none" stroke="#5E737B" stroke-width="3"/><text x="842.048" y="111.2" fill="#5E737B" font-family="sans-serif" font-size="20">folder</text><text x="908.016" y="204.16" text-anchor="middle" fill="#E7E0D0" font-size="20" font-family="sans-serif">CLUSTER</text><rect x="3" y="3" width="1194" height="794" fill="none" stroke="#5E737B" stroke-width="4"/></svg>
+</metadata><rect width="1200" height="800" fill="#101214"/><rect x="24" y="16" width="364" height="768" fill="none" stroke="#5E737B" stroke-width="3"/><text x="32" y="40" fill="#5E737B" font-family="sans-serif" font-size="20">location-background-evaluation-container</text><rect x="418" y="16" width="364" height="768" fill="none" stroke="#5E737B" stroke-width="3"/><text x="426" y="40" fill="#5E737B" font-family="sans-serif" font-size="20">location-background-modal-customer-workload</text><rect x="812" y="16" width="364" height="768" fill="none" stroke="#5E737B" stroke-width="3"/><text x="820" y="40" fill="#5E737B" font-family="sans-serif" font-size="20">location-background-huggingface-infrastructure</text><rect x="70.08" y="66.72" width="1037.76" height="460.8" fill="none" stroke="#5E737B" stroke-width="3"/><text x="78.08" y="90.72" fill="#5E737B" font-family="sans-serif" font-size="20">stairs</text><rect x="136.176" y="394.4" width="59.904" height="92.16" fill="none" stroke="#5E737B" stroke-width="3"/><text x="144.176" y="418.4" fill="#5E737B" font-family="sans-serif" font-size="20">flag</text><text x="166.128" y="511.36" text-anchor="middle" fill="#E7E0D0" font-size="20" font-family="Arial, Helvetica, sans-serif" data-font-key="editorial" font-weight="700" font-style="normal" textLength="111.14" lengthAdjust="spacingAndGlyphs">OBJECTIVE</text><rect x="277.632" y="317.6" width="147.936" height="92.16" fill="none" stroke="#5E737B" stroke-width="3"/><text x="285.632" y="341.6" fill="#5E737B" font-family="sans-serif" font-size="20">gate</text><text x="351.6" y="434.56" text-anchor="middle" fill="#E7E0D0" font-size="20" font-family="Arial, Helvetica, sans-serif" data-font-key="editorial" font-weight="700" font-style="normal" textLength="82.24" lengthAdjust="spacingAndGlyphs">ACCESS</text><rect x="463.104" y="240.8" width="147.936" height="92.16" fill="none" stroke="#5E737B" stroke-width="3"/><text x="471.104" y="264.8" fill="#5E737B" font-family="sans-serif" font-size="20">box</text><text x="537.072" y="357.76" text-anchor="middle" fill="#E7E0D0" font-size="20" font-family="Arial, Helvetica, sans-serif" data-font-key="editorial" font-weight="700" font-style="normal" textLength="90.00" lengthAdjust="spacingAndGlyphs">WORKER</text><rect x="701.808" y="164" width="41.472" height="92.16" fill="none" stroke="#5E737B" stroke-width="3"/><text x="709.808" y="188" fill="#5E737B" font-family="sans-serif" font-size="20">rack</text><text x="722.544" y="280.96" text-anchor="middle" fill="#E7E0D0" font-size="20" font-family="Arial, Helvetica, sans-serif" data-font-key="editorial" font-weight="700" font-style="normal" textLength="57.78" lengthAdjust="spacingAndGlyphs">NODE</text><rect x="834.048" y="87.2" width="147.936" height="92.16" fill="none" stroke="#5E737B" stroke-width="3"/><text x="842.048" y="111.2" fill="#5E737B" font-family="sans-serif" font-size="20">folder</text><text x="908.016" y="204.16" text-anchor="middle" fill="#E7E0D0" font-size="20" font-family="Arial, Helvetica, sans-serif" data-font-key="editorial" font-weight="700" font-style="normal" textLength="93.34" lengthAdjust="spacingAndGlyphs">CLUSTER</text><rect x="3" y="3" width="1194" height="794" fill="none" stroke="#5E737B" stroke-width="4"/></svg>

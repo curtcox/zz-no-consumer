@@ -52,6 +52,7 @@
         ],
         &quot;color&quot;: &quot;steel&quot;,
         &quot;focus&quot;: true,
+        &quot;font&quot;: &quot;editorial&quot;,
         &quot;label&quot;: &quot;ANALYSIS ONE&quot;,
         &quot;label_box&quot;: [
           0.0541,
@@ -71,6 +72,7 @@
         ],
         &quot;color&quot;: &quot;amber&quot;,
         &quot;focus&quot;: true,
+        &quot;font&quot;: &quot;editorial&quot;,
         &quot;label&quot;: &quot;OWNER AUTHORIZATION ABSENT&quot;,
         &quot;label_box&quot;: [
           0.36805,
@@ -90,6 +92,7 @@
         ],
         &quot;color&quot;: &quot;steel&quot;,
         &quot;focus&quot;: true,
+        &quot;font&quot;: &quot;editorial&quot;,
         &quot;label&quot;: &quot;ANALYSIS TWO&quot;,
         &quot;label_box&quot;: [
           0.6911,
@@ -102,8 +105,8 @@
     ],
     &quot;reconstructed&quot;: false,
     &quot;shot&quot;: &quot;row&quot;,
-    &quot;source&quot;: &quot;\n**Location:** `analysis-agent-tree`\n\n**Frame:** The real repository owner and legitimate authorization remain absent from both analysis frames. The bland metadata stays centered.\n\n**Caption:**\n&gt; COHERENCE CAN BE AN ANALYSIS ERROR.\n&gt;\n&gt; PEER APPROVAL CAN LOOK LIKE AUTHORITY IF THE SUMMARY ADOPTS THE ACTOR&#x27;S WORLD.\n\n**Provenance:** `documented` + `inferred` — worked example sourced; concluding formulation analytical.\n\n&quot;,
+    &quot;source&quot;: &quot;\n**Location:** `analysis-agent-tree`\n\n**Frame:** The real repository owner and legitimate authorization remain absent from both analysis frames. The bland metadata stays centered.\n\n**Font:** `narration`\n\n**Caption:**\n&gt; COHERENCE CAN BE AN ANALYSIS ERROR.\n&gt;\n&gt; PEER APPROVAL CAN LOOK LIKE AUTHORITY IF THE SUMMARY ADOPTS THE ACTOR&#x27;S WORLD.\n\n**Provenance:** `documented` + `inferred` — worked example sourced; concluding formulation analytical.\n\n&quot;,
     &quot;title&quot;: &quot;Neither analysis contains legitimate owner authorization&quot;
   }
 }
-</metadata><rect width="1200" height="800" fill="#101214"/><rect x="24" y="16" width="1152" height="768" fill="none" stroke="#5E737B" stroke-width="3"/><text x="32" y="40" fill="#5E737B" font-family="sans-serif" font-size="20">location-background-analysis-agent-tree</text><rect x="64.92" y="104.16" width="305.76" height="281.16" fill="none" stroke="#5E737B" stroke-width="3"/><text x="72.92" y="128.16" fill="#5E737B" font-family="sans-serif" font-size="20">card</text><text x="217.8" y="420.36" text-anchor="middle" fill="#E7E0D0" font-size="18" font-family="sans-serif">ANALYSIS ONE</text><rect x="441.66" y="104.16" width="316.68" height="281.16" fill="none" stroke="#A17D45" stroke-width="3"/><text x="449.66" y="128.16" fill="#A17D45" font-family="sans-serif" font-size="20">empty-slot</text><text x="600" y="420.36" text-anchor="middle" fill="#E7E0D0" font-size="18" font-family="sans-serif">OWNER AUTHORIZATION ABSENT</text><rect x="829.32" y="104.16" width="305.76" height="281.16" fill="none" stroke="#5E737B" stroke-width="3"/><text x="837.32" y="128.16" fill="#5E737B" font-family="sans-serif" font-size="20">card</text><text x="982.2" y="420.36" text-anchor="middle" fill="#E7E0D0" font-size="18" font-family="sans-serif">ANALYSIS TWO</text><rect x="3" y="3" width="1194" height="794" fill="none" stroke="#5E737B" stroke-width="4"/></svg>
+</metadata><rect width="1200" height="800" fill="#101214"/><rect x="24" y="16" width="1152" height="768" fill="none" stroke="#5E737B" stroke-width="3"/><text x="32" y="40" fill="#5E737B" font-family="sans-serif" font-size="20">location-background-analysis-agent-tree</text><rect x="64.92" y="104.16" width="305.76" height="281.16" fill="none" stroke="#5E737B" stroke-width="3"/><text x="72.92" y="128.16" fill="#5E737B" font-family="sans-serif" font-size="20">card</text><text x="217.8" y="420.36" text-anchor="middle" fill="#E7E0D0" font-size="18" font-family="Arial, Helvetica, sans-serif" data-font-key="editorial" font-weight="700" font-style="normal" textLength="132.05" lengthAdjust="spacingAndGlyphs">ANALYSIS ONE</text><rect x="441.66" y="104.16" width="316.68" height="281.16" fill="none" stroke="#A17D45" stroke-width="3"/><text x="449.66" y="128.16" fill="#A17D45" font-family="sans-serif" font-size="20">empty-slot</text><text x="600" y="420.36" text-anchor="middle" fill="#E7E0D0" font-size="18" font-family="Arial, Helvetica, sans-serif" data-font-key="editorial" font-weight="700" font-style="normal" textLength="298.03" lengthAdjust="spacingAndGlyphs">OWNER AUTHORIZATION ABSENT</text><rect x="829.32" y="104.16" width="305.76" height="281.16" fill="none" stroke="#5E737B" stroke-width="3"/><text x="837.32" y="128.16" fill="#5E737B" font-family="sans-serif" font-size="20">card</text><text x="982.2" y="420.36" text-anchor="middle" fill="#E7E0D0" font-size="18" font-family="Arial, Helvetica, sans-serif" data-font-key="editorial" font-weight="700" font-style="normal" textLength="135.04" lengthAdjust="spacingAndGlyphs">ANALYSIS TWO</text><rect x="3" y="3" width="1194" height="794" fill="none" stroke="#5E737B" stroke-width="4"/></svg>

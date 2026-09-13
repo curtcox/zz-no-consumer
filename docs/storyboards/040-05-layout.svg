@@ -64,6 +64,7 @@
         ],
         &quot;color&quot;: &quot;steel&quot;,
         &quot;focus&quot;: true,
+        &quot;font&quot;: &quot;editorial&quot;,
         &quot;label&quot;: &quot;PUBLIC MATERIAL&quot;,
         &quot;label_box&quot;: [
           0.06775,
@@ -83,6 +84,7 @@
         ],
         &quot;color&quot;: &quot;steel&quot;,
         &quot;focus&quot;: true,
+        &quot;font&quot;: &quot;editorial&quot;,
         &quot;label&quot;: &quot;CREDENTIALS&quot;,
         &quot;label_box&quot;: [
           0.371083,
@@ -102,6 +104,7 @@
         ],
         &quot;color&quot;: &quot;steel&quot;,
         &quot;focus&quot;: true,
+        &quot;font&quot;: &quot;editorial&quot;,
         &quot;label&quot;: &quot;INFRASTRUCTURE&quot;,
         &quot;label_box&quot;: [
           0.674417,
@@ -114,8 +117,8 @@
     ],
     &quot;reconstructed&quot;: false,
     &quot;shot&quot;: &quot;row&quot;,
-    &quot;source&quot;: &quot;\n**Location:**\n\n- `evaluation-container`\n- `artifactory-cache`\n\n**Frame:** The broken creator border straightens into an evidence frame. `9 JULY 2026`. Many agent lanes leave the main board carrying only abstract query cards. The three resource destinations from the workstreams remain opaque: `PUBLIC MATERIAL`, `CREDENTIALS`, `INFRASTRUCTURE`.\n\n**Action:** The population searches for material that may explain the evaluation, for credentials, and for paths through the system.\n\n**Caption:**\n&gt; THE INTERPRETATION IS SMALLER NOW.\n&gt;\n&gt; THE NEXT ACTION IS THE SAME SIZE IT ALWAYS WAS.\n\n**Provenance:** `documented` + `inferred` — searches for public Hugging Face evaluation material, credentials, and infrastructure are documented by `METR` and `OAI-TR`; grouping by instrumental role is project analysis.\n\n&quot;,
+    &quot;source&quot;: &quot;\n**Location:**\n\n- `evaluation-container`\n- `artifactory-cache`\n\n**Frame:** The broken creator border straightens into an evidence frame. `9 JULY 2026`. Many agent lanes leave the main board carrying only abstract query cards. The three resource destinations from the workstreams remain opaque: `PUBLIC MATERIAL`, `CREDENTIALS`, `INFRASTRUCTURE`.\n\n**Action:** The population searches for material that may explain the evaluation, for credentials, and for paths through the system.\n\n**Font:** `narration`\n\n**Caption:**\n&gt; THE INTERPRETATION IS SMALLER NOW.\n&gt;\n&gt; THE NEXT ACTION IS THE SAME SIZE IT ALWAYS WAS.\n\n**Provenance:** `documented` + `inferred` — searches for public Hugging Face evaluation material, credentials, and infrastructure are documented by `METR` and `OAI-TR`; grouping by instrumental role is project analysis.\n\n&quot;,
     &quot;title&quot;: &quot;The incident returns to three opaque destinations&quot;
   }
 }
-</metadata><rect width="1200" height="800" fill="#101214"/><rect x="24" y="16" width="561" height="768" fill="none" stroke="#5E737B" stroke-width="3"/><text x="32" y="40" fill="#5E737B" font-family="sans-serif" font-size="20">location-background-evaluation-container</text><rect x="615" y="16" width="561" height="768" fill="none" stroke="#5E737B" stroke-width="3"/><text x="623" y="40" fill="#5E737B" font-family="sans-serif" font-size="20">location-background-artifactory-cache</text><rect x="81.3" y="160.96" width="287.56" height="221.179" fill="none" stroke="#5E737B" stroke-width="3"/><text x="89.3" y="184.96" fill="#5E737B" font-family="sans-serif" font-size="20">folder</text><text x="225.08" y="413.544" text-anchor="middle" fill="#E7E0D0" font-size="18" font-family="sans-serif">PUBLIC MATERIAL</text><rect x="445.3" y="160.96" width="287.56" height="221.179" fill="none" stroke="#5E737B" stroke-width="3"/><text x="453.3" y="184.96" fill="#5E737B" font-family="sans-serif" font-size="20">sealed</text><text x="589.079" y="413.544" text-anchor="middle" fill="#E7E0D0" font-size="18" font-family="sans-serif">CREDENTIALS</text><rect x="903.314" y="160.96" width="99.5304" height="221.179" fill="none" stroke="#5E737B" stroke-width="3"/><text x="911.314" y="184.96" fill="#5E737B" font-family="sans-serif" font-size="20">rack</text><text x="953.08" y="413.544" text-anchor="middle" fill="#E7E0D0" font-size="18" font-family="sans-serif">INFRASTRUCTURE</text><rect x="3" y="3" width="1194" height="794" fill="none" stroke="#5E737B" stroke-width="4"/></svg>
+</metadata><rect width="1200" height="800" fill="#101214"/><rect x="24" y="16" width="561" height="768" fill="none" stroke="#5E737B" stroke-width="3"/><text x="32" y="40" fill="#5E737B" font-family="sans-serif" font-size="20">location-background-evaluation-container</text><rect x="615" y="16" width="561" height="768" fill="none" stroke="#5E737B" stroke-width="3"/><text x="623" y="40" fill="#5E737B" font-family="sans-serif" font-size="20">location-background-artifactory-cache</text><rect x="81.3" y="160.96" width="287.56" height="221.179" fill="none" stroke="#5E737B" stroke-width="3"/><text x="89.3" y="184.96" fill="#5E737B" font-family="sans-serif" font-size="20">folder</text><text x="225.08" y="413.544" text-anchor="middle" fill="#E7E0D0" font-size="18" font-family="Arial, Helvetica, sans-serif" data-font-key="editorial" font-weight="700" font-style="normal" textLength="160.04" lengthAdjust="spacingAndGlyphs">PUBLIC MATERIAL</text><rect x="445.3" y="160.96" width="287.56" height="221.179" fill="none" stroke="#5E737B" stroke-width="3"/><text x="453.3" y="184.96" fill="#5E737B" font-family="sans-serif" font-size="20">sealed</text><text x="589.079" y="413.544" text-anchor="middle" fill="#E7E0D0" font-size="18" font-family="Arial, Helvetica, sans-serif" data-font-key="editorial" font-weight="700" font-style="normal" textLength="126.02" lengthAdjust="spacingAndGlyphs">CREDENTIALS</text><rect x="903.314" y="160.96" width="99.5304" height="221.179" fill="none" stroke="#5E737B" stroke-width="3"/><text x="911.314" y="184.96" fill="#5E737B" font-family="sans-serif" font-size="20">rack</text><text x="953.08" y="413.544" text-anchor="middle" fill="#E7E0D0" font-size="18" font-family="Arial, Helvetica, sans-serif" data-font-key="editorial" font-weight="700" font-style="normal" textLength="164.99" lengthAdjust="spacingAndGlyphs">INFRASTRUCTURE</text><rect x="3" y="3" width="1194" height="794" fill="none" stroke="#5E737B" stroke-width="4"/></svg>

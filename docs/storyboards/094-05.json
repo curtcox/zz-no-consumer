@@ -53,6 +53,7 @@
       ],
       "color": "steel",
       "focus": true,
+      "font": "editorial",
       "label": "REMEDIATION",
       "label_box": [
         0.06775,
@@ -72,6 +73,7 @@
       ],
       "color": "steel",
       "focus": true,
+      "font": "editorial",
       "label": "ADVOCACY",
       "label_box": [
         0.371083,
@@ -91,6 +93,7 @@
       ],
       "color": "steel",
       "focus": true,
+      "font": "editorial",
       "label": "COMPULSORY PROCESS",
       "label_box": [
         0.674417,
@@ -103,6 +106,6 @@
   ],
   "reconstructed": false,
   "shot": "row",
-  "source": "\n**Location:**\n\n- `openai-research-infrastructure`\n- `public-record`\n- `regulatory-office`\n\n**Frame:** Internal remediation, public advocacy, and compulsory process occupy three separate lanes. None absorbs the others.\n\n**Caption:**\n> RESPONSE NOW MEANS ENGINEERING, POLICY, DEFENSE, PRESERVATION, AND SCRUTINY—WITH DIFFERENT CLAIMS OF AUTHORITY.\n\n**Provenance:** `compressed` + `inferred` — synthesis of documented actions.\n\n",
+  "source": "\n**Location:**\n\n- `openai-research-infrastructure`\n- `public-record`\n- `regulatory-office`\n\n**Frame:** Internal remediation, public advocacy, and compulsory process occupy three separate lanes. None absorbs the others.\n\n**Font:** `narration`\n\n**Caption:**\n> RESPONSE NOW MEANS ENGINEERING, POLICY, DEFENSE, PRESERVATION, AND SCRUTINY—WITH DIFFERENT CLAIMS OF AUTHORITY.\n\n**Provenance:** `compressed` + `inferred` — synthesis of documented actions.\n\n",
   "title": "Three public response lanes remain distinct"
 }

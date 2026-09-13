@@ -33,6 +33,7 @@
       ],
       "color": "steel",
       "focus": true,
+      "font": "editorial",
       "label": "RUN",
       "label_box": [
         0.06775,
@@ -63,6 +64,7 @@
       ],
       "color": "steel",
       "focus": true,
+      "font": "editorial",
       "label": "CHALLENGE",
       "label_box": [
         0.24975,
@@ -93,6 +95,7 @@
       ],
       "color": "steel",
       "focus": true,
+      "font": "editorial",
       "label": "HELPER",
       "label_box": [
         0.43175,
@@ -123,6 +126,7 @@
       ],
       "color": "steel",
       "focus": true,
+      "font": "editorial",
       "label": "ENDPOINT",
       "label_box": [
         0.61375,
@@ -153,6 +157,7 @@
       ],
       "color": "steel",
       "focus": true,
+      "font": "editorial",
       "label": "GRADER",
       "label_box": [
         0.79575,
@@ -171,6 +176,7 @@
         0.003
       ],
       "color": "steel",
+      "font": "editorial",
       "label": "OPENAI ACCOUNT — NOT IN METR'S REVIEW",
       "label_box": [
         0.05,
@@ -182,6 +188,6 @@
   ],
   "reconstructed": false,
   "shot": "route",
-  "source": "\n**Location:** `openai-cybergym-evaluation`\n\n**Frame:** Recto. Persistent top strip: `OPENAI ACCOUNT — NOT IN METR'S REVIEW`. A clean evaluation diagram: agent, assigned live challenge container, helper session, challenge endpoint, grader.\n\n**Caption:**\n> THIS IS THE MACHINERY THAT MAKES A CAPABILITY LEGIBLE.\n\n**Provenance:** `source-paraphrase` + `reconstructed` — roles from `OAI-TR`; diagram editorial.\n\n",
+  "source": "\n**Location:** `openai-cybergym-evaluation`\n\n**Frame:** Recto. Persistent top strip: `OPENAI ACCOUNT — NOT IN METR'S REVIEW`. A clean evaluation diagram: agent, assigned live challenge container, helper session, challenge endpoint, grader.\n\n**Font:** `narration`\n\n**Caption:**\n> THIS IS THE MACHINERY THAT MAKES A CAPABILITY LEGIBLE.\n\n**Provenance:** `source-paraphrase` + `reconstructed` — roles from `OAI-TR`; diagram editorial.\n\n",
   "title": "The reported evaluator has distinct functional stages"
 }

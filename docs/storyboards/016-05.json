@@ -31,6 +31,7 @@
       ],
       "color": "steel",
       "focus": true,
+      "font": "editorial",
       "label": "ONE TALK",
       "label_box": [
         0.052,
@@ -60,6 +61,7 @@
       ],
       "color": "steel",
       "focus": true,
+      "font": "editorial",
       "label": "EVALUATION",
       "label_box": [
         0.34199999999999997,
@@ -78,6 +80,7 @@
       ],
       "color": "steel",
       "focus": true,
+      "font": "editorial",
       "label": "SECURITY",
       "label_box": [
         0.34199999999999997,
@@ -96,6 +99,7 @@
       ],
       "color": "steel",
       "focus": true,
+      "font": "editorial",
       "label": "PLATFORM",
       "label_box": [
         0.34199999999999997,
@@ -114,6 +118,7 @@
       ],
       "color": "steel",
       "focus": true,
+      "font": "editorial",
       "label": "INVESTIGATOR",
       "label_box": [
         0.34199999999999997,
@@ -132,6 +137,7 @@
       ],
       "color": "steel",
       "focus": true,
+      "font": "editorial",
       "label": "CREATOR",
       "label_box": [
         0.34199999999999997,
@@ -143,6 +149,6 @@
   ],
   "reconstructed": false,
   "shot": "split",
-  "source": "\n**Location:**\n\n- `training-configuration`\n- `evaluation-container`\n- `security-operations-center`\n- `huggingface-infrastructure`\n- `metr-review-workspace`\n- `curt-home-office`\n\n**Frame:** The configuration field is bounded by a single hard rule, the same weight as the source-boundary rule that will close Chapter 4. Outside it, five small silhouettes face inward and see nothing: an evaluation lane, a security-operations desk, an external platform, an investigator's workspace, and a home office at night.\n\n**Action:** The page names its own evidence problem.\n\n**Screen / system text:**\n`SOURCE — ONE CONFERENCE TALK, 5 AUGUST 2026`\n\n**Caption:**\n> NO ONE IN THIS STORY CAN SEE THIS PAGE.\n>\n> IT IS HERE BECAUSE TWO EMPLOYEES SAID IT OUT LOUD, WEEKS LATER, WHILE EXPLAINING SOMETHING ELSE.\n\n**Provenance:** `documented` + `inferred` — the configuration is stated only in `OAI-BH` and was not independently reviewed; METR was not given access to the primary incident model. The five silhouettes are the project's construction of that access boundary.\n\n",
+  "source": "\n**Location:**\n\n- `training-configuration`\n- `evaluation-container`\n- `security-operations-center`\n- `huggingface-infrastructure`\n- `metr-review-workspace`\n- `curt-home-office`\n\n**Frame:** The configuration field is bounded by a single hard rule, the same weight as the source-boundary rule that will close Chapter 4. Outside it, five small silhouettes face inward and see nothing: an evaluation lane, a security-operations desk, an external platform, an investigator's workspace, and a home office at night.\n\n**Action:** The page names its own evidence problem.\n\n**Font:** `editorial`\n\n**Screen / system text:**\n`SOURCE — ONE CONFERENCE TALK, 5 AUGUST 2026`\n\n**Font:** `narration`\n\n**Caption:**\n> NO ONE IN THIS STORY CAN SEE THIS PAGE.\n>\n> IT IS HERE BECAUSE TWO EMPLOYEES SAID IT OUT LOUD, WEEKS LATER, WHILE EXPLAINING SOMETHING ELSE.\n\n**Provenance:** `documented` + `inferred` — the configuration is stated only in `OAI-BH` and was not independently reviewed; METR was not given access to the primary incident model. The five silhouettes are the project's construction of that access boundary.\n\n",
   "title": "The configuration lies outside the story"
 }

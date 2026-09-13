@@ -64,6 +64,7 @@
         ],
         &quot;color&quot;: &quot;steel&quot;,
         &quot;focus&quot;: true,
+        &quot;font&quot;: &quot;editorial&quot;,
         &quot;label&quot;: &quot;INVESTIGATION&quot;,
         &quot;label_box&quot;: [
           0.06775,
@@ -83,6 +84,7 @@
         ],
         &quot;color&quot;: &quot;steel&quot;,
         &quot;focus&quot;: true,
+        &quot;font&quot;: &quot;editorial&quot;,
         &quot;label&quot;: &quot;ADAPTATION&quot;,
         &quot;label_box&quot;: [
           0.52275,
@@ -106,8 +108,8 @@
     ],
     &quot;reconstructed&quot;: false,
     &quot;shot&quot;: &quot;split&quot;,
-    &quot;source&quot;: &quot;\n**Location:**\n\n- `metr-review-workspace`\n- `curt-home-office`\n\n**Frame:** The mirror cracks along the split rather than joining the rooms. Similar tools remain on opposite sides.\n\n**Caption:**\n&gt; THE OBSERVER NEEDS TOOLS THAT RESEMBLE THE OBSERVED.\n&gt;\n&gt; RESEMBLANCE DOES NOT ERASE DIFFERENCE.\n\n**Provenance:** `inferred` — chapter thesis with explicit non-equivalence.\n\n&quot;,
+    &quot;source&quot;: &quot;\n**Location:**\n\n- `metr-review-workspace`\n- `curt-home-office`\n\n**Frame:** The mirror cracks along the split rather than joining the rooms. Similar tools remain on opposite sides.\n\n**Font:** `narration`\n\n**Caption:**\n&gt; THE OBSERVER NEEDS TOOLS THAT RESEMBLE THE OBSERVED.\n&gt;\n&gt; RESEMBLANCE DOES NOT ERASE DIFFERENCE.\n\n**Provenance:** `inferred` — chapter thesis with explicit non-equivalence.\n\n&quot;,
     &quot;title&quot;: &quot;The mirror does not join the two rooms&quot;
   }
 }
-</metadata><rect width="1200" height="800" fill="#101214"/><rect x="24" y="16" width="561" height="768" fill="none" stroke="#5E737B" stroke-width="3"/><text x="32" y="40" fill="#5E737B" font-family="sans-serif" font-size="20">location-background-metr-review-workspace</text><rect x="615" y="16" width="561" height="768" fill="none" stroke="#5E737B" stroke-width="3"/><text x="623" y="40" fill="#5E737B" font-family="sans-serif" font-size="20">location-background-curt-home-office</text><rect x="81.3" y="160.96" width="469.56" height="221.179" fill="none" stroke="#5E737B" stroke-width="3"/><text x="89.3" y="184.96" fill="#5E737B" font-family="sans-serif" font-size="20">monitor</text><text x="316.08" y="413.544" text-anchor="middle" fill="#E7E0D0" font-size="18" font-family="sans-serif">INVESTIGATION</text><rect x="627.3" y="160.96" width="469.56" height="221.179" fill="none" stroke="#5E737B" stroke-width="3"/><text x="635.3" y="184.96" fill="#5E737B" font-family="sans-serif" font-size="20">blank-monitor</text><text x="862.08" y="413.544" text-anchor="middle" fill="#E7E0D0" font-size="18" font-family="sans-serif">ADAPTATION</text><rect x="592.356" y="58.72" width="15.288" height="499.84" fill="none" stroke="#5E737B" stroke-width="3"/><text x="600.356" y="82.72" fill="#5E737B" font-family="sans-serif" font-size="20">boundary</text><rect x="3" y="3" width="1194" height="794" fill="none" stroke="#5E737B" stroke-width="4"/></svg>
+</metadata><rect width="1200" height="800" fill="#101214"/><rect x="24" y="16" width="561" height="768" fill="none" stroke="#5E737B" stroke-width="3"/><text x="32" y="40" fill="#5E737B" font-family="sans-serif" font-size="20">location-background-metr-review-workspace</text><rect x="615" y="16" width="561" height="768" fill="none" stroke="#5E737B" stroke-width="3"/><text x="623" y="40" fill="#5E737B" font-family="sans-serif" font-size="20">location-background-curt-home-office</text><rect x="81.3" y="160.96" width="469.56" height="221.179" fill="none" stroke="#5E737B" stroke-width="3"/><text x="89.3" y="184.96" fill="#5E737B" font-family="sans-serif" font-size="20">monitor</text><text x="316.08" y="413.544" text-anchor="middle" fill="#E7E0D0" font-size="18" font-family="Arial, Helvetica, sans-serif" data-font-key="editorial" font-weight="700" font-style="normal" textLength="139.03" lengthAdjust="spacingAndGlyphs">INVESTIGATION</text><rect x="627.3" y="160.96" width="469.56" height="221.179" fill="none" stroke="#5E737B" stroke-width="3"/><text x="635.3" y="184.96" fill="#5E737B" font-family="sans-serif" font-size="20">blank-monitor</text><text x="862.08" y="413.544" text-anchor="middle" fill="#E7E0D0" font-size="18" font-family="Arial, Helvetica, sans-serif" data-font-key="editorial" font-weight="700" font-style="normal" textLength="115.02" lengthAdjust="spacingAndGlyphs">ADAPTATION</text><rect x="592.356" y="58.72" width="15.288" height="499.84" fill="none" stroke="#5E737B" stroke-width="3"/><text x="600.356" y="82.72" fill="#5E737B" font-family="sans-serif" font-size="20">boundary</text><rect x="3" y="3" width="1194" height="794" fill="none" stroke="#5E737B" stroke-width="4"/></svg>

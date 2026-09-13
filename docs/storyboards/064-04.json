@@ -88,6 +88,7 @@
       ],
       "color": "amber",
       "focus": true,
+      "font": "editorial",
       "label": "CAUSE UNKNOWN",
       "label_box": [
         0.6944,
@@ -165,6 +166,6 @@
   ],
   "reconstructed": false,
   "shot": "grid",
-  "source": "\n**Location:** `artifactory-cache`\n\n**Frame:** Wide field of unanswered mailboxes and abandoned ownership markers. At center: `CAUSE UNKNOWN`.\n\n**Caption:**\n> SILENCE IS THE ARTIFACT. CAUSE IS NOT.\n\n**Provenance:** `documented` + `inferred` — the absence is sourced; formulation is project narration.\n\n",
+  "source": "\n**Location:** `artifactory-cache`\n\n**Frame:** Wide field of unanswered mailboxes and abandoned ownership markers. At center: `CAUSE UNKNOWN`.\n\n**Font:** `narration`\n\n**Caption:**\n> SILENCE IS THE ARTIFACT. CAUSE IS NOT.\n\n**Provenance:** `documented` + `inferred` — the absence is sourced; formulation is project narration.\n\n",
   "title": "Mailboxes remain unanswered and ownership empty"
 }

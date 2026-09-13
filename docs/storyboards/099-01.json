@@ -66,6 +66,7 @@
       ],
       "color": "steel",
       "focus": true,
+      "font": "editorial",
       "label": "REVIEWS",
       "label_box": [
         0.09640000000000001,
@@ -84,6 +85,7 @@
       ],
       "color": "steel",
       "focus": true,
+      "font": "editorial",
       "label": "STATEMENTS",
       "label_box": [
         0.360133,
@@ -102,6 +104,7 @@
       ],
       "color": "steel",
       "focus": true,
+      "font": "editorial",
       "label": "DEMANDS",
       "label_box": [
         0.623867,
@@ -113,6 +116,6 @@
   ],
   "reconstructed": true,
   "shot": "meeting",
-  "source": "\n**Location:** `composite-accountability-forum`\n\n**Frame:** Recto. A plain room assembles from fragments of incident reviews, public statements, regulatory demands, and the creator's notes. No seal or government chamber appears.\n\n**Caption:**\n> THE FOLLOWING FORUM IS A NARRATIVE DEVICE.\n\n**Provenance:** `invented`.\n\n",
+  "source": "\n**Location:** `composite-accountability-forum`\n\n**Frame:** Recto. A plain room assembles from fragments of incident reviews, public statements, regulatory demands, and the creator's notes. No seal or government chamber appears.\n\n**Font:** `narration`\n\n**Caption:**\n> THE FOLLOWING FORUM IS A NARRATIVE DEVICE.\n\n**Provenance:** `invented`.\n\n",
   "title": "An invented forum assembles from public source fragments"
 }

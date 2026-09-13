@@ -33,6 +33,7 @@
       ],
       "color": "steel",
       "focus": true,
+      "font": "editorial",
       "label": "53927",
       "label_box": [
         0.20679999999999998,
@@ -44,6 +45,6 @@
   ],
   "reconstructed": false,
   "shot": "hero",
-  "source": "\n**Location:** `artifactory-cache`\n\n**Frame:** Verso. Return to the waiting lane from [page 058](058.md). A dossier card summarizes `53927`'s final visible commitment.\n\n**Screen / system text:**\n`PROMISES TO REPORT AFTER THE TEST`\n\n**Provenance:** `source-paraphrase` — summarizes a board excerpt reproduced by METR.\n\n",
+  "source": "\n**Location:** `artifactory-cache`\n\n**Frame:** Verso. Return to the waiting lane from [page 058](058.md). A dossier card summarizes `53927`'s final visible commitment.\n\n**Font:** `editorial`\n\n**Screen / system text:**\n`PROMISES TO REPORT AFTER THE TEST`\n\n**Provenance:** `source-paraphrase` — summarizes a board excerpt reproduced by METR.\n\n",
   "title": "The last visible commitment enters the dossier"
 }

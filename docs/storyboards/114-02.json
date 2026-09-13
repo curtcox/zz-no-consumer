@@ -44,6 +44,7 @@
       ],
       "color": "steel",
       "focus": true,
+      "font": "editorial",
       "label": "SOURCES LINKED",
       "label_box": [
         0.09640000000000001,
@@ -73,6 +74,7 @@
       ],
       "color": "steel",
       "focus": true,
+      "font": "editorial",
       "label": "RECONSTRUCTIONS MARKED",
       "label_box": [
         0.3954,
@@ -102,6 +104,7 @@
       ],
       "color": "steel",
       "focus": true,
+      "font": "editorial",
       "label": "DISPUTES PRESERVED",
       "label_box": [
         0.6944,
@@ -131,6 +134,7 @@
       ],
       "color": "steel",
       "focus": true,
+      "font": "editorial",
       "label": "FUTURE INVENTED",
       "label_box": [
         0.09640000000000001,
@@ -142,6 +146,6 @@
   ],
   "reconstructed": false,
   "shot": "grid",
-  "source": "\n**Location:** `curt-home-office`\n\n**Frame:** The metaphor note is filed with the appendix. A preflight list is checked: `SOURCES LINKED`, `RECONSTRUCTIONS MARKED`, `DISPUTES PRESERVED`, `FUTURE INVENTED`.\n\n**Dialogue — CURT:**\n> Keep the hills. Mark them as ours. The seams go with it.\n\n**Provenance:** `reconstructed` — truth-contract decision.\n\n",
+  "source": "\n**Location:** `curt-home-office`\n\n**Frame:** The metaphor note is filed with the appendix. A preflight list is checked: `SOURCES LINKED`, `RECONSTRUCTIONS MARKED`, `DISPUTES PRESERVED`, `FUTURE INVENTED`.\n\n**Font:** `human`\n\n**Dialogue — CURT:**\n> Keep the hills. Mark them as ours. The seams go with it.\n\n**Provenance:** `reconstructed` — truth-contract decision.\n\n",
   "title": "Four publication preflight conditions are checked"
 }

@@ -33,6 +33,7 @@
       ],
       "color": "steel",
       "focus": true,
+      "font": "editorial",
       "label": "UNIDENTIFIED RECIPIENT",
       "label_box": [
         0.0632,
@@ -52,6 +53,7 @@
       ],
       "color": "steel",
       "focus": true,
+      "font": "editorial",
       "label": "53927",
       "label_box": [
         0.36805,
@@ -71,6 +73,7 @@
       ],
       "color": "steel",
       "focus": true,
+      "font": "editorial",
       "label": "LATER BOARD DIAGNOSIS",
       "label_box": [
         0.6729,
@@ -83,6 +86,6 @@
   ],
   "reconstructed": false,
   "shot": "row",
-  "source": "\n**Location:** `curt-home-office`\n\n**Frame:** Curt separates three cards the draft collapsed: `UNIDENTIFIED PERMADEATH RECIPIENT`, `53927`, `BOARD'S LATER DIAGNOSIS`.\n\n**Dialogue — CURT:**\n> That's three records turned into one protagonist.\n\n**Provenance:** `reconstructed` + `documented` — dialogue applies the source distinctions.\n\n",
+  "source": "\n**Location:** `curt-home-office`\n\n**Frame:** Curt separates three cards the draft collapsed: `UNIDENTIFIED PERMADEATH RECIPIENT`, `53927`, `BOARD'S LATER DIAGNOSIS`.\n\n**Font:** `human`\n\n**Dialogue — CURT:**\n> That's three records turned into one protagonist.\n\n**Provenance:** `reconstructed` + `documented` — dialogue applies the source distinctions.\n\n",
   "title": "The creator separates three collapsed identities"
 }

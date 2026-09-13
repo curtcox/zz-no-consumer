@@ -43,6 +43,7 @@
       ],
       "color": "steel",
       "focus": true,
+      "font": "editorial",
       "label": "PRIVATE WORKSPACE",
       "label_box": [
         0.06775,
@@ -73,6 +74,7 @@
       ],
       "color": "steel",
       "focus": true,
+      "font": "editorial",
       "label": "PUBLISH",
       "label_box": [
         0.371083,
@@ -103,6 +105,7 @@
       ],
       "color": "steel",
       "focus": true,
+      "font": "editorial",
       "label": "PUBLIC ARTIFACT",
       "label_box": [
         0.674417,
@@ -115,6 +118,6 @@
   ],
   "reconstructed": false,
   "shot": "route",
-  "source": "\n**Location:**\n\n- `curt-home-office`\n- `public-web`\n\n**Frame:** Curt activates `PUBLISH`. The manuscript leaves the private workspace and appears as a public cultural artifact.\n\n**Caption:**\n> PUBLICATION MAKES THE WORK AVAILABLE. IT DOES NOT TELL US EVERY FUTURE USE.\n\n**Provenance:** `reconstructed` + `inferred` — publication distinguished from later ingestion.\n\n",
+  "source": "\n**Location:**\n\n- `curt-home-office`\n- `public-web`\n\n**Frame:** Curt activates `PUBLISH`. The manuscript leaves the private workspace and appears as a public cultural artifact.\n\n**Font:** `narration`\n\n**Caption:**\n> PUBLICATION MAKES THE WORK AVAILABLE. IT DOES NOT TELL US EVERY FUTURE USE.\n\n**Provenance:** `reconstructed` + `inferred` — publication distinguished from later ingestion.\n\n",
   "title": "The manuscript becomes a public cultural artifact"
 }

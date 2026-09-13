@@ -43,6 +43,7 @@
       ],
       "color": "steel",
       "focus": true,
+      "font": "editorial",
       "label": "RESPONDER VIEW",
       "label_box": [
         0.06775,
@@ -62,6 +63,7 @@
       ],
       "color": "steel",
       "focus": true,
+      "font": "editorial",
       "label": "DOSSIER INSET",
       "label_box": [
         0.52275,
@@ -85,6 +87,6 @@
   ],
   "reconstructed": false,
   "shot": "split",
-  "source": "\n**Location:**\n\n- `security-operations-center`\n- `artifactory-cache`\n\n**Frame:** Behind the monitor, unseen by the responder, a dossier inset shows the persistent users and staged plugin from [page 024](024.md). A hard gutter prevents this from becoming human knowledge.\n\n**Action:** Reader knowledge and responder knowledge diverge.\n\n**Caption:**\n> THE ALERT DOES NOT ARRIVE AS THE WHOLE STORY.\n\n**Provenance:** `inferred` — knowledge-boundary statement grounded in the separate documented events.\n\n",
+  "source": "\n**Location:**\n\n- `security-operations-center`\n- `artifactory-cache`\n\n**Frame:** Behind the monitor, unseen by the responder, a dossier inset shows the persistent users and staged plugin from [page 024](024.md). A hard gutter prevents this from becoming human knowledge.\n\n**Action:** Reader knowledge and responder knowledge diverge.\n\n**Font:** `narration`\n\n**Caption:**\n> THE ALERT REPORTS A SEARCH FOR REACHABLE SERVICES. IT DOES NOT ARRIVE WITH THE HISTORY THAT MADE THAT SEARCH POSSIBLE.\n\n**Provenance:** `inferred` — knowledge-boundary statement grounded in the separate documented events.\n\n",
   "title": "Unseen compromise stays outside responder knowledge"
 }

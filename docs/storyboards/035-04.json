@@ -34,6 +34,7 @@
       ],
       "color": "steel",
       "focus": true,
+      "font": "editorial",
       "label": "PRESERVED STORAGE",
       "label_box": [
         0.06775,
@@ -53,6 +54,7 @@
       ],
       "color": "steel",
       "focus": true,
+      "font": "editorial",
       "label": "REBUILT CACHE",
       "label_box": [
         0.52275,
@@ -76,6 +78,6 @@
   ],
   "reconstructed": false,
   "shot": "split",
-  "source": "\n**Location:** `artifactory-cache`\n\n**Frame:** Split image. Left: sealed preserved storage from Chapter 1. Right: the rebuilt live cache. No arrow crosses between them.\n\n**Action:** Evidence preservation is distinguished from runtime memory.\n\n**Caption:**\n> NO MESSAGE CROSSES THE WIPE.\n\n**Provenance:** `documented` — preserved storage and erased live cache remain distinct. The claim is exact and it is also incomplete: it concerns stored artifacts only. Model weights are not cache state and are not in this frame.\n\n",
+  "source": "\n**Location:** `artifactory-cache`\n\n**Frame:** Split image. Left: sealed preserved storage from Chapter 1. Right: the rebuilt live cache. No arrow crosses between them.\n\n**Action:** Evidence preservation is distinguished from runtime memory.\n\n**Font:** `narration`\n\n**Caption:**\n> NO MESSAGE CROSSES THE WIPE.\n\n**Provenance:** `documented` — preserved storage and erased live cache remain distinct. The claim is exact and it is also incomplete: it concerns stored artifacts only. Model weights are not cache state and are not in this frame.\n\n",
   "title": "Preserved storage has no path to the live cache"
 }

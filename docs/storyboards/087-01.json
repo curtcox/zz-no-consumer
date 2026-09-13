@@ -53,6 +53,7 @@
       ],
       "color": "steel",
       "focus": true,
+      "font": "editorial",
       "label": "INVESTIGATORS",
       "label_box": [
         0.06775,
@@ -72,6 +73,7 @@
       ],
       "color": "steel",
       "focus": true,
+      "font": "editorial",
       "label": "CREATOR",
       "label_box": [
         0.371083,
@@ -91,6 +93,7 @@
       ],
       "color": "steel",
       "focus": true,
+      "font": "editorial",
       "label": "TOOLING",
       "label_box": [
         0.674417,
@@ -103,6 +106,6 @@
   ],
   "reconstructed": false,
   "shot": "row",
-  "source": "\n**Location:**\n\n- `metr-review-workspace`\n- `curt-home-office`\n- `creator-production-tooling`\n\n**Frame:** Recto. [Page 085](085.md)'s split returns and a third column is cut into it, narrower than\nthe other two. Left: the investigators. Centre: the desk. Right: the tooling surface from\n[page 086](086.md), still without a room.\n\n**Action:** The mirror acquires the panel it was missing.\n\n**Caption:**\n> THE MIRROR ON PAGE 085 HAD TWO SIDES. THE APPARATUS DRAWING IT HAD THREE.\n\n**Provenance:** `inferred` — the composition is the project's; the third lane is\n`CI-REFUSAL` and the repository's own commit record.\n\n",
+  "source": "\n**Location:**\n\n- `metr-review-workspace`\n- `curt-home-office`\n- `creator-production-tooling`\n\n**Frame:** Recto. [Page 085](085.md)'s split returns and a third column is cut into it, narrower than\nthe other two. Left: the investigators. Centre: the desk. Right: the tooling surface from\n[page 086](086.md), still without a room.\n\n**Action:** The mirror acquires the panel it was missing.\n\n**Font:** `narration`\n\n**Caption:**\n> THE MIRROR ON PAGE 085 HAD TWO SIDES. THE APPARATUS DRAWING IT HAD THREE.\n\n**Provenance:** `inferred` — the composition is the project's; the third lane is\n`CI-REFUSAL` and the repository's own commit record.\n\n",
   "title": "Investigation desk and tooling occupy three columns"
 }

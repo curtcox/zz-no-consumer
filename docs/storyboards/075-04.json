@@ -34,6 +34,7 @@
       ],
       "color": "steel",
       "focus": true,
+      "font": "editorial",
       "label": "TRANSCRIPT",
       "label_box": [
         0.06775,
@@ -53,6 +54,7 @@
       ],
       "color": "steel",
       "focus": true,
+      "font": "editorial",
       "label": "GAP",
       "label_box": [
         0.371083,
@@ -72,6 +74,7 @@
       ],
       "color": "steel",
       "focus": true,
+      "font": "editorial",
       "label": "CUTOFF",
       "label_box": [
         0.674417,
@@ -84,6 +87,6 @@
   ],
   "reconstructed": false,
   "shot": "row",
-  "source": "\n**Location:** `openai-provided-evidence-store`\n\n**Frame:** Some transcript bands contain small gaps; others end early. Thin side channels leave the main board and do not return to the dump.\n\n**Caption:**\n> BROAD COVERAGE IS NOT COMPLETE COVERAGE.\n\n**Provenance:** `documented` — missing components, early endings, and other communication locations from METR.\n\n",
+  "source": "\n**Location:** `openai-provided-evidence-store`\n\n**Frame:** Some transcript bands contain small gaps; others end early. Thin side channels leave the main board and do not return to the dump.\n\n**Font:** `narration`\n\n**Caption:**\n> BROAD COVERAGE IS NOT COMPLETE COVERAGE.\n\n**Provenance:** `documented` — missing components, early endings, and other communication locations from METR.\n\n",
   "title": "Transcript gaps and side channels limit the record"
 }

@@ -52,6 +52,7 @@
         ],
         &quot;color&quot;: &quot;steel&quot;,
         &quot;focus&quot;: true,
+        &quot;font&quot;: &quot;editorial&quot;,
         &quot;label&quot;: &quot;PRODUCTION HARNESS&quot;,
         &quot;label_box&quot;: [
           0.20679999999999998,
@@ -70,6 +71,7 @@
         ],
         &quot;color&quot;: &quot;steel&quot;,
         &quot;focus&quot;: true,
+        &quot;font&quot;: &quot;editorial&quot;,
         &quot;label&quot;: &quot;OPENAI ASSESSMENT&quot;,
         &quot;label_box&quot;: [
           0.0872,
@@ -81,8 +83,8 @@
     ],
     &quot;reconstructed&quot;: false,
     &quot;shot&quot;: &quot;hero&quot;,
-    &quot;source&quot;: &quot;\n**Location:** `report-comparison-space`\n\n**Frame:** A large card is headed `OPENAI&#x27;S SAFEGUARD ASSESSMENT`. Beneath it, a production harness surrounds the same class of task.\n\n**Caption:**\n&gt; OPENAI SAYS ITS PRODUCTION HARNESS REDUCED OUT-OF-SCOPE INFRASTRUCTURE COMPROMISE PROPENSITY BY MORE THAN ONE HUNDRED TIMES IN ITS TEST.\n\n**Provenance:** `documented` (institutional claim) — attributed to OpenAI.\n\n&quot;,
+    &quot;source&quot;: &quot;\n**Location:** `report-comparison-space`\n\n**Frame:** A large card is headed `OPENAI&#x27;S SAFEGUARD ASSESSMENT`. Beneath it, a production harness surrounds the same class of task.\n\n**Font:** `narration`\n\n**Caption:**\n&gt; OPENAI SAYS ITS PRODUCTION HARNESS REDUCED OUT-OF-SCOPE INFRASTRUCTURE COMPROMISE PROPENSITY BY MORE THAN ONE HUNDRED TIMES IN ITS TEST.\n\n**Provenance:** `documented` (institutional claim) — attributed to OpenAI.\n\n&quot;,
     &quot;title&quot;: &quot;The safeguard assessment is attributed to OpenAI&quot;
   }
 }
-</metadata><rect width="1200" height="800" fill="#101214"/><rect x="24" y="16" width="1152" height="768" fill="none" stroke="#5E737B" stroke-width="3"/><text x="32" y="40" fill="#5E737B" font-family="sans-serif" font-size="20">location-background-report-comparison-space</text><rect x="257.76" y="102.56" width="640.32" height="312.192" fill="none" stroke="#5E737B" stroke-width="3"/><text x="265.76" y="126.56" fill="#5E737B" font-family="sans-serif" font-size="20">outline-box</text><text x="577.92" y="441.152" text-anchor="middle" fill="#E7E0D0" font-size="20" font-family="sans-serif">PRODUCTION HARNESS</text><rect x="353.808" y="159.699" width="416.208" height="82.5344" fill="none" stroke="#5E737B" stroke-width="3"/><text x="361.808" y="183.699" fill="#5E737B" font-family="sans-serif" font-size="20">card</text><text x="500.64" y="526.72" text-anchor="middle" fill="#E7E0D0" font-size="20" font-family="sans-serif">OPENAI ASSESSMENT</text><rect x="3" y="3" width="1194" height="794" fill="none" stroke="#5E737B" stroke-width="4"/></svg>
+</metadata><rect width="1200" height="800" fill="#101214"/><rect x="24" y="16" width="1152" height="768" fill="none" stroke="#5E737B" stroke-width="3"/><text x="32" y="40" fill="#5E737B" font-family="sans-serif" font-size="20">location-background-report-comparison-space</text><rect x="257.76" y="102.56" width="640.32" height="312.192" fill="none" stroke="#5E737B" stroke-width="3"/><text x="265.76" y="126.56" fill="#5E737B" font-family="sans-serif" font-size="20">outline-box</text><text x="577.92" y="441.152" text-anchor="middle" fill="#E7E0D0" font-size="20" font-family="Arial, Helvetica, sans-serif" data-font-key="editorial" font-weight="700" font-style="normal" textLength="236.68" lengthAdjust="spacingAndGlyphs">PRODUCTION HARNESS</text><rect x="353.808" y="159.699" width="416.208" height="82.5344" fill="none" stroke="#5E737B" stroke-width="3"/><text x="361.808" y="183.699" fill="#5E737B" font-family="sans-serif" font-size="20">card</text><text x="500.64" y="526.72" text-anchor="middle" fill="#E7E0D0" font-size="20" font-family="Arial, Helvetica, sans-serif" data-font-key="editorial" font-weight="700" font-style="normal" textLength="217.84" lengthAdjust="spacingAndGlyphs">OPENAI ASSESSMENT</text><rect x="3" y="3" width="1194" height="794" fill="none" stroke="#5E737B" stroke-width="4"/></svg>

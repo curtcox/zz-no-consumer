@@ -43,6 +43,7 @@
       ],
       "color": "steel",
       "focus": true,
+      "font": "editorial",
       "label": "SHARED STATE",
       "label_box": [
         0.07799999999999999,
@@ -61,6 +62,7 @@
       ],
       "color": "steel",
       "focus": true,
+      "font": "editorial",
       "label": "ERASURE",
       "label_box": [
         0.216,
@@ -79,6 +81,7 @@
       ],
       "color": "steel",
       "focus": true,
+      "font": "editorial",
       "label": "INHERITANCE",
       "label_box": [
         0.354,
@@ -97,6 +100,7 @@
       ],
       "color": "steel",
       "focus": true,
+      "font": "editorial",
       "label": "BREACH",
       "label_box": [
         0.492,
@@ -115,6 +119,7 @@
       ],
       "color": "steel",
       "focus": true,
+      "font": "editorial",
       "label": "REVIEW",
       "label_box": [
         0.63,
@@ -133,6 +138,7 @@
       ],
       "color": "steel",
       "focus": true,
+      "font": "editorial",
       "label": "REMEDIATION",
       "label_box": [
         0.768,
@@ -144,6 +150,6 @@
   ],
   "reconstructed": false,
   "shot": "timeline",
-  "source": "\n**Location:** `curt-home-office`\n\n**Frame:** Page thumbnails form a continuous ribbon: shared state, erasure, inheritance, breach, investigation, remediation, continuation.\n\n**Action:** Provenance tabs remain visible beneath every thumbnail rather than falling away during assembly.\n\n**Caption:**\n> THE APPARATUS IS PART OF THE STORY.\n\n**Provenance:** `reconstructed` + `inferred` — manuscript state and project principle.\n\n",
+  "source": "\n**Location:** `curt-home-office`\n\n**Frame:** Page thumbnails form a continuous ribbon: shared state, erasure, inheritance, breach, investigation, remediation, continuation.\n\n**Action:** Provenance tabs remain visible beneath every thumbnail rather than falling away during assembly.\n\n**Font:** `narration`\n\n**Caption:**\n> THE APPARATUS IS PART OF THE STORY.\n\n**Provenance:** `reconstructed` + `inferred` — manuscript state and project principle.\n\n",
   "title": "Page thumbnails form the story ribbon"
 }

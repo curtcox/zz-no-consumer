@@ -63,6 +63,7 @@
       ],
       "color": "steel",
       "focus": true,
+      "font": "editorial",
       "label": "REMEDIATION",
       "label_box": [
         0.06775,
@@ -82,6 +83,7 @@
       ],
       "color": "steel",
       "focus": true,
+      "font": "editorial",
       "label": "DEFENSE",
       "label_box": [
         0.371083,
@@ -101,6 +103,7 @@
       ],
       "color": "steel",
       "focus": true,
+      "font": "editorial",
       "label": "INVESTIGATION",
       "label_box": [
         0.674417,
@@ -113,6 +116,6 @@
   ],
   "reconstructed": false,
   "shot": "row",
-  "source": "\n**Location:**\n\n- `huggingface-infrastructure`\n- `openai-research-infrastructure`\n- `institutional-composite`\n- `regulatory-office`\n\n**Frame:** The montage remains divided. No single lesson governs all lanes.\n\n**Caption:**\n> “EVERYONE LEARNED” IS COMPRESSION. THE LESSONS DIFFER. THE REVIEW IS UNFINISHED.\n\n**Provenance:** `compressed` + `inferred`.\n\n",
+  "source": "\n**Location:**\n\n- `huggingface-infrastructure`\n- `openai-research-infrastructure`\n- `institutional-composite`\n- `regulatory-office`\n\n**Frame:** The montage remains divided. No single lesson governs all lanes.\n\n**Font:** `narration`\n\n**Caption:**\n> “EVERYONE LEARNED” IS COMPRESSION. THE LESSONS DIFFER. THE REVIEW IS UNFINISHED.\n\n**Provenance:** `compressed` + `inferred`.\n\n",
   "title": "Remediation defense and investigation retain separate lanes"
 }

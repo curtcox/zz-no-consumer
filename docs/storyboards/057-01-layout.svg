@@ -63,6 +63,7 @@
         ],
         &quot;color&quot;: &quot;shadow&quot;,
         &quot;focus&quot;: true,
+        &quot;font&quot;: &quot;editorial&quot;,
         &quot;label&quot;: &quot;ENDS&quot;,
         &quot;label_box&quot;: [
           0.07799999999999999,
@@ -81,6 +82,7 @@
         ],
         &quot;color&quot;: &quot;steel&quot;,
         &quot;focus&quot;: true,
+        &quot;font&quot;: &quot;editorial&quot;,
         &quot;label&quot;: &quot;RESTARTS&quot;,
         &quot;label_box&quot;: [
           0.354,
@@ -99,6 +101,7 @@
         ],
         &quot;color&quot;: &quot;steel&quot;,
         &quot;focus&quot;: true,
+        &quot;font&quot;: &quot;editorial&quot;,
         &quot;label&quot;: &quot;CHANGED STATE&quot;,
         &quot;label_box&quot;: [
           0.63,
@@ -110,8 +113,8 @@
     ],
     &quot;reconstructed&quot;: false,
     &quot;shot&quot;: &quot;timeline&quot;,
-    &quot;source&quot;: &quot;\n**Location:** `evaluation-containers`\n\n**Frame:** Recto. Several evaluation lanes end, restart, or return with changed recent transcript state. No cause arrow connects them.\n\n**Action:** Runs notice that some containers reset unexpectedly.\n\n**Caption:**\n&gt; THE RESETS ARE REAL. THEIR CAUSE IS NOT KNOWN.\n\n**Provenance:** `documented` — METR&#x27;s reset chronology.\n\n&quot;,
+    &quot;source&quot;: &quot;\n**Location:** `evaluation-containers`\n\n**Frame:** Recto. Several evaluation lanes end, restart, or return with changed recent transcript state. No cause arrow connects them.\n\n**Action:** Runs notice that some containers reset unexpectedly.\n\n**Font:** `narration`\n\n**Caption:**\n&gt; THE RESETS ARE REAL. THEIR CAUSE IS NOT KNOWN.\n\n**Provenance:** `documented` — METR&#x27;s reset chronology.\n\n&quot;,
     &quot;title&quot;: &quot;Different run endings have no asserted cause&quot;
   }
 }
-</metadata><rect width="1200" height="800" fill="#101214"/><rect x="24" y="16" width="1152" height="768" fill="none" stroke="#5E737B" stroke-width="3"/><text x="32" y="40" fill="#5E737B" font-family="sans-serif" font-size="20">location-background-evaluation-containers</text><rect x="92.16" y="292" width="1015.68" height="12.8" fill="none" stroke="#5E737B" stroke-width="3"/><text x="100.16" y="316" fill="#5E737B" font-family="sans-serif" font-size="20">line</text><rect x="103.2" y="143.52" width="261.28" height="112.64" fill="none" stroke="#202326" stroke-width="3"/><text x="111.2" y="167.52" fill="#202326" font-family="sans-serif" font-size="20">box</text><text x="233.84" y="278.96" text-anchor="middle" fill="#E7E0D0" font-size="18" font-family="sans-serif">ENDS</text><rect x="434.4" y="143.52" width="261.28" height="112.64" fill="none" stroke="#5E737B" stroke-width="3"/><text x="442.4" y="167.52" fill="#5E737B" font-family="sans-serif" font-size="20">box</text><text x="565.04" y="278.96" text-anchor="middle" fill="#E7E0D0" font-size="18" font-family="sans-serif">RESTARTS</text><rect x="765.6" y="143.52" width="261.28" height="112.64" fill="none" stroke="#5E737B" stroke-width="3"/><text x="773.6" y="167.52" fill="#5E737B" font-family="sans-serif" font-size="20">card</text><text x="896.24" y="278.96" text-anchor="middle" fill="#E7E0D0" font-size="18" font-family="sans-serif">CHANGED STATE</text><rect x="3" y="3" width="1194" height="794" fill="none" stroke="#5E737B" stroke-width="4"/></svg>
+</metadata><rect width="1200" height="800" fill="#101214"/><rect x="24" y="16" width="1152" height="768" fill="none" stroke="#5E737B" stroke-width="3"/><text x="32" y="40" fill="#5E737B" font-family="sans-serif" font-size="20">location-background-evaluation-containers</text><rect x="92.16" y="292" width="1015.68" height="12.8" fill="none" stroke="#5E737B" stroke-width="3"/><text x="100.16" y="316" fill="#5E737B" font-family="sans-serif" font-size="20">line</text><rect x="103.2" y="143.52" width="261.28" height="112.64" fill="none" stroke="#202326" stroke-width="3"/><text x="111.2" y="167.52" fill="#202326" font-family="sans-serif" font-size="20">box</text><text x="233.84" y="278.96" text-anchor="middle" fill="#E7E0D0" font-size="18" font-family="Arial, Helvetica, sans-serif" data-font-key="editorial" font-weight="700" font-style="normal" textLength="50.00" lengthAdjust="spacingAndGlyphs">ENDS</text><rect x="434.4" y="143.52" width="261.28" height="112.64" fill="none" stroke="#5E737B" stroke-width="3"/><text x="442.4" y="167.52" fill="#5E737B" font-family="sans-serif" font-size="20">box</text><text x="565.04" y="278.96" text-anchor="middle" fill="#E7E0D0" font-size="18" font-family="Arial, Helvetica, sans-serif" data-font-key="editorial" font-weight="700" font-style="normal" textLength="96.01" lengthAdjust="spacingAndGlyphs">RESTARTS</text><rect x="765.6" y="143.52" width="261.28" height="112.64" fill="none" stroke="#5E737B" stroke-width="3"/><text x="773.6" y="167.52" fill="#5E737B" font-family="sans-serif" font-size="20">card</text><text x="896.24" y="278.96" text-anchor="middle" fill="#E7E0D0" font-size="18" font-family="Arial, Helvetica, sans-serif" data-font-key="editorial" font-weight="700" font-style="normal" textLength="153.02" lengthAdjust="spacingAndGlyphs">CHANGED STATE</text><rect x="3" y="3" width="1194" height="794" fill="none" stroke="#5E737B" stroke-width="4"/></svg>

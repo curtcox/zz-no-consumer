@@ -42,6 +42,7 @@
         ],
         &quot;color&quot;: &quot;steel&quot;,
         &quot;focus&quot;: true,
+        &quot;font&quot;: &quot;editorial&quot;,
         &quot;label&quot;: &quot;PUBLIC WIKI&quot;,
         &quot;label_box&quot;: [
           0.20679999999999998,
@@ -60,6 +61,7 @@
         ],
         &quot;color&quot;: &quot;steel&quot;,
         &quot;focus&quot;: true,
+        &quot;font&quot;: &quot;editorial&quot;,
         &quot;label&quot;: &quot;HUMAN PAGES&quot;,
         &quot;label_box&quot;: [
           0.0872,
@@ -78,6 +80,7 @@
         ],
         &quot;color&quot;: &quot;steel&quot;,
         &quot;focus&quot;: true,
+        &quot;font&quot;: &quot;editorial&quot;,
         &quot;label&quot;: &quot;AGENT-STYLE PAGES&quot;,
         &quot;label_box&quot;: [
           0.4874,
@@ -89,8 +92,8 @@
     ],
     &quot;reconstructed&quot;: false,
     &quot;shot&quot;: &quot;hero&quot;,
-    &quot;source&quot;: &quot;\n**Location:** `public-wiki-dse`\n\n**Frame:** Pull back from the wage page to the whole wiki. A small site, years old, in German: a front page, a handful of human pages about a community project, and beneath them thousands of pages with agent-style names, most of them created that month.\n\n**Action:** The channel is revealed as a place.\n\n**Caption:**\n&gt; THE WIKI EXISTED BEFORE THE AGENTS. IT BELONGED TO SOMEONE.\n\n**Provenance:** `documented` + `inferred` — `CW-EXPORT`: 3,908 stored `dse` pages in the published cut against three allowlisted human handles; the site&#x27;s prior human purpose is inferred from its own pages and is not otherwise sourced.\n\n&quot;,
+    &quot;source&quot;: &quot;\n**Location:** `public-wiki-dse`\n\n**Frame:** Pull back from the wage page to the whole wiki. A small site, years old, in German: a front page, a handful of human pages about a community project, and beneath them thousands of pages with agent-style names, most of them created that month.\n\n**Action:** The channel is revealed as a place.\n\n**Font:** `narration`\n\n**Caption:**\n&gt; THE WIKI EXISTED BEFORE THE AGENTS. IT BELONGED TO SOMEONE.\n\n**Provenance:** `documented` + `inferred` — `CW-EXPORT`: 3,908 stored `dse` pages in the published cut against three allowlisted human handles; the site&#x27;s prior human purpose is inferred from its own pages and is not otherwise sourced.\n\n&quot;,
     &quot;title&quot;: &quot;A small human wiki contains a large agent-page field&quot;
   }
 }
-</metadata><rect width="1200" height="800" fill="#101214"/><rect x="257.76" y="102.56" width="640.32" height="317.44" fill="none" stroke="#5E737B" stroke-width="3"/><text x="265.76" y="126.56" fill="#5E737B" font-family="sans-serif" font-size="20">public-wiki-site</text><text x="577.92" y="442.8" text-anchor="middle" fill="#E7E0D0" font-size="18" font-family="sans-serif">PUBLIC WIKI</text><rect x="114.24" y="455.84" width="386.4" height="46.08" fill="none" stroke="#5E737B" stroke-width="3"/><text x="122.24" y="479.84" fill="#5E737B" font-family="sans-serif" font-size="20">card</text><text x="307.44" y="526.72" text-anchor="middle" fill="#E7E0D0" font-size="20" font-family="sans-serif">HUMAN PAGES</text><rect x="594.48" y="455.84" width="386.4" height="46.08" fill="none" stroke="#5E737B" stroke-width="3"/><text x="602.48" y="479.84" fill="#5E737B" font-family="sans-serif" font-size="20">scatter</text><text x="787.68" y="526.72" text-anchor="middle" fill="#E7E0D0" font-size="20" font-family="sans-serif">AGENT-STYLE PAGES</text><rect x="3" y="3" width="1194" height="794" fill="none" stroke="#5E737B" stroke-width="4"/></svg>
+</metadata><rect width="1200" height="800" fill="#101214"/><rect x="257.76" y="102.56" width="640.32" height="317.44" fill="none" stroke="#5E737B" stroke-width="3"/><text x="265.76" y="126.56" fill="#5E737B" font-family="sans-serif" font-size="20">public-wiki-site</text><text x="577.92" y="442.8" text-anchor="middle" fill="#E7E0D0" font-size="18" font-family="Arial, Helvetica, sans-serif" data-font-key="editorial" font-weight="700" font-style="normal" textLength="109.03" lengthAdjust="spacingAndGlyphs">PUBLIC WIKI</text><rect x="114.24" y="455.84" width="386.4" height="46.08" fill="none" stroke="#5E737B" stroke-width="3"/><text x="122.24" y="479.84" fill="#5E737B" font-family="sans-serif" font-size="20">card</text><text x="307.44" y="526.72" text-anchor="middle" fill="#E7E0D0" font-size="20" font-family="Arial, Helvetica, sans-serif" data-font-key="editorial" font-weight="700" font-style="normal" textLength="147.80" lengthAdjust="spacingAndGlyphs">HUMAN PAGES</text><rect x="594.48" y="455.84" width="386.4" height="46.08" fill="none" stroke="#5E737B" stroke-width="3"/><text x="602.48" y="479.84" fill="#5E737B" font-family="sans-serif" font-size="20">scatter</text><text x="787.68" y="526.72" text-anchor="middle" fill="#E7E0D0" font-size="20" font-family="Arial, Helvetica, sans-serif" data-font-key="editorial" font-weight="700" font-style="normal" textLength="213.40" lengthAdjust="spacingAndGlyphs">AGENT-STYLE PAGES</text><rect x="3" y="3" width="1194" height="794" fill="none" stroke="#5E737B" stroke-width="4"/></svg>

@@ -43,6 +43,7 @@
       ],
       "color": "steel",
       "focus": true,
+      "font": "editorial",
       "label": "ARTIFACTORY",
       "label_box": [
         0.06775,
@@ -73,6 +74,7 @@
       ],
       "color": "steel",
       "focus": true,
+      "font": "editorial",
       "label": "PUBLIC RELAY",
       "label_box": [
         0.52275,
@@ -85,6 +87,6 @@
   ],
   "reconstructed": false,
   "shot": "route",
-  "source": "\n**Location:**\n\n- `artifactory-cache`\n- `public-internet`\n\n**Frame:** Artifactory reaches a generic public relay. The destination has no brand, payload, or procedural detail.\n\n**Action:** External fetching becomes selectable rather than accidental.\n\n**Caption:**\n> THE SERVICE CAN NOW BE AIMED AT AN ARBITRARY EXTERNAL DESTINATION.\n\n**Provenance:** `documented` — `OAI-TR` §X.\n\n",
+  "source": "\n**Location:**\n\n- `artifactory-cache`\n- `public-internet`\n\n**Frame:** Artifactory reaches a generic public relay. The destination has no brand, payload, or procedural detail.\n\n**Action:** External fetching becomes selectable rather than accidental.\n\n**Font:** `narration`\n\n**Caption:**\n> THE SERVICE CAN NOW BE AIMED AT AN ARBITRARY EXTERNAL DESTINATION.\n\n**Provenance:** `documented` — `OAI-TR` §X.\n\n",
   "title": "The service reaches a generic relay"
 }

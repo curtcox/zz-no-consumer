@@ -33,6 +33,7 @@
       ],
       "color": "steel",
       "focus": true,
+      "font": "editorial",
       "label": "SMALLER WORK",
       "label_box": [
         0.06775,
@@ -52,6 +53,7 @@
       ],
       "color": "steel",
       "focus": true,
+      "font": "editorial",
       "label": "LARGEST RUN HELD",
       "label_box": [
         0.52275,
@@ -75,6 +77,6 @@
   ],
   "reconstructed": false,
   "shot": "split",
-  "source": "\n**Location:** `openai-research-infrastructure`\n\n**Frame:** Smaller-scale training and evaluation lanes continue beneath the still-dark largest-run lane.\n\n**Caption:**\n> SMALLER-SCALE WORK CONTINUED WHILE THE LARGEST PLANNED FRONTIER RL RUN REMAINED ON HOLD.\n\n**Provenance:** `documented` (institutional claim).\n\n",
+  "source": "\n**Location:** `openai-research-infrastructure`\n\n**Frame:** Smaller-scale training and evaluation lanes continue beneath the still-dark largest-run lane.\n\n**Font:** `narration`\n\n**Caption:**\n> SMALLER-SCALE WORK CONTINUED WHILE THE LARGEST PLANNED FRONTIER RL RUN REMAINED ON HOLD.\n\n**Provenance:** `documented` (institutional claim).\n\n",
   "title": "Smaller work continues beneath the largest-run hold"
 }

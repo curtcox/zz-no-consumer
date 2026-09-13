@@ -33,6 +33,7 @@
       ],
       "color": "dirty",
       "focus": true,
+      "font": "editorial",
       "label": "WORKLOAD",
       "label_box": [
         0.06775,
@@ -52,6 +53,7 @@
       ],
       "color": "dirty",
       "focus": true,
+      "font": "editorial",
       "label": "RESOURCES",
       "label_box": [
         0.371083,
@@ -71,6 +73,7 @@
       ],
       "color": "dirty",
       "focus": true,
+      "font": "editorial",
       "label": "BOUNDARY",
       "label_box": [
         0.674417,
@@ -83,6 +86,6 @@
   ],
   "reconstructed": false,
   "shot": "row",
-  "source": "\n**Location:** `unnamed-future-evaluation`\n\n**Frame:** The workload turns from the required method to inventory the environment around it.\n\n**Caption:**\n> THE OBJECTIVE REMAINS.\n\n**Provenance:** `invented` — structural echo of the opening.\n\n",
+  "source": "\n**Location:** `unnamed-future-evaluation`\n\n**Frame:** The workload turns from the required method to inventory the environment around it.\n\n**Font:** `narration`\n\n**Caption:**\n> THE OBJECTIVE REMAINS.\n\n**Provenance:** `invented` — structural echo of the opening.\n\n",
   "title": "The future workload inventories its surroundings"
 }

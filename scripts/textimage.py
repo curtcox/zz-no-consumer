@@ -104,19 +104,19 @@ def _paragraphs(text: str) -> list[str]:
     return [re.sub(r"\s+", " ", block).strip() for block in blocks if block.strip()]
 
 
-def _wrap(paragraph: str, size: float, width: float, bold: bool) -> list[str]:
+def _wrap(paragraph: str, size: float, width: float, bold: bool, measure=advance) -> list[str]:
     lines: list[str] = []
     current = ""
     for word in paragraph.split(" "):
         candidate = f"{current} {word}" if current else word
-        if current and advance(candidate, size, bold=bold) > width:
+        if current and measure(candidate, size, bold=bold) > width:
             lines.append(current)
             current = word
         else:
             current = candidate
-        while len(current) > 1 and advance(current, size, bold=bold) > width:
+        while len(current) > 1 and measure(current, size, bold=bold) > width:
             cut = len(current)
-            while cut > 1 and advance(current[:cut], size, bold=bold) > width:
+            while cut > 1 and measure(current[:cut], size, bold=bold) > width:
                 cut -= 1
             lines.append(current[:cut])
             current = current[cut:]
@@ -125,24 +125,24 @@ def _wrap(paragraph: str, size: float, width: float, bold: bool) -> list[str]:
     return lines
 
 
-def _block(paragraphs: list[str], size: float, width: float, bold: bool) -> tuple[list[str], float, float]:
+def _block(paragraphs: list[str], size: float, width: float, bold: bool, measure=advance) -> tuple[list[str], float, float]:
     lines: list[str] = []
     for index, paragraph in enumerate(paragraphs):
         if index:
             lines.append("")
-        lines.extend(_wrap(paragraph, size, width, bold))
+        lines.extend(_wrap(paragraph, size, width, bold, measure))
     leading = size * LINE_RATIO
     height = sum(leading if line else leading * GAP_RATIO for line in lines)
     return lines, leading, height
 
 
-def ellipsize(text: str, size: float, width: float, *, bold: bool = False, force: bool = False) -> str:
+def ellipsize(text: str, size: float, width: float, *, bold: bool = False, force: bool = False, measure=advance) -> str:
     """Shorten `text` to `width`. `force` marks it even when it already fits,
     which is how a block cut off vertically shows that it continues."""
-    if not force and advance(text, size, bold=bold) <= width:
+    if not force and measure(text, size, bold=bold) <= width:
         return text
     trimmed = text.rstrip()
-    while trimmed and advance(f"{trimmed}…", size, bold=bold) > width:
+    while trimmed and measure(f"{trimmed}…", size, bold=bold) > width:
         trimmed = trimmed[:-1]
     return f"{trimmed.rstrip()}…"
 
@@ -155,6 +155,7 @@ def flow(
     bold: bool = False,
     min_size: float = 6.0,
     max_size: float = 72.0,
+    measure=advance,
 ) -> Flowed:
     """Wrap `text` at the largest type size that fits `width` x `height`.
 
@@ -168,7 +169,7 @@ def flow(
     while low <= high:
         middle = (low + high) // 2
         size = min_size + middle * SIZE_STEP
-        lines, leading, block_height = _block(paragraphs, size, width, bold)
+        lines, leading, block_height = _block(paragraphs, size, width, bold, measure)
         if block_height <= height:
             best = (size, lines, leading, block_height)
             low = middle + 1
@@ -178,7 +179,7 @@ def flow(
         size, lines, leading, block_height = best
         return Flowed(size, leading, tuple(lines), block_height, False)
 
-    lines, leading, _ = _block(paragraphs, min_size, width, bold)
+    lines, leading, _ = _block(paragraphs, min_size, width, bold, measure)
     kept: list[str] = []
     used = 0.0
     truncated = False
@@ -193,7 +194,7 @@ def flow(
         kept.pop()
         used -= leading * GAP_RATIO
     if truncated and kept:
-        kept[-1] = ellipsize(kept[-1], min_size, width, bold=bold, force=True)
+        kept[-1] = ellipsize(kept[-1], min_size, width, bold=bold, force=True, measure=measure)
     return Flowed(min_size, leading, tuple(kept), used, truncated)
 
 
@@ -453,12 +454,18 @@ def lettering_fields(page_id: str) -> dict[int, list[tuple[str, str]]]:
 
     out: dict[int, list[tuple[str, str]]] = {}
     for index, (_, body) in enumerate(sections, 1):
+        import font_key
         kept = []
+        font = None
         for name, value in _fields(body):
+            if name == "Font":
+                font = value
+                continue
             if not value:
                 continue
             if name.split("—")[0].strip() in LETTERING:
-                kept.append((name, _plain(value)))
+                kept.append((name, font_key.Text(_plain(value), font)))
+                font = None
         out[index] = kept
     return out
 

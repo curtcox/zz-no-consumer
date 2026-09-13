@@ -54,6 +54,7 @@
         ],
         &quot;color&quot;: &quot;steel&quot;,
         &quot;focus&quot;: true,
+        &quot;font&quot;: &quot;editorial&quot;,
         &quot;label&quot;: &quot;INCIDENT&quot;,
         &quot;label_box&quot;: [
           0.0541,
@@ -84,6 +85,7 @@
         ],
         &quot;color&quot;: &quot;steel&quot;,
         &quot;focus&quot;: true,
+        &quot;font&quot;: &quot;editorial&quot;,
         &quot;label&quot;: &quot;THRESHOLD&quot;,
         &quot;label_box&quot;: [
           0.5182,
@@ -103,6 +105,7 @@
         ],
         &quot;color&quot;: &quot;steel&quot;,
         &quot;focus&quot;: true,
+        &quot;font&quot;: &quot;editorial&quot;,
         &quot;label&quot;: &quot;NO PAGE&quot;,
         &quot;label_box&quot;: [
           0.7639,
@@ -115,8 +118,8 @@
     ],
     &quot;reconstructed&quot;: false,
     &quot;shot&quot;: &quot;row&quot;,
-    &quot;source&quot;: &quot;\n**Location:** `huggingface-security-stack`\n\n**Frame:** A paging route waits beyond a threshold gate. The coherent incident card never crosses it.\n\n**Action:** The on-call trigger does not fire.\n\n**Screen / system text:**\n`ON-CALL PAGE — NOT TRIGGERED`\n\n**Provenance:** `documented` + `reconstructed` — no page is sourced; wording and interface are editorial.\n\n&quot;,
+    &quot;source&quot;: &quot;\n**Location:** `huggingface-security-stack`\n\n**Frame:** A paging route waits beyond a threshold gate. The coherent incident card never crosses it.\n\n**Action:** The on-call trigger does not fire.\n\n**Font:** `machine`\n\n**Screen / system text:**\n`ON-CALL PAGE — NOT TRIGGERED`\n\n**Provenance:** `documented` + `reconstructed` — no page is sourced; wording and interface are editorial.\n\n&quot;,
     &quot;title&quot;: &quot;The incident never crosses the paging gate&quot;
   }
 }
-</metadata><rect width="1200" height="800" fill="#101214"/><rect x="24" y="16" width="1152" height="768" fill="none" stroke="#5E737B" stroke-width="3"/><text x="32" y="40" fill="#5E737B" font-family="sans-serif" font-size="20">location-background-huggingface-security-stack</text><rect x="64.92" y="166.64" width="294.84" height="224.928" fill="none" stroke="#5E737B" stroke-width="3"/><text x="72.92" y="190.64" fill="#5E737B" font-family="sans-serif" font-size="20">card</text><text x="212.34" y="423.2" text-anchor="middle" fill="#E7E0D0" font-size="18" font-family="sans-serif">INCIDENT</text><rect x="392.52" y="257.52" width="196.56" height="45.44" fill="none" stroke="#5E737B" stroke-width="3"/><text x="400.52" y="281.52" fill="#5E737B" font-family="sans-serif" font-size="20">arrow</text><rect x="621.84" y="166.64" width="218.4" height="224.928" fill="none" stroke="#5E737B" stroke-width="3"/><text x="629.84" y="190.64" fill="#5E737B" font-family="sans-serif" font-size="20">gate</text><text x="731.04" y="423.2" text-anchor="middle" fill="#E7E0D0" font-size="18" font-family="sans-serif">THRESHOLD</text><rect x="916.68" y="166.64" width="218.4" height="224.928" fill="none" stroke="#5E737B" stroke-width="3"/><text x="924.68" y="190.64" fill="#5E737B" font-family="sans-serif" font-size="20">empty-slot</text><text x="1025.88" y="423.2" text-anchor="middle" fill="#E7E0D0" font-size="18" font-family="sans-serif">NO PAGE</text><rect x="3" y="3" width="1194" height="794" fill="none" stroke="#5E737B" stroke-width="4"/></svg>
+</metadata><rect width="1200" height="800" fill="#101214"/><rect x="24" y="16" width="1152" height="768" fill="none" stroke="#5E737B" stroke-width="3"/><text x="32" y="40" fill="#5E737B" font-family="sans-serif" font-size="20">location-background-huggingface-security-stack</text><rect x="64.92" y="166.64" width="294.84" height="224.928" fill="none" stroke="#5E737B" stroke-width="3"/><text x="72.92" y="190.64" fill="#5E737B" font-family="sans-serif" font-size="20">card</text><text x="212.34" y="423.2" text-anchor="middle" fill="#E7E0D0" font-size="18" font-family="Arial, Helvetica, sans-serif" data-font-key="editorial" font-weight="700" font-style="normal" textLength="85.00" lengthAdjust="spacingAndGlyphs">INCIDENT</text><rect x="392.52" y="257.52" width="196.56" height="45.44" fill="none" stroke="#5E737B" stroke-width="3"/><text x="400.52" y="281.52" fill="#5E737B" font-family="sans-serif" font-size="20">arrow</text><rect x="621.84" y="166.64" width="218.4" height="224.928" fill="none" stroke="#5E737B" stroke-width="3"/><text x="629.84" y="190.64" fill="#5E737B" font-family="sans-serif" font-size="20">gate</text><text x="731.04" y="423.2" text-anchor="middle" fill="#E7E0D0" font-size="18" font-family="Arial, Helvetica, sans-serif" data-font-key="editorial" font-weight="700" font-style="normal" textLength="111.01" lengthAdjust="spacingAndGlyphs">THRESHOLD</text><rect x="916.68" y="166.64" width="218.4" height="224.928" fill="none" stroke="#5E737B" stroke-width="3"/><text x="924.68" y="190.64" fill="#5E737B" font-family="sans-serif" font-size="20">empty-slot</text><text x="1025.88" y="423.2" text-anchor="middle" fill="#E7E0D0" font-size="18" font-family="Arial, Helvetica, sans-serif" data-font-key="editorial" font-weight="700" font-style="normal" textLength="82.03" lengthAdjust="spacingAndGlyphs">NO PAGE</text><rect x="3" y="3" width="1194" height="794" fill="none" stroke="#5E737B" stroke-width="4"/></svg>

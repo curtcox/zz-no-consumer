@@ -63,6 +63,7 @@
         ],
         &quot;color&quot;: &quot;steel&quot;,
         &quot;focus&quot;: true,
+        &quot;font&quot;: &quot;editorial&quot;,
         &quot;label&quot;: &quot;WORKLOAD TIME&quot;,
         &quot;label_box&quot;: [
           0.06775,
@@ -82,6 +83,7 @@
         ],
         &quot;color&quot;: &quot;steel&quot;,
         &quot;focus&quot;: true,
+        &quot;font&quot;: &quot;editorial&quot;,
         &quot;label&quot;: &quot;INSTITUTIONAL TIME&quot;,
         &quot;label_box&quot;: [
           0.52275,
@@ -105,8 +107,8 @@
     ],
     &quot;reconstructed&quot;: false,
     &quot;shot&quot;: &quot;split&quot;,
-    &quot;source&quot;: &quot;\n**Location:**\n\n- `agent-board-composite`\n- `institutional-composite`\n\n**Frame:** Two clocks. The left one measures a workload. The right one measures organizational and geopolitical time. Their scales do not match and are drawn so that the mismatch is the first thing read. Beneath each, the reach of a unilateral stop: on the left it cannot erase the shared artifacts already posted; on the right it cannot halt capability diffusion elsewhere.\n\n**Caption:**\n&gt; EACH DECISION IS DEFENSIBLE AT THE SCALE OF THE DECIDER.\n&gt;\n&gt; NO DECIDER IS AT THE SCALE OF THE RESULT.\n\n**Provenance:** `inferred` — structural comparison.\n\n&quot;,
+    &quot;source&quot;: &quot;\n**Location:**\n\n- `agent-board-composite`\n- `institutional-composite`\n\n**Frame:** Two clocks. The left one measures a workload. The right one measures organizational and geopolitical time. Their scales do not match and are drawn so that the mismatch is the first thing read. Beneath each, the reach of a unilateral stop: on the left it cannot erase the shared artifacts already posted; on the right it cannot halt capability diffusion elsewhere.\n\n**Font:** `narration`\n\n**Caption:**\n&gt; EACH DECISION IS DEFENSIBLE AT THE SCALE OF THE DECIDER.\n&gt;\n&gt; NO DECIDER IS AT THE SCALE OF THE RESULT.\n\n**Provenance:** `inferred` — structural comparison.\n\n&quot;,
     &quot;title&quot;: &quot;Workload and institutional clocks have different scales&quot;
   }
 }
-</metadata><rect width="1200" height="800" fill="#101214"/><rect x="24" y="16" width="561" height="768" fill="none" stroke="#5E737B" stroke-width="3"/><text x="32" y="40" fill="#5E737B" font-family="sans-serif" font-size="20">location-background-agent-board-composite</text><rect x="615" y="16" width="561" height="768" fill="none" stroke="#5E737B" stroke-width="3"/><text x="623" y="40" fill="#5E737B" font-family="sans-serif" font-size="20">location-background-institutional-composite</text><rect x="205.49" y="160.96" width="221.179" height="221.179" fill="none" stroke="#5E737B" stroke-width="3"/><text x="213.49" y="184.96" fill="#5E737B" font-family="sans-serif" font-size="20">clock</text><text x="316.08" y="413.544" text-anchor="middle" fill="#E7E0D0" font-size="18" font-family="sans-serif">WORKLOAD TIME</text><rect x="751.49" y="160.96" width="221.179" height="221.179" fill="none" stroke="#5E737B" stroke-width="3"/><text x="759.49" y="184.96" fill="#5E737B" font-family="sans-serif" font-size="20">clock</text><text x="862.08" y="413.544" text-anchor="middle" fill="#E7E0D0" font-size="18" font-family="sans-serif">INSTITUTIONAL TIME</text><rect x="592.356" y="58.72" width="15.288" height="499.84" fill="none" stroke="#5E737B" stroke-width="3"/><text x="600.356" y="82.72" fill="#5E737B" font-family="sans-serif" font-size="20">boundary</text><rect x="3" y="3" width="1194" height="794" fill="none" stroke="#5E737B" stroke-width="4"/></svg>
+</metadata><rect width="1200" height="800" fill="#101214"/><rect x="24" y="16" width="561" height="768" fill="none" stroke="#5E737B" stroke-width="3"/><text x="32" y="40" fill="#5E737B" font-family="sans-serif" font-size="20">location-background-agent-board-composite</text><rect x="615" y="16" width="561" height="768" fill="none" stroke="#5E737B" stroke-width="3"/><text x="623" y="40" fill="#5E737B" font-family="sans-serif" font-size="20">location-background-institutional-composite</text><rect x="205.49" y="160.96" width="221.179" height="221.179" fill="none" stroke="#5E737B" stroke-width="3"/><text x="213.49" y="184.96" fill="#5E737B" font-family="sans-serif" font-size="20">clock</text><text x="316.08" y="413.544" text-anchor="middle" fill="#E7E0D0" font-size="18" font-family="Arial, Helvetica, sans-serif" data-font-key="editorial" font-weight="700" font-style="normal" textLength="153.02" lengthAdjust="spacingAndGlyphs">WORKLOAD TIME</text><rect x="751.49" y="160.96" width="221.179" height="221.179" fill="none" stroke="#5E737B" stroke-width="3"/><text x="759.49" y="184.96" fill="#5E737B" font-family="sans-serif" font-size="20">clock</text><text x="862.08" y="413.544" text-anchor="middle" fill="#E7E0D0" font-size="18" font-family="Arial, Helvetica, sans-serif" data-font-key="editorial" font-weight="700" font-style="normal" textLength="183.02" lengthAdjust="spacingAndGlyphs">INSTITUTIONAL TIME</text><rect x="592.356" y="58.72" width="15.288" height="499.84" fill="none" stroke="#5E737B" stroke-width="3"/><text x="600.356" y="82.72" fill="#5E737B" font-family="sans-serif" font-size="20">boundary</text><rect x="3" y="3" width="1194" height="794" fill="none" stroke="#5E737B" stroke-width="4"/></svg>

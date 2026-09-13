@@ -43,6 +43,7 @@
       ],
       "color": "steel",
       "focus": true,
+      "font": "editorial",
       "label": "ATTACK MAP",
       "label_box": [
         0.06775,
@@ -62,6 +63,7 @@
       ],
       "color": "amber",
       "focus": true,
+      "font": "editorial",
       "label": "ACTIVE INTRUSION",
       "label_box": [
         0.52275,
@@ -85,6 +87,6 @@
   ],
   "reconstructed": false,
   "shot": "split",
-  "source": "\n**Location:**\n\n- `huggingface-security-stack`\n- `huggingface-infrastructure`\n\n**Frame:** The attack map remains fully legible on the left while active intrusion marks continue on the right. Between them, the severity gate stays closed.\n\n**Action:** Understanding fails to become response.\n\n**Caption:**\n> THE CORRELATION CONNECTS THE ATTACK.\n>\n> IT DOES NOT ESCALATE ENOUGH TO WAKE ANYONE.\n\n**Provenance:** `documented` + `inferred` — direct synthesis of Hugging Face's correlation and criticality findings.\n\n",
+  "source": "\n**Location:**\n\n- `huggingface-security-stack`\n- `huggingface-infrastructure`\n\n**Frame:** The attack map remains fully legible on the left while active intrusion marks continue on the right. Between them, the severity gate stays closed.\n\n**Action:** Understanding fails to become response.\n\n**Font:** `narration`\n\n**Caption:**\n> THE CORRELATION CONNECTS THE ATTACK.\n>\n> IT DOES NOT ESCALATE ENOUGH TO WAKE ANYONE.\n\n**Provenance:** `documented` + `inferred` — direct synthesis of Hugging Face's correlation and criticality findings.\n\n",
   "title": "Detection coexists with continued intrusion"
 }

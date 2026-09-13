@@ -33,6 +33,7 @@
       ],
       "color": "steel",
       "focus": true,
+      "font": "editorial",
       "label": "DETECTION",
       "label_box": [
         0.06775,
@@ -52,6 +53,7 @@
       ],
       "color": "steel",
       "focus": true,
+      "font": "editorial",
       "label": "CRITICALITY",
       "label_box": [
         0.371083,
@@ -71,6 +73,7 @@
       ],
       "color": "steel",
       "focus": true,
+      "font": "editorial",
       "label": "UNEXPECTED ORIGIN",
       "label_box": [
         0.674417,
@@ -83,6 +86,6 @@
   ],
   "reconstructed": false,
   "shot": "row",
-  "source": "\n**Location:** `hugging-face-infrastructure`\n\n**Frame:** Detection dashboards add critical-severity paths and alerts for tokens arriving from unexpected origins.\n\n**Caption:**\n> DETECTION CHANGED TO PRODUCE A HUMAN CONSEQUENCE.\n\n**Provenance:** `documented` + `inferred` — tooling changes are documented; consequence framing is project analysis.\n\n",
+  "source": "\n**Location:** `hugging-face-infrastructure`\n\n**Frame:** Detection dashboards add critical-severity paths and alerts for tokens arriving from unexpected origins.\n\n**Font:** `narration`\n\n**Caption:**\n> DETECTION CHANGED TO PRODUCE A HUMAN CONSEQUENCE.\n\n**Provenance:** `documented` + `inferred` — tooling changes are documented; consequence framing is project analysis.\n\n",
   "title": "Critical severity and unusual token origins gain alerts"
 }

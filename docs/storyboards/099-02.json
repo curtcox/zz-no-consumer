@@ -33,6 +33,7 @@
       ],
       "color": "steel",
       "focus": true,
+      "font": "editorial",
       "label": "CHAIR",
       "label_box": [
         0.06775,
@@ -52,6 +53,7 @@
       ],
       "color": "steel",
       "focus": true,
+      "font": "editorial",
       "label": "LAB SAFETY",
       "label_box": [
         0.24975,
@@ -71,6 +73,7 @@
       ],
       "color": "steel",
       "focus": true,
+      "font": "editorial",
       "label": "INVESTIGATOR",
       "label_box": [
         0.43175,
@@ -90,6 +93,7 @@
       ],
       "color": "steel",
       "focus": true,
+      "font": "editorial",
       "label": "PLATFORM ENGINEER",
       "label_box": [
         0.61375,
@@ -109,6 +113,7 @@
       ],
       "color": "steel",
       "focus": true,
+      "font": "editorial",
       "label": "PUBLIC-INTEREST COUNSEL",
       "label_box": [
         0.79575,
@@ -121,6 +126,6 @@
   ],
   "reconstructed": true,
   "shot": "row",
-  "source": "\n**Location:** `composite-accountability-forum`\n\n**Frame:** Five empty nameplates fill with functional roles: `CHAIR`, `LAB SAFETY LEAD`, `INDEPENDENT INVESTIGATOR`, `AFFECTED PLATFORM ENGINEER`, `PUBLIC-INTEREST COUNSEL`.\n\n**Caption:**\n> THE ROLES ARE COMPOSITES. THE WORDS ARE INVENTED. NO REAL PERSON IS BEING QUOTED.\n\n**Provenance:** `invented`.\n\n",
+  "source": "\n**Location:** `composite-accountability-forum`\n\n**Frame:** Five empty nameplates fill with functional roles: `CHAIR`, `LAB SAFETY LEAD`, `INDEPENDENT INVESTIGATOR`, `AFFECTED PLATFORM ENGINEER`, `PUBLIC-INTEREST COUNSEL`.\n\n**Font:** `narration`\n\n**Caption:**\n> THE ROLES ARE COMPOSITES. THE WORDS ARE INVENTED. NO REAL PERSON IS BEING QUOTED.\n\n**Provenance:** `invented`.\n\n",
   "title": "Functional roles occupy five nameplates"
 }

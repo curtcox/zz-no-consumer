@@ -33,6 +33,7 @@
       ],
       "color": "steel",
       "focus": true,
+      "font": "editorial",
       "label": "PUBLISH = DANGER",
       "label_box": [
         0.06775,
@@ -63,6 +64,7 @@
       ],
       "color": "steel",
       "focus": true,
+      "font": "editorial",
       "label": "SILENCE = SAFETY",
       "label_box": [
         0.674417,
@@ -75,6 +77,6 @@
   ],
   "reconstructed": false,
   "shot": "row",
-  "source": "\n**Location:** `curt-home-office`\n\n**Frame:** A false balance labeled `PUBLISH = DANGER / SILENCE = SAFETY` cracks through the center.\n\n**Dialogue — CURT:**\n> Silence can protect a system. It can also protect the institution that failed.\n\n**Provenance:** `reconstructed` + `inferred` — accountability argument.\n\n",
+  "source": "\n**Location:** `curt-home-office`\n\n**Frame:** A false balance labeled `PUBLISH = DANGER / SILENCE = SAFETY` cracks through the center.\n\n**Font:** `human`\n\n**Dialogue — CURT:**\n> Silence can protect a system. It can also protect the institution that failed.\n\n**Provenance:** `reconstructed` + `inferred` — accountability argument.\n\n",
   "title": "The false publish-versus-silence balance breaks"
 }

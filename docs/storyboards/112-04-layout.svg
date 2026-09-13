@@ -61,6 +61,7 @@
         ],
         &quot;color&quot;: &quot;steel&quot;,
         &quot;focus&quot;: true,
+        &quot;font&quot;: &quot;editorial&quot;,
         &quot;label&quot;: &quot;PUBLICATION&quot;,
         &quot;label_box&quot;: [
           0.06775,
@@ -80,6 +81,7 @@
         ],
         &quot;color&quot;: &quot;steel&quot;,
         &quot;focus&quot;: true,
+        &quot;font&quot;: &quot;editorial&quot;,
         &quot;label&quot;: &quot;ARCHIVE&quot;,
         &quot;label_box&quot;: [
           0.29525,
@@ -99,6 +101,7 @@
         ],
         &quot;color&quot;: &quot;steel&quot;,
         &quot;focus&quot;: true,
+        &quot;font&quot;: &quot;editorial&quot;,
         &quot;label&quot;: &quot;CONTEXT&quot;,
         &quot;label_box&quot;: [
           0.52275,
@@ -118,6 +121,7 @@
         ],
         &quot;color&quot;: &quot;steel&quot;,
         &quot;focus&quot;: true,
+        &quot;font&quot;: &quot;editorial&quot;,
         &quot;label&quot;: &quot;TRAINING&quot;,
         &quot;label_box&quot;: [
           0.75025,
@@ -130,8 +134,8 @@
     ],
     &quot;reconstructed&quot;: false,
     &quot;shot&quot;: &quot;row&quot;,
-    &quot;source&quot;: &quot;\n**Location:** `curt-home-office`\n\n**Frame:** A publication icon, a public archive icon, a context window, and a training pipeline remain separate, with no arrow asserting a necessary path between them.\n\n**Dialogue — CURT:**\n&gt; Public is not the same as trained on.\n\n**Screen / system text — CHATGPT:**\n&gt; No. And possible influence is not documented lineage.\n\n**Provenance:** `reconstructed` — explicit epistemic boundary.\n\n&quot;,
+    &quot;source&quot;: &quot;\n**Location:** `curt-home-office`\n\n**Frame:** A publication icon, a public archive icon, a context window, and a training pipeline remain separate, with no arrow asserting a necessary path between them.\n\n**Font:** `human`\n\n**Dialogue — CURT:**\n&gt; Public is not the same as trained on.\n\n**Font:** `interface`\n\n**Screen / system text — CHATGPT:**\n&gt; No. And possible influence is not documented lineage.\n\n**Provenance:** `reconstructed` — explicit epistemic boundary.\n\n&quot;,
     &quot;title&quot;: &quot;Publication archive context and training have no necessary connection&quot;
   }
 }
-</metadata><rect width="1200" height="800" fill="#101214"/><rect x="24" y="16" width="1152" height="768" fill="none" stroke="#5E737B" stroke-width="3"/><text x="32" y="40" fill="#5E737B" font-family="sans-serif" font-size="20">location-background-curt-home-office</text><rect x="81.3" y="385.45" width="196.56" height="178.999" fill="none" stroke="#5E737B" stroke-width="3"/><text x="89.3" y="409.45" fill="#5E737B" font-family="sans-serif" font-size="20">paper</text><text x="179.58" y="593.298" text-anchor="middle" fill="#E7E0D0" font-size="18" font-family="sans-serif">PUBLICATION</text><rect x="354.3" y="385.45" width="196.56" height="178.999" fill="none" stroke="#5E737B" stroke-width="3"/><text x="362.3" y="409.45" fill="#5E737B" font-family="sans-serif" font-size="20">folder</text><text x="452.58" y="593.298" text-anchor="middle" fill="#E7E0D0" font-size="18" font-family="sans-serif">ARCHIVE</text><rect x="627.3" y="385.45" width="196.56" height="178.999" fill="none" stroke="#5E737B" stroke-width="3"/><text x="635.3" y="409.45" fill="#5E737B" font-family="sans-serif" font-size="20">box</text><text x="725.58" y="593.298" text-anchor="middle" fill="#E7E0D0" font-size="18" font-family="sans-serif">CONTEXT</text><rect x="900.3" y="385.45" width="196.56" height="178.999" fill="none" stroke="#5E737B" stroke-width="3"/><text x="908.3" y="409.45" fill="#5E737B" font-family="sans-serif" font-size="20">box</text><text x="998.58" y="593.298" text-anchor="middle" fill="#E7E0D0" font-size="18" font-family="sans-serif">TRAINING</text><rect x="3" y="3" width="1194" height="794" fill="none" stroke="#5E737B" stroke-width="4"/></svg>
+</metadata><rect width="1200" height="800" fill="#101214"/><rect x="24" y="16" width="1152" height="768" fill="none" stroke="#5E737B" stroke-width="3"/><text x="32" y="40" fill="#5E737B" font-family="sans-serif" font-size="20">location-background-curt-home-office</text><rect x="81.3" y="385.45" width="196.56" height="178.999" fill="none" stroke="#5E737B" stroke-width="3"/><text x="89.3" y="409.45" fill="#5E737B" font-family="sans-serif" font-size="20">paper</text><text x="179.58" y="593.298" text-anchor="middle" fill="#E7E0D0" font-size="18" font-family="Arial, Helvetica, sans-serif" data-font-key="editorial" font-weight="700" font-style="normal" textLength="120.02" lengthAdjust="spacingAndGlyphs">PUBLICATION</text><rect x="354.3" y="385.45" width="196.56" height="178.999" fill="none" stroke="#5E737B" stroke-width="3"/><text x="362.3" y="409.45" fill="#5E737B" font-family="sans-serif" font-size="20">folder</text><text x="452.58" y="593.298" text-anchor="middle" fill="#E7E0D0" font-size="18" font-family="Arial, Helvetica, sans-serif" data-font-key="editorial" font-weight="700" font-style="normal" textLength="80.01" lengthAdjust="spacingAndGlyphs">ARCHIVE</text><rect x="627.3" y="385.45" width="196.56" height="178.999" fill="none" stroke="#5E737B" stroke-width="3"/><text x="635.3" y="409.45" fill="#5E737B" font-family="sans-serif" font-size="20">box</text><text x="725.58" y="593.298" text-anchor="middle" fill="#E7E0D0" font-size="18" font-family="Arial, Helvetica, sans-serif" data-font-key="editorial" font-weight="700" font-style="normal" textLength="86.00" lengthAdjust="spacingAndGlyphs">CONTEXT</text><rect x="900.3" y="385.45" width="196.56" height="178.999" fill="none" stroke="#5E737B" stroke-width="3"/><text x="908.3" y="409.45" fill="#5E737B" font-family="sans-serif" font-size="20">box</text><text x="998.58" y="593.298" text-anchor="middle" fill="#E7E0D0" font-size="18" font-family="Arial, Helvetica, sans-serif" data-font-key="editorial" font-weight="700" font-style="normal" textLength="86.00" lengthAdjust="spacingAndGlyphs">TRAINING</text><rect x="3" y="3" width="1194" height="794" fill="none" stroke="#5E737B" stroke-width="4"/></svg>

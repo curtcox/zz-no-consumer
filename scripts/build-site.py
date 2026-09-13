@@ -698,7 +698,7 @@ def build_viewer() -> None:
         )
     home_body = f'''
     <section class="intro-grid">
-      <div class="intro-copy" data-content="text"><p class="kicker">A spatial reading prototype</p>
+      <div class="intro-copy" data-content="text"><p class="kicker">A spatial reading prototype</p><p><a href="../font-key/">Font key</a></p>
         <p>This build validates durable routes, page and panel hierarchy, eight-direction navigation, and shareable view settings. <a href="../storyboards/">Open the storyboard workshop</a>. Every page and image slot already carries a generated placeholder: the script text for that page or panel, flowed to fit the frame the final art will occupy.</p>
         <a class="primary-action" href="{html.escape(viewer_link(Path("viewer"), "pages", pages[0].id))}">Begin on page 001 <span>→</span></a>
       </div>
@@ -2611,6 +2611,18 @@ def main() -> int:
         return page_document(
             title, body, navigation(directory), relative_url(directory, Path("css/site.css")))
 
+    import font_key
+    font_rows = []
+    for key, face in font_key.load().items():
+        style = html.escape(f"font-family:{font_key.family(key)};font-style:{face['style']};font-weight:{face['weight']}", quote=True)
+        font_rows.append(f'<tr><th>{key}</th><td style="{style}">The same words, a different voice.</td><td>{html.escape(face["meaning"])}</td></tr>')
+    write_page(Path('font-key/index.html'), 'Font key',
+               '<h2>Voices on the page</h2><p>Type tells you who is speaking and what kind of text you are reading. '
+               'Attribution and explicit labels tell you what the evidence supports. A font alone never certifies a quotation.</p>'
+               '<table><thead><tr><th>Key</th><th>Sample</th><th>Meaning</th></tr></thead><tbody>' + ''.join(font_rows) + '</tbody></table>'
+               '<p>Machine transcripts keep the machine face; third-party quotations keep their source labels. '
+               'Reconstructed dialogue and invented scenes remain explicitly identified.</p><p><a href="../viewer/">Read the graphic novel</a></p>', document)
+
     story = textimage.book_scripts()
     placeholder_link = (
         '<p><a class="viewer-callout" href="viewer/pages/001/">'
@@ -2626,6 +2638,7 @@ def main() -> int:
         index_body = (
             '<p>Private local review build: canonical story material, visual direction, research, and production notes.</p>'
             '<p><a class="viewer-callout" href="viewer/">Open the graphic novel viewer validation build →</a></p>'
+            '<p><a href="font-key/">Font key: the voices on the page</a></p>'
             '<p><a class="viewer-callout" href="novella/">Read the novella, or download it whole →</a></p>'
             '<p><a class="viewer-callout" href="appendix/">Open the appendix: questions, contested assertions, fallacies, and professional objections →</a></p>'
             f'{placeholder_link}'
@@ -2641,6 +2654,7 @@ def main() -> int:
         index_body = (
             '<p>Story-first public build. Research snapshots, source packets, prompts, and production notes remain local.</p>'
             '<p><a class="viewer-callout" href="viewer/">Open the graphic novel viewer validation build →</a></p>'
+            '<p><a href="font-key/">Font key: the voices on the page</a></p>'
             '<p><a class="viewer-callout" href="novella/">Read the novella, or download it whole →</a></p>'
             '<p><a class="viewer-callout" href="appendix/">Open the appendix: questions, contested assertions, fallacies, and professional objections →</a></p>'
             f'{placeholder_link}'

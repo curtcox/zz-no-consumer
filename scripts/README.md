@@ -106,6 +106,7 @@ generation boundaries, so a CI run can never reach for an image model.
 | `svg_components.py` | independent SVG palette and local editing workshop (`serve` `add` `choose` `export` `gallery` `check`); see [component workflow](../design/svg-components.md) |
 | `location_backgrounds.py` | `plan`, `apply`, `refine`, and `check` for the location background palette, material revisions, and filling storyboards without setting artwork; preserves foregrounds and intentional blank fields |
 | `storyboards.py` | deterministic SVG scene previews, versioned placeholder assets, and a comparison workshop (`generate` `check` `gallery`); see [the workflow](../design/storyboard-workflow.md) |
+| `font_key.py` | shared semantic font registry, metadata and font-aware layout; validated by the lettering audit |
 | `letterpress.py` | composes the controlled lettering layer over panel art (`slots` `panel` `page` `audit`) |
 
 ## Reading the record

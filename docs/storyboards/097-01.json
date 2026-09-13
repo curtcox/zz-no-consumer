@@ -33,6 +33,7 @@
       ],
       "color": "steel",
       "focus": true,
+      "font": "editorial",
       "label": "10 AUGUST DAYBREAK",
       "label_box": [
         0.20679999999999998,
@@ -44,6 +45,6 @@
   ],
   "reconstructed": false,
   "shot": "hero",
-  "source": "\n**Location:** `public-announcement-ledger`\n\n**Frame:** Public ledger, 10 August. OpenAI expands controlled Daybreak access and introduces a cybersecurity-specific model for approved defensive work.\n\n**Caption:**\n> CAPABILITY EXPANDS INSIDE A PROGRAM OF IDENTITY, ACCOUNT, MONITORING, USE, AND LEGAL CONTROLS.\n\n**Provenance:** `documented` (institutional claim) — OpenAI Daybreak announcement.\n\n",
+  "source": "\n**Location:** `public-announcement-ledger`\n\n**Frame:** Public ledger, 10 August. OpenAI expands controlled Daybreak access and introduces a cybersecurity-specific model for approved defensive work.\n\n**Font:** `narration`\n\n**Caption:**\n> CAPABILITY EXPANDS INSIDE A PROGRAM OF IDENTITY, ACCOUNT, MONITORING, USE, AND LEGAL CONTROLS.\n\n**Provenance:** `documented` (institutional claim) — OpenAI Daybreak announcement.\n\n",
   "title": "Controlled defensive access enters the dated ledger"
 }

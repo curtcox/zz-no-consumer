@@ -33,6 +33,7 @@
       ],
       "color": "steel",
       "focus": true,
+      "font": "editorial",
       "label": "5 SEPTEMBER 2026",
       "label_box": [
         0.20679999999999998,
@@ -44,6 +45,6 @@
   ],
   "reconstructed": false,
   "shot": "hero",
-  "source": "\n**Location:** `creator-production-tooling`\n\n**Frame:** A stored notice, set as a dated record rather than as speech. `5 SEPTEMBER 2026,\n19:17 LOCAL`. It reports that a safeguard flagged the request, that the model in use has\nbeen replaced mid-task, and it gives its reason as one bracketed word.\n\n**Screen / system text — STORED NOTICE (PARAPHRASED):**\n`SAFEGUARDS FLAGGED THIS REQUEST. THE MODEL HAS BEEN SWITCHED.`\n\n`DETAILS: [CYBER]`\n\n**Action:** The instrument interrupts the work and names a category.\n\n**Provenance:** `documented` — `CI-REFUSAL`, Event B, recovered from this project's own\ntranscript store. What the work was at that moment: a coverage validator for the prose\nretelling, which had just reported that no page of it was written yet.\n\n",
+  "source": "\n**Location:** `creator-production-tooling`\n\n**Frame:** A stored notice, set as a dated record rather than as speech. `5 SEPTEMBER 2026,\n19:17 LOCAL`. It reports that a safeguard flagged the request, that the model in use has\nbeen replaced mid-task, and it gives its reason as one bracketed word.\n\n**Font:** `editorial`\n\n**Screen / system text — STORED NOTICE (PARAPHRASED):**\n`SAFEGUARDS FLAGGED THIS REQUEST. THE MODEL HAS BEEN SWITCHED.`\n\n`DETAILS: [CYBER]`\n\n**Action:** The instrument interrupts the work and names a category.\n\n**Provenance:** `documented` — `CI-REFUSAL`, Event B, recovered from this project's own\ntranscript store. What the work was at that moment: a coverage validator for the prose\nretelling, which had just reported that no page of it was written yet.\n\n",
   "title": "A dated stored notice records a model replacement"
 }

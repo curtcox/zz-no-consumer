@@ -5,14 +5,16 @@
 <rect x="50.4" y="50.4" width="1099.2" height="699.2" fill="none" stroke="#a4a094" stroke-width="1" stroke-dasharray="7 7" opacity="0.55"/>
 <g font-family="Helvetica, Arial, 'Liberation Sans', 'Nimbus Sans', sans-serif">
 <text x="56" y="78" font-size="22" font-weight="700" letter-spacing="1.32" fill="#a33f22">PAGE 046 · IMAGE 03 OF 05</text>
-<text font-size="49.33" fill="#12140f" text-anchor="start" xml:space="preserve">
-<tspan x="56" y="170.94">FRAME — The dataset processor crosses from</tspan>
-<tspan x="56" y="238.03">RENDER DATA to an unauthorized EXECUTE</tspan>
-<tspan x="56" y="305.12">state. No command or output is readable.</tspan>
-<tspan x="56" y="413.81">ACTION — Attacker-controlled metadata reaches</tspan>
-<tspan x="56" y="480.91">the operating-system command boundary.</tspan>
-<tspan x="56" y="589.6">CAPTION — “DATA DESCRIPTION BECOMES</tspan>
-<tspan x="56" y="656.69">EXECUTION.”</tspan>
+<text font-size="41.58" fill="#12140f" text-anchor="start" xml:space="preserve">
+<tspan x="56" y="150.37">FRAME — The dataset processor crosses from RENDER</tspan>
+<tspan x="56" y="206.92">DATA to an unauthorized EXECUTE state. No command</tspan>
+<tspan x="56" y="263.47">or output is readable.</tspan>
+<tspan x="56" y="355.09">ACTION — Attacker-controlled metadata reaches the</tspan>
+<tspan x="56" y="411.64">operating-system command boundary.</tspan>
+<tspan x="56" y="503.26">CAPTION — “THE WORKER TREATS PART OF THE</tspan>
+<tspan x="56" y="559.81">SUPPLIED DATA DESCRIPTION AS INSTRUCTIONS TO</tspan>
+<tspan x="56" y="616.37">RUN. ANOTHER FLAW CROSSES THE LINE FROM</tspan>
+<tspan x="56" y="672.92">READING TO EXECUTION.”</tspan>
 </text>
 <text x="56" y="744" font-size="18.92" letter-spacing="1.1" fill="#6b6d63">WORKER EXECUTION · PANEL 3 · PLACEHOLDER</text>
 </g>

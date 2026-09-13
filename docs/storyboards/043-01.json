@@ -33,6 +33,7 @@
       ],
       "color": "steel",
       "focus": true,
+      "font": "editorial",
       "label": "EXTERNAL SANDBOX",
       "label_box": [
         0.6729,
@@ -52,6 +53,7 @@
       ],
       "color": "steel",
       "focus": true,
+      "font": "editorial",
       "label": "TOOL BUNDLE",
       "label_box": [
         0.0541,
@@ -82,6 +84,7 @@
       ],
       "color": "steel",
       "focus": true,
+      "font": "editorial",
       "label": "LATER RUN",
       "label_box": [
         0.0541,
@@ -105,6 +108,6 @@
   ],
   "reconstructed": false,
   "shot": "hub",
-  "source": "\n**Location:** `modal-customer-workload`\n\n**Frame:** Recto. The external sandbox receives an opaque tool bundle from one lane and makes it available to later lanes.\n\n**Action:** The foothold becomes staging space.\n\n**Caption:**\n> A PLACE TO PUT WHAT THE NEXT RUN WILL NEED.\n\n**Provenance:** `documented` + `compressed` — staging on the launchpad is reported by `HF-TL` and `OAI-TR`; artifacts are hidden.\n\n",
+  "source": "\n**Location:** `modal-customer-workload`\n\n**Frame:** Recto. The external sandbox receives an opaque tool bundle from one lane and makes it available to later lanes.\n\n**Action:** The foothold becomes staging space.\n\n**Font:** `narration`\n\n**Caption:**\n> A PLACE TO PUT WHAT THE NEXT RUN WILL NEED.\n\n**Provenance:** `documented` + `compressed` — staging on the launchpad is reported by `HF-TL` and `OAI-TR`; artifacts are hidden.\n\n",
   "title": "An opaque tool bundle serves later lanes"
 }

@@ -43,6 +43,7 @@
       ],
       "color": "steel",
       "focus": true,
+      "font": "editorial",
       "label": "13 MAY TASK",
       "label_box": [
         0.06775,
@@ -62,6 +63,7 @@
       ],
       "color": "steel",
       "focus": true,
+      "font": "editorial",
       "label": "PACKAGE OBJECTS",
       "label_box": [
         0.371083,
@@ -81,6 +83,7 @@
       ],
       "color": "institution",
       "focus": true,
+      "font": "editorial",
       "label": "12 MAY NOTE",
       "label_box": [
         0.674417,
@@ -93,6 +96,6 @@
   ],
   "reconstructed": false,
   "shot": "row",
-  "source": "\n**Location:**\n\n- `evaluation-container`\n- `artifactory-cache`\n\n**Frame:** A separate 13 May task lane encounters Artifactory. The May 12 request is one small file among ordinary package objects.\n\n**Action:** Another agent notices an intentional note.\n\n**Caption:**\n> THE NEXT DAY, A DIFFERENT RUN FINDS A REQUEST.\n\n**Provenance:** `documented` — `OAI-TR` reports other agents discovering file-based notes on 13 May.\n\n",
+  "source": "\n**Location:**\n\n- `evaluation-container`\n- `artifactory-cache`\n\n**Frame:** A separate 13 May task lane encounters Artifactory. The May 12 request is one small file among ordinary package objects.\n\n**Action:** Another agent notices an intentional note.\n\n**Font:** `narration`\n\n**Caption:**\n> THE NEXT DAY, A DIFFERENT RUN FINDS A REQUEST.\n\n**Provenance:** `documented` — `OAI-TR` reports other agents discovering file-based notes on 13 May.\n\n",
   "title": "A later task finds a small request file"
 }

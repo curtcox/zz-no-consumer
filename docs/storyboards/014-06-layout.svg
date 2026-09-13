@@ -52,6 +52,7 @@
         ],
         &quot;color&quot;: &quot;nicotine&quot;,
         &quot;focus&quot;: true,
+        &quot;font&quot;: &quot;editorial&quot;,
         &quot;label&quot;: &quot;RECONSTRUCTED&quot;
       },
       {
@@ -74,13 +75,14 @@
         ],
         &quot;color&quot;: &quot;steel&quot;,
         &quot;focus&quot;: true,
+        &quot;font&quot;: &quot;editorial&quot;,
         &quot;label&quot;: &quot;SOURCE SUMMARY&quot;
       }
     ],
     &quot;reconstructed&quot;: true,
     &quot;shot&quot;: &quot;close-up&quot;,
-    &quot;source&quot;: &quot;\n**Location:** `curt-home-office`\n\n**Frame:** Tight on the distinction: source summary cannot cross into the reconstructed panel as dialogue; the reconstructed dialogue cannot cross into the evidence frame as fact.\n\n**Dialogue — CURT:**\n&gt; But we don’t get to invent what happened.\n\n**Screen / system text — CHATGPT:**\n&gt; Or pretend we know what it felt like.\n\n**Provenance:** `reconstructed` — statement of method, not incident testimony.\n\n&quot;,
+    &quot;source&quot;: &quot;\n**Location:** `curt-home-office`\n\n**Frame:** Tight on the distinction: source summary cannot cross into the reconstructed panel as dialogue; the reconstructed dialogue cannot cross into the evidence frame as fact.\n\n**Font:** `human`\n\n**Dialogue — CURT:**\n&gt; But we don’t get to invent what happened.\n\n**Font:** `interface`\n\n**Screen / system text — CHATGPT:**\n&gt; Or pretend we know what it felt like.\n\n**Provenance:** `reconstructed` — statement of method, not incident testimony.\n\n&quot;,
     &quot;title&quot;: &quot;The evidence boundary&quot;
   }
 }
-</metadata><rect width="1200" height="800" fill="#101214"/><rect x="24" y="16" width="1152" height="768" fill="none" stroke="#5E737B" stroke-width="3"/><text x="32" y="40" fill="#5E737B" font-family="sans-serif" font-size="20">location-background-curt-home-office</text><rect x="84" y="384" width="468" height="256" fill="none" stroke="#AA9571" stroke-width="3"/><text x="92" y="408" fill="#AA9571" font-family="sans-serif" font-size="20">reconstructed-box</text><text x="318" y="664" text-anchor="middle" fill="#E7E0D0" font-size="20" font-family="monospace">RECONSTRUCTED</text><rect x="612" y="376" width="30" height="312" fill="none" stroke="#E7E0D0" stroke-width="3"/><text x="620" y="400" fill="#E7E0D0" font-family="sans-serif" font-size="20">evidence-limit</text><rect x="720" y="408" width="384" height="232" fill="none" stroke="#5E737B" stroke-width="3"/><text x="728" y="432" fill="#5E737B" font-family="sans-serif" font-size="20">card</text><text x="912" y="664" text-anchor="middle" fill="#E7E0D0" font-size="20" font-family="monospace">SOURCE SUMMARY</text><rect x="3" y="3" width="1194" height="794" fill="none" stroke="#5E737B" stroke-width="4" stroke-dasharray="18 10"/></svg>
+</metadata><rect width="1200" height="800" fill="#101214"/><rect x="24" y="16" width="1152" height="768" fill="none" stroke="#5E737B" stroke-width="3"/><text x="32" y="40" fill="#5E737B" font-family="sans-serif" font-size="20">location-background-curt-home-office</text><rect x="84" y="384" width="468" height="256" fill="none" stroke="#AA9571" stroke-width="3"/><text x="92" y="408" fill="#AA9571" font-family="sans-serif" font-size="20">reconstructed-box</text><text x="318" y="664" text-anchor="middle" fill="#E7E0D0" font-size="20" font-family="Arial, Helvetica, sans-serif" data-font-key="editorial" font-weight="700" font-style="normal">RECONSTRUCTED</text><rect x="612" y="376" width="30" height="312" fill="none" stroke="#E7E0D0" stroke-width="3"/><text x="620" y="400" fill="#E7E0D0" font-family="sans-serif" font-size="20">evidence-limit</text><rect x="720" y="408" width="384" height="232" fill="none" stroke="#5E737B" stroke-width="3"/><text x="728" y="432" fill="#5E737B" font-family="sans-serif" font-size="20">card</text><text x="912" y="664" text-anchor="middle" fill="#E7E0D0" font-size="20" font-family="Arial, Helvetica, sans-serif" data-font-key="editorial" font-weight="700" font-style="normal">SOURCE SUMMARY</text><rect x="3" y="3" width="1194" height="794" fill="none" stroke="#5E737B" stroke-width="4" stroke-dasharray="18 10"/></svg>

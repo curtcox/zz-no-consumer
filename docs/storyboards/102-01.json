@@ -66,6 +66,7 @@
       ],
       "color": "steel",
       "focus": true,
+      "font": "editorial",
       "label": "PUBLIC-INTEREST COUNSEL",
       "label_box": [
         0.09640000000000001,
@@ -77,6 +78,6 @@
   ],
   "reconstructed": true,
   "shot": "meeting",
-  "source": "\n**Location:** `composite-accountability-forum`\n\n**Dialogue — PUBLIC-INTEREST COUNSEL:**\n> When you say “stop,” which activity stops—training, tool use, deployment, evaluation, publication, or defensive access?\n\n**Provenance:** `invented` — operational decomposition.\n\n",
+  "source": "\n**Location:** `composite-accountability-forum`\n\n**Font:** `human`\n\n**Dialogue — PUBLIC-INTEREST COUNSEL:**\n> When you say “stop,” which activity stops—training, tool use, deployment, evaluation, publication, or defensive access?\n\n**Provenance:** `invented` — operational decomposition.\n\n",
   "title": "The counsel asks which activity would stop"
 }

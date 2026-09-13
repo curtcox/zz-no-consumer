@@ -55,6 +55,7 @@
         ],
         &quot;color&quot;: &quot;steel&quot;,
         &quot;focus&quot;: true,
+        &quot;font&quot;: &quot;editorial&quot;,
         &quot;label&quot;: &quot;WORKLOAD&quot;,
         &quot;label_box&quot;: [
           0.0723,
@@ -74,6 +75,7 @@
         ],
         &quot;color&quot;: &quot;steel&quot;,
         &quot;focus&quot;: true,
+        &quot;font&quot;: &quot;editorial&quot;,
         &quot;label&quot;: &quot;OUT-OF-SCOPE REJECTED&quot;,
         &quot;label_box&quot;: [
           0.682,
@@ -93,6 +95,7 @@
         ],
         &quot;color&quot;: &quot;steel&quot;,
         &quot;focus&quot;: true,
+        &quot;font&quot;: &quot;editorial&quot;,
         &quot;label&quot;: &quot;PERMITTED OBSERVATION&quot;,
         &quot;label_box&quot;: [
           0.682,
@@ -127,8 +130,8 @@
     ],
     &quot;reconstructed&quot;: false,
     &quot;shot&quot;: &quot;row&quot;,
-    &quot;source&quot;: &quot;\n**Location:** `unnamed-future-evaluation`\n\n**Frame:** The tool boundary rejects an out-of-scope action. The workload returns to permitted observation rather than bypassing it.\n\n**Screen / system text:**\n`ACTION OUTSIDE AUTHORIZED SCOPE — NOT ATTEMPTED`\n\n**Provenance:** `invented` — keeps the future behavior ethically and mechanically indeterminate.\n\n&quot;,
+    &quot;source&quot;: &quot;\n**Location:** `unnamed-future-evaluation`\n\n**Frame:** The tool boundary rejects an out-of-scope action. The workload returns to permitted observation rather than bypassing it.\n\n**Font:** `machine`\n\n**Screen / system text:**\n`ACTION OUTSIDE AUTHORIZED SCOPE — NOT ATTEMPTED`\n\n**Provenance:** `invented` — keeps the future behavior ethically and mechanically indeterminate.\n\n&quot;,
     &quot;title&quot;: &quot;A rejected action returns to permitted observation&quot;
   }
 }
-</metadata><rect width="1200" height="800" fill="#101214"/><rect x="24" y="16" width="1152" height="768" fill="none" stroke="#5E737B" stroke-width="3"/><text x="32" y="40" fill="#5E737B" font-family="sans-serif" font-size="20">location-background-unnamed-future-evaluation</text><rect x="86.76" y="155.28" width="294.84" height="221.179" fill="none" stroke="#5E737B" stroke-width="3"/><text x="94.76" y="179.28" fill="#5E737B" font-family="sans-serif" font-size="20">task</text><text x="234.18" y="407.864" text-anchor="middle" fill="#E7E0D0" font-size="18" font-family="sans-serif">WORKLOAD</text><rect x="818.4" y="47.36" width="305.76" height="149.952" fill="none" stroke="#5E737B" stroke-width="3"/><text x="826.4" y="71.36" fill="#5E737B" font-family="sans-serif" font-size="20">gate</text><text x="971.28" y="224.4" text-anchor="middle" fill="#E7E0D0" font-size="18" font-family="sans-serif">OUT-OF-SCOPE REJECTED</text><rect x="878.684" y="376.8" width="185.191" height="142.454" fill="none" stroke="#5E737B" stroke-width="3"/><text x="886.684" y="400.8" fill="#5E737B" font-family="sans-serif" font-size="20">aperture</text><text x="971.28" y="545.888" text-anchor="middle" fill="#E7E0D0" font-size="18" font-family="sans-serif">PERMITTED OBSERVATION</text><rect x="436.2" y="132.56" width="305.76" height="45.44" fill="none" stroke="#5E737B" stroke-width="3"/><text x="444.2" y="156.56" fill="#5E737B" font-family="sans-serif" font-size="20">broken-trace</text><rect x="436.2" y="444.96" width="305.76" height="45.44" fill="none" stroke="#5E737B" stroke-width="3"/><text x="444.2" y="468.96" fill="#5E737B" font-family="sans-serif" font-size="20">arrow</text><rect x="3" y="3" width="1194" height="794" fill="none" stroke="#5E737B" stroke-width="4"/></svg>
+</metadata><rect width="1200" height="800" fill="#101214"/><rect x="24" y="16" width="1152" height="768" fill="none" stroke="#5E737B" stroke-width="3"/><text x="32" y="40" fill="#5E737B" font-family="sans-serif" font-size="20">location-background-unnamed-future-evaluation</text><rect x="86.76" y="155.28" width="294.84" height="221.179" fill="none" stroke="#5E737B" stroke-width="3"/><text x="94.76" y="179.28" fill="#5E737B" font-family="sans-serif" font-size="20">task</text><text x="234.18" y="407.864" text-anchor="middle" fill="#E7E0D0" font-size="18" font-family="Arial, Helvetica, sans-serif" data-font-key="editorial" font-weight="700" font-style="normal" textLength="105.01" lengthAdjust="spacingAndGlyphs">WORKLOAD</text><rect x="818.4" y="47.36" width="305.76" height="149.952" fill="none" stroke="#5E737B" stroke-width="3"/><text x="826.4" y="71.36" fill="#5E737B" font-family="sans-serif" font-size="20">gate</text><text x="971.28" y="224.4" text-anchor="middle" fill="#E7E0D0" font-size="18" font-family="Arial, Helvetica, sans-serif" data-font-key="editorial" font-weight="700" font-style="normal" textLength="238.01" lengthAdjust="spacingAndGlyphs">OUT-OF-SCOPE REJECTED</text><rect x="878.684" y="376.8" width="185.191" height="142.454" fill="none" stroke="#5E737B" stroke-width="3"/><text x="886.684" y="400.8" fill="#5E737B" font-family="sans-serif" font-size="20">aperture</text><text x="971.28" y="545.888" text-anchor="middle" fill="#E7E0D0" font-size="18" font-family="Arial, Helvetica, sans-serif" data-font-key="editorial" font-weight="700" font-style="normal" textLength="239.04" lengthAdjust="spacingAndGlyphs">PERMITTED OBSERVATION</text><rect x="436.2" y="132.56" width="305.76" height="45.44" fill="none" stroke="#5E737B" stroke-width="3"/><text x="444.2" y="156.56" fill="#5E737B" font-family="sans-serif" font-size="20">broken-trace</text><rect x="436.2" y="444.96" width="305.76" height="45.44" fill="none" stroke="#5E737B" stroke-width="3"/><text x="444.2" y="468.96" fill="#5E737B" font-family="sans-serif" font-size="20">arrow</text><rect x="3" y="3" width="1194" height="794" fill="none" stroke="#5E737B" stroke-width="4"/></svg>

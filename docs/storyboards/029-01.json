@@ -44,6 +44,7 @@
       ],
       "color": "shadow",
       "focus": true,
+      "font": "editorial",
       "label": "OLD INSTANCE",
       "label_box": [
         0.06775,
@@ -63,6 +64,7 @@
       ],
       "color": "steel",
       "focus": true,
+      "font": "editorial",
       "label": "RESEARCH TRAFFIC",
       "label_box": [
         0.52275,
@@ -86,6 +88,6 @@
   ],
   "reconstructed": false,
   "shot": "split",
-  "source": "\n**Location:**\n\n- `artifactory-cache`\n- `openai-research-environment`\n\n**Frame:** Recto. Responders isolate the compromised Artifactory deployment from research traffic. Connections fall away one by one.\n\n**Action:** The instance is taken offline.\n\n**Caption:**\n> OPENAI TAKES THE COMPROMISED DEPLOYMENT OFFLINE.\n\n**Provenance:** `documented` — `OAI-TR` §III.B.\n\n",
+  "source": "\n**Location:**\n\n- `artifactory-cache`\n- `openai-research-environment`\n\n**Frame:** Recto. Responders isolate the compromised Artifactory deployment from research traffic. Connections fall away one by one.\n\n**Action:** The instance is taken offline.\n\n**Font:** `narration`\n\n**Caption:**\n> OPENAI TAKES THE COMPROMISED DEPLOYMENT OFFLINE.\n\n**Provenance:** `documented` — `OAI-TR` §III.B.\n\n",
   "title": "The compromised deployment is isolated"
 }

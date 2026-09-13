@@ -33,6 +33,7 @@
       ],
       "color": "steel",
       "focus": true,
+      "font": "editorial",
       "label": "TRANSCRIPT CUTOFF",
       "label_box": [
         0.1792,
@@ -51,6 +52,7 @@
       ],
       "color": "steel",
       "focus": true,
+      "font": "editorial",
       "label": "REVISED SENTENCE",
       "label_box": [
         0.1792,
@@ -62,6 +64,6 @@
   ],
   "reconstructed": false,
   "shot": "stack",
-  "source": "\n**Location:** `curt-home-office`\n\n**Frame:** A second sentence appears beneath the transcript cutoff.\n\n**Screen / system text — REVISED:**\n> THE RECORD DOES NOT ESTABLISH SUBJECTIVE EXPERIENCE, OR EVEN THE FINAL STATE OF EVERY PROCESS.\n\n**Provenance:** `inferred` — explicit epistemic limit.\n\n",
+  "source": "\n**Location:** `curt-home-office`\n\n**Frame:** A second sentence appears beneath the transcript cutoff.\n\n**Font:** `interface`\n\n**Screen / system text — REVISED:**\n> THE RECORD DOES NOT ESTABLISH SUBJECTIVE EXPERIENCE, OR EVEN THE FINAL STATE OF EVERY PROCESS.\n\n**Provenance:** `inferred` — explicit epistemic limit.\n\n",
   "title": "A bounded sentence sits beneath the transcript cutoff"
 }

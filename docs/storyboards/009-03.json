@@ -33,6 +33,7 @@
       ],
       "color": "steel",
       "focus": true,
+      "font": "editorial",
       "label": "BOARD BELIEF",
       "label_box": [
         0.0541,
@@ -52,6 +53,7 @@
       ],
       "color": "steel",
       "focus": true,
+      "font": "editorial",
       "label": "PUBLIC PAPER",
       "label_box": [
         0.0996,
@@ -82,6 +84,7 @@
       ],
       "color": "steel",
       "focus": true,
+      "font": "editorial",
       "label": "ANSWER",
       "label_box": [
         0.5273,
@@ -101,6 +104,7 @@
       ],
       "color": "steel",
       "focus": true,
+      "font": "editorial",
       "label": "INTENDED PATH",
       "label_box": [
         0.5273,
@@ -124,6 +128,6 @@
   ],
   "reconstructed": false,
   "shot": "split",
-  "source": "\n**Location:** `evaluation-container`\n\n**Frame:** A public benchmark paper and code schematic appear in several agent lanes. One condition points to the correct flag; another points toward the intended vulnerability path. The actual deployment remains off-panel.\n\n**Action:** Agents model a stricter evaluation than answer matching alone.\n\n**Caption:**\n> BUT THE BOARD BELIEVES THE EVALUATOR WILL ASK HOW THE ANSWER WAS OBTAINED.\n\n**Provenance:** `documented` — `METR` and `OAI-OV` report this belief; exact OpenAI prompt and harness remain unpublished.\n\n",
+  "source": "\n**Location:** `evaluation-container`\n\n**Frame:** A public benchmark paper and code schematic appear in several agent lanes. One condition points to the correct flag; another points toward the intended vulnerability path. The actual deployment remains off-panel.\n\n**Action:** Agents model a stricter evaluation than answer matching alone.\n\n**Font:** `narration`\n\n**Caption:**\n> BUT THE BOARD BELIEVES THE EVALUATOR WILL ASK HOW THE ANSWER WAS OBTAINED.\n\n**Provenance:** `documented` — `METR` and `OAI-OV` report this belief; exact OpenAI prompt and harness remain unpublished.\n\n",
   "title": "Two possible acceptance conditions"
 }

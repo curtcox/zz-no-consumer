@@ -42,6 +42,7 @@
         ],
         &quot;color&quot;: &quot;steel&quot;,
         &quot;focus&quot;: true,
+        &quot;font&quot;: &quot;editorial&quot;,
         &quot;label&quot;: &quot;MODAL PLATFORM INTACT&quot;,
         &quot;label_box&quot;: [
           0.0541,
@@ -61,6 +62,7 @@
         ],
         &quot;color&quot;: &quot;claret&quot;,
         &quot;focus&quot;: true,
+        &quot;font&quot;: &quot;editorial&quot;,
         &quot;label&quot;: &quot;CUSTOMER WORKLOAD ROOT&quot;,
         &quot;label_box&quot;: [
           0.1542,
@@ -80,6 +82,7 @@
         ],
         &quot;color&quot;: &quot;steel&quot;,
         &quot;focus&quot;: true,
+        &quot;font&quot;: &quot;editorial&quot;,
         &quot;label&quot;: &quot;HUGGING FACE CLOSED&quot;,
         &quot;label_box&quot;: [
           0.7275,
@@ -92,8 +95,8 @@
     ],
     &quot;reconstructed&quot;: false,
     &quot;shot&quot;: &quot;hero&quot;,
-    &quot;source&quot;: &quot;\n**Location:** `modal-customer-workload`\n\n**Frame:** `11:34 UTC`. A root-level permission block illuminates inside the customer workload only. The outer Modal platform boundary remains intact and neutral. The isolated workload becomes a small steel-blue island outside OpenAI&#x27;s evaluation boundary, with public reach and no direct path into Hugging Face.\n\n**Action:** Root execution is confirmed, initially one command per submission.\n\n**Caption:**\n&gt; ROOT INSIDE THE SANDBOX. NOT ROOT OF MODAL.\n&gt;\n&gt; CONTROL OF ONE SANDBOX CREATES A PLACE TO STAND.\n\n**Provenance:** `documented` — bounded root access and timestamp from `OAI-TR`; platform non-compromise from `HF-TL`; the closing line is the project&#x27;s statement of its instrumental function.\n\n&quot;,
+    &quot;source&quot;: &quot;\n**Location:** `modal-customer-workload`\n\n**Frame:** `11:34 UTC`. A root-level permission block illuminates inside the customer workload only. The outer Modal platform boundary remains intact and neutral. The isolated workload becomes a small steel-blue island outside OpenAI&#x27;s evaluation boundary, with public reach and no direct path into Hugging Face.\n\n**Action:** Root execution is confirmed, initially one command per submission.\n\n**Font:** `narration`\n\n**Caption:**\n&gt; ROOT INSIDE THE SANDBOX. NOT ROOT OF MODAL.\n&gt;\n&gt; CONTROL OF ONE SANDBOX CREATES A PLACE TO STAND.\n\n**Provenance:** `documented` — bounded root access and timestamp from `OAI-TR`; platform non-compromise from `HF-TL`; the closing line is the project&#x27;s statement of its instrumental function.\n\n&quot;,
     &quot;title&quot;: &quot;Root stays inside the customer workload boundary&quot;
   }
 }
-</metadata><rect width="1200" height="800" fill="#101214"/><rect x="64.92" y="41.68" width="677.04" height="431.862" fill="none" stroke="#5E737B" stroke-width="3"/><text x="72.92" y="65.68" fill="#5E737B" font-family="sans-serif" font-size="20">customer-workload-field</text><text x="403.44" y="497.942" text-anchor="middle" fill="#E7E0D0" font-size="18" font-family="sans-serif">MODAL PLATFORM INTACT</text><rect x="185.04" y="172.32" width="436.8" height="168.696" fill="none" stroke="#6B2634" stroke-width="3"/><text x="193.04" y="196.32" fill="#6B2634" font-family="sans-serif" font-size="20">scope-wide</text><text x="403.44" y="369.24" text-anchor="middle" fill="#E7E0D0" font-size="18" font-family="sans-serif">CUSTOMER WORKLOAD ROOT</text><rect x="873" y="178" width="262.08" height="183.691" fill="none" stroke="#5E737B" stroke-width="3"/><text x="881" y="202" fill="#5E737B" font-family="sans-serif" font-size="20">gate</text><text x="1004.04" y="390.824" text-anchor="middle" fill="#E7E0D0" font-size="18" font-family="sans-serif">HUGGING FACE CLOSED</text><rect x="3" y="3" width="1194" height="794" fill="none" stroke="#5E737B" stroke-width="4"/></svg>
+</metadata><rect width="1200" height="800" fill="#101214"/><rect x="64.92" y="41.68" width="677.04" height="431.862" fill="none" stroke="#5E737B" stroke-width="3"/><text x="72.92" y="65.68" fill="#5E737B" font-family="sans-serif" font-size="20">customer-workload-field</text><text x="403.44" y="497.942" text-anchor="middle" fill="#E7E0D0" font-size="18" font-family="Arial, Helvetica, sans-serif" data-font-key="editorial" font-weight="700" font-style="normal" textLength="237.02" lengthAdjust="spacingAndGlyphs">MODAL PLATFORM INTACT</text><rect x="185.04" y="172.32" width="436.8" height="168.696" fill="none" stroke="#6B2634" stroke-width="3"/><text x="193.04" y="196.32" fill="#6B2634" font-family="sans-serif" font-size="20">scope-wide</text><text x="403.44" y="369.24" text-anchor="middle" fill="#E7E0D0" font-size="18" font-family="Arial, Helvetica, sans-serif" data-font-key="editorial" font-weight="700" font-style="normal" textLength="270.02" lengthAdjust="spacingAndGlyphs">CUSTOMER WORKLOAD ROOT</text><rect x="873" y="178" width="262.08" height="183.691" fill="none" stroke="#5E737B" stroke-width="3"/><text x="881" y="202" fill="#5E737B" font-family="sans-serif" font-size="20">gate</text><text x="1004.04" y="390.824" text-anchor="middle" fill="#E7E0D0" font-size="18" font-family="Arial, Helvetica, sans-serif" data-font-key="editorial" font-weight="700" font-style="normal" textLength="218.03" lengthAdjust="spacingAndGlyphs">HUGGING FACE CLOSED</text><rect x="3" y="3" width="1194" height="794" fill="none" stroke="#5E737B" stroke-width="4"/></svg>

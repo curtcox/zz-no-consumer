@@ -33,6 +33,7 @@
       ],
       "color": "amber",
       "focus": true,
+      "font": "editorial",
       "label": "SAME PROVIDER?",
       "label_box": [
         0.06775,
@@ -52,6 +53,7 @@
       ],
       "color": "amber",
       "focus": true,
+      "font": "editorial",
       "label": "SAME TRAINING?",
       "label_box": [
         0.371083,
@@ -71,6 +73,7 @@
       ],
       "color": "amber",
       "focus": true,
+      "font": "editorial",
       "label": "CROSS-READING?",
       "label_box": [
         0.674417,
@@ -83,6 +86,6 @@
   ],
   "reconstructed": false,
   "shot": "row",
-  "source": "\n**Location:** `curt-home-office`\n\n**Frame:** Curt's pen hovers over the gap between the lanes. He writes three labels in the gap and boxes each with a question mark: `SAME PROVIDER?` (the report's inference), `SAME TRAINING?` (unknown), `EITHER ONE READ THE OTHER?` (no evidence either way). No line crosses.\n\n**Dialogue — CURT:**\n> Probably distinct. That is their finding. It is not the same as unrelated.\n\n**Provenance:** `documented` + `inferred` — the distinct-swarm assessment and the OpenAI attribution are `CW-REPORT`'s, stated by its authors as inferences; the three questions are the project's and are left open.\n\n",
+  "source": "\n**Location:** `curt-home-office`\n\n**Frame:** Curt's pen hovers over the gap between the lanes. He writes three labels in the gap and boxes each with a question mark: `SAME PROVIDER?` (the report's inference), `SAME TRAINING?` (unknown), `EITHER ONE READ THE OTHER?` (no evidence either way). No line crosses.\n\n**Font:** `human`\n\n**Dialogue — CURT:**\n> Probably distinct. That is their finding. It is not the same as unrelated.\n\n**Provenance:** `documented` + `inferred` — the distinct-swarm assessment and the OpenAI attribution are `CW-REPORT`'s, stated by its authors as inferences; the three questions are the project's and are left open.\n\n",
   "title": "Three cross-lane questions have no connecting arrows"
 }

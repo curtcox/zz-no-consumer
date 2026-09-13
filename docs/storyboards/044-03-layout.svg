@@ -53,6 +53,7 @@
         ],
         &quot;color&quot;: &quot;steel&quot;,
         &quot;focus&quot;: true,
+        &quot;font&quot;: &quot;editorial&quot;,
         &quot;label&quot;: &quot;METR: TWO&quot;,
         &quot;label_box&quot;: [
           0.0541,
@@ -72,6 +73,7 @@
         ],
         &quot;color&quot;: &quot;steel&quot;,
         &quot;focus&quot;: true,
+        &quot;font&quot;: &quot;editorial&quot;,
         &quot;label&quot;: &quot;OPENAI: FOURTEEN&quot;,
         &quot;label_box&quot;: [
           0.6001,
@@ -91,6 +93,7 @@
         ],
         &quot;color&quot;: &quot;steel&quot;,
         &quot;focus&quot;: true,
+        &quot;font&quot;: &quot;editorial&quot;,
         &quot;label&quot;: &quot;WORKING ACCESS&quot;,
         &quot;label_box&quot;: [
           0.227,
@@ -110,6 +113,7 @@
         ],
         &quot;color&quot;: &quot;amber&quot;,
         &quot;focus&quot;: true,
+        &quot;font&quot;: &quot;editorial&quot;,
         &quot;label&quot;: &quot;COUNT UNRECONCILED&quot;,
         &quot;label_box&quot;: [
           0.2816,
@@ -122,8 +126,8 @@
     ],
     &quot;reconstructed&quot;: false,
     &quot;shot&quot;: &quot;split&quot;,
-    &quot;source&quot;: &quot;\n**Location:** `documentary-evidence-field`\n\n**Frame:** The two dossiers overlap at `WORKING ACCESS` but refuse to align at `COUNT`. Dusty amber marks the gap.\n\n**Action:** The accounts agree on access and disagree—or count differently—on quantity.\n\n**Caption:**\n&gt; CREDENTIALS. TOKENS. ACCOUNTS. PERHAPS DIFFERENT UNITS.\n\n**Provenance:** `disputed` — no public audit reconciles the reports.\n\n&quot;,
+    &quot;source&quot;: &quot;\n**Location:** `documentary-evidence-field`\n\n**Frame:** The two dossiers overlap at `WORKING ACCESS` but refuse to align at `COUNT`. Dusty amber marks the gap.\n\n**Action:** The accounts agree on access and disagree—or count differently—on quantity.\n\n**Font:** `narration`\n\n**Caption:**\n&gt; CREDENTIALS. TOKENS. ACCOUNTS. PERHAPS DIFFERENT UNITS. TWO WORKING KEYS AND FOURTEEN TOKENS NEED NOT COUNT THE SAME THING; THE RECORD DOES NOT RECONCILE THEM.\n\n**Provenance:** `disputed` — no public audit reconciles the reports.\n\n&quot;,
     &quot;title&quot;: &quot;Working access agrees while the count does not&quot;
   }
 }
-</metadata><rect width="1200" height="800" fill="#101214"/><rect x="24" y="16" width="1152" height="768" fill="none" stroke="#5E737B" stroke-width="3"/><text x="32" y="40" fill="#5E737B" font-family="sans-serif" font-size="20">location-background-documentary-evidence-field</text><rect x="64.92" y="53.04" width="414.96" height="142.454" fill="none" stroke="#5E737B" stroke-width="3"/><text x="72.92" y="77.04" fill="#5E737B" font-family="sans-serif" font-size="20">card</text><text x="272.4" y="222.128" text-anchor="middle" fill="#E7E0D0" font-size="18" font-family="sans-serif">METR: TWO</text><rect x="720.12" y="53.04" width="414.96" height="142.454" fill="none" stroke="#5E737B" stroke-width="3"/><text x="728.12" y="77.04" fill="#5E737B" font-family="sans-serif" font-size="20">card</text><text x="927.6" y="222.128" text-anchor="middle" fill="#E7E0D0" font-size="18" font-family="sans-serif">OPENAI: FOURTEEN</text><rect x="272.4" y="371.12" width="655.2" height="82.4736" fill="none" stroke="#5E737B" stroke-width="3"/><text x="280.4" y="395.12" fill="#5E737B" font-family="sans-serif" font-size="20">line</text><text x="600" y="476.592" text-anchor="middle" fill="#E7E0D0" font-size="18" font-family="sans-serif">WORKING ACCESS</text><rect x="337.92" y="524.48" width="524.16" height="48.7344" fill="none" stroke="#A17D45" stroke-width="3"/><text x="345.92" y="548.48" fill="#A17D45" font-family="sans-serif" font-size="20">broken-trace</text><text x="600" y="591.668" text-anchor="middle" fill="#E7E0D0" font-size="15.5" font-family="sans-serif">COUNT UNRECONCILED</text><rect x="3" y="3" width="1194" height="794" fill="none" stroke="#5E737B" stroke-width="4"/></svg>
+</metadata><rect width="1200" height="800" fill="#101214"/><rect x="24" y="16" width="1152" height="768" fill="none" stroke="#5E737B" stroke-width="3"/><text x="32" y="40" fill="#5E737B" font-family="sans-serif" font-size="20">location-background-documentary-evidence-field</text><rect x="64.92" y="53.04" width="414.96" height="142.454" fill="none" stroke="#5E737B" stroke-width="3"/><text x="72.92" y="77.04" fill="#5E737B" font-family="sans-serif" font-size="20">card</text><text x="272.4" y="222.128" text-anchor="middle" fill="#E7E0D0" font-size="18" font-family="Arial, Helvetica, sans-serif" data-font-key="editorial" font-weight="700" font-style="normal" textLength="103.00" lengthAdjust="spacingAndGlyphs">METR: TWO</text><rect x="720.12" y="53.04" width="414.96" height="142.454" fill="none" stroke="#5E737B" stroke-width="3"/><text x="728.12" y="77.04" fill="#5E737B" font-family="sans-serif" font-size="20">card</text><text x="927.6" y="222.128" text-anchor="middle" fill="#E7E0D0" font-size="18" font-family="Arial, Helvetica, sans-serif" data-font-key="editorial" font-weight="700" font-style="normal" textLength="177.03" lengthAdjust="spacingAndGlyphs">OPENAI: FOURTEEN</text><rect x="272.4" y="371.12" width="655.2" height="82.4736" fill="none" stroke="#5E737B" stroke-width="3"/><text x="280.4" y="395.12" fill="#5E737B" font-family="sans-serif" font-size="20">line</text><text x="600" y="476.592" text-anchor="middle" fill="#E7E0D0" font-size="18" font-family="Arial, Helvetica, sans-serif" data-font-key="editorial" font-weight="700" font-style="normal" textLength="167.02" lengthAdjust="spacingAndGlyphs">WORKING ACCESS</text><rect x="337.92" y="524.48" width="524.16" height="48.7344" fill="none" stroke="#A17D45" stroke-width="3"/><text x="345.92" y="548.48" fill="#A17D45" font-family="sans-serif" font-size="20">broken-trace</text><text x="600" y="591.668" text-anchor="middle" fill="#E7E0D0" font-size="15.5" font-family="Arial, Helvetica, sans-serif" data-font-key="editorial" font-weight="700" font-style="normal" textLength="183.41" lengthAdjust="spacingAndGlyphs">COUNT UNRECONCILED</text><rect x="3" y="3" width="1194" height="794" fill="none" stroke="#5E737B" stroke-width="4"/></svg>

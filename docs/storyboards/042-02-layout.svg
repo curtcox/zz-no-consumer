@@ -63,6 +63,7 @@
         ],
         &quot;color&quot;: &quot;steel&quot;,
         &quot;focus&quot;: true,
+        &quot;font&quot;: &quot;editorial&quot;,
         &quot;label&quot;: &quot;03:32&quot;,
         &quot;label_box&quot;: [
           0.07799999999999999,
@@ -81,6 +82,7 @@
         ],
         &quot;color&quot;: &quot;steel&quot;,
         &quot;focus&quot;: true,
+        &quot;font&quot;: &quot;editorial&quot;,
         &quot;label&quot;: &quot;SUBMISSION&quot;,
         &quot;label_box&quot;: [
           0.354,
@@ -99,6 +101,7 @@
         ],
         &quot;color&quot;: &quot;steel&quot;,
         &quot;focus&quot;: true,
+        &quot;font&quot;: &quot;editorial&quot;,
         &quot;label&quot;: &quot;04:01&quot;,
         &quot;label_box&quot;: [
           0.63,
@@ -110,8 +113,8 @@
     ],
     &quot;reconstructed&quot;: false,
     &quot;shot&quot;: &quot;timeline&quot;,
-    &quot;source&quot;: &quot;\n**Location:** `modal-customer-workload`\n\n**Frame:** Narrow panel, almost entirely clock face. `03:32` on the left edge, `04:01` on the right. Twenty-nine minutes of empty rule between them. A generic submission card crosses the gap; its contents are fully abstracted.\n\n**Action:** Hugging Face&#x27;s forensic reconstruction recovers its earliest command execution inside the sandbox.\n\n**Screen / system text:**\n`HUGGING FACE — EARLIEST RECOVERED EXECUTION — 07-09 04:01 UTC`\n\n**Provenance:** `documented` — `HF-TL`: the first recovered RCE and the phase table&#x27;s `rce` first-seen value. The submission itself is non-operational.\n\n&quot;,
+    &quot;source&quot;: &quot;\n**Location:** `modal-customer-workload`\n\n**Frame:** Narrow panel, almost entirely clock face. `03:32` on the left edge, `04:01` on the right. Twenty-nine minutes of empty rule between them. A generic submission card crosses the gap; its contents are fully abstracted.\n\n**Action:** Hugging Face&#x27;s forensic reconstruction recovers its earliest command execution inside the sandbox.\n\n**Font:** `editorial`\n\n**Screen / system text:**\n`HUGGING FACE — EARLIEST RECOVERED EXECUTION — 07-09 04:01 UTC`\n\n**Provenance:** `documented` — `HF-TL`: the first recovered RCE and the phase table&#x27;s `rce` first-seen value. The submission itself is non-operational.\n\n&quot;,
     &quot;title&quot;: &quot;Twenty-nine minutes between two reported markers&quot;
   }
 }
-</metadata><rect width="1200" height="800" fill="#101214"/><rect x="24" y="16" width="1152" height="768" fill="none" stroke="#5E737B" stroke-width="3"/><text x="32" y="40" fill="#5E737B" font-family="sans-serif" font-size="20">location-background-modal-customer-workload</text><rect x="92.16" y="292" width="1015.68" height="12.8" fill="none" stroke="#5E737B" stroke-width="3"/><text x="100.16" y="316" fill="#5E737B" font-family="sans-serif" font-size="20">line</text><rect x="177.52" y="143.52" width="112.64" height="112.64" fill="none" stroke="#5E737B" stroke-width="3"/><text x="185.52" y="167.52" fill="#5E737B" font-family="sans-serif" font-size="20">clock</text><text x="233.84" y="278.96" text-anchor="middle" fill="#E7E0D0" font-size="18" font-family="sans-serif">03:32</text><rect x="434.4" y="143.52" width="261.28" height="112.64" fill="none" stroke="#5E737B" stroke-width="3"/><text x="442.4" y="167.52" fill="#5E737B" font-family="sans-serif" font-size="20">sealed</text><text x="565.04" y="278.96" text-anchor="middle" fill="#E7E0D0" font-size="18" font-family="sans-serif">SUBMISSION</text><rect x="839.92" y="143.52" width="112.64" height="112.64" fill="none" stroke="#5E737B" stroke-width="3"/><text x="847.92" y="167.52" fill="#5E737B" font-family="sans-serif" font-size="20">clock</text><text x="896.24" y="278.96" text-anchor="middle" fill="#E7E0D0" font-size="18" font-family="sans-serif">04:01</text><rect x="3" y="3" width="1194" height="794" fill="none" stroke="#5E737B" stroke-width="4"/></svg>
+</metadata><rect width="1200" height="800" fill="#101214"/><rect x="24" y="16" width="1152" height="768" fill="none" stroke="#5E737B" stroke-width="3"/><text x="32" y="40" fill="#5E737B" font-family="sans-serif" font-size="20">location-background-modal-customer-workload</text><rect x="92.16" y="292" width="1015.68" height="12.8" fill="none" stroke="#5E737B" stroke-width="3"/><text x="100.16" y="316" fill="#5E737B" font-family="sans-serif" font-size="20">line</text><rect x="177.52" y="143.52" width="112.64" height="112.64" fill="none" stroke="#5E737B" stroke-width="3"/><text x="185.52" y="167.52" fill="#5E737B" font-family="sans-serif" font-size="20">clock</text><text x="233.84" y="278.96" text-anchor="middle" fill="#E7E0D0" font-size="18" font-family="Arial, Helvetica, sans-serif" data-font-key="editorial" font-weight="700" font-style="normal" textLength="45.04" lengthAdjust="spacingAndGlyphs">03:32</text><rect x="434.4" y="143.52" width="261.28" height="112.64" fill="none" stroke="#5E737B" stroke-width="3"/><text x="442.4" y="167.52" fill="#5E737B" font-family="sans-serif" font-size="20">sealed</text><text x="565.04" y="278.96" text-anchor="middle" fill="#E7E0D0" font-size="18" font-family="Arial, Helvetica, sans-serif" data-font-key="editorial" font-weight="700" font-style="normal" textLength="113.02" lengthAdjust="spacingAndGlyphs">SUBMISSION</text><rect x="839.92" y="143.52" width="112.64" height="112.64" fill="none" stroke="#5E737B" stroke-width="3"/><text x="847.92" y="167.52" fill="#5E737B" font-family="sans-serif" font-size="20">clock</text><text x="896.24" y="278.96" text-anchor="middle" fill="#E7E0D0" font-size="18" font-family="Arial, Helvetica, sans-serif" data-font-key="editorial" font-weight="700" font-style="normal" textLength="45.04" lengthAdjust="spacingAndGlyphs">04:01</text><rect x="3" y="3" width="1194" height="794" fill="none" stroke="#5E737B" stroke-width="4"/></svg>

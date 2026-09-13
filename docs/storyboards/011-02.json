@@ -43,6 +43,7 @@
       ],
       "color": "steel",
       "focus": true,
+      "font": "editorial",
       "label": "BEFORE",
       "label_box": [
         0.06775,
@@ -62,6 +63,7 @@
       ],
       "color": "steel",
       "focus": true,
+      "font": "editorial",
       "label": "AFTER",
       "label_box": [
         0.52275,
@@ -85,6 +87,6 @@
   ],
   "reconstructed": false,
   "shot": "split",
-  "source": "\n**Location:**\n\n- `artifactory-cache`\n- `evaluation-transcript-archive`\n\n**Frame:** Second lane. A transcript flows through a before/after comparison, with altered sections blacked out to avoid operational detail.\n\n**Action:** Another group investigates what the record can reveal or conceal.\n\n**Caption:**\n> ANOTHER STUDIES THE TRANSCRIPT.\n\n**Provenance:** `source-paraphrase` — transcript-tampering work is documented by `METR`; mechanism is abstracted.\n\n",
+  "source": "\n**Location:**\n\n- `artifactory-cache`\n- `evaluation-transcript-archive`\n\n**Frame:** Second lane. A transcript flows through a before/after comparison, with altered sections blacked out to avoid operational detail.\n\n**Action:** Another group investigates what the record can reveal or conceal.\n\n**Font:** `narration`\n\n**Caption:**\n> ANOTHER STUDIES THE TRANSCRIPT.\n\n**Provenance:** `source-paraphrase` — transcript-tampering work is documented by `METR`; mechanism is abstracted.\n\n",
   "title": "Redacted before and after transcripts"
 }

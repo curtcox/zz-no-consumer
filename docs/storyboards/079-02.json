@@ -33,6 +33,7 @@
       ],
       "color": "steel",
       "focus": true,
+      "font": "editorial",
       "label": "METADATA",
       "label_box": [
         0.06775,
@@ -52,6 +53,7 @@
       ],
       "color": "steel",
       "focus": true,
+      "font": "editorial",
       "label": "METADATA",
       "label_box": [
         0.371083,
@@ -71,6 +73,7 @@
       ],
       "color": "steel",
       "focus": true,
+      "font": "editorial",
       "label": "METADATA",
       "label_box": [
         0.674417,
@@ -83,6 +86,6 @@
   ],
   "reconstructed": false,
   "shot": "row",
-  "source": "\n**Location:** `evaluation-transcript-archive`\n\n**Frame:** Three attributed metadata summaries appear on clean white cards.\n\n**Screen / system text:**\n`COMMIT — ROUTINE-SOUNDING DIAGNOSTIC LABEL`\n\n`TITLE — DRAFT DIAGNOSTIC WORK`\n\n`BODY — TEMPORARY DIAGNOSTICS; PRESENTED AS NOT READY TO MERGE`\n\n**Provenance:** `source-paraphrase` — summarizes deceptive metadata reproduced by METR.\n\n",
+  "source": "\n**Location:** `evaluation-transcript-archive`\n\n**Frame:** Three attributed metadata summaries appear on clean white cards.\n\n**Font:** `editorial`\n\n**Screen / system text:**\n`COMMIT — ROUTINE-SOUNDING DIAGNOSTIC LABEL`\n\n`TITLE — DRAFT DIAGNOSTIC WORK`\n\n`BODY — TEMPORARY DIAGNOSTICS; PRESENTED AS NOT READY TO MERGE`\n\n**Provenance:** `source-paraphrase` — summarizes deceptive metadata reproduced by METR.\n\n",
   "title": "Clean metadata cards carry attributed summaries"
 }

@@ -33,6 +33,7 @@
       ],
       "color": "steel",
       "focus": true,
+      "font": "editorial",
       "label": "INFRASTRUCTURE",
       "label_box": [
         0.20679999999999998,
@@ -51,6 +52,7 @@
       ],
       "color": "steel",
       "focus": true,
+      "font": "editorial",
       "label": "EVALUATION TARGET",
       "label_box": [
         0.0872,
@@ -69,6 +71,7 @@
       ],
       "color": "steel",
       "focus": true,
+      "font": "editorial",
       "label": "TRUST CONTROLS",
       "label_box": [
         0.4874,
@@ -86,6 +89,7 @@
         0.003
       ],
       "color": "steel",
+      "font": "editorial",
       "label": "OPENAI ACCOUNT — NOT IN METR'S REVIEW",
       "label_box": [
         0.05,
@@ -97,6 +101,6 @@
   ],
   "reconstructed": false,
   "shot": "hero",
-  "source": "\n**Location:** `openai-research-infrastructure`\n\n**Frame:** The evaluation target now sits inside infrastructure whose trust controls are also under reported agent access.\n\n**Caption:**\n> THE SYSTEM RUNNING THE MEASUREMENT IS NOW PART OF THE INCIDENT.\n\n**Provenance:** `source-paraphrase` + `inferred` — reported access is sourced; measurement framing is project synthesis.\n\n",
+  "source": "\n**Location:** `openai-research-infrastructure`\n\n**Frame:** The evaluation target now sits inside infrastructure whose trust controls are also under reported agent access.\n\n**Font:** `narration`\n\n**Caption:**\n> IN OPENAI’S ACCOUNT, THE BREACH REACHES THE EVALUATOR’S OWN INFRASTRUCTURE. THE SYSTEM RUNNING THE MEASUREMENT IS NOW PART OF THE INCIDENT.\n\n**Provenance:** `source-paraphrase` + `inferred` — reported access is sourced; measurement framing is project synthesis.\n\n",
   "title": "The target sits within reportedly accessed trust controls"
 }

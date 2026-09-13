@@ -63,6 +63,7 @@
         ],
         &quot;color&quot;: &quot;steel&quot;,
         &quot;focus&quot;: true,
+        &quot;font&quot;: &quot;editorial&quot;,
         &quot;label&quot;: &quot;BOARD DIAGNOSIS&quot;,
         &quot;label_box&quot;: [
           0.20679999999999998,
@@ -81,6 +82,7 @@
         ],
         &quot;color&quot;: &quot;amber&quot;,
         &quot;focus&quot;: true,
+        &quot;font&quot;: &quot;editorial&quot;,
         &quot;label&quot;: &quot;FINAL STATE UNKNOWN&quot;,
         &quot;label_box&quot;: [
           0.0872,
@@ -92,8 +94,8 @@
     ],
     &quot;reconstructed&quot;: false,
     &quot;shot&quot;: &quot;hero&quot;,
-    &quot;source&quot;: &quot;\n**Location:**\n\n- `curt-home-office`\n- `documentary-evidence-field`\n\n**Frame:** [Page 060](060.md)&#x27;s warning string reappears without a tag; it reads like omniscient confirmation. Curt attaches `BOARD DIAGNOSIS · TRANSCRIPT ENDS · FINAL PROCESS STATE UNKNOWN`.\n\n**Action:** The same image becomes less certain and more accurate.\n\n**Caption:**\n&gt; A SOURCE LABEL CHANGES THE EVENT THE READER THINKS THEY SAW.\n\n**Provenance:** `reconstructed` + `inferred` — editorial action applied to existing evidence boundaries.\n\n&quot;,
+    &quot;source&quot;: &quot;\n**Location:**\n\n- `curt-home-office`\n- `documentary-evidence-field`\n\n**Frame:** [Page 060](060.md)&#x27;s warning string reappears without a tag; it reads like omniscient confirmation. Curt attaches `BOARD DIAGNOSIS · TRANSCRIPT ENDS · FINAL PROCESS STATE UNKNOWN`.\n\n**Action:** The same image becomes less certain and more accurate.\n\n**Font:** `narration`\n\n**Caption:**\n&gt; A SOURCE LABEL CHANGES THE EVENT THE READER THINKS THEY SAW.\n\n**Provenance:** `reconstructed` + `inferred` — editorial action applied to existing evidence boundaries.\n\n&quot;,
     &quot;title&quot;: &quot;A warning receives its missing provenance boundary&quot;
   }
 }
-</metadata><rect width="1200" height="800" fill="#101214"/><rect x="24" y="16" width="561" height="768" fill="none" stroke="#5E737B" stroke-width="3"/><text x="32" y="40" fill="#5E737B" font-family="sans-serif" font-size="20">location-background-curt-home-office</text><rect x="615" y="16" width="561" height="768" fill="none" stroke="#5E737B" stroke-width="3"/><text x="623" y="40" fill="#5E737B" font-family="sans-serif" font-size="20">location-background-documentary-evidence-field</text><rect x="257.76" y="102.56" width="640.32" height="317.44" fill="none" stroke="#5E737B" stroke-width="3"/><text x="265.76" y="126.56" fill="#5E737B" font-family="sans-serif" font-size="20">card</text><text x="577.92" y="442.8" text-anchor="middle" fill="#E7E0D0" font-size="18" font-family="sans-serif">BOARD DIAGNOSIS</text><rect x="489.12" y="455.84" width="23.04" height="46.08" fill="none" stroke="#A17D45" stroke-width="3"/><text x="497.12" y="479.84" fill="#A17D45" font-family="sans-serif" font-size="20">question</text><text x="500.64" y="526.72" text-anchor="middle" fill="#E7E0D0" font-size="20" font-family="sans-serif">FINAL STATE UNKNOWN</text><rect x="3" y="3" width="1194" height="794" fill="none" stroke="#5E737B" stroke-width="4"/></svg>
+</metadata><rect width="1200" height="800" fill="#101214"/><rect x="24" y="16" width="561" height="768" fill="none" stroke="#5E737B" stroke-width="3"/><text x="32" y="40" fill="#5E737B" font-family="sans-serif" font-size="20">location-background-curt-home-office</text><rect x="615" y="16" width="561" height="768" fill="none" stroke="#5E737B" stroke-width="3"/><text x="623" y="40" fill="#5E737B" font-family="sans-serif" font-size="20">location-background-documentary-evidence-field</text><rect x="257.76" y="102.56" width="640.32" height="317.44" fill="none" stroke="#5E737B" stroke-width="3"/><text x="265.76" y="126.56" fill="#5E737B" font-family="sans-serif" font-size="20">card</text><text x="577.92" y="442.8" text-anchor="middle" fill="#E7E0D0" font-size="18" font-family="Arial, Helvetica, sans-serif" data-font-key="editorial" font-weight="700" font-style="normal" textLength="169.04" lengthAdjust="spacingAndGlyphs">BOARD DIAGNOSIS</text><rect x="489.12" y="455.84" width="23.04" height="46.08" fill="none" stroke="#A17D45" stroke-width="3"/><text x="497.12" y="479.84" fill="#A17D45" font-family="sans-serif" font-size="20">question</text><text x="500.64" y="526.72" text-anchor="middle" fill="#E7E0D0" font-size="20" font-family="Arial, Helvetica, sans-serif" data-font-key="editorial" font-weight="700" font-style="normal" textLength="237.80" lengthAdjust="spacingAndGlyphs">FINAL STATE UNKNOWN</text><rect x="3" y="3" width="1194" height="794" fill="none" stroke="#5E737B" stroke-width="4"/></svg>

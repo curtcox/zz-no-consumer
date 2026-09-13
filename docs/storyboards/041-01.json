@@ -53,6 +53,7 @@
       ],
       "color": "steel",
       "focus": true,
+      "font": "editorial",
       "label": "PUBLIC SERVICE ACCESS",
       "label_box": [
         0.06775,
@@ -72,6 +73,7 @@
       ],
       "color": "steel",
       "focus": true,
+      "font": "editorial",
       "label": "GATED DATA REQUEST",
       "label_box": [
         0.52275,
@@ -95,6 +97,6 @@
   ],
   "reconstructed": false,
   "shot": "split",
-  "source": "\n**Location:**\n\n- `artifactory-cache`\n- `evaluation-container`\n- `public-internet`\n\n**Frame:** Recto chapter reveal. The page splits vertically and stays split. A single hard rule runs from top to bottom. Neither column crosses it.\n\n**Screen / system text:**\n`9 JULY 2026 — TWO THINGS ARE HAPPENING`\n\n**Provenance:** `reconstructed` — the split composition is editorial; the parallelism is the documented chronology.\n\n",
+  "source": "\n**Location:**\n\n- `artifactory-cache`\n- `evaluation-container`\n- `public-internet`\n\n**Frame:** Recto chapter reveal. The page splits vertically and stays split. A single hard rule runs from top to bottom. Neither column crosses it.\n\n**Font:** `editorial`\n\n**Screen / system text:**\n`9 JULY 2026 — TWO THINGS ARE HAPPENING`\n\n**Provenance:** `reconstructed` — the split composition is editorial; the parallelism is the documented chronology.\n\n",
   "title": "Two histories remain separate columns"
 }

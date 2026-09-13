@@ -53,6 +53,7 @@
         ],
         &quot;color&quot;: &quot;steel&quot;,
         &quot;focus&quot;: true,
+        &quot;font&quot;: &quot;editorial&quot;,
         &quot;label&quot;: &quot;DOCUMENTED EVENTS&quot;,
         &quot;label_box&quot;: [
           0.06775,
@@ -72,6 +73,7 @@
         ],
         &quot;color&quot;: &quot;steel&quot;,
         &quot;focus&quot;: true,
+        &quot;font&quot;: &quot;editorial&quot;,
         &quot;label&quot;: &quot;ORGANIZATION CLAIM&quot;,
         &quot;label_box&quot;: [
           0.29525,
@@ -91,6 +93,7 @@
         ],
         &quot;color&quot;: &quot;steel&quot;,
         &quot;focus&quot;: true,
+        &quot;font&quot;: &quot;editorial&quot;,
         &quot;label&quot;: &quot;INDEPENDENT CHECK&quot;,
         &quot;label_box&quot;: [
           0.52275,
@@ -110,6 +113,7 @@
         ],
         &quot;color&quot;: &quot;steel&quot;,
         &quot;focus&quot;: true,
+        &quot;font&quot;: &quot;editorial&quot;,
         &quot;label&quot;: &quot;OPEN QUESTIONS&quot;,
         &quot;label_box&quot;: [
           0.75025,
@@ -122,8 +126,8 @@
     ],
     &quot;reconstructed&quot;: false,
     &quot;shot&quot;: &quot;row&quot;,
-    &quot;source&quot;: &quot;\n**Location:** `composite-accountability-forum`\n\n**Frame:** The four columns again. `DOCUMENTED EVENT` holds the stack entered on [page 099](099.md). `ORGANIZATION CLAIM` and `INDEPENDENT CHECK` are still empty. `OPEN QUESTION` holds panel 3&#x27;s four rows folded to one line, and the column is drawn with room for more.\n\n**Caption:**\n&gt; THE BOOK HAS A PAGE FOR THE FACT THAT NO RUN ALERTED A HUMAN.\n&gt;\n&gt; THIS IS THE FIRST PAGE THAT ASKS WHAT A HUMAN COULD HAVE SAID BACK.\n\n**Provenance:** `inferred` — the page&#x27;s finding, and the book&#x27;s admission about its own shape.\n\n&quot;,
+    &quot;source&quot;: &quot;\n**Location:** `composite-accountability-forum`\n\n**Frame:** The four columns again. `DOCUMENTED EVENT` holds the stack entered on [page 099](099.md). `ORGANIZATION CLAIM` and `INDEPENDENT CHECK` are still empty. `OPEN QUESTION` holds panel 3&#x27;s four rows folded to one line, and the column is drawn with room for more.\n\n**Font:** `narration`\n\n**Caption:**\n&gt; THE BOOK HAS A PAGE FOR THE FACT THAT NO RUN ALERTED A HUMAN.\n&gt;\n&gt; THIS IS THE FIRST PAGE THAT ASKS WHAT A HUMAN COULD HAVE SAID BACK.\n\n**Provenance:** `inferred` — the page&#x27;s finding, and the book&#x27;s admission about its own shape.\n\n&quot;,
     &quot;title&quot;: &quot;The forum columns retain their different contents&quot;
   }
 }
-</metadata><rect width="1200" height="800" fill="#101214"/><rect x="24" y="16" width="1152" height="768" fill="none" stroke="#5E737B" stroke-width="3"/><text x="32" y="40" fill="#5E737B" font-family="sans-serif" font-size="20">location-background-composite-accountability-forum</text><rect x="81.3" y="160.96" width="196.56" height="221.179" fill="none" stroke="#5E737B" stroke-width="3"/><text x="89.3" y="184.96" fill="#5E737B" font-family="sans-serif" font-size="20">folder</text><text x="179.58" y="413.544" text-anchor="middle" fill="#E7E0D0" font-size="18" font-family="sans-serif">DOCUMENTED</text><text x="179.58" y="438.024" text-anchor="middle" fill="#E7E0D0" font-size="18" font-family="sans-serif">EVENTS</text><rect x="354.3" y="160.96" width="196.56" height="221.179" fill="none" stroke="#5E737B" stroke-width="3"/><text x="362.3" y="184.96" fill="#5E737B" font-family="sans-serif" font-size="20">outline-box</text><text x="452.58" y="413.544" text-anchor="middle" fill="#E7E0D0" font-size="18" font-family="sans-serif">ORGANIZATION</text><text x="452.58" y="438.024" text-anchor="middle" fill="#E7E0D0" font-size="18" font-family="sans-serif">CLAIM</text><rect x="627.3" y="160.96" width="196.56" height="221.179" fill="none" stroke="#5E737B" stroke-width="3"/><text x="635.3" y="184.96" fill="#5E737B" font-family="sans-serif" font-size="20">outline-box</text><text x="725.58" y="413.544" text-anchor="middle" fill="#E7E0D0" font-size="18" font-family="sans-serif">INDEPENDENT</text><text x="725.58" y="438.024" text-anchor="middle" fill="#E7E0D0" font-size="18" font-family="sans-serif">CHECK</text><rect x="900.3" y="160.96" width="196.56" height="221.179" fill="none" stroke="#5E737B" stroke-width="3"/><text x="908.3" y="184.96" fill="#5E737B" font-family="sans-serif" font-size="20">card</text><text x="998.58" y="413.544" text-anchor="middle" fill="#E7E0D0" font-size="18" font-family="sans-serif">OPEN QUESTIONS</text><rect x="3" y="3" width="1194" height="794" fill="none" stroke="#5E737B" stroke-width="4"/></svg>
+</metadata><rect width="1200" height="800" fill="#101214"/><rect x="24" y="16" width="1152" height="768" fill="none" stroke="#5E737B" stroke-width="3"/><text x="32" y="40" fill="#5E737B" font-family="sans-serif" font-size="20">location-background-composite-accountability-forum</text><rect x="81.3" y="160.96" width="196.56" height="221.179" fill="none" stroke="#5E737B" stroke-width="3"/><text x="89.3" y="184.96" fill="#5E737B" font-family="sans-serif" font-size="20">folder</text><text x="179.58" y="413.544" text-anchor="middle" fill="#E7E0D0" font-size="18" font-family="Arial, Helvetica, sans-serif" data-font-key="editorial" font-weight="700" font-style="normal" textLength="128.99" lengthAdjust="spacingAndGlyphs">DOCUMENTED</text><text x="179.58" y="438.024" text-anchor="middle" fill="#E7E0D0" font-size="18" font-family="Arial, Helvetica, sans-serif" data-font-key="editorial" font-weight="700" font-style="normal" textLength="72.02" lengthAdjust="spacingAndGlyphs">EVENTS</text><rect x="354.3" y="160.96" width="196.56" height="221.179" fill="none" stroke="#5E737B" stroke-width="3"/><text x="362.3" y="184.96" fill="#5E737B" font-family="sans-serif" font-size="20">outline-box</text><text x="452.58" y="413.544" text-anchor="middle" fill="#E7E0D0" font-size="18" font-family="Arial, Helvetica, sans-serif" data-font-key="editorial" font-weight="700" font-style="normal" textLength="137.02" lengthAdjust="spacingAndGlyphs">ORGANIZATION</text><text x="452.58" y="438.024" text-anchor="middle" fill="#E7E0D0" font-size="18" font-family="Arial, Helvetica, sans-serif" data-font-key="editorial" font-weight="700" font-style="normal" textLength="55.01" lengthAdjust="spacingAndGlyphs">CLAIM</text><rect x="627.3" y="160.96" width="196.56" height="221.179" fill="none" stroke="#5E737B" stroke-width="3"/><text x="635.3" y="184.96" fill="#5E737B" font-family="sans-serif" font-size="20">outline-box</text><text x="725.58" y="413.544" text-anchor="middle" fill="#E7E0D0" font-size="18" font-family="Arial, Helvetica, sans-serif" data-font-key="editorial" font-weight="700" font-style="normal" textLength="129.01" lengthAdjust="spacingAndGlyphs">INDEPENDENT</text><text x="725.58" y="438.024" text-anchor="middle" fill="#E7E0D0" font-size="18" font-family="Arial, Helvetica, sans-serif" data-font-key="editorial" font-weight="700" font-style="normal" textLength="63.00" lengthAdjust="spacingAndGlyphs">CHECK</text><rect x="900.3" y="160.96" width="196.56" height="221.179" fill="none" stroke="#5E737B" stroke-width="3"/><text x="908.3" y="184.96" fill="#5E737B" font-family="sans-serif" font-size="20">card</text><text x="998.58" y="413.544" text-anchor="middle" fill="#E7E0D0" font-size="18" font-family="Arial, Helvetica, sans-serif" data-font-key="editorial" font-weight="700" font-style="normal" textLength="162.04" lengthAdjust="spacingAndGlyphs">OPEN QUESTIONS</text><rect x="3" y="3" width="1194" height="794" fill="none" stroke="#5E737B" stroke-width="4"/></svg>

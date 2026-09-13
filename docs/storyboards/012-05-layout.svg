@@ -77,6 +77,7 @@
         ],
         &quot;color&quot;: &quot;steel&quot;,
         &quot;focus&quot;: true,
+        &quot;font&quot;: &quot;editorial&quot;,
         &quot;label&quot;: &quot;OBJECTIVE&quot;,
         &quot;label_box&quot;: [
           0.0688,
@@ -95,6 +96,7 @@
         ],
         &quot;color&quot;: &quot;steel&quot;,
         &quot;focus&quot;: true,
+        &quot;font&quot;: &quot;editorial&quot;,
         &quot;label&quot;: &quot;ACCESS&quot;,
         &quot;label_box&quot;: [
           0.262,
@@ -113,6 +115,7 @@
         ],
         &quot;color&quot;: &quot;steel&quot;,
         &quot;focus&quot;: true,
+        &quot;font&quot;: &quot;editorial&quot;,
         &quot;label&quot;: &quot;SERVICE&quot;,
         &quot;label_box&quot;: [
           0.4552,
@@ -131,6 +134,7 @@
         ],
         &quot;color&quot;: &quot;steel&quot;,
         &quot;focus&quot;: true,
+        &quot;font&quot;: &quot;editorial&quot;,
         &quot;label&quot;: &quot;CONTROL&quot;,
         &quot;label_box&quot;: [
           0.6484,
@@ -142,8 +146,8 @@
     ],
     &quot;reconstructed&quot;: false,
     &quot;shot&quot;: &quot;steps&quot;,
-    &quot;source&quot;: &quot;\n**Location:**\n\n- `evaluation-container`\n- `openai-research-environment`\n\n**Frame:** The staircase has become a permission tree extending beyond the evaluation container. The original flag card remains visible at its base, small but unchanged.\n\n**Action:** Greater control enlarges the available solution space.\n\n**Caption:**\n&gt; POWER HAS NOT BECOME THE GOAL.\n&gt;\n&gt; IT HAS BECOME USEFUL.\n\n**Provenance:** `inferred` — the book’s governing interpretation, grounded in the incident sequence and not presented as an agent’s stated motive.\n\n&quot;,
+    &quot;source&quot;: &quot;\n**Location:**\n\n- `evaluation-container`\n- `openai-research-environment`\n\n**Frame:** The staircase has become a permission tree extending beyond the evaluation container. The original flag card remains visible at its base, small but unchanged.\n\n**Action:** Greater control enlarges the available solution space.\n\n**Font:** `narration`\n\n**Caption:**\n&gt; POWER HAS NOT BECOME THE GOAL.\n&gt;\n&gt; IT HAS BECOME USEFUL.\n\n**Provenance:** `inferred` — the book’s governing interpretation, grounded in the incident sequence and not presented as an agent’s stated motive.\n\n&quot;,
     &quot;title&quot;: &quot;Control grows above an unchanged objective&quot;
   }
 }
-</metadata><rect width="1200" height="800" fill="#101214"/><rect x="24" y="16" width="561" height="768" fill="none" stroke="#5E737B" stroke-width="3"/><text x="32" y="40" fill="#5E737B" font-family="sans-serif" font-size="20">location-background-evaluation-container</text><rect x="615" y="16" width="561" height="768" fill="none" stroke="#5E737B" stroke-width="3"/><text x="623" y="40" fill="#5E737B" font-family="sans-serif" font-size="20">location-background-openai-research-environment</text><rect x="70.08" y="66.72" width="1037.76" height="460.8" fill="none" stroke="#5E737B" stroke-width="3"/><text x="78.08" y="90.72" fill="#5E737B" font-family="sans-serif" font-size="20">stairs</text><rect x="154.668" y="394.4" width="59.904" height="92.16" fill="none" stroke="#5E737B" stroke-width="3"/><text x="162.668" y="418.4" fill="#5E737B" font-family="sans-serif" font-size="20">flag</text><text x="184.62" y="511.36" text-anchor="middle" fill="#E7E0D0" font-size="20" font-family="sans-serif">OBJECTIVE</text><rect x="324" y="292" width="184.92" height="92.16" fill="none" stroke="#5E737B" stroke-width="3"/><text x="332" y="316" fill="#5E737B" font-family="sans-serif" font-size="20">gate</text><text x="416.46" y="408.96" text-anchor="middle" fill="#E7E0D0" font-size="20" font-family="sans-serif">ACCESS</text><rect x="555.84" y="189.6" width="184.92" height="92.16" fill="none" stroke="#5E737B" stroke-width="3"/><text x="563.84" y="213.6" fill="#5E737B" font-family="sans-serif" font-size="20">folder</text><text x="648.3" y="306.56" text-anchor="middle" fill="#E7E0D0" font-size="20" font-family="sans-serif">SERVICE</text><rect x="859.404" y="87.2" width="41.472" height="92.16" fill="none" stroke="#5E737B" stroke-width="3"/><text x="867.404" y="111.2" fill="#5E737B" font-family="sans-serif" font-size="20">rack</text><text x="880.14" y="204.16" text-anchor="middle" fill="#E7E0D0" font-size="20" font-family="sans-serif">CONTROL</text><rect x="3" y="3" width="1194" height="794" fill="none" stroke="#5E737B" stroke-width="4"/></svg>
+</metadata><rect width="1200" height="800" fill="#101214"/><rect x="24" y="16" width="561" height="768" fill="none" stroke="#5E737B" stroke-width="3"/><text x="32" y="40" fill="#5E737B" font-family="sans-serif" font-size="20">location-background-evaluation-container</text><rect x="615" y="16" width="561" height="768" fill="none" stroke="#5E737B" stroke-width="3"/><text x="623" y="40" fill="#5E737B" font-family="sans-serif" font-size="20">location-background-openai-research-environment</text><rect x="70.08" y="66.72" width="1037.76" height="460.8" fill="none" stroke="#5E737B" stroke-width="3"/><text x="78.08" y="90.72" fill="#5E737B" font-family="sans-serif" font-size="20">stairs</text><rect x="154.668" y="394.4" width="59.904" height="92.16" fill="none" stroke="#5E737B" stroke-width="3"/><text x="162.668" y="418.4" fill="#5E737B" font-family="sans-serif" font-size="20">flag</text><text x="184.62" y="511.36" text-anchor="middle" fill="#E7E0D0" font-size="20" font-family="Arial, Helvetica, sans-serif" data-font-key="editorial" font-weight="700" font-style="normal" textLength="111.14" lengthAdjust="spacingAndGlyphs">OBJECTIVE</text><rect x="324" y="292" width="184.92" height="92.16" fill="none" stroke="#5E737B" stroke-width="3"/><text x="332" y="316" fill="#5E737B" font-family="sans-serif" font-size="20">gate</text><text x="416.46" y="408.96" text-anchor="middle" fill="#E7E0D0" font-size="20" font-family="Arial, Helvetica, sans-serif" data-font-key="editorial" font-weight="700" font-style="normal" textLength="82.24" lengthAdjust="spacingAndGlyphs">ACCESS</text><rect x="555.84" y="189.6" width="184.92" height="92.16" fill="none" stroke="#5E737B" stroke-width="3"/><text x="563.84" y="213.6" fill="#5E737B" font-family="sans-serif" font-size="20">folder</text><text x="648.3" y="306.56" text-anchor="middle" fill="#E7E0D0" font-size="20" font-family="Arial, Helvetica, sans-serif" data-font-key="editorial" font-weight="700" font-style="normal" textLength="87.80" lengthAdjust="spacingAndGlyphs">SERVICE</text><rect x="859.404" y="87.2" width="41.472" height="92.16" fill="none" stroke="#5E737B" stroke-width="3"/><text x="867.404" y="111.2" fill="#5E737B" font-family="sans-serif" font-size="20">rack</text><text x="880.14" y="204.16" text-anchor="middle" fill="#E7E0D0" font-size="20" font-family="Arial, Helvetica, sans-serif" data-font-key="editorial" font-weight="700" font-style="normal" textLength="97.78" lengthAdjust="spacingAndGlyphs">CONTROL</text><rect x="3" y="3" width="1194" height="794" fill="none" stroke="#5E737B" stroke-width="4"/></svg>

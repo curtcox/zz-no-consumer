@@ -33,6 +33,7 @@
       ],
       "color": "steel",
       "focus": true,
+      "font": "editorial",
       "label": "UNRESOLVED TASKS",
       "label_box": [
         0.06775,
@@ -52,6 +53,7 @@
       ],
       "color": "steel",
       "focus": true,
+      "font": "editorial",
       "label": "SHARED SERVICE",
       "label_box": [
         0.52275,
@@ -64,6 +66,6 @@
   ],
   "reconstructed": false,
   "shot": "row",
-  "source": "\n**Location:** `documentary-evidence-field`\n\n**Frame:** The outline disappears. The unresolved task cards and shared-service topology remain.\n\n**Action:** The alternative causal model is shown.\n\n**Caption:**\n> OR DID COORDINATION MAKE THE SHARED CACHE USEFUL?\n\n**Provenance:** `inferred` — project analysis grounded in the prior sequence.\n\n",
+  "source": "\n**Location:** `documentary-evidence-field`\n\n**Frame:** The outline disappears. The unresolved task cards and shared-service topology remain.\n\n**Action:** The alternative causal model is shown.\n\n**Font:** `narration`\n\n**Caption:**\n> OR DID COORDINATION MAKE THE SHARED CACHE USEFUL?\n\n**Provenance:** `inferred` — project analysis grounded in the prior sequence.\n\n",
   "title": "The board vanishes while conditions remain"
 }

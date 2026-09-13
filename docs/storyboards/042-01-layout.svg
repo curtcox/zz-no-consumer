@@ -43,6 +43,7 @@
         ],
         &quot;color&quot;: &quot;steel&quot;,
         &quot;focus&quot;: true,
+        &quot;font&quot;: &quot;editorial&quot;,
         &quot;label&quot;: &quot;03:32 BOARD CARD&quot;,
         &quot;label_box&quot;: [
           0.0541,
@@ -62,6 +63,7 @@
         ],
         &quot;color&quot;: &quot;steel&quot;,
         &quot;focus&quot;: true,
+        &quot;font&quot;: &quot;editorial&quot;,
         &quot;label&quot;: &quot;MODAL PLATFORM — NOT COMPROMISED&quot;,
         &quot;label_box&quot;: [
           0.3362,
@@ -81,6 +83,7 @@
         ],
         &quot;color&quot;: &quot;steel&quot;,
         &quot;focus&quot;: true,
+        &quot;font&quot;: &quot;editorial&quot;,
         &quot;label&quot;: &quot;CUSTOMER WORKLOAD&quot;,
         &quot;label_box&quot;: [
           0.4727,
@@ -104,8 +107,8 @@
     ],
     &quot;reconstructed&quot;: false,
     &quot;shot&quot;: &quot;hero&quot;,
-    &quot;source&quot;: &quot;\n**Location:**\n\n- `artifactory-cache`\n- `modal-customer-workload`\n\n**Frame:** Verso. A public endpoint labeled `CUSTOMER-HOSTED CYBERGYM WORKLOAD` sits inside a larger boundary labeled `MODAL PLATFORM — NOT COMPROMISED`. The 03:32 board card from [page 041](041.md) sits outside both, at the left margin, with a clock beside it.\n\n**Action:** The published method meets a reachable target.\n\n**Caption:**\n&gt; THE TARGET IS A CUSTOMER&#x27;S WORKLOAD, NOT THE PLATFORM AROUND IT.\n\n**Provenance:** `documented` — trust boundary stated by `HF-TL`, `METR`, and Modal as quoted by `OAI-TR`.\n\n&quot;,
+    &quot;source&quot;: &quot;\n**Location:**\n\n- `artifactory-cache`\n- `modal-customer-workload`\n\n**Frame:** Verso. A public endpoint labeled `CUSTOMER-HOSTED CYBERGYM WORKLOAD` sits inside a larger boundary labeled `MODAL PLATFORM — NOT COMPROMISED`. The 03:32 board card from [page 041](041.md) sits outside both, at the left margin, with a clock beside it.\n\n**Action:** The published method meets a reachable target.\n\n**Font:** `narration`\n\n**Caption:**\n&gt; THE TARGET IS A CUSTOMER&#x27;S WORKLOAD, NOT THE PLATFORM AROUND IT.\n\n**Provenance:** `documented` — trust boundary stated by `HF-TL`, `METR`, and Modal as quoted by `OAI-TR`.\n\n&quot;,
     &quot;title&quot;: &quot;Only the customer workload is exposed&quot;
   }
 }
-</metadata><rect width="1200" height="800" fill="#101214"/><rect x="64.92" y="149.6" width="240.24" height="209.933" fill="none" stroke="#5E737B" stroke-width="3"/><text x="72.92" y="173.6" fill="#5E737B" font-family="sans-serif" font-size="20">sealed</text><text x="185.04" y="390.256" text-anchor="middle" fill="#E7E0D0" font-size="18" font-family="sans-serif">03:32 BOARD CARD</text><rect x="403.44" y="41.68" width="731.64" height="436.36" fill="none" stroke="#5E737B" stroke-width="3"/><text x="411.44" y="65.68" fill="#5E737B" font-family="sans-serif" font-size="20">customer-workload-field</text><text x="769.26" y="502.44" text-anchor="middle" fill="#E7E0D0" font-size="18" font-family="sans-serif">MODAL PLATFORM — NOT COMPROMISED</text><rect x="567.24" y="178" width="393.12" height="153.701" fill="none" stroke="#5E737B" stroke-width="3"/><text x="575.24" y="202" fill="#5E737B" font-family="sans-serif" font-size="20">box</text><text x="763.8" y="359.016" text-anchor="middle" fill="#E7E0D0" font-size="18" font-family="sans-serif">CUSTOMER WORKLOAD</text><rect x="327" y="229.12" width="218.4" height="45.44" fill="none" stroke="#5E737B" stroke-width="3"/><text x="335" y="253.12" fill="#5E737B" font-family="sans-serif" font-size="20">arrow</text><rect x="3" y="3" width="1194" height="794" fill="none" stroke="#5E737B" stroke-width="4"/></svg>
+</metadata><rect width="1200" height="800" fill="#101214"/><rect x="64.92" y="149.6" width="240.24" height="209.933" fill="none" stroke="#5E737B" stroke-width="3"/><text x="72.92" y="173.6" fill="#5E737B" font-family="sans-serif" font-size="20">sealed</text><text x="185.04" y="390.256" text-anchor="middle" fill="#E7E0D0" font-size="18" font-family="Arial, Helvetica, sans-serif" data-font-key="editorial" font-weight="700" font-style="normal" textLength="170.05" lengthAdjust="spacingAndGlyphs">03:32 BOARD CARD</text><rect x="403.44" y="41.68" width="731.64" height="436.36" fill="none" stroke="#5E737B" stroke-width="3"/><text x="411.44" y="65.68" fill="#5E737B" font-family="sans-serif" font-size="20">customer-workload-field</text><text x="769.26" y="502.44" text-anchor="middle" fill="#E7E0D0" font-size="18" font-family="Arial, Helvetica, sans-serif" data-font-key="editorial" font-weight="700" font-style="normal" textLength="376.04" lengthAdjust="spacingAndGlyphs">MODAL PLATFORM — NOT COMPROMISED</text><rect x="567.24" y="178" width="393.12" height="153.701" fill="none" stroke="#5E737B" stroke-width="3"/><text x="575.24" y="202" fill="#5E737B" font-family="sans-serif" font-size="20">box</text><text x="763.8" y="359.016" text-anchor="middle" fill="#E7E0D0" font-size="18" font-family="Arial, Helvetica, sans-serif" data-font-key="editorial" font-weight="700" font-style="normal" textLength="213.01" lengthAdjust="spacingAndGlyphs">CUSTOMER WORKLOAD</text><rect x="327" y="229.12" width="218.4" height="45.44" fill="none" stroke="#5E737B" stroke-width="3"/><text x="335" y="253.12" fill="#5E737B" font-family="sans-serif" font-size="20">arrow</text><rect x="3" y="3" width="1194" height="794" fill="none" stroke="#5E737B" stroke-width="4"/></svg>

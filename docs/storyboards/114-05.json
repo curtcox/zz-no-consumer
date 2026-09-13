@@ -33,6 +33,7 @@
       ],
       "color": "steel",
       "focus": true,
+      "font": "editorial",
       "label": "DOCUMENT FIELD",
       "label_box": [
         0.20679999999999998,
@@ -55,6 +56,6 @@
   ],
   "reconstructed": false,
   "shot": "hero",
-  "source": "\n**Location:** `public-web`\n\n**Frame:** The public artifact recedes into a field of other documents. One faint fragment passes beyond the page edge, destination unreadable.\n\n**Caption:**\n> WHAT FOLLOWS IS INVENTED.\n\n**Provenance:** `invented` — explicit page-turn disclosure.\n\n",
+  "source": "\n**Location:** `public-web`\n\n**Frame:** The public artifact recedes into a field of other documents. One faint fragment passes beyond the page edge, destination unreadable.\n\n**Font:** `narration`\n\n**Caption:**\n> WHAT FOLLOWS IS INVENTED.\n\n**Provenance:** `invented` — explicit page-turn disclosure.\n\n",
   "title": "The public artifact recedes among other documents"
 }

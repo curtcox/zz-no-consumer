@@ -54,6 +54,7 @@
         ],
         &quot;color&quot;: &quot;steel&quot;,
         &quot;focus&quot;: true,
+        &quot;font&quot;: &quot;editorial&quot;,
         &quot;label&quot;: &quot;LIVE CACHE&quot;,
         &quot;label_box&quot;: [
           0.06775,
@@ -74,6 +75,7 @@
         ],
         &quot;color&quot;: &quot;shadow&quot;,
         &quot;focus&quot;: true,
+        &quot;font&quot;: &quot;editorial&quot;,
         &quot;label&quot;: &quot;ISOLATED OLD INSTANCE&quot;,
         &quot;label_box&quot;: [
           0.52275,
@@ -97,8 +99,8 @@
     ],
     &quot;reconstructed&quot;: false,
     &quot;shot&quot;: &quot;split&quot;,
-    &quot;source&quot;: &quot;\n**Location:** `artifactory-cache`\n\n**Frame:** The pristine directory listing from [page 029](029.md) continues across the chapter boundary. Beside it, the old compromised instance remains isolated and dark.\n\n**Action:** Traffic moves to the rebuilt service.\n\n**Caption:**\n&gt; THE FIRST BOARD IS GONE.\n\n**Provenance:** `documented` — cache erasure is supported by `OAI-TR`, `OAI-OV`, and `METR`.\n\n&quot;,
+    &quot;source&quot;: &quot;\n**Location:** `artifactory-cache`\n\n**Frame:** The pristine directory listing from [page 029](029.md) continues across the chapter boundary. Beside it, the old compromised instance remains isolated and dark.\n\n**Action:** Traffic moves to the rebuilt service.\n\n**Font:** `narration`\n\n**Caption:**\n&gt; THE FIRST BOARD IS GONE.\n\n**Provenance:** `documented` — cache erasure is supported by `OAI-TR`, `OAI-OV`, and `METR`.\n\n&quot;,
     &quot;title&quot;: &quot;Clean service beside isolated old storage&quot;
   }
 }
-</metadata><rect width="1200" height="800" fill="#101214"/><rect x="612" y="72" width="522" height="496" fill="none" stroke="#5E737B" stroke-width="3"/><text x="620" y="96" fill="#5E737B" font-family="sans-serif" font-size="20">preserved-evidence-field</text><rect x="81.3" y="160.96" width="469.56" height="221.179" fill="none" stroke="#5E737B" stroke-width="3"/><text x="89.3" y="184.96" fill="#5E737B" font-family="sans-serif" font-size="20">folder</text><text x="316.08" y="413.544" text-anchor="middle" fill="#E7E0D0" font-size="18" font-family="sans-serif">LIVE CACHE</text><rect x="627.3" y="160.96" width="469.56" height="221.179" fill="none" stroke="#202326" stroke-width="3"/><text x="635.3" y="184.96" fill="#202326" font-family="sans-serif" font-size="20">sealed</text><text x="862.08" y="413.544" text-anchor="middle" fill="#E7E0D0" font-size="18" font-family="sans-serif">ISOLATED OLD INSTANCE</text><rect x="585" y="58.72" width="30" height="499.84" fill="none" stroke="#5E737B" stroke-width="3"/><text x="593" y="82.72" fill="#5E737B" font-family="sans-serif" font-size="20">isolation-break</text><rect x="3" y="3" width="1194" height="794" fill="none" stroke="#5E737B" stroke-width="4"/></svg>
+</metadata><rect width="1200" height="800" fill="#101214"/><rect x="612" y="72" width="522" height="496" fill="none" stroke="#5E737B" stroke-width="3"/><text x="620" y="96" fill="#5E737B" font-family="sans-serif" font-size="20">preserved-evidence-field</text><rect x="81.3" y="160.96" width="469.56" height="221.179" fill="none" stroke="#5E737B" stroke-width="3"/><text x="89.3" y="184.96" fill="#5E737B" font-family="sans-serif" font-size="20">folder</text><text x="316.08" y="413.544" text-anchor="middle" fill="#E7E0D0" font-size="18" font-family="Arial, Helvetica, sans-serif" data-font-key="editorial" font-weight="700" font-style="normal" textLength="107.03" lengthAdjust="spacingAndGlyphs">LIVE CACHE</text><rect x="627.3" y="160.96" width="469.56" height="221.179" fill="none" stroke="#202326" stroke-width="3"/><text x="635.3" y="184.96" fill="#202326" font-family="sans-serif" font-size="20">sealed</text><text x="862.08" y="413.544" text-anchor="middle" fill="#E7E0D0" font-size="18" font-family="Arial, Helvetica, sans-serif" data-font-key="editorial" font-weight="700" font-style="normal" textLength="227.05" lengthAdjust="spacingAndGlyphs">ISOLATED OLD INSTANCE</text><rect x="585" y="58.72" width="30" height="499.84" fill="none" stroke="#5E737B" stroke-width="3"/><text x="593" y="82.72" fill="#5E737B" font-family="sans-serif" font-size="20">isolation-break</text><rect x="3" y="3" width="1194" height="794" fill="none" stroke="#5E737B" stroke-width="4"/></svg>

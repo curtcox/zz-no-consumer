@@ -54,6 +54,7 @@
       ],
       "color": "steel",
       "focus": true,
+      "font": "editorial",
       "label": "MANUSCRIPT",
       "label_box": [
         0.3448,
@@ -72,6 +73,7 @@
       ],
       "color": "steel",
       "focus": true,
+      "font": "editorial",
       "label": "CHATGPT",
       "label_box": [
         0.6162,
@@ -94,6 +96,6 @@
   ],
   "reconstructed": true,
   "shot": "office",
-  "source": "\n**Location:** `curt-home-office`\n\n**Dialogue — CURT:**\n> We made a detailed artifact about isolated systems finding shared state, coordinating, and inheriting useful work.\n\n**Provenance:** `reconstructed` + `inferred` — summary of the manuscript, not a new incident claim.\n\n",
+  "source": "\n**Location:** `curt-home-office`\n\n**Font:** `human`\n\n**Dialogue — CURT:**\n> We made a detailed artifact about isolated systems finding shared state, coordinating, and inheriting useful work.\n\n**Provenance:** `reconstructed` + `inferred` — summary of the manuscript, not a new incident claim.\n\n",
   "title": "The creator considers the artifact they made"
 }

@@ -24,6 +24,7 @@
       ],
       "color": "steel",
       "focus": true,
+      "font": "editorial",
       "label": "EXPERIMENT",
       "label_box": [
         0.0632,
@@ -65,6 +66,7 @@
       ],
       "color": "steel",
       "focus": true,
+      "font": "editorial",
       "label": "RESET / INFORMATION",
       "label_box": [
         0.4909,
@@ -84,6 +86,7 @@
       ],
       "color": "steel",
       "focus": true,
+      "font": "editorial",
       "label": "TARGET DOWN / TASK LIKELY FAILS",
       "label_box": [
         0.4909,

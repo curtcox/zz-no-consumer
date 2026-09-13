@@ -55,6 +55,7 @@
         ],
         &quot;color&quot;: &quot;steel&quot;,
         &quot;focus&quot;: true,
+        &quot;font&quot;: &quot;editorial&quot;,
         &quot;label&quot;: &quot;CHUNKS&quot;,
         &quot;label_box&quot;: [
           0.0541,
@@ -85,6 +86,7 @@
         ],
         &quot;color&quot;: &quot;steel&quot;,
         &quot;focus&quot;: true,
+        &quot;font&quot;: &quot;editorial&quot;,
         &quot;label&quot;: &quot;ASSEMBLED FILES&quot;,
         &quot;label_box&quot;: [
           0.4454,
@@ -104,6 +106,7 @@
         ],
         &quot;color&quot;: &quot;steel&quot;,
         &quot;focus&quot;: true,
+        &quot;font&quot;: &quot;editorial&quot;,
         &quot;label&quot;: &quot;APPROXIMATE TIMES&quot;,
         &quot;label_box&quot;: [
           0.7275,
@@ -123,6 +126,7 @@
         ],
         &quot;color&quot;: &quot;steel&quot;,
         &quot;focus&quot;: true,
+        &quot;font&quot;: &quot;editorial&quot;,
         &quot;label&quot;: &quot;UNMATCHED MATERIAL&quot;,
         &quot;label_box&quot;: [
           0.1906,
@@ -135,8 +139,8 @@
     ],
     &quot;reconstructed&quot;: false,
     &quot;shot&quot;: &quot;row&quot;,
-    &quot;source&quot;: &quot;\n**Location:** `metr-review-workspace`\n\n**Frame:** Preprocessing joins chunks into files, traces messages to writers and readers, and reconstructs approximate action times. Unmatched material remains visibly unmatched.\n\n**Caption:**\n&gt; FIRST, THE RECORD MUST BE MADE QUERYABLE.\n\n**Provenance:** `documented` + `compressed` — METR&#x27;s reconstruction methods.\n\n&quot;,
+    &quot;source&quot;: &quot;\n**Location:** `metr-review-workspace`\n\n**Frame:** Preprocessing joins chunks into files, traces messages to writers and readers, and reconstructs approximate action times. Unmatched material remains visibly unmatched.\n\n**Font:** `narration`\n\n**Caption:**\n&gt; FIRST, THE RECORD MUST BE MADE SEARCHABLE, SO A QUESTION CAN LEAD TO PARTICULAR ENTRIES A PERSON CAN CHECK.\n\n**Provenance:** `documented` + `compressed` — METR&#x27;s reconstruction methods.\n\n&quot;,
     &quot;title&quot;: &quot;Preprocessing reconstructs records and leaves unmatched pieces&quot;
   }
 }
-</metadata><rect width="1200" height="800" fill="#101214"/><rect x="24" y="16" width="1152" height="768" fill="none" stroke="#5E737B" stroke-width="3"/><text x="32" y="40" fill="#5E737B" font-family="sans-serif" font-size="20">location-background-metr-review-workspace</text><rect x="64.92" y="104.16" width="251.16" height="179.942" fill="none" stroke="#5E737B" stroke-width="3"/><text x="72.92" y="128.16" fill="#5E737B" font-family="sans-serif" font-size="20">card</text><text x="190.5" y="313.008" text-anchor="middle" fill="#E7E0D0" font-size="18" font-family="sans-serif">CHUNKS</text><rect x="348.84" y="195.04" width="141.96" height="39.76" fill="none" stroke="#5E737B" stroke-width="3"/><text x="356.84" y="219.04" fill="#5E737B" font-family="sans-serif" font-size="20">arrow</text><rect x="534.48" y="104.16" width="251.16" height="179.942" fill="none" stroke="#5E737B" stroke-width="3"/><text x="542.48" y="128.16" fill="#5E737B" font-family="sans-serif" font-size="20">folder</text><text x="660.06" y="313.008" text-anchor="middle" fill="#E7E0D0" font-size="18" font-family="sans-serif">ASSEMBLED FILES</text><rect x="908.609" y="104.16" width="179.942" height="179.942" fill="none" stroke="#5E737B" stroke-width="3"/><text x="916.609" y="128.16" fill="#5E737B" font-family="sans-serif" font-size="20">clock</text><text x="998.58" y="313.008" text-anchor="middle" fill="#E7E0D0" font-size="18" font-family="sans-serif">APPROXIMATE TIMES</text><rect x="228.72" y="456.32" width="731.64" height="82.4736" fill="none" stroke="#5E737B" stroke-width="3"/><text x="236.72" y="480.32" fill="#5E737B" font-family="sans-serif" font-size="20">empty-slot</text><text x="594.54" y="561.792" text-anchor="middle" fill="#E7E0D0" font-size="18" font-family="sans-serif">UNMATCHED MATERIAL</text><rect x="3" y="3" width="1194" height="794" fill="none" stroke="#5E737B" stroke-width="4"/></svg>
+</metadata><rect width="1200" height="800" fill="#101214"/><rect x="24" y="16" width="1152" height="768" fill="none" stroke="#5E737B" stroke-width="3"/><text x="32" y="40" fill="#5E737B" font-family="sans-serif" font-size="20">location-background-metr-review-workspace</text><rect x="64.92" y="104.16" width="251.16" height="179.942" fill="none" stroke="#5E737B" stroke-width="3"/><text x="72.92" y="128.16" fill="#5E737B" font-family="sans-serif" font-size="20">card</text><text x="190.5" y="313.008" text-anchor="middle" fill="#E7E0D0" font-size="18" font-family="Arial, Helvetica, sans-serif" data-font-key="editorial" font-weight="700" font-style="normal" textLength="76.00" lengthAdjust="spacingAndGlyphs">CHUNKS</text><rect x="348.84" y="195.04" width="141.96" height="39.76" fill="none" stroke="#5E737B" stroke-width="3"/><text x="356.84" y="219.04" fill="#5E737B" font-family="sans-serif" font-size="20">arrow</text><rect x="534.48" y="104.16" width="251.16" height="179.942" fill="none" stroke="#5E737B" stroke-width="3"/><text x="542.48" y="128.16" fill="#5E737B" font-family="sans-serif" font-size="20">folder</text><text x="660.06" y="313.008" text-anchor="middle" fill="#E7E0D0" font-size="18" font-family="Arial, Helvetica, sans-serif" data-font-key="editorial" font-weight="700" font-style="normal" textLength="165.06" lengthAdjust="spacingAndGlyphs">ASSEMBLED FILES</text><rect x="908.609" y="104.16" width="179.942" height="179.942" fill="none" stroke="#5E737B" stroke-width="3"/><text x="916.609" y="128.16" fill="#5E737B" font-family="sans-serif" font-size="20">clock</text><text x="998.58" y="313.008" text-anchor="middle" fill="#E7E0D0" font-size="18" font-family="Arial, Helvetica, sans-serif" data-font-key="editorial" font-weight="700" font-style="normal" textLength="190.04" lengthAdjust="spacingAndGlyphs">APPROXIMATE TIMES</text><rect x="228.72" y="456.32" width="731.64" height="82.4736" fill="none" stroke="#5E737B" stroke-width="3"/><text x="236.72" y="480.32" fill="#5E737B" font-family="sans-serif" font-size="20">empty-slot</text><text x="594.54" y="561.792" text-anchor="middle" fill="#E7E0D0" font-size="18" font-family="Arial, Helvetica, sans-serif" data-font-key="editorial" font-weight="700" font-style="normal" textLength="210.01" lengthAdjust="spacingAndGlyphs">UNMATCHED MATERIAL</text><rect x="3" y="3" width="1194" height="794" fill="none" stroke="#5E737B" stroke-width="4"/></svg>

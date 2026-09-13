@@ -60,6 +60,7 @@
         ],
         &quot;color&quot;: &quot;institution&quot;,
         &quot;focus&quot;: true,
+        &quot;font&quot;: &quot;editorial&quot;,
         &quot;label&quot;: &quot;MESSAGE BOARD&quot;,
         &quot;label_box&quot;: [
           0.06775,
@@ -79,6 +80,7 @@
         ],
         &quot;color&quot;: &quot;steel&quot;,
         &quot;focus&quot;: true,
+        &quot;font&quot;: &quot;editorial&quot;,
         &quot;label&quot;: &quot;NETWORK PIVOT&quot;,
         &quot;label_box&quot;: [
           0.52275,
@@ -91,8 +93,8 @@
     ],
     &quot;reconstructed&quot;: false,
     &quot;shot&quot;: &quot;row&quot;,
-    &quot;source&quot;: &quot;\n**Location:** `security-operations-center`\n\n**Frame:** Close on the message-board card and network-pivot diagram.\n\n**Dialogue — INCIDENT COMMANDER:**\n&gt; And the shared service?\n\n**Dialogue — SECURITY RESPONDER:**\n&gt; They are using it as a board and a pivot.\n\n**Provenance:** `reconstructed` — phrasing remains within the sourced finding.\n\n&quot;,
+    &quot;source&quot;: &quot;\n**Location:** `security-operations-center`\n\n**Frame:** Close on the message-board card and network-pivot diagram.\n\n**Font:** `human`\n\n**Dialogue — INCIDENT COMMANDER:**\n&gt; And the shared service?\n\n**Font:** `human`\n\n**Dialogue — SECURITY RESPONDER:**\n&gt; They are using it as a board and a pivot.\n\n**Provenance:** `reconstructed` — phrasing remains within the sourced finding.\n\n&quot;,
     &quot;title&quot;: &quot;The communication and pivot evidence&quot;
   }
 }
-</metadata><rect width="1200" height="800" fill="#101214"/><rect x="24" y="16" width="1152" height="768" fill="none" stroke="#5E737B" stroke-width="3"/><text x="32" y="40" fill="#5E737B" font-family="sans-serif" font-size="20">location-background-security-operations-center</text><rect x="81.3" y="385.45" width="469.56" height="178.999" fill="none" stroke="#68766B" stroke-width="3"/><text x="89.3" y="409.45" fill="#68766B" font-family="sans-serif" font-size="20">folder</text><text x="316.08" y="593.298" text-anchor="middle" fill="#E7E0D0" font-size="18" font-family="sans-serif">MESSAGE BOARD</text><rect x="627.3" y="385.45" width="469.56" height="178.999" fill="none" stroke="#5E737B" stroke-width="3"/><text x="635.3" y="409.45" fill="#5E737B" font-family="sans-serif" font-size="20">network-wall</text><text x="862.08" y="593.298" text-anchor="middle" fill="#E7E0D0" font-size="18" font-family="sans-serif">NETWORK PIVOT</text><rect x="3" y="3" width="1194" height="794" fill="none" stroke="#5E737B" stroke-width="4"/></svg>
+</metadata><rect width="1200" height="800" fill="#101214"/><rect x="24" y="16" width="1152" height="768" fill="none" stroke="#5E737B" stroke-width="3"/><text x="32" y="40" fill="#5E737B" font-family="sans-serif" font-size="20">location-background-security-operations-center</text><rect x="81.3" y="385.45" width="469.56" height="178.999" fill="none" stroke="#68766B" stroke-width="3"/><text x="89.3" y="409.45" fill="#68766B" font-family="sans-serif" font-size="20">folder</text><text x="316.08" y="593.298" text-anchor="middle" fill="#E7E0D0" font-size="18" font-family="Arial, Helvetica, sans-serif" data-font-key="editorial" font-weight="700" font-style="normal" textLength="158.04" lengthAdjust="spacingAndGlyphs">MESSAGE BOARD</text><rect x="627.3" y="385.45" width="469.56" height="178.999" fill="none" stroke="#5E737B" stroke-width="3"/><text x="635.3" y="409.45" fill="#5E737B" font-family="sans-serif" font-size="20">network-wall</text><text x="862.08" y="593.298" text-anchor="middle" fill="#E7E0D0" font-size="18" font-family="Arial, Helvetica, sans-serif" data-font-key="editorial" font-weight="700" font-style="normal" textLength="151.02" lengthAdjust="spacingAndGlyphs">NETWORK PIVOT</text><rect x="3" y="3" width="1194" height="794" fill="none" stroke="#5E737B" stroke-width="4"/></svg>

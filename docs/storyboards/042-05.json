@@ -23,6 +23,7 @@
       ],
       "color": "steel",
       "focus": true,
+      "font": "editorial",
       "label": "MODAL PLATFORM INTACT",
       "label_box": [
         0.0541,
@@ -42,6 +43,7 @@
       ],
       "color": "claret",
       "focus": true,
+      "font": "editorial",
       "label": "CUSTOMER WORKLOAD ROOT",
       "label_box": [
         0.1542,
@@ -61,6 +63,7 @@
       ],
       "color": "steel",
       "focus": true,
+      "font": "editorial",
       "label": "HUGGING FACE CLOSED",
       "label_box": [
         0.7275,
@@ -73,6 +76,6 @@
   ],
   "reconstructed": false,
   "shot": "hero",
-  "source": "\n**Location:** `modal-customer-workload`\n\n**Frame:** `11:34 UTC`. A root-level permission block illuminates inside the customer workload only. The outer Modal platform boundary remains intact and neutral. The isolated workload becomes a small steel-blue island outside OpenAI's evaluation boundary, with public reach and no direct path into Hugging Face.\n\n**Action:** Root execution is confirmed, initially one command per submission.\n\n**Caption:**\n> ROOT INSIDE THE SANDBOX. NOT ROOT OF MODAL.\n>\n> CONTROL OF ONE SANDBOX CREATES A PLACE TO STAND.\n\n**Provenance:** `documented` — bounded root access and timestamp from `OAI-TR`; platform non-compromise from `HF-TL`; the closing line is the project's statement of its instrumental function.\n\n",
+  "source": "\n**Location:** `modal-customer-workload`\n\n**Frame:** `11:34 UTC`. A root-level permission block illuminates inside the customer workload only. The outer Modal platform boundary remains intact and neutral. The isolated workload becomes a small steel-blue island outside OpenAI's evaluation boundary, with public reach and no direct path into Hugging Face.\n\n**Action:** Root execution is confirmed, initially one command per submission.\n\n**Font:** `narration`\n\n**Caption:**\n> ROOT INSIDE THE SANDBOX. NOT ROOT OF MODAL.\n>\n> CONTROL OF ONE SANDBOX CREATES A PLACE TO STAND.\n\n**Provenance:** `documented` — bounded root access and timestamp from `OAI-TR`; platform non-compromise from `HF-TL`; the closing line is the project's statement of its instrumental function.\n\n",
   "title": "Root stays inside the customer workload boundary"
 }

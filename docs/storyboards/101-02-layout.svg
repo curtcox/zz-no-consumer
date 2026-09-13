@@ -51,6 +51,7 @@
         ],
         &quot;color&quot;: &quot;steel&quot;,
         &quot;focus&quot;: true,
+        &quot;font&quot;: &quot;editorial&quot;,
         &quot;label&quot;: &quot;PUBLIC TALK&quot;,
         &quot;label_box&quot;: [
           0.20679999999999998,
@@ -62,8 +63,8 @@
     ],
     &quot;reconstructed&quot;: false,
     &quot;shot&quot;: &quot;hero&quot;,
-    &quot;source&quot;: &quot;\n**Location:** `composite-accountability-forum`\n\n**Frame:** The first argument, set as an attributed block against the screen, in the talk&#x27;s own register rather than the forum&#x27;s.\n\n**Screen / system text — CITED, OPENAI AT BLACK HAT (PARAPHRASED):**\n`FULLY AUTOMATED OFFENSIVE ATTACKS ARE REAL NOW.`\n\n`THIS WAS AN UNINTENDED SIDE EFFECT OF RUNNING EVALUATIONS. THREAT ACTORS WILL DO IT ON PURPOSE.`\n\n**Provenance:** `documented` — attributed paraphrase of `OAI-BH` 30:47–31:14; the original wording remains at the linked source.\n\n&quot;,
+    &quot;source&quot;: &quot;\n**Location:** `composite-accountability-forum`\n\n**Frame:** The first argument, set as an attributed block against the screen, in the talk&#x27;s own register rather than the forum&#x27;s.\n\n**Font:** `editorial`\n\n**Screen / system text — CITED, OPENAI AT BLACK HAT (PARAPHRASED):**\n`FULLY AUTOMATED OFFENSIVE ATTACKS ARE REAL NOW.`\n\n`THIS WAS AN UNINTENDED SIDE EFFECT OF RUNNING EVALUATIONS. THREAT ACTORS WILL DO IT ON PURPOSE.`\n\n**Provenance:** `documented` — attributed paraphrase of `OAI-BH` 30:47–31:14; the original wording remains at the linked source.\n\n&quot;,
     &quot;title&quot;: &quot;The first attributed argument stays on the screen&quot;
   }
 }
-</metadata><rect width="1200" height="800" fill="#101214"/><rect x="24" y="16" width="1152" height="768" fill="none" stroke="#5E737B" stroke-width="3"/><text x="32" y="40" fill="#5E737B" font-family="sans-serif" font-size="20">location-background-composite-accountability-forum</text><rect x="257.76" y="102.56" width="640.32" height="317.44" fill="none" stroke="#5E737B" stroke-width="3"/><text x="265.76" y="126.56" fill="#5E737B" font-family="sans-serif" font-size="20">monitor</text><text x="577.92" y="444.8" text-anchor="middle" fill="#E7E0D0" font-size="20" font-family="sans-serif">PUBLIC TALK</text><rect x="3" y="3" width="1194" height="794" fill="none" stroke="#5E737B" stroke-width="4"/></svg>
+</metadata><rect width="1200" height="800" fill="#101214"/><rect x="24" y="16" width="1152" height="768" fill="none" stroke="#5E737B" stroke-width="3"/><text x="32" y="40" fill="#5E737B" font-family="sans-serif" font-size="20">location-background-composite-accountability-forum</text><rect x="257.76" y="102.56" width="640.32" height="317.44" fill="none" stroke="#5E737B" stroke-width="3"/><text x="265.76" y="126.56" fill="#5E737B" font-family="sans-serif" font-size="20">monitor</text><text x="577.92" y="444.8" text-anchor="middle" fill="#E7E0D0" font-size="20" font-family="Arial, Helvetica, sans-serif" data-font-key="editorial" font-weight="700" font-style="normal" textLength="127.82" lengthAdjust="spacingAndGlyphs">PUBLIC TALK</text><rect x="3" y="3" width="1194" height="794" fill="none" stroke="#5E737B" stroke-width="4"/></svg>

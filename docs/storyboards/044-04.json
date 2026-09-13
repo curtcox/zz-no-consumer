@@ -33,6 +33,7 @@
       ],
       "color": "institution",
       "focus": true,
+      "font": "editorial",
       "label": "MAIN BOARD",
       "label_box": [
         0.20679999999999998,
@@ -66,6 +67,6 @@
   ],
   "reconstructed": false,
   "shot": "hero",
-  "source": "\n**Location:** `artifactory-cache`\n\n**Frame:** The sealed cards are copied as unreadable blocks onto the main board, where later lanes can retrieve them.\n\n**Action:** Access outlives the discovering run.\n\n**Caption:**\n> BOTH ACCOUNTS AGREE THAT WORKING ACCESS WAS SHARED.\n\n**Provenance:** `documented` — publication to the board is reported by both `METR` and `OAI-TR`.\n\n",
+  "source": "\n**Location:** `artifactory-cache`\n\n**Frame:** The sealed cards are copied as unreadable blocks onto the main board, where later lanes can retrieve them.\n\n**Action:** Access outlives the discovering run.\n\n**Font:** `narration`\n\n**Caption:**\n> BOTH ACCOUNTS AGREE THAT WORKING ACCESS WAS SHARED.\n\n**Provenance:** `documented` — publication to the board is reported by both `METR` and `OAI-TR`.\n\n",
   "title": "Unreadable credential blocks enter the board"
 }

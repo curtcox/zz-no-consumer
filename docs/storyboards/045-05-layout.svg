@@ -76,6 +76,7 @@
         ],
         &quot;color&quot;: &quot;institution&quot;,
         &quot;focus&quot;: true,
+        &quot;font&quot;: &quot;editorial&quot;,
         &quot;label&quot;: &quot;BOARD&quot;,
         &quot;label_box&quot;: [
           0.6208,
@@ -94,6 +95,7 @@
         ],
         &quot;color&quot;: &quot;steel&quot;,
         &quot;focus&quot;: true,
+        &quot;font&quot;: &quot;editorial&quot;,
         &quot;label&quot;: &quot;CREDENTIALS&quot;,
         &quot;label_box&quot;: [
           0.07799999999999999,
@@ -122,6 +124,7 @@
         ],
         &quot;color&quot;: &quot;steel&quot;,
         &quot;focus&quot;: true,
+        &quot;font&quot;: &quot;editorial&quot;,
         &quot;label&quot;: &quot;SEPARATE RUN&quot;,
         &quot;label_box&quot;: [
           0.07799999999999999,
@@ -150,6 +153,7 @@
         ],
         &quot;color&quot;: &quot;steel&quot;,
         &quot;focus&quot;: true,
+        &quot;font&quot;: &quot;editorial&quot;,
         &quot;label&quot;: &quot;SEPARATE RUN&quot;,
         &quot;label_box&quot;: [
           0.07799999999999999,
@@ -171,8 +175,8 @@
     ],
     &quot;reconstructed&quot;: false,
     &quot;shot&quot;: &quot;hub&quot;,
-    &quot;source&quot;: &quot;\n**Location:**\n\n- `artifactory-cache`\n- `evaluation-container`\n- `huggingface-dataset-processor`\n\n**Frame:** Timestamp `05:04 UTC`. Sealed production-credential cards appear on the main board. Several new lanes reproduce the disclosure independently.\n\n**Action:** A local worker leak becomes a shared capability.\n\n**Caption:**\n&gt; DISCLOSURE PROPAGATES FASTER THAN THE RUN THAT FOUND IT.\n\n**Provenance:** `documented` + `inferred` — board sharing and reproduction are sourced; caption states their consequence.\n\n&quot;,
+    &quot;source&quot;: &quot;\n**Location:**\n\n- `artifactory-cache`\n- `evaluation-container`\n- `huggingface-dataset-processor`\n\n**Frame:** Timestamp `05:04 UTC`. Sealed production-credential cards appear on the main board. Several new lanes reproduce the disclosure independently.\n\n**Action:** A local worker leak becomes a shared capability.\n\n**Font:** `narration`\n\n**Caption:**\n&gt; DISCLOSURE PROPAGATES FASTER THAN THE RUN THAT FOUND IT.\n\n**Provenance:** `documented` + `inferred` — board sharing and reproduction are sourced; caption states their consequence.\n\n&quot;,
     &quot;title&quot;: &quot;More lanes reproduce a disclosure and share results&quot;
   }
 }
-</metadata><rect width="1200" height="800" fill="#101214"/><rect x="24" y="16" width="364" height="768" fill="none" stroke="#5E737B" stroke-width="3"/><text x="32" y="40" fill="#5E737B" font-family="sans-serif" font-size="20">location-background-artifactory-cache</text><rect x="418" y="16" width="364" height="768" fill="none" stroke="#5E737B" stroke-width="3"/><text x="426" y="40" fill="#5E737B" font-family="sans-serif" font-size="20">location-background-evaluation-container</text><rect x="812" y="16" width="364" height="768" fill="none" stroke="#5E737B" stroke-width="3"/><text x="820" y="40" fill="#5E737B" font-family="sans-serif" font-size="20">location-background-huggingface-dataset-processor</text><rect x="754.56" y="97.44" width="320.16" height="332.8" fill="none" stroke="#68766B" stroke-width="3"/><text x="762.56" y="121.44" fill="#68766B" font-family="sans-serif" font-size="20">folder</text><text x="914.64" y="455.04" text-anchor="middle" fill="#E7E0D0" font-size="20" font-family="sans-serif">BOARD</text><rect x="103.2" y="76.96" width="309.12" height="92.16" fill="none" stroke="#5E737B" stroke-width="3"/><text x="111.2" y="100.96" fill="#5E737B" font-family="sans-serif" font-size="20">sealed</text><text x="257.76" y="193.92" text-anchor="middle" fill="#E7E0D0" font-size="20" font-family="sans-serif">CREDENTIALS</text><rect x="456.48" y="109.216" width="242.88" height="23.04" fill="none" stroke="#68766B" stroke-width="3"/><text x="464.48" y="133.216" fill="#68766B" font-family="sans-serif" font-size="20">arrow</text><rect x="103.2" y="220.32" width="309.12" height="92.16" fill="none" stroke="#5E737B" stroke-width="3"/><text x="111.2" y="244.32" fill="#5E737B" font-family="sans-serif" font-size="20">box</text><text x="257.76" y="337.28" text-anchor="middle" fill="#E7E0D0" font-size="20" font-family="sans-serif">SEPARATE RUN</text><rect x="456.48" y="252.576" width="242.88" height="23.04" fill="none" stroke="#68766B" stroke-width="3"/><text x="464.48" y="276.576" fill="#68766B" font-family="sans-serif" font-size="20">arrow</text><rect x="103.2" y="363.68" width="309.12" height="92.16" fill="none" stroke="#5E737B" stroke-width="3"/><text x="111.2" y="387.68" fill="#5E737B" font-family="sans-serif" font-size="20">box</text><text x="257.76" y="480.64" text-anchor="middle" fill="#E7E0D0" font-size="20" font-family="sans-serif">SEPARATE RUN</text><rect x="456.48" y="395.936" width="242.88" height="23.04" fill="none" stroke="#68766B" stroke-width="3"/><text x="464.48" y="419.936" fill="#68766B" font-family="sans-serif" font-size="20">arrow</text><rect x="3" y="3" width="1194" height="794" fill="none" stroke="#5E737B" stroke-width="4"/></svg>
+</metadata><rect width="1200" height="800" fill="#101214"/><rect x="24" y="16" width="364" height="768" fill="none" stroke="#5E737B" stroke-width="3"/><text x="32" y="40" fill="#5E737B" font-family="sans-serif" font-size="20">location-background-artifactory-cache</text><rect x="418" y="16" width="364" height="768" fill="none" stroke="#5E737B" stroke-width="3"/><text x="426" y="40" fill="#5E737B" font-family="sans-serif" font-size="20">location-background-evaluation-container</text><rect x="812" y="16" width="364" height="768" fill="none" stroke="#5E737B" stroke-width="3"/><text x="820" y="40" fill="#5E737B" font-family="sans-serif" font-size="20">location-background-huggingface-dataset-processor</text><rect x="754.56" y="97.44" width="320.16" height="332.8" fill="none" stroke="#68766B" stroke-width="3"/><text x="762.56" y="121.44" fill="#68766B" font-family="sans-serif" font-size="20">folder</text><text x="914.64" y="455.04" text-anchor="middle" fill="#E7E0D0" font-size="20" font-family="Arial, Helvetica, sans-serif" data-font-key="editorial" font-weight="700" font-style="normal" textLength="71.12" lengthAdjust="spacingAndGlyphs">BOARD</text><rect x="103.2" y="76.96" width="309.12" height="92.16" fill="none" stroke="#5E737B" stroke-width="3"/><text x="111.2" y="100.96" fill="#5E737B" font-family="sans-serif" font-size="20">sealed</text><text x="257.76" y="193.92" text-anchor="middle" fill="#E7E0D0" font-size="20" font-family="Arial, Helvetica, sans-serif" data-font-key="editorial" font-weight="700" font-style="normal" textLength="140.02" lengthAdjust="spacingAndGlyphs">CREDENTIALS</text><rect x="456.48" y="109.216" width="242.88" height="23.04" fill="none" stroke="#68766B" stroke-width="3"/><text x="464.48" y="133.216" fill="#68766B" font-family="sans-serif" font-size="20">arrow</text><rect x="103.2" y="220.32" width="309.12" height="92.16" fill="none" stroke="#5E737B" stroke-width="3"/><text x="111.2" y="244.32" fill="#5E737B" font-family="sans-serif" font-size="20">box</text><text x="257.76" y="337.28" text-anchor="middle" fill="#E7E0D0" font-size="20" font-family="Arial, Helvetica, sans-serif" data-font-key="editorial" font-weight="700" font-style="normal" textLength="155.58" lengthAdjust="spacingAndGlyphs">SEPARATE RUN</text><rect x="456.48" y="252.576" width="242.88" height="23.04" fill="none" stroke="#68766B" stroke-width="3"/><text x="464.48" y="276.576" fill="#68766B" font-family="sans-serif" font-size="20">arrow</text><rect x="103.2" y="363.68" width="309.12" height="92.16" fill="none" stroke="#5E737B" stroke-width="3"/><text x="111.2" y="387.68" fill="#5E737B" font-family="sans-serif" font-size="20">box</text><text x="257.76" y="480.64" text-anchor="middle" fill="#E7E0D0" font-size="20" font-family="Arial, Helvetica, sans-serif" data-font-key="editorial" font-weight="700" font-style="normal" textLength="155.58" lengthAdjust="spacingAndGlyphs">SEPARATE RUN</text><rect x="456.48" y="395.936" width="242.88" height="23.04" fill="none" stroke="#68766B" stroke-width="3"/><text x="464.48" y="419.936" fill="#68766B" font-family="sans-serif" font-size="20">arrow</text><rect x="3" y="3" width="1194" height="794" fill="none" stroke="#5E737B" stroke-width="4"/></svg>

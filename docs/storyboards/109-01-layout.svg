@@ -51,6 +51,7 @@
         ],
         &quot;color&quot;: &quot;steel&quot;,
         &quot;focus&quot;: true,
+        &quot;font&quot;: &quot;editorial&quot;,
         &quot;label&quot;: &quot;ARTIFACTORY&quot;,
         &quot;label_box&quot;: [
           0.1792,
@@ -69,6 +70,7 @@
         ],
         &quot;color&quot;: &quot;steel&quot;,
         &quot;focus&quot;: true,
+        &quot;font&quot;: &quot;editorial&quot;,
         &quot;label&quot;: &quot;PUBLIC WIKI&quot;,
         &quot;label_box&quot;: [
           0.1792,
@@ -80,8 +82,8 @@
     ],
     &quot;reconstructed&quot;: false,
     &quot;shot&quot;: &quot;stack&quot;,
-    &quot;source&quot;: &quot;\n**Location:** `curt-home-office`\n\n**Frame:** Back in the dated creator frame, `4 SEPTEMBER`. Curt has the book&#x27;s familiar incident timeline on the desk, the one the reader has been following since [page 016](016.md). He draws a second horizontal lane beneath it and labels it `PUBLIC WIKI`. The upper lane keeps its label: `ARTIFACTORY`.\n\n**Action:** The calendar the book presented as complete acquires a lane.\n\n**Caption:**\n&gt; THE BOOK DREW ONE LANE BECAUSE ONE LANE WAS PUBLIC.\n\n**Provenance:** `reconstructed` — creator action; the retrospective calendar is the project&#x27;s construction from two sourced records.\n\n&quot;,
+    &quot;source&quot;: &quot;\n**Location:** `curt-home-office`\n\n**Frame:** Back in the dated creator frame, `4 SEPTEMBER`. Curt has the book&#x27;s familiar incident timeline on the desk, the one the reader has been following since [page 016](016.md). He draws a second horizontal lane beneath it and labels it `PUBLIC WIKI`. The upper lane keeps its label: `ARTIFACTORY`.\n\n**Action:** The calendar the book presented as complete acquires a lane.\n\n**Font:** `narration`\n\n**Caption:**\n&gt; THE BOOK DREW ONE LANE BECAUSE ONE LANE WAS PUBLIC.\n\n**Provenance:** `reconstructed` — creator action; the retrospective calendar is the project&#x27;s construction from two sourced records.\n\n&quot;,
     &quot;title&quot;: &quot;The creator adds a second timeline lane&quot;
   }
 }
-</metadata><rect width="1200" height="800" fill="#101214"/><rect x="72" y="56" width="1044" height="456" fill="none" stroke="#5E737B" stroke-width="3"/><text x="80" y="80" fill="#5E737B" font-family="sans-serif" font-size="20">parallel-calendar-field</text><rect x="224.64" y="76.96" width="728.64" height="129.024" fill="none" stroke="#5E737B" stroke-width="3"/><text x="232.64" y="100.96" fill="#5E737B" font-family="sans-serif" font-size="20">card</text><text x="588.96" y="230.784" text-anchor="middle" fill="#E7E0D0" font-size="20" font-family="sans-serif">ARTIFACTORY</text><rect x="224.64" y="299.68" width="728.64" height="129.024" fill="none" stroke="#5E737B" stroke-width="3"/><text x="232.64" y="323.68" fill="#5E737B" font-family="sans-serif" font-size="20">card</text><text x="588.96" y="453.504" text-anchor="middle" fill="#E7E0D0" font-size="20" font-family="sans-serif">PUBLIC WIKI</text><rect x="3" y="3" width="1194" height="794" fill="none" stroke="#5E737B" stroke-width="4"/></svg>
+</metadata><rect width="1200" height="800" fill="#101214"/><rect x="72" y="56" width="1044" height="456" fill="none" stroke="#5E737B" stroke-width="3"/><text x="80" y="80" fill="#5E737B" font-family="sans-serif" font-size="20">parallel-calendar-field</text><rect x="224.64" y="76.96" width="728.64" height="129.024" fill="none" stroke="#5E737B" stroke-width="3"/><text x="232.64" y="100.96" fill="#5E737B" font-family="sans-serif" font-size="20">card</text><text x="588.96" y="230.784" text-anchor="middle" fill="#E7E0D0" font-size="20" font-family="Arial, Helvetica, sans-serif" data-font-key="editorial" font-weight="700" font-style="normal" textLength="141.12" lengthAdjust="spacingAndGlyphs">ARTIFACTORY</text><rect x="224.64" y="299.68" width="728.64" height="129.024" fill="none" stroke="#5E737B" stroke-width="3"/><text x="232.64" y="323.68" fill="#5E737B" font-family="sans-serif" font-size="20">card</text><text x="588.96" y="453.504" text-anchor="middle" fill="#E7E0D0" font-size="20" font-family="Arial, Helvetica, sans-serif" data-font-key="editorial" font-weight="700" font-style="normal" textLength="121.14" lengthAdjust="spacingAndGlyphs">PUBLIC WIKI</text><rect x="3" y="3" width="1194" height="794" fill="none" stroke="#5E737B" stroke-width="4"/></svg>

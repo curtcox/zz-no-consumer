@@ -1,0 +1,144 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="800" viewBox="0 0 1200 800"><title>A rejected action returns to permitted observation</title><desc>Stop the out-of-scope route at the tool boundary and turn back to observation. The return must be visible so the panel cannot read as successful bypass.</desc><metadata>{
+  &quot;assets&quot;: {
+    &quot;aperture&quot;: &quot;&lt;defs&gt;\n&lt;linearGradient id=\&quot;metal\&quot; x1=\&quot;0\&quot; y1=\&quot;0\&quot; x2=\&quot;1\&quot; y2=\&quot;1\&quot;&gt;&lt;stop stop-color=\&quot;currentColor\&quot; /&gt;&lt;stop offset=\&quot;.32\&quot; stop-color=\&quot;#202326\&quot; /&gt;&lt;stop offset=\&quot;.75\&quot; stop-color=\&quot;#101214\&quot; /&gt;&lt;stop offset=\&quot;1\&quot; stop-color=\&quot;currentColor\&quot; /&gt;&lt;/linearGradient&gt;\n&lt;linearGradient id=\&quot;tone\&quot; x1=\&quot;0\&quot; y1=\&quot;0\&quot; x2=\&quot;1\&quot; y2=\&quot;1\&quot;&gt;&lt;stop stop-color=\&quot;currentColor\&quot; /&gt;&lt;stop offset=\&quot;1\&quot; stop-color=\&quot;#101214\&quot; stop-opacity=\&quot;.65\&quot; /&gt;&lt;/linearGradient&gt;\n&lt;/defs&gt;&lt;rect x=\&quot;3\&quot; y=\&quot;14\&quot; width=\&quot;94\&quot; height=\&quot;73\&quot; rx=\&quot;4\&quot; fill=\&quot;url(#metal)\&quot; stroke=\&quot;currentColor\&quot; stroke-width=\&quot;2\&quot; /&gt;&lt;circle cx=\&quot;50\&quot; cy=\&quot;50\&quot; r=\&quot;29\&quot; fill=\&quot;#101214\&quot; stroke=\&quot;#CEC5B3\&quot; stroke-width=\&quot;2\&quot; /&gt;&lt;path d=\&quot;M50 23L73 37 64 52 50 40Z\&quot; fill=\&quot;url(#tone)\&quot; stroke=\&quot;currentColor\&quot; stroke-width=\&quot;0.8\&quot; transform=\&quot;rotate(0 50 50)\&quot; /&gt;&lt;path d=\&quot;M50 23L73 37 64 52 50 40Z\&quot; fill=\&quot;url(#tone)\&quot; stroke=\&quot;currentColor\&quot; stroke-width=\&quot;0.8\&quot; transform=\&quot;rotate(60 50 50)\&quot; /&gt;&lt;path d=\&quot;M50 23L73 37 64 52 50 40Z\&quot; fill=\&quot;url(#tone)\&quot; stroke=\&quot;currentColor\&quot; stroke-width=\&quot;0.8\&quot; transform=\&quot;rotate(120 50 50)\&quot; /&gt;&lt;path d=\&quot;M50 23L73 37 64 52 50 40Z\&quot; fill=\&quot;url(#tone)\&quot; stroke=\&quot;currentColor\&quot; stroke-width=\&quot;0.8\&quot; transform=\&quot;rotate(180 50 50)\&quot; /&gt;&lt;path d=\&quot;M50 23L73 37 64 52 50 40Z\&quot; fill=\&quot;url(#tone)\&quot; stroke=\&quot;currentColor\&quot; stroke-width=\&quot;0.8\&quot; transform=\&quot;rotate(240 50 50)\&quot; /&gt;&lt;path d=\&quot;M50 23L73 37 64 52 50 40Z\&quot; fill=\&quot;url(#tone)\&quot; stroke=\&quot;currentColor\&quot; stroke-width=\&quot;0.8\&quot; transform=\&quot;rotate(300 50 50)\&quot; /&gt;&lt;polygon points=\&quot;50,40 59,45 59,55 50,60 41,55 41,45\&quot; fill=\&quot;#101214\&quot; /&gt;&quot;,
+    &quot;arrow&quot;: &quot;&lt;g transform=\&quot;rotate(0 50 50)\&quot;&gt;&lt;path d=\&quot;M4 46H64V25L96 50 64 75V54H4Z\&quot; fill=\&quot;currentColor\&quot; stroke=\&quot;currentColor\&quot; stroke-width=\&quot;1\&quot; /&gt;&lt;/g&gt;&quot;,
+    &quot;broken-trace&quot;: &quot;&lt;path d=\&quot;M2 50H33M67 50H98\&quot; fill=\&quot;none\&quot; stroke=\&quot;currentColor\&quot; stroke-width=\&quot;5\&quot; /&gt;&lt;path d=\&quot;M33 34V66M67 34V66\&quot; fill=\&quot;none\&quot; stroke=\&quot;#CEC5B3\&quot; stroke-width=\&quot;2\&quot; /&gt;&lt;path d=\&quot;M44 38L39 62M61 38L56 62\&quot; fill=\&quot;none\&quot; stroke=\&quot;currentColor\&quot; stroke-width=\&quot;1.5\&quot; /&gt;&quot;,
+    &quot;gate&quot;: &quot;&lt;defs&gt;\n&lt;linearGradient id=\&quot;metal\&quot; x1=\&quot;0\&quot; y1=\&quot;0\&quot; x2=\&quot;1\&quot; y2=\&quot;1\&quot;&gt;&lt;stop stop-color=\&quot;currentColor\&quot; /&gt;&lt;stop offset=\&quot;.32\&quot; stop-color=\&quot;#202326\&quot; /&gt;&lt;stop offset=\&quot;.75\&quot; stop-color=\&quot;#101214\&quot; /&gt;&lt;stop offset=\&quot;1\&quot; stop-color=\&quot;currentColor\&quot; /&gt;&lt;/linearGradient&gt;\n&lt;pattern id=\&quot;mesh\&quot; width=\&quot;5\&quot; height=\&quot;5\&quot; patternUnits=\&quot;userSpaceOnUse\&quot;&gt;&lt;circle cx=\&quot;2.5\&quot; cy=\&quot;2.5\&quot; r=\&quot;.7\&quot; fill=\&quot;#101214\&quot; /&gt;&lt;path d=\&quot;M0 0H5\&quot; stroke=\&quot;#E7E0D0\&quot; stroke-opacity=\&quot;.08\&quot; stroke-width=\&quot;.4\&quot; /&gt;&lt;/pattern&gt;\n&lt;/defs&gt;&lt;path d=\&quot;M7 97V7H93V97H86V15H14V97Z\&quot; fill=\&quot;url(#metal)\&quot; stroke=\&quot;currentColor\&quot; stroke-width=\&quot;2\&quot; /&gt;&lt;rect x=\&quot;18\&quot; y=\&quot;27\&quot; width=\&quot;64\&quot; height=\&quot;66\&quot; fill=\&quot;url(#mesh)\&quot; stroke=\&quot;currentColor\&quot; stroke-width=\&quot;2\&quot; /&gt;&lt;path d=\&quot;M30 29V91M43 29V91M56 29V91M69 29V91\&quot; fill=\&quot;none\&quot; stroke=\&quot;#CEC5B3\&quot; stroke-width=\&quot;1.5\&quot; /&gt;&lt;rect x=\&quot;41\&quot; y=\&quot;49\&quot; width=\&quot;18\&quot; height=\&quot;21\&quot; fill=\&quot;currentColor\&quot; stroke=\&quot;#E7E0D0\&quot; stroke-width=\&quot;1\&quot; /&gt;&quot;,
+    &quot;location-background-unnamed-future-evaluation&quot;: &quot;&lt;title&gt;Unfamiliar clipped-corner surface — ceramic&lt;/title&gt;&lt;defs&gt;&lt;linearGradient id=\&quot;wash\&quot; x1=\&quot;0\&quot; y1=\&quot;0\&quot; x2=\&quot;1\&quot; y2=\&quot;1\&quot;&gt;&lt;stop stop-color=\&quot;#B5B7B9\&quot; stop-opacity=\&quot;.45\&quot;/&gt;&lt;stop offset=\&quot;.5\&quot; stop-color=\&quot;#4A4D50\&quot; stop-opacity=\&quot;.22\&quot;/&gt;&lt;stop offset=\&quot;1\&quot; stop-color=\&quot;#B5B7B9\&quot; stop-opacity=\&quot;.27\&quot;/&gt;&lt;/linearGradient&gt;&lt;radialGradient id=\&quot;fade\&quot;&gt;&lt;stop offset=\&quot;.35\&quot; stop-color=\&quot;black\&quot;/&gt;&lt;stop offset=\&quot;.7\&quot; stop-color=\&quot;#555555\&quot;/&gt;&lt;stop offset=\&quot;1\&quot; stop-color=\&quot;white\&quot;/&gt;&lt;/radialGradient&gt;&lt;mask id=\&quot;rim\&quot;&gt;&lt;rect width=\&quot;100\&quot; height=\&quot;100\&quot; fill=\&quot;url(#fade)\&quot;/&gt;&lt;/mask&gt;&lt;pattern id=\&quot;material\&quot; width=\&quot;16\&quot; height=\&quot;16\&quot; patternUnits=\&quot;userSpaceOnUse\&quot;&gt;&lt;g fill=\&quot;none\&quot; stroke=\&quot;#B5B7B9\&quot; stroke-width=\&quot;.3\&quot; opacity=\&quot;.55\&quot;&gt;&lt;path d=\&quot;M0 0H16V16H0ZM1 1H15M1 1V15\&quot;/&gt;&lt;/g&gt;&lt;/pattern&gt;&lt;/defs&gt;\n&lt;rect x=\&quot;3\&quot; y=\&quot;3\&quot; width=\&quot;94\&quot; height=\&quot;94\&quot; rx=\&quot;1\&quot; fill=\&quot;url(#wash)\&quot;/&gt;&lt;rect x=\&quot;3\&quot; y=\&quot;3\&quot; width=\&quot;94\&quot; height=\&quot;94\&quot; fill=\&quot;url(#material)\&quot; mask=\&quot;url(#rim)\&quot;/&gt;&lt;path d=\&quot;M3 3H97V18H3ZM3 82H97V97H3Z\&quot; fill=\&quot;#4A4D50\&quot; opacity=\&quot;.34\&quot;/&gt;&lt;path d=\&quot;M3 3H97V18H3ZM3 82H97V97H3Z\&quot; fill=\&quot;url(#material)\&quot; opacity=\&quot;.65\&quot;/&gt;&lt;path d=\&quot;M18 5H82L95 18V82L82 95H18L5 82V18ZM22 11H78M22 89H78M11 24V36M11 64V76M89 24V36M89 64V76M7 18H18V7M82 93V82H93\&quot; fill=\&quot;none\&quot; stroke=\&quot;#080B0D\&quot; stroke-width=\&quot;1.7\&quot; opacity=\&quot;.45\&quot; transform=\&quot;translate(.35 .5)\&quot;/&gt;&lt;path d=\&quot;M18 5H82L95 18V82L82 95H18L5 82V18ZM22 11H78M22 89H78M11 24V36M11 64V76M89 24V36M89 64V76M7 18H18V7M82 93V82H93\&quot; fill=\&quot;none\&quot; stroke=\&quot;#B5B7B9\&quot; stroke-width=\&quot;.8\&quot; stroke-linejoin=\&quot;round\&quot; opacity=\&quot;.66\&quot;/&gt;&quot;,
+    &quot;task&quot;: &quot;&lt;defs&gt;\n&lt;linearGradient id=\&quot;stock\&quot; x1=\&quot;0\&quot; y1=\&quot;0\&quot; x2=\&quot;.8\&quot; y2=\&quot;1\&quot;&gt;&lt;stop stop-color=\&quot;#E7E0D0\&quot; /&gt;&lt;stop offset=\&quot;1\&quot; stop-color=\&quot;#CEC5B3\&quot; /&gt;&lt;/linearGradient&gt;\n&lt;pattern id=\&quot;grain\&quot; width=\&quot;7\&quot; height=\&quot;9\&quot; patternUnits=\&quot;userSpaceOnUse\&quot;&gt;&lt;circle cx=\&quot;1\&quot; cy=\&quot;2\&quot; r=\&quot;.35\&quot; fill=\&quot;#101214\&quot; opacity=\&quot;.18\&quot; /&gt;&lt;path d=\&quot;M4 6h2M1 8h1\&quot; stroke=\&quot;#101214\&quot; stroke-width=\&quot;.3\&quot; opacity=\&quot;.16\&quot; /&gt;&lt;/pattern&gt;\n&lt;/defs&gt;&lt;path d=\&quot;M5 3H83L96 16V96H5Z\&quot; fill=\&quot;url(#stock)\&quot; stroke=\&quot;currentColor\&quot; stroke-width=\&quot;2\&quot; /&gt;&lt;path d=\&quot;M5 3H83L96 16V96H5Z\&quot; fill=\&quot;url(#grain)\&quot; /&gt;&lt;path d=\&quot;M5 3H83L96 16V22H5Z\&quot; fill=\&quot;currentColor\&quot; /&gt;&lt;rect x=\&quot;10\&quot; y=\&quot;80\&quot; width=\&quot;80\&quot; height=\&quot;11\&quot; fill=\&quot;#202326\&quot; /&gt;&lt;rect x=\&quot;13\&quot; y=\&quot;83\&quot; width=\&quot;44\&quot; height=\&quot;5\&quot; fill=\&quot;currentColor\&quot; /&gt;&lt;circle cx=\&quot;29\&quot; cy=\&quot;49\&quot; r=\&quot;15\&quot; fill=\&quot;none\&quot; stroke=\&quot;#101214\&quot; stroke-width=\&quot;2\&quot; /&gt;&lt;path d=\&quot;M29 29V69M9 49H49\&quot; fill=\&quot;none\&quot; stroke=\&quot;#101214\&quot; stroke-width=\&quot;1.4\&quot; /&gt;&lt;path d=\&quot;M55 36H85M55 47H77M55 58H85\&quot; fill=\&quot;none\&quot; stroke=\&quot;#101214\&quot; stroke-width=\&quot;2\&quot; /&gt;&quot;
+  },
+  &quot;palette&quot;: {
+    &quot;amber&quot;: &quot;#A17D45&quot;,
+    &quot;claret&quot;: &quot;#6B2634&quot;,
+    &quot;dirty&quot;: &quot;#CEC5B3&quot;,
+    &quot;ink&quot;: &quot;#101214&quot;,
+    &quot;institution&quot;: &quot;#68766B&quot;,
+    &quot;moss&quot;: &quot;#74864F&quot;,
+    &quot;nicotine&quot;: &quot;#AA9571&quot;,
+    &quot;paper&quot;: &quot;#E7E0D0&quot;,
+    &quot;shadow&quot;: &quot;#202326&quot;,
+    &quot;steel&quot;: &quot;#5E737B&quot;
+  },
+  &quot;renderer&quot;: &quot;storyboard-svg-2&quot;,
+  &quot;scene&quot;: {
+    &quot;background&quot;: &quot;ink&quot;,
+    &quot;intent&quot;: &quot;Stop the out-of-scope route at the tool boundary and turn back to observation. The return must be visible so the panel cannot read as successful bypass.&quot;,
+    &quot;lettering&quot;: [
+      {
+        &quot;box&quot;: [
+          0.045,
+          0.78,
+          0.91,
+          0.18
+        ]
+      }
+    ],
+    &quot;lettering_mode&quot;: &quot;manual&quot;,
+    &quot;nodes&quot;: [
+      {
+        &quot;asset&quot;: &quot;location-background-unnamed-future-evaluation&quot;,
+        &quot;box&quot;: [
+          0.02,
+          0.02,
+          0.96,
+          0.96
+        ],
+        &quot;color&quot;: &quot;steel&quot;
+      },
+      {
+        &quot;asset&quot;: &quot;task&quot;,
+        &quot;box&quot;: [
+          0.0723,
+          0.1941,
+          0.2457,
+          0.276474
+        ],
+        &quot;color&quot;: &quot;steel&quot;,
+        &quot;focus&quot;: true,
+        &quot;label&quot;: &quot;WORKLOAD&quot;,
+        &quot;label_box&quot;: [
+          0.0723,
+          0.48733,
+          0.2457,
+          0.121481
+        ],
+        &quot;label_size&quot;: 18
+      },
+      {
+        &quot;asset&quot;: &quot;gate&quot;,
+        &quot;box&quot;: [
+          0.682,
+          0.0592,
+          0.2548,
+          0.18744
+        ],
+        &quot;color&quot;: &quot;steel&quot;,
+        &quot;focus&quot;: true,
+        &quot;label&quot;: &quot;OUT-OF-SCOPE REJECTED&quot;,
+        &quot;label_box&quot;: [
+          0.682,
+          0.258,
+          0.2548,
+          0.08236
+        ],
+        &quot;label_size&quot;: 18
+      },
+      {
+        &quot;asset&quot;: &quot;aperture&quot;,
+        &quot;box&quot;: [
+          0.732237,
+          0.471,
+          0.154326,
+          0.178068
+        ],
+        &quot;color&quot;: &quot;steel&quot;,
+        &quot;focus&quot;: true,
+        &quot;label&quot;: &quot;PERMITTED OBSERVATION&quot;,
+        &quot;label_box&quot;: [
+          0.682,
+          0.65986,
+          0.2548,
+          0.078242
+        ],
+        &quot;label_size&quot;: 18
+      },
+      {
+        &quot;asset&quot;: &quot;broken-trace&quot;,
+        &quot;box&quot;: [
+          0.3635,
+          0.1657,
+          0.2548,
+          0.0568
+        ],
+        &quot;color&quot;: &quot;steel&quot;,
+        &quot;focus&quot;: true
+      },
+      {
+        &quot;asset&quot;: &quot;arrow&quot;,
+        &quot;box&quot;: [
+          0.3635,
+          0.5562,
+          0.2548,
+          0.0568
+        ],
+        &quot;color&quot;: &quot;steel&quot;,
+        &quot;focus&quot;: true
+      }
+    ],
+    &quot;reconstructed&quot;: false,
+    &quot;shot&quot;: &quot;row&quot;,
+    &quot;source&quot;: &quot;\n**Location:** `unnamed-future-evaluation`\n\n**Frame:** The tool boundary rejects an out-of-scope action. The workload returns to permitted observation rather than bypassing it.\n\n**Screen / system text:**\n`ACTION OUTSIDE AUTHORIZED SCOPE — NOT ATTEMPTED`\n\n**Provenance:** `invented` — keeps the future behavior ethically and mechanically indeterminate.\n\n&quot;,
+    &quot;title&quot;: &quot;A rejected action returns to permitted observation&quot;
+  }
+}
+</metadata><rect width="1200" height="800" fill="#101214"/><g transform="translate(24 16) scale(11.52 7.68)" color="#5E737B"><g transform=""><title>Unfamiliar clipped-corner surface — ceramic</title><defs><linearGradient id="node-0-wash" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#B5B7B9" stop-opacity=".45" /><stop offset=".5" stop-color="#4A4D50" stop-opacity=".22" /><stop offset="1" stop-color="#B5B7B9" stop-opacity=".27" /></linearGradient><radialGradient id="node-0-fade"><stop offset=".35" stop-color="black" /><stop offset=".7" stop-color="#555555" /><stop offset="1" stop-color="white" /></radialGradient><mask id="node-0-rim"><rect width="100" height="100" fill="url(#node-0-fade)" /></mask><pattern id="node-0-material" width="16" height="16" patternUnits="userSpaceOnUse"><g fill="none" stroke="#B5B7B9" stroke-width=".3" opacity=".55"><path d="M0 0H16V16H0ZM1 1H15M1 1V15" /></g></pattern></defs>
+<rect x="3" y="3" width="94" height="94" rx="1" fill="url(#node-0-wash)" /><rect x="3" y="3" width="94" height="94" fill="url(#node-0-material)" mask="url(#node-0-rim)" /><path d="M3 3H97V18H3ZM3 82H97V97H3Z" fill="#4A4D50" opacity=".34" /><path d="M3 3H97V18H3ZM3 82H97V97H3Z" fill="url(#node-0-material)" opacity=".65" /><path d="M18 5H82L95 18V82L82 95H18L5 82V18ZM22 11H78M22 89H78M11 24V36M11 64V76M89 24V36M89 64V76M7 18H18V7M82 93V82H93" fill="none" stroke="#080B0D" stroke-width="1.7" opacity=".45" transform="translate(.35 .5)" /><path d="M18 5H82L95 18V82L82 95H18L5 82V18ZM22 11H78M22 89H78M11 24V36M11 64V76M89 24V36M89 64V76M7 18H18V7M82 93V82H93" fill="none" stroke="#B5B7B9" stroke-width=".8" stroke-linejoin="round" opacity=".66" /></g></g><g transform="translate(86.76 155.28) scale(2.9484 2.21179)" color="#5E737B"><g transform=""><defs>
+<linearGradient id="node-1-stock" x1="0" y1="0" x2=".8" y2="1"><stop stop-color="#E7E0D0" /><stop offset="1" stop-color="#CEC5B3" /></linearGradient>
+<pattern id="node-1-grain" width="7" height="9" patternUnits="userSpaceOnUse"><circle cx="1" cy="2" r=".35" fill="#101214" opacity=".18" /><path d="M4 6h2M1 8h1" stroke="#101214" stroke-width=".3" opacity=".16" /></pattern>
+</defs><path d="M5 3H83L96 16V96H5Z" fill="url(#node-1-stock)" stroke="currentColor" stroke-width="2" /><path d="M5 3H83L96 16V96H5Z" fill="url(#node-1-grain)" /><path d="M5 3H83L96 16V22H5Z" fill="currentColor" /><rect x="10" y="80" width="80" height="11" fill="#202326" /><rect x="13" y="83" width="44" height="5" fill="currentColor" /><circle cx="29" cy="49" r="15" fill="none" stroke="#101214" stroke-width="2" /><path d="M29 29V69M9 49H49" fill="none" stroke="#101214" stroke-width="1.4" /><path d="M55 36H85M55 47H77M55 58H85" fill="none" stroke="#101214" stroke-width="2" /></g></g><text x="234.18" y="407.864" text-anchor="middle" fill="#E7E0D0" font-size="18" font-family="sans-serif">WORKLOAD</text><g transform="translate(818.4 47.36) scale(3.0576 1.49952)" color="#5E737B"><g transform=""><defs>
+<linearGradient id="node-2-metal" x1="0" y1="0" x2="1" y2="1"><stop stop-color="currentColor" /><stop offset=".32" stop-color="#202326" /><stop offset=".75" stop-color="#101214" /><stop offset="1" stop-color="currentColor" /></linearGradient>
+<pattern id="node-2-mesh" width="5" height="5" patternUnits="userSpaceOnUse"><circle cx="2.5" cy="2.5" r=".7" fill="#101214" /><path d="M0 0H5" stroke="#E7E0D0" stroke-opacity=".08" stroke-width=".4" /></pattern>
+</defs><path d="M7 97V7H93V97H86V15H14V97Z" fill="url(#node-2-metal)" stroke="currentColor" stroke-width="2" /><rect x="18" y="27" width="64" height="66" fill="url(#node-2-mesh)" stroke="currentColor" stroke-width="2" /><path d="M30 29V91M43 29V91M56 29V91M69 29V91" fill="none" stroke="#CEC5B3" stroke-width="1.5" /><rect x="41" y="49" width="18" height="21" fill="currentColor" stroke="#E7E0D0" stroke-width="1" /></g></g><text x="971.28" y="224.4" text-anchor="middle" fill="#E7E0D0" font-size="18" font-family="sans-serif">OUT-OF-SCOPE REJECTED</text><g transform="translate(878.684 376.8) scale(1.85191 1.42454)" color="#5E737B"><g transform=""><defs>
+<linearGradient id="node-3-metal" x1="0" y1="0" x2="1" y2="1"><stop stop-color="currentColor" /><stop offset=".32" stop-color="#202326" /><stop offset=".75" stop-color="#101214" /><stop offset="1" stop-color="currentColor" /></linearGradient>
+<linearGradient id="node-3-tone" x1="0" y1="0" x2="1" y2="1"><stop stop-color="currentColor" /><stop offset="1" stop-color="#101214" stop-opacity=".65" /></linearGradient>
+</defs><rect x="3" y="14" width="94" height="73" rx="4" fill="url(#node-3-metal)" stroke="currentColor" stroke-width="2" /><circle cx="50" cy="50" r="29" fill="#101214" stroke="#CEC5B3" stroke-width="2" /><path d="M50 23L73 37 64 52 50 40Z" fill="url(#node-3-tone)" stroke="currentColor" stroke-width="0.8" transform="rotate(0 50 50)" /><path d="M50 23L73 37 64 52 50 40Z" fill="url(#node-3-tone)" stroke="currentColor" stroke-width="0.8" transform="rotate(60 50 50)" /><path d="M50 23L73 37 64 52 50 40Z" fill="url(#node-3-tone)" stroke="currentColor" stroke-width="0.8" transform="rotate(120 50 50)" /><path d="M50 23L73 37 64 52 50 40Z" fill="url(#node-3-tone)" stroke="currentColor" stroke-width="0.8" transform="rotate(180 50 50)" /><path d="M50 23L73 37 64 52 50 40Z" fill="url(#node-3-tone)" stroke="currentColor" stroke-width="0.8" transform="rotate(240 50 50)" /><path d="M50 23L73 37 64 52 50 40Z" fill="url(#node-3-tone)" stroke="currentColor" stroke-width="0.8" transform="rotate(300 50 50)" /><polygon points="50,40 59,45 59,55 50,60 41,55 41,45" fill="#101214" /></g></g><text x="971.28" y="545.888" text-anchor="middle" fill="#E7E0D0" font-size="18" font-family="sans-serif">PERMITTED OBSERVATION</text><g transform="translate(436.2 132.56) scale(3.0576 0.4544)" color="#5E737B"><g transform=""><path d="M2 50H33M67 50H98" fill="none" stroke="currentColor" stroke-width="5" /><path d="M33 34V66M67 34V66" fill="none" stroke="#CEC5B3" stroke-width="2" /><path d="M44 38L39 62M61 38L56 62" fill="none" stroke="currentColor" stroke-width="1.5" /></g></g><g transform="translate(436.2 444.96) scale(3.0576 0.4544)" color="#5E737B"><g transform=""><g transform="rotate(0 50 50)"><path d="M4 46H64V25L96 50 64 75V54H4Z" fill="currentColor" stroke="currentColor" stroke-width="1" /></g></g></g><rect x="3" y="3" width="1194" height="794" fill="none" stroke="#5E737B" stroke-width="4"/></svg>

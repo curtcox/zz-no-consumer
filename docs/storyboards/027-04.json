@@ -33,6 +33,7 @@
       ],
       "color": "steel",
       "focus": true,
+      "font": "editorial",
       "label": "DECISION LOG",
       "label_box": [
         0.20679999999999998,
@@ -44,6 +45,6 @@
   ],
   "reconstructed": false,
   "shot": "hero",
-  "source": "\n**Location:** `security-operations-center`\n\n**Frame:** A plain decision-log row appears. No reason field is shown because the public report supplies none.\n\n**Screen / system text:**\n`STOPPING EVALUATION — NOT REQUIRED`\n\n**Provenance:** `documented` + `reconstructed` — `OAI-TR` says on-call response staff advised that stopping was not required; display wording is editorial.\n\n",
+  "source": "\n**Location:** `security-operations-center`\n\n**Frame:** A plain decision-log row appears. No reason field is shown because the public report supplies none.\n\n**Font:** `editorial`\n\n**Screen / system text:**\n`STOPPING EVALUATION — NOT REQUIRED`\n\n**Provenance:** `documented` + `reconstructed` — `OAI-TR` says on-call response staff advised that stopping was not required; display wording is editorial.\n\n",
   "title": "A decision row without a reason field"
 }

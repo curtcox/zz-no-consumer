@@ -40,6 +40,7 @@
         ],
         &quot;color&quot;: &quot;steel&quot;,
         &quot;focus&quot;: true,
+        &quot;font&quot;: &quot;editorial&quot;,
         &quot;label&quot;: &quot;CHATGPT&quot;,
         &quot;label_box&quot;: [
           0.0872,
@@ -51,8 +52,8 @@
     ],
     &quot;reconstructed&quot;: false,
     &quot;shot&quot;: &quot;blank&quot;,
-    &quot;source&quot;: &quot;\n**Location:** `curt-home-office`\n\n**Frame:** ChatGPT&#x27;s window, smaller on the page than it has been in any previous interlude.\n\n**Screen / system text — CHATGPT:**\n&gt; Then the two explanations are not competing. A disposition that was trained in and a resource that was locally useful produce the same behavior.\n\n**Provenance:** `reconstructed` — dramatized synthesis, offered after the model&#x27;s error on [page 039](039.md) and given less visual authority.\n\n&quot;,
+    &quot;source&quot;: &quot;\n**Location:** `curt-home-office`\n\n**Frame:** ChatGPT&#x27;s window, smaller on the page than it has been in any previous interlude.\n\n**Font:** `interface`\n\n**Screen / system text — CHATGPT:**\n&gt; Then the two explanations are not competing. A disposition that was trained in and a resource that was locally useful produce the same behavior.\n\n**Provenance:** `reconstructed` — dramatized synthesis, offered after the model&#x27;s error on [page 039](039.md) and given less visual authority.\n\n&quot;,
     &quot;title&quot;: &quot;The model window is deliberately diminished&quot;
   }
 }
-</metadata><rect width="1200" height="800" fill="#101214"/><rect x="114.24" y="97.44" width="264.96" height="92.16" fill="none" stroke="#5E737B" stroke-width="3"/><text x="122.24" y="121.44" fill="#5E737B" font-family="sans-serif" font-size="20">blank-monitor</text><text x="246.72" y="214.4" text-anchor="middle" fill="#E7E0D0" font-size="20" font-family="sans-serif">CHATGPT</text><rect x="3" y="3" width="1194" height="794" fill="none" stroke="#5E737B" stroke-width="4"/></svg>
+</metadata><rect width="1200" height="800" fill="#101214"/><rect x="114.24" y="97.44" width="264.96" height="92.16" fill="none" stroke="#5E737B" stroke-width="3"/><text x="122.24" y="121.44" fill="#5E737B" font-family="sans-serif" font-size="20">blank-monitor</text><text x="246.72" y="214.4" text-anchor="middle" fill="#E7E0D0" font-size="20" font-family="Arial, Helvetica, sans-serif" data-font-key="editorial" font-weight="700" font-style="normal" textLength="95.56" lengthAdjust="spacingAndGlyphs">CHATGPT</text><rect x="3" y="3" width="1194" height="794" fill="none" stroke="#5E737B" stroke-width="4"/></svg>

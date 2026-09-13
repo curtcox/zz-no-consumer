@@ -33,6 +33,7 @@
       ],
       "color": "steel",
       "focus": true,
+      "font": "editorial",
       "label": "CREATOR MEDIATION",
       "label_box": [
         0.20679999999999998,
@@ -44,6 +45,6 @@
   ],
   "reconstructed": false,
   "shot": "hero",
-  "source": "\n**Location:** `curt-home-office`\n\n**Frame:** Curt adds a new margin tag to the page plan: `CREATOR MEDIATION — VISIBLE`.\n\n**Dialogue — CURT:**\n> Then our part of the pipeline belongs in the story too.\n\n**Provenance:** `reconstructed` — creator decision.\n\n",
+  "source": "\n**Location:** `curt-home-office`\n\n**Frame:** Curt adds a new margin tag to the page plan: `CREATOR MEDIATION — VISIBLE`.\n\n**Font:** `human`\n\n**Dialogue — CURT:**\n> Then our part of the pipeline belongs in the story too.\n\n**Provenance:** `reconstructed` — creator decision.\n\n",
   "title": "Creator mediation becomes a visible page-plan tag"
 }

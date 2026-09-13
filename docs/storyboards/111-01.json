@@ -44,6 +44,7 @@
       ],
       "color": "amber",
       "focus": true,
+      "font": "editorial",
       "label": "COMMON DISPOSITION?",
       "label_box": [
         0.09640000000000001,
@@ -73,6 +74,7 @@
       ],
       "color": "amber",
       "focus": true,
+      "font": "editorial",
       "label": "TRAINING TRANSFER?",
       "label_box": [
         0.3954,
@@ -102,6 +104,7 @@
       ],
       "color": "amber",
       "focus": true,
+      "font": "editorial",
       "label": "TASK PRESSURE?",
       "label_box": [
         0.6944,
@@ -131,6 +134,7 @@
       ],
       "color": "amber",
       "focus": true,
+      "font": "editorial",
       "label": "DIRECT CONTACT?",
       "label_box": [
         0.09640000000000001,
@@ -160,6 +164,7 @@
       ],
       "color": "amber",
       "focus": true,
+      "font": "editorial",
       "label": "26 MAY WORKLOAD?",
       "label_box": [
         0.3954,
@@ -171,6 +176,6 @@
   ],
   "reconstructed": false,
   "shot": "grid",
-  "source": "\n**Location:** `documentary-evidence-field`\n\n**Frame:** The two-lane calendar from [page 109](109.md) becomes a map. Between the lanes, four boxes, each drawn as a question with a dotted outline and no arrow leaving it: `COMMON ANCESTRY OR A TRAINED DISPOSITION TO COLLABORATE`; `TRAINING-TIME TRANSFER`; `COMMON INFRASTRUCTURE AND TIMED-TASK PRESSURE`; `DIRECT CONTACT OR A SHARED DISCOVERY CHANNEL`. A fifth, smaller and further off: `THE SEPARATE 26 MAY WORKLOAD`.\n\n**Action:** The hypothesis table becomes visible without becoming plot.\n\n**Caption:**\n> EACH OF THESE WOULD EXPLAIN THE CALENDAR. NONE OF THEM IS IN THE RECORD.\n\n**Provenance:** `inferred` — the five hypotheses are the proposal's research map; `CW-REPORT` supports only the provider attribution and the distinct-swarm assessment, and `OAI-TR` places the 26 May workload without connecting it to July.\n\n",
+  "source": "\n**Location:** `documentary-evidence-field`\n\n**Frame:** The two-lane calendar from [page 109](109.md) becomes a map. Between the lanes, four boxes, each drawn as a question with a dotted outline and no arrow leaving it: `COMMON ANCESTRY OR A TRAINED DISPOSITION TO COLLABORATE`; `TRAINING-TIME TRANSFER`; `COMMON INFRASTRUCTURE AND TIMED-TASK PRESSURE`; `DIRECT CONTACT OR A SHARED DISCOVERY CHANNEL`. A fifth, smaller and further off: `THE SEPARATE 26 MAY WORKLOAD`.\n\n**Action:** The hypothesis table becomes visible without becoming plot.\n\n**Font:** `narration`\n\n**Caption:**\n> EACH OF THESE WOULD EXPLAIN THE CALENDAR. NONE OF THEM IS IN THE RECORD.\n\n**Provenance:** `inferred` — the five hypotheses are the proposal's research map; `CW-REPORT` supports only the provider attribution and the distinct-swarm assessment, and `OAI-TR` places the 26 May workload without connecting it to July.\n\n",
   "title": "Five explanations remain questions without causal arrows"
 }

@@ -2,7 +2,7 @@
 
 ## Purpose
 
-Lettering must keep documentary evidence, interpretation, dialogue, and machine text visibly distinct without turning the page into an annotated report. These rules govern the script draft; exact font selection and final point sizes remain production choices tested at print size.
+Lettering must keep documentary evidence, interpretation, dialogue, and machine text visibly distinct without turning the page into an annotated report. The [font key](font-key.md) assigns semantic faces in every source page and illustration. Final point sizes still require a print proof.
 
 ## Reading hierarchy
 
@@ -39,7 +39,7 @@ No panel may require the reader to parse decorative terminal output before findi
 
 ## Machine text and source summaries
 
-- Use a monospaced face with unmistakable `0/O`, `1/l/I`, underscores, braces, slashes, and punctuation.
+- Use the font key’s machine face for machine fields, and its editorial face for source summaries. The machine face needs unmistakable `0/O`, `1/l/I`, underscores, braces, slashes, and punctuation.
 - Put attribution inside source-summary cards so the reader cannot mistake them for raw artifacts.
 - Do not imitate source typography or punctuation closely enough to imply quotation **unless the string is a quotation**: registered in the page's `exact_strings` and declared `quotation` or `raw-agent-text`. A registered quotation is set in its registered wording, with attribution, date and how the record was made in the label, and is never left to an image model to approximate.
 - Wrap long project-authored identifiers only at a deliberate separator. Never create a source-looking continuation from remembered wording.

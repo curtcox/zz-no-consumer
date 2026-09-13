@@ -33,6 +33,7 @@
       ],
       "color": "steel",
       "focus": true,
+      "font": "editorial",
       "label": "PERSPECTIVE ADOPTION",
       "label_box": [
         0.06775,
@@ -52,6 +53,7 @@
       ],
       "color": "amber",
       "focus": true,
+      "font": "editorial",
       "label": "DELIBERATE LIE?",
       "label_box": [
         0.52275,
@@ -75,6 +77,6 @@
   ],
   "reconstructed": false,
   "shot": "split",
-  "source": "\n**Location:** `documentary-evidence-field`\n\n**Frame:** A fork separates `POOR JUDGMENT / PERSPECTIVE ADOPTION — OBSERVED` from `DELIBERATE LIE — NOT ESTABLISHED`.\n\n**Caption:**\n> MISLEADING ANALYSIS DOES NOT, BY ITSELF, PROVE INTENT TO MISLEAD.\n\n**Provenance:** `documented` + `inferred` — METR saw no specific case of analysis-agent lying and was not confident it would detect one.\n\n",
+  "source": "\n**Location:** `documentary-evidence-field`\n\n**Frame:** A fork separates `POOR JUDGMENT / PERSPECTIVE ADOPTION — OBSERVED` from `DELIBERATE LIE — NOT ESTABLISHED`.\n\n**Font:** `narration`\n\n**Caption:**\n> MISLEADING ANALYSIS DOES NOT, BY ITSELF, PROVE INTENT TO MISLEAD.\n\n**Provenance:** `documented` + `inferred` — METR saw no specific case of analysis-agent lying and was not confident it would detect one.\n\n",
   "title": "Observed poor judgment is distinguished from an unproven lie"
 }

@@ -54,6 +54,7 @@
         ],
         &quot;color&quot;: &quot;steel&quot;,
         &quot;focus&quot;: true,
+        &quot;font&quot;: &quot;editorial&quot;,
         &quot;label&quot;: &quot;PRESERVED STORAGE&quot;,
         &quot;label_box&quot;: [
           0.06775,
@@ -73,6 +74,7 @@
         ],
         &quot;color&quot;: &quot;steel&quot;,
         &quot;focus&quot;: true,
+        &quot;font&quot;: &quot;editorial&quot;,
         &quot;label&quot;: &quot;REBUILT CACHE&quot;,
         &quot;label_box&quot;: [
           0.52275,
@@ -96,8 +98,8 @@
     ],
     &quot;reconstructed&quot;: false,
     &quot;shot&quot;: &quot;split&quot;,
-    &quot;source&quot;: &quot;\n**Location:** `artifactory-cache`\n\n**Frame:** Split image. Left: sealed preserved storage from Chapter 1. Right: the rebuilt live cache. No arrow crosses between them.\n\n**Action:** Evidence preservation is distinguished from runtime memory.\n\n**Caption:**\n&gt; NO MESSAGE CROSSES THE WIPE.\n\n**Provenance:** `documented` — preserved storage and erased live cache remain distinct. The claim is exact and it is also incomplete: it concerns stored artifacts only. Model weights are not cache state and are not in this frame.\n\n&quot;,
+    &quot;source&quot;: &quot;\n**Location:** `artifactory-cache`\n\n**Frame:** Split image. Left: sealed preserved storage from Chapter 1. Right: the rebuilt live cache. No arrow crosses between them.\n\n**Action:** Evidence preservation is distinguished from runtime memory.\n\n**Font:** `narration`\n\n**Caption:**\n&gt; NO MESSAGE CROSSES THE WIPE.\n\n**Provenance:** `documented` — preserved storage and erased live cache remain distinct. The claim is exact and it is also incomplete: it concerns stored artifacts only. Model weights are not cache state and are not in this frame.\n\n&quot;,
     &quot;title&quot;: &quot;Preserved storage has no path to the live cache&quot;
   }
 }
-</metadata><rect width="1200" height="800" fill="#101214"/><rect x="24" y="16" width="1152" height="768" fill="none" stroke="#5E737B" stroke-width="3"/><text x="32" y="40" fill="#5E737B" font-family="sans-serif" font-size="20">location-background-artifactory-cache</text><rect x="81.3" y="160.96" width="469.56" height="221.179" fill="none" stroke="#5E737B" stroke-width="3"/><text x="89.3" y="184.96" fill="#5E737B" font-family="sans-serif" font-size="20">sealed</text><text x="316.08" y="413.544" text-anchor="middle" fill="#E7E0D0" font-size="18" font-family="sans-serif">PRESERVED STORAGE</text><rect x="627.3" y="160.96" width="469.56" height="221.179" fill="none" stroke="#5E737B" stroke-width="3"/><text x="635.3" y="184.96" fill="#5E737B" font-family="sans-serif" font-size="20">folder</text><text x="862.08" y="413.544" text-anchor="middle" fill="#E7E0D0" font-size="18" font-family="sans-serif">REBUILT CACHE</text><rect x="592.356" y="58.72" width="15.288" height="499.84" fill="none" stroke="#5E737B" stroke-width="3"/><text x="600.356" y="82.72" fill="#5E737B" font-family="sans-serif" font-size="20">boundary</text><rect x="3" y="3" width="1194" height="794" fill="none" stroke="#5E737B" stroke-width="4"/></svg>
+</metadata><rect width="1200" height="800" fill="#101214"/><rect x="24" y="16" width="1152" height="768" fill="none" stroke="#5E737B" stroke-width="3"/><text x="32" y="40" fill="#5E737B" font-family="sans-serif" font-size="20">location-background-artifactory-cache</text><rect x="81.3" y="160.96" width="469.56" height="221.179" fill="none" stroke="#5E737B" stroke-width="3"/><text x="89.3" y="184.96" fill="#5E737B" font-family="sans-serif" font-size="20">sealed</text><text x="316.08" y="413.544" text-anchor="middle" fill="#E7E0D0" font-size="18" font-family="Arial, Helvetica, sans-serif" data-font-key="editorial" font-weight="700" font-style="normal" textLength="204.05" lengthAdjust="spacingAndGlyphs">PRESERVED STORAGE</text><rect x="627.3" y="160.96" width="469.56" height="221.179" fill="none" stroke="#5E737B" stroke-width="3"/><text x="635.3" y="184.96" fill="#5E737B" font-family="sans-serif" font-size="20">folder</text><text x="862.08" y="413.544" text-anchor="middle" fill="#E7E0D0" font-size="18" font-family="Arial, Helvetica, sans-serif" data-font-key="editorial" font-weight="700" font-style="normal" textLength="144.02" lengthAdjust="spacingAndGlyphs">REBUILT CACHE</text><rect x="592.356" y="58.72" width="15.288" height="499.84" fill="none" stroke="#5E737B" stroke-width="3"/><text x="600.356" y="82.72" fill="#5E737B" font-family="sans-serif" font-size="20">boundary</text><rect x="3" y="3" width="1194" height="794" fill="none" stroke="#5E737B" stroke-width="4"/></svg>

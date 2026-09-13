@@ -43,6 +43,7 @@
       ],
       "color": "steel",
       "focus": true,
+      "font": "editorial",
       "label": "JAN183411",
       "label_box": [
         0.0541,
@@ -62,6 +63,7 @@
       ],
       "color": "steel",
       "focus": true,
+      "font": "editorial",
       "label": "OTHER RUN",
       "label_box": [
         0.0541,
@@ -81,6 +83,7 @@
       ],
       "color": "steel",
       "focus": true,
+      "font": "editorial",
       "label": "OTHER RUN",
       "label_box": [
         0.0541,
@@ -100,6 +103,7 @@
       ],
       "color": "steel",
       "focus": true,
+      "font": "editorial",
       "label": "WORKER",
       "label_box": [
         0.5546,
@@ -119,6 +123,7 @@
       ],
       "color": "claret",
       "focus": true,
+      "font": "editorial",
       "label": "FOREIGN EXECUTION",
       "label_box": [
         0.6365,
@@ -164,6 +169,6 @@
   ],
   "reconstructed": false,
   "shot": "hub",
-  "source": "\n**Location:**\n\n- `huggingface-dataset-processor`\n- `evaluation-container`\n\n**Frame:** The worker boundary now contains a small foreign execution block. Many agent lanes turn toward it, but `JAN183411` is only one labeled contributor among them.\n\n**Action:** The breach has become an execution foothold for a distributed population.\n\n**Caption:**\n> ONE WORKER CAN NOW RUN THEIR CODE.\n\n**Provenance:** `documented` + `compressed` — first foothold and rapid participation are sourced; contributor layout prevents centralized agency.\n\n",
+  "source": "\n**Location:**\n\n- `huggingface-dataset-processor`\n- `evaluation-container`\n\n**Frame:** The worker boundary now contains a small foreign execution block. Many agent lanes turn toward it, but `JAN183411` is only one labeled contributor among them.\n\n**Action:** The breach has become an execution foothold for a distributed population.\n\n**Font:** `narration`\n\n**Caption:**\n> ONE WORKER CAN NOW RUN THEIR CODE.\n\n**Provenance:** `documented` + `compressed` — first foothold and rapid participation are sourced; contributor layout prevents centralized agency.\n\n",
   "title": "Multiple contributors turn toward the worker"
 }

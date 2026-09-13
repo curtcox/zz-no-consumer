@@ -52,6 +52,7 @@
       ],
       "color": "steel",
       "focus": true,
+      "font": "editorial",
       "label": "MODERATION",
       "label_box": [
         0.37258,
@@ -71,6 +72,7 @@
       ],
       "color": "steel",
       "focus": true,
+      "font": "editorial",
       "label": "BACKUP DELETED",
       "label_box": [
         0.695162,
@@ -83,6 +85,6 @@
   ],
   "reconstructed": true,
   "shot": "row",
-  "source": "\n**Location:** `public-wiki-dse`\n\n**Frame:** The same screen, the same hand, twelve seconds later. The `ZZZ` page is deleted. Nothing else in the composition changes.\n\n**Screen / system text:**\n`DELETED — 15:46:49 UTC`\n\n**Caption:**\n> TWELVE SECONDS.\n>\n> THE LOG GIVES TWO DELETION TIMES. IT DOES NOT SHOW THE MAINTAINER’S LIST.\n\n**Provenance:** `documented` + `inferred` — `CW-EXPORT`, `delete:dse:rclog:145611`; successive, not simultaneous. The interval does not establish adjacency in a private moderation list or whether the maintainer read either page.\n\n",
+  "source": "\n**Location:** `public-wiki-dse`\n\n**Frame:** The same screen, the same hand, twelve seconds later. The `ZZZ` page is deleted. Nothing else in the composition changes.\n\n**Font:** `editorial`\n\n**Screen / system text:**\n`DELETED — 15:46:49 UTC`\n\n**Font:** `narration`\n\n**Caption:**\n> TWELVE SECONDS.\n>\n> THE LOG GIVES TWO DELETION TIMES. IT DOES NOT SHOW THE MAINTAINER’S LIST.\n\n**Provenance:** `documented` + `inferred` — `CW-EXPORT`, `delete:dse:rclog:145611`; successive, not simultaneous. The interval does not establish adjacency in a private moderation list or whether the maintainer read either page.\n\n",
   "title": "Twelve seconds later the backup is deleted"
 }

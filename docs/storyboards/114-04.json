@@ -33,6 +33,7 @@
       ],
       "color": "steel",
       "focus": true,
+      "font": "editorial",
       "label": "MONITORING",
       "label_box": [
         0.06775,
@@ -52,6 +53,7 @@
       ],
       "color": "steel",
       "focus": true,
+      "font": "editorial",
       "label": "EVIDENCE BOUNDARIES",
       "label_box": [
         0.371083,
@@ -71,6 +73,7 @@
       ],
       "color": "steel",
       "focus": true,
+      "font": "editorial",
       "label": "FIRST MESSAGE",
       "label_box": [
         0.674417,
@@ -83,6 +86,6 @@
   ],
   "reconstructed": false,
   "shot": "row",
-  "source": "\n**Location:** `public-web`\n\n**Frame:** Public readers open different pages: an incident responder studies monitoring; a researcher studies evidence boundaries; another reader starts at the first `zzHELP` message.\n\n**Caption:**\n> THE STORY ENTERS CULTURE THROUGH MORE THAN ONE READER.\n\n**Provenance:** `reconstructed` + `inferred` — representative reception, not measured readership.\n\n",
+  "source": "\n**Location:** `public-web`\n\n**Frame:** Public readers open different pages: an incident responder studies monitoring; a researcher studies evidence boundaries; another reader starts at the first `zzHELP` message.\n\n**Font:** `narration`\n\n**Caption:**\n> THE STORY ENTERS CULTURE THROUGH MORE THAN ONE READER.\n\n**Provenance:** `reconstructed` + `inferred` — representative reception, not measured readership.\n\n",
   "title": "Readers open different parts of the published book"
 }

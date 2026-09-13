@@ -51,6 +51,7 @@
         ],
         &quot;color&quot;: &quot;steel&quot;,
         &quot;focus&quot;: true,
+        &quot;font&quot;: &quot;editorial&quot;,
         &quot;label&quot;: &quot;WHO INVESTIGATED?&quot;,
         &quot;label_box&quot;: [
           0.1792,
@@ -69,6 +70,7 @@
         ],
         &quot;color&quot;: &quot;steel&quot;,
         &quot;focus&quot;: true,
+        &quot;font&quot;: &quot;editorial&quot;,
         &quot;label&quot;: &quot;WHAT WAS RETAINED?&quot;,
         &quot;label_box&quot;: [
           0.1792,
@@ -87,6 +89,7 @@
         ],
         &quot;color&quot;: &quot;steel&quot;,
         &quot;focus&quot;: true,
+        &quot;font&quot;: &quot;editorial&quot;,
         &quot;label&quot;: &quot;WHO WAS TOLD?&quot;,
         &quot;label_box&quot;: [
           0.1792,
@@ -105,6 +108,7 @@
         ],
         &quot;color&quot;: &quot;steel&quot;,
         &quot;focus&quot;: true,
+        &quot;font&quot;: &quot;editorial&quot;,
         &quot;label&quot;: &quot;WHO COULD REVIEW?&quot;,
         &quot;label_box&quot;: [
           0.1792,
@@ -123,6 +127,7 @@
         ],
         &quot;color&quot;: &quot;steel&quot;,
         &quot;focus&quot;: true,
+        &quot;font&quot;: &quot;editorial&quot;,
         &quot;label&quot;: &quot;WHY NO PUBLIC ACCOUNT?&quot;,
         &quot;label_box&quot;: [
           0.1792,
@@ -134,8 +139,8 @@
     ],
     &quot;reconstructed&quot;: false,
     &quot;shot&quot;: &quot;stack&quot;,
-    &quot;source&quot;: &quot;\n**Location:** `curt-home-office`\n\n**Frame:** Curt writes a column of questions on the page plan, each ending in a question mark, none answered: who investigated the wiki; what was retained; which teams were told; whether a cross-workload review happened; whether the case was available to the independent reviewers; why the September researchers found no specific public account.\n\n**Dialogue — CURT:**\n&gt; These are not accusations. They are the questions an account would have answered.\n\n**Provenance:** `reconstructed` + `inferred` — creator action; the questions are the project&#x27;s and are drawn from the proposal&#x27;s disclosure analysis. No answer is implied.\n\n&quot;,
+    &quot;source&quot;: &quot;\n**Location:** `curt-home-office`\n\n**Frame:** Curt writes a column of questions on the page plan, each ending in a question mark, none answered: who investigated the wiki; what was retained; which teams were told; whether a cross-workload review happened; whether the case was available to the independent reviewers; why the September researchers found no specific public account.\n\n**Font:** `human`\n\n**Dialogue — CURT:**\n&gt; These are not accusations. They are the questions an account would have answered.\n\n**Provenance:** `reconstructed` + `inferred` — creator action; the questions are the project&#x27;s and are drawn from the proposal&#x27;s disclosure analysis. No answer is implied.\n\n&quot;,
     &quot;title&quot;: &quot;The page plan holds unanswered disclosure questions&quot;
   }
 }
-</metadata><rect width="1200" height="800" fill="#101214"/><rect x="24" y="16" width="1152" height="768" fill="none" stroke="#5E737B" stroke-width="3"/><text x="32" y="40" fill="#5E737B" font-family="sans-serif" font-size="20">location-background-curt-home-office</text><rect x="576.058" y="76.96" width="25.8048" height="51.6096" fill="none" stroke="#5E737B" stroke-width="3"/><text x="584.058" y="100.96" fill="#5E737B" font-family="sans-serif" font-size="20">question</text><text x="588.96" y="152.62" text-anchor="middle" fill="#E7E0D0" font-size="19.25" font-family="sans-serif">WHO INVESTIGATED?</text><rect x="576.058" y="166.048" width="25.8048" height="51.6096" fill="none" stroke="#5E737B" stroke-width="3"/><text x="584.058" y="190.048" fill="#5E737B" font-family="sans-serif" font-size="20">question</text><text x="588.96" y="241.708" text-anchor="middle" fill="#E7E0D0" font-size="19.25" font-family="sans-serif">WHAT WAS RETAINED?</text><rect x="576.058" y="255.136" width="25.8048" height="51.6096" fill="none" stroke="#5E737B" stroke-width="3"/><text x="584.058" y="279.136" fill="#5E737B" font-family="sans-serif" font-size="20">question</text><text x="588.96" y="330.796" text-anchor="middle" fill="#E7E0D0" font-size="19.25" font-family="sans-serif">WHO WAS TOLD?</text><rect x="576.058" y="344.224" width="25.8048" height="51.6096" fill="none" stroke="#5E737B" stroke-width="3"/><text x="584.058" y="368.224" fill="#5E737B" font-family="sans-serif" font-size="20">question</text><text x="588.96" y="419.884" text-anchor="middle" fill="#E7E0D0" font-size="19.25" font-family="sans-serif">WHO COULD REVIEW?</text><rect x="576.058" y="433.312" width="25.8048" height="51.6096" fill="none" stroke="#5E737B" stroke-width="3"/><text x="584.058" y="457.312" fill="#5E737B" font-family="sans-serif" font-size="20">question</text><text x="588.96" y="509.722" text-anchor="middle" fill="#E7E0D0" font-size="20" font-family="sans-serif">WHY NO PUBLIC ACCOUNT?</text><rect x="3" y="3" width="1194" height="794" fill="none" stroke="#5E737B" stroke-width="4"/></svg>
+</metadata><rect width="1200" height="800" fill="#101214"/><rect x="24" y="16" width="1152" height="768" fill="none" stroke="#5E737B" stroke-width="3"/><text x="32" y="40" fill="#5E737B" font-family="sans-serif" font-size="20">location-background-curt-home-office</text><rect x="576.058" y="76.96" width="25.8048" height="51.6096" fill="none" stroke="#5E737B" stroke-width="3"/><text x="584.058" y="100.96" fill="#5E737B" font-family="sans-serif" font-size="20">question</text><text x="588.96" y="152.62" text-anchor="middle" fill="#E7E0D0" font-size="19.25" font-family="Arial, Helvetica, sans-serif" data-font-key="editorial" font-weight="700" font-style="normal" textLength="204.30" lengthAdjust="spacingAndGlyphs">WHO INVESTIGATED?</text><rect x="576.058" y="166.048" width="25.8048" height="51.6096" fill="none" stroke="#5E737B" stroke-width="3"/><text x="584.058" y="190.048" fill="#5E737B" font-family="sans-serif" font-size="20">question</text><text x="588.96" y="241.708" text-anchor="middle" fill="#E7E0D0" font-size="19.25" font-family="Arial, Helvetica, sans-serif" data-font-key="editorial" font-weight="700" font-style="normal" textLength="219.26" lengthAdjust="spacingAndGlyphs">WHAT WAS RETAINED?</text><rect x="576.058" y="255.136" width="25.8048" height="51.6096" fill="none" stroke="#5E737B" stroke-width="3"/><text x="584.058" y="279.136" fill="#5E737B" font-family="sans-serif" font-size="20">question</text><text x="588.96" y="330.796" text-anchor="middle" fill="#E7E0D0" font-size="19.25" font-family="Arial, Helvetica, sans-serif" data-font-key="editorial" font-weight="700" font-style="normal" textLength="163.64" lengthAdjust="spacingAndGlyphs">WHO WAS TOLD?</text><rect x="576.058" y="344.224" width="25.8048" height="51.6096" fill="none" stroke="#5E737B" stroke-width="3"/><text x="584.058" y="368.224" fill="#5E737B" font-family="sans-serif" font-size="20">question</text><text x="588.96" y="419.884" text-anchor="middle" fill="#E7E0D0" font-size="19.25" font-family="Arial, Helvetica, sans-serif" data-font-key="editorial" font-weight="700" font-style="normal" textLength="211.77" lengthAdjust="spacingAndGlyphs">WHO COULD REVIEW?</text><rect x="576.058" y="433.312" width="25.8048" height="51.6096" fill="none" stroke="#5E737B" stroke-width="3"/><text x="584.058" y="457.312" fill="#5E737B" font-family="sans-serif" font-size="20">question</text><text x="588.96" y="509.722" text-anchor="middle" fill="#E7E0D0" font-size="20" font-family="Arial, Helvetica, sans-serif" data-font-key="editorial" font-weight="700" font-style="normal" textLength="275.58" lengthAdjust="spacingAndGlyphs">WHY NO PUBLIC ACCOUNT?</text><rect x="3" y="3" width="1194" height="794" fill="none" stroke="#5E737B" stroke-width="4"/></svg>

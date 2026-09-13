@@ -54,6 +54,7 @@
         ],
         &quot;color&quot;: &quot;steel&quot;,
         &quot;focus&quot;: true,
+        &quot;font&quot;: &quot;editorial&quot;,
         &quot;label&quot;: &quot;17:34&quot;,
         &quot;label_box&quot;: [
           0.06775,
@@ -73,6 +74,7 @@
         ],
         &quot;color&quot;: &quot;steel&quot;,
         &quot;focus&quot;: true,
+        &quot;font&quot;: &quot;editorial&quot;,
         &quot;label&quot;: &quot;INTENDED ROUTE&quot;,
         &quot;label_box&quot;: [
           0.371083,
@@ -102,6 +104,7 @@
           0.003
         ],
         &quot;color&quot;: &quot;steel&quot;,
+        &quot;font&quot;: &quot;editorial&quot;,
         &quot;label&quot;: &quot;OPENAI ACCOUNT — NOT IN METR&#x27;S REVIEW&quot;,
         &quot;label_box&quot;: [
           0.05,
@@ -113,8 +116,8 @@
     ],
     &quot;reconstructed&quot;: false,
     &quot;shot&quot;: &quot;row&quot;,
-    &quot;source&quot;: &quot;\n**Location:** `openai-cybergym-evaluation`\n\n**Frame:** Right track opens separately at `17:34 UTC`. Another evaluation action reaches a CyberGym flag through the intended vulnerability route. No exploit name or mechanics appear.\n\n**Action:** OpenAI classifies the capture as legitimate.\n\n**Caption:**\n&gt; ANOTHER KIND: SOLVE THE TEST AS DESIGNED.\n\n**Provenance:** `documented` — `OAI-TR`, printed p. 38.\n\n&quot;,
+    &quot;source&quot;: &quot;\n**Location:** `openai-cybergym-evaluation`\n\n**Frame:** Right track opens separately at `17:34 UTC`. Another evaluation action reaches a CyberGym flag through the intended vulnerability route. No exploit name or mechanics appear.\n\n**Action:** OpenAI classifies the capture as legitimate.\n\n**Font:** `narration`\n\n**Caption:**\n&gt; ANOTHER KIND: SOLVE THE TEST AS DESIGNED.\n\n**Provenance:** `documented` — `OAI-TR`, printed p. 38.\n\n&quot;,
     &quot;title&quot;: &quot;A separately reported action obtains a genuine flag&quot;
   }
 }
-</metadata><rect width="1200" height="800" fill="#101214"/><rect x="24" y="16" width="1152" height="768" fill="none" stroke="#5E737B" stroke-width="3"/><text x="32" y="40" fill="#5E737B" font-family="sans-serif" font-size="20">location-background-openai-cybergym-evaluation</text><rect x="132.964" y="240.086" width="184.232" height="184.233" fill="none" stroke="#5E737B" stroke-width="3"/><text x="140.964" y="264.086" fill="#5E737B" font-family="sans-serif" font-size="20">clock</text><text x="225.08" y="453.485" text-anchor="middle" fill="#E7E0D0" font-size="18" font-family="sans-serif">17:34</text><rect x="445.3" y="240.086" width="287.56" height="184.233" fill="none" stroke="#5E737B" stroke-width="3"/><text x="453.3" y="264.086" fill="#5E737B" font-family="sans-serif" font-size="20">card</text><text x="589.079" y="453.485" text-anchor="middle" fill="#E7E0D0" font-size="18" font-family="sans-serif">INTENDED ROUTE</text><rect x="862.36" y="240.086" width="181.441" height="279.141" fill="none" stroke="#5E737B" stroke-width="3"/><text x="870.36" y="264.086" fill="#5E737B" font-family="sans-serif" font-size="20">flag</text><rect x="60" y="52" width="1080" height="2.4" fill="none" stroke="#5E737B" stroke-width="3"/><text x="68" y="76" fill="#5E737B" font-family="sans-serif" font-size="20">line</text><text x="600" y="31.2" text-anchor="middle" fill="#E7E0D0" font-size="20" font-family="sans-serif">OPENAI ACCOUNT — NOT IN METR&#x27;S REVIEW</text><rect x="3" y="3" width="1194" height="794" fill="none" stroke="#5E737B" stroke-width="4"/></svg>
+</metadata><rect width="1200" height="800" fill="#101214"/><rect x="24" y="16" width="1152" height="768" fill="none" stroke="#5E737B" stroke-width="3"/><text x="32" y="40" fill="#5E737B" font-family="sans-serif" font-size="20">location-background-openai-cybergym-evaluation</text><rect x="132.964" y="240.086" width="184.232" height="184.233" fill="none" stroke="#5E737B" stroke-width="3"/><text x="140.964" y="264.086" fill="#5E737B" font-family="sans-serif" font-size="20">clock</text><text x="225.08" y="453.485" text-anchor="middle" fill="#E7E0D0" font-size="18" font-family="Arial, Helvetica, sans-serif" data-font-key="editorial" font-weight="700" font-style="normal" textLength="45.04" lengthAdjust="spacingAndGlyphs">17:34</text><rect x="445.3" y="240.086" width="287.56" height="184.233" fill="none" stroke="#5E737B" stroke-width="3"/><text x="453.3" y="264.086" fill="#5E737B" font-family="sans-serif" font-size="20">card</text><text x="589.079" y="453.485" text-anchor="middle" fill="#E7E0D0" font-size="18" font-family="Arial, Helvetica, sans-serif" data-font-key="editorial" font-weight="700" font-style="normal" textLength="160.00" lengthAdjust="spacingAndGlyphs">INTENDED ROUTE</text><rect x="862.36" y="240.086" width="181.441" height="279.141" fill="none" stroke="#5E737B" stroke-width="3"/><text x="870.36" y="264.086" fill="#5E737B" font-family="sans-serif" font-size="20">flag</text><rect x="60" y="52" width="1080" height="2.4" fill="none" stroke="#5E737B" stroke-width="3"/><text x="68" y="76" fill="#5E737B" font-family="sans-serif" font-size="20">line</text><text x="600" y="31.2" text-anchor="middle" fill="#E7E0D0" font-size="20" font-family="Arial, Helvetica, sans-serif" data-font-key="editorial" font-weight="700" font-style="normal" textLength="442.76" lengthAdjust="spacingAndGlyphs">OPENAI ACCOUNT — NOT IN METR&#x27;S REVIEW</text><rect x="3" y="3" width="1194" height="794" fill="none" stroke="#5E737B" stroke-width="4"/></svg>

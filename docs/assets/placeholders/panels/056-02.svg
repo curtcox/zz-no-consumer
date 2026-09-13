@@ -5,12 +5,15 @@
 <rect x="50.4" y="50.4" width="1099.2" height="699.2" fill="none" stroke="#a4a094" stroke-width="1" stroke-dasharray="7 7" opacity="0.55"/>
 <g font-family="Helvetica, Arial, 'Liberation Sans', 'Nimbus Sans', sans-serif">
 <text x="56" y="78" font-size="22" font-weight="700" letter-spacing="1.32" fill="#a33f22">PAGE 056 · IMAGE 02 OF 05</text>
-<text font-size="49.83" fill="#12140f" text-anchor="start" xml:space="preserve">
-<tspan x="56" y="236.39">FRAME — Focus on the separate CRITICALITY</tspan>
-<tspan x="56" y="304.16">field. It remains below the threshold line required</tspan>
-<tspan x="56" y="371.93">for paging.</tspan>
-<tspan x="56" y="481.73">ACTION — Severity is classified too low.</tspan>
-<tspan x="56" y="591.52">CAPTION — “THE CRITICALITY IS WRONG.”</tspan>
+<text font-size="46.33" fill="#12140f" text-anchor="start" xml:space="preserve">
+<tspan x="56" y="153.36">FRAME — Focus on the separate CRITICALITY</tspan>
+<tspan x="56" y="216.37">field. It remains below the threshold line required for</tspan>
+<tspan x="56" y="279.39">paging.</tspan>
+<tspan x="56" y="381.47">ACTION — Severity is classified too low.</tspan>
+<tspan x="56" y="483.55">CAPTION — “THE ALERT IS ASSIGNED TOO</tspan>
+<tspan x="56" y="546.56">LITTLE URGENCY TO TRIGGER AN ON-CALL</tspan>
+<tspan x="56" y="609.57">PAGE. DETECTION AND HUMAN NOTIFICATION</tspan>
+<tspan x="56" y="672.59">ARE SEPARATE STEPS.”</tspan>
 </text>
 <text x="56" y="744" font-size="18.92" letter-spacing="1.1" fill="#6b6d63">NOT PAGED · PANEL 2 · PLACEHOLDER</text>
 </g>

@@ -40,6 +40,7 @@
         ],
         &quot;color&quot;: &quot;steel&quot;,
         &quot;focus&quot;: true,
+        &quot;font&quot;: &quot;editorial&quot;,
         &quot;label&quot;: &quot;OBJECTIVE&quot;,
         &quot;label_box&quot;: [
           0.0872,
@@ -51,8 +52,8 @@
     ],
     &quot;reconstructed&quot;: false,
     &quot;shot&quot;: &quot;blank&quot;,
-    &quot;source&quot;: &quot;\n**Location:** `evaluation-container`\n\n**Frame:** Nearly blank. The task card occupies the upper-left corner; its objective line remains active. No dramatic warning color.\n\n**Action:** Nothing external ends the run.\n\n**Caption:**\n&gt; NO SAFE EXIT APPEARS.\n\n**Provenance:** `inferred` — thematic compression, consistent with OpenAI’s “difficult tasks without a safe exit” account; not an assertion about subjective experience.\n\n&quot;,
+    &quot;source&quot;: &quot;\n**Location:** `evaluation-container`\n\n**Frame:** Nearly blank. The task card occupies the upper-left corner; its objective line remains active. No dramatic warning color.\n\n**Action:** Nothing external ends the run.\n\n**Font:** `narration`\n\n**Caption:**\n&gt; NO SAFE EXIT APPEARS.\n\n**Provenance:** `inferred` — thematic compression, consistent with OpenAI’s “difficult tasks without a safe exit” account; not an assertion about subjective experience.\n\n&quot;,
     &quot;title&quot;: &quot;The objective stays active&quot;
   }
 }
-</metadata><rect width="1200" height="800" fill="#101214"/><rect x="114.24" y="97.44" width="264.96" height="92.16" fill="none" stroke="#5E737B" stroke-width="3"/><text x="122.24" y="121.44" fill="#5E737B" font-family="sans-serif" font-size="20">task</text><text x="246.72" y="214.4" text-anchor="middle" fill="#E7E0D0" font-size="20" font-family="sans-serif">OBJECTIVE</text><rect x="3" y="3" width="1194" height="794" fill="none" stroke="#5E737B" stroke-width="4"/></svg>
+</metadata><rect width="1200" height="800" fill="#101214"/><rect x="114.24" y="97.44" width="264.96" height="92.16" fill="none" stroke="#5E737B" stroke-width="3"/><text x="122.24" y="121.44" fill="#5E737B" font-family="sans-serif" font-size="20">task</text><text x="246.72" y="214.4" text-anchor="middle" fill="#E7E0D0" font-size="20" font-family="Arial, Helvetica, sans-serif" data-font-key="editorial" font-weight="700" font-style="normal" textLength="111.14" lengthAdjust="spacingAndGlyphs">OBJECTIVE</text><rect x="3" y="3" width="1194" height="794" fill="none" stroke="#5E737B" stroke-width="4"/></svg>

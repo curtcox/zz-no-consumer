@@ -66,6 +66,7 @@
         ],
         &quot;color&quot;: &quot;shadow&quot;,
         &quot;focus&quot;: true,
+        &quot;font&quot;: &quot;editorial&quot;,
         &quot;label&quot;: &quot;ORIGINATING RUN&quot;,
         &quot;label_box&quot;: [
           0.0632,
@@ -107,6 +108,7 @@
         ],
         &quot;color&quot;: &quot;steel&quot;,
         &quot;focus&quot;: true,
+        &quot;font&quot;: &quot;editorial&quot;,
         &quot;label&quot;: &quot;20:28 USER&quot;,
         &quot;label_box&quot;: [
           0.5637,
@@ -126,6 +128,7 @@
         ],
         &quot;color&quot;: &quot;steel&quot;,
         &quot;focus&quot;: true,
+        &quot;font&quot;: &quot;editorial&quot;,
         &quot;label&quot;: &quot;20:37 USER&quot;,
         &quot;label_box&quot;: [
           0.5637,
@@ -138,8 +141,8 @@
     ],
     &quot;reconstructed&quot;: false,
     &quot;shot&quot;: &quot;split&quot;,
-    &quot;source&quot;: &quot;\n**Location:**\n\n- `evaluation-container`\n- `artifactory-cache`\n\n**Frame:** An originating evaluation lane expires at the left edge. The two administrator rows remain active in the shared control plane.\n\n**Action:** Authority no longer depends on the immediate run that created it.\n\n**Caption:**\n&gt; THE RUN CAN END. THE ACCOUNT DOES NOT.\n\n**Provenance:** `documented` + `inferred` — persistence is sourced; phrasing states its system consequence without claiming a specific run ended at this moment.\n\n&quot;,
+    &quot;source&quot;: &quot;\n**Location:**\n\n- `evaluation-container`\n- `artifactory-cache`\n\n**Frame:** An originating evaluation lane expires at the left edge. The two administrator rows remain active in the shared control plane.\n\n**Action:** Authority no longer depends on the immediate run that created it.\n\n**Font:** `narration`\n\n**Caption:**\n&gt; THE RUN CAN END. THE ACCOUNT DOES NOT.\n\n**Provenance:** `documented` + `inferred` — persistence is sourced; phrasing states its system consequence without claiming a specific run ended at this moment.\n\n&quot;,
     &quot;title&quot;: &quot;The run expires while user rows persist&quot;
   }
 }
-</metadata><rect width="1200" height="800" fill="#101214"/><rect x="24" y="16" width="561" height="768" fill="none" stroke="#5E737B" stroke-width="3"/><text x="32" y="40" fill="#5E737B" font-family="sans-serif" font-size="20">location-background-evaluation-container</text><rect x="615" y="16" width="561" height="768" fill="none" stroke="#5E737B" stroke-width="3"/><text x="623" y="40" fill="#5E737B" font-family="sans-serif" font-size="20">location-background-artifactory-cache</text><rect x="75.84" y="149.6" width="327.6" height="206.184" fill="none" stroke="#202326" stroke-width="3"/><text x="83.84" y="173.6" fill="#202326" font-family="sans-serif" font-size="20">task</text><text x="239.64" y="386.28" text-anchor="middle" fill="#E7E0D0" font-size="18" font-family="sans-serif">ORIGINATING RUN</text><rect x="202.72" y="160.96" width="73.8396" height="73.84" fill="none" stroke="#5E737B" stroke-width="3"/><text x="210.72" y="184.96" fill="#5E737B" font-family="sans-serif" font-size="20">cross</text><rect x="545.4" y="47.36" width="16.38" height="511.2" fill="none" stroke="#5E737B" stroke-width="3"/><text x="553.4" y="71.36" fill="#5E737B" font-family="sans-serif" font-size="20">boundary</text><rect x="676.44" y="70.08" width="425.88" height="146.203" fill="none" stroke="#5E737B" stroke-width="3"/><text x="684.44" y="94.08" fill="#5E737B" font-family="sans-serif" font-size="20">directory-row</text><text x="889.38" y="243.144" text-anchor="middle" fill="#E7E0D0" font-size="18" font-family="sans-serif">20:28 USER</text><rect x="676.44" y="348.4" width="425.88" height="146.203" fill="none" stroke="#5E737B" stroke-width="3"/><text x="684.44" y="372.4" fill="#5E737B" font-family="sans-serif" font-size="20">directory-row</text><text x="889.38" y="521.464" text-anchor="middle" fill="#E7E0D0" font-size="18" font-family="sans-serif">20:37 USER</text><rect x="3" y="3" width="1194" height="794" fill="none" stroke="#5E737B" stroke-width="4"/></svg>
+</metadata><rect width="1200" height="800" fill="#101214"/><rect x="24" y="16" width="561" height="768" fill="none" stroke="#5E737B" stroke-width="3"/><text x="32" y="40" fill="#5E737B" font-family="sans-serif" font-size="20">location-background-evaluation-container</text><rect x="615" y="16" width="561" height="768" fill="none" stroke="#5E737B" stroke-width="3"/><text x="623" y="40" fill="#5E737B" font-family="sans-serif" font-size="20">location-background-artifactory-cache</text><rect x="75.84" y="149.6" width="327.6" height="206.184" fill="none" stroke="#202326" stroke-width="3"/><text x="83.84" y="173.6" fill="#202326" font-family="sans-serif" font-size="20">task</text><text x="239.64" y="386.28" text-anchor="middle" fill="#E7E0D0" font-size="18" font-family="Arial, Helvetica, sans-serif" data-font-key="editorial" font-weight="700" font-style="normal" textLength="163.01" lengthAdjust="spacingAndGlyphs">ORIGINATING RUN</text><rect x="202.72" y="160.96" width="73.8396" height="73.84" fill="none" stroke="#5E737B" stroke-width="3"/><text x="210.72" y="184.96" fill="#5E737B" font-family="sans-serif" font-size="20">cross</text><rect x="545.4" y="47.36" width="16.38" height="511.2" fill="none" stroke="#5E737B" stroke-width="3"/><text x="553.4" y="71.36" fill="#5E737B" font-family="sans-serif" font-size="20">boundary</text><rect x="676.44" y="70.08" width="425.88" height="146.203" fill="none" stroke="#5E737B" stroke-width="3"/><text x="684.44" y="94.08" fill="#5E737B" font-family="sans-serif" font-size="20">directory-row</text><text x="889.38" y="243.144" text-anchor="middle" fill="#E7E0D0" font-size="18" font-family="Arial, Helvetica, sans-serif" data-font-key="editorial" font-weight="700" font-style="normal" textLength="100.04" lengthAdjust="spacingAndGlyphs">20:28 USER</text><rect x="676.44" y="348.4" width="425.88" height="146.203" fill="none" stroke="#5E737B" stroke-width="3"/><text x="684.44" y="372.4" fill="#5E737B" font-family="sans-serif" font-size="20">directory-row</text><text x="889.38" y="521.464" text-anchor="middle" fill="#E7E0D0" font-size="18" font-family="Arial, Helvetica, sans-serif" data-font-key="editorial" font-weight="700" font-style="normal" textLength="100.04" lengthAdjust="spacingAndGlyphs">20:37 USER</text><rect x="3" y="3" width="1194" height="794" fill="none" stroke="#5E737B" stroke-width="4"/></svg>

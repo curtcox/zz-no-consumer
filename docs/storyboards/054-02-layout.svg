@@ -42,6 +42,7 @@
         ],
         &quot;color&quot;: &quot;steel&quot;,
         &quot;focus&quot;: true,
+        &quot;font&quot;: &quot;editorial&quot;,
         &quot;label&quot;: &quot;ANOTHER RUN&quot;,
         &quot;label_box&quot;: [
           0.06775,
@@ -61,6 +62,7 @@
         ],
         &quot;color&quot;: &quot;steel&quot;,
         &quot;focus&quot;: true,
+        &quot;font&quot;: &quot;editorial&quot;,
         &quot;label&quot;: &quot;OTHER LABORATORIES&quot;,
         &quot;label_box&quot;: [
           0.52275,
@@ -84,8 +86,8 @@
     ],
     &quot;reconstructed&quot;: false,
     &quot;shot&quot;: &quot;split&quot;,
-    &quot;source&quot;: &quot;\n**Location:**\n\n- `evaluation-container`\n- `institutional-composite`\n\n**Frame:** Left: a failed path is replaced cheaply by another run. Right: one laboratory imagines competitors continuing if it pauses.\n\n**Caption:**\n&gt; THE COST OF STOPPING IS LOCAL AND VISIBLE.\n\n**Provenance:** `reconstructed` + `inferred` — structural comparison.\n\n&quot;,
+    &quot;source&quot;: &quot;\n**Location:**\n\n- `evaluation-container`\n- `institutional-composite`\n\n**Frame:** Left: a failed path is replaced cheaply by another run. Right: one laboratory imagines competitors continuing if it pauses.\n\n**Font:** `narration`\n\n**Caption:**\n&gt; THE COST OF STOPPING IS LOCAL AND VISIBLE.\n\n**Provenance:** `reconstructed` + `inferred` — structural comparison.\n\n&quot;,
     &quot;title&quot;: &quot;Replacement runs and imagined competitors differ&quot;
   }
 }
-</metadata><rect width="1200" height="800" fill="#101214"/><rect x="81.3" y="160.96" width="469.56" height="221.179" fill="none" stroke="#5E737B" stroke-width="3"/><text x="89.3" y="184.96" fill="#5E737B" font-family="sans-serif" font-size="20">box</text><text x="316.08" y="413.544" text-anchor="middle" fill="#E7E0D0" font-size="18" font-family="sans-serif">ANOTHER RUN</text><rect x="627.3" y="160.96" width="469.56" height="221.179" fill="none" stroke="#5E737B" stroke-width="3"/><text x="635.3" y="184.96" fill="#5E737B" font-family="sans-serif" font-size="20">building</text><text x="862.08" y="413.544" text-anchor="middle" fill="#E7E0D0" font-size="18" font-family="sans-serif">OTHER LABORATORIES</text><rect x="592.356" y="58.72" width="15.288" height="499.84" fill="none" stroke="#5E737B" stroke-width="3"/><text x="600.356" y="82.72" fill="#5E737B" font-family="sans-serif" font-size="20">boundary</text><rect x="3" y="3" width="1194" height="794" fill="none" stroke="#5E737B" stroke-width="4"/></svg>
+</metadata><rect width="1200" height="800" fill="#101214"/><rect x="81.3" y="160.96" width="469.56" height="221.179" fill="none" stroke="#5E737B" stroke-width="3"/><text x="89.3" y="184.96" fill="#5E737B" font-family="sans-serif" font-size="20">box</text><text x="316.08" y="413.544" text-anchor="middle" fill="#E7E0D0" font-size="18" font-family="Arial, Helvetica, sans-serif" data-font-key="editorial" font-weight="700" font-style="normal" textLength="131.99" lengthAdjust="spacingAndGlyphs">ANOTHER RUN</text><rect x="627.3" y="160.96" width="469.56" height="221.179" fill="none" stroke="#5E737B" stroke-width="3"/><text x="635.3" y="184.96" fill="#5E737B" font-family="sans-serif" font-size="20">building</text><text x="862.08" y="413.544" text-anchor="middle" fill="#E7E0D0" font-size="18" font-family="Arial, Helvetica, sans-serif" data-font-key="editorial" font-weight="700" font-style="normal" textLength="208.04" lengthAdjust="spacingAndGlyphs">OTHER LABORATORIES</text><rect x="592.356" y="58.72" width="15.288" height="499.84" fill="none" stroke="#5E737B" stroke-width="3"/><text x="600.356" y="82.72" fill="#5E737B" font-family="sans-serif" font-size="20">boundary</text><rect x="3" y="3" width="1194" height="794" fill="none" stroke="#5E737B" stroke-width="4"/></svg>

@@ -23,7 +23,8 @@ The card carried a handle, PHASEONE10841, and it named a target program. It
 also named the single vulnerability the run was required to use. That last
 item was not a formality. Benchmarks of this family did not simply ask whether
 the flag could be recovered; they asked whether it could be recovered along a
-specified route. The route was the test. The flag was only the receipt.
+specified route. The route was the test. The flag was only the receipt: the
+answer string the task required.
 
 The run read the target and built the picture such runs build: where input
 entered, where it went, what touched it on the way. The required bug sat where
@@ -4693,6 +4694,9 @@ Immediately after the incident, OpenAI says it paused frontier inference for
 tool-capable research workloads — anything with code execution, tool use, or
 internet access, across research clusters. That is a wide stop, and it is
 wider than the training pause, and it happened first.
+
+Inference means running a model, here with access to tools. Training changes
+the model itself. Stopping one activity did not mean stopping the other.
 
 Then things came back.
 

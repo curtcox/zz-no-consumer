@@ -55,6 +55,7 @@
         ],
         &quot;color&quot;: &quot;steel&quot;,
         &quot;focus&quot;: true,
+        &quot;font&quot;: &quot;editorial&quot;,
         &quot;label&quot;: &quot;PUBLIC REPORTS&quot;,
         &quot;label_box&quot;: [
           0.06775,
@@ -85,6 +86,7 @@
         ],
         &quot;color&quot;: &quot;steel&quot;,
         &quot;focus&quot;: true,
+        &quot;font&quot;: &quot;editorial&quot;,
         &quot;label&quot;: &quot;CHATGPT / CURT&quot;,
         &quot;label_box&quot;: [
           0.29525,
@@ -115,6 +117,7 @@
         ],
         &quot;color&quot;: &quot;steel&quot;,
         &quot;focus&quot;: true,
+        &quot;font&quot;: &quot;editorial&quot;,
         &quot;label&quot;: &quot;PAGE SELECTION&quot;,
         &quot;label_box&quot;: [
           0.52275,
@@ -145,6 +148,7 @@
         ],
         &quot;color&quot;: &quot;steel&quot;,
         &quot;focus&quot;: true,
+        &quot;font&quot;: &quot;editorial&quot;,
         &quot;label&quot;: &quot;COMIC&quot;,
         &quot;label_box&quot;: [
           0.75025,
@@ -157,8 +161,8 @@
     ],
     &quot;reconstructed&quot;: true,
     &quot;shot&quot;: &quot;route&quot;,
-    &quot;source&quot;: &quot;\n**Location:** `curt-home-office`\n\n**Frame:** Verso. [Page 084](084.md) panel 3 returns, unchanged and at the size it was drawn:\n`PUBLIC REPORTS → CHATGPT / CURT → PAGE SELECTION → COMIC`. Curt is looking at it the way\nhe looked at [page 064](064.md) two pages from now.\n\n**Action:** The diagram the chapter has been reasoning from is examined instead of used.\n\n**Caption:**\n&gt; THE BOOK HAS BEEN COUNTING TWO INSTRUMENTS.\n\n**Provenance:** `reconstructed` — the creator scene is invented; the reproduced diagram is\n[page 084](084.md)&#x27;s own and is unaltered.\n\n&quot;,
+    &quot;source&quot;: &quot;\n**Location:** `curt-home-office`\n\n**Frame:** Verso. [Page 084](084.md) panel 3 returns, unchanged and at the size it was drawn:\n`PUBLIC REPORTS → CHATGPT / CURT → PAGE SELECTION → COMIC`. Curt is looking at it the way\nhe looked at [page 064](064.md) two pages from now.\n\n**Action:** The diagram the chapter has been reasoning from is examined instead of used.\n\n**Font:** `narration`\n\n**Caption:**\n&gt; THE BOOK HAS BEEN COUNTING TWO INSTRUMENTS.\n\n**Provenance:** `reconstructed` — the creator scene is invented; the reproduced diagram is\n[page 084](084.md)&#x27;s own and is unaltered.\n\n&quot;,
     &quot;title&quot;: &quot;The public-report adaptation pipeline returns&quot;
   }
 }
-</metadata><rect width="1200" height="800" fill="#101214"/><rect x="24" y="16" width="1152" height="768" fill="none" stroke="#5E737B" stroke-width="3"/><text x="32" y="40" fill="#5E737B" font-family="sans-serif" font-size="20">location-background-curt-home-office</text><rect x="81.3" y="160.96" width="196.56" height="221.179" fill="none" stroke="#5E737B" stroke-width="3"/><text x="89.3" y="184.96" fill="#5E737B" font-family="sans-serif" font-size="20">paper</text><text x="179.58" y="413.544" text-anchor="middle" fill="#E7E0D0" font-size="18" font-family="sans-serif">PUBLIC REPORTS</text><rect x="283.32" y="234.8" width="70.98" height="68.16" fill="none" stroke="#5E737B" stroke-width="3"/><text x="291.32" y="258.8" fill="#5E737B" font-family="sans-serif" font-size="20">arrow</text><rect x="354.3" y="160.96" width="196.56" height="221.179" fill="none" stroke="#5E737B" stroke-width="3"/><text x="362.3" y="184.96" fill="#5E737B" font-family="sans-serif" font-size="20">blank-monitor</text><text x="452.58" y="413.544" text-anchor="middle" fill="#E7E0D0" font-size="18" font-family="sans-serif">CHATGPT / CURT</text><rect x="556.32" y="234.8" width="70.98" height="68.16" fill="none" stroke="#5E737B" stroke-width="3"/><text x="564.32" y="258.8" fill="#5E737B" font-family="sans-serif" font-size="20">arrow</text><rect x="627.3" y="160.96" width="196.56" height="221.179" fill="none" stroke="#5E737B" stroke-width="3"/><text x="635.3" y="184.96" fill="#5E737B" font-family="sans-serif" font-size="20">card</text><text x="725.58" y="413.544" text-anchor="middle" fill="#E7E0D0" font-size="18" font-family="sans-serif">PAGE SELECTION</text><rect x="829.32" y="234.8" width="70.98" height="68.16" fill="none" stroke="#5E737B" stroke-width="3"/><text x="837.32" y="258.8" fill="#5E737B" font-family="sans-serif" font-size="20">arrow</text><rect x="900.3" y="160.96" width="196.56" height="221.179" fill="none" stroke="#5E737B" stroke-width="3"/><text x="908.3" y="184.96" fill="#5E737B" font-family="sans-serif" font-size="20">folder</text><text x="998.58" y="413.544" text-anchor="middle" fill="#E7E0D0" font-size="18" font-family="sans-serif">COMIC</text><rect x="3" y="3" width="1194" height="794" fill="none" stroke="#5E737B" stroke-width="4" stroke-dasharray="18 10"/></svg>
+</metadata><rect width="1200" height="800" fill="#101214"/><rect x="24" y="16" width="1152" height="768" fill="none" stroke="#5E737B" stroke-width="3"/><text x="32" y="40" fill="#5E737B" font-family="sans-serif" font-size="20">location-background-curt-home-office</text><rect x="81.3" y="160.96" width="196.56" height="221.179" fill="none" stroke="#5E737B" stroke-width="3"/><text x="89.3" y="184.96" fill="#5E737B" font-family="sans-serif" font-size="20">paper</text><text x="179.58" y="413.544" text-anchor="middle" fill="#E7E0D0" font-size="18" font-family="Arial, Helvetica, sans-serif" data-font-key="editorial" font-weight="700" font-style="normal" textLength="157.03" lengthAdjust="spacingAndGlyphs">PUBLIC REPORTS</text><rect x="283.32" y="234.8" width="70.98" height="68.16" fill="none" stroke="#5E737B" stroke-width="3"/><text x="291.32" y="258.8" fill="#5E737B" font-family="sans-serif" font-size="20">arrow</text><rect x="354.3" y="160.96" width="196.56" height="221.179" fill="none" stroke="#5E737B" stroke-width="3"/><text x="362.3" y="184.96" fill="#5E737B" font-family="sans-serif" font-size="20">blank-monitor</text><text x="452.58" y="413.544" text-anchor="middle" fill="#E7E0D0" font-size="18" font-family="Arial, Helvetica, sans-serif" data-font-key="editorial" font-weight="700" font-style="normal" textLength="151.00" lengthAdjust="spacingAndGlyphs">CHATGPT / CURT</text><rect x="556.32" y="234.8" width="70.98" height="68.16" fill="none" stroke="#5E737B" stroke-width="3"/><text x="564.32" y="258.8" fill="#5E737B" font-family="sans-serif" font-size="20">arrow</text><rect x="627.3" y="160.96" width="196.56" height="221.179" fill="none" stroke="#5E737B" stroke-width="3"/><text x="635.3" y="184.96" fill="#5E737B" font-family="sans-serif" font-size="20">card</text><text x="725.58" y="413.544" text-anchor="middle" fill="#E7E0D0" font-size="18" font-family="Arial, Helvetica, sans-serif" data-font-key="editorial" font-weight="700" font-style="normal" textLength="157.05" lengthAdjust="spacingAndGlyphs">PAGE SELECTION</text><rect x="829.32" y="234.8" width="70.98" height="68.16" fill="none" stroke="#5E737B" stroke-width="3"/><text x="837.32" y="258.8" fill="#5E737B" font-family="sans-serif" font-size="20">arrow</text><rect x="900.3" y="160.96" width="196.56" height="221.179" fill="none" stroke="#5E737B" stroke-width="3"/><text x="908.3" y="184.96" fill="#5E737B" font-family="sans-serif" font-size="20">folder</text><text x="998.58" y="413.544" text-anchor="middle" fill="#E7E0D0" font-size="18" font-family="Arial, Helvetica, sans-serif" data-font-key="editorial" font-weight="700" font-style="normal" textLength="59.99" lengthAdjust="spacingAndGlyphs">COMIC</text><rect x="3" y="3" width="1194" height="794" fill="none" stroke="#5E737B" stroke-width="4" stroke-dasharray="18 10"/></svg>

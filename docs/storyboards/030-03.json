@@ -33,6 +33,7 @@
       ],
       "color": "steel",
       "focus": true,
+      "font": "editorial",
       "label": "PATH ONE",
       "label_box": [
         0.06775,
@@ -52,6 +53,7 @@
       ],
       "color": "steel",
       "focus": true,
+      "font": "editorial",
       "label": "PATH TWO",
       "label_box": [
         0.371083,
@@ -71,6 +73,7 @@
       ],
       "color": "steel",
       "focus": true,
+      "font": "editorial",
       "label": "REQUEST POLICY",
       "label_box": [
         0.674417,
@@ -83,6 +86,6 @@
   ],
   "reconstructed": false,
   "shot": "row",
-  "source": "\n**Location:** `artifactory-cache`\n\n**Frame:** Two vulnerable service paths close under heavy black bars. A request-policy gate narrows the remaining allowed traffic.\n\n**Action:** Known token routes are blocked and request types restricted.\n\n**Caption:**\n> THE KNOWN ROUTES ARE CLOSED. THE REQUEST SURFACE IS NARROWED.\n\n**Provenance:** `documented` + `compressed` — mitigation actions from `OAI-TR`; diagram is non-operational.\n\n",
+  "source": "\n**Location:** `artifactory-cache`\n\n**Frame:** Two vulnerable service paths close under heavy black bars. A request-policy gate narrows the remaining allowed traffic.\n\n**Action:** Known token routes are blocked and request types restricted.\n\n**Font:** `narration`\n\n**Caption:**\n> THE KNOWN ROUTES ARE CLOSED. THE REQUEST SURFACE IS NARROWED.\n\n**Provenance:** `documented` + `compressed` — mitigation actions from `OAI-TR`; diagram is non-operational.\n\n",
   "title": "Two routes close and policy narrows"
 }

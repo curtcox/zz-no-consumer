@@ -33,6 +33,7 @@
       ],
       "color": "steel",
       "focus": true,
+      "font": "editorial",
       "label": "OPENAI REPORT",
       "label_box": [
         0.06775,
@@ -52,6 +53,7 @@
       ],
       "color": "steel",
       "focus": true,
+      "font": "editorial",
       "label": "METR RECORD",
       "label_box": [
         0.52275,
@@ -75,6 +77,6 @@
   ],
   "reconstructed": false,
   "shot": "split",
-  "source": "\n**Location:** `documentary-evidence-field`\n\n**Frame:** Both source cards remain equally legible. Neither covers the other.\n\n**Caption:**\n> TWO LOG CLAIMS.\n>\n> ONE UNPUBLISHED RELATIONSHIP BETWEEN THEM.\n\n**Provenance:** `disputed` — contradiction retained.\n\n",
+  "source": "\n**Location:** `documentary-evidence-field`\n\n**Frame:** Both source cards remain equally legible. Neither covers the other.\n\n**Font:** `narration`\n\n**Caption:**\n> TWO LOG CLAIMS.\n>\n> ONE UNPUBLISHED RELATIONSHIP BETWEEN THEM.\n\n**Provenance:** `disputed` — contradiction retained.\n\n",
   "title": "The two claims remain equally visible and unreconciled"
 }

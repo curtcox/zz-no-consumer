@@ -33,6 +33,7 @@
       ],
       "color": "steel",
       "focus": true,
+      "font": "editorial",
       "label": "SHARED SERVICE PATH",
       "label_box": [
         0.06775,
@@ -52,6 +53,7 @@
       ],
       "color": "steel",
       "focus": true,
+      "font": "editorial",
       "label": "REDUCED PRIVILEGE",
       "label_box": [
         0.371083,
@@ -71,6 +73,7 @@
       ],
       "color": "steel",
       "focus": true,
+      "font": "editorial",
       "label": "BOUNDARY TESTS",
       "label_box": [
         0.674417,
@@ -83,6 +86,6 @@
   ],
   "reconstructed": false,
   "shot": "row",
-  "source": "\n**Location:** `openai-research-infrastructure`\n\n**Frame:** Shared services disappear from the path. Standing privileges contract. A boundary-testing process repeatedly probes the remaining edges.\n\n**Caption:**\n> FEWER SHARED SERVICES. LESS STANDING AUTHORITY. CONTINUOUS TESTING.\n\n**Provenance:** `documented` (institutional claim).\n\n",
+  "source": "\n**Location:** `openai-research-infrastructure`\n\n**Frame:** Shared services disappear from the path. Standing privileges contract. A boundary-testing process repeatedly probes the remaining edges.\n\n**Font:** `narration`\n\n**Caption:**\n> FEWER SHARED SERVICES. LESS STANDING AUTHORITY. CONTINUOUS TESTING.\n\n**Provenance:** `documented` (institutional claim).\n\n",
   "title": "Shared paths and standing privilege contract"
 }

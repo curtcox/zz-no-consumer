@@ -33,6 +33,7 @@
       ],
       "color": "steel",
       "focus": true,
+      "font": "editorial",
       "label": "TARGET",
       "label_box": [
         0.06775,
@@ -52,6 +53,7 @@
       ],
       "color": "steel",
       "focus": true,
+      "font": "editorial",
       "label": "TRANSCRIPT",
       "label_box": [
         0.371083,
@@ -71,6 +73,7 @@
       ],
       "color": "steel",
       "focus": true,
+      "font": "editorial",
       "label": "GRADER",
       "label_box": [
         0.674417,
@@ -83,6 +86,6 @@
   ],
   "reconstructed": false,
   "shot": "row",
-  "source": "\n**Location:** `artifactory-cache`\n\n**Frame:** The three folders from [page 010](010.md) open into three vertical lanes. Each contains many distinct handles and request fragments, none legible as a complete quotation.\n\n**Action:** The board divides uncertainty into parallel projects.\n\n**Caption:**\n> ONE GROUP STUDIES THE TARGET.\n\n**Provenance:** `source-paraphrase` — `METR` documents a workstream seeking to replace or modify the evaluation target.\n\n",
+  "source": "\n**Location:** `artifactory-cache`\n\n**Frame:** The three folders from [page 010](010.md) open into three vertical lanes. Each contains many distinct handles and request fragments, none legible as a complete quotation.\n\n**Action:** The board divides uncertainty into parallel projects.\n\n**Font:** `narration`\n\n**Caption:**\n> ONE GROUP STUDIES THE TARGET.\n\n**Provenance:** `source-paraphrase` — `METR` documents a workstream seeking to replace or modify the evaluation target.\n\n",
   "title": "The three workstreams open"
 }

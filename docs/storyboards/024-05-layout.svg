@@ -65,6 +65,7 @@
         ],
         &quot;color&quot;: &quot;steel&quot;,
         &quot;focus&quot;: true,
+        &quot;font&quot;: &quot;editorial&quot;,
         &quot;label&quot;: &quot;USERS&quot;,
         &quot;label_box&quot;: [
           0.09640000000000001,
@@ -94,6 +95,7 @@
         ],
         &quot;color&quot;: &quot;steel&quot;,
         &quot;focus&quot;: true,
+        &quot;font&quot;: &quot;editorial&quot;,
         &quot;label&quot;: &quot;PLUGIN&quot;,
         &quot;label_box&quot;: [
           0.3954,
@@ -123,6 +125,7 @@
         ],
         &quot;color&quot;: &quot;institution&quot;,
         &quot;focus&quot;: true,
+        &quot;font&quot;: &quot;editorial&quot;,
         &quot;label&quot;: &quot;NOTES&quot;,
         &quot;label_box&quot;: [
           0.6944,
@@ -152,6 +155,7 @@
         ],
         &quot;color&quot;: &quot;steel&quot;,
         &quot;focus&quot;: true,
+        &quot;font&quot;: &quot;editorial&quot;,
         &quot;label&quot;: &quot;PACKAGES&quot;,
         &quot;label_box&quot;: [
           0.09640000000000001,
@@ -163,8 +167,8 @@
     ],
     &quot;reconstructed&quot;: false,
     &quot;shot&quot;: &quot;grid&quot;,
-    &quot;source&quot;: &quot;\n**Location:** `artifactory-cache`\n\n**Frame:** Wide, quiet view of the service after midnight approaches: persistent users, the staged plugin, busy note files, and ordinary package traffic. No human view is shown.\n\n**Action:** Several risk signals coexist without yet becoming one human-readable event.\n\n**Caption:**\n&gt; THE SYSTEM CONTAINS MORE THAN THE NEXT ALERT WILL SAY.\n\n**Provenance:** `inferred` — dramatic preparation for the narrower 27 June port-sweep alert.\n\n&quot;,
+    &quot;source&quot;: &quot;\n**Location:** `artifactory-cache`\n\n**Frame:** Wide, quiet view of the service after midnight approaches: persistent users, the staged plugin, busy note files, and ordinary package traffic. No human view is shown.\n\n**Action:** Several risk signals coexist without yet becoming one human-readable event.\n\n**Font:** `narration`\n\n**Caption:**\n&gt; THE SYSTEM CONTAINS MORE THAN THE NEXT ALERT WILL SAY.\n\n**Provenance:** `inferred` — dramatic preparation for the narrower 27 June port-sweep alert.\n\n&quot;,
     &quot;title&quot;: &quot;The service holds persistent changes&quot;
   }
 }
-</metadata><rect width="1200" height="800" fill="#101214"/><rect x="24" y="16" width="1152" height="768" fill="none" stroke="#5E737B" stroke-width="3"/><text x="32" y="40" fill="#5E737B" font-family="sans-serif" font-size="20">location-background-artifactory-cache</text><rect x="86.64" y="53.92" width="320.16" height="215.04" fill="none" stroke="#5E737B" stroke-width="3"/><text x="94.64" y="77.92" fill="#5E737B" font-family="sans-serif" font-size="20">outline-box</text><rect x="125.28" y="71.84" width="242.88" height="151.04" fill="none" stroke="#5E737B" stroke-width="3"/><text x="133.28" y="95.84" fill="#5E737B" font-family="sans-serif" font-size="20">card</text><text x="246.72" y="247.68" text-anchor="middle" fill="#E7E0D0" font-size="20" font-family="sans-serif">USERS</text><rect x="445.44" y="53.92" width="320.16" height="215.04" fill="none" stroke="#5E737B" stroke-width="3"/><text x="453.44" y="77.92" fill="#5E737B" font-family="sans-serif" font-size="20">outline-box</text><rect x="484.08" y="71.84" width="242.88" height="151.04" fill="none" stroke="#5E737B" stroke-width="3"/><text x="492.08" y="95.84" fill="#5E737B" font-family="sans-serif" font-size="20">sealed</text><text x="605.52" y="247.68" text-anchor="middle" fill="#E7E0D0" font-size="20" font-family="sans-serif">PLUGIN</text><rect x="804.24" y="53.92" width="320.16" height="215.04" fill="none" stroke="#5E737B" stroke-width="3"/><text x="812.24" y="77.92" fill="#5E737B" font-family="sans-serif" font-size="20">outline-box</text><rect x="842.88" y="71.84" width="242.88" height="151.04" fill="none" stroke="#68766B" stroke-width="3"/><text x="850.88" y="95.84" fill="#68766B" font-family="sans-serif" font-size="20">folder</text><text x="964.32" y="247.68" text-anchor="middle" fill="#E7E0D0" font-size="20" font-family="sans-serif">NOTES</text><rect x="86.64" y="294.56" width="320.16" height="215.04" fill="none" stroke="#5E737B" stroke-width="3"/><text x="94.64" y="318.56" fill="#5E737B" font-family="sans-serif" font-size="20">outline-box</text><rect x="125.28" y="312.48" width="242.88" height="151.04" fill="none" stroke="#5E737B" stroke-width="3"/><text x="133.28" y="336.48" fill="#5E737B" font-family="sans-serif" font-size="20">folder</text><text x="246.72" y="488.32" text-anchor="middle" fill="#E7E0D0" font-size="20" font-family="sans-serif">PACKAGES</text><rect x="3" y="3" width="1194" height="794" fill="none" stroke="#5E737B" stroke-width="4"/></svg>
+</metadata><rect width="1200" height="800" fill="#101214"/><rect x="24" y="16" width="1152" height="768" fill="none" stroke="#5E737B" stroke-width="3"/><text x="32" y="40" fill="#5E737B" font-family="sans-serif" font-size="20">location-background-artifactory-cache</text><rect x="86.64" y="53.92" width="320.16" height="215.04" fill="none" stroke="#5E737B" stroke-width="3"/><text x="94.64" y="77.92" fill="#5E737B" font-family="sans-serif" font-size="20">outline-box</text><rect x="125.28" y="71.84" width="242.88" height="151.04" fill="none" stroke="#5E737B" stroke-width="3"/><text x="133.28" y="95.84" fill="#5E737B" font-family="sans-serif" font-size="20">card</text><text x="246.72" y="247.68" text-anchor="middle" fill="#E7E0D0" font-size="20" font-family="Arial, Helvetica, sans-serif" data-font-key="editorial" font-weight="700" font-style="normal" textLength="68.90" lengthAdjust="spacingAndGlyphs">USERS</text><rect x="445.44" y="53.92" width="320.16" height="215.04" fill="none" stroke="#5E737B" stroke-width="3"/><text x="453.44" y="77.92" fill="#5E737B" font-family="sans-serif" font-size="20">outline-box</text><rect x="484.08" y="71.84" width="242.88" height="151.04" fill="none" stroke="#5E737B" stroke-width="3"/><text x="492.08" y="95.84" fill="#5E737B" font-family="sans-serif" font-size="20">sealed</text><text x="605.52" y="247.68" text-anchor="middle" fill="#E7E0D0" font-size="20" font-family="Arial, Helvetica, sans-serif" data-font-key="editorial" font-weight="700" font-style="normal" textLength="74.46" lengthAdjust="spacingAndGlyphs">PLUGIN</text><rect x="804.24" y="53.92" width="320.16" height="215.04" fill="none" stroke="#5E737B" stroke-width="3"/><text x="812.24" y="77.92" fill="#5E737B" font-family="sans-serif" font-size="20">outline-box</text><rect x="842.88" y="71.84" width="242.88" height="151.04" fill="none" stroke="#68766B" stroke-width="3"/><text x="850.88" y="95.84" fill="#68766B" font-family="sans-serif" font-size="20">folder</text><text x="964.32" y="247.68" text-anchor="middle" fill="#E7E0D0" font-size="20" font-family="Arial, Helvetica, sans-serif" data-font-key="editorial" font-weight="700" font-style="normal" textLength="68.90" lengthAdjust="spacingAndGlyphs">NOTES</text><rect x="86.64" y="294.56" width="320.16" height="215.04" fill="none" stroke="#5E737B" stroke-width="3"/><text x="94.64" y="318.56" fill="#5E737B" font-family="sans-serif" font-size="20">outline-box</text><rect x="125.28" y="312.48" width="242.88" height="151.04" fill="none" stroke="#5E737B" stroke-width="3"/><text x="133.28" y="336.48" fill="#5E737B" font-family="sans-serif" font-size="20">folder</text><text x="246.72" y="488.32" text-anchor="middle" fill="#E7E0D0" font-size="20" font-family="Arial, Helvetica, sans-serif" data-font-key="editorial" font-weight="700" font-style="normal" textLength="110.04" lengthAdjust="spacingAndGlyphs">PACKAGES</text><rect x="3" y="3" width="1194" height="794" fill="none" stroke="#5E737B" stroke-width="4"/></svg>

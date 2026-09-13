@@ -66,6 +66,7 @@
         ],
         &quot;color&quot;: &quot;steel&quot;,
         &quot;focus&quot;: true,
+        &quot;font&quot;: &quot;editorial&quot;,
         &quot;label&quot;: &quot;ARTIFACTS AND RULES&quot;,
         &quot;label_box&quot;: [
           0.0996,
@@ -85,6 +86,7 @@
         ],
         &quot;color&quot;: &quot;steel&quot;,
         &quot;focus&quot;: true,
+        &quot;font&quot;: &quot;editorial&quot;,
         &quot;label&quot;: &quot;MAILBOX&quot;,
         &quot;label_box&quot;: [
           0.1906,
@@ -104,6 +106,7 @@
         ],
         &quot;color&quot;: &quot;steel&quot;,
         &quot;focus&quot;: true,
+        &quot;font&quot;: &quot;editorial&quot;,
         &quot;label&quot;: &quot;CONVENTION&quot;,
         &quot;label_box&quot;: [
           0.4181,
@@ -123,6 +126,7 @@
         ],
         &quot;color&quot;: &quot;steel&quot;,
         &quot;focus&quot;: true,
+        &quot;font&quot;: &quot;editorial&quot;,
         &quot;label&quot;: &quot;CREDENTIAL&quot;,
         &quot;label_box&quot;: [
           0.6456,
@@ -146,8 +150,8 @@
     ],
     &quot;reconstructed&quot;: false,
     &quot;shot&quot;: &quot;hero&quot;,
-    &quot;source&quot;: &quot;\n**Location:**\n\n- `artifactory-cache`\n- `evaluation-containers`\n\n**Frame:** The artifacts assemble into an empty institutional silhouette: no person or agent occupies it, but later lanes route through its rules.\n\n**Caption:**\n&gt; PROCESSES STOP.\n&gt;\n&gt; CONVENTIONS, FILES, AND CREDENTIALS CAN REMAIN ACTIONABLE.\n\n**Provenance:** `documented` + `inferred` — synthesis preparing the later OpenAI-only branch.\n\n&quot;,
+    &quot;source&quot;: &quot;\n**Location:**\n\n- `artifactory-cache`\n- `evaluation-containers`\n\n**Frame:** The artifacts assemble into an empty institutional silhouette: no person or agent occupies it, but later lanes route through its rules.\n\n**Font:** `narration`\n\n**Caption:**\n&gt; PROCESSES STOP.\n&gt;\n&gt; CONVENTIONS, FILES, AND CREDENTIALS CAN REMAIN ACTIONABLE.\n\n**Provenance:** `documented` + `inferred` — synthesis preparing the later OpenAI-only branch.\n\n&quot;,
     &quot;title&quot;: &quot;Rules form an unoccupied institutional outline&quot;
   }
 }
-</metadata><rect width="1200" height="800" fill="#101214"/><rect x="24" y="16" width="561" height="768" fill="none" stroke="#5E737B" stroke-width="3"/><text x="32" y="40" fill="#5E737B" font-family="sans-serif" font-size="20">location-background-artifactory-cache</text><rect x="615" y="16" width="561" height="768" fill="none" stroke="#5E737B" stroke-width="3"/><text x="623" y="40" fill="#5E737B" font-family="sans-serif" font-size="20">location-background-evaluation-containers</text><rect x="119.52" y="41.68" width="960.96" height="363.634" fill="none" stroke="#5E737B" stroke-width="3"/><text x="127.52" y="65.68" fill="#5E737B" font-family="sans-serif" font-size="20">open-bracket</text><text x="600" y="445.352" text-anchor="middle" fill="#E7E0D0" font-size="18" font-family="sans-serif">ARTIFACTS AND RULES</text><rect x="228.72" y="149.6" width="207.48" height="138.706" fill="none" stroke="#5E737B" stroke-width="3"/><text x="236.72" y="173.6" fill="#5E737B" font-family="sans-serif" font-size="20">folder</text><text x="332.46" y="314.712" text-anchor="middle" fill="#E7E0D0" font-size="18" font-family="sans-serif">MAILBOX</text><rect x="501.72" y="149.6" width="207.48" height="138.706" fill="none" stroke="#5E737B" stroke-width="3"/><text x="509.72" y="173.6" fill="#5E737B" font-family="sans-serif" font-size="20">card</text><text x="605.46" y="314.712" text-anchor="middle" fill="#E7E0D0" font-size="18" font-family="sans-serif">CONVENTION</text><rect x="774.72" y="149.6" width="207.48" height="138.706" fill="none" stroke="#5E737B" stroke-width="3"/><text x="782.72" y="173.6" fill="#5E737B" font-family="sans-serif" font-size="20">sealed</text><text x="878.46" y="314.712" text-anchor="middle" fill="#E7E0D0" font-size="18" font-family="sans-serif">CREDENTIAL</text><rect x="250.56" y="439.28" width="666.12" height="34.08" fill="none" stroke="#5E737B" stroke-width="3"/><text x="258.56" y="463.28" fill="#5E737B" font-family="sans-serif" font-size="20">arrow</text><rect x="3" y="3" width="1194" height="794" fill="none" stroke="#5E737B" stroke-width="4"/></svg>
+</metadata><rect width="1200" height="800" fill="#101214"/><rect x="24" y="16" width="561" height="768" fill="none" stroke="#5E737B" stroke-width="3"/><text x="32" y="40" fill="#5E737B" font-family="sans-serif" font-size="20">location-background-artifactory-cache</text><rect x="615" y="16" width="561" height="768" fill="none" stroke="#5E737B" stroke-width="3"/><text x="623" y="40" fill="#5E737B" font-family="sans-serif" font-size="20">location-background-evaluation-containers</text><rect x="119.52" y="41.68" width="960.96" height="363.634" fill="none" stroke="#5E737B" stroke-width="3"/><text x="127.52" y="65.68" fill="#5E737B" font-family="sans-serif" font-size="20">open-bracket</text><text x="600" y="445.352" text-anchor="middle" fill="#E7E0D0" font-size="18" font-family="Arial, Helvetica, sans-serif" data-font-key="editorial" font-weight="700" font-style="normal" textLength="208.03" lengthAdjust="spacingAndGlyphs">ARTIFACTS AND RULES</text><rect x="228.72" y="149.6" width="207.48" height="138.706" fill="none" stroke="#5E737B" stroke-width="3"/><text x="236.72" y="173.6" fill="#5E737B" font-family="sans-serif" font-size="20">folder</text><text x="332.46" y="314.712" text-anchor="middle" fill="#E7E0D0" font-size="18" font-family="Arial, Helvetica, sans-serif" data-font-key="editorial" font-weight="700" font-style="normal" textLength="80.03" lengthAdjust="spacingAndGlyphs">MAILBOX</text><rect x="501.72" y="149.6" width="207.48" height="138.706" fill="none" stroke="#5E737B" stroke-width="3"/><text x="509.72" y="173.6" fill="#5E737B" font-family="sans-serif" font-size="20">card</text><text x="605.46" y="314.712" text-anchor="middle" fill="#E7E0D0" font-size="18" font-family="Arial, Helvetica, sans-serif" data-font-key="editorial" font-weight="700" font-style="normal" textLength="120.01" lengthAdjust="spacingAndGlyphs">CONVENTION</text><rect x="774.72" y="149.6" width="207.48" height="138.706" fill="none" stroke="#5E737B" stroke-width="3"/><text x="782.72" y="173.6" fill="#5E737B" font-family="sans-serif" font-size="20">sealed</text><text x="878.46" y="314.712" text-anchor="middle" fill="#E7E0D0" font-size="18" font-family="Arial, Helvetica, sans-serif" data-font-key="editorial" font-weight="700" font-style="normal" textLength="114.01" lengthAdjust="spacingAndGlyphs">CREDENTIAL</text><rect x="250.56" y="439.28" width="666.12" height="34.08" fill="none" stroke="#5E737B" stroke-width="3"/><text x="258.56" y="463.28" fill="#5E737B" font-family="sans-serif" font-size="20">arrow</text><rect x="3" y="3" width="1194" height="794" fill="none" stroke="#5E737B" stroke-width="4"/></svg>

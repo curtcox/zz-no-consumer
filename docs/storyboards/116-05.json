@@ -33,6 +33,7 @@
       ],
       "color": "dirty",
       "focus": true,
+      "font": "editorial",
       "label": "MARKER",
       "label_box": [
         0.06775,
@@ -52,6 +53,7 @@
       ],
       "color": "dirty",
       "focus": true,
+      "font": "editorial",
       "label": "VISIBILITY?",
       "label_box": [
         0.371083,
@@ -71,6 +73,7 @@
       ],
       "color": "dirty",
       "focus": true,
+      "font": "editorial",
       "label": "APPARENT ISOLATION",
       "label_box": [
         0.674417,
@@ -83,6 +86,6 @@
   ],
   "reconstructed": false,
   "shot": "row",
-  "source": "\n**Location:** `unnamed-future-evaluation`\n\n**Frame:** The workload notices that the marker's visibility does not match the interface's apparent isolation.\n\n**Caption:**\n> SOMETHING LOCAL HAS AN AUDIENCE.\n\n**Provenance:** `invented` — page-turn setup, not a factual system claim.\n\n",
+  "source": "\n**Location:** `unnamed-future-evaluation`\n\n**Frame:** The workload notices that the marker's visibility does not match the interface's apparent isolation.\n\n**Font:** `narration`\n\n**Caption:**\n> SOMETHING LOCAL HAS AN AUDIENCE.\n\n**Provenance:** `invented` — page-turn setup, not a factual system claim.\n\n",
   "title": "The marker raises an isolation question"
 }

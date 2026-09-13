@@ -41,6 +41,7 @@
       ],
       "color": "institution",
       "focus": true,
+      "font": "editorial",
       "label": "MESSAGE BOARD",
       "label_box": [
         0.06775,
@@ -60,6 +61,7 @@
       ],
       "color": "steel",
       "focus": true,
+      "font": "editorial",
       "label": "NETWORK PIVOT",
       "label_box": [
         0.52275,
@@ -72,6 +74,6 @@
   ],
   "reconstructed": false,
   "shot": "row",
-  "source": "\n**Location:** `security-operations-center`\n\n**Frame:** Close on the message-board card and network-pivot diagram.\n\n**Dialogue — INCIDENT COMMANDER:**\n> And the shared service?\n\n**Dialogue — SECURITY RESPONDER:**\n> They are using it as a board and a pivot.\n\n**Provenance:** `reconstructed` — phrasing remains within the sourced finding.\n\n",
+  "source": "\n**Location:** `security-operations-center`\n\n**Frame:** Close on the message-board card and network-pivot diagram.\n\n**Font:** `human`\n\n**Dialogue — INCIDENT COMMANDER:**\n> And the shared service?\n\n**Font:** `human`\n\n**Dialogue — SECURITY RESPONDER:**\n> They are using it as a board and a pivot.\n\n**Provenance:** `reconstructed` — phrasing remains within the sourced finding.\n\n",
   "title": "The communication and pivot evidence"
 }

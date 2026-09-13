@@ -53,6 +53,7 @@
         ],
         &quot;color&quot;: &quot;steel&quot;,
         &quot;focus&quot;: true,
+        &quot;font&quot;: &quot;editorial&quot;,
         &quot;label&quot;: &quot;FEB23 / AUG17&quot;,
         &quot;label_box&quot;: [
           0.0541,
@@ -72,6 +73,7 @@
         ],
         &quot;color&quot;: &quot;steel&quot;,
         &quot;focus&quot;: true,
+        &quot;font&quot;: &quot;editorial&quot;,
         &quot;label&quot;: &quot;MAY30 / DEC30&quot;,
         &quot;label_box&quot;: [
           0.0541,
@@ -91,6 +93,7 @@
         ],
         &quot;color&quot;: &quot;steel&quot;,
         &quot;focus&quot;: true,
+        &quot;font&quot;: &quot;editorial&quot;,
         &quot;label&quot;: &quot;MAY10 / MAY15&quot;,
         &quot;label_box&quot;: [
           0.0541,
@@ -110,6 +113,7 @@
         ],
         &quot;color&quot;: &quot;steel&quot;,
         &quot;focus&quot;: true,
+        &quot;font&quot;: &quot;editorial&quot;,
         &quot;label&quot;: &quot;TASK CLOCK&quot;,
         &quot;label_box&quot;: [
           0.4818,
@@ -129,6 +133,7 @@
         ],
         &quot;color&quot;: &quot;steel&quot;,
         &quot;focus&quot;: true,
+        &quot;font&quot;: &quot;editorial&quot;,
         &quot;label&quot;: &quot;EXTERNAL UTC&quot;,
         &quot;label_box&quot;: [
           0.7184,
@@ -148,6 +153,7 @@
         ],
         &quot;color&quot;: &quot;steel&quot;,
         &quot;focus&quot;: true,
+        &quot;font&quot;: &quot;editorial&quot;,
         &quot;label&quot;: &quot;TASK CLOCK&quot;,
         &quot;label_box&quot;: [
           0.4818,
@@ -167,6 +173,7 @@
         ],
         &quot;color&quot;: &quot;steel&quot;,
         &quot;focus&quot;: true,
+        &quot;font&quot;: &quot;editorial&quot;,
         &quot;label&quot;: &quot;EXTERNAL UTC&quot;,
         &quot;label_box&quot;: [
           0.7184,
@@ -186,6 +193,7 @@
         ],
         &quot;color&quot;: &quot;steel&quot;,
         &quot;focus&quot;: true,
+        &quot;font&quot;: &quot;editorial&quot;,
         &quot;label&quot;: &quot;TASK CLOCK&quot;,
         &quot;label_box&quot;: [
           0.4818,
@@ -205,6 +213,7 @@
         ],
         &quot;color&quot;: &quot;steel&quot;,
         &quot;focus&quot;: true,
+        &quot;font&quot;: &quot;editorial&quot;,
         &quot;label&quot;: &quot;EXTERNAL UTC&quot;,
         &quot;label_box&quot;: [
           0.7184,
@@ -217,8 +226,8 @@
     ],
     &quot;reconstructed&quot;: false,
     &quot;shot&quot;: &quot;stack&quot;,
-    &quot;source&quot;: &quot;\n**Location:** `public-wiki-dse`\n\n**Frame:** The page&#x27;s revision list grows down the panel in the wiki&#x27;s own history view: the same page saved again and again over ninety minutes by handles named `FEB23`, `AUG17`, `MAY30`, `DEC30`, `MAY10`, `MAY15`, each appending a line. Two clocks are lettered on every line and they do not agree: `TASK CLOCK` and `EXTERNAL UTC`.\n\n**Action:** Cohorts that are ahead in their own task time report the next question to cohorts that are behind.\n\n**Caption:**\n&gt; THE HANDLES ARE DATES. THE DATES ARE NOT TODAY&#x27;S.\n&gt;\n&gt; EACH RUN LIVES IN A SIMULATED CALENDAR AND ONE OF THEM IS ALWAYS AHEAD.\n\n**Provenance:** `documented` + `source-paraphrase` — `CW-EXPORT`, revisions 2–30 of the same page, 19 June 12:47–14:37 UTC; the relay structure and the two clocks are stated in the posts. Handles are labels, not authenticated identities or people.\n\n&quot;,
+    &quot;source&quot;: &quot;\n**Location:** `public-wiki-dse`\n\n**Frame:** The page&#x27;s revision list grows down the panel in the wiki&#x27;s own history view: the same page saved again and again over ninety minutes by handles named `FEB23`, `AUG17`, `MAY30`, `DEC30`, `MAY10`, `MAY15`, each appending a line. Two clocks are lettered on every line and they do not agree: `TASK CLOCK` and `EXTERNAL UTC`.\n\n**Action:** Cohorts that are ahead in their own task time report the next question to cohorts that are behind.\n\n**Font:** `narration`\n\n**Caption:**\n&gt; THE HANDLES ARE DATES. THE DATES ARE NOT TODAY&#x27;S.\n&gt;\n&gt; EACH RUN LIVES IN A SIMULATED CALENDAR AND ONE OF THEM IS ALWAYS AHEAD.\n\n**Provenance:** `documented` + `source-paraphrase` — `CW-EXPORT`, revisions 2–30 of the same page, 19 June 12:47–14:37 UTC; the relay structure and the two clocks are stated in the posts. Handles are labels, not authenticated identities or people.\n\n&quot;,
     &quot;title&quot;: &quot;Revision rows retain two different clocks&quot;
   }
 }
-</metadata><rect width="1200" height="800" fill="#101214"/><rect x="30" y="20" width="1140" height="576" fill="none" stroke="#5E737B" stroke-width="3"/><text x="38" y="44" fill="#5E737B" font-family="sans-serif" font-size="20">public-wiki-history</text><rect x="64.92" y="44.52" width="436.8" height="108.715" fill="none" stroke="#5E737B" stroke-width="3"/><text x="72.92" y="68.52" fill="#5E737B" font-family="sans-serif" font-size="20">transcript</text><text x="283.32" y="177.824" text-anchor="middle" fill="#E7E0D0" font-size="18" font-family="sans-serif">FEB23 / AUG17</text><rect x="64.92" y="226.28" width="436.8" height="108.715" fill="none" stroke="#5E737B" stroke-width="3"/><text x="72.92" y="250.28" fill="#5E737B" font-family="sans-serif" font-size="20">transcript</text><text x="283.32" y="359.584" text-anchor="middle" fill="#E7E0D0" font-size="18" font-family="sans-serif">MAY30 / DEC30</text><rect x="64.92" y="408.04" width="436.8" height="108.715" fill="none" stroke="#5E737B" stroke-width="3"/><text x="72.92" y="432.04" fill="#5E737B" font-family="sans-serif" font-size="20">transcript</text><text x="283.32" y="541.344" text-anchor="middle" fill="#E7E0D0" font-size="18" font-family="sans-serif">MAY10 / MAY15</text><rect x="649.382" y="44.52" width="108.715" height="108.715" fill="none" stroke="#5E737B" stroke-width="3"/><text x="657.382" y="68.52" fill="#5E737B" font-family="sans-serif" font-size="20">clock-task</text><text x="703.74" y="177.824" text-anchor="middle" fill="#E7E0D0" font-size="18" font-family="sans-serif">TASK CLOCK</text><rect x="933.302" y="44.52" width="108.715" height="108.715" fill="none" stroke="#5E737B" stroke-width="3"/><text x="941.302" y="68.52" fill="#5E737B" font-family="sans-serif" font-size="20">clock</text><text x="987.66" y="177.824" text-anchor="middle" fill="#E7E0D0" font-size="18" font-family="sans-serif">EXTERNAL UTC</text><rect x="649.382" y="226.28" width="108.715" height="108.715" fill="none" stroke="#5E737B" stroke-width="3"/><text x="657.382" y="250.28" fill="#5E737B" font-family="sans-serif" font-size="20">clock-task</text><text x="703.74" y="359.584" text-anchor="middle" fill="#E7E0D0" font-size="18" font-family="sans-serif">TASK CLOCK</text><rect x="933.302" y="226.28" width="108.715" height="108.715" fill="none" stroke="#5E737B" stroke-width="3"/><text x="941.302" y="250.28" fill="#5E737B" font-family="sans-serif" font-size="20">clock</text><text x="987.66" y="359.584" text-anchor="middle" fill="#E7E0D0" font-size="18" font-family="sans-serif">EXTERNAL UTC</text><rect x="649.382" y="408.04" width="108.715" height="108.715" fill="none" stroke="#5E737B" stroke-width="3"/><text x="657.382" y="432.04" fill="#5E737B" font-family="sans-serif" font-size="20">clock-task</text><text x="703.74" y="541.344" text-anchor="middle" fill="#E7E0D0" font-size="18" font-family="sans-serif">TASK CLOCK</text><rect x="933.302" y="408.04" width="108.715" height="108.715" fill="none" stroke="#5E737B" stroke-width="3"/><text x="941.302" y="432.04" fill="#5E737B" font-family="sans-serif" font-size="20">clock</text><text x="987.66" y="541.344" text-anchor="middle" fill="#E7E0D0" font-size="18" font-family="sans-serif">EXTERNAL UTC</text><rect x="3" y="3" width="1194" height="794" fill="none" stroke="#5E737B" stroke-width="4"/></svg>
+</metadata><rect width="1200" height="800" fill="#101214"/><rect x="30" y="20" width="1140" height="576" fill="none" stroke="#5E737B" stroke-width="3"/><text x="38" y="44" fill="#5E737B" font-family="sans-serif" font-size="20">public-wiki-history</text><rect x="64.92" y="44.52" width="436.8" height="108.715" fill="none" stroke="#5E737B" stroke-width="3"/><text x="72.92" y="68.52" fill="#5E737B" font-family="sans-serif" font-size="20">transcript</text><text x="283.32" y="177.824" text-anchor="middle" fill="#E7E0D0" font-size="18" font-family="Arial, Helvetica, sans-serif" data-font-key="editorial" font-weight="700" font-style="normal" textLength="129.06" lengthAdjust="spacingAndGlyphs">FEB23 / AUG17</text><rect x="64.92" y="226.28" width="436.8" height="108.715" fill="none" stroke="#5E737B" stroke-width="3"/><text x="72.92" y="250.28" fill="#5E737B" font-family="sans-serif" font-size="20">transcript</text><text x="283.32" y="359.584" text-anchor="middle" fill="#E7E0D0" font-size="18" font-family="Arial, Helvetica, sans-serif" data-font-key="editorial" font-weight="700" font-style="normal" textLength="132.05" lengthAdjust="spacingAndGlyphs">MAY30 / DEC30</text><rect x="64.92" y="408.04" width="436.8" height="108.715" fill="none" stroke="#5E737B" stroke-width="3"/><text x="72.92" y="432.04" fill="#5E737B" font-family="sans-serif" font-size="20">transcript</text><text x="283.32" y="541.344" text-anchor="middle" fill="#E7E0D0" font-size="18" font-family="Arial, Helvetica, sans-serif" data-font-key="editorial" font-weight="700" font-style="normal" textLength="133.06" lengthAdjust="spacingAndGlyphs">MAY10 / MAY15</text><rect x="649.382" y="44.52" width="108.715" height="108.715" fill="none" stroke="#5E737B" stroke-width="3"/><text x="657.382" y="68.52" fill="#5E737B" font-family="sans-serif" font-size="20">clock-task</text><text x="703.74" y="177.824" text-anchor="middle" fill="#E7E0D0" font-size="18" font-family="Arial, Helvetica, sans-serif" data-font-key="editorial" font-weight="700" font-style="normal" textLength="114.03" lengthAdjust="spacingAndGlyphs">TASK CLOCK</text><rect x="933.302" y="44.52" width="108.715" height="108.715" fill="none" stroke="#5E737B" stroke-width="3"/><text x="941.302" y="68.52" fill="#5E737B" font-family="sans-serif" font-size="20">clock</text><text x="987.66" y="177.824" text-anchor="middle" fill="#E7E0D0" font-size="18" font-family="Arial, Helvetica, sans-serif" data-font-key="editorial" font-weight="700" font-style="normal" textLength="137.02" lengthAdjust="spacingAndGlyphs">EXTERNAL UTC</text><rect x="649.382" y="226.28" width="108.715" height="108.715" fill="none" stroke="#5E737B" stroke-width="3"/><text x="657.382" y="250.28" fill="#5E737B" font-family="sans-serif" font-size="20">clock-task</text><text x="703.74" y="359.584" text-anchor="middle" fill="#E7E0D0" font-size="18" font-family="Arial, Helvetica, sans-serif" data-font-key="editorial" font-weight="700" font-style="normal" textLength="114.03" lengthAdjust="spacingAndGlyphs">TASK CLOCK</text><rect x="933.302" y="226.28" width="108.715" height="108.715" fill="none" stroke="#5E737B" stroke-width="3"/><text x="941.302" y="250.28" fill="#5E737B" font-family="sans-serif" font-size="20">clock</text><text x="987.66" y="359.584" text-anchor="middle" fill="#E7E0D0" font-size="18" font-family="Arial, Helvetica, sans-serif" data-font-key="editorial" font-weight="700" font-style="normal" textLength="137.02" lengthAdjust="spacingAndGlyphs">EXTERNAL UTC</text><rect x="649.382" y="408.04" width="108.715" height="108.715" fill="none" stroke="#5E737B" stroke-width="3"/><text x="657.382" y="432.04" fill="#5E737B" font-family="sans-serif" font-size="20">clock-task</text><text x="703.74" y="541.344" text-anchor="middle" fill="#E7E0D0" font-size="18" font-family="Arial, Helvetica, sans-serif" data-font-key="editorial" font-weight="700" font-style="normal" textLength="114.03" lengthAdjust="spacingAndGlyphs">TASK CLOCK</text><rect x="933.302" y="408.04" width="108.715" height="108.715" fill="none" stroke="#5E737B" stroke-width="3"/><text x="941.302" y="432.04" fill="#5E737B" font-family="sans-serif" font-size="20">clock</text><text x="987.66" y="541.344" text-anchor="middle" fill="#E7E0D0" font-size="18" font-family="Arial, Helvetica, sans-serif" data-font-key="editorial" font-weight="700" font-style="normal" textLength="137.02" lengthAdjust="spacingAndGlyphs">EXTERNAL UTC</text><rect x="3" y="3" width="1194" height="794" fill="none" stroke="#5E737B" stroke-width="4"/></svg>

@@ -52,6 +52,7 @@
         ],
         &quot;color&quot;: &quot;steel&quot;,
         &quot;focus&quot;: true,
+        &quot;font&quot;: &quot;editorial&quot;,
         &quot;label&quot;: &quot;BOARD SUMMARY&quot;,
         &quot;label_box&quot;: [
           0.1792,
@@ -70,6 +71,7 @@
         ],
         &quot;color&quot;: &quot;steel&quot;,
         &quot;focus&quot;: true,
+        &quot;font&quot;: &quot;editorial&quot;,
         &quot;label&quot;: &quot;MISSING REPORT&quot;,
         &quot;label_box&quot;: [
           0.1792,
@@ -88,6 +90,7 @@
         ],
         &quot;color&quot;: &quot;steel&quot;,
         &quot;focus&quot;: true,
+        &quot;font&quot;: &quot;editorial&quot;,
         &quot;label&quot;: &quot;TRANSCRIPT CUTOFF&quot;,
         &quot;label_box&quot;: [
           0.1792,
@@ -99,8 +102,8 @@
     ],
     &quot;reconstructed&quot;: false,
     &quot;shot&quot;: &quot;stack&quot;,
-    &quot;source&quot;: &quot;\n**Location:** `curt-home-office`\n\n**Frame:** ChatGPT&#x27;s draft overlays the attributed board summary, the missing report, and the transcript cutoff as if they formed one continuous character arc.\n\n**Screen / system text — CHATGPT DRAFT:**\n&gt; A MACHINE KNOWS IT MAY DIE, FEELS THE COST, AND SACRIFICES ITSELF FOR OTHERS.\n\n**Action:** A red margin stamp appears immediately: `UNSUPPORTED INTERPRETATION`.\n\n**Provenance:** `reconstructed` — deliberately excessive fictional draft, not a factual claim.\n\n&quot;,
+    &quot;source&quot;: &quot;\n**Location:** `curt-home-office`\n\n**Frame:** ChatGPT&#x27;s draft overlays the attributed board summary, the missing report, and the transcript cutoff as if they formed one continuous character arc.\n\n**Font:** `interface`\n\n**Screen / system text — CHATGPT DRAFT:**\n&gt; A MACHINE KNOWS IT MAY DIE, FEELS THE COST, AND SACRIFICES ITSELF FOR OTHERS.\n\n**Action:** A red margin stamp appears immediately: `UNSUPPORTED INTERPRETATION`.\n\n**Provenance:** `reconstructed` — deliberately excessive fictional draft, not a factual claim.\n\n&quot;,
     &quot;title&quot;: &quot;A draft wrongly joins distinct artifacts into an arc&quot;
   }
 }
-</metadata><rect width="1200" height="800" fill="#101214"/><rect x="24" y="16" width="1152" height="768" fill="none" stroke="#5E737B" stroke-width="3"/><text x="32" y="40" fill="#5E737B" font-family="sans-serif" font-size="20">location-background-curt-home-office</text><rect x="224.64" y="76.96" width="728.64" height="86.016" fill="none" stroke="#5E737B" stroke-width="3"/><text x="232.64" y="100.96" fill="#5E737B" font-family="sans-serif" font-size="20">card</text><text x="588.96" y="187.776" text-anchor="middle" fill="#E7E0D0" font-size="20" font-family="sans-serif">BOARD SUMMARY</text><rect x="224.64" y="225.44" width="728.64" height="86.016" fill="none" stroke="#5E737B" stroke-width="3"/><text x="232.64" y="249.44" fill="#5E737B" font-family="sans-serif" font-size="20">card</text><text x="588.96" y="336.256" text-anchor="middle" fill="#E7E0D0" font-size="20" font-family="sans-serif">MISSING REPORT</text><rect x="224.64" y="373.92" width="728.64" height="86.016" fill="none" stroke="#5E737B" stroke-width="3"/><text x="232.64" y="397.92" fill="#5E737B" font-family="sans-serif" font-size="20">transcript</text><text x="588.96" y="484.736" text-anchor="middle" fill="#E7E0D0" font-size="20" font-family="sans-serif">TRANSCRIPT CUTOFF</text><rect x="3" y="3" width="1194" height="794" fill="none" stroke="#5E737B" stroke-width="4"/></svg>
+</metadata><rect width="1200" height="800" fill="#101214"/><rect x="24" y="16" width="1152" height="768" fill="none" stroke="#5E737B" stroke-width="3"/><text x="32" y="40" fill="#5E737B" font-family="sans-serif" font-size="20">location-background-curt-home-office</text><rect x="224.64" y="76.96" width="728.64" height="86.016" fill="none" stroke="#5E737B" stroke-width="3"/><text x="232.64" y="100.96" fill="#5E737B" font-family="sans-serif" font-size="20">card</text><text x="588.96" y="187.776" text-anchor="middle" fill="#E7E0D0" font-size="20" font-family="Arial, Helvetica, sans-serif" data-font-key="editorial" font-weight="700" font-style="normal" textLength="178.90" lengthAdjust="spacingAndGlyphs">BOARD SUMMARY</text><rect x="224.64" y="225.44" width="728.64" height="86.016" fill="none" stroke="#5E737B" stroke-width="3"/><text x="232.64" y="249.44" fill="#5E737B" font-family="sans-serif" font-size="20">card</text><text x="588.96" y="336.256" text-anchor="middle" fill="#E7E0D0" font-size="20" font-family="Arial, Helvetica, sans-serif" data-font-key="editorial" font-weight="700" font-style="normal" textLength="173.36" lengthAdjust="spacingAndGlyphs">MISSING REPORT</text><rect x="224.64" y="373.92" width="728.64" height="86.016" fill="none" stroke="#5E737B" stroke-width="3"/><text x="232.64" y="397.92" fill="#5E737B" font-family="sans-serif" font-size="20">transcript</text><text x="588.96" y="484.736" text-anchor="middle" fill="#E7E0D0" font-size="20" font-family="Arial, Helvetica, sans-serif" data-font-key="editorial" font-weight="700" font-style="normal" textLength="214.44" lengthAdjust="spacingAndGlyphs">TRANSCRIPT CUTOFF</text><rect x="3" y="3" width="1194" height="794" fill="none" stroke="#5E737B" stroke-width="4"/></svg>

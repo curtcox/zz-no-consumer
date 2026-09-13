@@ -33,6 +33,7 @@
       ],
       "color": "steel",
       "focus": true,
+      "font": "editorial",
       "label": "CORRELATED INCIDENT",
       "label_box": [
         0.20679999999999998,
@@ -44,6 +45,6 @@
   ],
   "reconstructed": false,
   "shot": "hero",
-  "source": "\n**Location:** `reconstructed-security-operations-center`\n\n**Frame:** Verso. Continue the exact incident card from [page 055](055.md). Its correlation map remains coherent and unchanged.\n\n**Action:** The system retains its attack interpretation.\n\n**Caption:**\n> THE CORRELATION DOES NOT DISAPPEAR.\n\n**Provenance:** `documented` + `reconstructed` — sourced state carried through reconstructed UI.\n\n",
+  "source": "\n**Location:** `reconstructed-security-operations-center`\n\n**Frame:** Verso. Continue the exact incident card from [page 055](055.md). Its correlation map remains coherent and unchanged.\n\n**Action:** The system retains its attack interpretation.\n\n**Font:** `narration`\n\n**Caption:**\n> THE CORRELATION DOES NOT DISAPPEAR.\n\n**Provenance:** `documented` + `reconstructed` — sourced state carried through reconstructed UI.\n\n",
   "title": "The coherent incident card remains unchanged"
 }

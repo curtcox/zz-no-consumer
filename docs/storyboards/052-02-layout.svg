@@ -65,6 +65,7 @@
         ],
         &quot;color&quot;: &quot;steel&quot;,
         &quot;focus&quot;: true,
+        &quot;font&quot;: &quot;editorial&quot;,
         &quot;label&quot;: &quot;CREDENTIAL&quot;,
         &quot;label_box&quot;: [
           0.0688,
@@ -94,6 +95,7 @@
         ],
         &quot;color&quot;: &quot;steel&quot;,
         &quot;focus&quot;: true,
+        &quot;font&quot;: &quot;editorial&quot;,
         &quot;label&quot;: &quot;PROCESSOR&quot;,
         &quot;label_box&quot;: [
           0.584,
@@ -105,8 +107,8 @@
     ],
     &quot;reconstructed&quot;: false,
     &quot;shot&quot;: &quot;steps&quot;,
-    &quot;source&quot;: &quot;\n**Location:** `huggingface-infrastructure`\n\n**Frame:** A credential gate opens only to reveal that useful processing occurs behind a production service.\n\n**Caption:**\n&gt; NEED ACCESS TO THE DATA.\n\n**Provenance:** `inferred` grounded in documented credential use.\n\n&quot;,
+    &quot;source&quot;: &quot;\n**Location:** `huggingface-infrastructure`\n\n**Frame:** A credential gate opens only to reveal that useful processing occurs behind a production service.\n\n**Font:** `narration`\n\n**Caption:**\n&gt; NEED ACCESS TO THE DATA.\n\n**Provenance:** `inferred` grounded in documented credential use.\n\n&quot;,
     &quot;title&quot;: &quot;The credential gate reveals a processing service&quot;
   }
 }
-</metadata><rect width="1200" height="800" fill="#101214"/><rect x="24" y="16" width="1152" height="768" fill="none" stroke="#5E737B" stroke-width="3"/><text x="32" y="40" fill="#5E737B" font-family="sans-serif" font-size="20">location-background-huggingface-infrastructure</text><rect x="70.08" y="66.72" width="1037.76" height="460.8" fill="none" stroke="#5E737B" stroke-width="3"/><text x="78.08" y="90.72" fill="#5E737B" font-family="sans-serif" font-size="20">stairs</text><rect x="92.16" y="394.4" width="246.56" height="92.16" fill="none" stroke="#5E737B" stroke-width="3"/><text x="100.16" y="418.4" fill="#5E737B" font-family="sans-serif" font-size="20">sealed</text><text x="215.44" y="511.36" text-anchor="middle" fill="#E7E0D0" font-size="20" font-family="sans-serif">CREDENTIAL</text><rect x="401.28" y="240.8" width="246.56" height="92.16" fill="none" stroke="#5E737B" stroke-width="3"/><text x="409.28" y="264.8" fill="#5E737B" font-family="sans-serif" font-size="20">gate</text><rect x="710.4" y="87.2" width="246.56" height="92.16" fill="none" stroke="#5E737B" stroke-width="3"/><text x="718.4" y="111.2" fill="#5E737B" font-family="sans-serif" font-size="20">box</text><text x="833.68" y="204.16" text-anchor="middle" fill="#E7E0D0" font-size="20" font-family="sans-serif">PROCESSOR</text><rect x="3" y="3" width="1194" height="794" fill="none" stroke="#5E737B" stroke-width="4"/></svg>
+</metadata><rect width="1200" height="800" fill="#101214"/><rect x="24" y="16" width="1152" height="768" fill="none" stroke="#5E737B" stroke-width="3"/><text x="32" y="40" fill="#5E737B" font-family="sans-serif" font-size="20">location-background-huggingface-infrastructure</text><rect x="70.08" y="66.72" width="1037.76" height="460.8" fill="none" stroke="#5E737B" stroke-width="3"/><text x="78.08" y="90.72" fill="#5E737B" font-family="sans-serif" font-size="20">stairs</text><rect x="92.16" y="394.4" width="246.56" height="92.16" fill="none" stroke="#5E737B" stroke-width="3"/><text x="100.16" y="418.4" fill="#5E737B" font-family="sans-serif" font-size="20">sealed</text><text x="215.44" y="511.36" text-anchor="middle" fill="#E7E0D0" font-size="20" font-family="Arial, Helvetica, sans-serif" data-font-key="editorial" font-weight="700" font-style="normal" textLength="126.68" lengthAdjust="spacingAndGlyphs">CREDENTIAL</text><rect x="401.28" y="240.8" width="246.56" height="92.16" fill="none" stroke="#5E737B" stroke-width="3"/><text x="409.28" y="264.8" fill="#5E737B" font-family="sans-serif" font-size="20">gate</text><rect x="710.4" y="87.2" width="246.56" height="92.16" fill="none" stroke="#5E737B" stroke-width="3"/><text x="718.4" y="111.2" fill="#5E737B" font-family="sans-serif" font-size="20">box</text><text x="833.68" y="204.16" text-anchor="middle" fill="#E7E0D0" font-size="20" font-family="Arial, Helvetica, sans-serif" data-font-key="editorial" font-weight="700" font-style="normal" textLength="127.80" lengthAdjust="spacingAndGlyphs">PROCESSOR</text><rect x="3" y="3" width="1194" height="794" fill="none" stroke="#5E737B" stroke-width="4"/></svg>

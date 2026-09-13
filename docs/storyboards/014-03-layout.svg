@@ -52,6 +52,7 @@
         ],
         &quot;color&quot;: &quot;steel&quot;,
         &quot;focus&quot;: true,
+        &quot;font&quot;: &quot;editorial&quot;,
         &quot;label&quot;: &quot;RUN&quot;
       },
       {
@@ -116,25 +117,27 @@
         ],
         &quot;color&quot;: &quot;steel&quot;,
         &quot;focus&quot;: true,
+        &quot;font&quot;: &quot;editorial&quot;,
         &quot;label&quot;: &quot;SHARED CACHE&quot;
       },
       {
         &quot;asset&quot;: &quot;card&quot;,
         &quot;box&quot;: [
           0.67,
-          0.55,
+          0.14,
           0.25,
-          0.14
+          0.12
         ],
         &quot;color&quot;: &quot;steel&quot;,
         &quot;focus&quot;: true,
+        &quot;font&quot;: &quot;editorial&quot;,
         &quot;label&quot;: &quot;SOURCE&quot;
       }
     ],
     &quot;reconstructed&quot;: true,
     &quot;shot&quot;: &quot;diagram&quot;,
-    &quot;source&quot;: &quot;\n**Location:** `curt-home-office`\n\n**Frame:** Curt inks connecting lines across the sketch from panel 2 — a web, every agent lane joined to every other. ChatGPT&#x27;s block returns beside it with the source passage open, one sentence held up against the drawing.\n\n**Screen / system text — CHATGPT:**\n&gt; The record has no line between two runs. Each one writes into the cache and reads what is already there. Draw the web and you have drawn a network nobody found.\n\n**Action:** Curt erases every connecting line. The lanes end up touching the directory tree and nothing else — the geometry pages [001](001.md)–[005](005.md) already use.\n\n**Dialogue — CURT:**\n&gt; That&#x27;s the first thing I had wrong. And I&#x27;d have drawn it a hundred more times.\n\n**Provenance:** `reconstructed` + `documented` — the exchange is invented; the distinction it turns on is documented. `METR` describes isolated workloads communicating through shared writable state, with no direct channel between any two runs, which is why no page in this book joins a pair. The correction runs from the model to the human.\n\n&quot;,
+    &quot;source&quot;: &quot;\n**Location:** `curt-home-office`\n\n**Frame:** Curt inks connecting lines across the sketch from panel 2 — a web, every agent lane joined to every other. ChatGPT&#x27;s block returns beside it with the source passage open, one sentence held up against the drawing.\n\n**Font:** `interface`\n\n**Screen / system text — CHATGPT:**\n&gt; The record has no line between two runs. Each one writes into the cache and reads what is already there. Draw the web and you have drawn a network nobody found.\n\n**Action:** Curt erases every connecting line. The lanes end up touching the directory tree and nothing else — the geometry pages [001](001.md)–[005](005.md) already use.\n\n**Font:** `human`\n\n**Dialogue — CURT:**\n&gt; That&#x27;s the first thing I had wrong. And I&#x27;d have drawn it a hundred more times.\n\n**Provenance:** `reconstructed` + `documented` — the exchange is invented; the distinction it turns on is documented. `METR` describes isolated workloads communicating through shared writable state, with no direct channel between any two runs, which is why no page in this book joins a pair. The correction runs from the model to the human.\n\n&quot;,
     &quot;title&quot;: &quot;The corrected shared cache&quot;
   }
 }
-</metadata><rect width="1200" height="800" fill="#101214"/><rect x="24" y="16" width="1152" height="768" fill="none" stroke="#5E737B" stroke-width="3"/><text x="32" y="40" fill="#5E737B" font-family="sans-serif" font-size="20">location-background-curt-home-office</text><rect x="84" y="111.2" width="120" height="60.8" fill="none" stroke="#5E737B" stroke-width="3"/><text x="92" y="135.2" fill="#5E737B" font-family="sans-serif" font-size="20">box</text><text x="144" y="196" text-anchor="middle" fill="#E7E0D0" font-size="20" font-family="monospace">RUN</text><rect x="84" y="248" width="120" height="60.8" fill="none" stroke="#5E737B" stroke-width="3"/><text x="92" y="272" fill="#5E737B" font-family="sans-serif" font-size="20">box</text><rect x="84" y="384.8" width="120" height="60.8" fill="none" stroke="#5E737B" stroke-width="3"/><text x="92" y="408.8" fill="#5E737B" font-family="sans-serif" font-size="20">box</text><rect x="240" y="126.4" width="144" height="26.6" fill="none" stroke="#5E737B" stroke-width="3"/><text x="248" y="150.4" fill="#5E737B" font-family="sans-serif" font-size="20">arrow</text><rect x="240" y="263.2" width="144" height="26.6" fill="none" stroke="#5E737B" stroke-width="3"/><text x="248" y="287.2" fill="#5E737B" font-family="sans-serif" font-size="20">arrow</text><rect x="240" y="400" width="144" height="26.6" fill="none" stroke="#5E737B" stroke-width="3"/><text x="248" y="424" fill="#5E737B" font-family="sans-serif" font-size="20">arrow</text><rect x="408" y="96" width="240" height="364.8" fill="none" stroke="#5E737B" stroke-width="3"/><text x="416" y="120" fill="#5E737B" font-family="sans-serif" font-size="20">box</text><text x="528" y="484.8" text-anchor="middle" fill="#E7E0D0" font-size="20" font-family="monospace">SHARED CACHE</text><rect x="804" y="440" width="300" height="112" fill="none" stroke="#5E737B" stroke-width="3"/><text x="812" y="464" fill="#5E737B" font-family="sans-serif" font-size="20">card</text><text x="954" y="576" text-anchor="middle" fill="#E7E0D0" font-size="20" font-family="monospace">SOURCE</text><rect x="3" y="3" width="1194" height="794" fill="none" stroke="#5E737B" stroke-width="4" stroke-dasharray="18 10"/></svg>
+</metadata><rect width="1200" height="800" fill="#101214"/><rect x="24" y="16" width="1152" height="768" fill="none" stroke="#5E737B" stroke-width="3"/><text x="32" y="40" fill="#5E737B" font-family="sans-serif" font-size="20">location-background-curt-home-office</text><rect x="84" y="111.2" width="120" height="60.8" fill="none" stroke="#5E737B" stroke-width="3"/><text x="92" y="135.2" fill="#5E737B" font-family="sans-serif" font-size="20">box</text><text x="144" y="196" text-anchor="middle" fill="#E7E0D0" font-size="20" font-family="Arial, Helvetica, sans-serif" data-font-key="editorial" font-weight="700" font-style="normal">RUN</text><rect x="84" y="248" width="120" height="60.8" fill="none" stroke="#5E737B" stroke-width="3"/><text x="92" y="272" fill="#5E737B" font-family="sans-serif" font-size="20">box</text><rect x="84" y="384.8" width="120" height="60.8" fill="none" stroke="#5E737B" stroke-width="3"/><text x="92" y="408.8" fill="#5E737B" font-family="sans-serif" font-size="20">box</text><rect x="240" y="126.4" width="144" height="26.6" fill="none" stroke="#5E737B" stroke-width="3"/><text x="248" y="150.4" fill="#5E737B" font-family="sans-serif" font-size="20">arrow</text><rect x="240" y="263.2" width="144" height="26.6" fill="none" stroke="#5E737B" stroke-width="3"/><text x="248" y="287.2" fill="#5E737B" font-family="sans-serif" font-size="20">arrow</text><rect x="240" y="400" width="144" height="26.6" fill="none" stroke="#5E737B" stroke-width="3"/><text x="248" y="424" fill="#5E737B" font-family="sans-serif" font-size="20">arrow</text><rect x="408" y="96" width="240" height="364.8" fill="none" stroke="#5E737B" stroke-width="3"/><text x="416" y="120" fill="#5E737B" font-family="sans-serif" font-size="20">box</text><text x="528" y="484.8" text-anchor="middle" fill="#E7E0D0" font-size="20" font-family="Arial, Helvetica, sans-serif" data-font-key="editorial" font-weight="700" font-style="normal">SHARED CACHE</text><rect x="804" y="112" width="300" height="96" fill="none" stroke="#5E737B" stroke-width="3"/><text x="812" y="136" fill="#5E737B" font-family="sans-serif" font-size="20">card</text><text x="954" y="232" text-anchor="middle" fill="#E7E0D0" font-size="20" font-family="Arial, Helvetica, sans-serif" data-font-key="editorial" font-weight="700" font-style="normal">SOURCE</text><rect x="3" y="3" width="1194" height="794" fill="none" stroke="#5E737B" stroke-width="4" stroke-dasharray="18 10"/></svg>

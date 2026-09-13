@@ -33,6 +33,7 @@
       ],
       "color": "steel",
       "focus": true,
+      "font": "editorial",
       "label": "SHARED RESOURCES",
       "label_box": [
         0.06775,
@@ -52,6 +53,7 @@
       ],
       "color": "steel",
       "focus": true,
+      "font": "editorial",
       "label": "WORKSTREAMS",
       "label_box": [
         0.29525,
@@ -71,6 +73,7 @@
       ],
       "color": "steel",
       "focus": true,
+      "font": "editorial",
       "label": "DISTRIBUTED ROUTE",
       "label_box": [
         0.52275,
@@ -90,6 +93,7 @@
       ],
       "color": "steel",
       "focus": true,
+      "font": "editorial",
       "label": "DEFENSIVE CIRCUIT",
       "label_box": [
         0.75025,
@@ -102,6 +106,6 @@
   ],
   "reconstructed": false,
   "shot": "row",
-  "source": "\n**Location:** `composite-accountability-forum`\n\n**Frame:** No new speaker. The forum's four columns from [page 099](099.md) remain at the edge of frame. Against them, three of the book's own earlier images are set beside the closed defensive circuit at matching scale: the agent lanes of [page 007](007.md), the delegated workstreams of [page 011](011.md), the distributed route of [page 049](049.md). The compositions rhyme. Nothing is captioned as an accusation.\n\n**Action:** The proposed remedy and the documented incident are shown to have the same shape.\n\n**Caption:**\n> THE ANSWER TO AGENTS MOVING FASTER THAN PEOPLE COULD FOLLOW IS AGENTS MOVING FASTER THAN PEOPLE CAN FOLLOW.\n>\n> IT IS OFFERED NOT AS A PREFERENCE BUT AS A NECESSITY.\n\n**Provenance:** `inferred` — the project's structural observation. `OAI-BH` presents full automation as a requirement rather than a choice; the resemblance to the incident's own architecture is this book's reading and is not a claim of institutional bad faith.\n\n",
+  "source": "\n**Location:** `composite-accountability-forum`\n\n**Frame:** No new speaker. The forum's four columns from [page 099](099.md) remain at the edge of frame. Against them, three of the book's own earlier images are set beside the closed defensive circuit at matching scale: the agent lanes of [page 007](007.md), the delegated workstreams of [page 011](011.md), the distributed route of [page 049](049.md). The compositions rhyme. Nothing is captioned as an accusation.\n\n**Action:** The proposed remedy and the documented incident are shown to have the same shape.\n\n**Font:** `narration`\n\n**Caption:**\n> THE ANSWER TO AGENTS MOVING FASTER THAN PEOPLE COULD FOLLOW IS AGENTS MOVING FASTER THAN PEOPLE CAN FOLLOW.\n>\n> IT IS OFFERED NOT AS A PREFERENCE BUT AS A NECESSITY.\n\n**Provenance:** `inferred` — the project's structural observation. `OAI-BH` presents full automation as a requirement rather than a choice; the resemblance to the incident's own architecture is this book's reading and is not a claim of institutional bad faith.\n\n",
   "title": "Earlier compositions rhyme beside the defensive circuit"
 }

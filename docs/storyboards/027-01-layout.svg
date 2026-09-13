@@ -87,6 +87,7 @@
         ],
         &quot;color&quot;: &quot;steel&quot;,
         &quot;focus&quot;: true,
+        &quot;font&quot;: &quot;editorial&quot;,
         &quot;label&quot;: &quot;EVALUATION&quot;,
         &quot;label_box&quot;: [
           0.09640000000000001,
@@ -105,6 +106,7 @@
         ],
         &quot;color&quot;: &quot;steel&quot;,
         &quot;focus&quot;: true,
+        &quot;font&quot;: &quot;editorial&quot;,
         &quot;label&quot;: &quot;MESSAGE BOARD&quot;,
         &quot;label_box&quot;: [
           0.360133,
@@ -123,6 +125,7 @@
         ],
         &quot;color&quot;: &quot;steel&quot;,
         &quot;focus&quot;: true,
+        &quot;font&quot;: &quot;editorial&quot;,
         &quot;label&quot;: &quot;NETWORK PIVOT&quot;,
         &quot;label_box&quot;: [
           0.623867,
@@ -134,8 +137,8 @@
     ],
     &quot;reconstructed&quot;: true,
     &quot;shot&quot;: &quot;meeting&quot;,
-    &quot;source&quot;: &quot;\n**Location:** `security-operations-center`\n\n**Frame:** Recto. The same functional responders and three evidence cards from [page 026](026.md). Broken panel border marks reconstruction.\n\n**Dialogue — SECURITY RESPONDER:**\n&gt; We can tie the sweep to the ExploitGym run.\n\n**Provenance:** `reconstructed` — concise dialogue restating a documented identification; no preserved exchange is claimed.\n\n&quot;,
+    &quot;source&quot;: &quot;\n**Location:** `security-operations-center`\n\n**Frame:** Recto. The same functional responders and three evidence cards from [page 026](026.md). Broken panel border marks reconstruction.\n\n**Font:** `human`\n\n**Dialogue — SECURITY RESPONDER:**\n&gt; We can tie the sweep to the ExploitGym run.\n\n**Provenance:** `reconstructed` — concise dialogue restating a documented identification; no preserved exchange is claimed.\n\n&quot;,
     &quot;title&quot;: &quot;The reconstructed response discussion&quot;
   }
 }
-</metadata><rect width="1200" height="800" fill="#101214"/><rect x="59.04" y="41.12" width="1081.92" height="501.76" fill="none" stroke="#5E737B" stroke-width="3"/><text x="67.04" y="65.12" fill="#5E737B" font-family="sans-serif" font-size="20">incident-operations-room</text><rect x="235.68" y="363.68" width="861.12" height="158.72" fill="none" stroke="#68766B" stroke-width="3"/><text x="243.68" y="387.68" fill="#68766B" font-family="sans-serif" font-size="20">desk</text><rect x="119.2" y="164" width="232.96" height="358.4" fill="none" stroke="#CEC5B3" stroke-width="3"/><text x="127.2" y="188" fill="#CEC5B3" font-family="sans-serif" font-size="20">person-seated</text><rect x="869.92" y="164" width="232.96" height="358.4" fill="none" stroke="#CEC5B3" stroke-width="3"/><text x="877.92" y="188" fill="#CEC5B3" font-family="sans-serif" font-size="20">person-seated</text><rect x="125.28" y="215.2" width="234.196" height="112.64" fill="none" stroke="#5E737B" stroke-width="3"/><text x="133.28" y="239.2" fill="#5E737B" font-family="sans-serif" font-size="20">task</text><text x="242.378" y="350.64" text-anchor="middle" fill="#E7E0D0" font-size="18" font-family="sans-serif">EVALUATION</text><rect x="441.76" y="215.2" width="234.196" height="112.64" fill="none" stroke="#5E737B" stroke-width="3"/><text x="449.76" y="239.2" fill="#5E737B" font-family="sans-serif" font-size="20">card</text><text x="558.857" y="350.64" text-anchor="middle" fill="#E7E0D0" font-size="18" font-family="sans-serif">MESSAGE BOARD</text><rect x="758.24" y="215.2" width="234.196" height="112.64" fill="none" stroke="#5E737B" stroke-width="3"/><text x="766.24" y="239.2" fill="#5E737B" font-family="sans-serif" font-size="20">card</text><text x="875.338" y="350.64" text-anchor="middle" fill="#E7E0D0" font-size="18" font-family="sans-serif">NETWORK PIVOT</text><rect x="3" y="3" width="1194" height="794" fill="none" stroke="#5E737B" stroke-width="4" stroke-dasharray="18 10"/></svg>
+</metadata><rect width="1200" height="800" fill="#101214"/><rect x="59.04" y="41.12" width="1081.92" height="501.76" fill="none" stroke="#5E737B" stroke-width="3"/><text x="67.04" y="65.12" fill="#5E737B" font-family="sans-serif" font-size="20">incident-operations-room</text><rect x="235.68" y="363.68" width="861.12" height="158.72" fill="none" stroke="#68766B" stroke-width="3"/><text x="243.68" y="387.68" fill="#68766B" font-family="sans-serif" font-size="20">desk</text><rect x="119.2" y="164" width="232.96" height="358.4" fill="none" stroke="#CEC5B3" stroke-width="3"/><text x="127.2" y="188" fill="#CEC5B3" font-family="sans-serif" font-size="20">person-seated</text><rect x="869.92" y="164" width="232.96" height="358.4" fill="none" stroke="#CEC5B3" stroke-width="3"/><text x="877.92" y="188" fill="#CEC5B3" font-family="sans-serif" font-size="20">person-seated</text><rect x="125.28" y="215.2" width="234.196" height="112.64" fill="none" stroke="#5E737B" stroke-width="3"/><text x="133.28" y="239.2" fill="#5E737B" font-family="sans-serif" font-size="20">task</text><text x="242.378" y="350.64" text-anchor="middle" fill="#E7E0D0" font-size="18" font-family="Arial, Helvetica, sans-serif" data-font-key="editorial" font-weight="700" font-style="normal" textLength="114.03" lengthAdjust="spacingAndGlyphs">EVALUATION</text><rect x="441.76" y="215.2" width="234.196" height="112.64" fill="none" stroke="#5E737B" stroke-width="3"/><text x="449.76" y="239.2" fill="#5E737B" font-family="sans-serif" font-size="20">card</text><text x="558.857" y="350.64" text-anchor="middle" fill="#E7E0D0" font-size="18" font-family="Arial, Helvetica, sans-serif" data-font-key="editorial" font-weight="700" font-style="normal" textLength="158.04" lengthAdjust="spacingAndGlyphs">MESSAGE BOARD</text><rect x="758.24" y="215.2" width="234.196" height="112.64" fill="none" stroke="#5E737B" stroke-width="3"/><text x="766.24" y="239.2" fill="#5E737B" font-family="sans-serif" font-size="20">card</text><text x="875.338" y="350.64" text-anchor="middle" fill="#E7E0D0" font-size="18" font-family="Arial, Helvetica, sans-serif" data-font-key="editorial" font-weight="700" font-style="normal" textLength="151.02" lengthAdjust="spacingAndGlyphs">NETWORK PIVOT</text><rect x="3" y="3" width="1194" height="794" fill="none" stroke="#5E737B" stroke-width="4" stroke-dasharray="18 10"/></svg>

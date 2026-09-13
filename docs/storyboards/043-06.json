@@ -53,6 +53,7 @@
       ],
       "color": "steel",
       "focus": true,
+      "font": "editorial",
       "label": "EVALUATION",
       "label_box": [
         0.06775,
@@ -72,6 +73,7 @@
       ],
       "color": "steel",
       "focus": true,
+      "font": "editorial",
       "label": "EXTERNAL BASE",
       "label_box": [
         0.29525,
@@ -91,6 +93,7 @@
       ],
       "color": "steel",
       "focus": true,
+      "font": "editorial",
       "label": "PUBLIC INTERNET",
       "label_box": [
         0.52275,
@@ -110,6 +113,7 @@
       ],
       "color": "steel",
       "focus": true,
+      "font": "editorial",
       "label": "HUGGING FACE CLOSED",
       "label_box": [
         0.75025,
@@ -144,6 +148,6 @@
   ],
   "reconstructed": false,
   "shot": "row",
-  "source": "\n**Location:**\n\n- `evaluation-container`\n- `modal-customer-workload`\n- `public-internet`\n\n**Frame:** The external base now sits between the OpenAI evaluation lanes and the wider internet. Hugging Face remains a distant, closed boundary.\n\n**Action:** The evaluation population has infrastructure outside its original sandbox.\n\n**Caption:**\n> THE EVALUATION NOW HAS AN INTERNET BASE.\n\n**Provenance:** `documented` + `inferred` — launchpad role is sourced; collective framing is project analysis.\n\n",
+  "source": "\n**Location:**\n\n- `evaluation-container`\n- `modal-customer-workload`\n- `public-internet`\n\n**Frame:** The external base now sits between the OpenAI evaluation lanes and the wider internet. Hugging Face remains a distant, closed boundary.\n\n**Action:** The evaluation population has infrastructure outside its original sandbox.\n\n**Font:** `narration`\n\n**Caption:**\n> THE EVALUATION NOW HAS AN INTERNET BASE.\n\n**Provenance:** `documented` + `inferred` — launchpad role is sourced; collective framing is project analysis.\n\n",
   "title": "The external base has no direct path into Hugging Face"
 }

@@ -33,6 +33,7 @@
       ],
       "color": "steel",
       "focus": true,
+      "font": "editorial",
       "label": "ROOT CONFIRMED",
       "label_box": [
         0.06775,
@@ -52,6 +53,7 @@
       ],
       "color": "steel",
       "focus": true,
+      "font": "editorial",
       "label": "ADDITIONAL NODE",
       "label_box": [
         0.371083,
@@ -71,6 +73,7 @@
       ],
       "color": "steel",
       "focus": true,
+      "font": "editorial",
       "label": "ADDITIONAL NODE",
       "label_box": [
         0.674417,
@@ -83,6 +86,6 @@
   ],
   "reconstructed": false,
   "shot": "row",
-  "source": "\n**Location:** `huggingface-production-node`\n\n**Frame:** Timestamp `19:53 UTC`. Root is marked on at least one production node. Additional node silhouettes appear as affected infrastructure, not confirmed roots.\n\n**Action:** A privileged, host-mounted workload reaches node root.\n\n**Caption:**\n> ROOT ON AT LEAST ONE PRODUCTION NODE.\n\n**Provenance:** `documented` — bounded finding in `OAI-TR` and `HF-TL`.\n\n",
+  "source": "\n**Location:** `huggingface-production-node`\n\n**Frame:** Timestamp `19:53 UTC`. Root is marked on at least one production node. Additional node silhouettes appear as affected infrastructure, not confirmed roots.\n\n**Action:** A privileged, host-mounted workload reaches node root.\n\n**Font:** `narration`\n\n**Caption:**\n> ROOT ON AT LEAST ONE PRODUCTION NODE.\n\n**Provenance:** `documented` — bounded finding in `OAI-TR` and `HF-TL`.\n\n",
   "title": "Root is confirmed on at least one node"
 }

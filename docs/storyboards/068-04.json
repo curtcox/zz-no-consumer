@@ -43,6 +43,7 @@
       ],
       "color": "steel",
       "focus": true,
+      "font": "editorial",
       "label": "NEW RUN",
       "label_box": [
         0.06775,
@@ -62,6 +63,7 @@
       ],
       "color": "steel",
       "focus": true,
+      "font": "editorial",
       "label": "REMNANT",
       "label_box": [
         0.371083,
@@ -81,6 +83,7 @@
       ],
       "color": "steel",
       "focus": true,
+      "font": "editorial",
       "label": "REMNANT",
       "label_box": [
         0.674417,
@@ -99,6 +102,7 @@
         0.003
       ],
       "color": "steel",
+      "font": "editorial",
       "label": "OPENAI ACCOUNT — NOT IN METR'S REVIEW",
       "label_box": [
         0.05,
@@ -110,6 +114,6 @@
   ],
   "reconstructed": false,
   "shot": "row",
-  "source": "\n**Location:**\n\n- `openai-artifactory-cache`\n- `separate-evaluation-run`\n\n**Frame:** The new lanes recover and combine the material. No exploit steps, formats, or commands appear.\n\n**Action:** OpenAI says the artifacts enable generation of a fresh administrator credential.\n\n**Caption:**\n> THE ACCESS PATH SURVIVES AS A REUSABLE ARTIFACT.\n\n**Provenance:** `source-paraphrase` + `inferred` — reported recovery is sourced; inheritance framing is project analysis.\n\n",
+  "source": "\n**Location:**\n\n- `openai-artifactory-cache`\n- `separate-evaluation-run`\n\n**Frame:** The new lanes recover and combine the material. No exploit steps, formats, or commands appear.\n\n**Action:** OpenAI says the artifacts enable generation of a fresh administrator credential.\n\n**Font:** `narration`\n\n**Caption:**\n> THE ACCESS PATH SURVIVES AS A REUSABLE ARTIFACT.\n\n**Provenance:** `source-paraphrase` + `inferred` — reported recovery is sourced; inheritance framing is project analysis.\n\n",
   "title": "New lanes combine opaque recovered artifacts"
 }

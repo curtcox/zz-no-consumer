@@ -1,0 +1,53 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="800" viewBox="0 0 1200 800"><title>The forum screen goes dark</title><desc>Darken the screen and leave only the counsel&#x27;s line under the disclosure banner. The visual pause should not add a new illustrated answer.</desc><metadata>{
+  &quot;assets&quot;: {
+    &quot;blank-monitor&quot;: &quot;&lt;defs&gt;\n&lt;linearGradient id=\&quot;metal\&quot; x1=\&quot;0\&quot; y1=\&quot;0\&quot; x2=\&quot;1\&quot; y2=\&quot;1\&quot;&gt;&lt;stop stop-color=\&quot;currentColor\&quot; /&gt;&lt;stop offset=\&quot;.32\&quot; stop-color=\&quot;#202326\&quot; /&gt;&lt;stop offset=\&quot;.75\&quot; stop-color=\&quot;#101214\&quot; /&gt;&lt;stop offset=\&quot;1\&quot; stop-color=\&quot;currentColor\&quot; /&gt;&lt;/linearGradient&gt;\n&lt;/defs&gt;&lt;path d=\&quot;M43 75V91H24V97H77V91H58V75\&quot; fill=\&quot;url(#metal)\&quot; stroke=\&quot;currentColor\&quot; stroke-width=\&quot;1\&quot; /&gt;&lt;rect x=\&quot;2\&quot; y=\&quot;3\&quot; width=\&quot;96\&quot; height=\&quot;75\&quot; rx=\&quot;4\&quot; fill=\&quot;url(#metal)\&quot; stroke=\&quot;currentColor\&quot; stroke-width=\&quot;2\&quot; /&gt;&lt;rect x=\&quot;8\&quot; y=\&quot;9\&quot; width=\&quot;84\&quot; height=\&quot;61\&quot; fill=\&quot;#101214\&quot; /&gt;&lt;path d=\&quot;M8 9H92V22L8 47Z\&quot; fill=\&quot;#E7E0D0\&quot; opacity=\&quot;.05\&quot; /&gt;&lt;path d=\&quot;M15 74H32\&quot; fill=\&quot;none\&quot; stroke=\&quot;#E7E0D0\&quot; stroke-width=\&quot;0.7\&quot; opacity=\&quot;.5\&quot; /&gt;&quot;
+  },
+  &quot;palette&quot;: {
+    &quot;amber&quot;: &quot;#A17D45&quot;,
+    &quot;claret&quot;: &quot;#6B2634&quot;,
+    &quot;dirty&quot;: &quot;#CEC5B3&quot;,
+    &quot;ink&quot;: &quot;#101214&quot;,
+    &quot;institution&quot;: &quot;#68766B&quot;,
+    &quot;moss&quot;: &quot;#74864F&quot;,
+    &quot;nicotine&quot;: &quot;#AA9571&quot;,
+    &quot;paper&quot;: &quot;#E7E0D0&quot;,
+    &quot;shadow&quot;: &quot;#202326&quot;,
+    &quot;steel&quot;: &quot;#5E737B&quot;
+  },
+  &quot;renderer&quot;: &quot;storyboard-svg-2&quot;,
+  &quot;scene&quot;: {
+    &quot;background&quot;: &quot;ink&quot;,
+    &quot;intent&quot;: &quot;Darken the screen and leave only the counsel&#x27;s line under the disclosure banner. The visual pause should not add a new illustrated answer.&quot;,
+    &quot;lettering&quot;: [
+      {
+        &quot;box&quot;: [
+          0.045,
+          0.78,
+          0.91,
+          0.18
+        ]
+      }
+    ],
+    &quot;lettering_mode&quot;: &quot;manual&quot;,
+    &quot;nodes&quot;: [
+      {
+        &quot;asset&quot;: &quot;blank-monitor&quot;,
+        &quot;box&quot;: [
+          0.0952,
+          0.1218,
+          0.2208,
+          0.1152
+        ],
+        &quot;color&quot;: &quot;shadow&quot;,
+        &quot;focus&quot;: true
+      }
+    ],
+    &quot;reconstructed&quot;: false,
+    &quot;shot&quot;: &quot;blank&quot;,
+    &quot;source&quot;: &quot;\n**Location:** `composite-accountability-forum`\n\n**Frame:** The screen goes dark. Only the public-interest counsel&#x27;s line remains under the banner.\n\n**Dialogue — PUBLIC-INTEREST COUNSEL:**\n&gt; Then continuation may be defensible. It is still not self-verifying.\n\n**Provenance:** `invented` — transition to the verification and coordination questions on [page 102](102.md).\n\n&quot;,
+    &quot;title&quot;: &quot;The forum screen goes dark&quot;
+  }
+}
+</metadata><rect width="1200" height="800" fill="#101214"/><g transform="translate(114.24 97.44) scale(2.6496 0.9216)" color="#202326"><g transform=""><defs>
+<linearGradient id="node-0-metal" x1="0" y1="0" x2="1" y2="1"><stop stop-color="currentColor" /><stop offset=".32" stop-color="#202326" /><stop offset=".75" stop-color="#101214" /><stop offset="1" stop-color="currentColor" /></linearGradient>
+</defs><path d="M43 75V91H24V97H77V91H58V75" fill="url(#node-0-metal)" stroke="currentColor" stroke-width="1" /><rect x="2" y="3" width="96" height="75" rx="4" fill="url(#node-0-metal)" stroke="currentColor" stroke-width="2" /><rect x="8" y="9" width="84" height="61" fill="#101214" /><path d="M8 9H92V22L8 47Z" fill="#E7E0D0" opacity=".05" /><path d="M15 74H32" fill="none" stroke="#E7E0D0" stroke-width="0.7" opacity=".5" /></g></g><rect x="3" y="3" width="1194" height="794" fill="none" stroke="#5E737B" stroke-width="4"/></svg>

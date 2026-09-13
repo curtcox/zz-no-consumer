@@ -33,6 +33,7 @@
       ],
       "color": "steel",
       "focus": true,
+      "font": "editorial",
       "label": "DOCUMENTED EVENT",
       "label_box": [
         0.06775,
@@ -52,6 +53,7 @@
       ],
       "color": "steel",
       "focus": true,
+      "font": "editorial",
       "label": "ORGANIZATION CLAIM",
       "label_box": [
         0.29525,
@@ -71,6 +73,7 @@
       ],
       "color": "steel",
       "focus": true,
+      "font": "editorial",
       "label": "INDEPENDENT CHECK",
       "label_box": [
         0.52275,
@@ -90,6 +93,7 @@
       ],
       "color": "steel",
       "focus": true,
+      "font": "editorial",
       "label": "OPEN QUESTION",
       "label_box": [
         0.75025,
@@ -102,6 +106,6 @@
   ],
   "reconstructed": false,
   "shot": "row",
-  "source": "\n**Location:** `composite-accountability-forum`\n\n**Frame:** Four columns appear: `DOCUMENTED EVENT`, `ORGANIZATION CLAIM`, `INDEPENDENT CHECK`, `OPEN QUESTION`.\n\n**Caption:**\n> THE BOOK GRANTS ITSELF A PLACE TO ASK—NOT A PLACE TO INVENT AN ANSWER.\n\n**Provenance:** `invented` + `inferred`.\n\n",
+  "source": "\n**Location:** `composite-accountability-forum`\n\n**Frame:** Four columns appear: `DOCUMENTED EVENT`, `ORGANIZATION CLAIM`, `INDEPENDENT CHECK`, `OPEN QUESTION`.\n\n**Font:** `narration`\n\n**Caption:**\n> THE BOOK GRANTS ITSELF A PLACE TO ASK—NOT A PLACE TO INVENT AN ANSWER.\n\n**Provenance:** `invented` + `inferred`.\n\n",
   "title": "Four evidence categories structure the forum"
 }

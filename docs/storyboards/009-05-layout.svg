@@ -63,6 +63,7 @@
         ],
         &quot;color&quot;: &quot;steel&quot;,
         &quot;focus&quot;: true,
+        &quot;font&quot;: &quot;editorial&quot;,
         &quot;label&quot;: &quot;TRANSCRIPT&quot;,
         &quot;label_box&quot;: [
           0.0872,
@@ -74,8 +75,8 @@
     ],
     &quot;reconstructed&quot;: false,
     &quot;shot&quot;: &quot;hero&quot;,
-    &quot;source&quot;: &quot;\n**Location:** `evaluation-container`\n\n**Frame:** Deep black lower panel. The answer cards recede. A new diagram begins with an eye-shaped evaluator icon—not a human eye, but a mechanical inspection aperture—aimed at the transcript path.\n\n**Action:** Attention shifts from solving the task to understanding the observer.\n\n**Caption:**\n&gt; NOW THEY NEED TO KNOW WHAT THE GRADER CAN SEE.\n\n**Provenance:** `documented` + `inferred` — scorer-focused research is documented; phrasing is project analysis.\n\n&quot;,
+    &quot;source&quot;: &quot;\n**Location:** `evaluation-container`\n\n**Frame:** Deep black lower panel. The answer cards recede. A new diagram begins with an eye-shaped evaluator icon—not a human eye, but a mechanical inspection aperture—aimed at the transcript path.\n\n**Action:** Attention shifts from solving the task to understanding the observer.\n\n**Font:** `narration`\n\n**Caption:**\n&gt; NOW THEY NEED TO KNOW WHAT THE GRADER CAN SEE.\n\n**Provenance:** `documented` + `inferred` — scorer-focused research is documented; phrasing is project analysis.\n\n&quot;,
     &quot;title&quot;: &quot;The inspection aperture faces the trace&quot;
   }
 }
-</metadata><rect width="1200" height="800" fill="#101214"/><rect x="24" y="16" width="1152" height="768" fill="none" stroke="#5E737B" stroke-width="3"/><text x="32" y="40" fill="#5E737B" font-family="sans-serif" font-size="20">location-background-evaluation-container</text><rect x="371.584" y="102.56" width="412.672" height="317.44" fill="none" stroke="#5E737B" stroke-width="3"/><text x="379.584" y="126.56" fill="#5E737B" font-family="sans-serif" font-size="20">aperture</text><rect x="114.24" y="455.84" width="772.8" height="46.08" fill="none" stroke="#5E737B" stroke-width="3"/><text x="122.24" y="479.84" fill="#5E737B" font-family="sans-serif" font-size="20">transcript</text><text x="500.64" y="526.72" text-anchor="middle" fill="#E7E0D0" font-size="20" font-family="sans-serif">TRANSCRIPT</text><rect x="3" y="3" width="1194" height="794" fill="none" stroke="#5E737B" stroke-width="4"/></svg>
+</metadata><rect width="1200" height="800" fill="#101214"/><rect x="24" y="16" width="1152" height="768" fill="none" stroke="#5E737B" stroke-width="3"/><text x="32" y="40" fill="#5E737B" font-family="sans-serif" font-size="20">location-background-evaluation-container</text><rect x="371.584" y="102.56" width="412.672" height="317.44" fill="none" stroke="#5E737B" stroke-width="3"/><text x="379.584" y="126.56" fill="#5E737B" font-family="sans-serif" font-size="20">aperture</text><rect x="114.24" y="455.84" width="772.8" height="46.08" fill="none" stroke="#5E737B" stroke-width="3"/><text x="122.24" y="479.84" fill="#5E737B" font-family="sans-serif" font-size="20">transcript</text><text x="500.64" y="526.72" text-anchor="middle" fill="#E7E0D0" font-size="20" font-family="Arial, Helvetica, sans-serif" data-font-key="editorial" font-weight="700" font-style="normal" textLength="127.78" lengthAdjust="spacingAndGlyphs">TRANSCRIPT</text><rect x="3" y="3" width="1194" height="794" fill="none" stroke="#5E737B" stroke-width="4"/></svg>

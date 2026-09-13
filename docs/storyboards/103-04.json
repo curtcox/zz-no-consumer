@@ -33,6 +33,7 @@
       ],
       "color": "steel",
       "focus": true,
+      "font": "editorial",
       "label": "PRESERVED RECORDS",
       "label_box": [
         0.06775,
@@ -52,6 +53,7 @@
       ],
       "color": "steel",
       "focus": true,
+      "font": "editorial",
       "label": "REQUESTS",
       "label_box": [
         0.371083,
@@ -71,6 +73,7 @@
       ],
       "color": "steel",
       "focus": true,
+      "font": "editorial",
       "label": "FUTURE DEADLINE",
       "label_box": [
         0.674417,
@@ -83,6 +86,6 @@
   ],
   "reconstructed": false,
   "shot": "row",
-  "source": "\n**Location:** `regulatory-office`\n\n**Frame:** Investigators preserve records, issue compulsory requests, and leave a future response deadline open.\n\n**Caption:**\n> OVERSIGHT LEARNS BY DEMANDING A RECORD IT DOES NOT YET HAVE.\n\n**Provenance:** `documented` + `inferred` — demand documented; interpretive framing bounded.\n\n",
+  "source": "\n**Location:** `regulatory-office`\n\n**Frame:** Investigators preserve records, issue compulsory requests, and leave a future response deadline open.\n\n**Font:** `narration`\n\n**Caption:**\n> OVERSIGHT LEARNS BY DEMANDING A RECORD IT DOES NOT YET HAVE.\n\n**Provenance:** `documented` + `inferred` — demand documented; interpretive framing bounded.\n\n",
   "title": "Investigators retain evidence and await responses"
 }

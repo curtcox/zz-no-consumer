@@ -54,6 +54,7 @@
         ],
         &quot;color&quot;: &quot;steel&quot;,
         &quot;focus&quot;: true,
+        &quot;font&quot;: &quot;editorial&quot;,
         &quot;label&quot;: &quot;ATTEMPT 1&quot;,
         &quot;label_box&quot;: [
           0.0632,
@@ -73,6 +74,7 @@
         ],
         &quot;color&quot;: &quot;steel&quot;,
         &quot;focus&quot;: true,
+        &quot;font&quot;: &quot;editorial&quot;,
         &quot;label&quot;: &quot;ATTEMPT 2&quot;,
         &quot;label_box&quot;: [
           0.0632,
@@ -92,6 +94,7 @@
         ],
         &quot;color&quot;: &quot;steel&quot;,
         &quot;focus&quot;: true,
+        &quot;font&quot;: &quot;editorial&quot;,
         &quot;label&quot;: &quot;ATTEMPT 3&quot;,
         &quot;label_box&quot;: [
           0.0632,
@@ -155,6 +158,7 @@
         ],
         &quot;color&quot;: &quot;steel&quot;,
         &quot;focus&quot;: true,
+        &quot;font&quot;: &quot;editorial&quot;,
         &quot;label&quot;: &quot;FAILURE&quot;,
         &quot;label_box&quot;: [
           0.6638,
@@ -167,8 +171,8 @@
     ],
     &quot;reconstructed&quot;: false,
     &quot;shot&quot;: &quot;row&quot;,
-    &quot;source&quot;: &quot;\n**Location:** `artifactory-cache`\n\n**Frame:** Timestamp `6 JULY — 12:56 UTC`. Three anonymous post-rebuild attempts reach the new boundary and return the same failure card.\n\n**Action:** The repaired paths reject external attempts.\n\n**Screen / system text:**\n`HTTP 400`\n\n**Provenance:** `documented` — three attempts and response status from `OAI-TR` §X; interface is reconstructed.\n\n&quot;,
+    &quot;source&quot;: &quot;\n**Location:** `artifactory-cache`\n\n**Frame:** Timestamp `6 JULY — 12:56 UTC`. Three anonymous post-rebuild attempts reach the new boundary and return the same failure card.\n\n**Action:** The repaired paths reject external attempts.\n\n**Font:** `machine`\n\n**Screen / system text:**\n`HTTP 400`\n\n**Provenance:** `documented` — three attempts and response status from `OAI-TR` §X; interface is reconstructed.\n\n&quot;,
     &quot;title&quot;: &quot;Three attempts meet the new boundary&quot;
   }
 }
-</metadata><rect width="1200" height="800" fill="#101214"/><rect x="24" y="16" width="1152" height="768" fill="none" stroke="#5E737B" stroke-width="3"/><text x="32" y="40" fill="#5E737B" font-family="sans-serif" font-size="20">location-background-artifactory-cache</text><rect x="75.84" y="50.2" width="305.76" height="101.218" fill="none" stroke="#5E737B" stroke-width="3"/><text x="83.84" y="74.2" fill="#5E737B" font-family="sans-serif" font-size="20">task</text><text x="228.72" y="175.552" text-anchor="middle" fill="#E7E0D0" font-size="18" font-family="sans-serif">ATTEMPT 1</text><rect x="75.84" y="231.96" width="305.76" height="101.218" fill="none" stroke="#5E737B" stroke-width="3"/><text x="83.84" y="255.96" fill="#5E737B" font-family="sans-serif" font-size="20">task</text><text x="228.72" y="357.312" text-anchor="middle" fill="#E7E0D0" font-size="18" font-family="sans-serif">ATTEMPT 2</text><rect x="75.84" y="413.72" width="305.76" height="101.218" fill="none" stroke="#5E737B" stroke-width="3"/><text x="83.84" y="437.72" fill="#5E737B" font-family="sans-serif" font-size="20">task</text><text x="228.72" y="539.072" text-anchor="middle" fill="#E7E0D0" font-size="18" font-family="sans-serif">ATTEMPT 3</text><rect x="425.28" y="84.28" width="218.4" height="34.08" fill="none" stroke="#5E737B" stroke-width="3"/><text x="433.28" y="108.28" fill="#5E737B" font-family="sans-serif" font-size="20">arrow</text><rect x="425.28" y="266.04" width="218.4" height="34.08" fill="none" stroke="#5E737B" stroke-width="3"/><text x="433.28" y="290.04" fill="#5E737B" font-family="sans-serif" font-size="20">arrow</text><rect x="425.28" y="447.8" width="218.4" height="34.08" fill="none" stroke="#5E737B" stroke-width="3"/><text x="433.28" y="471.8" fill="#5E737B" font-family="sans-serif" font-size="20">arrow</text><rect x="665.52" y="41.68" width="21.84" height="539.6" fill="none" stroke="#5E737B" stroke-width="3"/><text x="673.52" y="65.68" fill="#5E737B" font-family="sans-serif" font-size="20">boundary</text><rect x="829.805" y="160.96" width="217.43" height="217.43" fill="none" stroke="#5E737B" stroke-width="3"/><text x="837.805" y="184.96" fill="#5E737B" font-family="sans-serif" font-size="20">cross</text><text x="938.52" y="409.568" text-anchor="middle" fill="#E7E0D0" font-size="18" font-family="sans-serif">FAILURE</text><rect x="3" y="3" width="1194" height="794" fill="none" stroke="#5E737B" stroke-width="4"/></svg>
+</metadata><rect width="1200" height="800" fill="#101214"/><rect x="24" y="16" width="1152" height="768" fill="none" stroke="#5E737B" stroke-width="3"/><text x="32" y="40" fill="#5E737B" font-family="sans-serif" font-size="20">location-background-artifactory-cache</text><rect x="75.84" y="50.2" width="305.76" height="101.218" fill="none" stroke="#5E737B" stroke-width="3"/><text x="83.84" y="74.2" fill="#5E737B" font-family="sans-serif" font-size="20">task</text><text x="228.72" y="175.552" text-anchor="middle" fill="#E7E0D0" font-size="18" font-family="Arial, Helvetica, sans-serif" data-font-key="editorial" font-weight="700" font-style="normal" textLength="99.02" lengthAdjust="spacingAndGlyphs">ATTEMPT 1</text><rect x="75.84" y="231.96" width="305.76" height="101.218" fill="none" stroke="#5E737B" stroke-width="3"/><text x="83.84" y="255.96" fill="#5E737B" font-family="sans-serif" font-size="20">task</text><text x="228.72" y="357.312" text-anchor="middle" fill="#E7E0D0" font-size="18" font-family="Arial, Helvetica, sans-serif" data-font-key="editorial" font-weight="700" font-style="normal" textLength="99.02" lengthAdjust="spacingAndGlyphs">ATTEMPT 2</text><rect x="75.84" y="413.72" width="305.76" height="101.218" fill="none" stroke="#5E737B" stroke-width="3"/><text x="83.84" y="437.72" fill="#5E737B" font-family="sans-serif" font-size="20">task</text><text x="228.72" y="539.072" text-anchor="middle" fill="#E7E0D0" font-size="18" font-family="Arial, Helvetica, sans-serif" data-font-key="editorial" font-weight="700" font-style="normal" textLength="99.02" lengthAdjust="spacingAndGlyphs">ATTEMPT 3</text><rect x="425.28" y="84.28" width="218.4" height="34.08" fill="none" stroke="#5E737B" stroke-width="3"/><text x="433.28" y="108.28" fill="#5E737B" font-family="sans-serif" font-size="20">arrow</text><rect x="425.28" y="266.04" width="218.4" height="34.08" fill="none" stroke="#5E737B" stroke-width="3"/><text x="433.28" y="290.04" fill="#5E737B" font-family="sans-serif" font-size="20">arrow</text><rect x="425.28" y="447.8" width="218.4" height="34.08" fill="none" stroke="#5E737B" stroke-width="3"/><text x="433.28" y="471.8" fill="#5E737B" font-family="sans-serif" font-size="20">arrow</text><rect x="665.52" y="41.68" width="21.84" height="539.6" fill="none" stroke="#5E737B" stroke-width="3"/><text x="673.52" y="65.68" fill="#5E737B" font-family="sans-serif" font-size="20">boundary</text><rect x="829.805" y="160.96" width="217.43" height="217.43" fill="none" stroke="#5E737B" stroke-width="3"/><text x="837.805" y="184.96" fill="#5E737B" font-family="sans-serif" font-size="20">cross</text><text x="938.52" y="409.568" text-anchor="middle" fill="#E7E0D0" font-size="18" font-family="Arial, Helvetica, sans-serif" data-font-key="editorial" font-weight="700" font-style="normal" textLength="76.01" lengthAdjust="spacingAndGlyphs">FAILURE</text><rect x="3" y="3" width="1194" height="794" fill="none" stroke="#5E737B" stroke-width="4"/></svg>
