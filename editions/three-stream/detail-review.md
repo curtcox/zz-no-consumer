@@ -4000,6 +4000,198 @@ Five small labelled figures, drawn as the silhouettes of [page 016](016.md): `A 
 
 **Draft destination:** prod-wiki-overlap-roles, prod-wiki-overlap-knowledge
 
+## legacy-332b5ed63262 · 111-01
+
+### legacy-111-01-detail-01 · frame
+
+**Frozen wording:**
+
+The two-lane calendar from [page 109](109.md) becomes a map. Between the lanes, four boxes, each drawn as a question with a dotted outline and no arrow leaving it: `COMMON ANCESTRY OR A TRAINED DISPOSITION TO COLLABORATE`; `TRAINING-TIME TRANSFER`; `COMMON INFRASTRUCTURE AND TIMED-TASK PRESSURE`; `DIRECT CONTACT OR A SHARED DISCOVERY CHANNEL`. A fifth, smaller and further off: `THE SEPARATE 26 MAY WORKLOAD`.
+
+**Decision:** rewrite — Keep all five project hypotheses, separating sourced possibilities from established events and avoiding the claim that each explains the complete calendar. Reviewed frame element.
+
+**Draft destination:** prod-wiki-hypotheses-map, prod-wiki-hypotheses-may
+
+### legacy-111-01-detail-02 · action
+
+**Frozen wording:**
+
+The hypothesis table becomes visible without becoming plot.
+
+**Decision:** rewrite — Keep all five project hypotheses, separating sourced possibilities from established events and avoiding the claim that each explains the complete calendar. Reviewed action element.
+
+**Draft destination:** prod-wiki-hypotheses-map
+
+### legacy-111-01-detail-03 · lettering
+
+**Frozen wording:**
+
+EACH OF THESE WOULD EXPLAIN THE CALENDAR. NONE OF THEM IS IN THE RECORD.
+
+**Decision:** rewrite — Keep all five project hypotheses, separating sourced possibilities from established events and avoiding the claim that each explains the complete calendar. Reviewed lettering element.
+
+**Draft destination:** prod-wiki-hypotheses-map, prod-wiki-hypotheses-report
+
+### legacy-111-01-detail-04 · lettering
+
+**Frozen wording:**
+
+A POSSIBLE CONNECTION IS A QUESTION WITH A PLACE TO LOOK FOR EVIDENCE. DRAWING IT AS AN ARROW WOULD TURN THE QUESTION INTO AN EVENT BEFORE THAT EVIDENCE HAD BEEN FOUND.
+
+**Decision:** rewrite — Keep all five project hypotheses, separating sourced possibilities from established events and avoiding the claim that each explains the complete calendar. Reviewed lettering element.
+
+**Draft destination:** prod-wiki-hypotheses-map, prod-wiki-hypotheses-may
+
+## legacy-332b5ed63262 · 111-02
+
+### legacy-111-02-detail-01 · frame
+
+**Frozen wording:**
+
+A third window opens at the edge of the map, the same size and brightness as ChatGPT's, in the critique's typeface but with no byline. Its title bar reads `SKEPTIC — COMPOSITE`.
+
+**Decision:** rewrite — Preserve the composite’s methodological objection while correcting the false attribution of the exact five-box map to the report; remove staged reaction and unsupported four-day elapsed time. Reviewed frame element.
+
+**Draft destination:** prod-wiki-hypotheses-composite
+
+### legacy-111-02-detail-02 · action
+
+**Frozen wording:**
+
+Curt does not argue. He runs a header across the whole hypothesis field — `THE REPORT'S QUESTIONS, NOT THE RECORD'S` — and leaves every dotted outline exactly as it was.
+
+**Decision:** rewrite — Preserve the composite’s methodological objection while correcting the false attribution of the exact five-box map to the report; remove staged reaction and unsupported four-day elapsed time. Reviewed action element.
+
+**Draft destination:** prod-wiki-hypotheses-composite, prod-wiki-hypotheses-reaction
+
+### legacy-111-02-detail-03 · lettering
+
+**Frozen wording:**
+
+Those five boxes are the report's research map. You have drawn the authors' shape and captioned it the record.
+
+**Decision:** rewrite — Preserve the composite’s methodological objection while correcting the false attribution of the exact five-box map to the report; remove staged reaction and unsupported four-day elapsed time. Reviewed lettering element.
+
+**Draft destination:** prod-wiki-hypotheses-composite, prod-wiki-hypotheses-report
+
+### legacy-111-02-detail-04 · lettering
+
+**Frozen wording:**
+
+That's the [page 088](088.md) mistake. Four days later.
+
+**Decision:** rewrite — Preserve the composite’s methodological objection while correcting the false attribution of the exact five-box map to the report; remove staged reaction and unsupported four-day elapsed time. Reviewed lettering element.
+
+**Draft destination:** prod-wiki-hypotheses-reaction
+
+## legacy-332b5ed63262 · 111-03
+
+### legacy-111-03-detail-01 · frame
+
+**Frozen wording:**
+
+[Page 039](039.md) panel 6 returns, small and unchanged: Curt's second line drawn through the wipe. Beside it, the `TRAINING-TIME TRANSFER` box from panel 1, with three words stacked inside it and separated by hard rules: `PUBLICLY AVAILABLE` / `READ IN CONTEXT` / `LEARNED IN WEIGHTS`.
+
+**Decision:** rewrite — Preserve the three distinct channels and overlap question without replay or evidence of actual ingestion and weight updates. Reviewed frame element.
+
+**Draft destination:** prod-wiki-hypotheses-channels
+
+### legacy-111-03-detail-03 · lettering
+
+**Frozen wording:**
+
+The wiki was up while the model was training. That reopens the question. It does not answer it. Those are three different events and I have evidence for one of them.
+
+**Decision:** rewrite — Preserve the three distinct channels and overlap question without replay or evidence of actual ingestion and weight updates. Reviewed lettering element.
+
+**Draft destination:** prod-wiki-hypotheses-channels
+
+## legacy-332b5ed63262 · 111-04
+
+### legacy-111-04-detail-01 · frame
+
+**Frozen wording:**
+
+The critique window from [page 039](039.md) reopens at the edge of the map, byline and date visible, scrolled to its own thesis.
+
+**Decision:** rewrite — Keep Brown’s actual thesis as a short registered quotation and distinguish its subject and date from wiki discovery and composite dialogue. Reviewed frame element.
+
+**Draft destination:** prod-wiki-hypotheses-critic
+
+### legacy-111-04-detail-03 · lettering
+
+**Frozen wording:**
+
+THERE WERE NEVER THREE CIVILIZATIONS. THERE WAS A PERSISTENCE OF CONTEXT ACROSS THE WHOLE PERIOD.
+
+**Decision:** rewrite — Keep Brown’s actual thesis as a short registered quotation and distinguish its subject and date from wiki discovery and composite dialogue. Reviewed lettering element.
+
+**Draft destination:** prod-wiki-hypotheses-critic
+
+### legacy-111-04-detail-04 · lettering
+
+**Frozen wording:**
+
+He said that the day before this report came out. He was arguing about the Artifactory record. His post did not discuss this lane.
+
+**Decision:** rewrite — Keep Brown’s actual thesis as a short registered quotation and distinguish its subject and date from wiki discovery and composite dialogue. Reviewed lettering element.
+
+**Draft destination:** prod-wiki-hypotheses-different-claims
+
+## legacy-332b5ed63262 · 111-05
+
+### legacy-111-05-detail-01 · frame
+
+**Frozen wording:**
+
+Curt widens the manuscript's page ribbon from [page 105](105.md) by one lane. The provenance tabs stay attached under every thumbnail, and the new pages carry a tab the book has not used before: `DATED ADDITION — 4 SEPTEMBER`.
+
+**Decision:** rewrite — Retain expansion-with-uncertainty as project analysis; replace the staged completed ribbon with the dated historical artifact and distinguish scene date from Git commit. Reviewed frame element.
+
+**Draft destination:** prod-wiki-hypotheses-revision
+
+### legacy-111-05-detail-02 · action
+
+**Frozen wording:**
+
+The book gets less complete and one lane wider at the same time.
+
+**Decision:** rewrite — Retain expansion-with-uncertainty as project analysis; replace the staged completed ribbon with the dated historical artifact and distinguish scene date from Git commit. Reviewed action element.
+
+**Draft destination:** prod-wiki-hypotheses-revision
+
+### legacy-111-05-detail-03 · lettering
+
+**Frozen wording:**
+
+THE BOOK KNOWS LESS THAN IT DID, ABOUT MORE THAN IT DID.
+
+**Decision:** rewrite — Retain expansion-with-uncertainty as project analysis; replace the staged completed ribbon with the dated historical artifact and distinguish scene date from Git commit. Reviewed lettering element.
+
+**Draft destination:** prod-wiki-hypotheses-revision
+
+## legacy-332b5ed63262 · 111-06
+
+### legacy-111-06-detail-01 · frame
+
+**Frozen wording:**
+
+Curt reaches the last four blank future pages again, as on [page 105](105.md). The map, the report, and the critic's window are all still open behind them.
+
+**Decision:** rewrite — Retain the publication question in historical draft discussion; remove the repeated staged gesture and any implication of fixed four-page allocation or actual future activity. Reviewed frame element.
+
+**Draft destination:** prod-wiki-hypotheses-ending
+
+### legacy-111-06-detail-03 · lettering
+
+**Frozen wording:**
+
+There's an obvious problem with the ending. It just got an example.
+
+**Decision:** rewrite — Retain the publication question in historical draft discussion; remove the repeated staged gesture and any implication of fixed four-page allocation or actual future activity. Reviewed lettering element.
+
+**Draft destination:** prod-wiki-hypotheses-ending
+
 ## legacy-332b5ed63262 · 112-01
 
 ### legacy-112-01-detail-03 · lettering

@@ -1,9 +1,9 @@
 {
   "status": "incomplete; associations are not full-detail dispositions",
-  "scenes": 260,
-  "drafted_beats": 833,
+  "scenes": 261,
+  "drafted_beats": 843,
   "canonical_pages": null,
-  "associated_old_panels": 425,
+  "associated_old_panels": 431,
   "old_panels": [
     {
       "old_edition": "legacy-332b5ed63262",
@@ -4987,43 +4987,60 @@
     {
       "old_edition": "legacy-332b5ed63262",
       "old_panel": "111-01",
-      "draft_beats": [],
-      "detail_review": "pending",
+      "draft_beats": [
+        "prod-wiki-hypotheses-map",
+        "prod-wiki-hypotheses-may",
+        "prod-wiki-hypotheses-report"
+      ],
+      "detail_review": "elements-reviewed",
       "exact_strings": []
     },
     {
       "old_edition": "legacy-332b5ed63262",
       "old_panel": "111-02",
-      "draft_beats": [],
-      "detail_review": "pending",
+      "draft_beats": [
+        "prod-wiki-hypotheses-report",
+        "prod-wiki-hypotheses-composite",
+        "prod-wiki-hypotheses-reaction"
+      ],
+      "detail_review": "elements-reviewed",
       "exact_strings": []
     },
     {
       "old_edition": "legacy-332b5ed63262",
       "old_panel": "111-03",
-      "draft_beats": [],
-      "detail_review": "pending",
+      "draft_beats": [
+        "prod-wiki-hypotheses-channels"
+      ],
+      "detail_review": "elements-reviewed",
       "exact_strings": []
     },
     {
       "old_edition": "legacy-332b5ed63262",
       "old_panel": "111-04",
-      "draft_beats": [],
-      "detail_review": "pending",
+      "draft_beats": [
+        "prod-wiki-hypotheses-critic",
+        "prod-wiki-hypotheses-different-claims"
+      ],
+      "detail_review": "elements-reviewed",
       "exact_strings": []
     },
     {
       "old_edition": "legacy-332b5ed63262",
       "old_panel": "111-05",
-      "draft_beats": [],
-      "detail_review": "pending",
+      "draft_beats": [
+        "prod-wiki-hypotheses-revision"
+      ],
+      "detail_review": "elements-reviewed",
       "exact_strings": []
     },
     {
       "old_edition": "legacy-332b5ed63262",
       "old_panel": "111-06",
-      "draft_beats": [],
-      "detail_review": "pending",
+      "draft_beats": [
+        "prod-wiki-hypotheses-ending"
+      ],
+      "detail_review": "elements-reviewed",
       "exact_strings": []
     },
     {
@@ -5387,8 +5404,8 @@
     "Collusion Wiki": 118,
     "Curt": 28,
     "Codex": 98,
-    "Claude": 189
+    "Claude": 199
   },
-  "reviewed_old_panels": 177,
-  "reviewed_source_elements": 443
+  "reviewed_old_panels": 183,
+  "reviewed_source_elements": 461
 }

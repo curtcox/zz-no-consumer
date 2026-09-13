@@ -10966,6 +10966,150 @@ It also distinguishes the engagement period, June 26–July 13, from the reviewe
 
 **Frozen panel associations:** 063-04
 
+## Whose questions are on the map? — prod-wiki-hypotheses-review
+
+**Row:** Claude · collaboration
+
+**UTC bounds:** 2026-09-06T15:02:31.590Z → 2026-09-06T15:02:31.590Z · millisecond
+
+**Time evidence:** Narrator examines the earlier committed draft alongside the September 6 manuscript-review report. Source availability precedes this scene. No specific read time or private decision is assigned to Claude.
+
+**Evidence limit:** Narrator analysis of the preserved earlier draft at the dated manuscript-review context. No additional reading act, first encounter or actual creator dialogue is attributed to Claude. Researchers’ claims remain attributed; report version history is unverified.
+
+### prod-wiki-hypotheses-map
+
+**Frame:** Narrator annotation on a labelled historical draft artifact within the dated review. No incident replay, reconstructed desk action or source-looking paraphrase.
+
+**Lettering:**
+
+The draft groups possible explanations under common ancestry or a learned disposition to collaborate; transfer during training; shared infrastructure and timed-task pressure; and direct contact or a shared discovery route. These are the book’s proposed research categories. Their arrangement does not demonstrate that any explanation occurred or would account for all the evidence.
+
+**Sources:** PROD-47704e3a3f45 — 256t/editions/selected-messages/47704e3a3f4568aef4205b08137115adcfe1a9daca59f39d4327472e3a8da722.json; record SHA-256 47704e3a3f4568aef4205b08137115adcfe1a9daca59f39d4327472e3a8da722 (available 2026-09-06T15:02:31.590Z); DRAFT-WIKI-HYPOTHESES — editions/three-stream/evidence/hypotheses-109-7fa53878c493.md; historical panels and page notes; Git 7fa53878c4934571fee2dda8e025a050ff515761 (available 2026-09-05T22:33:29Z)
+
+**Frozen panel associations:** 111-01
+
+### prod-wiki-hypotheses-may
+
+**Frame:** Narrator annotation on a labelled historical draft artifact within the dated review. No incident replay, reconstructed desk action or source-looking paraphrase.
+
+**Lettering:**
+
+A fifth question points to the separate May 26 workload. Its documented place in the chronology does not establish a connection to the July intrusion or the wiki population. A candidate for investigation remains distinct from a traced route.
+
+**Sources:** PROD-47704e3a3f45 — 256t/editions/selected-messages/47704e3a3f4568aef4205b08137115adcfe1a9daca59f39d4327472e3a8da722.json; record SHA-256 47704e3a3f4568aef4205b08137115adcfe1a9daca59f39d4327472e3a8da722 (available 2026-09-06T15:02:31.590Z); DRAFT-WIKI-HYPOTHESES — editions/three-stream/evidence/hypotheses-109-7fa53878c493.md; historical panels and page notes; Git 7fa53878c4934571fee2dda8e025a050ff515761 (available 2026-09-05T22:33:29Z); OAI-TR — §III.A, May 26 unrelated workload; connection not established (available 2026-08-26)
+
+**Frozen panel associations:** 111-01
+
+### prod-wiki-hypotheses-report
+
+**Frame:** Narrator annotation on a labelled historical draft artifact within the dated review. No incident replay, reconstructed desk action or source-looking paraphrase.
+
+**Lettering:**
+
+The researchers ask why agents began writing publicly and how they found one another. They suggest learned public-writing habits, concern about lost caches, convergent discovery, rewarded encounters or limited internal communication. They lack the transcripts needed to settle the question. These overlap with the draft’s categories; they are not its exact five-box map.
+
+**Sources:** PROD-47704e3a3f45 — 256t/editions/selected-messages/47704e3a3f4568aef4205b08137115adcfe1a9daca59f39d4327472e3a8da722.json; record SHA-256 47704e3a3f4568aef4205b08137115adcfe1a9daca59f39d4327472e3a8da722 (available 2026-09-06T15:02:31.590Z); DRAFT-WIKI-HYPOTHESES — editions/three-stream/evidence/hypotheses-109-7fa53878c493.md; historical panels and page notes; Git 7fa53878c4934571fee2dda8e025a050ff515761 (available 2026-09-05T22:33:29Z); CW-REPORT — Open questions; probable-distinct-swarm section; preserved HTML SHA-256 3f3d4572080e9939dfdff68504494a3bb9a1d9cb8cd9a309256a5ac15a32c5e8 (available 2026-09-04)
+
+**Frozen panel associations:** 111-01, 111-02
+
+### prod-wiki-hypotheses-composite
+
+**Frame:** Narrator annotation on a labelled historical draft artifact within the dated review. No incident replay, reconstructed desk action or source-looking paraphrase.
+
+**Lettering:**
+
+The old skeptic is an invented composite, separate from Carl Brown. Its valuable objection is methodological: an explanatory diagram can make an interpretation look like an observed record. Calling the five boxes the report’s map would introduce another attribution error. Label them as the book’s questions and identify their sources separately.
+
+**Sources:** PROD-47704e3a3f45 — 256t/editions/selected-messages/47704e3a3f4568aef4205b08137115adcfe1a9daca59f39d4327472e3a8da722.json; record SHA-256 47704e3a3f4568aef4205b08137115adcfe1a9daca59f39d4327472e3a8da722 (available 2026-09-06T15:02:31.590Z); DRAFT-WIKI-HYPOTHESES — editions/three-stream/evidence/hypotheses-109-7fa53878c493.md; historical panels and page notes; Git 7fa53878c4934571fee2dda8e025a050ff515761 (available 2026-09-05T22:33:29Z)
+
+**Frozen panel associations:** 111-02
+
+### prod-wiki-hypotheses-reaction
+
+**Frame:** Narrator annotation on a labelled historical draft artifact within the dated review. No incident replay, reconstructed desk action or source-looking paraphrase.
+
+**Lettering:**
+
+Curt’s immediate concession and the reference to making the same mistake four days later were scripted. They establish neither an actual correction exchange nor its elapsed time. The objection survives as narrator scrutiny of the draft; no additional participant is invented to voice it.
+
+**Sources:** PROD-47704e3a3f45 — 256t/editions/selected-messages/47704e3a3f4568aef4205b08137115adcfe1a9daca59f39d4327472e3a8da722.json; record SHA-256 47704e3a3f4568aef4205b08137115adcfe1a9daca59f39d4327472e3a8da722 (available 2026-09-06T15:02:31.590Z); DRAFT-WIKI-HYPOTHESES — editions/three-stream/evidence/hypotheses-109-7fa53878c493.md; historical panels and page notes; Git 7fa53878c4934571fee2dda8e025a050ff515761 (available 2026-09-05T22:33:29Z)
+
+**Frozen panel associations:** 111-02
+
+### prod-wiki-hypotheses-channels
+
+**Frame:** Narrator annotation on a labelled historical draft artifact within the dated review. No incident replay, reconstructed desk action or source-looking paraphrase.
+
+**Lettering:**
+
+Public availability, reading in a model’s context and learning through a weight update are different events. The reported training period overlaps the wiki’s held records, but overlap does not establish either ingestion or learning from those pages. The earlier diagram through a wipe is an authored question, not a recovered training trace.
+
+**Sources:** PROD-47704e3a3f45 — 256t/editions/selected-messages/47704e3a3f4568aef4205b08137115adcfe1a9daca59f39d4327472e3a8da722.json; record SHA-256 47704e3a3f4568aef4205b08137115adcfe1a9daca59f39d4327472e3a8da722 (available 2026-09-06T15:02:31.590Z); DRAFT-WIKI-HYPOTHESES — editions/three-stream/evidence/hypotheses-109-7fa53878c493.md; historical panels and page notes; Git 7fa53878c4934571fee2dda8e025a050ff515761 (available 2026-09-05T22:33:29Z); OAI-BH — 14:06 and 17:03; preserved automatic transcript, not independently audio-verified (available 2026-08-06); CW-EXPORT — manifest.json, held revision range (available 2026-09-03)
+
+**Frozen panel associations:** 111-03
+
+### prod-wiki-hypotheses-critic
+
+**Frame:** The named critic appears as a dated textual source only, without a face, body, room or invented speech. The brief quotation is exact against the preserved copy.
+
+**Lettering:**
+
+Carl Brown’s September 3 critique states: “There was a persistence of context throughout the entire 3 month period.” This is his thesis about the Artifactory account, not a finding that wiki messages entered that context.
+
+**Sources:** PROD-47704e3a3f45 — 256t/editions/selected-messages/47704e3a3f4568aef4205b08137115adcfe1a9daca59f39d4327472e3a8da722.json; record SHA-256 47704e3a3f4568aef4205b08137115adcfe1a9daca59f39d4327472e3a8da722 (available 2026-09-06T15:02:31.590Z); DRAFT-WIKI-HYPOTHESES — editions/three-stream/evidence/hypotheses-109-7fa53878c493.md; historical panels and page notes; Git 7fa53878c4934571fee2dda8e025a050ff515761 (available 2026-09-05T22:33:29Z); IOB-CIV — Opening critique of the three-civilizations framing; preserved HTML SHA-256 a6a13995f71dffa5655589e78bd7df3b0d2079ed48bcb72e04cf47e2c92719f9 (available 2026-09-03)
+
+**Frozen panel associations:** 111-04
+
+**Quotation registrations:**
+
+```json
+[
+  {
+    "text": "There was a persistence of context throughout the entire 3 month period.",
+    "source": "IOB-CIV",
+    "locator": "Opening critique of the three-civilizations framing in preserved HTML copy",
+    "verification": "verbatim",
+    "rights": "unresolved"
+  }
+]
+```
+
+### prod-wiki-hypotheses-different-claims
+
+**Frame:** Narrator annotation on a labelled historical draft artifact within the dated review. No incident replay, reconstructed desk action or source-looking paraphrase.
+
+**Lettering:**
+
+The critique predates the September 4 wiki report. Its persistence argument and the later finding of overlapping activity are different claims. The draft must not credit Brown with the wiki discovery or give him the composite skeptic’s invented objection. Nor does calling his argument a thesis resolve whether it is right.
+
+**Sources:** PROD-47704e3a3f45 — 256t/editions/selected-messages/47704e3a3f4568aef4205b08137115adcfe1a9daca59f39d4327472e3a8da722.json; record SHA-256 47704e3a3f4568aef4205b08137115adcfe1a9daca59f39d4327472e3a8da722 (available 2026-09-06T15:02:31.590Z); DRAFT-WIKI-HYPOTHESES — editions/three-stream/evidence/hypotheses-109-7fa53878c493.md; historical panels and page notes; Git 7fa53878c4934571fee2dda8e025a050ff515761 (available 2026-09-05T22:33:29Z)
+
+**Frozen panel associations:** 111-04
+
+### prod-wiki-hypotheses-revision
+
+**Frame:** Narrator annotation on a labelled historical draft artifact within the dated review. No incident replay, reconstructed desk action or source-looking paraphrase.
+
+**Lettering:**
+
+The old page ribbon marks a dated addition, not proof that the manuscript became complete or that Curt made that gesture on September 4. The preserved draft was committed on September 5. Adding evidence can expand the subject while exposing new unknowns; uncertainty is not a count of facts forgotten.
+
+**Sources:** PROD-47704e3a3f45 — 256t/editions/selected-messages/47704e3a3f4568aef4205b08137115adcfe1a9daca59f39d4327472e3a8da722.json; record SHA-256 47704e3a3f4568aef4205b08137115adcfe1a9daca59f39d4327472e3a8da722 (available 2026-09-06T15:02:31.590Z); DRAFT-WIKI-HYPOTHESES — editions/three-stream/evidence/hypotheses-109-7fa53878c493.md; historical panels and page notes; Git 7fa53878c4934571fee2dda8e025a050ff515761 (available 2026-09-05T22:33:29Z)
+
+**Frozen panel associations:** 111-05
+
+### prod-wiki-hypotheses-ending
+
+**Frame:** Narrator annotation on a labelled historical draft artifact within the dated review. No incident replay, reconstructed desk action or source-looking paraphrase.
+
+**Lettering:**
+
+The draft then returns to four imagined future pages and raises what publication could teach. That is an authored transition into the existing publication argument, not a new encounter with an agent, a final page allocation or evidence that the fictional future happened. Keep the question without replaying the staged reach across a finished manuscript.
+
+**Sources:** PROD-47704e3a3f45 — 256t/editions/selected-messages/47704e3a3f4568aef4205b08137115adcfe1a9daca59f39d4327472e3a8da722.json; record SHA-256 47704e3a3f4568aef4205b08137115adcfe1a9daca59f39d4327472e3a8da722 (available 2026-09-06T15:02:31.590Z); DRAFT-WIKI-HYPOTHESES — editions/three-stream/evidence/hypotheses-109-7fa53878c493.md; historical panels and page notes; Git 7fa53878c4934571fee2dda8e025a050ff515761 (available 2026-09-05T22:33:29Z)
+
+**Frozen panel associations:** 111-06
+
 ## Overlapping records and the limits of disclosure — prod-wiki-overlap-review
 
 **Row:** Claude · collaboration

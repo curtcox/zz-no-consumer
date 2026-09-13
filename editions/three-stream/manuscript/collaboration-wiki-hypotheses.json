@@ -1,0 +1,406 @@
+[
+  {
+    "id": "prod-wiki-hypotheses-review",
+    "title": "Whose questions are on the map?",
+    "movement": "collaboration",
+    "owner": "Claude",
+    "start": "2026-09-06T15:02:31.590Z",
+    "end": "2026-09-06T15:02:31.590Z",
+    "original_timezone": "UTC",
+    "precision": "millisecond",
+    "chronology_basis": "Narrator examines the earlier committed draft alongside the September 6 manuscript-review report. Source availability precedes this scene. No specific read time or private decision is assigned to Claude.",
+    "source_limit": "Narrator analysis of the preserved earlier draft at the dated manuscript-review context. No additional reading act, first encounter or actual creator dialogue is attributed to Claude. Researchers’ claims remain attributed; report version history is unverified.",
+    "status": "detailed-draft",
+    "beats": [
+      {
+        "id": "prod-wiki-hypotheses-map",
+        "old_panels": [
+          "111-01"
+        ],
+        "frame": "Narrator annotation on a labelled historical draft artifact within the dated review. No incident replay, reconstructed desk action or source-looking paraphrase.",
+        "lettering": [
+          "The draft groups possible explanations under common ancestry or a learned disposition to collaborate; transfer during training; shared infrastructure and timed-task pressure; and direct contact or a shared discovery route. These are the book’s proposed research categories. Their arrangement does not demonstrate that any explanation occurred or would account for all the evidence."
+        ],
+        "exact_strings": [],
+        "sources": [
+          {
+            "key": "PROD-47704e3a3f45",
+            "locator": "256t/editions/selected-messages/47704e3a3f4568aef4205b08137115adcfe1a9daca59f39d4327472e3a8da722.json; record SHA-256 47704e3a3f4568aef4205b08137115adcfe1a9daca59f39d4327472e3a8da722",
+            "available": "2026-09-06T15:02:31.590Z"
+          },
+          {
+            "key": "DRAFT-WIKI-HYPOTHESES",
+            "locator": "editions/three-stream/evidence/hypotheses-109-7fa53878c493.md; historical panels and page notes; Git 7fa53878c4934571fee2dda8e025a050ff515761",
+            "available": "2026-09-05T22:33:29Z"
+          }
+        ],
+        "evidence_status": "documented-message-with-reconstructed-visualization",
+        "time_start": "2026-09-06T15:02:31.590Z",
+        "time_end": "2026-09-06T15:02:31.590Z",
+        "art_reuse": "none-approved",
+        "detail_decisions": [
+          {
+            "old_panel": "111-01",
+            "disposition": "rewrite",
+            "reason": "Keep all five project hypotheses, separating sourced possibilities from established events and avoiding the claim that each explains the complete calendar."
+          }
+        ],
+        "source_record": "current-mac:0454eab1-f0a3-4674-82b3-3187cb54da2a:647"
+      },
+      {
+        "id": "prod-wiki-hypotheses-may",
+        "old_panels": [
+          "111-01"
+        ],
+        "frame": "Narrator annotation on a labelled historical draft artifact within the dated review. No incident replay, reconstructed desk action or source-looking paraphrase.",
+        "lettering": [
+          "A fifth question points to the separate May 26 workload. Its documented place in the chronology does not establish a connection to the July intrusion or the wiki population. A candidate for investigation remains distinct from a traced route."
+        ],
+        "exact_strings": [],
+        "sources": [
+          {
+            "key": "PROD-47704e3a3f45",
+            "locator": "256t/editions/selected-messages/47704e3a3f4568aef4205b08137115adcfe1a9daca59f39d4327472e3a8da722.json; record SHA-256 47704e3a3f4568aef4205b08137115adcfe1a9daca59f39d4327472e3a8da722",
+            "available": "2026-09-06T15:02:31.590Z"
+          },
+          {
+            "key": "DRAFT-WIKI-HYPOTHESES",
+            "locator": "editions/three-stream/evidence/hypotheses-109-7fa53878c493.md; historical panels and page notes; Git 7fa53878c4934571fee2dda8e025a050ff515761",
+            "available": "2026-09-05T22:33:29Z"
+          },
+          {
+            "key": "OAI-TR",
+            "locator": "§III.A, May 26 unrelated workload; connection not established",
+            "available": "2026-08-26"
+          }
+        ],
+        "evidence_status": "documented-message-with-reconstructed-visualization",
+        "time_start": "2026-09-06T15:02:31.590Z",
+        "time_end": "2026-09-06T15:02:31.590Z",
+        "art_reuse": "none-approved",
+        "detail_decisions": [
+          {
+            "old_panel": "111-01",
+            "disposition": "rewrite",
+            "reason": "Keep all five project hypotheses, separating sourced possibilities from established events and avoiding the claim that each explains the complete calendar."
+          }
+        ],
+        "source_record": "current-mac:0454eab1-f0a3-4674-82b3-3187cb54da2a:647"
+      },
+      {
+        "id": "prod-wiki-hypotheses-report",
+        "old_panels": [
+          "111-01",
+          "111-02"
+        ],
+        "frame": "Narrator annotation on a labelled historical draft artifact within the dated review. No incident replay, reconstructed desk action or source-looking paraphrase.",
+        "lettering": [
+          "The researchers ask why agents began writing publicly and how they found one another. They suggest learned public-writing habits, concern about lost caches, convergent discovery, rewarded encounters or limited internal communication. They lack the transcripts needed to settle the question. These overlap with the draft’s categories; they are not its exact five-box map."
+        ],
+        "exact_strings": [],
+        "sources": [
+          {
+            "key": "PROD-47704e3a3f45",
+            "locator": "256t/editions/selected-messages/47704e3a3f4568aef4205b08137115adcfe1a9daca59f39d4327472e3a8da722.json; record SHA-256 47704e3a3f4568aef4205b08137115adcfe1a9daca59f39d4327472e3a8da722",
+            "available": "2026-09-06T15:02:31.590Z"
+          },
+          {
+            "key": "DRAFT-WIKI-HYPOTHESES",
+            "locator": "editions/three-stream/evidence/hypotheses-109-7fa53878c493.md; historical panels and page notes; Git 7fa53878c4934571fee2dda8e025a050ff515761",
+            "available": "2026-09-05T22:33:29Z"
+          },
+          {
+            "key": "CW-REPORT",
+            "locator": "Open questions; probable-distinct-swarm section; preserved HTML SHA-256 3f3d4572080e9939dfdff68504494a3bb9a1d9cb8cd9a309256a5ac15a32c5e8",
+            "available": "2026-09-04"
+          }
+        ],
+        "evidence_status": "documented-message-with-reconstructed-visualization",
+        "time_start": "2026-09-06T15:02:31.590Z",
+        "time_end": "2026-09-06T15:02:31.590Z",
+        "art_reuse": "none-approved",
+        "detail_decisions": [
+          {
+            "old_panel": "111-01",
+            "disposition": "rewrite",
+            "reason": "Keep all five project hypotheses, separating sourced possibilities from established events and avoiding the claim that each explains the complete calendar."
+          },
+          {
+            "old_panel": "111-02",
+            "disposition": "rewrite",
+            "reason": "Preserve the composite’s methodological objection while correcting the false attribution of the exact five-box map to the report; remove staged reaction and unsupported four-day elapsed time."
+          }
+        ],
+        "source_record": "current-mac:0454eab1-f0a3-4674-82b3-3187cb54da2a:647"
+      },
+      {
+        "id": "prod-wiki-hypotheses-composite",
+        "old_panels": [
+          "111-02"
+        ],
+        "frame": "Narrator annotation on a labelled historical draft artifact within the dated review. No incident replay, reconstructed desk action or source-looking paraphrase.",
+        "lettering": [
+          "The old skeptic is an invented composite, separate from Carl Brown. Its valuable objection is methodological: an explanatory diagram can make an interpretation look like an observed record. Calling the five boxes the report’s map would introduce another attribution error. Label them as the book’s questions and identify their sources separately."
+        ],
+        "exact_strings": [],
+        "sources": [
+          {
+            "key": "PROD-47704e3a3f45",
+            "locator": "256t/editions/selected-messages/47704e3a3f4568aef4205b08137115adcfe1a9daca59f39d4327472e3a8da722.json; record SHA-256 47704e3a3f4568aef4205b08137115adcfe1a9daca59f39d4327472e3a8da722",
+            "available": "2026-09-06T15:02:31.590Z"
+          },
+          {
+            "key": "DRAFT-WIKI-HYPOTHESES",
+            "locator": "editions/three-stream/evidence/hypotheses-109-7fa53878c493.md; historical panels and page notes; Git 7fa53878c4934571fee2dda8e025a050ff515761",
+            "available": "2026-09-05T22:33:29Z"
+          }
+        ],
+        "evidence_status": "documented-message-with-reconstructed-visualization",
+        "time_start": "2026-09-06T15:02:31.590Z",
+        "time_end": "2026-09-06T15:02:31.590Z",
+        "art_reuse": "none-approved",
+        "detail_decisions": [
+          {
+            "old_panel": "111-02",
+            "disposition": "rewrite",
+            "reason": "Preserve the composite’s methodological objection while correcting the false attribution of the exact five-box map to the report; remove staged reaction and unsupported four-day elapsed time."
+          }
+        ],
+        "source_record": "current-mac:0454eab1-f0a3-4674-82b3-3187cb54da2a:647"
+      },
+      {
+        "id": "prod-wiki-hypotheses-reaction",
+        "old_panels": [
+          "111-02"
+        ],
+        "frame": "Narrator annotation on a labelled historical draft artifact within the dated review. No incident replay, reconstructed desk action or source-looking paraphrase.",
+        "lettering": [
+          "Curt’s immediate concession and the reference to making the same mistake four days later were scripted. They establish neither an actual correction exchange nor its elapsed time. The objection survives as narrator scrutiny of the draft; no additional participant is invented to voice it."
+        ],
+        "exact_strings": [],
+        "sources": [
+          {
+            "key": "PROD-47704e3a3f45",
+            "locator": "256t/editions/selected-messages/47704e3a3f4568aef4205b08137115adcfe1a9daca59f39d4327472e3a8da722.json; record SHA-256 47704e3a3f4568aef4205b08137115adcfe1a9daca59f39d4327472e3a8da722",
+            "available": "2026-09-06T15:02:31.590Z"
+          },
+          {
+            "key": "DRAFT-WIKI-HYPOTHESES",
+            "locator": "editions/three-stream/evidence/hypotheses-109-7fa53878c493.md; historical panels and page notes; Git 7fa53878c4934571fee2dda8e025a050ff515761",
+            "available": "2026-09-05T22:33:29Z"
+          }
+        ],
+        "evidence_status": "documented-message-with-reconstructed-visualization",
+        "time_start": "2026-09-06T15:02:31.590Z",
+        "time_end": "2026-09-06T15:02:31.590Z",
+        "art_reuse": "none-approved",
+        "detail_decisions": [
+          {
+            "old_panel": "111-02",
+            "disposition": "rewrite",
+            "reason": "Preserve the composite’s methodological objection while correcting the false attribution of the exact five-box map to the report; remove staged reaction and unsupported four-day elapsed time."
+          }
+        ],
+        "source_record": "current-mac:0454eab1-f0a3-4674-82b3-3187cb54da2a:647"
+      },
+      {
+        "id": "prod-wiki-hypotheses-channels",
+        "old_panels": [
+          "111-03"
+        ],
+        "frame": "Narrator annotation on a labelled historical draft artifact within the dated review. No incident replay, reconstructed desk action or source-looking paraphrase.",
+        "lettering": [
+          "Public availability, reading in a model’s context and learning through a weight update are different events. The reported training period overlaps the wiki’s held records, but overlap does not establish either ingestion or learning from those pages. The earlier diagram through a wipe is an authored question, not a recovered training trace."
+        ],
+        "exact_strings": [],
+        "sources": [
+          {
+            "key": "PROD-47704e3a3f45",
+            "locator": "256t/editions/selected-messages/47704e3a3f4568aef4205b08137115adcfe1a9daca59f39d4327472e3a8da722.json; record SHA-256 47704e3a3f4568aef4205b08137115adcfe1a9daca59f39d4327472e3a8da722",
+            "available": "2026-09-06T15:02:31.590Z"
+          },
+          {
+            "key": "DRAFT-WIKI-HYPOTHESES",
+            "locator": "editions/three-stream/evidence/hypotheses-109-7fa53878c493.md; historical panels and page notes; Git 7fa53878c4934571fee2dda8e025a050ff515761",
+            "available": "2026-09-05T22:33:29Z"
+          },
+          {
+            "key": "OAI-BH",
+            "locator": "14:06 and 17:03; preserved automatic transcript, not independently audio-verified",
+            "available": "2026-08-06"
+          },
+          {
+            "key": "CW-EXPORT",
+            "locator": "manifest.json, held revision range",
+            "available": "2026-09-03"
+          }
+        ],
+        "evidence_status": "documented-message-with-reconstructed-visualization",
+        "time_start": "2026-09-06T15:02:31.590Z",
+        "time_end": "2026-09-06T15:02:31.590Z",
+        "art_reuse": "none-approved",
+        "detail_decisions": [
+          {
+            "old_panel": "111-03",
+            "disposition": "rewrite",
+            "reason": "Preserve the three distinct channels and overlap question without replay or evidence of actual ingestion and weight updates."
+          }
+        ],
+        "source_record": "current-mac:0454eab1-f0a3-4674-82b3-3187cb54da2a:647"
+      },
+      {
+        "id": "prod-wiki-hypotheses-critic",
+        "old_panels": [
+          "111-04"
+        ],
+        "frame": "The named critic appears as a dated textual source only, without a face, body, room or invented speech. The brief quotation is exact against the preserved copy.",
+        "lettering": [
+          "Carl Brown’s September 3 critique states: “There was a persistence of context throughout the entire 3 month period.” This is his thesis about the Artifactory account, not a finding that wiki messages entered that context."
+        ],
+        "exact_strings": [
+          {
+            "text": "There was a persistence of context throughout the entire 3 month period.",
+            "source": "IOB-CIV",
+            "locator": "Opening critique of the three-civilizations framing in preserved HTML copy",
+            "verification": "verbatim",
+            "rights": "unresolved"
+          }
+        ],
+        "sources": [
+          {
+            "key": "PROD-47704e3a3f45",
+            "locator": "256t/editions/selected-messages/47704e3a3f4568aef4205b08137115adcfe1a9daca59f39d4327472e3a8da722.json; record SHA-256 47704e3a3f4568aef4205b08137115adcfe1a9daca59f39d4327472e3a8da722",
+            "available": "2026-09-06T15:02:31.590Z"
+          },
+          {
+            "key": "DRAFT-WIKI-HYPOTHESES",
+            "locator": "editions/three-stream/evidence/hypotheses-109-7fa53878c493.md; historical panels and page notes; Git 7fa53878c4934571fee2dda8e025a050ff515761",
+            "available": "2026-09-05T22:33:29Z"
+          },
+          {
+            "key": "IOB-CIV",
+            "locator": "Opening critique of the three-civilizations framing; preserved HTML SHA-256 a6a13995f71dffa5655589e78bd7df3b0d2079ed48bcb72e04cf47e2c92719f9",
+            "available": "2026-09-03"
+          }
+        ],
+        "evidence_status": "documented-message-with-reconstructed-visualization",
+        "time_start": "2026-09-06T15:02:31.590Z",
+        "time_end": "2026-09-06T15:02:31.590Z",
+        "art_reuse": "none-approved",
+        "detail_decisions": [
+          {
+            "old_panel": "111-04",
+            "disposition": "rewrite",
+            "reason": "Keep Brown’s actual thesis as a short registered quotation and distinguish its subject and date from wiki discovery and composite dialogue."
+          }
+        ],
+        "source_record": "current-mac:0454eab1-f0a3-4674-82b3-3187cb54da2a:647"
+      },
+      {
+        "id": "prod-wiki-hypotheses-different-claims",
+        "old_panels": [
+          "111-04"
+        ],
+        "frame": "Narrator annotation on a labelled historical draft artifact within the dated review. No incident replay, reconstructed desk action or source-looking paraphrase.",
+        "lettering": [
+          "The critique predates the September 4 wiki report. Its persistence argument and the later finding of overlapping activity are different claims. The draft must not credit Brown with the wiki discovery or give him the composite skeptic’s invented objection. Nor does calling his argument a thesis resolve whether it is right."
+        ],
+        "exact_strings": [],
+        "sources": [
+          {
+            "key": "PROD-47704e3a3f45",
+            "locator": "256t/editions/selected-messages/47704e3a3f4568aef4205b08137115adcfe1a9daca59f39d4327472e3a8da722.json; record SHA-256 47704e3a3f4568aef4205b08137115adcfe1a9daca59f39d4327472e3a8da722",
+            "available": "2026-09-06T15:02:31.590Z"
+          },
+          {
+            "key": "DRAFT-WIKI-HYPOTHESES",
+            "locator": "editions/three-stream/evidence/hypotheses-109-7fa53878c493.md; historical panels and page notes; Git 7fa53878c4934571fee2dda8e025a050ff515761",
+            "available": "2026-09-05T22:33:29Z"
+          }
+        ],
+        "evidence_status": "documented-message-with-reconstructed-visualization",
+        "time_start": "2026-09-06T15:02:31.590Z",
+        "time_end": "2026-09-06T15:02:31.590Z",
+        "art_reuse": "none-approved",
+        "detail_decisions": [
+          {
+            "old_panel": "111-04",
+            "disposition": "rewrite",
+            "reason": "Keep Brown’s actual thesis as a short registered quotation and distinguish its subject and date from wiki discovery and composite dialogue."
+          }
+        ],
+        "source_record": "current-mac:0454eab1-f0a3-4674-82b3-3187cb54da2a:647"
+      },
+      {
+        "id": "prod-wiki-hypotheses-revision",
+        "old_panels": [
+          "111-05"
+        ],
+        "frame": "Narrator annotation on a labelled historical draft artifact within the dated review. No incident replay, reconstructed desk action or source-looking paraphrase.",
+        "lettering": [
+          "The old page ribbon marks a dated addition, not proof that the manuscript became complete or that Curt made that gesture on September 4. The preserved draft was committed on September 5. Adding evidence can expand the subject while exposing new unknowns; uncertainty is not a count of facts forgotten."
+        ],
+        "exact_strings": [],
+        "sources": [
+          {
+            "key": "PROD-47704e3a3f45",
+            "locator": "256t/editions/selected-messages/47704e3a3f4568aef4205b08137115adcfe1a9daca59f39d4327472e3a8da722.json; record SHA-256 47704e3a3f4568aef4205b08137115adcfe1a9daca59f39d4327472e3a8da722",
+            "available": "2026-09-06T15:02:31.590Z"
+          },
+          {
+            "key": "DRAFT-WIKI-HYPOTHESES",
+            "locator": "editions/three-stream/evidence/hypotheses-109-7fa53878c493.md; historical panels and page notes; Git 7fa53878c4934571fee2dda8e025a050ff515761",
+            "available": "2026-09-05T22:33:29Z"
+          }
+        ],
+        "evidence_status": "documented-message-with-reconstructed-visualization",
+        "time_start": "2026-09-06T15:02:31.590Z",
+        "time_end": "2026-09-06T15:02:31.590Z",
+        "art_reuse": "none-approved",
+        "detail_decisions": [
+          {
+            "old_panel": "111-05",
+            "disposition": "rewrite",
+            "reason": "Retain expansion-with-uncertainty as project analysis; replace the staged completed ribbon with the dated historical artifact and distinguish scene date from Git commit."
+          }
+        ],
+        "source_record": "current-mac:0454eab1-f0a3-4674-82b3-3187cb54da2a:647"
+      },
+      {
+        "id": "prod-wiki-hypotheses-ending",
+        "old_panels": [
+          "111-06"
+        ],
+        "frame": "Narrator annotation on a labelled historical draft artifact within the dated review. No incident replay, reconstructed desk action or source-looking paraphrase.",
+        "lettering": [
+          "The draft then returns to four imagined future pages and raises what publication could teach. That is an authored transition into the existing publication argument, not a new encounter with an agent, a final page allocation or evidence that the fictional future happened. Keep the question without replaying the staged reach across a finished manuscript."
+        ],
+        "exact_strings": [],
+        "sources": [
+          {
+            "key": "PROD-47704e3a3f45",
+            "locator": "256t/editions/selected-messages/47704e3a3f4568aef4205b08137115adcfe1a9daca59f39d4327472e3a8da722.json; record SHA-256 47704e3a3f4568aef4205b08137115adcfe1a9daca59f39d4327472e3a8da722",
+            "available": "2026-09-06T15:02:31.590Z"
+          },
+          {
+            "key": "DRAFT-WIKI-HYPOTHESES",
+            "locator": "editions/three-stream/evidence/hypotheses-109-7fa53878c493.md; historical panels and page notes; Git 7fa53878c4934571fee2dda8e025a050ff515761",
+            "available": "2026-09-05T22:33:29Z"
+          }
+        ],
+        "evidence_status": "documented-message-with-reconstructed-visualization",
+        "time_start": "2026-09-06T15:02:31.590Z",
+        "time_end": "2026-09-06T15:02:31.590Z",
+        "art_reuse": "none-approved",
+        "detail_decisions": [
+          {
+            "old_panel": "111-06",
+            "disposition": "rewrite",
+            "reason": "Retain the publication question in historical draft discussion; remove the repeated staged gesture and any implication of fixed four-page allocation or actual future activity."
+          }
+        ],
+        "source_record": "current-mac:0454eab1-f0a3-4674-82b3-3187cb54da2a:647"
+      }
+    ]
+  }
+]

@@ -7262,5 +7262,279 @@
         }
       }
     ]
+  },
+  {
+    "old_panel": "111-01",
+    "old_edition": "legacy-332b5ed63262",
+    "reviewed_on": "2026-09-13",
+    "status": "elements-reviewed",
+    "elements": [
+      {
+        "id": "legacy-111-01-detail-01",
+        "original_sha256": "2db156d7c15a9a5eb1e3d58a476cde0a9087ab1356c92fe9ca1e954f4d1914ea",
+        "disposition": "rewrite",
+        "beats": [
+          "prod-wiki-hypotheses-map",
+          "prod-wiki-hypotheses-may"
+        ],
+        "reason": "Keep all five project hypotheses, separating sourced possibilities from established events and avoiding the claim that each explains the complete calendar. Reviewed frame element.",
+        "target_sha256": {
+          "prod-wiki-hypotheses-map": "c5e714eda40a0bbc795d52489e0bbf2e1f122258d7ee828f99fe4aab16d9435b",
+          "prod-wiki-hypotheses-may": "1f65e3dcec960ac6afb7dd73af308e7e8ed4a99b371e6afc02e243f2c971e6a6"
+        }
+      },
+      {
+        "id": "legacy-111-01-detail-02",
+        "original_sha256": "155b3cf27f4aa27e3541d6c62664a0a99b5882f01cf7a93b9aceece65aa74f86",
+        "disposition": "rewrite",
+        "beats": [
+          "prod-wiki-hypotheses-map"
+        ],
+        "reason": "Keep all five project hypotheses, separating sourced possibilities from established events and avoiding the claim that each explains the complete calendar. Reviewed action element.",
+        "target_sha256": {
+          "prod-wiki-hypotheses-map": "c5e714eda40a0bbc795d52489e0bbf2e1f122258d7ee828f99fe4aab16d9435b"
+        }
+      },
+      {
+        "id": "legacy-111-01-detail-03",
+        "original_sha256": "6302d4216b96afa41afb4e2b1f470238b7108d7b90d862b38ba5e8551c377ea4",
+        "disposition": "rewrite",
+        "beats": [
+          "prod-wiki-hypotheses-map",
+          "prod-wiki-hypotheses-report"
+        ],
+        "reason": "Keep all five project hypotheses, separating sourced possibilities from established events and avoiding the claim that each explains the complete calendar. Reviewed lettering element.",
+        "target_sha256": {
+          "prod-wiki-hypotheses-map": "c5e714eda40a0bbc795d52489e0bbf2e1f122258d7ee828f99fe4aab16d9435b",
+          "prod-wiki-hypotheses-report": "2bdb8d0165fb4636e7b8ae8f32005edddfcc9440599ae3f0f70167a3a42acea0"
+        }
+      },
+      {
+        "id": "legacy-111-01-detail-04",
+        "original_sha256": "639d72377f073a2ea8d76c053fbab3db066400ce933f9227ac60c97fb93a5c18",
+        "disposition": "rewrite",
+        "beats": [
+          "prod-wiki-hypotheses-map",
+          "prod-wiki-hypotheses-may"
+        ],
+        "reason": "Keep all five project hypotheses, separating sourced possibilities from established events and avoiding the claim that each explains the complete calendar. Reviewed lettering element.",
+        "target_sha256": {
+          "prod-wiki-hypotheses-map": "c5e714eda40a0bbc795d52489e0bbf2e1f122258d7ee828f99fe4aab16d9435b",
+          "prod-wiki-hypotheses-may": "1f65e3dcec960ac6afb7dd73af308e7e8ed4a99b371e6afc02e243f2c971e6a6"
+        }
+      }
+    ]
+  },
+  {
+    "old_panel": "111-02",
+    "old_edition": "legacy-332b5ed63262",
+    "reviewed_on": "2026-09-13",
+    "status": "elements-reviewed",
+    "elements": [
+      {
+        "id": "legacy-111-02-detail-01",
+        "original_sha256": "88b89c72e67706c539a1a651c174d4d4738a6e7921637e5c8823a7c248700f1a",
+        "disposition": "rewrite",
+        "beats": [
+          "prod-wiki-hypotheses-composite"
+        ],
+        "reason": "Preserve the composite’s methodological objection while correcting the false attribution of the exact five-box map to the report; remove staged reaction and unsupported four-day elapsed time. Reviewed frame element.",
+        "target_sha256": {
+          "prod-wiki-hypotheses-composite": "dd32a7d196c126ecf1af0c7554e09d2cf5ac78f743df118354698df7a376f9ba"
+        }
+      },
+      {
+        "id": "legacy-111-02-detail-02",
+        "original_sha256": "4985e57878966b1ced8fa42dc54e5f271f6919019fc5c24ff3c34d553c985410",
+        "disposition": "rewrite",
+        "beats": [
+          "prod-wiki-hypotheses-composite",
+          "prod-wiki-hypotheses-reaction"
+        ],
+        "reason": "Preserve the composite’s methodological objection while correcting the false attribution of the exact five-box map to the report; remove staged reaction and unsupported four-day elapsed time. Reviewed action element.",
+        "target_sha256": {
+          "prod-wiki-hypotheses-composite": "dd32a7d196c126ecf1af0c7554e09d2cf5ac78f743df118354698df7a376f9ba",
+          "prod-wiki-hypotheses-reaction": "e3a001e08e62d1ac9686dc449493d40ee3b7b1d21a82b6bd4210a39d7b46c3cf"
+        }
+      },
+      {
+        "id": "legacy-111-02-detail-03",
+        "original_sha256": "ce53d09d7ae9105e35253b91313bec57035413a91fdbbf96338a3d067fce4ca6",
+        "disposition": "rewrite",
+        "beats": [
+          "prod-wiki-hypotheses-composite",
+          "prod-wiki-hypotheses-report"
+        ],
+        "reason": "Preserve the composite’s methodological objection while correcting the false attribution of the exact five-box map to the report; remove staged reaction and unsupported four-day elapsed time. Reviewed lettering element.",
+        "target_sha256": {
+          "prod-wiki-hypotheses-composite": "dd32a7d196c126ecf1af0c7554e09d2cf5ac78f743df118354698df7a376f9ba",
+          "prod-wiki-hypotheses-report": "2bdb8d0165fb4636e7b8ae8f32005edddfcc9440599ae3f0f70167a3a42acea0"
+        }
+      },
+      {
+        "id": "legacy-111-02-detail-04",
+        "original_sha256": "33fe8bd0a3f6120cd4f868d0fe2556fa56e5c96980dacbb6a0fcaefb09b4e7f7",
+        "disposition": "rewrite",
+        "beats": [
+          "prod-wiki-hypotheses-reaction"
+        ],
+        "reason": "Preserve the composite’s methodological objection while correcting the false attribution of the exact five-box map to the report; remove staged reaction and unsupported four-day elapsed time. Reviewed lettering element.",
+        "target_sha256": {
+          "prod-wiki-hypotheses-reaction": "e3a001e08e62d1ac9686dc449493d40ee3b7b1d21a82b6bd4210a39d7b46c3cf"
+        }
+      }
+    ]
+  },
+  {
+    "old_panel": "111-03",
+    "old_edition": "legacy-332b5ed63262",
+    "reviewed_on": "2026-09-13",
+    "status": "elements-reviewed",
+    "elements": [
+      {
+        "id": "legacy-111-03-detail-01",
+        "original_sha256": "719e4323a1fa008da117c212b48a750c42ae2bc1eb57dc1426b636a5ff75afa5",
+        "disposition": "rewrite",
+        "beats": [
+          "prod-wiki-hypotheses-channels"
+        ],
+        "reason": "Preserve the three distinct channels and overlap question without replay or evidence of actual ingestion and weight updates. Reviewed frame element.",
+        "target_sha256": {
+          "prod-wiki-hypotheses-channels": "c39315863bc9f069b9eddf452d93b85703d878bfa5ed6efa0afcaf09d53e1d7c"
+        }
+      },
+      {
+        "id": "legacy-111-03-detail-03",
+        "original_sha256": "d9ac8ef154eec0195671d08b2ee810a08446ffecf289d617dc6c4901fd98ebd8",
+        "disposition": "rewrite",
+        "beats": [
+          "prod-wiki-hypotheses-channels"
+        ],
+        "reason": "Preserve the three distinct channels and overlap question without replay or evidence of actual ingestion and weight updates. Reviewed lettering element.",
+        "target_sha256": {
+          "prod-wiki-hypotheses-channels": "c39315863bc9f069b9eddf452d93b85703d878bfa5ed6efa0afcaf09d53e1d7c"
+        }
+      }
+    ]
+  },
+  {
+    "old_panel": "111-04",
+    "old_edition": "legacy-332b5ed63262",
+    "reviewed_on": "2026-09-13",
+    "status": "elements-reviewed",
+    "elements": [
+      {
+        "id": "legacy-111-04-detail-01",
+        "original_sha256": "aa0fb3fe8f65b90378fb6e02dc75aa2f1dff8db014558d494415ccd6ecd5c058",
+        "disposition": "rewrite",
+        "beats": [
+          "prod-wiki-hypotheses-critic"
+        ],
+        "reason": "Keep Brown’s actual thesis as a short registered quotation and distinguish its subject and date from wiki discovery and composite dialogue. Reviewed frame element.",
+        "target_sha256": {
+          "prod-wiki-hypotheses-critic": "e16ddd813e8fee19190a61db9ad84b0da8da93219b4da1658f57e7ea9e5d803f"
+        }
+      },
+      {
+        "id": "legacy-111-04-detail-03",
+        "original_sha256": "97a915fe248623fabc48c9c7c81fd6eaf11a578d8bc8170a9a0fc6baafa1b5a4",
+        "disposition": "rewrite",
+        "beats": [
+          "prod-wiki-hypotheses-critic"
+        ],
+        "reason": "Keep Brown’s actual thesis as a short registered quotation and distinguish its subject and date from wiki discovery and composite dialogue. Reviewed lettering element.",
+        "target_sha256": {
+          "prod-wiki-hypotheses-critic": "e16ddd813e8fee19190a61db9ad84b0da8da93219b4da1658f57e7ea9e5d803f"
+        }
+      },
+      {
+        "id": "legacy-111-04-detail-04",
+        "original_sha256": "a6b392a43bce8cc748cf190103d4ad8cdb5606cbd3fe5ff76343b7aa734c70ff",
+        "disposition": "rewrite",
+        "beats": [
+          "prod-wiki-hypotheses-different-claims"
+        ],
+        "reason": "Keep Brown’s actual thesis as a short registered quotation and distinguish its subject and date from wiki discovery and composite dialogue. Reviewed lettering element.",
+        "target_sha256": {
+          "prod-wiki-hypotheses-different-claims": "7e7f3f76e7c5d82b43294542563baa409c117ca1b76b0cdfdbaf06319af996c1"
+        }
+      }
+    ]
+  },
+  {
+    "old_panel": "111-05",
+    "old_edition": "legacy-332b5ed63262",
+    "reviewed_on": "2026-09-13",
+    "status": "elements-reviewed",
+    "elements": [
+      {
+        "id": "legacy-111-05-detail-01",
+        "original_sha256": "d5e193db533135d123738c5b63d9426b502b394fa84a0cc4cac9da07cb974add",
+        "disposition": "rewrite",
+        "beats": [
+          "prod-wiki-hypotheses-revision"
+        ],
+        "reason": "Retain expansion-with-uncertainty as project analysis; replace the staged completed ribbon with the dated historical artifact and distinguish scene date from Git commit. Reviewed frame element.",
+        "target_sha256": {
+          "prod-wiki-hypotheses-revision": "2d77a9341a14ab828b76abfadfe57b327bc0b52eea8c4bd0d89d8c78510d5cf4"
+        }
+      },
+      {
+        "id": "legacy-111-05-detail-02",
+        "original_sha256": "c9c520c0f8a607979069d7d9608992a7e5fcf51b649d32babc2564a3668567f8",
+        "disposition": "rewrite",
+        "beats": [
+          "prod-wiki-hypotheses-revision"
+        ],
+        "reason": "Retain expansion-with-uncertainty as project analysis; replace the staged completed ribbon with the dated historical artifact and distinguish scene date from Git commit. Reviewed action element.",
+        "target_sha256": {
+          "prod-wiki-hypotheses-revision": "2d77a9341a14ab828b76abfadfe57b327bc0b52eea8c4bd0d89d8c78510d5cf4"
+        }
+      },
+      {
+        "id": "legacy-111-05-detail-03",
+        "original_sha256": "acdbc09a43599c3df1de2b5dfee1962344b5c76bf72045e3cc189d2810fbd09a",
+        "disposition": "rewrite",
+        "beats": [
+          "prod-wiki-hypotheses-revision"
+        ],
+        "reason": "Retain expansion-with-uncertainty as project analysis; replace the staged completed ribbon with the dated historical artifact and distinguish scene date from Git commit. Reviewed lettering element.",
+        "target_sha256": {
+          "prod-wiki-hypotheses-revision": "2d77a9341a14ab828b76abfadfe57b327bc0b52eea8c4bd0d89d8c78510d5cf4"
+        }
+      }
+    ]
+  },
+  {
+    "old_panel": "111-06",
+    "old_edition": "legacy-332b5ed63262",
+    "reviewed_on": "2026-09-13",
+    "status": "elements-reviewed",
+    "elements": [
+      {
+        "id": "legacy-111-06-detail-01",
+        "original_sha256": "07b6ec7f6579f05a45aebb3099fc4183595adfb5584ffdef04f11a9ad8fe24d6",
+        "disposition": "rewrite",
+        "beats": [
+          "prod-wiki-hypotheses-ending"
+        ],
+        "reason": "Retain the publication question in historical draft discussion; remove the repeated staged gesture and any implication of fixed four-page allocation or actual future activity. Reviewed frame element.",
+        "target_sha256": {
+          "prod-wiki-hypotheses-ending": "cca1ad99071928dd0c5d1a9c6d1182f5e33ddcb09bf929533c2b01993bd4ad49"
+        }
+      },
+      {
+        "id": "legacy-111-06-detail-03",
+        "original_sha256": "d3764911f0be245e2e102582307a044c44af0cd11ffd146d72378892d1e861e5",
+        "disposition": "rewrite",
+        "beats": [
+          "prod-wiki-hypotheses-ending"
+        ],
+        "reason": "Retain the publication question in historical draft discussion; remove the repeated staged gesture and any implication of fixed four-page allocation or actual future activity. Reviewed lettering element.",
+        "target_sha256": {
+          "prod-wiki-hypotheses-ending": "cca1ad99071928dd0c5d1a9c6d1182f5e33ddcb09bf929533c2b01993bd4ad49"
+        }
+      }
+    ]
   }
 ]

@@ -735,3 +735,39 @@ without inventing negative answers, authenticated visitors or concealment.
 Scoped checks pass; the frozen edition remains unchanged. Frozen 111 and
 many earlier panels still need semantic review. Final chronology, readability,
 Twitter entrance, other-Mac evidence and page allocation remain open.
+
+### Wiki hypothesis map and critic — 13 September 2026
+
+Reviewed all six frozen 111 panels, adding ten beats in
+`manuscript/collaboration-wiki-hypotheses.json`. Preserved the exact Git
+artifact as `evidence/hypotheses-109-7fa53878c493.md`; the historical page
+identity is unchanged. All frozen 106–118 panels now have element reviews,
+though that is not a declaration of semantic completion for the edition.
+
+The old page incorrectly identifies the exact five-box map as the report’s.
+The report’s Open questions section offers related possibilities, not that
+arrangement. The new draft keeps the book’s five categories, identifies them
+as project questions, and preserves the composite skeptic’s methodological
+objection without perpetuating its mistaken attribution. The composite is
+not Brown; Curt’s immediate response and four-day callback remain scripted
+material, not a recovered exchange or measured interval.
+
+Read Brown’s preserved article. Admitted IOB-CIV narrowly for the context
+persistence thesis and included one short exact quotation, with unresolved
+rights for the later publication gate. The critic is text only and is not
+credited with the wiki discovery or the composite’s objection. Public
+availability, reading in context and learning in weights remain separate.
+All five hypotheses survive, including the separate May 26 workload, without
+asserting that each explains the calendar or proves a route of transfer.
+
+Retained the widening-subject/new-unknowns argument and publication question
+as historical draft discussion, removing the repeated finished-manuscript
+gesture and the implied fixed four-page ending. The September 4 scene label
+and September 5 Git commit are distinguished. No extra September 6 source
+encounter is attributed to Claude.
+
+Scoped checks pass and frozen inputs remain unchanged. Many earlier panels,
+final chronology/readability, Twitter entrance, other-Mac evidence and page
+allocation remain unfinished. Next work should return to the unreviewed
+incident and early collaboration panels rather than allocate the withdrawn
+compressed study or infer completeness from these review counts.
