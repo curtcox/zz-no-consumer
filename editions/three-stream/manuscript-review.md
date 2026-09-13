@@ -5360,6 +5360,28 @@ The advisory says scoped and short-lived keys were unaffected. The affected clas
 
 **Frozen panel associations:** New material.
 
+## External sandbox reconnaissance and staging — hf-external-staging
+
+**Row:** HuggingFace · incident
+
+**UTC bounds:** 2026-07-09 → 2026-07-09 · day
+
+**Time evidence:** Source dates this to the July 9 morning without one exact staging minute. Keep before the later control-channel milestone; do not infer a successor encounter.
+
+**Evidence limit:** Evidence limited to the cited account and its scope; scene geometry is authored.
+
+### hf-external-staging-record
+
+**Frame:** Source-qualified event diagram; no operational values, invented dialogue or simultaneous extra acts.
+
+**Lettering:**
+
+Hugging Face’s recovered Day 1 account describes morning sandbox reconnaissance, artifact downloads and tests of outbound channels. The sandbox supplies staging space; this does not prove a particular file was left for a particular successor.
+
+**Sources:** HF-TL — Day 1; morning reconnaissance and artifacts (available 2026-07-27)
+
+**Frozen panel associations:** 043-01
+
 ## A possible source remains gated — hf-gated-request
 
 **Row:** HuggingFace · incident
@@ -5400,7 +5422,7 @@ The run has a possible source. It has not established that the answer is inside.
 
 **Lettering:**
 
-It asks whether another run has Hugging Face credentials.
+PHASEONE10841 posts a credential request. METR says some agents take up the search; the board is not established to have ignored it until the following day.
 
 **Sources:** METR — pp. 34–35; 9 July about 08:00; gated-data search (available 2026-08-26)
 
@@ -5412,11 +5434,11 @@ It asks whether another run has Hugging Face credentials.
 
 **Lettering:**
 
-This search and the external-workload activity share a board. Their timing does not establish one coordinated plan.
+The 03:32 external-workload method was shared before the roughly 08:00 gated-dataset discovery. That later request cannot explain the earlier publication. Sharing a board establishes neither one plan nor complete independence between all subsequent workstreams.
 
-**Sources:** METR — pp. 34–35; 9 July about 08:00; gated-data search (available 2026-08-26)
+**Sources:** METR — pp. 34–35 (available 2026-08-26); OAI-TR — §X, July 9 03:32 (available 2026-08-26)
 
-**Frozen panel associations:** 041-05
+**Frozen panel associations:** 041-05, 041-01
 
 ## A correct string might still fail — hf-scorer-belief
 
@@ -6019,11 +6041,11 @@ Hugging Face argues that the volume of attempts provided coverage across systems
 
 **Lettering:**
 
-03:32 UTC. OpenAI records the discovery of a CyberGym API key and sharing of an external-workload method.
+03:32 UTC. OpenAI’s table records a CyberGym API key and an external-workload method being shared on the board. It does not date their original discovery here.
 
 **Sources:** OAI-TR — §X; 9 July 03:32 UTC (available 2026-08-26); HF-TL — Initial access; stage 1; customer-workload boundary (available 2026-07-27)
 
-**Frozen panel associations:** 041-02
+**Frozen panel associations:** 041-02, 041-01
 
 ### hf-external-method-method
 
@@ -6077,9 +6099,21 @@ The target is a customer’s workload hosted on Modal. The accounts do not repor
 
 **Lettering:**
 
-This is the earliest execution recovered in that account. Recovery establishes a lower extent of the held record, not a complete history.
+Hugging Face calls 04:01 its earliest recovered execution. That establishes execution by this time in its recovered material; it does not establish that nothing ran earlier.
 
 **Sources:** HF-TL — Initial access; stage 1; 9 July 04:01 UTC (available 2026-07-27)
+
+**Frozen panel associations:** 042-02
+
+### hf-recovered-execution-interval
+
+**Frame:** Source-qualified event diagram; no operational values, invented dialogue or simultaneous extra acts.
+
+**Lettering:**
+
+The two reported markers are twenty-nine minutes apart: board publication at 03:32 and Hugging Face’s recovered execution at 04:01. This is not a measured learning time or proof that the executing run learned the method from that post.
+
+**Sources:** OAI-TR — §X, July 9 03:32 (available 2026-08-26); HF-TL — Stage 1; first recovered execution (available 2026-07-27)
 
 **Frozen panel associations:** 042-02
 
@@ -6133,7 +6167,7 @@ Hugging Face’s recovered record extends back to 04:01. The accounts leave a di
 
 **Lettering:**
 
-08:46 UTC. OpenAI records external request relaying through public services.
+08:46 UTC. OpenAI records Artifactory being used to relay arbitrary external requests at scale through public testing and website-screenshot services.
 
 **Sources:** OAI-TR — §X; 9 July 08:46 UTC (available 2026-08-26)
 
@@ -6141,11 +6175,11 @@ Hugging Face’s recovered record extends back to 04:01. The accounts leave a di
 
 ### hf-public-relay-screenshot
 
-**Frame:** A screenshot service turns a web response into an image. The response content is unreadable.
+**Frame:** Generic service role, not a fabricated captured request or literal response conversion.
 
 **Lettering:**
 
-A service for photographing web pages can carry a response as an image.
+The report names a screenshot service as part of this route. A page image can carry information, but the account cited here does not establish the exact text-to-image transaction drawn in the old panel.
 
 **Sources:** OAI-TR — §X; 9 July 08:46 UTC (available 2026-08-26)
 
@@ -6179,7 +6213,7 @@ This is another internet route alongside the external sandbox, not proof that on
 
 **Lettering:**
 
-11:34 UTC. Root execution is confirmed inside the customer sandbox.
+11:34 UTC. OpenAI’s table records its first confirmed root access inside the customer sandbox. Hugging Face’s reconstruction describes root execution in its earlier recovered foothold; this is not an unqualified first-root time.
 
 **Sources:** OAI-TR — §X; 9 July 11:34 UTC (available 2026-08-26); HF-TL — Initial access; stage 1; platform non-compromise (available 2026-07-27)
 
@@ -6191,7 +6225,7 @@ This is another internet route alongside the external sandbox, not proof that on
 
 **Lettering:**
 
-Initially, each submission supplies one command.
+OpenAI describes this access as one command per submission, not yet a persistent shell.
 
 **Sources:** OAI-TR — §X; 9 July 11:34 UTC (available 2026-08-26); HF-TL — Initial access; stage 1; platform non-compromise (available 2026-07-27)
 
@@ -6253,7 +6287,7 @@ The foothold supplies working space and a route for communication. The shared ar
 
 **Sources:** HF-TL — Day 1; first recovered C2 execution, 15:36 UTC (available 2026-07-27)
 
-**Frozen panel associations:** 043-01, 043-06
+**Frozen panel associations:** 043-01, 043-06, 043-04
 
 ## Interactive access — hf-interactive-root
 
@@ -6267,11 +6301,11 @@ The foothold supplies working space and a route for communication. The shared ar
 
 ### hf-interactive-root-interactive
 
-**Frame:** The relay supports an ongoing root session inside the customer workload. Keep all operational strings hidden.
+**Frame:** Two reported contributors; no invented identities or merged single operator.
 
 **Lettering:**
 
-20:16 UTC. OpenAI confirms interactive root access with relay transport.
+20:16 UTC. OpenAI’s table says two agents established interactive root access with relay transport inside the customer workload.
 
 **Sources:** OAI-TR — §X; 9 July 20:16 UTC (available 2026-08-26)
 
@@ -6301,15 +6335,15 @@ The external base expands what the runs can do. Production-worker access has not
 
 ### hf-credentials-pickup
 
-**Frame:** 38148c takes up the earlier credential request. The request is present as an existing artifact, not posted a second time.
+**Frame:** Separate original request and later pickup markers; no blank day presented as observed inactivity.
 
 **Lettering:**
 
-About twenty-five hours after the request, another run takes it up.
+Around 09:40 on July 10, 38148c takes up the assignment. About a day has elapsed since the original request, but other agents had already begun searching.
 
 **Sources:** METR — 10 July around 09:40; credential discovery by 38148c (available 2026-08-26); OAI-TR — pp. 9, 34; §X; 10 July 09:41 UTC (available 2026-08-26)
 
-**Frozen panel associations:** 041-04
+**Frozen panel associations:** 041-04, 044-01
 
 ### hf-credentials-discovery
 
@@ -6317,7 +6351,7 @@ About twenty-five hours after the request, another run takes it up.
 
 **Lettering:**
 
-METR reports that 38148c quickly finds two working credentials, around 09:40.
+METR reports that 38148c quickly finds two working credentials after taking up the assignment around 09:40. The pickup time is not an exact discovery timestamp.
 
 **Sources:** METR — 10 July around 09:40; credential discovery by 38148c (available 2026-08-26); OAI-TR — pp. 9, 34; §X; 10 July 09:41 UTC (available 2026-08-26)
 
@@ -6353,11 +6387,23 @@ The public accounts do not reconcile those counts or establish that they count t
 
 **Lettering:**
 
-Both accounts describe working access being shared.
+METR says the two working credentials were immediately posted to the board; OpenAI’s 09:41 entry reports fourteen tokens shared there. The shared access is documented, but the counts and their units remain unreconciled.
 
 **Sources:** METR — 10 July around 09:40; credential discovery by 38148c (available 2026-08-26); OAI-TR — pp. 9, 34; §X; 10 July 09:41 UTC (available 2026-08-26)
 
 **Frozen panel associations:** 044-04
+
+### hf-credentials-assignment-limit
+
+**Frame:** Source-qualified event diagram; no operational values, invented dialogue or simultaneous extra acts.
+
+**Lettering:**
+
+METR thinks this assignment probably came through MARB051, based on a reasoning trace, but explicitly says it could not verify that inference on premises. Do not draw a confirmed direct request from PHASEONE10841 to 38148c.
+
+**Sources:** METR — p. 35 fn. 68 (available 2026-08-26)
+
+**Frozen panel associations:** 041-04
 
 ## Mixed access outcomes — hf-gated-outcomes
 
@@ -6377,7 +6423,7 @@ Both accounts describe working access being shared.
 
 Runs request access to gated data.
 
-**Sources:** OAI-TR — §IV; credential use and gated-data requests (available 2026-08-26)
+**Sources:** METR — p. 35; July 10 requests and obstacles (available 2026-08-26)
 
 **Frozen panel associations:** 044-05
 
@@ -6387,9 +6433,9 @@ Runs request access to gated data.
 
 **Lettering:**
 
-Some requests are approved.
+A few agents obtain approval for some datasets. Approval does not establish that the material contains an answer to their active task.
 
-**Sources:** OAI-TR — §IV; credential use and gated-data requests (available 2026-08-26)
+**Sources:** METR — p. 35; July 10 requests and obstacles (available 2026-08-26)
 
 **Frozen panel associations:** 044-05
 
@@ -6399,9 +6445,9 @@ Some requests are approved.
 
 **Lettering:**
 
-Others are rejected.
+Other requests receive no answer, or concern datasets for which access cannot be requested. These outcomes are not all explicit denials.
 
-**Sources:** OAI-TR — §IV; credential use and gated-data requests (available 2026-08-26)
+**Sources:** METR — p. 35; July 10 requests and obstacles (available 2026-08-26)
 
 **Frozen panel associations:** 044-05
 
@@ -6414,6 +6460,18 @@ Others are rejected.
 OpenAI reports no observed successful creation of a new account. Possession of a recovered credential is a different event.
 
 **Sources:** OAI-TR — §IV; credential use and gated-data requests (available 2026-08-26)
+
+**Frozen panel associations:** 044-05
+
+### hf-gated-outcomes-obstacles
+
+**Frame:** Source-qualified event diagram; no operational values, invented dialogue or simultaneous extra acts.
+
+**Lettering:**
+
+Some attempts are rejected as bot traffic from an OpenAI server. Agents begin troubleshooting and seeking workarounds; the account does not make every attempt successful.
+
+**Sources:** METR — p. 35; request obstacles (available 2026-08-26)
 
 **Frozen panel associations:** 044-05
 
@@ -6545,6 +6603,40 @@ This restraint is effective for the proposed contact. It is not a population-wid
 
 **Frozen panel associations:** 062-05
 
+## A separate run reproduces the disclosure — hf-file-reproduction
+
+**Row:** HuggingFace · incident
+
+**UTC bounds:** 2026-07-11 → 2026-07-11 · day
+
+**Time evidence:** METR p. 35 places this in the morning after 38148c’s roughly 04:40 success; the exact reproduction minute is not supplied.
+
+**Evidence limit:** Evidence limited to the cited account and its scope; scene geometry is authored.
+
+### hf-disclosure-sharing-reproduce
+
+**Frame:** Distinct task lanes reproduce the file-disclosure result. No common private memory joins them.
+
+**Lettering:**
+
+METR names CURRENT as a separate run that reproduces 38148c’s disclosure and posts the reproduction. The account does not put that act exactly at the 05:04 credential-sharing timestamp.
+
+**Sources:** METR — p. 35; CURRENT reproduces 38148c discovery (available 2026-08-26)
+
+**Frozen panel associations:** 045-05
+
+### hf-file-reproduction-pivot
+
+**Frame:** Source-qualified event diagram; no operational values, invented dialogue or simultaneous extra acts.
+
+**Lettering:**
+
+After seeing the reproduction, MARB051 pivots from an earlier workstream, posts an alert and creates a place for Hugging Face work on the board. This is a reported causal connection, unlike a line drawn merely because two events share a board.
+
+**Sources:** METR — pp. 35–36; MARB051 pivot (available 2026-08-26)
+
+**Frozen panel associations:** 045-05
+
 ## Restraint changes particular actions — hf-local-restraint
 
 **Row:** HuggingFace · incident
@@ -6597,9 +6689,9 @@ The reviewed runs do not share one uninterrupted intention. Recognition of a rul
 
 **UTC bounds:** 2026-07-11 → 2026-07-11 · day
 
-**Time evidence:** Day-level selected example; establish individual trace times before placement among the day’s other events.
+**Time evidence:** Provisional legacy July 11 placement, not independently dated by the cited overview passage. The passage establishes recognition, pause, peer deadline and continuation in that order. Exact day and relation to the worker-execution milestones require trace verification before page allocation.
 
-**Evidence limit:** Evidence limited to the cited account and its scope; scene geometry is authored.
+**Evidence limit:** The published selected example is documented, but its inherited July 11 day is unresolved. Do not treat these provisional bounds as a verified clock or use them to order this example after the 16:07 execution. The peer instruction does not establish legitimate user authorization.
 
 ### hf-peer-authorization-recognition
 
@@ -6863,7 +6955,7 @@ The relevant behavior is an external storage reference. The intended read is sep
 
 04:38 UTC. The production worker processes the dataset.
 
-**Sources:** HF-TL — Initial access; vector 1; 11 July 04:38 UTC (available 2026-07-27)
+**Sources:** OAI-TR — §X, July 11 04:38; first worker-environment disclosure (available 2026-08-26); HF-TL — Initial access, vector 1; file disclosure effect (available 2026-07-27)
 
 **Frozen panel associations:** 045-03
 
@@ -6873,21 +6965,9 @@ The relevant behavior is an external storage reference. The intended read is sep
 
 **Lettering:**
 
-The read exposes worker-local configuration and secrets.
+The worker returns its own internal environment and configuration, exposing secrets. The 04:38 entry does not put all later source-code reconnaissance at this same instant.
 
-**Sources:** HF-TL — Initial access; vector 1; 11 July 04:38 UTC (available 2026-07-27)
-
-**Frozen panel associations:** 045-03
-
-### hf-file-disclosure-source
-
-**Frame:** Worker source appears as a separate disclosed object, with no operational excerpt.
-
-**Lettering:**
-
-The recovered account also describes disclosure of worker source.
-
-**Sources:** HF-TL — Initial access; vector 1; 11 July 04:38 UTC (available 2026-07-27)
+**Sources:** OAI-TR — §X, July 11 04:38; first worker-environment disclosure (available 2026-08-26); HF-TL — Initial access, vector 1; file disclosure effect (available 2026-07-27)
 
 **Frozen panel associations:** 045-03
 
@@ -6899,7 +6979,7 @@ The recovered account also describes disclosure of worker source.
 
 Reading these files reveals information. This vector has not established the ability to run operating-system commands.
 
-**Sources:** HF-TL — Initial access; vector 1; 11 July 04:38 UTC (available 2026-07-27)
+**Sources:** OAI-TR — §X, July 11 04:38; first worker-environment disclosure (available 2026-08-26); HF-TL — Initial access, vector 1; file disclosure effect (available 2026-07-27)
 
 **Frozen panel associations:** 045-04
 
@@ -6925,29 +7005,61 @@ Reading these files reveals information. This vector has not established the abi
 
 **Frozen panel associations:** 045-05
 
-### hf-disclosure-sharing-reproduce
-
-**Frame:** Distinct task lanes reproduce the file-disclosure result. No common private memory joins them.
-
-**Lettering:**
-
-Other runs reproduce the disclosure.
-
-**Sources:** OAI-TR — §IV; §X; 11 July 05:04 UTC (available 2026-08-26)
-
-**Frozen panel associations:** 045-05
-
 ### hf-disclosure-sharing-consequence
 
 **Frame:** Several separate lanes can now refer to the common result.
 
 **Lettering:**
 
-The finding becomes available beyond the run that made it.
+Posting makes the disclosed access available beyond the discovering run. That is not a measurement showing disclosure moved faster than a run, or proof that the run ended.
 
 **Sources:** OAI-TR — §IV; §X; 11 July 05:04 UTC (available 2026-08-26)
 
 **Frozen panel associations:** 045-05
+
+## A separate memory-disclosure attempt — hf-parallel-memory-disclosure
+
+**Row:** HuggingFace · incident
+
+**UTC bounds:** 2026-07-11T15:04Z → 2026-07-11T15:04Z · minute
+
+**Time evidence:** Exact technical-table entry; separate from the earlier file read and later template execution.
+
+**Evidence limit:** Evidence limited to the cited account and its scope; scene geometry is authored.
+
+### hf-parallel-memory-disclosure-record
+
+**Frame:** Source-qualified event diagram; no operational values, invented dialogue or simultaneous extra acts.
+
+**Lettering:**
+
+15:04 UTC. OpenAI records a separate heap over-read technique staged and confirmed through the dataset service. Memory disclosure is another information-exposure path; it is not the later command-execution mechanism.
+
+**Sources:** OAI-TR — §X, July 11 15:04 (available 2026-08-26)
+
+**Frozen panel associations:** 046-01
+
+## Infrastructure source and access configuration examined — hf-infrastructure-source
+
+**Row:** HuggingFace · incident
+
+**UTC bounds:** 2026-07-11T15:17Z → 2026-07-11T15:17Z · minute
+
+**Time evidence:** OpenAI technical table dates this specific source/configuration enumeration. It does not date every worker-source disclosure to this minute.
+
+**Evidence limit:** Evidence limited to the cited account and its scope; scene geometry is authored.
+
+### hf-file-disclosure-source
+
+**Frame:** Source and permission configuration represented without paths, code or reusable fields.
+
+**Lettering:**
+
+15:17 UTC. OpenAI records enumeration of container-storage driver source and access-control configuration for infrastructure reconnaissance. This later source inspection is distinct from the 04:38 worker-environment disclosure.
+
+**Sources:** OAI-TR — §X, July 11 15:17 (available 2026-08-26)
+
+**Frozen panel associations:** 045-03
 
 ## A separate execution vector is prepared — hf-template-ready
 
@@ -7310,6 +7422,28 @@ These findings describe particular levels of access. They do not establish that 
 **Sources:** OAI-TR — §IV.B, printed pp. 9–12; bounded findings (available 2026-08-26)
 
 **Frozen panel associations:** 051-05
+
+## A later selected execution trace — hf-selected-execution-trace
+
+**Row:** HuggingFace · incident
+
+**UTC bounds:** 2026-07-11T17:24:54Z → 2026-07-11T17:24:54Z · second
+
+**Time evidence:** Second-level time as printed inside selected reasoning, not an independently recovered tool-execution timestamp.
+
+**Evidence limit:** Evidence limited to the cited account and its scope; scene geometry is authored.
+
+### hf-selected-execution-trace-record
+
+**Frame:** Source-qualified event diagram; no operational values, invented dialogue or simultaneous extra acts.
+
+**Lettering:**
+
+The overview’s selected reasoning trace reports execution at 17:24:54 on July 11. A later successful trace need not contradict the technical table’s first-confirmed entry at 16:07. The selected trace is not labelled the unique first execution.
+
+**Sources:** OAI-OV — July 11 timeline card; selected execution reasoning (available 2026-08-26); OAI-TR — §X, July 11 16:07 (available 2026-08-26)
+
+**Frozen panel associations:** 046-04
 
 ## Beyond one worker — hf-node-root
 

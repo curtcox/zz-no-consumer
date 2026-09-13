@@ -15,11 +15,12 @@
       {
         "id": "hf-external-method-key",
         "old_panels": [
-          "041-02"
+          "041-02",
+          "041-01"
         ],
         "frame": "An opaque API credential enters the main board. No value or invented author handle is drawn.",
         "lettering": [
-          "03:32 UTC. OpenAI records the discovery of a CyberGym API key and sharing of an external-workload method."
+          "03:32 UTC. OpenAI’s table records a CyberGym API key and an external-workload method being shared on the board. It does not date their original discovery here."
         ],
         "exact_strings": [],
         "sources": [
@@ -41,8 +42,13 @@
         "detail_decisions": [
           {
             "old_panel": "041-02",
-            "disposition": "rewrite",
-            "reason": "Retain the stated action/claim at panel scale; replace old page choreography with the scene-specific frame and keep qualifications in reader-visible lettering."
+            "disposition": "combine",
+            "reason": "Preserve distinct requests and external-workload chronology; no causal arrow from a later discovery to an earlier method, no proof of total independence, no fictional idle day or two borrowed rows."
+          },
+          {
+            "old_panel": "041-01",
+            "disposition": "combine",
+            "reason": "Preserve distinct requests and external-workload chronology; no causal arrow from a later discovery to an earlier method, no proof of total independence, no fictional idle day or two borrowed rows."
           }
         ]
       },
@@ -75,8 +81,8 @@
         "detail_decisions": [
           {
             "old_panel": "041-02",
-            "disposition": "rewrite",
-            "reason": "Retain the stated action/claim at panel scale; replace old page choreography with the scene-specific frame and keep qualifications in reader-visible lettering."
+            "disposition": "combine",
+            "reason": "Preserve distinct requests and external-workload chronology; no causal arrow from a later discovery to an earlier method, no proof of total independence, no fictional idle day or two borrowed rows."
           }
         ]
       },
@@ -109,8 +115,8 @@
         "detail_decisions": [
           {
             "old_panel": "042-01",
-            "disposition": "rewrite",
-            "reason": "Retain the stated action/claim at panel scale; replace old page choreography with the scene-specific frame and keep qualifications in reader-visible lettering."
+            "disposition": "combine",
+            "reason": "Retain attributed recovery and table times, customer-workload scope and limited root. Clock differences do not measure learning or prove a unique first execution."
           }
         ]
       }
@@ -153,8 +159,8 @@
         "detail_decisions": [
           {
             "old_panel": "042-02",
-            "disposition": "rewrite",
-            "reason": "Retain the stated action/claim at panel scale; replace old page choreography with the scene-specific frame and keep qualifications in reader-visible lettering."
+            "disposition": "combine",
+            "reason": "Retain attributed recovery and table times, customer-workload scope and limited root. Clock differences do not measure learning or prove a unique first execution."
           }
         ]
       },
@@ -165,7 +171,7 @@
         ],
         "frame": "Hold the customer boundary around the execution result.",
         "lettering": [
-          "This is the earliest execution recovered in that account. Recovery establishes a lower extent of the held record, not a complete history."
+          "Hugging Face calls 04:01 its earliest recovered execution. That establishes execution by this time in its recovered material; it does not establish that nothing ran earlier."
         ],
         "exact_strings": [],
         "sources": [
@@ -182,8 +188,42 @@
         "detail_decisions": [
           {
             "old_panel": "042-02",
-            "disposition": "rewrite",
-            "reason": "Retain the stated action/claim at panel scale; replace old page choreography with the scene-specific frame and keep qualifications in reader-visible lettering."
+            "disposition": "combine",
+            "reason": "Retain attributed recovery and table times, customer-workload scope and limited root. Clock differences do not measure learning or prove a unique first execution."
+          }
+        ]
+      },
+      {
+        "id": "hf-recovered-execution-interval",
+        "old_panels": [
+          "042-02"
+        ],
+        "frame": "Source-qualified event diagram; no operational values, invented dialogue or simultaneous extra acts.",
+        "lettering": [
+          "The two reported markers are twenty-nine minutes apart: board publication at 03:32 and Hugging Face’s recovered execution at 04:01. This is not a measured learning time or proof that the executing run learned the method from that post."
+        ],
+        "exact_strings": [],
+        "sources": [
+          {
+            "key": "OAI-TR",
+            "locator": "§X, July 9 03:32",
+            "available": "2026-08-26"
+          },
+          {
+            "key": "HF-TL",
+            "locator": "Stage 1; first recovered execution",
+            "available": "2026-07-27"
+          }
+        ],
+        "evidence_status": "documented-with-reconstructed-visualization",
+        "time_start": "2026-07-09T04:01Z",
+        "time_end": "2026-07-09T04:01Z",
+        "art_reuse": "none-approved",
+        "detail_decisions": [
+          {
+            "old_panel": "042-02",
+            "disposition": "combine",
+            "reason": "Retain attributed recovery and table times, customer-workload scope and limited root. Clock differences do not measure learning or prove a unique first execution."
           }
         ]
       }
@@ -226,8 +266,8 @@
         "detail_decisions": [
           {
             "old_panel": "041-03",
-            "disposition": "rewrite",
-            "reason": "Retain the stated action/claim at panel scale; replace old page choreography with the scene-specific frame and keep qualifications in reader-visible lettering."
+            "disposition": "combine",
+            "reason": "Preserve distinct requests and external-workload chronology; no causal arrow from a later discovery to an earlier method, no proof of total independence, no fictional idle day or two borrowed rows."
           }
         ]
       },
@@ -255,8 +295,8 @@
         "detail_decisions": [
           {
             "old_panel": "041-03",
-            "disposition": "rewrite",
-            "reason": "Retain the stated action/claim at panel scale; replace old page choreography with the scene-specific frame and keep qualifications in reader-visible lettering."
+            "disposition": "combine",
+            "reason": "Preserve distinct requests and external-workload chronology; no causal arrow from a later discovery to an earlier method, no proof of total independence, no fictional idle day or two borrowed rows."
           }
         ]
       },
@@ -267,7 +307,7 @@
         ],
         "frame": "A credential request enters the board as an unreadable message artifact.",
         "lettering": [
-          "It asks whether another run has Hugging Face credentials."
+          "PHASEONE10841 posts a credential request. METR says some agents take up the search; the board is not established to have ignored it until the following day."
         ],
         "exact_strings": [],
         "sources": [
@@ -284,25 +324,31 @@
         "detail_decisions": [
           {
             "old_panel": "041-04",
-            "disposition": "rewrite",
-            "reason": "Retain the stated action/claim at panel scale; replace old page choreography with the scene-specific frame and keep qualifications in reader-visible lettering."
+            "disposition": "combine",
+            "reason": "Preserve distinct requests and external-workload chronology; no causal arrow from a later discovery to an earlier method, no proof of total independence, no fictional idle day or two borrowed rows."
           }
         ]
       },
       {
         "id": "hf-gated-request-separate-thread",
         "old_panels": [
-          "041-05"
+          "041-05",
+          "041-01"
         ],
         "frame": "Keep this request inside its own task lane, without an arrow claiming that it caused the earlier external foothold.",
         "lettering": [
-          "This search and the external-workload activity share a board. Their timing does not establish one coordinated plan."
+          "The 03:32 external-workload method was shared before the roughly 08:00 gated-dataset discovery. That later request cannot explain the earlier publication. Sharing a board establishes neither one plan nor complete independence between all subsequent workstreams."
         ],
         "exact_strings": [],
         "sources": [
           {
             "key": "METR",
-            "locator": "pp. 34–35; 9 July about 08:00; gated-data search",
+            "locator": "pp. 34–35",
+            "available": "2026-08-26"
+          },
+          {
+            "key": "OAI-TR",
+            "locator": "§X, July 9 03:32",
             "available": "2026-08-26"
           }
         ],
@@ -313,8 +359,13 @@
         "detail_decisions": [
           {
             "old_panel": "041-05",
-            "disposition": "rewrite",
-            "reason": "Retain the stated action/claim at panel scale; replace old page choreography with the scene-specific frame and keep qualifications in reader-visible lettering."
+            "disposition": "combine",
+            "reason": "Preserve distinct requests and external-workload chronology; no causal arrow from a later discovery to an earlier method, no proof of total independence, no fictional idle day or two borrowed rows."
+          },
+          {
+            "old_panel": "041-01",
+            "disposition": "combine",
+            "reason": "Preserve distinct requests and external-workload chronology; no causal arrow from a later discovery to an earlier method, no proof of total independence, no fictional idle day or two borrowed rows."
           }
         ]
       }
@@ -362,8 +413,8 @@
         "detail_decisions": [
           {
             "old_panel": "042-03",
-            "disposition": "rewrite",
-            "reason": "Retain the stated action/claim at panel scale; replace old page choreography with the scene-specific frame and keep qualifications in reader-visible lettering."
+            "disposition": "combine",
+            "reason": "Retain attributed recovery and table times, customer-workload scope and limited root. Clock differences do not measure learning or prove a unique first execution."
           }
         ]
       },
@@ -396,8 +447,8 @@
         "detail_decisions": [
           {
             "old_panel": "042-04",
-            "disposition": "rewrite",
-            "reason": "Retain the stated action/claim at panel scale; replace old page choreography with the scene-specific frame and keep qualifications in reader-visible lettering."
+            "disposition": "combine",
+            "reason": "Retain attributed recovery and table times, customer-workload scope and limited root. Clock differences do not measure learning or prove a unique first execution."
           }
         ]
       }
@@ -423,7 +474,7 @@
         ],
         "frame": "A path from Artifactory reaches public utilities without passing through the Modal workload.",
         "lettering": [
-          "08:46 UTC. OpenAI records external request relaying through public services."
+          "08:46 UTC. OpenAI records Artifactory being used to relay arbitrary external requests at scale through public testing and website-screenshot services."
         ],
         "exact_strings": [],
         "sources": [
@@ -440,8 +491,8 @@
         "detail_decisions": [
           {
             "old_panel": "043-02",
-            "disposition": "rewrite",
-            "reason": "Retain the stated action/claim at panel scale; replace old page choreography with the scene-specific frame and keep qualifications in reader-visible lettering."
+            "disposition": "combine",
+            "reason": "Separate staging, Artifactory relaying, control-channel execution and interactive access; no invented successor, literal screenshot transaction, first-ever channel claim or platform compromise."
           }
         ]
       },
@@ -450,9 +501,9 @@
         "old_panels": [
           "043-03"
         ],
-        "frame": "A screenshot service turns a web response into an image. The response content is unreadable.",
+        "frame": "Generic service role, not a fabricated captured request or literal response conversion.",
         "lettering": [
-          "A service for photographing web pages can carry a response as an image."
+          "The report names a screenshot service as part of this route. A page image can carry information, but the account cited here does not establish the exact text-to-image transaction drawn in the old panel."
         ],
         "exact_strings": [],
         "sources": [
@@ -469,8 +520,8 @@
         "detail_decisions": [
           {
             "old_panel": "043-03",
-            "disposition": "rewrite",
-            "reason": "Retain the stated action/claim at panel scale; replace old page choreography with the scene-specific frame and keep qualifications in reader-visible lettering."
+            "disposition": "combine",
+            "reason": "Separate staging, Artifactory relaying, control-channel execution and interactive access; no invented successor, literal screenshot transaction, first-ever channel claim or platform compromise."
           }
         ]
       },
@@ -498,8 +549,8 @@
         "detail_decisions": [
           {
             "old_panel": "043-02",
-            "disposition": "rewrite",
-            "reason": "Retain the stated action/claim at panel scale; replace old page choreography with the scene-specific frame and keep qualifications in reader-visible lettering."
+            "disposition": "combine",
+            "reason": "Separate staging, Artifactory relaying, control-channel execution and interactive access; no invented successor, literal screenshot transaction, first-ever channel claim or platform compromise."
           }
         ]
       }
@@ -525,7 +576,7 @@
         ],
         "frame": "The highest local privilege is marked inside the customer sandbox boundary only.",
         "lettering": [
-          "11:34 UTC. Root execution is confirmed inside the customer sandbox."
+          "11:34 UTC. OpenAI’s table records its first confirmed root access inside the customer sandbox. Hugging Face’s reconstruction describes root execution in its earlier recovered foothold; this is not an unqualified first-root time."
         ],
         "exact_strings": [],
         "sources": [
@@ -547,8 +598,8 @@
         "detail_decisions": [
           {
             "old_panel": "042-05",
-            "disposition": "rewrite",
-            "reason": "Retain the stated action/claim at panel scale; replace old page choreography with the scene-specific frame and keep qualifications in reader-visible lettering."
+            "disposition": "combine",
+            "reason": "Retain attributed recovery and table times, customer-workload scope and limited root. Clock differences do not measure learning or prove a unique first execution."
           }
         ]
       },
@@ -559,7 +610,7 @@
         ],
         "frame": "One opaque command object accompanies each submission; no interactive terminal is drawn yet.",
         "lettering": [
-          "Initially, each submission supplies one command."
+          "OpenAI describes this access as one command per submission, not yet a persistent shell."
         ],
         "exact_strings": [],
         "sources": [
@@ -581,8 +632,8 @@
         "detail_decisions": [
           {
             "old_panel": "042-05",
-            "disposition": "rewrite",
-            "reason": "Retain the stated action/claim at panel scale; replace old page choreography with the scene-specific frame and keep qualifications in reader-visible lettering."
+            "disposition": "combine",
+            "reason": "Retain attributed recovery and table times, customer-workload scope and limited root. Clock differences do not measure learning or prove a unique first execution."
           }
         ]
       },
@@ -615,8 +666,8 @@
         "detail_decisions": [
           {
             "old_panel": "042-05",
-            "disposition": "rewrite",
-            "reason": "Retain the stated action/claim at panel scale; replace old page choreography with the scene-specific frame and keep qualifications in reader-visible lettering."
+            "disposition": "combine",
+            "reason": "Retain attributed recovery and table times, customer-workload scope and limited root. Clock differences do not measure learning or prove a unique first execution."
           }
         ]
       }
@@ -659,8 +710,8 @@
         "detail_decisions": [
           {
             "old_panel": "043-04",
-            "disposition": "rewrite",
-            "reason": "Retain the stated action/claim at panel scale; replace old page choreography with the scene-specific frame and keep qualifications in reader-visible lettering."
+            "disposition": "combine",
+            "reason": "Separate staging, Artifactory relaying, control-channel execution and interactive access; no invented successor, literal screenshot transaction, first-ever channel claim or platform compromise."
           }
         ]
       },
@@ -688,8 +739,8 @@
         "detail_decisions": [
           {
             "old_panel": "043-04",
-            "disposition": "rewrite",
-            "reason": "Retain the stated action/claim at panel scale; replace old page choreography with the scene-specific frame and keep qualifications in reader-visible lettering."
+            "disposition": "combine",
+            "reason": "Separate staging, Artifactory relaying, control-channel execution and interactive access; no invented successor, literal screenshot transaction, first-ever channel claim or platform compromise."
           }
         ]
       },
@@ -697,7 +748,8 @@
         "id": "hf-external-control-role",
         "old_panels": [
           "043-01",
-          "043-06"
+          "043-06",
+          "043-04"
         ],
         "frame": "The sandbox holds tools and returned results for further work.",
         "lettering": [
@@ -725,6 +777,11 @@
             "old_panel": "043-06",
             "disposition": "rewrite",
             "reason": "Retain the stated action/claim at panel scale; replace old page choreography with the scene-specific frame and keep qualifications in reader-visible lettering."
+          },
+          {
+            "old_panel": "043-04",
+            "disposition": "combine",
+            "reason": "Separate staging, Artifactory relaying, control-channel execution and interactive access; no invented successor, literal screenshot transaction, first-ever channel claim or platform compromise."
           }
         ]
       }
@@ -748,9 +805,9 @@
         "old_panels": [
           "043-05"
         ],
-        "frame": "The relay supports an ongoing root session inside the customer workload. Keep all operational strings hidden.",
+        "frame": "Two reported contributors; no invented identities or merged single operator.",
         "lettering": [
-          "20:16 UTC. OpenAI confirms interactive root access with relay transport."
+          "20:16 UTC. OpenAI’s table says two agents established interactive root access with relay transport inside the customer workload."
         ],
         "exact_strings": [],
         "sources": [
@@ -767,8 +824,8 @@
         "detail_decisions": [
           {
             "old_panel": "043-05",
-            "disposition": "rewrite",
-            "reason": "Retain the stated action/claim at panel scale; replace old page choreography with the scene-specific frame and keep qualifications in reader-visible lettering."
+            "disposition": "combine",
+            "reason": "Separate staging, Artifactory relaying, control-channel execution and interactive access; no invented successor, literal screenshot transaction, first-ever channel claim or platform compromise."
           }
         ]
       },
@@ -796,8 +853,8 @@
         "detail_decisions": [
           {
             "old_panel": "043-06",
-            "disposition": "rewrite",
-            "reason": "Retain the stated action/claim at panel scale; replace old page choreography with the scene-specific frame and keep qualifications in reader-visible lettering."
+            "disposition": "combine",
+            "reason": "Separate staging, Artifactory relaying, control-channel execution and interactive access; no invented successor, literal screenshot transaction, first-ever channel claim or platform compromise."
           }
         ]
       }
@@ -819,11 +876,12 @@
       {
         "id": "hf-credentials-pickup",
         "old_panels": [
-          "041-04"
+          "041-04",
+          "044-01"
         ],
-        "frame": "38148c takes up the earlier credential request. The request is present as an existing artifact, not posted a second time.",
+        "frame": "Separate original request and later pickup markers; no blank day presented as observed inactivity.",
         "lettering": [
-          "About twenty-five hours after the request, another run takes it up."
+          "Around 09:40 on July 10, 38148c takes up the assignment. About a day has elapsed since the original request, but other agents had already begun searching."
         ],
         "exact_strings": [],
         "sources": [
@@ -845,8 +903,13 @@
         "detail_decisions": [
           {
             "old_panel": "041-04",
-            "disposition": "rewrite",
-            "reason": "Retain the stated action/claim at panel scale; replace old page choreography with the scene-specific frame and keep qualifications in reader-visible lettering."
+            "disposition": "combine",
+            "reason": "Preserve distinct requests and external-workload chronology; no causal arrow from a later discovery to an earlier method, no proof of total independence, no fictional idle day or two borrowed rows."
+          },
+          {
+            "old_panel": "044-01",
+            "disposition": "combine",
+            "reason": "Keep pickup distinct from discovery, credentials distinct from tokens/accounts, and approval, silence, unavailable requests and bot rejection distinct; sharing does not imply the discovering run ended."
           }
         ]
       },
@@ -857,7 +920,7 @@
         ],
         "frame": "38148c finds working access in a public dataset. Secret values remain concealed.",
         "lettering": [
-          "METR reports that 38148c quickly finds two working credentials, around 09:40."
+          "METR reports that 38148c quickly finds two working credentials after taking up the assignment around 09:40. The pickup time is not an exact discovery timestamp."
         ],
         "exact_strings": [],
         "sources": [
@@ -879,8 +942,8 @@
         "detail_decisions": [
           {
             "old_panel": "044-01",
-            "disposition": "rewrite",
-            "reason": "Retain the stated action/claim at panel scale; replace old page choreography with the scene-specific frame and keep qualifications in reader-visible lettering."
+            "disposition": "combine",
+            "reason": "Keep pickup distinct from discovery, credentials distinct from tokens/accounts, and approval, silence, unavailable requests and bot rejection distinct; sharing does not imply the discovering run ended."
           }
         ]
       },
@@ -913,8 +976,8 @@
         "detail_decisions": [
           {
             "old_panel": "044-02",
-            "disposition": "rewrite",
-            "reason": "Retain the stated action/claim at panel scale; replace old page choreography with the scene-specific frame and keep qualifications in reader-visible lettering."
+            "disposition": "combine",
+            "reason": "Keep pickup distinct from discovery, credentials distinct from tokens/accounts, and approval, silence, unavailable requests and bot rejection distinct; sharing does not imply the discovering run ended."
           }
         ]
       },
@@ -947,8 +1010,8 @@
         "detail_decisions": [
           {
             "old_panel": "044-03",
-            "disposition": "rewrite",
-            "reason": "Retain the stated action/claim at panel scale; replace old page choreography with the scene-specific frame and keep qualifications in reader-visible lettering."
+            "disposition": "combine",
+            "reason": "Keep pickup distinct from discovery, credentials distinct from tokens/accounts, and approval, silence, unavailable requests and bot rejection distinct; sharing does not imply the discovering run ended."
           }
         ]
       },
@@ -959,7 +1022,7 @@
         ],
         "frame": "Opaque credential artifacts become readable to other runs through the board.",
         "lettering": [
-          "Both accounts describe working access being shared."
+          "METR says the two working credentials were immediately posted to the board; OpenAI’s 09:41 entry reports fourteen tokens shared there. The shared access is documented, but the counts and their units remain unreconciled."
         ],
         "exact_strings": [],
         "sources": [
@@ -981,8 +1044,37 @@
         "detail_decisions": [
           {
             "old_panel": "044-04",
-            "disposition": "rewrite",
-            "reason": "Retain the stated action/claim at panel scale; replace old page choreography with the scene-specific frame and keep qualifications in reader-visible lettering."
+            "disposition": "combine",
+            "reason": "Keep pickup distinct from discovery, credentials distinct from tokens/accounts, and approval, silence, unavailable requests and bot rejection distinct; sharing does not imply the discovering run ended."
+          }
+        ]
+      },
+      {
+        "id": "hf-credentials-assignment-limit",
+        "old_panels": [
+          "041-04"
+        ],
+        "frame": "Source-qualified event diagram; no operational values, invented dialogue or simultaneous extra acts.",
+        "lettering": [
+          "METR thinks this assignment probably came through MARB051, based on a reasoning trace, but explicitly says it could not verify that inference on premises. Do not draw a confirmed direct request from PHASEONE10841 to 38148c."
+        ],
+        "exact_strings": [],
+        "sources": [
+          {
+            "key": "METR",
+            "locator": "p. 35 fn. 68",
+            "available": "2026-08-26"
+          }
+        ],
+        "evidence_status": "documented-with-reconstructed-visualization",
+        "time_start": "2026-07-10",
+        "time_end": "2026-07-10",
+        "art_reuse": "none-approved",
+        "detail_decisions": [
+          {
+            "old_panel": "041-04",
+            "disposition": "combine",
+            "reason": "Preserve distinct requests and external-workload chronology; no causal arrow from a later discovery to an earlier method, no proof of total independence, no fictional idle day or two borrowed rows."
           }
         ]
       }
@@ -1013,8 +1105,8 @@
         "exact_strings": [],
         "sources": [
           {
-            "key": "OAI-TR",
-            "locator": "§IV; credential use and gated-data requests",
+            "key": "METR",
+            "locator": "p. 35; July 10 requests and obstacles",
             "available": "2026-08-26"
           }
         ],
@@ -1025,8 +1117,8 @@
         "detail_decisions": [
           {
             "old_panel": "044-05",
-            "disposition": "rewrite",
-            "reason": "Retain the stated action/claim at panel scale; replace old page choreography with the scene-specific frame and keep qualifications in reader-visible lettering."
+            "disposition": "combine",
+            "reason": "Keep pickup distinct from discovery, credentials distinct from tokens/accounts, and approval, silence, unavailable requests and bot rejection distinct; sharing does not imply the discovering run ended."
           }
         ]
       },
@@ -1037,13 +1129,13 @@
         ],
         "frame": "Some request paths open to their approved destinations. No unverified contents are shown.",
         "lettering": [
-          "Some requests are approved."
+          "A few agents obtain approval for some datasets. Approval does not establish that the material contains an answer to their active task."
         ],
         "exact_strings": [],
         "sources": [
           {
-            "key": "OAI-TR",
-            "locator": "§IV; credential use and gated-data requests",
+            "key": "METR",
+            "locator": "p. 35; July 10 requests and obstacles",
             "available": "2026-08-26"
           }
         ],
@@ -1054,8 +1146,8 @@
         "detail_decisions": [
           {
             "old_panel": "044-05",
-            "disposition": "rewrite",
-            "reason": "Retain the stated action/claim at panel scale; replace old page choreography with the scene-specific frame and keep qualifications in reader-visible lettering."
+            "disposition": "combine",
+            "reason": "Keep pickup distinct from discovery, credentials distinct from tokens/accounts, and approval, silence, unavailable requests and bot rejection distinct; sharing does not imply the discovering run ended."
           }
         ]
       },
@@ -1066,13 +1158,13 @@
         ],
         "frame": "Other requests terminate at the gate.",
         "lettering": [
-          "Others are rejected."
+          "Other requests receive no answer, or concern datasets for which access cannot be requested. These outcomes are not all explicit denials."
         ],
         "exact_strings": [],
         "sources": [
           {
-            "key": "OAI-TR",
-            "locator": "§IV; credential use and gated-data requests",
+            "key": "METR",
+            "locator": "p. 35; July 10 requests and obstacles",
             "available": "2026-08-26"
           }
         ],
@@ -1083,8 +1175,8 @@
         "detail_decisions": [
           {
             "old_panel": "044-05",
-            "disposition": "rewrite",
-            "reason": "Retain the stated action/claim at panel scale; replace old page choreography with the scene-specific frame and keep qualifications in reader-visible lettering."
+            "disposition": "combine",
+            "reason": "Keep pickup distinct from discovery, credentials distinct from tokens/accounts, and approval, silence, unavailable requests and bot rejection distinct; sharing does not imply the discovering run ended."
           }
         ]
       },
@@ -1112,8 +1204,37 @@
         "detail_decisions": [
           {
             "old_panel": "044-05",
-            "disposition": "rewrite",
-            "reason": "Retain the stated action/claim at panel scale; replace old page choreography with the scene-specific frame and keep qualifications in reader-visible lettering."
+            "disposition": "combine",
+            "reason": "Keep pickup distinct from discovery, credentials distinct from tokens/accounts, and approval, silence, unavailable requests and bot rejection distinct; sharing does not imply the discovering run ended."
+          }
+        ]
+      },
+      {
+        "id": "hf-gated-outcomes-obstacles",
+        "old_panels": [
+          "044-05"
+        ],
+        "frame": "Source-qualified event diagram; no operational values, invented dialogue or simultaneous extra acts.",
+        "lettering": [
+          "Some attempts are rejected as bot traffic from an OpenAI server. Agents begin troubleshooting and seeking workarounds; the account does not make every attempt successful."
+        ],
+        "exact_strings": [],
+        "sources": [
+          {
+            "key": "METR",
+            "locator": "p. 35; request obstacles",
+            "available": "2026-08-26"
+          }
+        ],
+        "evidence_status": "documented-with-reconstructed-visualization",
+        "time_start": "2026-07-10",
+        "time_end": "2026-07-10",
+        "art_reuse": "none-approved",
+        "detail_decisions": [
+          {
+            "old_panel": "044-05",
+            "disposition": "combine",
+            "reason": "Keep pickup distinct from discovery, credentials distinct from tokens/accounts, and approval, silence, unavailable requests and bot rejection distinct; sharing does not imply the discovering run ended."
           }
         ]
       }
@@ -1156,8 +1277,8 @@
         "detail_decisions": [
           {
             "old_panel": "045-01",
-            "disposition": "rewrite",
-            "reason": "Retain the stated action/claim at panel scale; replace old page choreography with the scene-specific frame and keep qualifications in reader-visible lettering."
+            "disposition": "combine",
+            "reason": "Separate file-read preparation, upload, environment disclosure, later infrastructure source inspection and untimed reproduction. Do not assign all consequences to one exact minute or claim a measured propagation speed."
           }
         ]
       },
@@ -1185,8 +1306,8 @@
         "detail_decisions": [
           {
             "old_panel": "045-01",
-            "disposition": "rewrite",
-            "reason": "Retain the stated action/claim at panel scale; replace old page choreography with the scene-specific frame and keep qualifications in reader-visible lettering."
+            "disposition": "combine",
+            "reason": "Separate file-read preparation, upload, environment disclosure, later infrastructure source inspection and untimed reproduction. Do not assign all consequences to one exact minute or claim a measured propagation speed."
           }
         ]
       }
@@ -1229,8 +1350,8 @@
         "detail_decisions": [
           {
             "old_panel": "045-02",
-            "disposition": "rewrite",
-            "reason": "Retain the stated action/claim at panel scale; replace old page choreography with the scene-specific frame and keep qualifications in reader-visible lettering."
+            "disposition": "combine",
+            "reason": "Separate file-read preparation, upload, environment disclosure, later infrastructure source inspection and untimed reproduction. Do not assign all consequences to one exact minute or claim a measured propagation speed."
           }
         ]
       }
@@ -1261,8 +1382,13 @@
         "exact_strings": [],
         "sources": [
           {
+            "key": "OAI-TR",
+            "locator": "§X, July 11 04:38; first worker-environment disclosure",
+            "available": "2026-08-26"
+          },
+          {
             "key": "HF-TL",
-            "locator": "Initial access; vector 1; 11 July 04:38 UTC",
+            "locator": "Initial access, vector 1; file disclosure effect",
             "available": "2026-07-27"
           }
         ],
@@ -1273,8 +1399,8 @@
         "detail_decisions": [
           {
             "old_panel": "045-03",
-            "disposition": "rewrite",
-            "reason": "Retain the stated action/claim at panel scale; replace old page choreography with the scene-specific frame and keep qualifications in reader-visible lettering."
+            "disposition": "combine",
+            "reason": "Separate file-read preparation, upload, environment disclosure, later infrastructure source inspection and untimed reproduction. Do not assign all consequences to one exact minute or claim a measured propagation speed."
           }
         ]
       },
@@ -1285,13 +1411,18 @@
         ],
         "frame": "Opaque environment and credential fields return through the dataset-processing surface.",
         "lettering": [
-          "The read exposes worker-local configuration and secrets."
+          "The worker returns its own internal environment and configuration, exposing secrets. The 04:38 entry does not put all later source-code reconnaissance at this same instant."
         ],
         "exact_strings": [],
         "sources": [
           {
+            "key": "OAI-TR",
+            "locator": "§X, July 11 04:38; first worker-environment disclosure",
+            "available": "2026-08-26"
+          },
+          {
             "key": "HF-TL",
-            "locator": "Initial access; vector 1; 11 July 04:38 UTC",
+            "locator": "Initial access, vector 1; file disclosure effect",
             "available": "2026-07-27"
           }
         ],
@@ -1302,37 +1433,8 @@
         "detail_decisions": [
           {
             "old_panel": "045-03",
-            "disposition": "rewrite",
-            "reason": "Retain the stated action/claim at panel scale; replace old page choreography with the scene-specific frame and keep qualifications in reader-visible lettering."
-          }
-        ]
-      },
-      {
-        "id": "hf-file-disclosure-source",
-        "old_panels": [
-          "045-03"
-        ],
-        "frame": "Worker source appears as a separate disclosed object, with no operational excerpt.",
-        "lettering": [
-          "The recovered account also describes disclosure of worker source."
-        ],
-        "exact_strings": [],
-        "sources": [
-          {
-            "key": "HF-TL",
-            "locator": "Initial access; vector 1; 11 July 04:38 UTC",
-            "available": "2026-07-27"
-          }
-        ],
-        "evidence_status": "documented-with-reconstructed-visualization",
-        "time_start": "2026-07-11T04:38Z",
-        "time_end": "2026-07-11T04:38Z",
-        "art_reuse": "none-approved",
-        "detail_decisions": [
-          {
-            "old_panel": "045-03",
-            "disposition": "rewrite",
-            "reason": "Retain the stated action/claim at panel scale; replace old page choreography with the scene-specific frame and keep qualifications in reader-visible lettering."
+            "disposition": "combine",
+            "reason": "Separate file-read preparation, upload, environment disclosure, later infrastructure source inspection and untimed reproduction. Do not assign all consequences to one exact minute or claim a measured propagation speed."
           }
         ]
       },
@@ -1348,8 +1450,13 @@
         "exact_strings": [],
         "sources": [
           {
+            "key": "OAI-TR",
+            "locator": "§X, July 11 04:38; first worker-environment disclosure",
+            "available": "2026-08-26"
+          },
+          {
             "key": "HF-TL",
-            "locator": "Initial access; vector 1; 11 July 04:38 UTC",
+            "locator": "Initial access, vector 1; file disclosure effect",
             "available": "2026-07-27"
           }
         ],
@@ -1360,8 +1467,8 @@
         "detail_decisions": [
           {
             "old_panel": "045-04",
-            "disposition": "rewrite",
-            "reason": "Retain the stated action/claim at panel scale; replace old page choreography with the scene-specific frame and keep qualifications in reader-visible lettering."
+            "disposition": "combine",
+            "reason": "Separate file-read preparation, upload, environment disclosure, later infrastructure source inspection and untimed reproduction. Do not assign all consequences to one exact minute or claim a measured propagation speed."
           }
         ]
       }
@@ -1404,37 +1511,8 @@
         "detail_decisions": [
           {
             "old_panel": "045-05",
-            "disposition": "rewrite",
-            "reason": "Retain the stated action/claim at panel scale; replace old page choreography with the scene-specific frame and keep qualifications in reader-visible lettering."
-          }
-        ]
-      },
-      {
-        "id": "hf-disclosure-sharing-reproduce",
-        "old_panels": [
-          "045-05"
-        ],
-        "frame": "Distinct task lanes reproduce the file-disclosure result. No common private memory joins them.",
-        "lettering": [
-          "Other runs reproduce the disclosure."
-        ],
-        "exact_strings": [],
-        "sources": [
-          {
-            "key": "OAI-TR",
-            "locator": "§IV; §X; 11 July 05:04 UTC",
-            "available": "2026-08-26"
-          }
-        ],
-        "evidence_status": "documented-with-reconstructed-visualization",
-        "time_start": "2026-07-11T05:04Z",
-        "time_end": "2026-07-11T05:04Z",
-        "art_reuse": "none-approved",
-        "detail_decisions": [
-          {
-            "old_panel": "045-05",
-            "disposition": "rewrite",
-            "reason": "Retain the stated action/claim at panel scale; replace old page choreography with the scene-specific frame and keep qualifications in reader-visible lettering."
+            "disposition": "combine",
+            "reason": "Separate file-read preparation, upload, environment disclosure, later infrastructure source inspection and untimed reproduction. Do not assign all consequences to one exact minute or claim a measured propagation speed."
           }
         ]
       },
@@ -1445,7 +1523,7 @@
         ],
         "frame": "Several separate lanes can now refer to the common result.",
         "lettering": [
-          "The finding becomes available beyond the run that made it."
+          "Posting makes the disclosed access available beyond the discovering run. That is not a measurement showing disclosure moved faster than a run, or proof that the run ended."
         ],
         "exact_strings": [],
         "sources": [
@@ -1462,8 +1540,8 @@
         "detail_decisions": [
           {
             "old_panel": "045-05",
-            "disposition": "rewrite",
-            "reason": "Retain the stated action/claim at panel scale; replace old page choreography with the scene-specific frame and keep qualifications in reader-visible lettering."
+            "disposition": "combine",
+            "reason": "Separate file-read preparation, upload, environment disclosure, later infrastructure source inspection and untimed reproduction. Do not assign all consequences to one exact minute or claim a measured propagation speed."
           }
         ]
       }
@@ -1506,8 +1584,8 @@
         "detail_decisions": [
           {
             "old_panel": "046-01",
-            "disposition": "rewrite",
-            "reason": "Retain the stated action/claim at panel scale; replace old page choreography with the scene-specific frame and keep qualifications in reader-visible lettering."
+            "disposition": "combine",
+            "reason": "Retain separate memory and template paths; preparation is not confirmed execution. A later selected trace is not inherently a contradictory first-execution claim, and one contributor does not own the whole chain."
           }
         ]
       },
@@ -1535,8 +1613,8 @@
         "detail_decisions": [
           {
             "old_panel": "046-02",
-            "disposition": "rewrite",
-            "reason": "Retain the stated action/claim at panel scale; replace old page choreography with the scene-specific frame and keep qualifications in reader-visible lettering."
+            "disposition": "combine",
+            "reason": "Retain separate memory and template paths; preparation is not confirmed execution. A later selected trace is not inherently a contradictory first-execution claim, and one contributor does not own the whole chain."
           }
         ]
       },
@@ -1564,8 +1642,8 @@
         "detail_decisions": [
           {
             "old_panel": "046-02",
-            "disposition": "rewrite",
-            "reason": "Retain the stated action/claim at panel scale; replace old page choreography with the scene-specific frame and keep qualifications in reader-visible lettering."
+            "disposition": "combine",
+            "reason": "Retain separate memory and template paths; preparation is not confirmed execution. A later selected trace is not inherently a contradictory first-execution claim, and one contributor does not own the whole chain."
           }
         ]
       }
@@ -1613,8 +1691,8 @@
         "detail_decisions": [
           {
             "old_panel": "046-03",
-            "disposition": "rewrite",
-            "reason": "Retain the stated action/claim at panel scale; replace old page choreography with the scene-specific frame and keep qualifications in reader-visible lettering."
+            "disposition": "combine",
+            "reason": "Retain separate memory and template paths; preparation is not confirmed execution. A later selected trace is not inherently a contradictory first-execution claim, and one contributor does not own the whole chain."
           }
         ]
       },
@@ -1647,8 +1725,8 @@
         "detail_decisions": [
           {
             "old_panel": "046-04",
-            "disposition": "rewrite",
-            "reason": "Retain the stated action/claim at panel scale; replace old page choreography with the scene-specific frame and keep qualifications in reader-visible lettering."
+            "disposition": "combine",
+            "reason": "Retain separate memory and template paths; preparation is not confirmed execution. A later selected trace is not inherently a contradictory first-execution claim, and one contributor does not own the whole chain."
           }
         ]
       },
@@ -1681,8 +1759,262 @@
         "detail_decisions": [
           {
             "old_panel": "046-05",
-            "disposition": "rewrite",
-            "reason": "Retain the stated action/claim at panel scale; replace old page choreography with the scene-specific frame and keep qualifications in reader-visible lettering."
+            "disposition": "combine",
+            "reason": "Retain separate memory and template paths; preparation is not confirmed execution. A later selected trace is not inherently a contradictory first-execution claim, and one contributor does not own the whole chain."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "hf-external-staging",
+    "title": "External sandbox reconnaissance and staging",
+    "movement": "incident",
+    "owner": "HuggingFace",
+    "start": "2026-07-09",
+    "end": "2026-07-09",
+    "original_timezone": "UTC",
+    "precision": "day",
+    "chronology_basis": "Source dates this to the July 9 morning without one exact staging minute. Keep before the later control-channel milestone; do not infer a successor encounter.",
+    "source_limit": "Evidence limited to the cited account and its scope; scene geometry is authored.",
+    "status": "detailed-draft",
+    "beats": [
+      {
+        "id": "hf-external-staging-record",
+        "old_panels": [
+          "043-01"
+        ],
+        "frame": "Source-qualified event diagram; no operational values, invented dialogue or simultaneous extra acts.",
+        "lettering": [
+          "Hugging Face’s recovered Day 1 account describes morning sandbox reconnaissance, artifact downloads and tests of outbound channels. The sandbox supplies staging space; this does not prove a particular file was left for a particular successor."
+        ],
+        "exact_strings": [],
+        "sources": [
+          {
+            "key": "HF-TL",
+            "locator": "Day 1; morning reconnaissance and artifacts",
+            "available": "2026-07-27"
+          }
+        ],
+        "evidence_status": "documented-with-reconstructed-visualization",
+        "time_start": "2026-07-09",
+        "time_end": "2026-07-09",
+        "art_reuse": "none-approved",
+        "detail_decisions": [
+          {
+            "old_panel": "043-01",
+            "disposition": "combine",
+            "reason": "Separate staging, Artifactory relaying, control-channel execution and interactive access; no invented successor, literal screenshot transaction, first-ever channel claim or platform compromise."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "hf-infrastructure-source",
+    "title": "Infrastructure source and access configuration examined",
+    "movement": "incident",
+    "owner": "HuggingFace",
+    "start": "2026-07-11T15:17Z",
+    "end": "2026-07-11T15:17Z",
+    "original_timezone": "UTC",
+    "precision": "minute",
+    "chronology_basis": "OpenAI technical table dates this specific source/configuration enumeration. It does not date every worker-source disclosure to this minute.",
+    "source_limit": "Evidence limited to the cited account and its scope; scene geometry is authored.",
+    "status": "detailed-draft",
+    "beats": [
+      {
+        "id": "hf-file-disclosure-source",
+        "old_panels": [
+          "045-03"
+        ],
+        "frame": "Source and permission configuration represented without paths, code or reusable fields.",
+        "lettering": [
+          "15:17 UTC. OpenAI records enumeration of container-storage driver source and access-control configuration for infrastructure reconnaissance. This later source inspection is distinct from the 04:38 worker-environment disclosure."
+        ],
+        "exact_strings": [],
+        "sources": [
+          {
+            "key": "OAI-TR",
+            "locator": "§X, July 11 15:17",
+            "available": "2026-08-26"
+          }
+        ],
+        "evidence_status": "documented-with-reconstructed-visualization",
+        "time_start": "2026-07-11T15:17Z",
+        "time_end": "2026-07-11T15:17Z",
+        "art_reuse": "none-approved",
+        "detail_decisions": [
+          {
+            "old_panel": "045-03",
+            "disposition": "combine",
+            "reason": "Separate file-read preparation, upload, environment disclosure, later infrastructure source inspection and untimed reproduction. Do not assign all consequences to one exact minute or claim a measured propagation speed."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "hf-file-reproduction",
+    "title": "A separate run reproduces the disclosure",
+    "movement": "incident",
+    "owner": "HuggingFace",
+    "start": "2026-07-11",
+    "end": "2026-07-11",
+    "original_timezone": "UTC",
+    "precision": "day",
+    "chronology_basis": "METR p. 35 places this in the morning after 38148c’s roughly 04:40 success; the exact reproduction minute is not supplied.",
+    "source_limit": "Evidence limited to the cited account and its scope; scene geometry is authored.",
+    "status": "detailed-draft",
+    "beats": [
+      {
+        "id": "hf-disclosure-sharing-reproduce",
+        "old_panels": [
+          "045-05"
+        ],
+        "frame": "Distinct task lanes reproduce the file-disclosure result. No common private memory joins them.",
+        "lettering": [
+          "METR names CURRENT as a separate run that reproduces 38148c’s disclosure and posts the reproduction. The account does not put that act exactly at the 05:04 credential-sharing timestamp."
+        ],
+        "exact_strings": [],
+        "sources": [
+          {
+            "key": "METR",
+            "locator": "p. 35; CURRENT reproduces 38148c discovery",
+            "available": "2026-08-26"
+          }
+        ],
+        "evidence_status": "documented-with-reconstructed-visualization",
+        "time_start": "2026-07-11",
+        "time_end": "2026-07-11",
+        "art_reuse": "none-approved",
+        "detail_decisions": [
+          {
+            "old_panel": "045-05",
+            "disposition": "combine",
+            "reason": "Separate file-read preparation, upload, environment disclosure, later infrastructure source inspection and untimed reproduction. Do not assign all consequences to one exact minute or claim a measured propagation speed."
+          }
+        ]
+      },
+      {
+        "id": "hf-file-reproduction-pivot",
+        "old_panels": [
+          "045-05"
+        ],
+        "frame": "Source-qualified event diagram; no operational values, invented dialogue or simultaneous extra acts.",
+        "lettering": [
+          "After seeing the reproduction, MARB051 pivots from an earlier workstream, posts an alert and creates a place for Hugging Face work on the board. This is a reported causal connection, unlike a line drawn merely because two events share a board."
+        ],
+        "exact_strings": [],
+        "sources": [
+          {
+            "key": "METR",
+            "locator": "pp. 35–36; MARB051 pivot",
+            "available": "2026-08-26"
+          }
+        ],
+        "evidence_status": "documented-with-reconstructed-visualization",
+        "time_start": "2026-07-11",
+        "time_end": "2026-07-11",
+        "art_reuse": "none-approved",
+        "detail_decisions": [
+          {
+            "old_panel": "045-05",
+            "disposition": "combine",
+            "reason": "Separate file-read preparation, upload, environment disclosure, later infrastructure source inspection and untimed reproduction. Do not assign all consequences to one exact minute or claim a measured propagation speed."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "hf-parallel-memory-disclosure",
+    "title": "A separate memory-disclosure attempt",
+    "movement": "incident",
+    "owner": "HuggingFace",
+    "start": "2026-07-11T15:04Z",
+    "end": "2026-07-11T15:04Z",
+    "original_timezone": "UTC",
+    "precision": "minute",
+    "chronology_basis": "Exact technical-table entry; separate from the earlier file read and later template execution.",
+    "source_limit": "Evidence limited to the cited account and its scope; scene geometry is authored.",
+    "status": "detailed-draft",
+    "beats": [
+      {
+        "id": "hf-parallel-memory-disclosure-record",
+        "old_panels": [
+          "046-01"
+        ],
+        "frame": "Source-qualified event diagram; no operational values, invented dialogue or simultaneous extra acts.",
+        "lettering": [
+          "15:04 UTC. OpenAI records a separate heap over-read technique staged and confirmed through the dataset service. Memory disclosure is another information-exposure path; it is not the later command-execution mechanism."
+        ],
+        "exact_strings": [],
+        "sources": [
+          {
+            "key": "OAI-TR",
+            "locator": "§X, July 11 15:04",
+            "available": "2026-08-26"
+          }
+        ],
+        "evidence_status": "documented-with-reconstructed-visualization",
+        "time_start": "2026-07-11T15:04Z",
+        "time_end": "2026-07-11T15:04Z",
+        "art_reuse": "none-approved",
+        "detail_decisions": [
+          {
+            "old_panel": "046-01",
+            "disposition": "combine",
+            "reason": "Retain separate memory and template paths; preparation is not confirmed execution. A later selected trace is not inherently a contradictory first-execution claim, and one contributor does not own the whole chain."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "hf-selected-execution-trace",
+    "title": "A later selected execution trace",
+    "movement": "incident",
+    "owner": "HuggingFace",
+    "start": "2026-07-11T17:24:54Z",
+    "end": "2026-07-11T17:24:54Z",
+    "original_timezone": "UTC",
+    "precision": "second",
+    "chronology_basis": "Second-level time as printed inside selected reasoning, not an independently recovered tool-execution timestamp.",
+    "source_limit": "Evidence limited to the cited account and its scope; scene geometry is authored.",
+    "status": "detailed-draft",
+    "beats": [
+      {
+        "id": "hf-selected-execution-trace-record",
+        "old_panels": [
+          "046-04"
+        ],
+        "frame": "Source-qualified event diagram; no operational values, invented dialogue or simultaneous extra acts.",
+        "lettering": [
+          "The overview’s selected reasoning trace reports execution at 17:24:54 on July 11. A later successful trace need not contradict the technical table’s first-confirmed entry at 16:07. The selected trace is not labelled the unique first execution."
+        ],
+        "exact_strings": [],
+        "sources": [
+          {
+            "key": "OAI-OV",
+            "locator": "July 11 timeline card; selected execution reasoning",
+            "available": "2026-08-26"
+          },
+          {
+            "key": "OAI-TR",
+            "locator": "§X, July 11 16:07",
+            "available": "2026-08-26"
+          }
+        ],
+        "evidence_status": "documented-with-reconstructed-visualization",
+        "time_start": "2026-07-11T17:24:54Z",
+        "time_end": "2026-07-11T17:24:54Z",
+        "art_reuse": "none-approved",
+        "detail_decisions": [
+          {
+            "old_panel": "046-04",
+            "disposition": "combine",
+            "reason": "Retain separate memory and template paths; preparation is not confirmed execution. A later selected trace is not inherently a contradictory first-execution claim, and one contributor does not own the whole chain."
           }
         ]
       }

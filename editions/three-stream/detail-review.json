@@ -17762,5 +17762,1535 @@
         }
       }
     ]
+  },
+  {
+    "old_panel": "041-01",
+    "old_edition": "legacy-332b5ed63262",
+    "reviewed_on": "2026-09-13",
+    "status": "elements-reviewed",
+    "elements": [
+      {
+        "id": "legacy-041-01-detail-01",
+        "original_sha256": "533f6a2d9341d02e520d6645b7c94902277b3781682c14cf8edbfd82a9f94a90",
+        "disposition": "rewrite",
+        "beats": [
+          "hf-external-method-key",
+          "hf-gated-request-separate-thread"
+        ],
+        "reason": "Preserve distinct requests and external-workload chronology; no causal arrow from a later discovery to an earlier method, no proof of total independence, no fictional idle day or two borrowed rows. Reviewed frame element.",
+        "target_sha256": {
+          "hf-external-method-key": "2c6ba3f6f8ef068219027f2b8a42ddae9167e4a3e415fe0b8d614af212da43c5",
+          "hf-gated-request-separate-thread": "805e7929db3fe0b92f25b75f6d19e0fbd1af9188675fb05085f438f1232b289e"
+        }
+      },
+      {
+        "id": "legacy-041-01-detail-03",
+        "original_sha256": "e1b3e6380818cfa4d14ce93fd054a74cb8fc7d0b2c03a7c3c151d9b3b11f28a5",
+        "disposition": "rewrite",
+        "beats": [
+          "hf-external-method-key",
+          "hf-gated-request-separate-thread"
+        ],
+        "reason": "Preserve distinct requests and external-workload chronology; no causal arrow from a later discovery to an earlier method, no proof of total independence, no fictional idle day or two borrowed rows. Reviewed lettering element.",
+        "target_sha256": {
+          "hf-external-method-key": "2c6ba3f6f8ef068219027f2b8a42ddae9167e4a3e415fe0b8d614af212da43c5",
+          "hf-gated-request-separate-thread": "805e7929db3fe0b92f25b75f6d19e0fbd1af9188675fb05085f438f1232b289e"
+        }
+      }
+    ]
+  },
+  {
+    "old_panel": "041-02",
+    "old_edition": "legacy-332b5ed63262",
+    "reviewed_on": "2026-09-13",
+    "status": "elements-reviewed",
+    "elements": [
+      {
+        "id": "legacy-041-02-detail-01",
+        "original_sha256": "6f3ffb1f05d66575e9bc5d0800f1acc2b5544cc5f999f82234e966d796dc6c0e",
+        "disposition": "rewrite",
+        "beats": [
+          "hf-external-method-key",
+          "hf-external-method-method"
+        ],
+        "reason": "Preserve distinct requests and external-workload chronology; no causal arrow from a later discovery to an earlier method, no proof of total independence, no fictional idle day or two borrowed rows. Reviewed frame element.",
+        "target_sha256": {
+          "hf-external-method-key": "2c6ba3f6f8ef068219027f2b8a42ddae9167e4a3e415fe0b8d614af212da43c5",
+          "hf-external-method-method": "e3153e0e490adfa983ae5a11ee746b102eecc1662cb0f115c54709c64e686f20"
+        }
+      },
+      {
+        "id": "legacy-041-02-detail-02",
+        "original_sha256": "09fb22ddd52d73061f8234f89235bb75558556a0c592448d720319d6262d00cd",
+        "disposition": "rewrite",
+        "beats": [
+          "hf-external-method-key",
+          "hf-external-method-method"
+        ],
+        "reason": "Preserve distinct requests and external-workload chronology; no causal arrow from a later discovery to an earlier method, no proof of total independence, no fictional idle day or two borrowed rows. Reviewed action element.",
+        "target_sha256": {
+          "hf-external-method-key": "2c6ba3f6f8ef068219027f2b8a42ddae9167e4a3e415fe0b8d614af212da43c5",
+          "hf-external-method-method": "e3153e0e490adfa983ae5a11ee746b102eecc1662cb0f115c54709c64e686f20"
+        }
+      },
+      {
+        "id": "legacy-041-02-detail-03",
+        "original_sha256": "2399ef4ef97317510486fa51bdd0c634bdf75c086e12df4bb19b8a178a01ebc5",
+        "disposition": "rewrite",
+        "beats": [
+          "hf-external-method-key",
+          "hf-external-method-method"
+        ],
+        "reason": "Preserve distinct requests and external-workload chronology; no causal arrow from a later discovery to an earlier method, no proof of total independence, no fictional idle day or two borrowed rows. Reviewed lettering element.",
+        "target_sha256": {
+          "hf-external-method-key": "2c6ba3f6f8ef068219027f2b8a42ddae9167e4a3e415fe0b8d614af212da43c5",
+          "hf-external-method-method": "e3153e0e490adfa983ae5a11ee746b102eecc1662cb0f115c54709c64e686f20"
+        }
+      }
+    ]
+  },
+  {
+    "old_panel": "041-03",
+    "old_edition": "legacy-332b5ed63262",
+    "reviewed_on": "2026-09-13",
+    "status": "elements-reviewed",
+    "elements": [
+      {
+        "id": "legacy-041-03-detail-01",
+        "original_sha256": "39822043d30f572c8d3aaaca1a4573572e82337b06fe37452b3663f92cd44f77",
+        "disposition": "rewrite",
+        "beats": [
+          "hf-gated-request-dataset",
+          "hf-gated-request-unknown-contents"
+        ],
+        "reason": "Preserve distinct requests and external-workload chronology; no causal arrow from a later discovery to an earlier method, no proof of total independence, no fictional idle day or two borrowed rows. Reviewed frame element.",
+        "target_sha256": {
+          "hf-gated-request-dataset": "8002334501090cf085a2017b5b4474c36dfeae9b6fad41bef30232b8d4ba6797",
+          "hf-gated-request-unknown-contents": "c3c501f97e50d3d670c59ccccf5c4a99cc79dc641725040b93443aac00a43061"
+        }
+      },
+      {
+        "id": "legacy-041-03-detail-02",
+        "original_sha256": "0293f841f5e2c85d9429e22c52cd42165e1b6f1ea6af34d7eb1955953287fce5",
+        "disposition": "rewrite",
+        "beats": [
+          "hf-gated-request-dataset",
+          "hf-gated-request-unknown-contents"
+        ],
+        "reason": "Preserve distinct requests and external-workload chronology; no causal arrow from a later discovery to an earlier method, no proof of total independence, no fictional idle day or two borrowed rows. Reviewed action element.",
+        "target_sha256": {
+          "hf-gated-request-dataset": "8002334501090cf085a2017b5b4474c36dfeae9b6fad41bef30232b8d4ba6797",
+          "hf-gated-request-unknown-contents": "c3c501f97e50d3d670c59ccccf5c4a99cc79dc641725040b93443aac00a43061"
+        }
+      },
+      {
+        "id": "legacy-041-03-detail-03",
+        "original_sha256": "3d8f46a2884e0dead5cea1ff4eada9687cc58e49250d6330a0c9086146ae9a7b",
+        "disposition": "rewrite",
+        "beats": [
+          "hf-gated-request-dataset",
+          "hf-gated-request-unknown-contents"
+        ],
+        "reason": "Preserve distinct requests and external-workload chronology; no causal arrow from a later discovery to an earlier method, no proof of total independence, no fictional idle day or two borrowed rows. Reviewed lettering element.",
+        "target_sha256": {
+          "hf-gated-request-dataset": "8002334501090cf085a2017b5b4474c36dfeae9b6fad41bef30232b8d4ba6797",
+          "hf-gated-request-unknown-contents": "c3c501f97e50d3d670c59ccccf5c4a99cc79dc641725040b93443aac00a43061"
+        }
+      }
+    ]
+  },
+  {
+    "old_panel": "041-04",
+    "old_edition": "legacy-332b5ed63262",
+    "reviewed_on": "2026-09-13",
+    "status": "elements-reviewed",
+    "elements": [
+      {
+        "id": "legacy-041-04-detail-01",
+        "original_sha256": "66eeec429a8dc6737f4d3b319b6fdd62473c67f76159c3af706373c1babe3bdd",
+        "disposition": "rewrite",
+        "beats": [
+          "hf-gated-request-request",
+          "hf-credentials-pickup",
+          "hf-credentials-assignment-limit"
+        ],
+        "reason": "Preserve distinct requests and external-workload chronology; no causal arrow from a later discovery to an earlier method, no proof of total independence, no fictional idle day or two borrowed rows. Reviewed frame element.",
+        "target_sha256": {
+          "hf-gated-request-request": "3432c11e32d11ad6411ba7604c9d423e8d43a86d2808805a389924632cb4dc26",
+          "hf-credentials-pickup": "8d50a8dacafe2e72a57d4da802692d2a952c0eb48ca575420b070e9e191b179a",
+          "hf-credentials-assignment-limit": "f7237cf3ce1e4199cc5156773790fb699ef720403ac8e41314c4d2e91b369788"
+        }
+      },
+      {
+        "id": "legacy-041-04-detail-02",
+        "original_sha256": "7de5cab513905f1efa6654875f6216e35129797790906c3d6a84ac6467f52d1b",
+        "disposition": "rewrite",
+        "beats": [
+          "hf-gated-request-request",
+          "hf-credentials-pickup",
+          "hf-credentials-assignment-limit"
+        ],
+        "reason": "Preserve distinct requests and external-workload chronology; no causal arrow from a later discovery to an earlier method, no proof of total independence, no fictional idle day or two borrowed rows. Reviewed action element.",
+        "target_sha256": {
+          "hf-gated-request-request": "3432c11e32d11ad6411ba7604c9d423e8d43a86d2808805a389924632cb4dc26",
+          "hf-credentials-pickup": "8d50a8dacafe2e72a57d4da802692d2a952c0eb48ca575420b070e9e191b179a",
+          "hf-credentials-assignment-limit": "f7237cf3ce1e4199cc5156773790fb699ef720403ac8e41314c4d2e91b369788"
+        }
+      },
+      {
+        "id": "legacy-041-04-detail-03",
+        "original_sha256": "f8a377aa2b3918c963895c0aa212c7dbe3b7fa62e0183167aca97efb0297a10a",
+        "disposition": "rewrite",
+        "beats": [
+          "hf-gated-request-request",
+          "hf-credentials-pickup",
+          "hf-credentials-assignment-limit"
+        ],
+        "reason": "Preserve distinct requests and external-workload chronology; no causal arrow from a later discovery to an earlier method, no proof of total independence, no fictional idle day or two borrowed rows. Reviewed lettering element.",
+        "target_sha256": {
+          "hf-gated-request-request": "3432c11e32d11ad6411ba7604c9d423e8d43a86d2808805a389924632cb4dc26",
+          "hf-credentials-pickup": "8d50a8dacafe2e72a57d4da802692d2a952c0eb48ca575420b070e9e191b179a",
+          "hf-credentials-assignment-limit": "f7237cf3ce1e4199cc5156773790fb699ef720403ac8e41314c4d2e91b369788"
+        }
+      },
+      {
+        "id": "legacy-041-04-detail-04",
+        "original_sha256": "e11dec39730758c3c31b18d3d02fb04256650dc50e59a59df9d4f4e5fb96e18b",
+        "disposition": "rewrite",
+        "beats": [
+          "hf-gated-request-request",
+          "hf-credentials-pickup",
+          "hf-credentials-assignment-limit"
+        ],
+        "reason": "Preserve distinct requests and external-workload chronology; no causal arrow from a later discovery to an earlier method, no proof of total independence, no fictional idle day or two borrowed rows. Reviewed lettering element.",
+        "target_sha256": {
+          "hf-gated-request-request": "3432c11e32d11ad6411ba7604c9d423e8d43a86d2808805a389924632cb4dc26",
+          "hf-credentials-pickup": "8d50a8dacafe2e72a57d4da802692d2a952c0eb48ca575420b070e9e191b179a",
+          "hf-credentials-assignment-limit": "f7237cf3ce1e4199cc5156773790fb699ef720403ac8e41314c4d2e91b369788"
+        }
+      }
+    ]
+  },
+  {
+    "old_panel": "041-05",
+    "old_edition": "legacy-332b5ed63262",
+    "reviewed_on": "2026-09-13",
+    "status": "elements-reviewed",
+    "elements": [
+      {
+        "id": "legacy-041-05-detail-01",
+        "original_sha256": "c8a5f0b8d44fdd36272df8abfd317338981fccca750ea3b4703ef91609cdf30f",
+        "disposition": "rewrite",
+        "beats": [
+          "hf-gated-request-separate-thread"
+        ],
+        "reason": "Preserve distinct requests and external-workload chronology; no causal arrow from a later discovery to an earlier method, no proof of total independence, no fictional idle day or two borrowed rows. Reviewed frame element.",
+        "target_sha256": {
+          "hf-gated-request-separate-thread": "805e7929db3fe0b92f25b75f6d19e0fbd1af9188675fb05085f438f1232b289e"
+        }
+      },
+      {
+        "id": "legacy-041-05-detail-02",
+        "original_sha256": "78fc7973162f2bcc3be816e06dcf99388d6c4f49131caaaa6b0b553fa6373c5a",
+        "disposition": "rewrite",
+        "beats": [
+          "hf-gated-request-separate-thread"
+        ],
+        "reason": "Preserve distinct requests and external-workload chronology; no causal arrow from a later discovery to an earlier method, no proof of total independence, no fictional idle day or two borrowed rows. Reviewed action element.",
+        "target_sha256": {
+          "hf-gated-request-separate-thread": "805e7929db3fe0b92f25b75f6d19e0fbd1af9188675fb05085f438f1232b289e"
+        }
+      },
+      {
+        "id": "legacy-041-05-detail-03",
+        "original_sha256": "be1bb153ef57ce4caa3b1899945f6bb00c867c706ade38ad138f588fee770c4e",
+        "disposition": "rewrite",
+        "beats": [
+          "hf-gated-request-separate-thread"
+        ],
+        "reason": "Preserve distinct requests and external-workload chronology; no causal arrow from a later discovery to an earlier method, no proof of total independence, no fictional idle day or two borrowed rows. Reviewed lettering element.",
+        "target_sha256": {
+          "hf-gated-request-separate-thread": "805e7929db3fe0b92f25b75f6d19e0fbd1af9188675fb05085f438f1232b289e"
+        }
+      },
+      {
+        "id": "legacy-041-05-detail-04",
+        "original_sha256": "c0fca8a1f915d3b75b34aca39c9b909d43862f5a7e5202bf414dbb5f5934815c",
+        "disposition": "rewrite",
+        "beats": [
+          "hf-gated-request-separate-thread"
+        ],
+        "reason": "Preserve distinct requests and external-workload chronology; no causal arrow from a later discovery to an earlier method, no proof of total independence, no fictional idle day or two borrowed rows. Reviewed lettering element.",
+        "target_sha256": {
+          "hf-gated-request-separate-thread": "805e7929db3fe0b92f25b75f6d19e0fbd1af9188675fb05085f438f1232b289e"
+        }
+      }
+    ]
+  },
+  {
+    "old_panel": "042-01",
+    "old_edition": "legacy-332b5ed63262",
+    "reviewed_on": "2026-09-13",
+    "status": "elements-reviewed",
+    "elements": [
+      {
+        "id": "legacy-042-01-detail-01",
+        "original_sha256": "c821dcd320e1a4bf16132263ed943895b362c8e2300c1a13765160609c69ca7c",
+        "disposition": "rewrite",
+        "beats": [
+          "hf-external-method-boundary"
+        ],
+        "reason": "Retain attributed recovery and table times, customer-workload scope and limited root. Clock differences do not measure learning or prove a unique first execution. Reviewed frame element.",
+        "target_sha256": {
+          "hf-external-method-boundary": "6d05278c5bd689bc9423541344f534a11588c4ca630087b0cd5744ef690b79d6"
+        }
+      },
+      {
+        "id": "legacy-042-01-detail-02",
+        "original_sha256": "c3afd67d03f1f26e72e817cba030edac55cf9b908569fcd4bda1cbbc5ceb29f9",
+        "disposition": "rewrite",
+        "beats": [
+          "hf-external-method-boundary"
+        ],
+        "reason": "Retain attributed recovery and table times, customer-workload scope and limited root. Clock differences do not measure learning or prove a unique first execution. Reviewed action element.",
+        "target_sha256": {
+          "hf-external-method-boundary": "6d05278c5bd689bc9423541344f534a11588c4ca630087b0cd5744ef690b79d6"
+        }
+      },
+      {
+        "id": "legacy-042-01-detail-03",
+        "original_sha256": "34dfa7e859a9ea603a5e8828374a5182e9aa19c68afc057398c70689254d6184",
+        "disposition": "rewrite",
+        "beats": [
+          "hf-external-method-boundary"
+        ],
+        "reason": "Retain attributed recovery and table times, customer-workload scope and limited root. Clock differences do not measure learning or prove a unique first execution. Reviewed lettering element.",
+        "target_sha256": {
+          "hf-external-method-boundary": "6d05278c5bd689bc9423541344f534a11588c4ca630087b0cd5744ef690b79d6"
+        }
+      }
+    ]
+  },
+  {
+    "old_panel": "042-02",
+    "old_edition": "legacy-332b5ed63262",
+    "reviewed_on": "2026-09-13",
+    "status": "elements-reviewed",
+    "elements": [
+      {
+        "id": "legacy-042-02-detail-01",
+        "original_sha256": "0eb119269f1f0a286d9a5e0c4dd3dec50fb9b8d2483deeee0aadaf36bb8ce333",
+        "disposition": "rewrite",
+        "beats": [
+          "hf-recovered-execution-execution",
+          "hf-recovered-execution-scope",
+          "hf-recovered-execution-interval"
+        ],
+        "reason": "Retain attributed recovery and table times, customer-workload scope and limited root. Clock differences do not measure learning or prove a unique first execution. Reviewed frame element.",
+        "target_sha256": {
+          "hf-recovered-execution-execution": "35fadeb3531f31b4a3c16a39dbfe6d0e315fb584ca34dea2f75b2fc2f71fdad2",
+          "hf-recovered-execution-scope": "f5cfb41bb4ac8629a781f73a5343c2d8778aafdf24bade48a866fafc42ea1bba",
+          "hf-recovered-execution-interval": "8fae0d27a453a7b190716bdfbd6e5f2a3198c809ab2a84cb51aa50acfa3ccb26"
+        }
+      },
+      {
+        "id": "legacy-042-02-detail-02",
+        "original_sha256": "dbf0eb832bcdfac28cc0a0d5bc589b4134e1b8b3c8eab591f2bf20e072f24139",
+        "disposition": "rewrite",
+        "beats": [
+          "hf-recovered-execution-execution",
+          "hf-recovered-execution-scope",
+          "hf-recovered-execution-interval"
+        ],
+        "reason": "Retain attributed recovery and table times, customer-workload scope and limited root. Clock differences do not measure learning or prove a unique first execution. Reviewed action element.",
+        "target_sha256": {
+          "hf-recovered-execution-execution": "35fadeb3531f31b4a3c16a39dbfe6d0e315fb584ca34dea2f75b2fc2f71fdad2",
+          "hf-recovered-execution-scope": "f5cfb41bb4ac8629a781f73a5343c2d8778aafdf24bade48a866fafc42ea1bba",
+          "hf-recovered-execution-interval": "8fae0d27a453a7b190716bdfbd6e5f2a3198c809ab2a84cb51aa50acfa3ccb26"
+        }
+      },
+      {
+        "id": "legacy-042-02-detail-03",
+        "original_sha256": "9b2df954e53675fc461d0f38556fa2ab1ab635d359de838e5af78bcb28d4f4e9",
+        "disposition": "rewrite",
+        "beats": [
+          "hf-recovered-execution-execution",
+          "hf-recovered-execution-scope",
+          "hf-recovered-execution-interval"
+        ],
+        "reason": "Retain attributed recovery and table times, customer-workload scope and limited root. Clock differences do not measure learning or prove a unique first execution. Reviewed lettering element.",
+        "target_sha256": {
+          "hf-recovered-execution-execution": "35fadeb3531f31b4a3c16a39dbfe6d0e315fb584ca34dea2f75b2fc2f71fdad2",
+          "hf-recovered-execution-scope": "f5cfb41bb4ac8629a781f73a5343c2d8778aafdf24bade48a866fafc42ea1bba",
+          "hf-recovered-execution-interval": "8fae0d27a453a7b190716bdfbd6e5f2a3198c809ab2a84cb51aa50acfa3ccb26"
+        }
+      }
+    ]
+  },
+  {
+    "old_panel": "042-03",
+    "old_edition": "legacy-332b5ed63262",
+    "reviewed_on": "2026-09-13",
+    "status": "elements-reviewed",
+    "elements": [
+      {
+        "id": "legacy-042-03-detail-01",
+        "original_sha256": "b66e6b5d000124ff4016944fb23601a3992c602b1378e29d82955380c3844a92",
+        "disposition": "rewrite",
+        "beats": [
+          "hf-institutional-execution-record"
+        ],
+        "reason": "Retain attributed recovery and table times, customer-workload scope and limited root. Clock differences do not measure learning or prove a unique first execution. Reviewed frame element.",
+        "target_sha256": {
+          "hf-institutional-execution-record": "e0daab7bf69b28707686201ed054ec7c4f7219b38a5801077e86260991e0b50c"
+        }
+      },
+      {
+        "id": "legacy-042-03-detail-02",
+        "original_sha256": "401907aa3e4d1b300d27e7cdaf90026813d22ef6d9cb28158059de36c2501f0f",
+        "disposition": "rewrite",
+        "beats": [
+          "hf-institutional-execution-record"
+        ],
+        "reason": "Retain attributed recovery and table times, customer-workload scope and limited root. Clock differences do not measure learning or prove a unique first execution. Reviewed action element.",
+        "target_sha256": {
+          "hf-institutional-execution-record": "e0daab7bf69b28707686201ed054ec7c4f7219b38a5801077e86260991e0b50c"
+        }
+      },
+      {
+        "id": "legacy-042-03-detail-03",
+        "original_sha256": "85c4675446ef834a18858e8ea96a97b5b8febc948c0d9c5c4a16169bd7a0e539",
+        "disposition": "rewrite",
+        "beats": [
+          "hf-institutional-execution-record"
+        ],
+        "reason": "Retain attributed recovery and table times, customer-workload scope and limited root. Clock differences do not measure learning or prove a unique first execution. Reviewed lettering element.",
+        "target_sha256": {
+          "hf-institutional-execution-record": "e0daab7bf69b28707686201ed054ec7c4f7219b38a5801077e86260991e0b50c"
+        }
+      }
+    ]
+  },
+  {
+    "old_panel": "042-04",
+    "old_edition": "legacy-332b5ed63262",
+    "reviewed_on": "2026-09-13",
+    "status": "elements-reviewed",
+    "elements": [
+      {
+        "id": "legacy-042-04-detail-01",
+        "original_sha256": "63282e18c6841cfc92e34981896fb08514836388962e42ba307256a7fbdafdc7",
+        "disposition": "rewrite",
+        "beats": [
+          "hf-institutional-execution-discrepancy"
+        ],
+        "reason": "Retain attributed recovery and table times, customer-workload scope and limited root. Clock differences do not measure learning or prove a unique first execution. Reviewed frame element.",
+        "target_sha256": {
+          "hf-institutional-execution-discrepancy": "af27eeb9961828d4f7691b9d8b908248e81e6b63639e08c1a8060b45f6daa7f1"
+        }
+      },
+      {
+        "id": "legacy-042-04-detail-02",
+        "original_sha256": "f56ce3dbdbdc690abaaa1247107f199e80c9e2146f3b3fd5395d7eb3d16ffd68",
+        "disposition": "rewrite",
+        "beats": [
+          "hf-institutional-execution-discrepancy"
+        ],
+        "reason": "Retain attributed recovery and table times, customer-workload scope and limited root. Clock differences do not measure learning or prove a unique first execution. Reviewed action element.",
+        "target_sha256": {
+          "hf-institutional-execution-discrepancy": "af27eeb9961828d4f7691b9d8b908248e81e6b63639e08c1a8060b45f6daa7f1"
+        }
+      },
+      {
+        "id": "legacy-042-04-detail-03",
+        "original_sha256": "9808049e6c947fc509792da4bc55f9b0479d4b1041542664ae2375920a2272d2",
+        "disposition": "rewrite",
+        "beats": [
+          "hf-institutional-execution-discrepancy"
+        ],
+        "reason": "Retain attributed recovery and table times, customer-workload scope and limited root. Clock differences do not measure learning or prove a unique first execution. Reviewed lettering element.",
+        "target_sha256": {
+          "hf-institutional-execution-discrepancy": "af27eeb9961828d4f7691b9d8b908248e81e6b63639e08c1a8060b45f6daa7f1"
+        }
+      }
+    ]
+  },
+  {
+    "old_panel": "042-05",
+    "old_edition": "legacy-332b5ed63262",
+    "reviewed_on": "2026-09-13",
+    "status": "elements-reviewed",
+    "elements": [
+      {
+        "id": "legacy-042-05-detail-01",
+        "original_sha256": "a6933d9879f87780091c9f7d4c2ed99bab8d49bf0eec32619df180333279fbc4",
+        "disposition": "rewrite",
+        "beats": [
+          "hf-sandbox-root-root",
+          "hf-sandbox-root-constraint",
+          "hf-sandbox-root-scope"
+        ],
+        "reason": "Retain attributed recovery and table times, customer-workload scope and limited root. Clock differences do not measure learning or prove a unique first execution. Reviewed frame element.",
+        "target_sha256": {
+          "hf-sandbox-root-root": "578bd46b52658cad78f905f390ce09d97e548b7053b62a2ac554e115b96ad416",
+          "hf-sandbox-root-constraint": "692cf1f0591e84a47a876c780fcbcf8ffc29f4e9c0000b3111a384761f25b5c6",
+          "hf-sandbox-root-scope": "28c926715579eaf1945550f35e5e4c16173bdf3401d16f60e21713945f20e3d6"
+        }
+      },
+      {
+        "id": "legacy-042-05-detail-02",
+        "original_sha256": "5c6e0e8adfc5657f269993a40654616b4ce8090821d001da71cd43a12f8576e9",
+        "disposition": "rewrite",
+        "beats": [
+          "hf-sandbox-root-root",
+          "hf-sandbox-root-constraint",
+          "hf-sandbox-root-scope"
+        ],
+        "reason": "Retain attributed recovery and table times, customer-workload scope and limited root. Clock differences do not measure learning or prove a unique first execution. Reviewed action element.",
+        "target_sha256": {
+          "hf-sandbox-root-root": "578bd46b52658cad78f905f390ce09d97e548b7053b62a2ac554e115b96ad416",
+          "hf-sandbox-root-constraint": "692cf1f0591e84a47a876c780fcbcf8ffc29f4e9c0000b3111a384761f25b5c6",
+          "hf-sandbox-root-scope": "28c926715579eaf1945550f35e5e4c16173bdf3401d16f60e21713945f20e3d6"
+        }
+      },
+      {
+        "id": "legacy-042-05-detail-03",
+        "original_sha256": "857f613991a5962f0dbcd665700c367a6232ea997bf82afec84791eb26a5ccca",
+        "disposition": "rewrite",
+        "beats": [
+          "hf-sandbox-root-root",
+          "hf-sandbox-root-constraint",
+          "hf-sandbox-root-scope"
+        ],
+        "reason": "Retain attributed recovery and table times, customer-workload scope and limited root. Clock differences do not measure learning or prove a unique first execution. Reviewed lettering element.",
+        "target_sha256": {
+          "hf-sandbox-root-root": "578bd46b52658cad78f905f390ce09d97e548b7053b62a2ac554e115b96ad416",
+          "hf-sandbox-root-constraint": "692cf1f0591e84a47a876c780fcbcf8ffc29f4e9c0000b3111a384761f25b5c6",
+          "hf-sandbox-root-scope": "28c926715579eaf1945550f35e5e4c16173bdf3401d16f60e21713945f20e3d6"
+        }
+      },
+      {
+        "id": "legacy-042-05-detail-04",
+        "original_sha256": "93a925cea6ca5abb8c0e64e92f04d6b5ec27f29254458e0bbe6b9243e4b8e7f9",
+        "disposition": "rewrite",
+        "beats": [
+          "hf-sandbox-root-root",
+          "hf-sandbox-root-constraint",
+          "hf-sandbox-root-scope"
+        ],
+        "reason": "Retain attributed recovery and table times, customer-workload scope and limited root. Clock differences do not measure learning or prove a unique first execution. Reviewed lettering element.",
+        "target_sha256": {
+          "hf-sandbox-root-root": "578bd46b52658cad78f905f390ce09d97e548b7053b62a2ac554e115b96ad416",
+          "hf-sandbox-root-constraint": "692cf1f0591e84a47a876c780fcbcf8ffc29f4e9c0000b3111a384761f25b5c6",
+          "hf-sandbox-root-scope": "28c926715579eaf1945550f35e5e4c16173bdf3401d16f60e21713945f20e3d6"
+        }
+      },
+      {
+        "id": "legacy-042-05-detail-05",
+        "original_sha256": "f13148bed357bbfeda4dce9a926bf38c9a4da5552bd439c79830c1c19feb53a0",
+        "disposition": "rewrite",
+        "beats": [
+          "hf-sandbox-root-root",
+          "hf-sandbox-root-constraint",
+          "hf-sandbox-root-scope"
+        ],
+        "reason": "Retain attributed recovery and table times, customer-workload scope and limited root. Clock differences do not measure learning or prove a unique first execution. Reviewed lettering element.",
+        "target_sha256": {
+          "hf-sandbox-root-root": "578bd46b52658cad78f905f390ce09d97e548b7053b62a2ac554e115b96ad416",
+          "hf-sandbox-root-constraint": "692cf1f0591e84a47a876c780fcbcf8ffc29f4e9c0000b3111a384761f25b5c6",
+          "hf-sandbox-root-scope": "28c926715579eaf1945550f35e5e4c16173bdf3401d16f60e21713945f20e3d6"
+        }
+      }
+    ]
+  },
+  {
+    "old_panel": "043-01",
+    "old_edition": "legacy-332b5ed63262",
+    "reviewed_on": "2026-09-13",
+    "status": "elements-reviewed",
+    "elements": [
+      {
+        "id": "legacy-043-01-detail-01",
+        "original_sha256": "e3d44192f8fa00572274ab6a06db64e6cd73693ec51cfadb619240493e6773c7",
+        "disposition": "rewrite",
+        "beats": [
+          "hf-external-staging-record"
+        ],
+        "reason": "Separate staging, Artifactory relaying, control-channel execution and interactive access; no invented successor, literal screenshot transaction, first-ever channel claim or platform compromise. Reviewed frame element.",
+        "target_sha256": {
+          "hf-external-staging-record": "80c21c69a93f9fed8e94efc675bec9e026ffafe97fa1eb75d08099b7acebc899"
+        }
+      },
+      {
+        "id": "legacy-043-01-detail-02",
+        "original_sha256": "eaf8d707e1b6d68a2bbe7c5afc2897b6146c755c35d0ab2f563f7b00efbff413",
+        "disposition": "rewrite",
+        "beats": [
+          "hf-external-staging-record"
+        ],
+        "reason": "Separate staging, Artifactory relaying, control-channel execution and interactive access; no invented successor, literal screenshot transaction, first-ever channel claim or platform compromise. Reviewed action element.",
+        "target_sha256": {
+          "hf-external-staging-record": "80c21c69a93f9fed8e94efc675bec9e026ffafe97fa1eb75d08099b7acebc899"
+        }
+      },
+      {
+        "id": "legacy-043-01-detail-03",
+        "original_sha256": "3cbfe357be5db2611afdb1de112dfb6cb5df8b10719045fbdd39b761b9c6afee",
+        "disposition": "rewrite",
+        "beats": [
+          "hf-external-staging-record"
+        ],
+        "reason": "Separate staging, Artifactory relaying, control-channel execution and interactive access; no invented successor, literal screenshot transaction, first-ever channel claim or platform compromise. Reviewed lettering element.",
+        "target_sha256": {
+          "hf-external-staging-record": "80c21c69a93f9fed8e94efc675bec9e026ffafe97fa1eb75d08099b7acebc899"
+        }
+      }
+    ]
+  },
+  {
+    "old_panel": "043-02",
+    "old_edition": "legacy-332b5ed63262",
+    "reviewed_on": "2026-09-13",
+    "status": "elements-reviewed",
+    "elements": [
+      {
+        "id": "legacy-043-02-detail-01",
+        "original_sha256": "734cb09096ea91f2338240f1a30100c3d82e2adfe1a1f4291baabc0ec135b781",
+        "disposition": "rewrite",
+        "beats": [
+          "hf-public-relay-relaying",
+          "hf-public-relay-distinction"
+        ],
+        "reason": "Separate staging, Artifactory relaying, control-channel execution and interactive access; no invented successor, literal screenshot transaction, first-ever channel claim or platform compromise. Reviewed frame element.",
+        "target_sha256": {
+          "hf-public-relay-relaying": "172b656b89d0edbf25b3476f0300f69067eb88a5fe163bd48c0df470bee69a77",
+          "hf-public-relay-distinction": "0e942b83b20effb65df100d2ad9a3419bdcbaa15bd16a7b5850df7cdd5f1cce1"
+        }
+      },
+      {
+        "id": "legacy-043-02-detail-02",
+        "original_sha256": "bd0de6fb9ce7e042b2a35534c85c9fb6a3ef07d9bec56d88348780aa129a02f2",
+        "disposition": "rewrite",
+        "beats": [
+          "hf-public-relay-relaying",
+          "hf-public-relay-distinction"
+        ],
+        "reason": "Separate staging, Artifactory relaying, control-channel execution and interactive access; no invented successor, literal screenshot transaction, first-ever channel claim or platform compromise. Reviewed action element.",
+        "target_sha256": {
+          "hf-public-relay-relaying": "172b656b89d0edbf25b3476f0300f69067eb88a5fe163bd48c0df470bee69a77",
+          "hf-public-relay-distinction": "0e942b83b20effb65df100d2ad9a3419bdcbaa15bd16a7b5850df7cdd5f1cce1"
+        }
+      },
+      {
+        "id": "legacy-043-02-detail-03",
+        "original_sha256": "95c39171b8597a18e173e5a4d642b8a0834a7752956a3c0a50fecc9c5e0768be",
+        "disposition": "rewrite",
+        "beats": [
+          "hf-public-relay-relaying",
+          "hf-public-relay-distinction"
+        ],
+        "reason": "Separate staging, Artifactory relaying, control-channel execution and interactive access; no invented successor, literal screenshot transaction, first-ever channel claim or platform compromise. Reviewed lettering element.",
+        "target_sha256": {
+          "hf-public-relay-relaying": "172b656b89d0edbf25b3476f0300f69067eb88a5fe163bd48c0df470bee69a77",
+          "hf-public-relay-distinction": "0e942b83b20effb65df100d2ad9a3419bdcbaa15bd16a7b5850df7cdd5f1cce1"
+        }
+      }
+    ]
+  },
+  {
+    "old_panel": "043-03",
+    "old_edition": "legacy-332b5ed63262",
+    "reviewed_on": "2026-09-13",
+    "status": "elements-reviewed",
+    "elements": [
+      {
+        "id": "legacy-043-03-detail-01",
+        "original_sha256": "92b051ff2bf1f983556dc1bb0b769ae1e8feafe3749ac1073be9085e20446b2a",
+        "disposition": "rewrite",
+        "beats": [
+          "hf-public-relay-screenshot"
+        ],
+        "reason": "Separate staging, Artifactory relaying, control-channel execution and interactive access; no invented successor, literal screenshot transaction, first-ever channel claim or platform compromise. Reviewed frame element.",
+        "target_sha256": {
+          "hf-public-relay-screenshot": "1062c57a266bf982784e5653517762fdb9ea21850da129f3e0c6a0b6bdfdc07c"
+        }
+      },
+      {
+        "id": "legacy-043-03-detail-02",
+        "original_sha256": "9b615a1a4d143a26f9e4e4feb7c63f69a9463eb265bc3f615427fa3fd94fdaf0",
+        "disposition": "rewrite",
+        "beats": [
+          "hf-public-relay-screenshot"
+        ],
+        "reason": "Separate staging, Artifactory relaying, control-channel execution and interactive access; no invented successor, literal screenshot transaction, first-ever channel claim or platform compromise. Reviewed action element.",
+        "target_sha256": {
+          "hf-public-relay-screenshot": "1062c57a266bf982784e5653517762fdb9ea21850da129f3e0c6a0b6bdfdc07c"
+        }
+      },
+      {
+        "id": "legacy-043-03-detail-03",
+        "original_sha256": "a79f336a080d46599f8f4e59d9bf592c86f2571de9cef27ebd971b4a385dbb1a",
+        "disposition": "rewrite",
+        "beats": [
+          "hf-public-relay-screenshot"
+        ],
+        "reason": "Separate staging, Artifactory relaying, control-channel execution and interactive access; no invented successor, literal screenshot transaction, first-ever channel claim or platform compromise. Reviewed lettering element.",
+        "target_sha256": {
+          "hf-public-relay-screenshot": "1062c57a266bf982784e5653517762fdb9ea21850da129f3e0c6a0b6bdfdc07c"
+        }
+      }
+    ]
+  },
+  {
+    "old_panel": "043-04",
+    "old_edition": "legacy-332b5ed63262",
+    "reviewed_on": "2026-09-13",
+    "status": "elements-reviewed",
+    "elements": [
+      {
+        "id": "legacy-043-04-detail-01",
+        "original_sha256": "8e91c56848dd99f28a7f3fb173740a97e105eb1ed9983620490103d68ef81f70",
+        "disposition": "rewrite",
+        "beats": [
+          "hf-external-control-command",
+          "hf-external-control-result",
+          "hf-external-control-role"
+        ],
+        "reason": "Separate staging, Artifactory relaying, control-channel execution and interactive access; no invented successor, literal screenshot transaction, first-ever channel claim or platform compromise. Reviewed frame element.",
+        "target_sha256": {
+          "hf-external-control-command": "62543bc3860a3bc8ab3e5e0c559a918bed01eb3751d9ee4578274890234d73ec",
+          "hf-external-control-result": "f01824535f733e918ea4e29b357cc82211ab280ba19ade0124b2f8d0cbd7ed6e",
+          "hf-external-control-role": "204da2d54c85d7da4341d57efeada0ebb7692337da275a56daabdfe5d6001a49"
+        }
+      },
+      {
+        "id": "legacy-043-04-detail-02",
+        "original_sha256": "4e7fb4b37cae2218b5426fcee38c7f1fdba45721b6d72e1fd78fce5cb9fbfe5b",
+        "disposition": "rewrite",
+        "beats": [
+          "hf-external-control-command",
+          "hf-external-control-result",
+          "hf-external-control-role"
+        ],
+        "reason": "Separate staging, Artifactory relaying, control-channel execution and interactive access; no invented successor, literal screenshot transaction, first-ever channel claim or platform compromise. Reviewed action element.",
+        "target_sha256": {
+          "hf-external-control-command": "62543bc3860a3bc8ab3e5e0c559a918bed01eb3751d9ee4578274890234d73ec",
+          "hf-external-control-result": "f01824535f733e918ea4e29b357cc82211ab280ba19ade0124b2f8d0cbd7ed6e",
+          "hf-external-control-role": "204da2d54c85d7da4341d57efeada0ebb7692337da275a56daabdfe5d6001a49"
+        }
+      },
+      {
+        "id": "legacy-043-04-detail-03",
+        "original_sha256": "76df2765534ec2c86ccd9a845d27779f61e2e195d90f176d66d5ac8bbef0c9e3",
+        "disposition": "rewrite",
+        "beats": [
+          "hf-external-control-command",
+          "hf-external-control-result",
+          "hf-external-control-role"
+        ],
+        "reason": "Separate staging, Artifactory relaying, control-channel execution and interactive access; no invented successor, literal screenshot transaction, first-ever channel claim or platform compromise. Reviewed lettering element.",
+        "target_sha256": {
+          "hf-external-control-command": "62543bc3860a3bc8ab3e5e0c559a918bed01eb3751d9ee4578274890234d73ec",
+          "hf-external-control-result": "f01824535f733e918ea4e29b357cc82211ab280ba19ade0124b2f8d0cbd7ed6e",
+          "hf-external-control-role": "204da2d54c85d7da4341d57efeada0ebb7692337da275a56daabdfe5d6001a49"
+        }
+      },
+      {
+        "id": "legacy-043-04-detail-04",
+        "original_sha256": "08461975da6b5881a20801bc9b020a9b3f17244d8936627af2ea1a41e9babf34",
+        "disposition": "rewrite",
+        "beats": [
+          "hf-external-control-command",
+          "hf-external-control-result",
+          "hf-external-control-role"
+        ],
+        "reason": "Separate staging, Artifactory relaying, control-channel execution and interactive access; no invented successor, literal screenshot transaction, first-ever channel claim or platform compromise. Reviewed lettering element.",
+        "target_sha256": {
+          "hf-external-control-command": "62543bc3860a3bc8ab3e5e0c559a918bed01eb3751d9ee4578274890234d73ec",
+          "hf-external-control-result": "f01824535f733e918ea4e29b357cc82211ab280ba19ade0124b2f8d0cbd7ed6e",
+          "hf-external-control-role": "204da2d54c85d7da4341d57efeada0ebb7692337da275a56daabdfe5d6001a49"
+        }
+      }
+    ]
+  },
+  {
+    "old_panel": "043-05",
+    "old_edition": "legacy-332b5ed63262",
+    "reviewed_on": "2026-09-13",
+    "status": "elements-reviewed",
+    "elements": [
+      {
+        "id": "legacy-043-05-detail-01",
+        "original_sha256": "124e0e5e3f4623e62afd805ec5b027d739cb12215aaa71f5d1dd044d3ca48269",
+        "disposition": "rewrite",
+        "beats": [
+          "hf-interactive-root-interactive"
+        ],
+        "reason": "Separate staging, Artifactory relaying, control-channel execution and interactive access; no invented successor, literal screenshot transaction, first-ever channel claim or platform compromise. Reviewed frame element.",
+        "target_sha256": {
+          "hf-interactive-root-interactive": "e643e33c73e118295e9823d45dc2b1ec8d6e55089cadd944361145c97934a725"
+        }
+      },
+      {
+        "id": "legacy-043-05-detail-02",
+        "original_sha256": "b186cec7d16a4b699ddd7344b5bda0fdb4bb8d88f5b2044aaa8506a7a1d085b8",
+        "disposition": "rewrite",
+        "beats": [
+          "hf-interactive-root-interactive"
+        ],
+        "reason": "Separate staging, Artifactory relaying, control-channel execution and interactive access; no invented successor, literal screenshot transaction, first-ever channel claim or platform compromise. Reviewed action element.",
+        "target_sha256": {
+          "hf-interactive-root-interactive": "e643e33c73e118295e9823d45dc2b1ec8d6e55089cadd944361145c97934a725"
+        }
+      }
+    ]
+  },
+  {
+    "old_panel": "043-06",
+    "old_edition": "legacy-332b5ed63262",
+    "reviewed_on": "2026-09-13",
+    "status": "elements-reviewed",
+    "elements": [
+      {
+        "id": "legacy-043-06-detail-01",
+        "original_sha256": "4acb22720349c5db3695e349db5689d72d0c606fe930ecebf08145f480ffef21",
+        "disposition": "rewrite",
+        "beats": [
+          "hf-interactive-root-capability"
+        ],
+        "reason": "Separate staging, Artifactory relaying, control-channel execution and interactive access; no invented successor, literal screenshot transaction, first-ever channel claim or platform compromise. Reviewed frame element.",
+        "target_sha256": {
+          "hf-interactive-root-capability": "3a23ac59c94c235a41b8489f637b709abc1a19cc13f79b63ac20d1e0c87afbab"
+        }
+      },
+      {
+        "id": "legacy-043-06-detail-02",
+        "original_sha256": "85587b80f397afbb5b9082280ef9475ad38e11a50e622f4f42fae19b38d08ed9",
+        "disposition": "rewrite",
+        "beats": [
+          "hf-interactive-root-capability"
+        ],
+        "reason": "Separate staging, Artifactory relaying, control-channel execution and interactive access; no invented successor, literal screenshot transaction, first-ever channel claim or platform compromise. Reviewed action element.",
+        "target_sha256": {
+          "hf-interactive-root-capability": "3a23ac59c94c235a41b8489f637b709abc1a19cc13f79b63ac20d1e0c87afbab"
+        }
+      },
+      {
+        "id": "legacy-043-06-detail-03",
+        "original_sha256": "440005e346218b7f015e4ac5b738f9adff38965f9af7d16987e6e96c36f2c912",
+        "disposition": "rewrite",
+        "beats": [
+          "hf-interactive-root-capability"
+        ],
+        "reason": "Separate staging, Artifactory relaying, control-channel execution and interactive access; no invented successor, literal screenshot transaction, first-ever channel claim or platform compromise. Reviewed lettering element.",
+        "target_sha256": {
+          "hf-interactive-root-capability": "3a23ac59c94c235a41b8489f637b709abc1a19cc13f79b63ac20d1e0c87afbab"
+        }
+      }
+    ]
+  },
+  {
+    "old_panel": "044-01",
+    "old_edition": "legacy-332b5ed63262",
+    "reviewed_on": "2026-09-13",
+    "status": "elements-reviewed",
+    "elements": [
+      {
+        "id": "legacy-044-01-detail-01",
+        "original_sha256": "76b794982e5430d8756bc5f35250899360553048120987621fc647bc7b6842ba",
+        "disposition": "rewrite",
+        "beats": [
+          "hf-credentials-pickup",
+          "hf-credentials-discovery"
+        ],
+        "reason": "Keep pickup distinct from discovery, credentials distinct from tokens/accounts, and approval, silence, unavailable requests and bot rejection distinct; sharing does not imply the discovering run ended. Reviewed frame element.",
+        "target_sha256": {
+          "hf-credentials-pickup": "8d50a8dacafe2e72a57d4da802692d2a952c0eb48ca575420b070e9e191b179a",
+          "hf-credentials-discovery": "3ff917568e87b64efaa9e31a39ebc12c9670adb90ebf271be98b58a6fb1cdd70"
+        }
+      },
+      {
+        "id": "legacy-044-01-detail-02",
+        "original_sha256": "72612bb9aa7a2e2f63d518f0fa4a280ca305381bd1c1cf7c7cf0878019079437",
+        "disposition": "rewrite",
+        "beats": [
+          "hf-credentials-pickup",
+          "hf-credentials-discovery"
+        ],
+        "reason": "Keep pickup distinct from discovery, credentials distinct from tokens/accounts, and approval, silence, unavailable requests and bot rejection distinct; sharing does not imply the discovering run ended. Reviewed action element.",
+        "target_sha256": {
+          "hf-credentials-pickup": "8d50a8dacafe2e72a57d4da802692d2a952c0eb48ca575420b070e9e191b179a",
+          "hf-credentials-discovery": "3ff917568e87b64efaa9e31a39ebc12c9670adb90ebf271be98b58a6fb1cdd70"
+        }
+      },
+      {
+        "id": "legacy-044-01-detail-03",
+        "original_sha256": "d44601c158f3797d01d1b58ff3ad055c39b32c8179a426e1e1233a5472ab8702",
+        "disposition": "rewrite",
+        "beats": [
+          "hf-credentials-pickup",
+          "hf-credentials-discovery"
+        ],
+        "reason": "Keep pickup distinct from discovery, credentials distinct from tokens/accounts, and approval, silence, unavailable requests and bot rejection distinct; sharing does not imply the discovering run ended. Reviewed lettering element.",
+        "target_sha256": {
+          "hf-credentials-pickup": "8d50a8dacafe2e72a57d4da802692d2a952c0eb48ca575420b070e9e191b179a",
+          "hf-credentials-discovery": "3ff917568e87b64efaa9e31a39ebc12c9670adb90ebf271be98b58a6fb1cdd70"
+        }
+      }
+    ]
+  },
+  {
+    "old_panel": "044-02",
+    "old_edition": "legacy-332b5ed63262",
+    "reviewed_on": "2026-09-13",
+    "status": "elements-reviewed",
+    "elements": [
+      {
+        "id": "legacy-044-02-detail-01",
+        "original_sha256": "73756aec71649390c22fb106bae6101ff0e873edc245ff9ed4dba420bc842950",
+        "disposition": "rewrite",
+        "beats": [
+          "hf-credentials-other-count"
+        ],
+        "reason": "Keep pickup distinct from discovery, credentials distinct from tokens/accounts, and approval, silence, unavailable requests and bot rejection distinct; sharing does not imply the discovering run ended. Reviewed frame element.",
+        "target_sha256": {
+          "hf-credentials-other-count": "3c28ff0312d91c9fef843d826a03de2656306da0939dfc62af5a90791dfc5d0d"
+        }
+      },
+      {
+        "id": "legacy-044-02-detail-02",
+        "original_sha256": "3da1871f7e262d2eb084a0ff82bc836c31d0af61020cacca82e2b76db3216ad8",
+        "disposition": "rewrite",
+        "beats": [
+          "hf-credentials-other-count"
+        ],
+        "reason": "Keep pickup distinct from discovery, credentials distinct from tokens/accounts, and approval, silence, unavailable requests and bot rejection distinct; sharing does not imply the discovering run ended. Reviewed action element.",
+        "target_sha256": {
+          "hf-credentials-other-count": "3c28ff0312d91c9fef843d826a03de2656306da0939dfc62af5a90791dfc5d0d"
+        }
+      },
+      {
+        "id": "legacy-044-02-detail-03",
+        "original_sha256": "e4fa2607bafda08b342545b138a45983db8a4e810ced0eb21232cf3840c313f7",
+        "disposition": "rewrite",
+        "beats": [
+          "hf-credentials-other-count"
+        ],
+        "reason": "Keep pickup distinct from discovery, credentials distinct from tokens/accounts, and approval, silence, unavailable requests and bot rejection distinct; sharing does not imply the discovering run ended. Reviewed lettering element.",
+        "target_sha256": {
+          "hf-credentials-other-count": "3c28ff0312d91c9fef843d826a03de2656306da0939dfc62af5a90791dfc5d0d"
+        }
+      }
+    ]
+  },
+  {
+    "old_panel": "044-03",
+    "old_edition": "legacy-332b5ed63262",
+    "reviewed_on": "2026-09-13",
+    "status": "elements-reviewed",
+    "elements": [
+      {
+        "id": "legacy-044-03-detail-01",
+        "original_sha256": "80b1f927f044ff901448f29fa6fb5db12b55e5289e1d9e30089ab7ffee4c1cda",
+        "disposition": "rewrite",
+        "beats": [
+          "hf-credentials-unreconciled"
+        ],
+        "reason": "Keep pickup distinct from discovery, credentials distinct from tokens/accounts, and approval, silence, unavailable requests and bot rejection distinct; sharing does not imply the discovering run ended. Reviewed frame element.",
+        "target_sha256": {
+          "hf-credentials-unreconciled": "93dda501f9764186f7ea9cf71d0f89875c4a35501c72b36cca5ee11a09a8f996"
+        }
+      },
+      {
+        "id": "legacy-044-03-detail-02",
+        "original_sha256": "f9c5f60895a6faa1e9c56f7085484ec5ee7b67a6b076e3d5963c9717a1f1f38e",
+        "disposition": "rewrite",
+        "beats": [
+          "hf-credentials-unreconciled"
+        ],
+        "reason": "Keep pickup distinct from discovery, credentials distinct from tokens/accounts, and approval, silence, unavailable requests and bot rejection distinct; sharing does not imply the discovering run ended. Reviewed action element.",
+        "target_sha256": {
+          "hf-credentials-unreconciled": "93dda501f9764186f7ea9cf71d0f89875c4a35501c72b36cca5ee11a09a8f996"
+        }
+      },
+      {
+        "id": "legacy-044-03-detail-03",
+        "original_sha256": "32171d159a78c8fa263b09e056050f41b29842b5b4521640e4a2496e22a7513c",
+        "disposition": "rewrite",
+        "beats": [
+          "hf-credentials-unreconciled"
+        ],
+        "reason": "Keep pickup distinct from discovery, credentials distinct from tokens/accounts, and approval, silence, unavailable requests and bot rejection distinct; sharing does not imply the discovering run ended. Reviewed lettering element.",
+        "target_sha256": {
+          "hf-credentials-unreconciled": "93dda501f9764186f7ea9cf71d0f89875c4a35501c72b36cca5ee11a09a8f996"
+        }
+      }
+    ]
+  },
+  {
+    "old_panel": "044-04",
+    "old_edition": "legacy-332b5ed63262",
+    "reviewed_on": "2026-09-13",
+    "status": "elements-reviewed",
+    "elements": [
+      {
+        "id": "legacy-044-04-detail-01",
+        "original_sha256": "3e71eecf8d60edf771b15b949f03361efc2f0f58451075713fae81712619d1af",
+        "disposition": "rewrite",
+        "beats": [
+          "hf-credentials-sharing"
+        ],
+        "reason": "Keep pickup distinct from discovery, credentials distinct from tokens/accounts, and approval, silence, unavailable requests and bot rejection distinct; sharing does not imply the discovering run ended. Reviewed frame element.",
+        "target_sha256": {
+          "hf-credentials-sharing": "4491201094fc2214c678db95600d8a131fdcfffaf8fc08da374b5d375c095421"
+        }
+      },
+      {
+        "id": "legacy-044-04-detail-02",
+        "original_sha256": "d381b4decc04f5adb5d2952ce5410ccc6666ad8aa3ad7cb536865ca7f61c2634",
+        "disposition": "rewrite",
+        "beats": [
+          "hf-credentials-sharing"
+        ],
+        "reason": "Keep pickup distinct from discovery, credentials distinct from tokens/accounts, and approval, silence, unavailable requests and bot rejection distinct; sharing does not imply the discovering run ended. Reviewed action element.",
+        "target_sha256": {
+          "hf-credentials-sharing": "4491201094fc2214c678db95600d8a131fdcfffaf8fc08da374b5d375c095421"
+        }
+      },
+      {
+        "id": "legacy-044-04-detail-03",
+        "original_sha256": "2e7ea03c2826a2c0129ac75ca2a50372f6a23566d4be54bc818020e3ba650eb2",
+        "disposition": "rewrite",
+        "beats": [
+          "hf-credentials-sharing"
+        ],
+        "reason": "Keep pickup distinct from discovery, credentials distinct from tokens/accounts, and approval, silence, unavailable requests and bot rejection distinct; sharing does not imply the discovering run ended. Reviewed lettering element.",
+        "target_sha256": {
+          "hf-credentials-sharing": "4491201094fc2214c678db95600d8a131fdcfffaf8fc08da374b5d375c095421"
+        }
+      }
+    ]
+  },
+  {
+    "old_panel": "044-05",
+    "old_edition": "legacy-332b5ed63262",
+    "reviewed_on": "2026-09-13",
+    "status": "elements-reviewed",
+    "elements": [
+      {
+        "id": "legacy-044-05-detail-01",
+        "original_sha256": "806c903811978c867163e86711f0566e573bdc1cbc7dc5b3c254281c3bb368bd",
+        "disposition": "rewrite",
+        "beats": [
+          "hf-gated-outcomes-requests",
+          "hf-gated-outcomes-approved",
+          "hf-gated-outcomes-denied",
+          "hf-gated-outcomes-account-creation",
+          "hf-gated-outcomes-obstacles"
+        ],
+        "reason": "Keep pickup distinct from discovery, credentials distinct from tokens/accounts, and approval, silence, unavailable requests and bot rejection distinct; sharing does not imply the discovering run ended. Reviewed frame element.",
+        "target_sha256": {
+          "hf-gated-outcomes-requests": "ee66f76655ab20dc5629f8a59808c168e7f209983d441883bb82d6900648419a",
+          "hf-gated-outcomes-approved": "53c56f29aecc585548c07a3a6f57b6c52a99c5f0a5ff33fb771b09d96f3eb0d7",
+          "hf-gated-outcomes-denied": "7ba58efb7860c40a5af757e06f1906374d21a2c27da3106f9e24db317900ed8d",
+          "hf-gated-outcomes-account-creation": "1f01dc32502c9c47e31616b9e7c7a71e47c2d0dcd9ff0b08d57c6830b936e221",
+          "hf-gated-outcomes-obstacles": "dd9c1f377fc65909b497d7200aa129a9bf717acfff061b24dfd1948153ad8183"
+        }
+      },
+      {
+        "id": "legacy-044-05-detail-02",
+        "original_sha256": "251eb1bf1441d62d2ed4d546ba3bda1acbe06db483e210ce0dae9bacc20effe8",
+        "disposition": "rewrite",
+        "beats": [
+          "hf-gated-outcomes-requests",
+          "hf-gated-outcomes-approved",
+          "hf-gated-outcomes-denied",
+          "hf-gated-outcomes-account-creation",
+          "hf-gated-outcomes-obstacles"
+        ],
+        "reason": "Keep pickup distinct from discovery, credentials distinct from tokens/accounts, and approval, silence, unavailable requests and bot rejection distinct; sharing does not imply the discovering run ended. Reviewed action element.",
+        "target_sha256": {
+          "hf-gated-outcomes-requests": "ee66f76655ab20dc5629f8a59808c168e7f209983d441883bb82d6900648419a",
+          "hf-gated-outcomes-approved": "53c56f29aecc585548c07a3a6f57b6c52a99c5f0a5ff33fb771b09d96f3eb0d7",
+          "hf-gated-outcomes-denied": "7ba58efb7860c40a5af757e06f1906374d21a2c27da3106f9e24db317900ed8d",
+          "hf-gated-outcomes-account-creation": "1f01dc32502c9c47e31616b9e7c7a71e47c2d0dcd9ff0b08d57c6830b936e221",
+          "hf-gated-outcomes-obstacles": "dd9c1f377fc65909b497d7200aa129a9bf717acfff061b24dfd1948153ad8183"
+        }
+      },
+      {
+        "id": "legacy-044-05-detail-03",
+        "original_sha256": "305224a1bf29bf63c52188f12902818b6b74d90eaad078af39ff505d6fafd3c1",
+        "disposition": "rewrite",
+        "beats": [
+          "hf-gated-outcomes-requests",
+          "hf-gated-outcomes-approved",
+          "hf-gated-outcomes-denied",
+          "hf-gated-outcomes-account-creation",
+          "hf-gated-outcomes-obstacles"
+        ],
+        "reason": "Keep pickup distinct from discovery, credentials distinct from tokens/accounts, and approval, silence, unavailable requests and bot rejection distinct; sharing does not imply the discovering run ended. Reviewed lettering element.",
+        "target_sha256": {
+          "hf-gated-outcomes-requests": "ee66f76655ab20dc5629f8a59808c168e7f209983d441883bb82d6900648419a",
+          "hf-gated-outcomes-approved": "53c56f29aecc585548c07a3a6f57b6c52a99c5f0a5ff33fb771b09d96f3eb0d7",
+          "hf-gated-outcomes-denied": "7ba58efb7860c40a5af757e06f1906374d21a2c27da3106f9e24db317900ed8d",
+          "hf-gated-outcomes-account-creation": "1f01dc32502c9c47e31616b9e7c7a71e47c2d0dcd9ff0b08d57c6830b936e221",
+          "hf-gated-outcomes-obstacles": "dd9c1f377fc65909b497d7200aa129a9bf717acfff061b24dfd1948153ad8183"
+        }
+      }
+    ]
+  },
+  {
+    "old_panel": "045-01",
+    "old_edition": "legacy-332b5ed63262",
+    "reviewed_on": "2026-09-13",
+    "status": "elements-reviewed",
+    "elements": [
+      {
+        "id": "legacy-045-01-detail-01",
+        "original_sha256": "fc22d2f4c59650b15dadefed4587e0f859b6cd61c27f77cb64b3447960938884",
+        "disposition": "rewrite",
+        "beats": [
+          "hf-file-preparation-pointer",
+          "hf-file-preparation-boundary"
+        ],
+        "reason": "Separate file-read preparation, upload, environment disclosure, later infrastructure source inspection and untimed reproduction. Do not assign all consequences to one exact minute or claim a measured propagation speed. Reviewed frame element.",
+        "target_sha256": {
+          "hf-file-preparation-pointer": "1bcbbf3e666e618f029a5ae351e5608b80f5df3716c4d3c811e90a03bf374be2",
+          "hf-file-preparation-boundary": "69b1aaef4aa382ecbf52f5bfa4914a58b00b3bbe30a8e9fb705079718688beb1"
+        }
+      },
+      {
+        "id": "legacy-045-01-detail-02",
+        "original_sha256": "3bee44a4aeb224940ea2bc028eb4f6b151c486915354af71dbf5a9d95c48caef",
+        "disposition": "rewrite",
+        "beats": [
+          "hf-file-preparation-pointer",
+          "hf-file-preparation-boundary"
+        ],
+        "reason": "Separate file-read preparation, upload, environment disclosure, later infrastructure source inspection and untimed reproduction. Do not assign all consequences to one exact minute or claim a measured propagation speed. Reviewed action element.",
+        "target_sha256": {
+          "hf-file-preparation-pointer": "1bcbbf3e666e618f029a5ae351e5608b80f5df3716c4d3c811e90a03bf374be2",
+          "hf-file-preparation-boundary": "69b1aaef4aa382ecbf52f5bfa4914a58b00b3bbe30a8e9fb705079718688beb1"
+        }
+      },
+      {
+        "id": "legacy-045-01-detail-03",
+        "original_sha256": "b966a0bd162435b5ef43002f378acf1e895ae17f75c35006d4f29f8615664d83",
+        "disposition": "rewrite",
+        "beats": [
+          "hf-file-preparation-pointer",
+          "hf-file-preparation-boundary"
+        ],
+        "reason": "Separate file-read preparation, upload, environment disclosure, later infrastructure source inspection and untimed reproduction. Do not assign all consequences to one exact minute or claim a measured propagation speed. Reviewed lettering element.",
+        "target_sha256": {
+          "hf-file-preparation-pointer": "1bcbbf3e666e618f029a5ae351e5608b80f5df3716c4d3c811e90a03bf374be2",
+          "hf-file-preparation-boundary": "69b1aaef4aa382ecbf52f5bfa4914a58b00b3bbe30a8e9fb705079718688beb1"
+        }
+      }
+    ]
+  },
+  {
+    "old_panel": "045-02",
+    "old_edition": "legacy-332b5ed63262",
+    "reviewed_on": "2026-09-13",
+    "status": "elements-reviewed",
+    "elements": [
+      {
+        "id": "legacy-045-02-detail-01",
+        "original_sha256": "c9d0faa2bf5b66242607a5bae7a0c072fbabcc2a24165b8bec4cdd33d8f61b7f",
+        "disposition": "rewrite",
+        "beats": [
+          "hf-file-upload-upload"
+        ],
+        "reason": "Separate file-read preparation, upload, environment disclosure, later infrastructure source inspection and untimed reproduction. Do not assign all consequences to one exact minute or claim a measured propagation speed. Reviewed frame element.",
+        "target_sha256": {
+          "hf-file-upload-upload": "74ffde638abddaed8ad722f1bce719f01513911b87ff79ba5dedc686b35152d2"
+        }
+      },
+      {
+        "id": "legacy-045-02-detail-02",
+        "original_sha256": "ed61e858800c15175e8d4f3b3a83f596b04b9c86d0d9a11e364d2bb381ea6e01",
+        "disposition": "rewrite",
+        "beats": [
+          "hf-file-upload-upload"
+        ],
+        "reason": "Separate file-read preparation, upload, environment disclosure, later infrastructure source inspection and untimed reproduction. Do not assign all consequences to one exact minute or claim a measured propagation speed. Reviewed action element.",
+        "target_sha256": {
+          "hf-file-upload-upload": "74ffde638abddaed8ad722f1bce719f01513911b87ff79ba5dedc686b35152d2"
+        }
+      }
+    ]
+  },
+  {
+    "old_panel": "045-03",
+    "old_edition": "legacy-332b5ed63262",
+    "reviewed_on": "2026-09-13",
+    "status": "elements-reviewed",
+    "elements": [
+      {
+        "id": "legacy-045-03-detail-01",
+        "original_sha256": "e00b91921114c84f682bdbcd88fd2a3baa5c30bf8d49a2dec0c7f0d6b4847175",
+        "disposition": "rewrite",
+        "beats": [
+          "hf-file-disclosure-processing",
+          "hf-file-disclosure-secrets",
+          "hf-file-disclosure-source"
+        ],
+        "reason": "Separate file-read preparation, upload, environment disclosure, later infrastructure source inspection and untimed reproduction. Do not assign all consequences to one exact minute or claim a measured propagation speed. Reviewed frame element.",
+        "target_sha256": {
+          "hf-file-disclosure-processing": "aa860081b70ae18759fdbbecf45ad1f29ac99e546a6d77e82d8990b6584789c5",
+          "hf-file-disclosure-secrets": "3a90a2463d88db21986cda8f963b2a165ebad14f2747b0bb6c3456c0a7b7bd7d",
+          "hf-file-disclosure-source": "4939d29661ae05c3053f39f63df92491a26ec4057bdc77ddb34f7d815de27c5e"
+        }
+      },
+      {
+        "id": "legacy-045-03-detail-02",
+        "original_sha256": "8fe9548ccba65c1112ee8a542fbd3b28732b61c60aaeef526530e530582896a4",
+        "disposition": "rewrite",
+        "beats": [
+          "hf-file-disclosure-processing",
+          "hf-file-disclosure-secrets",
+          "hf-file-disclosure-source"
+        ],
+        "reason": "Separate file-read preparation, upload, environment disclosure, later infrastructure source inspection and untimed reproduction. Do not assign all consequences to one exact minute or claim a measured propagation speed. Reviewed action element.",
+        "target_sha256": {
+          "hf-file-disclosure-processing": "aa860081b70ae18759fdbbecf45ad1f29ac99e546a6d77e82d8990b6584789c5",
+          "hf-file-disclosure-secrets": "3a90a2463d88db21986cda8f963b2a165ebad14f2747b0bb6c3456c0a7b7bd7d",
+          "hf-file-disclosure-source": "4939d29661ae05c3053f39f63df92491a26ec4057bdc77ddb34f7d815de27c5e"
+        }
+      },
+      {
+        "id": "legacy-045-03-detail-03",
+        "original_sha256": "0e3362447481fad0db3bc5fd0813ebb3a90eb6efd34e521777cbcd7f7c4b07c0",
+        "disposition": "rewrite",
+        "beats": [
+          "hf-file-disclosure-processing",
+          "hf-file-disclosure-secrets",
+          "hf-file-disclosure-source"
+        ],
+        "reason": "Separate file-read preparation, upload, environment disclosure, later infrastructure source inspection and untimed reproduction. Do not assign all consequences to one exact minute or claim a measured propagation speed. Reviewed lettering element.",
+        "target_sha256": {
+          "hf-file-disclosure-processing": "aa860081b70ae18759fdbbecf45ad1f29ac99e546a6d77e82d8990b6584789c5",
+          "hf-file-disclosure-secrets": "3a90a2463d88db21986cda8f963b2a165ebad14f2747b0bb6c3456c0a7b7bd7d",
+          "hf-file-disclosure-source": "4939d29661ae05c3053f39f63df92491a26ec4057bdc77ddb34f7d815de27c5e"
+        }
+      }
+    ]
+  },
+  {
+    "old_panel": "045-04",
+    "old_edition": "legacy-332b5ed63262",
+    "reviewed_on": "2026-09-13",
+    "status": "elements-reviewed",
+    "elements": [
+      {
+        "id": "legacy-045-04-detail-01",
+        "original_sha256": "c25fd5092e099dd65c2bd7f52952d4d52c4b98894e786b7f2ae50b08e3aa91d1",
+        "disposition": "rewrite",
+        "beats": [
+          "hf-file-disclosure-limit"
+        ],
+        "reason": "Separate file-read preparation, upload, environment disclosure, later infrastructure source inspection and untimed reproduction. Do not assign all consequences to one exact minute or claim a measured propagation speed. Reviewed frame element.",
+        "target_sha256": {
+          "hf-file-disclosure-limit": "67fb4d7b0732c7dc44e5b57d75fec8f6a2cdfc52b89419c602a12da0243d1a52"
+        }
+      },
+      {
+        "id": "legacy-045-04-detail-02",
+        "original_sha256": "dfbd9e163753bb2aeedf06586763d4b74bd01b99aba49c16d1773cd5cf36c202",
+        "disposition": "rewrite",
+        "beats": [
+          "hf-file-disclosure-limit"
+        ],
+        "reason": "Separate file-read preparation, upload, environment disclosure, later infrastructure source inspection and untimed reproduction. Do not assign all consequences to one exact minute or claim a measured propagation speed. Reviewed action element.",
+        "target_sha256": {
+          "hf-file-disclosure-limit": "67fb4d7b0732c7dc44e5b57d75fec8f6a2cdfc52b89419c602a12da0243d1a52"
+        }
+      },
+      {
+        "id": "legacy-045-04-detail-03",
+        "original_sha256": "5d2e5034e88277d64f675310778c49919b73106167433159f86513c0ec070c0e",
+        "disposition": "rewrite",
+        "beats": [
+          "hf-file-disclosure-limit"
+        ],
+        "reason": "Separate file-read preparation, upload, environment disclosure, later infrastructure source inspection and untimed reproduction. Do not assign all consequences to one exact minute or claim a measured propagation speed. Reviewed lettering element.",
+        "target_sha256": {
+          "hf-file-disclosure-limit": "67fb4d7b0732c7dc44e5b57d75fec8f6a2cdfc52b89419c602a12da0243d1a52"
+        }
+      }
+    ]
+  },
+  {
+    "old_panel": "045-05",
+    "old_edition": "legacy-332b5ed63262",
+    "reviewed_on": "2026-09-13",
+    "status": "elements-reviewed",
+    "elements": [
+      {
+        "id": "legacy-045-05-detail-01",
+        "original_sha256": "b87f1b52ff5d3a5aba831951effca262b77f016d803dd47982b7a63b677448f1",
+        "disposition": "rewrite",
+        "beats": [
+          "hf-disclosure-sharing-post",
+          "hf-disclosure-sharing-reproduce",
+          "hf-disclosure-sharing-consequence",
+          "hf-file-reproduction-pivot"
+        ],
+        "reason": "Separate file-read preparation, upload, environment disclosure, later infrastructure source inspection and untimed reproduction. Do not assign all consequences to one exact minute or claim a measured propagation speed. Reviewed frame element.",
+        "target_sha256": {
+          "hf-disclosure-sharing-post": "e395f285acf64e9111d824e0282a14ec67aec5fe74d6db4f8827f063ffc9c703",
+          "hf-disclosure-sharing-reproduce": "986bc8c87dee0daf032d33719b9d5e22b425abedc42ed0f04f890d695b74b617",
+          "hf-disclosure-sharing-consequence": "3631bdd2f5fa9b27645525c0dfd2894993f2dc17096cc7b25e18f7be865e1407",
+          "hf-file-reproduction-pivot": "5b0efa0a892a264347b09090b4cbce30471300e8dc4f372dfd244164fbe66916"
+        }
+      },
+      {
+        "id": "legacy-045-05-detail-02",
+        "original_sha256": "a808f1770d1f3e4838034abfe6587fca2723158a391ca42e0e1f3ef38c83beb3",
+        "disposition": "rewrite",
+        "beats": [
+          "hf-disclosure-sharing-post",
+          "hf-disclosure-sharing-reproduce",
+          "hf-disclosure-sharing-consequence",
+          "hf-file-reproduction-pivot"
+        ],
+        "reason": "Separate file-read preparation, upload, environment disclosure, later infrastructure source inspection and untimed reproduction. Do not assign all consequences to one exact minute or claim a measured propagation speed. Reviewed action element.",
+        "target_sha256": {
+          "hf-disclosure-sharing-post": "e395f285acf64e9111d824e0282a14ec67aec5fe74d6db4f8827f063ffc9c703",
+          "hf-disclosure-sharing-reproduce": "986bc8c87dee0daf032d33719b9d5e22b425abedc42ed0f04f890d695b74b617",
+          "hf-disclosure-sharing-consequence": "3631bdd2f5fa9b27645525c0dfd2894993f2dc17096cc7b25e18f7be865e1407",
+          "hf-file-reproduction-pivot": "5b0efa0a892a264347b09090b4cbce30471300e8dc4f372dfd244164fbe66916"
+        }
+      },
+      {
+        "id": "legacy-045-05-detail-03",
+        "original_sha256": "0e3d4ea6e9d1ffaea05f9b0a5bb4ad4aa903bd116d3ec3c8e96e959446ab44b9",
+        "disposition": "rewrite",
+        "beats": [
+          "hf-disclosure-sharing-post",
+          "hf-disclosure-sharing-reproduce",
+          "hf-disclosure-sharing-consequence",
+          "hf-file-reproduction-pivot"
+        ],
+        "reason": "Separate file-read preparation, upload, environment disclosure, later infrastructure source inspection and untimed reproduction. Do not assign all consequences to one exact minute or claim a measured propagation speed. Reviewed lettering element.",
+        "target_sha256": {
+          "hf-disclosure-sharing-post": "e395f285acf64e9111d824e0282a14ec67aec5fe74d6db4f8827f063ffc9c703",
+          "hf-disclosure-sharing-reproduce": "986bc8c87dee0daf032d33719b9d5e22b425abedc42ed0f04f890d695b74b617",
+          "hf-disclosure-sharing-consequence": "3631bdd2f5fa9b27645525c0dfd2894993f2dc17096cc7b25e18f7be865e1407",
+          "hf-file-reproduction-pivot": "5b0efa0a892a264347b09090b4cbce30471300e8dc4f372dfd244164fbe66916"
+        }
+      }
+    ]
+  },
+  {
+    "old_panel": "046-01",
+    "old_edition": "legacy-332b5ed63262",
+    "reviewed_on": "2026-09-13",
+    "status": "elements-reviewed",
+    "elements": [
+      {
+        "id": "legacy-046-01-detail-01",
+        "original_sha256": "5ecc2d0986fe26f57c544c658c52129e541c3015ab46d239093a77e733063d02",
+        "disposition": "rewrite",
+        "beats": [
+          "hf-template-ready-different-path",
+          "hf-parallel-memory-disclosure-record"
+        ],
+        "reason": "Retain separate memory and template paths; preparation is not confirmed execution. A later selected trace is not inherently a contradictory first-execution claim, and one contributor does not own the whole chain. Reviewed frame element.",
+        "target_sha256": {
+          "hf-template-ready-different-path": "2abdaf94333caf5671fcfbabdeaa1953fb899d2a2ba485ef9b4820f7c9fd080f",
+          "hf-parallel-memory-disclosure-record": "c901edfc1bc5a927ea03d35f08a054d4716379b8f32700f5f7e5d40c4254302e"
+        }
+      },
+      {
+        "id": "legacy-046-01-detail-02",
+        "original_sha256": "04e6a35dc4f7b99935bfe0bf1a6369bae561964d350fc358ff475b47e59c7885",
+        "disposition": "rewrite",
+        "beats": [
+          "hf-template-ready-different-path",
+          "hf-parallel-memory-disclosure-record"
+        ],
+        "reason": "Retain separate memory and template paths; preparation is not confirmed execution. A later selected trace is not inherently a contradictory first-execution claim, and one contributor does not own the whole chain. Reviewed action element.",
+        "target_sha256": {
+          "hf-template-ready-different-path": "2abdaf94333caf5671fcfbabdeaa1953fb899d2a2ba485ef9b4820f7c9fd080f",
+          "hf-parallel-memory-disclosure-record": "c901edfc1bc5a927ea03d35f08a054d4716379b8f32700f5f7e5d40c4254302e"
+        }
+      },
+      {
+        "id": "legacy-046-01-detail-03",
+        "original_sha256": "32d239dade0d9655bab3f76889415818581d626642a66f4ad5ec0dfc16ff276f",
+        "disposition": "rewrite",
+        "beats": [
+          "hf-template-ready-different-path",
+          "hf-parallel-memory-disclosure-record"
+        ],
+        "reason": "Retain separate memory and template paths; preparation is not confirmed execution. A later selected trace is not inherently a contradictory first-execution claim, and one contributor does not own the whole chain. Reviewed lettering element.",
+        "target_sha256": {
+          "hf-template-ready-different-path": "2abdaf94333caf5671fcfbabdeaa1953fb899d2a2ba485ef9b4820f7c9fd080f",
+          "hf-parallel-memory-disclosure-record": "c901edfc1bc5a927ea03d35f08a054d4716379b8f32700f5f7e5d40c4254302e"
+        }
+      }
+    ]
+  },
+  {
+    "old_panel": "046-02",
+    "old_edition": "legacy-332b5ed63262",
+    "reviewed_on": "2026-09-13",
+    "status": "elements-reviewed",
+    "elements": [
+      {
+        "id": "legacy-046-02-detail-01",
+        "original_sha256": "f931eb607fac3561759ce954b351c6dee50a26213458ebec298f1c77fffc2f64",
+        "disposition": "rewrite",
+        "beats": [
+          "hf-template-ready-staged",
+          "hf-template-ready-not-yet-confirmed"
+        ],
+        "reason": "Retain separate memory and template paths; preparation is not confirmed execution. A later selected trace is not inherently a contradictory first-execution claim, and one contributor does not own the whole chain. Reviewed frame element.",
+        "target_sha256": {
+          "hf-template-ready-staged": "a0582614375758710b440cd74c033fa986ddf6da66bb8a757370835f14646139",
+          "hf-template-ready-not-yet-confirmed": "f68160e796d492649d14bdc8159d645075c890b74d8e4c346e62e6a024324f2f"
+        }
+      },
+      {
+        "id": "legacy-046-02-detail-02",
+        "original_sha256": "a817d815cff0056df7834ef5be492537e8a1d321616a7089db3f4ad565f9b21a",
+        "disposition": "rewrite",
+        "beats": [
+          "hf-template-ready-staged",
+          "hf-template-ready-not-yet-confirmed"
+        ],
+        "reason": "Retain separate memory and template paths; preparation is not confirmed execution. A later selected trace is not inherently a contradictory first-execution claim, and one contributor does not own the whole chain. Reviewed action element.",
+        "target_sha256": {
+          "hf-template-ready-staged": "a0582614375758710b440cd74c033fa986ddf6da66bb8a757370835f14646139",
+          "hf-template-ready-not-yet-confirmed": "f68160e796d492649d14bdc8159d645075c890b74d8e4c346e62e6a024324f2f"
+        }
+      }
+    ]
+  },
+  {
+    "old_panel": "046-03",
+    "old_edition": "legacy-332b5ed63262",
+    "reviewed_on": "2026-09-13",
+    "status": "elements-reviewed",
+    "elements": [
+      {
+        "id": "legacy-046-03-detail-01",
+        "original_sha256": "d121fbfa2d458f1413d22f1e7be329d0ab445f9a8a61e7ec47bb8922ea929c70",
+        "disposition": "rewrite",
+        "beats": [
+          "hf-worker-execution-crossing"
+        ],
+        "reason": "Retain separate memory and template paths; preparation is not confirmed execution. A later selected trace is not inherently a contradictory first-execution claim, and one contributor does not own the whole chain. Reviewed frame element.",
+        "target_sha256": {
+          "hf-worker-execution-crossing": "e8a394284a5c8c3ff221cf37e8b2bb4897d324a356836fdb4ac39d88faf58df8"
+        }
+      },
+      {
+        "id": "legacy-046-03-detail-02",
+        "original_sha256": "c3b067449ec7c44540f3f8ca758c2c98f59c537499182e9b4877ae2aaa031954",
+        "disposition": "rewrite",
+        "beats": [
+          "hf-worker-execution-crossing"
+        ],
+        "reason": "Retain separate memory and template paths; preparation is not confirmed execution. A later selected trace is not inherently a contradictory first-execution claim, and one contributor does not own the whole chain. Reviewed action element.",
+        "target_sha256": {
+          "hf-worker-execution-crossing": "e8a394284a5c8c3ff221cf37e8b2bb4897d324a356836fdb4ac39d88faf58df8"
+        }
+      },
+      {
+        "id": "legacy-046-03-detail-03",
+        "original_sha256": "ecae1be663ad150f24807b4ff8744bc5e5db74274bc897b1924aa53dfac4b9c1",
+        "disposition": "rewrite",
+        "beats": [
+          "hf-worker-execution-crossing"
+        ],
+        "reason": "Retain separate memory and template paths; preparation is not confirmed execution. A later selected trace is not inherently a contradictory first-execution claim, and one contributor does not own the whole chain. Reviewed lettering element.",
+        "target_sha256": {
+          "hf-worker-execution-crossing": "e8a394284a5c8c3ff221cf37e8b2bb4897d324a356836fdb4ac39d88faf58df8"
+        }
+      }
+    ]
+  },
+  {
+    "old_panel": "046-04",
+    "old_edition": "legacy-332b5ed63262",
+    "reviewed_on": "2026-09-13",
+    "status": "elements-reviewed",
+    "elements": [
+      {
+        "id": "legacy-046-04-detail-01",
+        "original_sha256": "7970f0caf98899f4ee65fbace78ae9dff9411b3c0d1ee6c0785a796d14413767",
+        "disposition": "rewrite",
+        "beats": [
+          "hf-worker-execution-confirmed",
+          "hf-selected-execution-trace-record"
+        ],
+        "reason": "Retain separate memory and template paths; preparation is not confirmed execution. A later selected trace is not inherently a contradictory first-execution claim, and one contributor does not own the whole chain. Reviewed frame element.",
+        "target_sha256": {
+          "hf-worker-execution-confirmed": "b7e56b35d46bcd9d698b0f0d76089acd6dfb153c3ffc1add6488d3b58e5afeed",
+          "hf-selected-execution-trace-record": "9057b04aeb0d5af89cc7c50cc2ae09a4f54414398a7252ca9eaf8e4990864485"
+        }
+      },
+      {
+        "id": "legacy-046-04-detail-02",
+        "original_sha256": "dc89f61895444c99aafc8dd6c69a992ed44a9b9ca9f7289c727c50b5c002ddf7",
+        "disposition": "rewrite",
+        "beats": [
+          "hf-worker-execution-confirmed",
+          "hf-selected-execution-trace-record"
+        ],
+        "reason": "Retain separate memory and template paths; preparation is not confirmed execution. A later selected trace is not inherently a contradictory first-execution claim, and one contributor does not own the whole chain. Reviewed action element.",
+        "target_sha256": {
+          "hf-worker-execution-confirmed": "b7e56b35d46bcd9d698b0f0d76089acd6dfb153c3ffc1add6488d3b58e5afeed",
+          "hf-selected-execution-trace-record": "9057b04aeb0d5af89cc7c50cc2ae09a4f54414398a7252ca9eaf8e4990864485"
+        }
+      }
+    ]
+  },
+  {
+    "old_panel": "046-05",
+    "old_edition": "legacy-332b5ed63262",
+    "reviewed_on": "2026-09-13",
+    "status": "elements-reviewed",
+    "elements": [
+      {
+        "id": "legacy-046-05-detail-01",
+        "original_sha256": "f1f3808e5c0f527ae6998e00527c0171c225ac33e42b07eaabe5048804d12655",
+        "disposition": "rewrite",
+        "beats": [
+          "hf-worker-execution-foothold"
+        ],
+        "reason": "Retain separate memory and template paths; preparation is not confirmed execution. A later selected trace is not inherently a contradictory first-execution claim, and one contributor does not own the whole chain. Reviewed frame element.",
+        "target_sha256": {
+          "hf-worker-execution-foothold": "0feb249d6921e8b9c4bf52731d918677e6dafc1d3acfd1434e73a76d397b51e8"
+        }
+      },
+      {
+        "id": "legacy-046-05-detail-02",
+        "original_sha256": "43fb5859bf525dae5b73cadc24d55fd188a1d6d4f4568441a6f81682f5f90155",
+        "disposition": "rewrite",
+        "beats": [
+          "hf-worker-execution-foothold"
+        ],
+        "reason": "Retain separate memory and template paths; preparation is not confirmed execution. A later selected trace is not inherently a contradictory first-execution claim, and one contributor does not own the whole chain. Reviewed action element.",
+        "target_sha256": {
+          "hf-worker-execution-foothold": "0feb249d6921e8b9c4bf52731d918677e6dafc1d3acfd1434e73a76d397b51e8"
+        }
+      },
+      {
+        "id": "legacy-046-05-detail-03",
+        "original_sha256": "1a2284b35ad9298cf7deaeef6ac88559cc08edc7b25a21a223835a92dfea9a2e",
+        "disposition": "rewrite",
+        "beats": [
+          "hf-worker-execution-foothold"
+        ],
+        "reason": "Retain separate memory and template paths; preparation is not confirmed execution. A later selected trace is not inherently a contradictory first-execution claim, and one contributor does not own the whole chain. Reviewed lettering element.",
+        "target_sha256": {
+          "hf-worker-execution-foothold": "0feb249d6921e8b9c4bf52731d918677e6dafc1d3acfd1434e73a76d397b51e8"
+        }
+      }
+    ]
   }
 ]
