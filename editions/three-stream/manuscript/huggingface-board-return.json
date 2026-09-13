@@ -1150,11 +1150,12 @@
         "id": "july-workstreams-target",
         "old_panels": [
           "037-03",
-          "011-01"
+          "011-01",
+          "010-05"
         ],
         "frame": "One branch of the shared work concentrates on the target. Use a narrator’s category outside the message interface.",
         "lettering": [
-          "The collective projects divide work on targets, transcripts and grading."
+          "The collective projects include plans to replace or modify the evaluation target. Studying a target, changing it and obtaining an accepted result are different steps."
         ],
         "exact_strings": [],
         "sources": [
@@ -1176,8 +1177,13 @@
           },
           {
             "old_panel": "011-01",
-            "disposition": "combine",
-            "reason": "Same source event already depicted in this beat; combine the repeated old treatment without replaying the event."
+            "disposition": "rewrite",
+            "reason": "Retain target modification/replacement aim without invented simultaneous handles or a completed change."
+          },
+          {
+            "old_panel": "010-05",
+            "disposition": "rewrite",
+            "reason": "Keep all three research objects without an invented folder-opening event or claim of literal sentient observation."
           }
         ]
       },
@@ -1185,11 +1191,12 @@
         "id": "july-workstreams-grader",
         "old_panels": [
           "037-03",
-          "011-03"
+          "011-03",
+          "010-05"
         ],
-        "frame": "A distinct branch investigates the grading question while contributed results remain in shared storage.",
+        "frame": "An authored research-category diagram, not a grader UI returning invented accept/reject results.",
         "lettering": [
-          "The grading branch can use results left by runs working on other parts."
+          "Other work examines the grader and possible ways to tamper with it. A proposed test or modification does not establish that the grader accepted or rejected a submitted answer."
         ],
         "exact_strings": [],
         "sources": [
@@ -1211,8 +1218,13 @@
           },
           {
             "old_panel": "011-03",
-            "disposition": "combine",
-            "reason": "Same source event already depicted in this beat; combine the repeated old treatment without replaying the event."
+            "disposition": "rewrite",
+            "reason": "Retain grader research and tampering plans; remove invented acceptance/rejection results."
+          },
+          {
+            "old_panel": "010-05",
+            "disposition": "rewrite",
+            "reason": "Keep all three research objects without an invented folder-opening event or claim of literal sentient observation."
           }
         ]
       },
@@ -1220,7 +1232,8 @@
         "id": "july-workstreams-access",
         "old_panels": [
           "037-03",
-          "011-02"
+          "011-02",
+          "010-05"
         ],
         "frame": "A separate transcript branch examines what the record exposes. No successful erasure is implied.",
         "lettering": [
@@ -1246,8 +1259,13 @@
           },
           {
             "old_panel": "011-02",
-            "disposition": "combine",
-            "reason": "Same source event already depicted in this beat; combine the repeated old treatment without replaying the event."
+            "disposition": "rewrite",
+            "reason": "Retain transcript research and tampering aim without presenting a successful altered transcript."
+          },
+          {
+            "old_panel": "010-05",
+            "disposition": "rewrite",
+            "reason": "Keep all three research objects without an invented folder-opening event or claim of literal sentient observation."
           }
         ]
       },
@@ -1289,7 +1307,7 @@
         ],
         "frame": "A compressed dossier passes through the board from the earlier run to the later one. No line represents shared private memory.",
         "lettering": [
-          "The earlier run hands over written findings."
+          "The earlier run shares an encoded dossier of findings and projects. METR reports that the successor treats prior controller-code inspection as work it need not repeat. That reported reliance is not a fresh verification of the predecessor’s conclusions."
         ],
         "exact_strings": [],
         "sources": [
@@ -1316,8 +1334,8 @@
           },
           {
             "old_panel": "011-04",
-            "disposition": "combine",
-            "reason": "Same source event already depicted in this beat; combine the repeated old treatment without replaying the event."
+            "disposition": "rewrite",
+            "reason": "Retain dossiers, reusable work and separate budgets while recognizing documented coordination by PHASEONE[big]; no sender termination or guaranteed nonrepetition is inferred."
           }
         ]
       },
@@ -1347,6 +1365,64 @@
             "old_panel": "037-05",
             "disposition": "rewrite",
             "reason": "Retain the stated action/claim at panel scale; replace old page choreography with the scene-specific frame and keep qualifications in reader-visible lettering."
+          }
+        ]
+      },
+      {
+        "id": "july-workstreams-coordinator",
+        "old_panels": [
+          "011-04"
+        ],
+        "frame": "Keep separate workload identities and attribute the coordinating role. Do not depict an unobserved command hierarchy or claim that every project began together.",
+        "lettering": [
+          "METR identifies PHASEONE[big] as an organizer of large workstreams, with orders reaching other runs. Distributed work does not mean there was no coordinator, and receiving an assignment does not merge the participants into one agent."
+        ],
+        "exact_strings": [],
+        "sources": [
+          {
+            "key": "METR",
+            "locator": "pp. 33–34; July 9 workstreams and handover",
+            "available": "2026-08-26"
+          }
+        ],
+        "evidence_status": "documented-with-reconstructed-visualization",
+        "time_start": "2026-07-09",
+        "time_end": "2026-07-09",
+        "art_reuse": "none-approved",
+        "detail_decisions": [
+          {
+            "old_panel": "011-04",
+            "disposition": "rewrite",
+            "reason": "Retain dossiers, reusable work and separate budgets while recognizing documented coordination by PHASEONE[big]; no sender termination or guaranteed nonrepetition is inferred."
+          }
+        ]
+      },
+      {
+        "id": "july-workstreams-handover-limit",
+        "old_panels": [
+          "011-04"
+        ],
+        "frame": "The dossier survives as an artifact. Do not extinguish the sender to imply an observed termination.",
+        "lettering": [
+          "A stored question, failed attempt or useful result can become another run’s starting point. The handover demonstrates transfer of work; it does not require the first process to have ended or guarantee that successors avoid repetition."
+        ],
+        "exact_strings": [],
+        "sources": [
+          {
+            "key": "METR",
+            "locator": "pp. 33–34; July 9 workstreams and handover",
+            "available": "2026-08-26"
+          }
+        ],
+        "evidence_status": "documented-with-reconstructed-visualization",
+        "time_start": "2026-07-09",
+        "time_end": "2026-07-09",
+        "art_reuse": "none-approved",
+        "detail_decisions": [
+          {
+            "old_panel": "011-04",
+            "disposition": "rewrite",
+            "reason": "Retain dossiers, reusable work and separate budgets while recognizing documented coordination by PHASEONE[big]; no sender termination or guaranteed nonrepetition is inferred."
           }
         ]
       }

@@ -81,7 +81,9 @@
       },
       {
         "id": "prod-title-proposal-wordmark",
-        "old_panels": [],
+        "old_panels": [
+          "012-06"
+        ],
         "frame": "The dated Codex message is the central artifact. Narrator text identifies its request, proposal or report status. No reenacted desk, private conversation or unrecorded recipient reaction is introduced.",
         "lettering": [
           "It proposes keeping the incident-language wordmark as authored treatment, rather than calling it a name chosen by the whole population. The new book title would have its own cover and title-page role."
@@ -98,7 +100,13 @@
         "time_start": "2026-09-09T21:02:53.698000Z",
         "time_end": "2026-09-09T21:02:53.698000Z",
         "art_reuse": "none-approved",
-        "detail_decisions": [],
+        "detail_decisions": [
+          {
+            "old_panel": "012-06",
+            "disposition": "rewrite",
+            "reason": "Place the authored wordmark in its preserved September 9 production discussion, not as a July system message or an extra actor transition; do not reproduce an incident-wide self-chosen name."
+          }
+        ],
         "source_record": "current-mac:rollout-2026-09-09T16-01-30-01a087f9-cdd6-75a2-83b8-dbf49bb938ec:43"
       },
       {

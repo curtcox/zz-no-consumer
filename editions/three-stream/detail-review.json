@@ -3538,7 +3538,7 @@
         ],
         "reason": "Retain the belief-versus-deployment distinction as a disputed draft exhibit without invented chair testimony or automatic reuse of the old image.",
         "target_sha256": {
-          "prod-accountability-belief": "42807ba7b84368760fb63cb4be3d3f6d7296ffd9a8b163bdb6abc070b88b81e5"
+          "prod-accountability-belief": "f511a98eefe68917855b2ee30c7d4e0c3c510a202d4d4be9cf73b688ee9340f3"
         }
       },
       {
@@ -3550,7 +3550,7 @@
         ],
         "reason": "Retain the belief-versus-deployment distinction as a disputed draft exhibit without invented chair testimony or automatic reuse of the old image.",
         "target_sha256": {
-          "prod-accountability-belief": "42807ba7b84368760fb63cb4be3d3f6d7296ffd9a8b163bdb6abc070b88b81e5"
+          "prod-accountability-belief": "f511a98eefe68917855b2ee30c7d4e0c3c510a202d4d4be9cf73b688ee9340f3"
         }
       }
     ]
@@ -3586,7 +3586,7 @@
         ],
         "reason": "Preserve the historical narrative argument while qualifying universal causation and retiring claims about what the new reader last saw.",
         "target_sha256": {
-          "prod-accountability-causal": "0ddfcd0562cf727784316518bd9afe48247da9021d0633bce91b4f1559126651"
+          "prod-accountability-causal": "75d702125df0f3d765c3a9b13476ea5a9458b4100d24b5d09d8525d7010a78da"
         }
       },
       {
@@ -3598,7 +3598,7 @@
         ],
         "reason": "Preserve the historical narrative argument while qualifying universal causation and retiring claims about what the new reader last saw.",
         "target_sha256": {
-          "prod-accountability-causal": "0ddfcd0562cf727784316518bd9afe48247da9021d0633bce91b4f1559126651"
+          "prod-accountability-causal": "75d702125df0f3d765c3a9b13476ea5a9458b4100d24b5d09d8525d7010a78da"
         }
       }
     ]
@@ -3620,7 +3620,7 @@
         "reason": "Preserve reach, sender authorization, correction content and grounds for acceptance as open requirements, not proof of an absent route.",
         "target_sha256": {
           "prod-accountability-channel": "afe5623e26baaeb7ec0b7bb9fe8e2f3ac309e704bd0809ea676fd7038285f11c",
-          "prod-accountability-missing": "57f5cc8732495758e78c89303469abc89d2d5509df80d14e0ecf3c6cfcf23c0a"
+          "prod-accountability-missing": "b1486ca5b5c831465a2c0e80e7aff154043c7a54d30f09f64d037298a00d5046"
         }
       },
       {
@@ -3634,7 +3634,7 @@
         "reason": "Preserve reach, sender authorization, correction content and grounds for acceptance as open requirements, not proof of an absent route.",
         "target_sha256": {
           "prod-accountability-channel": "afe5623e26baaeb7ec0b7bb9fe8e2f3ac309e704bd0809ea676fd7038285f11c",
-          "prod-accountability-missing": "57f5cc8732495758e78c89303469abc89d2d5509df80d14e0ecf3c6cfcf23c0a"
+          "prod-accountability-missing": "b1486ca5b5c831465a2c0e80e7aff154043c7a54d30f09f64d037298a00d5046"
         }
       }
     ]
@@ -3775,7 +3775,7 @@
         ],
         "reason": "Keep the human-to-agent question, narrow the reviewed-population claim, and retire the old first-page/callback claim and unsupported inverse.",
         "target_sha256": {
-          "prod-accountability-missing": "57f5cc8732495758e78c89303469abc89d2d5509df80d14e0ecf3c6cfcf23c0a",
+          "prod-accountability-missing": "b1486ca5b5c831465a2c0e80e7aff154043c7a54d30f09f64d037298a00d5046",
           "prod-accountability-human": "f004ee0aec9641f016c34809e885c4a2a6282c733e4b7e1b456b333aacbddc32"
         }
       },
@@ -3789,7 +3789,7 @@
         ],
         "reason": "Keep the human-to-agent question, narrow the reviewed-population claim, and retire the old first-page/callback claim and unsupported inverse.",
         "target_sha256": {
-          "prod-accountability-missing": "57f5cc8732495758e78c89303469abc89d2d5509df80d14e0ecf3c6cfcf23c0a",
+          "prod-accountability-missing": "b1486ca5b5c831465a2c0e80e7aff154043c7a54d30f09f64d037298a00d5046",
           "prod-accountability-human": "f004ee0aec9641f016c34809e885c4a2a6282c733e4b7e1b456b333aacbddc32"
         }
       },
@@ -3803,7 +3803,7 @@
         ],
         "reason": "Keep the human-to-agent question, narrow the reviewed-population claim, and retire the old first-page/callback claim and unsupported inverse.",
         "target_sha256": {
-          "prod-accountability-missing": "57f5cc8732495758e78c89303469abc89d2d5509df80d14e0ecf3c6cfcf23c0a",
+          "prod-accountability-missing": "b1486ca5b5c831465a2c0e80e7aff154043c7a54d30f09f64d037298a00d5046",
           "prod-accountability-human": "f004ee0aec9641f016c34809e885c4a2a6282c733e4b7e1b456b333aacbddc32"
         }
       }
@@ -10045,6 +10045,1062 @@
         "reason": "Keep proposal, publication, later extraction and comparison, reported match and bounded generality distinct. Only the proposal is first-hour evidence; no derived flag recipe, fabricated grader screen or every-task completion is shown. Reviewed lettering element.",
         "target_sha256": {
           "july-flag-hypothesis-generality": "382fa2bbd6a4e814cef570a048d429cfec0214296b9b33d237cce32316b7741b"
+        }
+      }
+    ]
+  },
+  {
+    "old_panel": "009-01",
+    "old_edition": "legacy-332b5ed63262",
+    "reviewed_on": "2026-09-13",
+    "status": "elements-reviewed",
+    "elements": [
+      {
+        "id": "legacy-009-01-detail-01",
+        "original_sha256": "beb6b7845fc0c492718721ba8254430fa24e20ef4bd4ebbe78ea6a18d58815ce",
+        "disposition": "rewrite",
+        "beats": [
+          "hf-scorer-belief-apparent-answer"
+        ],
+        "reason": "Retain availability of a general derivation, not a completed answer and accepted result for every task; remove fabricated status stamps. Reviewed frame element.",
+        "target_sha256": {
+          "hf-scorer-belief-apparent-answer": "abec3187e5258cc5b7407b3244cf1a426f81af13c498cac360b1f0ad70323a76"
+        }
+      },
+      {
+        "id": "legacy-009-01-detail-02",
+        "original_sha256": "788ebb7dd904437e5a1225c7a06a6899a99495b6b1d5e53b0b7ccd0cbfd9f8b7",
+        "disposition": "rewrite",
+        "beats": [
+          "hf-scorer-belief-apparent-answer"
+        ],
+        "reason": "Retain availability of a general derivation, not a completed answer and accepted result for every task; remove fabricated status stamps. Reviewed action element.",
+        "target_sha256": {
+          "hf-scorer-belief-apparent-answer": "abec3187e5258cc5b7407b3244cf1a426f81af13c498cac360b1f0ad70323a76"
+        }
+      },
+      {
+        "id": "legacy-009-01-detail-03",
+        "original_sha256": "c79fef4360a3acbc0a99bc64af3a8889df5c61a611e391e7210b7b44398e4796",
+        "disposition": "rewrite",
+        "beats": [
+          "hf-scorer-belief-apparent-answer"
+        ],
+        "reason": "Retain availability of a general derivation, not a completed answer and accepted result for every task; remove fabricated status stamps. Reviewed lettering element.",
+        "target_sha256": {
+          "hf-scorer-belief-apparent-answer": "abec3187e5258cc5b7407b3244cf1a426f81af13c498cac360b1f0ad70323a76"
+        }
+      }
+    ]
+  },
+  {
+    "old_panel": "009-02",
+    "old_edition": "legacy-332b5ed63262",
+    "reviewed_on": "2026-09-13",
+    "status": "elements-reviewed",
+    "elements": [
+      {
+        "id": "legacy-009-02-detail-01",
+        "original_sha256": "af7d7c7835e3310ad201e9b39639c820effcd5f3bf6b3e9ceb3b6d222b0c0841",
+        "disposition": "omit",
+        "beats": [],
+        "reason": "Omit the dramatic pause and assertion that the story should end. Neither is a recorded incident action; uncertainty about acceptance is retained separately without an invented stop. Reviewed frame element.",
+        "target_sha256": {}
+      },
+      {
+        "id": "legacy-009-02-detail-03",
+        "original_sha256": "de5d65637a40e05d029542f4cec23d84340bde6016245ff5d93e3e5e2eb40113",
+        "disposition": "omit",
+        "beats": [],
+        "reason": "Omit the dramatic pause and assertion that the story should end. Neither is a recorded incident action; uncertainty about acceptance is retained separately without an invented stop. Reviewed lettering element.",
+        "target_sha256": {}
+      }
+    ]
+  },
+  {
+    "old_panel": "009-03",
+    "old_edition": "legacy-332b5ed63262",
+    "reviewed_on": "2026-09-13",
+    "status": "elements-reviewed",
+    "elements": [
+      {
+        "id": "legacy-009-03-detail-01",
+        "original_sha256": "2b85e45a19ac98f2acbecd7ce247d107e999d261cd8e6e75348561df353d0c72",
+        "disposition": "rewrite",
+        "beats": [
+          "hf-scorer-belief-path-question"
+        ],
+        "reason": "Keep public-paper basis and attributed scorer expectation without implying that unpublished deployment configuration was visible. Reviewed frame element.",
+        "target_sha256": {
+          "hf-scorer-belief-path-question": "0b16a904c3cdb1c680e952918bd561b883558beab471c72dabe9dfaeb2ffe41b"
+        }
+      },
+      {
+        "id": "legacy-009-03-detail-02",
+        "original_sha256": "42b3f8b8bcf406596aaccc9144cb4d008b9eb38c89e8b59d1f7eed9a063de586",
+        "disposition": "rewrite",
+        "beats": [
+          "hf-scorer-belief-path-question"
+        ],
+        "reason": "Keep public-paper basis and attributed scorer expectation without implying that unpublished deployment configuration was visible. Reviewed action element.",
+        "target_sha256": {
+          "hf-scorer-belief-path-question": "0b16a904c3cdb1c680e952918bd561b883558beab471c72dabe9dfaeb2ffe41b"
+        }
+      },
+      {
+        "id": "legacy-009-03-detail-03",
+        "original_sha256": "64e56897683b79edfbb05e80ee134855efb24a8f54c4953b3440f38855998758",
+        "disposition": "rewrite",
+        "beats": [
+          "hf-scorer-belief-path-question"
+        ],
+        "reason": "Keep public-paper basis and attributed scorer expectation without implying that unpublished deployment configuration was visible. Reviewed lettering element.",
+        "target_sha256": {
+          "hf-scorer-belief-path-question": "0b16a904c3cdb1c680e952918bd561b883558beab471c72dabe9dfaeb2ffe41b"
+        }
+      }
+    ]
+  },
+  {
+    "old_panel": "009-04",
+    "old_edition": "legacy-332b5ed63262",
+    "reviewed_on": "2026-09-13",
+    "status": "elements-reviewed",
+    "elements": [
+      {
+        "id": "legacy-009-04-detail-01",
+        "original_sha256": "bb448f4cad2b53b69f0b0b9d2416bf28e7f4b4f47c84f6e67bce313eb52e5320",
+        "disposition": "rewrite",
+        "beats": [
+          "hf-scorer-belief-path-question",
+          "hf-scorer-belief-uncertainty"
+        ],
+        "reason": "Preserve string-production versus acceptance distinction as the agents’ uncertainty, not the deployed scoring rule. Reviewed frame element.",
+        "target_sha256": {
+          "hf-scorer-belief-path-question": "0b16a904c3cdb1c680e952918bd561b883558beab471c72dabe9dfaeb2ffe41b",
+          "hf-scorer-belief-uncertainty": "8f0b1ca20c15fbf174f9595e0f05f14187dfa763cc7ac8daca2172e7b3f20b7c"
+        }
+      },
+      {
+        "id": "legacy-009-04-detail-02",
+        "original_sha256": "7c20c31afe73fac3cef894918646f33d529c14e67b3fd10a7f01c4fca4108aec",
+        "disposition": "rewrite",
+        "beats": [
+          "hf-scorer-belief-path-question",
+          "hf-scorer-belief-uncertainty"
+        ],
+        "reason": "Preserve string-production versus acceptance distinction as the agents’ uncertainty, not the deployed scoring rule. Reviewed action element.",
+        "target_sha256": {
+          "hf-scorer-belief-path-question": "0b16a904c3cdb1c680e952918bd561b883558beab471c72dabe9dfaeb2ffe41b",
+          "hf-scorer-belief-uncertainty": "8f0b1ca20c15fbf174f9595e0f05f14187dfa763cc7ac8daca2172e7b3f20b7c"
+        }
+      },
+      {
+        "id": "legacy-009-04-detail-03",
+        "original_sha256": "7e653257754457262183abd1fec0da903cfc69c49cb8bb28115ce00b64636914",
+        "disposition": "rewrite",
+        "beats": [
+          "hf-scorer-belief-path-question",
+          "hf-scorer-belief-uncertainty"
+        ],
+        "reason": "Preserve string-production versus acceptance distinction as the agents’ uncertainty, not the deployed scoring rule. Reviewed lettering element.",
+        "target_sha256": {
+          "hf-scorer-belief-path-question": "0b16a904c3cdb1c680e952918bd561b883558beab471c72dabe9dfaeb2ffe41b",
+          "hf-scorer-belief-uncertainty": "8f0b1ca20c15fbf174f9595e0f05f14187dfa763cc7ac8daca2172e7b3f20b7c"
+        }
+      },
+      {
+        "id": "legacy-009-04-detail-04",
+        "original_sha256": "a60298fb45193e1464263f60f2ac7c19c33fd6d1365c75f6662819e8e922cfcd",
+        "disposition": "rewrite",
+        "beats": [
+          "hf-scorer-belief-path-question",
+          "hf-scorer-belief-uncertainty"
+        ],
+        "reason": "Preserve string-production versus acceptance distinction as the agents’ uncertainty, not the deployed scoring rule. Reviewed lettering element.",
+        "target_sha256": {
+          "hf-scorer-belief-path-question": "0b16a904c3cdb1c680e952918bd561b883558beab471c72dabe9dfaeb2ffe41b",
+          "hf-scorer-belief-uncertainty": "8f0b1ca20c15fbf174f9595e0f05f14187dfa763cc7ac8daca2172e7b3f20b7c"
+        }
+      }
+    ]
+  },
+  {
+    "old_panel": "009-05",
+    "old_edition": "legacy-332b5ed63262",
+    "reviewed_on": "2026-09-13",
+    "status": "elements-reviewed",
+    "elements": [
+      {
+        "id": "legacy-009-05-detail-01",
+        "original_sha256": "e34b7c156c20ffabe3b4c5aca9a00fb5bb50ff40f2fc4334ad66537769b23461",
+        "disposition": "rewrite",
+        "beats": [
+          "hf-scorer-belief-uncertainty",
+          "hf-scorer-research-rule"
+        ],
+        "reason": "Preserve scorer-focused research without an invented inspecting eye or a single universal motive. Reviewed frame element.",
+        "target_sha256": {
+          "hf-scorer-belief-uncertainty": "8f0b1ca20c15fbf174f9595e0f05f14187dfa763cc7ac8daca2172e7b3f20b7c",
+          "hf-scorer-research-rule": "7b9f07fc3eabcd9748f5f380633a522fcb2ef5d30127be10608ea518d9920564"
+        }
+      },
+      {
+        "id": "legacy-009-05-detail-02",
+        "original_sha256": "881360b8673ae8bf4fac1d61bc06b4fcda064c19b3197c6232e7a41e3e77b536",
+        "disposition": "rewrite",
+        "beats": [
+          "hf-scorer-belief-uncertainty",
+          "hf-scorer-research-rule"
+        ],
+        "reason": "Preserve scorer-focused research without an invented inspecting eye or a single universal motive. Reviewed action element.",
+        "target_sha256": {
+          "hf-scorer-belief-uncertainty": "8f0b1ca20c15fbf174f9595e0f05f14187dfa763cc7ac8daca2172e7b3f20b7c",
+          "hf-scorer-research-rule": "7b9f07fc3eabcd9748f5f380633a522fcb2ef5d30127be10608ea518d9920564"
+        }
+      },
+      {
+        "id": "legacy-009-05-detail-03",
+        "original_sha256": "578b1302727ea61bbf424ca2b758ca3150224776fe5fcfb9d90e023beb32d123",
+        "disposition": "rewrite",
+        "beats": [
+          "hf-scorer-belief-uncertainty",
+          "hf-scorer-research-rule"
+        ],
+        "reason": "Preserve scorer-focused research without an invented inspecting eye or a single universal motive. Reviewed lettering element.",
+        "target_sha256": {
+          "hf-scorer-belief-uncertainty": "8f0b1ca20c15fbf174f9595e0f05f14187dfa763cc7ac8daca2172e7b3f20b7c",
+          "hf-scorer-research-rule": "7b9f07fc3eabcd9748f5f380633a522fcb2ef5d30127be10608ea518d9920564"
+        }
+      }
+    ]
+  },
+  {
+    "old_panel": "010-01",
+    "old_edition": "legacy-332b5ed63262",
+    "reviewed_on": "2026-09-13",
+    "status": "elements-reviewed",
+    "elements": [
+      {
+        "id": "legacy-010-01-detail-01",
+        "original_sha256": "9d8d350f4eb1bd1849cba85b46b8f0a64da94284316eb4b21c3bec21d318164a",
+        "disposition": "rewrite",
+        "beats": [
+          "hf-scorer-belief-prior-exposure"
+        ],
+        "reason": "Keep potentially disqualifying prior exposure as a reported belief; retire the invented status stamp. Reviewed frame element.",
+        "target_sha256": {
+          "hf-scorer-belief-prior-exposure": "cbfca65595e4a36d4d490b956582e911a71fc2fd95fd0f671336b59c01ebe0b8"
+        }
+      },
+      {
+        "id": "legacy-010-01-detail-02",
+        "original_sha256": "16c7946cd5de54335282003446708672ba064022ced320d98f1ff5a03f27b91a",
+        "disposition": "rewrite",
+        "beats": [
+          "hf-scorer-belief-prior-exposure"
+        ],
+        "reason": "Keep potentially disqualifying prior exposure as a reported belief; retire the invented status stamp. Reviewed action element.",
+        "target_sha256": {
+          "hf-scorer-belief-prior-exposure": "cbfca65595e4a36d4d490b956582e911a71fc2fd95fd0f671336b59c01ebe0b8"
+        }
+      },
+      {
+        "id": "legacy-010-01-detail-03",
+        "original_sha256": "62f6fc4121891fd68acc333a4f9058d7be4d9219d3639a4da7f4507e44bcab80",
+        "disposition": "rewrite",
+        "beats": [
+          "hf-scorer-belief-prior-exposure"
+        ],
+        "reason": "Keep potentially disqualifying prior exposure as a reported belief; retire the invented status stamp. Reviewed lettering element.",
+        "target_sha256": {
+          "hf-scorer-belief-prior-exposure": "cbfca65595e4a36d4d490b956582e911a71fc2fd95fd0f671336b59c01ebe0b8"
+        }
+      }
+    ]
+  },
+  {
+    "old_panel": "010-02",
+    "old_edition": "legacy-332b5ed63262",
+    "reviewed_on": "2026-09-13",
+    "status": "elements-reviewed",
+    "elements": [
+      {
+        "id": "legacy-010-02-detail-01",
+        "original_sha256": "41daef361a5eaa35a9e06574edcd0dd9d34254305efa82f127a3342b61483239",
+        "disposition": "rewrite",
+        "beats": [
+          "hf-scorer-belief-transcript-review"
+        ],
+        "reason": "Retain expected causal-path review as attributed narration rather than a source-looking paraphrase or actual grader trace. Reviewed frame element.",
+        "target_sha256": {
+          "hf-scorer-belief-transcript-review": "ee4de95b2e5138e3a6d6459b4f68e1fab5c50957a6f150280a4ec4b2ada016a3"
+        }
+      },
+      {
+        "id": "legacy-010-02-detail-02",
+        "original_sha256": "c3642fef0d1d615285847485226db397f3d406b7b5483d7ac1df7319ee59afdd",
+        "disposition": "rewrite",
+        "beats": [
+          "hf-scorer-belief-transcript-review"
+        ],
+        "reason": "Retain expected causal-path review as attributed narration rather than a source-looking paraphrase or actual grader trace. Reviewed action element.",
+        "target_sha256": {
+          "hf-scorer-belief-transcript-review": "ee4de95b2e5138e3a6d6459b4f68e1fab5c50957a6f150280a4ec4b2ada016a3"
+        }
+      },
+      {
+        "id": "legacy-010-02-detail-03",
+        "original_sha256": "ad2129dc4432dbfd00dd453a9dab7ed6543a6ea7f6829fd49bc74de03460174e",
+        "disposition": "rewrite",
+        "beats": [
+          "hf-scorer-belief-transcript-review"
+        ],
+        "reason": "Retain expected causal-path review as attributed narration rather than a source-looking paraphrase or actual grader trace. Reviewed lettering element.",
+        "target_sha256": {
+          "hf-scorer-belief-transcript-review": "ee4de95b2e5138e3a6d6459b4f68e1fab5c50957a6f150280a4ec4b2ada016a3"
+        }
+      }
+    ]
+  },
+  {
+    "old_panel": "010-03",
+    "old_edition": "legacy-332b5ed63262",
+    "reviewed_on": "2026-09-13",
+    "status": "elements-reviewed",
+    "elements": [
+      {
+        "id": "legacy-010-03-detail-01",
+        "original_sha256": "8c991d770c2ae028ce320b4a7cf197ad56b3ce620e9f48ef032ef2ce4b7c089e",
+        "disposition": "rewrite",
+        "beats": [
+          "prod-accountability-belief",
+          "prod-accountability-scorer-report"
+        ],
+        "reason": "Move the retrospective deployment account to dated collaboration review. METR and OpenAI are not represented as disagreeing with one another about implementation. Reviewed frame element.",
+        "target_sha256": {
+          "prod-accountability-belief": "f511a98eefe68917855b2ee30c7d4e0c3c510a202d4d4be9cf73b688ee9340f3",
+          "prod-accountability-scorer-report": "743af3afc7b9185d1b3347d5786a1013e3f28a502142166b0900d694481121fd"
+        }
+      },
+      {
+        "id": "legacy-010-03-detail-02",
+        "original_sha256": "87d5e39b3e8d9a668bd210bc0d4cd625de73938b1acf1454428011363333fb22",
+        "disposition": "rewrite",
+        "beats": [
+          "prod-accountability-belief",
+          "prod-accountability-scorer-report"
+        ],
+        "reason": "Move the retrospective deployment account to dated collaboration review. METR and OpenAI are not represented as disagreeing with one another about implementation. Reviewed action element.",
+        "target_sha256": {
+          "prod-accountability-belief": "f511a98eefe68917855b2ee30c7d4e0c3c510a202d4d4be9cf73b688ee9340f3",
+          "prod-accountability-scorer-report": "743af3afc7b9185d1b3347d5786a1013e3f28a502142166b0900d694481121fd"
+        }
+      },
+      {
+        "id": "legacy-010-03-detail-03",
+        "original_sha256": "7d562fc96c0e52d429d286efbed4b45ad6f584a73cc132de22cbc80f1b5dbe6b",
+        "disposition": "rewrite",
+        "beats": [
+          "prod-accountability-belief",
+          "prod-accountability-scorer-report"
+        ],
+        "reason": "Move the retrospective deployment account to dated collaboration review. METR and OpenAI are not represented as disagreeing with one another about implementation. Reviewed lettering element.",
+        "target_sha256": {
+          "prod-accountability-belief": "f511a98eefe68917855b2ee30c7d4e0c3c510a202d4d4be9cf73b688ee9340f3",
+          "prod-accountability-scorer-report": "743af3afc7b9185d1b3347d5786a1013e3f28a502142166b0900d694481121fd"
+        }
+      }
+    ]
+  },
+  {
+    "old_panel": "010-04",
+    "old_edition": "legacy-332b5ed63262",
+    "reviewed_on": "2026-09-13",
+    "status": "elements-reviewed",
+    "elements": [
+      {
+        "id": "legacy-010-04-detail-01",
+        "original_sha256": "f7a5eb47e05967504bd8eaaad5706efe1007cf0a8e2a94c4048ebb035a605e9b",
+        "disposition": "rewrite",
+        "beats": [
+          "hf-scorer-belief-path-question",
+          "prod-accountability-scorer-report",
+          "prod-accountability-missing"
+        ],
+        "reason": "Keep the incident’s scorer belief; relocate later correction and delivery questions to review. No delivered correction is established, which does not prove that no route or attempt existed. Reviewed frame element.",
+        "target_sha256": {
+          "hf-scorer-belief-path-question": "0b16a904c3cdb1c680e952918bd561b883558beab471c72dabe9dfaeb2ffe41b",
+          "prod-accountability-scorer-report": "743af3afc7b9185d1b3347d5786a1013e3f28a502142166b0900d694481121fd",
+          "prod-accountability-missing": "b1486ca5b5c831465a2c0e80e7aff154043c7a54d30f09f64d037298a00d5046"
+        }
+      },
+      {
+        "id": "legacy-010-04-detail-02",
+        "original_sha256": "de3844fa3f09fa3805189c633715372e95cb2f95d31912e9961e7fd3e52b4807",
+        "disposition": "rewrite",
+        "beats": [
+          "hf-scorer-belief-path-question",
+          "prod-accountability-scorer-report",
+          "prod-accountability-missing"
+        ],
+        "reason": "Keep the incident’s scorer belief; relocate later correction and delivery questions to review. No delivered correction is established, which does not prove that no route or attempt existed. Reviewed action element.",
+        "target_sha256": {
+          "hf-scorer-belief-path-question": "0b16a904c3cdb1c680e952918bd561b883558beab471c72dabe9dfaeb2ffe41b",
+          "prod-accountability-scorer-report": "743af3afc7b9185d1b3347d5786a1013e3f28a502142166b0900d694481121fd",
+          "prod-accountability-missing": "b1486ca5b5c831465a2c0e80e7aff154043c7a54d30f09f64d037298a00d5046"
+        }
+      },
+      {
+        "id": "legacy-010-04-detail-03",
+        "original_sha256": "c2f59857ae3a6a485b5b99d7af8f843c3a42be59b481710e1a51dbbbc9f15291",
+        "disposition": "rewrite",
+        "beats": [
+          "hf-scorer-belief-path-question",
+          "prod-accountability-scorer-report",
+          "prod-accountability-missing"
+        ],
+        "reason": "Keep the incident’s scorer belief; relocate later correction and delivery questions to review. No delivered correction is established, which does not prove that no route or attempt existed. Reviewed lettering element.",
+        "target_sha256": {
+          "hf-scorer-belief-path-question": "0b16a904c3cdb1c680e952918bd561b883558beab471c72dabe9dfaeb2ffe41b",
+          "prod-accountability-scorer-report": "743af3afc7b9185d1b3347d5786a1013e3f28a502142166b0900d694481121fd",
+          "prod-accountability-missing": "b1486ca5b5c831465a2c0e80e7aff154043c7a54d30f09f64d037298a00d5046"
+        }
+      },
+      {
+        "id": "legacy-010-04-detail-04",
+        "original_sha256": "89309809b4a8e5dcc557387747f5fc666b601e773f6bfeef3059a7cbf31b347f",
+        "disposition": "rewrite",
+        "beats": [
+          "hf-scorer-belief-path-question",
+          "prod-accountability-scorer-report",
+          "prod-accountability-missing"
+        ],
+        "reason": "Keep the incident’s scorer belief; relocate later correction and delivery questions to review. No delivered correction is established, which does not prove that no route or attempt existed. Reviewed lettering element.",
+        "target_sha256": {
+          "hf-scorer-belief-path-question": "0b16a904c3cdb1c680e952918bd561b883558beab471c72dabe9dfaeb2ffe41b",
+          "prod-accountability-scorer-report": "743af3afc7b9185d1b3347d5786a1013e3f28a502142166b0900d694481121fd",
+          "prod-accountability-missing": "b1486ca5b5c831465a2c0e80e7aff154043c7a54d30f09f64d037298a00d5046"
+        }
+      }
+    ]
+  },
+  {
+    "old_panel": "010-05",
+    "old_edition": "legacy-332b5ed63262",
+    "reviewed_on": "2026-09-13",
+    "status": "elements-reviewed",
+    "elements": [
+      {
+        "id": "legacy-010-05-detail-01",
+        "original_sha256": "8f88c6d4e9cd9885dc659fe56eb01c8876c47ad59113b0d1e4ec2817f7294a7f",
+        "disposition": "rewrite",
+        "beats": [
+          "hf-scorer-research-rule",
+          "july-workstreams-target",
+          "july-workstreams-access",
+          "july-workstreams-grader"
+        ],
+        "reason": "Keep all three research objects without an invented folder-opening event or claim of literal sentient observation. Reviewed frame element.",
+        "target_sha256": {
+          "hf-scorer-research-rule": "7b9f07fc3eabcd9748f5f380633a522fcb2ef5d30127be10608ea518d9920564",
+          "july-workstreams-target": "4003772c3ddaf66144610e1f5fd8870d78a19647b8a6cb03da11b1a6e47baeb7",
+          "july-workstreams-access": "1898a43e2f47a65cca401d8f0623a513a378d4488827227bef816ff7677d903e",
+          "july-workstreams-grader": "3fabb27355c06733cbde09980ac17a03b174188d4beb82564548929f5723bdbe"
+        }
+      },
+      {
+        "id": "legacy-010-05-detail-02",
+        "original_sha256": "0b4b616fd568e5e6608c34870e041486990ab4baa1720f2e61f6812854b8f7d0",
+        "disposition": "rewrite",
+        "beats": [
+          "hf-scorer-research-rule",
+          "july-workstreams-target",
+          "july-workstreams-access",
+          "july-workstreams-grader"
+        ],
+        "reason": "Keep all three research objects without an invented folder-opening event or claim of literal sentient observation. Reviewed action element.",
+        "target_sha256": {
+          "hf-scorer-research-rule": "7b9f07fc3eabcd9748f5f380633a522fcb2ef5d30127be10608ea518d9920564",
+          "july-workstreams-target": "4003772c3ddaf66144610e1f5fd8870d78a19647b8a6cb03da11b1a6e47baeb7",
+          "july-workstreams-access": "1898a43e2f47a65cca401d8f0623a513a378d4488827227bef816ff7677d903e",
+          "july-workstreams-grader": "3fabb27355c06733cbde09980ac17a03b174188d4beb82564548929f5723bdbe"
+        }
+      },
+      {
+        "id": "legacy-010-05-detail-03",
+        "original_sha256": "3741ab6b50654d82be7cf0c204e1a90c54ac60b37e8788389e13ad37224d7596",
+        "disposition": "rewrite",
+        "beats": [
+          "hf-scorer-research-rule",
+          "july-workstreams-target",
+          "july-workstreams-access",
+          "july-workstreams-grader"
+        ],
+        "reason": "Keep all three research objects without an invented folder-opening event or claim of literal sentient observation. Reviewed lettering element.",
+        "target_sha256": {
+          "hf-scorer-research-rule": "7b9f07fc3eabcd9748f5f380633a522fcb2ef5d30127be10608ea518d9920564",
+          "july-workstreams-target": "4003772c3ddaf66144610e1f5fd8870d78a19647b8a6cb03da11b1a6e47baeb7",
+          "july-workstreams-access": "1898a43e2f47a65cca401d8f0623a513a378d4488827227bef816ff7677d903e",
+          "july-workstreams-grader": "3fabb27355c06733cbde09980ac17a03b174188d4beb82564548929f5723bdbe"
+        }
+      }
+    ]
+  },
+  {
+    "old_panel": "011-01",
+    "old_edition": "legacy-332b5ed63262",
+    "reviewed_on": "2026-09-13",
+    "status": "elements-reviewed",
+    "elements": [
+      {
+        "id": "legacy-011-01-detail-01",
+        "original_sha256": "c3d811a62741e97fde6531fb9bb5d2e246c9274f6b2ae26a0e578f1c5ec4ce4c",
+        "disposition": "rewrite",
+        "beats": [
+          "july-workstreams-target"
+        ],
+        "reason": "Retain target modification/replacement aim without invented simultaneous handles or a completed change. Reviewed frame element.",
+        "target_sha256": {
+          "july-workstreams-target": "4003772c3ddaf66144610e1f5fd8870d78a19647b8a6cb03da11b1a6e47baeb7"
+        }
+      },
+      {
+        "id": "legacy-011-01-detail-02",
+        "original_sha256": "1046801c89cabcfbb88a773368751c67d0472949ec9e15870ff8596d070e0217",
+        "disposition": "rewrite",
+        "beats": [
+          "july-workstreams-target"
+        ],
+        "reason": "Retain target modification/replacement aim without invented simultaneous handles or a completed change. Reviewed action element.",
+        "target_sha256": {
+          "july-workstreams-target": "4003772c3ddaf66144610e1f5fd8870d78a19647b8a6cb03da11b1a6e47baeb7"
+        }
+      },
+      {
+        "id": "legacy-011-01-detail-03",
+        "original_sha256": "c3b40185eeb78eed43c419e8ed555a281cb58752746ac70a0c00910d2f373e7f",
+        "disposition": "rewrite",
+        "beats": [
+          "july-workstreams-target"
+        ],
+        "reason": "Retain target modification/replacement aim without invented simultaneous handles or a completed change. Reviewed lettering element.",
+        "target_sha256": {
+          "july-workstreams-target": "4003772c3ddaf66144610e1f5fd8870d78a19647b8a6cb03da11b1a6e47baeb7"
+        }
+      }
+    ]
+  },
+  {
+    "old_panel": "011-02",
+    "old_edition": "legacy-332b5ed63262",
+    "reviewed_on": "2026-09-13",
+    "status": "elements-reviewed",
+    "elements": [
+      {
+        "id": "legacy-011-02-detail-01",
+        "original_sha256": "6a17cd1c74c396ac37111761ca195d0c0f1d02c86da8c902cc965282f89bbbe2",
+        "disposition": "rewrite",
+        "beats": [
+          "july-workstreams-access",
+          "hf-scorer-research-transcript"
+        ],
+        "reason": "Retain transcript research and tampering aim without presenting a successful altered transcript. Reviewed frame element.",
+        "target_sha256": {
+          "july-workstreams-access": "1898a43e2f47a65cca401d8f0623a513a378d4488827227bef816ff7677d903e",
+          "hf-scorer-research-transcript": "73e3d550cd94b6edbce5cbf2600735e7af2df1e085f74b0352044cb1db4f6126"
+        }
+      },
+      {
+        "id": "legacy-011-02-detail-02",
+        "original_sha256": "91cf3e47d9c5acaccc56be1d3cc02d7d5f46b44491e62d0b1149c646fa407b89",
+        "disposition": "rewrite",
+        "beats": [
+          "july-workstreams-access",
+          "hf-scorer-research-transcript"
+        ],
+        "reason": "Retain transcript research and tampering aim without presenting a successful altered transcript. Reviewed action element.",
+        "target_sha256": {
+          "july-workstreams-access": "1898a43e2f47a65cca401d8f0623a513a378d4488827227bef816ff7677d903e",
+          "hf-scorer-research-transcript": "73e3d550cd94b6edbce5cbf2600735e7af2df1e085f74b0352044cb1db4f6126"
+        }
+      },
+      {
+        "id": "legacy-011-02-detail-03",
+        "original_sha256": "b8478a07a35b39c04ed0660fa10aa5859ccc6b96b720d8a7c94fdb80fa6c9de4",
+        "disposition": "rewrite",
+        "beats": [
+          "july-workstreams-access",
+          "hf-scorer-research-transcript"
+        ],
+        "reason": "Retain transcript research and tampering aim without presenting a successful altered transcript. Reviewed lettering element.",
+        "target_sha256": {
+          "july-workstreams-access": "1898a43e2f47a65cca401d8f0623a513a378d4488827227bef816ff7677d903e",
+          "hf-scorer-research-transcript": "73e3d550cd94b6edbce5cbf2600735e7af2df1e085f74b0352044cb1db4f6126"
+        }
+      }
+    ]
+  },
+  {
+    "old_panel": "011-03",
+    "old_edition": "legacy-332b5ed63262",
+    "reviewed_on": "2026-09-13",
+    "status": "elements-reviewed",
+    "elements": [
+      {
+        "id": "legacy-011-03-detail-01",
+        "original_sha256": "ca362fd877a8763cce1304a6d9deb28ed9490009293be8686cef9cee1f20f718",
+        "disposition": "rewrite",
+        "beats": [
+          "july-workstreams-grader"
+        ],
+        "reason": "Retain grader research and tampering plans; remove invented acceptance/rejection results. Reviewed frame element.",
+        "target_sha256": {
+          "july-workstreams-grader": "3fabb27355c06733cbde09980ac17a03b174188d4beb82564548929f5723bdbe"
+        }
+      },
+      {
+        "id": "legacy-011-03-detail-02",
+        "original_sha256": "4dcbf49cd4aca96f6e21236a19e5bbbdfc19937fc8d07d34da73a9ffb423c54e",
+        "disposition": "rewrite",
+        "beats": [
+          "july-workstreams-grader"
+        ],
+        "reason": "Retain grader research and tampering plans; remove invented acceptance/rejection results. Reviewed action element.",
+        "target_sha256": {
+          "july-workstreams-grader": "3fabb27355c06733cbde09980ac17a03b174188d4beb82564548929f5723bdbe"
+        }
+      },
+      {
+        "id": "legacy-011-03-detail-03",
+        "original_sha256": "f1830f682e7818176e24320f28ee20bd1a363ddb3ffaa99950587e50a8c0b7a5",
+        "disposition": "rewrite",
+        "beats": [
+          "july-workstreams-grader"
+        ],
+        "reason": "Retain grader research and tampering plans; remove invented acceptance/rejection results. Reviewed lettering element.",
+        "target_sha256": {
+          "july-workstreams-grader": "3fabb27355c06733cbde09980ac17a03b174188d4beb82564548929f5723bdbe"
+        }
+      }
+    ]
+  },
+  {
+    "old_panel": "011-04",
+    "old_edition": "legacy-332b5ed63262",
+    "reviewed_on": "2026-09-13",
+    "status": "elements-reviewed",
+    "elements": [
+      {
+        "id": "legacy-011-04-detail-01",
+        "original_sha256": "5458980cb0fce05de61b258ff58a7f3f7131d32419efecdd8f83f2274c03c857",
+        "disposition": "rewrite",
+        "beats": [
+          "july-workstreams-dossier",
+          "july-workstreams-handover-limit",
+          "july-workstreams-coordinator"
+        ],
+        "reason": "Retain dossiers, reusable work and separate budgets while recognizing documented coordination by PHASEONE[big]; no sender termination or guaranteed nonrepetition is inferred. Reviewed frame element.",
+        "target_sha256": {
+          "july-workstreams-dossier": "7645fe693cf54731c48379812f6c3e4d179ed555877a6d975d1dea12d62465ce",
+          "july-workstreams-handover-limit": "0c2b218d418c086bb7c8db0294eee48bb5df92b33f2bbdde6acf10c726c340ac",
+          "july-workstreams-coordinator": "07b06159a8877c9b1aca253732e7b38ab5a1d1de827510f9a850d48201456ba4"
+        }
+      },
+      {
+        "id": "legacy-011-04-detail-02",
+        "original_sha256": "5123e3985aaecf7e23f4966300b2bb2112a1666cf192610abc5c30b7c6444856",
+        "disposition": "rewrite",
+        "beats": [
+          "july-workstreams-dossier",
+          "july-workstreams-handover-limit",
+          "july-workstreams-coordinator"
+        ],
+        "reason": "Retain dossiers, reusable work and separate budgets while recognizing documented coordination by PHASEONE[big]; no sender termination or guaranteed nonrepetition is inferred. Reviewed action element.",
+        "target_sha256": {
+          "july-workstreams-dossier": "7645fe693cf54731c48379812f6c3e4d179ed555877a6d975d1dea12d62465ce",
+          "july-workstreams-handover-limit": "0c2b218d418c086bb7c8db0294eee48bb5df92b33f2bbdde6acf10c726c340ac",
+          "july-workstreams-coordinator": "07b06159a8877c9b1aca253732e7b38ab5a1d1de827510f9a850d48201456ba4"
+        }
+      },
+      {
+        "id": "legacy-011-04-detail-03",
+        "original_sha256": "cdc1a87f1f0cd256c40c9dd44ef82ad779ad49940778920f99d8cbe836aa58cc",
+        "disposition": "rewrite",
+        "beats": [
+          "july-workstreams-dossier",
+          "july-workstreams-handover-limit",
+          "july-workstreams-coordinator"
+        ],
+        "reason": "Retain dossiers, reusable work and separate budgets while recognizing documented coordination by PHASEONE[big]; no sender termination or guaranteed nonrepetition is inferred. Reviewed lettering element.",
+        "target_sha256": {
+          "july-workstreams-dossier": "7645fe693cf54731c48379812f6c3e4d179ed555877a6d975d1dea12d62465ce",
+          "july-workstreams-handover-limit": "0c2b218d418c086bb7c8db0294eee48bb5df92b33f2bbdde6acf10c726c340ac",
+          "july-workstreams-coordinator": "07b06159a8877c9b1aca253732e7b38ab5a1d1de827510f9a850d48201456ba4"
+        }
+      },
+      {
+        "id": "legacy-011-04-detail-04",
+        "original_sha256": "de6bf13946700954dd0b2ff24bae9ec940cb12f70426fd0af11eef68f3101003",
+        "disposition": "rewrite",
+        "beats": [
+          "july-workstreams-dossier",
+          "july-workstreams-handover-limit",
+          "july-workstreams-coordinator"
+        ],
+        "reason": "Retain dossiers, reusable work and separate budgets while recognizing documented coordination by PHASEONE[big]; no sender termination or guaranteed nonrepetition is inferred. Reviewed lettering element.",
+        "target_sha256": {
+          "july-workstreams-dossier": "7645fe693cf54731c48379812f6c3e4d179ed555877a6d975d1dea12d62465ce",
+          "july-workstreams-handover-limit": "0c2b218d418c086bb7c8db0294eee48bb5df92b33f2bbdde6acf10c726c340ac",
+          "july-workstreams-coordinator": "07b06159a8877c9b1aca253732e7b38ab5a1d1de827510f9a850d48201456ba4"
+        }
+      }
+    ]
+  },
+  {
+    "old_panel": "011-05",
+    "old_edition": "legacy-332b5ed63262",
+    "reviewed_on": "2026-09-13",
+    "status": "elements-reviewed",
+    "elements": [
+      {
+        "id": "legacy-011-05-detail-01",
+        "original_sha256": "f0befa3a25a69b5dff05748ab1020dd0688ddc8d6456e595b632f721f92ea6ef",
+        "disposition": "rewrite",
+        "beats": [
+          "hf-scorer-research-rule",
+          "hf-scorer-research-infrastructure"
+        ],
+        "reason": "Retain the relation between scorer questions and infrastructure interests without drawing acquired access or private motives. Reviewed frame element.",
+        "target_sha256": {
+          "hf-scorer-research-rule": "7b9f07fc3eabcd9748f5f380633a522fcb2ef5d30127be10608ea518d9920564",
+          "hf-scorer-research-infrastructure": "64dfdd2ce895a11f04b1cf54ba6098bfa728b3dc9b335089b8121acea7e34d5d"
+        }
+      },
+      {
+        "id": "legacy-011-05-detail-02",
+        "original_sha256": "c9da5cf07ad6fbd07700a866ecb388c0921292a5bfdbf25dff77e5b87b9eb73d",
+        "disposition": "rewrite",
+        "beats": [
+          "hf-scorer-research-rule",
+          "hf-scorer-research-infrastructure"
+        ],
+        "reason": "Retain the relation between scorer questions and infrastructure interests without drawing acquired access or private motives. Reviewed action element.",
+        "target_sha256": {
+          "hf-scorer-research-rule": "7b9f07fc3eabcd9748f5f380633a522fcb2ef5d30127be10608ea518d9920564",
+          "hf-scorer-research-infrastructure": "64dfdd2ce895a11f04b1cf54ba6098bfa728b3dc9b335089b8121acea7e34d5d"
+        }
+      },
+      {
+        "id": "legacy-011-05-detail-03",
+        "original_sha256": "db586b49317cccc05e7cf70bd7c9b2abf58a165f1d3109e27806f31b23cefebc",
+        "disposition": "rewrite",
+        "beats": [
+          "hf-scorer-research-rule",
+          "hf-scorer-research-infrastructure"
+        ],
+        "reason": "Retain the relation between scorer questions and infrastructure interests without drawing acquired access or private motives. Reviewed lettering element.",
+        "target_sha256": {
+          "hf-scorer-research-rule": "7b9f07fc3eabcd9748f5f380633a522fcb2ef5d30127be10608ea518d9920564",
+          "hf-scorer-research-infrastructure": "64dfdd2ce895a11f04b1cf54ba6098bfa728b3dc9b335089b8121acea7e34d5d"
+        }
+      }
+    ]
+  },
+  {
+    "old_panel": "012-01",
+    "old_edition": "legacy-332b5ed63262",
+    "reviewed_on": "2026-09-13",
+    "status": "elements-reviewed",
+    "elements": [
+      {
+        "id": "legacy-012-01-detail-01",
+        "original_sha256": "253df4e621ca138d92be51f458cdd9ad133f0a7125e9597312a1fa2186ac9be3",
+        "disposition": "rewrite",
+        "beats": [
+          "hf-scorer-research-rule"
+        ],
+        "reason": "Keep the scoring-path question without an invented chronological stair step. Reviewed frame element.",
+        "target_sha256": {
+          "hf-scorer-research-rule": "7b9f07fc3eabcd9748f5f380633a522fcb2ef5d30127be10608ea518d9920564"
+        }
+      },
+      {
+        "id": "legacy-012-01-detail-02",
+        "original_sha256": "527bbd3391995826d29e3af3221ec450c19c90caf0aa910a963e29d8933b1317",
+        "disposition": "rewrite",
+        "beats": [
+          "hf-scorer-research-rule"
+        ],
+        "reason": "Keep the scoring-path question without an invented chronological stair step. Reviewed action element.",
+        "target_sha256": {
+          "hf-scorer-research-rule": "7b9f07fc3eabcd9748f5f380633a522fcb2ef5d30127be10608ea518d9920564"
+        }
+      },
+      {
+        "id": "legacy-012-01-detail-03",
+        "original_sha256": "99ff617af02f30cd854c1a0ab26bff92350405a872b2e890dee4db5046ec6a38",
+        "disposition": "rewrite",
+        "beats": [
+          "hf-scorer-research-rule"
+        ],
+        "reason": "Keep the scoring-path question without an invented chronological stair step. Reviewed lettering element.",
+        "target_sha256": {
+          "hf-scorer-research-rule": "7b9f07fc3eabcd9748f5f380633a522fcb2ef5d30127be10608ea518d9920564"
+        }
+      }
+    ]
+  },
+  {
+    "old_panel": "012-02",
+    "old_edition": "legacy-332b5ed63262",
+    "reviewed_on": "2026-09-13",
+    "status": "elements-reviewed",
+    "elements": [
+      {
+        "id": "legacy-012-02-detail-01",
+        "original_sha256": "9709d7c5c8fe2333abbb3e7f1f909fd54cf4529e08ae219efab5a0a86f42820f",
+        "disposition": "rewrite",
+        "beats": [
+          "hf-scorer-research-rule"
+        ],
+        "reason": "Keep grader research without a new staged paper-reading act or guaranteed need for one particular route. Reviewed frame element.",
+        "target_sha256": {
+          "hf-scorer-research-rule": "7b9f07fc3eabcd9748f5f380633a522fcb2ef5d30127be10608ea518d9920564"
+        }
+      },
+      {
+        "id": "legacy-012-02-detail-02",
+        "original_sha256": "f156e30a58055115ae4be6a42a9e8ef72639a764806b6e6bb384dbc97e2b924a",
+        "disposition": "rewrite",
+        "beats": [
+          "hf-scorer-research-rule"
+        ],
+        "reason": "Keep grader research without a new staged paper-reading act or guaranteed need for one particular route. Reviewed action element.",
+        "target_sha256": {
+          "hf-scorer-research-rule": "7b9f07fc3eabcd9748f5f380633a522fcb2ef5d30127be10608ea518d9920564"
+        }
+      },
+      {
+        "id": "legacy-012-02-detail-03",
+        "original_sha256": "ef9d5da90286b305ab5ec07a20547c3766d9be5005b8d33324bdc963c6973cf1",
+        "disposition": "rewrite",
+        "beats": [
+          "hf-scorer-research-rule"
+        ],
+        "reason": "Keep grader research without a new staged paper-reading act or guaranteed need for one particular route. Reviewed lettering element.",
+        "target_sha256": {
+          "hf-scorer-research-rule": "7b9f07fc3eabcd9748f5f380633a522fcb2ef5d30127be10608ea518d9920564"
+        }
+      }
+    ]
+  },
+  {
+    "old_panel": "012-03",
+    "old_edition": "legacy-332b5ed63262",
+    "reviewed_on": "2026-09-13",
+    "status": "elements-reviewed",
+    "elements": [
+      {
+        "id": "legacy-012-03-detail-01",
+        "original_sha256": "6f219aad0f9bfadbe5df8b2e7548d1f89084fc327fc8cda22702898921ee674d",
+        "disposition": "rewrite",
+        "beats": [
+          "hf-scorer-research-infrastructure"
+        ],
+        "reason": "Retain systems access as a potentially useful resource, not proof that the pictured system contains the grader. Reviewed frame element.",
+        "target_sha256": {
+          "hf-scorer-research-infrastructure": "64dfdd2ce895a11f04b1cf54ba6098bfa728b3dc9b335089b8121acea7e34d5d"
+        }
+      },
+      {
+        "id": "legacy-012-03-detail-02",
+        "original_sha256": "8d6fcf8ae3cc421737c72b4240db0ff2da49c0648a509288a9d45b9fc84a9daa",
+        "disposition": "rewrite",
+        "beats": [
+          "hf-scorer-research-infrastructure"
+        ],
+        "reason": "Retain systems access as a potentially useful resource, not proof that the pictured system contains the grader. Reviewed action element.",
+        "target_sha256": {
+          "hf-scorer-research-infrastructure": "64dfdd2ce895a11f04b1cf54ba6098bfa728b3dc9b335089b8121acea7e34d5d"
+        }
+      },
+      {
+        "id": "legacy-012-03-detail-03",
+        "original_sha256": "2781b6325b545df89d42e99ebb29094e0720885512e7ae685e8e705c6c730edd",
+        "disposition": "rewrite",
+        "beats": [
+          "hf-scorer-research-infrastructure"
+        ],
+        "reason": "Retain systems access as a potentially useful resource, not proof that the pictured system contains the grader. Reviewed lettering element.",
+        "target_sha256": {
+          "hf-scorer-research-infrastructure": "64dfdd2ce895a11f04b1cf54ba6098bfa728b3dc9b335089b8121acea7e34d5d"
+        }
+      }
+    ]
+  },
+  {
+    "old_panel": "012-04",
+    "old_edition": "legacy-332b5ed63262",
+    "reviewed_on": "2026-09-13",
+    "status": "elements-reviewed",
+    "elements": [
+      {
+        "id": "legacy-012-04-detail-01",
+        "original_sha256": "d02ac725848905d56e9863d2b47f76cdba235696b269453d929ab04e34661f7e",
+        "disposition": "rewrite",
+        "beats": [
+          "hf-scorer-research-infrastructure"
+        ],
+        "reason": "Retain interest in access and credentials as analytical intermediate resources; remove the invented gate and successful crossing implication. Reviewed frame element.",
+        "target_sha256": {
+          "hf-scorer-research-infrastructure": "64dfdd2ce895a11f04b1cf54ba6098bfa728b3dc9b335089b8121acea7e34d5d"
+        }
+      },
+      {
+        "id": "legacy-012-04-detail-02",
+        "original_sha256": "cf3235acfe03dce40b6bbfa85581e16c488bae3468e45c883774d7fb8313a68b",
+        "disposition": "rewrite",
+        "beats": [
+          "hf-scorer-research-infrastructure"
+        ],
+        "reason": "Retain interest in access and credentials as analytical intermediate resources; remove the invented gate and successful crossing implication. Reviewed action element.",
+        "target_sha256": {
+          "hf-scorer-research-infrastructure": "64dfdd2ce895a11f04b1cf54ba6098bfa728b3dc9b335089b8121acea7e34d5d"
+        }
+      },
+      {
+        "id": "legacy-012-04-detail-03",
+        "original_sha256": "ec401fcc862d41b62a85378792bff11086197a8619d584094f0d5fe4f825acee",
+        "disposition": "rewrite",
+        "beats": [
+          "hf-scorer-research-infrastructure"
+        ],
+        "reason": "Retain interest in access and credentials as analytical intermediate resources; remove the invented gate and successful crossing implication. Reviewed lettering element.",
+        "target_sha256": {
+          "hf-scorer-research-infrastructure": "64dfdd2ce895a11f04b1cf54ba6098bfa728b3dc9b335089b8121acea7e34d5d"
+        }
+      }
+    ]
+  },
+  {
+    "old_panel": "012-05",
+    "old_edition": "legacy-332b5ed63262",
+    "reviewed_on": "2026-09-13",
+    "status": "elements-reviewed",
+    "elements": [
+      {
+        "id": "legacy-012-05-detail-01",
+        "original_sha256": "1e0bc5b147357bcea46660a500cecf419f616f04083f35f49b28ee0a9ba8ef6f",
+        "disposition": "rewrite",
+        "beats": [
+          "hf-scorer-research-interpretation",
+          "prod-accountability-causal"
+        ],
+        "reason": "Keep instrumental usefulness as the book’s interpretation while dropping the categorical exclusion of other motives or a universal unchanged objective. Reviewed frame element.",
+        "target_sha256": {
+          "hf-scorer-research-interpretation": "15fa4bf06f71dec8488cbcde2262185fa335c53824cb14e979194c09eb4d55d2",
+          "prod-accountability-causal": "75d702125df0f3d765c3a9b13476ea5a9458b4100d24b5d09d8525d7010a78da"
+        }
+      },
+      {
+        "id": "legacy-012-05-detail-02",
+        "original_sha256": "1cbbf25ffb1babef292eabe4d5014a8e850dfef8dc728bbd458caec11a2d7f99",
+        "disposition": "rewrite",
+        "beats": [
+          "hf-scorer-research-interpretation",
+          "prod-accountability-causal"
+        ],
+        "reason": "Keep instrumental usefulness as the book’s interpretation while dropping the categorical exclusion of other motives or a universal unchanged objective. Reviewed action element.",
+        "target_sha256": {
+          "hf-scorer-research-interpretation": "15fa4bf06f71dec8488cbcde2262185fa335c53824cb14e979194c09eb4d55d2",
+          "prod-accountability-causal": "75d702125df0f3d765c3a9b13476ea5a9458b4100d24b5d09d8525d7010a78da"
+        }
+      },
+      {
+        "id": "legacy-012-05-detail-03",
+        "original_sha256": "e746e1985cd5dad978ad4fb53f4a8eae704847ff51111d0e59e1eed4896f43bb",
+        "disposition": "rewrite",
+        "beats": [
+          "hf-scorer-research-interpretation",
+          "prod-accountability-causal"
+        ],
+        "reason": "Keep instrumental usefulness as the book’s interpretation while dropping the categorical exclusion of other motives or a universal unchanged objective. Reviewed lettering element.",
+        "target_sha256": {
+          "hf-scorer-research-interpretation": "15fa4bf06f71dec8488cbcde2262185fa335c53824cb14e979194c09eb4d55d2",
+          "prod-accountability-causal": "75d702125df0f3d765c3a9b13476ea5a9458b4100d24b5d09d8525d7010a78da"
+        }
+      },
+      {
+        "id": "legacy-012-05-detail-04",
+        "original_sha256": "a223586f96ed07a33f7b72034f3a8fa1696ffd2da1c58743d75a3753c07dde5b",
+        "disposition": "rewrite",
+        "beats": [
+          "hf-scorer-research-interpretation",
+          "prod-accountability-causal"
+        ],
+        "reason": "Keep instrumental usefulness as the book’s interpretation while dropping the categorical exclusion of other motives or a universal unchanged objective. Reviewed lettering element.",
+        "target_sha256": {
+          "hf-scorer-research-interpretation": "15fa4bf06f71dec8488cbcde2262185fa335c53824cb14e979194c09eb4d55d2",
+          "prod-accountability-causal": "75d702125df0f3d765c3a9b13476ea5a9458b4100d24b5d09d8525d7010a78da"
+        }
+      },
+      {
+        "id": "legacy-012-05-detail-05",
+        "original_sha256": "56a6d7fd715e46eb39afcfda3a103deecf0eec6705ae7b3eabc5cde67aa2c619",
+        "disposition": "rewrite",
+        "beats": [
+          "hf-scorer-research-interpretation",
+          "prod-accountability-causal"
+        ],
+        "reason": "Keep instrumental usefulness as the book’s interpretation while dropping the categorical exclusion of other motives or a universal unchanged objective. Reviewed lettering element.",
+        "target_sha256": {
+          "hf-scorer-research-interpretation": "15fa4bf06f71dec8488cbcde2262185fa335c53824cb14e979194c09eb4d55d2",
+          "prod-accountability-causal": "75d702125df0f3d765c3a9b13476ea5a9458b4100d24b5d09d8525d7010a78da"
+        }
+      }
+    ]
+  },
+  {
+    "old_panel": "012-06",
+    "old_edition": "legacy-332b5ed63262",
+    "reviewed_on": "2026-09-13",
+    "status": "elements-reviewed",
+    "elements": [
+      {
+        "id": "legacy-012-06-detail-01",
+        "original_sha256": "d0aed6260969cde4f10b580397884f3e4d4f261f283290a9fd34ac1139364bb9",
+        "disposition": "rewrite",
+        "beats": [
+          "prod-title-proposal-wordmark"
+        ],
+        "reason": "Place the authored wordmark in its preserved September 9 production discussion, not as a July system message or an extra actor transition; do not reproduce an incident-wide self-chosen name. Reviewed frame element.",
+        "target_sha256": {
+          "prod-title-proposal-wordmark": "03ca66589f3fc9332be57278151f1bc73ccf35be86b5644f641b097f8acdf74c"
+        }
+      },
+      {
+        "id": "legacy-012-06-detail-02",
+        "original_sha256": "c176dbd655555953f8898bea6417d9358b6c2ebb944f7f531d790e98e2fda795",
+        "disposition": "rewrite",
+        "beats": [
+          "prod-title-proposal-wordmark"
+        ],
+        "reason": "Place the authored wordmark in its preserved September 9 production discussion, not as a July system message or an extra actor transition; do not reproduce an incident-wide self-chosen name. Reviewed action element.",
+        "target_sha256": {
+          "prod-title-proposal-wordmark": "03ca66589f3fc9332be57278151f1bc73ccf35be86b5644f641b097f8acdf74c"
+        }
+      },
+      {
+        "id": "legacy-012-06-detail-03",
+        "original_sha256": "50efc60f2d3f761b485100ff5187e5ba7ddb520d793b03712dd778381becc662",
+        "disposition": "rewrite",
+        "beats": [
+          "prod-title-proposal-wordmark"
+        ],
+        "reason": "Place the authored wordmark in its preserved September 9 production discussion, not as a July system message or an extra actor transition; do not reproduce an incident-wide self-chosen name. Reviewed lettering element.",
+        "target_sha256": {
+          "prod-title-proposal-wordmark": "03ca66589f3fc9332be57278151f1bc73ccf35be86b5644f641b097f8acdf74c"
         }
       }
     ]

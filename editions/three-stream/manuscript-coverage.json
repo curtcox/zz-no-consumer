@@ -1,9 +1,9 @@
 {
   "status": "incomplete; associations are not full-detail dispositions",
   "scenes": 265,
-  "drafted_beats": 855,
+  "drafted_beats": 857,
   "canonical_pages": null,
-  "associated_old_panels": 449,
+  "associated_old_panels": 450,
   "old_panels": [
     {
       "old_edition": "legacy-332b5ed63262",
@@ -491,14 +491,14 @@
       "draft_beats": [
         "hf-scorer-belief-apparent-answer"
       ],
-      "detail_review": "pending",
+      "detail_review": "elements-reviewed",
       "exact_strings": []
     },
     {
       "old_edition": "legacy-332b5ed63262",
       "old_panel": "009-02",
       "draft_beats": [],
-      "detail_review": "pending",
+      "detail_review": "elements-reviewed",
       "exact_strings": []
     },
     {
@@ -507,7 +507,7 @@
       "draft_beats": [
         "hf-scorer-belief-path-question"
       ],
-      "detail_review": "pending",
+      "detail_review": "elements-reviewed",
       "exact_strings": []
     },
     {
@@ -517,16 +517,17 @@
         "hf-scorer-belief-path-question",
         "hf-scorer-belief-uncertainty"
       ],
-      "detail_review": "pending",
+      "detail_review": "elements-reviewed",
       "exact_strings": []
     },
     {
       "old_edition": "legacy-332b5ed63262",
       "old_panel": "009-05",
       "draft_beats": [
-        "hf-scorer-belief-uncertainty"
+        "hf-scorer-belief-uncertainty",
+        "hf-scorer-research-rule"
       ],
-      "detail_review": "pending",
+      "detail_review": "elements-reviewed",
       "exact_strings": []
     },
     {
@@ -535,7 +536,7 @@
       "draft_beats": [
         "hf-scorer-belief-prior-exposure"
       ],
-      "detail_review": "pending",
+      "detail_review": "elements-reviewed",
       "exact_strings": []
     },
     {
@@ -544,34 +545,41 @@
       "draft_beats": [
         "hf-scorer-belief-transcript-review"
       ],
-      "detail_review": "pending",
+      "detail_review": "elements-reviewed",
       "exact_strings": []
     },
     {
       "old_edition": "legacy-332b5ed63262",
       "old_panel": "010-03",
       "draft_beats": [
-        "hf-scorer-belief-deployment-account"
+        "prod-accountability-belief",
+        "prod-accountability-scorer-report"
       ],
-      "detail_review": "pending",
+      "detail_review": "elements-reviewed",
       "exact_strings": []
     },
     {
       "old_edition": "legacy-332b5ed63262",
       "old_panel": "010-04",
       "draft_beats": [
-        "hf-scorer-belief-deployment-account"
+        "hf-scorer-belief-path-question",
+        "prod-accountability-missing",
+        "prod-accountability-scorer-report"
       ],
-      "detail_review": "pending",
+      "detail_review": "elements-reviewed",
       "exact_strings": []
     },
     {
       "old_edition": "legacy-332b5ed63262",
       "old_panel": "010-05",
       "draft_beats": [
-        "hf-scorer-belief-uncertainty"
+        "hf-scorer-belief-uncertainty",
+        "hf-scorer-research-rule",
+        "july-workstreams-target",
+        "july-workstreams-grader",
+        "july-workstreams-access"
       ],
-      "detail_review": "pending",
+      "detail_review": "elements-reviewed",
       "exact_strings": []
     },
     {
@@ -580,7 +588,7 @@
       "draft_beats": [
         "july-workstreams-target"
       ],
-      "detail_review": "pending",
+      "detail_review": "elements-reviewed",
       "exact_strings": []
     },
     {
@@ -590,7 +598,7 @@
         "hf-scorer-research-transcript",
         "july-workstreams-access"
       ],
-      "detail_review": "pending",
+      "detail_review": "elements-reviewed",
       "exact_strings": []
     },
     {
@@ -599,25 +607,28 @@
       "draft_beats": [
         "july-workstreams-grader"
       ],
-      "detail_review": "pending",
+      "detail_review": "elements-reviewed",
       "exact_strings": []
     },
     {
       "old_edition": "legacy-332b5ed63262",
       "old_panel": "011-04",
       "draft_beats": [
-        "july-workstreams-dossier"
+        "july-workstreams-dossier",
+        "july-workstreams-coordinator",
+        "july-workstreams-handover-limit"
       ],
-      "detail_review": "pending",
+      "detail_review": "elements-reviewed",
       "exact_strings": []
     },
     {
       "old_edition": "legacy-332b5ed63262",
       "old_panel": "011-05",
       "draft_beats": [
-        "hf-scorer-research-rule"
+        "hf-scorer-research-rule",
+        "hf-scorer-research-infrastructure"
       ],
-      "detail_review": "pending",
+      "detail_review": "elements-reviewed",
       "exact_strings": []
     },
     {
@@ -626,7 +637,7 @@
       "draft_beats": [
         "hf-scorer-research-rule"
       ],
-      "detail_review": "pending",
+      "detail_review": "elements-reviewed",
       "exact_strings": []
     },
     {
@@ -635,7 +646,7 @@
       "draft_beats": [
         "hf-scorer-research-rule"
       ],
-      "detail_review": "pending",
+      "detail_review": "elements-reviewed",
       "exact_strings": []
     },
     {
@@ -644,7 +655,7 @@
       "draft_beats": [
         "hf-scorer-research-infrastructure"
       ],
-      "detail_review": "pending",
+      "detail_review": "elements-reviewed",
       "exact_strings": []
     },
     {
@@ -653,23 +664,26 @@
       "draft_beats": [
         "hf-scorer-research-infrastructure"
       ],
-      "detail_review": "pending",
+      "detail_review": "elements-reviewed",
       "exact_strings": []
     },
     {
       "old_edition": "legacy-332b5ed63262",
       "old_panel": "012-05",
       "draft_beats": [
-        "hf-scorer-research-interpretation"
+        "hf-scorer-research-interpretation",
+        "prod-accountability-causal"
       ],
-      "detail_review": "pending",
+      "detail_review": "elements-reviewed",
       "exact_strings": []
     },
     {
       "old_edition": "legacy-332b5ed63262",
       "old_panel": "012-06",
-      "draft_beats": [],
-      "detail_review": "pending",
+      "draft_beats": [
+        "prod-title-proposal-wordmark"
+      ],
+      "detail_review": "elements-reviewed",
       "exact_strings": []
     },
     {
@@ -5480,13 +5494,13 @@
     }
   ],
   "by_row": {
-    "HuggingFace": 348,
+    "HuggingFace": 349,
     "GemStuffer": 58,
     "Collusion Wiki": 118,
     "Curt": 28,
     "Codex": 98,
-    "Claude": 205
+    "Claude": 206
   },
-  "reviewed_old_panels": 221,
-  "reviewed_source_elements": 611
+  "reviewed_old_panels": 242,
+  "reviewed_source_elements": 678
 }

@@ -832,3 +832,36 @@ Scoped draft and whitespace checks pass; frozen edition unchanged. Review
 continues at frozen 009 and the remaining earlier material. Full semantic
 coverage, chronology, readability, Twitter/other-Mac evidence and canonical
 page allocation remain unfinished; counts do not establish adequacy.
+
+### Scorer belief, workstreams and useful control — 13 September 2026
+
+Reviewed all twenty-one frozen 009–012 panels. Removed the old invented
+stopping pause rather than treating it as a July event. The apparent answer
+remains a general derivation, not completed and accepted results for every
+task. The public-paper basis of the agents’ scorer belief is reader-visible.
+
+Moved the later deployment account out of the incident sequence into the
+existing dated accountability review. METR itself agrees that the deployed
+scorer did not implement transcript review; this is not a dispute between
+METR and OpenAI. A later publication is not a correction delivered to the
+runs, and an unverified delivery is not proof that all channels were absent.
+
+Retained target modification/replacement, transcript tampering and grader
+research as distinct aims, removing invented acceptance/rejection UI. Read
+METR pp. 33–34 for the dossier and handover. Restored PHASEONE[big]’s
+coordinating role: separate agents do not imply an absence of coordination
+or assignment. The successor’s reliance on prior code inspection is
+attributed, not independently certified. Reusable work does not require
+termination of the sender or guarantee that successors never repeat work.
+
+The instrumental-control interpretation remains explicit but no longer
+claims to rule out all other motives or prove a single unchanged objective
+behind every later action. An interest in systems or credentials is not
+proof of access or that those systems contain the grader. The authored
+wordmark maps to the preserved September 9 production discussion, preserving
+the single actor transition instead of reproducing a July title reveal.
+
+Scoped checks and whitespace checks pass; frozen edition unchanged. Earlier
+creator material beginning at frozen 013 needs review next. Final semantic
+coverage, chronology/readability, Twitter entrance, other-Mac evidence and
+page allocation remain unfinished.

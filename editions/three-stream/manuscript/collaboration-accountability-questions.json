@@ -206,7 +206,8 @@
       {
         "id": "prod-accountability-belief",
         "old_panels": [
-          "100-01"
+          "100-01",
+          "010-03"
         ],
         "frame": "The draft’s belief-versus-deployment comparison is examined as an argument, not restaged as witness testimony.",
         "lettering": [
@@ -239,6 +240,11 @@
             "old_panel": "100-01",
             "disposition": "rewrite",
             "reason": "Retain the historical draft’s strongest question or evidence distinction as narrator discussion; retire the fictional hearing and avoid converting an unknown into a proven absence."
+          },
+          {
+            "old_panel": "010-03",
+            "disposition": "rewrite",
+            "reason": "Move the retrospective deployment account to dated collaboration review. METR and OpenAI are not represented as disagreeing with one another about implementation."
           }
         ],
         "source_record": "current-mac:0454eab1-f0a3-4674-82b3-3187cb54da2a:647"
@@ -246,7 +252,8 @@
       {
         "id": "prod-accountability-causal",
         "old_panels": [
-          "100-02"
+          "100-02",
+          "012-05"
         ],
         "frame": "The narrator retires the old page-number callback and its claim to explain the whole escalation.",
         "lettering": [
@@ -274,6 +281,11 @@
             "old_panel": "100-02",
             "disposition": "rewrite",
             "reason": "Retain the historical draft’s strongest question or evidence distinction as narrator discussion; retire the fictional hearing and avoid converting an unknown into a proven absence."
+          },
+          {
+            "old_panel": "012-05",
+            "disposition": "rewrite",
+            "reason": "Keep instrumental usefulness as the book’s interpretation while dropping the categorical exclusion of other motives or a universal unchanged objective."
           }
         ],
         "source_record": "current-mac:0454eab1-f0a3-4674-82b3-3187cb54da2a:647"
@@ -317,7 +329,8 @@
         "id": "prod-accountability-missing",
         "old_panels": [
           "100-03",
-          "100-06"
+          "100-06",
+          "010-04"
         ],
         "frame": "The narrator separates an unknown route from a route demonstrated not to exist.",
         "lettering": [
@@ -350,6 +363,11 @@
             "old_panel": "100-06",
             "disposition": "rewrite",
             "reason": "Retain the historical draft’s strongest question or evidence distinction as narrator discussion; retire the fictional hearing and avoid converting an unknown into a proven absence."
+          },
+          {
+            "old_panel": "010-04",
+            "disposition": "rewrite",
+            "reason": "Keep the incident’s scorer belief; relocate later correction and delivery questions to review. No delivered correction is established, which does not prove that no route or attempt existed."
           }
         ],
         "source_record": "current-mac:0454eab1-f0a3-4674-82b3-3187cb54da2a:647"
@@ -651,6 +669,47 @@
             "old_panel": "102-05",
             "disposition": "rewrite",
             "reason": "Retain the historical draft’s strongest question or evidence distinction as narrator discussion; retire the fictional hearing and avoid converting an unknown into a proven absence."
+          }
+        ],
+        "source_record": "current-mac:0454eab1-f0a3-4674-82b3-3187cb54da2a:647"
+      },
+      {
+        "id": "prod-accountability-scorer-report",
+        "old_panels": [
+          "010-03",
+          "010-04"
+        ],
+        "frame": "Dated narrator source comparison within manuscript review; never a correction visible inside the July agent scene.",
+        "lettering": [
+          "METR also states its understanding that OpenAI did not implement transcript review and that submitting the derived flag could have succeeded. The disagreement is between the agents’ expectation and the later deployment account, not a claim that METR and OpenAI reached opposite conclusions. Publication of that account is not evidence it was delivered to the running agents."
+        ],
+        "exact_strings": [],
+        "sources": [
+          {
+            "key": "METR",
+            "locator": "256t/records/metr-report/content.bin; printed pp. 9–11, scorer belief and source limitations; SHA-256 5b7d44d07be033d1ec6eb2229b6d1c09f502d5d6b897925f148613ab94b24aba",
+            "available": "2026-08-26"
+          },
+          {
+            "key": "PROD-47704e3a3f45",
+            "locator": "256t/editions/selected-messages/47704e3a3f4568aef4205b08137115adcfe1a9daca59f39d4327472e3a8da722.json; record SHA-256 47704e3a3f4568aef4205b08137115adcfe1a9daca59f39d4327472e3a8da722",
+            "available": "2026-09-06T15:02:31.590Z"
+          }
+        ],
+        "evidence_status": "documented-message-with-reconstructed-visualization",
+        "time_start": "2026-09-06T15:02:31.590Z",
+        "time_end": "2026-09-06T15:02:31.590Z",
+        "art_reuse": "none-approved",
+        "detail_decisions": [
+          {
+            "old_panel": "010-03",
+            "disposition": "rewrite",
+            "reason": "Move the retrospective deployment account to dated collaboration review. METR and OpenAI are not represented as disagreeing with one another about implementation."
+          },
+          {
+            "old_panel": "010-04",
+            "disposition": "rewrite",
+            "reason": "Keep the incident’s scorer belief; relocate later correction and delivery questions to review. No delivered correction is established, which does not prove that no route or attempt existed."
           }
         ],
         "source_record": "current-mac:0454eab1-f0a3-4674-82b3-3187cb54da2a:647"
