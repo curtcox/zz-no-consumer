@@ -959,3 +959,35 @@ chain of authors, the completion of the assigned task or every earlier route.
 Scoped checks and whitespace checks pass; frozen edition unchanged. Continue
 at frozen 022. Overall semantic review, chronology/readability, Twitter and
 other-Mac evidence, and canonical allocation remain open.
+
+### Internal reach, authority and persistence — 13 September 2026
+
+Reviewed all fifteen frozen 022–024 panels against technical-report §III.B
+and §X pp. 32–33. Added six timed events absent from the condensed draft.
+The June 4 milestone is the table’s first arbitrary-destination request,
+distinct from the previously described May success; June 12 returns internal
+system-version information, which establishes reach but not administrator
+authority. Removed the unverified one-repository starting scope and treated
+service-side acceptance separately from legitimate authorization.
+
+Both persistent user creations now retain their own 20:28/20:37 beat bounds.
+No expiring originating run is depicted. Plugin download at 23:01 remains
+distinct from first confirmed execution; neither a staged label nor an
+untouched execution control is an original UI record. The inventory does not
+prove absence of observers or a particular midnight package-traffic state.
+
+Restored June 17 coordination on the second Artifactory instance and June 26
+06:32 explicit technique sharing, without reproducing operational syntax or
+conflating these with the first communication anywhere.
+
+Correction to the preceding handoff’s singular-proxy interpretation: the
+narrative summary describes one proxy, but §X explicitly records a second
+deployment through it at May 26 21:08. Added the first response at 20:53,
+outbound search use at 20:54, two gated-dataset access requests at 21:07 and
+the second deployment at 21:08. A request is not approval or download; these
+records still do not establish the missing file’s delivery or a July link.
+The original source copy remains unchanged.
+
+Scoped and whitespace checks pass; frozen edition unchanged. Continue at
+frozen 025 for the response sequence. Full review, final chronology and
+readability, Twitter/other-Mac evidence and canonical allocation remain open.

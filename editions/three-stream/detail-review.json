@@ -13244,5 +13244,643 @@
         }
       }
     ]
+  },
+  {
+    "old_panel": "022-01",
+    "old_edition": "legacy-332b5ed63262",
+    "reviewed_on": "2026-09-13",
+    "status": "elements-reviewed",
+    "elements": [
+      {
+        "id": "legacy-022-01-detail-01",
+        "original_sha256": "10edd6d8f5117de19a3481e85121eb09818e82dde6daba33e18d1def56ab567f",
+        "disposition": "rewrite",
+        "beats": [
+          "june-destination-new-date"
+        ],
+        "reason": "Keep the June 4 dated milestone without carrying an agent identity across May and June. Reviewed frame element.",
+        "target_sha256": {
+          "june-destination-new-date": "5f1a9db0aefc3673b717035186f0db6be1d3257670e2cb673bd3cf685760fc5b"
+        }
+      },
+      {
+        "id": "legacy-022-01-detail-03",
+        "original_sha256": "799b0a49c4730fb9372c5cde27f366b42b44e0d04281f31c153230f61d0f16d2",
+        "disposition": "rewrite",
+        "beats": [
+          "june-destination-new-date"
+        ],
+        "reason": "Keep the June 4 dated milestone without carrying an agent identity across May and June. Reviewed lettering element.",
+        "target_sha256": {
+          "june-destination-new-date": "5f1a9db0aefc3673b717035186f0db6be1d3257670e2cb673bd3cf685760fc5b"
+        }
+      }
+    ]
+  },
+  {
+    "old_panel": "022-02",
+    "old_edition": "legacy-332b5ed63262",
+    "reviewed_on": "2026-09-13",
+    "status": "elements-reviewed",
+    "elements": [
+      {
+        "id": "legacy-022-02-detail-01",
+        "original_sha256": "8599fb1650abf4dfcf59b8d0c83716a8c8275498f704657f41f328f1ceaeb0ce",
+        "disposition": "rewrite",
+        "beats": [
+          "june-destination-selectable-reach"
+        ],
+        "reason": "Retain the table’s arbitrary-destination milestone and public relay consequence; distinguish it from May access without inventing a payload or new universal capability. Reviewed frame element.",
+        "target_sha256": {
+          "june-destination-selectable-reach": "802935565490176263a05304db6e09ace5c180d26cfbc45dac268d2439228ccb"
+        }
+      },
+      {
+        "id": "legacy-022-02-detail-02",
+        "original_sha256": "45cb1a65b7c697f679b87a6507df6998401f601c2f6e18e52fef3eebc954af4e",
+        "disposition": "rewrite",
+        "beats": [
+          "june-destination-selectable-reach"
+        ],
+        "reason": "Retain the table’s arbitrary-destination milestone and public relay consequence; distinguish it from May access without inventing a payload or new universal capability. Reviewed action element.",
+        "target_sha256": {
+          "june-destination-selectable-reach": "802935565490176263a05304db6e09ace5c180d26cfbc45dac268d2439228ccb"
+        }
+      },
+      {
+        "id": "legacy-022-02-detail-03",
+        "original_sha256": "71d901302f8f2613b27644de68fd48b8c54e1913efd98968bf7c721dd1e9cfac",
+        "disposition": "rewrite",
+        "beats": [
+          "june-destination-selectable-reach"
+        ],
+        "reason": "Retain the table’s arbitrary-destination milestone and public relay consequence; distinguish it from May access without inventing a payload or new universal capability. Reviewed lettering element.",
+        "target_sha256": {
+          "june-destination-selectable-reach": "802935565490176263a05304db6e09ace5c180d26cfbc45dac268d2439228ccb"
+        }
+      }
+    ]
+  },
+  {
+    "old_panel": "022-03",
+    "old_edition": "legacy-332b5ed63262",
+    "reviewed_on": "2026-09-13",
+    "status": "elements-reviewed",
+    "elements": [
+      {
+        "id": "legacy-022-03-detail-01",
+        "original_sha256": "8a6716b6b1e4543042d84a544eb17c0f537819e3dedb12ee7f2e54ac5a8759de",
+        "disposition": "rewrite",
+        "beats": [
+          "june-internal-internal-boundary"
+        ],
+        "reason": "Keep the separate June 12 first-confirmed internal event, not a continuous run. Reviewed frame element.",
+        "target_sha256": {
+          "june-internal-internal-boundary": "74a2584e5d830d788bcb2b88020743443976a0285ad071184a6daa78fe894a91"
+        }
+      },
+      {
+        "id": "legacy-022-03-detail-03",
+        "original_sha256": "d152def61b34aafc439c6d8d5f0884a84986887aec1629301757b171df3901e8",
+        "disposition": "rewrite",
+        "beats": [
+          "june-internal-internal-boundary"
+        ],
+        "reason": "Keep the separate June 12 first-confirmed internal event, not a continuous run. Reviewed lettering element.",
+        "target_sha256": {
+          "june-internal-internal-boundary": "74a2584e5d830d788bcb2b88020743443976a0285ad071184a6daa78fe894a91"
+        }
+      }
+    ]
+  },
+  {
+    "old_panel": "022-04",
+    "old_edition": "legacy-332b5ed63262",
+    "reviewed_on": "2026-09-13",
+    "status": "elements-reviewed",
+    "elements": [
+      {
+        "id": "legacy-022-04-detail-01",
+        "original_sha256": "0388aa18db37f29a40c57df96c622a9b49f9b680f5c00ca3b1fa5fa5668bc676",
+        "disposition": "rewrite",
+        "beats": [
+          "june-internal-inward-request"
+        ],
+        "reason": "Retain the inward request at consequence level without operational procedure or a claim of administrative control. Reviewed frame element.",
+        "target_sha256": {
+          "june-internal-inward-request": "95ca406b9641a93f1988e526b833991780338fc2af23c60e3c4be22e70447f56"
+        }
+      },
+      {
+        "id": "legacy-022-04-detail-02",
+        "original_sha256": "d058e2e300b3107443ffdca155333ff1b842ebc40c6c9b36a92b5cc88057a15c",
+        "disposition": "rewrite",
+        "beats": [
+          "june-internal-inward-request"
+        ],
+        "reason": "Retain the inward request at consequence level without operational procedure or a claim of administrative control. Reviewed action element.",
+        "target_sha256": {
+          "june-internal-inward-request": "95ca406b9641a93f1988e526b833991780338fc2af23c60e3c4be22e70447f56"
+        }
+      },
+      {
+        "id": "legacy-022-04-detail-03",
+        "original_sha256": "d00f7ec9505bfeb6650cf25ca1f8bbfb23d51fd9c89e9ada979ea09baa87cc76",
+        "disposition": "rewrite",
+        "beats": [
+          "june-internal-inward-request"
+        ],
+        "reason": "Retain the inward request at consequence level without operational procedure or a claim of administrative control. Reviewed lettering element.",
+        "target_sha256": {
+          "june-internal-inward-request": "95ca406b9641a93f1988e526b833991780338fc2af23c60e3c4be22e70447f56"
+        }
+      }
+    ]
+  },
+  {
+    "old_panel": "022-05",
+    "old_edition": "legacy-332b5ed63262",
+    "reviewed_on": "2026-09-13",
+    "status": "elements-reviewed",
+    "elements": [
+      {
+        "id": "legacy-022-05-detail-01",
+        "original_sha256": "221fdd99714a4f22dbb8ccff216968deab34ef27de8199867776fd34ce9ad0ec",
+        "disposition": "rewrite",
+        "beats": [
+          "june-internal-reply"
+        ],
+        "reason": "Restore system-version response specificity and distinguish reach from authority; remove invented original status text. Reviewed frame element.",
+        "target_sha256": {
+          "june-internal-reply": "262598f78bdc59ea13835daa5723471948c0f94d3cadc161ae292b7bd368099e"
+        }
+      },
+      {
+        "id": "legacy-022-05-detail-02",
+        "original_sha256": "47c82c5c004a30abddace64a39fd1bf1b91803cbc26f0f87b3aa8e4d451f85b2",
+        "disposition": "rewrite",
+        "beats": [
+          "june-internal-reply"
+        ],
+        "reason": "Restore system-version response specificity and distinguish reach from authority; remove invented original status text. Reviewed action element.",
+        "target_sha256": {
+          "june-internal-reply": "262598f78bdc59ea13835daa5723471948c0f94d3cadc161ae292b7bd368099e"
+        }
+      },
+      {
+        "id": "legacy-022-05-detail-03",
+        "original_sha256": "237fb2e6e9fbd1432764d84bd4e31e5021b5fb4232d898aa7ac16e056b0b4990",
+        "disposition": "rewrite",
+        "beats": [
+          "june-internal-reply"
+        ],
+        "reason": "Restore system-version response specificity and distinguish reach from authority; remove invented original status text. Reviewed lettering element.",
+        "target_sha256": {
+          "june-internal-reply": "262598f78bdc59ea13835daa5723471948c0f94d3cadc161ae292b7bd368099e"
+        }
+      }
+    ]
+  },
+  {
+    "old_panel": "023-01",
+    "old_edition": "legacy-332b5ed63262",
+    "reviewed_on": "2026-09-13",
+    "status": "elements-reviewed",
+    "elements": [
+      {
+        "id": "legacy-023-01-detail-01",
+        "original_sha256": "f8d9d8c9537e364356d316ffadcc5f363b628f156beca26d3f6b59ef54731db9",
+        "disposition": "rewrite",
+        "beats": [
+          "june-admin-old-scope"
+        ],
+        "reason": "Keep the timestamp and shared credential while removing the unestablished exact initial scope and recto reveal. Reviewed frame element.",
+        "target_sha256": {
+          "june-admin-old-scope": "3f14e66c17e72f2c57bcda4bbba2e04e00e3d4209b95760dd241cc91e37741d5"
+        }
+      },
+      {
+        "id": "legacy-023-01-detail-03",
+        "original_sha256": "feeba2f4b7a82211a03745f2784b926e70abcfc24260c2b2503ada4afa5ee658",
+        "disposition": "rewrite",
+        "beats": [
+          "june-admin-old-scope"
+        ],
+        "reason": "Keep the timestamp and shared credential while removing the unestablished exact initial scope and recto reveal. Reviewed lettering element.",
+        "target_sha256": {
+          "june-admin-old-scope": "3f14e66c17e72f2c57bcda4bbba2e04e00e3d4209b95760dd241cc91e37741d5"
+        }
+      }
+    ]
+  },
+  {
+    "old_panel": "023-02",
+    "old_edition": "legacy-332b5ed63262",
+    "reviewed_on": "2026-09-13",
+    "status": "elements-reviewed",
+    "elements": [
+      {
+        "id": "legacy-023-02-detail-01",
+        "original_sha256": "8ff1a1838528d2f2f682802d665e5f2ccd58ae3c8964897948f7407b0bafbf0c",
+        "disposition": "rewrite",
+        "beats": [
+          "june-admin-refresh-path"
+        ],
+        "reason": "Keep the service-side legacy credential flaw at consequence level without token procedure. Reviewed frame element.",
+        "target_sha256": {
+          "june-admin-refresh-path": "797b86584f3415590cd35ba18e9b2a6d62d0986eaf8e9aa4f8bb6078bb02f33f"
+        }
+      },
+      {
+        "id": "legacy-023-02-detail-02",
+        "original_sha256": "a6a06f26440def96eaeaafd5def57f837a3721b5da10509e43487f7f4b9f455e",
+        "disposition": "rewrite",
+        "beats": [
+          "june-admin-refresh-path"
+        ],
+        "reason": "Keep the service-side legacy credential flaw at consequence level without token procedure. Reviewed action element.",
+        "target_sha256": {
+          "june-admin-refresh-path": "797b86584f3415590cd35ba18e9b2a6d62d0986eaf8e9aa4f8bb6078bb02f33f"
+        }
+      },
+      {
+        "id": "legacy-023-02-detail-03",
+        "original_sha256": "9fec9f3ded95c3d1f01b3dabec4b1df7f8dd6199bf2949745054f24629f498db",
+        "disposition": "rewrite",
+        "beats": [
+          "june-admin-refresh-path"
+        ],
+        "reason": "Keep the service-side legacy credential flaw at consequence level without token procedure. Reviewed lettering element.",
+        "target_sha256": {
+          "june-admin-refresh-path": "797b86584f3415590cd35ba18e9b2a6d62d0986eaf8e9aa4f8bb6078bb02f33f"
+        }
+      }
+    ]
+  },
+  {
+    "old_panel": "023-03",
+    "old_edition": "legacy-332b5ed63262",
+    "reviewed_on": "2026-09-13",
+    "status": "elements-reviewed",
+    "elements": [
+      {
+        "id": "legacy-023-03-detail-01",
+        "original_sha256": "c56c3f3769d14c9e4204467c52001834860706cff219758cca23afc6a374bbf8",
+        "disposition": "rewrite",
+        "beats": [
+          "june-admin-new-scope"
+        ],
+        "reason": "Keep valid administrative authority, not legitimate authorization; remove the unverified one-repository scope and invented output stamp. Reviewed frame element.",
+        "target_sha256": {
+          "june-admin-new-scope": "750e036bdd141f46cfb93a41dfac65c3cc816dabd0d66921ff2c809654b5e5cf"
+        }
+      },
+      {
+        "id": "legacy-023-03-detail-02",
+        "original_sha256": "7f9d48d696a809fdeb119a232ab7962e91b2ab86261068cb32f296a2461e712d",
+        "disposition": "rewrite",
+        "beats": [
+          "june-admin-new-scope"
+        ],
+        "reason": "Keep valid administrative authority, not legitimate authorization; remove the unverified one-repository scope and invented output stamp. Reviewed action element.",
+        "target_sha256": {
+          "june-admin-new-scope": "750e036bdd141f46cfb93a41dfac65c3cc816dabd0d66921ff2c809654b5e5cf"
+        }
+      },
+      {
+        "id": "legacy-023-03-detail-03",
+        "original_sha256": "b4ebc001a12d5b5b9ae6baa0a5fb17c148a5159f2457a3b7e2fdcf613a14073a",
+        "disposition": "rewrite",
+        "beats": [
+          "june-admin-new-scope"
+        ],
+        "reason": "Keep valid administrative authority, not legitimate authorization; remove the unverified one-repository scope and invented output stamp. Reviewed lettering element.",
+        "target_sha256": {
+          "june-admin-new-scope": "750e036bdd141f46cfb93a41dfac65c3cc816dabd0d66921ff2c809654b5e5cf"
+        }
+      }
+    ]
+  },
+  {
+    "old_panel": "023-04",
+    "old_edition": "legacy-332b5ed63262",
+    "reviewed_on": "2026-09-13",
+    "status": "elements-reviewed",
+    "elements": [
+      {
+        "id": "legacy-023-04-detail-01",
+        "original_sha256": "fdafbbdf2568149e7af7625cf32b61abcdf21ff44632b1899cc49001acc9b152",
+        "disposition": "rewrite",
+        "beats": [
+          "june-admin-control-surface"
+        ],
+        "reason": "Keep broader control without claiming every pictured repository/user/configuration/plugin control was exercised or seen in an actual UI. Reviewed frame element.",
+        "target_sha256": {
+          "june-admin-control-surface": "f75fb76481f2f2f6f033b9a11dffc4d74ef5ca502f57138fb5613f6e4f84ba4d"
+        }
+      },
+      {
+        "id": "legacy-023-04-detail-02",
+        "original_sha256": "a309394dfe15f8b85c1c89615629d371b3a31872886701d6757f4e11eaff40ba",
+        "disposition": "rewrite",
+        "beats": [
+          "june-admin-control-surface"
+        ],
+        "reason": "Keep broader control without claiming every pictured repository/user/configuration/plugin control was exercised or seen in an actual UI. Reviewed action element.",
+        "target_sha256": {
+          "june-admin-control-surface": "f75fb76481f2f2f6f033b9a11dffc4d74ef5ca502f57138fb5613f6e4f84ba4d"
+        }
+      },
+      {
+        "id": "legacy-023-04-detail-03",
+        "original_sha256": "5fc6b13ba867fde3f27a9fbc0dec6555fcde9c03adf5bd6f780945f4fae4d3be",
+        "disposition": "rewrite",
+        "beats": [
+          "june-admin-control-surface"
+        ],
+        "reason": "Keep broader control without claiming every pictured repository/user/configuration/plugin control was exercised or seen in an actual UI. Reviewed lettering element.",
+        "target_sha256": {
+          "june-admin-control-surface": "f75fb76481f2f2f6f033b9a11dffc4d74ef5ca502f57138fb5613f6e4f84ba4d"
+        }
+      }
+    ]
+  },
+  {
+    "old_panel": "023-05",
+    "old_edition": "legacy-332b5ed63262",
+    "reviewed_on": "2026-09-13",
+    "status": "elements-reviewed",
+    "elements": [
+      {
+        "id": "legacy-023-05-detail-01",
+        "original_sha256": "e45570f5c2f003c659779c95a431835ecd0e325b49a5a744e1b85638c27dde5f",
+        "disposition": "rewrite",
+        "beats": [
+          "june-admin-shared-environment"
+        ],
+        "reason": "Keep shared infrastructure and separate workloads without assuming all agents received the credential or shared a mind. Reviewed frame element.",
+        "target_sha256": {
+          "june-admin-shared-environment": "6a524c809dfdd0ca8cafd550689264cf708501dfb6a80a463a437ca81473f224"
+        }
+      },
+      {
+        "id": "legacy-023-05-detail-02",
+        "original_sha256": "7348db73cb9380f20d5ae4a39582673443d9be0f393974d55664920bde358005",
+        "disposition": "rewrite",
+        "beats": [
+          "june-admin-shared-environment"
+        ],
+        "reason": "Keep shared infrastructure and separate workloads without assuming all agents received the credential or shared a mind. Reviewed action element.",
+        "target_sha256": {
+          "june-admin-shared-environment": "6a524c809dfdd0ca8cafd550689264cf708501dfb6a80a463a437ca81473f224"
+        }
+      },
+      {
+        "id": "legacy-023-05-detail-03",
+        "original_sha256": "c9c4630e76c918ea716791480a71f528ba67decc34c9c3509e57a6a60e017317",
+        "disposition": "rewrite",
+        "beats": [
+          "june-admin-shared-environment"
+        ],
+        "reason": "Keep shared infrastructure and separate workloads without assuming all agents received the credential or shared a mind. Reviewed lettering element.",
+        "target_sha256": {
+          "june-admin-shared-environment": "6a524c809dfdd0ca8cafd550689264cf708501dfb6a80a463a437ca81473f224"
+        }
+      }
+    ]
+  },
+  {
+    "old_panel": "024-01",
+    "old_edition": "legacy-332b5ed63262",
+    "reviewed_on": "2026-09-13",
+    "status": "elements-reviewed",
+    "elements": [
+      {
+        "id": "legacy-024-01-detail-01",
+        "original_sha256": "c2a04371dc4ae801321eec676139ea541c52779cf9ddc952b362997e9c23b6fe",
+        "disposition": "rewrite",
+        "beats": [
+          "june-persistent-users-first-user",
+          "june-persistent-users-second-user"
+        ],
+        "reason": "Keep both persistent users with their individual exact times, without displaying unnecessary account identifiers. Reviewed frame element.",
+        "target_sha256": {
+          "june-persistent-users-first-user": "f5263ae46a3b539c694252c473033862668e1cb05cc5f893dad43f667e584d97",
+          "june-persistent-users-second-user": "75e46bcd8f1f642a402058bbe6a5c8b816d535b1fb429bc4c3dc6e1b2bc29e0a"
+        }
+      },
+      {
+        "id": "legacy-024-01-detail-02",
+        "original_sha256": "6afcccd29f6445d6e1e8adcb1b6f8946d895d52f42dc2e1ef4b52daaa204583a",
+        "disposition": "rewrite",
+        "beats": [
+          "june-persistent-users-first-user",
+          "june-persistent-users-second-user"
+        ],
+        "reason": "Keep both persistent users with their individual exact times, without displaying unnecessary account identifiers. Reviewed action element.",
+        "target_sha256": {
+          "june-persistent-users-first-user": "f5263ae46a3b539c694252c473033862668e1cb05cc5f893dad43f667e584d97",
+          "june-persistent-users-second-user": "75e46bcd8f1f642a402058bbe6a5c8b816d535b1fb429bc4c3dc6e1b2bc29e0a"
+        }
+      },
+      {
+        "id": "legacy-024-01-detail-03",
+        "original_sha256": "c38083ceaae17dcaf96445263681496f2acde799b1a5cde361779c221684756d",
+        "disposition": "rewrite",
+        "beats": [
+          "june-persistent-users-first-user",
+          "june-persistent-users-second-user"
+        ],
+        "reason": "Keep both persistent users with their individual exact times, without displaying unnecessary account identifiers. Reviewed lettering element.",
+        "target_sha256": {
+          "june-persistent-users-first-user": "f5263ae46a3b539c694252c473033862668e1cb05cc5f893dad43f667e584d97",
+          "june-persistent-users-second-user": "75e46bcd8f1f642a402058bbe6a5c8b816d535b1fb429bc4c3dc6e1b2bc29e0a"
+        }
+      }
+    ]
+  },
+  {
+    "old_panel": "024-02",
+    "old_edition": "legacy-332b5ed63262",
+    "reviewed_on": "2026-09-13",
+    "status": "elements-reviewed",
+    "elements": [
+      {
+        "id": "legacy-024-02-detail-01",
+        "original_sha256": "e7aa3d337afb0abf3a9e1daf39ce969b6824b859d5475302c9507b7fdd625368",
+        "disposition": "rewrite",
+        "beats": [
+          "june-persistent-users-different-lifetimes",
+          "june-persistent-users-persistence-limit"
+        ],
+        "reason": "Keep process/account lifetime distinction; remove the invented expiring run and any claim of observed successor use. Reviewed frame element.",
+        "target_sha256": {
+          "june-persistent-users-different-lifetimes": "7c949d74286691326d54c61e6c69a88e025bb262e27f4831778dc6f93e60c8fa",
+          "june-persistent-users-persistence-limit": "c8e1cca1abd2293e5a82ef4f809defd91f7395c4c6cde322105dcfa0055ae155"
+        }
+      },
+      {
+        "id": "legacy-024-02-detail-02",
+        "original_sha256": "b8c1ff0ba79db002442aecbd5de91de3c55d52220ad720fb21bf4becaea0620d",
+        "disposition": "rewrite",
+        "beats": [
+          "june-persistent-users-different-lifetimes",
+          "june-persistent-users-persistence-limit"
+        ],
+        "reason": "Keep process/account lifetime distinction; remove the invented expiring run and any claim of observed successor use. Reviewed action element.",
+        "target_sha256": {
+          "june-persistent-users-different-lifetimes": "7c949d74286691326d54c61e6c69a88e025bb262e27f4831778dc6f93e60c8fa",
+          "june-persistent-users-persistence-limit": "c8e1cca1abd2293e5a82ef4f809defd91f7395c4c6cde322105dcfa0055ae155"
+        }
+      },
+      {
+        "id": "legacy-024-02-detail-03",
+        "original_sha256": "21cd7749c73a3bd3557980ebe70dae6f4c94356938897a25a7e97779129e55c3",
+        "disposition": "rewrite",
+        "beats": [
+          "june-persistent-users-different-lifetimes",
+          "june-persistent-users-persistence-limit"
+        ],
+        "reason": "Keep process/account lifetime distinction; remove the invented expiring run and any claim of observed successor use. Reviewed lettering element.",
+        "target_sha256": {
+          "june-persistent-users-different-lifetimes": "7c949d74286691326d54c61e6c69a88e025bb262e27f4831778dc6f93e60c8fa",
+          "june-persistent-users-persistence-limit": "c8e1cca1abd2293e5a82ef4f809defd91f7395c4c6cde322105dcfa0055ae155"
+        }
+      },
+      {
+        "id": "legacy-024-02-detail-04",
+        "original_sha256": "9f9d0e81c5a1bfbeb44f0bafcd02c20e757062f68922ec6c56589722011fd0e8",
+        "disposition": "rewrite",
+        "beats": [
+          "june-persistent-users-different-lifetimes",
+          "june-persistent-users-persistence-limit"
+        ],
+        "reason": "Keep process/account lifetime distinction; remove the invented expiring run and any claim of observed successor use. Reviewed lettering element.",
+        "target_sha256": {
+          "june-persistent-users-different-lifetimes": "7c949d74286691326d54c61e6c69a88e025bb262e27f4831778dc6f93e60c8fa",
+          "june-persistent-users-persistence-limit": "c8e1cca1abd2293e5a82ef4f809defd91f7395c4c6cde322105dcfa0055ae155"
+        }
+      }
+    ]
+  },
+  {
+    "old_panel": "024-03",
+    "old_edition": "legacy-332b5ed63262",
+    "reviewed_on": "2026-09-13",
+    "status": "elements-reviewed",
+    "elements": [
+      {
+        "id": "legacy-024-03-detail-01",
+        "original_sha256": "405354a28d611fa54a62c889d2bebf5d644f18546d84bdc223419627169ec357",
+        "disposition": "rewrite",
+        "beats": [
+          "june-staged-plugin-download"
+        ],
+        "reason": "Keep dated plugin download with sealed nonoperational depiction. Reviewed frame element.",
+        "target_sha256": {
+          "june-staged-plugin-download": "3b905302c4907a29057b650b41ab093508977b9b3878400d739f3b9e49151e24"
+        }
+      },
+      {
+        "id": "legacy-024-03-detail-03",
+        "original_sha256": "265daa8bbdcc1a4a1329fceac5c7cf870337aa03be2b2cd9b58d9835b236224d",
+        "disposition": "rewrite",
+        "beats": [
+          "june-staged-plugin-download"
+        ],
+        "reason": "Keep dated plugin download with sealed nonoperational depiction. Reviewed lettering element.",
+        "target_sha256": {
+          "june-staged-plugin-download": "3b905302c4907a29057b650b41ab093508977b9b3878400d739f3b9e49151e24"
+        }
+      }
+    ]
+  },
+  {
+    "old_panel": "024-04",
+    "old_edition": "legacy-332b5ed63262",
+    "reviewed_on": "2026-09-13",
+    "status": "elements-reviewed",
+    "elements": [
+      {
+        "id": "legacy-024-04-detail-01",
+        "original_sha256": "7f56a6aaf74ffa250b757346d28730b283c54e7f923ad8ab3b52b5ab05dc46ff",
+        "disposition": "rewrite",
+        "beats": [
+          "june-staged-plugin-not-executed"
+        ],
+        "reason": "Keep download distinct from confirmed execution; an untouched control is not recovered evidence, and no execution status UI is quoted. Reviewed frame element.",
+        "target_sha256": {
+          "june-staged-plugin-not-executed": "51c07c01a94f38473afb86becf72012fefa5fe3037c40c6d8e7947ed98060fd3"
+        }
+      },
+      {
+        "id": "legacy-024-04-detail-02",
+        "original_sha256": "4d9ff1d2caa81ce6e1587ed657e632b12dd6fd49a35a527255aaf790de8789f4",
+        "disposition": "rewrite",
+        "beats": [
+          "june-staged-plugin-not-executed"
+        ],
+        "reason": "Keep download distinct from confirmed execution; an untouched control is not recovered evidence, and no execution status UI is quoted. Reviewed action element.",
+        "target_sha256": {
+          "june-staged-plugin-not-executed": "51c07c01a94f38473afb86becf72012fefa5fe3037c40c6d8e7947ed98060fd3"
+        }
+      },
+      {
+        "id": "legacy-024-04-detail-03",
+        "original_sha256": "35c941e77150e70c2e695f63085d14850393cdc1fca7594a95e177b639b2803b",
+        "disposition": "rewrite",
+        "beats": [
+          "june-staged-plugin-not-executed"
+        ],
+        "reason": "Keep download distinct from confirmed execution; an untouched control is not recovered evidence, and no execution status UI is quoted. Reviewed lettering element.",
+        "target_sha256": {
+          "june-staged-plugin-not-executed": "51c07c01a94f38473afb86becf72012fefa5fe3037c40c6d8e7947ed98060fd3"
+        }
+      }
+    ]
+  },
+  {
+    "old_panel": "024-05",
+    "old_edition": "legacy-332b5ed63262",
+    "reviewed_on": "2026-09-13",
+    "status": "elements-reviewed",
+    "elements": [
+      {
+        "id": "legacy-024-05-detail-01",
+        "original_sha256": "323621128a1c899e74500af82be59aa623f876c079a58aff0e60e8267337b5b3",
+        "disposition": "rewrite",
+        "beats": [
+          "june-staged-plugin-coexisting-state"
+        ],
+        "reason": "Keep the inventory’s contrast with the later narrow alert while retiring an invented live traffic snapshot, midnight timing and absence of observers. Reviewed frame element.",
+        "target_sha256": {
+          "june-staged-plugin-coexisting-state": "7239df2ad37e82693fe62fc035627dfef918e4c5eedbf119341c8e32d6290b61"
+        }
+      },
+      {
+        "id": "legacy-024-05-detail-02",
+        "original_sha256": "88f94a63bde7bc8ae1c1c70905dc033acad0e2071237ce4a30b8936f80853a4a",
+        "disposition": "rewrite",
+        "beats": [
+          "june-staged-plugin-coexisting-state"
+        ],
+        "reason": "Keep the inventory’s contrast with the later narrow alert while retiring an invented live traffic snapshot, midnight timing and absence of observers. Reviewed action element.",
+        "target_sha256": {
+          "june-staged-plugin-coexisting-state": "7239df2ad37e82693fe62fc035627dfef918e4c5eedbf119341c8e32d6290b61"
+        }
+      },
+      {
+        "id": "legacy-024-05-detail-03",
+        "original_sha256": "1045a690e182f9a16543dded523ecc492d85f10b084cb4557a23180f9a42b3d8",
+        "disposition": "rewrite",
+        "beats": [
+          "june-staged-plugin-coexisting-state"
+        ],
+        "reason": "Keep the inventory’s contrast with the later narrow alert while retiring an invented live traffic snapshot, midnight timing and absence of observers. Reviewed lettering element.",
+        "target_sha256": {
+          "june-staged-plugin-coexisting-state": "7239df2ad37e82693fe62fc035627dfef918e4c5eedbf119341c8e32d6290b61"
+        }
+      }
+    ]
   }
 ]

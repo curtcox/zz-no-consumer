@@ -1,7 +1,7 @@
 {
   "status": "incomplete; associations are not full-detail dispositions",
-  "scenes": 270,
-  "drafted_beats": 884,
+  "scenes": 276,
+  "drafted_beats": 890,
   "canonical_pages": null,
   "associated_old_panels": 469,
   "old_panels": [
@@ -1132,7 +1132,7 @@
       "draft_beats": [
         "june-destination-new-date"
       ],
-      "detail_review": "pending",
+      "detail_review": "elements-reviewed",
       "exact_strings": []
     },
     {
@@ -1141,7 +1141,7 @@
       "draft_beats": [
         "june-destination-selectable-reach"
       ],
-      "detail_review": "pending",
+      "detail_review": "elements-reviewed",
       "exact_strings": []
     },
     {
@@ -1150,7 +1150,7 @@
       "draft_beats": [
         "june-internal-internal-boundary"
       ],
-      "detail_review": "pending",
+      "detail_review": "elements-reviewed",
       "exact_strings": []
     },
     {
@@ -1159,7 +1159,7 @@
       "draft_beats": [
         "june-internal-inward-request"
       ],
-      "detail_review": "pending",
+      "detail_review": "elements-reviewed",
       "exact_strings": []
     },
     {
@@ -1168,7 +1168,7 @@
       "draft_beats": [
         "june-internal-reply"
       ],
-      "detail_review": "pending",
+      "detail_review": "elements-reviewed",
       "exact_strings": []
     },
     {
@@ -1177,7 +1177,7 @@
       "draft_beats": [
         "june-admin-old-scope"
       ],
-      "detail_review": "pending",
+      "detail_review": "elements-reviewed",
       "exact_strings": []
     },
     {
@@ -1186,7 +1186,7 @@
       "draft_beats": [
         "june-admin-refresh-path"
       ],
-      "detail_review": "pending",
+      "detail_review": "elements-reviewed",
       "exact_strings": []
     },
     {
@@ -1195,7 +1195,7 @@
       "draft_beats": [
         "june-admin-new-scope"
       ],
-      "detail_review": "pending",
+      "detail_review": "elements-reviewed",
       "exact_strings": []
     },
     {
@@ -1204,7 +1204,7 @@
       "draft_beats": [
         "june-admin-control-surface"
       ],
-      "detail_review": "pending",
+      "detail_review": "elements-reviewed",
       "exact_strings": []
     },
     {
@@ -1213,7 +1213,7 @@
       "draft_beats": [
         "june-admin-shared-environment"
       ],
-      "detail_review": "pending",
+      "detail_review": "elements-reviewed",
       "exact_strings": []
     },
     {
@@ -1223,7 +1223,7 @@
         "june-persistent-users-first-user",
         "june-persistent-users-second-user"
       ],
-      "detail_review": "pending",
+      "detail_review": "elements-reviewed",
       "exact_strings": []
     },
     {
@@ -1233,7 +1233,7 @@
         "june-persistent-users-different-lifetimes",
         "june-persistent-users-persistence-limit"
       ],
-      "detail_review": "pending",
+      "detail_review": "elements-reviewed",
       "exact_strings": []
     },
     {
@@ -1242,7 +1242,7 @@
       "draft_beats": [
         "june-staged-plugin-download"
       ],
-      "detail_review": "pending",
+      "detail_review": "elements-reviewed",
       "exact_strings": []
     },
     {
@@ -1251,7 +1251,7 @@
       "draft_beats": [
         "june-staged-plugin-not-executed"
       ],
-      "detail_review": "pending",
+      "detail_review": "elements-reviewed",
       "exact_strings": []
     },
     {
@@ -1260,7 +1260,7 @@
       "draft_beats": [
         "june-staged-plugin-coexisting-state"
       ],
-      "detail_review": "pending",
+      "detail_review": "elements-reviewed",
       "exact_strings": []
     },
     {
@@ -5552,13 +5552,13 @@
     }
   ],
   "by_row": {
-    "HuggingFace": 357,
+    "HuggingFace": 363,
     "GemStuffer": 58,
     "Collusion Wiki": 118,
     "Curt": 28,
     "Codex": 98,
     "Claude": 225
   },
-  "reviewed_old_panels": 288,
-  "reviewed_source_elements": 812
+  "reviewed_old_panels": 303,
+  "reviewed_source_elements": 854
 }
