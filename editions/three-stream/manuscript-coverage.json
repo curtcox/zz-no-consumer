@@ -1,9 +1,9 @@
 {
   "status": "incomplete; associations are not full-detail dispositions",
-  "scenes": 237,
-  "drafted_beats": 645,
+  "scenes": 239,
+  "drafted_beats": 661,
   "canonical_pages": null,
-  "associated_old_panels": 296,
+  "associated_old_panels": 307,
   "old_panels": [
     {
       "old_edition": "legacy-332b5ed63262",
@@ -4129,36 +4129,48 @@
     {
       "old_edition": "legacy-332b5ed63262",
       "old_panel": "096-01",
-      "draft_beats": [],
-      "detail_review": "pending",
+      "draft_beats": [
+        "prod-pacing-inference"
+      ],
+      "detail_review": "elements-reviewed",
       "exact_strings": []
     },
     {
       "old_edition": "legacy-332b5ed63262",
       "old_panel": "096-02",
-      "draft_beats": [],
-      "detail_review": "pending",
+      "draft_beats": [
+        "prod-pacing-limited"
+      ],
+      "detail_review": "elements-reviewed",
       "exact_strings": []
     },
     {
       "old_edition": "legacy-332b5ed63262",
       "old_panel": "096-03",
-      "draft_beats": [],
-      "detail_review": "pending",
+      "draft_beats": [
+        "prod-pacing-conditions",
+        "prod-pacing-priority"
+      ],
+      "detail_review": "elements-reviewed",
       "exact_strings": []
     },
     {
       "old_edition": "legacy-332b5ed63262",
       "old_panel": "096-04",
-      "draft_beats": [],
-      "detail_review": "pending",
+      "draft_beats": [
+        "prod-pacing-training",
+        "prod-pacing-purpose"
+      ],
+      "detail_review": "elements-reviewed",
       "exact_strings": []
     },
     {
       "old_edition": "legacy-332b5ed63262",
       "old_panel": "096-05",
-      "draft_beats": [],
-      "detail_review": "pending",
+      "draft_beats": [
+        "prod-pacing-judgment"
+      ],
+      "detail_review": "elements-reviewed",
       "exact_strings": []
     },
     {
@@ -4199,43 +4211,55 @@
     {
       "old_edition": "legacy-332b5ed63262",
       "old_panel": "098-01",
-      "draft_beats": [],
-      "detail_review": "pending",
+      "draft_beats": [
+        "prod-assurance-review-separation"
+      ],
+      "detail_review": "elements-reviewed",
       "exact_strings": []
     },
     {
       "old_edition": "legacy-332b5ed63262",
       "old_panel": "098-02",
-      "draft_beats": [],
-      "detail_review": "pending",
+      "draft_beats": [
+        "prod-assurance-review-guarantee"
+      ],
+      "detail_review": "elements-reviewed",
       "exact_strings": []
     },
     {
       "old_edition": "legacy-332b5ed63262",
       "old_panel": "098-03",
-      "draft_beats": [],
-      "detail_review": "pending",
+      "draft_beats": [
+        "prod-assurance-review-local-case"
+      ],
+      "detail_review": "elements-reviewed",
       "exact_strings": []
     },
     {
       "old_edition": "legacy-332b5ed63262",
       "old_panel": "098-04",
-      "draft_beats": [],
-      "detail_review": "pending",
+      "draft_beats": [
+        "prod-assurance-review-scale"
+      ],
+      "detail_review": "elements-reviewed",
       "exact_strings": []
     },
     {
       "old_edition": "legacy-332b5ed63262",
       "old_panel": "098-05",
-      "draft_beats": [],
-      "detail_review": "pending",
+      "draft_beats": [
+        "prod-assurance-review-shared"
+      ],
+      "detail_review": "elements-reviewed",
       "exact_strings": []
     },
     {
       "old_edition": "legacy-332b5ed63262",
       "old_panel": "098-06",
-      "draft_beats": [],
-      "detail_review": "pending",
+      "draft_beats": [
+        "prod-assurance-review-open"
+      ],
+      "detail_review": "elements-reviewed",
       "exact_strings": []
     },
     {
@@ -5003,9 +5027,9 @@
     "GemStuffer": 58,
     "Collusion Wiki": 115,
     "Curt": 25,
-    "Codex": 12,
-    "Claude": 93
+    "Codex": 22,
+    "Claude": 99
   },
-  "reviewed_old_panels": 46,
-  "reviewed_source_elements": 129
+  "reviewed_old_panels": 57,
+  "reviewed_source_elements": 155
 }

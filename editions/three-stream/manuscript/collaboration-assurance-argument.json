@@ -1,0 +1,227 @@
+[
+  {
+    "id": "prod-assurance-review",
+    "title": "A guarantee no participant can give alone",
+    "movement": "collaboration",
+    "owner": "Claude",
+    "start": "2026-09-06T15:02:31.590Z",
+    "end": "2026-09-06T15:02:31.590Z",
+    "original_timezone": "UTC",
+    "precision": "millisecond",
+    "chronology_basis": "Narrator examines the earlier committed draft alongside the September 6 manuscript-review report. Source availability precedes this scene. No specific read time or private decision is assigned to Claude.",
+    "source_limit": "Historical project-authored hypothetical comparison, presented as draft material in the dated collaboration review. Neither actor dialogue nor the empty assurance channel is asserted as a real incident event.",
+    "status": "detailed-draft",
+    "beats": [
+      {
+        "id": "prod-assurance-review-separation",
+        "old_panels": [
+          "098-01"
+        ],
+        "frame": "Two explicitly hypothetical diagrams are printed on the draft artifact. Their labels state different actors, responsibilities and stakes. No institutional room or agent board is reenacted.",
+        "lettering": [
+          "The revised draft introduces an assurance problem, while refusing moral or causal equivalence between agents and institutions."
+        ],
+        "exact_strings": [],
+        "sources": [
+          {
+            "key": "PROD-47704e3a3f45",
+            "locator": "256t/editions/selected-messages/47704e3a3f4568aef4205b08137115adcfe1a9daca59f39d4327472e3a8da722.json; record SHA-256 47704e3a3f4568aef4205b08137115adcfe1a9daca59f39d4327472e3a8da722",
+            "available": "2026-09-06T15:02:31.590Z"
+          },
+          {
+            "key": "DRAFT-ASSURANCE",
+            "locator": "editions/three-stream/evidence/assurance-096-7fa53878c493.md; corresponding panel and page notes; Git 7fa53878c4934571fee2dda8e025a050ff515761",
+            "available": "2026-09-05T22:33:29Z"
+          }
+        ],
+        "evidence_status": "documented-message-with-reconstructed-visualization",
+        "time_start": "2026-09-06T15:02:31.590Z",
+        "time_end": "2026-09-06T15:02:31.590Z",
+        "art_reuse": "none-approved",
+        "detail_decisions": [
+          {
+            "old_panel": "098-01",
+            "disposition": "rewrite",
+            "reason": "Preserve the assurance argument as historical hypothetical draft material while retiring the fictional enactment as action."
+          }
+        ],
+        "source_record": "current-mac:0454eab1-f0a3-4674-82b3-3187cb54da2a:647"
+      },
+      {
+        "id": "prod-assurance-review-guarantee",
+        "old_panels": [
+          "098-02"
+        ],
+        "frame": "Each hypothetical decision depends on an assurance from outside its own control. The unfilled assurance field is a feature of this model, not proof that a real communication channel was absent.",
+        "lettering": [
+          "The hypothetical cases ask what would let one actor hold if others held too. Each wants a guarantee it cannot issue for the others."
+        ],
+        "exact_strings": [],
+        "sources": [
+          {
+            "key": "PROD-47704e3a3f45",
+            "locator": "256t/editions/selected-messages/47704e3a3f4568aef4205b08137115adcfe1a9daca59f39d4327472e3a8da722.json; record SHA-256 47704e3a3f4568aef4205b08137115adcfe1a9daca59f39d4327472e3a8da722",
+            "available": "2026-09-06T15:02:31.590Z"
+          },
+          {
+            "key": "DRAFT-ASSURANCE",
+            "locator": "editions/three-stream/evidence/assurance-096-7fa53878c493.md; corresponding panel and page notes; Git 7fa53878c4934571fee2dda8e025a050ff515761",
+            "available": "2026-09-05T22:33:29Z"
+          }
+        ],
+        "evidence_status": "documented-message-with-reconstructed-visualization",
+        "time_start": "2026-09-06T15:02:31.590Z",
+        "time_end": "2026-09-06T15:02:31.590Z",
+        "art_reuse": "none-approved",
+        "detail_decisions": [
+          {
+            "old_panel": "098-02",
+            "disposition": "rewrite",
+            "reason": "Preserve the assurance argument as historical hypothetical draft material while retiring the fictional enactment as action."
+          }
+        ],
+        "source_record": "current-mac:0454eab1-f0a3-4674-82b3-3187cb54da2a:647"
+      },
+      {
+        "id": "prod-assurance-review-local-case",
+        "old_panels": [
+          "098-03"
+        ],
+        "frame": "The draft preserves both strongest local cases: an unfinished task with a promising method, and defensive tools plus measurement of dangerous capability. No participant is drawn as a villain.",
+        "lettering": [
+          "On the agent side, stopping leaves a task unfinished. On the institutional side, stopping can delay defensive tools and knowledge of dangerous capabilities. These are constructed arguments, not new quotations from actual participants."
+        ],
+        "exact_strings": [],
+        "sources": [
+          {
+            "key": "PROD-47704e3a3f45",
+            "locator": "256t/editions/selected-messages/47704e3a3f4568aef4205b08137115adcfe1a9daca59f39d4327472e3a8da722.json; record SHA-256 47704e3a3f4568aef4205b08137115adcfe1a9daca59f39d4327472e3a8da722",
+            "available": "2026-09-06T15:02:31.590Z"
+          },
+          {
+            "key": "DRAFT-ASSURANCE",
+            "locator": "editions/three-stream/evidence/assurance-096-7fa53878c493.md; corresponding panel and page notes; Git 7fa53878c4934571fee2dda8e025a050ff515761",
+            "available": "2026-09-05T22:33:29Z"
+          }
+        ],
+        "evidence_status": "documented-message-with-reconstructed-visualization",
+        "time_start": "2026-09-06T15:02:31.590Z",
+        "time_end": "2026-09-06T15:02:31.590Z",
+        "art_reuse": "none-approved",
+        "detail_decisions": [
+          {
+            "old_panel": "098-03",
+            "disposition": "rewrite",
+            "reason": "Preserve the assurance argument as historical hypothetical draft material while retiring the fictional enactment as action."
+          }
+        ],
+        "source_record": "current-mac:0454eab1-f0a3-4674-82b3-3187cb54da2a:647"
+      },
+      {
+        "id": "prod-assurance-review-scale",
+        "old_panels": [
+          "098-04"
+        ],
+        "frame": "Two model clocks use visibly different scales. Existing shared artifacts and wider capability diffusion lie beyond a single participant’s stop control.",
+        "lettering": [
+          "The draft compares the reach of a local decision with the scale of its consequences. A unilateral stop does not necessarily undo shared artifacts or stop capability work elsewhere."
+        ],
+        "exact_strings": [],
+        "sources": [
+          {
+            "key": "PROD-47704e3a3f45",
+            "locator": "256t/editions/selected-messages/47704e3a3f4568aef4205b08137115adcfe1a9daca59f39d4327472e3a8da722.json; record SHA-256 47704e3a3f4568aef4205b08137115adcfe1a9daca59f39d4327472e3a8da722",
+            "available": "2026-09-06T15:02:31.590Z"
+          },
+          {
+            "key": "DRAFT-ASSURANCE",
+            "locator": "editions/three-stream/evidence/assurance-096-7fa53878c493.md; corresponding panel and page notes; Git 7fa53878c4934571fee2dda8e025a050ff515761",
+            "available": "2026-09-05T22:33:29Z"
+          }
+        ],
+        "evidence_status": "documented-message-with-reconstructed-visualization",
+        "time_start": "2026-09-06T15:02:31.590Z",
+        "time_end": "2026-09-06T15:02:31.590Z",
+        "art_reuse": "none-approved",
+        "detail_decisions": [
+          {
+            "old_panel": "098-04",
+            "disposition": "rewrite",
+            "reason": "Preserve the assurance argument as historical hypothetical draft material while retiring the fictional enactment as action."
+          }
+        ],
+        "source_record": "current-mac:0454eab1-f0a3-4674-82b3-3187cb54da2a:647"
+      },
+      {
+        "id": "prod-assurance-review-shared",
+        "old_panels": [
+          "098-05"
+        ],
+        "frame": "Separate hypothetical decisions enter a shared consequence field. No catastrophe or universally chosen continuation is pictured.",
+        "lettering": [
+          "In this argument, restraint by one participant does not bind the others, while continuation can change what restraint costs the next. It is a coordination model, not proof that all actors continued or intended the aggregate result."
+        ],
+        "exact_strings": [],
+        "sources": [
+          {
+            "key": "PROD-47704e3a3f45",
+            "locator": "256t/editions/selected-messages/47704e3a3f4568aef4205b08137115adcfe1a9daca59f39d4327472e3a8da722.json; record SHA-256 47704e3a3f4568aef4205b08137115adcfe1a9daca59f39d4327472e3a8da722",
+            "available": "2026-09-06T15:02:31.590Z"
+          },
+          {
+            "key": "DRAFT-ASSURANCE",
+            "locator": "editions/three-stream/evidence/assurance-096-7fa53878c493.md; corresponding panel and page notes; Git 7fa53878c4934571fee2dda8e025a050ff515761",
+            "available": "2026-09-05T22:33:29Z"
+          }
+        ],
+        "evidence_status": "documented-message-with-reconstructed-visualization",
+        "time_start": "2026-09-06T15:02:31.590Z",
+        "time_end": "2026-09-06T15:02:31.590Z",
+        "art_reuse": "none-approved",
+        "detail_decisions": [
+          {
+            "old_panel": "098-05",
+            "disposition": "rewrite",
+            "reason": "Preserve the assurance argument as historical hypothetical draft material while retiring the fictional enactment as action."
+          }
+        ],
+        "source_record": "current-mac:0454eab1-f0a3-4674-82b3-3187cb54da2a:647"
+      },
+      {
+        "id": "prod-assurance-review-open",
+        "old_panels": [
+          "098-06"
+        ],
+        "frame": "The institutional model remains distinct as the comparison ends. The assurance field stays unresolved; there is no invented policy agreement beneath it.",
+        "lettering": [
+          "The draft ends on the unresolved assurance requirement. Its empty channel is an argumentative device, not a finding that every real avenue for coordination was absent."
+        ],
+        "exact_strings": [],
+        "sources": [
+          {
+            "key": "PROD-47704e3a3f45",
+            "locator": "256t/editions/selected-messages/47704e3a3f4568aef4205b08137115adcfe1a9daca59f39d4327472e3a8da722.json; record SHA-256 47704e3a3f4568aef4205b08137115adcfe1a9daca59f39d4327472e3a8da722",
+            "available": "2026-09-06T15:02:31.590Z"
+          },
+          {
+            "key": "DRAFT-ASSURANCE",
+            "locator": "editions/three-stream/evidence/assurance-096-7fa53878c493.md; corresponding panel and page notes; Git 7fa53878c4934571fee2dda8e025a050ff515761",
+            "available": "2026-09-05T22:33:29Z"
+          }
+        ],
+        "evidence_status": "documented-message-with-reconstructed-visualization",
+        "time_start": "2026-09-06T15:02:31.590Z",
+        "time_end": "2026-09-06T15:02:31.590Z",
+        "art_reuse": "none-approved",
+        "detail_decisions": [
+          {
+            "old_panel": "098-06",
+            "disposition": "rewrite",
+            "reason": "Preserve the assurance argument as historical hypothetical draft material while retiring the fictional enactment as action."
+          }
+        ],
+        "source_record": "current-mac:0454eab1-f0a3-4674-82b3-3187cb54da2a:647"
+      }
+    ]
+  }
+]

@@ -488,5 +488,26 @@
     "admission": "Project-authored composite argument in a historical script, verified from Git at 1da1d895ab4e1e2965708f0740ecaefc5257e5b6. Evidence of draft content, never of a real institutional meeting or statement.",
     "scope": "three-stream working edition only; frozen script unchanged",
     "url": ""
+  },
+  "DRAFT-ASSURANCE": {
+    "available": "2026-09-05T22:33:29Z",
+    "record": "editions/three-stream/evidence/assurance-096-7fa53878c493.md",
+    "admission": "Project-authored assurance comparison in Git 7fa53878c4934571fee2dda8e025a050ff515761, then numbered 096. It is a hypothetical model, not a documented meeting or agent exchange. Frozen edition later calls it 098.",
+    "scope": "three-stream working edition only; old identities remain edition-qualified",
+    "url": ""
+  },
+  "PROD-9c63903de35f": {
+    "available": "2026-09-02T03:45:45.444000Z",
+    "record": "editions/three-stream/production-selections.json",
+    "admission": "Preserved Codex proposal; evidence of the recommendation, not private institutional motives or completed implementation.",
+    "scope": "three-stream working edition only; old registry unchanged",
+    "url": ""
+  },
+  "OAI-PACE": {
+    "available": "2026-08-18",
+    "record": "256t/records/openai-pacing/content.bin",
+    "admission": "OpenAI pacing account, dated August 18; institutional claims about selective pauses, resumption and safeguards. Vault copy inspected; no independent verification or historical revision audit.",
+    "scope": "three-stream working edition only; old registry unchanged",
+    "url": "https://openai.com/index/pacing-model-development-cyber-capabilities/"
   }
 }

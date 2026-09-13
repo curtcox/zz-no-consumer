@@ -1510,5 +1510,31 @@
     "review": "Original message inspected; record preserved with exact timestamp and hash. No invented human encounter or task completion beyond the report.",
     "claim": "Claude reports bounding the draft’s counterargument",
     "source_kind": "preserved production record"
+  },
+  {
+    "id": "current-mac:rollout-2026-09-01T22-42-41-01a06031-01d6-71a1-8f27-00a71217ffe9_01a06036-3aa7-7863-a683-f39a03502b10:105",
+    "machine": "current-mac",
+    "actor": "Codex",
+    "role": "assistant",
+    "model": null,
+    "timestamp_original": "2026-09-02T03:45:45.444Z",
+    "utc": "2026-09-02T03:45:45.444000Z",
+    "clock_meaning": "stored message record; delivery/read time not established",
+    "path": "/Users/curtcox/.codex/sessions/2026/09/01/rollout-2026-09-01T22-42-41-01a06031-01d6-71a1-8f27-00a71217ffe9_01a06036-3aa7-7863-a683-f39a03502b10.jsonl",
+    "line": 105,
+    "bytes": [
+      1677184,
+      1687366
+    ],
+    "record_sha256": "9c63903de35fb4b6cca30b0faa7a89606a82409dc60517e4abec6a9689de5ff0",
+    "file_sha256": "bbfa9282fa08db844676f1baf6e334a012e952210397c58f7be9f3fb3b4bd655",
+    "selection": "selected for dated manuscript fragment",
+    "caveat": "Historical recommendations and length constraints are not current editorial instructions. Other proposed tracks remain available for later selection.",
+    "byte_range_convention": "zero-based, start inclusive, end exclusive; includes JSONL newline",
+    "immutable_record": "256t/editions/selected-messages/9c63903de35fb4b6cca30b0faa7a89606a82409dc60517e4abec6a9689de5ff0.json",
+    "title": "Codex proposes companion viewpoints",
+    "review": "Original complete visible assistant message inspected. Proposals are not implemented changes or verified incident findings.",
+    "claim": "Codex proposes an operations perspective and a public clock while preserving a then-fixed primary length.",
+    "source_kind": "preserved production record"
   }
 ]

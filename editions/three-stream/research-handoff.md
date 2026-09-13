@@ -355,3 +355,45 @@ remains the review message’s time; no synthetic meeting date was assigned.
 The later hearing/repetition panels still need their own element decisions.
 Their similarity to this argument is a lead for combining material, not an
 automatic disposition or permission to drop their strongest distinct questions.
+
+The assurance pass completes all sixteen elements of frozen 098. Its six beats
+retain the guarantee no participant can supply alone, strongest local reasons
+on both sides, different time scales, limits of unilateral stopping, shared
+consequences and the unresolved ending. The emptied channel remains a feature
+of an explicitly hypothetical draft, not a factual claim that no real channel
+existed. Neither invented dialogue line becomes testimony by an actual actor.
+
+The historical draft is retained under `evidence/assurance-096-7fa53878c493.md`,
+read from `7fa53878c4934571fee2dda8e025a050ff515761`, committed September 5
+22:33:29 UTC. It was then numbered 096. It is available before the September 6
+review that provides the new scene’s dated context; the narrator owns the draft
+explanation without inventing Claude’s precise reading time.
+
+The earlier criticism of repetitive 096–098 cannot be applied to those numbers
+in the frozen edition without checking identities. Frozen 096 is now conditional
+resumption, and 097 covers dated public announcements and defensive access. Their
+documentary content remains unreviewed and must not be deleted as repetition.
+The next pass must preserve that evidence and separately inspect the remaining
+hearing questions in 099–104. No completion is inferred from similarities in
+chapter or page numbers.
+
+### Pacing account and earlier length proposal — 13 September 2026
+
+Added ten beats in `manuscript/collaboration-pacing-account.json`, anchored to the
+preserved Codex proposal of 2 September, 03:45:45.444 UTC. The proposal’s fixed
+112-page premise is historical and explicitly supplies no present ceiling. Its
+other companion-track suggestions remain available for later selection; admission
+of this message does not mean its whole content has been dramatized.
+
+Narrator-owned context preserves the August 18 institutional account’s initial
+inference pause, limited execution return, individual workload review, conditional
+resumption, remaining paused workloads, migration priority, separate two-week RL
+training pause, and largest-run hold alongside smaller-scale work. These are not
+new words or research acts attributed to Codex at the message timestamp. The vault
+copy was inspected; no historical revision audit or independent controls validation
+is claimed. Frozen page 096’s five panels and ten elements now have individual
+dispositions. Page 097 and the wider safeguards/oversight sequence remain open.
+
+Scoped draft checks pass; all 57 selected production records were verified against
+their original JSONL line, half-open byte range and preserved-copy SHA-256. No
+canonical page allocation or frozen-edition change was made.

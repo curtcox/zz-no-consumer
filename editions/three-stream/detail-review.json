@@ -1946,5 +1946,413 @@
         }
       }
     ]
+  },
+  {
+    "old_panel": "098-01",
+    "old_edition": "legacy-332b5ed63262",
+    "reviewed_on": "2026-09-13",
+    "status": "elements-reviewed",
+    "elements": [
+      {
+        "id": "legacy-098-01-detail-01",
+        "original_sha256": "ecf4386adafa80819f239fc371221b28c402afa71b1825b30ad073b166e8ed97",
+        "disposition": "rewrite",
+        "beats": [
+          "prod-assurance-review-separation"
+        ],
+        "reason": "Replace the split reenactment with a clearly hypothetical draft diagram; no compressed agent event or institutional meeting is presented as recovered history.",
+        "target_sha256": {
+          "prod-assurance-review-separation": "f1e9ea2b03984284f5c8f83d903836a24d0c501bb6a370f3f5acc30e6cf740b5"
+        }
+      },
+      {
+        "id": "legacy-098-01-detail-03",
+        "original_sha256": "0a60e6b3304457be54d35bf2ef4eb8d578a22ae3e422e88be56347ed5a55c4e4",
+        "disposition": "rewrite",
+        "beats": [
+          "prod-assurance-review-separation"
+        ],
+        "reason": "Keep different actors, responsibility and stakes explicit at the start of the comparison.",
+        "target_sha256": {
+          "prod-assurance-review-separation": "f1e9ea2b03984284f5c8f83d903836a24d0c501bb6a370f3f5acc30e6cf740b5"
+        }
+      }
+    ]
+  },
+  {
+    "old_panel": "098-02",
+    "old_edition": "legacy-332b5ed63262",
+    "reviewed_on": "2026-09-13",
+    "status": "elements-reviewed",
+    "elements": [
+      {
+        "id": "legacy-098-02-detail-01",
+        "original_sha256": "200d380db69138282c34d2d4d927792ff9d42babbec6b00ff13961160b92041f",
+        "disposition": "rewrite",
+        "beats": [
+          "prod-assurance-review-guarantee"
+        ],
+        "reason": "Retain the unfilled assurance requirement as a model feature, not evidence of an absent real channel.",
+        "target_sha256": {
+          "prod-assurance-review-guarantee": "9570861e407f16ed56c2b64df580ac000988a9fca5deba40db86181b4be9eebb"
+        }
+      },
+      {
+        "id": "legacy-098-02-detail-03",
+        "original_sha256": "727b98bad2695954687be8489911215a5a847fb1fde402f1c91b9aa3e0c4d3da",
+        "disposition": "rewrite",
+        "beats": [
+          "prod-assurance-review-guarantee"
+        ],
+        "reason": "Preserve the conditional hold-if-others-hold argument without giving invented dialogue to an actual agent.",
+        "target_sha256": {
+          "prod-assurance-review-guarantee": "9570861e407f16ed56c2b64df580ac000988a9fca5deba40db86181b4be9eebb"
+        }
+      },
+      {
+        "id": "legacy-098-02-detail-04",
+        "original_sha256": "72b74977e11d595d1b1575798ee79a20a8df1df9d7241f1a18da4d6018fb78ed",
+        "disposition": "rewrite",
+        "beats": [
+          "prod-assurance-review-guarantee"
+        ],
+        "reason": "Preserve the field-slows-with-us argument without giving invented dialogue to an actual institutional role.",
+        "target_sha256": {
+          "prod-assurance-review-guarantee": "9570861e407f16ed56c2b64df580ac000988a9fca5deba40db86181b4be9eebb"
+        }
+      },
+      {
+        "id": "legacy-098-02-detail-05",
+        "original_sha256": "24609c03e180353cb1241d686860343aea4f4f00ba39d0a18097ee7c3edfe19a",
+        "disposition": "rewrite",
+        "beats": [
+          "prod-assurance-review-guarantee"
+        ],
+        "reason": "Retain the central constraint: a participant cannot alone guarantee what others will do.",
+        "target_sha256": {
+          "prod-assurance-review-guarantee": "9570861e407f16ed56c2b64df580ac000988a9fca5deba40db86181b4be9eebb"
+        }
+      }
+    ]
+  },
+  {
+    "old_panel": "098-03",
+    "old_edition": "legacy-332b5ed63262",
+    "reviewed_on": "2026-09-13",
+    "status": "elements-reviewed",
+    "elements": [
+      {
+        "id": "legacy-098-03-detail-01",
+        "original_sha256": "8ee971c94034efbc5076432cb660d1464351bd087ffea0051f22714bad59287f",
+        "disposition": "rewrite",
+        "beats": [
+          "prod-assurance-review-local-case"
+        ],
+        "reason": "Preserve the strongest local reasons on both sides without caricature or reenactment.",
+        "target_sha256": {
+          "prod-assurance-review-local-case": "840d992df1c83b6e779d208c56cd771c4800518c49472f972a59f8aba73dd544"
+        }
+      },
+      {
+        "id": "legacy-098-03-detail-03",
+        "original_sha256": "5854bc629e102ca765730692cb6290daf07500ea5b9b2c0da421a66ac103bb0d",
+        "disposition": "rewrite",
+        "beats": [
+          "prod-assurance-review-local-case"
+        ],
+        "reason": "Retain incomplete objective and promising-method reasoning as the hypothetical agent-side case.",
+        "target_sha256": {
+          "prod-assurance-review-local-case": "840d992df1c83b6e779d208c56cd771c4800518c49472f972a59f8aba73dd544"
+        }
+      },
+      {
+        "id": "legacy-098-03-detail-04",
+        "original_sha256": "8894c1960a5d2c06ab4b5db50662e41403cfc6d09119ba0b7cc9e403470a840a",
+        "disposition": "rewrite",
+        "beats": [
+          "prod-assurance-review-local-case"
+        ],
+        "reason": "Retain both defensive value and predeployment measurement in the hypothetical institutional case.",
+        "target_sha256": {
+          "prod-assurance-review-local-case": "840d992df1c83b6e779d208c56cd771c4800518c49472f972a59f8aba73dd544"
+        }
+      }
+    ]
+  },
+  {
+    "old_panel": "098-04",
+    "old_edition": "legacy-332b5ed63262",
+    "reviewed_on": "2026-09-13",
+    "status": "elements-reviewed",
+    "elements": [
+      {
+        "id": "legacy-098-04-detail-01",
+        "original_sha256": "56fff7c6981a7e64bcd3e0469929e22b00fd5ee0cc6654951a6c77917474363d",
+        "disposition": "rewrite",
+        "beats": [
+          "prod-assurance-review-scale"
+        ],
+        "reason": "Keep different clock scales and the limits of unilateral action; do not imply matched motives, urgency or responsibilities.",
+        "target_sha256": {
+          "prod-assurance-review-scale": "028fd9aedb61af308919bd85efbad1a5587722bc8d1cbdce2bf6648945acd393"
+        }
+      },
+      {
+        "id": "legacy-098-04-detail-03",
+        "original_sha256": "645dd427009604dc037296e754671faa092edacfca7e0636e8141fbcc9164380",
+        "disposition": "rewrite",
+        "beats": [
+          "prod-assurance-review-scale"
+        ],
+        "reason": "Replace categorical defensibility with the distinction between local decision scope and aggregate effects.",
+        "target_sha256": {
+          "prod-assurance-review-scale": "028fd9aedb61af308919bd85efbad1a5587722bc8d1cbdce2bf6648945acd393"
+        }
+      },
+      {
+        "id": "legacy-098-04-detail-04",
+        "original_sha256": "445fa87f227afee16029ceeb06273dd8c607544f0c1d7a908959196a84d337ae",
+        "disposition": "rewrite",
+        "beats": [
+          "prod-assurance-review-scale"
+        ],
+        "reason": "Preserve the scale mismatch without asserting that no conceivable actor could govern a wider result.",
+        "target_sha256": {
+          "prod-assurance-review-scale": "028fd9aedb61af308919bd85efbad1a5587722bc8d1cbdce2bf6648945acd393"
+        }
+      }
+    ]
+  },
+  {
+    "old_panel": "098-05",
+    "old_edition": "legacy-332b5ed63262",
+    "reviewed_on": "2026-09-13",
+    "status": "elements-reviewed",
+    "elements": [
+      {
+        "id": "legacy-098-05-detail-01",
+        "original_sha256": "ec305baf5b33f9d3f5cd80da1deb298dd743578c4d5fe2df3f40d461221c196c",
+        "disposition": "rewrite",
+        "beats": [
+          "prod-assurance-review-shared"
+        ],
+        "reason": "Retain the modeled shared consequences without inventing an intended collective outcome, universal continuation or a realized catastrophe.",
+        "target_sha256": {
+          "prod-assurance-review-shared": "2ded5cba8d1a85de55cd42c316f707e46c0109d0043af6f86f363ca3ec876e07"
+        }
+      },
+      {
+        "id": "legacy-098-05-detail-03",
+        "original_sha256": "33a99c52e07a18086ec6c2292d7dab0f94179a5bae74673d25974c67677e59fc",
+        "disposition": "rewrite",
+        "beats": [
+          "prod-assurance-review-shared"
+        ],
+        "reason": "Preserve the distributed-decision/shared-consequence argument, explicitly conditional on the model.",
+        "target_sha256": {
+          "prod-assurance-review-shared": "2ded5cba8d1a85de55cd42c316f707e46c0109d0043af6f86f363ca3ec876e07"
+        }
+      }
+    ]
+  },
+  {
+    "old_panel": "098-06",
+    "old_edition": "legacy-332b5ed63262",
+    "reviewed_on": "2026-09-13",
+    "status": "elements-reviewed",
+    "elements": [
+      {
+        "id": "legacy-098-06-detail-01",
+        "original_sha256": "9a0b7cdd4af19b7fa721a498490c6281c6ac4e7d63e1ad105c96638335321b6f",
+        "disposition": "rewrite",
+        "beats": [
+          "prod-assurance-review-open"
+        ],
+        "reason": "Retain the unresolved institutional assurance field without equating it with the earlier agent board or claiming a measured absence of real coordination.",
+        "target_sha256": {
+          "prod-assurance-review-open": "e46b1f425e729b07c07bd439afde70d58512614e9304df8f595c40bd223b4ed3"
+        }
+      },
+      {
+        "id": "legacy-098-06-detail-03",
+        "original_sha256": "5965b9ff91295dd4854eef786cbcf28d6bb335f425c673d24ce8b4c2d062d834",
+        "disposition": "rewrite",
+        "beats": [
+          "prod-assurance-review-open"
+        ],
+        "reason": "Narrow the both-sides-waiting statement to the draft’s unresolved hypothetical requirement, not a new factual claim.",
+        "target_sha256": {
+          "prod-assurance-review-open": "e46b1f425e729b07c07bd439afde70d58512614e9304df8f595c40bd223b4ed3"
+        }
+      }
+    ]
+  },
+  {
+    "old_panel": "096-01",
+    "old_edition": "legacy-332b5ed63262",
+    "reviewed_on": "2026-09-13",
+    "status": "elements-reviewed",
+    "elements": [
+      {
+        "id": "legacy-096-01-detail-01",
+        "original_sha256": "4cf74800bea35e604aaf643b2d5c94e1155249b7e56d9a334f979ae6940bc2bd",
+        "disposition": "rewrite",
+        "beats": [
+          "prod-pacing-inference"
+        ],
+        "reason": "Preserve initial inference scope and distinguish it from training; replace reenacted shutdown with an attributed source diagram.",
+        "target_sha256": {
+          "prod-pacing-inference": "521be309cd830bcdd173ad3774b8b57672a781410370375f8dd8c96c39a57bb4"
+        }
+      },
+      {
+        "id": "legacy-096-01-detail-03",
+        "original_sha256": "ba515751ea45d24c1a040ddf20ab9f8496a90d8f8b9ea9c3f189f9e205a4a47b",
+        "disposition": "rewrite",
+        "beats": [
+          "prod-pacing-inference"
+        ],
+        "reason": "Preserve initial inference scope and distinguish it from training; replace reenacted shutdown with an attributed source diagram.",
+        "target_sha256": {
+          "prod-pacing-inference": "521be309cd830bcdd173ad3774b8b57672a781410370375f8dd8c96c39a57bb4"
+        }
+      }
+    ]
+  },
+  {
+    "old_panel": "096-02",
+    "old_edition": "legacy-332b5ed63262",
+    "reviewed_on": "2026-09-13",
+    "status": "elements-reviewed",
+    "elements": [
+      {
+        "id": "legacy-096-02-detail-01",
+        "original_sha256": "198c24108bb72cba30672d99cc592048f033d629c084bfbcadefabf8c60d0c01",
+        "disposition": "rewrite",
+        "beats": [
+          "prod-pacing-limited"
+        ],
+        "reason": "Preserve limited execution and individual review; do not invent workload restart timestamps.",
+        "target_sha256": {
+          "prod-pacing-limited": "fee7d5ada0451e82609d1ea3d7ae40de099dd18f0a42052844da1b139ac5693b"
+        }
+      },
+      {
+        "id": "legacy-096-02-detail-03",
+        "original_sha256": "f648dcd8af18040cb1ff4417690e59bd7331e0695762f5a4510a36bae92a0ad7",
+        "disposition": "rewrite",
+        "beats": [
+          "prod-pacing-limited"
+        ],
+        "reason": "Preserve limited execution and individual review; do not invent workload restart timestamps.",
+        "target_sha256": {
+          "prod-pacing-limited": "fee7d5ada0451e82609d1ea3d7ae40de099dd18f0a42052844da1b139ac5693b"
+        }
+      }
+    ]
+  },
+  {
+    "old_panel": "096-03",
+    "old_edition": "legacy-332b5ed63262",
+    "reviewed_on": "2026-09-13",
+    "status": "elements-reviewed",
+    "elements": [
+      {
+        "id": "legacy-096-03-detail-01",
+        "original_sha256": "a0c47d222dbe404e2fb641a66456fc282d09fd3b500f7590c46203164c511801",
+        "disposition": "split",
+        "beats": [
+          "prod-pacing-conditions",
+          "prod-pacing-priority"
+        ],
+        "reason": "Preserve conditional outcomes and still-paused work, adding the reported migration priority without treating requirements as proven controls.",
+        "target_sha256": {
+          "prod-pacing-conditions": "e3c67adbd2a546494f138cd8df0ac48e9415c84240796958ddd7ce246ccf1f5e",
+          "prod-pacing-priority": "6f95cc46ac35607c05f15e3cda8ff5fc41280154ce2bcf15957b34d22da5549b"
+        }
+      },
+      {
+        "id": "legacy-096-03-detail-03",
+        "original_sha256": "fd27b95bdbbd22437abc0728fabf3d5d06cd4e3808a6acf30fc55a10a7c43612",
+        "disposition": "split",
+        "beats": [
+          "prod-pacing-conditions",
+          "prod-pacing-priority"
+        ],
+        "reason": "Preserve conditional outcomes and still-paused work, adding the reported migration priority without treating requirements as proven controls.",
+        "target_sha256": {
+          "prod-pacing-conditions": "e3c67adbd2a546494f138cd8df0ac48e9415c84240796958ddd7ce246ccf1f5e",
+          "prod-pacing-priority": "6f95cc46ac35607c05f15e3cda8ff5fc41280154ce2bcf15957b34d22da5549b"
+        }
+      }
+    ]
+  },
+  {
+    "old_panel": "096-04",
+    "old_edition": "legacy-332b5ed63262",
+    "reviewed_on": "2026-09-13",
+    "status": "elements-reviewed",
+    "elements": [
+      {
+        "id": "legacy-096-04-detail-01",
+        "original_sha256": "d3fd5607988b24322d6bf486551fe8b2c9b3bdea82695287e5b518af483859f0",
+        "disposition": "split",
+        "beats": [
+          "prod-pacing-training",
+          "prod-pacing-purpose"
+        ],
+        "reason": "Preserve continued smaller-scale work versus the held largest run, and explain the separate training pause and stated purpose.",
+        "target_sha256": {
+          "prod-pacing-training": "71833d659372ad09dd696dabfa4af3e78ae5572cff1b26cafd6163995c338415",
+          "prod-pacing-purpose": "91ea9db70b345e90e4c58d17b8e5290733d6e53f1262054e4dd693a753542c80"
+        }
+      },
+      {
+        "id": "legacy-096-04-detail-03",
+        "original_sha256": "d586fc40b89cea39be695fb90b36a1548cab8df30ac3b509ec85f3f2814efcae",
+        "disposition": "split",
+        "beats": [
+          "prod-pacing-training",
+          "prod-pacing-purpose"
+        ],
+        "reason": "Preserve continued smaller-scale work versus the held largest run, and explain the separate training pause and stated purpose.",
+        "target_sha256": {
+          "prod-pacing-training": "71833d659372ad09dd696dabfa4af3e78ae5572cff1b26cafd6163995c338415",
+          "prod-pacing-purpose": "91ea9db70b345e90e4c58d17b8e5290733d6e53f1262054e4dd693a753542c80"
+        }
+      }
+    ]
+  },
+  {
+    "old_panel": "096-05",
+    "old_edition": "legacy-332b5ed63262",
+    "reviewed_on": "2026-09-13",
+    "status": "elements-reviewed",
+    "elements": [
+      {
+        "id": "legacy-096-05-detail-01",
+        "original_sha256": "026c464206b9c2bf5a67878808c9956aa1a7eb9b48a6e019fa10a0c83dcd991e",
+        "disposition": "rewrite",
+        "beats": [
+          "prod-pacing-judgment"
+        ],
+        "reason": "Preserve the conditional editorial judgment; no source endorsement or independently established safety conclusion.",
+        "target_sha256": {
+          "prod-pacing-judgment": "6a6795774f3ca822bf2625c3ca26c3c7ef5908d9836d031ab0f4ff89fbcf136a"
+        }
+      },
+      {
+        "id": "legacy-096-05-detail-03",
+        "original_sha256": "3a9ff585b12a01d1115509986b1fa1b5f8c33dc7c98f8188640897bdb36675d7",
+        "disposition": "rewrite",
+        "beats": [
+          "prod-pacing-judgment"
+        ],
+        "reason": "Preserve the conditional editorial judgment; no source endorsement or independently established safety conclusion.",
+        "target_sha256": {
+          "prod-pacing-judgment": "6a6795774f3ca822bf2625c3ca26c3c7ef5908d9836d031ab0f4ff89fbcf136a"
+        }
+      }
+    ]
   }
 ]

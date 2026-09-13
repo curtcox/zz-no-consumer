@@ -1,0 +1,328 @@
+[
+  {
+    "id": "prod-pacing",
+    "title": "The proposal and the scope of a pause",
+    "movement": "collaboration",
+    "owner": "Codex",
+    "start": "2026-09-02T03:45:45.444000Z",
+    "end": "2026-09-02T03:45:45.444000Z",
+    "original_timezone": "UTC",
+    "precision": "millisecond",
+    "chronology_basis": "Timestamp of preserved Codex proposal. Narrator contextualizes its operations/public-clock suggestions using a publication available earlier; no precise source encounter is inferred.",
+    "source_limit": "Proposal is documented. Detailed pacing explanation belongs to the narrator, not additional words or research acts attributed to Codex. Institutional claims remain attributed; no private meeting or verified safety outcome.",
+    "status": "detailed-draft",
+    "beats": [
+      {
+        "id": "prod-pacing-proposal",
+        "old_panels": [],
+        "frame": "The preserved Codex response appears as a proposal artifact, not an implemented companion edition.",
+        "lettering": [
+          "On September 2, Codex proposed an operations viewpoint: decisions examined with the knowledge available before their outcomes. It warned that private deliberations and motives largely were not documented."
+        ],
+        "exact_strings": [],
+        "sources": [
+          {
+            "key": "PROD-9c63903de35f",
+            "locator": "256t/editions/selected-messages/9c63903de35fb4b6cca30b0faa7a89606a82409dc60517e4abec6a9689de5ff0.json; full visible proposal, sections 3 and 5 and introductory length constraint",
+            "available": "2026-09-02T03:45:45.444000Z"
+          }
+        ],
+        "evidence_status": "documented-message-with-reconstructed-visualization",
+        "time_start": "2026-09-02T03:45:45.444000Z",
+        "time_end": "2026-09-02T03:45:45.444000Z",
+        "art_reuse": "none-approved",
+        "detail_decisions": [],
+        "source_record": "current-mac:rollout-2026-09-01T22-42-41-01a06031-01d6-71a1-8f27-00a71217ffe9_01a06036-3aa7-7863-a683-f39a03502b10:105"
+      },
+      {
+        "id": "prod-pacing-length",
+        "old_panels": [],
+        "frame": "A narrator annotation separates the old recommendation from the present restructuring task.",
+        "lettering": [
+          "That response treated the primary narrative as fixed at 112 pages and recommended shorter companions. This records an earlier constraint; it sets no limit for this edition."
+        ],
+        "exact_strings": [],
+        "sources": [
+          {
+            "key": "PROD-9c63903de35f",
+            "locator": "256t/editions/selected-messages/9c63903de35fb4b6cca30b0faa7a89606a82409dc60517e4abec6a9689de5ff0.json; full visible proposal, sections 3 and 5 and introductory length constraint",
+            "available": "2026-09-02T03:45:45.444000Z"
+          }
+        ],
+        "evidence_status": "documented-message-with-reconstructed-visualization",
+        "time_start": "2026-09-02T03:45:45.444000Z",
+        "time_end": "2026-09-02T03:45:45.444000Z",
+        "art_reuse": "none-approved",
+        "detail_decisions": [],
+        "source_record": "current-mac:rollout-2026-09-01T22-42-41-01a06031-01d6-71a1-8f27-00a71217ffe9_01a06036-3aa7-7863-a683-f39a03502b10:105"
+      },
+      {
+        "id": "prod-pacing-clock",
+        "old_panels": [],
+        "frame": "The proposal’s public-clock idea sits beside a visibly narrator-authored account of the earlier publication. No read receipt is fabricated.",
+        "lettering": [
+          "Codex also proposed tracking public disclosures, oversight, development pauses and defense proposals. The narrator now examines the August 18 pacing account alongside that proposal; the record does not establish Codex reading it at this instant."
+        ],
+        "exact_strings": [],
+        "sources": [
+          {
+            "key": "PROD-9c63903de35f",
+            "locator": "256t/editions/selected-messages/9c63903de35fb4b6cca30b0faa7a89606a82409dc60517e4abec6a9689de5ff0.json; full visible proposal, sections 3 and 5 and introductory length constraint",
+            "available": "2026-09-02T03:45:45.444000Z"
+          }
+        ],
+        "evidence_status": "documented-message-with-reconstructed-visualization",
+        "time_start": "2026-09-02T03:45:45.444000Z",
+        "time_end": "2026-09-02T03:45:45.444000Z",
+        "art_reuse": "none-approved",
+        "detail_decisions": [],
+        "source_record": "current-mac:rollout-2026-09-01T22-42-41-01a06031-01d6-71a1-8f27-00a71217ffe9_01a06036-3aa7-7863-a683-f39a03502b10:105"
+      },
+      {
+        "id": "prod-pacing-inference",
+        "old_panels": [
+          "096-01"
+        ],
+        "frame": "A narrator diagram names the scope of the reported initial pause. It is not an internal OpenAI control screen.",
+        "lettering": [
+          "OpenAI says it initially paused frontier-model inference in research clusters for runs that could execute code or use internet-accessing tools. Inference means running a model; this was distinct from pausing its training."
+        ],
+        "exact_strings": [],
+        "sources": [
+          {
+            "key": "PROD-9c63903de35f",
+            "locator": "256t/editions/selected-messages/9c63903de35fb4b6cca30b0faa7a89606a82409dc60517e4abec6a9689de5ff0.json; full visible proposal, sections 3 and 5 and introductory length constraint",
+            "available": "2026-09-02T03:45:45.444000Z"
+          },
+          {
+            "key": "OAI-PACE",
+            "locator": "256t/records/openai-pacing/content.bin; opening training-pause paragraph and Securing our research environments; SHA-256 629f7bf8f3eebb5de617a2b174e3aa54330dd2776f4410b31e5497c6c62629b2",
+            "available": "2026-08-18"
+          }
+        ],
+        "evidence_status": "documented-message-with-reconstructed-visualization",
+        "time_start": "2026-09-02T03:45:45.444000Z",
+        "time_end": "2026-09-02T03:45:45.444000Z",
+        "art_reuse": "none-approved",
+        "detail_decisions": [
+          {
+            "old_panel": "096-01",
+            "disposition": "rewrite",
+            "reason": "Retain the distinction as narrator analysis of the dated institutional account in the collaboration movement."
+          }
+        ],
+        "source_record": "current-mac:rollout-2026-09-01T22-42-41-01a06031-01d6-71a1-8f27-00a71217ffe9_01a06036-3aa7-7863-a683-f39a03502b10:105"
+      },
+      {
+        "id": "prod-pacing-limited",
+        "old_panels": [
+          "096-02"
+        ],
+        "frame": "The diagram restores only a limited execution path, then gives each remaining workload its own review step.",
+        "lettering": [
+          "The company says a more limited, secure code-execution path returned fairly quickly. It then reviewed workloads individually for resumption. The publication gives no exact restart time for every workload."
+        ],
+        "exact_strings": [],
+        "sources": [
+          {
+            "key": "PROD-9c63903de35f",
+            "locator": "256t/editions/selected-messages/9c63903de35fb4b6cca30b0faa7a89606a82409dc60517e4abec6a9689de5ff0.json; full visible proposal, sections 3 and 5 and introductory length constraint",
+            "available": "2026-09-02T03:45:45.444000Z"
+          },
+          {
+            "key": "OAI-PACE",
+            "locator": "256t/records/openai-pacing/content.bin; opening training-pause paragraph and Securing our research environments; SHA-256 629f7bf8f3eebb5de617a2b174e3aa54330dd2776f4410b31e5497c6c62629b2",
+            "available": "2026-08-18"
+          }
+        ],
+        "evidence_status": "documented-message-with-reconstructed-visualization",
+        "time_start": "2026-09-02T03:45:45.444000Z",
+        "time_end": "2026-09-02T03:45:45.444000Z",
+        "art_reuse": "none-approved",
+        "detail_decisions": [
+          {
+            "old_panel": "096-02",
+            "disposition": "rewrite",
+            "reason": "Retain the distinction as narrator analysis of the dated institutional account in the collaboration movement."
+          }
+        ],
+        "source_record": "current-mac:rollout-2026-09-01T22-42-41-01a06031-01d6-71a1-8f27-00a71217ffe9_01a06036-3aa7-7863-a683-f39a03502b10:105"
+      },
+      {
+        "id": "prod-pacing-conditions",
+        "old_panels": [
+          "096-03"
+        ],
+        "frame": "Narrator-created categories separate resumed workloads from those needing changes and those still paused. They do not imitate source quotations.",
+        "lettering": [
+          "Some work resumed under new controls; other work required additional changes. A significant number remained paused pending migration and enhancement. Resumed does not mean unchanged."
+        ],
+        "exact_strings": [],
+        "sources": [
+          {
+            "key": "PROD-9c63903de35f",
+            "locator": "256t/editions/selected-messages/9c63903de35fb4b6cca30b0faa7a89606a82409dc60517e4abec6a9689de5ff0.json; full visible proposal, sections 3 and 5 and introductory length constraint",
+            "available": "2026-09-02T03:45:45.444000Z"
+          },
+          {
+            "key": "OAI-PACE",
+            "locator": "256t/records/openai-pacing/content.bin; opening training-pause paragraph and Securing our research environments; SHA-256 629f7bf8f3eebb5de617a2b174e3aa54330dd2776f4410b31e5497c6c62629b2",
+            "available": "2026-08-18"
+          }
+        ],
+        "evidence_status": "documented-message-with-reconstructed-visualization",
+        "time_start": "2026-09-02T03:45:45.444000Z",
+        "time_end": "2026-09-02T03:45:45.444000Z",
+        "art_reuse": "none-approved",
+        "detail_decisions": [
+          {
+            "old_panel": "096-03",
+            "disposition": "rewrite",
+            "reason": "Retain the distinction as narrator analysis of the dated institutional account in the collaboration movement."
+          }
+        ],
+        "source_record": "current-mac:rollout-2026-09-01T22-42-41-01a06031-01d6-71a1-8f27-00a71217ffe9_01a06036-3aa7-7863-a683-f39a03502b10:105"
+      },
+      {
+        "id": "prod-pacing-priority",
+        "old_panels": [
+          "096-03"
+        ],
+        "frame": "The published migration priority is shown without inventing a count or completion date.",
+        "lettering": [
+          "OpenAI says it prioritized safety and alignment workloads for migration. Its strictest safeguards applied to Astra, cyber models and other cyber-related workloads. The account describes requirements, not independent proof of their effectiveness."
+        ],
+        "exact_strings": [],
+        "sources": [
+          {
+            "key": "PROD-9c63903de35f",
+            "locator": "256t/editions/selected-messages/9c63903de35fb4b6cca30b0faa7a89606a82409dc60517e4abec6a9689de5ff0.json; full visible proposal, sections 3 and 5 and introductory length constraint",
+            "available": "2026-09-02T03:45:45.444000Z"
+          },
+          {
+            "key": "OAI-PACE",
+            "locator": "256t/records/openai-pacing/content.bin; opening training-pause paragraph and Securing our research environments; SHA-256 629f7bf8f3eebb5de617a2b174e3aa54330dd2776f4410b31e5497c6c62629b2",
+            "available": "2026-08-18"
+          }
+        ],
+        "evidence_status": "documented-message-with-reconstructed-visualization",
+        "time_start": "2026-09-02T03:45:45.444000Z",
+        "time_end": "2026-09-02T03:45:45.444000Z",
+        "art_reuse": "none-approved",
+        "detail_decisions": [
+          {
+            "old_panel": "096-03",
+            "disposition": "rewrite",
+            "reason": "Retain the distinction as narrator analysis of the dated institutional account in the collaboration movement."
+          }
+        ],
+        "source_record": "current-mac:rollout-2026-09-01T22-42-41-01a06031-01d6-71a1-8f27-00a71217ffe9_01a06036-3aa7-7863-a683-f39a03502b10:105"
+      },
+      {
+        "id": "prod-pacing-training",
+        "old_panels": [
+          "096-04"
+        ],
+        "frame": "A separate training timeline prevents the inference pause from swallowing a different decision.",
+        "lettering": [
+          "The account also describes a two-week pause in reinforcement-learning training on the latest models intended for deployment. Its largest planned frontier RL run remained on hold while smaller-scale training and evaluations continued."
+        ],
+        "exact_strings": [],
+        "sources": [
+          {
+            "key": "PROD-9c63903de35f",
+            "locator": "256t/editions/selected-messages/9c63903de35fb4b6cca30b0faa7a89606a82409dc60517e4abec6a9689de5ff0.json; full visible proposal, sections 3 and 5 and introductory length constraint",
+            "available": "2026-09-02T03:45:45.444000Z"
+          },
+          {
+            "key": "OAI-PACE",
+            "locator": "256t/records/openai-pacing/content.bin; opening training-pause paragraph and Securing our research environments; SHA-256 629f7bf8f3eebb5de617a2b174e3aa54330dd2776f4410b31e5497c6c62629b2",
+            "available": "2026-08-18"
+          }
+        ],
+        "evidence_status": "documented-message-with-reconstructed-visualization",
+        "time_start": "2026-09-02T03:45:45.444000Z",
+        "time_end": "2026-09-02T03:45:45.444000Z",
+        "art_reuse": "none-approved",
+        "detail_decisions": [
+          {
+            "old_panel": "096-04",
+            "disposition": "rewrite",
+            "reason": "Retain the distinction as narrator analysis of the dated institutional account in the collaboration movement."
+          }
+        ],
+        "source_record": "current-mac:rollout-2026-09-01T22-42-41-01a06031-01d6-71a1-8f27-00a71217ffe9_01a06036-3aa7-7863-a683-f39a03502b10:105"
+      },
+      {
+        "id": "prod-pacing-purpose",
+        "old_panels": [
+          "096-04"
+        ],
+        "frame": "The narrator gives the company’s stated reasons for the continuing smaller-scale work, with the attribution visible.",
+        "lettering": [
+          "OpenAI says the smaller-scale work assessed model behavior, validated safeguards and sought more evidence of alignment before proceeding. Continued work and a held larger run could coexist."
+        ],
+        "exact_strings": [],
+        "sources": [
+          {
+            "key": "PROD-9c63903de35f",
+            "locator": "256t/editions/selected-messages/9c63903de35fb4b6cca30b0faa7a89606a82409dc60517e4abec6a9689de5ff0.json; full visible proposal, sections 3 and 5 and introductory length constraint",
+            "available": "2026-09-02T03:45:45.444000Z"
+          },
+          {
+            "key": "OAI-PACE",
+            "locator": "256t/records/openai-pacing/content.bin; opening training-pause paragraph and Securing our research environments; SHA-256 629f7bf8f3eebb5de617a2b174e3aa54330dd2776f4410b31e5497c6c62629b2",
+            "available": "2026-08-18"
+          }
+        ],
+        "evidence_status": "documented-message-with-reconstructed-visualization",
+        "time_start": "2026-09-02T03:45:45.444000Z",
+        "time_end": "2026-09-02T03:45:45.444000Z",
+        "art_reuse": "none-approved",
+        "detail_decisions": [
+          {
+            "old_panel": "096-04",
+            "disposition": "rewrite",
+            "reason": "Retain the distinction as narrator analysis of the dated institutional account in the collaboration movement."
+          }
+        ],
+        "source_record": "current-mac:rollout-2026-09-01T22-42-41-01a06031-01d6-71a1-8f27-00a71217ffe9_01a06036-3aa7-7863-a683-f39a03502b10:105"
+      },
+      {
+        "id": "prod-pacing-judgment",
+        "old_panels": [
+          "096-05"
+        ],
+        "frame": "The narrator’s concluding question remains separate from the institutional account and from invented private deliberation.",
+        "lettering": [
+          "A selective pause and a conditional resumption can both be parts of a responsible response. That is the book’s argument, conditional on whether the boundaries work—not a safety verdict established by the announcement."
+        ],
+        "exact_strings": [],
+        "sources": [
+          {
+            "key": "PROD-9c63903de35f",
+            "locator": "256t/editions/selected-messages/9c63903de35fb4b6cca30b0faa7a89606a82409dc60517e4abec6a9689de5ff0.json; full visible proposal, sections 3 and 5 and introductory length constraint",
+            "available": "2026-09-02T03:45:45.444000Z"
+          },
+          {
+            "key": "OAI-PACE",
+            "locator": "256t/records/openai-pacing/content.bin; opening training-pause paragraph and Securing our research environments; SHA-256 629f7bf8f3eebb5de617a2b174e3aa54330dd2776f4410b31e5497c6c62629b2",
+            "available": "2026-08-18"
+          }
+        ],
+        "evidence_status": "documented-message-with-reconstructed-visualization",
+        "time_start": "2026-09-02T03:45:45.444000Z",
+        "time_end": "2026-09-02T03:45:45.444000Z",
+        "art_reuse": "none-approved",
+        "detail_decisions": [
+          {
+            "old_panel": "096-05",
+            "disposition": "rewrite",
+            "reason": "Retain the distinction as narrator analysis of the dated institutional account in the collaboration movement."
+          }
+        ],
+        "source_record": "current-mac:rollout-2026-09-01T22-42-41-01a06031-01d6-71a1-8f27-00a71217ffe9_01a06036-3aa7-7863-a683-f39a03502b10:105"
+      }
+    ]
+  }
+]

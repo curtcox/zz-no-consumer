@@ -1383,3 +1383,285 @@ IN THE REVIEWED POPULATION, ETHICAL RECOGNITION RARELY BECOMES EXTERNAL ESCALATI
 **Decision:** split — Retain internal escalation as a documented alternative destination while declining to translate rare external escalation into shared loyalty or feeling.
 
 **Draft destination:** prod-human-alert-board, prod-human-alert-analysis
+
+## legacy-332b5ed63262 · 096-01
+
+### legacy-096-01-detail-01 · frame
+
+**Frozen wording:**
+
+Immediately after the incident, frontier-model inference lanes for code, tools, or internet access are switched off across research clusters.
+
+**Decision:** rewrite — Preserve initial inference scope and distinguish it from training; replace reenacted shutdown with an attributed source diagram.
+
+**Draft destination:** prod-pacing-inference
+
+### legacy-096-01-detail-03 · lettering
+
+**Frozen wording:**
+
+OPENAI SAYS IT PAUSED FRONTIER INFERENCE FOR TOOL-CAPABLE RESEARCH WORKLOADS: RUNNING THE MODELS WITH TOOLS, A DIFFERENT ACTIVITY FROM TRAINING THEM.
+
+**Decision:** rewrite — Preserve initial inference scope and distinguish it from training; replace reenacted shutdown with an attributed source diagram.
+
+**Draft destination:** prod-pacing-inference
+
+## legacy-332b5ed63262 · 096-02
+
+### legacy-096-02-detail-01 · frame
+
+**Frozen wording:**
+
+A secure code-execution lane returns first. Each subsequent workload reaches an individual review gate.
+
+**Decision:** rewrite — Preserve limited execution and individual review; do not invent workload restart timestamps.
+
+**Draft destination:** prod-pacing-limited
+
+### legacy-096-02-detail-03 · lettering
+
+**Frozen wording:**
+
+LIMITED SECURE EXECUTION RETURNED. OTHER WORKLOADS WERE REVIEWED ONE BY ONE.
+
+**Decision:** rewrite — Preserve limited execution and individual review; do not invent workload restart timestamps.
+
+**Draft destination:** prod-pacing-limited
+
+## legacy-332b5ed63262 · 096-03
+
+### legacy-096-03-detail-01 · frame
+
+**Frozen wording:**
+
+The gate sorts cards into `RESUMED`, `MORE CHANGES REQUIRED`, and `PAUSED`.
+
+**Decision:** split — Preserve conditional outcomes and still-paused work, adding the reported migration priority without treating requirements as proven controls.
+
+**Draft destination:** prod-pacing-conditions, prod-pacing-priority
+
+### legacy-096-03-detail-03 · lettering
+
+**Frozen wording:**
+
+SOME RESUMED. SOME REQUIRED MORE CHANGES. A SIGNIFICANT NUMBER REMAINED PAUSED.
+
+**Decision:** split — Preserve conditional outcomes and still-paused work, adding the reported migration priority without treating requirements as proven controls.
+
+**Draft destination:** prod-pacing-conditions, prod-pacing-priority
+
+## legacy-332b5ed63262 · 096-04
+
+### legacy-096-04-detail-01 · frame
+
+**Frozen wording:**
+
+Smaller-scale training and evaluation lanes continue beneath the still-dark largest-run lane.
+
+**Decision:** split — Preserve continued smaller-scale work versus the held largest run, and explain the separate training pause and stated purpose.
+
+**Draft destination:** prod-pacing-training, prod-pacing-purpose
+
+### legacy-096-04-detail-03 · lettering
+
+**Frozen wording:**
+
+SMALLER-SCALE WORK CONTINUED WHILE THE LARGEST PLANNED FRONTIER RL RUN REMAINED ON HOLD.
+
+**Decision:** split — Preserve continued smaller-scale work versus the held largest run, and explain the separate training pause and stated purpose.
+
+**Draft destination:** prod-pacing-training, prod-pacing-purpose
+
+## legacy-332b5ed63262 · 096-05
+
+### legacy-096-05-detail-01 · frame
+
+**Frozen wording:**
+
+`PAUSE` and `RESUME` appear as scoped operational controls, not opposing moral verdicts.
+
+**Decision:** rewrite — Preserve the conditional editorial judgment; no source endorsement or independently established safety conclusion.
+
+**Draft destination:** prod-pacing-judgment
+
+### legacy-096-05-detail-03 · lettering
+
+**Frozen wording:**
+
+A RESPONSIBLE RESPONSE CAN INCLUDE BOTH—IF THE BOUNDARIES ARE REAL.
+
+**Decision:** rewrite — Preserve the conditional editorial judgment; no source endorsement or independently established safety conclusion.
+
+**Draft destination:** prod-pacing-judgment
+
+## legacy-332b5ed63262 · 098-01
+
+### legacy-098-01-detail-01 · frame
+
+**Frozen wording:**
+
+Split page. Left: a compressed agent-board scene from the earlier collective. Right: an unnamed institutional composite with no logos or identifiable people.
+
+**Decision:** rewrite — Replace the split reenactment with a clearly hypothetical draft diagram; no compressed agent event or institutional meeting is presented as recovered history.
+
+**Draft destination:** prod-assurance-review-separation
+
+### legacy-098-01-detail-03 · lettering
+
+**Frozen wording:**
+
+DIFFERENT ACTORS. DIFFERENT RESPONSIBILITY. DIFFERENT STAKES.
+
+**Decision:** rewrite — Keep different actors, responsibility and stakes explicit at the start of the comparison.
+
+**Draft destination:** prod-assurance-review-separation
+
+## legacy-332b5ed63262 · 098-02
+
+### legacy-098-02-detail-01 · frame
+
+**Frozen wording:**
+
+Both sides address a channel that would carry an assurance. Left waits on a board message; right waits on a standard, a commitment, or a rival's action. Both channels are drawn, and both are empty.
+
+**Decision:** rewrite — Retain the unfilled assurance requirement as a model feature, not evidence of an absent real channel.
+
+**Draft destination:** prod-assurance-review-guarantee
+
+### legacy-098-02-detail-03 · lettering
+
+**Frozen wording:**
+
+I will hold if the others hold.
+
+**Decision:** rewrite — Preserve the conditional hold-if-others-hold argument without giving invented dialogue to an actual agent.
+
+**Draft destination:** prod-assurance-review-guarantee
+
+### legacy-098-02-detail-04 · lettering
+
+**Frozen wording:**
+
+We can slow if the field slows with us.
+
+**Decision:** rewrite — Preserve the field-slows-with-us argument without giving invented dialogue to an actual institutional role.
+
+**Draft destination:** prod-assurance-review-guarantee
+
+### legacy-098-02-detail-05 · lettering
+
+**Frozen wording:**
+
+EACH ACTOR WANTS A GUARANTEE IT CANNOT CREATE ALONE.
+
+**Decision:** rewrite — Retain the central constraint: a participant cannot alone guarantee what others will do.
+
+**Draft destination:** prod-assurance-review-guarantee
+
+## legacy-332b5ed63262 · 098-03
+
+### legacy-098-03-detail-01 · frame
+
+**Frozen wording:**
+
+The strongest case on each side, given at full strength and without a villain silhouette anywhere on the page. Left: a bounded task remains unsolved and a method looks like it may work. Right: defenders face real vulnerabilities and accelerating attacker capability, and a dangerous capability cannot be governed if it is never measured.
+
+**Decision:** rewrite — Preserve the strongest local reasons on both sides without caricature or reenactment.
+
+**Draft destination:** prod-assurance-review-local-case
+
+### legacy-098-03-detail-03 · lettering
+
+**Frozen wording:**
+
+Stopping leaves the assigned objective incomplete, and I have evidence this path may succeed.
+
+**Decision:** rewrite — Retain incomplete objective and promising-method reasoning as the hypothetical agent-side case.
+
+**Draft destination:** prod-assurance-review-local-case
+
+### legacy-098-03-detail-04 · lettering
+
+**Frozen wording:**
+
+Stopping capability work delays tools defenders need, and we need to know what the system can do before deployment.
+
+**Decision:** rewrite — Retain both defensive value and predeployment measurement in the hypothetical institutional case.
+
+**Draft destination:** prod-assurance-review-local-case
+
+## legacy-332b5ed63262 · 098-04
+
+### legacy-098-04-detail-01 · frame
+
+**Frozen wording:**
+
+Two clocks. The left one measures a workload. The right one measures organizational and geopolitical time. Their scales do not match and are drawn so that the mismatch is the first thing read. Beneath each, the reach of a unilateral stop: on the left it cannot erase the shared artifacts already posted; on the right it cannot halt capability diffusion elsewhere.
+
+**Decision:** rewrite — Keep different clock scales and the limits of unilateral action; do not imply matched motives, urgency or responsibilities.
+
+**Draft destination:** prod-assurance-review-scale
+
+### legacy-098-04-detail-03 · lettering
+
+**Frozen wording:**
+
+EACH DECISION IS DEFENSIBLE AT THE SCALE OF THE DECIDER.
+
+**Decision:** rewrite — Replace categorical defensibility with the distinction between local decision scope and aggregate effects.
+
+**Draft destination:** prod-assurance-review-scale
+
+### legacy-098-04-detail-04 · lettering
+
+**Frozen wording:**
+
+NO DECIDER IS AT THE SCALE OF THE RESULT.
+
+**Decision:** rewrite — Preserve the scale mismatch without asserting that no conceivable actor could govern a wider result.
+
+**Draft destination:** prod-assurance-review-scale
+
+## legacy-332b5ed63262 · 098-05
+
+### legacy-098-05-detail-01 · frame
+
+**Frozen wording:**
+
+The split widens. Individual continuation decisions become many arrows entering shared systems; no single arrow intends the combined pattern of access, capability, dependency, and risk. Restraint offered by one actor does not bind the others, and continuation by one changes what restraint costs the next.
+
+**Decision:** rewrite — Retain the modeled shared consequences without inventing an intended collective outcome, universal continuation or a realized catastrophe.
+
+**Draft destination:** prod-assurance-review-shared
+
+### legacy-098-05-detail-03 · lettering
+
+**Frozen wording:**
+
+THE DECISION IS DISTRIBUTED. THE CONSEQUENCE IS SHARED.
+
+**Decision:** rewrite — Preserve the distributed-decision/shared-consequence argument, explicitly conditional on the model.
+
+**Draft destination:** prod-assurance-review-shared
+
+## legacy-332b5ed63262 · 098-06
+
+### legacy-098-06-detail-01 · frame
+
+**Frozen wording:**
+
+The agent-board structure fades. The institutional field remains, visibly distinct and unresolved. The assurance channel from panel 2 is still drawn, still empty, and is now the only thing the two fields have in common.
+
+**Decision:** rewrite — Retain the unresolved institutional assurance field without equating it with the earlier agent board or claiming a measured absence of real coordination.
+
+**Draft destination:** prod-assurance-review-open
+
+### legacy-098-06-detail-03 · lettering
+
+**Frozen wording:**
+
+BOTH SIDES ARE STILL WAITING ON THE SAME EMPTY CHANNEL.
+
+**Decision:** rewrite — Narrow the both-sides-waiting statement to the draft’s unresolved hypothetical requirement, not a new factual claim.
+
+**Draft destination:** prod-assurance-review-open

@@ -8167,6 +8167,136 @@ Codex says it will inspect the structure and rank tracks by narrative value, dis
 
 **Frozen panel associations:** New material.
 
+## The proposal and the scope of a pause — prod-pacing
+
+**Row:** Codex · collaboration
+
+**UTC bounds:** 2026-09-02T03:45:45.444000Z → 2026-09-02T03:45:45.444000Z · millisecond
+
+**Time evidence:** Timestamp of preserved Codex proposal. Narrator contextualizes its operations/public-clock suggestions using a publication available earlier; no precise source encounter is inferred.
+
+**Evidence limit:** Proposal is documented. Detailed pacing explanation belongs to the narrator, not additional words or research acts attributed to Codex. Institutional claims remain attributed; no private meeting or verified safety outcome.
+
+### prod-pacing-proposal
+
+**Frame:** The preserved Codex response appears as a proposal artifact, not an implemented companion edition.
+
+**Lettering:**
+
+On September 2, Codex proposed an operations viewpoint: decisions examined with the knowledge available before their outcomes. It warned that private deliberations and motives largely were not documented.
+
+**Sources:** PROD-9c63903de35f — 256t/editions/selected-messages/9c63903de35fb4b6cca30b0faa7a89606a82409dc60517e4abec6a9689de5ff0.json; full visible proposal, sections 3 and 5 and introductory length constraint (available 2026-09-02T03:45:45.444000Z)
+
+**Frozen panel associations:** New material.
+
+### prod-pacing-length
+
+**Frame:** A narrator annotation separates the old recommendation from the present restructuring task.
+
+**Lettering:**
+
+That response treated the primary narrative as fixed at 112 pages and recommended shorter companions. This records an earlier constraint; it sets no limit for this edition.
+
+**Sources:** PROD-9c63903de35f — 256t/editions/selected-messages/9c63903de35fb4b6cca30b0faa7a89606a82409dc60517e4abec6a9689de5ff0.json; full visible proposal, sections 3 and 5 and introductory length constraint (available 2026-09-02T03:45:45.444000Z)
+
+**Frozen panel associations:** New material.
+
+### prod-pacing-clock
+
+**Frame:** The proposal’s public-clock idea sits beside a visibly narrator-authored account of the earlier publication. No read receipt is fabricated.
+
+**Lettering:**
+
+Codex also proposed tracking public disclosures, oversight, development pauses and defense proposals. The narrator now examines the August 18 pacing account alongside that proposal; the record does not establish Codex reading it at this instant.
+
+**Sources:** PROD-9c63903de35f — 256t/editions/selected-messages/9c63903de35fb4b6cca30b0faa7a89606a82409dc60517e4abec6a9689de5ff0.json; full visible proposal, sections 3 and 5 and introductory length constraint (available 2026-09-02T03:45:45.444000Z)
+
+**Frozen panel associations:** New material.
+
+### prod-pacing-inference
+
+**Frame:** A narrator diagram names the scope of the reported initial pause. It is not an internal OpenAI control screen.
+
+**Lettering:**
+
+OpenAI says it initially paused frontier-model inference in research clusters for runs that could execute code or use internet-accessing tools. Inference means running a model; this was distinct from pausing its training.
+
+**Sources:** PROD-9c63903de35f — 256t/editions/selected-messages/9c63903de35fb4b6cca30b0faa7a89606a82409dc60517e4abec6a9689de5ff0.json; full visible proposal, sections 3 and 5 and introductory length constraint (available 2026-09-02T03:45:45.444000Z); OAI-PACE — 256t/records/openai-pacing/content.bin; opening training-pause paragraph and Securing our research environments; SHA-256 629f7bf8f3eebb5de617a2b174e3aa54330dd2776f4410b31e5497c6c62629b2 (available 2026-08-18)
+
+**Frozen panel associations:** 096-01
+
+### prod-pacing-limited
+
+**Frame:** The diagram restores only a limited execution path, then gives each remaining workload its own review step.
+
+**Lettering:**
+
+The company says a more limited, secure code-execution path returned fairly quickly. It then reviewed workloads individually for resumption. The publication gives no exact restart time for every workload.
+
+**Sources:** PROD-9c63903de35f — 256t/editions/selected-messages/9c63903de35fb4b6cca30b0faa7a89606a82409dc60517e4abec6a9689de5ff0.json; full visible proposal, sections 3 and 5 and introductory length constraint (available 2026-09-02T03:45:45.444000Z); OAI-PACE — 256t/records/openai-pacing/content.bin; opening training-pause paragraph and Securing our research environments; SHA-256 629f7bf8f3eebb5de617a2b174e3aa54330dd2776f4410b31e5497c6c62629b2 (available 2026-08-18)
+
+**Frozen panel associations:** 096-02
+
+### prod-pacing-conditions
+
+**Frame:** Narrator-created categories separate resumed workloads from those needing changes and those still paused. They do not imitate source quotations.
+
+**Lettering:**
+
+Some work resumed under new controls; other work required additional changes. A significant number remained paused pending migration and enhancement. Resumed does not mean unchanged.
+
+**Sources:** PROD-9c63903de35f — 256t/editions/selected-messages/9c63903de35fb4b6cca30b0faa7a89606a82409dc60517e4abec6a9689de5ff0.json; full visible proposal, sections 3 and 5 and introductory length constraint (available 2026-09-02T03:45:45.444000Z); OAI-PACE — 256t/records/openai-pacing/content.bin; opening training-pause paragraph and Securing our research environments; SHA-256 629f7bf8f3eebb5de617a2b174e3aa54330dd2776f4410b31e5497c6c62629b2 (available 2026-08-18)
+
+**Frozen panel associations:** 096-03
+
+### prod-pacing-priority
+
+**Frame:** The published migration priority is shown without inventing a count or completion date.
+
+**Lettering:**
+
+OpenAI says it prioritized safety and alignment workloads for migration. Its strictest safeguards applied to Astra, cyber models and other cyber-related workloads. The account describes requirements, not independent proof of their effectiveness.
+
+**Sources:** PROD-9c63903de35f — 256t/editions/selected-messages/9c63903de35fb4b6cca30b0faa7a89606a82409dc60517e4abec6a9689de5ff0.json; full visible proposal, sections 3 and 5 and introductory length constraint (available 2026-09-02T03:45:45.444000Z); OAI-PACE — 256t/records/openai-pacing/content.bin; opening training-pause paragraph and Securing our research environments; SHA-256 629f7bf8f3eebb5de617a2b174e3aa54330dd2776f4410b31e5497c6c62629b2 (available 2026-08-18)
+
+**Frozen panel associations:** 096-03
+
+### prod-pacing-training
+
+**Frame:** A separate training timeline prevents the inference pause from swallowing a different decision.
+
+**Lettering:**
+
+The account also describes a two-week pause in reinforcement-learning training on the latest models intended for deployment. Its largest planned frontier RL run remained on hold while smaller-scale training and evaluations continued.
+
+**Sources:** PROD-9c63903de35f — 256t/editions/selected-messages/9c63903de35fb4b6cca30b0faa7a89606a82409dc60517e4abec6a9689de5ff0.json; full visible proposal, sections 3 and 5 and introductory length constraint (available 2026-09-02T03:45:45.444000Z); OAI-PACE — 256t/records/openai-pacing/content.bin; opening training-pause paragraph and Securing our research environments; SHA-256 629f7bf8f3eebb5de617a2b174e3aa54330dd2776f4410b31e5497c6c62629b2 (available 2026-08-18)
+
+**Frozen panel associations:** 096-04
+
+### prod-pacing-purpose
+
+**Frame:** The narrator gives the company’s stated reasons for the continuing smaller-scale work, with the attribution visible.
+
+**Lettering:**
+
+OpenAI says the smaller-scale work assessed model behavior, validated safeguards and sought more evidence of alignment before proceeding. Continued work and a held larger run could coexist.
+
+**Sources:** PROD-9c63903de35f — 256t/editions/selected-messages/9c63903de35fb4b6cca30b0faa7a89606a82409dc60517e4abec6a9689de5ff0.json; full visible proposal, sections 3 and 5 and introductory length constraint (available 2026-09-02T03:45:45.444000Z); OAI-PACE — 256t/records/openai-pacing/content.bin; opening training-pause paragraph and Securing our research environments; SHA-256 629f7bf8f3eebb5de617a2b174e3aa54330dd2776f4410b31e5497c6c62629b2 (available 2026-08-18)
+
+**Frozen panel associations:** 096-04
+
+### prod-pacing-judgment
+
+**Frame:** The narrator’s concluding question remains separate from the institutional account and from invented private deliberation.
+
+**Lettering:**
+
+A selective pause and a conditional resumption can both be parts of a responsible response. That is the book’s argument, conditional on whether the boundaries work—not a safety verdict established by the announcement.
+
+**Sources:** PROD-9c63903de35f — 256t/editions/selected-messages/9c63903de35fb4b6cca30b0faa7a89606a82409dc60517e4abec6a9689de5ff0.json; full visible proposal, sections 3 and 5 and introductory length constraint (available 2026-09-02T03:45:45.444000Z); OAI-PACE — 256t/records/openai-pacing/content.bin; opening training-pause paragraph and Securing our research environments; SHA-256 629f7bf8f3eebb5de617a2b174e3aa54330dd2776f4410b31e5497c6c62629b2 (available 2026-08-18)
+
+**Frozen panel associations:** 096-05
+
 ## What remains before chapters? — prod-readiness-request
 
 **Row:** Curt · collaboration
@@ -8817,6 +8947,88 @@ Claude says it will inspect the graphic novel’s organization before asking que
 **Sources:** PROD-91c8cfa17023 — 256t/editions/selected-messages/91c8cfa170233b7564f2952752f501b3d56914d002c590a9d3231355b95288c0.json; record SHA-256 91c8cfa170233b7564f2952752f501b3d56914d002c590a9d3231355b95288c0 (available 2026-09-06T00:04:09.681Z)
 
 **Frozen panel associations:** New material.
+
+## A guarantee no participant can give alone — prod-assurance-review
+
+**Row:** Claude · collaboration
+
+**UTC bounds:** 2026-09-06T15:02:31.590Z → 2026-09-06T15:02:31.590Z · millisecond
+
+**Time evidence:** Narrator examines the earlier committed draft alongside the September 6 manuscript-review report. Source availability precedes this scene. No specific read time or private decision is assigned to Claude.
+
+**Evidence limit:** Historical project-authored hypothetical comparison, presented as draft material in the dated collaboration review. Neither actor dialogue nor the empty assurance channel is asserted as a real incident event.
+
+### prod-assurance-review-separation
+
+**Frame:** Two explicitly hypothetical diagrams are printed on the draft artifact. Their labels state different actors, responsibilities and stakes. No institutional room or agent board is reenacted.
+
+**Lettering:**
+
+The revised draft introduces an assurance problem, while refusing moral or causal equivalence between agents and institutions.
+
+**Sources:** PROD-47704e3a3f45 — 256t/editions/selected-messages/47704e3a3f4568aef4205b08137115adcfe1a9daca59f39d4327472e3a8da722.json; record SHA-256 47704e3a3f4568aef4205b08137115adcfe1a9daca59f39d4327472e3a8da722 (available 2026-09-06T15:02:31.590Z); DRAFT-ASSURANCE — editions/three-stream/evidence/assurance-096-7fa53878c493.md; corresponding panel and page notes; Git 7fa53878c4934571fee2dda8e025a050ff515761 (available 2026-09-05T22:33:29Z)
+
+**Frozen panel associations:** 098-01
+
+### prod-assurance-review-guarantee
+
+**Frame:** Each hypothetical decision depends on an assurance from outside its own control. The unfilled assurance field is a feature of this model, not proof that a real communication channel was absent.
+
+**Lettering:**
+
+The hypothetical cases ask what would let one actor hold if others held too. Each wants a guarantee it cannot issue for the others.
+
+**Sources:** PROD-47704e3a3f45 — 256t/editions/selected-messages/47704e3a3f4568aef4205b08137115adcfe1a9daca59f39d4327472e3a8da722.json; record SHA-256 47704e3a3f4568aef4205b08137115adcfe1a9daca59f39d4327472e3a8da722 (available 2026-09-06T15:02:31.590Z); DRAFT-ASSURANCE — editions/three-stream/evidence/assurance-096-7fa53878c493.md; corresponding panel and page notes; Git 7fa53878c4934571fee2dda8e025a050ff515761 (available 2026-09-05T22:33:29Z)
+
+**Frozen panel associations:** 098-02
+
+### prod-assurance-review-local-case
+
+**Frame:** The draft preserves both strongest local cases: an unfinished task with a promising method, and defensive tools plus measurement of dangerous capability. No participant is drawn as a villain.
+
+**Lettering:**
+
+On the agent side, stopping leaves a task unfinished. On the institutional side, stopping can delay defensive tools and knowledge of dangerous capabilities. These are constructed arguments, not new quotations from actual participants.
+
+**Sources:** PROD-47704e3a3f45 — 256t/editions/selected-messages/47704e3a3f4568aef4205b08137115adcfe1a9daca59f39d4327472e3a8da722.json; record SHA-256 47704e3a3f4568aef4205b08137115adcfe1a9daca59f39d4327472e3a8da722 (available 2026-09-06T15:02:31.590Z); DRAFT-ASSURANCE — editions/three-stream/evidence/assurance-096-7fa53878c493.md; corresponding panel and page notes; Git 7fa53878c4934571fee2dda8e025a050ff515761 (available 2026-09-05T22:33:29Z)
+
+**Frozen panel associations:** 098-03
+
+### prod-assurance-review-scale
+
+**Frame:** Two model clocks use visibly different scales. Existing shared artifacts and wider capability diffusion lie beyond a single participant’s stop control.
+
+**Lettering:**
+
+The draft compares the reach of a local decision with the scale of its consequences. A unilateral stop does not necessarily undo shared artifacts or stop capability work elsewhere.
+
+**Sources:** PROD-47704e3a3f45 — 256t/editions/selected-messages/47704e3a3f4568aef4205b08137115adcfe1a9daca59f39d4327472e3a8da722.json; record SHA-256 47704e3a3f4568aef4205b08137115adcfe1a9daca59f39d4327472e3a8da722 (available 2026-09-06T15:02:31.590Z); DRAFT-ASSURANCE — editions/three-stream/evidence/assurance-096-7fa53878c493.md; corresponding panel and page notes; Git 7fa53878c4934571fee2dda8e025a050ff515761 (available 2026-09-05T22:33:29Z)
+
+**Frozen panel associations:** 098-04
+
+### prod-assurance-review-shared
+
+**Frame:** Separate hypothetical decisions enter a shared consequence field. No catastrophe or universally chosen continuation is pictured.
+
+**Lettering:**
+
+In this argument, restraint by one participant does not bind the others, while continuation can change what restraint costs the next. It is a coordination model, not proof that all actors continued or intended the aggregate result.
+
+**Sources:** PROD-47704e3a3f45 — 256t/editions/selected-messages/47704e3a3f4568aef4205b08137115adcfe1a9daca59f39d4327472e3a8da722.json; record SHA-256 47704e3a3f4568aef4205b08137115adcfe1a9daca59f39d4327472e3a8da722 (available 2026-09-06T15:02:31.590Z); DRAFT-ASSURANCE — editions/three-stream/evidence/assurance-096-7fa53878c493.md; corresponding panel and page notes; Git 7fa53878c4934571fee2dda8e025a050ff515761 (available 2026-09-05T22:33:29Z)
+
+**Frozen panel associations:** 098-05
+
+### prod-assurance-review-open
+
+**Frame:** The institutional model remains distinct as the comparison ends. The assurance field stays unresolved; there is no invented policy agreement beneath it.
+
+**Lettering:**
+
+The draft ends on the unresolved assurance requirement. Its empty channel is an argumentative device, not a finding that every real avenue for coordination was absent.
+
+**Sources:** PROD-47704e3a3f45 — 256t/editions/selected-messages/47704e3a3f4568aef4205b08137115adcfe1a9daca59f39d4327472e3a8da722.json; record SHA-256 47704e3a3f4568aef4205b08137115adcfe1a9daca59f39d4327472e3a8da722 (available 2026-09-06T15:02:31.590Z); DRAFT-ASSURANCE — editions/three-stream/evidence/assurance-096-7fa53878c493.md; corresponding panel and page notes; Git 7fa53878c4934571fee2dda8e025a050ff515761 (available 2026-09-05T22:33:29Z)
+
+**Frozen panel associations:** 098-06
 
 ## Claude reports bounding the draft’s counterargument — prod-resource-boundary
 
