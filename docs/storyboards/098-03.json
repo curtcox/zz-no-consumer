@@ -22,6 +22,26 @@
   "lettering_mode": "manual",
   "nodes": [
     {
+      "asset": "location-background-agent-board-composite",
+      "box": [
+        0.02,
+        0.02,
+        0.4675,
+        0.96
+      ],
+      "color": "steel"
+    },
+    {
+      "asset": "location-background-institutional-composite",
+      "box": [
+        0.5125,
+        0.02,
+        0.4675,
+        0.96
+      ],
+      "color": "steel"
+    },
+    {
       "asset": "task",
       "box": [
         0.05775,

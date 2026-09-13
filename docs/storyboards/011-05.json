@@ -14,6 +14,46 @@
   "lettering_mode": "manual",
   "nodes": [
     {
+      "asset": "location-background-artifactory-cache",
+      "box": [
+        0.02,
+        0.02,
+        0.303333,
+        0.4675
+      ],
+      "color": "steel"
+    },
+    {
+      "asset": "location-background-evaluation-container",
+      "box": [
+        0.348333,
+        0.02,
+        0.303333,
+        0.4675
+      ],
+      "color": "steel"
+    },
+    {
+      "asset": "location-background-external-network",
+      "box": [
+        0.676667,
+        0.02,
+        0.303333,
+        0.4675
+      ],
+      "color": "steel"
+    },
+    {
+      "asset": "location-background-openai-research-environment",
+      "box": [
+        0.02,
+        0.5125,
+        0.303333,
+        0.4675
+      ],
+      "color": "steel"
+    },
+    {
       "asset": "network-wall",
       "box": [
         0.06775,

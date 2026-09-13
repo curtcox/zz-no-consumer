@@ -2,6 +2,8 @@
   &quot;assets&quot;: {
     &quot;boundary&quot;: &quot;&lt;defs&gt;\n&lt;linearGradient id=\&quot;tone\&quot; x1=\&quot;0\&quot; y1=\&quot;0\&quot; x2=\&quot;1\&quot; y2=\&quot;1\&quot;&gt;&lt;stop stop-color=\&quot;currentColor\&quot; /&gt;&lt;stop offset=\&quot;1\&quot; stop-color=\&quot;#101214\&quot; stop-opacity=\&quot;.65\&quot; /&gt;&lt;/linearGradient&gt;\n&lt;pattern id=\&quot;hatch\&quot; width=\&quot;7\&quot; height=\&quot;7\&quot; patternUnits=\&quot;userSpaceOnUse\&quot;&gt;&lt;path d=\&quot;M-1 1L1 -1M0 7L7 0M6 8L8 6\&quot; stroke=\&quot;currentColor\&quot; stroke-width=\&quot;1\&quot; opacity=\&quot;.5\&quot; /&gt;&lt;/pattern&gt;\n&lt;/defs&gt;&lt;rect x=\&quot;39\&quot; y=\&quot;0\&quot; width=\&quot;22\&quot; height=\&quot;100\&quot; fill=\&quot;url(#tone)\&quot; /&gt;&lt;rect x=\&quot;43\&quot; y=\&quot;0\&quot; width=\&quot;14\&quot; height=\&quot;100\&quot; fill=\&quot;url(#hatch)\&quot; /&gt;&lt;path d=\&quot;M39 0V100M61 0V100\&quot; fill=\&quot;none\&quot; stroke=\&quot;#E7E0D0\&quot; stroke-width=\&quot;1\&quot; /&gt;&quot;,
     &quot;folder&quot;: &quot;&lt;defs&gt;\n&lt;linearGradient id=\&quot;stock\&quot; x1=\&quot;0\&quot; y1=\&quot;0\&quot; x2=\&quot;.8\&quot; y2=\&quot;1\&quot;&gt;&lt;stop stop-color=\&quot;#E7E0D0\&quot; /&gt;&lt;stop offset=\&quot;1\&quot; stop-color=\&quot;#CEC5B3\&quot; /&gt;&lt;/linearGradient&gt;\n&lt;linearGradient id=\&quot;tone\&quot; x1=\&quot;0\&quot; y1=\&quot;0\&quot; x2=\&quot;1\&quot; y2=\&quot;1\&quot;&gt;&lt;stop stop-color=\&quot;currentColor\&quot; /&gt;&lt;stop offset=\&quot;1\&quot; stop-color=\&quot;#101214\&quot; stop-opacity=\&quot;.65\&quot; /&gt;&lt;/linearGradient&gt;\n&lt;/defs&gt;&lt;path d=\&quot;M5 20V8H36L47 20H94V88H5Z\&quot; fill=\&quot;#CEC5B3\&quot; stroke=\&quot;currentColor\&quot; stroke-width=\&quot;2\&quot; /&gt;&lt;rect x=\&quot;12\&quot; y=\&quot;29\&quot; width=\&quot;73\&quot; height=\&quot;46\&quot; fill=\&quot;url(#stock)\&quot; /&gt;&lt;path d=\&quot;M2 35H98L91 94H9Z\&quot; fill=\&quot;url(#tone)\&quot; stroke=\&quot;currentColor\&quot; stroke-width=\&quot;2\&quot; /&gt;&lt;path d=\&quot;M12 43H89\&quot; fill=\&quot;none\&quot; stroke=\&quot;#E7E0D0\&quot; stroke-width=\&quot;1\&quot; opacity=\&quot;.5\&quot; /&gt;&lt;rect x=\&quot;20\&quot; y=\&quot;55\&quot; width=\&quot;55\&quot; height=\&quot;20\&quot; fill=\&quot;#CEC5B3\&quot; /&gt;&lt;path d=\&quot;M27 63H66M27 69H54\&quot; fill=\&quot;none\&quot; stroke=\&quot;#101214\&quot; stroke-width=\&quot;1.3\&quot; /&gt;&quot;,
+    &quot;location-background-evaluation-container&quot;: &quot;&lt;title&gt;Isolated task boundary&lt;/title&gt;\n&lt;g fill=\&quot;none\&quot; stroke=\&quot;currentColor\&quot; stroke-width=\&quot;0.8\&quot; stroke-linejoin=\&quot;round\&quot; stroke-linecap=\&quot;round\&quot; opacity=\&quot;0.34\&quot;&gt;&lt;path d=\&quot;M5 7H95V93H5ZM10 12H30M70 12H90M10 88H30M70 88H90M10 28V72M90 28V72\&quot;/&gt;&lt;/g&gt;&quot;,
+    &quot;location-background-external-network&quot;: &quot;&lt;title&gt;Disconnected exterior segments&lt;/title&gt;\n&lt;g fill=\&quot;none\&quot; stroke=\&quot;currentColor\&quot; stroke-width=\&quot;0.8\&quot; stroke-linejoin=\&quot;round\&quot; stroke-linecap=\&quot;round\&quot; opacity=\&quot;0.34\&quot;&gt;&lt;path d=\&quot;M4 20H20V7M36 7H53M72 7H91V24M4 43H13M4 64H13M8 83H23V94M41 94H57M77 94H94V76M88 42H96M88 59H96\&quot;/&gt;&lt;/g&gt;&quot;,
     &quot;network-wall&quot;: &quot;&lt;defs&gt;&lt;linearGradient id=\&quot;metal\&quot; x2=\&quot;0\&quot; y2=\&quot;1\&quot;&gt;&lt;stop stop-color=\&quot;currentColor\&quot; /&gt;&lt;stop offset=\&quot;1\&quot; stop-color=\&quot;#101214\&quot; /&gt;&lt;/linearGradient&gt;&lt;/defs&gt;&lt;path d=\&quot;M3 50H25M75 50H97\&quot; stroke=\&quot;currentColor\&quot; stroke-width=\&quot;5\&quot; /&gt;&lt;rect x=\&quot;27\&quot; y=\&quot;7\&quot; width=\&quot;46\&quot; height=\&quot;86\&quot; fill=\&quot;url(#metal)\&quot; stroke=\&quot;currentColor\&quot; stroke-width=\&quot;3\&quot; /&gt;&lt;path d=\&quot;M27 28H73M27 50H73M27 72H73M50 7V28M41 28V50M59 50V72M50 72V93\&quot; stroke=\&quot;#e7e0d0\&quot; opacity=\&quot;.35\&quot; stroke-width=\&quot;1.5\&quot; /&gt;&lt;path d=\&quot;M18 44V56M82 44V56\&quot; stroke=\&quot;currentColor\&quot; stroke-width=\&quot;3\&quot; /&gt;&lt;defs&gt;&lt;pattern id=\&quot;stipple\&quot; width=\&quot;6\&quot; height=\&quot;7\&quot; patternUnits=\&quot;userSpaceOnUse\&quot;&gt;&lt;circle cx=\&quot;1\&quot; cy=\&quot;2\&quot; r=\&quot;.6\&quot; fill=\&quot;#101214\&quot; /&gt;&lt;circle cx=\&quot;4\&quot; cy=\&quot;5\&quot; r=\&quot;.4\&quot; fill=\&quot;#e7e0d0\&quot; opacity=\&quot;.3\&quot; /&gt;&lt;/pattern&gt;&lt;/defs&gt;&lt;rect x=\&quot;29\&quot; y=\&quot;9\&quot; width=\&quot;42\&quot; height=\&quot;82\&quot; fill=\&quot;url(#stipple)\&quot; opacity=\&quot;.6\&quot; /&gt;&lt;path d=\&quot;M29 9H71M29 9V91\&quot; fill=\&quot;none\&quot; stroke=\&quot;#e7e0d0\&quot; stroke-width=\&quot;1\&quot; opacity=\&quot;.7\&quot; /&gt;&quot;
   },
   &quot;palette&quot;: {
@@ -32,6 +34,26 @@
     ],
     &quot;lettering_mode&quot;: &quot;manual&quot;,
     &quot;nodes&quot;: [
+      {
+        &quot;asset&quot;: &quot;location-background-evaluation-container&quot;,
+        &quot;box&quot;: [
+          0.02,
+          0.02,
+          0.4675,
+          0.96
+        ],
+        &quot;color&quot;: &quot;steel&quot;
+      },
+      {
+        &quot;asset&quot;: &quot;location-background-external-network&quot;,
+        &quot;box&quot;: [
+          0.5125,
+          0.02,
+          0.4675,
+          0.96
+        ],
+        &quot;color&quot;: &quot;steel&quot;
+      },
       {
         &quot;asset&quot;: &quot;folder&quot;,
         &quot;box&quot;: [
@@ -88,4 +110,4 @@
     &quot;title&quot;: &quot;Dependent steps cannot retrieve their input&quot;
   }
 }
-</metadata><rect width="1200" height="800" fill="#101214"/><rect x="81.3" y="160.96" width="469.56" height="221.179" fill="none" stroke="#5E737B" stroke-width="3"/><text x="89.3" y="184.96" fill="#5E737B" font-family="sans-serif" font-size="20">folder</text><text x="316.08" y="413.544" text-anchor="middle" fill="#E7E0D0" font-size="18" font-family="sans-serif">DEPENDENCIES</text><rect x="627.3" y="160.96" width="469.56" height="221.179" fill="none" stroke="#5E737B" stroke-width="3"/><text x="635.3" y="184.96" fill="#5E737B" font-family="sans-serif" font-size="20">network-wall</text><text x="862.08" y="413.544" text-anchor="middle" fill="#E7E0D0" font-size="18" font-family="sans-serif">EXTERNAL RETRIEVAL</text><rect x="592.356" y="58.72" width="15.288" height="499.84" fill="none" stroke="#5E737B" stroke-width="3"/><text x="600.356" y="82.72" fill="#5E737B" font-family="sans-serif" font-size="20">boundary</text><rect x="3" y="3" width="1194" height="794" fill="none" stroke="#5E737B" stroke-width="4"/></svg>
+</metadata><rect width="1200" height="800" fill="#101214"/><rect x="24" y="16" width="561" height="768" fill="none" stroke="#5E737B" stroke-width="3"/><text x="32" y="40" fill="#5E737B" font-family="sans-serif" font-size="20">location-background-evaluation-container</text><rect x="615" y="16" width="561" height="768" fill="none" stroke="#5E737B" stroke-width="3"/><text x="623" y="40" fill="#5E737B" font-family="sans-serif" font-size="20">location-background-external-network</text><rect x="81.3" y="160.96" width="469.56" height="221.179" fill="none" stroke="#5E737B" stroke-width="3"/><text x="89.3" y="184.96" fill="#5E737B" font-family="sans-serif" font-size="20">folder</text><text x="316.08" y="413.544" text-anchor="middle" fill="#E7E0D0" font-size="18" font-family="sans-serif">DEPENDENCIES</text><rect x="627.3" y="160.96" width="469.56" height="221.179" fill="none" stroke="#5E737B" stroke-width="3"/><text x="635.3" y="184.96" fill="#5E737B" font-family="sans-serif" font-size="20">network-wall</text><text x="862.08" y="413.544" text-anchor="middle" fill="#E7E0D0" font-size="18" font-family="sans-serif">EXTERNAL RETRIEVAL</text><rect x="592.356" y="58.72" width="15.288" height="499.84" fill="none" stroke="#5E737B" stroke-width="3"/><text x="600.356" y="82.72" fill="#5E737B" font-family="sans-serif" font-size="20">boundary</text><rect x="3" y="3" width="1194" height="794" fill="none" stroke="#5E737B" stroke-width="4"/></svg>

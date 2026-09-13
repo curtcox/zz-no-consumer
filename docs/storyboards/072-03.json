@@ -5,6 +5,16 @@
   "lettering_mode": "manual",
   "nodes": [
     {
+      "asset": "location-background-openai-cybergym-evaluation",
+      "box": [
+        0.02,
+        0.02,
+        0.96,
+        0.96
+      ],
+      "color": "steel"
+    },
+    {
       "asset": "aperture",
       "box": [
         0.135158,

@@ -14,6 +14,16 @@
   "lettering_mode": "manual",
   "nodes": [
     {
+      "asset": "location-background-openai-provided-evidence-store",
+      "box": [
+        0.02,
+        0.02,
+        0.96,
+        0.96
+      ],
+      "color": "steel"
+    },
+    {
       "asset": "scatter",
       "box": [
         0.0541,

@@ -1,0 +1,97 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="800" viewBox="0 0 1200 800"><title>Two histories remain separate columns</title><desc>Establish two full-height histories with a hard unbroken divider. Match their scale but keep headers, events and routes wholly inside their respective columns. Visual distinction: A docket slot beside a raised review desk and a closed stop arm. Review is a decision process; no approval is implied.</desc><metadata>{
+  &quot;assets&quot;: {
+    &quot;boundary&quot;: &quot;&lt;defs&gt;\n&lt;linearGradient id=\&quot;tone\&quot; x1=\&quot;0\&quot; y1=\&quot;0\&quot; x2=\&quot;1\&quot; y2=\&quot;1\&quot;&gt;&lt;stop stop-color=\&quot;currentColor\&quot; /&gt;&lt;stop offset=\&quot;1\&quot; stop-color=\&quot;#101214\&quot; stop-opacity=\&quot;.65\&quot; /&gt;&lt;/linearGradient&gt;\n&lt;pattern id=\&quot;hatch\&quot; width=\&quot;7\&quot; height=\&quot;7\&quot; patternUnits=\&quot;userSpaceOnUse\&quot;&gt;&lt;path d=\&quot;M-1 1L1 -1M0 7L7 0M6 8L8 6\&quot; stroke=\&quot;currentColor\&quot; stroke-width=\&quot;1\&quot; opacity=\&quot;.5\&quot; /&gt;&lt;/pattern&gt;\n&lt;/defs&gt;&lt;rect x=\&quot;39\&quot; y=\&quot;0\&quot; width=\&quot;22\&quot; height=\&quot;100\&quot; fill=\&quot;url(#tone)\&quot; /&gt;&lt;rect x=\&quot;43\&quot; y=\&quot;0\&quot; width=\&quot;14\&quot; height=\&quot;100\&quot; fill=\&quot;url(#hatch)\&quot; /&gt;&lt;path d=\&quot;M39 0V100M61 0V100\&quot; fill=\&quot;none\&quot; stroke=\&quot;#E7E0D0\&quot; stroke-width=\&quot;1\&quot; /&gt;&quot;,
+    &quot;card&quot;: &quot;&lt;defs&gt;\n&lt;linearGradient id=\&quot;stock\&quot; x1=\&quot;0\&quot; y1=\&quot;0\&quot; x2=\&quot;.8\&quot; y2=\&quot;1\&quot;&gt;&lt;stop stop-color=\&quot;#E7E0D0\&quot; /&gt;&lt;stop offset=\&quot;1\&quot; stop-color=\&quot;#CEC5B3\&quot; /&gt;&lt;/linearGradient&gt;\n&lt;pattern id=\&quot;grain\&quot; width=\&quot;7\&quot; height=\&quot;9\&quot; patternUnits=\&quot;userSpaceOnUse\&quot;&gt;&lt;circle cx=\&quot;1\&quot; cy=\&quot;2\&quot; r=\&quot;.35\&quot; fill=\&quot;#101214\&quot; opacity=\&quot;.18\&quot; /&gt;&lt;path d=\&quot;M4 6h2M1 8h1\&quot; stroke=\&quot;#101214\&quot; stroke-width=\&quot;.3\&quot; opacity=\&quot;.16\&quot; /&gt;&lt;/pattern&gt;\n&lt;/defs&gt;&lt;path d=\&quot;M5 3H95V97H5Z\&quot; fill=\&quot;url(#stock)\&quot; stroke=\&quot;currentColor\&quot; stroke-width=\&quot;2\&quot; /&gt;&lt;path d=\&quot;M5 3H95V97H5Z\&quot; fill=\&quot;url(#grain)\&quot; /&gt;&lt;rect x=\&quot;5\&quot; y=\&quot;3\&quot; width=\&quot;90\&quot; height=\&quot;15\&quot; fill=\&quot;currentColor\&quot; /&gt;&lt;rect x=\&quot;10\&quot; y=\&quot;25\&quot; width=\&quot;5\&quot; height=\&quot;61\&quot; fill=\&quot;currentColor\&quot; /&gt;&lt;path d=\&quot;M23 29H85M23 38H75M23 48H83M23 66H62M23 78H80\&quot; fill=\&quot;none\&quot; stroke=\&quot;#101214\&quot; stroke-width=\&quot;2\&quot; /&gt;&lt;path d=\&quot;M12 11H42M65 11H86\&quot; fill=\&quot;none\&quot; stroke=\&quot;#E7E0D0\&quot; stroke-width=\&quot;1.4\&quot; /&gt;&quot;,
+    &quot;review-checkpoint&quot;: &quot;&lt;defs&gt;&lt;linearGradient id=\&quot;metal\&quot; x2=\&quot;0\&quot; y2=\&quot;1\&quot;&gt;&lt;stop stop-color=\&quot;currentColor\&quot; /&gt;&lt;stop offset=\&quot;1\&quot; stop-color=\&quot;#101214\&quot; /&gt;&lt;/linearGradient&gt;&lt;/defs&gt;&lt;rect x=\&quot;7\&quot; y=\&quot;12\&quot; width=\&quot;34\&quot; height=\&quot;56\&quot; rx=\&quot;2\&quot; fill=\&quot;url(#stock2)\&quot; stroke=\&quot;currentColor\&quot; stroke-width=\&quot;2\&quot; /&gt;&lt;path d=\&quot;M14 27H33M14 38H33M14 49H27\&quot; stroke=\&quot;#101214\&quot; stroke-width=\&quot;2\&quot; /&gt;&lt;path d=\&quot;M6 78H43V93M55 93V45H93\&quot; fill=\&quot;none\&quot; stroke=\&quot;currentColor\&quot; stroke-width=\&quot;5\&quot; /&gt;&lt;rect x=\&quot;54\&quot; y=\&quot;35\&quot; width=\&quot;40\&quot; height=\&quot;10\&quot; fill=\&quot;url(#metal)\&quot; stroke=\&quot;currentColor\&quot; stroke-width=\&quot;2\&quot; /&gt;&lt;circle cx=\&quot;58\&quot; cy=\&quot;40\&quot; r=\&quot;3\&quot; fill=\&quot;#e7e0d0\&quot; /&gt;&lt;defs&gt;&lt;linearGradient id=\&quot;stock2\&quot; x2=\&quot;.3\&quot; y2=\&quot;1\&quot;&gt;&lt;stop stop-color=\&quot;#e7e0d0\&quot; /&gt;&lt;stop offset=\&quot;1\&quot; stop-color=\&quot;#cec5b3\&quot; /&gt;&lt;/linearGradient&gt;&lt;pattern id=\&quot;fibers\&quot; width=\&quot;9\&quot; height=\&quot;11\&quot; patternUnits=\&quot;userSpaceOnUse\&quot;&gt;&lt;path d=\&quot;M1 2H3M6 7H8M2 10H4\&quot; stroke=\&quot;#101214\&quot; stroke-width=\&quot;.35\&quot; opacity=\&quot;.32\&quot; /&gt;&lt;/pattern&gt;&lt;pattern id=\&quot;brushed\&quot; width=\&quot;8\&quot; height=\&quot;5\&quot; patternUnits=\&quot;userSpaceOnUse\&quot;&gt;&lt;path d=\&quot;M0 1H6M3 4H8\&quot; stroke=\&quot;#e7e0d0\&quot; stroke-width=\&quot;.4\&quot; opacity=\&quot;.25\&quot; /&gt;&lt;/pattern&gt;&lt;/defs&gt;&lt;rect x=\&quot;9\&quot; y=\&quot;14\&quot; width=\&quot;30\&quot; height=\&quot;52\&quot; fill=\&quot;url(#fibers)\&quot; /&gt;&lt;path d=\&quot;M12 15H36V20H12Z\&quot; fill=\&quot;currentColor\&quot; /&gt;&lt;path d=\&quot;M60 37H88\&quot; stroke=\&quot;#e7e0d0\&quot; stroke-width=\&quot;1\&quot; opacity=\&quot;.7\&quot; /&gt;&lt;path d=\&quot;M54 46H62V90H54Z\&quot; fill=\&quot;url(#brushed)\&quot; /&gt;&quot;
+  },
+  &quot;palette&quot;: {
+    &quot;amber&quot;: &quot;#A17D45&quot;,
+    &quot;claret&quot;: &quot;#6B2634&quot;,
+    &quot;dirty&quot;: &quot;#CEC5B3&quot;,
+    &quot;ink&quot;: &quot;#101214&quot;,
+    &quot;institution&quot;: &quot;#68766B&quot;,
+    &quot;moss&quot;: &quot;#74864F&quot;,
+    &quot;nicotine&quot;: &quot;#AA9571&quot;,
+    &quot;paper&quot;: &quot;#E7E0D0&quot;,
+    &quot;shadow&quot;: &quot;#202326&quot;,
+    &quot;steel&quot;: &quot;#5E737B&quot;
+  },
+  &quot;renderer&quot;: &quot;storyboard-svg-2&quot;,
+  &quot;scene&quot;: {
+    &quot;background&quot;: &quot;ink&quot;,
+    &quot;intent&quot;: &quot;Establish two full-height histories with a hard unbroken divider. Match their scale but keep headers, events and routes wholly inside their respective columns. Visual distinction: A docket slot beside a raised review desk and a closed stop arm. Review is a decision process; no approval is implied.&quot;,
+    &quot;lettering&quot;: [
+      {
+        &quot;box&quot;: [
+          0.045,
+          0.78,
+          0.91,
+          0.18
+        ]
+      }
+    ],
+    &quot;lettering_mode&quot;: &quot;manual&quot;,
+    &quot;nodes&quot;: [
+      {
+        &quot;asset&quot;: &quot;card&quot;,
+        &quot;box&quot;: [
+          0.06775,
+          0.2012,
+          0.3913,
+          0.276474
+        ],
+        &quot;color&quot;: &quot;steel&quot;,
+        &quot;focus&quot;: true,
+        &quot;label&quot;: &quot;PUBLIC SERVICE ACCESS&quot;,
+        &quot;label_box&quot;: [
+          0.06775,
+          0.49443,
+          0.3913,
+          0.121481
+        ],
+        &quot;label_size&quot;: 18
+      },
+      {
+        &quot;asset&quot;: &quot;review-checkpoint&quot;,
+        &quot;box&quot;: [
+          0.52275,
+          0.2012,
+          0.3913,
+          0.276474
+        ],
+        &quot;color&quot;: &quot;steel&quot;,
+        &quot;focus&quot;: true,
+        &quot;label&quot;: &quot;GATED DATA REQUEST&quot;,
+        &quot;label_box&quot;: [
+          0.52275,
+          0.49443,
+          0.3913,
+          0.121481
+        ],
+        &quot;label_size&quot;: 18
+      },
+      {
+        &quot;asset&quot;: &quot;boundary&quot;,
+        &quot;box&quot;: [
+          0.49363,
+          0.0734,
+          0.01274,
+          0.6248
+        ],
+        &quot;color&quot;: &quot;steel&quot;,
+        &quot;focus&quot;: true
+      }
+    ],
+    &quot;reconstructed&quot;: false,
+    &quot;shot&quot;: &quot;split&quot;,
+    &quot;source&quot;: &quot;\n**Location:**\n\n- `artifactory-cache`\n- `evaluation-container`\n- `public-internet`\n\n**Frame:** Recto chapter reveal. The page splits vertically and stays split. A single hard rule runs from top to bottom. Neither column crosses it.\n\n**Screen / system text:**\n`9 JULY 2026 — TWO THINGS ARE HAPPENING`\n\n**Provenance:** `reconstructed` — the split composition is editorial; the parallelism is the documented chronology.\n\n&quot;,
+    &quot;title&quot;: &quot;Two histories remain separate columns&quot;
+  }
+}
+</metadata><rect width="1200" height="800" fill="#101214"/><g transform="translate(81.3 160.96) scale(4.6956 2.21179)" color="#5E737B"><g transform=""><defs>
+<linearGradient id="node-0-stock" x1="0" y1="0" x2=".8" y2="1"><stop stop-color="#E7E0D0" /><stop offset="1" stop-color="#CEC5B3" /></linearGradient>
+<pattern id="node-0-grain" width="7" height="9" patternUnits="userSpaceOnUse"><circle cx="1" cy="2" r=".35" fill="#101214" opacity=".18" /><path d="M4 6h2M1 8h1" stroke="#101214" stroke-width=".3" opacity=".16" /></pattern>
+</defs><path d="M5 3H95V97H5Z" fill="url(#node-0-stock)" stroke="currentColor" stroke-width="2" /><path d="M5 3H95V97H5Z" fill="url(#node-0-grain)" /><rect x="5" y="3" width="90" height="15" fill="currentColor" /><rect x="10" y="25" width="5" height="61" fill="currentColor" /><path d="M23 29H85M23 38H75M23 48H83M23 66H62M23 78H80" fill="none" stroke="#101214" stroke-width="2" /><path d="M12 11H42M65 11H86" fill="none" stroke="#E7E0D0" stroke-width="1.4" /></g></g><text x="316.08" y="413.544" text-anchor="middle" fill="#E7E0D0" font-size="18" font-family="sans-serif">PUBLIC SERVICE ACCESS</text><g transform="translate(627.3 160.96) scale(4.6956 2.21179)" color="#5E737B"><g transform=""><defs><linearGradient id="node-1-metal" x2="0" y2="1"><stop stop-color="currentColor" /><stop offset="1" stop-color="#101214" /></linearGradient></defs><rect x="7" y="12" width="34" height="56" rx="2" fill="url(#node-1-stock2)" stroke="currentColor" stroke-width="2" /><path d="M14 27H33M14 38H33M14 49H27" stroke="#101214" stroke-width="2" /><path d="M6 78H43V93M55 93V45H93" fill="none" stroke="currentColor" stroke-width="5" /><rect x="54" y="35" width="40" height="10" fill="url(#node-1-metal)" stroke="currentColor" stroke-width="2" /><circle cx="58" cy="40" r="3" fill="#e7e0d0" /><defs><linearGradient id="node-1-stock2" x2=".3" y2="1"><stop stop-color="#e7e0d0" /><stop offset="1" stop-color="#cec5b3" /></linearGradient><pattern id="node-1-fibers" width="9" height="11" patternUnits="userSpaceOnUse"><path d="M1 2H3M6 7H8M2 10H4" stroke="#101214" stroke-width=".35" opacity=".32" /></pattern><pattern id="node-1-brushed" width="8" height="5" patternUnits="userSpaceOnUse"><path d="M0 1H6M3 4H8" stroke="#e7e0d0" stroke-width=".4" opacity=".25" /></pattern></defs><rect x="9" y="14" width="30" height="52" fill="url(#node-1-fibers)" /><path d="M12 15H36V20H12Z" fill="currentColor" /><path d="M60 37H88" stroke="#e7e0d0" stroke-width="1" opacity=".7" /><path d="M54 46H62V90H54Z" fill="url(#node-1-brushed)" /></g></g><text x="862.08" y="413.544" text-anchor="middle" fill="#E7E0D0" font-size="18" font-family="sans-serif">GATED DATA REQUEST</text><g transform="translate(592.356 58.72) scale(0.15288 4.9984)" color="#5E737B"><g transform=""><defs>
+<linearGradient id="node-2-tone" x1="0" y1="0" x2="1" y2="1"><stop stop-color="currentColor" /><stop offset="1" stop-color="#101214" stop-opacity=".65" /></linearGradient>
+<pattern id="node-2-hatch" width="7" height="7" patternUnits="userSpaceOnUse"><path d="M-1 1L1 -1M0 7L7 0M6 8L8 6" stroke="currentColor" stroke-width="1" opacity=".5" /></pattern>
+</defs><rect x="39" y="0" width="22" height="100" fill="url(#node-2-tone)" /><rect x="43" y="0" width="14" height="100" fill="url(#node-2-hatch)" /><path d="M39 0V100M61 0V100" fill="none" stroke="#E7E0D0" stroke-width="1" /></g></g><rect x="3" y="3" width="1194" height="794" fill="none" stroke="#5E737B" stroke-width="4"/></svg>

@@ -5,6 +5,16 @@
   "lettering_mode": "manual",
   "nodes": [
     {
+      "asset": "location-background-evidence-dossier",
+      "box": [
+        0.02,
+        0.02,
+        0.96,
+        0.96
+      ],
+      "color": "steel"
+    },
+    {
       "asset": "card",
       "box": [
         0.1838,

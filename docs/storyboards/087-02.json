@@ -14,6 +14,16 @@
   "lettering_mode": "manual",
   "nodes": [
     {
+      "asset": "location-background-metr-review-workspace",
+      "box": [
+        0.02,
+        0.02,
+        0.96,
+        0.96
+      ],
+      "color": "steel"
+    },
+    {
       "asset": "clock",
       "box": [
         0.122096,

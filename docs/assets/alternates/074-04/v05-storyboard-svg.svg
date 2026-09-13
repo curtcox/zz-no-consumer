@@ -1,0 +1,68 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="800" viewBox="0 0 1200 800"><title>The model interface holds the correction</title><desc>Hold the correction within the model&#x27;s plain interface. No avatar or speech balloon should reintroduce personification during the scene rejecting it.</desc><metadata>{
+  &quot;assets&quot;: {
+    &quot;blank-monitor&quot;: &quot;&lt;defs&gt;\n&lt;linearGradient id=\&quot;metal\&quot; x1=\&quot;0\&quot; y1=\&quot;0\&quot; x2=\&quot;1\&quot; y2=\&quot;1\&quot;&gt;&lt;stop stop-color=\&quot;currentColor\&quot; /&gt;&lt;stop offset=\&quot;.32\&quot; stop-color=\&quot;#202326\&quot; /&gt;&lt;stop offset=\&quot;.75\&quot; stop-color=\&quot;#101214\&quot; /&gt;&lt;stop offset=\&quot;1\&quot; stop-color=\&quot;currentColor\&quot; /&gt;&lt;/linearGradient&gt;\n&lt;/defs&gt;&lt;path d=\&quot;M43 75V91H24V97H77V91H58V75\&quot; fill=\&quot;url(#metal)\&quot; stroke=\&quot;currentColor\&quot; stroke-width=\&quot;1\&quot; /&gt;&lt;rect x=\&quot;2\&quot; y=\&quot;3\&quot; width=\&quot;96\&quot; height=\&quot;75\&quot; rx=\&quot;4\&quot; fill=\&quot;url(#metal)\&quot; stroke=\&quot;currentColor\&quot; stroke-width=\&quot;2\&quot; /&gt;&lt;rect x=\&quot;8\&quot; y=\&quot;9\&quot; width=\&quot;84\&quot; height=\&quot;61\&quot; fill=\&quot;#101214\&quot; /&gt;&lt;path d=\&quot;M8 9H92V22L8 47Z\&quot; fill=\&quot;#E7E0D0\&quot; opacity=\&quot;.05\&quot; /&gt;&lt;path d=\&quot;M15 74H32\&quot; fill=\&quot;none\&quot; stroke=\&quot;#E7E0D0\&quot; stroke-width=\&quot;0.7\&quot; opacity=\&quot;.5\&quot; /&gt;&quot;
+  },
+  &quot;palette&quot;: {
+    &quot;amber&quot;: &quot;#A17D45&quot;,
+    &quot;claret&quot;: &quot;#6B2634&quot;,
+    &quot;dirty&quot;: &quot;#CEC5B3&quot;,
+    &quot;ink&quot;: &quot;#101214&quot;,
+    &quot;institution&quot;: &quot;#68766B&quot;,
+    &quot;moss&quot;: &quot;#74864F&quot;,
+    &quot;nicotine&quot;: &quot;#AA9571&quot;,
+    &quot;paper&quot;: &quot;#E7E0D0&quot;,
+    &quot;shadow&quot;: &quot;#202326&quot;,
+    &quot;steel&quot;: &quot;#5E737B&quot;
+  },
+  &quot;renderer&quot;: &quot;storyboard-svg-2&quot;,
+  &quot;scene&quot;: {
+    &quot;background&quot;: &quot;ink&quot;,
+    &quot;intent&quot;: &quot;Hold the correction within the model&#x27;s plain interface. No avatar or speech balloon should reintroduce personification during the scene rejecting it.&quot;,
+    &quot;lettering&quot;: [
+      {
+        &quot;box&quot;: [
+          0.58,
+          0.04,
+          0.38,
+          0.1566
+        ]
+      },
+      {
+        &quot;box&quot;: [
+          0.58,
+          0.21459999999999999,
+          0.38,
+          0.1158
+        ]
+      }
+    ],
+    &quot;lettering_mode&quot;: &quot;manual&quot;,
+    &quot;nodes&quot;: [
+      {
+        &quot;asset&quot;: &quot;blank-monitor&quot;,
+        &quot;box&quot;: [
+          0.13,
+          0.1631,
+          0.29,
+          0.5394
+        ],
+        &quot;color&quot;: &quot;steel&quot;,
+        &quot;focus&quot;: true,
+        &quot;label&quot;: &quot;CHATGPT&quot;,
+        &quot;label_box&quot;: [
+          0.122,
+          0.7085,
+          0.306,
+          0.085
+        ]
+      }
+    ],
+    &quot;reconstructed&quot;: false,
+    &quot;shot&quot;: &quot;hero&quot;,
+    &quot;source&quot;: &quot;\n**Location:** `curt-home-office`\n\n**Frame:** ChatGPT&#x27;s interface holds the correction without adding a body or voice balloon.\n\n**Screen / system text — CHATGPT:**\n&gt; The careful version is less human—and more precise.\n\n**Dialogue — CURT:**\n&gt; It is also still disturbing.\n\n**Provenance:** `reconstructed` — creator exchange; “disturbing” is Curt&#x27;s reaction, not an agent state.\n\n&quot;,
+    &quot;title&quot;: &quot;The model interface holds the correction&quot;
+  }
+}
+</metadata><rect width="1200" height="800" fill="#101214"/><g transform="translate(156 130.48) scale(3.48 4.3152)" color="#5E737B"><g transform=""><defs>
+<linearGradient id="node-0-metal" x1="0" y1="0" x2="1" y2="1"><stop stop-color="currentColor" /><stop offset=".32" stop-color="#202326" /><stop offset=".75" stop-color="#101214" /><stop offset="1" stop-color="currentColor" /></linearGradient>
+</defs><path d="M43 75V91H24V97H77V91H58V75" fill="url(#node-0-metal)" stroke="currentColor" stroke-width="1" /><rect x="2" y="3" width="96" height="75" rx="4" fill="url(#node-0-metal)" stroke="currentColor" stroke-width="2" /><rect x="8" y="9" width="84" height="61" fill="#101214" /><path d="M8 9H92V22L8 47Z" fill="#E7E0D0" opacity=".05" /><path d="M15 74H32" fill="none" stroke="#E7E0D0" stroke-width="0.7" opacity=".5" /></g></g><text x="330" y="586.8" text-anchor="middle" fill="#E7E0D0" font-size="20" font-family="sans-serif">CHATGPT</text><rect x="3" y="3" width="1194" height="794" fill="none" stroke="#5E737B" stroke-width="4"/></svg>

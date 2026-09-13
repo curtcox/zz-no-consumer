@@ -1,6 +1,8 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="1200" height="800" viewBox="0 0 1200 800"><title>Both assurance channels remain empty</title><desc>Draw both assurance channels with empty receiving slots. The shared lack is a credible assurance, not proof the two parties seek identical commitments.</desc><metadata>{
   &quot;assets&quot;: {
     &quot;boundary&quot;: &quot;&lt;defs&gt;\n&lt;linearGradient id=\&quot;tone\&quot; x1=\&quot;0\&quot; y1=\&quot;0\&quot; x2=\&quot;1\&quot; y2=\&quot;1\&quot;&gt;&lt;stop stop-color=\&quot;currentColor\&quot; /&gt;&lt;stop offset=\&quot;1\&quot; stop-color=\&quot;#101214\&quot; stop-opacity=\&quot;.65\&quot; /&gt;&lt;/linearGradient&gt;\n&lt;pattern id=\&quot;hatch\&quot; width=\&quot;7\&quot; height=\&quot;7\&quot; patternUnits=\&quot;userSpaceOnUse\&quot;&gt;&lt;path d=\&quot;M-1 1L1 -1M0 7L7 0M6 8L8 6\&quot; stroke=\&quot;currentColor\&quot; stroke-width=\&quot;1\&quot; opacity=\&quot;.5\&quot; /&gt;&lt;/pattern&gt;\n&lt;/defs&gt;&lt;rect x=\&quot;39\&quot; y=\&quot;0\&quot; width=\&quot;22\&quot; height=\&quot;100\&quot; fill=\&quot;url(#tone)\&quot; /&gt;&lt;rect x=\&quot;43\&quot; y=\&quot;0\&quot; width=\&quot;14\&quot; height=\&quot;100\&quot; fill=\&quot;url(#hatch)\&quot; /&gt;&lt;path d=\&quot;M39 0V100M61 0V100\&quot; fill=\&quot;none\&quot; stroke=\&quot;#E7E0D0\&quot; stroke-width=\&quot;1\&quot; /&gt;&quot;,
+    &quot;location-background-agent-board-composite&quot;: &quot;&lt;title&gt;Open shared-board margin&lt;/title&gt;\n&lt;g fill=\&quot;none\&quot; stroke=\&quot;currentColor\&quot; stroke-width=\&quot;0.8\&quot; stroke-linejoin=\&quot;round\&quot; stroke-linecap=\&quot;round\&quot; opacity=\&quot;0.34\&quot;&gt;&lt;path d=\&quot;M4 17H96M4 83H96M9 22V35H16M9 43V56H16M9 64V77H16M84 22H91V35M84 43H91V56M84 64H91V77\&quot;/&gt;&lt;/g&gt;&quot;,
+    &quot;location-background-institutional-composite&quot;: &quot;&lt;title&gt;Unbranded institutional colonnade&lt;/title&gt;\n&lt;g fill=\&quot;none\&quot; stroke=\&quot;currentColor\&quot; stroke-width=\&quot;0.8\&quot; stroke-linejoin=\&quot;round\&quot; stroke-linecap=\&quot;round\&quot; opacity=\&quot;0.34\&quot;&gt;&lt;path d=\&quot;M4 17L50 5L96 17M8 22H92M12 27V76M19 27V76M81 27V76M88 27V76M7 81H93M4 89H96M24 94H76\&quot;/&gt;&lt;/g&gt;&quot;,
     &quot;outline-box&quot;: &quot;&lt;rect x=\&quot;2\&quot; y=\&quot;2\&quot; width=\&quot;96\&quot; height=\&quot;96\&quot; fill=\&quot;none\&quot; stroke=\&quot;currentColor\&quot; stroke-width=\&quot;3\&quot; /&gt;&lt;path d=\&quot;M7 16V7H16M84 7H93V16M93 84V93H84M16 93H7V84\&quot; fill=\&quot;none\&quot; stroke=\&quot;#E7E0D0\&quot; stroke-width=\&quot;1\&quot; opacity=\&quot;.6\&quot; /&gt;&quot;
   },
   &quot;palette&quot;: {
@@ -47,6 +49,26 @@
     ],
     &quot;lettering_mode&quot;: &quot;manual&quot;,
     &quot;nodes&quot;: [
+      {
+        &quot;asset&quot;: &quot;location-background-agent-board-composite&quot;,
+        &quot;box&quot;: [
+          0.02,
+          0.02,
+          0.4675,
+          0.96
+        ],
+        &quot;color&quot;: &quot;steel&quot;
+      },
+      {
+        &quot;asset&quot;: &quot;location-background-institutional-composite&quot;,
+        &quot;box&quot;: [
+          0.5125,
+          0.02,
+          0.4675,
+          0.96
+        ],
+        &quot;color&quot;: &quot;steel&quot;
+      },
       {
         &quot;asset&quot;: &quot;outline-box&quot;,
         &quot;box&quot;: [
@@ -103,4 +125,4 @@
     &quot;title&quot;: &quot;Both assurance channels remain empty&quot;
   }
 }
-</metadata><rect width="1200" height="800" fill="#101214"/><rect x="69.3" y="191.76" width="263.16" height="275.695" fill="none" stroke="#5E737B" stroke-width="3"/><text x="77.3" y="215.76" fill="#5E737B" font-family="sans-serif" font-size="20">outline-box</text><text x="200.88" y="502.164" text-anchor="middle" fill="#E7E0D0" font-size="18" font-family="sans-serif">BOARD ASSURANCE</text><rect x="375.3" y="191.76" width="263.16" height="275.695" fill="none" stroke="#5E737B" stroke-width="3"/><text x="383.3" y="215.76" fill="#5E737B" font-family="sans-serif" font-size="20">outline-box</text><text x="506.88" y="502.164" text-anchor="middle" fill="#E7E0D0" font-size="18" font-family="sans-serif">INSTITUTIONAL ASSURANCE</text><rect x="355.716" y="64.32" width="8.568" height="623.04" fill="none" stroke="#5E737B" stroke-width="3"/><text x="363.716" y="88.32" fill="#5E737B" font-family="sans-serif" font-size="20">boundary</text><rect x="3" y="3" width="1194" height="794" fill="none" stroke="#5E737B" stroke-width="4"/></svg>
+</metadata><rect width="1200" height="800" fill="#101214"/><rect x="24" y="16" width="561" height="768" fill="none" stroke="#5E737B" stroke-width="3"/><text x="32" y="40" fill="#5E737B" font-family="sans-serif" font-size="20">location-background-agent-board-composite</text><rect x="615" y="16" width="561" height="768" fill="none" stroke="#5E737B" stroke-width="3"/><text x="623" y="40" fill="#5E737B" font-family="sans-serif" font-size="20">location-background-institutional-composite</text><rect x="69.3" y="191.76" width="263.16" height="275.695" fill="none" stroke="#5E737B" stroke-width="3"/><text x="77.3" y="215.76" fill="#5E737B" font-family="sans-serif" font-size="20">outline-box</text><text x="200.88" y="502.164" text-anchor="middle" fill="#E7E0D0" font-size="18" font-family="sans-serif">BOARD ASSURANCE</text><rect x="375.3" y="191.76" width="263.16" height="275.695" fill="none" stroke="#5E737B" stroke-width="3"/><text x="383.3" y="215.76" fill="#5E737B" font-family="sans-serif" font-size="20">outline-box</text><text x="506.88" y="502.164" text-anchor="middle" fill="#E7E0D0" font-size="18" font-family="sans-serif">INSTITUTIONAL ASSURANCE</text><rect x="355.716" y="64.32" width="8.568" height="623.04" fill="none" stroke="#5E737B" stroke-width="3"/><text x="363.716" y="88.32" fill="#5E737B" font-family="sans-serif" font-size="20">boundary</text><rect x="3" y="3" width="1194" height="794" fill="none" stroke="#5E737B" stroke-width="4"/></svg>

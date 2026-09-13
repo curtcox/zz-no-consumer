@@ -30,6 +30,106 @@
   "lettering_mode": "manual",
   "nodes": [
     {
+      "asset": "location-background-evaluation-container",
+      "box": [
+        0.05112,
+        0.05562,
+        0.15606,
+        0.26727
+      ],
+      "color": "steel"
+    },
+    {
+      "asset": "location-background-evaluation-container",
+      "box": [
+        0.22112,
+        0.05562,
+        0.15606,
+        0.26727
+      ],
+      "color": "steel"
+    },
+    {
+      "asset": "location-background-evaluation-container",
+      "box": [
+        0.39112,
+        0.05562,
+        0.15606,
+        0.26727
+      ],
+      "color": "steel"
+    },
+    {
+      "asset": "location-background-evaluation-container",
+      "box": [
+        0.05112,
+        0.35062,
+        0.15606,
+        0.26727
+      ],
+      "color": "steel"
+    },
+    {
+      "asset": "location-background-evaluation-container",
+      "box": [
+        0.22112,
+        0.35062,
+        0.15606,
+        0.26727
+      ],
+      "color": "steel"
+    },
+    {
+      "asset": "location-background-evaluation-container",
+      "box": [
+        0.39112,
+        0.35062,
+        0.15606,
+        0.26727
+      ],
+      "color": "steel"
+    },
+    {
+      "asset": "location-background-evaluation-container",
+      "box": [
+        0.05112,
+        0.64562,
+        0.15606,
+        0.26727
+      ],
+      "color": "steel"
+    },
+    {
+      "asset": "location-background-evaluation-container",
+      "box": [
+        0.22112,
+        0.64562,
+        0.15606,
+        0.26727
+      ],
+      "color": "steel"
+    },
+    {
+      "asset": "location-background-evaluation-container",
+      "box": [
+        0.39112,
+        0.64562,
+        0.15606,
+        0.26727
+      ],
+      "color": "steel"
+    },
+    {
+      "asset": "location-background-artifactory-cache",
+      "box": [
+        0.59,
+        0.03,
+        0.37,
+        0.91
+      ],
+      "color": "steel"
+    },
+    {
       "asset": "outline-box",
       "box": [
         0.05112,

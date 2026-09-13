@@ -73,6 +73,11 @@ editorial instruction, not proof that the drawing already communicates it succes
 See the [story location audit](story-location-audit.md) for setting-specific additions,
 canonical panel anchors and the distinction between physical rooms and logical environments.
 
+The complete location background set uses `location-background-LOCATION-ID` component
+IDs in the **Locations** category. Search for “Background” to see the set. Each is a
+transparent, low-contrast margin design with an open center for foreground artwork.
+See [location backgrounds](location-backgrounds.md) for coverage and application rules.
+
 ## CLI and published gallery
 
 The [material and contrast review](svg-palette-refinement.md) describes the palette's

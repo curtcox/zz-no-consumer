@@ -2,7 +2,8 @@
   &quot;assets&quot;: {
     &quot;broken-trace&quot;: &quot;&lt;path d=\&quot;M2 50H33M67 50H98\&quot; fill=\&quot;none\&quot; stroke=\&quot;currentColor\&quot; stroke-width=\&quot;5\&quot; /&gt;&lt;path d=\&quot;M33 34V66M67 34V66\&quot; fill=\&quot;none\&quot; stroke=\&quot;#CEC5B3\&quot; stroke-width=\&quot;2\&quot; /&gt;&lt;path d=\&quot;M44 38L39 62M61 38L56 62\&quot; fill=\&quot;none\&quot; stroke=\&quot;currentColor\&quot; stroke-width=\&quot;1.5\&quot; /&gt;&quot;,
     &quot;card&quot;: &quot;&lt;defs&gt;\n&lt;linearGradient id=\&quot;stock\&quot; x1=\&quot;0\&quot; y1=\&quot;0\&quot; x2=\&quot;.8\&quot; y2=\&quot;1\&quot;&gt;&lt;stop stop-color=\&quot;#E7E0D0\&quot; /&gt;&lt;stop offset=\&quot;1\&quot; stop-color=\&quot;#CEC5B3\&quot; /&gt;&lt;/linearGradient&gt;\n&lt;pattern id=\&quot;grain\&quot; width=\&quot;7\&quot; height=\&quot;9\&quot; patternUnits=\&quot;userSpaceOnUse\&quot;&gt;&lt;circle cx=\&quot;1\&quot; cy=\&quot;2\&quot; r=\&quot;.35\&quot; fill=\&quot;#101214\&quot; opacity=\&quot;.18\&quot; /&gt;&lt;path d=\&quot;M4 6h2M1 8h1\&quot; stroke=\&quot;#101214\&quot; stroke-width=\&quot;.3\&quot; opacity=\&quot;.16\&quot; /&gt;&lt;/pattern&gt;\n&lt;/defs&gt;&lt;path d=\&quot;M5 3H95V97H5Z\&quot; fill=\&quot;url(#stock)\&quot; stroke=\&quot;currentColor\&quot; stroke-width=\&quot;2\&quot; /&gt;&lt;path d=\&quot;M5 3H95V97H5Z\&quot; fill=\&quot;url(#grain)\&quot; /&gt;&lt;rect x=\&quot;5\&quot; y=\&quot;3\&quot; width=\&quot;90\&quot; height=\&quot;15\&quot; fill=\&quot;currentColor\&quot; /&gt;&lt;rect x=\&quot;10\&quot; y=\&quot;25\&quot; width=\&quot;5\&quot; height=\&quot;61\&quot; fill=\&quot;currentColor\&quot; /&gt;&lt;path d=\&quot;M23 29H85M23 38H75M23 48H83M23 66H62M23 78H80\&quot; fill=\&quot;none\&quot; stroke=\&quot;#101214\&quot; stroke-width=\&quot;2\&quot; /&gt;&lt;path d=\&quot;M12 11H42M65 11H86\&quot; fill=\&quot;none\&quot; stroke=\&quot;#E7E0D0\&quot; stroke-width=\&quot;1.4\&quot; /&gt;&quot;,
-    &quot;line&quot;: &quot;&lt;path d=\&quot;M0 50H100\&quot; stroke=\&quot;currentColor\&quot; stroke-width=\&quot;2.4\&quot; vector-effect=\&quot;non-scaling-stroke\&quot; /&gt;&quot;
+    &quot;line&quot;: &quot;&lt;path d=\&quot;M0 50H100\&quot; stroke=\&quot;currentColor\&quot; stroke-width=\&quot;2.4\&quot; vector-effect=\&quot;non-scaling-stroke\&quot; /&gt;&quot;,
+    &quot;location-background-documentary-evidence-field&quot;: &quot;&lt;title&gt;Folded evidence sheet&lt;/title&gt;\n&lt;g fill=\&quot;none\&quot; stroke=\&quot;currentColor\&quot; stroke-width=\&quot;0.8\&quot; stroke-linejoin=\&quot;round\&quot; stroke-linecap=\&quot;round\&quot; opacity=\&quot;0.34\&quot;&gt;&lt;path d=\&quot;M8 4H80L94 18V96H8ZM80 4V18H94M13 23V80M17 23V80M24 89H80M24 93H61\&quot;/&gt;&lt;/g&gt;&quot;
   },
   &quot;palette&quot;: {
     &quot;amber&quot;: &quot;#A17D45&quot;,
@@ -32,6 +33,16 @@
     ],
     &quot;lettering_mode&quot;: &quot;manual&quot;,
     &quot;nodes&quot;: [
+      {
+        &quot;asset&quot;: &quot;location-background-documentary-evidence-field&quot;,
+        &quot;box&quot;: [
+          0.02,
+          0.02,
+          0.96,
+          0.96
+        ],
+        &quot;color&quot;: &quot;steel&quot;
+      },
       {
         &quot;asset&quot;: &quot;card&quot;,
         &quot;box&quot;: [
@@ -115,4 +126,4 @@
     &quot;title&quot;: &quot;Working access agrees while the count does not&quot;
   }
 }
-</metadata><rect width="1200" height="800" fill="#101214"/><rect x="64.92" y="53.04" width="414.96" height="142.454" fill="none" stroke="#5E737B" stroke-width="3"/><text x="72.92" y="77.04" fill="#5E737B" font-family="sans-serif" font-size="20">card</text><text x="272.4" y="222.128" text-anchor="middle" fill="#E7E0D0" font-size="18" font-family="sans-serif">METR: TWO</text><rect x="720.12" y="53.04" width="414.96" height="142.454" fill="none" stroke="#5E737B" stroke-width="3"/><text x="728.12" y="77.04" fill="#5E737B" font-family="sans-serif" font-size="20">card</text><text x="927.6" y="222.128" text-anchor="middle" fill="#E7E0D0" font-size="18" font-family="sans-serif">OPENAI: FOURTEEN</text><rect x="272.4" y="371.12" width="655.2" height="82.4736" fill="none" stroke="#5E737B" stroke-width="3"/><text x="280.4" y="395.12" fill="#5E737B" font-family="sans-serif" font-size="20">line</text><text x="600" y="476.592" text-anchor="middle" fill="#E7E0D0" font-size="18" font-family="sans-serif">WORKING ACCESS</text><rect x="337.92" y="524.48" width="524.16" height="48.7344" fill="none" stroke="#A17D45" stroke-width="3"/><text x="345.92" y="548.48" fill="#A17D45" font-family="sans-serif" font-size="20">broken-trace</text><text x="600" y="591.668" text-anchor="middle" fill="#E7E0D0" font-size="15.5" font-family="sans-serif">COUNT UNRECONCILED</text><rect x="3" y="3" width="1194" height="794" fill="none" stroke="#5E737B" stroke-width="4"/></svg>
+</metadata><rect width="1200" height="800" fill="#101214"/><rect x="24" y="16" width="1152" height="768" fill="none" stroke="#5E737B" stroke-width="3"/><text x="32" y="40" fill="#5E737B" font-family="sans-serif" font-size="20">location-background-documentary-evidence-field</text><rect x="64.92" y="53.04" width="414.96" height="142.454" fill="none" stroke="#5E737B" stroke-width="3"/><text x="72.92" y="77.04" fill="#5E737B" font-family="sans-serif" font-size="20">card</text><text x="272.4" y="222.128" text-anchor="middle" fill="#E7E0D0" font-size="18" font-family="sans-serif">METR: TWO</text><rect x="720.12" y="53.04" width="414.96" height="142.454" fill="none" stroke="#5E737B" stroke-width="3"/><text x="728.12" y="77.04" fill="#5E737B" font-family="sans-serif" font-size="20">card</text><text x="927.6" y="222.128" text-anchor="middle" fill="#E7E0D0" font-size="18" font-family="sans-serif">OPENAI: FOURTEEN</text><rect x="272.4" y="371.12" width="655.2" height="82.4736" fill="none" stroke="#5E737B" stroke-width="3"/><text x="280.4" y="395.12" fill="#5E737B" font-family="sans-serif" font-size="20">line</text><text x="600" y="476.592" text-anchor="middle" fill="#E7E0D0" font-size="18" font-family="sans-serif">WORKING ACCESS</text><rect x="337.92" y="524.48" width="524.16" height="48.7344" fill="none" stroke="#A17D45" stroke-width="3"/><text x="345.92" y="548.48" fill="#A17D45" font-family="sans-serif" font-size="20">broken-trace</text><text x="600" y="591.668" text-anchor="middle" fill="#E7E0D0" font-size="15.5" font-family="sans-serif">COUNT UNRECONCILED</text><rect x="3" y="3" width="1194" height="794" fill="none" stroke="#5E737B" stroke-width="4"/></svg>

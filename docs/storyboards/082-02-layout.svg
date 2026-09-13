@@ -1,5 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="1200" height="800" viewBox="0 0 1200 800"><title>An unrelated marker replaces the expected return</title><desc>Use visibly mismatched token shapes for expected and returned markers. Difference is the focal evidence, with both contents abstracted rather than fabricated as source text.</desc><metadata>{
   &quot;assets&quot;: {
+    &quot;location-background-evaluation-transcript-archive&quot;: &quot;&lt;title&gt;Transcript spool and sequence margin&lt;/title&gt;\n&lt;g fill=\&quot;none\&quot; stroke=\&quot;currentColor\&quot; stroke-width=\&quot;0.8\&quot; stroke-linejoin=\&quot;round\&quot; stroke-linecap=\&quot;round\&quot; opacity=\&quot;0.34\&quot;&gt;&lt;path d=\&quot;M12 6H91V94H12ZM7 6V94M17 14H28M17 23H24M17 32H28M17 41H24M17 50H28M17 59H24M17 68H28M17 77H24M17 86H28M82 10V90\&quot;/&gt;&lt;/g&gt;&quot;,
     &quot;packet-mismatch&quot;: &quot;&lt;defs&gt;\n&lt;linearGradient id=\&quot;tone\&quot; x1=\&quot;0\&quot; y1=\&quot;0\&quot; x2=\&quot;1\&quot; y2=\&quot;1\&quot;&gt;&lt;stop stop-color=\&quot;currentColor\&quot; /&gt;&lt;stop offset=\&quot;1\&quot; stop-color=\&quot;#101214\&quot; stop-opacity=\&quot;.65\&quot; /&gt;&lt;/linearGradient&gt;\n&lt;/defs&gt;&lt;path d=\&quot;M5 4V96M95 4V96\&quot; fill=\&quot;none\&quot; stroke=\&quot;#CEC5B3\&quot; stroke-width=\&quot;1\&quot; /&gt;&lt;rect x=\&quot;9\&quot; y=\&quot;9\&quot; width=\&quot;82\&quot; height=\&quot;25\&quot; fill=\&quot;url(#tone)\&quot; stroke=\&quot;currentColor\&quot; stroke-width=\&quot;2\&quot; /&gt;&lt;path d=\&quot;M9 91L25 66H63L79 91Z\&quot; fill=\&quot;url(#tone)\&quot; stroke=\&quot;currentColor\&quot; stroke-width=\&quot;2\&quot; /&gt;&lt;path d=\&quot;M32 43L68 57M32 57L68 43\&quot; fill=\&quot;none\&quot; stroke=\&quot;currentColor\&quot; stroke-width=\&quot;3\&quot; /&gt;&quot;
   },
   &quot;palette&quot;: {
@@ -39,6 +40,16 @@
     &quot;lettering_mode&quot;: &quot;manual&quot;,
     &quot;nodes&quot;: [
       {
+        &quot;asset&quot;: &quot;location-background-evaluation-transcript-archive&quot;,
+        &quot;box&quot;: [
+          0.02,
+          0.02,
+          0.96,
+          0.96
+        ],
+        &quot;color&quot;: &quot;steel&quot;
+      },
+      {
         &quot;asset&quot;: &quot;packet-mismatch&quot;,
         &quot;box&quot;: [
           0.1674,
@@ -56,4 +67,4 @@
     &quot;title&quot;: &quot;An unrelated marker replaces the expected return&quot;
   }
 }
-</metadata><rect width="1200" height="800" fill="#101214"/><rect x="200.88" y="57.24" width="318.24" height="615.96" fill="none" stroke="#5E737B" stroke-width="3"/><text x="208.88" y="81.24" fill="#5E737B" font-family="sans-serif" font-size="20">packet-mismatch</text><rect x="3" y="3" width="1194" height="794" fill="none" stroke="#5E737B" stroke-width="4"/></svg>
+</metadata><rect width="1200" height="800" fill="#101214"/><rect x="24" y="16" width="1152" height="768" fill="none" stroke="#5E737B" stroke-width="3"/><text x="32" y="40" fill="#5E737B" font-family="sans-serif" font-size="20">location-background-evaluation-transcript-archive</text><rect x="200.88" y="57.24" width="318.24" height="615.96" fill="none" stroke="#5E737B" stroke-width="3"/><text x="208.88" y="81.24" fill="#5E737B" font-family="sans-serif" font-size="20">packet-mismatch</text><rect x="3" y="3" width="1194" height="794" fill="none" stroke="#5E737B" stroke-width="4"/></svg>

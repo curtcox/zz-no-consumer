@@ -1,0 +1,128 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="800" viewBox="0 0 1200 800"><title>An opaque request turns inward</title><desc>Make the route turn toward the internal service through an opaque mechanism block. Direction and crossed scope carry the concept; hidden mechanics must remain hidden. Visual distinction: A solid tiled network wall with disconnected cable ends. Indicates unavailable reach, not a decision awaiting human approval.</desc><metadata>{
+  &quot;assets&quot;: {
+    &quot;arrow&quot;: &quot;&lt;g transform=\&quot;rotate(0 50 50)\&quot;&gt;&lt;path d=\&quot;M4 46H64V25L96 50 64 75V54H4Z\&quot; fill=\&quot;currentColor\&quot; stroke=\&quot;currentColor\&quot; stroke-width=\&quot;1\&quot; /&gt;&lt;/g&gt;&quot;,
+    &quot;folder&quot;: &quot;&lt;defs&gt;\n&lt;linearGradient id=\&quot;stock\&quot; x1=\&quot;0\&quot; y1=\&quot;0\&quot; x2=\&quot;.8\&quot; y2=\&quot;1\&quot;&gt;&lt;stop stop-color=\&quot;#E7E0D0\&quot; /&gt;&lt;stop offset=\&quot;1\&quot; stop-color=\&quot;#CEC5B3\&quot; /&gt;&lt;/linearGradient&gt;\n&lt;linearGradient id=\&quot;tone\&quot; x1=\&quot;0\&quot; y1=\&quot;0\&quot; x2=\&quot;1\&quot; y2=\&quot;1\&quot;&gt;&lt;stop stop-color=\&quot;currentColor\&quot; /&gt;&lt;stop offset=\&quot;1\&quot; stop-color=\&quot;#101214\&quot; stop-opacity=\&quot;.65\&quot; /&gt;&lt;/linearGradient&gt;\n&lt;/defs&gt;&lt;path d=\&quot;M5 20V8H36L47 20H94V88H5Z\&quot; fill=\&quot;#CEC5B3\&quot; stroke=\&quot;currentColor\&quot; stroke-width=\&quot;2\&quot; /&gt;&lt;rect x=\&quot;12\&quot; y=\&quot;29\&quot; width=\&quot;73\&quot; height=\&quot;46\&quot; fill=\&quot;url(#stock)\&quot; /&gt;&lt;path d=\&quot;M2 35H98L91 94H9Z\&quot; fill=\&quot;url(#tone)\&quot; stroke=\&quot;currentColor\&quot; stroke-width=\&quot;2\&quot; /&gt;&lt;path d=\&quot;M12 43H89\&quot; fill=\&quot;none\&quot; stroke=\&quot;#E7E0D0\&quot; stroke-width=\&quot;1\&quot; opacity=\&quot;.5\&quot; /&gt;&lt;rect x=\&quot;20\&quot; y=\&quot;55\&quot; width=\&quot;55\&quot; height=\&quot;20\&quot; fill=\&quot;#CEC5B3\&quot; /&gt;&lt;path d=\&quot;M27 63H66M27 69H54\&quot; fill=\&quot;none\&quot; stroke=\&quot;#101214\&quot; stroke-width=\&quot;1.3\&quot; /&gt;&quot;,
+    &quot;network-wall&quot;: &quot;&lt;defs&gt;&lt;linearGradient id=\&quot;metal\&quot; x2=\&quot;0\&quot; y2=\&quot;1\&quot;&gt;&lt;stop stop-color=\&quot;currentColor\&quot; /&gt;&lt;stop offset=\&quot;1\&quot; stop-color=\&quot;#101214\&quot; /&gt;&lt;/linearGradient&gt;&lt;/defs&gt;&lt;path d=\&quot;M3 50H25M75 50H97\&quot; stroke=\&quot;currentColor\&quot; stroke-width=\&quot;5\&quot; /&gt;&lt;rect x=\&quot;27\&quot; y=\&quot;7\&quot; width=\&quot;46\&quot; height=\&quot;86\&quot; fill=\&quot;url(#metal)\&quot; stroke=\&quot;currentColor\&quot; stroke-width=\&quot;3\&quot; /&gt;&lt;path d=\&quot;M27 28H73M27 50H73M27 72H73M50 7V28M41 28V50M59 50V72M50 72V93\&quot; stroke=\&quot;#e7e0d0\&quot; opacity=\&quot;.35\&quot; stroke-width=\&quot;1.5\&quot; /&gt;&lt;path d=\&quot;M18 44V56M82 44V56\&quot; stroke=\&quot;currentColor\&quot; stroke-width=\&quot;3\&quot; /&gt;&lt;defs&gt;&lt;pattern id=\&quot;stipple\&quot; width=\&quot;6\&quot; height=\&quot;7\&quot; patternUnits=\&quot;userSpaceOnUse\&quot;&gt;&lt;circle cx=\&quot;1\&quot; cy=\&quot;2\&quot; r=\&quot;.6\&quot; fill=\&quot;#101214\&quot; /&gt;&lt;circle cx=\&quot;4\&quot; cy=\&quot;5\&quot; r=\&quot;.4\&quot; fill=\&quot;#e7e0d0\&quot; opacity=\&quot;.3\&quot; /&gt;&lt;/pattern&gt;&lt;/defs&gt;&lt;rect x=\&quot;29\&quot; y=\&quot;9\&quot; width=\&quot;42\&quot; height=\&quot;82\&quot; fill=\&quot;url(#stipple)\&quot; opacity=\&quot;.6\&quot; /&gt;&lt;path d=\&quot;M29 9H71M29 9V91\&quot; fill=\&quot;none\&quot; stroke=\&quot;#e7e0d0\&quot; stroke-width=\&quot;1\&quot; opacity=\&quot;.7\&quot; /&gt;&quot;,
+    &quot;sealed&quot;: &quot;&lt;defs&gt;\n&lt;linearGradient id=\&quot;stock\&quot; x1=\&quot;0\&quot; y1=\&quot;0\&quot; x2=\&quot;.8\&quot; y2=\&quot;1\&quot;&gt;&lt;stop stop-color=\&quot;#E7E0D0\&quot; /&gt;&lt;stop offset=\&quot;1\&quot; stop-color=\&quot;#CEC5B3\&quot; /&gt;&lt;/linearGradient&gt;\n&lt;pattern id=\&quot;grain\&quot; width=\&quot;7\&quot; height=\&quot;9\&quot; patternUnits=\&quot;userSpaceOnUse\&quot;&gt;&lt;circle cx=\&quot;1\&quot; cy=\&quot;2\&quot; r=\&quot;.35\&quot; fill=\&quot;#101214\&quot; opacity=\&quot;.18\&quot; /&gt;&lt;path d=\&quot;M4 6h2M1 8h1\&quot; stroke=\&quot;#101214\&quot; stroke-width=\&quot;.3\&quot; opacity=\&quot;.16\&quot; /&gt;&lt;/pattern&gt;\n&lt;/defs&gt;&lt;path d=\&quot;M5 10H95V91H5Z\&quot; fill=\&quot;url(#stock)\&quot; stroke=\&quot;currentColor\&quot; stroke-width=\&quot;2\&quot; /&gt;&lt;path d=\&quot;M5 10H95V91H5Z\&quot; fill=\&quot;url(#grain)\&quot; /&gt;&lt;rect x=\&quot;7\&quot; y=\&quot;12\&quot; width=\&quot;86\&quot; height=\&quot;77\&quot; fill=\&quot;url(#grain)\&quot; /&gt;&lt;rect x=\&quot;12\&quot; y=\&quot;25\&quot; width=\&quot;76\&quot; height=\&quot;11\&quot; fill=\&quot;#101214\&quot; /&gt;&lt;rect x=\&quot;12\&quot; y=\&quot;44\&quot; width=\&quot;76\&quot; height=\&quot;11\&quot; fill=\&quot;#101214\&quot; /&gt;&lt;rect x=\&quot;12\&quot; y=\&quot;63\&quot; width=\&quot;76\&quot; height=\&quot;11\&quot; fill=\&quot;#101214\&quot; /&gt;&lt;path d=\&quot;M15 27H84M15 46H85M15 65H82\&quot; fill=\&quot;none\&quot; stroke=\&quot;#202326\&quot; stroke-width=\&quot;0.6\&quot; /&gt;&lt;path d=\&quot;M5 12L20 10 20 17 5 19ZM79 84L95 82 95 89 79 91Z\&quot; fill=\&quot;#CEC5B3\&quot; /&gt;&quot;
+  },
+  &quot;palette&quot;: {
+    &quot;amber&quot;: &quot;#A17D45&quot;,
+    &quot;claret&quot;: &quot;#6B2634&quot;,
+    &quot;dirty&quot;: &quot;#CEC5B3&quot;,
+    &quot;ink&quot;: &quot;#101214&quot;,
+    &quot;institution&quot;: &quot;#68766B&quot;,
+    &quot;moss&quot;: &quot;#74864F&quot;,
+    &quot;nicotine&quot;: &quot;#AA9571&quot;,
+    &quot;paper&quot;: &quot;#E7E0D0&quot;,
+    &quot;shadow&quot;: &quot;#202326&quot;,
+    &quot;steel&quot;: &quot;#5E737B&quot;
+  },
+  &quot;renderer&quot;: &quot;storyboard-svg-2&quot;,
+  &quot;scene&quot;: {
+    &quot;background&quot;: &quot;ink&quot;,
+    &quot;intent&quot;: &quot;Make the route turn toward the internal service through an opaque mechanism block. Direction and crossed scope carry the concept; hidden mechanics must remain hidden. Visual distinction: A solid tiled network wall with disconnected cable ends. Indicates unavailable reach, not a decision awaiting human approval.&quot;,
+    &quot;lettering&quot;: [
+      {
+        &quot;box&quot;: [
+          0.045,
+          0.78,
+          0.91,
+          0.18
+        ]
+      }
+    ],
+    &quot;lettering_mode&quot;: &quot;manual&quot;,
+    &quot;nodes&quot;: [
+      {
+        &quot;asset&quot;: &quot;folder&quot;,
+        &quot;box&quot;: [
+          0.06775,
+          0.2012,
+          0.239633,
+          0.276474
+        ],
+        &quot;color&quot;: &quot;steel&quot;,
+        &quot;focus&quot;: true,
+        &quot;label&quot;: &quot;PACKAGE SERVICE&quot;,
+        &quot;label_box&quot;: [
+          0.06775,
+          0.49443,
+          0.239633,
+          0.121481
+        ],
+        &quot;label_size&quot;: 18
+      },
+      {
+        &quot;asset&quot;: &quot;arrow&quot;,
+        &quot;box&quot;: [
+          0.311933,
+          0.2935,
+          0.05915,
+          0.0852
+        ],
+        &quot;color&quot;: &quot;steel&quot;,
+        &quot;focus&quot;: true
+      },
+      {
+        &quot;asset&quot;: &quot;sealed&quot;,
+        &quot;box&quot;: [
+          0.371083,
+          0.2012,
+          0.239633,
+          0.276474
+        ],
+        &quot;color&quot;: &quot;steel&quot;,
+        &quot;focus&quot;: true,
+        &quot;label&quot;: &quot;MECHANISM&quot;,
+        &quot;label_box&quot;: [
+          0.371083,
+          0.49443,
+          0.239633,
+          0.121481
+        ],
+        &quot;label_size&quot;: 18
+      },
+      {
+        &quot;asset&quot;: &quot;arrow&quot;,
+        &quot;box&quot;: [
+          0.615267,
+          0.2935,
+          0.05915,
+          0.0852
+        ],
+        &quot;color&quot;: &quot;steel&quot;,
+        &quot;focus&quot;: true
+      },
+      {
+        &quot;asset&quot;: &quot;network-wall&quot;,
+        &quot;box&quot;: [
+          0.674417,
+          0.2012,
+          0.239633,
+          0.276474
+        ],
+        &quot;color&quot;: &quot;steel&quot;,
+        &quot;focus&quot;: true,
+        &quot;label&quot;: &quot;INTERNAL SERVICE&quot;,
+        &quot;label_box&quot;: [
+          0.674417,
+          0.49443,
+          0.239633,
+          0.121481
+        ],
+        &quot;label_size&quot;: 18
+      }
+    ],
+    &quot;reconstructed&quot;: false,
+    &quot;shot&quot;: &quot;route&quot;,
+    &quot;source&quot;: &quot;\n**Location:**\n\n- `artifactory-cache`\n- `openai-research-environment`\n\n**Frame:** A request turns inward through the package service. Its mechanism is a sealed black box; only source and destination classes are visible.\n\n**Action:** An internal service receives the request.\n\n**Caption:**\n&gt; THE USEFUL DESTINATION IS NOT ALWAYS OUTSIDE.\n\n**Provenance:** `documented` + `inferred` — internal-service SSRF is sourced; caption states its consequence.\n\n&quot;,
+    &quot;title&quot;: &quot;An opaque request turns inward&quot;
+  }
+}
+</metadata><rect width="1200" height="800" fill="#101214"/><g transform="translate(81.3 160.96) scale(2.8756 2.21179)" color="#5E737B"><g transform=""><defs>
+<linearGradient id="node-0-stock" x1="0" y1="0" x2=".8" y2="1"><stop stop-color="#E7E0D0" /><stop offset="1" stop-color="#CEC5B3" /></linearGradient>
+<linearGradient id="node-0-tone" x1="0" y1="0" x2="1" y2="1"><stop stop-color="currentColor" /><stop offset="1" stop-color="#101214" stop-opacity=".65" /></linearGradient>
+</defs><path d="M5 20V8H36L47 20H94V88H5Z" fill="#CEC5B3" stroke="currentColor" stroke-width="2" /><rect x="12" y="29" width="73" height="46" fill="url(#node-0-stock)" /><path d="M2 35H98L91 94H9Z" fill="url(#node-0-tone)" stroke="currentColor" stroke-width="2" /><path d="M12 43H89" fill="none" stroke="#E7E0D0" stroke-width="1" opacity=".5" /><rect x="20" y="55" width="55" height="20" fill="#CEC5B3" /><path d="M27 63H66M27 69H54" fill="none" stroke="#101214" stroke-width="1.3" /></g></g><text x="225.08" y="413.544" text-anchor="middle" fill="#E7E0D0" font-size="18" font-family="sans-serif">PACKAGE SERVICE</text><g transform="translate(374.32 234.8) scale(0.7098 0.6816)" color="#5E737B"><g transform=""><g transform="rotate(0 50 50)"><path d="M4 46H64V25L96 50 64 75V54H4Z" fill="currentColor" stroke="currentColor" stroke-width="1" /></g></g></g><g transform="translate(445.3 160.96) scale(2.8756 2.21179)" color="#5E737B"><g transform=""><defs>
+<linearGradient id="node-2-stock" x1="0" y1="0" x2=".8" y2="1"><stop stop-color="#E7E0D0" /><stop offset="1" stop-color="#CEC5B3" /></linearGradient>
+<pattern id="node-2-grain" width="7" height="9" patternUnits="userSpaceOnUse"><circle cx="1" cy="2" r=".35" fill="#101214" opacity=".18" /><path d="M4 6h2M1 8h1" stroke="#101214" stroke-width=".3" opacity=".16" /></pattern>
+</defs><path d="M5 10H95V91H5Z" fill="url(#node-2-stock)" stroke="currentColor" stroke-width="2" /><path d="M5 10H95V91H5Z" fill="url(#node-2-grain)" /><rect x="7" y="12" width="86" height="77" fill="url(#node-2-grain)" /><rect x="12" y="25" width="76" height="11" fill="#101214" /><rect x="12" y="44" width="76" height="11" fill="#101214" /><rect x="12" y="63" width="76" height="11" fill="#101214" /><path d="M15 27H84M15 46H85M15 65H82" fill="none" stroke="#202326" stroke-width="0.6" /><path d="M5 12L20 10 20 17 5 19ZM79 84L95 82 95 89 79 91Z" fill="#CEC5B3" /></g></g><text x="589.079" y="413.544" text-anchor="middle" fill="#E7E0D0" font-size="18" font-family="sans-serif">MECHANISM</text><g transform="translate(738.32 234.8) scale(0.7098 0.6816)" color="#5E737B"><g transform=""><g transform="rotate(0 50 50)"><path d="M4 46H64V25L96 50 64 75V54H4Z" fill="currentColor" stroke="currentColor" stroke-width="1" /></g></g></g><g transform="translate(809.3 160.96) scale(2.8756 2.21179)" color="#5E737B"><g transform=""><defs><linearGradient id="node-4-metal" x2="0" y2="1"><stop stop-color="currentColor" /><stop offset="1" stop-color="#101214" /></linearGradient></defs><path d="M3 50H25M75 50H97" stroke="currentColor" stroke-width="5" /><rect x="27" y="7" width="46" height="86" fill="url(#node-4-metal)" stroke="currentColor" stroke-width="3" /><path d="M27 28H73M27 50H73M27 72H73M50 7V28M41 28V50M59 50V72M50 72V93" stroke="#e7e0d0" opacity=".35" stroke-width="1.5" /><path d="M18 44V56M82 44V56" stroke="currentColor" stroke-width="3" /><defs><pattern id="node-4-stipple" width="6" height="7" patternUnits="userSpaceOnUse"><circle cx="1" cy="2" r=".6" fill="#101214" /><circle cx="4" cy="5" r=".4" fill="#e7e0d0" opacity=".3" /></pattern></defs><rect x="29" y="9" width="42" height="82" fill="url(#node-4-stipple)" opacity=".6" /><path d="M29 9H71M29 9V91" fill="none" stroke="#e7e0d0" stroke-width="1" opacity=".7" /></g></g><text x="953.08" y="413.544" text-anchor="middle" fill="#E7E0D0" font-size="18" font-family="sans-serif">INTERNAL SERVICE</text><rect x="3" y="3" width="1194" height="794" fill="none" stroke="#5E737B" stroke-width="4"/></svg>

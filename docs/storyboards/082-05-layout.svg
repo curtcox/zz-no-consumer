@@ -1,5 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="1200" height="800" viewBox="0 0 1200 800"><title>Sophisticated missed tampering stays possible</title><desc>Leave the sophisticated-tampering possibility as an open qualified field. Open uncertainty is neither a confirmed attack nor evidence that the possibility is negligible.</desc><metadata>{
   &quot;assets&quot;: {
+    &quot;location-background-documentary-evidence-field&quot;: &quot;&lt;title&gt;Folded evidence sheet&lt;/title&gt;\n&lt;g fill=\&quot;none\&quot; stroke=\&quot;currentColor\&quot; stroke-width=\&quot;0.8\&quot; stroke-linejoin=\&quot;round\&quot; stroke-linecap=\&quot;round\&quot; opacity=\&quot;0.34\&quot;&gt;&lt;path d=\&quot;M8 4H80L94 18V96H8ZM80 4V18H94M13 23V80M17 23V80M24 89H80M24 93H61\&quot;/&gt;&lt;/g&gt;&quot;,
     &quot;outline-box&quot;: &quot;&lt;rect x=\&quot;2\&quot; y=\&quot;2\&quot; width=\&quot;96\&quot; height=\&quot;96\&quot; fill=\&quot;none\&quot; stroke=\&quot;currentColor\&quot; stroke-width=\&quot;3\&quot; /&gt;&lt;path d=\&quot;M7 16V7H16M84 7H93V16M93 84V93H84M16 93H7V84\&quot; fill=\&quot;none\&quot; stroke=\&quot;#E7E0D0\&quot; stroke-width=\&quot;1\&quot; opacity=\&quot;.6\&quot; /&gt;&quot;
   },
   &quot;palette&quot;: {
@@ -31,6 +32,16 @@
     &quot;lettering_mode&quot;: &quot;manual&quot;,
     &quot;nodes&quot;: [
       {
+        &quot;asset&quot;: &quot;location-background-documentary-evidence-field&quot;,
+        &quot;box&quot;: [
+          0.02,
+          0.02,
+          0.96,
+          0.96
+        ],
+        &quot;color&quot;: &quot;steel&quot;
+      },
+      {
         &quot;asset&quot;: &quot;outline-box&quot;,
         &quot;box&quot;: [
           0.2148,
@@ -55,4 +66,4 @@
     &quot;title&quot;: &quot;Sophisticated missed tampering stays possible&quot;
   }
 }
-</metadata><rect width="1200" height="800" fill="#101214"/><rect x="257.76" y="102.56" width="640.32" height="312.192" fill="none" stroke="#A17D45" stroke-width="3"/><text x="265.76" y="126.56" fill="#A17D45" font-family="sans-serif" font-size="20">outline-box</text><text x="577.92" y="441.152" text-anchor="middle" fill="#E7E0D0" font-size="20" font-family="sans-serif">CANNOT RULE OUT</text><rect x="3" y="3" width="1194" height="794" fill="none" stroke="#5E737B" stroke-width="4"/></svg>
+</metadata><rect width="1200" height="800" fill="#101214"/><rect x="24" y="16" width="1152" height="768" fill="none" stroke="#5E737B" stroke-width="3"/><text x="32" y="40" fill="#5E737B" font-family="sans-serif" font-size="20">location-background-documentary-evidence-field</text><rect x="257.76" y="102.56" width="640.32" height="312.192" fill="none" stroke="#A17D45" stroke-width="3"/><text x="265.76" y="126.56" fill="#A17D45" font-family="sans-serif" font-size="20">outline-box</text><text x="577.92" y="441.152" text-anchor="middle" fill="#E7E0D0" font-size="20" font-family="sans-serif">CANNOT RULE OUT</text><rect x="3" y="3" width="1194" height="794" fill="none" stroke="#5E737B" stroke-width="4"/></svg>

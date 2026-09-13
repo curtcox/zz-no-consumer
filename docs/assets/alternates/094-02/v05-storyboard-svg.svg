@@ -1,0 +1,83 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="800" viewBox="0 0 1200 800"><title>The subpoena opens into numbered document requests</title><desc>Represent sixteen numbered request slots beneath the subpoena header. The document seeks records across categories; it does not establish what responses will contain.</desc><metadata>{
+  &quot;assets&quot;: {
+    &quot;paper&quot;: &quot;&lt;defs&gt;\n&lt;linearGradient id=\&quot;stock\&quot; x1=\&quot;0\&quot; y1=\&quot;0\&quot; x2=\&quot;.8\&quot; y2=\&quot;1\&quot;&gt;&lt;stop stop-color=\&quot;#E7E0D0\&quot; /&gt;&lt;stop offset=\&quot;1\&quot; stop-color=\&quot;#CEC5B3\&quot; /&gt;&lt;/linearGradient&gt;\n&lt;pattern id=\&quot;grain\&quot; width=\&quot;7\&quot; height=\&quot;9\&quot; patternUnits=\&quot;userSpaceOnUse\&quot;&gt;&lt;circle cx=\&quot;1\&quot; cy=\&quot;2\&quot; r=\&quot;.35\&quot; fill=\&quot;#101214\&quot; opacity=\&quot;.18\&quot; /&gt;&lt;path d=\&quot;M4 6h2M1 8h1\&quot; stroke=\&quot;#101214\&quot; stroke-width=\&quot;.3\&quot; opacity=\&quot;.16\&quot; /&gt;&lt;/pattern&gt;\n&lt;/defs&gt;&lt;path d=\&quot;M8 2H73L93 22V96H8Z\&quot; fill=\&quot;url(#stock)\&quot; stroke=\&quot;currentColor\&quot; stroke-width=\&quot;2\&quot; /&gt;&lt;path d=\&quot;M8 2H73L93 22V96H8Z\&quot; fill=\&quot;url(#grain)\&quot; /&gt;&lt;path d=\&quot;M73 2V22H93\&quot; fill=\&quot;#CEC5B3\&quot; stroke=\&quot;#101214\&quot; stroke-width=\&quot;1\&quot; /&gt;&lt;path d=\&quot;M18 33H82M18 43H80M18 53H68M18 67H82M18 77H72M18 87H49\&quot; fill=\&quot;none\&quot; stroke=\&quot;#101214\&quot; stroke-width=\&quot;1.5\&quot; /&gt;&quot;,
+    &quot;sheet&quot;: &quot;&lt;defs&gt;\n&lt;linearGradient id=\&quot;stock\&quot; x1=\&quot;0\&quot; y1=\&quot;0\&quot; x2=\&quot;.8\&quot; y2=\&quot;1\&quot;&gt;&lt;stop stop-color=\&quot;#E7E0D0\&quot; /&gt;&lt;stop offset=\&quot;1\&quot; stop-color=\&quot;#CEC5B3\&quot; /&gt;&lt;/linearGradient&gt;\n&lt;pattern id=\&quot;grain\&quot; width=\&quot;7\&quot; height=\&quot;9\&quot; patternUnits=\&quot;userSpaceOnUse\&quot;&gt;&lt;circle cx=\&quot;1\&quot; cy=\&quot;2\&quot; r=\&quot;.35\&quot; fill=\&quot;#101214\&quot; opacity=\&quot;.18\&quot; /&gt;&lt;path d=\&quot;M4 6h2M1 8h1\&quot; stroke=\&quot;#101214\&quot; stroke-width=\&quot;.3\&quot; opacity=\&quot;.16\&quot; /&gt;&lt;/pattern&gt;\n&lt;/defs&gt;&lt;path d=\&quot;M5 3H95V97H5Z\&quot; fill=\&quot;url(#stock)\&quot; stroke=\&quot;currentColor\&quot; stroke-width=\&quot;2\&quot; /&gt;&lt;path d=\&quot;M5 3H95V97H5Z\&quot; fill=\&quot;url(#grain)\&quot; /&gt;&lt;rect x=\&quot;5\&quot; y=\&quot;3\&quot; width=\&quot;90\&quot; height=\&quot;16\&quot; fill=\&quot;currentColor\&quot; /&gt;&lt;rect x=\&quot;5\&quot; y=\&quot;19\&quot; width=\&quot;17\&quot; height=\&quot;78\&quot; fill=\&quot;#CEC5B3\&quot; /&gt;&lt;path d=\&quot;M5 19H95M5 38H95M5 57H95M5 76H95M22 3V97M46 19V97M70 19V97\&quot; fill=\&quot;none\&quot; stroke=\&quot;#101214\&quot; stroke-width=\&quot;0.9\&quot; /&gt;&lt;path d=\&quot;M10 10H17M28 10H38M53 10H63M77 10H87\&quot; fill=\&quot;none\&quot; stroke=\&quot;#E7E0D0\&quot; stroke-width=\&quot;1.2\&quot; /&gt;&quot;
+  },
+  &quot;palette&quot;: {
+    &quot;amber&quot;: &quot;#A17D45&quot;,
+    &quot;claret&quot;: &quot;#6B2634&quot;,
+    &quot;dirty&quot;: &quot;#CEC5B3&quot;,
+    &quot;ink&quot;: &quot;#101214&quot;,
+    &quot;institution&quot;: &quot;#68766B&quot;,
+    &quot;moss&quot;: &quot;#74864F&quot;,
+    &quot;nicotine&quot;: &quot;#AA9571&quot;,
+    &quot;paper&quot;: &quot;#E7E0D0&quot;,
+    &quot;shadow&quot;: &quot;#202326&quot;,
+    &quot;steel&quot;: &quot;#5E737B&quot;
+  },
+  &quot;renderer&quot;: &quot;storyboard-svg-2&quot;,
+  &quot;scene&quot;: {
+    &quot;background&quot;: &quot;ink&quot;,
+    &quot;intent&quot;: &quot;Represent sixteen numbered request slots beneath the subpoena header. The document seeks records across categories; it does not establish what responses will contain.&quot;,
+    &quot;lettering&quot;: [
+      {
+        &quot;box&quot;: [
+          0.045,
+          0.78,
+          0.91,
+          0.18
+        ]
+      }
+    ],
+    &quot;lettering_mode&quot;: &quot;manual&quot;,
+    &quot;nodes&quot;: [
+      {
+        &quot;asset&quot;: &quot;paper&quot;,
+        &quot;box&quot;: [
+          0.2148,
+          0.1282,
+          0.5336,
+          0.3968
+        ],
+        &quot;color&quot;: &quot;steel&quot;,
+        &quot;focus&quot;: true,
+        &quot;label&quot;: &quot;ALABAMA 26-0007&quot;,
+        &quot;label_box&quot;: [
+          0.20679999999999998,
+          0.531,
+          0.5496,
+          0.030799999999999945
+        ]
+      },
+      {
+        &quot;asset&quot;: &quot;sheet&quot;,
+        &quot;box&quot;: [
+          0.0952,
+          0.5698,
+          0.644,
+          0.0576
+        ],
+        &quot;color&quot;: &quot;steel&quot;,
+        &quot;focus&quot;: true,
+        &quot;label&quot;: &quot;SIXTEEN REQUESTS&quot;,
+        &quot;label_box&quot;: [
+          0.0872,
+          0.6334,
+          0.66,
+          0.085
+        ]
+      }
+    ],
+    &quot;reconstructed&quot;: false,
+    &quot;shot&quot;: &quot;hero&quot;,
+    &quot;source&quot;: &quot;\n**Location:** `regulatory-office`\n\n**Frame:** Alabama subpoena 26-0007 opens into sixteen numbered requests spanning incident records, personnel, systems, safeguards, internal concerns, oversight, and related evaluations.\n\n**Caption:**\n&gt; ALABAMA OPENS A CONSUMER-PROTECTION INVESTIGATION AND DEMANDS DOCUMENTS, DATA, AND ANSWERS.\n\n**Provenance:** `documented` — signed subpoena and attorney-general announcement.\n\n&quot;,
+    &quot;title&quot;: &quot;The subpoena opens into numbered document requests&quot;
+  }
+}
+</metadata><rect width="1200" height="800" fill="#101214"/><g transform="translate(257.76 102.56) scale(6.4032 3.1744)" color="#5E737B"><g transform=""><defs>
+<linearGradient id="node-0-stock" x1="0" y1="0" x2=".8" y2="1"><stop stop-color="#E7E0D0" /><stop offset="1" stop-color="#CEC5B3" /></linearGradient>
+<pattern id="node-0-grain" width="7" height="9" patternUnits="userSpaceOnUse"><circle cx="1" cy="2" r=".35" fill="#101214" opacity=".18" /><path d="M4 6h2M1 8h1" stroke="#101214" stroke-width=".3" opacity=".16" /></pattern>
+</defs><path d="M8 2H73L93 22V96H8Z" fill="url(#node-0-stock)" stroke="currentColor" stroke-width="2" /><path d="M8 2H73L93 22V96H8Z" fill="url(#node-0-grain)" /><path d="M73 2V22H93" fill="#CEC5B3" stroke="#101214" stroke-width="1" /><path d="M18 33H82M18 43H80M18 53H68M18 67H82M18 77H72M18 87H49" fill="none" stroke="#101214" stroke-width="1.5" /></g></g><text x="577.92" y="442.8" text-anchor="middle" fill="#E7E0D0" font-size="18" font-family="sans-serif">ALABAMA 26-0007</text><g transform="translate(114.24 455.84) scale(7.728 0.4608)" color="#5E737B"><g transform=""><defs>
+<linearGradient id="node-1-stock" x1="0" y1="0" x2=".8" y2="1"><stop stop-color="#E7E0D0" /><stop offset="1" stop-color="#CEC5B3" /></linearGradient>
+<pattern id="node-1-grain" width="7" height="9" patternUnits="userSpaceOnUse"><circle cx="1" cy="2" r=".35" fill="#101214" opacity=".18" /><path d="M4 6h2M1 8h1" stroke="#101214" stroke-width=".3" opacity=".16" /></pattern>
+</defs><path d="M5 3H95V97H5Z" fill="url(#node-1-stock)" stroke="currentColor" stroke-width="2" /><path d="M5 3H95V97H5Z" fill="url(#node-1-grain)" /><rect x="5" y="3" width="90" height="16" fill="currentColor" /><rect x="5" y="19" width="17" height="78" fill="#CEC5B3" /><path d="M5 19H95M5 38H95M5 57H95M5 76H95M22 3V97M46 19V97M70 19V97" fill="none" stroke="#101214" stroke-width="0.9" /><path d="M10 10H17M28 10H38M53 10H63M77 10H87" fill="none" stroke="#E7E0D0" stroke-width="1.2" /></g></g><text x="500.64" y="526.72" text-anchor="middle" fill="#E7E0D0" font-size="20" font-family="sans-serif">SIXTEEN REQUESTS</text><rect x="3" y="3" width="1194" height="794" fill="none" stroke="#5E737B" stroke-width="4"/></svg>

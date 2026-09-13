@@ -5,6 +5,26 @@
   "lettering_mode": "manual",
   "nodes": [
     {
+      "asset": "location-background-curt-home-office",
+      "box": [
+        0.02,
+        0.02,
+        0.4675,
+        0.96
+      ],
+      "color": "steel"
+    },
+    {
+      "asset": "location-background-documentary-evidence-field",
+      "box": [
+        0.5125,
+        0.02,
+        0.4675,
+        0.96
+      ],
+      "color": "steel"
+    },
+    {
       "asset": "outline-box",
       "box": [
         0.2117,

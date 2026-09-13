@@ -14,6 +14,26 @@
   "lettering_mode": "manual",
   "nodes": [
     {
+      "asset": "location-background-evaluation-container",
+      "box": [
+        0.02,
+        0.02,
+        0.4675,
+        0.96
+      ],
+      "color": "steel"
+    },
+    {
+      "asset": "location-background-artifactory-cache",
+      "box": [
+        0.5125,
+        0.02,
+        0.4675,
+        0.96
+      ],
+      "color": "steel"
+    },
+    {
       "asset": "card",
       "box": [
         0.1872,

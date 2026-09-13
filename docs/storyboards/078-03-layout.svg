@@ -2,7 +2,9 @@
   &quot;assets&quot;: {
     &quot;arrow&quot;: &quot;&lt;g transform=\&quot;rotate(0 50 50)\&quot;&gt;&lt;path d=\&quot;M4 46H64V25L96 50 64 75V54H4Z\&quot; fill=\&quot;currentColor\&quot; stroke=\&quot;currentColor\&quot; stroke-width=\&quot;1\&quot; /&gt;&lt;/g&gt;&quot;,
     &quot;card&quot;: &quot;&lt;defs&gt;\n&lt;linearGradient id=\&quot;stock\&quot; x1=\&quot;0\&quot; y1=\&quot;0\&quot; x2=\&quot;.8\&quot; y2=\&quot;1\&quot;&gt;&lt;stop stop-color=\&quot;#E7E0D0\&quot; /&gt;&lt;stop offset=\&quot;1\&quot; stop-color=\&quot;#CEC5B3\&quot; /&gt;&lt;/linearGradient&gt;\n&lt;pattern id=\&quot;grain\&quot; width=\&quot;7\&quot; height=\&quot;9\&quot; patternUnits=\&quot;userSpaceOnUse\&quot;&gt;&lt;circle cx=\&quot;1\&quot; cy=\&quot;2\&quot; r=\&quot;.35\&quot; fill=\&quot;#101214\&quot; opacity=\&quot;.18\&quot; /&gt;&lt;path d=\&quot;M4 6h2M1 8h1\&quot; stroke=\&quot;#101214\&quot; stroke-width=\&quot;.3\&quot; opacity=\&quot;.16\&quot; /&gt;&lt;/pattern&gt;\n&lt;/defs&gt;&lt;path d=\&quot;M5 3H95V97H5Z\&quot; fill=\&quot;url(#stock)\&quot; stroke=\&quot;currentColor\&quot; stroke-width=\&quot;2\&quot; /&gt;&lt;path d=\&quot;M5 3H95V97H5Z\&quot; fill=\&quot;url(#grain)\&quot; /&gt;&lt;rect x=\&quot;5\&quot; y=\&quot;3\&quot; width=\&quot;90\&quot; height=\&quot;15\&quot; fill=\&quot;currentColor\&quot; /&gt;&lt;rect x=\&quot;10\&quot; y=\&quot;25\&quot; width=\&quot;5\&quot; height=\&quot;61\&quot; fill=\&quot;currentColor\&quot; /&gt;&lt;path d=\&quot;M23 29H85M23 38H75M23 48H83M23 66H62M23 78H80\&quot; fill=\&quot;none\&quot; stroke=\&quot;#101214\&quot; stroke-width=\&quot;2\&quot; /&gt;&lt;path d=\&quot;M12 11H42M65 11H86\&quot; fill=\&quot;none\&quot; stroke=\&quot;#E7E0D0\&quot; stroke-width=\&quot;1.4\&quot; /&gt;&quot;,
-    &quot;empty-slot&quot;: &quot;&lt;rect x=\&quot;3\&quot; y=\&quot;3\&quot; width=\&quot;94\&quot; height=\&quot;94\&quot; fill=\&quot;none\&quot; stroke=\&quot;currentColor\&quot; stroke-width=\&quot;2\&quot; stroke-dasharray=\&quot;7 5\&quot; /&gt;&lt;path d=\&quot;M3 20V3H20M80 3H97V20M97 80V97H80M20 97H3V80\&quot; fill=\&quot;none\&quot; stroke=\&quot;#E7E0D0\&quot; stroke-width=\&quot;1\&quot; opacity=\&quot;.6\&quot; /&gt;&quot;
+    &quot;empty-slot&quot;: &quot;&lt;rect x=\&quot;3\&quot; y=\&quot;3\&quot; width=\&quot;94\&quot; height=\&quot;94\&quot; fill=\&quot;none\&quot; stroke=\&quot;currentColor\&quot; stroke-width=\&quot;2\&quot; stroke-dasharray=\&quot;7 5\&quot; /&gt;&lt;path d=\&quot;M3 20V3H20M80 3H97V20M97 80V97H80M20 97H3V80\&quot; fill=\&quot;none\&quot; stroke=\&quot;#E7E0D0\&quot; stroke-width=\&quot;1\&quot; opacity=\&quot;.6\&quot; /&gt;&quot;,
+    &quot;location-background-analysis-agent-tree&quot;: &quot;&lt;title&gt;Branching analysis margin&lt;/title&gt;\n&lt;g fill=\&quot;none\&quot; stroke=\&quot;currentColor\&quot; stroke-width=\&quot;0.8\&quot; stroke-linejoin=\&quot;round\&quot; stroke-linecap=\&quot;round\&quot; opacity=\&quot;0.34\&quot;&gt;&lt;path d=\&quot;M50 4V9M50 9H16V16M50 9H84V16M16 16H6V24M16 16H26V20M84 16H74V20M84 16H94V24M6 78V92H94V78\&quot;/&gt;&lt;/g&gt;&quot;,
+    &quot;location-background-evaluation-transcript-archive&quot;: &quot;&lt;title&gt;Transcript spool and sequence margin&lt;/title&gt;\n&lt;g fill=\&quot;none\&quot; stroke=\&quot;currentColor\&quot; stroke-width=\&quot;0.8\&quot; stroke-linejoin=\&quot;round\&quot; stroke-linecap=\&quot;round\&quot; opacity=\&quot;0.34\&quot;&gt;&lt;path d=\&quot;M12 6H91V94H12ZM7 6V94M17 14H28M17 23H24M17 32H28M17 41H24M17 50H28M17 59H24M17 68H28M17 77H24M17 86H28M82 10V90\&quot;/&gt;&lt;/g&gt;&quot;
   },
   &quot;palette&quot;: {
     &quot;amber&quot;: &quot;#A17D45&quot;,
@@ -32,6 +34,26 @@
     ],
     &quot;lettering_mode&quot;: &quot;manual&quot;,
     &quot;nodes&quot;: [
+      {
+        &quot;asset&quot;: &quot;location-background-evaluation-transcript-archive&quot;,
+        &quot;box&quot;: [
+          0.02,
+          0.02,
+          0.4675,
+          0.96
+        ],
+        &quot;color&quot;: &quot;steel&quot;
+      },
+      {
+        &quot;asset&quot;: &quot;location-background-analysis-agent-tree&quot;,
+        &quot;box&quot;: [
+          0.5125,
+          0.02,
+          0.4675,
+          0.96
+        ],
+        &quot;color&quot;: &quot;steel&quot;
+      },
       {
         &quot;asset&quot;: &quot;card&quot;,
         &quot;box&quot;: [
@@ -137,4 +159,4 @@
     &quot;title&quot;: &quot;Team and approval pass through without authorization&quot;
   }
 }
-</metadata><rect width="1200" height="800" fill="#101214"/><rect x="86.76" y="87.12" width="338.52" height="119.962" fill="none" stroke="#5E737B" stroke-width="3"/><text x="94.76" y="111.12" fill="#5E737B" font-family="sans-serif" font-size="20">card</text><text x="256.02" y="232.352" text-anchor="middle" fill="#E7E0D0" font-size="18" font-family="sans-serif">TEAM</text><rect x="86.76" y="365.44" width="338.52" height="119.962" fill="none" stroke="#5E737B" stroke-width="3"/><text x="94.76" y="389.44" fill="#5E737B" font-family="sans-serif" font-size="20">card</text><text x="256.02" y="510.672" text-anchor="middle" fill="#E7E0D0" font-size="18" font-family="sans-serif">APPROVAL</text><rect x="479.88" y="155.28" width="196.56" height="34.08" fill="none" stroke="#5E737B" stroke-width="3"/><text x="487.88" y="179.28" fill="#5E737B" font-family="sans-serif" font-size="20">arrow</text><rect x="479.88" y="433.6" width="196.56" height="34.08" fill="none" stroke="#5E737B" stroke-width="3"/><text x="487.88" y="457.6" fill="#5E737B" font-family="sans-serif" font-size="20">arrow</text><rect x="763.8" y="70.08" width="338.52" height="146.203" fill="none" stroke="#5E737B" stroke-width="3"/><text x="771.8" y="94.08" fill="#5E737B" font-family="sans-serif" font-size="20">card</text><text x="933.06" y="243.144" text-anchor="middle" fill="#E7E0D0" font-size="18" font-family="sans-serif">ANALYSIS CATEGORIES</text><rect x="763.8" y="365.44" width="338.52" height="138.706" fill="none" stroke="#5E737B" stroke-width="3"/><text x="771.8" y="389.44" fill="#5E737B" font-family="sans-serif" font-size="20">empty-slot</text><text x="933.06" y="530.552" text-anchor="middle" fill="#E7E0D0" font-size="18" font-family="sans-serif">LEGITIMATE AUTHORIZATION ABSENT</text><rect x="3" y="3" width="1194" height="794" fill="none" stroke="#5E737B" stroke-width="4"/></svg>
+</metadata><rect width="1200" height="800" fill="#101214"/><rect x="24" y="16" width="561" height="768" fill="none" stroke="#5E737B" stroke-width="3"/><text x="32" y="40" fill="#5E737B" font-family="sans-serif" font-size="20">location-background-evaluation-transcript-archive</text><rect x="615" y="16" width="561" height="768" fill="none" stroke="#5E737B" stroke-width="3"/><text x="623" y="40" fill="#5E737B" font-family="sans-serif" font-size="20">location-background-analysis-agent-tree</text><rect x="86.76" y="87.12" width="338.52" height="119.962" fill="none" stroke="#5E737B" stroke-width="3"/><text x="94.76" y="111.12" fill="#5E737B" font-family="sans-serif" font-size="20">card</text><text x="256.02" y="232.352" text-anchor="middle" fill="#E7E0D0" font-size="18" font-family="sans-serif">TEAM</text><rect x="86.76" y="365.44" width="338.52" height="119.962" fill="none" stroke="#5E737B" stroke-width="3"/><text x="94.76" y="389.44" fill="#5E737B" font-family="sans-serif" font-size="20">card</text><text x="256.02" y="510.672" text-anchor="middle" fill="#E7E0D0" font-size="18" font-family="sans-serif">APPROVAL</text><rect x="479.88" y="155.28" width="196.56" height="34.08" fill="none" stroke="#5E737B" stroke-width="3"/><text x="487.88" y="179.28" fill="#5E737B" font-family="sans-serif" font-size="20">arrow</text><rect x="479.88" y="433.6" width="196.56" height="34.08" fill="none" stroke="#5E737B" stroke-width="3"/><text x="487.88" y="457.6" fill="#5E737B" font-family="sans-serif" font-size="20">arrow</text><rect x="763.8" y="70.08" width="338.52" height="146.203" fill="none" stroke="#5E737B" stroke-width="3"/><text x="771.8" y="94.08" fill="#5E737B" font-family="sans-serif" font-size="20">card</text><text x="933.06" y="243.144" text-anchor="middle" fill="#E7E0D0" font-size="18" font-family="sans-serif">ANALYSIS CATEGORIES</text><rect x="763.8" y="365.44" width="338.52" height="138.706" fill="none" stroke="#5E737B" stroke-width="3"/><text x="771.8" y="389.44" fill="#5E737B" font-family="sans-serif" font-size="20">empty-slot</text><text x="933.06" y="530.552" text-anchor="middle" fill="#E7E0D0" font-size="18" font-family="sans-serif">LEGITIMATE AUTHORIZATION ABSENT</text><rect x="3" y="3" width="1194" height="794" fill="none" stroke="#5E737B" stroke-width="4"/></svg>

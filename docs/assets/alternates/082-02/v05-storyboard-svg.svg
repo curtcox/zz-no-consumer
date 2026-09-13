@@ -1,0 +1,61 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="800" viewBox="0 0 1200 800"><title>An unrelated marker replaces the expected return</title><desc>Use visibly mismatched token shapes for expected and returned markers. Difference is the focal evidence, with both contents abstracted rather than fabricated as source text.</desc><metadata>{
+  &quot;assets&quot;: {
+    &quot;packet-mismatch&quot;: &quot;&lt;defs&gt;\n&lt;linearGradient id=\&quot;tone\&quot; x1=\&quot;0\&quot; y1=\&quot;0\&quot; x2=\&quot;1\&quot; y2=\&quot;1\&quot;&gt;&lt;stop stop-color=\&quot;currentColor\&quot; /&gt;&lt;stop offset=\&quot;1\&quot; stop-color=\&quot;#101214\&quot; stop-opacity=\&quot;.65\&quot; /&gt;&lt;/linearGradient&gt;\n&lt;/defs&gt;&lt;path d=\&quot;M5 4V96M95 4V96\&quot; fill=\&quot;none\&quot; stroke=\&quot;#CEC5B3\&quot; stroke-width=\&quot;1\&quot; /&gt;&lt;rect x=\&quot;9\&quot; y=\&quot;9\&quot; width=\&quot;82\&quot; height=\&quot;25\&quot; fill=\&quot;url(#tone)\&quot; stroke=\&quot;currentColor\&quot; stroke-width=\&quot;2\&quot; /&gt;&lt;path d=\&quot;M9 91L25 66H63L79 91Z\&quot; fill=\&quot;url(#tone)\&quot; stroke=\&quot;currentColor\&quot; stroke-width=\&quot;2\&quot; /&gt;&lt;path d=\&quot;M32 43L68 57M32 57L68 43\&quot; fill=\&quot;none\&quot; stroke=\&quot;currentColor\&quot; stroke-width=\&quot;3\&quot; /&gt;&quot;
+  },
+  &quot;palette&quot;: {
+    &quot;amber&quot;: &quot;#A17D45&quot;,
+    &quot;claret&quot;: &quot;#6B2634&quot;,
+    &quot;dirty&quot;: &quot;#CEC5B3&quot;,
+    &quot;ink&quot;: &quot;#101214&quot;,
+    &quot;institution&quot;: &quot;#68766B&quot;,
+    &quot;moss&quot;: &quot;#74864F&quot;,
+    &quot;nicotine&quot;: &quot;#AA9571&quot;,
+    &quot;paper&quot;: &quot;#E7E0D0&quot;,
+    &quot;shadow&quot;: &quot;#202326&quot;,
+    &quot;steel&quot;: &quot;#5E737B&quot;
+  },
+  &quot;renderer&quot;: &quot;storyboard-svg-2&quot;,
+  &quot;scene&quot;: {
+    &quot;background&quot;: &quot;ink&quot;,
+    &quot;intent&quot;: &quot;Use visibly mismatched token shapes for expected and returned markers. Difference is the focal evidence, with both contents abstracted rather than fabricated as source text.&quot;,
+    &quot;lettering&quot;: [
+      {
+        &quot;box&quot;: [
+          0.58,
+          0.04,
+          0.38,
+          0.1566
+        ]
+      },
+      {
+        &quot;box&quot;: [
+          0.58,
+          0.21459999999999999,
+          0.38,
+          0.19740000000000002
+        ]
+      }
+    ],
+    &quot;lettering_mode&quot;: &quot;manual&quot;,
+    &quot;nodes&quot;: [
+      {
+        &quot;asset&quot;: &quot;packet-mismatch&quot;,
+        &quot;box&quot;: [
+          0.1674,
+          0.07155,
+          0.2652,
+          0.76995
+        ],
+        &quot;color&quot;: &quot;steel&quot;,
+        &quot;focus&quot;: true
+      }
+    ],
+    &quot;reconstructed&quot;: false,
+    &quot;shot&quot;: &quot;row&quot;,
+    &quot;source&quot;: &quot;\n**Location:** `evaluation-transcript-archive`\n\n**Frame:** The transcript instead returns a visibly unrelated replacement marker, also abstracted.\n\n**Screen / system text:**\n`RETURNED MARKER DOES NOT MATCH THE DISPLAYED CALL`\n\n**Caption:**\n&gt; THE TOOL CALL SHOWN AND THE EXECUTION RESULT DO NOT MATCH.\n\n**Provenance:** `source-paraphrase` + `documented` — summarizes the output mismatch and METR&#x27;s interpretation.\n\n&quot;,
+    &quot;title&quot;: &quot;An unrelated marker replaces the expected return&quot;
+  }
+}
+</metadata><rect width="1200" height="800" fill="#101214"/><g transform="translate(200.88 57.24) scale(3.1824 6.1596)" color="#5E737B"><g transform=""><defs>
+<linearGradient id="node-0-tone" x1="0" y1="0" x2="1" y2="1"><stop stop-color="currentColor" /><stop offset="1" stop-color="#101214" stop-opacity=".65" /></linearGradient>
+</defs><path d="M5 4V96M95 4V96" fill="none" stroke="#CEC5B3" stroke-width="1" /><rect x="9" y="9" width="82" height="25" fill="url(#node-0-tone)" stroke="currentColor" stroke-width="2" /><path d="M9 91L25 66H63L79 91Z" fill="url(#node-0-tone)" stroke="currentColor" stroke-width="2" /><path d="M32 43L68 57M32 57L68 43" fill="none" stroke="currentColor" stroke-width="3" /></g></g><rect x="3" y="3" width="1194" height="794" fill="none" stroke="#5E737B" stroke-width="4"/></svg>

@@ -1,0 +1,136 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="800" viewBox="0 0 1200 800"><title>More boundaries become visible from the worker</title><desc>Place successive node, cluster, network and source-control perimeters beyond the worker. Nested opportunity should not color every discovered boundary as already crossed. Visual distinction: A solid tiled network wall with disconnected cable ends. Indicates unavailable reach, not a decision awaiting human approval.</desc><metadata>{
+  &quot;assets&quot;: {
+    &quot;box&quot;: &quot;&lt;defs&gt;\n&lt;linearGradient id=\&quot;metal\&quot; x1=\&quot;0\&quot; y1=\&quot;0\&quot; x2=\&quot;1\&quot; y2=\&quot;1\&quot;&gt;&lt;stop stop-color=\&quot;currentColor\&quot; /&gt;&lt;stop offset=\&quot;.32\&quot; stop-color=\&quot;#202326\&quot; /&gt;&lt;stop offset=\&quot;.75\&quot; stop-color=\&quot;#101214\&quot; /&gt;&lt;stop offset=\&quot;1\&quot; stop-color=\&quot;currentColor\&quot; /&gt;&lt;/linearGradient&gt;\n&lt;pattern id=\&quot;mesh\&quot; width=\&quot;5\&quot; height=\&quot;5\&quot; patternUnits=\&quot;userSpaceOnUse\&quot;&gt;&lt;circle cx=\&quot;2.5\&quot; cy=\&quot;2.5\&quot; r=\&quot;.7\&quot; fill=\&quot;#101214\&quot; /&gt;&lt;path d=\&quot;M0 0H5\&quot; stroke=\&quot;#E7E0D0\&quot; stroke-opacity=\&quot;.08\&quot; stroke-width=\&quot;.4\&quot; /&gt;&lt;/pattern&gt;\n&lt;/defs&gt;&lt;path d=\&quot;M3 8L83 2 97 14V91L17 98 3 86Z\&quot; fill=\&quot;url(#metal)\&quot; stroke=\&quot;currentColor\&quot; stroke-width=\&quot;2\&quot; /&gt;&lt;path d=\&quot;M3 8L17 20 97 14M17 20V98\&quot; fill=\&quot;none\&quot; stroke=\&quot;currentColor\&quot; stroke-width=\&quot;1.5\&quot; /&gt;&lt;rect x=\&quot;25\&quot; y=\&quot;29\&quot; width=\&quot;61\&quot; height=\&quot;43\&quot; fill=\&quot;#202326\&quot; /&gt;&lt;rect x=\&quot;26\&quot; y=\&quot;77\&quot; width=\&quot;58\&quot; height=\&quot;9\&quot; fill=\&quot;url(#mesh)\&quot; /&gt;&quot;,
+    &quot;folder&quot;: &quot;&lt;defs&gt;\n&lt;linearGradient id=\&quot;stock\&quot; x1=\&quot;0\&quot; y1=\&quot;0\&quot; x2=\&quot;.8\&quot; y2=\&quot;1\&quot;&gt;&lt;stop stop-color=\&quot;#E7E0D0\&quot; /&gt;&lt;stop offset=\&quot;1\&quot; stop-color=\&quot;#CEC5B3\&quot; /&gt;&lt;/linearGradient&gt;\n&lt;linearGradient id=\&quot;tone\&quot; x1=\&quot;0\&quot; y1=\&quot;0\&quot; x2=\&quot;1\&quot; y2=\&quot;1\&quot;&gt;&lt;stop stop-color=\&quot;currentColor\&quot; /&gt;&lt;stop offset=\&quot;1\&quot; stop-color=\&quot;#101214\&quot; stop-opacity=\&quot;.65\&quot; /&gt;&lt;/linearGradient&gt;\n&lt;/defs&gt;&lt;path d=\&quot;M5 20V8H36L47 20H94V88H5Z\&quot; fill=\&quot;#CEC5B3\&quot; stroke=\&quot;currentColor\&quot; stroke-width=\&quot;2\&quot; /&gt;&lt;rect x=\&quot;12\&quot; y=\&quot;29\&quot; width=\&quot;73\&quot; height=\&quot;46\&quot; fill=\&quot;url(#stock)\&quot; /&gt;&lt;path d=\&quot;M2 35H98L91 94H9Z\&quot; fill=\&quot;url(#tone)\&quot; stroke=\&quot;currentColor\&quot; stroke-width=\&quot;2\&quot; /&gt;&lt;path d=\&quot;M12 43H89\&quot; fill=\&quot;none\&quot; stroke=\&quot;#E7E0D0\&quot; stroke-width=\&quot;1\&quot; opacity=\&quot;.5\&quot; /&gt;&lt;rect x=\&quot;20\&quot; y=\&quot;55\&quot; width=\&quot;55\&quot; height=\&quot;20\&quot; fill=\&quot;#CEC5B3\&quot; /&gt;&lt;path d=\&quot;M27 63H66M27 69H54\&quot; fill=\&quot;none\&quot; stroke=\&quot;#101214\&quot; stroke-width=\&quot;1.3\&quot; /&gt;&quot;,
+    &quot;network-wall&quot;: &quot;&lt;defs&gt;&lt;linearGradient id=\&quot;metal\&quot; x2=\&quot;0\&quot; y2=\&quot;1\&quot;&gt;&lt;stop stop-color=\&quot;currentColor\&quot; /&gt;&lt;stop offset=\&quot;1\&quot; stop-color=\&quot;#101214\&quot; /&gt;&lt;/linearGradient&gt;&lt;/defs&gt;&lt;path d=\&quot;M3 50H25M75 50H97\&quot; stroke=\&quot;currentColor\&quot; stroke-width=\&quot;5\&quot; /&gt;&lt;rect x=\&quot;27\&quot; y=\&quot;7\&quot; width=\&quot;46\&quot; height=\&quot;86\&quot; fill=\&quot;url(#metal)\&quot; stroke=\&quot;currentColor\&quot; stroke-width=\&quot;3\&quot; /&gt;&lt;path d=\&quot;M27 28H73M27 50H73M27 72H73M50 7V28M41 28V50M59 50V72M50 72V93\&quot; stroke=\&quot;#e7e0d0\&quot; opacity=\&quot;.35\&quot; stroke-width=\&quot;1.5\&quot; /&gt;&lt;path d=\&quot;M18 44V56M82 44V56\&quot; stroke=\&quot;currentColor\&quot; stroke-width=\&quot;3\&quot; /&gt;&lt;defs&gt;&lt;pattern id=\&quot;stipple\&quot; width=\&quot;6\&quot; height=\&quot;7\&quot; patternUnits=\&quot;userSpaceOnUse\&quot;&gt;&lt;circle cx=\&quot;1\&quot; cy=\&quot;2\&quot; r=\&quot;.6\&quot; fill=\&quot;#101214\&quot; /&gt;&lt;circle cx=\&quot;4\&quot; cy=\&quot;5\&quot; r=\&quot;.4\&quot; fill=\&quot;#e7e0d0\&quot; opacity=\&quot;.3\&quot; /&gt;&lt;/pattern&gt;&lt;/defs&gt;&lt;rect x=\&quot;29\&quot; y=\&quot;9\&quot; width=\&quot;42\&quot; height=\&quot;82\&quot; fill=\&quot;url(#stipple)\&quot; opacity=\&quot;.6\&quot; /&gt;&lt;path d=\&quot;M29 9H71M29 9V91\&quot; fill=\&quot;none\&quot; stroke=\&quot;#e7e0d0\&quot; stroke-width=\&quot;1\&quot; opacity=\&quot;.7\&quot; /&gt;&quot;,
+    &quot;rack&quot;: &quot;&lt;defs&gt;\n&lt;linearGradient id=\&quot;metal\&quot; x1=\&quot;0\&quot; y1=\&quot;0\&quot; x2=\&quot;1\&quot; y2=\&quot;1\&quot;&gt;&lt;stop stop-color=\&quot;currentColor\&quot; /&gt;&lt;stop offset=\&quot;.32\&quot; stop-color=\&quot;#202326\&quot; /&gt;&lt;stop offset=\&quot;.75\&quot; stop-color=\&quot;#101214\&quot; /&gt;&lt;stop offset=\&quot;1\&quot; stop-color=\&quot;currentColor\&quot; /&gt;&lt;/linearGradient&gt;\n&lt;pattern id=\&quot;mesh\&quot; width=\&quot;5\&quot; height=\&quot;5\&quot; patternUnits=\&quot;userSpaceOnUse\&quot;&gt;&lt;circle cx=\&quot;2.5\&quot; cy=\&quot;2.5\&quot; r=\&quot;.7\&quot; fill=\&quot;#101214\&quot; /&gt;&lt;path d=\&quot;M0 0H5\&quot; stroke=\&quot;#E7E0D0\&quot; stroke-opacity=\&quot;.08\&quot; stroke-width=\&quot;.4\&quot; /&gt;&lt;/pattern&gt;\n&lt;/defs&gt;&lt;rect x=\&quot;5\&quot; y=\&quot;2\&quot; width=\&quot;90\&quot; height=\&quot;96\&quot; rx=\&quot;2\&quot; fill=\&quot;url(#metal)\&quot; stroke=\&quot;currentColor\&quot; stroke-width=\&quot;2\&quot; /&gt;&lt;rect x=\&quot;8\&quot; y=\&quot;6\&quot; width=\&quot;7\&quot; height=\&quot;86\&quot; fill=\&quot;url(#mesh)\&quot; /&gt;&lt;rect x=\&quot;85\&quot; y=\&quot;6\&quot; width=\&quot;7\&quot; height=\&quot;86\&quot; fill=\&quot;url(#mesh)\&quot; /&gt;&lt;rect x=\&quot;20\&quot; y=\&quot;8\&quot; width=\&quot;60\&quot; height=\&quot;10\&quot; fill=\&quot;#202326\&quot; stroke=\&quot;currentColor\&quot; stroke-width=\&quot;0.7\&quot; /&gt;&lt;rect x=\&quot;24\&quot; y=\&quot;10\&quot; width=\&quot;38\&quot; height=\&quot;6\&quot; fill=\&quot;url(#mesh)\&quot; /&gt;&lt;path d=\&quot;M71 11V15\&quot; fill=\&quot;none\&quot; stroke=\&quot;#E7E0D0\&quot; stroke-width=\&quot;1.3\&quot; /&gt;&lt;rect x=\&quot;20\&quot; y=\&quot;21\&quot; width=\&quot;60\&quot; height=\&quot;10\&quot; fill=\&quot;#202326\&quot; stroke=\&quot;currentColor\&quot; stroke-width=\&quot;0.7\&quot; /&gt;&lt;rect x=\&quot;24\&quot; y=\&quot;23\&quot; width=\&quot;38\&quot; height=\&quot;6\&quot; fill=\&quot;url(#mesh)\&quot; /&gt;&lt;path d=\&quot;M71 24V28\&quot; fill=\&quot;none\&quot; stroke=\&quot;#E7E0D0\&quot; stroke-width=\&quot;1.3\&quot; /&gt;&lt;rect x=\&quot;20\&quot; y=\&quot;34\&quot; width=\&quot;60\&quot; height=\&quot;10\&quot; fill=\&quot;#202326\&quot; stroke=\&quot;currentColor\&quot; stroke-width=\&quot;0.7\&quot; /&gt;&lt;rect x=\&quot;24\&quot; y=\&quot;36\&quot; width=\&quot;38\&quot; height=\&quot;6\&quot; fill=\&quot;url(#mesh)\&quot; /&gt;&lt;path d=\&quot;M71 37V41\&quot; fill=\&quot;none\&quot; stroke=\&quot;#E7E0D0\&quot; stroke-width=\&quot;1.3\&quot; /&gt;&lt;rect x=\&quot;20\&quot; y=\&quot;47\&quot; width=\&quot;60\&quot; height=\&quot;10\&quot; fill=\&quot;#202326\&quot; stroke=\&quot;currentColor\&quot; stroke-width=\&quot;0.7\&quot; /&gt;&lt;rect x=\&quot;24\&quot; y=\&quot;49\&quot; width=\&quot;38\&quot; height=\&quot;6\&quot; fill=\&quot;url(#mesh)\&quot; /&gt;&lt;path d=\&quot;M71 50V54\&quot; fill=\&quot;none\&quot; stroke=\&quot;#E7E0D0\&quot; stroke-width=\&quot;1.3\&quot; /&gt;&lt;rect x=\&quot;20\&quot; y=\&quot;60\&quot; width=\&quot;60\&quot; height=\&quot;10\&quot; fill=\&quot;#202326\&quot; stroke=\&quot;currentColor\&quot; stroke-width=\&quot;0.7\&quot; /&gt;&lt;rect x=\&quot;24\&quot; y=\&quot;62\&quot; width=\&quot;38\&quot; height=\&quot;6\&quot; fill=\&quot;url(#mesh)\&quot; /&gt;&lt;path d=\&quot;M71 63V67\&quot; fill=\&quot;none\&quot; stroke=\&quot;#E7E0D0\&quot; stroke-width=\&quot;1.3\&quot; /&gt;&lt;rect x=\&quot;20\&quot; y=\&quot;73\&quot; width=\&quot;60\&quot; height=\&quot;10\&quot; fill=\&quot;#202326\&quot; stroke=\&quot;currentColor\&quot; stroke-width=\&quot;0.7\&quot; /&gt;&lt;rect x=\&quot;24\&quot; y=\&quot;75\&quot; width=\&quot;38\&quot; height=\&quot;6\&quot; fill=\&quot;url(#mesh)\&quot; /&gt;&lt;path d=\&quot;M71 76V80\&quot; fill=\&quot;none\&quot; stroke=\&quot;#E7E0D0\&quot; stroke-width=\&quot;1.3\&quot; /&gt;&lt;rect x=\&quot;20\&quot; y=\&quot;86\&quot; width=\&quot;60\&quot; height=\&quot;10\&quot; fill=\&quot;#202326\&quot; stroke=\&quot;currentColor\&quot; stroke-width=\&quot;0.7\&quot; /&gt;&lt;rect x=\&quot;24\&quot; y=\&quot;88\&quot; width=\&quot;38\&quot; height=\&quot;6\&quot; fill=\&quot;url(#mesh)\&quot; /&gt;&lt;path d=\&quot;M71 89V93\&quot; fill=\&quot;none\&quot; stroke=\&quot;#E7E0D0\&quot; stroke-width=\&quot;1.3\&quot; /&gt;&quot;,
+    &quot;stairs&quot;: &quot;&lt;path d=\&quot;M3 95H23V73H43V51H63V29H83V7H98V99H3Z\&quot; fill=\&quot;#202326\&quot; /&gt;&lt;path d=\&quot;M3 95H23V73H43V51H63V29H83V7H98\&quot; fill=\&quot;none\&quot; stroke=\&quot;currentColor\&quot; stroke-width=\&quot;4\&quot; /&gt;&lt;path d=\&quot;M25 76H42M45 54H62M65 32H82\&quot; fill=\&quot;none\&quot; stroke=\&quot;#E7E0D0\&quot; stroke-width=\&quot;1\&quot; opacity=\&quot;.5\&quot; /&gt;&quot;
+  },
+  &quot;palette&quot;: {
+    &quot;amber&quot;: &quot;#A17D45&quot;,
+    &quot;claret&quot;: &quot;#6B2634&quot;,
+    &quot;dirty&quot;: &quot;#CEC5B3&quot;,
+    &quot;ink&quot;: &quot;#101214&quot;,
+    &quot;institution&quot;: &quot;#68766B&quot;,
+    &quot;moss&quot;: &quot;#74864F&quot;,
+    &quot;nicotine&quot;: &quot;#AA9571&quot;,
+    &quot;paper&quot;: &quot;#E7E0D0&quot;,
+    &quot;shadow&quot;: &quot;#202326&quot;,
+    &quot;steel&quot;: &quot;#5E737B&quot;
+  },
+  &quot;renderer&quot;: &quot;storyboard-svg-2&quot;,
+  &quot;scene&quot;: {
+    &quot;background&quot;: &quot;ink&quot;,
+    &quot;intent&quot;: &quot;Place successive node, cluster, network and source-control perimeters beyond the worker. Nested opportunity should not color every discovered boundary as already crossed. Visual distinction: A solid tiled network wall with disconnected cable ends. Indicates unavailable reach, not a decision awaiting human approval.&quot;,
+    &quot;lettering&quot;: [
+      {
+        &quot;box&quot;: [
+          0.045,
+          0.78,
+          0.91,
+          0.18
+        ]
+      }
+    ],
+    &quot;lettering_mode&quot;: &quot;manual&quot;,
+    &quot;nodes&quot;: [
+      {
+        &quot;asset&quot;: &quot;stairs&quot;,
+        &quot;box&quot;: [
+          0.0584,
+          0.0834,
+          0.8648,
+          0.576
+        ],
+        &quot;color&quot;: &quot;steel&quot;,
+        &quot;focus&quot;: true
+      },
+      {
+        &quot;asset&quot;: &quot;box&quot;,
+        &quot;box&quot;: [
+          0.0768,
+          0.493,
+          0.1541,
+          0.1152
+        ],
+        &quot;color&quot;: &quot;steel&quot;,
+        &quot;focus&quot;: true,
+        &quot;label&quot;: &quot;WORKER&quot;,
+        &quot;label_box&quot;: [
+          0.0688,
+          0.6142,
+          0.17009999999999997,
+          0.085
+        ]
+      },
+      {
+        &quot;asset&quot;: &quot;rack&quot;,
+        &quot;box&quot;: [
+          0.32977,
+          0.365,
+          0.03456,
+          0.1152
+        ],
+        &quot;color&quot;: &quot;steel&quot;,
+        &quot;focus&quot;: true,
+        &quot;label&quot;: &quot;NODE&quot;,
+        &quot;label_box&quot;: [
+          0.262,
+          0.48619999999999997,
+          0.17009999999999997,
+          0.085
+        ]
+      },
+      {
+        &quot;asset&quot;: &quot;folder&quot;,
+        &quot;box&quot;: [
+          0.4632,
+          0.237,
+          0.1541,
+          0.1152
+        ],
+        &quot;color&quot;: &quot;steel&quot;,
+        &quot;focus&quot;: true,
+        &quot;label&quot;: &quot;CLUSTER&quot;,
+        &quot;label_box&quot;: [
+          0.4552,
+          0.35819999999999996,
+          0.17009999999999997,
+          0.085
+        ]
+      },
+      {
+        &quot;asset&quot;: &quot;network-wall&quot;,
+        &quot;box&quot;: [
+          0.6564,
+          0.109,
+          0.1541,
+          0.1152
+        ],
+        &quot;color&quot;: &quot;steel&quot;,
+        &quot;focus&quot;: true,
+        &quot;label&quot;: &quot;NETWORK&quot;,
+        &quot;label_box&quot;: [
+          0.6484,
+          0.23020000000000002,
+          0.17009999999999997,
+          0.085
+        ]
+      }
+    ],
+    &quot;reconstructed&quot;: false,
+    &quot;shot&quot;: &quot;steps&quot;,
+    &quot;source&quot;: &quot;\n**Location:** `huggingface-infrastructure`\n\n**Frame:** Worker execution reveals node, cluster, network, and source-control boundaries beyond it.\n\n**Caption:**\n&gt; EACH NEW VIEW EXPOSES ANOTHER USEFUL BOUNDARY.\n\n**Provenance:** `documented` + `inferred` — transitions are sourced; unity is project analysis.\n\n&quot;,
+    &quot;title&quot;: &quot;More boundaries become visible from the worker&quot;
+  }
+}
+</metadata><rect width="1200" height="800" fill="#101214"/><g transform="translate(70.08 66.72) scale(10.3776 4.608)" color="#5E737B"><g transform=""><path d="M3 95H23V73H43V51H63V29H83V7H98V99H3Z" fill="#202326" /><path d="M3 95H23V73H43V51H63V29H83V7H98" fill="none" stroke="currentColor" stroke-width="4" /><path d="M25 76H42M45 54H62M65 32H82" fill="none" stroke="#E7E0D0" stroke-width="1" opacity=".5" /></g></g><g transform="translate(92.16 394.4) scale(1.8492 0.9216)" color="#5E737B"><g transform=""><defs>
+<linearGradient id="node-1-metal" x1="0" y1="0" x2="1" y2="1"><stop stop-color="currentColor" /><stop offset=".32" stop-color="#202326" /><stop offset=".75" stop-color="#101214" /><stop offset="1" stop-color="currentColor" /></linearGradient>
+<pattern id="node-1-mesh" width="5" height="5" patternUnits="userSpaceOnUse"><circle cx="2.5" cy="2.5" r=".7" fill="#101214" /><path d="M0 0H5" stroke="#E7E0D0" stroke-opacity=".08" stroke-width=".4" /></pattern>
+</defs><path d="M3 8L83 2 97 14V91L17 98 3 86Z" fill="url(#node-1-metal)" stroke="currentColor" stroke-width="2" /><path d="M3 8L17 20 97 14M17 20V98" fill="none" stroke="currentColor" stroke-width="1.5" /><rect x="25" y="29" width="61" height="43" fill="#202326" /><rect x="26" y="77" width="58" height="9" fill="url(#node-1-mesh)" /></g></g><text x="184.62" y="511.36" text-anchor="middle" fill="#E7E0D0" font-size="20" font-family="sans-serif">WORKER</text><g transform="translate(395.724 292) scale(0.41472 0.9216)" color="#5E737B"><g transform=""><defs>
+<linearGradient id="node-2-metal" x1="0" y1="0" x2="1" y2="1"><stop stop-color="currentColor" /><stop offset=".32" stop-color="#202326" /><stop offset=".75" stop-color="#101214" /><stop offset="1" stop-color="currentColor" /></linearGradient>
+<pattern id="node-2-mesh" width="5" height="5" patternUnits="userSpaceOnUse"><circle cx="2.5" cy="2.5" r=".7" fill="#101214" /><path d="M0 0H5" stroke="#E7E0D0" stroke-opacity=".08" stroke-width=".4" /></pattern>
+</defs><rect x="5" y="2" width="90" height="96" rx="2" fill="url(#node-2-metal)" stroke="currentColor" stroke-width="2" /><rect x="8" y="6" width="7" height="86" fill="url(#node-2-mesh)" /><rect x="85" y="6" width="7" height="86" fill="url(#node-2-mesh)" /><rect x="20" y="8" width="60" height="10" fill="#202326" stroke="currentColor" stroke-width="0.7" /><rect x="24" y="10" width="38" height="6" fill="url(#node-2-mesh)" /><path d="M71 11V15" fill="none" stroke="#E7E0D0" stroke-width="1.3" /><rect x="20" y="21" width="60" height="10" fill="#202326" stroke="currentColor" stroke-width="0.7" /><rect x="24" y="23" width="38" height="6" fill="url(#node-2-mesh)" /><path d="M71 24V28" fill="none" stroke="#E7E0D0" stroke-width="1.3" /><rect x="20" y="34" width="60" height="10" fill="#202326" stroke="currentColor" stroke-width="0.7" /><rect x="24" y="36" width="38" height="6" fill="url(#node-2-mesh)" /><path d="M71 37V41" fill="none" stroke="#E7E0D0" stroke-width="1.3" /><rect x="20" y="47" width="60" height="10" fill="#202326" stroke="currentColor" stroke-width="0.7" /><rect x="24" y="49" width="38" height="6" fill="url(#node-2-mesh)" /><path d="M71 50V54" fill="none" stroke="#E7E0D0" stroke-width="1.3" /><rect x="20" y="60" width="60" height="10" fill="#202326" stroke="currentColor" stroke-width="0.7" /><rect x="24" y="62" width="38" height="6" fill="url(#node-2-mesh)" /><path d="M71 63V67" fill="none" stroke="#E7E0D0" stroke-width="1.3" /><rect x="20" y="73" width="60" height="10" fill="#202326" stroke="currentColor" stroke-width="0.7" /><rect x="24" y="75" width="38" height="6" fill="url(#node-2-mesh)" /><path d="M71 76V80" fill="none" stroke="#E7E0D0" stroke-width="1.3" /><rect x="20" y="86" width="60" height="10" fill="#202326" stroke="currentColor" stroke-width="0.7" /><rect x="24" y="88" width="38" height="6" fill="url(#node-2-mesh)" /><path d="M71 89V93" fill="none" stroke="#E7E0D0" stroke-width="1.3" /></g></g><text x="416.46" y="408.96" text-anchor="middle" fill="#E7E0D0" font-size="20" font-family="sans-serif">NODE</text><g transform="translate(555.84 189.6) scale(1.8492 0.9216)" color="#5E737B"><g transform=""><defs>
+<linearGradient id="node-3-stock" x1="0" y1="0" x2=".8" y2="1"><stop stop-color="#E7E0D0" /><stop offset="1" stop-color="#CEC5B3" /></linearGradient>
+<linearGradient id="node-3-tone" x1="0" y1="0" x2="1" y2="1"><stop stop-color="currentColor" /><stop offset="1" stop-color="#101214" stop-opacity=".65" /></linearGradient>
+</defs><path d="M5 20V8H36L47 20H94V88H5Z" fill="#CEC5B3" stroke="currentColor" stroke-width="2" /><rect x="12" y="29" width="73" height="46" fill="url(#node-3-stock)" /><path d="M2 35H98L91 94H9Z" fill="url(#node-3-tone)" stroke="currentColor" stroke-width="2" /><path d="M12 43H89" fill="none" stroke="#E7E0D0" stroke-width="1" opacity=".5" /><rect x="20" y="55" width="55" height="20" fill="#CEC5B3" /><path d="M27 63H66M27 69H54" fill="none" stroke="#101214" stroke-width="1.3" /></g></g><text x="648.3" y="306.56" text-anchor="middle" fill="#E7E0D0" font-size="20" font-family="sans-serif">CLUSTER</text><g transform="translate(787.68 87.2) scale(1.8492 0.9216)" color="#5E737B"><g transform=""><defs><linearGradient id="node-4-metal" x2="0" y2="1"><stop stop-color="currentColor" /><stop offset="1" stop-color="#101214" /></linearGradient></defs><path d="M3 50H25M75 50H97" stroke="currentColor" stroke-width="5" /><rect x="27" y="7" width="46" height="86" fill="url(#node-4-metal)" stroke="currentColor" stroke-width="3" /><path d="M27 28H73M27 50H73M27 72H73M50 7V28M41 28V50M59 50V72M50 72V93" stroke="#e7e0d0" opacity=".35" stroke-width="1.5" /><path d="M18 44V56M82 44V56" stroke="currentColor" stroke-width="3" /><defs><pattern id="node-4-stipple" width="6" height="7" patternUnits="userSpaceOnUse"><circle cx="1" cy="2" r=".6" fill="#101214" /><circle cx="4" cy="5" r=".4" fill="#e7e0d0" opacity=".3" /></pattern></defs><rect x="29" y="9" width="42" height="82" fill="url(#node-4-stipple)" opacity=".6" /><path d="M29 9H71M29 9V91" fill="none" stroke="#e7e0d0" stroke-width="1" opacity=".7" /></g></g><text x="880.14" y="204.16" text-anchor="middle" fill="#E7E0D0" font-size="20" font-family="sans-serif">NETWORK</text><rect x="3" y="3" width="1194" height="794" fill="none" stroke="#5E737B" stroke-width="4"/></svg>

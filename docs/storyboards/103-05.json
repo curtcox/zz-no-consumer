@@ -14,6 +14,46 @@
   "lettering_mode": "manual",
   "nodes": [
     {
+      "asset": "location-background-huggingface-infrastructure",
+      "box": [
+        0.02,
+        0.02,
+        0.303333,
+        0.4675
+      ],
+      "color": "steel"
+    },
+    {
+      "asset": "location-background-openai-research-infrastructure",
+      "box": [
+        0.348333,
+        0.02,
+        0.303333,
+        0.4675
+      ],
+      "color": "steel"
+    },
+    {
+      "asset": "location-background-institutional-composite",
+      "box": [
+        0.676667,
+        0.02,
+        0.303333,
+        0.4675
+      ],
+      "color": "steel"
+    },
+    {
+      "asset": "location-background-regulatory-office",
+      "box": [
+        0.02,
+        0.5125,
+        0.303333,
+        0.4675
+      ],
+      "color": "steel"
+    },
+    {
       "asset": "rack",
       "box": [
         0.146095,

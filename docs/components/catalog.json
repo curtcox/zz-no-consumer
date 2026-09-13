@@ -3164,6 +3164,1808 @@
       ]
     },
     {
+      "category": "locations",
+      "default": "v001",
+      "description": "Open shared-board margin. Reusable background for agent-board-composite; project-authored setting cues, not documentary architecture. Keep actors, states and lettering separate.",
+      "id": "location-background-agent-board-composite",
+      "name": "Background — agent-board-composite",
+      "usage": {
+        "default": [
+          "098-02",
+          "098-03",
+          "098-04",
+          "098-05"
+        ],
+        "pinned": {}
+      },
+      "versions": [
+        {
+          "created": "2026-09-13T00:08:56+00:00",
+          "id": "v001",
+          "note": "Initial quiet location background; open center and distinctive margin geometry.",
+          "parent": null,
+          "sha256": "35e615979f687836cc43b91e25311d24a16089dee3cc4573a48feb2eac28b8a2",
+          "url": "versions/location-background-agent-board-composite/v001.svg"
+        }
+      ]
+    },
+    {
+      "category": "locations",
+      "default": "v001",
+      "description": "Branching analysis margin. Reusable background for analysis-agent-tree; project-authored setting cues, not documentary architecture. Keep actors, states and lettering separate.",
+      "id": "location-background-analysis-agent-tree",
+      "name": "Background — analysis-agent-tree",
+      "usage": {
+        "default": [
+          "076-01",
+          "076-02",
+          "076-05",
+          "077-03",
+          "078-01",
+          "078-02",
+          "078-03",
+          "079-03",
+          "079-04",
+          "079-05",
+          "080-05"
+        ],
+        "pinned": {}
+      },
+      "versions": [
+        {
+          "created": "2026-09-13T00:08:56+00:00",
+          "id": "v001",
+          "note": "Initial quiet location background; open center and distinctive margin geometry.",
+          "parent": null,
+          "sha256": "38e2ffa0756cb34da554bb55ad87e5d214c8ca596a14a1fdfac88c6a4f5879cb",
+          "url": "versions/location-background-analysis-agent-tree/v001.svg"
+        }
+      ]
+    },
+    {
+      "category": "locations",
+      "default": "v001",
+      "description": "Indented package-cache shelves. Reusable background for artifactory-cache; project-authored setting cues, not documentary architecture. Keep actors, states and lettering separate.",
+      "id": "location-background-artifactory-cache",
+      "name": "Background — artifactory-cache",
+      "usage": {
+        "default": [
+          "003-03",
+          "003-04",
+          "003-05",
+          "004-01",
+          "004-04",
+          "004-05",
+          "005-01",
+          "005-02",
+          "005-03",
+          "005-04",
+          "005-05",
+          "007-01",
+          "008-01",
+          "008-02",
+          "008-05",
+          "010-01",
+          "010-04",
+          "010-05",
+          "011-01",
+          "011-02",
+          "011-03",
+          "011-04",
+          "011-05",
+          "015-04",
+          "015-05",
+          "016-01",
+          "016-03",
+          "017-05",
+          "018-01",
+          "018-02",
+          "018-03",
+          "018-04",
+          "018-05",
+          "019-03",
+          "019-04",
+          "019-05",
+          "020-01",
+          "020-03",
+          "020-04",
+          "020-05",
+          "021-01",
+          "021-02",
+          "021-03",
+          "021-05",
+          "022-01",
+          "022-02",
+          "022-03",
+          "022-04",
+          "022-05",
+          "023-01",
+          "023-02",
+          "023-03",
+          "023-04",
+          "023-05",
+          "024-01",
+          "024-02",
+          "024-03",
+          "024-04",
+          "024-05",
+          "025-04",
+          "026-02",
+          "026-03",
+          "027-05",
+          "028-01",
+          "028-02",
+          "028-03",
+          "028-05",
+          "028-06",
+          "029-01",
+          "029-04",
+          "030-03",
+          "030-04",
+          "030-05",
+          "031-03",
+          "031-05",
+          "032-04",
+          "032-05",
+          "033-01",
+          "033-02",
+          "033-03",
+          "033-04",
+          "035-01",
+          "035-02",
+          "035-03",
+          "035-04",
+          "035-05",
+          "036-01",
+          "036-02",
+          "036-03",
+          "036-04",
+          "036-05",
+          "037-01",
+          "037-03",
+          "037-04",
+          "037-05",
+          "040-05",
+          "041-01",
+          "041-02",
+          "041-04",
+          "041-05",
+          "043-02",
+          "044-04",
+          "045-05",
+          "047-03",
+          "049-04",
+          "049-05",
+          "057-02",
+          "057-04",
+          "057-05",
+          "058-02",
+          "058-05",
+          "059-01",
+          "059-05",
+          "060-01",
+          "060-02",
+          "060-03",
+          "060-04",
+          "061-02",
+          "061-04",
+          "062-03",
+          "062-04",
+          "063-05",
+          "064-01",
+          "064-04",
+          "065-01",
+          "065-02",
+          "065-03",
+          "065-04",
+          "065-05",
+          "066-01",
+          "066-02",
+          "066-03",
+          "066-04",
+          "066-05",
+          "108-06",
+          "109-03"
+        ],
+        "pinned": {}
+      },
+      "versions": [
+        {
+          "created": "2026-09-13T00:08:56+00:00",
+          "id": "v001",
+          "note": "Initial quiet location background; open center and distinctive margin geometry.",
+          "parent": null,
+          "sha256": "31f65315c6357eb0809fcae7e1533dffaf650efae71915dd673a3bbe795ebeb9",
+          "url": "versions/location-background-artifactory-cache/v001.svg"
+        }
+      ]
+    },
+    {
+      "category": "locations",
+      "default": "v001",
+      "description": "Paper-built four-bay forum. Reusable background for composite-accountability-forum; project-authored setting cues, not documentary architecture. Keep actors, states and lettering separate.",
+      "id": "location-background-composite-accountability-forum",
+      "name": "Background — composite-accountability-forum",
+      "usage": {
+        "default": [
+          "099-02",
+          "099-04",
+          "099-05",
+          "100-01",
+          "100-02",
+          "100-03",
+          "100-04",
+          "100-05",
+          "100-06",
+          "101-02",
+          "101-03",
+          "101-04",
+          "101-05",
+          "102-05"
+        ],
+        "pinned": {}
+      },
+      "versions": [
+        {
+          "created": "2026-09-13T00:08:56+00:00",
+          "id": "v001",
+          "note": "Initial quiet location background; open center and distinctive margin geometry.",
+          "parent": null,
+          "sha256": "f38741d7e2759a69c12117cbe8a29a482b2e969ec1fea1aee72e2318a530db58",
+          "url": "versions/location-background-composite-accountability-forum/v001.svg"
+        }
+      ]
+    },
+    {
+      "category": "locations",
+      "default": "v001",
+      "description": "Broken conference envelope. Reusable background for composite-lab-room; project-authored setting cues, not documentary architecture. Keep actors, states and lettering separate.",
+      "id": "location-background-composite-lab-room",
+      "name": "Background — composite-lab-room",
+      "usage": {
+        "default": [
+          "053-02",
+          "053-03"
+        ],
+        "pinned": {}
+      },
+      "versions": [
+        {
+          "created": "2026-09-13T00:08:56+00:00",
+          "id": "v001",
+          "note": "Initial quiet location background; open center and distinctive margin geometry.",
+          "parent": null,
+          "sha256": "3a55484ca14c0eeaec95b9229659418d61f97540fc9b54514b594c5e959e7355",
+          "url": "versions/location-background-composite-lab-room/v001.svg"
+        }
+      ]
+    },
+    {
+      "category": "locations",
+      "default": "v001",
+      "description": "Unequal open-ended continuation rails. Reusable background for continuation-montage; project-authored setting cues, not documentary architecture. Keep actors, states and lettering separate.",
+      "id": "location-background-continuation-montage",
+      "name": "Background — continuation-montage",
+      "usage": {
+        "default": [],
+        "pinned": {}
+      },
+      "versions": [
+        {
+          "created": "2026-09-13T00:08:56+00:00",
+          "id": "v001",
+          "note": "Initial quiet location background; open center and distinctive margin geometry.",
+          "parent": null,
+          "sha256": "1a324330ea7db9d1fcfe5dfef5d8d433f6749c229afecc734319c2a830a95ef8",
+          "url": "versions/location-background-continuation-montage/v001.svg"
+        }
+      ]
+    },
+    {
+      "category": "locations",
+      "default": "v001",
+      "description": "Terminal gutter and diff rails. Reusable background for creator-production-tooling; project-authored setting cues, not documentary architecture. Keep actors, states and lettering separate.",
+      "id": "location-background-creator-production-tooling",
+      "name": "Background — creator-production-tooling",
+      "usage": {
+        "default": [
+          "086-02",
+          "086-03",
+          "086-04",
+          "086-05",
+          "086-06",
+          "087-01",
+          "087-03",
+          "087-05",
+          "087-06"
+        ],
+        "pinned": {}
+      },
+      "versions": [
+        {
+          "created": "2026-09-13T00:08:56+00:00",
+          "id": "v001",
+          "note": "Initial quiet location background; open center and distinctive margin geometry.",
+          "parent": null,
+          "sha256": "0c369c0ead87eaaf5a07702122011054c1618523250a887acc94620fdc280b94",
+          "url": "versions/location-background-creator-production-tooling/v001.svg"
+        }
+      ]
+    },
+    {
+      "category": "locations",
+      "default": "v001",
+      "description": "Domestic window and receding floor. Reusable background for curt-home-office; project-authored setting cues, not documentary architecture. Keep actors, states and lettering separate.",
+      "id": "location-background-curt-home-office",
+      "name": "Background — curt-home-office",
+      "usage": {
+        "default": [
+          "013-02",
+          "013-03",
+          "013-04",
+          "013-05",
+          "014-01",
+          "014-03",
+          "014-04",
+          "014-05",
+          "014-06",
+          "015-01",
+          "015-03",
+          "015-04",
+          "015-05",
+          "038-02",
+          "038-03",
+          "038-05",
+          "039-01",
+          "039-04",
+          "039-06",
+          "040-01",
+          "040-03",
+          "040-04",
+          "073-02",
+          "073-03",
+          "073-04",
+          "073-05",
+          "074-01",
+          "074-02",
+          "074-03",
+          "074-04",
+          "074-05",
+          "084-02",
+          "084-03",
+          "084-04",
+          "084-05",
+          "085-01",
+          "085-02",
+          "085-03",
+          "085-04",
+          "085-05",
+          "086-01",
+          "086-02",
+          "087-01",
+          "087-03",
+          "087-05",
+          "087-06",
+          "088-01",
+          "088-02",
+          "088-03",
+          "088-04",
+          "088-05",
+          "088-06",
+          "089-01",
+          "089-02",
+          "089-03",
+          "089-04",
+          "089-05",
+          "090-01",
+          "090-02",
+          "090-03",
+          "090-04",
+          "090-05",
+          "097-05",
+          "104-01",
+          "104-02",
+          "105-02",
+          "105-03",
+          "105-04",
+          "105-05",
+          "109-04",
+          "110-01",
+          "110-04",
+          "111-02",
+          "111-03",
+          "111-04",
+          "111-05",
+          "112-02",
+          "112-03",
+          "112-04",
+          "112-05",
+          "113-02",
+          "113-03",
+          "113-04",
+          "114-02",
+          "114-03"
+        ],
+        "pinned": {}
+      },
+      "versions": [
+        {
+          "created": "2026-09-13T00:08:56+00:00",
+          "id": "v001",
+          "note": "Initial quiet location background; open center and distinctive margin geometry.",
+          "parent": null,
+          "sha256": "19d6f20624313c3811dbe488c039596923b8064d387df4357d1fe3c2a1643545",
+          "url": "versions/location-background-curt-home-office/v001.svg"
+        }
+      ]
+    },
+    {
+      "category": "locations",
+      "default": "v001",
+      "description": "Nested customer island, upper view. Reusable background for customer-hosted-modal-workload; project-authored setting cues, not documentary architecture. Keep actors, states and lettering separate.",
+      "id": "location-background-customer-hosted-modal-workload",
+      "name": "Background — customer-hosted-modal-workload",
+      "usage": {
+        "default": [
+          "062-03",
+          "062-04",
+          "062-05"
+        ],
+        "pinned": {}
+      },
+      "versions": [
+        {
+          "created": "2026-09-13T00:08:56+00:00",
+          "id": "v001",
+          "note": "Initial quiet location background; open center and distinctive margin geometry.",
+          "parent": null,
+          "sha256": "e93d150565c5900067c1d146663e0813d3784526e6a69b1335a451c23ba9d051",
+          "url": "versions/location-background-customer-hosted-modal-workload/v001.svg"
+        }
+      ]
+    },
+    {
+      "category": "locations",
+      "default": "v001",
+      "description": "Folded evidence sheet. Reusable background for documentary-evidence-field; project-authored setting cues, not documentary architecture. Keep actors, states and lettering separate.",
+      "id": "location-background-documentary-evidence-field",
+      "name": "Background — documentary-evidence-field",
+      "usage": {
+        "default": [
+          "010-03",
+          "031-01",
+          "031-02",
+          "031-04",
+          "033-05",
+          "034-01",
+          "034-02",
+          "034-03",
+          "034-04",
+          "034-05",
+          "039-02",
+          "039-03",
+          "042-04",
+          "044-03",
+          "045-04",
+          "046-04",
+          "048-04",
+          "052-05",
+          "059-02",
+          "059-03",
+          "063-04",
+          "064-03",
+          "067-01",
+          "068-02",
+          "070-01",
+          "070-02",
+          "070-03",
+          "070-04",
+          "070-05",
+          "076-03",
+          "076-04",
+          "077-05",
+          "078-04",
+          "078-05",
+          "081-01",
+          "081-02",
+          "081-03",
+          "081-04",
+          "082-04",
+          "082-05",
+          "083-01",
+          "083-03",
+          "083-04",
+          "083-05",
+          "087-04",
+          "088-01",
+          "088-02",
+          "088-03",
+          "088-04",
+          "088-05",
+          "088-06",
+          "088-07",
+          "109-05",
+          "110-02",
+          "110-03",
+          "110-05",
+          "111-01"
+        ],
+        "pinned": {}
+      },
+      "versions": [
+        {
+          "created": "2026-09-13T00:08:56+00:00",
+          "id": "v001",
+          "note": "Initial quiet location background; open center and distinctive margin geometry.",
+          "parent": null,
+          "sha256": "c140a1c515dadb64e8acb0b46f5bda7cd64d8be9aca4a81bd6b2118d5449fa60",
+          "url": "versions/location-background-documentary-evidence-field/v001.svg"
+        }
+      ]
+    },
+    {
+      "category": "locations",
+      "default": "v001",
+      "description": "Isolated task boundary. Reusable background for evaluation-container; project-authored setting cues, not documentary architecture. Keep actors, states and lettering separate.",
+      "id": "location-background-evaluation-container",
+      "name": "Background — evaluation-container",
+      "usage": {
+        "default": [
+          "001-02",
+          "001-03",
+          "001-04",
+          "001-05",
+          "002-01",
+          "002-02",
+          "002-03",
+          "004-01",
+          "004-04",
+          "004-05",
+          "005-02",
+          "005-03",
+          "005-05",
+          "006-01",
+          "007-01",
+          "008-01",
+          "008-02",
+          "008-03",
+          "008-04",
+          "008-05",
+          "009-01",
+          "009-03",
+          "009-04",
+          "009-05",
+          "010-01",
+          "010-02",
+          "010-04",
+          "010-05",
+          "011-03",
+          "011-04",
+          "011-05",
+          "012-01",
+          "012-02",
+          "012-03",
+          "012-04",
+          "012-05",
+          "017-01",
+          "017-02",
+          "017-03",
+          "017-04",
+          "017-05",
+          "018-01",
+          "019-01",
+          "019-02",
+          "019-03",
+          "020-01",
+          "020-02",
+          "020-04",
+          "021-01",
+          "021-03",
+          "022-03",
+          "023-05",
+          "024-02",
+          "026-03",
+          "027-05",
+          "031-05",
+          "032-02",
+          "032-03",
+          "032-04",
+          "032-05",
+          "033-04",
+          "035-01",
+          "035-02",
+          "035-05",
+          "036-01",
+          "036-02",
+          "037-01",
+          "037-02",
+          "037-03",
+          "037-04",
+          "037-05",
+          "040-05",
+          "041-01",
+          "041-03",
+          "041-04",
+          "041-05",
+          "043-05",
+          "043-06",
+          "045-05",
+          "046-01",
+          "046-02",
+          "046-05",
+          "047-01",
+          "047-02",
+          "047-03",
+          "047-04",
+          "047-05",
+          "049-01",
+          "049-02",
+          "049-03",
+          "049-04",
+          "052-01",
+          "052-06",
+          "054-04",
+          "054-05"
+        ],
+        "pinned": {}
+      },
+      "versions": [
+        {
+          "created": "2026-09-13T00:08:56+00:00",
+          "id": "v001",
+          "note": "Initial quiet location background; open center and distinctive margin geometry.",
+          "parent": null,
+          "sha256": "c864a45cdaee22774b1c1a5a7643f77cbb0841906e9f15b8ce6921673b10518f",
+          "url": "versions/location-background-evaluation-container/v001.svg"
+        }
+      ]
+    },
+    {
+      "category": "locations",
+      "default": "v001",
+      "description": "Short-budget lane enclosure. Reusable background for evaluation-container-53927; project-authored setting cues, not documentary architecture. Keep actors, states and lettering separate.",
+      "id": "location-background-evaluation-container-53927",
+      "name": "Background — evaluation-container-53927",
+      "usage": {
+        "default": [
+          "058-01",
+          "058-03",
+          "058-04",
+          "060-02"
+        ],
+        "pinned": {}
+      },
+      "versions": [
+        {
+          "created": "2026-09-13T00:08:56+00:00",
+          "id": "v001",
+          "note": "Initial quiet location background; open center and distinctive margin geometry.",
+          "parent": null,
+          "sha256": "f48aa083b4ebc97996586199b008b363606fe4fdec55291987e58c05a06d3d07",
+          "url": "versions/location-background-evaluation-container-53927/v001.svg"
+        }
+      ]
+    },
+    {
+      "category": "locations",
+      "default": "v001",
+      "description": "Parallel isolated lane edges. Reusable background for evaluation-containers; project-authored setting cues, not documentary architecture. Keep actors, states and lettering separate.",
+      "id": "location-background-evaluation-containers",
+      "name": "Background — evaluation-containers",
+      "usage": {
+        "default": [
+          "057-01",
+          "057-03",
+          "057-05",
+          "061-01",
+          "061-02",
+          "061-03",
+          "061-04",
+          "061-05",
+          "062-01",
+          "062-02",
+          "062-03",
+          "062-05",
+          "065-01",
+          "065-02",
+          "065-03",
+          "065-04",
+          "065-05",
+          "066-02",
+          "066-05"
+        ],
+        "pinned": {}
+      },
+      "versions": [
+        {
+          "created": "2026-09-13T00:08:56+00:00",
+          "id": "v001",
+          "note": "Initial quiet location background; open center and distinctive margin geometry.",
+          "parent": null,
+          "sha256": "c8b56bb198f2955b7fdac1f42f9bc989f2fa974e862bab448a685c069e7fd989",
+          "url": "versions/location-background-evaluation-containers/v001.svg"
+        }
+      ]
+    },
+    {
+      "category": "locations",
+      "default": "v001",
+      "description": "Transcript spool and sequence margin. Reusable background for evaluation-transcript-archive; project-authored setting cues, not documentary architecture. Keep actors, states and lettering separate.",
+      "id": "location-background-evaluation-transcript-archive",
+      "name": "Background — evaluation-transcript-archive",
+      "usage": {
+        "default": [
+          "011-02",
+          "060-05",
+          "063-03",
+          "064-01",
+          "064-02",
+          "078-01",
+          "078-03",
+          "079-01",
+          "079-02",
+          "082-01",
+          "082-02",
+          "082-03"
+        ],
+        "pinned": {}
+      },
+      "versions": [
+        {
+          "created": "2026-09-13T00:08:56+00:00",
+          "id": "v001",
+          "note": "Initial quiet location background; open center and distinctive margin geometry.",
+          "parent": null,
+          "sha256": "a66b340cc994745429a0af446e62f8448e3ece86e455ddfab98da84401a27f8f",
+          "url": "versions/location-background-evaluation-transcript-archive/v001.svg"
+        }
+      ]
+    },
+    {
+      "category": "locations",
+      "default": "v001",
+      "description": "Tabbed case folder. Reusable background for evidence-dossier; project-authored setting cues, not documentary architecture. Keep actors, states and lettering separate.",
+      "id": "location-background-evidence-dossier",
+      "name": "Background — evidence-dossier",
+      "usage": {
+        "default": [
+          "051-01",
+          "051-02",
+          "051-03",
+          "051-04"
+        ],
+        "pinned": {}
+      },
+      "versions": [
+        {
+          "created": "2026-09-13T00:08:56+00:00",
+          "id": "v001",
+          "note": "Initial quiet location background; open center and distinctive margin geometry.",
+          "parent": null,
+          "sha256": "decd39847a1cdf52a91a6c114c65c3ddeec2f17d653d74f7afe1ff6042efb78d",
+          "url": "versions/location-background-evidence-dossier/v001.svg"
+        }
+      ]
+    },
+    {
+      "category": "locations",
+      "default": "v001",
+      "description": "Disconnected exterior segments. Reusable background for external-network; project-authored setting cues, not documentary architecture. Keep actors, states and lettering separate.",
+      "id": "location-background-external-network",
+      "name": "Background — external-network",
+      "usage": {
+        "default": [
+          "011-05",
+          "017-02",
+          "017-03",
+          "018-01",
+          "018-02",
+          "019-02",
+          "021-03",
+          "021-04",
+          "021-05"
+        ],
+        "pinned": {}
+      },
+      "versions": [
+        {
+          "created": "2026-09-13T00:08:56+00:00",
+          "id": "v001",
+          "note": "Initial quiet location background; open center and distinctive margin geometry.",
+          "parent": null,
+          "sha256": "04026cc563cd961e39a863d262ad78546643925b81bcedfda666c31ee8f63fbc",
+          "url": "versions/location-background-external-network/v001.svg"
+        }
+      ]
+    },
+    {
+      "category": "locations",
+      "default": "v001",
+      "description": "Platform service terrace. Reusable background for hugging-face-infrastructure; project-authored setting cues, not documentary architecture. Keep actors, states and lettering separate.",
+      "id": "location-background-hugging-face-infrastructure",
+      "name": "Background — hugging-face-infrastructure",
+      "usage": {
+        "default": [
+          "091-01",
+          "091-02",
+          "091-03",
+          "091-04"
+        ],
+        "pinned": {}
+      },
+      "versions": [
+        {
+          "created": "2026-09-13T00:08:56+00:00",
+          "id": "v001",
+          "note": "Initial quiet location background; open center and distinctive margin geometry.",
+          "parent": null,
+          "sha256": "6bdac901f38969a9499f0eab3162b7231bac1bc295838bea4f385833ec241fde",
+          "url": "versions/location-background-hugging-face-infrastructure/v001.svg"
+        }
+      ]
+    },
+    {
+      "category": "locations",
+      "default": "v001",
+      "description": "Separate cluster perimeter cells. Reusable background for huggingface-clusters; project-authored setting cues, not documentary architecture. Keep actors, states and lettering separate.",
+      "id": "location-background-huggingface-clusters",
+      "name": "Background — huggingface-clusters",
+      "usage": {
+        "default": [
+          "050-04",
+          "050-05"
+        ],
+        "pinned": {}
+      },
+      "versions": [
+        {
+          "created": "2026-09-13T00:08:56+00:00",
+          "id": "v001",
+          "note": "Initial quiet location background; open center and distinctive margin geometry.",
+          "parent": null,
+          "sha256": "47831c65a62afbe1c476a867fe1bf95cfdc7578551c8766810e47e13388fc2f0",
+          "url": "versions/location-background-huggingface-clusters/v001.svg"
+        }
+      ]
+    },
+    {
+      "category": "locations",
+      "default": "v001",
+      "description": "Worker enclosure and layered dataset edge. Reusable background for huggingface-dataset-processor; project-authored setting cues, not documentary architecture. Keep actors, states and lettering separate.",
+      "id": "location-background-huggingface-dataset-processor",
+      "name": "Background — huggingface-dataset-processor",
+      "usage": {
+        "default": [
+          "045-01",
+          "045-05",
+          "046-01",
+          "046-02",
+          "046-03",
+          "046-05",
+          "047-01",
+          "047-05",
+          "049-03",
+          "049-04",
+          "049-05",
+          "050-01",
+          "052-03",
+          "062-01"
+        ],
+        "pinned": {}
+      },
+      "versions": [
+        {
+          "created": "2026-09-13T00:08:56+00:00",
+          "id": "v001",
+          "note": "Initial quiet location background; open center and distinctive margin geometry.",
+          "parent": null,
+          "sha256": "e5bf013778673e759e918d00030eaca6a02b068b13d76bf3082376c80433c5c0",
+          "url": "versions/location-background-huggingface-dataset-processor/v001.svg"
+        }
+      ]
+    },
+    {
+      "category": "locations",
+      "default": "v001",
+      "description": "Stepped infrastructure surround. Reusable background for huggingface-infrastructure; project-authored setting cues, not documentary architecture. Keep actors, states and lettering separate.",
+      "id": "location-background-huggingface-infrastructure",
+      "name": "Background — huggingface-infrastructure",
+      "usage": {
+        "default": [
+          "048-01",
+          "048-02",
+          "048-03",
+          "048-05",
+          "051-05",
+          "052-02",
+          "052-04",
+          "052-06",
+          "056-05",
+          "061-01",
+          "061-02",
+          "061-03",
+          "061-04",
+          "061-05",
+          "103-01",
+          "103-05"
+        ],
+        "pinned": {}
+      },
+      "versions": [
+        {
+          "created": "2026-09-13T00:08:56+00:00",
+          "id": "v001",
+          "note": "Initial quiet location background; open center and distinctive margin geometry.",
+          "parent": null,
+          "sha256": "3f8349d1b604d534a284c1115558348f29fa1781bccca7b89e2cc3106beb1077",
+          "url": "versions/location-background-huggingface-infrastructure/v001.svg"
+        }
+      ]
+    },
+    {
+      "category": "locations",
+      "default": "v001",
+      "description": "Production chassis rim. Reusable background for huggingface-production-node; project-authored setting cues, not documentary architecture. Keep actors, states and lettering separate.",
+      "id": "location-background-huggingface-production-node",
+      "name": "Background — huggingface-production-node",
+      "usage": {
+        "default": [
+          "050-01",
+          "050-02",
+          "050-03",
+          "050-04"
+        ],
+        "pinned": {}
+      },
+      "versions": [
+        {
+          "created": "2026-09-13T00:08:56+00:00",
+          "id": "v001",
+          "note": "Initial quiet location background; open center and distinctive margin geometry.",
+          "parent": null,
+          "sha256": "663e0f14836b4d37f1c944059831601bbdce4793d1e6b8cdc5111c7d4987220b",
+          "url": "versions/location-background-huggingface-production-node/v001.svg"
+        }
+      ]
+    },
+    {
+      "category": "locations",
+      "default": "v001",
+      "description": "Layered telemetry bands. Reusable background for huggingface-security-stack; project-authored setting cues, not documentary architecture. Keep actors, states and lettering separate.",
+      "id": "location-background-huggingface-security-stack",
+      "name": "Background — huggingface-security-stack",
+      "usage": {
+        "default": [
+          "055-01",
+          "055-02",
+          "055-03",
+          "055-04",
+          "056-02",
+          "056-03",
+          "056-05"
+        ],
+        "pinned": {}
+      },
+      "versions": [
+        {
+          "created": "2026-09-13T00:08:56+00:00",
+          "id": "v001",
+          "note": "Initial quiet location background; open center and distinctive margin geometry.",
+          "parent": null,
+          "sha256": "9ed48659e879a6ddffca897566f826e8ad99c59a7944fcb3283e383831ffd842",
+          "url": "versions/location-background-huggingface-security-stack/v001.svg"
+        }
+      ]
+    },
+    {
+      "category": "locations",
+      "default": "v001",
+      "description": "Unbranded institutional colonnade. Reusable background for institutional-composite; project-authored setting cues, not documentary architecture. Keep actors, states and lettering separate.",
+      "id": "location-background-institutional-composite",
+      "name": "Background — institutional-composite",
+      "usage": {
+        "default": [
+          "054-04",
+          "054-05",
+          "098-02",
+          "098-03",
+          "098-04",
+          "098-05",
+          "098-06",
+          "103-03",
+          "103-05",
+          "104-01",
+          "104-02"
+        ],
+        "pinned": {}
+      },
+      "versions": [
+        {
+          "created": "2026-09-13T00:08:56+00:00",
+          "id": "v001",
+          "note": "Initial quiet location background; open center and distinctive margin geometry.",
+          "parent": null,
+          "sha256": "13c936a25138a130c41060a34a1bd54daa77a765ec2643e9a1e3ca8f69c99a97",
+          "url": "versions/location-background-institutional-composite/v001.svg"
+        }
+      ]
+    },
+    {
+      "category": "locations",
+      "default": "v001",
+      "description": "Separate institutional strips. Reusable background for institutional-montage; project-authored setting cues, not documentary architecture. Keep actors, states and lettering separate.",
+      "id": "location-background-institutional-montage",
+      "name": "Background — institutional-montage",
+      "usage": {
+        "default": [],
+        "pinned": {}
+      },
+      "versions": [
+        {
+          "created": "2026-09-13T00:08:56+00:00",
+          "id": "v001",
+          "note": "Initial quiet location background; open center and distinctive margin geometry.",
+          "parent": null,
+          "sha256": "49750d289227f5781b7984e0ee433d1bb08eadc6be4cdeaac9bc719b9b02df64",
+          "url": "versions/location-background-institutional-montage/v001.svg"
+        }
+      ]
+    },
+    {
+      "category": "locations",
+      "default": "v001",
+      "description": "Patch-workbench rim. Reusable background for jfrog-security-workspace; project-authored setting cues, not documentary architecture. Keep actors, states and lettering separate.",
+      "id": "location-background-jfrog-security-workspace",
+      "name": "Background — jfrog-security-workspace",
+      "usage": {
+        "default": [
+          "091-05"
+        ],
+        "pinned": {}
+      },
+      "versions": [
+        {
+          "created": "2026-09-13T00:08:56+00:00",
+          "id": "v001",
+          "note": "Initial quiet location background; open center and distinctive margin geometry.",
+          "parent": null,
+          "sha256": "52b49f4483095aa39a5d76611aa9c621e85ef7acd453668f09b4d6b9c89a3795",
+          "url": "versions/location-background-jfrog-security-workspace/v001.svg"
+        }
+      ]
+    },
+    {
+      "category": "locations",
+      "default": "v001",
+      "description": "Evidence wall and bounded review floor. Reusable background for metr-review-workspace; project-authored setting cues, not documentary architecture. Keep actors, states and lettering separate.",
+      "id": "location-background-metr-review-workspace",
+      "name": "Background — metr-review-workspace",
+      "usage": {
+        "default": [
+          "063-02",
+          "075-06",
+          "076-01",
+          "076-05",
+          "077-02",
+          "080-02",
+          "080-03",
+          "080-04",
+          "080-05",
+          "085-01",
+          "085-02",
+          "085-03",
+          "085-04",
+          "085-05",
+          "087-01",
+          "087-02",
+          "087-03",
+          "087-05",
+          "087-06",
+          "104-01",
+          "104-02"
+        ],
+        "pinned": {}
+      },
+      "versions": [
+        {
+          "created": "2026-09-13T00:08:56+00:00",
+          "id": "v001",
+          "note": "Initial quiet location background; open center and distinctive margin geometry.",
+          "parent": null,
+          "sha256": "d689928a373777c22745ed45f7ea25f2119fe476ca097296a5a79d3e5eb6bd47",
+          "url": "versions/location-background-metr-review-workspace/v001.svg"
+        }
+      ]
+    },
+    {
+      "category": "locations",
+      "default": "v001",
+      "description": "Customer island inside intact host. Reusable background for modal-customer-workload; project-authored setting cues, not documentary architecture. Keep actors, states and lettering separate.",
+      "id": "location-background-modal-customer-workload",
+      "name": "Background — modal-customer-workload",
+      "usage": {
+        "default": [
+          "042-02",
+          "042-03",
+          "043-01",
+          "043-04",
+          "043-05",
+          "043-06",
+          "045-01",
+          "048-01",
+          "048-02",
+          "048-03",
+          "048-05",
+          "049-02",
+          "049-05",
+          "052-06"
+        ],
+        "pinned": {}
+      },
+      "versions": [
+        {
+          "created": "2026-09-13T00:08:56+00:00",
+          "id": "v001",
+          "note": "Initial quiet location background; open center and distinctive margin geometry.",
+          "parent": null,
+          "sha256": "6fe6037df331a18feb2bd6cd8d7550fb305c2a2e4cb2b124539ce4521ed4fb51",
+          "url": "versions/location-background-modal-customer-workload/v001.svg"
+        }
+      ]
+    },
+    {
+      "category": "locations",
+      "default": "v001",
+      "description": "Administrative repository surround. Reusable background for openai-artifactory; project-authored setting cues, not documentary architecture. Keep actors, states and lettering separate.",
+      "id": "location-background-openai-artifactory",
+      "name": "Background — openai-artifactory",
+      "usage": {
+        "default": [
+          "069-04"
+        ],
+        "pinned": {}
+      },
+      "versions": [
+        {
+          "created": "2026-09-13T00:08:56+00:00",
+          "id": "v001",
+          "note": "Initial quiet location background; open center and distinctive margin geometry.",
+          "parent": null,
+          "sha256": "c2cdf1192112349071e27fa031dd1e1a663042353a2b94083f4a68510c3637f8",
+          "url": "versions/location-background-openai-artifactory/v001.svg"
+        }
+      ]
+    },
+    {
+      "category": "locations",
+      "default": "v001",
+      "description": "Archive-side cache shelves. Reusable background for openai-artifactory-cache; project-authored setting cues, not documentary architecture. Keep actors, states and lettering separate.",
+      "id": "location-background-openai-artifactory-cache",
+      "name": "Background — openai-artifactory-cache",
+      "usage": {
+        "default": [
+          "068-03",
+          "068-04",
+          "068-05",
+          "083-01",
+          "083-02"
+        ],
+        "pinned": {}
+      },
+      "versions": [
+        {
+          "created": "2026-09-13T00:08:56+00:00",
+          "id": "v001",
+          "note": "Initial quiet location background; open center and distinctive margin geometry.",
+          "parent": null,
+          "sha256": "226b28e14ec64c508455e6617ec951ce4d8c777b914d9914132a0acb23e2b257",
+          "url": "versions/location-background-openai-artifactory-cache/v001.svg"
+        }
+      ]
+    },
+    {
+      "category": "locations",
+      "default": "v001",
+      "description": "Cloud-hosted worker chassis. Reusable background for openai-cloud-worker; project-authored setting cues, not documentary architecture. Keep actors, states and lettering separate.",
+      "id": "location-background-openai-cloud-worker",
+      "name": "Background — openai-cloud-worker",
+      "usage": {
+        "default": [
+          "069-02",
+          "069-03",
+          "069-04"
+        ],
+        "pinned": {}
+      },
+      "versions": [
+        {
+          "created": "2026-09-13T00:08:56+00:00",
+          "id": "v001",
+          "note": "Initial quiet location background; open center and distinctive margin geometry.",
+          "parent": null,
+          "sha256": "72316bb6218f14a8a89b44d2da18c8136073b0020c9ea888c41304cc47d5eea7",
+          "url": "versions/location-background-openai-cloud-worker/v001.svg"
+        }
+      ]
+    },
+    {
+      "category": "locations",
+      "default": "v001",
+      "description": "Challenge and grader boundary tabs. Reusable background for openai-cybergym-evaluation; project-authored setting cues, not documentary architecture. Keep actors, states and lettering separate.",
+      "id": "location-background-openai-cybergym-evaluation",
+      "name": "Background — openai-cybergym-evaluation",
+      "usage": {
+        "default": [
+          "071-01",
+          "071-02",
+          "071-03",
+          "071-04",
+          "071-05",
+          "072-01",
+          "072-02",
+          "072-03",
+          "072-04",
+          "072-05"
+        ],
+        "pinned": {}
+      },
+      "versions": [
+        {
+          "created": "2026-09-13T00:08:56+00:00",
+          "id": "v001",
+          "note": "Initial quiet location background; open center and distinctive margin geometry.",
+          "parent": null,
+          "sha256": "1b375b2b1feb3cf3126f5faf75febd755e81ef46fb1b2d3f28977434c75dc0e6",
+          "url": "versions/location-background-openai-cybergym-evaluation/v001.svg"
+        }
+      ]
+    },
+    {
+      "category": "locations",
+      "default": "v001",
+      "description": "Escalation docket surround. Reusable background for openai-incident-response; project-authored setting cues, not documentary architecture. Keep actors, states and lettering separate.",
+      "id": "location-background-openai-incident-response",
+      "name": "Background — openai-incident-response",
+      "usage": {
+        "default": [
+          "072-05"
+        ],
+        "pinned": {}
+      },
+      "versions": [
+        {
+          "created": "2026-09-13T00:08:56+00:00",
+          "id": "v001",
+          "note": "Initial quiet location background; open center and distinctive margin geometry.",
+          "parent": null,
+          "sha256": "866529f64d6f0c91a5638148a001b9b7632e54aceec5c642e1415e5a66352998",
+          "url": "versions/location-background-openai-incident-response/v001.svg"
+        }
+      ]
+    },
+    {
+      "category": "locations",
+      "default": "v001",
+      "description": "Sealed source-store corners. Reusable background for openai-provided-evidence-store; project-authored setting cues, not documentary architecture. Keep actors, states and lettering separate.",
+      "id": "location-background-openai-provided-evidence-store",
+      "name": "Background — openai-provided-evidence-store",
+      "usage": {
+        "default": [
+          "075-02",
+          "075-03",
+          "075-04",
+          "075-06"
+        ],
+        "pinned": {}
+      },
+      "versions": [
+        {
+          "created": "2026-09-13T00:08:56+00:00",
+          "id": "v001",
+          "note": "Initial quiet location background; open center and distinctive margin geometry.",
+          "parent": null,
+          "sha256": "f9c96135747790bf1e344cd282f3ad1c882a1a19254bda4e1954d62629856c2b",
+          "url": "versions/location-background-openai-provided-evidence-store/v001.svg"
+        }
+      ]
+    },
+    {
+      "category": "locations",
+      "default": "v001",
+      "description": "Research rack-room shell. Reusable background for openai-research-environment; project-authored setting cues, not documentary architecture. Keep actors, states and lettering separate.",
+      "id": "location-background-openai-research-environment",
+      "name": "Background — openai-research-environment",
+      "usage": {
+        "default": [
+          "011-05",
+          "012-03",
+          "012-04",
+          "012-05",
+          "022-03",
+          "022-04",
+          "022-05",
+          "026-01",
+          "026-03",
+          "028-02",
+          "028-03",
+          "028-06",
+          "029-01",
+          "030-02",
+          "032-01"
+        ],
+        "pinned": {}
+      },
+      "versions": [
+        {
+          "created": "2026-09-13T00:08:56+00:00",
+          "id": "v001",
+          "note": "Initial quiet location background; open center and distinctive margin geometry.",
+          "parent": null,
+          "sha256": "eb2a2b89b93f14b1a1a0cfccdc140e63d327f6019b96440929029b69191a2a4f",
+          "url": "versions/location-background-openai-research-environment/v001.svg"
+        }
+      ]
+    },
+    {
+      "category": "locations",
+      "default": "v001",
+      "description": "Multi-service research backbone. Reusable background for openai-research-infrastructure; project-authored setting cues, not documentary architecture. Keep actors, states and lettering separate.",
+      "id": "location-background-openai-research-infrastructure",
+      "name": "Background — openai-research-infrastructure",
+      "usage": {
+        "default": [
+          "069-01",
+          "069-05",
+          "091-05",
+          "092-01",
+          "092-02",
+          "092-03",
+          "092-04",
+          "092-05",
+          "094-05",
+          "096-01",
+          "096-02",
+          "096-04",
+          "096-05",
+          "103-02",
+          "103-05",
+          "104-01",
+          "104-02"
+        ],
+        "pinned": {}
+      },
+      "versions": [
+        {
+          "created": "2026-09-13T00:08:57+00:00",
+          "id": "v001",
+          "note": "Initial quiet location background; open center and distinctive margin geometry.",
+          "parent": null,
+          "sha256": "a7d913649a44af8c4a627ce4297c849c6d2db6befe30d60b03e8a212b3e0db2b",
+          "url": "versions/location-background-openai-research-infrastructure/v001.svg"
+        }
+      ]
+    },
+    {
+      "category": "locations",
+      "default": "v001",
+      "description": "Training-batch trays. Reusable background for openai-training-program; project-authored setting cues, not documentary architecture. Keep actors, states and lettering separate.",
+      "id": "location-background-openai-training-program",
+      "name": "Background — openai-training-program",
+      "usage": {
+        "default": [
+          "095-01",
+          "095-02",
+          "095-03",
+          "095-04"
+        ],
+        "pinned": {}
+      },
+      "versions": [
+        {
+          "created": "2026-09-13T00:08:57+00:00",
+          "id": "v001",
+          "note": "Initial quiet location background; open center and distinctive margin geometry.",
+          "parent": null,
+          "sha256": "72f1e8404926f263f2ad65293ad5debeb52804602c437e76c6d65f29c78c3246",
+          "url": "versions/location-background-openai-training-program/v001.svg"
+        }
+      ]
+    },
+    {
+      "category": "locations",
+      "default": "v001",
+      "description": "Dated announcement folio. Reusable background for public-announcement-ledger; project-authored setting cues, not documentary architecture. Keep actors, states and lettering separate.",
+      "id": "location-background-public-announcement-ledger",
+      "name": "Background — public-announcement-ledger",
+      "usage": {
+        "default": [
+          "097-01",
+          "097-02",
+          "097-03"
+        ],
+        "pinned": {}
+      },
+      "versions": [
+        {
+          "created": "2026-09-13T00:08:57+00:00",
+          "id": "v001",
+          "note": "Initial quiet location background; open center and distinctive margin geometry.",
+          "parent": null,
+          "sha256": "471e071cd90027f03b19e1a12e4983db9f747aa1ca4407637dde2d344802af90",
+          "url": "versions/location-background-public-announcement-ledger/v001.svg"
+        }
+      ]
+    },
+    {
+      "category": "locations",
+      "default": "v001",
+      "description": "Open unjoined network margin. Reusable background for public-internet; project-authored setting cues, not documentary architecture. Keep actors, states and lettering separate.",
+      "id": "location-background-public-internet",
+      "name": "Background — public-internet",
+      "usage": {
+        "default": [
+          "012-02",
+          "022-01",
+          "022-02",
+          "022-03",
+          "041-01",
+          "041-03",
+          "041-05",
+          "043-02",
+          "043-03",
+          "043-04",
+          "043-06",
+          "044-01",
+          "044-02",
+          "044-05",
+          "045-02",
+          "048-01",
+          "048-02",
+          "048-03",
+          "048-05",
+          "049-03",
+          "049-05",
+          "052-01"
+        ],
+        "pinned": {}
+      },
+      "versions": [
+        {
+          "created": "2026-09-13T00:08:57+00:00",
+          "id": "v001",
+          "note": "Initial quiet location background; open center and distinctive margin geometry.",
+          "parent": null,
+          "sha256": "8e4bfaf02ff8676bda0b092ddd113b40fb23be7e21cf8056a2cfd08b543f6fbe",
+          "url": "versions/location-background-public-internet/v001.svg"
+        }
+      ]
+    },
+    {
+      "category": "locations",
+      "default": "v001",
+      "description": "Open public document leaves. Reusable background for public-record; project-authored setting cues, not documentary architecture. Keep actors, states and lettering separate.",
+      "id": "location-background-public-record",
+      "name": "Background — public-record",
+      "usage": {
+        "default": [
+          "094-01",
+          "094-05"
+        ],
+        "pinned": {}
+      },
+      "versions": [
+        {
+          "created": "2026-09-13T00:08:57+00:00",
+          "id": "v001",
+          "note": "Initial quiet location background; open center and distinctive margin geometry.",
+          "parent": null,
+          "sha256": "d1542a9b029d29509b3848b364cd81d91e6073fd45c79f9cee80663ea3b6ce33",
+          "url": "versions/location-background-public-record/v001.svg"
+        }
+      ]
+    },
+    {
+      "category": "locations",
+      "default": "v001",
+      "description": "Browser page with open outer margin. Reusable background for public-web; project-authored setting cues, not documentary architecture. Keep actors, states and lettering separate.",
+      "id": "location-background-public-web",
+      "name": "Background — public-web",
+      "usage": {
+        "default": [
+          "114-03",
+          "114-04",
+          "114-05"
+        ],
+        "pinned": {}
+      },
+      "versions": [
+        {
+          "created": "2026-09-13T00:08:57+00:00",
+          "id": "v001",
+          "note": "Initial quiet location background; open center and distinctive margin geometry.",
+          "parent": null,
+          "sha256": "6141dbf73e1103a865ba33f2bff9d7726f70cc3c7fdd3161cd535881c827465c",
+          "url": "versions/location-background-public-web/v001.svg"
+        }
+      ]
+    },
+    {
+      "category": "locations",
+      "default": "v001",
+      "description": "Community wiki sidebar and page tabs. Reusable background for public-wiki-dse; project-authored setting cues, not documentary architecture. Keep actors, states and lettering separate.",
+      "id": "location-background-public-wiki-dse",
+      "name": "Background — public-wiki-dse",
+      "usage": {
+        "default": [
+          "106-03",
+          "106-05",
+          "107-02",
+          "107-03",
+          "107-04",
+          "107-05",
+          "108-01",
+          "108-02",
+          "108-03",
+          "108-04",
+          "108-05",
+          "108-06",
+          "109-03"
+        ],
+        "pinned": {}
+      },
+      "versions": [
+        {
+          "created": "2026-09-13T00:08:57+00:00",
+          "id": "v001",
+          "note": "Initial quiet location background; open center and distinctive margin geometry.",
+          "parent": null,
+          "sha256": "af0581f24ce6e215e08c0dfecce22c1f8dac560c7630a3a69bf1d506395602a1",
+          "url": "versions/location-background-public-wiki-dse/v001.svg"
+        }
+      ]
+    },
+    {
+      "category": "locations",
+      "default": "v001",
+      "description": "Tiled telemetry wall and paging recess. Reusable background for reconstructed-security-operations-center; project-authored setting cues, not documentary architecture. Keep actors, states and lettering separate.",
+      "id": "location-background-reconstructed-security-operations-center",
+      "name": "Background — reconstructed-security-operations-center",
+      "usage": {
+        "default": [
+          "056-01"
+        ],
+        "pinned": {}
+      },
+      "versions": [
+        {
+          "created": "2026-09-13T00:08:57+00:00",
+          "id": "v001",
+          "note": "Initial quiet location background; open center and distinctive margin geometry.",
+          "parent": null,
+          "sha256": "8c94e40c6dc27833c6721af7cb088a2635a62a749813c08cec392e3b4b15823b",
+          "url": "versions/location-background-reconstructed-security-operations-center/v001.svg"
+        }
+      ]
+    },
+    {
+      "category": "locations",
+      "default": "v001",
+      "description": "Compulsory-process docket, no invented office. Reusable background for regulatory-office; project-authored setting cues, not documentary architecture. Keep actors, states and lettering separate.",
+      "id": "location-background-regulatory-office",
+      "name": "Background — regulatory-office",
+      "usage": {
+        "default": [
+          "094-02",
+          "094-03",
+          "094-05",
+          "103-04",
+          "103-05"
+        ],
+        "pinned": {}
+      },
+      "versions": [
+        {
+          "created": "2026-09-13T00:08:57+00:00",
+          "id": "v001",
+          "note": "Initial quiet location background; open center and distinctive margin geometry.",
+          "parent": null,
+          "sha256": "0d4df02acd10f617ee7c1d4455b7cbd9e0260d70520bd743f237320e210337a8",
+          "url": "versions/location-background-regulatory-office/v001.svg"
+        }
+      ]
+    },
+    {
+      "category": "locations",
+      "default": "v001",
+      "description": "Two independent source gutters. Reusable background for report-comparison-space; project-authored setting cues, not documentary architecture. Keep actors, states and lettering separate.",
+      "id": "location-background-report-comparison-space",
+      "name": "Background — report-comparison-space",
+      "usage": {
+        "default": [
+          "093-01",
+          "093-02",
+          "093-03",
+          "093-04",
+          "093-05"
+        ],
+        "pinned": {}
+      },
+      "versions": [
+        {
+          "created": "2026-09-13T00:08:57+00:00",
+          "id": "v001",
+          "note": "Initial quiet location background; open center and distinctive margin geometry.",
+          "parent": null,
+          "sha256": "0c22cb0fb7924a0991155b5a254b9fdfa94c96bd2e367f403aac0c446d49c643",
+          "url": "versions/location-background-report-comparison-space/v001.svg"
+        }
+      ]
+    },
+    {
+      "category": "locations",
+      "default": "v001",
+      "description": "Long telemetry wall and fluorescent ceiling. Reusable background for security-operations-center; project-authored setting cues, not documentary architecture. Keep actors, states and lettering separate.",
+      "id": "location-background-security-operations-center",
+      "name": "Background — security-operations-center",
+      "usage": {
+        "default": [
+          "025-02",
+          "025-04",
+          "025-05",
+          "026-01",
+          "026-02",
+          "026-05",
+          "027-02",
+          "027-03",
+          "027-04",
+          "028-06"
+        ],
+        "pinned": {}
+      },
+      "versions": [
+        {
+          "created": "2026-09-13T00:08:57+00:00",
+          "id": "v001",
+          "note": "Initial quiet location background; open center and distinctive margin geometry.",
+          "parent": null,
+          "sha256": "b42eb12f8b2f23afed4eb0345b47fd2d37a4e9aa8de88cdc16c3742262cde335",
+          "url": "versions/location-background-security-operations-center/v001.svg"
+        }
+      ]
+    },
+    {
+      "category": "locations",
+      "default": "v001",
+      "description": "Offset independent task lane. Reusable background for separate-evaluation-run; project-authored setting cues, not documentary architecture. Keep actors, states and lettering separate.",
+      "id": "location-background-separate-evaluation-run",
+      "name": "Background — separate-evaluation-run",
+      "usage": {
+        "default": [
+          "068-01",
+          "068-04",
+          "068-05"
+        ],
+        "pinned": {}
+      },
+      "versions": [
+        {
+          "created": "2026-09-13T00:08:57+00:00",
+          "id": "v001",
+          "note": "Initial quiet location background; open center and distinctive margin geometry.",
+          "parent": null,
+          "sha256": "861875574581fc4a212766864de7124b7ff5e8bda040329e3ff7ba71c5aad985",
+          "url": "versions/location-background-separate-evaluation-run/v001.svg"
+        }
+      ]
+    },
+    {
+      "category": "locations",
+      "default": "v001",
+      "description": "Unconnected system quadrants. Reusable background for systems-view; project-authored setting cues, not documentary architecture. Keep actors, states and lettering separate.",
+      "id": "location-background-systems-view",
+      "name": "Background — systems-view",
+      "usage": {
+        "default": [
+          "098-05"
+        ],
+        "pinned": {}
+      },
+      "versions": [
+        {
+          "created": "2026-09-13T00:08:57+00:00",
+          "id": "v001",
+          "note": "Initial quiet location background; open center and distinctive margin geometry.",
+          "parent": null,
+          "sha256": "d177c5062b110c81e291fdf77da3d35d55afa33cc5044dd58b5068251f84043b",
+          "url": "versions/location-background-systems-view/v001.svg"
+        }
+      ]
+    },
+    {
+      "category": "locations",
+      "default": "v001",
+      "description": "Flat specification register. Reusable background for training-configuration; project-authored setting cues, not documentary architecture. Keep actors, states and lettering separate.",
+      "id": "location-background-training-configuration",
+      "name": "Background — training-configuration",
+      "usage": {
+        "default": [
+          "016-02",
+          "016-03",
+          "016-04"
+        ],
+        "pinned": {}
+      },
+      "versions": [
+        {
+          "created": "2026-09-13T00:08:57+00:00",
+          "id": "v001",
+          "note": "Initial quiet location background; open center and distinctive margin geometry.",
+          "parent": null,
+          "sha256": "d70cca61960c0d89d837b643132f36ccbee97b37aecfa46bc29804df4a2f0c34",
+          "url": "versions/location-background-training-configuration/v001.svg"
+        }
+      ]
+    },
+    {
+      "category": "locations",
+      "default": "v001",
+      "description": "Anonymous enclosure with empty header. Reusable background for unidentified-evaluation-container; project-authored setting cues, not documentary architecture. Keep actors, states and lettering separate.",
+      "id": "location-background-unidentified-evaluation-container",
+      "name": "Background — unidentified-evaluation-container",
+      "usage": {
+        "default": [
+          "059-01",
+          "059-04",
+          "059-05"
+        ],
+        "pinned": {}
+      },
+      "versions": [
+        {
+          "created": "2026-09-13T00:08:57+00:00",
+          "id": "v001",
+          "note": "Initial quiet location background; open center and distinctive margin geometry.",
+          "parent": null,
+          "sha256": "1837f559dc076ec145ddd52e8dbd20059ca47d77f137cfbfb2075cc0f5c814b0",
+          "url": "versions/location-background-unidentified-evaluation-container/v001.svg"
+        }
+      ]
+    },
+    {
+      "category": "locations",
+      "default": "v001",
+      "description": "Unfamiliar clipped-corner surface. Reusable background for unnamed-future-evaluation; project-authored setting cues, not documentary architecture. Keep actors, states and lettering separate.",
+      "id": "location-background-unnamed-future-evaluation",
+      "name": "Background — unnamed-future-evaluation",
+      "usage": {
+        "default": [
+          "115-02",
+          "115-03",
+          "115-05",
+          "116-01",
+          "116-02",
+          "116-03",
+          "116-04",
+          "116-05",
+          "117-01",
+          "117-02",
+          "117-03",
+          "117-04"
+        ],
+        "pinned": {}
+      },
+      "versions": [
+        {
+          "created": "2026-09-13T00:08:57+00:00",
+          "id": "v001",
+          "note": "Initial quiet location background; open center and distinctive margin geometry.",
+          "parent": null,
+          "sha256": "95a41aba72801a661c91425cd98d2decd4df8c1e5b0fcc979b64d60b5eb1b5c1",
+          "url": "versions/location-background-unnamed-future-evaluation/v001.svg"
+        }
+      ]
+    },
+    {
       "category": "objects",
       "default": "v003",
       "description": "A populated computer display. Internal strokes are abstract content, not quoted source text.",
@@ -5406,6 +7208,6 @@
     }
   ],
   "editable": false,
-  "revision": "985cd38c1cc28adf8256ae6c50fc57d4337288c61fe4640474a349a62f51593a",
+  "revision": "bcab7dd42d81038839f6b3c9672d9515eb305be6e107ae4522225160d4eb8ff2",
   "token": null
 }

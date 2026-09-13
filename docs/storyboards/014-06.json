@@ -13,6 +13,16 @@
   ],
   "nodes": [
     {
+      "asset": "location-background-curt-home-office",
+      "box": [
+        0.02,
+        0.02,
+        0.96,
+        0.96
+      ],
+      "color": "steel"
+    },
+    {
       "asset": "reconstructed-box",
       "box": [
         0.07,

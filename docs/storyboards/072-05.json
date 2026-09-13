@@ -14,6 +14,26 @@
   "lettering_mode": "manual",
   "nodes": [
     {
+      "asset": "location-background-openai-cybergym-evaluation",
+      "box": [
+        0.02,
+        0.02,
+        0.4675,
+        0.96
+      ],
+      "color": "steel"
+    },
+    {
+      "asset": "location-background-openai-incident-response",
+      "box": [
+        0.5125,
+        0.02,
+        0.4675,
+        0.96
+      ],
+      "color": "steel"
+    },
+    {
       "asset": "clock",
       "box": [
         0.110803,

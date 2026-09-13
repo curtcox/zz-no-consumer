@@ -22,6 +22,36 @@
   "lettering_mode": "manual",
   "nodes": [
     {
+      "asset": "location-background-metr-review-workspace",
+      "box": [
+        0.02,
+        0.02,
+        0.303333,
+        0.96
+      ],
+      "color": "steel"
+    },
+    {
+      "asset": "location-background-curt-home-office",
+      "box": [
+        0.348333,
+        0.02,
+        0.303333,
+        0.96
+      ],
+      "color": "steel"
+    },
+    {
+      "asset": "location-background-creator-production-tooling",
+      "box": [
+        0.676667,
+        0.02,
+        0.303333,
+        0.96
+      ],
+      "color": "steel"
+    },
+    {
       "asset": "folder",
       "box": [
         0.05775,

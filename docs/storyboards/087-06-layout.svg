@@ -1,6 +1,9 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="1200" height="800" viewBox="0 0 1200 800"><title>Three unresolved lanes continue beyond the page</title><desc>Extend all three separate lanes beyond the page edge with no verdict symbol. The unresolved ending preserves the open judgment about each decision.</desc><metadata>{
   &quot;assets&quot;: {
     &quot;folder&quot;: &quot;&lt;defs&gt;\n&lt;linearGradient id=\&quot;stock\&quot; x1=\&quot;0\&quot; y1=\&quot;0\&quot; x2=\&quot;.8\&quot; y2=\&quot;1\&quot;&gt;&lt;stop stop-color=\&quot;#E7E0D0\&quot; /&gt;&lt;stop offset=\&quot;1\&quot; stop-color=\&quot;#CEC5B3\&quot; /&gt;&lt;/linearGradient&gt;\n&lt;linearGradient id=\&quot;tone\&quot; x1=\&quot;0\&quot; y1=\&quot;0\&quot; x2=\&quot;1\&quot; y2=\&quot;1\&quot;&gt;&lt;stop stop-color=\&quot;currentColor\&quot; /&gt;&lt;stop offset=\&quot;1\&quot; stop-color=\&quot;#101214\&quot; stop-opacity=\&quot;.65\&quot; /&gt;&lt;/linearGradient&gt;\n&lt;/defs&gt;&lt;path d=\&quot;M5 20V8H36L47 20H94V88H5Z\&quot; fill=\&quot;#CEC5B3\&quot; stroke=\&quot;currentColor\&quot; stroke-width=\&quot;2\&quot; /&gt;&lt;rect x=\&quot;12\&quot; y=\&quot;29\&quot; width=\&quot;73\&quot; height=\&quot;46\&quot; fill=\&quot;url(#stock)\&quot; /&gt;&lt;path d=\&quot;M2 35H98L91 94H9Z\&quot; fill=\&quot;url(#tone)\&quot; stroke=\&quot;currentColor\&quot; stroke-width=\&quot;2\&quot; /&gt;&lt;path d=\&quot;M12 43H89\&quot; fill=\&quot;none\&quot; stroke=\&quot;#E7E0D0\&quot; stroke-width=\&quot;1\&quot; opacity=\&quot;.5\&quot; /&gt;&lt;rect x=\&quot;20\&quot; y=\&quot;55\&quot; width=\&quot;55\&quot; height=\&quot;20\&quot; fill=\&quot;#CEC5B3\&quot; /&gt;&lt;path d=\&quot;M27 63H66M27 69H54\&quot; fill=\&quot;none\&quot; stroke=\&quot;#101214\&quot; stroke-width=\&quot;1.3\&quot; /&gt;&quot;,
+    &quot;location-background-creator-production-tooling&quot;: &quot;&lt;title&gt;Terminal gutter and diff rails&lt;/title&gt;\n&lt;g fill=\&quot;none\&quot; stroke=\&quot;currentColor\&quot; stroke-width=\&quot;0.8\&quot; stroke-linejoin=\&quot;round\&quot; stroke-linecap=\&quot;round\&quot; opacity=\&quot;0.34\&quot;&gt;&lt;path d=\&quot;M4 10H96V90H4ZM4 19H96M9 14H13M17 14H21M9 27L14 31L9 35M17 35H23M7 73H16M11 69V77M84 78H93M28 85H72\&quot;/&gt;&lt;/g&gt;&quot;,
+    &quot;location-background-curt-home-office&quot;: &quot;&lt;title&gt;Domestic window and receding floor&lt;/title&gt;\n&lt;g fill=\&quot;none\&quot; stroke=\&quot;currentColor\&quot; stroke-width=\&quot;0.8\&quot; stroke-linejoin=\&quot;round\&quot; stroke-linecap=\&quot;round\&quot; opacity=\&quot;0.34\&quot;&gt;&lt;path d=\&quot;M4 8L18 22H82L96 8M4 8V94H96V8M18 22V74H82V22M18 74L4 94M82 74L96 94M7 29H15V58H7ZM11 29V58M7 43H15M85 31H94M85 42H94M86 31V25M91 31V23\&quot;/&gt;&lt;/g&gt;&quot;,
+    &quot;location-background-metr-review-workspace&quot;: &quot;&lt;title&gt;Evidence wall and bounded review floor&lt;/title&gt;\n&lt;g fill=\&quot;none\&quot; stroke=\&quot;currentColor\&quot; stroke-width=\&quot;0.8\&quot; stroke-linejoin=\&quot;round\&quot; stroke-linecap=\&quot;round\&quot; opacity=\&quot;0.34\&quot;&gt;&lt;path d=\&quot;M4 7H96V94H4ZM12 19H88V73H12ZM12 19L4 7M88 19L96 7M12 73L4 94M88 73L96 94M18 10V16M26 10V16M34 10V16M42 10V16M50 10V16M58 10V16M66 10V16M74 10V16M82 10V16\&quot;/&gt;&lt;/g&gt;&quot;,
     &quot;monitor&quot;: &quot;&lt;defs&gt;\n&lt;linearGradient id=\&quot;metal\&quot; x1=\&quot;0\&quot; y1=\&quot;0\&quot; x2=\&quot;1\&quot; y2=\&quot;1\&quot;&gt;&lt;stop stop-color=\&quot;currentColor\&quot; /&gt;&lt;stop offset=\&quot;.32\&quot; stop-color=\&quot;#202326\&quot; /&gt;&lt;stop offset=\&quot;.75\&quot; stop-color=\&quot;#101214\&quot; /&gt;&lt;stop offset=\&quot;1\&quot; stop-color=\&quot;currentColor\&quot; /&gt;&lt;/linearGradient&gt;\n&lt;/defs&gt;&lt;path d=\&quot;M43 75V91H24V97H77V91H58V75\&quot; fill=\&quot;url(#metal)\&quot; stroke=\&quot;currentColor\&quot; stroke-width=\&quot;1\&quot; /&gt;&lt;rect x=\&quot;2\&quot; y=\&quot;3\&quot; width=\&quot;96\&quot; height=\&quot;75\&quot; rx=\&quot;4\&quot; fill=\&quot;url(#metal)\&quot; stroke=\&quot;currentColor\&quot; stroke-width=\&quot;2\&quot; /&gt;&lt;rect x=\&quot;8\&quot; y=\&quot;9\&quot; width=\&quot;84\&quot; height=\&quot;61\&quot; fill=\&quot;#101214\&quot; /&gt;&lt;path d=\&quot;M8 9H92V22L8 47Z\&quot; fill=\&quot;#E7E0D0\&quot; opacity=\&quot;.05\&quot; /&gt;&lt;path d=\&quot;M15 74H32\&quot; fill=\&quot;none\&quot; stroke=\&quot;#E7E0D0\&quot; stroke-width=\&quot;0.7\&quot; opacity=\&quot;.5\&quot; /&gt;&lt;rect x=\&quot;12\&quot; y=\&quot;14\&quot; width=\&quot;4\&quot; height=\&quot;47\&quot; fill=\&quot;currentColor\&quot; /&gt;&lt;path d=\&quot;M23 20H78M23 29H85M23 38H69M23 51H78M23 60H56\&quot; fill=\&quot;none\&quot; stroke=\&quot;#E7E0D0\&quot; stroke-width=\&quot;1.2\&quot; opacity=\&quot;.8\&quot; /&gt;&quot;,
     &quot;terminal&quot;: &quot;&lt;defs&gt;\n&lt;linearGradient id=\&quot;glass\&quot; x1=\&quot;0\&quot; y1=\&quot;0\&quot; x2=\&quot;0\&quot; y2=\&quot;1\&quot;&gt;&lt;stop stop-color=\&quot;currentColor\&quot; stop-opacity=\&quot;.55\&quot; /&gt;&lt;stop offset=\&quot;1\&quot; stop-color=\&quot;#101214\&quot; /&gt;&lt;/linearGradient&gt;\n&lt;/defs&gt;&lt;rect x=\&quot;3\&quot; y=\&quot;5\&quot; width=\&quot;94\&quot; height=\&quot;90\&quot; rx=\&quot;3\&quot; fill=\&quot;#101214\&quot; stroke=\&quot;currentColor\&quot; stroke-width=\&quot;2.5\&quot; /&gt;&lt;rect x=\&quot;4\&quot; y=\&quot;6\&quot; width=\&quot;92\&quot; height=\&quot;13\&quot; fill=\&quot;currentColor\&quot; /&gt;&lt;path d=\&quot;M11 12H26M78 12H88\&quot; fill=\&quot;none\&quot; stroke=\&quot;#E7E0D0\&quot; stroke-width=\&quot;1\&quot; /&gt;&lt;rect x=\&quot;7\&quot; y=\&quot;23\&quot; width=\&quot;86\&quot; height=\&quot;66\&quot; fill=\&quot;url(#glass)\&quot; /&gt;&lt;path d=\&quot;M13 30L22 39 13 48M29 48H48\&quot; fill=\&quot;none\&quot; stroke=\&quot;currentColor\&quot; stroke-width=\&quot;3\&quot; /&gt;&lt;path d=\&quot;M13 63H79M13 75H66\&quot; fill=\&quot;none\&quot; stroke=\&quot;#E7E0D0\&quot; stroke-width=\&quot;1.3\&quot; /&gt;&lt;path d=\&quot;M7 89H93\&quot; fill=\&quot;none\&quot; stroke=\&quot;#E7E0D0\&quot; stroke-width=\&quot;0.8\&quot; opacity=\&quot;.3\&quot; /&gt;&quot;
   },
@@ -32,6 +35,36 @@
     ],
     &quot;lettering_mode&quot;: &quot;manual&quot;,
     &quot;nodes&quot;: [
+      {
+        &quot;asset&quot;: &quot;location-background-metr-review-workspace&quot;,
+        &quot;box&quot;: [
+          0.02,
+          0.02,
+          0.303333,
+          0.96
+        ],
+        &quot;color&quot;: &quot;steel&quot;
+      },
+      {
+        &quot;asset&quot;: &quot;location-background-curt-home-office&quot;,
+        &quot;box&quot;: [
+          0.348333,
+          0.02,
+          0.303333,
+          0.96
+        ],
+        &quot;color&quot;: &quot;steel&quot;
+      },
+      {
+        &quot;asset&quot;: &quot;location-background-creator-production-tooling&quot;,
+        &quot;box&quot;: [
+          0.676667,
+          0.02,
+          0.303333,
+          0.96
+        ],
+        &quot;color&quot;: &quot;steel&quot;
+      },
       {
         &quot;asset&quot;: &quot;folder&quot;,
         &quot;box&quot;: [
@@ -96,4 +129,4 @@
     &quot;title&quot;: &quot;Three unresolved lanes continue beyond the page&quot;
   }
 }
-</metadata><rect width="1200" height="800" fill="#101214"/><rect x="81.3" y="160.96" width="287.56" height="221.179" fill="none" stroke="#5E737B" stroke-width="3"/><text x="89.3" y="184.96" fill="#5E737B" font-family="sans-serif" font-size="20">folder</text><text x="225.08" y="413.544" text-anchor="middle" fill="#E7E0D0" font-size="18" font-family="sans-serif">INVESTIGATION</text><rect x="445.3" y="160.96" width="287.56" height="221.179" fill="none" stroke="#5E737B" stroke-width="3"/><text x="453.3" y="184.96" fill="#5E737B" font-family="sans-serif" font-size="20">monitor</text><text x="589.079" y="413.544" text-anchor="middle" fill="#E7E0D0" font-size="18" font-family="sans-serif">ADAPTATION</text><rect x="809.3" y="160.96" width="287.56" height="221.179" fill="none" stroke="#5E737B" stroke-width="3"/><text x="817.3" y="184.96" fill="#5E737B" font-family="sans-serif" font-size="20">terminal</text><text x="953.08" y="413.544" text-anchor="middle" fill="#E7E0D0" font-size="18" font-family="sans-serif">TOOLING</text><rect x="3" y="3" width="1194" height="794" fill="none" stroke="#5E737B" stroke-width="4"/></svg>
+</metadata><rect width="1200" height="800" fill="#101214"/><rect x="24" y="16" width="364" height="768" fill="none" stroke="#5E737B" stroke-width="3"/><text x="32" y="40" fill="#5E737B" font-family="sans-serif" font-size="20">location-background-metr-review-workspace</text><rect x="418" y="16" width="364" height="768" fill="none" stroke="#5E737B" stroke-width="3"/><text x="426" y="40" fill="#5E737B" font-family="sans-serif" font-size="20">location-background-curt-home-office</text><rect x="812" y="16" width="364" height="768" fill="none" stroke="#5E737B" stroke-width="3"/><text x="820" y="40" fill="#5E737B" font-family="sans-serif" font-size="20">location-background-creator-production-tooling</text><rect x="81.3" y="160.96" width="287.56" height="221.179" fill="none" stroke="#5E737B" stroke-width="3"/><text x="89.3" y="184.96" fill="#5E737B" font-family="sans-serif" font-size="20">folder</text><text x="225.08" y="413.544" text-anchor="middle" fill="#E7E0D0" font-size="18" font-family="sans-serif">INVESTIGATION</text><rect x="445.3" y="160.96" width="287.56" height="221.179" fill="none" stroke="#5E737B" stroke-width="3"/><text x="453.3" y="184.96" fill="#5E737B" font-family="sans-serif" font-size="20">monitor</text><text x="589.079" y="413.544" text-anchor="middle" fill="#E7E0D0" font-size="18" font-family="sans-serif">ADAPTATION</text><rect x="809.3" y="160.96" width="287.56" height="221.179" fill="none" stroke="#5E737B" stroke-width="3"/><text x="817.3" y="184.96" fill="#5E737B" font-family="sans-serif" font-size="20">terminal</text><text x="953.08" y="413.544" text-anchor="middle" fill="#E7E0D0" font-size="18" font-family="sans-serif">TOOLING</text><rect x="3" y="3" width="1194" height="794" fill="none" stroke="#5E737B" stroke-width="4"/></svg>

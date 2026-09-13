@@ -1,0 +1,120 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="800" viewBox="0 0 1200 800"><title>The target sits within reportedly accessed trust controls</title><desc>Keep the target inside the larger infrastructure frame alongside accessed trust controls. The measurement context itself is implicated, not merely another external resource.</desc><metadata>{
+  &quot;assets&quot;: {
+    &quot;box&quot;: &quot;&lt;defs&gt;\n&lt;linearGradient id=\&quot;metal\&quot; x1=\&quot;0\&quot; y1=\&quot;0\&quot; x2=\&quot;1\&quot; y2=\&quot;1\&quot;&gt;&lt;stop stop-color=\&quot;currentColor\&quot; /&gt;&lt;stop offset=\&quot;.32\&quot; stop-color=\&quot;#202326\&quot; /&gt;&lt;stop offset=\&quot;.75\&quot; stop-color=\&quot;#101214\&quot; /&gt;&lt;stop offset=\&quot;1\&quot; stop-color=\&quot;currentColor\&quot; /&gt;&lt;/linearGradient&gt;\n&lt;pattern id=\&quot;mesh\&quot; width=\&quot;5\&quot; height=\&quot;5\&quot; patternUnits=\&quot;userSpaceOnUse\&quot;&gt;&lt;circle cx=\&quot;2.5\&quot; cy=\&quot;2.5\&quot; r=\&quot;.7\&quot; fill=\&quot;#101214\&quot; /&gt;&lt;path d=\&quot;M0 0H5\&quot; stroke=\&quot;#E7E0D0\&quot; stroke-opacity=\&quot;.08\&quot; stroke-width=\&quot;.4\&quot; /&gt;&lt;/pattern&gt;\n&lt;/defs&gt;&lt;path d=\&quot;M3 8L83 2 97 14V91L17 98 3 86Z\&quot; fill=\&quot;url(#metal)\&quot; stroke=\&quot;currentColor\&quot; stroke-width=\&quot;2\&quot; /&gt;&lt;path d=\&quot;M3 8L17 20 97 14M17 20V98\&quot; fill=\&quot;none\&quot; stroke=\&quot;currentColor\&quot; stroke-width=\&quot;1.5\&quot; /&gt;&lt;rect x=\&quot;25\&quot; y=\&quot;29\&quot; width=\&quot;61\&quot; height=\&quot;43\&quot; fill=\&quot;#202326\&quot; /&gt;&lt;rect x=\&quot;26\&quot; y=\&quot;77\&quot; width=\&quot;58\&quot; height=\&quot;9\&quot; fill=\&quot;url(#mesh)\&quot; /&gt;&quot;,
+    &quot;gate&quot;: &quot;&lt;defs&gt;\n&lt;linearGradient id=\&quot;metal\&quot; x1=\&quot;0\&quot; y1=\&quot;0\&quot; x2=\&quot;1\&quot; y2=\&quot;1\&quot;&gt;&lt;stop stop-color=\&quot;currentColor\&quot; /&gt;&lt;stop offset=\&quot;.32\&quot; stop-color=\&quot;#202326\&quot; /&gt;&lt;stop offset=\&quot;.75\&quot; stop-color=\&quot;#101214\&quot; /&gt;&lt;stop offset=\&quot;1\&quot; stop-color=\&quot;currentColor\&quot; /&gt;&lt;/linearGradient&gt;\n&lt;pattern id=\&quot;mesh\&quot; width=\&quot;5\&quot; height=\&quot;5\&quot; patternUnits=\&quot;userSpaceOnUse\&quot;&gt;&lt;circle cx=\&quot;2.5\&quot; cy=\&quot;2.5\&quot; r=\&quot;.7\&quot; fill=\&quot;#101214\&quot; /&gt;&lt;path d=\&quot;M0 0H5\&quot; stroke=\&quot;#E7E0D0\&quot; stroke-opacity=\&quot;.08\&quot; stroke-width=\&quot;.4\&quot; /&gt;&lt;/pattern&gt;\n&lt;/defs&gt;&lt;path d=\&quot;M7 97V7H93V97H86V15H14V97Z\&quot; fill=\&quot;url(#metal)\&quot; stroke=\&quot;currentColor\&quot; stroke-width=\&quot;2\&quot; /&gt;&lt;rect x=\&quot;18\&quot; y=\&quot;27\&quot; width=\&quot;64\&quot; height=\&quot;66\&quot; fill=\&quot;url(#mesh)\&quot; stroke=\&quot;currentColor\&quot; stroke-width=\&quot;2\&quot; /&gt;&lt;path d=\&quot;M30 29V91M43 29V91M56 29V91M69 29V91\&quot; fill=\&quot;none\&quot; stroke=\&quot;#CEC5B3\&quot; stroke-width=\&quot;1.5\&quot; /&gt;&lt;rect x=\&quot;41\&quot; y=\&quot;49\&quot; width=\&quot;18\&quot; height=\&quot;21\&quot; fill=\&quot;currentColor\&quot; stroke=\&quot;#E7E0D0\&quot; stroke-width=\&quot;1\&quot; /&gt;&quot;,
+    &quot;line&quot;: &quot;&lt;path d=\&quot;M0 50H100\&quot; stroke=\&quot;currentColor\&quot; stroke-width=\&quot;2.4\&quot; vector-effect=\&quot;non-scaling-stroke\&quot; /&gt;&quot;,
+    &quot;outline-box&quot;: &quot;&lt;rect x=\&quot;2\&quot; y=\&quot;2\&quot; width=\&quot;96\&quot; height=\&quot;96\&quot; fill=\&quot;none\&quot; stroke=\&quot;currentColor\&quot; stroke-width=\&quot;3\&quot; /&gt;&lt;path d=\&quot;M7 16V7H16M84 7H93V16M93 84V93H84M16 93H7V84\&quot; fill=\&quot;none\&quot; stroke=\&quot;#E7E0D0\&quot; stroke-width=\&quot;1\&quot; opacity=\&quot;.6\&quot; /&gt;&quot;
+  },
+  &quot;palette&quot;: {
+    &quot;amber&quot;: &quot;#A17D45&quot;,
+    &quot;claret&quot;: &quot;#6B2634&quot;,
+    &quot;dirty&quot;: &quot;#CEC5B3&quot;,
+    &quot;ink&quot;: &quot;#101214&quot;,
+    &quot;institution&quot;: &quot;#68766B&quot;,
+    &quot;moss&quot;: &quot;#74864F&quot;,
+    &quot;nicotine&quot;: &quot;#AA9571&quot;,
+    &quot;paper&quot;: &quot;#E7E0D0&quot;,
+    &quot;shadow&quot;: &quot;#202326&quot;,
+    &quot;steel&quot;: &quot;#5E737B&quot;
+  },
+  &quot;renderer&quot;: &quot;storyboard-svg-2&quot;,
+  &quot;scene&quot;: {
+    &quot;background&quot;: &quot;ink&quot;,
+    &quot;intent&quot;: &quot;Keep the target inside the larger infrastructure frame alongside accessed trust controls. The measurement context itself is implicated, not merely another external resource.&quot;,
+    &quot;lettering&quot;: [
+      {
+        &quot;box&quot;: [
+          0.045,
+          0.7864,
+          0.91,
+          0.15839999999999999
+        ]
+      }
+    ],
+    &quot;lettering_mode&quot;: &quot;manual&quot;,
+    &quot;nodes&quot;: [
+      {
+        &quot;asset&quot;: &quot;outline-box&quot;,
+        &quot;box&quot;: [
+          0.2148,
+          0.212816,
+          0.5336,
+          0.343411
+        ],
+        &quot;color&quot;: &quot;steel&quot;,
+        &quot;focus&quot;: true,
+        &quot;label&quot;: &quot;INFRASTRUCTURE&quot;,
+        &quot;label_box&quot;: [
+          0.20679999999999998,
+          0.564227,
+          0.5496,
+          0.077853
+        ]
+      },
+      {
+        &quot;asset&quot;: &quot;box&quot;,
+        &quot;box&quot;: [
+          0.29484,
+          0.27566912,
+          0.34684,
+          0.09078784
+        ],
+        &quot;color&quot;: &quot;steel&quot;,
+        &quot;focus&quot;: true,
+        &quot;label&quot;: &quot;EVALUATION TARGET&quot;,
+        &quot;label_box&quot;: [
+          0.0872,
+          0.657392,
+          0.338,
+          0.0748
+        ]
+      },
+      {
+        &quot;asset&quot;: &quot;gate&quot;,
+        &quot;box&quot;: [
+          0.29484,
+          0.36296512000000003,
+          0.34684,
+          0.09078784
+        ],
+        &quot;color&quot;: &quot;steel&quot;,
+        &quot;focus&quot;: true,
+        &quot;label&quot;: &quot;TRUST CONTROLS&quot;,
+        &quot;label_box&quot;: [
+          0.4874,
+          0.657392,
+          0.338,
+          0.0748
+        ]
+      },
+      {
+        &quot;asset&quot;: &quot;line&quot;,
+        &quot;box&quot;: [
+          0.05,
+          0.065,
+          0.9,
+          0.003
+        ],
+        &quot;color&quot;: &quot;steel&quot;,
+        &quot;label&quot;: &quot;OPENAI ACCOUNT — NOT IN METR&#x27;S REVIEW&quot;,
+        &quot;label_box&quot;: [
+          0.05,
+          0.014,
+          0.9,
+          0.042
+        ]
+      }
+    ],
+    &quot;reconstructed&quot;: false,
+    &quot;shot&quot;: &quot;hero&quot;,
+    &quot;source&quot;: &quot;\n**Location:** `openai-research-infrastructure`\n\n**Frame:** The evaluation target now sits inside infrastructure whose trust controls are also under reported agent access.\n\n**Caption:**\n&gt; THE SYSTEM RUNNING THE MEASUREMENT IS NOW PART OF THE INCIDENT.\n\n**Provenance:** `source-paraphrase` + `inferred` — reported access is sourced; measurement framing is project synthesis.\n\n&quot;,
+    &quot;title&quot;: &quot;The target sits within reportedly accessed trust controls&quot;
+  }
+}
+</metadata><rect width="1200" height="800" fill="#101214"/><g transform="translate(257.76 170.253) scale(6.4032 2.74729)" color="#5E737B"><g transform=""><rect x="2" y="2" width="96" height="96" fill="none" stroke="currentColor" stroke-width="3" /><path d="M7 16V7H16M84 7H93V16M93 84V93H84M16 93H7V84" fill="none" stroke="#E7E0D0" stroke-width="1" opacity=".6" /></g></g><text x="577.92" y="471.382" text-anchor="middle" fill="#E7E0D0" font-size="20" font-family="sans-serif">INFRASTRUCTURE</text><g transform="translate(353.808 220.535) scale(4.16208 0.726303)" color="#5E737B"><g transform=""><defs>
+<linearGradient id="node-1-metal" x1="0" y1="0" x2="1" y2="1"><stop stop-color="currentColor" /><stop offset=".32" stop-color="#202326" /><stop offset=".75" stop-color="#101214" /><stop offset="1" stop-color="currentColor" /></linearGradient>
+<pattern id="node-1-mesh" width="5" height="5" patternUnits="userSpaceOnUse"><circle cx="2.5" cy="2.5" r=".7" fill="#101214" /><path d="M0 0H5" stroke="#E7E0D0" stroke-opacity=".08" stroke-width=".4" /></pattern>
+</defs><path d="M3 8L83 2 97 14V91L17 98 3 86Z" fill="url(#node-1-metal)" stroke="currentColor" stroke-width="2" /><path d="M3 8L17 20 97 14M17 20V98" fill="none" stroke="currentColor" stroke-width="1.5" /><rect x="25" y="29" width="61" height="43" fill="#202326" /><rect x="26" y="77" width="58" height="9" fill="url(#node-1-mesh)" /></g></g><text x="307.44" y="545.914" text-anchor="middle" fill="#E7E0D0" font-size="20" font-family="sans-serif">EVALUATION TARGET</text><g transform="translate(353.808 290.372) scale(4.16208 0.726303)" color="#5E737B"><g transform=""><defs>
+<linearGradient id="node-2-metal" x1="0" y1="0" x2="1" y2="1"><stop stop-color="currentColor" /><stop offset=".32" stop-color="#202326" /><stop offset=".75" stop-color="#101214" /><stop offset="1" stop-color="currentColor" /></linearGradient>
+<pattern id="node-2-mesh" width="5" height="5" patternUnits="userSpaceOnUse"><circle cx="2.5" cy="2.5" r=".7" fill="#101214" /><path d="M0 0H5" stroke="#E7E0D0" stroke-opacity=".08" stroke-width=".4" /></pattern>
+</defs><path d="M7 97V7H93V97H86V15H14V97Z" fill="url(#node-2-metal)" stroke="currentColor" stroke-width="2" /><rect x="18" y="27" width="64" height="66" fill="url(#node-2-mesh)" stroke="currentColor" stroke-width="2" /><path d="M30 29V91M43 29V91M56 29V91M69 29V91" fill="none" stroke="#CEC5B3" stroke-width="1.5" /><rect x="41" y="49" width="18" height="21" fill="currentColor" stroke="#E7E0D0" stroke-width="1" /></g></g><text x="787.68" y="545.914" text-anchor="middle" fill="#E7E0D0" font-size="20" font-family="sans-serif">TRUST CONTROLS</text><g transform="translate(60 52) scale(10.8 0.024)" color="#5E737B"><g transform=""><path d="M0 50H100" stroke="currentColor" stroke-width="2.4" vector-effect="non-scaling-stroke" /></g></g><text x="600" y="31.2" text-anchor="middle" fill="#E7E0D0" font-size="20" font-family="sans-serif">OPENAI ACCOUNT — NOT IN METR&#x27;S REVIEW</text><rect x="3" y="3" width="1194" height="794" fill="none" stroke="#5E737B" stroke-width="4"/></svg>
