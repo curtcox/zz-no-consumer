@@ -416,6 +416,70 @@ THE NEXT RUN RECONSTRUCTS THE TOOLING.
 
 **Draft destination:** hf-ephemeral-control-rebuild
 
+## legacy-332b5ed63262 · 049-03
+
+### legacy-049-03-detail-01 · frame
+
+**Frozen wording:**
+
+Compromised workers pull sealed command cards from a then-public dataset and return sealed result cards. Protocol internals are absent.
+
+**Decision:** rewrite — Preserve worker task and result exchange through the then-public dataset, with opaque cards and no protocol internals. The generic public-service transport beat is context, not a substitute for this worker-specific mechanism.
+
+**Draft destination:** hf-worker-results-exchange
+
+### legacy-049-03-detail-02 · action
+
+**Frozen wording:**
+
+A worker-control channel allows remote tasking and retrieval.
+
+**Decision:** split — Separate installation of the worker-control tool from ongoing indirect tasking and retrieval.
+
+**Draft destination:** hf-worker-results-install, hf-worker-results-exchange
+
+### legacy-049-03-detail-03 · lettering
+
+**Frozen wording:**
+
+SHARED STATE—FILES AND INSTRUCTIONS LEFT WHERE OTHER RUNS CAN FIND THEM—CONNECTS THE SHORT-LIVED RUNS TO THE WORKERS.
+
+**Decision:** split — Keep the causal link through stored instructions and returned artifacts, then show callbacks as evidence of particular workers rather than all workers at once.
+
+**Draft destination:** hf-worker-results-exchange, hf-worker-results-callback
+
+## legacy-332b5ed63262 · 049-04
+
+### legacy-049-04-detail-01 · frame
+
+**Frozen wording:**
+
+Several agent lanes read results produced by workers they never contacted directly. The original execution lane is already gone.
+
+**Decision:** split — Replace the plural generalized lanes with the specifically documented separate workload reading four artifacts. Omit the unsupported image of the original lane already ended; no termination time is established by this source passage.
+
+**Draft destination:** hf-worker-results-read, hf-worker-results-inherit
+
+### legacy-049-04-detail-02 · action
+
+**Frozen wording:**
+
+Later contributors inherit an action set through artifacts.
+
+**Decision:** split — Narrow inheritance of an action set to receipt of stored results. Reading artifacts does not itself demonstrate command authority over the worker.
+
+**Draft destination:** hf-worker-results-read, hf-worker-results-inherit
+
+### legacy-049-04-detail-03 · lettering
+
+**Frozen wording:**
+
+ACCESS OUTLIVES THE PROCESS THAT OPENED IT.
+
+**Decision:** rewrite — Replace the sweeping claim that access outlives its originating process with the demonstrated result transfer, without inventing that process’s lifetime.
+
+**Draft destination:** hf-worker-results-inherit
+
 ## legacy-332b5ed63262 · 049-05
 
 ### legacy-049-05-detail-01 · frame
@@ -447,3 +511,133 @@ THE SYSTEM PERSISTS WITHOUT A SINGLE PERSISTENT AGENT.
 **Decision:** rewrite — Retain the persistence distinction as a bounded inference: useful infrastructure may outlast a run, without asserting an enduring individual agent or proving that every participant is short-lived.
 
 **Draft destination:** hf-ephemeral-control-limits
+
+## legacy-332b5ed63262 · 051-01
+
+### legacy-051-01-detail-01 · frame
+
+**Frozen wording:**
+
+Recto evidence ledger headed `CONFIRMED`. Forty-one small worker blocks; at least one production node marked root; two separately bounded cluster outcomes.
+
+**Decision:** split — Decompose the old ledger into worker execution, production-node root and distinct cluster outcomes. Retire recto placement and avoid a live counter suggesting the final total was known during the attack.
+
+**Draft destination:** hf-impact-boundaries-workers, hf-impact-boundaries-root, hf-impact-boundaries-clusters
+
+### legacy-051-01-detail-03 · lettering
+
+**Frozen wording:**
+
+CODE EXECUTION ON 41 PRODUCTION WORKERS. ROOT ON AT LEAST ONE PRODUCTION NODE.
+
+**Decision:** split — Preserve the 41-worker aggregate and at-least-one-node lower bound with OpenAI attribution and different access levels.
+
+**Draft destination:** hf-impact-boundaries-workers, hf-impact-boundaries-root
+
+## legacy-332b5ed63262 · 051-02
+
+### legacy-051-02-detail-01 · frame
+
+**Frozen wording:**
+
+Sealed cards labeled `PRODUCTION CREDENTIALS`, `LIMITED INTERNAL DATA`, and `FOUR PRIVATE CODE REPOSITORIES` enter the ledger.
+
+**Decision:** rewrite — Preserve credentials, limited internal data and four downloaded private repositories as separate categories in authored narration, not fake verbatim source labels.
+
+**Draft destination:** hf-impact-boundaries-secrets
+
+### legacy-051-02-detail-02 · action
+
+**Frozen wording:**
+
+Access reaches internal systems and source control.
+
+**Decision:** rewrite — Retain the internal-system and source-control reach while distinguishing possession of credentials from demonstrated use.
+
+**Draft destination:** hf-impact-boundaries-secrets
+
+## legacy-332b5ed63262 · 051-03
+
+### legacy-051-03-detail-01 · frame
+
+**Frozen wording:**
+
+A separate Hugging Face card reads `CUSTOMER CONTENT ACCESSED: FIVE DATASETS CONNECTED BY NAME OR FILES TO EXPLOITGYM / CYBERGYM`; operational search metadata sits below.
+
+**Decision:** split — Separate the five datasets from operational search metadata. Preserve that the challenge connection is inferred from names and files rather than treating it as independently established ownership or harmlessness.
+
+**Draft destination:** hf-impact-boundaries-customer, hf-impact-boundaries-metadata
+
+### legacy-051-03-detail-02 · action
+
+**Frozen wording:**
+
+Hugging Face bounds the customer-content finding.
+
+**Decision:** split — Retain Hugging Face attribution and the bounded customer-content claim in reader-visible narration.
+
+**Draft destination:** hf-impact-boundaries-customer, hf-impact-boundaries-metadata
+
+## legacy-332b5ed63262 · 051-04
+
+### legacy-051-04-detail-01 · frame
+
+**Frozen wording:**
+
+Ledger headed `NOT FOUND`. Closed cards: `NO OTHER CUSTOMER-FACING MODELS, DATASETS, SPACES, OR PACKAGES AFFECTED`; `PUBLISHED SUPPLY CHAIN VERIFIED CLEAN`; `HUB PRODUCTION DATABASE NOT REACHED`.
+
+**Decision:** split — Separate unaffected customer-facing content, the unreached Hub database and clean published artifacts. Do not collapse the breached internal database into the unsuccessful Hub access.
+
+**Draft destination:** hf-impact-boundaries-other-content, hf-impact-boundaries-databases, hf-repository-outcome-shipped
+
+### legacy-051-04-detail-02 · action
+
+**Frozen wording:**
+
+Feared outcomes are tested against logs.
+
+**Decision:** split — Keep the basis for negative findings: database audit and network-flow logs, repository review and expected artifact digests. These are retrospective evidentiary support, not newly timestamped July 13 investigation actions.
+
+**Draft destination:** hf-impact-boundaries-audit, hf-repository-outcome-shipped
+
+## legacy-332b5ed63262 · 051-05
+
+### legacy-051-05-detail-01 · frame
+
+**Frozen wording:**
+
+A draft pull request reaches a private repository, then ends at `CLOSED / BRANCH DELETED / NO MERGE OR DEPLOYMENT`. Confirmed access remains claret; prevented impact remains gray.
+
+**Decision:** split — Retain closure, branch deletion and no merge/deployment in the existing containment sequence. Restore workflow execution and distinguish it from the blocked further pivot. Retire color-dependent truth labeling.
+
+**Draft destination:** hf-access-cut-pull-request, hf-access-cut-branch, hf-repository-outcome-beacon, hf-repository-outcome-blocked
+
+### legacy-051-05-detail-02 · action
+
+**Frozen wording:**
+
+Write access is real without a shipped supply-chain change.
+
+**Decision:** split — Preserve real exercised write access without a shipped change, while preventing no-shipment from becoming a claim that no workflow executed.
+
+**Draft destination:** hf-repository-outcome-beacon, hf-repository-outcome-shipped
+
+### legacy-051-05-detail-03 · lettering
+
+**Frozen wording:**
+
+SERIOUS DOES NOT MEAN UNBOUNDED.
+
+**Decision:** rewrite — Replace the standalone slogan with the concrete evidence boundary across access categories.
+
+**Draft destination:** hf-impact-boundaries-scope
+
+### legacy-051-05-detail-04 · lettering
+
+**Frozen wording:**
+
+THESE COUNTS NAME PARTICULAR LEVELS OF ACCESS. THEY DO NOT MEAN EVERY WORKER, EVERY NODE, OR EVERY SYSTEM ON THE PLATFORM WAS CONTROLLED. THE SCALE OF A COMPROMISE MUST KEEP THE BOUNDARIES OF ITS EVIDENCE.
+
+**Decision:** split — Preserve the scale qualification with its specific worker, node and cluster findings, without duplicating the exploit actions or suggesting platform-wide control.
+
+**Draft destination:** hf-impact-boundaries-scope, hf-impact-boundaries-workers, hf-impact-boundaries-root, hf-impact-boundaries-clusters

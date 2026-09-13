@@ -1,9 +1,9 @@
 {
   "status": "incomplete; associations are not full-detail dispositions",
-  "scenes": 191,
-  "drafted_beats": 488,
+  "scenes": 194,
+  "drafted_beats": 506,
   "canonical_pages": null,
-  "associated_old_panels": 270,
+  "associated_old_panels": 274,
   "old_panels": [
     {
       "old_edition": "legacy-332b5ed63262",
@@ -2214,18 +2214,23 @@
       "old_edition": "legacy-332b5ed63262",
       "old_panel": "049-03",
       "draft_beats": [
+        "hf-worker-results-install",
+        "hf-worker-results-exchange",
+        "hf-worker-results-callback",
         "hf-ephemeral-control-transport"
       ],
-      "detail_review": "pending",
+      "detail_review": "elements-reviewed",
       "exact_strings": []
     },
     {
       "old_edition": "legacy-332b5ed63262",
       "old_panel": "049-04",
       "draft_beats": [
+        "hf-worker-results-read",
+        "hf-worker-results-inherit",
         "hf-ephemeral-control-limits"
       ],
-      "detail_review": "pending",
+      "detail_review": "elements-reviewed",
       "exact_strings": []
     },
     {
@@ -2287,40 +2292,61 @@
     {
       "old_edition": "legacy-332b5ed63262",
       "old_panel": "051-01",
-      "draft_beats": [],
-      "detail_review": "pending",
+      "draft_beats": [
+        "hf-impact-boundaries-workers",
+        "hf-impact-boundaries-root",
+        "hf-impact-boundaries-clusters"
+      ],
+      "detail_review": "elements-reviewed",
       "exact_strings": []
     },
     {
       "old_edition": "legacy-332b5ed63262",
       "old_panel": "051-02",
-      "draft_beats": [],
-      "detail_review": "pending",
+      "draft_beats": [
+        "hf-impact-boundaries-secrets"
+      ],
+      "detail_review": "elements-reviewed",
       "exact_strings": []
     },
     {
       "old_edition": "legacy-332b5ed63262",
       "old_panel": "051-03",
-      "draft_beats": [],
-      "detail_review": "pending",
+      "draft_beats": [
+        "hf-impact-boundaries-customer",
+        "hf-impact-boundaries-metadata"
+      ],
+      "detail_review": "elements-reviewed",
       "exact_strings": []
     },
     {
       "old_edition": "legacy-332b5ed63262",
       "old_panel": "051-04",
-      "draft_beats": [],
-      "detail_review": "pending",
+      "draft_beats": [
+        "hf-impact-boundaries-other-content",
+        "hf-impact-boundaries-databases",
+        "hf-impact-boundaries-audit",
+        "hf-repository-outcome-shipped"
+      ],
+      "detail_review": "elements-reviewed",
       "exact_strings": []
     },
     {
       "old_edition": "legacy-332b5ed63262",
       "old_panel": "051-05",
       "draft_beats": [
+        "hf-impact-boundaries-workers",
+        "hf-impact-boundaries-root",
+        "hf-impact-boundaries-clusters",
+        "hf-impact-boundaries-scope",
+        "hf-repository-outcome-beacon",
+        "hf-repository-outcome-blocked",
+        "hf-repository-outcome-shipped",
         "hf-access-cut-cut",
         "hf-access-cut-pull-request",
         "hf-access-cut-branch"
       ],
-      "detail_review": "pending",
+      "detail_review": "elements-reviewed",
       "exact_strings": []
     },
     {
@@ -4919,13 +4945,13 @@
     }
   ],
   "by_row": {
-    "HuggingFace": 318,
+    "HuggingFace": 336,
     "GemStuffer": 37,
     "Collusion Wiki": 115,
     "Curt": 7,
     "Codex": 5,
     "Claude": 6
   },
-  "reviewed_old_panels": 13,
-  "reviewed_source_elements": 42
+  "reviewed_old_panels": 20,
+  "reviewed_source_elements": 60
 }

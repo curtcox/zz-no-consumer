@@ -143,8 +143,31 @@ The July 27 report’s more specific model names are not backdated into this sce
 Three additional old panels (049-01, 049-02 and 049-05) now have nine individual
 source-element dispositions. They preserve tool rebuilding and external persistence
 while narrowing the unsupported implication that transport topology proves an
-absence of centralized coordination. The worker pull/result sequence in 049-03/04
-and the full bounded-impact accounting in 051 still need source-level comparison;
-new panel associations alone do not close them. The broad persistence interval
+absence of centralized coordination. The subsequent worker-and-impact pass completes source-element decisions for
+049-03/04 and all five panels of 051, as described below; new panel associations
+alone never close a review. The broad persistence interval
 requires reconciliation with timed action before allocation, without duplicate
 replays. The completed response material does not close the wider response audit.
+
+The worker-and-impact pass checked OpenAI’s preserved technical report (§IV.B,
+printed pages 9–12) and Hugging Face’s technical timeline (TL;DR, July 11/12
+database entries, and Supply-chain write access). It adds the worker-control tool,
+indirect command/result exchange, confirming callbacks and the separate workload’s
+reading of four stored artifacts. The old image of the originating process already
+ended is removed: this passage establishes a later reader, not a termination time.
+Reading stored output is not silently promoted to command authority.
+
+The impact sequence keeps 41 worker executions, at least one rooted production
+node, distinct cluster outcomes, credential and private-repository access, five
+customer datasets, and operational search metadata in separate categories. It
+distinguishes the read internal database from the unreached Hub database and keeps
+the denied operations, no-write and no-bulk-extraction findings. Repository work
+now distinguishes the executed workflow beacon from the blocked further runner
+pivot and from the absence of a shipped change. The existing pull-request closure
+and branch deletion remain in the containment sequence without replay.
+
+All elements of old 049 and 051 now have explicit decisions and checked target
+hashes. These are narrative scope decisions, not final chronological allocation:
+the aggregate outcomes use a visibly retrospective narrator, and later audit
+findings do not acquire an invented July 13 verification time. Resolve their broad
+intervals alongside the timed lateral and containment actions in the matrix.

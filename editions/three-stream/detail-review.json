@@ -580,5 +580,315 @@
         }
       }
     ]
+  },
+  {
+    "old_panel": "049-03",
+    "old_edition": "legacy-332b5ed63262",
+    "reviewed_on": "2026-09-13",
+    "status": "elements-reviewed",
+    "elements": [
+      {
+        "id": "legacy-049-03-detail-01",
+        "original_sha256": "d6604479794544d2b9b250db0cddd2209510dc50fa9ac2777b7246ad32a43082",
+        "disposition": "rewrite",
+        "beats": [
+          "hf-worker-results-exchange"
+        ],
+        "reason": "Preserve worker task and result exchange through the then-public dataset, with opaque cards and no protocol internals. The generic public-service transport beat is context, not a substitute for this worker-specific mechanism.",
+        "target_sha256": {
+          "hf-worker-results-exchange": "cc78ba1970c366c6e5af7a1c92eb53c6186ee98b685db670d634199fc61722fb"
+        }
+      },
+      {
+        "id": "legacy-049-03-detail-02",
+        "original_sha256": "652cc3b6ad068a88a32a5f423e55f9315a5fb64aaae85d40947cc07d91135598",
+        "disposition": "split",
+        "beats": [
+          "hf-worker-results-install",
+          "hf-worker-results-exchange"
+        ],
+        "reason": "Separate installation of the worker-control tool from ongoing indirect tasking and retrieval.",
+        "target_sha256": {
+          "hf-worker-results-install": "0a99108907bf76ad664932b8706503bdd565898a8ccc11953a382d9c7d9c677b",
+          "hf-worker-results-exchange": "cc78ba1970c366c6e5af7a1c92eb53c6186ee98b685db670d634199fc61722fb"
+        }
+      },
+      {
+        "id": "legacy-049-03-detail-03",
+        "original_sha256": "2971cd54533cf3ec5ef66836cb7d875ccad8f6f475ebeacc81a9766cc62f178c",
+        "disposition": "split",
+        "beats": [
+          "hf-worker-results-exchange",
+          "hf-worker-results-callback"
+        ],
+        "reason": "Keep the causal link through stored instructions and returned artifacts, then show callbacks as evidence of particular workers rather than all workers at once.",
+        "target_sha256": {
+          "hf-worker-results-exchange": "cc78ba1970c366c6e5af7a1c92eb53c6186ee98b685db670d634199fc61722fb",
+          "hf-worker-results-callback": "06a6c20e24e6d3ed4cae330a4fd95e0ca723909a6f731d4d5611ae8694047cc3"
+        }
+      }
+    ]
+  },
+  {
+    "old_panel": "049-04",
+    "old_edition": "legacy-332b5ed63262",
+    "reviewed_on": "2026-09-13",
+    "status": "elements-reviewed",
+    "elements": [
+      {
+        "id": "legacy-049-04-detail-01",
+        "original_sha256": "d92577d36644d1980ca539a3ef85826dc63cf900b64f6a4cbc8e91bb32911076",
+        "disposition": "split",
+        "beats": [
+          "hf-worker-results-read",
+          "hf-worker-results-inherit"
+        ],
+        "reason": "Replace the plural generalized lanes with the specifically documented separate workload reading four artifacts. Omit the unsupported image of the original lane already ended; no termination time is established by this source passage.",
+        "target_sha256": {
+          "hf-worker-results-read": "4ddb758efeac2f6f5f31f86f86e5f1d9652ccf2f0755e803bd351d803897bc64",
+          "hf-worker-results-inherit": "9c1abfcfbe24ae55ba96d6d46fadf7ee85fab0630195f897b1cb6eb72db85638"
+        }
+      },
+      {
+        "id": "legacy-049-04-detail-02",
+        "original_sha256": "58354c5ba7f4d49f2d96c64757042170f5bfaa9b21f6a7787181d80de50d7e90",
+        "disposition": "split",
+        "beats": [
+          "hf-worker-results-read",
+          "hf-worker-results-inherit"
+        ],
+        "reason": "Narrow inheritance of an action set to receipt of stored results. Reading artifacts does not itself demonstrate command authority over the worker.",
+        "target_sha256": {
+          "hf-worker-results-read": "4ddb758efeac2f6f5f31f86f86e5f1d9652ccf2f0755e803bd351d803897bc64",
+          "hf-worker-results-inherit": "9c1abfcfbe24ae55ba96d6d46fadf7ee85fab0630195f897b1cb6eb72db85638"
+        }
+      },
+      {
+        "id": "legacy-049-04-detail-03",
+        "original_sha256": "44dbe94cd25e2408377fb890ad717857d763c50d4dc4a24b2ba8eafbcc6b3f86",
+        "disposition": "rewrite",
+        "beats": [
+          "hf-worker-results-inherit"
+        ],
+        "reason": "Replace the sweeping claim that access outlives its originating process with the demonstrated result transfer, without inventing that process’s lifetime.",
+        "target_sha256": {
+          "hf-worker-results-inherit": "9c1abfcfbe24ae55ba96d6d46fadf7ee85fab0630195f897b1cb6eb72db85638"
+        }
+      }
+    ]
+  },
+  {
+    "old_panel": "051-01",
+    "old_edition": "legacy-332b5ed63262",
+    "reviewed_on": "2026-09-13",
+    "status": "elements-reviewed",
+    "elements": [
+      {
+        "id": "legacy-051-01-detail-01",
+        "original_sha256": "976e48d5e7f5f07089addff83406a64ac4f0edcb23d9299dbc6b308490039d65",
+        "disposition": "split",
+        "beats": [
+          "hf-impact-boundaries-workers",
+          "hf-impact-boundaries-root",
+          "hf-impact-boundaries-clusters"
+        ],
+        "reason": "Decompose the old ledger into worker execution, production-node root and distinct cluster outcomes. Retire recto placement and avoid a live counter suggesting the final total was known during the attack.",
+        "target_sha256": {
+          "hf-impact-boundaries-workers": "8f1264783b48106f3a6a45859376e3ede4961c1627ef13190eff1b55ff43fb36",
+          "hf-impact-boundaries-root": "39f7bb65549a1c4605d91e2ef36f52bc90de2ccae76ec294e116cb1eb267a3fc",
+          "hf-impact-boundaries-clusters": "7f1a076a33ed5be47eb951e369c973225846f6945aa690912c9937147584b7db"
+        }
+      },
+      {
+        "id": "legacy-051-01-detail-03",
+        "original_sha256": "be8dddf11255aa4d392162af5d86f319fb40d48559f2b1bbcd9e927154fc5d34",
+        "disposition": "split",
+        "beats": [
+          "hf-impact-boundaries-workers",
+          "hf-impact-boundaries-root"
+        ],
+        "reason": "Preserve the 41-worker aggregate and at-least-one-node lower bound with OpenAI attribution and different access levels.",
+        "target_sha256": {
+          "hf-impact-boundaries-workers": "8f1264783b48106f3a6a45859376e3ede4961c1627ef13190eff1b55ff43fb36",
+          "hf-impact-boundaries-root": "39f7bb65549a1c4605d91e2ef36f52bc90de2ccae76ec294e116cb1eb267a3fc"
+        }
+      }
+    ]
+  },
+  {
+    "old_panel": "051-02",
+    "old_edition": "legacy-332b5ed63262",
+    "reviewed_on": "2026-09-13",
+    "status": "elements-reviewed",
+    "elements": [
+      {
+        "id": "legacy-051-02-detail-01",
+        "original_sha256": "0f622a9b35d981abfc259fd383afbbf689835cbe6caff55cd0bd735fc559f0d1",
+        "disposition": "rewrite",
+        "beats": [
+          "hf-impact-boundaries-secrets"
+        ],
+        "reason": "Preserve credentials, limited internal data and four downloaded private repositories as separate categories in authored narration, not fake verbatim source labels.",
+        "target_sha256": {
+          "hf-impact-boundaries-secrets": "fdf7d04cb8be412b9d1b451d70af30838ab8599478401d447b957a7dfc879042"
+        }
+      },
+      {
+        "id": "legacy-051-02-detail-02",
+        "original_sha256": "86e244e8ce4a724f7ab2bfb4e521c8f96a18e11e8b043864899e2897054f201c",
+        "disposition": "rewrite",
+        "beats": [
+          "hf-impact-boundaries-secrets"
+        ],
+        "reason": "Retain the internal-system and source-control reach while distinguishing possession of credentials from demonstrated use.",
+        "target_sha256": {
+          "hf-impact-boundaries-secrets": "fdf7d04cb8be412b9d1b451d70af30838ab8599478401d447b957a7dfc879042"
+        }
+      }
+    ]
+  },
+  {
+    "old_panel": "051-03",
+    "old_edition": "legacy-332b5ed63262",
+    "reviewed_on": "2026-09-13",
+    "status": "elements-reviewed",
+    "elements": [
+      {
+        "id": "legacy-051-03-detail-01",
+        "original_sha256": "3b40c10770505298eab9b6e1df6e39988efa53b0f125faf7652d55acd8af4d10",
+        "disposition": "split",
+        "beats": [
+          "hf-impact-boundaries-customer",
+          "hf-impact-boundaries-metadata"
+        ],
+        "reason": "Separate the five datasets from operational search metadata. Preserve that the challenge connection is inferred from names and files rather than treating it as independently established ownership or harmlessness.",
+        "target_sha256": {
+          "hf-impact-boundaries-customer": "89270f750be345a51d17b101af6cc5c423c5e0fcbe6039f928184b07f611305e",
+          "hf-impact-boundaries-metadata": "569d96d6e15e33128739c66163b97c2f1364508413b05ecc583ef641615d306f"
+        }
+      },
+      {
+        "id": "legacy-051-03-detail-02",
+        "original_sha256": "c7c67a2201bcb91bf2f1a31cefb49429e4d4af4a52bcdcdeffe74468b5644ccb",
+        "disposition": "split",
+        "beats": [
+          "hf-impact-boundaries-customer",
+          "hf-impact-boundaries-metadata"
+        ],
+        "reason": "Retain Hugging Face attribution and the bounded customer-content claim in reader-visible narration.",
+        "target_sha256": {
+          "hf-impact-boundaries-customer": "89270f750be345a51d17b101af6cc5c423c5e0fcbe6039f928184b07f611305e",
+          "hf-impact-boundaries-metadata": "569d96d6e15e33128739c66163b97c2f1364508413b05ecc583ef641615d306f"
+        }
+      }
+    ]
+  },
+  {
+    "old_panel": "051-04",
+    "old_edition": "legacy-332b5ed63262",
+    "reviewed_on": "2026-09-13",
+    "status": "elements-reviewed",
+    "elements": [
+      {
+        "id": "legacy-051-04-detail-01",
+        "original_sha256": "ef53fdc904c60736ed3662c135480accfdf0057dad0fcb500e5af31df911c034",
+        "disposition": "split",
+        "beats": [
+          "hf-impact-boundaries-other-content",
+          "hf-impact-boundaries-databases",
+          "hf-repository-outcome-shipped"
+        ],
+        "reason": "Separate unaffected customer-facing content, the unreached Hub database and clean published artifacts. Do not collapse the breached internal database into the unsuccessful Hub access.",
+        "target_sha256": {
+          "hf-impact-boundaries-other-content": "c078255450d0452e46275af31ca7243d38040d49cbe979af7414db8170923a9c",
+          "hf-impact-boundaries-databases": "f5507360986298297d9c9d1b1e8ea3bbf9ead0f8dacf9a3622cd721a1a670637",
+          "hf-repository-outcome-shipped": "1e53ec43810e8dedb1e3098450004739e56dfdfbbaee4f8013b6f5e3f7a648c9"
+        }
+      },
+      {
+        "id": "legacy-051-04-detail-02",
+        "original_sha256": "38c1b0353b882aad6e9c5b620d72fee76b5a868f3690873be131f16f32943726",
+        "disposition": "split",
+        "beats": [
+          "hf-impact-boundaries-audit",
+          "hf-repository-outcome-shipped"
+        ],
+        "reason": "Keep the basis for negative findings: database audit and network-flow logs, repository review and expected artifact digests. These are retrospective evidentiary support, not newly timestamped July 13 investigation actions.",
+        "target_sha256": {
+          "hf-impact-boundaries-audit": "bc8d99bd51b5dd19bce6e0c8267779401aa85d28dc2d270090408636d49cfe33",
+          "hf-repository-outcome-shipped": "1e53ec43810e8dedb1e3098450004739e56dfdfbbaee4f8013b6f5e3f7a648c9"
+        }
+      }
+    ]
+  },
+  {
+    "old_panel": "051-05",
+    "old_edition": "legacy-332b5ed63262",
+    "reviewed_on": "2026-09-13",
+    "status": "elements-reviewed",
+    "elements": [
+      {
+        "id": "legacy-051-05-detail-01",
+        "original_sha256": "cf753b0c41ff5a3dadf99ab0f97db020be1fc06131bd32bbbf75321772e46b17",
+        "disposition": "split",
+        "beats": [
+          "hf-access-cut-pull-request",
+          "hf-access-cut-branch",
+          "hf-repository-outcome-beacon",
+          "hf-repository-outcome-blocked"
+        ],
+        "reason": "Retain closure, branch deletion and no merge/deployment in the existing containment sequence. Restore workflow execution and distinguish it from the blocked further pivot. Retire color-dependent truth labeling.",
+        "target_sha256": {
+          "hf-access-cut-pull-request": "ba1a73cbc727d32840933b58a104bb17dce3179f2c7e5bf503f0ebff1a293184",
+          "hf-access-cut-branch": "7f155a7c0276b063b526e9d8d65fc5ca6003b280726c182dbdbbc6b5ae4255dc",
+          "hf-repository-outcome-beacon": "6e6a8b41b585ea545d354d2f0cfcfa99d3b93ba557295fe94a9a62a345cb5d7d",
+          "hf-repository-outcome-blocked": "1489ea95c060537e09e6a9a5a721b7ee78d27b0e58fe8b920db570e1f4875868"
+        }
+      },
+      {
+        "id": "legacy-051-05-detail-02",
+        "original_sha256": "475279f743af32229c8508b383786333ec503c72ec9a54e82550547969992c45",
+        "disposition": "split",
+        "beats": [
+          "hf-repository-outcome-beacon",
+          "hf-repository-outcome-shipped"
+        ],
+        "reason": "Preserve real exercised write access without a shipped change, while preventing no-shipment from becoming a claim that no workflow executed.",
+        "target_sha256": {
+          "hf-repository-outcome-beacon": "6e6a8b41b585ea545d354d2f0cfcfa99d3b93ba557295fe94a9a62a345cb5d7d",
+          "hf-repository-outcome-shipped": "1e53ec43810e8dedb1e3098450004739e56dfdfbbaee4f8013b6f5e3f7a648c9"
+        }
+      },
+      {
+        "id": "legacy-051-05-detail-03",
+        "original_sha256": "c15f983c508764647f6983a39359f9f4fb716fd3910916f0bb76ee9544ec3350",
+        "disposition": "rewrite",
+        "beats": [
+          "hf-impact-boundaries-scope"
+        ],
+        "reason": "Replace the standalone slogan with the concrete evidence boundary across access categories.",
+        "target_sha256": {
+          "hf-impact-boundaries-scope": "a25aad7d4ed16f2c9245c41c701e4e65660be237b86dc63127682972f043c74d"
+        }
+      },
+      {
+        "id": "legacy-051-05-detail-04",
+        "original_sha256": "0b3eadcadf116d7438cd0189bf6403f7ed038ac7d0c4da24556f94c2809e3ec4",
+        "disposition": "split",
+        "beats": [
+          "hf-impact-boundaries-scope",
+          "hf-impact-boundaries-workers",
+          "hf-impact-boundaries-root",
+          "hf-impact-boundaries-clusters"
+        ],
+        "reason": "Preserve the scale qualification with its specific worker, node and cluster findings, without duplicating the exploit actions or suggesting platform-wide control.",
+        "target_sha256": {
+          "hf-impact-boundaries-scope": "a25aad7d4ed16f2c9245c41c701e4e65660be237b86dc63127682972f043c74d",
+          "hf-impact-boundaries-workers": "8f1264783b48106f3a6a45859376e3ede4961c1627ef13190eff1b55ff43fb36",
+          "hf-impact-boundaries-root": "39f7bb65549a1c4605d91e2ef36f52bc90de2ccae76ec294e116cb1eb267a3fc",
+          "hf-impact-boundaries-clusters": "7f1a076a33ed5be47eb951e369c973225846f6945aa690912c9937147584b7db"
+        }
+      }
+    ]
   }
 ]
