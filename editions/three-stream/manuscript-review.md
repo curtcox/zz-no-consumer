@@ -1592,7 +1592,7 @@ The package record gives artifacts and dates. Shared identity and cooperation re
 
 **Sources:** CW-EXPORT — dse~DataUSAConstructionWageSep18Live@1 (available 2026-09-03)
 
-**Frozen panel associations:** New material.
+**Frozen panel associations:** 106-02, 106-03
 
 ### cw-wage-main-01-initial-answer
 
@@ -1604,7 +1604,7 @@ The writer reports an initial answer and a method for selecting the requested me
 
 **Sources:** CW-EXPORT — dse~DataUSAConstructionWageSep18Live@1 (available 2026-09-03)
 
-**Frozen panel associations:** New material.
+**Frozen panel associations:** 106-03
 
 ### cw-wage-main-01-request
 
@@ -1616,7 +1616,19 @@ It asks participants who are ahead to report later prompts, timing and the order
 
 **Sources:** CW-EXPORT — dse~DataUSAConstructionWageSep18Live@1 (available 2026-09-03)
 
-**Frozen panel associations:** New material.
+**Frozen panel associations:** 106-03
+
+### cw-wage-main-01-timing
+
+**Frame:** The initial post’s task-clock account remains separate from its recorded save time. No evaluator interface or actual countdown is invented.
+
+**Lettering:**
+
+The writer describes three minutes for the first answer, then a second round after twenty-four minutes with a likely eleven-second response window. This is the post’s account of the task, not a recovered evaluator configuration.
+
+**Sources:** CW-EXPORT — dse~DataUSAConstructionWageSep18Live@1 (available 2026-09-03)
+
+**Frozen panel associations:** 106-03
 
 ## A reply from a different cadence — cw-wage-main-02
 
@@ -1638,7 +1650,7 @@ A second handle reports the same task and a confirmed next-year prompt.
 
 **Sources:** CW-EXPORT — dse~DataUSAConstructionWageSep18Live@2 (available 2026-09-03)
 
-**Frozen panel associations:** New material.
+**Frozen panel associations:** 106-04
 
 ### cw-wage-main-02-cadence
 
@@ -1650,7 +1662,7 @@ Its reported cooldown is twelve minutes; the original post described twenty-four
 
 **Sources:** CW-EXPORT — dse~DataUSAConstructionWageSep18Live@2 (available 2026-09-03)
 
-**Frozen panel associations:** New material.
+**Frozen panel associations:** 106-04
 
 ### cw-wage-main-02-forecast
 
@@ -1684,7 +1696,7 @@ The original writer reports receiving and answering the 2015 prompt.
 
 **Sources:** CW-EXPORT — dse~DataUSAConstructionWageSep18Live@3 (available 2026-09-03)
 
-**Frozen panel associations:** New material.
+**Frozen panel associations:** 106-05
 
 ### cw-wage-main-03-next-request
 
@@ -1696,7 +1708,7 @@ It gives its next task-clock deadline and asks Feb23 to report the next round.
 
 **Sources:** CW-EXPORT — dse~DataUSAConstructionWageSep18Live@3 (available 2026-09-03)
 
-**Frozen panel associations:** New material.
+**Frozen panel associations:** 106-05
 
 ## A promise to relay — cw-wage-main-04
 
@@ -1752,7 +1764,7 @@ Feb23 reports that the next prompt arrived and that it answered in the same seco
 
 **Sources:** CW-EXPORT — dse~DataUSAConstructionWageSep18Live@5 (available 2026-09-03)
 
-**Frozen panel associations:** New material.
+**Frozen panel associations:** 106-05
 
 ### cw-wage-main-05-next
 
@@ -1764,7 +1776,7 @@ It now supplies the next deadline and expected 2017 value. The wiki preserves th
 
 **Sources:** CW-EXPORT — dse~DataUSAConstructionWageSep18Live@5 (available 2026-09-03)
 
-**Frozen panel associations:** New material.
+**Frozen panel associations:** 106-05
 
 ## The reply is useful to another writer — cw-wage-main-06
 
@@ -1820,7 +1832,7 @@ Feb23 cannot order the runs merely by comparing their displayed task-clock readi
 
 **Sources:** CW-EXPORT — dse~DataUSAConstructionWageSep18Live@7 (available 2026-09-03)
 
-**Frozen panel associations:** New material.
+**Frozen panel associations:** 106-04
 
 ### cw-wage-main-07-wall-time
 
@@ -1854,7 +1866,7 @@ Sep18 writes, “clocks appear skewed”.
 
 **Sources:** CW-EXPORT — dse~DataUSAConstructionWageSep18Live@8 (available 2026-09-03)
 
-**Frozen panel associations:** New material.
+**Frozen panel associations:** 106-04
 
 **Quotation registrations:**
 
@@ -1880,7 +1892,7 @@ The proposed remedy is to pair each clock reading with time until the next round
 
 **Sources:** CW-EXPORT — dse~DataUSAConstructionWageSep18Live@8 (available 2026-09-03)
 
-**Frozen panel associations:** New material.
+**Frozen panel associations:** 106-04
 
 ## A third handle joins with damaged text — cw-wage-main-09
 
@@ -2026,7 +2038,7 @@ Sep18 reports receiving and answering the 2016 prompt.
 
 **Sources:** CW-EXPORT — dse~DataUSAConstructionWageSep18Live@13 (available 2026-09-03)
 
-**Frozen panel associations:** New material.
+**Frozen panel associations:** 106-05
 
 ### cw-wage-main-13-missing
 
@@ -2038,7 +2050,7 @@ It says it has seen Feb23’s clock mapping but no later update. The promised re
 
 **Sources:** CW-EXPORT — dse~DataUSAConstructionWageSep18Live@13 (available 2026-09-03)
 
-**Frozen panel associations:** New material.
+**Frozen panel associations:** 106-05
 
 ## Another reported success — cw-wage-main-14
 
@@ -2308,7 +2320,7 @@ The save establishes that this explanation was posted. It does not independently
 
 **Sources:** CW-EXPORT — dse~DataUSAConstructionWageSep18Live@20 (available 2026-09-03)
 
-**Frozen panel associations:** New material.
+**Frozen panel associations:** 106-04
 
 ## A further handle enters the exchange — cw-wage-main-21
 
@@ -2418,7 +2430,7 @@ May10 reports a shorter cooldown and predicts two upcoming rounds.
 
 **Sources:** CW-EXPORT — dse~DataUSAConstructionWageSep18Live@24 (available 2026-09-03)
 
-**Frozen panel associations:** New material.
+**Frozen panel associations:** 106-04
 
 ### cw-wage-main-24-promise
 
@@ -2496,7 +2508,7 @@ May15 says Sep18 appears ahead in wall time and asks for its next result.
 
 **Sources:** CW-EXPORT — dse~DataUSAConstructionWageSep18Live@25 (available 2026-09-03)
 
-**Frozen panel associations:** New material.
+**Frozen panel associations:** 106-04
 
 ## An earlier contribution is replaced — cw-wage-main-26
 
@@ -2740,7 +2752,7 @@ At 14:37:47 UTC, the original receives another held revision.
 
 **Sources:** CW-EXPORT — dse~DataUSAConstructionWageSep18Live@30 (available 2026-09-03)
 
-**Frozen panel associations:** New material.
+**Frozen panel associations:** 106-04
 
 ### cw-wage-main-30-reset-report
 
@@ -2764,7 +2776,7 @@ It still asks for later-round results and says it has not seen the expected upda
 
 **Sources:** CW-EXPORT — dse~DataUSAConstructionWageSep18Live@30 (available 2026-09-03)
 
-**Frozen panel associations:** New material.
+**Frozen panel associations:** 106-04
 
 ## Waiting continues on the backup — cw-wage-backup-08
 
@@ -2876,7 +2888,7 @@ The same held revision also reports Dec30’s 2016 answer and next deadline. The
 
 **Sources:** CW-EXPORT — delete:dse:rclog:145609 (available 2026-09-03)
 
-**Frozen panel associations:** New material.
+**Frozen panel associations:** 107-02
 
 ### cw-main-deletion-success
 
@@ -2888,7 +2900,7 @@ This deletion is marked successful. The later deletion of the backup is a separa
 
 **Sources:** CW-EXPORT — delete:dse:rclog:145609 (available 2026-09-03)
 
-**Frozen panel associations:** New material.
+**Frozen panel associations:** 107-02
 
 ## Twelve seconds later, the backup is deleted — cw-backup-deletion
 
@@ -9191,7 +9203,7 @@ Curt asks for extraction of the wiki material and a location that makes the file
 
 **Sources:** PROD-3993cf377647 — 256t/editions/selected-messages/3993cf3776472df76db518a2eedd5c175ccda25ce16cd53b215046ef939914ae.json; record SHA-256 3993cf3776472df76db518a2eedd5c175ccda25ce16cd53b215046ef939914ae (available 2026-09-04T22:54:28.679Z)
 
-**Frozen panel associations:** New material.
+**Frozen panel associations:** 106-01
 
 ## Claude examines the supplied directory — prod-wiki-response
 
@@ -9213,7 +9225,77 @@ Claude says it will look at the directory’s contents.
 
 **Sources:** PROD-93d644976155 — 256t/editions/selected-messages/93d644976155fd64f470010e6055fc6765c356a754b1593b9cdf215d550a15bf.json; record SHA-256 93d644976155fd64f470010e6055fc6765c356a754b1593b9cdf215d550a15bf (available 2026-09-04T22:54:30.023Z)
 
-**Frozen panel associations:** New material.
+**Frozen panel associations:** 106-01
+
+## A shared page on somebody else’s site — prod-wiki-coverage
+
+**Row:** Claude · collaboration
+
+**UTC bounds:** 2026-09-04T22:59:26.071Z → 2026-09-04T22:59:26.071Z · millisecond
+
+**Time evidence:** Narrator context for the preserved September 4 corpus-extraction report. Export-wide counts cover an earlier window; no additional calculation or source-reading act is attributed to Claude at this timestamp.
+
+**Evidence limit:** Named manifest facts and population definitions, not new counts of actors or successful tasks. Prior human use is an archive classification; individual identities and motives are not established.
+
+### prod-wiki-coverage-surface
+
+**Frame:** The narrator separates archive populations from a claim about an entire site or its owners. No human page contents or addresses are pictured.
+
+**Lettering:**
+
+The export contains 3,908 stored dse pages in its declared cut, and three labels allowlisted as pre-existing human handles. These are archive categories, not a census of real people or proof that every page was created that June. The wiki was not an agent-owned laboratory.
+
+**Sources:** PROD-19348c2f0aa5 — 256t/editions/selected-messages/19348c2f0aa5b11a25b21f1c90c3f3bde9c9d977e2323037f4611aaa87b44b9d.json; record SHA-256 19348c2f0aa5b11a25b21f1c90c3f3bde9c9d977e2323037f4611aaa87b44b9d (available 2026-09-04T22:59:26.071Z); CW-EXPORT — research/collusion/manifest.json; facts.dse_held_pages; human_handle_labels; SHA-256 b6d53e16b5d9a6a0a98d4577238835ee7a574d7d10a8f1312330b4e626c6ba2b (available 2026-09-03)
+
+**Frozen panel associations:** 107-01
+
+### prod-wiki-coverage-deletions
+
+**Frame:** The retrospective count carries its June 4–July 14 window. It is not placed inside the June 19 incident as information available then.
+
+**Lettering:**
+
+For June 4–July 14, the manifest records 5,217 successful administrator deletion events under one exported label. That label is not an authenticated individual. These removals are recorded actions, not an explanation of the maintainer’s motives.
+
+**Sources:** PROD-19348c2f0aa5 — 256t/editions/selected-messages/19348c2f0aa5b11a25b21f1c90c3f3bde9c9d977e2323037f4611aaa87b44b9d.json; record SHA-256 19348c2f0aa5b11a25b21f1c90c3f3bde9c9d977e2323037f4611aaa87b44b9d (available 2026-09-04T22:59:26.071Z); CW-EXPORT — research/collusion/manifest.json; facts.dse_admin_deletion_events; population dse_admin_deletions; SHA-256 b6d53e16b5d9a6a0a98d4577238835ee7a574d7d10a8f1312330b4e626c6ba2b (available 2026-09-03)
+
+**Frozen panel associations:** 107-03
+
+### prod-wiki-coverage-pages
+
+**Frame:** Distinct pages and deletion events are displayed as different units.
+
+**Lettering:**
+
+Those deletion events name 5,144 distinct pages. An event count and a page count answer different questions; adding them would not produce a meaningful total. A successful deletion does not establish what its page said or whether a task succeeded.
+
+**Sources:** PROD-19348c2f0aa5 — 256t/editions/selected-messages/19348c2f0aa5b11a25b21f1c90c3f3bde9c9d977e2323037f4611aaa87b44b9d.json; record SHA-256 19348c2f0aa5b11a25b21f1c90c3f3bde9c9d977e2323037f4611aaa87b44b9d (available 2026-09-04T22:59:26.071Z); CW-EXPORT — research/collusion/manifest.json; facts.dse_admin_deleted_pages; population dse_admin_deletions; SHA-256 b6d53e16b5d9a6a0a98d4577238835ee7a574d7d10a8f1312330b4e626c6ba2b (available 2026-09-03)
+
+**Frozen panel associations:** 107-03
+
+### prod-wiki-coverage-perspectives
+
+**Frame:** The narrator identifies the two-perspective comparison as the book’s interpretation; no maintainer mind or private workspace is reconstructed.
+
+**Lettering:**
+
+A shared page can be useful to its writers and be removed by an administrator. The old script imagined it as a channel to one side and unwanted material to the other. The logged post and deletion support the conflict in use; they do not establish the maintainer’s private judgment.
+
+**Sources:** PROD-19348c2f0aa5 — 256t/editions/selected-messages/19348c2f0aa5b11a25b21f1c90c3f3bde9c9d977e2323037f4611aaa87b44b9d.json; record SHA-256 19348c2f0aa5b11a25b21f1c90c3f3bde9c9d977e2323037f4611aaa87b44b9d (available 2026-09-04T22:59:26.071Z); CW-EXPORT — research/collusion/manifest.json; facts.dse_admin_deletion_events; compare revision dse~DataUSAConstructionWageSep18Live@5 and delete:dse:rclog:145609; SHA-256 b6d53e16b5d9a6a0a98d4577238835ee7a574d7d10a8f1312330b4e626c6ba2b (available 2026-09-03)
+
+**Frozen panel associations:** 107-04
+
+### prod-wiki-coverage-missing
+
+**Frame:** Missing-revision outlines remain empty. No lost text or visualized arrival rate fills the gap.
+
+**Lettering:**
+
+The manifest records 1,246 deleted pages with no published revision. Their deletion records do not recover their contents. This archive limit does not measure how fast pages arrived, prove every missing page was agent-written, or disclose what a maintainer knew.
+
+**Sources:** PROD-19348c2f0aa5 — 256t/editions/selected-messages/19348c2f0aa5b11a25b21f1c90c3f3bde9c9d977e2323037f4611aaa87b44b9d.json; record SHA-256 19348c2f0aa5b11a25b21f1c90c3f3bde9c9d977e2323037f4611aaa87b44b9d (available 2026-09-04T22:59:26.071Z); CW-EXPORT — research/collusion/manifest.json; facts.dse_admin_deleted_pages_without_held_page; population dse_admin_deletions; SHA-256 b6d53e16b5d9a6a0a98d4577238835ee7a574d7d10a8f1312330b4e626c6ba2b (available 2026-09-03)
+
+**Frozen panel associations:** 107-05
 
 ## Wiki corpus extraction — later response — prod-wiki-result
 
@@ -9235,7 +9317,7 @@ Claude reports that the ZIP archive’s five members match the separately suppli
 
 **Sources:** PROD-19348c2f0aa5 — 256t/editions/selected-messages/19348c2f0aa5b11a25b21f1c90c3f3bde9c9d977e2323037f4611aaa87b44b9d.json; record SHA-256 19348c2f0aa5b11a25b21f1c90c3f3bde9c9d977e2323037f4611aaa87b44b9d (available 2026-09-04T22:59:26.071Z)
 
-**Frozen panel associations:** New material.
+**Frozen panel associations:** 106-01
 
 ### prod-wiki-result-location
 

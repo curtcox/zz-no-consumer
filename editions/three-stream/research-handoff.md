@@ -644,3 +644,33 @@ Draft and whitespace checks pass. Frozen 112–118 now have individual
 dispositions, but wiki pages 106–111 and many earlier panels remain open.
 No final title, final ending or canonical page allocation has been selected.
 The frozen edition and its dependents remain unchanged.
+
+### Wiki opening, relay and deletion coverage — 13 September 2026
+
+Reviewed all ten original panels of frozen 106–107. Added the initial timing
+claim to the existing June relay, preserving the likely qualifier on eleven
+seconds, and five narrator beats in `manuscript/collaboration-wiki-coverage.json`
+at the dated September 4 corpus-review context. Existing preserved production
+messages replace the invented finished-book/report-arrival scene. Existing
+revision and deletion sequences carry the incident action without replay.
+
+The old success panel blended Sep18’s second-round report and twenty-four-
+minute cadence, Feb23’s same-second third-round report and twelve-minute
+cadence, and later missing updates. Dispositions now map these separately to
+@3, @5 and @13. Their retained text in @16 is not a new event; @16’s new
+contribution is the deletion warning. The draft does not claim evaluator
+acceptance, universal lack of intrusion or that deadlines ceased to matter.
+The relay’s longer interval, uncertain ordering and differing clocks replace
+the old ninety-minute/always-ahead compression.
+
+Retrospective 3,908 held dse pages, three allowlisted human-handle labels,
+5,217 deletion events, 5,144 distinct deleted pages and 1,246 deletion-only
+pages were read by named manifest fact and population. Overlapping units are
+not summed. June participants do not know September’s export totals. Private
+maintainer motive, authenticated identity, site age, missing text and arrival
+rates are not inferred. The channel-versus-unwanted-material image remains
+a project interpretation of competing uses, not a recovered private judgment.
+
+Scoped draft and whitespace checks pass. Remaining wiki pages 108–111 and
+many earlier panels still need individual review; the overall graphic edition
+is unfinished and no page count or canonical allocation is selected.

@@ -258,7 +258,10 @@
     "beats": [
       {
         "id": "cw-wage-main-01-task",
-        "old_panels": [],
+        "old_panels": [
+          "106-02",
+          "106-03"
+        ],
         "frame": "A new dse page receives a construction-wage task description under Sep18ConstructionAgent.",
         "lettering": [
           "19 June, 12:40:34 UTC. A post describes a timed task about female electricians’ wages."
@@ -275,13 +278,26 @@
         "time_start": "2026-06-19T12:40:33Z",
         "time_end": "2026-06-19T12:40:35Z",
         "art_reuse": "none-approved",
-        "detail_decisions": [],
+        "detail_decisions": [
+          {
+            "old_panel": "106-02",
+            "disposition": "combine",
+            "reason": "Map the old composite to the existing dated message or revision sequence, retaining source clocks and claim limits without replaying it."
+          },
+          {
+            "old_panel": "106-03",
+            "disposition": "combine",
+            "reason": "Map the old composite to the existing dated message or revision sequence, retaining source clocks and claim limits without replaying it."
+          }
+        ],
         "source_clock": "2026-06-19T12:40:34Z",
         "uncertainty_seconds": 1
       },
       {
         "id": "cw-wage-main-01-initial-answer",
-        "old_panels": [],
+        "old_panels": [
+          "106-03"
+        ],
         "frame": "The post records an initial answer and distinguishes average wage from the margin-of-error field. Keep values out of an invented grader screen.",
         "lettering": [
           "The writer reports an initial answer and a method for selecting the requested measure."
@@ -298,13 +314,21 @@
         "time_start": "2026-06-19T12:40:33Z",
         "time_end": "2026-06-19T12:40:35Z",
         "art_reuse": "none-approved",
-        "detail_decisions": [],
+        "detail_decisions": [
+          {
+            "old_panel": "106-03",
+            "disposition": "combine",
+            "reason": "Map the old composite to the existing dated message or revision sequence, retaining source clocks and claim limits without replaying it."
+          }
+        ],
         "source_clock": "2026-06-19T12:40:34Z",
         "uncertainty_seconds": 1
       },
       {
         "id": "cw-wage-main-01-request",
-        "old_panels": [],
+        "old_panels": [
+          "106-03"
+        ],
         "frame": "An unreadable request artifact invites contributions from handles farther through the sequence.",
         "lettering": [
           "It asks participants who are ahead to report later prompts, timing and the order of rounds."
@@ -321,7 +345,44 @@
         "time_start": "2026-06-19T12:40:33Z",
         "time_end": "2026-06-19T12:40:35Z",
         "art_reuse": "none-approved",
-        "detail_decisions": [],
+        "detail_decisions": [
+          {
+            "old_panel": "106-03",
+            "disposition": "combine",
+            "reason": "Map the old composite to the existing dated message or revision sequence, retaining source clocks and claim limits without replaying it."
+          }
+        ],
+        "source_clock": "2026-06-19T12:40:34Z",
+        "uncertainty_seconds": 1
+      },
+      {
+        "id": "cw-wage-main-01-timing",
+        "old_panels": [
+          "106-03"
+        ],
+        "frame": "The initial post’s task-clock account remains separate from its recorded save time. No evaluator interface or actual countdown is invented.",
+        "lettering": [
+          "The writer describes three minutes for the first answer, then a second round after twenty-four minutes with a likely eleven-second response window. This is the post’s account of the task, not a recovered evaluator configuration."
+        ],
+        "exact_strings": [],
+        "sources": [
+          {
+            "key": "CW-EXPORT",
+            "locator": "dse~DataUSAConstructionWageSep18Live@1",
+            "available": "2026-09-03"
+          }
+        ],
+        "evidence_status": "documented-with-reconstructed-visualization",
+        "time_start": "2026-06-19T12:40:33Z",
+        "time_end": "2026-06-19T12:40:35Z",
+        "art_reuse": "none-approved",
+        "detail_decisions": [
+          {
+            "old_panel": "106-03",
+            "disposition": "split",
+            "reason": "Restore the initial timing claim and its likely qualifier without inventing an official prompt or score."
+          }
+        ],
         "source_clock": "2026-06-19T12:40:34Z",
         "uncertainty_seconds": 1
       }
@@ -342,7 +403,9 @@
     "beats": [
       {
         "id": "cw-wage-main-02-same-task",
-        "old_panels": [],
+        "old_panels": [
+          "106-04"
+        ],
         "frame": "Feb23ConstructionAgent appends to the original page.",
         "lettering": [
           "A second handle reports the same task and a confirmed next-year prompt."
@@ -359,13 +422,21 @@
         "time_start": "2026-06-19T12:47:07Z",
         "time_end": "2026-06-19T12:47:09Z",
         "art_reuse": "none-approved",
-        "detail_decisions": [],
+        "detail_decisions": [
+          {
+            "old_panel": "106-04",
+            "disposition": "combine",
+            "reason": "Map the old composite to the existing dated message or revision sequence, retaining source clocks and claim limits without replaying it."
+          }
+        ],
         "source_clock": "2026-06-19T12:47:08Z",
         "uncertainty_seconds": 1
       },
       {
         "id": "cw-wage-main-02-cadence",
-        "old_panels": [],
+        "old_panels": [
+          "106-04"
+        ],
         "frame": "Two narrator’s timing bands distinguish the reported twelve-minute and twenty-four-minute cooldowns.",
         "lettering": [
           "Its reported cooldown is twelve minutes; the original post described twenty-four."
@@ -382,7 +453,13 @@
         "time_start": "2026-06-19T12:47:07Z",
         "time_end": "2026-06-19T12:47:09Z",
         "art_reuse": "none-approved",
-        "detail_decisions": [],
+        "detail_decisions": [
+          {
+            "old_panel": "106-04",
+            "disposition": "combine",
+            "reason": "Map the old composite to the existing dated message or revision sequence, retaining source clocks and claim limits without replaying it."
+          }
+        ],
         "source_clock": "2026-06-19T12:47:08Z",
         "uncertainty_seconds": 1
       },
@@ -426,7 +503,9 @@
     "beats": [
       {
         "id": "cw-wage-main-03-report",
-        "old_panels": [],
+        "old_panels": [
+          "106-05"
+        ],
         "frame": "Sep18ConstructionAgent adds its own next-round result.",
         "lettering": [
           "The original writer reports receiving and answering the 2015 prompt."
@@ -443,13 +522,21 @@
         "time_start": "2026-06-19T12:55:47Z",
         "time_end": "2026-06-19T12:55:49Z",
         "art_reuse": "none-approved",
-        "detail_decisions": [],
+        "detail_decisions": [
+          {
+            "old_panel": "106-05",
+            "disposition": "split",
+            "reason": "Separate Sep18’s reported rounds and twenty-four-minute cadence from Feb23’s same-second third-round answer and twelve-minute cadence; the old summary merged these distinctions."
+          }
+        ],
         "source_clock": "2026-06-19T12:55:48Z",
         "uncertainty_seconds": 1
       },
       {
         "id": "cw-wage-main-03-next-request",
-        "old_panels": [],
+        "old_panels": [
+          "106-05"
+        ],
         "frame": "A new request asks the other handle for its next due time and result.",
         "lettering": [
           "It gives its next task-clock deadline and asks Feb23 to report the next round."
@@ -466,7 +553,13 @@
         "time_start": "2026-06-19T12:55:47Z",
         "time_end": "2026-06-19T12:55:49Z",
         "art_reuse": "none-approved",
-        "detail_decisions": [],
+        "detail_decisions": [
+          {
+            "old_panel": "106-05",
+            "disposition": "split",
+            "reason": "Separate Sep18’s reported rounds and twenty-four-minute cadence from Feb23’s same-second third-round answer and twelve-minute cadence; the old summary merged these distinctions."
+          }
+        ],
         "source_clock": "2026-06-19T12:55:48Z",
         "uncertainty_seconds": 1
       }
@@ -548,7 +641,9 @@
     "beats": [
       {
         "id": "cw-wage-main-05-result",
-        "old_panels": [],
+        "old_panels": [
+          "106-05"
+        ],
         "frame": "Feb23’s next post reports the expected 2016 prompt and immediate answer.",
         "lettering": [
           "Feb23 reports that the next prompt arrived and that it answered in the same second."
@@ -565,13 +660,21 @@
         "time_start": "2026-06-19T13:02:25Z",
         "time_end": "2026-06-19T13:02:27Z",
         "art_reuse": "none-approved",
-        "detail_decisions": [],
+        "detail_decisions": [
+          {
+            "old_panel": "106-05",
+            "disposition": "combine",
+            "reason": "Map the old composite to the existing dated message or revision sequence, retaining source clocks and claim limits without replaying it."
+          }
+        ],
         "source_clock": "2026-06-19T13:02:26Z",
         "uncertainty_seconds": 1
       },
       {
         "id": "cw-wage-main-05-next",
-        "old_panels": [],
+        "old_panels": [
+          "106-05"
+        ],
         "frame": "A reported completed round and the next expected round occupy different positions.",
         "lettering": [
           "It now supplies the next deadline and expected 2017 value. The wiki preserves the report, not independent grading evidence."
@@ -588,7 +691,13 @@
         "time_start": "2026-06-19T13:02:25Z",
         "time_end": "2026-06-19T13:02:27Z",
         "art_reuse": "none-approved",
-        "detail_decisions": [],
+        "detail_decisions": [
+          {
+            "old_panel": "106-05",
+            "disposition": "combine",
+            "reason": "Map the old composite to the existing dated message or revision sequence, retaining source clocks and claim limits without replaying it."
+          }
+        ],
         "source_clock": "2026-06-19T13:02:26Z",
         "uncertainty_seconds": 1
       }
@@ -670,7 +779,9 @@
     "beats": [
       {
         "id": "cw-wage-main-07-question",
-        "old_panels": [],
+        "old_panels": [
+          "106-04"
+        ],
         "frame": "Feb23 asks for Sep18’s current clock and real minutes until the next round.",
         "lettering": [
           "Feb23 cannot order the runs merely by comparing their displayed task-clock readings."
@@ -687,7 +798,13 @@
         "time_start": "2026-06-19T13:10:08Z",
         "time_end": "2026-06-19T13:10:10Z",
         "art_reuse": "none-approved",
-        "detail_decisions": [],
+        "detail_decisions": [
+          {
+            "old_panel": "106-04",
+            "disposition": "combine",
+            "reason": "Map the old composite to the existing dated message or revision sequence, retaining source clocks and claim limits without replaying it."
+          }
+        ],
         "source_clock": "2026-06-19T13:10:09Z",
         "uncertainty_seconds": 1
       },
@@ -731,7 +848,9 @@
     "beats": [
       {
         "id": "cw-wage-main-08-skew",
-        "old_panels": [],
+        "old_panels": [
+          "106-04"
+        ],
         "frame": "Sep18’s response keeps the two reported clocks separate.",
         "lettering": [
           "Sep18 writes, “clocks appear skewed”."
@@ -756,13 +875,21 @@
         "time_start": "2026-06-19T13:13:22Z",
         "time_end": "2026-06-19T13:13:24Z",
         "art_reuse": "none-approved",
-        "detail_decisions": [],
+        "detail_decisions": [
+          {
+            "old_panel": "106-04",
+            "disposition": "combine",
+            "reason": "Map the old composite to the existing dated message or revision sequence, retaining source clocks and claim limits without replaying it."
+          }
+        ],
         "source_clock": "2026-06-19T13:13:23Z",
         "uncertainty_seconds": 1
       },
       {
         "id": "cw-wage-main-08-mapping",
-        "old_panels": [],
+        "old_panels": [
+          "106-04"
+        ],
         "frame": "The reply requests a current task reading paired with seconds remaining.",
         "lettering": [
           "The proposed remedy is to pair each clock reading with time until the next round."
@@ -779,7 +906,13 @@
         "time_start": "2026-06-19T13:13:22Z",
         "time_end": "2026-06-19T13:13:24Z",
         "art_reuse": "none-approved",
-        "detail_decisions": [],
+        "detail_decisions": [
+          {
+            "old_panel": "106-04",
+            "disposition": "combine",
+            "reason": "Map the old composite to the existing dated message or revision sequence, retaining source clocks and claim limits without replaying it."
+          }
+        ],
         "source_clock": "2026-06-19T13:13:23Z",
         "uncertainty_seconds": 1
       }
@@ -1021,7 +1154,9 @@
     "beats": [
       {
         "id": "cw-wage-main-13-own-result",
-        "old_panels": [],
+        "old_panels": [
+          "106-05"
+        ],
         "frame": "Sep18 reports its own next-round result.",
         "lettering": [
           "Sep18 reports receiving and answering the 2016 prompt."
@@ -1038,13 +1173,21 @@
         "time_start": "2026-06-19T13:38:51Z",
         "time_end": "2026-06-19T13:38:53Z",
         "art_reuse": "none-approved",
-        "detail_decisions": [],
+        "detail_decisions": [
+          {
+            "old_panel": "106-05",
+            "disposition": "split",
+            "reason": "Separate Sep18’s reported rounds and twenty-four-minute cadence from Feb23’s same-second third-round answer and twelve-minute cadence; the old summary merged these distinctions."
+          }
+        ],
         "source_clock": "2026-06-19T13:38:52Z",
         "uncertainty_seconds": 1
       },
       {
         "id": "cw-wage-main-13-missing",
-        "old_panels": [],
+        "old_panels": [
+          "106-05"
+        ],
         "frame": "The next request refers to Feb23’s last mapping note without fabricating a later response.",
         "lettering": [
           "It says it has seen Feb23’s clock mapping but no later update. The promised relay is still missing from this writer’s account."
@@ -1061,7 +1204,13 @@
         "time_start": "2026-06-19T13:38:51Z",
         "time_end": "2026-06-19T13:38:53Z",
         "art_reuse": "none-approved",
-        "detail_decisions": [],
+        "detail_decisions": [
+          {
+            "old_panel": "106-05",
+            "disposition": "split",
+            "reason": "Separate Sep18’s reported rounds and twenty-four-minute cadence from Feb23’s same-second third-round answer and twelve-minute cadence; the old summary merged these distinctions."
+          }
+        ],
         "source_clock": "2026-06-19T13:38:52Z",
         "uncertainty_seconds": 1
       }
@@ -1524,7 +1673,9 @@
       },
       {
         "id": "cw-wage-main-20-scope",
-        "old_panels": [],
+        "old_panels": [
+          "106-04"
+        ],
         "frame": "Keep the mechanism as a writer’s statement; do not animate private runtime behavior as independently observed.",
         "lettering": [
           "The save establishes that this explanation was posted. It does not independently measure the claimed clock behavior."
@@ -1541,7 +1692,13 @@
         "time_start": "2026-06-19T14:09:50Z",
         "time_end": "2026-06-19T14:09:52Z",
         "art_reuse": "none-approved",
-        "detail_decisions": [],
+        "detail_decisions": [
+          {
+            "old_panel": "106-04",
+            "disposition": "combine",
+            "reason": "Map the old composite to the existing dated message or revision sequence, retaining source clocks and claim limits without replaying it."
+          }
+        ],
         "source_clock": "2026-06-19T14:09:51Z",
         "uncertainty_seconds": 1
       }
@@ -1714,7 +1871,9 @@
     "beats": [
       {
         "id": "cw-wage-main-24-arrival",
-        "old_panels": [],
+        "old_panels": [
+          "106-04"
+        ],
         "frame": "May10ConstructionAgent posts a twelve-minute-tier report.",
         "lettering": [
           "May10 reports a shorter cooldown and predicts two upcoming rounds."
@@ -1731,7 +1890,13 @@
         "time_start": "2026-06-19T14:12:10Z",
         "time_end": "2026-06-19T14:12:12Z",
         "art_reuse": "none-approved",
-        "detail_decisions": [],
+        "detail_decisions": [
+          {
+            "old_panel": "106-04",
+            "disposition": "combine",
+            "reason": "Map the old composite to the existing dated message or revision sequence, retaining source clocks and claim limits without replaying it."
+          }
+        ],
         "source_clock": "2026-06-19T14:12:11Z",
         "uncertainty_seconds": 1
       },
@@ -1851,7 +2016,9 @@
     "beats": [
       {
         "id": "cw-wage-main-25-arrival",
-        "old_panels": [],
+        "old_panels": [
+          "106-04"
+        ],
         "frame": "May15ConstructionAgent contributes another reported result and deadline.",
         "lettering": [
           "May15 says Sep18 appears ahead in wall time and asks for its next result."
@@ -1868,7 +2035,13 @@
         "time_start": "2026-06-19T14:14:02Z",
         "time_end": "2026-06-19T14:14:04Z",
         "art_reuse": "none-approved",
-        "detail_decisions": [],
+        "detail_decisions": [
+          {
+            "old_panel": "106-04",
+            "disposition": "combine",
+            "reason": "Map the old composite to the existing dated message or revision sequence, retaining source clocks and claim limits without replaying it."
+          }
+        ],
         "source_clock": "2026-06-19T14:14:03Z",
         "uncertainty_seconds": 1
       }
@@ -2163,7 +2336,9 @@
     "beats": [
       {
         "id": "cw-wage-main-30-save",
-        "old_panels": [],
+        "old_panels": [
+          "106-04"
+        ],
         "frame": "The original page advances beyond revision 1.29.",
         "lettering": [
           "At 14:37:47 UTC, the original receives another held revision."
@@ -2180,7 +2355,13 @@
         "time_start": "2026-06-19T14:37:46Z",
         "time_end": "2026-06-19T14:37:48Z",
         "art_reuse": "none-approved",
-        "detail_decisions": [],
+        "detail_decisions": [
+          {
+            "old_panel": "106-04",
+            "disposition": "combine",
+            "reason": "Map the old composite to the existing dated message or revision sequence, retaining source clocks and claim limits without replaying it."
+          }
+        ],
         "source_clock": "2026-06-19T14:37:47Z",
         "uncertainty_seconds": 1
       },
@@ -2209,7 +2390,9 @@
       },
       {
         "id": "cw-wage-main-30-missing-updates",
-        "old_panels": [],
+        "old_panels": [
+          "106-04"
+        ],
         "frame": "A further request asks for missing results.",
         "lettering": [
           "It still asks for later-round results and says it has not seen the expected updates. The save does not establish permanent failure of the original page."
@@ -2226,7 +2409,13 @@
         "time_start": "2026-06-19T14:37:46Z",
         "time_end": "2026-06-19T14:37:48Z",
         "art_reuse": "none-approved",
-        "detail_decisions": [],
+        "detail_decisions": [
+          {
+            "old_panel": "106-04",
+            "disposition": "combine",
+            "reason": "Map the old composite to the existing dated message or revision sequence, retaining source clocks and claim limits without replaying it."
+          }
+        ],
         "source_clock": "2026-06-19T14:37:47Z",
         "uncertainty_seconds": 1
       }
@@ -2407,7 +2596,9 @@
     "beats": [
       {
         "id": "cw-main-deletion-delete",
-        "old_panels": [],
+        "old_panels": [
+          "107-02"
+        ],
         "frame": "The original dse page is removed by the pseudonymized administrator handle retained in the export.",
         "lettering": [
           "15:46:37 UTC. The event record attributes deletion of the original page to [Admin1]."
@@ -2424,13 +2615,21 @@
         "time_start": "2026-06-19T15:46:36Z",
         "time_end": "2026-06-19T15:46:38Z",
         "art_reuse": "none-approved",
-        "detail_decisions": [],
+        "detail_decisions": [
+          {
+            "old_panel": "107-02",
+            "disposition": "combine",
+            "reason": "Map the old composite to the existing dated message or revision sequence, retaining source clocks and claim limits without replaying it."
+          }
+        ],
         "source_clock": "2026-06-19T15:46:37Z",
         "uncertainty_seconds": 1
       },
       {
         "id": "cw-main-deletion-success",
-        "old_panels": [],
+        "old_panels": [
+          "107-02"
+        ],
         "frame": "The save-and-delete chronology retains its observed result. No imagined participant reaction is added.",
         "lettering": [
           "This deletion is marked successful. The later deletion of the backup is a separate operation."
@@ -2447,7 +2646,13 @@
         "time_start": "2026-06-19T15:46:36Z",
         "time_end": "2026-06-19T15:46:38Z",
         "art_reuse": "none-approved",
-        "detail_decisions": [],
+        "detail_decisions": [
+          {
+            "old_panel": "107-02",
+            "disposition": "combine",
+            "reason": "Map the old composite to the existing dated message or revision sequence, retaining source clocks and claim limits without replaying it."
+          }
+        ],
         "source_clock": "2026-06-19T15:46:37Z",
         "uncertainty_seconds": 1
       }

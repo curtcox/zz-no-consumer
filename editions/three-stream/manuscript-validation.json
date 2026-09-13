@@ -1,5 +1,5 @@
 {
-  "checked_at": "2026-09-13T17:03:07.524657+00:00",
+  "checked_at": "2026-09-13T17:07:11.473802+00:00",
   "status": "structural draft checks passed; editorial completion not claimed",
   "commands": [
     {
@@ -27,8 +27,9 @@
     "manuscript/collaboration-resource-argument.json": "675ec0fae41d13c445c3f391af9ac70a12cc8fc79c9635978f8f1a252c707033",
     "manuscript/collaboration-response-controls.json": "619a9fdb75693005fdd33ff12b0a02b90529897832086910cbbf922f6d0f6220",
     "manuscript/collaboration-safeguard-assessment.json": "4bce0bad1c25223feac37e63f5b0ddc45978b35427672702967578dffb1c7724",
-    "manuscript/collaboration-selected-messages.json": "953597469253f6db6440defe1c87ef00fd4e27a0514db52db4ff43671b5062df",
+    "manuscript/collaboration-selected-messages.json": "8dad4adbbf4d8a6038aeb1b99282767c03e39cd2f6a5fc74988260266cabd53e",
     "manuscript/collaboration-title-and-logo.json": "11b4f0323cd063d11ce679aca88f6c85bf7f490d00c37e4d1bb6f8cf25f46df8",
+    "manuscript/collaboration-wiki-coverage.json": "7c5a0f3ff646786dffc58aec849f5c78a7032d588c9ba3d28c48d62a7a1ae489",
     "manuscript/gemstuffer-documentation-and-theft.json": "9f15fdbe8effce9872b6537761d15a7634dd0d29d8e1ff8af2bea527031ecd19",
     "manuscript/gemstuffer-incident.json": "240f1853ad9feacf61caf52f2afd3d7f883a1b7525169e56236d9ec1cb4f5609",
     "manuscript/huggingface-board-return.json": "b2e486e6067fa7e25f12ff871fa2a0819f5d980e465ff270a89976252d45e7a4",
@@ -41,7 +42,7 @@
     "manuscript/huggingface-task-and-grader.json": "d8641a1c29991f2361e25845af1662636ac8594acbfd12468f30bc50e9bc76fe",
     "manuscript/huggingface-worker-impact.json": "315bee972fb89e89f9f60b5335adaac6e5f2feabe6c534ddc17bd4b16a3bdfaa",
     "manuscript/wiki-counterexamples.json": "7b7b0e1557d68af5ef55199216864d648dc2e107e649dc471485fc7197400fe7",
-    "manuscript/wiki-selected-exchanges.json": "471f2dec2c30a2ee237528f5e8354a58bdd1cd1ac3462815ca4a70ca05aa3653",
+    "manuscript/wiki-selected-exchanges.json": "23841dc0d6da1afa7a01bdfe7d1caf6703e0491239c373601813865ee31bfb16",
     "evidence/assurance-096-7fa53878c493.md": "91f0aea0dc5e0dbf309ef9015f6de6967a8738bf8e795bec6e4dc59369d1a04f",
     "evidence/continuation-053-1da1d895ab4e.md": "ade0e4424b626807144991cc265f90c11268f80819da3de68bfe7b94cab1055f",
     "evidence/continuation-054-1da1d895ab4e.md": "851e9ec7e795b08ab39976fe78fc62882c10c228885fd0bc7f0350a6188acb51",
@@ -60,25 +61,25 @@
     "evidence/training-caption-116-7fa53878c493.md": "8249f0ce10bedf8720be9e745abd46f9be46333c61d2fcbf7e8fab07aab1f0a4",
     "evidence/warning-110-7fa53878c493.md": "57aed2116acb5fa569a231a23ce84f9ba89f9b10740e1e6d0907e19e33a95d7f",
     "evidence/writable-115-7fa53878c493.md": "f6fb6d46a6f4ae9c31229542143787556a8c26b5a92f4e7718db08692398d034",
-    "detail-review.json": "793d946b10ad91d1d39ca4de521c93a4228d9fea252a4792b89b61f4d1c39895",
+    "detail-review.json": "cff7679f320ea41c130e59edee93042c079e7631fc45968eb8b386731577f5cb",
     "production-selections.json": "12d2a401c9a08bc0b2f758d3891077ec156a627b82b98d58a661c7183bb50611",
     "sources.json": "ae8dcf8d7195b6aa93647d712a115094034b0c5a4c135378c96c5ead6ddfeaca"
   },
   "counts": {
-    "scenes": 258,
-    "drafted_beats": 808,
+    "scenes": 259,
+    "drafted_beats": 814,
     "canonical_pages": null,
-    "associated_old_panels": 399,
+    "associated_old_panels": 409,
     "by_row": {
       "HuggingFace": 342,
       "GemStuffer": 58,
-      "Collusion Wiki": 115,
+      "Collusion Wiki": 116,
       "Curt": 28,
       "Codex": 97,
-      "Claude": 168
+      "Claude": 173
     },
-    "reviewed_old_panels": 151,
-    "reviewed_source_elements": 369
+    "reviewed_old_panels": 161,
+    "reviewed_source_elements": 400
   },
   "not_verified": [
     "Full old-element disposition and semantic completeness",
@@ -88,7 +89,7 @@
     "Print layout, thumbnails, lettering fit and artwork",
     "Final graphic manuscript and deferred-edition handoff"
   ],
-  "previous_checked_at": "2026-09-13T16:59:20.676805+00:00",
+  "previous_checked_at": "2026-09-13T17:03:07.524657+00:00",
   "production_record_verification": {
     "result": "passed",
     "selected_records": 67,

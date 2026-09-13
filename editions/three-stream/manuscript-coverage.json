@@ -1,9 +1,9 @@
 {
   "status": "incomplete; associations are not full-detail dispositions",
-  "scenes": 258,
-  "drafted_beats": 808,
+  "scenes": 259,
+  "drafted_beats": 814,
   "canonical_pages": null,
-  "associated_old_panels": 399,
+  "associated_old_panels": 409,
   "old_panels": [
     {
       "old_edition": "legacy-332b5ed63262",
@@ -4701,71 +4701,112 @@
     {
       "old_edition": "legacy-332b5ed63262",
       "old_panel": "106-01",
-      "draft_beats": [],
-      "detail_review": "pending",
+      "draft_beats": [
+        "prod-wiki-request-message",
+        "prod-wiki-response-message",
+        "prod-wiki-result-message"
+      ],
+      "detail_review": "elements-reviewed",
       "exact_strings": []
     },
     {
       "old_edition": "legacy-332b5ed63262",
       "old_panel": "106-02",
-      "draft_beats": [],
-      "detail_review": "pending",
+      "draft_beats": [
+        "cw-wage-main-01-task"
+      ],
+      "detail_review": "elements-reviewed",
       "exact_strings": []
     },
     {
       "old_edition": "legacy-332b5ed63262",
       "old_panel": "106-03",
-      "draft_beats": [],
-      "detail_review": "pending",
+      "draft_beats": [
+        "cw-wage-main-01-task",
+        "cw-wage-main-01-initial-answer",
+        "cw-wage-main-01-request",
+        "cw-wage-main-01-timing"
+      ],
+      "detail_review": "elements-reviewed",
       "exact_strings": []
     },
     {
       "old_edition": "legacy-332b5ed63262",
       "old_panel": "106-04",
-      "draft_beats": [],
-      "detail_review": "pending",
+      "draft_beats": [
+        "cw-wage-main-02-same-task",
+        "cw-wage-main-02-cadence",
+        "cw-wage-main-07-question",
+        "cw-wage-main-08-skew",
+        "cw-wage-main-08-mapping",
+        "cw-wage-main-20-scope",
+        "cw-wage-main-24-arrival",
+        "cw-wage-main-25-arrival",
+        "cw-wage-main-30-save",
+        "cw-wage-main-30-missing-updates"
+      ],
+      "detail_review": "elements-reviewed",
       "exact_strings": []
     },
     {
       "old_edition": "legacy-332b5ed63262",
       "old_panel": "106-05",
-      "draft_beats": [],
-      "detail_review": "pending",
+      "draft_beats": [
+        "cw-wage-main-03-report",
+        "cw-wage-main-03-next-request",
+        "cw-wage-main-05-result",
+        "cw-wage-main-05-next",
+        "cw-wage-main-13-own-result",
+        "cw-wage-main-13-missing"
+      ],
+      "detail_review": "elements-reviewed",
       "exact_strings": []
     },
     {
       "old_edition": "legacy-332b5ed63262",
       "old_panel": "107-01",
-      "draft_beats": [],
-      "detail_review": "pending",
+      "draft_beats": [
+        "prod-wiki-coverage-surface"
+      ],
+      "detail_review": "elements-reviewed",
       "exact_strings": []
     },
     {
       "old_edition": "legacy-332b5ed63262",
       "old_panel": "107-02",
-      "draft_beats": [],
-      "detail_review": "pending",
+      "draft_beats": [
+        "cw-main-deletion-delete",
+        "cw-main-deletion-success"
+      ],
+      "detail_review": "elements-reviewed",
       "exact_strings": []
     },
     {
       "old_edition": "legacy-332b5ed63262",
       "old_panel": "107-03",
-      "draft_beats": [],
-      "detail_review": "pending",
+      "draft_beats": [
+        "prod-wiki-coverage-deletions",
+        "prod-wiki-coverage-pages"
+      ],
+      "detail_review": "elements-reviewed",
       "exact_strings": []
     },
     {
       "old_edition": "legacy-332b5ed63262",
       "old_panel": "107-04",
-      "draft_beats": [],
-      "detail_review": "pending",
+      "draft_beats": [
+        "prod-wiki-coverage-perspectives"
+      ],
+      "detail_review": "elements-reviewed",
       "exact_strings": []
     },
     {
       "old_edition": "legacy-332b5ed63262",
       "old_panel": "107-05",
-      "draft_beats": [],
-      "detail_review": "pending",
+      "draft_beats": [
+        "prod-wiki-coverage-missing"
+      ],
+      "detail_review": "elements-reviewed",
       "exact_strings": []
     },
     {
@@ -5280,11 +5321,11 @@
   "by_row": {
     "HuggingFace": 342,
     "GemStuffer": 58,
-    "Collusion Wiki": 115,
+    "Collusion Wiki": 116,
     "Curt": 28,
     "Codex": 97,
-    "Claude": 168
+    "Claude": 173
   },
-  "reviewed_old_panels": 151,
-  "reviewed_source_elements": 369
+  "reviewed_old_panels": 161,
+  "reviewed_source_elements": 400
 }

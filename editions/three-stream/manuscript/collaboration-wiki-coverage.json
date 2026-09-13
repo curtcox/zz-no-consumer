@@ -1,0 +1,192 @@
+[
+  {
+    "id": "prod-wiki-coverage",
+    "title": "A shared page on somebody else’s site",
+    "movement": "collaboration",
+    "owner": "Claude",
+    "start": "2026-09-04T22:59:26.071Z",
+    "end": "2026-09-04T22:59:26.071Z",
+    "original_timezone": "UTC",
+    "precision": "millisecond",
+    "chronology_basis": "Narrator context for the preserved September 4 corpus-extraction report. Export-wide counts cover an earlier window; no additional calculation or source-reading act is attributed to Claude at this timestamp.",
+    "source_limit": "Named manifest facts and population definitions, not new counts of actors or successful tasks. Prior human use is an archive classification; individual identities and motives are not established.",
+    "status": "detailed-draft",
+    "beats": [
+      {
+        "id": "prod-wiki-coverage-surface",
+        "old_panels": [
+          "107-01"
+        ],
+        "frame": "The narrator separates archive populations from a claim about an entire site or its owners. No human page contents or addresses are pictured.",
+        "lettering": [
+          "The export contains 3,908 stored dse pages in its declared cut, and three labels allowlisted as pre-existing human handles. These are archive categories, not a census of real people or proof that every page was created that June. The wiki was not an agent-owned laboratory."
+        ],
+        "exact_strings": [],
+        "sources": [
+          {
+            "key": "PROD-19348c2f0aa5",
+            "locator": "256t/editions/selected-messages/19348c2f0aa5b11a25b21f1c90c3f3bde9c9d977e2323037f4611aaa87b44b9d.json; record SHA-256 19348c2f0aa5b11a25b21f1c90c3f3bde9c9d977e2323037f4611aaa87b44b9d",
+            "available": "2026-09-04T22:59:26.071Z"
+          },
+          {
+            "key": "CW-EXPORT",
+            "locator": "research/collusion/manifest.json; facts.dse_held_pages; human_handle_labels; SHA-256 b6d53e16b5d9a6a0a98d4577238835ee7a574d7d10a8f1312330b4e626c6ba2b",
+            "available": "2026-09-03"
+          }
+        ],
+        "evidence_status": "documented-message-with-reconstructed-visualization",
+        "time_start": "2026-09-04T22:59:26.071Z",
+        "time_end": "2026-09-04T22:59:26.071Z",
+        "art_reuse": "none-approved",
+        "detail_decisions": [
+          {
+            "old_panel": "107-01",
+            "disposition": "rewrite",
+            "reason": "Move retrospective export counts and interpretive comparisons into narrator context at the dated corpus review, preserving population and knowledge limits."
+          }
+        ],
+        "source_record": "current-mac:6b657858-b5ae-4a61-82cc-034af30aa67e:162"
+      },
+      {
+        "id": "prod-wiki-coverage-deletions",
+        "old_panels": [
+          "107-03"
+        ],
+        "frame": "The retrospective count carries its June 4–July 14 window. It is not placed inside the June 19 incident as information available then.",
+        "lettering": [
+          "For June 4–July 14, the manifest records 5,217 successful administrator deletion events under one exported label. That label is not an authenticated individual. These removals are recorded actions, not an explanation of the maintainer’s motives."
+        ],
+        "exact_strings": [],
+        "sources": [
+          {
+            "key": "PROD-19348c2f0aa5",
+            "locator": "256t/editions/selected-messages/19348c2f0aa5b11a25b21f1c90c3f3bde9c9d977e2323037f4611aaa87b44b9d.json; record SHA-256 19348c2f0aa5b11a25b21f1c90c3f3bde9c9d977e2323037f4611aaa87b44b9d",
+            "available": "2026-09-04T22:59:26.071Z"
+          },
+          {
+            "key": "CW-EXPORT",
+            "locator": "research/collusion/manifest.json; facts.dse_admin_deletion_events; population dse_admin_deletions; SHA-256 b6d53e16b5d9a6a0a98d4577238835ee7a574d7d10a8f1312330b4e626c6ba2b",
+            "available": "2026-09-03"
+          }
+        ],
+        "evidence_status": "documented-message-with-reconstructed-visualization",
+        "time_start": "2026-09-04T22:59:26.071Z",
+        "time_end": "2026-09-04T22:59:26.071Z",
+        "art_reuse": "none-approved",
+        "detail_decisions": [
+          {
+            "old_panel": "107-03",
+            "disposition": "rewrite",
+            "reason": "Move retrospective export counts and interpretive comparisons into narrator context at the dated corpus review, preserving population and knowledge limits."
+          }
+        ],
+        "source_record": "current-mac:6b657858-b5ae-4a61-82cc-034af30aa67e:162"
+      },
+      {
+        "id": "prod-wiki-coverage-pages",
+        "old_panels": [
+          "107-03"
+        ],
+        "frame": "Distinct pages and deletion events are displayed as different units.",
+        "lettering": [
+          "Those deletion events name 5,144 distinct pages. An event count and a page count answer different questions; adding them would not produce a meaningful total. A successful deletion does not establish what its page said or whether a task succeeded."
+        ],
+        "exact_strings": [],
+        "sources": [
+          {
+            "key": "PROD-19348c2f0aa5",
+            "locator": "256t/editions/selected-messages/19348c2f0aa5b11a25b21f1c90c3f3bde9c9d977e2323037f4611aaa87b44b9d.json; record SHA-256 19348c2f0aa5b11a25b21f1c90c3f3bde9c9d977e2323037f4611aaa87b44b9d",
+            "available": "2026-09-04T22:59:26.071Z"
+          },
+          {
+            "key": "CW-EXPORT",
+            "locator": "research/collusion/manifest.json; facts.dse_admin_deleted_pages; population dse_admin_deletions; SHA-256 b6d53e16b5d9a6a0a98d4577238835ee7a574d7d10a8f1312330b4e626c6ba2b",
+            "available": "2026-09-03"
+          }
+        ],
+        "evidence_status": "documented-message-with-reconstructed-visualization",
+        "time_start": "2026-09-04T22:59:26.071Z",
+        "time_end": "2026-09-04T22:59:26.071Z",
+        "art_reuse": "none-approved",
+        "detail_decisions": [
+          {
+            "old_panel": "107-03",
+            "disposition": "rewrite",
+            "reason": "Move retrospective export counts and interpretive comparisons into narrator context at the dated corpus review, preserving population and knowledge limits."
+          }
+        ],
+        "source_record": "current-mac:6b657858-b5ae-4a61-82cc-034af30aa67e:162"
+      },
+      {
+        "id": "prod-wiki-coverage-perspectives",
+        "old_panels": [
+          "107-04"
+        ],
+        "frame": "The narrator identifies the two-perspective comparison as the book’s interpretation; no maintainer mind or private workspace is reconstructed.",
+        "lettering": [
+          "A shared page can be useful to its writers and be removed by an administrator. The old script imagined it as a channel to one side and unwanted material to the other. The logged post and deletion support the conflict in use; they do not establish the maintainer’s private judgment."
+        ],
+        "exact_strings": [],
+        "sources": [
+          {
+            "key": "PROD-19348c2f0aa5",
+            "locator": "256t/editions/selected-messages/19348c2f0aa5b11a25b21f1c90c3f3bde9c9d977e2323037f4611aaa87b44b9d.json; record SHA-256 19348c2f0aa5b11a25b21f1c90c3f3bde9c9d977e2323037f4611aaa87b44b9d",
+            "available": "2026-09-04T22:59:26.071Z"
+          },
+          {
+            "key": "CW-EXPORT",
+            "locator": "research/collusion/manifest.json; facts.dse_admin_deletion_events; compare revision dse~DataUSAConstructionWageSep18Live@5 and delete:dse:rclog:145609; SHA-256 b6d53e16b5d9a6a0a98d4577238835ee7a574d7d10a8f1312330b4e626c6ba2b",
+            "available": "2026-09-03"
+          }
+        ],
+        "evidence_status": "documented-message-with-reconstructed-visualization",
+        "time_start": "2026-09-04T22:59:26.071Z",
+        "time_end": "2026-09-04T22:59:26.071Z",
+        "art_reuse": "none-approved",
+        "detail_decisions": [
+          {
+            "old_panel": "107-04",
+            "disposition": "rewrite",
+            "reason": "Move retrospective export counts and interpretive comparisons into narrator context at the dated corpus review, preserving population and knowledge limits."
+          }
+        ],
+        "source_record": "current-mac:6b657858-b5ae-4a61-82cc-034af30aa67e:162"
+      },
+      {
+        "id": "prod-wiki-coverage-missing",
+        "old_panels": [
+          "107-05"
+        ],
+        "frame": "Missing-revision outlines remain empty. No lost text or visualized arrival rate fills the gap.",
+        "lettering": [
+          "The manifest records 1,246 deleted pages with no published revision. Their deletion records do not recover their contents. This archive limit does not measure how fast pages arrived, prove every missing page was agent-written, or disclose what a maintainer knew."
+        ],
+        "exact_strings": [],
+        "sources": [
+          {
+            "key": "PROD-19348c2f0aa5",
+            "locator": "256t/editions/selected-messages/19348c2f0aa5b11a25b21f1c90c3f3bde9c9d977e2323037f4611aaa87b44b9d.json; record SHA-256 19348c2f0aa5b11a25b21f1c90c3f3bde9c9d977e2323037f4611aaa87b44b9d",
+            "available": "2026-09-04T22:59:26.071Z"
+          },
+          {
+            "key": "CW-EXPORT",
+            "locator": "research/collusion/manifest.json; facts.dse_admin_deleted_pages_without_held_page; population dse_admin_deletions; SHA-256 b6d53e16b5d9a6a0a98d4577238835ee7a574d7d10a8f1312330b4e626c6ba2b",
+            "available": "2026-09-03"
+          }
+        ],
+        "evidence_status": "documented-message-with-reconstructed-visualization",
+        "time_start": "2026-09-04T22:59:26.071Z",
+        "time_end": "2026-09-04T22:59:26.071Z",
+        "art_reuse": "none-approved",
+        "detail_decisions": [
+          {
+            "old_panel": "107-05",
+            "disposition": "rewrite",
+            "reason": "Move retrospective export counts and interpretive comparisons into narrator context at the dated corpus review, preserving population and knowledge limits."
+          }
+        ],
+        "source_record": "current-mac:6b657858-b5ae-4a61-82cc-034af30aa67e:162"
+      }
+    ]
+  }
+]

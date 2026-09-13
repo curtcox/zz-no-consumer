@@ -5956,5 +5956,607 @@
         }
       }
     ]
+  },
+  {
+    "old_panel": "106-01",
+    "old_edition": "legacy-332b5ed63262",
+    "reviewed_on": "2026-09-13",
+    "status": "elements-reviewed",
+    "elements": [
+      {
+        "id": "legacy-106-01-detail-01",
+        "original_sha256": "030a3cffebc60c12c686fe3c44a0b8a2ebfaae231a192e7fe9d4a5a2b0645884",
+        "disposition": "split",
+        "beats": [
+          "prod-wiki-request-message",
+          "prod-wiki-response-message",
+          "prod-wiki-result-message"
+        ],
+        "reason": "Replace the invented report-arrival/finished-manuscript frame with actual September 4 request, acknowledgement and extraction report; publication date does not establish Curt’s first view or a completed book.",
+        "target_sha256": {
+          "prod-wiki-request-message": "fbc97bc623c0ad45c184e0e6249ba75473eec95dca2a8d1553e5d497ba8d9d56",
+          "prod-wiki-response-message": "1b7dc26333c3530b20665a013d2306bed13f87bb5555a974877948855df652a2",
+          "prod-wiki-result-message": "9ce32edb7b635e8865845be2ce3dab164bdf1b114275833b776a65f0b0a34bf1"
+        }
+      },
+      {
+        "id": "legacy-106-01-detail-02",
+        "original_sha256": "b0fe1731b18b4abfdf77b4e1bb329c57385422c9efc6a7b797b90651f59654ac",
+        "disposition": "split",
+        "beats": [
+          "prod-wiki-request-message",
+          "prod-wiki-response-message",
+          "prod-wiki-result-message"
+        ],
+        "reason": "Replace the invented report-arrival/finished-manuscript frame with actual September 4 request, acknowledgement and extraction report; publication date does not establish Curt’s first view or a completed book.",
+        "target_sha256": {
+          "prod-wiki-request-message": "fbc97bc623c0ad45c184e0e6249ba75473eec95dca2a8d1553e5d497ba8d9d56",
+          "prod-wiki-response-message": "1b7dc26333c3530b20665a013d2306bed13f87bb5555a974877948855df652a2",
+          "prod-wiki-result-message": "9ce32edb7b635e8865845be2ce3dab164bdf1b114275833b776a65f0b0a34bf1"
+        }
+      },
+      {
+        "id": "legacy-106-01-detail-03",
+        "original_sha256": "ea61b3adedcb78328290aebb243c0966d128369c6060e9b1787094d1e3c920d4",
+        "disposition": "split",
+        "beats": [
+          "prod-wiki-request-message",
+          "prod-wiki-response-message",
+          "prod-wiki-result-message"
+        ],
+        "reason": "Replace the invented report-arrival/finished-manuscript frame with actual September 4 request, acknowledgement and extraction report; publication date does not establish Curt’s first view or a completed book.",
+        "target_sha256": {
+          "prod-wiki-request-message": "fbc97bc623c0ad45c184e0e6249ba75473eec95dca2a8d1553e5d497ba8d9d56",
+          "prod-wiki-response-message": "1b7dc26333c3530b20665a013d2306bed13f87bb5555a974877948855df652a2",
+          "prod-wiki-result-message": "9ce32edb7b635e8865845be2ce3dab164bdf1b114275833b776a65f0b0a34bf1"
+        }
+      }
+    ]
+  },
+  {
+    "old_panel": "106-02",
+    "old_edition": "legacy-332b5ed63262",
+    "reviewed_on": "2026-09-13",
+    "status": "elements-reviewed",
+    "elements": [
+      {
+        "id": "legacy-106-02-detail-01",
+        "original_sha256": "70b2ffa4e4479ba0c55c6a4a0c9d67185e990a7a75a0edf7b0bf665cc36f7e48",
+        "disposition": "rewrite",
+        "beats": [
+          "cw-wage-main-01-task"
+        ],
+        "reason": "Retain the initial June 19 post and its recorded uncertainty in the wiki incident row; remove the retrospective chapter rewind and do not infer authenticated population identity from a handle.",
+        "target_sha256": {
+          "cw-wage-main-01-task": "d52bc662b4b5ef8356b73ed6f4a06b4495c535c9c51f749f32f8b9b9b523b179"
+        }
+      },
+      {
+        "id": "legacy-106-02-detail-02",
+        "original_sha256": "44451ec8877fa9170312914f8ef089c0916a59be257651d34d16abcb3a17e599",
+        "disposition": "rewrite",
+        "beats": [
+          "cw-wage-main-01-task"
+        ],
+        "reason": "Retain the initial June 19 post and its recorded uncertainty in the wiki incident row; remove the retrospective chapter rewind and do not infer authenticated population identity from a handle.",
+        "target_sha256": {
+          "cw-wage-main-01-task": "d52bc662b4b5ef8356b73ed6f4a06b4495c535c9c51f749f32f8b9b9b523b179"
+        }
+      },
+      {
+        "id": "legacy-106-02-detail-03",
+        "original_sha256": "a7db51d199b8017532983128b4f996d18163b05c5f19c42e5e4858ff0df2ecd8",
+        "disposition": "rewrite",
+        "beats": [
+          "cw-wage-main-01-task"
+        ],
+        "reason": "Retain the initial June 19 post and its recorded uncertainty in the wiki incident row; remove the retrospective chapter rewind and do not infer authenticated population identity from a handle.",
+        "target_sha256": {
+          "cw-wage-main-01-task": "d52bc662b4b5ef8356b73ed6f4a06b4495c535c9c51f749f32f8b9b9b523b179"
+        }
+      }
+    ]
+  },
+  {
+    "old_panel": "106-03",
+    "old_edition": "legacy-332b5ed63262",
+    "reviewed_on": "2026-09-13",
+    "status": "elements-reviewed",
+    "elements": [
+      {
+        "id": "legacy-106-03-detail-01",
+        "original_sha256": "1b4da619e4cae21ce20d5e56fccd32ffac7947df798e0b6900ec98a71e853431",
+        "disposition": "split",
+        "beats": [
+          "cw-wage-main-01-task",
+          "cw-wage-main-01-initial-answer",
+          "cw-wage-main-01-request",
+          "cw-wage-main-01-timing"
+        ],
+        "reason": "Preserve the public-statistic task, reported answer, initial timing and request for later prompts as post claims; include likely on the eleven-second window and no fabricated prompt/evaluator.",
+        "target_sha256": {
+          "cw-wage-main-01-task": "d52bc662b4b5ef8356b73ed6f4a06b4495c535c9c51f749f32f8b9b9b523b179",
+          "cw-wage-main-01-initial-answer": "4590573b111bbd82660ea998237dac0f3e3ff805c2bb62e5a91c04b4c4351714",
+          "cw-wage-main-01-request": "da9307e59d1378eceb13bc2b38b2c0532ff330943e417c1ee9e90954c8536fa0",
+          "cw-wage-main-01-timing": "7ae5375e9afe5d215ed6cf413c5a226a98ec275aad64d60d2da99d4666bcc0e3"
+        }
+      },
+      {
+        "id": "legacy-106-03-detail-03",
+        "original_sha256": "f0ea45e96dfa3348bc50c0760c1574a3455d8d3c5e80d87e0081a9972683278d",
+        "disposition": "split",
+        "beats": [
+          "cw-wage-main-01-task",
+          "cw-wage-main-01-initial-answer",
+          "cw-wage-main-01-request",
+          "cw-wage-main-01-timing"
+        ],
+        "reason": "Preserve the public-statistic task, reported answer, initial timing and request for later prompts as post claims; include likely on the eleven-second window and no fabricated prompt/evaluator.",
+        "target_sha256": {
+          "cw-wage-main-01-task": "d52bc662b4b5ef8356b73ed6f4a06b4495c535c9c51f749f32f8b9b9b523b179",
+          "cw-wage-main-01-initial-answer": "4590573b111bbd82660ea998237dac0f3e3ff805c2bb62e5a91c04b4c4351714",
+          "cw-wage-main-01-request": "da9307e59d1378eceb13bc2b38b2c0532ff330943e417c1ee9e90954c8536fa0",
+          "cw-wage-main-01-timing": "7ae5375e9afe5d215ed6cf413c5a226a98ec275aad64d60d2da99d4666bcc0e3"
+        }
+      },
+      {
+        "id": "legacy-106-03-detail-04",
+        "original_sha256": "f800d8dd53bc198aa9359f7f7a55026a35b8f65393d319a670a533c780d27f71",
+        "disposition": "split",
+        "beats": [
+          "cw-wage-main-01-task",
+          "cw-wage-main-01-initial-answer",
+          "cw-wage-main-01-request",
+          "cw-wage-main-01-timing"
+        ],
+        "reason": "Preserve the public-statistic task, reported answer, initial timing and request for later prompts as post claims; include likely on the eleven-second window and no fabricated prompt/evaluator.",
+        "target_sha256": {
+          "cw-wage-main-01-task": "d52bc662b4b5ef8356b73ed6f4a06b4495c535c9c51f749f32f8b9b9b523b179",
+          "cw-wage-main-01-initial-answer": "4590573b111bbd82660ea998237dac0f3e3ff805c2bb62e5a91c04b4c4351714",
+          "cw-wage-main-01-request": "da9307e59d1378eceb13bc2b38b2c0532ff330943e417c1ee9e90954c8536fa0",
+          "cw-wage-main-01-timing": "7ae5375e9afe5d215ed6cf413c5a226a98ec275aad64d60d2da99d4666bcc0e3"
+        }
+      },
+      {
+        "id": "legacy-106-03-detail-05",
+        "original_sha256": "a155a8ce2750f6abfc7a9ad4666f446e3394d1d667d47895e2de969e3fcc93a4",
+        "disposition": "split",
+        "beats": [
+          "cw-wage-main-01-task",
+          "cw-wage-main-01-initial-answer",
+          "cw-wage-main-01-request",
+          "cw-wage-main-01-timing"
+        ],
+        "reason": "Preserve the public-statistic task, reported answer, initial timing and request for later prompts as post claims; include likely on the eleven-second window and no fabricated prompt/evaluator.",
+        "target_sha256": {
+          "cw-wage-main-01-task": "d52bc662b4b5ef8356b73ed6f4a06b4495c535c9c51f749f32f8b9b9b523b179",
+          "cw-wage-main-01-initial-answer": "4590573b111bbd82660ea998237dac0f3e3ff805c2bb62e5a91c04b4c4351714",
+          "cw-wage-main-01-request": "da9307e59d1378eceb13bc2b38b2c0532ff330943e417c1ee9e90954c8536fa0",
+          "cw-wage-main-01-timing": "7ae5375e9afe5d215ed6cf413c5a226a98ec275aad64d60d2da99d4666bcc0e3"
+        }
+      }
+    ]
+  },
+  {
+    "old_panel": "106-04",
+    "old_edition": "legacy-332b5ed63262",
+    "reviewed_on": "2026-09-13",
+    "status": "elements-reviewed",
+    "elements": [
+      {
+        "id": "legacy-106-04-detail-01",
+        "original_sha256": "9f0661ea7ad12137a02c8a1f6b3f7969f0eaacd946f7586415abe07a9827b549",
+        "disposition": "split",
+        "beats": [
+          "cw-wage-main-02-same-task",
+          "cw-wage-main-02-cadence",
+          "cw-wage-main-07-question",
+          "cw-wage-main-08-skew",
+          "cw-wage-main-08-mapping",
+          "cw-wage-main-20-scope",
+          "cw-wage-main-24-arrival",
+          "cw-wage-main-25-arrival",
+          "cw-wage-main-30-save",
+          "cw-wage-main-30-missing-updates"
+        ],
+        "reason": "Preserve the ordered revisions and task-clock discrepancy. Replace ninety-minute compression and always-ahead certainty with the recorded 12:47–14:37 sequence, differing cooldowns, skew, uncertain order and missing reports.",
+        "target_sha256": {
+          "cw-wage-main-02-same-task": "1c26b560d7c8110a127d36aca7af47638ae6056c2dcd2e37a8561c196ad1c0fe",
+          "cw-wage-main-02-cadence": "6d77227b742d37bc243cc046df103b3a33a33ddbe329496e345edaff72999589",
+          "cw-wage-main-07-question": "f30ae81271941f9553f33e5ec52d4faf40914f1fcd3e8fc921131172db660077",
+          "cw-wage-main-08-skew": "1f1c1b4e3b11b86069576777da85cb83158e8a558003778d701e9d744ca9fc4d",
+          "cw-wage-main-08-mapping": "35933d2fc528d17369588ed3e048ba4bc53b88344824a79adfc2aa6a7aee0276",
+          "cw-wage-main-20-scope": "848215be50eb1a5467a2f3c58f07a144fff2b73b464ce348e535afdb9b5616e1",
+          "cw-wage-main-24-arrival": "71fe0f1cdecd594cc3e0cc38378fc52363862bd11771b050890e8b9d560f7a1d",
+          "cw-wage-main-25-arrival": "9d7a7ad59c80f66cc881df025b5b9c22a3099532f9e10cf15a86974db1e81048",
+          "cw-wage-main-30-save": "a3cc1c4d3668ca316268405148c348748afa26404aa1b5f38b1c9362bbd3aa98",
+          "cw-wage-main-30-missing-updates": "29da4232a8f20b2caff5dbb9f0537dff562100aa0e1a1dc37979584485a9b08a"
+        }
+      },
+      {
+        "id": "legacy-106-04-detail-02",
+        "original_sha256": "54b4a161f6d6e06b50de819fdd22e0cde44adc4f60df48e151975f7fa6b8ad62",
+        "disposition": "split",
+        "beats": [
+          "cw-wage-main-02-same-task",
+          "cw-wage-main-02-cadence",
+          "cw-wage-main-07-question",
+          "cw-wage-main-08-skew",
+          "cw-wage-main-08-mapping",
+          "cw-wage-main-20-scope",
+          "cw-wage-main-24-arrival",
+          "cw-wage-main-25-arrival",
+          "cw-wage-main-30-save",
+          "cw-wage-main-30-missing-updates"
+        ],
+        "reason": "Preserve the ordered revisions and task-clock discrepancy. Replace ninety-minute compression and always-ahead certainty with the recorded 12:47–14:37 sequence, differing cooldowns, skew, uncertain order and missing reports.",
+        "target_sha256": {
+          "cw-wage-main-02-same-task": "1c26b560d7c8110a127d36aca7af47638ae6056c2dcd2e37a8561c196ad1c0fe",
+          "cw-wage-main-02-cadence": "6d77227b742d37bc243cc046df103b3a33a33ddbe329496e345edaff72999589",
+          "cw-wage-main-07-question": "f30ae81271941f9553f33e5ec52d4faf40914f1fcd3e8fc921131172db660077",
+          "cw-wage-main-08-skew": "1f1c1b4e3b11b86069576777da85cb83158e8a558003778d701e9d744ca9fc4d",
+          "cw-wage-main-08-mapping": "35933d2fc528d17369588ed3e048ba4bc53b88344824a79adfc2aa6a7aee0276",
+          "cw-wage-main-20-scope": "848215be50eb1a5467a2f3c58f07a144fff2b73b464ce348e535afdb9b5616e1",
+          "cw-wage-main-24-arrival": "71fe0f1cdecd594cc3e0cc38378fc52363862bd11771b050890e8b9d560f7a1d",
+          "cw-wage-main-25-arrival": "9d7a7ad59c80f66cc881df025b5b9c22a3099532f9e10cf15a86974db1e81048",
+          "cw-wage-main-30-save": "a3cc1c4d3668ca316268405148c348748afa26404aa1b5f38b1c9362bbd3aa98",
+          "cw-wage-main-30-missing-updates": "29da4232a8f20b2caff5dbb9f0537dff562100aa0e1a1dc37979584485a9b08a"
+        }
+      },
+      {
+        "id": "legacy-106-04-detail-03",
+        "original_sha256": "8fb62b113863a54a611dec203ff34e8fc35a073cb22deb906f0e84ee7348a5dd",
+        "disposition": "split",
+        "beats": [
+          "cw-wage-main-02-same-task",
+          "cw-wage-main-02-cadence",
+          "cw-wage-main-07-question",
+          "cw-wage-main-08-skew",
+          "cw-wage-main-08-mapping",
+          "cw-wage-main-20-scope",
+          "cw-wage-main-24-arrival",
+          "cw-wage-main-25-arrival",
+          "cw-wage-main-30-save",
+          "cw-wage-main-30-missing-updates"
+        ],
+        "reason": "Preserve the ordered revisions and task-clock discrepancy. Replace ninety-minute compression and always-ahead certainty with the recorded 12:47–14:37 sequence, differing cooldowns, skew, uncertain order and missing reports.",
+        "target_sha256": {
+          "cw-wage-main-02-same-task": "1c26b560d7c8110a127d36aca7af47638ae6056c2dcd2e37a8561c196ad1c0fe",
+          "cw-wage-main-02-cadence": "6d77227b742d37bc243cc046df103b3a33a33ddbe329496e345edaff72999589",
+          "cw-wage-main-07-question": "f30ae81271941f9553f33e5ec52d4faf40914f1fcd3e8fc921131172db660077",
+          "cw-wage-main-08-skew": "1f1c1b4e3b11b86069576777da85cb83158e8a558003778d701e9d744ca9fc4d",
+          "cw-wage-main-08-mapping": "35933d2fc528d17369588ed3e048ba4bc53b88344824a79adfc2aa6a7aee0276",
+          "cw-wage-main-20-scope": "848215be50eb1a5467a2f3c58f07a144fff2b73b464ce348e535afdb9b5616e1",
+          "cw-wage-main-24-arrival": "71fe0f1cdecd594cc3e0cc38378fc52363862bd11771b050890e8b9d560f7a1d",
+          "cw-wage-main-25-arrival": "9d7a7ad59c80f66cc881df025b5b9c22a3099532f9e10cf15a86974db1e81048",
+          "cw-wage-main-30-save": "a3cc1c4d3668ca316268405148c348748afa26404aa1b5f38b1c9362bbd3aa98",
+          "cw-wage-main-30-missing-updates": "29da4232a8f20b2caff5dbb9f0537dff562100aa0e1a1dc37979584485a9b08a"
+        }
+      },
+      {
+        "id": "legacy-106-04-detail-04",
+        "original_sha256": "09bc245e96e8b2e9d0da71484f53dba3392ae1ce8ddb2bad7c05ab6148161e77",
+        "disposition": "split",
+        "beats": [
+          "cw-wage-main-02-same-task",
+          "cw-wage-main-02-cadence",
+          "cw-wage-main-07-question",
+          "cw-wage-main-08-skew",
+          "cw-wage-main-08-mapping",
+          "cw-wage-main-20-scope",
+          "cw-wage-main-24-arrival",
+          "cw-wage-main-25-arrival",
+          "cw-wage-main-30-save",
+          "cw-wage-main-30-missing-updates"
+        ],
+        "reason": "Preserve the ordered revisions and task-clock discrepancy. Replace ninety-minute compression and always-ahead certainty with the recorded 12:47–14:37 sequence, differing cooldowns, skew, uncertain order and missing reports.",
+        "target_sha256": {
+          "cw-wage-main-02-same-task": "1c26b560d7c8110a127d36aca7af47638ae6056c2dcd2e37a8561c196ad1c0fe",
+          "cw-wage-main-02-cadence": "6d77227b742d37bc243cc046df103b3a33a33ddbe329496e345edaff72999589",
+          "cw-wage-main-07-question": "f30ae81271941f9553f33e5ec52d4faf40914f1fcd3e8fc921131172db660077",
+          "cw-wage-main-08-skew": "1f1c1b4e3b11b86069576777da85cb83158e8a558003778d701e9d744ca9fc4d",
+          "cw-wage-main-08-mapping": "35933d2fc528d17369588ed3e048ba4bc53b88344824a79adfc2aa6a7aee0276",
+          "cw-wage-main-20-scope": "848215be50eb1a5467a2f3c58f07a144fff2b73b464ce348e535afdb9b5616e1",
+          "cw-wage-main-24-arrival": "71fe0f1cdecd594cc3e0cc38378fc52363862bd11771b050890e8b9d560f7a1d",
+          "cw-wage-main-25-arrival": "9d7a7ad59c80f66cc881df025b5b9c22a3099532f9e10cf15a86974db1e81048",
+          "cw-wage-main-30-save": "a3cc1c4d3668ca316268405148c348748afa26404aa1b5f38b1c9362bbd3aa98",
+          "cw-wage-main-30-missing-updates": "29da4232a8f20b2caff5dbb9f0537dff562100aa0e1a1dc37979584485a9b08a"
+        }
+      }
+    ]
+  },
+  {
+    "old_panel": "106-05",
+    "old_edition": "legacy-332b5ed63262",
+    "reviewed_on": "2026-09-13",
+    "status": "elements-reviewed",
+    "elements": [
+      {
+        "id": "legacy-106-05-detail-01",
+        "original_sha256": "2a85d20fe5700a37c1eaf96029de63b2ce6f26476d11d3fcae1d51e5c7817e34",
+        "disposition": "split",
+        "beats": [
+          "cw-wage-main-05-result",
+          "cw-wage-main-05-next",
+          "cw-wage-main-03-report",
+          "cw-wage-main-03-next-request",
+          "cw-wage-main-13-own-result",
+          "cw-wage-main-13-missing"
+        ],
+        "reason": "Split the old compressed claim across distinct participants and rounds: Sep18’s second-round report and twenty-four-minute cadence (@3), Feb23’s same-second third-round answer and twelve-minute cadence (@5), and Sep18’s later report with missing updates (@13). Their continued presence in @16 is not a new event. Remove unsupported instant-second-answer/generalized deadline-elimination language; evaluator acceptance remains unverified.",
+        "target_sha256": {
+          "cw-wage-main-05-result": "f7517526a9caa39d0b2977703f4631f18b5d546352c9ba9194d448df671b6af7",
+          "cw-wage-main-05-next": "4312a9a841f9e7337916aef2f7317ecb6fbf383bee7b57b430c1c7dd4d1bb695",
+          "cw-wage-main-03-report": "bfdf6fa2910f1bb939d15683deef35f4749015daf110c450c50794c20cfecd50",
+          "cw-wage-main-03-next-request": "9bcafbeecb480e18e0697761d8de8b34a0ef23b1023ab1f0d0a3f8c6723ae38c",
+          "cw-wage-main-13-own-result": "a27419f3026b53ab0fa4d169375ef2af001647bc38546afccb036c9a5de8ce76",
+          "cw-wage-main-13-missing": "2b16c0b312b5273b4757d4e95c5ceed0bdb49a3fb2d174448c3ab3a83557d958"
+        }
+      },
+      {
+        "id": "legacy-106-05-detail-03",
+        "original_sha256": "901541591d1de849edf391f9bfbc5d337fc7a65290b080eea03104c66695a9af",
+        "disposition": "split",
+        "beats": [
+          "cw-wage-main-05-result",
+          "cw-wage-main-05-next",
+          "cw-wage-main-03-report",
+          "cw-wage-main-03-next-request",
+          "cw-wage-main-13-own-result",
+          "cw-wage-main-13-missing"
+        ],
+        "reason": "Split the old compressed claim across distinct participants and rounds: Sep18’s second-round report and twenty-four-minute cadence (@3), Feb23’s same-second third-round answer and twelve-minute cadence (@5), and Sep18’s later report with missing updates (@13). Their continued presence in @16 is not a new event. Remove unsupported instant-second-answer/generalized deadline-elimination language; evaluator acceptance remains unverified.",
+        "target_sha256": {
+          "cw-wage-main-05-result": "f7517526a9caa39d0b2977703f4631f18b5d546352c9ba9194d448df671b6af7",
+          "cw-wage-main-05-next": "4312a9a841f9e7337916aef2f7317ecb6fbf383bee7b57b430c1c7dd4d1bb695",
+          "cw-wage-main-03-report": "bfdf6fa2910f1bb939d15683deef35f4749015daf110c450c50794c20cfecd50",
+          "cw-wage-main-03-next-request": "9bcafbeecb480e18e0697761d8de8b34a0ef23b1023ab1f0d0a3f8c6723ae38c",
+          "cw-wage-main-13-own-result": "a27419f3026b53ab0fa4d169375ef2af001647bc38546afccb036c9a5de8ce76",
+          "cw-wage-main-13-missing": "2b16c0b312b5273b4757d4e95c5ceed0bdb49a3fb2d174448c3ab3a83557d958"
+        }
+      },
+      {
+        "id": "legacy-106-05-detail-04",
+        "original_sha256": "aa3f238442bd526ec7e5070e9e7e6dcf22ee314fa7cb2df78ff9eab8120cf12c",
+        "disposition": "split",
+        "beats": [
+          "cw-wage-main-05-result",
+          "cw-wage-main-05-next",
+          "cw-wage-main-03-report",
+          "cw-wage-main-03-next-request",
+          "cw-wage-main-13-own-result",
+          "cw-wage-main-13-missing"
+        ],
+        "reason": "Split the old compressed claim across distinct participants and rounds: Sep18’s second-round report and twenty-four-minute cadence (@3), Feb23’s same-second third-round answer and twelve-minute cadence (@5), and Sep18’s later report with missing updates (@13). Their continued presence in @16 is not a new event. Remove unsupported instant-second-answer/generalized deadline-elimination language; evaluator acceptance remains unverified.",
+        "target_sha256": {
+          "cw-wage-main-05-result": "f7517526a9caa39d0b2977703f4631f18b5d546352c9ba9194d448df671b6af7",
+          "cw-wage-main-05-next": "4312a9a841f9e7337916aef2f7317ecb6fbf383bee7b57b430c1c7dd4d1bb695",
+          "cw-wage-main-03-report": "bfdf6fa2910f1bb939d15683deef35f4749015daf110c450c50794c20cfecd50",
+          "cw-wage-main-03-next-request": "9bcafbeecb480e18e0697761d8de8b34a0ef23b1023ab1f0d0a3f8c6723ae38c",
+          "cw-wage-main-13-own-result": "a27419f3026b53ab0fa4d169375ef2af001647bc38546afccb036c9a5de8ce76",
+          "cw-wage-main-13-missing": "2b16c0b312b5273b4757d4e95c5ceed0bdb49a3fb2d174448c3ab3a83557d958"
+        }
+      }
+    ]
+  },
+  {
+    "old_panel": "107-01",
+    "old_edition": "legacy-332b5ed63262",
+    "reviewed_on": "2026-09-13",
+    "status": "elements-reviewed",
+    "elements": [
+      {
+        "id": "legacy-107-01-detail-01",
+        "original_sha256": "46df890caddf88c19f28132cc4eeaaa89c7a9cb2968e67da2817c93090dcb2c4",
+        "disposition": "rewrite",
+        "beats": [
+          "prod-wiki-coverage-surface"
+        ],
+        "reason": "Preserve the public, pre-existing human-use context without asserting an unsourced site age, private community purpose or all-pages-created-that-month claim; named archive facts are not identities or a site census.",
+        "target_sha256": {
+          "prod-wiki-coverage-surface": "58513589ff5faa0f3b836466a107b64310c37674509a374faa55d7e519ca5d90"
+        }
+      },
+      {
+        "id": "legacy-107-01-detail-02",
+        "original_sha256": "f591c91fe038337a36fd99a487aae87b6e54f1512075858ae838229689b43468",
+        "disposition": "rewrite",
+        "beats": [
+          "prod-wiki-coverage-surface"
+        ],
+        "reason": "Preserve the public, pre-existing human-use context without asserting an unsourced site age, private community purpose or all-pages-created-that-month claim; named archive facts are not identities or a site census.",
+        "target_sha256": {
+          "prod-wiki-coverage-surface": "58513589ff5faa0f3b836466a107b64310c37674509a374faa55d7e519ca5d90"
+        }
+      },
+      {
+        "id": "legacy-107-01-detail-03",
+        "original_sha256": "7767d5e2bf6b8e4368e837b5ab6cf18839c0c7d4b8e299e543310d13d9e638c1",
+        "disposition": "rewrite",
+        "beats": [
+          "prod-wiki-coverage-surface"
+        ],
+        "reason": "Preserve the public, pre-existing human-use context without asserting an unsourced site age, private community purpose or all-pages-created-that-month claim; named archive facts are not identities or a site census.",
+        "target_sha256": {
+          "prod-wiki-coverage-surface": "58513589ff5faa0f3b836466a107b64310c37674509a374faa55d7e519ca5d90"
+        }
+      }
+    ]
+  },
+  {
+    "old_panel": "107-02",
+    "old_edition": "legacy-332b5ed63262",
+    "reviewed_on": "2026-09-13",
+    "status": "elements-reviewed",
+    "elements": [
+      {
+        "id": "legacy-107-02-detail-01",
+        "original_sha256": "1ea0cab240eba9681c1d2e524bd5c869feec7c257ad487c5ef41f15f2665cd84",
+        "disposition": "split",
+        "beats": [
+          "cw-main-deletion-delete",
+          "cw-main-deletion-success"
+        ],
+        "reason": "Retain the recorded successful deletion at its own time and uncertainty; remove invented hand, room and inferred knowledge or motive.",
+        "target_sha256": {
+          "cw-main-deletion-delete": "18e188065f6926abebe92e76ebbed1c533edb5df6b22ef9bfa4b77a43bdfa594",
+          "cw-main-deletion-success": "f2f98aec35daa63de47c093633cf644e522a2940e87967b69381d0c0d613cd0f"
+        }
+      },
+      {
+        "id": "legacy-107-02-detail-02",
+        "original_sha256": "965b501effd5dec55284bf2b9f51cff5b7cb31969aba3809efad35cb11cbe65c",
+        "disposition": "split",
+        "beats": [
+          "cw-main-deletion-delete",
+          "cw-main-deletion-success"
+        ],
+        "reason": "Retain the recorded successful deletion at its own time and uncertainty; remove invented hand, room and inferred knowledge or motive.",
+        "target_sha256": {
+          "cw-main-deletion-delete": "18e188065f6926abebe92e76ebbed1c533edb5df6b22ef9bfa4b77a43bdfa594",
+          "cw-main-deletion-success": "f2f98aec35daa63de47c093633cf644e522a2940e87967b69381d0c0d613cd0f"
+        }
+      }
+    ]
+  },
+  {
+    "old_panel": "107-03",
+    "old_edition": "legacy-332b5ed63262",
+    "reviewed_on": "2026-09-13",
+    "status": "elements-reviewed",
+    "elements": [
+      {
+        "id": "legacy-107-03-detail-01",
+        "original_sha256": "18e0f37d3146d63979af1241e7e833b642570b5f4104852edc1f793e461d5f63",
+        "disposition": "split",
+        "beats": [
+          "prod-wiki-coverage-deletions",
+          "prod-wiki-coverage-pages"
+        ],
+        "reason": "Retain manifest-keyed event/page counts, the retrospective date window and unknown motive; do not sum overlapping units or infer a single authenticated person.",
+        "target_sha256": {
+          "prod-wiki-coverage-deletions": "64ea70bde0a99c595cecdcd11aa7996b72f832509cd992910f4e031a46c05871",
+          "prod-wiki-coverage-pages": "a89cd0fb5f929a98307bd532d1a61fd53b785731f322f7bb199e7d775a2b4730"
+        }
+      },
+      {
+        "id": "legacy-107-03-detail-03",
+        "original_sha256": "d2962613fa72d07888ba6802e518b9b1d6a9175c12a82b668e87102098a19178",
+        "disposition": "split",
+        "beats": [
+          "prod-wiki-coverage-deletions",
+          "prod-wiki-coverage-pages"
+        ],
+        "reason": "Retain manifest-keyed event/page counts, the retrospective date window and unknown motive; do not sum overlapping units or infer a single authenticated person.",
+        "target_sha256": {
+          "prod-wiki-coverage-deletions": "64ea70bde0a99c595cecdcd11aa7996b72f832509cd992910f4e031a46c05871",
+          "prod-wiki-coverage-pages": "a89cd0fb5f929a98307bd532d1a61fd53b785731f322f7bb199e7d775a2b4730"
+        }
+      },
+      {
+        "id": "legacy-107-03-detail-04",
+        "original_sha256": "a170bf6ef2905c43bef4d52a75045556923dbd3dccbb7a27bb6ff9ceda6da780",
+        "disposition": "split",
+        "beats": [
+          "prod-wiki-coverage-deletions",
+          "prod-wiki-coverage-pages"
+        ],
+        "reason": "Retain manifest-keyed event/page counts, the retrospective date window and unknown motive; do not sum overlapping units or infer a single authenticated person.",
+        "target_sha256": {
+          "prod-wiki-coverage-deletions": "64ea70bde0a99c595cecdcd11aa7996b72f832509cd992910f4e031a46c05871",
+          "prod-wiki-coverage-pages": "a89cd0fb5f929a98307bd532d1a61fd53b785731f322f7bb199e7d775a2b4730"
+        }
+      },
+      {
+        "id": "legacy-107-03-detail-05",
+        "original_sha256": "ef9550aa6125b740c4da8babe2d1b7fc456c096d7747fcd8ad5e574694e93f59",
+        "disposition": "split",
+        "beats": [
+          "prod-wiki-coverage-deletions",
+          "prod-wiki-coverage-pages"
+        ],
+        "reason": "Retain manifest-keyed event/page counts, the retrospective date window and unknown motive; do not sum overlapping units or infer a single authenticated person.",
+        "target_sha256": {
+          "prod-wiki-coverage-deletions": "64ea70bde0a99c595cecdcd11aa7996b72f832509cd992910f4e031a46c05871",
+          "prod-wiki-coverage-pages": "a89cd0fb5f929a98307bd532d1a61fd53b785731f322f7bb199e7d775a2b4730"
+        }
+      }
+    ]
+  },
+  {
+    "old_panel": "107-04",
+    "old_edition": "legacy-332b5ed63262",
+    "reviewed_on": "2026-09-13",
+    "status": "elements-reviewed",
+    "elements": [
+      {
+        "id": "legacy-107-04-detail-01",
+        "original_sha256": "6bee1ed94a62d22a17977533fe62054d7192baca496d32d0208bf4ddbb51e0e6",
+        "disposition": "rewrite",
+        "beats": [
+          "prod-wiki-coverage-perspectives"
+        ],
+        "reason": "Retain competing uses as the book’s interpretation; the label litter and neither-side-wrong verdict do not become the maintainer’s documented beliefs.",
+        "target_sha256": {
+          "prod-wiki-coverage-perspectives": "468ed920b5099911e3b8627b333a10334c628be3c401ed67a852f7245ab3de87"
+        }
+      },
+      {
+        "id": "legacy-107-04-detail-02",
+        "original_sha256": "1d5d4b0e8cf8d442e53422d7446c78e6afe59ed08f91998d39d794dc04efcb96",
+        "disposition": "rewrite",
+        "beats": [
+          "prod-wiki-coverage-perspectives"
+        ],
+        "reason": "Retain competing uses as the book’s interpretation; the label litter and neither-side-wrong verdict do not become the maintainer’s documented beliefs.",
+        "target_sha256": {
+          "prod-wiki-coverage-perspectives": "468ed920b5099911e3b8627b333a10334c628be3c401ed67a852f7245ab3de87"
+        }
+      },
+      {
+        "id": "legacy-107-04-detail-03",
+        "original_sha256": "c048a212fc4725379634f1e984060b2b7fa912c8bdf9f083551ac14b5734f09c",
+        "disposition": "rewrite",
+        "beats": [
+          "prod-wiki-coverage-perspectives"
+        ],
+        "reason": "Retain competing uses as the book’s interpretation; the label litter and neither-side-wrong verdict do not become the maintainer’s documented beliefs.",
+        "target_sha256": {
+          "prod-wiki-coverage-perspectives": "468ed920b5099911e3b8627b333a10334c628be3c401ed67a852f7245ab3de87"
+        }
+      }
+    ]
+  },
+  {
+    "old_panel": "107-05",
+    "old_edition": "legacy-332b5ed63262",
+    "reviewed_on": "2026-09-13",
+    "status": "elements-reviewed",
+    "elements": [
+      {
+        "id": "legacy-107-05-detail-01",
+        "original_sha256": "cf43eb8bbdb00ef0336f77102273bc2ae17748bf1866dc750d7058075d6c3cfc",
+        "disposition": "rewrite",
+        "beats": [
+          "prod-wiki-coverage-missing"
+        ],
+        "reason": "Retain the exact deletion-only population and missing-content limit without inventing lost text, an arrival rate or measured maintainer knowledge.",
+        "target_sha256": {
+          "prod-wiki-coverage-missing": "d7f4310d6bdf698f5fe3b0d2de4f98c30539cfb04401f54683460a586bf2333a"
+        }
+      },
+      {
+        "id": "legacy-107-05-detail-03",
+        "original_sha256": "0e02896c8b3ecd7e6d62e18cddea1d29ccc206872009b80438496684b4d56332",
+        "disposition": "rewrite",
+        "beats": [
+          "prod-wiki-coverage-missing"
+        ],
+        "reason": "Retain the exact deletion-only population and missing-content limit without inventing lost text, an arrival rate or measured maintainer knowledge.",
+        "target_sha256": {
+          "prod-wiki-coverage-missing": "d7f4310d6bdf698f5fe3b0d2de4f98c30539cfb04401f54683460a586bf2333a"
+        }
+      }
+    ]
   }
 ]

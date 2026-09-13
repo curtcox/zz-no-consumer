@@ -310,7 +310,9 @@
     "beats": [
       {
         "id": "prod-wiki-request-message",
-        "old_panels": [],
+        "old_panels": [
+          "106-01"
+        ],
         "frame": "Curt’s request points to the collusion research directory.",
         "lettering": [
           "Curt asks for extraction of the wiki material and a location that makes the files accessible for future work."
@@ -327,7 +329,13 @@
         "time_start": "2026-09-04T22:54:28.679Z",
         "time_end": "2026-09-04T22:54:28.679Z",
         "art_reuse": "none-approved",
-        "detail_decisions": [],
+        "detail_decisions": [
+          {
+            "old_panel": "106-01",
+            "disposition": "combine",
+            "reason": "Map the old composite to the existing dated message or revision sequence, retaining source clocks and claim limits without replaying it."
+          }
+        ],
         "source_record": "current-mac:6b657858-b5ae-4a61-82cc-034af30aa67e:3"
       }
     ]
@@ -347,7 +355,9 @@
     "beats": [
       {
         "id": "prod-wiki-response-message",
-        "old_panels": [],
+        "old_panels": [
+          "106-01"
+        ],
         "frame": "The response remains a plan to inspect, not proof of an already completed extraction.",
         "lettering": [
           "Claude says it will look at the directory’s contents."
@@ -364,7 +374,13 @@
         "time_start": "2026-09-04T22:54:30.023Z",
         "time_end": "2026-09-04T22:54:30.023Z",
         "art_reuse": "none-approved",
-        "detail_decisions": [],
+        "detail_decisions": [
+          {
+            "old_panel": "106-01",
+            "disposition": "combine",
+            "reason": "Map the old composite to the existing dated message or revision sequence, retaining source clocks and claim limits without replaying it."
+          }
+        ],
         "source_record": "current-mac:6b657858-b5ae-4a61-82cc-034af30aa67e:14"
       }
     ]
@@ -659,7 +675,9 @@
     "beats": [
       {
         "id": "prod-wiki-result-message",
-        "old_panels": [],
+        "old_panels": [
+          "106-01"
+        ],
         "frame": "The dated Claude report compares the differently named archive sets using hashes. It does not reenact the earlier extraction.",
         "lettering": [
           "Claude reports that the ZIP archive’s five members match the separately supplied compressed files byte for byte. The name suggesting a fuller export had overstated what was there."
@@ -676,7 +694,13 @@
         "time_start": "2026-09-04T22:59:26.071Z",
         "time_end": "2026-09-04T22:59:26.071Z",
         "art_reuse": "none-approved",
-        "detail_decisions": [],
+        "detail_decisions": [
+          {
+            "old_panel": "106-01",
+            "disposition": "combine",
+            "reason": "Map the old composite to the existing dated message or revision sequence, retaining source clocks and claim limits without replaying it."
+          }
+        ],
         "source_record": "current-mac:6b657858-b5ae-4a61-82cc-034af30aa67e:162"
       },
       {
