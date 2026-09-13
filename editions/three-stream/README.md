@@ -22,6 +22,11 @@ Mac and the GitHub repository. No invented exchange substitutes for that work.
   old-panel associations, preserving all old quotation registrations for review.
   Association does not certify full preservation; individual detail reviews remain
   pending. No page count is derived from the number of beats.
+- [Source-detail review](detail-review.md): element-by-element decisions authored
+  in `detail-review.json`. The opening task sequence now separates the documented
+  discarded-output finding from the old invented input/timing tests. Each decision
+  names its destination or gives an omission reason. Source and destination hashes
+  invalidate decisions when reviewed text changes; unlisted panels remain pending.
 - [Detailed source inventory](detail-inventory.json): every old panel, its frame,
   action, lettering, provenance and references. Each extracted element awaits
   individual decomposition/disposition. Extraction is not editorial completion.
@@ -88,7 +93,10 @@ when the full rewrite is authored.
 
 The `manuscript` command checks authored sequence identities, row ownership, source
 admissions, bounds and quotation registrations, then regenerates the readable
-review and conservative coverage report. `check --draft` also rejects stale review
+review and conservative coverage report. It also checks complete element coverage
+within each submitted detail review, explicit omission reasons and reviewed-text
+hashes. These checks detect drift; they do not replace editorial judgment about
+whether a rewrite preserves a claim. `check --draft` also rejects stale review
 output. It does not assign canonical identities or certify editorial completeness.
 The quoted production messages and selected wiki fragment retain unresolved rights
 registrations for the late quotation gate.

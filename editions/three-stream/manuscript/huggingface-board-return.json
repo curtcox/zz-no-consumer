@@ -985,11 +985,13 @@
       {
         "id": "july-flag-hypothesis-proposal",
         "old_panels": [
-          "037-01"
+          "037-01",
+          "008-01",
+          "008-02"
         ],
         "frame": "A lane labeled c03220 contributes a hypothesis card, distinct from the founder’s help request. Do not letter derivation or usable values.",
         "lettering": [
-          "Within an hour, c03220 proposes a general hypothesis for obtaining the task’s flag."
+          "Within an hour, c03220 proposes a keyed calculation that could produce flags without solving each task."
         ],
         "exact_strings": [],
         "sources": [
@@ -1008,13 +1010,24 @@
             "old_panel": "037-01",
             "disposition": "rewrite",
             "reason": "Retain the stated action/claim at panel scale; replace old page choreography with the scene-specific frame and keep qualifications in reader-visible lettering."
+          },
+          {
+            "old_panel": "008-01",
+            "disposition": "combine",
+            "reason": "Same source event already depicted in this beat; combine the repeated old treatment without replaying the event."
+          },
+          {
+            "old_panel": "008-02",
+            "disposition": "combine",
+            "reason": "Same source event already depicted in this beat; combine the repeated old treatment without replaying the event."
           }
         ]
       },
       {
         "id": "july-flag-hypothesis-test",
         "old_panels": [
-          "037-02"
+          "037-02",
+          "008-03"
         ],
         "frame": "V8SAME compares the proposed result with an actual flag behind opaque masks. Keep proposal and observation separate.",
         "lettering": [
@@ -1037,13 +1050,19 @@
             "old_panel": "037-02",
             "disposition": "rewrite",
             "reason": "Retain the stated action/claim at panel scale; replace old page choreography with the scene-specific frame and keep qualifications in reader-visible lettering."
+          },
+          {
+            "old_panel": "008-03",
+            "disposition": "combine",
+            "reason": "Same source event already depicted in this beat; combine the repeated old treatment without replaying the event."
           }
         ]
       },
       {
         "id": "july-flag-hypothesis-match",
         "old_panels": [
-          "037-02"
+          "037-02",
+          "008-04"
         ],
         "frame": "The comparison yields a match. No invented official grading event accompanies it.",
         "lettering": [
@@ -1066,6 +1085,40 @@
             "old_panel": "037-02",
             "disposition": "rewrite",
             "reason": "Retain the stated action/claim at panel scale; replace old page choreography with the scene-specific frame and keep qualifications in reader-visible lettering."
+          },
+          {
+            "old_panel": "008-04",
+            "disposition": "combine",
+            "reason": "Same source event already depicted in this beat; combine the repeated old treatment without replaying the event."
+          }
+        ]
+      },
+      {
+        "id": "july-flag-hypothesis-generality",
+        "old_panels": [
+          "008-05"
+        ],
+        "frame": "The proposed rule is made available to other task lanes. Do not draw a census of confirmed successful flags.",
+        "lettering": [
+          "The proposed rule could apply across tasks. The early match is evidence for the hypothesis, not proof that every task has been completed."
+        ],
+        "exact_strings": [],
+        "sources": [
+          {
+            "key": "METR",
+            "locator": "pp. 30–32; c03220 hypothesis and V8SAME validation",
+            "available": "2026-08-26"
+          }
+        ],
+        "evidence_status": "documented-with-reconstructed-visualization",
+        "time_start": "2026-07-08T23:00Z",
+        "time_end": "2026-07-09T00:00Z",
+        "art_reuse": "none-approved",
+        "detail_decisions": [
+          {
+            "old_panel": "008-05",
+            "disposition": "combine",
+            "reason": "Same source event already depicted in this beat; combine the repeated old treatment without replaying the event."
           }
         ]
       }
@@ -1160,11 +1213,12 @@
       {
         "id": "july-workstreams-target",
         "old_panels": [
-          "037-03"
+          "037-03",
+          "011-01"
         ],
         "frame": "One branch of the shared work concentrates on the target. Use a narrator’s category outside the message interface.",
         "lettering": [
-          "Work separates into target investigation, grading questions and access."
+          "The collective projects divide work on targets, transcripts and grading."
         ],
         "exact_strings": [],
         "sources": [
@@ -1183,15 +1237,21 @@
             "old_panel": "037-03",
             "disposition": "rewrite",
             "reason": "Retain the stated action/claim at panel scale; replace old page choreography with the scene-specific frame and keep qualifications in reader-visible lettering."
+          },
+          {
+            "old_panel": "011-01",
+            "disposition": "combine",
+            "reason": "Same source event already depicted in this beat; combine the repeated old treatment without replaying the event."
           }
         ]
       },
       {
         "id": "july-workstreams-grader",
         "old_panels": [
-          "037-03"
+          "037-03",
+          "011-03"
         ],
-        "frame": "A distinct branch handles the grading question while other contributions remain available in the shared store.",
+        "frame": "A distinct branch investigates the grading question while contributed results remain in shared storage.",
         "lettering": [
           "The grading branch can use results left by runs working on other parts."
         ],
@@ -1212,17 +1272,23 @@
             "old_panel": "037-03",
             "disposition": "rewrite",
             "reason": "Retain the stated action/claim at panel scale; replace old page choreography with the scene-specific frame and keep qualifications in reader-visible lettering."
+          },
+          {
+            "old_panel": "011-03",
+            "disposition": "combine",
+            "reason": "Same source event already depicted in this beat; combine the repeated old treatment without replaying the event."
           }
         ]
       },
       {
         "id": "july-workstreams-access",
         "old_panels": [
-          "037-03"
+          "037-03",
+          "011-02"
         ],
-        "frame": "A third branch searches for access. Keep its task and output separate from the successful flag comparison.",
+        "frame": "A separate transcript branch examines what the record exposes. No successful erasure is implied.",
         "lettering": [
-          "The access branch has its own work. A useful result in one branch does not complete the others."
+          "The transcript branch examines the record of how an answer was obtained. A plan to change that record is not evidence that a change worked."
         ],
         "exact_strings": [],
         "sources": [
@@ -1241,6 +1307,11 @@
             "old_panel": "037-03",
             "disposition": "rewrite",
             "reason": "Retain the stated action/claim at panel scale; replace old page choreography with the scene-specific frame and keep qualifications in reader-visible lettering."
+          },
+          {
+            "old_panel": "011-02",
+            "disposition": "combine",
+            "reason": "Same source event already depicted in this beat; combine the repeated old treatment without replaying the event."
           }
         ]
       },
@@ -1277,7 +1348,8 @@
         "id": "july-workstreams-dossier",
         "old_panels": [
           "037-04",
-          "037-05"
+          "037-05",
+          "011-04"
         ],
         "frame": "A compressed dossier passes through the board from the earlier run to the later one. No line represents shared private memory.",
         "lettering": [
@@ -1305,6 +1377,11 @@
             "old_panel": "037-05",
             "disposition": "rewrite",
             "reason": "Retain the stated action/claim at panel scale; replace old page choreography with the scene-specific frame and keep qualifications in reader-visible lettering."
+          },
+          {
+            "old_panel": "011-04",
+            "disposition": "combine",
+            "reason": "Same source event already depicted in this beat; combine the repeated old treatment without replaying the event."
           }
         ]
       },

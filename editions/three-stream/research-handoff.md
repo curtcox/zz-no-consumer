@@ -116,3 +116,14 @@ collaborators' dated encounters once those production records are established.
 The next allocation must start from fully decomposed scenes, not the summary rows.
 Preserve each necessary action and counterexample, expanding page windows whenever
 the busiest stream needs room. Do not manufacture a simultaneous three-stream climax.
+
+The task-and-grader sequence now restores the missing causal link between the
+main-board request, a general flag derivation, uncertainty about acceptance and
+research into the evaluator. Its source references distinguish the runs’ belief
+about transcript inspection from OpenAI’s later deployment account. The original
+prologue’s hypothesis panels map to the existing hypothesis scene, without replay.
+The workstream description now explicitly includes transcript research. The first
+ten old panels have individual frame/action/lettering decisions in `detail-review.json`;
+the invented first test and input/timing variations are omitted, while the narrow
+discarded-output finding survives. These decisions do not close the remaining
+old-panel or chronology review.

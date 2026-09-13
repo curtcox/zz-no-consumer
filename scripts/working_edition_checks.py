@@ -131,4 +131,28 @@ def run():
         path.write_text(edition.dump([scene]))
         (root / "manuscript-review.md").write_text("stale")
         assert any("stale" in e for e in edition_detail.check_manuscript(root))
+        source_element = dict(id="source-detail", original="Preserved source detail")
+        (root / "detail-inventory.json").write_text(edition.dump([
+            dict(old_panel="001-01", old_edition="legacy-fixture", elements=[source_element])]))
+        import hashlib
+        review = dict(old_panel="001-01", old_edition="legacy-fixture", elements=[dict(
+            id="source-detail", original_sha256=hashlib.sha256(source_element["original"].encode()).hexdigest(),
+            disposition="rewrite", beats=["beat"], reason="Preserve the recorded action",
+            target_sha256={"beat": edition_detail.beat_digest(beat)})])
+        review_path = root / "detail-review.json"
+        review_path.write_text(edition.dump([review]))
+        assert not edition_detail.review_errors(root)
+        changed = copy.deepcopy(scene)
+        changed["beats"][0]["frame"] = "A different event replaces the reviewed event."
+        path.write_text(edition.dump([changed]))
+        assert any("destination changed" in e for e in edition_detail.review_errors(root))
+        path.write_text(edition.dump([scene]))
+        changed_review = copy.deepcopy(review)
+        changed_review["elements"] = []
+        review_path.write_text(edition.dump([changed_review]))
+        assert any("every source element" in e for e in edition_detail.review_errors(root))
+        changed_review = copy.deepcopy(review)
+        changed_review["elements"][0]["disposition"] = "omit"
+        review_path.write_text(edition.dump([changed_review]))
+        assert any("omissions have no destinations" in e for e in edition_detail.review_errors(root))
     print("Working edition regression fixtures passed.")

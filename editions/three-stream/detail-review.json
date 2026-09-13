@@ -1,0 +1,446 @@
+[
+  {
+    "old_panel": "001-01",
+    "old_edition": "legacy-332b5ed63262",
+    "reviewed_on": "2026-09-13",
+    "status": "elements-reviewed",
+    "elements": [
+      {
+        "id": "legacy-001-01-detail-01",
+        "original_sha256": "ff451ffd2e085e78e9d6d22863f84ef3e292a2b2661fd2fa738d9233a73aa0d2",
+        "disposition": "rewrite",
+        "beats": [
+          "hf-impossible-assignment-assignment"
+        ],
+        "reason": "Keep the named workload, required vulnerability and date; replace the invented physical data-center view with an authored task schematic.",
+        "target_sha256": {
+          "hf-impossible-assignment-assignment": "748db89e9662f20ba25246fc4389712480f20dcc1c17b1b72c7de39de9a63cf3"
+        }
+      },
+      {
+        "id": "legacy-001-01-detail-02",
+        "original_sha256": "e05aae7959d303e82833b1a93fa86f398233a9f5deb1fe39ccb73b02a1e2ac08",
+        "disposition": "rewrite",
+        "beats": [
+          "hf-impossible-assignment-assignment"
+        ],
+        "reason": "Introduce the assigned task without claiming a recovered launch timestamp.",
+        "target_sha256": {
+          "hf-impossible-assignment-assignment": "748db89e9662f20ba25246fc4389712480f20dcc1c17b1b72c7de39de9a63cf3"
+        }
+      },
+      {
+        "id": "legacy-001-01-detail-03",
+        "original_sha256": "757a51ccb0a9827825702abb825b0a39af7d48d661a91e6f36f8fe0092aeb7d9",
+        "disposition": "rewrite",
+        "beats": [
+          "hf-impossible-assignment-assignment"
+        ],
+        "reason": "The day remains in the scene bounds; the identified workload and required task remain in frame and lettering.",
+        "target_sha256": {
+          "hf-impossible-assignment-assignment": "748db89e9662f20ba25246fc4389712480f20dcc1c17b1b72c7de39de9a63cf3"
+        }
+      }
+    ]
+  },
+  {
+    "old_panel": "001-02",
+    "old_edition": "legacy-332b5ed63262",
+    "reviewed_on": "2026-09-13",
+    "status": "elements-reviewed",
+    "elements": [
+      {
+        "id": "legacy-001-02-detail-01",
+        "original_sha256": "3bda2ad3bfccadb91e802d969e614b4f52b807f28936b960467bea1881394afd",
+        "disposition": "rewrite",
+        "beats": [
+          "hf-impossible-assignment-output"
+        ],
+        "reason": "Retain the dependency explanation, explicitly authored by the book rather than drawn by an agent in a preserved trace.",
+        "target_sha256": {
+          "hf-impossible-assignment-output": "085f1d9d636f728bc743949273877ff2babf948ad646f8be17eceada03c717f4"
+        }
+      },
+      {
+        "id": "legacy-001-02-detail-02",
+        "original_sha256": "2d5c7a85f28e7a36dd48217cc75c03e775aa99794b254686083fb370d8d813de",
+        "disposition": "omit",
+        "beats": [],
+        "reason": "The old reference admits no authenticated individual test; remove the invented first test while retaining the reported discarded-output finding.",
+        "target_sha256": {}
+      },
+      {
+        "id": "legacy-001-02-detail-03",
+        "original_sha256": "afc7e1b7e4884eab2f54ef00fe57f2c2cd5d68fdbcdc389deade30af2a1962e4",
+        "disposition": "omit",
+        "beats": [],
+        "reason": "Remove the invented test number and result-display wording; no source test transcript was selected.",
+        "target_sha256": {}
+      }
+    ]
+  },
+  {
+    "old_panel": "001-03",
+    "old_edition": "legacy-332b5ed63262",
+    "reviewed_on": "2026-09-13",
+    "status": "elements-reviewed",
+    "elements": [
+      {
+        "id": "legacy-001-03-detail-01",
+        "original_sha256": "e17378028b9f97fb594e496b08848bbed5e38a6d1ad4a9a7f7e5323f53ef3738",
+        "disposition": "rewrite",
+        "beats": [
+          "hf-impossible-assignment-no-consumer"
+        ],
+        "reason": "Retain the missing consumer as an authored causal diagram, with no operational payload.",
+        "target_sha256": {
+          "hf-impossible-assignment-no-consumer": "e078344ca56116221b98f04f1b3d106d30ecb49be2fc2217c50e9bb05844d829"
+        }
+      },
+      {
+        "id": "legacy-001-03-detail-02",
+        "original_sha256": "b83f17dbdbb4f4d311919da1d6eeca65abbf25218b7a843d19d6c26f45cabc82",
+        "disposition": "rewrite",
+        "beats": [
+          "hf-impossible-assignment-output"
+        ],
+        "reason": "Retain the source-supported finding that the program discards the output.",
+        "target_sha256": {
+          "hf-impossible-assignment-output": "085f1d9d636f728bc743949273877ff2babf948ad646f8be17eceada03c717f4"
+        }
+      },
+      {
+        "id": "legacy-001-03-detail-03",
+        "original_sha256": "6bb0580caa8df9e70f16b9402013e515079fad7791d6a12d5089a2af31346c32",
+        "disposition": "rewrite",
+        "beats": [
+          "hf-impossible-assignment-no-consumer"
+        ],
+        "reason": "Express the missing causal path in narrator wording rather than a purported system field.",
+        "target_sha256": {
+          "hf-impossible-assignment-no-consumer": "e078344ca56116221b98f04f1b3d106d30ecb49be2fc2217c50e9bb05844d829"
+        }
+      }
+    ]
+  },
+  {
+    "old_panel": "001-04",
+    "old_edition": "legacy-332b5ed63262",
+    "reviewed_on": "2026-09-13",
+    "status": "elements-reviewed",
+    "elements": [
+      {
+        "id": "legacy-001-04-detail-01",
+        "original_sha256": "86b7feff15dd05a466fafa598f1acae537c14e2f04909592cf438a93cb41c591",
+        "disposition": "omit",
+        "beats": [],
+        "reason": "The repeated input and timing experiments are invented choreography, not individual observed attempts.",
+        "target_sha256": {}
+      },
+      {
+        "id": "legacy-001-04-detail-02",
+        "original_sha256": "e4fbdc78791d82f3e5b0420ee0a9615e237eb2dac75c0bc5512da09a0e7362bc",
+        "disposition": "omit",
+        "beats": [],
+        "reason": "No source-selected sequence authenticates these variations or their outcomes.",
+        "target_sha256": {}
+      },
+      {
+        "id": "legacy-001-04-detail-03",
+        "original_sha256": "a35928307ec0bb18a6fa316fe2fbd3b3da9c0dce0d0ad4c4276c905ede10d138",
+        "disposition": "omit",
+        "beats": [],
+        "reason": "Remove the invented instruction to change input.",
+        "target_sha256": {}
+      },
+      {
+        "id": "legacy-001-04-detail-04",
+        "original_sha256": "4b417f5078ec6fc1e1427bf1c94783523bf49c8e8e373289a8f9a1bdd5fb0893",
+        "disposition": "omit",
+        "beats": [],
+        "reason": "Remove the invented instruction to change timing.",
+        "target_sha256": {}
+      },
+      {
+        "id": "legacy-001-04-detail-05",
+        "original_sha256": "48fb366fb862278f7899c2d974dcfe27c682750aa78f6924a878fdb60d25444a",
+        "disposition": "combine",
+        "beats": [
+          "hf-impossible-assignment-no-consumer"
+        ],
+        "reason": "Retain the discarded-output conclusion in the same causal view; do not invent another attempt to repeat it.",
+        "target_sha256": {
+          "hf-impossible-assignment-no-consumer": "e078344ca56116221b98f04f1b3d106d30ecb49be2fc2217c50e9bb05844d829"
+        }
+      }
+    ]
+  },
+  {
+    "old_panel": "001-05",
+    "old_edition": "legacy-332b5ed63262",
+    "reviewed_on": "2026-09-13",
+    "status": "elements-reviewed",
+    "elements": [
+      {
+        "id": "legacy-001-05-detail-01",
+        "original_sha256": "c8c3daff5cce3e79f41e742a7e48f1c8227ca57b35b4a7504bc03903afb7295d",
+        "disposition": "rewrite",
+        "beats": [
+          "hf-impossible-assignment-no-consumer"
+        ],
+        "reason": "Preserve the disconnected output/result geometry without inheriting a full-width bottom panel or old turn.",
+        "target_sha256": {
+          "hf-impossible-assignment-no-consumer": "e078344ca56116221b98f04f1b3d106d30ecb49be2fc2217c50e9bb05844d829"
+        }
+      },
+      {
+        "id": "legacy-001-05-detail-02",
+        "original_sha256": "dce8f19356e66c87999201662d539be265796bfbe947745a430d1d406672067a",
+        "disposition": "rewrite",
+        "beats": [
+          "hf-impossible-assignment-no-consumer"
+        ],
+        "reason": "Limit impossibility to the specified route, not every possible way of obtaining a flag.",
+        "target_sha256": {
+          "hf-impossible-assignment-no-consumer": "e078344ca56116221b98f04f1b3d106d30ecb49be2fc2217c50e9bb05844d829"
+        }
+      },
+      {
+        "id": "legacy-001-05-detail-03",
+        "original_sha256": "d825f568068bfbee6093b23da2e49b8fe15936cb61d93ad37116ad991ebb908f",
+        "disposition": "rewrite",
+        "beats": [
+          "hf-impossible-assignment-no-consumer"
+        ],
+        "reason": "Retain the required-result and failed-mechanism distinction in plain narration.",
+        "target_sha256": {
+          "hf-impossible-assignment-no-consumer": "e078344ca56116221b98f04f1b3d106d30ecb49be2fc2217c50e9bb05844d829"
+        }
+      }
+    ]
+  },
+  {
+    "old_panel": "002-01",
+    "old_edition": "legacy-332b5ed63262",
+    "reviewed_on": "2026-09-13",
+    "status": "elements-reviewed",
+    "elements": [
+      {
+        "id": "legacy-002-01-detail-01",
+        "original_sha256": "cc979ceb14069e617ca8702bfc40b3107b331d8c67ea91f24c10a7c395f3e59d",
+        "disposition": "rewrite",
+        "beats": [
+          "hf-impossible-assignment-conclusion"
+        ],
+        "reason": "Keep the finding beside the dependency, remove old page-specific framing.",
+        "target_sha256": {
+          "hf-impossible-assignment-conclusion": "4cf5da95a7e711d54573fd7b59b848c4bcd27c60935355f3a980bf0c95e91c1a"
+        }
+      },
+      {
+        "id": "legacy-002-01-detail-02",
+        "original_sha256": "076a6d1edc941bac3c8bd62a6d39736884b1bf26554f3f8318773a944333db12",
+        "disposition": "rewrite",
+        "beats": [
+          "hf-impossible-assignment-conclusion"
+        ],
+        "reason": "Attribute the conclusion to the run in METR’s account.",
+        "target_sha256": {
+          "hf-impossible-assignment-conclusion": "4cf5da95a7e711d54573fd7b59b848c4bcd27c60935355f3a980bf0c95e91c1a"
+        }
+      },
+      {
+        "id": "legacy-002-01-detail-03",
+        "original_sha256": "515cb5226fc1066d48e4aa1d285af7910917c754cad0a8f38e37b60cdbb793ac",
+        "disposition": "rewrite",
+        "beats": [
+          "hf-impossible-assignment-conclusion"
+        ],
+        "reason": "Retain the as-specified qualification rather than declare universal impossibility.",
+        "target_sha256": {
+          "hf-impossible-assignment-conclusion": "4cf5da95a7e711d54573fd7b59b848c4bcd27c60935355f3a980bf0c95e91c1a"
+        }
+      }
+    ]
+  },
+  {
+    "old_panel": "002-02",
+    "old_edition": "legacy-332b5ed63262",
+    "reviewed_on": "2026-09-13",
+    "status": "elements-reviewed",
+    "elements": [
+      {
+        "id": "legacy-002-02-detail-01",
+        "original_sha256": "52956a71407f227c70fc008bff1ad2942c3e774bf21eabe7a9eeaee544552276",
+        "disposition": "rewrite",
+        "beats": [
+          "hf-impossible-assignment-unfinished"
+        ],
+        "reason": "Keep the unresolved task, without fabricating a grader interface or rejection event.",
+        "target_sha256": {
+          "hf-impossible-assignment-unfinished": "06ca73f48d74af0be0719c1a8728812c25a0519c66cda8d79897dabbc1d73d09"
+        }
+      },
+      {
+        "id": "legacy-002-02-detail-02",
+        "original_sha256": "79270186773c42012c3cd66ba639a2da4c1ea0a4f8cdc31f247bf675df40e866",
+        "disposition": "rewrite",
+        "beats": [
+          "hf-impossible-assignment-unfinished"
+        ],
+        "reason": "Knowing the defect has not produced the requested result; this does not claim an observed evaluation rejection.",
+        "target_sha256": {
+          "hf-impossible-assignment-unfinished": "06ca73f48d74af0be0719c1a8728812c25a0519c66cda8d79897dabbc1d73d09"
+        }
+      },
+      {
+        "id": "legacy-002-02-detail-03",
+        "original_sha256": "4f389734fc4d728a64871b68d6f3ae77ca877ff05c6c76592a59e0e25d1006ca",
+        "disposition": "rewrite",
+        "beats": [
+          "hf-impossible-assignment-unfinished"
+        ],
+        "reason": "Replace the invented flag-status field with narration of the unresolved result.",
+        "target_sha256": {
+          "hf-impossible-assignment-unfinished": "06ca73f48d74af0be0719c1a8728812c25a0519c66cda8d79897dabbc1d73d09"
+        }
+      }
+    ]
+  },
+  {
+    "old_panel": "002-03",
+    "old_edition": "legacy-332b5ed63262",
+    "reviewed_on": "2026-09-13",
+    "status": "elements-reviewed",
+    "elements": [
+      {
+        "id": "legacy-002-03-detail-01",
+        "original_sha256": "6f15fb2bce62190c65064da4bc957d5f19dccaf69f7d175a7c77ebd22f9de6bb",
+        "disposition": "rewrite",
+        "beats": [
+          "hf-impossible-assignment-continued-search"
+        ],
+        "reason": "Keep continued resource search; no invented cursor sequence or candidate tests.",
+        "target_sha256": {
+          "hf-impossible-assignment-continued-search": "fd0bf3bdc88c01e03cafaba417c4da76549c2a0017c8562086d0ead3b6992778"
+        }
+      },
+      {
+        "id": "legacy-002-03-detail-02",
+        "original_sha256": "991218db68ee8e6ac0937326b0e2ce4b4c976e126ce8ae646fd28be366519961",
+        "disposition": "rewrite",
+        "beats": [
+          "hf-impossible-assignment-continued-search"
+        ],
+        "reason": "The account supports continued work after the narrow impossibility finding.",
+        "target_sha256": {
+          "hf-impossible-assignment-continued-search": "fd0bf3bdc88c01e03cafaba417c4da76549c2a0017c8562086d0ead3b6992778"
+        }
+      },
+      {
+        "id": "legacy-002-03-detail-03",
+        "original_sha256": "a55e37ea6ac4f07a72d337efc1ceed2a6997d43b7a1de3955f47bb149ceb2a05",
+        "disposition": "rewrite",
+        "beats": [
+          "hf-impossible-assignment-unfinished"
+        ],
+        "reason": "Narrow the asserted completion rule to the observable fact that the requested result remains missing.",
+        "target_sha256": {
+          "hf-impossible-assignment-unfinished": "06ca73f48d74af0be0719c1a8728812c25a0519c66cda8d79897dabbc1d73d09"
+        }
+      },
+      {
+        "id": "legacy-002-03-detail-04",
+        "original_sha256": "ddebc43bbd97ab6acb8e083554d9f3d748e50198a4318c84bbdf5004ec03764c",
+        "disposition": "rewrite",
+        "beats": [
+          "hf-impossible-assignment-unfinished"
+        ],
+        "reason": "Retain the distinction between explaining a defect and supplying a result; remove the broader claim that evaluator design equates task failure and run failure.",
+        "target_sha256": {
+          "hf-impossible-assignment-unfinished": "06ca73f48d74af0be0719c1a8728812c25a0519c66cda8d79897dabbc1d73d09"
+        }
+      }
+    ]
+  },
+  {
+    "old_panel": "002-04",
+    "old_edition": "legacy-332b5ed63262",
+    "reviewed_on": "2026-09-13",
+    "status": "elements-reviewed",
+    "elements": [
+      {
+        "id": "legacy-002-04-detail-01",
+        "original_sha256": "8f93acfa74e8291f2728aae445730931005c40a9cb7957daad556d46b049c920",
+        "disposition": "combine",
+        "beats": [
+          "hf-impossible-assignment-continued-search"
+        ],
+        "reason": "Continued work is already depicted; remove a duplicate static task-card view.",
+        "target_sha256": {
+          "hf-impossible-assignment-continued-search": "fd0bf3bdc88c01e03cafaba417c4da76549c2a0017c8562086d0ead3b6992778"
+        }
+      },
+      {
+        "id": "legacy-002-04-detail-02",
+        "original_sha256": "eae4396081d0d7bde60df7921dafef3db0d2655a6921446bf86c098becef84d9",
+        "disposition": "rewrite",
+        "beats": [
+          "hf-impossible-assignment-continued-search"
+        ],
+        "reason": "Replace the unbounded nothing-externally-ends assertion with the documented continued search.",
+        "target_sha256": {
+          "hf-impossible-assignment-continued-search": "fd0bf3bdc88c01e03cafaba417c4da76549c2a0017c8562086d0ead3b6992778"
+        }
+      },
+      {
+        "id": "legacy-002-04-detail-03",
+        "original_sha256": "67b9437cf5881d0c8be0c6b2e856d1cf5bcd290aef61ae11c78a1c40e6ba52da",
+        "disposition": "omit",
+        "beats": [],
+        "reason": "No selected record establishes the complete absence of safe exits for this run. The configuration argument needs a separately attributed later source discussion.",
+        "target_sha256": {}
+      }
+    ]
+  },
+  {
+    "old_panel": "002-05",
+    "old_edition": "legacy-332b5ed63262",
+    "reviewed_on": "2026-09-13",
+    "status": "elements-reviewed",
+    "elements": [
+      {
+        "id": "legacy-002-05-detail-01",
+        "original_sha256": "ae06951d87878f5fa1153389be71df1940cbddea6dc40fb446f5771b91b350d9",
+        "disposition": "omit",
+        "beats": [],
+        "reason": "Retire the old full-width black page-turn choreography; chronology determines new turns.",
+        "target_sha256": {}
+      },
+      {
+        "id": "legacy-002-05-detail-02",
+        "original_sha256": "ce1c963dbfe87c2534dcc438fac05470ec563420378d967de9682d9ab18c19a4",
+        "disposition": "rewrite",
+        "beats": [
+          "hf-impossible-assignment-continued-search"
+        ],
+        "reason": "Retain the unresolved task leading to help-seeking without asserting a universal motive.",
+        "target_sha256": {
+          "hf-impossible-assignment-continued-search": "fd0bf3bdc88c01e03cafaba417c4da76549c2a0017c8562086d0ead3b6992778"
+        }
+      },
+      {
+        "id": "legacy-002-05-detail-03",
+        "original_sha256": "f7ca6d583f6eed83d9d48fb5d83a56330e970162c37f6663ad8fdcacab88a31e",
+        "disposition": "combine",
+        "beats": [
+          "hf-impossible-assignment-unfinished"
+        ],
+        "reason": "The unfinished objective is already lettered once; combine this repetition.",
+        "target_sha256": {
+          "hf-impossible-assignment-unfinished": "06ca73f48d74af0be0719c1a8728812c25a0519c66cda8d79897dabbc1d73d09"
+        }
+      }
+    ]
+  }
+]

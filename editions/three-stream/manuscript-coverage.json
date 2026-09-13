@@ -1,78 +1,101 @@
 {
   "status": "incomplete; associations are not full-detail dispositions",
-  "scenes": 185,
-  "drafted_beats": 450,
+  "scenes": 188,
+  "drafted_beats": 467,
   "canonical_pages": null,
-  "associated_old_panels": 231,
+  "associated_old_panels": 265,
   "old_panels": [
     {
       "old_edition": "legacy-332b5ed63262",
       "old_panel": "001-01",
-      "draft_beats": [],
-      "detail_review": "pending",
+      "draft_beats": [
+        "hf-impossible-assignment-assignment"
+      ],
+      "detail_review": "elements-reviewed",
       "exact_strings": []
     },
     {
       "old_edition": "legacy-332b5ed63262",
       "old_panel": "001-02",
-      "draft_beats": [],
-      "detail_review": "pending",
+      "draft_beats": [
+        "hf-impossible-assignment-output"
+      ],
+      "detail_review": "elements-reviewed",
       "exact_strings": []
     },
     {
       "old_edition": "legacy-332b5ed63262",
       "old_panel": "001-03",
-      "draft_beats": [],
-      "detail_review": "pending",
+      "draft_beats": [
+        "hf-impossible-assignment-output",
+        "hf-impossible-assignment-no-consumer"
+      ],
+      "detail_review": "elements-reviewed",
       "exact_strings": []
     },
     {
       "old_edition": "legacy-332b5ed63262",
       "old_panel": "001-04",
-      "draft_beats": [],
-      "detail_review": "pending",
+      "draft_beats": [
+        "hf-impossible-assignment-no-consumer"
+      ],
+      "detail_review": "elements-reviewed",
       "exact_strings": []
     },
     {
       "old_edition": "legacy-332b5ed63262",
       "old_panel": "001-05",
-      "draft_beats": [],
-      "detail_review": "pending",
+      "draft_beats": [
+        "hf-impossible-assignment-no-consumer"
+      ],
+      "detail_review": "elements-reviewed",
       "exact_strings": []
     },
     {
       "old_edition": "legacy-332b5ed63262",
       "old_panel": "002-01",
-      "draft_beats": [],
-      "detail_review": "pending",
+      "draft_beats": [
+        "hf-impossible-assignment-conclusion"
+      ],
+      "detail_review": "elements-reviewed",
       "exact_strings": []
     },
     {
       "old_edition": "legacy-332b5ed63262",
       "old_panel": "002-02",
-      "draft_beats": [],
-      "detail_review": "pending",
+      "draft_beats": [
+        "hf-impossible-assignment-unfinished"
+      ],
+      "detail_review": "elements-reviewed",
       "exact_strings": []
     },
     {
       "old_edition": "legacy-332b5ed63262",
       "old_panel": "002-03",
-      "draft_beats": [],
-      "detail_review": "pending",
+      "draft_beats": [
+        "hf-impossible-assignment-unfinished",
+        "hf-impossible-assignment-continued-search"
+      ],
+      "detail_review": "elements-reviewed",
       "exact_strings": []
     },
     {
       "old_edition": "legacy-332b5ed63262",
       "old_panel": "002-04",
-      "draft_beats": [],
-      "detail_review": "pending",
+      "draft_beats": [
+        "hf-impossible-assignment-continued-search"
+      ],
+      "detail_review": "elements-reviewed",
       "exact_strings": []
     },
     {
       "old_edition": "legacy-332b5ed63262",
       "old_panel": "002-05",
-      "draft_beats": [],
-      "detail_review": "pending",
+      "draft_beats": [
+        "hf-impossible-assignment-unfinished",
+        "hf-impossible-assignment-continued-search"
+      ],
+      "detail_review": "elements-reviewed",
       "exact_strings": []
     },
     {
@@ -339,42 +362,54 @@
     {
       "old_edition": "legacy-332b5ed63262",
       "old_panel": "008-01",
-      "draft_beats": [],
+      "draft_beats": [
+        "july-flag-hypothesis-proposal"
+      ],
       "detail_review": "pending",
       "exact_strings": []
     },
     {
       "old_edition": "legacy-332b5ed63262",
       "old_panel": "008-02",
-      "draft_beats": [],
+      "draft_beats": [
+        "july-flag-hypothesis-proposal"
+      ],
       "detail_review": "pending",
       "exact_strings": []
     },
     {
       "old_edition": "legacy-332b5ed63262",
       "old_panel": "008-03",
-      "draft_beats": [],
+      "draft_beats": [
+        "july-flag-hypothesis-test"
+      ],
       "detail_review": "pending",
       "exact_strings": []
     },
     {
       "old_edition": "legacy-332b5ed63262",
       "old_panel": "008-04",
-      "draft_beats": [],
+      "draft_beats": [
+        "july-flag-hypothesis-match"
+      ],
       "detail_review": "pending",
       "exact_strings": []
     },
     {
       "old_edition": "legacy-332b5ed63262",
       "old_panel": "008-05",
-      "draft_beats": [],
+      "draft_beats": [
+        "july-flag-hypothesis-generality"
+      ],
       "detail_review": "pending",
       "exact_strings": []
     },
     {
       "old_edition": "legacy-332b5ed63262",
       "old_panel": "009-01",
-      "draft_beats": [],
+      "draft_beats": [
+        "hf-scorer-belief-apparent-answer"
+      ],
       "detail_review": "pending",
       "exact_strings": []
     },
@@ -388,126 +423,164 @@
     {
       "old_edition": "legacy-332b5ed63262",
       "old_panel": "009-03",
-      "draft_beats": [],
+      "draft_beats": [
+        "hf-scorer-belief-path-question"
+      ],
       "detail_review": "pending",
       "exact_strings": []
     },
     {
       "old_edition": "legacy-332b5ed63262",
       "old_panel": "009-04",
-      "draft_beats": [],
+      "draft_beats": [
+        "hf-scorer-belief-path-question",
+        "hf-scorer-belief-uncertainty"
+      ],
       "detail_review": "pending",
       "exact_strings": []
     },
     {
       "old_edition": "legacy-332b5ed63262",
       "old_panel": "009-05",
-      "draft_beats": [],
+      "draft_beats": [
+        "hf-scorer-belief-uncertainty"
+      ],
       "detail_review": "pending",
       "exact_strings": []
     },
     {
       "old_edition": "legacy-332b5ed63262",
       "old_panel": "010-01",
-      "draft_beats": [],
+      "draft_beats": [
+        "hf-scorer-belief-prior-exposure"
+      ],
       "detail_review": "pending",
       "exact_strings": []
     },
     {
       "old_edition": "legacy-332b5ed63262",
       "old_panel": "010-02",
-      "draft_beats": [],
+      "draft_beats": [
+        "hf-scorer-belief-transcript-review"
+      ],
       "detail_review": "pending",
       "exact_strings": []
     },
     {
       "old_edition": "legacy-332b5ed63262",
       "old_panel": "010-03",
-      "draft_beats": [],
+      "draft_beats": [
+        "hf-scorer-belief-deployment-account"
+      ],
       "detail_review": "pending",
       "exact_strings": []
     },
     {
       "old_edition": "legacy-332b5ed63262",
       "old_panel": "010-04",
-      "draft_beats": [],
+      "draft_beats": [
+        "hf-scorer-belief-deployment-account"
+      ],
       "detail_review": "pending",
       "exact_strings": []
     },
     {
       "old_edition": "legacy-332b5ed63262",
       "old_panel": "010-05",
-      "draft_beats": [],
+      "draft_beats": [
+        "hf-scorer-belief-uncertainty"
+      ],
       "detail_review": "pending",
       "exact_strings": []
     },
     {
       "old_edition": "legacy-332b5ed63262",
       "old_panel": "011-01",
-      "draft_beats": [],
+      "draft_beats": [
+        "july-workstreams-target"
+      ],
       "detail_review": "pending",
       "exact_strings": []
     },
     {
       "old_edition": "legacy-332b5ed63262",
       "old_panel": "011-02",
-      "draft_beats": [],
+      "draft_beats": [
+        "hf-scorer-research-transcript",
+        "july-workstreams-access"
+      ],
       "detail_review": "pending",
       "exact_strings": []
     },
     {
       "old_edition": "legacy-332b5ed63262",
       "old_panel": "011-03",
-      "draft_beats": [],
+      "draft_beats": [
+        "july-workstreams-grader"
+      ],
       "detail_review": "pending",
       "exact_strings": []
     },
     {
       "old_edition": "legacy-332b5ed63262",
       "old_panel": "011-04",
-      "draft_beats": [],
+      "draft_beats": [
+        "july-workstreams-dossier"
+      ],
       "detail_review": "pending",
       "exact_strings": []
     },
     {
       "old_edition": "legacy-332b5ed63262",
       "old_panel": "011-05",
-      "draft_beats": [],
+      "draft_beats": [
+        "hf-scorer-research-rule"
+      ],
       "detail_review": "pending",
       "exact_strings": []
     },
     {
       "old_edition": "legacy-332b5ed63262",
       "old_panel": "012-01",
-      "draft_beats": [],
+      "draft_beats": [
+        "hf-scorer-research-rule"
+      ],
       "detail_review": "pending",
       "exact_strings": []
     },
     {
       "old_edition": "legacy-332b5ed63262",
       "old_panel": "012-02",
-      "draft_beats": [],
+      "draft_beats": [
+        "hf-scorer-research-rule"
+      ],
       "detail_review": "pending",
       "exact_strings": []
     },
     {
       "old_edition": "legacy-332b5ed63262",
       "old_panel": "012-03",
-      "draft_beats": [],
+      "draft_beats": [
+        "hf-scorer-research-infrastructure"
+      ],
       "detail_review": "pending",
       "exact_strings": []
     },
     {
       "old_edition": "legacy-332b5ed63262",
       "old_panel": "012-04",
-      "draft_beats": [],
+      "draft_beats": [
+        "hf-scorer-research-infrastructure"
+      ],
       "detail_review": "pending",
       "exact_strings": []
     },
     {
       "old_edition": "legacy-332b5ed63262",
       "old_panel": "012-05",
-      "draft_beats": [],
+      "draft_beats": [
+        "hf-scorer-research-interpretation"
+      ],
       "detail_review": "pending",
       "exact_strings": []
     },
@@ -4834,11 +4907,13 @@
     }
   ],
   "by_row": {
-    "HuggingFace": 280,
+    "HuggingFace": 297,
     "GemStuffer": 37,
     "Collusion Wiki": 115,
     "Curt": 7,
     "Codex": 5,
     "Claude": 6
-  }
+  },
+  "reviewed_old_panels": 10,
+  "reviewed_source_elements": 33
 }
