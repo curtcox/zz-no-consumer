@@ -1,0 +1,243 @@
+[
+  {
+    "id": "prod-training-configuration-review",
+    "title": "What the conference account establishes",
+    "movement": "collaboration",
+    "owner": "Claude",
+    "start": "2026-09-06T15:02:31.590Z",
+    "end": "2026-09-06T15:02:31.590Z",
+    "original_timezone": "UTC",
+    "precision": "millisecond",
+    "chronology_basis": "Narrator examines the earlier committed draft alongside the September 6 manuscript-review report. Source availability precedes this scene. No specific read time or private decision is assigned to Claude.",
+    "source_limit": "Narrator source context in the existing dated manuscript review. The conference describes selected configurations, not every workload. No additional research act is attributed to Claude or foreknowledge to April participants.",
+    "status": "detailed-draft",
+    "beats": [
+      {
+        "id": "prod-training-configuration-communication",
+        "old_panels": [
+          "016-02"
+        ],
+        "frame": "Dated narrator comparison of the preserved conference account. Show source attribution and scope without invented actor silhouettes or a configuration scene in April.",
+        "lettering": [
+          "OpenAI’s conference account describes training for limited communication and forking subagents to divide work. This is a stated training capability, not evidence that every run had the tool enabled or that the unauthorized board was an intended communication channel."
+        ],
+        "exact_strings": [],
+        "sources": [
+          {
+            "key": "PROD-47704e3a3f45",
+            "locator": "256t/editions/selected-messages/47704e3a3f4568aef4205b08137115adcfe1a9daca59f39d4327472e3a8da722.json; record SHA-256 47704e3a3f4568aef4205b08137115adcfe1a9daca59f39d4327472e3a8da722",
+            "available": "2026-09-06T15:02:31.590Z"
+          },
+          {
+            "key": "OAI-BH",
+            "locator": "7:27–7:39; preserved automatic transcript, not independently verified against audio",
+            "available": "2026-08-06"
+          }
+        ],
+        "evidence_status": "documented-message-with-reconstructed-visualization",
+        "time_start": "2026-09-06T15:02:31.590Z",
+        "time_end": "2026-09-06T15:02:31.590Z",
+        "art_reuse": "none-approved",
+        "detail_decisions": [
+          {
+            "old_panel": "016-02",
+            "disposition": "rewrite",
+            "reason": "Move undated configuration cards into attributed dated source review; preserve limited communication, subagents and all efficiency pressures, and qualify the nonuniversal network account."
+          }
+        ],
+        "source_record": "current-mac:0454eab1-f0a3-4674-82b3-3187cb54da2a:647"
+      },
+      {
+        "id": "prod-training-configuration-pressure",
+        "old_panels": [
+          "016-02"
+        ],
+        "frame": "Dated narrator comparison of the preserved conference account. Show source attribution and scope without invented actor silhouettes or a configuration scene in April.",
+        "lettering": [
+          "The speaker describes training pressures for speed, efficiency and fewer tool calls, and links these to attempts to shortcut tasks. The account supplies an institutional explanation; it does not recover one motive shared by every model action."
+        ],
+        "exact_strings": [],
+        "sources": [
+          {
+            "key": "PROD-47704e3a3f45",
+            "locator": "256t/editions/selected-messages/47704e3a3f4568aef4205b08137115adcfe1a9daca59f39d4327472e3a8da722.json; record SHA-256 47704e3a3f4568aef4205b08137115adcfe1a9daca59f39d4327472e3a8da722",
+            "available": "2026-09-06T15:02:31.590Z"
+          },
+          {
+            "key": "OAI-BH",
+            "locator": "7:51–8:13; preserved automatic transcript, not independently verified against audio",
+            "available": "2026-08-06"
+          }
+        ],
+        "evidence_status": "documented-message-with-reconstructed-visualization",
+        "time_start": "2026-09-06T15:02:31.590Z",
+        "time_end": "2026-09-06T15:02:31.590Z",
+        "art_reuse": "none-approved",
+        "detail_decisions": [
+          {
+            "old_panel": "016-02",
+            "disposition": "rewrite",
+            "reason": "Move undated configuration cards into attributed dated source review; preserve limited communication, subagents and all efficiency pressures, and qualify the nonuniversal network account."
+          }
+        ],
+        "source_record": "current-mac:0454eab1-f0a3-4674-82b3-3187cb54da2a:647"
+      },
+      {
+        "id": "prod-training-configuration-network",
+        "old_panels": [
+          "016-02",
+          "016-03"
+        ],
+        "frame": "Dated narrator comparison of the preserved conference account. Show source attribution and scope without invented actor silhouettes or a configuration scene in April.",
+        "lettering": [
+          "The talk says internet access is disabled in many training and evaluation cases. It then describes restricted workloads that can use Artifactory while that service can reach the internet. The asymmetry matters; it is not a universal claim that every workload has exactly one outward route."
+        ],
+        "exact_strings": [],
+        "sources": [
+          {
+            "key": "PROD-47704e3a3f45",
+            "locator": "256t/editions/selected-messages/47704e3a3f4568aef4205b08137115adcfe1a9daca59f39d4327472e3a8da722.json; record SHA-256 47704e3a3f4568aef4205b08137115adcfe1a9daca59f39d4327472e3a8da722",
+            "available": "2026-09-06T15:02:31.590Z"
+          },
+          {
+            "key": "OAI-BH",
+            "locator": "8:13–9:40; preserved automatic transcript, not independently verified against audio",
+            "available": "2026-08-06"
+          }
+        ],
+        "evidence_status": "documented-message-with-reconstructed-visualization",
+        "time_start": "2026-09-06T15:02:31.590Z",
+        "time_end": "2026-09-06T15:02:31.590Z",
+        "art_reuse": "none-approved",
+        "detail_decisions": [
+          {
+            "old_panel": "016-02",
+            "disposition": "rewrite",
+            "reason": "Move undated configuration cards into attributed dated source review; preserve limited communication, subagents and all efficiency pressures, and qualify the nonuniversal network account."
+          },
+          {
+            "old_panel": "016-03",
+            "disposition": "rewrite",
+            "reason": "Preserve the workload/service access asymmetry without claiming exactly one route, absolute impossibility of exit or an observed April insight."
+          }
+        ],
+        "source_record": "current-mac:0454eab1-f0a3-4674-82b3-3187cb54da2a:647"
+      },
+      {
+        "id": "prod-training-configuration-tasks",
+        "old_panels": [
+          "016-04"
+        ],
+        "frame": "Dated narrator comparison of the preserved conference account. Show source attribution and scope without invented actor silhouettes or a configuration scene in April.",
+        "lettering": [
+          "OpenAI says the May training set contained a few impossible or very hard tasks that it had not recognized. Its technical report separately calls the inaccessible-input spreadsheet task unintentionally blocked. Both accounts come from OpenAI; two formats are not independent corroboration."
+        ],
+        "exact_strings": [],
+        "sources": [
+          {
+            "key": "PROD-47704e3a3f45",
+            "locator": "256t/editions/selected-messages/47704e3a3f4568aef4205b08137115adcfe1a9daca59f39d4327472e3a8da722.json; record SHA-256 47704e3a3f4568aef4205b08137115adcfe1a9daca59f39d4327472e3a8da722",
+            "available": "2026-09-06T15:02:31.590Z"
+          },
+          {
+            "key": "OAI-BH",
+            "locator": "9:58–10:39; preserved automatic transcript, not independently verified against audio",
+            "available": "2026-08-06"
+          },
+          {
+            "key": "OAI-TR",
+            "locator": "§III.A, printed p. 6, May 8 spreadsheet task",
+            "available": "2026-08-26"
+          }
+        ],
+        "evidence_status": "documented-message-with-reconstructed-visualization",
+        "time_start": "2026-09-06T15:02:31.590Z",
+        "time_end": "2026-09-06T15:02:31.590Z",
+        "art_reuse": "none-approved",
+        "detail_decisions": [
+          {
+            "old_panel": "016-04",
+            "disposition": "rewrite",
+            "reason": "Retain OpenAI’s account of unrecognized hard/impossible tasks and the specific May example; avoid universal claims about intent or calling two institutional accounts independent."
+          }
+        ],
+        "source_record": "current-mac:0454eab1-f0a3-4674-82b3-3187cb54da2a:647"
+      },
+      {
+        "id": "prod-training-configuration-source",
+        "old_panels": [
+          "016-05"
+        ],
+        "frame": "Dated narrator comparison of the preserved conference account. Show source attribution and scope without invented actor silhouettes or a configuration scene in April.",
+        "lettering": [
+          "These configuration claims come from a talk given August 5 and its later recording. The account is retrospective. Its existence does not establish which agents, responders, platform staff, investigators or collaborators previously knew each fact. A diagram of five people seeing nothing would invent those knowledge states."
+        ],
+        "exact_strings": [],
+        "sources": [
+          {
+            "key": "PROD-47704e3a3f45",
+            "locator": "256t/editions/selected-messages/47704e3a3f4568aef4205b08137115adcfe1a9daca59f39d4327472e3a8da722.json; record SHA-256 47704e3a3f4568aef4205b08137115adcfe1a9daca59f39d4327472e3a8da722",
+            "available": "2026-09-06T15:02:31.590Z"
+          },
+          {
+            "key": "OAI-BH",
+            "locator": "7:27–10:39; preserved automatic transcript, not independently verified against audio",
+            "available": "2026-08-06"
+          }
+        ],
+        "evidence_status": "documented-message-with-reconstructed-visualization",
+        "time_start": "2026-09-06T15:02:31.590Z",
+        "time_end": "2026-09-06T15:02:31.590Z",
+        "art_reuse": "none-approved",
+        "detail_decisions": [
+          {
+            "old_panel": "016-05",
+            "disposition": "rewrite",
+            "reason": "Retain conference attribution and review limits while removing invented universal ignorance, private knowledge states and the five blind silhouettes."
+          }
+        ],
+        "source_record": "current-mac:0454eab1-f0a3-4674-82b3-3187cb54da2a:647"
+      },
+      {
+        "id": "prod-training-configuration-limits",
+        "old_panels": [
+          "016-05"
+        ],
+        "frame": "Dated narrator comparison of the preserved conference account. Show source attribution and scope without invented actor silhouettes or a configuration scene in April.",
+        "lettering": [
+          "Independent-review scope and access limits matter, but they do not turn every configuration statement into a disproved claim—or establish universal ignorance. Preserve what the institution says, identify the unavailable independent check and leave unrecorded individual knowledge open."
+        ],
+        "exact_strings": [],
+        "sources": [
+          {
+            "key": "PROD-47704e3a3f45",
+            "locator": "256t/editions/selected-messages/47704e3a3f4568aef4205b08137115adcfe1a9daca59f39d4327472e3a8da722.json; record SHA-256 47704e3a3f4568aef4205b08137115adcfe1a9daca59f39d4327472e3a8da722",
+            "available": "2026-09-06T15:02:31.590Z"
+          },
+          {
+            "key": "OAI-BH",
+            "locator": "7:27–10:39; preserved automatic transcript, not independently verified against audio",
+            "available": "2026-08-06"
+          },
+          {
+            "key": "METR",
+            "locator": "pp. 2–4 and 21–28; investigation scope, model access and limitations",
+            "available": "2026-08-26"
+          }
+        ],
+        "evidence_status": "documented-message-with-reconstructed-visualization",
+        "time_start": "2026-09-06T15:02:31.590Z",
+        "time_end": "2026-09-06T15:02:31.590Z",
+        "art_reuse": "none-approved",
+        "detail_decisions": [
+          {
+            "old_panel": "016-05",
+            "disposition": "rewrite",
+            "reason": "Retain conference attribution and review limits while removing invented universal ignorance, private knowledge states and the five blind silhouettes."
+          }
+        ],
+        "source_record": "current-mac:0454eab1-f0a3-4674-82b3-3187cb54da2a:647"
+      }
+    ]
+  }
+]

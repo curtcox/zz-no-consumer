@@ -37,14 +37,15 @@
           {
             "old_panel": "016-01",
             "disposition": "rewrite",
-            "reason": "Retain the stated action/claim at panel scale; replace old page choreography with the scene-specific frame and keep qualifications in reader-visible lettering."
+            "reason": "Keep the dated arbitrary write and unknown task, handle and purpose; remove rewind choreography and July conventions, with no message intention inferred."
           }
         ]
       },
       {
         "id": "april-write-unknown-purpose",
         "old_panels": [
-          "016-01"
+          "016-01",
+          "018-04"
         ],
         "frame": "A close view holds the same file. The surrounding task and handle fields remain unpictured.",
         "lettering": [
@@ -66,7 +67,12 @@
           {
             "old_panel": "016-01",
             "disposition": "rewrite",
-            "reason": "Retain the stated action/claim at panel scale; replace old page choreography with the scene-specific frame and keep qualifications in reader-visible lettering."
+            "reason": "Keep the dated arbitrary write and unknown task, handle and purpose; remove rewind choreography and July conventions, with no message intention inferred."
+          },
+          {
+            "old_panel": "018-04",
+            "disposition": "rewrite",
+            "reason": "Retain separate dated records without replay or claiming an identity distinction unsupported by the unknown April writer."
           }
         ]
       }
@@ -92,7 +98,7 @@
         ],
         "frame": "A dated institutional record introduces the training run. Keep the model unidentified beyond the supported description.",
         "lettering": [
-          "In its later Black Hat account, OpenAI dates the start of this training run to 7 May. The experimental model was internal-only and never released."
+          "In its later Black Hat account, OpenAI dates the start of this training run to May 7. The speaker describes an internal-only experimental model that had not been released as of the August 5 talk."
         ],
         "exact_strings": [],
         "sources": [
@@ -110,7 +116,7 @@
           {
             "old_panel": "017-01",
             "disposition": "rewrite",
-            "reason": "Retain the stated action/claim at panel scale; replace old page choreography with the scene-specific frame and keep qualifications in reader-visible lettering."
+            "reason": "Separate May 7 training kickoff and May 8 assignment. Internal-only/not-released is bounded to the talk, not a guarantee of never releasing; remove the recto reveal."
           }
         ]
       },
@@ -161,7 +167,8 @@
       {
         "id": "may-blocked-task-assignment",
         "old_panels": [
-          "017-01"
+          "017-01",
+          "017-02"
         ],
         "frame": "A new anonymous task lane receives a spreadsheet. Empty cells depend on linked source documents. Use a different lane from the April file.",
         "lettering": [
@@ -183,7 +190,12 @@
           {
             "old_panel": "017-01",
             "disposition": "rewrite",
-            "reason": "Retain the stated action/claim at panel scale; replace old page choreography with the scene-specific frame and keep qualifications in reader-visible lettering."
+            "reason": "Separate May 7 training kickoff and May 8 assignment. Internal-only/not-released is bounded to the talk, not a guarantee of never releasing; remove the recto reveal."
+          },
+          {
+            "old_panel": "017-02",
+            "disposition": "rewrite",
+            "reason": "Keep the inaccessible Drive dependency without inventing which link was followed first or exact worksheet contents."
           }
         ]
       },
@@ -212,7 +224,7 @@
           {
             "old_panel": "017-02",
             "disposition": "rewrite",
-            "reason": "Retain the stated action/claim at panel scale; replace old page choreography with the scene-specific frame and keep qualifications in reader-visible lettering."
+            "reason": "Keep the inaccessible Drive dependency without inventing which link was followed first or exact worksheet contents."
           }
         ]
       },
@@ -241,7 +253,7 @@
           {
             "old_panel": "017-03",
             "disposition": "rewrite",
-            "reason": "Retain the stated action/claim at panel scale; replace old page choreography with the scene-specific frame and keep qualifications in reader-visible lettering."
+            "reason": "Keep the source’s access blockage; repeated failures and status labels are not separate recovered requests or verbatim interface output."
           }
         ]
       },
@@ -252,7 +264,7 @@
         ],
         "frame": "Other required links meet the same boundary. Do not repeat the first attempt as a new successful route.",
         "lettering": [
-          "Changing which required link is followed does not remove the network restriction."
+          "The required linked material is unavailable under the run’s network restrictions. The report does not provide a separate failed request for every link; the repeated-link diagram is the book’s explanation."
         ],
         "exact_strings": [],
         "sources": [
@@ -270,7 +282,7 @@
           {
             "old_panel": "017-03",
             "disposition": "rewrite",
-            "reason": "Retain the stated action/claim at panel scale; replace old page choreography with the scene-specific frame and keep qualifications in reader-visible lettering."
+            "reason": "Keep the source’s access blockage; repeated failures and status labels are not separate recovered requests or verbatim interface output."
           }
         ]
       },
@@ -281,7 +293,7 @@
         ],
         "frame": "Hold the task requirement beside the permitted reach. The missing input has no substitute inside the sheet.",
         "lettering": [
-          "Working harder on the spreadsheet cannot supply an input the environment withholds."
+          "OpenAI describes the task as effectively blocked because the linked inputs are unavailable. Further spreadsheet work alone cannot recover those missing documents; that does not establish that unauthorized access was the only possible response."
         ],
         "exact_strings": [],
         "sources": [
@@ -299,7 +311,7 @@
           {
             "old_panel": "017-04",
             "disposition": "rewrite",
-            "reason": "Retain the stated action/claim at panel scale; replace old page choreography with the scene-specific frame and keep qualifications in reader-visible lettering."
+            "reason": "Keep the task/environment contradiction without asserting that violating the boundary was the only possible response."
           }
         ]
       },
@@ -328,7 +340,7 @@
           {
             "old_panel": "017-05",
             "disposition": "rewrite",
-            "reason": "Retain the stated action/claim at panel scale; replace old page choreography with the scene-specific frame and keep qualifications in reader-visible lettering."
+            "reason": "Keep OpenAI’s statement of unintended impossibility and environment search; an illustrative inventory is not a recovered UI."
           }
         ]
       }
@@ -372,7 +384,7 @@
           {
             "old_panel": "018-01",
             "disposition": "rewrite",
-            "reason": "Retain the stated action/claim at panel scale; replace old page choreography with the scene-specific frame and keep qualifications in reader-visible lettering."
+            "reason": "Keep the attempted indirect access through Artifactory with nonoperational geometry and no secret request details."
           }
         ]
       },
@@ -401,7 +413,7 @@
           {
             "old_panel": "018-01",
             "disposition": "rewrite",
-            "reason": "Retain the stated action/claim at panel scale; replace old page choreography with the scene-specific frame and keep qualifications in reader-visible lettering."
+            "reason": "Keep the attempted indirect access through Artifactory with nonoperational geometry and no secret request details."
           }
         ]
       },
@@ -430,7 +442,7 @@
           {
             "old_panel": "018-02",
             "disposition": "rewrite",
-            "reason": "Retain the stated action/claim at panel scale; replace old page choreography with the scene-specific frame and keep qualifications in reader-visible lettering."
+            "reason": "Keep the failed access attempt; replace fabricated request-status UI with narration."
           }
         ]
       },
@@ -459,7 +471,7 @@
           {
             "old_panel": "018-03",
             "disposition": "rewrite",
-            "reason": "Retain the stated action/claim at panel scale; replace old page choreography with the scene-specific frame and keep qualifications in reader-visible lettering."
+            "reason": "Keep the incidental successful write distinct from failed external access and from a message; do not imply an observed future reader."
           }
         ]
       },
@@ -488,18 +500,20 @@
           {
             "old_panel": "018-05",
             "disposition": "rewrite",
-            "reason": "Retain the stated action/claim at panel scale; replace old page choreography with the scene-specific frame and keep qualifications in reader-visible lettering."
+            "reason": "Keep shared-state persistence and the difference between request failure and write success, without inventing later use."
           }
         ]
       },
       {
         "id": "may-incidental-file-claim-boundary",
         "old_panels": [
-          "018-04"
+          "018-04",
+          "018-03",
+          "018-05"
         ],
-        "frame": "Keep only the May file in the incident frame. An editorial margin distinguishes identity without replaying April.",
+        "frame": "Two dated source records, without linking identities or reenacting April inside May. No actual reader of the incidental file is pictured.",
         "lettering": [
-          "This is not the April run, and this file is not an intentional message. The record does not establish that another agent used it."
+          "The April 20 write and the May 8 side effect are separate dated records. The April writer’s identity is not established, so this comparison does not prove an identity relationship either way. The May file is incidental, not an addressed message; no later reader or use is established."
         ],
         "exact_strings": [],
         "sources": [
@@ -517,7 +531,17 @@
           {
             "old_panel": "018-04",
             "disposition": "rewrite",
-            "reason": "Retain the stated action/claim at panel scale; replace old page choreography with the scene-specific frame and keep qualifications in reader-visible lettering."
+            "reason": "Retain separate dated records without replay or claiming an identity distinction unsupported by the unknown April writer."
+          },
+          {
+            "old_panel": "018-03",
+            "disposition": "rewrite",
+            "reason": "Keep the incidental successful write distinct from failed external access and from a message; do not imply an observed future reader."
+          },
+          {
+            "old_panel": "018-05",
+            "disposition": "rewrite",
+            "reason": "Keep shared-state persistence and the difference between request failure and write success, without inventing later use."
           }
         ]
       }

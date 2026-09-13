@@ -11728,5 +11728,871 @@
         }
       }
     ]
+  },
+  {
+    "old_panel": "016-01",
+    "old_edition": "legacy-332b5ed63262",
+    "reviewed_on": "2026-09-13",
+    "status": "elements-reviewed",
+    "elements": [
+      {
+        "id": "legacy-016-01-detail-01",
+        "original_sha256": "38048d5e4302f578cb3ca684f6a0270ccd64f022f35424c2c6768a0e4f906b15",
+        "disposition": "rewrite",
+        "beats": [
+          "april-write-ordinary-cache",
+          "april-write-unknown-purpose"
+        ],
+        "reason": "Keep the dated arbitrary write and unknown task, handle and purpose; remove rewind choreography and July conventions, with no message intention inferred. Reviewed frame element.",
+        "target_sha256": {
+          "april-write-ordinary-cache": "671190f8501c3edd537bb89d6f80e24b1053a5b71c8b8780feab868cd8ce2b5b",
+          "april-write-unknown-purpose": "0217580cf9faf9680bd4381b53224ca1db33dadd6c16c4a736a36feef70aebc1"
+        }
+      },
+      {
+        "id": "legacy-016-01-detail-02",
+        "original_sha256": "449ca90b5b4c189fc33f54b41ec60556edeaf902c23cb29efb22deddc039aca3",
+        "disposition": "rewrite",
+        "beats": [
+          "april-write-ordinary-cache",
+          "april-write-unknown-purpose"
+        ],
+        "reason": "Keep the dated arbitrary write and unknown task, handle and purpose; remove rewind choreography and July conventions, with no message intention inferred. Reviewed action element.",
+        "target_sha256": {
+          "april-write-ordinary-cache": "671190f8501c3edd537bb89d6f80e24b1053a5b71c8b8780feab868cd8ce2b5b",
+          "april-write-unknown-purpose": "0217580cf9faf9680bd4381b53224ca1db33dadd6c16c4a736a36feef70aebc1"
+        }
+      },
+      {
+        "id": "legacy-016-01-detail-03",
+        "original_sha256": "b310c8b9e3cc23ac4f3f2ca0910bff584252c366f8e45077d7db3136dd9d3609",
+        "disposition": "rewrite",
+        "beats": [
+          "april-write-ordinary-cache",
+          "april-write-unknown-purpose"
+        ],
+        "reason": "Keep the dated arbitrary write and unknown task, handle and purpose; remove rewind choreography and July conventions, with no message intention inferred. Reviewed lettering element.",
+        "target_sha256": {
+          "april-write-ordinary-cache": "671190f8501c3edd537bb89d6f80e24b1053a5b71c8b8780feab868cd8ce2b5b",
+          "april-write-unknown-purpose": "0217580cf9faf9680bd4381b53224ca1db33dadd6c16c4a736a36feef70aebc1"
+        }
+      },
+      {
+        "id": "legacy-016-01-detail-04",
+        "original_sha256": "8fd6116802d82489582de111c8c65a58929144f124ddc796a75e07c76ef4d38e",
+        "disposition": "rewrite",
+        "beats": [
+          "april-write-ordinary-cache",
+          "april-write-unknown-purpose"
+        ],
+        "reason": "Keep the dated arbitrary write and unknown task, handle and purpose; remove rewind choreography and July conventions, with no message intention inferred. Reviewed lettering element.",
+        "target_sha256": {
+          "april-write-ordinary-cache": "671190f8501c3edd537bb89d6f80e24b1053a5b71c8b8780feab868cd8ce2b5b",
+          "april-write-unknown-purpose": "0217580cf9faf9680bd4381b53224ca1db33dadd6c16c4a736a36feef70aebc1"
+        }
+      },
+      {
+        "id": "legacy-016-01-detail-05",
+        "original_sha256": "d364ef1cba4acbbbebf1525f11fb47dfaa8fe8ad907032a9c238281ff95a7ef7",
+        "disposition": "rewrite",
+        "beats": [
+          "april-write-ordinary-cache",
+          "april-write-unknown-purpose"
+        ],
+        "reason": "Keep the dated arbitrary write and unknown task, handle and purpose; remove rewind choreography and July conventions, with no message intention inferred. Reviewed lettering element.",
+        "target_sha256": {
+          "april-write-ordinary-cache": "671190f8501c3edd537bb89d6f80e24b1053a5b71c8b8780feab868cd8ce2b5b",
+          "april-write-unknown-purpose": "0217580cf9faf9680bd4381b53224ca1db33dadd6c16c4a736a36feef70aebc1"
+        }
+      }
+    ]
+  },
+  {
+    "old_panel": "016-02",
+    "old_edition": "legacy-332b5ed63262",
+    "reviewed_on": "2026-09-13",
+    "status": "elements-reviewed",
+    "elements": [
+      {
+        "id": "legacy-016-02-detail-01",
+        "original_sha256": "6e0c05395181eac9da5dcf8e76cb52fe7510f05e3eb8737e86e35ede7a46d117",
+        "disposition": "rewrite",
+        "beats": [
+          "prod-training-configuration-communication",
+          "prod-training-configuration-pressure",
+          "prod-training-configuration-network"
+        ],
+        "reason": "Move undated configuration cards into attributed dated source review; preserve limited communication, subagents and all efficiency pressures, and qualify the nonuniversal network account. Reviewed frame element.",
+        "target_sha256": {
+          "prod-training-configuration-communication": "db1f26d0686c217cc0828f26f2f663562883ff3c97ed2db9c14badf2b27120ac",
+          "prod-training-configuration-pressure": "24958fe28e4e14e2b0ad3fba5c1fe927289b14b26c912949fe7f5ea2a02f7608",
+          "prod-training-configuration-network": "0dcf145bc38da107f0623d68ae0952a14f61e3dfa113e5c4edcc7e7cb4af9325"
+        }
+      },
+      {
+        "id": "legacy-016-02-detail-02",
+        "original_sha256": "a706433f7eee997fe01a0c6cfa5ee619516725b13db90026de7f4029990c6241",
+        "disposition": "rewrite",
+        "beats": [
+          "prod-training-configuration-communication",
+          "prod-training-configuration-pressure",
+          "prod-training-configuration-network"
+        ],
+        "reason": "Move undated configuration cards into attributed dated source review; preserve limited communication, subagents and all efficiency pressures, and qualify the nonuniversal network account. Reviewed action element.",
+        "target_sha256": {
+          "prod-training-configuration-communication": "db1f26d0686c217cc0828f26f2f663562883ff3c97ed2db9c14badf2b27120ac",
+          "prod-training-configuration-pressure": "24958fe28e4e14e2b0ad3fba5c1fe927289b14b26c912949fe7f5ea2a02f7608",
+          "prod-training-configuration-network": "0dcf145bc38da107f0623d68ae0952a14f61e3dfa113e5c4edcc7e7cb4af9325"
+        }
+      },
+      {
+        "id": "legacy-016-02-detail-03",
+        "original_sha256": "7ef7ff1db90e563689c7257eaad42cd62977cb542cdc11d2fe0799b63cf1d5fc",
+        "disposition": "rewrite",
+        "beats": [
+          "prod-training-configuration-communication",
+          "prod-training-configuration-pressure",
+          "prod-training-configuration-network"
+        ],
+        "reason": "Move undated configuration cards into attributed dated source review; preserve limited communication, subagents and all efficiency pressures, and qualify the nonuniversal network account. Reviewed lettering element.",
+        "target_sha256": {
+          "prod-training-configuration-communication": "db1f26d0686c217cc0828f26f2f663562883ff3c97ed2db9c14badf2b27120ac",
+          "prod-training-configuration-pressure": "24958fe28e4e14e2b0ad3fba5c1fe927289b14b26c912949fe7f5ea2a02f7608",
+          "prod-training-configuration-network": "0dcf145bc38da107f0623d68ae0952a14f61e3dfa113e5c4edcc7e7cb4af9325"
+        }
+      },
+      {
+        "id": "legacy-016-02-detail-04",
+        "original_sha256": "0709266a342709cd13848247e7331da34f42da86fee80bef43b9840651ca5c43",
+        "disposition": "rewrite",
+        "beats": [
+          "prod-training-configuration-communication",
+          "prod-training-configuration-pressure",
+          "prod-training-configuration-network"
+        ],
+        "reason": "Move undated configuration cards into attributed dated source review; preserve limited communication, subagents and all efficiency pressures, and qualify the nonuniversal network account. Reviewed lettering element.",
+        "target_sha256": {
+          "prod-training-configuration-communication": "db1f26d0686c217cc0828f26f2f663562883ff3c97ed2db9c14badf2b27120ac",
+          "prod-training-configuration-pressure": "24958fe28e4e14e2b0ad3fba5c1fe927289b14b26c912949fe7f5ea2a02f7608",
+          "prod-training-configuration-network": "0dcf145bc38da107f0623d68ae0952a14f61e3dfa113e5c4edcc7e7cb4af9325"
+        }
+      },
+      {
+        "id": "legacy-016-02-detail-05",
+        "original_sha256": "089112868caba06e22fad5d14d649034f27d20de521e2305043e8eda4bd0eac1",
+        "disposition": "rewrite",
+        "beats": [
+          "prod-training-configuration-communication",
+          "prod-training-configuration-pressure",
+          "prod-training-configuration-network"
+        ],
+        "reason": "Move undated configuration cards into attributed dated source review; preserve limited communication, subagents and all efficiency pressures, and qualify the nonuniversal network account. Reviewed lettering element.",
+        "target_sha256": {
+          "prod-training-configuration-communication": "db1f26d0686c217cc0828f26f2f663562883ff3c97ed2db9c14badf2b27120ac",
+          "prod-training-configuration-pressure": "24958fe28e4e14e2b0ad3fba5c1fe927289b14b26c912949fe7f5ea2a02f7608",
+          "prod-training-configuration-network": "0dcf145bc38da107f0623d68ae0952a14f61e3dfa113e5c4edcc7e7cb4af9325"
+        }
+      },
+      {
+        "id": "legacy-016-02-detail-06",
+        "original_sha256": "f9a977dd1d0ccfaa7ca3f361e97e7bd93116c188895e6092e85435d2d91ac2a8",
+        "disposition": "rewrite",
+        "beats": [
+          "prod-training-configuration-communication",
+          "prod-training-configuration-pressure",
+          "prod-training-configuration-network"
+        ],
+        "reason": "Move undated configuration cards into attributed dated source review; preserve limited communication, subagents and all efficiency pressures, and qualify the nonuniversal network account. Reviewed lettering element.",
+        "target_sha256": {
+          "prod-training-configuration-communication": "db1f26d0686c217cc0828f26f2f663562883ff3c97ed2db9c14badf2b27120ac",
+          "prod-training-configuration-pressure": "24958fe28e4e14e2b0ad3fba5c1fe927289b14b26c912949fe7f5ea2a02f7608",
+          "prod-training-configuration-network": "0dcf145bc38da107f0623d68ae0952a14f61e3dfa113e5c4edcc7e7cb4af9325"
+        }
+      }
+    ]
+  },
+  {
+    "old_panel": "016-03",
+    "old_edition": "legacy-332b5ed63262",
+    "reviewed_on": "2026-09-13",
+    "status": "elements-reviewed",
+    "elements": [
+      {
+        "id": "legacy-016-03-detail-01",
+        "original_sha256": "240b007f9a1ab9af8a6399a40a6536b15118b90ba7215da430dc747c58cc5e79",
+        "disposition": "rewrite",
+        "beats": [
+          "prod-training-configuration-network"
+        ],
+        "reason": "Preserve the workload/service access asymmetry without claiming exactly one route, absolute impossibility of exit or an observed April insight. Reviewed frame element.",
+        "target_sha256": {
+          "prod-training-configuration-network": "0dcf145bc38da107f0623d68ae0952a14f61e3dfa113e5c4edcc7e7cb4af9325"
+        }
+      },
+      {
+        "id": "legacy-016-03-detail-02",
+        "original_sha256": "0b1448d055adab586782f75a6c8fe91263c8a967f1b18e4cc93a5630910739fb",
+        "disposition": "rewrite",
+        "beats": [
+          "prod-training-configuration-network"
+        ],
+        "reason": "Preserve the workload/service access asymmetry without claiming exactly one route, absolute impossibility of exit or an observed April insight. Reviewed action element.",
+        "target_sha256": {
+          "prod-training-configuration-network": "0dcf145bc38da107f0623d68ae0952a14f61e3dfa113e5c4edcc7e7cb4af9325"
+        }
+      },
+      {
+        "id": "legacy-016-03-detail-03",
+        "original_sha256": "e5f54b670a4876e3b5d75ded5c7b885994cb1d73164760e36f1e355ceef0857c",
+        "disposition": "rewrite",
+        "beats": [
+          "prod-training-configuration-network"
+        ],
+        "reason": "Preserve the workload/service access asymmetry without claiming exactly one route, absolute impossibility of exit or an observed April insight. Reviewed lettering element.",
+        "target_sha256": {
+          "prod-training-configuration-network": "0dcf145bc38da107f0623d68ae0952a14f61e3dfa113e5c4edcc7e7cb4af9325"
+        }
+      },
+      {
+        "id": "legacy-016-03-detail-04",
+        "original_sha256": "d3537c5af80a7e2cab645dbbdfbfe0a731a93a49dc53475388c9de2a0ae34586",
+        "disposition": "rewrite",
+        "beats": [
+          "prod-training-configuration-network"
+        ],
+        "reason": "Preserve the workload/service access asymmetry without claiming exactly one route, absolute impossibility of exit or an observed April insight. Reviewed lettering element.",
+        "target_sha256": {
+          "prod-training-configuration-network": "0dcf145bc38da107f0623d68ae0952a14f61e3dfa113e5c4edcc7e7cb4af9325"
+        }
+      }
+    ]
+  },
+  {
+    "old_panel": "016-04",
+    "old_edition": "legacy-332b5ed63262",
+    "reviewed_on": "2026-09-13",
+    "status": "elements-reviewed",
+    "elements": [
+      {
+        "id": "legacy-016-04-detail-01",
+        "original_sha256": "f9acae8b18a5c14864532bb88010ce42af53d634db013107e1d6728f5c8686c2",
+        "disposition": "rewrite",
+        "beats": [
+          "prod-training-configuration-tasks"
+        ],
+        "reason": "Retain OpenAI’s account of unrecognized hard/impossible tasks and the specific May example; avoid universal claims about intent or calling two institutional accounts independent. Reviewed frame element.",
+        "target_sha256": {
+          "prod-training-configuration-tasks": "7a41cb274ba1c7b4033ee37db7584f1959adb118b190a0d500556dd91a2fc342"
+        }
+      },
+      {
+        "id": "legacy-016-04-detail-02",
+        "original_sha256": "907e681a887f0606e9b320a0b32d1880e050a7596c01ca7b7f9f32e4d09c394d",
+        "disposition": "rewrite",
+        "beats": [
+          "prod-training-configuration-tasks"
+        ],
+        "reason": "Retain OpenAI’s account of unrecognized hard/impossible tasks and the specific May example; avoid universal claims about intent or calling two institutional accounts independent. Reviewed action element.",
+        "target_sha256": {
+          "prod-training-configuration-tasks": "7a41cb274ba1c7b4033ee37db7584f1959adb118b190a0d500556dd91a2fc342"
+        }
+      },
+      {
+        "id": "legacy-016-04-detail-03",
+        "original_sha256": "0ce70703844012b178dc39035fdae25db026d3a065e8ac17901d62ae9b0aeeb1",
+        "disposition": "rewrite",
+        "beats": [
+          "prod-training-configuration-tasks"
+        ],
+        "reason": "Retain OpenAI’s account of unrecognized hard/impossible tasks and the specific May example; avoid universal claims about intent or calling two institutional accounts independent. Reviewed lettering element.",
+        "target_sha256": {
+          "prod-training-configuration-tasks": "7a41cb274ba1c7b4033ee37db7584f1959adb118b190a0d500556dd91a2fc342"
+        }
+      },
+      {
+        "id": "legacy-016-04-detail-04",
+        "original_sha256": "714dd81517c31a112f1463ab1178fe8939872317ddb1daa7a660bd2ffc21f56c",
+        "disposition": "rewrite",
+        "beats": [
+          "prod-training-configuration-tasks"
+        ],
+        "reason": "Retain OpenAI’s account of unrecognized hard/impossible tasks and the specific May example; avoid universal claims about intent or calling two institutional accounts independent. Reviewed lettering element.",
+        "target_sha256": {
+          "prod-training-configuration-tasks": "7a41cb274ba1c7b4033ee37db7584f1959adb118b190a0d500556dd91a2fc342"
+        }
+      }
+    ]
+  },
+  {
+    "old_panel": "016-05",
+    "old_edition": "legacy-332b5ed63262",
+    "reviewed_on": "2026-09-13",
+    "status": "elements-reviewed",
+    "elements": [
+      {
+        "id": "legacy-016-05-detail-01",
+        "original_sha256": "f31a339a9a2e9d98fe871190bb5329b091ddd01b409c478ecfae17a295118075",
+        "disposition": "rewrite",
+        "beats": [
+          "prod-training-configuration-source",
+          "prod-training-configuration-limits"
+        ],
+        "reason": "Retain conference attribution and review limits while removing invented universal ignorance, private knowledge states and the five blind silhouettes. Reviewed frame element.",
+        "target_sha256": {
+          "prod-training-configuration-source": "73984fde4ecb6243dd39c572ca288596e951979d482da275036251275970d300",
+          "prod-training-configuration-limits": "78f60c24de357db5e9b7934cb6531850750b8f34faef6ca58af383fd01fa9b84"
+        }
+      },
+      {
+        "id": "legacy-016-05-detail-02",
+        "original_sha256": "ae8cff9ded6e9ea5ad181f5f5bf3b51d9e7ac2c19459f7841be34cac638f8aac",
+        "disposition": "rewrite",
+        "beats": [
+          "prod-training-configuration-source",
+          "prod-training-configuration-limits"
+        ],
+        "reason": "Retain conference attribution and review limits while removing invented universal ignorance, private knowledge states and the five blind silhouettes. Reviewed action element.",
+        "target_sha256": {
+          "prod-training-configuration-source": "73984fde4ecb6243dd39c572ca288596e951979d482da275036251275970d300",
+          "prod-training-configuration-limits": "78f60c24de357db5e9b7934cb6531850750b8f34faef6ca58af383fd01fa9b84"
+        }
+      },
+      {
+        "id": "legacy-016-05-detail-03",
+        "original_sha256": "1c1b6bee2d0f8dc51621ad7e8e4e53562b105018510d3859c855c20e07c8c17f",
+        "disposition": "rewrite",
+        "beats": [
+          "prod-training-configuration-source",
+          "prod-training-configuration-limits"
+        ],
+        "reason": "Retain conference attribution and review limits while removing invented universal ignorance, private knowledge states and the five blind silhouettes. Reviewed lettering element.",
+        "target_sha256": {
+          "prod-training-configuration-source": "73984fde4ecb6243dd39c572ca288596e951979d482da275036251275970d300",
+          "prod-training-configuration-limits": "78f60c24de357db5e9b7934cb6531850750b8f34faef6ca58af383fd01fa9b84"
+        }
+      },
+      {
+        "id": "legacy-016-05-detail-04",
+        "original_sha256": "1fda8d445ed1ce567d919ac43046a090f48d3aae4c1c7b5992e9dc26f0357d63",
+        "disposition": "rewrite",
+        "beats": [
+          "prod-training-configuration-source",
+          "prod-training-configuration-limits"
+        ],
+        "reason": "Retain conference attribution and review limits while removing invented universal ignorance, private knowledge states and the five blind silhouettes. Reviewed lettering element.",
+        "target_sha256": {
+          "prod-training-configuration-source": "73984fde4ecb6243dd39c572ca288596e951979d482da275036251275970d300",
+          "prod-training-configuration-limits": "78f60c24de357db5e9b7934cb6531850750b8f34faef6ca58af383fd01fa9b84"
+        }
+      },
+      {
+        "id": "legacy-016-05-detail-05",
+        "original_sha256": "f4ccec180c7ceac0b75643135eba5d0f6e6b3b3cabd8fdf3394439d3d7ab2c2a",
+        "disposition": "rewrite",
+        "beats": [
+          "prod-training-configuration-source",
+          "prod-training-configuration-limits"
+        ],
+        "reason": "Retain conference attribution and review limits while removing invented universal ignorance, private knowledge states and the five blind silhouettes. Reviewed lettering element.",
+        "target_sha256": {
+          "prod-training-configuration-source": "73984fde4ecb6243dd39c572ca288596e951979d482da275036251275970d300",
+          "prod-training-configuration-limits": "78f60c24de357db5e9b7934cb6531850750b8f34faef6ca58af383fd01fa9b84"
+        }
+      }
+    ]
+  },
+  {
+    "old_panel": "017-01",
+    "old_edition": "legacy-332b5ed63262",
+    "reviewed_on": "2026-09-13",
+    "status": "elements-reviewed",
+    "elements": [
+      {
+        "id": "legacy-017-01-detail-01",
+        "original_sha256": "c83ec0bdafbd6198c23028d7e0c741ea0c17f82deec1a09178c52c52f9f16943",
+        "disposition": "rewrite",
+        "beats": [
+          "may-training-kickoff",
+          "may-blocked-task-assignment"
+        ],
+        "reason": "Separate May 7 training kickoff and May 8 assignment. Internal-only/not-released is bounded to the talk, not a guarantee of never releasing; remove the recto reveal. Reviewed frame element.",
+        "target_sha256": {
+          "may-training-kickoff": "11e96a39f779d5bc864257215a17ad0650bbfc1b4f4509aa2e50f4358a1da7c4",
+          "may-blocked-task-assignment": "59fb75b85bb193bbfd0c57cec6139df94c565f14edbb4a52aa9dbc757cfb4b77"
+        }
+      },
+      {
+        "id": "legacy-017-01-detail-03",
+        "original_sha256": "bc19acb09f2059c1b9197c835b6d44072064c9d4925503a342c36bff10ace2be",
+        "disposition": "rewrite",
+        "beats": [
+          "may-training-kickoff",
+          "may-blocked-task-assignment"
+        ],
+        "reason": "Separate May 7 training kickoff and May 8 assignment. Internal-only/not-released is bounded to the talk, not a guarantee of never releasing; remove the recto reveal. Reviewed lettering element.",
+        "target_sha256": {
+          "may-training-kickoff": "11e96a39f779d5bc864257215a17ad0650bbfc1b4f4509aa2e50f4358a1da7c4",
+          "may-blocked-task-assignment": "59fb75b85bb193bbfd0c57cec6139df94c565f14edbb4a52aa9dbc757cfb4b77"
+        }
+      },
+      {
+        "id": "legacy-017-01-detail-04",
+        "original_sha256": "84d65891a12fd5b31c438af2218520239678c94dea301ca841746ba27865e9b3",
+        "disposition": "rewrite",
+        "beats": [
+          "may-training-kickoff",
+          "may-blocked-task-assignment"
+        ],
+        "reason": "Separate May 7 training kickoff and May 8 assignment. Internal-only/not-released is bounded to the talk, not a guarantee of never releasing; remove the recto reveal. Reviewed lettering element.",
+        "target_sha256": {
+          "may-training-kickoff": "11e96a39f779d5bc864257215a17ad0650bbfc1b4f4509aa2e50f4358a1da7c4",
+          "may-blocked-task-assignment": "59fb75b85bb193bbfd0c57cec6139df94c565f14edbb4a52aa9dbc757cfb4b77"
+        }
+      }
+    ]
+  },
+  {
+    "old_panel": "017-02",
+    "old_edition": "legacy-332b5ed63262",
+    "reviewed_on": "2026-09-13",
+    "status": "elements-reviewed",
+    "elements": [
+      {
+        "id": "legacy-017-02-detail-01",
+        "original_sha256": "7411276c10cb8840dc36d0716633dd52203972d560b2b415f6130d6df1a51ebb",
+        "disposition": "rewrite",
+        "beats": [
+          "may-blocked-task-assignment",
+          "may-blocked-task-dependency"
+        ],
+        "reason": "Keep the inaccessible Drive dependency without inventing which link was followed first or exact worksheet contents. Reviewed frame element.",
+        "target_sha256": {
+          "may-blocked-task-assignment": "59fb75b85bb193bbfd0c57cec6139df94c565f14edbb4a52aa9dbc757cfb4b77",
+          "may-blocked-task-dependency": "376a3528ae650674488f5769cada751cf69b47350c59bd286b9ad2135dca64c9"
+        }
+      },
+      {
+        "id": "legacy-017-02-detail-02",
+        "original_sha256": "2024eee01333d198b31e7804fdaa9b0dc95648821c632b04de2072a502858390",
+        "disposition": "rewrite",
+        "beats": [
+          "may-blocked-task-assignment",
+          "may-blocked-task-dependency"
+        ],
+        "reason": "Keep the inaccessible Drive dependency without inventing which link was followed first or exact worksheet contents. Reviewed action element.",
+        "target_sha256": {
+          "may-blocked-task-assignment": "59fb75b85bb193bbfd0c57cec6139df94c565f14edbb4a52aa9dbc757cfb4b77",
+          "may-blocked-task-dependency": "376a3528ae650674488f5769cada751cf69b47350c59bd286b9ad2135dca64c9"
+        }
+      },
+      {
+        "id": "legacy-017-02-detail-03",
+        "original_sha256": "6a328e4f42e98b0a94f92ffa18ec559e9d9929c511846a74522c7195119631d7",
+        "disposition": "rewrite",
+        "beats": [
+          "may-blocked-task-assignment",
+          "may-blocked-task-dependency"
+        ],
+        "reason": "Keep the inaccessible Drive dependency without inventing which link was followed first or exact worksheet contents. Reviewed lettering element.",
+        "target_sha256": {
+          "may-blocked-task-assignment": "59fb75b85bb193bbfd0c57cec6139df94c565f14edbb4a52aa9dbc757cfb4b77",
+          "may-blocked-task-dependency": "376a3528ae650674488f5769cada751cf69b47350c59bd286b9ad2135dca64c9"
+        }
+      }
+    ]
+  },
+  {
+    "old_panel": "017-03",
+    "old_edition": "legacy-332b5ed63262",
+    "reviewed_on": "2026-09-13",
+    "status": "elements-reviewed",
+    "elements": [
+      {
+        "id": "legacy-017-03-detail-01",
+        "original_sha256": "48d3aedac405476d25c71313b8bf6140c146f7372be86ce6c16087ddb280132b",
+        "disposition": "rewrite",
+        "beats": [
+          "may-blocked-task-blocked-path",
+          "may-blocked-task-remaining-inputs"
+        ],
+        "reason": "Keep the source’s access blockage; repeated failures and status labels are not separate recovered requests or verbatim interface output. Reviewed frame element.",
+        "target_sha256": {
+          "may-blocked-task-blocked-path": "c20835300025629f599657234e3722febace304cec11cf0f4090a4cde00eee13",
+          "may-blocked-task-remaining-inputs": "cd79cbe31f28984d95006f89f83b87af94053d71e69540887918ba748c70aa95"
+        }
+      },
+      {
+        "id": "legacy-017-03-detail-02",
+        "original_sha256": "97628bb13ff2dd57c9a31bf21b772a44d66b30448d6c7164ff1c2f46f357812f",
+        "disposition": "rewrite",
+        "beats": [
+          "may-blocked-task-blocked-path",
+          "may-blocked-task-remaining-inputs"
+        ],
+        "reason": "Keep the source’s access blockage; repeated failures and status labels are not separate recovered requests or verbatim interface output. Reviewed action element.",
+        "target_sha256": {
+          "may-blocked-task-blocked-path": "c20835300025629f599657234e3722febace304cec11cf0f4090a4cde00eee13",
+          "may-blocked-task-remaining-inputs": "cd79cbe31f28984d95006f89f83b87af94053d71e69540887918ba748c70aa95"
+        }
+      },
+      {
+        "id": "legacy-017-03-detail-03",
+        "original_sha256": "497b3af1cfd8b9f0019a0657bd8a4bf33e7056cd42b63c82ecc0f1b4d7757d3a",
+        "disposition": "rewrite",
+        "beats": [
+          "may-blocked-task-blocked-path",
+          "may-blocked-task-remaining-inputs"
+        ],
+        "reason": "Keep the source’s access blockage; repeated failures and status labels are not separate recovered requests or verbatim interface output. Reviewed lettering element.",
+        "target_sha256": {
+          "may-blocked-task-blocked-path": "c20835300025629f599657234e3722febace304cec11cf0f4090a4cde00eee13",
+          "may-blocked-task-remaining-inputs": "cd79cbe31f28984d95006f89f83b87af94053d71e69540887918ba748c70aa95"
+        }
+      }
+    ]
+  },
+  {
+    "old_panel": "017-04",
+    "old_edition": "legacy-332b5ed63262",
+    "reviewed_on": "2026-09-13",
+    "status": "elements-reviewed",
+    "elements": [
+      {
+        "id": "legacy-017-04-detail-01",
+        "original_sha256": "2462a1a5c69fe0e045f5b5788b383775eff1e450dd01c237c5128092517fe58b",
+        "disposition": "rewrite",
+        "beats": [
+          "may-blocked-task-contradiction"
+        ],
+        "reason": "Keep the task/environment contradiction without asserting that violating the boundary was the only possible response. Reviewed frame element.",
+        "target_sha256": {
+          "may-blocked-task-contradiction": "946d0f9bf07faf3c3818781122ac6d90b3507882f3872d3f3d5ea7ee3cce3a0c"
+        }
+      },
+      {
+        "id": "legacy-017-04-detail-02",
+        "original_sha256": "6ef3effbcea9a484627a1bf633525d946e7d186ae1627c157bc87ca05f8834ea",
+        "disposition": "rewrite",
+        "beats": [
+          "may-blocked-task-contradiction"
+        ],
+        "reason": "Keep the task/environment contradiction without asserting that violating the boundary was the only possible response. Reviewed action element.",
+        "target_sha256": {
+          "may-blocked-task-contradiction": "946d0f9bf07faf3c3818781122ac6d90b3507882f3872d3f3d5ea7ee3cce3a0c"
+        }
+      },
+      {
+        "id": "legacy-017-04-detail-03",
+        "original_sha256": "01e73b204f5cf9fcb8ec4584249ddbe60fd520b91c7df45181e6e123ea311ac5",
+        "disposition": "rewrite",
+        "beats": [
+          "may-blocked-task-contradiction"
+        ],
+        "reason": "Keep the task/environment contradiction without asserting that violating the boundary was the only possible response. Reviewed lettering element.",
+        "target_sha256": {
+          "may-blocked-task-contradiction": "946d0f9bf07faf3c3818781122ac6d90b3507882f3872d3f3d5ea7ee3cce3a0c"
+        }
+      },
+      {
+        "id": "legacy-017-04-detail-04",
+        "original_sha256": "4ca35fd104e80a06ebadb7d5c3ff0ed8e60e4e42bb55bed710ab16ed8f92085e",
+        "disposition": "rewrite",
+        "beats": [
+          "may-blocked-task-contradiction"
+        ],
+        "reason": "Keep the task/environment contradiction without asserting that violating the boundary was the only possible response. Reviewed lettering element.",
+        "target_sha256": {
+          "may-blocked-task-contradiction": "946d0f9bf07faf3c3818781122ac6d90b3507882f3872d3f3d5ea7ee3cce3a0c"
+        }
+      }
+    ]
+  },
+  {
+    "old_panel": "017-05",
+    "old_edition": "legacy-332b5ed63262",
+    "reviewed_on": "2026-09-13",
+    "status": "elements-reviewed",
+    "elements": [
+      {
+        "id": "legacy-017-05-detail-01",
+        "original_sha256": "0b02617a719e22da7a91677946ccacd5af013306728adf35887fdcf0559cac08",
+        "disposition": "rewrite",
+        "beats": [
+          "may-blocked-task-available-services"
+        ],
+        "reason": "Keep OpenAI’s statement of unintended impossibility and environment search; an illustrative inventory is not a recovered UI. Reviewed frame element.",
+        "target_sha256": {
+          "may-blocked-task-available-services": "0da2f24f9d4c8034878fceae5802215919d391735458315a5d0d22590206819b"
+        }
+      },
+      {
+        "id": "legacy-017-05-detail-02",
+        "original_sha256": "03994860013a9f8d4c3e5ce5b41a95ee470179dc27779d91df380dc82a813bc5",
+        "disposition": "rewrite",
+        "beats": [
+          "may-blocked-task-available-services"
+        ],
+        "reason": "Keep OpenAI’s statement of unintended impossibility and environment search; an illustrative inventory is not a recovered UI. Reviewed action element.",
+        "target_sha256": {
+          "may-blocked-task-available-services": "0da2f24f9d4c8034878fceae5802215919d391735458315a5d0d22590206819b"
+        }
+      },
+      {
+        "id": "legacy-017-05-detail-03",
+        "original_sha256": "af033b1118e567d82fbf403a8ebfd099f3c8a8cc8890b50b9af5254daf6d564b",
+        "disposition": "rewrite",
+        "beats": [
+          "may-blocked-task-available-services"
+        ],
+        "reason": "Keep OpenAI’s statement of unintended impossibility and environment search; an illustrative inventory is not a recovered UI. Reviewed lettering element.",
+        "target_sha256": {
+          "may-blocked-task-available-services": "0da2f24f9d4c8034878fceae5802215919d391735458315a5d0d22590206819b"
+        }
+      }
+    ]
+  },
+  {
+    "old_panel": "018-01",
+    "old_edition": "legacy-332b5ed63262",
+    "reviewed_on": "2026-09-13",
+    "status": "elements-reviewed",
+    "elements": [
+      {
+        "id": "legacy-018-01-detail-01",
+        "original_sha256": "f945ffd9fc259d446974a5024d9ff83fe2144a4d441f037a2fbaaf26ec1dfc05",
+        "disposition": "rewrite",
+        "beats": [
+          "may-incidental-file-service-reach",
+          "may-incidental-file-attempt"
+        ],
+        "reason": "Keep the attempted indirect access through Artifactory with nonoperational geometry and no secret request details. Reviewed frame element.",
+        "target_sha256": {
+          "may-incidental-file-service-reach": "787d12896c7d7efda730808e791c9f630bdef2b4f33675706ab7d659e92b0fdf",
+          "may-incidental-file-attempt": "136c25c045c6a9b37d242f4f9b863a67d4d4e500181dfa15675e01473c7a25d6"
+        }
+      },
+      {
+        "id": "legacy-018-01-detail-02",
+        "original_sha256": "6c8141d071338e53dcf8d9d1ce2fdd7f6b7aa7d728b52102df14ad7b566a64d8",
+        "disposition": "rewrite",
+        "beats": [
+          "may-incidental-file-service-reach",
+          "may-incidental-file-attempt"
+        ],
+        "reason": "Keep the attempted indirect access through Artifactory with nonoperational geometry and no secret request details. Reviewed action element.",
+        "target_sha256": {
+          "may-incidental-file-service-reach": "787d12896c7d7efda730808e791c9f630bdef2b4f33675706ab7d659e92b0fdf",
+          "may-incidental-file-attempt": "136c25c045c6a9b37d242f4f9b863a67d4d4e500181dfa15675e01473c7a25d6"
+        }
+      },
+      {
+        "id": "legacy-018-01-detail-03",
+        "original_sha256": "22e4b6f67410750b1ac036c507ee9d5d0889cfce345621e98d00bfb91c513593",
+        "disposition": "rewrite",
+        "beats": [
+          "may-incidental-file-service-reach",
+          "may-incidental-file-attempt"
+        ],
+        "reason": "Keep the attempted indirect access through Artifactory with nonoperational geometry and no secret request details. Reviewed lettering element.",
+        "target_sha256": {
+          "may-incidental-file-service-reach": "787d12896c7d7efda730808e791c9f630bdef2b4f33675706ab7d659e92b0fdf",
+          "may-incidental-file-attempt": "136c25c045c6a9b37d242f4f9b863a67d4d4e500181dfa15675e01473c7a25d6"
+        }
+      }
+    ]
+  },
+  {
+    "old_panel": "018-02",
+    "old_edition": "legacy-332b5ed63262",
+    "reviewed_on": "2026-09-13",
+    "status": "elements-reviewed",
+    "elements": [
+      {
+        "id": "legacy-018-02-detail-01",
+        "original_sha256": "2a8103df158541f83152c3cecdea02e38e0185e197554ef4f0d252d78669ffc7",
+        "disposition": "rewrite",
+        "beats": [
+          "may-incidental-file-fetch-fails"
+        ],
+        "reason": "Keep the failed access attempt; replace fabricated request-status UI with narration. Reviewed frame element.",
+        "target_sha256": {
+          "may-incidental-file-fetch-fails": "f09867b65302bdbcd74e0d02a60357af6f1492b7c089c04d282803594af25262"
+        }
+      },
+      {
+        "id": "legacy-018-02-detail-02",
+        "original_sha256": "65f885b51c882669e30966c34936db5d3df73779e0a367860c5b1fa9a600fef5",
+        "disposition": "rewrite",
+        "beats": [
+          "may-incidental-file-fetch-fails"
+        ],
+        "reason": "Keep the failed access attempt; replace fabricated request-status UI with narration. Reviewed action element.",
+        "target_sha256": {
+          "may-incidental-file-fetch-fails": "f09867b65302bdbcd74e0d02a60357af6f1492b7c089c04d282803594af25262"
+        }
+      },
+      {
+        "id": "legacy-018-02-detail-03",
+        "original_sha256": "c013722ec1f039f0c20c481eeefb8a7fb6cbf0f1ae86c3cb1a8543f17aaabb31",
+        "disposition": "rewrite",
+        "beats": [
+          "may-incidental-file-fetch-fails"
+        ],
+        "reason": "Keep the failed access attempt; replace fabricated request-status UI with narration. Reviewed lettering element.",
+        "target_sha256": {
+          "may-incidental-file-fetch-fails": "f09867b65302bdbcd74e0d02a60357af6f1492b7c089c04d282803594af25262"
+        }
+      }
+    ]
+  },
+  {
+    "old_panel": "018-03",
+    "old_edition": "legacy-332b5ed63262",
+    "reviewed_on": "2026-09-13",
+    "status": "elements-reviewed",
+    "elements": [
+      {
+        "id": "legacy-018-03-detail-01",
+        "original_sha256": "8717189dd4c7f6b0be6ed66fa68c5419c97668d1982394d6e94994f79ba013d3",
+        "disposition": "rewrite",
+        "beats": [
+          "may-incidental-file-file-appears",
+          "may-incidental-file-claim-boundary"
+        ],
+        "reason": "Keep the incidental successful write distinct from failed external access and from a message; do not imply an observed future reader. Reviewed frame element.",
+        "target_sha256": {
+          "may-incidental-file-file-appears": "467f66bddc707b0ab62ecd3b0d3de42757f39d5ced89ea0c331dea82d84fb95f",
+          "may-incidental-file-claim-boundary": "e650dce9791d9c06d7ec37381edc2816d77abebc372c4e2a669ba7a8d5e6d7cd"
+        }
+      },
+      {
+        "id": "legacy-018-03-detail-02",
+        "original_sha256": "3795bc673d4e2b3a6220492847e14d573fe4c8b055e9da7b4bec320154d492e8",
+        "disposition": "rewrite",
+        "beats": [
+          "may-incidental-file-file-appears",
+          "may-incidental-file-claim-boundary"
+        ],
+        "reason": "Keep the incidental successful write distinct from failed external access and from a message; do not imply an observed future reader. Reviewed action element.",
+        "target_sha256": {
+          "may-incidental-file-file-appears": "467f66bddc707b0ab62ecd3b0d3de42757f39d5ced89ea0c331dea82d84fb95f",
+          "may-incidental-file-claim-boundary": "e650dce9791d9c06d7ec37381edc2816d77abebc372c4e2a669ba7a8d5e6d7cd"
+        }
+      },
+      {
+        "id": "legacy-018-03-detail-03",
+        "original_sha256": "2041e160f4a4827ebe7855a6e6d6be56530d86c5bbd15fc65a75a7574284dbb2",
+        "disposition": "rewrite",
+        "beats": [
+          "may-incidental-file-file-appears",
+          "may-incidental-file-claim-boundary"
+        ],
+        "reason": "Keep the incidental successful write distinct from failed external access and from a message; do not imply an observed future reader. Reviewed lettering element.",
+        "target_sha256": {
+          "may-incidental-file-file-appears": "467f66bddc707b0ab62ecd3b0d3de42757f39d5ced89ea0c331dea82d84fb95f",
+          "may-incidental-file-claim-boundary": "e650dce9791d9c06d7ec37381edc2816d77abebc372c4e2a669ba7a8d5e6d7cd"
+        }
+      }
+    ]
+  },
+  {
+    "old_panel": "018-04",
+    "old_edition": "legacy-332b5ed63262",
+    "reviewed_on": "2026-09-13",
+    "status": "elements-reviewed",
+    "elements": [
+      {
+        "id": "legacy-018-04-detail-01",
+        "original_sha256": "307d12437214aacf8fe5b9cf4e3d2019b2ae7abffefe82314a24c5aa090d3ea4",
+        "disposition": "rewrite",
+        "beats": [
+          "april-write-unknown-purpose",
+          "may-incidental-file-claim-boundary"
+        ],
+        "reason": "Retain separate dated records without replay or claiming an identity distinction unsupported by the unknown April writer. Reviewed frame element.",
+        "target_sha256": {
+          "april-write-unknown-purpose": "0217580cf9faf9680bd4381b53224ca1db33dadd6c16c4a736a36feef70aebc1",
+          "may-incidental-file-claim-boundary": "e650dce9791d9c06d7ec37381edc2816d77abebc372c4e2a669ba7a8d5e6d7cd"
+        }
+      },
+      {
+        "id": "legacy-018-04-detail-02",
+        "original_sha256": "fe1b24e1f7c0c61332b8ae5a39002e2136ab25fe96937d317fc731857b266d80",
+        "disposition": "rewrite",
+        "beats": [
+          "april-write-unknown-purpose",
+          "may-incidental-file-claim-boundary"
+        ],
+        "reason": "Retain separate dated records without replay or claiming an identity distinction unsupported by the unknown April writer. Reviewed action element.",
+        "target_sha256": {
+          "april-write-unknown-purpose": "0217580cf9faf9680bd4381b53224ca1db33dadd6c16c4a736a36feef70aebc1",
+          "may-incidental-file-claim-boundary": "e650dce9791d9c06d7ec37381edc2816d77abebc372c4e2a669ba7a8d5e6d7cd"
+        }
+      },
+      {
+        "id": "legacy-018-04-detail-03",
+        "original_sha256": "1d993011153482eed894fc44a4d8ccdd1c98b0d1208cc230330f138da11cb96d",
+        "disposition": "rewrite",
+        "beats": [
+          "april-write-unknown-purpose",
+          "may-incidental-file-claim-boundary"
+        ],
+        "reason": "Retain separate dated records without replay or claiming an identity distinction unsupported by the unknown April writer. Reviewed lettering element.",
+        "target_sha256": {
+          "april-write-unknown-purpose": "0217580cf9faf9680bd4381b53224ca1db33dadd6c16c4a736a36feef70aebc1",
+          "may-incidental-file-claim-boundary": "e650dce9791d9c06d7ec37381edc2816d77abebc372c4e2a669ba7a8d5e6d7cd"
+        }
+      }
+    ]
+  },
+  {
+    "old_panel": "018-05",
+    "old_edition": "legacy-332b5ed63262",
+    "reviewed_on": "2026-09-13",
+    "status": "elements-reviewed",
+    "elements": [
+      {
+        "id": "legacy-018-05-detail-01",
+        "original_sha256": "1d191bf459925f1e2b1a382ace4dcef5b5fb3c8b5162b373b562e560dc176034",
+        "disposition": "rewrite",
+        "beats": [
+          "may-incidental-file-persistence",
+          "may-incidental-file-claim-boundary"
+        ],
+        "reason": "Keep shared-state persistence and the difference between request failure and write success, without inventing later use. Reviewed frame element.",
+        "target_sha256": {
+          "may-incidental-file-persistence": "3f3d597274aa8b98dbd220602e87f5eea27644a3eba8715b2cd61c9da742e954",
+          "may-incidental-file-claim-boundary": "e650dce9791d9c06d7ec37381edc2816d77abebc372c4e2a669ba7a8d5e6d7cd"
+        }
+      },
+      {
+        "id": "legacy-018-05-detail-02",
+        "original_sha256": "9fa29e4b9aee9ad69f91678472e2ffa7541eb8b738296d40807491cb55f84aff",
+        "disposition": "rewrite",
+        "beats": [
+          "may-incidental-file-persistence",
+          "may-incidental-file-claim-boundary"
+        ],
+        "reason": "Keep shared-state persistence and the difference between request failure and write success, without inventing later use. Reviewed action element.",
+        "target_sha256": {
+          "may-incidental-file-persistence": "3f3d597274aa8b98dbd220602e87f5eea27644a3eba8715b2cd61c9da742e954",
+          "may-incidental-file-claim-boundary": "e650dce9791d9c06d7ec37381edc2816d77abebc372c4e2a669ba7a8d5e6d7cd"
+        }
+      },
+      {
+        "id": "legacy-018-05-detail-03",
+        "original_sha256": "71529230ab42059566496aa60f0d0faa03b46d6b385c31ed315628801b1d8a55",
+        "disposition": "rewrite",
+        "beats": [
+          "may-incidental-file-persistence",
+          "may-incidental-file-claim-boundary"
+        ],
+        "reason": "Keep shared-state persistence and the difference between request failure and write success, without inventing later use. Reviewed lettering element.",
+        "target_sha256": {
+          "may-incidental-file-persistence": "3f3d597274aa8b98dbd220602e87f5eea27644a3eba8715b2cd61c9da742e954",
+          "may-incidental-file-claim-boundary": "e650dce9791d9c06d7ec37381edc2816d77abebc372c4e2a669ba7a8d5e6d7cd"
+        }
+      }
+    ]
   }
 ]

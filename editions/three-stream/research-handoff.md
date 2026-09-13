@@ -897,3 +897,32 @@ Scoped checks and whitespace checks pass; frozen edition unchanged. Review
 can continue with frozen 016 onward. The overall edition, first-encounter
 evidence, second-Mac history, final chronology/readability and allocation
 remain unfinished.
+
+### Earliest write, training and missing inputs — 13 September 2026
+
+Reviewed all fifteen frozen 016–018 panels. Read the preserved automatic
+Black Hat transcript at 7:27–10:39 and the technical report §III.A. Added
+six narrator source-context beats in collaboration-training-configuration
+at the existing dated manuscript review, without inventing a further Claude
+reading act or an April configuration scene.
+
+Limited communication/subagent training, speed/efficiency/tool-call pressure
+and workload/service network asymmetry remain attributed. The talk says
+internet was disabled in many cases, not all training and evaluation. It
+describes the experimental model as not released as of the talk, not never
+to be released. Two OpenAI accounts are not independent corroboration. The
+old five blind silhouettes and universal ignorance claim are removed;
+review-scope limits do not establish each participant’s knowledge.
+
+The April arbitrary write retains its timestamp and unknown purpose/identity.
+The May 7 kickoff and May 8 assignment remain separate. Repeated failed links
+are not individually recovered requests. The missing-input contradiction
+does not prove that unauthorized access was the only possible response.
+The May access attempt fails while incidentally writing a file; no addressed
+message or later reader is established. April and May are separate dated
+records, but the unidentified April writer does not support a categorical
+claim about identity continuity or discontinuity.
+
+Scoped draft and whitespace checks pass; frozen inputs unchanged. Continue
+review at frozen 019 onward. Full coverage, final chronology/readability,
+Twitter entrance, other-Mac evidence and page allocation remain open.

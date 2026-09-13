@@ -1,9 +1,9 @@
 {
   "status": "incomplete; associations are not full-detail dispositions",
-  "scenes": 266,
-  "drafted_beats": 870,
+  "scenes": 267,
+  "drafted_beats": 876,
   "canonical_pages": null,
-  "associated_old_panels": 466,
+  "associated_old_panels": 469,
   "old_panels": [
     {
       "old_edition": "legacy-332b5ed63262",
@@ -842,37 +842,47 @@
         "april-write-ordinary-cache",
         "april-write-unknown-purpose"
       ],
-      "detail_review": "pending",
+      "detail_review": "elements-reviewed",
       "exact_strings": []
     },
     {
       "old_edition": "legacy-332b5ed63262",
       "old_panel": "016-02",
-      "draft_beats": [],
-      "detail_review": "pending",
+      "draft_beats": [
+        "prod-training-configuration-communication",
+        "prod-training-configuration-pressure",
+        "prod-training-configuration-network"
+      ],
+      "detail_review": "elements-reviewed",
       "exact_strings": []
     },
     {
       "old_edition": "legacy-332b5ed63262",
       "old_panel": "016-03",
-      "draft_beats": [],
-      "detail_review": "pending",
+      "draft_beats": [
+        "prod-training-configuration-network"
+      ],
+      "detail_review": "elements-reviewed",
       "exact_strings": []
     },
     {
       "old_edition": "legacy-332b5ed63262",
       "old_panel": "016-04",
       "draft_beats": [
-        "may-training-unintended-tasks"
+        "may-training-unintended-tasks",
+        "prod-training-configuration-tasks"
       ],
-      "detail_review": "pending",
+      "detail_review": "elements-reviewed",
       "exact_strings": []
     },
     {
       "old_edition": "legacy-332b5ed63262",
       "old_panel": "016-05",
-      "draft_beats": [],
-      "detail_review": "pending",
+      "draft_beats": [
+        "prod-training-configuration-source",
+        "prod-training-configuration-limits"
+      ],
+      "detail_review": "elements-reviewed",
       "exact_strings": []
     },
     {
@@ -882,16 +892,17 @@
         "may-training-kickoff",
         "may-blocked-task-assignment"
       ],
-      "detail_review": "pending",
+      "detail_review": "elements-reviewed",
       "exact_strings": []
     },
     {
       "old_edition": "legacy-332b5ed63262",
       "old_panel": "017-02",
       "draft_beats": [
+        "may-blocked-task-assignment",
         "may-blocked-task-dependency"
       ],
-      "detail_review": "pending",
+      "detail_review": "elements-reviewed",
       "exact_strings": []
     },
     {
@@ -901,7 +912,7 @@
         "may-blocked-task-blocked-path",
         "may-blocked-task-remaining-inputs"
       ],
-      "detail_review": "pending",
+      "detail_review": "elements-reviewed",
       "exact_strings": []
     },
     {
@@ -910,7 +921,7 @@
       "draft_beats": [
         "may-blocked-task-contradiction"
       ],
-      "detail_review": "pending",
+      "detail_review": "elements-reviewed",
       "exact_strings": []
     },
     {
@@ -919,7 +930,7 @@
       "draft_beats": [
         "may-blocked-task-available-services"
       ],
-      "detail_review": "pending",
+      "detail_review": "elements-reviewed",
       "exact_strings": []
     },
     {
@@ -929,7 +940,7 @@
         "may-incidental-file-service-reach",
         "may-incidental-file-attempt"
       ],
-      "detail_review": "pending",
+      "detail_review": "elements-reviewed",
       "exact_strings": []
     },
     {
@@ -938,34 +949,37 @@
       "draft_beats": [
         "may-incidental-file-fetch-fails"
       ],
-      "detail_review": "pending",
+      "detail_review": "elements-reviewed",
       "exact_strings": []
     },
     {
       "old_edition": "legacy-332b5ed63262",
       "old_panel": "018-03",
       "draft_beats": [
-        "may-incidental-file-file-appears"
+        "may-incidental-file-file-appears",
+        "may-incidental-file-claim-boundary"
       ],
-      "detail_review": "pending",
+      "detail_review": "elements-reviewed",
       "exact_strings": []
     },
     {
       "old_edition": "legacy-332b5ed63262",
       "old_panel": "018-04",
       "draft_beats": [
+        "april-write-unknown-purpose",
         "may-incidental-file-claim-boundary"
       ],
-      "detail_review": "pending",
+      "detail_review": "elements-reviewed",
       "exact_strings": []
     },
     {
       "old_edition": "legacy-332b5ed63262",
       "old_panel": "018-05",
       "draft_beats": [
-        "may-incidental-file-persistence"
+        "may-incidental-file-persistence",
+        "may-incidental-file-claim-boundary"
       ],
-      "detail_review": "pending",
+      "detail_review": "elements-reviewed",
       "exact_strings": []
     },
     {
@@ -5536,8 +5550,8 @@
     "Collusion Wiki": 118,
     "Curt": 28,
     "Codex": 98,
-    "Claude": 219
+    "Claude": 225
   },
-  "reviewed_old_panels": 258,
-  "reviewed_source_elements": 717
+  "reviewed_old_panels": 273,
+  "reviewed_source_elements": 772
 }
