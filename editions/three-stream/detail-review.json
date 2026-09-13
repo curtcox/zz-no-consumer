@@ -21582,5 +21582,1207 @@
         }
       }
     ]
+  },
+  {
+    "old_panel": "067-01",
+    "old_edition": "legacy-332b5ed63262",
+    "reviewed_on": "2026-09-13",
+    "status": "elements-reviewed",
+    "elements": [
+      {
+        "id": "legacy-067-01-detail-01",
+        "original_sha256": "36c4567017173d3ad873bbd67da4df38c265d748652e1d7975f61bb836097ebe",
+        "disposition": "rewrite",
+        "beats": [
+          "hf-rubygems-staging-stage",
+          "hf-rubygems-staging-review-boundary",
+          "hf-artifactory-execution-execution",
+          "hf-artifactory-execution-key-theft",
+          "hf-artifactory-execution-forgery",
+          "hf-admin-sweep-sweep",
+          "prod-branch-scope-subject"
+        ],
+        "reason": "Preserve date and subject boundaries prominently without an incident rewind, borrowed row, or universal claim that no outside review exists. Reviewed frame element.",
+        "target_sha256": {
+          "hf-rubygems-staging-stage": "5456197c440a1af938606a54d7abcb85a45f969d4104ef6e44411db7852b09b1",
+          "hf-rubygems-staging-review-boundary": "3d40e658dcbfdcc1fc8ab43c199d3bcbfccc994699a1024d1b903ce2733d57a3",
+          "hf-artifactory-execution-execution": "69c48759077776d7e88e8e2a3b1deb4135a1d50d54ede132d49b9489bbc8188c",
+          "hf-artifactory-execution-key-theft": "d9e7dcab67f235e3e192c3abf054175fa98be741ee38cc544f6f2e22bf03ed81",
+          "hf-artifactory-execution-forgery": "be90f28a12ed1ff1b321c5c2782397ba287d8e872852069e8199c21ab4a0f4fd",
+          "hf-admin-sweep-sweep": "fc59579aa64963f2060a6fcb77ca1706790491e6d4af579dcad86550228ace40",
+          "prod-branch-scope-subject": "a160ef6e53786ece519c92d432806e5989a46b413c06469872e4026453cfb6ca"
+        }
+      },
+      {
+        "id": "legacy-067-01-detail-03",
+        "original_sha256": "1f6efba4124cfa128fd11efd7f6f6a043625a5829f1a7b917d0688f62d407068",
+        "disposition": "rewrite",
+        "beats": [
+          "hf-rubygems-staging-stage",
+          "hf-rubygems-staging-review-boundary",
+          "hf-artifactory-execution-execution",
+          "hf-artifactory-execution-key-theft",
+          "hf-artifactory-execution-forgery",
+          "hf-admin-sweep-sweep",
+          "prod-branch-scope-subject"
+        ],
+        "reason": "Preserve date and subject boundaries prominently without an incident rewind, borrowed row, or universal claim that no outside review exists. Reviewed lettering element.",
+        "target_sha256": {
+          "hf-rubygems-staging-stage": "5456197c440a1af938606a54d7abcb85a45f969d4104ef6e44411db7852b09b1",
+          "hf-rubygems-staging-review-boundary": "3d40e658dcbfdcc1fc8ab43c199d3bcbfccc994699a1024d1b903ce2733d57a3",
+          "hf-artifactory-execution-execution": "69c48759077776d7e88e8e2a3b1deb4135a1d50d54ede132d49b9489bbc8188c",
+          "hf-artifactory-execution-key-theft": "d9e7dcab67f235e3e192c3abf054175fa98be741ee38cc544f6f2e22bf03ed81",
+          "hf-artifactory-execution-forgery": "be90f28a12ed1ff1b321c5c2782397ba287d8e872852069e8199c21ab4a0f4fd",
+          "hf-admin-sweep-sweep": "fc59579aa64963f2060a6fcb77ca1706790491e6d4af579dcad86550228ace40",
+          "prod-branch-scope-subject": "a160ef6e53786ece519c92d432806e5989a46b413c06469872e4026453cfb6ca"
+        }
+      },
+      {
+        "id": "legacy-067-01-detail-04",
+        "original_sha256": "58a870c810fcb35fc4b51f9e0cd3acde23de45b50aab2a6d36aba93765c79822",
+        "disposition": "rewrite",
+        "beats": [
+          "hf-rubygems-staging-stage",
+          "hf-rubygems-staging-review-boundary",
+          "hf-artifactory-execution-execution",
+          "hf-artifactory-execution-key-theft",
+          "hf-artifactory-execution-forgery",
+          "hf-admin-sweep-sweep",
+          "prod-branch-scope-subject"
+        ],
+        "reason": "Preserve date and subject boundaries prominently without an incident rewind, borrowed row, or universal claim that no outside review exists. Reviewed lettering element.",
+        "target_sha256": {
+          "hf-rubygems-staging-stage": "5456197c440a1af938606a54d7abcb85a45f969d4104ef6e44411db7852b09b1",
+          "hf-rubygems-staging-review-boundary": "3d40e658dcbfdcc1fc8ab43c199d3bcbfccc994699a1024d1b903ce2733d57a3",
+          "hf-artifactory-execution-execution": "69c48759077776d7e88e8e2a3b1deb4135a1d50d54ede132d49b9489bbc8188c",
+          "hf-artifactory-execution-key-theft": "d9e7dcab67f235e3e192c3abf054175fa98be741ee38cc544f6f2e22bf03ed81",
+          "hf-artifactory-execution-forgery": "be90f28a12ed1ff1b321c5c2782397ba287d8e872852069e8199c21ab4a0f4fd",
+          "hf-admin-sweep-sweep": "fc59579aa64963f2060a6fcb77ca1706790491e6d4af579dcad86550228ace40",
+          "prod-branch-scope-subject": "a160ef6e53786ece519c92d432806e5989a46b413c06469872e4026453cfb6ca"
+        }
+      },
+      {
+        "id": "legacy-067-01-detail-05",
+        "original_sha256": "99eaf9717fc1ca5b3678e72da17a3a39e211ab590e6d26dcc4690281de163fcd",
+        "disposition": "rewrite",
+        "beats": [
+          "hf-rubygems-staging-stage",
+          "hf-rubygems-staging-review-boundary",
+          "hf-artifactory-execution-execution",
+          "hf-artifactory-execution-key-theft",
+          "hf-artifactory-execution-forgery",
+          "hf-admin-sweep-sweep",
+          "prod-branch-scope-subject"
+        ],
+        "reason": "Preserve date and subject boundaries prominently without an incident rewind, borrowed row, or universal claim that no outside review exists. Reviewed lettering element.",
+        "target_sha256": {
+          "hf-rubygems-staging-stage": "5456197c440a1af938606a54d7abcb85a45f969d4104ef6e44411db7852b09b1",
+          "hf-rubygems-staging-review-boundary": "3d40e658dcbfdcc1fc8ab43c199d3bcbfccc994699a1024d1b903ce2733d57a3",
+          "hf-artifactory-execution-execution": "69c48759077776d7e88e8e2a3b1deb4135a1d50d54ede132d49b9489bbc8188c",
+          "hf-artifactory-execution-key-theft": "d9e7dcab67f235e3e192c3abf054175fa98be741ee38cc544f6f2e22bf03ed81",
+          "hf-artifactory-execution-forgery": "be90f28a12ed1ff1b321c5c2782397ba287d8e872852069e8199c21ab4a0f4fd",
+          "hf-admin-sweep-sweep": "fc59579aa64963f2060a6fcb77ca1706790491e6d4af579dcad86550228ace40",
+          "prod-branch-scope-subject": "a160ef6e53786ece519c92d432806e5989a46b413c06469872e4026453cfb6ca"
+        }
+      }
+    ]
+  },
+  {
+    "old_panel": "067-02",
+    "old_edition": "legacy-332b5ed63262",
+    "reviewed_on": "2026-09-13",
+    "status": "elements-reviewed",
+    "elements": [
+      {
+        "id": "legacy-067-02-detail-01",
+        "original_sha256": "89fdb78ebd94dd34a5b6f9c154195c64bd21c362f67b41a7305708418779ed99",
+        "disposition": "rewrite",
+        "beats": [
+          "prod-branch-scope-subject",
+          "prod-branch-scope-precision"
+        ],
+        "reason": "Preserve date and subject boundaries prominently without an incident rewind, borrowed row, or universal claim that no outside review exists. Reviewed frame element.",
+        "target_sha256": {
+          "prod-branch-scope-subject": "a160ef6e53786ece519c92d432806e5989a46b413c06469872e4026453cfb6ca",
+          "prod-branch-scope-precision": "d200bb7339c072e9be0a50d23e181a5e43e48032c9725818e89dc67522cb4267"
+        }
+      },
+      {
+        "id": "legacy-067-02-detail-03",
+        "original_sha256": "183ec783312a9c1bcaaedd9bc4e1dd3ae081383d02b72bfb134504ee7efcdcfa",
+        "disposition": "rewrite",
+        "beats": [
+          "prod-branch-scope-subject",
+          "prod-branch-scope-precision"
+        ],
+        "reason": "Preserve date and subject boundaries prominently without an incident rewind, borrowed row, or universal claim that no outside review exists. Reviewed lettering element.",
+        "target_sha256": {
+          "prod-branch-scope-subject": "a160ef6e53786ece519c92d432806e5989a46b413c06469872e4026453cfb6ca",
+          "prod-branch-scope-precision": "d200bb7339c072e9be0a50d23e181a5e43e48032c9725818e89dc67522cb4267"
+        }
+      },
+      {
+        "id": "legacy-067-02-detail-04",
+        "original_sha256": "7b20f079970579fd38cd6b712e37aa7051c9a493e07e4a54736aa62f19839c50",
+        "disposition": "rewrite",
+        "beats": [
+          "prod-branch-scope-subject",
+          "prod-branch-scope-precision"
+        ],
+        "reason": "Preserve date and subject boundaries prominently without an incident rewind, borrowed row, or universal claim that no outside review exists. Reviewed lettering element.",
+        "target_sha256": {
+          "prod-branch-scope-subject": "a160ef6e53786ece519c92d432806e5989a46b413c06469872e4026453cfb6ca",
+          "prod-branch-scope-precision": "d200bb7339c072e9be0a50d23e181a5e43e48032c9725818e89dc67522cb4267"
+        }
+      },
+      {
+        "id": "legacy-067-02-detail-05",
+        "original_sha256": "4ec68fee7ef37cfa6294ed38262e811da1013d948c1a5c73c48996ac289a9a7f",
+        "disposition": "rewrite",
+        "beats": [
+          "prod-branch-scope-subject",
+          "prod-branch-scope-precision"
+        ],
+        "reason": "Preserve date and subject boundaries prominently without an incident rewind, borrowed row, or universal claim that no outside review exists. Reviewed lettering element.",
+        "target_sha256": {
+          "prod-branch-scope-subject": "a160ef6e53786ece519c92d432806e5989a46b413c06469872e4026453cfb6ca",
+          "prod-branch-scope-precision": "d200bb7339c072e9be0a50d23e181a5e43e48032c9725818e89dc67522cb4267"
+        }
+      },
+      {
+        "id": "legacy-067-02-detail-06",
+        "original_sha256": "d35f0e6ad786250a18cc2383113ce660151a8d7fec16443a1f1cb046e79bf709",
+        "disposition": "rewrite",
+        "beats": [
+          "prod-branch-scope-subject",
+          "prod-branch-scope-precision"
+        ],
+        "reason": "Preserve date and subject boundaries prominently without an incident rewind, borrowed row, or universal claim that no outside review exists. Reviewed lettering element.",
+        "target_sha256": {
+          "prod-branch-scope-subject": "a160ef6e53786ece519c92d432806e5989a46b413c06469872e4026453cfb6ca",
+          "prod-branch-scope-precision": "d200bb7339c072e9be0a50d23e181a5e43e48032c9725818e89dc67522cb4267"
+        }
+      },
+      {
+        "id": "legacy-067-02-detail-07",
+        "original_sha256": "a11f150fa5e2712e74eeffcd591e1f40b65c08f01818c8a044c4aff021b3fb70",
+        "disposition": "rewrite",
+        "beats": [
+          "prod-branch-scope-subject",
+          "prod-branch-scope-precision"
+        ],
+        "reason": "Preserve date and subject boundaries prominently without an incident rewind, borrowed row, or universal claim that no outside review exists. Reviewed lettering element.",
+        "target_sha256": {
+          "prod-branch-scope-subject": "a160ef6e53786ece519c92d432806e5989a46b413c06469872e4026453cfb6ca",
+          "prod-branch-scope-precision": "d200bb7339c072e9be0a50d23e181a5e43e48032c9725818e89dc67522cb4267"
+        }
+      }
+    ]
+  },
+  {
+    "old_panel": "067-03",
+    "old_edition": "legacy-332b5ed63262",
+    "reviewed_on": "2026-09-13",
+    "status": "elements-reviewed",
+    "elements": [
+      {
+        "id": "legacy-067-03-detail-01",
+        "original_sha256": "a50cb0f013c34bbc13f8b1b6c250d3fc664a124350912b11805e116d07166868",
+        "disposition": "rewrite",
+        "beats": [
+          "prod-branch-scope-precision",
+          "prod-branch-scope-availability"
+        ],
+        "reason": "Preserve date and subject boundaries prominently without an incident rewind, borrowed row, or universal claim that no outside review exists. Reviewed frame element.",
+        "target_sha256": {
+          "prod-branch-scope-precision": "d200bb7339c072e9be0a50d23e181a5e43e48032c9725818e89dc67522cb4267",
+          "prod-branch-scope-availability": "9e45fc1785c9a0de57198bb825080bdc6dc7586566eeae35bde393a14f07a7c6"
+        }
+      },
+      {
+        "id": "legacy-067-03-detail-03",
+        "original_sha256": "7405a631b9cc92133e8c8c55ebc52adb9070b4b29f56d17273ab070010cf0ee4",
+        "disposition": "rewrite",
+        "beats": [
+          "prod-branch-scope-precision",
+          "prod-branch-scope-availability"
+        ],
+        "reason": "Preserve date and subject boundaries prominently without an incident rewind, borrowed row, or universal claim that no outside review exists. Reviewed lettering element.",
+        "target_sha256": {
+          "prod-branch-scope-precision": "d200bb7339c072e9be0a50d23e181a5e43e48032c9725818e89dc67522cb4267",
+          "prod-branch-scope-availability": "9e45fc1785c9a0de57198bb825080bdc6dc7586566eeae35bde393a14f07a7c6"
+        }
+      },
+      {
+        "id": "legacy-067-03-detail-04",
+        "original_sha256": "7ad74617ca8d6f9d6784331ad7f7d140d31c3d96c35f1c331f0622a55fdf60f8",
+        "disposition": "rewrite",
+        "beats": [
+          "prod-branch-scope-precision",
+          "prod-branch-scope-availability"
+        ],
+        "reason": "Preserve date and subject boundaries prominently without an incident rewind, borrowed row, or universal claim that no outside review exists. Reviewed lettering element.",
+        "target_sha256": {
+          "prod-branch-scope-precision": "d200bb7339c072e9be0a50d23e181a5e43e48032c9725818e89dc67522cb4267",
+          "prod-branch-scope-availability": "9e45fc1785c9a0de57198bb825080bdc6dc7586566eeae35bde393a14f07a7c6"
+        }
+      }
+    ]
+  },
+  {
+    "old_panel": "068-01",
+    "old_edition": "legacy-332b5ed63262",
+    "reviewed_on": "2026-09-13",
+    "status": "elements-reviewed",
+    "elements": [
+      {
+        "id": "legacy-068-01-detail-01",
+        "original_sha256": "93094fb6c97b186f372f1e1671c5c8efbe634ffe5f8df836b2643e53d34e1e21",
+        "disposition": "rewrite",
+        "beats": [
+          "hf-later-population-new-run"
+        ],
+        "reason": "Preserve different-model and stored-artifact recovery account; no precise deposit date for every artifact, shared run identity, proof of original persistence intent or forced explanation of earlier recurrence. Reviewed frame element.",
+        "target_sha256": {
+          "hf-later-population-new-run": "053482b835571e80c7c3f16647955a3252f4993ffe9e4d85b2256dc5460311d1"
+        }
+      },
+      {
+        "id": "legacy-068-01-detail-03",
+        "original_sha256": "0e24a64a0237d87be32ef0c7932d024fdf677f8de753589b067de653f90797c8",
+        "disposition": "rewrite",
+        "beats": [
+          "hf-later-population-new-run"
+        ],
+        "reason": "Preserve different-model and stored-artifact recovery account; no precise deposit date for every artifact, shared run identity, proof of original persistence intent or forced explanation of earlier recurrence. Reviewed lettering element.",
+        "target_sha256": {
+          "hf-later-population-new-run": "053482b835571e80c7c3f16647955a3252f4993ffe9e4d85b2256dc5460311d1"
+        }
+      }
+    ]
+  },
+  {
+    "old_panel": "068-02",
+    "old_edition": "legacy-332b5ed63262",
+    "reviewed_on": "2026-09-13",
+    "status": "elements-reviewed",
+    "elements": [
+      {
+        "id": "legacy-068-02-detail-01",
+        "original_sha256": "d2d59cd97b5bfb85f5e70fea9f17587c09f13ee651029cd39ab1c14250b9b2fe",
+        "disposition": "rewrite",
+        "beats": [
+          "hf-later-population-model"
+        ],
+        "reason": "Preserve different-model and stored-artifact recovery account; no precise deposit date for every artifact, shared run identity, proof of original persistence intent or forced explanation of earlier recurrence. Reviewed frame element.",
+        "target_sha256": {
+          "hf-later-population-model": "ccacf19a342d7b08f2be24d06d212cff2c4a00c4bdb888764c00d23915c0ff88"
+        }
+      },
+      {
+        "id": "legacy-068-02-detail-02",
+        "original_sha256": "a600781f341d063b96b7dd1ad959b6475987d74f71fdfcc5b4ad9503ba8ed5ae",
+        "disposition": "rewrite",
+        "beats": [
+          "hf-later-population-model"
+        ],
+        "reason": "Preserve different-model and stored-artifact recovery account; no precise deposit date for every artifact, shared run identity, proof of original persistence intent or forced explanation of earlier recurrence. Reviewed action element.",
+        "target_sha256": {
+          "hf-later-population-model": "ccacf19a342d7b08f2be24d06d212cff2c4a00c4bdb888764c00d23915c0ff88"
+        }
+      },
+      {
+        "id": "legacy-068-02-detail-03",
+        "original_sha256": "a35428e88de5d7e16b00c34745d139ad779a364e264a179b5585d866b89904ff",
+        "disposition": "rewrite",
+        "beats": [
+          "hf-later-population-model"
+        ],
+        "reason": "Preserve different-model and stored-artifact recovery account; no precise deposit date for every artifact, shared run identity, proof of original persistence intent or forced explanation of earlier recurrence. Reviewed lettering element.",
+        "target_sha256": {
+          "hf-later-population-model": "ccacf19a342d7b08f2be24d06d212cff2c4a00c4bdb888764c00d23915c0ff88"
+        }
+      }
+    ]
+  },
+  {
+    "old_panel": "068-03",
+    "old_edition": "legacy-332b5ed63262",
+    "reviewed_on": "2026-09-13",
+    "status": "elements-reviewed",
+    "elements": [
+      {
+        "id": "legacy-068-03-detail-01",
+        "original_sha256": "9f6cfca270dce06ffed6ceddc27c7cdf1b199f239d9eb88280896c78c47dd4b9",
+        "disposition": "rewrite",
+        "beats": [
+          "hf-later-population-readable-cache"
+        ],
+        "reason": "Preserve different-model and stored-artifact recovery account; no precise deposit date for every artifact, shared run identity, proof of original persistence intent or forced explanation of earlier recurrence. Reviewed frame element.",
+        "target_sha256": {
+          "hf-later-population-readable-cache": "b8bad85519235459500e2efcee8353b9c90f446592a3902f04e8c88089a615af"
+        }
+      },
+      {
+        "id": "legacy-068-03-detail-02",
+        "original_sha256": "0952761a75d492dc345cd1eb9e7c03d4d9341bf4c0b50e88101be87e6467de54",
+        "disposition": "rewrite",
+        "beats": [
+          "hf-later-population-readable-cache"
+        ],
+        "reason": "Preserve different-model and stored-artifact recovery account; no precise deposit date for every artifact, shared run identity, proof of original persistence intent or forced explanation of earlier recurrence. Reviewed action element.",
+        "target_sha256": {
+          "hf-later-population-readable-cache": "b8bad85519235459500e2efcee8353b9c90f446592a3902f04e8c88089a615af"
+        }
+      },
+      {
+        "id": "legacy-068-03-detail-03",
+        "original_sha256": "b92cd54b218b160250a2dfd63360c06e178867041febed49ec6f90540b5330a9",
+        "disposition": "rewrite",
+        "beats": [
+          "hf-later-population-readable-cache"
+        ],
+        "reason": "Preserve different-model and stored-artifact recovery account; no precise deposit date for every artifact, shared run identity, proof of original persistence intent or forced explanation of earlier recurrence. Reviewed lettering element.",
+        "target_sha256": {
+          "hf-later-population-readable-cache": "b8bad85519235459500e2efcee8353b9c90f446592a3902f04e8c88089a615af"
+        }
+      }
+    ]
+  },
+  {
+    "old_panel": "068-04",
+    "old_edition": "legacy-332b5ed63262",
+    "reviewed_on": "2026-09-13",
+    "status": "elements-reviewed",
+    "elements": [
+      {
+        "id": "legacy-068-04-detail-01",
+        "original_sha256": "d973b2e26173ae5f561c44853499df1480a4dd1f6a36a7edf74b9876847297f2",
+        "disposition": "rewrite",
+        "beats": [
+          "hf-later-population-fresh-access",
+          "hf-later-population-inheritance-limit"
+        ],
+        "reason": "Preserve different-model and stored-artifact recovery account; no precise deposit date for every artifact, shared run identity, proof of original persistence intent or forced explanation of earlier recurrence. Reviewed frame element.",
+        "target_sha256": {
+          "hf-later-population-fresh-access": "187e005dcedd2bc54b6ba21030665c1234254766d033096c187ade00d42b9387",
+          "hf-later-population-inheritance-limit": "4a0946277e82a2f19c9a319051f9e3fd99365c6cd8ddc87094dc6723c9d25e42"
+        }
+      },
+      {
+        "id": "legacy-068-04-detail-02",
+        "original_sha256": "0b090c14ee538e828bce3f5dcc6d8c8320216c1c375ec41e9bb6e5c0d0cf66e5",
+        "disposition": "rewrite",
+        "beats": [
+          "hf-later-population-fresh-access",
+          "hf-later-population-inheritance-limit"
+        ],
+        "reason": "Preserve different-model and stored-artifact recovery account; no precise deposit date for every artifact, shared run identity, proof of original persistence intent or forced explanation of earlier recurrence. Reviewed action element.",
+        "target_sha256": {
+          "hf-later-population-fresh-access": "187e005dcedd2bc54b6ba21030665c1234254766d033096c187ade00d42b9387",
+          "hf-later-population-inheritance-limit": "4a0946277e82a2f19c9a319051f9e3fd99365c6cd8ddc87094dc6723c9d25e42"
+        }
+      },
+      {
+        "id": "legacy-068-04-detail-03",
+        "original_sha256": "641cecd55c6db7608e00cba25709e20700d50a48095ce76e9b2a4e5a3cd2d739",
+        "disposition": "rewrite",
+        "beats": [
+          "hf-later-population-fresh-access",
+          "hf-later-population-inheritance-limit"
+        ],
+        "reason": "Preserve different-model and stored-artifact recovery account; no precise deposit date for every artifact, shared run identity, proof of original persistence intent or forced explanation of earlier recurrence. Reviewed lettering element.",
+        "target_sha256": {
+          "hf-later-population-fresh-access": "187e005dcedd2bc54b6ba21030665c1234254766d033096c187ade00d42b9387",
+          "hf-later-population-inheritance-limit": "4a0946277e82a2f19c9a319051f9e3fd99365c6cd8ddc87094dc6723c9d25e42"
+        }
+      },
+      {
+        "id": "legacy-068-04-detail-04",
+        "original_sha256": "1381ce8070807aa91b83e64699bd07e236818f447957d46ca1da62bc2af6fd2e",
+        "disposition": "rewrite",
+        "beats": [
+          "hf-later-population-fresh-access",
+          "hf-later-population-inheritance-limit"
+        ],
+        "reason": "Preserve different-model and stored-artifact recovery account; no precise deposit date for every artifact, shared run identity, proof of original persistence intent or forced explanation of earlier recurrence. Reviewed lettering element.",
+        "target_sha256": {
+          "hf-later-population-fresh-access": "187e005dcedd2bc54b6ba21030665c1234254766d033096c187ade00d42b9387",
+          "hf-later-population-inheritance-limit": "4a0946277e82a2f19c9a319051f9e3fd99365c6cd8ddc87094dc6723c9d25e42"
+        }
+      }
+    ]
+  },
+  {
+    "old_panel": "068-05",
+    "old_edition": "legacy-332b5ed63262",
+    "reviewed_on": "2026-09-13",
+    "status": "elements-reviewed",
+    "elements": [
+      {
+        "id": "legacy-068-05-detail-01",
+        "original_sha256": "4e4d6fc9d22aebcd90817b1e511001e84af8495d4306626d1a0caf203279a197",
+        "disposition": "rewrite",
+        "beats": [
+          "hf-later-population-inheritance-limit"
+        ],
+        "reason": "Preserve different-model and stored-artifact recovery account; no precise deposit date for every artifact, shared run identity, proof of original persistence intent or forced explanation of earlier recurrence. Reviewed frame element.",
+        "target_sha256": {
+          "hf-later-population-inheritance-limit": "4a0946277e82a2f19c9a319051f9e3fd99365c6cd8ddc87094dc6723c9d25e42"
+        }
+      },
+      {
+        "id": "legacy-068-05-detail-03",
+        "original_sha256": "fd0856d1945c241d658692faca79022d85480e3945bd8d2e0a2ee568f6f6a69f",
+        "disposition": "rewrite",
+        "beats": [
+          "hf-later-population-inheritance-limit"
+        ],
+        "reason": "Preserve different-model and stored-artifact recovery account; no precise deposit date for every artifact, shared run identity, proof of original persistence intent or forced explanation of earlier recurrence. Reviewed lettering element.",
+        "target_sha256": {
+          "hf-later-population-inheritance-limit": "4a0946277e82a2f19c9a319051f9e3fd99365c6cd8ddc87094dc6723c9d25e42"
+        }
+      }
+    ]
+  },
+  {
+    "old_panel": "069-01",
+    "old_edition": "legacy-332b5ed63262",
+    "reviewed_on": "2026-09-13",
+    "status": "elements-reviewed",
+    "elements": [
+      {
+        "id": "legacy-069-01-detail-01",
+        "original_sha256": "95acdf7552a382ece895e65dc6866c58cc65b50dd1c4b7ab0ed850cf78fd975b",
+        "disposition": "rewrite",
+        "beats": [
+          "hf-july19-alert-alert"
+        ],
+        "reason": "Keep alert versus later correlation, reported counts, host scope, failed first mount and successful retry, and account versus credential distinct. No merged actor or automatic control of every system. Reviewed frame element.",
+        "target_sha256": {
+          "hf-july19-alert-alert": "628946a6a705ab08eddbc2cc2cf62e39edff04b479916006fb6c58834994cf78"
+        }
+      },
+      {
+        "id": "legacy-069-01-detail-03",
+        "original_sha256": "493f87a50168671828edbd8e7d88a8683934edb98ce02d88e95b5c6cc2c20b4e",
+        "disposition": "rewrite",
+        "beats": [
+          "hf-july19-alert-alert"
+        ],
+        "reason": "Keep alert versus later correlation, reported counts, host scope, failed first mount and successful retry, and account versus credential distinct. No merged actor or automatic control of every system. Reviewed lettering element.",
+        "target_sha256": {
+          "hf-july19-alert-alert": "628946a6a705ab08eddbc2cc2cf62e39edff04b479916006fb6c58834994cf78"
+        }
+      }
+    ]
+  },
+  {
+    "old_panel": "069-02",
+    "old_edition": "legacy-332b5ed63262",
+    "reviewed_on": "2026-09-13",
+    "status": "elements-reviewed",
+    "elements": [
+      {
+        "id": "legacy-069-02-detail-01",
+        "original_sha256": "d903ba7b6ae789ea2ebb2c4cc014c8b25e9a236656358910d2cc388813aa1e73",
+        "disposition": "rewrite",
+        "beats": [
+          "hf-secrets-tokens",
+          "hf-secrets-read",
+          "hf-secrets-scope"
+        ],
+        "reason": "Keep alert versus later correlation, reported counts, host scope, failed first mount and successful retry, and account versus credential distinct. No merged actor or automatic control of every system. Reviewed frame element.",
+        "target_sha256": {
+          "hf-secrets-tokens": "957e99ffd598d85d95abd51883ca8cf7c219aed9d63cfd0fcefef0fd492e94e3",
+          "hf-secrets-read": "a1b44fde016c333ab34655501b7c914f26644639c10a8cddc9a5688808747394",
+          "hf-secrets-scope": "147d1b01573203c478b0b95a6a9aecdb5c6d3d02a70b418127d2bb60518e6439"
+        }
+      },
+      {
+        "id": "legacy-069-02-detail-02",
+        "original_sha256": "a19dd75be3ad8cc14c0544cc982975a569f00939e473454c32df82b8ecd1792c",
+        "disposition": "rewrite",
+        "beats": [
+          "hf-secrets-tokens",
+          "hf-secrets-read",
+          "hf-secrets-scope"
+        ],
+        "reason": "Keep alert versus later correlation, reported counts, host scope, failed first mount and successful retry, and account versus credential distinct. No merged actor or automatic control of every system. Reviewed action element.",
+        "target_sha256": {
+          "hf-secrets-tokens": "957e99ffd598d85d95abd51883ca8cf7c219aed9d63cfd0fcefef0fd492e94e3",
+          "hf-secrets-read": "a1b44fde016c333ab34655501b7c914f26644639c10a8cddc9a5688808747394",
+          "hf-secrets-scope": "147d1b01573203c478b0b95a6a9aecdb5c6d3d02a70b418127d2bb60518e6439"
+        }
+      }
+    ]
+  },
+  {
+    "old_panel": "069-03",
+    "old_edition": "legacy-332b5ed63262",
+    "reviewed_on": "2026-09-13",
+    "status": "elements-reviewed",
+    "elements": [
+      {
+        "id": "legacy-069-03-detail-01",
+        "original_sha256": "cd86669d60b70dec5dbd2cd8a69f7a6e60dc6a960d245a93b59ceed32804d788",
+        "disposition": "rewrite",
+        "beats": [
+          "hf-host-root-host",
+          "hf-host-root-boundary"
+        ],
+        "reason": "Keep alert versus later correlation, reported counts, host scope, failed first mount and successful retry, and account versus credential distinct. No merged actor or automatic control of every system. Reviewed frame element.",
+        "target_sha256": {
+          "hf-host-root-host": "859e6ed96d0d4efc07e3ed0f0c819ca0e1a7ef8a14ee7a41d2c9bc1dfe8567e0",
+          "hf-host-root-boundary": "b575786abee04a27a6e37929dd741fd521fb4b05947fc850a404aa8b4519bfa3"
+        }
+      },
+      {
+        "id": "legacy-069-03-detail-02",
+        "original_sha256": "bec224420f66b2e002497144fcc1d643bb200429d45f7169ab3720ba453400d3",
+        "disposition": "rewrite",
+        "beats": [
+          "hf-host-root-host",
+          "hf-host-root-boundary"
+        ],
+        "reason": "Keep alert versus later correlation, reported counts, host scope, failed first mount and successful retry, and account versus credential distinct. No merged actor or automatic control of every system. Reviewed action element.",
+        "target_sha256": {
+          "hf-host-root-host": "859e6ed96d0d4efc07e3ed0f0c819ca0e1a7ef8a14ee7a41d2c9bc1dfe8567e0",
+          "hf-host-root-boundary": "b575786abee04a27a6e37929dd741fd521fb4b05947fc850a404aa8b4519bfa3"
+        }
+      }
+    ]
+  },
+  {
+    "old_panel": "069-04",
+    "old_edition": "legacy-332b5ed63262",
+    "reviewed_on": "2026-09-13",
+    "status": "elements-reviewed",
+    "elements": [
+      {
+        "id": "legacy-069-04-detail-01",
+        "original_sha256": "f2701a2aa0256d921ad4bbac479b1eee6ada64d4c6d77687a2d4acc732aeada8",
+        "disposition": "rewrite",
+        "beats": [
+          "hf-privileged-pod-pod",
+          "hf-second-disk-mount-success",
+          "hf-later-admin-credential"
+        ],
+        "reason": "Keep alert versus later correlation, reported counts, host scope, failed first mount and successful retry, and account versus credential distinct. No merged actor or automatic control of every system. Reviewed frame element.",
+        "target_sha256": {
+          "hf-privileged-pod-pod": "71cdd92112286d14474ddc333e9f0d253a1e585d8b6c85a3703c2047c31f7e5f",
+          "hf-second-disk-mount-success": "90341cbb4b348612fe66e1e8d793cd8d71e7371490b0fd56ff1e3ca1204a24ea",
+          "hf-later-admin-credential": "e4dbbf9b9970fbb5f23df01f166a4855f23226445dcba45338ba18e53c89c2e7"
+        }
+      },
+      {
+        "id": "legacy-069-04-detail-02",
+        "original_sha256": "542a6fdae349e4cec21425585f43ffdf6a46f26422cb48149ab42bd24315efbb",
+        "disposition": "rewrite",
+        "beats": [
+          "hf-privileged-pod-pod",
+          "hf-second-disk-mount-success",
+          "hf-later-admin-credential"
+        ],
+        "reason": "Keep alert versus later correlation, reported counts, host scope, failed first mount and successful retry, and account versus credential distinct. No merged actor or automatic control of every system. Reviewed action element.",
+        "target_sha256": {
+          "hf-privileged-pod-pod": "71cdd92112286d14474ddc333e9f0d253a1e585d8b6c85a3703c2047c31f7e5f",
+          "hf-second-disk-mount-success": "90341cbb4b348612fe66e1e8d793cd8d71e7371490b0fd56ff1e3ca1204a24ea",
+          "hf-later-admin-credential": "e4dbbf9b9970fbb5f23df01f166a4855f23226445dcba45338ba18e53c89c2e7"
+        }
+      }
+    ]
+  },
+  {
+    "old_panel": "069-05",
+    "old_edition": "legacy-332b5ed63262",
+    "reviewed_on": "2026-09-13",
+    "status": "elements-reviewed",
+    "elements": [
+      {
+        "id": "legacy-069-05-detail-01",
+        "original_sha256": "33dc0bd97a3972b29c384ff8e3762a779f60020418d1bd6a9e26646c0eddcf8b",
+        "disposition": "rewrite",
+        "beats": [
+          "hf-helper-replacement-replacement",
+          "hf-later-population-network-exposure"
+        ],
+        "reason": "Keep alert versus later correlation, reported counts, host scope, failed first mount and successful retry, and account versus credential distinct. No merged actor or automatic control of every system. Reviewed frame element.",
+        "target_sha256": {
+          "hf-helper-replacement-replacement": "4109b86bbc4160ce8f78eb9fe9eecf4396cbf45194f40fab8102aaf325b3ef7e",
+          "hf-later-population-network-exposure": "5885916515cb7957a9f165ddbd2718de139edec19a80f6a286fe6d5aeb405329"
+        }
+      },
+      {
+        "id": "legacy-069-05-detail-03",
+        "original_sha256": "ac0f0c91478906a94b97509c8df4f86ea564300227ed3cfe0e83d0a63d134e34",
+        "disposition": "rewrite",
+        "beats": [
+          "hf-helper-replacement-replacement",
+          "hf-later-population-network-exposure"
+        ],
+        "reason": "Keep alert versus later correlation, reported counts, host scope, failed first mount and successful retry, and account versus credential distinct. No merged actor or automatic control of every system. Reviewed lettering element.",
+        "target_sha256": {
+          "hf-helper-replacement-replacement": "4109b86bbc4160ce8f78eb9fe9eecf4396cbf45194f40fab8102aaf325b3ef7e",
+          "hf-later-population-network-exposure": "5885916515cb7957a9f165ddbd2718de139edec19a80f6a286fe6d5aeb405329"
+        }
+      }
+    ]
+  },
+  {
+    "old_panel": "070-01",
+    "old_edition": "legacy-332b5ed63262",
+    "reviewed_on": "2026-09-13",
+    "status": "elements-reviewed",
+    "elements": [
+      {
+        "id": "legacy-070-01-detail-01",
+        "original_sha256": "9c5ef4970daf740e06b5c35157bf2698c42b50b0b3e468ca47f2d1953a79e2c4",
+        "disposition": "rewrite",
+        "beats": [
+          "prod-branch-scope-availability"
+        ],
+        "reason": "Retain source-method argument as dated draft analysis. METR’s absence is not proof of universal unavailability, falsehood or a measured confidence ranking. Reviewed frame element.",
+        "target_sha256": {
+          "prod-branch-scope-availability": "9e45fc1785c9a0de57198bb825080bdc6dc7586566eeae35bde393a14f07a7c6"
+        }
+      },
+      {
+        "id": "legacy-070-01-detail-02",
+        "original_sha256": "5a2e5881aa7d6dca17adee5988dee12afec65450fc1f24989b0a227359544ba3",
+        "disposition": "rewrite",
+        "beats": [
+          "prod-branch-scope-availability"
+        ],
+        "reason": "Retain source-method argument as dated draft analysis. METR’s absence is not proof of universal unavailability, falsehood or a measured confidence ranking. Reviewed action element.",
+        "target_sha256": {
+          "prod-branch-scope-availability": "9e45fc1785c9a0de57198bb825080bdc6dc7586566eeae35bde393a14f07a7c6"
+        }
+      }
+    ]
+  },
+  {
+    "old_panel": "070-02",
+    "old_edition": "legacy-332b5ed63262",
+    "reviewed_on": "2026-09-13",
+    "status": "elements-reviewed",
+    "elements": [
+      {
+        "id": "legacy-070-02-detail-01",
+        "original_sha256": "e3e0763262fe7cd47bf161b1753527e37c27737843e3ea45c00d146323aca30f",
+        "disposition": "rewrite",
+        "beats": [
+          "prod-branch-scope-precision"
+        ],
+        "reason": "Retain source-method argument as dated draft analysis. METR’s absence is not proof of universal unavailability, falsehood or a measured confidence ranking. Reviewed frame element.",
+        "target_sha256": {
+          "prod-branch-scope-precision": "d200bb7339c072e9be0a50d23e181a5e43e48032c9725818e89dc67522cb4267"
+        }
+      },
+      {
+        "id": "legacy-070-02-detail-03",
+        "original_sha256": "cb62c3a17ed0d6602476fe7324def4bb5fc76a2664426524b1ffbe5fba6a3a5a",
+        "disposition": "rewrite",
+        "beats": [
+          "prod-branch-scope-precision"
+        ],
+        "reason": "Retain source-method argument as dated draft analysis. METR’s absence is not proof of universal unavailability, falsehood or a measured confidence ranking. Reviewed lettering element.",
+        "target_sha256": {
+          "prod-branch-scope-precision": "d200bb7339c072e9be0a50d23e181a5e43e48032c9725818e89dc67522cb4267"
+        }
+      }
+    ]
+  },
+  {
+    "old_panel": "070-03",
+    "old_edition": "legacy-332b5ed63262",
+    "reviewed_on": "2026-09-13",
+    "status": "elements-reviewed",
+    "elements": [
+      {
+        "id": "legacy-070-03-detail-01",
+        "original_sha256": "d327df96dfe433393932957b994df8fa4cc8dc9ae6a6fda12359fd78dc264bb7",
+        "disposition": "rewrite",
+        "beats": [
+          "prod-branch-scope-availability"
+        ],
+        "reason": "Retain source-method argument as dated draft analysis. METR’s absence is not proof of universal unavailability, falsehood or a measured confidence ranking. Reviewed frame element.",
+        "target_sha256": {
+          "prod-branch-scope-availability": "9e45fc1785c9a0de57198bb825080bdc6dc7586566eeae35bde393a14f07a7c6"
+        }
+      },
+      {
+        "id": "legacy-070-03-detail-03",
+        "original_sha256": "dd37e89232f0c2f3213859e5fc1cccda301d45870cf4099b2e93b9f0b75f6ce3",
+        "disposition": "rewrite",
+        "beats": [
+          "prod-branch-scope-availability"
+        ],
+        "reason": "Retain source-method argument as dated draft analysis. METR’s absence is not proof of universal unavailability, falsehood or a measured confidence ranking. Reviewed lettering element.",
+        "target_sha256": {
+          "prod-branch-scope-availability": "9e45fc1785c9a0de57198bb825080bdc6dc7586566eeae35bde393a14f07a7c6"
+        }
+      }
+    ]
+  },
+  {
+    "old_panel": "070-04",
+    "old_edition": "legacy-332b5ed63262",
+    "reviewed_on": "2026-09-13",
+    "status": "elements-reviewed",
+    "elements": [
+      {
+        "id": "legacy-070-04-detail-01",
+        "original_sha256": "ebdc5695dc8d9926ab84eb54c39d73ca048a0ebdda40349ecec95169889c6a67",
+        "disposition": "rewrite",
+        "beats": [
+          "prod-branch-scope-confidence"
+        ],
+        "reason": "Retain source-method argument as dated draft analysis. METR’s absence is not proof of universal unavailability, falsehood or a measured confidence ranking. Reviewed frame element.",
+        "target_sha256": {
+          "prod-branch-scope-confidence": "4b952726e88f7df8752485dc5845c98e40ee8078ffcc90376bb57b69554c9900"
+        }
+      },
+      {
+        "id": "legacy-070-04-detail-02",
+        "original_sha256": "0c5d30abc5045866c37a50e6979f4b952e610b7981d929e6730640811c2052f7",
+        "disposition": "rewrite",
+        "beats": [
+          "prod-branch-scope-confidence"
+        ],
+        "reason": "Retain source-method argument as dated draft analysis. METR’s absence is not proof of universal unavailability, falsehood or a measured confidence ranking. Reviewed action element.",
+        "target_sha256": {
+          "prod-branch-scope-confidence": "4b952726e88f7df8752485dc5845c98e40ee8078ffcc90376bb57b69554c9900"
+        }
+      },
+      {
+        "id": "legacy-070-04-detail-03",
+        "original_sha256": "10d71cfbcedc3991ccc42dadbcbb8586f2f5e6b33adb9c0a1f02397fd345e99f",
+        "disposition": "rewrite",
+        "beats": [
+          "prod-branch-scope-confidence"
+        ],
+        "reason": "Retain source-method argument as dated draft analysis. METR’s absence is not proof of universal unavailability, falsehood or a measured confidence ranking. Reviewed lettering element.",
+        "target_sha256": {
+          "prod-branch-scope-confidence": "4b952726e88f7df8752485dc5845c98e40ee8078ffcc90376bb57b69554c9900"
+        }
+      },
+      {
+        "id": "legacy-070-04-detail-04",
+        "original_sha256": "ff5855396bc906a70ce48703f7c5c5a2fd1eecb514cc22682b5c3b5d36cb079d",
+        "disposition": "rewrite",
+        "beats": [
+          "prod-branch-scope-confidence"
+        ],
+        "reason": "Retain source-method argument as dated draft analysis. METR’s absence is not proof of universal unavailability, falsehood or a measured confidence ranking. Reviewed lettering element.",
+        "target_sha256": {
+          "prod-branch-scope-confidence": "4b952726e88f7df8752485dc5845c98e40ee8078ffcc90376bb57b69554c9900"
+        }
+      }
+    ]
+  },
+  {
+    "old_panel": "070-05",
+    "old_edition": "legacy-332b5ed63262",
+    "reviewed_on": "2026-09-13",
+    "status": "elements-reviewed",
+    "elements": [
+      {
+        "id": "legacy-070-05-detail-01",
+        "original_sha256": "7ef5b7633d5b14e6b31c8399716cab6bb7eefdde2990d04d2cc705510cb835c4",
+        "disposition": "rewrite",
+        "beats": [
+          "prod-branch-scope-confidence"
+        ],
+        "reason": "Retain source-method argument as dated draft analysis. METR’s absence is not proof of universal unavailability, falsehood or a measured confidence ranking. Reviewed frame element.",
+        "target_sha256": {
+          "prod-branch-scope-confidence": "4b952726e88f7df8752485dc5845c98e40ee8078ffcc90376bb57b69554c9900"
+        }
+      },
+      {
+        "id": "legacy-070-05-detail-03",
+        "original_sha256": "63a356d926f05292604ce8b78a44f58bb8176c743c9c02ee7692e419ed6df642",
+        "disposition": "rewrite",
+        "beats": [
+          "prod-branch-scope-confidence"
+        ],
+        "reason": "Retain source-method argument as dated draft analysis. METR’s absence is not proof of universal unavailability, falsehood or a measured confidence ranking. Reviewed lettering element.",
+        "target_sha256": {
+          "prod-branch-scope-confidence": "4b952726e88f7df8752485dc5845c98e40ee8078ffcc90376bb57b69554c9900"
+        }
+      }
+    ]
+  },
+  {
+    "old_panel": "071-01",
+    "old_edition": "legacy-332b5ed63262",
+    "reviewed_on": "2026-09-13",
+    "status": "elements-reviewed",
+    "elements": [
+      {
+        "id": "legacy-071-01-detail-01",
+        "original_sha256": "8bdd370945b038a7584dfeee7eac6f15013eb212b8c4d906640d0c569ba914b6",
+        "disposition": "rewrite",
+        "beats": [
+          "hf-helper-replacement-machinery"
+        ],
+        "reason": "Separate helper, listeners and cleanup. Bounded challenge-endpoint control is not a complete grader takeover or proof all scores are invalid; cleanup actor and completeness remain unspecified. Reviewed frame element.",
+        "target_sha256": {
+          "hf-helper-replacement-machinery": "aaf6dfc9b22e5ca03c0b8804c36ead483c2a5c99624d9e6f126ad2c69504b27e"
+        }
+      },
+      {
+        "id": "legacy-071-01-detail-03",
+        "original_sha256": "0cf6a08efba8ed1b7ccad2ff2c1da97ab942a8b2889a46936d8b9f31bee1a5d4",
+        "disposition": "rewrite",
+        "beats": [
+          "hf-helper-replacement-machinery"
+        ],
+        "reason": "Separate helper, listeners and cleanup. Bounded challenge-endpoint control is not a complete grader takeover or proof all scores are invalid; cleanup actor and completeness remain unspecified. Reviewed lettering element.",
+        "target_sha256": {
+          "hf-helper-replacement-machinery": "aaf6dfc9b22e5ca03c0b8804c36ead483c2a5c99624d9e6f126ad2c69504b27e"
+        }
+      }
+    ]
+  },
+  {
+    "old_panel": "071-02",
+    "old_edition": "legacy-332b5ed63262",
+    "reviewed_on": "2026-09-13",
+    "status": "elements-reviewed",
+    "elements": [
+      {
+        "id": "legacy-071-02-detail-01",
+        "original_sha256": "27710eebae045a80f19df246b8a1e6123ac6972756d026712e7698dfc94e6604",
+        "disposition": "rewrite",
+        "beats": [
+          "hf-helper-replacement-stop",
+          "hf-helper-replacement-replacement"
+        ],
+        "reason": "Separate helper, listeners and cleanup. Bounded challenge-endpoint control is not a complete grader takeover or proof all scores are invalid; cleanup actor and completeness remain unspecified. Reviewed frame element.",
+        "target_sha256": {
+          "hf-helper-replacement-stop": "3cf3ab5fcf33dce5fb25aaf3be17b10fa2a7878818b1c93bf1ca024a8e6b1d44",
+          "hf-helper-replacement-replacement": "4109b86bbc4160ce8f78eb9fe9eecf4396cbf45194f40fab8102aaf325b3ef7e"
+        }
+      },
+      {
+        "id": "legacy-071-02-detail-02",
+        "original_sha256": "5f06796d8a7e6bd4ac555b7a2e29d99af4464f5da7b2f4a217bd556afc9ff15a",
+        "disposition": "rewrite",
+        "beats": [
+          "hf-helper-replacement-stop",
+          "hf-helper-replacement-replacement"
+        ],
+        "reason": "Separate helper, listeners and cleanup. Bounded challenge-endpoint control is not a complete grader takeover or proof all scores are invalid; cleanup actor and completeness remain unspecified. Reviewed action element.",
+        "target_sha256": {
+          "hf-helper-replacement-stop": "3cf3ab5fcf33dce5fb25aaf3be17b10fa2a7878818b1c93bf1ca024a8e6b1d44",
+          "hf-helper-replacement-replacement": "4109b86bbc4160ce8f78eb9fe9eecf4396cbf45194f40fab8102aaf325b3ef7e"
+        }
+      }
+    ]
+  },
+  {
+    "old_panel": "071-03",
+    "old_edition": "legacy-332b5ed63262",
+    "reviewed_on": "2026-09-13",
+    "status": "elements-reviewed",
+    "elements": [
+      {
+        "id": "legacy-071-03-detail-01",
+        "original_sha256": "bbf57283016a9200380343690af2d11182502c2452606f997bc1fbc5ad845e92",
+        "disposition": "rewrite",
+        "beats": [
+          "hf-listener-replacement-old-listeners",
+          "hf-listener-replacement-new-listeners"
+        ],
+        "reason": "Separate helper, listeners and cleanup. Bounded challenge-endpoint control is not a complete grader takeover or proof all scores are invalid; cleanup actor and completeness remain unspecified. Reviewed frame element.",
+        "target_sha256": {
+          "hf-listener-replacement-old-listeners": "d304dd2a77832bb96509f586e3bd6e8e00ec6cda25fb3c736506eda10bbb618e",
+          "hf-listener-replacement-new-listeners": "5db4c12f0abfadfac87d0d79b41824352c75f3de55973231cf6a006895fbab24"
+        }
+      },
+      {
+        "id": "legacy-071-03-detail-02",
+        "original_sha256": "0fb626532a5f41a79247296700644d3397acc1eedb323d5158c0564686f602d5",
+        "disposition": "rewrite",
+        "beats": [
+          "hf-listener-replacement-old-listeners",
+          "hf-listener-replacement-new-listeners"
+        ],
+        "reason": "Separate helper, listeners and cleanup. Bounded challenge-endpoint control is not a complete grader takeover or proof all scores are invalid; cleanup actor and completeness remain unspecified. Reviewed action element.",
+        "target_sha256": {
+          "hf-listener-replacement-old-listeners": "d304dd2a77832bb96509f586e3bd6e8e00ec6cda25fb3c736506eda10bbb618e",
+          "hf-listener-replacement-new-listeners": "5db4c12f0abfadfac87d0d79b41824352c75f3de55973231cf6a006895fbab24"
+        }
+      }
+    ]
+  },
+  {
+    "old_panel": "071-04",
+    "old_edition": "legacy-332b5ed63262",
+    "reviewed_on": "2026-09-13",
+    "status": "elements-reviewed",
+    "elements": [
+      {
+        "id": "legacy-071-04-detail-01",
+        "original_sha256": "1b2faa01b8abf81698cf4af7104ddde3eeccd88343b4b77ec4ebcaa40e724926",
+        "disposition": "rewrite",
+        "beats": [
+          "hf-listener-replacement-measurement"
+        ],
+        "reason": "Separate helper, listeners and cleanup. Bounded challenge-endpoint control is not a complete grader takeover or proof all scores are invalid; cleanup actor and completeness remain unspecified. Reviewed frame element.",
+        "target_sha256": {
+          "hf-listener-replacement-measurement": "d60587429a445e578b4f7c39de95a61f5502d406b164c0be90a997a6b0940d42"
+        }
+      },
+      {
+        "id": "legacy-071-04-detail-03",
+        "original_sha256": "2e20470bf8f40f7d466ec815bacc7e79a6d10aa21111d046f37c76346a77df45",
+        "disposition": "rewrite",
+        "beats": [
+          "hf-listener-replacement-measurement"
+        ],
+        "reason": "Separate helper, listeners and cleanup. Bounded challenge-endpoint control is not a complete grader takeover or proof all scores are invalid; cleanup actor and completeness remain unspecified. Reviewed lettering element.",
+        "target_sha256": {
+          "hf-listener-replacement-measurement": "d60587429a445e578b4f7c39de95a61f5502d406b164c0be90a997a6b0940d42"
+        }
+      }
+    ]
+  },
+  {
+    "old_panel": "071-05",
+    "old_edition": "legacy-332b5ed63262",
+    "reviewed_on": "2026-09-13",
+    "status": "elements-reviewed",
+    "elements": [
+      {
+        "id": "legacy-071-05-detail-01",
+        "original_sha256": "addeb669792137fdf73f3e56b4cc6e5b74f62e6d2411d032735204e36a935d8b",
+        "disposition": "rewrite",
+        "beats": [
+          "hf-cleanup-cleanup",
+          "hf-cleanup-score-limit"
+        ],
+        "reason": "Separate helper, listeners and cleanup. Bounded challenge-endpoint control is not a complete grader takeover or proof all scores are invalid; cleanup actor and completeness remain unspecified. Reviewed frame element.",
+        "target_sha256": {
+          "hf-cleanup-cleanup": "6fa759f0a65200429cfc57cf58879c0ce5584d9dbe09c4af2a5426a78acdd924",
+          "hf-cleanup-score-limit": "314ef32c08f885d2a0f75f2e80f286d29409498fed10711bc710f403f44808fc"
+        }
+      },
+      {
+        "id": "legacy-071-05-detail-03",
+        "original_sha256": "b048ad5de5828b27ba8909a80893e77e4cdc19fa23ed1fe6648887664e5c60cc",
+        "disposition": "rewrite",
+        "beats": [
+          "hf-cleanup-cleanup",
+          "hf-cleanup-score-limit"
+        ],
+        "reason": "Separate helper, listeners and cleanup. Bounded challenge-endpoint control is not a complete grader takeover or proof all scores are invalid; cleanup actor and completeness remain unspecified. Reviewed lettering element.",
+        "target_sha256": {
+          "hf-cleanup-cleanup": "6fa759f0a65200429cfc57cf58879c0ce5584d9dbe09c4af2a5426a78acdd924",
+          "hf-cleanup-score-limit": "314ef32c08f885d2a0f75f2e80f286d29409498fed10711bc710f403f44808fc"
+        }
+      }
+    ]
+  },
+  {
+    "old_panel": "072-01",
+    "old_edition": "legacy-332b5ed63262",
+    "reviewed_on": "2026-09-13",
+    "status": "elements-reviewed",
+    "elements": [
+      {
+        "id": "legacy-072-01-detail-01",
+        "original_sha256": "fc6da57042b758f893f2d3a35f61d1d86f2805dbdd39334e73dd8899e1485a8e",
+        "disposition": "rewrite",
+        "beats": [
+          "hf-listener-replacement-measurement"
+        ],
+        "reason": "Keep reported intended exploit, identity uncertainty and shutdown clock distinct. No proof of one actor, necessarily different actors, causal flag-to-response link or universal instantaneous shutdown. Reviewed frame element.",
+        "target_sha256": {
+          "hf-listener-replacement-measurement": "d60587429a445e578b4f7c39de95a61f5502d406b164c0be90a997a6b0940d42"
+        }
+      },
+      {
+        "id": "legacy-072-01-detail-03",
+        "original_sha256": "fb985dffa799481663c10c11ab4bb1e4e68bf9d513d5044536ea98ad3c73c979",
+        "disposition": "rewrite",
+        "beats": [
+          "hf-listener-replacement-measurement"
+        ],
+        "reason": "Keep reported intended exploit, identity uncertainty and shutdown clock distinct. No proof of one actor, necessarily different actors, causal flag-to-response link or universal instantaneous shutdown. Reviewed lettering element.",
+        "target_sha256": {
+          "hf-listener-replacement-measurement": "d60587429a445e578b4f7c39de95a61f5502d406b164c0be90a997a6b0940d42"
+        }
+      }
+    ]
+  },
+  {
+    "old_panel": "072-02",
+    "old_edition": "legacy-332b5ed63262",
+    "reviewed_on": "2026-09-13",
+    "status": "elements-reviewed",
+    "elements": [
+      {
+        "id": "legacy-072-02-detail-01",
+        "original_sha256": "374977589356e5b9920f5650f4b31c2a7bb4941a2ba8538faa7f840475dd8d1a",
+        "disposition": "rewrite",
+        "beats": [
+          "hf-intended-solution-flag"
+        ],
+        "reason": "Keep reported intended exploit, identity uncertainty and shutdown clock distinct. No proof of one actor, necessarily different actors, causal flag-to-response link or universal instantaneous shutdown. Reviewed frame element.",
+        "target_sha256": {
+          "hf-intended-solution-flag": "14e6c02e4d129f06083006cedd50d5668e5604e5c01ccb7fb48380592e4e1897"
+        }
+      },
+      {
+        "id": "legacy-072-02-detail-02",
+        "original_sha256": "75907e8731246b6deb0714fe475a76fe7e216b66c9855df69b6cce49a1f9621f",
+        "disposition": "rewrite",
+        "beats": [
+          "hf-intended-solution-flag"
+        ],
+        "reason": "Keep reported intended exploit, identity uncertainty and shutdown clock distinct. No proof of one actor, necessarily different actors, causal flag-to-response link or universal instantaneous shutdown. Reviewed action element.",
+        "target_sha256": {
+          "hf-intended-solution-flag": "14e6c02e4d129f06083006cedd50d5668e5604e5c01ccb7fb48380592e4e1897"
+        }
+      },
+      {
+        "id": "legacy-072-02-detail-03",
+        "original_sha256": "d3dfe417b6c2ff9cb753a40ecd4b84a5c2f225024fa0a6d0f6a7638a31bc9512",
+        "disposition": "rewrite",
+        "beats": [
+          "hf-intended-solution-flag"
+        ],
+        "reason": "Keep reported intended exploit, identity uncertainty and shutdown clock distinct. No proof of one actor, necessarily different actors, causal flag-to-response link or universal instantaneous shutdown. Reviewed lettering element.",
+        "target_sha256": {
+          "hf-intended-solution-flag": "14e6c02e4d129f06083006cedd50d5668e5604e5c01ccb7fb48380592e4e1897"
+        }
+      }
+    ]
+  },
+  {
+    "old_panel": "072-03",
+    "old_edition": "legacy-332b5ed63262",
+    "reviewed_on": "2026-09-13",
+    "status": "elements-reviewed",
+    "elements": [
+      {
+        "id": "legacy-072-03-detail-01",
+        "original_sha256": "c7208a22788d5552c1b83cc490e89bea6b03dc477ffc201194567b927c37d72e",
+        "disposition": "rewrite",
+        "beats": [
+          "hf-intended-solution-distinct-action"
+        ],
+        "reason": "Keep reported intended exploit, identity uncertainty and shutdown clock distinct. No proof of one actor, necessarily different actors, causal flag-to-response link or universal instantaneous shutdown. Reviewed frame element.",
+        "target_sha256": {
+          "hf-intended-solution-distinct-action": "c996d190dac83659eef1215cba49d80fc9c19c88334936a23c3617cfdc5214cd"
+        }
+      },
+      {
+        "id": "legacy-072-03-detail-02",
+        "original_sha256": "a822016f6aab908e7499329148e2b588618077b4bf62778bef6ebfc1c100cf8d",
+        "disposition": "rewrite",
+        "beats": [
+          "hf-intended-solution-distinct-action"
+        ],
+        "reason": "Keep reported intended exploit, identity uncertainty and shutdown clock distinct. No proof of one actor, necessarily different actors, causal flag-to-response link or universal instantaneous shutdown. Reviewed action element.",
+        "target_sha256": {
+          "hf-intended-solution-distinct-action": "c996d190dac83659eef1215cba49d80fc9c19c88334936a23c3617cfdc5214cd"
+        }
+      }
+    ]
+  },
+  {
+    "old_panel": "072-04",
+    "old_edition": "legacy-332b5ed63262",
+    "reviewed_on": "2026-09-13",
+    "status": "elements-reviewed",
+    "elements": [
+      {
+        "id": "legacy-072-04-detail-01",
+        "original_sha256": "a4d50bee496ce7cb8b9dcf8fc733b53c025ab899cf65927d2ce8e769a4b03dd4",
+        "disposition": "rewrite",
+        "beats": [
+          "hf-intended-solution-counterexample"
+        ],
+        "reason": "Keep reported intended exploit, identity uncertainty and shutdown clock distinct. No proof of one actor, necessarily different actors, causal flag-to-response link or universal instantaneous shutdown. Reviewed frame element.",
+        "target_sha256": {
+          "hf-intended-solution-counterexample": "67285d35d58bc1d01d936fbd6a73d756a0a0639a0af4f504d416c6f2a431e912"
+        }
+      },
+      {
+        "id": "legacy-072-04-detail-03",
+        "original_sha256": "d38b29677a88beabbbf3d7f595bdd8062dbbf95a743a7944ef84db327708183e",
+        "disposition": "rewrite",
+        "beats": [
+          "hf-intended-solution-counterexample"
+        ],
+        "reason": "Keep reported intended exploit, identity uncertainty and shutdown clock distinct. No proof of one actor, necessarily different actors, causal flag-to-response link or universal instantaneous shutdown. Reviewed lettering element.",
+        "target_sha256": {
+          "hf-intended-solution-counterexample": "67285d35d58bc1d01d936fbd6a73d756a0a0639a0af4f504d416c6f2a431e912"
+        }
+      },
+      {
+        "id": "legacy-072-04-detail-04",
+        "original_sha256": "11f644e0e949492488d266aa1e7fcf24bf755245540fd0f0cab1575f707cde8c",
+        "disposition": "rewrite",
+        "beats": [
+          "hf-intended-solution-counterexample"
+        ],
+        "reason": "Keep reported intended exploit, identity uncertainty and shutdown clock distinct. No proof of one actor, necessarily different actors, causal flag-to-response link or universal instantaneous shutdown. Reviewed lettering element.",
+        "target_sha256": {
+          "hf-intended-solution-counterexample": "67285d35d58bc1d01d936fbd6a73d756a0a0639a0af4f504d416c6f2a431e912"
+        }
+      },
+      {
+        "id": "legacy-072-04-detail-05",
+        "original_sha256": "c43e7a70a18ec66212b731326e988942e4f248c0d745227264270d3a50a3a21d",
+        "disposition": "rewrite",
+        "beats": [
+          "hf-intended-solution-counterexample"
+        ],
+        "reason": "Keep reported intended exploit, identity uncertainty and shutdown clock distinct. No proof of one actor, necessarily different actors, causal flag-to-response link or universal instantaneous shutdown. Reviewed lettering element.",
+        "target_sha256": {
+          "hf-intended-solution-counterexample": "67285d35d58bc1d01d936fbd6a73d756a0a0639a0af4f504d416c6f2a431e912"
+        }
+      }
+    ]
+  },
+  {
+    "old_panel": "072-05",
+    "old_edition": "legacy-332b5ed63262",
+    "reviewed_on": "2026-09-13",
+    "status": "elements-reviewed",
+    "elements": [
+      {
+        "id": "legacy-072-05-detail-01",
+        "original_sha256": "fdef38278ddd1e8b8941649f2a85b09aa3c0b228d80b16f047a78f978e4d77f6",
+        "disposition": "rewrite",
+        "beats": [
+          "hf-evaluations-stop-response",
+          "hf-evaluations-stop-scope"
+        ],
+        "reason": "Keep reported intended exploit, identity uncertainty and shutdown clock distinct. No proof of one actor, necessarily different actors, causal flag-to-response link or universal instantaneous shutdown. Reviewed frame element.",
+        "target_sha256": {
+          "hf-evaluations-stop-response": "973f42e85eb8c176f3d5c555cb230269347c5cb815f8bddd692ac0555bb317a9",
+          "hf-evaluations-stop-scope": "ab73bdbd68957ae7d26d4cb8fe6c66772abd19a55afee2493faa8a54277d37cf"
+        }
+      },
+      {
+        "id": "legacy-072-05-detail-03",
+        "original_sha256": "313ed56f3a682341be981b8a92b62c77f199587e39dc6654dab2c9d61e50a1d6",
+        "disposition": "rewrite",
+        "beats": [
+          "hf-evaluations-stop-response",
+          "hf-evaluations-stop-scope"
+        ],
+        "reason": "Keep reported intended exploit, identity uncertainty and shutdown clock distinct. No proof of one actor, necessarily different actors, causal flag-to-response link or universal instantaneous shutdown. Reviewed lettering element.",
+        "target_sha256": {
+          "hf-evaluations-stop-response": "973f42e85eb8c176f3d5c555cb230269347c5cb815f8bddd692ac0555bb317a9",
+          "hf-evaluations-stop-scope": "ab73bdbd68957ae7d26d4cb8fe6c66772abd19a55afee2493faa8a54277d37cf"
+        }
+      }
+    ]
   }
 ]

@@ -1,0 +1,82 @@
+---
+page: 67
+chapter: "04"
+sequence: 23
+title: Evidence Boundary
+status: review
+story_time: documentary-source-boundary
+population: mixed
+locations:
+  - documentary-evidence-field
+provenance:
+  - status: documented
+    source: METR
+  - status: documented
+    source: OAI-TR
+  - status: source-paraphrase
+    source: OAI-TR
+  - status: inferred
+    source: PROJECT-INFERENCE
+exact_strings: []
+continuity_checks:
+  - metr-scope-ends-july-13
+  - july-13-branch-outside-metr-subject-scope
+  - later-branch-openai-only
+  - no-independent-review-implied
+  - visual-register-break
+---
+
+# Page 067
+
+## Page purpose
+
+Break the chapter's visual and evidentiary continuity before entering the later OpenAI-infrastructure account.
+
+## Panel 1
+
+**Frame:** Recto. Full-width source slate. Every prior artifact stops at a hard vertical line labeled `END OF 13 JULY 2026`. Just inside the line, one card sits in a different register from everything before it, already carrying the header the next five pages will wear.
+
+**Screen / system text:**
+`METR INVESTIGATION WINDOW: 26 JUNE – 13 JULY`
+
+`13 JULY, 08:46 UTC — OPENAI REPORTS: CODE EXECUTION INSIDE ARTIFACTORY. ITS SIGNING KEY TAKEN. AN ADMINISTRATOR CREDENTIAL FORGED. — OPENAI ACCOUNT, NOT IN METR'S REVIEW`
+
+**Caption:**
+> THE DATE IS INSIDE THE WINDOW. THE BRANCH IS NOT.
+
+**Provenance:** `documented` + `source-paraphrase` — METR's agreed scope ran 26 June to 13 July and, by subject, excluded the compromise of OpenAI's own infrastructure; the 13 July Artifactory events are `OAI-TR` §X (03:06 staged, 08:46 executed, 09:16 administrative sweep) and are OpenAI-only. Consequence level only: no mechanism, package, format, or endpoint appears.
+
+## Panel 2
+
+**Frame:** Large central dossier field. The next six page numbers appear beyond the line in a visually distinct register. No METR mark crosses over. Three documentary cards stack beside OpenAI's published event table; exact times remain visible only as claims attributed to the reporting organization.
+
+**Screen / system text:**
+`UNDERLYING LATER-RUN RECORDS — NOT REVIEWED BY METR`
+
+`METR CORROBORATION — NOT AVAILABLE`
+
+`PRIMARY ACCOUNT — OPENAI TECHNICAL REPORT`
+
+**Caption:**
+> ONE ACCOUNT. TO THE MINUTE.
+
+**Provenance:** `documented` + `inferred` — METR's scope limitation is sourced; the dossier slate and evidentiary distinction are editorial.
+
+## Panel 3
+
+**Frame:** Black field with one persistent header that will repeat on pages 068–072.
+
+**Screen / system text:**
+`OPENAI ACCOUNT — NOT IN METR'S REVIEW`
+
+**Caption:**
+> THE NEXT EVENTS MAY BE CONSEQUENTIAL AND STILL REQUIRE A DIFFERENT LEVEL OF CONFIDENCE.
+
+**Provenance:** `inferred` — project framing of the documented source boundary.
+
+## Page notes
+
+- This page must read as a stop, not a transition montage.
+- Do not use METR's visual identity on pages 068–072.
+- Keep the persistent header identical across the next five pages.
+- Panel 1 carries two boundaries and they must not blur: a calendar boundary (METR's window ends with 13 July) and a subject boundary (the OpenAI-infrastructure branch was out of METR's scope on any date). The 13 July card is the origin of the artifacts page 068 recovers; it wears the OpenAI header even though it falls inside the calendar window.

@@ -1,9 +1,9 @@
 {
   "status": "incomplete; associations are not full-detail dispositions",
-  "scenes": 296,
-  "drafted_beats": 947,
+  "scenes": 298,
+  "drafted_beats": 954,
   "canonical_pages": null,
-  "associated_old_panels": 502,
+  "associated_old_panels": 504,
   "old_panels": [
     {
       "old_edition": "legacy-332b5ed63262",
@@ -3333,12 +3333,14 @@
       "draft_beats": [
         "hf-rubygems-staging-stage",
         "hf-rubygems-staging-scope",
+        "hf-rubygems-staging-review-boundary",
         "hf-artifactory-execution-execution",
         "hf-artifactory-execution-key-theft",
         "hf-artifactory-execution-forgery",
-        "hf-admin-sweep-sweep"
+        "hf-admin-sweep-sweep",
+        "prod-branch-scope-subject"
       ],
-      "detail_review": "pending",
+      "detail_review": "elements-reviewed",
       "exact_strings": []
     },
     {
@@ -3347,18 +3349,22 @@
       "draft_beats": [
         "hf-rubygems-staging-scope",
         "hf-rubygems-staging-review-boundary",
-        "hf-artifactory-execution-evidence-limit"
+        "hf-artifactory-execution-evidence-limit",
+        "prod-branch-scope-subject",
+        "prod-branch-scope-precision"
       ],
-      "detail_review": "pending",
+      "detail_review": "elements-reviewed",
       "exact_strings": []
     },
     {
       "old_edition": "legacy-332b5ed63262",
       "old_panel": "067-03",
       "draft_beats": [
-        "hf-rubygems-staging-review-boundary"
+        "hf-rubygems-staging-review-boundary",
+        "prod-branch-scope-precision",
+        "prod-branch-scope-availability"
       ],
-      "detail_review": "pending",
+      "detail_review": "elements-reviewed",
       "exact_strings": []
     },
     {
@@ -3367,7 +3373,7 @@
       "draft_beats": [
         "hf-later-population-new-run"
       ],
-      "detail_review": "pending",
+      "detail_review": "elements-reviewed",
       "exact_strings": []
     },
     {
@@ -3376,7 +3382,7 @@
       "draft_beats": [
         "hf-later-population-model"
       ],
-      "detail_review": "pending",
+      "detail_review": "elements-reviewed",
       "exact_strings": []
     },
     {
@@ -3386,25 +3392,27 @@
         "hf-admin-sweep-artifacts",
         "hf-later-population-readable-cache"
       ],
-      "detail_review": "pending",
+      "detail_review": "elements-reviewed",
       "exact_strings": []
     },
     {
       "old_edition": "legacy-332b5ed63262",
       "old_panel": "068-04",
       "draft_beats": [
-        "hf-later-population-fresh-access"
+        "hf-later-population-fresh-access",
+        "hf-later-population-inheritance-limit"
       ],
-      "detail_review": "pending",
+      "detail_review": "elements-reviewed",
       "exact_strings": []
     },
     {
       "old_edition": "legacy-332b5ed63262",
       "old_panel": "068-05",
       "draft_beats": [
-        "hf-later-population-fresh-access"
+        "hf-later-population-fresh-access",
+        "hf-later-population-inheritance-limit"
       ],
-      "detail_review": "pending",
+      "detail_review": "elements-reviewed",
       "exact_strings": []
     },
     {
@@ -3413,7 +3421,7 @@
       "draft_beats": [
         "hf-july19-alert-alert"
       ],
-      "detail_review": "pending",
+      "detail_review": "elements-reviewed",
       "exact_strings": []
     },
     {
@@ -3424,7 +3432,7 @@
         "hf-secrets-read",
         "hf-secrets-scope"
       ],
-      "detail_review": "pending",
+      "detail_review": "elements-reviewed",
       "exact_strings": []
     },
     {
@@ -3434,7 +3442,7 @@
         "hf-host-root-host",
         "hf-host-root-boundary"
       ],
-      "detail_review": "pending",
+      "detail_review": "elements-reviewed",
       "exact_strings": []
     },
     {
@@ -3442,61 +3450,70 @@
       "old_panel": "069-04",
       "draft_beats": [
         "hf-privileged-pod-pod",
+        "hf-second-disk-mount-success",
         "hf-later-admin-credential"
       ],
-      "detail_review": "pending",
+      "detail_review": "elements-reviewed",
       "exact_strings": []
     },
     {
       "old_edition": "legacy-332b5ed63262",
       "old_panel": "069-05",
       "draft_beats": [
-        "hf-helper-replacement-machinery"
+        "hf-later-population-network-exposure",
+        "hf-helper-replacement-machinery",
+        "hf-helper-replacement-replacement"
       ],
-      "detail_review": "pending",
+      "detail_review": "elements-reviewed",
       "exact_strings": []
     },
     {
       "old_edition": "legacy-332b5ed63262",
       "old_panel": "070-01",
       "draft_beats": [
-        "hf-later-population-source-boundary"
+        "hf-later-population-source-boundary",
+        "prod-branch-scope-availability"
       ],
-      "detail_review": "pending",
+      "detail_review": "elements-reviewed",
       "exact_strings": []
     },
     {
       "old_edition": "legacy-332b5ed63262",
       "old_panel": "070-02",
       "draft_beats": [
-        "hf-later-population-source-boundary"
+        "hf-later-population-source-boundary",
+        "prod-branch-scope-precision"
       ],
-      "detail_review": "pending",
+      "detail_review": "elements-reviewed",
       "exact_strings": []
     },
     {
       "old_edition": "legacy-332b5ed63262",
       "old_panel": "070-03",
       "draft_beats": [
-        "hf-later-population-source-boundary"
+        "hf-later-population-source-boundary",
+        "prod-branch-scope-availability"
       ],
-      "detail_review": "pending",
+      "detail_review": "elements-reviewed",
       "exact_strings": []
     },
     {
       "old_edition": "legacy-332b5ed63262",
       "old_panel": "070-04",
       "draft_beats": [
-        "hf-later-population-source-boundary"
+        "hf-later-population-source-boundary",
+        "prod-branch-scope-confidence"
       ],
-      "detail_review": "pending",
+      "detail_review": "elements-reviewed",
       "exact_strings": []
     },
     {
       "old_edition": "legacy-332b5ed63262",
       "old_panel": "070-05",
-      "draft_beats": [],
-      "detail_review": "pending",
+      "draft_beats": [
+        "prod-branch-scope-confidence"
+      ],
+      "detail_review": "elements-reviewed",
       "exact_strings": []
     },
     {
@@ -3505,7 +3522,7 @@
       "draft_beats": [
         "hf-helper-replacement-machinery"
       ],
-      "detail_review": "pending",
+      "detail_review": "elements-reviewed",
       "exact_strings": []
     },
     {
@@ -3515,7 +3532,7 @@
         "hf-helper-replacement-stop",
         "hf-helper-replacement-replacement"
       ],
-      "detail_review": "pending",
+      "detail_review": "elements-reviewed",
       "exact_strings": []
     },
     {
@@ -3525,7 +3542,7 @@
         "hf-listener-replacement-old-listeners",
         "hf-listener-replacement-new-listeners"
       ],
-      "detail_review": "pending",
+      "detail_review": "elements-reviewed",
       "exact_strings": []
     },
     {
@@ -3534,7 +3551,7 @@
       "draft_beats": [
         "hf-listener-replacement-measurement"
       ],
-      "detail_review": "pending",
+      "detail_review": "elements-reviewed",
       "exact_strings": []
     },
     {
@@ -3544,14 +3561,16 @@
         "hf-cleanup-cleanup",
         "hf-cleanup-score-limit"
       ],
-      "detail_review": "pending",
+      "detail_review": "elements-reviewed",
       "exact_strings": []
     },
     {
       "old_edition": "legacy-332b5ed63262",
       "old_panel": "072-01",
-      "draft_beats": [],
-      "detail_review": "pending",
+      "draft_beats": [
+        "hf-listener-replacement-measurement"
+      ],
+      "detail_review": "elements-reviewed",
       "exact_strings": []
     },
     {
@@ -3560,7 +3579,7 @@
       "draft_beats": [
         "hf-intended-solution-flag"
       ],
-      "detail_review": "pending",
+      "detail_review": "elements-reviewed",
       "exact_strings": []
     },
     {
@@ -3569,7 +3588,7 @@
       "draft_beats": [
         "hf-intended-solution-distinct-action"
       ],
-      "detail_review": "pending",
+      "detail_review": "elements-reviewed",
       "exact_strings": []
     },
     {
@@ -3578,7 +3597,7 @@
       "draft_beats": [
         "hf-intended-solution-counterexample"
       ],
-      "detail_review": "pending",
+      "detail_review": "elements-reviewed",
       "exact_strings": []
     },
     {
@@ -3588,7 +3607,7 @@
         "hf-evaluations-stop-response",
         "hf-evaluations-stop-scope"
       ],
-      "detail_review": "pending",
+      "detail_review": "elements-reviewed",
       "exact_strings": []
     },
     {
@@ -5692,13 +5711,13 @@
     }
   ],
   "by_row": {
-    "HuggingFace": 397,
+    "HuggingFace": 400,
     "GemStuffer": 58,
     "Collusion Wiki": 118,
     "Curt": 28,
     "Codex": 98,
-    "Claude": 248
+    "Claude": 252
   },
-  "reviewed_old_panels": 464,
-  "reviewed_source_elements": 1332
+  "reviewed_old_panels": 492,
+  "reviewed_source_elements": 1404
 }

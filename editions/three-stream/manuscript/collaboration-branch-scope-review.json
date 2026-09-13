@@ -1,0 +1,233 @@
+[
+  {
+    "id": "prod-branch-scope-review",
+    "title": "What the later branch’s source boundary means",
+    "movement": "collaboration",
+    "owner": "Claude",
+    "start": "2026-09-06T15:02:31.590Z",
+    "end": "2026-09-06T15:02:31.590Z",
+    "original_timezone": "UTC",
+    "precision": "millisecond",
+    "chronology_basis": "Narrator examines the earlier committed draft alongside the September 6 manuscript-review report. Source availability precedes this scene. No specific read time or private decision is assigned to Claude.",
+    "source_limit": "Narrator analysis of historical draft in the existing dated review context. No additional reading act is attributed to Claude; source timelines remain approximate and no event is replayed.",
+    "status": "detailed-draft",
+    "beats": [
+      {
+        "id": "prod-branch-scope-subject",
+        "old_panels": [
+          "067-01",
+          "067-02"
+        ],
+        "frame": "Historical draft identified as authored material, with present narrator analysis. No invented exchange, new reading act or incident replay is assigned to the dated reviewer.",
+        "lettering": [
+          "The earlier draft stops at a calendar boundary. The stronger distinction is scope: a July 13 event can fall within METR’s dates while confirmation of the OpenAI-infrastructure compromise remains excluded. Mere mention in METR is not independent confirmation of that branch."
+        ],
+        "exact_strings": [],
+        "sources": [
+          {
+            "key": "PROD-47704e3a3f45",
+            "locator": "256t/editions/selected-messages/47704e3a3f4568aef4205b08137115adcfe1a9daca59f39d4327472e3a8da722.json; record SHA-256 47704e3a3f4568aef4205b08137115adcfe1a9daca59f39d4327472e3a8da722",
+            "available": "2026-09-06T15:02:31.590Z"
+          },
+          {
+            "key": "DRAFT-BRANCH-067",
+            "locator": "editions/three-stream/evidence/branch-scope-067-7fa53878c493.md; panels and notes",
+            "available": "2026-09-05T22:33:29Z"
+          },
+          {
+            "key": "METR",
+            "locator": "pp. 21–23; subject and date scope",
+            "available": "2026-08-26"
+          },
+          {
+            "key": "OAI-TR",
+            "locator": "§V and §X; July 13 and 19 account",
+            "available": "2026-08-26"
+          }
+        ],
+        "evidence_status": "documented-message-with-reconstructed-visualization",
+        "time_start": "2026-09-06T15:02:31.590Z",
+        "time_end": "2026-09-06T15:02:31.590Z",
+        "art_reuse": "none-approved",
+        "detail_decisions": [
+          {
+            "old_panel": "067-01",
+            "disposition": "combine",
+            "reason": "Preserve date and subject boundaries prominently without an incident rewind, borrowed row, or universal claim that no outside review exists."
+          },
+          {
+            "old_panel": "067-02",
+            "disposition": "combine",
+            "reason": "Preserve date and subject boundaries prominently without an incident rewind, borrowed row, or universal claim that no outside review exists."
+          }
+        ],
+        "source_record": "current-mac:0454eab1-f0a3-4674-82b3-3187cb54da2a:647"
+      },
+      {
+        "id": "prod-branch-scope-precision",
+        "old_panels": [
+          "067-02",
+          "067-03",
+          "070-02"
+        ],
+        "frame": "Historical draft identified as authored material, with present narrator analysis. No invented exchange, new reading act or incident replay is assigned to the dated reviewer.",
+        "lettering": [
+          "Detailed timestamps make claims specific and checkable; they do not themselves authenticate the underlying records. Keep OpenAI’s attribution with each later event rather than making one separator carry every subsequent qualification."
+        ],
+        "exact_strings": [],
+        "sources": [
+          {
+            "key": "PROD-47704e3a3f45",
+            "locator": "256t/editions/selected-messages/47704e3a3f4568aef4205b08137115adcfe1a9daca59f39d4327472e3a8da722.json; record SHA-256 47704e3a3f4568aef4205b08137115adcfe1a9daca59f39d4327472e3a8da722",
+            "available": "2026-09-06T15:02:31.590Z"
+          },
+          {
+            "key": "DRAFT-BRANCH-067",
+            "locator": "editions/three-stream/evidence/branch-scope-067-7fa53878c493.md; panels and notes",
+            "available": "2026-09-05T22:33:29Z"
+          },
+          {
+            "key": "METR",
+            "locator": "pp. 21–23; subject and date scope",
+            "available": "2026-08-26"
+          },
+          {
+            "key": "OAI-TR",
+            "locator": "§V and §X; July 13 and 19 account",
+            "available": "2026-08-26"
+          }
+        ],
+        "evidence_status": "documented-message-with-reconstructed-visualization",
+        "time_start": "2026-09-06T15:02:31.590Z",
+        "time_end": "2026-09-06T15:02:31.590Z",
+        "art_reuse": "none-approved",
+        "detail_decisions": [
+          {
+            "old_panel": "067-02",
+            "disposition": "combine",
+            "reason": "Preserve date and subject boundaries prominently without an incident rewind, borrowed row, or universal claim that no outside review exists."
+          },
+          {
+            "old_panel": "067-03",
+            "disposition": "combine",
+            "reason": "Preserve date and subject boundaries prominently without an incident rewind, borrowed row, or universal claim that no outside review exists."
+          },
+          {
+            "old_panel": "070-02",
+            "disposition": "combine",
+            "reason": "Retain source-method argument as dated draft analysis. METR’s absence is not proof of universal unavailability, falsehood or a measured confidence ranking."
+          }
+        ],
+        "source_record": "current-mac:0454eab1-f0a3-4674-82b3-3187cb54da2a:647"
+      },
+      {
+        "id": "prod-branch-scope-availability",
+        "old_panels": [
+          "067-03",
+          "070-01",
+          "070-03"
+        ],
+        "frame": "Historical draft identified as authored material, with present narrator analysis. No invented exchange, new reading act or incident replay is assigned to the dated reviewer.",
+        "lettering": [
+          "METR did not review these later-run records. That known limitation does not, on its own, establish that no other investigator ever saw them, that every underlying artifact is unavailable, or that the account is false. The book must name the review it can substantiate."
+        ],
+        "exact_strings": [],
+        "sources": [
+          {
+            "key": "PROD-47704e3a3f45",
+            "locator": "256t/editions/selected-messages/47704e3a3f4568aef4205b08137115adcfe1a9daca59f39d4327472e3a8da722.json; record SHA-256 47704e3a3f4568aef4205b08137115adcfe1a9daca59f39d4327472e3a8da722",
+            "available": "2026-09-06T15:02:31.590Z"
+          },
+          {
+            "key": "DRAFT-BRANCH-070",
+            "locator": "editions/three-stream/evidence/branch-scope-070-7fa53878c493.md; panels and notes",
+            "available": "2026-09-05T22:33:29Z"
+          },
+          {
+            "key": "METR",
+            "locator": "pp. 21–23; subject and date scope",
+            "available": "2026-08-26"
+          },
+          {
+            "key": "OAI-TR",
+            "locator": "§V and §X; July 13 and 19 account",
+            "available": "2026-08-26"
+          }
+        ],
+        "evidence_status": "documented-message-with-reconstructed-visualization",
+        "time_start": "2026-09-06T15:02:31.590Z",
+        "time_end": "2026-09-06T15:02:31.590Z",
+        "art_reuse": "none-approved",
+        "detail_decisions": [
+          {
+            "old_panel": "067-03",
+            "disposition": "combine",
+            "reason": "Preserve date and subject boundaries prominently without an incident rewind, borrowed row, or universal claim that no outside review exists."
+          },
+          {
+            "old_panel": "070-01",
+            "disposition": "combine",
+            "reason": "Retain source-method argument as dated draft analysis. METR’s absence is not proof of universal unavailability, falsehood or a measured confidence ranking."
+          },
+          {
+            "old_panel": "070-03",
+            "disposition": "combine",
+            "reason": "Retain source-method argument as dated draft analysis. METR’s absence is not proof of universal unavailability, falsehood or a measured confidence ranking."
+          }
+        ],
+        "source_record": "current-mac:0454eab1-f0a3-4674-82b3-3187cb54da2a:647"
+      },
+      {
+        "id": "prod-branch-scope-confidence",
+        "old_panels": [
+          "070-04",
+          "070-05"
+        ],
+        "frame": "Historical draft identified as authored material, with present narrator analysis. No invented exchange, new reading act or incident replay is assigned to the dated reviewer.",
+        "lettering": [
+          "The account is consequential but lacks METR corroboration for this branch. The old confidence meter cannot supply a numerical confidence level, and ranking these as the strongest claims with the weakest evidence is the book’s comparison, not a measured property of all incident evidence."
+        ],
+        "exact_strings": [],
+        "sources": [
+          {
+            "key": "PROD-47704e3a3f45",
+            "locator": "256t/editions/selected-messages/47704e3a3f4568aef4205b08137115adcfe1a9daca59f39d4327472e3a8da722.json; record SHA-256 47704e3a3f4568aef4205b08137115adcfe1a9daca59f39d4327472e3a8da722",
+            "available": "2026-09-06T15:02:31.590Z"
+          },
+          {
+            "key": "DRAFT-BRANCH-070",
+            "locator": "editions/three-stream/evidence/branch-scope-070-7fa53878c493.md; panels and notes",
+            "available": "2026-09-05T22:33:29Z"
+          },
+          {
+            "key": "METR",
+            "locator": "pp. 21–23; subject and date scope",
+            "available": "2026-08-26"
+          },
+          {
+            "key": "OAI-TR",
+            "locator": "§V and §X; July 13 and 19 account",
+            "available": "2026-08-26"
+          }
+        ],
+        "evidence_status": "documented-message-with-reconstructed-visualization",
+        "time_start": "2026-09-06T15:02:31.590Z",
+        "time_end": "2026-09-06T15:02:31.590Z",
+        "art_reuse": "none-approved",
+        "detail_decisions": [
+          {
+            "old_panel": "070-04",
+            "disposition": "combine",
+            "reason": "Retain source-method argument as dated draft analysis. METR’s absence is not proof of universal unavailability, falsehood or a measured confidence ranking."
+          },
+          {
+            "old_panel": "070-05",
+            "disposition": "combine",
+            "reason": "Retain source-method argument as dated draft analysis. METR’s absence is not proof of universal unavailability, falsehood or a measured confidence ranking."
+          }
+        ],
+        "source_record": "current-mac:0454eab1-f0a3-4674-82b3-3187cb54da2a:647"
+      }
+    ]
+  }
+]
