@@ -519,3 +519,36 @@ The real Black Hat continuation argument on frozen 101 remains to be sourced
 and reviewed; the historical hearing’s removal does not remove that argument.
 Other unreviewed incident, analysis and ending material remains. Draft checks
 and whitespace checks pass; no canonical allocation or frozen dependent changed.
+
+### Defensive automation argument — 13 September 2026
+
+Added seventeen beats in `manuscript/collaboration-defensive-automation.json`.
+Frozen 101’s six panels and eighteen elements now have individual dispositions.
+The September 5 historical version is preserved exactly as
+`evidence/defensive-argument-099-7fa53878c493.md`, verified against Git, and
+examined in the September 6 manuscript-review context. No hearing or extra
+source-reading action is attributed to Claude.
+
+Read the preserved automatic Black Hat transcript at 30:26–37:06. The expanded
+argument retains the forecast of deliberate offensive collectives, speed and
+scale, the claimed automation gap, discovery versus patching bottlenecks,
+patch proposal, deployment and rollback, gradual implementation, partner work,
+incident-response capacity, slowing attackers, risk/return priorities, basic
+security boundaries, model choice and the relative benefit to defense sought
+by the speakers. These are attributed arguments and proposed capabilities, not
+independently demonstrated universal outcomes.
+
+The historical remove-human arrow and categorical partial-automation failure
+are replaced with the actual loop and the source’s progressive/iterative
+qualification. The book’s architectural resemblance remains an interpretation
+that does not equate purpose, permission, oversight or consequences. A strong
+case for defensive work is not treated as self-verification of its results.
+
+One short excerpt is registered as verbatim against the named automatic
+transcript, with unresolved rights. The reader-visible narration labels the
+record as automatic transcription; no audio-level verification is claimed.
+The original transcript, including its transcription errors, is unchanged.
+
+Draft and whitespace checks pass; no canonical pages are allocated. Full
+old-script coverage, chronology/readability reconciliation, ending treatment
+and the final three-row preview remain unfinished.

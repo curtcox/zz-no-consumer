@@ -2566,6 +2566,198 @@ THIS IS THE FIRST PAGE THAT ASKS WHAT A HUMAN COULD HAVE SAID BACK.
 
 **Draft destination:** prod-accountability-missing, prod-accountability-human
 
+## legacy-332b5ed63262 · 101-01
+
+### legacy-101-01-detail-01 · frame
+
+**Frozen wording:**
+
+The chair's packet is set aside. Instead, a screen lowers into the invented room carrying a real, dated artifact: a conference slide, two speakers at a lectern rendered as unidentifiable silhouettes, and a citation line legible at reading size.
+
+**Decision:** omit — Retire the invented hearing-room staging; public-source attribution and the argument’s conclusion survive in narrator discussion.
+
+**Draft destination:** Omitted; original remains frozen.
+
+### legacy-101-01-detail-03 · lettering
+
+**Frozen wording:**
+
+BLACK HAT USA — 5 AUGUST 2026 — OPENAI, ALIGNMENT AND SECURITY
+
+**Decision:** rewrite — Retain talk date and institutional roles as public-source context; replace fictional chair dialogue and vague three-weeks phrasing with publication dates and transcript limitations.
+
+**Draft destination:** prod-defense-artifact
+
+### legacy-101-01-detail-04 · lettering
+
+**Frozen wording:**
+
+The strongest case for continuing was made in public, three weeks after the incident. We will read it rather than imagine it.
+
+**Decision:** rewrite — Retain talk date and institutional roles as public-source context; replace fictional chair dialogue and vague three-weeks phrasing with publication dates and transcript limitations.
+
+**Draft destination:** prod-defense-artifact
+
+## legacy-332b5ed63262 · 101-02
+
+### legacy-101-02-detail-01 · frame
+
+**Frozen wording:**
+
+The first argument, set as an attributed block against the screen, in the talk's own register rather than the forum's.
+
+**Decision:** split — Retain the unintended-evaluation account and deliberate-attacker forecast as the speakers’ argument, adding their speed/scale/coordination rationale without presenting a forecast as an observed outcome.
+
+**Draft destination:** prod-defense-unintended, prod-defense-scale
+
+### legacy-101-02-detail-03 · lettering
+
+**Frozen wording:**
+
+FULLY AUTOMATED OFFENSIVE ATTACKS ARE REAL NOW.
+
+**Decision:** split — Retain the unintended-evaluation account and deliberate-attacker forecast as the speakers’ argument, adding their speed/scale/coordination rationale without presenting a forecast as an observed outcome.
+
+**Draft destination:** prod-defense-unintended, prod-defense-scale
+
+### legacy-101-02-detail-04 · lettering
+
+**Frozen wording:**
+
+THIS WAS AN UNINTENDED SIDE EFFECT OF RUNNING EVALUATIONS. THREAT ACTORS WILL DO IT ON PURPOSE.
+
+**Decision:** split — Retain the unintended-evaluation account and deliberate-attacker forecast as the speakers’ argument, adding their speed/scale/coordination rationale without presenting a forecast as an observed outcome.
+
+**Draft destination:** prod-defense-unintended, prod-defense-scale
+
+## legacy-332b5ed63262 · 101-03
+
+### legacy-101-03-detail-01 · frame
+
+**Frozen wording:**
+
+The second argument. A balance with `OFFENSE` already moving and `DEFENSE` still.
+
+**Decision:** split — Preserve the qualified offense/defense automation gap and relative-benefit goal, without implying no defensive progress or a universal measured law.
+
+**Draft destination:** prod-defense-gap, prod-defense-race-to-repair, prod-defense-relative-gain
+
+### legacy-101-03-detail-03 · lettering
+
+**Frozen wording:**
+
+WE HAVE AN EXISTENCE PROOF THAT OFFENSE CAN BE FULLY AUTOMATED. WE HAVE NO SUCH PROOF FOR DEFENSE.
+
+**Decision:** split — Preserve the qualified offense/defense automation gap and relative-benefit goal, without implying no defensive progress or a universal measured law.
+
+**Draft destination:** prod-defense-gap, prod-defense-race-to-repair, prod-defense-relative-gain
+
+### legacy-101-03-detail-04 · lettering
+
+**Frozen wording:**
+
+IF MODEL INTELLIGENCE IMPROVEMENTS ARE NOT MORE ADDITIVE TO DEFENSE THAN OFFENSE, EVERY INCREASE IN INTELLIGENCE FAVORS THE ATTACKER.
+
+**Decision:** split — Preserve the qualified offense/defense automation gap and relative-benefit goal, without implying no defensive progress or a universal measured law.
+
+**Draft destination:** prod-defense-gap, prod-defense-race-to-repair, prod-defense-relative-gain
+
+## legacy-332b5ed63262 · 101-04
+
+### legacy-101-04-detail-01 · frame
+
+**Frozen wording:**
+
+The third argument, and the one the forum was built to surface. A defensive loop is drawn as a closed circuit: find, patch, deploy, roll back. A small human figure stands inside one segment of it. An arrow labeled `REMOVE` points at the figure. The talk's stated reason is lettered beside it.
+
+**Decision:** split — Retain discovery, patching, rollout and rollback; restore progressive implementation and partner work. Replace the remove-human shortcut and unqualified partial-automation failure with the actual bottleneck argument.
+
+**Draft destination:** prod-defense-bottleneck, prod-defense-patch, prod-defense-rollback, prod-defense-incremental
+
+### legacy-101-04-detail-03 · lettering
+
+**Frozen wording:**
+
+PARTIAL AUTOMATION FAILS. AUTOMATING DISCOVERY WITHOUT AUTOMATING PATCHING ONLY DROWNS THE ENGINEERS.
+
+**Decision:** split — Retain discovery, patching, rollout and rollback; restore progressive implementation and partner work. Replace the remove-human shortcut and unqualified partial-automation failure with the actual bottleneck argument.
+
+**Draft destination:** prod-defense-bottleneck, prod-defense-patch, prod-defense-rollback, prod-defense-incremental
+
+### legacy-101-04-detail-04 · lettering
+
+**Frozen wording:**
+
+THE LOOP NEEDS TO BE FULLY AUTOMATED IN ITS END STATE.
+
+**Decision:** split — Retain discovery, patching, rollout and rollback; restore progressive implementation and partner work. Replace the remove-human shortcut and unqualified partial-automation failure with the actual bottleneck argument.
+
+**Draft destination:** prod-defense-bottleneck, prod-defense-patch, prod-defense-rollback, prod-defense-incremental
+
+## legacy-332b5ed63262 · 101-05
+
+### legacy-101-05-detail-01 · frame
+
+**Frozen wording:**
+
+No new speaker. The forum's four columns from [page 099](099.md) remain at the edge of frame. Against them, three of the book's own earlier images are set beside the closed defensive circuit at matching scale: the agent lanes of [page 007](007.md), the delegated workstreams of [page 011](011.md), the distributed route of [page 049](049.md). The compositions rhyme. Nothing is captioned as an accusation.
+
+**Decision:** rewrite — Retain the book’s structural resemblance while distinguishing purpose, permission and oversight; do not replay earlier panels or convert the source’s proposed end state into a necessary universal policy.
+
+**Draft destination:** prod-defense-rhyme
+
+### legacy-101-05-detail-02 · action
+
+**Frozen wording:**
+
+The proposed remedy and the documented incident are shown to have the same shape.
+
+**Decision:** rewrite — Retain the book’s structural resemblance while distinguishing purpose, permission and oversight; do not replay earlier panels or convert the source’s proposed end state into a necessary universal policy.
+
+**Draft destination:** prod-defense-rhyme
+
+### legacy-101-05-detail-03 · lettering
+
+**Frozen wording:**
+
+THE ANSWER TO AGENTS MOVING FASTER THAN PEOPLE COULD FOLLOW IS AGENTS MOVING FASTER THAN PEOPLE CAN FOLLOW.
+
+**Decision:** rewrite — Retain the book’s structural resemblance while distinguishing purpose, permission and oversight; do not replay earlier panels or convert the source’s proposed end state into a necessary universal policy.
+
+**Draft destination:** prod-defense-rhyme
+
+### legacy-101-05-detail-04 · lettering
+
+**Frozen wording:**
+
+IT IS OFFERED NOT AS A PREFERENCE BUT AS A NECESSITY.
+
+**Decision:** rewrite — Retain the book’s structural resemblance while distinguishing purpose, permission and oversight; do not replay earlier panels or convert the source’s proposed end state into a necessary universal policy.
+
+**Draft destination:** prod-defense-rhyme
+
+## legacy-332b5ed63262 · 101-06
+
+### legacy-101-06-detail-01 · frame
+
+**Frozen wording:**
+
+The screen goes dark. Only the public-interest counsel's line remains under the banner.
+
+**Decision:** omit — Retire the invented hearing-room staging; public-source attribution and the argument’s conclusion survive in narrator discussion.
+
+**Draft destination:** Omitted; original remains frozen.
+
+### legacy-101-06-detail-03 · lettering
+
+**Frozen wording:**
+
+Then continuation may be defensible. It is still not self-verifying.
+
+**Decision:** rewrite — Keep the distinction between a defensible continuation argument and evidence of effectiveness, without invented counsel testimony.
+
+**Draft destination:** prod-defense-verification
+
 ## legacy-332b5ed63262 · 102-01
 
 ### legacy-102-01-detail-03 · lettering

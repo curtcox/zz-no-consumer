@@ -3928,5 +3928,297 @@
         }
       }
     ]
+  },
+  {
+    "old_panel": "101-01",
+    "old_edition": "legacy-332b5ed63262",
+    "reviewed_on": "2026-09-13",
+    "status": "elements-reviewed",
+    "elements": [
+      {
+        "id": "legacy-101-01-detail-01",
+        "original_sha256": "725aea6aeab93a39e1303f59b8a65f8b593a796e39766cd027f460d0951ff16a",
+        "disposition": "omit",
+        "beats": [],
+        "reason": "Retire the invented hearing-room staging; public-source attribution and the argument’s conclusion survive in narrator discussion.",
+        "target_sha256": {}
+      },
+      {
+        "id": "legacy-101-01-detail-03",
+        "original_sha256": "eda7756293c851817b2896552c2191e52c81b08695befba55860b01a45e1dec9",
+        "disposition": "rewrite",
+        "beats": [
+          "prod-defense-artifact"
+        ],
+        "reason": "Retain talk date and institutional roles as public-source context; replace fictional chair dialogue and vague three-weeks phrasing with publication dates and transcript limitations.",
+        "target_sha256": {
+          "prod-defense-artifact": "2a910bc2469042c5b8bb7d1da5e3fdbfcfc1ae7800627e3b64cfd4dfee88894e"
+        }
+      },
+      {
+        "id": "legacy-101-01-detail-04",
+        "original_sha256": "0746c61bdee8511e3a64ea50a60e7053dc3b84bb7239713c021f51b65161ec44",
+        "disposition": "rewrite",
+        "beats": [
+          "prod-defense-artifact"
+        ],
+        "reason": "Retain talk date and institutional roles as public-source context; replace fictional chair dialogue and vague three-weeks phrasing with publication dates and transcript limitations.",
+        "target_sha256": {
+          "prod-defense-artifact": "2a910bc2469042c5b8bb7d1da5e3fdbfcfc1ae7800627e3b64cfd4dfee88894e"
+        }
+      }
+    ]
+  },
+  {
+    "old_panel": "101-02",
+    "old_edition": "legacy-332b5ed63262",
+    "reviewed_on": "2026-09-13",
+    "status": "elements-reviewed",
+    "elements": [
+      {
+        "id": "legacy-101-02-detail-01",
+        "original_sha256": "7dd56c3f251cc67c90f38b8d2791a36662a07c9a3d19d9b20a4b9f5e3dc81d66",
+        "disposition": "split",
+        "beats": [
+          "prod-defense-unintended",
+          "prod-defense-scale"
+        ],
+        "reason": "Retain the unintended-evaluation account and deliberate-attacker forecast as the speakers’ argument, adding their speed/scale/coordination rationale without presenting a forecast as an observed outcome.",
+        "target_sha256": {
+          "prod-defense-unintended": "5fbf6c95ead0206fcd6ca3663dcec7425a24d24a4d9aa242b1c75c515d08b55f",
+          "prod-defense-scale": "d3ab476fa938785457053f4bdc42d4819b2a472f5285919718160a492b0f895e"
+        }
+      },
+      {
+        "id": "legacy-101-02-detail-03",
+        "original_sha256": "e5c0276c304e94042becfe2ee1fcf4cdc76014e22bd049daaea0705969ef8a30",
+        "disposition": "split",
+        "beats": [
+          "prod-defense-unintended",
+          "prod-defense-scale"
+        ],
+        "reason": "Retain the unintended-evaluation account and deliberate-attacker forecast as the speakers’ argument, adding their speed/scale/coordination rationale without presenting a forecast as an observed outcome.",
+        "target_sha256": {
+          "prod-defense-unintended": "5fbf6c95ead0206fcd6ca3663dcec7425a24d24a4d9aa242b1c75c515d08b55f",
+          "prod-defense-scale": "d3ab476fa938785457053f4bdc42d4819b2a472f5285919718160a492b0f895e"
+        }
+      },
+      {
+        "id": "legacy-101-02-detail-04",
+        "original_sha256": "af983148edc4c0c3c2d545dd6646f2acd060a620132322fc818622c87b42be9d",
+        "disposition": "split",
+        "beats": [
+          "prod-defense-unintended",
+          "prod-defense-scale"
+        ],
+        "reason": "Retain the unintended-evaluation account and deliberate-attacker forecast as the speakers’ argument, adding their speed/scale/coordination rationale without presenting a forecast as an observed outcome.",
+        "target_sha256": {
+          "prod-defense-unintended": "5fbf6c95ead0206fcd6ca3663dcec7425a24d24a4d9aa242b1c75c515d08b55f",
+          "prod-defense-scale": "d3ab476fa938785457053f4bdc42d4819b2a472f5285919718160a492b0f895e"
+        }
+      }
+    ]
+  },
+  {
+    "old_panel": "101-03",
+    "old_edition": "legacy-332b5ed63262",
+    "reviewed_on": "2026-09-13",
+    "status": "elements-reviewed",
+    "elements": [
+      {
+        "id": "legacy-101-03-detail-01",
+        "original_sha256": "74f43eeb4449f89bdcf4e52ee37c4be6ccf50f4a6aed9fe7864a226a5f51b95c",
+        "disposition": "split",
+        "beats": [
+          "prod-defense-gap",
+          "prod-defense-race-to-repair",
+          "prod-defense-relative-gain"
+        ],
+        "reason": "Preserve the qualified offense/defense automation gap and relative-benefit goal, without implying no defensive progress or a universal measured law.",
+        "target_sha256": {
+          "prod-defense-gap": "2af5c4a6f10bc88110655a97e9e854abde3f93746d8cdc7345b37b84dcce1d3d",
+          "prod-defense-race-to-repair": "ff376346cce72fba4e4a93fbdf421367050cb51b3f5fcce27962922816ae0d6b",
+          "prod-defense-relative-gain": "bfe8d0f699118d70108f1dab51f123d952af2dab353a00752805c8b766f2560c"
+        }
+      },
+      {
+        "id": "legacy-101-03-detail-03",
+        "original_sha256": "bce6ff9ad4f49438b78ef1cd6af240bc9b9bf6b37463109d1db9376c283d5afd",
+        "disposition": "split",
+        "beats": [
+          "prod-defense-gap",
+          "prod-defense-race-to-repair",
+          "prod-defense-relative-gain"
+        ],
+        "reason": "Preserve the qualified offense/defense automation gap and relative-benefit goal, without implying no defensive progress or a universal measured law.",
+        "target_sha256": {
+          "prod-defense-gap": "2af5c4a6f10bc88110655a97e9e854abde3f93746d8cdc7345b37b84dcce1d3d",
+          "prod-defense-race-to-repair": "ff376346cce72fba4e4a93fbdf421367050cb51b3f5fcce27962922816ae0d6b",
+          "prod-defense-relative-gain": "bfe8d0f699118d70108f1dab51f123d952af2dab353a00752805c8b766f2560c"
+        }
+      },
+      {
+        "id": "legacy-101-03-detail-04",
+        "original_sha256": "d60661c0e114b8e38ac8dd3344a29ceea9ff7a45a23cd3d97792d1f7b86d5184",
+        "disposition": "split",
+        "beats": [
+          "prod-defense-gap",
+          "prod-defense-race-to-repair",
+          "prod-defense-relative-gain"
+        ],
+        "reason": "Preserve the qualified offense/defense automation gap and relative-benefit goal, without implying no defensive progress or a universal measured law.",
+        "target_sha256": {
+          "prod-defense-gap": "2af5c4a6f10bc88110655a97e9e854abde3f93746d8cdc7345b37b84dcce1d3d",
+          "prod-defense-race-to-repair": "ff376346cce72fba4e4a93fbdf421367050cb51b3f5fcce27962922816ae0d6b",
+          "prod-defense-relative-gain": "bfe8d0f699118d70108f1dab51f123d952af2dab353a00752805c8b766f2560c"
+        }
+      }
+    ]
+  },
+  {
+    "old_panel": "101-04",
+    "old_edition": "legacy-332b5ed63262",
+    "reviewed_on": "2026-09-13",
+    "status": "elements-reviewed",
+    "elements": [
+      {
+        "id": "legacy-101-04-detail-01",
+        "original_sha256": "f0f176a9a55484c2ff8bd9ba9aa6d4b61f7a7a6b35ac1d5fe075427b0e250198",
+        "disposition": "split",
+        "beats": [
+          "prod-defense-bottleneck",
+          "prod-defense-patch",
+          "prod-defense-rollback",
+          "prod-defense-incremental"
+        ],
+        "reason": "Retain discovery, patching, rollout and rollback; restore progressive implementation and partner work. Replace the remove-human shortcut and unqualified partial-automation failure with the actual bottleneck argument.",
+        "target_sha256": {
+          "prod-defense-bottleneck": "a3896492f9642ce412accc7e4408d2fc4059066546af6d127cf603d08d5da687",
+          "prod-defense-patch": "51e924be92940af012ae058906fd8d9f5788434a804976941cfda298d62a1b3e",
+          "prod-defense-rollback": "491298553031c2caae259d7d326fdee54c8302d9dd5ff930bcaf52b72d88e077",
+          "prod-defense-incremental": "6bc92d4a7819aaac9dda36d993fdf827a54e22a09346f88b3f353c4fbb752311"
+        }
+      },
+      {
+        "id": "legacy-101-04-detail-03",
+        "original_sha256": "4d7573f0bf3696b0b74e4e79c24e9b4dfe59a408df169ec1aace327292ca24d9",
+        "disposition": "split",
+        "beats": [
+          "prod-defense-bottleneck",
+          "prod-defense-patch",
+          "prod-defense-rollback",
+          "prod-defense-incremental"
+        ],
+        "reason": "Retain discovery, patching, rollout and rollback; restore progressive implementation and partner work. Replace the remove-human shortcut and unqualified partial-automation failure with the actual bottleneck argument.",
+        "target_sha256": {
+          "prod-defense-bottleneck": "a3896492f9642ce412accc7e4408d2fc4059066546af6d127cf603d08d5da687",
+          "prod-defense-patch": "51e924be92940af012ae058906fd8d9f5788434a804976941cfda298d62a1b3e",
+          "prod-defense-rollback": "491298553031c2caae259d7d326fdee54c8302d9dd5ff930bcaf52b72d88e077",
+          "prod-defense-incremental": "6bc92d4a7819aaac9dda36d993fdf827a54e22a09346f88b3f353c4fbb752311"
+        }
+      },
+      {
+        "id": "legacy-101-04-detail-04",
+        "original_sha256": "38464485318e3e771c5ee36db7ec377b76f5f189e90bad7aa487236c67faf7b3",
+        "disposition": "split",
+        "beats": [
+          "prod-defense-bottleneck",
+          "prod-defense-patch",
+          "prod-defense-rollback",
+          "prod-defense-incremental"
+        ],
+        "reason": "Retain discovery, patching, rollout and rollback; restore progressive implementation and partner work. Replace the remove-human shortcut and unqualified partial-automation failure with the actual bottleneck argument.",
+        "target_sha256": {
+          "prod-defense-bottleneck": "a3896492f9642ce412accc7e4408d2fc4059066546af6d127cf603d08d5da687",
+          "prod-defense-patch": "51e924be92940af012ae058906fd8d9f5788434a804976941cfda298d62a1b3e",
+          "prod-defense-rollback": "491298553031c2caae259d7d326fdee54c8302d9dd5ff930bcaf52b72d88e077",
+          "prod-defense-incremental": "6bc92d4a7819aaac9dda36d993fdf827a54e22a09346f88b3f353c4fbb752311"
+        }
+      }
+    ]
+  },
+  {
+    "old_panel": "101-05",
+    "old_edition": "legacy-332b5ed63262",
+    "reviewed_on": "2026-09-13",
+    "status": "elements-reviewed",
+    "elements": [
+      {
+        "id": "legacy-101-05-detail-01",
+        "original_sha256": "c008de5efc84fbeda4a2659650a75a927006bdbc702e8ebd0d339a54b7aa15d8",
+        "disposition": "rewrite",
+        "beats": [
+          "prod-defense-rhyme"
+        ],
+        "reason": "Retain the book’s structural resemblance while distinguishing purpose, permission and oversight; do not replay earlier panels or convert the source’s proposed end state into a necessary universal policy.",
+        "target_sha256": {
+          "prod-defense-rhyme": "19dfccdec11e6f0a34f852c8aaeb38fe2fe5464ba2762208e1e8ca0bbc983127"
+        }
+      },
+      {
+        "id": "legacy-101-05-detail-02",
+        "original_sha256": "7b16f6f4f69acbb842e0fbfac6be05e740243ba54670cbd0e77206f6ea79220c",
+        "disposition": "rewrite",
+        "beats": [
+          "prod-defense-rhyme"
+        ],
+        "reason": "Retain the book’s structural resemblance while distinguishing purpose, permission and oversight; do not replay earlier panels or convert the source’s proposed end state into a necessary universal policy.",
+        "target_sha256": {
+          "prod-defense-rhyme": "19dfccdec11e6f0a34f852c8aaeb38fe2fe5464ba2762208e1e8ca0bbc983127"
+        }
+      },
+      {
+        "id": "legacy-101-05-detail-03",
+        "original_sha256": "3f64d6e558c20b291809fed7d4aafa362f90abb7b3ac1a4fa15777ec32bc6a61",
+        "disposition": "rewrite",
+        "beats": [
+          "prod-defense-rhyme"
+        ],
+        "reason": "Retain the book’s structural resemblance while distinguishing purpose, permission and oversight; do not replay earlier panels or convert the source’s proposed end state into a necessary universal policy.",
+        "target_sha256": {
+          "prod-defense-rhyme": "19dfccdec11e6f0a34f852c8aaeb38fe2fe5464ba2762208e1e8ca0bbc983127"
+        }
+      },
+      {
+        "id": "legacy-101-05-detail-04",
+        "original_sha256": "466d84435ef06312c25ada8f6fdcba46dfa5d979225bd49bde980b9472972c1b",
+        "disposition": "rewrite",
+        "beats": [
+          "prod-defense-rhyme"
+        ],
+        "reason": "Retain the book’s structural resemblance while distinguishing purpose, permission and oversight; do not replay earlier panels or convert the source’s proposed end state into a necessary universal policy.",
+        "target_sha256": {
+          "prod-defense-rhyme": "19dfccdec11e6f0a34f852c8aaeb38fe2fe5464ba2762208e1e8ca0bbc983127"
+        }
+      }
+    ]
+  },
+  {
+    "old_panel": "101-06",
+    "old_edition": "legacy-332b5ed63262",
+    "reviewed_on": "2026-09-13",
+    "status": "elements-reviewed",
+    "elements": [
+      {
+        "id": "legacy-101-06-detail-01",
+        "original_sha256": "4a6ca66b74ef028728aa9fddf3a80e892280e85a09c4aff460bc7c54b005dcf8",
+        "disposition": "omit",
+        "beats": [],
+        "reason": "Retire the invented hearing-room staging; public-source attribution and the argument’s conclusion survive in narrator discussion.",
+        "target_sha256": {}
+      },
+      {
+        "id": "legacy-101-06-detail-03",
+        "original_sha256": "bddcbe568306a3ce723c6a85a0803aab6772a9fcc7fd7ae6dbd78c33129502dc",
+        "disposition": "rewrite",
+        "beats": [
+          "prod-defense-verification"
+        ],
+        "reason": "Keep the distinction between a defensible continuation argument and evidence of effectiveness, without invented counsel testimony.",
+        "target_sha256": {
+          "prod-defense-verification": "ce0110590bb479a727bae2e284a91a7c936bfbd2263d4bb8d7f868843d97f928"
+        }
+      }
+    ]
   }
 ]

@@ -1,9 +1,9 @@
 {
   "status": "incomplete; associations are not full-detail dispositions",
-  "scenes": 245,
-  "drafted_beats": 736,
+  "scenes": 246,
+  "drafted_beats": 753,
   "canonical_pages": null,
-  "associated_old_panels": 347,
+  "associated_old_panels": 353,
   "old_panels": [
     {
       "old_edition": "legacy-332b5ed63262",
@@ -4461,43 +4461,61 @@
     {
       "old_edition": "legacy-332b5ed63262",
       "old_panel": "101-01",
-      "draft_beats": [],
-      "detail_review": "pending",
+      "draft_beats": [
+        "prod-defense-artifact"
+      ],
+      "detail_review": "elements-reviewed",
       "exact_strings": []
     },
     {
       "old_edition": "legacy-332b5ed63262",
       "old_panel": "101-02",
-      "draft_beats": [],
-      "detail_review": "pending",
+      "draft_beats": [
+        "prod-defense-unintended",
+        "prod-defense-scale"
+      ],
+      "detail_review": "elements-reviewed",
       "exact_strings": []
     },
     {
       "old_edition": "legacy-332b5ed63262",
       "old_panel": "101-03",
-      "draft_beats": [],
-      "detail_review": "pending",
+      "draft_beats": [
+        "prod-defense-gap",
+        "prod-defense-race-to-repair",
+        "prod-defense-relative-gain"
+      ],
+      "detail_review": "elements-reviewed",
       "exact_strings": []
     },
     {
       "old_edition": "legacy-332b5ed63262",
       "old_panel": "101-04",
-      "draft_beats": [],
-      "detail_review": "pending",
+      "draft_beats": [
+        "prod-defense-bottleneck",
+        "prod-defense-patch",
+        "prod-defense-rollback",
+        "prod-defense-incremental"
+      ],
+      "detail_review": "elements-reviewed",
       "exact_strings": []
     },
     {
       "old_edition": "legacy-332b5ed63262",
       "old_panel": "101-05",
-      "draft_beats": [],
-      "detail_review": "pending",
+      "draft_beats": [
+        "prod-defense-rhyme"
+      ],
+      "detail_review": "elements-reviewed",
       "exact_strings": []
     },
     {
       "old_edition": "legacy-332b5ed63262",
       "old_panel": "101-06",
-      "draft_beats": [],
-      "detail_review": "pending",
+      "draft_beats": [
+        "prod-defense-verification"
+      ],
+      "detail_review": "elements-reviewed",
       "exact_strings": []
     },
     {
@@ -5157,8 +5175,8 @@
     "Collusion Wiki": 115,
     "Curt": 25,
     "Codex": 80,
-    "Claude": 116
+    "Claude": 133
   },
-  "reviewed_old_panels": 97,
-  "reviewed_source_elements": 245
+  "reviewed_old_panels": 103,
+  "reviewed_source_elements": 263
 }

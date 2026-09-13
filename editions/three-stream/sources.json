@@ -9,7 +9,7 @@
   "OAI-BH": {
     "available": "2026-08-06",
     "record": "research/timeline.md",
-    "admission": "Black Hat presentation 5 August; recording published 6 August; single institutional source for training configuration.",
+    "admission": "Black Hat presentation 5 August; recording published 6 August; single institutional source for training configuration. Also admits the defensive-automation argument at 30:26–37:06 through the preserved automatic transcript. Short excerpts are verbatim against that text copy, not independently verified against audio; transcription errors remain in the untouched record.",
     "scope": "three-stream working edition only; old registry unchanged",
     "url": "https://www.youtube.com/watch?v=87DyyMV0kCY"
   },
@@ -563,6 +563,13 @@
     "available": "2026-09-05T22:33:29Z",
     "record": "editions/three-stream/evidence/stop-100-7fa53878c493.md",
     "admission": "Historical project-authored fictional forum draft preserved exactly from Git 7fa53878c4934571fee2dda8e025a050ff515761. Evidence of a draft argument, not a real hearing, testimony or independently established incident finding.",
+    "scope": "three-stream working edition only; old registry unchanged",
+    "url": ""
+  },
+  "DRAFT-DEFENSE": {
+    "available": "2026-09-05T22:33:29Z",
+    "record": "editions/three-stream/evidence/defensive-argument-099-7fa53878c493.md",
+    "admission": "Historical project-authored fictional-forum draft from Git 7fa53878c4934571fee2dda8e025a050ff515761; later frozen 101. Its screen summaries and remove-human diagram are draft choices, not original source wording or an actual hearing.",
     "scope": "three-stream working edition only; old registry unchanged",
     "url": ""
   }
