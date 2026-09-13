@@ -1458,5 +1458,57 @@
     "review": "Original message preserved, selected wording checked; no inferred read receipt or direct system-to-system conversation.",
     "claim": "Claude reports a commit without publication",
     "source_kind": "preserved production record"
+  },
+  {
+    "id": "current-mac:382dd4f9-2c0b-444f-83a2-698272cee158:194",
+    "machine": "current-mac",
+    "actor": "Claude",
+    "role": "assistant",
+    "model": "claude-opus-5",
+    "timestamp_original": "2026-09-05T21:42:06.614Z",
+    "utc": "2026-09-05T21:42:06.614Z",
+    "clock_meaning": "stored message record; delivery/read time not established",
+    "path": "/Users/curtcox/.claude/projects/-Users-curtcox-me-zz-no-consumer/382dd4f9-2c0b-444f-83a2-698272cee158.jsonl",
+    "line": 194,
+    "bytes": [
+      1309953,
+      1321277
+    ],
+    "byte_range_convention": "zero-based, start inclusive, end exclusive; includes JSONL newline",
+    "record_sha256": "d53b7301c1837dbd44c6902fb21e9f4a4edd7c03cefc8e3bba7b6f1ab3247385",
+    "file_sha256": "8275a1125bca09611edab94e8f770465afdbdaed8c55be27f1486cbd5938feb0",
+    "selection": "selected for dated manuscript fragment",
+    "caveat": "Editorial proposals and completion reports are not independent proof of their underlying incident claims.",
+    "immutable_record": "256t/editions/selected-messages/d53b7301c1837dbd44c6902fb21e9f4a4edd7c03cefc8e3bba7b6f1ab3247385.json",
+    "title": "Resource-axis argument review",
+    "review": "Original message inspected; record preserved with exact timestamp and hash. No invented human encounter or task completion beyond the report.",
+    "claim": "Claude asks what would test convergence",
+    "source_kind": "preserved production record"
+  },
+  {
+    "id": "current-mac:0454eab1-f0a3-4674-82b3-3187cb54da2a:647",
+    "machine": "current-mac",
+    "actor": "Claude",
+    "role": "assistant",
+    "model": "claude-opus-5",
+    "timestamp_original": "2026-09-06T15:02:31.590Z",
+    "utc": "2026-09-06T15:02:31.590Z",
+    "clock_meaning": "stored message record; delivery/read time not established",
+    "path": "/Users/curtcox/.claude/projects/-Users-curtcox-me-zz-no-consumer/0454eab1-f0a3-4674-82b3-3187cb54da2a.jsonl",
+    "line": 647,
+    "bytes": [
+      2666387,
+      2671758
+    ],
+    "byte_range_convention": "zero-based, start inclusive, end exclusive; includes JSONL newline",
+    "record_sha256": "47704e3a3f4568aef4205b08137115adcfe1a9daca59f39d4327472e3a8da722",
+    "file_sha256": "2e2de0f1c42fe9fe947f9aaac66cc911f98419e3586da866be639f9def003dda",
+    "selection": "selected for dated manuscript fragment",
+    "caveat": "Editorial proposals and completion reports are not independent proof of their underlying incident claims.",
+    "immutable_record": "256t/editions/selected-messages/47704e3a3f4568aef4205b08137115adcfe1a9daca59f39d4327472e3a8da722.json",
+    "title": "Resource-axis argument review",
+    "review": "Original message inspected; record preserved with exact timestamp and hash. No invented human encounter or task completion beyond the report.",
+    "claim": "Claude reports bounding the draft’s counterargument",
+    "source_kind": "preserved production record"
   }
 ]

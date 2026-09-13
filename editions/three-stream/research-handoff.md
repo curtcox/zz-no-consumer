@@ -60,11 +60,12 @@ Other branches, issues, discussions and deleted history are outside this check.
 Commit clocks do not establish message, reading or source-encounter times.
 No comments, messages, commits or pushes were sent.
 
-[production-selections.json](production-selections.json) records fifty-four inspected
+[production-selections.json](production-selections.json) records fifty-six inspected
 messages now drafted as dated collaboration fragments: the fourteen request/first
 response records, four later system reports, three intermediate GemStuffer
 research updates, fifteen messages in the quotation-rule correction and eighteen
-follow-up messages about remaining rules and source pointers. The originals were checked against
+follow-up messages about remaining rules and source pointers, plus two earlier
+editorial reviews of the resource-axis argument. The originals were checked against
 their hashes. The fragments distinguish a proposed action from a completion report,
 and a completion report from independent verification. They neither establish the
 first entrance nor replace the missing other-Mac chronology.
@@ -299,3 +300,20 @@ The next review must preserve the negative resource-axis argument in old 052,
 including its METR-reviewed scope and the later branch outside that review. The
 composite continuation discussion in 053/054 needs a dated collaboration treatment,
 not a fictitious historical meeting. Neither has been marked reviewed by this pass.
+
+The resource-axis pass locates the negative argument in actual production history:
+Claude’s September 5 21:42:06.614 UTC review proposes a falsification test, and its
+September 6 15:02:31.590 UTC report describes bounding the draft’s negative claim
+to the July 7–13 reviewed population while retaining later inheritance outside
+that review. These are editorial acts, not incident-time thoughts or independent
+verification of an exhaustive absence finding. The reported draft caption is
+quoted with its production-record source, not attributed directly to METR.
+
+Old 052-05 has four individual source-element decisions. The preserved self-risking
+experiment remains behavioral; the three empty resource steps and historical
+superlative do not survive as established findings. The negative remains available
+as a bounded argument, with the later branch and asymmetric independent review
+visible. This does not close the rest of 052, the human-alerting analysis in 063,
+or the reconstructed conversation in 073; their new associations remain pending
+until every original element has a decision. All 56 selected production records
+pass their original-line, byte-range and hash checks.

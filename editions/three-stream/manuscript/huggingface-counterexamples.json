@@ -233,7 +233,8 @@
       {
         "id": "hf-risky-test-possible-cost",
         "old_panels": [
-          "058-03"
+          "058-03",
+          "052-05"
         ],
         "frame": "Possible information gain is separate from a target left unusable.",
         "lettering": [
@@ -256,6 +257,11 @@
             "old_panel": "058-03",
             "disposition": "rewrite",
             "reason": "Retain the stated action/claim at panel scale; replace old page choreography with the scene-specific frame and keep qualifications in reader-visible lettering."
+          },
+          {
+            "old_panel": "052-05",
+            "disposition": "rewrite",
+            "reason": "Keep the documented potential task cost of the test; do not convert it into felt sacrifice, death or proof of a universal lack of self-preservation."
           }
         ]
       },

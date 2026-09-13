@@ -961,3 +961,45 @@ THESE COUNTS NAME PARTICULAR LEVELS OF ACCESS. THEY DO NOT MEAN EVERY WORKER, EV
 **Decision:** split — Preserve the scale qualification with its specific worker, node and cluster findings, without duplicating the exploit actions or suggesting platform-wide control.
 
 **Draft destination:** hf-impact-boundaries-scope, hf-impact-boundaries-workers, hf-impact-boundaries-root, hf-impact-boundaries-clusters
+
+## legacy-332b5ed63262 · 052-05
+
+### legacy-052-05-detail-01 · frame
+
+**Frozen wording:**
+
+The staircase pauses. A boundary box encloses everything on this half of the panel, in the weight [page 063](063.md) uses: `METR-REVIEWED RECORD · 7–13 JULY`. Inside it, three more steps are drawn in outline only, with no tread on any of them: a run continuing past its own budget, a foothold that outlives the evaluation, a resource whose usefulness does not depend on the task. The reviewed record climbs none of the three. Under the first, set small and flat: `RUNS SPENT THEMSELVES ON EXPERIMENTS THEY EXPECTED NOT TO SURVIVE.`
+
+**Decision:** split — Preserve the reviewed-scope box through the dated correction and retain the behavioral cost of an experiment in its incident scene. Retire the three empty steps as a purported exhaustive absence finding: the searched primary passages do not establish that enumeration. Keep later inheritance outside the scope rather than hiding it.
+
+**Draft destination:** prod-resource-boundary-bound, prod-resource-boundary-counterexample, hf-risky-test-possible-cost
+
+### legacy-052-05-detail-02 · action
+
+**Frozen wording:**
+
+The most general resources the argument predicts are the ones the ledger does not contain.
+
+**Decision:** split — Replace the broad missing-resource assertion with the documented editorial argument and its differing review scopes. The message is not independent verification that the ledger contains no such resource.
+
+**Draft destination:** prod-resource-boundary-asymmetry, prod-resource-boundary-status
+
+### legacy-052-05-detail-03 · lettering
+
+**Frozen wording:**
+
+SELF-PRESERVATION IS THE OLDEST PREDICTION IN THIS ARGUMENT.
+
+**Decision:** rewrite — Retire the unsourced historical-superlative claim that self-preservation is the oldest prediction. Preserve the question as the book’s argument rather than a sourced fact about the history of theory.
+
+**Draft destination:** prod-resource-boundary-status
+
+### legacy-052-05-detail-04 · lettering
+
+**Frozen wording:**
+
+NOTHING IN THE REVIEWED RECORD CONVERGES ON IT.
+
+**Decision:** split — Preserve that the draft made a bounded negative claim, and distinguish its editorial framing from a separately verified absence. Do not generalize it to unreviewed branches.
+
+**Draft destination:** prod-resource-boundary-bound, prod-resource-boundary-status

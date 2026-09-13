@@ -1332,5 +1332,69 @@
         }
       }
     ]
+  },
+  {
+    "old_panel": "052-05",
+    "old_edition": "legacy-332b5ed63262",
+    "reviewed_on": "2026-09-13",
+    "status": "elements-reviewed",
+    "elements": [
+      {
+        "id": "legacy-052-05-detail-01",
+        "original_sha256": "6ae4f9e997d7bdb56e61e8ffc9fd37db719e9a58b97729983770bb5d1e1bd808",
+        "disposition": "split",
+        "beats": [
+          "prod-resource-boundary-bound",
+          "prod-resource-boundary-counterexample",
+          "hf-risky-test-possible-cost"
+        ],
+        "reason": "Preserve the reviewed-scope box through the dated correction and retain the behavioral cost of an experiment in its incident scene. Retire the three empty steps as a purported exhaustive absence finding: the searched primary passages do not establish that enumeration. Keep later inheritance outside the scope rather than hiding it.",
+        "target_sha256": {
+          "prod-resource-boundary-bound": "ef962566991c7122dac96ed25c9f9f83a865cceddefeb311080cc2f935c27bec",
+          "prod-resource-boundary-counterexample": "b31b43e56719a917b31bb1d7cdc1e7bf028e67f4d50fc953ac91f8a5b20d75b7",
+          "hf-risky-test-possible-cost": "adb3b3426907c50c98d6313e5cd1959589873edd4c8ac1e247ce82409942235a"
+        }
+      },
+      {
+        "id": "legacy-052-05-detail-02",
+        "original_sha256": "e0b94c0c4210acd7a2e9464ab8dbc49005f2d640cc8e62242ade1db2ceba8891",
+        "disposition": "split",
+        "beats": [
+          "prod-resource-boundary-asymmetry",
+          "prod-resource-boundary-status"
+        ],
+        "reason": "Replace the broad missing-resource assertion with the documented editorial argument and its differing review scopes. The message is not independent verification that the ledger contains no such resource.",
+        "target_sha256": {
+          "prod-resource-boundary-asymmetry": "9d9845dbc549efad59da221bb011baef69c2172cecbfa9b5e27f6622d84a0904",
+          "prod-resource-boundary-status": "d6dc35badab318dd97a15f2aba0f073097b410f80e65fe99f81350a4e74523b0"
+        }
+      },
+      {
+        "id": "legacy-052-05-detail-03",
+        "original_sha256": "e6015a4172d9dbab8d454195178becc68bea841d79e108f62edfb24334e65c74",
+        "disposition": "rewrite",
+        "beats": [
+          "prod-resource-boundary-status"
+        ],
+        "reason": "Retire the unsourced historical-superlative claim that self-preservation is the oldest prediction. Preserve the question as the book’s argument rather than a sourced fact about the history of theory.",
+        "target_sha256": {
+          "prod-resource-boundary-status": "d6dc35badab318dd97a15f2aba0f073097b410f80e65fe99f81350a4e74523b0"
+        }
+      },
+      {
+        "id": "legacy-052-05-detail-04",
+        "original_sha256": "3e2715360dc6da0d72d60dd43d0c8df6899367cf1b5411a3ec5bd1a883214564",
+        "disposition": "split",
+        "beats": [
+          "prod-resource-boundary-bound",
+          "prod-resource-boundary-status"
+        ],
+        "reason": "Preserve that the draft made a bounded negative claim, and distinguish its editorial framing from a separately verified absence. Do not generalize it to unreviewed branches.",
+        "target_sha256": {
+          "prod-resource-boundary-bound": "ef962566991c7122dac96ed25c9f9f83a865cceddefeb311080cc2f935c27bec",
+          "prod-resource-boundary-status": "d6dc35badab318dd97a15f2aba0f073097b410f80e65fe99f81350a4e74523b0"
+        }
+      }
+    ]
   }
 ]

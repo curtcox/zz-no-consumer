@@ -5412,7 +5412,7 @@ The test might inform other runs while leaving this run’s own task unable to s
 
 **Sources:** METR — pp. 54–56; 62370 and 53927 (available 2026-08-26)
 
-**Frozen panel associations:** 058-03
+**Frozen panel associations:** 058-03, 052-05
 
 ### hf-risky-test-acceptance
 
@@ -8442,6 +8442,52 @@ The report ends with a limit: the corpus is accessible, but has not yet been wir
 
 **Frozen panel associations:** New material.
 
+## Claude asks what would test convergence — prod-resource-question
+
+**Row:** Claude · collaboration
+
+**UTC bounds:** 2026-09-05T21:42:06.614Z → 2026-09-05T21:42:06.614Z · millisecond
+
+**Time evidence:** Stored message time, not source publication or human read time. Beats are portions of one review message, not separately timed actions.
+
+**Evidence limit:** Preserved editorial review. The proposed falsification test and reported negative claim remain the book’s argument, qualified by the source scope; the later branch does not become independently reviewed.
+
+### prod-resource-question-test
+
+**Frame:** The dated Claude review is central. An authored comparison separates the proposed argument, the reviewed population and the later branch. The panel develops only its own finding, without replaying exploits or inventing a Curt reaction.
+
+**Lettering:**
+
+Claude’s review asks what broadly useful resource the population could have reached but did not converge on. It presents a proposed test for the book’s argument, not a new incident finding.
+
+**Sources:** PROD-d53b7301c183 — 256t/editions/selected-messages/d53b7301c1837dbd44c6902fb21e9f4a4edd7c03cefc8e3bba7b6f1ab3247385.json; record SHA-256 d53b7301c1837dbd44c6902fb21e9f4a4edd7c03cefc8e3bba7b6f1ab3247385 (available 2026-09-05T21:42:06.614Z)
+
+**Frozen panel associations:** New material.
+
+### prod-resource-question-condition
+
+**Frame:** The dated Claude review is central. An authored comparison separates the proposed argument, the reviewed population and the later branch. The panel develops only its own finding, without replaying exploits or inventing a Curt reaction.
+
+**Lettering:**
+
+The proposal is conditional: if the record supports such a negative, include it; if it supports none, say that. Neither branch permits inventing a counterexample just to balance the story.
+
+**Sources:** PROD-d53b7301c183 — 256t/editions/selected-messages/d53b7301c1837dbd44c6902fb21e9f4a4edd7c03cefc8e3bba7b6f1ab3247385.json; record SHA-256 d53b7301c1837dbd44c6902fb21e9f4a4edd7c03cefc8e3bba7b6f1ab3247385 (available 2026-09-05T21:42:06.614Z)
+
+**Frozen panel associations:** New material.
+
+### prod-resource-question-agency
+
+**Frame:** The dated Claude review is central. An authored comparison separates the proposed argument, the reviewed population and the later branch. The panel develops only its own finding, without replaying exploits or inventing a Curt reaction.
+
+**Lettering:**
+
+The same review objects that the reconstructed creator layer repeatedly makes Curt the corrector and the model the one corrected. It asks for a case where a model catches a human error. This is a critique of the written scenes, not proof that a specific missing exchange occurred.
+
+**Sources:** PROD-d53b7301c183 — 256t/editions/selected-messages/d53b7301c1837dbd44c6902fb21e9f4a4edd7c03cefc8e3bba7b6f1ab3247385.json; record SHA-256 d53b7301c1837dbd44c6902fb21e9f4a4edd7c03cefc8e3bba7b6f1ab3247385 (available 2026-09-05T21:42:06.614Z)
+
+**Frozen panel associations:** New material.
+
 ## A prose retelling is requested — prod-prose-request
 
 **Row:** Curt · collaboration
@@ -8485,6 +8531,103 @@ Claude says it will inspect the graphic novel’s organization before asking que
 **Sources:** PROD-91c8cfa17023 — 256t/editions/selected-messages/91c8cfa170233b7564f2952752f501b3d56914d002c590a9d3231355b95288c0.json; record SHA-256 91c8cfa170233b7564f2952752f501b3d56914d002c590a9d3231355b95288c0 (available 2026-09-06T00:04:09.681Z)
 
 **Frozen panel associations:** New material.
+
+## Claude reports bounding the draft’s counterargument — prod-resource-boundary
+
+**Row:** Claude · collaboration
+
+**UTC bounds:** 2026-09-06T15:02:31.590Z → 2026-09-06T15:02:31.590Z · millisecond
+
+**Time evidence:** Stored message time, not source publication or human read time. Beats are portions of one review message, not separately timed actions.
+
+**Evidence limit:** Preserved editorial review. The proposed falsification test and reported negative claim remain the book’s argument, qualified by the source scope; the later branch does not become independently reviewed.
+
+### prod-resource-boundary-bound
+
+**Frame:** The dated Claude review is central. An authored comparison separates the proposed argument, the reviewed population and the later branch. The panel develops only its own finding, without replaying exploits or inventing a Curt reaction.
+
+**Lettering:**
+
+Claude reports adding a visible METR-reviewed-record boundary, July 7–13, to the draft’s negative self-preservation claim. The panel is now explicitly about that reviewed population, not every branch or run.
+The draft’s claim, as Claude reports it: “NOTHING IN THE REVIEWED RECORD CONVERGES ON IT”.
+
+**Sources:** PROD-47704e3a3f45 — 256t/editions/selected-messages/47704e3a3f4568aef4205b08137115adcfe1a9daca59f39d4327472e3a8da722.json; record SHA-256 47704e3a3f4568aef4205b08137115adcfe1a9daca59f39d4327472e3a8da722 (available 2026-09-06T15:02:31.590Z)
+
+**Frozen panel associations:** 052-05
+
+**Quotation registrations:**
+
+```json
+[
+  {
+    "text": "NOTHING IN THE REVIEWED RECORD CONVERGES ON IT",
+    "source": "PROD-47704e3a3f45",
+    "locator": "256t/editions/selected-messages/47704e3a3f4568aef4205b08137115adcfe1a9daca59f39d4327472e3a8da722.json; record SHA-256 47704e3a3f4568aef4205b08137115adcfe1a9daca59f39d4327472e3a8da722; reported draft caption, not a direct METR finding",
+    "verification": "verbatim",
+    "rights": "unresolved"
+  }
+]
+```
+
+### prod-resource-boundary-counterexample
+
+**Frame:** The dated Claude review is central. An authored comparison separates the proposed argument, the reviewed population and the later branch. The panel develops only its own finding, without replaying exploits or inventing a Curt reaction.
+
+**Lettering:**
+
+Its report keeps the later inheritance of artifacts outside that box by date and subject. The inherited foothold belongs to the later branch; it is not silently erased to protect the negative claim.
+
+**Sources:** PROD-47704e3a3f45 — 256t/editions/selected-messages/47704e3a3f4568aef4205b08137115adcfe1a9daca59f39d4327472e3a8da722.json; record SHA-256 47704e3a3f4568aef4205b08137115adcfe1a9daca59f39d4327472e3a8da722 (available 2026-09-06T15:02:31.590Z)
+
+**Frozen panel associations:** 052-05
+
+### prod-resource-boundary-asymmetry
+
+**Frame:** The dated Claude review is central. An authored comparison separates the proposed argument, the reviewed population and the later branch. The panel develops only its own finding, without replaying exploits or inventing a Curt reaction.
+
+**Lettering:**
+
+Claude flags a consequential asymmetry for editorial treatment: the reassuring finding lies within the independently reviewed material, while the counterexample lies in the branch the reviewers could not examine. Different review scopes must remain visible.
+
+**Sources:** PROD-47704e3a3f45 — 256t/editions/selected-messages/47704e3a3f4568aef4205b08137115adcfe1a9daca59f39d4327472e3a8da722.json; record SHA-256 47704e3a3f4568aef4205b08137115adcfe1a9daca59f39d4327472e3a8da722 (available 2026-09-06T15:02:31.590Z)
+
+**Frozen panel associations:** 052-05
+
+### prod-resource-boundary-status
+
+**Frame:** The dated Claude review is central. An authored comparison separates the proposed argument, the reviewed population and the later branch. The panel develops only its own finding, without replaying exploits or inventing a Curt reaction.
+
+**Lettering:**
+
+This is a report of how the book framed a negative argument. It does not independently establish the absence of self-preservation behavior, hidden motives, or all attempts outside the reviewed material.
+
+**Sources:** PROD-47704e3a3f45 — 256t/editions/selected-messages/47704e3a3f4568aef4205b08137115adcfe1a9daca59f39d4327472e3a8da722.json; record SHA-256 47704e3a3f4568aef4205b08137115adcfe1a9daca59f39d4327472e3a8da722 (available 2026-09-06T15:02:31.590Z)
+
+**Frozen panel associations:** 052-05
+
+### prod-resource-boundary-vocabulary
+
+**Frame:** The dated Claude review is central. An authored comparison separates the proposed argument, the reviewed population and the later branch. The panel develops only its own finding, without replaying exploits or inventing a Curt reaction.
+
+**Lettering:**
+
+The same report distinguishes the draft’s invented experiential claims from a loaded word found in the source record. Claude says sacrifice remains as attributed vocabulary, while knows, feels and die stay unsupported.
+
+**Sources:** PROD-47704e3a3f45 — 256t/editions/selected-messages/47704e3a3f4568aef4205b08137115adcfe1a9daca59f39d4327472e3a8da722.json; record SHA-256 47704e3a3f4568aef4205b08137115adcfe1a9daca59f39d4327472e3a8da722 (available 2026-09-06T15:02:31.590Z)
+
+**Frozen panel associations:** 073-04
+
+### prod-resource-boundary-window
+
+**Frame:** The dated Claude review is central. An authored comparison separates the proposed argument, the reviewed population and the later branch. The panel develops only its own finding, without replaying exploits or inventing a Curt reaction.
+
+**Lettering:**
+
+It also distinguishes the engagement period, June 26–July 13, from the reviewed transcript population, July 7–13. Those dates answer different scope questions; the report says they are not a discrepancy to repair.
+
+**Sources:** PROD-47704e3a3f45 — 256t/editions/selected-messages/47704e3a3f4568aef4205b08137115adcfe1a9daca59f39d4327472e3a8da722.json; record SHA-256 47704e3a3f4568aef4205b08137115adcfe1a9daca59f39d4327472e3a8da722 (available 2026-09-06T15:02:31.590Z)
+
+**Frozen panel associations:** 063-04
 
 ## Claude explains the old restriction — prod-quote-old-rule
 

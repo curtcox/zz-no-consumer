@@ -1,5 +1,5 @@
 {
-  "checked_at": "2026-09-13T15:20:41.012047+00:00",
+  "checked_at": "2026-09-13T15:30:55.956365+00:00",
   "status": "structural draft checks passed; editorial completion not claimed",
   "commands": [
     {
@@ -15,11 +15,12 @@
   "files": {
     "manuscript/collaboration-quotation-followup.json": "7b936a69ab2a5fb89b75a608294d80f790aa7795842ab5bee0bd19e078223b36",
     "manuscript/collaboration-quotation-rule.json": "4d152849e3575a899ec6c4cc65416a965eb16fc510cb5ec2997c6be7ea468b1b",
+    "manuscript/collaboration-resource-argument.json": "4964b402c5d823aa9329a46321e4cf91e88ca6de02a37171217666d099d5cda6",
     "manuscript/collaboration-selected-messages.json": "953597469253f6db6440defe1c87ef00fd4e27a0514db52db4ff43671b5062df",
     "manuscript/gemstuffer-documentation-and-theft.json": "9f15fdbe8effce9872b6537761d15a7634dd0d29d8e1ff8af2bea527031ecd19",
     "manuscript/gemstuffer-incident.json": "240f1853ad9feacf61caf52f2afd3d7f883a1b7525169e56236d9ec1cb4f5609",
     "manuscript/huggingface-board-return.json": "b2e486e6067fa7e25f12ff871fa2a0819f5d980e465ff270a89976252d45e7a4",
-    "manuscript/huggingface-counterexamples.json": "609404b0456fa1325171adcf6a7c24449d52eb5c0e175a944bed7d5538582629",
+    "manuscript/huggingface-counterexamples.json": "52472e9130a80291396a34570c60d8bf47b2622658db904d647afed85ad3061c",
     "manuscript/huggingface-intrusion-opening.json": "cafdf63e73532698f21911682010857fc2f4e4e6670d1bf3f42ebbaad6551766",
     "manuscript/huggingface-lateral-and-later.json": "e74410ff584d1bf5796c03a29956f9ae2b56c4e2874a9d2b795fe1b5319ad357",
     "manuscript/huggingface-prehistory.json": "f7ff070a95220a658bf88d3dc5ba98506cf2a4e8e3404f0fcad47a5325470609",
@@ -29,25 +30,25 @@
     "manuscript/huggingface-worker-impact.json": "315bee972fb89e89f9f60b5335adaac6e5f2feabe6c534ddc17bd4b16a3bdfaa",
     "manuscript/wiki-counterexamples.json": "7b7b0e1557d68af5ef55199216864d648dc2e107e649dc471485fc7197400fe7",
     "manuscript/wiki-selected-exchanges.json": "471f2dec2c30a2ee237528f5e8354a58bdd1cd1ac3462815ca4a70ca05aa3653",
-    "detail-review.json": "13f1605da69ed1c03b402990354187b86553a72ae06ca7901f4cfc24bcd100e1",
-    "production-selections.json": "5121fd9a5912981f3b35a6064ff58f61091664780084b1e3d18fef75f3c1fd7b",
-    "sources.json": "7ce176ef749dcbebe8edb7371a2759488a55252453338b3de61ebc969249ecea"
+    "detail-review.json": "2626b6afdfdc84563de7bfd53b3492a7e0870eb6f57ff8fd9ac218804c67db22",
+    "production-selections.json": "c3659e3b927f6dbed2fcc58cba0105c57de4dc079ddf7785dfa881303b1d11ff",
+    "sources.json": "5637fd7bb09db2bd32136dfac521dc79bd6ac9887e9129cb9764fc407323e5a0"
   },
   "counts": {
-    "scenes": 234,
-    "drafted_beats": 618,
+    "scenes": 236,
+    "drafted_beats": 627,
     "canonical_pages": null,
-    "associated_old_panels": 279,
+    "associated_old_panels": 282,
     "by_row": {
       "HuggingFace": 342,
       "GemStuffer": 58,
       "Collusion Wiki": 115,
       "Curt": 25,
       "Codex": 12,
-      "Claude": 66
+      "Claude": 75
     },
-    "reviewed_old_panels": 30,
-    "reviewed_source_elements": 90
+    "reviewed_old_panels": 31,
+    "reviewed_source_elements": 94
   },
   "not_verified": [
     "Full old-element disposition and semantic completeness",
@@ -57,10 +58,10 @@
     "Print layout, thumbnails, lettering fit and artwork",
     "Final graphic manuscript and deferred-edition handoff"
   ],
-  "previous_checked_at": "2026-09-13T15:16:39.816600+00:00",
+  "previous_checked_at": "2026-09-13T15:20:41.012047+00:00",
   "production_record_verification": {
     "result": "passed",
-    "selected_records": 54,
+    "selected_records": 56,
     "checks": [
       "immutable copy SHA-256 equals registered record hash",
       "original source line including JSONL newline equals preserved copy",
