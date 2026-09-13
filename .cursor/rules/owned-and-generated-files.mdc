@@ -1,0 +1,21 @@
+---
+description: Files owned by tools or generated; never hand-edit identities or outputs
+globs: content/pages/**,content/novella/**,data/pages.yaml,data/chapters.yaml,data/panel-types.tsv,data/crossref.json,data/appendix.json,data/panel-art.tsv,data/generation-log.jsonl,data/storyboard-assets.json,docs/**,assets/**,editions/three-stream/generated/**
+alwaysApply: false
+---
+
+These files are owned by tools. The ownership table in `AGENTS.md` ("Who writes what") is
+authoritative; the traps most often hit:
+
+- **Page and panel numbers are primary keys across six trees.** Never renumber, rename or
+  move a page or panel by hand. Use `pagination.py insert|delete|move` and
+  `panels.py insert|delete|move`; they print a plan and write only with `--apply`.
+- **`docs/**` is generated.** Run `python3 scripts/build-site.py`; never edit its output.
+- **Derived data is regenerated, not edited:** `panel-types.tsv` (`paneltypes.py write`),
+  `crossref.json` / `appendix.json`, `storyboard-assets.json`, and the three-stream
+  `generated/` tree (`pagination.py edition --root editions/three-stream`).
+- **`data/generation-log.jsonl` is append-only**; artwork versions under `assets/` are
+  added, never replaced.
+- **Write page references as plain `page 039`** and run `pagelinks.py link --apply`.
+- **During the three-stream restructure the published edition is frozen.**
+  `python3 scripts/working_edition.py check --draft` fails if any baseline file changes.

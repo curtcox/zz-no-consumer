@@ -1,0 +1,17 @@
+# Cursor: excluded from codebase indexing and search, still readable on request.
+# Generated site (duplicates the book) and generated artwork.
+docs/
+assets/
+# Large evidence corpus: query through research/collusion/README.md, not by search.
+research/collusion/
+# Append-only generation record.
+data/generation-log.jsonl
+# Regenerated three-stream review outputs; edit their authored inputs instead.
+editions/three-stream/generated/
+editions/three-stream/detail-inventory.json
+editions/three-stream/detail-review.md
+editions/three-stream/manuscript-review.md
+editions/three-stream/manuscript-coverage.json
+editions/three-stream/old-panels.json
+# Private local source vault (also gitignored).
+256t/

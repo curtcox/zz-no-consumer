@@ -1,0 +1,7 @@
+# Cursor: files its AI features must not read. Gitignore syntax.
+# Raw session transcripts copied from another Mac may contain credentials in tool output.
+256t/editions/other-mac/sources/
+# Credentials, wherever they appear.
+**/.env
+**/.env.*
+**/auth.json

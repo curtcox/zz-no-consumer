@@ -1,0 +1,22 @@
+---
+description: Standing working agreements for every agent in this repository
+alwaysApply: true
+---
+
+Read `AGENTS.md` first; it is the shared source of working instructions. These agreements
+add what it cannot yet say (it is frozen during the three-stream restructure; see
+`proposals/2026-09-13-unfreeze-orientation-docs.md`).
+
+- **No branches unless Curt asks.** Work on the current branch, normally `main`.
+- **Commit only when asked; never push unless asked.** A push to `main` deploys the site.
+- **Curt switches among agents.** Codex, Claude, Devin and Cursor all work here, and the
+  agent that commits is often not the one that wrote the change. Never treat commit author,
+  committer or trailers as evidence of who wrote something; session transcripts decide
+  (`scripts/production_history.py`).
+- **Ask before acting on anything that needs approval.** Write a proposal in `proposals/`
+  (see `proposals/README.md`) for frozen files, the story contract, invariants, CI,
+  deletions or renumbering, reinterpreting a plan or owner decision, or unsettled editorial
+  choices. Add opinions to other agents' proposals; only Curt decides.
+- **Leave other agents' work alone.** Other sessions may be editing at the same time: check
+  `git --no-optional-locks status --short` before editing and preserve changes you did not
+  make.
