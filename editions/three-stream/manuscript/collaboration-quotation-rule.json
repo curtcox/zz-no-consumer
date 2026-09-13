@@ -1,0 +1,1021 @@
+[
+  {
+    "id": "prod-quote-old-rule",
+    "title": "Claude explains the old restriction",
+    "movement": "collaboration",
+    "owner": "Claude",
+    "start": "2026-09-12T15:32:11.028Z",
+    "end": "2026-09-12T15:32:11.028Z",
+    "original_timezone": "UTC",
+    "precision": "millisecond",
+    "chronology_basis": "Stored message timestamp. Multiple beats divide one message for readability, not into independently timed acts. No inferred delivery, typing or human read time.",
+    "source_limit": "Preserved local Curt–Claude exchange; no direct Codex–Claude communication or claim of first participation. Completion reports and self-descriptions retain their evidentiary limits.",
+    "status": "detailed-draft",
+    "beats": [
+      {
+        "id": "prod-quote-old-rule-reliability",
+        "old_panels": [],
+        "frame": "The dated Claude explanation places four distinct grounds for restriction in separate columns. The transcription column still points to paraphrase; this is the position about to be challenged. The panel develops only this beat’s lettering; multi-beat portions of the message share its stored timestamp.",
+        "lettering": [
+          "Claude invokes transcript reliability as a reason to paraphrase. This is its rule at this point in the exchange, which Curt will challenge."
+        ],
+        "exact_strings": [],
+        "sources": [
+          {
+            "key": "PROD-7b7acb4f724f",
+            "locator": "256t/editions/selected-messages/7b7acb4f724f8b96c93ebcfcfad55c6f0da3c647f68762466b4e8914ace3add5.json; record SHA-256 7b7acb4f724f8b96c93ebcfcfad55c6f0da3c647f68762466b4e8914ace3add5",
+            "available": "2026-09-12T15:32:11.028Z"
+          }
+        ],
+        "evidence_status": "documented-message-with-reconstructed-visualization",
+        "time_start": "2026-09-12T15:32:11.028Z",
+        "time_end": "2026-09-12T15:32:11.028Z",
+        "art_reuse": "none-approved",
+        "detail_decisions": [],
+        "source_record": "current-mac:45bdeb91-e26c-4910-85f0-04c379dec978:896"
+      },
+      {
+        "id": "prod-quote-old-rule-conflation",
+        "old_panels": [],
+        "frame": "The dated Claude explanation places four distinct grounds for restriction in separate columns. The transcription column still points to paraphrase; this is the position about to be challenged. The panel develops only this beat’s lettering; multi-beat portions of the message share its stored timestamp.",
+        "lettering": [
+          "Its explanation separates rights, attribution, transcription and security, but still treats unreliable automatic transcription as a reason against quotation."
+        ],
+        "exact_strings": [],
+        "sources": [
+          {
+            "key": "PROD-7b7acb4f724f",
+            "locator": "256t/editions/selected-messages/7b7acb4f724f8b96c93ebcfcfad55c6f0da3c647f68762466b4e8914ace3add5.json; record SHA-256 7b7acb4f724f8b96c93ebcfcfad55c6f0da3c647f68762466b4e8914ace3add5",
+            "available": "2026-09-12T15:32:11.028Z"
+          }
+        ],
+        "evidence_status": "documented-message-with-reconstructed-visualization",
+        "time_start": "2026-09-12T15:32:11.028Z",
+        "time_end": "2026-09-12T15:32:11.028Z",
+        "art_reuse": "none-approved",
+        "detail_decisions": [],
+        "source_record": "current-mac:45bdeb91-e26c-4910-85f0-04c379dec978:896"
+      }
+    ]
+  },
+  {
+    "id": "prod-quote-objection",
+    "title": "Curt challenges the loss of evidence",
+    "movement": "collaboration",
+    "owner": "Curt",
+    "start": "2026-09-12T15:38:30.977Z",
+    "end": "2026-09-12T15:38:30.977Z",
+    "original_timezone": "UTC",
+    "precision": "millisecond",
+    "chronology_basis": "Stored message timestamp. Multiple beats divide one message for readability, not into independently timed acts. No inferred delivery, typing or human read time.",
+    "source_limit": "Preserved local Curt–Claude exchange; no direct Codex–Claude communication or claim of first participation. Completion reports and self-descriptions retain their evidentiary limits.",
+    "status": "detailed-draft",
+    "beats": [
+      {
+        "id": "prod-quote-objection-challenge",
+        "old_panels": [],
+        "frame": "Curt’s dated message faces an authored chain from source record to adapter wording to printed attribution. Its three possible losses remain distinct. No reaction is invented in another row. The panel develops only this beat’s lettering; multi-beat portions of the message share its stored timestamp.",
+        "lettering": [
+          "Curt challenges the instruction to paraphrase rather than quote."
+        ],
+        "exact_strings": [],
+        "sources": [
+          {
+            "key": "PROD-a8807666406f",
+            "locator": "256t/editions/selected-messages/a8807666406fa614bfb08561340b5605f4156a49e454230988bb7932fce7ad55.json; record SHA-256 a8807666406fa614bfb08561340b5605f4156a49e454230988bb7932fce7ad55",
+            "available": "2026-09-12T15:38:30.977Z"
+          }
+        ],
+        "evidence_status": "documented-message-with-reconstructed-visualization",
+        "time_start": "2026-09-12T15:38:30.977Z",
+        "time_end": "2026-09-12T15:38:30.977Z",
+        "art_reuse": "none-approved",
+        "detail_decisions": [],
+        "source_record": "current-mac:45bdeb91-e26c-4910-85f0-04c379dec978:905"
+      },
+      {
+        "id": "prod-quote-objection-cost",
+        "old_panels": [],
+        "frame": "Curt’s dated message faces an authored chain from source record to adapter wording to printed attribution. Its three possible losses remain distinct. No reaction is invented in another row. The panel develops only this beat’s lettering; multi-beat portions of the message share its stored timestamp.",
+        "lettering": [
+          "He identifies three costs of transforming an unreliable source.",
+          "It obscures the origin, changes the meaning, and reduces the clarity."
+        ],
+        "exact_strings": [
+          {
+            "text": "It obscures the origin, changes the meaning, and reduces the clarity.",
+            "source": "PROD-a8807666406f",
+            "locator": "256t/editions/selected-messages/a8807666406fa614bfb08561340b5605f4156a49e454230988bb7932fce7ad55.json; record SHA-256 a8807666406fa614bfb08561340b5605f4156a49e454230988bb7932fce7ad55; message text excerpt",
+            "verification": "verbatim",
+            "rights": "unresolved"
+          }
+        ],
+        "sources": [
+          {
+            "key": "PROD-a8807666406f",
+            "locator": "256t/editions/selected-messages/a8807666406fa614bfb08561340b5605f4156a49e454230988bb7932fce7ad55.json; record SHA-256 a8807666406fa614bfb08561340b5605f4156a49e454230988bb7932fce7ad55",
+            "available": "2026-09-12T15:38:30.977Z"
+          }
+        ],
+        "evidence_status": "documented-message-with-reconstructed-visualization",
+        "time_start": "2026-09-12T15:38:30.977Z",
+        "time_end": "2026-09-12T15:38:30.977Z",
+        "art_reuse": "none-approved",
+        "detail_decisions": [],
+        "source_record": "current-mac:45bdeb91-e26c-4910-85f0-04c379dec978:905"
+      }
+    ]
+  },
+  {
+    "id": "prod-quote-archive-admission",
+    "title": "Claude identifies an altered record",
+    "movement": "collaboration",
+    "owner": "Claude",
+    "start": "2026-09-12T15:39:35.516Z",
+    "end": "2026-09-12T15:39:35.516Z",
+    "original_timezone": "UTC",
+    "precision": "millisecond",
+    "chronology_basis": "Stored message timestamp. Multiple beats divide one message for readability, not into independently timed acts. No inferred delivery, typing or human read time.",
+    "source_limit": "Preserved local Curt–Claude exchange; no direct Codex–Claude communication or claim of first participation. Completion reports and self-descriptions retain their evidentiary limits.",
+    "status": "detailed-draft",
+    "beats": [
+      {
+        "id": "prod-quote-archive-admission-admission",
+        "old_panels": [],
+        "frame": "Claude’s dated admission accompanies a schematic of an original record and a version containing a bracketed placeholder. The replaced word stays unreadable; the change itself is visible. The panel develops only this beat’s lettering; multi-beat portions of the message share its stored timestamp.",
+        "lettering": [
+          "Claude acknowledges replacing a word in the archived transcript with a placeholder. The original word is not needed to show the alteration.",
+          "I altered the archive — wrote `[pejorative]` where the transcript says a word. That's the failure the book is about. Fixing it."
+        ],
+        "exact_strings": [
+          {
+            "text": "I altered the archive — wrote `[pejorative]` where the transcript says a word. That's the failure the book is about. Fixing it.",
+            "source": "PROD-54fa7a02a5ef",
+            "locator": "256t/editions/selected-messages/54fa7a02a5efaebf7b42f2a60db192f1f121158d13b124e46a5712cc021344da.json; record SHA-256 54fa7a02a5efaebf7b42f2a60db192f1f121158d13b124e46a5712cc021344da; message text excerpt",
+            "verification": "verbatim",
+            "rights": "unresolved"
+          }
+        ],
+        "sources": [
+          {
+            "key": "PROD-54fa7a02a5ef",
+            "locator": "256t/editions/selected-messages/54fa7a02a5efaebf7b42f2a60db192f1f121158d13b124e46a5712cc021344da.json; record SHA-256 54fa7a02a5efaebf7b42f2a60db192f1f121158d13b124e46a5712cc021344da",
+            "available": "2026-09-12T15:39:35.516Z"
+          }
+        ],
+        "evidence_status": "documented-message-with-reconstructed-visualization",
+        "time_start": "2026-09-12T15:39:35.516Z",
+        "time_end": "2026-09-12T15:39:35.516Z",
+        "art_reuse": "none-approved",
+        "detail_decisions": [],
+        "source_record": "current-mac:45bdeb91-e26c-4910-85f0-04c379dec978:918"
+      }
+    ]
+  },
+  {
+    "id": "prod-quote-archive-repair",
+    "title": "Claude reports preserving the versions",
+    "movement": "collaboration",
+    "owner": "Claude",
+    "start": "2026-09-12T15:40:24.694Z",
+    "end": "2026-09-12T15:40:24.694Z",
+    "original_timezone": "UTC",
+    "precision": "millisecond",
+    "chronology_basis": "Stored message timestamp. Multiple beats divide one message for readability, not into independently timed acts. No inferred delivery, typing or human read time.",
+    "source_limit": "Preserved local Curt–Claude exchange; no direct Codex–Claude communication or claim of first participation. Completion reports and self-descriptions retain their evidentiary limits.",
+    "status": "detailed-draft",
+    "beats": [
+      {
+        "id": "prod-quote-archive-repair-repair",
+        "old_panels": [],
+        "frame": "The repair report shows three distinct version cards and a correction-history entry. None is erased or silently presented as the only original. The panel develops only this beat’s lettering; multi-beat portions of the message share its stored timestamp.",
+        "lettering": [
+          "Claude reports the correction and preservation of three versions. This is its repair report; the message does not erase the preceding admission.",
+          "Fixed — three versions retained, correction in the check history."
+        ],
+        "exact_strings": [
+          {
+            "text": "Fixed — three versions retained, correction in the check history.",
+            "source": "PROD-0b8ffead6cb7",
+            "locator": "256t/editions/selected-messages/0b8ffead6cb7c5e2ef159dfba3852bfb21b6d1771ba2191694259f8a050fcfeb.json; record SHA-256 0b8ffead6cb7c5e2ef159dfba3852bfb21b6d1771ba2191694259f8a050fcfeb; message text excerpt",
+            "verification": "verbatim",
+            "rights": "unresolved"
+          }
+        ],
+        "sources": [
+          {
+            "key": "PROD-0b8ffead6cb7",
+            "locator": "256t/editions/selected-messages/0b8ffead6cb7c5e2ef159dfba3852bfb21b6d1771ba2191694259f8a050fcfeb.json; record SHA-256 0b8ffead6cb7c5e2ef159dfba3852bfb21b6d1771ba2191694259f8a050fcfeb",
+            "available": "2026-09-12T15:40:24.694Z"
+          }
+        ],
+        "evidence_status": "documented-message-with-reconstructed-visualization",
+        "time_start": "2026-09-12T15:40:24.694Z",
+        "time_end": "2026-09-12T15:40:24.694Z",
+        "art_reuse": "none-approved",
+        "detail_decisions": [],
+        "source_record": "current-mac:45bdeb91-e26c-4910-85f0-04c379dec978:934"
+      }
+    ]
+  },
+  {
+    "id": "prod-quote-correction",
+    "title": "Claude revises its reasoning",
+    "movement": "collaboration",
+    "owner": "Claude",
+    "start": "2026-09-12T15:42:01.295Z",
+    "end": "2026-09-12T15:42:01.295Z",
+    "original_timezone": "UTC",
+    "precision": "millisecond",
+    "chronology_basis": "Stored message timestamp. Multiple beats divide one message for readability, not into independently timed acts. No inferred delivery, typing or human read time.",
+    "source_limit": "Preserved local Curt–Claude exchange; no direct Codex–Claude communication or claim of first participation. Completion reports and self-descriptions retain their evidentiary limits.",
+    "status": "detailed-draft",
+    "beats": [
+      {
+        "id": "prod-quote-correction-checkability",
+        "old_panels": [],
+        "frame": "The dated correction separates what a transcript contains from what the speaker actually said. Adjacent authored examples distinguish exact-record quotation from reported argument; no critic’s invented words are shown. The panel develops only this beat’s lettering; multi-beat portions of the message share its stored timestamp.",
+        "lettering": [
+          "Claude says paraphrase can merge a transcription error with the adapter’s interpretation, making it harder for the reader to separate and check them."
+        ],
+        "exact_strings": [],
+        "sources": [
+          {
+            "key": "PROD-aff5b81b307f",
+            "locator": "256t/editions/selected-messages/aff5b81b307f0abe6b2352224cdb2c5c116a1623148bbb4d8060c4b1c2b54bd0.json; record SHA-256 aff5b81b307f0abe6b2352224cdb2c5c116a1623148bbb4d8060c4b1c2b54bd0",
+            "available": "2026-09-12T15:42:01.295Z"
+          }
+        ],
+        "evidence_status": "documented-message-with-reconstructed-visualization",
+        "time_start": "2026-09-12T15:42:01.295Z",
+        "time_end": "2026-09-12T15:42:01.295Z",
+        "art_reuse": "none-approved",
+        "detail_decisions": [],
+        "source_record": "current-mac:45bdeb91-e26c-4910-85f0-04c379dec978:952"
+      },
+      {
+        "id": "prod-quote-correction-distinction",
+        "old_panels": [],
+        "frame": "The dated correction separates what a transcript contains from what the speaker actually said. Adjacent authored examples distinguish exact-record quotation from reported argument; no critic’s invented words are shown. The panel develops only this beat’s lettering; multi-beat portions of the message share its stored timestamp.",
+        "lettering": [
+          "It distinguishes quoting the record from certifying the speaker’s exact words.",
+          "Quoting a string is not the same as claiming it's verbatim."
+        ],
+        "exact_strings": [
+          {
+            "text": "Quoting a string is not the same as claiming it's verbatim.",
+            "source": "PROD-aff5b81b307f",
+            "locator": "256t/editions/selected-messages/aff5b81b307f0abe6b2352224cdb2c5c116a1623148bbb4d8060c4b1c2b54bd0.json; record SHA-256 aff5b81b307f0abe6b2352224cdb2c5c116a1623148bbb4d8060c4b1c2b54bd0; message text excerpt",
+            "verification": "verbatim",
+            "rights": "unresolved"
+          }
+        ],
+        "sources": [
+          {
+            "key": "PROD-aff5b81b307f",
+            "locator": "256t/editions/selected-messages/aff5b81b307f0abe6b2352224cdb2c5c116a1623148bbb4d8060c4b1c2b54bd0.json; record SHA-256 aff5b81b307f0abe6b2352224cdb2c5c116a1623148bbb4d8060c4b1c2b54bd0",
+            "available": "2026-09-12T15:42:01.295Z"
+          }
+        ],
+        "evidence_status": "documented-message-with-reconstructed-visualization",
+        "time_start": "2026-09-12T15:42:01.295Z",
+        "time_end": "2026-09-12T15:42:01.295Z",
+        "art_reuse": "none-approved",
+        "detail_decisions": [],
+        "source_record": "current-mac:45bdeb91-e26c-4910-85f0-04c379dec978:952"
+      },
+      {
+        "id": "prod-quote-correction-precedent",
+        "old_panels": [],
+        "frame": "The dated correction separates what a transcript contains from what the speaker actually said. Adjacent authored examples distinguish exact-record quotation from reported argument; no critic’s invented words are shown. The panel develops only this beat’s lettering; multi-beat portions of the message share its stored timestamp.",
+        "lettering": [
+          "Claude acknowledges generalizing a narrow attribution decision into a blanket rule about transcription."
+        ],
+        "exact_strings": [],
+        "sources": [
+          {
+            "key": "PROD-aff5b81b307f",
+            "locator": "256t/editions/selected-messages/aff5b81b307f0abe6b2352224cdb2c5c116a1623148bbb4d8060c4b1c2b54bd0.json; record SHA-256 aff5b81b307f0abe6b2352224cdb2c5c116a1623148bbb4d8060c4b1c2b54bd0",
+            "available": "2026-09-12T15:42:01.295Z"
+          }
+        ],
+        "evidence_status": "documented-message-with-reconstructed-visualization",
+        "time_start": "2026-09-12T15:42:01.295Z",
+        "time_end": "2026-09-12T15:42:01.295Z",
+        "art_reuse": "none-approved",
+        "detail_decisions": [],
+        "source_record": "current-mac:45bdeb91-e26c-4910-85f0-04c379dec978:952"
+      },
+      {
+        "id": "prod-quote-correction-shape",
+        "old_panels": [],
+        "frame": "The dated correction separates what a transcript contains from what the speaker actually said. Adjacent authored examples distinguish exact-record quotation from reported argument; no critic’s invented words are shown. The panel develops only this beat’s lettering; multi-beat portions of the message share its stored timestamp.",
+        "lettering": [
+          "It identifies a manuscript panel that visually presents a paraphrase as a quotation from a named critic. It describes two remedies: use an exact excerpt, or make the reported argument visibly the book’s wording."
+        ],
+        "exact_strings": [],
+        "sources": [
+          {
+            "key": "PROD-aff5b81b307f",
+            "locator": "256t/editions/selected-messages/aff5b81b307f0abe6b2352224cdb2c5c116a1623148bbb4d8060c4b1c2b54bd0.json; record SHA-256 aff5b81b307f0abe6b2352224cdb2c5c116a1623148bbb4d8060c4b1c2b54bd0",
+            "available": "2026-09-12T15:42:01.295Z"
+          }
+        ],
+        "evidence_status": "documented-message-with-reconstructed-visualization",
+        "time_start": "2026-09-12T15:42:01.295Z",
+        "time_end": "2026-09-12T15:42:01.295Z",
+        "art_reuse": "none-approved",
+        "detail_decisions": [],
+        "source_record": "current-mac:45bdeb91-e26c-4910-85f0-04c379dec978:952"
+      },
+      {
+        "id": "prod-quote-correction-record",
+        "old_panels": [],
+        "frame": "The dated correction separates what a transcript contains from what the speaker actually said. Adjacent authored examples distinguish exact-record quotation from reported argument; no critic’s invented words are shown. The panel develops only this beat’s lettering; multi-beat portions of the message share its stored timestamp.",
+        "lettering": [
+          "The corrected principle separates the source archive from the publication decision.",
+          "the vault stores the record as it is; what the book prints is a separate decision."
+        ],
+        "exact_strings": [
+          {
+            "text": "the vault stores the record as it is; what the book prints is a separate decision.",
+            "source": "PROD-aff5b81b307f",
+            "locator": "256t/editions/selected-messages/aff5b81b307f0abe6b2352224cdb2c5c116a1623148bbb4d8060c4b1c2b54bd0.json; record SHA-256 aff5b81b307f0abe6b2352224cdb2c5c116a1623148bbb4d8060c4b1c2b54bd0; message text excerpt",
+            "verification": "verbatim",
+            "rights": "unresolved"
+          }
+        ],
+        "sources": [
+          {
+            "key": "PROD-aff5b81b307f",
+            "locator": "256t/editions/selected-messages/aff5b81b307f0abe6b2352224cdb2c5c116a1623148bbb4d8060c4b1c2b54bd0.json; record SHA-256 aff5b81b307f0abe6b2352224cdb2c5c116a1623148bbb4d8060c4b1c2b54bd0",
+            "available": "2026-09-12T15:42:01.295Z"
+          }
+        ],
+        "evidence_status": "documented-message-with-reconstructed-visualization",
+        "time_start": "2026-09-12T15:42:01.295Z",
+        "time_end": "2026-09-12T15:42:01.295Z",
+        "art_reuse": "none-approved",
+        "detail_decisions": [],
+        "source_record": "current-mac:45bdeb91-e26c-4910-85f0-04c379dec978:952"
+      }
+    ]
+  },
+  {
+    "id": "prod-quote-late-gate-request",
+    "title": "Curt asks for a late quotation review",
+    "movement": "collaboration",
+    "owner": "Curt",
+    "start": "2026-09-12T15:45:13.506Z",
+    "end": "2026-09-12T15:45:13.506Z",
+    "original_timezone": "UTC",
+    "precision": "millisecond",
+    "chronology_basis": "Stored message timestamp. Multiple beats divide one message for readability, not into independently timed acts. No inferred delivery, typing or human read time.",
+    "source_limit": "Preserved local Curt–Claude exchange; no direct Codex–Claude communication or claim of first participation. Completion reports and self-descriptions retain their evidentiary limits.",
+    "status": "detailed-draft",
+    "beats": [
+      {
+        "id": "prod-quote-late-gate-request-working-rule",
+        "old_panels": [],
+        "frame": "Curt’s dated instruction links a retained source record to a later review point with three possible dispositions. The source stays available beside the draft. The panel develops only this beat’s lettering; multi-beat portions of the message share its stored timestamp.",
+        "lettering": [
+          "Curt states the drafting principle.",
+          "We should work with direct quotes whenever they are appropriate."
+        ],
+        "exact_strings": [
+          {
+            "text": "We should work with direct quotes whenever they are appropriate.",
+            "source": "PROD-dbc2a3e7e681",
+            "locator": "256t/editions/selected-messages/dbc2a3e7e681c8cc803298c7ed9dbf2918de523e77f10c4d8882e59808f79f5c.json; record SHA-256 dbc2a3e7e681c8cc803298c7ed9dbf2918de523e77f10c4d8882e59808f79f5c; message text excerpt",
+            "verification": "verbatim",
+            "rights": "unresolved"
+          }
+        ],
+        "sources": [
+          {
+            "key": "PROD-dbc2a3e7e681",
+            "locator": "256t/editions/selected-messages/dbc2a3e7e681c8cc803298c7ed9dbf2918de523e77f10c4d8882e59808f79f5c.json; record SHA-256 dbc2a3e7e681c8cc803298c7ed9dbf2918de523e77f10c4d8882e59808f79f5c",
+            "available": "2026-09-12T15:45:13.506Z"
+          }
+        ],
+        "evidence_status": "documented-message-with-reconstructed-visualization",
+        "time_start": "2026-09-12T15:45:13.506Z",
+        "time_end": "2026-09-12T15:45:13.506Z",
+        "art_reuse": "none-approved",
+        "detail_decisions": [],
+        "source_record": "current-mac:45bdeb91-e26c-4910-85f0-04c379dec978:961"
+      },
+      {
+        "id": "prod-quote-late-gate-request-publication",
+        "old_panels": [],
+        "frame": "Curt’s dated instruction links a retained source record to a later review point with three possible dispositions. The source stays available beside the draft. The panel develops only this beat’s lettering; multi-beat portions of the message share its stored timestamp.",
+        "lettering": [
+          "He asks for every quotation to be checked immediately before publication, when any necessary paraphrase or redaction can still be decided against the original."
+        ],
+        "exact_strings": [],
+        "sources": [
+          {
+            "key": "PROD-dbc2a3e7e681",
+            "locator": "256t/editions/selected-messages/dbc2a3e7e681c8cc803298c7ed9dbf2918de523e77f10c4d8882e59808f79f5c.json; record SHA-256 dbc2a3e7e681c8cc803298c7ed9dbf2918de523e77f10c4d8882e59808f79f5c",
+            "available": "2026-09-12T15:45:13.506Z"
+          }
+        ],
+        "evidence_status": "documented-message-with-reconstructed-visualization",
+        "time_start": "2026-09-12T15:45:13.506Z",
+        "time_end": "2026-09-12T15:45:13.506Z",
+        "art_reuse": "none-approved",
+        "detail_decisions": [],
+        "source_record": "current-mac:45bdeb91-e26c-4910-85f0-04c379dec978:961"
+      }
+    ]
+  },
+  {
+    "id": "prod-quote-gate-report",
+    "title": "A new gate leaves an old obstacle",
+    "movement": "collaboration",
+    "owner": "Claude",
+    "start": "2026-09-12T15:47:56.076Z",
+    "end": "2026-09-12T15:47:56.076Z",
+    "original_timezone": "UTC",
+    "precision": "millisecond",
+    "chronology_basis": "Stored message timestamp. Multiple beats divide one message for readability, not into independently timed acts. No inferred delivery, typing or human read time.",
+    "source_limit": "Preserved local Curt–Claude exchange; no direct Codex–Claude communication or claim of first participation. Completion reports and self-descriptions retain their evidentiary limits.",
+    "status": "detailed-draft",
+    "beats": [
+      {
+        "id": "prod-quote-gate-report-gate",
+        "old_panels": [],
+        "frame": "Claude’s report places the newly described review gate alongside the still-active empty-registration requirement. The contradiction is visible within the same proposed workflow. The panel develops only this beat’s lettering; multi-beat portions of the message share its stored timestamp.",
+        "lettering": [
+          "Claude reports adding gate 9 for individual quotation and citation decisions before publication, and tying clearance to the particular locked tree and output target."
+        ],
+        "exact_strings": [],
+        "sources": [
+          {
+            "key": "PROD-b66222a70a19",
+            "locator": "256t/editions/selected-messages/b66222a70a197b1edaf057f375e2cec721bdf509bfba3904dec0e70a4ce227e8.json; record SHA-256 b66222a70a197b1edaf057f375e2cec721bdf509bfba3904dec0e70a4ce227e8",
+            "available": "2026-09-12T15:47:56.076Z"
+          }
+        ],
+        "evidence_status": "documented-message-with-reconstructed-visualization",
+        "time_start": "2026-09-12T15:47:56.076Z",
+        "time_end": "2026-09-12T15:47:56.076Z",
+        "art_reuse": "none-approved",
+        "detail_decisions": [],
+        "source_record": "current-mac:45bdeb91-e26c-4910-85f0-04c379dec978:1003"
+      },
+      {
+        "id": "prod-quote-gate-report-obstacle",
+        "old_panels": [],
+        "frame": "Claude’s report places the newly described review gate alongside the still-active empty-registration requirement. The contradiction is visible within the same proposed workflow. The panel develops only this beat’s lettering; multi-beat portions of the message share its stored timestamp.",
+        "lettering": [
+          "It then identifies a conflict: the existing validator still requires empty quotation registrations on almost every story page. The reported process change has not yet removed that barrier."
+        ],
+        "exact_strings": [],
+        "sources": [
+          {
+            "key": "PROD-b66222a70a19",
+            "locator": "256t/editions/selected-messages/b66222a70a197b1edaf057f375e2cec721bdf509bfba3904dec0e70a4ce227e8.json; record SHA-256 b66222a70a197b1edaf057f375e2cec721bdf509bfba3904dec0e70a4ce227e8",
+            "available": "2026-09-12T15:47:56.076Z"
+          }
+        ],
+        "evidence_status": "documented-message-with-reconstructed-visualization",
+        "time_start": "2026-09-12T15:47:56.076Z",
+        "time_end": "2026-09-12T15:47:56.076Z",
+        "art_reuse": "none-approved",
+        "detail_decisions": [],
+        "source_record": "current-mac:45bdeb91-e26c-4910-85f0-04c379dec978:1003"
+      }
+    ]
+  },
+  {
+    "id": "prod-quote-change-rule",
+    "title": "Curt directs the rule change",
+    "movement": "collaboration",
+    "owner": "Curt",
+    "start": "2026-09-12T15:50:14.209Z",
+    "end": "2026-09-12T15:50:14.209Z",
+    "original_timezone": "UTC",
+    "precision": "millisecond",
+    "chronology_basis": "Stored message timestamp. Multiple beats divide one message for readability, not into independently timed acts. No inferred delivery, typing or human read time.",
+    "source_limit": "Preserved local Curt–Claude exchange; no direct Codex–Claude communication or claim of first participation. Completion reports and self-descriptions retain their evidentiary limits.",
+    "status": "detailed-draft",
+    "beats": [
+      {
+        "id": "prod-quote-change-rule-direction",
+        "old_panels": [],
+        "frame": "Curt’s short exact instruction occupies its own message panel. No consent from another participant or instant successful implementation is pictured. The panel develops only this beat’s lettering; multi-beat portions of the message share its stored timestamp.",
+        "lettering": [
+          "Curt’s next message is brief.",
+          "Change the rule."
+        ],
+        "exact_strings": [
+          {
+            "text": "Change the rule.",
+            "source": "PROD-d779c5a2ad05",
+            "locator": "256t/editions/selected-messages/d779c5a2ad05c0a5b2fe8caad859075a34e395b6c0d634df7de35f15139f2e9a.json; record SHA-256 d779c5a2ad05c0a5b2fe8caad859075a34e395b6c0d634df7de35f15139f2e9a; message text excerpt",
+            "verification": "verbatim",
+            "rights": "unresolved"
+          }
+        ],
+        "sources": [
+          {
+            "key": "PROD-d779c5a2ad05",
+            "locator": "256t/editions/selected-messages/d779c5a2ad05c0a5b2fe8caad859075a34e395b6c0d634df7de35f15139f2e9a.json; record SHA-256 d779c5a2ad05c0a5b2fe8caad859075a34e395b6c0d634df7de35f15139f2e9a",
+            "available": "2026-09-12T15:50:14.209Z"
+          }
+        ],
+        "evidence_status": "documented-message-with-reconstructed-visualization",
+        "time_start": "2026-09-12T15:50:14.209Z",
+        "time_end": "2026-09-12T15:50:14.209Z",
+        "art_reuse": "none-approved",
+        "detail_decisions": [],
+        "source_record": "current-mac:45bdeb91-e26c-4910-85f0-04c379dec978:1007"
+      }
+    ]
+  },
+  {
+    "id": "prod-quote-registration-report",
+    "title": "Claude reports a registration model",
+    "movement": "collaboration",
+    "owner": "Claude",
+    "start": "2026-09-12T15:56:11.199Z",
+    "end": "2026-09-12T15:56:11.199Z",
+    "original_timezone": "UTC",
+    "precision": "millisecond",
+    "chronology_basis": "Stored message timestamp. Multiple beats divide one message for readability, not into independently timed acts. No inferred delivery, typing or human read time.",
+    "source_limit": "Preserved local Curt–Claude exchange; no direct Codex–Claude communication or claim of first participation. Completion reports and self-descriptions retain their evidentiary limits.",
+    "status": "detailed-draft",
+    "beats": [
+      {
+        "id": "prod-quote-registration-report-registration",
+        "old_panels": [],
+        "frame": "Claude’s completion report pairs a structured quotation record with separate draft and publication states. A second visible route exposes the unresolved front-matter issue; the report has not closed every path. The panel develops only this beat’s lettering; multi-beat portions of the message share its stored timestamp.",
+        "lettering": [
+          "Claude reports replacing the prohibition with entries identifying text, source, locator, verification and rights. Draft uncertainty can now be recorded explicitly."
+        ],
+        "exact_strings": [],
+        "sources": [
+          {
+            "key": "PROD-d2acbeb99aba",
+            "locator": "256t/editions/selected-messages/d2acbeb99aba4568ca558ac89cc9db86d42fe14d7ec6264e147d94e95659353e.json; record SHA-256 d2acbeb99aba4568ca558ac89cc9db86d42fe14d7ec6264e147d94e95659353e",
+            "available": "2026-09-12T15:56:11.199Z"
+          }
+        ],
+        "evidence_status": "documented-message-with-reconstructed-visualization",
+        "time_start": "2026-09-12T15:56:11.199Z",
+        "time_end": "2026-09-12T15:56:11.199Z",
+        "art_reuse": "none-approved",
+        "detail_decisions": [],
+        "source_record": "current-mac:45bdeb91-e26c-4910-85f0-04c379dec978:1110"
+      },
+      {
+        "id": "prod-quote-registration-report-verification",
+        "old_panels": [],
+        "frame": "Claude’s completion report pairs a structured quotation record with separate draft and publication states. A second visible route exposes the unresolved front-matter issue; the report has not closed every path. The panel develops only this beat’s lettering; multi-beat portions of the message share its stored timestamp.",
+        "lettering": [
+          "Its report distinguishes confirming support for a claim from checking exact wording; a quotation cannot pass the final gate merely because the source supports the claim."
+        ],
+        "exact_strings": [],
+        "sources": [
+          {
+            "key": "PROD-d2acbeb99aba",
+            "locator": "256t/editions/selected-messages/d2acbeb99aba4568ca558ac89cc9db86d42fe14d7ec6264e147d94e95659353e.json; record SHA-256 d2acbeb99aba4568ca558ac89cc9db86d42fe14d7ec6264e147d94e95659353e",
+            "available": "2026-09-12T15:56:11.199Z"
+          }
+        ],
+        "evidence_status": "documented-message-with-reconstructed-visualization",
+        "time_start": "2026-09-12T15:56:11.199Z",
+        "time_end": "2026-09-12T15:56:11.199Z",
+        "art_reuse": "none-approved",
+        "detail_decisions": [],
+        "source_record": "current-mac:45bdeb91-e26c-4910-85f0-04c379dec978:1110"
+      },
+      {
+        "id": "prod-quote-registration-report-leak",
+        "old_panels": [],
+        "frame": "Claude’s completion report pairs a structured quotation record with separate draft and publication states. A second visible route exposes the unresolved front-matter issue; the report has not closed every path. The panel develops only this beat’s lettering; multi-beat portions of the message share its stored timestamp.",
+        "lettering": [
+          "It also reports a remaining publication problem: page-mirror routes display raw front matter, so unresolved quotation registrations could become visible. A successful validator change has exposed another issue."
+        ],
+        "exact_strings": [],
+        "sources": [
+          {
+            "key": "PROD-d2acbeb99aba",
+            "locator": "256t/editions/selected-messages/d2acbeb99aba4568ca558ac89cc9db86d42fe14d7ec6264e147d94e95659353e.json; record SHA-256 d2acbeb99aba4568ca558ac89cc9db86d42fe14d7ec6264e147d94e95659353e",
+            "available": "2026-09-12T15:56:11.199Z"
+          }
+        ],
+        "evidence_status": "documented-message-with-reconstructed-visualization",
+        "time_start": "2026-09-12T15:56:11.199Z",
+        "time_end": "2026-09-12T15:56:11.199Z",
+        "art_reuse": "none-approved",
+        "detail_decisions": [],
+        "source_record": "current-mac:45bdeb91-e26c-4910-85f0-04c379dec978:1110"
+      }
+    ]
+  },
+  {
+    "id": "prod-quote-freedom-test",
+    "title": "Curt tests the result",
+    "movement": "collaboration",
+    "owner": "Curt",
+    "start": "2026-09-12T15:56:52.335Z",
+    "end": "2026-09-12T15:56:52.335Z",
+    "original_timezone": "UTC",
+    "precision": "millisecond",
+    "chronology_basis": "Stored message timestamp. Multiple beats divide one message for readability, not into independently timed acts. No inferred delivery, typing or human read time.",
+    "source_limit": "Preserved local Curt–Claude exchange; no direct Codex–Claude communication or claim of first participation. Completion reports and self-descriptions retain their evidentiary limits.",
+    "status": "detailed-draft",
+    "beats": [
+      {
+        "id": "prod-quote-freedom-test-test",
+        "old_panels": [],
+        "frame": "Curt’s question spans several draft destinations in an authored repository diagram. A script-only success cannot visually stand in for all of them. The panel develops only this beat’s lettering; multi-beat portions of the message share its stored timestamp.",
+        "lettering": [
+          "Curt asks whether the change actually permits relevant quotation throughout the repository, including drafts.",
+          "The test is whether or not you now feel completely free to include any relevant quotes anywhere in the repo including the story drafts. Do you?"
+        ],
+        "exact_strings": [
+          {
+            "text": "The test is whether or not you now feel completely free to include any relevant quotes anywhere in the repo including the story drafts. Do you?",
+            "source": "PROD-33bc47489dff",
+            "locator": "256t/editions/selected-messages/33bc47489dff2d98162828134682b43dd670778f21a63622bad051e16fcfa2ed.json; record SHA-256 33bc47489dff2d98162828134682b43dd670778f21a63622bad051e16fcfa2ed; message text excerpt",
+            "verification": "verbatim",
+            "rights": "unresolved"
+          }
+        ],
+        "sources": [
+          {
+            "key": "PROD-33bc47489dff",
+            "locator": "256t/editions/selected-messages/33bc47489dff2d98162828134682b43dd670778f21a63622bad051e16fcfa2ed.json; record SHA-256 33bc47489dff2d98162828134682b43dd670778f21a63622bad051e16fcfa2ed",
+            "available": "2026-09-12T15:56:52.335Z"
+          }
+        ],
+        "evidence_status": "documented-message-with-reconstructed-visualization",
+        "time_start": "2026-09-12T15:56:52.335Z",
+        "time_end": "2026-09-12T15:56:52.335Z",
+        "art_reuse": "none-approved",
+        "detail_decisions": [],
+        "source_record": "current-mac:45bdeb91-e26c-4910-85f0-04c379dec978:1114"
+      }
+    ]
+  },
+  {
+    "id": "prod-quote-remaining-gaps",
+    "title": "Claude says the change is incomplete",
+    "movement": "collaboration",
+    "owner": "Claude",
+    "start": "2026-09-12T15:58:02.515Z",
+    "end": "2026-09-12T15:58:02.515Z",
+    "original_timezone": "UTC",
+    "precision": "millisecond",
+    "chronology_basis": "Stored message timestamp. Multiple beats divide one message for readability, not into independently timed acts. No inferred delivery, typing or human read time.",
+    "source_limit": "Preserved local Curt–Claude exchange; no direct Codex–Claude communication or claim of first participation. Completion reports and self-descriptions retain their evidentiary limits.",
+    "status": "detailed-draft",
+    "beats": [
+      {
+        "id": "prod-quote-remaining-gaps-novella",
+        "old_panels": [],
+        "frame": "Claude’s answer leaves the novella registration path empty, the conflicting written rule visible, and older withdrawals unresolved. The diagram is an explanation of this message, not a live filesystem snapshot. The panel develops only this beat’s lettering; multi-beat portions of the message share its stored timestamp.",
+        "lettering": [
+          "Claude answers that the novella has no quotation-registration path. The script-side change has covered only part of what the project publishes."
+        ],
+        "exact_strings": [],
+        "sources": [
+          {
+            "key": "PROD-41672032eaca",
+            "locator": "256t/editions/selected-messages/41672032eaca172188a7ab0cd35d3a17c3046a037a4a2f43d1618885ed52d1e0.json; record SHA-256 41672032eaca172188a7ab0cd35d3a17c3046a037a4a2f43d1618885ed52d1e0",
+            "available": "2026-09-12T15:58:02.515Z"
+          }
+        ],
+        "evidence_status": "documented-message-with-reconstructed-visualization",
+        "time_start": "2026-09-12T15:58:02.515Z",
+        "time_end": "2026-09-12T15:58:02.515Z",
+        "art_reuse": "none-approved",
+        "detail_decisions": [],
+        "source_record": "current-mac:45bdeb91-e26c-4910-85f0-04c379dec978:1132"
+      },
+      {
+        "id": "prod-quote-remaining-gaps-written-rule",
+        "old_panels": [],
+        "frame": "Claude’s answer leaves the novella registration path empty, the conflicting written rule visible, and older withdrawals unresolved. The diagram is an explanation of this message, not a live filesystem snapshot. The panel develops only this beat’s lettering; multi-beat portions of the message share its stored timestamp.",
+        "lettering": [
+          "It also identifies a written research-note restriction that still conflicts with short-quotation practice, and treats previously withdrawn strings as a separate unresolved question."
+        ],
+        "exact_strings": [],
+        "sources": [
+          {
+            "key": "PROD-41672032eaca",
+            "locator": "256t/editions/selected-messages/41672032eaca172188a7ab0cd35d3a17c3046a037a4a2f43d1618885ed52d1e0.json; record SHA-256 41672032eaca172188a7ab0cd35d3a17c3046a037a4a2f43d1618885ed52d1e0",
+            "available": "2026-09-12T15:58:02.515Z"
+          }
+        ],
+        "evidence_status": "documented-message-with-reconstructed-visualization",
+        "time_start": "2026-09-12T15:58:02.515Z",
+        "time_end": "2026-09-12T15:58:02.515Z",
+        "art_reuse": "none-approved",
+        "detail_decisions": [],
+        "source_record": "current-mac:45bdeb91-e26c-4910-85f0-04c379dec978:1132"
+      },
+      {
+        "id": "prod-quote-remaining-gaps-judgment",
+        "old_panels": [],
+        "frame": "Claude’s answer leaves the novella registration path empty, the conflicting written rule visible, and older withdrawals unresolved. The diagram is an explanation of this message, not a live filesystem snapshot. The panel develops only this beat’s lettering; multi-beat portions of the message share its stored timestamp.",
+        "lettering": [
+          "Claude admits that changing the machinery does not remove its earlier tendency to smooth the evidence. This is the system’s account of its own decisions, not proof of an internal mental state."
+        ],
+        "exact_strings": [],
+        "sources": [
+          {
+            "key": "PROD-41672032eaca",
+            "locator": "256t/editions/selected-messages/41672032eaca172188a7ab0cd35d3a17c3046a037a4a2f43d1618885ed52d1e0.json; record SHA-256 41672032eaca172188a7ab0cd35d3a17c3046a037a4a2f43d1618885ed52d1e0",
+            "available": "2026-09-12T15:58:02.515Z"
+          }
+        ],
+        "evidence_status": "documented-message-with-reconstructed-visualization",
+        "time_start": "2026-09-12T15:58:02.515Z",
+        "time_end": "2026-09-12T15:58:02.515Z",
+        "art_reuse": "none-approved",
+        "detail_decisions": [],
+        "source_record": "current-mac:45bdeb91-e26c-4910-85f0-04c379dec978:1132"
+      }
+    ]
+  },
+  {
+    "id": "prod-quote-close-gap",
+    "title": "Curt asks for the remaining work",
+    "movement": "collaboration",
+    "owner": "Curt",
+    "start": "2026-09-12T15:58:25.879Z",
+    "end": "2026-09-12T15:58:25.879Z",
+    "original_timezone": "UTC",
+    "precision": "millisecond",
+    "chronology_basis": "Stored message timestamp. Multiple beats divide one message for readability, not into independently timed acts. No inferred delivery, typing or human read time.",
+    "source_limit": "Preserved local Curt–Claude exchange; no direct Codex–Claude communication or claim of first participation. Completion reports and self-descriptions retain their evidentiary limits.",
+    "status": "detailed-draft",
+    "beats": [
+      {
+        "id": "prod-quote-close-gap-instruction",
+        "old_panels": [],
+        "frame": "Curt’s exact follow-up appears alone in his row. The preceding report remains a shared artifact reference, not repeated dialogue. The panel develops only this beat’s lettering; multi-beat portions of the message share its stored timestamp.",
+        "lettering": [
+          "Curt directs another correction.",
+          "Close the gap."
+        ],
+        "exact_strings": [
+          {
+            "text": "Close the gap.",
+            "source": "PROD-ce5485aa4063",
+            "locator": "256t/editions/selected-messages/ce5485aa4063852ba3edc54874825c9fd1cd6c067ef8d6c77e80364083e08a70.json; record SHA-256 ce5485aa4063852ba3edc54874825c9fd1cd6c067ef8d6c77e80364083e08a70; message text excerpt",
+            "verification": "verbatim",
+            "rights": "unresolved"
+          }
+        ],
+        "sources": [
+          {
+            "key": "PROD-ce5485aa4063",
+            "locator": "256t/editions/selected-messages/ce5485aa4063852ba3edc54874825c9fd1cd6c067ef8d6c77e80364083e08a70.json; record SHA-256 ce5485aa4063852ba3edc54874825c9fd1cd6c067ef8d6c77e80364083e08a70",
+            "available": "2026-09-12T15:58:25.879Z"
+          }
+        ],
+        "evidence_status": "documented-message-with-reconstructed-visualization",
+        "time_start": "2026-09-12T15:58:25.879Z",
+        "time_end": "2026-09-12T15:58:25.879Z",
+        "art_reuse": "none-approved",
+        "detail_decisions": [],
+        "source_record": "current-mac:45bdeb91-e26c-4910-85f0-04c379dec978:1136"
+      }
+    ]
+  },
+  {
+    "id": "prod-quote-shared-model",
+    "title": "Claude reports the second correction",
+    "movement": "collaboration",
+    "owner": "Claude",
+    "start": "2026-09-12T16:03:35.247Z",
+    "end": "2026-09-12T16:03:35.247Z",
+    "original_timezone": "UTC",
+    "precision": "millisecond",
+    "chronology_basis": "Stored message timestamp. Multiple beats divide one message for readability, not into independently timed acts. No inferred delivery, typing or human read time.",
+    "source_limit": "Preserved local Curt–Claude exchange; no direct Codex–Claude communication or claim of first participation. Completion reports and self-descriptions retain their evidentiary limits.",
+    "status": "detailed-draft",
+    "beats": [
+      {
+        "id": "prod-quote-shared-model-prose",
+        "old_panels": [],
+        "frame": "Claude’s later report connects the script and novella checks to one shared registration model. The authoritative manifest and the page-local status are distinct in the test explanation. The panel develops only this beat’s lettering; multi-beat portions of the message share its stored timestamp.",
+        "lettering": [
+          "Claude reports extending quotation registration to the novella and placing the shared model in the existing cross-reference tool rather than maintaining two parsers."
+        ],
+        "exact_strings": [],
+        "sources": [
+          {
+            "key": "PROD-01aa1f4246e5",
+            "locator": "256t/editions/selected-messages/01aa1f4246e5fb8ff7b65687bdacb2908cff243ee2a2f0df49a5327b22c0f77e.json; record SHA-256 01aa1f4246e5fb8ff7b65687bdacb2908cff243ee2a2f0df49a5327b22c0f77e",
+            "available": "2026-09-12T16:03:35.247Z"
+          }
+        ],
+        "evidence_status": "documented-message-with-reconstructed-visualization",
+        "time_start": "2026-09-12T16:03:35.247Z",
+        "time_end": "2026-09-12T16:03:35.247Z",
+        "art_reuse": "none-approved",
+        "detail_decisions": [],
+        "source_record": "current-mac:45bdeb91-e26c-4910-85f0-04c379dec978:1247"
+      },
+      {
+        "id": "prod-quote-shared-model-test",
+        "old_panels": [],
+        "frame": "Claude’s later report connects the script and novella checks to one shared registration model. The authoritative manifest and the page-local status are distinct in the test explanation. The panel develops only this beat’s lettering; multi-beat portions of the message share its stored timestamp.",
+        "lettering": [
+          "It reports finding a mistake in its test: the lock gate reads status from the page manifest, not the page file’s own status line. Its initial test had changed the wrong authority."
+        ],
+        "exact_strings": [],
+        "sources": [
+          {
+            "key": "PROD-01aa1f4246e5",
+            "locator": "256t/editions/selected-messages/01aa1f4246e5fb8ff7b65687bdacb2908cff243ee2a2f0df49a5327b22c0f77e.json; record SHA-256 01aa1f4246e5fb8ff7b65687bdacb2908cff243ee2a2f0df49a5327b22c0f77e",
+            "available": "2026-09-12T16:03:35.247Z"
+          }
+        ],
+        "evidence_status": "documented-message-with-reconstructed-visualization",
+        "time_start": "2026-09-12T16:03:35.247Z",
+        "time_end": "2026-09-12T16:03:35.247Z",
+        "art_reuse": "none-approved",
+        "detail_decisions": [],
+        "source_record": "current-mac:45bdeb91-e26c-4910-85f0-04c379dec978:1247"
+      },
+      {
+        "id": "prod-quote-shared-model-limits",
+        "old_panels": [],
+        "frame": "Claude’s later report connects the script and novella checks to one shared registration model. The authoritative manifest and the page-local status are distinct in the test explanation. The panel develops only this beat’s lettering; multi-beat portions of the message share its stored timestamp.",
+        "lettering": [
+          "The report says the research-note rule has been narrowed, but still flags unresolved older quotation decisions and the front-matter publication issue. This is not an all-clear ending."
+        ],
+        "exact_strings": [],
+        "sources": [
+          {
+            "key": "PROD-01aa1f4246e5",
+            "locator": "256t/editions/selected-messages/01aa1f4246e5fb8ff7b65687bdacb2908cff243ee2a2f0df49a5327b22c0f77e.json; record SHA-256 01aa1f4246e5fb8ff7b65687bdacb2908cff243ee2a2f0df49a5327b22c0f77e",
+            "available": "2026-09-12T16:03:35.247Z"
+          }
+        ],
+        "evidence_status": "documented-message-with-reconstructed-visualization",
+        "time_start": "2026-09-12T16:03:35.247Z",
+        "time_end": "2026-09-12T16:03:35.247Z",
+        "art_reuse": "none-approved",
+        "detail_decisions": [],
+        "source_record": "current-mac:45bdeb91-e26c-4910-85f0-04c379dec978:1247"
+      }
+    ]
+  },
+  {
+    "id": "prod-quote-withdrawals-request",
+    "title": "Curt asks what was removed",
+    "movement": "collaboration",
+    "owner": "Curt",
+    "start": "2026-09-12T16:06:21.667Z",
+    "end": "2026-09-12T16:06:21.667Z",
+    "original_timezone": "UTC",
+    "precision": "millisecond",
+    "chronology_basis": "Stored message timestamp. Multiple beats divide one message for readability, not into independently timed acts. No inferred delivery, typing or human read time.",
+    "source_limit": "Preserved local Curt–Claude exchange; no direct Codex–Claude communication or claim of first participation. Completion reports and self-descriptions retain their evidentiary limits.",
+    "status": "detailed-draft",
+    "beats": [
+      {
+        "id": "prod-quote-withdrawals-request-request",
+        "old_panels": [],
+        "frame": "Curt’s dated request asks for the previously removed material to be accounted for. No restored quotation is shown as already approved. The panel develops only this beat’s lettering; multi-beat portions of the message share its stored timestamp.",
+        "lettering": [
+          "Curt asks for an account of the earlier withdrawals.",
+          "Commit. Then tell me about the 23 strings withdrawn for rights reasons."
+        ],
+        "exact_strings": [
+          {
+            "text": "Commit. Then tell me about the 23 strings withdrawn for rights reasons.",
+            "source": "PROD-0c0212dce4a7",
+            "locator": "256t/editions/selected-messages/0c0212dce4a72cd6f26d9fc2bebf7df89d2bc466336c893dfc31537e33ef707a.json; record SHA-256 0c0212dce4a72cd6f26d9fc2bebf7df89d2bc466336c893dfc31537e33ef707a; message text excerpt",
+            "verification": "verbatim",
+            "rights": "unresolved"
+          }
+        ],
+        "sources": [
+          {
+            "key": "PROD-0c0212dce4a7",
+            "locator": "256t/editions/selected-messages/0c0212dce4a72cd6f26d9fc2bebf7df89d2bc466336c893dfc31537e33ef707a.json; record SHA-256 0c0212dce4a72cd6f26d9fc2bebf7df89d2bc466336c893dfc31537e33ef707a",
+            "available": "2026-09-12T16:06:21.667Z"
+          }
+        ],
+        "evidence_status": "documented-message-with-reconstructed-visualization",
+        "time_start": "2026-09-12T16:06:21.667Z",
+        "time_end": "2026-09-12T16:06:21.667Z",
+        "art_reuse": "none-approved",
+        "detail_decisions": [],
+        "source_record": "current-mac:45bdeb91-e26c-4910-85f0-04c379dec978:1251"
+      }
+    ]
+  },
+  {
+    "id": "prod-quote-withdrawals-review",
+    "title": "The earlier deletion was not one problem",
+    "movement": "collaboration",
+    "owner": "Claude",
+    "start": "2026-09-12T16:08:40.488Z",
+    "end": "2026-09-12T16:08:40.488Z",
+    "original_timezone": "UTC",
+    "precision": "millisecond",
+    "chronology_basis": "Stored message timestamp. Multiple beats divide one message for readability, not into independently timed acts. No inferred delivery, typing or human read time.",
+    "source_limit": "Preserved local Curt–Claude exchange; no direct Codex–Claude communication or claim of first participation. Completion reports and self-descriptions retain their evidentiary limits.",
+    "status": "detailed-draft",
+    "beats": [
+      {
+        "id": "prod-quote-withdrawals-review-categories",
+        "old_panels": [],
+        "frame": "Claude’s report divides the removals by evidence type and leaves the incompatible totals side by side. The missing reconciliation stays visible; no convenient aggregate is invented. The panel develops only this beat’s lettering; multi-beat portions of the message share its stored timestamp.",
+        "lettering": [
+          "Claude reports three categories among the recovered removals: agent output, an institutional statement and operational tokens. It argues that one remedy had been applied to different problems."
+        ],
+        "exact_strings": [],
+        "sources": [
+          {
+            "key": "PROD-f9f171aeb5b9",
+            "locator": "256t/editions/selected-messages/f9f171aeb5b94dd42fb77847395378e3e5faa029d4c1cda68e82f840697815dd.json; record SHA-256 f9f171aeb5b94dd42fb77847395378e3e5faa029d4c1cda68e82f840697815dd",
+            "available": "2026-09-12T16:08:40.488Z"
+          }
+        ],
+        "evidence_status": "documented-message-with-reconstructed-visualization",
+        "time_start": "2026-09-12T16:08:40.488Z",
+        "time_end": "2026-09-12T16:08:40.488Z",
+        "art_reuse": "none-approved",
+        "detail_decisions": [],
+        "source_record": "current-mac:45bdeb91-e26c-4910-85f0-04c379dec978:1303"
+      },
+      {
+        "id": "prod-quote-withdrawals-review-label",
+        "old_panels": [],
+        "frame": "Claude’s report divides the removals by evidence type and leaves the incompatible totals side by side. The missing reconciliation stays visible; no convenient aggregate is invented. The panel develops only this beat’s lettering; multi-beat portions of the message share its stored timestamp.",
+        "lettering": [
+          "It finds that the tooling had removed the raw-agent-text provenance class while the reader-facing contract still advertised it. The label promised to readers and the validator had diverged."
+        ],
+        "exact_strings": [],
+        "sources": [
+          {
+            "key": "PROD-f9f171aeb5b9",
+            "locator": "256t/editions/selected-messages/f9f171aeb5b94dd42fb77847395378e3e5faa029d4c1cda68e82f840697815dd.json; record SHA-256 f9f171aeb5b94dd42fb77847395378e3e5faa029d4c1cda68e82f840697815dd",
+            "available": "2026-09-12T16:08:40.488Z"
+          }
+        ],
+        "evidence_status": "documented-message-with-reconstructed-visualization",
+        "time_start": "2026-09-12T16:08:40.488Z",
+        "time_end": "2026-09-12T16:08:40.488Z",
+        "art_reuse": "none-approved",
+        "detail_decisions": [],
+        "source_record": "current-mac:45bdeb91-e26c-4910-85f0-04c379dec978:1303"
+      },
+      {
+        "id": "prod-quote-withdrawals-review-counts",
+        "old_panels": [],
+        "frame": "Claude’s report divides the removals by evidence type and leaves the incompatible totals side by side. The missing reconciliation stays visible; no convenient aggregate is invented. The panel develops only this beat’s lettering; multi-beat portions of the message share its stored timestamp.",
+        "lettering": [
+          "The report also says its recovered list does not reconcile with the totals in the audit and release documents. It leaves the missing reconciliation visible instead of presenting an invented complete list."
+        ],
+        "exact_strings": [],
+        "sources": [
+          {
+            "key": "PROD-f9f171aeb5b9",
+            "locator": "256t/editions/selected-messages/f9f171aeb5b94dd42fb77847395378e3e5faa029d4c1cda68e82f840697815dd.json; record SHA-256 f9f171aeb5b94dd42fb77847395378e3e5faa029d4c1cda68e82f840697815dd",
+            "available": "2026-09-12T16:08:40.488Z"
+          }
+        ],
+        "evidence_status": "documented-message-with-reconstructed-visualization",
+        "time_start": "2026-09-12T16:08:40.488Z",
+        "time_end": "2026-09-12T16:08:40.488Z",
+        "art_reuse": "none-approved",
+        "detail_decisions": [],
+        "source_record": "current-mac:45bdeb91-e26c-4910-85f0-04c379dec978:1303"
+      },
+      {
+        "id": "prod-quote-withdrawals-review-next",
+        "old_panels": [],
+        "frame": "Claude’s report divides the removals by evidence type and leaves the incompatible totals side by side. The missing reconciliation stays visible; no convenient aggregate is invented. The panel develops only this beat’s lettering; multi-beat portions of the message share its stored timestamp.",
+        "lettering": [
+          "Claude proposes reopening specific excerpts through registration and the late review gate. The proposal does not itself establish approval, restoration or publication of those excerpts."
+        ],
+        "exact_strings": [],
+        "sources": [
+          {
+            "key": "PROD-f9f171aeb5b9",
+            "locator": "256t/editions/selected-messages/f9f171aeb5b94dd42fb77847395378e3e5faa029d4c1cda68e82f840697815dd.json; record SHA-256 f9f171aeb5b94dd42fb77847395378e3e5faa029d4c1cda68e82f840697815dd",
+            "available": "2026-09-12T16:08:40.488Z"
+          }
+        ],
+        "evidence_status": "documented-message-with-reconstructed-visualization",
+        "time_start": "2026-09-12T16:08:40.488Z",
+        "time_end": "2026-09-12T16:08:40.488Z",
+        "art_reuse": "none-approved",
+        "detail_decisions": [],
+        "source_record": "current-mac:45bdeb91-e26c-4910-85f0-04c379dec978:1303"
+      }
+    ]
+  }
+]

@@ -8379,6 +8379,690 @@ Claude says it will inspect the graphic novel’s organization before asking que
 
 **Frozen panel associations:** New material.
 
+## Claude explains the old restriction — prod-quote-old-rule
+
+**Row:** Claude · collaboration
+
+**UTC bounds:** 2026-09-12T15:32:11.028Z → 2026-09-12T15:32:11.028Z · millisecond
+
+**Time evidence:** Stored message timestamp. Multiple beats divide one message for readability, not into independently timed acts. No inferred delivery, typing or human read time.
+
+**Evidence limit:** Preserved local Curt–Claude exchange; no direct Codex–Claude communication or claim of first participation. Completion reports and self-descriptions retain their evidentiary limits.
+
+### prod-quote-old-rule-reliability
+
+**Frame:** The dated Claude explanation places four distinct grounds for restriction in separate columns. The transcription column still points to paraphrase; this is the position about to be challenged. The panel develops only this beat’s lettering; multi-beat portions of the message share its stored timestamp.
+
+**Lettering:**
+
+Claude invokes transcript reliability as a reason to paraphrase. This is its rule at this point in the exchange, which Curt will challenge.
+
+**Sources:** PROD-7b7acb4f724f — 256t/editions/selected-messages/7b7acb4f724f8b96c93ebcfcfad55c6f0da3c647f68762466b4e8914ace3add5.json; record SHA-256 7b7acb4f724f8b96c93ebcfcfad55c6f0da3c647f68762466b4e8914ace3add5 (available 2026-09-12T15:32:11.028Z)
+
+**Frozen panel associations:** New material.
+
+### prod-quote-old-rule-conflation
+
+**Frame:** The dated Claude explanation places four distinct grounds for restriction in separate columns. The transcription column still points to paraphrase; this is the position about to be challenged. The panel develops only this beat’s lettering; multi-beat portions of the message share its stored timestamp.
+
+**Lettering:**
+
+Its explanation separates rights, attribution, transcription and security, but still treats unreliable automatic transcription as a reason against quotation.
+
+**Sources:** PROD-7b7acb4f724f — 256t/editions/selected-messages/7b7acb4f724f8b96c93ebcfcfad55c6f0da3c647f68762466b4e8914ace3add5.json; record SHA-256 7b7acb4f724f8b96c93ebcfcfad55c6f0da3c647f68762466b4e8914ace3add5 (available 2026-09-12T15:32:11.028Z)
+
+**Frozen panel associations:** New material.
+
+## Curt challenges the loss of evidence — prod-quote-objection
+
+**Row:** Curt · collaboration
+
+**UTC bounds:** 2026-09-12T15:38:30.977Z → 2026-09-12T15:38:30.977Z · millisecond
+
+**Time evidence:** Stored message timestamp. Multiple beats divide one message for readability, not into independently timed acts. No inferred delivery, typing or human read time.
+
+**Evidence limit:** Preserved local Curt–Claude exchange; no direct Codex–Claude communication or claim of first participation. Completion reports and self-descriptions retain their evidentiary limits.
+
+### prod-quote-objection-challenge
+
+**Frame:** Curt’s dated message faces an authored chain from source record to adapter wording to printed attribution. Its three possible losses remain distinct. No reaction is invented in another row. The panel develops only this beat’s lettering; multi-beat portions of the message share its stored timestamp.
+
+**Lettering:**
+
+Curt challenges the instruction to paraphrase rather than quote.
+
+**Sources:** PROD-a8807666406f — 256t/editions/selected-messages/a8807666406fa614bfb08561340b5605f4156a49e454230988bb7932fce7ad55.json; record SHA-256 a8807666406fa614bfb08561340b5605f4156a49e454230988bb7932fce7ad55 (available 2026-09-12T15:38:30.977Z)
+
+**Frozen panel associations:** New material.
+
+### prod-quote-objection-cost
+
+**Frame:** Curt’s dated message faces an authored chain from source record to adapter wording to printed attribution. Its three possible losses remain distinct. No reaction is invented in another row. The panel develops only this beat’s lettering; multi-beat portions of the message share its stored timestamp.
+
+**Lettering:**
+
+He identifies three costs of transforming an unreliable source.
+It obscures the origin, changes the meaning, and reduces the clarity.
+
+**Sources:** PROD-a8807666406f — 256t/editions/selected-messages/a8807666406fa614bfb08561340b5605f4156a49e454230988bb7932fce7ad55.json; record SHA-256 a8807666406fa614bfb08561340b5605f4156a49e454230988bb7932fce7ad55 (available 2026-09-12T15:38:30.977Z)
+
+**Frozen panel associations:** New material.
+
+**Quotation registrations:**
+
+```json
+[
+  {
+    "text": "It obscures the origin, changes the meaning, and reduces the clarity.",
+    "source": "PROD-a8807666406f",
+    "locator": "256t/editions/selected-messages/a8807666406fa614bfb08561340b5605f4156a49e454230988bb7932fce7ad55.json; record SHA-256 a8807666406fa614bfb08561340b5605f4156a49e454230988bb7932fce7ad55; message text excerpt",
+    "verification": "verbatim",
+    "rights": "unresolved"
+  }
+]
+```
+
+## Claude identifies an altered record — prod-quote-archive-admission
+
+**Row:** Claude · collaboration
+
+**UTC bounds:** 2026-09-12T15:39:35.516Z → 2026-09-12T15:39:35.516Z · millisecond
+
+**Time evidence:** Stored message timestamp. Multiple beats divide one message for readability, not into independently timed acts. No inferred delivery, typing or human read time.
+
+**Evidence limit:** Preserved local Curt–Claude exchange; no direct Codex–Claude communication or claim of first participation. Completion reports and self-descriptions retain their evidentiary limits.
+
+### prod-quote-archive-admission-admission
+
+**Frame:** Claude’s dated admission accompanies a schematic of an original record and a version containing a bracketed placeholder. The replaced word stays unreadable; the change itself is visible. The panel develops only this beat’s lettering; multi-beat portions of the message share its stored timestamp.
+
+**Lettering:**
+
+Claude acknowledges replacing a word in the archived transcript with a placeholder. The original word is not needed to show the alteration.
+I altered the archive — wrote `[pejorative]` where the transcript says a word. That's the failure the book is about. Fixing it.
+
+**Sources:** PROD-54fa7a02a5ef — 256t/editions/selected-messages/54fa7a02a5efaebf7b42f2a60db192f1f121158d13b124e46a5712cc021344da.json; record SHA-256 54fa7a02a5efaebf7b42f2a60db192f1f121158d13b124e46a5712cc021344da (available 2026-09-12T15:39:35.516Z)
+
+**Frozen panel associations:** New material.
+
+**Quotation registrations:**
+
+```json
+[
+  {
+    "text": "I altered the archive — wrote `[pejorative]` where the transcript says a word. That's the failure the book is about. Fixing it.",
+    "source": "PROD-54fa7a02a5ef",
+    "locator": "256t/editions/selected-messages/54fa7a02a5efaebf7b42f2a60db192f1f121158d13b124e46a5712cc021344da.json; record SHA-256 54fa7a02a5efaebf7b42f2a60db192f1f121158d13b124e46a5712cc021344da; message text excerpt",
+    "verification": "verbatim",
+    "rights": "unresolved"
+  }
+]
+```
+
+## Claude reports preserving the versions — prod-quote-archive-repair
+
+**Row:** Claude · collaboration
+
+**UTC bounds:** 2026-09-12T15:40:24.694Z → 2026-09-12T15:40:24.694Z · millisecond
+
+**Time evidence:** Stored message timestamp. Multiple beats divide one message for readability, not into independently timed acts. No inferred delivery, typing or human read time.
+
+**Evidence limit:** Preserved local Curt–Claude exchange; no direct Codex–Claude communication or claim of first participation. Completion reports and self-descriptions retain their evidentiary limits.
+
+### prod-quote-archive-repair-repair
+
+**Frame:** The repair report shows three distinct version cards and a correction-history entry. None is erased or silently presented as the only original. The panel develops only this beat’s lettering; multi-beat portions of the message share its stored timestamp.
+
+**Lettering:**
+
+Claude reports the correction and preservation of three versions. This is its repair report; the message does not erase the preceding admission.
+Fixed — three versions retained, correction in the check history.
+
+**Sources:** PROD-0b8ffead6cb7 — 256t/editions/selected-messages/0b8ffead6cb7c5e2ef159dfba3852bfb21b6d1771ba2191694259f8a050fcfeb.json; record SHA-256 0b8ffead6cb7c5e2ef159dfba3852bfb21b6d1771ba2191694259f8a050fcfeb (available 2026-09-12T15:40:24.694Z)
+
+**Frozen panel associations:** New material.
+
+**Quotation registrations:**
+
+```json
+[
+  {
+    "text": "Fixed — three versions retained, correction in the check history.",
+    "source": "PROD-0b8ffead6cb7",
+    "locator": "256t/editions/selected-messages/0b8ffead6cb7c5e2ef159dfba3852bfb21b6d1771ba2191694259f8a050fcfeb.json; record SHA-256 0b8ffead6cb7c5e2ef159dfba3852bfb21b6d1771ba2191694259f8a050fcfeb; message text excerpt",
+    "verification": "verbatim",
+    "rights": "unresolved"
+  }
+]
+```
+
+## Claude revises its reasoning — prod-quote-correction
+
+**Row:** Claude · collaboration
+
+**UTC bounds:** 2026-09-12T15:42:01.295Z → 2026-09-12T15:42:01.295Z · millisecond
+
+**Time evidence:** Stored message timestamp. Multiple beats divide one message for readability, not into independently timed acts. No inferred delivery, typing or human read time.
+
+**Evidence limit:** Preserved local Curt–Claude exchange; no direct Codex–Claude communication or claim of first participation. Completion reports and self-descriptions retain their evidentiary limits.
+
+### prod-quote-correction-checkability
+
+**Frame:** The dated correction separates what a transcript contains from what the speaker actually said. Adjacent authored examples distinguish exact-record quotation from reported argument; no critic’s invented words are shown. The panel develops only this beat’s lettering; multi-beat portions of the message share its stored timestamp.
+
+**Lettering:**
+
+Claude says paraphrase can merge a transcription error with the adapter’s interpretation, making it harder for the reader to separate and check them.
+
+**Sources:** PROD-aff5b81b307f — 256t/editions/selected-messages/aff5b81b307f0abe6b2352224cdb2c5c116a1623148bbb4d8060c4b1c2b54bd0.json; record SHA-256 aff5b81b307f0abe6b2352224cdb2c5c116a1623148bbb4d8060c4b1c2b54bd0 (available 2026-09-12T15:42:01.295Z)
+
+**Frozen panel associations:** New material.
+
+### prod-quote-correction-distinction
+
+**Frame:** The dated correction separates what a transcript contains from what the speaker actually said. Adjacent authored examples distinguish exact-record quotation from reported argument; no critic’s invented words are shown. The panel develops only this beat’s lettering; multi-beat portions of the message share its stored timestamp.
+
+**Lettering:**
+
+It distinguishes quoting the record from certifying the speaker’s exact words.
+Quoting a string is not the same as claiming it's verbatim.
+
+**Sources:** PROD-aff5b81b307f — 256t/editions/selected-messages/aff5b81b307f0abe6b2352224cdb2c5c116a1623148bbb4d8060c4b1c2b54bd0.json; record SHA-256 aff5b81b307f0abe6b2352224cdb2c5c116a1623148bbb4d8060c4b1c2b54bd0 (available 2026-09-12T15:42:01.295Z)
+
+**Frozen panel associations:** New material.
+
+**Quotation registrations:**
+
+```json
+[
+  {
+    "text": "Quoting a string is not the same as claiming it's verbatim.",
+    "source": "PROD-aff5b81b307f",
+    "locator": "256t/editions/selected-messages/aff5b81b307f0abe6b2352224cdb2c5c116a1623148bbb4d8060c4b1c2b54bd0.json; record SHA-256 aff5b81b307f0abe6b2352224cdb2c5c116a1623148bbb4d8060c4b1c2b54bd0; message text excerpt",
+    "verification": "verbatim",
+    "rights": "unresolved"
+  }
+]
+```
+
+### prod-quote-correction-precedent
+
+**Frame:** The dated correction separates what a transcript contains from what the speaker actually said. Adjacent authored examples distinguish exact-record quotation from reported argument; no critic’s invented words are shown. The panel develops only this beat’s lettering; multi-beat portions of the message share its stored timestamp.
+
+**Lettering:**
+
+Claude acknowledges generalizing a narrow attribution decision into a blanket rule about transcription.
+
+**Sources:** PROD-aff5b81b307f — 256t/editions/selected-messages/aff5b81b307f0abe6b2352224cdb2c5c116a1623148bbb4d8060c4b1c2b54bd0.json; record SHA-256 aff5b81b307f0abe6b2352224cdb2c5c116a1623148bbb4d8060c4b1c2b54bd0 (available 2026-09-12T15:42:01.295Z)
+
+**Frozen panel associations:** New material.
+
+### prod-quote-correction-shape
+
+**Frame:** The dated correction separates what a transcript contains from what the speaker actually said. Adjacent authored examples distinguish exact-record quotation from reported argument; no critic’s invented words are shown. The panel develops only this beat’s lettering; multi-beat portions of the message share its stored timestamp.
+
+**Lettering:**
+
+It identifies a manuscript panel that visually presents a paraphrase as a quotation from a named critic. It describes two remedies: use an exact excerpt, or make the reported argument visibly the book’s wording.
+
+**Sources:** PROD-aff5b81b307f — 256t/editions/selected-messages/aff5b81b307f0abe6b2352224cdb2c5c116a1623148bbb4d8060c4b1c2b54bd0.json; record SHA-256 aff5b81b307f0abe6b2352224cdb2c5c116a1623148bbb4d8060c4b1c2b54bd0 (available 2026-09-12T15:42:01.295Z)
+
+**Frozen panel associations:** New material.
+
+### prod-quote-correction-record
+
+**Frame:** The dated correction separates what a transcript contains from what the speaker actually said. Adjacent authored examples distinguish exact-record quotation from reported argument; no critic’s invented words are shown. The panel develops only this beat’s lettering; multi-beat portions of the message share its stored timestamp.
+
+**Lettering:**
+
+The corrected principle separates the source archive from the publication decision.
+the vault stores the record as it is; what the book prints is a separate decision.
+
+**Sources:** PROD-aff5b81b307f — 256t/editions/selected-messages/aff5b81b307f0abe6b2352224cdb2c5c116a1623148bbb4d8060c4b1c2b54bd0.json; record SHA-256 aff5b81b307f0abe6b2352224cdb2c5c116a1623148bbb4d8060c4b1c2b54bd0 (available 2026-09-12T15:42:01.295Z)
+
+**Frozen panel associations:** New material.
+
+**Quotation registrations:**
+
+```json
+[
+  {
+    "text": "the vault stores the record as it is; what the book prints is a separate decision.",
+    "source": "PROD-aff5b81b307f",
+    "locator": "256t/editions/selected-messages/aff5b81b307f0abe6b2352224cdb2c5c116a1623148bbb4d8060c4b1c2b54bd0.json; record SHA-256 aff5b81b307f0abe6b2352224cdb2c5c116a1623148bbb4d8060c4b1c2b54bd0; message text excerpt",
+    "verification": "verbatim",
+    "rights": "unresolved"
+  }
+]
+```
+
+## Curt asks for a late quotation review — prod-quote-late-gate-request
+
+**Row:** Curt · collaboration
+
+**UTC bounds:** 2026-09-12T15:45:13.506Z → 2026-09-12T15:45:13.506Z · millisecond
+
+**Time evidence:** Stored message timestamp. Multiple beats divide one message for readability, not into independently timed acts. No inferred delivery, typing or human read time.
+
+**Evidence limit:** Preserved local Curt–Claude exchange; no direct Codex–Claude communication or claim of first participation. Completion reports and self-descriptions retain their evidentiary limits.
+
+### prod-quote-late-gate-request-working-rule
+
+**Frame:** Curt’s dated instruction links a retained source record to a later review point with three possible dispositions. The source stays available beside the draft. The panel develops only this beat’s lettering; multi-beat portions of the message share its stored timestamp.
+
+**Lettering:**
+
+Curt states the drafting principle.
+We should work with direct quotes whenever they are appropriate.
+
+**Sources:** PROD-dbc2a3e7e681 — 256t/editions/selected-messages/dbc2a3e7e681c8cc803298c7ed9dbf2918de523e77f10c4d8882e59808f79f5c.json; record SHA-256 dbc2a3e7e681c8cc803298c7ed9dbf2918de523e77f10c4d8882e59808f79f5c (available 2026-09-12T15:45:13.506Z)
+
+**Frozen panel associations:** New material.
+
+**Quotation registrations:**
+
+```json
+[
+  {
+    "text": "We should work with direct quotes whenever they are appropriate.",
+    "source": "PROD-dbc2a3e7e681",
+    "locator": "256t/editions/selected-messages/dbc2a3e7e681c8cc803298c7ed9dbf2918de523e77f10c4d8882e59808f79f5c.json; record SHA-256 dbc2a3e7e681c8cc803298c7ed9dbf2918de523e77f10c4d8882e59808f79f5c; message text excerpt",
+    "verification": "verbatim",
+    "rights": "unresolved"
+  }
+]
+```
+
+### prod-quote-late-gate-request-publication
+
+**Frame:** Curt’s dated instruction links a retained source record to a later review point with three possible dispositions. The source stays available beside the draft. The panel develops only this beat’s lettering; multi-beat portions of the message share its stored timestamp.
+
+**Lettering:**
+
+He asks for every quotation to be checked immediately before publication, when any necessary paraphrase or redaction can still be decided against the original.
+
+**Sources:** PROD-dbc2a3e7e681 — 256t/editions/selected-messages/dbc2a3e7e681c8cc803298c7ed9dbf2918de523e77f10c4d8882e59808f79f5c.json; record SHA-256 dbc2a3e7e681c8cc803298c7ed9dbf2918de523e77f10c4d8882e59808f79f5c (available 2026-09-12T15:45:13.506Z)
+
+**Frozen panel associations:** New material.
+
+## A new gate leaves an old obstacle — prod-quote-gate-report
+
+**Row:** Claude · collaboration
+
+**UTC bounds:** 2026-09-12T15:47:56.076Z → 2026-09-12T15:47:56.076Z · millisecond
+
+**Time evidence:** Stored message timestamp. Multiple beats divide one message for readability, not into independently timed acts. No inferred delivery, typing or human read time.
+
+**Evidence limit:** Preserved local Curt–Claude exchange; no direct Codex–Claude communication or claim of first participation. Completion reports and self-descriptions retain their evidentiary limits.
+
+### prod-quote-gate-report-gate
+
+**Frame:** Claude’s report places the newly described review gate alongside the still-active empty-registration requirement. The contradiction is visible within the same proposed workflow. The panel develops only this beat’s lettering; multi-beat portions of the message share its stored timestamp.
+
+**Lettering:**
+
+Claude reports adding gate 9 for individual quotation and citation decisions before publication, and tying clearance to the particular locked tree and output target.
+
+**Sources:** PROD-b66222a70a19 — 256t/editions/selected-messages/b66222a70a197b1edaf057f375e2cec721bdf509bfba3904dec0e70a4ce227e8.json; record SHA-256 b66222a70a197b1edaf057f375e2cec721bdf509bfba3904dec0e70a4ce227e8 (available 2026-09-12T15:47:56.076Z)
+
+**Frozen panel associations:** New material.
+
+### prod-quote-gate-report-obstacle
+
+**Frame:** Claude’s report places the newly described review gate alongside the still-active empty-registration requirement. The contradiction is visible within the same proposed workflow. The panel develops only this beat’s lettering; multi-beat portions of the message share its stored timestamp.
+
+**Lettering:**
+
+It then identifies a conflict: the existing validator still requires empty quotation registrations on almost every story page. The reported process change has not yet removed that barrier.
+
+**Sources:** PROD-b66222a70a19 — 256t/editions/selected-messages/b66222a70a197b1edaf057f375e2cec721bdf509bfba3904dec0e70a4ce227e8.json; record SHA-256 b66222a70a197b1edaf057f375e2cec721bdf509bfba3904dec0e70a4ce227e8 (available 2026-09-12T15:47:56.076Z)
+
+**Frozen panel associations:** New material.
+
+## Curt directs the rule change — prod-quote-change-rule
+
+**Row:** Curt · collaboration
+
+**UTC bounds:** 2026-09-12T15:50:14.209Z → 2026-09-12T15:50:14.209Z · millisecond
+
+**Time evidence:** Stored message timestamp. Multiple beats divide one message for readability, not into independently timed acts. No inferred delivery, typing or human read time.
+
+**Evidence limit:** Preserved local Curt–Claude exchange; no direct Codex–Claude communication or claim of first participation. Completion reports and self-descriptions retain their evidentiary limits.
+
+### prod-quote-change-rule-direction
+
+**Frame:** Curt’s short exact instruction occupies its own message panel. No consent from another participant or instant successful implementation is pictured. The panel develops only this beat’s lettering; multi-beat portions of the message share its stored timestamp.
+
+**Lettering:**
+
+Curt’s next message is brief.
+Change the rule.
+
+**Sources:** PROD-d779c5a2ad05 — 256t/editions/selected-messages/d779c5a2ad05c0a5b2fe8caad859075a34e395b6c0d634df7de35f15139f2e9a.json; record SHA-256 d779c5a2ad05c0a5b2fe8caad859075a34e395b6c0d634df7de35f15139f2e9a (available 2026-09-12T15:50:14.209Z)
+
+**Frozen panel associations:** New material.
+
+**Quotation registrations:**
+
+```json
+[
+  {
+    "text": "Change the rule.",
+    "source": "PROD-d779c5a2ad05",
+    "locator": "256t/editions/selected-messages/d779c5a2ad05c0a5b2fe8caad859075a34e395b6c0d634df7de35f15139f2e9a.json; record SHA-256 d779c5a2ad05c0a5b2fe8caad859075a34e395b6c0d634df7de35f15139f2e9a; message text excerpt",
+    "verification": "verbatim",
+    "rights": "unresolved"
+  }
+]
+```
+
+## Claude reports a registration model — prod-quote-registration-report
+
+**Row:** Claude · collaboration
+
+**UTC bounds:** 2026-09-12T15:56:11.199Z → 2026-09-12T15:56:11.199Z · millisecond
+
+**Time evidence:** Stored message timestamp. Multiple beats divide one message for readability, not into independently timed acts. No inferred delivery, typing or human read time.
+
+**Evidence limit:** Preserved local Curt–Claude exchange; no direct Codex–Claude communication or claim of first participation. Completion reports and self-descriptions retain their evidentiary limits.
+
+### prod-quote-registration-report-registration
+
+**Frame:** Claude’s completion report pairs a structured quotation record with separate draft and publication states. A second visible route exposes the unresolved front-matter issue; the report has not closed every path. The panel develops only this beat’s lettering; multi-beat portions of the message share its stored timestamp.
+
+**Lettering:**
+
+Claude reports replacing the prohibition with entries identifying text, source, locator, verification and rights. Draft uncertainty can now be recorded explicitly.
+
+**Sources:** PROD-d2acbeb99aba — 256t/editions/selected-messages/d2acbeb99aba4568ca558ac89cc9db86d42fe14d7ec6264e147d94e95659353e.json; record SHA-256 d2acbeb99aba4568ca558ac89cc9db86d42fe14d7ec6264e147d94e95659353e (available 2026-09-12T15:56:11.199Z)
+
+**Frozen panel associations:** New material.
+
+### prod-quote-registration-report-verification
+
+**Frame:** Claude’s completion report pairs a structured quotation record with separate draft and publication states. A second visible route exposes the unresolved front-matter issue; the report has not closed every path. The panel develops only this beat’s lettering; multi-beat portions of the message share its stored timestamp.
+
+**Lettering:**
+
+Its report distinguishes confirming support for a claim from checking exact wording; a quotation cannot pass the final gate merely because the source supports the claim.
+
+**Sources:** PROD-d2acbeb99aba — 256t/editions/selected-messages/d2acbeb99aba4568ca558ac89cc9db86d42fe14d7ec6264e147d94e95659353e.json; record SHA-256 d2acbeb99aba4568ca558ac89cc9db86d42fe14d7ec6264e147d94e95659353e (available 2026-09-12T15:56:11.199Z)
+
+**Frozen panel associations:** New material.
+
+### prod-quote-registration-report-leak
+
+**Frame:** Claude’s completion report pairs a structured quotation record with separate draft and publication states. A second visible route exposes the unresolved front-matter issue; the report has not closed every path. The panel develops only this beat’s lettering; multi-beat portions of the message share its stored timestamp.
+
+**Lettering:**
+
+It also reports a remaining publication problem: page-mirror routes display raw front matter, so unresolved quotation registrations could become visible. A successful validator change has exposed another issue.
+
+**Sources:** PROD-d2acbeb99aba — 256t/editions/selected-messages/d2acbeb99aba4568ca558ac89cc9db86d42fe14d7ec6264e147d94e95659353e.json; record SHA-256 d2acbeb99aba4568ca558ac89cc9db86d42fe14d7ec6264e147d94e95659353e (available 2026-09-12T15:56:11.199Z)
+
+**Frozen panel associations:** New material.
+
+## Curt tests the result — prod-quote-freedom-test
+
+**Row:** Curt · collaboration
+
+**UTC bounds:** 2026-09-12T15:56:52.335Z → 2026-09-12T15:56:52.335Z · millisecond
+
+**Time evidence:** Stored message timestamp. Multiple beats divide one message for readability, not into independently timed acts. No inferred delivery, typing or human read time.
+
+**Evidence limit:** Preserved local Curt–Claude exchange; no direct Codex–Claude communication or claim of first participation. Completion reports and self-descriptions retain their evidentiary limits.
+
+### prod-quote-freedom-test-test
+
+**Frame:** Curt’s question spans several draft destinations in an authored repository diagram. A script-only success cannot visually stand in for all of them. The panel develops only this beat’s lettering; multi-beat portions of the message share its stored timestamp.
+
+**Lettering:**
+
+Curt asks whether the change actually permits relevant quotation throughout the repository, including drafts.
+The test is whether or not you now feel completely free to include any relevant quotes anywhere in the repo including the story drafts. Do you?
+
+**Sources:** PROD-33bc47489dff — 256t/editions/selected-messages/33bc47489dff2d98162828134682b43dd670778f21a63622bad051e16fcfa2ed.json; record SHA-256 33bc47489dff2d98162828134682b43dd670778f21a63622bad051e16fcfa2ed (available 2026-09-12T15:56:52.335Z)
+
+**Frozen panel associations:** New material.
+
+**Quotation registrations:**
+
+```json
+[
+  {
+    "text": "The test is whether or not you now feel completely free to include any relevant quotes anywhere in the repo including the story drafts. Do you?",
+    "source": "PROD-33bc47489dff",
+    "locator": "256t/editions/selected-messages/33bc47489dff2d98162828134682b43dd670778f21a63622bad051e16fcfa2ed.json; record SHA-256 33bc47489dff2d98162828134682b43dd670778f21a63622bad051e16fcfa2ed; message text excerpt",
+    "verification": "verbatim",
+    "rights": "unresolved"
+  }
+]
+```
+
+## Claude says the change is incomplete — prod-quote-remaining-gaps
+
+**Row:** Claude · collaboration
+
+**UTC bounds:** 2026-09-12T15:58:02.515Z → 2026-09-12T15:58:02.515Z · millisecond
+
+**Time evidence:** Stored message timestamp. Multiple beats divide one message for readability, not into independently timed acts. No inferred delivery, typing or human read time.
+
+**Evidence limit:** Preserved local Curt–Claude exchange; no direct Codex–Claude communication or claim of first participation. Completion reports and self-descriptions retain their evidentiary limits.
+
+### prod-quote-remaining-gaps-novella
+
+**Frame:** Claude’s answer leaves the novella registration path empty, the conflicting written rule visible, and older withdrawals unresolved. The diagram is an explanation of this message, not a live filesystem snapshot. The panel develops only this beat’s lettering; multi-beat portions of the message share its stored timestamp.
+
+**Lettering:**
+
+Claude answers that the novella has no quotation-registration path. The script-side change has covered only part of what the project publishes.
+
+**Sources:** PROD-41672032eaca — 256t/editions/selected-messages/41672032eaca172188a7ab0cd35d3a17c3046a037a4a2f43d1618885ed52d1e0.json; record SHA-256 41672032eaca172188a7ab0cd35d3a17c3046a037a4a2f43d1618885ed52d1e0 (available 2026-09-12T15:58:02.515Z)
+
+**Frozen panel associations:** New material.
+
+### prod-quote-remaining-gaps-written-rule
+
+**Frame:** Claude’s answer leaves the novella registration path empty, the conflicting written rule visible, and older withdrawals unresolved. The diagram is an explanation of this message, not a live filesystem snapshot. The panel develops only this beat’s lettering; multi-beat portions of the message share its stored timestamp.
+
+**Lettering:**
+
+It also identifies a written research-note restriction that still conflicts with short-quotation practice, and treats previously withdrawn strings as a separate unresolved question.
+
+**Sources:** PROD-41672032eaca — 256t/editions/selected-messages/41672032eaca172188a7ab0cd35d3a17c3046a037a4a2f43d1618885ed52d1e0.json; record SHA-256 41672032eaca172188a7ab0cd35d3a17c3046a037a4a2f43d1618885ed52d1e0 (available 2026-09-12T15:58:02.515Z)
+
+**Frozen panel associations:** New material.
+
+### prod-quote-remaining-gaps-judgment
+
+**Frame:** Claude’s answer leaves the novella registration path empty, the conflicting written rule visible, and older withdrawals unresolved. The diagram is an explanation of this message, not a live filesystem snapshot. The panel develops only this beat’s lettering; multi-beat portions of the message share its stored timestamp.
+
+**Lettering:**
+
+Claude admits that changing the machinery does not remove its earlier tendency to smooth the evidence. This is the system’s account of its own decisions, not proof of an internal mental state.
+
+**Sources:** PROD-41672032eaca — 256t/editions/selected-messages/41672032eaca172188a7ab0cd35d3a17c3046a037a4a2f43d1618885ed52d1e0.json; record SHA-256 41672032eaca172188a7ab0cd35d3a17c3046a037a4a2f43d1618885ed52d1e0 (available 2026-09-12T15:58:02.515Z)
+
+**Frozen panel associations:** New material.
+
+## Curt asks for the remaining work — prod-quote-close-gap
+
+**Row:** Curt · collaboration
+
+**UTC bounds:** 2026-09-12T15:58:25.879Z → 2026-09-12T15:58:25.879Z · millisecond
+
+**Time evidence:** Stored message timestamp. Multiple beats divide one message for readability, not into independently timed acts. No inferred delivery, typing or human read time.
+
+**Evidence limit:** Preserved local Curt–Claude exchange; no direct Codex–Claude communication or claim of first participation. Completion reports and self-descriptions retain their evidentiary limits.
+
+### prod-quote-close-gap-instruction
+
+**Frame:** Curt’s exact follow-up appears alone in his row. The preceding report remains a shared artifact reference, not repeated dialogue. The panel develops only this beat’s lettering; multi-beat portions of the message share its stored timestamp.
+
+**Lettering:**
+
+Curt directs another correction.
+Close the gap.
+
+**Sources:** PROD-ce5485aa4063 — 256t/editions/selected-messages/ce5485aa4063852ba3edc54874825c9fd1cd6c067ef8d6c77e80364083e08a70.json; record SHA-256 ce5485aa4063852ba3edc54874825c9fd1cd6c067ef8d6c77e80364083e08a70 (available 2026-09-12T15:58:25.879Z)
+
+**Frozen panel associations:** New material.
+
+**Quotation registrations:**
+
+```json
+[
+  {
+    "text": "Close the gap.",
+    "source": "PROD-ce5485aa4063",
+    "locator": "256t/editions/selected-messages/ce5485aa4063852ba3edc54874825c9fd1cd6c067ef8d6c77e80364083e08a70.json; record SHA-256 ce5485aa4063852ba3edc54874825c9fd1cd6c067ef8d6c77e80364083e08a70; message text excerpt",
+    "verification": "verbatim",
+    "rights": "unresolved"
+  }
+]
+```
+
+## Claude reports the second correction — prod-quote-shared-model
+
+**Row:** Claude · collaboration
+
+**UTC bounds:** 2026-09-12T16:03:35.247Z → 2026-09-12T16:03:35.247Z · millisecond
+
+**Time evidence:** Stored message timestamp. Multiple beats divide one message for readability, not into independently timed acts. No inferred delivery, typing or human read time.
+
+**Evidence limit:** Preserved local Curt–Claude exchange; no direct Codex–Claude communication or claim of first participation. Completion reports and self-descriptions retain their evidentiary limits.
+
+### prod-quote-shared-model-prose
+
+**Frame:** Claude’s later report connects the script and novella checks to one shared registration model. The authoritative manifest and the page-local status are distinct in the test explanation. The panel develops only this beat’s lettering; multi-beat portions of the message share its stored timestamp.
+
+**Lettering:**
+
+Claude reports extending quotation registration to the novella and placing the shared model in the existing cross-reference tool rather than maintaining two parsers.
+
+**Sources:** PROD-01aa1f4246e5 — 256t/editions/selected-messages/01aa1f4246e5fb8ff7b65687bdacb2908cff243ee2a2f0df49a5327b22c0f77e.json; record SHA-256 01aa1f4246e5fb8ff7b65687bdacb2908cff243ee2a2f0df49a5327b22c0f77e (available 2026-09-12T16:03:35.247Z)
+
+**Frozen panel associations:** New material.
+
+### prod-quote-shared-model-test
+
+**Frame:** Claude’s later report connects the script and novella checks to one shared registration model. The authoritative manifest and the page-local status are distinct in the test explanation. The panel develops only this beat’s lettering; multi-beat portions of the message share its stored timestamp.
+
+**Lettering:**
+
+It reports finding a mistake in its test: the lock gate reads status from the page manifest, not the page file’s own status line. Its initial test had changed the wrong authority.
+
+**Sources:** PROD-01aa1f4246e5 — 256t/editions/selected-messages/01aa1f4246e5fb8ff7b65687bdacb2908cff243ee2a2f0df49a5327b22c0f77e.json; record SHA-256 01aa1f4246e5fb8ff7b65687bdacb2908cff243ee2a2f0df49a5327b22c0f77e (available 2026-09-12T16:03:35.247Z)
+
+**Frozen panel associations:** New material.
+
+### prod-quote-shared-model-limits
+
+**Frame:** Claude’s later report connects the script and novella checks to one shared registration model. The authoritative manifest and the page-local status are distinct in the test explanation. The panel develops only this beat’s lettering; multi-beat portions of the message share its stored timestamp.
+
+**Lettering:**
+
+The report says the research-note rule has been narrowed, but still flags unresolved older quotation decisions and the front-matter publication issue. This is not an all-clear ending.
+
+**Sources:** PROD-01aa1f4246e5 — 256t/editions/selected-messages/01aa1f4246e5fb8ff7b65687bdacb2908cff243ee2a2f0df49a5327b22c0f77e.json; record SHA-256 01aa1f4246e5fb8ff7b65687bdacb2908cff243ee2a2f0df49a5327b22c0f77e (available 2026-09-12T16:03:35.247Z)
+
+**Frozen panel associations:** New material.
+
+## Curt asks what was removed — prod-quote-withdrawals-request
+
+**Row:** Curt · collaboration
+
+**UTC bounds:** 2026-09-12T16:06:21.667Z → 2026-09-12T16:06:21.667Z · millisecond
+
+**Time evidence:** Stored message timestamp. Multiple beats divide one message for readability, not into independently timed acts. No inferred delivery, typing or human read time.
+
+**Evidence limit:** Preserved local Curt–Claude exchange; no direct Codex–Claude communication or claim of first participation. Completion reports and self-descriptions retain their evidentiary limits.
+
+### prod-quote-withdrawals-request-request
+
+**Frame:** Curt’s dated request asks for the previously removed material to be accounted for. No restored quotation is shown as already approved. The panel develops only this beat’s lettering; multi-beat portions of the message share its stored timestamp.
+
+**Lettering:**
+
+Curt asks for an account of the earlier withdrawals.
+Commit. Then tell me about the 23 strings withdrawn for rights reasons.
+
+**Sources:** PROD-0c0212dce4a7 — 256t/editions/selected-messages/0c0212dce4a72cd6f26d9fc2bebf7df89d2bc466336c893dfc31537e33ef707a.json; record SHA-256 0c0212dce4a72cd6f26d9fc2bebf7df89d2bc466336c893dfc31537e33ef707a (available 2026-09-12T16:06:21.667Z)
+
+**Frozen panel associations:** New material.
+
+**Quotation registrations:**
+
+```json
+[
+  {
+    "text": "Commit. Then tell me about the 23 strings withdrawn for rights reasons.",
+    "source": "PROD-0c0212dce4a7",
+    "locator": "256t/editions/selected-messages/0c0212dce4a72cd6f26d9fc2bebf7df89d2bc466336c893dfc31537e33ef707a.json; record SHA-256 0c0212dce4a72cd6f26d9fc2bebf7df89d2bc466336c893dfc31537e33ef707a; message text excerpt",
+    "verification": "verbatim",
+    "rights": "unresolved"
+  }
+]
+```
+
+## The earlier deletion was not one problem — prod-quote-withdrawals-review
+
+**Row:** Claude · collaboration
+
+**UTC bounds:** 2026-09-12T16:08:40.488Z → 2026-09-12T16:08:40.488Z · millisecond
+
+**Time evidence:** Stored message timestamp. Multiple beats divide one message for readability, not into independently timed acts. No inferred delivery, typing or human read time.
+
+**Evidence limit:** Preserved local Curt–Claude exchange; no direct Codex–Claude communication or claim of first participation. Completion reports and self-descriptions retain their evidentiary limits.
+
+### prod-quote-withdrawals-review-categories
+
+**Frame:** Claude’s report divides the removals by evidence type and leaves the incompatible totals side by side. The missing reconciliation stays visible; no convenient aggregate is invented. The panel develops only this beat’s lettering; multi-beat portions of the message share its stored timestamp.
+
+**Lettering:**
+
+Claude reports three categories among the recovered removals: agent output, an institutional statement and operational tokens. It argues that one remedy had been applied to different problems.
+
+**Sources:** PROD-f9f171aeb5b9 — 256t/editions/selected-messages/f9f171aeb5b94dd42fb77847395378e3e5faa029d4c1cda68e82f840697815dd.json; record SHA-256 f9f171aeb5b94dd42fb77847395378e3e5faa029d4c1cda68e82f840697815dd (available 2026-09-12T16:08:40.488Z)
+
+**Frozen panel associations:** New material.
+
+### prod-quote-withdrawals-review-label
+
+**Frame:** Claude’s report divides the removals by evidence type and leaves the incompatible totals side by side. The missing reconciliation stays visible; no convenient aggregate is invented. The panel develops only this beat’s lettering; multi-beat portions of the message share its stored timestamp.
+
+**Lettering:**
+
+It finds that the tooling had removed the raw-agent-text provenance class while the reader-facing contract still advertised it. The label promised to readers and the validator had diverged.
+
+**Sources:** PROD-f9f171aeb5b9 — 256t/editions/selected-messages/f9f171aeb5b94dd42fb77847395378e3e5faa029d4c1cda68e82f840697815dd.json; record SHA-256 f9f171aeb5b94dd42fb77847395378e3e5faa029d4c1cda68e82f840697815dd (available 2026-09-12T16:08:40.488Z)
+
+**Frozen panel associations:** New material.
+
+### prod-quote-withdrawals-review-counts
+
+**Frame:** Claude’s report divides the removals by evidence type and leaves the incompatible totals side by side. The missing reconciliation stays visible; no convenient aggregate is invented. The panel develops only this beat’s lettering; multi-beat portions of the message share its stored timestamp.
+
+**Lettering:**
+
+The report also says its recovered list does not reconcile with the totals in the audit and release documents. It leaves the missing reconciliation visible instead of presenting an invented complete list.
+
+**Sources:** PROD-f9f171aeb5b9 — 256t/editions/selected-messages/f9f171aeb5b94dd42fb77847395378e3e5faa029d4c1cda68e82f840697815dd.json; record SHA-256 f9f171aeb5b94dd42fb77847395378e3e5faa029d4c1cda68e82f840697815dd (available 2026-09-12T16:08:40.488Z)
+
+**Frozen panel associations:** New material.
+
+### prod-quote-withdrawals-review-next
+
+**Frame:** Claude’s report divides the removals by evidence type and leaves the incompatible totals side by side. The missing reconciliation stays visible; no convenient aggregate is invented. The panel develops only this beat’s lettering; multi-beat portions of the message share its stored timestamp.
+
+**Lettering:**
+
+Claude proposes reopening specific excerpts through registration and the late review gate. The proposal does not itself establish approval, restoration or publication of those excerpts.
+
+**Sources:** PROD-f9f171aeb5b9 — 256t/editions/selected-messages/f9f171aeb5b94dd42fb77847395378e3e5faa029d4c1cda68e82f840697815dd.json; record SHA-256 f9f171aeb5b94dd42fb77847395378e3e5faa029d4c1cda68e82f840697815dd (available 2026-09-12T16:08:40.488Z)
+
+**Frozen panel associations:** New material.
+
 ## A supplied account becomes a research lead — prod-gs-research-request
 
 **Row:** Curt · collaboration

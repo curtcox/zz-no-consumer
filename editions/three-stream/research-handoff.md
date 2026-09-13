@@ -60,10 +60,10 @@ Other branches, issues, discussions and deleted history are outside this check.
 Commit clocks do not establish message, reading or source-encounter times.
 No comments, messages, commits or pushes were sent.
 
-[production-selections.json](production-selections.json) records twenty-one inspected
+[production-selections.json](production-selections.json) records thirty-six inspected
 messages now drafted as dated collaboration fragments: the fourteen request/first
-response records, four later system reports and three intermediate GemStuffer
-research updates. The originals were checked against
+response records, four later system reports, three intermediate GemStuffer
+research updates and fifteen messages in the quotation-rule correction. The originals were checked against
 their hashes. The fragments distinguish a proposed action from a completion report,
 and a completion report from independent verification. They neither establish the
 first entrance nor replace the missing other-Mac chronology.
@@ -218,3 +218,37 @@ half-open ranges including the JSONL newline; previous inclusive bounds are
 retained for audit. Original files, copied message records and their hashes were
 not altered. The current-Mac metadata catalog remains a locator aid, not a
 substitute for the inspected originals or the other Mac’s records.
+
+The September 12 quotation-rule exchange is now drafted from fifteen additional
+original Curt and Claude messages, from 15:32:11.028 to 16:08:40.488 UTC. It retains
+the original restrictive explanation, Curt’s objection, Claude’s admission that
+it altered an archived transcript, the repair report, the new late review gate,
+the still-conflicting validator, Curt’s instruction to change it, the remaining
+novella gap and a second correction. It ends with the unreconciled earlier
+withdrawal counts and a proposal, not an invented restoration or approval.
+
+Short quotations were checked against the selected original messages. The artifact
+being quoted is the message, including when it admits an error or describes a
+rule later superseded. No earlier instruction is treated as a current constraint.
+All 36 selected records were verified against original line numbers, half-open
+byte ranges and SHA-256 hashes. Multiple beats from one message share its exact
+stored time; they do not manufacture intermediate send times or read receipts.
+
+Local Git metadata resolves the reports’ commit references:
+
+- `200e11ba3ff8bb2197f8874e182fdb00fe1d9662`, September 12 15:41:41 UTC:
+  correction of the quotation rule and archive (commit metadata checked).
+- `9dc2ab9f7a331439ad7c7c90a1c9cb73fd404946`, 15:47:42 UTC:
+  the inspected `content/draft-readiness.md` diff adds the late quotation gate.
+- `f8cdfcad3503d6d3d9f785ef1c38235542f3fcce`, 15:55:54 UTC:
+  registration-model change (commit metadata checked).
+- `09409a7f81db082f25f522f711d80692c6d2d247`, 16:03:21 UTC:
+  inspected diffs add the novella registration check and narrow the research-note
+  restriction. The tool reads the manifest’s lock status and calls the shared model.
+
+This is a limited corroboration of particular repository changes, not verification
+of every historical test or repair claim in the conversation. Commit timestamps
+do not replace message times. Current frozen files were only read, never migrated
+or edited as part of depicting their earlier changes. Later related exchanges,
+source-level withdrawal reconciliation and the public-build follow-up still need
+selection before treating this production episode as complete.
