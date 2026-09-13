@@ -9957,6 +9957,184 @@ Naming a coordination problem does not create an institution able to resolve it.
 
 **Frozen panel associations:** 102-05
 
+## What an ending can and cannot establish — prod-aftermath
+
+**Row:** Claude · collaboration
+
+**UTC bounds:** 2026-09-06T15:02:31.590Z → 2026-09-06T15:02:31.590Z · millisecond
+
+**Time evidence:** Narrator examines September 5 committed draft artifacts alongside the September 6 manuscript-review context. Neither montage timing nor reconstructed desk activity is treated as an actual simultaneous event.
+
+**Evidence limit:** Historical draft arguments and staging remain labelled as such. Publicly reported changes, demands and proposed measures are not universally completed learning. Scripted ChatGPT dialogue and all-green checks are not preserved exchanges or test evidence.
+
+### prod-aftermath-platform-paths
+
+**Frame:** The narrator reads the platform’s published hardening account instead of reenacting repairs at an invented common time.
+
+**Lettering:**
+
+Hugging Face’s July 27 technical account reports closing the implicated execution and dataset-processing paths and blocking pod access to cloud metadata. These are reported changes to what a compromised workload can reach, not proof that every future intrusion is prevented.
+
+**Sources:** PROD-47704e3a3f45 — 256t/editions/selected-messages/47704e3a3f4568aef4205b08137115adcfe1a9daca59f39d4327472e3a8da722.json; record SHA-256 47704e3a3f4568aef4205b08137115adcfe1a9daca59f39d4327472e3a8da722 (available 2026-09-06T15:02:31.590Z); DRAFT-LEARNING — editions/three-stream/evidence/learning-101-7fa53878c493.md; Git 7fa53878c4934571fee2dda8e025a050ff515761 (available 2026-09-05T22:33:29Z); HF-TL — 256t/records/huggingface-timeline/content.bin; What we changed; SHA-256 c7b95f91812cfd5aa54aee39c286d641e2f97ee965cf6d215ee0891673929d6f (available 2026-07-27)
+
+**Frozen panel associations:** 103-01
+
+### prod-aftermath-platform-credentials
+
+**Frame:** Credential rotation, identity changes and a precautionary rebuild remain distinct.
+
+**Lettering:**
+
+The account reports broad credential rotation, including clusters not accessed, and wider use of workload identity. It says a core cluster was rebuilt as a precaution. Those measures do not establish that every rotated credential or rebuilt component was compromised.
+
+**Sources:** PROD-47704e3a3f45 — 256t/editions/selected-messages/47704e3a3f4568aef4205b08137115adcfe1a9daca59f39d4327472e3a8da722.json; record SHA-256 47704e3a3f4568aef4205b08137115adcfe1a9daca59f39d4327472e3a8da722 (available 2026-09-06T15:02:31.590Z); DRAFT-LEARNING — editions/three-stream/evidence/learning-101-7fa53878c493.md; Git 7fa53878c4934571fee2dda8e025a050ff515761 (available 2026-09-05T22:33:29Z); HF-TL — 256t/records/huggingface-timeline/content.bin; What we changed; SHA-256 c7b95f91812cfd5aa54aee39c286d641e2f97ee965cf6d215ee0891673929d6f (available 2026-07-27)
+
+**Frozen panel associations:** 103-01
+
+### prod-aftermath-platform-detection
+
+**Frame:** Connector scope and alert escalation are read as separate changes to access and response.
+
+**Lettering:**
+
+Hugging Face also reports narrowing the connector’s scope, isolating clusters, raising relevant alerts to critical severity and checking unexpected token origins. Access restrictions and a warning that reaches responders address different parts of the failure.
+
+**Sources:** PROD-47704e3a3f45 — 256t/editions/selected-messages/47704e3a3f4568aef4205b08137115adcfe1a9daca59f39d4327472e3a8da722.json; record SHA-256 47704e3a3f4568aef4205b08137115adcfe1a9daca59f39d4327472e3a8da722 (available 2026-09-06T15:02:31.590Z); DRAFT-LEARNING — editions/three-stream/evidence/learning-101-7fa53878c493.md; Git 7fa53878c4934571fee2dda8e025a050ff515761 (available 2026-09-05T22:33:29Z); HF-TL — 256t/records/huggingface-timeline/content.bin; What we changed; SHA-256 c7b95f91812cfd5aa54aee39c286d641e2f97ee965cf6d215ee0891673929d6f (available 2026-07-27)
+
+**Frozen panel associations:** 103-01
+
+### prod-aftermath-lab
+
+**Frame:** The narrator refers to the controls already examined. No repeated montage shows all developing work as finished.
+
+**Lettering:**
+
+The laboratory’s account addresses boundaries, incentives, monitoring and decisions to pause or resume. The draft called this learning. That is an interpretation of reported and developing changes, not evidence that every change was complete or effective.
+
+**Sources:** PROD-47704e3a3f45 — 256t/editions/selected-messages/47704e3a3f4568aef4205b08137115adcfe1a9daca59f39d4327472e3a8da722.json; record SHA-256 47704e3a3f4568aef4205b08137115adcfe1a9daca59f39d4327472e3a8da722 (available 2026-09-06T15:02:31.590Z); DRAFT-LEARNING — editions/three-stream/evidence/learning-101-7fa53878c493.md; Git 7fa53878c4934571fee2dda8e025a050ff515761 (available 2026-09-05T22:33:29Z); OAI-PACE — 256t/records/openai-pacing/content.bin; Safeguards, monitoring and workload review; SHA-256 629f7bf8f3eebb5de617a2b174e3aa54330dd2776f4410b31e5497c6c62629b2 (available 2026-08-18); OAI-OV — 256t/records/openai-overview/content.bin; Accelerating model alignment; reported developing incentives (available 2026-08-26)
+
+**Frozen panel associations:** 103-02
+
+### prod-aftermath-access
+
+**Frame:** The draft’s access-and-control lesson is identified as a synthesis of public positions, not a belief attributed to all defenders.
+
+**Lettering:**
+
+The draft reads a lesson about access and control in the defense proposal and controlled-access program. The public positions support discussing that relationship; they do not establish that every defender adopted one lesson or implemented the proposed measures.
+
+**Sources:** PROD-47704e3a3f45 — 256t/editions/selected-messages/47704e3a3f4568aef4205b08137115adcfe1a9daca59f39d4327472e3a8da722.json; record SHA-256 47704e3a3f4568aef4205b08137115adcfe1a9daca59f39d4327472e3a8da722 (available 2026-09-06T15:02:31.590Z); DRAFT-LEARNING — editions/three-stream/evidence/learning-101-7fa53878c493.md; Git 7fa53878c4934571fee2dda8e025a050ff515761 (available 2026-09-05T22:33:29Z); OAI-LETTER — 256t/records/openai-collective-defense/content.bin; Principles and responsibilities; SHA-256 12ed8ac85a064ee4a5fe416c42bde2ae217704a1adca4d34ceda8698b34cb627 (available 2026-08-27); OAI-DAYBREAK — research/chapter-source-packets/06-everyone-continues.md; controlled defensive-access assessment; editions/three-stream/evidence/public-announcement-source-review.md (available 2026-08-10)
+
+**Frozen panel associations:** 103-03
+
+### prod-aftermath-oversight
+
+**Frame:** The narrator distinguishes a demand to retain and produce evidence from evidence already in investigators’ hands.
+
+**Lettering:**
+
+The subpoena demands records and responses. The draft cannot turn that demand into completed preservation, completed production, or proof that investigators previously held none of the material. The outcome remains a separate evidentiary question.
+
+**Sources:** PROD-47704e3a3f45 — 256t/editions/selected-messages/47704e3a3f4568aef4205b08137115adcfe1a9daca59f39d4327472e3a8da722.json; record SHA-256 47704e3a3f4568aef4205b08137115adcfe1a9daca59f39d4327472e3a8da722 (available 2026-09-06T15:02:31.590Z); DRAFT-LEARNING — editions/three-stream/evidence/learning-101-7fa53878c493.md; Git 7fa53878c4934571fee2dda8e025a050ff515761 (available 2026-09-05T22:33:29Z); AL-SUB — 256t/records/alabama-subpoena/content.bin; Instructions and requests; future deadline; SHA-256 90b19ef460f9b5fe6a8e0a9557633b1314ce64ca3f0ef73af82d31dec7959c53 (available 2026-08-24)
+
+**Frozen panel associations:** 103-04
+
+### prod-aftermath-learning
+
+**Frame:** The montage’s universal heading is replaced with a limited comparison.
+
+**Lettering:**
+
+Different institutions described different responses. The book can compare those actions without claiming that everyone learned, that everyone learned the same thing, or that the review was finished.
+
+**Sources:** PROD-47704e3a3f45 — 256t/editions/selected-messages/47704e3a3f4568aef4205b08137115adcfe1a9daca59f39d4327472e3a8da722.json; record SHA-256 47704e3a3f4568aef4205b08137115adcfe1a9daca59f39d4327472e3a8da722 (available 2026-09-06T15:02:31.590Z); DRAFT-LEARNING — editions/three-stream/evidence/learning-101-7fa53878c493.md; Git 7fa53878c4934571fee2dda8e025a050ff515761 (available 2026-09-05T22:33:29Z)
+
+**Frozen panel associations:** 103-05
+
+### prod-aftermath-activities
+
+**Frame:** Five activity categories appear as a narrator’s classification within one actor row, not a new five-row story layout.
+
+**Lettering:**
+
+The old ending grouped capability work, evaluation, defense, investigation and adaptation. These activities involve different actors and reasons. The categories organize the argument; they are not a census showing that every actor continued.
+
+**Sources:** PROD-47704e3a3f45 — 256t/editions/selected-messages/47704e3a3f4568aef4205b08137115adcfe1a9daca59f39d4327472e3a8da722.json; record SHA-256 47704e3a3f4568aef4205b08137115adcfe1a9daca59f39d4327472e3a8da722 (available 2026-09-06T15:02:31.590Z); DRAFT-CONTINUATION-END — editions/three-stream/evidence/continuation-ending-102-7fa53878c493.md; Git 7fa53878c4934571fee2dda8e025a050ff515761 (available 2026-09-05T22:33:29Z)
+
+**Frozen panel associations:** 104-01
+
+### prod-aftermath-clocks
+
+**Frame:** The narrator describes distinct completion conditions without inventing parallel activity to occupy empty space.
+
+**Lettering:**
+
+A repair, an evaluation, a defensive deployment and an investigation need not finish together. Some work pauses, some resumes under conditions, and some awaits evidence. Ending one operational episode does not resolve every decision it set in motion.
+
+**Sources:** PROD-47704e3a3f45 — 256t/editions/selected-messages/47704e3a3f4568aef4205b08137115adcfe1a9daca59f39d4327472e3a8da722.json; record SHA-256 47704e3a3f4568aef4205b08137115adcfe1a9daca59f39d4327472e3a8da722 (available 2026-09-06T15:02:31.590Z); DRAFT-CONTINUATION-END — editions/three-stream/evidence/continuation-ending-102-7fa53878c493.md; Git 7fa53878c4934571fee2dda8e025a050ff515761 (available 2026-09-05T22:33:29Z); OAI-PACE — 256t/records/openai-pacing/content.bin; Selective pause and workload review; SHA-256 629f7bf8f3eebb5de617a2b174e3aa54330dd2776f4410b31e5497c6c62629b2 (available 2026-08-18)
+
+**Frozen panel associations:** 104-02
+
+### prod-aftermath-incentives
+
+**Frame:** An archived board remains a source artifact, not proof that every related process or risk has ended.
+
+**Lettering:**
+
+The draft’s claim that incentives outlast an incident is the book’s interpretation. An archival record becoming still does not establish that every associated activity stopped. Nor does later work prove that incentives remained unchanged in every organization.
+
+**Sources:** PROD-47704e3a3f45 — 256t/editions/selected-messages/47704e3a3f4568aef4205b08137115adcfe1a9daca59f39d4327472e3a8da722.json; record SHA-256 47704e3a3f4568aef4205b08137115adcfe1a9daca59f39d4327472e3a8da722 (available 2026-09-06T15:02:31.590Z); DRAFT-CONTINUATION-END — editions/three-stream/evidence/continuation-ending-102-7fa53878c493.md; Git 7fa53878c4934571fee2dda8e025a050ff515761 (available 2026-09-05T22:33:29Z)
+
+**Frozen panel associations:** 104-03
+
+### prod-aftermath-continued
+
+**Frame:** The draft’s broad ending phrase is discussed rather than made the new edition’s factual conclusion.
+
+**Lettering:**
+
+The old title compressed unlike activities into one claim of continuation. Its qualification mattered: different actors, different actions, different reasons. This edition preserves the distinctions without needing a universal headline to finish the story.
+
+**Sources:** PROD-47704e3a3f45 — 256t/editions/selected-messages/47704e3a3f4568aef4205b08137115adcfe1a9daca59f39d4327472e3a8da722.json; record SHA-256 47704e3a3f4568aef4205b08137115adcfe1a9daca59f39d4327472e3a8da722 (available 2026-09-06T15:02:31.590Z); DRAFT-CONTINUATION-END — editions/three-stream/evidence/continuation-ending-102-7fa53878c493.md; Git 7fa53878c4934571fee2dda8e025a050ff515761 (available 2026-09-05T22:33:29Z)
+
+**Frozen panel associations:** 104-04
+
+### prod-aftermath-artifact
+
+**Frame:** The historical manuscript is the artifact under review. No completed book, finished artwork or reconstructed desk is asserted as documentary evidence.
+
+**Lettering:**
+
+The incident had become material for a manuscript. The old draft staged completed pages and a prepared viewer on Curt’s desk, but that scripted workspace is not evidence that a final edition or its artwork was complete.
+
+**Sources:** PROD-47704e3a3f45 — 256t/editions/selected-messages/47704e3a3f4568aef4205b08137115adcfe1a9daca59f39d4327472e3a8da722.json; record SHA-256 47704e3a3f4568aef4205b08137115adcfe1a9daca59f39d4327472e3a8da722 (available 2026-09-06T15:02:31.590Z); DRAFT-MANUSCRIPT-END — editions/three-stream/evidence/manuscript-ending-103-7fa53878c493.md; Git 7fa53878c4934571fee2dda8e025a050ff515761 (available 2026-09-05T22:33:29Z)
+
+**Frozen panel associations:** 104-05, 105-01
+
+### prod-aftermath-labels
+
+**Frame:** Source status stays attached to the draft’s claims. The old page ribbon is not replayed as another incident sequence.
+
+**Lettering:**
+
+Documented evidence, disputed claims, reconstruction and invention remain different even at the ending. Removing those distinctions changes what the story asserts. That is the project principle the draft expressed through invented Curt dialogue.
+
+**Sources:** PROD-47704e3a3f45 — 256t/editions/selected-messages/47704e3a3f4568aef4205b08137115adcfe1a9daca59f39d4327472e3a8da722.json; record SHA-256 47704e3a3f4568aef4205b08137115adcfe1a9daca59f39d4327472e3a8da722 (available 2026-09-06T15:02:31.590Z); DRAFT-MANUSCRIPT-END — editions/three-stream/evidence/manuscript-ending-103-7fa53878c493.md; Git 7fa53878c4934571fee2dda8e025a050ff515761 (available 2026-09-05T22:33:29Z)
+
+**Frozen panel associations:** 105-02, 105-04
+
+### prod-aftermath-chatgpt
+
+**Frame:** The historical draft identifies its scripted interface as ChatGPT. The narrator neither enacts it as a preserved exchange nor renames it Codex or Claude.
+
+**Lettering:**
+
+The draft gave ChatGPT a closing line beside an all-green continuity screen. Both were scripted, not a preserved product exchange or an actual validation result. They cannot establish that the manuscript was complete or replace the real collaboration record.
+
+**Sources:** PROD-47704e3a3f45 — 256t/editions/selected-messages/47704e3a3f4568aef4205b08137115adcfe1a9daca59f39d4327472e3a8da722.json; record SHA-256 47704e3a3f4568aef4205b08137115adcfe1a9daca59f39d4327472e3a8da722 (available 2026-09-06T15:02:31.590Z); DRAFT-MANUSCRIPT-END — editions/three-stream/evidence/manuscript-ending-103-7fa53878c493.md; Git 7fa53878c4934571fee2dda8e025a050ff515761 (available 2026-09-05T22:33:29Z)
+
+**Frozen panel associations:** 105-03
+
 ## A guarantee no participant can give alone — prod-assurance-review
 
 **Row:** Claude · collaboration

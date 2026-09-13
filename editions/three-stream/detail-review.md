@@ -2837,3 +2837,373 @@ KNOWING THE PROBLEM DOES NOT CREATE THE INSTITUTION THAT CAN COORDINATE THE ANSW
 **Decision:** rewrite — Retain the unresolved institutional question without inventing a consensus or solution.
 
 **Draft destination:** prod-accountability-open
+
+## legacy-332b5ed63262 · 103-01
+
+### legacy-103-01-detail-01 · frame
+
+**Frozen wording:**
+
+Hugging Face rebuilds systems, narrows credentials, closes paths, and changes detection severity.
+
+**Decision:** split — Preserve platform rebuilding, credentials, path closure and alert severity as reported technical changes, including precaution versus proven compromise.
+
+**Draft destination:** prod-aftermath-platform-paths, prod-aftermath-platform-credentials, prod-aftermath-platform-detection
+
+### legacy-103-01-detail-03 · lettering
+
+**Frozen wording:**
+
+THE PLATFORM LEARNS IN INFRASTRUCTURE: REBUILDING SYSTEMS, REPLACING KEYS, AND NARROWING WHAT A COMPROMISED WORKER CAN REACH.
+
+**Decision:** split — Preserve platform rebuilding, credentials, path closure and alert severity as reported technical changes, including precaution versus proven compromise.
+
+**Draft destination:** prod-aftermath-platform-paths, prod-aftermath-platform-credentials, prod-aftermath-platform-detection
+
+## legacy-332b5ed63262 · 103-02
+
+### legacy-103-02-detail-01 · frame
+
+**Frozen wording:**
+
+OpenAI adds isolation, monitor lanes, escalation clocks, grader revisions, and scoped pause controls.
+
+**Decision:** rewrite — Preserve the distinct boundary, incentive and response changes but retain reported/developing status rather than certify completed learning.
+
+**Draft destination:** prod-aftermath-lab
+
+### legacy-103-02-detail-03 · lettering
+
+**Frozen wording:**
+
+THE LAB LEARNS IN BOUNDARIES, INCENTIVES, AND RESPONSE RULES.
+
+**Decision:** rewrite — Preserve the distinct boundary, incentive and response changes but retain reported/developing status rather than certify completed learning.
+
+**Draft destination:** prod-aftermath-lab
+
+## legacy-332b5ed63262 · 103-03
+
+### legacy-103-03-detail-01 · frame
+
+**Frozen wording:**
+
+Defensive-access programs place capability behind identity, monitoring, and approved-use gates; the collective-defense letter moves among institutions.
+
+**Decision:** rewrite — Retain access/control as the book’s synthesis, not a universal defender belief or implemented public proposal.
+
+**Draft destination:** prod-aftermath-access
+
+### legacy-103-03-detail-03 · lettering
+
+**Frozen wording:**
+
+DEFENDERS LEARN THAT ACCESS AND CONTROL MUST BE DESIGNED TOGETHER.
+
+**Decision:** rewrite — Retain access/control as the book’s synthesis, not a universal defender belief or implemented public proposal.
+
+**Draft destination:** prod-aftermath-access
+
+## legacy-332b5ed63262 · 103-04
+
+### legacy-103-04-detail-01 · frame
+
+**Frozen wording:**
+
+Investigators preserve records, issue compulsory requests, and leave a future response deadline open.
+
+**Decision:** rewrite — Preserve compulsory scrutiny while correcting demands into demands: no completed preservation, production or prior total absence of records is inferred.
+
+**Draft destination:** prod-aftermath-oversight
+
+### legacy-103-04-detail-03 · lettering
+
+**Frozen wording:**
+
+OVERSIGHT LEARNS BY DEMANDING A RECORD IT DOES NOT YET HAVE.
+
+**Decision:** rewrite — Preserve compulsory scrutiny while correcting demands into demands: no completed preservation, production or prior total absence of records is inferred.
+
+**Draft destination:** prod-aftermath-oversight
+
+## legacy-332b5ed63262 · 103-05
+
+### legacy-103-05-detail-01 · frame
+
+**Frozen wording:**
+
+The montage remains divided. No single lesson governs all lanes.
+
+**Decision:** rewrite — Retain differing responses and unfinished review, without claiming universal learning.
+
+**Draft destination:** prod-aftermath-learning
+
+### legacy-103-05-detail-03 · lettering
+
+**Frozen wording:**
+
+“EVERYONE LEARNED” IS COMPRESSION. THE LESSONS DIFFER. THE REVIEW IS UNFINISHED.
+
+**Decision:** rewrite — Retain differing responses and unfinished review, without claiming universal learning.
+
+**Draft destination:** prod-aftermath-learning
+
+## legacy-332b5ed63262 · 104-01
+
+### legacy-104-01-detail-01 · frame
+
+**Frozen wording:**
+
+Five lanes advance: `CAPABILITY WORK`, `EVALUATION`, `DEFENSE`, `INVESTIGATION`, `ADAPTATION`.
+
+**Decision:** rewrite — Preserve all five work categories as an analytical classification, not five new story rows or a census of actors.
+
+**Draft destination:** prod-aftermath-activities
+
+### legacy-104-01-detail-03 · lettering
+
+**Frozen wording:**
+
+DIFFERENT WORK. DIFFERENT ACTORS. DIFFERENT REASONS.
+
+**Decision:** rewrite — Preserve all five work categories as an analytical classification, not five new story rows or a census of actors.
+
+**Draft destination:** prod-aftermath-activities
+
+## legacy-332b5ed63262 · 104-02
+
+### legacy-104-02-detail-01 · frame
+
+**Frozen wording:**
+
+Some lanes pause at controls; some branch; some resume; some wait on information. None moves at the same speed.
+
+**Decision:** rewrite — Preserve asynchronous work states and unresolved decisions without inventing synchronized activity or a new cutoff.
+
+**Draft destination:** prod-aftermath-clocks
+
+### legacy-104-02-detail-03 · lettering
+
+**Frozen wording:**
+
+FIVE LANES. FIVE CLOCKS.
+
+**Decision:** rewrite — Preserve asynchronous work states and unresolved decisions without inventing synchronized activity or a new cutoff.
+
+**Draft destination:** prod-aftermath-clocks
+
+### legacy-104-02-detail-04 · lettering
+
+**Frozen wording:**
+
+ENGINEERING FIXES, EVALUATIONS, DEFENSIVE WORK AND PUBLIC SCRUTINY DO NOT FINISH TOGETHER. THE END OF ONE OPERATIONAL INCIDENT DOES NOT CLOSE ALL THE DECISIONS IT HAS SET IN MOTION.
+
+**Decision:** rewrite — Preserve asynchronous work states and unresolved decisions without inventing synchronized activity or a new cutoff.
+
+**Draft destination:** prod-aftermath-clocks
+
+## legacy-332b5ed63262 · 104-03
+
+### legacy-104-03-detail-01 · frame
+
+**Frozen wording:**
+
+The agent collective's board is archival and still. Human institutions keep producing reports, systems, models, requests, and defenses.
+
+**Decision:** rewrite — Preserve the incentive argument as interpretation while declining to infer total cessation from an archived board or universally unchanged incentives.
+
+**Draft destination:** prod-aftermath-incentives
+
+### legacy-104-03-detail-03 · lettering
+
+**Frozen wording:**
+
+THE INCIDENT ENDS. THE INCENTIVE STRUCTURE DOES NOT.
+
+**Decision:** rewrite — Preserve the incentive argument as interpretation while declining to infer total cessation from an archived board or universally unchanged incentives.
+
+**Draft destination:** prod-aftermath-incentives
+
+## legacy-332b5ed63262 · 104-04
+
+### legacy-104-04-detail-01 · frame
+
+**Frozen wording:**
+
+Large type enters, but a qualification remains inseparable beneath it.
+
+**Decision:** rewrite — Retain the qualification and distinctions while replacing the universal continuation slogan as the new ending’s factual claim.
+
+**Draft destination:** prod-aftermath-continued
+
+### legacy-104-04-detail-03 · lettering
+
+**Frozen wording:**
+
+EVERYONE CONTINUED.
+
+**Decision:** rewrite — Retain the qualification and distinctions while replacing the universal continuation slogan as the new ending’s factual claim.
+
+**Draft destination:** prod-aftermath-continued
+
+### legacy-104-04-detail-04 · lettering
+
+**Frozen wording:**
+
+THEMATIC COMPRESSION: NOT EVERY ACTOR, NOT THE SAME ACTION, NOT THE SAME REASON.
+
+**Decision:** rewrite — Retain the qualification and distinctions while replacing the universal continuation slogan as the new ending’s factual claim.
+
+**Draft destination:** prod-aftermath-continued
+
+## legacy-332b5ed63262 · 104-05
+
+### legacy-104-05-detail-01 · frame
+
+**Frozen wording:**
+
+The chapter's public-record lanes flatten into manuscript pages on Curt's desk. A blank epilogue page waits beyond them.
+
+**Decision:** rewrite — Move the artifact transition into dated review of an actual historical draft rather than invented Curt desk activity.
+
+**Draft destination:** prod-aftermath-artifact
+
+### legacy-104-05-detail-03 · lettering
+
+**Frozen wording:**
+
+NOW THE INCIDENT BECOMES AN ARTIFACT.
+
+**Decision:** rewrite — Move the artifact transition into dated review of an actual historical draft rather than invented Curt desk activity.
+
+**Draft destination:** prod-aftermath-artifact
+
+## legacy-332b5ed63262 · 105-01
+
+### legacy-105-01-detail-01 · frame
+
+**Frozen wording:**
+
+Recto. The blank epilogue page from [page 104](104.md) sits beside 104 completed page scripts. The desk now holds chapter packets, a source-language audit, uncertainty notes, and the generated viewer.
+
+**Decision:** omit — Retire the staged completed-page count, final-assembly desk and recto choreography; do not imply completed artwork, publication or a new-edition page ceiling.
+
+**Draft destination:** Omitted; original remains frozen.
+
+### legacy-105-01-detail-03 · lettering
+
+**Frozen wording:**
+
+THE INCIDENT HAS BECOME A MANUSCRIPT.
+
+**Decision:** rewrite — Retain manuscript-as-artifact without asserting a completed final edition.
+
+**Draft destination:** prod-aftermath-artifact
+
+## legacy-332b5ed63262 · 105-02
+
+### legacy-105-02-detail-01 · frame
+
+**Frozen wording:**
+
+Curt drags source packets behind their chapters. Visible labels include `DOCUMENTED`, `DISPUTED`, `RECONSTRUCTED`, and `INVENTED`.
+
+**Decision:** rewrite — Preserve source labels at the ending as an editorial principle, not invented preserved Curt speech.
+
+**Draft destination:** prod-aftermath-labels
+
+### legacy-105-02-detail-03 · lettering
+
+**Frozen wording:**
+
+Keep the labels attached. Especially at the ending.
+
+**Decision:** rewrite — Preserve source labels at the ending as an editorial principle, not invented preserved Curt speech.
+
+**Draft destination:** prod-aftermath-labels
+
+## legacy-332b5ed63262 · 105-03
+
+### legacy-105-03-detail-01 · frame
+
+**Frozen wording:**
+
+ChatGPT remains a text interface beside a continuity result: every page, every sequence, three interludes, all green.
+
+**Decision:** rewrite — Preserve historical ChatGPT identity and the draft’s scripted status; do not reassign the line to Codex/Claude or certify all-green tests.
+
+**Draft destination:** prod-aftermath-chatgpt
+
+### legacy-105-03-detail-03 · lettering
+
+**Frozen wording:**
+
+The story closes. The uncertainty does not.
+
+**Decision:** rewrite — Preserve historical ChatGPT identity and the draft’s scripted status; do not reassign the line to Codex/Claude or certify all-green tests.
+
+**Draft destination:** prod-aftermath-chatgpt
+
+## legacy-332b5ed63262 · 105-04
+
+### legacy-105-04-detail-01 · frame
+
+**Frozen wording:**
+
+Page thumbnails form a continuous ribbon: shared state, erasure, inheritance, breach, investigation, remediation, continuation.
+
+**Decision:** rewrite — Preserve the load-bearing source labels, disputes and omitted connections without replaying the incident or promising a completed sequence.
+
+**Draft destination:** prod-aftermath-labels
+
+### legacy-105-04-detail-02 · action
+
+**Frozen wording:**
+
+Provenance tabs remain visible beneath every thumbnail rather than falling away during assembly.
+
+**Decision:** rewrite — Preserve the load-bearing source labels, disputes and omitted connections without replaying the incident or promising a completed sequence.
+
+**Draft destination:** prod-aftermath-labels
+
+### legacy-105-04-detail-03 · lettering
+
+**Frozen wording:**
+
+THE APPARATUS IS PART OF THE STORY.
+
+**Decision:** rewrite — Preserve the load-bearing source labels, disputes and omitted connections without replaying the incident or promising a completed sequence.
+
+**Draft destination:** prod-aftermath-labels
+
+### legacy-105-04-detail-04 · lettering
+
+**Frozen wording:**
+
+THE SOURCE LABELS, DISPUTES AND OMITTED CONNECTIONS ARE PART OF WHAT THE MANUSCRIPT TELLS ITS READER. REMOVING THEM WOULD CHANGE THE STORY’S CLAIMS EVEN IF THE ORDER OF EVENTS STAYED THE SAME.
+
+**Decision:** rewrite — Preserve the load-bearing source labels, disputes and omitted connections without replaying the incident or promising a completed sequence.
+
+**Draft destination:** prod-aftermath-labels
+
+## legacy-332b5ed63262 · 105-05
+
+### legacy-105-05-detail-01 · frame
+
+**Frozen wording:**
+
+Curt reaches the last four blank future pages. In the corner of the screen, unread, a notification with tomorrow's date on it: a report, four authors, a title about another message board.
+
+**Decision:** omit — Retire the invented unread notification and future-page turn. Wiki arrival is already represented by preserved September 4 request/response/result records (prod-wiki-request, prod-wiki-response, prod-wiki-result), without asserting a first-awareness date or delayed reading.
+
+**Draft destination:** Omitted; original remains frozen.
+
+### legacy-105-05-detail-02 · action
+
+**Frozen wording:**
+
+He does not open it. The page ends without a line.
+
+**Decision:** omit — Retire the invented unread notification and future-page turn. Wiki arrival is already represented by preserved September 4 request/response/result records (prod-wiki-request, prod-wiki-response, prod-wiki-result), without asserting a first-awareness date or delayed reading.
+
+**Draft destination:** Omitted; original remains frozen.

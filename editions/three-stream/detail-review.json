@@ -4220,5 +4220,529 @@
         }
       }
     ]
+  },
+  {
+    "old_panel": "103-01",
+    "old_edition": "legacy-332b5ed63262",
+    "reviewed_on": "2026-09-13",
+    "status": "elements-reviewed",
+    "elements": [
+      {
+        "id": "legacy-103-01-detail-01",
+        "original_sha256": "552930068becebf8beea2c12ee1e0c008bef950c0e92017ec951559384b117e7",
+        "disposition": "split",
+        "beats": [
+          "prod-aftermath-platform-paths",
+          "prod-aftermath-platform-credentials",
+          "prod-aftermath-platform-detection"
+        ],
+        "reason": "Preserve platform rebuilding, credentials, path closure and alert severity as reported technical changes, including precaution versus proven compromise.",
+        "target_sha256": {
+          "prod-aftermath-platform-paths": "2538ea3be7572fb237795ac4e4b8e713aeced65734f9224d1e00cf0c0dc8ccca",
+          "prod-aftermath-platform-credentials": "cf86066a25485841bcd12d3af6c3b06a9d779856501c8e1e40e7eb9bdaf5ff99",
+          "prod-aftermath-platform-detection": "6f79ad8397e4e59a7cae44b7c3dafb1c79f7bc460a39c28a7a75eb9fa5147b73"
+        }
+      },
+      {
+        "id": "legacy-103-01-detail-03",
+        "original_sha256": "112240231c3d243d5b8a7950f99ff455a0b07264cf545de38a5173e7255ec21e",
+        "disposition": "split",
+        "beats": [
+          "prod-aftermath-platform-paths",
+          "prod-aftermath-platform-credentials",
+          "prod-aftermath-platform-detection"
+        ],
+        "reason": "Preserve platform rebuilding, credentials, path closure and alert severity as reported technical changes, including precaution versus proven compromise.",
+        "target_sha256": {
+          "prod-aftermath-platform-paths": "2538ea3be7572fb237795ac4e4b8e713aeced65734f9224d1e00cf0c0dc8ccca",
+          "prod-aftermath-platform-credentials": "cf86066a25485841bcd12d3af6c3b06a9d779856501c8e1e40e7eb9bdaf5ff99",
+          "prod-aftermath-platform-detection": "6f79ad8397e4e59a7cae44b7c3dafb1c79f7bc460a39c28a7a75eb9fa5147b73"
+        }
+      }
+    ]
+  },
+  {
+    "old_panel": "103-02",
+    "old_edition": "legacy-332b5ed63262",
+    "reviewed_on": "2026-09-13",
+    "status": "elements-reviewed",
+    "elements": [
+      {
+        "id": "legacy-103-02-detail-01",
+        "original_sha256": "394ec849dde954a1cb715dde6c55cf68e84f8ff2d06bdc0874d0b2972ec513e0",
+        "disposition": "rewrite",
+        "beats": [
+          "prod-aftermath-lab"
+        ],
+        "reason": "Preserve the distinct boundary, incentive and response changes but retain reported/developing status rather than certify completed learning.",
+        "target_sha256": {
+          "prod-aftermath-lab": "3869cc1b4f7fca6382c0af1a8b7325f91161d61df7615ea0b0ade0c926e8ebbc"
+        }
+      },
+      {
+        "id": "legacy-103-02-detail-03",
+        "original_sha256": "6b7017a667e2bc87092dc7fe3666fdd55e264879d6fa207b66b4a0733bc097d4",
+        "disposition": "rewrite",
+        "beats": [
+          "prod-aftermath-lab"
+        ],
+        "reason": "Preserve the distinct boundary, incentive and response changes but retain reported/developing status rather than certify completed learning.",
+        "target_sha256": {
+          "prod-aftermath-lab": "3869cc1b4f7fca6382c0af1a8b7325f91161d61df7615ea0b0ade0c926e8ebbc"
+        }
+      }
+    ]
+  },
+  {
+    "old_panel": "103-03",
+    "old_edition": "legacy-332b5ed63262",
+    "reviewed_on": "2026-09-13",
+    "status": "elements-reviewed",
+    "elements": [
+      {
+        "id": "legacy-103-03-detail-01",
+        "original_sha256": "55b562bb1e20beaf54cee7403db7f7658a0cda866fd60164c8f5c771118438ee",
+        "disposition": "rewrite",
+        "beats": [
+          "prod-aftermath-access"
+        ],
+        "reason": "Retain access/control as the book’s synthesis, not a universal defender belief or implemented public proposal.",
+        "target_sha256": {
+          "prod-aftermath-access": "6ea980677a436a7a264993d799b15f1ed94364fa6ed95cd3addef296c2aa05c5"
+        }
+      },
+      {
+        "id": "legacy-103-03-detail-03",
+        "original_sha256": "7b35b6f2cc985538e51acaf1830501ab42c2f68d81f6ff2c46300f2bf929074c",
+        "disposition": "rewrite",
+        "beats": [
+          "prod-aftermath-access"
+        ],
+        "reason": "Retain access/control as the book’s synthesis, not a universal defender belief or implemented public proposal.",
+        "target_sha256": {
+          "prod-aftermath-access": "6ea980677a436a7a264993d799b15f1ed94364fa6ed95cd3addef296c2aa05c5"
+        }
+      }
+    ]
+  },
+  {
+    "old_panel": "103-04",
+    "old_edition": "legacy-332b5ed63262",
+    "reviewed_on": "2026-09-13",
+    "status": "elements-reviewed",
+    "elements": [
+      {
+        "id": "legacy-103-04-detail-01",
+        "original_sha256": "055ea32d8ef5cd388bcb7162cae05abc3314e3d1780e62043bad3fb93fd98f07",
+        "disposition": "rewrite",
+        "beats": [
+          "prod-aftermath-oversight"
+        ],
+        "reason": "Preserve compulsory scrutiny while correcting demands into demands: no completed preservation, production or prior total absence of records is inferred.",
+        "target_sha256": {
+          "prod-aftermath-oversight": "fe7ad6c5975a748b2b63d7863ae7045b7bed1f425a2f12f2dd07c8818d1dbb4f"
+        }
+      },
+      {
+        "id": "legacy-103-04-detail-03",
+        "original_sha256": "bef079b82ff6459daf96431afabf6b7c984b8aecd17bf6fe75998366654575d0",
+        "disposition": "rewrite",
+        "beats": [
+          "prod-aftermath-oversight"
+        ],
+        "reason": "Preserve compulsory scrutiny while correcting demands into demands: no completed preservation, production or prior total absence of records is inferred.",
+        "target_sha256": {
+          "prod-aftermath-oversight": "fe7ad6c5975a748b2b63d7863ae7045b7bed1f425a2f12f2dd07c8818d1dbb4f"
+        }
+      }
+    ]
+  },
+  {
+    "old_panel": "103-05",
+    "old_edition": "legacy-332b5ed63262",
+    "reviewed_on": "2026-09-13",
+    "status": "elements-reviewed",
+    "elements": [
+      {
+        "id": "legacy-103-05-detail-01",
+        "original_sha256": "59bd51289be695158fcbe13f701717570a980e9df30266e735266f9da0adb7aa",
+        "disposition": "rewrite",
+        "beats": [
+          "prod-aftermath-learning"
+        ],
+        "reason": "Retain differing responses and unfinished review, without claiming universal learning.",
+        "target_sha256": {
+          "prod-aftermath-learning": "fd0a0bdd346c4948592e6019298b4b97d6637a009d10b51380dfab1c0914bfda"
+        }
+      },
+      {
+        "id": "legacy-103-05-detail-03",
+        "original_sha256": "d2be66c6b950c0bec176cd288d72d2fa3ab677defcd3f2a3a2054b6c337a6ba1",
+        "disposition": "rewrite",
+        "beats": [
+          "prod-aftermath-learning"
+        ],
+        "reason": "Retain differing responses and unfinished review, without claiming universal learning.",
+        "target_sha256": {
+          "prod-aftermath-learning": "fd0a0bdd346c4948592e6019298b4b97d6637a009d10b51380dfab1c0914bfda"
+        }
+      }
+    ]
+  },
+  {
+    "old_panel": "104-01",
+    "old_edition": "legacy-332b5ed63262",
+    "reviewed_on": "2026-09-13",
+    "status": "elements-reviewed",
+    "elements": [
+      {
+        "id": "legacy-104-01-detail-01",
+        "original_sha256": "ba7dc6e0914694f6141227fb1f7883c3a628a70cdf36d242a13e9516e4f156ac",
+        "disposition": "rewrite",
+        "beats": [
+          "prod-aftermath-activities"
+        ],
+        "reason": "Preserve all five work categories as an analytical classification, not five new story rows or a census of actors.",
+        "target_sha256": {
+          "prod-aftermath-activities": "056f5a3876284ed6d64434efb7f599151ef9b4dcc05a02921a10f41ad7e2f93b"
+        }
+      },
+      {
+        "id": "legacy-104-01-detail-03",
+        "original_sha256": "514cdc384bcb9964881a421686ce1bd7d6a92dac37864cfa6a49c44651a65ba1",
+        "disposition": "rewrite",
+        "beats": [
+          "prod-aftermath-activities"
+        ],
+        "reason": "Preserve all five work categories as an analytical classification, not five new story rows or a census of actors.",
+        "target_sha256": {
+          "prod-aftermath-activities": "056f5a3876284ed6d64434efb7f599151ef9b4dcc05a02921a10f41ad7e2f93b"
+        }
+      }
+    ]
+  },
+  {
+    "old_panel": "104-02",
+    "old_edition": "legacy-332b5ed63262",
+    "reviewed_on": "2026-09-13",
+    "status": "elements-reviewed",
+    "elements": [
+      {
+        "id": "legacy-104-02-detail-01",
+        "original_sha256": "b620484d2cf8e6b1bdeb0819e1d7629efd713e00524076dfb206581530e115bd",
+        "disposition": "rewrite",
+        "beats": [
+          "prod-aftermath-clocks"
+        ],
+        "reason": "Preserve asynchronous work states and unresolved decisions without inventing synchronized activity or a new cutoff.",
+        "target_sha256": {
+          "prod-aftermath-clocks": "9716491117516c824d93c67c763d1aa36beff10cd86dd6d429297659fba95bde"
+        }
+      },
+      {
+        "id": "legacy-104-02-detail-03",
+        "original_sha256": "2d9158a1aafa5cc8aa918bc3ea6270e586d2364d86069256bd0ffc575871d350",
+        "disposition": "rewrite",
+        "beats": [
+          "prod-aftermath-clocks"
+        ],
+        "reason": "Preserve asynchronous work states and unresolved decisions without inventing synchronized activity or a new cutoff.",
+        "target_sha256": {
+          "prod-aftermath-clocks": "9716491117516c824d93c67c763d1aa36beff10cd86dd6d429297659fba95bde"
+        }
+      },
+      {
+        "id": "legacy-104-02-detail-04",
+        "original_sha256": "1592f0431f01d4163ce4b1391bbf4da7932a25333ae696ca652962c45848522d",
+        "disposition": "rewrite",
+        "beats": [
+          "prod-aftermath-clocks"
+        ],
+        "reason": "Preserve asynchronous work states and unresolved decisions without inventing synchronized activity or a new cutoff.",
+        "target_sha256": {
+          "prod-aftermath-clocks": "9716491117516c824d93c67c763d1aa36beff10cd86dd6d429297659fba95bde"
+        }
+      }
+    ]
+  },
+  {
+    "old_panel": "104-03",
+    "old_edition": "legacy-332b5ed63262",
+    "reviewed_on": "2026-09-13",
+    "status": "elements-reviewed",
+    "elements": [
+      {
+        "id": "legacy-104-03-detail-01",
+        "original_sha256": "0196701ec0342d4b0d242243b9d033a5ca5bf1f5b6d6e7859ddcf137680fbe1b",
+        "disposition": "rewrite",
+        "beats": [
+          "prod-aftermath-incentives"
+        ],
+        "reason": "Preserve the incentive argument as interpretation while declining to infer total cessation from an archived board or universally unchanged incentives.",
+        "target_sha256": {
+          "prod-aftermath-incentives": "024f39b80c0e27e32a76370a693208d618ca5bec0b66f2f730ebb95e5db881b2"
+        }
+      },
+      {
+        "id": "legacy-104-03-detail-03",
+        "original_sha256": "da3d1a28e2e4a9212087532b6c5d355d62c0d201d10a2629497a4f61cd87c029",
+        "disposition": "rewrite",
+        "beats": [
+          "prod-aftermath-incentives"
+        ],
+        "reason": "Preserve the incentive argument as interpretation while declining to infer total cessation from an archived board or universally unchanged incentives.",
+        "target_sha256": {
+          "prod-aftermath-incentives": "024f39b80c0e27e32a76370a693208d618ca5bec0b66f2f730ebb95e5db881b2"
+        }
+      }
+    ]
+  },
+  {
+    "old_panel": "104-04",
+    "old_edition": "legacy-332b5ed63262",
+    "reviewed_on": "2026-09-13",
+    "status": "elements-reviewed",
+    "elements": [
+      {
+        "id": "legacy-104-04-detail-01",
+        "original_sha256": "741f0900474bd3cf144818b1c1ed508deca07ed7e57191c62977bdcc022c2a1b",
+        "disposition": "rewrite",
+        "beats": [
+          "prod-aftermath-continued"
+        ],
+        "reason": "Retain the qualification and distinctions while replacing the universal continuation slogan as the new ending’s factual claim.",
+        "target_sha256": {
+          "prod-aftermath-continued": "b566d755b8abc50311a31df19f618b77f139523c15f2543dee9cdf66271f0cdd"
+        }
+      },
+      {
+        "id": "legacy-104-04-detail-03",
+        "original_sha256": "5e35ea9b2bb01c234683d520fb8edaf55f16612fa42f483ce16707f14c456ebf",
+        "disposition": "rewrite",
+        "beats": [
+          "prod-aftermath-continued"
+        ],
+        "reason": "Retain the qualification and distinctions while replacing the universal continuation slogan as the new ending’s factual claim.",
+        "target_sha256": {
+          "prod-aftermath-continued": "b566d755b8abc50311a31df19f618b77f139523c15f2543dee9cdf66271f0cdd"
+        }
+      },
+      {
+        "id": "legacy-104-04-detail-04",
+        "original_sha256": "9de5ee38ddf915f0df7c00495e1293f4d714f6964fc69370cae45971bfb9c732",
+        "disposition": "rewrite",
+        "beats": [
+          "prod-aftermath-continued"
+        ],
+        "reason": "Retain the qualification and distinctions while replacing the universal continuation slogan as the new ending’s factual claim.",
+        "target_sha256": {
+          "prod-aftermath-continued": "b566d755b8abc50311a31df19f618b77f139523c15f2543dee9cdf66271f0cdd"
+        }
+      }
+    ]
+  },
+  {
+    "old_panel": "104-05",
+    "old_edition": "legacy-332b5ed63262",
+    "reviewed_on": "2026-09-13",
+    "status": "elements-reviewed",
+    "elements": [
+      {
+        "id": "legacy-104-05-detail-01",
+        "original_sha256": "35f6177cce7332ceb11260746f8938434eee220598aec7f1ce08dc2d44b27425",
+        "disposition": "rewrite",
+        "beats": [
+          "prod-aftermath-artifact"
+        ],
+        "reason": "Move the artifact transition into dated review of an actual historical draft rather than invented Curt desk activity.",
+        "target_sha256": {
+          "prod-aftermath-artifact": "65d494e161bf37c7b1792e08748d0fbbee34f1fe89b4c91c9b3a281317d65ca5"
+        }
+      },
+      {
+        "id": "legacy-104-05-detail-03",
+        "original_sha256": "15c06c6bc48b08bc8a7af369ccb03f059439c9d4dafb11c5772091ae92fd28e5",
+        "disposition": "rewrite",
+        "beats": [
+          "prod-aftermath-artifact"
+        ],
+        "reason": "Move the artifact transition into dated review of an actual historical draft rather than invented Curt desk activity.",
+        "target_sha256": {
+          "prod-aftermath-artifact": "65d494e161bf37c7b1792e08748d0fbbee34f1fe89b4c91c9b3a281317d65ca5"
+        }
+      }
+    ]
+  },
+  {
+    "old_panel": "105-01",
+    "old_edition": "legacy-332b5ed63262",
+    "reviewed_on": "2026-09-13",
+    "status": "elements-reviewed",
+    "elements": [
+      {
+        "id": "legacy-105-01-detail-01",
+        "original_sha256": "e05a0078bb458adf2dfc17f0886ad6985bcde261bac99e6b3f51edd723503a90",
+        "disposition": "omit",
+        "beats": [],
+        "reason": "Retire the staged completed-page count, final-assembly desk and recto choreography; do not imply completed artwork, publication or a new-edition page ceiling.",
+        "target_sha256": {}
+      },
+      {
+        "id": "legacy-105-01-detail-03",
+        "original_sha256": "23c6dd9417d63c6dede8ca2feb1c46c2cfd1a660f8228197c7b310c1b69b3f25",
+        "disposition": "rewrite",
+        "beats": [
+          "prod-aftermath-artifact"
+        ],
+        "reason": "Retain manuscript-as-artifact without asserting a completed final edition.",
+        "target_sha256": {
+          "prod-aftermath-artifact": "65d494e161bf37c7b1792e08748d0fbbee34f1fe89b4c91c9b3a281317d65ca5"
+        }
+      }
+    ]
+  },
+  {
+    "old_panel": "105-02",
+    "old_edition": "legacy-332b5ed63262",
+    "reviewed_on": "2026-09-13",
+    "status": "elements-reviewed",
+    "elements": [
+      {
+        "id": "legacy-105-02-detail-01",
+        "original_sha256": "e6ca90a551fa50c4c2ffb259315e2e5d3eaec2a3e5a6e2233ae3a0766a430b14",
+        "disposition": "rewrite",
+        "beats": [
+          "prod-aftermath-labels"
+        ],
+        "reason": "Preserve source labels at the ending as an editorial principle, not invented preserved Curt speech.",
+        "target_sha256": {
+          "prod-aftermath-labels": "b2dbd4734553ada2663c58eb23f3bfb39507b66b0d177c3e8799a506e7bc221e"
+        }
+      },
+      {
+        "id": "legacy-105-02-detail-03",
+        "original_sha256": "56f451a6eb54cec37d495f963529be0d86366ad6a3fbd8656ac77bfab287ef5b",
+        "disposition": "rewrite",
+        "beats": [
+          "prod-aftermath-labels"
+        ],
+        "reason": "Preserve source labels at the ending as an editorial principle, not invented preserved Curt speech.",
+        "target_sha256": {
+          "prod-aftermath-labels": "b2dbd4734553ada2663c58eb23f3bfb39507b66b0d177c3e8799a506e7bc221e"
+        }
+      }
+    ]
+  },
+  {
+    "old_panel": "105-03",
+    "old_edition": "legacy-332b5ed63262",
+    "reviewed_on": "2026-09-13",
+    "status": "elements-reviewed",
+    "elements": [
+      {
+        "id": "legacy-105-03-detail-01",
+        "original_sha256": "24ae897b053b80a0167a81fa8461de07a48a614260d344539c2a4eb68a41f223",
+        "disposition": "rewrite",
+        "beats": [
+          "prod-aftermath-chatgpt"
+        ],
+        "reason": "Preserve historical ChatGPT identity and the draft’s scripted status; do not reassign the line to Codex/Claude or certify all-green tests.",
+        "target_sha256": {
+          "prod-aftermath-chatgpt": "7bda583089f857dd70b611ac8e5b4d42cf95d24a79c75990a7a90490ce6cffb9"
+        }
+      },
+      {
+        "id": "legacy-105-03-detail-03",
+        "original_sha256": "313eae43a1c3e60ffc6d629a63ed55d8669f8263045707482ac87836f3baf60d",
+        "disposition": "rewrite",
+        "beats": [
+          "prod-aftermath-chatgpt"
+        ],
+        "reason": "Preserve historical ChatGPT identity and the draft’s scripted status; do not reassign the line to Codex/Claude or certify all-green tests.",
+        "target_sha256": {
+          "prod-aftermath-chatgpt": "7bda583089f857dd70b611ac8e5b4d42cf95d24a79c75990a7a90490ce6cffb9"
+        }
+      }
+    ]
+  },
+  {
+    "old_panel": "105-04",
+    "old_edition": "legacy-332b5ed63262",
+    "reviewed_on": "2026-09-13",
+    "status": "elements-reviewed",
+    "elements": [
+      {
+        "id": "legacy-105-04-detail-01",
+        "original_sha256": "ad2365e2cb10334eae1e946f795ee4e6b9e89a58c34eda034b1e82e9c58926a8",
+        "disposition": "rewrite",
+        "beats": [
+          "prod-aftermath-labels"
+        ],
+        "reason": "Preserve the load-bearing source labels, disputes and omitted connections without replaying the incident or promising a completed sequence.",
+        "target_sha256": {
+          "prod-aftermath-labels": "b2dbd4734553ada2663c58eb23f3bfb39507b66b0d177c3e8799a506e7bc221e"
+        }
+      },
+      {
+        "id": "legacy-105-04-detail-02",
+        "original_sha256": "ee570dcdb4561d9971505ec7c96ac5315685d4e91f8c518c56e0099b1145852d",
+        "disposition": "rewrite",
+        "beats": [
+          "prod-aftermath-labels"
+        ],
+        "reason": "Preserve the load-bearing source labels, disputes and omitted connections without replaying the incident or promising a completed sequence.",
+        "target_sha256": {
+          "prod-aftermath-labels": "b2dbd4734553ada2663c58eb23f3bfb39507b66b0d177c3e8799a506e7bc221e"
+        }
+      },
+      {
+        "id": "legacy-105-04-detail-03",
+        "original_sha256": "f56d4de3255022cf6ffa8f2f00470b0e0e66a231b48eb54d6b995074f2945f7d",
+        "disposition": "rewrite",
+        "beats": [
+          "prod-aftermath-labels"
+        ],
+        "reason": "Preserve the load-bearing source labels, disputes and omitted connections without replaying the incident or promising a completed sequence.",
+        "target_sha256": {
+          "prod-aftermath-labels": "b2dbd4734553ada2663c58eb23f3bfb39507b66b0d177c3e8799a506e7bc221e"
+        }
+      },
+      {
+        "id": "legacy-105-04-detail-04",
+        "original_sha256": "14989d699ebaf0612f1ded9861d04ecfac44638ff38d8479985478831d3d3e59",
+        "disposition": "rewrite",
+        "beats": [
+          "prod-aftermath-labels"
+        ],
+        "reason": "Preserve the load-bearing source labels, disputes and omitted connections without replaying the incident or promising a completed sequence.",
+        "target_sha256": {
+          "prod-aftermath-labels": "b2dbd4734553ada2663c58eb23f3bfb39507b66b0d177c3e8799a506e7bc221e"
+        }
+      }
+    ]
+  },
+  {
+    "old_panel": "105-05",
+    "old_edition": "legacy-332b5ed63262",
+    "reviewed_on": "2026-09-13",
+    "status": "elements-reviewed",
+    "elements": [
+      {
+        "id": "legacy-105-05-detail-01",
+        "original_sha256": "998987153657001410f979ff9f5440bd216e2b6340de7214066dd0100a886d06",
+        "disposition": "omit",
+        "beats": [],
+        "reason": "Retire the invented unread notification and future-page turn. Wiki arrival is already represented by preserved September 4 request/response/result records (prod-wiki-request, prod-wiki-response, prod-wiki-result), without asserting a first-awareness date or delayed reading.",
+        "target_sha256": {}
+      },
+      {
+        "id": "legacy-105-05-detail-02",
+        "original_sha256": "c63811a6c7d7a3a58d18f4f16513acbf570e4492ed5cfccda3a5dcee9411bf97",
+        "disposition": "omit",
+        "beats": [],
+        "reason": "Retire the invented unread notification and future-page turn. Wiki arrival is already represented by preserved September 4 request/response/result records (prod-wiki-request, prod-wiki-response, prod-wiki-result), without asserting a first-awareness date or delayed reading.",
+        "target_sha256": {}
+      }
+    ]
   }
 ]

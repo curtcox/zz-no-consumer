@@ -1,0 +1,84 @@
+---
+page: 103
+chapter: epilogue
+sequence: 35
+title: The Manuscript
+status: review
+story_time: creator-relative-final-assembly
+population: creator
+locations:
+  - curt-home-office
+provenance:
+  - status: reconstructed
+    source: NONE-FICTION
+  - status: documented
+    source: CW-REPORT
+  - status: inferred
+    source: PROJECT-INFERENCE
+exact_strings: []
+continuity_checks:
+  - creator-register
+  - chatgpt-screen-only
+  - provenance-apparatus-visible
+  - follows-page-102-manuscript-transition
+---
+
+# Page 103
+
+## Page purpose
+
+Turn the completed investigation into a deliberately constructed artifact whose evidence boundaries remain attached.
+
+## Panel 1
+
+**Frame:** Recto. The blank epilogue page from page 102 sits beside 104 completed page scripts. The desk now holds chapter packets, a source-language audit, uncertainty notes, and the generated viewer.
+
+**Caption:**
+> THE INCIDENT HAS BECOME A MANUSCRIPT.
+
+**Provenance:** `reconstructed` — creator workspace assembled from real project artifacts, not a documentary photograph.
+
+## Panel 2
+
+**Frame:** Curt drags source packets behind their chapters. Visible labels include `DOCUMENTED`, `DISPUTED`, `RECONSTRUCTED`, and `INVENTED`.
+
+**Dialogue — CURT:**
+> Keep the labels attached. Especially at the ending.
+
+**Provenance:** `reconstructed` — project decision expressed as dialogue.
+
+## Panel 3
+
+**Frame:** ChatGPT remains a text interface beside a continuity result: every page, every sequence, three interludes, all green.
+
+**Screen / system text — CHATGPT:**
+> The story closes. The uncertainty does not.
+
+**Provenance:** `reconstructed` — creator exchange, not a preserved product transcript.
+
+## Panel 4
+
+**Frame:** Page thumbnails form a continuous ribbon: shared state, erasure, inheritance, breach, investigation, remediation, continuation.
+
+**Action:** Provenance tabs remain visible beneath every thumbnail rather than falling away during assembly.
+
+**Caption:**
+> THE APPARATUS IS PART OF THE STORY.
+
+**Provenance:** `reconstructed` + `inferred` — manuscript state and project principle.
+
+## Panel 5
+
+**Frame:** Curt reaches the last four blank future pages. In the corner of the screen, unread, a notification with tomorrow's date on it: a report, four authors, a title about another message board.
+
+**Action:** He does not open it. The page ends without a line.
+
+**Provenance:** `reconstructed` — transition into the artifact's downstream-use problem; the notification is the dated addition's arrival (`CW-REPORT`, 4 September 2026), planted here so page 104 can open on it.
+
+## Page notes
+
+- Continue the creator palette from pages 084–088.
+- ChatGPT has no avatar, face, or subjective reaction.
+- Do not imply the physical artwork or final publication files already exist beyond the scripted project state.
+- **Panel 5 is silent, and that is the fix for a seam.** It used to plant *you realize the obvious problem with the ending*, and six pages of dated addition then ran between that line and its answer on page 110 — the widest setup-to-payoff gap in the book. The cue now lives on page 109 panel 6, one page from where it lands. Do not restore a line here; the unread notification is the whole beat.
+- The notification in panel 5 is the leaf turn into the dated addition (pages 104–109). It is unread on this page; Curt does not know what it says until page 104.

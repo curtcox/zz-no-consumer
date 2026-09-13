@@ -552,3 +552,33 @@ The original transcript, including its transcription errors, is unchanged.
 Draft and whitespace checks pass; no canonical pages are allocated. Full
 old-script coverage, chronology/readability reconciliation, ending treatment
 and the final three-row preview remain unfinished.
+
+### Aftermath montage and manuscript ending — 13 September 2026
+
+Added fourteen beats in `manuscript/collaboration-aftermath-ending.json`.
+All fifteen panels and thirty-four elements of frozen 103–105 now have
+individual dispositions. Three historical Git artifacts (then 101, 102 and 103)
+were preserved exactly and verified against commit
+7fa53878c4934571fee2dda8e025a050ff515761. Their old numbers remain evidence
+identities, not new-edition allocations.
+
+The platform’s technical hardening is distinguished from the lab’s reported
+and developing changes, controlled-access advocacy and compulsory scrutiny.
+The narrator does not convert requested preservation into completed preservation
+or production, or infer investigators previously had no records. Universal
+learning and continuation become explicitly limited interpretations. Five
+activity categories are not new story rows or proof that all actors continued.
+An archived board is not proof that all activity or risk ended.
+
+The staged completed manuscript, desk and all-green screen are not treated as
+actual completion evidence. Historical ChatGPT identity is retained and its
+scripted dialogue is not reassigned to either collaborating actor. Source
+labels and unresolved claims remain part of the argument at the ending.
+The invented unread notification and page-turn timing are omitted; preserved
+September 4 wiki exchanges already provide a dated entry without inventing
+first awareness. This is an ending-argument review, not allocation of a final
+new-edition ending or approval of a fictional coda.
+
+Draft and whitespace checks pass. Full original-panel coverage, remaining
+incident/analysis material, later ending material, chronology, layout and the
+final three-row preview remain unfinished. Frozen dependents are unchanged.
