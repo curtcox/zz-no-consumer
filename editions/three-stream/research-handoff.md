@@ -865,3 +865,35 @@ Scoped checks and whitespace checks pass; frozen edition unchanged. Earlier
 creator material beginning at frozen 013 needs review next. Final semantic
 coverage, chronology/readability, Twitter entrance, other-Mac evidence and
 page allocation remain unfinished.
+
+### Early creator premise and truth contract — 13 September 2026
+
+Reviewed all sixteen frozen 013–015 panels. Preserved three exact Git draft
+artifacts and added thirteen beats in collaboration-creator-premise.json.
+The narrator examines the earlier draft in the existing September 6 review
+context, without assigning additional reading or correction acts to Claude.
+
+The late-night room, drink, report scrolling, reactions, new ChatGPT window
+and request-send action are scripted material. They do not establish Curt’s
+first view or first graphic-novel decision. The preserved September 2 setup
+request remains a real production event with narrower scope. It is not a
+substitute for the unresolved Twitter entrance or evidence of that invented
+ChatGPT conversation. Product identities are unchanged.
+
+Retained the infrastructure-first visual argument, shared-store topology,
+provenance categories and limits on invention/interiority. The deliberately
+authored model-corrects-human beat is not recovered evidence of model
+authority, Curt’s first error or a unique historical correction. No room,
+meeting, erased line or all-to-all network becomes a real event.
+
+Both project-authored creative maxims match the preserved Git draft and are
+registered verbatim as authored script, not attributed as preserved spoken
+words. Orthogonality, instrumental convergence and race dynamics remain
+interpretive concerns. Making ideas matter does not authorize inventing
+historical events that illustrate them. The old April rewind is discussed
+as draft structure, not reenacted in the chronological edition.
+
+Scoped checks and whitespace checks pass; frozen edition unchanged. Review
+can continue with frozen 016 onward. The overall edition, first-encounter
+evidence, second-Mac history, final chronology/readability and allocation
+remain unfinished.

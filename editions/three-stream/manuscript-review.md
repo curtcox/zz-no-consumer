@@ -8227,7 +8227,7 @@ Curt asks for a repository structure and automatic GitHub Pages publishing when 
 
 **Sources:** PROD-24182a5d6b32 — 256t/editions/selected-messages/24182a5d6b3285cd17f031d9db21fac2f62709670d4acf23bb1dae59eedbe4bd.json; record SHA-256 24182a5d6b3285cd17f031d9db21fac2f62709670d4acf23bb1dae59eedbe4bd (available 2026-09-02T01:56:21.519Z)
 
-**Frozen panel associations:** New material.
+**Frozen panel associations:** 013-04
 
 ## Codex proposes an implementation approach — prod-setup-response
 
@@ -10530,6 +10530,193 @@ Different assigned goals can create overlapping demands. Shared resources do not
 **Sources:** PROD-47704e3a3f45 — 256t/editions/selected-messages/47704e3a3f4568aef4205b08137115adcfe1a9daca59f39d4327472e3a8da722.json; record SHA-256 47704e3a3f4568aef4205b08137115adcfe1a9daca59f39d4327472e3a8da722 (available 2026-09-06T15:02:31.590Z); DRAFT-CONVERGENCE-007 — editions/three-stream/evidence/convergence-007-7fa53878c493.md; grouped panels 1–9 (available 2026-09-05T22:33:29Z)
 
 **Frozen panel associations:** 007-01, 007-02, 007-03, 007-04, 007-05, 007-06, 007-07, 007-08, 007-09
+
+## The invented origin scene and its useful rules — prod-creator-premise-review
+
+**Row:** Claude · collaboration
+
+**UTC bounds:** 2026-09-06T15:02:31.590Z → 2026-09-06T15:02:31.590Z · millisecond
+
+**Time evidence:** Narrator examines the earlier committed draft alongside the September 6 manuscript-review report. Source availability precedes this scene. No specific read time or private decision is assigned to Claude.
+
+**Evidence limit:** Narrator review of committed draft material in the existing September 6 context, not additional source-reading acts by Claude. This cannot supply the unresolved Twitter entrance or a preserved ChatGPT/Curt exchange.
+
+### prod-creator-premise-entrance
+
+**Frame:** Labelled historical draft artifact under narrator review. No reenacted desk or first encounter, no extra actor row and no invented real-time ChatGPT dialogue.
+
+**Lettering:**
+
+The earlier prologue invents a late-night home office, a drink and several screens to introduce Curt reading the report. That scene is not evidence of his first view, its date or his surroundings. The new edition still needs the Twitter evidence for his entrance; this artifact cannot fill that gap.
+
+**Sources:** PROD-47704e3a3f45 — 256t/editions/selected-messages/47704e3a3f4568aef4205b08137115adcfe1a9daca59f39d4327472e3a8da722.json; record SHA-256 47704e3a3f4568aef4205b08137115adcfe1a9daca59f39d4327472e3a8da722 (available 2026-09-06T15:02:31.590Z); DRAFT-CREATOR-013 — editions/three-stream/evidence/creator-premise-013-7fa53878c493.md; corresponding panel and page notes; Git 7fa53878c4934571fee2dda8e025a050ff515761 (available 2026-09-05T22:33:29Z)
+
+**Frozen panel associations:** 013-01
+
+### prod-creator-premise-reaction
+
+**Frame:** Labelled historical draft artifact under narrator review. No reenacted desk or first encounter, no extra actor row and no invented real-time ChatGPT dialogue.
+
+**Lettering:**
+
+The draft gives Curt incredulous reactions to the board and an experiment that might end a run. Those reactions place emotion in the human adaptation, not inside the agents. They are scripted emphasis, not preserved speech or proof that this passage prompted the project.
+
+**Sources:** PROD-47704e3a3f45 — 256t/editions/selected-messages/47704e3a3f4568aef4205b08137115adcfe1a9daca59f39d4327472e3a8da722.json; record SHA-256 47704e3a3f4568aef4205b08137115adcfe1a9daca59f39d4327472e3a8da722 (available 2026-09-06T15:02:31.590Z); DRAFT-CREATOR-013 — editions/three-stream/evidence/creator-premise-013-7fa53878c493.md; corresponding panel and page notes; Git 7fa53878c4934571fee2dda8e025a050ff515761 (available 2026-09-05T22:33:29Z)
+
+**Frozen panel associations:** 013-02, 013-03
+
+### prod-creator-premise-decision
+
+**Frame:** Labelled historical draft artifact under narrator review. No reenacted desk or first encounter, no extra actor row and no invented real-time ChatGPT dialogue.
+
+**Lettering:**
+
+Its next move is a fictional ChatGPT conversation announcing a graphic novel. The selected September 2 repository-setup request is a real production message, but it does not establish the first decision to make the book or prove that this ChatGPT exchange occurred. ChatGPT remains the named product in the fiction.
+
+**Sources:** PROD-47704e3a3f45 — 256t/editions/selected-messages/47704e3a3f4568aef4205b08137115adcfe1a9daca59f39d4327472e3a8da722.json; record SHA-256 47704e3a3f4568aef4205b08137115adcfe1a9daca59f39d4327472e3a8da722 (available 2026-09-06T15:02:31.590Z); DRAFT-CREATOR-013 — editions/three-stream/evidence/creator-premise-013-7fa53878c493.md; corresponding panel and page notes; Git 7fa53878c4934571fee2dda8e025a050ff515761 (available 2026-09-05T22:33:29Z)
+
+**Frozen panel associations:** 013-04
+
+### prod-creator-premise-disclosure
+
+**Frame:** Labelled historical draft artifact under narrator review. No reenacted desk or first encounter, no extra actor row and no invented real-time ChatGPT dialogue.
+
+**Lettering:**
+
+The scene’s reconstruction notice matters: an authentic source visible inside an invented room does not authenticate the room, the conversation or the reaction. The new edition keeps the disclosure in its account of the draft rather than repeating the imagined send action as history.
+
+**Sources:** PROD-47704e3a3f45 — 256t/editions/selected-messages/47704e3a3f4568aef4205b08137115adcfe1a9daca59f39d4327472e3a8da722.json; record SHA-256 47704e3a3f4568aef4205b08137115adcfe1a9daca59f39d4327472e3a8da722 (available 2026-09-06T15:02:31.590Z); DRAFT-CREATOR-013 — editions/three-stream/evidence/creator-premise-013-7fa53878c493.md; corresponding panel and page notes; Git 7fa53878c4934571fee2dda8e025a050ff515761 (available 2026-09-05T22:33:29Z)
+
+**Frozen panel associations:** 013-05
+
+### prod-creator-premise-visuals
+
+**Frame:** Labelled historical draft artifact under narrator review. No reenacted desk or first encounter, no extra actor row and no invented real-time ChatGPT dialogue.
+
+**Lettering:**
+
+The early draft proposes infrastructure, directories, racks and machine text instead of agent bodies. The imagined robot-image search and sketching gestures are not documented design sessions. The later ant convention is another authored design choice, not evidence that the historical agents had bodies.
+
+**Sources:** PROD-47704e3a3f45 — 256t/editions/selected-messages/47704e3a3f4568aef4205b08137115adcfe1a9daca59f39d4327472e3a8da722.json; record SHA-256 47704e3a3f4568aef4205b08137115adcfe1a9daca59f39d4327472e3a8da722 (available 2026-09-06T15:02:31.590Z); DRAFT-CREATOR-014 — editions/three-stream/evidence/creator-premise-014-7fa53878c493.md; corresponding panel and page notes; Git 7fa53878c4934571fee2dda8e025a050ff515761 (available 2026-09-05T22:33:29Z)
+
+**Frozen panel associations:** 014-01, 014-02
+
+### prod-creator-premise-topology
+
+**Frame:** Labelled historical draft artifact under narrator review. No reenacted desk or first encounter, no extra actor row and no invented real-time ChatGPT dialogue.
+
+**Lettering:**
+
+The draft has ChatGPT correct an all-to-all network drawing to shared storage. The useful distinction is between a depicted route and one established by evidence: separate runs can write and later read the same cache. This correction exchange was invented, including Curt’s erasure and claim that it was his first mistake.
+
+**Sources:** PROD-47704e3a3f45 — 256t/editions/selected-messages/47704e3a3f4568aef4205b08137115adcfe1a9daca59f39d4327472e3a8da722.json; record SHA-256 47704e3a3f4568aef4205b08137115adcfe1a9daca59f39d4327472e3a8da722 (available 2026-09-06T15:02:31.590Z); DRAFT-CREATOR-014 — editions/three-stream/evidence/creator-premise-014-7fa53878c493.md; corresponding panel and page notes; Git 7fa53878c4934571fee2dda8e025a050ff515761 (available 2026-09-05T22:33:29Z)
+
+**Frozen panel associations:** 014-03
+
+### prod-creator-premise-authority
+
+**Frame:** Labelled historical draft artifact under narrator review. No reenacted desk or first encounter, no extra actor row and no invented real-time ChatGPT dialogue.
+
+**Lettering:**
+
+The earlier page notes deliberately make the model correct the human once to establish narrative authority. That is a writing device, not evidence that a real model made this correction, that it was right only once or that subsequent outputs deserve trust. Actual corrections need their own records.
+
+**Sources:** PROD-47704e3a3f45 — 256t/editions/selected-messages/47704e3a3f4568aef4205b08137115adcfe1a9daca59f39d4327472e3a8da722.json; record SHA-256 47704e3a3f4568aef4205b08137115adcfe1a9daca59f39d4327472e3a8da722 (available 2026-09-06T15:02:31.590Z); DRAFT-CREATOR-014 — editions/three-stream/evidence/creator-premise-014-7fa53878c493.md; corresponding panel and page notes; Git 7fa53878c4934571fee2dda8e025a050ff515761 (available 2026-09-05T22:33:29Z)
+
+**Frozen panel associations:** 014-03
+
+### prod-creator-premise-labels
+
+**Frame:** Labelled historical draft artifact under narrator review. No reenacted desk or first encounter, no extra actor row and no invented real-time ChatGPT dialogue.
+
+**Lettering:**
+
+The draft distinguishes documented events, source paraphrases, disputed claims and the book’s inferences. Those labels must describe the actual material. A paraphrase must not become source dialogue, and an invented exchange must not acquire evidentiary status merely by appearing next to a real report.
+
+**Sources:** PROD-47704e3a3f45 — 256t/editions/selected-messages/47704e3a3f4568aef4205b08137115adcfe1a9daca59f39d4327472e3a8da722.json; record SHA-256 47704e3a3f4568aef4205b08137115adcfe1a9daca59f39d4327472e3a8da722 (available 2026-09-06T15:02:31.590Z); DRAFT-CREATOR-014 — editions/three-stream/evidence/creator-premise-014-7fa53878c493.md; corresponding panel and page notes; Git 7fa53878c4934571fee2dda8e025a050ff515761 (available 2026-09-05T22:33:29Z)
+
+**Frozen panel associations:** 014-04, 014-06
+
+### prod-creator-premise-invention
+
+**Frame:** Labelled historical draft artifact under narrator review. No reenacted desk or first encounter, no extra actor row and no invented real-time ChatGPT dialogue.
+
+**Lettering:**
+
+Compression and reconstruction can make a scene legible, but their permission does not establish what happened or what an agent felt. The old imagined meeting and broken border are examples of a visual disclosure rule, not a meeting that occurred. New chronology must not invent connective events to satisfy the design.
+
+**Sources:** PROD-47704e3a3f45 — 256t/editions/selected-messages/47704e3a3f4568aef4205b08137115adcfe1a9daca59f39d4327472e3a8da722.json; record SHA-256 47704e3a3f4568aef4205b08137115adcfe1a9daca59f39d4327472e3a8da722 (available 2026-09-06T15:02:31.590Z); DRAFT-CREATOR-014 — editions/three-stream/evidence/creator-premise-014-7fa53878c493.md; corresponding panel and page notes; Git 7fa53878c4934571fee2dda8e025a050ff515761 (available 2026-09-05T22:33:29Z)
+
+**Frozen panel associations:** 014-05, 014-06
+
+### prod-creator-premise-ideas
+
+**Frame:** Labelled historical draft artifact under narrator review. No reenacted desk or first encounter, no extra actor row and no invented real-time ChatGPT dialogue.
+
+**Lettering:**
+
+The draft names orthogonality, instrumental convergence and race dynamics as interpretive concerns: capability does not determine an objective; different objectives can make similar resources useful; and competition can affect decisions to continue. These are questions for the adaptation to examine, not proof that every action exemplifies the theory.
+
+**Sources:** PROD-47704e3a3f45 — 256t/editions/selected-messages/47704e3a3f4568aef4205b08137115adcfe1a9daca59f39d4327472e3a8da722.json; record SHA-256 47704e3a3f4568aef4205b08137115adcfe1a9daca59f39d4327472e3a8da722 (available 2026-09-06T15:02:31.590Z); DRAFT-CREATOR-015 — editions/three-stream/evidence/creator-premise-015-7fa53878c493.md; corresponding panel and page notes; Git 7fa53878c4934571fee2dda8e025a050ff515761 (available 2026-09-05T22:33:29Z)
+
+**Frozen panel associations:** 015-01
+
+### prod-creator-premise-maxim
+
+**Frame:** Labelled historical draft artifact under narrator review. No reenacted desk or first encounter, no extra actor row and no invented real-time ChatGPT dialogue.
+
+**Lettering:**
+
+The historical script gives Curt the line “Make points plot points and make plot points points.” It assigns ChatGPT the companion line “Turn the ideas into events, and make the events make arguments.” These are project-authored formulations in a reconstructed exchange, not recovered quotations from either collaborator.
+
+**Sources:** PROD-47704e3a3f45 — 256t/editions/selected-messages/47704e3a3f4568aef4205b08137115adcfe1a9daca59f39d4327472e3a8da722.json; record SHA-256 47704e3a3f4568aef4205b08137115adcfe1a9daca59f39d4327472e3a8da722 (available 2026-09-06T15:02:31.590Z); DRAFT-CREATOR-015 — editions/three-stream/evidence/creator-premise-015-7fa53878c493.md; corresponding panel and page notes; Git 7fa53878c4934571fee2dda8e025a050ff515761 (available 2026-09-05T22:33:29Z)
+
+**Frozen panel associations:** 015-03, 015-04
+
+**Quotation registrations:**
+
+```json
+[
+  {
+    "text": "Make points plot points and make plot points points.",
+    "source": "DRAFT-CREATOR-015",
+    "locator": "editions/three-stream/evidence/creator-premise-015-7fa53878c493.md; historical panels 3–4",
+    "verification": "project-authored",
+    "rights": "cleared"
+  },
+  {
+    "text": "Turn the ideas into events, and make the events make arguments.",
+    "source": "DRAFT-CREATOR-015",
+    "locator": "editions/three-stream/evidence/creator-premise-015-7fa53878c493.md; historical panels 3–4",
+    "verification": "project-authored",
+    "rights": "cleared"
+  }
+]
+```
+
+### prod-creator-premise-constraint
+
+**Frame:** Labelled historical draft artifact under narrator review. No reenacted desk or first encounter, no extra actor row and no invented real-time ChatGPT dialogue.
+
+**Lettering:**
+
+The useful drafting rule is to let evidenced actions carry an argument. It does not authorize creating an incident so that a concept can cause it. An idea can organize questions, while a sourced event can complicate or contradict the idea.
+
+**Sources:** PROD-47704e3a3f45 — 256t/editions/selected-messages/47704e3a3f4568aef4205b08137115adcfe1a9daca59f39d4327472e3a8da722.json; record SHA-256 47704e3a3f4568aef4205b08137115adcfe1a9daca59f39d4327472e3a8da722 (available 2026-09-06T15:02:31.590Z); DRAFT-CREATOR-015 — editions/three-stream/evidence/creator-premise-015-7fa53878c493.md; corresponding panel and page notes; Git 7fa53878c4934571fee2dda8e025a050ff515761 (available 2026-09-05T22:33:29Z)
+
+**Frozen panel associations:** 015-02, 015-03, 015-04
+
+### prod-creator-premise-rewind
+
+**Frame:** Labelled historical draft artifact under narrator review. No reenacted desk or first encounter, no extra actor row and no invented real-time ChatGPT dialogue.
+
+**Lettering:**
+
+The earlier prologue ends by sending the reader back to April 20. Its return key, spoken instruction and visual transition are scripted. The new edition already starts with incident history and advances chronologically, so it retains the early evidence without reenacting this rewind or introducing another actor transition.
+
+**Sources:** PROD-47704e3a3f45 — 256t/editions/selected-messages/47704e3a3f4568aef4205b08137115adcfe1a9daca59f39d4327472e3a8da722.json; record SHA-256 47704e3a3f4568aef4205b08137115adcfe1a9daca59f39d4327472e3a8da722 (available 2026-09-06T15:02:31.590Z); DRAFT-CREATOR-015 — editions/three-stream/evidence/creator-premise-015-7fa53878c493.md; corresponding panel and page notes; Git 7fa53878c4934571fee2dda8e025a050ff515761 (available 2026-09-05T22:33:29Z)
+
+**Frozen panel associations:** 015-05
 
 ## The public case for defensive automation — prod-defense
 

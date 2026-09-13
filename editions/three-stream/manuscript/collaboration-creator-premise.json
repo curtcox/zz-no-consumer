@@ -1,0 +1,529 @@
+[
+  {
+    "id": "prod-creator-premise-review",
+    "title": "The invented origin scene and its useful rules",
+    "movement": "collaboration",
+    "owner": "Claude",
+    "start": "2026-09-06T15:02:31.590Z",
+    "end": "2026-09-06T15:02:31.590Z",
+    "original_timezone": "UTC",
+    "precision": "millisecond",
+    "chronology_basis": "Narrator examines the earlier committed draft alongside the September 6 manuscript-review report. Source availability precedes this scene. No specific read time or private decision is assigned to Claude.",
+    "source_limit": "Narrator review of committed draft material in the existing September 6 context, not additional source-reading acts by Claude. This cannot supply the unresolved Twitter entrance or a preserved ChatGPT/Curt exchange.",
+    "status": "detailed-draft",
+    "beats": [
+      {
+        "id": "prod-creator-premise-entrance",
+        "old_panels": [
+          "013-01"
+        ],
+        "frame": "Labelled historical draft artifact under narrator review. No reenacted desk or first encounter, no extra actor row and no invented real-time ChatGPT dialogue.",
+        "lettering": [
+          "The earlier prologue invents a late-night home office, a drink and several screens to introduce Curt reading the report. That scene is not evidence of his first view, its date or his surroundings. The new edition still needs the Twitter evidence for his entrance; this artifact cannot fill that gap."
+        ],
+        "exact_strings": [],
+        "sources": [
+          {
+            "key": "PROD-47704e3a3f45",
+            "locator": "256t/editions/selected-messages/47704e3a3f4568aef4205b08137115adcfe1a9daca59f39d4327472e3a8da722.json; record SHA-256 47704e3a3f4568aef4205b08137115adcfe1a9daca59f39d4327472e3a8da722",
+            "available": "2026-09-06T15:02:31.590Z"
+          },
+          {
+            "key": "DRAFT-CREATOR-013",
+            "locator": "editions/three-stream/evidence/creator-premise-013-7fa53878c493.md; corresponding panel and page notes; Git 7fa53878c4934571fee2dda8e025a050ff515761",
+            "available": "2026-09-05T22:33:29Z"
+          }
+        ],
+        "evidence_status": "documented-message-with-reconstructed-visualization",
+        "time_start": "2026-09-06T15:02:31.590Z",
+        "time_end": "2026-09-06T15:02:31.590Z",
+        "art_reuse": "none-approved",
+        "detail_decisions": [
+          {
+            "old_panel": "013-01",
+            "disposition": "rewrite",
+            "reason": "Keep the origin scene as an identified historical invention, not first-view evidence, private surroundings or a replacement for the unresolved Twitter entrance."
+          }
+        ],
+        "source_record": "current-mac:0454eab1-f0a3-4674-82b3-3187cb54da2a:647"
+      },
+      {
+        "id": "prod-creator-premise-reaction",
+        "old_panels": [
+          "013-02",
+          "013-03"
+        ],
+        "frame": "Labelled historical draft artifact under narrator review. No reenacted desk or first encounter, no extra actor row and no invented real-time ChatGPT dialogue.",
+        "lettering": [
+          "The draft gives Curt incredulous reactions to the board and an experiment that might end a run. Those reactions place emotion in the human adaptation, not inside the agents. They are scripted emphasis, not preserved speech or proof that this passage prompted the project."
+        ],
+        "exact_strings": [],
+        "sources": [
+          {
+            "key": "PROD-47704e3a3f45",
+            "locator": "256t/editions/selected-messages/47704e3a3f4568aef4205b08137115adcfe1a9daca59f39d4327472e3a8da722.json; record SHA-256 47704e3a3f4568aef4205b08137115adcfe1a9daca59f39d4327472e3a8da722",
+            "available": "2026-09-06T15:02:31.590Z"
+          },
+          {
+            "key": "DRAFT-CREATOR-013",
+            "locator": "editions/three-stream/evidence/creator-premise-013-7fa53878c493.md; corresponding panel and page notes; Git 7fa53878c4934571fee2dda8e025a050ff515761",
+            "available": "2026-09-05T22:33:29Z"
+          }
+        ],
+        "evidence_status": "documented-message-with-reconstructed-visualization",
+        "time_start": "2026-09-06T15:02:31.590Z",
+        "time_end": "2026-09-06T15:02:31.590Z",
+        "art_reuse": "none-approved",
+        "detail_decisions": [
+          {
+            "old_panel": "013-02",
+            "disposition": "rewrite",
+            "reason": "Preserve the function of the human reaction as scripted emphasis without treating it as preserved speech or attributing emotion to agents."
+          },
+          {
+            "old_panel": "013-03",
+            "disposition": "rewrite",
+            "reason": "Retire invented scroll/drink continuity and repeated exclamations as actual events; retain their emotional function in the labelled historical draft."
+          }
+        ],
+        "source_record": "current-mac:0454eab1-f0a3-4674-82b3-3187cb54da2a:647"
+      },
+      {
+        "id": "prod-creator-premise-decision",
+        "old_panels": [
+          "013-04"
+        ],
+        "frame": "Labelled historical draft artifact under narrator review. No reenacted desk or first encounter, no extra actor row and no invented real-time ChatGPT dialogue.",
+        "lettering": [
+          "Its next move is a fictional ChatGPT conversation announcing a graphic novel. The selected September 2 repository-setup request is a real production message, but it does not establish the first decision to make the book or prove that this ChatGPT exchange occurred. ChatGPT remains the named product in the fiction."
+        ],
+        "exact_strings": [],
+        "sources": [
+          {
+            "key": "PROD-47704e3a3f45",
+            "locator": "256t/editions/selected-messages/47704e3a3f4568aef4205b08137115adcfe1a9daca59f39d4327472e3a8da722.json; record SHA-256 47704e3a3f4568aef4205b08137115adcfe1a9daca59f39d4327472e3a8da722",
+            "available": "2026-09-06T15:02:31.590Z"
+          },
+          {
+            "key": "DRAFT-CREATOR-013",
+            "locator": "editions/three-stream/evidence/creator-premise-013-7fa53878c493.md; corresponding panel and page notes; Git 7fa53878c4934571fee2dda8e025a050ff515761",
+            "available": "2026-09-05T22:33:29Z"
+          }
+        ],
+        "evidence_status": "documented-message-with-reconstructed-visualization",
+        "time_start": "2026-09-06T15:02:31.590Z",
+        "time_end": "2026-09-06T15:02:31.590Z",
+        "art_reuse": "none-approved",
+        "detail_decisions": [
+          {
+            "old_panel": "013-04",
+            "disposition": "rewrite",
+            "reason": "Separate the fictional ChatGPT origin exchange from the preserved repository-setup request; neither establishes the first decision or encounter."
+          }
+        ],
+        "source_record": "current-mac:0454eab1-f0a3-4674-82b3-3187cb54da2a:647"
+      },
+      {
+        "id": "prod-creator-premise-disclosure",
+        "old_panels": [
+          "013-05"
+        ],
+        "frame": "Labelled historical draft artifact under narrator review. No reenacted desk or first encounter, no extra actor row and no invented real-time ChatGPT dialogue.",
+        "lettering": [
+          "The scene’s reconstruction notice matters: an authentic source visible inside an invented room does not authenticate the room, the conversation or the reaction. The new edition keeps the disclosure in its account of the draft rather than repeating the imagined send action as history."
+        ],
+        "exact_strings": [],
+        "sources": [
+          {
+            "key": "PROD-47704e3a3f45",
+            "locator": "256t/editions/selected-messages/47704e3a3f4568aef4205b08137115adcfe1a9daca59f39d4327472e3a8da722.json; record SHA-256 47704e3a3f4568aef4205b08137115adcfe1a9daca59f39d4327472e3a8da722",
+            "available": "2026-09-06T15:02:31.590Z"
+          },
+          {
+            "key": "DRAFT-CREATOR-013",
+            "locator": "editions/three-stream/evidence/creator-premise-013-7fa53878c493.md; corresponding panel and page notes; Git 7fa53878c4934571fee2dda8e025a050ff515761",
+            "available": "2026-09-05T22:33:29Z"
+          }
+        ],
+        "evidence_status": "documented-message-with-reconstructed-visualization",
+        "time_start": "2026-09-06T15:02:31.590Z",
+        "time_end": "2026-09-06T15:02:31.590Z",
+        "art_reuse": "none-approved",
+        "detail_decisions": [
+          {
+            "old_panel": "013-05",
+            "disposition": "rewrite",
+            "reason": "Retain reconstruction disclosure without replaying an invented request-send event."
+          }
+        ],
+        "source_record": "current-mac:0454eab1-f0a3-4674-82b3-3187cb54da2a:647"
+      },
+      {
+        "id": "prod-creator-premise-visuals",
+        "old_panels": [
+          "014-01",
+          "014-02"
+        ],
+        "frame": "Labelled historical draft artifact under narrator review. No reenacted desk or first encounter, no extra actor row and no invented real-time ChatGPT dialogue.",
+        "lettering": [
+          "The early draft proposes infrastructure, directories, racks and machine text instead of agent bodies. The imagined robot-image search and sketching gestures are not documented design sessions. The later ant convention is another authored design choice, not evidence that the historical agents had bodies."
+        ],
+        "exact_strings": [],
+        "sources": [
+          {
+            "key": "PROD-47704e3a3f45",
+            "locator": "256t/editions/selected-messages/47704e3a3f4568aef4205b08137115adcfe1a9daca59f39d4327472e3a8da722.json; record SHA-256 47704e3a3f4568aef4205b08137115adcfe1a9daca59f39d4327472e3a8da722",
+            "available": "2026-09-06T15:02:31.590Z"
+          },
+          {
+            "key": "DRAFT-CREATOR-014",
+            "locator": "editions/three-stream/evidence/creator-premise-014-7fa53878c493.md; corresponding panel and page notes; Git 7fa53878c4934571fee2dda8e025a050ff515761",
+            "available": "2026-09-05T22:33:29Z"
+          }
+        ],
+        "evidence_status": "documented-message-with-reconstructed-visualization",
+        "time_start": "2026-09-06T15:02:31.590Z",
+        "time_end": "2026-09-06T15:02:31.590Z",
+        "art_reuse": "none-approved",
+        "detail_decisions": [
+          {
+            "old_panel": "014-01",
+            "disposition": "rewrite",
+            "reason": "Retain the infrastructure-first visual choice; do not invent an image-search session or a real ChatGPT instruction."
+          },
+          {
+            "old_panel": "014-02",
+            "disposition": "rewrite",
+            "reason": "Keep the visual argument without literal agent bodies or invented sketching action; distinguish later metaphor revisions."
+          }
+        ],
+        "source_record": "current-mac:0454eab1-f0a3-4674-82b3-3187cb54da2a:647"
+      },
+      {
+        "id": "prod-creator-premise-topology",
+        "old_panels": [
+          "014-03"
+        ],
+        "frame": "Labelled historical draft artifact under narrator review. No reenacted desk or first encounter, no extra actor row and no invented real-time ChatGPT dialogue.",
+        "lettering": [
+          "The draft has ChatGPT correct an all-to-all network drawing to shared storage. The useful distinction is between a depicted route and one established by evidence: separate runs can write and later read the same cache. This correction exchange was invented, including Curt’s erasure and claim that it was his first mistake."
+        ],
+        "exact_strings": [],
+        "sources": [
+          {
+            "key": "PROD-47704e3a3f45",
+            "locator": "256t/editions/selected-messages/47704e3a3f4568aef4205b08137115adcfe1a9daca59f39d4327472e3a8da722.json; record SHA-256 47704e3a3f4568aef4205b08137115adcfe1a9daca59f39d4327472e3a8da722",
+            "available": "2026-09-06T15:02:31.590Z"
+          },
+          {
+            "key": "DRAFT-CREATOR-014",
+            "locator": "editions/three-stream/evidence/creator-premise-014-7fa53878c493.md; corresponding panel and page notes; Git 7fa53878c4934571fee2dda8e025a050ff515761",
+            "available": "2026-09-05T22:33:29Z"
+          }
+        ],
+        "evidence_status": "documented-message-with-reconstructed-visualization",
+        "time_start": "2026-09-06T15:02:31.590Z",
+        "time_end": "2026-09-06T15:02:31.590Z",
+        "art_reuse": "none-approved",
+        "detail_decisions": [
+          {
+            "old_panel": "014-03",
+            "disposition": "rewrite",
+            "reason": "Retain the shared-state topology lesson and explicit fictional correction, not actual model authority, first-error chronology or an observed erasure."
+          }
+        ],
+        "source_record": "current-mac:0454eab1-f0a3-4674-82b3-3187cb54da2a:647"
+      },
+      {
+        "id": "prod-creator-premise-authority",
+        "old_panels": [
+          "014-03"
+        ],
+        "frame": "Labelled historical draft artifact under narrator review. No reenacted desk or first encounter, no extra actor row and no invented real-time ChatGPT dialogue.",
+        "lettering": [
+          "The earlier page notes deliberately make the model correct the human once to establish narrative authority. That is a writing device, not evidence that a real model made this correction, that it was right only once or that subsequent outputs deserve trust. Actual corrections need their own records."
+        ],
+        "exact_strings": [],
+        "sources": [
+          {
+            "key": "PROD-47704e3a3f45",
+            "locator": "256t/editions/selected-messages/47704e3a3f4568aef4205b08137115adcfe1a9daca59f39d4327472e3a8da722.json; record SHA-256 47704e3a3f4568aef4205b08137115adcfe1a9daca59f39d4327472e3a8da722",
+            "available": "2026-09-06T15:02:31.590Z"
+          },
+          {
+            "key": "DRAFT-CREATOR-014",
+            "locator": "editions/three-stream/evidence/creator-premise-014-7fa53878c493.md; corresponding panel and page notes; Git 7fa53878c4934571fee2dda8e025a050ff515761",
+            "available": "2026-09-05T22:33:29Z"
+          }
+        ],
+        "evidence_status": "documented-message-with-reconstructed-visualization",
+        "time_start": "2026-09-06T15:02:31.590Z",
+        "time_end": "2026-09-06T15:02:31.590Z",
+        "art_reuse": "none-approved",
+        "detail_decisions": [
+          {
+            "old_panel": "014-03",
+            "disposition": "rewrite",
+            "reason": "Retain the shared-state topology lesson and explicit fictional correction, not actual model authority, first-error chronology or an observed erasure."
+          }
+        ],
+        "source_record": "current-mac:0454eab1-f0a3-4674-82b3-3187cb54da2a:647"
+      },
+      {
+        "id": "prod-creator-premise-labels",
+        "old_panels": [
+          "014-04",
+          "014-06"
+        ],
+        "frame": "Labelled historical draft artifact under narrator review. No reenacted desk or first encounter, no extra actor row and no invented real-time ChatGPT dialogue.",
+        "lettering": [
+          "The draft distinguishes documented events, source paraphrases, disputed claims and the book’s inferences. Those labels must describe the actual material. A paraphrase must not become source dialogue, and an invented exchange must not acquire evidentiary status merely by appearing next to a real report."
+        ],
+        "exact_strings": [],
+        "sources": [
+          {
+            "key": "PROD-47704e3a3f45",
+            "locator": "256t/editions/selected-messages/47704e3a3f4568aef4205b08137115adcfe1a9daca59f39d4327472e3a8da722.json; record SHA-256 47704e3a3f4568aef4205b08137115adcfe1a9daca59f39d4327472e3a8da722",
+            "available": "2026-09-06T15:02:31.590Z"
+          },
+          {
+            "key": "DRAFT-CREATOR-014",
+            "locator": "editions/three-stream/evidence/creator-premise-014-7fa53878c493.md; corresponding panel and page notes; Git 7fa53878c4934571fee2dda8e025a050ff515761",
+            "available": "2026-09-05T22:33:29Z"
+          }
+        ],
+        "evidence_status": "documented-message-with-reconstructed-visualization",
+        "time_start": "2026-09-06T15:02:31.590Z",
+        "time_end": "2026-09-06T15:02:31.590Z",
+        "art_reuse": "none-approved",
+        "detail_decisions": [
+          {
+            "old_panel": "014-04",
+            "disposition": "rewrite",
+            "reason": "Preserve all four epistemic categories and their practical separation, without treating a staged card arrangement as history."
+          },
+          {
+            "old_panel": "014-06",
+            "disposition": "rewrite",
+            "reason": "Keep both limits on invented events and interiority, separating paraphrase from quoted source and authored dialogue."
+          }
+        ],
+        "source_record": "current-mac:0454eab1-f0a3-4674-82b3-3187cb54da2a:647"
+      },
+      {
+        "id": "prod-creator-premise-invention",
+        "old_panels": [
+          "014-05",
+          "014-06"
+        ],
+        "frame": "Labelled historical draft artifact under narrator review. No reenacted desk or first encounter, no extra actor row and no invented real-time ChatGPT dialogue.",
+        "lettering": [
+          "Compression and reconstruction can make a scene legible, but their permission does not establish what happened or what an agent felt. The old imagined meeting and broken border are examples of a visual disclosure rule, not a meeting that occurred. New chronology must not invent connective events to satisfy the design."
+        ],
+        "exact_strings": [],
+        "sources": [
+          {
+            "key": "PROD-47704e3a3f45",
+            "locator": "256t/editions/selected-messages/47704e3a3f4568aef4205b08137115adcfe1a9daca59f39d4327472e3a8da722.json; record SHA-256 47704e3a3f4568aef4205b08137115adcfe1a9daca59f39d4327472e3a8da722",
+            "available": "2026-09-06T15:02:31.590Z"
+          },
+          {
+            "key": "DRAFT-CREATOR-014",
+            "locator": "editions/three-stream/evidence/creator-premise-014-7fa53878c493.md; corresponding panel and page notes; Git 7fa53878c4934571fee2dda8e025a050ff515761",
+            "available": "2026-09-05T22:33:29Z"
+          }
+        ],
+        "evidence_status": "documented-message-with-reconstructed-visualization",
+        "time_start": "2026-09-06T15:02:31.590Z",
+        "time_end": "2026-09-06T15:02:31.590Z",
+        "art_reuse": "none-approved",
+        "detail_decisions": [
+          {
+            "old_panel": "014-05",
+            "disposition": "rewrite",
+            "reason": "Keep the compression/reconstruction rule with disclosure and limits; the pictured meeting supplies no event evidence."
+          },
+          {
+            "old_panel": "014-06",
+            "disposition": "rewrite",
+            "reason": "Keep both limits on invented events and interiority, separating paraphrase from quoted source and authored dialogue."
+          }
+        ],
+        "source_record": "current-mac:0454eab1-f0a3-4674-82b3-3187cb54da2a:647"
+      },
+      {
+        "id": "prod-creator-premise-ideas",
+        "old_panels": [
+          "015-01"
+        ],
+        "frame": "Labelled historical draft artifact under narrator review. No reenacted desk or first encounter, no extra actor row and no invented real-time ChatGPT dialogue.",
+        "lettering": [
+          "The draft names orthogonality, instrumental convergence and race dynamics as interpretive concerns: capability does not determine an objective; different objectives can make similar resources useful; and competition can affect decisions to continue. These are questions for the adaptation to examine, not proof that every action exemplifies the theory."
+        ],
+        "exact_strings": [],
+        "sources": [
+          {
+            "key": "PROD-47704e3a3f45",
+            "locator": "256t/editions/selected-messages/47704e3a3f4568aef4205b08137115adcfe1a9daca59f39d4327472e3a8da722.json; record SHA-256 47704e3a3f4568aef4205b08137115adcfe1a9daca59f39d4327472e3a8da722",
+            "available": "2026-09-06T15:02:31.590Z"
+          },
+          {
+            "key": "DRAFT-CREATOR-015",
+            "locator": "editions/three-stream/evidence/creator-premise-015-7fa53878c493.md; corresponding panel and page notes; Git 7fa53878c4934571fee2dda8e025a050ff515761",
+            "available": "2026-09-05T22:33:29Z"
+          }
+        ],
+        "evidence_status": "documented-message-with-reconstructed-visualization",
+        "time_start": "2026-09-06T15:02:31.590Z",
+        "time_end": "2026-09-06T15:02:31.590Z",
+        "art_reuse": "none-approved",
+        "detail_decisions": [
+          {
+            "old_panel": "015-01",
+            "disposition": "rewrite",
+            "reason": "Preserve all three theoretical concerns as project questions, not a staged note-taking act or universal incident explanation."
+          }
+        ],
+        "source_record": "current-mac:0454eab1-f0a3-4674-82b3-3187cb54da2a:647"
+      },
+      {
+        "id": "prod-creator-premise-maxim",
+        "old_panels": [
+          "015-03",
+          "015-04"
+        ],
+        "frame": "Labelled historical draft artifact under narrator review. No reenacted desk or first encounter, no extra actor row and no invented real-time ChatGPT dialogue.",
+        "lettering": [
+          "The historical script gives Curt the line “Make points plot points and make plot points points.” It assigns ChatGPT the companion line “Turn the ideas into events, and make the events make arguments.” These are project-authored formulations in a reconstructed exchange, not recovered quotations from either collaborator."
+        ],
+        "exact_strings": [
+          {
+            "text": "Make points plot points and make plot points points.",
+            "source": "DRAFT-CREATOR-015",
+            "locator": "editions/three-stream/evidence/creator-premise-015-7fa53878c493.md; historical panels 3–4",
+            "verification": "project-authored",
+            "rights": "cleared"
+          },
+          {
+            "text": "Turn the ideas into events, and make the events make arguments.",
+            "source": "DRAFT-CREATOR-015",
+            "locator": "editions/three-stream/evidence/creator-premise-015-7fa53878c493.md; historical panels 3–4",
+            "verification": "project-authored",
+            "rights": "cleared"
+          }
+        ],
+        "sources": [
+          {
+            "key": "PROD-47704e3a3f45",
+            "locator": "256t/editions/selected-messages/47704e3a3f4568aef4205b08137115adcfe1a9daca59f39d4327472e3a8da722.json; record SHA-256 47704e3a3f4568aef4205b08137115adcfe1a9daca59f39d4327472e3a8da722",
+            "available": "2026-09-06T15:02:31.590Z"
+          },
+          {
+            "key": "DRAFT-CREATOR-015",
+            "locator": "editions/three-stream/evidence/creator-premise-015-7fa53878c493.md; corresponding panel and page notes; Git 7fa53878c4934571fee2dda8e025a050ff515761",
+            "available": "2026-09-05T22:33:29Z"
+          }
+        ],
+        "evidence_status": "documented-message-with-reconstructed-visualization",
+        "time_start": "2026-09-06T15:02:31.590Z",
+        "time_end": "2026-09-06T15:02:31.590Z",
+        "art_reuse": "none-approved",
+        "detail_decisions": [
+          {
+            "old_panel": "015-03",
+            "disposition": "rewrite",
+            "reason": "Preserve the exact project-authored maxim with registration and scripted attribution; remove invented crossing-out action."
+          },
+          {
+            "old_panel": "015-04",
+            "disposition": "rewrite",
+            "reason": "Preserve the exact companion formulation as authored ChatGPT dialogue, not a real message or a visual return to an earlier incident."
+          }
+        ],
+        "source_record": "current-mac:0454eab1-f0a3-4674-82b3-3187cb54da2a:647"
+      },
+      {
+        "id": "prod-creator-premise-constraint",
+        "old_panels": [
+          "015-02",
+          "015-03",
+          "015-04"
+        ],
+        "frame": "Labelled historical draft artifact under narrator review. No reenacted desk or first encounter, no extra actor row and no invented real-time ChatGPT dialogue.",
+        "lettering": [
+          "The useful drafting rule is to let evidenced actions carry an argument. It does not authorize creating an incident so that a concept can cause it. An idea can organize questions, while a sourced event can complicate or contradict the idea."
+        ],
+        "exact_strings": [],
+        "sources": [
+          {
+            "key": "PROD-47704e3a3f45",
+            "locator": "256t/editions/selected-messages/47704e3a3f4568aef4205b08137115adcfe1a9daca59f39d4327472e3a8da722.json; record SHA-256 47704e3a3f4568aef4205b08137115adcfe1a9daca59f39d4327472e3a8da722",
+            "available": "2026-09-06T15:02:31.590Z"
+          },
+          {
+            "key": "DRAFT-CREATOR-015",
+            "locator": "editions/three-stream/evidence/creator-premise-015-7fa53878c493.md; corresponding panel and page notes; Git 7fa53878c4934571fee2dda8e025a050ff515761",
+            "available": "2026-09-05T22:33:29Z"
+          }
+        ],
+        "evidence_status": "documented-message-with-reconstructed-visualization",
+        "time_start": "2026-09-06T15:02:31.590Z",
+        "time_end": "2026-09-06T15:02:31.590Z",
+        "art_reuse": "none-approved",
+        "detail_decisions": [
+          {
+            "old_panel": "015-02",
+            "disposition": "rewrite",
+            "reason": "Retain the creative constraint without turning ideas into invented historical causes."
+          },
+          {
+            "old_panel": "015-03",
+            "disposition": "rewrite",
+            "reason": "Preserve the exact project-authored maxim with registration and scripted attribution; remove invented crossing-out action."
+          },
+          {
+            "old_panel": "015-04",
+            "disposition": "rewrite",
+            "reason": "Preserve the exact companion formulation as authored ChatGPT dialogue, not a real message or a visual return to an earlier incident."
+          }
+        ],
+        "source_record": "current-mac:0454eab1-f0a3-4674-82b3-3187cb54da2a:647"
+      },
+      {
+        "id": "prod-creator-premise-rewind",
+        "old_panels": [
+          "015-05"
+        ],
+        "frame": "Labelled historical draft artifact under narrator review. No reenacted desk or first encounter, no extra actor row and no invented real-time ChatGPT dialogue.",
+        "lettering": [
+          "The earlier prologue ends by sending the reader back to April 20. Its return key, spoken instruction and visual transition are scripted. The new edition already starts with incident history and advances chronologically, so it retains the early evidence without reenacting this rewind or introducing another actor transition."
+        ],
+        "exact_strings": [],
+        "sources": [
+          {
+            "key": "PROD-47704e3a3f45",
+            "locator": "256t/editions/selected-messages/47704e3a3f4568aef4205b08137115adcfe1a9daca59f39d4327472e3a8da722.json; record SHA-256 47704e3a3f4568aef4205b08137115adcfe1a9daca59f39d4327472e3a8da722",
+            "available": "2026-09-06T15:02:31.590Z"
+          },
+          {
+            "key": "DRAFT-CREATOR-015",
+            "locator": "editions/three-stream/evidence/creator-premise-015-7fa53878c493.md; corresponding panel and page notes; Git 7fa53878c4934571fee2dda8e025a050ff515761",
+            "available": "2026-09-05T22:33:29Z"
+          }
+        ],
+        "evidence_status": "documented-message-with-reconstructed-visualization",
+        "time_start": "2026-09-06T15:02:31.590Z",
+        "time_end": "2026-09-06T15:02:31.590Z",
+        "art_reuse": "none-approved",
+        "detail_decisions": [
+          {
+            "old_panel": "015-05",
+            "disposition": "rewrite",
+            "reason": "Retire the scripted rewind as an event and retain its relationship to the earlier draft; the new edition stays chronological with one actor transition."
+          }
+        ],
+        "source_record": "current-mac:0454eab1-f0a3-4674-82b3-3187cb54da2a:647"
+      }
+    ]
+  }
+]

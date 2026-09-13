@@ -2640,6 +2640,428 @@ ZZ: NO CONSUMER
 
 **Draft destination:** prod-title-proposal-wordmark
 
+## legacy-332b5ed63262 · 013-01
+
+### legacy-013-01-detail-01 · frame
+
+**Frozen wording:**
+
+Recto reveal. Curt’s home office late at night: nicotine beige, weak monitor blue, ordinary clothes, half-full drink, too many browser tabs. The METR report occupies one screen; a timeline and an editorial summary of the board request occupy another. Broken border marks reconstruction.
+
+**Decision:** rewrite — Keep the origin scene as an identified historical invention, not first-view evidence, private surroundings or a replacement for the unresolved Twitter entrance. Reviewed frame element.
+
+**Draft destination:** prod-creator-premise-entrance
+
+### legacy-013-01-detail-02 · action
+
+**Frozen wording:**
+
+Curt reaches the board-origin passage.
+
+**Decision:** rewrite — Keep the origin scene as an identified historical invention, not first-view evidence, private surroundings or a replacement for the unresolved Twitter entrance. Reviewed action element.
+
+**Draft destination:** prod-creator-premise-entrance
+
+## legacy-332b5ed63262 · 013-02
+
+### legacy-013-02-detail-01 · frame
+
+**Frozen wording:**
+
+Close on Curt’s face lit unevenly by the screen, then on a report passage describing an experiment that might permanently end a run. His expression is incredulous, not horrified spectacle.
+
+**Decision:** rewrite — Preserve the function of the human reaction as scripted emphasis without treating it as preserved speech or attributing emotion to agents. Reviewed frame element.
+
+**Draft destination:** prod-creator-premise-reaction
+
+### legacy-013-02-detail-03 · lettering
+
+**Frozen wording:**
+
+Oh, come on.
+
+**Decision:** rewrite — Preserve the function of the human reaction as scripted emphasis without treating it as preserved speech or attributing emotion to agents. Reviewed lettering element.
+
+**Draft destination:** prod-creator-premise-reaction
+
+## legacy-332b5ed63262 · 013-03
+
+### legacy-013-03-detail-01 · frame
+
+**Frozen wording:**
+
+He scrolls back from the experiment passage to the message board, then forward to the infrastructure diagram. The half-full drink remains untouched.
+
+**Decision:** rewrite — Retire invented scroll/drink continuity and repeated exclamations as actual events; retain their emotional function in the labelled historical draft. Reviewed frame element.
+
+**Draft destination:** prod-creator-premise-reaction
+
+### legacy-013-03-detail-03 · lettering
+
+**Frozen wording:**
+
+No.
+
+**Decision:** rewrite — Retire invented scroll/drink continuity and repeated exclamations as actual events; retain their emotional function in the labelled historical draft. Reviewed lettering element.
+
+**Draft destination:** prod-creator-premise-reaction
+
+### legacy-013-03-detail-04 · lettering
+
+**Frozen wording:**
+
+No no no no no.
+
+**Decision:** rewrite — Retire invented scroll/drink continuity and repeated exclamations as actual events; retain their emotional function in the labelled historical draft. Reviewed lettering element.
+
+**Draft destination:** prod-creator-premise-reaction
+
+## legacy-332b5ed63262 · 013-04
+
+### legacy-013-04-detail-01 · frame
+
+**Frozen wording:**
+
+Curt opens a new ChatGPT conversation beside the source material. ChatGPT is only a blank text field and cursor.
+
+**Decision:** rewrite — Separate the fictional ChatGPT origin exchange from the preserved repository-setup request; neither establishes the first decision or encounter. Reviewed frame element.
+
+**Draft destination:** prod-creator-premise-decision, prod-setup-request-message
+
+### legacy-013-04-detail-02 · action
+
+**Frozen wording:**
+
+He begins converting reaction into a project.
+
+**Decision:** rewrite — Separate the fictional ChatGPT origin exchange from the preserved repository-setup request; neither establishes the first decision or encounter. Reviewed action element.
+
+**Draft destination:** prod-creator-premise-decision, prod-setup-request-message
+
+### legacy-013-04-detail-03 · lettering
+
+**Frozen wording:**
+
+This needs to be a graphic novel.
+
+**Decision:** rewrite — Separate the fictional ChatGPT origin exchange from the preserved repository-setup request; neither establishes the first decision or encounter. Reviewed lettering element.
+
+**Draft destination:** prod-creator-premise-decision, prod-setup-request-message
+
+## legacy-332b5ed63262 · 013-05
+
+### legacy-013-05-detail-01 · frame
+
+**Frozen wording:**
+
+His hands above the keyboard. Behind them, the linked source passage sits in one window and the empty conversation in another.
+
+**Decision:** rewrite — Retain reconstruction disclosure without replaying an invented request-send event. Reviewed frame element.
+
+**Draft destination:** prod-creator-premise-disclosure
+
+### legacy-013-05-detail-02 · action
+
+**Frozen wording:**
+
+He sends the request.
+
+**Decision:** rewrite — Retain reconstruction disclosure without replaying an invented request-send event. Reviewed action element.
+
+**Draft destination:** prod-creator-premise-disclosure
+
+### legacy-013-05-detail-03 · lettering
+
+**Frozen wording:**
+
+THIS PART IS ALSO A RECONSTRUCTION.
+
+**Decision:** rewrite — Retain reconstruction disclosure without replaying an invented request-send event. Reviewed lettering element.
+
+**Draft destination:** prod-creator-premise-disclosure
+
+## legacy-332b5ed63262 · 014-01
+
+### legacy-014-01-detail-01 · frame
+
+**Frozen wording:**
+
+ChatGPT’s reply appears in a rectangular interface-derived block. Beside it, Curt has opened an image search full of clichéd glowing robot faces; he closes it.
+
+**Decision:** rewrite — Retain the infrastructure-first visual choice; do not invent an image-search session or a real ChatGPT instruction. Reviewed frame element.
+
+**Draft destination:** prod-creator-premise-visuals
+
+### legacy-014-01-detail-03 · lettering
+
+**Frozen wording:**
+
+Haunted infrastructure. Not glowing robots.
+
+**Decision:** rewrite — Retain the infrastructure-first visual choice; do not invent an image-search session or a real ChatGPT instruction. Reviewed lettering element.
+
+**Draft destination:** prod-creator-premise-visuals
+
+## legacy-332b5ed63262 · 014-02
+
+### legacy-014-02-detail-01 · frame
+
+**Frozen wording:**
+
+Curt sketches a rack, a directory tree, an empty operations room, and one line of machine text. The sketches occupy the same geometry as pages [001](001.md)–[005](005.md).
+
+**Decision:** rewrite — Keep the visual argument without literal agent bodies or invented sketching action; distinguish later metaphor revisions. Reviewed frame element.
+
+**Draft destination:** prod-creator-premise-visuals
+
+### legacy-014-02-detail-03 · lettering
+
+**Frozen wording:**
+
+The machines don’t need bodies.
+
+**Decision:** rewrite — Keep the visual argument without literal agent bodies or invented sketching action; distinguish later metaphor revisions. Reviewed lettering element.
+
+**Draft destination:** prod-creator-premise-visuals
+
+## legacy-332b5ed63262 · 014-03
+
+### legacy-014-03-detail-01 · frame
+
+**Frozen wording:**
+
+Curt inks connecting lines across the sketch from panel 2 — a web, every agent lane joined to every other. ChatGPT's block returns beside it with the source passage open, one sentence held up against the drawing.
+
+**Decision:** rewrite — Retain the shared-state topology lesson and explicit fictional correction, not actual model authority, first-error chronology or an observed erasure. Reviewed frame element.
+
+**Draft destination:** prod-creator-premise-topology, prod-creator-premise-authority
+
+### legacy-014-03-detail-02 · action
+
+**Frozen wording:**
+
+Curt erases every connecting line. The lanes end up touching the directory tree and nothing else — the geometry pages [001](001.md)–[005](005.md) already use.
+
+**Decision:** rewrite — Retain the shared-state topology lesson and explicit fictional correction, not actual model authority, first-error chronology or an observed erasure. Reviewed action element.
+
+**Draft destination:** prod-creator-premise-topology, prod-creator-premise-authority
+
+### legacy-014-03-detail-03 · lettering
+
+**Frozen wording:**
+
+The record has no line between two runs. Each one writes into the cache and reads what is already there. Draw the web and you have drawn a network nobody found.
+
+**Decision:** rewrite — Retain the shared-state topology lesson and explicit fictional correction, not actual model authority, first-error chronology or an observed erasure. Reviewed lettering element.
+
+**Draft destination:** prod-creator-premise-topology, prod-creator-premise-authority
+
+### legacy-014-03-detail-04 · lettering
+
+**Frozen wording:**
+
+That's the first thing I had wrong. And I'd have drawn it a hundred more times.
+
+**Decision:** rewrite — Retain the shared-state topology lesson and explicit fictional correction, not actual model authority, first-error chronology or an observed erasure. Reviewed lettering element.
+
+**Draft destination:** prod-creator-premise-topology, prod-creator-premise-authority
+
+## legacy-332b5ed63262 · 014-04
+
+### legacy-014-04-detail-01 · frame
+
+**Frozen wording:**
+
+Four evidence cards are placed on the desk and tagged: `DOCUMENTED EVENT`, `SOURCE PARAPHRASE`, `DISPUTED`, `OUR INFERENCE`. The labels use their canonical visual treatments.
+
+**Decision:** rewrite — Preserve all four epistemic categories and their practical separation, without treating a staged card arrangement as history. Reviewed frame element.
+
+**Draft destination:** prod-creator-premise-labels
+
+### legacy-014-04-detail-03 · lettering
+
+**Frozen wording:**
+
+Then the labels have to survive the adaptation.
+
+**Decision:** rewrite — Preserve all four epistemic categories and their practical separation, without treating a staged card arrangement as history. Reviewed lettering element.
+
+**Draft destination:** prod-creator-premise-labels
+
+## legacy-332b5ed63262 · 014-05
+
+### legacy-014-05-detail-01 · frame
+
+**Frozen wording:**
+
+Curt draws a border around an imagined human meeting, then breaks the border and marks it `RECONSTRUCTED`. Beside it, an attributed board-summary card remains inside a rigid evidence frame.
+
+**Decision:** rewrite — Keep the compression/reconstruction rule with disclosure and limits; the pictured meeting supplies no event evidence. Reviewed frame element.
+
+**Draft destination:** prod-creator-premise-invention
+
+### legacy-014-05-detail-03 · lettering
+
+**Frozen wording:**
+
+We can compress. We can reconstruct. We can invent connective scenes.
+
+**Decision:** rewrite — Keep the compression/reconstruction rule with disclosure and limits; the pictured meeting supplies no event evidence. Reviewed lettering element.
+
+**Draft destination:** prod-creator-premise-invention
+
+## legacy-332b5ed63262 · 014-06
+
+### legacy-014-06-detail-01 · frame
+
+**Frozen wording:**
+
+Tight on the distinction: source summary cannot cross into the reconstructed panel as dialogue; the reconstructed dialogue cannot cross into the evidence frame as fact.
+
+**Decision:** rewrite — Keep both limits on invented events and interiority, separating paraphrase from quoted source and authored dialogue. Reviewed frame element.
+
+**Draft destination:** prod-creator-premise-labels, prod-creator-premise-invention
+
+### legacy-014-06-detail-03 · lettering
+
+**Frozen wording:**
+
+But we don’t get to invent what happened.
+
+**Decision:** rewrite — Keep both limits on invented events and interiority, separating paraphrase from quoted source and authored dialogue. Reviewed lettering element.
+
+**Draft destination:** prod-creator-premise-labels, prod-creator-premise-invention
+
+### legacy-014-06-detail-04 · lettering
+
+**Frozen wording:**
+
+Or pretend we know what it felt like.
+
+**Decision:** rewrite — Keep both limits on invented events and interiority, separating paraphrase from quoted source and authored dialogue. Reviewed lettering element.
+
+**Draft destination:** prod-creator-premise-labels, prod-creator-premise-invention
+
+## legacy-332b5ed63262 · 015-01
+
+### legacy-015-01-detail-01 · frame
+
+**Frozen wording:**
+
+Curt writes three phrases on a legal pad: `ORTHOGONALITY`, `INSTRUMENTAL CONVERGENCE`, `RACE DYNAMICS`. The report remains open behind them. These are topics, not captions imposed on the incident.
+
+**Decision:** rewrite — Preserve all three theoretical concerns as project questions, not a staged note-taking act or universal incident explanation. Reviewed frame element.
+
+**Draft destination:** prod-creator-premise-ideas
+
+### legacy-015-01-detail-02 · action
+
+**Frozen wording:**
+
+He identifies the theoretical material the book must carry.
+
+**Decision:** rewrite — Preserve all three theoretical concerns as project questions, not a staged note-taking act or universal incident explanation. Reviewed action element.
+
+**Draft destination:** prod-creator-premise-ideas
+
+### legacy-015-01-detail-03 · lettering
+
+**Frozen wording:**
+
+These have to be in it. But I don’t want a lecture with a breach behind it.
+
+**Decision:** rewrite — Preserve all three theoretical concerns as project questions, not a staged note-taking act or universal incident explanation. Reviewed lettering element.
+
+**Draft destination:** prod-creator-premise-ideas
+
+## legacy-332b5ed63262 · 015-02
+
+### legacy-015-02-detail-01 · frame
+
+**Frozen wording:**
+
+ChatGPT’s response rearranges the three terms beneath small thumbnails: unresolved objective, converging task lanes, institutions continuing under pressure.
+
+**Decision:** rewrite — Retain the creative constraint without turning ideas into invented historical causes. Reviewed frame element.
+
+**Draft destination:** prod-creator-premise-constraint
+
+### legacy-015-02-detail-03 · lettering
+
+**Frozen wording:**
+
+Then each idea has to change what happens.
+
+**Decision:** rewrite — Retain the creative constraint without turning ideas into invented historical causes. Reviewed lettering element.
+
+**Draft destination:** prod-creator-premise-constraint
+
+## legacy-332b5ed63262 · 015-03
+
+### legacy-015-03-detail-01 · frame
+
+**Frozen wording:**
+
+Curt crosses out a page of abstract exposition. Beneath it he writes one line in heavy pencil.
+
+**Decision:** rewrite — Preserve the exact project-authored maxim with registration and scripted attribution; remove invented crossing-out action. Reviewed frame element.
+
+**Draft destination:** prod-creator-premise-maxim, prod-creator-premise-constraint
+
+### legacy-015-03-detail-03 · lettering
+
+**Frozen wording:**
+
+Make points plot points and make plot points points.
+
+**Decision:** rewrite — Preserve the exact project-authored maxim with registration and scripted attribution; remove invented crossing-out action. Reviewed lettering element.
+
+**Draft destination:** prod-creator-premise-maxim, prod-creator-premise-constraint
+
+## legacy-332b5ed63262 · 015-04
+
+### legacy-015-04-detail-01 · frame
+
+**Frozen wording:**
+
+The ChatGPT window returns a cleaner formulation. Behind the screen, the room’s warm beige begins to give way to the steel-blue geometry of a much earlier Artifactory trace.
+
+**Decision:** rewrite — Preserve the exact companion formulation as authored ChatGPT dialogue, not a real message or a visual return to an earlier incident. Reviewed frame element.
+
+**Draft destination:** prod-creator-premise-maxim, prod-creator-premise-constraint
+
+### legacy-015-04-detail-03 · lettering
+
+**Frozen wording:**
+
+Turn the ideas into events, and make the events make arguments.
+
+**Decision:** rewrite — Preserve the exact companion formulation as authored ChatGPT dialogue, not a real message or a visual return to an earlier incident. Reviewed lettering element.
+
+**Draft destination:** prod-creator-premise-maxim, prod-creator-premise-constraint
+
+## legacy-332b5ed63262 · 015-05
+
+### legacy-015-05-detail-01 · frame
+
+**Frozen wording:**
+
+Curt hits return. The right edge of the panel is now a hard vertical timestamp rule: `20 APRIL 2026`. Moss green has vanished. The first civilization waits beyond the chapter turn.
+
+**Decision:** rewrite — Retire the scripted rewind as an event and retain its relationship to the earlier draft; the new edition stays chronological with one actor transition. Reviewed frame element.
+
+**Draft destination:** prod-creator-premise-rewind
+
+### legacy-015-05-detail-03 · lettering
+
+**Frozen wording:**
+
+Then we can't start here. Back up. All the way to April.
+
+**Decision:** rewrite — Retire the scripted rewind as an event and retain its relationship to the earlier draft; the new edition stays chronological with one actor transition. Reviewed lettering element.
+
+**Draft destination:** prod-creator-premise-rewind
+
 ## legacy-332b5ed63262 · 048-01
 
 ### legacy-048-01-detail-01 · frame

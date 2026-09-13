@@ -11104,5 +11104,629 @@
         }
       }
     ]
+  },
+  {
+    "old_panel": "013-01",
+    "old_edition": "legacy-332b5ed63262",
+    "reviewed_on": "2026-09-13",
+    "status": "elements-reviewed",
+    "elements": [
+      {
+        "id": "legacy-013-01-detail-01",
+        "original_sha256": "612db9b1f2c140a7a2a32ad635351495fc9de3c62bd591b32e8a3a4bcdd9e951",
+        "disposition": "rewrite",
+        "beats": [
+          "prod-creator-premise-entrance"
+        ],
+        "reason": "Keep the origin scene as an identified historical invention, not first-view evidence, private surroundings or a replacement for the unresolved Twitter entrance. Reviewed frame element.",
+        "target_sha256": {
+          "prod-creator-premise-entrance": "407a0ddb6950184e2b3d62f93d9ddffc8cfc9e2eb61ac181103cf14c2409f9f6"
+        }
+      },
+      {
+        "id": "legacy-013-01-detail-02",
+        "original_sha256": "c5c2c1176dc7243efaf4a32bd4e941f8b73903a22f7a0020c23c479f9463ca82",
+        "disposition": "rewrite",
+        "beats": [
+          "prod-creator-premise-entrance"
+        ],
+        "reason": "Keep the origin scene as an identified historical invention, not first-view evidence, private surroundings or a replacement for the unresolved Twitter entrance. Reviewed action element.",
+        "target_sha256": {
+          "prod-creator-premise-entrance": "407a0ddb6950184e2b3d62f93d9ddffc8cfc9e2eb61ac181103cf14c2409f9f6"
+        }
+      }
+    ]
+  },
+  {
+    "old_panel": "013-02",
+    "old_edition": "legacy-332b5ed63262",
+    "reviewed_on": "2026-09-13",
+    "status": "elements-reviewed",
+    "elements": [
+      {
+        "id": "legacy-013-02-detail-01",
+        "original_sha256": "382f332d009385cf97d49d5f6c3bcc20a837ae34922d7aef896418c8d6b3858e",
+        "disposition": "rewrite",
+        "beats": [
+          "prod-creator-premise-reaction"
+        ],
+        "reason": "Preserve the function of the human reaction as scripted emphasis without treating it as preserved speech or attributing emotion to agents. Reviewed frame element.",
+        "target_sha256": {
+          "prod-creator-premise-reaction": "eec3a5c779e59c1b0c0326ac6aa373453615f1d4b3f03eaddaaaa6cb01910fc2"
+        }
+      },
+      {
+        "id": "legacy-013-02-detail-03",
+        "original_sha256": "08634238a671f65e95e7104de04739db5029f4722dba2f210b9f5dd0ca217cf0",
+        "disposition": "rewrite",
+        "beats": [
+          "prod-creator-premise-reaction"
+        ],
+        "reason": "Preserve the function of the human reaction as scripted emphasis without treating it as preserved speech or attributing emotion to agents. Reviewed lettering element.",
+        "target_sha256": {
+          "prod-creator-premise-reaction": "eec3a5c779e59c1b0c0326ac6aa373453615f1d4b3f03eaddaaaa6cb01910fc2"
+        }
+      }
+    ]
+  },
+  {
+    "old_panel": "013-03",
+    "old_edition": "legacy-332b5ed63262",
+    "reviewed_on": "2026-09-13",
+    "status": "elements-reviewed",
+    "elements": [
+      {
+        "id": "legacy-013-03-detail-01",
+        "original_sha256": "25d03ba573dd4b85fae425e63420c46ca5b4f85b4cd39e5eee6944ae56ff7964",
+        "disposition": "rewrite",
+        "beats": [
+          "prod-creator-premise-reaction"
+        ],
+        "reason": "Retire invented scroll/drink continuity and repeated exclamations as actual events; retain their emotional function in the labelled historical draft. Reviewed frame element.",
+        "target_sha256": {
+          "prod-creator-premise-reaction": "eec3a5c779e59c1b0c0326ac6aa373453615f1d4b3f03eaddaaaa6cb01910fc2"
+        }
+      },
+      {
+        "id": "legacy-013-03-detail-03",
+        "original_sha256": "38178a20b470cfd18299fb1593dd4ba706f1a83321dac051d01086efd8b7a96f",
+        "disposition": "rewrite",
+        "beats": [
+          "prod-creator-premise-reaction"
+        ],
+        "reason": "Retire invented scroll/drink continuity and repeated exclamations as actual events; retain their emotional function in the labelled historical draft. Reviewed lettering element.",
+        "target_sha256": {
+          "prod-creator-premise-reaction": "eec3a5c779e59c1b0c0326ac6aa373453615f1d4b3f03eaddaaaa6cb01910fc2"
+        }
+      },
+      {
+        "id": "legacy-013-03-detail-04",
+        "original_sha256": "4baceea4a7436c0a2be3fee48285f6c820db7c6f0fa498f7620c8cfd813cb1a7",
+        "disposition": "rewrite",
+        "beats": [
+          "prod-creator-premise-reaction"
+        ],
+        "reason": "Retire invented scroll/drink continuity and repeated exclamations as actual events; retain their emotional function in the labelled historical draft. Reviewed lettering element.",
+        "target_sha256": {
+          "prod-creator-premise-reaction": "eec3a5c779e59c1b0c0326ac6aa373453615f1d4b3f03eaddaaaa6cb01910fc2"
+        }
+      }
+    ]
+  },
+  {
+    "old_panel": "013-04",
+    "old_edition": "legacy-332b5ed63262",
+    "reviewed_on": "2026-09-13",
+    "status": "elements-reviewed",
+    "elements": [
+      {
+        "id": "legacy-013-04-detail-01",
+        "original_sha256": "3cf78620dbc56b2440f4094fae0c3f0077e83426afe223bcf48618f81873eed4",
+        "disposition": "rewrite",
+        "beats": [
+          "prod-creator-premise-decision",
+          "prod-setup-request-message"
+        ],
+        "reason": "Separate the fictional ChatGPT origin exchange from the preserved repository-setup request; neither establishes the first decision or encounter. Reviewed frame element.",
+        "target_sha256": {
+          "prod-creator-premise-decision": "ab9a38e0f57307fbfcc1fd61dd45aecb6b91ce5a4366f7bd7169489b522eba29",
+          "prod-setup-request-message": "268382500daad1d928a0b456469f94995fac3ef3525b5277919e712016e436fc"
+        }
+      },
+      {
+        "id": "legacy-013-04-detail-02",
+        "original_sha256": "56afb449ab3e941a55c671034a552f24fc6432590963946278674e51647bbc37",
+        "disposition": "rewrite",
+        "beats": [
+          "prod-creator-premise-decision",
+          "prod-setup-request-message"
+        ],
+        "reason": "Separate the fictional ChatGPT origin exchange from the preserved repository-setup request; neither establishes the first decision or encounter. Reviewed action element.",
+        "target_sha256": {
+          "prod-creator-premise-decision": "ab9a38e0f57307fbfcc1fd61dd45aecb6b91ce5a4366f7bd7169489b522eba29",
+          "prod-setup-request-message": "268382500daad1d928a0b456469f94995fac3ef3525b5277919e712016e436fc"
+        }
+      },
+      {
+        "id": "legacy-013-04-detail-03",
+        "original_sha256": "529ab1be934695696785e68d2ee1e2339246066c13a60402d645626b07dab701",
+        "disposition": "rewrite",
+        "beats": [
+          "prod-creator-premise-decision",
+          "prod-setup-request-message"
+        ],
+        "reason": "Separate the fictional ChatGPT origin exchange from the preserved repository-setup request; neither establishes the first decision or encounter. Reviewed lettering element.",
+        "target_sha256": {
+          "prod-creator-premise-decision": "ab9a38e0f57307fbfcc1fd61dd45aecb6b91ce5a4366f7bd7169489b522eba29",
+          "prod-setup-request-message": "268382500daad1d928a0b456469f94995fac3ef3525b5277919e712016e436fc"
+        }
+      }
+    ]
+  },
+  {
+    "old_panel": "013-05",
+    "old_edition": "legacy-332b5ed63262",
+    "reviewed_on": "2026-09-13",
+    "status": "elements-reviewed",
+    "elements": [
+      {
+        "id": "legacy-013-05-detail-01",
+        "original_sha256": "60128c5c29f38e4076fff37eddf9a18e7c9e2ea48cbc7073c9819f6b9b90be7b",
+        "disposition": "rewrite",
+        "beats": [
+          "prod-creator-premise-disclosure"
+        ],
+        "reason": "Retain reconstruction disclosure without replaying an invented request-send event. Reviewed frame element.",
+        "target_sha256": {
+          "prod-creator-premise-disclosure": "408725ecb0f80a228a9d39d05fe224019ce4c61ada733dcf57eaa13cdd54cdfe"
+        }
+      },
+      {
+        "id": "legacy-013-05-detail-02",
+        "original_sha256": "c9ae7e12de6b96266f3e68237d34f28b09426404820d69fc5cb3aa469769d351",
+        "disposition": "rewrite",
+        "beats": [
+          "prod-creator-premise-disclosure"
+        ],
+        "reason": "Retain reconstruction disclosure without replaying an invented request-send event. Reviewed action element.",
+        "target_sha256": {
+          "prod-creator-premise-disclosure": "408725ecb0f80a228a9d39d05fe224019ce4c61ada733dcf57eaa13cdd54cdfe"
+        }
+      },
+      {
+        "id": "legacy-013-05-detail-03",
+        "original_sha256": "f987f12fc6e706bac5dd6fcfe11cf882420238673b5f869cf31124e8c1d13259",
+        "disposition": "rewrite",
+        "beats": [
+          "prod-creator-premise-disclosure"
+        ],
+        "reason": "Retain reconstruction disclosure without replaying an invented request-send event. Reviewed lettering element.",
+        "target_sha256": {
+          "prod-creator-premise-disclosure": "408725ecb0f80a228a9d39d05fe224019ce4c61ada733dcf57eaa13cdd54cdfe"
+        }
+      }
+    ]
+  },
+  {
+    "old_panel": "014-01",
+    "old_edition": "legacy-332b5ed63262",
+    "reviewed_on": "2026-09-13",
+    "status": "elements-reviewed",
+    "elements": [
+      {
+        "id": "legacy-014-01-detail-01",
+        "original_sha256": "c6f6d33097da5f617d8ef5851bf05518116c721d92e609694e397cd87f1cd500",
+        "disposition": "rewrite",
+        "beats": [
+          "prod-creator-premise-visuals"
+        ],
+        "reason": "Retain the infrastructure-first visual choice; do not invent an image-search session or a real ChatGPT instruction. Reviewed frame element.",
+        "target_sha256": {
+          "prod-creator-premise-visuals": "631d3884311a228af071991516e603cb58e9d13d7df87a522ad845f745145f49"
+        }
+      },
+      {
+        "id": "legacy-014-01-detail-03",
+        "original_sha256": "6883b3922338266bf210b24a8f58249e097f548717dd665037e22556ec8e1785",
+        "disposition": "rewrite",
+        "beats": [
+          "prod-creator-premise-visuals"
+        ],
+        "reason": "Retain the infrastructure-first visual choice; do not invent an image-search session or a real ChatGPT instruction. Reviewed lettering element.",
+        "target_sha256": {
+          "prod-creator-premise-visuals": "631d3884311a228af071991516e603cb58e9d13d7df87a522ad845f745145f49"
+        }
+      }
+    ]
+  },
+  {
+    "old_panel": "014-02",
+    "old_edition": "legacy-332b5ed63262",
+    "reviewed_on": "2026-09-13",
+    "status": "elements-reviewed",
+    "elements": [
+      {
+        "id": "legacy-014-02-detail-01",
+        "original_sha256": "fbe1b1ca73984c3d9562870d2fe1ead9934f52e45494d4952a86cf79704ac8de",
+        "disposition": "rewrite",
+        "beats": [
+          "prod-creator-premise-visuals"
+        ],
+        "reason": "Keep the visual argument without literal agent bodies or invented sketching action; distinguish later metaphor revisions. Reviewed frame element.",
+        "target_sha256": {
+          "prod-creator-premise-visuals": "631d3884311a228af071991516e603cb58e9d13d7df87a522ad845f745145f49"
+        }
+      },
+      {
+        "id": "legacy-014-02-detail-03",
+        "original_sha256": "bab2934cd61949c9ef0aff10bc65d64951dd5cb3c08a7a3dd91c49ab225af174",
+        "disposition": "rewrite",
+        "beats": [
+          "prod-creator-premise-visuals"
+        ],
+        "reason": "Keep the visual argument without literal agent bodies or invented sketching action; distinguish later metaphor revisions. Reviewed lettering element.",
+        "target_sha256": {
+          "prod-creator-premise-visuals": "631d3884311a228af071991516e603cb58e9d13d7df87a522ad845f745145f49"
+        }
+      }
+    ]
+  },
+  {
+    "old_panel": "014-03",
+    "old_edition": "legacy-332b5ed63262",
+    "reviewed_on": "2026-09-13",
+    "status": "elements-reviewed",
+    "elements": [
+      {
+        "id": "legacy-014-03-detail-01",
+        "original_sha256": "87e21b0071c14c9e692f293dee04c84dc2da5f9a0038b9951e10c7f06015ef9e",
+        "disposition": "rewrite",
+        "beats": [
+          "prod-creator-premise-topology",
+          "prod-creator-premise-authority"
+        ],
+        "reason": "Retain the shared-state topology lesson and explicit fictional correction, not actual model authority, first-error chronology or an observed erasure. Reviewed frame element.",
+        "target_sha256": {
+          "prod-creator-premise-topology": "e665807943a7b472a497b91cfccba62fb9f9ade019f94a19345b87cd07eb4118",
+          "prod-creator-premise-authority": "981006f13633751cdddb21e65bab1df1bf1d9188768cab58d5a691c6077880bf"
+        }
+      },
+      {
+        "id": "legacy-014-03-detail-02",
+        "original_sha256": "673de4d2523cede01f94d49008f08ad3cb4827e41aa86feb85eccb598a71a946",
+        "disposition": "rewrite",
+        "beats": [
+          "prod-creator-premise-topology",
+          "prod-creator-premise-authority"
+        ],
+        "reason": "Retain the shared-state topology lesson and explicit fictional correction, not actual model authority, first-error chronology or an observed erasure. Reviewed action element.",
+        "target_sha256": {
+          "prod-creator-premise-topology": "e665807943a7b472a497b91cfccba62fb9f9ade019f94a19345b87cd07eb4118",
+          "prod-creator-premise-authority": "981006f13633751cdddb21e65bab1df1bf1d9188768cab58d5a691c6077880bf"
+        }
+      },
+      {
+        "id": "legacy-014-03-detail-03",
+        "original_sha256": "3d53462c008bc6bf39345bbf631e634eac698f2f3266d1173b47d2093e68d680",
+        "disposition": "rewrite",
+        "beats": [
+          "prod-creator-premise-topology",
+          "prod-creator-premise-authority"
+        ],
+        "reason": "Retain the shared-state topology lesson and explicit fictional correction, not actual model authority, first-error chronology or an observed erasure. Reviewed lettering element.",
+        "target_sha256": {
+          "prod-creator-premise-topology": "e665807943a7b472a497b91cfccba62fb9f9ade019f94a19345b87cd07eb4118",
+          "prod-creator-premise-authority": "981006f13633751cdddb21e65bab1df1bf1d9188768cab58d5a691c6077880bf"
+        }
+      },
+      {
+        "id": "legacy-014-03-detail-04",
+        "original_sha256": "d71fa0310875083e1e0e06a576d2c71cb643aa9ff9b532a847cf3dd50eb8ec3b",
+        "disposition": "rewrite",
+        "beats": [
+          "prod-creator-premise-topology",
+          "prod-creator-premise-authority"
+        ],
+        "reason": "Retain the shared-state topology lesson and explicit fictional correction, not actual model authority, first-error chronology or an observed erasure. Reviewed lettering element.",
+        "target_sha256": {
+          "prod-creator-premise-topology": "e665807943a7b472a497b91cfccba62fb9f9ade019f94a19345b87cd07eb4118",
+          "prod-creator-premise-authority": "981006f13633751cdddb21e65bab1df1bf1d9188768cab58d5a691c6077880bf"
+        }
+      }
+    ]
+  },
+  {
+    "old_panel": "014-04",
+    "old_edition": "legacy-332b5ed63262",
+    "reviewed_on": "2026-09-13",
+    "status": "elements-reviewed",
+    "elements": [
+      {
+        "id": "legacy-014-04-detail-01",
+        "original_sha256": "fb5961f8ec8c5b85755a6a0445894ab1b6947b286b752ad0210bcb1d3406986d",
+        "disposition": "rewrite",
+        "beats": [
+          "prod-creator-premise-labels"
+        ],
+        "reason": "Preserve all four epistemic categories and their practical separation, without treating a staged card arrangement as history. Reviewed frame element.",
+        "target_sha256": {
+          "prod-creator-premise-labels": "1ce886a02deda180e1ba4f4978735cd575545515fb1a57277e5eeb7a2b8ea189"
+        }
+      },
+      {
+        "id": "legacy-014-04-detail-03",
+        "original_sha256": "b6e3007b8df079969758dc4b40b6105bc9024170a775fa8db736ffdb1acf09cb",
+        "disposition": "rewrite",
+        "beats": [
+          "prod-creator-premise-labels"
+        ],
+        "reason": "Preserve all four epistemic categories and their practical separation, without treating a staged card arrangement as history. Reviewed lettering element.",
+        "target_sha256": {
+          "prod-creator-premise-labels": "1ce886a02deda180e1ba4f4978735cd575545515fb1a57277e5eeb7a2b8ea189"
+        }
+      }
+    ]
+  },
+  {
+    "old_panel": "014-05",
+    "old_edition": "legacy-332b5ed63262",
+    "reviewed_on": "2026-09-13",
+    "status": "elements-reviewed",
+    "elements": [
+      {
+        "id": "legacy-014-05-detail-01",
+        "original_sha256": "9721d24db44ed3434d68841189e4cdfcfb211b8196030dffb80d942d606f72ca",
+        "disposition": "rewrite",
+        "beats": [
+          "prod-creator-premise-invention"
+        ],
+        "reason": "Keep the compression/reconstruction rule with disclosure and limits; the pictured meeting supplies no event evidence. Reviewed frame element.",
+        "target_sha256": {
+          "prod-creator-premise-invention": "57e4539d5908215d44e4f0aa829633b0fb1c06bc2a590323bf7eed28801a6d23"
+        }
+      },
+      {
+        "id": "legacy-014-05-detail-03",
+        "original_sha256": "74eb96d8df58f277741184b41951ec894be51a278b137ea38eecc55bb7705bc5",
+        "disposition": "rewrite",
+        "beats": [
+          "prod-creator-premise-invention"
+        ],
+        "reason": "Keep the compression/reconstruction rule with disclosure and limits; the pictured meeting supplies no event evidence. Reviewed lettering element.",
+        "target_sha256": {
+          "prod-creator-premise-invention": "57e4539d5908215d44e4f0aa829633b0fb1c06bc2a590323bf7eed28801a6d23"
+        }
+      }
+    ]
+  },
+  {
+    "old_panel": "014-06",
+    "old_edition": "legacy-332b5ed63262",
+    "reviewed_on": "2026-09-13",
+    "status": "elements-reviewed",
+    "elements": [
+      {
+        "id": "legacy-014-06-detail-01",
+        "original_sha256": "bc4c7fe3cef0aa81476b8c03216dd16cd68966ac76b61c8dc6290d6b859c2180",
+        "disposition": "rewrite",
+        "beats": [
+          "prod-creator-premise-labels",
+          "prod-creator-premise-invention"
+        ],
+        "reason": "Keep both limits on invented events and interiority, separating paraphrase from quoted source and authored dialogue. Reviewed frame element.",
+        "target_sha256": {
+          "prod-creator-premise-labels": "1ce886a02deda180e1ba4f4978735cd575545515fb1a57277e5eeb7a2b8ea189",
+          "prod-creator-premise-invention": "57e4539d5908215d44e4f0aa829633b0fb1c06bc2a590323bf7eed28801a6d23"
+        }
+      },
+      {
+        "id": "legacy-014-06-detail-03",
+        "original_sha256": "48b8897a3bc9c2ce899f2d61d87890d6fb5e67ae1f8a02509ce33dcc2356101e",
+        "disposition": "rewrite",
+        "beats": [
+          "prod-creator-premise-labels",
+          "prod-creator-premise-invention"
+        ],
+        "reason": "Keep both limits on invented events and interiority, separating paraphrase from quoted source and authored dialogue. Reviewed lettering element.",
+        "target_sha256": {
+          "prod-creator-premise-labels": "1ce886a02deda180e1ba4f4978735cd575545515fb1a57277e5eeb7a2b8ea189",
+          "prod-creator-premise-invention": "57e4539d5908215d44e4f0aa829633b0fb1c06bc2a590323bf7eed28801a6d23"
+        }
+      },
+      {
+        "id": "legacy-014-06-detail-04",
+        "original_sha256": "b53ed5c0e70a74fb0918b3c6c6fba0b2c11f4a70810b1abb404a76d1f634c53c",
+        "disposition": "rewrite",
+        "beats": [
+          "prod-creator-premise-labels",
+          "prod-creator-premise-invention"
+        ],
+        "reason": "Keep both limits on invented events and interiority, separating paraphrase from quoted source and authored dialogue. Reviewed lettering element.",
+        "target_sha256": {
+          "prod-creator-premise-labels": "1ce886a02deda180e1ba4f4978735cd575545515fb1a57277e5eeb7a2b8ea189",
+          "prod-creator-premise-invention": "57e4539d5908215d44e4f0aa829633b0fb1c06bc2a590323bf7eed28801a6d23"
+        }
+      }
+    ]
+  },
+  {
+    "old_panel": "015-01",
+    "old_edition": "legacy-332b5ed63262",
+    "reviewed_on": "2026-09-13",
+    "status": "elements-reviewed",
+    "elements": [
+      {
+        "id": "legacy-015-01-detail-01",
+        "original_sha256": "db9d9c10273a002d4cfd85968551d69e05750f484eabed402115f057ed2c72e3",
+        "disposition": "rewrite",
+        "beats": [
+          "prod-creator-premise-ideas"
+        ],
+        "reason": "Preserve all three theoretical concerns as project questions, not a staged note-taking act or universal incident explanation. Reviewed frame element.",
+        "target_sha256": {
+          "prod-creator-premise-ideas": "9c085ddeda5da228e1b5fe9c0893fc953350a5f9cc99b29693435076196a768b"
+        }
+      },
+      {
+        "id": "legacy-015-01-detail-02",
+        "original_sha256": "416de944a6b48fb477d150b8fd2f17be1cc0731cbcb70eb86e0309de6e5bda5e",
+        "disposition": "rewrite",
+        "beats": [
+          "prod-creator-premise-ideas"
+        ],
+        "reason": "Preserve all three theoretical concerns as project questions, not a staged note-taking act or universal incident explanation. Reviewed action element.",
+        "target_sha256": {
+          "prod-creator-premise-ideas": "9c085ddeda5da228e1b5fe9c0893fc953350a5f9cc99b29693435076196a768b"
+        }
+      },
+      {
+        "id": "legacy-015-01-detail-03",
+        "original_sha256": "5574466c6799ed7cede8a9a64bfaafe0612a27d03a28ab867899c36ecf57f072",
+        "disposition": "rewrite",
+        "beats": [
+          "prod-creator-premise-ideas"
+        ],
+        "reason": "Preserve all three theoretical concerns as project questions, not a staged note-taking act or universal incident explanation. Reviewed lettering element.",
+        "target_sha256": {
+          "prod-creator-premise-ideas": "9c085ddeda5da228e1b5fe9c0893fc953350a5f9cc99b29693435076196a768b"
+        }
+      }
+    ]
+  },
+  {
+    "old_panel": "015-02",
+    "old_edition": "legacy-332b5ed63262",
+    "reviewed_on": "2026-09-13",
+    "status": "elements-reviewed",
+    "elements": [
+      {
+        "id": "legacy-015-02-detail-01",
+        "original_sha256": "8e2b5ae3e7aabe35ef4a73b64107a1453927c3c0b7e9a76b120408e8f41f7dfc",
+        "disposition": "rewrite",
+        "beats": [
+          "prod-creator-premise-constraint"
+        ],
+        "reason": "Retain the creative constraint without turning ideas into invented historical causes. Reviewed frame element.",
+        "target_sha256": {
+          "prod-creator-premise-constraint": "ac3c8be8aff2c480881cb1253d534792bb9843c394996caeb5f9f464dc1cbab7"
+        }
+      },
+      {
+        "id": "legacy-015-02-detail-03",
+        "original_sha256": "b15d5f445f8e00b9eff4f06038194597841cac07b38fcbfcd980678aaa9e04be",
+        "disposition": "rewrite",
+        "beats": [
+          "prod-creator-premise-constraint"
+        ],
+        "reason": "Retain the creative constraint without turning ideas into invented historical causes. Reviewed lettering element.",
+        "target_sha256": {
+          "prod-creator-premise-constraint": "ac3c8be8aff2c480881cb1253d534792bb9843c394996caeb5f9f464dc1cbab7"
+        }
+      }
+    ]
+  },
+  {
+    "old_panel": "015-03",
+    "old_edition": "legacy-332b5ed63262",
+    "reviewed_on": "2026-09-13",
+    "status": "elements-reviewed",
+    "elements": [
+      {
+        "id": "legacy-015-03-detail-01",
+        "original_sha256": "4faf5ddd96dcbc522e2d73a2ca242fd55b69391e1c21cd6b9530cae483f765b3",
+        "disposition": "rewrite",
+        "beats": [
+          "prod-creator-premise-maxim",
+          "prod-creator-premise-constraint"
+        ],
+        "reason": "Preserve the exact project-authored maxim with registration and scripted attribution; remove invented crossing-out action. Reviewed frame element.",
+        "target_sha256": {
+          "prod-creator-premise-maxim": "d280edf078c702e365185f54cb78100e2999276198f71b453b9c202dde729f51",
+          "prod-creator-premise-constraint": "ac3c8be8aff2c480881cb1253d534792bb9843c394996caeb5f9f464dc1cbab7"
+        }
+      },
+      {
+        "id": "legacy-015-03-detail-03",
+        "original_sha256": "702b2a039d5e0e6c47521151ab674004cfe798caa9e0ae2d3b40f389478b5ac2",
+        "disposition": "rewrite",
+        "beats": [
+          "prod-creator-premise-maxim",
+          "prod-creator-premise-constraint"
+        ],
+        "reason": "Preserve the exact project-authored maxim with registration and scripted attribution; remove invented crossing-out action. Reviewed lettering element.",
+        "target_sha256": {
+          "prod-creator-premise-maxim": "d280edf078c702e365185f54cb78100e2999276198f71b453b9c202dde729f51",
+          "prod-creator-premise-constraint": "ac3c8be8aff2c480881cb1253d534792bb9843c394996caeb5f9f464dc1cbab7"
+        }
+      }
+    ]
+  },
+  {
+    "old_panel": "015-04",
+    "old_edition": "legacy-332b5ed63262",
+    "reviewed_on": "2026-09-13",
+    "status": "elements-reviewed",
+    "elements": [
+      {
+        "id": "legacy-015-04-detail-01",
+        "original_sha256": "16cca75c49a32af61e6882f9414acc74e8e36698c6261a7fb001abd341b01577",
+        "disposition": "rewrite",
+        "beats": [
+          "prod-creator-premise-maxim",
+          "prod-creator-premise-constraint"
+        ],
+        "reason": "Preserve the exact companion formulation as authored ChatGPT dialogue, not a real message or a visual return to an earlier incident. Reviewed frame element.",
+        "target_sha256": {
+          "prod-creator-premise-maxim": "d280edf078c702e365185f54cb78100e2999276198f71b453b9c202dde729f51",
+          "prod-creator-premise-constraint": "ac3c8be8aff2c480881cb1253d534792bb9843c394996caeb5f9f464dc1cbab7"
+        }
+      },
+      {
+        "id": "legacy-015-04-detail-03",
+        "original_sha256": "ad3029a92d5199c8b1a413c7269a751b0a8b42a516fafec177cf389ac276954b",
+        "disposition": "rewrite",
+        "beats": [
+          "prod-creator-premise-maxim",
+          "prod-creator-premise-constraint"
+        ],
+        "reason": "Preserve the exact companion formulation as authored ChatGPT dialogue, not a real message or a visual return to an earlier incident. Reviewed lettering element.",
+        "target_sha256": {
+          "prod-creator-premise-maxim": "d280edf078c702e365185f54cb78100e2999276198f71b453b9c202dde729f51",
+          "prod-creator-premise-constraint": "ac3c8be8aff2c480881cb1253d534792bb9843c394996caeb5f9f464dc1cbab7"
+        }
+      }
+    ]
+  },
+  {
+    "old_panel": "015-05",
+    "old_edition": "legacy-332b5ed63262",
+    "reviewed_on": "2026-09-13",
+    "status": "elements-reviewed",
+    "elements": [
+      {
+        "id": "legacy-015-05-detail-01",
+        "original_sha256": "fc09766129967550ecdc759e1b8ffbb19cb288c67d0132e3c6b0c9c994b5a115",
+        "disposition": "rewrite",
+        "beats": [
+          "prod-creator-premise-rewind"
+        ],
+        "reason": "Retire the scripted rewind as an event and retain its relationship to the earlier draft; the new edition stays chronological with one actor transition. Reviewed frame element.",
+        "target_sha256": {
+          "prod-creator-premise-rewind": "308ff88d26c345a1d88cd3d2f4fb58a1ab4f269498112959ca8f00ec84261afd"
+        }
+      },
+      {
+        "id": "legacy-015-05-detail-03",
+        "original_sha256": "84f05a23877cf2fa6ef96fadf54f031801594840f4a6d2ff09e6d064ff9cf089",
+        "disposition": "rewrite",
+        "beats": [
+          "prod-creator-premise-rewind"
+        ],
+        "reason": "Retire the scripted rewind as an event and retain its relationship to the earlier draft; the new edition stays chronological with one actor transition. Reviewed lettering element.",
+        "target_sha256": {
+          "prod-creator-premise-rewind": "308ff88d26c345a1d88cd3d2f4fb58a1ab4f269498112959ca8f00ec84261afd"
+        }
+      }
+    ]
   }
 ]

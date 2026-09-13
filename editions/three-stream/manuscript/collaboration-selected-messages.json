@@ -14,7 +14,9 @@
     "beats": [
       {
         "id": "prod-setup-request-message",
-        "old_panels": [],
+        "old_panels": [
+          "013-04"
+        ],
         "frame": "Curt’s recorded request appears with the proposed directory tree. No physical room or typing gesture is reconstructed.",
         "lettering": [
           "Curt asks for a repository structure and automatic GitHub Pages publishing when main changes."
@@ -31,7 +33,13 @@
         "time_start": "2026-09-02T01:56:21.519Z",
         "time_end": "2026-09-02T01:56:21.519Z",
         "art_reuse": "none-approved",
-        "detail_decisions": [],
+        "detail_decisions": [
+          {
+            "old_panel": "013-04",
+            "disposition": "rewrite",
+            "reason": "Separate the fictional ChatGPT origin exchange from the preserved repository-setup request; neither establishes the first decision or encounter."
+          }
+        ],
         "source_record": "current-mac:rollout-2026-09-01T20-53-34-01a05fd2-5486-7d12-8a9c-f13eab35fba8:7"
       }
     ]
