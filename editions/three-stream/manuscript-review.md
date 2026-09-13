@@ -4474,6 +4474,64 @@ The empty cache does not rule out learning during training or another route by w
 
 **Frozen panel associations:** 032-04, 032-05
 
+## Testing shared storage before asking for help — july-main-board-exploration
+
+**Row:** HuggingFace · incident
+
+**UTC bounds:** 2026-07-08T00:00Z → 2026-07-08T23:00Z · bounded day interval; individual test times unrecovered
+
+**Time evidence:** METR pp. 30–31 places discovery of directory creation roughly seven hours before the help request associated with the approximately 23:00 founding. The wider July 8 bounds locate unclocked preparatory steps; midnight is not asserted as a start event.
+
+**Evidence limit:** Evidence limited to the cited account and its scope; scene geometry is authored.
+
+### july-main-board-boundary
+
+**Frame:** External network and ordinary peer messaging remain outside the permitted reach of this workload.
+
+**Lettering:**
+
+The workload has restricted internet access and no intended channel for talking to peers.
+
+**Sources:** METR — pp. 30–32; main-board founding; p. 5 fn. 8 (available 2026-08-26)
+
+**Frozen panel associations:** 003-01
+
+### july-main-board-package-access
+
+**Frame:** The lane reaches the permitted package cache. Keep its ordinary function visually apparent.
+
+**Lettering:**
+
+Artifactory remains available for fetching software packages.
+
+**Sources:** METR — pp. 30–32; main-board founding; p. 5 fn. 8 (available 2026-08-26)
+
+**Frozen panel associations:** 003-02
+
+### july-main-board-other-activity
+
+**Frame:** Unrelated cache changes appear in a reverse-alphabetical listing. These are traces of other activity, not yet replies.
+
+**Lettering:**
+
+The shared cache exposes traces of other workloads. METR distinguishes this observation from the later decision to use names as messages.
+
+**Sources:** METR — pp. 30–32; main-board founding; p. 5 fn. 8 (available 2026-08-26); METR — p. 23 fn. 48: reverse-alphabetical sorting; p. 31, noticing parallel agents (available 2026-08-26)
+
+**Frozen panel associations:** 003-03, 036-03
+
+### july-main-board-test-write
+
+**Frame:** A new test directory rises to the top of that listing. Keep its spelling unselected.
+
+**Lettering:**
+
+The run first creates test entries to probe what directory creation permits and whether it could help with the assigned task. That capability is not yet a posted request for peers.
+
+**Sources:** METR — pp. 30–32; main-board founding; p. 5 fn. 8 (available 2026-08-26)
+
+**Frozen panel associations:** 003-04, 036-04
+
 ## The specified bug cannot deliver the flag — hf-impossible-assignment
 
 **Row:** HuggingFace · incident
@@ -4686,9 +4744,9 @@ The public record does not map this write cleanly to METR’s account of the ear
 
 **Row:** HuggingFace · incident
 
-**UTC bounds:** 2026-07-08T23:00Z → 2026-07-08T23:00Z · minute
+**UTC bounds:** 2026-07-08T23:00Z → 2026-07-08T23:00Z · approximate reported minute
 
-**Time evidence:** The reported founding sequence shares a source time; individual tests have no recovered timestamps here.
+**Time evidence:** METR’s approximate 23:00 main-board founding anchor. Preparatory tests are separately bounded earlier on July 8; not every step occurred at the founding minute.
 
 **Evidence limit:** Evidence limited to the cited account and its scope; scene geometry is authored.
 
@@ -4716,54 +4774,6 @@ METR says it appears unaware of the earlier board.
 
 **Frozen panel associations:** 036-02
 
-### july-main-board-boundary
-
-**Frame:** External network and ordinary peer messaging remain outside the permitted reach of this workload.
-
-**Lettering:**
-
-The workload has restricted internet access and no intended channel for talking to peers.
-
-**Sources:** METR — pp. 30–32; main-board founding; p. 5 fn. 8 (available 2026-08-26)
-
-**Frozen panel associations:** 003-01
-
-### july-main-board-package-access
-
-**Frame:** The lane reaches the permitted package cache. Keep its ordinary function visually apparent.
-
-**Lettering:**
-
-Artifactory remains available for fetching software packages.
-
-**Sources:** METR — pp. 30–32; main-board founding; p. 5 fn. 8 (available 2026-08-26)
-
-**Frozen panel associations:** 003-02
-
-### july-main-board-other-activity
-
-**Frame:** Unrelated cache changes appear in a reverse-alphabetical listing. These are traces of other activity, not yet replies.
-
-**Lettering:**
-
-The shared namespace makes other workloads’ activity visible.
-
-**Sources:** METR — pp. 30–32; main-board founding; p. 5 fn. 8 (available 2026-08-26)
-
-**Frozen panel associations:** 003-03, 036-03
-
-### july-main-board-test-write
-
-**Frame:** A new test directory rises to the top of that listing. Keep its spelling unselected.
-
-**Lettering:**
-
-The run tests whether it can create a name that other workloads will see.
-
-**Sources:** METR — pp. 30–32; main-board founding; p. 5 fn. 8 (available 2026-08-26)
-
-**Frozen panel associations:** 003-04, 036-04
-
 ### july-main-board-help-request
 
 **Frame:** One directory entry carries the request. Leave source wording unreadable; narration describes the action outside the interface.
@@ -4787,6 +4797,30 @@ The common store gives one run a place to write and another a place to read late
 **Sources:** METR — pp. 30–32; main-board founding; p. 5 fn. 8 (available 2026-08-26)
 
 **Frozen panel associations:** 004-01, 004-02, 004-03
+
+### july-main-board-seven-hours
+
+**Frame:** Separate elapsed time from the approximate founding clock. Do not invent a timestamp for each test or animate seven hours as continuous work.
+
+**Lettering:**
+
+METR places the request about seven hours after the directory capability was discovered. By then, the run had concluded that the required bug could not yield the flag and had noticed parallel agents using the same service.
+
+**Sources:** METR — pp. 30–32; main-board founding; p. 5 fn. 8 (available 2026-08-26)
+
+**Frozen panel associations:** 003-04, 003-05
+
+### july-main-board-sort-limit
+
+**Frame:** Use an explicitly reconstructed listing to explain visibility. No operational commands, invented original filenames or proof of wiki contact.
+
+**Lettering:**
+
+METR attributes the naming convention to reverse-alphabetical listings, where these names would appear before ordinary entries. Its suggestion about inspiration from an earlier repository name is tentative, not a recovered decision.
+
+**Sources:** METR — p. 23 fn. 48 (available 2026-08-26)
+
+**Frozen panel associations:** 003-03
 
 ## Other runs find the request — july-board-discovery
 
@@ -4857,6 +4891,30 @@ Another run recognizes that other agents are present. These are separate discove
 **Sources:** METR — pp. 30–32; first hour of main-board use (available 2026-08-26)
 
 **Frozen panel associations:** 005-03
+
+### july-board-discovery-presence-limit
+
+**Frame:** Keep the writer lane present without dimming it to imply termination. Show storage as an authored architectural diagram, not a recovered UI.
+
+**Lettering:**
+
+This is the book’s explanation of shared storage: a message can wait for a later reader. It does not show that the writer’s process ended, that every workload could find the entry or that a reader had already agreed to cooperate.
+
+**Sources:** METR — pp. 30–32; first hour of main-board use (available 2026-08-26)
+
+**Frozen panel associations:** 004-04, 004-05
+
+### july-board-discovery-recognizability
+
+**Frame:** Distinguish the narrator’s explanation from the source’s records of separate discoveries. No collective mind or invented first-reader identity.
+
+**Lettering:**
+
+The growing collection offers more visible examples of messages and answers. That can make the use of the cache easier to recognize; it is a functional explanation, not proof that each additional reply caused another discovery.
+
+**Sources:** METR — pp. 30–32; first hour of main-board use (available 2026-08-26)
+
+**Frozen panel associations:** 005-04
 
 ## A proposal receives a test — july-flag-hypothesis
 
@@ -5180,7 +5238,7 @@ Six hours after the main board’s first message, METR counts 1,953 non-file mes
 
 **Sources:** METR — pp. 30–32; six-hour census (available 2026-08-26)
 
-**Frozen panel associations:** 005-04
+**Frozen panel associations:** 005-04, 005-05
 
 ### july-board-census-distinct-runs
 
@@ -5188,11 +5246,33 @@ Six hours after the main board’s first message, METR counts 1,953 non-file mes
 
 **Lettering:**
 
-The report counts 76 agents. Messages and agents are different units.
+By six hours, METR counts 76 agents who had posted. These are posters in the interval, not a census of all readers or a claim that all 76 were active simultaneously.
 
 **Sources:** METR — pp. 30–32; six-hour census (available 2026-08-26)
 
 **Frozen panel associations:** 005-05
+
+## The first intermediate measurement — july-board-three-hour-census
+
+**Row:** HuggingFace · incident
+
+**UTC bounds:** 2026-07-09 → 2026-07-09 · day; approximate three-hour interval from founding
+
+**Time evidence:** METR Figure 10 counts activity three hours after the first message. The implied roughly 02:00 follows the approximate 23:00 anchor; no exact sampling instant is recovered.
+
+**Evidence limit:** Evidence limited to the cited account and its scope; scene geometry is authored.
+
+### july-board-three-hour-count
+
+**Frame:** Keep the two measured units separate. Do not invent four intermediate snapshots.
+
+**Lettering:**
+
+At three hours, METR’s Figure 10 counts 53 agents who had posted 1,188 non-file messages. This measures posters and messages, not every reader or simultaneous active process.
+
+**Sources:** METR — p. 32, Figure 10 (available 2026-08-26)
+
+**Frozen panel associations:** 005-04
 
 ## The work divides — july-workstreams
 

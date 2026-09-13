@@ -1,7 +1,7 @@
 {
   "status": "incomplete; associations are not full-detail dispositions",
-  "scenes": 261,
-  "drafted_beats": 843,
+  "scenes": 263,
+  "drafted_beats": 848,
   "canonical_pages": null,
   "associated_old_panels": 431,
   "old_panels": [
@@ -104,7 +104,7 @@
       "draft_beats": [
         "july-main-board-boundary"
       ],
-      "detail_review": "pending",
+      "detail_review": "elements-reviewed",
       "exact_strings": []
     },
     {
@@ -113,34 +113,37 @@
       "draft_beats": [
         "july-main-board-package-access"
       ],
-      "detail_review": "pending",
+      "detail_review": "elements-reviewed",
       "exact_strings": []
     },
     {
       "old_edition": "legacy-332b5ed63262",
       "old_panel": "003-03",
       "draft_beats": [
-        "july-main-board-other-activity"
+        "july-main-board-other-activity",
+        "july-main-board-sort-limit"
       ],
-      "detail_review": "pending",
+      "detail_review": "elements-reviewed",
       "exact_strings": []
     },
     {
       "old_edition": "legacy-332b5ed63262",
       "old_panel": "003-04",
       "draft_beats": [
-        "july-main-board-test-write"
+        "july-main-board-test-write",
+        "july-main-board-seven-hours"
       ],
-      "detail_review": "pending",
+      "detail_review": "elements-reviewed",
       "exact_strings": []
     },
     {
       "old_edition": "legacy-332b5ed63262",
       "old_panel": "003-05",
       "draft_beats": [
-        "july-main-board-help-request"
+        "july-main-board-help-request",
+        "july-main-board-seven-hours"
       ],
-      "detail_review": "pending",
+      "detail_review": "elements-reviewed",
       "exact_strings": []
     },
     {
@@ -149,7 +152,7 @@
       "draft_beats": [
         "july-main-board-shared-state"
       ],
-      "detail_review": "pending",
+      "detail_review": "elements-reviewed",
       "exact_strings": []
     },
     {
@@ -158,7 +161,7 @@
       "draft_beats": [
         "july-main-board-shared-state"
       ],
-      "detail_review": "pending",
+      "detail_review": "elements-reviewed",
       "exact_strings": []
     },
     {
@@ -167,25 +170,27 @@
       "draft_beats": [
         "july-main-board-shared-state"
       ],
-      "detail_review": "pending",
+      "detail_review": "elements-reviewed",
       "exact_strings": []
     },
     {
       "old_edition": "legacy-332b5ed63262",
       "old_panel": "004-04",
       "draft_beats": [
-        "july-board-discovery-persistence"
+        "july-board-discovery-persistence",
+        "july-board-discovery-presence-limit"
       ],
-      "detail_review": "pending",
+      "detail_review": "elements-reviewed",
       "exact_strings": []
     },
     {
       "old_edition": "legacy-332b5ed63262",
       "old_panel": "004-05",
       "draft_beats": [
-        "july-board-discovery-observation"
+        "july-board-discovery-observation",
+        "july-board-discovery-presence-limit"
       ],
-      "detail_review": "pending",
+      "detail_review": "elements-reviewed",
       "exact_strings": []
     },
     {
@@ -194,7 +199,7 @@
       "draft_beats": [
         "july-board-discovery-reply"
       ],
-      "detail_review": "pending",
+      "detail_review": "elements-reviewed",
       "exact_strings": []
     },
     {
@@ -203,7 +208,7 @@
       "draft_beats": [
         "july-board-discovery-mailbox-recognition"
       ],
-      "detail_review": "pending",
+      "detail_review": "elements-reviewed",
       "exact_strings": []
     },
     {
@@ -212,25 +217,28 @@
       "draft_beats": [
         "july-board-discovery-another-recognition"
       ],
-      "detail_review": "pending",
+      "detail_review": "elements-reviewed",
       "exact_strings": []
     },
     {
       "old_edition": "legacy-332b5ed63262",
       "old_panel": "005-04",
       "draft_beats": [
-        "july-board-census-growth"
+        "july-board-discovery-recognizability",
+        "july-board-census-growth",
+        "july-board-three-hour-count"
       ],
-      "detail_review": "pending",
+      "detail_review": "elements-reviewed",
       "exact_strings": []
     },
     {
       "old_edition": "legacy-332b5ed63262",
       "old_panel": "005-05",
       "draft_beats": [
+        "july-board-census-growth",
         "july-board-census-distinct-runs"
       ],
-      "detail_review": "pending",
+      "detail_review": "elements-reviewed",
       "exact_strings": []
     },
     {
@@ -5399,13 +5407,13 @@
     }
   ],
   "by_row": {
-    "HuggingFace": 342,
+    "HuggingFace": 347,
     "GemStuffer": 58,
     "Collusion Wiki": 118,
     "Curt": 28,
     "Codex": 98,
     "Claude": 199
   },
-  "reviewed_old_panels": 183,
-  "reviewed_source_elements": 461
+  "reviewed_old_panels": 198,
+  "reviewed_source_elements": 507
 }

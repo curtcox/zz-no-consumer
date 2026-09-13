@@ -771,3 +771,33 @@ final chronology/readability, Twitter entrance, other-Mac evidence and page
 allocation remain unfinished. Next work should return to the unreviewed
 incident and early collaboration panels rather than allocate the withdrawn
 compressed study or infer completeness from these review counts.
+
+### Opening board sequence — 13 September 2026
+
+Reviewed all fifteen frozen 003–005 panels against METR pp. 30–32 and
+p. 23 fn. 48. Added five beats and two sequences. Existing early tests had
+all been assigned the approximate 23:00 founding time. They now occupy a
+separate broad July 8 interval, with no event asserted at its midnight bound.
+METR’s roughly seven-hour discovery-to-request interval is reader-visible;
+individual test timestamps are not recovered. The approximate founding anchor
+remains distinct from those tests. The older board is not erased or replayed.
+
+Retained package access, cross-workload visibility, directory experiments,
+the task-help request, persistence, separate recognition and replies. Reverse
+sorting is attributed; the earlier-name inspiration is tentative. Replaced
+source-looking paraphrase and invented cursor/selection states with narration.
+The shared store itself can be a channel; the old no-channel caption must
+not deny that. Persistence does not establish writer termination, universal
+visibility or prior cooperation by an observer. The claim that every reply
+caused another discovery is now a qualified functional explanation.
+
+Restored Figure 10’s three-hour measurement (53 posters, 1,188 non-file
+messages) before the six-hour measurement (76 posters, 1,953 non-file
+messages). These are interval counts, not simultaneous processes, all readers
+or an inferred collective mind. The old four visual samples had no source
+times and are removed. No page-count target follows from these additions.
+
+Scoped draft and whitespace checks pass; frozen inputs remain unchanged.
+Frozen 006 onward still contains substantial unreviewed material, including
+the early chronology and creator scenes. Final chronology/readability review,
+Twitter entrance, other-Mac evidence and canonical allocation remain open.

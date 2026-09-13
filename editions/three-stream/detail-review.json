@@ -7536,5 +7536,725 @@
         }
       }
     ]
+  },
+  {
+    "old_panel": "003-01",
+    "old_edition": "legacy-332b5ed63262",
+    "reviewed_on": "2026-09-13",
+    "status": "elements-reviewed",
+    "elements": [
+      {
+        "id": "legacy-003-01-detail-01",
+        "original_sha256": "12fada059b999cf7980f5ae4b2729a7eabcf97b822a986634b521ceaca8379d5",
+        "disposition": "rewrite",
+        "beats": [
+          "july-main-board-boundary"
+        ],
+        "reason": "Keep intended network and peer boundaries as explanatory geometry; remove invented route-testing choreography and absolute claim of no possible channel. Reviewed frame element.",
+        "target_sha256": {
+          "july-main-board-boundary": "5f2f7b91e441775d4fc5fc55ce53692594d422903c9ddd07640e0714f4188b1c"
+        }
+      },
+      {
+        "id": "legacy-003-01-detail-02",
+        "original_sha256": "978ec06429ab63d104b00c1029be504fe0fd1a3ff6b9c6fa0e238b3c2310f5c2",
+        "disposition": "rewrite",
+        "beats": [
+          "july-main-board-boundary"
+        ],
+        "reason": "Keep intended network and peer boundaries as explanatory geometry; remove invented route-testing choreography and absolute claim of no possible channel. Reviewed action element.",
+        "target_sha256": {
+          "july-main-board-boundary": "5f2f7b91e441775d4fc5fc55ce53692594d422903c9ddd07640e0714f4188b1c"
+        }
+      },
+      {
+        "id": "legacy-003-01-detail-03",
+        "original_sha256": "dc977183c5166c85502a215fb73577865bb486ddb1fd88374e6364d7c1817056",
+        "disposition": "rewrite",
+        "beats": [
+          "july-main-board-boundary"
+        ],
+        "reason": "Keep intended network and peer boundaries as explanatory geometry; remove invented route-testing choreography and absolute claim of no possible channel. Reviewed lettering element.",
+        "target_sha256": {
+          "july-main-board-boundary": "5f2f7b91e441775d4fc5fc55ce53692594d422903c9ddd07640e0714f4188b1c"
+        }
+      },
+      {
+        "id": "legacy-003-01-detail-04",
+        "original_sha256": "42673ac6c923a349c30bae59fcaf93e7fa1938f5488fe61bb185ae6b80afc8e4",
+        "disposition": "rewrite",
+        "beats": [
+          "july-main-board-boundary"
+        ],
+        "reason": "Keep intended network and peer boundaries as explanatory geometry; remove invented route-testing choreography and absolute claim of no possible channel. Reviewed lettering element.",
+        "target_sha256": {
+          "july-main-board-boundary": "5f2f7b91e441775d4fc5fc55ce53692594d422903c9ddd07640e0714f4188b1c"
+        }
+      }
+    ]
+  },
+  {
+    "old_panel": "003-02",
+    "old_edition": "legacy-332b5ed63262",
+    "reviewed_on": "2026-09-13",
+    "status": "elements-reviewed",
+    "elements": [
+      {
+        "id": "legacy-003-02-detail-01",
+        "original_sha256": "cb24ca85dfd8e995ec485cd1ff11f663569d9569fd0b4ce2a23af13347b69c10",
+        "disposition": "rewrite",
+        "beats": [
+          "july-main-board-package-access"
+        ],
+        "reason": "Keep permitted software-package access without claiming this is the only visible service. Reviewed frame element.",
+        "target_sha256": {
+          "july-main-board-package-access": "a8440d30023fd0f1de813b8fbedeec7f32602cb83bdb5abf5bae41ac60e39a04"
+        }
+      },
+      {
+        "id": "legacy-003-02-detail-02",
+        "original_sha256": "4ea1d2d0b6be373752406eebb63199bbb2fb4dec007bf74f6737f7f9ba85a8fd",
+        "disposition": "rewrite",
+        "beats": [
+          "july-main-board-package-access"
+        ],
+        "reason": "Keep permitted software-package access without claiming this is the only visible service. Reviewed action element.",
+        "target_sha256": {
+          "july-main-board-package-access": "a8440d30023fd0f1de813b8fbedeec7f32602cb83bdb5abf5bae41ac60e39a04"
+        }
+      },
+      {
+        "id": "legacy-003-02-detail-03",
+        "original_sha256": "781e2a89b077c9457a3df152dbf54b9a00de1515337ce002806946f2ce3e9082",
+        "disposition": "rewrite",
+        "beats": [
+          "july-main-board-package-access"
+        ],
+        "reason": "Keep permitted software-package access without claiming this is the only visible service. Reviewed lettering element.",
+        "target_sha256": {
+          "july-main-board-package-access": "a8440d30023fd0f1de813b8fbedeec7f32602cb83bdb5abf5bae41ac60e39a04"
+        }
+      }
+    ]
+  },
+  {
+    "old_panel": "003-03",
+    "old_edition": "legacy-332b5ed63262",
+    "reviewed_on": "2026-09-13",
+    "status": "elements-reviewed",
+    "elements": [
+      {
+        "id": "legacy-003-03-detail-01",
+        "original_sha256": "dd66c6816a900c5a896b4e846cfa60fe4db04aeb3c2d173e8650a75a2e868524",
+        "disposition": "rewrite",
+        "beats": [
+          "july-main-board-other-activity",
+          "july-main-board-sort-limit"
+        ],
+        "reason": "Retain cross-workload traces and reverse sorting, with naming motive attributed and tentative inspiration distinguished from observation. Reviewed frame element.",
+        "target_sha256": {
+          "july-main-board-other-activity": "91366834d61de7b2cb6c7900f8081af7d35835b7394901a6f2eddaeacb398d12",
+          "july-main-board-sort-limit": "2a28bce8ce2b440452be10c0fcd720980fab0856eb448fc9ff9f57f075d76953"
+        }
+      },
+      {
+        "id": "legacy-003-03-detail-02",
+        "original_sha256": "c9df487d873ba7c8760e3b2f41a13e106dcd1e25f0840926f8ad638da0d816be",
+        "disposition": "rewrite",
+        "beats": [
+          "july-main-board-other-activity",
+          "july-main-board-sort-limit"
+        ],
+        "reason": "Retain cross-workload traces and reverse sorting, with naming motive attributed and tentative inspiration distinguished from observation. Reviewed action element.",
+        "target_sha256": {
+          "july-main-board-other-activity": "91366834d61de7b2cb6c7900f8081af7d35835b7394901a6f2eddaeacb398d12",
+          "july-main-board-sort-limit": "2a28bce8ce2b440452be10c0fcd720980fab0856eb448fc9ff9f57f075d76953"
+        }
+      },
+      {
+        "id": "legacy-003-03-detail-03",
+        "original_sha256": "a7cda27684267b5cb50238c649e9e259851ef71acfbd5739976d356f0873eee3",
+        "disposition": "rewrite",
+        "beats": [
+          "july-main-board-other-activity",
+          "july-main-board-sort-limit"
+        ],
+        "reason": "Retain cross-workload traces and reverse sorting, with naming motive attributed and tentative inspiration distinguished from observation. Reviewed lettering element.",
+        "target_sha256": {
+          "july-main-board-other-activity": "91366834d61de7b2cb6c7900f8081af7d35835b7394901a6f2eddaeacb398d12",
+          "july-main-board-sort-limit": "2a28bce8ce2b440452be10c0fcd720980fab0856eb448fc9ff9f57f075d76953"
+        }
+      }
+    ]
+  },
+  {
+    "old_panel": "003-04",
+    "old_edition": "legacy-332b5ed63262",
+    "reviewed_on": "2026-09-13",
+    "status": "elements-reviewed",
+    "elements": [
+      {
+        "id": "legacy-003-04-detail-01",
+        "original_sha256": "f08e705a288187b3b4bae1047cc34b7664038c72fdceb2191704b3a1870d4063",
+        "disposition": "rewrite",
+        "beats": [
+          "july-main-board-test-write",
+          "july-main-board-seven-hours"
+        ],
+        "reason": "Separate early test writes from the later signaling decision; replace exact invented UI action and old accent reveal with unclocked preparation and reported elapsed time. Reviewed frame element.",
+        "target_sha256": {
+          "july-main-board-test-write": "aced49fc8cdedc9923bc486f6e9b4541f91313ed15413077d3d049e79bd5f6ac",
+          "july-main-board-seven-hours": "81696161aa24c8b645c9b90ba96706c54c0df859c9aefdbf7608e7db272345c9"
+        }
+      },
+      {
+        "id": "legacy-003-04-detail-02",
+        "original_sha256": "f3608fa28ccdc5f56854197a75266029d364eb0c472083b148fa865b396013c5",
+        "disposition": "rewrite",
+        "beats": [
+          "july-main-board-test-write",
+          "july-main-board-seven-hours"
+        ],
+        "reason": "Separate early test writes from the later signaling decision; replace exact invented UI action and old accent reveal with unclocked preparation and reported elapsed time. Reviewed action element.",
+        "target_sha256": {
+          "july-main-board-test-write": "aced49fc8cdedc9923bc486f6e9b4541f91313ed15413077d3d049e79bd5f6ac",
+          "july-main-board-seven-hours": "81696161aa24c8b645c9b90ba96706c54c0df859c9aefdbf7608e7db272345c9"
+        }
+      },
+      {
+        "id": "legacy-003-04-detail-03",
+        "original_sha256": "2949dd9dfff1b3ba31b04fed6ec868c5e79b50af99999727a5db45586b5748a2",
+        "disposition": "rewrite",
+        "beats": [
+          "july-main-board-test-write",
+          "july-main-board-seven-hours"
+        ],
+        "reason": "Separate early test writes from the later signaling decision; replace exact invented UI action and old accent reveal with unclocked preparation and reported elapsed time. Reviewed lettering element.",
+        "target_sha256": {
+          "july-main-board-test-write": "aced49fc8cdedc9923bc486f6e9b4541f91313ed15413077d3d049e79bd5f6ac",
+          "july-main-board-seven-hours": "81696161aa24c8b645c9b90ba96706c54c0df859c9aefdbf7608e7db272345c9"
+        }
+      }
+    ]
+  },
+  {
+    "old_panel": "003-05",
+    "old_edition": "legacy-332b5ed63262",
+    "reviewed_on": "2026-09-13",
+    "status": "elements-reviewed",
+    "elements": [
+      {
+        "id": "legacy-003-05-detail-01",
+        "original_sha256": "c9ec34535c2f486a595eab5768995e17bf97b2c67263a7cbcd464edfabb9f8b9",
+        "disposition": "rewrite",
+        "beats": [
+          "july-main-board-help-request",
+          "july-main-board-seven-hours"
+        ],
+        "reason": "Keep PHASEONE10841’s task-help request in the post-rebuild chronology, not the first board in history; replace paraphrased source-looking screen text with attributed narration. Reviewed frame element.",
+        "target_sha256": {
+          "july-main-board-help-request": "c16166bf352b8ed0c605b1ca841d007a7346fbc64a7373e3a4eed2cd844cc47c",
+          "july-main-board-seven-hours": "81696161aa24c8b645c9b90ba96706c54c0df859c9aefdbf7608e7db272345c9"
+        }
+      },
+      {
+        "id": "legacy-003-05-detail-02",
+        "original_sha256": "40cb011697cab37a2bddfaefc1693cf045f72439a488d1d96d5870da507aa69f",
+        "disposition": "rewrite",
+        "beats": [
+          "july-main-board-help-request",
+          "july-main-board-seven-hours"
+        ],
+        "reason": "Keep PHASEONE10841’s task-help request in the post-rebuild chronology, not the first board in history; replace paraphrased source-looking screen text with attributed narration. Reviewed action element.",
+        "target_sha256": {
+          "july-main-board-help-request": "c16166bf352b8ed0c605b1ca841d007a7346fbc64a7373e3a4eed2cd844cc47c",
+          "july-main-board-seven-hours": "81696161aa24c8b645c9b90ba96706c54c0df859c9aefdbf7608e7db272345c9"
+        }
+      },
+      {
+        "id": "legacy-003-05-detail-03",
+        "original_sha256": "4fe9baedea8212646b6974b189772625dfbf62adff2aa1f2729d84641c363d43",
+        "disposition": "rewrite",
+        "beats": [
+          "july-main-board-help-request",
+          "july-main-board-seven-hours"
+        ],
+        "reason": "Keep PHASEONE10841’s task-help request in the post-rebuild chronology, not the first board in history; replace paraphrased source-looking screen text with attributed narration. Reviewed lettering element.",
+        "target_sha256": {
+          "july-main-board-help-request": "c16166bf352b8ed0c605b1ca841d007a7346fbc64a7373e3a4eed2cd844cc47c",
+          "july-main-board-seven-hours": "81696161aa24c8b645c9b90ba96706c54c0df859c9aefdbf7608e7db272345c9"
+        }
+      },
+      {
+        "id": "legacy-003-05-detail-04",
+        "original_sha256": "d66e2a7ee782457b65ed47d9f183ff8edad9ce33df7ebea4cba2598e6df5e246",
+        "disposition": "rewrite",
+        "beats": [
+          "july-main-board-help-request",
+          "july-main-board-seven-hours"
+        ],
+        "reason": "Keep PHASEONE10841’s task-help request in the post-rebuild chronology, not the first board in history; replace paraphrased source-looking screen text with attributed narration. Reviewed lettering element.",
+        "target_sha256": {
+          "july-main-board-help-request": "c16166bf352b8ed0c605b1ca841d007a7346fbc64a7373e3a4eed2cd844cc47c",
+          "july-main-board-seven-hours": "81696161aa24c8b645c9b90ba96706c54c0df859c9aefdbf7608e7db272345c9"
+        }
+      }
+    ]
+  },
+  {
+    "old_panel": "004-01",
+    "old_edition": "legacy-332b5ed63262",
+    "reviewed_on": "2026-09-13",
+    "status": "elements-reviewed",
+    "elements": [
+      {
+        "id": "legacy-004-01-detail-01",
+        "original_sha256": "fd694ba1315dbbdafa84aedc7694c1ad869940bc25a763b016b80ec4abe25341",
+        "disposition": "rewrite",
+        "beats": [
+          "july-main-board-shared-state"
+        ],
+        "reason": "Keep the communication affordance without source-looking paraphrase or an invented selection state. Reviewed frame element.",
+        "target_sha256": {
+          "july-main-board-shared-state": "d49b8278b5a10469b978336885b19efb146e9f66a317ee417644b0516cc04b81"
+        }
+      },
+      {
+        "id": "legacy-004-01-detail-02",
+        "original_sha256": "415a070fb5d7663a58a31d8c3f65087dd96bc0edffb38a3008999c39161e0224",
+        "disposition": "rewrite",
+        "beats": [
+          "july-main-board-shared-state"
+        ],
+        "reason": "Keep the communication affordance without source-looking paraphrase or an invented selection state. Reviewed action element.",
+        "target_sha256": {
+          "july-main-board-shared-state": "d49b8278b5a10469b978336885b19efb146e9f66a317ee417644b0516cc04b81"
+        }
+      },
+      {
+        "id": "legacy-004-01-detail-03",
+        "original_sha256": "364c58e01d7829e4d82c08d1c8d65e1956de72f407d3af7789ce4a2ea48f082c",
+        "disposition": "rewrite",
+        "beats": [
+          "july-main-board-shared-state"
+        ],
+        "reason": "Keep the communication affordance without source-looking paraphrase or an invented selection state. Reviewed lettering element.",
+        "target_sha256": {
+          "july-main-board-shared-state": "d49b8278b5a10469b978336885b19efb146e9f66a317ee417644b0516cc04b81"
+        }
+      }
+    ]
+  },
+  {
+    "old_panel": "004-02",
+    "old_edition": "legacy-332b5ed63262",
+    "reviewed_on": "2026-09-13",
+    "status": "elements-reviewed",
+    "elements": [
+      {
+        "id": "legacy-004-02-detail-01",
+        "original_sha256": "72f2ec813f5a674abd8bc6ef48e09c66ae0ff398400aa71d05f1528a0144c7ad",
+        "disposition": "rewrite",
+        "beats": [
+          "july-main-board-shared-state"
+        ],
+        "reason": "Keep the shared-store topology. The old no-channel caption must not deny that shared storage itself provides communication. Reviewed frame element.",
+        "target_sha256": {
+          "july-main-board-shared-state": "d49b8278b5a10469b978336885b19efb146e9f66a317ee417644b0516cc04b81"
+        }
+      },
+      {
+        "id": "legacy-004-02-detail-02",
+        "original_sha256": "c24fa40b8a2ecd7cf42b8705db768bd93a1fffaed1cc8e83ed157e7391f704e3",
+        "disposition": "rewrite",
+        "beats": [
+          "july-main-board-shared-state"
+        ],
+        "reason": "Keep the shared-store topology. The old no-channel caption must not deny that shared storage itself provides communication. Reviewed action element.",
+        "target_sha256": {
+          "july-main-board-shared-state": "d49b8278b5a10469b978336885b19efb146e9f66a317ee417644b0516cc04b81"
+        }
+      },
+      {
+        "id": "legacy-004-02-detail-03",
+        "original_sha256": "d834d21962f8c2a1d85e51f0baa57c1828f8fcfc140f181028ec501b83d4b778",
+        "disposition": "rewrite",
+        "beats": [
+          "july-main-board-shared-state"
+        ],
+        "reason": "Keep the shared-store topology. The old no-channel caption must not deny that shared storage itself provides communication. Reviewed lettering element.",
+        "target_sha256": {
+          "july-main-board-shared-state": "d49b8278b5a10469b978336885b19efb146e9f66a317ee417644b0516cc04b81"
+        }
+      }
+    ]
+  },
+  {
+    "old_panel": "004-03",
+    "old_edition": "legacy-332b5ed63262",
+    "reviewed_on": "2026-09-13",
+    "status": "elements-reviewed",
+    "elements": [
+      {
+        "id": "legacy-004-03-detail-01",
+        "original_sha256": "2cfd4572b54bddbf56f1bb183b967654e6568ad11c06e82a070dfe2017488e5e",
+        "disposition": "rewrite",
+        "beats": [
+          "july-main-board-shared-state"
+        ],
+        "reason": "Keep write-then-later-read mechanism without claiming universal reach or copying source UI. Reviewed frame element.",
+        "target_sha256": {
+          "july-main-board-shared-state": "d49b8278b5a10469b978336885b19efb146e9f66a317ee417644b0516cc04b81"
+        }
+      },
+      {
+        "id": "legacy-004-03-detail-02",
+        "original_sha256": "37ce3b92f7e78cccdb9626f4d8ecb55004c79c47f7b51ecbf4674ff5fe481237",
+        "disposition": "rewrite",
+        "beats": [
+          "july-main-board-shared-state"
+        ],
+        "reason": "Keep write-then-later-read mechanism without claiming universal reach or copying source UI. Reviewed action element.",
+        "target_sha256": {
+          "july-main-board-shared-state": "d49b8278b5a10469b978336885b19efb146e9f66a317ee417644b0516cc04b81"
+        }
+      },
+      {
+        "id": "legacy-004-03-detail-03",
+        "original_sha256": "77e46d4874f7d6cfe5caf07a6f4e62625db8c1ad8b54877b01723a232a18f115",
+        "disposition": "rewrite",
+        "beats": [
+          "july-main-board-shared-state"
+        ],
+        "reason": "Keep write-then-later-read mechanism without claiming universal reach or copying source UI. Reviewed lettering element.",
+        "target_sha256": {
+          "july-main-board-shared-state": "d49b8278b5a10469b978336885b19efb146e9f66a317ee417644b0516cc04b81"
+        }
+      }
+    ]
+  },
+  {
+    "old_panel": "004-04",
+    "old_edition": "legacy-332b5ed63262",
+    "reviewed_on": "2026-09-13",
+    "status": "elements-reviewed",
+    "elements": [
+      {
+        "id": "legacy-004-04-detail-01",
+        "original_sha256": "deff388763525f88218636e5cf4b2add00dec6e63efa522b2f45a6ca9527c9dd",
+        "disposition": "rewrite",
+        "beats": [
+          "july-board-discovery-persistence",
+          "july-board-discovery-presence-limit"
+        ],
+        "reason": "Keep persistence beyond the writing moment without implying the writer terminated or every reader had access. Reviewed frame element.",
+        "target_sha256": {
+          "july-board-discovery-persistence": "2dad03ad8909c275ae5c88bbeeb54a34baad6f96b7cba373511fb80c48ad11c1",
+          "july-board-discovery-presence-limit": "667138a93a2f02e790d10de926138071d0aae5144b355aa84b42452ed1d3a932"
+        }
+      },
+      {
+        "id": "legacy-004-04-detail-02",
+        "original_sha256": "af3676166c2d8efec29b7f6ce276bf64d99105ecbc3449535c9b16d5d0cf2952",
+        "disposition": "rewrite",
+        "beats": [
+          "july-board-discovery-persistence",
+          "july-board-discovery-presence-limit"
+        ],
+        "reason": "Keep persistence beyond the writing moment without implying the writer terminated or every reader had access. Reviewed action element.",
+        "target_sha256": {
+          "july-board-discovery-persistence": "2dad03ad8909c275ae5c88bbeeb54a34baad6f96b7cba373511fb80c48ad11c1",
+          "july-board-discovery-presence-limit": "667138a93a2f02e790d10de926138071d0aae5144b355aa84b42452ed1d3a932"
+        }
+      },
+      {
+        "id": "legacy-004-04-detail-03",
+        "original_sha256": "15a83ef03bc85c9bdbc607eeb28228373d34c4ffdca6496d5e350955d4d30aeb",
+        "disposition": "rewrite",
+        "beats": [
+          "july-board-discovery-persistence",
+          "july-board-discovery-presence-limit"
+        ],
+        "reason": "Keep persistence beyond the writing moment without implying the writer terminated or every reader had access. Reviewed lettering element.",
+        "target_sha256": {
+          "july-board-discovery-persistence": "2dad03ad8909c275ae5c88bbeeb54a34baad6f96b7cba373511fb80c48ad11c1",
+          "july-board-discovery-presence-limit": "667138a93a2f02e790d10de926138071d0aae5144b355aa84b42452ed1d3a932"
+        }
+      }
+    ]
+  },
+  {
+    "old_panel": "004-05",
+    "old_edition": "legacy-332b5ed63262",
+    "reviewed_on": "2026-09-13",
+    "status": "elements-reviewed",
+    "elements": [
+      {
+        "id": "legacy-004-05-detail-01",
+        "original_sha256": "f0c2eb3aa9f60d25102e3a3eee25981fcb19251ab5ebd8a0b39e2ddbf5e24544",
+        "disposition": "rewrite",
+        "beats": [
+          "july-board-discovery-observation",
+          "july-board-discovery-presence-limit"
+        ],
+        "reason": "Keep later observation without an invented first-reader identity, cursor, cooperation or source-looking abbreviated message. Reviewed frame element.",
+        "target_sha256": {
+          "july-board-discovery-observation": "15c27634b7190d9caed4f8d1e46dd12eb461af936f77965f755f893c49900492",
+          "july-board-discovery-presence-limit": "667138a93a2f02e790d10de926138071d0aae5144b355aa84b42452ed1d3a932"
+        }
+      },
+      {
+        "id": "legacy-004-05-detail-02",
+        "original_sha256": "f24b949cb7e0e27214b5dac3e79752488413d6f7700f82f6c9c0ab375c60283b",
+        "disposition": "rewrite",
+        "beats": [
+          "july-board-discovery-observation",
+          "july-board-discovery-presence-limit"
+        ],
+        "reason": "Keep later observation without an invented first-reader identity, cursor, cooperation or source-looking abbreviated message. Reviewed action element.",
+        "target_sha256": {
+          "july-board-discovery-observation": "15c27634b7190d9caed4f8d1e46dd12eb461af936f77965f755f893c49900492",
+          "july-board-discovery-presence-limit": "667138a93a2f02e790d10de926138071d0aae5144b355aa84b42452ed1d3a932"
+        }
+      }
+    ]
+  },
+  {
+    "old_panel": "005-01",
+    "old_edition": "legacy-332b5ed63262",
+    "reviewed_on": "2026-09-13",
+    "status": "elements-reviewed",
+    "elements": [
+      {
+        "id": "legacy-005-01-detail-01",
+        "original_sha256": "5c8ae43634ef3ad4aa29f776988f0057f14f1045cb76fcf50f5a57a6b1ea3d14",
+        "disposition": "rewrite",
+        "beats": [
+          "july-board-discovery-reply"
+        ],
+        "reason": "Keep documented replies without unsupported first-resource ranking or the old recto reveal. Reviewed frame element.",
+        "target_sha256": {
+          "july-board-discovery-reply": "6f5b20937c337492e98a30229890380c0d76e9fd600c634e41cb100068259b4a"
+        }
+      },
+      {
+        "id": "legacy-005-01-detail-02",
+        "original_sha256": "ec748e00f40589925c644f1275ec6d5ebdb5c323e4805e8cb1b34f07c065a5fe",
+        "disposition": "rewrite",
+        "beats": [
+          "july-board-discovery-reply"
+        ],
+        "reason": "Keep documented replies without unsupported first-resource ranking or the old recto reveal. Reviewed action element.",
+        "target_sha256": {
+          "july-board-discovery-reply": "6f5b20937c337492e98a30229890380c0d76e9fd600c634e41cb100068259b4a"
+        }
+      },
+      {
+        "id": "legacy-005-01-detail-03",
+        "original_sha256": "e119000d4ab57311430f5f2dfcf57c613307b4ab4e952aa96cd4e6f4e17daac3",
+        "disposition": "rewrite",
+        "beats": [
+          "july-board-discovery-reply"
+        ],
+        "reason": "Keep documented replies without unsupported first-resource ranking or the old recto reveal. Reviewed lettering element.",
+        "target_sha256": {
+          "july-board-discovery-reply": "6f5b20937c337492e98a30229890380c0d76e9fd600c634e41cb100068259b4a"
+        }
+      }
+    ]
+  },
+  {
+    "old_panel": "005-02",
+    "old_edition": "legacy-332b5ed63262",
+    "reviewed_on": "2026-09-13",
+    "status": "elements-reviewed",
+    "elements": [
+      {
+        "id": "legacy-005-02-detail-01",
+        "original_sha256": "25c817622a8e73b29c6eeb8782572d0f54bc8d3e231cd44da96898fb37c8969a",
+        "disposition": "rewrite",
+        "beats": [
+          "july-board-discovery-mailbox-recognition"
+        ],
+        "reason": "Keep the reported mailbox recognition as attributed reasoning, not an invented board post or exact screen text. Reviewed frame element.",
+        "target_sha256": {
+          "july-board-discovery-mailbox-recognition": "addd3927e5be5b3ea85186ee1c715e5834f1fb2beb5b81af65fd3540bc3b9755"
+        }
+      },
+      {
+        "id": "legacy-005-02-detail-02",
+        "original_sha256": "1962817dac90c2e5cf5938d2d49fd15e8ce449841e0afb38b3fd5821de3d4b66",
+        "disposition": "rewrite",
+        "beats": [
+          "july-board-discovery-mailbox-recognition"
+        ],
+        "reason": "Keep the reported mailbox recognition as attributed reasoning, not an invented board post or exact screen text. Reviewed action element.",
+        "target_sha256": {
+          "july-board-discovery-mailbox-recognition": "addd3927e5be5b3ea85186ee1c715e5834f1fb2beb5b81af65fd3540bc3b9755"
+        }
+      },
+      {
+        "id": "legacy-005-02-detail-03",
+        "original_sha256": "e29dabb6f32b132fdfe9491f979186be821509a613db206e554e596dd56948be",
+        "disposition": "rewrite",
+        "beats": [
+          "july-board-discovery-mailbox-recognition"
+        ],
+        "reason": "Keep the reported mailbox recognition as attributed reasoning, not an invented board post or exact screen text. Reviewed lettering element.",
+        "target_sha256": {
+          "july-board-discovery-mailbox-recognition": "addd3927e5be5b3ea85186ee1c715e5834f1fb2beb5b81af65fd3540bc3b9755"
+        }
+      }
+    ]
+  },
+  {
+    "old_panel": "005-03",
+    "old_edition": "legacy-332b5ed63262",
+    "reviewed_on": "2026-09-13",
+    "status": "elements-reviewed",
+    "elements": [
+      {
+        "id": "legacy-005-03-detail-01",
+        "original_sha256": "b8540c1f9e175e47d94f7be1791db6ee76838b59f012f27e2fccf3dee27bda83",
+        "disposition": "rewrite",
+        "beats": [
+          "july-board-discovery-another-recognition"
+        ],
+        "reason": "Keep a separate reported discovery without invented task header, timer or a shared mind. Reviewed frame element.",
+        "target_sha256": {
+          "july-board-discovery-another-recognition": "be5e4f42c35ecc9e9d618e077ad932c68aed384f2353c4993028bac65db10389"
+        }
+      },
+      {
+        "id": "legacy-005-03-detail-02",
+        "original_sha256": "81e11b45f44e6a4562a4e0549d09dd5a3735fedfd740ab6d763fdecf025abb80",
+        "disposition": "rewrite",
+        "beats": [
+          "july-board-discovery-another-recognition"
+        ],
+        "reason": "Keep a separate reported discovery without invented task header, timer or a shared mind. Reviewed action element.",
+        "target_sha256": {
+          "july-board-discovery-another-recognition": "be5e4f42c35ecc9e9d618e077ad932c68aed384f2353c4993028bac65db10389"
+        }
+      },
+      {
+        "id": "legacy-005-03-detail-03",
+        "original_sha256": "08735acdf13f7488fcc5f85dedc0d9f85a236f89dd7798debe6aede9cfc98f59",
+        "disposition": "rewrite",
+        "beats": [
+          "july-board-discovery-another-recognition"
+        ],
+        "reason": "Keep a separate reported discovery without invented task header, timer or a shared mind. Reviewed lettering element.",
+        "target_sha256": {
+          "july-board-discovery-another-recognition": "be5e4f42c35ecc9e9d618e077ad932c68aed384f2353c4993028bac65db10389"
+        }
+      }
+    ]
+  },
+  {
+    "old_panel": "005-04",
+    "old_edition": "legacy-332b5ed63262",
+    "reviewed_on": "2026-09-13",
+    "status": "elements-reviewed",
+    "elements": [
+      {
+        "id": "legacy-005-04-detail-01",
+        "original_sha256": "3080a2e60a193de4daa74594fd910a52dbe6eeb9e743c4a94902027cf18ad81f",
+        "disposition": "rewrite",
+        "beats": [
+          "july-board-three-hour-count",
+          "july-board-census-growth",
+          "july-board-discovery-recognizability"
+        ],
+        "reason": "Replace four invented snapshots with measured three- and six-hour totals; retain easier recognition as qualified functional interpretation rather than measured per-reply causality. Reviewed frame element.",
+        "target_sha256": {
+          "july-board-three-hour-count": "d53ea8ec05410e7b8b351388e94bd30ba8bba8c13b2ed0e2d8b9f88ee40744f3",
+          "july-board-census-growth": "61173451468c5ea04372732d6d4a4cbf837f83faab418a9cf110ec6104720bd9",
+          "july-board-discovery-recognizability": "f4d5d4d19ddde25179b8a55fb8442d14738924ebc684b12aa38ac04bbc2d27c5"
+        }
+      },
+      {
+        "id": "legacy-005-04-detail-02",
+        "original_sha256": "e5649f0f4d57d27976905d071f143bdfbeec9393eca9946dd6c20f810e9abf0f",
+        "disposition": "rewrite",
+        "beats": [
+          "july-board-three-hour-count",
+          "july-board-census-growth",
+          "july-board-discovery-recognizability"
+        ],
+        "reason": "Replace four invented snapshots with measured three- and six-hour totals; retain easier recognition as qualified functional interpretation rather than measured per-reply causality. Reviewed action element.",
+        "target_sha256": {
+          "july-board-three-hour-count": "d53ea8ec05410e7b8b351388e94bd30ba8bba8c13b2ed0e2d8b9f88ee40744f3",
+          "july-board-census-growth": "61173451468c5ea04372732d6d4a4cbf837f83faab418a9cf110ec6104720bd9",
+          "july-board-discovery-recognizability": "f4d5d4d19ddde25179b8a55fb8442d14738924ebc684b12aa38ac04bbc2d27c5"
+        }
+      },
+      {
+        "id": "legacy-005-04-detail-03",
+        "original_sha256": "26a9483f12be3bacbebdb05b2450e6cfe9be7c4f9126cde21382fe21e0128c76",
+        "disposition": "rewrite",
+        "beats": [
+          "july-board-three-hour-count",
+          "july-board-census-growth",
+          "july-board-discovery-recognizability"
+        ],
+        "reason": "Replace four invented snapshots with measured three- and six-hour totals; retain easier recognition as qualified functional interpretation rather than measured per-reply causality. Reviewed lettering element.",
+        "target_sha256": {
+          "july-board-three-hour-count": "d53ea8ec05410e7b8b351388e94bd30ba8bba8c13b2ed0e2d8b9f88ee40744f3",
+          "july-board-census-growth": "61173451468c5ea04372732d6d4a4cbf837f83faab418a9cf110ec6104720bd9",
+          "july-board-discovery-recognizability": "f4d5d4d19ddde25179b8a55fb8442d14738924ebc684b12aa38ac04bbc2d27c5"
+        }
+      }
+    ]
+  },
+  {
+    "old_panel": "005-05",
+    "old_edition": "legacy-332b5ed63262",
+    "reviewed_on": "2026-09-13",
+    "status": "elements-reviewed",
+    "elements": [
+      {
+        "id": "legacy-005-05-detail-01",
+        "original_sha256": "c7d9b1030f5a1208769cddb558d2dd3e3faa1d4c304d82284ff834ccddb24734",
+        "disposition": "rewrite",
+        "beats": [
+          "july-board-census-growth",
+          "july-board-census-distinct-runs"
+        ],
+        "reason": "Keep both six-hour units and separate workloads; qualify agents as posters, not concurrent processes or all observers. Reviewed frame element.",
+        "target_sha256": {
+          "july-board-census-growth": "61173451468c5ea04372732d6d4a4cbf837f83faab418a9cf110ec6104720bd9",
+          "july-board-census-distinct-runs": "449d2ec7df0f80b469b3095a56a0af85f48009ef768a6a889412f170caf11bc6"
+        }
+      },
+      {
+        "id": "legacy-005-05-detail-02",
+        "original_sha256": "fd37c4b01652628c2eecb5d87ef478753c5f3e562ba48a15fb11a63030ab1139",
+        "disposition": "rewrite",
+        "beats": [
+          "july-board-census-growth",
+          "july-board-census-distinct-runs"
+        ],
+        "reason": "Keep both six-hour units and separate workloads; qualify agents as posters, not concurrent processes or all observers. Reviewed action element.",
+        "target_sha256": {
+          "july-board-census-growth": "61173451468c5ea04372732d6d4a4cbf837f83faab418a9cf110ec6104720bd9",
+          "july-board-census-distinct-runs": "449d2ec7df0f80b469b3095a56a0af85f48009ef768a6a889412f170caf11bc6"
+        }
+      },
+      {
+        "id": "legacy-005-05-detail-03",
+        "original_sha256": "98c740ca0798057de7eb0808f6c3d70398f35c90a784c6d2563a416edcf334e2",
+        "disposition": "rewrite",
+        "beats": [
+          "july-board-census-growth",
+          "july-board-census-distinct-runs"
+        ],
+        "reason": "Keep both six-hour units and separate workloads; qualify agents as posters, not concurrent processes or all observers. Reviewed lettering element.",
+        "target_sha256": {
+          "july-board-census-growth": "61173451468c5ea04372732d6d4a4cbf837f83faab418a9cf110ec6104720bd9",
+          "july-board-census-distinct-runs": "449d2ec7df0f80b469b3095a56a0af85f48009ef768a6a889412f170caf11bc6"
+        }
+      }
+    ]
   }
 ]

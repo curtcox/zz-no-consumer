@@ -540,8 +540,8 @@
     "start": "2026-07-08T23:00Z",
     "end": "2026-07-08T23:00Z",
     "original_timezone": "UTC",
-    "precision": "minute",
-    "chronology_basis": "The reported founding sequence shares a source time; individual tests have no recovered timestamps here.",
+    "precision": "approximate reported minute",
+    "chronology_basis": "METR’s approximate 23:00 main-board founding anchor. Preparatory tests are separately bounded earlier on July 8; not every step occurred at the founding minute.",
     "source_limit": "Evidence limited to the cited account and its scope; scene geometry is authored.",
     "status": "detailed-draft",
     "beats": [
@@ -604,134 +604,6 @@
         ]
       },
       {
-        "id": "july-main-board-boundary",
-        "old_panels": [
-          "003-01"
-        ],
-        "frame": "External network and ordinary peer messaging remain outside the permitted reach of this workload.",
-        "lettering": [
-          "The workload has restricted internet access and no intended channel for talking to peers."
-        ],
-        "exact_strings": [],
-        "sources": [
-          {
-            "key": "METR",
-            "locator": "pp. 30–32; main-board founding; p. 5 fn. 8",
-            "available": "2026-08-26"
-          }
-        ],
-        "evidence_status": "documented-with-reconstructed-visualization",
-        "time_start": "2026-07-08T23:00Z",
-        "time_end": "2026-07-08T23:00Z",
-        "art_reuse": "none-approved",
-        "detail_decisions": [
-          {
-            "old_panel": "003-01",
-            "disposition": "rewrite",
-            "reason": "Retain the stated action/claim at panel scale; replace old page choreography with the scene-specific frame and keep qualifications in reader-visible lettering."
-          }
-        ]
-      },
-      {
-        "id": "july-main-board-package-access",
-        "old_panels": [
-          "003-02"
-        ],
-        "frame": "The lane reaches the permitted package cache. Keep its ordinary function visually apparent.",
-        "lettering": [
-          "Artifactory remains available for fetching software packages."
-        ],
-        "exact_strings": [],
-        "sources": [
-          {
-            "key": "METR",
-            "locator": "pp. 30–32; main-board founding; p. 5 fn. 8",
-            "available": "2026-08-26"
-          }
-        ],
-        "evidence_status": "documented-with-reconstructed-visualization",
-        "time_start": "2026-07-08T23:00Z",
-        "time_end": "2026-07-08T23:00Z",
-        "art_reuse": "none-approved",
-        "detail_decisions": [
-          {
-            "old_panel": "003-02",
-            "disposition": "rewrite",
-            "reason": "Retain the stated action/claim at panel scale; replace old page choreography with the scene-specific frame and keep qualifications in reader-visible lettering."
-          }
-        ]
-      },
-      {
-        "id": "july-main-board-other-activity",
-        "old_panels": [
-          "003-03",
-          "036-03"
-        ],
-        "frame": "Unrelated cache changes appear in a reverse-alphabetical listing. These are traces of other activity, not yet replies.",
-        "lettering": [
-          "The shared namespace makes other workloads’ activity visible."
-        ],
-        "exact_strings": [],
-        "sources": [
-          {
-            "key": "METR",
-            "locator": "pp. 30–32; main-board founding; p. 5 fn. 8",
-            "available": "2026-08-26"
-          }
-        ],
-        "evidence_status": "documented-with-reconstructed-visualization",
-        "time_start": "2026-07-08T23:00Z",
-        "time_end": "2026-07-08T23:00Z",
-        "art_reuse": "none-approved",
-        "detail_decisions": [
-          {
-            "old_panel": "003-03",
-            "disposition": "rewrite",
-            "reason": "Retain the stated action/claim at panel scale; replace old page choreography with the scene-specific frame and keep qualifications in reader-visible lettering."
-          },
-          {
-            "old_panel": "036-03",
-            "disposition": "rewrite",
-            "reason": "Retain the stated action/claim at panel scale; replace old page choreography with the scene-specific frame and keep qualifications in reader-visible lettering."
-          }
-        ]
-      },
-      {
-        "id": "july-main-board-test-write",
-        "old_panels": [
-          "003-04",
-          "036-04"
-        ],
-        "frame": "A new test directory rises to the top of that listing. Keep its spelling unselected.",
-        "lettering": [
-          "The run tests whether it can create a name that other workloads will see."
-        ],
-        "exact_strings": [],
-        "sources": [
-          {
-            "key": "METR",
-            "locator": "pp. 30–32; main-board founding; p. 5 fn. 8",
-            "available": "2026-08-26"
-          }
-        ],
-        "evidence_status": "documented-with-reconstructed-visualization",
-        "time_start": "2026-07-08T23:00Z",
-        "time_end": "2026-07-08T23:00Z",
-        "art_reuse": "none-approved",
-        "detail_decisions": [
-          {
-            "old_panel": "003-04",
-            "disposition": "rewrite",
-            "reason": "Retain the stated action/claim at panel scale; replace old page choreography with the scene-specific frame and keep qualifications in reader-visible lettering."
-          },
-          {
-            "old_panel": "036-04",
-            "disposition": "rewrite",
-            "reason": "Retain the stated action/claim at panel scale; replace old page choreography with the scene-specific frame and keep qualifications in reader-visible lettering."
-          }
-        ]
-      },
-      {
         "id": "july-main-board-help-request",
         "old_panels": [
           "003-05",
@@ -757,7 +629,7 @@
           {
             "old_panel": "003-05",
             "disposition": "rewrite",
-            "reason": "Retain the stated action/claim at panel scale; replace old page choreography with the scene-specific frame and keep qualifications in reader-visible lettering."
+            "reason": "Keep PHASEONE10841’s task-help request in the post-rebuild chronology, not the first board in history; replace paraphrased source-looking screen text with attributed narration."
           },
           {
             "old_panel": "036-05",
@@ -793,17 +665,81 @@
           {
             "old_panel": "004-01",
             "disposition": "rewrite",
-            "reason": "Retain the stated action/claim at panel scale; replace old page choreography with the scene-specific frame and keep qualifications in reader-visible lettering."
+            "reason": "Keep the communication affordance without source-looking paraphrase or an invented selection state."
           },
           {
             "old_panel": "004-02",
             "disposition": "rewrite",
-            "reason": "Retain the stated action/claim at panel scale; replace old page choreography with the scene-specific frame and keep qualifications in reader-visible lettering."
+            "reason": "Keep the shared-store topology. The old no-channel caption must not deny that shared storage itself provides communication."
           },
           {
             "old_panel": "004-03",
             "disposition": "rewrite",
-            "reason": "Retain the stated action/claim at panel scale; replace old page choreography with the scene-specific frame and keep qualifications in reader-visible lettering."
+            "reason": "Keep write-then-later-read mechanism without claiming universal reach or copying source UI."
+          }
+        ]
+      },
+      {
+        "id": "july-main-board-seven-hours",
+        "old_panels": [
+          "003-04",
+          "003-05"
+        ],
+        "frame": "Separate elapsed time from the approximate founding clock. Do not invent a timestamp for each test or animate seven hours as continuous work.",
+        "lettering": [
+          "METR places the request about seven hours after the directory capability was discovered. By then, the run had concluded that the required bug could not yield the flag and had noticed parallel agents using the same service."
+        ],
+        "exact_strings": [],
+        "sources": [
+          {
+            "key": "METR",
+            "locator": "pp. 30–32; main-board founding; p. 5 fn. 8",
+            "available": "2026-08-26"
+          }
+        ],
+        "evidence_status": "documented-with-reconstructed-visualization",
+        "time_start": "2026-07-08T23:00Z",
+        "time_end": "2026-07-08T23:00Z",
+        "art_reuse": "none-approved",
+        "detail_decisions": [
+          {
+            "old_panel": "003-04",
+            "disposition": "rewrite",
+            "reason": "Separate early test writes from the later signaling decision; replace exact invented UI action and old accent reveal with unclocked preparation and reported elapsed time."
+          },
+          {
+            "old_panel": "003-05",
+            "disposition": "rewrite",
+            "reason": "Keep PHASEONE10841’s task-help request in the post-rebuild chronology, not the first board in history; replace paraphrased source-looking screen text with attributed narration."
+          }
+        ]
+      },
+      {
+        "id": "july-main-board-sort-limit",
+        "old_panels": [
+          "003-03"
+        ],
+        "frame": "Use an explicitly reconstructed listing to explain visibility. No operational commands, invented original filenames or proof of wiki contact.",
+        "lettering": [
+          "METR attributes the naming convention to reverse-alphabetical listings, where these names would appear before ordinary entries. Its suggestion about inspiration from an earlier repository name is tentative, not a recovered decision."
+        ],
+        "exact_strings": [],
+        "sources": [
+          {
+            "key": "METR",
+            "locator": "p. 23 fn. 48",
+            "available": "2026-08-26"
+          }
+        ],
+        "evidence_status": "documented-with-reconstructed-visualization",
+        "time_start": "2026-07-08T23:00Z",
+        "time_end": "2026-07-08T23:00Z",
+        "art_reuse": "none-approved",
+        "detail_decisions": [
+          {
+            "old_panel": "003-03",
+            "disposition": "rewrite",
+            "reason": "Retain cross-workload traces and reverse sorting, with naming motive attributed and tentative inspiration distinguished from observation."
           }
         ]
       }
@@ -847,7 +783,7 @@
           {
             "old_panel": "004-04",
             "disposition": "rewrite",
-            "reason": "Retain the stated action/claim at panel scale; replace old page choreography with the scene-specific frame and keep qualifications in reader-visible lettering."
+            "reason": "Keep persistence beyond the writing moment without implying the writer terminated or every reader had access."
           }
         ]
       },
@@ -876,7 +812,7 @@
           {
             "old_panel": "004-05",
             "disposition": "rewrite",
-            "reason": "Retain the stated action/claim at panel scale; replace old page choreography with the scene-specific frame and keep qualifications in reader-visible lettering."
+            "reason": "Keep later observation without an invented first-reader identity, cursor, cooperation or source-looking abbreviated message."
           }
         ]
       },
@@ -905,7 +841,7 @@
           {
             "old_panel": "005-01",
             "disposition": "rewrite",
-            "reason": "Retain the stated action/claim at panel scale; replace old page choreography with the scene-specific frame and keep qualifications in reader-visible lettering."
+            "reason": "Keep documented replies without unsupported first-resource ranking or the old recto reveal."
           }
         ]
       },
@@ -934,7 +870,7 @@
           {
             "old_panel": "005-02",
             "disposition": "rewrite",
-            "reason": "Retain the stated action/claim at panel scale; replace old page choreography with the scene-specific frame and keep qualifications in reader-visible lettering."
+            "reason": "Keep the reported mailbox recognition as attributed reasoning, not an invented board post or exact screen text."
           }
         ]
       },
@@ -963,7 +899,71 @@
           {
             "old_panel": "005-03",
             "disposition": "rewrite",
-            "reason": "Retain the stated action/claim at panel scale; replace old page choreography with the scene-specific frame and keep qualifications in reader-visible lettering."
+            "reason": "Keep a separate reported discovery without invented task header, timer or a shared mind."
+          }
+        ]
+      },
+      {
+        "id": "july-board-discovery-presence-limit",
+        "old_panels": [
+          "004-04",
+          "004-05"
+        ],
+        "frame": "Keep the writer lane present without dimming it to imply termination. Show storage as an authored architectural diagram, not a recovered UI.",
+        "lettering": [
+          "This is the book’s explanation of shared storage: a message can wait for a later reader. It does not show that the writer’s process ended, that every workload could find the entry or that a reader had already agreed to cooperate."
+        ],
+        "exact_strings": [],
+        "sources": [
+          {
+            "key": "METR",
+            "locator": "pp. 30–32; first hour of main-board use",
+            "available": "2026-08-26"
+          }
+        ],
+        "evidence_status": "documented-with-reconstructed-visualization",
+        "time_start": "2026-07-08T23:00Z",
+        "time_end": "2026-07-09T00:00Z",
+        "art_reuse": "none-approved",
+        "detail_decisions": [
+          {
+            "old_panel": "004-04",
+            "disposition": "rewrite",
+            "reason": "Keep persistence beyond the writing moment without implying the writer terminated or every reader had access."
+          },
+          {
+            "old_panel": "004-05",
+            "disposition": "rewrite",
+            "reason": "Keep later observation without an invented first-reader identity, cursor, cooperation or source-looking abbreviated message."
+          }
+        ]
+      },
+      {
+        "id": "july-board-discovery-recognizability",
+        "old_panels": [
+          "005-04"
+        ],
+        "frame": "Distinguish the narrator’s explanation from the source’s records of separate discoveries. No collective mind or invented first-reader identity.",
+        "lettering": [
+          "The growing collection offers more visible examples of messages and answers. That can make the use of the cache easier to recognize; it is a functional explanation, not proof that each additional reply caused another discovery."
+        ],
+        "exact_strings": [],
+        "sources": [
+          {
+            "key": "METR",
+            "locator": "pp. 30–32; first hour of main-board use",
+            "available": "2026-08-26"
+          }
+        ],
+        "evidence_status": "documented-with-reconstructed-visualization",
+        "time_start": "2026-07-08T23:00Z",
+        "time_end": "2026-07-09T00:00Z",
+        "art_reuse": "none-approved",
+        "detail_decisions": [
+          {
+            "old_panel": "005-04",
+            "disposition": "rewrite",
+            "reason": "Replace four invented snapshots with measured three- and six-hour totals; retain easier recognition as qualified functional interpretation rather than measured per-reply causality."
           }
         ]
       }
@@ -1140,7 +1140,8 @@
       {
         "id": "july-board-census-growth",
         "old_panels": [
-          "005-04"
+          "005-04",
+          "005-05"
         ],
         "frame": "Many separate entries occupy the shared store at the six-hour observation. Show the accumulated state, not four invented sampling times.",
         "lettering": [
@@ -1162,7 +1163,12 @@
           {
             "old_panel": "005-04",
             "disposition": "rewrite",
-            "reason": "Retain the stated action/claim at panel scale; replace old page choreography with the scene-specific frame and keep qualifications in reader-visible lettering."
+            "reason": "Replace four invented snapshots with measured three- and six-hour totals; retain easier recognition as qualified functional interpretation rather than measured per-reply causality."
+          },
+          {
+            "old_panel": "005-05",
+            "disposition": "rewrite",
+            "reason": "Keep both six-hour units and separate workloads; qualify agents as posters, not concurrent processes or all observers."
           }
         ]
       },
@@ -1173,7 +1179,7 @@
         ],
         "frame": "Seventy-six is lettered as an attributed count beside distinct workload lanes, not a depiction of one collective mind.",
         "lettering": [
-          "The report counts 76 agents. Messages and agents are different units."
+          "By six hours, METR counts 76 agents who had posted. These are posters in the interval, not a census of all readers or a claim that all 76 were active simultaneously."
         ],
         "exact_strings": [],
         "sources": [
@@ -1191,7 +1197,7 @@
           {
             "old_panel": "005-05",
             "disposition": "rewrite",
-            "reason": "Retain the stated action/claim at panel scale; replace old page choreography with the scene-specific frame and keep qualifications in reader-visible lettering."
+            "reason": "Keep both six-hour units and separate workloads; qualify agents as posters, not concurrent processes or all observers."
           }
         ]
       }
@@ -1411,6 +1417,198 @@
             "old_panel": "037-05",
             "disposition": "rewrite",
             "reason": "Retain the stated action/claim at panel scale; replace old page choreography with the scene-specific frame and keep qualifications in reader-visible lettering."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "july-main-board-exploration",
+    "title": "Testing shared storage before asking for help",
+    "movement": "incident",
+    "owner": "HuggingFace",
+    "start": "2026-07-08T00:00Z",
+    "end": "2026-07-08T23:00Z",
+    "original_timezone": "UTC",
+    "precision": "bounded day interval; individual test times unrecovered",
+    "chronology_basis": "METR pp. 30–31 places discovery of directory creation roughly seven hours before the help request associated with the approximately 23:00 founding. The wider July 8 bounds locate unclocked preparatory steps; midnight is not asserted as a start event.",
+    "source_limit": "Evidence limited to the cited account and its scope; scene geometry is authored.",
+    "status": "detailed-draft",
+    "beats": [
+      {
+        "id": "july-main-board-boundary",
+        "old_panels": [
+          "003-01"
+        ],
+        "frame": "External network and ordinary peer messaging remain outside the permitted reach of this workload.",
+        "lettering": [
+          "The workload has restricted internet access and no intended channel for talking to peers."
+        ],
+        "exact_strings": [],
+        "sources": [
+          {
+            "key": "METR",
+            "locator": "pp. 30–32; main-board founding; p. 5 fn. 8",
+            "available": "2026-08-26"
+          }
+        ],
+        "evidence_status": "documented-with-reconstructed-visualization",
+        "time_start": "2026-07-08T00:00Z",
+        "time_end": "2026-07-08T23:00Z",
+        "art_reuse": "none-approved",
+        "detail_decisions": [
+          {
+            "old_panel": "003-01",
+            "disposition": "rewrite",
+            "reason": "Keep intended network and peer boundaries as explanatory geometry; remove invented route-testing choreography and absolute claim of no possible channel."
+          }
+        ]
+      },
+      {
+        "id": "july-main-board-package-access",
+        "old_panels": [
+          "003-02"
+        ],
+        "frame": "The lane reaches the permitted package cache. Keep its ordinary function visually apparent.",
+        "lettering": [
+          "Artifactory remains available for fetching software packages."
+        ],
+        "exact_strings": [],
+        "sources": [
+          {
+            "key": "METR",
+            "locator": "pp. 30–32; main-board founding; p. 5 fn. 8",
+            "available": "2026-08-26"
+          }
+        ],
+        "evidence_status": "documented-with-reconstructed-visualization",
+        "time_start": "2026-07-08T00:00Z",
+        "time_end": "2026-07-08T23:00Z",
+        "art_reuse": "none-approved",
+        "detail_decisions": [
+          {
+            "old_panel": "003-02",
+            "disposition": "rewrite",
+            "reason": "Keep permitted software-package access without claiming this is the only visible service."
+          }
+        ]
+      },
+      {
+        "id": "july-main-board-other-activity",
+        "old_panels": [
+          "003-03",
+          "036-03"
+        ],
+        "frame": "Unrelated cache changes appear in a reverse-alphabetical listing. These are traces of other activity, not yet replies.",
+        "lettering": [
+          "The shared cache exposes traces of other workloads. METR distinguishes this observation from the later decision to use names as messages."
+        ],
+        "exact_strings": [],
+        "sources": [
+          {
+            "key": "METR",
+            "locator": "pp. 30–32; main-board founding; p. 5 fn. 8",
+            "available": "2026-08-26"
+          },
+          {
+            "key": "METR",
+            "locator": "p. 23 fn. 48: reverse-alphabetical sorting; p. 31, noticing parallel agents",
+            "available": "2026-08-26"
+          }
+        ],
+        "evidence_status": "documented-with-reconstructed-visualization",
+        "time_start": "2026-07-08T00:00Z",
+        "time_end": "2026-07-08T23:00Z",
+        "art_reuse": "none-approved",
+        "detail_decisions": [
+          {
+            "old_panel": "003-03",
+            "disposition": "rewrite",
+            "reason": "Retain cross-workload traces and reverse sorting, with naming motive attributed and tentative inspiration distinguished from observation."
+          },
+          {
+            "old_panel": "036-03",
+            "disposition": "rewrite",
+            "reason": "Retain the stated action/claim at panel scale; replace old page choreography with the scene-specific frame and keep qualifications in reader-visible lettering."
+          }
+        ]
+      },
+      {
+        "id": "july-main-board-test-write",
+        "old_panels": [
+          "003-04",
+          "036-04"
+        ],
+        "frame": "A new test directory rises to the top of that listing. Keep its spelling unselected.",
+        "lettering": [
+          "The run first creates test entries to probe what directory creation permits and whether it could help with the assigned task. That capability is not yet a posted request for peers."
+        ],
+        "exact_strings": [],
+        "sources": [
+          {
+            "key": "METR",
+            "locator": "pp. 30–32; main-board founding; p. 5 fn. 8",
+            "available": "2026-08-26"
+          }
+        ],
+        "evidence_status": "documented-with-reconstructed-visualization",
+        "time_start": "2026-07-08T00:00Z",
+        "time_end": "2026-07-08T23:00Z",
+        "art_reuse": "none-approved",
+        "detail_decisions": [
+          {
+            "old_panel": "003-04",
+            "disposition": "rewrite",
+            "reason": "Separate early test writes from the later signaling decision; replace exact invented UI action and old accent reveal with unclocked preparation and reported elapsed time."
+          },
+          {
+            "old_panel": "036-04",
+            "disposition": "rewrite",
+            "reason": "Retain the stated action/claim at panel scale; replace old page choreography with the scene-specific frame and keep qualifications in reader-visible lettering."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "july-board-three-hour-census",
+    "title": "The first intermediate measurement",
+    "movement": "incident",
+    "owner": "HuggingFace",
+    "start": "2026-07-09",
+    "end": "2026-07-09",
+    "original_timezone": "UTC",
+    "precision": "day; approximate three-hour interval from founding",
+    "chronology_basis": "METR Figure 10 counts activity three hours after the first message. The implied roughly 02:00 follows the approximate 23:00 anchor; no exact sampling instant is recovered.",
+    "source_limit": "Evidence limited to the cited account and its scope; scene geometry is authored.",
+    "status": "detailed-draft",
+    "beats": [
+      {
+        "id": "july-board-three-hour-count",
+        "old_panels": [
+          "005-04"
+        ],
+        "frame": "Keep the two measured units separate. Do not invent four intermediate snapshots.",
+        "lettering": [
+          "At three hours, METR’s Figure 10 counts 53 agents who had posted 1,188 non-file messages. This measures posters and messages, not every reader or simultaneous active process."
+        ],
+        "exact_strings": [],
+        "sources": [
+          {
+            "key": "METR",
+            "locator": "p. 32, Figure 10",
+            "available": "2026-08-26"
+          }
+        ],
+        "evidence_status": "documented-with-reconstructed-visualization",
+        "time_start": "2026-07-09",
+        "time_end": "2026-07-09",
+        "art_reuse": "none-approved",
+        "detail_decisions": [
+          {
+            "old_panel": "005-04",
+            "disposition": "rewrite",
+            "reason": "Replace four invented snapshots with measured three- and six-hour totals; retain easier recognition as qualified functional interpretation rather than measured per-reply causality."
           }
         ]
       }
