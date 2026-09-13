@@ -103,7 +103,9 @@
       },
       {
         "id": "prod-title-proposal-echo",
-        "old_panels": [],
+        "old_panels": [
+          "108-06"
+        ],
         "frame": "The dated Codex message is the central artifact. Narrator text identifies its request, proposal or report status. No reenacted desk, private conversation or unrecorded recipient reaction is introduced.",
         "lettering": [
           "Codex recommends retaining the naming echo while correcting the plan’s treatment of the final wiki deletions: an earlier alphabetical sweep did not establish the reason for those last deletions."
@@ -120,14 +122,21 @@
         "time_start": "2026-09-09T21:02:53.698000Z",
         "time_end": "2026-09-09T21:02:53.698000Z",
         "art_reuse": "none-approved",
-        "detail_decisions": [],
+        "detail_decisions": [
+          {
+            "old_panel": "108-06",
+            "disposition": "combine",
+            "reason": "Move retrospective naming comparison to the dated September 9 production review and retain the actual June deletion once in the incident. Earlier ZZZ names are evidence of nonuniqueness, not proof of motive, convergence or absence of contact; the backup’s removal does not prove every sort-last tactic fails."
+          }
+        ],
         "source_record": "current-mac:rollout-2026-09-09T16-01-30-01a087f9-cdd6-75a2-83b8-dbf49bb938ec:43"
       },
       {
         "id": "prod-title-proposal-gap",
         "old_panels": [
           "114-01",
-          "114-02"
+          "114-02",
+          "108-06"
         ],
         "frame": "The dated Codex message is the central artifact. Narrator text identifies its request, proposal or report status. No reenacted desk, private conversation or unrecorded recipient reaction is introduced.",
         "lettering": [
@@ -155,6 +164,11 @@
             "old_panel": "114-02",
             "disposition": "rewrite",
             "reason": "Replace staged publication-relative title or logo action with its preserved September 9 production exchange and explicit evidence limits."
+          },
+          {
+            "old_panel": "108-06",
+            "disposition": "combine",
+            "reason": "Move retrospective naming comparison to the dated September 9 production review and retain the actual June deletion once in the incident. Earlier ZZZ names are evidence of nonuniqueness, not proof of motive, convergence or absence of contact; the backup’s removal does not prove every sort-last tactic fails."
           }
         ],
         "source_record": "current-mac:rollout-2026-09-09T16-01-30-01a087f9-cdd6-75a2-83b8-dbf49bb938ec:43"
@@ -245,6 +259,41 @@
         "time_end": "2026-09-09T21:02:53.698000Z",
         "art_reuse": "none-approved",
         "detail_decisions": [],
+        "source_record": "current-mac:rollout-2026-09-09T16-01-30-01a087f9-cdd6-75a2-83b8-dbf49bb938ec:43"
+      },
+      {
+        "id": "prod-title-proposal-echo-context",
+        "old_panels": [
+          "108-06"
+        ],
+        "frame": "Narrator context accompanies the dated naming review, not a newly attributed Codex research act. Do not draw a connecting arrow or claim that blank space proves no connection.",
+        "lettering": [
+          "The archive already holds ZZZ-prefixed page names on May 26 and June 11, before this June 19 backup. The prefix is not unique to this exchange. Similar naming does not establish contact or transmission, and different uses of sorting do not by themselves disprove either."
+        ],
+        "exact_strings": [],
+        "sources": [
+          {
+            "key": "PROD-1db1791c6c7c",
+            "locator": "256t/editions/selected-messages/1db1791c6c7c141856876c9c7ac507536c07e18e5a13f429105234282a964db4.json; original line 43; SHA-256 1db1791c6c7c141856876c9c7ac507536c07e18e5a13f429105234282a964db4",
+            "available": "2026-09-09T21:02:53.698000Z"
+          },
+          {
+            "key": "CW-EXPORT",
+            "locator": "dse~ZZZLinkPage@1; dse~ZZZTestingUniqueRootABC@1; dse~ZZZDataUSAConstructionWageLive@1",
+            "available": "2026-09-03"
+          }
+        ],
+        "evidence_status": "documented-message-with-reconstructed-visualization",
+        "time_start": "2026-09-09T21:02:53.698000Z",
+        "time_end": "2026-09-09T21:02:53.698000Z",
+        "art_reuse": "none-approved",
+        "detail_decisions": [
+          {
+            "old_panel": "108-06",
+            "disposition": "combine",
+            "reason": "Move retrospective naming comparison to the dated September 9 production review and retain the actual June deletion once in the incident. Earlier ZZZ names are evidence of nonuniqueness, not proof of motive, convergence or absence of contact; the backup’s removal does not prove every sort-last tactic fails."
+          }
+        ],
         "source_record": "current-mac:rollout-2026-09-09T16-01-30-01a087f9-cdd6-75a2-83b8-dbf49bb938ec:43"
       }
     ]

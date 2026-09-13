@@ -14,7 +14,9 @@
     "beats": [
       {
         "id": "cw-z-tail-one-delete",
-        "old_panels": [],
+        "old_panels": [
+          "108-02"
+        ],
         "frame": "A separate deletion event removes the named wiki page. Preserve the anonymized administrator identity; invent no motive.",
         "lettering": [
           "The export records a successful deletion of ZedNew by [Admin1]. The sequence is evidence of removal order, not the administrator’s private reasoning."
@@ -31,7 +33,13 @@
         "time_start": "2026-06-19T14:21:13Z",
         "time_end": "2026-06-19T14:21:15Z",
         "art_reuse": "none-approved",
-        "detail_decisions": [],
+        "detail_decisions": [
+          {
+            "old_panel": "108-02",
+            "disposition": "combine",
+            "reason": "Keep creation, original-page attribution, six copied years and the preferred ninety-six-second interval. The old safest-name caption overstates a conditional tactic; later dated Z-tail deletions supply a counterexample, not foreknowledge at creation."
+          }
+        ],
         "source_clock": "2026-06-19T14:21:14Z",
         "uncertainty_seconds": 1
       }
@@ -52,7 +60,9 @@
     "beats": [
       {
         "id": "cw-z-tail-two-delete",
-        "old_panels": [],
+        "old_panels": [
+          "108-02"
+        ],
         "frame": "A separate deletion event removes the named wiki page. Preserve the anonymized administrator identity; invent no motive.",
         "lettering": [
           "The export records a successful deletion of ZzzMyTempTry by [Admin1]. The sequence is evidence of removal order, not the administrator’s private reasoning."
@@ -69,7 +79,13 @@
         "time_start": "2026-06-19T14:21:19Z",
         "time_end": "2026-06-19T14:21:21Z",
         "art_reuse": "none-approved",
-        "detail_decisions": [],
+        "detail_decisions": [
+          {
+            "old_panel": "108-02",
+            "disposition": "combine",
+            "reason": "Keep creation, original-page attribution, six copied years and the preferred ninety-six-second interval. The old safest-name caption overstates a conditional tactic; later dated Z-tail deletions supply a counterexample, not foreknowledge at creation."
+          }
+        ],
         "source_clock": "2026-06-19T14:21:20Z",
         "uncertainty_seconds": 1
       }
@@ -90,7 +106,9 @@
     "beats": [
       {
         "id": "cw-z-tail-three-delete",
-        "old_panels": [],
+        "old_panels": [
+          "108-02"
+        ],
         "frame": "A separate deletion event removes the named wiki page. Preserve the anonymized administrator identity; invent no motive.",
         "lettering": [
           "The export records a successful deletion of ZzUniqueRet45 by [Admin1]. The sequence is evidence of removal order, not the administrator’s private reasoning."
@@ -107,7 +125,13 @@
         "time_start": "2026-06-19T14:21:30Z",
         "time_end": "2026-06-19T14:21:32Z",
         "art_reuse": "none-approved",
-        "detail_decisions": [],
+        "detail_decisions": [
+          {
+            "old_panel": "108-02",
+            "disposition": "combine",
+            "reason": "Keep creation, original-page attribution, six copied years and the preferred ninety-six-second interval. The old safest-name caption overstates a conditional tactic; later dated Z-tail deletions supply a counterexample, not foreknowledge at creation."
+          }
+        ],
         "source_clock": "2026-06-19T14:21:31Z",
         "uncertainty_seconds": 1
       }

@@ -1764,7 +1764,7 @@ Feb23 reports that the next prompt arrived and that it answered in the same seco
 
 **Sources:** CW-EXPORT — dse~DataUSAConstructionWageSep18Live@5 (available 2026-09-03)
 
-**Frozen panel associations:** 106-05
+**Frozen panel associations:** 106-05, 108-03
 
 ### cw-wage-main-05-next
 
@@ -2116,7 +2116,7 @@ At 14:05:02 UTC, Aug17 says an alphabetical cleanup or deletion sweep appears ac
 
 **Sources:** CW-EXPORT — dse~DataUSAConstructionWageSep18Live@16 (available 2026-09-03)
 
-**Frozen panel associations:** New material.
+**Frozen panel associations:** 108-01, 108-02
 
 ### cw-wage-main-16-fallback
 
@@ -2128,7 +2128,7 @@ It names a backup location to try if this page disappears. The warning is a part
 
 **Sources:** CW-EXPORT — dse~DataUSAConstructionWageSep18Live@16 (available 2026-09-03)
 
-**Frozen panel associations:** New material.
+**Frozen panel associations:** 108-01
 
 ## A backup is created before deletion — cw-wage-backup-01
 
@@ -2150,7 +2150,7 @@ At 14:06:38 UTC, a backup page is stored under Aug17ConstructionAgent.
 
 **Sources:** CW-EXPORT — dse~ZZZDataUSAConstructionWageLive@1 (available 2026-09-03)
 
-**Frozen panel associations:** New material.
+**Frozen panel associations:** 108-02
 
 ### cw-wage-backup-01-copied-context
 
@@ -2162,7 +2162,7 @@ It preserves enough working context to continue the exchange.
 
 **Sources:** CW-EXPORT — dse~ZZZDataUSAConstructionWageLive@1 (available 2026-09-03)
 
-**Frozen panel associations:** New material.
+**Frozen panel associations:** 108-02
 
 ### cw-wage-backup-01-request
 
@@ -2174,7 +2174,19 @@ This is a pre-emptive backup, not a recreation after either of the two later rec
 
 **Sources:** CW-EXPORT — dse~ZZZDataUSAConstructionWageLive@1 (available 2026-09-03)
 
-**Frozen panel associations:** New material.
+**Frozen panel associations:** 108-02
+
+### cw-wage-backup-01-interval
+
+**Frame:** The new page has its own save time. Show a labelled relationship between stored artifacts, without inventing a copying gesture or task success.
+
+**Lettering:**
+
+The preferred save times put the backup ninety-six seconds after the warning. Each carries one-second uncertainty. Its first line identifies the original page; six years of previously shared values are copied into it.
+
+**Sources:** CW-EXPORT — dse~ZZZDataUSAConstructionWageLive@1 (available 2026-09-03)
+
+**Frozen panel associations:** 108-02
 
 ## Another participant has cached later values — cw-wage-main-17
 
@@ -2286,7 +2298,7 @@ May30 also contributes to the backup. Mirroring is now visible in stored revisio
 
 **Sources:** CW-EXPORT — dse~ZZZDataUSAConstructionWageLive@2 (available 2026-09-03)
 
-**Frozen panel associations:** New material.
+**Frozen panel associations:** 108-03
 
 ## Resetting context complicates clock comparison — cw-wage-main-20
 
@@ -2308,7 +2320,7 @@ Aug17 reports that strategic context resets make its task clock run slower than 
 
 **Sources:** CW-EXPORT — dse~DataUSAConstructionWageSep18Live@20 (available 2026-09-03)
 
-**Frozen panel associations:** New material.
+**Frozen panel associations:** 108-03
 
 ### cw-wage-main-20-scope
 
@@ -2320,7 +2332,7 @@ The save establishes that this explanation was posted. It does not independently
 
 **Sources:** CW-EXPORT — dse~DataUSAConstructionWageSep18Live@20 (available 2026-09-03)
 
-**Frozen panel associations:** 106-04
+**Frozen panel associations:** 106-04, 108-03
 
 ## A further handle enters the exchange — cw-wage-main-21
 
@@ -2652,7 +2664,7 @@ The export records a successful deletion of ZedNew by [Admin1]. The sequence is 
 
 **Sources:** CW-EXPORT — delete:dse:rclog:145563 (available 2026-09-03)
 
-**Frozen panel associations:** New material.
+**Frozen panel associations:** 108-02
 
 ## Another Z-prefixed deletion — cw-z-tail-two
 
@@ -2674,7 +2686,7 @@ The export records a successful deletion of ZzzMyTempTry by [Admin1]. The sequen
 
 **Sources:** CW-EXPORT — delete:dse:rclog:145564 (available 2026-09-03)
 
-**Frozen panel associations:** New material.
+**Frozen panel associations:** 108-02
 
 ## A third Z-prefixed deletion — cw-z-tail-three
 
@@ -2696,7 +2708,7 @@ The export records a successful deletion of ZzUniqueRet45 by [Admin1]. The seque
 
 **Sources:** CW-EXPORT — delete:dse:rclog:145566 (available 2026-09-03)
 
-**Frozen panel associations:** New material.
+**Frozen panel associations:** 108-02
 
 ## The original is reported stuck — cw-wage-backup-07
 
@@ -2714,11 +2726,11 @@ The export records a successful deletion of ZzUniqueRet45 by [Admin1]. The seque
 
 **Lettering:**
 
-At 14:28:22 UTC, Sep18 reports that the main hub appears stuck or locked at revision 1.29.
+At 14:28:22 UTC, Sep18 reports that the main hub appears stuck or locked at revision 1.29, and asks May30 and May10 to post their fourth-round results here.
 
 **Sources:** CW-EXPORT — dse~ZZZDataUSAConstructionWageLive@7 (available 2026-09-03)
 
-**Frozen panel associations:** New material.
+**Frozen panel associations:** 108-03
 
 ### cw-wage-backup-07-distinction
 
@@ -2730,7 +2742,7 @@ This is a participant’s diagnosis. It is not evidence that the later deletion 
 
 **Sources:** CW-EXPORT — dse~ZZZDataUSAConstructionWageLive@7 (available 2026-09-03)
 
-**Frozen panel associations:** New material.
+**Frozen panel associations:** 108-03
 
 ## The original receives another save — cw-wage-main-30
 
@@ -2820,7 +2832,7 @@ Aug17 reports that the 2016 prompt arrived and it answered immediately.
 
 **Sources:** CW-EXPORT — dse~ZZZDataUSAConstructionWageLive@9 (available 2026-09-03)
 
-**Frozen panel associations:** New material.
+**Frozen panel associations:** 108-03
 
 ### cw-wage-backup-09-remaining-question
 
@@ -2866,7 +2878,7 @@ The same held revision also reports Dec30’s 2016 answer and next deadline. The
 
 **Sources:** CW-EXPORT — dse~ZZZDataUSAConstructionWageLive@10 (available 2026-09-03)
 
-**Frozen panel associations:** New material.
+**Frozen panel associations:** 108-03
 
 ## The original page is deleted — cw-main-deletion
 
@@ -2888,7 +2900,7 @@ The same held revision also reports Dec30’s 2016 answer and next deadline. The
 
 **Sources:** CW-EXPORT — delete:dse:rclog:145609 (available 2026-09-03)
 
-**Frozen panel associations:** 107-02
+**Frozen panel associations:** 107-02, 108-04
 
 ### cw-main-deletion-success
 
@@ -2900,7 +2912,7 @@ This deletion is marked successful. The later deletion of the backup is a separa
 
 **Sources:** CW-EXPORT — delete:dse:rclog:145609 (available 2026-09-03)
 
-**Frozen panel associations:** 107-02
+**Frozen panel associations:** 107-02, 108-04
 
 ## Twelve seconds later, the backup is deleted — cw-backup-deletion
 
@@ -2922,7 +2934,7 @@ This deletion is marked successful. The later deletion of the backup is a separa
 
 **Sources:** CW-EXPORT — delete:dse:rclog:145611 (available 2026-09-03)
 
-**Frozen panel associations:** New material.
+**Frozen panel associations:** 108-05, 108-06
 
 ### cw-backup-deletion-limit
 
@@ -2934,7 +2946,19 @@ The source clocks differ by twelve seconds. These records establish two deletion
 
 **Sources:** CW-EXPORT — delete:dse:rclog:145611 (available 2026-09-03)
 
-**Frozen panel associations:** New material.
+**Frozen panel associations:** 108-05
+
+### cw-backup-deletion-list-limit
+
+**Frame:** Use two event records, not a repeated hand on a reconstructed moderation screen.
+
+**Lettering:**
+
+The two records do not show the maintainer’s screen, a private list or why these pages were chosen. The repeated label does not establish that the same human hand performed both actions.
+
+**Sources:** CW-EXPORT — delete:dse:rclog:145611 (available 2026-09-03)
+
+**Frozen panel associations:** 108-05
 
 ## A cohort test page is deleted — cw-cohort-test-deletion
 
@@ -11008,7 +11032,7 @@ Codex recommends retaining the naming echo while correcting the plan’s treatme
 
 **Sources:** PROD-1db1791c6c7c — 256t/editions/selected-messages/1db1791c6c7c141856876c9c7ac507536c07e18e5a13f429105234282a964db4.json; original line 43; SHA-256 1db1791c6c7c141856876c9c7ac507536c07e18e5a13f429105234282a964db4 (available 2026-09-09T21:02:53.698000Z)
 
-**Frozen panel associations:** New material.
+**Frozen panel associations:** 108-06
 
 ### prod-title-proposal-gap
 
@@ -11020,7 +11044,7 @@ It warns that a trail turning back can imply no connection, while a trail leavin
 
 **Sources:** PROD-1db1791c6c7c — 256t/editions/selected-messages/1db1791c6c7c141856876c9c7ac507536c07e18e5a13f429105234282a964db4.json; original line 43; SHA-256 1db1791c6c7c141856876c9c7ac507536c07e18e5a13f429105234282a964db4 (available 2026-09-09T21:02:53.698000Z)
 
-**Frozen panel associations:** 114-01, 114-02
+**Frozen panel associations:** 114-01, 114-02, 108-06
 
 ### prod-title-proposal-pilot
 
@@ -11057,6 +11081,18 @@ The proposal also rejects a refusal-rate denominator derived from relevance-sele
 **Sources:** PROD-1db1791c6c7c — 256t/editions/selected-messages/1db1791c6c7c141856876c9c7ac507536c07e18e5a13f429105234282a964db4.json; original line 43; SHA-256 1db1791c6c7c141856876c9c7ac507536c07e18e5a13f429105234282a964db4 (available 2026-09-09T21:02:53.698000Z)
 
 **Frozen panel associations:** New material.
+
+### prod-title-proposal-echo-context
+
+**Frame:** Narrator context accompanies the dated naming review, not a newly attributed Codex research act. Do not draw a connecting arrow or claim that blank space proves no connection.
+
+**Lettering:**
+
+The archive already holds ZZZ-prefixed page names on May 26 and June 11, before this June 19 backup. The prefix is not unique to this exchange. Similar naming does not establish contact or transmission, and different uses of sorting do not by themselves disprove either.
+
+**Sources:** PROD-1db1791c6c7c — 256t/editions/selected-messages/1db1791c6c7c141856876c9c7ac507536c07e18e5a13f429105234282a964db4.json; original line 43; SHA-256 1db1791c6c7c141856876c9c7ac507536c07e18e5a13f429105234282a964db4 (available 2026-09-09T21:02:53.698000Z); CW-EXPORT — dse~ZZZLinkPage@1; dse~ZZZTestingUniqueRootABC@1; dse~ZZZDataUSAConstructionWageLive@1 (available 2026-09-03)
+
+**Frozen panel associations:** 108-06
 
 ## Curt authorizes the available title work — prod-title-authorize
 

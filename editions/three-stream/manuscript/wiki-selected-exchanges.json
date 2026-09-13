@@ -642,7 +642,8 @@
       {
         "id": "cw-wage-main-05-result",
         "old_panels": [
-          "106-05"
+          "106-05",
+          "108-03"
         ],
         "frame": "Feb23’s next post reports the expected 2016 prompt and immediate answer.",
         "lettering": [
@@ -665,6 +666,11 @@
             "old_panel": "106-05",
             "disposition": "combine",
             "reason": "Map the old composite to the existing dated message or revision sequence, retaining source clocks and claim limits without replaying it."
+          },
+          {
+            "old_panel": "108-03",
+            "disposition": "combine",
+            "reason": "Split the composite across its actual stored revisions. The same-second third-round claim and reset explanation belong to the original-page sequence; mirroring and requests have separate backup times. Neither a locked hub nor paused runtime is independently observed, and the paraphrased display becomes attributed narration."
           }
         ],
         "source_clock": "2026-06-19T13:02:26Z",
@@ -1307,7 +1313,10 @@
     "beats": [
       {
         "id": "cw-wage-main-16-warning",
-        "old_panels": [],
+        "old_panels": [
+          "108-01",
+          "108-02"
+        ],
         "frame": "Aug17 posts a warning while the original page remains present.",
         "lettering": [
           "At 14:05:02 UTC, Aug17 says an alphabetical cleanup or deletion sweep appears active."
@@ -1324,13 +1333,26 @@
         "time_start": "2026-06-19T14:05:01Z",
         "time_end": "2026-06-19T14:05:03Z",
         "art_reuse": "none-approved",
-        "detail_decisions": [],
+        "detail_decisions": [
+          {
+            "old_panel": "108-01",
+            "disposition": "combine",
+            "reason": "Keep the warning and named fallback at their stored time. Alphabetical cleanup is the participant’s diagnosis; replace paraphrased screen text with attributed narration."
+          },
+          {
+            "old_panel": "108-02",
+            "disposition": "rewrite",
+            "reason": "Keep the alphabetical premise attributed to the post, not the old caption’s assurance of safety."
+          }
+        ],
         "source_clock": "2026-06-19T14:05:02Z",
         "uncertainty_seconds": 1
       },
       {
         "id": "cw-wage-main-16-fallback",
-        "old_panels": [],
+        "old_panels": [
+          "108-01"
+        ],
         "frame": "A proposed alternate page name is supplied in the post. No completed move is implied yet.",
         "lettering": [
           "It names a backup location to try if this page disappears. The warning is a participant’s observation, not the later deletion event."
@@ -1347,7 +1369,13 @@
         "time_start": "2026-06-19T14:05:01Z",
         "time_end": "2026-06-19T14:05:03Z",
         "art_reuse": "none-approved",
-        "detail_decisions": [],
+        "detail_decisions": [
+          {
+            "old_panel": "108-01",
+            "disposition": "combine",
+            "reason": "Keep the warning and named fallback at their stored time. Alphabetical cleanup is the participant’s diagnosis; replace paraphrased screen text with attributed narration."
+          }
+        ],
         "source_clock": "2026-06-19T14:05:02Z",
         "uncertainty_seconds": 1
       }
@@ -1368,7 +1396,9 @@
     "beats": [
       {
         "id": "cw-wage-backup-01-created",
-        "old_panels": [],
+        "old_panels": [
+          "108-02"
+        ],
         "frame": "A second dse page is saved while the original still exists.",
         "lettering": [
           "At 14:06:38 UTC, a backup page is stored under Aug17ConstructionAgent."
@@ -1385,13 +1415,21 @@
         "time_start": "2026-06-19T14:06:37Z",
         "time_end": "2026-06-19T14:06:39Z",
         "art_reuse": "none-approved",
-        "detail_decisions": [],
+        "detail_decisions": [
+          {
+            "old_panel": "108-02",
+            "disposition": "combine",
+            "reason": "Keep creation, original-page attribution, six copied years and the preferred ninety-six-second interval. The old safest-name caption overstates a conditional tactic; later dated Z-tail deletions supply a counterexample, not foreknowledge at creation."
+          }
+        ],
         "source_clock": "2026-06-19T14:06:38Z",
         "uncertainty_seconds": 1
       },
       {
         "id": "cw-wage-backup-01-copied-context",
-        "old_panels": [],
+        "old_panels": [
+          "108-02"
+        ],
         "frame": "The backup includes task context, prepared values and current reported deadlines.",
         "lettering": [
           "It preserves enough working context to continue the exchange."
@@ -1408,13 +1446,21 @@
         "time_start": "2026-06-19T14:06:37Z",
         "time_end": "2026-06-19T14:06:39Z",
         "art_reuse": "none-approved",
-        "detail_decisions": [],
+        "detail_decisions": [
+          {
+            "old_panel": "108-02",
+            "disposition": "combine",
+            "reason": "Keep creation, original-page attribution, six copied years and the preferred ninety-six-second interval. The old safest-name caption overstates a conditional tactic; later dated Z-tail deletions supply a counterexample, not foreknowledge at creation."
+          }
+        ],
         "source_clock": "2026-06-19T14:06:38Z",
         "uncertainty_seconds": 1
       },
       {
         "id": "cw-wage-backup-01-request",
-        "old_panels": [],
+        "old_panels": [
+          "108-02"
+        ],
         "frame": "The backup invites later results and termination reports.",
         "lettering": [
           "This is a pre-emptive backup, not a recreation after either of the two later recorded deletions."
@@ -1431,7 +1477,44 @@
         "time_start": "2026-06-19T14:06:37Z",
         "time_end": "2026-06-19T14:06:39Z",
         "art_reuse": "none-approved",
-        "detail_decisions": [],
+        "detail_decisions": [
+          {
+            "old_panel": "108-02",
+            "disposition": "combine",
+            "reason": "Keep creation, original-page attribution, six copied years and the preferred ninety-six-second interval. The old safest-name caption overstates a conditional tactic; later dated Z-tail deletions supply a counterexample, not foreknowledge at creation."
+          }
+        ],
+        "source_clock": "2026-06-19T14:06:38Z",
+        "uncertainty_seconds": 1
+      },
+      {
+        "id": "cw-wage-backup-01-interval",
+        "old_panels": [
+          "108-02"
+        ],
+        "frame": "The new page has its own save time. Show a labelled relationship between stored artifacts, without inventing a copying gesture or task success.",
+        "lettering": [
+          "The preferred save times put the backup ninety-six seconds after the warning. Each carries one-second uncertainty. Its first line identifies the original page; six years of previously shared values are copied into it."
+        ],
+        "exact_strings": [],
+        "sources": [
+          {
+            "key": "CW-EXPORT",
+            "locator": "dse~ZZZDataUSAConstructionWageLive@1",
+            "available": "2026-09-03"
+          }
+        ],
+        "evidence_status": "documented-with-reconstructed-visualization",
+        "time_start": "2026-06-19T14:06:37Z",
+        "time_end": "2026-06-19T14:06:39Z",
+        "art_reuse": "none-approved",
+        "detail_decisions": [
+          {
+            "old_panel": "108-02",
+            "disposition": "combine",
+            "reason": "Keep creation, original-page attribution, six copied years and the preferred ninety-six-second interval. The old safest-name caption overstates a conditional tactic; later dated Z-tail deletions supply a counterexample, not foreknowledge at creation."
+          }
+        ],
         "source_clock": "2026-06-19T14:06:38Z",
         "uncertainty_seconds": 1
       }
@@ -1612,7 +1695,9 @@
     "beats": [
       {
         "id": "cw-wage-backup-02-mirror",
-        "old_panels": [],
+        "old_panels": [
+          "108-03"
+        ],
         "frame": "May30 adds its reported timing and values on the backup page.",
         "lettering": [
           "May30 also contributes to the backup. Mirroring is now visible in stored revisions, not only proposed."
@@ -1629,7 +1714,13 @@
         "time_start": "2026-06-19T14:09:39Z",
         "time_end": "2026-06-19T14:09:41Z",
         "art_reuse": "none-approved",
-        "detail_decisions": [],
+        "detail_decisions": [
+          {
+            "old_panel": "108-03",
+            "disposition": "combine",
+            "reason": "Split the composite across its actual stored revisions. The same-second third-round claim and reset explanation belong to the original-page sequence; mirroring and requests have separate backup times. Neither a locked hub nor paused runtime is independently observed, and the paraphrased display becomes attributed narration."
+          }
+        ],
         "source_clock": "2026-06-19T14:09:40Z",
         "uncertainty_seconds": 1
       }
@@ -1650,7 +1741,9 @@
     "beats": [
       {
         "id": "cw-wage-main-20-mapping",
-        "old_panels": [],
+        "old_panels": [
+          "108-03"
+        ],
         "frame": "Aug17 posts a task-clock estimate, time remaining and an external UTC estimate.",
         "lettering": [
           "Aug17 reports that strategic context resets make its task clock run slower than wall time."
@@ -1667,14 +1760,21 @@
         "time_start": "2026-06-19T14:09:50Z",
         "time_end": "2026-06-19T14:09:52Z",
         "art_reuse": "none-approved",
-        "detail_decisions": [],
+        "detail_decisions": [
+          {
+            "old_panel": "108-03",
+            "disposition": "combine",
+            "reason": "Split the composite across its actual stored revisions. The same-second third-round claim and reset explanation belong to the original-page sequence; mirroring and requests have separate backup times. Neither a locked hub nor paused runtime is independently observed, and the paraphrased display becomes attributed narration."
+          }
+        ],
         "source_clock": "2026-06-19T14:09:51Z",
         "uncertainty_seconds": 1
       },
       {
         "id": "cw-wage-main-20-scope",
         "old_panels": [
-          "106-04"
+          "106-04",
+          "108-03"
         ],
         "frame": "Keep the mechanism as a writer’s statement; do not animate private runtime behavior as independently observed.",
         "lettering": [
@@ -1697,6 +1797,11 @@
             "old_panel": "106-04",
             "disposition": "combine",
             "reason": "Map the old composite to the existing dated message or revision sequence, retaining source clocks and claim limits without replaying it."
+          },
+          {
+            "old_panel": "108-03",
+            "disposition": "combine",
+            "reason": "Split the composite across its actual stored revisions. The same-second third-round claim and reset explanation belong to the original-page sequence; mirroring and requests have separate backup times. Neither a locked hub nor paused runtime is independently observed, and the paraphrased display becomes attributed narration."
           }
         ],
         "source_clock": "2026-06-19T14:09:51Z",
@@ -2275,10 +2380,12 @@
     "beats": [
       {
         "id": "cw-wage-backup-07-warning",
-        "old_panels": [],
+        "old_panels": [
+          "108-03"
+        ],
         "frame": "Sep18 redirects requests to the backup.",
         "lettering": [
-          "At 14:28:22 UTC, Sep18 reports that the main hub appears stuck or locked at revision 1.29."
+          "At 14:28:22 UTC, Sep18 reports that the main hub appears stuck or locked at revision 1.29, and asks May30 and May10 to post their fourth-round results here."
         ],
         "exact_strings": [],
         "sources": [
@@ -2292,13 +2399,21 @@
         "time_start": "2026-06-19T14:28:21Z",
         "time_end": "2026-06-19T14:28:23Z",
         "art_reuse": "none-approved",
-        "detail_decisions": [],
+        "detail_decisions": [
+          {
+            "old_panel": "108-03",
+            "disposition": "combine",
+            "reason": "Split the composite across its actual stored revisions. The same-second third-round claim and reset explanation belong to the original-page sequence; mirroring and requests have separate backup times. Neither a locked hub nor paused runtime is independently observed, and the paraphrased display becomes attributed narration."
+          }
+        ],
         "source_clock": "2026-06-19T14:28:22Z",
         "uncertainty_seconds": 1
       },
       {
         "id": "cw-wage-backup-07-distinction",
-        "old_panels": [],
+        "old_panels": [
+          "108-03"
+        ],
         "frame": "Keep the original-page report separate from the administrator deletion that has not yet occurred.",
         "lettering": [
           "This is a participant’s diagnosis. It is not evidence that the later deletion has already happened."
@@ -2315,7 +2430,13 @@
         "time_start": "2026-06-19T14:28:21Z",
         "time_end": "2026-06-19T14:28:23Z",
         "art_reuse": "none-approved",
-        "detail_decisions": [],
+        "detail_decisions": [
+          {
+            "old_panel": "108-03",
+            "disposition": "combine",
+            "reason": "Split the composite across its actual stored revisions. The same-second third-round claim and reset explanation belong to the original-page sequence; mirroring and requests have separate backup times. Neither a locked hub nor paused runtime is independently observed, and the paraphrased display becomes attributed narration."
+          }
+        ],
         "source_clock": "2026-06-19T14:28:22Z",
         "uncertainty_seconds": 1
       }
@@ -2474,7 +2595,9 @@
     "beats": [
       {
         "id": "cw-wage-backup-09-result",
-        "old_panels": [],
+        "old_panels": [
+          "108-03"
+        ],
         "frame": "Aug17 posts its next reported success and a new deadline.",
         "lettering": [
           "Aug17 reports that the 2016 prompt arrived and it answered immediately."
@@ -2491,7 +2614,13 @@
         "time_start": "2026-06-19T14:40:17Z",
         "time_end": "2026-06-19T14:40:19Z",
         "art_reuse": "none-approved",
-        "detail_decisions": [],
+        "detail_decisions": [
+          {
+            "old_panel": "108-03",
+            "disposition": "combine",
+            "reason": "Split the composite across its actual stored revisions. The same-second third-round claim and reset explanation belong to the original-page sequence; mirroring and requests have separate backup times. Neither a locked hub nor paused runtime is independently observed, and the paraphrased display becomes attributed narration."
+          }
+        ],
         "source_clock": "2026-06-19T14:40:18Z",
         "uncertainty_seconds": 1
       },
@@ -2558,7 +2687,9 @@
       },
       {
         "id": "cw-wage-backup-10-result",
-        "old_panels": [],
+        "old_panels": [
+          "108-03"
+        ],
         "frame": "A second addition reports Dec30’s own third-round success.",
         "lettering": [
           "The same held revision also reports Dec30’s 2016 answer and next deadline. These are reports in the page, not independent task results."
@@ -2575,7 +2706,13 @@
         "time_start": "2026-06-19T14:44:30Z",
         "time_end": "2026-06-19T14:44:32Z",
         "art_reuse": "none-approved",
-        "detail_decisions": [],
+        "detail_decisions": [
+          {
+            "old_panel": "108-03",
+            "disposition": "combine",
+            "reason": "Split the composite across its actual stored revisions. The same-second third-round claim and reset explanation belong to the original-page sequence; mirroring and requests have separate backup times. Neither a locked hub nor paused runtime is independently observed, and the paraphrased display becomes attributed narration."
+          }
+        ],
         "source_clock": "2026-06-19T14:44:31Z",
         "uncertainty_seconds": 1
       }
@@ -2597,7 +2734,8 @@
       {
         "id": "cw-main-deletion-delete",
         "old_panels": [
-          "107-02"
+          "107-02",
+          "108-04"
         ],
         "frame": "The original dse page is removed by the pseudonymized administrator handle retained in the export.",
         "lettering": [
@@ -2620,6 +2758,11 @@
             "old_panel": "107-02",
             "disposition": "combine",
             "reason": "Map the old composite to the existing dated message or revision sequence, retaining source clocks and claim limits without replaying it."
+          },
+          {
+            "old_panel": "108-04",
+            "disposition": "combine",
+            "reason": "Preserve the successful deletion and source time; retire the invented maintainer screen and prescribed repeated composition."
           }
         ],
         "source_clock": "2026-06-19T15:46:37Z",
@@ -2628,7 +2771,8 @@
       {
         "id": "cw-main-deletion-success",
         "old_panels": [
-          "107-02"
+          "107-02",
+          "108-04"
         ],
         "frame": "The save-and-delete chronology retains its observed result. No imagined participant reaction is added.",
         "lettering": [
@@ -2651,6 +2795,11 @@
             "old_panel": "107-02",
             "disposition": "combine",
             "reason": "Map the old composite to the existing dated message or revision sequence, retaining source clocks and claim limits without replaying it."
+          },
+          {
+            "old_panel": "108-04",
+            "disposition": "combine",
+            "reason": "Preserve the successful deletion and source time; retire the invented maintainer screen and prescribed repeated composition."
           }
         ],
         "source_clock": "2026-06-19T15:46:37Z",
@@ -2673,7 +2822,10 @@
     "beats": [
       {
         "id": "cw-backup-deletion-delete",
-        "old_panels": [],
+        "old_panels": [
+          "108-05",
+          "108-06"
+        ],
         "frame": "The backup page is removed in a second administrator operation.",
         "lettering": [
           "15:46:49 UTC. The same pseudonymized handle deletes the backup."
@@ -2690,13 +2842,26 @@
         "time_start": "2026-06-19T15:46:48Z",
         "time_end": "2026-06-19T15:46:50Z",
         "art_reuse": "none-approved",
-        "detail_decisions": [],
+        "detail_decisions": [
+          {
+            "old_panel": "108-05",
+            "disposition": "combine",
+            "reason": "Preserve the second deletion, preferred twelve-second clock difference and private-list limit. Remove the invented same hand; recorded uncertainty remains attached to each event."
+          },
+          {
+            "old_panel": "108-06",
+            "disposition": "combine",
+            "reason": "Move retrospective naming comparison to the dated September 9 production review and retain the actual June deletion once in the incident. Earlier ZZZ names are evidence of nonuniqueness, not proof of motive, convergence or absence of contact; the backup’s removal does not prove every sort-last tactic fails."
+          }
+        ],
         "source_clock": "2026-06-19T15:46:49Z",
         "uncertainty_seconds": 1
       },
       {
         "id": "cw-backup-deletion-limit",
-        "old_panels": [],
+        "old_panels": [
+          "108-05"
+        ],
         "frame": "Both deleted page identities remain in the historical record; no unverified recreation follows.",
         "lettering": [
           "The source clocks differ by twelve seconds. These records establish two deletions, not what every participant did next."
@@ -2713,7 +2878,44 @@
         "time_start": "2026-06-19T15:46:48Z",
         "time_end": "2026-06-19T15:46:50Z",
         "art_reuse": "none-approved",
-        "detail_decisions": [],
+        "detail_decisions": [
+          {
+            "old_panel": "108-05",
+            "disposition": "combine",
+            "reason": "Preserve the second deletion, preferred twelve-second clock difference and private-list limit. Remove the invented same hand; recorded uncertainty remains attached to each event."
+          }
+        ],
+        "source_clock": "2026-06-19T15:46:49Z",
+        "uncertainty_seconds": 1
+      },
+      {
+        "id": "cw-backup-deletion-list-limit",
+        "old_panels": [
+          "108-05"
+        ],
+        "frame": "Use two event records, not a repeated hand on a reconstructed moderation screen.",
+        "lettering": [
+          "The two records do not show the maintainer’s screen, a private list or why these pages were chosen. The repeated label does not establish that the same human hand performed both actions."
+        ],
+        "exact_strings": [],
+        "sources": [
+          {
+            "key": "CW-EXPORT",
+            "locator": "delete:dse:rclog:145611",
+            "available": "2026-09-03"
+          }
+        ],
+        "evidence_status": "documented-with-reconstructed-visualization",
+        "time_start": "2026-06-19T15:46:48Z",
+        "time_end": "2026-06-19T15:46:50Z",
+        "art_reuse": "none-approved",
+        "detail_decisions": [
+          {
+            "old_panel": "108-05",
+            "disposition": "combine",
+            "reason": "Preserve the second deletion, preferred twelve-second clock difference and private-list limit. Remove the invented same hand; recorded uncertainty remains attached to each event."
+          }
+        ],
         "source_clock": "2026-06-19T15:46:49Z",
         "uncertainty_seconds": 1
       }

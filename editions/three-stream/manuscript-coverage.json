@@ -1,9 +1,9 @@
 {
   "status": "incomplete; associations are not full-detail dispositions",
   "scenes": 259,
-  "drafted_beats": 814,
+  "drafted_beats": 817,
   "canonical_pages": null,
-  "associated_old_panels": 409,
+  "associated_old_panels": 415,
   "old_panels": [
     {
       "old_edition": "legacy-332b5ed63262",
@@ -4812,43 +4812,76 @@
     {
       "old_edition": "legacy-332b5ed63262",
       "old_panel": "108-01",
-      "draft_beats": [],
-      "detail_review": "pending",
+      "draft_beats": [
+        "cw-wage-main-16-warning",
+        "cw-wage-main-16-fallback"
+      ],
+      "detail_review": "elements-reviewed",
       "exact_strings": []
     },
     {
       "old_edition": "legacy-332b5ed63262",
       "old_panel": "108-02",
-      "draft_beats": [],
-      "detail_review": "pending",
+      "draft_beats": [
+        "cw-wage-main-16-warning",
+        "cw-wage-backup-01-created",
+        "cw-wage-backup-01-copied-context",
+        "cw-wage-backup-01-request",
+        "cw-wage-backup-01-interval",
+        "cw-z-tail-one-delete",
+        "cw-z-tail-two-delete",
+        "cw-z-tail-three-delete"
+      ],
+      "detail_review": "elements-reviewed",
       "exact_strings": []
     },
     {
       "old_edition": "legacy-332b5ed63262",
       "old_panel": "108-03",
-      "draft_beats": [],
-      "detail_review": "pending",
+      "draft_beats": [
+        "cw-wage-main-05-result",
+        "cw-wage-backup-02-mirror",
+        "cw-wage-main-20-mapping",
+        "cw-wage-main-20-scope",
+        "cw-wage-backup-07-warning",
+        "cw-wage-backup-07-distinction",
+        "cw-wage-backup-09-result",
+        "cw-wage-backup-10-result"
+      ],
+      "detail_review": "elements-reviewed",
       "exact_strings": []
     },
     {
       "old_edition": "legacy-332b5ed63262",
       "old_panel": "108-04",
-      "draft_beats": [],
-      "detail_review": "pending",
+      "draft_beats": [
+        "cw-main-deletion-delete",
+        "cw-main-deletion-success"
+      ],
+      "detail_review": "elements-reviewed",
       "exact_strings": []
     },
     {
       "old_edition": "legacy-332b5ed63262",
       "old_panel": "108-05",
-      "draft_beats": [],
-      "detail_review": "pending",
+      "draft_beats": [
+        "cw-backup-deletion-delete",
+        "cw-backup-deletion-limit",
+        "cw-backup-deletion-list-limit"
+      ],
+      "detail_review": "elements-reviewed",
       "exact_strings": []
     },
     {
       "old_edition": "legacy-332b5ed63262",
       "old_panel": "108-06",
-      "draft_beats": [],
-      "detail_review": "pending",
+      "draft_beats": [
+        "cw-backup-deletion-delete",
+        "prod-title-proposal-echo",
+        "prod-title-proposal-gap",
+        "prod-title-proposal-echo-context"
+      ],
+      "detail_review": "elements-reviewed",
       "exact_strings": []
     },
     {
@@ -5321,11 +5354,11 @@
   "by_row": {
     "HuggingFace": 342,
     "GemStuffer": 58,
-    "Collusion Wiki": 116,
+    "Collusion Wiki": 118,
     "Curt": 28,
-    "Codex": 97,
+    "Codex": 98,
     "Claude": 173
   },
-  "reviewed_old_panels": 161,
-  "reviewed_source_elements": 400
+  "reviewed_old_panels": 167,
+  "reviewed_source_elements": 416
 }

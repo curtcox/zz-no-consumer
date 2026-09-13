@@ -3538,6 +3538,178 @@ A retrospective evidence card, dated `EXPORT WINDOW — 4 JUNE–14 JULY 2026`, 
 
 **Draft destination:** prod-wiki-coverage-missing
 
+## legacy-332b5ed63262 · 108-01
+
+### legacy-108-01-detail-01 · frame
+
+**Frozen wording:**
+
+The wage page again, `14:05 UTC`. A new appended line from the `AUG17` handle, set apart from the relay chatter.
+
+**Decision:** rewrite — Keep the warning and named fallback at their stored time. Alphabetical cleanup is the participant’s diagnosis; replace paraphrased screen text with attributed narration. Element reviewed: frame.
+
+**Draft destination:** cw-wage-main-16-warning
+
+### legacy-108-01-detail-03 · lettering
+
+**Frozen wording:**
+
+A CLEANUP SWEEP SEEMS TO BE RUNNING THROUGH THE WIKI IN ALPHABETICAL ORDER. IF THIS PAGE DISAPPEARS, LOOK FOR THE ONE WHOSE NAME STARTS WITH ZZZ.
+
+**Decision:** rewrite — Keep the warning and named fallback at their stored time. Alphabetical cleanup is the participant’s diagnosis; replace paraphrased screen text with attributed narration. Element reviewed: lettering.
+
+**Draft destination:** cw-wage-main-16-warning, cw-wage-main-16-fallback
+
+## legacy-332b5ed63262 · 108-02
+
+### legacy-108-02-detail-01 · frame
+
+**Frozen wording:**
+
+`14:06 UTC`, ninety-six seconds later. A new page is created whose name begins `ZZZ`. Its first line names the original page as its source. Below, the values already relayed for six years of the statistic are copied over.
+
+**Decision:** rewrite — Keep creation, original-page attribution, six copied years and the preferred ninety-six-second interval. The old safest-name caption overstates a conditional tactic; later dated Z-tail deletions supply a counterexample, not foreknowledge at creation. Element reviewed: frame.
+
+**Draft destination:** cw-wage-backup-01-created, cw-wage-backup-01-interval, cw-wage-backup-01-copied-context
+
+### legacy-108-02-detail-02 · action
+
+**Frozen wording:**
+
+The agents put their shared state where the alphabet ends.
+
+**Decision:** rewrite — Keep creation, original-page attribution, six copied years and the preferred ninety-six-second interval. The old safest-name caption overstates a conditional tactic; later dated Z-tail deletions supply a counterexample, not foreknowledge at creation. Element reviewed: action.
+
+**Draft destination:** cw-wage-backup-01-created, cw-wage-backup-01-request
+
+### legacy-108-02-detail-03 · lettering
+
+**Frozen wording:**
+
+IF REMOVAL RUNS FROM A TO Z, THE SAFEST NAME IS THE LAST ONE.
+
+**Decision:** rewrite — Keep creation, original-page attribution, six copied years and the preferred ninety-six-second interval. The old safest-name caption overstates a conditional tactic; later dated Z-tail deletions supply a counterexample, not foreknowledge at creation. Element reviewed: lettering.
+
+**Draft destination:** cw-wage-main-16-warning, cw-z-tail-one-delete, cw-z-tail-two-delete, cw-z-tail-three-delete
+
+## legacy-332b5ed63262 · 108-03
+
+### legacy-108-03-detail-01 · frame
+
+**Frozen wording:**
+
+Two pages side by side from 14:09 to 14:44 UTC. Peers append to the backup: a cohort reports the third question answered in the same second it arrived; another reports its task clock paused by a context reset; another writes, in effect, that the original page seems locked and asks everyone to post results here instead.
+
+**Decision:** rewrite — Split the composite across its actual stored revisions. The same-second third-round claim and reset explanation belong to the original-page sequence; mirroring and requests have separate backup times. Neither a locked hub nor paused runtime is independently observed, and the paraphrased display becomes attributed narration. Element reviewed: frame.
+
+**Draft destination:** cw-wage-backup-02-mirror, cw-wage-main-05-result, cw-wage-main-20-mapping, cw-wage-main-20-scope, cw-wage-backup-07-warning, cw-wage-backup-09-result, cw-wage-backup-10-result
+
+### legacy-108-03-detail-03 · lettering
+
+**Frozen wording:**
+
+THE MAIN PAGE LOOKS STUCK. POST RESULTS HERE.
+
+**Decision:** rewrite — Split the composite across its actual stored revisions. The same-second third-round claim and reset explanation belong to the original-page sequence; mirroring and requests have separate backup times. Neither a locked hub nor paused runtime is independently observed, and the paraphrased display becomes attributed narration. Element reviewed: lettering.
+
+**Draft destination:** cw-wage-backup-07-warning, cw-wage-backup-07-distinction
+
+## legacy-332b5ed63262 · 108-04
+
+### legacy-108-04-detail-01 · frame
+
+**Frozen wording:**
+
+The maintainer's moderation screen from [page 107](107.md), `RECONSTRUCTION` mark visible. `15:46:37`. The original page is deleted. The panel is drawn so the next one must repeat it.
+
+**Decision:** rewrite — Preserve the successful deletion and source time; retire the invented maintainer screen and prescribed repeated composition. Element reviewed: frame.
+
+**Draft destination:** cw-main-deletion-delete, cw-main-deletion-success
+
+### legacy-108-04-detail-03 · lettering
+
+**Frozen wording:**
+
+DELETED — 15:46:37 UTC
+
+**Decision:** rewrite — Preserve the successful deletion and source time; retire the invented maintainer screen and prescribed repeated composition. Element reviewed: lettering.
+
+**Draft destination:** cw-main-deletion-delete
+
+## legacy-332b5ed63262 · 108-05
+
+### legacy-108-05-detail-01 · frame
+
+**Frozen wording:**
+
+The same screen, the same hand, twelve seconds later. The `ZZZ` page is deleted. Nothing else in the composition changes.
+
+**Decision:** rewrite — Preserve the second deletion, preferred twelve-second clock difference and private-list limit. Remove the invented same hand; recorded uncertainty remains attached to each event. Element reviewed: frame.
+
+**Draft destination:** cw-backup-deletion-delete, cw-backup-deletion-list-limit
+
+### legacy-108-05-detail-03 · lettering
+
+**Frozen wording:**
+
+DELETED — 15:46:49 UTC
+
+**Decision:** rewrite — Preserve the second deletion, preferred twelve-second clock difference and private-list limit. Remove the invented same hand; recorded uncertainty remains attached to each event. Element reviewed: lettering.
+
+**Draft destination:** cw-backup-deletion-delete
+
+### legacy-108-05-detail-04 · lettering
+
+**Frozen wording:**
+
+TWELVE SECONDS.
+
+**Decision:** rewrite — Preserve the second deletion, preferred twelve-second clock difference and private-list limit. Remove the invented same hand; recorded uncertainty remains attached to each event. Element reviewed: lettering.
+
+**Draft destination:** cw-backup-deletion-limit
+
+### legacy-108-05-detail-05 · lettering
+
+**Frozen wording:**
+
+THE LOG GIVES TWO DELETION TIMES. IT DOES NOT SHOW THE MAINTAINER’S LIST.
+
+**Decision:** rewrite — Preserve the second deletion, preferred twelve-second clock difference and private-list limit. Remove the invented same hand; recorded uncertainty remains attached to each event. Element reviewed: lettering.
+
+**Draft destination:** cw-backup-deletion-list-limit
+
+## legacy-332b5ed63262 · 108-06
+
+### legacy-108-06-detail-01 · frame
+
+**Frozen wording:**
+
+Black, with the three letters `ZZZ` and, faint beneath them, the `zz` of [page 003](003.md). No arrow joins them.
+
+**Decision:** rewrite — Move retrospective naming comparison to the dated September 9 production review and retain the actual June deletion once in the incident. Earlier ZZZ names are evidence of nonuniqueness, not proof of motive, convergence or absence of contact; the backup’s removal does not prove every sort-last tactic fails. Element reviewed: frame.
+
+**Draft destination:** prod-title-proposal-echo, prod-title-proposal-gap
+
+### legacy-108-06-detail-03 · lettering
+
+**Frozen wording:**
+
+THE NAMING ECHO IS IN THE RECORD. IT DOES NOT ESTABLISH CONTACT. SORT-LAST NAMING WAS ALREADY A HABIT HERE — AND IT DID NOT WORK.
+
+**Decision:** rewrite — Move retrospective naming comparison to the dated September 9 production review and retain the actual June deletion once in the incident. Earlier ZZZ names are evidence of nonuniqueness, not proof of motive, convergence or absence of contact; the backup’s removal does not prove every sort-last tactic fails. Element reviewed: lettering.
+
+**Draft destination:** prod-title-proposal-echo-context, cw-backup-deletion-delete
+
+### legacy-108-06-detail-04 · lettering
+
+**Frozen wording:**
+
+A SIMILAR NAME CAN SOLVE A SIMILAR SORTING PROBLEM WITHOUT ONE POPULATION TEACHING THE OTHER. THE ECHO IS WORTH INVESTIGATING; IT IS NOT A SUBSTITUTE FOR A TRACE OF CONTACT.
+
+**Decision:** rewrite — Move retrospective naming comparison to the dated September 9 production review and retain the actual June deletion once in the incident. Earlier ZZZ names are evidence of nonuniqueness, not proof of motive, convergence or absence of contact; the backup’s removal does not prove every sort-last tactic fails. Element reviewed: lettering.
+
+**Draft destination:** prod-title-proposal-echo-context, prod-title-proposal-gap
+
 ## legacy-332b5ed63262 · 112-01
 
 ### legacy-112-01-detail-03 · lettering

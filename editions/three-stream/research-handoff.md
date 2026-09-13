@@ -674,3 +674,29 @@ a project interpretation of competing uses, not a recovered private judgment.
 Scoped draft and whitespace checks pass. Remaining wiki pages 108–111 and
 many earlier panels still need individual review; the overall graphic edition
 is unfinished and no page count or canonical allocation is selected.
+
+### Wiki fallback and deletion sequence — 13 September 2026
+
+Reviewed all six frozen 108 panels, with individual element targets. Added
+three beats: the backup’s preferred ninety-six-second interval and copied
+context; the deletion record’s limits on private screens and human identity;
+and earlier ZZZ names as narrator context at the preserved September 9 title
+review. The latter does not invent an additional Codex source-reading act.
+Read the original backup revisions and May 26 / June 11 ZZZ revisions.
+
+The earlier research note supplies useful locators but overreaches when it
+calls convergence proved or opposite sorting a disproof of transfer. The new
+draft makes neither claim. Nonunique naming does not establish contact or
+its absence. The alphabetical warning stays attributed to its writer; Z-tail
+deletions remain at their own later incident times. A private deletion list,
+maintainer motive and a repeated human hand are not recovered evidence.
+
+The compressed two-page activity is split: the original page holds the
+same-second third-round and context-reset claims, while the backup carries
+separate requests, mirrored values and subsequent answer reports. The saved
+revision proves a report was posted, not that the runtime paused or a grader
+accepted the answer. Each deletion retains its own uncertain source clock.
+
+Scoped draft checks pass with the frozen edition unchanged. Frozen 109–111
+and many earlier panels remain unreviewed. Overall completeness, chronology,
+Twitter entrance, other-Mac evidence and page allocation remain open.
