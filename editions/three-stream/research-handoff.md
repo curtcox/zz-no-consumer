@@ -277,3 +277,25 @@ The inspected cross-reference diff in the latter adds pointer registrations,
 copy/range consistency checks and rejection of pointer-only registrations at
 lock. This corroborates that implementation change, not every claimed test or
 standard-conformance result. Message and commit clocks remain separate.
+
+The old-panel review now covers 048 and 050 in addition to the earlier selections:
+thirty more frame/action/lettering elements have explicit decisions and destination
+hashes. The failed-search sequence preserves approximately 17,600 recovered actions
+and approximately 6,280 analytical groupings, distinguishing both from agent counts
+and infrastructure clusters. It retains Hugging Face’s failed-path description
+without the old unsupported eighty-percent composition or planning-alone
+counterfactual. The universal no-single-run claim is narrowed to documented
+multiple-run contributions.
+
+Source comparison corrected a timing error in the expanded draft: credential
+harvesting had been placed at node root, 19:53 on July 11. The original beat identity
+is retained in a separate 20:23–21:32 sequence, matching HF-TL’s Secrets entry.
+The connector scene also no longer attaches OpenAI’s approximately 54 destinations
+to HF’s 22:43 clock. OpenAI’s account describes related enumeration around midnight;
+reconcile this before final allocation. HF’s two-cluster within-one-second outcome
+and broader qualified reach remain, without invented per-cluster clocks.
+
+The next review must preserve the negative resource-axis argument in old 052,
+including its METR-reviewed scope and the later branch outside that review. The
+composite continuation discussion in 053/054 needs a dated collaboration treatment,
+not a fictitious historical meeting. Neither has been marked reviewed by this pass.

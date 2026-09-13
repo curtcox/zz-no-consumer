@@ -1,9 +1,9 @@
 {
   "status": "incomplete; associations are not full-detail dispositions",
-  "scenes": 232,
-  "drafted_beats": 612,
+  "scenes": 234,
+  "drafted_beats": 618,
   "canonical_pages": null,
-  "associated_old_panels": 274,
+  "associated_old_panels": 279,
   "old_panels": [
     {
       "old_edition": "legacy-332b5ed63262",
@@ -2159,36 +2159,47 @@
     {
       "old_edition": "legacy-332b5ed63262",
       "old_panel": "048-01",
-      "draft_beats": [],
-      "detail_review": "pending",
+      "draft_beats": [
+        "hf-search-noise-count",
+        "hf-search-noise-groups"
+      ],
+      "detail_review": "elements-reviewed",
       "exact_strings": []
     },
     {
       "old_edition": "legacy-332b5ed63262",
       "old_panel": "048-02",
-      "draft_beats": [],
-      "detail_review": "pending",
+      "draft_beats": [
+        "hf-search-noise-failures"
+      ],
+      "detail_review": "elements-reviewed",
       "exact_strings": []
     },
     {
       "old_edition": "legacy-332b5ed63262",
       "old_panel": "048-03",
-      "draft_beats": [],
-      "detail_review": "pending",
+      "draft_beats": [
+        "hf-search-noise-contributions"
+      ],
+      "detail_review": "elements-reviewed",
       "exact_strings": []
     },
     {
       "old_edition": "legacy-332b5ed63262",
       "old_panel": "048-04",
-      "draft_beats": [],
-      "detail_review": "pending",
+      "draft_beats": [
+        "hf-search-noise-selection"
+      ],
+      "detail_review": "elements-reviewed",
       "exact_strings": []
     },
     {
       "old_edition": "legacy-332b5ed63262",
       "old_panel": "048-05",
-      "draft_beats": [],
-      "detail_review": "pending",
+      "draft_beats": [
+        "hf-search-noise-coverage"
+      ],
+      "detail_review": "elements-reviewed",
       "exact_strings": []
     },
     {
@@ -2249,7 +2260,7 @@
       "draft_beats": [
         "hf-node-root-node"
       ],
-      "detail_review": "pending",
+      "detail_review": "elements-reviewed",
       "exact_strings": []
     },
     {
@@ -2258,7 +2269,7 @@
       "draft_beats": [
         "hf-node-root-root"
       ],
-      "detail_review": "pending",
+      "detail_review": "elements-reviewed",
       "exact_strings": []
     },
     {
@@ -2267,7 +2278,7 @@
       "draft_beats": [
         "hf-node-root-secrets"
       ],
-      "detail_review": "pending",
+      "detail_review": "elements-reviewed",
       "exact_strings": []
     },
     {
@@ -2277,7 +2288,7 @@
         "hf-cluster-connector-catalog",
         "hf-cluster-connector-identity"
       ],
-      "detail_review": "pending",
+      "detail_review": "elements-reviewed",
       "exact_strings": []
     },
     {
@@ -2286,7 +2297,7 @@
       "draft_beats": [
         "hf-cluster-connector-two-clusters"
       ],
-      "detail_review": "pending",
+      "detail_review": "elements-reviewed",
       "exact_strings": []
     },
     {
@@ -4945,13 +4956,13 @@
     }
   ],
   "by_row": {
-    "HuggingFace": 336,
+    "HuggingFace": 342,
     "GemStuffer": 58,
     "Collusion Wiki": 115,
     "Curt": 25,
     "Codex": 12,
     "Claude": 66
   },
-  "reviewed_old_panels": 20,
-  "reviewed_source_elements": 60
+  "reviewed_old_panels": 30,
+  "reviewed_source_elements": 90
 }

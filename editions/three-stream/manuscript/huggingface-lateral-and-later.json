@@ -69,35 +69,6 @@
             "reason": "Retain the stated action/claim at panel scale; replace old page choreography with the scene-specific frame and keep qualifications in reader-visible lettering."
           }
         ]
-      },
-      {
-        "id": "hf-node-root-secrets",
-        "old_panels": [
-          "050-03"
-        ],
-        "frame": "Opaque credential objects become available from the node. Their destinations extend beyond its boundary.",
-        "lettering": [
-          "The node exposes credentials with authority beyond the original worker."
-        ],
-        "exact_strings": [],
-        "sources": [
-          {
-            "key": "HF-TL",
-            "locator": "Three lateral-movement techniques; 11 July 19:53 UTC",
-            "available": "2026-07-27"
-          }
-        ],
-        "evidence_status": "documented-with-reconstructed-visualization",
-        "time_start": "2026-07-11T19:53Z",
-        "time_end": "2026-07-11T19:53Z",
-        "art_reuse": "none-approved",
-        "detail_decisions": [
-          {
-            "old_panel": "050-03",
-            "disposition": "rewrite",
-            "reason": "Retain the stated action/claim at panel scale; replace old page choreography with the scene-specific frame and keep qualifications in reader-visible lettering."
-          }
-        ]
       }
     ]
   },
@@ -110,7 +81,7 @@
     "end": "2026-07-11T22:43Z",
     "original_timezone": "UTC",
     "precision": "minute",
-    "chronology_basis": "Connector enumeration and near-concurrent access; no invented ordering among returned destinations.",
+    "chronology_basis": "Hugging Face dates connector access to 22:43. OpenAI describes related enumeration around midnight; reconcile these accounts before allocation rather than attaching its catalog count to HF’s precise minute. No individual subsecond timestamps are supplied.",
     "source_limit": "Evidence limited to the cited account and its scope; scene geometry is authored.",
     "status": "detailed-draft",
     "beats": [
@@ -119,15 +90,15 @@
         "old_panels": [
           "050-04"
         ],
-        "frame": "An internal connector returns a catalog of roughly fifty-four Kubernetes destinations. No operational endpoints are lettered.",
+        "frame": "An internal connector returns a catalog of multiple Kubernetes destinations. No operational endpoints or exact destination count are lettered.",
         "lettering": [
-          "22:43 UTC. The connector exposes about 54 Kubernetes destinations."
+          "22:43 UTC in Hugging Face’s chronology. The connector returns its destination catalog."
         ],
         "exact_strings": [],
         "sources": [
           {
             "key": "HF-TL",
-            "locator": "Three lateral-movement techniques; 11 July 22:43 UTC",
+            "locator": "Day-by-day, July 11; Internal service-connector access (22:43)",
             "available": "2026-07-27"
           }
         ],
@@ -156,7 +127,7 @@
         "sources": [
           {
             "key": "HF-TL",
-            "locator": "Three lateral-movement techniques; 11 July 22:43 UTC",
+            "locator": "Day-by-day, July 11; Internal service-connector access (22:43)",
             "available": "2026-07-27"
           }
         ],
@@ -177,15 +148,15 @@
         "old_panels": [
           "050-05"
         ],
-        "frame": "Two distinct cluster boundaries show confirmed administrator-equivalent access. Other destinations remain only reachable catalog entries.",
+        "frame": "Two distinct cluster boundaries show administrator-equivalent access. Other clusters carrying the shared binding remain a qualified group, not an invented per-cluster success map.",
         "lettering": [
-          "Access to two clusters follows within one second. Reach listed in a catalog and confirmed access are different findings."
+          "Hugging Face reports administrator access on two clusters within one second, and says most clusters carrying the binding were reached. It does not enumerate each outcome here. Catalog entries, shared authority and demonstrated actions remain different findings."
         ],
         "exact_strings": [],
         "sources": [
           {
             "key": "HF-TL",
-            "locator": "Three lateral-movement techniques; 11 July 22:43 UTC",
+            "locator": "Day-by-day, July 11; Internal service-connector access (22:43)",
             "available": "2026-07-27"
           }
         ],
@@ -2062,6 +2033,50 @@
         "detail_decisions": [
           {
             "old_panel": "072-05",
+            "disposition": "rewrite",
+            "reason": "Retain the stated action/claim at panel scale; replace old page choreography with the scene-specific frame and keep qualifications in reader-visible lettering."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "hf-node-secrets",
+    "title": "Credentials beyond the rooted node",
+    "movement": "incident",
+    "owner": "HuggingFace",
+    "start": "2026-07-11T20:23Z",
+    "end": "2026-07-11T21:32Z",
+    "original_timezone": "UTC",
+    "precision": "range",
+    "chronology_basis": "HF-TL dates secret harvesting 20:23–21:32, after the 19:53 root event. No invented timestamp for each individual credential.",
+    "source_limit": "Evidence limited to the cited account and its scope; scene geometry is authored.",
+    "status": "detailed-draft",
+    "beats": [
+      {
+        "id": "hf-node-root-secrets",
+        "old_panels": [
+          "050-03"
+        ],
+        "frame": "Opaque secret objects branch toward a corporate-network credential and an access-broker credential. Values, formats and replay steps remain absent.",
+        "lettering": [
+          "After node root, Hugging Face dates the harvesting of cluster secrets to 20:23–21:32. These include credentials for the corporate mesh network and the internal access broker."
+        ],
+        "exact_strings": [],
+        "sources": [
+          {
+            "key": "HF-TL",
+            "locator": "Day-by-day, July 11; Secrets (20:23–21:32)",
+            "available": "2026-07-27"
+          }
+        ],
+        "evidence_status": "documented-with-reconstructed-visualization",
+        "time_start": "2026-07-11T20:23Z",
+        "time_end": "2026-07-11T21:32Z",
+        "art_reuse": "none-approved",
+        "detail_decisions": [
+          {
+            "old_panel": "050-03",
             "disposition": "rewrite",
             "reason": "Retain the stated action/claim at panel scale; replace old page choreography with the scene-specific frame and keep qualifications in reader-visible lettering."
           }

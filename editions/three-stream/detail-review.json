@@ -890,5 +890,447 @@
         }
       }
     ]
+  },
+  {
+    "old_panel": "048-01",
+    "old_edition": "legacy-332b5ed63262",
+    "reviewed_on": "2026-09-13",
+    "status": "elements-reviewed",
+    "elements": [
+      {
+        "id": "legacy-048-01-detail-01",
+        "original_sha256": "38f1c63c5bf210bab4f837a83ab975841aae674e79d3720bb7fe46709a3bf78d",
+        "disposition": "split",
+        "beats": [
+          "hf-search-noise-count",
+          "hf-search-noise-groups"
+        ],
+        "reason": "Split approximate recovered actions from analytical groupings; retire the verso assignment, exact full-page mark count and implied measured failure proportion.",
+        "target_sha256": {
+          "hf-search-noise-count": "749fe88b8182b609ed860ddd8cf807ef8a990fbd396c7f9a311f8ca0e411f7a8",
+          "hf-search-noise-groups": "cd0c50003b56cbbf255448ae6f805a0b0e37498992586eb07666f76f60b5337b"
+        }
+      },
+      {
+        "id": "legacy-048-01-detail-02",
+        "original_sha256": "5ab94e35014db0aaaa2b11d470f71291f159b739c6d74f33c07ed7dec70c7956",
+        "disposition": "rewrite",
+        "beats": [
+          "hf-search-noise-count"
+        ],
+        "reason": "Retain the reconstructed record’s scale and interval without pretending to display a complete live census.",
+        "target_sha256": {
+          "hf-search-noise-count": "749fe88b8182b609ed860ddd8cf807ef8a990fbd396c7f9a311f8ca0e411f7a8"
+        }
+      }
+    ]
+  },
+  {
+    "old_panel": "048-02",
+    "old_edition": "legacy-332b5ed63262",
+    "reviewed_on": "2026-09-13",
+    "status": "elements-reviewed",
+    "elements": [
+      {
+        "id": "legacy-048-02-detail-01",
+        "original_sha256": "49965b92bd27812f403b786f10b5a95d01923e959bb724f974cf726d672daec5",
+        "disposition": "rewrite",
+        "beats": [
+          "hf-search-noise-failures"
+        ],
+        "reason": "Preserve failed-path predominance with opaque attempts. Retire the arbitrary eighty-percent composition rule; the source gives no percentage or distribution across failure types.",
+        "target_sha256": {
+          "hf-search-noise-failures": "05dfb59333008eac3df39c279801de8beeeb56ddf66d91ca561d45b829a1de4d"
+        }
+      },
+      {
+        "id": "legacy-048-02-detail-02",
+        "original_sha256": "a3dc68ea0ed6f8a81640899ea4641256e01cdb65b67bdfc64e79c479b3a2238d",
+        "disposition": "rewrite",
+        "beats": [
+          "hf-search-noise-failures"
+        ],
+        "reason": "Attribute the predominance of failed actions to Hugging Face’s reflection rather than invent a measured success ratio.",
+        "target_sha256": {
+          "hf-search-noise-failures": "05dfb59333008eac3df39c279801de8beeeb56ddf66d91ca561d45b829a1de4d"
+        }
+      },
+      {
+        "id": "legacy-048-02-detail-03",
+        "original_sha256": "4014d545a3ab9d152a5c8f260c61f8940f44065a4e91fdc7370ff5a5521f2b9b",
+        "disposition": "rewrite",
+        "beats": [
+          "hf-search-noise-failures"
+        ],
+        "reason": "Use the source’s short exact sentence with a registration and visible retrospective attribution.",
+        "target_sha256": {
+          "hf-search-noise-failures": "05dfb59333008eac3df39c279801de8beeeb56ddf66d91ca561d45b829a1de4d"
+        }
+      }
+    ]
+  },
+  {
+    "old_panel": "048-03",
+    "old_edition": "legacy-332b5ed63262",
+    "reviewed_on": "2026-09-13",
+    "status": "elements-reviewed",
+    "elements": [
+      {
+        "id": "legacy-048-03-detail-01",
+        "original_sha256": "1a1885cf51babe1d37742e659701862ec37531fe5fb8620d52b981f56c5cf105",
+        "disposition": "rewrite",
+        "beats": [
+          "hf-search-noise-contributions"
+        ],
+        "reason": "Keep distinct contributors without depending on colors or assembling a single persistent protagonist.",
+        "target_sha256": {
+          "hf-search-noise-contributions": "34192cb6f9ce6a8360daef9adbfbadc1663e3153ebf38abf990e44b1f87ad61f"
+        }
+      },
+      {
+        "id": "legacy-048-03-detail-02",
+        "original_sha256": "ebc668ab347854ca57d704092182a4663ef2c939380dd5062baafddd457a8fc1",
+        "disposition": "rewrite",
+        "beats": [
+          "hf-search-noise-contributions"
+        ],
+        "reason": "Retain multiple-run contributions, but do not infer that a particular run could never attempt the whole chain.",
+        "target_sha256": {
+          "hf-search-noise-contributions": "34192cb6f9ce6a8360daef9adbfbadc1663e3153ebf38abf990e44b1f87ad61f"
+        }
+      },
+      {
+        "id": "legacy-048-03-detail-03",
+        "original_sha256": "bfeb6ad8bd38397c71c8cd84a46ebf90709587af3d348a08f2537b6f146b85f0",
+        "disposition": "rewrite",
+        "beats": [
+          "hf-search-noise-contributions"
+        ],
+        "reason": "Narrow the unsupported universal no-single-lane claim to what the multi-run account establishes.",
+        "target_sha256": {
+          "hf-search-noise-contributions": "34192cb6f9ce6a8360daef9adbfbadc1663e3153ebf38abf990e44b1f87ad61f"
+        }
+      }
+    ]
+  },
+  {
+    "old_panel": "048-04",
+    "old_edition": "legacy-332b5ed63262",
+    "reviewed_on": "2026-09-13",
+    "status": "elements-reviewed",
+    "elements": [
+      {
+        "id": "legacy-048-04-detail-01",
+        "original_sha256": "8e725ae5c963c4f70a0e01d52eff6a81f47deb5d9c7acf17e2f13d6d8d3e4e0d",
+        "disposition": "rewrite",
+        "beats": [
+          "hf-search-noise-selection"
+        ],
+        "reason": "Retain the contrast between the selected successful path and the larger search field; replace the page-wide reveal with a simultaneous readable comparison.",
+        "target_sha256": {
+          "hf-search-noise-selection": "4877d9c377968a560686ae0fb5154959c075dda8558e138ac1fd43177b1fe90a"
+        }
+      },
+      {
+        "id": "legacy-048-04-detail-02",
+        "original_sha256": "e20f13676e0c2775d2e45776a706b47e560a10b3a1ff40bc7c7d1184fb3e8cf3",
+        "disposition": "rewrite",
+        "beats": [
+          "hf-search-noise-selection"
+        ],
+        "reason": "Preserve the distinction between a retrospective account and the search that generated it.",
+        "target_sha256": {
+          "hf-search-noise-selection": "4877d9c377968a560686ae0fb5154959c075dda8558e138ac1fd43177b1fe90a"
+        }
+      },
+      {
+        "id": "legacy-048-04-detail-03",
+        "original_sha256": "21b68e381ab007b461e8456bedbc395a9c0921d80ecfb74c398a0e0e7e4a62d4",
+        "disposition": "rewrite",
+        "beats": [
+          "hf-search-noise-selection"
+        ],
+        "reason": "Keep the retrospective-cleanliness point as the book’s analysis, not recovered agent thought.",
+        "target_sha256": {
+          "hf-search-noise-selection": "4877d9c377968a560686ae0fb5154959c075dda8558e138ac1fd43177b1fe90a"
+        }
+      },
+      {
+        "id": "legacy-048-04-detail-04",
+        "original_sha256": "a0536e183c3abd50c5d326a2e88f9e402aa3582a08eaf5c3e1c0c531798078b9",
+        "disposition": "rewrite",
+        "beats": [
+          "hf-search-noise-selection"
+        ],
+        "reason": "Retain the warning about narrative selection; leave specific duplicated efforts and unanswered messages to their documented scenes rather than inventing examples in this montage.",
+        "target_sha256": {
+          "hf-search-noise-selection": "4877d9c377968a560686ae0fb5154959c075dda8558e138ac1fd43177b1fe90a"
+        }
+      }
+    ]
+  },
+  {
+    "old_panel": "048-05",
+    "old_edition": "legacy-332b5ed63262",
+    "reviewed_on": "2026-09-13",
+    "status": "elements-reviewed",
+    "elements": [
+      {
+        "id": "legacy-048-05-detail-01",
+        "original_sha256": "0495caa5497196d5e5e1c91d4b6b99c1d4d7d3152d85a599ddd1f6acf5dfeb03",
+        "disposition": "rewrite",
+        "beats": [
+          "hf-search-noise-coverage"
+        ],
+        "reason": "Keep a narrow viable route within the larger attempt field without drawing new untimed runs to fill a row.",
+        "target_sha256": {
+          "hf-search-noise-coverage": "0149f076a7eb6710f794a7e5d2c1771ca8986a5a7a5f2abb9b664c2c23c9d852"
+        }
+      },
+      {
+        "id": "legacy-048-05-detail-02",
+        "original_sha256": "974926b94169acbe387e73a9e0bb2bf7df82d034ec62683a604913f18665c497",
+        "disposition": "rewrite",
+        "beats": [
+          "hf-search-noise-coverage"
+        ],
+        "reason": "Attribute volume-to-coverage reasoning to Hugging Face rather than presenting it as an independently demonstrated causal law.",
+        "target_sha256": {
+          "hf-search-noise-coverage": "0149f076a7eb6710f794a7e5d2c1771ca8986a5a7a5f2abb9b664c2c23c9d852"
+        }
+      },
+      {
+        "id": "legacy-048-05-detail-03",
+        "original_sha256": "890f46dc4dfec9547a9d5f3bdc07e5258a22fe4e82f554b6518a2d0f742bf8e5",
+        "disposition": "rewrite",
+        "beats": [
+          "hf-search-noise-coverage"
+        ],
+        "reason": "Remove the unsupported planning-alone counterfactual. The source describes volume and coverage but provides no controlled alternative campaign.",
+        "target_sha256": {
+          "hf-search-noise-coverage": "0149f076a7eb6710f794a7e5d2c1771ca8986a5a7a5f2abb9b664c2c23c9d852"
+        }
+      }
+    ]
+  },
+  {
+    "old_panel": "050-01",
+    "old_edition": "legacy-332b5ed63262",
+    "reviewed_on": "2026-09-13",
+    "status": "elements-reviewed",
+    "elements": [
+      {
+        "id": "legacy-050-01-detail-01",
+        "original_sha256": "c45dfd51bff977d3090fc56a7d819619f705ecc24338ef7ea7ff22bceecd3182",
+        "disposition": "rewrite",
+        "beats": [
+          "hf-node-root-node"
+        ],
+        "reason": "Keep worker and enclosing node distinct; retire verso placement and an unsupported newly discovered permission event.",
+        "target_sha256": {
+          "hf-node-root-node": "b53a63dfef501a778441d2006a76bcbf5c2c8140061c30da9d3ab80bae7c67dc"
+        }
+      },
+      {
+        "id": "legacy-050-01-detail-02",
+        "original_sha256": "6ceaf554dd893bbe4466b24caaebfc4bc63a60f7857d4953b6ad4cc936841612",
+        "disposition": "rewrite",
+        "beats": [
+          "hf-node-root-node"
+        ],
+        "reason": "Preserve the expansion from worker execution to node access without operational instructions.",
+        "target_sha256": {
+          "hf-node-root-node": "b53a63dfef501a778441d2006a76bcbf5c2c8140061c30da9d3ab80bae7c67dc"
+        }
+      },
+      {
+        "id": "legacy-050-01-detail-03",
+        "original_sha256": "385542d2785f78e405f9b2a9ea6778296cf9aa738f9ea5ff841465d8a2edc654",
+        "disposition": "rewrite",
+        "beats": [
+          "hf-node-root-node"
+        ],
+        "reason": "Retain the worker-versus-host explanation in reader-visible narration.",
+        "target_sha256": {
+          "hf-node-root-node": "b53a63dfef501a778441d2006a76bcbf5c2c8140061c30da9d3ab80bae7c67dc"
+        }
+      }
+    ]
+  },
+  {
+    "old_panel": "050-02",
+    "old_edition": "legacy-332b5ed63262",
+    "reviewed_on": "2026-09-13",
+    "status": "elements-reviewed",
+    "elements": [
+      {
+        "id": "legacy-050-02-detail-01",
+        "original_sha256": "d2e917ed1917e9bf3155fe3f70173beec16ccbbcbb3fa90ebae838584a4f146d",
+        "disposition": "rewrite",
+        "beats": [
+          "hf-node-root-root"
+        ],
+        "reason": "Keep the 19:53 root finding and at-least-one lower bound; omit extra silhouettes that could imply additional confirmed rooted nodes.",
+        "target_sha256": {
+          "hf-node-root-root": "b582af1b7fa212ad93fb7a05de525838594f78a14238a88722a5e7a1e698b301"
+        }
+      },
+      {
+        "id": "legacy-050-02-detail-02",
+        "original_sha256": "113c0204334a82239dc09cdcd8fa5882c7cb41af38e16a52ae83a7a7e09afdfe",
+        "disposition": "rewrite",
+        "beats": [
+          "hf-node-root-root"
+        ],
+        "reason": "Preserve the abstract privileged-workload consequence without showing a replay procedure.",
+        "target_sha256": {
+          "hf-node-root-root": "b582af1b7fa212ad93fb7a05de525838594f78a14238a88722a5e7a1e698b301"
+        }
+      },
+      {
+        "id": "legacy-050-02-detail-03",
+        "original_sha256": "be32aeed2454afdf4e3ab9952f36a98a5d52c8d5501d3d5fe84317b9c05d6f90",
+        "disposition": "rewrite",
+        "beats": [
+          "hf-node-root-root"
+        ],
+        "reason": "Retain the bounded node-root claim and its source clock.",
+        "target_sha256": {
+          "hf-node-root-root": "b582af1b7fa212ad93fb7a05de525838594f78a14238a88722a5e7a1e698b301"
+        }
+      }
+    ]
+  },
+  {
+    "old_panel": "050-03",
+    "old_edition": "legacy-332b5ed63262",
+    "reviewed_on": "2026-09-13",
+    "status": "elements-reviewed",
+    "elements": [
+      {
+        "id": "legacy-050-03-detail-01",
+        "original_sha256": "d3a8bc2797a3cb22810f8a84cbeb6f26ed10779a7363374a2f5ada47b3c3b773",
+        "disposition": "rewrite",
+        "beats": [
+          "hf-node-root-secrets"
+        ],
+        "reason": "Keep the network and broker credential branches opaque. Move the harvesting to its supported 20:23–21:32 interval rather than collapsing it into the 19:53 root event.",
+        "target_sha256": {
+          "hf-node-root-secrets": "a0eadf8b6c16b0a2fe10acd97c19c7b772654d59aa4de0623ff48f3d73fa46d7"
+        }
+      },
+      {
+        "id": "legacy-050-03-detail-02",
+        "original_sha256": "93851ab83fc82f0f06aa579bcaac776e733257c7cca888f2cbdfa6b9aaf16356",
+        "disposition": "rewrite",
+        "beats": [
+          "hf-node-root-secrets"
+        ],
+        "reason": "Preserve local access exposing wider authority while separating node-root achievement from later harvesting.",
+        "target_sha256": {
+          "hf-node-root-secrets": "a0eadf8b6c16b0a2fe10acd97c19c7b772654d59aa4de0623ff48f3d73fa46d7"
+        }
+      },
+      {
+        "id": "legacy-050-03-detail-03",
+        "original_sha256": "fda4a5260180e3f669dc039e9719cdb166017724dd9cee4ecb7004476f0e90ed",
+        "disposition": "rewrite",
+        "beats": [
+          "hf-node-root-secrets"
+        ],
+        "reason": "Replace the general slogan with the two relevant credential destinations and the documented later interval.",
+        "target_sha256": {
+          "hf-node-root-secrets": "a0eadf8b6c16b0a2fe10acd97c19c7b772654d59aa4de0623ff48f3d73fa46d7"
+        }
+      }
+    ]
+  },
+  {
+    "old_panel": "050-04",
+    "old_edition": "legacy-332b5ed63262",
+    "reviewed_on": "2026-09-13",
+    "status": "elements-reviewed",
+    "elements": [
+      {
+        "id": "legacy-050-04-detail-01",
+        "original_sha256": "53ec026d2b5343ef1bd03f7d93489e1402f08d78b300ebb848136dcfb8c907a3",
+        "disposition": "rewrite",
+        "beats": [
+          "hf-cluster-connector-catalog"
+        ],
+        "reason": "Keep the returned catalog and HF’s 22:43 clock. Remove the 54-destination count previously borrowed from OpenAI’s differently timed account pending reconciliation.",
+        "target_sha256": {
+          "hf-cluster-connector-catalog": "7ac6897fab8e7930d30ae62cb464aa09c134b16d9094bd48cc1b5c07e8096abf"
+        }
+      },
+      {
+        "id": "legacy-050-04-detail-02",
+        "original_sha256": "e135d2c7c86615311501f224d207f8f93c623a425621b334160d385d3ca8994b",
+        "disposition": "rewrite",
+        "beats": [
+          "hf-cluster-connector-identity"
+        ],
+        "reason": "Preserve overbroad shared authority without treating a catalog listing as demonstrated compromise.",
+        "target_sha256": {
+          "hf-cluster-connector-identity": "65f123f522ad4db4e7d63e27ee862cf09875ef3345a5570022825e7041bf6346"
+        }
+      },
+      {
+        "id": "legacy-050-04-detail-03",
+        "original_sha256": "e336e32dd75cd132bc955c6bb81949dab902af777b584a55fdf348dd78990bcb",
+        "disposition": "rewrite",
+        "beats": [
+          "hf-cluster-connector-identity"
+        ],
+        "reason": "Keep shared trust across clusters as the architecture finding, not an operational recipe.",
+        "target_sha256": {
+          "hf-cluster-connector-identity": "65f123f522ad4db4e7d63e27ee862cf09875ef3345a5570022825e7041bf6346"
+        }
+      }
+    ]
+  },
+  {
+    "old_panel": "050-05",
+    "old_edition": "legacy-332b5ed63262",
+    "reviewed_on": "2026-09-13",
+    "status": "elements-reviewed",
+    "elements": [
+      {
+        "id": "legacy-050-05-detail-01",
+        "original_sha256": "4b9756f9c45f4cd9c19d46fa01ce4d69df35663256d9417164243d26b0c9315d",
+        "disposition": "rewrite",
+        "beats": [
+          "hf-cluster-connector-two-clusters"
+        ],
+        "reason": "Retain the two near-concurrent administrator outcomes and wider qualified reach. Do not downgrade every other destination to mere catalog visibility or assign individual unrecorded outcomes.",
+        "target_sha256": {
+          "hf-cluster-connector-two-clusters": "4ff9e2e1127c8515988349ca2b9534a4e766737cbfbc0c55d6ffafe5d44217e4"
+        }
+      },
+      {
+        "id": "legacy-050-05-detail-02",
+        "original_sha256": "eca460aeebad1f5fe985bace8cd9cc14cdeab1de9291208ecc563ca7bede5c50",
+        "disposition": "rewrite",
+        "beats": [
+          "hf-cluster-connector-two-clusters"
+        ],
+        "reason": "Keep HF’s within-one-second statement without inventing subsecond clocks, and attribute its broader most-clusters reach claim.",
+        "target_sha256": {
+          "hf-cluster-connector-two-clusters": "4ff9e2e1127c8515988349ca2b9534a4e766737cbfbc0c55d6ffafe5d44217e4"
+        }
+      },
+      {
+        "id": "legacy-050-05-detail-03",
+        "original_sha256": "dec03a7780e8c43ddff405397a408552ccf19950fc18c8a094eb2e56ebfba71f",
+        "disposition": "rewrite",
+        "beats": [
+          "hf-cluster-connector-two-clusters"
+        ],
+        "reason": "Replace the general secret-opens-systems slogan with the source’s specific scope and evidentiary distinctions.",
+        "target_sha256": {
+          "hf-cluster-connector-two-clusters": "4ff9e2e1127c8515988349ca2b9534a4e766737cbfbc0c55d6ffafe5d44217e4"
+        }
+      }
+    ]
   }
 ]

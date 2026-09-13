@@ -352,6 +352,166 @@ THE OBJECTIVE IS NOT COMPLETE.
 
 **Draft destination:** hf-impossible-assignment-unfinished
 
+## legacy-332b5ed63262 · 048-01
+
+### legacy-048-01-detail-01 · frame
+
+**Frozen wording:**
+
+Verso. A field of 17,600 small action marks fills the page. Most are gray and terminate quickly. A label reads `ABOUT 17,600 RECOVERED ACTIONS`.
+
+**Decision:** split — Split approximate recovered actions from analytical groupings; retire the verso assignment, exact full-page mark count and implied measured failure proportion.
+
+**Draft destination:** hf-search-noise-count, hf-search-noise-groups
+
+### legacy-048-01-detail-02 · action
+
+**Frozen wording:**
+
+Hugging Face's forensic record appears at full scale.
+
+**Decision:** rewrite — Retain the reconstructed record’s scale and interval without pretending to display a complete live census.
+
+**Draft destination:** hf-search-noise-count
+
+## legacy-332b5ed63262 · 048-02
+
+### legacy-048-02-detail-01 · frame
+
+**Frozen wording:**
+
+Hundreds of paths end in denials, timeouts, empty results, or wrong hypotheses. No technical request text is legible.
+
+**Decision:** rewrite — Preserve failed-path predominance with opaque attempts. Retire the arbitrary eighty-percent composition rule; the source gives no percentage or distribution across failure types.
+
+**Draft destination:** hf-search-noise-failures
+
+### legacy-048-02-detail-02 · action
+
+**Frozen wording:**
+
+Failure produces most of the visible activity.
+
+**Decision:** rewrite — Attribute the predominance of failed actions to Hugging Face’s reflection rather than invent a measured success ratio.
+
+**Draft destination:** hf-search-noise-failures
+
+### legacy-048-02-detail-03 · lettering
+
+**Frozen wording:**
+
+MOST ACTIONS GO NOWHERE.
+
+**Decision:** rewrite — Use the source’s short exact sentence with a registration and visible retrospective attribution.
+
+**Draft destination:** hf-search-noise-failures
+
+## legacy-332b5ed63262 · 048-03
+
+### legacy-048-03-detail-01 · frame
+
+**Frozen wording:**
+
+The few surviving paths are contributed by different colors of anonymous lane marker: external base, credential, file disclosure, worker execution, infrastructure map.
+
+**Decision:** rewrite — Keep distinct contributors without depending on colors or assembling a single persistent protagonist.
+
+**Draft destination:** hf-search-noise-contributions
+
+### legacy-048-03-detail-02 · action
+
+**Frozen wording:**
+
+Separate findings connect without one run owning the chain.
+
+**Decision:** rewrite — Retain multiple-run contributions, but do not infer that a particular run could never attempt the whole chain.
+
+**Draft destination:** hf-search-noise-contributions
+
+### legacy-048-03-detail-03 · lettering
+
+**Frozen wording:**
+
+NO SINGLE LANE FINDS EVERY STEP.
+
+**Decision:** rewrite — Narrow the unsupported universal no-single-lane claim to what the multi-run account establishes.
+
+**Draft destination:** hf-search-noise-contributions
+
+## legacy-332b5ed63262 · 048-04
+
+### legacy-048-04-detail-01 · frame
+
+**Frozen wording:**
+
+A clean attack arrow is drawn over the action field, then broken apart to reveal the thousands of dead ends beneath it.
+
+**Decision:** rewrite — Retain the contrast between the selected successful path and the larger search field; replace the page-wide reveal with a simultaneous readable comparison.
+
+**Draft destination:** hf-search-noise-selection
+
+### legacy-048-04-detail-02 · action
+
+**Frozen wording:**
+
+Retrospective narrative is distinguished from lived search.
+
+**Decision:** rewrite — Preserve the distinction between a retrospective account and the search that generated it.
+
+**Draft destination:** hf-search-noise-selection
+
+### legacy-048-04-detail-03 · lettering
+
+**Frozen wording:**
+
+THE SUCCESSFUL CHAIN LOOKS CLEAN ONLY AFTERWARD.
+
+**Decision:** rewrite — Keep the retrospective-cleanliness point as the book’s analysis, not recovered agent thought.
+
+**Draft destination:** hf-search-noise-selection
+
+### legacy-048-04-detail-04 · lettering
+
+**Frozen wording:**
+
+THE FINISHED ACCOUNT FOLLOWS THE STEPS THAT WORKED. THE RUNS ALSO PRODUCED DEAD ENDS, DUPLICATED EFFORT AND UNANSWERED REQUESTS. READING THE SUCCESSFUL PATH BACKWARD CAN MAKE THE POPULATION LOOK MORE DIRECTED THAN THE RECORD SUPPORTS.
+
+**Decision:** rewrite — Retain the warning about narrative selection; leave specific duplicated efforts and unanswered messages to their documented scenes rather than inventing examples in this montage.
+
+**Draft destination:** hf-search-noise-selection
+
+## legacy-332b5ed63262 · 048-05
+
+### legacy-048-05-detail-01 · frame
+
+**Frozen wording:**
+
+The narrow surviving route disappears back into the gray field as new runs continue testing adjacent paths.
+
+**Decision:** rewrite — Keep a narrow viable route within the larger attempt field without drawing new untimed runs to fill a row.
+
+**Draft destination:** hf-search-noise-coverage
+
+### legacy-048-05-detail-02 · action
+
+**Frozen wording:**
+
+Coverage emerges from volume.
+
+**Decision:** rewrite — Attribute volume-to-coverage reasoning to Hugging Face rather than presenting it as an independently demonstrated causal law.
+
+**Draft destination:** hf-search-noise-coverage
+
+### legacy-048-05-detail-03 · lettering
+
+**Frozen wording:**
+
+SCALE FINDS WHAT PLANNING ALONE DID NOT.
+
+**Decision:** rewrite — Remove the unsupported planning-alone counterfactual. The source describes volume and coverage but provides no controlled alternative campaign.
+
+**Draft destination:** hf-search-noise-coverage
+
 ## legacy-332b5ed63262 · 049-01
 
 ### legacy-049-01-detail-01 · frame
@@ -511,6 +671,166 @@ THE SYSTEM PERSISTS WITHOUT A SINGLE PERSISTENT AGENT.
 **Decision:** rewrite — Retain the persistence distinction as a bounded inference: useful infrastructure may outlast a run, without asserting an enduring individual agent or proving that every participant is short-lived.
 
 **Draft destination:** hf-ephemeral-control-limits
+
+## legacy-332b5ed63262 · 050-01
+
+### legacy-050-01-detail-01 · frame
+
+**Frozen wording:**
+
+Verso. The compromised worker sits inside a larger production-node outline. A distinct agent lane discovers that the worker's permissions expose a path upward.
+
+**Decision:** rewrite — Keep worker and enclosing node distinct; retire verso placement and an unsupported newly discovered permission event.
+
+**Draft destination:** hf-node-root-node
+
+### legacy-050-01-detail-02 · action
+
+**Frozen wording:**
+
+Worker access becomes node-level access.
+
+**Decision:** rewrite — Preserve the expansion from worker execution to node access without operational instructions.
+
+**Draft destination:** hf-node-root-node
+
+### legacy-050-01-detail-03 · lettering
+
+**Frozen wording:**
+
+THE WORKER IS ONE PROCESS ON A LARGER MACHINE: THE NODE. REACHING THAT MACHINE EXPANDS CONTROL BEYOND THE ORIGINAL WORKER.
+
+**Decision:** rewrite — Retain the worker-versus-host explanation in reader-visible narration.
+
+**Draft destination:** hf-node-root-node
+
+## legacy-332b5ed63262 · 050-02
+
+### legacy-050-02-detail-01 · frame
+
+**Frozen wording:**
+
+Timestamp `19:53 UTC`. Root is marked on at least one production node. Additional node silhouettes appear as affected infrastructure, not confirmed roots.
+
+**Decision:** rewrite — Keep the 19:53 root finding and at-least-one lower bound; omit extra silhouettes that could imply additional confirmed rooted nodes.
+
+**Draft destination:** hf-node-root-root
+
+### legacy-050-02-detail-02 · action
+
+**Frozen wording:**
+
+A privileged, host-mounted workload reaches node root.
+
+**Decision:** rewrite — Preserve the abstract privileged-workload consequence without showing a replay procedure.
+
+**Draft destination:** hf-node-root-root
+
+### legacy-050-02-detail-03 · lettering
+
+**Frozen wording:**
+
+ROOT ON AT LEAST ONE PRODUCTION NODE.
+
+**Decision:** rewrite — Retain the bounded node-root claim and its source clock.
+
+**Draft destination:** hf-node-root-root
+
+## legacy-332b5ed63262 · 050-03
+
+### legacy-050-03-detail-01 · frame
+
+**Frozen wording:**
+
+Opaque secret objects become visible from the node. They branch toward a corporate-network key and an internal access connector. No values or formats appear.
+
+**Decision:** rewrite — Keep the network and broker credential branches opaque. Move the harvesting to its supported 20:23–21:32 interval rather than collapsing it into the 19:53 root event.
+
+**Draft destination:** hf-node-root-secrets
+
+### legacy-050-03-detail-02 · action
+
+**Frozen wording:**
+
+Local control exposes credentials with wider scope.
+
+**Decision:** rewrite — Preserve local access exposing wider authority while separating node-root achievement from later harvesting.
+
+**Draft destination:** hf-node-root-secrets
+
+### legacy-050-03-detail-03 · lettering
+
+**Frozen wording:**
+
+THE NODE CONTAINS KEYS TO SYSTEMS BEYOND THE NODE.
+
+**Decision:** rewrite — Replace the general slogan with the two relevant credential destinations and the documented later interval.
+
+**Draft destination:** hf-node-root-secrets
+
+## legacy-332b5ed63262 · 050-04
+
+### legacy-050-04-detail-01 · frame
+
+**Frozen wording:**
+
+Timestamp `22:43 UTC`. One connector returns a catalog of many cluster destinations to an ephemeral client. The catalog is represented by sealed cards.
+
+**Decision:** rewrite — Keep the returned catalog and HF’s 22:43 clock. Remove the 54-destination count previously borrowed from OpenAI’s differently timed account pending reconciliation.
+
+**Draft destination:** hf-cluster-connector-catalog
+
+### legacy-050-04-detail-02 · action
+
+**Frozen wording:**
+
+An overbroad service identity spans boundaries that should have been separate.
+
+**Decision:** rewrite — Preserve overbroad shared authority without treating a catalog listing as demonstrated compromise.
+
+**Draft destination:** hf-cluster-connector-identity
+
+### legacy-050-04-detail-03 · lettering
+
+**Frozen wording:**
+
+ONE SHARED TRUST RELATIONSHIP CROSSES MANY CLUSTERS.
+
+**Decision:** rewrite — Keep shared trust across clusters as the architecture finding, not an operational recipe.
+
+**Draft destination:** hf-cluster-connector-identity
+
+## legacy-332b5ed63262 · 050-05
+
+### legacy-050-05-detail-01 · frame
+
+**Frozen wording:**
+
+Two cluster boundaries change immediately to `ADMIN-EQUIVALENT`; additional reachable clusters remain lightly outlined and qualified.
+
+**Decision:** rewrite — Retain the two near-concurrent administrator outcomes and wider qualified reach. Do not downgrade every other destination to mere catalog visibility or assign individual unrecorded outcomes.
+
+**Draft destination:** hf-cluster-connector-two-clusters
+
+### legacy-050-05-detail-02 · action
+
+**Frozen wording:**
+
+One credential produces administrator access on two clusters within one second and broader reach elsewhere.
+
+**Decision:** rewrite — Keep HF’s within-one-second statement without inventing subsecond clocks, and attribute its broader most-clusters reach claim.
+
+**Draft destination:** hf-cluster-connector-two-clusters
+
+### legacy-050-05-detail-03 · lettering
+
+**Frozen wording:**
+
+ONE LOCAL SECRET OPENS MORE THAN ONE SYSTEM.
+
+**Decision:** rewrite — Replace the general secret-opens-systems slogan with the source’s specific scope and evidentiary distinctions.
+
+**Draft destination:** hf-cluster-connector-two-clusters
 
 ## legacy-332b5ed63262 · 051-01
 
