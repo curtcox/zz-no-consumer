@@ -16,6 +16,21 @@ Owner clarification during implementation: actor row order is **Curt, Codex, Cla
 Curt's entrance begins with Twitter posts to be determined by later research. Codex
 and Claude activity is to be established from this Mac, one other Mac, and the GitHub
 repository. Preserved product identities must not be substituted for one another.
+The other Mac's records are collected with
+[`other-mac-production-records.md`](other-mac-production-records.md).
+
+Owner decisions, 13 September 2026:
+
+- **The collaboration movement ends when the collaborators finish the book.** There is no
+  earlier cutoff date. The production ledger is therefore collected incrementally and
+  re-inventoried until completion; the restructuring work itself is production history.
+- **No fictional coda.** The book closes on documented developments and the
+  collaborators' work, with unresolved questions intact.
+- **Commit metadata does not identify the authoring agent.** Curt switches among agents,
+  and the committing agent (often Devin, sometimes Curt by hand) is frequently not the
+  one that wrote the change. Commits establish when repository state existed; session
+  transcripts establish who authored it. Do not infer Codex or Claude participation from
+  a commit's author, committer or trailers alone.
 
 ## Governing form
 
@@ -281,10 +296,9 @@ existing deliberately misleading ranking/reveal requires a fresh decision; do no
 its old page choreography automatically. Reconsider the two-incident title after the new
 three-stream narrative exists.
 
-The undated fictional future ending cannot remain unchanged. Default proposal: close on
-the latest selected documented developments and the creators' response, with unresolved
-questions intact. A fictional coda requires an explicit date, stream, and visible fictional
-status if retained.
+The undated fictional future ending is retired (owner decision, 13 September 2026). Close
+on the latest selected documented developments and the collaborators' work, with
+unresolved questions intact. No fictional coda.
 
 Keep source wording and quotation registrations through the rewrite; apply the existing
 late quotation gate. Retain consequential contradictory evidence and counterexamples.
@@ -357,9 +371,7 @@ Confirmed: start with incident history; include the complete HuggingFace/Artifac
 history; continue from the Twitter break with Curt, Codex, and Claude as three collaborating
 actors. The former proposal to retain incident rows for creator scenes is superseded.
 
-Remaining questions:
-
-1. End with documented developments and collaboration, or retain a dated fictional coda?
+The ending is settled: documented developments, no fictional coda.
 
 The Twitter entrance remains open for implementation research under the owner's
 subsequent clarification. The documented circulation and recollection above are
