@@ -104,7 +104,7 @@ generation boundaries, so a CI run can never reach for an image model.
 | `make-thumbnails.py` | the provisional recto/verso spread contact sheet, into the internal build |
 | `textimage.py` | flows text into an image of exactly the requested size, in pure Python. `book` writes a placeholder for every page and panel slot, which is why the whole book is readable before any art exists. |
 | `svg_components.py` | independent SVG palette and local editing workshop (`serve` `add` `choose` `export` `gallery` `check`); see [component workflow](../design/svg-components.md) |
-| `location_backgrounds.py` | `plan`, `apply`, and `check` for the location background palette and filling storyboards without setting artwork; preserves existing settings and intentional blank fields |
+| `location_backgrounds.py` | `plan`, `apply`, `refine`, and `check` for the location background palette, material revisions, and filling storyboards without setting artwork; preserves foregrounds and intentional blank fields |
 | `storyboards.py` | deterministic SVG scene previews, versioned placeholder assets, and a comparison workshop (`generate` `check` `gallery`); see [the workflow](../design/storyboard-workflow.md) |
 | `letterpress.py` | composes the controlled lettering layer over panel art (`slots` `panel` `page` `audit`) |
 

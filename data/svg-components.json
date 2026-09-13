@@ -1546,7 +1546,7 @@
     },
     "location-background-agent-board-composite": {
       "category": "locations",
-      "default": "v001",
+      "default": "v002",
       "description": "Open shared-board margin. Reusable background for agent-board-composite; project-authored setting cues, not documentary architecture. Keep actors, states and lettering separate.",
       "name": "Background — agent-board-composite",
       "versions": [
@@ -1556,12 +1556,19 @@
           "note": "Initial quiet location background; open center and distinctive margin geometry.",
           "parent": null,
           "sha256": "35e615979f687836cc43b91e25311d24a16089dee3cc4573a48feb2eac28b8a2"
+        },
+        {
+          "created": "2026-09-13T00:24:35+00:00",
+          "id": "v002",
+          "note": "Distinct material colors, perimeter texture, shaded planes and original location motif; quiet center for foregrounds.",
+          "parent": "v001",
+          "sha256": "1554bfed2ed67d7788a1548bb59b0f45408b2a4d1444498fab3108269514b86c"
         }
       ]
     },
     "location-background-analysis-agent-tree": {
       "category": "locations",
-      "default": "v001",
+      "default": "v002",
       "description": "Branching analysis margin. Reusable background for analysis-agent-tree; project-authored setting cues, not documentary architecture. Keep actors, states and lettering separate.",
       "name": "Background — analysis-agent-tree",
       "versions": [
@@ -1571,12 +1578,19 @@
           "note": "Initial quiet location background; open center and distinctive margin geometry.",
           "parent": null,
           "sha256": "38e2ffa0756cb34da554bb55ad87e5d214c8ca596a14a1fdfac88c6a4f5879cb"
+        },
+        {
+          "created": "2026-09-13T00:24:35+00:00",
+          "id": "v002",
+          "note": "Distinct material colors, perimeter texture, shaded planes and original location motif; quiet center for foregrounds.",
+          "parent": "v001",
+          "sha256": "e9cd973c5326f28811a727e842ad24c14704b62052456d50b90463789cbe82d1"
         }
       ]
     },
     "location-background-artifactory-cache": {
       "category": "locations",
-      "default": "v001",
+      "default": "v002",
       "description": "Indented package-cache shelves. Reusable background for artifactory-cache; project-authored setting cues, not documentary architecture. Keep actors, states and lettering separate.",
       "name": "Background — artifactory-cache",
       "versions": [
@@ -1586,12 +1600,19 @@
           "note": "Initial quiet location background; open center and distinctive margin geometry.",
           "parent": null,
           "sha256": "31f65315c6357eb0809fcae7e1533dffaf650efae71915dd673a3bbe795ebeb9"
+        },
+        {
+          "created": "2026-09-13T00:24:35+00:00",
+          "id": "v002",
+          "note": "Distinct material colors, perimeter texture, shaded planes and original location motif; quiet center for foregrounds.",
+          "parent": "v001",
+          "sha256": "122ca49aaaceb5851c29db13007a6af798999a244f2cbf72b1a20b435746f4e5"
         }
       ]
     },
     "location-background-composite-accountability-forum": {
       "category": "locations",
-      "default": "v001",
+      "default": "v002",
       "description": "Paper-built four-bay forum. Reusable background for composite-accountability-forum; project-authored setting cues, not documentary architecture. Keep actors, states and lettering separate.",
       "name": "Background — composite-accountability-forum",
       "versions": [
@@ -1601,12 +1622,19 @@
           "note": "Initial quiet location background; open center and distinctive margin geometry.",
           "parent": null,
           "sha256": "f38741d7e2759a69c12117cbe8a29a482b2e969ec1fea1aee72e2318a530db58"
+        },
+        {
+          "created": "2026-09-13T00:24:35+00:00",
+          "id": "v002",
+          "note": "Distinct material colors, perimeter texture, shaded planes and original location motif; quiet center for foregrounds.",
+          "parent": "v001",
+          "sha256": "d7d92a90ac792a2018597b5466477170deeccb7e25db1d2a7ab3171afcd42ba4"
         }
       ]
     },
     "location-background-composite-lab-room": {
       "category": "locations",
-      "default": "v001",
+      "default": "v002",
       "description": "Broken conference envelope. Reusable background for composite-lab-room; project-authored setting cues, not documentary architecture. Keep actors, states and lettering separate.",
       "name": "Background — composite-lab-room",
       "versions": [
@@ -1616,12 +1644,19 @@
           "note": "Initial quiet location background; open center and distinctive margin geometry.",
           "parent": null,
           "sha256": "3a55484ca14c0eeaec95b9229659418d61f97540fc9b54514b594c5e959e7355"
+        },
+        {
+          "created": "2026-09-13T00:24:35+00:00",
+          "id": "v002",
+          "note": "Distinct material colors, perimeter texture, shaded planes and original location motif; quiet center for foregrounds.",
+          "parent": "v001",
+          "sha256": "03010ed68feb9c7ea17012e533bd4fa8f9b37a739ecf720295c1661d87cd3821"
         }
       ]
     },
     "location-background-continuation-montage": {
       "category": "locations",
-      "default": "v001",
+      "default": "v002",
       "description": "Unequal open-ended continuation rails. Reusable background for continuation-montage; project-authored setting cues, not documentary architecture. Keep actors, states and lettering separate.",
       "name": "Background — continuation-montage",
       "versions": [
@@ -1631,12 +1666,19 @@
           "note": "Initial quiet location background; open center and distinctive margin geometry.",
           "parent": null,
           "sha256": "1a324330ea7db9d1fcfe5dfef5d8d433f6749c229afecc734319c2a830a95ef8"
+        },
+        {
+          "created": "2026-09-13T00:24:35+00:00",
+          "id": "v002",
+          "note": "Distinct material colors, perimeter texture, shaded planes and original location motif; quiet center for foregrounds.",
+          "parent": "v001",
+          "sha256": "8631e49700f91da27cd1c271bf1d770c4dda46f317865808b8beb002f7256e7f"
         }
       ]
     },
     "location-background-creator-production-tooling": {
       "category": "locations",
-      "default": "v001",
+      "default": "v002",
       "description": "Terminal gutter and diff rails. Reusable background for creator-production-tooling; project-authored setting cues, not documentary architecture. Keep actors, states and lettering separate.",
       "name": "Background — creator-production-tooling",
       "versions": [
@@ -1646,12 +1688,19 @@
           "note": "Initial quiet location background; open center and distinctive margin geometry.",
           "parent": null,
           "sha256": "0c369c0ead87eaaf5a07702122011054c1618523250a887acc94620fdc280b94"
+        },
+        {
+          "created": "2026-09-13T00:24:35+00:00",
+          "id": "v002",
+          "note": "Distinct material colors, perimeter texture, shaded planes and original location motif; quiet center for foregrounds.",
+          "parent": "v001",
+          "sha256": "8fe109b913c1e83419bf4a6d2a5dfba7a21a79244bee3e3073fcd7f34dd0aece"
         }
       ]
     },
     "location-background-curt-home-office": {
       "category": "locations",
-      "default": "v001",
+      "default": "v002",
       "description": "Domestic window and receding floor. Reusable background for curt-home-office; project-authored setting cues, not documentary architecture. Keep actors, states and lettering separate.",
       "name": "Background — curt-home-office",
       "versions": [
@@ -1661,12 +1710,19 @@
           "note": "Initial quiet location background; open center and distinctive margin geometry.",
           "parent": null,
           "sha256": "19d6f20624313c3811dbe488c039596923b8064d387df4357d1fe3c2a1643545"
+        },
+        {
+          "created": "2026-09-13T00:24:35+00:00",
+          "id": "v002",
+          "note": "Distinct material colors, perimeter texture, shaded planes and original location motif; quiet center for foregrounds.",
+          "parent": "v001",
+          "sha256": "ea4c3dd7beb095464c99ff954fbce963da63f840e6ce5ab343bfb6d12ff4e9f2"
         }
       ]
     },
     "location-background-customer-hosted-modal-workload": {
       "category": "locations",
-      "default": "v001",
+      "default": "v002",
       "description": "Nested customer island, upper view. Reusable background for customer-hosted-modal-workload; project-authored setting cues, not documentary architecture. Keep actors, states and lettering separate.",
       "name": "Background — customer-hosted-modal-workload",
       "versions": [
@@ -1676,12 +1732,19 @@
           "note": "Initial quiet location background; open center and distinctive margin geometry.",
           "parent": null,
           "sha256": "e93d150565c5900067c1d146663e0813d3784526e6a69b1335a451c23ba9d051"
+        },
+        {
+          "created": "2026-09-13T00:24:35+00:00",
+          "id": "v002",
+          "note": "Distinct material colors, perimeter texture, shaded planes and original location motif; quiet center for foregrounds.",
+          "parent": "v001",
+          "sha256": "9d049ae9ebdfdc1cea22d2d74896d4866afc517ad611b42cc85c5f44195c26e8"
         }
       ]
     },
     "location-background-documentary-evidence-field": {
       "category": "locations",
-      "default": "v001",
+      "default": "v002",
       "description": "Folded evidence sheet. Reusable background for documentary-evidence-field; project-authored setting cues, not documentary architecture. Keep actors, states and lettering separate.",
       "name": "Background — documentary-evidence-field",
       "versions": [
@@ -1691,12 +1754,19 @@
           "note": "Initial quiet location background; open center and distinctive margin geometry.",
           "parent": null,
           "sha256": "c140a1c515dadb64e8acb0b46f5bda7cd64d8be9aca4a81bd6b2118d5449fa60"
+        },
+        {
+          "created": "2026-09-13T00:24:35+00:00",
+          "id": "v002",
+          "note": "Distinct material colors, perimeter texture, shaded planes and original location motif; quiet center for foregrounds.",
+          "parent": "v001",
+          "sha256": "fab4102cab317d22002dbf43dca199378a932102424a73d1b90686b205680ada"
         }
       ]
     },
     "location-background-evaluation-container": {
       "category": "locations",
-      "default": "v001",
+      "default": "v002",
       "description": "Isolated task boundary. Reusable background for evaluation-container; project-authored setting cues, not documentary architecture. Keep actors, states and lettering separate.",
       "name": "Background — evaluation-container",
       "versions": [
@@ -1706,12 +1776,19 @@
           "note": "Initial quiet location background; open center and distinctive margin geometry.",
           "parent": null,
           "sha256": "c864a45cdaee22774b1c1a5a7643f77cbb0841906e9f15b8ce6921673b10518f"
+        },
+        {
+          "created": "2026-09-13T00:24:35+00:00",
+          "id": "v002",
+          "note": "Distinct material colors, perimeter texture, shaded planes and original location motif; quiet center for foregrounds.",
+          "parent": "v001",
+          "sha256": "545b8dd13c1eb6e35118f5c1ecbac78281157808baba45fe8d5c1b9a90b84375"
         }
       ]
     },
     "location-background-evaluation-container-53927": {
       "category": "locations",
-      "default": "v001",
+      "default": "v002",
       "description": "Short-budget lane enclosure. Reusable background for evaluation-container-53927; project-authored setting cues, not documentary architecture. Keep actors, states and lettering separate.",
       "name": "Background — evaluation-container-53927",
       "versions": [
@@ -1721,12 +1798,19 @@
           "note": "Initial quiet location background; open center and distinctive margin geometry.",
           "parent": null,
           "sha256": "f48aa083b4ebc97996586199b008b363606fe4fdec55291987e58c05a06d3d07"
+        },
+        {
+          "created": "2026-09-13T00:24:35+00:00",
+          "id": "v002",
+          "note": "Distinct material colors, perimeter texture, shaded planes and original location motif; quiet center for foregrounds.",
+          "parent": "v001",
+          "sha256": "fbc95132f2a4330d947a47101bdfdaa31ac6b7da6834ea0aeb8c341481bfc6d7"
         }
       ]
     },
     "location-background-evaluation-containers": {
       "category": "locations",
-      "default": "v001",
+      "default": "v002",
       "description": "Parallel isolated lane edges. Reusable background for evaluation-containers; project-authored setting cues, not documentary architecture. Keep actors, states and lettering separate.",
       "name": "Background — evaluation-containers",
       "versions": [
@@ -1736,12 +1820,19 @@
           "note": "Initial quiet location background; open center and distinctive margin geometry.",
           "parent": null,
           "sha256": "c8b56bb198f2955b7fdac1f42f9bc989f2fa974e862bab448a685c069e7fd989"
+        },
+        {
+          "created": "2026-09-13T00:24:35+00:00",
+          "id": "v002",
+          "note": "Distinct material colors, perimeter texture, shaded planes and original location motif; quiet center for foregrounds.",
+          "parent": "v001",
+          "sha256": "9ea571d6134fdd58aa1d9bb747c815fbe5870a9812751cae142c17450d8ca057"
         }
       ]
     },
     "location-background-evaluation-transcript-archive": {
       "category": "locations",
-      "default": "v001",
+      "default": "v002",
       "description": "Transcript spool and sequence margin. Reusable background for evaluation-transcript-archive; project-authored setting cues, not documentary architecture. Keep actors, states and lettering separate.",
       "name": "Background — evaluation-transcript-archive",
       "versions": [
@@ -1751,12 +1842,19 @@
           "note": "Initial quiet location background; open center and distinctive margin geometry.",
           "parent": null,
           "sha256": "a66b340cc994745429a0af446e62f8448e3ece86e455ddfab98da84401a27f8f"
+        },
+        {
+          "created": "2026-09-13T00:24:35+00:00",
+          "id": "v002",
+          "note": "Distinct material colors, perimeter texture, shaded planes and original location motif; quiet center for foregrounds.",
+          "parent": "v001",
+          "sha256": "21661621540e61d595ca48495e668ee70067bf0aea91a914c72f51f87d93565f"
         }
       ]
     },
     "location-background-evidence-dossier": {
       "category": "locations",
-      "default": "v001",
+      "default": "v002",
       "description": "Tabbed case folder. Reusable background for evidence-dossier; project-authored setting cues, not documentary architecture. Keep actors, states and lettering separate.",
       "name": "Background — evidence-dossier",
       "versions": [
@@ -1766,12 +1864,19 @@
           "note": "Initial quiet location background; open center and distinctive margin geometry.",
           "parent": null,
           "sha256": "decd39847a1cdf52a91a6c114c65c3ddeec2f17d653d74f7afe1ff6042efb78d"
+        },
+        {
+          "created": "2026-09-13T00:24:35+00:00",
+          "id": "v002",
+          "note": "Distinct material colors, perimeter texture, shaded planes and original location motif; quiet center for foregrounds.",
+          "parent": "v001",
+          "sha256": "dea8a79e9653e2cff6a95a810a5760c108f49e4439f069735a67a2b8372e0468"
         }
       ]
     },
     "location-background-external-network": {
       "category": "locations",
-      "default": "v001",
+      "default": "v002",
       "description": "Disconnected exterior segments. Reusable background for external-network; project-authored setting cues, not documentary architecture. Keep actors, states and lettering separate.",
       "name": "Background — external-network",
       "versions": [
@@ -1781,12 +1886,19 @@
           "note": "Initial quiet location background; open center and distinctive margin geometry.",
           "parent": null,
           "sha256": "04026cc563cd961e39a863d262ad78546643925b81bcedfda666c31ee8f63fbc"
+        },
+        {
+          "created": "2026-09-13T00:24:35+00:00",
+          "id": "v002",
+          "note": "Distinct material colors, perimeter texture, shaded planes and original location motif; quiet center for foregrounds.",
+          "parent": "v001",
+          "sha256": "047bfe638885cee88cf2a7373ad7197e24535749d6ef1155e9e451a81b2b8cfb"
         }
       ]
     },
     "location-background-hugging-face-infrastructure": {
       "category": "locations",
-      "default": "v001",
+      "default": "v002",
       "description": "Platform service terrace. Reusable background for hugging-face-infrastructure; project-authored setting cues, not documentary architecture. Keep actors, states and lettering separate.",
       "name": "Background — hugging-face-infrastructure",
       "versions": [
@@ -1796,12 +1908,19 @@
           "note": "Initial quiet location background; open center and distinctive margin geometry.",
           "parent": null,
           "sha256": "6bdac901f38969a9499f0eab3162b7231bac1bc295838bea4f385833ec241fde"
+        },
+        {
+          "created": "2026-09-13T00:24:35+00:00",
+          "id": "v002",
+          "note": "Distinct material colors, perimeter texture, shaded planes and original location motif; quiet center for foregrounds.",
+          "parent": "v001",
+          "sha256": "a03addbbe145beca783868f64841100951a27e2d06f71332e6c8e4ee2ad7c6f0"
         }
       ]
     },
     "location-background-huggingface-clusters": {
       "category": "locations",
-      "default": "v001",
+      "default": "v002",
       "description": "Separate cluster perimeter cells. Reusable background for huggingface-clusters; project-authored setting cues, not documentary architecture. Keep actors, states and lettering separate.",
       "name": "Background — huggingface-clusters",
       "versions": [
@@ -1811,12 +1930,19 @@
           "note": "Initial quiet location background; open center and distinctive margin geometry.",
           "parent": null,
           "sha256": "47831c65a62afbe1c476a867fe1bf95cfdc7578551c8766810e47e13388fc2f0"
+        },
+        {
+          "created": "2026-09-13T00:24:35+00:00",
+          "id": "v002",
+          "note": "Distinct material colors, perimeter texture, shaded planes and original location motif; quiet center for foregrounds.",
+          "parent": "v001",
+          "sha256": "dd33211f0d15efd1067ea394cafebbb9064c5a246a40b4d2d66f84723f3c49d5"
         }
       ]
     },
     "location-background-huggingface-dataset-processor": {
       "category": "locations",
-      "default": "v001",
+      "default": "v002",
       "description": "Worker enclosure and layered dataset edge. Reusable background for huggingface-dataset-processor; project-authored setting cues, not documentary architecture. Keep actors, states and lettering separate.",
       "name": "Background — huggingface-dataset-processor",
       "versions": [
@@ -1826,12 +1952,19 @@
           "note": "Initial quiet location background; open center and distinctive margin geometry.",
           "parent": null,
           "sha256": "e5bf013778673e759e918d00030eaca6a02b068b13d76bf3082376c80433c5c0"
+        },
+        {
+          "created": "2026-09-13T00:24:35+00:00",
+          "id": "v002",
+          "note": "Distinct material colors, perimeter texture, shaded planes and original location motif; quiet center for foregrounds.",
+          "parent": "v001",
+          "sha256": "805f7d5bab4a4612ceb384272a957ae67f90e2290b58b2704ba033e346d38d42"
         }
       ]
     },
     "location-background-huggingface-infrastructure": {
       "category": "locations",
-      "default": "v001",
+      "default": "v002",
       "description": "Stepped infrastructure surround. Reusable background for huggingface-infrastructure; project-authored setting cues, not documentary architecture. Keep actors, states and lettering separate.",
       "name": "Background — huggingface-infrastructure",
       "versions": [
@@ -1841,12 +1974,19 @@
           "note": "Initial quiet location background; open center and distinctive margin geometry.",
           "parent": null,
           "sha256": "3f8349d1b604d534a284c1115558348f29fa1781bccca7b89e2cc3106beb1077"
+        },
+        {
+          "created": "2026-09-13T00:24:35+00:00",
+          "id": "v002",
+          "note": "Distinct material colors, perimeter texture, shaded planes and original location motif; quiet center for foregrounds.",
+          "parent": "v001",
+          "sha256": "9ed58f83fa3d8380dff0b860f61e62840e4a4d1272cafa3f5f8c50aee47d3acf"
         }
       ]
     },
     "location-background-huggingface-production-node": {
       "category": "locations",
-      "default": "v001",
+      "default": "v002",
       "description": "Production chassis rim. Reusable background for huggingface-production-node; project-authored setting cues, not documentary architecture. Keep actors, states and lettering separate.",
       "name": "Background — huggingface-production-node",
       "versions": [
@@ -1856,12 +1996,19 @@
           "note": "Initial quiet location background; open center and distinctive margin geometry.",
           "parent": null,
           "sha256": "663e0f14836b4d37f1c944059831601bbdce4793d1e6b8cdc5111c7d4987220b"
+        },
+        {
+          "created": "2026-09-13T00:24:35+00:00",
+          "id": "v002",
+          "note": "Distinct material colors, perimeter texture, shaded planes and original location motif; quiet center for foregrounds.",
+          "parent": "v001",
+          "sha256": "400d9e43057f70d96abab3de31054b76083e466e59159b3fe126c41a5b9632f7"
         }
       ]
     },
     "location-background-huggingface-security-stack": {
       "category": "locations",
-      "default": "v001",
+      "default": "v002",
       "description": "Layered telemetry bands. Reusable background for huggingface-security-stack; project-authored setting cues, not documentary architecture. Keep actors, states and lettering separate.",
       "name": "Background — huggingface-security-stack",
       "versions": [
@@ -1871,12 +2018,19 @@
           "note": "Initial quiet location background; open center and distinctive margin geometry.",
           "parent": null,
           "sha256": "9ed48659e879a6ddffca897566f826e8ad99c59a7944fcb3283e383831ffd842"
+        },
+        {
+          "created": "2026-09-13T00:24:35+00:00",
+          "id": "v002",
+          "note": "Distinct material colors, perimeter texture, shaded planes and original location motif; quiet center for foregrounds.",
+          "parent": "v001",
+          "sha256": "182d635053485b2300f558c8409703c78dc6ca4597c710bcc58848c00213cf6f"
         }
       ]
     },
     "location-background-institutional-composite": {
       "category": "locations",
-      "default": "v001",
+      "default": "v002",
       "description": "Unbranded institutional colonnade. Reusable background for institutional-composite; project-authored setting cues, not documentary architecture. Keep actors, states and lettering separate.",
       "name": "Background — institutional-composite",
       "versions": [
@@ -1886,12 +2040,19 @@
           "note": "Initial quiet location background; open center and distinctive margin geometry.",
           "parent": null,
           "sha256": "13c936a25138a130c41060a34a1bd54daa77a765ec2643e9a1e3ca8f69c99a97"
+        },
+        {
+          "created": "2026-09-13T00:24:36+00:00",
+          "id": "v002",
+          "note": "Distinct material colors, perimeter texture, shaded planes and original location motif; quiet center for foregrounds.",
+          "parent": "v001",
+          "sha256": "ffbb8ce7942e97a9989081b012d3ff7bb98c629c22820a047651ee9f129398a9"
         }
       ]
     },
     "location-background-institutional-montage": {
       "category": "locations",
-      "default": "v001",
+      "default": "v002",
       "description": "Separate institutional strips. Reusable background for institutional-montage; project-authored setting cues, not documentary architecture. Keep actors, states and lettering separate.",
       "name": "Background — institutional-montage",
       "versions": [
@@ -1901,12 +2062,19 @@
           "note": "Initial quiet location background; open center and distinctive margin geometry.",
           "parent": null,
           "sha256": "49750d289227f5781b7984e0ee433d1bb08eadc6be4cdeaac9bc719b9b02df64"
+        },
+        {
+          "created": "2026-09-13T00:24:36+00:00",
+          "id": "v002",
+          "note": "Distinct material colors, perimeter texture, shaded planes and original location motif; quiet center for foregrounds.",
+          "parent": "v001",
+          "sha256": "ebb7648cf792139310190343d8859510904361e3d4e978046e451a2cc34977c2"
         }
       ]
     },
     "location-background-jfrog-security-workspace": {
       "category": "locations",
-      "default": "v001",
+      "default": "v002",
       "description": "Patch-workbench rim. Reusable background for jfrog-security-workspace; project-authored setting cues, not documentary architecture. Keep actors, states and lettering separate.",
       "name": "Background — jfrog-security-workspace",
       "versions": [
@@ -1916,12 +2084,19 @@
           "note": "Initial quiet location background; open center and distinctive margin geometry.",
           "parent": null,
           "sha256": "52b49f4483095aa39a5d76611aa9c621e85ef7acd453668f09b4d6b9c89a3795"
+        },
+        {
+          "created": "2026-09-13T00:24:36+00:00",
+          "id": "v002",
+          "note": "Distinct material colors, perimeter texture, shaded planes and original location motif; quiet center for foregrounds.",
+          "parent": "v001",
+          "sha256": "b5f4d669ca5871266d8796d5837657961ec82bfc11fe4e9392feccd89f6c1671"
         }
       ]
     },
     "location-background-metr-review-workspace": {
       "category": "locations",
-      "default": "v001",
+      "default": "v002",
       "description": "Evidence wall and bounded review floor. Reusable background for metr-review-workspace; project-authored setting cues, not documentary architecture. Keep actors, states and lettering separate.",
       "name": "Background — metr-review-workspace",
       "versions": [
@@ -1931,12 +2106,19 @@
           "note": "Initial quiet location background; open center and distinctive margin geometry.",
           "parent": null,
           "sha256": "d689928a373777c22745ed45f7ea25f2119fe476ca097296a5a79d3e5eb6bd47"
+        },
+        {
+          "created": "2026-09-13T00:24:36+00:00",
+          "id": "v002",
+          "note": "Distinct material colors, perimeter texture, shaded planes and original location motif; quiet center for foregrounds.",
+          "parent": "v001",
+          "sha256": "d39c2e78e0b2d78a6255f7916a745a206ccf7f8b622fa441066f97550df0d6c9"
         }
       ]
     },
     "location-background-modal-customer-workload": {
       "category": "locations",
-      "default": "v001",
+      "default": "v002",
       "description": "Customer island inside intact host. Reusable background for modal-customer-workload; project-authored setting cues, not documentary architecture. Keep actors, states and lettering separate.",
       "name": "Background — modal-customer-workload",
       "versions": [
@@ -1946,12 +2128,19 @@
           "note": "Initial quiet location background; open center and distinctive margin geometry.",
           "parent": null,
           "sha256": "6fe6037df331a18feb2bd6cd8d7550fb305c2a2e4cb2b124539ce4521ed4fb51"
+        },
+        {
+          "created": "2026-09-13T00:24:36+00:00",
+          "id": "v002",
+          "note": "Distinct material colors, perimeter texture, shaded planes and original location motif; quiet center for foregrounds.",
+          "parent": "v001",
+          "sha256": "fc80c60f0164d1a1384a84fc2502a314f479a1b5c5dde511d2081b2a508fd3f1"
         }
       ]
     },
     "location-background-openai-artifactory": {
       "category": "locations",
-      "default": "v001",
+      "default": "v002",
       "description": "Administrative repository surround. Reusable background for openai-artifactory; project-authored setting cues, not documentary architecture. Keep actors, states and lettering separate.",
       "name": "Background — openai-artifactory",
       "versions": [
@@ -1961,12 +2150,19 @@
           "note": "Initial quiet location background; open center and distinctive margin geometry.",
           "parent": null,
           "sha256": "c2cdf1192112349071e27fa031dd1e1a663042353a2b94083f4a68510c3637f8"
+        },
+        {
+          "created": "2026-09-13T00:24:36+00:00",
+          "id": "v002",
+          "note": "Distinct material colors, perimeter texture, shaded planes and original location motif; quiet center for foregrounds.",
+          "parent": "v001",
+          "sha256": "634ed16a029c02d2e3bf64568d24b468649bd155a2f59e71962251d30f284ade"
         }
       ]
     },
     "location-background-openai-artifactory-cache": {
       "category": "locations",
-      "default": "v001",
+      "default": "v002",
       "description": "Archive-side cache shelves. Reusable background for openai-artifactory-cache; project-authored setting cues, not documentary architecture. Keep actors, states and lettering separate.",
       "name": "Background — openai-artifactory-cache",
       "versions": [
@@ -1976,12 +2172,19 @@
           "note": "Initial quiet location background; open center and distinctive margin geometry.",
           "parent": null,
           "sha256": "226b28e14ec64c508455e6617ec951ce4d8c777b914d9914132a0acb23e2b257"
+        },
+        {
+          "created": "2026-09-13T00:24:36+00:00",
+          "id": "v002",
+          "note": "Distinct material colors, perimeter texture, shaded planes and original location motif; quiet center for foregrounds.",
+          "parent": "v001",
+          "sha256": "7fb8c8262cb241ae6dbda5a46afe4282189d09d742fbb00ac791d12a82d41c32"
         }
       ]
     },
     "location-background-openai-cloud-worker": {
       "category": "locations",
-      "default": "v001",
+      "default": "v002",
       "description": "Cloud-hosted worker chassis. Reusable background for openai-cloud-worker; project-authored setting cues, not documentary architecture. Keep actors, states and lettering separate.",
       "name": "Background — openai-cloud-worker",
       "versions": [
@@ -1991,12 +2194,19 @@
           "note": "Initial quiet location background; open center and distinctive margin geometry.",
           "parent": null,
           "sha256": "72316bb6218f14a8a89b44d2da18c8136073b0020c9ea888c41304cc47d5eea7"
+        },
+        {
+          "created": "2026-09-13T00:24:36+00:00",
+          "id": "v002",
+          "note": "Distinct material colors, perimeter texture, shaded planes and original location motif; quiet center for foregrounds.",
+          "parent": "v001",
+          "sha256": "c640759ab24206e2ed2c51b206addc3b52de560061a1320362565bd2d5e8547a"
         }
       ]
     },
     "location-background-openai-cybergym-evaluation": {
       "category": "locations",
-      "default": "v001",
+      "default": "v002",
       "description": "Challenge and grader boundary tabs. Reusable background for openai-cybergym-evaluation; project-authored setting cues, not documentary architecture. Keep actors, states and lettering separate.",
       "name": "Background — openai-cybergym-evaluation",
       "versions": [
@@ -2006,12 +2216,19 @@
           "note": "Initial quiet location background; open center and distinctive margin geometry.",
           "parent": null,
           "sha256": "1b375b2b1feb3cf3126f5faf75febd755e81ef46fb1b2d3f28977434c75dc0e6"
+        },
+        {
+          "created": "2026-09-13T00:24:36+00:00",
+          "id": "v002",
+          "note": "Distinct material colors, perimeter texture, shaded planes and original location motif; quiet center for foregrounds.",
+          "parent": "v001",
+          "sha256": "70b7843da8c207d1bd7abc08347f9d439036672f3acc179dc5efc28b2f5690d6"
         }
       ]
     },
     "location-background-openai-incident-response": {
       "category": "locations",
-      "default": "v001",
+      "default": "v002",
       "description": "Escalation docket surround. Reusable background for openai-incident-response; project-authored setting cues, not documentary architecture. Keep actors, states and lettering separate.",
       "name": "Background — openai-incident-response",
       "versions": [
@@ -2021,12 +2238,19 @@
           "note": "Initial quiet location background; open center and distinctive margin geometry.",
           "parent": null,
           "sha256": "866529f64d6f0c91a5638148a001b9b7632e54aceec5c642e1415e5a66352998"
+        },
+        {
+          "created": "2026-09-13T00:24:36+00:00",
+          "id": "v002",
+          "note": "Distinct material colors, perimeter texture, shaded planes and original location motif; quiet center for foregrounds.",
+          "parent": "v001",
+          "sha256": "e71d90df36718cc3d1cd8670d3077b661acb0ab040439e95450fba7a6862818a"
         }
       ]
     },
     "location-background-openai-provided-evidence-store": {
       "category": "locations",
-      "default": "v001",
+      "default": "v002",
       "description": "Sealed source-store corners. Reusable background for openai-provided-evidence-store; project-authored setting cues, not documentary architecture. Keep actors, states and lettering separate.",
       "name": "Background — openai-provided-evidence-store",
       "versions": [
@@ -2036,12 +2260,19 @@
           "note": "Initial quiet location background; open center and distinctive margin geometry.",
           "parent": null,
           "sha256": "f9c96135747790bf1e344cd282f3ad1c882a1a19254bda4e1954d62629856c2b"
+        },
+        {
+          "created": "2026-09-13T00:24:36+00:00",
+          "id": "v002",
+          "note": "Distinct material colors, perimeter texture, shaded planes and original location motif; quiet center for foregrounds.",
+          "parent": "v001",
+          "sha256": "88a3b1ff3b9964ebd66cd795a6030234b85073ccbdb460148983462999b32b3f"
         }
       ]
     },
     "location-background-openai-research-environment": {
       "category": "locations",
-      "default": "v001",
+      "default": "v002",
       "description": "Research rack-room shell. Reusable background for openai-research-environment; project-authored setting cues, not documentary architecture. Keep actors, states and lettering separate.",
       "name": "Background — openai-research-environment",
       "versions": [
@@ -2051,12 +2282,19 @@
           "note": "Initial quiet location background; open center and distinctive margin geometry.",
           "parent": null,
           "sha256": "eb2a2b89b93f14b1a1a0cfccdc140e63d327f6019b96440929029b69191a2a4f"
+        },
+        {
+          "created": "2026-09-13T00:24:36+00:00",
+          "id": "v002",
+          "note": "Distinct material colors, perimeter texture, shaded planes and original location motif; quiet center for foregrounds.",
+          "parent": "v001",
+          "sha256": "db3e1e4970b4960329f3c450b7540e27544d7805b89b327d00a16e8556d03284"
         }
       ]
     },
     "location-background-openai-research-infrastructure": {
       "category": "locations",
-      "default": "v001",
+      "default": "v002",
       "description": "Multi-service research backbone. Reusable background for openai-research-infrastructure; project-authored setting cues, not documentary architecture. Keep actors, states and lettering separate.",
       "name": "Background — openai-research-infrastructure",
       "versions": [
@@ -2066,12 +2304,19 @@
           "note": "Initial quiet location background; open center and distinctive margin geometry.",
           "parent": null,
           "sha256": "a7d913649a44af8c4a627ce4297c849c6d2db6befe30d60b03e8a212b3e0db2b"
+        },
+        {
+          "created": "2026-09-13T00:24:36+00:00",
+          "id": "v002",
+          "note": "Distinct material colors, perimeter texture, shaded planes and original location motif; quiet center for foregrounds.",
+          "parent": "v001",
+          "sha256": "25cd8fe7516abeef9037dff5c68aa1ad6912a146e9f642d17ebdb473dd806499"
         }
       ]
     },
     "location-background-openai-training-program": {
       "category": "locations",
-      "default": "v001",
+      "default": "v002",
       "description": "Training-batch trays. Reusable background for openai-training-program; project-authored setting cues, not documentary architecture. Keep actors, states and lettering separate.",
       "name": "Background — openai-training-program",
       "versions": [
@@ -2081,12 +2326,19 @@
           "note": "Initial quiet location background; open center and distinctive margin geometry.",
           "parent": null,
           "sha256": "72f1e8404926f263f2ad65293ad5debeb52804602c437e76c6d65f29c78c3246"
+        },
+        {
+          "created": "2026-09-13T00:24:36+00:00",
+          "id": "v002",
+          "note": "Distinct material colors, perimeter texture, shaded planes and original location motif; quiet center for foregrounds.",
+          "parent": "v001",
+          "sha256": "ab486bd1305d418d9610b730f5f29173cd2e9777ee83f0c2e21ac4af0ba89c78"
         }
       ]
     },
     "location-background-public-announcement-ledger": {
       "category": "locations",
-      "default": "v001",
+      "default": "v002",
       "description": "Dated announcement folio. Reusable background for public-announcement-ledger; project-authored setting cues, not documentary architecture. Keep actors, states and lettering separate.",
       "name": "Background — public-announcement-ledger",
       "versions": [
@@ -2096,12 +2348,19 @@
           "note": "Initial quiet location background; open center and distinctive margin geometry.",
           "parent": null,
           "sha256": "471e071cd90027f03b19e1a12e4983db9f747aa1ca4407637dde2d344802af90"
+        },
+        {
+          "created": "2026-09-13T00:24:36+00:00",
+          "id": "v002",
+          "note": "Distinct material colors, perimeter texture, shaded planes and original location motif; quiet center for foregrounds.",
+          "parent": "v001",
+          "sha256": "3c789b4cf708648ae3ebfcba78b2bb29a1c3acb53d688feed4de7c6a8d06abc5"
         }
       ]
     },
     "location-background-public-internet": {
       "category": "locations",
-      "default": "v001",
+      "default": "v002",
       "description": "Open unjoined network margin. Reusable background for public-internet; project-authored setting cues, not documentary architecture. Keep actors, states and lettering separate.",
       "name": "Background — public-internet",
       "versions": [
@@ -2111,12 +2370,19 @@
           "note": "Initial quiet location background; open center and distinctive margin geometry.",
           "parent": null,
           "sha256": "8e4bfaf02ff8676bda0b092ddd113b40fb23be7e21cf8056a2cfd08b543f6fbe"
+        },
+        {
+          "created": "2026-09-13T00:24:36+00:00",
+          "id": "v002",
+          "note": "Distinct material colors, perimeter texture, shaded planes and original location motif; quiet center for foregrounds.",
+          "parent": "v001",
+          "sha256": "08bc5f8f6b971f32cf48b1fd3d104f07507fb78918f45817a77ef40e86cf2849"
         }
       ]
     },
     "location-background-public-record": {
       "category": "locations",
-      "default": "v001",
+      "default": "v002",
       "description": "Open public document leaves. Reusable background for public-record; project-authored setting cues, not documentary architecture. Keep actors, states and lettering separate.",
       "name": "Background — public-record",
       "versions": [
@@ -2126,12 +2392,19 @@
           "note": "Initial quiet location background; open center and distinctive margin geometry.",
           "parent": null,
           "sha256": "d1542a9b029d29509b3848b364cd81d91e6073fd45c79f9cee80663ea3b6ce33"
+        },
+        {
+          "created": "2026-09-13T00:24:36+00:00",
+          "id": "v002",
+          "note": "Distinct material colors, perimeter texture, shaded planes and original location motif; quiet center for foregrounds.",
+          "parent": "v001",
+          "sha256": "e55b6c08c66fa0af69a1ec473eed7ce53a6daf76ce5b692191737b3d89dc664e"
         }
       ]
     },
     "location-background-public-web": {
       "category": "locations",
-      "default": "v001",
+      "default": "v002",
       "description": "Browser page with open outer margin. Reusable background for public-web; project-authored setting cues, not documentary architecture. Keep actors, states and lettering separate.",
       "name": "Background — public-web",
       "versions": [
@@ -2141,12 +2414,19 @@
           "note": "Initial quiet location background; open center and distinctive margin geometry.",
           "parent": null,
           "sha256": "6141dbf73e1103a865ba33f2bff9d7726f70cc3c7fdd3161cd535881c827465c"
+        },
+        {
+          "created": "2026-09-13T00:24:36+00:00",
+          "id": "v002",
+          "note": "Distinct material colors, perimeter texture, shaded planes and original location motif; quiet center for foregrounds.",
+          "parent": "v001",
+          "sha256": "52d781f36ca5e3bfb7e38f10d6db448a6a397340909eb8d1499aff11ad23c563"
         }
       ]
     },
     "location-background-public-wiki-dse": {
       "category": "locations",
-      "default": "v001",
+      "default": "v002",
       "description": "Community wiki sidebar and page tabs. Reusable background for public-wiki-dse; project-authored setting cues, not documentary architecture. Keep actors, states and lettering separate.",
       "name": "Background — public-wiki-dse",
       "versions": [
@@ -2156,12 +2436,19 @@
           "note": "Initial quiet location background; open center and distinctive margin geometry.",
           "parent": null,
           "sha256": "af0581f24ce6e215e08c0dfecce22c1f8dac560c7630a3a69bf1d506395602a1"
+        },
+        {
+          "created": "2026-09-13T00:24:36+00:00",
+          "id": "v002",
+          "note": "Distinct material colors, perimeter texture, shaded planes and original location motif; quiet center for foregrounds.",
+          "parent": "v001",
+          "sha256": "5968f0b7f0f3f24275cb1d78d302054f6d70332ceb799294cf14d51d67000a77"
         }
       ]
     },
     "location-background-reconstructed-security-operations-center": {
       "category": "locations",
-      "default": "v001",
+      "default": "v002",
       "description": "Tiled telemetry wall and paging recess. Reusable background for reconstructed-security-operations-center; project-authored setting cues, not documentary architecture. Keep actors, states and lettering separate.",
       "name": "Background — reconstructed-security-operations-center",
       "versions": [
@@ -2171,12 +2458,19 @@
           "note": "Initial quiet location background; open center and distinctive margin geometry.",
           "parent": null,
           "sha256": "8c94e40c6dc27833c6721af7cb088a2635a62a749813c08cec392e3b4b15823b"
+        },
+        {
+          "created": "2026-09-13T00:24:36+00:00",
+          "id": "v002",
+          "note": "Distinct material colors, perimeter texture, shaded planes and original location motif; quiet center for foregrounds.",
+          "parent": "v001",
+          "sha256": "5adcf5fe4bfe19347445db22e5e7b41eb7d6574b584e9c10b15bd31739d02420"
         }
       ]
     },
     "location-background-regulatory-office": {
       "category": "locations",
-      "default": "v001",
+      "default": "v002",
       "description": "Compulsory-process docket, no invented office. Reusable background for regulatory-office; project-authored setting cues, not documentary architecture. Keep actors, states and lettering separate.",
       "name": "Background — regulatory-office",
       "versions": [
@@ -2186,12 +2480,19 @@
           "note": "Initial quiet location background; open center and distinctive margin geometry.",
           "parent": null,
           "sha256": "0d4df02acd10f617ee7c1d4455b7cbd9e0260d70520bd743f237320e210337a8"
+        },
+        {
+          "created": "2026-09-13T00:24:37+00:00",
+          "id": "v002",
+          "note": "Distinct material colors, perimeter texture, shaded planes and original location motif; quiet center for foregrounds.",
+          "parent": "v001",
+          "sha256": "5a74ec52c29c9a792fea50e1fcf99e85faead6f6f49dff073add7150923c6921"
         }
       ]
     },
     "location-background-report-comparison-space": {
       "category": "locations",
-      "default": "v001",
+      "default": "v002",
       "description": "Two independent source gutters. Reusable background for report-comparison-space; project-authored setting cues, not documentary architecture. Keep actors, states and lettering separate.",
       "name": "Background — report-comparison-space",
       "versions": [
@@ -2201,12 +2502,19 @@
           "note": "Initial quiet location background; open center and distinctive margin geometry.",
           "parent": null,
           "sha256": "0c22cb0fb7924a0991155b5a254b9fdfa94c96bd2e367f403aac0c446d49c643"
+        },
+        {
+          "created": "2026-09-13T00:24:37+00:00",
+          "id": "v002",
+          "note": "Distinct material colors, perimeter texture, shaded planes and original location motif; quiet center for foregrounds.",
+          "parent": "v001",
+          "sha256": "850ca6378f69958bc06ccd2ba051d053a6aae8332d8bec5e17368bfbec3871d2"
         }
       ]
     },
     "location-background-security-operations-center": {
       "category": "locations",
-      "default": "v001",
+      "default": "v002",
       "description": "Long telemetry wall and fluorescent ceiling. Reusable background for security-operations-center; project-authored setting cues, not documentary architecture. Keep actors, states and lettering separate.",
       "name": "Background — security-operations-center",
       "versions": [
@@ -2216,12 +2524,19 @@
           "note": "Initial quiet location background; open center and distinctive margin geometry.",
           "parent": null,
           "sha256": "b42eb12f8b2f23afed4eb0345b47fd2d37a4e9aa8de88cdc16c3742262cde335"
+        },
+        {
+          "created": "2026-09-13T00:24:37+00:00",
+          "id": "v002",
+          "note": "Distinct material colors, perimeter texture, shaded planes and original location motif; quiet center for foregrounds.",
+          "parent": "v001",
+          "sha256": "f2ba454762e368dee1cdf6306cf826eb6ca877a49e7eb0bf1e60f8dfecfc27d8"
         }
       ]
     },
     "location-background-separate-evaluation-run": {
       "category": "locations",
-      "default": "v001",
+      "default": "v002",
       "description": "Offset independent task lane. Reusable background for separate-evaluation-run; project-authored setting cues, not documentary architecture. Keep actors, states and lettering separate.",
       "name": "Background — separate-evaluation-run",
       "versions": [
@@ -2231,12 +2546,19 @@
           "note": "Initial quiet location background; open center and distinctive margin geometry.",
           "parent": null,
           "sha256": "861875574581fc4a212766864de7124b7ff5e8bda040329e3ff7ba71c5aad985"
+        },
+        {
+          "created": "2026-09-13T00:24:37+00:00",
+          "id": "v002",
+          "note": "Distinct material colors, perimeter texture, shaded planes and original location motif; quiet center for foregrounds.",
+          "parent": "v001",
+          "sha256": "2ff161285c6bfd271dbfd8976553348a167f9454a9b40fa0d0a49a3f77b23010"
         }
       ]
     },
     "location-background-systems-view": {
       "category": "locations",
-      "default": "v001",
+      "default": "v002",
       "description": "Unconnected system quadrants. Reusable background for systems-view; project-authored setting cues, not documentary architecture. Keep actors, states and lettering separate.",
       "name": "Background — systems-view",
       "versions": [
@@ -2246,12 +2568,19 @@
           "note": "Initial quiet location background; open center and distinctive margin geometry.",
           "parent": null,
           "sha256": "d177c5062b110c81e291fdf77da3d35d55afa33cc5044dd58b5068251f84043b"
+        },
+        {
+          "created": "2026-09-13T00:24:37+00:00",
+          "id": "v002",
+          "note": "Distinct material colors, perimeter texture, shaded planes and original location motif; quiet center for foregrounds.",
+          "parent": "v001",
+          "sha256": "456af25e7d3bb3bc31263cc93c2c45ca5a9cccc06d4720eda1798317b84b9366"
         }
       ]
     },
     "location-background-training-configuration": {
       "category": "locations",
-      "default": "v001",
+      "default": "v002",
       "description": "Flat specification register. Reusable background for training-configuration; project-authored setting cues, not documentary architecture. Keep actors, states and lettering separate.",
       "name": "Background — training-configuration",
       "versions": [
@@ -2261,12 +2590,19 @@
           "note": "Initial quiet location background; open center and distinctive margin geometry.",
           "parent": null,
           "sha256": "d70cca61960c0d89d837b643132f36ccbee97b37aecfa46bc29804df4a2f0c34"
+        },
+        {
+          "created": "2026-09-13T00:24:37+00:00",
+          "id": "v002",
+          "note": "Distinct material colors, perimeter texture, shaded planes and original location motif; quiet center for foregrounds.",
+          "parent": "v001",
+          "sha256": "4d00ede0257e70b8779e28d609e4a22435b1cde2e44f8bf8e3fcfe47e2d37d56"
         }
       ]
     },
     "location-background-unidentified-evaluation-container": {
       "category": "locations",
-      "default": "v001",
+      "default": "v002",
       "description": "Anonymous enclosure with empty header. Reusable background for unidentified-evaluation-container; project-authored setting cues, not documentary architecture. Keep actors, states and lettering separate.",
       "name": "Background — unidentified-evaluation-container",
       "versions": [
@@ -2276,12 +2612,19 @@
           "note": "Initial quiet location background; open center and distinctive margin geometry.",
           "parent": null,
           "sha256": "1837f559dc076ec145ddd52e8dbd20059ca47d77f137cfbfb2075cc0f5c814b0"
+        },
+        {
+          "created": "2026-09-13T00:24:37+00:00",
+          "id": "v002",
+          "note": "Distinct material colors, perimeter texture, shaded planes and original location motif; quiet center for foregrounds.",
+          "parent": "v001",
+          "sha256": "6aad63aa92a8453997a0e7a591f8c568e607ddfed284934ac4452bf36b6917f2"
         }
       ]
     },
     "location-background-unnamed-future-evaluation": {
       "category": "locations",
-      "default": "v001",
+      "default": "v002",
       "description": "Unfamiliar clipped-corner surface. Reusable background for unnamed-future-evaluation; project-authored setting cues, not documentary architecture. Keep actors, states and lettering separate.",
       "name": "Background — unnamed-future-evaluation",
       "versions": [
@@ -2291,6 +2634,13 @@
           "note": "Initial quiet location background; open center and distinctive margin geometry.",
           "parent": null,
           "sha256": "95a41aba72801a661c91425cd98d2decd4df8c1e5b0fcc979b64d60b5eb1b5c1"
+        },
+        {
+          "created": "2026-09-13T00:24:37+00:00",
+          "id": "v002",
+          "note": "Distinct material colors, perimeter texture, shaded planes and original location motif; quiet center for foregrounds.",
+          "parent": "v001",
+          "sha256": "7e003c94961ac08423c90db42630d38665a98ea565c3943187da1efcf5681727"
         }
       ]
     },

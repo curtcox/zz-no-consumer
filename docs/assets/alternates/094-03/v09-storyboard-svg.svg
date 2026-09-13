@@ -1,0 +1,117 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="800" viewBox="0 0 1200 800"><title>The response deadline lies beyond the drawn-as-of date</title><desc>Put the response deadline beyond the drawn-as-of boundary with a still-open state. Do not depict compliance, noncompliance or a future response as already known. Visual distinction: An unbroken date rule with asymmetric ticks. Separates dated states without drawing an access restriction or a continuing identity.</desc><metadata>{
+  &quot;assets&quot;: {
+    &quot;card&quot;: &quot;&lt;defs&gt;\n&lt;linearGradient id=\&quot;stock\&quot; x1=\&quot;0\&quot; y1=\&quot;0\&quot; x2=\&quot;.8\&quot; y2=\&quot;1\&quot;&gt;&lt;stop stop-color=\&quot;#E7E0D0\&quot; /&gt;&lt;stop offset=\&quot;1\&quot; stop-color=\&quot;#CEC5B3\&quot; /&gt;&lt;/linearGradient&gt;\n&lt;pattern id=\&quot;grain\&quot; width=\&quot;7\&quot; height=\&quot;9\&quot; patternUnits=\&quot;userSpaceOnUse\&quot;&gt;&lt;circle cx=\&quot;1\&quot; cy=\&quot;2\&quot; r=\&quot;.35\&quot; fill=\&quot;#101214\&quot; opacity=\&quot;.18\&quot; /&gt;&lt;path d=\&quot;M4 6h2M1 8h1\&quot; stroke=\&quot;#101214\&quot; stroke-width=\&quot;.3\&quot; opacity=\&quot;.16\&quot; /&gt;&lt;/pattern&gt;\n&lt;/defs&gt;&lt;path d=\&quot;M5 3H95V97H5Z\&quot; fill=\&quot;url(#stock)\&quot; stroke=\&quot;currentColor\&quot; stroke-width=\&quot;2\&quot; /&gt;&lt;path d=\&quot;M5 3H95V97H5Z\&quot; fill=\&quot;url(#grain)\&quot; /&gt;&lt;rect x=\&quot;5\&quot; y=\&quot;3\&quot; width=\&quot;90\&quot; height=\&quot;15\&quot; fill=\&quot;currentColor\&quot; /&gt;&lt;rect x=\&quot;10\&quot; y=\&quot;25\&quot; width=\&quot;5\&quot; height=\&quot;61\&quot; fill=\&quot;currentColor\&quot; /&gt;&lt;path d=\&quot;M23 29H85M23 38H75M23 48H83M23 66H62M23 78H80\&quot; fill=\&quot;none\&quot; stroke=\&quot;#101214\&quot; stroke-width=\&quot;2\&quot; /&gt;&lt;path d=\&quot;M12 11H42M65 11H86\&quot; fill=\&quot;none\&quot; stroke=\&quot;#E7E0D0\&quot; stroke-width=\&quot;1.4\&quot; /&gt;&quot;,
+    &quot;clock&quot;: &quot;&lt;defs&gt;\n&lt;linearGradient id=\&quot;stock\&quot; x1=\&quot;0\&quot; y1=\&quot;0\&quot; x2=\&quot;.8\&quot; y2=\&quot;1\&quot;&gt;&lt;stop stop-color=\&quot;#E7E0D0\&quot; /&gt;&lt;stop offset=\&quot;1\&quot; stop-color=\&quot;#CEC5B3\&quot; /&gt;&lt;/linearGradient&gt;\n&lt;/defs&gt;&lt;circle cx=\&quot;50\&quot; cy=\&quot;50\&quot; r=\&quot;44\&quot; fill=\&quot;url(#stock)\&quot; stroke=\&quot;currentColor\&quot; stroke-width=\&quot;4\&quot; /&gt;&lt;path d=\&quot;M50 9V15\&quot; fill=\&quot;none\&quot; stroke=\&quot;#101214\&quot; stroke-width=\&quot;1.5\&quot; transform=\&quot;rotate(0 50 50)\&quot; /&gt;&lt;path d=\&quot;M50 9V15\&quot; fill=\&quot;none\&quot; stroke=\&quot;#101214\&quot; stroke-width=\&quot;1.5\&quot; transform=\&quot;rotate(30 50 50)\&quot; /&gt;&lt;path d=\&quot;M50 9V15\&quot; fill=\&quot;none\&quot; stroke=\&quot;#101214\&quot; stroke-width=\&quot;1.5\&quot; transform=\&quot;rotate(60 50 50)\&quot; /&gt;&lt;path d=\&quot;M50 9V15\&quot; fill=\&quot;none\&quot; stroke=\&quot;#101214\&quot; stroke-width=\&quot;1.5\&quot; transform=\&quot;rotate(90 50 50)\&quot; /&gt;&lt;path d=\&quot;M50 9V15\&quot; fill=\&quot;none\&quot; stroke=\&quot;#101214\&quot; stroke-width=\&quot;1.5\&quot; transform=\&quot;rotate(120 50 50)\&quot; /&gt;&lt;path d=\&quot;M50 9V15\&quot; fill=\&quot;none\&quot; stroke=\&quot;#101214\&quot; stroke-width=\&quot;1.5\&quot; transform=\&quot;rotate(150 50 50)\&quot; /&gt;&lt;path d=\&quot;M50 9V15\&quot; fill=\&quot;none\&quot; stroke=\&quot;#101214\&quot; stroke-width=\&quot;1.5\&quot; transform=\&quot;rotate(180 50 50)\&quot; /&gt;&lt;path d=\&quot;M50 9V15\&quot; fill=\&quot;none\&quot; stroke=\&quot;#101214\&quot; stroke-width=\&quot;1.5\&quot; transform=\&quot;rotate(210 50 50)\&quot; /&gt;&lt;path d=\&quot;M50 9V15\&quot; fill=\&quot;none\&quot; stroke=\&quot;#101214\&quot; stroke-width=\&quot;1.5\&quot; transform=\&quot;rotate(240 50 50)\&quot; /&gt;&lt;path d=\&quot;M50 9V15\&quot; fill=\&quot;none\&quot; stroke=\&quot;#101214\&quot; stroke-width=\&quot;1.5\&quot; transform=\&quot;rotate(270 50 50)\&quot; /&gt;&lt;path d=\&quot;M50 9V15\&quot; fill=\&quot;none\&quot; stroke=\&quot;#101214\&quot; stroke-width=\&quot;1.5\&quot; transform=\&quot;rotate(300 50 50)\&quot; /&gt;&lt;path d=\&quot;M50 9V15\&quot; fill=\&quot;none\&quot; stroke=\&quot;#101214\&quot; stroke-width=\&quot;1.5\&quot; transform=\&quot;rotate(330 50 50)\&quot; /&gt;&lt;path d=\&quot;M50 23V50L73 64\&quot; fill=\&quot;none\&quot; stroke=\&quot;#101214\&quot; stroke-width=\&quot;3\&quot; /&gt;&lt;circle cx=\&quot;50\&quot; cy=\&quot;50\&quot; r=\&quot;3\&quot; fill=\&quot;#101214\&quot; /&gt;&quot;,
+    &quot;line&quot;: &quot;&lt;path d=\&quot;M0 50H100\&quot; stroke=\&quot;currentColor\&quot; stroke-width=\&quot;2.4\&quot; vector-effect=\&quot;non-scaling-stroke\&quot; /&gt;&quot;,
+    &quot;location-background-regulatory-office&quot;: &quot;&lt;title&gt;Compulsory-process docket, no invented office&lt;/title&gt;\n&lt;g fill=\&quot;none\&quot; stroke=\&quot;currentColor\&quot; stroke-width=\&quot;0.8\&quot; stroke-linejoin=\&quot;round\&quot; stroke-linecap=\&quot;round\&quot; opacity=\&quot;0.34\&quot;&gt;&lt;path d=\&quot;M10 7H90V93H10ZM16 14H84M16 86H84M13 25H24M13 40H24M13 55H24M13 70H24M75 18V77M80 18V77\&quot;/&gt;&lt;/g&gt;&quot;,
+    &quot;time-divider&quot;: &quot;&lt;path d=\&quot;M50 0V100\&quot; stroke=\&quot;currentColor\&quot; stroke-width=\&quot;16\&quot;/&gt;&lt;path d=\&quot;M5 8H50M5 31H50M50 69H95M50 92H95\&quot; stroke=\&quot;currentColor\&quot; stroke-width=\&quot;8\&quot;/&gt;&quot;
+  },
+  &quot;palette&quot;: {
+    &quot;amber&quot;: &quot;#A17D45&quot;,
+    &quot;claret&quot;: &quot;#6B2634&quot;,
+    &quot;dirty&quot;: &quot;#CEC5B3&quot;,
+    &quot;ink&quot;: &quot;#101214&quot;,
+    &quot;institution&quot;: &quot;#68766B&quot;,
+    &quot;moss&quot;: &quot;#74864F&quot;,
+    &quot;nicotine&quot;: &quot;#AA9571&quot;,
+    &quot;paper&quot;: &quot;#E7E0D0&quot;,
+    &quot;shadow&quot;: &quot;#202326&quot;,
+    &quot;steel&quot;: &quot;#5E737B&quot;
+  },
+  &quot;renderer&quot;: &quot;storyboard-svg-2&quot;,
+  &quot;scene&quot;: {
+    &quot;background&quot;: &quot;ink&quot;,
+    &quot;intent&quot;: &quot;Put the response deadline beyond the drawn-as-of boundary with a still-open state. Do not depict compliance, noncompliance or a future response as already known. Visual distinction: An unbroken date rule with asymmetric ticks. Separates dated states without drawing an access restriction or a continuing identity.&quot;,
+    &quot;lettering&quot;: [
+      {
+        &quot;box&quot;: [
+          0.045,
+          0.78,
+          0.91,
+          0.18
+        ]
+      }
+    ],
+    &quot;lettering_mode&quot;: &quot;manual&quot;,
+    &quot;nodes&quot;: [
+      {
+        &quot;asset&quot;: &quot;location-background-regulatory-office&quot;,
+        &quot;box&quot;: [
+          0.02,
+          0.02,
+          0.96,
+          0.96
+        ],
+        &quot;color&quot;: &quot;steel&quot;
+      },
+      {
+        &quot;asset&quot;: &quot;line&quot;,
+        &quot;box&quot;: [
+          0.0768,
+          0.365,
+          0.8464,
+          0.016
+        ],
+        &quot;color&quot;: &quot;steel&quot;
+      },
+      {
+        &quot;asset&quot;: &quot;card&quot;,
+        &quot;box&quot;: [
+          0.086,
+          0.1794,
+          0.217733,
+          0.1408
+        ],
+        &quot;color&quot;: &quot;steel&quot;,
+        &quot;focus&quot;: true,
+        &quot;label&quot;: &quot;AS OF 30 AUGUST&quot;,
+        &quot;label_box&quot;: [
+          0.07799999999999999,
+          0.32620000000000005,
+          0.23373300000000002,
+          0.030799999999999945
+        ]
+      },
+      {
+        &quot;asset&quot;: &quot;time-divider&quot;,
+        &quot;box&quot;: [
+          0.458366,
+          0.1794,
+          0.025,
+          0.1408
+        ],
+        &quot;color&quot;: &quot;paper&quot;,
+        &quot;focus&quot;: true
+      },
+      {
+        &quot;asset&quot;: &quot;clock&quot;,
+        &quot;box&quot;: [
+          0.6999331666666667,
+          0.1794,
+          0.09386666666666667,
+          0.1408
+        ],
+        &quot;color&quot;: &quot;steel&quot;,
+        &quot;focus&quot;: true,
+        &quot;label&quot;: &quot;14 SEPTEMBER&quot;,
+        &quot;label_box&quot;: [
+          0.63,
+          0.32620000000000005,
+          0.23373300000000002,
+          0.030799999999999945
+        ]
+      }
+    ],
+    &quot;reconstructed&quot;: false,
+    &quot;shot&quot;: &quot;timeline&quot;,
+    &quot;source&quot;: &quot;\n**Location:** `regulatory-office`\n\n**Frame:** Calendar page: `RESPONSE DUE 10:00 A.M. CENTRAL — 14 SEPTEMBER 2026`. The date lies beyond a dark line labeled `THIS PAGE IS DRAWN AS OF 30 AUGUST`.\n\n**Caption:**\n&gt; AS OF 30 AUGUST, THE DEADLINE HAS NOT ARRIVED.\n\n**Provenance:** `documented` — subpoena deadline; the page is dated, not the record. What happened on 14 September belongs in a dated frame or endnote, not here.\n\n&quot;,
+    &quot;title&quot;: &quot;The response deadline lies beyond the drawn-as-of date&quot;
+  }
+}
+</metadata><rect width="1200" height="800" fill="#101214"/><g transform="translate(24 16) scale(11.52 7.68)" color="#5E737B"><g transform=""><title>Compulsory-process docket, no invented office</title>
+<g fill="none" stroke="currentColor" stroke-width="0.8" stroke-linejoin="round" stroke-linecap="round" opacity="0.34"><path d="M10 7H90V93H10ZM16 14H84M16 86H84M13 25H24M13 40H24M13 55H24M13 70H24M75 18V77M80 18V77"/></g></g></g><g transform="translate(92.16 292) scale(10.1568 0.128)" color="#5E737B"><g transform=""><path d="M0 50H100" stroke="currentColor" stroke-width="2.4" vector-effect="non-scaling-stroke" /></g></g><g transform="translate(103.2 143.52) scale(2.6128 1.1264)" color="#5E737B"><g transform=""><defs>
+<linearGradient id="node-2-stock" x1="0" y1="0" x2=".8" y2="1"><stop stop-color="#E7E0D0" /><stop offset="1" stop-color="#CEC5B3" /></linearGradient>
+<pattern id="node-2-grain" width="7" height="9" patternUnits="userSpaceOnUse"><circle cx="1" cy="2" r=".35" fill="#101214" opacity=".18" /><path d="M4 6h2M1 8h1" stroke="#101214" stroke-width=".3" opacity=".16" /></pattern>
+</defs><path d="M5 3H95V97H5Z" fill="url(#node-2-stock)" stroke="currentColor" stroke-width="2" /><path d="M5 3H95V97H5Z" fill="url(#node-2-grain)" /><rect x="5" y="3" width="90" height="15" fill="currentColor" /><rect x="10" y="25" width="5" height="61" fill="currentColor" /><path d="M23 29H85M23 38H75M23 48H83M23 66H62M23 78H80" fill="none" stroke="#101214" stroke-width="2" /><path d="M12 11H42M65 11H86" fill="none" stroke="#E7E0D0" stroke-width="1.4" /></g></g><text x="233.84" y="278.96" text-anchor="middle" fill="#E7E0D0" font-size="18" font-family="sans-serif">AS OF 30 AUGUST</text><g transform="translate(550.039 143.52) scale(0.3 1.1264)" color="#E7E0D0"><g transform=""><path d="M50 0V100" stroke="currentColor" stroke-width="16"/><path d="M5 8H50M5 31H50M50 69H95M50 92H95" stroke="currentColor" stroke-width="8"/></g></g><g transform="translate(839.92 143.52) scale(1.1264 1.1264)" color="#5E737B"><g transform=""><defs>
+<linearGradient id="node-4-stock" x1="0" y1="0" x2=".8" y2="1"><stop stop-color="#E7E0D0" /><stop offset="1" stop-color="#CEC5B3" /></linearGradient>
+</defs><circle cx="50" cy="50" r="44" fill="url(#node-4-stock)" stroke="currentColor" stroke-width="4" /><path d="M50 9V15" fill="none" stroke="#101214" stroke-width="1.5" transform="rotate(0 50 50)" /><path d="M50 9V15" fill="none" stroke="#101214" stroke-width="1.5" transform="rotate(30 50 50)" /><path d="M50 9V15" fill="none" stroke="#101214" stroke-width="1.5" transform="rotate(60 50 50)" /><path d="M50 9V15" fill="none" stroke="#101214" stroke-width="1.5" transform="rotate(90 50 50)" /><path d="M50 9V15" fill="none" stroke="#101214" stroke-width="1.5" transform="rotate(120 50 50)" /><path d="M50 9V15" fill="none" stroke="#101214" stroke-width="1.5" transform="rotate(150 50 50)" /><path d="M50 9V15" fill="none" stroke="#101214" stroke-width="1.5" transform="rotate(180 50 50)" /><path d="M50 9V15" fill="none" stroke="#101214" stroke-width="1.5" transform="rotate(210 50 50)" /><path d="M50 9V15" fill="none" stroke="#101214" stroke-width="1.5" transform="rotate(240 50 50)" /><path d="M50 9V15" fill="none" stroke="#101214" stroke-width="1.5" transform="rotate(270 50 50)" /><path d="M50 9V15" fill="none" stroke="#101214" stroke-width="1.5" transform="rotate(300 50 50)" /><path d="M50 9V15" fill="none" stroke="#101214" stroke-width="1.5" transform="rotate(330 50 50)" /><path d="M50 23V50L73 64" fill="none" stroke="#101214" stroke-width="3" /><circle cx="50" cy="50" r="3" fill="#101214" /></g></g><text x="896.24" y="278.96" text-anchor="middle" fill="#E7E0D0" font-size="18" font-family="sans-serif">14 SEPTEMBER</text><rect x="3" y="3" width="1194" height="794" fill="none" stroke="#5E737B" stroke-width="4"/></svg>

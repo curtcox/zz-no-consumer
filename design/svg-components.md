@@ -75,7 +75,7 @@ canonical panel anchors and the distinction between physical rooms and logical e
 
 The complete location background set uses `location-background-LOCATION-ID` component
 IDs in the **Locations** category. Search for “Background” to see the set. Each is a
-transparent, low-contrast margin design with an open center for foreground artwork.
+textured, shaded margin design with distinct material colors and a quiet center for foreground artwork.
 See [location backgrounds](location-backgrounds.md) for coverage and application rules.
 
 ## CLI and published gallery

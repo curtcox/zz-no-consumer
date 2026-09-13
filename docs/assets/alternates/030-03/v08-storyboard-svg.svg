@@ -1,0 +1,114 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="800" viewBox="0 0 1200 800"><title>Two routes close and policy narrows</title><desc>Show two individually blocked routes plus a narrower surviving policy gate. Concrete mitigation must be visible before the narrative asks what conditions it left unchanged. Visual distinction: A sieve with one narrow allowed aperture and stopped alternative lanes. Shows a reduced request surface without claiming all access is blocked.</desc><metadata>{
+  &quot;assets&quot;: {
+    &quot;cross&quot;: &quot;&lt;defs&gt;\n&lt;linearGradient id=\&quot;tone\&quot; x1=\&quot;0\&quot; y1=\&quot;0\&quot; x2=\&quot;1\&quot; y2=\&quot;1\&quot;&gt;&lt;stop stop-color=\&quot;currentColor\&quot; /&gt;&lt;stop offset=\&quot;1\&quot; stop-color=\&quot;#101214\&quot; stop-opacity=\&quot;.65\&quot; /&gt;&lt;/linearGradient&gt;\n&lt;/defs&gt;&lt;path d=\&quot;M10 10L90 90M90 10L10 90\&quot; stroke=\&quot;url(#tone)\&quot; stroke-width=\&quot;9\&quot; /&gt;&quot;,
+    &quot;location-background-artifactory-cache&quot;: &quot;&lt;title&gt;Indented package-cache shelves&lt;/title&gt;\n&lt;g fill=\&quot;none\&quot; stroke=\&quot;currentColor\&quot; stroke-width=\&quot;0.8\&quot; stroke-linejoin=\&quot;round\&quot; stroke-linecap=\&quot;round\&quot; opacity=\&quot;0.34\&quot;&gt;&lt;path d=\&quot;M5 10H95M8 19V83M8 24H17M8 42H22M8 62H17M8 80H22M82 22H94V33H82ZM82 48H94V59H82ZM5 92H95\&quot;/&gt;&lt;/g&gt;&quot;,
+    &quot;policy-filter&quot;: &quot;&lt;defs&gt;&lt;linearGradient id=\&quot;metal\&quot; x2=\&quot;0\&quot; y2=\&quot;1\&quot;&gt;&lt;stop stop-color=\&quot;currentColor\&quot; /&gt;&lt;stop offset=\&quot;1\&quot; stop-color=\&quot;#101214\&quot; /&gt;&lt;/linearGradient&gt;&lt;pattern id=\&quot;mesh\&quot; width=\&quot;8\&quot; height=\&quot;8\&quot; patternUnits=\&quot;userSpaceOnUse\&quot;&gt;&lt;path d=\&quot;M0 0L8 8M8 0L0 8\&quot; stroke=\&quot;currentColor\&quot; stroke-width=\&quot;.7\&quot; opacity=\&quot;.4\&quot; /&gt;&lt;/pattern&gt;&lt;/defs&gt;&lt;rect x=\&quot;43\&quot; y=\&quot;7\&quot; width=\&quot;18\&quot; height=\&quot;86\&quot; fill=\&quot;url(#metal)\&quot; stroke=\&quot;currentColor\&quot; stroke-width=\&quot;2\&quot; /&gt;&lt;rect x=\&quot;43\&quot; y=\&quot;7\&quot; width=\&quot;18\&quot; height=\&quot;86\&quot; fill=\&quot;url(#mesh)\&quot; /&gt;&lt;path d=\&quot;M5 24H40M5 76H40\&quot; stroke=\&quot;currentColor\&quot; stroke-width=\&quot;4\&quot; /&gt;&lt;path d=\&quot;M37 18V30M37 70V82\&quot; stroke=\&quot;currentColor\&quot; stroke-width=\&quot;3\&quot; /&gt;&lt;path d=\&quot;M40 43H64V57H40Z\&quot; fill=\&quot;#101214\&quot; /&gt;&lt;path d=\&quot;M5 50H92M85 44L94 50 85 56\&quot; fill=\&quot;none\&quot; stroke=\&quot;currentColor\&quot; stroke-width=\&quot;3\&quot; /&gt;&lt;path d=\&quot;M44 9V40M60 9V40M44 60V91M60 60V91\&quot; stroke=\&quot;#e7e0d0\&quot; opacity=\&quot;.5\&quot; stroke-width=\&quot;.8\&quot; /&gt;&quot;
+  },
+  &quot;palette&quot;: {
+    &quot;amber&quot;: &quot;#A17D45&quot;,
+    &quot;claret&quot;: &quot;#6B2634&quot;,
+    &quot;dirty&quot;: &quot;#CEC5B3&quot;,
+    &quot;ink&quot;: &quot;#101214&quot;,
+    &quot;institution&quot;: &quot;#68766B&quot;,
+    &quot;moss&quot;: &quot;#74864F&quot;,
+    &quot;nicotine&quot;: &quot;#AA9571&quot;,
+    &quot;paper&quot;: &quot;#E7E0D0&quot;,
+    &quot;shadow&quot;: &quot;#202326&quot;,
+    &quot;steel&quot;: &quot;#5E737B&quot;
+  },
+  &quot;renderer&quot;: &quot;storyboard-svg-2&quot;,
+  &quot;scene&quot;: {
+    &quot;background&quot;: &quot;ink&quot;,
+    &quot;intent&quot;: &quot;Show two individually blocked routes plus a narrower surviving policy gate. Concrete mitigation must be visible before the narrative asks what conditions it left unchanged. Visual distinction: A sieve with one narrow allowed aperture and stopped alternative lanes. Shows a reduced request surface without claiming all access is blocked.&quot;,
+    &quot;lettering&quot;: [
+      {
+        &quot;box&quot;: [
+          0.045,
+          0.78,
+          0.91,
+          0.18
+        ]
+      }
+    ],
+    &quot;lettering_mode&quot;: &quot;manual&quot;,
+    &quot;nodes&quot;: [
+      {
+        &quot;asset&quot;: &quot;location-background-artifactory-cache&quot;,
+        &quot;box&quot;: [
+          0.02,
+          0.02,
+          0.96,
+          0.96
+        ],
+        &quot;color&quot;: &quot;steel&quot;
+      },
+      {
+        &quot;asset&quot;: &quot;cross&quot;,
+        &quot;box&quot;: [
+          0.095409,
+          0.2012,
+          0.184316,
+          0.276474
+        ],
+        &quot;color&quot;: &quot;steel&quot;,
+        &quot;focus&quot;: true,
+        &quot;label&quot;: &quot;PATH ONE&quot;,
+        &quot;label_box&quot;: [
+          0.06775,
+          0.49443,
+          0.239633,
+          0.121481
+        ],
+        &quot;label_size&quot;: 18
+      },
+      {
+        &quot;asset&quot;: &quot;cross&quot;,
+        &quot;box&quot;: [
+          0.398741,
+          0.2012,
+          0.184316,
+          0.276474
+        ],
+        &quot;color&quot;: &quot;steel&quot;,
+        &quot;focus&quot;: true,
+        &quot;label&quot;: &quot;PATH TWO&quot;,
+        &quot;label_box&quot;: [
+          0.371083,
+          0.49443,
+          0.239633,
+          0.121481
+        ],
+        &quot;label_size&quot;: 18
+      },
+      {
+        &quot;asset&quot;: &quot;policy-filter&quot;,
+        &quot;box&quot;: [
+          0.674417,
+          0.2012,
+          0.239633,
+          0.276474
+        ],
+        &quot;color&quot;: &quot;steel&quot;,
+        &quot;focus&quot;: true,
+        &quot;label&quot;: &quot;REQUEST POLICY&quot;,
+        &quot;label_box&quot;: [
+          0.674417,
+          0.49443,
+          0.239633,
+          0.121481
+        ],
+        &quot;label_size&quot;: 18
+      }
+    ],
+    &quot;reconstructed&quot;: false,
+    &quot;shot&quot;: &quot;row&quot;,
+    &quot;source&quot;: &quot;\n**Location:** `artifactory-cache`\n\n**Frame:** Two vulnerable service paths close under heavy black bars. A request-policy gate narrows the remaining allowed traffic.\n\n**Action:** Known token routes are blocked and request types restricted.\n\n**Caption:**\n&gt; THE KNOWN ROUTES ARE CLOSED. THE REQUEST SURFACE IS NARROWED.\n\n**Provenance:** `documented` + `compressed` — mitigation actions from `OAI-TR`; diagram is non-operational.\n\n&quot;,
+    &quot;title&quot;: &quot;Two routes close and policy narrows&quot;
+  }
+}
+</metadata><rect width="1200" height="800" fill="#101214"/><g transform="translate(24 16) scale(11.52 7.68)" color="#5E737B"><g transform=""><title>Indented package-cache shelves</title>
+<g fill="none" stroke="currentColor" stroke-width="0.8" stroke-linejoin="round" stroke-linecap="round" opacity="0.34"><path d="M5 10H95M8 19V83M8 24H17M8 42H22M8 62H17M8 80H22M82 22H94V33H82ZM82 48H94V59H82ZM5 92H95"/></g></g></g><g transform="translate(114.491 160.96) scale(2.21179 2.21179)" color="#5E737B"><g transform=""><defs>
+<linearGradient id="node-1-tone" x1="0" y1="0" x2="1" y2="1"><stop stop-color="currentColor" /><stop offset="1" stop-color="#101214" stop-opacity=".65" /></linearGradient>
+</defs><path d="M10 10L90 90M90 10L10 90" stroke="url(#node-1-tone)" stroke-width="9" /></g></g><text x="225.08" y="413.544" text-anchor="middle" fill="#E7E0D0" font-size="18" font-family="sans-serif">PATH ONE</text><g transform="translate(478.489 160.96) scale(2.21179 2.21179)" color="#5E737B"><g transform=""><defs>
+<linearGradient id="node-2-tone" x1="0" y1="0" x2="1" y2="1"><stop stop-color="currentColor" /><stop offset="1" stop-color="#101214" stop-opacity=".65" /></linearGradient>
+</defs><path d="M10 10L90 90M90 10L10 90" stroke="url(#node-2-tone)" stroke-width="9" /></g></g><text x="589.079" y="413.544" text-anchor="middle" fill="#E7E0D0" font-size="18" font-family="sans-serif">PATH TWO</text><g transform="translate(809.3 160.96) scale(2.8756 2.21179)" color="#5E737B"><g transform=""><defs><linearGradient id="node-3-metal" x2="0" y2="1"><stop stop-color="currentColor" /><stop offset="1" stop-color="#101214" /></linearGradient><pattern id="node-3-mesh" width="8" height="8" patternUnits="userSpaceOnUse"><path d="M0 0L8 8M8 0L0 8" stroke="currentColor" stroke-width=".7" opacity=".4" /></pattern></defs><rect x="43" y="7" width="18" height="86" fill="url(#node-3-metal)" stroke="currentColor" stroke-width="2" /><rect x="43" y="7" width="18" height="86" fill="url(#node-3-mesh)" /><path d="M5 24H40M5 76H40" stroke="currentColor" stroke-width="4" /><path d="M37 18V30M37 70V82" stroke="currentColor" stroke-width="3" /><path d="M40 43H64V57H40Z" fill="#101214" /><path d="M5 50H92M85 44L94 50 85 56" fill="none" stroke="currentColor" stroke-width="3" /><path d="M44 9V40M60 9V40M44 60V91M60 60V91" stroke="#e7e0d0" opacity=".5" stroke-width=".8" /></g></g><text x="953.08" y="413.544" text-anchor="middle" fill="#E7E0D0" font-size="18" font-family="sans-serif">REQUEST POLICY</text><rect x="3" y="3" width="1194" height="794" fill="none" stroke="#5E737B" stroke-width="4"/></svg>

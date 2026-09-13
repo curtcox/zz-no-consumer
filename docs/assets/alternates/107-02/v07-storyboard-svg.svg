@@ -1,0 +1,100 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="800" viewBox="0 0 1200 800"><title>A reconstructed moderation action deletes a page</title><desc>Use only a hand and moderation interface inside a reconstruction treatment. The deletion is recorded; the maintainer&#x27;s body, identity and feelings are not.</desc><metadata>{
+  &quot;assets&quot;: {
+    &quot;cross&quot;: &quot;&lt;defs&gt;\n&lt;linearGradient id=\&quot;tone\&quot; x1=\&quot;0\&quot; y1=\&quot;0\&quot; x2=\&quot;1\&quot; y2=\&quot;1\&quot;&gt;&lt;stop stop-color=\&quot;currentColor\&quot; /&gt;&lt;stop offset=\&quot;1\&quot; stop-color=\&quot;#101214\&quot; stop-opacity=\&quot;.65\&quot; /&gt;&lt;/linearGradient&gt;\n&lt;/defs&gt;&lt;path d=\&quot;M10 10L90 90M90 10L10 90\&quot; stroke=\&quot;url(#tone)\&quot; stroke-width=\&quot;9\&quot; /&gt;&quot;,
+    &quot;hand&quot;: &quot;&lt;defs&gt;\n&lt;linearGradient id=\&quot;tone\&quot; x1=\&quot;0\&quot; y1=\&quot;0\&quot; x2=\&quot;1\&quot; y2=\&quot;1\&quot;&gt;&lt;stop stop-color=\&quot;currentColor\&quot; /&gt;&lt;stop offset=\&quot;1\&quot; stop-color=\&quot;#101214\&quot; stop-opacity=\&quot;.65\&quot; /&gt;&lt;/linearGradient&gt;\n&lt;/defs&gt;&lt;path d=\&quot;M0 70L24 38L56 9Q61 7 63 12L46 38L75 16Q82 16 79 23L57 46L88 28Q95 30 90 36L64 55L92 44Q100 46 94 53L63 75L48 99H12Z\&quot; fill=\&quot;url(#tone)\&quot; /&gt;&lt;path d=\&quot;M20 68L42 48M34 77L57 61M41 84L59 70\&quot; fill=\&quot;none\&quot; stroke=\&quot;#101214\&quot; stroke-width=\&quot;1.2\&quot; opacity=\&quot;.35\&quot; /&gt;&quot;,
+    &quot;location-background-public-wiki-dse&quot;: &quot;&lt;title&gt;Community wiki sidebar and page tabs&lt;/title&gt;\n&lt;g fill=\&quot;none\&quot; stroke=\&quot;currentColor\&quot; stroke-width=\&quot;0.8\&quot; stroke-linejoin=\&quot;round\&quot; stroke-linecap=\&quot;round\&quot; opacity=\&quot;0.34\&quot;&gt;&lt;path d=\&quot;M5 9H95V92H5ZM5 23H95M10 15H29M38 15H57M67 15H85M19 23V92M9 34H15M9 43H15M9 52H15M9 69H15M25 85H89\&quot;/&gt;&lt;/g&gt;&quot;,
+    &quot;monitor&quot;: &quot;&lt;defs&gt;\n&lt;linearGradient id=\&quot;metal\&quot; x1=\&quot;0\&quot; y1=\&quot;0\&quot; x2=\&quot;1\&quot; y2=\&quot;1\&quot;&gt;&lt;stop stop-color=\&quot;currentColor\&quot; /&gt;&lt;stop offset=\&quot;.32\&quot; stop-color=\&quot;#202326\&quot; /&gt;&lt;stop offset=\&quot;.75\&quot; stop-color=\&quot;#101214\&quot; /&gt;&lt;stop offset=\&quot;1\&quot; stop-color=\&quot;currentColor\&quot; /&gt;&lt;/linearGradient&gt;\n&lt;/defs&gt;&lt;path d=\&quot;M43 75V91H24V97H77V91H58V75\&quot; fill=\&quot;url(#metal)\&quot; stroke=\&quot;currentColor\&quot; stroke-width=\&quot;1\&quot; /&gt;&lt;rect x=\&quot;2\&quot; y=\&quot;3\&quot; width=\&quot;96\&quot; height=\&quot;75\&quot; rx=\&quot;4\&quot; fill=\&quot;url(#metal)\&quot; stroke=\&quot;currentColor\&quot; stroke-width=\&quot;2\&quot; /&gt;&lt;rect x=\&quot;8\&quot; y=\&quot;9\&quot; width=\&quot;84\&quot; height=\&quot;61\&quot; fill=\&quot;#101214\&quot; /&gt;&lt;path d=\&quot;M8 9H92V22L8 47Z\&quot; fill=\&quot;#E7E0D0\&quot; opacity=\&quot;.05\&quot; /&gt;&lt;path d=\&quot;M15 74H32\&quot; fill=\&quot;none\&quot; stroke=\&quot;#E7E0D0\&quot; stroke-width=\&quot;0.7\&quot; opacity=\&quot;.5\&quot; /&gt;&lt;rect x=\&quot;12\&quot; y=\&quot;14\&quot; width=\&quot;4\&quot; height=\&quot;47\&quot; fill=\&quot;currentColor\&quot; /&gt;&lt;path d=\&quot;M23 20H78M23 29H85M23 38H69M23 51H78M23 60H56\&quot; fill=\&quot;none\&quot; stroke=\&quot;#E7E0D0\&quot; stroke-width=\&quot;1.2\&quot; opacity=\&quot;.8\&quot; /&gt;&quot;
+  },
+  &quot;palette&quot;: {
+    &quot;amber&quot;: &quot;#A17D45&quot;,
+    &quot;claret&quot;: &quot;#6B2634&quot;,
+    &quot;dirty&quot;: &quot;#CEC5B3&quot;,
+    &quot;ink&quot;: &quot;#101214&quot;,
+    &quot;institution&quot;: &quot;#68766B&quot;,
+    &quot;moss&quot;: &quot;#74864F&quot;,
+    &quot;nicotine&quot;: &quot;#AA9571&quot;,
+    &quot;paper&quot;: &quot;#E7E0D0&quot;,
+    &quot;shadow&quot;: &quot;#202326&quot;,
+    &quot;steel&quot;: &quot;#5E737B&quot;
+  },
+  &quot;renderer&quot;: &quot;storyboard-svg-2&quot;,
+  &quot;scene&quot;: {
+    &quot;background&quot;: &quot;ink&quot;,
+    &quot;intent&quot;: &quot;Use only a hand and moderation interface inside a reconstruction treatment. The deletion is recorded; the maintainer&#x27;s body, identity and feelings are not.&quot;,
+    &quot;lettering&quot;: [],
+    &quot;lettering_mode&quot;: &quot;manual&quot;,
+    &quot;nodes&quot;: [
+      {
+        &quot;asset&quot;: &quot;location-background-public-wiki-dse&quot;,
+        &quot;box&quot;: [
+          0.02,
+          0.02,
+          0.96,
+          0.96
+        ],
+        &quot;color&quot;: &quot;steel&quot;
+      },
+      {
+        &quot;asset&quot;: &quot;hand&quot;,
+        &quot;box&quot;: [
+          0.06775,
+          0.289334,
+          0.239633,
+          0.422882
+        ],
+        &quot;color&quot;: &quot;dirty&quot;,
+        &quot;focus&quot;: true
+      },
+      {
+        &quot;asset&quot;: &quot;monitor&quot;,
+        &quot;box&quot;: [
+          0.371083,
+          0.2397,
+          0.239633,
+          0.344619
+        ],
+        &quot;color&quot;: &quot;steel&quot;,
+        &quot;focus&quot;: true,
+        &quot;label&quot;: &quot;MODERATION&quot;,
+        &quot;label_box&quot;: [
+          0.371083,
+          0.605205,
+          0.239633,
+          0.151423
+        ],
+        &quot;label_size&quot;: 18
+      },
+      {
+        &quot;asset&quot;: &quot;cross&quot;,
+        &quot;box&quot;: [
+          0.679361,
+          0.2397,
+          0.229746,
+          0.344619
+        ],
+        &quot;color&quot;: &quot;steel&quot;,
+        &quot;focus&quot;: true,
+        &quot;label&quot;: &quot;PAGE DELETED&quot;,
+        &quot;label_box&quot;: [
+          0.674417,
+          0.605205,
+          0.239633,
+          0.151423
+        ],
+        &quot;label_size&quot;: 18
+      }
+    ],
+    &quot;reconstructed&quot;: true,
+    &quot;shot&quot;: &quot;row&quot;,
+    &quot;source&quot;: &quot;\n**Location:** `public-wiki-dse`\n\n**Frame:** A functional role, drawn only as a hand at a keyboard and a moderation screen, visibly marked `RECONSTRUCTION`. The interface is the wiki&#x27;s own: a page, a delete control, a one-line change summary in German meaning *page deleted*.\n\n**Action:** The maintainer removes a page.\n\n**Provenance:** `documented` + `reconstructed` — the deletion is a logged event attributed to the label `[Admin1]` (`CW-EXPORT`, `events.jsonl`, `event_type: delete`); the hand, the room, and the moment of decision are reconstructed. No face, name, gender, motive, or speech.\n\n&quot;,
+    &quot;title&quot;: &quot;A reconstructed moderation action deletes a page&quot;
+  }
+}
+</metadata><rect width="1200" height="800" fill="#101214"/><g transform="translate(24 16) scale(11.52 7.68)" color="#5E737B"><g transform=""><title>Community wiki sidebar and page tabs</title>
+<g fill="none" stroke="currentColor" stroke-width="0.8" stroke-linejoin="round" stroke-linecap="round" opacity="0.34"><path d="M5 9H95V92H5ZM5 23H95M10 15H29M38 15H57M67 15H85M19 23V92M9 34H15M9 43H15M9 52H15M9 69H15M25 85H89"/></g></g></g><g transform="translate(81.3 231.467) scale(2.8756 3.38306)" color="#CEC5B3"><g transform=""><defs>
+<linearGradient id="node-1-tone" x1="0" y1="0" x2="1" y2="1"><stop stop-color="currentColor" /><stop offset="1" stop-color="#101214" stop-opacity=".65" /></linearGradient>
+</defs><path d="M0 70L24 38L56 9Q61 7 63 12L46 38L75 16Q82 16 79 23L57 46L88 28Q95 30 90 36L64 55L92 44Q100 46 94 53L63 75L48 99H12Z" fill="url(#node-1-tone)" /><path d="M20 68L42 48M34 77L57 61M41 84L59 70" fill="none" stroke="#101214" stroke-width="1.2" opacity=".35" /></g></g><g transform="translate(445.3 191.76) scale(2.8756 2.75695)" color="#5E737B"><g transform=""><defs>
+<linearGradient id="node-2-metal" x1="0" y1="0" x2="1" y2="1"><stop stop-color="currentColor" /><stop offset=".32" stop-color="#202326" /><stop offset=".75" stop-color="#101214" /><stop offset="1" stop-color="currentColor" /></linearGradient>
+</defs><path d="M43 75V91H24V97H77V91H58V75" fill="url(#node-2-metal)" stroke="currentColor" stroke-width="1" /><rect x="2" y="3" width="96" height="75" rx="4" fill="url(#node-2-metal)" stroke="currentColor" stroke-width="2" /><rect x="8" y="9" width="84" height="61" fill="#101214" /><path d="M8 9H92V22L8 47Z" fill="#E7E0D0" opacity=".05" /><path d="M15 74H32" fill="none" stroke="#E7E0D0" stroke-width="0.7" opacity=".5" /><rect x="12" y="14" width="4" height="47" fill="currentColor" /><path d="M23 20H78M23 29H85M23 38H69M23 51H78M23 60H56" fill="none" stroke="#E7E0D0" stroke-width="1.2" opacity=".8" /></g></g><text x="589.079" y="502.164" text-anchor="middle" fill="#E7E0D0" font-size="18" font-family="sans-serif">MODERATION</text><g transform="translate(815.233 191.76) scale(2.75695 2.75695)" color="#5E737B"><g transform=""><defs>
+<linearGradient id="node-3-tone" x1="0" y1="0" x2="1" y2="1"><stop stop-color="currentColor" /><stop offset="1" stop-color="#101214" stop-opacity=".65" /></linearGradient>
+</defs><path d="M10 10L90 90M90 10L10 90" stroke="url(#node-3-tone)" stroke-width="9" /></g></g><text x="953.08" y="502.164" text-anchor="middle" fill="#E7E0D0" font-size="18" font-family="sans-serif">PAGE DELETED</text><rect x="3" y="3" width="1194" height="794" fill="none" stroke="#5E737B" stroke-width="4" stroke-dasharray="18 10"/></svg>

@@ -1,0 +1,491 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="800" viewBox="0 0 1200 800"><title>Deletion records survive without the deleted pages’ contents</title><desc>Use empty page outlines under the recorded-deletion/no-held-revision label. The absence is surviving content, not a claim that the pages were empty before deletion. Pin the empty-slot to its deletion recorded state; the object silhouette persists while its status changes.</desc><metadata>{
+  &quot;assets&quot;: {
+    &quot;card&quot;: &quot;&lt;defs&gt;\n&lt;linearGradient id=\&quot;stock\&quot; x1=\&quot;0\&quot; y1=\&quot;0\&quot; x2=\&quot;.8\&quot; y2=\&quot;1\&quot;&gt;&lt;stop stop-color=\&quot;#E7E0D0\&quot; /&gt;&lt;stop offset=\&quot;1\&quot; stop-color=\&quot;#CEC5B3\&quot; /&gt;&lt;/linearGradient&gt;\n&lt;pattern id=\&quot;grain\&quot; width=\&quot;7\&quot; height=\&quot;9\&quot; patternUnits=\&quot;userSpaceOnUse\&quot;&gt;&lt;circle cx=\&quot;1\&quot; cy=\&quot;2\&quot; r=\&quot;.35\&quot; fill=\&quot;#101214\&quot; opacity=\&quot;.18\&quot; /&gt;&lt;path d=\&quot;M4 6h2M1 8h1\&quot; stroke=\&quot;#101214\&quot; stroke-width=\&quot;.3\&quot; opacity=\&quot;.16\&quot; /&gt;&lt;/pattern&gt;\n&lt;/defs&gt;&lt;path d=\&quot;M5 3H95V97H5Z\&quot; fill=\&quot;url(#stock)\&quot; stroke=\&quot;currentColor\&quot; stroke-width=\&quot;2\&quot; /&gt;&lt;path d=\&quot;M5 3H95V97H5Z\&quot; fill=\&quot;url(#grain)\&quot; /&gt;&lt;rect x=\&quot;5\&quot; y=\&quot;3\&quot; width=\&quot;90\&quot; height=\&quot;15\&quot; fill=\&quot;currentColor\&quot; /&gt;&lt;rect x=\&quot;10\&quot; y=\&quot;25\&quot; width=\&quot;5\&quot; height=\&quot;61\&quot; fill=\&quot;currentColor\&quot; /&gt;&lt;path d=\&quot;M23 29H85M23 38H75M23 48H83M23 66H62M23 78H80\&quot; fill=\&quot;none\&quot; stroke=\&quot;#101214\&quot; stroke-width=\&quot;2\&quot; /&gt;&lt;path d=\&quot;M12 11H42M65 11H86\&quot; fill=\&quot;none\&quot; stroke=\&quot;#E7E0D0\&quot; stroke-width=\&quot;1.4\&quot; /&gt;&quot;,
+    &quot;empty-slot@v004&quot;: &quot;&lt;rect x=\&quot;3\&quot; y=\&quot;3\&quot; width=\&quot;94\&quot; height=\&quot;94\&quot; fill=\&quot;none\&quot; stroke=\&quot;currentColor\&quot; stroke-width=\&quot;2\&quot; stroke-dasharray=\&quot;7 5\&quot; /&gt;&lt;path d=\&quot;M3 20V3H20M80 3H97V20M97 80V97H80M20 97H3V80\&quot; fill=\&quot;none\&quot; stroke=\&quot;#E7E0D0\&quot; stroke-width=\&quot;1\&quot; opacity=\&quot;.6\&quot; /&gt;\n&lt;path d=\&quot;M78 4L96 22M96 4L78 22\&quot; stroke=\&quot;currentColor\&quot; stroke-width=\&quot;4\&quot;/&gt;&lt;path d=\&quot;M4 84H22V96\&quot; stroke=\&quot;currentColor\&quot; stroke-width=\&quot;2\&quot; fill=\&quot;none\&quot;/&gt;&quot;,
+    &quot;location-background-public-wiki-dse&quot;: &quot;&lt;title&gt;Community wiki sidebar and page tabs&lt;/title&gt;\n&lt;g fill=\&quot;none\&quot; stroke=\&quot;currentColor\&quot; stroke-width=\&quot;0.8\&quot; stroke-linejoin=\&quot;round\&quot; stroke-linecap=\&quot;round\&quot; opacity=\&quot;0.34\&quot;&gt;&lt;path d=\&quot;M5 9H95V92H5ZM5 23H95M10 15H29M38 15H57M67 15H85M19 23V92M9 34H15M9 43H15M9 52H15M9 69H15M25 85H89\&quot;/&gt;&lt;/g&gt;&quot;
+  },
+  &quot;palette&quot;: {
+    &quot;amber&quot;: &quot;#A17D45&quot;,
+    &quot;claret&quot;: &quot;#6B2634&quot;,
+    &quot;dirty&quot;: &quot;#CEC5B3&quot;,
+    &quot;ink&quot;: &quot;#101214&quot;,
+    &quot;institution&quot;: &quot;#68766B&quot;,
+    &quot;moss&quot;: &quot;#74864F&quot;,
+    &quot;nicotine&quot;: &quot;#AA9571&quot;,
+    &quot;paper&quot;: &quot;#E7E0D0&quot;,
+    &quot;shadow&quot;: &quot;#202326&quot;,
+    &quot;steel&quot;: &quot;#5E737B&quot;
+  },
+  &quot;renderer&quot;: &quot;storyboard-svg-2&quot;,
+  &quot;scene&quot;: {
+    &quot;background&quot;: &quot;ink&quot;,
+    &quot;intent&quot;: &quot;Use empty page outlines under the recorded-deletion/no-held-revision label. The absence is surviving content, not a claim that the pages were empty before deletion. Pin the empty-slot to its deletion recorded state; the object silhouette persists while its status changes.&quot;,
+    &quot;lettering&quot;: [
+      {
+        &quot;box&quot;: [
+          0.045,
+          0.78,
+          0.91,
+          0.18
+        ]
+      }
+    ],
+    &quot;lettering_mode&quot;: &quot;manual&quot;,
+    &quot;nodes&quot;: [
+      {
+        &quot;asset&quot;: &quot;location-background-public-wiki-dse&quot;,
+        &quot;box&quot;: [
+          0.02,
+          0.02,
+          0.96,
+          0.96
+        ],
+        &quot;color&quot;: &quot;steel&quot;
+      },
+      {
+        &quot;asset&quot;: &quot;empty-slot&quot;,
+        &quot;asset_version&quot;: &quot;v004&quot;,
+        &quot;box&quot;: [
+          0.0632,
+          0.0592,
+          0.091,
+          0.0852
+        ],
+        &quot;color&quot;: &quot;steel&quot;,
+        &quot;focus&quot;: true
+      },
+      {
+        &quot;asset&quot;: &quot;empty-slot&quot;,
+        &quot;asset_version&quot;: &quot;v004&quot;,
+        &quot;box&quot;: [
+          0.1724,
+          0.0592,
+          0.091,
+          0.0852
+        ],
+        &quot;color&quot;: &quot;steel&quot;,
+        &quot;focus&quot;: true
+      },
+      {
+        &quot;asset&quot;: &quot;empty-slot&quot;,
+        &quot;asset_version&quot;: &quot;v004&quot;,
+        &quot;box&quot;: [
+          0.2816,
+          0.0592,
+          0.091,
+          0.0852
+        ],
+        &quot;color&quot;: &quot;steel&quot;,
+        &quot;focus&quot;: true
+      },
+      {
+        &quot;asset&quot;: &quot;empty-slot&quot;,
+        &quot;asset_version&quot;: &quot;v004&quot;,
+        &quot;box&quot;: [
+          0.3908,
+          0.0592,
+          0.091,
+          0.0852
+        ],
+        &quot;color&quot;: &quot;steel&quot;,
+        &quot;focus&quot;: true
+      },
+      {
+        &quot;asset&quot;: &quot;empty-slot&quot;,
+        &quot;asset_version&quot;: &quot;v004&quot;,
+        &quot;box&quot;: [
+          0.5,
+          0.0592,
+          0.091,
+          0.0852
+        ],
+        &quot;color&quot;: &quot;steel&quot;,
+        &quot;focus&quot;: true
+      },
+      {
+        &quot;asset&quot;: &quot;empty-slot&quot;,
+        &quot;asset_version&quot;: &quot;v004&quot;,
+        &quot;box&quot;: [
+          0.6092,
+          0.0592,
+          0.091,
+          0.0852
+        ],
+        &quot;color&quot;: &quot;steel&quot;,
+        &quot;focus&quot;: true
+      },
+      {
+        &quot;asset&quot;: &quot;empty-slot&quot;,
+        &quot;asset_version&quot;: &quot;v004&quot;,
+        &quot;box&quot;: [
+          0.7184,
+          0.0592,
+          0.091,
+          0.0852
+        ],
+        &quot;color&quot;: &quot;steel&quot;,
+        &quot;focus&quot;: true
+      },
+      {
+        &quot;asset&quot;: &quot;empty-slot&quot;,
+        &quot;asset_version&quot;: &quot;v004&quot;,
+        &quot;box&quot;: [
+          0.8276,
+          0.0592,
+          0.091,
+          0.0852
+        ],
+        &quot;color&quot;: &quot;steel&quot;,
+        &quot;focus&quot;: true
+      },
+      {
+        &quot;asset&quot;: &quot;empty-slot&quot;,
+        &quot;asset_version&quot;: &quot;v004&quot;,
+        &quot;box&quot;: [
+          0.0632,
+          0.1657,
+          0.091,
+          0.0852
+        ],
+        &quot;color&quot;: &quot;steel&quot;,
+        &quot;focus&quot;: true
+      },
+      {
+        &quot;asset&quot;: &quot;empty-slot&quot;,
+        &quot;asset_version&quot;: &quot;v004&quot;,
+        &quot;box&quot;: [
+          0.1724,
+          0.1657,
+          0.091,
+          0.0852
+        ],
+        &quot;color&quot;: &quot;steel&quot;,
+        &quot;focus&quot;: true
+      },
+      {
+        &quot;asset&quot;: &quot;empty-slot&quot;,
+        &quot;asset_version&quot;: &quot;v004&quot;,
+        &quot;box&quot;: [
+          0.2816,
+          0.1657,
+          0.091,
+          0.0852
+        ],
+        &quot;color&quot;: &quot;steel&quot;,
+        &quot;focus&quot;: true
+      },
+      {
+        &quot;asset&quot;: &quot;empty-slot&quot;,
+        &quot;asset_version&quot;: &quot;v004&quot;,
+        &quot;box&quot;: [
+          0.3908,
+          0.1657,
+          0.091,
+          0.0852
+        ],
+        &quot;color&quot;: &quot;steel&quot;,
+        &quot;focus&quot;: true
+      },
+      {
+        &quot;asset&quot;: &quot;empty-slot&quot;,
+        &quot;asset_version&quot;: &quot;v004&quot;,
+        &quot;box&quot;: [
+          0.5,
+          0.1657,
+          0.091,
+          0.0852
+        ],
+        &quot;color&quot;: &quot;steel&quot;,
+        &quot;focus&quot;: true
+      },
+      {
+        &quot;asset&quot;: &quot;empty-slot&quot;,
+        &quot;asset_version&quot;: &quot;v004&quot;,
+        &quot;box&quot;: [
+          0.6092,
+          0.1657,
+          0.091,
+          0.0852
+        ],
+        &quot;color&quot;: &quot;steel&quot;,
+        &quot;focus&quot;: true
+      },
+      {
+        &quot;asset&quot;: &quot;empty-slot&quot;,
+        &quot;asset_version&quot;: &quot;v004&quot;,
+        &quot;box&quot;: [
+          0.7184,
+          0.1657,
+          0.091,
+          0.0852
+        ],
+        &quot;color&quot;: &quot;steel&quot;,
+        &quot;focus&quot;: true
+      },
+      {
+        &quot;asset&quot;: &quot;empty-slot&quot;,
+        &quot;asset_version&quot;: &quot;v004&quot;,
+        &quot;box&quot;: [
+          0.8276,
+          0.1657,
+          0.091,
+          0.0852
+        ],
+        &quot;color&quot;: &quot;steel&quot;,
+        &quot;focus&quot;: true
+      },
+      {
+        &quot;asset&quot;: &quot;empty-slot&quot;,
+        &quot;asset_version&quot;: &quot;v004&quot;,
+        &quot;box&quot;: [
+          0.0632,
+          0.2722,
+          0.091,
+          0.0852
+        ],
+        &quot;color&quot;: &quot;steel&quot;,
+        &quot;focus&quot;: true
+      },
+      {
+        &quot;asset&quot;: &quot;empty-slot&quot;,
+        &quot;asset_version&quot;: &quot;v004&quot;,
+        &quot;box&quot;: [
+          0.1724,
+          0.2722,
+          0.091,
+          0.0852
+        ],
+        &quot;color&quot;: &quot;steel&quot;,
+        &quot;focus&quot;: true
+      },
+      {
+        &quot;asset&quot;: &quot;empty-slot&quot;,
+        &quot;asset_version&quot;: &quot;v004&quot;,
+        &quot;box&quot;: [
+          0.2816,
+          0.2722,
+          0.091,
+          0.0852
+        ],
+        &quot;color&quot;: &quot;steel&quot;,
+        &quot;focus&quot;: true
+      },
+      {
+        &quot;asset&quot;: &quot;empty-slot&quot;,
+        &quot;asset_version&quot;: &quot;v004&quot;,
+        &quot;box&quot;: [
+          0.3908,
+          0.2722,
+          0.091,
+          0.0852
+        ],
+        &quot;color&quot;: &quot;steel&quot;,
+        &quot;focus&quot;: true
+      },
+      {
+        &quot;asset&quot;: &quot;empty-slot&quot;,
+        &quot;asset_version&quot;: &quot;v004&quot;,
+        &quot;box&quot;: [
+          0.5,
+          0.2722,
+          0.091,
+          0.0852
+        ],
+        &quot;color&quot;: &quot;steel&quot;,
+        &quot;focus&quot;: true
+      },
+      {
+        &quot;asset&quot;: &quot;empty-slot&quot;,
+        &quot;asset_version&quot;: &quot;v004&quot;,
+        &quot;box&quot;: [
+          0.6092,
+          0.2722,
+          0.091,
+          0.0852
+        ],
+        &quot;color&quot;: &quot;steel&quot;,
+        &quot;focus&quot;: true
+      },
+      {
+        &quot;asset&quot;: &quot;empty-slot&quot;,
+        &quot;asset_version&quot;: &quot;v004&quot;,
+        &quot;box&quot;: [
+          0.7184,
+          0.2722,
+          0.091,
+          0.0852
+        ],
+        &quot;color&quot;: &quot;steel&quot;,
+        &quot;focus&quot;: true
+      },
+      {
+        &quot;asset&quot;: &quot;empty-slot&quot;,
+        &quot;asset_version&quot;: &quot;v004&quot;,
+        &quot;box&quot;: [
+          0.8276,
+          0.2722,
+          0.091,
+          0.0852
+        ],
+        &quot;color&quot;: &quot;steel&quot;,
+        &quot;focus&quot;: true
+      },
+      {
+        &quot;asset&quot;: &quot;empty-slot&quot;,
+        &quot;asset_version&quot;: &quot;v004&quot;,
+        &quot;box&quot;: [
+          0.0632,
+          0.3787,
+          0.091,
+          0.0852
+        ],
+        &quot;color&quot;: &quot;steel&quot;,
+        &quot;focus&quot;: true
+      },
+      {
+        &quot;asset&quot;: &quot;empty-slot&quot;,
+        &quot;asset_version&quot;: &quot;v004&quot;,
+        &quot;box&quot;: [
+          0.1724,
+          0.3787,
+          0.091,
+          0.0852
+        ],
+        &quot;color&quot;: &quot;steel&quot;,
+        &quot;focus&quot;: true
+      },
+      {
+        &quot;asset&quot;: &quot;empty-slot&quot;,
+        &quot;asset_version&quot;: &quot;v004&quot;,
+        &quot;box&quot;: [
+          0.2816,
+          0.3787,
+          0.091,
+          0.0852
+        ],
+        &quot;color&quot;: &quot;steel&quot;,
+        &quot;focus&quot;: true
+      },
+      {
+        &quot;asset&quot;: &quot;empty-slot&quot;,
+        &quot;asset_version&quot;: &quot;v004&quot;,
+        &quot;box&quot;: [
+          0.3908,
+          0.3787,
+          0.091,
+          0.0852
+        ],
+        &quot;color&quot;: &quot;steel&quot;,
+        &quot;focus&quot;: true
+      },
+      {
+        &quot;asset&quot;: &quot;empty-slot&quot;,
+        &quot;asset_version&quot;: &quot;v004&quot;,
+        &quot;box&quot;: [
+          0.5,
+          0.3787,
+          0.091,
+          0.0852
+        ],
+        &quot;color&quot;: &quot;steel&quot;,
+        &quot;focus&quot;: true
+      },
+      {
+        &quot;asset&quot;: &quot;empty-slot&quot;,
+        &quot;asset_version&quot;: &quot;v004&quot;,
+        &quot;box&quot;: [
+          0.6092,
+          0.3787,
+          0.091,
+          0.0852
+        ],
+        &quot;color&quot;: &quot;steel&quot;,
+        &quot;focus&quot;: true
+      },
+      {
+        &quot;asset&quot;: &quot;empty-slot&quot;,
+        &quot;asset_version&quot;: &quot;v004&quot;,
+        &quot;box&quot;: [
+          0.7184,
+          0.3787,
+          0.091,
+          0.0852
+        ],
+        &quot;color&quot;: &quot;steel&quot;,
+        &quot;focus&quot;: true
+      },
+      {
+        &quot;asset&quot;: &quot;empty-slot&quot;,
+        &quot;asset_version&quot;: &quot;v004&quot;,
+        &quot;box&quot;: [
+          0.8276,
+          0.3787,
+          0.091,
+          0.0852
+        ],
+        &quot;color&quot;: &quot;steel&quot;,
+        &quot;focus&quot;: true
+      },
+      {
+        &quot;asset&quot;: &quot;card&quot;,
+        &quot;box&quot;: [
+          0.0905,
+          0.5278,
+          0.819,
+          0.131208
+        ],
+        &quot;color&quot;: &quot;steel&quot;,
+        &quot;focus&quot;: true,
+        &quot;label&quot;: &quot;1,246 — DELETION RECORDED / NO REVISION HELD&quot;,
+        &quot;label_box&quot;: [
+          0.0905,
+          0.66696,
+          0.819,
+          0.057652
+        ],
+        &quot;label_size&quot;: 18
+      }
+    ],
+    &quot;reconstructed&quot;: false,
+    &quot;shot&quot;: &quot;row&quot;,
+    &quot;source&quot;: &quot;\n**Location:** `public-wiki-dse`\n\n**Frame:** A retrospective evidence card, dated `EXPORT WINDOW — 4 JUNE–14 JULY 2026`, separates deletion records from surviving contents. Show 1,246 page outlines labelled `DELETION RECORDED · NO REVISION HELD`, with empty interiors. No arrival-rate comparison.\n\n**Caption:**\n&gt; 1,246 DELETED PAGES HAVE NO REVISION IN THIS EXPORT. A DELETION COUNT CANNOT TELL US WHAT THOSE PAGES SAID.\n\n**Provenance:** `documented` + `inferred` — the corpus records 1,246 deletion-only pages with no stored revision alongside the stored ones (`dse_admin_deleted_pages_without_held_page`); this is an archive-coverage limit, not a measured deletion or arrival rate.\n\n&quot;,
+    &quot;title&quot;: &quot;Deletion records survive without the deleted pages’ contents&quot;
+  }
+}
+</metadata><rect width="1200" height="800" fill="#101214"/><g transform="translate(24 16) scale(11.52 7.68)" color="#5E737B"><g transform=""><title>Community wiki sidebar and page tabs</title>
+<g fill="none" stroke="currentColor" stroke-width="0.8" stroke-linejoin="round" stroke-linecap="round" opacity="0.34"><path d="M5 9H95V92H5ZM5 23H95M10 15H29M38 15H57M67 15H85M19 23V92M9 34H15M9 43H15M9 52H15M9 69H15M25 85H89"/></g></g></g><g transform="translate(75.84 47.36) scale(1.092 0.6816)" color="#5E737B"><g transform=""><rect x="3" y="3" width="94" height="94" fill="none" stroke="currentColor" stroke-width="2" stroke-dasharray="7 5" /><path d="M3 20V3H20M80 3H97V20M97 80V97H80M20 97H3V80" fill="none" stroke="#E7E0D0" stroke-width="1" opacity=".6" />
+<path d="M78 4L96 22M96 4L78 22" stroke="currentColor" stroke-width="4"/><path d="M4 84H22V96" stroke="currentColor" stroke-width="2" fill="none"/></g></g><g transform="translate(206.88 47.36) scale(1.092 0.6816)" color="#5E737B"><g transform=""><rect x="3" y="3" width="94" height="94" fill="none" stroke="currentColor" stroke-width="2" stroke-dasharray="7 5" /><path d="M3 20V3H20M80 3H97V20M97 80V97H80M20 97H3V80" fill="none" stroke="#E7E0D0" stroke-width="1" opacity=".6" />
+<path d="M78 4L96 22M96 4L78 22" stroke="currentColor" stroke-width="4"/><path d="M4 84H22V96" stroke="currentColor" stroke-width="2" fill="none"/></g></g><g transform="translate(337.92 47.36) scale(1.092 0.6816)" color="#5E737B"><g transform=""><rect x="3" y="3" width="94" height="94" fill="none" stroke="currentColor" stroke-width="2" stroke-dasharray="7 5" /><path d="M3 20V3H20M80 3H97V20M97 80V97H80M20 97H3V80" fill="none" stroke="#E7E0D0" stroke-width="1" opacity=".6" />
+<path d="M78 4L96 22M96 4L78 22" stroke="currentColor" stroke-width="4"/><path d="M4 84H22V96" stroke="currentColor" stroke-width="2" fill="none"/></g></g><g transform="translate(468.96 47.36) scale(1.092 0.6816)" color="#5E737B"><g transform=""><rect x="3" y="3" width="94" height="94" fill="none" stroke="currentColor" stroke-width="2" stroke-dasharray="7 5" /><path d="M3 20V3H20M80 3H97V20M97 80V97H80M20 97H3V80" fill="none" stroke="#E7E0D0" stroke-width="1" opacity=".6" />
+<path d="M78 4L96 22M96 4L78 22" stroke="currentColor" stroke-width="4"/><path d="M4 84H22V96" stroke="currentColor" stroke-width="2" fill="none"/></g></g><g transform="translate(600 47.36) scale(1.092 0.6816)" color="#5E737B"><g transform=""><rect x="3" y="3" width="94" height="94" fill="none" stroke="currentColor" stroke-width="2" stroke-dasharray="7 5" /><path d="M3 20V3H20M80 3H97V20M97 80V97H80M20 97H3V80" fill="none" stroke="#E7E0D0" stroke-width="1" opacity=".6" />
+<path d="M78 4L96 22M96 4L78 22" stroke="currentColor" stroke-width="4"/><path d="M4 84H22V96" stroke="currentColor" stroke-width="2" fill="none"/></g></g><g transform="translate(731.04 47.36) scale(1.092 0.6816)" color="#5E737B"><g transform=""><rect x="3" y="3" width="94" height="94" fill="none" stroke="currentColor" stroke-width="2" stroke-dasharray="7 5" /><path d="M3 20V3H20M80 3H97V20M97 80V97H80M20 97H3V80" fill="none" stroke="#E7E0D0" stroke-width="1" opacity=".6" />
+<path d="M78 4L96 22M96 4L78 22" stroke="currentColor" stroke-width="4"/><path d="M4 84H22V96" stroke="currentColor" stroke-width="2" fill="none"/></g></g><g transform="translate(862.08 47.36) scale(1.092 0.6816)" color="#5E737B"><g transform=""><rect x="3" y="3" width="94" height="94" fill="none" stroke="currentColor" stroke-width="2" stroke-dasharray="7 5" /><path d="M3 20V3H20M80 3H97V20M97 80V97H80M20 97H3V80" fill="none" stroke="#E7E0D0" stroke-width="1" opacity=".6" />
+<path d="M78 4L96 22M96 4L78 22" stroke="currentColor" stroke-width="4"/><path d="M4 84H22V96" stroke="currentColor" stroke-width="2" fill="none"/></g></g><g transform="translate(993.12 47.36) scale(1.092 0.6816)" color="#5E737B"><g transform=""><rect x="3" y="3" width="94" height="94" fill="none" stroke="currentColor" stroke-width="2" stroke-dasharray="7 5" /><path d="M3 20V3H20M80 3H97V20M97 80V97H80M20 97H3V80" fill="none" stroke="#E7E0D0" stroke-width="1" opacity=".6" />
+<path d="M78 4L96 22M96 4L78 22" stroke="currentColor" stroke-width="4"/><path d="M4 84H22V96" stroke="currentColor" stroke-width="2" fill="none"/></g></g><g transform="translate(75.84 132.56) scale(1.092 0.6816)" color="#5E737B"><g transform=""><rect x="3" y="3" width="94" height="94" fill="none" stroke="currentColor" stroke-width="2" stroke-dasharray="7 5" /><path d="M3 20V3H20M80 3H97V20M97 80V97H80M20 97H3V80" fill="none" stroke="#E7E0D0" stroke-width="1" opacity=".6" />
+<path d="M78 4L96 22M96 4L78 22" stroke="currentColor" stroke-width="4"/><path d="M4 84H22V96" stroke="currentColor" stroke-width="2" fill="none"/></g></g><g transform="translate(206.88 132.56) scale(1.092 0.6816)" color="#5E737B"><g transform=""><rect x="3" y="3" width="94" height="94" fill="none" stroke="currentColor" stroke-width="2" stroke-dasharray="7 5" /><path d="M3 20V3H20M80 3H97V20M97 80V97H80M20 97H3V80" fill="none" stroke="#E7E0D0" stroke-width="1" opacity=".6" />
+<path d="M78 4L96 22M96 4L78 22" stroke="currentColor" stroke-width="4"/><path d="M4 84H22V96" stroke="currentColor" stroke-width="2" fill="none"/></g></g><g transform="translate(337.92 132.56) scale(1.092 0.6816)" color="#5E737B"><g transform=""><rect x="3" y="3" width="94" height="94" fill="none" stroke="currentColor" stroke-width="2" stroke-dasharray="7 5" /><path d="M3 20V3H20M80 3H97V20M97 80V97H80M20 97H3V80" fill="none" stroke="#E7E0D0" stroke-width="1" opacity=".6" />
+<path d="M78 4L96 22M96 4L78 22" stroke="currentColor" stroke-width="4"/><path d="M4 84H22V96" stroke="currentColor" stroke-width="2" fill="none"/></g></g><g transform="translate(468.96 132.56) scale(1.092 0.6816)" color="#5E737B"><g transform=""><rect x="3" y="3" width="94" height="94" fill="none" stroke="currentColor" stroke-width="2" stroke-dasharray="7 5" /><path d="M3 20V3H20M80 3H97V20M97 80V97H80M20 97H3V80" fill="none" stroke="#E7E0D0" stroke-width="1" opacity=".6" />
+<path d="M78 4L96 22M96 4L78 22" stroke="currentColor" stroke-width="4"/><path d="M4 84H22V96" stroke="currentColor" stroke-width="2" fill="none"/></g></g><g transform="translate(600 132.56) scale(1.092 0.6816)" color="#5E737B"><g transform=""><rect x="3" y="3" width="94" height="94" fill="none" stroke="currentColor" stroke-width="2" stroke-dasharray="7 5" /><path d="M3 20V3H20M80 3H97V20M97 80V97H80M20 97H3V80" fill="none" stroke="#E7E0D0" stroke-width="1" opacity=".6" />
+<path d="M78 4L96 22M96 4L78 22" stroke="currentColor" stroke-width="4"/><path d="M4 84H22V96" stroke="currentColor" stroke-width="2" fill="none"/></g></g><g transform="translate(731.04 132.56) scale(1.092 0.6816)" color="#5E737B"><g transform=""><rect x="3" y="3" width="94" height="94" fill="none" stroke="currentColor" stroke-width="2" stroke-dasharray="7 5" /><path d="M3 20V3H20M80 3H97V20M97 80V97H80M20 97H3V80" fill="none" stroke="#E7E0D0" stroke-width="1" opacity=".6" />
+<path d="M78 4L96 22M96 4L78 22" stroke="currentColor" stroke-width="4"/><path d="M4 84H22V96" stroke="currentColor" stroke-width="2" fill="none"/></g></g><g transform="translate(862.08 132.56) scale(1.092 0.6816)" color="#5E737B"><g transform=""><rect x="3" y="3" width="94" height="94" fill="none" stroke="currentColor" stroke-width="2" stroke-dasharray="7 5" /><path d="M3 20V3H20M80 3H97V20M97 80V97H80M20 97H3V80" fill="none" stroke="#E7E0D0" stroke-width="1" opacity=".6" />
+<path d="M78 4L96 22M96 4L78 22" stroke="currentColor" stroke-width="4"/><path d="M4 84H22V96" stroke="currentColor" stroke-width="2" fill="none"/></g></g><g transform="translate(993.12 132.56) scale(1.092 0.6816)" color="#5E737B"><g transform=""><rect x="3" y="3" width="94" height="94" fill="none" stroke="currentColor" stroke-width="2" stroke-dasharray="7 5" /><path d="M3 20V3H20M80 3H97V20M97 80V97H80M20 97H3V80" fill="none" stroke="#E7E0D0" stroke-width="1" opacity=".6" />
+<path d="M78 4L96 22M96 4L78 22" stroke="currentColor" stroke-width="4"/><path d="M4 84H22V96" stroke="currentColor" stroke-width="2" fill="none"/></g></g><g transform="translate(75.84 217.76) scale(1.092 0.6816)" color="#5E737B"><g transform=""><rect x="3" y="3" width="94" height="94" fill="none" stroke="currentColor" stroke-width="2" stroke-dasharray="7 5" /><path d="M3 20V3H20M80 3H97V20M97 80V97H80M20 97H3V80" fill="none" stroke="#E7E0D0" stroke-width="1" opacity=".6" />
+<path d="M78 4L96 22M96 4L78 22" stroke="currentColor" stroke-width="4"/><path d="M4 84H22V96" stroke="currentColor" stroke-width="2" fill="none"/></g></g><g transform="translate(206.88 217.76) scale(1.092 0.6816)" color="#5E737B"><g transform=""><rect x="3" y="3" width="94" height="94" fill="none" stroke="currentColor" stroke-width="2" stroke-dasharray="7 5" /><path d="M3 20V3H20M80 3H97V20M97 80V97H80M20 97H3V80" fill="none" stroke="#E7E0D0" stroke-width="1" opacity=".6" />
+<path d="M78 4L96 22M96 4L78 22" stroke="currentColor" stroke-width="4"/><path d="M4 84H22V96" stroke="currentColor" stroke-width="2" fill="none"/></g></g><g transform="translate(337.92 217.76) scale(1.092 0.6816)" color="#5E737B"><g transform=""><rect x="3" y="3" width="94" height="94" fill="none" stroke="currentColor" stroke-width="2" stroke-dasharray="7 5" /><path d="M3 20V3H20M80 3H97V20M97 80V97H80M20 97H3V80" fill="none" stroke="#E7E0D0" stroke-width="1" opacity=".6" />
+<path d="M78 4L96 22M96 4L78 22" stroke="currentColor" stroke-width="4"/><path d="M4 84H22V96" stroke="currentColor" stroke-width="2" fill="none"/></g></g><g transform="translate(468.96 217.76) scale(1.092 0.6816)" color="#5E737B"><g transform=""><rect x="3" y="3" width="94" height="94" fill="none" stroke="currentColor" stroke-width="2" stroke-dasharray="7 5" /><path d="M3 20V3H20M80 3H97V20M97 80V97H80M20 97H3V80" fill="none" stroke="#E7E0D0" stroke-width="1" opacity=".6" />
+<path d="M78 4L96 22M96 4L78 22" stroke="currentColor" stroke-width="4"/><path d="M4 84H22V96" stroke="currentColor" stroke-width="2" fill="none"/></g></g><g transform="translate(600 217.76) scale(1.092 0.6816)" color="#5E737B"><g transform=""><rect x="3" y="3" width="94" height="94" fill="none" stroke="currentColor" stroke-width="2" stroke-dasharray="7 5" /><path d="M3 20V3H20M80 3H97V20M97 80V97H80M20 97H3V80" fill="none" stroke="#E7E0D0" stroke-width="1" opacity=".6" />
+<path d="M78 4L96 22M96 4L78 22" stroke="currentColor" stroke-width="4"/><path d="M4 84H22V96" stroke="currentColor" stroke-width="2" fill="none"/></g></g><g transform="translate(731.04 217.76) scale(1.092 0.6816)" color="#5E737B"><g transform=""><rect x="3" y="3" width="94" height="94" fill="none" stroke="currentColor" stroke-width="2" stroke-dasharray="7 5" /><path d="M3 20V3H20M80 3H97V20M97 80V97H80M20 97H3V80" fill="none" stroke="#E7E0D0" stroke-width="1" opacity=".6" />
+<path d="M78 4L96 22M96 4L78 22" stroke="currentColor" stroke-width="4"/><path d="M4 84H22V96" stroke="currentColor" stroke-width="2" fill="none"/></g></g><g transform="translate(862.08 217.76) scale(1.092 0.6816)" color="#5E737B"><g transform=""><rect x="3" y="3" width="94" height="94" fill="none" stroke="currentColor" stroke-width="2" stroke-dasharray="7 5" /><path d="M3 20V3H20M80 3H97V20M97 80V97H80M20 97H3V80" fill="none" stroke="#E7E0D0" stroke-width="1" opacity=".6" />
+<path d="M78 4L96 22M96 4L78 22" stroke="currentColor" stroke-width="4"/><path d="M4 84H22V96" stroke="currentColor" stroke-width="2" fill="none"/></g></g><g transform="translate(993.12 217.76) scale(1.092 0.6816)" color="#5E737B"><g transform=""><rect x="3" y="3" width="94" height="94" fill="none" stroke="currentColor" stroke-width="2" stroke-dasharray="7 5" /><path d="M3 20V3H20M80 3H97V20M97 80V97H80M20 97H3V80" fill="none" stroke="#E7E0D0" stroke-width="1" opacity=".6" />
+<path d="M78 4L96 22M96 4L78 22" stroke="currentColor" stroke-width="4"/><path d="M4 84H22V96" stroke="currentColor" stroke-width="2" fill="none"/></g></g><g transform="translate(75.84 302.96) scale(1.092 0.6816)" color="#5E737B"><g transform=""><rect x="3" y="3" width="94" height="94" fill="none" stroke="currentColor" stroke-width="2" stroke-dasharray="7 5" /><path d="M3 20V3H20M80 3H97V20M97 80V97H80M20 97H3V80" fill="none" stroke="#E7E0D0" stroke-width="1" opacity=".6" />
+<path d="M78 4L96 22M96 4L78 22" stroke="currentColor" stroke-width="4"/><path d="M4 84H22V96" stroke="currentColor" stroke-width="2" fill="none"/></g></g><g transform="translate(206.88 302.96) scale(1.092 0.6816)" color="#5E737B"><g transform=""><rect x="3" y="3" width="94" height="94" fill="none" stroke="currentColor" stroke-width="2" stroke-dasharray="7 5" /><path d="M3 20V3H20M80 3H97V20M97 80V97H80M20 97H3V80" fill="none" stroke="#E7E0D0" stroke-width="1" opacity=".6" />
+<path d="M78 4L96 22M96 4L78 22" stroke="currentColor" stroke-width="4"/><path d="M4 84H22V96" stroke="currentColor" stroke-width="2" fill="none"/></g></g><g transform="translate(337.92 302.96) scale(1.092 0.6816)" color="#5E737B"><g transform=""><rect x="3" y="3" width="94" height="94" fill="none" stroke="currentColor" stroke-width="2" stroke-dasharray="7 5" /><path d="M3 20V3H20M80 3H97V20M97 80V97H80M20 97H3V80" fill="none" stroke="#E7E0D0" stroke-width="1" opacity=".6" />
+<path d="M78 4L96 22M96 4L78 22" stroke="currentColor" stroke-width="4"/><path d="M4 84H22V96" stroke="currentColor" stroke-width="2" fill="none"/></g></g><g transform="translate(468.96 302.96) scale(1.092 0.6816)" color="#5E737B"><g transform=""><rect x="3" y="3" width="94" height="94" fill="none" stroke="currentColor" stroke-width="2" stroke-dasharray="7 5" /><path d="M3 20V3H20M80 3H97V20M97 80V97H80M20 97H3V80" fill="none" stroke="#E7E0D0" stroke-width="1" opacity=".6" />
+<path d="M78 4L96 22M96 4L78 22" stroke="currentColor" stroke-width="4"/><path d="M4 84H22V96" stroke="currentColor" stroke-width="2" fill="none"/></g></g><g transform="translate(600 302.96) scale(1.092 0.6816)" color="#5E737B"><g transform=""><rect x="3" y="3" width="94" height="94" fill="none" stroke="currentColor" stroke-width="2" stroke-dasharray="7 5" /><path d="M3 20V3H20M80 3H97V20M97 80V97H80M20 97H3V80" fill="none" stroke="#E7E0D0" stroke-width="1" opacity=".6" />
+<path d="M78 4L96 22M96 4L78 22" stroke="currentColor" stroke-width="4"/><path d="M4 84H22V96" stroke="currentColor" stroke-width="2" fill="none"/></g></g><g transform="translate(731.04 302.96) scale(1.092 0.6816)" color="#5E737B"><g transform=""><rect x="3" y="3" width="94" height="94" fill="none" stroke="currentColor" stroke-width="2" stroke-dasharray="7 5" /><path d="M3 20V3H20M80 3H97V20M97 80V97H80M20 97H3V80" fill="none" stroke="#E7E0D0" stroke-width="1" opacity=".6" />
+<path d="M78 4L96 22M96 4L78 22" stroke="currentColor" stroke-width="4"/><path d="M4 84H22V96" stroke="currentColor" stroke-width="2" fill="none"/></g></g><g transform="translate(862.08 302.96) scale(1.092 0.6816)" color="#5E737B"><g transform=""><rect x="3" y="3" width="94" height="94" fill="none" stroke="currentColor" stroke-width="2" stroke-dasharray="7 5" /><path d="M3 20V3H20M80 3H97V20M97 80V97H80M20 97H3V80" fill="none" stroke="#E7E0D0" stroke-width="1" opacity=".6" />
+<path d="M78 4L96 22M96 4L78 22" stroke="currentColor" stroke-width="4"/><path d="M4 84H22V96" stroke="currentColor" stroke-width="2" fill="none"/></g></g><g transform="translate(993.12 302.96) scale(1.092 0.6816)" color="#5E737B"><g transform=""><rect x="3" y="3" width="94" height="94" fill="none" stroke="currentColor" stroke-width="2" stroke-dasharray="7 5" /><path d="M3 20V3H20M80 3H97V20M97 80V97H80M20 97H3V80" fill="none" stroke="#E7E0D0" stroke-width="1" opacity=".6" />
+<path d="M78 4L96 22M96 4L78 22" stroke="currentColor" stroke-width="4"/><path d="M4 84H22V96" stroke="currentColor" stroke-width="2" fill="none"/></g></g><g transform="translate(108.6 422.24) scale(9.828 1.04966)" color="#5E737B"><g transform=""><defs>
+<linearGradient id="node-33-stock" x1="0" y1="0" x2=".8" y2="1"><stop stop-color="#E7E0D0" /><stop offset="1" stop-color="#CEC5B3" /></linearGradient>
+<pattern id="node-33-grain" width="7" height="9" patternUnits="userSpaceOnUse"><circle cx="1" cy="2" r=".35" fill="#101214" opacity=".18" /><path d="M4 6h2M1 8h1" stroke="#101214" stroke-width=".3" opacity=".16" /></pattern>
+</defs><path d="M5 3H95V97H5Z" fill="url(#node-33-stock)" stroke="currentColor" stroke-width="2" /><path d="M5 3H95V97H5Z" fill="url(#node-33-grain)" /><rect x="5" y="3" width="90" height="15" fill="currentColor" /><rect x="10" y="25" width="5" height="61" fill="currentColor" /><path d="M23 29H85M23 38H75M23 48H83M23 66H62M23 78H80" fill="none" stroke="#101214" stroke-width="2" /><path d="M12 11H42M65 11H86" fill="none" stroke="#E7E0D0" stroke-width="1.4" /></g></g><text x="600" y="551.568" text-anchor="middle" fill="#E7E0D0" font-size="18" font-family="sans-serif">1,246 — DELETION RECORDED / NO REVISION HELD</text><rect x="3" y="3" width="1194" height="794" fill="none" stroke="#5E737B" stroke-width="4"/></svg>

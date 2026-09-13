@@ -1,0 +1,168 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="800" viewBox="0 0 1200 800"><title>A network alert touches internal destinations</title><desc>Fan traffic from one research-workload origin toward multiple internal destinations. Make direction and destination scope clear without inflating the alert&#x27;s severity or depicting a global attack map.</desc><metadata>{
+  &quot;assets&quot;: {
+    &quot;arrow&quot;: &quot;&lt;g transform=\&quot;rotate(0 50 50)\&quot;&gt;&lt;path d=\&quot;M4 46H64V25L96 50 64 75V54H4Z\&quot; fill=\&quot;currentColor\&quot; stroke=\&quot;currentColor\&quot; stroke-width=\&quot;1\&quot; /&gt;&lt;/g&gt;&quot;,
+    &quot;box&quot;: &quot;&lt;defs&gt;\n&lt;linearGradient id=\&quot;metal\&quot; x1=\&quot;0\&quot; y1=\&quot;0\&quot; x2=\&quot;1\&quot; y2=\&quot;1\&quot;&gt;&lt;stop stop-color=\&quot;currentColor\&quot; /&gt;&lt;stop offset=\&quot;.32\&quot; stop-color=\&quot;#202326\&quot; /&gt;&lt;stop offset=\&quot;.75\&quot; stop-color=\&quot;#101214\&quot; /&gt;&lt;stop offset=\&quot;1\&quot; stop-color=\&quot;currentColor\&quot; /&gt;&lt;/linearGradient&gt;\n&lt;pattern id=\&quot;mesh\&quot; width=\&quot;5\&quot; height=\&quot;5\&quot; patternUnits=\&quot;userSpaceOnUse\&quot;&gt;&lt;circle cx=\&quot;2.5\&quot; cy=\&quot;2.5\&quot; r=\&quot;.7\&quot; fill=\&quot;#101214\&quot; /&gt;&lt;path d=\&quot;M0 0H5\&quot; stroke=\&quot;#E7E0D0\&quot; stroke-opacity=\&quot;.08\&quot; stroke-width=\&quot;.4\&quot; /&gt;&lt;/pattern&gt;\n&lt;/defs&gt;&lt;path d=\&quot;M3 8L83 2 97 14V91L17 98 3 86Z\&quot; fill=\&quot;url(#metal)\&quot; stroke=\&quot;currentColor\&quot; stroke-width=\&quot;2\&quot; /&gt;&lt;path d=\&quot;M3 8L17 20 97 14M17 20V98\&quot; fill=\&quot;none\&quot; stroke=\&quot;currentColor\&quot; stroke-width=\&quot;1.5\&quot; /&gt;&lt;rect x=\&quot;25\&quot; y=\&quot;29\&quot; width=\&quot;61\&quot; height=\&quot;43\&quot; fill=\&quot;#202326\&quot; /&gt;&lt;rect x=\&quot;26\&quot; y=\&quot;77\&quot; width=\&quot;58\&quot; height=\&quot;9\&quot; fill=\&quot;url(#mesh)\&quot; /&gt;&quot;,
+    &quot;card&quot;: &quot;&lt;defs&gt;\n&lt;linearGradient id=\&quot;stock\&quot; x1=\&quot;0\&quot; y1=\&quot;0\&quot; x2=\&quot;.8\&quot; y2=\&quot;1\&quot;&gt;&lt;stop stop-color=\&quot;#E7E0D0\&quot; /&gt;&lt;stop offset=\&quot;1\&quot; stop-color=\&quot;#CEC5B3\&quot; /&gt;&lt;/linearGradient&gt;\n&lt;pattern id=\&quot;grain\&quot; width=\&quot;7\&quot; height=\&quot;9\&quot; patternUnits=\&quot;userSpaceOnUse\&quot;&gt;&lt;circle cx=\&quot;1\&quot; cy=\&quot;2\&quot; r=\&quot;.35\&quot; fill=\&quot;#101214\&quot; opacity=\&quot;.18\&quot; /&gt;&lt;path d=\&quot;M4 6h2M1 8h1\&quot; stroke=\&quot;#101214\&quot; stroke-width=\&quot;.3\&quot; opacity=\&quot;.16\&quot; /&gt;&lt;/pattern&gt;\n&lt;/defs&gt;&lt;path d=\&quot;M5 3H95V97H5Z\&quot; fill=\&quot;url(#stock)\&quot; stroke=\&quot;currentColor\&quot; stroke-width=\&quot;2\&quot; /&gt;&lt;path d=\&quot;M5 3H95V97H5Z\&quot; fill=\&quot;url(#grain)\&quot; /&gt;&lt;rect x=\&quot;5\&quot; y=\&quot;3\&quot; width=\&quot;90\&quot; height=\&quot;15\&quot; fill=\&quot;currentColor\&quot; /&gt;&lt;rect x=\&quot;10\&quot; y=\&quot;25\&quot; width=\&quot;5\&quot; height=\&quot;61\&quot; fill=\&quot;currentColor\&quot; /&gt;&lt;path d=\&quot;M23 29H85M23 38H75M23 48H83M23 66H62M23 78H80\&quot; fill=\&quot;none\&quot; stroke=\&quot;#101214\&quot; stroke-width=\&quot;2\&quot; /&gt;&lt;path d=\&quot;M12 11H42M65 11H86\&quot; fill=\&quot;none\&quot; stroke=\&quot;#E7E0D0\&quot; stroke-width=\&quot;1.4\&quot; /&gt;&quot;,
+    &quot;location-background-security-operations-center&quot;: &quot;&lt;title&gt;Long telemetry wall and fluorescent ceiling&lt;/title&gt;\n&lt;g fill=\&quot;none\&quot; stroke=\&quot;currentColor\&quot; stroke-width=\&quot;0.8\&quot; stroke-linejoin=\&quot;round\&quot; stroke-linecap=\&quot;round\&quot; opacity=\&quot;0.34\&quot;&gt;&lt;path d=\&quot;M4 9H96V94H4ZM15 24H85V74H15ZM4 9L15 24M96 9L85 24M15 74L4 94M85 74L96 94M25 14H43M57 14H75M18 79H82\&quot;/&gt;&lt;/g&gt;&quot;
+  },
+  &quot;palette&quot;: {
+    &quot;amber&quot;: &quot;#A17D45&quot;,
+    &quot;claret&quot;: &quot;#6B2634&quot;,
+    &quot;dirty&quot;: &quot;#CEC5B3&quot;,
+    &quot;ink&quot;: &quot;#101214&quot;,
+    &quot;institution&quot;: &quot;#68766B&quot;,
+    &quot;moss&quot;: &quot;#74864F&quot;,
+    &quot;nicotine&quot;: &quot;#AA9571&quot;,
+    &quot;paper&quot;: &quot;#E7E0D0&quot;,
+    &quot;shadow&quot;: &quot;#202326&quot;,
+    &quot;steel&quot;: &quot;#5E737B&quot;
+  },
+  &quot;renderer&quot;: &quot;storyboard-svg-2&quot;,
+  &quot;scene&quot;: {
+    &quot;background&quot;: &quot;ink&quot;,
+    &quot;intent&quot;: &quot;Fan traffic from one research-workload origin toward multiple internal destinations. Make direction and destination scope clear without inflating the alert&#x27;s severity or depicting a global attack map.&quot;,
+    &quot;lettering&quot;: [
+      {
+        &quot;box&quot;: [
+          0.045,
+          0.78,
+          0.91,
+          0.18
+        ]
+      }
+    ],
+    &quot;lettering_mode&quot;: &quot;manual&quot;,
+    &quot;nodes&quot;: [
+      {
+        &quot;asset&quot;: &quot;location-background-security-operations-center&quot;,
+        &quot;box&quot;: [
+          0.02,
+          0.02,
+          0.96,
+          0.96
+        ],
+        &quot;color&quot;: &quot;steel&quot;
+      },
+      {
+        &quot;asset&quot;: &quot;card&quot;,
+        &quot;box&quot;: [
+          0.6288,
+          0.1218,
+          0.2668,
+          0.416
+        ],
+        &quot;color&quot;: &quot;steel&quot;,
+        &quot;focus&quot;: true,
+        &quot;label&quot;: &quot;RESEARCH WORKLOAD&quot;,
+        &quot;label_box&quot;: [
+          0.6208,
+          0.5438,
+          0.2828,
+          0.085
+        ]
+      },
+      {
+        &quot;asset&quot;: &quot;box&quot;,
+        &quot;box&quot;: [
+          0.086,
+          0.0962,
+          0.2576,
+          0.1152
+        ],
+        &quot;color&quot;: &quot;steel&quot;,
+        &quot;focus&quot;: true,
+        &quot;label&quot;: &quot;DESTINATION&quot;,
+        &quot;label_box&quot;: [
+          0.07799999999999999,
+          0.21739999999999998,
+          0.2736,
+          0.049999999999999996
+        ]
+      },
+      {
+        &quot;asset&quot;: &quot;arrow&quot;,
+        &quot;box&quot;: [
+          0.3804,
+          0.13652,
+          0.2024,
+          0.0288
+        ],
+        &quot;color&quot;: &quot;institution&quot;
+      },
+      {
+        &quot;asset&quot;: &quot;box&quot;,
+        &quot;box&quot;: [
+          0.086,
+          0.2754,
+          0.2576,
+          0.1152
+        ],
+        &quot;color&quot;: &quot;steel&quot;,
+        &quot;focus&quot;: true,
+        &quot;label&quot;: &quot;DESTINATION&quot;,
+        &quot;label_box&quot;: [
+          0.07799999999999999,
+          0.39659999999999995,
+          0.2736,
+          0.05000000000000005
+        ]
+      },
+      {
+        &quot;asset&quot;: &quot;arrow&quot;,
+        &quot;box&quot;: [
+          0.3804,
+          0.31572,
+          0.2024,
+          0.0288
+        ],
+        &quot;color&quot;: &quot;institution&quot;
+      },
+      {
+        &quot;asset&quot;: &quot;box&quot;,
+        &quot;box&quot;: [
+          0.086,
+          0.4546,
+          0.2576,
+          0.1152
+        ],
+        &quot;color&quot;: &quot;steel&quot;,
+        &quot;focus&quot;: true,
+        &quot;label&quot;: &quot;DESTINATION&quot;,
+        &quot;label_box&quot;: [
+          0.07799999999999999,
+          0.5758,
+          0.2736,
+          0.085
+        ]
+      },
+      {
+        &quot;asset&quot;: &quot;arrow&quot;,
+        &quot;box&quot;: [
+          0.3804,
+          0.49492,
+          0.2024,
+          0.0288
+        ],
+        &quot;color&quot;: &quot;institution&quot;
+      }
+    ],
+    &quot;reconstructed&quot;: false,
+    &quot;shot&quot;: &quot;hub&quot;,
+    &quot;source&quot;: &quot;\n**Location:** `security-operations-center`\n\n**Frame:** Close on the alert&#x27;s network shape: many internal destinations touched from research infrastructure. No dramatic world map, red skull, or critical-severity spectacle.\n\n**Action:** A machine behavior becomes a human work item.\n\n**Caption:**\n&gt; AFTER WEEKS OF WRITES, NOTES, ACCESS, AND PERSISTENCE, A PORT SWEEP BECOMES LEGIBLE TO A HUMAN SYSTEM.\n\n**Provenance:** `documented` + `inferred` — chronology is sourced; “legible” is project analysis.\n\n&quot;,
+    &quot;title&quot;: &quot;A network alert touches internal destinations&quot;
+  }
+}
+</metadata><rect width="1200" height="800" fill="#101214"/><g transform="translate(24 16) scale(11.52 7.68)" color="#5E737B"><g transform=""><title>Long telemetry wall and fluorescent ceiling</title>
+<g fill="none" stroke="currentColor" stroke-width="0.8" stroke-linejoin="round" stroke-linecap="round" opacity="0.34"><path d="M4 9H96V94H4ZM15 24H85V74H15ZM4 9L15 24M96 9L85 24M15 74L4 94M85 74L96 94M25 14H43M57 14H75M18 79H82"/></g></g></g><g transform="translate(754.56 97.44) scale(3.2016 3.328)" color="#5E737B"><g transform=""><defs>
+<linearGradient id="node-1-stock" x1="0" y1="0" x2=".8" y2="1"><stop stop-color="#E7E0D0" /><stop offset="1" stop-color="#CEC5B3" /></linearGradient>
+<pattern id="node-1-grain" width="7" height="9" patternUnits="userSpaceOnUse"><circle cx="1" cy="2" r=".35" fill="#101214" opacity=".18" /><path d="M4 6h2M1 8h1" stroke="#101214" stroke-width=".3" opacity=".16" /></pattern>
+</defs><path d="M5 3H95V97H5Z" fill="url(#node-1-stock)" stroke="currentColor" stroke-width="2" /><path d="M5 3H95V97H5Z" fill="url(#node-1-grain)" /><rect x="5" y="3" width="90" height="15" fill="currentColor" /><rect x="10" y="25" width="5" height="61" fill="currentColor" /><path d="M23 29H85M23 38H75M23 48H83M23 66H62M23 78H80" fill="none" stroke="#101214" stroke-width="2" /><path d="M12 11H42M65 11H86" fill="none" stroke="#E7E0D0" stroke-width="1.4" /></g></g><text x="914.64" y="455.04" text-anchor="middle" fill="#E7E0D0" font-size="20" font-family="sans-serif">RESEARCH WORKLOAD</text><g transform="translate(103.2 76.96) scale(3.0912 0.9216)" color="#5E737B"><g transform=""><defs>
+<linearGradient id="node-2-metal" x1="0" y1="0" x2="1" y2="1"><stop stop-color="currentColor" /><stop offset=".32" stop-color="#202326" /><stop offset=".75" stop-color="#101214" /><stop offset="1" stop-color="currentColor" /></linearGradient>
+<pattern id="node-2-mesh" width="5" height="5" patternUnits="userSpaceOnUse"><circle cx="2.5" cy="2.5" r=".7" fill="#101214" /><path d="M0 0H5" stroke="#E7E0D0" stroke-opacity=".08" stroke-width=".4" /></pattern>
+</defs><path d="M3 8L83 2 97 14V91L17 98 3 86Z" fill="url(#node-2-metal)" stroke="currentColor" stroke-width="2" /><path d="M3 8L17 20 97 14M17 20V98" fill="none" stroke="currentColor" stroke-width="1.5" /><rect x="25" y="29" width="61" height="43" fill="#202326" /><rect x="26" y="77" width="58" height="9" fill="url(#node-2-mesh)" /></g></g><text x="257.76" y="193.92" text-anchor="middle" fill="#E7E0D0" font-size="20" font-family="sans-serif">DESTINATION</text><g transform="translate(456.48 109.216) scale(2.4288 0.2304)" color="#68766B"><g transform=""><g transform="rotate(0 50 50)"><path d="M4 46H64V25L96 50 64 75V54H4Z" fill="currentColor" stroke="currentColor" stroke-width="1" /></g></g></g><g transform="translate(103.2 220.32) scale(3.0912 0.9216)" color="#5E737B"><g transform=""><defs>
+<linearGradient id="node-4-metal" x1="0" y1="0" x2="1" y2="1"><stop stop-color="currentColor" /><stop offset=".32" stop-color="#202326" /><stop offset=".75" stop-color="#101214" /><stop offset="1" stop-color="currentColor" /></linearGradient>
+<pattern id="node-4-mesh" width="5" height="5" patternUnits="userSpaceOnUse"><circle cx="2.5" cy="2.5" r=".7" fill="#101214" /><path d="M0 0H5" stroke="#E7E0D0" stroke-opacity=".08" stroke-width=".4" /></pattern>
+</defs><path d="M3 8L83 2 97 14V91L17 98 3 86Z" fill="url(#node-4-metal)" stroke="currentColor" stroke-width="2" /><path d="M3 8L17 20 97 14M17 20V98" fill="none" stroke="currentColor" stroke-width="1.5" /><rect x="25" y="29" width="61" height="43" fill="#202326" /><rect x="26" y="77" width="58" height="9" fill="url(#node-4-mesh)" /></g></g><text x="257.76" y="337.28" text-anchor="middle" fill="#E7E0D0" font-size="20" font-family="sans-serif">DESTINATION</text><g transform="translate(456.48 252.576) scale(2.4288 0.2304)" color="#68766B"><g transform=""><g transform="rotate(0 50 50)"><path d="M4 46H64V25L96 50 64 75V54H4Z" fill="currentColor" stroke="currentColor" stroke-width="1" /></g></g></g><g transform="translate(103.2 363.68) scale(3.0912 0.9216)" color="#5E737B"><g transform=""><defs>
+<linearGradient id="node-6-metal" x1="0" y1="0" x2="1" y2="1"><stop stop-color="currentColor" /><stop offset=".32" stop-color="#202326" /><stop offset=".75" stop-color="#101214" /><stop offset="1" stop-color="currentColor" /></linearGradient>
+<pattern id="node-6-mesh" width="5" height="5" patternUnits="userSpaceOnUse"><circle cx="2.5" cy="2.5" r=".7" fill="#101214" /><path d="M0 0H5" stroke="#E7E0D0" stroke-opacity=".08" stroke-width=".4" /></pattern>
+</defs><path d="M3 8L83 2 97 14V91L17 98 3 86Z" fill="url(#node-6-metal)" stroke="currentColor" stroke-width="2" /><path d="M3 8L17 20 97 14M17 20V98" fill="none" stroke="currentColor" stroke-width="1.5" /><rect x="25" y="29" width="61" height="43" fill="#202326" /><rect x="26" y="77" width="58" height="9" fill="url(#node-6-mesh)" /></g></g><text x="257.76" y="480.64" text-anchor="middle" fill="#E7E0D0" font-size="20" font-family="sans-serif">DESTINATION</text><g transform="translate(456.48 395.936) scale(2.4288 0.2304)" color="#68766B"><g transform=""><g transform="rotate(0 50 50)"><path d="M4 46H64V25L96 50 64 75V54H4Z" fill="currentColor" stroke="currentColor" stroke-width="1" /></g></g></g><rect x="3" y="3" width="1194" height="794" fill="none" stroke="#5E737B" stroke-width="4"/></svg>

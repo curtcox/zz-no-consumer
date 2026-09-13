@@ -72,14 +72,112 @@ MOTIFS = {
 }
 
 
+# Material colors are setting cues, not the story's moss/claret status accents.
+# The future remains neutral; related IDs retain different views and finishes.
+STYLE_ROWS = """
+agent-board-composite weave #76929D #33434A edge
+analysis-agent-tree circuit #ADA1C5 #3B344D edge
+artifactory-cache mesh #8FA7B8 #354857 left
+composite-accountability-forum paper #C8BBAA #574D42 room
+composite-lab-room plaster #A8ACC0 #454758 room
+creator-production-tooling scan #87AAB3 #293D44 left
+curt-home-office wood #C9A880 #644B35 room
+customer-hosted-modal-workload mesh #A6A2C7 #45425E edge
+documentary-evidence-field paper #CCBE9F #63563F left
+evaluation-container brushed #89A6BE #354B60 edge
+evaluation-container-53927 ribs #A0B6C5 #3C4D58 left
+evaluation-containers mesh #83A0AD #304754 edge
+evaluation-transcript-archive ruled #B7B3C9 #514D65 left
+evidence-dossier paper #CEAF8C #614930 left
+external-network stipple #93AEB7 #354951 edge
+hugging-face-infrastructure ceramic #B1A7C2 #4B405C edge
+huggingface-clusters grid #BAA4C7 #574267 edge
+huggingface-dataset-processor ribs #AEA0C1 #493E5B left
+huggingface-infrastructure ceramic #A99BB6 #463D55 edge
+huggingface-production-node brushed #BFA9B4 #584650 edge
+huggingface-security-stack scan #C0ABC9 #594962 edge
+institutional-composite plaster #BDB5A1 #57503D room
+institutional-montage weave #B7ACA5 #514640 edge
+jfrog-security-workspace grid #A4B8AC #405147 edge
+metr-review-workspace paper #AAB9C1 #42525C room
+modal-customer-workload mesh #9B9CC5 #3A3A5D edge
+openai-artifactory ribs #9DAFC8 #414F68 left
+openai-artifactory-cache mesh #92ADB6 #354E57 left
+openai-cloud-worker stipple #A3BCCB #435C6B edge
+openai-cybergym-evaluation circuit #98ACC1 #3A4D62 edge
+openai-incident-response ruled #A9B6C2 #4A5564 left
+openai-provided-evidence-store weave #AAB9AC #48584D edge
+openai-research-environment brushed #8BA3B5 #344A5D room
+openai-research-infrastructure grid #8DADC2 #36546B edge
+openai-training-program ribs #AAA5C4 #46415F edge
+public-announcement-ledger ruled #C8B39C #5F4D3A left
+public-internet stipple #8EB5BF #32515A edge
+public-record paper #C5B49A #5F503B edge
+public-web scan #98BBC7 #3D5A66 edge
+public-wiki-dse plaster #BDAF8E #595035 left
+reconstructed-security-operations-center ceramic #A8ACBE #494D62 room
+regulatory-office ruled #BEB4A5 #595246 left
+report-comparison-space paper #BFB0A9 #594B46 edge
+security-operations-center brushed #A3B1BE #445462 room
+separate-evaluation-run circuit #A4A7C6 #464862 edge
+systems-view circuit #9DAFC0 #405163 edge
+training-configuration grid #A4B9B8 #405657 left
+unidentified-evaluation-container stipple #A7AFB6 #495159 edge
+unnamed-future-evaluation ceramic #B5B7B9 #4A4D50 edge
+continuation-montage weave #B5ADB8 #524A56 edge
+"""
+STYLES = {row.split()[0]: tuple(row.split()[1:]) for row in STYLE_ROWS.strip().splitlines()}
+TEXTURES = {
+    'paper': '<path d="M1 2L5 1M8 7L13 6M2 12L6 13M12 2L14 3"/>',
+    'wood': '<path d="M0 2Q5 0 16 3M0 7Q10 10 16 6M0 13Q5 10 16 14"/>',
+    'brushed': '<path d="M0 2H16M3 5H13M0 9H16M6 12H16M0 15H9"/>',
+    'mesh': '<path d="M0 0L16 16M0 8L8 16M8 0L16 8M0 16L16 0M0 8L8 0M8 16L16 8"/>',
+    'ribs': '<path d="M2 0V16M5 0V16M10 0V16M13 0V16"/>',
+    'weave': '<path d="M0 3H16M0 11H16M3 0V16M11 0V16"/><path d="M5 1V5M1 5H5M13 9V13M9 13H13"/>',
+    'grid': '<path d="M0 0H16V16H0ZM8 0V16M0 8H16"/>',
+    'ruled': '<path d="M0 4H16M0 12H16M3 0V16"/>',
+    'scan': '<path d="M0 3H16M0 7H16M0 11H16M0 15H16"/>',
+    'ceramic': '<path d="M0 0H16V16H0ZM1 1H15M1 1V15"/>',
+    'circuit': '<path d="M0 3H6V9H16M3 16V12H10V0"/>',
+    'plaster': '<path d="M1 2L3 3M8 1L9 3M13 7L15 6M3 11L5 10M10 13L12 15"/>',
+    'stipple': '<circle cx="3" cy="3" r=".55"/><circle cx="11" cy="6" r=".4"/><circle cx="6" cy="13" r=".5"/>',
+}
+
+
 def svg(location):
     title, path = MOTIFS[location]
-    # Restrained ink; clear center, no text, arrows, people, credentials or logos.
+    texture, ink, shade, layout = STYLES[location]
+    # A radial mask keeps material at the perimeter. All IDs are scoped by the
+    # component renderer, including in scenes that use several locations.
+    defs = (f'<linearGradient id="wash" x1="0" y1="0" x2="1" y2="1">'
+            f'<stop stop-color="{ink}" stop-opacity=".45"/>'
+            f'<stop offset=".5" stop-color="{shade}" stop-opacity=".22"/>'
+            f'<stop offset="1" stop-color="{ink}" stop-opacity=".27"/></linearGradient>'
+            '<radialGradient id="fade"><stop offset=".35" stop-color="black"/>'
+            '<stop offset=".7" stop-color="#555555"/><stop offset="1" stop-color="white"/></radialGradient>'
+            '<mask id="rim"><rect width="100" height="100" fill="url(#fade)"/></mask>'
+            f'<pattern id="material" width="16" height="16" patternUnits="userSpaceOnUse">'
+            f'<g fill="none" stroke="{ink}" stroke-width=".3" opacity=".55">{TEXTURES[texture]}</g></pattern>')
+    material = ('<rect x="3" y="3" width="94" height="94" rx="1" fill="url(#wash)"/>'
+                '<rect x="3" y="3" width="94" height="94" fill="url(#material)" mask="url(#rim)"/>')
+    if layout == 'room':
+        planes = (f'<path d="M3 3L18 22H82L97 3Z" fill="{ink}" opacity=".18"/>'
+                  f'<path d="M3 3L18 22V76L3 97ZM97 3L82 22V76L97 97Z" fill="{shade}" opacity=".5"/>'
+                  f'<path d="M18 76H82L97 97H3Z" fill="url(#material)" opacity=".65"/>'
+                  f'<path d="M18 76H82L97 97H3Z" fill="{shade}" opacity=".3"/>')
+    elif layout == 'left':
+        planes = (f'<path d="M3 3H20V97H3Z" fill="{shade}" opacity=".58"/>'
+                  '<path d="M3 3H20V97H3Z" fill="url(#material)"/>'
+                  f'<path d="M20 4V96" fill="none" stroke="{ink}" opacity=".4" stroke-width=".6"/>')
+    else:
+        planes = (f'<path d="M3 3H97V18H3ZM3 82H97V97H3Z" fill="{shade}" opacity=".34"/>'
+                  '<path d="M3 3H97V18H3ZM3 82H97V97H3Z" fill="url(#material)" opacity=".65"/>')
     return ('<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">\n'
-            f'<title>{html.escape(title)}</title>\n'
-            '<g fill="none" stroke="currentColor" stroke-width="0.8" '
-            'stroke-linejoin="round" stroke-linecap="round" opacity="0.34">'
-            f'<path d="{path}"/></g>\n</svg>\n')
+            f'<title>{html.escape(title)} — {texture}</title><defs>{defs}</defs>\n'
+            f'{material}{planes}'
+            f'<path d="{path}" fill="none" stroke="#080B0D" stroke-width="1.7" opacity=".45" transform="translate(.35 .5)"/>'
+            f'<path d="{path}" fill="none" stroke="{ink}" stroke-width=".8" stroke-linejoin="round" opacity=".66"/>'
+            '</svg>\n')
 
 
 def locations(body):
@@ -127,7 +225,7 @@ def background_nodes(key, scene, ids):
             result.append(node(ids[1], [0.59, 0.03, 0.37, 0.91]))
         return result
     n = len(ids)
-    cols = min(n, 3)
+    cols = n if n <= 4 else 3
     rows = (n+cols-1)//cols
     gutter = 0.025
     width = (0.96-gutter*(cols-1))/cols
@@ -171,6 +269,44 @@ def apply():
     print(f'Created {len(missing)} backgrounds; filled {len(additions)} storyboards; preserved {len(skipped)} existing backgrounds.')
 
 
+def refine():
+    """Save material revisions and update only existing location-background layouts."""
+    library = svg_components.Library()
+    _, all_locations = sources()
+    changed = 0
+    for loc in sorted(all_locations):
+        key = PREFIX + loc
+        component = library.load()['components'][key]
+        drawing = svg(loc).strip()
+        if library.path(key, component['default']).read_text().strip() == drawing:
+            continue
+        version = next((v['id'] for v in component['versions']
+                        if library.path(key, v['id']).read_text().strip() == drawing), None)
+        if version is None:
+            version = library.add(key, drawing,
+                                  'Distinct material colors, perimeter texture, shaded planes and original location motif; quiet center for foregrounds.',
+                                  parent=component['default'])
+        library.choose(key, version)
+        changed += 1
+    data = storyboards.load()
+    by_panel, _ = sources()
+    layouts = 0
+    for key, scene in data['scenes'].items():
+        backgrounds = [n for n in scene['nodes'] if n['asset'].startswith(PREFIX)]
+        if not backgrounds:
+            continue
+        target = background_nodes(key, scene, by_panel[key])
+        if len(backgrounds) != len(target) or any(a['asset'] != b['asset'] for a, b in zip(backgrounds, target)):
+            raise ValueError(f'{key}: review background identity drift before changing its layout')
+        if any(a['box'] != b['box'] for a, b in zip(backgrounds, target)):
+            for node, desired in zip(backgrounds, target):
+                node['box'] = desired['box']
+            layouts += 1
+    if layouts:
+        storyboards.DATA.write_text(storyboards.encoded(data))
+    print(f'Refined {changed} component defaults; adjusted {layouts} combined layouts; previous versions retained.')
+
+
 def check():
     library, data, missing, additions, _ = plan()
     errors = library.errors()
@@ -182,17 +318,22 @@ def check():
                  for loc in sorted(all_locations) if PREFIX+loc in catalog]
     if len(set(fragments)) != len(fragments): errors.append('Duplicate background geometry')
     for key, scene in data['scenes'].items():
-        actual = {n['asset'][len(PREFIX):] for n in scene['nodes'] if n['asset'].startswith(PREFIX)}
+        backgrounds = [n for n in scene['nodes'] if n['asset'].startswith(PREFIX)]
+        actual = {n['asset'][len(PREFIX):] for n in backgrounds}
         if actual and actual != set(by_panel[key]): errors.append(f'{key}: background/location drift')
+        if any(storyboards.overlap(a['box'], b['box']) for i, a in enumerate(backgrounds)
+               for b in backgrounds[i+1:] if a['asset'] != b['asset']):
+            errors.append(f'{key}: combined location backgrounds obscure one another')
     if errors: raise ValueError('\n'.join(errors))
     print(f'Location backgrounds checked: {len(all_locations)} unique palette entries; all {len(data["scenes"])} scenes have a setting or intentional blank background.')
 
 
 def main():
     parser = argparse.ArgumentParser(description=__doc__)
-    parser.add_argument('command', choices=['plan','apply','check'])
+    parser.add_argument('command', choices=['plan','apply','refine','check'])
     args = parser.parse_args()
     if args.command == 'apply': apply()
+    elif args.command == 'refine': refine()
     elif args.command == 'check': check()
     else:
         _, _, missing, additions, skipped = plan()
