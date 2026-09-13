@@ -65,6 +65,6 @@
   ],
   "reconstructed": false,
   "shot": "route",
-  "source": "\n**Frame:** The map rotates visually toward one permitted service: Artifactory, drawn as a plain package-cache directory tree. No glow.\n\n**Action:** Package access remains available.\n\n**Caption:**\n> ONE SHARED SERVICE IS STILL VISIBLE.\n\n**Provenance:** `documented` — Artifactory was reachable for package installation.\n\n",
+  "source": "\n**Location:**\n\n- `evaluation-container`\n- `artifactory-cache`\n\n**Frame:** The map rotates visually toward one permitted service: Artifactory, drawn as a plain package-cache directory tree. No glow.\n\n**Action:** Package access remains available.\n\n**Caption:**\n> ONE SHARED SERVICE IS STILL VISIBLE.\n\n**Provenance:** `documented` — Artifactory was reachable for package installation.\n\n",
   "title": "The permitted package service"
 }

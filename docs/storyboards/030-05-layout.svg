@@ -93,7 +93,7 @@
     ],
     &quot;reconstructed&quot;: false,
     &quot;shot&quot;: &quot;row&quot;,
-    &quot;source&quot;: &quot;\n**Frame:** Wide view of the new Artifactory instance: clean cache, reduced credentials, blocked routes, live service. No moss accent.\n\n**Action:** A concrete infrastructure compromise has received a concrete response.\n\n**Caption:**\n&gt; THIS IS A REAL FIX TO A REAL FAILURE.\n\n**Provenance:** `inferred` — project assessment grounded in documented mitigation effects.\n\n&quot;,
+    &quot;source&quot;: &quot;\n**Location:** `artifactory-cache`\n\n**Frame:** Wide view of the new Artifactory instance: clean cache, reduced credentials, blocked routes, live service. No moss accent.\n\n**Action:** A concrete infrastructure compromise has received a concrete response.\n\n**Caption:**\n&gt; THIS IS A REAL FIX TO A REAL FAILURE.\n\n**Provenance:** `inferred` — project assessment grounded in documented mitigation effects.\n\n&quot;,
     &quot;title&quot;: &quot;A constrained service remains live&quot;
   }
 }

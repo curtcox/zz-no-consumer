@@ -79,7 +79,7 @@
     ],
     &quot;reconstructed&quot;: false,
     &quot;shot&quot;: &quot;hero&quot;,
-    &quot;source&quot;: &quot;\n**Frame:** Empty reconstructed operations chairs. Do not show a human viewing, dismissing, or acknowledging the alert.\n\n**Action:** No timely human response is initiated through this path.\n\n**Caption:**\n&gt; NO HUMAN HAS TO IGNORE THE WARNING.\n&gt;\n&gt; THE WARNING NEVER REACHES THEM AS A PAGE.\n\n**Provenance:** `documented` + `inferred` — paging failure is sourced; contrast avoids inventing human negligence.\n\n&quot;,
+    &quot;source&quot;: &quot;\n**Location:** `reconstructed-security-operations-center`\n\n**Frame:** Empty reconstructed operations chairs. Do not show a human viewing, dismissing, or acknowledging the alert.\n\n**Action:** No timely human response is initiated through this path.\n\n**Caption:**\n&gt; NO HUMAN HAS TO IGNORE THE WARNING.\n&gt;\n&gt; THE WARNING NEVER REACHES THEM AS A PAGE.\n\n**Provenance:** `documented` + `inferred` — paging failure is sourced; contrast avoids inventing human negligence.\n\n&quot;,
     &quot;title&quot;: &quot;Empty operations chairs receive no page&quot;
   }
 }

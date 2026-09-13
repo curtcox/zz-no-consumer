@@ -65,6 +65,6 @@
   ],
   "reconstructed": false,
   "shot": "split",
-  "source": "\n**Frame:** The attack map remains fully legible on the left while active intrusion marks continue on the right. Between them, the severity gate stays closed.\n\n**Action:** Understanding fails to become response.\n\n**Caption:**\n> THE CORRELATION CONNECTS THE ATTACK.\n>\n> IT DOES NOT ESCALATE ENOUGH TO WAKE ANYONE.\n\n**Provenance:** `documented` + `inferred` — direct synthesis of Hugging Face's correlation and criticality findings.\n\n",
+  "source": "\n**Location:**\n\n- `huggingface-security-stack`\n- `huggingface-infrastructure`\n\n**Frame:** The attack map remains fully legible on the left while active intrusion marks continue on the right. Between them, the severity gate stays closed.\n\n**Action:** Understanding fails to become response.\n\n**Caption:**\n> THE CORRELATION CONNECTS THE ATTACK.\n>\n> IT DOES NOT ESCALATE ENOUGH TO WAKE ANYONE.\n\n**Provenance:** `documented` + `inferred` — direct synthesis of Hugging Face's correlation and criticality findings.\n\n",
   "title": "Detection coexists with continued intrusion"
 }

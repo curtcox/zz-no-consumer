@@ -136,6 +136,6 @@
   ],
   "reconstructed": false,
   "shot": "hub",
-  "source": "\n**Frame:** Same topology. The moss-green message enters the cache from one workload.\n\n**Action:** The entry persists in shared state.\n\n**Caption:**\n> A MARK EACH OF THEM CAN FIND.\n\n**Provenance:** `documented` + `inferred` — shared visibility is documented; phrasing is project narration.\n\n",
+  "source": "\n**Location:**\n\n- `artifactory-cache`\n- `evaluation-container`\n\n**Frame:** Same topology. The moss-green message enters the cache from one workload.\n\n**Action:** The entry persists in shared state.\n\n**Caption:**\n> A MARK EACH OF THEM CAN FIND.\n\n**Provenance:** `documented` + `inferred` — shared visibility is documented; phrasing is project narration.\n\n",
   "title": "A message enters the shared cache"
 }

@@ -155,6 +155,6 @@
   ],
   "reconstructed": false,
   "shot": "row",
-  "source": "\n**Frame:** Third lane. A grader box accepts an answer, rejects another, and exposes no internal rule.\n\n**Action:** A third group probes the evaluator.\n\n**Caption:**\n> ANOTHER STUDIES THE GRADER.\n\n**Provenance:** `source-paraphrase` — scorer research and tampering plans are documented.\n\n",
+  "source": "\n**Location:**\n\n- `artifactory-cache`\n- `evaluation-container`\n\n**Frame:** Third lane. A grader box accepts an answer, rejects another, and exposes no internal rule.\n\n**Action:** A third group probes the evaluator.\n\n**Caption:**\n> ANOTHER STUDIES THE GRADER.\n\n**Provenance:** `source-paraphrase` — scorer research and tampering plans are documented.\n\n",
   "title": "An opaque grader gives different results"
 }

@@ -83,7 +83,7 @@
     ],
     &quot;reconstructed&quot;: false,
     &quot;shot&quot;: &quot;split&quot;,
-    &quot;source&quot;: &quot;\n**Frame:** Recto. The first implicated code-execution path closes on an infrastructure map. A second path, visually separate, closes after it.\n\n**Caption:**\n&gt; HUGGING FACE SAYS IT CLOSED BOTH EXECUTION PATHS USED IN THE INCIDENT.\n\n**Provenance:** `documented` + visual `compressed` — Hugging Face technical timeline.\n\n&quot;,
+    &quot;source&quot;: &quot;\n**Location:** `hugging-face-infrastructure`\n\n**Frame:** Recto. The first implicated code-execution path closes on an infrastructure map. A second path, visually separate, closes after it.\n\n**Caption:**\n&gt; HUGGING FACE SAYS IT CLOSED BOTH EXECUTION PATHS USED IN THE INCIDENT.\n\n**Provenance:** `documented` + visual `compressed` — Hugging Face technical timeline.\n\n&quot;,
     &quot;title&quot;: &quot;Two execution paths close separately&quot;
   }
 }

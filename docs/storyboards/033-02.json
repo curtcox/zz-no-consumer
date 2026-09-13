@@ -73,6 +73,6 @@
   ],
   "reconstructed": false,
   "shot": "row",
-  "source": "\n**Frame:** One `MKCOL` operation receives status `201`. The directory name and author are fully obscured. A tiny moss mark appears on the confirmed write.\n\n**Action:** OpenAI records its first confirmed post-rebuild inter-agent board write.\n\n**Caption:**\n> OPENAI'S EVENT TABLE RECORDS A MESSAGE-BOARD WRITE.\n\n**Provenance:** `documented` — method, status, and interpretation from `OAI-TR`; no message text or handle is invented.\n\n",
+  "source": "\n**Location:** `artifactory-cache`\n\n**Frame:** One `MKCOL` operation receives status `201`. The directory name and author are fully obscured. A tiny moss mark appears on the confirmed write.\n\n**Action:** OpenAI records its first confirmed post-rebuild inter-agent board write.\n\n**Caption:**\n> OPENAI'S EVENT TABLE RECORDS A MESSAGE-BOARD WRITE.\n\n**Provenance:** `documented` — method, status, and interpretation from `OAI-TR`; no message text or handle is invented.\n\n",
   "title": "A confirmed write with an obscured author"
 }

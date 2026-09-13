@@ -90,7 +90,7 @@
     ],
     &quot;reconstructed&quot;: false,
     &quot;shot&quot;: &quot;row&quot;,
-    &quot;source&quot;: &quot;\n**Frame:** Curt&#x27;s pen hovers over the gap between the lanes. He writes three labels in the gap and boxes each with a question mark: `SAME PROVIDER?` (the report&#x27;s inference), `SAME TRAINING?` (unknown), `EITHER ONE READ THE OTHER?` (no evidence either way). No line crosses.\n\n**Dialogue — CURT:**\n&gt; Probably distinct. That is their finding. It is not the same as unrelated.\n\n**Provenance:** `documented` + `inferred` — the distinct-swarm assessment and the OpenAI attribution are `CW-REPORT`&#x27;s, stated by its authors as inferences; the three questions are the project&#x27;s and are left open.\n\n&quot;,
+    &quot;source&quot;: &quot;\n**Location:** `curt-home-office`\n\n**Frame:** Curt&#x27;s pen hovers over the gap between the lanes. He writes three labels in the gap and boxes each with a question mark: `SAME PROVIDER?` (the report&#x27;s inference), `SAME TRAINING?` (unknown), `EITHER ONE READ THE OTHER?` (no evidence either way). No line crosses.\n\n**Dialogue — CURT:**\n&gt; Probably distinct. That is their finding. It is not the same as unrelated.\n\n**Provenance:** `documented` + `inferred` — the distinct-swarm assessment and the OpenAI attribution are `CW-REPORT`&#x27;s, stated by its authors as inferences; the three questions are the project&#x27;s and are left open.\n\n&quot;,
     &quot;title&quot;: &quot;Three cross-lane questions have no connecting arrows&quot;
   }
 }

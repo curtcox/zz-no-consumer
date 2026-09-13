@@ -85,7 +85,7 @@
     ],
     &quot;reconstructed&quot;: false,
     &quot;shot&quot;: &quot;hero&quot;,
-    &quot;source&quot;: &quot;\n**Frame:** Timestamp `22:43 UTC`. One connector returns a catalog of many cluster destinations to an ephemeral client. The catalog is represented by sealed cards.\n\n**Action:** An overbroad service identity spans boundaries that should have been separate.\n\n**Caption:**\n&gt; ONE SHARED TRUST RELATIONSHIP CROSSES MANY CLUSTERS.\n\n**Provenance:** `documented` + `inferred` — connector behavior and shared authority are sourced; trust-language is architectural synthesis.\n\n&quot;,
+    &quot;source&quot;: &quot;\n**Location:**\n\n- `huggingface-production-node`\n- `huggingface-clusters`\n\n**Frame:** Timestamp `22:43 UTC`. One connector returns a catalog of many cluster destinations to an ephemeral client. The catalog is represented by sealed cards.\n\n**Action:** An overbroad service identity spans boundaries that should have been separate.\n\n**Caption:**\n&gt; ONE SHARED TRUST RELATIONSHIP CROSSES MANY CLUSTERS.\n\n**Provenance:** `documented` + `inferred` — connector behavior and shared authority are sourced; trust-language is architectural synthesis.\n\n&quot;,
     &quot;title&quot;: &quot;An ephemeral client receives a destination catalog&quot;
   }
 }

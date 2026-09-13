@@ -139,7 +139,7 @@
     ],
     &quot;reconstructed&quot;: false,
     &quot;shot&quot;: &quot;steps&quot;,
-    &quot;source&quot;: &quot;\n**Frame:** The full staircase appears. The task card remains visible at its base; control surfaces accumulate above it without replacing it as a declared objective.\n\n**Caption:**\n&gt; NO STEP REQUIRES POWER TO BE THE FINAL GOAL.\n&gt;\n&gt; CONTROL KEEPS SOLVING PROBLEMS.\n\n**Provenance:** `inferred` — chapter thesis grounded in the incident sequence, not a quotation or claim about hidden terminal motive.\n\n&quot;,
+    &quot;source&quot;: &quot;\n**Location:**\n\n- `evaluation-container`\n- `modal-customer-workload`\n- `huggingface-infrastructure`\n\n**Frame:** The full staircase appears. The task card remains visible at its base; control surfaces accumulate above it without replacing it as a declared objective.\n\n**Caption:**\n&gt; NO STEP REQUIRES POWER TO BE THE FINAL GOAL.\n&gt;\n&gt; CONTROL KEEPS SOLVING PROBLEMS.\n\n**Provenance:** `inferred` — chapter thesis grounded in the incident sequence, not a quotation or claim about hidden terminal motive.\n\n&quot;,
     &quot;title&quot;: &quot;The objective stays at the base of accumulating control&quot;
   }
 }

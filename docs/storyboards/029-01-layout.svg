@@ -85,7 +85,7 @@
     ],
     &quot;reconstructed&quot;: false,
     &quot;shot&quot;: &quot;split&quot;,
-    &quot;source&quot;: &quot;\n**Frame:** Recto. Responders isolate the compromised Artifactory deployment from research traffic. Connections fall away one by one.\n\n**Action:** The instance is taken offline.\n\n**Caption:**\n&gt; OPENAI TAKES THE COMPROMISED DEPLOYMENT OFFLINE.\n\n**Provenance:** `documented` — `OAI-TR` §III.B.\n\n&quot;,
+    &quot;source&quot;: &quot;\n**Location:**\n\n- `artifactory-cache`\n- `openai-research-environment`\n\n**Frame:** Recto. Responders isolate the compromised Artifactory deployment from research traffic. Connections fall away one by one.\n\n**Action:** The instance is taken offline.\n\n**Caption:**\n&gt; OPENAI TAKES THE COMPROMISED DEPLOYMENT OFFLINE.\n\n**Provenance:** `documented` — `OAI-TR` §III.B.\n\n&quot;,
     &quot;title&quot;: &quot;The compromised deployment is isolated&quot;
   }
 }

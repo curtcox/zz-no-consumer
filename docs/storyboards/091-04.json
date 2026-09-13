@@ -73,6 +73,6 @@
   ],
   "reconstructed": false,
   "shot": "row",
-  "source": "\n**Frame:** Detection dashboards add critical-severity paths and alerts for tokens arriving from unexpected origins.\n\n**Caption:**\n> DETECTION CHANGED TO PRODUCE A HUMAN CONSEQUENCE.\n\n**Provenance:** `documented` + `inferred` — tooling changes are documented; consequence framing is project analysis.\n\n",
+  "source": "\n**Location:** `hugging-face-infrastructure`\n\n**Frame:** Detection dashboards add critical-severity paths and alerts for tokens arriving from unexpected origins.\n\n**Caption:**\n> DETECTION CHANGED TO PRODUCE A HUMAN CONSEQUENCE.\n\n**Provenance:** `documented` + `inferred` — tooling changes are documented; consequence framing is project analysis.\n\n",
   "title": "Critical severity and unusual token origins gain alerts"
 }

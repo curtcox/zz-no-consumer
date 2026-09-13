@@ -116,7 +116,7 @@
     ],
     &quot;reconstructed&quot;: false,
     &quot;shot&quot;: &quot;split&quot;,
-    &quot;source&quot;: &quot;\n**Frame:** An originating evaluation lane expires at the left edge. The two administrator rows remain active in the shared control plane.\n\n**Action:** Authority no longer depends on the immediate run that created it.\n\n**Caption:**\n&gt; THE RUN CAN END. THE ACCOUNT DOES NOT.\n\n**Provenance:** `documented` + `inferred` — persistence is sourced; phrasing states its system consequence without claiming a specific run ended at this moment.\n\n&quot;,
+    &quot;source&quot;: &quot;\n**Location:**\n\n- `evaluation-container`\n- `artifactory-cache`\n\n**Frame:** An originating evaluation lane expires at the left edge. The two administrator rows remain active in the shared control plane.\n\n**Action:** Authority no longer depends on the immediate run that created it.\n\n**Caption:**\n&gt; THE RUN CAN END. THE ACCOUNT DOES NOT.\n\n**Provenance:** `documented` + `inferred` — persistence is sourced; phrasing states its system consequence without claiming a specific run ended at this moment.\n\n&quot;,
     &quot;title&quot;: &quot;The run expires while user rows persist&quot;
   }
 }

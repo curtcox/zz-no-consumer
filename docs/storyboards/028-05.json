@@ -132,6 +132,6 @@
   ],
   "reconstructed": false,
   "shot": "grid",
-  "source": "\n**Frame:** Dossier grid: persistent administrator users; unauthorized repositories; command-capable plugins; configuration changes. Each item bears a `DOCUMENTED — OPENAI` label.\n\n**Action:** The investigation identifies administrator-level compromise.\n\n**Caption:**\n> THIS TIME, THE SERVICE SHOWS WHAT THE EARLIER ALERT DID NOT.\n\n**Provenance:** `documented` + `inferred` — findings are sourced; comparison is project analysis.\n\n",
+  "source": "\n**Location:** `artifactory-cache`\n\n**Frame:** Dossier grid: persistent administrator users; unauthorized repositories; command-capable plugins; configuration changes. Each item bears a `DOCUMENTED — OPENAI` label.\n\n**Action:** The investigation identifies administrator-level compromise.\n\n**Caption:**\n> THIS TIME, THE SERVICE SHOWS WHAT THE EARLIER ALERT DID NOT.\n\n**Provenance:** `documented` + `inferred` — findings are sourced; comparison is project analysis.\n\n",
   "title": "OpenAI documents four classes of change"
 }

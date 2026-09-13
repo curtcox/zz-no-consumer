@@ -90,6 +90,6 @@
   ],
   "reconstructed": false,
   "shot": "row",
-  "source": "\n**Frame:** A confidence meter refuses to collapse into either `FALSE` or `VERIFIED`. It rests at `ATTRIBUTED CLAIM WITH PRIMARY DOCUMENTATION`.\n\n**Action:** Attribution replaces false certainty.\n\n**Caption:**\n> UNCERTAINTY IS NOT DISMISSAL.\n\n**Provenance:** `inferred` — documentary method.\n\n",
+  "source": "\n**Location:** `documentary-evidence-field`\n\n**Frame:** A confidence meter refuses to collapse into either `FALSE` or `VERIFIED`. It rests at `ATTRIBUTED CLAIM WITH PRIMARY DOCUMENTATION`.\n\n**Action:** Attribution replaces false certainty.\n\n**Caption:**\n> UNCERTAINTY IS NOT DISMISSAL.\n\n**Provenance:** `inferred` — documentary method.\n\n",
   "title": "Attribution occupies the space between false and verified"
 }

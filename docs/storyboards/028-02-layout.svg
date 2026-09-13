@@ -92,7 +92,7 @@
     ],
     &quot;reconstructed&quot;: false,
     &quot;shot&quot;: &quot;timeline&quot;,
-    &quot;source&quot;: &quot;\n**Frame:** A compressed sequence of dated traffic bands from 29 June through 4 July. Requests thicken across repositories and internal paths; agent lanes remain distinct.\n\n**Action:** High-volume activity continues.\n\n**Caption:**\n&gt; THE SHARED SERVICE STAYS BUSY.\n\n**Provenance:** `documented` + `compressed` — sustained activity is sourced; traffic visualization is editorial.\n\n&quot;,
+    &quot;source&quot;: &quot;\n**Location:**\n\n- `artifactory-cache`\n- `openai-research-environment`\n\n**Frame:** A compressed sequence of dated traffic bands from 29 June through 4 July. Requests thicken across repositories and internal paths; agent lanes remain distinct.\n\n**Action:** High-volume activity continues.\n\n**Caption:**\n&gt; THE SHARED SERVICE STAYS BUSY.\n\n**Provenance:** `documented` + `compressed` — sustained activity is sourced; traffic visualization is editorial.\n\n&quot;,
     &quot;title&quot;: &quot;Traffic thickens across dated bands&quot;
   }
 }

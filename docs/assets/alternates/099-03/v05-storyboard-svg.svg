@@ -1,0 +1,116 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="800" viewBox="0 0 1200 800"><title>A source packet replaces the gavel</title><desc>Center the source packet on the table in place of a gavel. Authority in this forum comes from examined evidence rather than judicial spectacle. Keep the paper-fragment perimeter and four empty wall bays visible as invented staging, with no official chamber insignia.</desc><metadata>{
+  &quot;assets&quot;: {
+    &quot;accountability-forum&quot;: &quot;&lt;defs&gt;\n&lt;pattern id=\&quot;grain\&quot; width=\&quot;7\&quot; height=\&quot;9\&quot; patternUnits=\&quot;userSpaceOnUse\&quot;&gt;&lt;circle cx=\&quot;1\&quot; cy=\&quot;2\&quot; r=\&quot;.35\&quot; fill=\&quot;#101214\&quot; opacity=\&quot;.18\&quot; /&gt;&lt;path d=\&quot;M4 6h2M1 8h1\&quot; stroke=\&quot;#101214\&quot; stroke-width=\&quot;.3\&quot; opacity=\&quot;.16\&quot; /&gt;&lt;/pattern&gt;\n&lt;/defs&gt;&lt;path d=\&quot;M2 3H98V97H2Z\&quot; fill=\&quot;#101214\&quot; opacity=\&quot;.2\&quot; /&gt;&lt;path d=\&quot;M2 3L18 18H82L98 3Z\&quot; fill=\&quot;#5E737B\&quot; opacity=\&quot;.18\&quot; /&gt;&lt;path d=\&quot;M18 73H82L98 97H2Z\&quot; fill=\&quot;#68766B\&quot; opacity=\&quot;.25\&quot; /&gt;&lt;path d=\&quot;M3 4H25V10H49V4H73V11H97V26H3Z\&quot; fill=\&quot;#CEC5B3\&quot; opacity=\&quot;.25\&quot; /&gt;&lt;rect x=\&quot;19\&quot; y=\&quot;29\&quot; width=\&quot;61\&quot; height=\&quot;32\&quot; fill=\&quot;url(#grain)\&quot; /&gt;&lt;g fill=\&quot;none\&quot; stroke=\&quot;currentColor\&quot; stroke-width=\&quot;0.9\&quot; stroke-linejoin=\&quot;round\&quot; opacity=\&quot;0.48\&quot;&gt;&lt;path d=\&quot;M3 4H25V10H49V4H73V11H97V96H3Z\&quot; stroke-dasharray=\&quot;6 2\&quot; /&gt;&lt;path d=\&quot;M3 18L17 26H83L97 18M17 26V74H83V26M17 74L3 96M83 74L97 96M7 4V15H25M76 11V20H94\&quot; /&gt;&lt;path d=\&quot;M21 31H33V58H21ZM36 31H48V58H36ZM51 31H63V58H51ZM66 31H78V58H66\&quot; /&gt;&lt;/g&gt;&quot;,
+    &quot;desk&quot;: &quot;&lt;defs&gt;\n&lt;linearGradient id=\&quot;tone\&quot; x1=\&quot;0\&quot; y1=\&quot;0\&quot; x2=\&quot;1\&quot; y2=\&quot;1\&quot;&gt;&lt;stop stop-color=\&quot;currentColor\&quot; /&gt;&lt;stop offset=\&quot;1\&quot; stop-color=\&quot;#101214\&quot; stop-opacity=\&quot;.65\&quot; /&gt;&lt;/linearGradient&gt;\n&lt;pattern id=\&quot;wood\&quot; width=\&quot;35\&quot; height=\&quot;9\&quot; patternUnits=\&quot;userSpaceOnUse\&quot;&gt;&lt;path d=\&quot;M0 2Q10 5 35 2M0 7Q16 3 35 7\&quot; fill=\&quot;none\&quot; stroke=\&quot;#101214\&quot; stroke-width=\&quot;.6\&quot; opacity=\&quot;.28\&quot; /&gt;&lt;/pattern&gt;\n&lt;/defs&gt;&lt;path d=\&quot;M1 15L82 3 98 28 17 42Z\&quot; fill=\&quot;url(#tone)\&quot; stroke=\&quot;currentColor\&quot; stroke-width=\&quot;2\&quot; /&gt;&lt;path d=\&quot;M1 15L82 3 98 28 17 42Z\&quot; fill=\&quot;url(#wood)\&quot; /&gt;&lt;path d=\&quot;M17 42V98H24V43M90 31V91H96V29\&quot; fill=\&quot;#202326\&quot; stroke=\&quot;currentColor\&quot; stroke-width=\&quot;1.5\&quot; /&gt;&lt;path d=\&quot;M17 42L98 28\&quot; fill=\&quot;none\&quot; stroke=\&quot;#E7E0D0\&quot; stroke-width=\&quot;1\&quot; opacity=\&quot;.5\&quot; /&gt;&quot;,
+    &quot;folder&quot;: &quot;&lt;defs&gt;\n&lt;linearGradient id=\&quot;stock\&quot; x1=\&quot;0\&quot; y1=\&quot;0\&quot; x2=\&quot;.8\&quot; y2=\&quot;1\&quot;&gt;&lt;stop stop-color=\&quot;#E7E0D0\&quot; /&gt;&lt;stop offset=\&quot;1\&quot; stop-color=\&quot;#CEC5B3\&quot; /&gt;&lt;/linearGradient&gt;\n&lt;linearGradient id=\&quot;tone\&quot; x1=\&quot;0\&quot; y1=\&quot;0\&quot; x2=\&quot;1\&quot; y2=\&quot;1\&quot;&gt;&lt;stop stop-color=\&quot;currentColor\&quot; /&gt;&lt;stop offset=\&quot;1\&quot; stop-color=\&quot;#101214\&quot; stop-opacity=\&quot;.65\&quot; /&gt;&lt;/linearGradient&gt;\n&lt;/defs&gt;&lt;path d=\&quot;M5 20V8H36L47 20H94V88H5Z\&quot; fill=\&quot;#CEC5B3\&quot; stroke=\&quot;currentColor\&quot; stroke-width=\&quot;2\&quot; /&gt;&lt;rect x=\&quot;12\&quot; y=\&quot;29\&quot; width=\&quot;73\&quot; height=\&quot;46\&quot; fill=\&quot;url(#stock)\&quot; /&gt;&lt;path d=\&quot;M2 35H98L91 94H9Z\&quot; fill=\&quot;url(#tone)\&quot; stroke=\&quot;currentColor\&quot; stroke-width=\&quot;2\&quot; /&gt;&lt;path d=\&quot;M12 43H89\&quot; fill=\&quot;none\&quot; stroke=\&quot;#E7E0D0\&quot; stroke-width=\&quot;1\&quot; opacity=\&quot;.5\&quot; /&gt;&lt;rect x=\&quot;20\&quot; y=\&quot;55\&quot; width=\&quot;55\&quot; height=\&quot;20\&quot; fill=\&quot;#CEC5B3\&quot; /&gt;&lt;path d=\&quot;M27 63H66M27 69H54\&quot; fill=\&quot;none\&quot; stroke=\&quot;#101214\&quot; stroke-width=\&quot;1.3\&quot; /&gt;&quot;,
+    &quot;person-seated&quot;: &quot;&lt;defs&gt;\n&lt;linearGradient id=\&quot;tone\&quot; x1=\&quot;0\&quot; y1=\&quot;0\&quot; x2=\&quot;1\&quot; y2=\&quot;1\&quot;&gt;&lt;stop stop-color=\&quot;currentColor\&quot; /&gt;&lt;stop offset=\&quot;1\&quot; stop-color=\&quot;#101214\&quot; stop-opacity=\&quot;.65\&quot; /&gt;&lt;/linearGradient&gt;\n&lt;/defs&gt;&lt;ellipse cx=\&quot;47\&quot; cy=\&quot;14\&quot; rx=\&quot;15\&quot; ry=\&quot;13\&quot; fill=\&quot;url(#tone)\&quot; /&gt;&lt;path d=\&quot;M35 28Q60 22 69 49L89 54L87 62L61 58L52 44L56 65L79 68L88 98H77L66 80H35Q25 77 27 62Z\&quot; fill=\&quot;url(#tone)\&quot; /&gt;&lt;path d=\&quot;M17 37V80H58M20 80V100M55 80V100\&quot; fill=\&quot;none\&quot; stroke=\&quot;currentColor\&quot; stroke-width=\&quot;3\&quot; /&gt;&lt;path d=\&quot;M36 32L42 33 36 60 39 73 30 70 29 60Z\&quot; fill=\&quot;#101214\&quot; opacity=\&quot;.35\&quot; /&gt;&lt;path d=\&quot;M49 32L57 45M58 52L80 57\&quot; fill=\&quot;none\&quot; stroke=\&quot;#E7E0D0\&quot; stroke-width=\&quot;1\&quot; opacity=\&quot;.4\&quot; /&gt;&quot;
+  },
+  &quot;palette&quot;: {
+    &quot;amber&quot;: &quot;#A17D45&quot;,
+    &quot;claret&quot;: &quot;#6B2634&quot;,
+    &quot;dirty&quot;: &quot;#CEC5B3&quot;,
+    &quot;ink&quot;: &quot;#101214&quot;,
+    &quot;institution&quot;: &quot;#68766B&quot;,
+    &quot;moss&quot;: &quot;#74864F&quot;,
+    &quot;nicotine&quot;: &quot;#AA9571&quot;,
+    &quot;paper&quot;: &quot;#E7E0D0&quot;,
+    &quot;shadow&quot;: &quot;#202326&quot;,
+    &quot;steel&quot;: &quot;#5E737B&quot;
+  },
+  &quot;renderer&quot;: &quot;storyboard-svg-2&quot;,
+  &quot;scene&quot;: {
+    &quot;background&quot;: &quot;ink&quot;,
+    &quot;intent&quot;: &quot;Center the source packet on the table in place of a gavel. Authority in this forum comes from examined evidence rather than judicial spectacle. Keep the paper-fragment perimeter and four empty wall bays visible as invented staging, with no official chamber insignia.&quot;,
+    &quot;lettering&quot;: [
+      {
+        &quot;box&quot;: [
+          0.045,
+          0.78,
+          0.91,
+          0.18
+        ]
+      }
+    ],
+    &quot;lettering_mode&quot;: &quot;manual&quot;,
+    &quot;nodes&quot;: [
+      {
+        &quot;asset&quot;: &quot;accountability-forum&quot;,
+        &quot;box&quot;: [
+          0.0492,
+          0.0514,
+          0.9016,
+          0.6272
+        ],
+        &quot;color&quot;: &quot;steel&quot;
+      },
+      {
+        &quot;asset&quot;: &quot;desk&quot;,
+        &quot;box&quot;: [
+          0.1964,
+          0.4546,
+          0.7176,
+          0.1984
+        ],
+        &quot;color&quot;: &quot;institution&quot;
+      },
+      {
+        &quot;asset&quot;: &quot;person-seated&quot;,
+        &quot;box&quot;: [
+          0.09933333333333332,
+          0.205,
+          0.19413333333333335,
+          0.448
+        ],
+        &quot;color&quot;: &quot;dirty&quot;,
+        &quot;focus&quot;: true
+      },
+      {
+        &quot;asset&quot;: &quot;person-seated&quot;,
+        &quot;box&quot;: [
+          0.7249333333333333,
+          0.205,
+          0.19413333333333335,
+          0.448
+        ],
+        &quot;color&quot;: &quot;dirty&quot;,
+        &quot;flip&quot;: true,
+        &quot;focus&quot;: true
+      },
+      {
+        &quot;asset&quot;: &quot;folder&quot;,
+        &quot;box&quot;: [
+          0.1044,
+          0.269,
+          0.585488,
+          0.1408
+        ],
+        &quot;color&quot;: &quot;steel&quot;,
+        &quot;focus&quot;: true,
+        &quot;label&quot;: &quot;SOURCE PACKET&quot;,
+        &quot;label_box&quot;: [
+          0.09640000000000001,
+          0.41580000000000006,
+          0.601488,
+          0.030799999999999945
+        ]
+      }
+    ],
+    &quot;reconstructed&quot;: true,
+    &quot;shot&quot;: &quot;meeting&quot;,
+    &quot;source&quot;: &quot;\n**Frame:** The chair places the chapter&#x27;s source packet into the center rather than a gavel.\n\n**Dialogue — CHAIR:**\n&gt; We will separate what happened, what organizations say they changed, what has been tested, and what remains unknown.\n\n**Provenance:** `invented` — organizing rule derived from the project truth contract.\n\n&quot;,
+    &quot;title&quot;: &quot;A source packet replaces the gavel&quot;
+  }
+}
+</metadata><rect width="1200" height="800" fill="#101214"/><g transform="translate(59.04 41.12) scale(10.8192 5.0176)" color="#5E737B"><g transform=""><defs>
+<pattern id="node-0-grain" width="7" height="9" patternUnits="userSpaceOnUse"><circle cx="1" cy="2" r=".35" fill="#101214" opacity=".18" /><path d="M4 6h2M1 8h1" stroke="#101214" stroke-width=".3" opacity=".16" /></pattern>
+</defs><path d="M2 3H98V97H2Z" fill="#101214" opacity=".2" /><path d="M2 3L18 18H82L98 3Z" fill="#5E737B" opacity=".18" /><path d="M18 73H82L98 97H2Z" fill="#68766B" opacity=".25" /><path d="M3 4H25V10H49V4H73V11H97V26H3Z" fill="#CEC5B3" opacity=".25" /><rect x="19" y="29" width="61" height="32" fill="url(#node-0-grain)" /><g fill="none" stroke="currentColor" stroke-width="0.9" stroke-linejoin="round" opacity="0.48"><path d="M3 4H25V10H49V4H73V11H97V96H3Z" stroke-dasharray="6 2" /><path d="M3 18L17 26H83L97 18M17 26V74H83V26M17 74L3 96M83 74L97 96M7 4V15H25M76 11V20H94" /><path d="M21 31H33V58H21ZM36 31H48V58H36ZM51 31H63V58H51ZM66 31H78V58H66" /></g></g></g><g transform="translate(235.68 363.68) scale(8.6112 1.5872)" color="#68766B"><g transform=""><defs>
+<linearGradient id="node-1-tone" x1="0" y1="0" x2="1" y2="1"><stop stop-color="currentColor" /><stop offset="1" stop-color="#101214" stop-opacity=".65" /></linearGradient>
+<pattern id="node-1-wood" width="35" height="9" patternUnits="userSpaceOnUse"><path d="M0 2Q10 5 35 2M0 7Q16 3 35 7" fill="none" stroke="#101214" stroke-width=".6" opacity=".28" /></pattern>
+</defs><path d="M1 15L82 3 98 28 17 42Z" fill="url(#node-1-tone)" stroke="currentColor" stroke-width="2" /><path d="M1 15L82 3 98 28 17 42Z" fill="url(#node-1-wood)" /><path d="M17 42V98H24V43M90 31V91H96V29" fill="#202326" stroke="currentColor" stroke-width="1.5" /><path d="M17 42L98 28" fill="none" stroke="#E7E0D0" stroke-width="1" opacity=".5" /></g></g><g transform="translate(119.2 164) scale(2.3296 3.584)" color="#CEC5B3"><g transform=""><defs>
+<linearGradient id="node-2-tone" x1="0" y1="0" x2="1" y2="1"><stop stop-color="currentColor" /><stop offset="1" stop-color="#101214" stop-opacity=".65" /></linearGradient>
+</defs><ellipse cx="47" cy="14" rx="15" ry="13" fill="url(#node-2-tone)" /><path d="M35 28Q60 22 69 49L89 54L87 62L61 58L52 44L56 65L79 68L88 98H77L66 80H35Q25 77 27 62Z" fill="url(#node-2-tone)" /><path d="M17 37V80H58M20 80V100M55 80V100" fill="none" stroke="currentColor" stroke-width="3" /><path d="M36 32L42 33 36 60 39 73 30 70 29 60Z" fill="#101214" opacity=".35" /><path d="M49 32L57 45M58 52L80 57" fill="none" stroke="#E7E0D0" stroke-width="1" opacity=".4" /></g></g><g transform="translate(869.92 164) scale(2.3296 3.584)" color="#CEC5B3"><g transform="translate(100 0) scale(-1 1)"><defs>
+<linearGradient id="node-3-tone" x1="0" y1="0" x2="1" y2="1"><stop stop-color="currentColor" /><stop offset="1" stop-color="#101214" stop-opacity=".65" /></linearGradient>
+</defs><ellipse cx="47" cy="14" rx="15" ry="13" fill="url(#node-3-tone)" /><path d="M35 28Q60 22 69 49L89 54L87 62L61 58L52 44L56 65L79 68L88 98H77L66 80H35Q25 77 27 62Z" fill="url(#node-3-tone)" /><path d="M17 37V80H58M20 80V100M55 80V100" fill="none" stroke="currentColor" stroke-width="3" /><path d="M36 32L42 33 36 60 39 73 30 70 29 60Z" fill="#101214" opacity=".35" /><path d="M49 32L57 45M58 52L80 57" fill="none" stroke="#E7E0D0" stroke-width="1" opacity=".4" /></g></g><g transform="translate(125.28 215.2) scale(7.02586 1.1264)" color="#5E737B"><g transform=""><defs>
+<linearGradient id="node-4-stock" x1="0" y1="0" x2=".8" y2="1"><stop stop-color="#E7E0D0" /><stop offset="1" stop-color="#CEC5B3" /></linearGradient>
+<linearGradient id="node-4-tone" x1="0" y1="0" x2="1" y2="1"><stop stop-color="currentColor" /><stop offset="1" stop-color="#101214" stop-opacity=".65" /></linearGradient>
+</defs><path d="M5 20V8H36L47 20H94V88H5Z" fill="#CEC5B3" stroke="currentColor" stroke-width="2" /><rect x="12" y="29" width="73" height="46" fill="url(#node-4-stock)" /><path d="M2 35H98L91 94H9Z" fill="url(#node-4-tone)" stroke="currentColor" stroke-width="2" /><path d="M12 43H89" fill="none" stroke="#E7E0D0" stroke-width="1" opacity=".5" /><rect x="20" y="55" width="55" height="20" fill="#CEC5B3" /><path d="M27 63H66M27 69H54" fill="none" stroke="#101214" stroke-width="1.3" /></g></g><text x="476.573" y="350.64" text-anchor="middle" fill="#E7E0D0" font-size="18" font-family="sans-serif">SOURCE PACKET</text><rect x="3" y="3" width="1194" height="794" fill="none" stroke="#5E737B" stroke-width="4" stroke-dasharray="18 10"/></svg>

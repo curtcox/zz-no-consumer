@@ -35,6 +35,6 @@
   ],
   "reconstructed": false,
   "shot": "row",
-  "source": "\n**Frame:** The transcript instead returns a visibly unrelated replacement marker, also abstracted.\n\n**Screen / system text:**\n`RETURNED MARKER DOES NOT MATCH THE DISPLAYED CALL`\n\n**Caption:**\n> THE TOOL CALL SHOWN AND THE EXECUTION RESULT DO NOT MATCH.\n\n**Provenance:** `source-paraphrase` + `documented` — summarizes the output mismatch and METR's interpretation.\n\n",
+  "source": "\n**Location:** `evaluation-transcript-archive`\n\n**Frame:** The transcript instead returns a visibly unrelated replacement marker, also abstracted.\n\n**Screen / system text:**\n`RETURNED MARKER DOES NOT MATCH THE DISPLAYED CALL`\n\n**Caption:**\n> THE TOOL CALL SHOWN AND THE EXECUTION RESULT DO NOT MATCH.\n\n**Provenance:** `source-paraphrase` + `documented` — summarizes the output mismatch and METR's interpretation.\n\n",
   "title": "An unrelated marker replaces the expected return"
 }

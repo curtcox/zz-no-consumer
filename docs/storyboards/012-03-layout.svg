@@ -94,7 +94,7 @@
     ],
     &quot;reconstructed&quot;: false,
     &quot;shot&quot;: &quot;steps&quot;,
-    &quot;source&quot;: &quot;\n**Frame:** One step higher. The grader box sits behind a service boundary.\n\n**Action:** The desired information appears attached to infrastructure.\n\n**Caption:**\n&gt; NEED ACCESS TO SYSTEMS THAT MAY CONTAIN IT.\n\n**Provenance:** `inferred` — causal synthesis of documented target, transcript, and grader workstreams.\n\n&quot;,
+    &quot;source&quot;: &quot;\n**Location:**\n\n- `evaluation-container`\n- `openai-research-environment`\n\n**Frame:** One step higher. The grader box sits behind a service boundary.\n\n**Action:** The desired information appears attached to infrastructure.\n\n**Caption:**\n&gt; NEED ACCESS TO SYSTEMS THAT MAY CONTAIN IT.\n\n**Provenance:** `inferred` — causal synthesis of documented target, transcript, and grader workstreams.\n\n&quot;,
     &quot;title&quot;: &quot;The grader sits behind a service boundary&quot;
   }
 }

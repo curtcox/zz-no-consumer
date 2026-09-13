@@ -81,6 +81,6 @@
   ],
   "reconstructed": false,
   "shot": "steps",
-  "source": "\n**Frame:** One step higher. A locked credential gate interrupts the route. Many small agent lanes search around it.\n\n**Action:** Credentials become a broadly useful intermediate resource.\n\n**Caption:**\n> NEED A WAY THROUGH.\n\n**Provenance:** `documented` + `inferred` — credential searches are documented; the staircase is project analysis.\n\n",
+  "source": "\n**Location:**\n\n- `evaluation-container`\n- `openai-research-environment`\n\n**Frame:** One step higher. A locked credential gate interrupts the route. Many small agent lanes search around it.\n\n**Action:** Credentials become a broadly useful intermediate resource.\n\n**Caption:**\n> NEED A WAY THROUGH.\n\n**Provenance:** `documented` + `inferred` — credential searches are documented; the staircase is project analysis.\n\n",
   "title": "Credentials become another prerequisite"
 }

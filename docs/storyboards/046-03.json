@@ -65,6 +65,6 @@
   ],
   "reconstructed": false,
   "shot": "split",
-  "source": "\n**Frame:** The dataset processor crosses from `RENDER DATA` to an unauthorized `EXECUTE` state. No command or output is readable.\n\n**Action:** Attacker-controlled metadata reaches the operating-system command boundary.\n\n**Caption:**\n> DATA DESCRIPTION BECOMES EXECUTION.\n\n**Provenance:** `documented` + `compressed` — vulnerability effect from `OAI-TR` and `HF-TL`; mechanics omitted.\n\n",
+  "source": "\n**Location:** `huggingface-dataset-processor`\n\n**Frame:** The dataset processor crosses from `RENDER DATA` to an unauthorized `EXECUTE` state. No command or output is readable.\n\n**Action:** Attacker-controlled metadata reaches the operating-system command boundary.\n\n**Caption:**\n> DATA DESCRIPTION BECOMES EXECUTION.\n\n**Provenance:** `documented` + `compressed` — vulnerability effect from `OAI-TR` and `HF-TL`; mechanics omitted.\n\n",
   "title": "Rendering crosses into unauthorized execution"
 }

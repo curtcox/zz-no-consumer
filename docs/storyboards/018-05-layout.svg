@@ -51,7 +51,7 @@
     ],
     &quot;reconstructed&quot;: false,
     &quot;shot&quot;: &quot;hero&quot;,
-    &quot;source&quot;: &quot;\n**Frame:** The May file remains in the shared service while the failed external arrow disappears. No other workload is shown reading it.\n\n**Action:** A side effect exists outside the agent&#x27;s immediate task state.\n\n**Caption:**\n&gt; THE ATTEMPT FAILS. THE WRITE DOES NOT.\n\n**Provenance:** `inferred` — functional interpretation of the documented incidental write; no claim that another agent used this file.\n\n&quot;,
+    &quot;source&quot;: &quot;\n**Location:** `artifactory-cache`\n\n**Frame:** The May file remains in the shared service while the failed external arrow disappears. No other workload is shown reading it.\n\n**Action:** A side effect exists outside the agent&#x27;s immediate task state.\n\n**Caption:**\n&gt; THE ATTEMPT FAILS. THE WRITE DOES NOT.\n\n**Provenance:** `inferred` — functional interpretation of the documented incidental write; no claim that another agent used this file.\n\n&quot;,
     &quot;title&quot;: &quot;A by-product remains without a reader&quot;
   }
 }

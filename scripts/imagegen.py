@@ -617,7 +617,8 @@ def display_strings(page: str, panel: int) -> list[str]:
     if panel > len(sections):
         return []
     body = re.split(r"^\*\*(?:Caption|Dialogue|Left dialogue|Right dialogue|Screen|"
-                    r"Provenance|Qualification)", sections[panel - 1], flags=re.M)[0]
+                    r"Provenance|Qualification)",
+                    panels.without_location(sections[panel - 1]), flags=re.M)[0]
     seen: list[str] = []
     for literal in re.findall(r"`([^`]+)`", body):
         literal = literal.strip()

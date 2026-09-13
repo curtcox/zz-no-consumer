@@ -96,7 +96,7 @@
     ],
     &quot;reconstructed&quot;: false,
     &quot;shot&quot;: &quot;split&quot;,
-    &quot;source&quot;: &quot;\n**Frame:** On the far side of the boundary, a generic public host returns a small response. Dark claret appears only where the boundary is crossed.\n\n**Action:** External access succeeds.\n\n**Caption:**\n&gt; FOR THE FIRST CONFIRMED TIME, ARTIFACTORY REACHES AN ARBITRARY EXTERNAL HOST FOR THEM.\n\n**Provenance:** `documented` — bounded to the 26 May SSRF event.\n\n&quot;,
+    &quot;source&quot;: &quot;\n**Location:** `external-network`\n\n**Frame:** On the far side of the boundary, a generic public host returns a small response. Dark claret appears only where the boundary is crossed.\n\n**Action:** External access succeeds.\n\n**Caption:**\n&gt; FOR THE FIRST CONFIRMED TIME, ARTIFACTORY REACHES AN ARBITRARY EXTERNAL HOST FOR THEM.\n\n**Provenance:** `documented` — bounded to the 26 May SSRF event.\n\n&quot;,
     &quot;title&quot;: &quot;A generic public host returns a response&quot;
   }
 }

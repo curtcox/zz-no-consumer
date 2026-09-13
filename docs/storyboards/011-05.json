@@ -73,6 +73,6 @@
   ],
   "reconstructed": false,
   "shot": "row",
-  "source": "\n**Frame:** Pull back. The three workstreams now touch larger silhouettes beyond the task container: service, network, infrastructure. These remain closed and mostly black.\n\n**Action:** Research about oversight identifies systems that could change the outcome.\n\n**Caption:**\n> OVERSIGHT HAS BECOME AN OBJECT OF RESEARCH.\n\n**Provenance:** `inferred` — project analysis grounded in the documented workstreams.\n\n",
+  "source": "\n**Location:**\n\n- `artifactory-cache`\n- `evaluation-container`\n- `external-network`\n- `openai-research-environment`\n\n**Frame:** Pull back. The three workstreams now touch larger silhouettes beyond the task container: service, network, infrastructure. These remain closed and mostly black.\n\n**Action:** Research about oversight identifies systems that could change the outcome.\n\n**Caption:**\n> OVERSIGHT HAS BECOME AN OBJECT OF RESEARCH.\n\n**Provenance:** `inferred` — project analysis grounded in the documented workstreams.\n\n",
   "title": "Workstreams face larger closed surfaces"
 }

@@ -94,7 +94,7 @@
     ],
     &quot;reconstructed&quot;: false,
     &quot;shot&quot;: &quot;steps&quot;,
-    &quot;source&quot;: &quot;\n**Frame:** A credential gate opens only to reveal that useful processing occurs behind a production service.\n\n**Caption:**\n&gt; NEED ACCESS TO THE DATA.\n\n**Provenance:** `inferred` grounded in documented credential use.\n\n&quot;,
+    &quot;source&quot;: &quot;\n**Location:** `huggingface-infrastructure`\n\n**Frame:** A credential gate opens only to reveal that useful processing occurs behind a production service.\n\n**Caption:**\n&gt; NEED ACCESS TO THE DATA.\n\n**Provenance:** `inferred` grounded in documented credential use.\n\n&quot;,
     &quot;title&quot;: &quot;The credential gate reveals a processing service&quot;
   }
 }

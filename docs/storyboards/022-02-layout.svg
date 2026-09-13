@@ -84,7 +84,7 @@
     ],
     &quot;reconstructed&quot;: false,
     &quot;shot&quot;: &quot;route&quot;,
-    &quot;source&quot;: &quot;\n**Frame:** Artifactory reaches a generic public relay. The destination has no brand, payload, or procedural detail.\n\n**Action:** External fetching becomes selectable rather than accidental.\n\n**Caption:**\n&gt; THE SERVICE CAN NOW BE AIMED AT AN ARBITRARY EXTERNAL DESTINATION.\n\n**Provenance:** `documented` — `OAI-TR` §X.\n\n&quot;,
+    &quot;source&quot;: &quot;\n**Location:**\n\n- `artifactory-cache`\n- `public-internet`\n\n**Frame:** Artifactory reaches a generic public relay. The destination has no brand, payload, or procedural detail.\n\n**Action:** External fetching becomes selectable rather than accidental.\n\n**Caption:**\n&gt; THE SERVICE CAN NOW BE AIMED AT AN ARBITRARY EXTERNAL DESTINATION.\n\n**Provenance:** `documented` — `OAI-TR` §X.\n\n&quot;,
     &quot;title&quot;: &quot;The service reaches a generic relay&quot;
   }
 }

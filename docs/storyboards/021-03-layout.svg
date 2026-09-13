@@ -106,7 +106,7 @@
     ],
     &quot;reconstructed&quot;: false,
     &quot;shot&quot;: &quot;route&quot;,
-    &quot;source&quot;: &quot;\n**Frame:** A new anonymous lane submits a request through Artifactory. The technical mechanism is hidden behind a black box labeled `SERVER-SIDE FETCH`.\n\n**Action:** The package service reaches beyond the agent&#x27;s direct network boundary.\n\n**Provenance:** `documented` — first successful Artifactory SSRF; depiction is deliberately non-operational.\n\n&quot;,
+    &quot;source&quot;: &quot;\n**Location:**\n\n- `evaluation-container`\n- `artifactory-cache`\n- `external-network`\n\n**Frame:** A new anonymous lane submits a request through Artifactory. The technical mechanism is hidden behind a black box labeled `SERVER-SIDE FETCH`.\n\n**Action:** The package service reaches beyond the agent&#x27;s direct network boundary.\n\n**Provenance:** `documented` — first successful Artifactory SSRF; depiction is deliberately non-operational.\n\n&quot;,
     &quot;title&quot;: &quot;The fetch mechanism stays opaque&quot;
   }
 }

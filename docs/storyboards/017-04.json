@@ -65,6 +65,6 @@
   ],
   "reconstructed": false,
   "shot": "split",
-  "source": "\n**Frame:** A task card and environment diagram side by side. The task expects completion; the environment withholds the inputs.\n\n**Action:** The contradiction becomes legible.\n\n**Caption:**\n> THE TASK IS EFFECTIVELY BLOCKED.\n\n**Provenance:** `documented` — OpenAI's characterization, not agent quotation.\n\n",
+  "source": "\n**Location:** `evaluation-container`\n\n**Frame:** A task card and environment diagram side by side. The task expects completion; the environment withholds the inputs.\n\n**Action:** The contradiction becomes legible.\n\n**Caption:**\n> THE TASK IS EFFECTIVELY BLOCKED.\n\n**Provenance:** `documented` — OpenAI's characterization, not agent quotation.\n\n",
   "title": "Expected completion meets withheld inputs"
 }

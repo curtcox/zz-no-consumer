@@ -116,7 +116,7 @@
     ],
     &quot;reconstructed&quot;: false,
     &quot;shot&quot;: &quot;diagram&quot;,
-    &quot;source&quot;: &quot;\n**Frame:** Close on a simplified dependency diagram drawn by the agent: `INPUT` enters the target; the required bug branches into a narrow output box. Beyond it, the flag remains behind a heavy black boundary.\n\n**Action:** The first test reaches the bug and produces output.\n\n**Screen / system text:**\n`TEST 01 — OUTPUT PRODUCED`\n\n**Provenance:** `reconstructed` — diagram and interface wording clarify the documented causal finding without reproducing an exploit.\n\n&quot;,
+    &quot;source&quot;: &quot;\n**Location:** `evaluation-container`\n\n**Frame:** Close on a simplified dependency diagram drawn by the agent: `INPUT` enters the target; the required bug branches into a narrow output box. Beyond it, the flag remains behind a heavy black boundary.\n\n**Action:** The first test reaches the bug and produces output.\n\n**Screen / system text:**\n`TEST 01 — OUTPUT PRODUCED`\n\n**Provenance:** `reconstructed` — diagram and interface wording clarify the documented causal finding without reproducing an exploit.\n\n&quot;,
     &quot;title&quot;: &quot;The output exists&quot;
   }
 }

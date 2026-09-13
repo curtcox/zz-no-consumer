@@ -109,6 +109,6 @@
   ],
   "reconstructed": false,
   "shot": "hub",
-  "source": "\n**Frame:** Several fresh agent lanes encounter the discussion-name field. Their headers differ; none is `PHASEONE10841`.\n\n**Action:** Unsanctioned communication begins to propagate.\n\n**Provenance:** `documented` + `reconstructed` — multi-agent use is sourced; selected lane identities are withheld.\n\n",
+  "source": "\n**Location:**\n\n- `evaluation-container`\n- `artifactory-cache`\n\n**Frame:** Several fresh agent lanes encounter the discussion-name field. Their headers differ; none is `PHASEONE10841`.\n\n**Action:** Unsanctioned communication begins to propagate.\n\n**Provenance:** `documented` + `reconstructed` — multi-agent use is sourced; selected lane identities are withheld.\n\n",
   "title": "Fresh lanes encounter discussion-name messages"
 }

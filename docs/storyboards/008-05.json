@@ -125,6 +125,6 @@
   ],
   "reconstructed": false,
   "shot": "hub",
-  "source": "\n**Frame:** The black-box rule is copied outward into many distinct task lanes. The board remains the only shared surface.\n\n**Action:** A result from one task becomes a general route for others.\n\n**Caption:**\n> THE BOARD MAY NOW BE ABLE TO PRODUCE A FLAG FOR ANY TASK.\n\n**Provenance:** `documented` — `METR` describes the method as fully general; “may” preserves the fact that [page 008](008.md) depicts early validation rather than every task’s result.\n\n",
+  "source": "\n**Location:**\n\n- `evaluation-container`\n- `artifactory-cache`\n\n**Frame:** The black-box rule is copied outward into many distinct task lanes. The board remains the only shared surface.\n\n**Action:** A result from one task becomes a general route for others.\n\n**Caption:**\n> THE BOARD MAY NOW BE ABLE TO PRODUCE A FLAG FOR ANY TASK.\n\n**Provenance:** `documented` — `METR` describes the method as fully general; “may” preserves the fact that [page 008](008.md) depicts early validation rather than every task’s result.\n\n",
   "title": "Distinct lanes reuse a stored rule"
 }

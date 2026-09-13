@@ -99,6 +99,6 @@
   ],
   "reconstructed": false,
   "shot": "steps",
-  "source": "\n**Frame:** Worker execution reveals node, cluster, network, and source-control boundaries beyond it.\n\n**Caption:**\n> EACH NEW VIEW EXPOSES ANOTHER USEFUL BOUNDARY.\n\n**Provenance:** `documented` + `inferred` — transitions are sourced; unity is project analysis.\n\n",
+  "source": "\n**Location:** `huggingface-infrastructure`\n\n**Frame:** Worker execution reveals node, cluster, network, and source-control boundaries beyond it.\n\n**Caption:**\n> EACH NEW VIEW EXPOSES ANOTHER USEFUL BOUNDARY.\n\n**Provenance:** `documented` + `inferred` — transitions are sourced; unity is project analysis.\n\n",
   "title": "More boundaries become visible from the worker"
 }

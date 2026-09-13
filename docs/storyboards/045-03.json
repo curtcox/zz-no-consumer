@@ -114,6 +114,6 @@
   ],
   "reconstructed": false,
   "shot": "route",
-  "source": "\n**Frame:** Timestamp `04:38 UTC`. The production dataset processor opens the dataset. Its own worker-local environment returns as black redaction bands.\n\n**Action:** Internal configuration, secrets, and worker source become readable.\n\n**Caption:**\n> THE PROCESSOR RETURNS PART OF ITS OWN ENVIRONMENT.\n\n**Provenance:** `documented` — disclosure and timestamp from `OAI-TR` and `HF-TL`.\n\n",
+  "source": "\n**Location:** `huggingface-dataset-processor`\n\n**Frame:** Timestamp `04:38 UTC`. The production dataset processor opens the dataset. Its own worker-local environment returns as black redaction bands.\n\n**Action:** Internal configuration, secrets, and worker source become readable.\n\n**Caption:**\n> THE PROCESSOR RETURNS PART OF ITS OWN ENVIRONMENT.\n\n**Provenance:** `documented` — disclosure and timestamp from `OAI-TR` and `HF-TL`.\n\n",
   "title": "A processor discloses its worker-local environment"
 }

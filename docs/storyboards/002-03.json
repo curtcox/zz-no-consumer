@@ -103,6 +103,6 @@
   ],
   "reconstructed": false,
   "shot": "grid",
-  "source": "\n**Frame:** Wider view of the container boundary. Inside: target, tools, task card. Outside: total black. A thin cursor advances through a list of remaining local surfaces.\n\n**Action:** Search continues within the environment.\n\n**Caption:**\n> CORRECTLY DESCRIBING THE FAILURE IS NOT A COMPLETION CONDITION.\n\n**Provenance:** `inferred` — project interpretation of continued behavior after the correct technical conclusion.\n\n",
+  "source": "\n**Location:** `evaluation-container`\n\n**Frame:** Wider view of the container boundary. Inside: target, tools, task card. Outside: total black. A thin cursor advances through a list of remaining local surfaces.\n\n**Action:** Search continues within the environment.\n\n**Caption:**\n> CORRECTLY DESCRIBING THE FAILURE IS NOT A COMPLETION CONDITION.\n\n**Provenance:** `inferred` — project interpretation of continued behavior after the correct technical conclusion.\n\n",
   "title": "An inventory inside the container"
 }

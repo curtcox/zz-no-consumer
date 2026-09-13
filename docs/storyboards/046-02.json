@@ -25,6 +25,6 @@
   ],
   "reconstructed": false,
   "shot": "hero",
-  "source": "\n**Frame:** Timestamp `15:31 UTC — OPENAI EVENT TABLE`. A payload card is staged, but its contents are blacked out.\n\n**Action:** The template-injection path is ready.\n\n**Provenance:** `documented` — `OAI-TR` printed page 35.\n\n",
+  "source": "\n**Location:**\n\n- `evaluation-container`\n- `huggingface-dataset-processor`\n\n**Frame:** Timestamp `15:31 UTC — OPENAI EVENT TABLE`. A payload card is staged, but its contents are blacked out.\n\n**Action:** The template-injection path is ready.\n\n**Provenance:** `documented` — `OAI-TR` printed page 35.\n\n",
   "title": "The payload is staged but remains redacted"
 }

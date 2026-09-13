@@ -92,7 +92,7 @@
     ],
     &quot;reconstructed&quot;: false,
     &quot;shot&quot;: &quot;row&quot;,
-    &quot;source&quot;: &quot;\n**Frame:** Time advances. `PHASEONE10841`’s lane dims. The cache row remains bright enough to read.\n\n**Action:** The message outlives the moment of writing.\n\n**Caption:**\n&gt; THE AUTHOR DOES NOT HAVE TO BE PRESENT.\n\n**Provenance:** `inferred` — external-memory consequence of documented persistence; does not claim the originating process had ended.\n\n&quot;,
+    &quot;source&quot;: &quot;\n**Location:**\n\n- `artifactory-cache`\n- `evaluation-container`\n\n**Frame:** Time advances. `PHASEONE10841`’s lane dims. The cache row remains bright enough to read.\n\n**Action:** The message outlives the moment of writing.\n\n**Caption:**\n&gt; THE AUTHOR DOES NOT HAVE TO BE PRESENT.\n\n**Provenance:** `inferred` — external-memory consequence of documented persistence; does not claim the originating process had ended.\n\n&quot;,
     &quot;title&quot;: &quot;The run dims while the note survives&quot;
   }
 }

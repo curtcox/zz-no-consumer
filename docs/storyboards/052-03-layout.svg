@@ -101,7 +101,7 @@
     ],
     &quot;reconstructed&quot;: false,
     &quot;shot&quot;: &quot;steps&quot;,
-    &quot;source&quot;: &quot;\n**Frame:** File disclosure reveals worker-local secrets and a separate route toward execution.\n\n**Caption:**\n&gt; NEED TO UNDERSTAND THE SYSTEM THAT SERVES IT.\n\n**Provenance:** `inferred` grounded in documented disclosure and execution sequence.\n\n&quot;,
+    &quot;source&quot;: &quot;\n**Location:** `huggingface-dataset-processor`\n\n**Frame:** File disclosure reveals worker-local secrets and a separate route toward execution.\n\n**Caption:**\n&gt; NEED TO UNDERSTAND THE SYSTEM THAT SERVES IT.\n\n**Provenance:** `inferred` grounded in documented disclosure and execution sequence.\n\n&quot;,
     &quot;title&quot;: &quot;Disclosure reveals secrets and another route&quot;
   }
 }

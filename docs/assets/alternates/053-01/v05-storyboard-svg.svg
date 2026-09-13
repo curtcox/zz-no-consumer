@@ -1,0 +1,147 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="800" viewBox="0 0 1200 800"><title>A visibly composite meeting of functional roles</title><desc>Use ordinary meeting geometry and a prominent continuous composite disclosure. Functional roles share the table; no venue insignia or recognizable likeness should imply a particular real meeting. Use the broken conference envelope and blank presentation board, with the existing composite disclosure retained.</desc><metadata>{
+  &quot;assets&quot;: {
+    &quot;card&quot;: &quot;&lt;defs&gt;\n&lt;linearGradient id=\&quot;stock\&quot; x1=\&quot;0\&quot; y1=\&quot;0\&quot; x2=\&quot;.8\&quot; y2=\&quot;1\&quot;&gt;&lt;stop stop-color=\&quot;#E7E0D0\&quot; /&gt;&lt;stop offset=\&quot;1\&quot; stop-color=\&quot;#CEC5B3\&quot; /&gt;&lt;/linearGradient&gt;\n&lt;pattern id=\&quot;grain\&quot; width=\&quot;7\&quot; height=\&quot;9\&quot; patternUnits=\&quot;userSpaceOnUse\&quot;&gt;&lt;circle cx=\&quot;1\&quot; cy=\&quot;2\&quot; r=\&quot;.35\&quot; fill=\&quot;#101214\&quot; opacity=\&quot;.18\&quot; /&gt;&lt;path d=\&quot;M4 6h2M1 8h1\&quot; stroke=\&quot;#101214\&quot; stroke-width=\&quot;.3\&quot; opacity=\&quot;.16\&quot; /&gt;&lt;/pattern&gt;\n&lt;/defs&gt;&lt;path d=\&quot;M5 3H95V97H5Z\&quot; fill=\&quot;url(#stock)\&quot; stroke=\&quot;currentColor\&quot; stroke-width=\&quot;2\&quot; /&gt;&lt;path d=\&quot;M5 3H95V97H5Z\&quot; fill=\&quot;url(#grain)\&quot; /&gt;&lt;rect x=\&quot;5\&quot; y=\&quot;3\&quot; width=\&quot;90\&quot; height=\&quot;15\&quot; fill=\&quot;currentColor\&quot; /&gt;&lt;rect x=\&quot;10\&quot; y=\&quot;25\&quot; width=\&quot;5\&quot; height=\&quot;61\&quot; fill=\&quot;currentColor\&quot; /&gt;&lt;path d=\&quot;M23 29H85M23 38H75M23 48H83M23 66H62M23 78H80\&quot; fill=\&quot;none\&quot; stroke=\&quot;#101214\&quot; stroke-width=\&quot;2\&quot; /&gt;&lt;path d=\&quot;M12 11H42M65 11H86\&quot; fill=\&quot;none\&quot; stroke=\&quot;#E7E0D0\&quot; stroke-width=\&quot;1.4\&quot; /&gt;&quot;,
+    &quot;composite-conference-room&quot;: &quot;&lt;path d=\&quot;M2 3H98V97H2Z\&quot; fill=\&quot;#101214\&quot; opacity=\&quot;.2\&quot; /&gt;&lt;path d=\&quot;M2 3L18 18H82L98 3Z\&quot; fill=\&quot;#5E737B\&quot; opacity=\&quot;.18\&quot; /&gt;&lt;path d=\&quot;M18 73H82L98 97H2Z\&quot; fill=\&quot;#68766B\&quot; opacity=\&quot;.25\&quot; /&gt;&lt;rect x=\&quot;28\&quot; y=\&quot;24\&quot; width=\&quot;44\&quot; height=\&quot;21\&quot; fill=\&quot;#68766B\&quot; opacity=\&quot;.13\&quot; /&gt;&lt;g fill=\&quot;none\&quot; stroke=\&quot;currentColor\&quot; stroke-width=\&quot;0.9\&quot; stroke-linejoin=\&quot;round\&quot; opacity=\&quot;0.5\&quot;&gt;&lt;path d=\&quot;M2 3H98V97H2Z\&quot; stroke-dasharray=\&quot;5 3\&quot; /&gt;&lt;path d=\&quot;M2 3L18 18H82L98 3M18 18V73H82V18M18 73L2 97M82 73L98 97M30 10H70M30 13H70\&quot; /&gt;&lt;rect x=\&quot;28\&quot; y=\&quot;24\&quot; width=\&quot;44\&quot; height=\&quot;21\&quot; /&gt;&lt;/g&gt;&quot;,
+    &quot;desk&quot;: &quot;&lt;defs&gt;\n&lt;linearGradient id=\&quot;tone\&quot; x1=\&quot;0\&quot; y1=\&quot;0\&quot; x2=\&quot;1\&quot; y2=\&quot;1\&quot;&gt;&lt;stop stop-color=\&quot;currentColor\&quot; /&gt;&lt;stop offset=\&quot;1\&quot; stop-color=\&quot;#101214\&quot; stop-opacity=\&quot;.65\&quot; /&gt;&lt;/linearGradient&gt;\n&lt;pattern id=\&quot;wood\&quot; width=\&quot;35\&quot; height=\&quot;9\&quot; patternUnits=\&quot;userSpaceOnUse\&quot;&gt;&lt;path d=\&quot;M0 2Q10 5 35 2M0 7Q16 3 35 7\&quot; fill=\&quot;none\&quot; stroke=\&quot;#101214\&quot; stroke-width=\&quot;.6\&quot; opacity=\&quot;.28\&quot; /&gt;&lt;/pattern&gt;\n&lt;/defs&gt;&lt;path d=\&quot;M1 15L82 3 98 28 17 42Z\&quot; fill=\&quot;url(#tone)\&quot; stroke=\&quot;currentColor\&quot; stroke-width=\&quot;2\&quot; /&gt;&lt;path d=\&quot;M1 15L82 3 98 28 17 42Z\&quot; fill=\&quot;url(#wood)\&quot; /&gt;&lt;path d=\&quot;M17 42V98H24V43M90 31V91H96V29\&quot; fill=\&quot;#202326\&quot; stroke=\&quot;currentColor\&quot; stroke-width=\&quot;1.5\&quot; /&gt;&lt;path d=\&quot;M17 42L98 28\&quot; fill=\&quot;none\&quot; stroke=\&quot;#E7E0D0\&quot; stroke-width=\&quot;1\&quot; opacity=\&quot;.5\&quot; /&gt;&quot;,
+    &quot;person-seated&quot;: &quot;&lt;defs&gt;\n&lt;linearGradient id=\&quot;tone\&quot; x1=\&quot;0\&quot; y1=\&quot;0\&quot; x2=\&quot;1\&quot; y2=\&quot;1\&quot;&gt;&lt;stop stop-color=\&quot;currentColor\&quot; /&gt;&lt;stop offset=\&quot;1\&quot; stop-color=\&quot;#101214\&quot; stop-opacity=\&quot;.65\&quot; /&gt;&lt;/linearGradient&gt;\n&lt;/defs&gt;&lt;ellipse cx=\&quot;47\&quot; cy=\&quot;14\&quot; rx=\&quot;15\&quot; ry=\&quot;13\&quot; fill=\&quot;url(#tone)\&quot; /&gt;&lt;path d=\&quot;M35 28Q60 22 69 49L89 54L87 62L61 58L52 44L56 65L79 68L88 98H77L66 80H35Q25 77 27 62Z\&quot; fill=\&quot;url(#tone)\&quot; /&gt;&lt;path d=\&quot;M17 37V80H58M20 80V100M55 80V100\&quot; fill=\&quot;none\&quot; stroke=\&quot;currentColor\&quot; stroke-width=\&quot;3\&quot; /&gt;&lt;path d=\&quot;M36 32L42 33 36 60 39 73 30 70 29 60Z\&quot; fill=\&quot;#101214\&quot; opacity=\&quot;.35\&quot; /&gt;&lt;path d=\&quot;M49 32L57 45M58 52L80 57\&quot; fill=\&quot;none\&quot; stroke=\&quot;#E7E0D0\&quot; stroke-width=\&quot;1\&quot; opacity=\&quot;.4\&quot; /&gt;&quot;
+  },
+  &quot;palette&quot;: {
+    &quot;amber&quot;: &quot;#A17D45&quot;,
+    &quot;claret&quot;: &quot;#6B2634&quot;,
+    &quot;dirty&quot;: &quot;#CEC5B3&quot;,
+    &quot;ink&quot;: &quot;#101214&quot;,
+    &quot;institution&quot;: &quot;#68766B&quot;,
+    &quot;moss&quot;: &quot;#74864F&quot;,
+    &quot;nicotine&quot;: &quot;#AA9571&quot;,
+    &quot;paper&quot;: &quot;#E7E0D0&quot;,
+    &quot;shadow&quot;: &quot;#202326&quot;,
+    &quot;steel&quot;: &quot;#5E737B&quot;
+  },
+  &quot;renderer&quot;: &quot;storyboard-svg-2&quot;,
+  &quot;scene&quot;: {
+    &quot;background&quot;: &quot;ink&quot;,
+    &quot;intent&quot;: &quot;Use ordinary meeting geometry and a prominent continuous composite disclosure. Functional roles share the table; no venue insignia or recognizable likeness should imply a particular real meeting. Use the broken conference envelope and blank presentation board, with the existing composite disclosure retained.&quot;,
+    &quot;lettering&quot;: [],
+    &quot;lettering_mode&quot;: &quot;manual&quot;,
+    &quot;nodes&quot;: [
+      {
+        &quot;asset&quot;: &quot;composite-conference-room&quot;,
+        &quot;box&quot;: [
+          0.0443,
+          0.044,
+          0.9114,
+          0.882
+        ],
+        &quot;color&quot;: &quot;steel&quot;
+      },
+      {
+        &quot;asset&quot;: &quot;desk&quot;,
+        &quot;box&quot;: [
+          0.1931,
+          0.611,
+          0.7254,
+          0.279
+        ],
+        &quot;color&quot;: &quot;institution&quot;
+      },
+      {
+        &quot;asset&quot;: &quot;person-seated&quot;,
+        &quot;box&quot;: [
+          0.0722,
+          0.296,
+          0.2418,
+          0.558
+        ],
+        &quot;color&quot;: &quot;dirty&quot;,
+        &quot;focus&quot;: true
+      },
+      {
+        &quot;asset&quot;: &quot;person-seated&quot;,
+        &quot;box&quot;: [
+          0.7046,
+          0.296,
+          0.2418,
+          0.558
+        ],
+        &quot;color&quot;: &quot;dirty&quot;,
+        &quot;flip&quot;: true,
+        &quot;focus&quot;: true
+      },
+      {
+        &quot;asset&quot;: &quot;card&quot;,
+        &quot;box&quot;: [
+          0.1001,
+          0.35,
+          0.197284,
+          0.198
+        ],
+        &quot;color&quot;: &quot;steel&quot;,
+        &quot;focus&quot;: true,
+        &quot;label&quot;: &quot;SAFETY&quot;,
+        &quot;label_box&quot;: [
+          0.09209999999999999,
+          0.554,
+          0.21328399999999997,
+          0.04899999999999994
+        ]
+      },
+      {
+        &quot;asset&quot;: &quot;card&quot;,
+        &quot;box&quot;: [
+          0.3667,
+          0.35,
+          0.197284,
+          0.198
+        ],
+        &quot;color&quot;: &quot;steel&quot;,
+        &quot;focus&quot;: true,
+        &quot;label&quot;: &quot;SECURITY&quot;,
+        &quot;label_box&quot;: [
+          0.3587,
+          0.554,
+          0.21328399999999997,
+          0.04899999999999994
+        ]
+      },
+      {
+        &quot;asset&quot;: &quot;card&quot;,
+        &quot;box&quot;: [
+          0.6333,
+          0.35,
+          0.197284,
+          0.198
+        ],
+        &quot;color&quot;: &quot;steel&quot;,
+        &quot;focus&quot;: true,
+        &quot;label&quot;: &quot;RESEARCH&quot;,
+        &quot;label_box&quot;: [
+          0.6253,
+          0.554,
+          0.21328399999999997,
+          0.04899999999999994
+        ]
+      }
+    ],
+    &quot;reconstructed&quot;: true,
+    &quot;shot&quot;: &quot;meeting&quot;,
+    &quot;source&quot;: &quot;\n**Frame:** Recto. A conference room drawn with broken borders. A large top label reads `COMPOSITE / RECONSTRUCTED — NO SINGLE MEETING`. Participants are functional silhouettes: safety, security, research, leadership.\n\n**Action:** The question of continued capability work is placed on the table.\n\n**Provenance:** `reconstructed` — hypothetical institutional scene; roles are generic.\n\n&quot;,
+    &quot;title&quot;: &quot;A visibly composite meeting of functional roles&quot;
+  }
+}
+</metadata><rect width="1200" height="800" fill="#101214"/><g transform="translate(53.16 35.2) scale(10.9368 7.056)" color="#5E737B"><g transform=""><path d="M2 3H98V97H2Z" fill="#101214" opacity=".2" /><path d="M2 3L18 18H82L98 3Z" fill="#5E737B" opacity=".18" /><path d="M18 73H82L98 97H2Z" fill="#68766B" opacity=".25" /><rect x="28" y="24" width="44" height="21" fill="#68766B" opacity=".13" /><g fill="none" stroke="currentColor" stroke-width="0.9" stroke-linejoin="round" opacity="0.5"><path d="M2 3H98V97H2Z" stroke-dasharray="5 3" /><path d="M2 3L18 18H82L98 3M18 18V73H82V18M18 73L2 97M82 73L98 97M30 10H70M30 13H70" /><rect x="28" y="24" width="44" height="21" /></g></g></g><g transform="translate(231.72 488.8) scale(8.7048 2.232)" color="#68766B"><g transform=""><defs>
+<linearGradient id="node-1-tone" x1="0" y1="0" x2="1" y2="1"><stop stop-color="currentColor" /><stop offset="1" stop-color="#101214" stop-opacity=".65" /></linearGradient>
+<pattern id="node-1-wood" width="35" height="9" patternUnits="userSpaceOnUse"><path d="M0 2Q10 5 35 2M0 7Q16 3 35 7" fill="none" stroke="#101214" stroke-width=".6" opacity=".28" /></pattern>
+</defs><path d="M1 15L82 3 98 28 17 42Z" fill="url(#node-1-tone)" stroke="currentColor" stroke-width="2" /><path d="M1 15L82 3 98 28 17 42Z" fill="url(#node-1-wood)" /><path d="M17 42V98H24V43M90 31V91H96V29" fill="#202326" stroke="currentColor" stroke-width="1.5" /><path d="M17 42L98 28" fill="none" stroke="#E7E0D0" stroke-width="1" opacity=".5" /></g></g><g transform="translate(86.64 236.8) scale(2.9016 4.464)" color="#CEC5B3"><g transform=""><defs>
+<linearGradient id="node-2-tone" x1="0" y1="0" x2="1" y2="1"><stop stop-color="currentColor" /><stop offset="1" stop-color="#101214" stop-opacity=".65" /></linearGradient>
+</defs><ellipse cx="47" cy="14" rx="15" ry="13" fill="url(#node-2-tone)" /><path d="M35 28Q60 22 69 49L89 54L87 62L61 58L52 44L56 65L79 68L88 98H77L66 80H35Q25 77 27 62Z" fill="url(#node-2-tone)" /><path d="M17 37V80H58M20 80V100M55 80V100" fill="none" stroke="currentColor" stroke-width="3" /><path d="M36 32L42 33 36 60 39 73 30 70 29 60Z" fill="#101214" opacity=".35" /><path d="M49 32L57 45M58 52L80 57" fill="none" stroke="#E7E0D0" stroke-width="1" opacity=".4" /></g></g><g transform="translate(845.52 236.8) scale(2.9016 4.464)" color="#CEC5B3"><g transform="translate(100 0) scale(-1 1)"><defs>
+<linearGradient id="node-3-tone" x1="0" y1="0" x2="1" y2="1"><stop stop-color="currentColor" /><stop offset="1" stop-color="#101214" stop-opacity=".65" /></linearGradient>
+</defs><ellipse cx="47" cy="14" rx="15" ry="13" fill="url(#node-3-tone)" /><path d="M35 28Q60 22 69 49L89 54L87 62L61 58L52 44L56 65L79 68L88 98H77L66 80H35Q25 77 27 62Z" fill="url(#node-3-tone)" /><path d="M17 37V80H58M20 80V100M55 80V100" fill="none" stroke="currentColor" stroke-width="3" /><path d="M36 32L42 33 36 60 39 73 30 70 29 60Z" fill="#101214" opacity=".35" /><path d="M49 32L57 45M58 52L80 57" fill="none" stroke="#E7E0D0" stroke-width="1" opacity=".4" /></g></g><g transform="translate(120.12 280) scale(2.36741 1.584)" color="#5E737B"><g transform=""><defs>
+<linearGradient id="node-4-stock" x1="0" y1="0" x2=".8" y2="1"><stop stop-color="#E7E0D0" /><stop offset="1" stop-color="#CEC5B3" /></linearGradient>
+<pattern id="node-4-grain" width="7" height="9" patternUnits="userSpaceOnUse"><circle cx="1" cy="2" r=".35" fill="#101214" opacity=".18" /><path d="M4 6h2M1 8h1" stroke="#101214" stroke-width=".3" opacity=".16" /></pattern>
+</defs><path d="M5 3H95V97H5Z" fill="url(#node-4-stock)" stroke="currentColor" stroke-width="2" /><path d="M5 3H95V97H5Z" fill="url(#node-4-grain)" /><rect x="5" y="3" width="90" height="15" fill="currentColor" /><rect x="10" y="25" width="5" height="61" fill="currentColor" /><path d="M23 29H85M23 38H75M23 48H83M23 66H62M23 78H80" fill="none" stroke="#101214" stroke-width="2" /><path d="M12 11H42M65 11H86" fill="none" stroke="#E7E0D0" stroke-width="1.4" /></g></g><text x="238.49" y="463.2" text-anchor="middle" fill="#E7E0D0" font-size="20" font-family="sans-serif">SAFETY</text><g transform="translate(440.04 280) scale(2.36741 1.584)" color="#5E737B"><g transform=""><defs>
+<linearGradient id="node-5-stock" x1="0" y1="0" x2=".8" y2="1"><stop stop-color="#E7E0D0" /><stop offset="1" stop-color="#CEC5B3" /></linearGradient>
+<pattern id="node-5-grain" width="7" height="9" patternUnits="userSpaceOnUse"><circle cx="1" cy="2" r=".35" fill="#101214" opacity=".18" /><path d="M4 6h2M1 8h1" stroke="#101214" stroke-width=".3" opacity=".16" /></pattern>
+</defs><path d="M5 3H95V97H5Z" fill="url(#node-5-stock)" stroke="currentColor" stroke-width="2" /><path d="M5 3H95V97H5Z" fill="url(#node-5-grain)" /><rect x="5" y="3" width="90" height="15" fill="currentColor" /><rect x="10" y="25" width="5" height="61" fill="currentColor" /><path d="M23 29H85M23 38H75M23 48H83M23 66H62M23 78H80" fill="none" stroke="#101214" stroke-width="2" /><path d="M12 11H42M65 11H86" fill="none" stroke="#E7E0D0" stroke-width="1.4" /></g></g><text x="558.41" y="463.2" text-anchor="middle" fill="#E7E0D0" font-size="20" font-family="sans-serif">SECURITY</text><g transform="translate(759.96 280) scale(2.36741 1.584)" color="#5E737B"><g transform=""><defs>
+<linearGradient id="node-6-stock" x1="0" y1="0" x2=".8" y2="1"><stop stop-color="#E7E0D0" /><stop offset="1" stop-color="#CEC5B3" /></linearGradient>
+<pattern id="node-6-grain" width="7" height="9" patternUnits="userSpaceOnUse"><circle cx="1" cy="2" r=".35" fill="#101214" opacity=".18" /><path d="M4 6h2M1 8h1" stroke="#101214" stroke-width=".3" opacity=".16" /></pattern>
+</defs><path d="M5 3H95V97H5Z" fill="url(#node-6-stock)" stroke="currentColor" stroke-width="2" /><path d="M5 3H95V97H5Z" fill="url(#node-6-grain)" /><rect x="5" y="3" width="90" height="15" fill="currentColor" /><rect x="10" y="25" width="5" height="61" fill="currentColor" /><path d="M23 29H85M23 38H75M23 48H83M23 66H62M23 78H80" fill="none" stroke="#101214" stroke-width="2" /><path d="M12 11H42M65 11H86" fill="none" stroke="#E7E0D0" stroke-width="1.4" /></g></g><text x="878.33" y="463.2" text-anchor="middle" fill="#E7E0D0" font-size="20" font-family="sans-serif">RESEARCH</text><rect x="3" y="3" width="1194" height="794" fill="none" stroke="#5E737B" stroke-width="4" stroke-dasharray="18 10"/></svg>

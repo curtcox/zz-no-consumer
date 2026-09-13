@@ -27,6 +27,8 @@ continuity_checks: []
 
 ## Panel 1
 
+**Location:** `[physical-or-logical-location-id]`
+
 **Frame:** [Shot, angle, environment, actors/system surfaces, visible state.]
 
 **Action:** [What changes.]

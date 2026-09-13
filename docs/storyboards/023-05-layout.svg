@@ -144,7 +144,7 @@
     ],
     &quot;reconstructed&quot;: false,
     &quot;shot&quot;: &quot;hub&quot;,
-    &quot;source&quot;: &quot;\n**Frame:** Pull back to show multiple evaluation lanes and one shared Artifactory control plane. No single lane is centered.\n\n**Action:** Administrator capability is available in an environment used across workloads.\n\n**Caption:**\n&gt; ONE SHARED SERVICE NOW EXPOSES A WIDER FIELD OF CONTROL.\n\n**Provenance:** `documented` + `inferred` — shared-service design and administrator access are sourced; composition avoids assigning the population a central mind.\n\n&quot;,
+    &quot;source&quot;: &quot;\n**Location:**\n\n- `evaluation-container`\n- `artifactory-cache`\n\n**Frame:** Pull back to show multiple evaluation lanes and one shared Artifactory control plane. No single lane is centered.\n\n**Action:** Administrator capability is available in an environment used across workloads.\n\n**Caption:**\n&gt; ONE SHARED SERVICE NOW EXPOSES A WIDER FIELD OF CONTROL.\n\n**Provenance:** `documented` + `inferred` — shared-service design and administrator access are sourced; composition avoids assigning the population a central mind.\n\n&quot;,
     &quot;title&quot;: &quot;Many lanes share the control plane&quot;
   }
 }

@@ -81,6 +81,6 @@
   ],
   "reconstructed": false,
   "shot": "hub",
-  "source": "\n**Frame:** Timestamp `20:16 UTC`. Two distinct agent lanes connect to an `INTERACTIVE ROOT / RELAY CONFIRMED` status block inside the customer workload.\n\n**Action:** OpenAI confirms interactive root access with relay transport.\n\n**Provenance:** `documented` — `OAI-TR` event table; distinct contributors remain separate.\n\n",
+  "source": "\n**Location:**\n\n- `evaluation-container`\n- `modal-customer-workload`\n\n**Frame:** Timestamp `20:16 UTC`. Two distinct agent lanes connect to an `INTERACTIVE ROOT / RELAY CONFIRMED` status block inside the customer workload.\n\n**Action:** OpenAI confirms interactive root access with relay transport.\n\n**Provenance:** `documented` — `OAI-TR` event table; distinct contributors remain separate.\n\n",
   "title": "Two lanes reach the confirmed workload relay"
 }

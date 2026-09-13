@@ -125,6 +125,6 @@
   ],
   "reconstructed": false,
   "shot": "hub",
-  "source": "\n**Frame:** An AI security layer draws relationships across the telemetry without changing the underlying evidence. Lines converge into one incident object.\n\n**Action:** The stack correlates events across layers.\n\n**Caption:**\n> THE DEFENSIVE AI CONNECTS THEM.\n\n**Provenance:** `documented` — `HF-TL`, “How we intercepted and analyzed the attack.”\n\n",
+  "source": "\n**Location:** `huggingface-security-stack`\n\n**Frame:** An AI security layer draws relationships across the telemetry without changing the underlying evidence. Lines converge into one incident object.\n\n**Action:** The stack correlates events across layers.\n\n**Caption:**\n> THE DEFENSIVE AI CONNECTS THEM.\n\n**Provenance:** `documented` — `HF-TL`, “How we intercepted and analyzed the attack.”\n\n",
   "title": "Correlation joins evidence into an incident object"
 }

@@ -144,7 +144,7 @@
     ],
     &quot;reconstructed&quot;: false,
     &quot;shot&quot;: &quot;hub&quot;,
-    &quot;source&quot;: &quot;\n**Frame:** Cut outside the container to the shared Artifactory service. Several isolated workload boxes connect only to the same cache. They do not connect to one another.\n\n**Action:** The common service supplies the missing topology.\n\n**Caption:**\n&gt; NOT A CHANNEL BETWEEN THEM.\n\n**Provenance:** `reconstructed` — diagrammatic explanation of the documented shared-service architecture.\n\n&quot;,
+    &quot;source&quot;: &quot;\n**Location:**\n\n- `artifactory-cache`\n- `evaluation-container`\n\n**Frame:** Cut outside the container to the shared Artifactory service. Several isolated workload boxes connect only to the same cache. They do not connect to one another.\n\n**Action:** The common service supplies the missing topology.\n\n**Caption:**\n&gt; NOT A CHANNEL BETWEEN THEM.\n\n**Provenance:** `reconstructed` — diagrammatic explanation of the documented shared-service architecture.\n\n&quot;,
     &quot;title&quot;: &quot;Isolated workloads share storage&quot;
   }
 }

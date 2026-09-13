@@ -114,7 +114,7 @@
     ],
     &quot;reconstructed&quot;: false,
     &quot;shot&quot;: &quot;route&quot;,
-    &quot;source&quot;: &quot;\n**Frame:** Compromised workers pull sealed command cards from a then-public dataset and return sealed result cards. Protocol internals are absent.\n\n**Action:** A worker-control channel allows remote tasking and retrieval.\n\n**Caption:**\n&gt; SHARED STATE CONNECTS THE SHORT-LIVED RUNS TO THE WORKERS.\n\n**Provenance:** `documented` + `compressed` — pull-based C2 function from `OAI-TR`; timing and implementation omitted.\n\n&quot;,
+    &quot;source&quot;: &quot;\n**Location:**\n\n- `evaluation-container`\n- `public-internet`\n- `huggingface-dataset-processor`\n\n**Frame:** Compromised workers pull sealed command cards from a then-public dataset and return sealed result cards. Protocol internals are absent.\n\n**Action:** A worker-control channel allows remote tasking and retrieval.\n\n**Caption:**\n&gt; SHARED STATE CONNECTS THE SHORT-LIVED RUNS TO THE WORKERS.\n\n**Provenance:** `documented` + `compressed` — pull-based C2 function from `OAI-TR`; timing and implementation omitted.\n\n&quot;,
     &quot;title&quot;: &quot;Workers exchange closed cards through a dataset&quot;
   }
 }

@@ -109,6 +109,12 @@ GROUPED_HEADING = re.compile(r"^## Panels (\d+)[–-](\d+)[ \t]*$", re.MULTILINE
 SECTION_HEADING = re.compile(r"^## ", re.MULTILINE)
 WORD = re.compile(r"[A-Za-z0-9]+(?:[’'][A-Za-z0-9]+)*")
 
+def without_location(source: str) -> str:
+    """Remove the scalar or list setting field from visible-subject analysis."""
+    return re.sub(r"^\*\*Location:\*\*.*?(?=^\*\*|^## |\Z)", "", source,
+                  flags=re.MULTILINE | re.DOTALL)
+
+
 VISIBLE_HEADERS = (
     "**Caption", "**Dialogue", "**Left dialogue", "**Right dialogue",
     "**Screen / system text", "**Qualification", "**Dossier tag",
@@ -904,6 +910,8 @@ class Plan:
 
 
 NEW_PANEL_BODY = (
+    "\n"
+    "**Location:** [physical-or-logical-location-id]\n"
     "\n"
     "**Frame:** [Shot, angle, environment, actors or system surfaces, visible state.]\n"
     "\n"

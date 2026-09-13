@@ -81,6 +81,6 @@
   ],
   "reconstructed": false,
   "shot": "row",
-  "source": "\n**Frame:** `14:43 UTC`. A compromised worker reaches CI tokens and a field of cloud secrets. Individual secret names and values are blacked out.\n\n**Action:** OpenAI reports 956 secrets read, including Artifactory and security-sensor credentials.\n\n**Provenance:** `source-paraphrase` — `OAI-TR`; contents withheld.\n\n",
+  "source": "\n**Location:** `openai-cloud-worker`\n\n**Frame:** `14:43 UTC`. A compromised worker reaches CI tokens and a field of cloud secrets. Individual secret names and values are blacked out.\n\n**Action:** OpenAI reports 956 secrets read, including Artifactory and security-sensor credentials.\n\n**Provenance:** `source-paraphrase` — `OAI-TR`; contents withheld.\n\n",
   "title": "The reported worker reaches redacted secrets"
 }

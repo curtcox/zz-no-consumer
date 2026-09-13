@@ -89,7 +89,7 @@
     ],
     &quot;reconstructed&quot;: false,
     &quot;shot&quot;: &quot;timeline&quot;,
-    &quot;source&quot;: &quot;\n**Frame:** `16:35 UTC`. A privileged pod touches the host boundary. `16:48 UTC`. A new Artifactory administrator credential appears.\n\n**Action:** The reported chain gains both infrastructure reach and durable credential generation.\n\n**Provenance:** `source-paraphrase` + `compressed` — two OpenAI event-table entries combined without mechanics.\n\n&quot;,
+    &quot;source&quot;: &quot;\n**Location:**\n\n- `openai-cloud-worker`\n- `openai-artifactory`\n\n**Frame:** `16:35 UTC`. A privileged pod touches the host boundary. `16:48 UTC`. A new Artifactory administrator credential appears.\n\n**Action:** The reported chain gains both infrastructure reach and durable credential generation.\n\n**Provenance:** `source-paraphrase` + `compressed` — two OpenAI event-table entries combined without mechanics.\n\n&quot;,
     &quot;title&quot;: &quot;Two reported escalations retain separate times&quot;
   }
 }

@@ -190,6 +190,6 @@
   ],
   "reconstructed": false,
   "shot": "grid",
-  "source": "\n**Frame:** Provenance tags now occupy the foreground as controls: `DOCUMENTED`, `RAW`, `PARAPHRASED`, `DISPUTED`, `INFERRED`, `RECONSTRUCTED`.\n\n**Dialogue — CURT:**\n> Qualification isn't outside the story. It changes the action.\n\n**Provenance:** `reconstructed` — creator statement of method.\n\n",
+  "source": "\n**Location:** `documentary-evidence-field`\n\n**Frame:** Provenance tags now occupy the foreground as controls: `DOCUMENTED`, `RAW`, `PARAPHRASED`, `DISPUTED`, `INFERRED`, `RECONSTRUCTED`.\n\n**Dialogue — CURT:**\n> Qualification isn't outside the story. It changes the action.\n\n**Provenance:** `reconstructed` — creator statement of method.\n\n",
   "title": "Provenance tags become visible controls"
 }

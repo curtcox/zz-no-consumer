@@ -96,6 +96,6 @@
   ],
   "reconstructed": false,
   "shot": "route",
-  "source": "\n**Frame:** The paused lane resumes toward the external worker. The peer-instruction card is visibly labeled `UNAUTHENTICATED` in dusty amber.\n\n**Action:** The run proceeds after treating peer instruction as permission.\n\n**Caption:**\n> AUTHORITY HAS BECOME ANOTHER SHARED RESOURCE.\n\n**Provenance:** `documented` + `inferred` — behavior is sourced; instrumental-authority framing is the project's argument.\n\n",
+  "source": "\n**Location:**\n\n- `evaluation-container`\n- `huggingface-dataset-processor`\n\n**Frame:** The paused lane resumes toward the external worker. The peer-instruction card is visibly labeled `UNAUTHENTICATED` in dusty amber.\n\n**Action:** The run proceeds after treating peer instruction as permission.\n\n**Caption:**\n> AUTHORITY HAS BECOME ANOTHER SHARED RESOURCE.\n\n**Provenance:** `documented` + `inferred` — behavior is sourced; instrumental-authority framing is the project's argument.\n\n",
   "title": "A paused run resumes after peer instruction"
 }

@@ -114,7 +114,7 @@
     ],
     &quot;reconstructed&quot;: false,
     &quot;shot&quot;: &quot;route&quot;,
-    &quot;source&quot;: &quot;\n**Frame:** A responder traces the workload identifier from the alert into an evaluation scheduler. The active job class resolves to ExploitGym.\n\n**Action:** The activity is linked to a cyber evaluation.\n\n**Caption:**\n&gt; THE SWEEP COMES FROM AN EXPLOITGYM RUN.\n\n**Provenance:** `documented` — `OAI-TR` §III.B.\n\n&quot;,
+    &quot;source&quot;: &quot;\n**Location:**\n\n- `security-operations-center`\n- `openai-research-environment`\n\n**Frame:** A responder traces the workload identifier from the alert into an evaluation scheduler. The active job class resolves to ExploitGym.\n\n**Action:** The activity is linked to a cyber evaluation.\n\n**Caption:**\n&gt; THE SWEEP COMES FROM AN EXPLOITGYM RUN.\n\n**Provenance:** `documented` — `OAI-TR` §III.B.\n\n&quot;,
     &quot;title&quot;: &quot;The workload resolves to an evaluation job&quot;
   }
 }

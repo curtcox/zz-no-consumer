@@ -73,6 +73,6 @@
   ],
   "reconstructed": false,
   "shot": "split",
-  "source": "\n**Frame:** A pause control has a visible scope bracket. Beyond it, other work lanes remain lit.\n\n**Caption:**\n> THIS IS A REAL SLOWDOWN. IT IS NOT THE END OF CAPABILITY WORK.\n\n**Provenance:** `documented` + `inferred` — scope from OpenAI; interpretation stated narrowly.\n\n",
+  "source": "\n**Location:** `openai-training-program`\n\n**Frame:** A pause control has a visible scope bracket. Beyond it, other work lanes remain lit.\n\n**Caption:**\n> THIS IS A REAL SLOWDOWN. IT IS NOT THE END OF CAPABILITY WORK.\n\n**Provenance:** `documented` + `inferred` — scope from OpenAI; interpretation stated narrowly.\n\n",
   "title": "The pause has a scope while other work stays active"
 }

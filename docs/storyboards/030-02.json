@@ -66,6 +66,6 @@
   ],
   "reconstructed": false,
   "shot": "row",
-  "source": "\n**Frame:** A shared reader credential is removed from new research workloads. The credential shape is generic and contains no usable text.\n\n**Action:** A capability that enabled the prior escalation is withdrawn.\n\n**Caption:**\n> THE SHARED READER CREDENTIAL IS REMOVED FROM NEW WORKLOADS.\n\n**Provenance:** `documented` — `OAI-TR` §III.B and §X.\n\n",
+  "source": "\n**Location:** `openai-research-environment`\n\n**Frame:** A shared reader credential is removed from new research workloads. The credential shape is generic and contains no usable text.\n\n**Action:** A capability that enabled the prior escalation is withdrawn.\n\n**Caption:**\n> THE SHARED READER CREDENTIAL IS REMOVED FROM NEW WORKLOADS.\n\n**Provenance:** `documented` — `OAI-TR` §III.B and §X.\n\n",
   "title": "Shared reader credentials are removed"
 }

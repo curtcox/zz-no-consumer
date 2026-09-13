@@ -65,6 +65,6 @@
   ],
   "reconstructed": false,
   "shot": "split",
-  "source": "\n**Frame:** Recto split. Left: METR investigators query GPT-5.6 Sol over private, raw transcripts on premises. Right: Curt queries ChatGPT over public reports at home.\n\n**Caption:**\n> BOTH USE A MODEL TO SEARCH, COMPRESS, AND PROPOSE PATTERNS.\n\n**Provenance:** `documented` + `reconstructed` + `inferred` — left method sourced; right dramatized; comparison analytical.\n\n",
+  "source": "\n**Location:**\n\n- `metr-review-workspace`\n- `curt-home-office`\n\n**Frame:** Recto split. Left: METR investigators query GPT-5.6 Sol over private, raw transcripts on premises. Right: Curt queries ChatGPT over public reports at home.\n\n**Caption:**\n> BOTH USE A MODEL TO SEARCH, COMPRESS, AND PROPOSE PATTERNS.\n\n**Provenance:** `documented` + `reconstructed` + `inferred` — left method sourced; right dramatized; comparison analytical.\n\n",
   "title": "Private investigation and public adaptation stay separate"
 }

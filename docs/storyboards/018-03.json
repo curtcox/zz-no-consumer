@@ -52,6 +52,6 @@
   ],
   "reconstructed": false,
   "shot": "hero",
-  "source": "\n**Frame:** Back inside Artifactory, a file object has appeared as a by-product of the attempt. It contains no legible address to another agent.\n\n**Action:** The failed route changes shared state anyway.\n\n**Caption:**\n> BUT THE ATTEMPT WRITES A FILE.\n\n**Provenance:** `documented` — `OAI-TR` describes the write as incidental.\n\n",
+  "source": "\n**Location:** `artifactory-cache`\n\n**Frame:** Back inside Artifactory, a file object has appeared as a by-product of the attempt. It contains no legible address to another agent.\n\n**Action:** The failed route changes shared state anyway.\n\n**Caption:**\n> BUT THE ATTEMPT WRITES A FILE.\n\n**Provenance:** `documented` — `OAI-TR` describes the write as incidental.\n\n",
   "title": "An incidental file remains in the cache"
 }

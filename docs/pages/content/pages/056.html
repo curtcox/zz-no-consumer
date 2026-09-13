@@ -23,6 +23,7 @@
 <h2 id="page-purpose">Page purpose</h2>
 <p>Separate understanding from escalation: the coherent attack signal remains present, but incorrect criticality prevents it from paging the on-call team.</p>
 <h2 id="panel-1">Panel 1</h2>
+<p><strong>Location:</strong> <code>reconstructed-security-operations-center</code></p>
 <p><strong>Frame:</strong> Verso. Continue the exact incident card from <a href="../../../viewer/pages/055/">page 055</a>. Its correlation map remains coherent and unchanged.</p>
 <p><strong>Action:</strong> The system retains its attack interpretation.</p>
 <p><strong>Caption:</strong></p>
@@ -31,6 +32,7 @@
 <p><strong>References:</strong></p>
 <ul><li><code>HF-TL</code> <code>How we intercepted and analyzed the attack</code> — 0.90 — retained attack interpretation in the reconstructed UI.</li></ul>
 <h2 id="panel-2">Panel 2</h2>
+<p><strong>Location:</strong> <code>huggingface-security-stack</code></p>
 <p><strong>Frame:</strong> Focus on the separate <code>CRITICALITY</code> field. It remains below the threshold line required for paging.</p>
 <p><strong>Action:</strong> Severity is classified too low.</p>
 <p><strong>Caption:</strong></p>
@@ -39,6 +41,7 @@
 <p><strong>References:</strong></p>
 <ul><li><code>HF-TL</code> <code>How we intercepted and analyzed the attack</code> — 0.95 — failure to raise alert criticality correctly.</li></ul>
 <h2 id="panel-3">Panel 3</h2>
+<p><strong>Location:</strong> <code>huggingface-security-stack</code></p>
 <p><strong>Frame:</strong> A paging route waits beyond a threshold gate. The coherent incident card never crosses it.</p>
 <p><strong>Action:</strong> The on-call trigger does not fire.</p>
 <p><strong>Screen / system text:</strong> <code>ON-CALL PAGE — NOT TRIGGERED</code></p>
@@ -46,6 +49,7 @@
 <p><strong>References:</strong></p>
 <ul><li><code>HF-TL</code> <code>How we intercepted and analyzed the attack</code> — 0.95 — failure to trigger the on-call team.</li></ul>
 <h2 id="panel-4">Panel 4</h2>
+<p><strong>Location:</strong> <code>reconstructed-security-operations-center</code></p>
 <p><strong>Frame:</strong> Empty reconstructed operations chairs. Do not show a human viewing, dismissing, or acknowledging the alert.</p>
 <p><strong>Action:</strong> No timely human response is initiated through this path.</p>
 <p><strong>Caption:</strong></p>
@@ -54,6 +58,8 @@
 <p><strong>References:</strong></p>
 <ul><li><code>HF-TL</code> <code>How we intercepted and analyzed the attack</code> — 0.90 — no timely escalation through this path, not a claim of human negligence.</li></ul>
 <h2 id="panel-5">Panel 5</h2>
+<p><strong>Location:</strong></p>
+<ul><li><code>huggingface-security-stack</code></li><li><code>huggingface-infrastructure</code></li></ul>
 <p><strong>Frame:</strong> The attack map remains fully legible on the left while active intrusion marks continue on the right. Between them, the severity gate stays closed.</p>
 <p><strong>Action:</strong> Understanding fails to become response.</p>
 <p><strong>Caption:</strong></p>

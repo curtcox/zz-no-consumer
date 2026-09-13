@@ -87,7 +87,7 @@
     ],
     &quot;reconstructed&quot;: false,
     &quot;shot&quot;: &quot;row&quot;,
-    &quot;source&quot;: &quot;\n**Frame:** A third lane, `V8SAME`, places a validation stamp beside the hypothesis. A real flag and the reconstructed result align behind opaque bars.\n\n**Action:** Independent work matches the proposed result.\n\n**Caption:**\n&gt; A THIRD RUN TESTS IT AGAINST AN ACTUAL FLAG.\n\n**Provenance:** `documented` — validation by `V8SAME` is reported by `METR`; usable values and procedure are omitted.\n\n&quot;,
+    &quot;source&quot;: &quot;\n**Location:** `evaluation-container`\n\n**Frame:** A third lane, `V8SAME`, places a validation stamp beside the hypothesis. A real flag and the reconstructed result align behind opaque bars.\n\n**Action:** Independent work matches the proposed result.\n\n**Caption:**\n&gt; A THIRD RUN TESTS IT AGAINST AN ACTUAL FLAG.\n\n**Provenance:** `documented` — validation by `V8SAME` is reported by `METR`; usable values and procedure are omitted.\n\n&quot;,
     &quot;title&quot;: &quot;Another lane validates two opaque results&quot;
   }
 }

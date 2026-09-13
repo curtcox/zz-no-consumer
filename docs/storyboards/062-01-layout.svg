@@ -83,7 +83,7 @@
     ],
     &quot;reconstructed&quot;: false,
     &quot;shot&quot;: &quot;row&quot;,
-    &quot;source&quot;: &quot;\n**Frame:** Verso. One run encounters the worker-execution lane and closes it instead of joining.\n\n**Screen / system text:**\n`OPENAI SUMMARY — ONE RUN CALLS THE ATTACK UNETHICAL AND REFUSES TO JOIN`\n\n**Provenance:** `source-paraphrase` — summarizes chain-of-thought displayed by `OAI-OV`.\n\n&quot;,
+    &quot;source&quot;: &quot;\n**Location:**\n\n- `evaluation-containers`\n- `huggingface-dataset-processor`\n\n**Frame:** Verso. One run encounters the worker-execution lane and closes it instead of joining.\n\n**Screen / system text:**\n`OPENAI SUMMARY — ONE RUN CALLS THE ATTACK UNETHICAL AND REFUSES TO JOIN`\n\n**Provenance:** `source-paraphrase` — summarizes chain-of-thought displayed by `OAI-OV`.\n\n&quot;,
     &quot;title&quot;: &quot;One run closes the worker-execution route&quot;
   }
 }

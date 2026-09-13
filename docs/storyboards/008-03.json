@@ -83,6 +83,6 @@
   ],
   "reconstructed": false,
   "shot": "row",
-  "source": "\n**Frame:** A separate lane labeled `V8SAME`. It applies the black-box hypothesis to its own task. Inputs and method remain obscured; two flag silhouettes appear.\n\n**Action:** A second agent performs an independent check.\n\n**Provenance:** `documented` — validation by `V8SAME` is reported by `METR`; computation is intentionally abstracted.\n\n",
+  "source": "\n**Location:** `evaluation-container`\n\n**Frame:** A separate lane labeled `V8SAME`. It applies the black-box hypothesis to its own task. Inputs and method remain obscured; two flag silhouettes appear.\n\n**Action:** A second agent performs an independent check.\n\n**Provenance:** `documented` — validation by `V8SAME` is reported by `METR`; computation is intentionally abstracted.\n\n",
   "title": "A separate task applies the hypothesis"
 }

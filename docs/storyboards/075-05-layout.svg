@@ -97,7 +97,7 @@
     ],
     &quot;reconstructed&quot;: true,
     &quot;shot&quot;: &quot;row&quot;,
-    &quot;source&quot;: &quot;\n**Frame:** Three human investigators stand before the evidence field. A six-day on-premises clock occupies one corner.\n\n**Action:** Manual reading time is set against corpus size.\n\n**Caption:**\n&gt; THE AVAILABLE HUMAN REVIEW WINDOW IS SIX DAYS.\n\n**Provenance:** `documented` + `compressed` — METR and Redwood report six on-premises days across three visits.\n\n&quot;,
+    &quot;source&quot;: &quot;\n**Location:** `metr-review-workspace`\n\n**Frame:** Three human investigators stand before the evidence field. A six-day on-premises clock occupies one corner.\n\n**Action:** Manual reading time is set against corpus size.\n\n**Caption:**\n&gt; THE AVAILABLE HUMAN REVIEW WINDOW IS SIX DAYS.\n\n**Provenance:** `documented` + `compressed` — METR and Redwood report six on-premises days across three visits.\n\n&quot;,
     &quot;title&quot;: &quot;Three investigators face a six-day clock&quot;
   }
 }

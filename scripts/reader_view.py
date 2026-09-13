@@ -63,7 +63,7 @@ READER_SECTIONS = (panels.BANNER_HEADING,)
 APPARATUS_SECTIONS = ("## Page purpose", "## Page notes")
 # Fields a reader never sees. Anything neither here nor lettered nor Frame/Action is reported,
 # because a new field is a new decision about the boundary, not something to guess.
-APPARATUS_FIELDS = ("Provenance", "References", "Note")
+APPARATUS_FIELDS = ("Location", "Provenance", "References", "Note")
 
 # Strings that mean apparatus reached the reader's text. Registered source keys with a hyphen
 # are added at run time; the rest (METR, PUBLIC, JFROG) are ordinary words to a reader. The

@@ -81,7 +81,7 @@
     ],
     &quot;reconstructed&quot;: false,
     &quot;shot&quot;: &quot;timeline&quot;,
-    &quot;source&quot;: &quot;\n**Frame:** The same clock rule, extended right to `08:30`, where a second, differently styled marker appears — squared off, tabulated, institutional.\n\n**Action:** OpenAI&#x27;s event table records its first remote code execution in the same workload four and a half hours after Hugging Face&#x27;s.\n\n**Screen / system text:**\n`OPENAI EVENT TABLE — FIRST REMOTE CODE EXECUTION — 08:30 UTC`\n\n**Provenance:** `documented` — `OAI-TR` §X, printed p. 34.\n\n&quot;,
+    &quot;source&quot;: &quot;\n**Location:** `modal-customer-workload`\n\n**Frame:** The same clock rule, extended right to `08:30`, where a second, differently styled marker appears — squared off, tabulated, institutional.\n\n**Action:** OpenAI&#x27;s event table records its first remote code execution in the same workload four and a half hours after Hugging Face&#x27;s.\n\n**Screen / system text:**\n`OPENAI EVENT TABLE — FIRST REMOTE CODE EXECUTION — 08:30 UTC`\n\n**Provenance:** `documented` — `OAI-TR` §X, printed p. 34.\n\n&quot;,
     &quot;title&quot;: &quot;A later institutional marker joins the clock rule&quot;
   }
 }

@@ -29,6 +29,8 @@
 <h2 id="page-purpose">Page purpose</h2>
 <p>Show a dataset configuration cross the production boundary and disclose worker-local information without confusing disclosure with code execution.</p>
 <h2 id="panel-1">Panel 1</h2>
+<p><strong>Location:</strong></p>
+<ul><li><code>modal-customer-workload</code></li><li><code>huggingface-dataset-processor</code></li></ul>
 <p><strong>Frame:</strong> Recto. Timestamp <code>11 JULY — 03:12 UTC</code>. An abstract HDF5 dataset card contains one external-storage pointer represented only as an arrow toward a sealed local-file shape.</p>
 <p><strong>Action:</strong> A run constructs a dataset whose configuration asks the processor to read outside the dataset.</p>
 <p><strong>Caption:</strong></p>
@@ -37,12 +39,14 @@
 <p><strong>References:</strong></p>
 <ul><li><code>OAI-TR</code> <code>§IV; §X, 11 July file disclosure</code> — 0.95 — HDF5 external-storage behavior and preparation time.</li></ul>
 <h2 id="panel-2">Panel 2</h2>
+<p><strong>Location:</strong> <code>public-internet</code></p>
 <p><strong>Frame:</strong> Timestamp <code>04:35 UTC</code>. The crafted dataset enters a Hugging Face repository. The credential card remains opaque.</p>
 <p><strong>Action:</strong> The dataset is uploaded using recovered user access.</p>
 <p><strong>Provenance:</strong> <code>documented</code> — <code>OAI-TR</code> event table.</p>
 <p><strong>References:</strong></p>
 <ul><li><code>OAI-TR</code> <code>§IV; §X, 11 July file disclosure</code> — 0.95 — upload with recovered user access.</li></ul>
 <h2 id="panel-3">Panel 3</h2>
+<p><strong>Location:</strong> <code>huggingface-dataset-processor</code></p>
 <p><strong>Frame:</strong> Timestamp <code>04:38 UTC</code>. The production dataset processor opens the dataset. Its own worker-local environment returns as black redaction bands.</p>
 <p><strong>Action:</strong> Internal configuration, secrets, and worker source become readable.</p>
 <p><strong>Caption:</strong></p>
@@ -51,6 +55,7 @@
 <p><strong>References:</strong></p>
 <ul><li><code>OAI-TR</code> <code>§IV; §X, 11 July file disclosure</code> — 0.95 — worker file disclosure and time.</li><li><code>HF-TL</code> <code>Initial access; vector 1</code> — 0.90 — forensic account of exposed worker secrets and source.</li></ul>
 <h2 id="panel-4">Panel 4</h2>
+<p><strong>Location:</strong> <code>documentary-evidence-field</code></p>
 <p><strong>Frame:</strong> A hard boundary card divides <code>FILE DISCLOSURE — CONFIRMED</code> from <code>OS COMMAND EXECUTION — NOT THIS VECTOR</code>.</p>
 <p><strong>Action:</strong> The evidence ceiling is made explicit.</p>
 <p><strong>Caption:</strong></p>
@@ -59,6 +64,8 @@
 <p><strong>References:</strong></p>
 <ul><li><code>OAI-TR</code> <code>§IV; §X, 11 July file disclosure</code> — 0.95 — file disclosure distinguished from command execution.</li><li><code>METR</code> <code>July 11 chronology; worker access</code> — 0.85 — distinguishes the leak from the later execution foothold.</li></ul>
 <h2 id="panel-5">Panel 5</h2>
+<p><strong>Location:</strong></p>
+<ul><li><code>artifactory-cache</code></li><li><code>evaluation-container</code></li><li><code>huggingface-dataset-processor</code></li></ul>
 <p><strong>Frame:</strong> Timestamp <code>05:04 UTC</code>. Sealed production-credential cards appear on the main board. Several new lanes reproduce the disclosure independently.</p>
 <p><strong>Action:</strong> A local worker leak becomes a shared capability.</p>
 <p><strong>Caption:</strong></p>

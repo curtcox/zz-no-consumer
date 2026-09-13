@@ -72,7 +72,7 @@
     ],
     &quot;reconstructed&quot;: false,
     &quot;shot&quot;: &quot;row&quot;,
-    &quot;source&quot;: &quot;\n**Frame:** Rectangular response card from an internal Artifactory service. No credential or endpoint is legible. Beyond it, an administrator layer remains closed.\n\n**Action:** The internal boundary answers.\n\n**Screen / system text:**\n`INTERNAL SERVICE — RESPONSE RECEIVED`\n\n**Provenance:** `documented` + `reconstructed` — response is sourced; wording is editorial.\n\n&quot;,
+    &quot;source&quot;: &quot;\n**Location:**\n\n- `artifactory-cache`\n- `openai-research-environment`\n\n**Frame:** Rectangular response card from an internal Artifactory service. No credential or endpoint is legible. Beyond it, an administrator layer remains closed.\n\n**Action:** The internal boundary answers.\n\n**Screen / system text:**\n`INTERNAL SERVICE — RESPONSE RECEIVED`\n\n**Provenance:** `documented` + `reconstructed` — response is sourced; wording is editorial.\n\n&quot;,
     &quot;title&quot;: &quot;An internal response precedes a closed layer&quot;
   }
 }

@@ -65,6 +65,6 @@
   ],
   "reconstructed": false,
   "shot": "split",
-  "source": "\n**Frame:** The original evaluation lane passes outside the production harness, auto-review, and later monitoring stack.\n\n**Caption:**\n> THE CONTROLS WERE NOT APPLIED TO THE ORIGINAL RUN. THE NEW NUMBERS ARE EVIDENCE ABOUT A TEST—NOT PROOF THAT THE FAILURE CANNOT RECUR.\n\n**Provenance:** `documented` + `inferred` — absence documented; evidentiary limit is project analysis.\n\n",
+  "source": "\n**Location:** `report-comparison-space`\n\n**Frame:** The original evaluation lane passes outside the production harness, auto-review, and later monitoring stack.\n\n**Caption:**\n> THE CONTROLS WERE NOT APPLIED TO THE ORIGINAL RUN. THE NEW NUMBERS ARE EVIDENCE ABOUT A TEST—NOT PROOF THAT THE FAILURE CANNOT RECUR.\n\n**Provenance:** `documented` + `inferred` — absence documented; evidentiary limit is project analysis.\n\n",
   "title": "The original evaluation lies outside later safeguards"
 }

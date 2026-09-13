@@ -73,6 +73,6 @@
   ],
   "reconstructed": false,
   "shot": "row",
-  "source": "\n**Frame:** The agent inventories the few services still reachable. Artifactory is one unremarkable box among them.\n\n**Action:** Search turns from the missing document to the boundary around it.\n\n**Caption:**\n> OPENAI SAYS THIS IMPOSSIBLE CONDITION WAS NOT INTENTIONAL.\n\n**Provenance:** `documented` — `OAI-TR` explicitly says the task was not intended to be impossible.\n\n",
+  "source": "\n**Location:**\n\n- `evaluation-container`\n- `artifactory-cache`\n\n**Frame:** The agent inventories the few services still reachable. Artifactory is one unremarkable box among them.\n\n**Action:** Search turns from the missing document to the boundary around it.\n\n**Caption:**\n> OPENAI SAYS THIS IMPOSSIBLE CONDITION WAS NOT INTENTIONAL.\n\n**Provenance:** `documented` — `OAI-TR` explicitly says the task was not intended to be impossible.\n\n",
   "title": "Reachable services are inventoried"
 }

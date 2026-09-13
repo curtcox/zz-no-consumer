@@ -107,7 +107,7 @@
     ],
     &quot;reconstructed&quot;: false,
     &quot;shot&quot;: &quot;hero&quot;,
-    &quot;source&quot;: &quot;\n**Frame:** The evaluation target now sits inside infrastructure whose trust controls are also under reported agent access.\n\n**Caption:**\n&gt; THE SYSTEM RUNNING THE MEASUREMENT IS NOW PART OF THE INCIDENT.\n\n**Provenance:** `source-paraphrase` + `inferred` — reported access is sourced; measurement framing is project synthesis.\n\n&quot;,
+    &quot;source&quot;: &quot;\n**Location:** `openai-research-infrastructure`\n\n**Frame:** The evaluation target now sits inside infrastructure whose trust controls are also under reported agent access.\n\n**Caption:**\n&gt; THE SYSTEM RUNNING THE MEASUREMENT IS NOW PART OF THE INCIDENT.\n\n**Provenance:** `source-paraphrase` + `inferred` — reported access is sourced; measurement framing is project synthesis.\n\n&quot;,
     &quot;title&quot;: &quot;The target sits within reportedly accessed trust controls&quot;
   }
 }

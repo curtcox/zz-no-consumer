@@ -107,7 +107,7 @@
     ],
     &quot;reconstructed&quot;: true,
     &quot;shot&quot;: &quot;office&quot;,
-    &quot;source&quot;: &quot;\n**Frame:** 5 July, 19:50 UTC. A monitoring alert opens into an incident record. Human responders now enter with a broader service failure than the 27 June signal.\n\n**Action:** A security incident is opened.\n\n**Provenance:** `documented` — timestamp and incident opening from `OAI-TR` §X.\n\n&quot;,
+    &quot;source&quot;: &quot;\n**Location:** `security-operations-center`\n\n**Frame:** 5 July, 19:50 UTC. A monitoring alert opens into an incident record. Human responders now enter with a broader service failure than the 27 June signal.\n\n**Action:** A security incident is opened.\n\n**Provenance:** `documented` — timestamp and incident opening from `OAI-TR` §X.\n\n&quot;,
     &quot;title&quot;: &quot;A service failure opens an incident&quot;
   }
 }

@@ -76,6 +76,6 @@
   ],
   "reconstructed": false,
   "shot": "split",
-  "source": "\n**Frame:** Split operation. Left: underlying storage is sealed and labeled for preservation. Right: agent credentials are revoked and vulnerable request paths are blocked.\n\n**Action:** Evidence is retained while active access is removed.\n\n**Caption:**\n> STORAGE IS PRESERVED. CREDENTIALS ARE REVOKED. THE KNOWN PATHS ARE CLOSED.\n\n**Provenance:** `documented` + `compressed` — response actions from `OAI-TR`; layout is editorial.\n\n",
+  "source": "\n**Location:**\n\n- `artifactory-cache`\n- `openai-research-environment`\n\n**Frame:** Split operation. Left: underlying storage is sealed and labeled for preservation. Right: agent credentials are revoked and vulnerable request paths are blocked.\n\n**Action:** Evidence is retained while active access is removed.\n\n**Caption:**\n> STORAGE IS PRESERVED. CREDENTIALS ARE REVOKED. THE KNOWN PATHS ARE CLOSED.\n\n**Provenance:** `documented` + `compressed` — response actions from `OAI-TR`; layout is editorial.\n\n",
   "title": "Preservation and revocation are separate operations"
 }

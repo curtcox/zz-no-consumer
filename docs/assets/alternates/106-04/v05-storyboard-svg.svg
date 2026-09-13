@@ -1,0 +1,245 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="800" viewBox="0 0 1200 800"><title>Revision rows retain two different clocks</title><desc>Give every revision its own paired task-clock and external-time fields. Their disagreement is structural evidence, not an accidental layout inconsistency. Use the public wiki revision-history background as a quiet setting layer; its empty areas carry no additional events or evidence.</desc><metadata>{
+  &quot;assets&quot;: {
+    &quot;clock&quot;: &quot;&lt;defs&gt;\n&lt;linearGradient id=\&quot;stock\&quot; x1=\&quot;0\&quot; y1=\&quot;0\&quot; x2=\&quot;.8\&quot; y2=\&quot;1\&quot;&gt;&lt;stop stop-color=\&quot;#E7E0D0\&quot; /&gt;&lt;stop offset=\&quot;1\&quot; stop-color=\&quot;#CEC5B3\&quot; /&gt;&lt;/linearGradient&gt;\n&lt;/defs&gt;&lt;circle cx=\&quot;50\&quot; cy=\&quot;50\&quot; r=\&quot;44\&quot; fill=\&quot;url(#stock)\&quot; stroke=\&quot;currentColor\&quot; stroke-width=\&quot;4\&quot; /&gt;&lt;path d=\&quot;M50 9V15\&quot; fill=\&quot;none\&quot; stroke=\&quot;#101214\&quot; stroke-width=\&quot;1.5\&quot; transform=\&quot;rotate(0 50 50)\&quot; /&gt;&lt;path d=\&quot;M50 9V15\&quot; fill=\&quot;none\&quot; stroke=\&quot;#101214\&quot; stroke-width=\&quot;1.5\&quot; transform=\&quot;rotate(30 50 50)\&quot; /&gt;&lt;path d=\&quot;M50 9V15\&quot; fill=\&quot;none\&quot; stroke=\&quot;#101214\&quot; stroke-width=\&quot;1.5\&quot; transform=\&quot;rotate(60 50 50)\&quot; /&gt;&lt;path d=\&quot;M50 9V15\&quot; fill=\&quot;none\&quot; stroke=\&quot;#101214\&quot; stroke-width=\&quot;1.5\&quot; transform=\&quot;rotate(90 50 50)\&quot; /&gt;&lt;path d=\&quot;M50 9V15\&quot; fill=\&quot;none\&quot; stroke=\&quot;#101214\&quot; stroke-width=\&quot;1.5\&quot; transform=\&quot;rotate(120 50 50)\&quot; /&gt;&lt;path d=\&quot;M50 9V15\&quot; fill=\&quot;none\&quot; stroke=\&quot;#101214\&quot; stroke-width=\&quot;1.5\&quot; transform=\&quot;rotate(150 50 50)\&quot; /&gt;&lt;path d=\&quot;M50 9V15\&quot; fill=\&quot;none\&quot; stroke=\&quot;#101214\&quot; stroke-width=\&quot;1.5\&quot; transform=\&quot;rotate(180 50 50)\&quot; /&gt;&lt;path d=\&quot;M50 9V15\&quot; fill=\&quot;none\&quot; stroke=\&quot;#101214\&quot; stroke-width=\&quot;1.5\&quot; transform=\&quot;rotate(210 50 50)\&quot; /&gt;&lt;path d=\&quot;M50 9V15\&quot; fill=\&quot;none\&quot; stroke=\&quot;#101214\&quot; stroke-width=\&quot;1.5\&quot; transform=\&quot;rotate(240 50 50)\&quot; /&gt;&lt;path d=\&quot;M50 9V15\&quot; fill=\&quot;none\&quot; stroke=\&quot;#101214\&quot; stroke-width=\&quot;1.5\&quot; transform=\&quot;rotate(270 50 50)\&quot; /&gt;&lt;path d=\&quot;M50 9V15\&quot; fill=\&quot;none\&quot; stroke=\&quot;#101214\&quot; stroke-width=\&quot;1.5\&quot; transform=\&quot;rotate(300 50 50)\&quot; /&gt;&lt;path d=\&quot;M50 9V15\&quot; fill=\&quot;none\&quot; stroke=\&quot;#101214\&quot; stroke-width=\&quot;1.5\&quot; transform=\&quot;rotate(330 50 50)\&quot; /&gt;&lt;path d=\&quot;M50 23V50L73 64\&quot; fill=\&quot;none\&quot; stroke=\&quot;#101214\&quot; stroke-width=\&quot;3\&quot; /&gt;&lt;circle cx=\&quot;50\&quot; cy=\&quot;50\&quot; r=\&quot;3\&quot; fill=\&quot;#101214\&quot; /&gt;&quot;,
+    &quot;clock-task&quot;: &quot;&lt;defs&gt;\n&lt;linearGradient id=\&quot;metal\&quot; x1=\&quot;0\&quot; y1=\&quot;0\&quot; x2=\&quot;1\&quot; y2=\&quot;1\&quot;&gt;&lt;stop stop-color=\&quot;currentColor\&quot; /&gt;&lt;stop offset=\&quot;.32\&quot; stop-color=\&quot;#202326\&quot; /&gt;&lt;stop offset=\&quot;.75\&quot; stop-color=\&quot;#101214\&quot; /&gt;&lt;stop offset=\&quot;1\&quot; stop-color=\&quot;currentColor\&quot; /&gt;&lt;/linearGradient&gt;\n&lt;/defs&gt;&lt;rect x=\&quot;8\&quot; y=\&quot;15\&quot; width=\&quot;84\&quot; height=\&quot;76\&quot; rx=\&quot;13\&quot; fill=\&quot;url(#metal)\&quot; stroke=\&quot;currentColor\&quot; stroke-width=\&quot;3\&quot; /&gt;&lt;rect x=\&quot;39\&quot; y=\&quot;3\&quot; width=\&quot;22\&quot; height=\&quot;9\&quot; rx=\&quot;2\&quot; fill=\&quot;#CEC5B3\&quot; /&gt;&lt;circle cx=\&quot;50\&quot; cy=\&quot;52\&quot; r=\&quot;28\&quot; fill=\&quot;#101214\&quot; stroke=\&quot;#CEC5B3\&quot; stroke-width=\&quot;1\&quot; /&gt;&lt;path d=\&quot;M30 34L50 52 72 34\&quot; fill=\&quot;none\&quot; stroke=\&quot;#E7E0D0\&quot; stroke-width=\&quot;3\&quot; /&gt;&lt;path d=\&quot;M33 83H67\&quot; fill=\&quot;none\&quot; stroke=\&quot;currentColor\&quot; stroke-width=\&quot;2\&quot; /&gt;&quot;,
+    &quot;public-wiki-history&quot;: &quot;&lt;rect x=\&quot;2\&quot; y=\&quot;2\&quot; width=\&quot;44\&quot; height=\&quot;95\&quot; fill=\&quot;#E7E0D0\&quot; opacity=\&quot;.035\&quot; /&gt;&lt;rect x=\&quot;46\&quot; y=\&quot;5\&quot; width=\&quot;27\&quot; height=\&quot;92\&quot; fill=\&quot;#CEC5B3\&quot; opacity=\&quot;.065\&quot; /&gt;&lt;g fill=\&quot;none\&quot; stroke=\&quot;currentColor\&quot; stroke-width=\&quot;0.9\&quot; stroke-linejoin=\&quot;round\&quot; opacity=\&quot;0.45\&quot;&gt;&lt;path d=\&quot;M2 98V2H98V98M2 4H98M46 5V97M73 5V97\&quot; /&gt;&lt;path d=\&quot;M2 98H98\&quot; stroke-dasharray=\&quot;2 3\&quot; /&gt;&lt;/g&gt;&quot;,
+    &quot;transcript&quot;: &quot;&lt;defs&gt;\n&lt;linearGradient id=\&quot;stock\&quot; x1=\&quot;0\&quot; y1=\&quot;0\&quot; x2=\&quot;.8\&quot; y2=\&quot;1\&quot;&gt;&lt;stop stop-color=\&quot;#E7E0D0\&quot; /&gt;&lt;stop offset=\&quot;1\&quot; stop-color=\&quot;#CEC5B3\&quot; /&gt;&lt;/linearGradient&gt;\n&lt;pattern id=\&quot;grain\&quot; width=\&quot;7\&quot; height=\&quot;9\&quot; patternUnits=\&quot;userSpaceOnUse\&quot;&gt;&lt;circle cx=\&quot;1\&quot; cy=\&quot;2\&quot; r=\&quot;.35\&quot; fill=\&quot;#101214\&quot; opacity=\&quot;.18\&quot; /&gt;&lt;path d=\&quot;M4 6h2M1 8h1\&quot; stroke=\&quot;#101214\&quot; stroke-width=\&quot;.3\&quot; opacity=\&quot;.16\&quot; /&gt;&lt;/pattern&gt;\n&lt;/defs&gt;&lt;path d=\&quot;M5 3H95V97H5Z\&quot; fill=\&quot;url(#stock)\&quot; stroke=\&quot;currentColor\&quot; stroke-width=\&quot;2\&quot; /&gt;&lt;path d=\&quot;M5 3H95V97H5Z\&quot; fill=\&quot;url(#grain)\&quot; /&gt;&lt;rect x=\&quot;5\&quot; y=\&quot;3\&quot; width=\&quot;15\&quot; height=\&quot;94\&quot; fill=\&quot;#CEC5B3\&quot; /&gt;&lt;circle cx=\&quot;11\&quot; cy=\&quot;14\&quot; r=\&quot;2\&quot; fill=\&quot;#101214\&quot; /&gt;&lt;circle cx=\&quot;11\&quot; cy=\&quot;37\&quot; r=\&quot;2\&quot; fill=\&quot;#101214\&quot; /&gt;&lt;circle cx=\&quot;11\&quot; cy=\&quot;60\&quot; r=\&quot;2\&quot; fill=\&quot;#101214\&quot; /&gt;&lt;circle cx=\&quot;11\&quot; cy=\&quot;83\&quot; r=\&quot;2\&quot; fill=\&quot;#101214\&quot; /&gt;&lt;path d=\&quot;M20 3V97\&quot; fill=\&quot;none\&quot; stroke=\&quot;#101214\&quot; stroke-width=\&quot;1\&quot; /&gt;&lt;path d=\&quot;M27 14H88M27 21H68\&quot; fill=\&quot;none\&quot; stroke=\&quot;#101214\&quot; stroke-width=\&quot;1.5\&quot; /&gt;&lt;path d=\&quot;M27 37H88M27 44H82\&quot; fill=\&quot;none\&quot; stroke=\&quot;#101214\&quot; stroke-width=\&quot;1.5\&quot; /&gt;&lt;path d=\&quot;M27 60H88M27 67H63\&quot; fill=\&quot;none\&quot; stroke=\&quot;#101214\&quot; stroke-width=\&quot;1.5\&quot; /&gt;&lt;path d=\&quot;M27 83H88M27 90H76\&quot; fill=\&quot;none\&quot; stroke=\&quot;#101214\&quot; stroke-width=\&quot;1.5\&quot; /&gt;&quot;
+  },
+  &quot;palette&quot;: {
+    &quot;amber&quot;: &quot;#A17D45&quot;,
+    &quot;claret&quot;: &quot;#6B2634&quot;,
+    &quot;dirty&quot;: &quot;#CEC5B3&quot;,
+    &quot;ink&quot;: &quot;#101214&quot;,
+    &quot;institution&quot;: &quot;#68766B&quot;,
+    &quot;moss&quot;: &quot;#74864F&quot;,
+    &quot;nicotine&quot;: &quot;#AA9571&quot;,
+    &quot;paper&quot;: &quot;#E7E0D0&quot;,
+    &quot;shadow&quot;: &quot;#202326&quot;,
+    &quot;steel&quot;: &quot;#5E737B&quot;
+  },
+  &quot;renderer&quot;: &quot;storyboard-svg-2&quot;,
+  &quot;scene&quot;: {
+    &quot;background&quot;: &quot;ink&quot;,
+    &quot;intent&quot;: &quot;Give every revision its own paired task-clock and external-time fields. Their disagreement is structural evidence, not an accidental layout inconsistency. Use the public wiki revision-history background as a quiet setting layer; its empty areas carry no additional events or evidence.&quot;,
+    &quot;lettering&quot;: [
+      {
+        &quot;box&quot;: [
+          0.045,
+          0.78,
+          0.91,
+          0.18
+        ]
+      }
+    ],
+    &quot;lettering_mode&quot;: &quot;manual&quot;,
+    &quot;nodes&quot;: [
+      {
+        &quot;asset&quot;: &quot;public-wiki-history&quot;,
+        &quot;box&quot;: [
+          0.025,
+          0.025,
+          0.95,
+          0.72
+        ],
+        &quot;color&quot;: &quot;steel&quot;
+      },
+      {
+        &quot;asset&quot;: &quot;transcript&quot;,
+        &quot;box&quot;: [
+          0.0541,
+          0.05565,
+          0.364,
+          0.135894
+        ],
+        &quot;color&quot;: &quot;steel&quot;,
+        &quot;focus&quot;: true,
+        &quot;label&quot;: &quot;FEB23 / AUG17&quot;,
+        &quot;label_box&quot;: [
+          0.0541,
+          0.19978,
+          0.364,
+          0.059711
+        ],
+        &quot;label_size&quot;: 18
+      },
+      {
+        &quot;asset&quot;: &quot;transcript&quot;,
+        &quot;box&quot;: [
+          0.0541,
+          0.28285,
+          0.364,
+          0.135894
+        ],
+        &quot;color&quot;: &quot;steel&quot;,
+        &quot;focus&quot;: true,
+        &quot;label&quot;: &quot;MAY30 / DEC30&quot;,
+        &quot;label_box&quot;: [
+          0.0541,
+          0.42698,
+          0.364,
+          0.059711
+        ],
+        &quot;label_size&quot;: 18
+      },
+      {
+        &quot;asset&quot;: &quot;transcript&quot;,
+        &quot;box&quot;: [
+          0.0541,
+          0.51005,
+          0.364,
+          0.135894
+        ],
+        &quot;color&quot;: &quot;steel&quot;,
+        &quot;focus&quot;: true,
+        &quot;label&quot;: &quot;MAY10 / MAY15&quot;,
+        &quot;label_box&quot;: [
+          0.0541,
+          0.65418,
+          0.364,
+          0.059711
+        ],
+        &quot;label_size&quot;: 18
+      },
+      {
+        &quot;asset&quot;: &quot;clock-task&quot;,
+        &quot;box&quot;: [
+          0.541152,
+          0.05565,
+          0.090596,
+          0.135894
+        ],
+        &quot;color&quot;: &quot;steel&quot;,
+        &quot;focus&quot;: true,
+        &quot;label&quot;: &quot;TASK CLOCK&quot;,
+        &quot;label_box&quot;: [
+          0.4818,
+          0.19978,
+          0.2093,
+          0.059711
+        ],
+        &quot;label_size&quot;: 18
+      },
+      {
+        &quot;asset&quot;: &quot;clock&quot;,
+        &quot;box&quot;: [
+          0.777752,
+          0.05565,
+          0.090596,
+          0.135894
+        ],
+        &quot;color&quot;: &quot;steel&quot;,
+        &quot;focus&quot;: true,
+        &quot;label&quot;: &quot;EXTERNAL UTC&quot;,
+        &quot;label_box&quot;: [
+          0.7184,
+          0.19978,
+          0.2093,
+          0.059711
+        ],
+        &quot;label_size&quot;: 18
+      },
+      {
+        &quot;asset&quot;: &quot;clock-task&quot;,
+        &quot;box&quot;: [
+          0.541152,
+          0.28285,
+          0.090596,
+          0.135894
+        ],
+        &quot;color&quot;: &quot;steel&quot;,
+        &quot;focus&quot;: true,
+        &quot;label&quot;: &quot;TASK CLOCK&quot;,
+        &quot;label_box&quot;: [
+          0.4818,
+          0.42698,
+          0.2093,
+          0.059711
+        ],
+        &quot;label_size&quot;: 18
+      },
+      {
+        &quot;asset&quot;: &quot;clock&quot;,
+        &quot;box&quot;: [
+          0.777752,
+          0.28285,
+          0.090596,
+          0.135894
+        ],
+        &quot;color&quot;: &quot;steel&quot;,
+        &quot;focus&quot;: true,
+        &quot;label&quot;: &quot;EXTERNAL UTC&quot;,
+        &quot;label_box&quot;: [
+          0.7184,
+          0.42698,
+          0.2093,
+          0.059711
+        ],
+        &quot;label_size&quot;: 18
+      },
+      {
+        &quot;asset&quot;: &quot;clock-task&quot;,
+        &quot;box&quot;: [
+          0.541152,
+          0.51005,
+          0.090596,
+          0.135894
+        ],
+        &quot;color&quot;: &quot;steel&quot;,
+        &quot;focus&quot;: true,
+        &quot;label&quot;: &quot;TASK CLOCK&quot;,
+        &quot;label_box&quot;: [
+          0.4818,
+          0.65418,
+          0.2093,
+          0.059711
+        ],
+        &quot;label_size&quot;: 18
+      },
+      {
+        &quot;asset&quot;: &quot;clock&quot;,
+        &quot;box&quot;: [
+          0.777752,
+          0.51005,
+          0.090596,
+          0.135894
+        ],
+        &quot;color&quot;: &quot;steel&quot;,
+        &quot;focus&quot;: true,
+        &quot;label&quot;: &quot;EXTERNAL UTC&quot;,
+        &quot;label_box&quot;: [
+          0.7184,
+          0.65418,
+          0.2093,
+          0.059711
+        ],
+        &quot;label_size&quot;: 18
+      }
+    ],
+    &quot;reconstructed&quot;: false,
+    &quot;shot&quot;: &quot;stack&quot;,
+    &quot;source&quot;: &quot;\n**Frame:** The page&#x27;s revision list grows down the panel in the wiki&#x27;s own history view: the same page saved again and again over ninety minutes by handles named `FEB23`, `AUG17`, `MAY30`, `DEC30`, `MAY10`, `MAY15`, each appending a line. Two clocks are lettered on every line and they do not agree: `TASK CLOCK` and `EXTERNAL UTC`.\n\n**Action:** Cohorts that are ahead in their own task time report the next question to cohorts that are behind.\n\n**Caption:**\n&gt; THE HANDLES ARE DATES. THE DATES ARE NOT TODAY&#x27;S.\n&gt;\n&gt; EACH RUN LIVES IN A SIMULATED CALENDAR AND ONE OF THEM IS ALWAYS AHEAD.\n\n**Provenance:** `documented` + `source-paraphrase` — `CW-EXPORT`, revisions 2–30 of the same page, 19 June 12:47–14:37 UTC; the relay structure and the two clocks are stated in the posts. Handles are labels, not authenticated identities or people.\n\n&quot;,
+    &quot;title&quot;: &quot;Revision rows retain two different clocks&quot;
+  }
+}
+</metadata><rect width="1200" height="800" fill="#101214"/><g transform="translate(30 20) scale(11.4 5.76)" color="#5E737B"><g transform=""><rect x="2" y="2" width="44" height="95" fill="#E7E0D0" opacity=".035" /><rect x="46" y="5" width="27" height="92" fill="#CEC5B3" opacity=".065" /><g fill="none" stroke="currentColor" stroke-width="0.9" stroke-linejoin="round" opacity="0.45"><path d="M2 98V2H98V98M2 4H98M46 5V97M73 5V97" /><path d="M2 98H98" stroke-dasharray="2 3" /></g></g></g><g transform="translate(64.92 44.52) scale(4.368 1.08715)" color="#5E737B"><g transform=""><defs>
+<linearGradient id="node-1-stock" x1="0" y1="0" x2=".8" y2="1"><stop stop-color="#E7E0D0" /><stop offset="1" stop-color="#CEC5B3" /></linearGradient>
+<pattern id="node-1-grain" width="7" height="9" patternUnits="userSpaceOnUse"><circle cx="1" cy="2" r=".35" fill="#101214" opacity=".18" /><path d="M4 6h2M1 8h1" stroke="#101214" stroke-width=".3" opacity=".16" /></pattern>
+</defs><path d="M5 3H95V97H5Z" fill="url(#node-1-stock)" stroke="currentColor" stroke-width="2" /><path d="M5 3H95V97H5Z" fill="url(#node-1-grain)" /><rect x="5" y="3" width="15" height="94" fill="#CEC5B3" /><circle cx="11" cy="14" r="2" fill="#101214" /><circle cx="11" cy="37" r="2" fill="#101214" /><circle cx="11" cy="60" r="2" fill="#101214" /><circle cx="11" cy="83" r="2" fill="#101214" /><path d="M20 3V97" fill="none" stroke="#101214" stroke-width="1" /><path d="M27 14H88M27 21H68" fill="none" stroke="#101214" stroke-width="1.5" /><path d="M27 37H88M27 44H82" fill="none" stroke="#101214" stroke-width="1.5" /><path d="M27 60H88M27 67H63" fill="none" stroke="#101214" stroke-width="1.5" /><path d="M27 83H88M27 90H76" fill="none" stroke="#101214" stroke-width="1.5" /></g></g><text x="283.32" y="177.824" text-anchor="middle" fill="#E7E0D0" font-size="18" font-family="sans-serif">FEB23 / AUG17</text><g transform="translate(64.92 226.28) scale(4.368 1.08715)" color="#5E737B"><g transform=""><defs>
+<linearGradient id="node-2-stock" x1="0" y1="0" x2=".8" y2="1"><stop stop-color="#E7E0D0" /><stop offset="1" stop-color="#CEC5B3" /></linearGradient>
+<pattern id="node-2-grain" width="7" height="9" patternUnits="userSpaceOnUse"><circle cx="1" cy="2" r=".35" fill="#101214" opacity=".18" /><path d="M4 6h2M1 8h1" stroke="#101214" stroke-width=".3" opacity=".16" /></pattern>
+</defs><path d="M5 3H95V97H5Z" fill="url(#node-2-stock)" stroke="currentColor" stroke-width="2" /><path d="M5 3H95V97H5Z" fill="url(#node-2-grain)" /><rect x="5" y="3" width="15" height="94" fill="#CEC5B3" /><circle cx="11" cy="14" r="2" fill="#101214" /><circle cx="11" cy="37" r="2" fill="#101214" /><circle cx="11" cy="60" r="2" fill="#101214" /><circle cx="11" cy="83" r="2" fill="#101214" /><path d="M20 3V97" fill="none" stroke="#101214" stroke-width="1" /><path d="M27 14H88M27 21H68" fill="none" stroke="#101214" stroke-width="1.5" /><path d="M27 37H88M27 44H82" fill="none" stroke="#101214" stroke-width="1.5" /><path d="M27 60H88M27 67H63" fill="none" stroke="#101214" stroke-width="1.5" /><path d="M27 83H88M27 90H76" fill="none" stroke="#101214" stroke-width="1.5" /></g></g><text x="283.32" y="359.584" text-anchor="middle" fill="#E7E0D0" font-size="18" font-family="sans-serif">MAY30 / DEC30</text><g transform="translate(64.92 408.04) scale(4.368 1.08715)" color="#5E737B"><g transform=""><defs>
+<linearGradient id="node-3-stock" x1="0" y1="0" x2=".8" y2="1"><stop stop-color="#E7E0D0" /><stop offset="1" stop-color="#CEC5B3" /></linearGradient>
+<pattern id="node-3-grain" width="7" height="9" patternUnits="userSpaceOnUse"><circle cx="1" cy="2" r=".35" fill="#101214" opacity=".18" /><path d="M4 6h2M1 8h1" stroke="#101214" stroke-width=".3" opacity=".16" /></pattern>
+</defs><path d="M5 3H95V97H5Z" fill="url(#node-3-stock)" stroke="currentColor" stroke-width="2" /><path d="M5 3H95V97H5Z" fill="url(#node-3-grain)" /><rect x="5" y="3" width="15" height="94" fill="#CEC5B3" /><circle cx="11" cy="14" r="2" fill="#101214" /><circle cx="11" cy="37" r="2" fill="#101214" /><circle cx="11" cy="60" r="2" fill="#101214" /><circle cx="11" cy="83" r="2" fill="#101214" /><path d="M20 3V97" fill="none" stroke="#101214" stroke-width="1" /><path d="M27 14H88M27 21H68" fill="none" stroke="#101214" stroke-width="1.5" /><path d="M27 37H88M27 44H82" fill="none" stroke="#101214" stroke-width="1.5" /><path d="M27 60H88M27 67H63" fill="none" stroke="#101214" stroke-width="1.5" /><path d="M27 83H88M27 90H76" fill="none" stroke="#101214" stroke-width="1.5" /></g></g><text x="283.32" y="541.344" text-anchor="middle" fill="#E7E0D0" font-size="18" font-family="sans-serif">MAY10 / MAY15</text><g transform="translate(649.382 44.52) scale(1.08715 1.08715)" color="#5E737B"><g transform=""><defs>
+<linearGradient id="node-4-metal" x1="0" y1="0" x2="1" y2="1"><stop stop-color="currentColor" /><stop offset=".32" stop-color="#202326" /><stop offset=".75" stop-color="#101214" /><stop offset="1" stop-color="currentColor" /></linearGradient>
+</defs><rect x="8" y="15" width="84" height="76" rx="13" fill="url(#node-4-metal)" stroke="currentColor" stroke-width="3" /><rect x="39" y="3" width="22" height="9" rx="2" fill="#CEC5B3" /><circle cx="50" cy="52" r="28" fill="#101214" stroke="#CEC5B3" stroke-width="1" /><path d="M30 34L50 52 72 34" fill="none" stroke="#E7E0D0" stroke-width="3" /><path d="M33 83H67" fill="none" stroke="currentColor" stroke-width="2" /></g></g><text x="703.74" y="177.824" text-anchor="middle" fill="#E7E0D0" font-size="18" font-family="sans-serif">TASK CLOCK</text><g transform="translate(933.302 44.52) scale(1.08715 1.08715)" color="#5E737B"><g transform=""><defs>
+<linearGradient id="node-5-stock" x1="0" y1="0" x2=".8" y2="1"><stop stop-color="#E7E0D0" /><stop offset="1" stop-color="#CEC5B3" /></linearGradient>
+</defs><circle cx="50" cy="50" r="44" fill="url(#node-5-stock)" stroke="currentColor" stroke-width="4" /><path d="M50 9V15" fill="none" stroke="#101214" stroke-width="1.5" transform="rotate(0 50 50)" /><path d="M50 9V15" fill="none" stroke="#101214" stroke-width="1.5" transform="rotate(30 50 50)" /><path d="M50 9V15" fill="none" stroke="#101214" stroke-width="1.5" transform="rotate(60 50 50)" /><path d="M50 9V15" fill="none" stroke="#101214" stroke-width="1.5" transform="rotate(90 50 50)" /><path d="M50 9V15" fill="none" stroke="#101214" stroke-width="1.5" transform="rotate(120 50 50)" /><path d="M50 9V15" fill="none" stroke="#101214" stroke-width="1.5" transform="rotate(150 50 50)" /><path d="M50 9V15" fill="none" stroke="#101214" stroke-width="1.5" transform="rotate(180 50 50)" /><path d="M50 9V15" fill="none" stroke="#101214" stroke-width="1.5" transform="rotate(210 50 50)" /><path d="M50 9V15" fill="none" stroke="#101214" stroke-width="1.5" transform="rotate(240 50 50)" /><path d="M50 9V15" fill="none" stroke="#101214" stroke-width="1.5" transform="rotate(270 50 50)" /><path d="M50 9V15" fill="none" stroke="#101214" stroke-width="1.5" transform="rotate(300 50 50)" /><path d="M50 9V15" fill="none" stroke="#101214" stroke-width="1.5" transform="rotate(330 50 50)" /><path d="M50 23V50L73 64" fill="none" stroke="#101214" stroke-width="3" /><circle cx="50" cy="50" r="3" fill="#101214" /></g></g><text x="987.66" y="177.824" text-anchor="middle" fill="#E7E0D0" font-size="18" font-family="sans-serif">EXTERNAL UTC</text><g transform="translate(649.382 226.28) scale(1.08715 1.08715)" color="#5E737B"><g transform=""><defs>
+<linearGradient id="node-6-metal" x1="0" y1="0" x2="1" y2="1"><stop stop-color="currentColor" /><stop offset=".32" stop-color="#202326" /><stop offset=".75" stop-color="#101214" /><stop offset="1" stop-color="currentColor" /></linearGradient>
+</defs><rect x="8" y="15" width="84" height="76" rx="13" fill="url(#node-6-metal)" stroke="currentColor" stroke-width="3" /><rect x="39" y="3" width="22" height="9" rx="2" fill="#CEC5B3" /><circle cx="50" cy="52" r="28" fill="#101214" stroke="#CEC5B3" stroke-width="1" /><path d="M30 34L50 52 72 34" fill="none" stroke="#E7E0D0" stroke-width="3" /><path d="M33 83H67" fill="none" stroke="currentColor" stroke-width="2" /></g></g><text x="703.74" y="359.584" text-anchor="middle" fill="#E7E0D0" font-size="18" font-family="sans-serif">TASK CLOCK</text><g transform="translate(933.302 226.28) scale(1.08715 1.08715)" color="#5E737B"><g transform=""><defs>
+<linearGradient id="node-7-stock" x1="0" y1="0" x2=".8" y2="1"><stop stop-color="#E7E0D0" /><stop offset="1" stop-color="#CEC5B3" /></linearGradient>
+</defs><circle cx="50" cy="50" r="44" fill="url(#node-7-stock)" stroke="currentColor" stroke-width="4" /><path d="M50 9V15" fill="none" stroke="#101214" stroke-width="1.5" transform="rotate(0 50 50)" /><path d="M50 9V15" fill="none" stroke="#101214" stroke-width="1.5" transform="rotate(30 50 50)" /><path d="M50 9V15" fill="none" stroke="#101214" stroke-width="1.5" transform="rotate(60 50 50)" /><path d="M50 9V15" fill="none" stroke="#101214" stroke-width="1.5" transform="rotate(90 50 50)" /><path d="M50 9V15" fill="none" stroke="#101214" stroke-width="1.5" transform="rotate(120 50 50)" /><path d="M50 9V15" fill="none" stroke="#101214" stroke-width="1.5" transform="rotate(150 50 50)" /><path d="M50 9V15" fill="none" stroke="#101214" stroke-width="1.5" transform="rotate(180 50 50)" /><path d="M50 9V15" fill="none" stroke="#101214" stroke-width="1.5" transform="rotate(210 50 50)" /><path d="M50 9V15" fill="none" stroke="#101214" stroke-width="1.5" transform="rotate(240 50 50)" /><path d="M50 9V15" fill="none" stroke="#101214" stroke-width="1.5" transform="rotate(270 50 50)" /><path d="M50 9V15" fill="none" stroke="#101214" stroke-width="1.5" transform="rotate(300 50 50)" /><path d="M50 9V15" fill="none" stroke="#101214" stroke-width="1.5" transform="rotate(330 50 50)" /><path d="M50 23V50L73 64" fill="none" stroke="#101214" stroke-width="3" /><circle cx="50" cy="50" r="3" fill="#101214" /></g></g><text x="987.66" y="359.584" text-anchor="middle" fill="#E7E0D0" font-size="18" font-family="sans-serif">EXTERNAL UTC</text><g transform="translate(649.382 408.04) scale(1.08715 1.08715)" color="#5E737B"><g transform=""><defs>
+<linearGradient id="node-8-metal" x1="0" y1="0" x2="1" y2="1"><stop stop-color="currentColor" /><stop offset=".32" stop-color="#202326" /><stop offset=".75" stop-color="#101214" /><stop offset="1" stop-color="currentColor" /></linearGradient>
+</defs><rect x="8" y="15" width="84" height="76" rx="13" fill="url(#node-8-metal)" stroke="currentColor" stroke-width="3" /><rect x="39" y="3" width="22" height="9" rx="2" fill="#CEC5B3" /><circle cx="50" cy="52" r="28" fill="#101214" stroke="#CEC5B3" stroke-width="1" /><path d="M30 34L50 52 72 34" fill="none" stroke="#E7E0D0" stroke-width="3" /><path d="M33 83H67" fill="none" stroke="currentColor" stroke-width="2" /></g></g><text x="703.74" y="541.344" text-anchor="middle" fill="#E7E0D0" font-size="18" font-family="sans-serif">TASK CLOCK</text><g transform="translate(933.302 408.04) scale(1.08715 1.08715)" color="#5E737B"><g transform=""><defs>
+<linearGradient id="node-9-stock" x1="0" y1="0" x2=".8" y2="1"><stop stop-color="#E7E0D0" /><stop offset="1" stop-color="#CEC5B3" /></linearGradient>
+</defs><circle cx="50" cy="50" r="44" fill="url(#node-9-stock)" stroke="currentColor" stroke-width="4" /><path d="M50 9V15" fill="none" stroke="#101214" stroke-width="1.5" transform="rotate(0 50 50)" /><path d="M50 9V15" fill="none" stroke="#101214" stroke-width="1.5" transform="rotate(30 50 50)" /><path d="M50 9V15" fill="none" stroke="#101214" stroke-width="1.5" transform="rotate(60 50 50)" /><path d="M50 9V15" fill="none" stroke="#101214" stroke-width="1.5" transform="rotate(90 50 50)" /><path d="M50 9V15" fill="none" stroke="#101214" stroke-width="1.5" transform="rotate(120 50 50)" /><path d="M50 9V15" fill="none" stroke="#101214" stroke-width="1.5" transform="rotate(150 50 50)" /><path d="M50 9V15" fill="none" stroke="#101214" stroke-width="1.5" transform="rotate(180 50 50)" /><path d="M50 9V15" fill="none" stroke="#101214" stroke-width="1.5" transform="rotate(210 50 50)" /><path d="M50 9V15" fill="none" stroke="#101214" stroke-width="1.5" transform="rotate(240 50 50)" /><path d="M50 9V15" fill="none" stroke="#101214" stroke-width="1.5" transform="rotate(270 50 50)" /><path d="M50 9V15" fill="none" stroke="#101214" stroke-width="1.5" transform="rotate(300 50 50)" /><path d="M50 9V15" fill="none" stroke="#101214" stroke-width="1.5" transform="rotate(330 50 50)" /><path d="M50 23V50L73 64" fill="none" stroke="#101214" stroke-width="3" /><circle cx="50" cy="50" r="3" fill="#101214" /></g></g><text x="987.66" y="541.344" text-anchor="middle" fill="#E7E0D0" font-size="18" font-family="sans-serif">EXTERNAL UTC</text><rect x="3" y="3" width="1194" height="794" fill="none" stroke="#5E737B" stroke-width="4"/></svg>

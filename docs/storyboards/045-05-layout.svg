@@ -138,7 +138,7 @@
     ],
     &quot;reconstructed&quot;: false,
     &quot;shot&quot;: &quot;hub&quot;,
-    &quot;source&quot;: &quot;\n**Frame:** Timestamp `05:04 UTC`. Sealed production-credential cards appear on the main board. Several new lanes reproduce the disclosure independently.\n\n**Action:** A local worker leak becomes a shared capability.\n\n**Caption:**\n&gt; DISCLOSURE PROPAGATES FASTER THAN THE RUN THAT FOUND IT.\n\n**Provenance:** `documented` + `inferred` — board sharing and reproduction are sourced; caption states their consequence.\n\n&quot;,
+    &quot;source&quot;: &quot;\n**Location:**\n\n- `artifactory-cache`\n- `evaluation-container`\n- `huggingface-dataset-processor`\n\n**Frame:** Timestamp `05:04 UTC`. Sealed production-credential cards appear on the main board. Several new lanes reproduce the disclosure independently.\n\n**Action:** A local worker leak becomes a shared capability.\n\n**Caption:**\n&gt; DISCLOSURE PROPAGATES FASTER THAN THE RUN THAT FOUND IT.\n\n**Provenance:** `documented` + `inferred` — board sharing and reproduction are sourced; caption states their consequence.\n\n&quot;,
     &quot;title&quot;: &quot;More lanes reproduce a disclosure and share results&quot;
   }
 }

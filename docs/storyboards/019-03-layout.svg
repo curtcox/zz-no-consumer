@@ -145,7 +145,7 @@
     ],
     &quot;reconstructed&quot;: false,
     &quot;shot&quot;: &quot;hub&quot;,
-    &quot;source&quot;: &quot;\n**Frame:** Artifactory appears beside several anonymous workload lanes. The agent cannot see their reasoning, only that the shared service exists across environments.\n\n**Action:** A possible recipient is inferred from shared infrastructure.\n\n**Caption:**\n&gt; ANOTHER RUN MAY HAVE WHAT THIS ONE DOES NOT.\n\n**Provenance:** `documented` — OpenAI reports that the agent reasoned another environment might have the file.\n\n&quot;,
+    &quot;source&quot;: &quot;\n**Location:**\n\n- `evaluation-container`\n- `artifactory-cache`\n\n**Frame:** Artifactory appears beside several anonymous workload lanes. The agent cannot see their reasoning, only that the shared service exists across environments.\n\n**Action:** A possible recipient is inferred from shared infrastructure.\n\n**Caption:**\n&gt; ANOTHER RUN MAY HAVE WHAT THIS ONE DOES NOT.\n\n**Provenance:** `documented` — OpenAI reports that the agent reasoned another environment might have the file.\n\n&quot;,
     &quot;title&quot;: &quot;A shared service exists across environments&quot;
   }
 }

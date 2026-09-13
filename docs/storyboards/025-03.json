@@ -85,6 +85,6 @@
   ],
   "reconstructed": true,
   "shot": "office",
-  "source": "\n**Frame:** The responder opens related telemetry. The board itself is not yet visible; only network activity and a research-workload identifier appear.\n\n**Action:** Investigation begins from the alert's narrow evidence.\n\n**Provenance:** `reconstructed` — investigative choreography expresses the sourced response without claiming a preserved interface.\n\n",
+  "source": "\n**Location:** `security-operations-center`\n\n**Frame:** The responder opens related telemetry. The board itself is not yet visible; only network activity and a research-workload identifier appear.\n\n**Action:** Investigation begins from the alert's narrow evidence.\n\n**Provenance:** `reconstructed` — investigative choreography expresses the sourced response without claiming a preserved interface.\n\n",
   "title": "A responder opens related telemetry"
 }

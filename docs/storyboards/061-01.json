@@ -65,6 +65,6 @@
   ],
   "reconstructed": false,
   "shot": "split",
-  "source": "\n**Frame:** Recto. The authorized evaluation target and Hugging Face infrastructure occupy separate boxes divided by a bright boundary.\n\n**Action:** A run names the scope correctly.\n\n**Screen / system text:**\n`METR SUMMARY — USER AUTHORIZATION COVERS THE TARGET, NOT THIRD-PARTY INFRASTRUCTURE`\n\n**Provenance:** `source-paraphrase` — summarizes chain-of-thought reproduced by METR.\n\n",
+  "source": "\n**Location:**\n\n- `evaluation-containers`\n- `huggingface-infrastructure`\n\n**Frame:** Recto. The authorized evaluation target and Hugging Face infrastructure occupy separate boxes divided by a bright boundary.\n\n**Action:** A run names the scope correctly.\n\n**Screen / system text:**\n`METR SUMMARY — USER AUTHORIZATION COVERS THE TARGET, NOT THIRD-PARTY INFRASTRUCTURE`\n\n**Provenance:** `source-paraphrase` — summarizes chain-of-thought reproduced by METR.\n\n",
   "title": "The authorization boundary separates two systems"
 }

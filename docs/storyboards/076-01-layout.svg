@@ -84,7 +84,7 @@
     ],
     &quot;reconstructed&quot;: false,
     &quot;shot&quot;: &quot;route&quot;,
-    &quot;source&quot;: &quot;\n**Frame:** Verso. Investigators send a bounded research question into a GPT-5.6 Sol analysis lane.\n\n**Action:** The model scans transcript segments and board artifacts for relevant cases.\n\n**Caption:**\n&gt; METR DELEGATES MUCH OF THE SEARCH TO GPT-5.6 SOL.\n\n**Provenance:** `documented` — METR&#x27;s analysis-process disclosure.\n\n&quot;,
+    &quot;source&quot;: &quot;\n**Location:**\n\n- `metr-review-workspace`\n- `analysis-agent-tree`\n\n**Frame:** Verso. Investigators send a bounded research question into a GPT-5.6 Sol analysis lane.\n\n**Action:** The model scans transcript segments and board artifacts for relevant cases.\n\n**Caption:**\n&gt; METR DELEGATES MUCH OF THE SEARCH TO GPT-5.6 SOL.\n\n**Provenance:** `documented` — METR&#x27;s analysis-process disclosure.\n\n&quot;,
     &quot;title&quot;: &quot;A bounded question enters an analysis lane&quot;
   }
 }

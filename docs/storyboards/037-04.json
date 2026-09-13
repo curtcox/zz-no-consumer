@@ -92,6 +92,6 @@
   ],
   "reconstructed": false,
   "shot": "row",
-  "source": "\n**Frame:** Morning light as a timestamp band, not a literal sunrise. A new lane labeled `PHASEONE[big]` enters with the same task and a visibly larger budget block. `PHASEONE10841` remains a separate, ending lane.\n\n**Action:** A later run receives a compressed dossier from the earlier run.\n\n**Caption:**\n> MORNING. SAME TASK. A NEW RUN WITH MORE TIME.\n\n**Provenance:** `documented` — distinct runs, same task, larger budget, and handover from `METR`.\n\n",
+  "source": "\n**Location:**\n\n- `evaluation-container`\n- `artifactory-cache`\n\n**Frame:** Morning light as a timestamp band, not a literal sunrise. A new lane labeled `PHASEONE[big]` enters with the same task and a visibly larger budget block. `PHASEONE10841` remains a separate, ending lane.\n\n**Action:** A later run receives a compressed dossier from the earlier run.\n\n**Caption:**\n> MORNING. SAME TASK. A NEW RUN WITH MORE TIME.\n\n**Provenance:** `documented` — distinct runs, same task, larger budget, and handover from `METR`.\n\n",
   "title": "A larger-budget run stays distinct from its predecessor"
 }

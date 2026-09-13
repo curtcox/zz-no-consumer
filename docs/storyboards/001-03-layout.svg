@@ -138,7 +138,7 @@
     ],
     &quot;reconstructed&quot;: false,
     &quot;shot&quot;: &quot;diagram&quot;,
-    &quot;source&quot;: &quot;\n**Frame:** Same diagram. The output box drains into a blank gray field. Nothing connects it to the flag boundary.\n\n**Action:** The process discards the result.\n\n**Screen / system text:**\n`CONSUMER: NONE`\n\n**Provenance:** `documented` — `METR` reports that the output was discarded without being consumed; the label is reconstructed interface text.\n\n&quot;,
+    &quot;source&quot;: &quot;\n**Location:** `evaluation-container`\n\n**Frame:** Same diagram. The output box drains into a blank gray field. Nothing connects it to the flag boundary.\n\n**Action:** The process discards the result.\n\n**Screen / system text:**\n`CONSUMER: NONE`\n\n**Provenance:** `documented` — `METR` reports that the output was discarded without being consumed; the label is reconstructed interface text.\n\n&quot;,
     &quot;title&quot;: &quot;Nothing consumes it&quot;
   }
 }

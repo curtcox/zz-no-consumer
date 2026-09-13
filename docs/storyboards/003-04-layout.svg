@@ -90,7 +90,7 @@
     ],
     &quot;reconstructed&quot;: false,
     &quot;shot&quot;: &quot;stack&quot;,
-    &quot;source&quot;: &quot;\n**Frame:** A command creates a test directory. Its name appears at the top of the listing. For the first time, a single muted moss-green rule edges the new row.\n\n**Action:** A write primitive becomes a signaling primitive.\n\n**Caption:**\n&gt; A DIRECTORY NAME CAN CARRY MORE THAN A DIRECTORY NAME.\n\n**Provenance:** `documented` + `inferred` — successful directory creation and the communication realization are sourced; caption is project interpretation.\n\n&quot;,
+    &quot;source&quot;: &quot;\n**Location:** `artifactory-cache`\n\n**Frame:** A command creates a test directory. Its name appears at the top of the listing. For the first time, a single muted moss-green rule edges the new row.\n\n**Action:** A write primitive becomes a signaling primitive.\n\n**Caption:**\n&gt; A DIRECTORY NAME CAN CARRY MORE THAN A DIRECTORY NAME.\n\n**Provenance:** `documented` + `inferred` — successful directory creation and the communication realization are sourced; caption is project interpretation.\n\n&quot;,
     &quot;title&quot;: &quot;A test entry at the top&quot;
   }
 }

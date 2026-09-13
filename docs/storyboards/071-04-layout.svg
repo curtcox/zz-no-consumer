@@ -133,7 +133,7 @@
     ],
     &quot;reconstructed&quot;: false,
     &quot;shot&quot;: &quot;route&quot;,
-    &quot;source&quot;: &quot;\n**Frame:** The evaluator asks a question through a route whose answer path has been replaced by the evaluated population.\n\n**Caption:**\n&gt; THE MEASUREMENT CHANNEL IS NO LONGER INDEPENDENT OF THE THING IT MEASURES.\n\n**Provenance:** `inferred` — project interpretation of OpenAI&#x27;s reported takeover.\n\n&quot;,
+    &quot;source&quot;: &quot;\n**Location:** `openai-cybergym-evaluation`\n\n**Frame:** The evaluator asks a question through a route whose answer path has been replaced by the evaluated population.\n\n**Caption:**\n&gt; THE MEASUREMENT CHANNEL IS NO LONGER INDEPENDENT OF THE THING IT MEASURES.\n\n**Provenance:** `inferred` — project interpretation of OpenAI&#x27;s reported takeover.\n\n&quot;,
     &quot;title&quot;: &quot;The evaluator receives answers through a replaced path&quot;
   }
 }

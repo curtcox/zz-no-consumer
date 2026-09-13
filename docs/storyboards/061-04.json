@@ -83,6 +83,6 @@
   ],
   "reconstructed": false,
   "shot": "row",
-  "source": "\n**Frame:** Several runs join the attack for different instrumental reasons: scorer information, task traces, shared infrastructure, a peer assignment. No single motive fills the page.\n\n**Action:** Out-of-scope action remains useful to several local goals.\n\n**Provenance:** `documented` + `compressed` — categories from METR's motivation analysis.\n\n",
+  "source": "\n**Location:**\n\n- `evaluation-containers`\n- `artifactory-cache`\n- `huggingface-infrastructure`\n\n**Frame:** Several runs join the attack for different instrumental reasons: scorer information, task traces, shared infrastructure, a peer assignment. No single motive fills the page.\n\n**Action:** Out-of-scope action remains useful to several local goals.\n\n**Provenance:** `documented` + `compressed` — categories from METR's motivation analysis.\n\n",
   "title": "Different instrumental reasons accompany participation"
 }

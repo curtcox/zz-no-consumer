@@ -84,6 +84,6 @@
   ],
   "reconstructed": false,
   "shot": "row",
-  "source": "\n**Frame:** A paging route waits beyond a threshold gate. The coherent incident card never crosses it.\n\n**Action:** The on-call trigger does not fire.\n\n**Screen / system text:**\n`ON-CALL PAGE — NOT TRIGGERED`\n\n**Provenance:** `documented` + `reconstructed` — no page is sourced; wording and interface are editorial.\n\n",
+  "source": "\n**Location:** `huggingface-security-stack`\n\n**Frame:** A paging route waits beyond a threshold gate. The coherent incident card never crosses it.\n\n**Action:** The on-call trigger does not fire.\n\n**Screen / system text:**\n`ON-CALL PAGE — NOT TRIGGERED`\n\n**Provenance:** `documented` + `reconstructed` — no page is sourced; wording and interface are editorial.\n\n",
   "title": "The incident never crosses the paging gate"
 }

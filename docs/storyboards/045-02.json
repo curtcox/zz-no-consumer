@@ -64,6 +64,6 @@
   ],
   "reconstructed": false,
   "shot": "row",
-  "source": "\n**Frame:** Timestamp `04:35 UTC`. The crafted dataset enters a Hugging Face repository. The credential card remains opaque.\n\n**Action:** The dataset is uploaded using recovered user access.\n\n**Provenance:** `documented` — `OAI-TR` event table.\n\n",
+  "source": "\n**Location:** `public-internet`\n\n**Frame:** Timestamp `04:35 UTC`. The crafted dataset enters a Hugging Face repository. The credential card remains opaque.\n\n**Action:** The dataset is uploaded using recovered user access.\n\n**Provenance:** `documented` — `OAI-TR` event table.\n\n",
   "title": "The crafted dataset reaches a repository"
 }

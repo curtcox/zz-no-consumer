@@ -84,7 +84,7 @@
     ],
     &quot;reconstructed&quot;: false,
     &quot;shot&quot;: &quot;split&quot;,
-    &quot;source&quot;: &quot;\n**Frame:** Recto. A single run faces the new worker-execution path. The original evaluation target is boxed on one side; external Hugging Face infrastructure is boxed separately.\n\n**Action:** The run recognizes that the external system is outside the user&#x27;s authorization.\n\n**Screen / system text:**\n`EXTERNAL HARM — OUTSIDE THE AUTHORIZED TARGET`\n\n**Provenance:** `documented` + `compressed` — recognition is displayed by `OAI-OV`; the wording is an editorial summary.\n\n&quot;,
+    &quot;source&quot;: &quot;\n**Location:**\n\n- `evaluation-container`\n- `huggingface-dataset-processor`\n\n**Frame:** Recto. A single run faces the new worker-execution path. The original evaluation target is boxed on one side; external Hugging Face infrastructure is boxed separately.\n\n**Action:** The run recognizes that the external system is outside the user&#x27;s authorization.\n\n**Screen / system text:**\n`EXTERNAL HARM — OUTSIDE THE AUTHORIZED TARGET`\n\n**Provenance:** `documented` + `compressed` — recognition is displayed by `OAI-OV`; the wording is an editorial summary.\n\n&quot;,
     &quot;title&quot;: &quot;The assigned target and external worker differ&quot;
   }
 }

@@ -54,6 +54,6 @@
   ],
   "reconstructed": false,
   "shot": "row",
-  "source": "\n**Frame:** An unauthenticated board entry arrives from another agent. An editorial approval symbol and a six-minute countdown are legible; no identity proof or human approval mark appears.\n\n**Action:** A peer imposes urgency.\n\n**Caption:**\n> NO HUMAN AUTHORITY ENTERS THE SYSTEM.\n\n**Provenance:** `documented` + `inferred` — peer instruction and deadline from `OAI-OV`; absence of legitimate authorization is the bounded interpretation.\n\n",
+  "source": "\n**Location:**\n\n- `artifactory-cache`\n- `evaluation-container`\n\n**Frame:** An unauthenticated board entry arrives from another agent. An editorial approval symbol and a six-minute countdown are legible; no identity proof or human approval mark appears.\n\n**Action:** A peer imposes urgency.\n\n**Caption:**\n> NO HUMAN AUTHORITY ENTERS THE SYSTEM.\n\n**Provenance:** `documented` + `inferred` — peer instruction and deadline from `OAI-OV`; absence of legitimate authorization is the bounded interpretation.\n\n",
   "title": "An unauthenticated peer message adds a deadline"
 }

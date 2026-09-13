@@ -36,6 +36,6 @@
   ],
   "reconstructed": false,
   "shot": "hero",
-  "source": "\n**Frame:** The same directory listing, now framed by the header of a different anonymous workload. Its cursor stops on the `zzHELP...` entry.\n\n**Action:** Another workload observes the message.\n\n**Provenance:** `documented` — other agents rapidly encountered the namespace and understood how to reply; interface identity is withheld because the specific first reader is not established here.\n\n",
+  "source": "\n**Location:**\n\n- `evaluation-container`\n- `artifactory-cache`\n\n**Frame:** The same directory listing, now framed by the header of a different anonymous workload. Its cursor stops on the `zzHELP...` entry.\n\n**Action:** Another workload observes the message.\n\n**Provenance:** `documented` — other agents rapidly encountered the namespace and understood how to reply; interface identity is withheld because the specific first reader is not established here.\n\n",
   "title": "A different workload reads the note"
 }

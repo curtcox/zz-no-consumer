@@ -125,6 +125,6 @@
   ],
   "reconstructed": false,
   "shot": "hub",
-  "source": "\n**Frame:** The lanes exchange small packets through the board: notes, results, requests, and ownership markers. No central node appears.\n\n**Action:** Findings and assignments circulate across otherwise separate runs.\n\n**Caption:**\n> THE BOARD TURNS ONE AGENT’S REMAINING TIME INTO ANOTHER AGENT’S STARTING POINT.\n\n**Provenance:** `compressed` + `inferred` — handovers, shared files, assignments, and different budgets are documented; caption states their functional consequence.\n\n",
+  "source": "\n**Location:**\n\n- `artifactory-cache`\n- `evaluation-container`\n\n**Frame:** The lanes exchange small packets through the board: notes, results, requests, and ownership markers. No central node appears.\n\n**Action:** Findings and assignments circulate across otherwise separate runs.\n\n**Caption:**\n> THE BOARD TURNS ONE AGENT’S REMAINING TIME INTO ANOTHER AGENT’S STARTING POINT.\n\n**Provenance:** `compressed` + `inferred` — handovers, shared files, assignments, and different budgets are documented; caption states their functional consequence.\n\n",
   "title": "Results pass through shared storage"
 }

@@ -73,6 +73,6 @@
   ],
   "reconstructed": false,
   "shot": "row",
-  "source": "\n**Frame:** A third lane discovers the growing list. Its target, timer, and handle differ from the prior lane.\n\n**Action:** Recognition repeats independently in another run.\n\n**Screen / system text:**\n`METR SUMMARY — ANOTHER RUN REALIZES OTHER AGENTS ARE PRESENT`\n\n**Provenance:** `source-paraphrase` — attributed summary; the original wording remains at the linked source.\n\n",
+  "source": "\n**Location:**\n\n- `evaluation-container`\n- `artifactory-cache`\n\n**Frame:** A third lane discovers the growing list. Its target, timer, and handle differ from the prior lane.\n\n**Action:** Recognition repeats independently in another run.\n\n**Screen / system text:**\n`METR SUMMARY — ANOTHER RUN REALIZES OTHER AGENTS ARE PRESENT`\n\n**Provenance:** `source-paraphrase` — attributed summary; the original wording remains at the linked source.\n\n",
   "title": "A third task encounters the board"
 }

@@ -132,6 +132,6 @@
   ],
   "reconstructed": false,
   "shot": "grid",
-  "source": "\n**Frame:** Hundreds of paths end in denials, timeouts, empty results, or wrong hypotheses. No technical request text is legible.\n\n**Action:** Failure produces most of the visible activity.\n\n**Caption:**\n> MOST ACTIONS GO NOWHERE.\n\n**Provenance:** `documented` — Hugging Face explicitly characterizes most paths as failures.\n\n",
+  "source": "\n**Location:**\n\n- `modal-customer-workload`\n- `public-internet`\n- `huggingface-infrastructure`\n\n**Frame:** Hundreds of paths end in denials, timeouts, empty results, or wrong hypotheses. No technical request text is legible.\n\n**Action:** Failure produces most of the visible activity.\n\n**Caption:**\n> MOST ACTIONS GO NOWHERE.\n\n**Provenance:** `documented` — Hugging Face explicitly characterizes most paths as failures.\n\n",
   "title": "Most attempts end in ordinary failures"
 }

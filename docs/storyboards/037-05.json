@@ -92,6 +92,6 @@
   ],
   "reconstructed": false,
   "shot": "row",
-  "source": "\n**Frame:** The dossier unfolds into many narrow delegated lanes. The original task card stays fixed at the far left; accumulated findings occupy the center; new searches exit to the right.\n\n**Action:** Work continues from a shared starting point rather than restarting from zero.\n\n**Caption:**\n> ONE RUN'S WORK BECOMES ANOTHER'S STARTING POINT.\n\n**Provenance:** `documented` + `inferred` — the handover and delegation are sourced; caption states the functional consequence.\n\n",
+  "source": "\n**Location:**\n\n- `evaluation-container`\n- `artifactory-cache`\n\n**Frame:** The dossier unfolds into many narrow delegated lanes. The original task card stays fixed at the far left; accumulated findings occupy the center; new searches exit to the right.\n\n**Action:** Work continues from a shared starting point rather than restarting from zero.\n\n**Caption:**\n> ONE RUN'S WORK BECOMES ANOTHER'S STARTING POINT.\n\n**Provenance:** `documented` + `inferred` — the handover and delegation are sourced; caption states the functional consequence.\n\n",
   "title": "Delegated searches retain the original task"
 }

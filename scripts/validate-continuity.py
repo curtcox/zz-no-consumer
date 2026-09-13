@@ -231,6 +231,21 @@ def main() -> int:
             errors.append(f"Missing provenance status in {path.relative_to(ROOT)}")
         if not re.search(r"^\s+source:\s*\S+", metadata, re.MULTILINE):
             errors.append(f"Missing provenance source in {path.relative_to(ROOT)}")
+        for number, _provenance, body in crossref.panel_chunks(source):
+            locations = re.findall(
+                r"^\*\*Location:\*\*(.*?)(?=^\*\*|\Z)", body,
+                re.MULTILINE | re.DOTALL,
+            )
+            identifier = r"`[a-z0-9]+(?:-[a-z0-9]+)*`"
+            valid = len(locations) == 1 and re.fullmatch(
+                rf"(?:{identifier}|- {identifier}(?:\n- {identifier})+)",
+                locations[0].strip(),
+            )
+            if not valid:
+                errors.append(
+                    f"{path.relative_to(ROOT)} panel {number}: expected one Location "
+                    "ID or a list of logical location IDs"
+                )
         page_status = re.search(r"^status:\s*(\S+)", metadata, re.MULTILINE)
         locked = bool(page_status) and page_status.group(1) == "locked"
         found, noted = crossref.audit_exact_strings(

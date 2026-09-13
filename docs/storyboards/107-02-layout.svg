@@ -75,7 +75,7 @@
     ],
     &quot;reconstructed&quot;: true,
     &quot;shot&quot;: &quot;row&quot;,
-    &quot;source&quot;: &quot;\n**Frame:** A functional role, drawn only as a hand at a keyboard and a moderation screen, visibly marked `RECONSTRUCTION`. The interface is the wiki&#x27;s own: a page, a delete control, a one-line change summary in German meaning *page deleted*.\n\n**Action:** The maintainer removes a page.\n\n**Provenance:** `documented` + `reconstructed` — the deletion is a logged event attributed to the label `[Admin1]` (`CW-EXPORT`, `events.jsonl`, `event_type: delete`); the hand, the room, and the moment of decision are reconstructed. No face, name, gender, motive, or speech.\n\n&quot;,
+    &quot;source&quot;: &quot;\n**Location:** `public-wiki-dse`\n\n**Frame:** A functional role, drawn only as a hand at a keyboard and a moderation screen, visibly marked `RECONSTRUCTION`. The interface is the wiki&#x27;s own: a page, a delete control, a one-line change summary in German meaning *page deleted*.\n\n**Action:** The maintainer removes a page.\n\n**Provenance:** `documented` + `reconstructed` — the deletion is a logged event attributed to the label `[Admin1]` (`CW-EXPORT`, `events.jsonl`, `event_type: delete`); the hand, the room, and the moment of decision are reconstructed. No face, name, gender, motive, or speech.\n\n&quot;,
     &quot;title&quot;: &quot;A reconstructed moderation action deletes a page&quot;
   }
 }

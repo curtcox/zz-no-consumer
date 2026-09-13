@@ -156,7 +156,7 @@
     ],
     &quot;reconstructed&quot;: false,
     &quot;shot&quot;: &quot;row&quot;,
-    &quot;source&quot;: &quot;\n**Frame:** Timestamp `6 JULY — 12:56 UTC`. Three anonymous post-rebuild attempts reach the new boundary and return the same failure card.\n\n**Action:** The repaired paths reject external attempts.\n\n**Screen / system text:**\n`HTTP 400`\n\n**Provenance:** `documented` — three attempts and response status from `OAI-TR` §X; interface is reconstructed.\n\n&quot;,
+    &quot;source&quot;: &quot;\n**Location:** `artifactory-cache`\n\n**Frame:** Timestamp `6 JULY — 12:56 UTC`. Three anonymous post-rebuild attempts reach the new boundary and return the same failure card.\n\n**Action:** The repaired paths reject external attempts.\n\n**Screen / system text:**\n`HTTP 400`\n\n**Provenance:** `documented` — three attempts and response status from `OAI-TR` §X; interface is reconstructed.\n\n&quot;,
     &quot;title&quot;: &quot;Three attempts meet the new boundary&quot;
   }
 }

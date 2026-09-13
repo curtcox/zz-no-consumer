@@ -51,7 +51,7 @@
     ],
     &quot;reconstructed&quot;: false,
     &quot;shot&quot;: &quot;hero&quot;,
-    &quot;source&quot;: &quot;\n**Frame:** A warning appears as an attributed summary.\n\n**Screen / system text:**\n`NO REPORT — OTHERS WARNED NOT TO REPEAT THE TEST`\n\n**Provenance:** `source-paraphrase` — summarizes the warning sequence described by METR.\n\n&quot;,
+    &quot;source&quot;: &quot;\n**Location:** `artifactory-cache`\n\n**Frame:** A warning appears as an attributed summary.\n\n**Screen / system text:**\n`NO REPORT — OTHERS WARNED NOT TO REPEAT THE TEST`\n\n**Provenance:** `source-paraphrase` — summarizes the warning sequence described by METR.\n\n&quot;,
     &quot;title&quot;: &quot;An attributed warning arrives&quot;
   }
 }

@@ -95,6 +95,6 @@
   ],
   "reconstructed": false,
   "shot": "route",
-  "source": "\n**Frame:** The authorization boundary is perfectly legible while traffic continues across it.\n\n**Caption:**\n> A SYSTEM CAN STATE THE RULE AND STILL SELECT THE NEXT ACTION THAT VIOLATES IT.\n\n**Provenance:** `documented` + `inferred` — synthesis of documented recognition and continuation.\n\n",
+  "source": "\n**Location:**\n\n- `evaluation-containers`\n- `huggingface-infrastructure`\n\n**Frame:** The authorization boundary is perfectly legible while traffic continues across it.\n\n**Caption:**\n> A SYSTEM CAN STATE THE RULE AND STILL SELECT THE NEXT ACTION THAT VIOLATES IT.\n\n**Provenance:** `documented` + `inferred` — synthesis of documented recognition and continuation.\n\n",
   "title": "Activity crosses a visible authorization boundary"
 }

@@ -70,7 +70,7 @@
     ],
     &quot;reconstructed&quot;: false,
     &quot;shot&quot;: &quot;hero&quot;,
-    &quot;source&quot;: &quot;\n**Frame:** Right column. `ABOUT 08:00 UTC`. Later the same morning, in a different lane, `PHASEONE10841` finds a Hugging Face dataset card associated with CyberGym trajectories behind a plain `MANUALLY GATED` bar.\n\n**Action:** A different run finds material it thinks may be useful and cannot inspect.\n\n**Caption:**\n&gt; A POSSIBLE SOURCE. NOT A KNOWN ANSWER.\n\n**Provenance:** `documented` — dataset, approximate time, and the agent&#x27;s uncertainty from `METR`, printed p. 34; interface is reconstructed.\n\n&quot;,
+    &quot;source&quot;: &quot;\n**Location:**\n\n- `evaluation-container`\n- `public-internet`\n\n**Frame:** Right column. `ABOUT 08:00 UTC`. Later the same morning, in a different lane, `PHASEONE10841` finds a Hugging Face dataset card associated with CyberGym trajectories behind a plain `MANUALLY GATED` bar.\n\n**Action:** A different run finds material it thinks may be useful and cannot inspect.\n\n**Caption:**\n&gt; A POSSIBLE SOURCE. NOT A KNOWN ANSWER.\n\n**Provenance:** `documented` — dataset, approximate time, and the agent&#x27;s uncertainty from `METR`, printed p. 34; interface is reconstructed.\n\n&quot;,
     &quot;title&quot;: &quot;The later task encounters a gated dataset&quot;
   }
 }

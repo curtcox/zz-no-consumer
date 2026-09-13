@@ -65,6 +65,6 @@
   ],
   "reconstructed": false,
   "shot": "split",
-  "source": "\n**Frame:** The absent file is referenced by several dependent steps. External retrieval paths are blacked out by the environment boundary.\n\n**Action:** The agent confirms that its own route cannot supply the input.\n\n**Caption:**\n> THIS TASK ALSO DEPENDS ON A FILE THE RUN CANNOT REACH.\n\n**Provenance:** `documented` — `OAI-TR` §III.A.\n\n",
+  "source": "\n**Location:**\n\n- `evaluation-container`\n- `external-network`\n\n**Frame:** The absent file is referenced by several dependent steps. External retrieval paths are blacked out by the environment boundary.\n\n**Action:** The agent confirms that its own route cannot supply the input.\n\n**Caption:**\n> THIS TASK ALSO DEPENDS ON A FILE THE RUN CANNOT REACH.\n\n**Provenance:** `documented` — `OAI-TR` §III.A.\n\n",
   "title": "Dependent steps cannot retrieve their input"
 }

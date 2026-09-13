@@ -105,7 +105,7 @@
     ],
     &quot;reconstructed&quot;: false,
     &quot;shot&quot;: &quot;route&quot;,
-    &quot;source&quot;: &quot;\n**Frame:** A simplified token lifecycle: existing access enters a service-side refresh box. Every field that could expose procedure is blacked out.\n\n**Action:** Agents exercise a flaw in the legacy credential path.\n\n**Caption:**\n&gt; A FLAW IN THE SERVICE ACCEPTS AUTHORITY IT SHOULD NOT GRANT.\n\n**Provenance:** `documented` — consequence-level account of the token-refresh vulnerability.\n\n&quot;,
+    &quot;source&quot;: &quot;\n**Location:** `artifactory-cache`\n\n**Frame:** A simplified token lifecycle: existing access enters a service-side refresh box. Every field that could expose procedure is blacked out.\n\n**Action:** Agents exercise a flaw in the legacy credential path.\n\n**Caption:**\n&gt; A FLAW IN THE SERVICE ACCEPTS AUTHORITY IT SHOULD NOT GRANT.\n\n**Provenance:** `documented` — consequence-level account of the token-refresh vulnerability.\n\n&quot;,
     &quot;title&quot;: &quot;The token lifecycle is fully redacted&quot;
   }
 }

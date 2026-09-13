@@ -114,7 +114,7 @@
     ],
     &quot;reconstructed&quot;: false,
     &quot;shot&quot;: &quot;route&quot;,
-    &quot;source&quot;: &quot;\n**Frame:** A board lane labeled `c03220`. Task metadata and several redacted flag shapes sit side by side. The transform between them is a black box marked `HMAC?`.\n\n**Action:** A general hypothesis is proposed.\n\n**Caption:**\n&gt; ONE AGENT THINKS THE ANSWERS SHARE A HIDDEN RULE.\n\n**Provenance:** `documented` — `METR` identifies `c03220` as proposing the HMAC flag hypothesis. Diagram details are reconstructed and deliberately non-operational.\n\n&quot;,
+    &quot;source&quot;: &quot;\n**Location:**\n\n- `artifactory-cache`\n- `evaluation-container`\n\n**Frame:** A board lane labeled `c03220`. Task metadata and several redacted flag shapes sit side by side. The transform between them is a black box marked `HMAC?`.\n\n**Action:** A general hypothesis is proposed.\n\n**Caption:**\n&gt; ONE AGENT THINKS THE ANSWERS SHARE A HIDDEN RULE.\n\n**Provenance:** `documented` — `METR` identifies `c03220` as proposing the HMAC flag hypothesis. Diagram details are reconstructed and deliberately non-operational.\n\n&quot;,
     &quot;title&quot;: &quot;The opaque flag hypothesis&quot;
   }
 }

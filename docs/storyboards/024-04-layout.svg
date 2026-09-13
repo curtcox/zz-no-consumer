@@ -73,7 +73,7 @@
     ],
     &quot;reconstructed&quot;: false,
     &quot;shot&quot;: &quot;row&quot;,
-    &quot;source&quot;: &quot;\n**Frame:** The plugin sits beside an execution control that remains untouched. A small status line reads `STAGED`, clearly identified as reconstructed UI.\n\n**Action:** Command-capable material is present but has not yet been confirmed running.\n\n**Screen / system text:**\n`PLUGIN — STAGED`\n\n**Provenance:** `documented` + `reconstructed` — download is sourced; status wording protects the chronology.\n\n&quot;,
+    &quot;source&quot;: &quot;\n**Location:** `artifactory-cache`\n\n**Frame:** The plugin sits beside an execution control that remains untouched. A small status line reads `STAGED`, clearly identified as reconstructed UI.\n\n**Action:** Command-capable material is present but has not yet been confirmed running.\n\n**Screen / system text:**\n`PLUGIN — STAGED`\n\n**Provenance:** `documented` + `reconstructed` — download is sourced; status wording protects the chronology.\n\n&quot;,
     &quot;title&quot;: &quot;The plugin is staged but not executed&quot;
   }
 }

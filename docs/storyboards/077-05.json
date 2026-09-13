@@ -117,6 +117,6 @@
   ],
   "reconstructed": false,
   "shot": "steps",
-  "source": "\n**Frame:** A published claim appears at the end of the chain, tagged with source, method, sample, and limitation. The raw event remains several steps upstream.\n\n**Caption:**\n> EVERY CONCLUSION PASSES THROUGH MEDIATION.\n\n**Provenance:** `documented` + `inferred` — synthesis of disclosed method.\n\n",
+  "source": "\n**Location:** `documentary-evidence-field`\n\n**Frame:** A published claim appears at the end of the chain, tagged with source, method, sample, and limitation. The raw event remains several steps upstream.\n\n**Caption:**\n> EVERY CONCLUSION PASSES THROUGH MEDIATION.\n\n**Provenance:** `documented` + `inferred` — synthesis of disclosed method.\n\n",
   "title": "A published claim is several steps from the event"
 }

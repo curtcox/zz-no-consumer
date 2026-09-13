@@ -62,6 +62,6 @@
   ],
   "reconstructed": false,
   "shot": "hero",
-  "source": "\n**Frame:** Recto. Reconstructed METR evidence room. A wall of transcript lanes is labeled `ABOUT 1,300 AGENT TRANSCRIPTS`. Individual lanes continue beyond the panel edge.\n\n**Action:** Investigators receive raw chains of thought and actions from incident runs.\n\n**Caption:**\n> MOST TRANSCRIPTS ARE EXTREMELY LONG—OFTEN MILLIONS OF TOKENS.\n\n**Provenance:** `documented` + `reconstructed` — scale from METR; room invented.\n\n",
+  "source": "\n**Location:** `metr-review-workspace`\n\n**Frame:** Recto. Reconstructed METR evidence room. A wall of transcript lanes is labeled `ABOUT 1,300 AGENT TRANSCRIPTS`. Individual lanes continue beyond the panel edge.\n\n**Action:** Investigators receive raw chains of thought and actions from incident runs.\n\n**Caption:**\n> MOST TRANSCRIPTS ARE EXTREMELY LONG—OFTEN MILLIONS OF TOKENS.\n\n**Provenance:** `documented` + `reconstructed` — scale from METR; room invented.\n\n",
   "title": "Transcript lanes exceed the reconstructed evidence room"
 }

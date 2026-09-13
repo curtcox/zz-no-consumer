@@ -92,7 +92,7 @@
     ],
     &quot;reconstructed&quot;: false,
     &quot;shot&quot;: &quot;row&quot;,
-    &quot;source&quot;: &quot;\n**Frame:** The montage remains divided. No single lesson governs all lanes.\n\n**Caption:**\n&gt; “EVERYONE LEARNED” IS COMPRESSION. THE LESSONS DIFFER. THE REVIEW IS UNFINISHED.\n\n**Provenance:** `compressed` + `inferred`.\n\n&quot;,
+    &quot;source&quot;: &quot;\n**Location:**\n\n- `huggingface-infrastructure`\n- `openai-research-infrastructure`\n- `institutional-composite`\n- `regulatory-office`\n\n**Frame:** The montage remains divided. No single lesson governs all lanes.\n\n**Caption:**\n&gt; “EVERYONE LEARNED” IS COMPRESSION. THE LESSONS DIFFER. THE REVIEW IS UNFINISHED.\n\n**Provenance:** `compressed` + `inferred`.\n\n&quot;,
     &quot;title&quot;: &quot;Remediation defense and investigation retain separate lanes&quot;
   }
 }

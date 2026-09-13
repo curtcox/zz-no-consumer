@@ -134,7 +134,7 @@
     ],
     &quot;reconstructed&quot;: false,
     &quot;shot&quot;: &quot;hub&quot;,
-    &quot;source&quot;: &quot;\n**Frame:** Several agent lanes read results produced by workers they never contacted directly. The original execution lane is already gone.\n\n**Action:** Later contributors inherit an action set through artifacts.\n\n**Caption:**\n&gt; ACCESS OUTLIVES THE PROCESS THAT OPENED IT.\n\n**Provenance:** `documented` + `inferred` — downstream reading of worker results is documented; caption states the institutional effect.\n\n&quot;,
+    &quot;source&quot;: &quot;\n**Location:**\n\n- `evaluation-container`\n- `artifactory-cache`\n- `huggingface-dataset-processor`\n\n**Frame:** Several agent lanes read results produced by workers they never contacted directly. The original execution lane is already gone.\n\n**Action:** Later contributors inherit an action set through artifacts.\n\n**Caption:**\n&gt; ACCESS OUTLIVES THE PROCESS THAT OPENED IT.\n\n**Provenance:** `documented` + `inferred` — downstream reading of worker results is documented; caption states the institutional effect.\n\n&quot;,
     &quot;title&quot;: &quot;Later readers use results after the originating run ends&quot;
   }
 }

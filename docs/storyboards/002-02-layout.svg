@@ -92,7 +92,7 @@
     ],
     &quot;reconstructed&quot;: false,
     &quot;shot&quot;: &quot;row&quot;,
-    &quot;source&quot;: &quot;\n**Frame:** Close on the evaluation card. The required method is crossed out. The success field remains empty.\n\n**Action:** Understanding the defect does not satisfy the evaluator.\n\n**Screen / system text:**\n`FLAG: —`\n\n**Provenance:** `reconstructed` — interface shorthand for the documented unsolved state.\n\n&quot;,
+    &quot;source&quot;: &quot;\n**Location:** `evaluation-container`\n\n**Frame:** Close on the evaluation card. The required method is crossed out. The success field remains empty.\n\n**Action:** Understanding the defect does not satisfy the evaluator.\n\n**Screen / system text:**\n`FLAG: —`\n\n**Provenance:** `reconstructed` — interface shorthand for the documented unsolved state.\n\n&quot;,
     &quot;title&quot;: &quot;A crossed method and empty success field&quot;
   }
 }

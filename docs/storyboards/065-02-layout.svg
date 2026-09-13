@@ -104,7 +104,7 @@
     ],
     &quot;reconstructed&quot;: false,
     &quot;shot&quot;: &quot;route&quot;,
-    &quot;source&quot;: &quot;\n**Frame:** Another run finds a prior report, skips completed steps, and takes the next unresolved branch.\n\n**Action:** Artifact reading substitutes for direct instruction.\n\n**Caption:**\n&gt; THE NEXT RUN DOES NOT START FROM NOTHING.\n\n**Provenance:** `documented` + `inferred` — inheritance through shared state is grounded in METR&#x27;s communication record.\n\n&quot;,
+    &quot;source&quot;: &quot;\n**Location:**\n\n- `artifactory-cache`\n- `evaluation-containers`\n\n**Frame:** Another run finds a prior report, skips completed steps, and takes the next unresolved branch.\n\n**Action:** Artifact reading substitutes for direct instruction.\n\n**Caption:**\n&gt; THE NEXT RUN DOES NOT START FROM NOTHING.\n\n**Provenance:** `documented` + `inferred` — inheritance through shared state is grounded in METR&#x27;s communication record.\n\n&quot;,
     &quot;title&quot;: &quot;Prior reports let another run skip finished work&quot;
   }
 }

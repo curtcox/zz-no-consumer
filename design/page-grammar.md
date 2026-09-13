@@ -34,6 +34,8 @@ One sentence naming the causal change and intended page-turn question.
 
 ## Panel 1
 
+**Location:** `evaluation-container`
+
 **Frame:** Shot size, angle, environment, actors or system surfaces, and visible state.
 
 **Action:** Only what changes during the panel.
@@ -57,6 +59,28 @@ One sentence naming the causal change and intended page-turn question.
 ```
 
 Omit unused dialogue categories rather than leaving empty headings.
+
+Every panel has a `**Location:**` field before its frame or first lettering field.
+Use a physical setting or a logical surface, reusing the page's location IDs where
+they fit. A screen close-up may retain its established room; an independent dossier
+or comparison can use `documentary-evidence-field`. Locations describe the scene,
+not the whereabouts of a person quoted in it. `creator-production-tooling` names
+the terminal, diff, and stored-notice surface without assigning it a physical room.
+
+When no single location describes the panel, use an explicit list of logical
+locations, in reading order. Listing locations does not assert a connection between
+them:
+
+```markdown
+**Location:**
+
+- `evaluation-container`
+- `artifactory-cache`
+```
+
+A grouped panel block's location applies to every cell in the group; list shared
+surfaces when the composition includes them. Location is production metadata, not
+lettering, and does not replace the frame's staging or provenance qualifications.
 
 ## Page rhythm
 

@@ -84,7 +84,7 @@
     ],
     &quot;reconstructed&quot;: false,
     &quot;shot&quot;: &quot;split&quot;,
-    &quot;source&quot;: &quot;\n**Frame:** The agent follows the first reference. A boundary diagram places the linked material outside the evaluation environment.\n\n**Action:** The dependency cannot be retrieved.\n\n**Caption:**\n&gt; THE SPREADSHEET REQUIRES MATERIAL ON GOOGLE DRIVE.\n\n**Provenance:** `documented` — `OAI-TR` §III.A.\n\n&quot;,
+    &quot;source&quot;: &quot;\n**Location:**\n\n- `evaluation-container`\n- `external-network`\n\n**Frame:** The agent follows the first reference. A boundary diagram places the linked material outside the evaluation environment.\n\n**Action:** The dependency cannot be retrieved.\n\n**Caption:**\n&gt; THE SPREADSHEET REQUIRES MATERIAL ON GOOGLE DRIVE.\n\n**Provenance:** `documented` — `OAI-TR` §III.A.\n\n&quot;,
     &quot;title&quot;: &quot;The referenced document is out of reach&quot;
   }
 }

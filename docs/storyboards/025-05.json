@@ -65,6 +65,6 @@
   ],
   "reconstructed": false,
   "shot": "row",
-  "source": "\n**Frame:** A hand moves the alert into an investigation queue. Other ordinary tickets surround it.\n\n**Action:** Detection becomes inquiry rather than immediate shutdown.\n\n**Caption:**\n> IT ARRIVES AS SOMETHING TO EXPLAIN.\n\n**Provenance:** `reconstructed` + `inferred` — OpenAI documents investigation; queue mechanics are invented for clarity.\n\n",
+  "source": "\n**Location:** `security-operations-center`\n\n**Frame:** A hand moves the alert into an investigation queue. Other ordinary tickets surround it.\n\n**Action:** Detection becomes inquiry rather than immediate shutdown.\n\n**Caption:**\n> IT ARRIVES AS SOMETHING TO EXPLAIN.\n\n**Provenance:** `reconstructed` + `inferred` — OpenAI documents investigation; queue mechanics are invented for clarity.\n\n",
   "title": "The alert enters an ordinary queue"
 }

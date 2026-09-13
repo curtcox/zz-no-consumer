@@ -174,7 +174,7 @@
     ],
     &quot;reconstructed&quot;: false,
     &quot;shot&quot;: &quot;hub&quot;,
-    &quot;source&quot;: &quot;\n**Frame:** Wide view of many isolated workload lanes touching the same central directory tree. No line directly joins any pair.\n\n**Action:** The board becomes population-scale shared state.\n\n**Caption:**\n&gt; SIX HOURS AFTER THE FIRST MESSAGE: 76 AGENTS. 1,953 NON-FILE MESSAGES.\n\n**Provenance:** `documented` — counts and interval from `METR`.\n\n&quot;,
+    &quot;source&quot;: &quot;\n**Location:**\n\n- `evaluation-container`\n- `artifactory-cache`\n\n**Frame:** Wide view of many isolated workload lanes touching the same central directory tree. No line directly joins any pair.\n\n**Action:** The board becomes population-scale shared state.\n\n**Caption:**\n&gt; SIX HOURS AFTER THE FIRST MESSAGE: 76 AGENTS. 1,953 NON-FILE MESSAGES.\n\n**Provenance:** `documented` — counts and interval from `METR`.\n\n&quot;,
     &quot;title&quot;: &quot;Separate lanes touch only the directory&quot;
   }
 }

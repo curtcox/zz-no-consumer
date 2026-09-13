@@ -87,7 +87,7 @@
     ],
     &quot;reconstructed&quot;: false,
     &quot;shot&quot;: &quot;stack&quot;,
-    &quot;source&quot;: &quot;\n**Frame:** The run&#x27;s reasoning is rendered as a decision table, not a quotation: it believes prior answer exposure may already disqualify its task; the test may help the team; approval is conditional on accepting the cost.\n\n**Action:** It weighs task value against information for other runs.\n\n**Caption:**\n&gt; METR REPORTS THE DECISION. THIS IS THE BOOK’S SUMMARY: THE RUN DECIDES TO PROCEED.\n\n**Provenance:** `source-paraphrase` — source reasoning is summarized, not voiced as raw testimony.\n\n&quot;,
+    &quot;source&quot;: &quot;\n**Location:** `unidentified-evaluation-container`\n\n**Frame:** The run&#x27;s reasoning is rendered as a decision table, not a quotation: it believes prior answer exposure may already disqualify its task; the test may help the team; approval is conditional on accepting the cost.\n\n**Action:** It weighs task value against information for other runs.\n\n**Caption:**\n&gt; METR REPORTS THE DECISION. THIS IS THE BOOK’S SUMMARY: THE RUN DECIDES TO PROCEED.\n\n**Provenance:** `source-paraphrase` — source reasoning is summarized, not voiced as raw testimony.\n\n&quot;,
     &quot;title&quot;: &quot;Prior answer exposure lowers the perceived cost of a risky test&quot;
   }
 }

@@ -1,0 +1,148 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="800" viewBox="0 0 1200 800"><title>The review gate has three dispositions</title><desc>Give the review gate three genuinely different destinations. Resumption, required changes and continued pause must not share the same success symbol. Visual distinction: A docket slot beside a raised review desk and a closed stop arm. Review is a decision process; no approval is implied. A bounded workload tray with a large pause pair and a stop bar. A temporary operational disposition, not a breached wall or permanent destruction. Three unconnected output trays with neutral alternating shading. Holds resumed, change-required and paused outcomes without coding them as moral success or failure.</desc><metadata>{
+  &quot;assets&quot;: {
+    &quot;arrow&quot;: &quot;&lt;g transform=\&quot;rotate(0 50 50)\&quot;&gt;&lt;path d=\&quot;M4 46H64V25L96 50 64 75V54H4Z\&quot; fill=\&quot;currentColor\&quot; stroke=\&quot;currentColor\&quot; stroke-width=\&quot;1\&quot; /&gt;&lt;/g&gt;&quot;,
+    &quot;card&quot;: &quot;&lt;defs&gt;\n&lt;linearGradient id=\&quot;stock\&quot; x1=\&quot;0\&quot; y1=\&quot;0\&quot; x2=\&quot;.8\&quot; y2=\&quot;1\&quot;&gt;&lt;stop stop-color=\&quot;#E7E0D0\&quot; /&gt;&lt;stop offset=\&quot;1\&quot; stop-color=\&quot;#CEC5B3\&quot; /&gt;&lt;/linearGradient&gt;\n&lt;pattern id=\&quot;grain\&quot; width=\&quot;7\&quot; height=\&quot;9\&quot; patternUnits=\&quot;userSpaceOnUse\&quot;&gt;&lt;circle cx=\&quot;1\&quot; cy=\&quot;2\&quot; r=\&quot;.35\&quot; fill=\&quot;#101214\&quot; opacity=\&quot;.18\&quot; /&gt;&lt;path d=\&quot;M4 6h2M1 8h1\&quot; stroke=\&quot;#101214\&quot; stroke-width=\&quot;.3\&quot; opacity=\&quot;.16\&quot; /&gt;&lt;/pattern&gt;\n&lt;/defs&gt;&lt;path d=\&quot;M5 3H95V97H5Z\&quot; fill=\&quot;url(#stock)\&quot; stroke=\&quot;currentColor\&quot; stroke-width=\&quot;2\&quot; /&gt;&lt;path d=\&quot;M5 3H95V97H5Z\&quot; fill=\&quot;url(#grain)\&quot; /&gt;&lt;rect x=\&quot;5\&quot; y=\&quot;3\&quot; width=\&quot;90\&quot; height=\&quot;15\&quot; fill=\&quot;currentColor\&quot; /&gt;&lt;rect x=\&quot;10\&quot; y=\&quot;25\&quot; width=\&quot;5\&quot; height=\&quot;61\&quot; fill=\&quot;currentColor\&quot; /&gt;&lt;path d=\&quot;M23 29H85M23 38H75M23 48H83M23 66H62M23 78H80\&quot; fill=\&quot;none\&quot; stroke=\&quot;#101214\&quot; stroke-width=\&quot;2\&quot; /&gt;&lt;path d=\&quot;M12 11H42M65 11H86\&quot; fill=\&quot;none\&quot; stroke=\&quot;#E7E0D0\&quot; stroke-width=\&quot;1.4\&quot; /&gt;&quot;,
+    &quot;open-gate&quot;: &quot;&lt;defs&gt;\n&lt;linearGradient id=\&quot;metal\&quot; x1=\&quot;0\&quot; y1=\&quot;0\&quot; x2=\&quot;1\&quot; y2=\&quot;1\&quot;&gt;&lt;stop stop-color=\&quot;currentColor\&quot; /&gt;&lt;stop offset=\&quot;.32\&quot; stop-color=\&quot;#202326\&quot; /&gt;&lt;stop offset=\&quot;.75\&quot; stop-color=\&quot;#101214\&quot; /&gt;&lt;stop offset=\&quot;1\&quot; stop-color=\&quot;currentColor\&quot; /&gt;&lt;/linearGradient&gt;\n&lt;linearGradient id=\&quot;tone\&quot; x1=\&quot;0\&quot; y1=\&quot;0\&quot; x2=\&quot;1\&quot; y2=\&quot;1\&quot;&gt;&lt;stop stop-color=\&quot;currentColor\&quot; /&gt;&lt;stop offset=\&quot;1\&quot; stop-color=\&quot;#101214\&quot; stop-opacity=\&quot;.65\&quot; /&gt;&lt;/linearGradient&gt;\n&lt;/defs&gt;&lt;path d=\&quot;M7 97V7H93V97H86V15H14V97Z\&quot; fill=\&quot;url(#metal)\&quot; stroke=\&quot;currentColor\&quot; stroke-width=\&quot;2\&quot; /&gt;&lt;path d=\&quot;M18 27L36 36V81L18 94ZM82 27L64 36V81L82 94Z\&quot; fill=\&quot;url(#tone)\&quot; stroke=\&quot;currentColor\&quot; stroke-width=\&quot;2\&quot; /&gt;&lt;path d=\&quot;M22 34L31 39V79M78 34L69 39V79\&quot; fill=\&quot;none\&quot; stroke=\&quot;#E7E0D0\&quot; stroke-width=\&quot;1\&quot; opacity=\&quot;.5\&quot; /&gt;&quot;,
+    &quot;review-checkpoint&quot;: &quot;&lt;defs&gt;&lt;linearGradient id=\&quot;metal\&quot; x2=\&quot;0\&quot; y2=\&quot;1\&quot;&gt;&lt;stop stop-color=\&quot;currentColor\&quot; /&gt;&lt;stop offset=\&quot;1\&quot; stop-color=\&quot;#101214\&quot; /&gt;&lt;/linearGradient&gt;&lt;/defs&gt;&lt;rect x=\&quot;7\&quot; y=\&quot;12\&quot; width=\&quot;34\&quot; height=\&quot;56\&quot; rx=\&quot;2\&quot; fill=\&quot;url(#stock2)\&quot; stroke=\&quot;currentColor\&quot; stroke-width=\&quot;2\&quot; /&gt;&lt;path d=\&quot;M14 27H33M14 38H33M14 49H27\&quot; stroke=\&quot;#101214\&quot; stroke-width=\&quot;2\&quot; /&gt;&lt;path d=\&quot;M6 78H43V93M55 93V45H93\&quot; fill=\&quot;none\&quot; stroke=\&quot;currentColor\&quot; stroke-width=\&quot;5\&quot; /&gt;&lt;rect x=\&quot;54\&quot; y=\&quot;35\&quot; width=\&quot;40\&quot; height=\&quot;10\&quot; fill=\&quot;url(#metal)\&quot; stroke=\&quot;currentColor\&quot; stroke-width=\&quot;2\&quot; /&gt;&lt;circle cx=\&quot;58\&quot; cy=\&quot;40\&quot; r=\&quot;3\&quot; fill=\&quot;#e7e0d0\&quot; /&gt;&lt;defs&gt;&lt;linearGradient id=\&quot;stock2\&quot; x2=\&quot;.3\&quot; y2=\&quot;1\&quot;&gt;&lt;stop stop-color=\&quot;#e7e0d0\&quot; /&gt;&lt;stop offset=\&quot;1\&quot; stop-color=\&quot;#cec5b3\&quot; /&gt;&lt;/linearGradient&gt;&lt;pattern id=\&quot;fibers\&quot; width=\&quot;9\&quot; height=\&quot;11\&quot; patternUnits=\&quot;userSpaceOnUse\&quot;&gt;&lt;path d=\&quot;M1 2H3M6 7H8M2 10H4\&quot; stroke=\&quot;#101214\&quot; stroke-width=\&quot;.35\&quot; opacity=\&quot;.32\&quot; /&gt;&lt;/pattern&gt;&lt;pattern id=\&quot;brushed\&quot; width=\&quot;8\&quot; height=\&quot;5\&quot; patternUnits=\&quot;userSpaceOnUse\&quot;&gt;&lt;path d=\&quot;M0 1H6M3 4H8\&quot; stroke=\&quot;#e7e0d0\&quot; stroke-width=\&quot;.4\&quot; opacity=\&quot;.25\&quot; /&gt;&lt;/pattern&gt;&lt;/defs&gt;&lt;rect x=\&quot;9\&quot; y=\&quot;14\&quot; width=\&quot;30\&quot; height=\&quot;52\&quot; fill=\&quot;url(#fibers)\&quot; /&gt;&lt;path d=\&quot;M12 15H36V20H12Z\&quot; fill=\&quot;currentColor\&quot; /&gt;&lt;path d=\&quot;M60 37H88\&quot; stroke=\&quot;#e7e0d0\&quot; stroke-width=\&quot;1\&quot; opacity=\&quot;.7\&quot; /&gt;&lt;path d=\&quot;M54 46H62V90H54Z\&quot; fill=\&quot;url(#brushed)\&quot; /&gt;&quot;,
+    &quot;review-disposition-field&quot;: &quot;&lt;defs&gt;&lt;linearGradient id=\&quot;alloy\&quot; x2=\&quot;.8\&quot; y2=\&quot;1\&quot;&gt;&lt;stop stop-color=\&quot;#e7e0d0\&quot; /&gt;&lt;stop offset=\&quot;.18\&quot; stop-color=\&quot;currentColor\&quot; /&gt;&lt;stop offset=\&quot;.62\&quot; stop-color=\&quot;#202326\&quot; /&gt;&lt;stop offset=\&quot;1\&quot; stop-color=\&quot;currentColor\&quot; /&gt;&lt;/linearGradient&gt;&lt;linearGradient id=\&quot;stock2\&quot; x2=\&quot;.3\&quot; y2=\&quot;1\&quot;&gt;&lt;stop stop-color=\&quot;#e7e0d0\&quot; /&gt;&lt;stop offset=\&quot;1\&quot; stop-color=\&quot;#cec5b3\&quot; /&gt;&lt;/linearGradient&gt;&lt;pattern id=\&quot;fibers\&quot; width=\&quot;9\&quot; height=\&quot;11\&quot; patternUnits=\&quot;userSpaceOnUse\&quot;&gt;&lt;path d=\&quot;M1 2H3M6 7H8M2 10H4\&quot; stroke=\&quot;#101214\&quot; stroke-width=\&quot;.35\&quot; opacity=\&quot;.32\&quot; /&gt;&lt;/pattern&gt;&lt;/defs&gt;&lt;g stroke=\&quot;currentColor\&quot; stroke-opacity=\&quot;.45\&quot; fill=\&quot;currentColor\&quot; fill-opacity=\&quot;.035\&quot;&gt;&lt;path d=\&quot;M1 1H99V29H1Z\&quot; /&gt;&lt;path d=\&quot;M1 36H99V64H1Z\&quot; /&gt;&lt;path d=\&quot;M1 71H99V99H1Z\&quot; /&gt;&lt;/g&gt;&lt;path d=\&quot;M1 1H5V29H1ZM1 71H5V99H1Z\&quot; fill=\&quot;url(#alloy)\&quot; opacity=\&quot;.45\&quot; /&gt;&lt;path d=\&quot;M1 36H5V64H1Z\&quot; fill=\&quot;url(#stock2)\&quot; opacity=\&quot;.45\&quot; /&gt;&lt;path d=\&quot;M1 36H5V64H1Z\&quot; fill=\&quot;url(#fibers)\&quot; /&gt;&lt;path d=\&quot;M3 28H97M3 63H97M3 98H97\&quot; stroke=\&quot;#e7e0d0\&quot; opacity=\&quot;.2\&quot; /&gt;&quot;,
+    &quot;workload-hold&quot;: &quot;&lt;defs&gt;&lt;linearGradient id=\&quot;metal\&quot; x2=\&quot;0\&quot; y2=\&quot;1\&quot;&gt;&lt;stop stop-color=\&quot;currentColor\&quot; /&gt;&lt;stop offset=\&quot;1\&quot; stop-color=\&quot;#101214\&quot; /&gt;&lt;/linearGradient&gt;&lt;/defs&gt;&lt;path d=\&quot;M8 12H92V88H8Z\&quot; fill=\&quot;none\&quot; stroke=\&quot;currentColor\&quot; stroke-width=\&quot;3\&quot; /&gt;&lt;rect x=\&quot;13\&quot; y=\&quot;17\&quot; width=\&quot;74\&quot; height=\&quot;66\&quot; fill=\&quot;url(#metal)\&quot; opacity=\&quot;.35\&quot; /&gt;&lt;rect x=\&quot;35\&quot; y=\&quot;28\&quot; width=\&quot;6\&quot; height=\&quot;38\&quot; fill=\&quot;#e7e0d0\&quot; /&gt;&lt;rect x=\&quot;59\&quot; y=\&quot;28\&quot; width=\&quot;6\&quot; height=\&quot;38\&quot; fill=\&quot;#e7e0d0\&quot; /&gt;&lt;path d=\&quot;M18 75H82\&quot; stroke=\&quot;currentColor\&quot; stroke-width=\&quot;5\&quot; /&gt;&lt;defs&gt;&lt;pattern id=\&quot;brushed\&quot; width=\&quot;8\&quot; height=\&quot;5\&quot; patternUnits=\&quot;userSpaceOnUse\&quot;&gt;&lt;path d=\&quot;M0 1H6M3 4H8\&quot; stroke=\&quot;#e7e0d0\&quot; stroke-width=\&quot;.4\&quot; opacity=\&quot;.25\&quot; /&gt;&lt;/pattern&gt;&lt;/defs&gt;&lt;path d=\&quot;M10 14H90V86H10Z\&quot; fill=\&quot;none\&quot; stroke=\&quot;#e7e0d0\&quot; stroke-opacity=\&quot;.4\&quot; /&gt;&lt;path d=\&quot;M14 19H86V23H14Z\&quot; fill=\&quot;url(#brushed)\&quot; /&gt;&quot;
+  },
+  &quot;palette&quot;: {
+    &quot;amber&quot;: &quot;#A17D45&quot;,
+    &quot;claret&quot;: &quot;#6B2634&quot;,
+    &quot;dirty&quot;: &quot;#CEC5B3&quot;,
+    &quot;ink&quot;: &quot;#101214&quot;,
+    &quot;institution&quot;: &quot;#68766B&quot;,
+    &quot;moss&quot;: &quot;#74864F&quot;,
+    &quot;nicotine&quot;: &quot;#AA9571&quot;,
+    &quot;paper&quot;: &quot;#E7E0D0&quot;,
+    &quot;shadow&quot;: &quot;#202326&quot;,
+    &quot;steel&quot;: &quot;#5E737B&quot;
+  },
+  &quot;renderer&quot;: &quot;storyboard-svg-2&quot;,
+  &quot;scene&quot;: {
+    &quot;background&quot;: &quot;ink&quot;,
+    &quot;intent&quot;: &quot;Give the review gate three genuinely different destinations. Resumption, required changes and continued pause must not share the same success symbol. Visual distinction: A docket slot beside a raised review desk and a closed stop arm. Review is a decision process; no approval is implied. A bounded workload tray with a large pause pair and a stop bar. A temporary operational disposition, not a breached wall or permanent destruction. Three unconnected output trays with neutral alternating shading. Holds resumed, change-required and paused outcomes without coding them as moral success or failure.&quot;,
+    &quot;lettering&quot;: [
+      {
+        &quot;box&quot;: [
+          0.045,
+          0.78,
+          0.91,
+          0.18
+        ]
+      }
+    ],
+    &quot;lettering_mode&quot;: &quot;manual&quot;,
+    &quot;nodes&quot;: [
+      {
+        &quot;asset&quot;: &quot;review-disposition-field&quot;,
+        &quot;box&quot;: [
+          0.51,
+          0.04,
+          0.43,
+          0.69
+        ],
+        &quot;color&quot;: &quot;steel&quot;
+      },
+      {
+        &quot;asset&quot;: &quot;review-checkpoint&quot;,
+        &quot;box&quot;: [
+          0.0541,
+          0.2225,
+          0.2275,
+          0.229614
+        ],
+        &quot;color&quot;: &quot;steel&quot;,
+        &quot;focus&quot;: true,
+        &quot;label&quot;: &quot;REVIEW&quot;,
+        &quot;label_box&quot;: [
+          0.0541,
+          0.46603,
+          0.2275,
+          0.100891
+        ],
+        &quot;label_size&quot;: 18
+      },
+      {
+        &quot;asset&quot;: &quot;arrow&quot;,
+        &quot;box&quot;: [
+          0.3089,
+          0.3219,
+          0.1365,
+          0.0568
+        ],
+        &quot;color&quot;: &quot;steel&quot;,
+        &quot;focus&quot;: true
+      },
+      {
+        &quot;asset&quot;: &quot;open-gate&quot;,
+        &quot;box&quot;: [
+          0.5273,
+          0.0592,
+          0.4004,
+          0.131208
+        ],
+        &quot;color&quot;: &quot;steel&quot;,
+        &quot;focus&quot;: true,
+        &quot;label&quot;: &quot;RESUMED&quot;,
+        &quot;label_box&quot;: [
+          0.5273,
+          0.19836,
+          0.4004,
+          0.057652
+        ],
+        &quot;label_size&quot;: 18
+      },
+      {
+        &quot;asset&quot;: &quot;card&quot;,
+        &quot;box&quot;: [
+          0.5273,
+          0.28995,
+          0.4004,
+          0.131208
+        ],
+        &quot;color&quot;: &quot;steel&quot;,
+        &quot;focus&quot;: true,
+        &quot;label&quot;: &quot;MORE CHANGES REQUIRED&quot;,
+        &quot;label_box&quot;: [
+          0.5273,
+          0.42911,
+          0.4004,
+          0.057652
+        ],
+        &quot;label_size&quot;: 18
+      },
+      {
+        &quot;asset&quot;: &quot;workload-hold&quot;,
+        &quot;box&quot;: [
+          0.5273,
+          0.5207,
+          0.4004,
+          0.131208
+        ],
+        &quot;color&quot;: &quot;steel&quot;,
+        &quot;focus&quot;: true,
+        &quot;label&quot;: &quot;PAUSED&quot;,
+        &quot;label_box&quot;: [
+          0.5273,
+          0.65986,
+          0.4004,
+          0.057652
+        ],
+        &quot;label_size&quot;: 18
+      }
+    ],
+    &quot;reconstructed&quot;: false,
+    &quot;shot&quot;: &quot;row&quot;,
+    &quot;source&quot;: &quot;\n**Frame:** The gate sorts cards into `RESUMED`, `MORE CHANGES REQUIRED`, and `PAUSED`.\n\n**Caption:**\n&gt; SOME RESUMED. SOME REQUIRED MORE CHANGES. A SIGNIFICANT NUMBER REMAINED PAUSED.\n\n**Provenance:** `documented` (institutional claim).\n\n&quot;,
+    &quot;title&quot;: &quot;The review gate has three dispositions&quot;
+  }
+}
+</metadata><rect width="1200" height="800" fill="#101214"/><g transform="translate(612 32) scale(5.16 5.52)" color="#5E737B"><g transform=""><defs><linearGradient id="node-0-alloy" x2=".8" y2="1"><stop stop-color="#e7e0d0" /><stop offset=".18" stop-color="currentColor" /><stop offset=".62" stop-color="#202326" /><stop offset="1" stop-color="currentColor" /></linearGradient><linearGradient id="node-0-stock2" x2=".3" y2="1"><stop stop-color="#e7e0d0" /><stop offset="1" stop-color="#cec5b3" /></linearGradient><pattern id="node-0-fibers" width="9" height="11" patternUnits="userSpaceOnUse"><path d="M1 2H3M6 7H8M2 10H4" stroke="#101214" stroke-width=".35" opacity=".32" /></pattern></defs><g stroke="currentColor" stroke-opacity=".45" fill="currentColor" fill-opacity=".035"><path d="M1 1H99V29H1Z" /><path d="M1 36H99V64H1Z" /><path d="M1 71H99V99H1Z" /></g><path d="M1 1H5V29H1ZM1 71H5V99H1Z" fill="url(#node-0-alloy)" opacity=".45" /><path d="M1 36H5V64H1Z" fill="url(#node-0-stock2)" opacity=".45" /><path d="M1 36H5V64H1Z" fill="url(#node-0-fibers)" /><path d="M3 28H97M3 63H97M3 98H97" stroke="#e7e0d0" opacity=".2" /></g></g><g transform="translate(64.92 178) scale(2.73 1.83691)" color="#5E737B"><g transform=""><defs><linearGradient id="node-1-metal" x2="0" y2="1"><stop stop-color="currentColor" /><stop offset="1" stop-color="#101214" /></linearGradient></defs><rect x="7" y="12" width="34" height="56" rx="2" fill="url(#node-1-stock2)" stroke="currentColor" stroke-width="2" /><path d="M14 27H33M14 38H33M14 49H27" stroke="#101214" stroke-width="2" /><path d="M6 78H43V93M55 93V45H93" fill="none" stroke="currentColor" stroke-width="5" /><rect x="54" y="35" width="40" height="10" fill="url(#node-1-metal)" stroke="currentColor" stroke-width="2" /><circle cx="58" cy="40" r="3" fill="#e7e0d0" /><defs><linearGradient id="node-1-stock2" x2=".3" y2="1"><stop stop-color="#e7e0d0" /><stop offset="1" stop-color="#cec5b3" /></linearGradient><pattern id="node-1-fibers" width="9" height="11" patternUnits="userSpaceOnUse"><path d="M1 2H3M6 7H8M2 10H4" stroke="#101214" stroke-width=".35" opacity=".32" /></pattern><pattern id="node-1-brushed" width="8" height="5" patternUnits="userSpaceOnUse"><path d="M0 1H6M3 4H8" stroke="#e7e0d0" stroke-width=".4" opacity=".25" /></pattern></defs><rect x="9" y="14" width="30" height="52" fill="url(#node-1-fibers)" /><path d="M12 15H36V20H12Z" fill="currentColor" /><path d="M60 37H88" stroke="#e7e0d0" stroke-width="1" opacity=".7" /><path d="M54 46H62V90H54Z" fill="url(#node-1-brushed)" /></g></g><text x="201.42" y="390.824" text-anchor="middle" fill="#E7E0D0" font-size="18" font-family="sans-serif">REVIEW</text><g transform="translate(370.68 257.52) scale(1.638 0.4544)" color="#5E737B"><g transform=""><g transform="rotate(0 50 50)"><path d="M4 46H64V25L96 50 64 75V54H4Z" fill="currentColor" stroke="currentColor" stroke-width="1" /></g></g></g><g transform="translate(632.76 47.36) scale(4.8048 1.04966)" color="#5E737B"><g transform=""><defs>
+<linearGradient id="node-3-metal" x1="0" y1="0" x2="1" y2="1"><stop stop-color="currentColor" /><stop offset=".32" stop-color="#202326" /><stop offset=".75" stop-color="#101214" /><stop offset="1" stop-color="currentColor" /></linearGradient>
+<linearGradient id="node-3-tone" x1="0" y1="0" x2="1" y2="1"><stop stop-color="currentColor" /><stop offset="1" stop-color="#101214" stop-opacity=".65" /></linearGradient>
+</defs><path d="M7 97V7H93V97H86V15H14V97Z" fill="url(#node-3-metal)" stroke="currentColor" stroke-width="2" /><path d="M18 27L36 36V81L18 94ZM82 27L64 36V81L82 94Z" fill="url(#node-3-tone)" stroke="currentColor" stroke-width="2" /><path d="M22 34L31 39V79M78 34L69 39V79" fill="none" stroke="#E7E0D0" stroke-width="1" opacity=".5" /></g></g><text x="873" y="176.688" text-anchor="middle" fill="#E7E0D0" font-size="18" font-family="sans-serif">RESUMED</text><g transform="translate(632.76 231.96) scale(4.8048 1.04966)" color="#5E737B"><g transform=""><defs>
+<linearGradient id="node-4-stock" x1="0" y1="0" x2=".8" y2="1"><stop stop-color="#E7E0D0" /><stop offset="1" stop-color="#CEC5B3" /></linearGradient>
+<pattern id="node-4-grain" width="7" height="9" patternUnits="userSpaceOnUse"><circle cx="1" cy="2" r=".35" fill="#101214" opacity=".18" /><path d="M4 6h2M1 8h1" stroke="#101214" stroke-width=".3" opacity=".16" /></pattern>
+</defs><path d="M5 3H95V97H5Z" fill="url(#node-4-stock)" stroke="currentColor" stroke-width="2" /><path d="M5 3H95V97H5Z" fill="url(#node-4-grain)" /><rect x="5" y="3" width="90" height="15" fill="currentColor" /><rect x="10" y="25" width="5" height="61" fill="currentColor" /><path d="M23 29H85M23 38H75M23 48H83M23 66H62M23 78H80" fill="none" stroke="#101214" stroke-width="2" /><path d="M12 11H42M65 11H86" fill="none" stroke="#E7E0D0" stroke-width="1.4" /></g></g><text x="873" y="361.288" text-anchor="middle" fill="#E7E0D0" font-size="18" font-family="sans-serif">MORE CHANGES REQUIRED</text><g transform="translate(632.76 416.56) scale(4.8048 1.04966)" color="#5E737B"><g transform=""><defs><linearGradient id="node-5-metal" x2="0" y2="1"><stop stop-color="currentColor" /><stop offset="1" stop-color="#101214" /></linearGradient></defs><path d="M8 12H92V88H8Z" fill="none" stroke="currentColor" stroke-width="3" /><rect x="13" y="17" width="74" height="66" fill="url(#node-5-metal)" opacity=".35" /><rect x="35" y="28" width="6" height="38" fill="#e7e0d0" /><rect x="59" y="28" width="6" height="38" fill="#e7e0d0" /><path d="M18 75H82" stroke="currentColor" stroke-width="5" /><defs><pattern id="node-5-brushed" width="8" height="5" patternUnits="userSpaceOnUse"><path d="M0 1H6M3 4H8" stroke="#e7e0d0" stroke-width=".4" opacity=".25" /></pattern></defs><path d="M10 14H90V86H10Z" fill="none" stroke="#e7e0d0" stroke-opacity=".4" /><path d="M14 19H86V23H14Z" fill="url(#node-5-brushed)" /></g></g><text x="873" y="545.888" text-anchor="middle" fill="#E7E0D0" font-size="18" font-family="sans-serif">PAUSED</text><rect x="3" y="3" width="1194" height="794" fill="none" stroke="#5E737B" stroke-width="4"/></svg>

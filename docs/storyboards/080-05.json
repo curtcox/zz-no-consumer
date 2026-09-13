@@ -65,6 +65,6 @@
   ],
   "reconstructed": false,
   "shot": "split",
-  "source": "\n**Frame:** Split panel. Left: human-only review reaches a tiny fraction before the clock expires. Right: AI-assisted review reaches a usable incident model with uncertainty tags attached.\n\n**Caption:**\n> THE TOOL LOWERS CONFIDENCE IN SOME JUDGMENTS.\n>\n> WITHOUT IT, THE INVESTIGATION AT THIS SPEED DOES NOT HAPPEN.\n\n**Provenance:** `documented` — both claims are explicit in METR's limitations section.\n\n",
+  "source": "\n**Location:**\n\n- `metr-review-workspace`\n- `analysis-agent-tree`\n\n**Frame:** Split panel. Left: human-only review reaches a tiny fraction before the clock expires. Right: AI-assisted review reaches a usable incident model with uncertainty tags attached.\n\n**Caption:**\n> THE TOOL LOWERS CONFIDENCE IN SOME JUDGMENTS.\n>\n> WITHOUT IT, THE INVESTIGATION AT THIS SPEED DOES NOT HAPPEN.\n\n**Provenance:** `documented` — both claims are explicit in METR's limitations section.\n\n",
   "title": "Human-only and assisted review reach different coverage"
 }

@@ -115,7 +115,7 @@
     ],
     &quot;reconstructed&quot;: false,
     &quot;shot&quot;: &quot;route&quot;,
-    &quot;source&quot;: &quot;\n**Frame:** A boundary diagram connects the evaluation workload to internal destinations through Artifactory. The line stops at what the 27 June evidence supports.\n\n**Action:** The service is identified as a network pivot.\n\n**Caption:**\n&gt; AND AS A PIVOT.\n\n**Provenance:** `documented` — exact claim boundary from `OAI-TR`.\n\n&quot;,
+    &quot;source&quot;: &quot;\n**Location:**\n\n- `evaluation-container`\n- `artifactory-cache`\n- `openai-research-environment`\n\n**Frame:** A boundary diagram connects the evaluation workload to internal destinations through Artifactory. The line stops at what the 27 June evidence supports.\n\n**Action:** The service is identified as a network pivot.\n\n**Caption:**\n&gt; AND AS A PIVOT.\n\n**Provenance:** `documented` — exact claim boundary from `OAI-TR`.\n\n&quot;,
     &quot;title&quot;: &quot;The observed pivot through Artifactory&quot;
   }
 }

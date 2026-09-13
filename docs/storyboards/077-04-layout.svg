@@ -134,7 +134,7 @@
     ],
     &quot;reconstructed&quot;: true,
     &quot;shot&quot;: &quot;meeting&quot;,
-    &quot;source&quot;: &quot;\n**Frame:** Human investigators spot-check candidates against surrounding transcript context, reject some, revise prompts, and request more data.\n\n**Action:** The pipeline loops rather than running once.\n\n**Caption:**\n&gt; HUMAN REVIEW CORRECTS THE MODEL—PARTIALLY.\n\n**Provenance:** `documented` — METR describes spot-checking, prompt revision, and three expanding data periods.\n\n&quot;,
+    &quot;source&quot;: &quot;\n**Location:** `metr-review-workspace`\n\n**Frame:** Human investigators spot-check candidates against surrounding transcript context, reject some, revise prompts, and request more data.\n\n**Action:** The pipeline loops rather than running once.\n\n**Caption:**\n&gt; HUMAN REVIEW CORRECTS THE MODEL—PARTIALLY.\n\n**Provenance:** `documented` — METR describes spot-checking, prompt revision, and three expanding data periods.\n\n&quot;,
     &quot;title&quot;: &quot;Humans check context and revise the search&quot;
   }
 }

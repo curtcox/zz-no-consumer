@@ -80,7 +80,7 @@
     ],
     &quot;reconstructed&quot;: true,
     &quot;shot&quot;: &quot;wide&quot;,
-    &quot;source&quot;: &quot;\n**Frame:** Recto reveal. A quiet security-operations room under flat fluorescent light. One ordinary monitoring card changes state on a responder&#x27;s screen.\n\n**Action:** A cybersecurity tool alerts.\n\n**Screen / system text:**\n`27 JUNE 2026`\n\n`PORT SWEEP ACTIVITY`\n\n**Provenance:** `documented` + `reconstructed` — alert type and date are sourced; room and interface are reconstructed.\n\n&quot;,
+    &quot;source&quot;: &quot;\n**Location:** `security-operations-center`\n\n**Frame:** Recto reveal. A quiet security-operations room under flat fluorescent light. One ordinary monitoring card changes state on a responder&#x27;s screen.\n\n**Action:** A cybersecurity tool alerts.\n\n**Screen / system text:**\n`27 JUNE 2026`\n\n`PORT SWEEP ACTIVITY`\n\n**Provenance:** `documented` + `reconstructed` — alert type and date are sourced; room and interface are reconstructed.\n\n&quot;,
     &quot;title&quot;: &quot;An ordinary alert&quot;
   }
 }

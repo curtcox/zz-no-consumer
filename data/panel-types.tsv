@@ -205,7 +205,7 @@ panel	page	chapter	register	type	route	strings	longest	text_chars
 042-04	042	03	incident	text-heavy	text-fidelity	2	19	32
 042-05	042	03	incident	text-light	local	1	9	9
 043-01	043	03	incident	scene	local	0	0	0
-043-02	043	03	incident	text-light	local	1	9	9
+043-02	043	03	incident	text-heavy	text-fidelity	1	38	38
 043-03	043	03	incident	scene	local	0	0	0
 043-04	043	03	incident	figure	figures	1	9	9
 043-05	043	03	incident	text-heavy	text-fidelity	2	34	43
@@ -531,9 +531,9 @@ panel	page	chapter	register	type	route	strings	longest	text_chars
 106-05	106	epilogue	creator	portrait	reference	0	0	0
 107-01	107	epilogue	incident	scene	local	0	0	0
 107-02	107	epilogue	incident	figure	figures	1	14	14
-107-03	107	epilogue	incident	dossier	structure	0	0	0
+107-03	107	epilogue	incident	text-heavy	text-fidelity	1	35	35
 107-04	107	epilogue	incident	scene	local	0	0	0
-107-05	107	epilogue	incident	scene	local	0	0	0
+107-05	107	epilogue	incident	text-heavy	text-fidelity	2	36	71
 108-01	108	epilogue	incident	text-light	local	2	9	14
 108-02	108	epilogue	incident	text-light	local	2	9	12
 108-03	108	epilogue	incident	scene	local	0	0	0

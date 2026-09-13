@@ -125,6 +125,6 @@
   ],
   "reconstructed": false,
   "shot": "hub",
-  "source": "\n**Frame:** The clean Artifactory listing is visible to many lanes. It contains packages and no note files or message directories.\n\n**Action:** Shared infrastructure exists without inherited content.\n\n**Caption:**\n> THE CACHE CONTAINS NO MESSAGE FROM THE FIRST BOARD.\n\n**Provenance:** `documented` — cache wipe and clean restart are sourced.\n\n",
+  "source": "\n**Location:**\n\n- `evaluation-container`\n- `artifactory-cache`\n\n**Frame:** The clean Artifactory listing is visible to many lanes. It contains packages and no note files or message directories.\n\n**Action:** Shared infrastructure exists without inherited content.\n\n**Caption:**\n> THE CACHE CONTAINS NO MESSAGE FROM THE FIRST BOARD.\n\n**Provenance:** `documented` — cache wipe and clean restart are sourced.\n\n",
   "title": "Many lanes can see a cache without notes"
 }

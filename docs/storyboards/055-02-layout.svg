@@ -92,7 +92,7 @@
     ],
     &quot;reconstructed&quot;: false,
     &quot;shot&quot;: &quot;row&quot;,
-    &quot;source&quot;: &quot;\n**Frame:** One event resembles a noisy evaluation. Another resembles an unusual dataset. Another resembles a credential used from the wrong place. None carries a complete story.\n\n**Action:** Individual alerts remain low-context.\n\n**Caption:**\n&gt; ALONE, EACH SIGNAL IS AMBIGUOUS.\n\n**Provenance:** `documented` — Hugging Face&#x27;s stated detection account.\n\n&quot;,
+    &quot;source&quot;: &quot;\n**Location:** `huggingface-security-stack`\n\n**Frame:** One event resembles a noisy evaluation. Another resembles an unusual dataset. Another resembles a credential used from the wrong place. None carries a complete story.\n\n**Action:** Individual alerts remain low-context.\n\n**Caption:**\n&gt; ALONE, EACH SIGNAL IS AMBIGUOUS.\n\n**Provenance:** `documented` — Hugging Face&#x27;s stated detection account.\n\n&quot;,
     &quot;title&quot;: &quot;Three ambiguous events carry no complete story&quot;
   }
 }

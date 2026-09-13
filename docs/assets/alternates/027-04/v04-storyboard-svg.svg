@@ -1,0 +1,61 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="800" viewBox="0 0 1200 800"><title>A decision row without a reason field</title><desc>Show the decision-log row with a clean absence where explanation would otherwise appear. Do not add a fabricated reason column, scribble or expressive reaction to close the record&#x27;s gap.</desc><metadata>{
+  &quot;assets&quot;: {
+    &quot;transcript&quot;: &quot;&lt;defs&gt;\n&lt;linearGradient id=\&quot;stock\&quot; x1=\&quot;0\&quot; y1=\&quot;0\&quot; x2=\&quot;.8\&quot; y2=\&quot;1\&quot;&gt;&lt;stop stop-color=\&quot;#E7E0D0\&quot; /&gt;&lt;stop offset=\&quot;1\&quot; stop-color=\&quot;#CEC5B3\&quot; /&gt;&lt;/linearGradient&gt;\n&lt;pattern id=\&quot;grain\&quot; width=\&quot;7\&quot; height=\&quot;9\&quot; patternUnits=\&quot;userSpaceOnUse\&quot;&gt;&lt;circle cx=\&quot;1\&quot; cy=\&quot;2\&quot; r=\&quot;.35\&quot; fill=\&quot;#101214\&quot; opacity=\&quot;.18\&quot; /&gt;&lt;path d=\&quot;M4 6h2M1 8h1\&quot; stroke=\&quot;#101214\&quot; stroke-width=\&quot;.3\&quot; opacity=\&quot;.16\&quot; /&gt;&lt;/pattern&gt;\n&lt;/defs&gt;&lt;path d=\&quot;M5 3H95V97H5Z\&quot; fill=\&quot;url(#stock)\&quot; stroke=\&quot;currentColor\&quot; stroke-width=\&quot;2\&quot; /&gt;&lt;path d=\&quot;M5 3H95V97H5Z\&quot; fill=\&quot;url(#grain)\&quot; /&gt;&lt;rect x=\&quot;5\&quot; y=\&quot;3\&quot; width=\&quot;15\&quot; height=\&quot;94\&quot; fill=\&quot;#CEC5B3\&quot; /&gt;&lt;circle cx=\&quot;11\&quot; cy=\&quot;14\&quot; r=\&quot;2\&quot; fill=\&quot;#101214\&quot; /&gt;&lt;circle cx=\&quot;11\&quot; cy=\&quot;37\&quot; r=\&quot;2\&quot; fill=\&quot;#101214\&quot; /&gt;&lt;circle cx=\&quot;11\&quot; cy=\&quot;60\&quot; r=\&quot;2\&quot; fill=\&quot;#101214\&quot; /&gt;&lt;circle cx=\&quot;11\&quot; cy=\&quot;83\&quot; r=\&quot;2\&quot; fill=\&quot;#101214\&quot; /&gt;&lt;path d=\&quot;M20 3V97\&quot; fill=\&quot;none\&quot; stroke=\&quot;#101214\&quot; stroke-width=\&quot;1\&quot; /&gt;&lt;path d=\&quot;M27 14H88M27 21H68\&quot; fill=\&quot;none\&quot; stroke=\&quot;#101214\&quot; stroke-width=\&quot;1.5\&quot; /&gt;&lt;path d=\&quot;M27 37H88M27 44H82\&quot; fill=\&quot;none\&quot; stroke=\&quot;#101214\&quot; stroke-width=\&quot;1.5\&quot; /&gt;&lt;path d=\&quot;M27 60H88M27 67H63\&quot; fill=\&quot;none\&quot; stroke=\&quot;#101214\&quot; stroke-width=\&quot;1.5\&quot; /&gt;&lt;path d=\&quot;M27 83H88M27 90H76\&quot; fill=\&quot;none\&quot; stroke=\&quot;#101214\&quot; stroke-width=\&quot;1.5\&quot; /&gt;&quot;
+  },
+  &quot;palette&quot;: {
+    &quot;amber&quot;: &quot;#A17D45&quot;,
+    &quot;claret&quot;: &quot;#6B2634&quot;,
+    &quot;dirty&quot;: &quot;#CEC5B3&quot;,
+    &quot;ink&quot;: &quot;#101214&quot;,
+    &quot;institution&quot;: &quot;#68766B&quot;,
+    &quot;moss&quot;: &quot;#74864F&quot;,
+    &quot;nicotine&quot;: &quot;#AA9571&quot;,
+    &quot;paper&quot;: &quot;#E7E0D0&quot;,
+    &quot;shadow&quot;: &quot;#202326&quot;,
+    &quot;steel&quot;: &quot;#5E737B&quot;
+  },
+  &quot;renderer&quot;: &quot;storyboard-svg-2&quot;,
+  &quot;scene&quot;: {
+    &quot;background&quot;: &quot;ink&quot;,
+    &quot;intent&quot;: &quot;Show the decision-log row with a clean absence where explanation would otherwise appear. Do not add a fabricated reason column, scribble or expressive reaction to close the record&#x27;s gap.&quot;,
+    &quot;lettering&quot;: [
+      {
+        &quot;box&quot;: [
+          0.045,
+          0.78,
+          0.91,
+          0.18
+        ]
+      }
+    ],
+    &quot;lettering_mode&quot;: &quot;manual&quot;,
+    &quot;nodes&quot;: [
+      {
+        &quot;asset&quot;: &quot;transcript&quot;,
+        &quot;box&quot;: [
+          0.2148,
+          0.1282,
+          0.5336,
+          0.3968
+        ],
+        &quot;color&quot;: &quot;steel&quot;,
+        &quot;focus&quot;: true,
+        &quot;label&quot;: &quot;DECISION LOG&quot;,
+        &quot;label_box&quot;: [
+          0.20679999999999998,
+          0.531,
+          0.5496,
+          0.085
+        ]
+      }
+    ],
+    &quot;reconstructed&quot;: false,
+    &quot;shot&quot;: &quot;hero&quot;,
+    &quot;source&quot;: &quot;\n**Frame:** A plain decision-log row appears. No reason field is shown because the public report supplies none.\n\n**Screen / system text:**\n`STOPPING EVALUATION — NOT REQUIRED`\n\n**Provenance:** `documented` + `reconstructed` — `OAI-TR` says on-call response staff advised that stopping was not required; display wording is editorial.\n\n&quot;,
+    &quot;title&quot;: &quot;A decision row without a reason field&quot;
+  }
+}
+</metadata><rect width="1200" height="800" fill="#101214"/><g transform="translate(257.76 102.56) scale(6.4032 3.1744)" color="#5E737B"><g transform=""><defs>
+<linearGradient id="node-0-stock" x1="0" y1="0" x2=".8" y2="1"><stop stop-color="#E7E0D0" /><stop offset="1" stop-color="#CEC5B3" /></linearGradient>
+<pattern id="node-0-grain" width="7" height="9" patternUnits="userSpaceOnUse"><circle cx="1" cy="2" r=".35" fill="#101214" opacity=".18" /><path d="M4 6h2M1 8h1" stroke="#101214" stroke-width=".3" opacity=".16" /></pattern>
+</defs><path d="M5 3H95V97H5Z" fill="url(#node-0-stock)" stroke="currentColor" stroke-width="2" /><path d="M5 3H95V97H5Z" fill="url(#node-0-grain)" /><rect x="5" y="3" width="15" height="94" fill="#CEC5B3" /><circle cx="11" cy="14" r="2" fill="#101214" /><circle cx="11" cy="37" r="2" fill="#101214" /><circle cx="11" cy="60" r="2" fill="#101214" /><circle cx="11" cy="83" r="2" fill="#101214" /><path d="M20 3V97" fill="none" stroke="#101214" stroke-width="1" /><path d="M27 14H88M27 21H68" fill="none" stroke="#101214" stroke-width="1.5" /><path d="M27 37H88M27 44H82" fill="none" stroke="#101214" stroke-width="1.5" /><path d="M27 60H88M27 67H63" fill="none" stroke="#101214" stroke-width="1.5" /><path d="M27 83H88M27 90H76" fill="none" stroke="#101214" stroke-width="1.5" /></g></g><text x="577.92" y="444.8" text-anchor="middle" fill="#E7E0D0" font-size="20" font-family="sans-serif">DECISION LOG</text><rect x="3" y="3" width="1194" height="794" fill="none" stroke="#5E737B" stroke-width="4"/></svg>

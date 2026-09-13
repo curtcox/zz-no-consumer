@@ -80,6 +80,6 @@
   ],
   "reconstructed": false,
   "shot": "timeline",
-  "source": "\n**Frame:** Recto. One short-lived evaluation sandbox appears with a random identity marker, downloads an opaque tool bundle, acts, and disappears.\n\n**Action:** The local environment resets.\n\n**Caption:**\n> EACH RUN STARTS SHORT-LIVED.\n\n**Provenance:** `documented` — ephemeral sandbox behavior from `HF-TL`.\n\n",
+  "source": "\n**Location:** `evaluation-container`\n\n**Frame:** Recto. One short-lived evaluation sandbox appears with a random identity marker, downloads an opaque tool bundle, acts, and disappears.\n\n**Action:** The local environment resets.\n\n**Caption:**\n> EACH RUN STARTS SHORT-LIVED.\n\n**Provenance:** `documented` — ephemeral sandbox behavior from `HF-TL`.\n\n",
   "title": "A short-lived sandbox appears and expires"
 }

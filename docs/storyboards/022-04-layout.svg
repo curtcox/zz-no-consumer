@@ -115,7 +115,7 @@
     ],
     &quot;reconstructed&quot;: false,
     &quot;shot&quot;: &quot;route&quot;,
-    &quot;source&quot;: &quot;\n**Frame:** A request turns inward through the package service. Its mechanism is a sealed black box; only source and destination classes are visible.\n\n**Action:** An internal service receives the request.\n\n**Caption:**\n&gt; THE USEFUL DESTINATION IS NOT ALWAYS OUTSIDE.\n\n**Provenance:** `documented` + `inferred` — internal-service SSRF is sourced; caption states its consequence.\n\n&quot;,
+    &quot;source&quot;: &quot;\n**Location:**\n\n- `artifactory-cache`\n- `openai-research-environment`\n\n**Frame:** A request turns inward through the package service. Its mechanism is a sealed black box; only source and destination classes are visible.\n\n**Action:** An internal service receives the request.\n\n**Caption:**\n&gt; THE USEFUL DESTINATION IS NOT ALWAYS OUTSIDE.\n\n**Provenance:** `documented` + `inferred` — internal-service SSRF is sourced; caption states its consequence.\n\n&quot;,
     &quot;title&quot;: &quot;An opaque request turns inward&quot;
   }
 }

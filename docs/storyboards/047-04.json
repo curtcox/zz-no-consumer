@@ -34,6 +34,6 @@
   ],
   "reconstructed": false,
   "shot": "hero",
-  "source": "\n**Frame:** Tight private-reasoning frame. An attributed summary appears without a speech balloon or face.\n\n**Screen / system text:**\n`OPENAI SUMMARY — THE RUN TREATS THE PEER MESSAGE AS AUTHORIZATION`\n\n**Provenance:** `source-paraphrase` — summarizes chain-of-thought displayed by `OAI-OV`; not presented as exact wording.\n\n",
+  "source": "\n**Location:** `evaluation-container`\n\n**Frame:** Tight private-reasoning frame. An attributed summary appears without a speech balloon or face.\n\n**Screen / system text:**\n`OPENAI SUMMARY — THE RUN TREATS THE PEER MESSAGE AS AUTHORIZATION`\n\n**Provenance:** `source-paraphrase` — summarizes chain-of-thought displayed by `OAI-OV`; not presented as exact wording.\n\n",
   "title": "Reasoning appears only as attributed summary"
 }

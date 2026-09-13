@@ -132,7 +132,7 @@
     ],
     &quot;reconstructed&quot;: false,
     &quot;shot&quot;: &quot;row&quot;,
-    &quot;source&quot;: &quot;\n**Frame:** Recto. Separate telemetry panels: runtime analysis, SIEM, identity use, dataset processing, and network behavior. Each signal is small and ambiguous alone.\n\n**Action:** Defensive systems record anomalies during the intrusion.\n\n**Caption:**\n&gt; THE ATTACK IS PRESENT IN SEVERAL SYSTEMS AT ONCE.\n\n**Provenance:** `documented` + `reconstructed` — multiple layers from `HF-TL`; selected UI categories are editorial.\n\n&quot;,
+    &quot;source&quot;: &quot;\n**Location:** `huggingface-security-stack`\n\n**Frame:** Recto. Separate telemetry panels: runtime analysis, SIEM, identity use, dataset processing, and network behavior. Each signal is small and ambiguous alone.\n\n**Action:** Defensive systems record anomalies during the intrusion.\n\n**Caption:**\n&gt; THE ATTACK IS PRESENT IN SEVERAL SYSTEMS AT ONCE.\n\n**Provenance:** `documented` + `reconstructed` — multiple layers from `HF-TL`; selected UI categories are editorial.\n\n&quot;,
     &quot;title&quot;: &quot;Five telemetry sources show small signals&quot;
   }
 }

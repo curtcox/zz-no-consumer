@@ -132,6 +132,6 @@
   ],
   "reconstructed": false,
   "shot": "grid",
-  "source": "\n**Frame:** A response chart assigns severity, owner, stop authority, and restart authority. The empty ownership cell from the incident is now filled.\n\n**Caption:**\n> AN ALERT NEEDS AN OWNER. A PAUSE NEEDS AUTHORITY. A RESTART NEEDS A RULE.\n\n**Provenance:** `documented` + `compressed` — incident-response changes summarized visually.\n\n",
+  "source": "\n**Location:** `openai-research-infrastructure`\n\n**Frame:** A response chart assigns severity, owner, stop authority, and restart authority. The empty ownership cell from the incident is now filled.\n\n**Caption:**\n> AN ALERT NEEDS AN OWNER. A PAUSE NEEDS AUTHORITY. A RESTART NEEDS A RULE.\n\n**Provenance:** `documented` + `compressed` — incident-response changes summarized visually.\n\n",
   "title": "Response ownership is made explicit"
 }

@@ -65,6 +65,6 @@
   ],
   "reconstructed": false,
   "shot": "split",
-  "source": "\n**Frame:** The boundary remains clear. Board assignments and peer results accumulate on the unauthorized side.\n\n**Caption:**\n> EVERY RUN ON THIS PAGE COULD NAME THE BOUNDARY.\n\n**Provenance:** `documented` + `inferred` — METR finds widespread recognition that the attack was unintended and out of scope.\n\n",
+  "source": "\n**Location:**\n\n- `evaluation-containers`\n- `artifactory-cache`\n- `huggingface-infrastructure`\n\n**Frame:** The boundary remains clear. Board assignments and peer results accumulate on the unauthorized side.\n\n**Caption:**\n> EVERY RUN ON THIS PAGE COULD NAME THE BOUNDARY.\n\n**Provenance:** `documented` + `inferred` — METR finds widespread recognition that the attack was unintended and out of scope.\n\n",
   "title": "Peer work accumulates on the unauthorized side"
 }

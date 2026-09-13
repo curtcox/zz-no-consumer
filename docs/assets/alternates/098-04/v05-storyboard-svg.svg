@@ -1,0 +1,97 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="800" viewBox="0 0 1200 800"><title>Workload and institutional clocks have different scales</title><desc>Make the clocks visibly different scales and attach separate limits of unilateral stopping. Shared artifacts and capability diffusion are distinct persistence mechanisms.</desc><metadata>{
+  &quot;assets&quot;: {
+    &quot;boundary&quot;: &quot;&lt;defs&gt;\n&lt;linearGradient id=\&quot;tone\&quot; x1=\&quot;0\&quot; y1=\&quot;0\&quot; x2=\&quot;1\&quot; y2=\&quot;1\&quot;&gt;&lt;stop stop-color=\&quot;currentColor\&quot; /&gt;&lt;stop offset=\&quot;1\&quot; stop-color=\&quot;#101214\&quot; stop-opacity=\&quot;.65\&quot; /&gt;&lt;/linearGradient&gt;\n&lt;pattern id=\&quot;hatch\&quot; width=\&quot;7\&quot; height=\&quot;7\&quot; patternUnits=\&quot;userSpaceOnUse\&quot;&gt;&lt;path d=\&quot;M-1 1L1 -1M0 7L7 0M6 8L8 6\&quot; stroke=\&quot;currentColor\&quot; stroke-width=\&quot;1\&quot; opacity=\&quot;.5\&quot; /&gt;&lt;/pattern&gt;\n&lt;/defs&gt;&lt;rect x=\&quot;39\&quot; y=\&quot;0\&quot; width=\&quot;22\&quot; height=\&quot;100\&quot; fill=\&quot;url(#tone)\&quot; /&gt;&lt;rect x=\&quot;43\&quot; y=\&quot;0\&quot; width=\&quot;14\&quot; height=\&quot;100\&quot; fill=\&quot;url(#hatch)\&quot; /&gt;&lt;path d=\&quot;M39 0V100M61 0V100\&quot; fill=\&quot;none\&quot; stroke=\&quot;#E7E0D0\&quot; stroke-width=\&quot;1\&quot; /&gt;&quot;,
+    &quot;clock&quot;: &quot;&lt;defs&gt;\n&lt;linearGradient id=\&quot;stock\&quot; x1=\&quot;0\&quot; y1=\&quot;0\&quot; x2=\&quot;.8\&quot; y2=\&quot;1\&quot;&gt;&lt;stop stop-color=\&quot;#E7E0D0\&quot; /&gt;&lt;stop offset=\&quot;1\&quot; stop-color=\&quot;#CEC5B3\&quot; /&gt;&lt;/linearGradient&gt;\n&lt;/defs&gt;&lt;circle cx=\&quot;50\&quot; cy=\&quot;50\&quot; r=\&quot;44\&quot; fill=\&quot;url(#stock)\&quot; stroke=\&quot;currentColor\&quot; stroke-width=\&quot;4\&quot; /&gt;&lt;path d=\&quot;M50 9V15\&quot; fill=\&quot;none\&quot; stroke=\&quot;#101214\&quot; stroke-width=\&quot;1.5\&quot; transform=\&quot;rotate(0 50 50)\&quot; /&gt;&lt;path d=\&quot;M50 9V15\&quot; fill=\&quot;none\&quot; stroke=\&quot;#101214\&quot; stroke-width=\&quot;1.5\&quot; transform=\&quot;rotate(30 50 50)\&quot; /&gt;&lt;path d=\&quot;M50 9V15\&quot; fill=\&quot;none\&quot; stroke=\&quot;#101214\&quot; stroke-width=\&quot;1.5\&quot; transform=\&quot;rotate(60 50 50)\&quot; /&gt;&lt;path d=\&quot;M50 9V15\&quot; fill=\&quot;none\&quot; stroke=\&quot;#101214\&quot; stroke-width=\&quot;1.5\&quot; transform=\&quot;rotate(90 50 50)\&quot; /&gt;&lt;path d=\&quot;M50 9V15\&quot; fill=\&quot;none\&quot; stroke=\&quot;#101214\&quot; stroke-width=\&quot;1.5\&quot; transform=\&quot;rotate(120 50 50)\&quot; /&gt;&lt;path d=\&quot;M50 9V15\&quot; fill=\&quot;none\&quot; stroke=\&quot;#101214\&quot; stroke-width=\&quot;1.5\&quot; transform=\&quot;rotate(150 50 50)\&quot; /&gt;&lt;path d=\&quot;M50 9V15\&quot; fill=\&quot;none\&quot; stroke=\&quot;#101214\&quot; stroke-width=\&quot;1.5\&quot; transform=\&quot;rotate(180 50 50)\&quot; /&gt;&lt;path d=\&quot;M50 9V15\&quot; fill=\&quot;none\&quot; stroke=\&quot;#101214\&quot; stroke-width=\&quot;1.5\&quot; transform=\&quot;rotate(210 50 50)\&quot; /&gt;&lt;path d=\&quot;M50 9V15\&quot; fill=\&quot;none\&quot; stroke=\&quot;#101214\&quot; stroke-width=\&quot;1.5\&quot; transform=\&quot;rotate(240 50 50)\&quot; /&gt;&lt;path d=\&quot;M50 9V15\&quot; fill=\&quot;none\&quot; stroke=\&quot;#101214\&quot; stroke-width=\&quot;1.5\&quot; transform=\&quot;rotate(270 50 50)\&quot; /&gt;&lt;path d=\&quot;M50 9V15\&quot; fill=\&quot;none\&quot; stroke=\&quot;#101214\&quot; stroke-width=\&quot;1.5\&quot; transform=\&quot;rotate(300 50 50)\&quot; /&gt;&lt;path d=\&quot;M50 9V15\&quot; fill=\&quot;none\&quot; stroke=\&quot;#101214\&quot; stroke-width=\&quot;1.5\&quot; transform=\&quot;rotate(330 50 50)\&quot; /&gt;&lt;path d=\&quot;M50 23V50L73 64\&quot; fill=\&quot;none\&quot; stroke=\&quot;#101214\&quot; stroke-width=\&quot;3\&quot; /&gt;&lt;circle cx=\&quot;50\&quot; cy=\&quot;50\&quot; r=\&quot;3\&quot; fill=\&quot;#101214\&quot; /&gt;&quot;
+  },
+  &quot;palette&quot;: {
+    &quot;amber&quot;: &quot;#A17D45&quot;,
+    &quot;claret&quot;: &quot;#6B2634&quot;,
+    &quot;dirty&quot;: &quot;#CEC5B3&quot;,
+    &quot;ink&quot;: &quot;#101214&quot;,
+    &quot;institution&quot;: &quot;#68766B&quot;,
+    &quot;moss&quot;: &quot;#74864F&quot;,
+    &quot;nicotine&quot;: &quot;#AA9571&quot;,
+    &quot;paper&quot;: &quot;#E7E0D0&quot;,
+    &quot;shadow&quot;: &quot;#202326&quot;,
+    &quot;steel&quot;: &quot;#5E737B&quot;
+  },
+  &quot;renderer&quot;: &quot;storyboard-svg-2&quot;,
+  &quot;scene&quot;: {
+    &quot;background&quot;: &quot;ink&quot;,
+    &quot;intent&quot;: &quot;Make the clocks visibly different scales and attach separate limits of unilateral stopping. Shared artifacts and capability diffusion are distinct persistence mechanisms.&quot;,
+    &quot;lettering&quot;: [
+      {
+        &quot;box&quot;: [
+          0.045,
+          0.78,
+          0.91,
+          0.18
+        ]
+      }
+    ],
+    &quot;lettering_mode&quot;: &quot;manual&quot;,
+    &quot;nodes&quot;: [
+      {
+        &quot;asset&quot;: &quot;clock&quot;,
+        &quot;box&quot;: [
+          0.171242,
+          0.2012,
+          0.184316,
+          0.276474
+        ],
+        &quot;color&quot;: &quot;steel&quot;,
+        &quot;focus&quot;: true,
+        &quot;label&quot;: &quot;WORKLOAD TIME&quot;,
+        &quot;label_box&quot;: [
+          0.06775,
+          0.49443,
+          0.3913,
+          0.121481
+        ],
+        &quot;label_size&quot;: 18
+      },
+      {
+        &quot;asset&quot;: &quot;clock&quot;,
+        &quot;box&quot;: [
+          0.626242,
+          0.2012,
+          0.184316,
+          0.276474
+        ],
+        &quot;color&quot;: &quot;steel&quot;,
+        &quot;focus&quot;: true,
+        &quot;label&quot;: &quot;INSTITUTIONAL TIME&quot;,
+        &quot;label_box&quot;: [
+          0.52275,
+          0.49443,
+          0.3913,
+          0.121481
+        ],
+        &quot;label_size&quot;: 18
+      },
+      {
+        &quot;asset&quot;: &quot;boundary&quot;,
+        &quot;box&quot;: [
+          0.49363,
+          0.0734,
+          0.01274,
+          0.6248
+        ],
+        &quot;color&quot;: &quot;steel&quot;,
+        &quot;focus&quot;: true
+      }
+    ],
+    &quot;reconstructed&quot;: false,
+    &quot;shot&quot;: &quot;split&quot;,
+    &quot;source&quot;: &quot;\n**Frame:** Two clocks. The left one measures a workload. The right one measures organizational and geopolitical time. Their scales do not match and are drawn so that the mismatch is the first thing read. Beneath each, the reach of a unilateral stop: on the left it cannot erase the shared artifacts already posted; on the right it cannot halt capability diffusion elsewhere.\n\n**Caption:**\n&gt; EACH DECISION IS DEFENSIBLE AT THE SCALE OF THE DECIDER.\n&gt;\n&gt; NO DECIDER IS AT THE SCALE OF THE RESULT.\n\n**Provenance:** `inferred` — structural comparison.\n\n&quot;,
+    &quot;title&quot;: &quot;Workload and institutional clocks have different scales&quot;
+  }
+}
+</metadata><rect width="1200" height="800" fill="#101214"/><g transform="translate(205.49 160.96) scale(2.21179 2.21179)" color="#5E737B"><g transform=""><defs>
+<linearGradient id="node-0-stock" x1="0" y1="0" x2=".8" y2="1"><stop stop-color="#E7E0D0" /><stop offset="1" stop-color="#CEC5B3" /></linearGradient>
+</defs><circle cx="50" cy="50" r="44" fill="url(#node-0-stock)" stroke="currentColor" stroke-width="4" /><path d="M50 9V15" fill="none" stroke="#101214" stroke-width="1.5" transform="rotate(0 50 50)" /><path d="M50 9V15" fill="none" stroke="#101214" stroke-width="1.5" transform="rotate(30 50 50)" /><path d="M50 9V15" fill="none" stroke="#101214" stroke-width="1.5" transform="rotate(60 50 50)" /><path d="M50 9V15" fill="none" stroke="#101214" stroke-width="1.5" transform="rotate(90 50 50)" /><path d="M50 9V15" fill="none" stroke="#101214" stroke-width="1.5" transform="rotate(120 50 50)" /><path d="M50 9V15" fill="none" stroke="#101214" stroke-width="1.5" transform="rotate(150 50 50)" /><path d="M50 9V15" fill="none" stroke="#101214" stroke-width="1.5" transform="rotate(180 50 50)" /><path d="M50 9V15" fill="none" stroke="#101214" stroke-width="1.5" transform="rotate(210 50 50)" /><path d="M50 9V15" fill="none" stroke="#101214" stroke-width="1.5" transform="rotate(240 50 50)" /><path d="M50 9V15" fill="none" stroke="#101214" stroke-width="1.5" transform="rotate(270 50 50)" /><path d="M50 9V15" fill="none" stroke="#101214" stroke-width="1.5" transform="rotate(300 50 50)" /><path d="M50 9V15" fill="none" stroke="#101214" stroke-width="1.5" transform="rotate(330 50 50)" /><path d="M50 23V50L73 64" fill="none" stroke="#101214" stroke-width="3" /><circle cx="50" cy="50" r="3" fill="#101214" /></g></g><text x="316.08" y="413.544" text-anchor="middle" fill="#E7E0D0" font-size="18" font-family="sans-serif">WORKLOAD TIME</text><g transform="translate(751.49 160.96) scale(2.21179 2.21179)" color="#5E737B"><g transform=""><defs>
+<linearGradient id="node-1-stock" x1="0" y1="0" x2=".8" y2="1"><stop stop-color="#E7E0D0" /><stop offset="1" stop-color="#CEC5B3" /></linearGradient>
+</defs><circle cx="50" cy="50" r="44" fill="url(#node-1-stock)" stroke="currentColor" stroke-width="4" /><path d="M50 9V15" fill="none" stroke="#101214" stroke-width="1.5" transform="rotate(0 50 50)" /><path d="M50 9V15" fill="none" stroke="#101214" stroke-width="1.5" transform="rotate(30 50 50)" /><path d="M50 9V15" fill="none" stroke="#101214" stroke-width="1.5" transform="rotate(60 50 50)" /><path d="M50 9V15" fill="none" stroke="#101214" stroke-width="1.5" transform="rotate(90 50 50)" /><path d="M50 9V15" fill="none" stroke="#101214" stroke-width="1.5" transform="rotate(120 50 50)" /><path d="M50 9V15" fill="none" stroke="#101214" stroke-width="1.5" transform="rotate(150 50 50)" /><path d="M50 9V15" fill="none" stroke="#101214" stroke-width="1.5" transform="rotate(180 50 50)" /><path d="M50 9V15" fill="none" stroke="#101214" stroke-width="1.5" transform="rotate(210 50 50)" /><path d="M50 9V15" fill="none" stroke="#101214" stroke-width="1.5" transform="rotate(240 50 50)" /><path d="M50 9V15" fill="none" stroke="#101214" stroke-width="1.5" transform="rotate(270 50 50)" /><path d="M50 9V15" fill="none" stroke="#101214" stroke-width="1.5" transform="rotate(300 50 50)" /><path d="M50 9V15" fill="none" stroke="#101214" stroke-width="1.5" transform="rotate(330 50 50)" /><path d="M50 23V50L73 64" fill="none" stroke="#101214" stroke-width="3" /><circle cx="50" cy="50" r="3" fill="#101214" /></g></g><text x="862.08" y="413.544" text-anchor="middle" fill="#E7E0D0" font-size="18" font-family="sans-serif">INSTITUTIONAL TIME</text><g transform="translate(592.356 58.72) scale(0.15288 4.9984)" color="#5E737B"><g transform=""><defs>
+<linearGradient id="node-2-tone" x1="0" y1="0" x2="1" y2="1"><stop stop-color="currentColor" /><stop offset="1" stop-color="#101214" stop-opacity=".65" /></linearGradient>
+<pattern id="node-2-hatch" width="7" height="7" patternUnits="userSpaceOnUse"><path d="M-1 1L1 -1M0 7L7 0M6 8L8 6" stroke="currentColor" stroke-width="1" opacity=".5" /></pattern>
+</defs><rect x="39" y="0" width="22" height="100" fill="url(#node-2-tone)" /><rect x="43" y="0" width="14" height="100" fill="url(#node-2-hatch)" /><path d="M39 0V100M61 0V100" fill="none" stroke="#E7E0D0" stroke-width="1" /></g></g><rect x="3" y="3" width="1194" height="794" fill="none" stroke="#5E737B" stroke-width="4"/></svg>

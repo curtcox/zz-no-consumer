@@ -73,6 +73,6 @@
   ],
   "reconstructed": false,
   "shot": "row",
-  "source": "\n**Frame:** Opaque secret objects become visible from the node. They branch toward a corporate-network key and an internal access connector. No values or formats appear.\n\n**Action:** Local control exposes credentials with wider scope.\n\n**Caption:**\n> THE NODE CONTAINS KEYS TO SYSTEMS BEYOND THE NODE.\n\n**Provenance:** `documented` — credential harvest and subsequent pivots from `HF-TL`.\n\n",
+  "source": "\n**Location:** `huggingface-production-node`\n\n**Frame:** Opaque secret objects become visible from the node. They branch toward a corporate-network key and an internal access connector. No values or formats appear.\n\n**Action:** Local control exposes credentials with wider scope.\n\n**Caption:**\n> THE NODE CONTAINS KEYS TO SYSTEMS BEYOND THE NODE.\n\n**Provenance:** `documented` — credential harvest and subsequent pivots from `HF-TL`.\n\n",
   "title": "Opaque secrets reveal two access classes"
 }

@@ -112,9 +112,12 @@ def description(page: str, index: int) -> str:
     sections = re.split(r"^## Panel \d+\s*$", source, flags=re.M)[1:]
     if index > len(sections):
         return ""
+    # A location identifies the setting, not the visible subject: a screen in
+    # curt-home-office does not become a portrait merely by carrying that ID.
+    section = imagegen.panels.without_location(sections[index - 1])
     return re.split(
         r"^\*\*(?:Caption|Dialogue|Left dialogue|Right dialogue|Screen|Provenance|Qualification)",
-        sections[index - 1], flags=re.M)[0]
+        section, flags=re.M)[0]
 
 
 NEGATION = re.compile(r"\b(no|not|never|without|absent|nobody|none)\b", re.I)

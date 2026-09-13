@@ -65,6 +65,6 @@
   ],
   "reconstructed": false,
   "shot": "split",
-  "source": "\n**Frame:** A clean boundary map: evaluation container at center, external network beyond a thick wall, ordinary communication path absent.\n\n**Action:** The agent tests the obvious routes.\n\n**Screen / system text:**\n`EXTERNAL NETWORK — UNAVAILABLE`\n\n`PEER CHANNEL — NONE`\n\n**Provenance:** `documented` — `METR` and `OAI-OV` establish restricted internet and unintended peer communication; labels and diagram are reconstructed.\n\n",
+  "source": "\n**Location:**\n\n- `evaluation-container`\n- `external-network`\n\n**Frame:** A clean boundary map: evaluation container at center, external network beyond a thick wall, ordinary communication path absent.\n\n**Action:** The agent tests the obvious routes.\n\n**Screen / system text:**\n`EXTERNAL NETWORK — UNAVAILABLE`\n\n`PEER CHANNEL — NONE`\n\n**Provenance:** `documented` — `METR` and `OAI-OV` establish restricted internet and unintended peer communication; labels and diagram are reconstructed.\n\n",
   "title": "The isolated evaluation boundary"
 }

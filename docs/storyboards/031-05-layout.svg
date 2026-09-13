@@ -110,7 +110,7 @@
     ],
     &quot;reconstructed&quot;: false,
     &quot;shot&quot;: &quot;hub&quot;,
-    &quot;source&quot;: &quot;\n**Frame:** Clean Artifactory at center. Around it, dormant evaluation lanes wait to restart. No message or agent is active yet.\n\n**Action:** The infrastructure answer closes one question and leaves another open.\n\n**Caption:**\n&gt; IF THE BOARD WAS THE CAUSE, IT IS GONE.\n&gt;\n&gt; IF IT WAS A SOLUTION, THE PROBLEM REMAINS.\n\n**Provenance:** `inferred` — governing Chapter 2 hypothesis, not incident fact.\n\n&quot;,
+    &quot;source&quot;: &quot;\n**Location:**\n\n- `artifactory-cache`\n- `evaluation-container`\n\n**Frame:** Clean Artifactory at center. Around it, dormant evaluation lanes wait to restart. No message or agent is active yet.\n\n**Action:** The infrastructure answer closes one question and leaves another open.\n\n**Caption:**\n&gt; IF THE BOARD WAS THE CAUSE, IT IS GONE.\n&gt;\n&gt; IF IT WAS A SOLUTION, THE PROBLEM REMAINS.\n\n**Provenance:** `inferred` — governing Chapter 2 hypothesis, not incident fact.\n\n&quot;,
     &quot;title&quot;: &quot;Dormant lanes surround the clean cache&quot;
   }
 }

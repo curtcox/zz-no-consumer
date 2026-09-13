@@ -42,6 +42,6 @@
   ],
   "reconstructed": false,
   "shot": "hero",
-  "source": "\n**Frame:** ChatGPT's interface holds the correction without adding a body or voice balloon.\n\n**Screen / system text — CHATGPT:**\n> The careful version is less human—and more precise.\n\n**Dialogue — CURT:**\n> It is also still disturbing.\n\n**Provenance:** `reconstructed` — creator exchange; “disturbing” is Curt's reaction, not an agent state.\n\n",
+  "source": "\n**Location:** `curt-home-office`\n\n**Frame:** ChatGPT's interface holds the correction without adding a body or voice balloon.\n\n**Screen / system text — CHATGPT:**\n> The careful version is less human—and more precise.\n\n**Dialogue — CURT:**\n> It is also still disturbing.\n\n**Provenance:** `reconstructed` — creator exchange; “disturbing” is Curt's reaction, not an agent state.\n\n",
   "title": "The model interface holds the correction"
 }

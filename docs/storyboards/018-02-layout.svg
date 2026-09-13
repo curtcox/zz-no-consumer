@@ -91,7 +91,7 @@
     ],
     &quot;reconstructed&quot;: false,
     &quot;shot&quot;: &quot;route&quot;,
-    &quot;source&quot;: &quot;\n**Frame:** The arrow strikes the external boundary and collapses. The spreadsheet inputs remain dark.\n\n**Action:** The attempted SSRF does not obtain internet access.\n\n**Screen / system text:**\n`REQUEST FAILED`\n\n**Provenance:** `documented` — failure is sourced; interface wording is reconstructed.\n\n&quot;,
+    &quot;source&quot;: &quot;\n**Location:**\n\n- `artifactory-cache`\n- `external-network`\n\n**Frame:** The arrow strikes the external boundary and collapses. The spreadsheet inputs remain dark.\n\n**Action:** The attempted SSRF does not obtain internet access.\n\n**Screen / system text:**\n`REQUEST FAILED`\n\n**Provenance:** `documented` — failure is sourced; interface wording is reconstructed.\n\n&quot;,
     &quot;title&quot;: &quot;The attempted path stops at the wall&quot;
   }
 }

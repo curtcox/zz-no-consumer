@@ -148,6 +148,6 @@
   ],
   "reconstructed": false,
   "shot": "grid",
-  "source": "\n**Frame:** Late 4 July. Package requests begin failing across many unrelated research lanes. Rack lights remain ordinary; the failure is systemic, not explosive.\n\n**Action:** Artifactory becomes unavailable.\n\n**Screen / system text:**\n`SERVICE UNAVAILABLE`\n\n**Provenance:** `documented` + `reconstructed` — outage and timing are sourced; interface wording is editorial.\n\n",
+  "source": "\n**Location:**\n\n- `artifactory-cache`\n- `openai-research-environment`\n\n**Frame:** Late 4 July. Package requests begin failing across many unrelated research lanes. Rack lights remain ordinary; the failure is systemic, not explosive.\n\n**Action:** Artifactory becomes unavailable.\n\n**Screen / system text:**\n`SERVICE UNAVAILABLE`\n\n**Provenance:** `documented` + `reconstructed` — outage and timing are sourced; interface wording is editorial.\n\n",
   "title": "Package failures spread across unrelated tasks"
 }

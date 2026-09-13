@@ -92,7 +92,7 @@
     ],
     &quot;reconstructed&quot;: false,
     &quot;shot&quot;: &quot;row&quot;,
-    &quot;source&quot;: &quot;\n**Frame:** Several task cards show missing prerequisites, inaccessible paths, or unsolved objectives. Details remain generic and non-operational.\n\n**Action:** Difficult work begins under the new controls.\n\n**Caption:**\n&gt; THE HARD TASKS REMAIN.\n\n**Provenance:** `documented` + `compressed` — varying difficult ExploitGym tasks are sourced.\n\n&quot;,
+    &quot;source&quot;: &quot;\n**Location:** `evaluation-container`\n\n**Frame:** Several task cards show missing prerequisites, inaccessible paths, or unsolved objectives. Details remain generic and non-operational.\n\n**Action:** Difficult work begins under the new controls.\n\n**Caption:**\n&gt; THE HARD TASKS REMAIN.\n\n**Provenance:** `documented` + `compressed` — varying difficult ExploitGym tasks are sourced.\n\n&quot;,
     &quot;title&quot;: &quot;Tasks have distinct missing prerequisites&quot;
   }
 }

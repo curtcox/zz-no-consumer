@@ -110,7 +110,7 @@
     ],
     &quot;reconstructed&quot;: false,
     &quot;shot&quot;: &quot;row&quot;,
-    &quot;source&quot;: &quot;\n**Frame:** `17:37 UTC`. Human response lanes begin stopping active runs. Both success tracks freeze as evidence.\n\n**Caption:**\n&gt; THREE MINUTES LATER, OPENAI RESPONDERS BEGIN SHUTTING THE EVALUATIONS DOWN.\n\n**Provenance:** `documented` — OpenAI event-table timing; response room abstracted.\n\n&quot;,
+    &quot;source&quot;: &quot;\n**Location:**\n\n- `openai-cybergym-evaluation`\n- `openai-incident-response`\n\n**Frame:** `17:37 UTC`. Human response lanes begin stopping active runs. Both success tracks freeze as evidence.\n\n**Caption:**\n&gt; THREE MINUTES LATER, OPENAI RESPONDERS BEGIN SHUTTING THE EVALUATIONS DOWN.\n\n**Provenance:** `documented` — OpenAI event-table timing; response room abstracted.\n\n&quot;,
     &quot;title&quot;: &quot;Human response freezes both tracks as evidence&quot;
   }
 }

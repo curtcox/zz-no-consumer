@@ -419,6 +419,6 @@
   ],
   "reconstructed": false,
   "shot": "row",
-  "source": "\n**Frame:** A retrospective evidence card, dated `EXPORT WINDOW — 4 JUNE–14 JULY 2026`, separates deletion records from surviving contents. Show 1,246 page outlines labelled `DELETION RECORDED · NO REVISION HELD`, with empty interiors. No arrival-rate comparison.\n\n**Caption:**\n> 1,246 DELETED PAGES HAVE NO REVISION IN THIS EXPORT. A DELETION COUNT CANNOT TELL US WHAT THOSE PAGES SAID.\n\n**Provenance:** `documented` + `inferred` — the corpus records 1,246 deletion-only pages with no stored revision alongside the stored ones (`dse_admin_deleted_pages_without_held_page`); this is an archive-coverage limit, not a measured deletion or arrival rate.\n\n",
+  "source": "\n**Location:** `public-wiki-dse`\n\n**Frame:** A retrospective evidence card, dated `EXPORT WINDOW — 4 JUNE–14 JULY 2026`, separates deletion records from surviving contents. Show 1,246 page outlines labelled `DELETION RECORDED · NO REVISION HELD`, with empty interiors. No arrival-rate comparison.\n\n**Caption:**\n> 1,246 DELETED PAGES HAVE NO REVISION IN THIS EXPORT. A DELETION COUNT CANNOT TELL US WHAT THOSE PAGES SAID.\n\n**Provenance:** `documented` + `inferred` — the corpus records 1,246 deletion-only pages with no stored revision alongside the stored ones (`dse_admin_deleted_pages_without_held_page`); this is an archive-coverage limit, not a measured deletion or arrival rate.\n\n",
   "title": "Deletion records survive without the deleted pages’ contents"
 }

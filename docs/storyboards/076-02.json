@@ -185,6 +185,6 @@
   ],
   "reconstructed": false,
   "shot": "hub",
-  "source": "\n**Frame:** The lane branches into nested subagents: classification, message tracing, timeline reconstruction, anecdote search, review.\n\n**Action:** Model-managed trees process the corpus in parallel.\n\n**Caption:**\n> OFTEN, THE ANALYSIS AGENTS MANAGE SUBAGENTS OF THEIR OWN.\n\n**Provenance:** `documented` + `reconstructed` — nesting is sourced; tree layout editorial.\n\n",
+  "source": "\n**Location:** `analysis-agent-tree`\n\n**Frame:** The lane branches into nested subagents: classification, message tracing, timeline reconstruction, anecdote search, review.\n\n**Action:** Model-managed trees process the corpus in parallel.\n\n**Caption:**\n> OFTEN, THE ANALYSIS AGENTS MANAGE SUBAGENTS OF THEIR OWN.\n\n**Provenance:** `documented` + `reconstructed` — nesting is sourced; tree layout editorial.\n\n",
   "title": "Analysis delegates several bounded review tasks"
 }
