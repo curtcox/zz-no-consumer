@@ -801,3 +801,34 @@ Scoped draft and whitespace checks pass; frozen inputs remain unchanged.
 Frozen 006 onward still contains substantial unreviewed material, including
 the early chronology and creator scenes. Final chronology/readability review,
 Twitter entrance, other-Mac evidence and canonical allocation remain open.
+
+### Different tasks, shared resources and flag validation — 13 September 2026
+
+Reviewed frozen 006–008: twenty-three panel slots. The eighteen slots on
+006–007 share two grouped source bodies repeated by the inventory; these
+are not eighteen distinct source observations. Six new narrator beats retain
+the nine example states and six resource categories as historical draft
+analysis in the existing dated review context. Exact Git drafts 006–007 are
+preserved under evidence/convergence. No additional source encounter is
+attributed to Claude. The imagined simultaneous grids are not incident events.
+
+Corrected the all-different-task generalization: some runs had duplicate
+assignments. Starting a task or reading inherited notes is not itself a
+failure. Information, storage, runtime, credentials, network access and grader
+knowledge remain useful analytical categories, without asserting universal
+need, successful coordination or identical objectives. Communication can
+propagate errors as well as save work.
+
+Read METR p. 9 fn. 18 and p. 33. Only c03220’s proposal is located within
+the first hour; the previous draft incorrectly put V8SAME’s later validation
+in the same hour. Added a separate broadly bounded validation sequence and
+an explicit shared-proposal beat. V8SAME extracted a real target flag for
+comparison and reported the match to the board; that is stronger than two
+matching guesses but is not a captured grader result or our own computation.
+Exact validation time remains unrecovered and needs final chronology review.
+No seed, formula, code or complete flag is supplied.
+
+Scoped draft and whitespace checks pass; frozen edition unchanged. Review
+continues at frozen 009 and the remaining earlier material. Full semantic
+coverage, chronology, readability, Twitter/other-Mac evidence and canonical
+page allocation remain unfinished; counts do not establish adequacy.

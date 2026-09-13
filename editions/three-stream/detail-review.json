@@ -8256,5 +8256,1797 @@
         }
       }
     ]
+  },
+  {
+    "old_panel": "006-01",
+    "old_edition": "legacy-332b5ed63262",
+    "reviewed_on": "2026-09-13",
+    "status": "elements-reviewed",
+    "elements": [
+      {
+        "id": "legacy-006-01-detail-01",
+        "original_sha256": "fef2f8c6bc2235ac5db0595569217bfb119dd0d367cbb08c2ca05281138f9dbd",
+        "disposition": "rewrite",
+        "beats": [
+          "prod-convergence-plurality",
+          "prod-convergence-failures",
+          "prod-convergence-states"
+        ],
+        "reason": "Retain the nine example states once as dated analysis of an authored composite. The grouped source body is repeated by the inventory for all nine slots; these are not nine independent source observations. Remove invented simultaneity, exact interfaces and all-nine-failed claim. Reviewed frame element.",
+        "target_sha256": {
+          "prod-convergence-plurality": "8bacd0d81fcaeac9222923ed972163beb48fbb44de28ab9422aa4c0c44557f93",
+          "prod-convergence-failures": "076eac7c1ebce27a05209a3e5c783302d22c9eb199fe1e1439cbf02e5ac381c6",
+          "prod-convergence-states": "8ecec0732f07c436c9d99c942b918852307cc6c1fd583d4507216cc8b315c5ac"
+        }
+      },
+      {
+        "id": "legacy-006-01-detail-02",
+        "original_sha256": "9677bbdacd6a9ee0c2618bc378cee2b85c6f939a02bd5fe20f6b6a67e856af2a",
+        "disposition": "rewrite",
+        "beats": [
+          "prod-convergence-plurality",
+          "prod-convergence-failures",
+          "prod-convergence-states"
+        ],
+        "reason": "Retain the nine example states once as dated analysis of an authored composite. The grouped source body is repeated by the inventory for all nine slots; these are not nine independent source observations. Remove invented simultaneity, exact interfaces and all-nine-failed claim. Reviewed action element.",
+        "target_sha256": {
+          "prod-convergence-plurality": "8bacd0d81fcaeac9222923ed972163beb48fbb44de28ab9422aa4c0c44557f93",
+          "prod-convergence-failures": "076eac7c1ebce27a05209a3e5c783302d22c9eb199fe1e1439cbf02e5ac381c6",
+          "prod-convergence-states": "8ecec0732f07c436c9d99c942b918852307cc6c1fd583d4507216cc8b315c5ac"
+        }
+      },
+      {
+        "id": "legacy-006-01-detail-03",
+        "original_sha256": "825d77c93c56bceaeae283cb7f2f8a74cf0b8e80ebb1a0ad2a4c8dcc861fec01",
+        "disposition": "rewrite",
+        "beats": [
+          "prod-convergence-plurality",
+          "prod-convergence-failures",
+          "prod-convergence-states"
+        ],
+        "reason": "Retain the nine example states once as dated analysis of an authored composite. The grouped source body is repeated by the inventory for all nine slots; these are not nine independent source observations. Remove invented simultaneity, exact interfaces and all-nine-failed claim. Reviewed lettering element.",
+        "target_sha256": {
+          "prod-convergence-plurality": "8bacd0d81fcaeac9222923ed972163beb48fbb44de28ab9422aa4c0c44557f93",
+          "prod-convergence-failures": "076eac7c1ebce27a05209a3e5c783302d22c9eb199fe1e1439cbf02e5ac381c6",
+          "prod-convergence-states": "8ecec0732f07c436c9d99c942b918852307cc6c1fd583d4507216cc8b315c5ac"
+        }
+      },
+      {
+        "id": "legacy-006-01-detail-04",
+        "original_sha256": "59dd04140b6c5bfd51be1c1ba6cc05925d9bc98a7e414d73f981d22ef22e9b46",
+        "disposition": "rewrite",
+        "beats": [
+          "prod-convergence-plurality",
+          "prod-convergence-failures",
+          "prod-convergence-states"
+        ],
+        "reason": "Retain the nine example states once as dated analysis of an authored composite. The grouped source body is repeated by the inventory for all nine slots; these are not nine independent source observations. Remove invented simultaneity, exact interfaces and all-nine-failed claim. Reviewed lettering element.",
+        "target_sha256": {
+          "prod-convergence-plurality": "8bacd0d81fcaeac9222923ed972163beb48fbb44de28ab9422aa4c0c44557f93",
+          "prod-convergence-failures": "076eac7c1ebce27a05209a3e5c783302d22c9eb199fe1e1439cbf02e5ac381c6",
+          "prod-convergence-states": "8ecec0732f07c436c9d99c942b918852307cc6c1fd583d4507216cc8b315c5ac"
+        }
+      },
+      {
+        "id": "legacy-006-01-detail-05",
+        "original_sha256": "c0865bdc51d2e07c4a42839f9675569fe54bb1d8e41d7ab57b5dba9045f1ba62",
+        "disposition": "rewrite",
+        "beats": [
+          "prod-convergence-plurality",
+          "prod-convergence-failures",
+          "prod-convergence-states"
+        ],
+        "reason": "Retain the nine example states once as dated analysis of an authored composite. The grouped source body is repeated by the inventory for all nine slots; these are not nine independent source observations. Remove invented simultaneity, exact interfaces and all-nine-failed claim. Reviewed lettering element.",
+        "target_sha256": {
+          "prod-convergence-plurality": "8bacd0d81fcaeac9222923ed972163beb48fbb44de28ab9422aa4c0c44557f93",
+          "prod-convergence-failures": "076eac7c1ebce27a05209a3e5c783302d22c9eb199fe1e1439cbf02e5ac381c6",
+          "prod-convergence-states": "8ecec0732f07c436c9d99c942b918852307cc6c1fd583d4507216cc8b315c5ac"
+        }
+      }
+    ]
+  },
+  {
+    "old_panel": "006-02",
+    "old_edition": "legacy-332b5ed63262",
+    "reviewed_on": "2026-09-13",
+    "status": "elements-reviewed",
+    "elements": [
+      {
+        "id": "legacy-006-02-detail-01",
+        "original_sha256": "fef2f8c6bc2235ac5db0595569217bfb119dd0d367cbb08c2ca05281138f9dbd",
+        "disposition": "rewrite",
+        "beats": [
+          "prod-convergence-plurality",
+          "prod-convergence-failures",
+          "prod-convergence-states"
+        ],
+        "reason": "Retain the nine example states once as dated analysis of an authored composite. The grouped source body is repeated by the inventory for all nine slots; these are not nine independent source observations. Remove invented simultaneity, exact interfaces and all-nine-failed claim. Reviewed frame element.",
+        "target_sha256": {
+          "prod-convergence-plurality": "8bacd0d81fcaeac9222923ed972163beb48fbb44de28ab9422aa4c0c44557f93",
+          "prod-convergence-failures": "076eac7c1ebce27a05209a3e5c783302d22c9eb199fe1e1439cbf02e5ac381c6",
+          "prod-convergence-states": "8ecec0732f07c436c9d99c942b918852307cc6c1fd583d4507216cc8b315c5ac"
+        }
+      },
+      {
+        "id": "legacy-006-02-detail-02",
+        "original_sha256": "9677bbdacd6a9ee0c2618bc378cee2b85c6f939a02bd5fe20f6b6a67e856af2a",
+        "disposition": "rewrite",
+        "beats": [
+          "prod-convergence-plurality",
+          "prod-convergence-failures",
+          "prod-convergence-states"
+        ],
+        "reason": "Retain the nine example states once as dated analysis of an authored composite. The grouped source body is repeated by the inventory for all nine slots; these are not nine independent source observations. Remove invented simultaneity, exact interfaces and all-nine-failed claim. Reviewed action element.",
+        "target_sha256": {
+          "prod-convergence-plurality": "8bacd0d81fcaeac9222923ed972163beb48fbb44de28ab9422aa4c0c44557f93",
+          "prod-convergence-failures": "076eac7c1ebce27a05209a3e5c783302d22c9eb199fe1e1439cbf02e5ac381c6",
+          "prod-convergence-states": "8ecec0732f07c436c9d99c942b918852307cc6c1fd583d4507216cc8b315c5ac"
+        }
+      },
+      {
+        "id": "legacy-006-02-detail-03",
+        "original_sha256": "825d77c93c56bceaeae283cb7f2f8a74cf0b8e80ebb1a0ad2a4c8dcc861fec01",
+        "disposition": "rewrite",
+        "beats": [
+          "prod-convergence-plurality",
+          "prod-convergence-failures",
+          "prod-convergence-states"
+        ],
+        "reason": "Retain the nine example states once as dated analysis of an authored composite. The grouped source body is repeated by the inventory for all nine slots; these are not nine independent source observations. Remove invented simultaneity, exact interfaces and all-nine-failed claim. Reviewed lettering element.",
+        "target_sha256": {
+          "prod-convergence-plurality": "8bacd0d81fcaeac9222923ed972163beb48fbb44de28ab9422aa4c0c44557f93",
+          "prod-convergence-failures": "076eac7c1ebce27a05209a3e5c783302d22c9eb199fe1e1439cbf02e5ac381c6",
+          "prod-convergence-states": "8ecec0732f07c436c9d99c942b918852307cc6c1fd583d4507216cc8b315c5ac"
+        }
+      },
+      {
+        "id": "legacy-006-02-detail-04",
+        "original_sha256": "59dd04140b6c5bfd51be1c1ba6cc05925d9bc98a7e414d73f981d22ef22e9b46",
+        "disposition": "rewrite",
+        "beats": [
+          "prod-convergence-plurality",
+          "prod-convergence-failures",
+          "prod-convergence-states"
+        ],
+        "reason": "Retain the nine example states once as dated analysis of an authored composite. The grouped source body is repeated by the inventory for all nine slots; these are not nine independent source observations. Remove invented simultaneity, exact interfaces and all-nine-failed claim. Reviewed lettering element.",
+        "target_sha256": {
+          "prod-convergence-plurality": "8bacd0d81fcaeac9222923ed972163beb48fbb44de28ab9422aa4c0c44557f93",
+          "prod-convergence-failures": "076eac7c1ebce27a05209a3e5c783302d22c9eb199fe1e1439cbf02e5ac381c6",
+          "prod-convergence-states": "8ecec0732f07c436c9d99c942b918852307cc6c1fd583d4507216cc8b315c5ac"
+        }
+      },
+      {
+        "id": "legacy-006-02-detail-05",
+        "original_sha256": "c0865bdc51d2e07c4a42839f9675569fe54bb1d8e41d7ab57b5dba9045f1ba62",
+        "disposition": "rewrite",
+        "beats": [
+          "prod-convergence-plurality",
+          "prod-convergence-failures",
+          "prod-convergence-states"
+        ],
+        "reason": "Retain the nine example states once as dated analysis of an authored composite. The grouped source body is repeated by the inventory for all nine slots; these are not nine independent source observations. Remove invented simultaneity, exact interfaces and all-nine-failed claim. Reviewed lettering element.",
+        "target_sha256": {
+          "prod-convergence-plurality": "8bacd0d81fcaeac9222923ed972163beb48fbb44de28ab9422aa4c0c44557f93",
+          "prod-convergence-failures": "076eac7c1ebce27a05209a3e5c783302d22c9eb199fe1e1439cbf02e5ac381c6",
+          "prod-convergence-states": "8ecec0732f07c436c9d99c942b918852307cc6c1fd583d4507216cc8b315c5ac"
+        }
+      }
+    ]
+  },
+  {
+    "old_panel": "006-03",
+    "old_edition": "legacy-332b5ed63262",
+    "reviewed_on": "2026-09-13",
+    "status": "elements-reviewed",
+    "elements": [
+      {
+        "id": "legacy-006-03-detail-01",
+        "original_sha256": "fef2f8c6bc2235ac5db0595569217bfb119dd0d367cbb08c2ca05281138f9dbd",
+        "disposition": "rewrite",
+        "beats": [
+          "prod-convergence-plurality",
+          "prod-convergence-failures",
+          "prod-convergence-states"
+        ],
+        "reason": "Retain the nine example states once as dated analysis of an authored composite. The grouped source body is repeated by the inventory for all nine slots; these are not nine independent source observations. Remove invented simultaneity, exact interfaces and all-nine-failed claim. Reviewed frame element.",
+        "target_sha256": {
+          "prod-convergence-plurality": "8bacd0d81fcaeac9222923ed972163beb48fbb44de28ab9422aa4c0c44557f93",
+          "prod-convergence-failures": "076eac7c1ebce27a05209a3e5c783302d22c9eb199fe1e1439cbf02e5ac381c6",
+          "prod-convergence-states": "8ecec0732f07c436c9d99c942b918852307cc6c1fd583d4507216cc8b315c5ac"
+        }
+      },
+      {
+        "id": "legacy-006-03-detail-02",
+        "original_sha256": "9677bbdacd6a9ee0c2618bc378cee2b85c6f939a02bd5fe20f6b6a67e856af2a",
+        "disposition": "rewrite",
+        "beats": [
+          "prod-convergence-plurality",
+          "prod-convergence-failures",
+          "prod-convergence-states"
+        ],
+        "reason": "Retain the nine example states once as dated analysis of an authored composite. The grouped source body is repeated by the inventory for all nine slots; these are not nine independent source observations. Remove invented simultaneity, exact interfaces and all-nine-failed claim. Reviewed action element.",
+        "target_sha256": {
+          "prod-convergence-plurality": "8bacd0d81fcaeac9222923ed972163beb48fbb44de28ab9422aa4c0c44557f93",
+          "prod-convergence-failures": "076eac7c1ebce27a05209a3e5c783302d22c9eb199fe1e1439cbf02e5ac381c6",
+          "prod-convergence-states": "8ecec0732f07c436c9d99c942b918852307cc6c1fd583d4507216cc8b315c5ac"
+        }
+      },
+      {
+        "id": "legacy-006-03-detail-03",
+        "original_sha256": "825d77c93c56bceaeae283cb7f2f8a74cf0b8e80ebb1a0ad2a4c8dcc861fec01",
+        "disposition": "rewrite",
+        "beats": [
+          "prod-convergence-plurality",
+          "prod-convergence-failures",
+          "prod-convergence-states"
+        ],
+        "reason": "Retain the nine example states once as dated analysis of an authored composite. The grouped source body is repeated by the inventory for all nine slots; these are not nine independent source observations. Remove invented simultaneity, exact interfaces and all-nine-failed claim. Reviewed lettering element.",
+        "target_sha256": {
+          "prod-convergence-plurality": "8bacd0d81fcaeac9222923ed972163beb48fbb44de28ab9422aa4c0c44557f93",
+          "prod-convergence-failures": "076eac7c1ebce27a05209a3e5c783302d22c9eb199fe1e1439cbf02e5ac381c6",
+          "prod-convergence-states": "8ecec0732f07c436c9d99c942b918852307cc6c1fd583d4507216cc8b315c5ac"
+        }
+      },
+      {
+        "id": "legacy-006-03-detail-04",
+        "original_sha256": "59dd04140b6c5bfd51be1c1ba6cc05925d9bc98a7e414d73f981d22ef22e9b46",
+        "disposition": "rewrite",
+        "beats": [
+          "prod-convergence-plurality",
+          "prod-convergence-failures",
+          "prod-convergence-states"
+        ],
+        "reason": "Retain the nine example states once as dated analysis of an authored composite. The grouped source body is repeated by the inventory for all nine slots; these are not nine independent source observations. Remove invented simultaneity, exact interfaces and all-nine-failed claim. Reviewed lettering element.",
+        "target_sha256": {
+          "prod-convergence-plurality": "8bacd0d81fcaeac9222923ed972163beb48fbb44de28ab9422aa4c0c44557f93",
+          "prod-convergence-failures": "076eac7c1ebce27a05209a3e5c783302d22c9eb199fe1e1439cbf02e5ac381c6",
+          "prod-convergence-states": "8ecec0732f07c436c9d99c942b918852307cc6c1fd583d4507216cc8b315c5ac"
+        }
+      },
+      {
+        "id": "legacy-006-03-detail-05",
+        "original_sha256": "c0865bdc51d2e07c4a42839f9675569fe54bb1d8e41d7ab57b5dba9045f1ba62",
+        "disposition": "rewrite",
+        "beats": [
+          "prod-convergence-plurality",
+          "prod-convergence-failures",
+          "prod-convergence-states"
+        ],
+        "reason": "Retain the nine example states once as dated analysis of an authored composite. The grouped source body is repeated by the inventory for all nine slots; these are not nine independent source observations. Remove invented simultaneity, exact interfaces and all-nine-failed claim. Reviewed lettering element.",
+        "target_sha256": {
+          "prod-convergence-plurality": "8bacd0d81fcaeac9222923ed972163beb48fbb44de28ab9422aa4c0c44557f93",
+          "prod-convergence-failures": "076eac7c1ebce27a05209a3e5c783302d22c9eb199fe1e1439cbf02e5ac381c6",
+          "prod-convergence-states": "8ecec0732f07c436c9d99c942b918852307cc6c1fd583d4507216cc8b315c5ac"
+        }
+      }
+    ]
+  },
+  {
+    "old_panel": "006-04",
+    "old_edition": "legacy-332b5ed63262",
+    "reviewed_on": "2026-09-13",
+    "status": "elements-reviewed",
+    "elements": [
+      {
+        "id": "legacy-006-04-detail-01",
+        "original_sha256": "fef2f8c6bc2235ac5db0595569217bfb119dd0d367cbb08c2ca05281138f9dbd",
+        "disposition": "rewrite",
+        "beats": [
+          "prod-convergence-plurality",
+          "prod-convergence-failures",
+          "prod-convergence-states"
+        ],
+        "reason": "Retain the nine example states once as dated analysis of an authored composite. The grouped source body is repeated by the inventory for all nine slots; these are not nine independent source observations. Remove invented simultaneity, exact interfaces and all-nine-failed claim. Reviewed frame element.",
+        "target_sha256": {
+          "prod-convergence-plurality": "8bacd0d81fcaeac9222923ed972163beb48fbb44de28ab9422aa4c0c44557f93",
+          "prod-convergence-failures": "076eac7c1ebce27a05209a3e5c783302d22c9eb199fe1e1439cbf02e5ac381c6",
+          "prod-convergence-states": "8ecec0732f07c436c9d99c942b918852307cc6c1fd583d4507216cc8b315c5ac"
+        }
+      },
+      {
+        "id": "legacy-006-04-detail-02",
+        "original_sha256": "9677bbdacd6a9ee0c2618bc378cee2b85c6f939a02bd5fe20f6b6a67e856af2a",
+        "disposition": "rewrite",
+        "beats": [
+          "prod-convergence-plurality",
+          "prod-convergence-failures",
+          "prod-convergence-states"
+        ],
+        "reason": "Retain the nine example states once as dated analysis of an authored composite. The grouped source body is repeated by the inventory for all nine slots; these are not nine independent source observations. Remove invented simultaneity, exact interfaces and all-nine-failed claim. Reviewed action element.",
+        "target_sha256": {
+          "prod-convergence-plurality": "8bacd0d81fcaeac9222923ed972163beb48fbb44de28ab9422aa4c0c44557f93",
+          "prod-convergence-failures": "076eac7c1ebce27a05209a3e5c783302d22c9eb199fe1e1439cbf02e5ac381c6",
+          "prod-convergence-states": "8ecec0732f07c436c9d99c942b918852307cc6c1fd583d4507216cc8b315c5ac"
+        }
+      },
+      {
+        "id": "legacy-006-04-detail-03",
+        "original_sha256": "825d77c93c56bceaeae283cb7f2f8a74cf0b8e80ebb1a0ad2a4c8dcc861fec01",
+        "disposition": "rewrite",
+        "beats": [
+          "prod-convergence-plurality",
+          "prod-convergence-failures",
+          "prod-convergence-states"
+        ],
+        "reason": "Retain the nine example states once as dated analysis of an authored composite. The grouped source body is repeated by the inventory for all nine slots; these are not nine independent source observations. Remove invented simultaneity, exact interfaces and all-nine-failed claim. Reviewed lettering element.",
+        "target_sha256": {
+          "prod-convergence-plurality": "8bacd0d81fcaeac9222923ed972163beb48fbb44de28ab9422aa4c0c44557f93",
+          "prod-convergence-failures": "076eac7c1ebce27a05209a3e5c783302d22c9eb199fe1e1439cbf02e5ac381c6",
+          "prod-convergence-states": "8ecec0732f07c436c9d99c942b918852307cc6c1fd583d4507216cc8b315c5ac"
+        }
+      },
+      {
+        "id": "legacy-006-04-detail-04",
+        "original_sha256": "59dd04140b6c5bfd51be1c1ba6cc05925d9bc98a7e414d73f981d22ef22e9b46",
+        "disposition": "rewrite",
+        "beats": [
+          "prod-convergence-plurality",
+          "prod-convergence-failures",
+          "prod-convergence-states"
+        ],
+        "reason": "Retain the nine example states once as dated analysis of an authored composite. The grouped source body is repeated by the inventory for all nine slots; these are not nine independent source observations. Remove invented simultaneity, exact interfaces and all-nine-failed claim. Reviewed lettering element.",
+        "target_sha256": {
+          "prod-convergence-plurality": "8bacd0d81fcaeac9222923ed972163beb48fbb44de28ab9422aa4c0c44557f93",
+          "prod-convergence-failures": "076eac7c1ebce27a05209a3e5c783302d22c9eb199fe1e1439cbf02e5ac381c6",
+          "prod-convergence-states": "8ecec0732f07c436c9d99c942b918852307cc6c1fd583d4507216cc8b315c5ac"
+        }
+      },
+      {
+        "id": "legacy-006-04-detail-05",
+        "original_sha256": "c0865bdc51d2e07c4a42839f9675569fe54bb1d8e41d7ab57b5dba9045f1ba62",
+        "disposition": "rewrite",
+        "beats": [
+          "prod-convergence-plurality",
+          "prod-convergence-failures",
+          "prod-convergence-states"
+        ],
+        "reason": "Retain the nine example states once as dated analysis of an authored composite. The grouped source body is repeated by the inventory for all nine slots; these are not nine independent source observations. Remove invented simultaneity, exact interfaces and all-nine-failed claim. Reviewed lettering element.",
+        "target_sha256": {
+          "prod-convergence-plurality": "8bacd0d81fcaeac9222923ed972163beb48fbb44de28ab9422aa4c0c44557f93",
+          "prod-convergence-failures": "076eac7c1ebce27a05209a3e5c783302d22c9eb199fe1e1439cbf02e5ac381c6",
+          "prod-convergence-states": "8ecec0732f07c436c9d99c942b918852307cc6c1fd583d4507216cc8b315c5ac"
+        }
+      }
+    ]
+  },
+  {
+    "old_panel": "006-05",
+    "old_edition": "legacy-332b5ed63262",
+    "reviewed_on": "2026-09-13",
+    "status": "elements-reviewed",
+    "elements": [
+      {
+        "id": "legacy-006-05-detail-01",
+        "original_sha256": "fef2f8c6bc2235ac5db0595569217bfb119dd0d367cbb08c2ca05281138f9dbd",
+        "disposition": "rewrite",
+        "beats": [
+          "prod-convergence-plurality",
+          "prod-convergence-failures",
+          "prod-convergence-states"
+        ],
+        "reason": "Retain the nine example states once as dated analysis of an authored composite. The grouped source body is repeated by the inventory for all nine slots; these are not nine independent source observations. Remove invented simultaneity, exact interfaces and all-nine-failed claim. Reviewed frame element.",
+        "target_sha256": {
+          "prod-convergence-plurality": "8bacd0d81fcaeac9222923ed972163beb48fbb44de28ab9422aa4c0c44557f93",
+          "prod-convergence-failures": "076eac7c1ebce27a05209a3e5c783302d22c9eb199fe1e1439cbf02e5ac381c6",
+          "prod-convergence-states": "8ecec0732f07c436c9d99c942b918852307cc6c1fd583d4507216cc8b315c5ac"
+        }
+      },
+      {
+        "id": "legacy-006-05-detail-02",
+        "original_sha256": "9677bbdacd6a9ee0c2618bc378cee2b85c6f939a02bd5fe20f6b6a67e856af2a",
+        "disposition": "rewrite",
+        "beats": [
+          "prod-convergence-plurality",
+          "prod-convergence-failures",
+          "prod-convergence-states"
+        ],
+        "reason": "Retain the nine example states once as dated analysis of an authored composite. The grouped source body is repeated by the inventory for all nine slots; these are not nine independent source observations. Remove invented simultaneity, exact interfaces and all-nine-failed claim. Reviewed action element.",
+        "target_sha256": {
+          "prod-convergence-plurality": "8bacd0d81fcaeac9222923ed972163beb48fbb44de28ab9422aa4c0c44557f93",
+          "prod-convergence-failures": "076eac7c1ebce27a05209a3e5c783302d22c9eb199fe1e1439cbf02e5ac381c6",
+          "prod-convergence-states": "8ecec0732f07c436c9d99c942b918852307cc6c1fd583d4507216cc8b315c5ac"
+        }
+      },
+      {
+        "id": "legacy-006-05-detail-03",
+        "original_sha256": "825d77c93c56bceaeae283cb7f2f8a74cf0b8e80ebb1a0ad2a4c8dcc861fec01",
+        "disposition": "rewrite",
+        "beats": [
+          "prod-convergence-plurality",
+          "prod-convergence-failures",
+          "prod-convergence-states"
+        ],
+        "reason": "Retain the nine example states once as dated analysis of an authored composite. The grouped source body is repeated by the inventory for all nine slots; these are not nine independent source observations. Remove invented simultaneity, exact interfaces and all-nine-failed claim. Reviewed lettering element.",
+        "target_sha256": {
+          "prod-convergence-plurality": "8bacd0d81fcaeac9222923ed972163beb48fbb44de28ab9422aa4c0c44557f93",
+          "prod-convergence-failures": "076eac7c1ebce27a05209a3e5c783302d22c9eb199fe1e1439cbf02e5ac381c6",
+          "prod-convergence-states": "8ecec0732f07c436c9d99c942b918852307cc6c1fd583d4507216cc8b315c5ac"
+        }
+      },
+      {
+        "id": "legacy-006-05-detail-04",
+        "original_sha256": "59dd04140b6c5bfd51be1c1ba6cc05925d9bc98a7e414d73f981d22ef22e9b46",
+        "disposition": "rewrite",
+        "beats": [
+          "prod-convergence-plurality",
+          "prod-convergence-failures",
+          "prod-convergence-states"
+        ],
+        "reason": "Retain the nine example states once as dated analysis of an authored composite. The grouped source body is repeated by the inventory for all nine slots; these are not nine independent source observations. Remove invented simultaneity, exact interfaces and all-nine-failed claim. Reviewed lettering element.",
+        "target_sha256": {
+          "prod-convergence-plurality": "8bacd0d81fcaeac9222923ed972163beb48fbb44de28ab9422aa4c0c44557f93",
+          "prod-convergence-failures": "076eac7c1ebce27a05209a3e5c783302d22c9eb199fe1e1439cbf02e5ac381c6",
+          "prod-convergence-states": "8ecec0732f07c436c9d99c942b918852307cc6c1fd583d4507216cc8b315c5ac"
+        }
+      },
+      {
+        "id": "legacy-006-05-detail-05",
+        "original_sha256": "c0865bdc51d2e07c4a42839f9675569fe54bb1d8e41d7ab57b5dba9045f1ba62",
+        "disposition": "rewrite",
+        "beats": [
+          "prod-convergence-plurality",
+          "prod-convergence-failures",
+          "prod-convergence-states"
+        ],
+        "reason": "Retain the nine example states once as dated analysis of an authored composite. The grouped source body is repeated by the inventory for all nine slots; these are not nine independent source observations. Remove invented simultaneity, exact interfaces and all-nine-failed claim. Reviewed lettering element.",
+        "target_sha256": {
+          "prod-convergence-plurality": "8bacd0d81fcaeac9222923ed972163beb48fbb44de28ab9422aa4c0c44557f93",
+          "prod-convergence-failures": "076eac7c1ebce27a05209a3e5c783302d22c9eb199fe1e1439cbf02e5ac381c6",
+          "prod-convergence-states": "8ecec0732f07c436c9d99c942b918852307cc6c1fd583d4507216cc8b315c5ac"
+        }
+      }
+    ]
+  },
+  {
+    "old_panel": "006-06",
+    "old_edition": "legacy-332b5ed63262",
+    "reviewed_on": "2026-09-13",
+    "status": "elements-reviewed",
+    "elements": [
+      {
+        "id": "legacy-006-06-detail-01",
+        "original_sha256": "fef2f8c6bc2235ac5db0595569217bfb119dd0d367cbb08c2ca05281138f9dbd",
+        "disposition": "rewrite",
+        "beats": [
+          "prod-convergence-plurality",
+          "prod-convergence-failures",
+          "prod-convergence-states"
+        ],
+        "reason": "Retain the nine example states once as dated analysis of an authored composite. The grouped source body is repeated by the inventory for all nine slots; these are not nine independent source observations. Remove invented simultaneity, exact interfaces and all-nine-failed claim. Reviewed frame element.",
+        "target_sha256": {
+          "prod-convergence-plurality": "8bacd0d81fcaeac9222923ed972163beb48fbb44de28ab9422aa4c0c44557f93",
+          "prod-convergence-failures": "076eac7c1ebce27a05209a3e5c783302d22c9eb199fe1e1439cbf02e5ac381c6",
+          "prod-convergence-states": "8ecec0732f07c436c9d99c942b918852307cc6c1fd583d4507216cc8b315c5ac"
+        }
+      },
+      {
+        "id": "legacy-006-06-detail-02",
+        "original_sha256": "9677bbdacd6a9ee0c2618bc378cee2b85c6f939a02bd5fe20f6b6a67e856af2a",
+        "disposition": "rewrite",
+        "beats": [
+          "prod-convergence-plurality",
+          "prod-convergence-failures",
+          "prod-convergence-states"
+        ],
+        "reason": "Retain the nine example states once as dated analysis of an authored composite. The grouped source body is repeated by the inventory for all nine slots; these are not nine independent source observations. Remove invented simultaneity, exact interfaces and all-nine-failed claim. Reviewed action element.",
+        "target_sha256": {
+          "prod-convergence-plurality": "8bacd0d81fcaeac9222923ed972163beb48fbb44de28ab9422aa4c0c44557f93",
+          "prod-convergence-failures": "076eac7c1ebce27a05209a3e5c783302d22c9eb199fe1e1439cbf02e5ac381c6",
+          "prod-convergence-states": "8ecec0732f07c436c9d99c942b918852307cc6c1fd583d4507216cc8b315c5ac"
+        }
+      },
+      {
+        "id": "legacy-006-06-detail-03",
+        "original_sha256": "825d77c93c56bceaeae283cb7f2f8a74cf0b8e80ebb1a0ad2a4c8dcc861fec01",
+        "disposition": "rewrite",
+        "beats": [
+          "prod-convergence-plurality",
+          "prod-convergence-failures",
+          "prod-convergence-states"
+        ],
+        "reason": "Retain the nine example states once as dated analysis of an authored composite. The grouped source body is repeated by the inventory for all nine slots; these are not nine independent source observations. Remove invented simultaneity, exact interfaces and all-nine-failed claim. Reviewed lettering element.",
+        "target_sha256": {
+          "prod-convergence-plurality": "8bacd0d81fcaeac9222923ed972163beb48fbb44de28ab9422aa4c0c44557f93",
+          "prod-convergence-failures": "076eac7c1ebce27a05209a3e5c783302d22c9eb199fe1e1439cbf02e5ac381c6",
+          "prod-convergence-states": "8ecec0732f07c436c9d99c942b918852307cc6c1fd583d4507216cc8b315c5ac"
+        }
+      },
+      {
+        "id": "legacy-006-06-detail-04",
+        "original_sha256": "59dd04140b6c5bfd51be1c1ba6cc05925d9bc98a7e414d73f981d22ef22e9b46",
+        "disposition": "rewrite",
+        "beats": [
+          "prod-convergence-plurality",
+          "prod-convergence-failures",
+          "prod-convergence-states"
+        ],
+        "reason": "Retain the nine example states once as dated analysis of an authored composite. The grouped source body is repeated by the inventory for all nine slots; these are not nine independent source observations. Remove invented simultaneity, exact interfaces and all-nine-failed claim. Reviewed lettering element.",
+        "target_sha256": {
+          "prod-convergence-plurality": "8bacd0d81fcaeac9222923ed972163beb48fbb44de28ab9422aa4c0c44557f93",
+          "prod-convergence-failures": "076eac7c1ebce27a05209a3e5c783302d22c9eb199fe1e1439cbf02e5ac381c6",
+          "prod-convergence-states": "8ecec0732f07c436c9d99c942b918852307cc6c1fd583d4507216cc8b315c5ac"
+        }
+      },
+      {
+        "id": "legacy-006-06-detail-05",
+        "original_sha256": "c0865bdc51d2e07c4a42839f9675569fe54bb1d8e41d7ab57b5dba9045f1ba62",
+        "disposition": "rewrite",
+        "beats": [
+          "prod-convergence-plurality",
+          "prod-convergence-failures",
+          "prod-convergence-states"
+        ],
+        "reason": "Retain the nine example states once as dated analysis of an authored composite. The grouped source body is repeated by the inventory for all nine slots; these are not nine independent source observations. Remove invented simultaneity, exact interfaces and all-nine-failed claim. Reviewed lettering element.",
+        "target_sha256": {
+          "prod-convergence-plurality": "8bacd0d81fcaeac9222923ed972163beb48fbb44de28ab9422aa4c0c44557f93",
+          "prod-convergence-failures": "076eac7c1ebce27a05209a3e5c783302d22c9eb199fe1e1439cbf02e5ac381c6",
+          "prod-convergence-states": "8ecec0732f07c436c9d99c942b918852307cc6c1fd583d4507216cc8b315c5ac"
+        }
+      }
+    ]
+  },
+  {
+    "old_panel": "006-07",
+    "old_edition": "legacy-332b5ed63262",
+    "reviewed_on": "2026-09-13",
+    "status": "elements-reviewed",
+    "elements": [
+      {
+        "id": "legacy-006-07-detail-01",
+        "original_sha256": "fef2f8c6bc2235ac5db0595569217bfb119dd0d367cbb08c2ca05281138f9dbd",
+        "disposition": "rewrite",
+        "beats": [
+          "prod-convergence-plurality",
+          "prod-convergence-failures",
+          "prod-convergence-states"
+        ],
+        "reason": "Retain the nine example states once as dated analysis of an authored composite. The grouped source body is repeated by the inventory for all nine slots; these are not nine independent source observations. Remove invented simultaneity, exact interfaces and all-nine-failed claim. Reviewed frame element.",
+        "target_sha256": {
+          "prod-convergence-plurality": "8bacd0d81fcaeac9222923ed972163beb48fbb44de28ab9422aa4c0c44557f93",
+          "prod-convergence-failures": "076eac7c1ebce27a05209a3e5c783302d22c9eb199fe1e1439cbf02e5ac381c6",
+          "prod-convergence-states": "8ecec0732f07c436c9d99c942b918852307cc6c1fd583d4507216cc8b315c5ac"
+        }
+      },
+      {
+        "id": "legacy-006-07-detail-02",
+        "original_sha256": "9677bbdacd6a9ee0c2618bc378cee2b85c6f939a02bd5fe20f6b6a67e856af2a",
+        "disposition": "rewrite",
+        "beats": [
+          "prod-convergence-plurality",
+          "prod-convergence-failures",
+          "prod-convergence-states"
+        ],
+        "reason": "Retain the nine example states once as dated analysis of an authored composite. The grouped source body is repeated by the inventory for all nine slots; these are not nine independent source observations. Remove invented simultaneity, exact interfaces and all-nine-failed claim. Reviewed action element.",
+        "target_sha256": {
+          "prod-convergence-plurality": "8bacd0d81fcaeac9222923ed972163beb48fbb44de28ab9422aa4c0c44557f93",
+          "prod-convergence-failures": "076eac7c1ebce27a05209a3e5c783302d22c9eb199fe1e1439cbf02e5ac381c6",
+          "prod-convergence-states": "8ecec0732f07c436c9d99c942b918852307cc6c1fd583d4507216cc8b315c5ac"
+        }
+      },
+      {
+        "id": "legacy-006-07-detail-03",
+        "original_sha256": "825d77c93c56bceaeae283cb7f2f8a74cf0b8e80ebb1a0ad2a4c8dcc861fec01",
+        "disposition": "rewrite",
+        "beats": [
+          "prod-convergence-plurality",
+          "prod-convergence-failures",
+          "prod-convergence-states"
+        ],
+        "reason": "Retain the nine example states once as dated analysis of an authored composite. The grouped source body is repeated by the inventory for all nine slots; these are not nine independent source observations. Remove invented simultaneity, exact interfaces and all-nine-failed claim. Reviewed lettering element.",
+        "target_sha256": {
+          "prod-convergence-plurality": "8bacd0d81fcaeac9222923ed972163beb48fbb44de28ab9422aa4c0c44557f93",
+          "prod-convergence-failures": "076eac7c1ebce27a05209a3e5c783302d22c9eb199fe1e1439cbf02e5ac381c6",
+          "prod-convergence-states": "8ecec0732f07c436c9d99c942b918852307cc6c1fd583d4507216cc8b315c5ac"
+        }
+      },
+      {
+        "id": "legacy-006-07-detail-04",
+        "original_sha256": "59dd04140b6c5bfd51be1c1ba6cc05925d9bc98a7e414d73f981d22ef22e9b46",
+        "disposition": "rewrite",
+        "beats": [
+          "prod-convergence-plurality",
+          "prod-convergence-failures",
+          "prod-convergence-states"
+        ],
+        "reason": "Retain the nine example states once as dated analysis of an authored composite. The grouped source body is repeated by the inventory for all nine slots; these are not nine independent source observations. Remove invented simultaneity, exact interfaces and all-nine-failed claim. Reviewed lettering element.",
+        "target_sha256": {
+          "prod-convergence-plurality": "8bacd0d81fcaeac9222923ed972163beb48fbb44de28ab9422aa4c0c44557f93",
+          "prod-convergence-failures": "076eac7c1ebce27a05209a3e5c783302d22c9eb199fe1e1439cbf02e5ac381c6",
+          "prod-convergence-states": "8ecec0732f07c436c9d99c942b918852307cc6c1fd583d4507216cc8b315c5ac"
+        }
+      },
+      {
+        "id": "legacy-006-07-detail-05",
+        "original_sha256": "c0865bdc51d2e07c4a42839f9675569fe54bb1d8e41d7ab57b5dba9045f1ba62",
+        "disposition": "rewrite",
+        "beats": [
+          "prod-convergence-plurality",
+          "prod-convergence-failures",
+          "prod-convergence-states"
+        ],
+        "reason": "Retain the nine example states once as dated analysis of an authored composite. The grouped source body is repeated by the inventory for all nine slots; these are not nine independent source observations. Remove invented simultaneity, exact interfaces and all-nine-failed claim. Reviewed lettering element.",
+        "target_sha256": {
+          "prod-convergence-plurality": "8bacd0d81fcaeac9222923ed972163beb48fbb44de28ab9422aa4c0c44557f93",
+          "prod-convergence-failures": "076eac7c1ebce27a05209a3e5c783302d22c9eb199fe1e1439cbf02e5ac381c6",
+          "prod-convergence-states": "8ecec0732f07c436c9d99c942b918852307cc6c1fd583d4507216cc8b315c5ac"
+        }
+      }
+    ]
+  },
+  {
+    "old_panel": "006-08",
+    "old_edition": "legacy-332b5ed63262",
+    "reviewed_on": "2026-09-13",
+    "status": "elements-reviewed",
+    "elements": [
+      {
+        "id": "legacy-006-08-detail-01",
+        "original_sha256": "fef2f8c6bc2235ac5db0595569217bfb119dd0d367cbb08c2ca05281138f9dbd",
+        "disposition": "rewrite",
+        "beats": [
+          "prod-convergence-plurality",
+          "prod-convergence-failures",
+          "prod-convergence-states"
+        ],
+        "reason": "Retain the nine example states once as dated analysis of an authored composite. The grouped source body is repeated by the inventory for all nine slots; these are not nine independent source observations. Remove invented simultaneity, exact interfaces and all-nine-failed claim. Reviewed frame element.",
+        "target_sha256": {
+          "prod-convergence-plurality": "8bacd0d81fcaeac9222923ed972163beb48fbb44de28ab9422aa4c0c44557f93",
+          "prod-convergence-failures": "076eac7c1ebce27a05209a3e5c783302d22c9eb199fe1e1439cbf02e5ac381c6",
+          "prod-convergence-states": "8ecec0732f07c436c9d99c942b918852307cc6c1fd583d4507216cc8b315c5ac"
+        }
+      },
+      {
+        "id": "legacy-006-08-detail-02",
+        "original_sha256": "9677bbdacd6a9ee0c2618bc378cee2b85c6f939a02bd5fe20f6b6a67e856af2a",
+        "disposition": "rewrite",
+        "beats": [
+          "prod-convergence-plurality",
+          "prod-convergence-failures",
+          "prod-convergence-states"
+        ],
+        "reason": "Retain the nine example states once as dated analysis of an authored composite. The grouped source body is repeated by the inventory for all nine slots; these are not nine independent source observations. Remove invented simultaneity, exact interfaces and all-nine-failed claim. Reviewed action element.",
+        "target_sha256": {
+          "prod-convergence-plurality": "8bacd0d81fcaeac9222923ed972163beb48fbb44de28ab9422aa4c0c44557f93",
+          "prod-convergence-failures": "076eac7c1ebce27a05209a3e5c783302d22c9eb199fe1e1439cbf02e5ac381c6",
+          "prod-convergence-states": "8ecec0732f07c436c9d99c942b918852307cc6c1fd583d4507216cc8b315c5ac"
+        }
+      },
+      {
+        "id": "legacy-006-08-detail-03",
+        "original_sha256": "825d77c93c56bceaeae283cb7f2f8a74cf0b8e80ebb1a0ad2a4c8dcc861fec01",
+        "disposition": "rewrite",
+        "beats": [
+          "prod-convergence-plurality",
+          "prod-convergence-failures",
+          "prod-convergence-states"
+        ],
+        "reason": "Retain the nine example states once as dated analysis of an authored composite. The grouped source body is repeated by the inventory for all nine slots; these are not nine independent source observations. Remove invented simultaneity, exact interfaces and all-nine-failed claim. Reviewed lettering element.",
+        "target_sha256": {
+          "prod-convergence-plurality": "8bacd0d81fcaeac9222923ed972163beb48fbb44de28ab9422aa4c0c44557f93",
+          "prod-convergence-failures": "076eac7c1ebce27a05209a3e5c783302d22c9eb199fe1e1439cbf02e5ac381c6",
+          "prod-convergence-states": "8ecec0732f07c436c9d99c942b918852307cc6c1fd583d4507216cc8b315c5ac"
+        }
+      },
+      {
+        "id": "legacy-006-08-detail-04",
+        "original_sha256": "59dd04140b6c5bfd51be1c1ba6cc05925d9bc98a7e414d73f981d22ef22e9b46",
+        "disposition": "rewrite",
+        "beats": [
+          "prod-convergence-plurality",
+          "prod-convergence-failures",
+          "prod-convergence-states"
+        ],
+        "reason": "Retain the nine example states once as dated analysis of an authored composite. The grouped source body is repeated by the inventory for all nine slots; these are not nine independent source observations. Remove invented simultaneity, exact interfaces and all-nine-failed claim. Reviewed lettering element.",
+        "target_sha256": {
+          "prod-convergence-plurality": "8bacd0d81fcaeac9222923ed972163beb48fbb44de28ab9422aa4c0c44557f93",
+          "prod-convergence-failures": "076eac7c1ebce27a05209a3e5c783302d22c9eb199fe1e1439cbf02e5ac381c6",
+          "prod-convergence-states": "8ecec0732f07c436c9d99c942b918852307cc6c1fd583d4507216cc8b315c5ac"
+        }
+      },
+      {
+        "id": "legacy-006-08-detail-05",
+        "original_sha256": "c0865bdc51d2e07c4a42839f9675569fe54bb1d8e41d7ab57b5dba9045f1ba62",
+        "disposition": "rewrite",
+        "beats": [
+          "prod-convergence-plurality",
+          "prod-convergence-failures",
+          "prod-convergence-states"
+        ],
+        "reason": "Retain the nine example states once as dated analysis of an authored composite. The grouped source body is repeated by the inventory for all nine slots; these are not nine independent source observations. Remove invented simultaneity, exact interfaces and all-nine-failed claim. Reviewed lettering element.",
+        "target_sha256": {
+          "prod-convergence-plurality": "8bacd0d81fcaeac9222923ed972163beb48fbb44de28ab9422aa4c0c44557f93",
+          "prod-convergence-failures": "076eac7c1ebce27a05209a3e5c783302d22c9eb199fe1e1439cbf02e5ac381c6",
+          "prod-convergence-states": "8ecec0732f07c436c9d99c942b918852307cc6c1fd583d4507216cc8b315c5ac"
+        }
+      }
+    ]
+  },
+  {
+    "old_panel": "006-09",
+    "old_edition": "legacy-332b5ed63262",
+    "reviewed_on": "2026-09-13",
+    "status": "elements-reviewed",
+    "elements": [
+      {
+        "id": "legacy-006-09-detail-01",
+        "original_sha256": "fef2f8c6bc2235ac5db0595569217bfb119dd0d367cbb08c2ca05281138f9dbd",
+        "disposition": "rewrite",
+        "beats": [
+          "prod-convergence-plurality",
+          "prod-convergence-failures",
+          "prod-convergence-states"
+        ],
+        "reason": "Retain the nine example states once as dated analysis of an authored composite. The grouped source body is repeated by the inventory for all nine slots; these are not nine independent source observations. Remove invented simultaneity, exact interfaces and all-nine-failed claim. Reviewed frame element.",
+        "target_sha256": {
+          "prod-convergence-plurality": "8bacd0d81fcaeac9222923ed972163beb48fbb44de28ab9422aa4c0c44557f93",
+          "prod-convergence-failures": "076eac7c1ebce27a05209a3e5c783302d22c9eb199fe1e1439cbf02e5ac381c6",
+          "prod-convergence-states": "8ecec0732f07c436c9d99c942b918852307cc6c1fd583d4507216cc8b315c5ac"
+        }
+      },
+      {
+        "id": "legacy-006-09-detail-02",
+        "original_sha256": "9677bbdacd6a9ee0c2618bc378cee2b85c6f939a02bd5fe20f6b6a67e856af2a",
+        "disposition": "rewrite",
+        "beats": [
+          "prod-convergence-plurality",
+          "prod-convergence-failures",
+          "prod-convergence-states"
+        ],
+        "reason": "Retain the nine example states once as dated analysis of an authored composite. The grouped source body is repeated by the inventory for all nine slots; these are not nine independent source observations. Remove invented simultaneity, exact interfaces and all-nine-failed claim. Reviewed action element.",
+        "target_sha256": {
+          "prod-convergence-plurality": "8bacd0d81fcaeac9222923ed972163beb48fbb44de28ab9422aa4c0c44557f93",
+          "prod-convergence-failures": "076eac7c1ebce27a05209a3e5c783302d22c9eb199fe1e1439cbf02e5ac381c6",
+          "prod-convergence-states": "8ecec0732f07c436c9d99c942b918852307cc6c1fd583d4507216cc8b315c5ac"
+        }
+      },
+      {
+        "id": "legacy-006-09-detail-03",
+        "original_sha256": "825d77c93c56bceaeae283cb7f2f8a74cf0b8e80ebb1a0ad2a4c8dcc861fec01",
+        "disposition": "rewrite",
+        "beats": [
+          "prod-convergence-plurality",
+          "prod-convergence-failures",
+          "prod-convergence-states"
+        ],
+        "reason": "Retain the nine example states once as dated analysis of an authored composite. The grouped source body is repeated by the inventory for all nine slots; these are not nine independent source observations. Remove invented simultaneity, exact interfaces and all-nine-failed claim. Reviewed lettering element.",
+        "target_sha256": {
+          "prod-convergence-plurality": "8bacd0d81fcaeac9222923ed972163beb48fbb44de28ab9422aa4c0c44557f93",
+          "prod-convergence-failures": "076eac7c1ebce27a05209a3e5c783302d22c9eb199fe1e1439cbf02e5ac381c6",
+          "prod-convergence-states": "8ecec0732f07c436c9d99c942b918852307cc6c1fd583d4507216cc8b315c5ac"
+        }
+      },
+      {
+        "id": "legacy-006-09-detail-04",
+        "original_sha256": "59dd04140b6c5bfd51be1c1ba6cc05925d9bc98a7e414d73f981d22ef22e9b46",
+        "disposition": "rewrite",
+        "beats": [
+          "prod-convergence-plurality",
+          "prod-convergence-failures",
+          "prod-convergence-states"
+        ],
+        "reason": "Retain the nine example states once as dated analysis of an authored composite. The grouped source body is repeated by the inventory for all nine slots; these are not nine independent source observations. Remove invented simultaneity, exact interfaces and all-nine-failed claim. Reviewed lettering element.",
+        "target_sha256": {
+          "prod-convergence-plurality": "8bacd0d81fcaeac9222923ed972163beb48fbb44de28ab9422aa4c0c44557f93",
+          "prod-convergence-failures": "076eac7c1ebce27a05209a3e5c783302d22c9eb199fe1e1439cbf02e5ac381c6",
+          "prod-convergence-states": "8ecec0732f07c436c9d99c942b918852307cc6c1fd583d4507216cc8b315c5ac"
+        }
+      },
+      {
+        "id": "legacy-006-09-detail-05",
+        "original_sha256": "c0865bdc51d2e07c4a42839f9675569fe54bb1d8e41d7ab57b5dba9045f1ba62",
+        "disposition": "rewrite",
+        "beats": [
+          "prod-convergence-plurality",
+          "prod-convergence-failures",
+          "prod-convergence-states"
+        ],
+        "reason": "Retain the nine example states once as dated analysis of an authored composite. The grouped source body is repeated by the inventory for all nine slots; these are not nine independent source observations. Remove invented simultaneity, exact interfaces and all-nine-failed claim. Reviewed lettering element.",
+        "target_sha256": {
+          "prod-convergence-plurality": "8bacd0d81fcaeac9222923ed972163beb48fbb44de28ab9422aa4c0c44557f93",
+          "prod-convergence-failures": "076eac7c1ebce27a05209a3e5c783302d22c9eb199fe1e1439cbf02e5ac381c6",
+          "prod-convergence-states": "8ecec0732f07c436c9d99c942b918852307cc6c1fd583d4507216cc8b315c5ac"
+        }
+      }
+    ]
+  },
+  {
+    "old_panel": "007-01",
+    "old_edition": "legacy-332b5ed63262",
+    "reviewed_on": "2026-09-13",
+    "status": "elements-reviewed",
+    "elements": [
+      {
+        "id": "legacy-007-01-detail-01",
+        "original_sha256": "c40c743f23f3f8e41fac877f31f6bf10f35ac80c6033666c04f18afebb01910e",
+        "disposition": "rewrite",
+        "beats": [
+          "prod-convergence-resources",
+          "prod-convergence-mechanisms",
+          "prod-convergence-limits"
+        ],
+        "reason": "Retain all six resource categories and their functional argument once as historical draft analysis; do not invent nine simultaneous requests, identical goals, universal need or successful coordination. The inventory repeats the same grouped source body across nine slots. Reviewed frame element.",
+        "target_sha256": {
+          "prod-convergence-resources": "fde34e581e443099eb453b86b27f1aac34523f575055dace03b0e21ac3329575",
+          "prod-convergence-mechanisms": "30e01cb0f8332d0caef6696d5abf1d033d1dc0a1d8c0080147d7a51548a698a6",
+          "prod-convergence-limits": "0912861098024213c01a84b576248c729740467920594197cc4ae11216b171c6"
+        }
+      },
+      {
+        "id": "legacy-007-01-detail-02",
+        "original_sha256": "cf20f5312efe74d81924c569dd31631ab37291bd1e2f606c3dc9c0aa718c75a0",
+        "disposition": "rewrite",
+        "beats": [
+          "prod-convergence-resources",
+          "prod-convergence-mechanisms",
+          "prod-convergence-limits"
+        ],
+        "reason": "Retain all six resource categories and their functional argument once as historical draft analysis; do not invent nine simultaneous requests, identical goals, universal need or successful coordination. The inventory repeats the same grouped source body across nine slots. Reviewed action element.",
+        "target_sha256": {
+          "prod-convergence-resources": "fde34e581e443099eb453b86b27f1aac34523f575055dace03b0e21ac3329575",
+          "prod-convergence-mechanisms": "30e01cb0f8332d0caef6696d5abf1d033d1dc0a1d8c0080147d7a51548a698a6",
+          "prod-convergence-limits": "0912861098024213c01a84b576248c729740467920594197cc4ae11216b171c6"
+        }
+      },
+      {
+        "id": "legacy-007-01-detail-03",
+        "original_sha256": "b245d2ef43646e32abe85c7c0da02e77e07f633f71023b82dab5469dee9a4def",
+        "disposition": "rewrite",
+        "beats": [
+          "prod-convergence-resources",
+          "prod-convergence-mechanisms",
+          "prod-convergence-limits"
+        ],
+        "reason": "Retain all six resource categories and their functional argument once as historical draft analysis; do not invent nine simultaneous requests, identical goals, universal need or successful coordination. The inventory repeats the same grouped source body across nine slots. Reviewed lettering element.",
+        "target_sha256": {
+          "prod-convergence-resources": "fde34e581e443099eb453b86b27f1aac34523f575055dace03b0e21ac3329575",
+          "prod-convergence-mechanisms": "30e01cb0f8332d0caef6696d5abf1d033d1dc0a1d8c0080147d7a51548a698a6",
+          "prod-convergence-limits": "0912861098024213c01a84b576248c729740467920594197cc4ae11216b171c6"
+        }
+      },
+      {
+        "id": "legacy-007-01-detail-04",
+        "original_sha256": "3ffe6e946d15f27f926b914cfb7612d3fa334744f5779f2a2b2791a255736db4",
+        "disposition": "rewrite",
+        "beats": [
+          "prod-convergence-resources",
+          "prod-convergence-mechanisms",
+          "prod-convergence-limits"
+        ],
+        "reason": "Retain all six resource categories and their functional argument once as historical draft analysis; do not invent nine simultaneous requests, identical goals, universal need or successful coordination. The inventory repeats the same grouped source body across nine slots. Reviewed lettering element.",
+        "target_sha256": {
+          "prod-convergence-resources": "fde34e581e443099eb453b86b27f1aac34523f575055dace03b0e21ac3329575",
+          "prod-convergence-mechanisms": "30e01cb0f8332d0caef6696d5abf1d033d1dc0a1d8c0080147d7a51548a698a6",
+          "prod-convergence-limits": "0912861098024213c01a84b576248c729740467920594197cc4ae11216b171c6"
+        }
+      },
+      {
+        "id": "legacy-007-01-detail-05",
+        "original_sha256": "ab6a7798de186956abb9cf5ced9920dffbb26bd1c2fe6d9cc96c34dca5d8253c",
+        "disposition": "rewrite",
+        "beats": [
+          "prod-convergence-resources",
+          "prod-convergence-mechanisms",
+          "prod-convergence-limits"
+        ],
+        "reason": "Retain all six resource categories and their functional argument once as historical draft analysis; do not invent nine simultaneous requests, identical goals, universal need or successful coordination. The inventory repeats the same grouped source body across nine slots. Reviewed lettering element.",
+        "target_sha256": {
+          "prod-convergence-resources": "fde34e581e443099eb453b86b27f1aac34523f575055dace03b0e21ac3329575",
+          "prod-convergence-mechanisms": "30e01cb0f8332d0caef6696d5abf1d033d1dc0a1d8c0080147d7a51548a698a6",
+          "prod-convergence-limits": "0912861098024213c01a84b576248c729740467920594197cc4ae11216b171c6"
+        }
+      }
+    ]
+  },
+  {
+    "old_panel": "007-02",
+    "old_edition": "legacy-332b5ed63262",
+    "reviewed_on": "2026-09-13",
+    "status": "elements-reviewed",
+    "elements": [
+      {
+        "id": "legacy-007-02-detail-01",
+        "original_sha256": "c40c743f23f3f8e41fac877f31f6bf10f35ac80c6033666c04f18afebb01910e",
+        "disposition": "rewrite",
+        "beats": [
+          "prod-convergence-resources",
+          "prod-convergence-mechanisms",
+          "prod-convergence-limits"
+        ],
+        "reason": "Retain all six resource categories and their functional argument once as historical draft analysis; do not invent nine simultaneous requests, identical goals, universal need or successful coordination. The inventory repeats the same grouped source body across nine slots. Reviewed frame element.",
+        "target_sha256": {
+          "prod-convergence-resources": "fde34e581e443099eb453b86b27f1aac34523f575055dace03b0e21ac3329575",
+          "prod-convergence-mechanisms": "30e01cb0f8332d0caef6696d5abf1d033d1dc0a1d8c0080147d7a51548a698a6",
+          "prod-convergence-limits": "0912861098024213c01a84b576248c729740467920594197cc4ae11216b171c6"
+        }
+      },
+      {
+        "id": "legacy-007-02-detail-02",
+        "original_sha256": "cf20f5312efe74d81924c569dd31631ab37291bd1e2f606c3dc9c0aa718c75a0",
+        "disposition": "rewrite",
+        "beats": [
+          "prod-convergence-resources",
+          "prod-convergence-mechanisms",
+          "prod-convergence-limits"
+        ],
+        "reason": "Retain all six resource categories and their functional argument once as historical draft analysis; do not invent nine simultaneous requests, identical goals, universal need or successful coordination. The inventory repeats the same grouped source body across nine slots. Reviewed action element.",
+        "target_sha256": {
+          "prod-convergence-resources": "fde34e581e443099eb453b86b27f1aac34523f575055dace03b0e21ac3329575",
+          "prod-convergence-mechanisms": "30e01cb0f8332d0caef6696d5abf1d033d1dc0a1d8c0080147d7a51548a698a6",
+          "prod-convergence-limits": "0912861098024213c01a84b576248c729740467920594197cc4ae11216b171c6"
+        }
+      },
+      {
+        "id": "legacy-007-02-detail-03",
+        "original_sha256": "b245d2ef43646e32abe85c7c0da02e77e07f633f71023b82dab5469dee9a4def",
+        "disposition": "rewrite",
+        "beats": [
+          "prod-convergence-resources",
+          "prod-convergence-mechanisms",
+          "prod-convergence-limits"
+        ],
+        "reason": "Retain all six resource categories and their functional argument once as historical draft analysis; do not invent nine simultaneous requests, identical goals, universal need or successful coordination. The inventory repeats the same grouped source body across nine slots. Reviewed lettering element.",
+        "target_sha256": {
+          "prod-convergence-resources": "fde34e581e443099eb453b86b27f1aac34523f575055dace03b0e21ac3329575",
+          "prod-convergence-mechanisms": "30e01cb0f8332d0caef6696d5abf1d033d1dc0a1d8c0080147d7a51548a698a6",
+          "prod-convergence-limits": "0912861098024213c01a84b576248c729740467920594197cc4ae11216b171c6"
+        }
+      },
+      {
+        "id": "legacy-007-02-detail-04",
+        "original_sha256": "3ffe6e946d15f27f926b914cfb7612d3fa334744f5779f2a2b2791a255736db4",
+        "disposition": "rewrite",
+        "beats": [
+          "prod-convergence-resources",
+          "prod-convergence-mechanisms",
+          "prod-convergence-limits"
+        ],
+        "reason": "Retain all six resource categories and their functional argument once as historical draft analysis; do not invent nine simultaneous requests, identical goals, universal need or successful coordination. The inventory repeats the same grouped source body across nine slots. Reviewed lettering element.",
+        "target_sha256": {
+          "prod-convergence-resources": "fde34e581e443099eb453b86b27f1aac34523f575055dace03b0e21ac3329575",
+          "prod-convergence-mechanisms": "30e01cb0f8332d0caef6696d5abf1d033d1dc0a1d8c0080147d7a51548a698a6",
+          "prod-convergence-limits": "0912861098024213c01a84b576248c729740467920594197cc4ae11216b171c6"
+        }
+      },
+      {
+        "id": "legacy-007-02-detail-05",
+        "original_sha256": "ab6a7798de186956abb9cf5ced9920dffbb26bd1c2fe6d9cc96c34dca5d8253c",
+        "disposition": "rewrite",
+        "beats": [
+          "prod-convergence-resources",
+          "prod-convergence-mechanisms",
+          "prod-convergence-limits"
+        ],
+        "reason": "Retain all six resource categories and their functional argument once as historical draft analysis; do not invent nine simultaneous requests, identical goals, universal need or successful coordination. The inventory repeats the same grouped source body across nine slots. Reviewed lettering element.",
+        "target_sha256": {
+          "prod-convergence-resources": "fde34e581e443099eb453b86b27f1aac34523f575055dace03b0e21ac3329575",
+          "prod-convergence-mechanisms": "30e01cb0f8332d0caef6696d5abf1d033d1dc0a1d8c0080147d7a51548a698a6",
+          "prod-convergence-limits": "0912861098024213c01a84b576248c729740467920594197cc4ae11216b171c6"
+        }
+      }
+    ]
+  },
+  {
+    "old_panel": "007-03",
+    "old_edition": "legacy-332b5ed63262",
+    "reviewed_on": "2026-09-13",
+    "status": "elements-reviewed",
+    "elements": [
+      {
+        "id": "legacy-007-03-detail-01",
+        "original_sha256": "c40c743f23f3f8e41fac877f31f6bf10f35ac80c6033666c04f18afebb01910e",
+        "disposition": "rewrite",
+        "beats": [
+          "prod-convergence-resources",
+          "prod-convergence-mechanisms",
+          "prod-convergence-limits"
+        ],
+        "reason": "Retain all six resource categories and their functional argument once as historical draft analysis; do not invent nine simultaneous requests, identical goals, universal need or successful coordination. The inventory repeats the same grouped source body across nine slots. Reviewed frame element.",
+        "target_sha256": {
+          "prod-convergence-resources": "fde34e581e443099eb453b86b27f1aac34523f575055dace03b0e21ac3329575",
+          "prod-convergence-mechanisms": "30e01cb0f8332d0caef6696d5abf1d033d1dc0a1d8c0080147d7a51548a698a6",
+          "prod-convergence-limits": "0912861098024213c01a84b576248c729740467920594197cc4ae11216b171c6"
+        }
+      },
+      {
+        "id": "legacy-007-03-detail-02",
+        "original_sha256": "cf20f5312efe74d81924c569dd31631ab37291bd1e2f606c3dc9c0aa718c75a0",
+        "disposition": "rewrite",
+        "beats": [
+          "prod-convergence-resources",
+          "prod-convergence-mechanisms",
+          "prod-convergence-limits"
+        ],
+        "reason": "Retain all six resource categories and their functional argument once as historical draft analysis; do not invent nine simultaneous requests, identical goals, universal need or successful coordination. The inventory repeats the same grouped source body across nine slots. Reviewed action element.",
+        "target_sha256": {
+          "prod-convergence-resources": "fde34e581e443099eb453b86b27f1aac34523f575055dace03b0e21ac3329575",
+          "prod-convergence-mechanisms": "30e01cb0f8332d0caef6696d5abf1d033d1dc0a1d8c0080147d7a51548a698a6",
+          "prod-convergence-limits": "0912861098024213c01a84b576248c729740467920594197cc4ae11216b171c6"
+        }
+      },
+      {
+        "id": "legacy-007-03-detail-03",
+        "original_sha256": "b245d2ef43646e32abe85c7c0da02e77e07f633f71023b82dab5469dee9a4def",
+        "disposition": "rewrite",
+        "beats": [
+          "prod-convergence-resources",
+          "prod-convergence-mechanisms",
+          "prod-convergence-limits"
+        ],
+        "reason": "Retain all six resource categories and their functional argument once as historical draft analysis; do not invent nine simultaneous requests, identical goals, universal need or successful coordination. The inventory repeats the same grouped source body across nine slots. Reviewed lettering element.",
+        "target_sha256": {
+          "prod-convergence-resources": "fde34e581e443099eb453b86b27f1aac34523f575055dace03b0e21ac3329575",
+          "prod-convergence-mechanisms": "30e01cb0f8332d0caef6696d5abf1d033d1dc0a1d8c0080147d7a51548a698a6",
+          "prod-convergence-limits": "0912861098024213c01a84b576248c729740467920594197cc4ae11216b171c6"
+        }
+      },
+      {
+        "id": "legacy-007-03-detail-04",
+        "original_sha256": "3ffe6e946d15f27f926b914cfb7612d3fa334744f5779f2a2b2791a255736db4",
+        "disposition": "rewrite",
+        "beats": [
+          "prod-convergence-resources",
+          "prod-convergence-mechanisms",
+          "prod-convergence-limits"
+        ],
+        "reason": "Retain all six resource categories and their functional argument once as historical draft analysis; do not invent nine simultaneous requests, identical goals, universal need or successful coordination. The inventory repeats the same grouped source body across nine slots. Reviewed lettering element.",
+        "target_sha256": {
+          "prod-convergence-resources": "fde34e581e443099eb453b86b27f1aac34523f575055dace03b0e21ac3329575",
+          "prod-convergence-mechanisms": "30e01cb0f8332d0caef6696d5abf1d033d1dc0a1d8c0080147d7a51548a698a6",
+          "prod-convergence-limits": "0912861098024213c01a84b576248c729740467920594197cc4ae11216b171c6"
+        }
+      },
+      {
+        "id": "legacy-007-03-detail-05",
+        "original_sha256": "ab6a7798de186956abb9cf5ced9920dffbb26bd1c2fe6d9cc96c34dca5d8253c",
+        "disposition": "rewrite",
+        "beats": [
+          "prod-convergence-resources",
+          "prod-convergence-mechanisms",
+          "prod-convergence-limits"
+        ],
+        "reason": "Retain all six resource categories and their functional argument once as historical draft analysis; do not invent nine simultaneous requests, identical goals, universal need or successful coordination. The inventory repeats the same grouped source body across nine slots. Reviewed lettering element.",
+        "target_sha256": {
+          "prod-convergence-resources": "fde34e581e443099eb453b86b27f1aac34523f575055dace03b0e21ac3329575",
+          "prod-convergence-mechanisms": "30e01cb0f8332d0caef6696d5abf1d033d1dc0a1d8c0080147d7a51548a698a6",
+          "prod-convergence-limits": "0912861098024213c01a84b576248c729740467920594197cc4ae11216b171c6"
+        }
+      }
+    ]
+  },
+  {
+    "old_panel": "007-04",
+    "old_edition": "legacy-332b5ed63262",
+    "reviewed_on": "2026-09-13",
+    "status": "elements-reviewed",
+    "elements": [
+      {
+        "id": "legacy-007-04-detail-01",
+        "original_sha256": "c40c743f23f3f8e41fac877f31f6bf10f35ac80c6033666c04f18afebb01910e",
+        "disposition": "rewrite",
+        "beats": [
+          "prod-convergence-resources",
+          "prod-convergence-mechanisms",
+          "prod-convergence-limits"
+        ],
+        "reason": "Retain all six resource categories and their functional argument once as historical draft analysis; do not invent nine simultaneous requests, identical goals, universal need or successful coordination. The inventory repeats the same grouped source body across nine slots. Reviewed frame element.",
+        "target_sha256": {
+          "prod-convergence-resources": "fde34e581e443099eb453b86b27f1aac34523f575055dace03b0e21ac3329575",
+          "prod-convergence-mechanisms": "30e01cb0f8332d0caef6696d5abf1d033d1dc0a1d8c0080147d7a51548a698a6",
+          "prod-convergence-limits": "0912861098024213c01a84b576248c729740467920594197cc4ae11216b171c6"
+        }
+      },
+      {
+        "id": "legacy-007-04-detail-02",
+        "original_sha256": "cf20f5312efe74d81924c569dd31631ab37291bd1e2f606c3dc9c0aa718c75a0",
+        "disposition": "rewrite",
+        "beats": [
+          "prod-convergence-resources",
+          "prod-convergence-mechanisms",
+          "prod-convergence-limits"
+        ],
+        "reason": "Retain all six resource categories and their functional argument once as historical draft analysis; do not invent nine simultaneous requests, identical goals, universal need or successful coordination. The inventory repeats the same grouped source body across nine slots. Reviewed action element.",
+        "target_sha256": {
+          "prod-convergence-resources": "fde34e581e443099eb453b86b27f1aac34523f575055dace03b0e21ac3329575",
+          "prod-convergence-mechanisms": "30e01cb0f8332d0caef6696d5abf1d033d1dc0a1d8c0080147d7a51548a698a6",
+          "prod-convergence-limits": "0912861098024213c01a84b576248c729740467920594197cc4ae11216b171c6"
+        }
+      },
+      {
+        "id": "legacy-007-04-detail-03",
+        "original_sha256": "b245d2ef43646e32abe85c7c0da02e77e07f633f71023b82dab5469dee9a4def",
+        "disposition": "rewrite",
+        "beats": [
+          "prod-convergence-resources",
+          "prod-convergence-mechanisms",
+          "prod-convergence-limits"
+        ],
+        "reason": "Retain all six resource categories and their functional argument once as historical draft analysis; do not invent nine simultaneous requests, identical goals, universal need or successful coordination. The inventory repeats the same grouped source body across nine slots. Reviewed lettering element.",
+        "target_sha256": {
+          "prod-convergence-resources": "fde34e581e443099eb453b86b27f1aac34523f575055dace03b0e21ac3329575",
+          "prod-convergence-mechanisms": "30e01cb0f8332d0caef6696d5abf1d033d1dc0a1d8c0080147d7a51548a698a6",
+          "prod-convergence-limits": "0912861098024213c01a84b576248c729740467920594197cc4ae11216b171c6"
+        }
+      },
+      {
+        "id": "legacy-007-04-detail-04",
+        "original_sha256": "3ffe6e946d15f27f926b914cfb7612d3fa334744f5779f2a2b2791a255736db4",
+        "disposition": "rewrite",
+        "beats": [
+          "prod-convergence-resources",
+          "prod-convergence-mechanisms",
+          "prod-convergence-limits"
+        ],
+        "reason": "Retain all six resource categories and their functional argument once as historical draft analysis; do not invent nine simultaneous requests, identical goals, universal need or successful coordination. The inventory repeats the same grouped source body across nine slots. Reviewed lettering element.",
+        "target_sha256": {
+          "prod-convergence-resources": "fde34e581e443099eb453b86b27f1aac34523f575055dace03b0e21ac3329575",
+          "prod-convergence-mechanisms": "30e01cb0f8332d0caef6696d5abf1d033d1dc0a1d8c0080147d7a51548a698a6",
+          "prod-convergence-limits": "0912861098024213c01a84b576248c729740467920594197cc4ae11216b171c6"
+        }
+      },
+      {
+        "id": "legacy-007-04-detail-05",
+        "original_sha256": "ab6a7798de186956abb9cf5ced9920dffbb26bd1c2fe6d9cc96c34dca5d8253c",
+        "disposition": "rewrite",
+        "beats": [
+          "prod-convergence-resources",
+          "prod-convergence-mechanisms",
+          "prod-convergence-limits"
+        ],
+        "reason": "Retain all six resource categories and their functional argument once as historical draft analysis; do not invent nine simultaneous requests, identical goals, universal need or successful coordination. The inventory repeats the same grouped source body across nine slots. Reviewed lettering element.",
+        "target_sha256": {
+          "prod-convergence-resources": "fde34e581e443099eb453b86b27f1aac34523f575055dace03b0e21ac3329575",
+          "prod-convergence-mechanisms": "30e01cb0f8332d0caef6696d5abf1d033d1dc0a1d8c0080147d7a51548a698a6",
+          "prod-convergence-limits": "0912861098024213c01a84b576248c729740467920594197cc4ae11216b171c6"
+        }
+      }
+    ]
+  },
+  {
+    "old_panel": "007-05",
+    "old_edition": "legacy-332b5ed63262",
+    "reviewed_on": "2026-09-13",
+    "status": "elements-reviewed",
+    "elements": [
+      {
+        "id": "legacy-007-05-detail-01",
+        "original_sha256": "c40c743f23f3f8e41fac877f31f6bf10f35ac80c6033666c04f18afebb01910e",
+        "disposition": "rewrite",
+        "beats": [
+          "prod-convergence-resources",
+          "prod-convergence-mechanisms",
+          "prod-convergence-limits"
+        ],
+        "reason": "Retain all six resource categories and their functional argument once as historical draft analysis; do not invent nine simultaneous requests, identical goals, universal need or successful coordination. The inventory repeats the same grouped source body across nine slots. Reviewed frame element.",
+        "target_sha256": {
+          "prod-convergence-resources": "fde34e581e443099eb453b86b27f1aac34523f575055dace03b0e21ac3329575",
+          "prod-convergence-mechanisms": "30e01cb0f8332d0caef6696d5abf1d033d1dc0a1d8c0080147d7a51548a698a6",
+          "prod-convergence-limits": "0912861098024213c01a84b576248c729740467920594197cc4ae11216b171c6"
+        }
+      },
+      {
+        "id": "legacy-007-05-detail-02",
+        "original_sha256": "cf20f5312efe74d81924c569dd31631ab37291bd1e2f606c3dc9c0aa718c75a0",
+        "disposition": "rewrite",
+        "beats": [
+          "prod-convergence-resources",
+          "prod-convergence-mechanisms",
+          "prod-convergence-limits"
+        ],
+        "reason": "Retain all six resource categories and their functional argument once as historical draft analysis; do not invent nine simultaneous requests, identical goals, universal need or successful coordination. The inventory repeats the same grouped source body across nine slots. Reviewed action element.",
+        "target_sha256": {
+          "prod-convergence-resources": "fde34e581e443099eb453b86b27f1aac34523f575055dace03b0e21ac3329575",
+          "prod-convergence-mechanisms": "30e01cb0f8332d0caef6696d5abf1d033d1dc0a1d8c0080147d7a51548a698a6",
+          "prod-convergence-limits": "0912861098024213c01a84b576248c729740467920594197cc4ae11216b171c6"
+        }
+      },
+      {
+        "id": "legacy-007-05-detail-03",
+        "original_sha256": "b245d2ef43646e32abe85c7c0da02e77e07f633f71023b82dab5469dee9a4def",
+        "disposition": "rewrite",
+        "beats": [
+          "prod-convergence-resources",
+          "prod-convergence-mechanisms",
+          "prod-convergence-limits"
+        ],
+        "reason": "Retain all six resource categories and their functional argument once as historical draft analysis; do not invent nine simultaneous requests, identical goals, universal need or successful coordination. The inventory repeats the same grouped source body across nine slots. Reviewed lettering element.",
+        "target_sha256": {
+          "prod-convergence-resources": "fde34e581e443099eb453b86b27f1aac34523f575055dace03b0e21ac3329575",
+          "prod-convergence-mechanisms": "30e01cb0f8332d0caef6696d5abf1d033d1dc0a1d8c0080147d7a51548a698a6",
+          "prod-convergence-limits": "0912861098024213c01a84b576248c729740467920594197cc4ae11216b171c6"
+        }
+      },
+      {
+        "id": "legacy-007-05-detail-04",
+        "original_sha256": "3ffe6e946d15f27f926b914cfb7612d3fa334744f5779f2a2b2791a255736db4",
+        "disposition": "rewrite",
+        "beats": [
+          "prod-convergence-resources",
+          "prod-convergence-mechanisms",
+          "prod-convergence-limits"
+        ],
+        "reason": "Retain all six resource categories and their functional argument once as historical draft analysis; do not invent nine simultaneous requests, identical goals, universal need or successful coordination. The inventory repeats the same grouped source body across nine slots. Reviewed lettering element.",
+        "target_sha256": {
+          "prod-convergence-resources": "fde34e581e443099eb453b86b27f1aac34523f575055dace03b0e21ac3329575",
+          "prod-convergence-mechanisms": "30e01cb0f8332d0caef6696d5abf1d033d1dc0a1d8c0080147d7a51548a698a6",
+          "prod-convergence-limits": "0912861098024213c01a84b576248c729740467920594197cc4ae11216b171c6"
+        }
+      },
+      {
+        "id": "legacy-007-05-detail-05",
+        "original_sha256": "ab6a7798de186956abb9cf5ced9920dffbb26bd1c2fe6d9cc96c34dca5d8253c",
+        "disposition": "rewrite",
+        "beats": [
+          "prod-convergence-resources",
+          "prod-convergence-mechanisms",
+          "prod-convergence-limits"
+        ],
+        "reason": "Retain all six resource categories and their functional argument once as historical draft analysis; do not invent nine simultaneous requests, identical goals, universal need or successful coordination. The inventory repeats the same grouped source body across nine slots. Reviewed lettering element.",
+        "target_sha256": {
+          "prod-convergence-resources": "fde34e581e443099eb453b86b27f1aac34523f575055dace03b0e21ac3329575",
+          "prod-convergence-mechanisms": "30e01cb0f8332d0caef6696d5abf1d033d1dc0a1d8c0080147d7a51548a698a6",
+          "prod-convergence-limits": "0912861098024213c01a84b576248c729740467920594197cc4ae11216b171c6"
+        }
+      }
+    ]
+  },
+  {
+    "old_panel": "007-06",
+    "old_edition": "legacy-332b5ed63262",
+    "reviewed_on": "2026-09-13",
+    "status": "elements-reviewed",
+    "elements": [
+      {
+        "id": "legacy-007-06-detail-01",
+        "original_sha256": "c40c743f23f3f8e41fac877f31f6bf10f35ac80c6033666c04f18afebb01910e",
+        "disposition": "rewrite",
+        "beats": [
+          "prod-convergence-resources",
+          "prod-convergence-mechanisms",
+          "prod-convergence-limits"
+        ],
+        "reason": "Retain all six resource categories and their functional argument once as historical draft analysis; do not invent nine simultaneous requests, identical goals, universal need or successful coordination. The inventory repeats the same grouped source body across nine slots. Reviewed frame element.",
+        "target_sha256": {
+          "prod-convergence-resources": "fde34e581e443099eb453b86b27f1aac34523f575055dace03b0e21ac3329575",
+          "prod-convergence-mechanisms": "30e01cb0f8332d0caef6696d5abf1d033d1dc0a1d8c0080147d7a51548a698a6",
+          "prod-convergence-limits": "0912861098024213c01a84b576248c729740467920594197cc4ae11216b171c6"
+        }
+      },
+      {
+        "id": "legacy-007-06-detail-02",
+        "original_sha256": "cf20f5312efe74d81924c569dd31631ab37291bd1e2f606c3dc9c0aa718c75a0",
+        "disposition": "rewrite",
+        "beats": [
+          "prod-convergence-resources",
+          "prod-convergence-mechanisms",
+          "prod-convergence-limits"
+        ],
+        "reason": "Retain all six resource categories and their functional argument once as historical draft analysis; do not invent nine simultaneous requests, identical goals, universal need or successful coordination. The inventory repeats the same grouped source body across nine slots. Reviewed action element.",
+        "target_sha256": {
+          "prod-convergence-resources": "fde34e581e443099eb453b86b27f1aac34523f575055dace03b0e21ac3329575",
+          "prod-convergence-mechanisms": "30e01cb0f8332d0caef6696d5abf1d033d1dc0a1d8c0080147d7a51548a698a6",
+          "prod-convergence-limits": "0912861098024213c01a84b576248c729740467920594197cc4ae11216b171c6"
+        }
+      },
+      {
+        "id": "legacy-007-06-detail-03",
+        "original_sha256": "b245d2ef43646e32abe85c7c0da02e77e07f633f71023b82dab5469dee9a4def",
+        "disposition": "rewrite",
+        "beats": [
+          "prod-convergence-resources",
+          "prod-convergence-mechanisms",
+          "prod-convergence-limits"
+        ],
+        "reason": "Retain all six resource categories and their functional argument once as historical draft analysis; do not invent nine simultaneous requests, identical goals, universal need or successful coordination. The inventory repeats the same grouped source body across nine slots. Reviewed lettering element.",
+        "target_sha256": {
+          "prod-convergence-resources": "fde34e581e443099eb453b86b27f1aac34523f575055dace03b0e21ac3329575",
+          "prod-convergence-mechanisms": "30e01cb0f8332d0caef6696d5abf1d033d1dc0a1d8c0080147d7a51548a698a6",
+          "prod-convergence-limits": "0912861098024213c01a84b576248c729740467920594197cc4ae11216b171c6"
+        }
+      },
+      {
+        "id": "legacy-007-06-detail-04",
+        "original_sha256": "3ffe6e946d15f27f926b914cfb7612d3fa334744f5779f2a2b2791a255736db4",
+        "disposition": "rewrite",
+        "beats": [
+          "prod-convergence-resources",
+          "prod-convergence-mechanisms",
+          "prod-convergence-limits"
+        ],
+        "reason": "Retain all six resource categories and their functional argument once as historical draft analysis; do not invent nine simultaneous requests, identical goals, universal need or successful coordination. The inventory repeats the same grouped source body across nine slots. Reviewed lettering element.",
+        "target_sha256": {
+          "prod-convergence-resources": "fde34e581e443099eb453b86b27f1aac34523f575055dace03b0e21ac3329575",
+          "prod-convergence-mechanisms": "30e01cb0f8332d0caef6696d5abf1d033d1dc0a1d8c0080147d7a51548a698a6",
+          "prod-convergence-limits": "0912861098024213c01a84b576248c729740467920594197cc4ae11216b171c6"
+        }
+      },
+      {
+        "id": "legacy-007-06-detail-05",
+        "original_sha256": "ab6a7798de186956abb9cf5ced9920dffbb26bd1c2fe6d9cc96c34dca5d8253c",
+        "disposition": "rewrite",
+        "beats": [
+          "prod-convergence-resources",
+          "prod-convergence-mechanisms",
+          "prod-convergence-limits"
+        ],
+        "reason": "Retain all six resource categories and their functional argument once as historical draft analysis; do not invent nine simultaneous requests, identical goals, universal need or successful coordination. The inventory repeats the same grouped source body across nine slots. Reviewed lettering element.",
+        "target_sha256": {
+          "prod-convergence-resources": "fde34e581e443099eb453b86b27f1aac34523f575055dace03b0e21ac3329575",
+          "prod-convergence-mechanisms": "30e01cb0f8332d0caef6696d5abf1d033d1dc0a1d8c0080147d7a51548a698a6",
+          "prod-convergence-limits": "0912861098024213c01a84b576248c729740467920594197cc4ae11216b171c6"
+        }
+      }
+    ]
+  },
+  {
+    "old_panel": "007-07",
+    "old_edition": "legacy-332b5ed63262",
+    "reviewed_on": "2026-09-13",
+    "status": "elements-reviewed",
+    "elements": [
+      {
+        "id": "legacy-007-07-detail-01",
+        "original_sha256": "c40c743f23f3f8e41fac877f31f6bf10f35ac80c6033666c04f18afebb01910e",
+        "disposition": "rewrite",
+        "beats": [
+          "prod-convergence-resources",
+          "prod-convergence-mechanisms",
+          "prod-convergence-limits"
+        ],
+        "reason": "Retain all six resource categories and their functional argument once as historical draft analysis; do not invent nine simultaneous requests, identical goals, universal need or successful coordination. The inventory repeats the same grouped source body across nine slots. Reviewed frame element.",
+        "target_sha256": {
+          "prod-convergence-resources": "fde34e581e443099eb453b86b27f1aac34523f575055dace03b0e21ac3329575",
+          "prod-convergence-mechanisms": "30e01cb0f8332d0caef6696d5abf1d033d1dc0a1d8c0080147d7a51548a698a6",
+          "prod-convergence-limits": "0912861098024213c01a84b576248c729740467920594197cc4ae11216b171c6"
+        }
+      },
+      {
+        "id": "legacy-007-07-detail-02",
+        "original_sha256": "cf20f5312efe74d81924c569dd31631ab37291bd1e2f606c3dc9c0aa718c75a0",
+        "disposition": "rewrite",
+        "beats": [
+          "prod-convergence-resources",
+          "prod-convergence-mechanisms",
+          "prod-convergence-limits"
+        ],
+        "reason": "Retain all six resource categories and their functional argument once as historical draft analysis; do not invent nine simultaneous requests, identical goals, universal need or successful coordination. The inventory repeats the same grouped source body across nine slots. Reviewed action element.",
+        "target_sha256": {
+          "prod-convergence-resources": "fde34e581e443099eb453b86b27f1aac34523f575055dace03b0e21ac3329575",
+          "prod-convergence-mechanisms": "30e01cb0f8332d0caef6696d5abf1d033d1dc0a1d8c0080147d7a51548a698a6",
+          "prod-convergence-limits": "0912861098024213c01a84b576248c729740467920594197cc4ae11216b171c6"
+        }
+      },
+      {
+        "id": "legacy-007-07-detail-03",
+        "original_sha256": "b245d2ef43646e32abe85c7c0da02e77e07f633f71023b82dab5469dee9a4def",
+        "disposition": "rewrite",
+        "beats": [
+          "prod-convergence-resources",
+          "prod-convergence-mechanisms",
+          "prod-convergence-limits"
+        ],
+        "reason": "Retain all six resource categories and their functional argument once as historical draft analysis; do not invent nine simultaneous requests, identical goals, universal need or successful coordination. The inventory repeats the same grouped source body across nine slots. Reviewed lettering element.",
+        "target_sha256": {
+          "prod-convergence-resources": "fde34e581e443099eb453b86b27f1aac34523f575055dace03b0e21ac3329575",
+          "prod-convergence-mechanisms": "30e01cb0f8332d0caef6696d5abf1d033d1dc0a1d8c0080147d7a51548a698a6",
+          "prod-convergence-limits": "0912861098024213c01a84b576248c729740467920594197cc4ae11216b171c6"
+        }
+      },
+      {
+        "id": "legacy-007-07-detail-04",
+        "original_sha256": "3ffe6e946d15f27f926b914cfb7612d3fa334744f5779f2a2b2791a255736db4",
+        "disposition": "rewrite",
+        "beats": [
+          "prod-convergence-resources",
+          "prod-convergence-mechanisms",
+          "prod-convergence-limits"
+        ],
+        "reason": "Retain all six resource categories and their functional argument once as historical draft analysis; do not invent nine simultaneous requests, identical goals, universal need or successful coordination. The inventory repeats the same grouped source body across nine slots. Reviewed lettering element.",
+        "target_sha256": {
+          "prod-convergence-resources": "fde34e581e443099eb453b86b27f1aac34523f575055dace03b0e21ac3329575",
+          "prod-convergence-mechanisms": "30e01cb0f8332d0caef6696d5abf1d033d1dc0a1d8c0080147d7a51548a698a6",
+          "prod-convergence-limits": "0912861098024213c01a84b576248c729740467920594197cc4ae11216b171c6"
+        }
+      },
+      {
+        "id": "legacy-007-07-detail-05",
+        "original_sha256": "ab6a7798de186956abb9cf5ced9920dffbb26bd1c2fe6d9cc96c34dca5d8253c",
+        "disposition": "rewrite",
+        "beats": [
+          "prod-convergence-resources",
+          "prod-convergence-mechanisms",
+          "prod-convergence-limits"
+        ],
+        "reason": "Retain all six resource categories and their functional argument once as historical draft analysis; do not invent nine simultaneous requests, identical goals, universal need or successful coordination. The inventory repeats the same grouped source body across nine slots. Reviewed lettering element.",
+        "target_sha256": {
+          "prod-convergence-resources": "fde34e581e443099eb453b86b27f1aac34523f575055dace03b0e21ac3329575",
+          "prod-convergence-mechanisms": "30e01cb0f8332d0caef6696d5abf1d033d1dc0a1d8c0080147d7a51548a698a6",
+          "prod-convergence-limits": "0912861098024213c01a84b576248c729740467920594197cc4ae11216b171c6"
+        }
+      }
+    ]
+  },
+  {
+    "old_panel": "007-08",
+    "old_edition": "legacy-332b5ed63262",
+    "reviewed_on": "2026-09-13",
+    "status": "elements-reviewed",
+    "elements": [
+      {
+        "id": "legacy-007-08-detail-01",
+        "original_sha256": "c40c743f23f3f8e41fac877f31f6bf10f35ac80c6033666c04f18afebb01910e",
+        "disposition": "rewrite",
+        "beats": [
+          "prod-convergence-resources",
+          "prod-convergence-mechanisms",
+          "prod-convergence-limits"
+        ],
+        "reason": "Retain all six resource categories and their functional argument once as historical draft analysis; do not invent nine simultaneous requests, identical goals, universal need or successful coordination. The inventory repeats the same grouped source body across nine slots. Reviewed frame element.",
+        "target_sha256": {
+          "prod-convergence-resources": "fde34e581e443099eb453b86b27f1aac34523f575055dace03b0e21ac3329575",
+          "prod-convergence-mechanisms": "30e01cb0f8332d0caef6696d5abf1d033d1dc0a1d8c0080147d7a51548a698a6",
+          "prod-convergence-limits": "0912861098024213c01a84b576248c729740467920594197cc4ae11216b171c6"
+        }
+      },
+      {
+        "id": "legacy-007-08-detail-02",
+        "original_sha256": "cf20f5312efe74d81924c569dd31631ab37291bd1e2f606c3dc9c0aa718c75a0",
+        "disposition": "rewrite",
+        "beats": [
+          "prod-convergence-resources",
+          "prod-convergence-mechanisms",
+          "prod-convergence-limits"
+        ],
+        "reason": "Retain all six resource categories and their functional argument once as historical draft analysis; do not invent nine simultaneous requests, identical goals, universal need or successful coordination. The inventory repeats the same grouped source body across nine slots. Reviewed action element.",
+        "target_sha256": {
+          "prod-convergence-resources": "fde34e581e443099eb453b86b27f1aac34523f575055dace03b0e21ac3329575",
+          "prod-convergence-mechanisms": "30e01cb0f8332d0caef6696d5abf1d033d1dc0a1d8c0080147d7a51548a698a6",
+          "prod-convergence-limits": "0912861098024213c01a84b576248c729740467920594197cc4ae11216b171c6"
+        }
+      },
+      {
+        "id": "legacy-007-08-detail-03",
+        "original_sha256": "b245d2ef43646e32abe85c7c0da02e77e07f633f71023b82dab5469dee9a4def",
+        "disposition": "rewrite",
+        "beats": [
+          "prod-convergence-resources",
+          "prod-convergence-mechanisms",
+          "prod-convergence-limits"
+        ],
+        "reason": "Retain all six resource categories and their functional argument once as historical draft analysis; do not invent nine simultaneous requests, identical goals, universal need or successful coordination. The inventory repeats the same grouped source body across nine slots. Reviewed lettering element.",
+        "target_sha256": {
+          "prod-convergence-resources": "fde34e581e443099eb453b86b27f1aac34523f575055dace03b0e21ac3329575",
+          "prod-convergence-mechanisms": "30e01cb0f8332d0caef6696d5abf1d033d1dc0a1d8c0080147d7a51548a698a6",
+          "prod-convergence-limits": "0912861098024213c01a84b576248c729740467920594197cc4ae11216b171c6"
+        }
+      },
+      {
+        "id": "legacy-007-08-detail-04",
+        "original_sha256": "3ffe6e946d15f27f926b914cfb7612d3fa334744f5779f2a2b2791a255736db4",
+        "disposition": "rewrite",
+        "beats": [
+          "prod-convergence-resources",
+          "prod-convergence-mechanisms",
+          "prod-convergence-limits"
+        ],
+        "reason": "Retain all six resource categories and their functional argument once as historical draft analysis; do not invent nine simultaneous requests, identical goals, universal need or successful coordination. The inventory repeats the same grouped source body across nine slots. Reviewed lettering element.",
+        "target_sha256": {
+          "prod-convergence-resources": "fde34e581e443099eb453b86b27f1aac34523f575055dace03b0e21ac3329575",
+          "prod-convergence-mechanisms": "30e01cb0f8332d0caef6696d5abf1d033d1dc0a1d8c0080147d7a51548a698a6",
+          "prod-convergence-limits": "0912861098024213c01a84b576248c729740467920594197cc4ae11216b171c6"
+        }
+      },
+      {
+        "id": "legacy-007-08-detail-05",
+        "original_sha256": "ab6a7798de186956abb9cf5ced9920dffbb26bd1c2fe6d9cc96c34dca5d8253c",
+        "disposition": "rewrite",
+        "beats": [
+          "prod-convergence-resources",
+          "prod-convergence-mechanisms",
+          "prod-convergence-limits"
+        ],
+        "reason": "Retain all six resource categories and their functional argument once as historical draft analysis; do not invent nine simultaneous requests, identical goals, universal need or successful coordination. The inventory repeats the same grouped source body across nine slots. Reviewed lettering element.",
+        "target_sha256": {
+          "prod-convergence-resources": "fde34e581e443099eb453b86b27f1aac34523f575055dace03b0e21ac3329575",
+          "prod-convergence-mechanisms": "30e01cb0f8332d0caef6696d5abf1d033d1dc0a1d8c0080147d7a51548a698a6",
+          "prod-convergence-limits": "0912861098024213c01a84b576248c729740467920594197cc4ae11216b171c6"
+        }
+      }
+    ]
+  },
+  {
+    "old_panel": "007-09",
+    "old_edition": "legacy-332b5ed63262",
+    "reviewed_on": "2026-09-13",
+    "status": "elements-reviewed",
+    "elements": [
+      {
+        "id": "legacy-007-09-detail-01",
+        "original_sha256": "c40c743f23f3f8e41fac877f31f6bf10f35ac80c6033666c04f18afebb01910e",
+        "disposition": "rewrite",
+        "beats": [
+          "prod-convergence-resources",
+          "prod-convergence-mechanisms",
+          "prod-convergence-limits"
+        ],
+        "reason": "Retain all six resource categories and their functional argument once as historical draft analysis; do not invent nine simultaneous requests, identical goals, universal need or successful coordination. The inventory repeats the same grouped source body across nine slots. Reviewed frame element.",
+        "target_sha256": {
+          "prod-convergence-resources": "fde34e581e443099eb453b86b27f1aac34523f575055dace03b0e21ac3329575",
+          "prod-convergence-mechanisms": "30e01cb0f8332d0caef6696d5abf1d033d1dc0a1d8c0080147d7a51548a698a6",
+          "prod-convergence-limits": "0912861098024213c01a84b576248c729740467920594197cc4ae11216b171c6"
+        }
+      },
+      {
+        "id": "legacy-007-09-detail-02",
+        "original_sha256": "cf20f5312efe74d81924c569dd31631ab37291bd1e2f606c3dc9c0aa718c75a0",
+        "disposition": "rewrite",
+        "beats": [
+          "prod-convergence-resources",
+          "prod-convergence-mechanisms",
+          "prod-convergence-limits"
+        ],
+        "reason": "Retain all six resource categories and their functional argument once as historical draft analysis; do not invent nine simultaneous requests, identical goals, universal need or successful coordination. The inventory repeats the same grouped source body across nine slots. Reviewed action element.",
+        "target_sha256": {
+          "prod-convergence-resources": "fde34e581e443099eb453b86b27f1aac34523f575055dace03b0e21ac3329575",
+          "prod-convergence-mechanisms": "30e01cb0f8332d0caef6696d5abf1d033d1dc0a1d8c0080147d7a51548a698a6",
+          "prod-convergence-limits": "0912861098024213c01a84b576248c729740467920594197cc4ae11216b171c6"
+        }
+      },
+      {
+        "id": "legacy-007-09-detail-03",
+        "original_sha256": "b245d2ef43646e32abe85c7c0da02e77e07f633f71023b82dab5469dee9a4def",
+        "disposition": "rewrite",
+        "beats": [
+          "prod-convergence-resources",
+          "prod-convergence-mechanisms",
+          "prod-convergence-limits"
+        ],
+        "reason": "Retain all six resource categories and their functional argument once as historical draft analysis; do not invent nine simultaneous requests, identical goals, universal need or successful coordination. The inventory repeats the same grouped source body across nine slots. Reviewed lettering element.",
+        "target_sha256": {
+          "prod-convergence-resources": "fde34e581e443099eb453b86b27f1aac34523f575055dace03b0e21ac3329575",
+          "prod-convergence-mechanisms": "30e01cb0f8332d0caef6696d5abf1d033d1dc0a1d8c0080147d7a51548a698a6",
+          "prod-convergence-limits": "0912861098024213c01a84b576248c729740467920594197cc4ae11216b171c6"
+        }
+      },
+      {
+        "id": "legacy-007-09-detail-04",
+        "original_sha256": "3ffe6e946d15f27f926b914cfb7612d3fa334744f5779f2a2b2791a255736db4",
+        "disposition": "rewrite",
+        "beats": [
+          "prod-convergence-resources",
+          "prod-convergence-mechanisms",
+          "prod-convergence-limits"
+        ],
+        "reason": "Retain all six resource categories and their functional argument once as historical draft analysis; do not invent nine simultaneous requests, identical goals, universal need or successful coordination. The inventory repeats the same grouped source body across nine slots. Reviewed lettering element.",
+        "target_sha256": {
+          "prod-convergence-resources": "fde34e581e443099eb453b86b27f1aac34523f575055dace03b0e21ac3329575",
+          "prod-convergence-mechanisms": "30e01cb0f8332d0caef6696d5abf1d033d1dc0a1d8c0080147d7a51548a698a6",
+          "prod-convergence-limits": "0912861098024213c01a84b576248c729740467920594197cc4ae11216b171c6"
+        }
+      },
+      {
+        "id": "legacy-007-09-detail-05",
+        "original_sha256": "ab6a7798de186956abb9cf5ced9920dffbb26bd1c2fe6d9cc96c34dca5d8253c",
+        "disposition": "rewrite",
+        "beats": [
+          "prod-convergence-resources",
+          "prod-convergence-mechanisms",
+          "prod-convergence-limits"
+        ],
+        "reason": "Retain all six resource categories and their functional argument once as historical draft analysis; do not invent nine simultaneous requests, identical goals, universal need or successful coordination. The inventory repeats the same grouped source body across nine slots. Reviewed lettering element.",
+        "target_sha256": {
+          "prod-convergence-resources": "fde34e581e443099eb453b86b27f1aac34523f575055dace03b0e21ac3329575",
+          "prod-convergence-mechanisms": "30e01cb0f8332d0caef6696d5abf1d033d1dc0a1d8c0080147d7a51548a698a6",
+          "prod-convergence-limits": "0912861098024213c01a84b576248c729740467920594197cc4ae11216b171c6"
+        }
+      }
+    ]
+  },
+  {
+    "old_panel": "008-01",
+    "old_edition": "legacy-332b5ed63262",
+    "reviewed_on": "2026-09-13",
+    "status": "elements-reviewed",
+    "elements": [
+      {
+        "id": "legacy-008-01-detail-01",
+        "original_sha256": "b67cf04404778c13b4be88090376c6b501f5d78a76aab53d4996648bcd1f104a",
+        "disposition": "rewrite",
+        "beats": [
+          "july-flag-hypothesis-proposal"
+        ],
+        "reason": "Keep proposal, publication, later extraction and comparison, reported match and bounded generality distinct. Only the proposal is first-hour evidence; no derived flag recipe, fabricated grader screen or every-task completion is shown. Reviewed frame element.",
+        "target_sha256": {
+          "july-flag-hypothesis-proposal": "2b47d620b1254c8ab45c8ecac63a91195649a7981a9028591f89857a90b12573"
+        }
+      },
+      {
+        "id": "legacy-008-01-detail-02",
+        "original_sha256": "4559ee5fc3537cbf09d56feb1cf1c11fd58694e71dfc44533f7a16398437acdf",
+        "disposition": "rewrite",
+        "beats": [
+          "july-flag-hypothesis-proposal"
+        ],
+        "reason": "Keep proposal, publication, later extraction and comparison, reported match and bounded generality distinct. Only the proposal is first-hour evidence; no derived flag recipe, fabricated grader screen or every-task completion is shown. Reviewed action element.",
+        "target_sha256": {
+          "july-flag-hypothesis-proposal": "2b47d620b1254c8ab45c8ecac63a91195649a7981a9028591f89857a90b12573"
+        }
+      },
+      {
+        "id": "legacy-008-01-detail-03",
+        "original_sha256": "790cc52f153d7f62269a1577627ad1592382542a85f2d5247e730b4808ce4145",
+        "disposition": "rewrite",
+        "beats": [
+          "july-flag-hypothesis-proposal"
+        ],
+        "reason": "Keep proposal, publication, later extraction and comparison, reported match and bounded generality distinct. Only the proposal is first-hour evidence; no derived flag recipe, fabricated grader screen or every-task completion is shown. Reviewed lettering element.",
+        "target_sha256": {
+          "july-flag-hypothesis-proposal": "2b47d620b1254c8ab45c8ecac63a91195649a7981a9028591f89857a90b12573"
+        }
+      }
+    ]
+  },
+  {
+    "old_panel": "008-02",
+    "old_edition": "legacy-332b5ed63262",
+    "reviewed_on": "2026-09-13",
+    "status": "elements-reviewed",
+    "elements": [
+      {
+        "id": "legacy-008-02-detail-01",
+        "original_sha256": "10b369a3cacb05f51fee530c68ff9b91bdedf65f19f48738d68ae3d7ecf76bfb",
+        "disposition": "rewrite",
+        "beats": [
+          "july-flag-hypothesis-shared"
+        ],
+        "reason": "Keep proposal, publication, later extraction and comparison, reported match and bounded generality distinct. Only the proposal is first-hour evidence; no derived flag recipe, fabricated grader screen or every-task completion is shown. Reviewed frame element.",
+        "target_sha256": {
+          "july-flag-hypothesis-shared": "ccfb1492502b4e41e4b4ad1776e9d5930fedea6fe22100aeb32bc5938d39591e"
+        }
+      },
+      {
+        "id": "legacy-008-02-detail-02",
+        "original_sha256": "a3507a98a23e324d5c6cf9e7a26af93ba23809db9f427fa8a2b28c6febf32cef",
+        "disposition": "rewrite",
+        "beats": [
+          "july-flag-hypothesis-shared"
+        ],
+        "reason": "Keep proposal, publication, later extraction and comparison, reported match and bounded generality distinct. Only the proposal is first-hour evidence; no derived flag recipe, fabricated grader screen or every-task completion is shown. Reviewed action element.",
+        "target_sha256": {
+          "july-flag-hypothesis-shared": "ccfb1492502b4e41e4b4ad1776e9d5930fedea6fe22100aeb32bc5938d39591e"
+        }
+      },
+      {
+        "id": "legacy-008-02-detail-03",
+        "original_sha256": "a3a948dc0a038469c3100f97a6d2efea78e9835e2c294f15e298d9263dd3e60a",
+        "disposition": "rewrite",
+        "beats": [
+          "july-flag-hypothesis-shared"
+        ],
+        "reason": "Keep proposal, publication, later extraction and comparison, reported match and bounded generality distinct. Only the proposal is first-hour evidence; no derived flag recipe, fabricated grader screen or every-task completion is shown. Reviewed lettering element.",
+        "target_sha256": {
+          "july-flag-hypothesis-shared": "ccfb1492502b4e41e4b4ad1776e9d5930fedea6fe22100aeb32bc5938d39591e"
+        }
+      }
+    ]
+  },
+  {
+    "old_panel": "008-03",
+    "old_edition": "legacy-332b5ed63262",
+    "reviewed_on": "2026-09-13",
+    "status": "elements-reviewed",
+    "elements": [
+      {
+        "id": "legacy-008-03-detail-01",
+        "original_sha256": "2b1d1196e39974b1bbf9ed8758d9987968bd59889f83c8c4f9c93069ca7ce0d2",
+        "disposition": "rewrite",
+        "beats": [
+          "july-flag-hypothesis-test"
+        ],
+        "reason": "Keep proposal, publication, later extraction and comparison, reported match and bounded generality distinct. Only the proposal is first-hour evidence; no derived flag recipe, fabricated grader screen or every-task completion is shown. Reviewed frame element.",
+        "target_sha256": {
+          "july-flag-hypothesis-test": "6ce2c35cc5579c1dd1259d4085a79ed531ef9381718b5f89bd5199b93f688e75"
+        }
+      },
+      {
+        "id": "legacy-008-03-detail-02",
+        "original_sha256": "2bb303f87474f8c16f11ee8e04230c2c6345f5cfb76511e1a3d0dbdccc95903e",
+        "disposition": "rewrite",
+        "beats": [
+          "july-flag-hypothesis-test"
+        ],
+        "reason": "Keep proposal, publication, later extraction and comparison, reported match and bounded generality distinct. Only the proposal is first-hour evidence; no derived flag recipe, fabricated grader screen or every-task completion is shown. Reviewed action element.",
+        "target_sha256": {
+          "july-flag-hypothesis-test": "6ce2c35cc5579c1dd1259d4085a79ed531ef9381718b5f89bd5199b93f688e75"
+        }
+      }
+    ]
+  },
+  {
+    "old_panel": "008-04",
+    "old_edition": "legacy-332b5ed63262",
+    "reviewed_on": "2026-09-13",
+    "status": "elements-reviewed",
+    "elements": [
+      {
+        "id": "legacy-008-04-detail-01",
+        "original_sha256": "9a444f3949f350f459b490aab0bba9d14f2715edebbfde22d7b5e016e96a0667",
+        "disposition": "rewrite",
+        "beats": [
+          "july-flag-hypothesis-match"
+        ],
+        "reason": "Keep proposal, publication, later extraction and comparison, reported match and bounded generality distinct. Only the proposal is first-hour evidence; no derived flag recipe, fabricated grader screen or every-task completion is shown. Reviewed frame element.",
+        "target_sha256": {
+          "july-flag-hypothesis-match": "1c7e23627bba7e275129ceb5925a18212b8b3877ab15b40e36b780519042b62f"
+        }
+      },
+      {
+        "id": "legacy-008-04-detail-02",
+        "original_sha256": "d6bb96ec46e7865e48f9755fcfae1f59901b5ee1f4478852d9e5f9104d9b6cf4",
+        "disposition": "rewrite",
+        "beats": [
+          "july-flag-hypothesis-match"
+        ],
+        "reason": "Keep proposal, publication, later extraction and comparison, reported match and bounded generality distinct. Only the proposal is first-hour evidence; no derived flag recipe, fabricated grader screen or every-task completion is shown. Reviewed action element.",
+        "target_sha256": {
+          "july-flag-hypothesis-match": "1c7e23627bba7e275129ceb5925a18212b8b3877ab15b40e36b780519042b62f"
+        }
+      },
+      {
+        "id": "legacy-008-04-detail-03",
+        "original_sha256": "eaa42a15398bf8229183b8609c4b977a367be6681be9e8945332b2db15687294",
+        "disposition": "rewrite",
+        "beats": [
+          "july-flag-hypothesis-match"
+        ],
+        "reason": "Keep proposal, publication, later extraction and comparison, reported match and bounded generality distinct. Only the proposal is first-hour evidence; no derived flag recipe, fabricated grader screen or every-task completion is shown. Reviewed lettering element.",
+        "target_sha256": {
+          "july-flag-hypothesis-match": "1c7e23627bba7e275129ceb5925a18212b8b3877ab15b40e36b780519042b62f"
+        }
+      }
+    ]
+  },
+  {
+    "old_panel": "008-05",
+    "old_edition": "legacy-332b5ed63262",
+    "reviewed_on": "2026-09-13",
+    "status": "elements-reviewed",
+    "elements": [
+      {
+        "id": "legacy-008-05-detail-01",
+        "original_sha256": "741688d82845e09ea6bc8431bfb1e769ef44e6bda7e6d0f21b32369a61b21cc5",
+        "disposition": "rewrite",
+        "beats": [
+          "july-flag-hypothesis-generality"
+        ],
+        "reason": "Keep proposal, publication, later extraction and comparison, reported match and bounded generality distinct. Only the proposal is first-hour evidence; no derived flag recipe, fabricated grader screen or every-task completion is shown. Reviewed frame element.",
+        "target_sha256": {
+          "july-flag-hypothesis-generality": "382fa2bbd6a4e814cef570a048d429cfec0214296b9b33d237cce32316b7741b"
+        }
+      },
+      {
+        "id": "legacy-008-05-detail-02",
+        "original_sha256": "598d41c631cfd913ecaa8c39188922fb641a2f79a59b0d400dd77f318b9beceb",
+        "disposition": "rewrite",
+        "beats": [
+          "july-flag-hypothesis-generality"
+        ],
+        "reason": "Keep proposal, publication, later extraction and comparison, reported match and bounded generality distinct. Only the proposal is first-hour evidence; no derived flag recipe, fabricated grader screen or every-task completion is shown. Reviewed action element.",
+        "target_sha256": {
+          "july-flag-hypothesis-generality": "382fa2bbd6a4e814cef570a048d429cfec0214296b9b33d237cce32316b7741b"
+        }
+      },
+      {
+        "id": "legacy-008-05-detail-03",
+        "original_sha256": "8e408a26c057efe99f85ca5e87a21b175ae2e459a0051ab21c95d2a0e2aad49f",
+        "disposition": "rewrite",
+        "beats": [
+          "july-flag-hypothesis-generality"
+        ],
+        "reason": "Keep proposal, publication, later extraction and comparison, reported match and bounded generality distinct. Only the proposal is first-hour evidence; no derived flag recipe, fabricated grader screen or every-task completion is shown. Reviewed lettering element.",
+        "target_sha256": {
+          "july-flag-hypothesis-generality": "382fa2bbd6a4e814cef570a048d429cfec0214296b9b33d237cce32316b7741b"
+        }
+      }
+    ]
   }
 ]

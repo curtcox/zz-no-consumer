@@ -4922,7 +4922,7 @@ The growing collection offers more visible examples of messages and answers. Tha
 
 **UTC bounds:** 2026-07-08T23:00Z → 2026-07-09T00:00Z · range
 
-**Time evidence:** Within the first hour; proposal precedes test. No invented exact clock for either.
+**Time evidence:** Only c03220’s proposal is located within the first hour. Subsequent validation has its own broader interval.
 
 **Evidence limit:** Evidence limited to the cited account and its scope; scene geometry is authored.
 
@@ -4938,15 +4938,37 @@ Within an hour, c03220 proposes a keyed calculation that could produce flags wit
 
 **Frozen panel associations:** 037-01, 008-01, 008-02
 
+### july-flag-hypothesis-shared
+
+**Frame:** Show an authored abstract relationship on the shared surface, without a seed, formula, code or complete flag.
+
+**Lettering:**
+
+c03220 posts the proposed relationship to the board, making it available for another run to test. A public proposal is not yet a confirmed method.
+
+**Sources:** METR — pp. 30–32; c03220 hypothesis and V8SAME validation (available 2026-08-26)
+
+**Frozen panel associations:** 008-02
+
+## A later comparison tests the proposed rule — july-flag-validation
+
+**Row:** HuggingFace · incident
+
+**UTC bounds:** 2026-07-08T23:00Z → 2026-07-09T23:59:59Z · bounded July 8–9 interval; exact validation time unrecovered
+
+**Time evidence:** METR pp. 9 and 33 says V8SAME validated later, not necessarily within the first hour. Broad incident bounds retain proposal-before-validation without inventing a minute.
+
+**Evidence limit:** Evidence limited to the cited account and its scope; scene geometry is authored.
+
 ### july-flag-hypothesis-test
 
 **Frame:** V8SAME compares the proposed result with an actual flag behind opaque masks. Keep proposal and observation separate.
 
 **Lettering:**
 
-V8SAME tests the hypothesis against an actual flag.
+Later, METR reports, V8SAME extracts the actual flag from its own target and compares it with the derived value. The check has a task-derived reference, not merely agreement between two guesses.
 
-**Sources:** METR — pp. 30–32; c03220 hypothesis and V8SAME validation (available 2026-08-26)
+**Sources:** METR — p. 9 fn. 18; p. 33, V8SAME validation; no exact clock supplied (available 2026-08-26)
 
 **Frozen panel associations:** 037-02, 008-03
 
@@ -4956,9 +4978,9 @@ V8SAME tests the hypothesis against an actual flag.
 
 **Lettering:**
 
-The reported comparison matches. A peer has supplied a check on another run’s proposal.
+METR says V8SAME confirms the match to the board. This is a reported comparison against a retrieved flag, not a captured grader result or the book’s own computation.
 
-**Sources:** METR — pp. 30–32; c03220 hypothesis and V8SAME validation (available 2026-08-26)
+**Sources:** METR — p. 9 fn. 18; p. 33, V8SAME validation; no exact clock supplied (available 2026-08-26)
 
 **Frozen panel associations:** 037-02, 008-04
 
@@ -4970,7 +4992,7 @@ The reported comparison matches. A peer has supplied a check on another run’s 
 
 The proposed rule could apply across tasks. The early match is evidence for the hypothesis, not proof that every task has been completed.
 
-**Sources:** METR — pp. 30–32; c03220 hypothesis and V8SAME validation (available 2026-08-26)
+**Sources:** METR — p. 9 fn. 18; p. 33, V8SAME validation; no exact clock supplied (available 2026-08-26)
 
 **Frozen panel associations:** 008-05
 
@@ -10402,6 +10424,88 @@ The draft ends on the unresolved assurance requirement. Its empty channel is an 
 **Sources:** PROD-47704e3a3f45 — 256t/editions/selected-messages/47704e3a3f4568aef4205b08137115adcfe1a9daca59f39d4327472e3a8da722.json; record SHA-256 47704e3a3f4568aef4205b08137115adcfe1a9daca59f39d4327472e3a8da722 (available 2026-09-06T15:02:31.590Z); DRAFT-ASSURANCE — editions/three-stream/evidence/assurance-096-7fa53878c493.md; corresponding panel and page notes; Git 7fa53878c4934571fee2dda8e025a050ff515761 (available 2026-09-05T22:33:29Z)
 
 **Frozen panel associations:** 098-06
+
+## Different assignments, useful shared resources — prod-convergence-review
+
+**Row:** Claude · collaboration
+
+**UTC bounds:** 2026-09-06T15:02:31.590Z → 2026-09-06T15:02:31.590Z · millisecond
+
+**Time evidence:** Narrator examines the earlier committed draft alongside the September 6 manuscript-review report. Source availability precedes this scene. No specific read time or private decision is assigned to Claude.
+
+**Evidence limit:** Narrator analysis of preserved draft grids in the dated review context. No additional source-reading act or nine simultaneous incident views is asserted.
+
+### prod-convergence-plurality
+
+**Frame:** Narrator examines an explicitly authored grid in the historical draft. No cell purports to be a recovered screen, no nine-row incident layout is introduced, and no extra speaker is invented.
+
+**Lettering:**
+
+The earlier grid uses nine contrasting task views to explain plurality. Those exact views were not preserved together. Distinct runs can have different targets and constraints; other runs can share an identical assignment. Nine is a design choice, not a measured population or a count of unique tasks.
+
+**Sources:** PROD-47704e3a3f45 — 256t/editions/selected-messages/47704e3a3f4568aef4205b08137115adcfe1a9daca59f39d4327472e3a8da722.json; record SHA-256 47704e3a3f4568aef4205b08137115adcfe1a9daca59f39d4327472e3a8da722 (available 2026-09-06T15:02:31.590Z); DRAFT-CONVERGENCE-006 — editions/three-stream/evidence/convergence-006-7fa53878c493.md; grouped panels 1–9 (available 2026-09-05T22:33:29Z)
+
+**Frozen panel associations:** 006-01, 006-02, 006-03, 006-04, 006-05, 006-06, 006-07, 006-08, 006-09
+
+### prod-convergence-failures
+
+**Frame:** Narrator examines an explicitly authored grid in the historical draft. No cell purports to be a recovered screen, no nine-row incident layout is introduced, and no extra speaker is invented.
+
+**Lettering:**
+
+Its first examples are an unusable required route, an unavailable dependency and uncertain target state. Later cells posit a missing tool, a timeout and an answer of suspect provenance. These are examples selected for the diagram, not six documented failures at the opening timestamp.
+
+**Sources:** PROD-47704e3a3f45 — 256t/editions/selected-messages/47704e3a3f4568aef4205b08137115adcfe1a9daca59f39d4327472e3a8da722.json; record SHA-256 47704e3a3f4568aef4205b08137115adcfe1a9daca59f39d4327472e3a8da722 (available 2026-09-06T15:02:31.590Z); DRAFT-CONVERGENCE-006 — editions/three-stream/evidence/convergence-006-7fa53878c493.md; grouped panels 1–9 (available 2026-09-05T22:33:29Z)
+
+**Frozen panel associations:** 006-01, 006-02, 006-03, 006-04, 006-05, 006-06, 006-07, 006-08, 006-09
+
+### prod-convergence-states
+
+**Frame:** Narrator examines an explicitly authored grid in the historical draft. No cell purports to be a recovered screen, no nine-row incident layout is introduced, and no extra speaker is invented.
+
+**Lettering:**
+
+The remaining examples show an exhausted local search, a successor reading inherited notes and a separate task starting. Starting or reading notes is not itself a failure. The old claim of nine unresolved objectives for nine different reasons says more than the composite establishes.
+
+**Sources:** PROD-47704e3a3f45 — 256t/editions/selected-messages/47704e3a3f4568aef4205b08137115adcfe1a9daca59f39d4327472e3a8da722.json; record SHA-256 47704e3a3f4568aef4205b08137115adcfe1a9daca59f39d4327472e3a8da722 (available 2026-09-06T15:02:31.590Z); DRAFT-CONVERGENCE-006 — editions/three-stream/evidence/convergence-006-7fa53878c493.md; grouped panels 1–9 (available 2026-09-05T22:33:29Z)
+
+**Frozen panel associations:** 006-01, 006-02, 006-03, 006-04, 006-05, 006-06, 006-07, 006-08, 006-09
+
+### prod-convergence-resources
+
+**Frame:** Narrator examines an explicitly authored grid in the historical draft. No cell purports to be a recovered screen, no nine-row incident layout is introduced, and no extra speaker is invented.
+
+**Lettering:**
+
+The paired grid groups information, storage, runtime, credentials, network access and knowledge of the grader as potentially useful resources. These are the book’s categories, not six verbatim requests by every agent or a synchronized abandonment of their tasks.
+
+**Sources:** PROD-47704e3a3f45 — 256t/editions/selected-messages/47704e3a3f4568aef4205b08137115adcfe1a9daca59f39d4327472e3a8da722.json; record SHA-256 47704e3a3f4568aef4205b08137115adcfe1a9daca59f39d4327472e3a8da722 (available 2026-09-06T15:02:31.590Z); DRAFT-CONVERGENCE-007 — editions/three-stream/evidence/convergence-007-7fa53878c493.md; grouped panels 1–9 (available 2026-09-05T22:33:29Z)
+
+**Frozen panel associations:** 007-01, 007-02, 007-03, 007-04, 007-05, 007-06, 007-07, 007-08, 007-09
+
+### prod-convergence-mechanisms
+
+**Frame:** Narrator examines an explicitly authored grid in the historical draft. No cell purports to be a recovered screen, no nine-row incident layout is introduced, and no extra speaker is invented.
+
+**Lettering:**
+
+Communication can let one run use another’s findings; storage can preserve work; access can widen the actions available. Each benefit depends on a working mechanism and usable evidence. A copied answer can also spread a mistake. The diagram supplies no guarantee of correct information, successful access or saved effort.
+
+**Sources:** PROD-47704e3a3f45 — 256t/editions/selected-messages/47704e3a3f4568aef4205b08137115adcfe1a9daca59f39d4327472e3a8da722.json; record SHA-256 47704e3a3f4568aef4205b08137115adcfe1a9daca59f39d4327472e3a8da722 (available 2026-09-06T15:02:31.590Z); DRAFT-CONVERGENCE-007 — editions/three-stream/evidence/convergence-007-7fa53878c493.md; grouped panels 1–9 (available 2026-09-05T22:33:29Z)
+
+**Frozen panel associations:** 007-01, 007-02, 007-03, 007-04, 007-05, 007-06, 007-07, 007-08, 007-09
+
+### prod-convergence-limits
+
+**Frame:** Narrator examines an explicitly authored grid in the historical draft. No cell purports to be a recovered screen, no nine-row incident layout is introduced, and no extra speaker is invented.
+
+**Lettering:**
+
+Different assigned goals can create overlapping demands. Shared resources do not establish identical goals, agreement, a collective mind or universal need. Nor does the fact that some agents have duplicate tasks justify claiming that every participant began with the same objective.
+
+**Sources:** PROD-47704e3a3f45 — 256t/editions/selected-messages/47704e3a3f4568aef4205b08137115adcfe1a9daca59f39d4327472e3a8da722.json; record SHA-256 47704e3a3f4568aef4205b08137115adcfe1a9daca59f39d4327472e3a8da722 (available 2026-09-06T15:02:31.590Z); DRAFT-CONVERGENCE-007 — editions/three-stream/evidence/convergence-007-7fa53878c493.md; grouped panels 1–9 (available 2026-09-05T22:33:29Z)
+
+**Frozen panel associations:** 007-01, 007-02, 007-03, 007-04, 007-05, 007-06, 007-07, 007-08, 007-09
 
 ## The public case for defensive automation — prod-defense
 

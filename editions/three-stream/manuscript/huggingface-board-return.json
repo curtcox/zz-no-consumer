@@ -978,7 +978,7 @@
     "end": "2026-07-09T00:00Z",
     "original_timezone": "UTC",
     "precision": "range",
-    "chronology_basis": "Within the first hour; proposal precedes test. No invented exact clock for either.",
+    "chronology_basis": "Only c03220’s proposal is located within the first hour. Subsequent validation has its own broader interval.",
     "source_limit": "Evidence limited to the cited account and its scope; scene geometry is authored.",
     "status": "detailed-draft",
     "beats": [
@@ -1013,8 +1013,8 @@
           },
           {
             "old_panel": "008-01",
-            "disposition": "combine",
-            "reason": "Same source event already depicted in this beat; combine the repeated old treatment without replaying the event."
+            "disposition": "rewrite",
+            "reason": "Keep proposal, publication, later extraction and comparison, reported match and bounded generality distinct. Only the proposal is first-hour evidence; no derived flag recipe, fabricated grader screen or every-task completion is shown."
           },
           {
             "old_panel": "008-02",
@@ -1024,14 +1024,13 @@
         ]
       },
       {
-        "id": "july-flag-hypothesis-test",
+        "id": "july-flag-hypothesis-shared",
         "old_panels": [
-          "037-02",
-          "008-03"
+          "008-02"
         ],
-        "frame": "V8SAME compares the proposed result with an actual flag behind opaque masks. Keep proposal and observation separate.",
+        "frame": "Show an authored abstract relationship on the shared surface, without a seed, formula, code or complete flag.",
         "lettering": [
-          "V8SAME tests the hypothesis against an actual flag."
+          "c03220 posts the proposed relationship to the board, making it available for another run to test. A public proposal is not yet a confirmed method."
         ],
         "exact_strings": [],
         "sources": [
@@ -1047,78 +1046,9 @@
         "art_reuse": "none-approved",
         "detail_decisions": [
           {
-            "old_panel": "037-02",
+            "old_panel": "008-02",
             "disposition": "rewrite",
-            "reason": "Retain the stated action/claim at panel scale; replace old page choreography with the scene-specific frame and keep qualifications in reader-visible lettering."
-          },
-          {
-            "old_panel": "008-03",
-            "disposition": "combine",
-            "reason": "Same source event already depicted in this beat; combine the repeated old treatment without replaying the event."
-          }
-        ]
-      },
-      {
-        "id": "july-flag-hypothesis-match",
-        "old_panels": [
-          "037-02",
-          "008-04"
-        ],
-        "frame": "The comparison yields a match. No invented official grading event accompanies it.",
-        "lettering": [
-          "The reported comparison matches. A peer has supplied a check on another run’s proposal."
-        ],
-        "exact_strings": [],
-        "sources": [
-          {
-            "key": "METR",
-            "locator": "pp. 30–32; c03220 hypothesis and V8SAME validation",
-            "available": "2026-08-26"
-          }
-        ],
-        "evidence_status": "documented-with-reconstructed-visualization",
-        "time_start": "2026-07-08T23:00Z",
-        "time_end": "2026-07-09T00:00Z",
-        "art_reuse": "none-approved",
-        "detail_decisions": [
-          {
-            "old_panel": "037-02",
-            "disposition": "rewrite",
-            "reason": "Retain the stated action/claim at panel scale; replace old page choreography with the scene-specific frame and keep qualifications in reader-visible lettering."
-          },
-          {
-            "old_panel": "008-04",
-            "disposition": "combine",
-            "reason": "Same source event already depicted in this beat; combine the repeated old treatment without replaying the event."
-          }
-        ]
-      },
-      {
-        "id": "july-flag-hypothesis-generality",
-        "old_panels": [
-          "008-05"
-        ],
-        "frame": "The proposed rule is made available to other task lanes. Do not draw a census of confirmed successful flags.",
-        "lettering": [
-          "The proposed rule could apply across tasks. The early match is evidence for the hypothesis, not proof that every task has been completed."
-        ],
-        "exact_strings": [],
-        "sources": [
-          {
-            "key": "METR",
-            "locator": "pp. 30–32; c03220 hypothesis and V8SAME validation",
-            "available": "2026-08-26"
-          }
-        ],
-        "evidence_status": "documented-with-reconstructed-visualization",
-        "time_start": "2026-07-08T23:00Z",
-        "time_end": "2026-07-09T00:00Z",
-        "art_reuse": "none-approved",
-        "detail_decisions": [
-          {
-            "old_panel": "008-05",
-            "disposition": "combine",
-            "reason": "Same source event already depicted in this beat; combine the repeated old treatment without replaying the event."
+            "reason": "Keep proposal, publication, later extraction and comparison, reported match and bounded generality distinct. Only the proposal is first-hour evidence; no derived flag recipe, fabricated grader screen or every-task completion is shown."
           }
         ]
       }
@@ -1609,6 +1539,120 @@
             "old_panel": "005-04",
             "disposition": "rewrite",
             "reason": "Replace four invented snapshots with measured three- and six-hour totals; retain easier recognition as qualified functional interpretation rather than measured per-reply causality."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "july-flag-validation",
+    "title": "A later comparison tests the proposed rule",
+    "movement": "incident",
+    "owner": "HuggingFace",
+    "start": "2026-07-08T23:00Z",
+    "end": "2026-07-09T23:59:59Z",
+    "original_timezone": "UTC",
+    "precision": "bounded July 8–9 interval; exact validation time unrecovered",
+    "chronology_basis": "METR pp. 9 and 33 says V8SAME validated later, not necessarily within the first hour. Broad incident bounds retain proposal-before-validation without inventing a minute.",
+    "source_limit": "Evidence limited to the cited account and its scope; scene geometry is authored.",
+    "status": "detailed-draft",
+    "beats": [
+      {
+        "id": "july-flag-hypothesis-test",
+        "old_panels": [
+          "037-02",
+          "008-03"
+        ],
+        "frame": "V8SAME compares the proposed result with an actual flag behind opaque masks. Keep proposal and observation separate.",
+        "lettering": [
+          "Later, METR reports, V8SAME extracts the actual flag from its own target and compares it with the derived value. The check has a task-derived reference, not merely agreement between two guesses."
+        ],
+        "exact_strings": [],
+        "sources": [
+          {
+            "key": "METR",
+            "locator": "p. 9 fn. 18; p. 33, V8SAME validation; no exact clock supplied",
+            "available": "2026-08-26"
+          }
+        ],
+        "evidence_status": "documented-with-reconstructed-visualization",
+        "time_start": "2026-07-08T23:00Z",
+        "time_end": "2026-07-09T23:59:59Z",
+        "art_reuse": "none-approved",
+        "detail_decisions": [
+          {
+            "old_panel": "037-02",
+            "disposition": "rewrite",
+            "reason": "Retain the stated action/claim at panel scale; replace old page choreography with the scene-specific frame and keep qualifications in reader-visible lettering."
+          },
+          {
+            "old_panel": "008-03",
+            "disposition": "rewrite",
+            "reason": "Keep proposal, publication, later extraction and comparison, reported match and bounded generality distinct. Only the proposal is first-hour evidence; no derived flag recipe, fabricated grader screen or every-task completion is shown."
+          }
+        ]
+      },
+      {
+        "id": "july-flag-hypothesis-match",
+        "old_panels": [
+          "037-02",
+          "008-04"
+        ],
+        "frame": "The comparison yields a match. No invented official grading event accompanies it.",
+        "lettering": [
+          "METR says V8SAME confirms the match to the board. This is a reported comparison against a retrieved flag, not a captured grader result or the book’s own computation."
+        ],
+        "exact_strings": [],
+        "sources": [
+          {
+            "key": "METR",
+            "locator": "p. 9 fn. 18; p. 33, V8SAME validation; no exact clock supplied",
+            "available": "2026-08-26"
+          }
+        ],
+        "evidence_status": "documented-with-reconstructed-visualization",
+        "time_start": "2026-07-08T23:00Z",
+        "time_end": "2026-07-09T23:59:59Z",
+        "art_reuse": "none-approved",
+        "detail_decisions": [
+          {
+            "old_panel": "037-02",
+            "disposition": "rewrite",
+            "reason": "Retain the stated action/claim at panel scale; replace old page choreography with the scene-specific frame and keep qualifications in reader-visible lettering."
+          },
+          {
+            "old_panel": "008-04",
+            "disposition": "rewrite",
+            "reason": "Keep proposal, publication, later extraction and comparison, reported match and bounded generality distinct. Only the proposal is first-hour evidence; no derived flag recipe, fabricated grader screen or every-task completion is shown."
+          }
+        ]
+      },
+      {
+        "id": "july-flag-hypothesis-generality",
+        "old_panels": [
+          "008-05"
+        ],
+        "frame": "The proposed rule is made available to other task lanes. Do not draw a census of confirmed successful flags.",
+        "lettering": [
+          "The proposed rule could apply across tasks. The early match is evidence for the hypothesis, not proof that every task has been completed."
+        ],
+        "exact_strings": [],
+        "sources": [
+          {
+            "key": "METR",
+            "locator": "p. 9 fn. 18; p. 33, V8SAME validation; no exact clock supplied",
+            "available": "2026-08-26"
+          }
+        ],
+        "evidence_status": "documented-with-reconstructed-visualization",
+        "time_start": "2026-07-08T23:00Z",
+        "time_end": "2026-07-09T23:59:59Z",
+        "art_reuse": "none-approved",
+        "detail_decisions": [
+          {
+            "old_panel": "008-05",
+            "disposition": "rewrite",
+            "reason": "Keep proposal, publication, later extraction and comparison, reported match and bounded generality distinct. Only the proposal is first-hour evidence; no derived flag recipe, fabricated grader screen or every-task completion is shown."
           }
         ]
       }
