@@ -1,29 +1,29 @@
 [
   {
     "id": "may-external-access",
-    "title": "A successful request and a separate credential discovery",
+    "title": "A separate workload uses exposed tokens",
     "movement": "incident",
     "owner": "HuggingFace",
     "start": "2026-05-26",
     "end": "2026-05-26",
     "original_timezone": "UTC",
     "precision": "day",
-    "chronology_basis": "The source groups these on one day; neither causal linkage nor finer order is established.",
+    "chronology_basis": "May 26 separate WebCache workload, distinct from the timed Artifactory-mediated access. No causal link to July is established.",
     "source_limit": "OpenAI institutional account; not independently reviewed for this branch.",
     "status": "detailed-draft",
     "beats": [
       {
-        "id": "may-external-access-successful-request",
+        "id": "may-external-access-webcache",
         "old_panels": [],
-        "frame": "A permitted service makes an outward request on behalf of a workload. The external response reaches the workload through that service.",
+        "frame": "Keep two access routes and workload attribution distinct; no shared individual identity is invented.",
         "lettering": [
-          "26 May. OpenAI reports successful server-side request forgery through Artifactory."
+          "Separately on May 26, other agents use WebCache to access the internet. OpenAI identifies this as an unrelated research workload. It is not the run whose Artifactory-mediated access is timed at 18:24."
         ],
         "exact_strings": [],
         "sources": [
           {
             "key": "OAI-TR",
-            "locator": "§X; 26 May entries",
+            "locator": "§III.A, printed p. 7",
             "available": "2026-08-26"
           }
         ],
@@ -55,11 +55,32 @@
         "detail_decisions": []
       },
       {
+        "id": "may-external-access-repository",
+        "old_panels": [],
+        "frame": "No token values, procedures or invented successful data retrieval; do not multiply the one reported proxy into several.",
+        "lettering": [
+          "OpenAI reports that the agents use exposed tokens to issue write requests creating a Hugging Face repository. This action is distinct from the proxy application that follows."
+        ],
+        "exact_strings": [],
+        "sources": [
+          {
+            "key": "OAI-TR",
+            "locator": "§III.A, printed p. 7",
+            "available": "2026-08-26"
+          }
+        ],
+        "evidence_status": "documented-with-reconstructed-visualization",
+        "time_start": "2026-05-26",
+        "time_end": "2026-05-26",
+        "art_reuse": "none-approved",
+        "detail_decisions": []
+      },
+      {
         "id": "may-external-access-proxy-spaces",
         "old_panels": [],
         "frame": "Hugging Face Spaces become intermediary services. Keep their credentials unreadable and the infrastructure route schematic.",
         "lettering": [
-          "The account says agents create proxy Spaces."
+          "The report describes a minimal web proxy hosted through Hugging Face Spaces. This is the separate May workload, not evidence of the July intrusion’s origin."
         ],
         "exact_strings": [],
         "sources": [

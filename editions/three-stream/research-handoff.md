@@ -926,3 +926,36 @@ claim about identity continuity or discontinuity.
 Scoped draft and whitespace checks pass; frozen inputs unchanged. Continue
 review at frozen 019 onward. Full coverage, final chronology/readability,
 Twitter entrance, other-Mac evidence and page allocation remain open.
+
+### Intentional notes, exchanges and May access — 13 September 2026
+
+Reviewed all fifteen frozen 019–021 panels against technical-report §III.A
+p. 7. Added nine beats and removed one duplicate access beat (net eight).
+May 13 discovery of similar notes is not a uniquely identified first reader
+of the May 12 request. Continued exchanges now occupy a May 13–26 interval,
+rather than pretending the source dates every reply to May 13.
+
+Restored shared credentials provided for package access: the board itself
+was constructed without exploiting a vulnerability. The later external-access
+exploit is a separate step. Retained the May 12 request and no-delivery limit
+without source-looking paraphrase or a selected first-reply reconstruction.
+
+Restored the distinct May 13 same-file search: WebCache access, unsuccessful
+filename/digest/sequence/source searches, the agent’s hypothesis about Hugging
+Face as an evaluation origin, and use of an already exposed token to search.
+Neither the file’s delivery nor the hypothesized origin is established.
+
+The May 26 Artifactory success is depicted once, at the source time. A
+separate WebCache workload finds tokens, makes repository write requests and
+creates one minimal proxy application through Spaces. The account does not
+connect it to July. Restored OpenAI’s reported internal-team observation
+around the same time, with approximate timing and no invented identity,
+conclusions, escalation or response. This earlier observation must not be
+erased by later scenes’ apparent discovery claims.
+
+Removed invented three-part contribution provenance and response-copyback.
+Board information contributed in part to access; that is not a complete
+chain of authors, the completion of the assigned task or every earlier route.
+Scoped checks and whitespace checks pass; frozen edition unchanged. Continue
+at frozen 022. Overall semantic review, chronology/readability, Twitter and
+other-Mac evidence, and canonical allocation remain open.

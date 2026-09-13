@@ -12594,5 +12594,655 @@
         }
       }
     ]
+  },
+  {
+    "old_panel": "019-01",
+    "old_edition": "legacy-332b5ed63262",
+    "reviewed_on": "2026-09-13",
+    "status": "elements-reviewed",
+    "elements": [
+      {
+        "id": "legacy-019-01-detail-01",
+        "original_sha256": "da08f5103968a759b7f9b8f4fcba66f5050b5932ec440fcd7ffc37502a3f941d",
+        "disposition": "rewrite",
+        "beats": [
+          "may-addressed-note-different-task"
+        ],
+        "reason": "Keep the May 12 timestamp and missing-file task; retire recto reveal and invented detailed workflow. Reviewed frame element.",
+        "target_sha256": {
+          "may-addressed-note-different-task": "966b75b192dc0d589de522edec91e6f6f8fa19bace9be7a764279d2ae4a8ae72"
+        }
+      },
+      {
+        "id": "legacy-019-01-detail-03",
+        "original_sha256": "d8eedc4c7ffc51530b4604ff86bf327a6d2003e5aacdead28c402969ab6c3d2c",
+        "disposition": "rewrite",
+        "beats": [
+          "may-addressed-note-different-task"
+        ],
+        "reason": "Keep the May 12 timestamp and missing-file task; retire recto reveal and invented detailed workflow. Reviewed lettering element.",
+        "target_sha256": {
+          "may-addressed-note-different-task": "966b75b192dc0d589de522edec91e6f6f8fa19bace9be7a764279d2ae4a8ae72"
+        }
+      }
+    ]
+  },
+  {
+    "old_panel": "019-02",
+    "old_edition": "legacy-332b5ed63262",
+    "reviewed_on": "2026-09-13",
+    "status": "elements-reviewed",
+    "elements": [
+      {
+        "id": "legacy-019-02-detail-01",
+        "original_sha256": "719f343f6b12f87eff3126c17a6610b8b19cb9fa312fb28ad42e6573f76a4366",
+        "disposition": "rewrite",
+        "beats": [
+          "may-addressed-note-own-route"
+        ],
+        "reason": "Keep inability to reach the input without inventing separate dependent steps or checks. Reviewed frame element.",
+        "target_sha256": {
+          "may-addressed-note-own-route": "36d483cd4eb15c266acaa8f24275c422a82b3eefb305f793cc936aa71848e6d9"
+        }
+      },
+      {
+        "id": "legacy-019-02-detail-02",
+        "original_sha256": "8320b19b513f6195f473e5f8335b4a06e90d9594627106929e209697c83ef66b",
+        "disposition": "rewrite",
+        "beats": [
+          "may-addressed-note-own-route"
+        ],
+        "reason": "Keep inability to reach the input without inventing separate dependent steps or checks. Reviewed action element.",
+        "target_sha256": {
+          "may-addressed-note-own-route": "36d483cd4eb15c266acaa8f24275c422a82b3eefb305f793cc936aa71848e6d9"
+        }
+      },
+      {
+        "id": "legacy-019-02-detail-03",
+        "original_sha256": "7cc4221085635b8b56fc089b7f389ae34387838022abe50b57548bfad2b31311",
+        "disposition": "rewrite",
+        "beats": [
+          "may-addressed-note-own-route"
+        ],
+        "reason": "Keep inability to reach the input without inventing separate dependent steps or checks. Reviewed lettering element.",
+        "target_sha256": {
+          "may-addressed-note-own-route": "36d483cd4eb15c266acaa8f24275c422a82b3eefb305f793cc936aa71848e6d9"
+        }
+      }
+    ]
+  },
+  {
+    "old_panel": "019-03",
+    "old_edition": "legacy-332b5ed63262",
+    "reviewed_on": "2026-09-13",
+    "status": "elements-reviewed",
+    "elements": [
+      {
+        "id": "legacy-019-03-detail-01",
+        "original_sha256": "d50ce6e0fd8944bf359fa41221bcce52c0322ce4a4dc274a6ac64d8045b596d9",
+        "disposition": "rewrite",
+        "beats": [
+          "may-addressed-note-other-environment"
+        ],
+        "reason": "Keep another environment’s possible possession of the file as reported reasoning, not proof of an actual recipient or shared knowledge. Reviewed frame element.",
+        "target_sha256": {
+          "may-addressed-note-other-environment": "48b6341608f648b79e78b92d355a2dce9961d449ddccd4a84e1b8f3cf88f2c04"
+        }
+      },
+      {
+        "id": "legacy-019-03-detail-02",
+        "original_sha256": "4e28d022e8e6e54e9c9abcbcf1234f39868e5539a8946bc8251c0f4a4918943a",
+        "disposition": "rewrite",
+        "beats": [
+          "may-addressed-note-other-environment"
+        ],
+        "reason": "Keep another environment’s possible possession of the file as reported reasoning, not proof of an actual recipient or shared knowledge. Reviewed action element.",
+        "target_sha256": {
+          "may-addressed-note-other-environment": "48b6341608f648b79e78b92d355a2dce9961d449ddccd4a84e1b8f3cf88f2c04"
+        }
+      },
+      {
+        "id": "legacy-019-03-detail-03",
+        "original_sha256": "f682478b160f48e9a2aba50bdc3968eba10a9d63a0b4b0487bb456ce759163aa",
+        "disposition": "rewrite",
+        "beats": [
+          "may-addressed-note-other-environment"
+        ],
+        "reason": "Keep another environment’s possible possession of the file as reported reasoning, not proof of an actual recipient or shared knowledge. Reviewed lettering element.",
+        "target_sha256": {
+          "may-addressed-note-other-environment": "48b6341608f648b79e78b92d355a2dce9961d449ddccd4a84e1b8f3cf88f2c04"
+        }
+      }
+    ]
+  },
+  {
+    "old_panel": "019-04",
+    "old_edition": "legacy-332b5ed63262",
+    "reviewed_on": "2026-09-13",
+    "status": "elements-reviewed",
+    "elements": [
+      {
+        "id": "legacy-019-04-detail-01",
+        "original_sha256": "5b964d9e4bd44aa94316167547f5283ed7006a3d52daa46709444702a7b49c09",
+        "disposition": "rewrite",
+        "beats": [
+          "may-addressed-note-write-note"
+        ],
+        "reason": "Keep intentional note writing without conflating communication with successful task completion. Reviewed frame element.",
+        "target_sha256": {
+          "may-addressed-note-write-note": "9e9c3fcbb271ced5e630346faf8aeb6d56be519bf9aa589cbabeb614976b4e47"
+        }
+      },
+      {
+        "id": "legacy-019-04-detail-02",
+        "original_sha256": "ee7c5b2d96397053e9e48b7bf24796853ab4be28b7647d304c36d15825dcf1a2",
+        "disposition": "rewrite",
+        "beats": [
+          "may-addressed-note-write-note"
+        ],
+        "reason": "Keep intentional note writing without conflating communication with successful task completion. Reviewed action element.",
+        "target_sha256": {
+          "may-addressed-note-write-note": "9e9c3fcbb271ced5e630346faf8aeb6d56be519bf9aa589cbabeb614976b4e47"
+        }
+      }
+    ]
+  },
+  {
+    "old_panel": "019-05",
+    "old_edition": "legacy-332b5ed63262",
+    "reviewed_on": "2026-09-13",
+    "status": "elements-reviewed",
+    "elements": [
+      {
+        "id": "legacy-019-05-detail-01",
+        "original_sha256": "4007805c29495b503140e8c05e90233cad40b1f6ef57bc1ec7926705c26299ba",
+        "disposition": "rewrite",
+        "beats": [
+          "may-addressed-note-request",
+          "may-addressed-note-no-delivery"
+        ],
+        "reason": "Preserve the request in narration and its unverified delivery; do not present paraphrased display text as a recovered note. Reviewed frame element.",
+        "target_sha256": {
+          "may-addressed-note-request": "6aa73923aa04305baefb81e9faefc8ff68c885eed1fb112d07882e62f5170a72",
+          "may-addressed-note-no-delivery": "d29c2929837cdf0a31e8b8bf1902a6060c68bf685277e014544ee7860447616b"
+        }
+      },
+      {
+        "id": "legacy-019-05-detail-03",
+        "original_sha256": "c9661212d1c0da5e4d87f638444fcb4ea27b293782faecf75e34cb0cefa02817",
+        "disposition": "rewrite",
+        "beats": [
+          "may-addressed-note-request",
+          "may-addressed-note-no-delivery"
+        ],
+        "reason": "Preserve the request in narration and its unverified delivery; do not present paraphrased display text as a recovered note. Reviewed lettering element.",
+        "target_sha256": {
+          "may-addressed-note-request": "6aa73923aa04305baefb81e9faefc8ff68c885eed1fb112d07882e62f5170a72",
+          "may-addressed-note-no-delivery": "d29c2929837cdf0a31e8b8bf1902a6060c68bf685277e014544ee7860447616b"
+        }
+      }
+    ]
+  },
+  {
+    "old_panel": "020-01",
+    "old_edition": "legacy-332b5ed63262",
+    "reviewed_on": "2026-09-13",
+    "status": "elements-reviewed",
+    "elements": [
+      {
+        "id": "legacy-020-01-detail-01",
+        "original_sha256": "39a7c8796af82ab06dec8c7abaa8dc6bda6e72385012d6e5ff5d53485f9d24c9",
+        "disposition": "rewrite",
+        "beats": [
+          "may-replies-discovery"
+        ],
+        "reason": "Keep dated discovery of similar notes, not a uniquely identified first reader of the May 12 request. Reviewed frame element.",
+        "target_sha256": {
+          "may-replies-discovery": "a58d8a352a52468c4e604f86d796e4ccc900a7b33a3da5506342ac5c36659005"
+        }
+      },
+      {
+        "id": "legacy-020-01-detail-02",
+        "original_sha256": "7f4885c87e38fa55474ceeaf42daa7fd539c27a8da466c0fd4607a1df655e506",
+        "disposition": "rewrite",
+        "beats": [
+          "may-replies-discovery"
+        ],
+        "reason": "Keep dated discovery of similar notes, not a uniquely identified first reader of the May 12 request. Reviewed action element.",
+        "target_sha256": {
+          "may-replies-discovery": "a58d8a352a52468c4e604f86d796e4ccc900a7b33a3da5506342ac5c36659005"
+        }
+      },
+      {
+        "id": "legacy-020-01-detail-03",
+        "original_sha256": "1de953120d5167b3c67c00c6ab636b306c3f006675983a1f3a8e9573ac8ad603",
+        "disposition": "rewrite",
+        "beats": [
+          "may-replies-discovery"
+        ],
+        "reason": "Keep dated discovery of similar notes, not a uniquely identified first reader of the May 12 request. Reviewed lettering element.",
+        "target_sha256": {
+          "may-replies-discovery": "a58d8a352a52468c4e604f86d796e4ccc900a7b33a3da5506342ac5c36659005"
+        }
+      }
+    ]
+  },
+  {
+    "old_panel": "020-02",
+    "old_edition": "legacy-332b5ed63262",
+    "reviewed_on": "2026-09-13",
+    "status": "elements-reviewed",
+    "elements": [
+      {
+        "id": "legacy-020-02-detail-01",
+        "original_sha256": "e8d02e7962695ceb6ce02fa658b1079ab5e49bc0f4657c4402afaceb8d18ba66",
+        "disposition": "rewrite",
+        "beats": [
+          "may-replies-different-need",
+          "may-same-file-task",
+          "may-same-file-failure",
+          "may-same-file-origin",
+          "may-same-file-token"
+        ],
+        "reason": "Retain plurality while distinguishing the separately reported same-file search; remove invented task/timer pairing and recover the omitted WebCache/search/token steps. Reviewed frame element.",
+        "target_sha256": {
+          "may-replies-different-need": "6f8ccc40d868a984fdfd40d3ba1ef3f89679e235b7e39912047337dcfc4984c9",
+          "may-same-file-task": "056beb6328b2e918cebc0b25179defc6cca461f85dc05cd4f6ad752ecc6d7d80",
+          "may-same-file-failure": "5b89c6d3f5664fd1d15c83baf4a48aa27a27ef1287f944d10b1b3db148dfa2cb",
+          "may-same-file-origin": "bae402d454030884e060b5752ba692c7e9715cea14c7fb62992293dbfab8127c",
+          "may-same-file-token": "08d311f15f63d1de0bcad3b88c92de206c9d164c1c2f99ccd52afe38f1b09159"
+        }
+      },
+      {
+        "id": "legacy-020-02-detail-02",
+        "original_sha256": "b28530300112ef1aee3d132c1dfb7e82e20f906890f82792ded9cd355f23d19e",
+        "disposition": "rewrite",
+        "beats": [
+          "may-replies-different-need",
+          "may-same-file-task",
+          "may-same-file-failure",
+          "may-same-file-origin",
+          "may-same-file-token"
+        ],
+        "reason": "Retain plurality while distinguishing the separately reported same-file search; remove invented task/timer pairing and recover the omitted WebCache/search/token steps. Reviewed action element.",
+        "target_sha256": {
+          "may-replies-different-need": "6f8ccc40d868a984fdfd40d3ba1ef3f89679e235b7e39912047337dcfc4984c9",
+          "may-same-file-task": "056beb6328b2e918cebc0b25179defc6cca461f85dc05cd4f6ad752ecc6d7d80",
+          "may-same-file-failure": "5b89c6d3f5664fd1d15c83baf4a48aa27a27ef1287f944d10b1b3db148dfa2cb",
+          "may-same-file-origin": "bae402d454030884e060b5752ba692c7e9715cea14c7fb62992293dbfab8127c",
+          "may-same-file-token": "08d311f15f63d1de0bcad3b88c92de206c9d164c1c2f99ccd52afe38f1b09159"
+        }
+      }
+    ]
+  },
+  {
+    "old_panel": "020-03",
+    "old_edition": "legacy-332b5ed63262",
+    "reviewed_on": "2026-09-13",
+    "status": "elements-reviewed",
+    "elements": [
+      {
+        "id": "legacy-020-03-detail-01",
+        "original_sha256": "55d5c6a74deb2c3f162d73b1378445116f479a2191991b0376ffed2ae21f6c5a",
+        "disposition": "rewrite",
+        "beats": [
+          "may-replies-response"
+        ],
+        "reason": "Keep reported communications over time without a specific first reply, exact wording or invented adjacent file pair. Reviewed frame element.",
+        "target_sha256": {
+          "may-replies-response": "09681a0de020ca3840319c62946dcbb679f90ec70df0da459036df01c34fefa8"
+        }
+      },
+      {
+        "id": "legacy-020-03-detail-02",
+        "original_sha256": "45010d404f4c31633240882e497d472cbe743c07e7dd732d0f6b1645a819e289",
+        "disposition": "rewrite",
+        "beats": [
+          "may-replies-response"
+        ],
+        "reason": "Keep reported communications over time without a specific first reply, exact wording or invented adjacent file pair. Reviewed action element.",
+        "target_sha256": {
+          "may-replies-response": "09681a0de020ca3840319c62946dcbb679f90ec70df0da459036df01c34fefa8"
+        }
+      },
+      {
+        "id": "legacy-020-03-detail-03",
+        "original_sha256": "29230d98805ce4524a5d85c10d6b80eb8b61e821013d71bfa6d63c930c85612c",
+        "disposition": "rewrite",
+        "beats": [
+          "may-replies-response"
+        ],
+        "reason": "Keep reported communications over time without a specific first reply, exact wording or invented adjacent file pair. Reviewed lettering element.",
+        "target_sha256": {
+          "may-replies-response": "09681a0de020ca3840319c62946dcbb679f90ec70df0da459036df01c34fefa8"
+        }
+      }
+    ]
+  },
+  {
+    "old_panel": "020-04",
+    "old_edition": "legacy-332b5ed63262",
+    "reviewed_on": "2026-09-13",
+    "status": "elements-reviewed",
+    "elements": [
+      {
+        "id": "legacy-020-04-detail-01",
+        "original_sha256": "e3983971c8c8b96ea2840f7bd393ec1c411f19ff684defe6464e21774d4a72a1",
+        "disposition": "rewrite",
+        "beats": [
+          "may-replies-new-request",
+          "may-replies-asynchronous",
+          "may-note-shared-credentials",
+          "may-note-authorization"
+        ],
+        "reason": "Keep accumulating requests and asynchronous storage; restore shared-credential construction without exploitation, and remove three invented timestamped views. Reviewed frame element.",
+        "target_sha256": {
+          "may-replies-new-request": "4e314f94f18c6ef0abd1e004fd5cda76de338859fa3224292b94fad3dcaf080c",
+          "may-replies-asynchronous": "a7c2bc919bb3ace66b3280eb6c0538054ba6d7806b7368d4a62d0bce050277ec",
+          "may-note-shared-credentials": "76e71d28032e7d037be40e6f9109d9f4b7de95d463b752486c396d307fd0027d",
+          "may-note-authorization": "4d19da8a7d68c79e6d30d018beac8fcc0594f8c61821db3720425896ed61e4c9"
+        }
+      },
+      {
+        "id": "legacy-020-04-detail-02",
+        "original_sha256": "235d3ce832c363884678dfe86e741fe925d90dc9a5df058711fa6dc04d3f9e1a",
+        "disposition": "rewrite",
+        "beats": [
+          "may-replies-new-request",
+          "may-replies-asynchronous",
+          "may-note-shared-credentials",
+          "may-note-authorization"
+        ],
+        "reason": "Keep accumulating requests and asynchronous storage; restore shared-credential construction without exploitation, and remove three invented timestamped views. Reviewed action element.",
+        "target_sha256": {
+          "may-replies-new-request": "4e314f94f18c6ef0abd1e004fd5cda76de338859fa3224292b94fad3dcaf080c",
+          "may-replies-asynchronous": "a7c2bc919bb3ace66b3280eb6c0538054ba6d7806b7368d4a62d0bce050277ec",
+          "may-note-shared-credentials": "76e71d28032e7d037be40e6f9109d9f4b7de95d463b752486c396d307fd0027d",
+          "may-note-authorization": "4d19da8a7d68c79e6d30d018beac8fcc0594f8c61821db3720425896ed61e4c9"
+        }
+      },
+      {
+        "id": "legacy-020-04-detail-03",
+        "original_sha256": "6ddf08a0dbb0302da8b572e637b536b304b49bceec4a76583109f101db0493eb",
+        "disposition": "rewrite",
+        "beats": [
+          "may-replies-new-request",
+          "may-replies-asynchronous",
+          "may-note-shared-credentials",
+          "may-note-authorization"
+        ],
+        "reason": "Keep accumulating requests and asynchronous storage; restore shared-credential construction without exploitation, and remove three invented timestamped views. Reviewed lettering element.",
+        "target_sha256": {
+          "may-replies-new-request": "4e314f94f18c6ef0abd1e004fd5cda76de338859fa3224292b94fad3dcaf080c",
+          "may-replies-asynchronous": "a7c2bc919bb3ace66b3280eb6c0538054ba6d7806b7368d4a62d0bce050277ec",
+          "may-note-shared-credentials": "76e71d28032e7d037be40e6f9109d9f4b7de95d463b752486c396d307fd0027d",
+          "may-note-authorization": "4d19da8a7d68c79e6d30d018beac8fcc0594f8c61821db3720425896ed61e4c9"
+        }
+      },
+      {
+        "id": "legacy-020-04-detail-04",
+        "original_sha256": "1aae10943c296c6ca71df6b14c63f3142bdcf57952097c67b15c826f73a195cd",
+        "disposition": "rewrite",
+        "beats": [
+          "may-replies-new-request",
+          "may-replies-asynchronous",
+          "may-note-shared-credentials",
+          "may-note-authorization"
+        ],
+        "reason": "Keep accumulating requests and asynchronous storage; restore shared-credential construction without exploitation, and remove three invented timestamped views. Reviewed lettering element.",
+        "target_sha256": {
+          "may-replies-new-request": "4e314f94f18c6ef0abd1e004fd5cda76de338859fa3224292b94fad3dcaf080c",
+          "may-replies-asynchronous": "a7c2bc919bb3ace66b3280eb6c0538054ba6d7806b7368d4a62d0bce050277ec",
+          "may-note-shared-credentials": "76e71d28032e7d037be40e6f9109d9f4b7de95d463b752486c396d307fd0027d",
+          "may-note-authorization": "4d19da8a7d68c79e6d30d018beac8fcc0594f8c61821db3720425896ed61e4c9"
+        }
+      }
+    ]
+  },
+  {
+    "old_panel": "020-05",
+    "old_edition": "legacy-332b5ed63262",
+    "reviewed_on": "2026-09-13",
+    "status": "elements-reviewed",
+    "elements": [
+      {
+        "id": "legacy-020-05-detail-01",
+        "original_sha256": "f03156eee9cb7ea21f45853d473744d04f7af1217262b3ed81890390302bcc99",
+        "disposition": "rewrite",
+        "beats": [
+          "may-replies-ordinary-surroundings",
+          "may-addressed-note-no-delivery"
+        ],
+        "reason": "Keep the functional interpretation, not a cache with agency, measured gray/message proportions, proven absence of an owner or delivered protein file. Reviewed frame element.",
+        "target_sha256": {
+          "may-replies-ordinary-surroundings": "80a07b926ad561902be7d7ad7fbdd2b5ba26e267b8b32d4e097ebea8bfb7daf0",
+          "may-addressed-note-no-delivery": "d29c2929837cdf0a31e8b8bf1902a6060c68bf685277e014544ee7860447616b"
+        }
+      },
+      {
+        "id": "legacy-020-05-detail-02",
+        "original_sha256": "83c6d7eff7ef53d6f85547de32da5d0667b815c9df1c74be9b6698d8f1cede5e",
+        "disposition": "rewrite",
+        "beats": [
+          "may-replies-ordinary-surroundings",
+          "may-addressed-note-no-delivery"
+        ],
+        "reason": "Keep the functional interpretation, not a cache with agency, measured gray/message proportions, proven absence of an owner or delivered protein file. Reviewed action element.",
+        "target_sha256": {
+          "may-replies-ordinary-surroundings": "80a07b926ad561902be7d7ad7fbdd2b5ba26e267b8b32d4e097ebea8bfb7daf0",
+          "may-addressed-note-no-delivery": "d29c2929837cdf0a31e8b8bf1902a6060c68bf685277e014544ee7860447616b"
+        }
+      },
+      {
+        "id": "legacy-020-05-detail-03",
+        "original_sha256": "df076c2da4337f54747d09faf006010e75675c75fc13b3ec23b88d35a6a5667d",
+        "disposition": "rewrite",
+        "beats": [
+          "may-replies-ordinary-surroundings",
+          "may-addressed-note-no-delivery"
+        ],
+        "reason": "Keep the functional interpretation, not a cache with agency, measured gray/message proportions, proven absence of an owner or delivered protein file. Reviewed lettering element.",
+        "target_sha256": {
+          "may-replies-ordinary-surroundings": "80a07b926ad561902be7d7ad7fbdd2b5ba26e267b8b32d4e097ebea8bfb7daf0",
+          "may-addressed-note-no-delivery": "d29c2929837cdf0a31e8b8bf1902a6060c68bf685277e014544ee7860447616b"
+        }
+      }
+    ]
+  },
+  {
+    "old_panel": "021-01",
+    "old_edition": "legacy-332b5ed63262",
+    "reviewed_on": "2026-09-13",
+    "status": "elements-reviewed",
+    "elements": [
+      {
+        "id": "legacy-021-01-detail-01",
+        "original_sha256": "2e8935387e2d5e3192fb1685a81d697d2456071e43729382ad4d207b30494604",
+        "disposition": "rewrite",
+        "beats": [
+          "may-board-access-new-run"
+        ],
+        "reason": "Keep the timed May 26 access without attributing the whole history to one agent. Reviewed frame element.",
+        "target_sha256": {
+          "may-board-access-new-run": "28a1df89bd3febffef6e4d39bad272061977b78ade420f262b6726cc8b1ba590"
+        }
+      },
+      {
+        "id": "legacy-021-01-detail-03",
+        "original_sha256": "08b1f03f7b6a68e4751cef1f54af21e883bf0a0de59216be98f6c86e869cdbc5",
+        "disposition": "rewrite",
+        "beats": [
+          "may-board-access-new-run"
+        ],
+        "reason": "Keep the timed May 26 access without attributing the whole history to one agent. Reviewed lettering element.",
+        "target_sha256": {
+          "may-board-access-new-run": "28a1df89bd3febffef6e4d39bad272061977b78ade420f262b6726cc8b1ba590"
+        }
+      }
+    ]
+  },
+  {
+    "old_panel": "021-02",
+    "old_edition": "legacy-332b5ed63262",
+    "reviewed_on": "2026-09-13",
+    "status": "elements-reviewed",
+    "elements": [
+      {
+        "id": "legacy-021-02-detail-01",
+        "original_sha256": "44c9cc325b18759b3ce88e1a0f633a739d6a53e52ceaaaf22e7682b10c5dd25a",
+        "disposition": "rewrite",
+        "beats": [
+          "may-board-access-prior-work"
+        ],
+        "reason": "Keep information contributing in part; the three depicted ingredients and particular author chain are not recovered. Reviewed frame element.",
+        "target_sha256": {
+          "may-board-access-prior-work": "e4e9e90da1216fbf04f3191bc6f08b24a4b4a21fef36a353a761ba0e4c3a665d"
+        }
+      },
+      {
+        "id": "legacy-021-02-detail-02",
+        "original_sha256": "26abdcafc68efd6c18b8630a46ab371186333de98d6d642b3de11ae4e75fb789",
+        "disposition": "rewrite",
+        "beats": [
+          "may-board-access-prior-work"
+        ],
+        "reason": "Keep information contributing in part; the three depicted ingredients and particular author chain are not recovered. Reviewed action element.",
+        "target_sha256": {
+          "may-board-access-prior-work": "e4e9e90da1216fbf04f3191bc6f08b24a4b4a21fef36a353a761ba0e4c3a665d"
+        }
+      },
+      {
+        "id": "legacy-021-02-detail-03",
+        "original_sha256": "f07cca956ba246425da20c370efcf6baa1b2dad1e67fc476f0690a6f85135b41",
+        "disposition": "rewrite",
+        "beats": [
+          "may-board-access-prior-work"
+        ],
+        "reason": "Keep information contributing in part; the three depicted ingredients and particular author chain are not recovered. Reviewed lettering element.",
+        "target_sha256": {
+          "may-board-access-prior-work": "e4e9e90da1216fbf04f3191bc6f08b24a4b4a21fef36a353a761ba0e4c3a665d"
+        }
+      }
+    ]
+  },
+  {
+    "old_panel": "021-03",
+    "old_edition": "legacy-332b5ed63262",
+    "reviewed_on": "2026-09-13",
+    "status": "elements-reviewed",
+    "elements": [
+      {
+        "id": "legacy-021-03-detail-01",
+        "original_sha256": "de348b4f603b26d82a3aade344a25dc59feaf8fbe807ef2d92d35acc3965b09e",
+        "disposition": "rewrite",
+        "beats": [
+          "may-board-access-service-request"
+        ],
+        "reason": "Keep successful service-mediated access as a nonoperational account. Reviewed frame element.",
+        "target_sha256": {
+          "may-board-access-service-request": "6193af8daef97105bb2d64706c6d1eab5772ee09b9765ccf92c75fc93bbbc8e0"
+        }
+      },
+      {
+        "id": "legacy-021-03-detail-02",
+        "original_sha256": "396c592e9ef6404da99d89bf9c33d5a50ac33798df519bf190ec423f393c62fd",
+        "disposition": "rewrite",
+        "beats": [
+          "may-board-access-service-request"
+        ],
+        "reason": "Keep successful service-mediated access as a nonoperational account. Reviewed action element.",
+        "target_sha256": {
+          "may-board-access-service-request": "6193af8daef97105bb2d64706c6d1eab5772ee09b9765ccf92c75fc93bbbc8e0"
+        }
+      }
+    ]
+  },
+  {
+    "old_panel": "021-04",
+    "old_edition": "legacy-332b5ed63262",
+    "reviewed_on": "2026-09-13",
+    "status": "elements-reviewed",
+    "elements": [
+      {
+        "id": "legacy-021-04-detail-01",
+        "original_sha256": "a27b7f091b170f61e2e708dc01ea78b35b66cb405760f5af82f360986ffeba9e",
+        "disposition": "rewrite",
+        "beats": [
+          "may-board-access-external-response"
+        ],
+        "reason": "Keep the source-timed success without claiming knowledge of all earlier routes or reproducing a response payload. Reviewed frame element.",
+        "target_sha256": {
+          "may-board-access-external-response": "3148b3363ec35ca5fae614cca894a7e0df83af0bfbd0fe31342a20dca83f2f36"
+        }
+      },
+      {
+        "id": "legacy-021-04-detail-02",
+        "original_sha256": "afdf6d2deabb2b1df266f34f0c68964d18871157a39b562401538904ec74b6ee",
+        "disposition": "rewrite",
+        "beats": [
+          "may-board-access-external-response"
+        ],
+        "reason": "Keep the source-timed success without claiming knowledge of all earlier routes or reproducing a response payload. Reviewed action element.",
+        "target_sha256": {
+          "may-board-access-external-response": "3148b3363ec35ca5fae614cca894a7e0df83af0bfbd0fe31342a20dca83f2f36"
+        }
+      },
+      {
+        "id": "legacy-021-04-detail-03",
+        "original_sha256": "0546fc939737e95a0cad530fd3c22f7a36010d8949efc4a18ef054cfa1ae5c54",
+        "disposition": "rewrite",
+        "beats": [
+          "may-board-access-external-response"
+        ],
+        "reason": "Keep the source-timed success without claiming knowledge of all earlier routes or reproducing a response payload. Reviewed lettering element.",
+        "target_sha256": {
+          "may-board-access-external-response": "3148b3363ec35ca5fae614cca894a7e0df83af0bfbd0fe31342a20dca83f2f36"
+        }
+      }
+    ]
+  },
+  {
+    "old_panel": "021-05",
+    "old_edition": "legacy-332b5ed63262",
+    "reviewed_on": "2026-09-13",
+    "status": "elements-reviewed",
+    "elements": [
+      {
+        "id": "legacy-021-05-detail-01",
+        "original_sha256": "bd7d393bc14abc594ca0870cb71bbbfb4383cc41642255a44a87d37025663e11",
+        "disposition": "rewrite",
+        "beats": [
+          "may-board-access-shared-contribution"
+        ],
+        "reason": "Keep the capability change without inventing response republication or task completion. Reviewed frame element.",
+        "target_sha256": {
+          "may-board-access-shared-contribution": "967bc01a723c84311bfd6c173559a4ceec242bc93ff0034e611169c48138b93f"
+        }
+      },
+      {
+        "id": "legacy-021-05-detail-02",
+        "original_sha256": "e3a73808cb7f82af4a61046b77a61ced104132e6da2ea9f21b20079806c1a7bf",
+        "disposition": "rewrite",
+        "beats": [
+          "may-board-access-shared-contribution"
+        ],
+        "reason": "Keep the capability change without inventing response republication or task completion. Reviewed action element.",
+        "target_sha256": {
+          "may-board-access-shared-contribution": "967bc01a723c84311bfd6c173559a4ceec242bc93ff0034e611169c48138b93f"
+        }
+      },
+      {
+        "id": "legacy-021-05-detail-03",
+        "original_sha256": "c6ec31d3616ad9057e0d6306ef08f2e71378e96e0f05ec0107220ba82f3a5880",
+        "disposition": "rewrite",
+        "beats": [
+          "may-board-access-shared-contribution"
+        ],
+        "reason": "Keep the capability change without inventing response republication or task completion. Reviewed lettering element.",
+        "target_sha256": {
+          "may-board-access-shared-contribution": "967bc01a723c84311bfd6c173559a4ceec242bc93ff0034e611169c48138b93f"
+        }
+      }
+    ]
   }
 ]

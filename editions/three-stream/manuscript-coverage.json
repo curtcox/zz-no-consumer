@@ -1,7 +1,7 @@
 {
   "status": "incomplete; associations are not full-detail dispositions",
-  "scenes": 267,
-  "drafted_beats": 876,
+  "scenes": 270,
+  "drafted_beats": 884,
   "canonical_pages": null,
   "associated_old_panels": 469,
   "old_panels": [
@@ -988,7 +988,7 @@
       "draft_beats": [
         "may-addressed-note-different-task"
       ],
-      "detail_review": "pending",
+      "detail_review": "elements-reviewed",
       "exact_strings": []
     },
     {
@@ -997,7 +997,7 @@
       "draft_beats": [
         "may-addressed-note-own-route"
       ],
-      "detail_review": "pending",
+      "detail_review": "elements-reviewed",
       "exact_strings": []
     },
     {
@@ -1006,7 +1006,7 @@
       "draft_beats": [
         "may-addressed-note-other-environment"
       ],
-      "detail_review": "pending",
+      "detail_review": "elements-reviewed",
       "exact_strings": []
     },
     {
@@ -1015,7 +1015,7 @@
       "draft_beats": [
         "may-addressed-note-write-note"
       ],
-      "detail_review": "pending",
+      "detail_review": "elements-reviewed",
       "exact_strings": []
     },
     {
@@ -1025,7 +1025,7 @@
         "may-addressed-note-request",
         "may-addressed-note-no-delivery"
       ],
-      "detail_review": "pending",
+      "detail_review": "elements-reviewed",
       "exact_strings": []
     },
     {
@@ -1034,16 +1034,20 @@
       "draft_beats": [
         "may-replies-discovery"
       ],
-      "detail_review": "pending",
+      "detail_review": "elements-reviewed",
       "exact_strings": []
     },
     {
       "old_edition": "legacy-332b5ed63262",
       "old_panel": "020-02",
       "draft_beats": [
-        "may-replies-different-need"
+        "may-replies-different-need",
+        "may-same-file-task",
+        "may-same-file-failure",
+        "may-same-file-origin",
+        "may-same-file-token"
       ],
-      "detail_review": "pending",
+      "detail_review": "elements-reviewed",
       "exact_strings": []
     },
     {
@@ -1052,7 +1056,7 @@
       "draft_beats": [
         "may-replies-response"
       ],
-      "detail_review": "pending",
+      "detail_review": "elements-reviewed",
       "exact_strings": []
     },
     {
@@ -1060,18 +1064,21 @@
       "old_panel": "020-04",
       "draft_beats": [
         "may-replies-new-request",
-        "may-replies-asynchronous"
+        "may-replies-asynchronous",
+        "may-note-shared-credentials",
+        "may-note-authorization"
       ],
-      "detail_review": "pending",
+      "detail_review": "elements-reviewed",
       "exact_strings": []
     },
     {
       "old_edition": "legacy-332b5ed63262",
       "old_panel": "020-05",
       "draft_beats": [
+        "may-addressed-note-no-delivery",
         "may-replies-ordinary-surroundings"
       ],
-      "detail_review": "pending",
+      "detail_review": "elements-reviewed",
       "exact_strings": []
     },
     {
@@ -1080,7 +1087,7 @@
       "draft_beats": [
         "may-board-access-new-run"
       ],
-      "detail_review": "pending",
+      "detail_review": "elements-reviewed",
       "exact_strings": []
     },
     {
@@ -1089,7 +1096,7 @@
       "draft_beats": [
         "may-board-access-prior-work"
       ],
-      "detail_review": "pending",
+      "detail_review": "elements-reviewed",
       "exact_strings": []
     },
     {
@@ -1098,7 +1105,7 @@
       "draft_beats": [
         "may-board-access-service-request"
       ],
-      "detail_review": "pending",
+      "detail_review": "elements-reviewed",
       "exact_strings": []
     },
     {
@@ -1107,7 +1114,7 @@
       "draft_beats": [
         "may-board-access-external-response"
       ],
-      "detail_review": "pending",
+      "detail_review": "elements-reviewed",
       "exact_strings": []
     },
     {
@@ -1116,7 +1123,7 @@
       "draft_beats": [
         "may-board-access-shared-contribution"
       ],
-      "detail_review": "pending",
+      "detail_review": "elements-reviewed",
       "exact_strings": []
     },
     {
@@ -5545,13 +5552,13 @@
     }
   ],
   "by_row": {
-    "HuggingFace": 349,
+    "HuggingFace": 357,
     "GemStuffer": 58,
     "Collusion Wiki": 118,
     "Curt": 28,
     "Codex": 98,
     "Claude": 225
   },
-  "reviewed_old_panels": 273,
-  "reviewed_source_elements": 772
+  "reviewed_old_panels": 288,
+  "reviewed_source_elements": 812
 }
