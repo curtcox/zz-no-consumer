@@ -1,0 +1,704 @@
+[
+  {
+    "id": "prod-title-request",
+    "title": "Curt asks for title-plan recommendations",
+    "movement": "collaboration",
+    "owner": "Curt",
+    "start": "2026-09-09T21:01:58.140000Z",
+    "end": "2026-09-09T21:01:58.140000Z",
+    "original_timezone": "UTC",
+    "precision": "millisecond",
+    "chronology_basis": "Stored original message timestamp. Request and response use their own times; no read receipt or implementation time is inferred beyond the report.",
+    "source_limit": "Preserved production exchange. Historical two-incident title and metaphor rules are not a final title selection for the three-stream edition. Reports are attributed, not independently certified.",
+    "status": "detailed-draft",
+    "beats": [
+      {
+        "id": "prod-title-request-request",
+        "old_panels": [],
+        "frame": "The dated Curt message is the central artifact. Narrator text identifies its request, proposal or report status. No reenacted desk, private conversation or unrecorded recipient reaction is introduced.",
+        "lettering": [
+          "Curt asks Codex to read the two-anthill plan and suggest changes. This is a dated request, not proof that the title or artwork has already changed."
+        ],
+        "exact_strings": [],
+        "sources": [
+          {
+            "key": "PROD-7c454d22297f",
+            "locator": "256t/editions/selected-messages/7c454d22297f076171f1e744da8f521461c02260579950d8665198c6a652d890.json; original line 9; SHA-256 7c454d22297f076171f1e744da8f521461c02260579950d8665198c6a652d890",
+            "available": "2026-09-09T21:01:58.140000Z"
+          }
+        ],
+        "evidence_status": "documented-message-with-reconstructed-visualization",
+        "time_start": "2026-09-09T21:01:58.140000Z",
+        "time_end": "2026-09-09T21:01:58.140000Z",
+        "art_reuse": "none-approved",
+        "detail_decisions": [],
+        "source_record": "current-mac:rollout-2026-09-09T16-01-30-01a087f9-cdd6-75a2-83b8-dbf49bb938ec:9"
+      }
+    ]
+  },
+  {
+    "id": "prod-title-proposal",
+    "title": "Codex separates metaphor from evidence",
+    "movement": "collaboration",
+    "owner": "Codex",
+    "start": "2026-09-09T21:02:53.698000Z",
+    "end": "2026-09-09T21:02:53.698000Z",
+    "original_timezone": "UTC",
+    "precision": "millisecond",
+    "chronology_basis": "Stored original message timestamp. Request and response use their own times; no read receipt or implementation time is inferred beyond the report.",
+    "source_limit": "Preserved production exchange. Historical two-incident title and metaphor rules are not a final title selection for the three-stream edition. Reports are attributed, not independently certified.",
+    "status": "detailed-draft",
+    "beats": [
+      {
+        "id": "prod-title-proposal-title",
+        "old_panels": [
+          "114-01"
+        ],
+        "frame": "The dated Codex message is the central artifact. Narrator text identifies its request, proposal or report status. No reenacted desk, private conversation or unrecorded recipient reaction is introduced.",
+        "lettering": [
+          "Codex proposes explaining the two hills as the two incidents then examined, while leaving the number of unseen incidents unknown. This is the earlier two-incident title proposal, not a decision about the new three-stream edition’s title."
+        ],
+        "exact_strings": [],
+        "sources": [
+          {
+            "key": "PROD-1db1791c6c7c",
+            "locator": "256t/editions/selected-messages/1db1791c6c7c141856876c9c7ac507536c07e18e5a13f429105234282a964db4.json; original line 43; SHA-256 1db1791c6c7c141856876c9c7ac507536c07e18e5a13f429105234282a964db4",
+            "available": "2026-09-09T21:02:53.698000Z"
+          }
+        ],
+        "evidence_status": "documented-message-with-reconstructed-visualization",
+        "time_start": "2026-09-09T21:02:53.698000Z",
+        "time_end": "2026-09-09T21:02:53.698000Z",
+        "art_reuse": "none-approved",
+        "detail_decisions": [
+          {
+            "old_panel": "114-01",
+            "disposition": "rewrite",
+            "reason": "Replace staged publication-relative title or logo action with its preserved September 9 production exchange and explicit evidence limits."
+          }
+        ],
+        "source_record": "current-mac:rollout-2026-09-09T16-01-30-01a087f9-cdd6-75a2-83b8-dbf49bb938ec:43"
+      },
+      {
+        "id": "prod-title-proposal-wordmark",
+        "old_panels": [],
+        "frame": "The dated Codex message is the central artifact. Narrator text identifies its request, proposal or report status. No reenacted desk, private conversation or unrecorded recipient reaction is introduced.",
+        "lettering": [
+          "It proposes keeping the incident-language wordmark as authored treatment, rather than calling it a name chosen by the whole population. The new book title would have its own cover and title-page role."
+        ],
+        "exact_strings": [],
+        "sources": [
+          {
+            "key": "PROD-1db1791c6c7c",
+            "locator": "256t/editions/selected-messages/1db1791c6c7c141856876c9c7ac507536c07e18e5a13f429105234282a964db4.json; original line 43; SHA-256 1db1791c6c7c141856876c9c7ac507536c07e18e5a13f429105234282a964db4",
+            "available": "2026-09-09T21:02:53.698000Z"
+          }
+        ],
+        "evidence_status": "documented-message-with-reconstructed-visualization",
+        "time_start": "2026-09-09T21:02:53.698000Z",
+        "time_end": "2026-09-09T21:02:53.698000Z",
+        "art_reuse": "none-approved",
+        "detail_decisions": [],
+        "source_record": "current-mac:rollout-2026-09-09T16-01-30-01a087f9-cdd6-75a2-83b8-dbf49bb938ec:43"
+      },
+      {
+        "id": "prod-title-proposal-echo",
+        "old_panels": [],
+        "frame": "The dated Codex message is the central artifact. Narrator text identifies its request, proposal or report status. No reenacted desk, private conversation or unrecorded recipient reaction is introduced.",
+        "lettering": [
+          "Codex recommends retaining the naming echo while correcting the plan’s treatment of the final wiki deletions: an earlier alphabetical sweep did not establish the reason for those last deletions."
+        ],
+        "exact_strings": [],
+        "sources": [
+          {
+            "key": "PROD-1db1791c6c7c",
+            "locator": "256t/editions/selected-messages/1db1791c6c7c141856876c9c7ac507536c07e18e5a13f429105234282a964db4.json; original line 43; SHA-256 1db1791c6c7c141856876c9c7ac507536c07e18e5a13f429105234282a964db4",
+            "available": "2026-09-09T21:02:53.698000Z"
+          }
+        ],
+        "evidence_status": "documented-message-with-reconstructed-visualization",
+        "time_start": "2026-09-09T21:02:53.698000Z",
+        "time_end": "2026-09-09T21:02:53.698000Z",
+        "art_reuse": "none-approved",
+        "detail_decisions": [],
+        "source_record": "current-mac:rollout-2026-09-09T16-01-30-01a087f9-cdd6-75a2-83b8-dbf49bb938ec:43"
+      },
+      {
+        "id": "prod-title-proposal-gap",
+        "old_panels": [
+          "114-01",
+          "114-02"
+        ],
+        "frame": "The dated Codex message is the central artifact. Narrator text identifies its request, proposal or report status. No reenacted desk, private conversation or unrecorded recipient reaction is introduced.",
+        "lettering": [
+          "It warns that a trail turning back can imply no connection, while a trail leaving the page can imply unseen continuation. It recommends unmarked space or interrupted visibility, preserving that neither a bridge nor its absence is established."
+        ],
+        "exact_strings": [],
+        "sources": [
+          {
+            "key": "PROD-1db1791c6c7c",
+            "locator": "256t/editions/selected-messages/1db1791c6c7c141856876c9c7ac507536c07e18e5a13f429105234282a964db4.json; original line 43; SHA-256 1db1791c6c7c141856876c9c7ac507536c07e18e5a13f429105234282a964db4",
+            "available": "2026-09-09T21:02:53.698000Z"
+          }
+        ],
+        "evidence_status": "documented-message-with-reconstructed-visualization",
+        "time_start": "2026-09-09T21:02:53.698000Z",
+        "time_end": "2026-09-09T21:02:53.698000Z",
+        "art_reuse": "none-approved",
+        "detail_decisions": [
+          {
+            "old_panel": "114-01",
+            "disposition": "rewrite",
+            "reason": "Replace staged publication-relative title or logo action with its preserved September 9 production exchange and explicit evidence limits."
+          },
+          {
+            "old_panel": "114-02",
+            "disposition": "rewrite",
+            "reason": "Replace staged publication-relative title or logo action with its preserved September 9 production exchange and explicit evidence limits."
+          }
+        ],
+        "source_record": "current-mac:rollout-2026-09-09T16-01-30-01a087f9-cdd6-75a2-83b8-dbf49bb938ec:43"
+      },
+      {
+        "id": "prod-title-proposal-pilot",
+        "old_panels": [
+          "114-02"
+        ],
+        "frame": "The dated Codex message is the central artifact. Narrator text identifies its request, proposal or report status. No reenacted desk, private conversation or unrecorded recipient reaction is introduced.",
+        "lettering": [
+          "Codex proposes testing the ant convention before broad adoption, including narrow-screen legibility and the risk that realistically lit ants inside an incident scene could look documentary."
+        ],
+        "exact_strings": [],
+        "sources": [
+          {
+            "key": "PROD-1db1791c6c7c",
+            "locator": "256t/editions/selected-messages/1db1791c6c7c141856876c9c7ac507536c07e18e5a13f429105234282a964db4.json; original line 43; SHA-256 1db1791c6c7c141856876c9c7ac507536c07e18e5a13f429105234282a964db4",
+            "available": "2026-09-09T21:02:53.698000Z"
+          }
+        ],
+        "evidence_status": "documented-message-with-reconstructed-visualization",
+        "time_start": "2026-09-09T21:02:53.698000Z",
+        "time_end": "2026-09-09T21:02:53.698000Z",
+        "art_reuse": "none-approved",
+        "detail_decisions": [
+          {
+            "old_panel": "114-02",
+            "disposition": "rewrite",
+            "reason": "Replace staged publication-relative title or logo action with its preserved September 9 production exchange and explicit evidence limits."
+          }
+        ],
+        "source_record": "current-mac:rollout-2026-09-09T16-01-30-01a087f9-cdd6-75a2-83b8-dbf49bb938ec:43"
+      },
+      {
+        "id": "prod-title-proposal-rules",
+        "old_panels": [
+          "114-01",
+          "114-02"
+        ],
+        "frame": "The dated Codex message is the central artifact. Narrator text identifies its request, proposal or report status. No reenacted desk, private conversation or unrecorded recipient reaction is introduced.",
+        "lettering": [
+          "Its proposed rules avoid persistent ant characters and hill interiors, and keep ant density nonquantitative. A quantitative display would need an explicit unit and mapping. The metaphors are authored choices, not individual agents or measured populations."
+        ],
+        "exact_strings": [],
+        "sources": [
+          {
+            "key": "PROD-1db1791c6c7c",
+            "locator": "256t/editions/selected-messages/1db1791c6c7c141856876c9c7ac507536c07e18e5a13f429105234282a964db4.json; original line 43; SHA-256 1db1791c6c7c141856876c9c7ac507536c07e18e5a13f429105234282a964db4",
+            "available": "2026-09-09T21:02:53.698000Z"
+          }
+        ],
+        "evidence_status": "documented-message-with-reconstructed-visualization",
+        "time_start": "2026-09-09T21:02:53.698000Z",
+        "time_end": "2026-09-09T21:02:53.698000Z",
+        "art_reuse": "none-approved",
+        "detail_decisions": [
+          {
+            "old_panel": "114-01",
+            "disposition": "rewrite",
+            "reason": "Replace staged publication-relative title or logo action with its preserved September 9 production exchange and explicit evidence limits."
+          },
+          {
+            "old_panel": "114-02",
+            "disposition": "rewrite",
+            "reason": "Replace staged publication-relative title or logo action with its preserved September 9 production exchange and explicit evidence limits."
+          }
+        ],
+        "source_record": "current-mac:rollout-2026-09-09T16-01-30-01a087f9-cdd6-75a2-83b8-dbf49bb938ec:43"
+      },
+      {
+        "id": "prod-title-proposal-corpus",
+        "old_panels": [],
+        "frame": "The dated Codex message is the central artifact. Narrator text identifies its request, proposal or report status. No reenacted desk, private conversation or unrecorded recipient reaction is introduced.",
+        "lettering": [
+          "The proposal also rejects a refusal-rate denominator derived from relevance-selected transcripts and warns that preserving a message does not automatically document a compressed scene. It calls for comparison, stable locators, declared omissions and a reviewed release."
+        ],
+        "exact_strings": [],
+        "sources": [
+          {
+            "key": "PROD-1db1791c6c7c",
+            "locator": "256t/editions/selected-messages/1db1791c6c7c141856876c9c7ac507536c07e18e5a13f429105234282a964db4.json; original line 43; SHA-256 1db1791c6c7c141856876c9c7ac507536c07e18e5a13f429105234282a964db4",
+            "available": "2026-09-09T21:02:53.698000Z"
+          }
+        ],
+        "evidence_status": "documented-message-with-reconstructed-visualization",
+        "time_start": "2026-09-09T21:02:53.698000Z",
+        "time_end": "2026-09-09T21:02:53.698000Z",
+        "art_reuse": "none-approved",
+        "detail_decisions": [],
+        "source_record": "current-mac:rollout-2026-09-09T16-01-30-01a087f9-cdd6-75a2-83b8-dbf49bb938ec:43"
+      }
+    ]
+  },
+  {
+    "id": "prod-title-authorize",
+    "title": "Curt authorizes the available title work",
+    "movement": "collaboration",
+    "owner": "Curt",
+    "start": "2026-09-09T21:08:43.843000Z",
+    "end": "2026-09-09T21:08:43.843000Z",
+    "original_timezone": "UTC",
+    "precision": "millisecond",
+    "chronology_basis": "Stored original message timestamp. Request and response use their own times; no read receipt or implementation time is inferred beyond the report.",
+    "source_limit": "Preserved production exchange. Historical two-incident title and metaphor rules are not a final title selection for the three-stream edition. Reports are attributed, not independently certified.",
+    "status": "detailed-draft",
+    "beats": [
+      {
+        "id": "prod-title-authorize-authorize",
+        "old_panels": [],
+        "frame": "The dated Curt message is the central artifact. Narrator text identifies its request, proposal or report status. No reenacted desk, private conversation or unrecorded recipient reaction is introduced.",
+        "lettering": [
+          "Curt tells Codex to do the work that can be done now. The authorization belongs to that September 9 task; it is not a later approval of publication or of this edition’s final title."
+        ],
+        "exact_strings": [],
+        "sources": [
+          {
+            "key": "PROD-921149090553",
+            "locator": "256t/editions/selected-messages/921149090553784059e60f7362d29192124978b4dfe04022d0dc80cdc1e8bb93.json; original line 50; SHA-256 921149090553784059e60f7362d29192124978b4dfe04022d0dc80cdc1e8bb93",
+            "available": "2026-09-09T21:08:43.843000Z"
+          }
+        ],
+        "evidence_status": "documented-message-with-reconstructed-visualization",
+        "time_start": "2026-09-09T21:08:43.843000Z",
+        "time_end": "2026-09-09T21:08:43.843000Z",
+        "art_reuse": "none-approved",
+        "detail_decisions": [],
+        "source_record": "current-mac:rollout-2026-09-09T16-01-30-01a087f9-cdd6-75a2-83b8-dbf49bb938ec:50"
+      }
+    ]
+  },
+  {
+    "id": "prod-title-source-edit",
+    "title": "Codex reports title and source edits",
+    "movement": "collaboration",
+    "owner": "Codex",
+    "start": "2026-09-09T21:14:00.508000Z",
+    "end": "2026-09-09T21:14:00.508000Z",
+    "original_timezone": "UTC",
+    "precision": "millisecond",
+    "chronology_basis": "Stored original message timestamp. Request and response use their own times; no read receipt or implementation time is inferred beyond the report.",
+    "source_limit": "Preserved production exchange. Historical two-incident title and metaphor rules are not a final title selection for the three-stream edition. Reports are attributed, not independently certified.",
+    "status": "detailed-draft",
+    "beats": [
+      {
+        "id": "prod-title-source-edit-edited",
+        "old_panels": [
+          "114-01",
+          "114-02"
+        ],
+        "frame": "The dated Codex message is the central artifact. Narrator text identifies its request, proposal or report status. No reenacted desk, private conversation or unrecorded recipient reaction is introduced.",
+        "lettering": [
+          "Codex reports that the rename, title FAQ, fallacy entry and dated creator beat are in the source files. This records its implementation report, not a preserved conversation from the staged creator scene."
+        ],
+        "exact_strings": [],
+        "sources": [
+          {
+            "key": "PROD-c34341476dd3",
+            "locator": "256t/editions/selected-messages/c34341476dd36c5ed127c3a65fb70af16896786905d686919597b6f48bb7cc43.json; original line 142; SHA-256 c34341476dd36c5ed127c3a65fb70af16896786905d686919597b6f48bb7cc43",
+            "available": "2026-09-09T21:14:00.508000Z"
+          }
+        ],
+        "evidence_status": "documented-message-with-reconstructed-visualization",
+        "time_start": "2026-09-09T21:14:00.508000Z",
+        "time_end": "2026-09-09T21:14:00.508000Z",
+        "art_reuse": "none-approved",
+        "detail_decisions": [
+          {
+            "old_panel": "114-01",
+            "disposition": "rewrite",
+            "reason": "Replace staged publication-relative title or logo action with its preserved September 9 production exchange and explicit evidence limits."
+          },
+          {
+            "old_panel": "114-02",
+            "disposition": "rewrite",
+            "reason": "Replace staged publication-relative title or logo action with its preserved September 9 production exchange and explicit evidence limits."
+          }
+        ],
+        "source_record": "current-mac:rollout-2026-09-09T16-01-30-01a087f9-cdd6-75a2-83b8-dbf49bb938ec:142"
+      },
+      {
+        "id": "prod-title-source-edit-source-limit",
+        "old_panels": [],
+        "frame": "The dated Codex message is the central artifact. Narrator text identifies its request, proposal or report status. No reenacted desk, private conversation or unrecorded recipient reaction is introduced.",
+        "lettering": [
+          "It reports a narrow admission of the supplied Toner passage and says it could not yet retrieve a full transcript to verify additional interview claims. The draft keeps that temporary limit at this point in the exchange."
+        ],
+        "exact_strings": [],
+        "sources": [
+          {
+            "key": "PROD-c34341476dd3",
+            "locator": "256t/editions/selected-messages/c34341476dd36c5ed127c3a65fb70af16896786905d686919597b6f48bb7cc43.json; original line 142; SHA-256 c34341476dd36c5ed127c3a65fb70af16896786905d686919597b6f48bb7cc43",
+            "available": "2026-09-09T21:14:00.508000Z"
+          }
+        ],
+        "evidence_status": "documented-message-with-reconstructed-visualization",
+        "time_start": "2026-09-09T21:14:00.508000Z",
+        "time_end": "2026-09-09T21:14:00.508000Z",
+        "art_reuse": "none-approved",
+        "detail_decisions": [],
+        "source_record": "current-mac:rollout-2026-09-09T16-01-30-01a087f9-cdd6-75a2-83b8-dbf49bb938ec:142"
+      }
+    ]
+  },
+  {
+    "id": "prod-title-caption-check",
+    "title": "Codex reports recovering the title captions",
+    "movement": "collaboration",
+    "owner": "Codex",
+    "start": "2026-09-09T21:25:16.813000Z",
+    "end": "2026-09-09T21:25:16.813000Z",
+    "original_timezone": "UTC",
+    "precision": "millisecond",
+    "chronology_basis": "Stored original message timestamp. Request and response use their own times; no read receipt or implementation time is inferred beyond the report.",
+    "source_limit": "Preserved production exchange. Historical two-incident title and metaphor rules are not a final title selection for the three-stream edition. Reports are attributed, not independently certified.",
+    "status": "detailed-draft",
+    "beats": [
+      {
+        "id": "prod-title-caption-check-captions",
+        "old_panels": [],
+        "frame": "The dated Codex message is the central artifact. Narrator text identifies its request, proposal or report status. No reenacted desk, private conversation or unrecorded recipient reaction is introduced.",
+        "lettering": [
+          "Codex later reports recovering automatic video captions and locating the relayed title line at 28:00. It says it corrected the locator and retained paraphrase. This is a report of that source check, not this edition independently verifying the video or endorsing additional interview claims."
+        ],
+        "exact_strings": [],
+        "sources": [
+          {
+            "key": "PROD-4968195025cb",
+            "locator": "256t/editions/selected-messages/4968195025cb7f6f4c7410e46b6d6fafa49c72c54ebaaa984eac4320ebce3440.json; original line 398; SHA-256 4968195025cb7f6f4c7410e46b6d6fafa49c72c54ebaaa984eac4320ebce3440",
+            "available": "2026-09-09T21:25:16.813000Z"
+          }
+        ],
+        "evidence_status": "documented-message-with-reconstructed-visualization",
+        "time_start": "2026-09-09T21:25:16.813000Z",
+        "time_end": "2026-09-09T21:25:16.813000Z",
+        "art_reuse": "none-approved",
+        "detail_decisions": [],
+        "source_record": "current-mac:rollout-2026-09-09T16-01-30-01a087f9-cdd6-75a2-83b8-dbf49bb938ec:398"
+      },
+      {
+        "id": "prod-title-caption-check-repairs",
+        "old_panels": [],
+        "frame": "The dated Codex message is the central artifact. Narrator text identifies its request, proposal or report status. No reenacted desk, private conversation or unrecorded recipient reaction is introduced.",
+        "lettering": [
+          "It also reports that the first check run failed on a stale map manifest and artwork queue, then passed after repairs. The failures remain part of the record instead of becoming an uninterrupted all-green claim."
+        ],
+        "exact_strings": [],
+        "sources": [
+          {
+            "key": "PROD-4968195025cb",
+            "locator": "256t/editions/selected-messages/4968195025cb7f6f4c7410e46b6d6fafa49c72c54ebaaa984eac4320ebce3440.json; original line 398; SHA-256 4968195025cb7f6f4c7410e46b6d6fafa49c72c54ebaaa984eac4320ebce3440",
+            "available": "2026-09-09T21:25:16.813000Z"
+          }
+        ],
+        "evidence_status": "documented-message-with-reconstructed-visualization",
+        "time_start": "2026-09-09T21:25:16.813000Z",
+        "time_end": "2026-09-09T21:25:16.813000Z",
+        "art_reuse": "none-approved",
+        "detail_decisions": [],
+        "source_record": "current-mac:rollout-2026-09-09T16-01-30-01a087f9-cdd6-75a2-83b8-dbf49bb938ec:398"
+      }
+    ]
+  },
+  {
+    "id": "prod-title-result",
+    "title": "Codex reports the implemented title changes",
+    "movement": "collaboration",
+    "owner": "Codex",
+    "start": "2026-09-09T21:30:35.268000Z",
+    "end": "2026-09-09T21:30:35.268000Z",
+    "original_timezone": "UTC",
+    "precision": "millisecond",
+    "chronology_basis": "Stored original message timestamp. Request and response use their own times; no read receipt or implementation time is inferred beyond the report.",
+    "source_limit": "Preserved production exchange. Historical two-incident title and metaphor rules are not a final title selection for the three-stream edition. Reports are attributed, not independently certified.",
+    "status": "detailed-draft",
+    "beats": [
+      {
+        "id": "prod-title-result-result",
+        "old_panels": [
+          "114-01",
+          "114-02"
+        ],
+        "frame": "The dated Codex message is the central artifact. Narrator text identifies its request, proposal or report status. No reenacted desk, private conversation or unrecorded recipient reaction is introduced.",
+        "lettering": [
+          "Codex reports the rename across editions and site output, revised visual rules and disclosures, a visual pilot and corrected source-attribution claims. The message preserves its reported result rather than proving a finished new graphic novel."
+        ],
+        "exact_strings": [],
+        "sources": [
+          {
+            "key": "PROD-9c7b953bfd6d",
+            "locator": "256t/editions/selected-messages/9c7b953bfd6d3005f18fd32352f985e3548547ac5da9b6909ca7268fe69e4c9f.json; original line 495; SHA-256 9c7b953bfd6d3005f18fd32352f985e3548547ac5da9b6909ca7268fe69e4c9f",
+            "available": "2026-09-09T21:30:35.268000Z"
+          }
+        ],
+        "evidence_status": "documented-message-with-reconstructed-visualization",
+        "time_start": "2026-09-09T21:30:35.268000Z",
+        "time_end": "2026-09-09T21:30:35.268000Z",
+        "art_reuse": "none-approved",
+        "detail_decisions": [
+          {
+            "old_panel": "114-01",
+            "disposition": "rewrite",
+            "reason": "Replace staged publication-relative title or logo action with its preserved September 9 production exchange and explicit evidence limits."
+          },
+          {
+            "old_panel": "114-02",
+            "disposition": "rewrite",
+            "reason": "Replace staged publication-relative title or logo action with its preserved September 9 production exchange and explicit evidence limits."
+          }
+        ],
+        "source_record": "current-mac:rollout-2026-09-09T16-01-30-01a087f9-cdd6-75a2-83b8-dbf49bb938ec:495"
+      },
+      {
+        "id": "prod-title-result-remaining",
+        "old_panels": [],
+        "frame": "The dated Codex message is the central artifact. Narrator text identifies its request, proposal or report status. No reenacted desk, private conversation or unrecorded recipient reaction is introduced.",
+        "lettering": [
+          "The report leaves broader artwork adoption, the wiki map model, novella metaphor treatment and transcript publication open. Three stale artwork jobs remain preserved and blocked for review. It explicitly reports no commit or deployment."
+        ],
+        "exact_strings": [],
+        "sources": [
+          {
+            "key": "PROD-9c7b953bfd6d",
+            "locator": "256t/editions/selected-messages/9c7b953bfd6d3005f18fd32352f985e3548547ac5da9b6909ca7268fe69e4c9f.json; original line 495; SHA-256 9c7b953bfd6d3005f18fd32352f985e3548547ac5da9b6909ca7268fe69e4c9f",
+            "available": "2026-09-09T21:30:35.268000Z"
+          }
+        ],
+        "evidence_status": "documented-message-with-reconstructed-visualization",
+        "time_start": "2026-09-09T21:30:35.268000Z",
+        "time_end": "2026-09-09T21:30:35.268000Z",
+        "art_reuse": "none-approved",
+        "detail_decisions": [],
+        "source_record": "current-mac:rollout-2026-09-09T16-01-30-01a087f9-cdd6-75a2-83b8-dbf49bb938ec:495"
+      }
+    ]
+  },
+  {
+    "id": "prod-title-logo-request",
+    "title": "Curt asks for the supplied Ant logo",
+    "movement": "collaboration",
+    "owner": "Curt",
+    "start": "2026-09-09T21:53:57.797000Z",
+    "end": "2026-09-09T21:53:57.797000Z",
+    "original_timezone": "UTC",
+    "precision": "millisecond",
+    "chronology_basis": "Stored original message timestamp. Request and response use their own times; no read receipt or implementation time is inferred beyond the report.",
+    "source_limit": "Preserved production exchange. Historical two-incident title and metaphor rules are not a final title selection for the three-stream edition. Reports are attributed, not independently certified.",
+    "status": "detailed-draft",
+    "beats": [
+      {
+        "id": "prod-title-logo-request-history",
+        "old_panels": [
+          "114-01"
+        ],
+        "frame": "The dated Curt message is the central artifact. Narrator text identifies its request, proposal or report status. No reenacted desk, private conversation or unrecorded recipient reaction is introduced.",
+        "lettering": [
+          "Curt asks whether Artifactory’s Maven roots and Maven as Ant’s official replacement are roughly right. He also asks for the supplied logo somewhere in the background. The request does not establish a real print on his wall."
+        ],
+        "exact_strings": [],
+        "sources": [
+          {
+            "key": "PROD-28dae0432bce",
+            "locator": "256t/editions/selected-messages/28dae0432bceeb52847d3d74f11b7cbe63acf96a599e53386717b6e141c39544.json; original line 806; SHA-256 28dae0432bceeb52847d3d74f11b7cbe63acf96a599e53386717b6e141c39544",
+            "available": "2026-09-09T21:53:57.797000Z"
+          }
+        ],
+        "evidence_status": "documented-message-with-reconstructed-visualization",
+        "time_start": "2026-09-09T21:53:57.797000Z",
+        "time_end": "2026-09-09T21:53:57.797000Z",
+        "art_reuse": "none-approved",
+        "detail_decisions": [
+          {
+            "old_panel": "114-01",
+            "disposition": "rewrite",
+            "reason": "Replace staged publication-relative title or logo action with its preserved September 9 production exchange and explicit evidence limits."
+          }
+        ],
+        "source_record": "current-mac:rollout-2026-09-09T16-01-30-01a087f9-cdd6-75a2-83b8-dbf49bb938ec:806"
+      }
+    ]
+  },
+  {
+    "id": "prod-title-history-correction",
+    "title": "Codex corrects the Ant premise",
+    "movement": "collaboration",
+    "owner": "Codex",
+    "start": "2026-09-09T21:55:06.885000Z",
+    "end": "2026-09-09T21:55:06.885000Z",
+    "original_timezone": "UTC",
+    "precision": "millisecond",
+    "chronology_basis": "Stored original message timestamp. Request and response use their own times; no read receipt or implementation time is inferred beyond the report.",
+    "source_limit": "Preserved production exchange. Historical two-incident title and metaphor rules are not a final title selection for the three-stream edition. Reports are attributed, not independently certified.",
+    "status": "detailed-draft",
+    "beats": [
+      {
+        "id": "prod-title-history-correction-correction",
+        "old_panels": [
+          "114-01"
+        ],
+        "frame": "The dated Codex message is the central artifact. Narrator text identifies its request, proposal or report status. No reenacted desk, private conversation or unrecorded recipient reaction is introduced.",
+        "lettering": [
+          "Codex answers that Artifactory was announced as a Maven repository proxy, but Maven addressed problems with Ant-based builds rather than officially replacing and retiring Ant. This is the documented correction Codex gave, not a new independent historical investigation by this edition."
+        ],
+        "exact_strings": [],
+        "sources": [
+          {
+            "key": "PROD-5e7343d98159",
+            "locator": "256t/editions/selected-messages/5e7343d981596038f02b1b41a33ad9d3f8c3cd0d75206b7497421c88996fc434.json; original line 835; SHA-256 5e7343d981596038f02b1b41a33ad9d3f8c3cd0d75206b7497421c88996fc434",
+            "available": "2026-09-09T21:55:06.885000Z"
+          }
+        ],
+        "evidence_status": "documented-message-with-reconstructed-visualization",
+        "time_start": "2026-09-09T21:55:06.885000Z",
+        "time_end": "2026-09-09T21:55:06.885000Z",
+        "art_reuse": "none-approved",
+        "detail_decisions": [
+          {
+            "old_panel": "114-01",
+            "disposition": "rewrite",
+            "reason": "Replace staged publication-relative title or logo action with its preserved September 9 production exchange and explicit evidence limits."
+          }
+        ],
+        "source_record": "current-mac:rollout-2026-09-09T16-01-30-01a087f9-cdd6-75a2-83b8-dbf49bb938ec:835"
+      },
+      {
+        "id": "prod-title-history-correction-placement",
+        "old_panels": [
+          "114-01"
+        ],
+        "frame": "The dated Codex message is the central artifact. Narrator text identifies its request, proposal or report status. No reenacted desk, private conversation or unrecorded recipient reaction is introduced.",
+        "lettering": [
+          "It proposes the supplied logo as a small background print in the reconstructed creator scene, separate from incident evidence and the book’s authored ant figures."
+        ],
+        "exact_strings": [],
+        "sources": [
+          {
+            "key": "PROD-5e7343d98159",
+            "locator": "256t/editions/selected-messages/5e7343d981596038f02b1b41a33ad9d3f8c3cd0d75206b7497421c88996fc434.json; original line 835; SHA-256 5e7343d981596038f02b1b41a33ad9d3f8c3cd0d75206b7497421c88996fc434",
+            "available": "2026-09-09T21:55:06.885000Z"
+          }
+        ],
+        "evidence_status": "documented-message-with-reconstructed-visualization",
+        "time_start": "2026-09-09T21:55:06.885000Z",
+        "time_end": "2026-09-09T21:55:06.885000Z",
+        "art_reuse": "none-approved",
+        "detail_decisions": [
+          {
+            "old_panel": "114-01",
+            "disposition": "rewrite",
+            "reason": "Replace staged publication-relative title or logo action with its preserved September 9 production exchange and explicit evidence limits."
+          }
+        ],
+        "source_record": "current-mac:rollout-2026-09-09T16-01-30-01a087f9-cdd6-75a2-83b8-dbf49bb938ec:835"
+      }
+    ]
+  },
+  {
+    "id": "prod-title-logo-report",
+    "title": "Codex reports preserving the supplied mark",
+    "movement": "collaboration",
+    "owner": "Codex",
+    "start": "2026-09-09T21:57:10.272000Z",
+    "end": "2026-09-09T21:57:10.272000Z",
+    "original_timezone": "UTC",
+    "precision": "millisecond",
+    "chronology_basis": "Stored original message timestamp. Request and response use their own times; no read receipt or implementation time is inferred beyond the report.",
+    "source_limit": "Preserved production exchange. Historical two-incident title and metaphor rules are not a final title selection for the three-stream edition. Reports are attributed, not independently certified.",
+    "status": "detailed-draft",
+    "beats": [
+      {
+        "id": "prod-title-logo-report-image",
+        "old_panels": [
+          "114-01"
+        ],
+        "frame": "The dated Codex message is the central artifact. Narrator text identifies its request, proposal or report status. No reenacted desk, private conversation or unrecorded recipient reaction is introduced.",
+        "lettering": [
+          "Codex reports preserving the original logo and proportions, adding attribution and matching the prose. It says generation instructions reserve blank space so the original mark can be composited afterward. The message concerns the designed scene, not Curt’s physical possessions."
+        ],
+        "exact_strings": [],
+        "sources": [
+          {
+            "key": "PROD-37ec8dfabb19",
+            "locator": "256t/editions/selected-messages/37ec8dfabb190907e429724a7ac106bf2cfcd5f0369ac9286b1fa1bd865e30fb.json; original line 873; SHA-256 37ec8dfabb190907e429724a7ac106bf2cfcd5f0369ac9286b1fa1bd865e30fb",
+            "available": "2026-09-09T21:57:10.272000Z"
+          }
+        ],
+        "evidence_status": "documented-message-with-reconstructed-visualization",
+        "time_start": "2026-09-09T21:57:10.272000Z",
+        "time_end": "2026-09-09T21:57:10.272000Z",
+        "art_reuse": "none-approved",
+        "detail_decisions": [
+          {
+            "old_panel": "114-01",
+            "disposition": "rewrite",
+            "reason": "Replace staged publication-relative title or logo action with its preserved September 9 production exchange and explicit evidence limits."
+          }
+        ],
+        "source_record": "current-mac:rollout-2026-09-09T16-01-30-01a087f9-cdd6-75a2-83b8-dbf49bb938ec:873"
+      }
+    ]
+  },
+  {
+    "id": "prod-title-final-report",
+    "title": "Codex finishes the logo task report",
+    "movement": "collaboration",
+    "owner": "Codex",
+    "start": "2026-09-09T21:59:10.848000Z",
+    "end": "2026-09-09T21:59:10.848000Z",
+    "original_timezone": "UTC",
+    "precision": "millisecond",
+    "chronology_basis": "Stored original message timestamp. Request and response use their own times; no read receipt or implementation time is inferred beyond the report.",
+    "source_limit": "Preserved production exchange. Historical two-incident title and metaphor rules are not a final title selection for the three-stream edition. Reports are attributed, not independently certified.",
+    "status": "detailed-draft",
+    "beats": [
+      {
+        "id": "prod-title-final-report-final",
+        "old_panels": [
+          "114-01"
+        ],
+        "frame": "The dated Codex message is the central artifact. Narrator text identifies its request, proposal or report status. No reenacted desk, private conversation or unrecorded recipient reaction is introduced.",
+        "lettering": [
+          "The final message repeats the history correction, links its sources and reports the background print and rebuilt site. Checks are reported as passing. This is a completed task report with its own evidence limits, not evidence that either incident used Ant or that Apache endorsed the book."
+        ],
+        "exact_strings": [],
+        "sources": [
+          {
+            "key": "PROD-4abdf0be2856",
+            "locator": "256t/editions/selected-messages/4abdf0be28563ebd26ca13eb7b53ad334f1294a444d896f39b780983a4cc3bd1.json; original line 939; SHA-256 4abdf0be28563ebd26ca13eb7b53ad334f1294a444d896f39b780983a4cc3bd1",
+            "available": "2026-09-09T21:59:10.848000Z"
+          }
+        ],
+        "evidence_status": "documented-message-with-reconstructed-visualization",
+        "time_start": "2026-09-09T21:59:10.848000Z",
+        "time_end": "2026-09-09T21:59:10.848000Z",
+        "art_reuse": "none-approved",
+        "detail_decisions": [
+          {
+            "old_panel": "114-01",
+            "disposition": "rewrite",
+            "reason": "Replace staged publication-relative title or logo action with its preserved September 9 production exchange and explicit evidence limits."
+          }
+        ],
+        "source_record": "current-mac:rollout-2026-09-09T16-01-30-01a087f9-cdd6-75a2-83b8-dbf49bb938ec:939"
+      }
+    ]
+  }
+]

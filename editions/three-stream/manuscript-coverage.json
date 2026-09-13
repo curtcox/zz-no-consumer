@@ -1,9 +1,9 @@
 {
   "status": "incomplete; associations are not full-detail dispositions",
-  "scenes": 248,
-  "drafted_beats": 788,
+  "scenes": 258,
+  "drafted_beats": 808,
   "canonical_pages": null,
-  "associated_old_panels": 398,
+  "associated_old_panels": 399,
   "old_panels": [
     {
       "old_edition": "legacy-332b5ed63262",
@@ -5015,17 +5015,33 @@
     {
       "old_edition": "legacy-332b5ed63262",
       "old_panel": "114-01",
-      "draft_beats": [],
-      "detail_review": "pending",
+      "draft_beats": [
+        "prod-title-proposal-title",
+        "prod-title-proposal-gap",
+        "prod-title-proposal-rules",
+        "prod-title-source-edit-edited",
+        "prod-title-result-result",
+        "prod-title-logo-request-history",
+        "prod-title-history-correction-correction",
+        "prod-title-history-correction-placement",
+        "prod-title-logo-report-image",
+        "prod-title-final-report-final"
+      ],
+      "detail_review": "elements-reviewed",
       "exact_strings": []
     },
     {
       "old_edition": "legacy-332b5ed63262",
       "old_panel": "114-02",
       "draft_beats": [
-        "prod-downstream-seams"
+        "prod-downstream-seams",
+        "prod-title-proposal-gap",
+        "prod-title-proposal-pilot",
+        "prod-title-proposal-rules",
+        "prod-title-source-edit-edited",
+        "prod-title-result-result"
       ],
-      "detail_review": "pending",
+      "detail_review": "elements-reviewed",
       "exact_strings": []
     },
     {
@@ -5265,10 +5281,10 @@
     "HuggingFace": 342,
     "GemStuffer": 58,
     "Collusion Wiki": 115,
-    "Curt": 25,
-    "Codex": 80,
+    "Curt": 28,
+    "Codex": 97,
     "Claude": 168
   },
-  "reviewed_old_panels": 149,
-  "reviewed_source_elements": 363
+  "reviewed_old_panels": 151,
+  "reviewed_source_elements": 369
 }

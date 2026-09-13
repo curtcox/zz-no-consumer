@@ -10860,6 +10860,346 @@ It also distinguishes the engagement period, June 26–July 13, from the reviewe
 
 **Frozen panel associations:** 063-04
 
+## Curt asks for title-plan recommendations — prod-title-request
+
+**Row:** Curt · collaboration
+
+**UTC bounds:** 2026-09-09T21:01:58.140000Z → 2026-09-09T21:01:58.140000Z · millisecond
+
+**Time evidence:** Stored original message timestamp. Request and response use their own times; no read receipt or implementation time is inferred beyond the report.
+
+**Evidence limit:** Preserved production exchange. Historical two-incident title and metaphor rules are not a final title selection for the three-stream edition. Reports are attributed, not independently certified.
+
+### prod-title-request-request
+
+**Frame:** The dated Curt message is the central artifact. Narrator text identifies its request, proposal or report status. No reenacted desk, private conversation or unrecorded recipient reaction is introduced.
+
+**Lettering:**
+
+Curt asks Codex to read the two-anthill plan and suggest changes. This is a dated request, not proof that the title or artwork has already changed.
+
+**Sources:** PROD-7c454d22297f — 256t/editions/selected-messages/7c454d22297f076171f1e744da8f521461c02260579950d8665198c6a652d890.json; original line 9; SHA-256 7c454d22297f076171f1e744da8f521461c02260579950d8665198c6a652d890 (available 2026-09-09T21:01:58.140000Z)
+
+**Frozen panel associations:** New material.
+
+## Codex separates metaphor from evidence — prod-title-proposal
+
+**Row:** Codex · collaboration
+
+**UTC bounds:** 2026-09-09T21:02:53.698000Z → 2026-09-09T21:02:53.698000Z · millisecond
+
+**Time evidence:** Stored original message timestamp. Request and response use their own times; no read receipt or implementation time is inferred beyond the report.
+
+**Evidence limit:** Preserved production exchange. Historical two-incident title and metaphor rules are not a final title selection for the three-stream edition. Reports are attributed, not independently certified.
+
+### prod-title-proposal-title
+
+**Frame:** The dated Codex message is the central artifact. Narrator text identifies its request, proposal or report status. No reenacted desk, private conversation or unrecorded recipient reaction is introduced.
+
+**Lettering:**
+
+Codex proposes explaining the two hills as the two incidents then examined, while leaving the number of unseen incidents unknown. This is the earlier two-incident title proposal, not a decision about the new three-stream edition’s title.
+
+**Sources:** PROD-1db1791c6c7c — 256t/editions/selected-messages/1db1791c6c7c141856876c9c7ac507536c07e18e5a13f429105234282a964db4.json; original line 43; SHA-256 1db1791c6c7c141856876c9c7ac507536c07e18e5a13f429105234282a964db4 (available 2026-09-09T21:02:53.698000Z)
+
+**Frozen panel associations:** 114-01
+
+### prod-title-proposal-wordmark
+
+**Frame:** The dated Codex message is the central artifact. Narrator text identifies its request, proposal or report status. No reenacted desk, private conversation or unrecorded recipient reaction is introduced.
+
+**Lettering:**
+
+It proposes keeping the incident-language wordmark as authored treatment, rather than calling it a name chosen by the whole population. The new book title would have its own cover and title-page role.
+
+**Sources:** PROD-1db1791c6c7c — 256t/editions/selected-messages/1db1791c6c7c141856876c9c7ac507536c07e18e5a13f429105234282a964db4.json; original line 43; SHA-256 1db1791c6c7c141856876c9c7ac507536c07e18e5a13f429105234282a964db4 (available 2026-09-09T21:02:53.698000Z)
+
+**Frozen panel associations:** New material.
+
+### prod-title-proposal-echo
+
+**Frame:** The dated Codex message is the central artifact. Narrator text identifies its request, proposal or report status. No reenacted desk, private conversation or unrecorded recipient reaction is introduced.
+
+**Lettering:**
+
+Codex recommends retaining the naming echo while correcting the plan’s treatment of the final wiki deletions: an earlier alphabetical sweep did not establish the reason for those last deletions.
+
+**Sources:** PROD-1db1791c6c7c — 256t/editions/selected-messages/1db1791c6c7c141856876c9c7ac507536c07e18e5a13f429105234282a964db4.json; original line 43; SHA-256 1db1791c6c7c141856876c9c7ac507536c07e18e5a13f429105234282a964db4 (available 2026-09-09T21:02:53.698000Z)
+
+**Frozen panel associations:** New material.
+
+### prod-title-proposal-gap
+
+**Frame:** The dated Codex message is the central artifact. Narrator text identifies its request, proposal or report status. No reenacted desk, private conversation or unrecorded recipient reaction is introduced.
+
+**Lettering:**
+
+It warns that a trail turning back can imply no connection, while a trail leaving the page can imply unseen continuation. It recommends unmarked space or interrupted visibility, preserving that neither a bridge nor its absence is established.
+
+**Sources:** PROD-1db1791c6c7c — 256t/editions/selected-messages/1db1791c6c7c141856876c9c7ac507536c07e18e5a13f429105234282a964db4.json; original line 43; SHA-256 1db1791c6c7c141856876c9c7ac507536c07e18e5a13f429105234282a964db4 (available 2026-09-09T21:02:53.698000Z)
+
+**Frozen panel associations:** 114-01, 114-02
+
+### prod-title-proposal-pilot
+
+**Frame:** The dated Codex message is the central artifact. Narrator text identifies its request, proposal or report status. No reenacted desk, private conversation or unrecorded recipient reaction is introduced.
+
+**Lettering:**
+
+Codex proposes testing the ant convention before broad adoption, including narrow-screen legibility and the risk that realistically lit ants inside an incident scene could look documentary.
+
+**Sources:** PROD-1db1791c6c7c — 256t/editions/selected-messages/1db1791c6c7c141856876c9c7ac507536c07e18e5a13f429105234282a964db4.json; original line 43; SHA-256 1db1791c6c7c141856876c9c7ac507536c07e18e5a13f429105234282a964db4 (available 2026-09-09T21:02:53.698000Z)
+
+**Frozen panel associations:** 114-02
+
+### prod-title-proposal-rules
+
+**Frame:** The dated Codex message is the central artifact. Narrator text identifies its request, proposal or report status. No reenacted desk, private conversation or unrecorded recipient reaction is introduced.
+
+**Lettering:**
+
+Its proposed rules avoid persistent ant characters and hill interiors, and keep ant density nonquantitative. A quantitative display would need an explicit unit and mapping. The metaphors are authored choices, not individual agents or measured populations.
+
+**Sources:** PROD-1db1791c6c7c — 256t/editions/selected-messages/1db1791c6c7c141856876c9c7ac507536c07e18e5a13f429105234282a964db4.json; original line 43; SHA-256 1db1791c6c7c141856876c9c7ac507536c07e18e5a13f429105234282a964db4 (available 2026-09-09T21:02:53.698000Z)
+
+**Frozen panel associations:** 114-01, 114-02
+
+### prod-title-proposal-corpus
+
+**Frame:** The dated Codex message is the central artifact. Narrator text identifies its request, proposal or report status. No reenacted desk, private conversation or unrecorded recipient reaction is introduced.
+
+**Lettering:**
+
+The proposal also rejects a refusal-rate denominator derived from relevance-selected transcripts and warns that preserving a message does not automatically document a compressed scene. It calls for comparison, stable locators, declared omissions and a reviewed release.
+
+**Sources:** PROD-1db1791c6c7c — 256t/editions/selected-messages/1db1791c6c7c141856876c9c7ac507536c07e18e5a13f429105234282a964db4.json; original line 43; SHA-256 1db1791c6c7c141856876c9c7ac507536c07e18e5a13f429105234282a964db4 (available 2026-09-09T21:02:53.698000Z)
+
+**Frozen panel associations:** New material.
+
+## Curt authorizes the available title work — prod-title-authorize
+
+**Row:** Curt · collaboration
+
+**UTC bounds:** 2026-09-09T21:08:43.843000Z → 2026-09-09T21:08:43.843000Z · millisecond
+
+**Time evidence:** Stored original message timestamp. Request and response use their own times; no read receipt or implementation time is inferred beyond the report.
+
+**Evidence limit:** Preserved production exchange. Historical two-incident title and metaphor rules are not a final title selection for the three-stream edition. Reports are attributed, not independently certified.
+
+### prod-title-authorize-authorize
+
+**Frame:** The dated Curt message is the central artifact. Narrator text identifies its request, proposal or report status. No reenacted desk, private conversation or unrecorded recipient reaction is introduced.
+
+**Lettering:**
+
+Curt tells Codex to do the work that can be done now. The authorization belongs to that September 9 task; it is not a later approval of publication or of this edition’s final title.
+
+**Sources:** PROD-921149090553 — 256t/editions/selected-messages/921149090553784059e60f7362d29192124978b4dfe04022d0dc80cdc1e8bb93.json; original line 50; SHA-256 921149090553784059e60f7362d29192124978b4dfe04022d0dc80cdc1e8bb93 (available 2026-09-09T21:08:43.843000Z)
+
+**Frozen panel associations:** New material.
+
+## Codex reports title and source edits — prod-title-source-edit
+
+**Row:** Codex · collaboration
+
+**UTC bounds:** 2026-09-09T21:14:00.508000Z → 2026-09-09T21:14:00.508000Z · millisecond
+
+**Time evidence:** Stored original message timestamp. Request and response use their own times; no read receipt or implementation time is inferred beyond the report.
+
+**Evidence limit:** Preserved production exchange. Historical two-incident title and metaphor rules are not a final title selection for the three-stream edition. Reports are attributed, not independently certified.
+
+### prod-title-source-edit-edited
+
+**Frame:** The dated Codex message is the central artifact. Narrator text identifies its request, proposal or report status. No reenacted desk, private conversation or unrecorded recipient reaction is introduced.
+
+**Lettering:**
+
+Codex reports that the rename, title FAQ, fallacy entry and dated creator beat are in the source files. This records its implementation report, not a preserved conversation from the staged creator scene.
+
+**Sources:** PROD-c34341476dd3 — 256t/editions/selected-messages/c34341476dd36c5ed127c3a65fb70af16896786905d686919597b6f48bb7cc43.json; original line 142; SHA-256 c34341476dd36c5ed127c3a65fb70af16896786905d686919597b6f48bb7cc43 (available 2026-09-09T21:14:00.508000Z)
+
+**Frozen panel associations:** 114-01, 114-02
+
+### prod-title-source-edit-source-limit
+
+**Frame:** The dated Codex message is the central artifact. Narrator text identifies its request, proposal or report status. No reenacted desk, private conversation or unrecorded recipient reaction is introduced.
+
+**Lettering:**
+
+It reports a narrow admission of the supplied Toner passage and says it could not yet retrieve a full transcript to verify additional interview claims. The draft keeps that temporary limit at this point in the exchange.
+
+**Sources:** PROD-c34341476dd3 — 256t/editions/selected-messages/c34341476dd36c5ed127c3a65fb70af16896786905d686919597b6f48bb7cc43.json; original line 142; SHA-256 c34341476dd36c5ed127c3a65fb70af16896786905d686919597b6f48bb7cc43 (available 2026-09-09T21:14:00.508000Z)
+
+**Frozen panel associations:** New material.
+
+## Codex reports recovering the title captions — prod-title-caption-check
+
+**Row:** Codex · collaboration
+
+**UTC bounds:** 2026-09-09T21:25:16.813000Z → 2026-09-09T21:25:16.813000Z · millisecond
+
+**Time evidence:** Stored original message timestamp. Request and response use their own times; no read receipt or implementation time is inferred beyond the report.
+
+**Evidence limit:** Preserved production exchange. Historical two-incident title and metaphor rules are not a final title selection for the three-stream edition. Reports are attributed, not independently certified.
+
+### prod-title-caption-check-captions
+
+**Frame:** The dated Codex message is the central artifact. Narrator text identifies its request, proposal or report status. No reenacted desk, private conversation or unrecorded recipient reaction is introduced.
+
+**Lettering:**
+
+Codex later reports recovering automatic video captions and locating the relayed title line at 28:00. It says it corrected the locator and retained paraphrase. This is a report of that source check, not this edition independently verifying the video or endorsing additional interview claims.
+
+**Sources:** PROD-4968195025cb — 256t/editions/selected-messages/4968195025cb7f6f4c7410e46b6d6fafa49c72c54ebaaa984eac4320ebce3440.json; original line 398; SHA-256 4968195025cb7f6f4c7410e46b6d6fafa49c72c54ebaaa984eac4320ebce3440 (available 2026-09-09T21:25:16.813000Z)
+
+**Frozen panel associations:** New material.
+
+### prod-title-caption-check-repairs
+
+**Frame:** The dated Codex message is the central artifact. Narrator text identifies its request, proposal or report status. No reenacted desk, private conversation or unrecorded recipient reaction is introduced.
+
+**Lettering:**
+
+It also reports that the first check run failed on a stale map manifest and artwork queue, then passed after repairs. The failures remain part of the record instead of becoming an uninterrupted all-green claim.
+
+**Sources:** PROD-4968195025cb — 256t/editions/selected-messages/4968195025cb7f6f4c7410e46b6d6fafa49c72c54ebaaa984eac4320ebce3440.json; original line 398; SHA-256 4968195025cb7f6f4c7410e46b6d6fafa49c72c54ebaaa984eac4320ebce3440 (available 2026-09-09T21:25:16.813000Z)
+
+**Frozen panel associations:** New material.
+
+## Codex reports the implemented title changes — prod-title-result
+
+**Row:** Codex · collaboration
+
+**UTC bounds:** 2026-09-09T21:30:35.268000Z → 2026-09-09T21:30:35.268000Z · millisecond
+
+**Time evidence:** Stored original message timestamp. Request and response use their own times; no read receipt or implementation time is inferred beyond the report.
+
+**Evidence limit:** Preserved production exchange. Historical two-incident title and metaphor rules are not a final title selection for the three-stream edition. Reports are attributed, not independently certified.
+
+### prod-title-result-result
+
+**Frame:** The dated Codex message is the central artifact. Narrator text identifies its request, proposal or report status. No reenacted desk, private conversation or unrecorded recipient reaction is introduced.
+
+**Lettering:**
+
+Codex reports the rename across editions and site output, revised visual rules and disclosures, a visual pilot and corrected source-attribution claims. The message preserves its reported result rather than proving a finished new graphic novel.
+
+**Sources:** PROD-9c7b953bfd6d — 256t/editions/selected-messages/9c7b953bfd6d3005f18fd32352f985e3548547ac5da9b6909ca7268fe69e4c9f.json; original line 495; SHA-256 9c7b953bfd6d3005f18fd32352f985e3548547ac5da9b6909ca7268fe69e4c9f (available 2026-09-09T21:30:35.268000Z)
+
+**Frozen panel associations:** 114-01, 114-02
+
+### prod-title-result-remaining
+
+**Frame:** The dated Codex message is the central artifact. Narrator text identifies its request, proposal or report status. No reenacted desk, private conversation or unrecorded recipient reaction is introduced.
+
+**Lettering:**
+
+The report leaves broader artwork adoption, the wiki map model, novella metaphor treatment and transcript publication open. Three stale artwork jobs remain preserved and blocked for review. It explicitly reports no commit or deployment.
+
+**Sources:** PROD-9c7b953bfd6d — 256t/editions/selected-messages/9c7b953bfd6d3005f18fd32352f985e3548547ac5da9b6909ca7268fe69e4c9f.json; original line 495; SHA-256 9c7b953bfd6d3005f18fd32352f985e3548547ac5da9b6909ca7268fe69e4c9f (available 2026-09-09T21:30:35.268000Z)
+
+**Frozen panel associations:** New material.
+
+## Curt asks for the supplied Ant logo — prod-title-logo-request
+
+**Row:** Curt · collaboration
+
+**UTC bounds:** 2026-09-09T21:53:57.797000Z → 2026-09-09T21:53:57.797000Z · millisecond
+
+**Time evidence:** Stored original message timestamp. Request and response use their own times; no read receipt or implementation time is inferred beyond the report.
+
+**Evidence limit:** Preserved production exchange. Historical two-incident title and metaphor rules are not a final title selection for the three-stream edition. Reports are attributed, not independently certified.
+
+### prod-title-logo-request-history
+
+**Frame:** The dated Curt message is the central artifact. Narrator text identifies its request, proposal or report status. No reenacted desk, private conversation or unrecorded recipient reaction is introduced.
+
+**Lettering:**
+
+Curt asks whether Artifactory’s Maven roots and Maven as Ant’s official replacement are roughly right. He also asks for the supplied logo somewhere in the background. The request does not establish a real print on his wall.
+
+**Sources:** PROD-28dae0432bce — 256t/editions/selected-messages/28dae0432bceeb52847d3d74f11b7cbe63acf96a599e53386717b6e141c39544.json; original line 806; SHA-256 28dae0432bceeb52847d3d74f11b7cbe63acf96a599e53386717b6e141c39544 (available 2026-09-09T21:53:57.797000Z)
+
+**Frozen panel associations:** 114-01
+
+## Codex corrects the Ant premise — prod-title-history-correction
+
+**Row:** Codex · collaboration
+
+**UTC bounds:** 2026-09-09T21:55:06.885000Z → 2026-09-09T21:55:06.885000Z · millisecond
+
+**Time evidence:** Stored original message timestamp. Request and response use their own times; no read receipt or implementation time is inferred beyond the report.
+
+**Evidence limit:** Preserved production exchange. Historical two-incident title and metaphor rules are not a final title selection for the three-stream edition. Reports are attributed, not independently certified.
+
+### prod-title-history-correction-correction
+
+**Frame:** The dated Codex message is the central artifact. Narrator text identifies its request, proposal or report status. No reenacted desk, private conversation or unrecorded recipient reaction is introduced.
+
+**Lettering:**
+
+Codex answers that Artifactory was announced as a Maven repository proxy, but Maven addressed problems with Ant-based builds rather than officially replacing and retiring Ant. This is the documented correction Codex gave, not a new independent historical investigation by this edition.
+
+**Sources:** PROD-5e7343d98159 — 256t/editions/selected-messages/5e7343d981596038f02b1b41a33ad9d3f8c3cd0d75206b7497421c88996fc434.json; original line 835; SHA-256 5e7343d981596038f02b1b41a33ad9d3f8c3cd0d75206b7497421c88996fc434 (available 2026-09-09T21:55:06.885000Z)
+
+**Frozen panel associations:** 114-01
+
+### prod-title-history-correction-placement
+
+**Frame:** The dated Codex message is the central artifact. Narrator text identifies its request, proposal or report status. No reenacted desk, private conversation or unrecorded recipient reaction is introduced.
+
+**Lettering:**
+
+It proposes the supplied logo as a small background print in the reconstructed creator scene, separate from incident evidence and the book’s authored ant figures.
+
+**Sources:** PROD-5e7343d98159 — 256t/editions/selected-messages/5e7343d981596038f02b1b41a33ad9d3f8c3cd0d75206b7497421c88996fc434.json; original line 835; SHA-256 5e7343d981596038f02b1b41a33ad9d3f8c3cd0d75206b7497421c88996fc434 (available 2026-09-09T21:55:06.885000Z)
+
+**Frozen panel associations:** 114-01
+
+## Codex reports preserving the supplied mark — prod-title-logo-report
+
+**Row:** Codex · collaboration
+
+**UTC bounds:** 2026-09-09T21:57:10.272000Z → 2026-09-09T21:57:10.272000Z · millisecond
+
+**Time evidence:** Stored original message timestamp. Request and response use their own times; no read receipt or implementation time is inferred beyond the report.
+
+**Evidence limit:** Preserved production exchange. Historical two-incident title and metaphor rules are not a final title selection for the three-stream edition. Reports are attributed, not independently certified.
+
+### prod-title-logo-report-image
+
+**Frame:** The dated Codex message is the central artifact. Narrator text identifies its request, proposal or report status. No reenacted desk, private conversation or unrecorded recipient reaction is introduced.
+
+**Lettering:**
+
+Codex reports preserving the original logo and proportions, adding attribution and matching the prose. It says generation instructions reserve blank space so the original mark can be composited afterward. The message concerns the designed scene, not Curt’s physical possessions.
+
+**Sources:** PROD-37ec8dfabb19 — 256t/editions/selected-messages/37ec8dfabb190907e429724a7ac106bf2cfcd5f0369ac9286b1fa1bd865e30fb.json; original line 873; SHA-256 37ec8dfabb190907e429724a7ac106bf2cfcd5f0369ac9286b1fa1bd865e30fb (available 2026-09-09T21:57:10.272000Z)
+
+**Frozen panel associations:** 114-01
+
+## Codex finishes the logo task report — prod-title-final-report
+
+**Row:** Codex · collaboration
+
+**UTC bounds:** 2026-09-09T21:59:10.848000Z → 2026-09-09T21:59:10.848000Z · millisecond
+
+**Time evidence:** Stored original message timestamp. Request and response use their own times; no read receipt or implementation time is inferred beyond the report.
+
+**Evidence limit:** Preserved production exchange. Historical two-incident title and metaphor rules are not a final title selection for the three-stream edition. Reports are attributed, not independently certified.
+
+### prod-title-final-report-final
+
+**Frame:** The dated Codex message is the central artifact. Narrator text identifies its request, proposal or report status. No reenacted desk, private conversation or unrecorded recipient reaction is introduced.
+
+**Lettering:**
+
+The final message repeats the history correction, links its sources and reports the background print and rebuilt site. Checks are reported as passing. This is a completed task report with its own evidence limits, not evidence that either incident used Ant or that Apache endorsed the book.
+
+**Sources:** PROD-4abdf0be2856 — 256t/editions/selected-messages/4abdf0be28563ebd26ca13eb7b53ad334f1294a444d896f39b780983a4cc3bd1.json; original line 939; SHA-256 4abdf0be28563ebd26ca13eb7b53ad334f1294a444d896f39b780983a4cc3bd1 (available 2026-09-09T21:59:10.848000Z)
+
+**Frozen panel associations:** 114-01
+
 ## Claude explains the old restriction — prod-quote-old-rule
 
 **Row:** Claude · collaboration

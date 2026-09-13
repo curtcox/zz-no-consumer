@@ -613,3 +613,34 @@ The historical preflight principle has a drafted association, but that does not
 close the later-material disposition. The source records and earlier edition
 remain unchanged. Scoped draft and whitespace checks pass; final ending,
 comprehensive coverage, chronology and page allocation remain unfinished.
+
+### Dated title and logo exchanges — 13 September 2026
+
+Added twenty beats across ten preserved September 9 messages in
+`manuscript/collaboration-title-and-logo.json`. Ten original messages were
+admitted, bringing selections to 67; all selected copies were verified against
+the original JSONL line, half-open byte range and record SHA-256. Embedded
+auto-review transcripts and context injections were excluded from actor
+selection. Requests and responses retain their own timestamps and identities.
+
+Frozen 114-01 and 114-02 now have individual dispositions. The former staged
+publication-relative decision is replaced by the real plan-review request,
+proposals, authorization and reported edits. The two-incident title is historical,
+not the final title decision for this three-stream edition. No-bridge claims,
+nonquantitative ant density, surface-only hills, identity limits and actual
+source-status distinctions survive. A pilot report does not certify all artwork.
+
+The sequence preserves the temporary transcript-access limit, later reported
+caption recovery, initial stale-manifest/artwork failures, subsequent reported
+repairs and still-deferred work. It does not independently certify those
+completion reports or imply a deployment. The later logo request and response
+provide an actual case of Codex correcting Curt’s premise about Maven replacing
+Ant; the historical-source assertions remain attributed to that recorded answer.
+The background mark is a requested reconstructed prop, not a real possession,
+incident technology finding or endorsement. Original-image preservation and
+compositing instructions remain part of Codex’s reported work.
+
+Draft and whitespace checks pass. Frozen 112–118 now have individual
+dispositions, but wiki pages 106–111 and many earlier panels remain open.
+No final title, final ending or canonical page allocation has been selected.
+The frozen edition and its dependents remain unchanged.

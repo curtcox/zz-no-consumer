@@ -5780,5 +5780,181 @@
         }
       }
     ]
+  },
+  {
+    "old_panel": "114-01",
+    "old_edition": "legacy-332b5ed63262",
+    "reviewed_on": "2026-09-13",
+    "status": "elements-reviewed",
+    "elements": [
+      {
+        "id": "legacy-114-01-detail-01",
+        "original_sha256": "0e015c0dc28952d8813e2eb2e36c4e22e8dfdffb94d244ad9791d7b5cf333df0",
+        "disposition": "split",
+        "beats": [
+          "prod-title-proposal-title",
+          "prod-title-proposal-gap",
+          "prod-title-proposal-rules",
+          "prod-title-source-edit-edited",
+          "prod-title-result-result",
+          "prod-title-logo-request-history",
+          "prod-title-history-correction-correction",
+          "prod-title-history-correction-placement",
+          "prod-title-logo-report-image",
+          "prod-title-final-report-final"
+        ],
+        "reason": "Replace the compressed final-build/title/prop scene with the actual dated title request, recommendations, authorization and implementation reports, followed by the distinct logo request and correction. Preserve authored, nonquantitative and non-lineage constraints; no finished publication, real wall prop, Apache endorsement or unchanged two-incident title is inferred.",
+        "target_sha256": {
+          "prod-title-proposal-title": "ab9f1f1120bf6c3eac0a60eb43dcb17f5fd213988e673d03a1687f61870c275e",
+          "prod-title-proposal-gap": "9f2aa137e878ff2f82a4aa3ffe153ad8254ea6e08d352a071a8fbb76c348125a",
+          "prod-title-proposal-rules": "2bc394e96660760f242779c9feee9b391c45efdfea680845fa747a05c21fd258",
+          "prod-title-source-edit-edited": "261ee5f8723399efb8bfd6202fc605ef25f9c049274d0d66867d0039f466c31b",
+          "prod-title-result-result": "8657e474beeb85a875874acc01bdb69d48d0a1f850e2967801dbeb9170c00abd",
+          "prod-title-logo-request-history": "51f5a5e3804d88723613266398892294d970f7b77908909cf12c30360ef7e925",
+          "prod-title-history-correction-correction": "929760f560996018ba03684cf650fd27d16dc490f905cda5d062e77113a11ae0",
+          "prod-title-history-correction-placement": "1b69056fb3e51ce047d74ebd555a968b336120090afd5d8aa17a51d43e0cd6ed",
+          "prod-title-logo-report-image": "56a40c75b9c447664706c2c7faa21613d5ace62e6041d84822f8eccc6acd07e6",
+          "prod-title-final-report-final": "53f97413a9603c2be31bcfe8ebd6e21e73584cd3ce048542f990fbe079efa853"
+        }
+      },
+      {
+        "id": "legacy-114-01-detail-02",
+        "original_sha256": "703a15de034f6c9fd7cd91bccaf67889f67fc7ae0887313e4f94ec09b60ab28b",
+        "disposition": "split",
+        "beats": [
+          "prod-title-proposal-title",
+          "prod-title-proposal-gap",
+          "prod-title-proposal-rules",
+          "prod-title-source-edit-edited",
+          "prod-title-result-result",
+          "prod-title-logo-request-history",
+          "prod-title-history-correction-correction",
+          "prod-title-history-correction-placement",
+          "prod-title-logo-report-image",
+          "prod-title-final-report-final"
+        ],
+        "reason": "Replace the compressed final-build/title/prop scene with the actual dated title request, recommendations, authorization and implementation reports, followed by the distinct logo request and correction. Preserve authored, nonquantitative and non-lineage constraints; no finished publication, real wall prop, Apache endorsement or unchanged two-incident title is inferred.",
+        "target_sha256": {
+          "prod-title-proposal-title": "ab9f1f1120bf6c3eac0a60eb43dcb17f5fd213988e673d03a1687f61870c275e",
+          "prod-title-proposal-gap": "9f2aa137e878ff2f82a4aa3ffe153ad8254ea6e08d352a071a8fbb76c348125a",
+          "prod-title-proposal-rules": "2bc394e96660760f242779c9feee9b391c45efdfea680845fa747a05c21fd258",
+          "prod-title-source-edit-edited": "261ee5f8723399efb8bfd6202fc605ef25f9c049274d0d66867d0039f466c31b",
+          "prod-title-result-result": "8657e474beeb85a875874acc01bdb69d48d0a1f850e2967801dbeb9170c00abd",
+          "prod-title-logo-request-history": "51f5a5e3804d88723613266398892294d970f7b77908909cf12c30360ef7e925",
+          "prod-title-history-correction-correction": "929760f560996018ba03684cf650fd27d16dc490f905cda5d062e77113a11ae0",
+          "prod-title-history-correction-placement": "1b69056fb3e51ce047d74ebd555a968b336120090afd5d8aa17a51d43e0cd6ed",
+          "prod-title-logo-report-image": "56a40c75b9c447664706c2c7faa21613d5ace62e6041d84822f8eccc6acd07e6",
+          "prod-title-final-report-final": "53f97413a9603c2be31bcfe8ebd6e21e73584cd3ce048542f990fbe079efa853"
+        }
+      },
+      {
+        "id": "legacy-114-01-detail-03",
+        "original_sha256": "1e1494784f8f499ad35771e57fe67729956c171ab70936d706da730d7b9f2343",
+        "disposition": "split",
+        "beats": [
+          "prod-title-proposal-title",
+          "prod-title-proposal-gap",
+          "prod-title-proposal-rules",
+          "prod-title-source-edit-edited",
+          "prod-title-result-result",
+          "prod-title-logo-request-history",
+          "prod-title-history-correction-correction",
+          "prod-title-history-correction-placement",
+          "prod-title-logo-report-image",
+          "prod-title-final-report-final"
+        ],
+        "reason": "Replace the compressed final-build/title/prop scene with the actual dated title request, recommendations, authorization and implementation reports, followed by the distinct logo request and correction. Preserve authored, nonquantitative and non-lineage constraints; no finished publication, real wall prop, Apache endorsement or unchanged two-incident title is inferred.",
+        "target_sha256": {
+          "prod-title-proposal-title": "ab9f1f1120bf6c3eac0a60eb43dcb17f5fd213988e673d03a1687f61870c275e",
+          "prod-title-proposal-gap": "9f2aa137e878ff2f82a4aa3ffe153ad8254ea6e08d352a071a8fbb76c348125a",
+          "prod-title-proposal-rules": "2bc394e96660760f242779c9feee9b391c45efdfea680845fa747a05c21fd258",
+          "prod-title-source-edit-edited": "261ee5f8723399efb8bfd6202fc605ef25f9c049274d0d66867d0039f466c31b",
+          "prod-title-result-result": "8657e474beeb85a875874acc01bdb69d48d0a1f850e2967801dbeb9170c00abd",
+          "prod-title-logo-request-history": "51f5a5e3804d88723613266398892294d970f7b77908909cf12c30360ef7e925",
+          "prod-title-history-correction-correction": "929760f560996018ba03684cf650fd27d16dc490f905cda5d062e77113a11ae0",
+          "prod-title-history-correction-placement": "1b69056fb3e51ce047d74ebd555a968b336120090afd5d8aa17a51d43e0cd6ed",
+          "prod-title-logo-report-image": "56a40c75b9c447664706c2c7faa21613d5ace62e6041d84822f8eccc6acd07e6",
+          "prod-title-final-report-final": "53f97413a9603c2be31bcfe8ebd6e21e73584cd3ce048542f990fbe079efa853"
+        }
+      },
+      {
+        "id": "legacy-114-01-detail-04",
+        "original_sha256": "ac50286020435e61b85d8d3e197b84013fc0b36d9c146205b0b89fe93d0dc0a0",
+        "disposition": "split",
+        "beats": [
+          "prod-title-proposal-title",
+          "prod-title-proposal-gap",
+          "prod-title-proposal-rules",
+          "prod-title-source-edit-edited",
+          "prod-title-result-result",
+          "prod-title-logo-request-history",
+          "prod-title-history-correction-correction",
+          "prod-title-history-correction-placement",
+          "prod-title-logo-report-image",
+          "prod-title-final-report-final"
+        ],
+        "reason": "Replace the compressed final-build/title/prop scene with the actual dated title request, recommendations, authorization and implementation reports, followed by the distinct logo request and correction. Preserve authored, nonquantitative and non-lineage constraints; no finished publication, real wall prop, Apache endorsement or unchanged two-incident title is inferred.",
+        "target_sha256": {
+          "prod-title-proposal-title": "ab9f1f1120bf6c3eac0a60eb43dcb17f5fd213988e673d03a1687f61870c275e",
+          "prod-title-proposal-gap": "9f2aa137e878ff2f82a4aa3ffe153ad8254ea6e08d352a071a8fbb76c348125a",
+          "prod-title-proposal-rules": "2bc394e96660760f242779c9feee9b391c45efdfea680845fa747a05c21fd258",
+          "prod-title-source-edit-edited": "261ee5f8723399efb8bfd6202fc605ef25f9c049274d0d66867d0039f466c31b",
+          "prod-title-result-result": "8657e474beeb85a875874acc01bdb69d48d0a1f850e2967801dbeb9170c00abd",
+          "prod-title-logo-request-history": "51f5a5e3804d88723613266398892294d970f7b77908909cf12c30360ef7e925",
+          "prod-title-history-correction-correction": "929760f560996018ba03684cf650fd27d16dc490f905cda5d062e77113a11ae0",
+          "prod-title-history-correction-placement": "1b69056fb3e51ce047d74ebd555a968b336120090afd5d8aa17a51d43e0cd6ed",
+          "prod-title-logo-report-image": "56a40c75b9c447664706c2c7faa21613d5ace62e6041d84822f8eccc6acd07e6",
+          "prod-title-final-report-final": "53f97413a9603c2be31bcfe8ebd6e21e73584cd3ce048542f990fbe079efa853"
+        }
+      }
+    ]
+  },
+  {
+    "old_panel": "114-02",
+    "old_edition": "legacy-332b5ed63262",
+    "reviewed_on": "2026-09-13",
+    "status": "elements-reviewed",
+    "elements": [
+      {
+        "id": "legacy-114-02-detail-01",
+        "original_sha256": "87b885011f9c4bf1a8f2ded7ffcf900185ef11c0500723080fecc04887e3fa10",
+        "disposition": "split",
+        "beats": [
+          "prod-title-proposal-gap",
+          "prod-title-proposal-pilot",
+          "prod-title-proposal-rules",
+          "prod-title-source-edit-edited",
+          "prod-title-result-result"
+        ],
+        "reason": "Preserve metaphors as authored choices and source seams as load-bearing through the actual proposed visual rules and reported disclosures. Do not depict a checked preflight as independently verified publication readiness.",
+        "target_sha256": {
+          "prod-title-proposal-gap": "9f2aa137e878ff2f82a4aa3ffe153ad8254ea6e08d352a071a8fbb76c348125a",
+          "prod-title-proposal-pilot": "5211b923ee781d21dc571472f73e583eea4e94624dbf0fa8969513ea6464c9ea",
+          "prod-title-proposal-rules": "2bc394e96660760f242779c9feee9b391c45efdfea680845fa747a05c21fd258",
+          "prod-title-source-edit-edited": "261ee5f8723399efb8bfd6202fc605ef25f9c049274d0d66867d0039f466c31b",
+          "prod-title-result-result": "8657e474beeb85a875874acc01bdb69d48d0a1f850e2967801dbeb9170c00abd"
+        }
+      },
+      {
+        "id": "legacy-114-02-detail-03",
+        "original_sha256": "863d516c47383c50cfa4017e6fbda64e1cb80e575aa9edb59612a00c3d985cb6",
+        "disposition": "split",
+        "beats": [
+          "prod-title-proposal-gap",
+          "prod-title-proposal-pilot",
+          "prod-title-proposal-rules",
+          "prod-title-source-edit-edited",
+          "prod-title-result-result"
+        ],
+        "reason": "Preserve metaphors as authored choices and source seams as load-bearing through the actual proposed visual rules and reported disclosures. Do not depict a checked preflight as independently verified publication readiness.",
+        "target_sha256": {
+          "prod-title-proposal-gap": "9f2aa137e878ff2f82a4aa3ffe153ad8254ea6e08d352a071a8fbb76c348125a",
+          "prod-title-proposal-pilot": "5211b923ee781d21dc571472f73e583eea4e94624dbf0fa8969513ea6464c9ea",
+          "prod-title-proposal-rules": "2bc394e96660760f242779c9feee9b391c45efdfea680845fa747a05c21fd258",
+          "prod-title-source-edit-edited": "261ee5f8723399efb8bfd6202fc605ef25f9c049274d0d66867d0039f466c31b",
+          "prod-title-result-result": "8657e474beeb85a875874acc01bdb69d48d0a1f850e2967801dbeb9170c00abd"
+        }
+      }
+    ]
   }
 ]

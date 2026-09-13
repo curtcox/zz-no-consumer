@@ -3458,6 +3458,70 @@ No. I want the tradeoff left in it. And the objection. Both go in.
 
 **Draft destination:** prod-downstream-decision
 
+## legacy-332b5ed63262 · 114-01
+
+### legacy-114-01-detail-01 · frame
+
+**Frozen wording:**
+
+Verso. Curt performs the final manuscript build. [Page 118](118.md) is still concealed by a black thumbnail.
+
+**Decision:** split — Replace the compressed final-build/title/prop scene with the actual dated title request, recommendations, authorization and implementation reports, followed by the distinct logo request and correction. Preserve authored, nonquantitative and non-lineage constraints; no finished publication, real wall prop, Apache endorsement or unchanged two-incident title is inferred.
+
+**Draft destination:** prod-title-proposal-title, prod-title-proposal-gap, prod-title-proposal-rules, prod-title-source-edit-edited, prod-title-result-result, prod-title-logo-request-history, prod-title-history-correction-correction, prod-title-history-correction-placement, prod-title-logo-report-image, prod-title-final-report-final
+
+### legacy-114-01-detail-02 · action
+
+**Frozen wording:**
+
+Source packets, corrections, and uncertainty labels compile beside the reading edition. A cover proof reads `THE TWO ANTHILL PROBLEM`. Beside it, a discarded connected-hills sketch remains visible under a heavy cancellation stroke; the kept sketch has two separate surfaces and unmarked space between. A revision slip reads `9 SEPTEMBER 2026 — TITLE REVISION`. Neither sketch has a queen, chamber, or individual agent identity. A small print of the supplied Apache Ant logo hangs on the back wall, a reconstructed software-history prop. Reserve this print as blank space in model-generated base art and composite the supplied image afterward. Two tiny authored ants sit in the desk’s light; they do not stand for particular runs.
+
+**Decision:** split — Replace the compressed final-build/title/prop scene with the actual dated title request, recommendations, authorization and implementation reports, followed by the distinct logo request and correction. Preserve authored, nonquantitative and non-lineage constraints; no finished publication, real wall prop, Apache endorsement or unchanged two-incident title is inferred.
+
+**Draft destination:** prod-title-proposal-title, prod-title-proposal-gap, prod-title-proposal-rules, prod-title-source-edit-edited, prod-title-result-result, prod-title-logo-request-history, prod-title-history-correction-correction, prod-title-history-correction-placement, prod-title-logo-report-image, prod-title-final-report-final
+
+### legacy-114-01-detail-03 · lettering
+
+**Frozen wording:**
+
+Two incidents. How many went unseen?
+
+**Decision:** split — Replace the compressed final-build/title/prop scene with the actual dated title request, recommendations, authorization and implementation reports, followed by the distinct logo request and correction. Preserve authored, nonquantitative and non-lineage constraints; no finished publication, real wall prop, Apache endorsement or unchanged two-incident title is inferred.
+
+**Draft destination:** prod-title-proposal-title, prod-title-proposal-gap, prod-title-proposal-rules, prod-title-source-edit-edited, prod-title-result-result, prod-title-logo-request-history, prod-title-history-correction-correction, prod-title-history-correction-placement, prod-title-logo-report-image, prod-title-final-report-final
+
+### legacy-114-01-detail-04 · lettering
+
+**Frozen wording:**
+
+The picture cannot answer that.
+
+**Decision:** split — Replace the compressed final-build/title/prop scene with the actual dated title request, recommendations, authorization and implementation reports, followed by the distinct logo request and correction. Preserve authored, nonquantitative and non-lineage constraints; no finished publication, real wall prop, Apache endorsement or unchanged two-incident title is inferred.
+
+**Draft destination:** prod-title-proposal-title, prod-title-proposal-gap, prod-title-proposal-rules, prod-title-source-edit-edited, prod-title-result-result, prod-title-logo-request-history, prod-title-history-correction-correction, prod-title-history-correction-placement, prod-title-logo-report-image, prod-title-final-report-final
+
+## legacy-332b5ed63262 · 114-02
+
+### legacy-114-02-detail-01 · frame
+
+**Frozen wording:**
+
+The metaphor note is filed with the appendix. A preflight list is checked: `SOURCES LINKED`, `RECONSTRUCTIONS MARKED`, `DISPUTES PRESERVED`, `FUTURE INVENTED`.
+
+**Decision:** split — Preserve metaphors as authored choices and source seams as load-bearing through the actual proposed visual rules and reported disclosures. Do not depict a checked preflight as independently verified publication readiness.
+
+**Draft destination:** prod-title-proposal-gap, prod-title-proposal-pilot, prod-title-proposal-rules, prod-title-source-edit-edited, prod-title-result-result
+
+### legacy-114-02-detail-03 · lettering
+
+**Frozen wording:**
+
+Keep the hills. Mark them as ours. The seams go with it.
+
+**Decision:** split — Preserve metaphors as authored choices and source seams as load-bearing through the actual proposed visual rules and reported disclosures. Do not depict a checked preflight as independently verified publication readiness.
+
+**Draft destination:** prod-title-proposal-gap, prod-title-proposal-pilot, prod-title-proposal-rules, prod-title-source-edit-edited, prod-title-result-result
+
 ## legacy-332b5ed63262 · 114-03
 
 ### legacy-114-03-detail-01 · frame
