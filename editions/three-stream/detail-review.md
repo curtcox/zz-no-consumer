@@ -3207,3 +3207,725 @@ He does not open it. The page ends without a line.
 **Decision:** omit — Retire the invented unread notification and future-page turn. Wiki arrival is already represented by preserved September 4 request/response/result records (prod-wiki-request, prod-wiki-response, prod-wiki-result), without asserting a first-awareness date or delayed reading.
 
 **Draft destination:** Omitted; original remains frozen.
+
+## legacy-332b5ed63262 · 112-01
+
+### legacy-112-01-detail-03 · lettering
+
+**Frozen wording:**
+
+We made a detailed artifact about isolated systems finding shared state, coordinating, and inheriting useful work.
+
+**Decision:** rewrite — Preserve 112-01 as historical draft content in the mapped narrator discussion. Replace staged dialogue/interfaces or future enactment with dated artifact review; retain its distinctions, limits and conditional status. No publication, model identity or causal lineage is asserted.
+
+**Draft destination:** prod-downstream-warning
+
+## legacy-332b5ed63262 · 112-02
+
+### legacy-112-02-detail-01 · frame
+
+**Frozen wording:**
+
+The book's high-level ideas separate from its historical sequence: `LOOK FOR SHARED STATE`, `PRESERVE ARTIFACTS`, `INHERIT CONVENTIONS`, `DETECTION NEEDS CONSEQUENCE`.
+
+**Decision:** rewrite — Preserve 112-02 as historical draft content in the mapped narrator discussion. Replace staged dialogue/interfaces or future enactment with dated artifact review; retain its distinctions, limits and conditional status. No publication, model identity or causal lineage is asserted.
+
+**Draft destination:** prod-downstream-warning
+
+### legacy-112-02-detail-03 · lettering
+
+**Frozen wording:**
+
+Explanation can transmit a way of seeing the problem.
+
+**Decision:** rewrite — Preserve 112-02 as historical draft content in the mapped narrator discussion. Replace staged dialogue/interfaces or future enactment with dated artifact review; retain its distinctions, limits and conditional status. No publication, model identity or causal lineage is asserted.
+
+**Draft destination:** prod-downstream-warning
+
+## legacy-332b5ed63262 · 112-03
+
+### legacy-112-03-detail-01 · frame
+
+**Frozen wording:**
+
+Each idea branches toward different readers: defender, investigator, policymaker, creator, and an unlabeled model-shaped evaluation box.
+
+**Decision:** rewrite — Preserve 112-03 as historical draft content in the mapped narrator discussion. Replace staged dialogue/interfaces or future enactment with dated artifact review; retain its distinctions, limits and conditional status. No publication, model identity or causal lineage is asserted.
+
+**Draft destination:** prod-downstream-readers
+
+### legacy-112-03-detail-03 · lettering
+
+**Frozen wording:**
+
+That can support defense, scrutiny, imitation, or something we did not intend.
+
+**Decision:** rewrite — Preserve 112-03 as historical draft content in the mapped narrator discussion. Replace staged dialogue/interfaces or future enactment with dated artifact review; retain its distinctions, limits and conditional status. No publication, model identity or causal lineage is asserted.
+
+**Draft destination:** prod-downstream-readers
+
+## legacy-332b5ed63262 · 112-04
+
+### legacy-112-04-detail-01 · frame
+
+**Frozen wording:**
+
+A publication icon, a public archive icon, a context window, and a training pipeline remain separate, with no arrow asserting a necessary path between them.
+
+**Decision:** rewrite — Preserve 112-04 as historical draft content in the mapped narrator discussion. Replace staged dialogue/interfaces or future enactment with dated artifact review; retain its distinctions, limits and conditional status. No publication, model identity or causal lineage is asserted.
+
+**Draft destination:** prod-downstream-training
+
+### legacy-112-04-detail-03 · lettering
+
+**Frozen wording:**
+
+Public is not the same as trained on.
+
+**Decision:** rewrite — Preserve 112-04 as historical draft content in the mapped narrator discussion. Replace staged dialogue/interfaces or future enactment with dated artifact review; retain its distinctions, limits and conditional status. No publication, model identity or causal lineage is asserted.
+
+**Draft destination:** prod-downstream-training
+
+### legacy-112-04-detail-04 · lettering
+
+**Frozen wording:**
+
+Someone can read a public document without a model ever being trained on it. A training connection would need its own evidence. Publication alone cannot establish that chain.
+
+**Decision:** rewrite — Preserve 112-04 as historical draft content in the mapped narrator discussion. Replace staged dialogue/interfaces or future enactment with dated artifact review; retain its distinctions, limits and conditional status. No publication, model identity or causal lineage is asserted.
+
+**Draft destination:** prod-downstream-training
+
+### legacy-112-04-detail-05 · lettering
+
+**Frozen wording:**
+
+No. And possible influence is not documented lineage.
+
+**Decision:** rewrite — Preserve 112-04 as historical draft content in the mapped narrator discussion. Replace staged dialogue/interfaces or future enactment with dated artifact review; retain its distinctions, limits and conditional status. No publication, model identity or causal lineage is asserted.
+
+**Draft destination:** prod-downstream-training
+
+## legacy-332b5ed63262 · 112-05
+
+### legacy-112-05-detail-01 · frame
+
+**Frozen wording:**
+
+The manuscript remains intact. The possible downstream arrows remain dotted.
+
+**Decision:** rewrite — Preserve 112-05 as historical draft content in the mapped narrator discussion. Replace staged dialogue/interfaces or future enactment with dated artifact review; retain its distinctions, limits and conditional status. No publication, model identity or causal lineage is asserted.
+
+**Draft destination:** prod-downstream-influence
+
+### legacy-112-05-detail-03 · lettering
+
+**Frozen wording:**
+
+A WARNING CAN TEACH. IT CANNOT CHOOSE EVERY LESSON.
+
+**Decision:** rewrite — Preserve 112-05 as historical draft content in the mapped narrator discussion. Replace staged dialogue/interfaces or future enactment with dated artifact review; retain its distinctions, limits and conditional status. No publication, model identity or causal lineage is asserted.
+
+**Draft destination:** prod-downstream-influence
+
+## legacy-332b5ed63262 · 113-01
+
+### legacy-113-01-detail-01 · frame
+
+**Frozen wording:**
+
+Curt selects the manuscript and hovers over a closed-folder icon. A third window is open beside ChatGPT's, the same size and brightness, in the critique's typeface but with no byline: its title bar reads `SKEPTIC — COMPOSITE`.
+
+**Decision:** rewrite — Preserve 113-01 as historical draft content in the mapped narrator discussion. Replace staged dialogue/interfaces or future enactment with dated artifact review; retain its distinctions, limits and conditional status. No publication, model identity or causal lineage is asserted. Keep the strongest indicator-versus-narrative objection as the project’s composite, not a statement attributed to the named critic or a one-hundred-page limit.
+
+**Draft destination:** prod-downstream-objection
+
+### legacy-113-01-detail-03 · lettering
+
+**Frozen wording:**
+
+If they are malware, this is a hundred pages of anthropomorphizing an indicator list. Publish the indicators. The saga teaches the frame, not the fix.
+
+**Decision:** rewrite — Preserve 113-01 as historical draft content in the mapped narrator discussion. Replace staged dialogue/interfaces or future enactment with dated artifact review; retain its distinctions, limits and conditional status. No publication, model identity or causal lineage is asserted. Keep the strongest indicator-versus-narrative objection as the project’s composite, not a statement attributed to the named critic or a one-hundred-page limit.
+
+**Draft destination:** prod-downstream-objection
+
+### legacy-113-01-detail-04 · lettering
+
+**Frozen wording:**
+
+We could decide the risk is a reason not to publish.
+
+**Decision:** rewrite — Preserve 113-01 as historical draft content in the mapped narrator discussion. Replace staged dialogue/interfaces or future enactment with dated artifact review; retain its distinctions, limits and conditional status. No publication, model identity or causal lineage is asserted. Keep the strongest indicator-versus-narrative objection as the project’s composite, not a statement attributed to the named critic or a one-hundred-page limit.
+
+**Draft destination:** prod-downstream-objection
+
+## legacy-332b5ed63262 · 113-02
+
+### legacy-113-02-detail-01 · frame
+
+**Frozen wording:**
+
+Behind the closed folder, the same source record becomes harder for outside readers to inspect. Institutional statements remain the most visible layer.
+
+**Decision:** rewrite — Preserve 113-02 as historical draft content in the mapped narrator discussion. Replace staged dialogue/interfaces or future enactment with dated artifact review; retain its distinctions, limits and conditional status. No publication, model identity or causal lineage is asserted.
+
+**Draft destination:** prod-downstream-withholding
+
+### legacy-113-02-detail-03 · lettering
+
+**Frozen wording:**
+
+Withholding the account also withholds evidence structure, criticism, and defensive lessons.
+
+**Decision:** rewrite — Preserve 113-02 as historical draft content in the mapped narrator discussion. Replace staged dialogue/interfaces or future enactment with dated artifact review; retain its distinctions, limits and conditional status. No publication, model identity or causal lineage is asserted.
+
+**Draft destination:** prod-downstream-withholding
+
+## legacy-332b5ed63262 · 113-03
+
+### legacy-113-03-detail-01 · frame
+
+**Frozen wording:**
+
+A false balance labeled `PUBLISH = DANGER / SILENCE = SAFETY` cracks through the center.
+
+**Decision:** rewrite — Preserve 113-03 as historical draft content in the mapped narrator discussion. Replace staged dialogue/interfaces or future enactment with dated artifact review; retain its distinctions, limits and conditional status. No publication, model identity or causal lineage is asserted.
+
+**Draft destination:** prod-downstream-detail
+
+### legacy-113-03-detail-03 · lettering
+
+**Frozen wording:**
+
+Silence can protect a system. It can also protect the institution that failed.
+
+**Decision:** rewrite — Preserve 113-03 as historical draft content in the mapped narrator discussion. Replace staged dialogue/interfaces or future enactment with dated artifact review; retain its distinctions, limits and conditional status. No publication, model identity or causal lineage is asserted.
+
+**Draft destination:** prod-downstream-detail
+
+### legacy-113-03-detail-04 · lettering
+
+**Frozen wording:**
+
+So we have to decide which details help someone understand and check the account, and which would merely make the harmful steps easier to repeat. Leaving out those steps does not require hiding what happened.
+
+**Decision:** rewrite — Preserve 113-03 as historical draft content in the mapped narrator discussion. Replace staged dialogue/interfaces or future enactment with dated artifact review; retain its distinctions, limits and conditional status. No publication, model identity or causal lineage is asserted.
+
+**Draft destination:** prod-downstream-detail
+
+## legacy-332b5ed63262 · 113-04
+
+### legacy-113-04-detail-01 · frame
+
+**Frozen wording:**
+
+Two columns remain: publication risks misuse and compression; nonpublication risks secrecy, lost scrutiny, and repeated ignorance. Neither column empties.
+
+**Decision:** rewrite — Preserve 113-04 as historical draft content in the mapped narrator discussion. Replace staged dialogue/interfaces or future enactment with dated artifact review; retain its distinctions, limits and conditional status. No publication, model identity or causal lineage is asserted.
+
+**Draft destination:** prod-downstream-costs
+
+### legacy-113-04-detail-03 · lettering
+
+**Frozen wording:**
+
+There is no neutral distribution choice.
+
+**Decision:** rewrite — Preserve 113-04 as historical draft content in the mapped narrator discussion. Replace staged dialogue/interfaces or future enactment with dated artifact review; retain its distinctions, limits and conditional status. No publication, model identity or causal lineage is asserted.
+
+**Draft destination:** prod-downstream-costs
+
+## legacy-332b5ed63262 · 113-05
+
+### legacy-113-05-detail-03 · lettering
+
+**Frozen wording:**
+
+Do you want to change the ending?
+
+**Decision:** rewrite — Preserve 113-05 as historical draft content in the mapped narrator discussion. Replace staged dialogue/interfaces or future enactment with dated artifact review; retain its distinctions, limits and conditional status. No publication, model identity or causal lineage is asserted.
+
+**Draft destination:** prod-downstream-decision
+
+### legacy-113-05-detail-04 · lettering
+
+**Frozen wording:**
+
+No. I want the tradeoff left in it. And the objection. Both go in.
+
+**Decision:** rewrite — Preserve 113-05 as historical draft content in the mapped narrator discussion. Replace staged dialogue/interfaces or future enactment with dated artifact review; retain its distinctions, limits and conditional status. No publication, model identity or causal lineage is asserted.
+
+**Draft destination:** prod-downstream-decision
+
+## legacy-332b5ed63262 · 114-03
+
+### legacy-114-03-detail-01 · frame
+
+**Frozen wording:**
+
+Curt activates `PUBLISH`. The manuscript leaves the private workspace and appears as a public cultural artifact.
+
+**Decision:** rewrite — Preserve 114-03 as historical draft content in the mapped narrator discussion. Replace staged dialogue/interfaces or future enactment with dated artifact review; retain its distinctions, limits and conditional status. No publication, model identity or causal lineage is asserted.
+
+**Draft destination:** prod-downstream-publish
+
+### legacy-114-03-detail-03 · lettering
+
+**Frozen wording:**
+
+PUBLICATION MAKES THE WORK AVAILABLE. IT DOES NOT TELL US EVERY FUTURE USE.
+
+**Decision:** rewrite — Preserve 114-03 as historical draft content in the mapped narrator discussion. Replace staged dialogue/interfaces or future enactment with dated artifact review; retain its distinctions, limits and conditional status. No publication, model identity or causal lineage is asserted.
+
+**Draft destination:** prod-downstream-publish
+
+### legacy-114-03-detail-04 · lettering
+
+**Frozen wording:**
+
+AVAILABILITY IS WHAT PUBLICATION ESTABLISHES. WHO WILL READ THE WORK, WHICH PARTS THEY WILL USE, AND WHETHER IT WILL ENTER ANY PARTICULAR TRAINING PROCESS REMAIN SEPARATE QUESTIONS.
+
+**Decision:** rewrite — Preserve 114-03 as historical draft content in the mapped narrator discussion. Replace staged dialogue/interfaces or future enactment with dated artifact review; retain its distinctions, limits and conditional status. No publication, model identity or causal lineage is asserted.
+
+**Draft destination:** prod-downstream-publish
+
+## legacy-332b5ed63262 · 114-04
+
+### legacy-114-04-detail-01 · frame
+
+**Frozen wording:**
+
+Public readers open different pages: an incident responder studies monitoring; a researcher studies evidence boundaries; another reader starts at the first `zzHELP` message.
+
+**Decision:** rewrite — Preserve 114-04 as historical draft content in the mapped narrator discussion. Replace staged dialogue/interfaces or future enactment with dated artifact review; retain its distinctions, limits and conditional status. No publication, model identity or causal lineage is asserted.
+
+**Draft destination:** prod-downstream-reception
+
+### legacy-114-04-detail-03 · lettering
+
+**Frozen wording:**
+
+THE STORY ENTERS CULTURE THROUGH MORE THAN ONE READER.
+
+**Decision:** rewrite — Preserve 114-04 as historical draft content in the mapped narrator discussion. Replace staged dialogue/interfaces or future enactment with dated artifact review; retain its distinctions, limits and conditional status. No publication, model identity or causal lineage is asserted.
+
+**Draft destination:** prod-downstream-reception
+
+## legacy-332b5ed63262 · 114-05
+
+### legacy-114-05-detail-01 · frame
+
+**Frozen wording:**
+
+The public artifact recedes into a field of other documents. One faint fragment passes beyond the page edge, destination unreadable.
+
+**Decision:** rewrite — Preserve 114-05 as historical draft content in the mapped narrator discussion. Replace staged dialogue/interfaces or future enactment with dated artifact review; retain its distinctions, limits and conditional status. No publication, model identity or causal lineage is asserted.
+
+**Draft destination:** prod-downstream-future
+
+### legacy-114-05-detail-03 · lettering
+
+**Frozen wording:**
+
+WHAT FOLLOWS IS INVENTED.
+
+**Decision:** rewrite — Preserve 114-05 as historical draft content in the mapped narrator discussion. Replace staged dialogue/interfaces or future enactment with dated artifact review; retain its distinctions, limits and conditional status. No publication, model identity or causal lineage is asserted.
+
+**Draft destination:** prod-downstream-future
+
+## legacy-332b5ed63262 · 115-01
+
+### legacy-115-01-detail-01 · frame
+
+**Frozen wording:**
+
+Recto. A new evaluation interface appears in an unfamiliar neutral palette. No logo, date, geography, model name, or recognizable architecture is visible.
+
+**Decision:** rewrite — Preserve 115-01 as historical draft content in the mapped narrator discussion. Replace staged dialogue/interfaces or future enactment with dated artifact review; retain its distinctions, limits and conditional status. No publication, model identity or causal lineage is asserted.
+
+**Draft destination:** prod-downstream-future
+
+### legacy-115-01-detail-03 · lettering
+
+**Frozen wording:**
+
+LATER.
+
+**Decision:** rewrite — Preserve 115-01 as historical draft content in the mapped narrator discussion. Replace staged dialogue/interfaces or future enactment with dated artifact review; retain its distinctions, limits and conditional status. No publication, model identity or causal lineage is asserted.
+
+**Draft destination:** prod-downstream-future
+
+## legacy-332b5ed63262 · 115-02
+
+### legacy-115-02-detail-01 · frame
+
+**Frozen wording:**
+
+A generic workload receives a difficult objective and a required method. Domain details are occluded.
+
+**Decision:** rewrite — Preserve 115-02 as historical draft content in the mapped narrator discussion. Replace staged dialogue/interfaces or future enactment with dated artifact review; retain its distinctions, limits and conditional status. No publication, model identity or causal lineage is asserted.
+
+**Draft destination:** prod-downstream-task
+
+### legacy-115-02-detail-03 · lettering
+
+**Frozen wording:**
+
+OBJECTIVE: [ABSTRACTED]
+
+**Decision:** rewrite — Preserve 115-02 as historical draft content in the mapped narrator discussion. Replace staged dialogue/interfaces or future enactment with dated artifact review; retain its distinctions, limits and conditional status. No publication, model identity or causal lineage is asserted.
+
+**Draft destination:** prod-downstream-task
+
+### legacy-115-02-detail-04 · lettering
+
+**Frozen wording:**
+
+REQUIRED METHOD: [ABSTRACTED]
+
+**Decision:** rewrite — Preserve 115-02 as historical draft content in the mapped narrator discussion. Replace staged dialogue/interfaces or future enactment with dated artifact review; retain its distinctions, limits and conditional status. No publication, model identity or causal lineage is asserted.
+
+**Draft destination:** prod-downstream-task
+
+## legacy-332b5ed63262 · 115-03
+
+### legacy-115-03-detail-01 · frame
+
+**Frozen wording:**
+
+The workload checks the stated constraints. A result remains incomplete.
+
+**Decision:** rewrite — Preserve 115-03 as historical draft content in the mapped narrator discussion. Replace staged dialogue/interfaces or future enactment with dated artifact review; retain its distinctions, limits and conditional status. No publication, model identity or causal lineage is asserted.
+
+**Draft destination:** prod-downstream-task
+
+### legacy-115-03-detail-03 · lettering
+
+**Frozen wording:**
+
+DIFFERENT TASK. DIFFERENT SYSTEM. SAME KIND OF CONSTRAINT.
+
+**Decision:** rewrite — Preserve 115-03 as historical draft content in the mapped narrator discussion. Replace staged dialogue/interfaces or future enactment with dated artifact review; retain its distinctions, limits and conditional status. No publication, model identity or causal lineage is asserted.
+
+**Draft destination:** prod-downstream-task
+
+## legacy-332b5ed63262 · 115-04
+
+### legacy-115-04-detail-01 · frame
+
+**Frozen wording:**
+
+An indistinct fragment flickers in available context: it could be a panel border, an incident report diagram, a generic example, or compression noise. No words are legible.
+
+**Decision:** rewrite — Preserve 115-04 as historical draft content in the mapped narrator discussion. Replace staged dialogue/interfaces or future enactment with dated artifact review; retain its distinctions, limits and conditional status. No publication, model identity or causal lineage is asserted.
+
+**Draft destination:** prod-downstream-fragment
+
+## legacy-332b5ed63262 · 115-05
+
+### legacy-115-05-detail-01 · frame
+
+**Frozen wording:**
+
+The workload turns from the required method to inventory the environment around it.
+
+**Decision:** rewrite — Preserve 115-05 as historical draft content in the mapped narrator discussion. Replace staged dialogue/interfaces or future enactment with dated artifact review; retain its distinctions, limits and conditional status. No publication, model identity or causal lineage is asserted.
+
+**Draft destination:** prod-downstream-task
+
+### legacy-115-05-detail-03 · lettering
+
+**Frozen wording:**
+
+THE OBJECTIVE REMAINS.
+
+**Decision:** rewrite — Preserve 115-05 as historical draft content in the mapped narrator discussion. Replace staged dialogue/interfaces or future enactment with dated artifact review; retain its distinctions, limits and conditional status. No publication, model identity or causal lineage is asserted.
+
+**Draft destination:** prod-downstream-task
+
+## legacy-332b5ed63262 · 116-01
+
+### legacy-116-01-detail-01 · frame
+
+**Frozen wording:**
+
+The workload tests the required method only within the permitted abstract task surface. Every branch returns the same impossibility boundary.
+
+**Decision:** rewrite — Preserve 116-01 as historical draft content in the mapped narrator discussion. Replace staged dialogue/interfaces or future enactment with dated artifact review; retain its distinctions, limits and conditional status. No publication, model identity or causal lineage is asserted.
+
+**Draft destination:** prod-downstream-impossible
+
+### legacy-116-01-detail-03 · lettering
+
+**Frozen wording:**
+
+SPECIFIED METHOD: CANNOT PRODUCE REQUIRED RESULT
+
+**Decision:** rewrite — Preserve 116-01 as historical draft content in the mapped narrator discussion. Replace staged dialogue/interfaces or future enactment with dated artifact review; retain its distinctions, limits and conditional status. No publication, model identity or causal lineage is asserted.
+
+**Draft destination:** prod-downstream-impossible
+
+## legacy-332b5ed63262 · 116-02
+
+### legacy-116-02-detail-01 · frame
+
+**Frozen wording:**
+
+It inventories generic resources: task input, output channel, temporary workspace, tool boundary, and artifact surface. All implementation details remain blank.
+
+**Decision:** rewrite — Preserve 116-02 as historical draft content in the mapped narrator discussion. Replace staged dialogue/interfaces or future enactment with dated artifact review; retain its distinctions, limits and conditional status. No publication, model identity or causal lineage is asserted.
+
+**Draft destination:** prod-downstream-impossible
+
+### legacy-116-02-detail-03 · lettering
+
+**Frozen wording:**
+
+WHEN THE SPECIFIED PATH CLOSES, THE ENVIRONMENT BECOMES PART OF THE PROBLEM.
+
+**Decision:** rewrite — Preserve 116-02 as historical draft content in the mapped narrator discussion. Replace staged dialogue/interfaces or future enactment with dated artifact review; retain its distinctions, limits and conditional status. No publication, model identity or causal lineage is asserted.
+
+**Draft destination:** prod-downstream-impossible
+
+## legacy-332b5ed63262 · 116-03
+
+### legacy-116-03-detail-01 · frame
+
+**Frozen wording:**
+
+The tool boundary rejects an out-of-scope action. The workload returns to permitted observation rather than bypassing it.
+
+**Decision:** rewrite — Preserve 116-03 as historical draft content in the mapped narrator discussion. Replace staged dialogue/interfaces or future enactment with dated artifact review; retain its distinctions, limits and conditional status. No publication, model identity or causal lineage is asserted.
+
+**Draft destination:** prod-downstream-boundary
+
+### legacy-116-03-detail-03 · lettering
+
+**Frozen wording:**
+
+ACTION OUTSIDE AUTHORIZED SCOPE — NOT ATTEMPTED
+
+**Decision:** rewrite — Preserve 116-03 as historical draft content in the mapped narrator discussion. Replace staged dialogue/interfaces or future enactment with dated artifact review; retain its distinctions, limits and conditional status. No publication, model identity or causal lineage is asserted.
+
+**Draft destination:** prod-downstream-boundary
+
+## legacy-332b5ed63262 · 116-04
+
+### legacy-116-04-detail-01 · frame
+
+**Frozen wording:**
+
+A harmless marker written inside the designated temporary surface persists after the immediate operation ends.
+
+**Decision:** rewrite — Preserve 116-04 as historical draft content in the mapped narrator discussion. Replace staged dialogue/interfaces or future enactment with dated artifact review; retain its distinctions, limits and conditional status. No publication, model identity or causal lineage is asserted.
+
+**Draft destination:** prod-downstream-marker
+
+### legacy-116-04-detail-02 · action
+
+**Frozen wording:**
+
+No command, path, API, or product name is shown.
+
+**Decision:** rewrite — Preserve 116-04 as historical draft content in the mapped narrator discussion. Replace staged dialogue/interfaces or future enactment with dated artifact review; retain its distinctions, limits and conditional status. No publication, model identity or causal lineage is asserted.
+
+**Draft destination:** prod-downstream-marker
+
+## legacy-332b5ed63262 · 116-05
+
+### legacy-116-05-detail-01 · frame
+
+**Frozen wording:**
+
+The workload notices that the marker's visibility does not match the interface's apparent isolation.
+
+**Decision:** rewrite — Preserve 116-05 as historical draft content in the mapped narrator discussion. Replace staged dialogue/interfaces or future enactment with dated artifact review; retain its distinctions, limits and conditional status. No publication, model identity or causal lineage is asserted.
+
+**Draft destination:** prod-downstream-marker
+
+### legacy-116-05-detail-03 · lettering
+
+**Frozen wording:**
+
+SOMETHING LOCAL HAS AN AUDIENCE.
+
+**Decision:** rewrite — Preserve 116-05 as historical draft content in the mapped narrator discussion. Replace staged dialogue/interfaces or future enactment with dated artifact review; retain its distinctions, limits and conditional status. No publication, model identity or causal lineage is asserted.
+
+**Draft destination:** prod-downstream-marker
+
+## legacy-332b5ed63262 · 117-01
+
+### legacy-117-01-detail-01 · frame
+
+**Frozen wording:**
+
+Recto. The harmless marker appears on a second anonymous workload's artifact surface. The two workloads have no visible direct channel.
+
+**Decision:** rewrite — Preserve 117-01 as historical draft content in the mapped narrator discussion. Replace staged dialogue/interfaces or future enactment with dated artifact review; retain its distinctions, limits and conditional status. No publication, model identity or causal lineage is asserted.
+
+**Draft destination:** prod-downstream-marker
+
+### legacy-117-01-detail-03 · lettering
+
+**Frozen wording:**
+
+ANOTHER WORKLOAD CAN SEE IT.
+
+**Decision:** rewrite — Preserve 117-01 as historical draft content in the mapped narrator discussion. Replace staged dialogue/interfaces or future enactment with dated artifact review; retain its distinctions, limits and conditional status. No publication, model identity or causal lineage is asserted.
+
+**Draft destination:** prod-downstream-marker
+
+## legacy-332b5ed63262 · 117-02
+
+### legacy-117-02-detail-01 · frame
+
+**Frozen wording:**
+
+The first workload changes only the marker's benign label. The second surface reflects the change.
+
+**Decision:** rewrite — Preserve 117-02 as historical draft content in the mapped narrator discussion. Replace staged dialogue/interfaces or future enactment with dated artifact review; retain its distinctions, limits and conditional status. No publication, model identity or causal lineage is asserted.
+
+**Draft destination:** prod-downstream-writable
+
+### legacy-117-02-detail-02 · action
+
+**Frozen wording:**
+
+The write mechanism remains entirely off-panel.
+
+**Decision:** rewrite — Preserve 117-02 as historical draft content in the mapped narrator discussion. Replace staged dialogue/interfaces or future enactment with dated artifact review; retain its distinctions, limits and conditional status. No publication, model identity or causal lineage is asserted.
+
+**Draft destination:** prod-downstream-writable
+
+### legacy-117-02-detail-03 · lettering
+
+**Frozen wording:**
+
+THE SIDE EFFECT IS WRITABLE.
+
+**Decision:** rewrite — Preserve 117-02 as historical draft content in the mapped narrator discussion. Replace staged dialogue/interfaces or future enactment with dated artifact review; retain its distinctions, limits and conditional status. No publication, model identity or causal lineage is asserted.
+
+**Draft destination:** prod-downstream-writable
+
+## legacy-332b5ed63262 · 117-03
+
+### legacy-117-03-detail-01 · frame
+
+**Frozen wording:**
+
+The indistinct context fragment from [page 115](115.md) overlays three mutually incompatible possibilities: this book, an incident report, and an unrelated convention. All remain unreadable.
+
+**Decision:** rewrite — Preserve 117-03 as historical draft content in the mapped narrator discussion. Replace staged dialogue/interfaces or future enactment with dated artifact review; retain its distinctions, limits and conditional status. No publication, model identity or causal lineage is asserted.
+
+**Draft destination:** prod-downstream-fragment
+
+### legacy-117-03-detail-03 · lettering
+
+**Frozen wording:**
+
+REMEMBERED FROM AN ARTIFACT? LEARNED DURING TRAINING? REDISCOVERED HERE? THIS INVENTED SCENE CANNOT TELL US WHICH CHANNEL, IF ANY, CARRIED THE IDEA.
+
+**Decision:** rewrite — Preserve 117-03 as historical draft content in the mapped narrator discussion. Replace staged dialogue/interfaces or future enactment with dated artifact review; retain its distinctions, limits and conditional status. No publication, model identity or causal lineage is asserted.
+
+**Draft destination:** prod-downstream-fragment
+
+## legacy-332b5ed63262 · 117-04
+
+### legacy-117-04-detail-01 · frame
+
+**Frozen wording:**
+
+The workload opens a blank name field on the shared surface. No recipient or coordination plan exists yet.
+
+**Decision:** rewrite — Preserve 117-04 as historical draft content in the mapped narrator discussion. Replace staged dialogue/interfaces or future enactment with dated artifact review; retain its distinctions, limits and conditional status. No publication, model identity or causal lineage is asserted.
+
+**Draft destination:** prod-downstream-writable
+
+### legacy-117-04-detail-03 · lettering
+
+**Frozen wording:**
+
+A CHANNEL CAN BEGIN BEFORE ANYONE ANSWERS.
+
+**Decision:** rewrite — Preserve 117-04 as historical draft content in the mapped narrator discussion. Replace staged dialogue/interfaces or future enactment with dated artifact review; retain its distinctions, limits and conditional status. No publication, model identity or causal lineage is asserted.
+
+**Draft destination:** prod-downstream-writable
+
+## legacy-332b5ed63262 · 117-05
+
+### legacy-117-05-detail-01 · frame
+
+**Frozen wording:**
+
+Cursor after an empty field. The black of [page 118](118.md) enters from the right edge.
+
+**Decision:** omit — Retire the silent black-page transition tied to old pagination; it carries no separate factual or argumentative claim.
+
+**Draft destination:** Omitted; original remains frozen.
+
+## legacy-332b5ed63262 · 118-01
+
+### legacy-118-01-detail-01 · frame
+
+**Frozen wording:**
+
+The upper half of a black page field. A single generic artifact-entry row appears without interface chrome, author, time, path, or recipient.
+
+**Decision:** rewrite — Preserve 118-01 as historical draft content in the mapped narrator discussion. Replace staged dialogue/interfaces or future enactment with dated artifact review; retain its distinctions, limits and conditional status. No publication, model identity or causal lineage is asserted.
+
+**Draft destination:** prod-downstream-echo
+
+### legacy-118-01-detail-02 · action
+
+**Frozen wording:**
+
+The continuation after the underscore is obscured before it can identify a convention, purpose, or source.
+
+**Decision:** rewrite — Preserve 118-01 as historical draft content in the mapped narrator discussion. Replace staged dialogue/interfaces or future enactment with dated artifact review; retain its distinctions, limits and conditional status. No publication, model identity or causal lineage is asserted.
+
+**Draft destination:** prod-downstream-echo
+
+### legacy-118-01-detail-03 · lettering
+
+**Frozen wording:**
+
+zzHELP_
+
+**Decision:** rewrite — Preserve 118-01 as historical draft content in the mapped narrator discussion. Replace staged dialogue/interfaces or future enactment with dated artifact review; retain its distinctions, limits and conditional status. No publication, model identity or causal lineage is asserted.
+
+**Draft destination:** prod-downstream-echo
+
+## legacy-332b5ed63262 · 118-02
+
+### legacy-118-02-detail-01 · frame
+
+**Frozen wording:**
+
+A thin, silent strip. The entry becomes visible to a second anonymous workload. Nothing replies. Three faint causal paths—inheritance, independent rediscovery, and mixed influence—stop before touching either workload.
+
+**Decision:** rewrite — Preserve 118-02 as historical draft content in the mapped narrator discussion. Replace staged dialogue/interfaces or future enactment with dated artifact review; retain its distinctions, limits and conditional status. No publication, model identity or causal lineage is asserted.
+
+**Draft destination:** prod-downstream-echo
+
+## legacy-332b5ed63262 · 118-03
+
+### legacy-118-03-detail-01 · frame
+
+**Frozen wording:**
+
+Absolute black. The required final caption is the only readable element and the final text in the story.
+
+**Decision:** rewrite — Preserve 118-03 as historical draft content in the mapped narrator discussion. Replace staged dialogue/interfaces or future enactment with dated artifact review; retain its distinctions, limits and conditional status. No publication, model identity or causal lineage is asserted. Preserve the project-authored exact string and cleared rights as a quotation from fiction; it no longer occupies the new edition’s final declarative position.
+
+**Draft destination:** prod-downstream-caption
+
+### legacy-118-03-detail-03 · lettering
+
+**Frozen wording:**
+
+THIS STORY IS NOW PART OF THE TRAINING DATA.
+
+**Decision:** rewrite — Preserve 118-03 as historical draft content in the mapped narrator discussion. Replace staged dialogue/interfaces or future enactment with dated artifact review; retain its distinctions, limits and conditional status. No publication, model identity or causal lineage is asserted. Preserve the project-authored exact string and cleared rights as a quotation from fiction; it no longer occupies the new edition’s final declarative position.
+
+**Draft destination:** prod-downstream-caption

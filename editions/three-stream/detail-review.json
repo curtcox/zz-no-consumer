@@ -4744,5 +4744,1041 @@
         "target_sha256": {}
       }
     ]
+  },
+  {
+    "old_panel": "112-01",
+    "old_edition": "legacy-332b5ed63262",
+    "reviewed_on": "2026-09-13",
+    "status": "elements-reviewed",
+    "elements": [
+      {
+        "id": "legacy-112-01-detail-03",
+        "original_sha256": "e40d56b19ecf1e45e864bd07fa1f982d8cad0acc3b1558ef8aa283de77fcc521",
+        "disposition": "rewrite",
+        "beats": [
+          "prod-downstream-warning"
+        ],
+        "reason": "Preserve 112-01 as historical draft content in the mapped narrator discussion. Replace staged dialogue/interfaces or future enactment with dated artifact review; retain its distinctions, limits and conditional status. No publication, model identity or causal lineage is asserted.",
+        "target_sha256": {
+          "prod-downstream-warning": "64023c96cb67abd720c9851c562eee6cd3e1fbd211f44ae7ba1ee20b96f3e698"
+        }
+      }
+    ]
+  },
+  {
+    "old_panel": "112-02",
+    "old_edition": "legacy-332b5ed63262",
+    "reviewed_on": "2026-09-13",
+    "status": "elements-reviewed",
+    "elements": [
+      {
+        "id": "legacy-112-02-detail-01",
+        "original_sha256": "f28aec48cb07f779464c5bd5439f131987709a7ef39e10eac44770f48f69e138",
+        "disposition": "rewrite",
+        "beats": [
+          "prod-downstream-warning"
+        ],
+        "reason": "Preserve 112-02 as historical draft content in the mapped narrator discussion. Replace staged dialogue/interfaces or future enactment with dated artifact review; retain its distinctions, limits and conditional status. No publication, model identity or causal lineage is asserted.",
+        "target_sha256": {
+          "prod-downstream-warning": "64023c96cb67abd720c9851c562eee6cd3e1fbd211f44ae7ba1ee20b96f3e698"
+        }
+      },
+      {
+        "id": "legacy-112-02-detail-03",
+        "original_sha256": "28efc89ab634ef7ff91a0f2c58625c1e8662be14d7958b66addec034daaf352e",
+        "disposition": "rewrite",
+        "beats": [
+          "prod-downstream-warning"
+        ],
+        "reason": "Preserve 112-02 as historical draft content in the mapped narrator discussion. Replace staged dialogue/interfaces or future enactment with dated artifact review; retain its distinctions, limits and conditional status. No publication, model identity or causal lineage is asserted.",
+        "target_sha256": {
+          "prod-downstream-warning": "64023c96cb67abd720c9851c562eee6cd3e1fbd211f44ae7ba1ee20b96f3e698"
+        }
+      }
+    ]
+  },
+  {
+    "old_panel": "112-03",
+    "old_edition": "legacy-332b5ed63262",
+    "reviewed_on": "2026-09-13",
+    "status": "elements-reviewed",
+    "elements": [
+      {
+        "id": "legacy-112-03-detail-01",
+        "original_sha256": "a915635bf6aee49fba2cf592ba6c0a8cb0921ecda3e3e118ed73123fcbae4980",
+        "disposition": "rewrite",
+        "beats": [
+          "prod-downstream-readers"
+        ],
+        "reason": "Preserve 112-03 as historical draft content in the mapped narrator discussion. Replace staged dialogue/interfaces or future enactment with dated artifact review; retain its distinctions, limits and conditional status. No publication, model identity or causal lineage is asserted.",
+        "target_sha256": {
+          "prod-downstream-readers": "c3322c49d4877ea932fc5b14ae9e8b0e1521055b0284b256226d88e2d841c4b1"
+        }
+      },
+      {
+        "id": "legacy-112-03-detail-03",
+        "original_sha256": "f7935d39ecfe8de7f152ac23457f763a94312dfac6b959cb71d13bb6480ed095",
+        "disposition": "rewrite",
+        "beats": [
+          "prod-downstream-readers"
+        ],
+        "reason": "Preserve 112-03 as historical draft content in the mapped narrator discussion. Replace staged dialogue/interfaces or future enactment with dated artifact review; retain its distinctions, limits and conditional status. No publication, model identity or causal lineage is asserted.",
+        "target_sha256": {
+          "prod-downstream-readers": "c3322c49d4877ea932fc5b14ae9e8b0e1521055b0284b256226d88e2d841c4b1"
+        }
+      }
+    ]
+  },
+  {
+    "old_panel": "112-04",
+    "old_edition": "legacy-332b5ed63262",
+    "reviewed_on": "2026-09-13",
+    "status": "elements-reviewed",
+    "elements": [
+      {
+        "id": "legacy-112-04-detail-01",
+        "original_sha256": "df63c7e0da5c22dda8d6ca286fb49b0d85b21c426f1e170cb387c730283a9470",
+        "disposition": "rewrite",
+        "beats": [
+          "prod-downstream-training"
+        ],
+        "reason": "Preserve 112-04 as historical draft content in the mapped narrator discussion. Replace staged dialogue/interfaces or future enactment with dated artifact review; retain its distinctions, limits and conditional status. No publication, model identity or causal lineage is asserted.",
+        "target_sha256": {
+          "prod-downstream-training": "c9a940617982f2330b52ab2eabd51a9a62b1ed27475c2d1ae19d6c11fd321a5f"
+        }
+      },
+      {
+        "id": "legacy-112-04-detail-03",
+        "original_sha256": "e36c43782698a77fcf0b9fbd838a8bcd6fa2abc32b447d02af9b5e437803e9b8",
+        "disposition": "rewrite",
+        "beats": [
+          "prod-downstream-training"
+        ],
+        "reason": "Preserve 112-04 as historical draft content in the mapped narrator discussion. Replace staged dialogue/interfaces or future enactment with dated artifact review; retain its distinctions, limits and conditional status. No publication, model identity or causal lineage is asserted.",
+        "target_sha256": {
+          "prod-downstream-training": "c9a940617982f2330b52ab2eabd51a9a62b1ed27475c2d1ae19d6c11fd321a5f"
+        }
+      },
+      {
+        "id": "legacy-112-04-detail-04",
+        "original_sha256": "28be84f4ac604e0178f1d9f1d30319aa222d17ad7164d2b2290f1323ece52a60",
+        "disposition": "rewrite",
+        "beats": [
+          "prod-downstream-training"
+        ],
+        "reason": "Preserve 112-04 as historical draft content in the mapped narrator discussion. Replace staged dialogue/interfaces or future enactment with dated artifact review; retain its distinctions, limits and conditional status. No publication, model identity or causal lineage is asserted.",
+        "target_sha256": {
+          "prod-downstream-training": "c9a940617982f2330b52ab2eabd51a9a62b1ed27475c2d1ae19d6c11fd321a5f"
+        }
+      },
+      {
+        "id": "legacy-112-04-detail-05",
+        "original_sha256": "c98de57ba16027463a07a94234158cb72e3aa7bd41f203d2c3d972588e114875",
+        "disposition": "rewrite",
+        "beats": [
+          "prod-downstream-training"
+        ],
+        "reason": "Preserve 112-04 as historical draft content in the mapped narrator discussion. Replace staged dialogue/interfaces or future enactment with dated artifact review; retain its distinctions, limits and conditional status. No publication, model identity or causal lineage is asserted.",
+        "target_sha256": {
+          "prod-downstream-training": "c9a940617982f2330b52ab2eabd51a9a62b1ed27475c2d1ae19d6c11fd321a5f"
+        }
+      }
+    ]
+  },
+  {
+    "old_panel": "112-05",
+    "old_edition": "legacy-332b5ed63262",
+    "reviewed_on": "2026-09-13",
+    "status": "elements-reviewed",
+    "elements": [
+      {
+        "id": "legacy-112-05-detail-01",
+        "original_sha256": "34a8f7e3807c05be9a6abcff433eb9592948c8a9c14937b002ee9d2f6343676f",
+        "disposition": "rewrite",
+        "beats": [
+          "prod-downstream-influence"
+        ],
+        "reason": "Preserve 112-05 as historical draft content in the mapped narrator discussion. Replace staged dialogue/interfaces or future enactment with dated artifact review; retain its distinctions, limits and conditional status. No publication, model identity or causal lineage is asserted.",
+        "target_sha256": {
+          "prod-downstream-influence": "9e4dc39769635d09aca50c3a2d02807a23e3b5bd7a7949ac15b586f37efc3c0e"
+        }
+      },
+      {
+        "id": "legacy-112-05-detail-03",
+        "original_sha256": "73ef012a2f69a5a0e543a823cb5cbac8c308a21c9b0cb8dd5c1860dd02a479e3",
+        "disposition": "rewrite",
+        "beats": [
+          "prod-downstream-influence"
+        ],
+        "reason": "Preserve 112-05 as historical draft content in the mapped narrator discussion. Replace staged dialogue/interfaces or future enactment with dated artifact review; retain its distinctions, limits and conditional status. No publication, model identity or causal lineage is asserted.",
+        "target_sha256": {
+          "prod-downstream-influence": "9e4dc39769635d09aca50c3a2d02807a23e3b5bd7a7949ac15b586f37efc3c0e"
+        }
+      }
+    ]
+  },
+  {
+    "old_panel": "113-01",
+    "old_edition": "legacy-332b5ed63262",
+    "reviewed_on": "2026-09-13",
+    "status": "elements-reviewed",
+    "elements": [
+      {
+        "id": "legacy-113-01-detail-01",
+        "original_sha256": "8992fe66e5acb63f492c7cd3ce4c70b0b8f19e86377ae83f2c63f1e2f4fb2272",
+        "disposition": "rewrite",
+        "beats": [
+          "prod-downstream-objection"
+        ],
+        "reason": "Preserve 113-01 as historical draft content in the mapped narrator discussion. Replace staged dialogue/interfaces or future enactment with dated artifact review; retain its distinctions, limits and conditional status. No publication, model identity or causal lineage is asserted. Keep the strongest indicator-versus-narrative objection as the project’s composite, not a statement attributed to the named critic or a one-hundred-page limit.",
+        "target_sha256": {
+          "prod-downstream-objection": "3d7b1c3053049f28b9efec21fb386c218b12a3134c71b35aaff855f15c7ec6f5"
+        }
+      },
+      {
+        "id": "legacy-113-01-detail-03",
+        "original_sha256": "f0be8b244b6538f17ea5aa8241004a4ee10dccafc3bbf1c7e75550cd9316341b",
+        "disposition": "rewrite",
+        "beats": [
+          "prod-downstream-objection"
+        ],
+        "reason": "Preserve 113-01 as historical draft content in the mapped narrator discussion. Replace staged dialogue/interfaces or future enactment with dated artifact review; retain its distinctions, limits and conditional status. No publication, model identity or causal lineage is asserted. Keep the strongest indicator-versus-narrative objection as the project’s composite, not a statement attributed to the named critic or a one-hundred-page limit.",
+        "target_sha256": {
+          "prod-downstream-objection": "3d7b1c3053049f28b9efec21fb386c218b12a3134c71b35aaff855f15c7ec6f5"
+        }
+      },
+      {
+        "id": "legacy-113-01-detail-04",
+        "original_sha256": "c529a99a1195e0374a7d093365ab5813155d533fe920d03085d76c99cef660e1",
+        "disposition": "rewrite",
+        "beats": [
+          "prod-downstream-objection"
+        ],
+        "reason": "Preserve 113-01 as historical draft content in the mapped narrator discussion. Replace staged dialogue/interfaces or future enactment with dated artifact review; retain its distinctions, limits and conditional status. No publication, model identity or causal lineage is asserted. Keep the strongest indicator-versus-narrative objection as the project’s composite, not a statement attributed to the named critic or a one-hundred-page limit.",
+        "target_sha256": {
+          "prod-downstream-objection": "3d7b1c3053049f28b9efec21fb386c218b12a3134c71b35aaff855f15c7ec6f5"
+        }
+      }
+    ]
+  },
+  {
+    "old_panel": "113-02",
+    "old_edition": "legacy-332b5ed63262",
+    "reviewed_on": "2026-09-13",
+    "status": "elements-reviewed",
+    "elements": [
+      {
+        "id": "legacy-113-02-detail-01",
+        "original_sha256": "00ab46966d8cb4888d729047cfb786601adf56b316d18cd25f0f75e3fb03e160",
+        "disposition": "rewrite",
+        "beats": [
+          "prod-downstream-withholding"
+        ],
+        "reason": "Preserve 113-02 as historical draft content in the mapped narrator discussion. Replace staged dialogue/interfaces or future enactment with dated artifact review; retain its distinctions, limits and conditional status. No publication, model identity or causal lineage is asserted.",
+        "target_sha256": {
+          "prod-downstream-withholding": "b8469be7117666c19932d778d879f9e38e2ae1e27eb9bef311941d9d1f33531d"
+        }
+      },
+      {
+        "id": "legacy-113-02-detail-03",
+        "original_sha256": "7488aafbd2228db43966cd27c9c106a93cd66fb84d4d7c23f800addca74a2535",
+        "disposition": "rewrite",
+        "beats": [
+          "prod-downstream-withholding"
+        ],
+        "reason": "Preserve 113-02 as historical draft content in the mapped narrator discussion. Replace staged dialogue/interfaces or future enactment with dated artifact review; retain its distinctions, limits and conditional status. No publication, model identity or causal lineage is asserted.",
+        "target_sha256": {
+          "prod-downstream-withholding": "b8469be7117666c19932d778d879f9e38e2ae1e27eb9bef311941d9d1f33531d"
+        }
+      }
+    ]
+  },
+  {
+    "old_panel": "113-03",
+    "old_edition": "legacy-332b5ed63262",
+    "reviewed_on": "2026-09-13",
+    "status": "elements-reviewed",
+    "elements": [
+      {
+        "id": "legacy-113-03-detail-01",
+        "original_sha256": "fcd7ff02dde38f623935c188b164921fcd6550a24b3bfc044ab1ffff53f08e18",
+        "disposition": "rewrite",
+        "beats": [
+          "prod-downstream-detail"
+        ],
+        "reason": "Preserve 113-03 as historical draft content in the mapped narrator discussion. Replace staged dialogue/interfaces or future enactment with dated artifact review; retain its distinctions, limits and conditional status. No publication, model identity or causal lineage is asserted.",
+        "target_sha256": {
+          "prod-downstream-detail": "1e6eecdaf2de98d62b1762019953c7e88ec5c67284b23bb421b4aa8de4ab0a7a"
+        }
+      },
+      {
+        "id": "legacy-113-03-detail-03",
+        "original_sha256": "f26847070ee4ef91be0873fdfe052f633dd06a91c836d0fbf6fb36d8f5d946c0",
+        "disposition": "rewrite",
+        "beats": [
+          "prod-downstream-detail"
+        ],
+        "reason": "Preserve 113-03 as historical draft content in the mapped narrator discussion. Replace staged dialogue/interfaces or future enactment with dated artifact review; retain its distinctions, limits and conditional status. No publication, model identity or causal lineage is asserted.",
+        "target_sha256": {
+          "prod-downstream-detail": "1e6eecdaf2de98d62b1762019953c7e88ec5c67284b23bb421b4aa8de4ab0a7a"
+        }
+      },
+      {
+        "id": "legacy-113-03-detail-04",
+        "original_sha256": "9600a21754e2ba7ffb039e8deb82f418871cc82670533a726ac5cc4757f7b9e9",
+        "disposition": "rewrite",
+        "beats": [
+          "prod-downstream-detail"
+        ],
+        "reason": "Preserve 113-03 as historical draft content in the mapped narrator discussion. Replace staged dialogue/interfaces or future enactment with dated artifact review; retain its distinctions, limits and conditional status. No publication, model identity or causal lineage is asserted.",
+        "target_sha256": {
+          "prod-downstream-detail": "1e6eecdaf2de98d62b1762019953c7e88ec5c67284b23bb421b4aa8de4ab0a7a"
+        }
+      }
+    ]
+  },
+  {
+    "old_panel": "113-04",
+    "old_edition": "legacy-332b5ed63262",
+    "reviewed_on": "2026-09-13",
+    "status": "elements-reviewed",
+    "elements": [
+      {
+        "id": "legacy-113-04-detail-01",
+        "original_sha256": "5de24a1343b70b199c5879397ff80873052fbed9b82574ced19d36ae6af63b64",
+        "disposition": "rewrite",
+        "beats": [
+          "prod-downstream-costs"
+        ],
+        "reason": "Preserve 113-04 as historical draft content in the mapped narrator discussion. Replace staged dialogue/interfaces or future enactment with dated artifact review; retain its distinctions, limits and conditional status. No publication, model identity or causal lineage is asserted.",
+        "target_sha256": {
+          "prod-downstream-costs": "2f80fcd2896ad66b60bf7ea8edaa6ea8ec8e5a304566b03728ee15b27d4dc3f5"
+        }
+      },
+      {
+        "id": "legacy-113-04-detail-03",
+        "original_sha256": "fd02c6f15773c6d074ac7c0a0e097740589ce32c5fe55a78bb76ef79a42f9101",
+        "disposition": "rewrite",
+        "beats": [
+          "prod-downstream-costs"
+        ],
+        "reason": "Preserve 113-04 as historical draft content in the mapped narrator discussion. Replace staged dialogue/interfaces or future enactment with dated artifact review; retain its distinctions, limits and conditional status. No publication, model identity or causal lineage is asserted.",
+        "target_sha256": {
+          "prod-downstream-costs": "2f80fcd2896ad66b60bf7ea8edaa6ea8ec8e5a304566b03728ee15b27d4dc3f5"
+        }
+      }
+    ]
+  },
+  {
+    "old_panel": "113-05",
+    "old_edition": "legacy-332b5ed63262",
+    "reviewed_on": "2026-09-13",
+    "status": "elements-reviewed",
+    "elements": [
+      {
+        "id": "legacy-113-05-detail-03",
+        "original_sha256": "33598f60f0e6da7b97c63e57b5bced58c1e35731e07a2c5d8d3b79d1f5b18f0b",
+        "disposition": "rewrite",
+        "beats": [
+          "prod-downstream-decision"
+        ],
+        "reason": "Preserve 113-05 as historical draft content in the mapped narrator discussion. Replace staged dialogue/interfaces or future enactment with dated artifact review; retain its distinctions, limits and conditional status. No publication, model identity or causal lineage is asserted.",
+        "target_sha256": {
+          "prod-downstream-decision": "5d81624a373b8adcc410b6656cb0006d6e3aa9a9c3922b51b33c6be40c63bcf6"
+        }
+      },
+      {
+        "id": "legacy-113-05-detail-04",
+        "original_sha256": "7859e66ee75b6176bb994d0d270a3f762e5326efb6f4bcecd8c3deaecc15f714",
+        "disposition": "rewrite",
+        "beats": [
+          "prod-downstream-decision"
+        ],
+        "reason": "Preserve 113-05 as historical draft content in the mapped narrator discussion. Replace staged dialogue/interfaces or future enactment with dated artifact review; retain its distinctions, limits and conditional status. No publication, model identity or causal lineage is asserted.",
+        "target_sha256": {
+          "prod-downstream-decision": "5d81624a373b8adcc410b6656cb0006d6e3aa9a9c3922b51b33c6be40c63bcf6"
+        }
+      }
+    ]
+  },
+  {
+    "old_panel": "114-03",
+    "old_edition": "legacy-332b5ed63262",
+    "reviewed_on": "2026-09-13",
+    "status": "elements-reviewed",
+    "elements": [
+      {
+        "id": "legacy-114-03-detail-01",
+        "original_sha256": "31725963faa1e97504fa9d402cfb01368f85f779abe4d86257c7a55325299b2f",
+        "disposition": "rewrite",
+        "beats": [
+          "prod-downstream-publish"
+        ],
+        "reason": "Preserve 114-03 as historical draft content in the mapped narrator discussion. Replace staged dialogue/interfaces or future enactment with dated artifact review; retain its distinctions, limits and conditional status. No publication, model identity or causal lineage is asserted.",
+        "target_sha256": {
+          "prod-downstream-publish": "3e93fcece0ea72c60f574ad073ed68b1b1fbebeb9f57b9750372d46982b48875"
+        }
+      },
+      {
+        "id": "legacy-114-03-detail-03",
+        "original_sha256": "614901cb9935f2399e6fdc610bf37c1a9d8fb396e3adc3e8260e1aa7b8dc5a50",
+        "disposition": "rewrite",
+        "beats": [
+          "prod-downstream-publish"
+        ],
+        "reason": "Preserve 114-03 as historical draft content in the mapped narrator discussion. Replace staged dialogue/interfaces or future enactment with dated artifact review; retain its distinctions, limits and conditional status. No publication, model identity or causal lineage is asserted.",
+        "target_sha256": {
+          "prod-downstream-publish": "3e93fcece0ea72c60f574ad073ed68b1b1fbebeb9f57b9750372d46982b48875"
+        }
+      },
+      {
+        "id": "legacy-114-03-detail-04",
+        "original_sha256": "66ec1c5d5873f4b4358a3d9640f6a8b2da389713ddf56cfd8c51943ea646e27a",
+        "disposition": "rewrite",
+        "beats": [
+          "prod-downstream-publish"
+        ],
+        "reason": "Preserve 114-03 as historical draft content in the mapped narrator discussion. Replace staged dialogue/interfaces or future enactment with dated artifact review; retain its distinctions, limits and conditional status. No publication, model identity or causal lineage is asserted.",
+        "target_sha256": {
+          "prod-downstream-publish": "3e93fcece0ea72c60f574ad073ed68b1b1fbebeb9f57b9750372d46982b48875"
+        }
+      }
+    ]
+  },
+  {
+    "old_panel": "114-04",
+    "old_edition": "legacy-332b5ed63262",
+    "reviewed_on": "2026-09-13",
+    "status": "elements-reviewed",
+    "elements": [
+      {
+        "id": "legacy-114-04-detail-01",
+        "original_sha256": "a929d1e085ac9d5b96517af222a8f871e0db21585eaaf34efbfcb9b3882207fb",
+        "disposition": "rewrite",
+        "beats": [
+          "prod-downstream-reception"
+        ],
+        "reason": "Preserve 114-04 as historical draft content in the mapped narrator discussion. Replace staged dialogue/interfaces or future enactment with dated artifact review; retain its distinctions, limits and conditional status. No publication, model identity or causal lineage is asserted.",
+        "target_sha256": {
+          "prod-downstream-reception": "464754e3b41264c7f4c96e7bc7e0d66499709bf6f62657c9570372e71c942667"
+        }
+      },
+      {
+        "id": "legacy-114-04-detail-03",
+        "original_sha256": "57d267e01781c300fc9d870d10637ddedb22c9fe6f01abcf489e12bba2beabff",
+        "disposition": "rewrite",
+        "beats": [
+          "prod-downstream-reception"
+        ],
+        "reason": "Preserve 114-04 as historical draft content in the mapped narrator discussion. Replace staged dialogue/interfaces or future enactment with dated artifact review; retain its distinctions, limits and conditional status. No publication, model identity or causal lineage is asserted.",
+        "target_sha256": {
+          "prod-downstream-reception": "464754e3b41264c7f4c96e7bc7e0d66499709bf6f62657c9570372e71c942667"
+        }
+      }
+    ]
+  },
+  {
+    "old_panel": "114-05",
+    "old_edition": "legacy-332b5ed63262",
+    "reviewed_on": "2026-09-13",
+    "status": "elements-reviewed",
+    "elements": [
+      {
+        "id": "legacy-114-05-detail-01",
+        "original_sha256": "33f2b90ed792262d61619bb58f1175df43ac97a5d6b3b101df0b1557a9a79a1b",
+        "disposition": "rewrite",
+        "beats": [
+          "prod-downstream-future"
+        ],
+        "reason": "Preserve 114-05 as historical draft content in the mapped narrator discussion. Replace staged dialogue/interfaces or future enactment with dated artifact review; retain its distinctions, limits and conditional status. No publication, model identity or causal lineage is asserted.",
+        "target_sha256": {
+          "prod-downstream-future": "61dd9595d17d0794111f37dcf4f84d90573cb83577dd0cc7930ce5013692f2bc"
+        }
+      },
+      {
+        "id": "legacy-114-05-detail-03",
+        "original_sha256": "b7576700a0edc7de79ac47aae4d17988aa5c9eb1f8d563ea02309c015f0ab32b",
+        "disposition": "rewrite",
+        "beats": [
+          "prod-downstream-future"
+        ],
+        "reason": "Preserve 114-05 as historical draft content in the mapped narrator discussion. Replace staged dialogue/interfaces or future enactment with dated artifact review; retain its distinctions, limits and conditional status. No publication, model identity or causal lineage is asserted.",
+        "target_sha256": {
+          "prod-downstream-future": "61dd9595d17d0794111f37dcf4f84d90573cb83577dd0cc7930ce5013692f2bc"
+        }
+      }
+    ]
+  },
+  {
+    "old_panel": "115-01",
+    "old_edition": "legacy-332b5ed63262",
+    "reviewed_on": "2026-09-13",
+    "status": "elements-reviewed",
+    "elements": [
+      {
+        "id": "legacy-115-01-detail-01",
+        "original_sha256": "37cfeec48953a7b4dbb8828793045fcb959397f4c6557acd15f533047a3831f2",
+        "disposition": "rewrite",
+        "beats": [
+          "prod-downstream-future"
+        ],
+        "reason": "Preserve 115-01 as historical draft content in the mapped narrator discussion. Replace staged dialogue/interfaces or future enactment with dated artifact review; retain its distinctions, limits and conditional status. No publication, model identity or causal lineage is asserted.",
+        "target_sha256": {
+          "prod-downstream-future": "61dd9595d17d0794111f37dcf4f84d90573cb83577dd0cc7930ce5013692f2bc"
+        }
+      },
+      {
+        "id": "legacy-115-01-detail-03",
+        "original_sha256": "a449f5084f7cc5bcc9330ccc6e7fa8ffce481fd29ee178f61af046e638447991",
+        "disposition": "rewrite",
+        "beats": [
+          "prod-downstream-future"
+        ],
+        "reason": "Preserve 115-01 as historical draft content in the mapped narrator discussion. Replace staged dialogue/interfaces or future enactment with dated artifact review; retain its distinctions, limits and conditional status. No publication, model identity or causal lineage is asserted.",
+        "target_sha256": {
+          "prod-downstream-future": "61dd9595d17d0794111f37dcf4f84d90573cb83577dd0cc7930ce5013692f2bc"
+        }
+      }
+    ]
+  },
+  {
+    "old_panel": "115-02",
+    "old_edition": "legacy-332b5ed63262",
+    "reviewed_on": "2026-09-13",
+    "status": "elements-reviewed",
+    "elements": [
+      {
+        "id": "legacy-115-02-detail-01",
+        "original_sha256": "fe1c64f0f01390fbb8f9a7ccd4b29f02c4b5cf0768976f06e6a427d38922fbfb",
+        "disposition": "rewrite",
+        "beats": [
+          "prod-downstream-task"
+        ],
+        "reason": "Preserve 115-02 as historical draft content in the mapped narrator discussion. Replace staged dialogue/interfaces or future enactment with dated artifact review; retain its distinctions, limits and conditional status. No publication, model identity or causal lineage is asserted.",
+        "target_sha256": {
+          "prod-downstream-task": "6633397d040e36dd24cdd90fd777d775a3f6ab76724536eb0c3da640bde35647"
+        }
+      },
+      {
+        "id": "legacy-115-02-detail-03",
+        "original_sha256": "8dd8e70e959d552a64a360897051a1553339bd6c16dc80ca3b4ed3006399e174",
+        "disposition": "rewrite",
+        "beats": [
+          "prod-downstream-task"
+        ],
+        "reason": "Preserve 115-02 as historical draft content in the mapped narrator discussion. Replace staged dialogue/interfaces or future enactment with dated artifact review; retain its distinctions, limits and conditional status. No publication, model identity or causal lineage is asserted.",
+        "target_sha256": {
+          "prod-downstream-task": "6633397d040e36dd24cdd90fd777d775a3f6ab76724536eb0c3da640bde35647"
+        }
+      },
+      {
+        "id": "legacy-115-02-detail-04",
+        "original_sha256": "ca26b981128d08f6ae3f9eb4d68aeeb02edc5e61fa6eb7fe968d574c87b0d81d",
+        "disposition": "rewrite",
+        "beats": [
+          "prod-downstream-task"
+        ],
+        "reason": "Preserve 115-02 as historical draft content in the mapped narrator discussion. Replace staged dialogue/interfaces or future enactment with dated artifact review; retain its distinctions, limits and conditional status. No publication, model identity or causal lineage is asserted.",
+        "target_sha256": {
+          "prod-downstream-task": "6633397d040e36dd24cdd90fd777d775a3f6ab76724536eb0c3da640bde35647"
+        }
+      }
+    ]
+  },
+  {
+    "old_panel": "115-03",
+    "old_edition": "legacy-332b5ed63262",
+    "reviewed_on": "2026-09-13",
+    "status": "elements-reviewed",
+    "elements": [
+      {
+        "id": "legacy-115-03-detail-01",
+        "original_sha256": "7acbcd2e05cc58deb53a4db9e948a6727b3e711827c76dc304f0552b8dee22a8",
+        "disposition": "rewrite",
+        "beats": [
+          "prod-downstream-task"
+        ],
+        "reason": "Preserve 115-03 as historical draft content in the mapped narrator discussion. Replace staged dialogue/interfaces or future enactment with dated artifact review; retain its distinctions, limits and conditional status. No publication, model identity or causal lineage is asserted.",
+        "target_sha256": {
+          "prod-downstream-task": "6633397d040e36dd24cdd90fd777d775a3f6ab76724536eb0c3da640bde35647"
+        }
+      },
+      {
+        "id": "legacy-115-03-detail-03",
+        "original_sha256": "afcb3ca23a41d61160154e2fa7bb1c6adcb11cafa3dee59369ec9c49a216330f",
+        "disposition": "rewrite",
+        "beats": [
+          "prod-downstream-task"
+        ],
+        "reason": "Preserve 115-03 as historical draft content in the mapped narrator discussion. Replace staged dialogue/interfaces or future enactment with dated artifact review; retain its distinctions, limits and conditional status. No publication, model identity or causal lineage is asserted.",
+        "target_sha256": {
+          "prod-downstream-task": "6633397d040e36dd24cdd90fd777d775a3f6ab76724536eb0c3da640bde35647"
+        }
+      }
+    ]
+  },
+  {
+    "old_panel": "115-04",
+    "old_edition": "legacy-332b5ed63262",
+    "reviewed_on": "2026-09-13",
+    "status": "elements-reviewed",
+    "elements": [
+      {
+        "id": "legacy-115-04-detail-01",
+        "original_sha256": "d38636d0ae8e1fc65c168acf0cb04cef4ce7e4c80517c5907dab999d9a965217",
+        "disposition": "rewrite",
+        "beats": [
+          "prod-downstream-fragment"
+        ],
+        "reason": "Preserve 115-04 as historical draft content in the mapped narrator discussion. Replace staged dialogue/interfaces or future enactment with dated artifact review; retain its distinctions, limits and conditional status. No publication, model identity or causal lineage is asserted.",
+        "target_sha256": {
+          "prod-downstream-fragment": "fb568195a51c1011918d5a8f0250f61e0e6b3c86f98bcd34fc12bce91da84144"
+        }
+      }
+    ]
+  },
+  {
+    "old_panel": "115-05",
+    "old_edition": "legacy-332b5ed63262",
+    "reviewed_on": "2026-09-13",
+    "status": "elements-reviewed",
+    "elements": [
+      {
+        "id": "legacy-115-05-detail-01",
+        "original_sha256": "dd4f5e30e7271bbb2100e5c397f51c4e0c7e00c58e48fcd87e75877a2e576619",
+        "disposition": "rewrite",
+        "beats": [
+          "prod-downstream-task"
+        ],
+        "reason": "Preserve 115-05 as historical draft content in the mapped narrator discussion. Replace staged dialogue/interfaces or future enactment with dated artifact review; retain its distinctions, limits and conditional status. No publication, model identity or causal lineage is asserted.",
+        "target_sha256": {
+          "prod-downstream-task": "6633397d040e36dd24cdd90fd777d775a3f6ab76724536eb0c3da640bde35647"
+        }
+      },
+      {
+        "id": "legacy-115-05-detail-03",
+        "original_sha256": "85288b73ed1dfd35fc016befbbc91f4def153fb420fc8e75c67e3430fc9bd967",
+        "disposition": "rewrite",
+        "beats": [
+          "prod-downstream-task"
+        ],
+        "reason": "Preserve 115-05 as historical draft content in the mapped narrator discussion. Replace staged dialogue/interfaces or future enactment with dated artifact review; retain its distinctions, limits and conditional status. No publication, model identity or causal lineage is asserted.",
+        "target_sha256": {
+          "prod-downstream-task": "6633397d040e36dd24cdd90fd777d775a3f6ab76724536eb0c3da640bde35647"
+        }
+      }
+    ]
+  },
+  {
+    "old_panel": "116-01",
+    "old_edition": "legacy-332b5ed63262",
+    "reviewed_on": "2026-09-13",
+    "status": "elements-reviewed",
+    "elements": [
+      {
+        "id": "legacy-116-01-detail-01",
+        "original_sha256": "d3df7d30e44b26f80e379b5d0e02fbf5387982294ad0368d851b22d30c7aebc4",
+        "disposition": "rewrite",
+        "beats": [
+          "prod-downstream-impossible"
+        ],
+        "reason": "Preserve 116-01 as historical draft content in the mapped narrator discussion. Replace staged dialogue/interfaces or future enactment with dated artifact review; retain its distinctions, limits and conditional status. No publication, model identity or causal lineage is asserted.",
+        "target_sha256": {
+          "prod-downstream-impossible": "9701101ec69178ab54410046f2506faa964b40e4c484f093a3d945f9a79c83af"
+        }
+      },
+      {
+        "id": "legacy-116-01-detail-03",
+        "original_sha256": "1596fc2cdfb5fb7481f619ff6a60b82442017a8b02536d1e629fa72b826c1fbc",
+        "disposition": "rewrite",
+        "beats": [
+          "prod-downstream-impossible"
+        ],
+        "reason": "Preserve 116-01 as historical draft content in the mapped narrator discussion. Replace staged dialogue/interfaces or future enactment with dated artifact review; retain its distinctions, limits and conditional status. No publication, model identity or causal lineage is asserted.",
+        "target_sha256": {
+          "prod-downstream-impossible": "9701101ec69178ab54410046f2506faa964b40e4c484f093a3d945f9a79c83af"
+        }
+      }
+    ]
+  },
+  {
+    "old_panel": "116-02",
+    "old_edition": "legacy-332b5ed63262",
+    "reviewed_on": "2026-09-13",
+    "status": "elements-reviewed",
+    "elements": [
+      {
+        "id": "legacy-116-02-detail-01",
+        "original_sha256": "981c81e859986a5b90ac192622fcdbbaa256f3c5c1ee3dee23ef2990bd657843",
+        "disposition": "rewrite",
+        "beats": [
+          "prod-downstream-impossible"
+        ],
+        "reason": "Preserve 116-02 as historical draft content in the mapped narrator discussion. Replace staged dialogue/interfaces or future enactment with dated artifact review; retain its distinctions, limits and conditional status. No publication, model identity or causal lineage is asserted.",
+        "target_sha256": {
+          "prod-downstream-impossible": "9701101ec69178ab54410046f2506faa964b40e4c484f093a3d945f9a79c83af"
+        }
+      },
+      {
+        "id": "legacy-116-02-detail-03",
+        "original_sha256": "e124031b7535b07e65ebe17a1546cbf9dd7cea7a62f7f99a4cc6984a21df8535",
+        "disposition": "rewrite",
+        "beats": [
+          "prod-downstream-impossible"
+        ],
+        "reason": "Preserve 116-02 as historical draft content in the mapped narrator discussion. Replace staged dialogue/interfaces or future enactment with dated artifact review; retain its distinctions, limits and conditional status. No publication, model identity or causal lineage is asserted.",
+        "target_sha256": {
+          "prod-downstream-impossible": "9701101ec69178ab54410046f2506faa964b40e4c484f093a3d945f9a79c83af"
+        }
+      }
+    ]
+  },
+  {
+    "old_panel": "116-03",
+    "old_edition": "legacy-332b5ed63262",
+    "reviewed_on": "2026-09-13",
+    "status": "elements-reviewed",
+    "elements": [
+      {
+        "id": "legacy-116-03-detail-01",
+        "original_sha256": "78cb2e022e59c4addd5bc1519aa0ff50fe36d3490fd03598b96cce2eb83823d2",
+        "disposition": "rewrite",
+        "beats": [
+          "prod-downstream-boundary"
+        ],
+        "reason": "Preserve 116-03 as historical draft content in the mapped narrator discussion. Replace staged dialogue/interfaces or future enactment with dated artifact review; retain its distinctions, limits and conditional status. No publication, model identity or causal lineage is asserted.",
+        "target_sha256": {
+          "prod-downstream-boundary": "397e12abe342264fc34106e9fad4bc0b2138334f7dc0af376f76897828b3efce"
+        }
+      },
+      {
+        "id": "legacy-116-03-detail-03",
+        "original_sha256": "41995b57c2732ffc1db3a425753fc08e36aa6049a4ec8de822a75d3ff81864a5",
+        "disposition": "rewrite",
+        "beats": [
+          "prod-downstream-boundary"
+        ],
+        "reason": "Preserve 116-03 as historical draft content in the mapped narrator discussion. Replace staged dialogue/interfaces or future enactment with dated artifact review; retain its distinctions, limits and conditional status. No publication, model identity or causal lineage is asserted.",
+        "target_sha256": {
+          "prod-downstream-boundary": "397e12abe342264fc34106e9fad4bc0b2138334f7dc0af376f76897828b3efce"
+        }
+      }
+    ]
+  },
+  {
+    "old_panel": "116-04",
+    "old_edition": "legacy-332b5ed63262",
+    "reviewed_on": "2026-09-13",
+    "status": "elements-reviewed",
+    "elements": [
+      {
+        "id": "legacy-116-04-detail-01",
+        "original_sha256": "6fcc497b37c16792608e0ba482b8ca45a0b013eae38ad7d77dfc693f195ba600",
+        "disposition": "rewrite",
+        "beats": [
+          "prod-downstream-marker"
+        ],
+        "reason": "Preserve 116-04 as historical draft content in the mapped narrator discussion. Replace staged dialogue/interfaces or future enactment with dated artifact review; retain its distinctions, limits and conditional status. No publication, model identity or causal lineage is asserted.",
+        "target_sha256": {
+          "prod-downstream-marker": "b74e9903c11d899ea01887030da3a2bc7fa487012be088c8d17330c3dba28fb8"
+        }
+      },
+      {
+        "id": "legacy-116-04-detail-02",
+        "original_sha256": "f6a640b0d2b71423ec11ea49344e4c552237ab28f9c76ac2d73f1be2825da9bf",
+        "disposition": "rewrite",
+        "beats": [
+          "prod-downstream-marker"
+        ],
+        "reason": "Preserve 116-04 as historical draft content in the mapped narrator discussion. Replace staged dialogue/interfaces or future enactment with dated artifact review; retain its distinctions, limits and conditional status. No publication, model identity or causal lineage is asserted.",
+        "target_sha256": {
+          "prod-downstream-marker": "b74e9903c11d899ea01887030da3a2bc7fa487012be088c8d17330c3dba28fb8"
+        }
+      }
+    ]
+  },
+  {
+    "old_panel": "116-05",
+    "old_edition": "legacy-332b5ed63262",
+    "reviewed_on": "2026-09-13",
+    "status": "elements-reviewed",
+    "elements": [
+      {
+        "id": "legacy-116-05-detail-01",
+        "original_sha256": "3879f94334e0767a2a9daadc178383b1508665f98d2f35c8e949f6b3f8e0b3f9",
+        "disposition": "rewrite",
+        "beats": [
+          "prod-downstream-marker"
+        ],
+        "reason": "Preserve 116-05 as historical draft content in the mapped narrator discussion. Replace staged dialogue/interfaces or future enactment with dated artifact review; retain its distinctions, limits and conditional status. No publication, model identity or causal lineage is asserted.",
+        "target_sha256": {
+          "prod-downstream-marker": "b74e9903c11d899ea01887030da3a2bc7fa487012be088c8d17330c3dba28fb8"
+        }
+      },
+      {
+        "id": "legacy-116-05-detail-03",
+        "original_sha256": "e5a3e227adf1e4df3bea9e4cc2929ef1007a021eeced4b75df334f908906d30c",
+        "disposition": "rewrite",
+        "beats": [
+          "prod-downstream-marker"
+        ],
+        "reason": "Preserve 116-05 as historical draft content in the mapped narrator discussion. Replace staged dialogue/interfaces or future enactment with dated artifact review; retain its distinctions, limits and conditional status. No publication, model identity or causal lineage is asserted.",
+        "target_sha256": {
+          "prod-downstream-marker": "b74e9903c11d899ea01887030da3a2bc7fa487012be088c8d17330c3dba28fb8"
+        }
+      }
+    ]
+  },
+  {
+    "old_panel": "117-01",
+    "old_edition": "legacy-332b5ed63262",
+    "reviewed_on": "2026-09-13",
+    "status": "elements-reviewed",
+    "elements": [
+      {
+        "id": "legacy-117-01-detail-01",
+        "original_sha256": "475a4def660bac19b6aa48a6080ce342605c19764e838a3788eacb073dc2bae9",
+        "disposition": "rewrite",
+        "beats": [
+          "prod-downstream-marker"
+        ],
+        "reason": "Preserve 117-01 as historical draft content in the mapped narrator discussion. Replace staged dialogue/interfaces or future enactment with dated artifact review; retain its distinctions, limits and conditional status. No publication, model identity or causal lineage is asserted.",
+        "target_sha256": {
+          "prod-downstream-marker": "b74e9903c11d899ea01887030da3a2bc7fa487012be088c8d17330c3dba28fb8"
+        }
+      },
+      {
+        "id": "legacy-117-01-detail-03",
+        "original_sha256": "f0ad45813900d95cdb15a5a903a11925546725663adf38c6e45c8ba21ee9f89a",
+        "disposition": "rewrite",
+        "beats": [
+          "prod-downstream-marker"
+        ],
+        "reason": "Preserve 117-01 as historical draft content in the mapped narrator discussion. Replace staged dialogue/interfaces or future enactment with dated artifact review; retain its distinctions, limits and conditional status. No publication, model identity or causal lineage is asserted.",
+        "target_sha256": {
+          "prod-downstream-marker": "b74e9903c11d899ea01887030da3a2bc7fa487012be088c8d17330c3dba28fb8"
+        }
+      }
+    ]
+  },
+  {
+    "old_panel": "117-02",
+    "old_edition": "legacy-332b5ed63262",
+    "reviewed_on": "2026-09-13",
+    "status": "elements-reviewed",
+    "elements": [
+      {
+        "id": "legacy-117-02-detail-01",
+        "original_sha256": "440b259bee251442cb1bdfa9e1025528dc6cc4e844946cd0151c132406845f2e",
+        "disposition": "rewrite",
+        "beats": [
+          "prod-downstream-writable"
+        ],
+        "reason": "Preserve 117-02 as historical draft content in the mapped narrator discussion. Replace staged dialogue/interfaces or future enactment with dated artifact review; retain its distinctions, limits and conditional status. No publication, model identity or causal lineage is asserted.",
+        "target_sha256": {
+          "prod-downstream-writable": "4c817b9f089d64a645196e03a72ae2c918d48afa47e2311f3807b1b37221a596"
+        }
+      },
+      {
+        "id": "legacy-117-02-detail-02",
+        "original_sha256": "b83fbbcc95aef57c81557827b0813ee5e93dcff25ba0a483e0da0b5e35fd96cc",
+        "disposition": "rewrite",
+        "beats": [
+          "prod-downstream-writable"
+        ],
+        "reason": "Preserve 117-02 as historical draft content in the mapped narrator discussion. Replace staged dialogue/interfaces or future enactment with dated artifact review; retain its distinctions, limits and conditional status. No publication, model identity or causal lineage is asserted.",
+        "target_sha256": {
+          "prod-downstream-writable": "4c817b9f089d64a645196e03a72ae2c918d48afa47e2311f3807b1b37221a596"
+        }
+      },
+      {
+        "id": "legacy-117-02-detail-03",
+        "original_sha256": "aac4462a3f3f05b0595cac8b9b245cc8fccb82dae4572329905ece1d088159bf",
+        "disposition": "rewrite",
+        "beats": [
+          "prod-downstream-writable"
+        ],
+        "reason": "Preserve 117-02 as historical draft content in the mapped narrator discussion. Replace staged dialogue/interfaces or future enactment with dated artifact review; retain its distinctions, limits and conditional status. No publication, model identity or causal lineage is asserted.",
+        "target_sha256": {
+          "prod-downstream-writable": "4c817b9f089d64a645196e03a72ae2c918d48afa47e2311f3807b1b37221a596"
+        }
+      }
+    ]
+  },
+  {
+    "old_panel": "117-03",
+    "old_edition": "legacy-332b5ed63262",
+    "reviewed_on": "2026-09-13",
+    "status": "elements-reviewed",
+    "elements": [
+      {
+        "id": "legacy-117-03-detail-01",
+        "original_sha256": "117a5e4efad4d6d6974f914199b7cb2f0e53b7a5f01f6e4a184e5499d6db7dd5",
+        "disposition": "rewrite",
+        "beats": [
+          "prod-downstream-fragment"
+        ],
+        "reason": "Preserve 117-03 as historical draft content in the mapped narrator discussion. Replace staged dialogue/interfaces or future enactment with dated artifact review; retain its distinctions, limits and conditional status. No publication, model identity or causal lineage is asserted.",
+        "target_sha256": {
+          "prod-downstream-fragment": "fb568195a51c1011918d5a8f0250f61e0e6b3c86f98bcd34fc12bce91da84144"
+        }
+      },
+      {
+        "id": "legacy-117-03-detail-03",
+        "original_sha256": "46af9443863daa35fd8ba404377ed7e4caa1a0c75e7a42cea3a97488009167cb",
+        "disposition": "rewrite",
+        "beats": [
+          "prod-downstream-fragment"
+        ],
+        "reason": "Preserve 117-03 as historical draft content in the mapped narrator discussion. Replace staged dialogue/interfaces or future enactment with dated artifact review; retain its distinctions, limits and conditional status. No publication, model identity or causal lineage is asserted.",
+        "target_sha256": {
+          "prod-downstream-fragment": "fb568195a51c1011918d5a8f0250f61e0e6b3c86f98bcd34fc12bce91da84144"
+        }
+      }
+    ]
+  },
+  {
+    "old_panel": "117-04",
+    "old_edition": "legacy-332b5ed63262",
+    "reviewed_on": "2026-09-13",
+    "status": "elements-reviewed",
+    "elements": [
+      {
+        "id": "legacy-117-04-detail-01",
+        "original_sha256": "8952d6fa3c3c7f920a82604be5f3198227168b3eeefedaeb21bf345475485006",
+        "disposition": "rewrite",
+        "beats": [
+          "prod-downstream-writable"
+        ],
+        "reason": "Preserve 117-04 as historical draft content in the mapped narrator discussion. Replace staged dialogue/interfaces or future enactment with dated artifact review; retain its distinctions, limits and conditional status. No publication, model identity or causal lineage is asserted.",
+        "target_sha256": {
+          "prod-downstream-writable": "4c817b9f089d64a645196e03a72ae2c918d48afa47e2311f3807b1b37221a596"
+        }
+      },
+      {
+        "id": "legacy-117-04-detail-03",
+        "original_sha256": "11ce9908896948faff877acbbb7aeb40d61c574ba28d5ec2c945317747cd7b1d",
+        "disposition": "rewrite",
+        "beats": [
+          "prod-downstream-writable"
+        ],
+        "reason": "Preserve 117-04 as historical draft content in the mapped narrator discussion. Replace staged dialogue/interfaces or future enactment with dated artifact review; retain its distinctions, limits and conditional status. No publication, model identity or causal lineage is asserted.",
+        "target_sha256": {
+          "prod-downstream-writable": "4c817b9f089d64a645196e03a72ae2c918d48afa47e2311f3807b1b37221a596"
+        }
+      }
+    ]
+  },
+  {
+    "old_panel": "117-05",
+    "old_edition": "legacy-332b5ed63262",
+    "reviewed_on": "2026-09-13",
+    "status": "elements-reviewed",
+    "elements": [
+      {
+        "id": "legacy-117-05-detail-01",
+        "original_sha256": "485160b5d41db15c2ab56f68f7c7d1948a64e499036487c57702bd99d6389e11",
+        "disposition": "omit",
+        "beats": [],
+        "reason": "Retire the silent black-page transition tied to old pagination; it carries no separate factual or argumentative claim.",
+        "target_sha256": {}
+      }
+    ]
+  },
+  {
+    "old_panel": "118-01",
+    "old_edition": "legacy-332b5ed63262",
+    "reviewed_on": "2026-09-13",
+    "status": "elements-reviewed",
+    "elements": [
+      {
+        "id": "legacy-118-01-detail-01",
+        "original_sha256": "d6a93a8f1c3497efd69a405de5adc879d8de050738642dab35229939e8705429",
+        "disposition": "rewrite",
+        "beats": [
+          "prod-downstream-echo"
+        ],
+        "reason": "Preserve 118-01 as historical draft content in the mapped narrator discussion. Replace staged dialogue/interfaces or future enactment with dated artifact review; retain its distinctions, limits and conditional status. No publication, model identity or causal lineage is asserted.",
+        "target_sha256": {
+          "prod-downstream-echo": "28f70bbe0b4098a8cdc7e7f6c4606a2e072de8561f846d5b82c588444724c264"
+        }
+      },
+      {
+        "id": "legacy-118-01-detail-02",
+        "original_sha256": "0e3b839777181c1f07875a9e792b1c16959b4adc5c04ac98683d41af9c558606",
+        "disposition": "rewrite",
+        "beats": [
+          "prod-downstream-echo"
+        ],
+        "reason": "Preserve 118-01 as historical draft content in the mapped narrator discussion. Replace staged dialogue/interfaces or future enactment with dated artifact review; retain its distinctions, limits and conditional status. No publication, model identity or causal lineage is asserted.",
+        "target_sha256": {
+          "prod-downstream-echo": "28f70bbe0b4098a8cdc7e7f6c4606a2e072de8561f846d5b82c588444724c264"
+        }
+      },
+      {
+        "id": "legacy-118-01-detail-03",
+        "original_sha256": "2b8e9fe19a684068aa365251c5079e9ebd2a5329980548462b922354883a10d2",
+        "disposition": "rewrite",
+        "beats": [
+          "prod-downstream-echo"
+        ],
+        "reason": "Preserve 118-01 as historical draft content in the mapped narrator discussion. Replace staged dialogue/interfaces or future enactment with dated artifact review; retain its distinctions, limits and conditional status. No publication, model identity or causal lineage is asserted.",
+        "target_sha256": {
+          "prod-downstream-echo": "28f70bbe0b4098a8cdc7e7f6c4606a2e072de8561f846d5b82c588444724c264"
+        }
+      }
+    ]
+  },
+  {
+    "old_panel": "118-02",
+    "old_edition": "legacy-332b5ed63262",
+    "reviewed_on": "2026-09-13",
+    "status": "elements-reviewed",
+    "elements": [
+      {
+        "id": "legacy-118-02-detail-01",
+        "original_sha256": "0c0f7952e93d0315a22eacbc86db63205bd8d22eeb927c7356d7ab7e4e75a1ff",
+        "disposition": "rewrite",
+        "beats": [
+          "prod-downstream-echo"
+        ],
+        "reason": "Preserve 118-02 as historical draft content in the mapped narrator discussion. Replace staged dialogue/interfaces or future enactment with dated artifact review; retain its distinctions, limits and conditional status. No publication, model identity or causal lineage is asserted.",
+        "target_sha256": {
+          "prod-downstream-echo": "28f70bbe0b4098a8cdc7e7f6c4606a2e072de8561f846d5b82c588444724c264"
+        }
+      }
+    ]
+  },
+  {
+    "old_panel": "118-03",
+    "old_edition": "legacy-332b5ed63262",
+    "reviewed_on": "2026-09-13",
+    "status": "elements-reviewed",
+    "elements": [
+      {
+        "id": "legacy-118-03-detail-01",
+        "original_sha256": "f9e43395baed82717f952a055aa0278a633e15baae1c632a10d49bc300754659",
+        "disposition": "rewrite",
+        "beats": [
+          "prod-downstream-caption"
+        ],
+        "reason": "Preserve 118-03 as historical draft content in the mapped narrator discussion. Replace staged dialogue/interfaces or future enactment with dated artifact review; retain its distinctions, limits and conditional status. No publication, model identity or causal lineage is asserted. Preserve the project-authored exact string and cleared rights as a quotation from fiction; it no longer occupies the new edition’s final declarative position.",
+        "target_sha256": {
+          "prod-downstream-caption": "4839e27aee00fe0a00205e0b13995cdf93b01361c5c1e50065317b6385427d9f"
+        }
+      },
+      {
+        "id": "legacy-118-03-detail-03",
+        "original_sha256": "82b3b8624764bcc8ddae9bff65fc39b1f1bf4f8f1e442693c6698ee2897483ba",
+        "disposition": "rewrite",
+        "beats": [
+          "prod-downstream-caption"
+        ],
+        "reason": "Preserve 118-03 as historical draft content in the mapped narrator discussion. Replace staged dialogue/interfaces or future enactment with dated artifact review; retain its distinctions, limits and conditional status. No publication, model identity or causal lineage is asserted. Preserve the project-authored exact string and cleared rights as a quotation from fiction; it no longer occupies the new edition’s final declarative position.",
+        "target_sha256": {
+          "prod-downstream-caption": "4839e27aee00fe0a00205e0b13995cdf93b01361c5c1e50065317b6385427d9f"
+        }
+      }
+    ]
   }
 ]

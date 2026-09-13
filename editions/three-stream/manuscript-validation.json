@@ -1,5 +1,5 @@
 {
-  "checked_at": "2026-09-13T16:54:52.556463+00:00",
+  "checked_at": "2026-09-13T16:59:20.676805+00:00",
   "status": "structural draft checks passed; editorial completion not claimed",
   "commands": [
     {
@@ -18,6 +18,7 @@
     "manuscript/collaboration-assurance-argument.json": "69b250ff955f3d503d8fb42371ded8490ac2e57968778c50bd2da7e8232473b8",
     "manuscript/collaboration-continuation-argument.json": "f0e1cea3071aabff5d692d4ac061ed1f2a40cf1de08bfdda3483f2a48bdda695",
     "manuscript/collaboration-defensive-automation.json": "85109d65e10fe000f67d1dc91558cd1a3af8ea9a105a17fdadfb07138cb56ac3",
+    "manuscript/collaboration-downstream-use.json": "35a5a62ef4245d4a60cb620defed2c6d4d5bcf181def66ebadff2d7d1e6a61fa",
     "manuscript/collaboration-oversight-record.json": "907a3b2eb4d3350b239b89e2b48b6ff6483a959eb62cf6b3aa7dcba48985c82b",
     "manuscript/collaboration-pacing-account.json": "1d120e501c8cf85c44243f833aeec02b8a3e7918231098c226331bf10c006953",
     "manuscript/collaboration-public-clock.json": "a738ad26c9f2c52c6f390b54a2b8ee4b0be281cfc237dde601b7526b4a5107aa",
@@ -47,29 +48,36 @@
     "evidence/correction-098-7fa53878c493.md": "b347f34dd524af038b65d792e163f932fb52b113aac19c2ac211e5b41ec8b4e3",
     "evidence/defensive-argument-099-7fa53878c493.md": "64dda29da83ace8cc6e6f9f098e718b4db2a8e5cadb051d9f2d05b43fa289bfc",
     "evidence/forum-097-7fa53878c493.md": "bc1527dec693c48148a080cad86536efbb08fc56de981d3e12f3a1e7f5866bf5",
+    "evidence/impossible-114-7fa53878c493.md": "665e157fe9280ca65b80f1d706251cfe4991dfdebcd9962b9d9d1f86ea8ee9b2",
+    "evidence/later-113-7fa53878c493.md": "2b26369f7ebc6d934c50db09a50f2f2c4ac7c253a5bfb42899c4bebd7e406ac9",
     "evidence/learning-101-7fa53878c493.md": "d0c56a652912fce1c30f2c26e64ab82213ba4b0a5ee6fa207d662d7727eb4097",
     "evidence/manuscript-ending-103-7fa53878c493.md": "bf1593c6728590a0d3b7607d555164f713dc02ec8d755d0ee4d969313388ea88",
     "evidence/public-announcement-source-review.md": "6b1807c59149608757c9f5cdc0ae049c69a722804105db9a662f0d5c2ac497db",
+    "evidence/publication-112-7fa53878c493.md": "744b76c36a507114ab781b6d140f35c8ffd05ffff8f576ae2eaac968eaedae76",
+    "evidence/silence-111-7fa53878c493.md": "8d304267589b5043598849417b4ba5ce6997eb576789d4d3f8e95cb21c1f90e0",
     "evidence/stop-100-7fa53878c493.md": "a4c77a4d7e868ad312ea58d3c0470ffc0c8a0f4d136874bc5c13ec6464b109cb",
-    "detail-review.json": "efff011b4f02d8467b57fbde828fca2e333af56c92518a7a45ecb7e8b80e66db",
+    "evidence/training-caption-116-7fa53878c493.md": "8249f0ce10bedf8720be9e745abd46f9be46333c61d2fcbf7e8fab07aab1f0a4",
+    "evidence/warning-110-7fa53878c493.md": "57aed2116acb5fa569a231a23ce84f9ba89f9b10740e1e6d0907e19e33a95d7f",
+    "evidence/writable-115-7fa53878c493.md": "f6fb6d46a6f4ae9c31229542143787556a8c26b5a92f4e7718db08692398d034",
+    "detail-review.json": "43346886fde00a7d9136ca02735161da2d52dbf9d557c86b506b446639e8f578",
     "production-selections.json": "9f202d27bf05c887147b3bd16dfed4482ce6a5f5a77c056ad9b94a70a60e909f",
-    "sources.json": "29fedcf8e06eea76390ed6fbfa18f3b9b971a377db97e98762d30532f454e4c0"
+    "sources.json": "d72d29a4875594208001052c21bae5efa400de4673966121dd5b354ab745fc2a"
   },
   "counts": {
-    "scenes": 247,
-    "drafted_beats": 767,
+    "scenes": 248,
+    "drafted_beats": 788,
     "canonical_pages": null,
-    "associated_old_panels": 367,
+    "associated_old_panels": 398,
     "by_row": {
       "HuggingFace": 342,
       "GemStuffer": 58,
       "Collusion Wiki": 115,
       "Curt": 25,
       "Codex": 80,
-      "Claude": 147
+      "Claude": 168
     },
-    "reviewed_old_panels": 118,
-    "reviewed_source_elements": 297
+    "reviewed_old_panels": 149,
+    "reviewed_source_elements": 363
   },
   "not_verified": [
     "Full old-element disposition and semantic completeness",
@@ -79,7 +87,7 @@
     "Print layout, thumbnails, lettering fit and artwork",
     "Final graphic manuscript and deferred-edition handoff"
   ],
-  "previous_checked_at": "2026-09-13T16:51:09.032446+00:00",
+  "previous_checked_at": "2026-09-13T16:54:52.556463+00:00",
   "production_record_verification": {
     "result": "passed",
     "selected_records": 57,

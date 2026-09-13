@@ -582,3 +582,34 @@ new-edition ending or approval of a fictional coda.
 Draft and whitespace checks pass. Full original-panel coverage, remaining
 incident/analysis material, later ending material, chronology, layout and the
 final three-row preview remain unfinished. Frozen dependents are unchanged.
+
+### Publication tradeoff and speculative future — 13 September 2026
+
+Added twenty-one beats in `manuscript/collaboration-downstream-use.json`.
+Seven exact September 5 Git artifacts preserve the old warning, silence,
+publication and four-page speculative ending. All seven were verified against
+Git. Four short project-draft quotations were checked against those artifacts;
+the two formerly registered closing strings retain their project-authored status
+and cleared rights, now quoted as historical fiction rather than enacted as
+a factual conclusion.
+
+Thirty-one original panels now have individual dispositions in this pass.
+The publication objection remains the project’s composite, not a named critic’s
+words or a page-count limit. Defense and scrutiny arguments are retained beside
+misuse, compression and secrecy risks. No scripted decision authorizes actual
+publication. Reader images are not analytics; publication, context use, training
+and influence require separate evidence.
+
+The hypothetical task, restraint, benign marker, shared visibility, writable
+surface and incomplete naming echo are discussed as invented draft choices.
+No future event is assigned to an incident stream or made into a fourth actor.
+The old final caption is quoted with its fictional status in the same visible
+passage; it is not this edition’s last factual declaration. No coda selection,
+training ingestion or lineage finding is claimed.
+
+Frozen 114-01 and 114-02 remain unreviewed because the current panels include
+later September 9 title/metaphor material absent from these September 5 copies.
+The historical preflight principle has a drafted association, but that does not
+close the later-material disposition. The source records and earlier edition
+remain unchanged. Scoped draft and whitespace checks pass; final ending,
+comprehensive coverage, chronology and page allocation remain unfinished.

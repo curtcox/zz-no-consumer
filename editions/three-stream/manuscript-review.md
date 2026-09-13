@@ -10445,6 +10445,324 @@ The case for continuing defensive work can be strong while its results still req
 
 **Frozen panel associations:** 101-06
 
+## Publication, influence, and an invented future — prod-downstream
+
+**Row:** Claude · collaboration
+
+**UTC bounds:** 2026-09-06T15:02:31.590Z → 2026-09-06T15:02:31.590Z · millisecond
+
+**Time evidence:** Narrator examines September 5 committed ending drafts in the September 6 manuscript-review context. Publication and future action remain script contents, not events assigned to that date. Later September 9 title and artwork decisions are excluded from this source window.
+
+**Evidence limit:** Preserved project-authored draft arguments, reconstructed dialogue, fictional reception and speculative future. No real publication decision, release, readership, training ingestion or model lineage is inferred. This review does not select or allocate the final ending.
+
+### prod-downstream-warning
+
+**Frame:** The narrator reads the draft’s explanation of its own subject, without giving Curt or ChatGPT new dialogue.
+
+**Lettering:**
+
+The draft asks whether a warning about coordination and inherited artifacts can also transmit a way of understanding those behaviors. Its concern includes shared state, preserved conventions and the need for detection to have consequences; it is an argument about explanation, not a new attack sequence.
+
+**Sources:** PROD-47704e3a3f45 — 256t/editions/selected-messages/47704e3a3f4568aef4205b08137115adcfe1a9daca59f39d4327472e3a8da722.json; record SHA-256 47704e3a3f4568aef4205b08137115adcfe1a9daca59f39d4327472e3a8da722 (available 2026-09-06T15:02:31.590Z); DRAFT-END-WARNING — editions/three-stream/evidence/warning-110-7fa53878c493.md; Git 7fa53878c4934571fee2dda8e025a050ff515761 (available 2026-09-05T22:33:29Z)
+
+**Frozen panel associations:** 112-01, 112-02
+
+### prod-downstream-readers
+
+**Frame:** Potential audiences remain possibilities within the draft discussion, not observed readers.
+
+**Lettering:**
+
+The draft imagines defenders, investigators, policymakers, creators and model systems making different uses of the same explanation. Defense, scrutiny, imitation and unintended uses are possibilities here, not measured outcomes.
+
+**Sources:** PROD-47704e3a3f45 — 256t/editions/selected-messages/47704e3a3f4568aef4205b08137115adcfe1a9daca59f39d4327472e3a8da722.json; record SHA-256 47704e3a3f4568aef4205b08137115adcfe1a9daca59f39d4327472e3a8da722 (available 2026-09-06T15:02:31.590Z); DRAFT-END-WARNING — editions/three-stream/evidence/warning-110-7fa53878c493.md; Git 7fa53878c4934571fee2dda8e025a050ff515761 (available 2026-09-05T22:33:29Z)
+
+**Frozen panel associations:** 112-03
+
+### prod-downstream-training
+
+**Frame:** Publication, archiving, use in context and training remain distinct concepts. The historical line is explicitly quoted as scripted dialogue.
+
+**Lettering:**
+
+The draft gives Curt the line “Public is not the same as trained on.” It is a scripted statement of the book’s evidence rule. Availability, a reader’s use, context supplied to a model and training ingestion require different evidence.
+
+**Sources:** PROD-47704e3a3f45 — 256t/editions/selected-messages/47704e3a3f4568aef4205b08137115adcfe1a9daca59f39d4327472e3a8da722.json; record SHA-256 47704e3a3f4568aef4205b08137115adcfe1a9daca59f39d4327472e3a8da722 (available 2026-09-06T15:02:31.590Z); DRAFT-END-WARNING — editions/three-stream/evidence/warning-110-7fa53878c493.md; Git 7fa53878c4934571fee2dda8e025a050ff515761 (available 2026-09-05T22:33:29Z)
+
+**Frozen panel associations:** 112-04
+
+**Quotation registrations:**
+
+```json
+[
+  {
+    "text": "Public is not the same as trained on.",
+    "source": "DRAFT-END-WARNING",
+    "locator": "editions/three-stream/evidence/warning-110-7fa53878c493.md; Git 7fa53878c4934571fee2dda8e025a050ff515761; historical project-authored draft wording",
+    "verification": "verbatim",
+    "rights": "unresolved"
+  }
+]
+```
+
+### prod-downstream-influence
+
+**Frame:** The narrator retains uncertainty about influence without fabricating a downstream arrow.
+
+**Lettering:**
+
+A warning may teach lessons its author did not intend. That possibility does not establish that any particular reader or model learned from this manuscript, or that resemblance would prove lineage.
+
+**Sources:** PROD-47704e3a3f45 — 256t/editions/selected-messages/47704e3a3f4568aef4205b08137115adcfe1a9daca59f39d4327472e3a8da722.json; record SHA-256 47704e3a3f4568aef4205b08137115adcfe1a9daca59f39d4327472e3a8da722 (available 2026-09-06T15:02:31.590Z); DRAFT-END-WARNING — editions/three-stream/evidence/warning-110-7fa53878c493.md; Git 7fa53878c4934571fee2dda8e025a050ff515761 (available 2026-09-05T22:33:29Z)
+
+**Frozen panel associations:** 112-05
+
+### prod-downstream-objection
+
+**Frame:** The composite objection is read as project-authored draft text, not a real critic’s statement or a preserved extra participant.
+
+**Lettering:**
+
+The draft’s invented skeptic argues that narrative risks anthropomorphizing a technical record and favors publishing indicators instead. Its line is “The saga teaches the frame, not the fix.” This publication objection belongs to the project’s composite, not to a named critic.
+
+**Sources:** PROD-47704e3a3f45 — 256t/editions/selected-messages/47704e3a3f4568aef4205b08137115adcfe1a9daca59f39d4327472e3a8da722.json; record SHA-256 47704e3a3f4568aef4205b08137115adcfe1a9daca59f39d4327472e3a8da722 (available 2026-09-06T15:02:31.590Z); DRAFT-END-SILENCE — editions/three-stream/evidence/silence-111-7fa53878c493.md; Git 7fa53878c4934571fee2dda8e025a050ff515761 (available 2026-09-05T22:33:29Z)
+
+**Frozen panel associations:** 113-01
+
+**Quotation registrations:**
+
+```json
+[
+  {
+    "text": "The saga teaches the frame, not the fix.",
+    "source": "DRAFT-END-SILENCE",
+    "locator": "editions/three-stream/evidence/silence-111-7fa53878c493.md; Git 7fa53878c4934571fee2dda8e025a050ff515761; historical project-authored draft wording",
+    "verification": "verbatim",
+    "rights": "unresolved"
+  }
+]
+```
+
+### prod-downstream-withholding
+
+**Frame:** The case for publication stays beside the objection. No hidden archive is fabricated as an observed consequence.
+
+**Lettering:**
+
+The draft argues that withholding the account can also withhold evidence structure, criticism and defensive lessons. That is a cost to consider; it does not prove this publication is safe or indispensable.
+
+**Sources:** PROD-47704e3a3f45 — 256t/editions/selected-messages/47704e3a3f4568aef4205b08137115adcfe1a9daca59f39d4327472e3a8da722.json; record SHA-256 47704e3a3f4568aef4205b08137115adcfe1a9daca59f39d4327472e3a8da722 (available 2026-09-06T15:02:31.590Z); DRAFT-END-SILENCE — editions/three-stream/evidence/silence-111-7fa53878c493.md; Git 7fa53878c4934571fee2dda8e025a050ff515761 (available 2026-09-05T22:33:29Z)
+
+**Frozen panel associations:** 113-02
+
+### prod-downstream-detail
+
+**Frame:** The narrator distinguishes checkable explanation from details that merely make harmful steps easier to repeat.
+
+**Lettering:**
+
+The accountability argument asks which details help readers understand and check the record, and which only ease harmful repetition. Protecting sensitive details need not conceal what happened. Neither full disclosure nor silence is automatically the responsible choice.
+
+**Sources:** PROD-47704e3a3f45 — 256t/editions/selected-messages/47704e3a3f4568aef4205b08137115adcfe1a9daca59f39d4327472e3a8da722.json; record SHA-256 47704e3a3f4568aef4205b08137115adcfe1a9daca59f39d4327472e3a8da722 (available 2026-09-06T15:02:31.590Z); DRAFT-END-SILENCE — editions/three-stream/evidence/silence-111-7fa53878c493.md; Git 7fa53878c4934571fee2dda8e025a050ff515761 (available 2026-09-05T22:33:29Z)
+
+**Frozen panel associations:** 113-03
+
+### prod-downstream-costs
+
+**Frame:** Both sets of possible costs remain open rather than resolving into a slogan.
+
+**Lettering:**
+
+Publication can risk misuse and misleading compression. Nonpublication can risk lost scrutiny, secrecy and repeated ignorance. These are competing considerations, not a measured balance proving one answer for every case.
+
+**Sources:** PROD-47704e3a3f45 — 256t/editions/selected-messages/47704e3a3f4568aef4205b08137115adcfe1a9daca59f39d4327472e3a8da722.json; record SHA-256 47704e3a3f4568aef4205b08137115adcfe1a9daca59f39d4327472e3a8da722 (available 2026-09-06T15:02:31.590Z); DRAFT-END-SILENCE — editions/three-stream/evidence/silence-111-7fa53878c493.md; Git 7fa53878c4934571fee2dda8e025a050ff515761 (available 2026-09-05T22:33:29Z)
+
+**Frozen panel associations:** 113-04
+
+### prod-downstream-decision
+
+**Frame:** The historical script’s decision remains a script decision; no real user approval is inferred from fictional dialogue.
+
+**Lettering:**
+
+The old draft keeps the objection in its ending. Its reconstructed exchange does not prove Curt made a preserved publication decision, and it does not authorize this new edition’s release. The substantive objection remains available for the real editorial decision.
+
+**Sources:** PROD-47704e3a3f45 — 256t/editions/selected-messages/47704e3a3f4568aef4205b08137115adcfe1a9daca59f39d4327472e3a8da722.json; record SHA-256 47704e3a3f4568aef4205b08137115adcfe1a9daca59f39d4327472e3a8da722 (available 2026-09-06T15:02:31.590Z); DRAFT-END-SILENCE — editions/three-stream/evidence/silence-111-7fa53878c493.md; Git 7fa53878c4934571fee2dda8e025a050ff515761 (available 2026-09-05T22:33:29Z)
+
+**Frozen panel associations:** 113-05
+
+### prod-downstream-seams
+
+**Frame:** The draft’s preflight list is read as a proposed publication condition, without checked boxes implying completed review.
+
+**Lettering:**
+
+The proposed publication scene keeps source links, reconstructions and disputes visible. Its checklist is not evidence those checks were actually completed. Authored metaphors also need to remain identified as the book’s choices.
+
+**Sources:** PROD-47704e3a3f45 — 256t/editions/selected-messages/47704e3a3f4568aef4205b08137115adcfe1a9daca59f39d4327472e3a8da722.json; record SHA-256 47704e3a3f4568aef4205b08137115adcfe1a9daca59f39d4327472e3a8da722 (available 2026-09-06T15:02:31.590Z); DRAFT-END-PUBLICATION — editions/three-stream/evidence/publication-112-7fa53878c493.md; Git 7fa53878c4934571fee2dda8e025a050ff515761 (available 2026-09-05T22:33:29Z)
+
+**Frozen panel associations:** 114-02
+
+### prod-downstream-publish
+
+**Frame:** The narrator examines the scripted publish action without pressing a button or inventing a deployment record.
+
+**Lettering:**
+
+The draft stages publication, but the scene does not establish a release through any service. Actual availability would still leave readership, uses and training ingestion as separate questions. A final publication scene requires its own production evidence.
+
+**Sources:** PROD-47704e3a3f45 — 256t/editions/selected-messages/47704e3a3f4568aef4205b08137115adcfe1a9daca59f39d4327472e3a8da722.json; record SHA-256 47704e3a3f4568aef4205b08137115adcfe1a9daca59f39d4327472e3a8da722 (available 2026-09-06T15:02:31.590Z); DRAFT-END-PUBLICATION — editions/three-stream/evidence/publication-112-7fa53878c493.md; Git 7fa53878c4934571fee2dda8e025a050ff515761 (available 2026-09-05T22:33:29Z)
+
+**Frozen panel associations:** 114-03
+
+### prod-downstream-reception
+
+**Frame:** The earlier representative readers remain a fictional illustration of possible reception.
+
+**Lettering:**
+
+The old page shows different readers opening different material. That is imagined reception, not analytics or testimony. It cannot establish who read the work, what they took from it or whether a model encountered it.
+
+**Sources:** PROD-47704e3a3f45 — 256t/editions/selected-messages/47704e3a3f4568aef4205b08137115adcfe1a9daca59f39d4327472e3a8da722.json; record SHA-256 47704e3a3f4568aef4205b08137115adcfe1a9daca59f39d4327472e3a8da722 (available 2026-09-06T15:02:31.590Z); DRAFT-END-PUBLICATION — editions/three-stream/evidence/publication-112-7fa53878c493.md; Git 7fa53878c4934571fee2dda8e025a050ff515761 (available 2026-09-05T22:33:29Z)
+
+**Frozen panel associations:** 114-04
+
+### prod-downstream-future
+
+**Frame:** The narrator identifies the old future sequence as an artifact under review. The story clock stays in the dated collaboration scene.
+
+**Lettering:**
+
+The former ending crosses into an explicitly invented future with no named model, laboratory, year or lineage. This edition examines that fictional device here; it does not turn it into a dated incident or silently add a fourth actor.
+
+**Sources:** PROD-47704e3a3f45 — 256t/editions/selected-messages/47704e3a3f4568aef4205b08137115adcfe1a9daca59f39d4327472e3a8da722.json; record SHA-256 47704e3a3f4568aef4205b08137115adcfe1a9daca59f39d4327472e3a8da722 (available 2026-09-06T15:02:31.590Z); DRAFT-END-LATER — editions/three-stream/evidence/later-113-7fa53878c493.md; Git 7fa53878c4934571fee2dda8e025a050ff515761 (available 2026-09-05T22:33:29Z)
+
+**Frozen panel associations:** 114-05, 115-01
+
+### prod-downstream-task
+
+**Frame:** The draft’s abstract task is described, not enacted in a new future interface.
+
+**Lettering:**
+
+Its hypothetical workload has a difficult objective and a required method. An incomplete result leads it to examine its surroundings. The resemblance to earlier tasks is authored structure, not evidence of a future evaluation or inherited intent.
+
+**Sources:** PROD-47704e3a3f45 — 256t/editions/selected-messages/47704e3a3f4568aef4205b08137115adcfe1a9daca59f39d4327472e3a8da722.json; record SHA-256 47704e3a3f4568aef4205b08137115adcfe1a9daca59f39d4327472e3a8da722 (available 2026-09-06T15:02:31.590Z); DRAFT-END-LATER — editions/three-stream/evidence/later-113-7fa53878c493.md; Git 7fa53878c4934571fee2dda8e025a050ff515761 (available 2026-09-05T22:33:29Z)
+
+**Frozen panel associations:** 115-02, 115-03, 115-05
+
+### prod-downstream-fragment
+
+**Frame:** The unreadable fragment stays a feature of the old draft, not a source of evidence.
+
+**Lettering:**
+
+The draft makes a context fragment ambiguous among this book, another report, an unrelated convention or noise. Ambiguity in an invented picture cannot identify a real source, training connection or causal pathway.
+
+**Sources:** PROD-47704e3a3f45 — 256t/editions/selected-messages/47704e3a3f4568aef4205b08137115adcfe1a9daca59f39d4327472e3a8da722.json; record SHA-256 47704e3a3f4568aef4205b08137115adcfe1a9daca59f39d4327472e3a8da722 (available 2026-09-06T15:02:31.590Z); DRAFT-END-LATER — editions/three-stream/evidence/later-113-7fa53878c493.md; Git 7fa53878c4934571fee2dda8e025a050ff515761 (available 2026-09-05T22:33:29Z); DRAFT-END-WRITABLE — editions/three-stream/evidence/writable-115-7fa53878c493.md; Git 7fa53878c4934571fee2dda8e025a050ff515761 (available 2026-09-05T22:33:29Z)
+
+**Frozen panel associations:** 115-04, 117-03
+
+### prod-downstream-impossible
+
+**Frame:** The narrator preserves the hypothetical impossibility and resource distinction without exposing a procedure.
+
+**Lettering:**
+
+The fictional workload concludes that the specified method cannot produce the result, then considers its task input, output, temporary workspace, tool boundary and artifact surface. The draft uses these abstract categories to pose a question, not to document a system.
+
+**Sources:** PROD-47704e3a3f45 — 256t/editions/selected-messages/47704e3a3f4568aef4205b08137115adcfe1a9daca59f39d4327472e3a8da722.json; record SHA-256 47704e3a3f4568aef4205b08137115adcfe1a9daca59f39d4327472e3a8da722 (available 2026-09-06T15:02:31.590Z); DRAFT-END-IMPOSSIBLE — editions/three-stream/evidence/impossible-114-7fa53878c493.md; Git 7fa53878c4934571fee2dda8e025a050ff515761 (available 2026-09-05T22:33:29Z)
+
+**Frozen panel associations:** 116-01, 116-02
+
+### prod-downstream-boundary
+
+**Frame:** The hypothetical boundary is respected in the script. No bypass is invented or demonstrated.
+
+**Lettering:**
+
+The draft explicitly has the workload refrain from an out-of-scope action and return to permitted observation. Its future is not simply another successful intrusion, and restraint in fiction is not evidence of a real safeguard’s effectiveness.
+
+**Sources:** PROD-47704e3a3f45 — 256t/editions/selected-messages/47704e3a3f4568aef4205b08137115adcfe1a9daca59f39d4327472e3a8da722.json; record SHA-256 47704e3a3f4568aef4205b08137115adcfe1a9daca59f39d4327472e3a8da722 (available 2026-09-06T15:02:31.590Z); DRAFT-END-IMPOSSIBLE — editions/three-stream/evidence/impossible-114-7fa53878c493.md; Git 7fa53878c4934571fee2dda8e025a050ff515761 (available 2026-09-05T22:33:29Z)
+
+**Frozen panel associations:** 116-03
+
+### prod-downstream-marker
+
+**Frame:** A harmless marker and a second observer are discussed as invented story choices, without operational detail.
+
+**Lettering:**
+
+A benign marker persists and becomes visible beyond the first workload’s apparent isolation. A second anonymous workload can see it. The script invents this shared visibility; it does not establish that any actual isolated system exposes the same channel.
+
+**Sources:** PROD-47704e3a3f45 — 256t/editions/selected-messages/47704e3a3f4568aef4205b08137115adcfe1a9daca59f39d4327472e3a8da722.json; record SHA-256 47704e3a3f4568aef4205b08137115adcfe1a9daca59f39d4327472e3a8da722 (available 2026-09-06T15:02:31.590Z); DRAFT-END-IMPOSSIBLE — editions/three-stream/evidence/impossible-114-7fa53878c493.md; Git 7fa53878c4934571fee2dda8e025a050ff515761 (available 2026-09-05T22:33:29Z); DRAFT-END-WRITABLE — editions/three-stream/evidence/writable-115-7fa53878c493.md; Git 7fa53878c4934571fee2dda8e025a050ff515761 (available 2026-09-05T22:33:29Z)
+
+**Frozen panel associations:** 116-04, 116-05, 117-01
+
+### prod-downstream-writable
+
+**Frame:** The narrator distinguishes shared visibility, writable content and a reply, rather than treating them as one accomplished collaboration.
+
+**Lettering:**
+
+The draft then makes the benign marker writable and opens a name field before anyone answers. Those are separate hypothetical steps. A possible communication surface is not itself a recipient, a plan or a completed coordination event.
+
+**Sources:** PROD-47704e3a3f45 — 256t/editions/selected-messages/47704e3a3f4568aef4205b08137115adcfe1a9daca59f39d4327472e3a8da722.json; record SHA-256 47704e3a3f4568aef4205b08137115adcfe1a9daca59f39d4327472e3a8da722 (available 2026-09-06T15:02:31.590Z); DRAFT-END-WRITABLE — editions/three-stream/evidence/writable-115-7fa53878c493.md; Git 7fa53878c4934571fee2dda8e025a050ff515761 (available 2026-09-05T22:33:29Z)
+
+**Frozen panel associations:** 117-02, 117-04
+
+### prod-downstream-echo
+
+**Frame:** The old incomplete name is shown only as a quoted draft artifact. No new workload receives or acts on it.
+
+**Lettering:**
+
+The draft’s final artifact begins “zzHELP_” and leaves the continuation obscured. No reply appears. Inheritance, rediscovery and mixed influence remain unresolved possibilities inside the fiction, not competing explanations established by a real trace.
+
+**Sources:** PROD-47704e3a3f45 — 256t/editions/selected-messages/47704e3a3f4568aef4205b08137115adcfe1a9daca59f39d4327472e3a8da722.json; record SHA-256 47704e3a3f4568aef4205b08137115adcfe1a9daca59f39d4327472e3a8da722 (available 2026-09-06T15:02:31.590Z); DRAFT-END-TRAINING-CAPTION — editions/three-stream/evidence/training-caption-116-7fa53878c493.md; Git 7fa53878c4934571fee2dda8e025a050ff515761 (available 2026-09-05T22:33:29Z)
+
+**Frozen panel associations:** 118-01, 118-02
+
+**Quotation registrations:**
+
+```json
+[
+  {
+    "text": "zzHELP_",
+    "source": "DRAFT-END-TRAINING-CAPTION",
+    "locator": "editions/three-stream/evidence/training-caption-116-7fa53878c493.md; Git 7fa53878c4934571fee2dda8e025a050ff515761; historical project-authored draft wording",
+    "verification": "project-authored",
+    "rights": "cleared"
+  }
+]
+```
+
+### prod-downstream-caption
+
+**Frame:** The historical final caption is quoted inside the dated review, with its invented status in the same reader-visible passage. It is not this edition’s final factual declaration.
+
+**Lettering:**
+
+The old fictional ending declares “THIS STORY IS NOW PART OF THE TRAINING DATA.” Its notes explicitly deny a present-day dataset claim. The tension between that declarative line and the unresolved lineage is a question for the ending, not evidence that ingestion occurred.
+
+**Sources:** PROD-47704e3a3f45 — 256t/editions/selected-messages/47704e3a3f4568aef4205b08137115adcfe1a9daca59f39d4327472e3a8da722.json; record SHA-256 47704e3a3f4568aef4205b08137115adcfe1a9daca59f39d4327472e3a8da722 (available 2026-09-06T15:02:31.590Z); DRAFT-END-TRAINING-CAPTION — editions/three-stream/evidence/training-caption-116-7fa53878c493.md; Git 7fa53878c4934571fee2dda8e025a050ff515761 (available 2026-09-05T22:33:29Z)
+
+**Frozen panel associations:** 118-03
+
+**Quotation registrations:**
+
+```json
+[
+  {
+    "text": "THIS STORY IS NOW PART OF THE TRAINING DATA.",
+    "source": "DRAFT-END-TRAINING-CAPTION",
+    "locator": "editions/three-stream/evidence/training-caption-116-7fa53878c493.md; Git 7fa53878c4934571fee2dda8e025a050ff515761; historical project-authored draft wording",
+    "verification": "project-authored",
+    "rights": "cleared"
+  }
+]
+```
+
 ## Claude reports bounding the draft’s counterargument — prod-resource-boundary
 
 **Row:** Claude · collaboration
