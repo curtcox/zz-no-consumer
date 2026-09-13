@@ -700,3 +700,38 @@ accepted the answer. Each deletion retains its own uncertain source clock.
 Scoped draft checks pass with the frozen edition unchanged. Frozen 109–111
 and many earlier panels remain unreviewed. Overall completeness, chronology,
 Twitter entrance, other-Mac evidence and page allocation remain open.
+
+### Overlap and disclosure arguments — 13 September 2026
+
+Reviewed all ten frozen 109–110 panels, adding sixteen beats in
+`manuscript/collaboration-wiki-overlap.json`. Exact earlier project drafts
+from Git 7fa53878c493 are preserved as evidence/overlap-107 and
+evidence/disclosure-108. These are historical artifact identities, not
+new canonical page allocations. The narrator examines them in the existing
+September 6 manuscript-review context; no additional source encounter or
+actual Curt/ChatGPT dialogue is invented at that time.
+
+Read the preserved report HTML and checked the current public report.
+CW-REPORT is newly admitted in the isolated registry for attributed timeline,
+separation and disclosure arguments. Its current copy is not certified as
+the unmodified September 4 version. The report’s separation argument keeps
+its counterpoints, including possible additional communication or training
+reinforcement. Report claims are not silently promoted into export facts.
+
+The timeline comparison preserves the May–June landmarks without replay;
+held revisions through July 2 remain distinct from later deletion/probe
+events. The July return is attributed as a different topic, not a continuing
+cohort. Provider, training and reading another population’s messages remain
+separate questions. A visible sequence is not a census; the old ChatGPT
+correction is identified as scripted draft dialogue, never Codex activity.
+
+Disclosure stays attributed and bounded. June 26 attributed visits and
+June 27 non-stop advice do not establish contact between teams. Visiting,
+recognition, reporting, decision and disclosure remain separate evidentiary
+steps. Retention, investigation, internal communication, cross-workload
+review, outside-reviewer access and public-account questions are all retained
+without inventing negative answers, authenticated visitors or concealment.
+
+Scoped checks pass; the frozen edition remains unchanged. Frozen 111 and
+many earlier panels still need semantic review. Final chronology, readability,
+Twitter entrance, other-Mac evidence and page allocation remain open.

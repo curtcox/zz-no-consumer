@@ -1,9 +1,9 @@
 {
   "status": "incomplete; associations are not full-detail dispositions",
-  "scenes": 259,
-  "drafted_beats": 817,
+  "scenes": 260,
+  "drafted_beats": 833,
   "canonical_pages": null,
-  "associated_old_panels": 415,
+  "associated_old_panels": 425,
   "old_panels": [
     {
       "old_edition": "legacy-332b5ed63262",
@@ -4887,71 +4887,101 @@
     {
       "old_edition": "legacy-332b5ed63262",
       "old_panel": "109-01",
-      "draft_beats": [],
-      "detail_review": "pending",
+      "draft_beats": [
+        "prod-wiki-overlap-draft",
+        "prod-wiki-overlap-census"
+      ],
+      "detail_review": "elements-reviewed",
       "exact_strings": []
     },
     {
       "old_edition": "legacy-332b5ed63262",
       "old_panel": "109-02",
-      "draft_beats": [],
-      "detail_review": "pending",
+      "draft_beats": [
+        "prod-wiki-overlap-milestones",
+        "prod-wiki-overlap-overlap"
+      ],
+      "detail_review": "elements-reviewed",
       "exact_strings": []
     },
     {
       "old_edition": "legacy-332b5ed63262",
       "old_panel": "109-03",
-      "draft_beats": [],
-      "detail_review": "pending",
+      "draft_beats": [
+        "prod-wiki-overlap-record-end",
+        "prod-wiki-overlap-return"
+      ],
+      "detail_review": "elements-reviewed",
       "exact_strings": []
     },
     {
       "old_edition": "legacy-332b5ed63262",
       "old_panel": "109-04",
-      "draft_beats": [],
-      "detail_review": "pending",
+      "draft_beats": [
+        "prod-wiki-overlap-return",
+        "prod-wiki-overlap-separation",
+        "prod-wiki-overlap-questions"
+      ],
+      "detail_review": "elements-reviewed",
       "exact_strings": []
     },
     {
       "old_edition": "legacy-332b5ed63262",
       "old_panel": "109-05",
-      "draft_beats": [],
-      "detail_review": "pending",
+      "draft_beats": [
+        "prod-wiki-overlap-census"
+      ],
+      "detail_review": "elements-reviewed",
       "exact_strings": []
     },
     {
       "old_edition": "legacy-332b5ed63262",
       "old_panel": "110-01",
-      "draft_beats": [],
-      "detail_review": "pending",
+      "draft_beats": [
+        "prod-wiki-overlap-draft",
+        "prod-wiki-overlap-public"
+      ],
+      "detail_review": "elements-reviewed",
       "exact_strings": []
     },
     {
       "old_edition": "legacy-332b5ed63262",
       "old_panel": "110-02",
-      "draft_beats": [],
-      "detail_review": "pending",
+      "draft_beats": [
+        "prod-wiki-overlap-disclosure"
+      ],
+      "detail_review": "elements-reviewed",
       "exact_strings": []
     },
     {
       "old_edition": "legacy-332b5ed63262",
       "old_panel": "110-03",
-      "draft_beats": [],
-      "detail_review": "pending",
+      "draft_beats": [
+        "prod-wiki-overlap-visits",
+        "prod-wiki-overlap-adjacency",
+        "prod-wiki-overlap-knowledge"
+      ],
+      "detail_review": "elements-reviewed",
       "exact_strings": []
     },
     {
       "old_edition": "legacy-332b5ed63262",
       "old_panel": "110-04",
-      "draft_beats": [],
-      "detail_review": "pending",
+      "draft_beats": [
+        "prod-wiki-overlap-investigation",
+        "prod-wiki-overlap-review-scope"
+      ],
+      "detail_review": "elements-reviewed",
       "exact_strings": []
     },
     {
       "old_edition": "legacy-332b5ed63262",
       "old_panel": "110-05",
-      "draft_beats": [],
-      "detail_review": "pending",
+      "draft_beats": [
+        "prod-wiki-overlap-knowledge",
+        "prod-wiki-overlap-roles"
+      ],
+      "detail_review": "elements-reviewed",
       "exact_strings": []
     },
     {
@@ -5357,8 +5387,8 @@
     "Collusion Wiki": 118,
     "Curt": 28,
     "Codex": 98,
-    "Claude": 173
+    "Claude": 189
   },
-  "reviewed_old_panels": 167,
-  "reviewed_source_elements": 416
+  "reviewed_old_panels": 177,
+  "reviewed_source_elements": 443
 }

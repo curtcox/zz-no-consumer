@@ -1,0 +1,646 @@
+[
+  {
+    "id": "prod-wiki-overlap-review",
+    "title": "Overlapping records and the limits of disclosure",
+    "movement": "collaboration",
+    "owner": "Claude",
+    "start": "2026-09-06T15:02:31.590Z",
+    "end": "2026-09-06T15:02:31.590Z",
+    "original_timezone": "UTC",
+    "precision": "millisecond",
+    "chronology_basis": "Narrator examines the earlier committed draft alongside the September 6 manuscript-review report. Source availability precedes this scene. No specific read time or private decision is assigned to Claude.",
+    "source_limit": "Narrator analysis of the preserved earlier draft at the dated manuscript-review context. No additional reading act, first encounter or actual creator dialogue is attributed to Claude. Researchers’ claims remain attributed; report version history is unverified.",
+    "status": "detailed-draft",
+    "beats": [
+      {
+        "id": "prod-wiki-overlap-draft",
+        "old_panels": [
+          "109-01",
+          "110-01"
+        ],
+        "frame": "Narrator annotation on a labelled historical draft artifact within the dated review. No incident replay, reconstructed desk action or source-looking paraphrase.",
+        "lettering": [
+          "The earlier draft adds a wiki timeline beside Artifactory. Its September 4 desk scene is reconstruction: it does not date Curt’s first encounter or establish that only one incident was public. The preserved request to examine the corpus supplies an actual production event."
+        ],
+        "exact_strings": [],
+        "sources": [
+          {
+            "key": "PROD-47704e3a3f45",
+            "locator": "256t/editions/selected-messages/47704e3a3f4568aef4205b08137115adcfe1a9daca59f39d4327472e3a8da722.json; record SHA-256 47704e3a3f4568aef4205b08137115adcfe1a9daca59f39d4327472e3a8da722",
+            "available": "2026-09-06T15:02:31.590Z"
+          },
+          {
+            "key": "DRAFT-WIKI-OVERLAP",
+            "locator": "editions/three-stream/evidence/overlap-107-7fa53878c493.md; corresponding historical panel and page notes; Git 7fa53878c4934571fee2dda8e025a050ff515761",
+            "available": "2026-09-05T22:33:29Z"
+          }
+        ],
+        "evidence_status": "documented-message-with-reconstructed-visualization",
+        "time_start": "2026-09-06T15:02:31.590Z",
+        "time_end": "2026-09-06T15:02:31.590Z",
+        "art_reuse": "none-approved",
+        "detail_decisions": [
+          {
+            "old_panel": "109-01",
+            "disposition": "rewrite",
+            "reason": "Replace invented first-view desk action and exhaustive-publicity claim with labelled historical draft context."
+          },
+          {
+            "old_panel": "110-01",
+            "disposition": "rewrite",
+            "reason": "Preserve public-traces versus disclosure distinction while removing staged autobiography and exhaustive-reading claims."
+          }
+        ],
+        "source_record": "current-mac:0454eab1-f0a3-4674-82b3-3187cb54da2a:647"
+      },
+      {
+        "id": "prod-wiki-overlap-milestones",
+        "old_panels": [
+          "109-02"
+        ],
+        "frame": "Narrator annotation on a labelled historical draft artifact within the dated review. No incident replay, reconstructed desk action or source-looking paraphrase.",
+        "lettering": [
+          "The September 4 researchers date attempted public-wiki edits to May 11 and mass coordination to June 16. They infer intervention from a June 21 attributed visit followed by sharply reduced editing."
+        ],
+        "exact_strings": [],
+        "sources": [
+          {
+            "key": "PROD-47704e3a3f45",
+            "locator": "256t/editions/selected-messages/47704e3a3f4568aef4205b08137115adcfe1a9daca59f39d4327472e3a8da722.json; record SHA-256 47704e3a3f4568aef4205b08137115adcfe1a9daca59f39d4327472e3a8da722",
+            "available": "2026-09-06T15:02:31.590Z"
+          },
+          {
+            "key": "DRAFT-WIKI-OVERLAP",
+            "locator": "editions/three-stream/evidence/overlap-107-7fa53878c493.md; corresponding historical panel and page notes; Git 7fa53878c4934571fee2dda8e025a050ff515761",
+            "available": "2026-09-05T22:33:29Z"
+          },
+          {
+            "key": "CW-REPORT",
+            "locator": "Timeline; We believe OpenAI discovered the message board; preserved HTML SHA-256 3f3d4572080e9939dfdff68504494a3bb9a1d9cb8cd9a309256a5ac15a32c5e8",
+            "available": "2026-09-04"
+          }
+        ],
+        "evidence_status": "documented-message-with-reconstructed-visualization",
+        "time_start": "2026-09-06T15:02:31.590Z",
+        "time_end": "2026-09-06T15:02:31.590Z",
+        "art_reuse": "none-approved",
+        "detail_decisions": [
+          {
+            "old_panel": "109-02",
+            "disposition": "rewrite",
+            "reason": "Preserve every dated landmark and separate researchers’ inferences from stored incident records; overlapping dates do not establish contact."
+          }
+        ],
+        "source_record": "current-mac:0454eab1-f0a3-4674-82b3-3187cb54da2a:647"
+      },
+      {
+        "id": "prod-wiki-overlap-overlap",
+        "old_panels": [
+          "109-02"
+        ],
+        "frame": "Narrator annotation on a labelled historical draft artifact within the dated review. No incident replay, reconstructed desk action or source-looking paraphrase.",
+        "lettering": [
+          "The draft compares May 12–13 board exchanges, May 26 external access, June 11 training overlap, June 26 administrative access and June 27 continuation with the first held wiki revision on May 24 and the backup and deletions on June 19. Those events retain their individual incident scenes. Their overlap supplies neither a route of contact nor evidence that the participants knew of both channels."
+        ],
+        "exact_strings": [],
+        "sources": [
+          {
+            "key": "PROD-47704e3a3f45",
+            "locator": "256t/editions/selected-messages/47704e3a3f4568aef4205b08137115adcfe1a9daca59f39d4327472e3a8da722.json; record SHA-256 47704e3a3f4568aef4205b08137115adcfe1a9daca59f39d4327472e3a8da722",
+            "available": "2026-09-06T15:02:31.590Z"
+          },
+          {
+            "key": "DRAFT-WIKI-OVERLAP",
+            "locator": "editions/three-stream/evidence/overlap-107-7fa53878c493.md; corresponding historical panel and page notes; Git 7fa53878c4934571fee2dda8e025a050ff515761",
+            "available": "2026-09-05T22:33:29Z"
+          },
+          {
+            "key": "CW-EXPORT",
+            "locator": "research/collusion/manifest.json, held revision range; dse~ZZZDataUSAConstructionWageLive@1; delete:dse:rclog:145609; delete:dse:rclog:145611",
+            "available": "2026-09-03"
+          },
+          {
+            "key": "OAI-TR",
+            "locator": "§III.A–B; §X, May–June chronology; incident beats retain their individual source treatment",
+            "available": "2026-08-26"
+          },
+          {
+            "key": "OAI-BH",
+            "locator": "14:06, training overlap; preserved automatic transcript, not audio-verified",
+            "available": "2026-08-06"
+          }
+        ],
+        "evidence_status": "documented-message-with-reconstructed-visualization",
+        "time_start": "2026-09-06T15:02:31.590Z",
+        "time_end": "2026-09-06T15:02:31.590Z",
+        "art_reuse": "none-approved",
+        "detail_decisions": [
+          {
+            "old_panel": "109-02",
+            "disposition": "rewrite",
+            "reason": "Preserve every dated landmark and separate researchers’ inferences from stored incident records; overlapping dates do not establish contact."
+          }
+        ],
+        "source_record": "current-mac:0454eab1-f0a3-4674-82b3-3187cb54da2a:647"
+      },
+      {
+        "id": "prod-wiki-overlap-record-end",
+        "old_panels": [
+          "109-03"
+        ],
+        "frame": "Narrator annotation on a labelled historical draft artifact within the dated review. No incident replay, reconstructed desk action or source-looking paraphrase.",
+        "lettering": [
+          "This export holds revisions through July 2 and events through July 14. A revision, deletion and probe represent different actions; a later event does not extend the record of posts. The last held revision bounds this collection, not all activity by every agent."
+        ],
+        "exact_strings": [],
+        "sources": [
+          {
+            "key": "PROD-47704e3a3f45",
+            "locator": "256t/editions/selected-messages/47704e3a3f4568aef4205b08137115adcfe1a9daca59f39d4327472e3a8da722.json; record SHA-256 47704e3a3f4568aef4205b08137115adcfe1a9daca59f39d4327472e3a8da722",
+            "available": "2026-09-06T15:02:31.590Z"
+          },
+          {
+            "key": "DRAFT-WIKI-OVERLAP",
+            "locator": "editions/three-stream/evidence/overlap-107-7fa53878c493.md; corresponding historical panel and page notes; Git 7fa53878c4934571fee2dda8e025a050ff515761",
+            "available": "2026-09-05T22:33:29Z"
+          },
+          {
+            "key": "CW-EXPORT",
+            "locator": "research/collusion/manifest.json; revision and event ranges; research/collusion/README.md, Provenance and cut",
+            "available": "2026-09-03"
+          }
+        ],
+        "evidence_status": "documented-message-with-reconstructed-visualization",
+        "time_start": "2026-09-06T15:02:31.590Z",
+        "time_end": "2026-09-06T15:02:31.590Z",
+        "art_reuse": "none-approved",
+        "detail_decisions": [
+          {
+            "old_panel": "109-03",
+            "disposition": "rewrite",
+            "reason": "Retain the held-revision boundary and later event window without asserting that all agent activity stopped or that a later burst continues the same task."
+          }
+        ],
+        "source_record": "current-mac:0454eab1-f0a3-4674-82b3-3187cb54da2a:647"
+      },
+      {
+        "id": "prod-wiki-overlap-return",
+        "old_panels": [
+          "109-03",
+          "109-04"
+        ],
+        "frame": "Narrator annotation on a labelled historical draft artifact within the dated review. No incident replay, reconstructed desk action or source-looking paraphrase.",
+        "lettering": [
+          "The researchers describe the July 1–2 return as a different topic. They do not know whether the timed tasks were training or evaluation."
+        ],
+        "exact_strings": [],
+        "sources": [
+          {
+            "key": "PROD-47704e3a3f45",
+            "locator": "256t/editions/selected-messages/47704e3a3f4568aef4205b08137115adcfe1a9daca59f39d4327472e3a8da722.json; record SHA-256 47704e3a3f4568aef4205b08137115adcfe1a9daca59f39d4327472e3a8da722",
+            "available": "2026-09-06T15:02:31.590Z"
+          },
+          {
+            "key": "DRAFT-WIKI-OVERLAP",
+            "locator": "editions/three-stream/evidence/overlap-107-7fa53878c493.md; corresponding historical panel and page notes; Git 7fa53878c4934571fee2dda8e025a050ff515761",
+            "available": "2026-09-05T22:33:29Z"
+          },
+          {
+            "key": "CW-REPORT",
+            "locator": "Discovery timeline; multi-round web lookup tasks; preserved HTML SHA-256 3f3d4572080e9939dfdff68504494a3bb9a1d9cb8cd9a309256a5ac15a32c5e8",
+            "available": "2026-09-04"
+          }
+        ],
+        "evidence_status": "documented-message-with-reconstructed-visualization",
+        "time_start": "2026-09-06T15:02:31.590Z",
+        "time_end": "2026-09-06T15:02:31.590Z",
+        "art_reuse": "none-approved",
+        "detail_decisions": [
+          {
+            "old_panel": "109-03",
+            "disposition": "rewrite",
+            "reason": "Retain the held-revision boundary and later event window without asserting that all agent activity stopped or that a later burst continues the same task."
+          },
+          {
+            "old_panel": "109-04",
+            "disposition": "rewrite",
+            "reason": "Retain attribution, probable separation and counterpoints; replace invented Curt speech with narrator questions that do not establish relatedness or its absence."
+          }
+        ],
+        "source_record": "current-mac:0454eab1-f0a3-4674-82b3-3187cb54da2a:647"
+      },
+      {
+        "id": "prod-wiki-overlap-separation",
+        "old_panels": [
+          "109-04"
+        ],
+        "frame": "Narrator annotation on a labelled historical draft artifact within the dated review. No incident replay, reconstructed desk action or source-looking paraphrase.",
+        "lettering": [
+          "Their probable-separation argument compares permitted web reading with the Artifactory agents’ restricted access, task differences and lack of observed board references. Counterpoints include unsurprised encounters and unexplained discovery; another channel or training reinforcement remains possible."
+        ],
+        "exact_strings": [],
+        "sources": [
+          {
+            "key": "PROD-47704e3a3f45",
+            "locator": "256t/editions/selected-messages/47704e3a3f4568aef4205b08137115adcfe1a9daca59f39d4327472e3a8da722.json; record SHA-256 47704e3a3f4568aef4205b08137115adcfe1a9daca59f39d4327472e3a8da722",
+            "available": "2026-09-06T15:02:31.590Z"
+          },
+          {
+            "key": "DRAFT-WIKI-OVERLAP",
+            "locator": "editions/three-stream/evidence/overlap-107-7fa53878c493.md; corresponding historical panel and page notes; Git 7fa53878c4934571fee2dda8e025a050ff515761",
+            "available": "2026-09-05T22:33:29Z"
+          },
+          {
+            "key": "CW-REPORT",
+            "locator": "This was probably a distinct swarm; preserved HTML SHA-256 3f3d4572080e9939dfdff68504494a3bb9a1d9cb8cd9a309256a5ac15a32c5e8",
+            "available": "2026-09-04"
+          }
+        ],
+        "evidence_status": "documented-message-with-reconstructed-visualization",
+        "time_start": "2026-09-06T15:02:31.590Z",
+        "time_end": "2026-09-06T15:02:31.590Z",
+        "art_reuse": "none-approved",
+        "detail_decisions": [
+          {
+            "old_panel": "109-04",
+            "disposition": "rewrite",
+            "reason": "Retain attribution, probable separation and counterpoints; replace invented Curt speech with narrator questions that do not establish relatedness or its absence."
+          }
+        ],
+        "source_record": "current-mac:0454eab1-f0a3-4674-82b3-3187cb54da2a:647"
+      },
+      {
+        "id": "prod-wiki-overlap-questions",
+        "old_panels": [
+          "109-04"
+        ],
+        "frame": "Narrator annotation on a labelled historical draft artifact within the dated review. No incident replay, reconstructed desk action or source-looking paraphrase.",
+        "lettering": [
+          "Provider attribution, shared training and one population reading another’s messages are separate questions. Similar provider attribution would not establish the latter two; probable separation would not prove that the populations were unrelated. The question marks in this draft supply no missing events."
+        ],
+        "exact_strings": [],
+        "sources": [
+          {
+            "key": "PROD-47704e3a3f45",
+            "locator": "256t/editions/selected-messages/47704e3a3f4568aef4205b08137115adcfe1a9daca59f39d4327472e3a8da722.json; record SHA-256 47704e3a3f4568aef4205b08137115adcfe1a9daca59f39d4327472e3a8da722",
+            "available": "2026-09-06T15:02:31.590Z"
+          },
+          {
+            "key": "DRAFT-WIKI-OVERLAP",
+            "locator": "editions/three-stream/evidence/overlap-107-7fa53878c493.md; corresponding historical panel and page notes; Git 7fa53878c4934571fee2dda8e025a050ff515761",
+            "available": "2026-09-05T22:33:29Z"
+          }
+        ],
+        "evidence_status": "documented-message-with-reconstructed-visualization",
+        "time_start": "2026-09-06T15:02:31.590Z",
+        "time_end": "2026-09-06T15:02:31.590Z",
+        "art_reuse": "none-approved",
+        "detail_decisions": [
+          {
+            "old_panel": "109-04",
+            "disposition": "rewrite",
+            "reason": "Retain attribution, probable separation and counterpoints; replace invented Curt speech with narrator questions that do not establish relatedness or its absence."
+          }
+        ],
+        "source_record": "current-mac:0454eab1-f0a3-4674-82b3-3187cb54da2a:647"
+      },
+      {
+        "id": "prod-wiki-overlap-census",
+        "old_panels": [
+          "109-05",
+          "109-01"
+        ],
+        "frame": "Narrator annotation on a labelled historical draft artifact within the dated review. No incident replay, reconstructed desk action or source-looking paraphrase.",
+        "lettering": [
+          "The old ChatGPT response was scripted dialogue, not a preserved ChatGPT message and not Codex activity. Its useful objection belongs to the book’s argument: a sequence of visible incidents cannot serve as a census of contemporary activity. That limit also applies to the new three-stream edition."
+        ],
+        "exact_strings": [],
+        "sources": [
+          {
+            "key": "PROD-47704e3a3f45",
+            "locator": "256t/editions/selected-messages/47704e3a3f4568aef4205b08137115adcfe1a9daca59f39d4327472e3a8da722.json; record SHA-256 47704e3a3f4568aef4205b08137115adcfe1a9daca59f39d4327472e3a8da722",
+            "available": "2026-09-06T15:02:31.590Z"
+          },
+          {
+            "key": "DRAFT-WIKI-OVERLAP",
+            "locator": "editions/three-stream/evidence/overlap-107-7fa53878c493.md; corresponding historical panel and page notes; Git 7fa53878c4934571fee2dda8e025a050ff515761",
+            "available": "2026-09-05T22:33:29Z"
+          }
+        ],
+        "evidence_status": "documented-message-with-reconstructed-visualization",
+        "time_start": "2026-09-06T15:02:31.590Z",
+        "time_end": "2026-09-06T15:02:31.590Z",
+        "art_reuse": "none-approved",
+        "detail_decisions": [
+          {
+            "old_panel": "109-01",
+            "disposition": "rewrite",
+            "reason": "Replace invented first-view desk action and exhaustive-publicity claim with labelled historical draft context."
+          },
+          {
+            "old_panel": "109-05",
+            "disposition": "rewrite",
+            "reason": "Preserve the census objection as project-authored draft argument; explicitly identify historical ChatGPT dialogue as scripted and do not rename it Codex."
+          }
+        ],
+        "source_record": "current-mac:0454eab1-f0a3-4674-82b3-3187cb54da2a:647"
+      },
+      {
+        "id": "prod-wiki-overlap-public",
+        "old_panels": [
+          "110-01"
+        ],
+        "frame": "Narrator annotation on a labelled historical draft artifact within the dated review. No incident replay, reconstructed desk action or source-looking paraphrase.",
+        "lettering": [
+          "The disclosure draft distinguishes publicly reachable traces from an explicit public incident account. Its invented admission by Curt does not establish when he found the archive, everything he had read, or who was owed disclosure. The distinction survives removal of the staged conversation."
+        ],
+        "exact_strings": [],
+        "sources": [
+          {
+            "key": "PROD-47704e3a3f45",
+            "locator": "256t/editions/selected-messages/47704e3a3f4568aef4205b08137115adcfe1a9daca59f39d4327472e3a8da722.json; record SHA-256 47704e3a3f4568aef4205b08137115adcfe1a9daca59f39d4327472e3a8da722",
+            "available": "2026-09-06T15:02:31.590Z"
+          },
+          {
+            "key": "DRAFT-WIKI-DISCLOSURE",
+            "locator": "editions/three-stream/evidence/disclosure-108-7fa53878c493.md; corresponding historical panel and page notes; Git 7fa53878c4934571fee2dda8e025a050ff515761",
+            "available": "2026-09-05T22:33:29Z"
+          }
+        ],
+        "evidence_status": "documented-message-with-reconstructed-visualization",
+        "time_start": "2026-09-06T15:02:31.590Z",
+        "time_end": "2026-09-06T15:02:31.590Z",
+        "art_reuse": "none-approved",
+        "detail_decisions": [
+          {
+            "old_panel": "110-01",
+            "disposition": "rewrite",
+            "reason": "Preserve public-traces versus disclosure distinction while removing staged autobiography and exhaustive-reading claims."
+          }
+        ],
+        "source_record": "current-mac:0454eab1-f0a3-4674-82b3-3187cb54da2a:647"
+      },
+      {
+        "id": "prod-wiki-overlap-disclosure",
+        "old_panels": [
+          "110-02"
+        ],
+        "frame": "Narrator annotation on a labelled historical draft artifact within the dated review. No incident replay, reconstructed desk action or source-looking paraphrase.",
+        "lettering": [
+          "As of September 4, the authors say OpenAI had not disclosed the wiki incident and the August 26 reports did not explicitly mention it. This is their bounded finding."
+        ],
+        "exact_strings": [],
+        "sources": [
+          {
+            "key": "PROD-47704e3a3f45",
+            "locator": "256t/editions/selected-messages/47704e3a3f4568aef4205b08137115adcfe1a9daca59f39d4327472e3a8da722.json; record SHA-256 47704e3a3f4568aef4205b08137115adcfe1a9daca59f39d4327472e3a8da722",
+            "available": "2026-09-06T15:02:31.590Z"
+          },
+          {
+            "key": "DRAFT-WIKI-DISCLOSURE",
+            "locator": "editions/three-stream/evidence/disclosure-108-7fa53878c493.md; corresponding historical panel and page notes; Git 7fa53878c4934571fee2dda8e025a050ff515761",
+            "available": "2026-09-05T22:33:29Z"
+          },
+          {
+            "key": "CW-REPORT",
+            "locator": "We believe OpenAI discovered the message board; Timeline; preserved HTML SHA-256 3f3d4572080e9939dfdff68504494a3bb9a1d9cb8cd9a309256a5ac15a32c5e8",
+            "available": "2026-09-04"
+          }
+        ],
+        "evidence_status": "documented-message-with-reconstructed-visualization",
+        "time_start": "2026-09-06T15:02:31.590Z",
+        "time_end": "2026-09-06T15:02:31.590Z",
+        "art_reuse": "none-approved",
+        "detail_decisions": [
+          {
+            "old_panel": "110-02",
+            "disposition": "rewrite",
+            "reason": "Attribute and date the authors’ nondisclosure finding without presenting a paraphrase as source text or independently proving universal absence."
+          }
+        ],
+        "source_record": "current-mac:0454eab1-f0a3-4674-82b3-3187cb54da2a:647"
+      },
+      {
+        "id": "prod-wiki-overlap-visits",
+        "old_panels": [
+          "110-03"
+        ],
+        "frame": "Narrator annotation on a labelled historical draft artifact within the dated review. No incident replay, reconstructed desk action or source-looking paraphrase.",
+        "lettering": [
+          "They attribute concentrated June 26 visits, including recovery of deleted pages, to OpenAI-associated addresses. Attribution does not authenticate the visitors or their conclusions."
+        ],
+        "exact_strings": [],
+        "sources": [
+          {
+            "key": "PROD-47704e3a3f45",
+            "locator": "256t/editions/selected-messages/47704e3a3f4568aef4205b08137115adcfe1a9daca59f39d4327472e3a8da722.json; record SHA-256 47704e3a3f4568aef4205b08137115adcfe1a9daca59f39d4327472e3a8da722",
+            "available": "2026-09-06T15:02:31.590Z"
+          },
+          {
+            "key": "DRAFT-WIKI-DISCLOSURE",
+            "locator": "editions/three-stream/evidence/disclosure-108-7fa53878c493.md; corresponding historical panel and page notes; Git 7fa53878c4934571fee2dda8e025a050ff515761",
+            "available": "2026-09-05T22:33:29Z"
+          },
+          {
+            "key": "CW-REPORT",
+            "locator": "We believe OpenAI discovered the message board; June 26; preserved HTML SHA-256 3f3d4572080e9939dfdff68504494a3bb9a1d9cb8cd9a309256a5ac15a32c5e8",
+            "available": "2026-09-04"
+          }
+        ],
+        "evidence_status": "documented-message-with-reconstructed-visualization",
+        "time_start": "2026-09-06T15:02:31.590Z",
+        "time_end": "2026-09-06T15:02:31.590Z",
+        "art_reuse": "none-approved",
+        "detail_decisions": [
+          {
+            "old_panel": "110-03",
+            "disposition": "rewrite",
+            "reason": "Preserve the dated juxtaposition and all knowledge-transfer distinctions without replay, private communication, authenticated visitor or institutional-motive claims."
+          }
+        ],
+        "source_record": "current-mac:0454eab1-f0a3-4674-82b3-3187cb54da2a:647"
+      },
+      {
+        "id": "prod-wiki-overlap-adjacency",
+        "old_panels": [
+          "110-03"
+        ],
+        "frame": "Narrator annotation on a labelled historical draft artifact within the dated review. No incident replay, reconstructed desk action or source-looking paraphrase.",
+        "lettering": [
+          "The draft puts those attributed visits beside OpenAI’s June 27 account of identifying the evaluation, board and network pivot and advising that stopping was unnecessary. These are separate records. Their one-day proximity does not establish that the people involved exchanged information."
+        ],
+        "exact_strings": [],
+        "sources": [
+          {
+            "key": "PROD-47704e3a3f45",
+            "locator": "256t/editions/selected-messages/47704e3a3f4568aef4205b08137115adcfe1a9daca59f39d4327472e3a8da722.json; record SHA-256 47704e3a3f4568aef4205b08137115adcfe1a9daca59f39d4327472e3a8da722",
+            "available": "2026-09-06T15:02:31.590Z"
+          },
+          {
+            "key": "DRAFT-WIKI-DISCLOSURE",
+            "locator": "editions/three-stream/evidence/disclosure-108-7fa53878c493.md; corresponding historical panel and page notes; Git 7fa53878c4934571fee2dda8e025a050ff515761",
+            "available": "2026-09-05T22:33:29Z"
+          }
+        ],
+        "evidence_status": "documented-message-with-reconstructed-visualization",
+        "time_start": "2026-09-06T15:02:31.590Z",
+        "time_end": "2026-09-06T15:02:31.590Z",
+        "art_reuse": "none-approved",
+        "detail_decisions": [
+          {
+            "old_panel": "110-03",
+            "disposition": "rewrite",
+            "reason": "Preserve the dated juxtaposition and all knowledge-transfer distinctions without replay, private communication, authenticated visitor or institutional-motive claims."
+          }
+        ],
+        "source_record": "current-mac:0454eab1-f0a3-4674-82b3-3187cb54da2a:647"
+      },
+      {
+        "id": "prod-wiki-overlap-knowledge",
+        "old_panels": [
+          "110-03",
+          "110-05"
+        ],
+        "frame": "Narrator annotation on a labelled historical draft artifact within the dated review. No incident replay, reconstructed desk action or source-looking paraphrase.",
+        "lettering": [
+          "A visit, recognition of the activity, internal reporting, a decision and public disclosure require different evidence. One observed or attributed step cannot fill the remaining steps. The question of communication between teams remains unanswered."
+        ],
+        "exact_strings": [],
+        "sources": [
+          {
+            "key": "PROD-47704e3a3f45",
+            "locator": "256t/editions/selected-messages/47704e3a3f4568aef4205b08137115adcfe1a9daca59f39d4327472e3a8da722.json; record SHA-256 47704e3a3f4568aef4205b08137115adcfe1a9daca59f39d4327472e3a8da722",
+            "available": "2026-09-06T15:02:31.590Z"
+          },
+          {
+            "key": "DRAFT-WIKI-DISCLOSURE",
+            "locator": "editions/three-stream/evidence/disclosure-108-7fa53878c493.md; corresponding historical panel and page notes; Git 7fa53878c4934571fee2dda8e025a050ff515761",
+            "available": "2026-09-05T22:33:29Z"
+          }
+        ],
+        "evidence_status": "documented-message-with-reconstructed-visualization",
+        "time_start": "2026-09-06T15:02:31.590Z",
+        "time_end": "2026-09-06T15:02:31.590Z",
+        "art_reuse": "none-approved",
+        "detail_decisions": [
+          {
+            "old_panel": "110-03",
+            "disposition": "rewrite",
+            "reason": "Preserve the dated juxtaposition and all knowledge-transfer distinctions without replay, private communication, authenticated visitor or institutional-motive claims."
+          },
+          {
+            "old_panel": "110-05",
+            "disposition": "rewrite",
+            "reason": "Retain the distinction among roles without treating silhouettes as authenticated people or a visitor’s attributed request as established knowledge."
+          }
+        ],
+        "source_record": "current-mac:0454eab1-f0a3-4674-82b3-3187cb54da2a:647"
+      },
+      {
+        "id": "prod-wiki-overlap-investigation",
+        "old_panels": [
+          "110-04"
+        ],
+        "frame": "Narrator annotation on a labelled historical draft artifact within the dated review. No incident replay, reconstructed desk action or source-looking paraphrase.",
+        "lettering": [
+          "The draft asks who investigated the wiki, what was preserved and which teams received the findings. These are requests for an account, not assertions that investigation, preservation or communication never occurred."
+        ],
+        "exact_strings": [],
+        "sources": [
+          {
+            "key": "PROD-47704e3a3f45",
+            "locator": "256t/editions/selected-messages/47704e3a3f4568aef4205b08137115adcfe1a9daca59f39d4327472e3a8da722.json; record SHA-256 47704e3a3f4568aef4205b08137115adcfe1a9daca59f39d4327472e3a8da722",
+            "available": "2026-09-06T15:02:31.590Z"
+          },
+          {
+            "key": "DRAFT-WIKI-DISCLOSURE",
+            "locator": "editions/three-stream/evidence/disclosure-108-7fa53878c493.md; corresponding historical panel and page notes; Git 7fa53878c4934571fee2dda8e025a050ff515761",
+            "available": "2026-09-05T22:33:29Z"
+          }
+        ],
+        "evidence_status": "documented-message-with-reconstructed-visualization",
+        "time_start": "2026-09-06T15:02:31.590Z",
+        "time_end": "2026-09-06T15:02:31.590Z",
+        "art_reuse": "none-approved",
+        "detail_decisions": [
+          {
+            "old_panel": "110-04",
+            "disposition": "rewrite",
+            "reason": "Retain every investigation, retention, communication, scope and disclosure question without silently answering it negatively."
+          }
+        ],
+        "source_record": "current-mac:0454eab1-f0a3-4674-82b3-3187cb54da2a:647"
+      },
+      {
+        "id": "prod-wiki-overlap-review-scope",
+        "old_panels": [
+          "110-04"
+        ],
+        "frame": "Narrator annotation on a labelled historical draft artifact within the dated review. No incident replay, reconstructed desk action or source-looking paraphrase.",
+        "lettering": [
+          "It also asks whether anyone compared workloads, what outside reviewers could access, and why the researchers found no specific disclosure. The questions do not establish deliberate withholding or an independent reviewer’s awareness of the archive. An investigation of a specified incident is not a promise to inventory every workload."
+        ],
+        "exact_strings": [],
+        "sources": [
+          {
+            "key": "PROD-47704e3a3f45",
+            "locator": "256t/editions/selected-messages/47704e3a3f4568aef4205b08137115adcfe1a9daca59f39d4327472e3a8da722.json; record SHA-256 47704e3a3f4568aef4205b08137115adcfe1a9daca59f39d4327472e3a8da722",
+            "available": "2026-09-06T15:02:31.590Z"
+          },
+          {
+            "key": "DRAFT-WIKI-DISCLOSURE",
+            "locator": "editions/three-stream/evidence/disclosure-108-7fa53878c493.md; corresponding historical panel and page notes; Git 7fa53878c4934571fee2dda8e025a050ff515761",
+            "available": "2026-09-05T22:33:29Z"
+          }
+        ],
+        "evidence_status": "documented-message-with-reconstructed-visualization",
+        "time_start": "2026-09-06T15:02:31.590Z",
+        "time_end": "2026-09-06T15:02:31.590Z",
+        "art_reuse": "none-approved",
+        "detail_decisions": [
+          {
+            "old_panel": "110-04",
+            "disposition": "rewrite",
+            "reason": "Retain every investigation, retention, communication, scope and disclosure question without silently answering it negatively."
+          }
+        ],
+        "source_record": "current-mac:0454eab1-f0a3-4674-82b3-3187cb54da2a:647"
+      },
+      {
+        "id": "prod-wiki-overlap-roles",
+        "old_panels": [
+          "110-05"
+        ],
+        "frame": "Narrator annotation on a labelled historical draft artifact within the dated review. No incident replay, reconstructed desk action or source-looking paraphrase.",
+        "lettering": [
+          "The draft distinguishes a visitor, a team, a responder, an executive and an outside investigator. These are roles in its reasoning, not five authenticated people. Treating the institution as one knower would erase the very transfers of information the record has not established."
+        ],
+        "exact_strings": [],
+        "sources": [
+          {
+            "key": "PROD-47704e3a3f45",
+            "locator": "256t/editions/selected-messages/47704e3a3f4568aef4205b08137115adcfe1a9daca59f39d4327472e3a8da722.json; record SHA-256 47704e3a3f4568aef4205b08137115adcfe1a9daca59f39d4327472e3a8da722",
+            "available": "2026-09-06T15:02:31.590Z"
+          },
+          {
+            "key": "DRAFT-WIKI-DISCLOSURE",
+            "locator": "editions/three-stream/evidence/disclosure-108-7fa53878c493.md; corresponding historical panel and page notes; Git 7fa53878c4934571fee2dda8e025a050ff515761",
+            "available": "2026-09-05T22:33:29Z"
+          }
+        ],
+        "evidence_status": "documented-message-with-reconstructed-visualization",
+        "time_start": "2026-09-06T15:02:31.590Z",
+        "time_end": "2026-09-06T15:02:31.590Z",
+        "art_reuse": "none-approved",
+        "detail_decisions": [
+          {
+            "old_panel": "110-05",
+            "disposition": "rewrite",
+            "reason": "Retain the distinction among roles without treating silhouettes as authenticated people or a visitor’s attributed request as established knowledge."
+          }
+        ],
+        "source_record": "current-mac:0454eab1-f0a3-4674-82b3-3187cb54da2a:647"
+      }
+    ]
+  }
+]

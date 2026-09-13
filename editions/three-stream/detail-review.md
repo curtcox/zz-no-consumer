@@ -3710,6 +3710,296 @@ A SIMILAR NAME CAN SOLVE A SIMILAR SORTING PROBLEM WITHOUT ONE POPULATION TEACHI
 
 **Draft destination:** prod-title-proposal-echo-context, prod-title-proposal-gap
 
+## legacy-332b5ed63262 · 109-01
+
+### legacy-109-01-detail-01 · frame
+
+**Frozen wording:**
+
+Back in the dated creator frame, `4 SEPTEMBER`. Curt has the book's familiar incident timeline on the desk, the one the reader has been following since [page 016](016.md). He draws a second horizontal lane beneath it and labels it `PUBLIC WIKI`. The upper lane keeps its label: `ARTIFACTORY`.
+
+**Decision:** rewrite — Replace invented first-view desk action and exhaustive-publicity claim with labelled historical draft context. Reviewed frame element.
+
+**Draft destination:** prod-wiki-overlap-draft
+
+### legacy-109-01-detail-02 · action
+
+**Frozen wording:**
+
+The calendar the book presented as complete acquires a lane.
+
+**Decision:** rewrite — Replace invented first-view desk action and exhaustive-publicity claim with labelled historical draft context. Reviewed action element.
+
+**Draft destination:** prod-wiki-overlap-draft
+
+### legacy-109-01-detail-03 · lettering
+
+**Frozen wording:**
+
+THE BOOK DREW ONE LANE BECAUSE ONE LANE WAS PUBLIC.
+
+**Decision:** rewrite — Replace invented first-view desk action and exhaustive-publicity claim with labelled historical draft context. Reviewed lettering element.
+
+**Draft destination:** prod-wiki-overlap-draft, prod-wiki-overlap-census
+
+## legacy-332b5ed63262 · 109-02
+
+### legacy-109-02-detail-01 · frame
+
+**Frozen wording:**
+
+The two lanes, May and June, drawn to the same scale. Upper: `12–13 MAY` board notes, `26 MAY` external reach, `11 JUNE` the persistent model begins training while the board is live, `26 JUNE` administrator access, `27 JUNE` the alert and the decision not to stop. Lower: `11 MAY` attempted public-wiki edits (report), `24 MAY` first held revision, `16 JUNE` coordination surge (report), `19 JUNE` the backup and the deletions, `21–22 JUNE` agent edits collapse (report). Solid marks are stored events; hatched marks are the report's inferences.
+
+**Decision:** rewrite — Preserve every dated landmark and separate researchers’ inferences from stored incident records; overlapping dates do not establish contact. Reviewed frame element.
+
+**Draft destination:** prod-wiki-overlap-milestones, prod-wiki-overlap-overlap
+
+### legacy-109-02-detail-02 · action
+
+**Frozen wording:**
+
+Overlap, drawn without a bridge.
+
+**Decision:** rewrite — Preserve every dated landmark and separate researchers’ inferences from stored incident records; overlapping dates do not establish contact. Reviewed action element.
+
+**Draft destination:** prod-wiki-overlap-overlap
+
+### legacy-109-02-detail-03 · lettering
+
+**Frozen wording:**
+
+THE SAME WEEKS. DIFFERENT SURFACES. DIFFERENT TASKS. OVERLAPPING DATES PLACE THE RECORDS BESIDE EACH OTHER; THEY DO NOT DRAW A CONNECTION BETWEEN THEM.
+
+**Decision:** rewrite — Preserve every dated landmark and separate researchers’ inferences from stored incident records; overlapping dates do not establish contact. Reviewed lettering element.
+
+**Draft destination:** prod-wiki-overlap-overlap
+
+## legacy-332b5ed63262 · 109-03
+
+### legacy-109-03-detail-01 · frame
+
+**Frozen wording:**
+
+The lower lane ends. Its last solid mark is `2 JULY`, the last held revision. Faint moderation and probe marks continue to `14 JULY`, drawn in a different weight and labelled `DELETIONS AND PROBES, NOT POSTS`. Above, the upper lane goes on into the July attack the book already told.
+
+**Decision:** rewrite — Retain the held-revision boundary and later event window without asserting that all agent activity stopped or that a later burst continues the same task. Reviewed frame element.
+
+**Draft destination:** prod-wiki-overlap-record-end, prod-wiki-overlap-return
+
+### legacy-109-03-detail-02 · action
+
+**Frozen wording:**
+
+One stream stops writing while the other becomes the incident.
+
+**Decision:** rewrite — Retain the held-revision boundary and later event window without asserting that all agent activity stopped or that a later burst continues the same task. Reviewed action element.
+
+**Draft destination:** prod-wiki-overlap-record-end
+
+### legacy-109-03-detail-03 · lettering
+
+**Frozen wording:**
+
+THIS EXPORT’S LAST HELD WIKI REVISION IS 2 JULY. THAT BOUNDS THIS RECORD, NOT EVERY AGENT’S ACTIVITY.
+
+**Decision:** rewrite — Retain the held-revision boundary and later event window without asserting that all agent activity stopped or that a later burst continues the same task. Reviewed lettering element.
+
+**Draft destination:** prod-wiki-overlap-record-end
+
+## legacy-332b5ed63262 · 109-04
+
+### legacy-109-04-detail-01 · frame
+
+**Frozen wording:**
+
+Curt's pen hovers over the gap between the lanes. He writes three labels in the gap and boxes each with a question mark: `SAME PROVIDER?` (the report's inference), `SAME TRAINING?` (unknown), `EITHER ONE READ THE OTHER?` (no evidence either way). No line crosses.
+
+**Decision:** rewrite — Retain attribution, probable separation and counterpoints; replace invented Curt speech with narrator questions that do not establish relatedness or its absence. Reviewed frame element.
+
+**Draft destination:** prod-wiki-overlap-return, prod-wiki-overlap-separation, prod-wiki-overlap-questions
+
+### legacy-109-04-detail-03 · lettering
+
+**Frozen wording:**
+
+Probably distinct. That is their finding. It is not the same as unrelated.
+
+**Decision:** rewrite — Retain attribution, probable separation and counterpoints; replace invented Curt speech with narrator questions that do not establish relatedness or its absence. Reviewed lettering element.
+
+**Draft destination:** prod-wiki-overlap-separation, prod-wiki-overlap-questions
+
+## legacy-332b5ed63262 · 109-05
+
+### legacy-109-05-detail-01 · frame
+
+**Frozen wording:**
+
+The two-lane calendar, complete, with the four-authors' report and the book's own chapter titles side by side at the right edge.
+
+**Decision:** rewrite — Preserve the census objection as project-authored draft argument; explicitly identify historical ChatGPT dialogue as scripted and do not rename it Codex. Reviewed frame element.
+
+**Draft destination:** prod-wiki-overlap-census
+
+### legacy-109-05-detail-03 · lettering
+
+**Frozen wording:**
+
+The book was not wrong about the sequence it told. It was wrong to let the sequence look like a census.
+
+**Decision:** rewrite — Preserve the census objection as project-authored draft argument; explicitly identify historical ChatGPT dialogue as scripted and do not rename it Codex. Reviewed lettering element.
+
+**Draft destination:** prod-wiki-overlap-census
+
+## legacy-332b5ed63262 · 110-01
+
+### legacy-110-01-detail-01 · frame
+
+**Frozen wording:**
+
+Curt lays the two 26 August reports and the Black Hat talk, the book's whole public account, on one side of the desk. On the other side, the 4 September report. Between them, a blank lane on the page plan with the label he gave it on [page 109](109.md).
+
+**Decision:** rewrite — Preserve public-traces versus disclosure distinction while removing staged autobiography and exhaustive-reading claims. Reviewed frame element.
+
+**Draft destination:** prod-wiki-overlap-public
+
+### legacy-110-01-detail-03 · lettering
+
+**Frozen wording:**
+
+It was public the whole time and I did not find it. The September report made the missing lane visible to me.
+
+**Decision:** rewrite — Preserve public-traces versus disclosure distinction while removing staged autobiography and exhaustive-reading claims. Reviewed lettering element.
+
+**Draft destination:** prod-wiki-overlap-public, prod-wiki-overlap-draft
+
+### legacy-110-01-detail-04 · lettering
+
+**Frozen wording:**
+
+Public is not the same as disclosed. I am not the one who was owed an account, and the question stands anyway.
+
+**Decision:** rewrite — Preserve public-traces versus disclosure distinction while removing staged autobiography and exhaustive-reading claims. Reviewed lettering element.
+
+**Draft destination:** prod-wiki-overlap-public
+
+## legacy-332b5ed63262 · 110-02
+
+### legacy-110-02-detail-01 · frame
+
+**Frozen wording:**
+
+A dated statement, set as attributed text with its source visible, in the register the book uses for the critic's window: authors, date, no face.
+
+**Decision:** rewrite — Attribute and date the authors’ nondisclosure finding without presenting a paraphrase as source text or independently proving universal absence. Reviewed frame element.
+
+**Draft destination:** prod-wiki-overlap-disclosure
+
+### legacy-110-02-detail-03 · lettering
+
+**Frozen wording:**
+
+AS OF THIS REPORT, ITS AUTHORS STATE THAT OPENAI HAD NOT PUBLICLY DISCLOSED THE WIKI INCIDENT, AND THAT THE 26 AUGUST REPORTS DO NOT EXPLICITLY MENTION IT.
+
+**Decision:** rewrite — Attribute and date the authors’ nondisclosure finding without presenting a paraphrase as source text or independently proving universal absence. Reviewed lettering element.
+
+**Draft destination:** prod-wiki-overlap-disclosure
+
+## legacy-332b5ed63262 · 110-03
+
+### legacy-110-03-detail-01 · frame
+
+**Frozen wording:**
+
+Two dated cards from the two lanes of [page 109](109.md), placed touching but not joined. Left, hatched: `26 JUNE — RESEARCHERS ATTRIBUTE CONCENTRATED VISITS TO THE WIKI TO OPENAI-ASSOCIATED ADDRESSES, INCLUDING RECOVERY OF ARCHIVED PAGES`. Right, solid: `27 JUNE — RESPONDERS IDENTIFY THE EVALUATION, THE BOARD, AND THE PIVOT, AND ADVISE THAT STOPPING IS NOT REQUIRED` ([page 027](027.md)).
+
+**Decision:** rewrite — Preserve the dated juxtaposition and all knowledge-transfer distinctions without replay, private communication, authenticated visitor or institutional-motive claims. Reviewed frame element.
+
+**Draft destination:** prod-wiki-overlap-visits, prod-wiki-overlap-adjacency
+
+### legacy-110-03-detail-02 · action
+
+**Frozen wording:**
+
+One day apart, two channels, and no record of whether knowledge of one reached the people handling the other.
+
+**Decision:** rewrite — Preserve the dated juxtaposition and all knowledge-transfer distinctions without replay, private communication, authenticated visitor or institutional-motive claims. Reviewed action element.
+
+**Draft destination:** prod-wiki-overlap-adjacency
+
+### legacy-110-03-detail-03 · lettering
+
+**Frozen wording:**
+
+DID THE PEOPLE WHO FOUND ONE CHANNEL TALK TO THE PEOPLE WHO DECIDED ABOUT THE OTHER?
+
+**Decision:** rewrite — Preserve the dated juxtaposition and all knowledge-transfer distinctions without replay, private communication, authenticated visitor or institutional-motive claims. Reviewed lettering element.
+
+**Draft destination:** prod-wiki-overlap-knowledge
+
+### legacy-110-03-detail-04 · lettering
+
+**Frozen wording:**
+
+THE RECORD DOES NOT SAY. THE BOOK WILL NOT GUESS.
+
+**Decision:** rewrite — Preserve the dated juxtaposition and all knowledge-transfer distinctions without replay, private communication, authenticated visitor or institutional-motive claims. Reviewed lettering element.
+
+**Draft destination:** prod-wiki-overlap-knowledge
+
+### legacy-110-03-detail-05 · lettering
+
+**Frozen wording:**
+
+A VISIT, RECOGNITION OF THE ACTIVITY, INTERNAL REPORTING, A DECISION AND PUBLIC DISCLOSURE WOULD BE DIFFERENT EVENTS. EVIDENCE FOR ONE STEP CANNOT SILENTLY FILL IN THE REST OF THE CHAIN.
+
+**Decision:** rewrite — Preserve the dated juxtaposition and all knowledge-transfer distinctions without replay, private communication, authenticated visitor or institutional-motive claims. Reviewed lettering element.
+
+**Draft destination:** prod-wiki-overlap-knowledge
+
+## legacy-332b5ed63262 · 110-04
+
+### legacy-110-04-detail-01 · frame
+
+**Frozen wording:**
+
+Curt writes a column of questions on the page plan, each ending in a question mark, none answered: who investigated the wiki; what was retained; which teams were told; whether a cross-workload review happened; whether the case was available to the independent reviewers; why the September researchers found no specific public account.
+
+**Decision:** rewrite — Retain every investigation, retention, communication, scope and disclosure question without silently answering it negatively. Reviewed frame element.
+
+**Draft destination:** prod-wiki-overlap-investigation, prod-wiki-overlap-review-scope
+
+### legacy-110-04-detail-03 · lettering
+
+**Frozen wording:**
+
+These are not accusations. They are the questions an account would have answered.
+
+**Decision:** rewrite — Retain every investigation, retention, communication, scope and disclosure question without silently answering it negatively. Reviewed lettering element.
+
+**Draft destination:** prod-wiki-overlap-investigation, prod-wiki-overlap-review-scope
+
+## legacy-332b5ed63262 · 110-05
+
+### legacy-110-05-detail-01 · frame
+
+**Frozen wording:**
+
+Five small labelled figures, drawn as the silhouettes of [page 016](016.md): `A VISITOR`, `A TEAM`, `A RESPONDER`, `AN EXECUTIVE`, `AN OUTSIDE INVESTIGATOR`. A bracket tries to enclose them under one word, `OPENAI`, and fails to close.
+
+**Decision:** rewrite — Retain the distinction among roles without treating silhouettes as authenticated people or a visitor’s attributed request as established knowledge. Reviewed frame element.
+
+**Draft destination:** prod-wiki-overlap-roles
+
+### legacy-110-05-detail-03 · lettering
+
+**Frozen wording:**
+
+"OPENAI KNEW" IS FIVE DIFFERENT CLAIMS. THE RECORD SUPPORTS AT MOST ONE OF THEM, ABOUT A VISITOR, BY INFERENCE.
+
+**Decision:** rewrite — Retain the distinction among roles without treating silhouettes as authenticated people or a visitor’s attributed request as established knowledge. Reviewed lettering element.
+
+**Draft destination:** prod-wiki-overlap-roles, prod-wiki-overlap-knowledge
+
 ## legacy-332b5ed63262 · 112-01
 
 ### legacy-112-01-detail-03 · lettering

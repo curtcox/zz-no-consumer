@@ -712,5 +712,26 @@
     "admission": "Codex finishes the logo task report; preserved production record, not incident evidence or a new authorization.",
     "scope": "three-stream working edition only; old registry unchanged",
     "url": ""
+  },
+  "DRAFT-WIKI-OVERLAP": {
+    "available": "2026-09-05T22:33:29Z",
+    "record": "editions/three-stream/evidence/overlap-107-7fa53878c493.md",
+    "admission": "Historical project-authored draft preserved from Git 7fa53878c4934571fee2dda8e025a050ff515761. Staged creator dialogue and retrospective diagrams are not evidence of actual exchanges or first encounters.",
+    "scope": "three-stream working edition only; old registry unchanged",
+    "url": ""
+  },
+  "DRAFT-WIKI-DISCLOSURE": {
+    "available": "2026-09-05T22:33:29Z",
+    "record": "editions/three-stream/evidence/disclosure-108-7fa53878c493.md",
+    "admission": "Historical project-authored draft preserved from Git 7fa53878c4934571fee2dda8e025a050ff515761. Staged creator dialogue and retrospective diagrams are not evidence of actual exchanges or first encounters.",
+    "scope": "three-stream working edition only; old registry unchanged",
+    "url": ""
+  },
+  "CW-REPORT": {
+    "available": "2026-09-04",
+    "record": "256t/records/collusion-wiki-report/content.bin",
+    "admission": "Von Arx, Slade Byrd, Kitts and Larsen: researchers’ attribution, timeline, separation assessment and disclosure discussion, with counterpoints retained. Current preserved copy is not independently certified as the original September 4 version. No authenticated individual identity or internal decision inferred from network attribution.",
+    "scope": "three-stream working edition only; old registry unchanged",
+    "url": "https://collusion.wiki/"
   }
 }

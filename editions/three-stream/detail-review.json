@@ -6836,5 +6836,431 @@
         }
       }
     ]
+  },
+  {
+    "old_panel": "109-01",
+    "old_edition": "legacy-332b5ed63262",
+    "reviewed_on": "2026-09-13",
+    "status": "elements-reviewed",
+    "elements": [
+      {
+        "id": "legacy-109-01-detail-01",
+        "original_sha256": "da481524871f46a04edd145c8129ce7770b30a88121a0c945d892725636652aa",
+        "disposition": "rewrite",
+        "beats": [
+          "prod-wiki-overlap-draft"
+        ],
+        "reason": "Replace invented first-view desk action and exhaustive-publicity claim with labelled historical draft context. Reviewed frame element.",
+        "target_sha256": {
+          "prod-wiki-overlap-draft": "411a084ccb7428a8c18eec857c98f0622440c6c8f69bc2c6cb61f6857667d990"
+        }
+      },
+      {
+        "id": "legacy-109-01-detail-02",
+        "original_sha256": "aa353d3fa54f1a48249d676760f22af88b120a54f3cab71333370df5da4cee56",
+        "disposition": "rewrite",
+        "beats": [
+          "prod-wiki-overlap-draft"
+        ],
+        "reason": "Replace invented first-view desk action and exhaustive-publicity claim with labelled historical draft context. Reviewed action element.",
+        "target_sha256": {
+          "prod-wiki-overlap-draft": "411a084ccb7428a8c18eec857c98f0622440c6c8f69bc2c6cb61f6857667d990"
+        }
+      },
+      {
+        "id": "legacy-109-01-detail-03",
+        "original_sha256": "e1e2a584ed8c2b23f8d7ab730eeda25db9ec2fea3d1c8c01912b22eb420cbea7",
+        "disposition": "rewrite",
+        "beats": [
+          "prod-wiki-overlap-draft",
+          "prod-wiki-overlap-census"
+        ],
+        "reason": "Replace invented first-view desk action and exhaustive-publicity claim with labelled historical draft context. Reviewed lettering element.",
+        "target_sha256": {
+          "prod-wiki-overlap-draft": "411a084ccb7428a8c18eec857c98f0622440c6c8f69bc2c6cb61f6857667d990",
+          "prod-wiki-overlap-census": "f00b6f07db5b733470db02314ff2da7c85c9559bd9a83c78ab67fe829bda9ece"
+        }
+      }
+    ]
+  },
+  {
+    "old_panel": "109-02",
+    "old_edition": "legacy-332b5ed63262",
+    "reviewed_on": "2026-09-13",
+    "status": "elements-reviewed",
+    "elements": [
+      {
+        "id": "legacy-109-02-detail-01",
+        "original_sha256": "c05e9ba7f9f0ea5380cd3f80c6cb08cda3e0b861c3b843a968501d94cacef3e5",
+        "disposition": "rewrite",
+        "beats": [
+          "prod-wiki-overlap-milestones",
+          "prod-wiki-overlap-overlap"
+        ],
+        "reason": "Preserve every dated landmark and separate researchers’ inferences from stored incident records; overlapping dates do not establish contact. Reviewed frame element.",
+        "target_sha256": {
+          "prod-wiki-overlap-milestones": "8868e11ac0cf46d5bbfb42c05ccc4d4aab4f6b11758df7671012c9c8e45a05dd",
+          "prod-wiki-overlap-overlap": "97892201862059c365f63fb6b5aa64a815f7432a5fcbbda2a769e50343d09120"
+        }
+      },
+      {
+        "id": "legacy-109-02-detail-02",
+        "original_sha256": "6c6bacccc0f4694af5647502d1f58779e4148a4c78fe3500dbe6c66636dbe575",
+        "disposition": "rewrite",
+        "beats": [
+          "prod-wiki-overlap-overlap"
+        ],
+        "reason": "Preserve every dated landmark and separate researchers’ inferences from stored incident records; overlapping dates do not establish contact. Reviewed action element.",
+        "target_sha256": {
+          "prod-wiki-overlap-overlap": "97892201862059c365f63fb6b5aa64a815f7432a5fcbbda2a769e50343d09120"
+        }
+      },
+      {
+        "id": "legacy-109-02-detail-03",
+        "original_sha256": "151d1fcd07e1dbbd2ca47405b0afecb4d100666c3e67bdf15854f8cbee74ef96",
+        "disposition": "rewrite",
+        "beats": [
+          "prod-wiki-overlap-overlap"
+        ],
+        "reason": "Preserve every dated landmark and separate researchers’ inferences from stored incident records; overlapping dates do not establish contact. Reviewed lettering element.",
+        "target_sha256": {
+          "prod-wiki-overlap-overlap": "97892201862059c365f63fb6b5aa64a815f7432a5fcbbda2a769e50343d09120"
+        }
+      }
+    ]
+  },
+  {
+    "old_panel": "109-03",
+    "old_edition": "legacy-332b5ed63262",
+    "reviewed_on": "2026-09-13",
+    "status": "elements-reviewed",
+    "elements": [
+      {
+        "id": "legacy-109-03-detail-01",
+        "original_sha256": "e69dc09818c983264767cb938f5ffe1f666655037fb2b11e6d89ded94dac66d8",
+        "disposition": "rewrite",
+        "beats": [
+          "prod-wiki-overlap-record-end",
+          "prod-wiki-overlap-return"
+        ],
+        "reason": "Retain the held-revision boundary and later event window without asserting that all agent activity stopped or that a later burst continues the same task. Reviewed frame element.",
+        "target_sha256": {
+          "prod-wiki-overlap-record-end": "b10297e676f585491ec5d4c7a523b0738bd6f24972440d540b1e5c50fcf162d6",
+          "prod-wiki-overlap-return": "d4f7fae7b254f14235e1f071651306e7bc2703807f3c14de26252a0a7e20b347"
+        }
+      },
+      {
+        "id": "legacy-109-03-detail-02",
+        "original_sha256": "d9f6d86d7482b87180e2f887188455628d6eff2e45cac5f91cce3e2aafd38d03",
+        "disposition": "rewrite",
+        "beats": [
+          "prod-wiki-overlap-record-end"
+        ],
+        "reason": "Retain the held-revision boundary and later event window without asserting that all agent activity stopped or that a later burst continues the same task. Reviewed action element.",
+        "target_sha256": {
+          "prod-wiki-overlap-record-end": "b10297e676f585491ec5d4c7a523b0738bd6f24972440d540b1e5c50fcf162d6"
+        }
+      },
+      {
+        "id": "legacy-109-03-detail-03",
+        "original_sha256": "df90bc7bdb9aad9a1c5655ae4cd91d82f0ef32d2bb5b451cf1de8e92e07346e1",
+        "disposition": "rewrite",
+        "beats": [
+          "prod-wiki-overlap-record-end"
+        ],
+        "reason": "Retain the held-revision boundary and later event window without asserting that all agent activity stopped or that a later burst continues the same task. Reviewed lettering element.",
+        "target_sha256": {
+          "prod-wiki-overlap-record-end": "b10297e676f585491ec5d4c7a523b0738bd6f24972440d540b1e5c50fcf162d6"
+        }
+      }
+    ]
+  },
+  {
+    "old_panel": "109-04",
+    "old_edition": "legacy-332b5ed63262",
+    "reviewed_on": "2026-09-13",
+    "status": "elements-reviewed",
+    "elements": [
+      {
+        "id": "legacy-109-04-detail-01",
+        "original_sha256": "824fae58bff6ccba1dcfe151f926386e5d470c09572f217d24820787dbba4f12",
+        "disposition": "rewrite",
+        "beats": [
+          "prod-wiki-overlap-return",
+          "prod-wiki-overlap-separation",
+          "prod-wiki-overlap-questions"
+        ],
+        "reason": "Retain attribution, probable separation and counterpoints; replace invented Curt speech with narrator questions that do not establish relatedness or its absence. Reviewed frame element.",
+        "target_sha256": {
+          "prod-wiki-overlap-return": "d4f7fae7b254f14235e1f071651306e7bc2703807f3c14de26252a0a7e20b347",
+          "prod-wiki-overlap-separation": "88482e7c283d0d4ce7c5e9ecbb6dc8bfc716b043ed8b71c0c50321fb2e8848b5",
+          "prod-wiki-overlap-questions": "b21eb0c9ba4bac87975c056b674296f7e336f00394ff4918fb2043089a69306f"
+        }
+      },
+      {
+        "id": "legacy-109-04-detail-03",
+        "original_sha256": "69b0f3cefc72f8579f48c1b63dae88a9b827abb99c7dd7625aed68a3ccb0f255",
+        "disposition": "rewrite",
+        "beats": [
+          "prod-wiki-overlap-separation",
+          "prod-wiki-overlap-questions"
+        ],
+        "reason": "Retain attribution, probable separation and counterpoints; replace invented Curt speech with narrator questions that do not establish relatedness or its absence. Reviewed lettering element.",
+        "target_sha256": {
+          "prod-wiki-overlap-separation": "88482e7c283d0d4ce7c5e9ecbb6dc8bfc716b043ed8b71c0c50321fb2e8848b5",
+          "prod-wiki-overlap-questions": "b21eb0c9ba4bac87975c056b674296f7e336f00394ff4918fb2043089a69306f"
+        }
+      }
+    ]
+  },
+  {
+    "old_panel": "109-05",
+    "old_edition": "legacy-332b5ed63262",
+    "reviewed_on": "2026-09-13",
+    "status": "elements-reviewed",
+    "elements": [
+      {
+        "id": "legacy-109-05-detail-01",
+        "original_sha256": "cd0f78dd7f3bcc9d8a24181cdd04e7bfd458a4aa93101ca6e99614b0c62bc890",
+        "disposition": "rewrite",
+        "beats": [
+          "prod-wiki-overlap-census"
+        ],
+        "reason": "Preserve the census objection as project-authored draft argument; explicitly identify historical ChatGPT dialogue as scripted and do not rename it Codex. Reviewed frame element.",
+        "target_sha256": {
+          "prod-wiki-overlap-census": "f00b6f07db5b733470db02314ff2da7c85c9559bd9a83c78ab67fe829bda9ece"
+        }
+      },
+      {
+        "id": "legacy-109-05-detail-03",
+        "original_sha256": "09fc1457e6b100d9bbce98fe0e8d229402501642f48cf3eb322ab59044c706df",
+        "disposition": "rewrite",
+        "beats": [
+          "prod-wiki-overlap-census"
+        ],
+        "reason": "Preserve the census objection as project-authored draft argument; explicitly identify historical ChatGPT dialogue as scripted and do not rename it Codex. Reviewed lettering element.",
+        "target_sha256": {
+          "prod-wiki-overlap-census": "f00b6f07db5b733470db02314ff2da7c85c9559bd9a83c78ab67fe829bda9ece"
+        }
+      }
+    ]
+  },
+  {
+    "old_panel": "110-01",
+    "old_edition": "legacy-332b5ed63262",
+    "reviewed_on": "2026-09-13",
+    "status": "elements-reviewed",
+    "elements": [
+      {
+        "id": "legacy-110-01-detail-01",
+        "original_sha256": "584f4412e7d0ebded979cbb844890dff8d0ecf5799997fe89af07488914b5017",
+        "disposition": "rewrite",
+        "beats": [
+          "prod-wiki-overlap-public"
+        ],
+        "reason": "Preserve public-traces versus disclosure distinction while removing staged autobiography and exhaustive-reading claims. Reviewed frame element.",
+        "target_sha256": {
+          "prod-wiki-overlap-public": "c87ce279489857bb827ddd11699c1d225fe6717a1b7171db81dd02e35c1fda3b"
+        }
+      },
+      {
+        "id": "legacy-110-01-detail-03",
+        "original_sha256": "2f23b4ca689753686a6b1cdb0364f5dd0f69782a22322d52b3d0e5aed74204ec",
+        "disposition": "rewrite",
+        "beats": [
+          "prod-wiki-overlap-public",
+          "prod-wiki-overlap-draft"
+        ],
+        "reason": "Preserve public-traces versus disclosure distinction while removing staged autobiography and exhaustive-reading claims. Reviewed lettering element.",
+        "target_sha256": {
+          "prod-wiki-overlap-public": "c87ce279489857bb827ddd11699c1d225fe6717a1b7171db81dd02e35c1fda3b",
+          "prod-wiki-overlap-draft": "411a084ccb7428a8c18eec857c98f0622440c6c8f69bc2c6cb61f6857667d990"
+        }
+      },
+      {
+        "id": "legacy-110-01-detail-04",
+        "original_sha256": "c3ea890b4828021038ab9be3f63d713dc2dffcd0ed9d44f87b023ba56093224d",
+        "disposition": "rewrite",
+        "beats": [
+          "prod-wiki-overlap-public"
+        ],
+        "reason": "Preserve public-traces versus disclosure distinction while removing staged autobiography and exhaustive-reading claims. Reviewed lettering element.",
+        "target_sha256": {
+          "prod-wiki-overlap-public": "c87ce279489857bb827ddd11699c1d225fe6717a1b7171db81dd02e35c1fda3b"
+        }
+      }
+    ]
+  },
+  {
+    "old_panel": "110-02",
+    "old_edition": "legacy-332b5ed63262",
+    "reviewed_on": "2026-09-13",
+    "status": "elements-reviewed",
+    "elements": [
+      {
+        "id": "legacy-110-02-detail-01",
+        "original_sha256": "909e2403a8e8142282c37c3c221f6d653dad43f0be905d8035cabc6d01151e57",
+        "disposition": "rewrite",
+        "beats": [
+          "prod-wiki-overlap-disclosure"
+        ],
+        "reason": "Attribute and date the authors’ nondisclosure finding without presenting a paraphrase as source text or independently proving universal absence. Reviewed frame element.",
+        "target_sha256": {
+          "prod-wiki-overlap-disclosure": "0934e46fd297ef287b13db390af9a0a20158d415978c47b45ded1e84b609f9b1"
+        }
+      },
+      {
+        "id": "legacy-110-02-detail-03",
+        "original_sha256": "3c4152f09fb4d0a73386f4441a88d99ee8ef9eadb1da5b9e329b5099f993459e",
+        "disposition": "rewrite",
+        "beats": [
+          "prod-wiki-overlap-disclosure"
+        ],
+        "reason": "Attribute and date the authors’ nondisclosure finding without presenting a paraphrase as source text or independently proving universal absence. Reviewed lettering element.",
+        "target_sha256": {
+          "prod-wiki-overlap-disclosure": "0934e46fd297ef287b13db390af9a0a20158d415978c47b45ded1e84b609f9b1"
+        }
+      }
+    ]
+  },
+  {
+    "old_panel": "110-03",
+    "old_edition": "legacy-332b5ed63262",
+    "reviewed_on": "2026-09-13",
+    "status": "elements-reviewed",
+    "elements": [
+      {
+        "id": "legacy-110-03-detail-01",
+        "original_sha256": "fce5edc694e36747a45c1075b9fe3305e7c66d3a671ae54676532f15f767b5a5",
+        "disposition": "rewrite",
+        "beats": [
+          "prod-wiki-overlap-visits",
+          "prod-wiki-overlap-adjacency"
+        ],
+        "reason": "Preserve the dated juxtaposition and all knowledge-transfer distinctions without replay, private communication, authenticated visitor or institutional-motive claims. Reviewed frame element.",
+        "target_sha256": {
+          "prod-wiki-overlap-visits": "c289ebc7474ca032f3cd89f8c81c4a238f72e46cf362a8c967ee845cf7e37a73",
+          "prod-wiki-overlap-adjacency": "0cbd1c6d60ff37c0eb84352bddcf78a0331c8d5f484b55111b337e4dbca0d87f"
+        }
+      },
+      {
+        "id": "legacy-110-03-detail-02",
+        "original_sha256": "6d0e36330cca6cefd581ed4b79179dce116a503a5a84bed7ade7a01f8a053a9b",
+        "disposition": "rewrite",
+        "beats": [
+          "prod-wiki-overlap-adjacency"
+        ],
+        "reason": "Preserve the dated juxtaposition and all knowledge-transfer distinctions without replay, private communication, authenticated visitor or institutional-motive claims. Reviewed action element.",
+        "target_sha256": {
+          "prod-wiki-overlap-adjacency": "0cbd1c6d60ff37c0eb84352bddcf78a0331c8d5f484b55111b337e4dbca0d87f"
+        }
+      },
+      {
+        "id": "legacy-110-03-detail-03",
+        "original_sha256": "73ebe389ef6c41d6227335cd775da80053590c7b0c9aee28e5d06cc87ca5e00b",
+        "disposition": "rewrite",
+        "beats": [
+          "prod-wiki-overlap-knowledge"
+        ],
+        "reason": "Preserve the dated juxtaposition and all knowledge-transfer distinctions without replay, private communication, authenticated visitor or institutional-motive claims. Reviewed lettering element.",
+        "target_sha256": {
+          "prod-wiki-overlap-knowledge": "40f8d89d2de0ac652e23ab0e30e37c4726e41a42e7d9cbbc60c0bccabd88c57c"
+        }
+      },
+      {
+        "id": "legacy-110-03-detail-04",
+        "original_sha256": "d4d98fc708a6f165e2c0d4615e98547e954ff80659ef5da23c486be4edb59b35",
+        "disposition": "rewrite",
+        "beats": [
+          "prod-wiki-overlap-knowledge"
+        ],
+        "reason": "Preserve the dated juxtaposition and all knowledge-transfer distinctions without replay, private communication, authenticated visitor or institutional-motive claims. Reviewed lettering element.",
+        "target_sha256": {
+          "prod-wiki-overlap-knowledge": "40f8d89d2de0ac652e23ab0e30e37c4726e41a42e7d9cbbc60c0bccabd88c57c"
+        }
+      },
+      {
+        "id": "legacy-110-03-detail-05",
+        "original_sha256": "fdaff0214dc121bdc58c4088f9bec29956f3fe6579b9b630ce452ea4ce08e8bb",
+        "disposition": "rewrite",
+        "beats": [
+          "prod-wiki-overlap-knowledge"
+        ],
+        "reason": "Preserve the dated juxtaposition and all knowledge-transfer distinctions without replay, private communication, authenticated visitor or institutional-motive claims. Reviewed lettering element.",
+        "target_sha256": {
+          "prod-wiki-overlap-knowledge": "40f8d89d2de0ac652e23ab0e30e37c4726e41a42e7d9cbbc60c0bccabd88c57c"
+        }
+      }
+    ]
+  },
+  {
+    "old_panel": "110-04",
+    "old_edition": "legacy-332b5ed63262",
+    "reviewed_on": "2026-09-13",
+    "status": "elements-reviewed",
+    "elements": [
+      {
+        "id": "legacy-110-04-detail-01",
+        "original_sha256": "b5223e37b878b35b96d8f855739f723f29e7a902b0d413976599575d474a90ed",
+        "disposition": "rewrite",
+        "beats": [
+          "prod-wiki-overlap-investigation",
+          "prod-wiki-overlap-review-scope"
+        ],
+        "reason": "Retain every investigation, retention, communication, scope and disclosure question without silently answering it negatively. Reviewed frame element.",
+        "target_sha256": {
+          "prod-wiki-overlap-investigation": "4632aa1615fcb6774919f130fa9915f7e3c77a1151a1560a21674d0f6a3c55e6",
+          "prod-wiki-overlap-review-scope": "957dcaf1271d9b090b28b9515e301f0c203b216e9dc802293eb767a1d709984b"
+        }
+      },
+      {
+        "id": "legacy-110-04-detail-03",
+        "original_sha256": "6e5366bac9da4c8fa55b5a8acdc92628d0252a32a24bf6a6981bccab20d6bd3b",
+        "disposition": "rewrite",
+        "beats": [
+          "prod-wiki-overlap-investigation",
+          "prod-wiki-overlap-review-scope"
+        ],
+        "reason": "Retain every investigation, retention, communication, scope and disclosure question without silently answering it negatively. Reviewed lettering element.",
+        "target_sha256": {
+          "prod-wiki-overlap-investigation": "4632aa1615fcb6774919f130fa9915f7e3c77a1151a1560a21674d0f6a3c55e6",
+          "prod-wiki-overlap-review-scope": "957dcaf1271d9b090b28b9515e301f0c203b216e9dc802293eb767a1d709984b"
+        }
+      }
+    ]
+  },
+  {
+    "old_panel": "110-05",
+    "old_edition": "legacy-332b5ed63262",
+    "reviewed_on": "2026-09-13",
+    "status": "elements-reviewed",
+    "elements": [
+      {
+        "id": "legacy-110-05-detail-01",
+        "original_sha256": "29c417f73e93bd134a331e16e2d3b67a8d1320ebf08e441f9812af781700b905",
+        "disposition": "rewrite",
+        "beats": [
+          "prod-wiki-overlap-roles"
+        ],
+        "reason": "Retain the distinction among roles without treating silhouettes as authenticated people or a visitor’s attributed request as established knowledge. Reviewed frame element.",
+        "target_sha256": {
+          "prod-wiki-overlap-roles": "263f98d47e99efbcd254b9d591168a786cb749bfc962933cc9bf625c31e29e0c"
+        }
+      },
+      {
+        "id": "legacy-110-05-detail-03",
+        "original_sha256": "aff78147a00b46f622f7080cc761f5db8a1f68d8ab0163220edcd01892d6f82a",
+        "disposition": "rewrite",
+        "beats": [
+          "prod-wiki-overlap-roles",
+          "prod-wiki-overlap-knowledge"
+        ],
+        "reason": "Retain the distinction among roles without treating silhouettes as authenticated people or a visitor’s attributed request as established knowledge. Reviewed lettering element.",
+        "target_sha256": {
+          "prod-wiki-overlap-roles": "263f98d47e99efbcd254b9d591168a786cb749bfc962933cc9bf625c31e29e0c",
+          "prod-wiki-overlap-knowledge": "40f8d89d2de0ac652e23ab0e30e37c4726e41a42e7d9cbbc60c0bccabd88c57c"
+        }
+      }
+    ]
   }
 ]
