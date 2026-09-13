@@ -1,4 +1,14 @@
 id	url	kind	redistribution	note
+gemstuffer-status	https://status.rubygems.org/incidents/cytf062tkwtt	html	link-only	Contemporaneous status log; 12-16 May 2026; UTC timestamps
+gemstuffer-ghsa	https://github.com/rubygems/rubygems.org/security/advisories/GHSA-9j48-x3c3-mrp2	html	link-only	Maintainer advisory; published 22 Jul 2026; High 7.3 CVSS v4
+gemstuffer-report	https://www.rubyhack.ai/	html	link-only	Investigation by Kitts, Larsen and Von Arx; 11 Sep 2026; research only
+gemstuffer-socket	https://socket.dev/blog/gemstuffer	html	link-only	Joseph Edwards; 13 May 2026; contemporary package analysis
+gemstuffer-rubygems-update	https://blog.rubygems.org/2026/09/11/update-may-spam-publishing-campaign.html	html	link-only	Colby Swandale; 11 Sep 2026; maintainer response
+gemstuffer-cache-advisory	https://blog.rubygems.org/2026/07/22/security-advisory-legacy-api-key-leak.html	html	link-only	Colby Swandale; dated 22 Jul 2026; timeline says fix 9 Jul and disclosure 23 Jul
+gemstuffer-email-fix	https://github.com/rubygems/rubygems.org/pull/6486	html	link-only	Email-confirmation fix; GitHub displays merge 11 May 2026
+gemstuffer-reuters-initial	https://kfgo.com/2026/09/11/openai-agents-attacked-software-service-rubygems-before-hugging-face-incident-wsj-reports/	html	link-only	Reuters syndication; 11 Sep 2026; initial WSJ attribution chain
+gemstuffer-reuters-update	https://au.marketscreener.com/news/latest/OpenAI-agents-attacked-RubyGems-before-Hugging-Face-incident-researchers-say-11976800/	html	link-only	Reuters expanded syndication; 11 Sep dateline; OpenAI statement
+gemstuffer-cyberscoop	https://cyberscoop.com/openai-agents-malicious-rubygems-packages/	html	link-only	Derek B. Johnson; 11 Sep 2026; direct OpenAI spokesperson response
 metr-investigation	https://metr.org/blog/2026-08-26-openai-hugging-face-incident-investigation/	html	link-only	Controlling public investigation page
 metr-report	https://metr.org/hugging-face-incident-report-aug-2026.pdf	pdf	link-only	Controlling PDF for exact typography and footnotes
 openai-overview	https://openai.com/index/hugging-face-incident-and-the-road-ahead/	html	link-only	OpenAI narrative overview and interactive timeline

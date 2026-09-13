@@ -162,7 +162,7 @@
     ],
     &quot;reconstructed&quot;: false,
     &quot;shot&quot;: &quot;route&quot;,
-    &quot;source&quot;: &quot;\n**Location:**\n\n- `openai-research-infrastructure`\n- `institutional-composite`\n- `metr-review-workspace`\n- `curt-home-office`\n\n**Frame:** Some lanes pause at controls; some branch; some resume; some wait on information. None moves at the same speed.\n\n**Font:** `narration`\n\n**Caption:**\n&gt; FIVE LANES. FIVE CLOCKS.\n\n**Provenance:** `inferred`.\n\n&quot;,
+    &quot;source&quot;: &quot;\n**Location:**\n\n- `openai-research-infrastructure`\n- `institutional-composite`\n- `metr-review-workspace`\n- `curt-home-office`\n\n**Frame:** Some lanes pause at controls; some branch; some resume; some wait on information. None moves at the same speed.\n\n**Font:** `inference`\n\n**Caption:**\n&gt; FIVE LANES. FIVE CLOCKS.\n&gt; ENGINEERING FIXES, EVALUATIONS, DEFENSIVE WORK AND PUBLIC SCRUTINY DO NOT FINISH TOGETHER. THE END OF ONE OPERATIONAL INCIDENT DOES NOT CLOSE ALL THE DECISIONS IT HAS SET IN MOTION.\n\n**Provenance:** `inferred`.\n\n&quot;,
     &quot;title&quot;: &quot;Different controls produce different tempos&quot;
   }
 }

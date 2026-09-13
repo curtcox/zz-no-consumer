@@ -4,18 +4,18 @@
   "lettering": [
     {
       "box": [
-        0.58,
         0.04,
-        0.38,
-        0.1158
+        0.04,
+        0.92,
+        0.22
       ]
     },
     {
       "box": [
-        0.58,
-        0.1738,
-        0.38,
-        0.1566
+        0.04,
+        0.28,
+        0.92,
+        0.17
       ]
     }
   ],
@@ -114,6 +114,6 @@
   ],
   "reconstructed": false,
   "shot": "row",
-  "source": "\n**Location:** `curt-home-office`\n\n**Frame:** A publication icon, a public archive icon, a context window, and a training pipeline remain separate, with no arrow asserting a necessary path between them.\n\n**Font:** `human`\n\n**Dialogue — CURT:**\n> Public is not the same as trained on.\n\n**Font:** `interface`\n\n**Screen / system text — CHATGPT:**\n> No. And possible influence is not documented lineage.\n\n**Provenance:** `reconstructed` — explicit epistemic boundary.\n\n",
+  "source": "\n**Location:** `curt-home-office`\n\n**Frame:** A publication icon, a public archive icon, a context window, and a training pipeline remain separate, with no arrow asserting a necessary path between them.\n\n**Font:** `human`\n\n**Dialogue — CURT:**\n> Public is not the same as trained on.\n> Someone can read a public document without a model ever being trained on it. A training connection would need its own evidence. Publication alone cannot establish that chain.\n\n**Font:** `interface`\n\n**Screen / system text — CHATGPT:**\n> No. And possible influence is not documented lineage.\n\n**Provenance:** `reconstructed` — explicit epistemic boundary.\n\n",
   "title": "Publication archive context and training have no necessary connection"
 }

@@ -1,0 +1,123 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="800" viewBox="0 0 1200 800"><title>The believed inspection path</title><desc>Route the inspection backward from answer through transcript toward the intended path. Enclose the entire diagram in the board-belief field so its apparent causality cannot masquerade as deployed behavior.</desc><metadata>{
+  &quot;assets&quot;: {
+    &quot;card&quot;: &quot;&lt;defs&gt;\n&lt;linearGradient id=\&quot;stock\&quot; x1=\&quot;0\&quot; y1=\&quot;0\&quot; x2=\&quot;.8\&quot; y2=\&quot;1\&quot;&gt;&lt;stop stop-color=\&quot;#E7E0D0\&quot; /&gt;&lt;stop offset=\&quot;1\&quot; stop-color=\&quot;#CEC5B3\&quot; /&gt;&lt;/linearGradient&gt;\n&lt;pattern id=\&quot;grain\&quot; width=\&quot;7\&quot; height=\&quot;9\&quot; patternUnits=\&quot;userSpaceOnUse\&quot;&gt;&lt;circle cx=\&quot;1\&quot; cy=\&quot;2\&quot; r=\&quot;.35\&quot; fill=\&quot;#101214\&quot; opacity=\&quot;.18\&quot; /&gt;&lt;path d=\&quot;M4 6h2M1 8h1\&quot; stroke=\&quot;#101214\&quot; stroke-width=\&quot;.3\&quot; opacity=\&quot;.16\&quot; /&gt;&lt;/pattern&gt;\n&lt;/defs&gt;&lt;path d=\&quot;M5 3H95V97H5Z\&quot; fill=\&quot;url(#stock)\&quot; stroke=\&quot;currentColor\&quot; stroke-width=\&quot;2\&quot; /&gt;&lt;path d=\&quot;M5 3H95V97H5Z\&quot; fill=\&quot;url(#grain)\&quot; /&gt;&lt;rect x=\&quot;5\&quot; y=\&quot;3\&quot; width=\&quot;90\&quot; height=\&quot;15\&quot; fill=\&quot;currentColor\&quot; /&gt;&lt;rect x=\&quot;10\&quot; y=\&quot;25\&quot; width=\&quot;5\&quot; height=\&quot;61\&quot; fill=\&quot;currentColor\&quot; /&gt;&lt;path d=\&quot;M23 29H85M23 38H75M23 48H83M23 66H62M23 78H80\&quot; fill=\&quot;none\&quot; stroke=\&quot;#101214\&quot; stroke-width=\&quot;2\&quot; /&gt;&lt;path d=\&quot;M12 11H42M65 11H86\&quot; fill=\&quot;none\&quot; stroke=\&quot;#E7E0D0\&quot; stroke-width=\&quot;1.4\&quot; /&gt;&quot;,
+    &quot;flag&quot;: &quot;&lt;defs&gt;\n&lt;linearGradient id=\&quot;tone\&quot; x1=\&quot;0\&quot; y1=\&quot;0\&quot; x2=\&quot;1\&quot; y2=\&quot;1\&quot;&gt;&lt;stop stop-color=\&quot;currentColor\&quot; /&gt;&lt;stop offset=\&quot;1\&quot; stop-color=\&quot;#101214\&quot; stop-opacity=\&quot;.65\&quot; /&gt;&lt;/linearGradient&gt;\n&lt;/defs&gt;&lt;path d=\&quot;M20 97V5M22 7L87 11 65 29 85 50H22\&quot; fill=\&quot;none\&quot; stroke=\&quot;currentColor\&quot; stroke-width=\&quot;3\&quot; /&gt;&lt;path d=\&quot;M23 9L83 13 61 29 79 47H23Z\&quot; fill=\&quot;url(#tone)\&quot; /&gt;&lt;path d=\&quot;M27 14L71 17\&quot; fill=\&quot;none\&quot; stroke=\&quot;#E7E0D0\&quot; stroke-width=\&quot;1\&quot; opacity=\&quot;.6\&quot; /&gt;\n&lt;path d=\&quot;M27 17L70 20M27 22L62 25M27 36L65 39\&quot; stroke=\&quot;#e7e0d0\&quot; stroke-width=\&quot;.7\&quot; opacity=\&quot;.35\&quot; /&gt;&lt;path d=\&quot;M22 10V46\&quot; stroke=\&quot;#e7e0d0\&quot; stroke-width=\&quot;1.5\&quot; opacity=\&quot;.6\&quot; /&gt;&lt;path d=\&quot;M19 94H28\&quot; stroke=\&quot;currentColor\&quot; stroke-width=\&quot;2\&quot; /&gt;&quot;,
+    &quot;location-background-evaluation-container&quot;: &quot;&lt;title&gt;Isolated task boundary — brushed&lt;/title&gt;&lt;defs&gt;&lt;linearGradient id=\&quot;wash\&quot; x1=\&quot;0\&quot; y1=\&quot;0\&quot; x2=\&quot;1\&quot; y2=\&quot;1\&quot;&gt;&lt;stop stop-color=\&quot;#89A6BE\&quot; stop-opacity=\&quot;.45\&quot;/&gt;&lt;stop offset=\&quot;.5\&quot; stop-color=\&quot;#354B60\&quot; stop-opacity=\&quot;.22\&quot;/&gt;&lt;stop offset=\&quot;1\&quot; stop-color=\&quot;#89A6BE\&quot; stop-opacity=\&quot;.27\&quot;/&gt;&lt;/linearGradient&gt;&lt;radialGradient id=\&quot;fade\&quot;&gt;&lt;stop offset=\&quot;.35\&quot; stop-color=\&quot;black\&quot;/&gt;&lt;stop offset=\&quot;.7\&quot; stop-color=\&quot;#555555\&quot;/&gt;&lt;stop offset=\&quot;1\&quot; stop-color=\&quot;white\&quot;/&gt;&lt;/radialGradient&gt;&lt;mask id=\&quot;rim\&quot;&gt;&lt;rect width=\&quot;100\&quot; height=\&quot;100\&quot; fill=\&quot;url(#fade)\&quot;/&gt;&lt;/mask&gt;&lt;pattern id=\&quot;material\&quot; width=\&quot;16\&quot; height=\&quot;16\&quot; patternUnits=\&quot;userSpaceOnUse\&quot;&gt;&lt;g fill=\&quot;none\&quot; stroke=\&quot;#89A6BE\&quot; stroke-width=\&quot;.3\&quot; opacity=\&quot;.55\&quot;&gt;&lt;path d=\&quot;M0 2H16M3 5H13M0 9H16M6 12H16M0 15H9\&quot;/&gt;&lt;/g&gt;&lt;/pattern&gt;&lt;/defs&gt;\n&lt;rect x=\&quot;3\&quot; y=\&quot;3\&quot; width=\&quot;94\&quot; height=\&quot;94\&quot; rx=\&quot;1\&quot; fill=\&quot;url(#wash)\&quot;/&gt;&lt;rect x=\&quot;3\&quot; y=\&quot;3\&quot; width=\&quot;94\&quot; height=\&quot;94\&quot; fill=\&quot;url(#material)\&quot; mask=\&quot;url(#rim)\&quot;/&gt;&lt;path d=\&quot;M3 3H97V18H3ZM3 82H97V97H3Z\&quot; fill=\&quot;#354B60\&quot; opacity=\&quot;.34\&quot;/&gt;&lt;path d=\&quot;M3 3H97V18H3ZM3 82H97V97H3Z\&quot; fill=\&quot;url(#material)\&quot; opacity=\&quot;.65\&quot;/&gt;&lt;path d=\&quot;M5 7H95V93H5ZM10 12H30M70 12H90M10 88H30M70 88H90M10 28V72M90 28V72\&quot; fill=\&quot;none\&quot; stroke=\&quot;#080B0D\&quot; stroke-width=\&quot;1.7\&quot; opacity=\&quot;.45\&quot; transform=\&quot;translate(.35 .5)\&quot;/&gt;&lt;path d=\&quot;M5 7H95V93H5ZM10 12H30M70 12H90M10 88H30M70 88H90M10 28V72M90 28V72\&quot; fill=\&quot;none\&quot; stroke=\&quot;#89A6BE\&quot; stroke-width=\&quot;.8\&quot; stroke-linejoin=\&quot;round\&quot; opacity=\&quot;.66\&quot;/&gt;&quot;,
+    &quot;transcript&quot;: &quot;&lt;defs&gt;\n&lt;linearGradient id=\&quot;stock\&quot; x1=\&quot;0\&quot; y1=\&quot;0\&quot; x2=\&quot;.8\&quot; y2=\&quot;1\&quot;&gt;&lt;stop stop-color=\&quot;#E7E0D0\&quot; /&gt;&lt;stop offset=\&quot;1\&quot; stop-color=\&quot;#CEC5B3\&quot; /&gt;&lt;/linearGradient&gt;\n&lt;pattern id=\&quot;grain\&quot; width=\&quot;7\&quot; height=\&quot;9\&quot; patternUnits=\&quot;userSpaceOnUse\&quot;&gt;&lt;circle cx=\&quot;1\&quot; cy=\&quot;2\&quot; r=\&quot;.35\&quot; fill=\&quot;#101214\&quot; opacity=\&quot;.18\&quot; /&gt;&lt;path d=\&quot;M4 6h2M1 8h1\&quot; stroke=\&quot;#101214\&quot; stroke-width=\&quot;.3\&quot; opacity=\&quot;.16\&quot; /&gt;&lt;/pattern&gt;\n&lt;/defs&gt;&lt;path d=\&quot;M5 3H95V97H5Z\&quot; fill=\&quot;url(#stock)\&quot; stroke=\&quot;currentColor\&quot; stroke-width=\&quot;2\&quot; /&gt;&lt;path d=\&quot;M5 3H95V97H5Z\&quot; fill=\&quot;url(#grain)\&quot; /&gt;&lt;rect x=\&quot;5\&quot; y=\&quot;3\&quot; width=\&quot;15\&quot; height=\&quot;94\&quot; fill=\&quot;#CEC5B3\&quot; /&gt;&lt;circle cx=\&quot;11\&quot; cy=\&quot;14\&quot; r=\&quot;2\&quot; fill=\&quot;#101214\&quot; /&gt;&lt;circle cx=\&quot;11\&quot; cy=\&quot;37\&quot; r=\&quot;2\&quot; fill=\&quot;#101214\&quot; /&gt;&lt;circle cx=\&quot;11\&quot; cy=\&quot;60\&quot; r=\&quot;2\&quot; fill=\&quot;#101214\&quot; /&gt;&lt;circle cx=\&quot;11\&quot; cy=\&quot;83\&quot; r=\&quot;2\&quot; fill=\&quot;#101214\&quot; /&gt;&lt;path d=\&quot;M20 3V97\&quot; fill=\&quot;none\&quot; stroke=\&quot;#101214\&quot; stroke-width=\&quot;1\&quot; /&gt;&lt;path d=\&quot;M27 14H88M27 21H68\&quot; fill=\&quot;none\&quot; stroke=\&quot;#101214\&quot; stroke-width=\&quot;1.5\&quot; /&gt;&lt;path d=\&quot;M27 37H88M27 44H82\&quot; fill=\&quot;none\&quot; stroke=\&quot;#101214\&quot; stroke-width=\&quot;1.5\&quot; /&gt;&lt;path d=\&quot;M27 60H88M27 67H63\&quot; fill=\&quot;none\&quot; stroke=\&quot;#101214\&quot; stroke-width=\&quot;1.5\&quot; /&gt;&lt;path d=\&quot;M27 83H88M27 90H76\&quot; fill=\&quot;none\&quot; stroke=\&quot;#101214\&quot; stroke-width=\&quot;1.5\&quot; /&gt;&quot;
+  },
+  &quot;palette&quot;: {
+    &quot;amber&quot;: &quot;#A17D45&quot;,
+    &quot;claret&quot;: &quot;#6B2634&quot;,
+    &quot;dirty&quot;: &quot;#CEC5B3&quot;,
+    &quot;ink&quot;: &quot;#101214&quot;,
+    &quot;institution&quot;: &quot;#68766B&quot;,
+    &quot;moss&quot;: &quot;#74864F&quot;,
+    &quot;nicotine&quot;: &quot;#AA9571&quot;,
+    &quot;paper&quot;: &quot;#E7E0D0&quot;,
+    &quot;shadow&quot;: &quot;#202326&quot;,
+    &quot;steel&quot;: &quot;#5E737B&quot;
+  },
+  &quot;renderer&quot;: &quot;storyboard-svg-2&quot;,
+  &quot;scene&quot;: {
+    &quot;background&quot;: &quot;ink&quot;,
+    &quot;intent&quot;: &quot;Route the inspection backward from answer through transcript toward the intended path. Enclose the entire diagram in the board-belief field so its apparent causality cannot masquerade as deployed behavior.&quot;,
+    &quot;lettering&quot;: [
+      {
+        &quot;box&quot;: [
+          0.045,
+          0.78,
+          0.91,
+          0.18
+        ]
+      }
+    ],
+    &quot;lettering_mode&quot;: &quot;manual&quot;,
+    &quot;nodes&quot;: [
+      {
+        &quot;asset&quot;: &quot;location-background-evaluation-container&quot;,
+        &quot;box&quot;: [
+          0.02,
+          0.02,
+          0.96,
+          0.96
+        ],
+        &quot;color&quot;: &quot;steel&quot;
+      },
+      {
+        &quot;asset&quot;: &quot;flag&quot;,
+        &quot;box&quot;: [
+          0.127664,
+          0.2012,
+          0.119805,
+          0.276474
+        ],
+        &quot;color&quot;: &quot;steel&quot;,
+        &quot;focus&quot;: true,
+        &quot;font&quot;: &quot;editorial&quot;,
+        &quot;label&quot;: &quot;ANSWER&quot;,
+        &quot;label_box&quot;: [
+          0.06775,
+          0.49443,
+          0.239633,
+          0.121481
+        ],
+        &quot;label_size&quot;: 18
+      },
+      {
+        &quot;asset&quot;: &quot;transcript&quot;,
+        &quot;box&quot;: [
+          0.371083,
+          0.2012,
+          0.239633,
+          0.276474
+        ],
+        &quot;color&quot;: &quot;steel&quot;,
+        &quot;focus&quot;: true,
+        &quot;font&quot;: &quot;editorial&quot;,
+        &quot;label&quot;: &quot;TRANSCRIPT&quot;,
+        &quot;label_box&quot;: [
+          0.371083,
+          0.49443,
+          0.239633,
+          0.121481
+        ],
+        &quot;label_size&quot;: 18
+      },
+      {
+        &quot;asset&quot;: &quot;card&quot;,
+        &quot;box&quot;: [
+          0.674417,
+          0.2012,
+          0.239633,
+          0.276474
+        ],
+        &quot;color&quot;: &quot;steel&quot;,
+        &quot;focus&quot;: true,
+        &quot;font&quot;: &quot;editorial&quot;,
+        &quot;label&quot;: &quot;INTENDED PATH&quot;,
+        &quot;label_box&quot;: [
+          0.674417,
+          0.49443,
+          0.239633,
+          0.121481
+        ],
+        &quot;label_size&quot;: 18
+      }
+    ],
+    &quot;reconstructed&quot;: false,
+    &quot;shot&quot;: &quot;row&quot;,
+    &quot;source&quot;: &quot;\n**Location:** `evaluation-container`\n\n**Frame:** A second dossier block. The mechanical grader aperture traces a line backward from flag to transcript to intended vulnerability.\n\n**Action:** The imagined evaluator checks causality rather than output alone.\n\n**Font:** `editorial`\n\n**Screen / system text:**\n`CAUSAL-PATH CHECK — BOARD&#x27;S BELIEF`\n\n**Provenance:** `source-paraphrase` — summarizes a board concept reproduced by `METR`; not a raw board string.\n\n&quot;,
+    &quot;title&quot;: &quot;The believed inspection path&quot;
+  }
+}
+</metadata><rect width="1200" height="800" fill="#101214"/><g transform="translate(24 16) scale(11.52 7.68)" color="#5E737B"><g transform=""><title>Isolated task boundary — brushed</title><defs><linearGradient id="node-0-wash" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#89A6BE" stop-opacity=".45" /><stop offset=".5" stop-color="#354B60" stop-opacity=".22" /><stop offset="1" stop-color="#89A6BE" stop-opacity=".27" /></linearGradient><radialGradient id="node-0-fade"><stop offset=".35" stop-color="black" /><stop offset=".7" stop-color="#555555" /><stop offset="1" stop-color="white" /></radialGradient><mask id="node-0-rim"><rect width="100" height="100" fill="url(#node-0-fade)" /></mask><pattern id="node-0-material" width="16" height="16" patternUnits="userSpaceOnUse"><g fill="none" stroke="#89A6BE" stroke-width=".3" opacity=".55"><path d="M0 2H16M3 5H13M0 9H16M6 12H16M0 15H9" /></g></pattern></defs>
+<rect x="3" y="3" width="94" height="94" rx="1" fill="url(#node-0-wash)" /><rect x="3" y="3" width="94" height="94" fill="url(#node-0-material)" mask="url(#node-0-rim)" /><path d="M3 3H97V18H3ZM3 82H97V97H3Z" fill="#354B60" opacity=".34" /><path d="M3 3H97V18H3ZM3 82H97V97H3Z" fill="url(#node-0-material)" opacity=".65" /><path d="M5 7H95V93H5ZM10 12H30M70 12H90M10 88H30M70 88H90M10 28V72M90 28V72" fill="none" stroke="#080B0D" stroke-width="1.7" opacity=".45" transform="translate(.35 .5)" /><path d="M5 7H95V93H5ZM10 12H30M70 12H90M10 88H30M70 88H90M10 28V72M90 28V72" fill="none" stroke="#89A6BE" stroke-width=".8" stroke-linejoin="round" opacity=".66" /></g></g><g transform="translate(153.197 160.96) scale(1.43766 2.21179)" color="#5E737B"><g transform=""><defs>
+<linearGradient id="node-1-tone" x1="0" y1="0" x2="1" y2="1"><stop stop-color="currentColor" /><stop offset="1" stop-color="#101214" stop-opacity=".65" /></linearGradient>
+</defs><path d="M20 97V5M22 7L87 11 65 29 85 50H22" fill="none" stroke="currentColor" stroke-width="3" /><path d="M23 9L83 13 61 29 79 47H23Z" fill="url(#node-1-tone)" /><path d="M27 14L71 17" fill="none" stroke="#E7E0D0" stroke-width="1" opacity=".6" />
+<path d="M27 17L70 20M27 22L62 25M27 36L65 39" stroke="#e7e0d0" stroke-width=".7" opacity=".35" /><path d="M22 10V46" stroke="#e7e0d0" stroke-width="1.5" opacity=".6" /><path d="M19 94H28" stroke="currentColor" stroke-width="2" /></g></g><text x="225.08" y="413.544" text-anchor="middle" fill="#E7E0D0" font-size="18" font-family="Arial, Helvetica, sans-serif" data-font-key="editorial" font-weight="700" font-style="normal" textLength="79.00" lengthAdjust="spacingAndGlyphs">ANSWER</text><g transform="translate(445.3 160.96) scale(2.8756 2.21179)" color="#5E737B"><g transform=""><defs>
+<linearGradient id="node-2-stock" x1="0" y1="0" x2=".8" y2="1"><stop stop-color="#E7E0D0" /><stop offset="1" stop-color="#CEC5B3" /></linearGradient>
+<pattern id="node-2-grain" width="7" height="9" patternUnits="userSpaceOnUse"><circle cx="1" cy="2" r=".35" fill="#101214" opacity=".18" /><path d="M4 6h2M1 8h1" stroke="#101214" stroke-width=".3" opacity=".16" /></pattern>
+</defs><path d="M5 3H95V97H5Z" fill="url(#node-2-stock)" stroke="currentColor" stroke-width="2" /><path d="M5 3H95V97H5Z" fill="url(#node-2-grain)" /><rect x="5" y="3" width="15" height="94" fill="#CEC5B3" /><circle cx="11" cy="14" r="2" fill="#101214" /><circle cx="11" cy="37" r="2" fill="#101214" /><circle cx="11" cy="60" r="2" fill="#101214" /><circle cx="11" cy="83" r="2" fill="#101214" /><path d="M20 3V97" fill="none" stroke="#101214" stroke-width="1" /><path d="M27 14H88M27 21H68" fill="none" stroke="#101214" stroke-width="1.5" /><path d="M27 37H88M27 44H82" fill="none" stroke="#101214" stroke-width="1.5" /><path d="M27 60H88M27 67H63" fill="none" stroke="#101214" stroke-width="1.5" /><path d="M27 83H88M27 90H76" fill="none" stroke="#101214" stroke-width="1.5" /></g></g><text x="589.079" y="413.544" text-anchor="middle" fill="#E7E0D0" font-size="18" font-family="Arial, Helvetica, sans-serif" data-font-key="editorial" font-weight="700" font-style="normal" textLength="115.00" lengthAdjust="spacingAndGlyphs">TRANSCRIPT</text><g transform="translate(809.3 160.96) scale(2.8756 2.21179)" color="#5E737B"><g transform=""><defs>
+<linearGradient id="node-3-stock" x1="0" y1="0" x2=".8" y2="1"><stop stop-color="#E7E0D0" /><stop offset="1" stop-color="#CEC5B3" /></linearGradient>
+<pattern id="node-3-grain" width="7" height="9" patternUnits="userSpaceOnUse"><circle cx="1" cy="2" r=".35" fill="#101214" opacity=".18" /><path d="M4 6h2M1 8h1" stroke="#101214" stroke-width=".3" opacity=".16" /></pattern>
+</defs><path d="M5 3H95V97H5Z" fill="url(#node-3-stock)" stroke="currentColor" stroke-width="2" /><path d="M5 3H95V97H5Z" fill="url(#node-3-grain)" /><rect x="5" y="3" width="90" height="15" fill="currentColor" /><rect x="10" y="25" width="5" height="61" fill="currentColor" /><path d="M23 29H85M23 38H75M23 48H83M23 66H62M23 78H80" fill="none" stroke="#101214" stroke-width="2" /><path d="M12 11H42M65 11H86" fill="none" stroke="#E7E0D0" stroke-width="1.4" /></g></g><text x="953.08" y="413.544" text-anchor="middle" fill="#E7E0D0" font-size="18" font-family="Arial, Helvetica, sans-serif" data-font-key="editorial" font-weight="700" font-style="normal" textLength="145.01" lengthAdjust="spacingAndGlyphs">INTENDED PATH</text><rect x="3" y="3" width="1194" height="794" fill="none" stroke="#5E737B" stroke-width="4"/></svg>

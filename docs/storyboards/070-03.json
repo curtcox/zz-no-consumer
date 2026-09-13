@@ -89,7 +89,7 @@
         0.003
       ],
       "color": "steel",
-      "font": "editorial",
+      "font": "disclosure",
       "label": "OPENAI ACCOUNT — NOT IN METR'S REVIEW",
       "label_box": [
         0.05,
@@ -101,6 +101,6 @@
   ],
   "reconstructed": false,
   "shot": "stack",
-  "source": "\n**Location:** `documentary-evidence-field`\n\n**Frame:** Under `NOT PUBLICLY AVAILABLE FOR INDEPENDENT REVIEW`: later-run transcripts, full artifact chain, independent reconstruction of identities and causality.\n\n**Font:** `narration`\n\n**Caption:**\n> THE SUPPORTING RECORD IS NOT EQUALLY AVAILABLE.\n\n**Provenance:** `documented` + `inferred` — METR lacked access; public-record limitation stated conservatively.\n\n",
+  "source": "\n**Location:** `documentary-evidence-field`\n\n**Frame:** Under `NOT PUBLICLY AVAILABLE FOR INDEPENDENT REVIEW`: later-run transcripts, full artifact chain, independent reconstruction of identities and causality.\n\n**Font:** `uncertainty`\n\n**Caption:**\n> THE SUPPORTING RECORD IS NOT EQUALLY AVAILABLE.\n\n**Provenance:** `documented` + `inferred` — METR lacked access; public-record limitation stated conservatively.\n\n",
   "title": "Unreleased evidence remains unavailable for review"
 }

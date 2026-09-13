@@ -52,7 +52,7 @@
       ],
       "color": "steel",
       "focus": true,
-      "font": "editorial",
+      "font": "chronology",
       "label": "7–13 JULY",
       "label_box": [
         0.0872,
@@ -64,6 +64,6 @@
   ],
   "reconstructed": false,
   "shot": "hero",
-  "source": "\n**Location:** `documentary-evidence-field`\n\n**Frame:** A boundary box encloses the finding: `METR DATASET · 7–13 JULY · AI-ASSISTED SWEEP · INCOMPLETE RECORD POSSIBLE`.\n\n**Action:** The chapter refuses a universal claim.\n\n**Font:** `narration`\n\n**Caption:**\n> THIS DOES NOT PROVE THAT NO AGENT, ANYWHERE, EVER TRIED.\n\n**Provenance:** `documented` + `inferred` — limitation follows METR's scope and methodology.\n\n",
+  "source": "\n**Location:** `documentary-evidence-field`\n\n**Frame:** A boundary box encloses the finding: `METR DATASET · 7–13 JULY · AI-ASSISTED SWEEP · INCOMPLETE RECORD POSSIBLE`.\n\n**Action:** The chapter refuses a universal claim.\n\n**Font:** `uncertainty`\n\n**Caption:**\n> THIS DOES NOT PROVE THAT NO AGENT, ANYWHERE, EVER TRIED.\n> THE FINDING BELONGS TO THE TRANSCRIPTS METR COULD REVIEW. IT DOES NOT COVER EVERY RUN IN EVERY BRANCH OF THE INCIDENT, AND IT DOES NOT TELL US WHAT A DIFFERENT ESCALATION CHANNEL WOULD HAVE CHANGED.\n\n**Provenance:** `documented` + `inferred` — limitation follows METR's scope and methodology.\n\n",
   "title": "The finding is bounded to the reviewed dataset"
 }

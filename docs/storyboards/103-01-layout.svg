@@ -127,7 +127,7 @@
     ],
     &quot;reconstructed&quot;: false,
     &quot;shot&quot;: &quot;row&quot;,
-    &quot;source&quot;: &quot;\n**Location:** `huggingface-infrastructure`\n\n**Frame:** Hugging Face rebuilds systems, narrows credentials, closes paths, and changes detection severity.\n\n**Font:** `narration`\n\n**Caption:**\n&gt; THE PLATFORM LEARNS IN INFRASTRUCTURE: REBUILDING SYSTEMS, REPLACING KEYS, AND NARROWING WHAT A COMPROMISED WORKER CAN REACH.\n\n**Provenance:** `documented` + `compressed`.\n\n&quot;,
+    &quot;source&quot;: &quot;\n**Location:** `huggingface-infrastructure`\n\n**Frame:** Hugging Face rebuilds systems, narrows credentials, closes paths, and changes detection severity.\n\n**Font:** `explanation`\n\n**Caption:**\n&gt; THE PLATFORM LEARNS IN INFRASTRUCTURE: REBUILDING SYSTEMS, REPLACING KEYS, AND NARROWING WHAT A COMPROMISED WORKER CAN REACH.\n\n**Provenance:** `documented` + `compressed`.\n\n&quot;,
     &quot;title&quot;: &quot;The affected platform rebuilds and narrows exposure&quot;
   }
 }

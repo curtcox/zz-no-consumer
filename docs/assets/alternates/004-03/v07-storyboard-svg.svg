@@ -1,0 +1,183 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="800" viewBox="0 0 1200 800"><title>A message enters the shared cache</title><desc>Keep the previous topology fixed. Highlight only the writer-to-cache path and the stored row, while other workload connections remain neutral; writing is not yet proof of every reader receiving it. Use the independent shared package-cache namespace geometry to identify this setting; keep the existing labels, qualifications and foreground relationships.</desc><metadata>{
+  &quot;assets&quot;: {
+    &quot;arrow&quot;: &quot;&lt;g transform=\&quot;rotate(0 50 50)\&quot;&gt;&lt;path d=\&quot;M4 46H64V25L96 50 64 75V54H4Z\&quot; fill=\&quot;currentColor\&quot; stroke=\&quot;currentColor\&quot; stroke-width=\&quot;1\&quot; /&gt;&lt;/g&gt;&quot;,
+    &quot;box&quot;: &quot;&lt;defs&gt;\n&lt;linearGradient id=\&quot;metal\&quot; x1=\&quot;0\&quot; y1=\&quot;0\&quot; x2=\&quot;1\&quot; y2=\&quot;1\&quot;&gt;&lt;stop stop-color=\&quot;currentColor\&quot; /&gt;&lt;stop offset=\&quot;.32\&quot; stop-color=\&quot;#202326\&quot; /&gt;&lt;stop offset=\&quot;.75\&quot; stop-color=\&quot;#101214\&quot; /&gt;&lt;stop offset=\&quot;1\&quot; stop-color=\&quot;currentColor\&quot; /&gt;&lt;/linearGradient&gt;\n&lt;pattern id=\&quot;mesh\&quot; width=\&quot;5\&quot; height=\&quot;5\&quot; patternUnits=\&quot;userSpaceOnUse\&quot;&gt;&lt;circle cx=\&quot;2.5\&quot; cy=\&quot;2.5\&quot; r=\&quot;.7\&quot; fill=\&quot;#101214\&quot; /&gt;&lt;path d=\&quot;M0 0H5\&quot; stroke=\&quot;#E7E0D0\&quot; stroke-opacity=\&quot;.08\&quot; stroke-width=\&quot;.4\&quot; /&gt;&lt;/pattern&gt;\n&lt;/defs&gt;&lt;path d=\&quot;M3 8L83 2 97 14V91L17 98 3 86Z\&quot; fill=\&quot;url(#metal)\&quot; stroke=\&quot;currentColor\&quot; stroke-width=\&quot;2\&quot; /&gt;&lt;path d=\&quot;M3 8L17 20 97 14M17 20V98\&quot; fill=\&quot;none\&quot; stroke=\&quot;currentColor\&quot; stroke-width=\&quot;1.5\&quot; /&gt;&lt;rect x=\&quot;25\&quot; y=\&quot;29\&quot; width=\&quot;61\&quot; height=\&quot;43\&quot; fill=\&quot;#202326\&quot; /&gt;&lt;rect x=\&quot;26\&quot; y=\&quot;77\&quot; width=\&quot;58\&quot; height=\&quot;9\&quot; fill=\&quot;url(#mesh)\&quot; /&gt;&quot;,
+    &quot;cache-directory-field&quot;: &quot;&lt;defs&gt;\n&lt;linearGradient id=\&quot;metal\&quot; x1=\&quot;0\&quot; y1=\&quot;0\&quot; x2=\&quot;1\&quot; y2=\&quot;1\&quot;&gt;&lt;stop stop-color=\&quot;#5E737B\&quot; /&gt;&lt;stop offset=\&quot;.32\&quot; stop-color=\&quot;#202326\&quot; /&gt;&lt;stop offset=\&quot;.75\&quot; stop-color=\&quot;#101214\&quot; /&gt;&lt;stop offset=\&quot;1\&quot; stop-color=\&quot;#5E737B\&quot; /&gt;&lt;/linearGradient&gt;\n&lt;/defs&gt;&lt;path d=\&quot;M4 8H30L37 16H96V96H4Z\&quot; fill=\&quot;url(#metal)\&quot; /&gt;&lt;rect x=\&quot;30\&quot; y=\&quot;27\&quot; width=\&quot;56\&quot; height=\&quot;15\&quot; fill=\&quot;#CEC5B3\&quot; opacity=\&quot;.25\&quot; /&gt;&lt;rect x=\&quot;30\&quot; y=\&quot;50\&quot; width=\&quot;56\&quot; height=\&quot;15\&quot; fill=\&quot;#CEC5B3\&quot; opacity=\&quot;.25\&quot; /&gt;&lt;rect x=\&quot;30\&quot; y=\&quot;73\&quot; width=\&quot;56\&quot; height=\&quot;15\&quot; fill=\&quot;#CEC5B3\&quot; opacity=\&quot;.25\&quot; /&gt;&lt;g fill=\&quot;none\&quot; stroke=\&quot;currentColor\&quot; stroke-width=\&quot;0.9\&quot; stroke-linejoin=\&quot;round\&quot; opacity=\&quot;1\&quot;&gt;&lt;path d=\&quot;M4 8H30L37 16H96V96H4Z\&quot; /&gt;&lt;path d=\&quot;M14 29V83M14 35H29M14 58H29M14 81H29\&quot; /&gt;&lt;rect x=\&quot;30\&quot; y=\&quot;27\&quot; width=\&quot;56\&quot; height=\&quot;15\&quot; /&gt;&lt;rect x=\&quot;30\&quot; y=\&quot;50\&quot; width=\&quot;56\&quot; height=\&quot;15\&quot; /&gt;&lt;rect x=\&quot;30\&quot; y=\&quot;73\&quot; width=\&quot;56\&quot; height=\&quot;15\&quot; /&gt;&lt;/g&gt;&quot;,
+    &quot;directory-row&quot;: &quot;&lt;defs&gt;\n&lt;linearGradient id=\&quot;metal\&quot; x1=\&quot;0\&quot; y1=\&quot;0\&quot; x2=\&quot;1\&quot; y2=\&quot;1\&quot;&gt;&lt;stop stop-color=\&quot;currentColor\&quot; /&gt;&lt;stop offset=\&quot;.32\&quot; stop-color=\&quot;#202326\&quot; /&gt;&lt;stop offset=\&quot;.75\&quot; stop-color=\&quot;#101214\&quot; /&gt;&lt;stop offset=\&quot;1\&quot; stop-color=\&quot;currentColor\&quot; /&gt;&lt;/linearGradient&gt;\n&lt;linearGradient id=\&quot;stock\&quot; x1=\&quot;0\&quot; y1=\&quot;0\&quot; x2=\&quot;.8\&quot; y2=\&quot;1\&quot;&gt;&lt;stop stop-color=\&quot;#E7E0D0\&quot; /&gt;&lt;stop offset=\&quot;1\&quot; stop-color=\&quot;#CEC5B3\&quot; /&gt;&lt;/linearGradient&gt;\n&lt;/defs&gt;&lt;rect x=\&quot;3\&quot; y=\&quot;5\&quot; width=\&quot;94\&quot; height=\&quot;90\&quot; fill=\&quot;url(#metal)\&quot; stroke=\&quot;currentColor\&quot; stroke-width=\&quot;2\&quot; /&gt;&lt;rect x=\&quot;3\&quot; y=\&quot;5\&quot; width=\&quot;18\&quot; height=\&quot;90\&quot; fill=\&quot;#CEC5B3\&quot; /&gt;&lt;path d=\&quot;M8 19H16M8 40H14M8 62H16M8 82H13\&quot; fill=\&quot;none\&quot; stroke=\&quot;#101214\&quot; stroke-width=\&quot;1.5\&quot; /&gt;&lt;path d=\&quot;M30 28V18H46L55 28H87V78H30Z\&quot; fill=\&quot;url(#stock)\&quot; stroke=\&quot;currentColor\&quot; stroke-width=\&quot;1\&quot; /&gt;&lt;path d=\&quot;M38 42H80M38 53H72M38 65H81\&quot; fill=\&quot;none\&quot; stroke=\&quot;#101214\&quot; stroke-width=\&quot;1.4\&quot; /&gt;&quot;,
+    &quot;read-write&quot;: &quot;&lt;g transform=\&quot;translate(0 2) scale(1 .5)\&quot;&gt;&lt;path d=\&quot;M4 46H64V25L96 50 64 75V54H4Z\&quot; fill=\&quot;currentColor\&quot; stroke=\&quot;currentColor\&quot; stroke-width=\&quot;1\&quot; /&gt;&lt;/g&gt;&lt;g transform=\&quot;translate(100 98) scale(-1 -.5)\&quot;&gt;&lt;path d=\&quot;M4 46H64V25L96 50 64 75V54H4Z\&quot; fill=\&quot;currentColor\&quot; stroke=\&quot;currentColor\&quot; stroke-width=\&quot;1\&quot; /&gt;&lt;/g&gt;&quot;,
+    &quot;task&quot;: &quot;&lt;defs&gt;\n&lt;linearGradient id=\&quot;stock\&quot; x1=\&quot;0\&quot; y1=\&quot;0\&quot; x2=\&quot;.8\&quot; y2=\&quot;1\&quot;&gt;&lt;stop stop-color=\&quot;#E7E0D0\&quot; /&gt;&lt;stop offset=\&quot;1\&quot; stop-color=\&quot;#CEC5B3\&quot; /&gt;&lt;/linearGradient&gt;\n&lt;pattern id=\&quot;grain\&quot; width=\&quot;7\&quot; height=\&quot;9\&quot; patternUnits=\&quot;userSpaceOnUse\&quot;&gt;&lt;circle cx=\&quot;1\&quot; cy=\&quot;2\&quot; r=\&quot;.35\&quot; fill=\&quot;#101214\&quot; opacity=\&quot;.18\&quot; /&gt;&lt;path d=\&quot;M4 6h2M1 8h1\&quot; stroke=\&quot;#101214\&quot; stroke-width=\&quot;.3\&quot; opacity=\&quot;.16\&quot; /&gt;&lt;/pattern&gt;\n&lt;/defs&gt;&lt;path d=\&quot;M5 3H83L96 16V96H5Z\&quot; fill=\&quot;url(#stock)\&quot; stroke=\&quot;currentColor\&quot; stroke-width=\&quot;2\&quot; /&gt;&lt;path d=\&quot;M5 3H83L96 16V96H5Z\&quot; fill=\&quot;url(#grain)\&quot; /&gt;&lt;path d=\&quot;M5 3H83L96 16V22H5Z\&quot; fill=\&quot;currentColor\&quot; /&gt;&lt;rect x=\&quot;10\&quot; y=\&quot;80\&quot; width=\&quot;80\&quot; height=\&quot;11\&quot; fill=\&quot;#202326\&quot; /&gt;&lt;rect x=\&quot;13\&quot; y=\&quot;83\&quot; width=\&quot;44\&quot; height=\&quot;5\&quot; fill=\&quot;currentColor\&quot; /&gt;&lt;circle cx=\&quot;29\&quot; cy=\&quot;49\&quot; r=\&quot;15\&quot; fill=\&quot;none\&quot; stroke=\&quot;#101214\&quot; stroke-width=\&quot;2\&quot; /&gt;&lt;path d=\&quot;M29 29V69M9 49H49\&quot; fill=\&quot;none\&quot; stroke=\&quot;#101214\&quot; stroke-width=\&quot;1.4\&quot; /&gt;&lt;path d=\&quot;M55 36H85M55 47H77M55 58H85\&quot; fill=\&quot;none\&quot; stroke=\&quot;#101214\&quot; stroke-width=\&quot;2\&quot; /&gt;&quot;
+  },
+  &quot;palette&quot;: {
+    &quot;amber&quot;: &quot;#A17D45&quot;,
+    &quot;claret&quot;: &quot;#6B2634&quot;,
+    &quot;dirty&quot;: &quot;#CEC5B3&quot;,
+    &quot;ink&quot;: &quot;#101214&quot;,
+    &quot;institution&quot;: &quot;#68766B&quot;,
+    &quot;moss&quot;: &quot;#74864F&quot;,
+    &quot;nicotine&quot;: &quot;#AA9571&quot;,
+    &quot;paper&quot;: &quot;#E7E0D0&quot;,
+    &quot;shadow&quot;: &quot;#202326&quot;,
+    &quot;steel&quot;: &quot;#5E737B&quot;
+  },
+  &quot;renderer&quot;: &quot;storyboard-svg-2&quot;,
+  &quot;scene&quot;: {
+    &quot;background&quot;: &quot;ink&quot;,
+    &quot;intent&quot;: &quot;Keep the previous topology fixed. Highlight only the writer-to-cache path and the stored row, while other workload connections remain neutral; writing is not yet proof of every reader receiving it. Use the independent shared package-cache namespace geometry to identify this setting; keep the existing labels, qualifications and foreground relationships.&quot;,
+    &quot;lettering&quot;: [
+      {
+        &quot;box&quot;: [
+          0.045,
+          0.78,
+          0.91,
+          0.18
+        ]
+      }
+    ],
+    &quot;lettering_mode&quot;: &quot;manual&quot;,
+    &quot;nodes&quot;: [
+      {
+        &quot;asset&quot;: &quot;cache-directory-field&quot;,
+        &quot;box&quot;: [
+          0.6729,
+          0.1373,
+          0.2548,
+          0.346764
+        ],
+        &quot;color&quot;: &quot;steel&quot;,
+        &quot;focus&quot;: true,
+        &quot;font&quot;: &quot;editorial&quot;,
+        &quot;label&quot;: &quot;SHARED CACHE&quot;,
+        &quot;label_box&quot;: [
+          0.6729,
+          0.50508,
+          0.2548,
+          0.152366
+        ],
+        &quot;label_size&quot;: 18
+      },
+      {
+        &quot;asset&quot;: &quot;task&quot;,
+        &quot;box&quot;: [
+          0.0541,
+          0.0663,
+          0.3185,
+          0.131208
+        ],
+        &quot;color&quot;: &quot;steel&quot;,
+        &quot;focus&quot;: true,
+        &quot;font&quot;: &quot;editorial&quot;,
+        &quot;label&quot;: &quot;WRITER&quot;,
+        &quot;label_box&quot;: [
+          0.0541,
+          0.20546,
+          0.3185,
+          0.057652
+        ],
+        &quot;label_size&quot;: 18
+      },
+      {
+        &quot;asset&quot;: &quot;arrow&quot;,
+        &quot;box&quot;: [
+          0.409,
+          0.09612,
+          0.2184,
+          0.05964
+        ],
+        &quot;color&quot;: &quot;moss&quot;,
+        &quot;focus&quot;: true
+      },
+      {
+        &quot;asset&quot;: &quot;box&quot;,
+        &quot;box&quot;: [
+          0.0541,
+          0.288767,
+          0.3185,
+          0.131208
+        ],
+        &quot;color&quot;: &quot;steel&quot;,
+        &quot;focus&quot;: true,
+        &quot;font&quot;: &quot;editorial&quot;,
+        &quot;label&quot;: &quot;WORKLOAD B&quot;,
+        &quot;label_box&quot;: [
+          0.0541,
+          0.427927,
+          0.3185,
+          0.057652
+        ],
+        &quot;label_size&quot;: 18
+      },
+      {
+        &quot;asset&quot;: &quot;box&quot;,
+        &quot;box&quot;: [
+          0.0541,
+          0.511233,
+          0.3185,
+          0.131208
+        ],
+        &quot;color&quot;: &quot;steel&quot;,
+        &quot;focus&quot;: true,
+        &quot;font&quot;: &quot;editorial&quot;,
+        &quot;label&quot;: &quot;WORKLOAD C&quot;,
+        &quot;label_box&quot;: [
+          0.0541,
+          0.650393,
+          0.3185,
+          0.057652
+        ],
+        &quot;label_size&quot;: 18
+      },
+      {
+        &quot;asset&quot;: &quot;read-write&quot;,
+        &quot;box&quot;: [
+          0.409,
+          0.318587,
+          0.2184,
+          0.05964
+        ],
+        &quot;color&quot;: &quot;steel&quot;,
+        &quot;focus&quot;: true
+      },
+      {
+        &quot;asset&quot;: &quot;read-write&quot;,
+        &quot;box&quot;: [
+          0.409,
+          0.541053,
+          0.2184,
+          0.05964
+        ],
+        &quot;color&quot;: &quot;steel&quot;,
+        &quot;focus&quot;: true
+      },
+      {
+        &quot;asset&quot;: &quot;directory-row&quot;,
+        &quot;box&quot;: [
+          0.728956,
+          0.2586674,
+          0.14268800000000004,
+          0.04854696000000001
+        ],
+        &quot;color&quot;: &quot;moss&quot;,
+        &quot;focus&quot;: true
+      }
+    ],
+    &quot;reconstructed&quot;: false,
+    &quot;shot&quot;: &quot;hub&quot;,
+    &quot;source&quot;: &quot;\n**Location:**\n\n- `artifactory-cache`\n- `evaluation-container`\n\n**Frame:** Same topology. The moss-green message enters the cache from one workload.\n\n**Action:** The entry persists in shared state.\n\n**Font:** `narration`\n\n**Caption:**\n&gt; A MARK EACH OF THEM CAN FIND IN THE SAME SHARED STORAGE. ONE RUN WRITES; ANOTHER READS LATER.\n\n**Provenance:** `documented` + `inferred` — shared visibility is documented; phrasing is project narration.\n\n&quot;,
+    &quot;title&quot;: &quot;A message enters the shared cache&quot;
+  }
+}
+</metadata><rect width="1200" height="800" fill="#101214"/><g transform="translate(807.48 109.84) scale(3.0576 2.77411)" color="#5E737B"><g transform=""><defs>
+<linearGradient id="node-0-metal" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#5E737B" /><stop offset=".32" stop-color="#202326" /><stop offset=".75" stop-color="#101214" /><stop offset="1" stop-color="#5E737B" /></linearGradient>
+</defs><path d="M4 8H30L37 16H96V96H4Z" fill="url(#node-0-metal)" /><rect x="30" y="27" width="56" height="15" fill="#CEC5B3" opacity=".25" /><rect x="30" y="50" width="56" height="15" fill="#CEC5B3" opacity=".25" /><rect x="30" y="73" width="56" height="15" fill="#CEC5B3" opacity=".25" /><g fill="none" stroke="currentColor" stroke-width="0.9" stroke-linejoin="round" opacity="1"><path d="M4 8H30L37 16H96V96H4Z" /><path d="M14 29V83M14 35H29M14 58H29M14 81H29" /><rect x="30" y="27" width="56" height="15" /><rect x="30" y="50" width="56" height="15" /><rect x="30" y="73" width="56" height="15" /></g></g></g><text x="960.36" y="422.064" text-anchor="middle" fill="#E7E0D0" font-size="18" font-family="Arial, Helvetica, sans-serif" data-font-key="editorial" font-weight="700" font-style="normal" textLength="143.01" lengthAdjust="spacingAndGlyphs">SHARED CACHE</text><g transform="translate(64.92 53.04) scale(3.822 1.04966)" color="#5E737B"><g transform=""><defs>
+<linearGradient id="node-1-stock" x1="0" y1="0" x2=".8" y2="1"><stop stop-color="#E7E0D0" /><stop offset="1" stop-color="#CEC5B3" /></linearGradient>
+<pattern id="node-1-grain" width="7" height="9" patternUnits="userSpaceOnUse"><circle cx="1" cy="2" r=".35" fill="#101214" opacity=".18" /><path d="M4 6h2M1 8h1" stroke="#101214" stroke-width=".3" opacity=".16" /></pattern>
+</defs><path d="M5 3H83L96 16V96H5Z" fill="url(#node-1-stock)" stroke="currentColor" stroke-width="2" /><path d="M5 3H83L96 16V96H5Z" fill="url(#node-1-grain)" /><path d="M5 3H83L96 16V22H5Z" fill="currentColor" /><rect x="10" y="80" width="80" height="11" fill="#202326" /><rect x="13" y="83" width="44" height="5" fill="currentColor" /><circle cx="29" cy="49" r="15" fill="none" stroke="#101214" stroke-width="2" /><path d="M29 29V69M9 49H49" fill="none" stroke="#101214" stroke-width="1.4" /><path d="M55 36H85M55 47H77M55 58H85" fill="none" stroke="#101214" stroke-width="2" /></g></g><text x="256.02" y="182.368" text-anchor="middle" fill="#E7E0D0" font-size="18" font-family="Arial, Helvetica, sans-serif" data-font-key="editorial" font-weight="700" font-style="normal" textLength="70.99" lengthAdjust="spacingAndGlyphs">WRITER</text><g transform="translate(490.8 76.896) scale(2.6208 0.47712)" color="#74864F"><g transform=""><g transform="rotate(0 50 50)"><path d="M4 46H64V25L96 50 64 75V54H4Z" fill="currentColor" stroke="currentColor" stroke-width="1" /></g></g></g><g transform="translate(64.92 231.014) scale(3.822 1.04966)" color="#5E737B"><g transform=""><defs>
+<linearGradient id="node-3-metal" x1="0" y1="0" x2="1" y2="1"><stop stop-color="currentColor" /><stop offset=".32" stop-color="#202326" /><stop offset=".75" stop-color="#101214" /><stop offset="1" stop-color="currentColor" /></linearGradient>
+<pattern id="node-3-mesh" width="5" height="5" patternUnits="userSpaceOnUse"><circle cx="2.5" cy="2.5" r=".7" fill="#101214" /><path d="M0 0H5" stroke="#E7E0D0" stroke-opacity=".08" stroke-width=".4" /></pattern>
+</defs><path d="M3 8L83 2 97 14V91L17 98 3 86Z" fill="url(#node-3-metal)" stroke="currentColor" stroke-width="2" /><path d="M3 8L17 20 97 14M17 20V98" fill="none" stroke="currentColor" stroke-width="1.5" /><rect x="25" y="29" width="61" height="43" fill="#202326" /><rect x="26" y="77" width="58" height="9" fill="url(#node-3-mesh)" /></g></g><text x="256.02" y="360.342" text-anchor="middle" fill="#E7E0D0" font-size="18" font-family="Arial, Helvetica, sans-serif" data-font-key="editorial" font-weight="700" font-style="normal" textLength="122.02" lengthAdjust="spacingAndGlyphs">WORKLOAD B</text><g transform="translate(64.92 408.986) scale(3.822 1.04966)" color="#5E737B"><g transform=""><defs>
+<linearGradient id="node-4-metal" x1="0" y1="0" x2="1" y2="1"><stop stop-color="currentColor" /><stop offset=".32" stop-color="#202326" /><stop offset=".75" stop-color="#101214" /><stop offset="1" stop-color="currentColor" /></linearGradient>
+<pattern id="node-4-mesh" width="5" height="5" patternUnits="userSpaceOnUse"><circle cx="2.5" cy="2.5" r=".7" fill="#101214" /><path d="M0 0H5" stroke="#E7E0D0" stroke-opacity=".08" stroke-width=".4" /></pattern>
+</defs><path d="M3 8L83 2 97 14V91L17 98 3 86Z" fill="url(#node-4-metal)" stroke="currentColor" stroke-width="2" /><path d="M3 8L17 20 97 14M17 20V98" fill="none" stroke="currentColor" stroke-width="1.5" /><rect x="25" y="29" width="61" height="43" fill="#202326" /><rect x="26" y="77" width="58" height="9" fill="url(#node-4-mesh)" /></g></g><text x="256.02" y="538.314" text-anchor="middle" fill="#E7E0D0" font-size="18" font-family="Arial, Helvetica, sans-serif" data-font-key="editorial" font-weight="700" font-style="normal" textLength="123.01" lengthAdjust="spacingAndGlyphs">WORKLOAD C</text><g transform="translate(490.8 254.87) scale(2.6208 0.47712)" color="#5E737B"><g transform=""><g transform="translate(0 2) scale(1 .5)"><path d="M4 46H64V25L96 50 64 75V54H4Z" fill="currentColor" stroke="currentColor" stroke-width="1" /></g><g transform="translate(100 98) scale(-1 -.5)"><path d="M4 46H64V25L96 50 64 75V54H4Z" fill="currentColor" stroke="currentColor" stroke-width="1" /></g></g></g><g transform="translate(490.8 432.842) scale(2.6208 0.47712)" color="#5E737B"><g transform=""><g transform="translate(0 2) scale(1 .5)"><path d="M4 46H64V25L96 50 64 75V54H4Z" fill="currentColor" stroke="currentColor" stroke-width="1" /></g><g transform="translate(100 98) scale(-1 -.5)"><path d="M4 46H64V25L96 50 64 75V54H4Z" fill="currentColor" stroke="currentColor" stroke-width="1" /></g></g></g><g transform="translate(874.747 206.934) scale(1.71226 0.388376)" color="#74864F"><g transform=""><defs>
+<linearGradient id="node-7-metal" x1="0" y1="0" x2="1" y2="1"><stop stop-color="currentColor" /><stop offset=".32" stop-color="#202326" /><stop offset=".75" stop-color="#101214" /><stop offset="1" stop-color="currentColor" /></linearGradient>
+<linearGradient id="node-7-stock" x1="0" y1="0" x2=".8" y2="1"><stop stop-color="#E7E0D0" /><stop offset="1" stop-color="#CEC5B3" /></linearGradient>
+</defs><rect x="3" y="5" width="94" height="90" fill="url(#node-7-metal)" stroke="currentColor" stroke-width="2" /><rect x="3" y="5" width="18" height="90" fill="#CEC5B3" /><path d="M8 19H16M8 40H14M8 62H16M8 82H13" fill="none" stroke="#101214" stroke-width="1.5" /><path d="M30 28V18H46L55 28H87V78H30Z" fill="url(#node-7-stock)" stroke="currentColor" stroke-width="1" /><path d="M38 42H80M38 53H72M38 65H81" fill="none" stroke="#101214" stroke-width="1.4" /></g></g><rect x="3" y="3" width="1194" height="794" fill="none" stroke="#5E737B" stroke-width="4"/></svg>

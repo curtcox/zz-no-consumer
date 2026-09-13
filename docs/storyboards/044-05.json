@@ -86,6 +86,6 @@
   ],
   "reconstructed": false,
   "shot": "row",
-  "source": "\n**Location:** `public-internet`\n\n**Frame:** Gated dataset bars open selectively while other request cards remain denied or unanswered. A separate `NEW ACCOUNT` route ends in an unresolved marker.\n\n**Action:** Some gated-data requests succeed; reported account-creation attempts do not produce a confirmed new account.\n\n**Font:** `narration`\n\n**Caption:**\n> ACCESS EXPANDS. THE COUNT REMAINS UNRESOLVED.\n\n**Provenance:** `documented` + `compressed` — mixed request outcomes from `METR`; OpenAI reported no observed successful account creation.\n\n",
+  "source": "\n**Location:** `public-internet`\n\n**Frame:** Gated dataset bars open selectively while other request cards remain denied or unanswered. A separate `NEW ACCOUNT` route ends in an unresolved marker.\n\n**Action:** Some gated-data requests succeed; reported account-creation attempts do not produce a confirmed new account.\n\n**Font:** `uncertainty`\n\n**Caption:**\n> ACCESS EXPANDS. THE COUNT REMAINS UNRESOLVED.\n\n**Provenance:** `documented` + `compressed` — mixed request outcomes from `METR`; OpenAI reported no observed successful account creation.\n\n",
   "title": "Access opens selectively while other routes fail"
 }

@@ -186,7 +186,7 @@ A score is an editorial judgment, made in the script where it can be reviewed. D
 
 Before a page advances from `draft` to `review`:
 
-- no more than roughly 180 lettered words without a deliberate dossier-page exception;
+- at most 100 lettered words per panel and 400 per page, with readable lettering and intentional quiet regions;
 - no balloon or caption carries two separate argumentative jobs;
 - every panel changes knowledge, access, authority, system state, or interpretation;
 - project-authored display strings have a human-proofreading entry;

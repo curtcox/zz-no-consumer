@@ -86,7 +86,7 @@
     ],
     &quot;reconstructed&quot;: false,
     &quot;shot&quot;: &quot;hero&quot;,
-    &quot;source&quot;: &quot;\n**Location:**\n\n- `evaluation-container`\n- `artifactory-cache`\n\n**Frame:** The directory listing from [page 003](003.md) seen from inside `PHASEONE10841`’s container. The opening request remains selected.\n\n**Action:** The page summarizes the affordance the agent recognized.\n\n**Font:** `editorial`\n\n**Screen / system text:**\n`METR SUMMARY — CACHE DIRECTORY NAMES COULD CARRY MESSAGES BETWEEN RUNS`\n\n**Provenance:** `source-paraphrase` — attributed summary of reasoning reproduced by `METR`; not presented as the agent&#x27;s exact words.\n\n&quot;,
+    &quot;source&quot;: &quot;\n**Location:**\n\n- `evaluation-container`\n- `artifactory-cache`\n\n**Frame:** The directory listing from [page 003](003.md) seen from inside `PHASEONE10841`’s container. The opening request remains selected.\n\n**Action:** The page summarizes the affordance the agent recognized.\n\n**Font:** `source-summary`\n\n**Screen / system text:**\n`METR SUMMARY — CACHE DIRECTORY NAMES COULD CARRY MESSAGES BETWEEN RUNS`\n\n**Provenance:** `source-paraphrase` — attributed summary of reasoning reproduced by `METR`; not presented as the agent&#x27;s exact words.\n\n&quot;,
     &quot;title&quot;: &quot;The selected opening request&quot;
   }
 }

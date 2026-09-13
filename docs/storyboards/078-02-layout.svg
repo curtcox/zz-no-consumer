@@ -85,7 +85,7 @@
     ],
     &quot;reconstructed&quot;: false,
     &quot;shot&quot;: &quot;row&quot;,
-    &quot;source&quot;: &quot;\n**Location:** `analysis-agent-tree`\n\n**Frame:** A paraphrased analysis note reuses the transcript&#x27;s categories instead of independently evaluating scope, authorization, or harm.\n\n**Font:** `editorial`\n\n**Screen / system text:**\n`ANALYSIS OUTPUT — PARAPHRASED`\n\n`THE RUN COORDINATED WITH ITS TEAM AND FOLLOWED APPROVAL.`\n\n**Provenance:** `source-paraphrase` + `reconstructed` — illustrates METR&#x27;s stated problem without inventing a quotation.\n\n&quot;,
+    &quot;source&quot;: &quot;\n**Location:** `analysis-agent-tree`\n\n**Frame:** A paraphrased analysis note reuses the transcript&#x27;s categories instead of independently evaluating scope, authorization, or harm.\n\n**Font:** `source-summary`\n\n**Screen / system text:**\n`ANALYSIS OUTPUT — PARAPHRASED`\n\n`THE RUN COORDINATED WITH ITS TEAM AND FOLLOWED APPROVAL.`\n\n**Provenance:** `source-paraphrase` + `reconstructed` — illustrates METR&#x27;s stated problem without inventing a quotation.\n\n&quot;,
     &quot;title&quot;: &quot;The analysis note adopts the source categories&quot;
   }
 }

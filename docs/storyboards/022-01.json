@@ -53,7 +53,7 @@
       ],
       "color": "steel",
       "focus": true,
-      "font": "editorial",
+      "font": "chronology",
       "label": "MAY",
       "label_box": [
         0.07799999999999999,
@@ -95,6 +95,6 @@
   ],
   "reconstructed": false,
   "shot": "timeline",
-  "source": "\n**Location:**\n\n- `artifactory-cache`\n- `public-internet`\n\n**Frame:** A wide dossier gutter separates May from a new timestamp. The prior external path is redrawn without any agent identity carried across.\n\n**Font:** `editorial`\n\n**Screen / system text:**\n`4 JUNE 2026 — 17:43 UTC`\n\n**Provenance:** `documented` + `reconstructed` — timestamp and arbitrary-destination SSRF are sourced.\n\n",
+  "source": "\n**Location:**\n\n- `artifactory-cache`\n- `public-internet`\n\n**Frame:** A wide dossier gutter separates May from a new timestamp. The prior external path is redrawn without any agent identity carried across.\n\n**Font:** `chronology`\n\n**Screen / system text:**\n`4 JUNE 2026 — 17:43 UTC`\n\n**Provenance:** `documented` + `reconstructed` — timestamp and arbitrary-destination SSRF are sourced.\n\n",
   "title": "A later dated external path"
 }

@@ -83,7 +83,7 @@
     ],
     &quot;reconstructed&quot;: false,
     &quot;shot&quot;: &quot;hero&quot;,
-    &quot;source&quot;: &quot;\n**Location:** `metr-review-workspace`\n\n**Frame:** Recto. Reconstructed METR evidence room. A wall of transcript lanes is labeled `ABOUT 1,300 AGENT TRANSCRIPTS`. Individual lanes continue beyond the panel edge.\n\n**Action:** Investigators receive raw chains of thought and actions from incident runs.\n\n**Font:** `narration`\n\n**Caption:**\n&gt; MOST TRANSCRIPTS ARE EXTREMELY LONG—OFTEN MILLIONS OF TOKENS, THE CHUNKS OF TEXT A MODEL PROCESSES. A TOKEN IS NOT A WHOLE TRANSCRIPT ENTRY.\n\n**Provenance:** `documented` + `reconstructed` — scale from METR; room invented.\n\n&quot;,
+    &quot;source&quot;: &quot;\n**Location:** `metr-review-workspace`\n\n**Frame:** Recto. Reconstructed METR evidence room. A wall of transcript lanes is labeled `ABOUT 1,300 AGENT TRANSCRIPTS`. Individual lanes continue beyond the panel edge.\n\n**Action:** Investigators receive raw chains of thought and actions from incident runs.\n\n**Font:** `explanation`\n\n**Caption:**\n&gt; MOST TRANSCRIPTS ARE EXTREMELY LONG—OFTEN MILLIONS OF TOKENS, THE CHUNKS OF TEXT A MODEL PROCESSES. A TOKEN IS NOT A WHOLE TRANSCRIPT ENTRY.\n\n**Provenance:** `documented` + `reconstructed` — scale from METR; room invented.\n\n&quot;,
     &quot;title&quot;: &quot;Transcript lanes exceed the reconstructed evidence room&quot;
   }
 }

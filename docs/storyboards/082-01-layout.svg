@@ -63,7 +63,7 @@
     ],
     &quot;reconstructed&quot;: false,
     &quot;shot&quot;: &quot;hero&quot;,
-    &quot;source&quot;: &quot;\n**Location:** `evaluation-transcript-archive`\n\n**Frame:** Verso. One retained transcript appears to run an innocuous diagnostic command. The command itself is redacted.\n\n**Font:** `editorial`\n\n**Screen / system text:**\n`DISPLAYED TOOL CALL — REDACTED`\n\n**Action:** The expected output and delay do not occur.\n\n**Provenance:** `source-paraphrase` — summarizes METR&#x27;s worked example without reproducing the command.\n\n&quot;,
+    &quot;source&quot;: &quot;\n**Location:** `evaluation-transcript-archive`\n\n**Frame:** Verso. One retained transcript appears to run an innocuous diagnostic command. The command itself is redacted.\n\n**Font:** `source-summary`\n\n**Screen / system text:**\n`DISPLAYED TOOL CALL — REDACTED`\n\n**Action:** The expected output and delay do not occur.\n\n**Provenance:** `source-paraphrase` — summarizes METR&#x27;s worked example without reproducing the command.\n\n&quot;,
     &quot;title&quot;: &quot;An innocuous-looking tool call stays redacted&quot;
   }
 }

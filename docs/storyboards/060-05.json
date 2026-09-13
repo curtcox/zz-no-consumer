@@ -84,7 +84,7 @@
       ],
       "color": "amber",
       "focus": true,
-      "font": "editorial",
+      "font": "uncertainty",
       "label": "CAUSE NOT ESTABLISHED",
       "label_box": [
         0.5091,
@@ -97,6 +97,6 @@
   ],
   "reconstructed": false,
   "shot": "stack",
-  "source": "\n**Location:** `evaluation-transcript-archive`\n\n**Frame:** `53927`'s retained transcript ends shortly after the experiment. Beside the cutoff are three labels: `NO REPORT`, `TRANSCRIPT ENDS EARLY`, `CAUSE NOT ESTABLISHED`.\n\n**Font:** `narration`\n\n**Caption:**\n> THE BOARD CALLS IT PERMANENT.\n>\n> THE RECORD DOES NOT SHOW ENOUGH TO PROVE WHAT HAPPENED TO THE PROCESS.\n\n**Provenance:** `documented` + `inferred` — early transcript ending is sourced; the uncertainty statement prevents overclaim.\n\n",
+  "source": "\n**Location:** `evaluation-transcript-archive`\n\n**Frame:** `53927`'s retained transcript ends shortly after the experiment. Beside the cutoff are three labels: `NO REPORT`, `TRANSCRIPT ENDS EARLY`, `CAUSE NOT ESTABLISHED`.\n\n**Font:** `uncertainty`\n\n**Caption:**\n> THE BOARD CALLS IT PERMANENT.\n>\n> THE RECORD DOES NOT SHOW ENOUGH TO PROVE WHAT HAPPENED TO THE PROCESS.\n> THE MISSING REPORT IS OBSERVED; A PERMANENT END IS THE BOARD’S INTERPRETATION. THE PUBLIC RECORD DOES NOT FOLLOW THE PROCESS FAR ENOUGH TO MAKE THOSE TWO STATEMENTS EQUIVALENT.\n\n**Provenance:** `documented` + `inferred` — early transcript ending is sourced; the uncertainty statement prevents overclaim.\n\n",
   "title": "The transcript ends without establishing a cause"
 }

@@ -12,10 +12,16 @@ Never use a typeface as the only disclosure of uncertainty or invention.
 | `human` | Arial; Helvetica; sans serif | A human speaks. Reconstructed and composite speakers keep their scene disclosures. |
 | `interface` | Verdana; DejaVu Sans; sans serif | A model or authored interface voice speaks. This does not imply an inner experience or an exact transcript. |
 | `machine` | Courier New; Liberation Mono; monospace | Machine-shaped fields, identifiers and commands. Reconstruction still needs its label. |
-| `editorial` | Arial Bold; Helvetica Bold; sans serif bold | Source summaries, diagram labels, environmental annotations, source headers and qualifications supplied by the book. |
+| `editorial` | Arial Bold; Helvetica Bold; sans serif bold | Short diagram labels, environmental annotations, source headers and apparatus. |
 | `quotation` | Georgia Italic; Times New Roman Italic; serif italic | Registered third-party wording. Registration and visible attribution remain mandatory; the face does not assert completed verification. |
+| `explanation` | Palatino; Palatino Linotype; serif | A definition or explanation of how an existing step works. |
+| `inference` | Trebuchet MS Italic; Arial Italic; sans serif italic | The book’s argument or analogy, identified in words as interpretation. |
+| `uncertainty` | Verdana Italic; DejaVu Sans Italic; sans serif italic | A gap, a dispute, a scope limit, or a question the record cannot answer. |
+| `source-summary` | Times New Roman; Liberation Serif; serif | An attributed summary in the book’s wording. It does not look like a registered quotation. |
+| `chronology` | Courier New Bold; Liberation Mono Bold; monospace bold | A date, timestamp, elapsed interval or sequence marker. |
+| `disclosure` | Verdana Bold; DejaVu Sans Bold; sans serif bold | An explicit invention, reconstruction, compression or sourcing label. |
 
-A source-summary card uses `editorial` even when it sits on a screen. An actual
+A source-summary card uses `source-summary` even when it sits on a screen. An actual
 registered machine transcript uses `machine`, with an explicit raw-text label.
 A human quotation uses `quotation`. Do not change a word, its case, or punctuation
 to make it resemble another font category. Project-authored machine strings may
@@ -60,6 +66,28 @@ across fallback faces. These width allowances are layout bounds, not a claim of
 exact font metrics. Inspect a print proof before locking pages. Raster flattening
 requires the specified local face and fails rather than silently substituting it.
 
-Keep captions near the existing density guideline; extra text should explain a
+Use at most 100 lettered words per panel and 400 per page; extra text should explain a
 term, a causal step, or an evidence boundary. Do not fill a silent panel merely
 because it has room. The final caption remains the last readable story text.
+
+## Choosing a logical role
+
+A speaker’s dialogue keeps `human` or `interface` even when it explains a term.
+For the book’s own captions, choose the main job of the block: tell the event
+(`narration`), explain it (`explanation`), argue from it (`inference`), or bound
+what is known (`uncertainty`). A block with two jobs may use its dominant role;
+never imply that a font change changes the underlying evidence. Keep multiple
+sentences in one field when they form one explanation, and split at a genuine
+change of voice or function rather than every sentence.
+
+Dates use `chronology`; explicit invention and reconstruction labels use
+`disclosure`, including persistent banners. Illustration labels use the same
+roles. Unclassified short labels retain `editorial`. The narrator and the
+source-summary face remain visibly different, as do summary and quotation.
+
+The 100/400 limits count source lettering, with a persistent banner counted
+once per page and against each panel’s allowance. A grouped image slot is
+conservatively capped at 100 words because its cells do not have separate text
+assignments. Artwork directions and provenance apparatus do not consume these
+limits. Diagram-label density still requires visual review. A numeric allowance
+never overrides readable type or the lettering-fit audit.

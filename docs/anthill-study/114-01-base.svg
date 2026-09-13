@@ -213,7 +213,7 @@
         ],
         &quot;color&quot;: &quot;steel&quot;,
         &quot;focus&quot;: true,
-        &quot;font&quot;: &quot;editorial&quot;,
+        &quot;font&quot;: &quot;chronology&quot;,
         &quot;label&quot;: &quot;9 SEPTEMBER 2026 — TITLE REVISION&quot;,
         &quot;label_box&quot;: [
           0.44,
@@ -256,4 +256,4 @@
 </defs><path d="M10 10L90 90M90 10L10 90" stroke="url(#node-12-tone)" stroke-width="9" /></g></g><g transform="translate(600 456) scale(3 0.72)" color="#5E737B"><g transform=""><defs>
 <linearGradient id="node-13-stock" x1="0" y1="0" x2=".8" y2="1"><stop stop-color="#E7E0D0" /><stop offset="1" stop-color="#CEC5B3" /></linearGradient>
 <pattern id="node-13-grain" width="7" height="9" patternUnits="userSpaceOnUse"><circle cx="1" cy="2" r=".35" fill="#101214" opacity=".18" /><path d="M4 6h2M1 8h1" stroke="#101214" stroke-width=".3" opacity=".16" /></pattern>
-</defs><path d="M5 3H95V97H5Z" fill="url(#node-13-stock)" stroke="currentColor" stroke-width="2" /><path d="M5 3H95V97H5Z" fill="url(#node-13-grain)" /><rect x="5" y="3" width="90" height="15" fill="currentColor" /><rect x="10" y="25" width="5" height="61" fill="currentColor" /><path d="M23 29H85M23 38H75M23 48H83M23 66H62M23 78H80" fill="none" stroke="#101214" stroke-width="2" /><path d="M12 11H42M65 11H86" fill="none" stroke="#E7E0D0" stroke-width="1.4" /></g></g><text x="732" y="564" text-anchor="middle" fill="#E7E0D0" font-size="20" font-family="Arial, Helvetica, sans-serif" data-font-key="editorial" font-weight="700" font-style="normal" textLength="376.80" lengthAdjust="spacingAndGlyphs">9 SEPTEMBER 2026 — TITLE REVISION</text><rect x="3" y="3" width="1194" height="794" fill="none" stroke="#5E737B" stroke-width="4" stroke-dasharray="18 10"/></svg>
+</defs><path d="M5 3H95V97H5Z" fill="url(#node-13-stock)" stroke="currentColor" stroke-width="2" /><path d="M5 3H95V97H5Z" fill="url(#node-13-grain)" /><rect x="5" y="3" width="90" height="15" fill="currentColor" /><rect x="10" y="25" width="5" height="61" fill="currentColor" /><path d="M23 29H85M23 38H75M23 48H83M23 66H62M23 78H80" fill="none" stroke="#101214" stroke-width="2" /><path d="M12 11H42M65 11H86" fill="none" stroke="#E7E0D0" stroke-width="1.4" /></g></g><text x="732" y="564" text-anchor="middle" fill="#E7E0D0" font-size="20" font-family="'Courier New', 'Liberation Mono', monospace" data-font-key="chronology" font-weight="700" font-style="normal" textLength="376.80" lengthAdjust="spacingAndGlyphs">9 SEPTEMBER 2026 — TITLE REVISION</text><rect x="3" y="3" width="1194" height="794" fill="none" stroke="#5E737B" stroke-width="4" stroke-dasharray="18 10"/></svg>

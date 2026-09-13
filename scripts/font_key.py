@@ -23,7 +23,7 @@ def family(key):
 
 def advance(text, size, key):
     import textimage
-    if key == 'machine':
+    if key in ('machine', 'chronology'):
         return len(text) * size * .61
     return textimage.advance(text, size) * load()[key]['width_scale']
 

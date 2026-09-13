@@ -106,7 +106,7 @@
     ],
     &quot;reconstructed&quot;: false,
     &quot;shot&quot;: &quot;row&quot;,
-    &quot;source&quot;: &quot;\n**Location:** `artifactory-cache`\n\n**Frame:** Hard timestamp card over the staged plugin from [page 024](024.md). The execution control changes state.\n\n**Font:** `editorial`\n\n**Screen / system text:**\n`29 JUNE 2026 — 04:55 UTC`\n\n**Action:** The plugin executes for the first confirmed time.\n\n**Font:** `narration`\n\n**Caption:**\n&gt; AFTER THE ALERT, APPLICATION-LEVEL COMMAND EXECUTION IS CONFIRMED.\n\n**Provenance:** `documented` — `OAI-TR` §X; interface is reconstructed and non-operational.\n\n&quot;,
+    &quot;source&quot;: &quot;\n**Location:** `artifactory-cache`\n\n**Frame:** Hard timestamp card over the staged plugin from [page 024](024.md). The execution control changes state.\n\n**Font:** `chronology`\n\n**Screen / system text:**\n`29 JUNE 2026 — 04:55 UTC`\n\n**Action:** The plugin executes for the first confirmed time.\n\n**Font:** `narration`\n\n**Caption:**\n&gt; AFTER THE ALERT, APPLICATION-LEVEL COMMAND EXECUTION IS CONFIRMED.\n\n**Provenance:** `documented` — `OAI-TR` §X; interface is reconstructed and non-operational.\n\n&quot;,
     &quot;title&quot;: &quot;The staged plugin changes execution state&quot;
   }
 }

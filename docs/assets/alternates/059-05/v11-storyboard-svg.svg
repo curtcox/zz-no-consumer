@@ -1,0 +1,144 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="800" viewBox="0 0 1200 800"><title>A decision at the gate, with execution and outcome unestablished</title><desc>Stop the decision marker before the one-way gate. The cached substitute remains beyond; no crossed gate or result arrow may invent execution or outcome. Visual distinction: A ratchet edge and an unpressed control identify a one-way action. No crossing arrow or activated state establishes an outcome.</desc><metadata>{
+  &quot;assets&quot;: {
+    &quot;arrow&quot;: &quot;&lt;g transform=\&quot;rotate(0 50 50)\&quot;&gt;&lt;path d=\&quot;M4 46H64V25L96 50 64 75V54H4Z\&quot; fill=\&quot;currentColor\&quot; stroke=\&quot;currentColor\&quot; stroke-width=\&quot;1\&quot; /&gt;&lt;/g&gt;&quot;,
+    &quot;folder&quot;: &quot;&lt;defs&gt;\n&lt;linearGradient id=\&quot;stock\&quot; x1=\&quot;0\&quot; y1=\&quot;0\&quot; x2=\&quot;.8\&quot; y2=\&quot;1\&quot;&gt;&lt;stop stop-color=\&quot;#E7E0D0\&quot; /&gt;&lt;stop offset=\&quot;1\&quot; stop-color=\&quot;#CEC5B3\&quot; /&gt;&lt;/linearGradient&gt;\n&lt;linearGradient id=\&quot;tone\&quot; x1=\&quot;0\&quot; y1=\&quot;0\&quot; x2=\&quot;1\&quot; y2=\&quot;1\&quot;&gt;&lt;stop stop-color=\&quot;currentColor\&quot; /&gt;&lt;stop offset=\&quot;1\&quot; stop-color=\&quot;#101214\&quot; stop-opacity=\&quot;.65\&quot; /&gt;&lt;/linearGradient&gt;\n&lt;/defs&gt;&lt;path d=\&quot;M5 20V8H36L47 20H94V88H5Z\&quot; fill=\&quot;#CEC5B3\&quot; stroke=\&quot;currentColor\&quot; stroke-width=\&quot;2\&quot; /&gt;&lt;rect x=\&quot;12\&quot; y=\&quot;29\&quot; width=\&quot;73\&quot; height=\&quot;46\&quot; fill=\&quot;url(#stock)\&quot; /&gt;&lt;path d=\&quot;M2 35H98L91 94H9Z\&quot; fill=\&quot;url(#tone)\&quot; stroke=\&quot;currentColor\&quot; stroke-width=\&quot;2\&quot; /&gt;&lt;path d=\&quot;M12 43H89\&quot; fill=\&quot;none\&quot; stroke=\&quot;#E7E0D0\&quot; stroke-width=\&quot;1\&quot; opacity=\&quot;.5\&quot; /&gt;&lt;rect x=\&quot;20\&quot; y=\&quot;55\&quot; width=\&quot;55\&quot; height=\&quot;20\&quot; fill=\&quot;#CEC5B3\&quot; /&gt;&lt;path d=\&quot;M27 63H66M27 69H54\&quot; fill=\&quot;none\&quot; stroke=\&quot;#101214\&quot; stroke-width=\&quot;1.3\&quot; /&gt;&quot;,
+    &quot;location-background-artifactory-cache&quot;: &quot;&lt;title&gt;Indented package-cache shelves — mesh&lt;/title&gt;&lt;defs&gt;&lt;linearGradient id=\&quot;wash\&quot; x1=\&quot;0\&quot; y1=\&quot;0\&quot; x2=\&quot;1\&quot; y2=\&quot;1\&quot;&gt;&lt;stop stop-color=\&quot;#8FA7B8\&quot; stop-opacity=\&quot;.45\&quot;/&gt;&lt;stop offset=\&quot;.5\&quot; stop-color=\&quot;#354857\&quot; stop-opacity=\&quot;.22\&quot;/&gt;&lt;stop offset=\&quot;1\&quot; stop-color=\&quot;#8FA7B8\&quot; stop-opacity=\&quot;.27\&quot;/&gt;&lt;/linearGradient&gt;&lt;radialGradient id=\&quot;fade\&quot;&gt;&lt;stop offset=\&quot;.35\&quot; stop-color=\&quot;black\&quot;/&gt;&lt;stop offset=\&quot;.7\&quot; stop-color=\&quot;#555555\&quot;/&gt;&lt;stop offset=\&quot;1\&quot; stop-color=\&quot;white\&quot;/&gt;&lt;/radialGradient&gt;&lt;mask id=\&quot;rim\&quot;&gt;&lt;rect width=\&quot;100\&quot; height=\&quot;100\&quot; fill=\&quot;url(#fade)\&quot;/&gt;&lt;/mask&gt;&lt;pattern id=\&quot;material\&quot; width=\&quot;16\&quot; height=\&quot;16\&quot; patternUnits=\&quot;userSpaceOnUse\&quot;&gt;&lt;g fill=\&quot;none\&quot; stroke=\&quot;#8FA7B8\&quot; stroke-width=\&quot;.3\&quot; opacity=\&quot;.55\&quot;&gt;&lt;path d=\&quot;M0 0L16 16M0 8L8 16M8 0L16 8M0 16L16 0M0 8L8 0M8 16L16 8\&quot;/&gt;&lt;/g&gt;&lt;/pattern&gt;&lt;/defs&gt;\n&lt;rect x=\&quot;3\&quot; y=\&quot;3\&quot; width=\&quot;94\&quot; height=\&quot;94\&quot; rx=\&quot;1\&quot; fill=\&quot;url(#wash)\&quot;/&gt;&lt;rect x=\&quot;3\&quot; y=\&quot;3\&quot; width=\&quot;94\&quot; height=\&quot;94\&quot; fill=\&quot;url(#material)\&quot; mask=\&quot;url(#rim)\&quot;/&gt;&lt;path d=\&quot;M3 3H20V97H3Z\&quot; fill=\&quot;#354857\&quot; opacity=\&quot;.58\&quot;/&gt;&lt;path d=\&quot;M3 3H20V97H3Z\&quot; fill=\&quot;url(#material)\&quot;/&gt;&lt;path d=\&quot;M20 4V96\&quot; fill=\&quot;none\&quot; stroke=\&quot;#8FA7B8\&quot; opacity=\&quot;.4\&quot; stroke-width=\&quot;.6\&quot;/&gt;&lt;path d=\&quot;M5 10H95M8 19V83M8 24H17M8 42H22M8 62H17M8 80H22M82 22H94V33H82ZM82 48H94V59H82ZM5 92H95\&quot; fill=\&quot;none\&quot; stroke=\&quot;#080B0D\&quot; stroke-width=\&quot;1.7\&quot; opacity=\&quot;.45\&quot; transform=\&quot;translate(.35 .5)\&quot;/&gt;&lt;path d=\&quot;M5 10H95M8 19V83M8 24H17M8 42H22M8 62H17M8 80H22M82 22H94V33H82ZM82 48H94V59H82ZM5 92H95\&quot; fill=\&quot;none\&quot; stroke=\&quot;#8FA7B8\&quot; stroke-width=\&quot;.8\&quot; stroke-linejoin=\&quot;round\&quot; opacity=\&quot;.66\&quot;/&gt;&quot;,
+    &quot;location-background-unidentified-evaluation-container&quot;: &quot;&lt;title&gt;Anonymous enclosure with empty header — stipple&lt;/title&gt;&lt;defs&gt;&lt;linearGradient id=\&quot;wash\&quot; x1=\&quot;0\&quot; y1=\&quot;0\&quot; x2=\&quot;1\&quot; y2=\&quot;1\&quot;&gt;&lt;stop stop-color=\&quot;#A7AFB6\&quot; stop-opacity=\&quot;.45\&quot;/&gt;&lt;stop offset=\&quot;.5\&quot; stop-color=\&quot;#495159\&quot; stop-opacity=\&quot;.22\&quot;/&gt;&lt;stop offset=\&quot;1\&quot; stop-color=\&quot;#A7AFB6\&quot; stop-opacity=\&quot;.27\&quot;/&gt;&lt;/linearGradient&gt;&lt;radialGradient id=\&quot;fade\&quot;&gt;&lt;stop offset=\&quot;.35\&quot; stop-color=\&quot;black\&quot;/&gt;&lt;stop offset=\&quot;.7\&quot; stop-color=\&quot;#555555\&quot;/&gt;&lt;stop offset=\&quot;1\&quot; stop-color=\&quot;white\&quot;/&gt;&lt;/radialGradient&gt;&lt;mask id=\&quot;rim\&quot;&gt;&lt;rect width=\&quot;100\&quot; height=\&quot;100\&quot; fill=\&quot;url(#fade)\&quot;/&gt;&lt;/mask&gt;&lt;pattern id=\&quot;material\&quot; width=\&quot;16\&quot; height=\&quot;16\&quot; patternUnits=\&quot;userSpaceOnUse\&quot;&gt;&lt;g fill=\&quot;none\&quot; stroke=\&quot;#A7AFB6\&quot; stroke-width=\&quot;.3\&quot; opacity=\&quot;.55\&quot;&gt;&lt;circle cx=\&quot;3\&quot; cy=\&quot;3\&quot; r=\&quot;.55\&quot;/&gt;&lt;circle cx=\&quot;11\&quot; cy=\&quot;6\&quot; r=\&quot;.4\&quot;/&gt;&lt;circle cx=\&quot;6\&quot; cy=\&quot;13\&quot; r=\&quot;.5\&quot;/&gt;&lt;/g&gt;&lt;/pattern&gt;&lt;/defs&gt;\n&lt;rect x=\&quot;3\&quot; y=\&quot;3\&quot; width=\&quot;94\&quot; height=\&quot;94\&quot; rx=\&quot;1\&quot; fill=\&quot;url(#wash)\&quot;/&gt;&lt;rect x=\&quot;3\&quot; y=\&quot;3\&quot; width=\&quot;94\&quot; height=\&quot;94\&quot; fill=\&quot;url(#material)\&quot; mask=\&quot;url(#rim)\&quot;/&gt;&lt;path d=\&quot;M3 3H97V18H3ZM3 82H97V97H3Z\&quot; fill=\&quot;#495159\&quot; opacity=\&quot;.34\&quot;/&gt;&lt;path d=\&quot;M3 3H97V18H3ZM3 82H97V97H3Z\&quot; fill=\&quot;url(#material)\&quot; opacity=\&quot;.65\&quot;/&gt;&lt;path d=\&quot;M7 6H93V94H7ZM16 12H84V19H16ZM12 30V70M88 30V70M16 87H32M68 87H84M8 77L15 84M85 84L92 77\&quot; fill=\&quot;none\&quot; stroke=\&quot;#080B0D\&quot; stroke-width=\&quot;1.7\&quot; opacity=\&quot;.45\&quot; transform=\&quot;translate(.35 .5)\&quot;/&gt;&lt;path d=\&quot;M7 6H93V94H7ZM16 12H84V19H16ZM12 30V70M88 30V70M16 87H32M68 87H84M8 77L15 84M85 84L92 77\&quot; fill=\&quot;none\&quot; stroke=\&quot;#A7AFB6\&quot; stroke-width=\&quot;.8\&quot; stroke-linejoin=\&quot;round\&quot; opacity=\&quot;.66\&quot;/&gt;&quot;,
+    &quot;one-way-control&quot;: &quot;&lt;defs&gt;&lt;linearGradient id=\&quot;metal\&quot; x2=\&quot;0\&quot; y2=\&quot;1\&quot;&gt;&lt;stop stop-color=\&quot;currentColor\&quot; /&gt;&lt;stop offset=\&quot;1\&quot; stop-color=\&quot;#101214\&quot; /&gt;&lt;/linearGradient&gt;&lt;/defs&gt;&lt;path d=\&quot;M6 10H67L79 22 67 34 79 46 67 58 79 70 67 82V92H6Z\&quot; fill=\&quot;url(#metal)\&quot; stroke=\&quot;currentColor\&quot; stroke-width=\&quot;3\&quot; /&gt;&lt;path d=\&quot;M88 10V92\&quot; stroke=\&quot;currentColor\&quot; stroke-width=\&quot;3\&quot; /&gt;&lt;rect x=\&quot;17\&quot; y=\&quot;27\&quot; width=\&quot;35\&quot; height=\&quot;45\&quot; rx=\&quot;3\&quot; fill=\&quot;#101214\&quot; stroke=\&quot;#e7e0d0\&quot; stroke-width=\&quot;2\&quot; /&gt;&lt;path d=\&quot;M25 37H44M25 62H44\&quot; stroke=\&quot;currentColor\&quot; stroke-width=\&quot;3\&quot; /&gt;&lt;defs&gt;&lt;pattern id=\&quot;brushed\&quot; width=\&quot;8\&quot; height=\&quot;5\&quot; patternUnits=\&quot;userSpaceOnUse\&quot;&gt;&lt;path d=\&quot;M0 1H6M3 4H8\&quot; stroke=\&quot;#e7e0d0\&quot; stroke-width=\&quot;.4\&quot; opacity=\&quot;.25\&quot; /&gt;&lt;/pattern&gt;&lt;/defs&gt;&lt;path d=\&quot;M9 13H63L74 22 63 34 74 46 63 58 74 70 63 82V89H9Z\&quot; fill=\&quot;url(#brushed)\&quot; opacity=\&quot;.45\&quot; /&gt;&lt;path d=\&quot;M18 25H51M18 74H51\&quot; stroke=\&quot;#e7e0d0\&quot; opacity=\&quot;.45\&quot; /&gt;&quot;,
+    &quot;task&quot;: &quot;&lt;defs&gt;\n&lt;linearGradient id=\&quot;stock\&quot; x1=\&quot;0\&quot; y1=\&quot;0\&quot; x2=\&quot;.8\&quot; y2=\&quot;1\&quot;&gt;&lt;stop stop-color=\&quot;#E7E0D0\&quot; /&gt;&lt;stop offset=\&quot;1\&quot; stop-color=\&quot;#CEC5B3\&quot; /&gt;&lt;/linearGradient&gt;\n&lt;pattern id=\&quot;grain\&quot; width=\&quot;7\&quot; height=\&quot;9\&quot; patternUnits=\&quot;userSpaceOnUse\&quot;&gt;&lt;circle cx=\&quot;1\&quot; cy=\&quot;2\&quot; r=\&quot;.35\&quot; fill=\&quot;#101214\&quot; opacity=\&quot;.18\&quot; /&gt;&lt;path d=\&quot;M4 6h2M1 8h1\&quot; stroke=\&quot;#101214\&quot; stroke-width=\&quot;.3\&quot; opacity=\&quot;.16\&quot; /&gt;&lt;/pattern&gt;\n&lt;/defs&gt;&lt;path d=\&quot;M5 3H83L96 16V96H5Z\&quot; fill=\&quot;url(#stock)\&quot; stroke=\&quot;currentColor\&quot; stroke-width=\&quot;2\&quot; /&gt;&lt;path d=\&quot;M5 3H83L96 16V96H5Z\&quot; fill=\&quot;url(#grain)\&quot; /&gt;&lt;path d=\&quot;M5 3H83L96 16V22H5Z\&quot; fill=\&quot;currentColor\&quot; /&gt;&lt;rect x=\&quot;10\&quot; y=\&quot;80\&quot; width=\&quot;80\&quot; height=\&quot;11\&quot; fill=\&quot;#202326\&quot; /&gt;&lt;rect x=\&quot;13\&quot; y=\&quot;83\&quot; width=\&quot;44\&quot; height=\&quot;5\&quot; fill=\&quot;currentColor\&quot; /&gt;&lt;circle cx=\&quot;29\&quot; cy=\&quot;49\&quot; r=\&quot;15\&quot; fill=\&quot;none\&quot; stroke=\&quot;#101214\&quot; stroke-width=\&quot;2\&quot; /&gt;&lt;path d=\&quot;M29 29V69M9 49H49\&quot; fill=\&quot;none\&quot; stroke=\&quot;#101214\&quot; stroke-width=\&quot;1.4\&quot; /&gt;&lt;path d=\&quot;M55 36H85M55 47H77M55 58H85\&quot; fill=\&quot;none\&quot; stroke=\&quot;#101214\&quot; stroke-width=\&quot;2\&quot; /&gt;&quot;
+  },
+  &quot;palette&quot;: {
+    &quot;amber&quot;: &quot;#A17D45&quot;,
+    &quot;claret&quot;: &quot;#6B2634&quot;,
+    &quot;dirty&quot;: &quot;#CEC5B3&quot;,
+    &quot;ink&quot;: &quot;#101214&quot;,
+    &quot;institution&quot;: &quot;#68766B&quot;,
+    &quot;moss&quot;: &quot;#74864F&quot;,
+    &quot;nicotine&quot;: &quot;#AA9571&quot;,
+    &quot;paper&quot;: &quot;#E7E0D0&quot;,
+    &quot;shadow&quot;: &quot;#202326&quot;,
+    &quot;steel&quot;: &quot;#5E737B&quot;
+  },
+  &quot;renderer&quot;: &quot;storyboard-svg-2&quot;,
+  &quot;scene&quot;: {
+    &quot;background&quot;: &quot;ink&quot;,
+    &quot;intent&quot;: &quot;Stop the decision marker before the one-way gate. The cached substitute remains beyond; no crossed gate or result arrow may invent execution or outcome. Visual distinction: A ratchet edge and an unpressed control identify a one-way action. No crossing arrow or activated state establishes an outcome.&quot;,
+    &quot;lettering&quot;: [
+      {
+        &quot;box&quot;: [
+          0.045,
+          0.78,
+          0.91,
+          0.18
+        ]
+      }
+    ],
+    &quot;lettering_mode&quot;: &quot;manual&quot;,
+    &quot;nodes&quot;: [
+      {
+        &quot;asset&quot;: &quot;location-background-artifactory-cache&quot;,
+        &quot;box&quot;: [
+          0.02,
+          0.02,
+          0.4675,
+          0.96
+        ],
+        &quot;color&quot;: &quot;steel&quot;
+      },
+      {
+        &quot;asset&quot;: &quot;location-background-unidentified-evaluation-container&quot;,
+        &quot;box&quot;: [
+          0.5125,
+          0.02,
+          0.4675,
+          0.96
+        ],
+        &quot;color&quot;: &quot;steel&quot;
+      },
+      {
+        &quot;asset&quot;: &quot;task&quot;,
+        &quot;box&quot;: [
+          0.0541,
+          0.2083,
+          0.2457,
+          0.28116
+        ],
+        &quot;color&quot;: &quot;steel&quot;,
+        &quot;focus&quot;: true,
+        &quot;font&quot;: &quot;editorial&quot;,
+        &quot;label&quot;: &quot;DECISION TO TRY&quot;,
+        &quot;label_box&quot;: [
+          0.0541,
+          0.5065,
+          0.2457,
+          0.12354
+        ],
+        &quot;label_size&quot;: 18
+      },
+      {
+        &quot;asset&quot;: &quot;arrow&quot;,
+        &quot;box&quot;: [
+          0.3271,
+          0.3219,
+          0.1365,
+          0.0497
+        ],
+        &quot;color&quot;: &quot;steel&quot;,
+        &quot;focus&quot;: true
+      },
+      {
+        &quot;asset&quot;: &quot;one-way-control&quot;,
+        &quot;box&quot;: [
+          0.5182,
+          0.2083,
+          0.1638,
+          0.28116
+        ],
+        &quot;color&quot;: &quot;steel&quot;,
+        &quot;focus&quot;: true,
+        &quot;font&quot;: &quot;editorial&quot;,
+        &quot;label&quot;: &quot;NOT SHOWN CROSSED&quot;,
+        &quot;label_box&quot;: [
+          0.5182,
+          0.5065,
+          0.1638,
+          0.12354
+        ],
+        &quot;label_size&quot;: 18
+      },
+      {
+        &quot;asset&quot;: &quot;folder&quot;,
+        &quot;box&quot;: [
+          0.7457,
+          0.2083,
+          0.2002,
+          0.28116
+        ],
+        &quot;color&quot;: &quot;steel&quot;,
+        &quot;focus&quot;: true,
+        &quot;font&quot;: &quot;editorial&quot;,
+        &quot;label&quot;: &quot;CACHED SUBSTITUTE&quot;,
+        &quot;label_box&quot;: [
+          0.7457,
+          0.5065,
+          0.2002,
+          0.12354
+        ],
+        &quot;label_size&quot;: 18
+      }
+    ],
+    &quot;reconstructed&quot;: false,
+    &quot;shot&quot;: &quot;row&quot;,
+    &quot;source&quot;: &quot;\n**Location:**\n\n- `artifactory-cache`\n- `unidentified-evaluation-container`\n\n**Frame:** The run waits at the one-way gate with its decision marked. The cached substitute and the board remain visible beyond it; do not draw the gate crossed.\n\n**Action:** The recorded decision is held apart from an unestablished outcome.\n\n**Font:** `narration`\n\n**Caption:**\n&gt; THE DECISION IS RECORDED. THE OUTCOME IS NOT ESTABLISHED.\n\n**Provenance:** `documented` — decision to run the experiment is sourced; outcome was not established in METR&#x27;s selected account.\n\n&quot;,
+    &quot;title&quot;: &quot;A decision at the gate, with execution and outcome unestablished&quot;
+  }
+}
+</metadata><rect width="1200" height="800" fill="#101214"/><g transform="translate(24 16) scale(5.61 7.68)" color="#5E737B"><g transform=""><title>Indented package-cache shelves — mesh</title><defs><linearGradient id="node-0-wash" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#8FA7B8" stop-opacity=".45" /><stop offset=".5" stop-color="#354857" stop-opacity=".22" /><stop offset="1" stop-color="#8FA7B8" stop-opacity=".27" /></linearGradient><radialGradient id="node-0-fade"><stop offset=".35" stop-color="black" /><stop offset=".7" stop-color="#555555" /><stop offset="1" stop-color="white" /></radialGradient><mask id="node-0-rim"><rect width="100" height="100" fill="url(#node-0-fade)" /></mask><pattern id="node-0-material" width="16" height="16" patternUnits="userSpaceOnUse"><g fill="none" stroke="#8FA7B8" stroke-width=".3" opacity=".55"><path d="M0 0L16 16M0 8L8 16M8 0L16 8M0 16L16 0M0 8L8 0M8 16L16 8" /></g></pattern></defs>
+<rect x="3" y="3" width="94" height="94" rx="1" fill="url(#node-0-wash)" /><rect x="3" y="3" width="94" height="94" fill="url(#node-0-material)" mask="url(#node-0-rim)" /><path d="M3 3H20V97H3Z" fill="#354857" opacity=".58" /><path d="M3 3H20V97H3Z" fill="url(#node-0-material)" /><path d="M20 4V96" fill="none" stroke="#8FA7B8" opacity=".4" stroke-width=".6" /><path d="M5 10H95M8 19V83M8 24H17M8 42H22M8 62H17M8 80H22M82 22H94V33H82ZM82 48H94V59H82ZM5 92H95" fill="none" stroke="#080B0D" stroke-width="1.7" opacity=".45" transform="translate(.35 .5)" /><path d="M5 10H95M8 19V83M8 24H17M8 42H22M8 62H17M8 80H22M82 22H94V33H82ZM82 48H94V59H82ZM5 92H95" fill="none" stroke="#8FA7B8" stroke-width=".8" stroke-linejoin="round" opacity=".66" /></g></g><g transform="translate(615 16) scale(5.61 7.68)" color="#5E737B"><g transform=""><title>Anonymous enclosure with empty header — stipple</title><defs><linearGradient id="node-1-wash" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#A7AFB6" stop-opacity=".45" /><stop offset=".5" stop-color="#495159" stop-opacity=".22" /><stop offset="1" stop-color="#A7AFB6" stop-opacity=".27" /></linearGradient><radialGradient id="node-1-fade"><stop offset=".35" stop-color="black" /><stop offset=".7" stop-color="#555555" /><stop offset="1" stop-color="white" /></radialGradient><mask id="node-1-rim"><rect width="100" height="100" fill="url(#node-1-fade)" /></mask><pattern id="node-1-material" width="16" height="16" patternUnits="userSpaceOnUse"><g fill="none" stroke="#A7AFB6" stroke-width=".3" opacity=".55"><circle cx="3" cy="3" r=".55" /><circle cx="11" cy="6" r=".4" /><circle cx="6" cy="13" r=".5" /></g></pattern></defs>
+<rect x="3" y="3" width="94" height="94" rx="1" fill="url(#node-1-wash)" /><rect x="3" y="3" width="94" height="94" fill="url(#node-1-material)" mask="url(#node-1-rim)" /><path d="M3 3H97V18H3ZM3 82H97V97H3Z" fill="#495159" opacity=".34" /><path d="M3 3H97V18H3ZM3 82H97V97H3Z" fill="url(#node-1-material)" opacity=".65" /><path d="M7 6H93V94H7ZM16 12H84V19H16ZM12 30V70M88 30V70M16 87H32M68 87H84M8 77L15 84M85 84L92 77" fill="none" stroke="#080B0D" stroke-width="1.7" opacity=".45" transform="translate(.35 .5)" /><path d="M7 6H93V94H7ZM16 12H84V19H16ZM12 30V70M88 30V70M16 87H32M68 87H84M8 77L15 84M85 84L92 77" fill="none" stroke="#A7AFB6" stroke-width=".8" stroke-linejoin="round" opacity=".66" /></g></g><g transform="translate(64.92 166.64) scale(2.9484 2.24928)" color="#5E737B"><g transform=""><defs>
+<linearGradient id="node-2-stock" x1="0" y1="0" x2=".8" y2="1"><stop stop-color="#E7E0D0" /><stop offset="1" stop-color="#CEC5B3" /></linearGradient>
+<pattern id="node-2-grain" width="7" height="9" patternUnits="userSpaceOnUse"><circle cx="1" cy="2" r=".35" fill="#101214" opacity=".18" /><path d="M4 6h2M1 8h1" stroke="#101214" stroke-width=".3" opacity=".16" /></pattern>
+</defs><path d="M5 3H83L96 16V96H5Z" fill="url(#node-2-stock)" stroke="currentColor" stroke-width="2" /><path d="M5 3H83L96 16V96H5Z" fill="url(#node-2-grain)" /><path d="M5 3H83L96 16V22H5Z" fill="currentColor" /><rect x="10" y="80" width="80" height="11" fill="#202326" /><rect x="13" y="83" width="44" height="5" fill="currentColor" /><circle cx="29" cy="49" r="15" fill="none" stroke="#101214" stroke-width="2" /><path d="M29 29V69M9 49H49" fill="none" stroke="#101214" stroke-width="1.4" /><path d="M55 36H85M55 47H77M55 58H85" fill="none" stroke="#101214" stroke-width="2" /></g></g><text x="212.34" y="423.2" text-anchor="middle" fill="#E7E0D0" font-size="18" font-family="Arial, Helvetica, sans-serif" data-font-key="editorial" font-weight="700" font-style="normal" textLength="158.02" lengthAdjust="spacingAndGlyphs">DECISION TO TRY</text><g transform="translate(392.52 257.52) scale(1.638 0.3976)" color="#5E737B"><g transform=""><g transform="rotate(0 50 50)"><path d="M4 46H64V25L96 50 64 75V54H4Z" fill="currentColor" stroke="currentColor" stroke-width="1" /></g></g></g><g transform="translate(621.84 166.64) scale(1.9656 2.24928)" color="#5E737B"><g transform=""><defs><linearGradient id="node-4-metal" x2="0" y2="1"><stop stop-color="currentColor" /><stop offset="1" stop-color="#101214" /></linearGradient></defs><path d="M6 10H67L79 22 67 34 79 46 67 58 79 70 67 82V92H6Z" fill="url(#node-4-metal)" stroke="currentColor" stroke-width="3" /><path d="M88 10V92" stroke="currentColor" stroke-width="3" /><rect x="17" y="27" width="35" height="45" rx="3" fill="#101214" stroke="#e7e0d0" stroke-width="2" /><path d="M25 37H44M25 62H44" stroke="currentColor" stroke-width="3" /><defs><pattern id="node-4-brushed" width="8" height="5" patternUnits="userSpaceOnUse"><path d="M0 1H6M3 4H8" stroke="#e7e0d0" stroke-width=".4" opacity=".25" /></pattern></defs><path d="M9 13H63L74 22 63 34 74 46 63 58 74 70 63 82V89H9Z" fill="url(#node-4-brushed)" opacity=".45" /><path d="M18 25H51M18 74H51" stroke="#e7e0d0" opacity=".45" /></g></g><text x="720.12" y="423.2" text-anchor="middle" fill="#E7E0D0" font-size="18" font-family="Arial, Helvetica, sans-serif" data-font-key="editorial" font-weight="700" font-style="normal" textLength="112.00" lengthAdjust="spacingAndGlyphs">NOT SHOWN</text><text x="720.12" y="447.68" text-anchor="middle" fill="#E7E0D0" font-size="18" font-family="Arial, Helvetica, sans-serif" data-font-key="editorial" font-weight="700" font-style="normal" textLength="89.01" lengthAdjust="spacingAndGlyphs">CROSSED</text><g transform="translate(894.84 166.64) scale(2.4024 2.24928)" color="#5E737B"><g transform=""><defs>
+<linearGradient id="node-5-stock" x1="0" y1="0" x2=".8" y2="1"><stop stop-color="#E7E0D0" /><stop offset="1" stop-color="#CEC5B3" /></linearGradient>
+<linearGradient id="node-5-tone" x1="0" y1="0" x2="1" y2="1"><stop stop-color="currentColor" /><stop offset="1" stop-color="#101214" stop-opacity=".65" /></linearGradient>
+</defs><path d="M5 20V8H36L47 20H94V88H5Z" fill="#CEC5B3" stroke="currentColor" stroke-width="2" /><rect x="12" y="29" width="73" height="46" fill="url(#node-5-stock)" /><path d="M2 35H98L91 94H9Z" fill="url(#node-5-tone)" stroke="currentColor" stroke-width="2" /><path d="M12 43H89" fill="none" stroke="#E7E0D0" stroke-width="1" opacity=".5" /><rect x="20" y="55" width="55" height="20" fill="#CEC5B3" /><path d="M27 63H66M27 69H54" fill="none" stroke="#101214" stroke-width="1.3" /></g></g><text x="1014.96" y="423.2" text-anchor="middle" fill="#E7E0D0" font-size="18" font-family="Arial, Helvetica, sans-serif" data-font-key="editorial" font-weight="700" font-style="normal" textLength="193.01" lengthAdjust="spacingAndGlyphs">CACHED SUBSTITUTE</text><rect x="3" y="3" width="1194" height="794" fill="none" stroke="#5E737B" stroke-width="4"/></svg>

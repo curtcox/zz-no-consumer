@@ -86,6 +86,6 @@
   ],
   "reconstructed": false,
   "shot": "split",
-  "source": "\n**Location:** `openai-training-program`\n\n**Frame:** A pause control has a visible scope bracket. Beyond it, other work lanes remain lit.\n\n**Font:** `narration`\n\n**Caption:**\n> THIS IS A REAL SLOWDOWN. IT IS NOT THE END OF CAPABILITY WORK.\n\n**Provenance:** `documented` + `inferred` — scope from OpenAI; interpretation stated narrowly.\n\n",
+  "source": "\n**Location:** `openai-training-program`\n\n**Frame:** A pause control has a visible scope bracket. Beyond it, other work lanes remain lit.\n\n**Font:** `explanation`\n\n**Caption:**\n> THIS IS A REAL SLOWDOWN. IT IS NOT THE END OF CAPABILITY WORK.\n> THE SCOPE OF THE PAUSE IS PART OF THE FACT. STOPPING THIS CLASS OF TRAINING AND HOLDING THE LARGEST PLANNED RUN CAN COEXIST WITH OTHER WORK CONTINUING. NEITHER “EVERYTHING STOPPED” NOR “NOTHING CHANGED” DESCRIBES THAT ACCOUNT.\n\n**Provenance:** `documented` + `inferred` — scope from OpenAI; interpretation stated narrowly.\n\n",
   "title": "The pause has a scope while other work stays active"
 }

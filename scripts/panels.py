@@ -90,7 +90,9 @@ GRAMMAR_BAND = (1, 9)
 # design/lettering-slots.md places lettering in four anchored corner slots per panel.
 SLOTS_PER_PANEL = 4
 # scripts/make-thumbnails.py has always flagged a page over this as dense.
-DENSE_PAGE_WORDS = 180
+MAX_PANEL_WORDS = 100
+MAX_PAGE_WORDS = 400
+DENSE_PAGE_WORDS = MAX_PAGE_WORDS
 
 
 # ---------------------------------------------------------------------------
@@ -1266,11 +1268,49 @@ def check_reference_classification() -> None:
     assert rewrite_prose("`045-03`", path, move).text == "`045-03`"
 
 
+def word_limit_errors(scripts):
+    """Independent source-lettering ceilings, not an equal division of page space.
+
+    A grouped image is conservatively checked as one panel because its text has
+    no per-cell attribution. Banners count once on the page and in each panel.
+    """
+    errors = []
+    for script in scripts.values():
+        banner = re.search(r"^## Persistent banner\n(.*?)(?=^## |\Z)", script.text, re.M | re.S)
+        banner_words = sum(len(WORD.findall(t)) for t in visible_text(banner[0])) if banner else 0
+        if script.words > MAX_PAGE_WORDS:
+            errors.append(f"{script.id}: {script.words} words exceeds page maximum {MAX_PAGE_WORDS}")
+        counts = [(section.index, section.words + banner_words) for section in script.sections]
+        if script.grouped and not counts:
+            counts = [(1, script.words)]
+        for index, words in counts:
+            if words > MAX_PANEL_WORDS:
+                errors.append(f"{script.id}-{index:02d}: {words} words exceeds panel maximum {MAX_PANEL_WORDS}")
+    return errors
+
+
+def check_word_limits():
+    def fixture(counts):
+        return split_page(1, "".join(f"## Panel {i}\n**Caption:**\n> " + "word " * n + "\n" for i, n in enumerate(counts, 1)))
+    assert not word_limit_errors({1: fixture([100] * 4)})
+    banner = fixture([100])
+    banner = split_page(1, '## Persistent banner\n`INVENTED`\n' + banner.text)
+    assert any('panel maximum' in e for e in word_limit_errors({1: banner}))
+    group = split_page(1, '## Panels 1–9\n**Caption:**\n> ' + 'word ' * 101)
+    assert any('panel maximum' in e for e in word_limit_errors({1: group}))
+    assert any('panel maximum' in e for e in word_limit_errors({1: fixture([101])}))
+    assert any('page maximum' in e for e in word_limit_errors({1: fixture([81] * 5)}))
+
+
 def cmd_check(scripts: dict[int, PageScript], sites: list[Site], strict: bool) -> int:
     check_reference_classification()
+    check_word_limits()
+    limits = word_limit_errors(scripts)
+    for error in limits:
+        print("Error: " + error)
     notes = audit(scripts, sites)
     counts = print_notes(notes)
-    blocking = counts["error"] + (counts["warning"] if strict else 0)
+    blocking = len(limits) + counts["error"] + (counts["warning"] if strict else 0)
     if blocking:
         print(f"\nPanel check failed: {blocking} blocking findings.")
         return 1

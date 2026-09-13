@@ -19,14 +19,14 @@ No panel may require the reader to parse decorative terminal output before findi
 
 - Set incident narration in compact uppercase with generous tracking.
 - Use dirty off-white caption boxes with charcoal lettering; reverse to light text on black only for major conceptual beats.
-- Keep a normal caption to about 25 words and one argumentative job.
+- Give each caption one argumentative job. A longer explanation may use several sentences within the panel’s 100-word ceiling.
 - A sequence of short caption boxes may create rhythm, but it must read in an unambiguous top-to-bottom, left-to-right order.
 - Project inference uses the same caption voice as documentary narration only when its provenance remains explicit in the script or optional overlay.
 
 ## Human dialogue
 
 - Set human dialogue in mixed case, using a restrained comic-lettering sans serif rather than the uppercase incident-caption face.
-- Default to no more than 30 words or four short lines per balloon. Split longer thoughts at a change in idea, not merely to fit the shape.
+- Split longer dialogue at a change in idea. All balloons and other text together must stay within the panel’s 100-word ceiling and its readable geometry.
 - Balloon tails identify the speaker clearly without crossing faces, other balloons, or essential evidence.
 - Reconstructed dialogue receives the scene's broken-border treatment or a nearby `RECONSTRUCTED` marker; do not burden every balloon with a repeated disclaimer.
 - Functional or composite roles use ordinary balloons. Their anonymity must come from framing and labels, not a distorted voice.
@@ -60,7 +60,7 @@ No panel may require the reader to parse decorative terminal output before findi
 
 ## Density and fit
 
-- Keep total intended lettering near or below 180 words per page unless the page is deliberately a dossier page.
+- Allow at most 100 lettered words per panel and 400 per page. These are ceilings, not targets; layout and readable type size remain binding.
 - A normal panel should contain no more than one dense caption, one dialogue exchange, or one essential source-summary card.
 - Reserve at least one quiet panel or low-density region on pages whose final beat depends on a page turn.
 - Test every page at intended print size before it advances from `review` to `locked`. No required text may fall below the production minimum established by that proof.

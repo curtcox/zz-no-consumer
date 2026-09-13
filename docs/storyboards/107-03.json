@@ -15,7 +15,7 @@
         0.58,
         0.2554,
         0.38,
-        0.19740000000000002
+        0.4
       ]
     }
   ],
@@ -60,7 +60,7 @@
       ],
       "color": "steel",
       "focus": true,
-      "font": "editorial",
+      "font": "chronology",
       "label": "4 JUNE–14 JULY",
       "label_box": [
         0.057,
@@ -72,6 +72,6 @@
   ],
   "reconstructed": false,
   "shot": "hero",
-  "source": "\n**Location:** `public-wiki-dse`\n\n**Frame:** The same deletion, repeated as a wall: a retrospective grid explicitly dated `EXPORT WINDOW — 4 JUNE–14 JULY 2026`, thousands of deletion events, each a page name and a time, stacked until they fill the panel.\n\n**Font:** `editorial`\n\n**Screen / system text:**\n`4 JUNE–14 JULY: 5,217 SUCCESSFUL ADMINISTRATOR DELETIONS. 5,144 DISTINCT PAGES. ONE LABEL.`\n\n**Font:** `narration`\n\n**Caption:**\n> THE LOG RECORDS REMOVALS. IT DOES NOT RECORD WHAT THE MAINTAINER KNEW.\n\n**Provenance:** `documented` + `inferred` — counts from `manifest.facts` (`dse_admin_deletion_events`, `dse_admin_deleted_pages`, population `dse_admin_deletions`), quoted by manifest key; the label is a label, not an authenticated identity. The retrospective count covers 4 June–14 July, not just the June 19 scene; neither intent nor a separate investigation can be read from these totals.\n\n",
+  "source": "\n**Location:** `public-wiki-dse`\n\n**Frame:** The same deletion, repeated as a wall: a retrospective grid explicitly dated `EXPORT WINDOW — 4 JUNE–14 JULY 2026`, thousands of deletion events, each a page name and a time, stacked until they fill the panel.\n\n**Font:** `editorial`\n\n**Screen / system text:**\n`4 JUNE–14 JULY: 5,217 SUCCESSFUL ADMINISTRATOR DELETIONS. 5,144 DISTINCT PAGES. ONE LABEL.`\n\n**Font:** `uncertainty`\n\n**Caption:**\n> THE LOG RECORDS REMOVALS. IT DOES NOT RECORD WHAT THE MAINTAINER KNEW.\n> A SUCCESSFUL DELETION ESTABLISHES THAT AN ACTION WAS COMPLETED ON A PAGE. IT DOES NOT ESTABLISH THE MAINTAINER’S MOTIVE, THE CONTENT OF A MISSING REVISION, OR WHETHER A TASK DESCRIBED ON THE PAGE SUCCEEDED.\n\n**Provenance:** `documented` + `inferred` — counts from `manifest.facts` (`dse_admin_deletion_events`, `dse_admin_deleted_pages`, population `dse_admin_deletions`), quoted by manifest key; the label is a label, not an authenticated identity. The retrospective count covers 4 June–14 July, not just the June 19 scene; neither intent nor a separate investigation can be read from these totals.\n\n",
   "title": "Retrospective deletion totals for 4 June–14 July"
 }

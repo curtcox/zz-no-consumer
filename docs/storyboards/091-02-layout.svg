@@ -85,7 +85,7 @@
     ],
     &quot;reconstructed&quot;: false,
     &quot;shot&quot;: &quot;row&quot;,
-    &quot;source&quot;: &quot;\n**Location:** `hugging-face-infrastructure`\n\n**Frame:** Pod access to cloud metadata is blocked. Token rings across unrelated systems turn from live to revoked.\n\n**Font:** `narration`\n\n**Caption:**\n&gt; ACCESS TO CLOUD METADATA BLOCKED. CREDENTIALS ROTATED BROADLY: OLD KEYS REPLACED SO PREVIOUSLY CAPTURED ACCESS CANNOT SIMPLY BE REUSED.\n\n**Provenance:** `documented` — Hugging Face remediation account.\n\n&quot;,
+    &quot;source&quot;: &quot;\n**Location:** `hugging-face-infrastructure`\n\n**Frame:** Pod access to cloud metadata is blocked. Token rings across unrelated systems turn from live to revoked.\n\n**Font:** `explanation`\n\n**Caption:**\n&gt; ACCESS TO CLOUD METADATA BLOCKED. CREDENTIALS ROTATED BROADLY: OLD KEYS REPLACED SO PREVIOUSLY CAPTURED ACCESS CANNOT SIMPLY BE REUSED.\n\n**Provenance:** `documented` — Hugging Face remediation account.\n\n&quot;,
     &quot;title&quot;: &quot;Metadata access closes and tokens are revoked&quot;
   }
 }

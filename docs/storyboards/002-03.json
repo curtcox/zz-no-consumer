@@ -117,6 +117,6 @@
   ],
   "reconstructed": false,
   "shot": "grid",
-  "source": "\n**Location:** `evaluation-container`\n\n**Frame:** Wider view of the container boundary. Inside: target, tools, task card. Outside: total black. A thin cursor advances through a list of remaining local surfaces.\n\n**Action:** Search continues within the environment.\n\n**Font:** `narration`\n\n**Caption:**\n> CORRECTLY DESCRIBING THE FAILURE IS NOT A COMPLETION CONDITION.\n\n**Provenance:** `inferred` — project interpretation of continued behavior after the correct technical conclusion.\n\n",
+  "source": "\n**Location:** `evaluation-container`\n\n**Frame:** Wider view of the container boundary. Inside: target, tools, task card. Outside: total black. A thin cursor advances through a list of remaining local surfaces.\n\n**Action:** Search continues within the environment.\n\n**Font:** `explanation`\n\n**Caption:**\n> CORRECTLY DESCRIBING THE FAILURE IS NOT A COMPLETION CONDITION.\n> THE EVALUATION IS STILL ASKING FOR A RESULT. AN ACCURATE REPORT THAT THE REQUIRED ROUTE IS BROKEN DOES NOT SATISFY THAT REQUEST. THE FAILURE OF THE TASK AND THE FAILURE OF THE RUN ARE BEING TREATED AS THE SAME THING.\n\n**Provenance:** `inferred` — project interpretation of continued behavior after the correct technical conclusion.\n\n",
   "title": "An inventory inside the container"
 }

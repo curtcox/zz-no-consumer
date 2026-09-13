@@ -20,10 +20,10 @@ import reader_view
 METHOD = (
     "Words use panels.py's lettering extractor and token rule (letters/digits, internal "
     "apostrophes; hyphenated words split). Directions, titles and source apparatus are excluded. "
-    "The default page allowance is the approximate 180-word guideline in design/lettering.md "
+    "The default page ceiling is 400 words, with a separate 100-word panel ceiling in design/lettering.md "
     "and design/page-grammar.md, not a target or a measured layout capacity. "
-    "Page-level lettering is counted once and reserved first; remaining words are divided "
-    "equally among declared panels. These panel shares are estimates, not authored budgets. "
+    "Page-level lettering is counted once and reserved first. Panel allowances are capped "
+    "at 100 words, including the repeated banner; the page ceiling also applies independently. "
     "Grouped runs retain one combined row; their words are never assigned to individual cells. "
     "Four element slots apply to each script image slot, including a grouped run. "
     "Repeated banner words are reported separately as an estimate across image slots. "
@@ -101,7 +101,7 @@ def measure(script: panels.PageScript, chapter: str, title: str, allowance: int)
         raise ValueError(f'{script.id}: lettering outside recognized fields; run reader_view.py check')
     available = max(0, allowance - banners)
     for row in rows:
-        row.update(metrics(row['words'], available * row['declared_panels'] / script.count))
+        row.update(metrics(row['words'], min(available, max(0, panels.MAX_PANEL_WORDS - banners))))
         row['band'] = band(row)
         row['elements_with_banner'] = row['elements'] + banner_elements
     types['persistent banner'] += banners
@@ -275,12 +275,12 @@ ignored apparatus
 '''
     page = measure(panels.split_page(1, fixture), 'test', 'Fixture', 10)
     require(page['words'] == 7 and page['banner_words'] == 2, 'banner/word count')
-    require([r['budget_words'] for r in page['panels']] == [4, 4], 'reserved banner allocation')
-    require(page['panels'][0]['over_words'] == 1 and page['panels'][1]['band'] == 'zero words', 'local overage and silence')
+    require([r['budget_words'] for r in page['panels']] == [8, 8], 'reserved banner allocation')
+    require(page['panels'][0]['over_words'] == 0 and page['panels'][1]['band'] == 'zero words', 'local overage and silence')
     require(page['words_with_repeated_banners'] == 9, 'repeated banner estimate')
     grouped = measure(panels.split_page(2, '## Panels 1–9\n**Caption:**\n> NINE DIFFERENT LANES\n'), 'test', 'Group', 180)
     require(len(grouped['panels']) == 1 and grouped['declared_panels'] == 9 and grouped['words'] == 3, 'group not multiplied')
-    require(grouped['panels'][0]['budget_words'] == 180, 'group allocation')
+    require(grouped['panels'][0]['budget_words'] == 100, 'group allocation')
     over = measure(panels.split_page(3, fixture), 'test', 'Over', 1)
     require(over['panels'][0]['utilization_pct'] is None and over['over_words'] == 6, 'banner exhausts budget')
     report = make_report([page, grouped, over], 10)
@@ -312,7 +312,8 @@ ignored apparatus
     actual = [measure(script, c.id, '', panels.DENSE_PAGE_WORDS) for script, c in selected]
     require(sum(p['words'] for p in actual) == sum(s.words for s in scripts.values()), 'repository census parity')
     for p in actual:
-        require(math.isclose(sum(r['budget_words'] for r in p['panels']), p['panel_budget_words']), 'panel shares reconcile')
+        require(all(r['budget_words'] <= panels.MAX_PANEL_WORDS for r in p['panels']), 'independent panel ceilings')
+    require(not panels.word_limit_errors(scripts), 'repository word ceilings')
     print(f'Text budget check passed: offline fixtures and {len(actual)} pages reconcile with panels.py.')
     return 0
 
@@ -331,7 +332,7 @@ def main(argv=None) -> int:
     report = commands.add_parser('report', help='read-only budget report; JSON always contains the complete selection')
     report.add_argument('--pages', help='NNN or inclusive NNN-NNN')
     report.add_argument('--chapter', help='chapter ID, e.g. prologue, 01, epilogue')
-    report.add_argument('--page-budget', type=positive, default=panels.DENSE_PAGE_WORDS, help='what-if allowance (default: 180); does not change policy')
+    report.add_argument('--page-budget', type=positive, default=panels.DENSE_PAGE_WORDS, help='what-if allowance (default: 400); does not change policy')
     report.add_argument('--format', choices=['text', 'json', 'tsv'], default='text')
     report.add_argument('--level', choices=['summary', 'chapters', 'pages', 'panels', 'all'], default='summary', help='text detail / TSV rows; JSON always includes all levels')
     report.add_argument('--sort', choices=['reading', 'used', 'usage', 'remaining'], default='reading', help='detail ordering: ascending words/percentage, descending remaining')

@@ -64,7 +64,7 @@
     ],
     &quot;reconstructed&quot;: false,
     &quot;shot&quot;: &quot;row&quot;,
-    &quot;source&quot;: &quot;\n**Location:** `huggingface-security-stack`\n\n**Frame:** Focus on the separate `CRITICALITY` field. It remains below the threshold line required for paging.\n\n**Action:** Severity is classified too low.\n\n**Font:** `narration`\n\n**Caption:**\n&gt; THE ALERT IS ASSIGNED TOO LITTLE URGENCY TO TRIGGER AN ON-CALL PAGE. DETECTION AND HUMAN NOTIFICATION ARE SEPARATE STEPS.\n\n**Provenance:** `documented` — Hugging Face states the system failed to raise alert criticality correctly.\n\n&quot;,
+    &quot;source&quot;: &quot;\n**Location:** `huggingface-security-stack`\n\n**Frame:** Focus on the separate `CRITICALITY` field. It remains below the threshold line required for paging.\n\n**Action:** Severity is classified too low.\n\n**Font:** `explanation`\n\n**Caption:**\n&gt; THE ALERT IS ASSIGNED TOO LITTLE URGENCY TO TRIGGER AN ON-CALL PAGE. DETECTION AND HUMAN NOTIFICATION ARE SEPARATE STEPS.\n\n**Provenance:** `documented` — Hugging Face states the system failed to raise alert criticality correctly.\n\n&quot;,
     &quot;title&quot;: &quot;Criticality stays below the paging threshold&quot;
   }
 }

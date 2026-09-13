@@ -86,7 +86,7 @@
     ],
     &quot;reconstructed&quot;: false,
     &quot;shot&quot;: &quot;route&quot;,
-    &quot;source&quot;: &quot;\n**Location:**\n\n- `evaluation-container`\n- `artifactory-cache`\n\n**Frame:** The map rotates visually toward one permitted service: Artifactory, drawn as a plain package-cache directory tree. No glow.\n\n**Action:** Package access remains available.\n\n**Font:** `narration`\n\n**Caption:**\n&gt; ONE SHARED SERVICE IS STILL VISIBLE: ARTIFACTORY, A CACHE USED TO FETCH SOFTWARE PACKAGES.\n\n**Provenance:** `documented` — Artifactory was reachable for package installation.\n\n&quot;,
+    &quot;source&quot;: &quot;\n**Location:**\n\n- `evaluation-container`\n- `artifactory-cache`\n\n**Frame:** The map rotates visually toward one permitted service: Artifactory, drawn as a plain package-cache directory tree. No glow.\n\n**Action:** Package access remains available.\n\n**Font:** `explanation`\n\n**Caption:**\n&gt; ONE SHARED SERVICE IS STILL VISIBLE: ARTIFACTORY, A CACHE USED TO FETCH SOFTWARE PACKAGES.\n\n**Provenance:** `documented` — Artifactory was reachable for package installation.\n\n&quot;,
     &quot;title&quot;: &quot;The permitted package service&quot;
   }
 }

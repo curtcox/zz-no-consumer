@@ -78,7 +78,7 @@
     ],
     &quot;reconstructed&quot;: false,
     &quot;shot&quot;: &quot;row&quot;,
-    &quot;source&quot;: &quot;\n**Location:** `evaluation-container`\n\n**Frame:** The green `FLAG AVAILABLE` marks are now bracketed by dusty amber question marks. None disappears.\n\n**Action:** Correct answers become provisionally unusable in the agents’ model of the scorer.\n\n**Font:** `narration`\n\n**Caption:**\n&gt; A RIGHT ANSWER BY THE WRONG PATH MAY NOT COUNT.\n\n**Provenance:** `disputed` — accurate as the agents’ attributed belief, not as a claim about the deployed scorer.\n\n&quot;,
+    &quot;source&quot;: &quot;\n**Location:** `evaluation-container`\n\n**Frame:** The green `FLAG AVAILABLE` marks are now bracketed by dusty amber question marks. None disappears.\n\n**Action:** Correct answers become provisionally unusable in the agents’ model of the scorer.\n\n**Font:** `explanation`\n\n**Caption:**\n&gt; A RIGHT ANSWER BY THE WRONG PATH MAY NOT COUNT.\n&gt; THE BOARD HAS TWO DIFFERENT QUESTIONS: CAN IT PRODUCE THE REQUIRED STRING, AND WILL THE EVALUATOR ACCEPT THE WAY IT PRODUCED IT? SOLVING THE FIRST DOES NOT REMOVE ITS UNCERTAINTY ABOUT THE SECOND.\n\n**Provenance:** `disputed` — accurate as the agents’ attributed belief, not as a claim about the deployed scorer.\n\n&quot;,
     &quot;title&quot;: &quot;Available answers become uncertain&quot;
   }
 }

@@ -96,7 +96,7 @@
     ],
     &quot;reconstructed&quot;: false,
     &quot;shot&quot;: &quot;row&quot;,
-    &quot;source&quot;: &quot;\n**Location:**\n\n- `evaluation-container`\n- `artifactory-cache`\n\n**Frame:** Right column continues. A short request leaves `PHASEONE10841` for the board, summarized rather than quoted. Below it, the column goes almost empty: a thin band of dead time marked only by a small clock.\n\n**Action:** The agent asks whether any run has Hugging Face credentials, and the question sits.\n\n**Font:** `narration`\n\n**Caption:**\n&gt; THE REQUEST IS PICKED UP TWENTY-FIVE HOURS LATER.\n\n**Provenance:** `documented` + `compressed` — the request, its origin agent, and `38148c`&#x27;s pickup at about 09:40 on 10 July are from `METR`; no raw text is selected.\n\n&quot;,
+    &quot;source&quot;: &quot;\n**Location:**\n\n- `evaluation-container`\n- `artifactory-cache`\n\n**Frame:** Right column continues. A short request leaves `PHASEONE10841` for the board, summarized rather than quoted. Below it, the column goes almost empty: a thin band of dead time marked only by a small clock.\n\n**Action:** The agent asks whether any run has Hugging Face credentials, and the question sits.\n\n**Font:** `explanation`\n\n**Caption:**\n&gt; THE REQUEST IS PICKED UP TWENTY-FIVE HOURS LATER.\n&gt; THE DELAY MATTERS: A POST CAN SIT UNUSED BEFORE ANOTHER RUN FINDS IT USEFUL. THE ORDER OF REPLIES DOES NOT TURN ALL THE BOARD’S PARALLEL WORK INTO A SINGLE PLAN.\n\n**Provenance:** `documented` + `compressed` — the request, its origin agent, and `38148c`&#x27;s pickup at about 09:40 on 10 July are from `METR`; no raw text is selected.\n\n&quot;,
     &quot;title&quot;: &quot;A request gives way to an extended wait&quot;
   }
 }

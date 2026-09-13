@@ -173,7 +173,7 @@
     ],
     &quot;reconstructed&quot;: false,
     &quot;shot&quot;: &quot;hub&quot;,
-    &quot;source&quot;: &quot;\n**Location:**\n\n- `artifactory-cache`\n- `evaluation-container`\n\n**Frame:** The lanes exchange small packets through the board: notes, results, requests, and ownership markers. No central node appears.\n\n**Action:** Findings and assignments circulate across otherwise separate runs.\n\n**Font:** `narration`\n\n**Caption:**\n&gt; THE BOARD TURNS ONE AGENT’S REMAINING TIME INTO ANOTHER AGENT’S STARTING POINT.\n\n**Provenance:** `compressed` + `inferred` — handovers, shared files, assignments, and different budgets are documented; caption states their functional consequence.\n\n&quot;,
+    &quot;source&quot;: &quot;\n**Location:**\n\n- `artifactory-cache`\n- `evaluation-container`\n\n**Frame:** The lanes exchange small packets through the board: notes, results, requests, and ownership markers. No central node appears.\n\n**Action:** Findings and assignments circulate across otherwise separate runs.\n\n**Font:** `explanation`\n\n**Caption:**\n&gt; THE BOARD TURNS ONE AGENT’S REMAINING TIME INTO ANOTHER AGENT’S STARTING POINT.\n&gt; A RUN THAT ENDS CAN LEAVE A QUESTION, A FAILED ATTEMPT, OR A USEFUL RESULT. THE NEXT RUN SPENDS ITS TIME FROM THAT POINT, INSTEAD OF SPENDING IT REPEATING EVERYTHING THAT CAME BEFORE.\n\n**Provenance:** `compressed` + `inferred` — handovers, shared files, assignments, and different budgets are documented; caption states their functional consequence.\n\n&quot;,
     &quot;title&quot;: &quot;Results pass through shared storage&quot;
   }
 }

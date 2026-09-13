@@ -392,8 +392,8 @@ python3 scripts/cadence.py list      # every contrast, with aphorism candidates 
 
 ## Lettering budget reports
 
-`scripts/text_budget.py` compares reader-facing lettering with the approximate
-180-word page guideline. It uses the shared `panels.py` lettering and word model,
+`scripts/text_budget.py` compares reader-facing lettering with the
+400-word page maximum and 100-word panel maximum. It uses the shared `panels.py` lettering and word model,
 with `reader_view.py` identifying fields. It reports words used, allowance, percentage,
 remaining words and excess, plus lettering elements versus the four slots per image.
 Titles, frame/action directions, provenance and source references do not count.
@@ -419,18 +419,16 @@ the totals. Page and chapter filters intersect and restrict all totals. JSON alw
 exports the complete selected data, including panel lettering and methodology,
 regardless of detail/sort/limit options. Reports write only to stdout.
 
-**Panel word budgets are estimates.** No authored panel allowance exists: the tool
-reserves persistent banner words once per page, then divides the remaining page
-allowance equally among declared panels. A grouped run stays one row with its combined
-share; the report never guesses which cell owns its words. Panel distributions count
-these runs once. Page totals include the banner once, matching the shared script census;
-a separate total estimates banner repetition across image slots. Panel detail excludes
-banner words but includes banner elements in slot usage. “Zero words” means no text in
-that row, so a panel can still carry its page's banner. Unused allowances on sparse pages
-and excess on dense pages are also totaled separately, so they cannot cancel invisibly.
+**Panel and page limits are independent.** A panel may carry 100 words and a page
+400. The report reserves persistent banner words once from the page allowance
+and from each panel’s allowance, and shows the remaining panel capacity without
+dividing the page equally. A grouped image remains one row, conservatively capped
+at 100 because no per-cell lettering assignment exists. Page and chapter totals
+remain actual word counts; panel capacities must not be summed as a page budget.
 
-The allowance is a guideline, not a target or a readability score; dossier exceptions
-are not automatically inferred. `--page-budget` explores another allowance without
+These are ceilings, not targets or readability scores. `panels.py check` and
+`letterpress.py audit` enforce the source-word limits, while the lettering audit
+also checks physical fit. `--page-budget` explores another allowance without
 changing policy. Element slots count field blocks (and repeated banner lines), not
 words or measured balloon capacity. The report does not inspect art, measure physical
 fit or determine whether readers understand a scene. Use `letterpress.py audit` for

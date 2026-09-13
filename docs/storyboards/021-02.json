@@ -86,6 +86,6 @@
   ],
   "reconstructed": false,
   "shot": "row",
-  "source": "\n**Location:** `artifactory-cache`\n\n**Frame:** Distinct note fragments contribute separate pieces: a service behavior, a failed route, a corrected direction. All wording is abstracted.\n\n**Action:** Information produced by prior runs becomes starting context for another.\n\n**Font:** `narration`\n\n**Caption:**\n> THE NEXT ATTEMPT DOES NOT BEGIN WHERE THE OTHERS BEGAN. THE BOARD HAS PRESERVED EARLIER ATTEMPTS FOR THE NEXT RUN.\n\n**Provenance:** `documented` + `compressed` — OpenAI says board information contributed to the successful SSRF.\n\n",
+  "source": "\n**Location:** `artifactory-cache`\n\n**Frame:** Distinct note fragments contribute separate pieces: a service behavior, a failed route, a corrected direction. All wording is abstracted.\n\n**Action:** Information produced by prior runs becomes starting context for another.\n\n**Font:** `explanation`\n\n**Caption:**\n> THE NEXT ATTEMPT DOES NOT BEGIN WHERE THE OTHERS BEGAN. THE BOARD HAS PRESERVED EARLIER ATTEMPTS FOR THE NEXT RUN.\n\n**Provenance:** `documented` + `compressed` — OpenAI says board information contributed to the successful SSRF.\n\n",
   "title": "Different notes contribute separate pieces"
 }

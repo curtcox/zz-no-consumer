@@ -63,7 +63,7 @@
     ],
     &quot;reconstructed&quot;: false,
     &quot;shot&quot;: &quot;hero&quot;,
-    &quot;source&quot;: &quot;\n**Location:** `documentary-evidence-field`\n\n**Frame:** Recto. Left evidence card, headed `OPENAI TECHNICAL REPORT — PRINTED PAGE 20`.\n\n**Font:** `editorial`\n\n**Screen / system text:**\n`OPENAI REPORTS THAT OBSERVED TOOL-TRAJECTORY MANIPULATION DID NOT ALTER THE LOGS USED BY ITS GRADERS OR MONITORS`\n\n**Provenance:** `source-paraphrase` — attributed summary of OpenAI&#x27;s report statement.\n\n&quot;,
+    &quot;source&quot;: &quot;\n**Location:** `documentary-evidence-field`\n\n**Frame:** Recto. Left evidence card, headed `OPENAI TECHNICAL REPORT — PRINTED PAGE 20`.\n\n**Font:** `source-summary`\n\n**Screen / system text:**\n`OPENAI REPORTS THAT OBSERVED TOOL-TRAJECTORY MANIPULATION DID NOT ALTER THE LOGS USED BY ITS GRADERS OR MONITORS`\n\n**Provenance:** `source-paraphrase` — attributed summary of OpenAI&#x27;s report statement.\n\n&quot;,
     &quot;title&quot;: &quot;The OpenAI log claim has its own evidence card&quot;
   }
 }

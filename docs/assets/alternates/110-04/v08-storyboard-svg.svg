@@ -1,0 +1,157 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="800" viewBox="0 0 1200 800"><title>The page plan holds unanswered disclosure questions</title><desc>Keep each disclosure question visibly unanswered in the page plan. Do not fill the list with symbolic guilty parties or implied affirmative answers.</desc><metadata>{
+  &quot;assets&quot;: {
+    &quot;location-background-curt-home-office&quot;: &quot;&lt;title&gt;Domestic window and receding floor — wood&lt;/title&gt;&lt;defs&gt;&lt;linearGradient id=\&quot;wash\&quot; x1=\&quot;0\&quot; y1=\&quot;0\&quot; x2=\&quot;1\&quot; y2=\&quot;1\&quot;&gt;&lt;stop stop-color=\&quot;#C9A880\&quot; stop-opacity=\&quot;.45\&quot;/&gt;&lt;stop offset=\&quot;.5\&quot; stop-color=\&quot;#644B35\&quot; stop-opacity=\&quot;.22\&quot;/&gt;&lt;stop offset=\&quot;1\&quot; stop-color=\&quot;#C9A880\&quot; stop-opacity=\&quot;.27\&quot;/&gt;&lt;/linearGradient&gt;&lt;radialGradient id=\&quot;fade\&quot;&gt;&lt;stop offset=\&quot;.35\&quot; stop-color=\&quot;black\&quot;/&gt;&lt;stop offset=\&quot;.7\&quot; stop-color=\&quot;#555555\&quot;/&gt;&lt;stop offset=\&quot;1\&quot; stop-color=\&quot;white\&quot;/&gt;&lt;/radialGradient&gt;&lt;mask id=\&quot;rim\&quot;&gt;&lt;rect width=\&quot;100\&quot; height=\&quot;100\&quot; fill=\&quot;url(#fade)\&quot;/&gt;&lt;/mask&gt;&lt;pattern id=\&quot;material\&quot; width=\&quot;16\&quot; height=\&quot;16\&quot; patternUnits=\&quot;userSpaceOnUse\&quot;&gt;&lt;g fill=\&quot;none\&quot; stroke=\&quot;#C9A880\&quot; stroke-width=\&quot;.3\&quot; opacity=\&quot;.55\&quot;&gt;&lt;path d=\&quot;M0 2Q5 0 16 3M0 7Q10 10 16 6M0 13Q5 10 16 14\&quot;/&gt;&lt;/g&gt;&lt;/pattern&gt;&lt;/defs&gt;\n&lt;rect x=\&quot;3\&quot; y=\&quot;3\&quot; width=\&quot;94\&quot; height=\&quot;94\&quot; rx=\&quot;1\&quot; fill=\&quot;url(#wash)\&quot;/&gt;&lt;rect x=\&quot;3\&quot; y=\&quot;3\&quot; width=\&quot;94\&quot; height=\&quot;94\&quot; fill=\&quot;url(#material)\&quot; mask=\&quot;url(#rim)\&quot;/&gt;&lt;path d=\&quot;M3 3L18 22H82L97 3Z\&quot; fill=\&quot;#C9A880\&quot; opacity=\&quot;.18\&quot;/&gt;&lt;path d=\&quot;M3 3L18 22V76L3 97ZM97 3L82 22V76L97 97Z\&quot; fill=\&quot;#644B35\&quot; opacity=\&quot;.5\&quot;/&gt;&lt;path d=\&quot;M18 76H82L97 97H3Z\&quot; fill=\&quot;url(#material)\&quot; opacity=\&quot;.65\&quot;/&gt;&lt;path d=\&quot;M18 76H82L97 97H3Z\&quot; fill=\&quot;#644B35\&quot; opacity=\&quot;.3\&quot;/&gt;&lt;path d=\&quot;M4 8L18 22H82L96 8M4 8V94H96V8M18 22V74H82V22M18 74L4 94M82 74L96 94M7 29H15V58H7ZM11 29V58M7 43H15M85 31H94M85 42H94M86 31V25M91 31V23\&quot; fill=\&quot;none\&quot; stroke=\&quot;#080B0D\&quot; stroke-width=\&quot;1.7\&quot; opacity=\&quot;.45\&quot; transform=\&quot;translate(.35 .5)\&quot;/&gt;&lt;path d=\&quot;M4 8L18 22H82L96 8M4 8V94H96V8M18 22V74H82V22M18 74L4 94M82 74L96 94M7 29H15V58H7ZM11 29V58M7 43H15M85 31H94M85 42H94M86 31V25M91 31V23\&quot; fill=\&quot;none\&quot; stroke=\&quot;#C9A880\&quot; stroke-width=\&quot;.8\&quot; stroke-linejoin=\&quot;round\&quot; opacity=\&quot;.66\&quot;/&gt;&quot;,
+    &quot;question&quot;: &quot;&lt;defs&gt;\n&lt;linearGradient id=\&quot;tone\&quot; x1=\&quot;0\&quot; y1=\&quot;0\&quot; x2=\&quot;1\&quot; y2=\&quot;1\&quot;&gt;&lt;stop stop-color=\&quot;currentColor\&quot; /&gt;&lt;stop offset=\&quot;1\&quot; stop-color=\&quot;#101214\&quot; stop-opacity=\&quot;.65\&quot; /&gt;&lt;/linearGradient&gt;\n&lt;/defs&gt;&lt;path d=\&quot;M24 28Q25 3 53 7Q91 12 74 43L51 63V72\&quot; fill=\&quot;none\&quot; stroke=\&quot;url(#tone)\&quot; stroke-width=\&quot;7\&quot; /&gt;&lt;circle cx=\&quot;51\&quot; cy=\&quot;91\&quot; r=\&quot;5\&quot; fill=\&quot;currentColor\&quot; /&gt;&quot;
+  },
+  &quot;palette&quot;: {
+    &quot;amber&quot;: &quot;#A17D45&quot;,
+    &quot;claret&quot;: &quot;#6B2634&quot;,
+    &quot;dirty&quot;: &quot;#CEC5B3&quot;,
+    &quot;ink&quot;: &quot;#101214&quot;,
+    &quot;institution&quot;: &quot;#68766B&quot;,
+    &quot;moss&quot;: &quot;#74864F&quot;,
+    &quot;nicotine&quot;: &quot;#AA9571&quot;,
+    &quot;paper&quot;: &quot;#E7E0D0&quot;,
+    &quot;shadow&quot;: &quot;#202326&quot;,
+    &quot;steel&quot;: &quot;#5E737B&quot;
+  },
+  &quot;renderer&quot;: &quot;storyboard-svg-2&quot;,
+  &quot;scene&quot;: {
+    &quot;background&quot;: &quot;ink&quot;,
+    &quot;intent&quot;: &quot;Keep each disclosure question visibly unanswered in the page plan. Do not fill the list with symbolic guilty parties or implied affirmative answers.&quot;,
+    &quot;lettering&quot;: [
+      {
+        &quot;box&quot;: [
+          0.045,
+          0.78,
+          0.91,
+          0.18
+        ]
+      }
+    ],
+    &quot;lettering_mode&quot;: &quot;manual&quot;,
+    &quot;nodes&quot;: [
+      {
+        &quot;asset&quot;: &quot;location-background-curt-home-office&quot;,
+        &quot;box&quot;: [
+          0.02,
+          0.02,
+          0.96,
+          0.96
+        ],
+        &quot;color&quot;: &quot;steel&quot;
+      },
+      {
+        &quot;asset&quot;: &quot;question&quot;,
+        &quot;box&quot;: [
+          0.480048,
+          0.0962,
+          0.021504,
+          0.064512
+        ],
+        &quot;color&quot;: &quot;steel&quot;,
+        &quot;focus&quot;: true,
+        &quot;font&quot;: &quot;editorial&quot;,
+        &quot;label&quot;: &quot;WHO INVESTIGATED?&quot;,
+        &quot;label_box&quot;: [
+          0.1792,
+          0.166712,
+          0.6232,
+          0.032847999999999995
+        ]
+      },
+      {
+        &quot;asset&quot;: &quot;question&quot;,
+        &quot;box&quot;: [
+          0.480048,
+          0.20756,
+          0.021504,
+          0.064512
+        ],
+        &quot;color&quot;: &quot;steel&quot;,
+        &quot;focus&quot;: true,
+        &quot;font&quot;: &quot;editorial&quot;,
+        &quot;label&quot;: &quot;WHAT WAS RETAINED?&quot;,
+        &quot;label_box&quot;: [
+          0.1792,
+          0.278072,
+          0.6232,
+          0.032847999999999995
+        ]
+      },
+      {
+        &quot;asset&quot;: &quot;question&quot;,
+        &quot;box&quot;: [
+          0.480048,
+          0.31892,
+          0.021504,
+          0.064512
+        ],
+        &quot;color&quot;: &quot;steel&quot;,
+        &quot;focus&quot;: true,
+        &quot;font&quot;: &quot;editorial&quot;,
+        &quot;label&quot;: &quot;WHO WAS TOLD?&quot;,
+        &quot;label_box&quot;: [
+          0.1792,
+          0.389432,
+          0.6232,
+          0.032847999999999995
+        ]
+      },
+      {
+        &quot;asset&quot;: &quot;question&quot;,
+        &quot;box&quot;: [
+          0.480048,
+          0.43028,
+          0.021504,
+          0.064512
+        ],
+        &quot;color&quot;: &quot;steel&quot;,
+        &quot;focus&quot;: true,
+        &quot;font&quot;: &quot;editorial&quot;,
+        &quot;label&quot;: &quot;WHO COULD REVIEW?&quot;,
+        &quot;label_box&quot;: [
+          0.1792,
+          0.500792,
+          0.6232,
+          0.032847999999999995
+        ]
+      },
+      {
+        &quot;asset&quot;: &quot;question&quot;,
+        &quot;box&quot;: [
+          0.480048,
+          0.54164,
+          0.021504,
+          0.064512
+        ],
+        &quot;color&quot;: &quot;steel&quot;,
+        &quot;focus&quot;: true,
+        &quot;font&quot;: &quot;editorial&quot;,
+        &quot;label&quot;: &quot;WHY NO PUBLIC ACCOUNT?&quot;,
+        &quot;label_box&quot;: [
+          0.1792,
+          0.612152,
+          0.6232,
+          0.085
+        ]
+      }
+    ],
+    &quot;reconstructed&quot;: false,
+    &quot;shot&quot;: &quot;stack&quot;,
+    &quot;source&quot;: &quot;\n**Location:** `curt-home-office`\n\n**Frame:** Curt writes a column of questions on the page plan, each ending in a question mark, none answered: who investigated the wiki; what was retained; which teams were told; whether a cross-workload review happened; whether the case was available to the independent reviewers; why the September researchers found no specific public account.\n\n**Font:** `human`\n\n**Dialogue — CURT:**\n&gt; These are not accusations. They are the questions an account would have answered.\n\n**Provenance:** `reconstructed` + `inferred` — creator action; the questions are the project&#x27;s and are drawn from the proposal&#x27;s disclosure analysis. No answer is implied.\n\n&quot;,
+    &quot;title&quot;: &quot;The page plan holds unanswered disclosure questions&quot;
+  }
+}
+</metadata><rect width="1200" height="800" fill="#101214"/><g transform="translate(24 16) scale(11.52 7.68)" color="#5E737B"><g transform=""><title>Domestic window and receding floor — wood</title><defs><linearGradient id="node-0-wash" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#C9A880" stop-opacity=".45" /><stop offset=".5" stop-color="#644B35" stop-opacity=".22" /><stop offset="1" stop-color="#C9A880" stop-opacity=".27" /></linearGradient><radialGradient id="node-0-fade"><stop offset=".35" stop-color="black" /><stop offset=".7" stop-color="#555555" /><stop offset="1" stop-color="white" /></radialGradient><mask id="node-0-rim"><rect width="100" height="100" fill="url(#node-0-fade)" /></mask><pattern id="node-0-material" width="16" height="16" patternUnits="userSpaceOnUse"><g fill="none" stroke="#C9A880" stroke-width=".3" opacity=".55"><path d="M0 2Q5 0 16 3M0 7Q10 10 16 6M0 13Q5 10 16 14" /></g></pattern></defs>
+<rect x="3" y="3" width="94" height="94" rx="1" fill="url(#node-0-wash)" /><rect x="3" y="3" width="94" height="94" fill="url(#node-0-material)" mask="url(#node-0-rim)" /><path d="M3 3L18 22H82L97 3Z" fill="#C9A880" opacity=".18" /><path d="M3 3L18 22V76L3 97ZM97 3L82 22V76L97 97Z" fill="#644B35" opacity=".5" /><path d="M18 76H82L97 97H3Z" fill="url(#node-0-material)" opacity=".65" /><path d="M18 76H82L97 97H3Z" fill="#644B35" opacity=".3" /><path d="M4 8L18 22H82L96 8M4 8V94H96V8M18 22V74H82V22M18 74L4 94M82 74L96 94M7 29H15V58H7ZM11 29V58M7 43H15M85 31H94M85 42H94M86 31V25M91 31V23" fill="none" stroke="#080B0D" stroke-width="1.7" opacity=".45" transform="translate(.35 .5)" /><path d="M4 8L18 22H82L96 8M4 8V94H96V8M18 22V74H82V22M18 74L4 94M82 74L96 94M7 29H15V58H7ZM11 29V58M7 43H15M85 31H94M85 42H94M86 31V25M91 31V23" fill="none" stroke="#C9A880" stroke-width=".8" stroke-linejoin="round" opacity=".66" /></g></g><g transform="translate(576.058 76.96) scale(0.258048 0.516096)" color="#5E737B"><g transform=""><defs>
+<linearGradient id="node-1-tone" x1="0" y1="0" x2="1" y2="1"><stop stop-color="currentColor" /><stop offset="1" stop-color="#101214" stop-opacity=".65" /></linearGradient>
+</defs><path d="M24 28Q25 3 53 7Q91 12 74 43L51 63V72" fill="none" stroke="url(#node-1-tone)" stroke-width="7" /><circle cx="51" cy="91" r="5" fill="currentColor" /></g></g><text x="588.96" y="152.62" text-anchor="middle" fill="#E7E0D0" font-size="19.25" font-family="Arial, Helvetica, sans-serif" data-font-key="editorial" font-weight="700" font-style="normal" textLength="204.30" lengthAdjust="spacingAndGlyphs">WHO INVESTIGATED?</text><g transform="translate(576.058 166.048) scale(0.258048 0.516096)" color="#5E737B"><g transform=""><defs>
+<linearGradient id="node-2-tone" x1="0" y1="0" x2="1" y2="1"><stop stop-color="currentColor" /><stop offset="1" stop-color="#101214" stop-opacity=".65" /></linearGradient>
+</defs><path d="M24 28Q25 3 53 7Q91 12 74 43L51 63V72" fill="none" stroke="url(#node-2-tone)" stroke-width="7" /><circle cx="51" cy="91" r="5" fill="currentColor" /></g></g><text x="588.96" y="241.708" text-anchor="middle" fill="#E7E0D0" font-size="19.25" font-family="Arial, Helvetica, sans-serif" data-font-key="editorial" font-weight="700" font-style="normal" textLength="219.26" lengthAdjust="spacingAndGlyphs">WHAT WAS RETAINED?</text><g transform="translate(576.058 255.136) scale(0.258048 0.516096)" color="#5E737B"><g transform=""><defs>
+<linearGradient id="node-3-tone" x1="0" y1="0" x2="1" y2="1"><stop stop-color="currentColor" /><stop offset="1" stop-color="#101214" stop-opacity=".65" /></linearGradient>
+</defs><path d="M24 28Q25 3 53 7Q91 12 74 43L51 63V72" fill="none" stroke="url(#node-3-tone)" stroke-width="7" /><circle cx="51" cy="91" r="5" fill="currentColor" /></g></g><text x="588.96" y="330.796" text-anchor="middle" fill="#E7E0D0" font-size="19.25" font-family="Arial, Helvetica, sans-serif" data-font-key="editorial" font-weight="700" font-style="normal" textLength="163.64" lengthAdjust="spacingAndGlyphs">WHO WAS TOLD?</text><g transform="translate(576.058 344.224) scale(0.258048 0.516096)" color="#5E737B"><g transform=""><defs>
+<linearGradient id="node-4-tone" x1="0" y1="0" x2="1" y2="1"><stop stop-color="currentColor" /><stop offset="1" stop-color="#101214" stop-opacity=".65" /></linearGradient>
+</defs><path d="M24 28Q25 3 53 7Q91 12 74 43L51 63V72" fill="none" stroke="url(#node-4-tone)" stroke-width="7" /><circle cx="51" cy="91" r="5" fill="currentColor" /></g></g><text x="588.96" y="419.884" text-anchor="middle" fill="#E7E0D0" font-size="19.25" font-family="Arial, Helvetica, sans-serif" data-font-key="editorial" font-weight="700" font-style="normal" textLength="211.77" lengthAdjust="spacingAndGlyphs">WHO COULD REVIEW?</text><g transform="translate(576.058 433.312) scale(0.258048 0.516096)" color="#5E737B"><g transform=""><defs>
+<linearGradient id="node-5-tone" x1="0" y1="0" x2="1" y2="1"><stop stop-color="currentColor" /><stop offset="1" stop-color="#101214" stop-opacity=".65" /></linearGradient>
+</defs><path d="M24 28Q25 3 53 7Q91 12 74 43L51 63V72" fill="none" stroke="url(#node-5-tone)" stroke-width="7" /><circle cx="51" cy="91" r="5" fill="currentColor" /></g></g><text x="588.96" y="509.722" text-anchor="middle" fill="#E7E0D0" font-size="20" font-family="Arial, Helvetica, sans-serif" data-font-key="editorial" font-weight="700" font-style="normal" textLength="275.58" lengthAdjust="spacingAndGlyphs">WHY NO PUBLIC ACCOUNT?</text><rect x="3" y="3" width="1194" height="794" fill="none" stroke="#5E737B" stroke-width="4"/></svg>

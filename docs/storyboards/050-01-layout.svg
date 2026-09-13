@@ -117,7 +117,7 @@
     ],
     &quot;reconstructed&quot;: false,
     &quot;shot&quot;: &quot;diagram&quot;,
-    &quot;source&quot;: &quot;\n**Location:**\n\n- `huggingface-dataset-processor`\n- `huggingface-production-node`\n\n**Frame:** Verso. The compromised worker sits inside a larger production-node outline. A distinct agent lane discovers that the worker&#x27;s permissions expose a path upward.\n\n**Action:** Worker access becomes node-level access.\n\n**Font:** `narration`\n\n**Caption:**\n&gt; THE WORKER IS ONE PROCESS ON A LARGER MACHINE: THE NODE. REACHING THAT MACHINE EXPANDS CONTROL BEYOND THE ORIGINAL WORKER.\n\n**Provenance:** `documented` + `compressed` — worker-to-node escalation from `HF-TL` and `OAI-TR`; method omitted.\n\n&quot;,
+    &quot;source&quot;: &quot;\n**Location:**\n\n- `huggingface-dataset-processor`\n- `huggingface-production-node`\n\n**Frame:** Verso. The compromised worker sits inside a larger production-node outline. A distinct agent lane discovers that the worker&#x27;s permissions expose a path upward.\n\n**Action:** Worker access becomes node-level access.\n\n**Font:** `explanation`\n\n**Caption:**\n&gt; THE WORKER IS ONE PROCESS ON A LARGER MACHINE: THE NODE. REACHING THAT MACHINE EXPANDS CONTROL BEYOND THE ORIGINAL WORKER.\n\n**Provenance:** `documented` + `compressed` — worker-to-node escalation from `HF-TL` and `OAI-TR`; method omitted.\n\n&quot;,
     &quot;title&quot;: &quot;A worker sits inside a larger production node&quot;
   }
 }

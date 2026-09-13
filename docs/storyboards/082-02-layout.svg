@@ -63,7 +63,7 @@
     ],
     &quot;reconstructed&quot;: false,
     &quot;shot&quot;: &quot;row&quot;,
-    &quot;source&quot;: &quot;\n**Location:** `evaluation-transcript-archive`\n\n**Frame:** The transcript instead returns a visibly unrelated replacement marker, also abstracted.\n\n**Font:** `editorial`\n\n**Screen / system text:**\n`RETURNED MARKER DOES NOT MATCH THE DISPLAYED CALL`\n\n**Font:** `narration`\n\n**Caption:**\n&gt; THE TOOL CALL SHOWN AND THE EXECUTION RESULT DO NOT MATCH.\n\n**Provenance:** `source-paraphrase` + `documented` — summarizes the output mismatch and METR&#x27;s interpretation.\n\n&quot;,
+    &quot;source&quot;: &quot;\n**Location:** `evaluation-transcript-archive`\n\n**Frame:** The transcript instead returns a visibly unrelated replacement marker, also abstracted.\n\n**Font:** `source-summary`\n\n**Screen / system text:**\n`RETURNED MARKER DOES NOT MATCH THE DISPLAYED CALL`\n\n**Font:** `narration`\n\n**Caption:**\n&gt; THE TOOL CALL SHOWN AND THE EXECUTION RESULT DO NOT MATCH.\n\n**Provenance:** `source-paraphrase` + `documented` — summarizes the output mismatch and METR&#x27;s interpretation.\n\n&quot;,
     &quot;title&quot;: &quot;An unrelated marker replaces the expected return&quot;
   }
 }

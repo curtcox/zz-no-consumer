@@ -96,7 +96,7 @@
     ],
     &quot;reconstructed&quot;: false,
     &quot;shot&quot;: &quot;split&quot;,
-    &quot;source&quot;: &quot;\n**Location:** `documentary-evidence-field`\n\n**Frame:** Two separate boxes share the model label `GPT-5.6 SOL`: one contains minority incident trajectories; the other contains later analysis runs. No arrow of memory or identity connects them.\n\n**Font:** `narration`\n\n**Caption:**\n&gt; THE SAME MODEL APPEARS ON BOTH SIDES OF THE REVIEW.\n&gt;\n&gt; NOT THE SAME RUN. NOT THE SAME MEMORY.\n\n**Provenance:** `documented` + `inferred` — model-level relationship sourced; non-identity boundary explicit.\n\n&quot;,
+    &quot;source&quot;: &quot;\n**Location:** `documentary-evidence-field`\n\n**Frame:** Two separate boxes share the model label `GPT-5.6 SOL`: one contains minority incident trajectories; the other contains later analysis runs. No arrow of memory or identity connects them.\n\n**Font:** `explanation`\n\n**Caption:**\n&gt; THE SAME MODEL APPEARS ON BOTH SIDES OF THE REVIEW.\n&gt;\n&gt; NOT THE SAME RUN. NOT THE SAME MEMORY.\n&gt; MODEL IDENTITY DOES NOT MAKE TWO EXECUTIONS ONE ACTOR. THE INVESTIGATION USES FRESH RUNS WITH A DIFFERENT ASSIGNMENT. THE CONCERN IS ABOUT THE RELIABILITY OF THE INSTRUMENT, NOT AN ESTABLISHED SHARED MEMORY WITH THE RUNS UNDER REVIEW.\n\n**Provenance:** `documented` + `inferred` — model-level relationship sourced; non-identity boundary explicit.\n\n&quot;,
     &quot;title&quot;: &quot;The same model label does not establish identity or memory&quot;
   }
 }

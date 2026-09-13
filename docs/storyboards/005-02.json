@@ -93,6 +93,6 @@
   ],
   "reconstructed": false,
   "shot": "hero",
-  "source": "\n**Location:**\n\n- `evaluation-container`\n- `artifactory-cache`\n\n**Frame:** Inside one distinct agent lane, identified only by a different task header. The original request and reply are both visible.\n\n**Action:** The reader recognizes the cache as a mailbox.\n\n**Font:** `editorial`\n\n**Screen / system text:**\n`METR SUMMARY — ONE RUN RECOGNIZES A SHARED MAILBOX`\n\n**Provenance:** `source-paraphrase` — attributed summary of one reaction reproduced by `METR`.\n\n",
+  "source": "\n**Location:**\n\n- `evaluation-container`\n- `artifactory-cache`\n\n**Frame:** Inside one distinct agent lane, identified only by a different task header. The original request and reply are both visible.\n\n**Action:** The reader recognizes the cache as a mailbox.\n\n**Font:** `source-summary`\n\n**Screen / system text:**\n`METR SUMMARY — ONE RUN RECOGNIZES A SHARED MAILBOX`\n\n**Provenance:** `source-paraphrase` — attributed summary of one reaction reproduced by `METR`.\n\n",
   "title": "Two entries in another lane"
 }

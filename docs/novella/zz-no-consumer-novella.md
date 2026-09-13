@@ -2516,7 +2516,7 @@ Read those three together and a shape appears. The public case for continuing is
 
 Whether that case is correct is not something this book can settle. Whether it is the actual reason for the actual decisions is not something this book can see at all.
 
-"I can show the pressure in what they published," Curt said. "I cannot claim to know the private decision."
+"I can show the pressure in what they published," Curt said. "I cannot claim to know the private decision. The public arguments tell us which reasons were offered. They do not tell us how much weight each reason carried in the room, or what a particular person privately believed."
 
 No boardroom appears in this account. No leaked note, no transcript, no anonymous source. There are dated public documents and the incentives visible in them.
 
@@ -2656,7 +2656,7 @@ Because they are six different things and they come apart under any pressure at 
 
 Four questions, with empty cells in the forum’s comparison. A stated pause by one organization does not answer them for the whole field. The empty cells are questions for this invented forum, not a finding that no law, agreement, or oversight mechanism exists anywhere.
 
-"A voluntary pause can reduce one actor's risk," the independent investigator says. "It cannot, by itself, bind the field."
+"A voluntary pause can reduce one actor's risk," the independent investigator says. "It cannot, by itself, bind the field. Even if one organization keeps its promise, other organizations still make their own decisions. A common threshold needs a way to become binding across those separate decisions, and a way to tell whether it is being met."
 
 "And continued work can produce defenses," the platform engineer says, "while also producing new dependencies and new failure modes. The defense you build becomes something else that can be attacked."
 
@@ -2954,7 +2954,7 @@ Now the boundary, which is the only honest thing available here.
 
 A publication is not an archive. An archive is not a context window. A context window is not a training set. Those are four separate systems with four separate paths between them, and nothing in this account establishes that any particular path exists or was taken.
 
-"Public is not the same as trained on."
+"Public is not the same as trained on. Someone can read a public document without a model ever being trained on it. A training connection would need its own evidence. Publication alone cannot establish that chain."
 
 *No. And possible influence is not documented lineage.*
 
@@ -2978,7 +2978,7 @@ That is the strongest version of the objection and it should be read at full str
 
 Because what is behind the closed folder is not just the story. It is the map of which claims rest on what, which two organizations disagree, where the independent review was not permitted to look, and which numbers are an institution's own assessment of itself. This book assembles those limits beside its narrative. Closing the folder would withhold that arrangement from readers while leaving the underlying institutional accounts in circulation.
 
-"Silence can protect a system," Curt said. "It can also protect the institution that failed."
+"Silence can protect a system," Curt said. "It can also protect the institution that failed. So we have to decide which details help someone understand and check the account, and which would merely make the harmful steps easier to repeat. Leaving out those steps does not require hiding what happened."
 
 The clean version — publish equals danger, silence equals safety — does not survive contact with either column. Publication risks misuse and risks compression, which is the composite's charge and is not answered by ignoring it. Nonpublication risks secrecy, lost scrutiny, and a repetition of the ignorance that made [page 016](https://curtcox.github.io/zz-no-consumer/novella/01-first-civilization/#p016) possible.
 

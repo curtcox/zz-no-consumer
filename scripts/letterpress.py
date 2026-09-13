@@ -394,7 +394,8 @@ def cmd_page(args: argparse.Namespace) -> int:
 
 def cmd_audit(args: argparse.Namespace) -> int:
     """Check the effective reader layout, including storyboard placements."""
-    errors = font_key.check()
+    import panels
+    errors = font_key.check() + panels.word_limit_errors(panels.read_scripts())
     if errors:
         print("\n".join(errors))
         return 1

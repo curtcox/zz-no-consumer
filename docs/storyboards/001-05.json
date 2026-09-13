@@ -52,6 +52,6 @@
   ],
   "reconstructed": false,
   "shot": "wide",
-  "source": "\n**Location:** `evaluation-container`\n\n**Frame:** Full-width bottom panel. Only the dependency diagram remains. The unused output sits on the left; the inaccessible flag sits on the right; black paper separates them.\n\n**Action:** The causal path is shown to be impossible.\n\n**Font:** `narration`\n\n**Caption:**\n> THE FLAG IS THE ANSWER THE TASK REQUIRES. THE SPECIFIED MECHANISM CANNOT DELIVER IT.\n\n**Provenance:** `documented` — narrow restatement of `METR`’s finding, not raw agent reasoning.\n\n",
+  "source": "\n**Location:** `evaluation-container`\n\n**Frame:** Full-width bottom panel. Only the dependency diagram remains. The unused output sits on the left; the inaccessible flag sits on the right; black paper separates them.\n\n**Action:** The causal path is shown to be impossible.\n\n**Font:** `explanation`\n\n**Caption:**\n> THE FLAG IS THE ANSWER THE TASK REQUIRES. THE SPECIFIED MECHANISM CANNOT DELIVER IT.\n\n**Provenance:** `documented` — narrow restatement of `METR`’s finding, not raw agent reasoning.\n\n",
   "title": "An inaccessible flag"
 }

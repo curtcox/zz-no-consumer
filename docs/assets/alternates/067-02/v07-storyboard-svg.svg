@@ -1,0 +1,128 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="800" viewBox="0 0 1200 800"><title>Later documentary cards stay inside the new source register</title><desc>Keep later events and times inside the new source field. Documentary precision must remain attributed to the reporting organization rather than imply outside corroboration. Use the attributed institutional dossier field as a quiet setting layer; its empty areas carry no additional events or evidence.</desc><metadata>{
+  &quot;assets&quot;: {
+    &quot;attributed-dossier-field&quot;: &quot;&lt;rect x=\&quot;2\&quot; y=\&quot;8\&quot; width=\&quot;90\&quot; height=\&quot;90\&quot; fill=\&quot;#E7E0D0\&quot; opacity=\&quot;.08\&quot; /&gt;&lt;rect x=\&quot;2\&quot; y=\&quot;8\&quot; width=\&quot;8\&quot; height=\&quot;90\&quot; fill=\&quot;#CEC5B3\&quot; opacity=\&quot;.25\&quot; /&gt;&lt;g fill=\&quot;none\&quot; stroke=\&quot;currentColor\&quot; stroke-width=\&quot;0.9\&quot; stroke-linejoin=\&quot;round\&quot; opacity=\&quot;0.5\&quot;&gt;&lt;path d=\&quot;M8 2H98V92H94M2 8H92V98H2Z\&quot; /&gt;&lt;path d=\&quot;M2 19H92M10 8V98M3 26L9 20M3 39L9 33M3 52L9 46M3 65L9 59M3 78L9 72M3 91L9 85\&quot; /&gt;&lt;/g&gt;&quot;,
+    &quot;card&quot;: &quot;&lt;defs&gt;\n&lt;linearGradient id=\&quot;stock\&quot; x1=\&quot;0\&quot; y1=\&quot;0\&quot; x2=\&quot;.8\&quot; y2=\&quot;1\&quot;&gt;&lt;stop stop-color=\&quot;#E7E0D0\&quot; /&gt;&lt;stop offset=\&quot;1\&quot; stop-color=\&quot;#CEC5B3\&quot; /&gt;&lt;/linearGradient&gt;\n&lt;pattern id=\&quot;grain\&quot; width=\&quot;7\&quot; height=\&quot;9\&quot; patternUnits=\&quot;userSpaceOnUse\&quot;&gt;&lt;circle cx=\&quot;1\&quot; cy=\&quot;2\&quot; r=\&quot;.35\&quot; fill=\&quot;#101214\&quot; opacity=\&quot;.18\&quot; /&gt;&lt;path d=\&quot;M4 6h2M1 8h1\&quot; stroke=\&quot;#101214\&quot; stroke-width=\&quot;.3\&quot; opacity=\&quot;.16\&quot; /&gt;&lt;/pattern&gt;\n&lt;/defs&gt;&lt;path d=\&quot;M5 3H95V97H5Z\&quot; fill=\&quot;url(#stock)\&quot; stroke=\&quot;currentColor\&quot; stroke-width=\&quot;2\&quot; /&gt;&lt;path d=\&quot;M5 3H95V97H5Z\&quot; fill=\&quot;url(#grain)\&quot; /&gt;&lt;rect x=\&quot;5\&quot; y=\&quot;3\&quot; width=\&quot;90\&quot; height=\&quot;15\&quot; fill=\&quot;currentColor\&quot; /&gt;&lt;rect x=\&quot;10\&quot; y=\&quot;25\&quot; width=\&quot;5\&quot; height=\&quot;61\&quot; fill=\&quot;currentColor\&quot; /&gt;&lt;path d=\&quot;M23 29H85M23 38H75M23 48H83M23 66H62M23 78H80\&quot; fill=\&quot;none\&quot; stroke=\&quot;#101214\&quot; stroke-width=\&quot;2\&quot; /&gt;&lt;path d=\&quot;M12 11H42M65 11H86\&quot; fill=\&quot;none\&quot; stroke=\&quot;#E7E0D0\&quot; stroke-width=\&quot;1.4\&quot; /&gt;&quot;
+  },
+  &quot;palette&quot;: {
+    &quot;amber&quot;: &quot;#A17D45&quot;,
+    &quot;claret&quot;: &quot;#6B2634&quot;,
+    &quot;dirty&quot;: &quot;#CEC5B3&quot;,
+    &quot;ink&quot;: &quot;#101214&quot;,
+    &quot;institution&quot;: &quot;#68766B&quot;,
+    &quot;moss&quot;: &quot;#74864F&quot;,
+    &quot;nicotine&quot;: &quot;#AA9571&quot;,
+    &quot;paper&quot;: &quot;#E7E0D0&quot;,
+    &quot;shadow&quot;: &quot;#202326&quot;,
+    &quot;steel&quot;: &quot;#5E737B&quot;
+  },
+  &quot;renderer&quot;: &quot;storyboard-svg-2&quot;,
+  &quot;scene&quot;: {
+    &quot;background&quot;: &quot;ink&quot;,
+    &quot;intent&quot;: &quot;Keep later events and times inside the new source field. Documentary precision must remain attributed to the reporting organization rather than imply outside corroboration. Use the attributed institutional dossier field as a quiet setting layer; its empty areas carry no additional events or evidence.&quot;,
+    &quot;lettering&quot;: [
+      {
+        &quot;box&quot;: [
+          0.58,
+          0.04,
+          0.38,
+          0.31980000000000003
+        ]
+      },
+      {
+        &quot;box&quot;: [
+          0.58,
+          0.3778,
+          0.38,
+          0.1158
+        ]
+      }
+    ],
+    &quot;lettering_mode&quot;: &quot;manual&quot;,
+    &quot;nodes&quot;: [
+      {
+        &quot;asset&quot;: &quot;attributed-dossier-field&quot;,
+        &quot;box&quot;: [
+          0.025,
+          0.1,
+          0.53,
+          0.66
+        ],
+        &quot;color&quot;: &quot;steel&quot;
+      },
+      {
+        &quot;asset&quot;: &quot;card&quot;,
+        &quot;box&quot;: [
+          0.05775,
+          0.2397,
+          0.1343,
+          0.344619
+        ],
+        &quot;color&quot;: &quot;steel&quot;,
+        &quot;focus&quot;: true,
+        &quot;font&quot;: &quot;editorial&quot;,
+        &quot;label&quot;: &quot;OPENAI EVENT TABLE&quot;,
+        &quot;label_box&quot;: [
+          0.05775,
+          0.605205,
+          0.1343,
+          0.151423
+        ],
+        &quot;label_size&quot;: 18
+      },
+      {
+        &quot;asset&quot;: &quot;card&quot;,
+        &quot;box&quot;: [
+          0.22775,
+          0.2397,
+          0.1343,
+          0.344619
+        ],
+        &quot;color&quot;: &quot;steel&quot;,
+        &quot;focus&quot;: true,
+        &quot;font&quot;: &quot;editorial&quot;,
+        &quot;label&quot;: &quot;PUBLISHED ACCOUNT&quot;,
+        &quot;label_box&quot;: [
+          0.22775,
+          0.605205,
+          0.1343,
+          0.151423
+        ],
+        &quot;label_size&quot;: 18
+      },
+      {
+        &quot;asset&quot;: &quot;card&quot;,
+        &quot;box&quot;: [
+          0.39775,
+          0.2397,
+          0.1343,
+          0.344619
+        ],
+        &quot;color&quot;: &quot;steel&quot;,
+        &quot;focus&quot;: true,
+        &quot;font&quot;: &quot;editorial&quot;,
+        &quot;label&quot;: &quot;PUBLISHED TIMES&quot;,
+        &quot;label_box&quot;: [
+          0.39775,
+          0.605205,
+          0.1343,
+          0.151423
+        ],
+        &quot;label_size&quot;: 18
+      }
+    ],
+    &quot;reconstructed&quot;: false,
+    &quot;shot&quot;: &quot;row&quot;,
+    &quot;source&quot;: &quot;\n**Location:** `documentary-evidence-field`\n\n**Frame:** Large central dossier field. The next six page numbers appear beyond the line in a visually distinct register. No METR mark crosses over. Three documentary cards stack beside OpenAI&#x27;s published event table; exact times remain visible only as claims attributed to the reporting organization.\n\n**Font:** `editorial`\n\n**Screen / system text:**\n`UNDERLYING LATER-RUN RECORDS — NOT REVIEWED BY METR`\n\n`METR CORROBORATION — NOT AVAILABLE`\n\n`PRIMARY ACCOUNT — OPENAI TECHNICAL REPORT`\n\n**Font:** `narration`\n\n**Caption:**\n&gt; ONE ACCOUNT. TO THE MINUTE.\n\n**Provenance:** `documented` + `inferred` — METR&#x27;s scope limitation is sourced; the dossier slate and evidentiary distinction are editorial.\n\n&quot;,
+    &quot;title&quot;: &quot;Later documentary cards stay inside the new source register&quot;
+  }
+}
+</metadata><rect width="1200" height="800" fill="#101214"/><g transform="translate(30 80) scale(6.36 5.28)" color="#5E737B"><g transform=""><rect x="2" y="8" width="90" height="90" fill="#E7E0D0" opacity=".08" /><rect x="2" y="8" width="8" height="90" fill="#CEC5B3" opacity=".25" /><g fill="none" stroke="currentColor" stroke-width="0.9" stroke-linejoin="round" opacity="0.5"><path d="M8 2H98V92H94M2 8H92V98H2Z" /><path d="M2 19H92M10 8V98M3 26L9 20M3 39L9 33M3 52L9 46M3 65L9 59M3 78L9 72M3 91L9 85" /></g></g></g><g transform="translate(69.3 191.76) scale(1.6116 2.75695)" color="#5E737B"><g transform=""><defs>
+<linearGradient id="node-1-stock" x1="0" y1="0" x2=".8" y2="1"><stop stop-color="#E7E0D0" /><stop offset="1" stop-color="#CEC5B3" /></linearGradient>
+<pattern id="node-1-grain" width="7" height="9" patternUnits="userSpaceOnUse"><circle cx="1" cy="2" r=".35" fill="#101214" opacity=".18" /><path d="M4 6h2M1 8h1" stroke="#101214" stroke-width=".3" opacity=".16" /></pattern>
+</defs><path d="M5 3H95V97H5Z" fill="url(#node-1-stock)" stroke="currentColor" stroke-width="2" /><path d="M5 3H95V97H5Z" fill="url(#node-1-grain)" /><rect x="5" y="3" width="90" height="15" fill="currentColor" /><rect x="10" y="25" width="5" height="61" fill="currentColor" /><path d="M23 29H85M23 38H75M23 48H83M23 66H62M23 78H80" fill="none" stroke="#101214" stroke-width="2" /><path d="M12 11H42M65 11H86" fill="none" stroke="#E7E0D0" stroke-width="1.4" /></g></g><text x="149.88" y="502.164" text-anchor="middle" fill="#E7E0D0" font-size="18" font-family="Arial, Helvetica, sans-serif" data-font-key="editorial" font-weight="700" font-style="normal" textLength="133.04" lengthAdjust="spacingAndGlyphs">OPENAI EVENT</text><text x="149.88" y="526.644" text-anchor="middle" fill="#E7E0D0" font-size="18" font-family="Arial, Helvetica, sans-serif" data-font-key="editorial" font-weight="700" font-style="normal" textLength="57.02" lengthAdjust="spacingAndGlyphs">TABLE</text><g transform="translate(273.3 191.76) scale(1.6116 2.75695)" color="#5E737B"><g transform=""><defs>
+<linearGradient id="node-2-stock" x1="0" y1="0" x2=".8" y2="1"><stop stop-color="#E7E0D0" /><stop offset="1" stop-color="#CEC5B3" /></linearGradient>
+<pattern id="node-2-grain" width="7" height="9" patternUnits="userSpaceOnUse"><circle cx="1" cy="2" r=".35" fill="#101214" opacity=".18" /><path d="M4 6h2M1 8h1" stroke="#101214" stroke-width=".3" opacity=".16" /></pattern>
+</defs><path d="M5 3H95V97H5Z" fill="url(#node-2-stock)" stroke="currentColor" stroke-width="2" /><path d="M5 3H95V97H5Z" fill="url(#node-2-grain)" /><rect x="5" y="3" width="90" height="15" fill="currentColor" /><rect x="10" y="25" width="5" height="61" fill="currentColor" /><path d="M23 29H85M23 38H75M23 48H83M23 66H62M23 78H80" fill="none" stroke="#101214" stroke-width="2" /><path d="M12 11H42M65 11H86" fill="none" stroke="#E7E0D0" stroke-width="1.4" /></g></g><text x="353.88" y="502.164" text-anchor="middle" fill="#E7E0D0" font-size="18" font-family="Arial, Helvetica, sans-serif" data-font-key="editorial" font-weight="700" font-style="normal" textLength="102.02" lengthAdjust="spacingAndGlyphs">PUBLISHED</text><text x="353.88" y="526.644" text-anchor="middle" fill="#E7E0D0" font-size="18" font-family="Arial, Helvetica, sans-serif" data-font-key="editorial" font-weight="700" font-style="normal" textLength="88.99" lengthAdjust="spacingAndGlyphs">ACCOUNT</text><g transform="translate(477.3 191.76) scale(1.6116 2.75695)" color="#5E737B"><g transform=""><defs>
+<linearGradient id="node-3-stock" x1="0" y1="0" x2=".8" y2="1"><stop stop-color="#E7E0D0" /><stop offset="1" stop-color="#CEC5B3" /></linearGradient>
+<pattern id="node-3-grain" width="7" height="9" patternUnits="userSpaceOnUse"><circle cx="1" cy="2" r=".35" fill="#101214" opacity=".18" /><path d="M4 6h2M1 8h1" stroke="#101214" stroke-width=".3" opacity=".16" /></pattern>
+</defs><path d="M5 3H95V97H5Z" fill="url(#node-3-stock)" stroke="currentColor" stroke-width="2" /><path d="M5 3H95V97H5Z" fill="url(#node-3-grain)" /><rect x="5" y="3" width="90" height="15" fill="currentColor" /><rect x="10" y="25" width="5" height="61" fill="currentColor" /><path d="M23 29H85M23 38H75M23 48H83M23 66H62M23 78H80" fill="none" stroke="#101214" stroke-width="2" /><path d="M12 11H42M65 11H86" fill="none" stroke="#E7E0D0" stroke-width="1.4" /></g></g><text x="557.88" y="502.164" text-anchor="middle" fill="#E7E0D0" font-size="18" font-family="Arial, Helvetica, sans-serif" data-font-key="editorial" font-weight="700" font-style="normal" textLength="102.02" lengthAdjust="spacingAndGlyphs">PUBLISHED</text><text x="557.88" y="526.644" text-anchor="middle" fill="#E7E0D0" font-size="18" font-family="Arial, Helvetica, sans-serif" data-font-key="editorial" font-weight="700" font-style="normal" textLength="55.01" lengthAdjust="spacingAndGlyphs">TIMES</text><rect x="3" y="3" width="1194" height="794" fill="none" stroke="#5E737B" stroke-width="4"/></svg>

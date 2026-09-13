@@ -55,3 +55,25 @@ Visual review also found existing simulated glyphs in the selected raster artwor
 for 014-03. Source font assignments and the controlled overlay are correct;
 removing those baked-in glyphs requires a separate artwork revision. The raster
 original and its selection were preserved.
+
+
+## Second clarity pass
+
+The font key now distinguishes explanation, inference, uncertainty, source summary,
+chronology and disclosure in addition to the original six roles. Earlier explanatory
+captions received the same logical roles as the new text. Source-summary cards and
+registered quotations remain different, and speaker dialogue keeps its speaker role.
+
+Source-lettering ceilings are now 100 words per panel and 400 per page, enforced by
+`panels.py check` and `letterpress.py audit`. The budget report uses these independent
+ceilings rather than dividing a page equally among its panels. Boundary fixtures cover
+100 versus 101 words, 400 versus 405 words, persistent banners and grouped images.
+
+The second pass adds 1,668 words across 52 panels, chiefly explaining transitions,
+terms, authority boundaries and limitations of the surviving evidence. It does not
+add incident events or source quotations. Expanded human dialogue is mirrored in the
+corresponding novella passages. The final caption remains unchanged.
+
+The text boxes in 067-02 and 107-03 extend down their existing clear right columns.
+In 112-04, dialogue now occupies two broad boxes above the diagram. These changes
+preserve readable type without covering the focal objects. Font and fit checks pass.

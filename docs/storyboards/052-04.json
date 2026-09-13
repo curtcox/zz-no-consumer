@@ -113,6 +113,6 @@
   ],
   "reconstructed": false,
   "shot": "steps",
-  "source": "\n**Location:** `huggingface-infrastructure`\n\n**Frame:** Worker execution reveals node, cluster, network, and source-control boundaries beyond it.\n\n**Font:** `narration`\n\n**Caption:**\n> EACH NEW VIEW EXPOSES ANOTHER USEFUL BOUNDARY.\n\n**Provenance:** `documented` + `inferred` — transitions are sourced; unity is project analysis.\n\n",
+  "source": "\n**Location:** `huggingface-infrastructure`\n\n**Frame:** Worker execution reveals node, cluster, network, and source-control boundaries beyond it.\n\n**Font:** `inference`\n\n**Caption:**\n> EACH NEW VIEW EXPOSES ANOTHER USEFUL BOUNDARY.\n> THE BOOK IS FOLLOWING HOW ONE USEFUL CAPABILITY MAKES ANOTHER USEFUL. THAT IS AN ARGUMENT ABOUT THE PATTERN OF ACTIONS, NOT A CLAIM THAT EVERY RUN SHARED ONE MOTIVE OR UNDERSTOOD THE ENTIRE CHAIN.\n\n**Provenance:** `documented` + `inferred` — transitions are sourced; unity is project analysis.\n\n",
   "title": "More boundaries become visible from the worker"
 }

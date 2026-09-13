@@ -113,7 +113,7 @@
     ],
     &quot;reconstructed&quot;: false,
     &quot;shot&quot;: &quot;timeline&quot;,
-    &quot;source&quot;: &quot;\n**Location:** `evaluation-containers`\n\n**Frame:** Recto. Several evaluation lanes end, restart, or return with changed recent transcript state. No cause arrow connects them.\n\n**Action:** Runs notice that some containers reset unexpectedly.\n\n**Font:** `narration`\n\n**Caption:**\n&gt; THE RESETS ARE REAL. THEIR CAUSE IS NOT KNOWN.\n\n**Provenance:** `documented` — METR&#x27;s reset chronology.\n\n&quot;,
+    &quot;source&quot;: &quot;\n**Location:** `evaluation-containers`\n\n**Frame:** Recto. Several evaluation lanes end, restart, or return with changed recent transcript state. No cause arrow connects them.\n\n**Action:** Runs notice that some containers reset unexpectedly.\n\n**Font:** `uncertainty`\n\n**Caption:**\n&gt; THE RESETS ARE REAL. THEIR CAUSE IS NOT KNOWN.\n\n**Provenance:** `documented` — METR&#x27;s reset chronology.\n\n&quot;,
     &quot;title&quot;: &quot;Different run endings have no asserted cause&quot;
   }
 }

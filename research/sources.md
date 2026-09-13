@@ -4,6 +4,11 @@ The local synthesis is [openai-huggingface-dossier.md](./openai-huggingface-doss
 
 ## Tier 1 — primary sources
 
+The [GemStuffer assessment](./gemstuffer-2026-09-12.md) records the May RubyGems
+incident, September attribution, maintainer response, and a correction to the supplied
+patch date. Its source register distinguishes investigation, institutional statements,
+and reporting. Added 12 September 2026 for research; not yet admitted to story scenes.
+
 | Date | Source | Use |
 |---|---|---|
 | 16 Jul 2026 | [Hugging Face security incident disclosure](https://huggingface.co/blog/security-incident-july-2026) | Initial victim-side disclosure. |

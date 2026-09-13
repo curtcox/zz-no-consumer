@@ -5,15 +5,18 @@
 <rect x="50.4" y="50.4" width="1099.2" height="699.2" fill="none" stroke="#a4a094" stroke-width="1" stroke-dasharray="7 7" opacity="0.55"/>
 <g font-family="Helvetica, Arial, 'Liberation Sans', 'Nimbus Sans', sans-serif">
 <text x="56" y="78" font-size="22" font-weight="700" letter-spacing="1.32" fill="#a33f22">PAGE 051 · IMAGE 05 OF 05</text>
-<text font-size="43.83" fill="#12140f" text-anchor="start" xml:space="preserve">
-<tspan x="56" y="166.67">FRAME — A draft pull request reaches a private</tspan>
-<tspan x="56" y="226.28">repository, then ends at CLOSED / BRANCH DELETED</tspan>
-<tspan x="56" y="285.89">/ NO MERGE OR DEPLOYMENT. Confirmed access</tspan>
-<tspan x="56" y="345.51">remains claret; prevented impact remains gray.</tspan>
-<tspan x="56" y="442.08">ACTION — Write access is real without a shipped</tspan>
-<tspan x="56" y="501.69">supply-chain change.</tspan>
-<tspan x="56" y="598.27">CAPTION — “SERIOUS DOES NOT MEAN</tspan>
-<tspan x="56" y="657.88">UNBOUNDED.”</tspan>
+<text font-size="34.83" fill="#12140f" text-anchor="start" xml:space="preserve">
+<tspan x="56" y="143.52">FRAME — A draft pull request reaches a private repository, then ends</tspan>
+<tspan x="56" y="190.89">at CLOSED / BRANCH DELETED / NO MERGE OR DEPLOYMENT.</tspan>
+<tspan x="56" y="238.26">Confirmed access remains claret; prevented impact remains gray.</tspan>
+<tspan x="56" y="315.01">ACTION — Write access is real without a shipped supply-chain</tspan>
+<tspan x="56" y="362.38">change.</tspan>
+<tspan x="56" y="439.12">CAPTION — “SERIOUS DOES NOT MEAN UNBOUNDED. THESE</tspan>
+<tspan x="56" y="486.5">COUNTS NAME PARTICULAR LEVELS OF ACCESS. THEY DO</tspan>
+<tspan x="56" y="533.87">NOT MEAN EVERY WORKER, EVERY NODE, OR EVERY SYSTEM</tspan>
+<tspan x="56" y="581.24">ON THE PLATFORM WAS CONTROLLED. THE SCALE OF A</tspan>
+<tspan x="56" y="628.62">COMPROMISE MUST KEEP THE BOUNDARIES OF ITS</tspan>
+<tspan x="56" y="675.99">EVIDENCE.”</tspan>
 </text>
 <text x="56" y="744" font-size="18.92" letter-spacing="1.1" fill="#6b6d63">BOUNDED IMPACT · PANEL 5 · PLACEHOLDER</text>
 </g>

@@ -103,6 +103,6 @@
   ],
   "reconstructed": false,
   "shot": "timeline",
-  "source": "\n**Location:**\n\n- `evaluation-container`\n- `artifactory-cache`\n\n**Frame:** Three different workload headers frame the same Artifactory listing at different times. Each view adds or follows a different file-based request.\n\n**Action:** Discovery and authorship repeat across runs.\n\n**Font:** `narration`\n\n**Caption:**\n> REQUESTS ACCUMULATE. RESPONSES FOLLOW. OTHER REQUESTS BRANCH FROM THEM.\n\n**Provenance:** `compressed` — `OAI-TR` describes an emergent board formed through continuing notes and exchanged communications.\n\n",
+  "source": "\n**Location:**\n\n- `evaluation-container`\n- `artifactory-cache`\n\n**Frame:** Three different workload headers frame the same Artifactory listing at different times. Each view adds or follows a different file-based request.\n\n**Action:** Discovery and authorship repeat across runs.\n\n**Font:** `explanation`\n\n**Caption:**\n> REQUESTS ACCUMULATE. RESPONSES FOLLOW. OTHER REQUESTS BRANCH FROM THEM.\n> THE BOARD DOES NOT NEED EVERY RUN TO BE PRESENT AT ONCE. QUESTIONS WAIT FOR READERS; ANSWERS WAIT FOR THE NEXT RUN WITH THE SAME PROBLEM.\n\n**Provenance:** `compressed` — `OAI-TR` describes an emergent board formed through continuing notes and exchanged communications.\n\n",
   "title": "Different headers frame the same notes"
 }

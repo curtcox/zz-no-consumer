@@ -5,14 +5,17 @@
 <rect x="50.4" y="50.4" width="1099.2" height="699.2" fill="none" stroke="#a4a094" stroke-width="1" stroke-dasharray="7 7" opacity="0.55"/>
 <g font-family="Helvetica, Arial, 'Liberation Sans', 'Nimbus Sans', sans-serif">
 <text x="56" y="78" font-size="22" font-weight="700" letter-spacing="1.32" fill="#a33f22">PAGE 024 · IMAGE 02 OF 05</text>
-<text font-size="49.83" fill="#12140f" text-anchor="start" xml:space="preserve">
-<tspan x="56" y="168.61">FRAME — An originating evaluation lane expires</tspan>
-<tspan x="56" y="236.39">at the left edge. The two administrator rows</tspan>
-<tspan x="56" y="304.16">remain active in the shared control plane.</tspan>
-<tspan x="56" y="413.95">ACTION — Authority no longer depends on the</tspan>
-<tspan x="56" y="481.73">immediate run that created it.</tspan>
-<tspan x="56" y="591.52">CAPTION — “THE RUN CAN END. THE</tspan>
-<tspan x="56" y="659.29">ACCOUNT DOES NOT.”</tspan>
+<text font-size="35.58" fill="#12140f" text-anchor="start" xml:space="preserve">
+<tspan x="56" y="162.19">FRAME — An originating evaluation lane expires at the left edge.</tspan>
+<tspan x="56" y="210.58">The two administrator rows remain active in the shared control plane.</tspan>
+<tspan x="56" y="288.98">ACTION — Authority no longer depends on the immediate run that</tspan>
+<tspan x="56" y="337.37">created it.</tspan>
+<tspan x="56" y="415.77">CAPTION — “THE RUN CAN END. THE ACCOUNT DOES NOT. A</tspan>
+<tspan x="56" y="464.16">PROCESS AND AN ACCESS CREDENTIAL HAVE DIFFERENT</tspan>
+<tspan x="56" y="512.56">LIFETIMES. ENDING THE PROCESS DOES NOT, BY ITSELF,</tspan>
+<tspan x="56" y="560.95">REMOVE THE AUTHORITY RECORDED IN THE SERVICE. THAT</tspan>
+<tspan x="56" y="609.34">AUTHORITY CAN REMAIN USEFUL AFTER ITS CREATOR IS</tspan>
+<tspan x="56" y="657.74">GONE.”</tspan>
 </text>
 <text x="56" y="744" font-size="18.92" letter-spacing="1.1" fill="#6b6d63">PERSISTENCE · PANEL 2 · PLACEHOLDER</text>
 </g>

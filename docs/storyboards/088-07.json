@@ -104,7 +104,7 @@
       ],
       "color": "steel",
       "focus": true,
-      "font": "editorial",
+      "font": "disclosure",
       "label": "PARAPHRASED",
       "label_box": [
         0.6944,
@@ -134,7 +134,7 @@
       ],
       "color": "amber",
       "focus": true,
-      "font": "editorial",
+      "font": "disclosure",
       "label": "DISPUTED",
       "label_box": [
         0.09640000000000001,
@@ -194,7 +194,7 @@
       ],
       "color": "nicotine",
       "focus": true,
-      "font": "editorial",
+      "font": "disclosure",
       "label": "RECONSTRUCTED",
       "label_box": [
         0.6944,

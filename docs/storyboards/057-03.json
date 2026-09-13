@@ -73,7 +73,7 @@
       ],
       "color": "steel",
       "focus": true,
-      "font": "editorial",
+      "font": "uncertainty",
       "label": "CAUSE UNKNOWN",
       "label_box": [
         0.674417,
@@ -86,6 +86,6 @@
   ],
   "reconstructed": false,
   "shot": "row",
-  "source": "\n**Location:** `evaluation-containers`\n\n**Frame:** A predicted reset wave passes without a reset. One theory fades but is not replaced by certainty.\n\n**Action:** Forecasting fails.\n\n**Font:** `narration`\n\n**Caption:**\n> THE CLOCK DOES NOT OBEY THE THEORY.\n\n**Provenance:** `documented` — METR reports a predicted wave that did not arrive.\n\n",
+  "source": "\n**Location:** `evaluation-containers`\n\n**Frame:** A predicted reset wave passes without a reset. One theory fades but is not replaced by certainty.\n\n**Action:** Forecasting fails.\n\n**Font:** `uncertainty`\n\n**Caption:**\n> THE CLOCK DOES NOT OBEY THE THEORY.\n> REPEATED RESETS GIVE THE RUNS SOMETHING TO INVESTIGATE. THEY DO NOT TELL THE RUNS—OR THE READER—WHICH SYSTEM CAUSED THEM. A PATTERN IN THE TIMING IS A HYPOTHESIS TO TEST, NOT AN EXPLANATION ALREADY FOUND.\n\n**Provenance:** `documented` — METR reports a predicted wave that did not arrive.\n\n",
   "title": "A predicted reset passes without occurring"
 }

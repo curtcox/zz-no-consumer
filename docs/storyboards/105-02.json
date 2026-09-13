@@ -53,7 +53,7 @@
       ],
       "color": "amber",
       "focus": true,
-      "font": "editorial",
+      "font": "disclosure",
       "label": "DISPUTED",
       "label_box": [
         0.29525,
@@ -73,7 +73,7 @@
       ],
       "color": "nicotine",
       "focus": true,
-      "font": "editorial",
+      "font": "disclosure",
       "label": "RECONSTRUCTED",
       "label_box": [
         0.52275,
@@ -93,7 +93,7 @@
       ],
       "color": "nicotine",
       "focus": true,
-      "font": "editorial",
+      "font": "disclosure",
       "label": "INVENTED",
       "label_box": [
         0.75025,

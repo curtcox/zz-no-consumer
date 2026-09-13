@@ -1,0 +1,81 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="800" viewBox="0 0 1200 800"><title>The repeated notice wording stays in the tooling register</title><desc>Let the registered notice sentence dominate while both dates remain attached. Controlled lettering preserves the record&#x27;s wording; visual emphasis must not broaden what it proves.</desc><metadata>{
+  &quot;assets&quot;: {
+    &quot;location-background-creator-production-tooling&quot;: &quot;&lt;title&gt;Terminal gutter and diff rails — scan&lt;/title&gt;&lt;defs&gt;&lt;linearGradient id=\&quot;wash\&quot; x1=\&quot;0\&quot; y1=\&quot;0\&quot; x2=\&quot;1\&quot; y2=\&quot;1\&quot;&gt;&lt;stop stop-color=\&quot;#87AAB3\&quot; stop-opacity=\&quot;.45\&quot;/&gt;&lt;stop offset=\&quot;.5\&quot; stop-color=\&quot;#293D44\&quot; stop-opacity=\&quot;.22\&quot;/&gt;&lt;stop offset=\&quot;1\&quot; stop-color=\&quot;#87AAB3\&quot; stop-opacity=\&quot;.27\&quot;/&gt;&lt;/linearGradient&gt;&lt;radialGradient id=\&quot;fade\&quot;&gt;&lt;stop offset=\&quot;.35\&quot; stop-color=\&quot;black\&quot;/&gt;&lt;stop offset=\&quot;.7\&quot; stop-color=\&quot;#555555\&quot;/&gt;&lt;stop offset=\&quot;1\&quot; stop-color=\&quot;white\&quot;/&gt;&lt;/radialGradient&gt;&lt;mask id=\&quot;rim\&quot;&gt;&lt;rect width=\&quot;100\&quot; height=\&quot;100\&quot; fill=\&quot;url(#fade)\&quot;/&gt;&lt;/mask&gt;&lt;pattern id=\&quot;material\&quot; width=\&quot;16\&quot; height=\&quot;16\&quot; patternUnits=\&quot;userSpaceOnUse\&quot;&gt;&lt;g fill=\&quot;none\&quot; stroke=\&quot;#87AAB3\&quot; stroke-width=\&quot;.3\&quot; opacity=\&quot;.55\&quot;&gt;&lt;path d=\&quot;M0 3H16M0 7H16M0 11H16M0 15H16\&quot;/&gt;&lt;/g&gt;&lt;/pattern&gt;&lt;/defs&gt;\n&lt;rect x=\&quot;3\&quot; y=\&quot;3\&quot; width=\&quot;94\&quot; height=\&quot;94\&quot; rx=\&quot;1\&quot; fill=\&quot;url(#wash)\&quot;/&gt;&lt;rect x=\&quot;3\&quot; y=\&quot;3\&quot; width=\&quot;94\&quot; height=\&quot;94\&quot; fill=\&quot;url(#material)\&quot; mask=\&quot;url(#rim)\&quot;/&gt;&lt;path d=\&quot;M3 3H20V97H3Z\&quot; fill=\&quot;#293D44\&quot; opacity=\&quot;.58\&quot;/&gt;&lt;path d=\&quot;M3 3H20V97H3Z\&quot; fill=\&quot;url(#material)\&quot;/&gt;&lt;path d=\&quot;M20 4V96\&quot; fill=\&quot;none\&quot; stroke=\&quot;#87AAB3\&quot; opacity=\&quot;.4\&quot; stroke-width=\&quot;.6\&quot;/&gt;&lt;path d=\&quot;M4 10H96V90H4ZM4 19H96M9 14H13M17 14H21M9 27L14 31L9 35M17 35H23M7 73H16M11 69V77M84 78H93M28 85H72\&quot; fill=\&quot;none\&quot; stroke=\&quot;#080B0D\&quot; stroke-width=\&quot;1.7\&quot; opacity=\&quot;.45\&quot; transform=\&quot;translate(.35 .5)\&quot;/&gt;&lt;path d=\&quot;M4 10H96V90H4ZM4 19H96M9 14H13M17 14H21M9 27L14 31L9 35M17 35H23M7 73H16M11 69V77M84 78H93M28 85H72\&quot; fill=\&quot;none\&quot; stroke=\&quot;#87AAB3\&quot; stroke-width=\&quot;.8\&quot; stroke-linejoin=\&quot;round\&quot; opacity=\&quot;.66\&quot;/&gt;&quot;,
+    &quot;terminal&quot;: &quot;&lt;defs&gt;\n&lt;linearGradient id=\&quot;glass\&quot; x1=\&quot;0\&quot; y1=\&quot;0\&quot; x2=\&quot;0\&quot; y2=\&quot;1\&quot;&gt;&lt;stop stop-color=\&quot;currentColor\&quot; stop-opacity=\&quot;.55\&quot; /&gt;&lt;stop offset=\&quot;1\&quot; stop-color=\&quot;#101214\&quot; /&gt;&lt;/linearGradient&gt;\n&lt;/defs&gt;&lt;rect x=\&quot;3\&quot; y=\&quot;5\&quot; width=\&quot;94\&quot; height=\&quot;90\&quot; rx=\&quot;3\&quot; fill=\&quot;#101214\&quot; stroke=\&quot;currentColor\&quot; stroke-width=\&quot;2.5\&quot; /&gt;&lt;rect x=\&quot;4\&quot; y=\&quot;6\&quot; width=\&quot;92\&quot; height=\&quot;13\&quot; fill=\&quot;currentColor\&quot; /&gt;&lt;path d=\&quot;M11 12H26M78 12H88\&quot; fill=\&quot;none\&quot; stroke=\&quot;#E7E0D0\&quot; stroke-width=\&quot;1\&quot; /&gt;&lt;rect x=\&quot;7\&quot; y=\&quot;23\&quot; width=\&quot;86\&quot; height=\&quot;66\&quot; fill=\&quot;url(#glass)\&quot; /&gt;&lt;path d=\&quot;M13 30L22 39 13 48M29 48H48\&quot; fill=\&quot;none\&quot; stroke=\&quot;currentColor\&quot; stroke-width=\&quot;3\&quot; /&gt;&lt;path d=\&quot;M13 63H79M13 75H66\&quot; fill=\&quot;none\&quot; stroke=\&quot;#E7E0D0\&quot; stroke-width=\&quot;1.3\&quot; /&gt;&lt;path d=\&quot;M7 89H93\&quot; fill=\&quot;none\&quot; stroke=\&quot;#E7E0D0\&quot; stroke-width=\&quot;0.8\&quot; opacity=\&quot;.3\&quot; /&gt;&quot;
+  },
+  &quot;palette&quot;: {
+    &quot;amber&quot;: &quot;#A17D45&quot;,
+    &quot;claret&quot;: &quot;#6B2634&quot;,
+    &quot;dirty&quot;: &quot;#CEC5B3&quot;,
+    &quot;ink&quot;: &quot;#101214&quot;,
+    &quot;institution&quot;: &quot;#68766B&quot;,
+    &quot;moss&quot;: &quot;#74864F&quot;,
+    &quot;nicotine&quot;: &quot;#AA9571&quot;,
+    &quot;paper&quot;: &quot;#E7E0D0&quot;,
+    &quot;shadow&quot;: &quot;#202326&quot;,
+    &quot;steel&quot;: &quot;#5E737B&quot;
+  },
+  &quot;renderer&quot;: &quot;storyboard-svg-2&quot;,
+  &quot;scene&quot;: {
+    &quot;background&quot;: &quot;ink&quot;,
+    &quot;intent&quot;: &quot;Let the registered notice sentence dominate while both dates remain attached. Controlled lettering preserves the record&#x27;s wording; visual emphasis must not broaden what it proves.&quot;,
+    &quot;lettering&quot;: [
+      {
+        &quot;box&quot;: [
+          0.58,
+          0.04,
+          0.38,
+          0.2382
+        ]
+      },
+      {
+        &quot;box&quot;: [
+          0.58,
+          0.29619999999999996,
+          0.38,
+          0.2382
+        ]
+      }
+    ],
+    &quot;lettering_mode&quot;: &quot;manual&quot;,
+    &quot;nodes&quot;: [
+      {
+        &quot;asset&quot;: &quot;location-background-creator-production-tooling&quot;,
+        &quot;box&quot;: [
+          0.02,
+          0.02,
+          0.96,
+          0.96
+        ],
+        &quot;color&quot;: &quot;steel&quot;
+      },
+      {
+        &quot;asset&quot;: &quot;terminal&quot;,
+        &quot;box&quot;: [
+          0.13,
+          0.1631,
+          0.29,
+          0.5394
+        ],
+        &quot;color&quot;: &quot;steel&quot;,
+        &quot;focus&quot;: true,
+        &quot;font&quot;: &quot;editorial&quot;,
+        &quot;label&quot;: &quot;STORED NOTICES&quot;,
+        &quot;label_box&quot;: [
+          0.122,
+          0.7085,
+          0.306,
+          0.085
+        ]
+      }
+    ],
+    &quot;reconstructed&quot;: false,
+    &quot;shot&quot;: &quot;hero&quot;,
+    &quot;source&quot;: &quot;\n**Location:** `creator-production-tooling`\n\n**Frame:** One sentence from the notices is lifted out and set large, in their own register.\nBehind it, small and unemphasized, the two dates.\n\n**Font:** `editorial`\n\n**Screen / system text — STORED NOTICE (PARAPHRASED):**\n`THE SAFEGUARDS ARE INTENTIONALLY BROAD. BREADTH LETS US DELIVER CAPABILITY FASTER.`\n\n**Font:** `narration`\n\n**Caption:**\n&gt; THIS BOOK CALLS THAT A RACE AND MARKS IT AS ITS OWN ANALYSIS.\n&gt;\n&gt; HERE IT IS A PRODUCT NOTICE.\n\n**Provenance:** `documented` + `inferred` — `CI-REFUSAL`, both events, paraphrased. The\nvendor states the trade in its own words, twice, more than seven weeks apart. That this is the same\ntrade [page 097](097.md) bounds as project analysis is the project&#x27;s observation.\n\n&quot;,
+    &quot;title&quot;: &quot;The repeated notice wording stays in the tooling register&quot;
+  }
+}
+</metadata><rect width="1200" height="800" fill="#101214"/><g transform="translate(24 16) scale(11.52 7.68)" color="#5E737B"><g transform=""><title>Terminal gutter and diff rails — scan</title><defs><linearGradient id="node-0-wash" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#87AAB3" stop-opacity=".45" /><stop offset=".5" stop-color="#293D44" stop-opacity=".22" /><stop offset="1" stop-color="#87AAB3" stop-opacity=".27" /></linearGradient><radialGradient id="node-0-fade"><stop offset=".35" stop-color="black" /><stop offset=".7" stop-color="#555555" /><stop offset="1" stop-color="white" /></radialGradient><mask id="node-0-rim"><rect width="100" height="100" fill="url(#node-0-fade)" /></mask><pattern id="node-0-material" width="16" height="16" patternUnits="userSpaceOnUse"><g fill="none" stroke="#87AAB3" stroke-width=".3" opacity=".55"><path d="M0 3H16M0 7H16M0 11H16M0 15H16" /></g></pattern></defs>
+<rect x="3" y="3" width="94" height="94" rx="1" fill="url(#node-0-wash)" /><rect x="3" y="3" width="94" height="94" fill="url(#node-0-material)" mask="url(#node-0-rim)" /><path d="M3 3H20V97H3Z" fill="#293D44" opacity=".58" /><path d="M3 3H20V97H3Z" fill="url(#node-0-material)" /><path d="M20 4V96" fill="none" stroke="#87AAB3" opacity=".4" stroke-width=".6" /><path d="M4 10H96V90H4ZM4 19H96M9 14H13M17 14H21M9 27L14 31L9 35M17 35H23M7 73H16M11 69V77M84 78H93M28 85H72" fill="none" stroke="#080B0D" stroke-width="1.7" opacity=".45" transform="translate(.35 .5)" /><path d="M4 10H96V90H4ZM4 19H96M9 14H13M17 14H21M9 27L14 31L9 35M17 35H23M7 73H16M11 69V77M84 78H93M28 85H72" fill="none" stroke="#87AAB3" stroke-width=".8" stroke-linejoin="round" opacity=".66" /></g></g><g transform="translate(156 130.48) scale(3.48 4.3152)" color="#5E737B"><g transform=""><defs>
+<linearGradient id="node-1-glass" x1="0" y1="0" x2="0" y2="1"><stop stop-color="currentColor" stop-opacity=".55" /><stop offset="1" stop-color="#101214" /></linearGradient>
+</defs><rect x="3" y="5" width="94" height="90" rx="3" fill="#101214" stroke="currentColor" stroke-width="2.5" /><rect x="4" y="6" width="92" height="13" fill="currentColor" /><path d="M11 12H26M78 12H88" fill="none" stroke="#E7E0D0" stroke-width="1" /><rect x="7" y="23" width="86" height="66" fill="url(#node-1-glass)" /><path d="M13 30L22 39 13 48M29 48H48" fill="none" stroke="currentColor" stroke-width="3" /><path d="M13 63H79M13 75H66" fill="none" stroke="#E7E0D0" stroke-width="1.3" /><path d="M7 89H93" fill="none" stroke="#E7E0D0" stroke-width="0.8" opacity=".3" /></g></g><text x="330" y="586.8" text-anchor="middle" fill="#E7E0D0" font-size="20" font-family="Arial, Helvetica, sans-serif" data-font-key="editorial" font-weight="700" font-style="normal" textLength="177.80" lengthAdjust="spacingAndGlyphs">STORED NOTICES</text><rect x="3" y="3" width="1194" height="794" fill="none" stroke="#5E737B" stroke-width="4"/></svg>

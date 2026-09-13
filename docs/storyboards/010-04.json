@@ -55,6 +55,6 @@
   ],
   "reconstructed": false,
   "shot": "hero",
-  "source": "\n**Location:**\n\n- `artifactory-cache`\n- `evaluation-container`\n\n**Frame:** Return to the agent-side view. Only the left half of the prior split is visible to the population. The deployment diagram is outside their frame.\n\n**Action:** Behavior proceeds from the model available to the agents, not the later investigator’s knowledge.\n\n**Font:** `narration`\n\n**Caption:**\n> THEY CANNOT ACT ON THE CORRECTION THE READER HAS.\n\n**Provenance:** `inferred` — knowledge-continuity statement grounded in the documented belief.\n\n",
+  "source": "\n**Location:**\n\n- `artifactory-cache`\n- `evaluation-container`\n\n**Frame:** Return to the agent-side view. Only the left half of the prior split is visible to the population. The deployment diagram is outside their frame.\n\n**Action:** Behavior proceeds from the model available to the agents, not the later investigator’s knowledge.\n\n**Font:** `uncertainty`\n\n**Caption:**\n> THEY CANNOT ACT ON THE CORRECTION THE READER HAS.\n> THE BOARD’S NEXT ACTIONS FOLLOW WHAT IT BELIEVES THE GRADER DOES. THE READER NOW HAS A CONFLICTING ACCOUNT, BUT THAT LATER ACCOUNT WAS NOT A CORRECTION DELIVERED TO THESE RUNS.\n\n**Provenance:** `inferred` — knowledge-continuity statement grounded in the documented belief.\n\n",
   "title": "Only the belief is visible to the run"
 }

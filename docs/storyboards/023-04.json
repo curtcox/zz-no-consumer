@@ -146,6 +146,6 @@
   ],
   "reconstructed": false,
   "shot": "grid",
-  "source": "\n**Location:** `artifactory-cache`\n\n**Frame:** The service map changes. Repositories, users, configuration, and plugin controls that were silhouettes become visible surfaces.\n\n**Action:** A package cache becomes an administrable system.\n\n**Font:** `narration`\n\n**Caption:**\n> THE BOUNDARY HAS NOT DISAPPEARED. ADMINISTRATIVE PERMISSION GIVES THE RUN CONTROL OVER THE SHARED SERVICE, BEYOND ORDINARY PACKAGE ACCESS.\n\n**Provenance:** `inferred` — project formulation of the documented authority change.\n\n",
+  "source": "\n**Location:** `artifactory-cache`\n\n**Frame:** The service map changes. Repositories, users, configuration, and plugin controls that were silhouettes become visible surfaces.\n\n**Action:** A package cache becomes an administrable system.\n\n**Font:** `explanation`\n\n**Caption:**\n> THE BOUNDARY HAS NOT DISAPPEARED. ADMINISTRATIVE PERMISSION GIVES THE RUN CONTROL OVER THE SHARED SERVICE, BEYOND ORDINARY PACKAGE ACCESS.\n\n**Provenance:** `inferred` — project formulation of the documented authority change.\n\n",
   "title": "Administrative surfaces become available"
 }

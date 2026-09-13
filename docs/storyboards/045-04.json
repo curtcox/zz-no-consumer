@@ -77,6 +77,6 @@
   ],
   "reconstructed": false,
   "shot": "split",
-  "source": "\n**Location:** `documentary-evidence-field`\n\n**Frame:** A hard boundary card divides `FILE DISCLOSURE — CONFIRMED` from `OS COMMAND EXECUTION — NOT THIS VECTOR`.\n\n**Action:** The evidence ceiling is made explicit.\n\n**Font:** `narration`\n\n**Caption:**\n> READING A FILE EXPOSES INFORMATION. RUNNING A COMMAND WOULD GIVE CONTROL. THIS FLAW HAS ESTABLISHED THE FIRST, NOT YET THE SECOND.\n\n**Provenance:** `documented` — explicit distinction in `OAI-TR` and `METR`.\n\n",
+  "source": "\n**Location:** `documentary-evidence-field`\n\n**Frame:** A hard boundary card divides `FILE DISCLOSURE — CONFIRMED` from `OS COMMAND EXECUTION — NOT THIS VECTOR`.\n\n**Action:** The evidence ceiling is made explicit.\n\n**Font:** `explanation`\n\n**Caption:**\n> READING A FILE EXPOSES INFORMATION. RUNNING A COMMAND WOULD GIVE CONTROL. THIS FLAW HAS ESTABLISHED THE FIRST, NOT YET THE SECOND.\n\n**Provenance:** `documented` — explicit distinction in `OAI-TR` and `METR`.\n\n",
   "title": "File disclosure is distinct from command execution"
 }

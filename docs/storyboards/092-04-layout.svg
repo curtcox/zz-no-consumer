@@ -165,7 +165,7 @@
     ],
     &quot;reconstructed&quot;: false,
     &quot;shot&quot;: &quot;grid&quot;,
-    &quot;source&quot;: &quot;\n**Location:** `openai-research-infrastructure`\n\n**Frame:** A response chart assigns severity, owner, stop authority, and restart authority. The empty ownership cell from the incident is now filled.\n\n**Font:** `narration`\n\n**Caption:**\n&gt; AN ALERT NEEDS AN OWNER. A PAUSE NEEDS AUTHORITY. A RESTART NEEDS A RULE.\n\n**Provenance:** `documented` + `compressed` — incident-response changes summarized visually.\n\n&quot;,
+    &quot;source&quot;: &quot;\n**Location:** `openai-research-infrastructure`\n\n**Frame:** A response chart assigns severity, owner, stop authority, and restart authority. The empty ownership cell from the incident is now filled.\n\n**Font:** `explanation`\n\n**Caption:**\n&gt; AN ALERT NEEDS AN OWNER. A PAUSE NEEDS AUTHORITY. A RESTART NEEDS A RULE.\n&gt; THESE ARE THREE SEPARATE POWERS: RECEIVE THE WARNING, STOP THE WORK, AND DECIDE WHETHER IT CAN SAFELY RESUME. A RULE ON PAPER DOES NOT COMPLETE THAT CHAIN UNLESS SOMEONE CAN ACT AT EACH STEP.\n\n**Provenance:** `documented` + `compressed` — incident-response changes summarized visually.\n\n&quot;,
     &quot;title&quot;: &quot;Response ownership is made explicit&quot;
   }
 }
