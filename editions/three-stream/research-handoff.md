@@ -127,3 +127,24 @@ ten old panels have individual frame/action/lettering decisions in `detail-revie
 the invented first test and input/timing variations are omitted, while the narrow
 discarded-output finding survives. These decisions do not close the remaining
 old-panel or chronology review.
+
+The response-and-persistence draft adds a dated July 16 disclosure sequence:
+closed entry paths, affected-node rebuilding, affected and precautionary credential
+rotation, admission controls, paging changes, outside forensics and community advice.
+The forensic-analysis sequence retains the hosted-model lockout, local GLM-5.2
+analysis, evidence-retention benefit, still-unknown attacker model and Hugging Face’s
+qualification that its account is not an argument against hosted safety measures.
+These are the disclosure’s claims, not invented per-operation timestamps or proof
+that the local model autonomously contained the attack. Short quotations were checked
+against the article body in the preserved September 6 capture, whose SHA-256 is
+registered; that later capture does not establish the article’s revision history.
+The July 27 report’s more specific model names are not backdated into this scene.
+
+Three additional old panels (049-01, 049-02 and 049-05) now have nine individual
+source-element dispositions. They preserve tool rebuilding and external persistence
+while narrowing the unsupported implication that transport topology proves an
+absence of centralized coordination. The worker pull/result sequence in 049-03/04
+and the full bounded-impact accounting in 051 still need source-level comparison;
+new panel associations alone do not close them. The broad persistence interval
+requires reconciliation with timed action before allocation, without duplicate
+replays. The completed response material does not close the wider response audit.

@@ -442,5 +442,143 @@
         }
       }
     ]
+  },
+  {
+    "old_panel": "049-01",
+    "old_edition": "legacy-332b5ed63262",
+    "reviewed_on": "2026-09-13",
+    "status": "elements-reviewed",
+    "elements": [
+      {
+        "id": "legacy-049-01-detail-01",
+        "original_sha256": "de9846e59dc33cddb7efe53e0adc2c9efd7143dc0fbeb88f250c58a4b2cae8d8",
+        "disposition": "split",
+        "beats": [
+          "hf-ephemeral-control-reset",
+          "hf-ephemeral-control-rebuild"
+        ],
+        "reason": "Split the sandbox lifecycle and repeated tool download into separate beats. Retire the old recto assignment and avoid a continuous character migrating between environments.",
+        "target_sha256": {
+          "hf-ephemeral-control-reset": "0f2bab9717cabc15e0c5807914c826e1d15e10551ebd80b9266844524aff4243",
+          "hf-ephemeral-control-rebuild": "0640179f70b48e60afb379b27cae0e5243259b5acc9970e9d59f400c1a30d51c"
+        }
+      },
+      {
+        "id": "legacy-049-01-detail-02",
+        "original_sha256": "12c8cb30de300b65fd99993fc6747ce814887c483305c83a6230f9ad1e178f8c",
+        "disposition": "rewrite",
+        "beats": [
+          "hf-ephemeral-control-reset"
+        ],
+        "reason": "Preserve loss of local state as the reason a later run must rebuild; do not imply the reset destroys all external artifacts.",
+        "target_sha256": {
+          "hf-ephemeral-control-reset": "0f2bab9717cabc15e0c5807914c826e1d15e10551ebd80b9266844524aff4243"
+        }
+      },
+      {
+        "id": "legacy-049-01-detail-03",
+        "original_sha256": "19d40e40e43b6911a2edfa6b90d5ad741752c729b3de8a5bdf2700f5ece0e555",
+        "disposition": "rewrite",
+        "beats": [
+          "hf-ephemeral-control-reset"
+        ],
+        "reason": "Keep short-lived runs in reader-visible narration, attributed to the technical account.",
+        "target_sha256": {
+          "hf-ephemeral-control-reset": "0f2bab9717cabc15e0c5807914c826e1d15e10551ebd80b9266844524aff4243"
+        }
+      }
+    ]
+  },
+  {
+    "old_panel": "049-02",
+    "old_edition": "legacy-332b5ed63262",
+    "reviewed_on": "2026-09-13",
+    "status": "elements-reviewed",
+    "elements": [
+      {
+        "id": "legacy-049-02-detail-01",
+        "original_sha256": "1d9857319d93e8b53bc4e367b4d52c988631c0da4226cd3c991a75241b82f0f3",
+        "disposition": "rewrite",
+        "beats": [
+          "hf-ephemeral-control-rebuild"
+        ],
+        "reason": "Keep the distinct environment, external retrieval and absent memory arrow. The frame remains an authored schematic, not a recovered image.",
+        "target_sha256": {
+          "hf-ephemeral-control-rebuild": "0640179f70b48e60afb379b27cae0e5243259b5acc9970e9d59f400c1a30d51c"
+        }
+      },
+      {
+        "id": "legacy-049-02-detail-02",
+        "original_sha256": "6d4ce0f1eca620e5902314d67486ce05e6e7c33cecf5472e5988e7a3ad35e769",
+        "disposition": "rewrite",
+        "beats": [
+          "hf-ephemeral-control-rebuild"
+        ],
+        "reason": "Preserve rebuilding rather than personal recollection and state that distinction explicitly.",
+        "target_sha256": {
+          "hf-ephemeral-control-rebuild": "0640179f70b48e60afb379b27cae0e5243259b5acc9970e9d59f400c1a30d51c"
+        }
+      },
+      {
+        "id": "legacy-049-02-detail-03",
+        "original_sha256": "8ad76c61a8e718ddf746603766f7a103075736d571aa8d9951b8796eda55d155",
+        "disposition": "rewrite",
+        "beats": [
+          "hf-ephemeral-control-rebuild"
+        ],
+        "reason": "Preserve downloading the tools again without implying the same individual returns.",
+        "target_sha256": {
+          "hf-ephemeral-control-rebuild": "0640179f70b48e60afb379b27cae0e5243259b5acc9970e9d59f400c1a30d51c"
+        }
+      }
+    ]
+  },
+  {
+    "old_panel": "049-05",
+    "old_edition": "legacy-332b5ed63262",
+    "reviewed_on": "2026-09-13",
+    "status": "elements-reviewed",
+    "elements": [
+      {
+        "id": "legacy-049-05-detail-01",
+        "original_sha256": "45e03760031d6a0d2598052315ebf1f0af41b21906a916ea095b0d553abfc75d",
+        "disposition": "split",
+        "beats": [
+          "hf-ephemeral-control-replacement",
+          "hf-ephemeral-control-limits"
+        ],
+        "reason": "Replace the all-in-one topology with distinct transport replacement and ephemeral-state diagrams. Do not let a central-looking board imply a central controller, or treat the original centerless composition as proof of decentralization.",
+        "target_sha256": {
+          "hf-ephemeral-control-replacement": "42674ad6286508ce35c0a6cd4aeb1a0a270afa48ad313b925b5cc9bb96448388",
+          "hf-ephemeral-control-limits": "58c7b6002ec85c17c37bfcb3045e2c252cf08fecf29dd77a7e436aa60d6f4113"
+        }
+      },
+      {
+        "id": "legacy-049-05-detail-02",
+        "original_sha256": "0fe8756fe623920108937c14d76e6d356c24fa5a939f7d901dd205550ab2b910",
+        "disposition": "split",
+        "beats": [
+          "hf-ephemeral-control-replacement",
+          "hf-ephemeral-control-limits"
+        ],
+        "reason": "Narrow the assertion that distributed infrastructure replaces centralized control: the source establishes multiple reusable channels and rebuilt footholds, not the absence of any coordinating actor.",
+        "target_sha256": {
+          "hf-ephemeral-control-replacement": "42674ad6286508ce35c0a6cd4aeb1a0a270afa48ad313b925b5cc9bb96448388",
+          "hf-ephemeral-control-limits": "58c7b6002ec85c17c37bfcb3045e2c252cf08fecf29dd77a7e436aa60d6f4113"
+        }
+      },
+      {
+        "id": "legacy-049-05-detail-03",
+        "original_sha256": "7ed0261e9391d1297f345d36cf858d4ac5d591daa608dc8ee5001fa05cec51a2",
+        "disposition": "rewrite",
+        "beats": [
+          "hf-ephemeral-control-limits"
+        ],
+        "reason": "Retain the persistence distinction as a bounded inference: useful infrastructure may outlast a run, without asserting an enduring individual agent or proving that every participant is short-lived.",
+        "target_sha256": {
+          "hf-ephemeral-control-limits": "58c7b6002ec85c17c37bfcb3045e2c252cf08fecf29dd77a7e436aa60d6f4113"
+        }
+      }
+    ]
   }
 ]

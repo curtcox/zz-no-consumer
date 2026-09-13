@@ -15,7 +15,8 @@ Mac and the GitHub repository. No invented exchange substitutes for that work.
 
 - [Detailed scene draft](manuscript-review.md): readable, generated review of the
   authored sequences in [manuscript/](manuscript/). These now include decomposed
-  incident action, failed attempts, counterexamples and selected dated production
+  incident action, failed attempts, counterexamples, the July 16 response and forensic
+  lockout account, and selected dated production
   messages. They are unallocated scene drafts; overlapping uncertain intervals
   still need reconciliation. This is separate from the withdrawn chronology study.
 - [Manuscript coverage](manuscript-coverage.json): derived counts and candidate

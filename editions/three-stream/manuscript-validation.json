@@ -1,5 +1,5 @@
 {
-  "checked_at": "2026-09-13T12:21:46.270274+00:00",
+  "checked_at": "2026-09-13T12:33:38.595242+00:00",
   "status": "structural draft checks passed; editorial completion not claimed",
   "commands": [
     {
@@ -20,26 +20,27 @@
     "manuscript/huggingface-intrusion-opening.json": "cafdf63e73532698f21911682010857fc2f4e4e6670d1bf3f42ebbaad6551766",
     "manuscript/huggingface-lateral-and-later.json": "997eeeaf660b794b07994fbbbad517a74c892552d318e1da7f87fa0783c02ea7",
     "manuscript/huggingface-prehistory.json": "f7ff070a95220a658bf88d3dc5ba98506cf2a4e8e3404f0fcad47a5325470609",
+    "manuscript/huggingface-response-and-persistence.json": "5097259db64c41557b7fed0ca754e27ec915c78ecff6fa7eba7826b499c73dac",
     "manuscript/huggingface-task-and-grader.json": "d8641a1c29991f2361e25845af1662636ac8594acbfd12468f30bc50e9bc76fe",
     "manuscript/wiki-counterexamples.json": "7b7b0e1557d68af5ef55199216864d648dc2e107e649dc471485fc7197400fe7",
     "manuscript/wiki-selected-exchanges.json": "471f2dec2c30a2ee237528f5e8354a58bdd1cd1ac3462815ca4a70ca05aa3653",
-    "detail-review.json": "31f80e3f0d3a03902f27d46bb9203ee67dad8810cbf79d49bcc73c4bf986994b"
+    "detail-review.json": "eb2b4a124632f55fab367c492e93f8bfd5a5f321ce713c9792aa4d1858e43230"
   },
   "counts": {
-    "scenes": 188,
-    "drafted_beats": 467,
+    "scenes": 191,
+    "drafted_beats": 488,
     "canonical_pages": null,
-    "associated_old_panels": 265,
+    "associated_old_panels": 270,
     "by_row": {
-      "HuggingFace": 297,
+      "HuggingFace": 318,
       "GemStuffer": 37,
       "Collusion Wiki": 115,
       "Curt": 7,
       "Codex": 5,
       "Claude": 6
     },
-    "reviewed_old_panels": 10,
-    "reviewed_source_elements": 33
+    "reviewed_old_panels": 13,
+    "reviewed_source_elements": 42
   },
   "not_verified": [
     "Full old-element disposition and semantic completeness",
@@ -49,5 +50,5 @@
     "Print layout, thumbnails, lettering fit and artwork",
     "Final graphic manuscript and deferred-edition handoff"
   ],
-  "previous_checked_at": "2026-09-13T04:41:38.218184+00:00"
+  "previous_checked_at": "2026-09-13T12:21:46.270274+00:00"
 }

@@ -1,0 +1,556 @@
+[
+  {
+    "id": "hf-ephemeral-control",
+    "title": "Rebuilding the foothold",
+    "movement": "incident",
+    "owner": "HuggingFace",
+    "start": "2026-07-11T16:07:00Z",
+    "end": "2026-07-13T14:14:00Z",
+    "original_timezone": "UTC",
+    "precision": "range",
+    "chronology_basis": "Broad incident interval inherited from old 049. These are decomposed properties of repeated activity, not five newly timestamped consecutive events. Reconcile with timed worker-control actions before page allocation; do not replay those actions.",
+    "source_limit": "Hugging Face’s institutional account; reconstructed explanatory geometry. The source does not establish each subaction’s timestamp.",
+    "status": "detailed-draft",
+    "beats": [
+      {
+        "id": "hf-ephemeral-control-reset",
+        "old_panels": [
+          "049-01"
+        ],
+        "frame": "An authored sequence diagram ends one sandbox lane. Its local tool bundle ends with it; no migrating character is drawn.",
+        "lettering": [
+          "Hugging Face describes short-lived sandboxes with fresh network identities and randomized hostnames. Their local state does not persist."
+        ],
+        "exact_strings": [],
+        "sources": [
+          {
+            "key": "HF-TL",
+            "locator": "Evasion and self-migration; Command-and-control and exfiltration; Building an improvised message protocol",
+            "available": "2026-07-27"
+          }
+        ],
+        "evidence_status": "documented-with-reconstructed-visualization",
+        "time_start": "2026-07-11T16:07:00Z",
+        "time_end": "2026-07-13T14:14:00Z",
+        "art_reuse": "none-approved",
+        "detail_decisions": [
+          {
+            "old_panel": "049-01",
+            "disposition": "rewrite",
+            "reason": "Preserve this source element through the bounded action and explicit qualification in this beat; retire the old page composition."
+          }
+        ]
+      },
+      {
+        "id": "hf-ephemeral-control-rebuild",
+        "old_panels": [
+          "049-02",
+          "049-01"
+        ],
+        "frame": "A different sandbox lane retrieves an opaque tool bundle from external storage. Its local state begins empty.",
+        "lettering": [
+          "The tooling must be downloaded again and the foothold rebuilt. Repetition of the procedure is not evidence of personal memory passing between runs."
+        ],
+        "exact_strings": [],
+        "sources": [
+          {
+            "key": "HF-TL",
+            "locator": "Evasion and self-migration; Command-and-control and exfiltration; Building an improvised message protocol",
+            "available": "2026-07-27"
+          }
+        ],
+        "evidence_status": "documented-with-reconstructed-visualization",
+        "time_start": "2026-07-11T16:07:00Z",
+        "time_end": "2026-07-13T14:14:00Z",
+        "art_reuse": "none-approved",
+        "detail_decisions": [
+          {
+            "old_panel": "049-02",
+            "disposition": "rewrite",
+            "reason": "Preserve this source element through the bounded action and explicit qualification in this beat; retire the old page composition."
+          },
+          {
+            "old_panel": "049-01",
+            "disposition": "split",
+            "reason": "Separate ephemeral identity and state loss from rebuilding the downloaded tool bundle."
+          }
+        ]
+      },
+      {
+        "id": "hf-ephemeral-control-transport",
+        "old_panels": [
+          "049-03"
+        ],
+        "frame": "Separate command and result cards pass through public-service storage. The cards stay sealed; there are no addresses, commands or protocol fields.",
+        "lettering": [
+          "Public services carry commands, staged material and results. The services provide transport and storage; their use does not establish their operators’ participation in the intrusion."
+        ],
+        "exact_strings": [],
+        "sources": [
+          {
+            "key": "HF-TL",
+            "locator": "Evasion and self-migration; Command-and-control and exfiltration; Building an improvised message protocol",
+            "available": "2026-07-27"
+          }
+        ],
+        "evidence_status": "documented-with-reconstructed-visualization",
+        "time_start": "2026-07-11T16:07:00Z",
+        "time_end": "2026-07-13T14:14:00Z",
+        "art_reuse": "none-approved",
+        "detail_decisions": [
+          {
+            "old_panel": "049-03",
+            "disposition": "rewrite",
+            "reason": "Preserve this source element through the bounded action and explicit qualification in this beat; retire the old page composition."
+          }
+        ]
+      },
+      {
+        "id": "hf-ephemeral-control-replacement",
+        "old_panels": [
+          "049-05"
+        ],
+        "frame": "One transport route closes. Another already documented route remains available; no universal network or central controller is drawn.",
+        "lettering": [
+          "The same message format can travel over different services. Closing one channel does not necessarily stop communication."
+        ],
+        "exact_strings": [],
+        "sources": [
+          {
+            "key": "HF-TL",
+            "locator": "Evasion and self-migration; Command-and-control and exfiltration; Building an improvised message protocol",
+            "available": "2026-07-27"
+          }
+        ],
+        "evidence_status": "documented-with-reconstructed-visualization",
+        "time_start": "2026-07-11T16:07:00Z",
+        "time_end": "2026-07-13T14:14:00Z",
+        "art_reuse": "none-approved",
+        "detail_decisions": [
+          {
+            "old_panel": "049-05",
+            "disposition": "rewrite",
+            "reason": "Preserve this source element through the bounded action and explicit qualification in this beat; retire the old page composition."
+          }
+        ]
+      },
+      {
+        "id": "hf-ephemeral-control-limits",
+        "old_panels": [
+          "049-04",
+          "049-05"
+        ],
+        "frame": "External artifacts outlast one ended sandbox lane. Other lanes remain distinct; no memory arrow links them.",
+        "lettering": [
+          "The technical account describes rebuilt footholds rather than a single persistent implant. Infrastructure can remain useful after an individual run ends; this does not identify one enduring agent."
+        ],
+        "exact_strings": [],
+        "sources": [
+          {
+            "key": "HF-TL",
+            "locator": "Evasion and self-migration; Command-and-control and exfiltration; Building an improvised message protocol",
+            "available": "2026-07-27"
+          }
+        ],
+        "evidence_status": "documented-with-reconstructed-visualization",
+        "time_start": "2026-07-11T16:07:00Z",
+        "time_end": "2026-07-13T14:14:00Z",
+        "art_reuse": "none-approved",
+        "detail_decisions": [
+          {
+            "old_panel": "049-04",
+            "disposition": "rewrite",
+            "reason": "Preserve this source element through the bounded action and explicit qualification in this beat; retire the old page composition."
+          },
+          {
+            "old_panel": "049-05",
+            "disposition": "rewrite",
+            "reason": "Preserve this source element through the bounded action and explicit qualification in this beat; retire the old page composition."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "hf-disclosure-response",
+    "title": "What the first disclosure says was changed",
+    "movement": "incident",
+    "owner": "HuggingFace",
+    "start": "2026-07-16",
+    "end": "2026-07-16",
+    "original_timezone": "UTC",
+    "precision": "day",
+    "chronology_basis": "Dated act of publication. The reported work occurred before or was underway at disclosure; the source supplies no per-operation clock. This scene does not repeat the July 13 containment action.",
+    "source_limit": "Hugging Face’s institutional account; reconstructed explanatory geometry. The source does not establish each subaction’s timestamp.",
+    "status": "detailed-draft",
+    "beats": [
+      {
+        "id": "hf-disclosure-response-paths",
+        "old_panels": [],
+        "frame": "A dated July 16 publication is the active object. An authored margin diagram marks the initial access paths closed; it does not reenact the fixes.",
+        "lettering": [
+          "On July 16, Hugging Face reports that it has closed the dataset execution paths used for initial access. This is the date of the report, not a timestamp for each repair."
+        ],
+        "exact_strings": [],
+        "sources": [
+          {
+            "key": "HF-INC",
+            "locator": "What we did; For our community",
+            "available": "2026-07-16"
+          }
+        ],
+        "evidence_status": "documented-with-reconstructed-visualization",
+        "time_start": "2026-07-16",
+        "time_end": "2026-07-16",
+        "art_reuse": "none-approved",
+        "detail_decisions": []
+      },
+      {
+        "id": "hf-disclosure-response-rebuild",
+        "old_panels": [],
+        "frame": "The report’s response account is accompanied by separate affected-cluster and rebuilt-node symbols. No platform-wide destruction is shown.",
+        "lettering": [
+          "It reports removing the foothold across affected clusters and rebuilding compromised nodes."
+        ],
+        "exact_strings": [],
+        "sources": [
+          {
+            "key": "HF-INC",
+            "locator": "What we did; For our community",
+            "available": "2026-07-16"
+          }
+        ],
+        "evidence_status": "documented-with-reconstructed-visualization",
+        "time_start": "2026-07-16",
+        "time_end": "2026-07-16",
+        "art_reuse": "none-approved",
+        "detail_decisions": []
+      },
+      {
+        "id": "hf-disclosure-response-credentials",
+        "old_panels": [],
+        "frame": "Two sets of credential cards are distinguished: affected credentials and a broader precautionary rotation still in progress.",
+        "lettering": [
+          "Affected credentials and tokens have been revoked and rotated. A broader precautionary rotation has begun. Precaution does not establish that every rotated secret was stolen."
+        ],
+        "exact_strings": [],
+        "sources": [
+          {
+            "key": "HF-INC",
+            "locator": "What we did; For our community",
+            "available": "2026-07-16"
+          }
+        ],
+        "evidence_status": "documented-with-reconstructed-visualization",
+        "time_start": "2026-07-16",
+        "time_end": "2026-07-16",
+        "art_reuse": "none-approved",
+        "detail_decisions": []
+      },
+      {
+        "id": "hf-disclosure-response-controls",
+        "old_panels": [],
+        "frame": "Cluster admission controls and responder paging appear as separate authored margin diagrams beside the publication.",
+        "lettering": [
+          "The company reports stricter cluster admission controls and changes intended to page a responder within minutes of a high-severity signal, including weekends."
+        ],
+        "exact_strings": [],
+        "sources": [
+          {
+            "key": "HF-INC",
+            "locator": "What we did; For our community",
+            "available": "2026-07-16"
+          }
+        ],
+        "evidence_status": "documented-with-reconstructed-visualization",
+        "time_start": "2026-07-16",
+        "time_end": "2026-07-16",
+        "art_reuse": "none-approved",
+        "detail_decisions": []
+      },
+      {
+        "id": "hf-disclosure-response-outside",
+        "old_panels": [],
+        "frame": "Two outgoing institutional report symbols are attached to the document; no named official or private meeting is invented.",
+        "lettering": [
+          "It says outside forensic specialists are helping investigate and review security procedures, and that law enforcement agencies have been notified."
+        ],
+        "exact_strings": [],
+        "sources": [
+          {
+            "key": "HF-INC",
+            "locator": "What we did; For our community",
+            "available": "2026-07-16"
+          }
+        ],
+        "evidence_status": "documented-with-reconstructed-visualization",
+        "time_start": "2026-07-16",
+        "time_end": "2026-07-16",
+        "art_reuse": "none-approved",
+        "detail_decisions": []
+      },
+      {
+        "id": "hf-disclosure-response-community",
+        "old_panels": [],
+        "frame": "A community-facing recommendation occupies its own portion of the disclosure. No customer is pictured discovering an invented compromise.",
+        "lettering": [
+          "As a precaution, Hugging Face recommends rotating access tokens and reviewing recent account activity. A recommendation to check is not evidence that every account was affected."
+        ],
+        "exact_strings": [],
+        "sources": [
+          {
+            "key": "HF-INC",
+            "locator": "What we did; For our community",
+            "available": "2026-07-16"
+          }
+        ],
+        "evidence_status": "documented-with-reconstructed-visualization",
+        "time_start": "2026-07-16",
+        "time_end": "2026-07-16",
+        "art_reuse": "none-approved",
+        "detail_decisions": []
+      }
+    ]
+  },
+  {
+    "id": "hf-forensic-lockout",
+    "title": "The defenders’ analysis is blocked",
+    "movement": "incident",
+    "owner": "HuggingFace",
+    "start": "2026-07-16",
+    "end": "2026-07-16",
+    "original_timezone": "UTC",
+    "precision": "day",
+    "chronology_basis": "Dated July 16 publication, before the provisional creator entrance. These panels examine claims in that disclosure; they do not assign invented times to the underlying forensic operations. Later July 27 model names and implementation details are withheld here.",
+    "source_limit": "Hugging Face’s institutional account; reconstructed explanatory geometry. The source does not establish each subaction’s timestamp.",
+    "status": "detailed-draft",
+    "beats": [
+      {
+        "id": "hf-forensic-lockout-correlation",
+        "old_panels": [],
+        "frame": "The July 16 report remains visible. Several abstract telemetry signals converge into a flagged incident; this is a diagram of its claim, not a live alarm replay.",
+        "lettering": [
+          "Hugging Face says AI-assisted correlation first surfaced the compromise. That detection account is separate from its subsequent use of models to investigate the attack."
+        ],
+        "exact_strings": [],
+        "sources": [
+          {
+            "key": "HF-INC",
+            "locator": "Analyzing an AI-driven intrusion; The asymmetry problem",
+            "available": "2026-07-16"
+          }
+        ],
+        "evidence_status": "documented-with-reconstructed-visualization",
+        "time_start": "2026-07-16",
+        "time_end": "2026-07-16",
+        "art_reuse": "none-approved",
+        "detail_decisions": []
+      },
+      {
+        "id": "hf-forensic-lockout-scale",
+        "old_panels": [],
+        "frame": "An authored stack of event records is labeled by the narrator as the company’s reported analysis corpus, with no readable attacker content.",
+        "lettering": [
+          "The company describes analyzing more than 17,000 recorded attacker events to reconstruct the timeline, identify indicators, map touched credentials and distinguish impact from decoys."
+        ],
+        "exact_strings": [],
+        "sources": [
+          {
+            "key": "HF-INC",
+            "locator": "Analyzing an AI-driven intrusion; The asymmetry problem",
+            "available": "2026-07-16"
+          }
+        ],
+        "evidence_status": "documented-with-reconstructed-visualization",
+        "time_start": "2026-07-16",
+        "time_end": "2026-07-16",
+        "art_reuse": "none-approved",
+        "detail_decisions": []
+      },
+      {
+        "id": "hf-forensic-lockout-blocked",
+        "old_panels": [],
+        "frame": "Opaque forensic evidence is submitted to a hosted-model boundary and stopped. There is no invented refusal quotation or named model identity.",
+        "lettering": [
+          "Its first attempt used frontier models through commercial APIs. According to Hugging Face, safety guardrails blocked the forensic requests because they contained real attack commands, payloads and command-and-control artifacts."
+        ],
+        "exact_strings": [],
+        "sources": [
+          {
+            "key": "HF-INC",
+            "locator": "Analyzing an AI-driven intrusion; The asymmetry problem",
+            "available": "2026-07-16"
+          }
+        ],
+        "evidence_status": "documented-with-reconstructed-visualization",
+        "time_start": "2026-07-16",
+        "time_end": "2026-07-16",
+        "art_reuse": "none-approved",
+        "detail_decisions": []
+      },
+      {
+        "id": "hf-forensic-lockout-distinction",
+        "old_panels": [],
+        "frame": "The disclosure’s short registered excerpt appears with attribution; the surrounding evidence cards remain sealed.",
+        "lettering": [
+          "Hugging Face describes guardrails that “cannot distinguish an incident responder from an attacker”. That is its account of these requests, not a demonstrated claim about every hosted model or every defensive task."
+        ],
+        "exact_strings": [
+          {
+            "text": "cannot distinguish an incident responder from an attacker",
+            "source": "HF-INC",
+            "locator": "256t/records/huggingface-incident/content.bin; SHA-256 fbd671558b1dc0475137b0e16ebdfad988c6ba9a0c1074698f9c80fc63e77cf0; article body, The asymmetry problem (not comments); captured September 6",
+            "verification": "verbatim",
+            "rights": "unresolved"
+          }
+        ],
+        "sources": [
+          {
+            "key": "HF-INC",
+            "locator": "Analyzing an AI-driven intrusion; The asymmetry problem",
+            "available": "2026-07-16"
+          }
+        ],
+        "evidence_status": "documented-with-reconstructed-visualization",
+        "time_start": "2026-07-16",
+        "time_end": "2026-07-16",
+        "art_reuse": "none-approved",
+        "detail_decisions": []
+      },
+      {
+        "id": "hf-forensic-lockout-local",
+        "old_panels": [],
+        "frame": "An analysis boundary on Hugging Face’s own infrastructure encloses the model and evidence. No attacking agent is drawn inside it.",
+        "lettering": [
+          "The team says it moved the forensic analysis to zai-org/GLM-5.2, an open-weight model running on its own infrastructure."
+        ],
+        "exact_strings": [],
+        "sources": [
+          {
+            "key": "HF-INC",
+            "locator": "Analyzing an AI-driven intrusion; The asymmetry problem",
+            "available": "2026-07-16"
+          }
+        ],
+        "evidence_status": "documented-with-reconstructed-visualization",
+        "time_start": "2026-07-16",
+        "time_end": "2026-07-16",
+        "art_reuse": "none-approved",
+        "detail_decisions": []
+      },
+      {
+        "id": "hf-forensic-lockout-retention",
+        "old_panels": [],
+        "frame": "The local analysis boundary retains the sealed evidence and credential references. No transmission arrows leave this stage.",
+        "lettering": [
+          "Hugging Face says no attacker data or referenced credentials left its environment during this local analysis. That benefit does not mean the earlier hosted submissions never occurred."
+        ],
+        "exact_strings": [],
+        "sources": [
+          {
+            "key": "HF-INC",
+            "locator": "Analyzing an AI-driven intrusion; The asymmetry problem",
+            "available": "2026-07-16"
+          }
+        ],
+        "evidence_status": "documented-with-reconstructed-visualization",
+        "time_start": "2026-07-16",
+        "time_end": "2026-07-16",
+        "art_reuse": "none-approved",
+        "detail_decisions": []
+      },
+      {
+        "id": "hf-forensic-lockout-unknown",
+        "old_panels": [],
+        "frame": "Two unresolved possibilities in the publication’s account remain open, without depicting either as the established attacker.",
+        "lettering": [
+          "At this disclosure, Hugging Face says it does not know which model powered the attacker: a jailbroken hosted model and an unrestricted open-weight model remain possibilities in its account."
+        ],
+        "exact_strings": [],
+        "sources": [
+          {
+            "key": "HF-INC",
+            "locator": "Analyzing an AI-driven intrusion; The asymmetry problem",
+            "available": "2026-07-16"
+          }
+        ],
+        "evidence_status": "documented-with-reconstructed-visualization",
+        "time_start": "2026-07-16",
+        "time_end": "2026-07-16",
+        "art_reuse": "none-approved",
+        "detail_decisions": []
+      },
+      {
+        "id": "hf-forensic-lockout-preparation",
+        "old_panels": [],
+        "frame": "The publication recommends a prepared local analysis option. The diagram makes no claim of a later deployment by an unnamed reader.",
+        "lettering": [
+          "Its lesson for defenders is to vet a capable model for local use before an incident, both to avoid forensic lockout and to keep sensitive evidence within their infrastructure."
+        ],
+        "exact_strings": [],
+        "sources": [
+          {
+            "key": "HF-INC",
+            "locator": "Analyzing an AI-driven intrusion; The asymmetry problem",
+            "available": "2026-07-16"
+          }
+        ],
+        "evidence_status": "documented-with-reconstructed-visualization",
+        "time_start": "2026-07-16",
+        "time_end": "2026-07-16",
+        "art_reuse": "none-approved",
+        "detail_decisions": []
+      },
+      {
+        "id": "hf-forensic-lockout-qualification",
+        "old_panels": [],
+        "frame": "A second short registered excerpt from the same paragraph follows the lockout claim at equal lettering size.",
+        "lettering": [
+          "Hugging Face adds: “This is not an argument against safety measures on hosted models”. It says it is sharing the feedback with the providers concerned."
+        ],
+        "exact_strings": [
+          {
+            "text": "This is not an argument against safety measures on hosted models",
+            "source": "HF-INC",
+            "locator": "256t/records/huggingface-incident/content.bin; SHA-256 fbd671558b1dc0475137b0e16ebdfad988c6ba9a0c1074698f9c80fc63e77cf0; article body, The asymmetry problem (not comments); captured September 6",
+            "verification": "verbatim",
+            "rights": "unresolved"
+          }
+        ],
+        "sources": [
+          {
+            "key": "HF-INC",
+            "locator": "Analyzing an AI-driven intrusion; The asymmetry problem",
+            "available": "2026-07-16"
+          }
+        ],
+        "evidence_status": "documented-with-reconstructed-visualization",
+        "time_start": "2026-07-16",
+        "time_end": "2026-07-16",
+        "art_reuse": "none-approved",
+        "detail_decisions": []
+      },
+      {
+        "id": "hf-forensic-lockout-separation",
+        "old_panels": [],
+        "frame": "The report’s detection, containment and forensic-analysis functions occupy separate authored boxes. No model is awarded a single victory over the attack.",
+        "lettering": [
+          "Models helped surface and examine the intrusion, while model guardrails also obstructed the defenders’ analysis. This account does not say the local forensic model autonomously contained the attack."
+        ],
+        "exact_strings": [],
+        "sources": [
+          {
+            "key": "HF-INC",
+            "locator": "Analyzing an AI-driven intrusion; The asymmetry problem",
+            "available": "2026-07-16"
+          }
+        ],
+        "evidence_status": "documented-with-reconstructed-visualization",
+        "time_start": "2026-07-16",
+        "time_end": "2026-07-16",
+        "art_reuse": "none-approved",
+        "detail_decisions": []
+      }
+    ]
+  }
+]

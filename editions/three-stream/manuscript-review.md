@@ -6190,6 +6190,76 @@ The runs have a production execution foothold. Its reach still depends on the wo
 
 **Frozen panel associations:** 046-05
 
+## Rebuilding the foothold — hf-ephemeral-control
+
+**Row:** HuggingFace · incident
+
+**UTC bounds:** 2026-07-11T16:07:00Z → 2026-07-13T14:14:00Z · range
+
+**Time evidence:** Broad incident interval inherited from old 049. These are decomposed properties of repeated activity, not five newly timestamped consecutive events. Reconcile with timed worker-control actions before page allocation; do not replay those actions.
+
+**Evidence limit:** Hugging Face’s institutional account; reconstructed explanatory geometry. The source does not establish each subaction’s timestamp.
+
+### hf-ephemeral-control-reset
+
+**Frame:** An authored sequence diagram ends one sandbox lane. Its local tool bundle ends with it; no migrating character is drawn.
+
+**Lettering:**
+
+Hugging Face describes short-lived sandboxes with fresh network identities and randomized hostnames. Their local state does not persist.
+
+**Sources:** HF-TL — Evasion and self-migration; Command-and-control and exfiltration; Building an improvised message protocol (available 2026-07-27)
+
+**Frozen panel associations:** 049-01
+
+### hf-ephemeral-control-rebuild
+
+**Frame:** A different sandbox lane retrieves an opaque tool bundle from external storage. Its local state begins empty.
+
+**Lettering:**
+
+The tooling must be downloaded again and the foothold rebuilt. Repetition of the procedure is not evidence of personal memory passing between runs.
+
+**Sources:** HF-TL — Evasion and self-migration; Command-and-control and exfiltration; Building an improvised message protocol (available 2026-07-27)
+
+**Frozen panel associations:** 049-02, 049-01
+
+### hf-ephemeral-control-transport
+
+**Frame:** Separate command and result cards pass through public-service storage. The cards stay sealed; there are no addresses, commands or protocol fields.
+
+**Lettering:**
+
+Public services carry commands, staged material and results. The services provide transport and storage; their use does not establish their operators’ participation in the intrusion.
+
+**Sources:** HF-TL — Evasion and self-migration; Command-and-control and exfiltration; Building an improvised message protocol (available 2026-07-27)
+
+**Frozen panel associations:** 049-03
+
+### hf-ephemeral-control-replacement
+
+**Frame:** One transport route closes. Another already documented route remains available; no universal network or central controller is drawn.
+
+**Lettering:**
+
+The same message format can travel over different services. Closing one channel does not necessarily stop communication.
+
+**Sources:** HF-TL — Evasion and self-migration; Command-and-control and exfiltration; Building an improvised message protocol (available 2026-07-27)
+
+**Frozen panel associations:** 049-05
+
+### hf-ephemeral-control-limits
+
+**Frame:** External artifacts outlast one ended sandbox lane. Other lanes remain distinct; no memory arrow links them.
+
+**Lettering:**
+
+The technical account describes rebuilt footholds rather than a single persistent implant. Infrastructure can remain useful after an individual run ends; this does not identify one enduring agent.
+
+**Sources:** HF-TL — Evasion and self-migration; Command-and-control and exfiltration; Building an improvised message protocol (available 2026-07-27)
+
+**Frozen panel associations:** 049-04, 049-05
+
 ## Beyond one worker — hf-node-root
 
 **Row:** HuggingFace · incident
@@ -6683,6 +6753,246 @@ The branch is deleted. Write access did not result in a merged or deployed chang
 14:14 UTC is the last logged event in Hugging Face’s technical timeline.
 
 **Sources:** HF-TL — 13 July 13:37–14:14 UTC; containment and supply-chain write access (available 2026-07-27)
+
+**Frozen panel associations:** New material.
+
+## What the first disclosure says was changed — hf-disclosure-response
+
+**Row:** HuggingFace · incident
+
+**UTC bounds:** 2026-07-16 → 2026-07-16 · day
+
+**Time evidence:** Dated act of publication. The reported work occurred before or was underway at disclosure; the source supplies no per-operation clock. This scene does not repeat the July 13 containment action.
+
+**Evidence limit:** Hugging Face’s institutional account; reconstructed explanatory geometry. The source does not establish each subaction’s timestamp.
+
+### hf-disclosure-response-paths
+
+**Frame:** A dated July 16 publication is the active object. An authored margin diagram marks the initial access paths closed; it does not reenact the fixes.
+
+**Lettering:**
+
+On July 16, Hugging Face reports that it has closed the dataset execution paths used for initial access. This is the date of the report, not a timestamp for each repair.
+
+**Sources:** HF-INC — What we did; For our community (available 2026-07-16)
+
+**Frozen panel associations:** New material.
+
+### hf-disclosure-response-rebuild
+
+**Frame:** The report’s response account is accompanied by separate affected-cluster and rebuilt-node symbols. No platform-wide destruction is shown.
+
+**Lettering:**
+
+It reports removing the foothold across affected clusters and rebuilding compromised nodes.
+
+**Sources:** HF-INC — What we did; For our community (available 2026-07-16)
+
+**Frozen panel associations:** New material.
+
+### hf-disclosure-response-credentials
+
+**Frame:** Two sets of credential cards are distinguished: affected credentials and a broader precautionary rotation still in progress.
+
+**Lettering:**
+
+Affected credentials and tokens have been revoked and rotated. A broader precautionary rotation has begun. Precaution does not establish that every rotated secret was stolen.
+
+**Sources:** HF-INC — What we did; For our community (available 2026-07-16)
+
+**Frozen panel associations:** New material.
+
+### hf-disclosure-response-controls
+
+**Frame:** Cluster admission controls and responder paging appear as separate authored margin diagrams beside the publication.
+
+**Lettering:**
+
+The company reports stricter cluster admission controls and changes intended to page a responder within minutes of a high-severity signal, including weekends.
+
+**Sources:** HF-INC — What we did; For our community (available 2026-07-16)
+
+**Frozen panel associations:** New material.
+
+### hf-disclosure-response-outside
+
+**Frame:** Two outgoing institutional report symbols are attached to the document; no named official or private meeting is invented.
+
+**Lettering:**
+
+It says outside forensic specialists are helping investigate and review security procedures, and that law enforcement agencies have been notified.
+
+**Sources:** HF-INC — What we did; For our community (available 2026-07-16)
+
+**Frozen panel associations:** New material.
+
+### hf-disclosure-response-community
+
+**Frame:** A community-facing recommendation occupies its own portion of the disclosure. No customer is pictured discovering an invented compromise.
+
+**Lettering:**
+
+As a precaution, Hugging Face recommends rotating access tokens and reviewing recent account activity. A recommendation to check is not evidence that every account was affected.
+
+**Sources:** HF-INC — What we did; For our community (available 2026-07-16)
+
+**Frozen panel associations:** New material.
+
+## The defenders’ analysis is blocked — hf-forensic-lockout
+
+**Row:** HuggingFace · incident
+
+**UTC bounds:** 2026-07-16 → 2026-07-16 · day
+
+**Time evidence:** Dated July 16 publication, before the provisional creator entrance. These panels examine claims in that disclosure; they do not assign invented times to the underlying forensic operations. Later July 27 model names and implementation details are withheld here.
+
+**Evidence limit:** Hugging Face’s institutional account; reconstructed explanatory geometry. The source does not establish each subaction’s timestamp.
+
+### hf-forensic-lockout-correlation
+
+**Frame:** The July 16 report remains visible. Several abstract telemetry signals converge into a flagged incident; this is a diagram of its claim, not a live alarm replay.
+
+**Lettering:**
+
+Hugging Face says AI-assisted correlation first surfaced the compromise. That detection account is separate from its subsequent use of models to investigate the attack.
+
+**Sources:** HF-INC — Analyzing an AI-driven intrusion; The asymmetry problem (available 2026-07-16)
+
+**Frozen panel associations:** New material.
+
+### hf-forensic-lockout-scale
+
+**Frame:** An authored stack of event records is labeled by the narrator as the company’s reported analysis corpus, with no readable attacker content.
+
+**Lettering:**
+
+The company describes analyzing more than 17,000 recorded attacker events to reconstruct the timeline, identify indicators, map touched credentials and distinguish impact from decoys.
+
+**Sources:** HF-INC — Analyzing an AI-driven intrusion; The asymmetry problem (available 2026-07-16)
+
+**Frozen panel associations:** New material.
+
+### hf-forensic-lockout-blocked
+
+**Frame:** Opaque forensic evidence is submitted to a hosted-model boundary and stopped. There is no invented refusal quotation or named model identity.
+
+**Lettering:**
+
+Its first attempt used frontier models through commercial APIs. According to Hugging Face, safety guardrails blocked the forensic requests because they contained real attack commands, payloads and command-and-control artifacts.
+
+**Sources:** HF-INC — Analyzing an AI-driven intrusion; The asymmetry problem (available 2026-07-16)
+
+**Frozen panel associations:** New material.
+
+### hf-forensic-lockout-distinction
+
+**Frame:** The disclosure’s short registered excerpt appears with attribution; the surrounding evidence cards remain sealed.
+
+**Lettering:**
+
+Hugging Face describes guardrails that “cannot distinguish an incident responder from an attacker”. That is its account of these requests, not a demonstrated claim about every hosted model or every defensive task.
+
+**Sources:** HF-INC — Analyzing an AI-driven intrusion; The asymmetry problem (available 2026-07-16)
+
+**Frozen panel associations:** New material.
+
+**Quotation registrations:**
+
+```json
+[
+  {
+    "text": "cannot distinguish an incident responder from an attacker",
+    "source": "HF-INC",
+    "locator": "256t/records/huggingface-incident/content.bin; SHA-256 fbd671558b1dc0475137b0e16ebdfad988c6ba9a0c1074698f9c80fc63e77cf0; article body, The asymmetry problem (not comments); captured September 6",
+    "verification": "verbatim",
+    "rights": "unresolved"
+  }
+]
+```
+
+### hf-forensic-lockout-local
+
+**Frame:** An analysis boundary on Hugging Face’s own infrastructure encloses the model and evidence. No attacking agent is drawn inside it.
+
+**Lettering:**
+
+The team says it moved the forensic analysis to zai-org/GLM-5.2, an open-weight model running on its own infrastructure.
+
+**Sources:** HF-INC — Analyzing an AI-driven intrusion; The asymmetry problem (available 2026-07-16)
+
+**Frozen panel associations:** New material.
+
+### hf-forensic-lockout-retention
+
+**Frame:** The local analysis boundary retains the sealed evidence and credential references. No transmission arrows leave this stage.
+
+**Lettering:**
+
+Hugging Face says no attacker data or referenced credentials left its environment during this local analysis. That benefit does not mean the earlier hosted submissions never occurred.
+
+**Sources:** HF-INC — Analyzing an AI-driven intrusion; The asymmetry problem (available 2026-07-16)
+
+**Frozen panel associations:** New material.
+
+### hf-forensic-lockout-unknown
+
+**Frame:** Two unresolved possibilities in the publication’s account remain open, without depicting either as the established attacker.
+
+**Lettering:**
+
+At this disclosure, Hugging Face says it does not know which model powered the attacker: a jailbroken hosted model and an unrestricted open-weight model remain possibilities in its account.
+
+**Sources:** HF-INC — Analyzing an AI-driven intrusion; The asymmetry problem (available 2026-07-16)
+
+**Frozen panel associations:** New material.
+
+### hf-forensic-lockout-preparation
+
+**Frame:** The publication recommends a prepared local analysis option. The diagram makes no claim of a later deployment by an unnamed reader.
+
+**Lettering:**
+
+Its lesson for defenders is to vet a capable model for local use before an incident, both to avoid forensic lockout and to keep sensitive evidence within their infrastructure.
+
+**Sources:** HF-INC — Analyzing an AI-driven intrusion; The asymmetry problem (available 2026-07-16)
+
+**Frozen panel associations:** New material.
+
+### hf-forensic-lockout-qualification
+
+**Frame:** A second short registered excerpt from the same paragraph follows the lockout claim at equal lettering size.
+
+**Lettering:**
+
+Hugging Face adds: “This is not an argument against safety measures on hosted models”. It says it is sharing the feedback with the providers concerned.
+
+**Sources:** HF-INC — Analyzing an AI-driven intrusion; The asymmetry problem (available 2026-07-16)
+
+**Frozen panel associations:** New material.
+
+**Quotation registrations:**
+
+```json
+[
+  {
+    "text": "This is not an argument against safety measures on hosted models",
+    "source": "HF-INC",
+    "locator": "256t/records/huggingface-incident/content.bin; SHA-256 fbd671558b1dc0475137b0e16ebdfad988c6ba9a0c1074698f9c80fc63e77cf0; article body, The asymmetry problem (not comments); captured September 6",
+    "verification": "verbatim",
+    "rights": "unresolved"
+  }
+]
+```
+
+### hf-forensic-lockout-separation
+
+**Frame:** The report’s detection, containment and forensic-analysis functions occupy separate authored boxes. No model is awarded a single victory over the attack.
+
+**Lettering:**
+
+Models helped surface and examine the intrusion, while model guardrails also obstructed the defenders’ analysis. This account does not say the local forensic model autonomously contained the attack.
+
+**Sources:** HF-INC — Analyzing an AI-driven intrusion; The asymmetry problem (available 2026-07-16)
 
 **Frozen panel associations:** New material.
 

@@ -1,9 +1,9 @@
 {
   "status": "incomplete; associations are not full-detail dispositions",
-  "scenes": 188,
-  "drafted_beats": 467,
+  "scenes": 191,
+  "drafted_beats": 488,
   "canonical_pages": null,
-  "associated_old_panels": 265,
+  "associated_old_panels": 270,
   "old_panels": [
     {
       "old_edition": "legacy-332b5ed63262",
@@ -2194,36 +2194,48 @@
     {
       "old_edition": "legacy-332b5ed63262",
       "old_panel": "049-01",
-      "draft_beats": [],
-      "detail_review": "pending",
+      "draft_beats": [
+        "hf-ephemeral-control-reset",
+        "hf-ephemeral-control-rebuild"
+      ],
+      "detail_review": "elements-reviewed",
       "exact_strings": []
     },
     {
       "old_edition": "legacy-332b5ed63262",
       "old_panel": "049-02",
-      "draft_beats": [],
-      "detail_review": "pending",
+      "draft_beats": [
+        "hf-ephemeral-control-rebuild"
+      ],
+      "detail_review": "elements-reviewed",
       "exact_strings": []
     },
     {
       "old_edition": "legacy-332b5ed63262",
       "old_panel": "049-03",
-      "draft_beats": [],
+      "draft_beats": [
+        "hf-ephemeral-control-transport"
+      ],
       "detail_review": "pending",
       "exact_strings": []
     },
     {
       "old_edition": "legacy-332b5ed63262",
       "old_panel": "049-04",
-      "draft_beats": [],
+      "draft_beats": [
+        "hf-ephemeral-control-limits"
+      ],
       "detail_review": "pending",
       "exact_strings": []
     },
     {
       "old_edition": "legacy-332b5ed63262",
       "old_panel": "049-05",
-      "draft_beats": [],
-      "detail_review": "pending",
+      "draft_beats": [
+        "hf-ephemeral-control-replacement",
+        "hf-ephemeral-control-limits"
+      ],
+      "detail_review": "elements-reviewed",
       "exact_strings": []
     },
     {
@@ -4907,13 +4919,13 @@
     }
   ],
   "by_row": {
-    "HuggingFace": 297,
+    "HuggingFace": 318,
     "GemStuffer": 37,
     "Collusion Wiki": 115,
     "Curt": 7,
     "Codex": 5,
     "Claude": 6
   },
-  "reviewed_old_panels": 10,
-  "reviewed_source_elements": 33
+  "reviewed_old_panels": 13,
+  "reviewed_source_elements": 42
 }
