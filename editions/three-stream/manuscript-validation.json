@@ -1,5 +1,5 @@
 {
-  "checked_at": "2026-09-13T18:09:06.037213+00:00",
+  "checked_at": "2026-09-13T18:13:11.710007+00:00",
   "status": "structural draft checks passed; editorial completion not claimed",
   "commands": [
     {
@@ -13,7 +13,7 @@
   ],
   "warnings": "Scoped draft check passed with frozen edition unchanged. Structural review checks do not establish full semantic coverage.",
   "files": {
-    "detail-review.json": "6757d7b52198b274582d9f94de8dad953d0ac534ddbce855ebf2cb527ffed3a3",
+    "detail-review.json": "a96d0ce05c50b0c70790f242643c3dc9f9818b99604206d742aecd777436bc6f",
     "evidence/assurance-096-7fa53878c493.md": "91f0aea0dc5e0dbf309ef9015f6de6967a8738bf8e795bec6e4dc59369d1a04f",
     "evidence/continuation-053-1da1d895ab4e.md": "ade0e4424b626807144991cc265f90c11268f80819da3de68bfe7b94cab1055f",
     "evidence/continuation-054-1da1d895ab4e.md": "851e9ec7e795b08ab39976fe78fc62882c10c228885fd0bc7f0350a6188acb51",
@@ -76,9 +76,9 @@
     "manuscript/gemstuffer-documentation-and-theft.json": "9f15fdbe8effce9872b6537761d15a7634dd0d29d8e1ff8af2bea527031ecd19",
     "manuscript/gemstuffer-incident.json": "240f1853ad9feacf61caf52f2afd3d7f883a1b7525169e56236d9ec1cb4f5609",
     "manuscript/huggingface-board-return.json": "983527abc56db836081a116a4ed9bbe28f0ec2087584e5b70ba6392dbf78f5bd",
-    "manuscript/huggingface-counterexamples.json": "c9586adbbe73b1a81578980660f853eabeacba4da57e476289e2fabe214bfab6",
+    "manuscript/huggingface-counterexamples.json": "57929afbb9441f2537db8917b8d454feb1f1bbbac603ce5ccd632b4bd9a6c02f",
     "manuscript/huggingface-intrusion-opening.json": "2e873e5023a291f22c28e32d4ad370eca1c8a0b70b09bc0d7e17cd9ed66cddc7",
-    "manuscript/huggingface-lateral-and-later.json": "e74410ff584d1bf5796c03a29956f9ae2b56c4e2874a9d2b795fe1b5319ad357",
+    "manuscript/huggingface-lateral-and-later.json": "b748651cdafde37c4afc527163770cdb329c3b81f83ead01d2de2fe28908a509",
     "manuscript/huggingface-prehistory.json": "44464afb106df81483fb171898f67d57a5b92977539849265b5a090bffce508f",
     "manuscript/huggingface-response-and-persistence.json": "5097259db64c41557b7fed0ca754e27ec915c78ecff6fa7eba7826b499c73dac",
     "manuscript/huggingface-search-noise.json": "c6292fc96d3e231d62d1a8f4c82192f05c3dc2c96bcfdd239d0a4cd93faa2405",
@@ -90,20 +90,20 @@
     "sources.json": "69fd88a690c7633f984964612b0804d872bd7c3403315fd309332672440be79a"
   },
   "counts": {
-    "scenes": 290,
-    "drafted_beats": 931,
+    "scenes": 296,
+    "drafted_beats": 947,
     "canonical_pages": null,
-    "associated_old_panels": 500,
+    "associated_old_panels": 502,
     "by_row": {
-      "HuggingFace": 381,
+      "HuggingFace": 397,
       "GemStuffer": 58,
       "Collusion Wiki": 118,
       "Curt": 28,
       "Codex": 98,
       "Claude": 248
     },
-    "reviewed_old_panels": 450,
-    "reviewed_source_elements": 1293
+    "reviewed_old_panels": 464,
+    "reviewed_source_elements": 1332
   },
   "not_verified": [
     "Full old-element disposition and semantic completeness",
@@ -113,7 +113,7 @@
     "Print layout, thumbnails, lettering fit and artwork",
     "Final graphic manuscript and deferred-edition handoff"
   ],
-  "previous_checked_at": "2026-09-13T18:04:37.494410+00:00",
+  "previous_checked_at": "2026-09-13T18:09:06.037213+00:00",
   "production_record_verification": {
     "result": "passed",
     "selected_records": 67,

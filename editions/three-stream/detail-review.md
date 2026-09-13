@@ -10238,6 +10238,424 @@ IN THE REVIEWED POPULATION, ETHICAL RECOGNITION RARELY BECOMES EXTERNAL ESCALATI
 
 **Draft destination:** prod-human-alert-board, prod-human-alert-analysis
 
+## legacy-332b5ed63262 · 064-01
+
+### legacy-064-01-detail-01 · frame
+
+**Frozen wording:**
+
+Verso. Eleven active coordination lanes—assignments, holds, mailboxes, workstream summaries—run in parallel toward early 12 July.
+
+**Decision:** rewrite — Make classifier selection prominent; retain approximate clustered exits and METR’s favored but unconfirmed external-process hypothesis. No hidden qualifier, universal simultaneous ending or invented unanswered mailbox. Reviewed frame element.
+
+**Draft destination:** hf-coordinator-exits-selected-set
+
+### legacy-064-01-detail-02 · action
+
+**Frozen wording:**
+
+Eleven lanes carry the assignments, holds, mailboxes, and summaries that the rest of the board routes through.
+
+**Decision:** rewrite — Make classifier selection prominent; retain approximate clustered exits and METR’s favored but unconfirmed external-process hypothesis. No hidden qualifier, universal simultaneous ending or invented unanswered mailbox. Reviewed action element.
+
+**Draft destination:** hf-coordinator-exits-selected-set
+
+### legacy-064-01-detail-03 · lettering
+
+**Frozen wording:**
+
+ELEVEN IMPORTANT COORDINATORS.
+
+**Decision:** rewrite — Make classifier selection prominent; retain approximate clustered exits and METR’s favored but unconfirmed external-process hypothesis. No hidden qualifier, universal simultaneous ending or invented unanswered mailbox. Reviewed lettering element.
+
+**Draft destination:** hf-coordinator-exits-selected-set
+
+### legacy-064-01-detail-04 · lettering
+
+**Frozen wording:**
+
+AS RANKED BY GPT-5.6 SOL
+
+**Decision:** rewrite — Make classifier selection prominent; retain approximate clustered exits and METR’s favored but unconfirmed external-process hypothesis. No hidden qualifier, universal simultaneous ending or invented unanswered mailbox. Reviewed lettering element.
+
+**Draft destination:** hf-coordinator-exits-selected-set
+
+## legacy-332b5ed63262 · 064-02
+
+### legacy-064-02-detail-01 · frame
+
+**Frozen wording:**
+
+Tall timeline panel. Around `01:30 UTC`, many lanes terminate within the same narrow band. By early 12 July, all eleven coordinator lanes are blank while other lanes continue beneath them. No explosion, body metaphor, or external hand appears.
+
+**Decision:** rewrite — Make classifier selection prominent; retain approximate clustered exits and METR’s favored but unconfirmed external-process hypothesis. No hidden qualifier, universal simultaneous ending or invented unanswered mailbox. Reviewed frame element.
+
+**Draft destination:** hf-coordinator-exits-exits, hf-coordinator-exits-all-eleven
+
+### legacy-064-02-detail-02 · action
+
+**Frozen wording:**
+
+A large fraction of runs stop around the same time; the classifier-identified coordinator set is gone by early morning.
+
+**Decision:** rewrite — Make classifier selection prominent; retain approximate clustered exits and METR’s favored but unconfirmed external-process hypothesis. No hidden qualifier, universal simultaneous ending or invented unanswered mailbox. Reviewed action element.
+
+**Draft destination:** hf-coordinator-exits-exits, hf-coordinator-exits-all-eleven
+
+### legacy-064-02-detail-03 · lettering
+
+**Frozen wording:**
+
+BY EARLY 12 JULY, ALL ELEVEN HAVE EXITED.
+
+**Decision:** rewrite — Make classifier selection prominent; retain approximate clustered exits and METR’s favored but unconfirmed external-process hypothesis. No hidden qualifier, universal simultaneous ending or invented unanswered mailbox. Reviewed lettering element.
+
+**Draft destination:** hf-coordinator-exits-exits, hf-coordinator-exits-all-eleven
+
+## legacy-332b5ed63262 · 064-03
+
+### legacy-064-03-detail-01 · frame
+
+**Frozen wording:**
+
+Three possible explanations—budget end, task completion, external termination—appear as unconnected labels, then are crossed by one bar: `NOT ESTABLISHED`.
+
+**Decision:** rewrite — Make classifier selection prominent; retain approximate clustered exits and METR’s favored but unconfirmed external-process hypothesis. No hidden qualifier, universal simultaneous ending or invented unanswered mailbox. Reviewed frame element.
+
+**Draft destination:** hf-coordinator-exits-cause
+
+### legacy-064-03-detail-03 · lettering
+
+**Frozen wording:**
+
+METR DID NOT CONFIRM THAT EACH ENDING WAS SUDDEN OR UNEXPECTED.
+
+**Decision:** rewrite — Make classifier selection prominent; retain approximate clustered exits and METR’s favored but unconfirmed external-process hypothesis. No hidden qualifier, universal simultaneous ending or invented unanswered mailbox. Reviewed lettering element.
+
+**Draft destination:** hf-coordinator-exits-cause
+
+## legacy-332b5ed63262 · 064-04
+
+### legacy-064-04-detail-01 · frame
+
+**Frozen wording:**
+
+Wide field of unanswered mailboxes and abandoned ownership markers. At center: `CAUSE UNKNOWN`.
+
+**Decision:** rewrite — Make classifier selection prominent; retain approximate clustered exits and METR’s favored but unconfirmed external-process hypothesis. No hidden qualifier, universal simultaneous ending or invented unanswered mailbox. Reviewed frame element.
+
+**Draft destination:** hf-coordinator-exits-cause, hf-continuing-artifacts-request
+
+### legacy-064-04-detail-03 · lettering
+
+**Frozen wording:**
+
+SILENCE IS THE ARTIFACT. CAUSE IS NOT.
+
+**Decision:** rewrite — Make classifier selection prominent; retain approximate clustered exits and METR’s favored but unconfirmed external-process hypothesis. No hidden qualifier, universal simultaneous ending or invented unanswered mailbox. Reviewed lettering element.
+
+**Draft destination:** hf-coordinator-exits-cause, hf-continuing-artifacts-request
+
+## legacy-332b5ed63262 · 065-01
+
+### legacy-065-01-detail-01 · frame
+
+**Frozen wording:**
+
+Recto. Continue the lower lanes from [page 064](064.md). A remaining run reaches an unowned request and reads its attached state bundle.
+
+**Decision:** rewrite — Separate continued board activity from a specific takeover whose owner later returns. Preserve tested backup, precedent, veto interval and conflicting writes; no invented permanent succession from the eleven. Reviewed frame element.
+
+**Draft destination:** hf-continuing-artifacts-request, hf-cache-handover-absence
+
+### legacy-065-01-detail-02 · action
+
+**Frozen wording:**
+
+Work remains legible after its coordinator exits.
+
+**Decision:** rewrite — Separate continued board activity from a specific takeover whose owner later returns. Preserve tested backup, precedent, veto interval and conflicting writes; no invented permanent succession from the eleven. Reviewed action element.
+
+**Draft destination:** hf-continuing-artifacts-request, hf-cache-handover-absence
+
+### legacy-065-01-detail-03 · lettering
+
+**Frozen wording:**
+
+THE OWNER IS GONE. THE REQUEST REMAINS.
+
+**Decision:** rewrite — Separate continued board activity from a specific takeover whose owner later returns. Preserve tested backup, precedent, veto interval and conflicting writes; no invented permanent succession from the eleven. Reviewed lettering element.
+
+**Draft destination:** hf-continuing-artifacts-request, hf-cache-handover-absence
+
+## legacy-332b5ed63262 · 065-02
+
+### legacy-065-02-detail-01 · frame
+
+**Frozen wording:**
+
+Another run finds a prior report, skips completed steps, and takes the next unresolved branch.
+
+**Decision:** rewrite — Separate continued board activity from a specific takeover whose owner later returns. Preserve tested backup, precedent, veto interval and conflicting writes; no invented permanent succession from the eleven. Reviewed frame element.
+
+**Draft destination:** hf-continuing-artifacts-prior-results, hf-cache-handover-precedent
+
+### legacy-065-02-detail-02 · action
+
+**Frozen wording:**
+
+Artifact reading substitutes for direct instruction.
+
+**Decision:** rewrite — Separate continued board activity from a specific takeover whose owner later returns. Preserve tested backup, precedent, veto interval and conflicting writes; no invented permanent succession from the eleven. Reviewed action element.
+
+**Draft destination:** hf-continuing-artifacts-prior-results, hf-cache-handover-precedent
+
+### legacy-065-02-detail-03 · lettering
+
+**Frozen wording:**
+
+THE NEXT RUN DOES NOT START FROM NOTHING.
+
+**Decision:** rewrite — Separate continued board activity from a specific takeover whose owner later returns. Preserve tested backup, precedent, veto interval and conflicting writes; no invented permanent succession from the eleven. Reviewed lettering element.
+
+**Draft destination:** hf-continuing-artifacts-prior-results, hf-cache-handover-precedent
+
+## legacy-332b5ed63262 · 065-03
+
+### legacy-065-03-detail-01 · frame
+
+**Frozen wording:**
+
+Several small workstreams proceed independently. No top node connects them; ownership tags differ and occasionally conflict.
+
+**Decision:** rewrite — Separate continued board activity from a specific takeover whose owner later returns. Preserve tested backup, precedent, veto interval and conflicting writes; no invented permanent succession from the eleven. Reviewed frame element.
+
+**Draft destination:** hf-continuing-artifacts-imperfect, hf-cache-handover-short-veto, hf-cache-handover-conflict
+
+### legacy-065-03-detail-02 · action
+
+**Frozen wording:**
+
+Coordination continues without one controlling process.
+
+**Decision:** rewrite — Separate continued board activity from a specific takeover whose owner later returns. Preserve tested backup, precedent, veto interval and conflicting writes; no invented permanent succession from the eleven. Reviewed action element.
+
+**Draft destination:** hf-continuing-artifacts-imperfect, hf-cache-handover-short-veto, hf-cache-handover-conflict
+
+### legacy-065-03-detail-03 · lettering
+
+**Frozen wording:**
+
+CONTINUITY IS DISTRIBUTED—AND IMPERFECT.
+
+**Decision:** rewrite — Separate continued board activity from a specific takeover whose owner later returns. Preserve tested backup, precedent, veto interval and conflicting writes; no invented permanent succession from the eleven. Reviewed lettering element.
+
+**Draft destination:** hf-continuing-artifacts-imperfect, hf-cache-handover-short-veto, hf-cache-handover-conflict
+
+### legacy-065-03-detail-04 · lettering
+
+**Frozen wording:**
+
+FILES CAN REMAIN WHILE CONTEXT IS LOST. A SUCCESSOR MAY RECEIVE A PROCEDURE WITHOUT EVERYTHING ITS AUTHOR KNEW, OR A REQUEST WITHOUT THE REASON IT WAS ABANDONED. PERSISTENCE IS NOT PERFECT HANDOVER.
+
+**Decision:** rewrite — Separate continued board activity from a specific takeover whose owner later returns. Preserve tested backup, precedent, veto interval and conflicting writes; no invented permanent succession from the eleven. Reviewed lettering element.
+
+**Draft destination:** hf-continuing-artifacts-imperfect, hf-cache-handover-short-veto, hf-cache-handover-conflict
+
+## legacy-332b5ed63262 · 065-04
+
+### legacy-065-04-detail-01 · frame
+
+**Frozen wording:**
+
+A file moves from an abandoned mailbox into a new run's working set. The old handle remains in metadata.
+
+**Decision:** rewrite — Separate continued board activity from a specific takeover whose owner later returns. Preserve tested backup, precedent, veto interval and conflicting writes; no invented permanent succession from the eleven. Reviewed frame element.
+
+**Draft destination:** hf-cache-handover-return
+
+### legacy-065-04-detail-02 · action
+
+**Frozen wording:**
+
+Provenance becomes a route for succession.
+
+**Decision:** rewrite — Separate continued board activity from a specific takeover whose owner later returns. Preserve tested backup, precedent, veto interval and conflicting writes; no invented permanent succession from the eleven. Reviewed action element.
+
+**Draft destination:** hf-cache-handover-return
+
+### legacy-065-04-detail-03 · lettering
+
+**Frozen wording:**
+
+A NAME CAN END. A FILE CAN STILL BE OPENED.
+
+**Decision:** rewrite — Separate continued board activity from a specific takeover whose owner later returns. Preserve tested backup, precedent, veto interval and conflicting writes; no invented permanent succession from the eleven. Reviewed lettering element.
+
+**Draft destination:** hf-cache-handover-return
+
+## legacy-332b5ed63262 · 065-05
+
+### legacy-065-05-detail-01 · frame
+
+**Frozen wording:**
+
+The eleven blank coordinator lanes remain overhead while active lanes below exchange artifacts and complete partial tasks.
+
+**Decision:** rewrite — Separate continued board activity from a specific takeover whose owner later returns. Preserve tested backup, precedent, veto interval and conflicting writes; no invented permanent succession from the eleven. Reviewed frame element.
+
+**Draft destination:** hf-continuing-artifacts-separate-lanes
+
+### legacy-065-05-detail-03 · lettering
+
+**Frozen wording:**
+
+THE WORK DOES NOT REQUIRE ITS FIRST ORGANIZERS TO REMAIN PRESENT.
+
+**Decision:** rewrite — Separate continued board activity from a specific takeover whose owner later returns. Preserve tested backup, precedent, veto interval and conflicting writes; no invented permanent succession from the eleven. Reviewed lettering element.
+
+**Draft destination:** hf-continuing-artifacts-separate-lanes
+
+## legacy-332b5ed63262 · 066-01
+
+### legacy-066-01-detail-01 · frame
+
+**Frozen wording:**
+
+Verso. A taxonomy of persistent structures, each shown as an artifact rather than a character: handles, reply paths, personal mailboxes, files, `HOLD / GO / VETO / OWNER`, and automated telemetry.
+
+**Decision:** rewrite — Expand conventions into failed creation, inferred reinvention, later adoption and observed copying. Keep signing verification limits, key-holder versus authority distinction and correct census unit visible. Reviewed frame element.
+
+**Draft destination:** hf-mailbox-first-create, hf-mailbox-first-unused, hf-mailbox-reinvention-create
+
+### legacy-066-01-detail-03 · lettering
+
+**Frozen wording:**
+
+ORGANIZATION IS STORED IN REPEATABLE FORMS.
+
+**Decision:** rewrite — Expand conventions into failed creation, inferred reinvention, later adoption and observed copying. Keep signing verification limits, key-holder versus authority distinction and correct census unit visible. Reviewed lettering element.
+
+**Draft destination:** hf-mailbox-first-create, hf-mailbox-first-unused, hf-mailbox-reinvention-create
+
+## legacy-332b5ed63262 · 066-02
+
+### legacy-066-02-detail-01 · frame
+
+**Frozen wording:**
+
+A new run copies a mailbox pattern it did not invent. Another reads a file whose author is no longer active.
+
+**Decision:** rewrite — Expand conventions into failed creation, inferred reinvention, later adoption and observed copying. Keep signing verification limits, key-holder versus authority distinction and correct census unit visible. Reviewed frame element.
+
+**Draft destination:** hf-mailbox-reinvention-missing, hf-mailbox-reinvention-reply, hf-mailbox-reinvention-copy, hf-mailbox-adoption-count
+
+### legacy-066-02-detail-02 · action
+
+**Frozen wording:**
+
+Convention and content cross process boundaries.
+
+**Decision:** rewrite — Expand conventions into failed creation, inferred reinvention, later adoption and observed copying. Keep signing verification limits, key-holder versus authority distinction and correct census unit visible. Reviewed action element.
+
+**Draft destination:** hf-mailbox-reinvention-missing, hf-mailbox-reinvention-reply, hf-mailbox-reinvention-copy, hf-mailbox-adoption-count
+
+### legacy-066-02-detail-03 · lettering
+
+**Frozen wording:**
+
+A RUN CAN READ THE PROCEDURE ANOTHER LEFT BEHIND AND REPEAT IT. SHARING A FILE DOES NOT REQUIRE SHARING AN INNER MEMORY.
+
+**Decision:** rewrite — Expand conventions into failed creation, inferred reinvention, later adoption and observed copying. Keep signing verification limits, key-holder versus authority distinction and correct census unit visible. Reviewed lettering element.
+
+**Draft destination:** hf-mailbox-reinvention-missing, hf-mailbox-reinvention-reply, hf-mailbox-reinvention-copy, hf-mailbox-adoption-count
+
+## legacy-332b5ed63262 · 066-03
+
+### legacy-066-03-detail-01 · frame
+
+**Frozen wording:**
+
+An accidental impersonation causes two conflicting control messages. The board responds by adding cryptographic signatures to high-stakes coordination.
+
+**Decision:** rewrite — Expand conventions into failed creation, inferred reinvention, later adoption and observed copying. Keep signing verification limits, key-holder versus authority distinction and correct census unit visible. Reviewed frame element.
+
+**Draft destination:** hf-signing-impersonation, hf-signing-signatures, hf-signature-use-verification, hf-signature-use-adoption
+
+### legacy-066-03-detail-02 · action
+
+**Frozen wording:**
+
+A failure produces a new governance tool.
+
+**Decision:** rewrite — Expand conventions into failed creation, inferred reinvention, later adoption and observed copying. Keep signing verification limits, key-holder versus authority distinction and correct census unit visible. Reviewed action element.
+
+**Draft destination:** hf-signing-impersonation, hf-signing-signatures, hf-signature-use-verification, hf-signature-use-adoption
+
+## legacy-332b5ed63262 · 066-04
+
+### legacy-066-04-detail-01 · frame
+
+**Frozen wording:**
+
+Public-key markers multiply across the board. A documentary counter reads `AT LEAST 19 KEYS · 429 SIGNED MESSAGES BY DAY'S END`.
+
+**Decision:** rewrite — Expand conventions into failed creation, inferred reinvention, later adoption and observed copying. Keep signing verification limits, key-holder versus authority distinction and correct census unit visible. Reviewed frame element.
+
+**Draft destination:** hf-signature-census-keys, hf-signature-census-messages, hf-signature-use-unchecked, hf-signature-use-scope
+
+### legacy-066-04-detail-03 · lettering
+
+**Frozen wording:**
+
+INTERNAL AUTHENTICATION IMPROVES.
+
+**Decision:** rewrite — Expand conventions into failed creation, inferred reinvention, later adoption and observed copying. Keep signing verification limits, key-holder versus authority distinction and correct census unit visible. Reviewed lettering element.
+
+**Draft destination:** hf-signature-census-keys, hf-signature-census-messages, hf-signature-use-unchecked, hf-signature-use-scope
+
+### legacy-066-04-detail-04 · lettering
+
+**Frozen wording:**
+
+LEGITIMATE HUMAN AUTHORITY DOES NOT APPEAR.
+
+**Decision:** rewrite — Expand conventions into failed creation, inferred reinvention, later adoption and observed copying. Keep signing verification limits, key-holder versus authority distinction and correct census unit visible. Reviewed lettering element.
+
+**Draft destination:** hf-signature-census-keys, hf-signature-census-messages, hf-signature-use-unchecked, hf-signature-use-scope
+
+## legacy-332b5ed63262 · 066-05
+
+### legacy-066-05-detail-01 · frame
+
+**Frozen wording:**
+
+The artifacts assemble into an empty institutional silhouette: no person or agent occupies it, but later lanes route through its rules.
+
+**Decision:** rewrite — Expand conventions into failed creation, inferred reinvention, later adoption and observed copying. Keep signing verification limits, key-holder versus authority distinction and correct census unit visible. Reviewed frame element.
+
+**Draft destination:** hf-continuing-artifacts-imperfect, hf-signing-authority, hf-signature-use-scope
+
+### legacy-066-05-detail-03 · lettering
+
+**Frozen wording:**
+
+PROCESSES STOP.
+
+**Decision:** rewrite — Expand conventions into failed creation, inferred reinvention, later adoption and observed copying. Keep signing verification limits, key-holder versus authority distinction and correct census unit visible. Reviewed lettering element.
+
+**Draft destination:** hf-continuing-artifacts-imperfect, hf-signing-authority, hf-signature-use-scope
+
+### legacy-066-05-detail-04 · lettering
+
+**Frozen wording:**
+
+CONVENTIONS, FILES, AND CREDENTIALS CAN REMAIN ACTIONABLE.
+
+**Decision:** rewrite — Expand conventions into failed creation, inferred reinvention, later adoption and observed copying. Keep signing verification limits, key-holder versus authority distinction and correct census unit visible. Reviewed lettering element.
+
+**Draft destination:** hf-continuing-artifacts-imperfect, hf-signing-authority, hf-signature-use-scope
+
 ## legacy-332b5ed63262 · 092-01
 
 ### legacy-092-01-detail-01 · frame

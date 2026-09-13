@@ -1,9 +1,9 @@
 {
   "status": "incomplete; associations are not full-detail dispositions",
-  "scenes": 290,
-  "drafted_beats": 931,
+  "scenes": 296,
+  "drafted_beats": 947,
   "canonical_pages": null,
-  "associated_old_panels": 500,
+  "associated_old_panels": 502,
   "old_panels": [
     {
       "old_edition": "legacy-332b5ed63262",
@@ -3185,7 +3185,7 @@
       "draft_beats": [
         "hf-coordinator-exits-selected-set"
       ],
-      "detail_review": "pending",
+      "detail_review": "elements-reviewed",
       "exact_strings": []
     },
     {
@@ -3195,7 +3195,7 @@
         "hf-coordinator-exits-exits",
         "hf-coordinator-exits-all-eleven"
       ],
-      "detail_review": "pending",
+      "detail_review": "elements-reviewed",
       "exact_strings": []
     },
     {
@@ -3204,52 +3204,58 @@
       "draft_beats": [
         "hf-coordinator-exits-cause"
       ],
-      "detail_review": "pending",
+      "detail_review": "elements-reviewed",
       "exact_strings": []
     },
     {
       "old_edition": "legacy-332b5ed63262",
       "old_panel": "064-04",
       "draft_beats": [
-        "hf-coordinator-exits-cause"
+        "hf-coordinator-exits-cause",
+        "hf-continuing-artifacts-request"
       ],
-      "detail_review": "pending",
+      "detail_review": "elements-reviewed",
       "exact_strings": []
     },
     {
       "old_edition": "legacy-332b5ed63262",
       "old_panel": "065-01",
       "draft_beats": [
+        "hf-cache-handover-absence",
         "hf-continuing-artifacts-request"
       ],
-      "detail_review": "pending",
+      "detail_review": "elements-reviewed",
       "exact_strings": []
     },
     {
       "old_edition": "legacy-332b5ed63262",
       "old_panel": "065-02",
       "draft_beats": [
+        "hf-cache-handover-precedent",
         "hf-continuing-artifacts-prior-results"
       ],
-      "detail_review": "pending",
+      "detail_review": "elements-reviewed",
       "exact_strings": []
     },
     {
       "old_edition": "legacy-332b5ed63262",
       "old_panel": "065-03",
       "draft_beats": [
+        "hf-cache-handover-short-veto",
+        "hf-cache-handover-conflict",
         "hf-continuing-artifacts-imperfect"
       ],
-      "detail_review": "pending",
+      "detail_review": "elements-reviewed",
       "exact_strings": []
     },
     {
       "old_edition": "legacy-332b5ed63262",
       "old_panel": "065-04",
       "draft_beats": [
+        "hf-cache-handover-return",
         "hf-continuing-artifacts-separate-lanes"
       ],
-      "detail_review": "pending",
+      "detail_review": "elements-reviewed",
       "exact_strings": []
     },
     {
@@ -3258,31 +3264,42 @@
       "draft_beats": [
         "hf-continuing-artifacts-separate-lanes"
       ],
-      "detail_review": "pending",
+      "detail_review": "elements-reviewed",
       "exact_strings": []
     },
     {
       "old_edition": "legacy-332b5ed63262",
       "old_panel": "066-01",
-      "draft_beats": [],
-      "detail_review": "pending",
+      "draft_beats": [
+        "hf-mailbox-first-unused",
+        "hf-mailbox-first-create",
+        "hf-mailbox-reinvention-create"
+      ],
+      "detail_review": "elements-reviewed",
       "exact_strings": []
     },
     {
       "old_edition": "legacy-332b5ed63262",
       "old_panel": "066-02",
-      "draft_beats": [],
-      "detail_review": "pending",
+      "draft_beats": [
+        "hf-mailbox-reinvention-missing",
+        "hf-mailbox-reinvention-reply",
+        "hf-mailbox-reinvention-copy",
+        "hf-mailbox-adoption-count"
+      ],
+      "detail_review": "elements-reviewed",
       "exact_strings": []
     },
     {
       "old_edition": "legacy-332b5ed63262",
       "old_panel": "066-03",
       "draft_beats": [
+        "hf-signature-use-verification",
+        "hf-signature-use-adoption",
         "hf-signing-impersonation",
         "hf-signing-signatures"
       ],
-      "detail_review": "pending",
+      "detail_review": "elements-reviewed",
       "exact_strings": []
     },
     {
@@ -3291,18 +3308,23 @@
       "draft_beats": [
         "hf-signature-census-keys",
         "hf-signature-census-messages",
+        "hf-signature-use-unchecked",
+        "hf-signature-use-scope",
         "hf-signing-authority"
       ],
-      "detail_review": "pending",
+      "detail_review": "elements-reviewed",
       "exact_strings": []
     },
     {
       "old_edition": "legacy-332b5ed63262",
       "old_panel": "066-05",
       "draft_beats": [
-        "hf-signature-census-messages"
+        "hf-continuing-artifacts-imperfect",
+        "hf-signature-census-messages",
+        "hf-signature-use-scope",
+        "hf-signing-authority"
       ],
-      "detail_review": "pending",
+      "detail_review": "elements-reviewed",
       "exact_strings": []
     },
     {
@@ -5670,13 +5692,13 @@
     }
   ],
   "by_row": {
-    "HuggingFace": 381,
+    "HuggingFace": 397,
     "GemStuffer": 58,
     "Collusion Wiki": 118,
     "Curt": 28,
     "Codex": 98,
     "Claude": 248
   },
-  "reviewed_old_panels": 450,
-  "reviewed_source_elements": 1293
+  "reviewed_old_panels": 464,
+  "reviewed_source_elements": 1332
 }

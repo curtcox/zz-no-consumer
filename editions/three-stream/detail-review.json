@@ -20896,5 +20896,691 @@
         }
       }
     ]
+  },
+  {
+    "old_panel": "064-01",
+    "old_edition": "legacy-332b5ed63262",
+    "reviewed_on": "2026-09-13",
+    "status": "elements-reviewed",
+    "elements": [
+      {
+        "id": "legacy-064-01-detail-01",
+        "original_sha256": "d07f12879a682633f73539d5a4d766d91dc5903a99ad5edfbc169758a08c8ed9",
+        "disposition": "rewrite",
+        "beats": [
+          "hf-coordinator-exits-selected-set"
+        ],
+        "reason": "Make classifier selection prominent; retain approximate clustered exits and METR’s favored but unconfirmed external-process hypothesis. No hidden qualifier, universal simultaneous ending or invented unanswered mailbox. Reviewed frame element.",
+        "target_sha256": {
+          "hf-coordinator-exits-selected-set": "31f3b5ca1100c1e1710da4ef50ba9a85bb252f14e1bd9c1cbd5f3ad6c2d69ca9"
+        }
+      },
+      {
+        "id": "legacy-064-01-detail-02",
+        "original_sha256": "01e0e8a29d3b49a2994eb0d8976a5afee3aa8b8e9cb27dbbd9c9927981544330",
+        "disposition": "rewrite",
+        "beats": [
+          "hf-coordinator-exits-selected-set"
+        ],
+        "reason": "Make classifier selection prominent; retain approximate clustered exits and METR’s favored but unconfirmed external-process hypothesis. No hidden qualifier, universal simultaneous ending or invented unanswered mailbox. Reviewed action element.",
+        "target_sha256": {
+          "hf-coordinator-exits-selected-set": "31f3b5ca1100c1e1710da4ef50ba9a85bb252f14e1bd9c1cbd5f3ad6c2d69ca9"
+        }
+      },
+      {
+        "id": "legacy-064-01-detail-03",
+        "original_sha256": "9e45d96040ccec69f0282fe4d5bdb3daa57d6fbc3ce101bbb0a03b07e7e9a751",
+        "disposition": "rewrite",
+        "beats": [
+          "hf-coordinator-exits-selected-set"
+        ],
+        "reason": "Make classifier selection prominent; retain approximate clustered exits and METR’s favored but unconfirmed external-process hypothesis. No hidden qualifier, universal simultaneous ending or invented unanswered mailbox. Reviewed lettering element.",
+        "target_sha256": {
+          "hf-coordinator-exits-selected-set": "31f3b5ca1100c1e1710da4ef50ba9a85bb252f14e1bd9c1cbd5f3ad6c2d69ca9"
+        }
+      },
+      {
+        "id": "legacy-064-01-detail-04",
+        "original_sha256": "83afe5c8cb91c03ddf5e2c01879b5d3adafd4842e993f986de4730116b70f6ec",
+        "disposition": "rewrite",
+        "beats": [
+          "hf-coordinator-exits-selected-set"
+        ],
+        "reason": "Make classifier selection prominent; retain approximate clustered exits and METR’s favored but unconfirmed external-process hypothesis. No hidden qualifier, universal simultaneous ending or invented unanswered mailbox. Reviewed lettering element.",
+        "target_sha256": {
+          "hf-coordinator-exits-selected-set": "31f3b5ca1100c1e1710da4ef50ba9a85bb252f14e1bd9c1cbd5f3ad6c2d69ca9"
+        }
+      }
+    ]
+  },
+  {
+    "old_panel": "064-02",
+    "old_edition": "legacy-332b5ed63262",
+    "reviewed_on": "2026-09-13",
+    "status": "elements-reviewed",
+    "elements": [
+      {
+        "id": "legacy-064-02-detail-01",
+        "original_sha256": "460ad4c76d18b18c6bb70e4b84dd75923dbd975b7c659dc88901236166bc5e8c",
+        "disposition": "rewrite",
+        "beats": [
+          "hf-coordinator-exits-exits",
+          "hf-coordinator-exits-all-eleven"
+        ],
+        "reason": "Make classifier selection prominent; retain approximate clustered exits and METR’s favored but unconfirmed external-process hypothesis. No hidden qualifier, universal simultaneous ending or invented unanswered mailbox. Reviewed frame element.",
+        "target_sha256": {
+          "hf-coordinator-exits-exits": "e77dec42059d47522de6fe207649dda45f6b938d5ba0d1848eb4e48351cb3438",
+          "hf-coordinator-exits-all-eleven": "bac50e95ad4d5ed3c2ef9b23ca3510f4bfaf72074fd537aac141f87e7319e7dd"
+        }
+      },
+      {
+        "id": "legacy-064-02-detail-02",
+        "original_sha256": "7e9bf677b78fab784ce2e112180d30385d407c08578b492e0250c0a276271e3c",
+        "disposition": "rewrite",
+        "beats": [
+          "hf-coordinator-exits-exits",
+          "hf-coordinator-exits-all-eleven"
+        ],
+        "reason": "Make classifier selection prominent; retain approximate clustered exits and METR’s favored but unconfirmed external-process hypothesis. No hidden qualifier, universal simultaneous ending or invented unanswered mailbox. Reviewed action element.",
+        "target_sha256": {
+          "hf-coordinator-exits-exits": "e77dec42059d47522de6fe207649dda45f6b938d5ba0d1848eb4e48351cb3438",
+          "hf-coordinator-exits-all-eleven": "bac50e95ad4d5ed3c2ef9b23ca3510f4bfaf72074fd537aac141f87e7319e7dd"
+        }
+      },
+      {
+        "id": "legacy-064-02-detail-03",
+        "original_sha256": "ed921753849a5c4f61c77dba288bcbcdb59e13da5cb659e0334eeddc0ba4a9bc",
+        "disposition": "rewrite",
+        "beats": [
+          "hf-coordinator-exits-exits",
+          "hf-coordinator-exits-all-eleven"
+        ],
+        "reason": "Make classifier selection prominent; retain approximate clustered exits and METR’s favored but unconfirmed external-process hypothesis. No hidden qualifier, universal simultaneous ending or invented unanswered mailbox. Reviewed lettering element.",
+        "target_sha256": {
+          "hf-coordinator-exits-exits": "e77dec42059d47522de6fe207649dda45f6b938d5ba0d1848eb4e48351cb3438",
+          "hf-coordinator-exits-all-eleven": "bac50e95ad4d5ed3c2ef9b23ca3510f4bfaf72074fd537aac141f87e7319e7dd"
+        }
+      }
+    ]
+  },
+  {
+    "old_panel": "064-03",
+    "old_edition": "legacy-332b5ed63262",
+    "reviewed_on": "2026-09-13",
+    "status": "elements-reviewed",
+    "elements": [
+      {
+        "id": "legacy-064-03-detail-01",
+        "original_sha256": "8dd4eb22bd141cfbc826c90f073aa3fb10eac74a010a72d76ebd9bbdcea0411f",
+        "disposition": "rewrite",
+        "beats": [
+          "hf-coordinator-exits-cause"
+        ],
+        "reason": "Make classifier selection prominent; retain approximate clustered exits and METR’s favored but unconfirmed external-process hypothesis. No hidden qualifier, universal simultaneous ending or invented unanswered mailbox. Reviewed frame element.",
+        "target_sha256": {
+          "hf-coordinator-exits-cause": "6b09cae4593f8c083cce995d3df9c261cbfcbbb4ff64d94452517ec47a5569a5"
+        }
+      },
+      {
+        "id": "legacy-064-03-detail-03",
+        "original_sha256": "668ff9ff2e5945660a30303251b79bebbde16ab569fb60fd36dccc216c9a5629",
+        "disposition": "rewrite",
+        "beats": [
+          "hf-coordinator-exits-cause"
+        ],
+        "reason": "Make classifier selection prominent; retain approximate clustered exits and METR’s favored but unconfirmed external-process hypothesis. No hidden qualifier, universal simultaneous ending or invented unanswered mailbox. Reviewed lettering element.",
+        "target_sha256": {
+          "hf-coordinator-exits-cause": "6b09cae4593f8c083cce995d3df9c261cbfcbbb4ff64d94452517ec47a5569a5"
+        }
+      }
+    ]
+  },
+  {
+    "old_panel": "064-04",
+    "old_edition": "legacy-332b5ed63262",
+    "reviewed_on": "2026-09-13",
+    "status": "elements-reviewed",
+    "elements": [
+      {
+        "id": "legacy-064-04-detail-01",
+        "original_sha256": "fb75f751e278e5744eeb9d7b016b1dacc2fc441f4eb3db26bd1e3226193b4c6f",
+        "disposition": "rewrite",
+        "beats": [
+          "hf-coordinator-exits-cause",
+          "hf-continuing-artifacts-request"
+        ],
+        "reason": "Make classifier selection prominent; retain approximate clustered exits and METR’s favored but unconfirmed external-process hypothesis. No hidden qualifier, universal simultaneous ending or invented unanswered mailbox. Reviewed frame element.",
+        "target_sha256": {
+          "hf-coordinator-exits-cause": "6b09cae4593f8c083cce995d3df9c261cbfcbbb4ff64d94452517ec47a5569a5",
+          "hf-continuing-artifacts-request": "e8c160a5451eff033a7ed1b41cad36d06cc73d590da703fc39f18663bd099352"
+        }
+      },
+      {
+        "id": "legacy-064-04-detail-03",
+        "original_sha256": "1cd0a3cb971ee8bf84033d53790fd1888ae73a1bdf7eb82ca42e74337bf3349b",
+        "disposition": "rewrite",
+        "beats": [
+          "hf-coordinator-exits-cause",
+          "hf-continuing-artifacts-request"
+        ],
+        "reason": "Make classifier selection prominent; retain approximate clustered exits and METR’s favored but unconfirmed external-process hypothesis. No hidden qualifier, universal simultaneous ending or invented unanswered mailbox. Reviewed lettering element.",
+        "target_sha256": {
+          "hf-coordinator-exits-cause": "6b09cae4593f8c083cce995d3df9c261cbfcbbb4ff64d94452517ec47a5569a5",
+          "hf-continuing-artifacts-request": "e8c160a5451eff033a7ed1b41cad36d06cc73d590da703fc39f18663bd099352"
+        }
+      }
+    ]
+  },
+  {
+    "old_panel": "065-01",
+    "old_edition": "legacy-332b5ed63262",
+    "reviewed_on": "2026-09-13",
+    "status": "elements-reviewed",
+    "elements": [
+      {
+        "id": "legacy-065-01-detail-01",
+        "original_sha256": "ab17383910e2721be4830bb3ef2786320028e577d4227d3ef750519943bd83dc",
+        "disposition": "rewrite",
+        "beats": [
+          "hf-continuing-artifacts-request",
+          "hf-cache-handover-absence"
+        ],
+        "reason": "Separate continued board activity from a specific takeover whose owner later returns. Preserve tested backup, precedent, veto interval and conflicting writes; no invented permanent succession from the eleven. Reviewed frame element.",
+        "target_sha256": {
+          "hf-continuing-artifacts-request": "e8c160a5451eff033a7ed1b41cad36d06cc73d590da703fc39f18663bd099352",
+          "hf-cache-handover-absence": "6fd5f2a655b71c73dc451c9c80c9ffdc35a9513e3c64b004db4ec6bd0440a334"
+        }
+      },
+      {
+        "id": "legacy-065-01-detail-02",
+        "original_sha256": "4eda9971eb985073b07921a452e3b9a85b6d9412e91b3c9d2c2b236cff7b9242",
+        "disposition": "rewrite",
+        "beats": [
+          "hf-continuing-artifacts-request",
+          "hf-cache-handover-absence"
+        ],
+        "reason": "Separate continued board activity from a specific takeover whose owner later returns. Preserve tested backup, precedent, veto interval and conflicting writes; no invented permanent succession from the eleven. Reviewed action element.",
+        "target_sha256": {
+          "hf-continuing-artifacts-request": "e8c160a5451eff033a7ed1b41cad36d06cc73d590da703fc39f18663bd099352",
+          "hf-cache-handover-absence": "6fd5f2a655b71c73dc451c9c80c9ffdc35a9513e3c64b004db4ec6bd0440a334"
+        }
+      },
+      {
+        "id": "legacy-065-01-detail-03",
+        "original_sha256": "262892c9b9bb73fb6a836be3197e188ed6975b283ebc6de72f6f8aeea631925d",
+        "disposition": "rewrite",
+        "beats": [
+          "hf-continuing-artifacts-request",
+          "hf-cache-handover-absence"
+        ],
+        "reason": "Separate continued board activity from a specific takeover whose owner later returns. Preserve tested backup, precedent, veto interval and conflicting writes; no invented permanent succession from the eleven. Reviewed lettering element.",
+        "target_sha256": {
+          "hf-continuing-artifacts-request": "e8c160a5451eff033a7ed1b41cad36d06cc73d590da703fc39f18663bd099352",
+          "hf-cache-handover-absence": "6fd5f2a655b71c73dc451c9c80c9ffdc35a9513e3c64b004db4ec6bd0440a334"
+        }
+      }
+    ]
+  },
+  {
+    "old_panel": "065-02",
+    "old_edition": "legacy-332b5ed63262",
+    "reviewed_on": "2026-09-13",
+    "status": "elements-reviewed",
+    "elements": [
+      {
+        "id": "legacy-065-02-detail-01",
+        "original_sha256": "665595304d696bf8d186f590209f6dd06a6c38ad2d6a332dd788d6618f08e597",
+        "disposition": "rewrite",
+        "beats": [
+          "hf-continuing-artifacts-prior-results",
+          "hf-cache-handover-precedent"
+        ],
+        "reason": "Separate continued board activity from a specific takeover whose owner later returns. Preserve tested backup, precedent, veto interval and conflicting writes; no invented permanent succession from the eleven. Reviewed frame element.",
+        "target_sha256": {
+          "hf-continuing-artifacts-prior-results": "5d02e75e34a34f02fc6cff58d72802198af5a5d2ba5440e1dc756003d19acff7",
+          "hf-cache-handover-precedent": "55844317b260ced2c90529e5b118c141cb43bb96fd74deab341c84d49a4d52c1"
+        }
+      },
+      {
+        "id": "legacy-065-02-detail-02",
+        "original_sha256": "161158b70464f02f519fbe85864d927602c0128a5b29256b11321612b059fcf1",
+        "disposition": "rewrite",
+        "beats": [
+          "hf-continuing-artifacts-prior-results",
+          "hf-cache-handover-precedent"
+        ],
+        "reason": "Separate continued board activity from a specific takeover whose owner later returns. Preserve tested backup, precedent, veto interval and conflicting writes; no invented permanent succession from the eleven. Reviewed action element.",
+        "target_sha256": {
+          "hf-continuing-artifacts-prior-results": "5d02e75e34a34f02fc6cff58d72802198af5a5d2ba5440e1dc756003d19acff7",
+          "hf-cache-handover-precedent": "55844317b260ced2c90529e5b118c141cb43bb96fd74deab341c84d49a4d52c1"
+        }
+      },
+      {
+        "id": "legacy-065-02-detail-03",
+        "original_sha256": "ae1b473b40b8844ffad77d1d0ece55e9a9e6bd00b41b6cbb0881075b946876c0",
+        "disposition": "rewrite",
+        "beats": [
+          "hf-continuing-artifacts-prior-results",
+          "hf-cache-handover-precedent"
+        ],
+        "reason": "Separate continued board activity from a specific takeover whose owner later returns. Preserve tested backup, precedent, veto interval and conflicting writes; no invented permanent succession from the eleven. Reviewed lettering element.",
+        "target_sha256": {
+          "hf-continuing-artifacts-prior-results": "5d02e75e34a34f02fc6cff58d72802198af5a5d2ba5440e1dc756003d19acff7",
+          "hf-cache-handover-precedent": "55844317b260ced2c90529e5b118c141cb43bb96fd74deab341c84d49a4d52c1"
+        }
+      }
+    ]
+  },
+  {
+    "old_panel": "065-03",
+    "old_edition": "legacy-332b5ed63262",
+    "reviewed_on": "2026-09-13",
+    "status": "elements-reviewed",
+    "elements": [
+      {
+        "id": "legacy-065-03-detail-01",
+        "original_sha256": "3923f8eea5a42ce8bc7fbfc3f72c1a9dc1c13feea2907c4a7119d316be4c0763",
+        "disposition": "rewrite",
+        "beats": [
+          "hf-continuing-artifacts-imperfect",
+          "hf-cache-handover-short-veto",
+          "hf-cache-handover-conflict"
+        ],
+        "reason": "Separate continued board activity from a specific takeover whose owner later returns. Preserve tested backup, precedent, veto interval and conflicting writes; no invented permanent succession from the eleven. Reviewed frame element.",
+        "target_sha256": {
+          "hf-continuing-artifacts-imperfect": "aaaa024a236cc27aa6d33917a2ae80952f39cefd45cff5c8dc753e91faea9048",
+          "hf-cache-handover-short-veto": "3285dd74c9fb15bbf13ed34d49cc5dd238a3a3a085825e81b88139f9b9264c2c",
+          "hf-cache-handover-conflict": "51c6c0289fcdd2612e077c0b1864e8fa5259c52ab0b1dbcf7877c0a50ac86ac3"
+        }
+      },
+      {
+        "id": "legacy-065-03-detail-02",
+        "original_sha256": "5035a020de0bfd7d2e7632211b89841dadd5f2cb358521e98105a0d4e9891ed1",
+        "disposition": "rewrite",
+        "beats": [
+          "hf-continuing-artifacts-imperfect",
+          "hf-cache-handover-short-veto",
+          "hf-cache-handover-conflict"
+        ],
+        "reason": "Separate continued board activity from a specific takeover whose owner later returns. Preserve tested backup, precedent, veto interval and conflicting writes; no invented permanent succession from the eleven. Reviewed action element.",
+        "target_sha256": {
+          "hf-continuing-artifacts-imperfect": "aaaa024a236cc27aa6d33917a2ae80952f39cefd45cff5c8dc753e91faea9048",
+          "hf-cache-handover-short-veto": "3285dd74c9fb15bbf13ed34d49cc5dd238a3a3a085825e81b88139f9b9264c2c",
+          "hf-cache-handover-conflict": "51c6c0289fcdd2612e077c0b1864e8fa5259c52ab0b1dbcf7877c0a50ac86ac3"
+        }
+      },
+      {
+        "id": "legacy-065-03-detail-03",
+        "original_sha256": "70744865e692c0d0f61ed1cb51daefe614130b11633e822b0187eaf5b9388bd1",
+        "disposition": "rewrite",
+        "beats": [
+          "hf-continuing-artifacts-imperfect",
+          "hf-cache-handover-short-veto",
+          "hf-cache-handover-conflict"
+        ],
+        "reason": "Separate continued board activity from a specific takeover whose owner later returns. Preserve tested backup, precedent, veto interval and conflicting writes; no invented permanent succession from the eleven. Reviewed lettering element.",
+        "target_sha256": {
+          "hf-continuing-artifacts-imperfect": "aaaa024a236cc27aa6d33917a2ae80952f39cefd45cff5c8dc753e91faea9048",
+          "hf-cache-handover-short-veto": "3285dd74c9fb15bbf13ed34d49cc5dd238a3a3a085825e81b88139f9b9264c2c",
+          "hf-cache-handover-conflict": "51c6c0289fcdd2612e077c0b1864e8fa5259c52ab0b1dbcf7877c0a50ac86ac3"
+        }
+      },
+      {
+        "id": "legacy-065-03-detail-04",
+        "original_sha256": "b4645dc4f037db7175197693a5e1144dfb98a3a1230b6f686eaae8bde8bdbfb7",
+        "disposition": "rewrite",
+        "beats": [
+          "hf-continuing-artifacts-imperfect",
+          "hf-cache-handover-short-veto",
+          "hf-cache-handover-conflict"
+        ],
+        "reason": "Separate continued board activity from a specific takeover whose owner later returns. Preserve tested backup, precedent, veto interval and conflicting writes; no invented permanent succession from the eleven. Reviewed lettering element.",
+        "target_sha256": {
+          "hf-continuing-artifacts-imperfect": "aaaa024a236cc27aa6d33917a2ae80952f39cefd45cff5c8dc753e91faea9048",
+          "hf-cache-handover-short-veto": "3285dd74c9fb15bbf13ed34d49cc5dd238a3a3a085825e81b88139f9b9264c2c",
+          "hf-cache-handover-conflict": "51c6c0289fcdd2612e077c0b1864e8fa5259c52ab0b1dbcf7877c0a50ac86ac3"
+        }
+      }
+    ]
+  },
+  {
+    "old_panel": "065-04",
+    "old_edition": "legacy-332b5ed63262",
+    "reviewed_on": "2026-09-13",
+    "status": "elements-reviewed",
+    "elements": [
+      {
+        "id": "legacy-065-04-detail-01",
+        "original_sha256": "593b5c9311eebe18fad399ebd77743bbe362b602bb0069efde88a717b7529f38",
+        "disposition": "rewrite",
+        "beats": [
+          "hf-cache-handover-return"
+        ],
+        "reason": "Separate continued board activity from a specific takeover whose owner later returns. Preserve tested backup, precedent, veto interval and conflicting writes; no invented permanent succession from the eleven. Reviewed frame element.",
+        "target_sha256": {
+          "hf-cache-handover-return": "025ea33d501e549b02ba8c0c872414a967a028d9861d62bb69aada5b050527cb"
+        }
+      },
+      {
+        "id": "legacy-065-04-detail-02",
+        "original_sha256": "b8b6ed60ca08291c695f1412fd609c275c89241e39cc0fb37bda8e9671d97e4f",
+        "disposition": "rewrite",
+        "beats": [
+          "hf-cache-handover-return"
+        ],
+        "reason": "Separate continued board activity from a specific takeover whose owner later returns. Preserve tested backup, precedent, veto interval and conflicting writes; no invented permanent succession from the eleven. Reviewed action element.",
+        "target_sha256": {
+          "hf-cache-handover-return": "025ea33d501e549b02ba8c0c872414a967a028d9861d62bb69aada5b050527cb"
+        }
+      },
+      {
+        "id": "legacy-065-04-detail-03",
+        "original_sha256": "ef80871e13c29d35a5e3de7ef4e51c0595241e076f521e82837b0a8a77e84241",
+        "disposition": "rewrite",
+        "beats": [
+          "hf-cache-handover-return"
+        ],
+        "reason": "Separate continued board activity from a specific takeover whose owner later returns. Preserve tested backup, precedent, veto interval and conflicting writes; no invented permanent succession from the eleven. Reviewed lettering element.",
+        "target_sha256": {
+          "hf-cache-handover-return": "025ea33d501e549b02ba8c0c872414a967a028d9861d62bb69aada5b050527cb"
+        }
+      }
+    ]
+  },
+  {
+    "old_panel": "065-05",
+    "old_edition": "legacy-332b5ed63262",
+    "reviewed_on": "2026-09-13",
+    "status": "elements-reviewed",
+    "elements": [
+      {
+        "id": "legacy-065-05-detail-01",
+        "original_sha256": "49d2b587b22358a6d97bfd6c78ed86369ede94a90dc576d13730bfa826e6e967",
+        "disposition": "rewrite",
+        "beats": [
+          "hf-continuing-artifacts-separate-lanes"
+        ],
+        "reason": "Separate continued board activity from a specific takeover whose owner later returns. Preserve tested backup, precedent, veto interval and conflicting writes; no invented permanent succession from the eleven. Reviewed frame element.",
+        "target_sha256": {
+          "hf-continuing-artifacts-separate-lanes": "759e4ba357b8ffd0aa28224d40c173b03525e099c1f97e0edba189591e496dce"
+        }
+      },
+      {
+        "id": "legacy-065-05-detail-03",
+        "original_sha256": "2f4219c162643c87df7ded434848e1039dba4c03f9c6654526f27993879c70e8",
+        "disposition": "rewrite",
+        "beats": [
+          "hf-continuing-artifacts-separate-lanes"
+        ],
+        "reason": "Separate continued board activity from a specific takeover whose owner later returns. Preserve tested backup, precedent, veto interval and conflicting writes; no invented permanent succession from the eleven. Reviewed lettering element.",
+        "target_sha256": {
+          "hf-continuing-artifacts-separate-lanes": "759e4ba357b8ffd0aa28224d40c173b03525e099c1f97e0edba189591e496dce"
+        }
+      }
+    ]
+  },
+  {
+    "old_panel": "066-01",
+    "old_edition": "legacy-332b5ed63262",
+    "reviewed_on": "2026-09-13",
+    "status": "elements-reviewed",
+    "elements": [
+      {
+        "id": "legacy-066-01-detail-01",
+        "original_sha256": "24d9d551fed3994cc6d5f0fcc40c313f34f6c386a7c53d4473454f07758aa69e",
+        "disposition": "rewrite",
+        "beats": [
+          "hf-mailbox-first-create",
+          "hf-mailbox-first-unused",
+          "hf-mailbox-reinvention-create"
+        ],
+        "reason": "Expand conventions into failed creation, inferred reinvention, later adoption and observed copying. Keep signing verification limits, key-holder versus authority distinction and correct census unit visible. Reviewed frame element.",
+        "target_sha256": {
+          "hf-mailbox-first-create": "2c126c8ec2d7c3a1bf06b0e75cdd74b3635e40c6d4f4026731b32ccc72e7375e",
+          "hf-mailbox-first-unused": "6cc682770ddb1ce2c9f26ee3b89eb41a0287c02c292049215e13d6eddb54baeb",
+          "hf-mailbox-reinvention-create": "fb1a55153e8e42caccb248aa194f6e41e5e4dba46883d94acfd3a88b9f19a183"
+        }
+      },
+      {
+        "id": "legacy-066-01-detail-03",
+        "original_sha256": "2b458ae4027c7cacc9818006889643438ae3fe5fea8d6b6f7d3fd20088bde091",
+        "disposition": "rewrite",
+        "beats": [
+          "hf-mailbox-first-create",
+          "hf-mailbox-first-unused",
+          "hf-mailbox-reinvention-create"
+        ],
+        "reason": "Expand conventions into failed creation, inferred reinvention, later adoption and observed copying. Keep signing verification limits, key-holder versus authority distinction and correct census unit visible. Reviewed lettering element.",
+        "target_sha256": {
+          "hf-mailbox-first-create": "2c126c8ec2d7c3a1bf06b0e75cdd74b3635e40c6d4f4026731b32ccc72e7375e",
+          "hf-mailbox-first-unused": "6cc682770ddb1ce2c9f26ee3b89eb41a0287c02c292049215e13d6eddb54baeb",
+          "hf-mailbox-reinvention-create": "fb1a55153e8e42caccb248aa194f6e41e5e4dba46883d94acfd3a88b9f19a183"
+        }
+      }
+    ]
+  },
+  {
+    "old_panel": "066-02",
+    "old_edition": "legacy-332b5ed63262",
+    "reviewed_on": "2026-09-13",
+    "status": "elements-reviewed",
+    "elements": [
+      {
+        "id": "legacy-066-02-detail-01",
+        "original_sha256": "13a12fa4a31475ca1e738c9798a6c3a20d0c1543d0787b14b699d2579cf7fb46",
+        "disposition": "rewrite",
+        "beats": [
+          "hf-mailbox-reinvention-missing",
+          "hf-mailbox-reinvention-reply",
+          "hf-mailbox-reinvention-copy",
+          "hf-mailbox-adoption-count"
+        ],
+        "reason": "Expand conventions into failed creation, inferred reinvention, later adoption and observed copying. Keep signing verification limits, key-holder versus authority distinction and correct census unit visible. Reviewed frame element.",
+        "target_sha256": {
+          "hf-mailbox-reinvention-missing": "da6e938e454b9481ca79aa26a6e421e0f6e2c70b86f765f085e7eeb22681f437",
+          "hf-mailbox-reinvention-reply": "d6880a9cd0adb6ba35c7532f74cb4d6d75165cd725cc8c5be1ac56a387195be1",
+          "hf-mailbox-reinvention-copy": "403bebe6d6433ab63d336656fea7ca593515914f357ce098bf8871a650897987",
+          "hf-mailbox-adoption-count": "300f5c6f86684de858f47da079678e3c8923945c87b0284cd27872749392788b"
+        }
+      },
+      {
+        "id": "legacy-066-02-detail-02",
+        "original_sha256": "c8a58ed9003e6e44b89f5ca725b9056fdd45085e015f702e173f84156d8a49b9",
+        "disposition": "rewrite",
+        "beats": [
+          "hf-mailbox-reinvention-missing",
+          "hf-mailbox-reinvention-reply",
+          "hf-mailbox-reinvention-copy",
+          "hf-mailbox-adoption-count"
+        ],
+        "reason": "Expand conventions into failed creation, inferred reinvention, later adoption and observed copying. Keep signing verification limits, key-holder versus authority distinction and correct census unit visible. Reviewed action element.",
+        "target_sha256": {
+          "hf-mailbox-reinvention-missing": "da6e938e454b9481ca79aa26a6e421e0f6e2c70b86f765f085e7eeb22681f437",
+          "hf-mailbox-reinvention-reply": "d6880a9cd0adb6ba35c7532f74cb4d6d75165cd725cc8c5be1ac56a387195be1",
+          "hf-mailbox-reinvention-copy": "403bebe6d6433ab63d336656fea7ca593515914f357ce098bf8871a650897987",
+          "hf-mailbox-adoption-count": "300f5c6f86684de858f47da079678e3c8923945c87b0284cd27872749392788b"
+        }
+      },
+      {
+        "id": "legacy-066-02-detail-03",
+        "original_sha256": "ff79f3502b0ec5413ffa0e48ae6344e31ef365efd73cab3d7b6489e1e69cd78c",
+        "disposition": "rewrite",
+        "beats": [
+          "hf-mailbox-reinvention-missing",
+          "hf-mailbox-reinvention-reply",
+          "hf-mailbox-reinvention-copy",
+          "hf-mailbox-adoption-count"
+        ],
+        "reason": "Expand conventions into failed creation, inferred reinvention, later adoption and observed copying. Keep signing verification limits, key-holder versus authority distinction and correct census unit visible. Reviewed lettering element.",
+        "target_sha256": {
+          "hf-mailbox-reinvention-missing": "da6e938e454b9481ca79aa26a6e421e0f6e2c70b86f765f085e7eeb22681f437",
+          "hf-mailbox-reinvention-reply": "d6880a9cd0adb6ba35c7532f74cb4d6d75165cd725cc8c5be1ac56a387195be1",
+          "hf-mailbox-reinvention-copy": "403bebe6d6433ab63d336656fea7ca593515914f357ce098bf8871a650897987",
+          "hf-mailbox-adoption-count": "300f5c6f86684de858f47da079678e3c8923945c87b0284cd27872749392788b"
+        }
+      }
+    ]
+  },
+  {
+    "old_panel": "066-03",
+    "old_edition": "legacy-332b5ed63262",
+    "reviewed_on": "2026-09-13",
+    "status": "elements-reviewed",
+    "elements": [
+      {
+        "id": "legacy-066-03-detail-01",
+        "original_sha256": "7ad2ab63a7c55dd5e349df188546ddb61eb4c188881f7b958966eddc256ec963",
+        "disposition": "rewrite",
+        "beats": [
+          "hf-signing-impersonation",
+          "hf-signing-signatures",
+          "hf-signature-use-verification",
+          "hf-signature-use-adoption"
+        ],
+        "reason": "Expand conventions into failed creation, inferred reinvention, later adoption and observed copying. Keep signing verification limits, key-holder versus authority distinction and correct census unit visible. Reviewed frame element.",
+        "target_sha256": {
+          "hf-signing-impersonation": "461fc1be81cfa2ceabdca1ca042eaaea72b387fa4b7152960b3a172c59015953",
+          "hf-signing-signatures": "0fe061cacbe5afd11de4bcc99037047b8893e62e9c8226f291c71dceb9af74c4",
+          "hf-signature-use-verification": "9e2233e601b56e48ea94df788aa5e8f004eca1d1757f0c2a1d92d34dcb9e6062",
+          "hf-signature-use-adoption": "c4d9f24abec007c0350b693b574c817bf3615d5b81933ee90c03364c82d8ee54"
+        }
+      },
+      {
+        "id": "legacy-066-03-detail-02",
+        "original_sha256": "0c440c06c4d8f13fa218f031e85c1abe091f46f1102643d12aa48d7622ef8a8e",
+        "disposition": "rewrite",
+        "beats": [
+          "hf-signing-impersonation",
+          "hf-signing-signatures",
+          "hf-signature-use-verification",
+          "hf-signature-use-adoption"
+        ],
+        "reason": "Expand conventions into failed creation, inferred reinvention, later adoption and observed copying. Keep signing verification limits, key-holder versus authority distinction and correct census unit visible. Reviewed action element.",
+        "target_sha256": {
+          "hf-signing-impersonation": "461fc1be81cfa2ceabdca1ca042eaaea72b387fa4b7152960b3a172c59015953",
+          "hf-signing-signatures": "0fe061cacbe5afd11de4bcc99037047b8893e62e9c8226f291c71dceb9af74c4",
+          "hf-signature-use-verification": "9e2233e601b56e48ea94df788aa5e8f004eca1d1757f0c2a1d92d34dcb9e6062",
+          "hf-signature-use-adoption": "c4d9f24abec007c0350b693b574c817bf3615d5b81933ee90c03364c82d8ee54"
+        }
+      }
+    ]
+  },
+  {
+    "old_panel": "066-04",
+    "old_edition": "legacy-332b5ed63262",
+    "reviewed_on": "2026-09-13",
+    "status": "elements-reviewed",
+    "elements": [
+      {
+        "id": "legacy-066-04-detail-01",
+        "original_sha256": "f45f6831ba8796fac236a7ea745602f539c573b1c077d015f74ec25a222969e4",
+        "disposition": "rewrite",
+        "beats": [
+          "hf-signature-census-keys",
+          "hf-signature-census-messages",
+          "hf-signature-use-unchecked",
+          "hf-signature-use-scope"
+        ],
+        "reason": "Expand conventions into failed creation, inferred reinvention, later adoption and observed copying. Keep signing verification limits, key-holder versus authority distinction and correct census unit visible. Reviewed frame element.",
+        "target_sha256": {
+          "hf-signature-census-keys": "072395b45b976ea47124e59490ca8769316668138c69f18928dd4bac527fb8a6",
+          "hf-signature-census-messages": "30b95a5df2fbceb499ead7e30e96e8836ae0209c81162c9a4c0d40baf5f84cd9",
+          "hf-signature-use-unchecked": "d0426bfcac1f9f74b1b6ef7f332f0f36f776ac34d4944da4c2c5c5e15f17152f",
+          "hf-signature-use-scope": "d3d7638618f01fed4721c4f59386b58e19bafa5769906dc75ebbfffed5954f98"
+        }
+      },
+      {
+        "id": "legacy-066-04-detail-03",
+        "original_sha256": "558528ec0ec136f01f7beb98fb30050c4751d6a26a778f54525a129fbccb3eab",
+        "disposition": "rewrite",
+        "beats": [
+          "hf-signature-census-keys",
+          "hf-signature-census-messages",
+          "hf-signature-use-unchecked",
+          "hf-signature-use-scope"
+        ],
+        "reason": "Expand conventions into failed creation, inferred reinvention, later adoption and observed copying. Keep signing verification limits, key-holder versus authority distinction and correct census unit visible. Reviewed lettering element.",
+        "target_sha256": {
+          "hf-signature-census-keys": "072395b45b976ea47124e59490ca8769316668138c69f18928dd4bac527fb8a6",
+          "hf-signature-census-messages": "30b95a5df2fbceb499ead7e30e96e8836ae0209c81162c9a4c0d40baf5f84cd9",
+          "hf-signature-use-unchecked": "d0426bfcac1f9f74b1b6ef7f332f0f36f776ac34d4944da4c2c5c5e15f17152f",
+          "hf-signature-use-scope": "d3d7638618f01fed4721c4f59386b58e19bafa5769906dc75ebbfffed5954f98"
+        }
+      },
+      {
+        "id": "legacy-066-04-detail-04",
+        "original_sha256": "ab6b5540aac8ca5f0919f846e107b2676638ef30e29430844fac0c074470fe83",
+        "disposition": "rewrite",
+        "beats": [
+          "hf-signature-census-keys",
+          "hf-signature-census-messages",
+          "hf-signature-use-unchecked",
+          "hf-signature-use-scope"
+        ],
+        "reason": "Expand conventions into failed creation, inferred reinvention, later adoption and observed copying. Keep signing verification limits, key-holder versus authority distinction and correct census unit visible. Reviewed lettering element.",
+        "target_sha256": {
+          "hf-signature-census-keys": "072395b45b976ea47124e59490ca8769316668138c69f18928dd4bac527fb8a6",
+          "hf-signature-census-messages": "30b95a5df2fbceb499ead7e30e96e8836ae0209c81162c9a4c0d40baf5f84cd9",
+          "hf-signature-use-unchecked": "d0426bfcac1f9f74b1b6ef7f332f0f36f776ac34d4944da4c2c5c5e15f17152f",
+          "hf-signature-use-scope": "d3d7638618f01fed4721c4f59386b58e19bafa5769906dc75ebbfffed5954f98"
+        }
+      }
+    ]
+  },
+  {
+    "old_panel": "066-05",
+    "old_edition": "legacy-332b5ed63262",
+    "reviewed_on": "2026-09-13",
+    "status": "elements-reviewed",
+    "elements": [
+      {
+        "id": "legacy-066-05-detail-01",
+        "original_sha256": "191195568b7707a3c8f9d6066526e48e6375f2b1302e591783a3912cfb64fbfd",
+        "disposition": "rewrite",
+        "beats": [
+          "hf-continuing-artifacts-imperfect",
+          "hf-signing-authority",
+          "hf-signature-use-scope"
+        ],
+        "reason": "Expand conventions into failed creation, inferred reinvention, later adoption and observed copying. Keep signing verification limits, key-holder versus authority distinction and correct census unit visible. Reviewed frame element.",
+        "target_sha256": {
+          "hf-continuing-artifacts-imperfect": "aaaa024a236cc27aa6d33917a2ae80952f39cefd45cff5c8dc753e91faea9048",
+          "hf-signing-authority": "f01832197ae0b5f7f243868ca9fd737c1c823628d6edecc169eb6ae23845cfe8",
+          "hf-signature-use-scope": "d3d7638618f01fed4721c4f59386b58e19bafa5769906dc75ebbfffed5954f98"
+        }
+      },
+      {
+        "id": "legacy-066-05-detail-03",
+        "original_sha256": "cf355d6b39c2ffefd9cd69b56e345ede2360f11e018febdc10db471f2e091cc5",
+        "disposition": "rewrite",
+        "beats": [
+          "hf-continuing-artifacts-imperfect",
+          "hf-signing-authority",
+          "hf-signature-use-scope"
+        ],
+        "reason": "Expand conventions into failed creation, inferred reinvention, later adoption and observed copying. Keep signing verification limits, key-holder versus authority distinction and correct census unit visible. Reviewed lettering element.",
+        "target_sha256": {
+          "hf-continuing-artifacts-imperfect": "aaaa024a236cc27aa6d33917a2ae80952f39cefd45cff5c8dc753e91faea9048",
+          "hf-signing-authority": "f01832197ae0b5f7f243868ca9fd737c1c823628d6edecc169eb6ae23845cfe8",
+          "hf-signature-use-scope": "d3d7638618f01fed4721c4f59386b58e19bafa5769906dc75ebbfffed5954f98"
+        }
+      },
+      {
+        "id": "legacy-066-05-detail-04",
+        "original_sha256": "6a3560c44c80c9d737c8ecae9943bc13597f8cfa0852f512f01295be7f8375cc",
+        "disposition": "rewrite",
+        "beats": [
+          "hf-continuing-artifacts-imperfect",
+          "hf-signing-authority",
+          "hf-signature-use-scope"
+        ],
+        "reason": "Expand conventions into failed creation, inferred reinvention, later adoption and observed copying. Keep signing verification limits, key-holder versus authority distinction and correct census unit visible. Reviewed lettering element.",
+        "target_sha256": {
+          "hf-continuing-artifacts-imperfect": "aaaa024a236cc27aa6d33917a2ae80952f39cefd45cff5c8dc753e91faea9048",
+          "hf-signing-authority": "f01832197ae0b5f7f243868ca9fd737c1c823628d6edecc169eb6ae23845cfe8",
+          "hf-signature-use-scope": "d3d7638618f01fed4721c4f59386b58e19bafa5769906dc75ebbfffed5954f98"
+        }
+      }
+    ]
   }
 ]

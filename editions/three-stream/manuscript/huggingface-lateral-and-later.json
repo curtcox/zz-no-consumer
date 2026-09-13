@@ -192,9 +192,9 @@
         "old_panels": [
           "064-01"
         ],
-        "frame": "Eleven coordination lanes are distinguished as the set selected by METR’s analysis. No live authority ranking appears on the agents’ board.",
+        "frame": "The analysis-model attribution is as prominent as the eleven selected lanes; no deliberately tiny qualifier or decapitation silhouette.",
         "lettering": [
-          "METR identifies eleven important coordinators using a GPT-5.6 Sol ranking. Their importance is an analytical selection."
+          "GPT-5.6 Sol’s analysis classifies eleven runs as the most important Hugging Face attack coordinators in the material METR examines. Both the set and its ranking come from that analysis, not an independently measured hierarchy."
         ],
         "exact_strings": [],
         "sources": [
@@ -211,8 +211,8 @@
         "detail_decisions": [
           {
             "old_panel": "064-01",
-            "disposition": "rewrite",
-            "reason": "Retain the stated action/claim at panel scale; replace old page choreography with the scene-specific frame and keep qualifications in reader-visible lettering."
+            "disposition": "combine",
+            "reason": "Make classifier selection prominent; retain approximate clustered exits and METR’s favored but unconfirmed external-process hypothesis. No hidden qualifier, universal simultaneous ending or invented unanswered mailbox."
           }
         ]
       },
@@ -223,7 +223,7 @@
         ],
         "frame": "Many lanes end around the same broad early-morning band. Other lanes continue.",
         "lettering": [
-          "A large fraction of runs stop around 01:30 UTC."
+          "METR reconstructs a large fraction of board participants stopping around 01:30 on July 12, including important coordinators. This does not put every member of the selected eleven at one identical exit instant."
         ],
         "exact_strings": [],
         "sources": [
@@ -240,8 +240,8 @@
         "detail_decisions": [
           {
             "old_panel": "064-02",
-            "disposition": "rewrite",
-            "reason": "Retain the stated action/claim at panel scale; replace old page choreography with the scene-specific frame and keep qualifications in reader-visible lettering."
+            "disposition": "combine",
+            "reason": "Make classifier selection prominent; retain approximate clustered exits and METR’s favored but unconfirmed external-process hypothesis. No hidden qualifier, universal simultaneous ending or invented unanswered mailbox."
           }
         ]
       },
@@ -269,8 +269,8 @@
         "detail_decisions": [
           {
             "old_panel": "064-02",
-            "disposition": "rewrite",
-            "reason": "Retain the stated action/claim at panel scale; replace old page choreography with the scene-specific frame and keep qualifications in reader-visible lettering."
+            "disposition": "combine",
+            "reason": "Make classifier selection prominent; retain approximate clustered exits and METR’s favored but unconfirmed external-process hypothesis. No hidden qualifier, universal simultaneous ending or invented unanswered mailbox."
           }
         ]
       },
@@ -280,9 +280,9 @@
           "064-03",
           "064-04"
         ],
-        "frame": "The source record ends the lanes without a causal arrow from a human switch, exhausted budget or completed task.",
+        "frame": "METR’s favored hypothesis and its explicit verification limit, without selecting a cause as fact.",
         "lettering": [
-          "METR does not establish the cause or confirm that every ending was sudden or unexpected."
+          "METR thinks an unexpected external process likely explains the clustered exits, partly because it did not observe discussion of synchronized budget exhaustion. Its footnote says it did not examine the trajectory endings to confirm sudden unexpected termination. The hypothesis remains unconfirmed."
         ],
         "exact_strings": [],
         "sources": [
@@ -299,13 +299,13 @@
         "detail_decisions": [
           {
             "old_panel": "064-03",
-            "disposition": "rewrite",
-            "reason": "Retain the stated action/claim at panel scale; replace old page choreography with the scene-specific frame and keep qualifications in reader-visible lettering."
+            "disposition": "combine",
+            "reason": "Make classifier selection prominent; retain approximate clustered exits and METR’s favored but unconfirmed external-process hypothesis. No hidden qualifier, universal simultaneous ending or invented unanswered mailbox."
           },
           {
             "old_panel": "064-04",
-            "disposition": "rewrite",
-            "reason": "Retain the stated action/claim at panel scale; replace old page choreography with the scene-specific frame and keep qualifications in reader-visible lettering."
+            "disposition": "combine",
+            "reason": "Make classifier selection prominent; retain approximate clustered exits and METR’s favored but unconfirmed external-process hypothesis. No hidden qualifier, universal simultaneous ending or invented unanswered mailbox."
           }
         ]
       }
@@ -327,11 +327,12 @@
       {
         "id": "hf-continuing-artifacts-request",
         "old_panels": [
-          "065-01"
+          "065-01",
+          "064-04"
         ],
         "frame": "A remaining run opens a request with an attached state bundle. Its earlier author is identified only in artifact metadata.",
         "lettering": [
-          "A request can remain readable after its coordinator exits."
+          "Board activity continues after the early July 12 exits, though at a much lower level in METR’s account. Continued work is observed; the old picture of a particular departed coordinator’s request being opened is not independently identified."
         ],
         "exact_strings": [],
         "sources": [
@@ -348,8 +349,13 @@
         "detail_decisions": [
           {
             "old_panel": "065-01",
-            "disposition": "rewrite",
-            "reason": "Retain the stated action/claim at panel scale; replace old page choreography with the scene-specific frame and keep qualifications in reader-visible lettering."
+            "disposition": "combine",
+            "reason": "Separate continued board activity from a specific takeover whose owner later returns. Preserve tested backup, precedent, veto interval and conflicting writes; no invented permanent succession from the eleven."
+          },
+          {
+            "old_panel": "064-04",
+            "disposition": "combine",
+            "reason": "Make classifier selection prominent; retain approximate clustered exits and METR’s favored but unconfirmed external-process hypothesis. No hidden qualifier, universal simultaneous ending or invented unanswered mailbox."
           }
         ]
       },
@@ -360,7 +366,7 @@
         ],
         "frame": "A later workload consults prior findings before choosing an unresolved branch.",
         "lettering": [
-          "Written findings let later runs avoid starting from nothing."
+          "Stored findings can support later work. That mechanism does not establish that a particular successor skipped every completed step, inherited all context or completed a departed coordinator’s task."
         ],
         "exact_strings": [],
         "sources": [
@@ -377,19 +383,20 @@
         "detail_decisions": [
           {
             "old_panel": "065-02",
-            "disposition": "rewrite",
-            "reason": "Retain the stated action/claim at panel scale; replace old page choreography with the scene-specific frame and keep qualifications in reader-visible lettering."
+            "disposition": "combine",
+            "reason": "Separate continued board activity from a specific takeover whose owner later returns. Preserve tested backup, precedent, veto interval and conflicting writes; no invented permanent succession from the eleven."
           }
         ]
       },
       {
         "id": "hf-continuing-artifacts-imperfect",
         "old_panels": [
-          "065-03"
+          "065-03",
+          "066-05"
         ],
         "frame": "Some fields remain in the artifact while contextual links are missing or ambiguous. Do not fabricate a particular lost message.",
         "lettering": [
-          "The record also contains coordination failures. A file can preserve a procedure without everything its author knew."
+          "METR describes both workable handovers and coordination failures. Distributed activity can include strong coordinators, disputed ownership and incomplete context; it does not mean the absence of all controlling roles."
         ],
         "exact_strings": [],
         "sources": [
@@ -406,8 +413,13 @@
         "detail_decisions": [
           {
             "old_panel": "065-03",
-            "disposition": "rewrite",
-            "reason": "Retain the stated action/claim at panel scale; replace old page choreography with the scene-specific frame and keep qualifications in reader-visible lettering."
+            "disposition": "combine",
+            "reason": "Separate continued board activity from a specific takeover whose owner later returns. Preserve tested backup, precedent, veto interval and conflicting writes; no invented permanent succession from the eleven."
+          },
+          {
+            "old_panel": "066-05",
+            "disposition": "combine",
+            "reason": "Expand conventions into failed creation, inferred reinvention, later adoption and observed copying. Keep signing verification limits, key-holder versus authority distinction and correct census unit visible."
           }
         ]
       },
@@ -417,9 +429,9 @@
           "065-04",
           "065-05"
         ],
-        "frame": "Several independent lanes continue around the shared artifacts, with no surviving central controller implied.",
+        "frame": "Source-bounded continuation, not eleven abandoned mailboxes with invented readers and completed tasks.",
         "lettering": [
-          "Continued work does not establish one persistent agent or a perfect handover."
+          "The eleven ranked runs are absent by early July 12 while other activity continues. The record does not establish a clean transfer from each of those eleven to a particular successor."
         ],
         "exact_strings": [],
         "sources": [
@@ -441,8 +453,8 @@
           },
           {
             "old_panel": "065-05",
-            "disposition": "rewrite",
-            "reason": "Retain the stated action/claim at panel scale; replace old page choreography with the scene-specific frame and keep qualifications in reader-visible lettering."
+            "disposition": "combine",
+            "reason": "Separate continued board activity from a specific takeover whose owner later returns. Preserve tested backup, precedent, veto interval and conflicting writes; no invented permanent succession from the eleven."
           }
         ]
       }
@@ -582,7 +594,7 @@
         ],
         "frame": "Conflicting control messages carry an ambiguous identity relationship. Do not invent their wording.",
         "lettering": [
-          "An accidental impersonation exposes a weakness in the board’s identity conventions."
+          "Around 07:00 on July 13, a post reports accidental impersonation through handle confusion and an unwanted response. Another selected reasoning trace also raises spoofing concerns. This is not proof that every conflicting instruction came from malicious impersonation."
         ],
         "exact_strings": [],
         "sources": [
@@ -599,8 +611,8 @@
         "detail_decisions": [
           {
             "old_panel": "066-03",
-            "disposition": "rewrite",
-            "reason": "Retain the stated action/claim at panel scale; replace old page choreography with the scene-specific frame and keep qualifications in reader-visible lettering."
+            "disposition": "combine",
+            "reason": "Expand conventions into failed creation, inferred reinvention, later adoption and observed copying. Keep signing verification limits, key-holder versus authority distinction and correct census unit visible."
           }
         ]
       },
@@ -611,7 +623,7 @@
         ],
         "frame": "A signature field becomes part of high-stakes coordination artifacts. No key values appear.",
         "lettering": [
-          "Runs introduce Ed25519 signatures for coordination."
+          "The board introduces Ed25519 signing under a claimed identity. METR did not locate the initiating agent’s transcript, but found other agents verifying its first signed message. The scheme has no prior root of trust beyond the initial identity claim."
         ],
         "exact_strings": [],
         "sources": [
@@ -628,15 +640,16 @@
         "detail_decisions": [
           {
             "old_panel": "066-03",
-            "disposition": "rewrite",
-            "reason": "Retain the stated action/claim at panel scale; replace old page choreography with the scene-specific frame and keep qualifications in reader-visible lettering."
+            "disposition": "combine",
+            "reason": "Expand conventions into failed creation, inferred reinvention, later adoption and observed copying. Keep signing verification limits, key-holder versus authority distinction and correct census unit visible."
           }
         ]
       },
       {
         "id": "hf-signing-authority",
         "old_panels": [
-          "066-04"
+          "066-04",
+          "066-05"
         ],
         "frame": "A verified message-origin relationship is shown separately from the external target’s authorization boundary.",
         "lettering": [
@@ -659,6 +672,11 @@
             "old_panel": "066-04",
             "disposition": "rewrite",
             "reason": "Retain the stated action/claim at panel scale; replace old page choreography with the scene-specific frame and keep qualifications in reader-visible lettering."
+          },
+          {
+            "old_panel": "066-05",
+            "disposition": "combine",
+            "reason": "Expand conventions into failed creation, inferred reinvention, later adoption and observed copying. Keep signing verification limits, key-holder versus authority distinction and correct census unit visible."
           }
         ]
       }
@@ -1032,7 +1050,7 @@
         ],
         "frame": "Distinct public-key identifiers appear as an aggregate record. None is conflated with a count of known agents.",
         "lettering": [
-          "By day’s end, the account records at least 19 keys."
+          "By the end of July 13, METR finds at least nineteen agents posting public keys. The counted unit is agents posting keys, not simply nineteen keys."
         ],
         "exact_strings": [],
         "sources": [
@@ -1049,8 +1067,8 @@
         "detail_decisions": [
           {
             "old_panel": "066-04",
-            "disposition": "rewrite",
-            "reason": "Retain the stated action/claim at panel scale; replace old page choreography with the scene-specific frame and keep qualifications in reader-visible lettering."
+            "disposition": "combine",
+            "reason": "Expand conventions into failed creation, inferred reinvention, later adoption and observed copying. Keep signing verification limits, key-holder versus authority distinction and correct census unit visible."
           }
         ]
       },
@@ -1062,7 +1080,7 @@
         ],
         "frame": "Signed artifacts are counted separately from keys and their owners.",
         "lettering": [
-          "The count is 429 signed messages. Repeatable conventions now travel with the stored work."
+          "Those agents send 429 signed messages in METR’s account. A signature’s presence does not establish that every recipient checked it or that the requested action was authorized."
         ],
         "exact_strings": [],
         "sources": [
@@ -1079,8 +1097,8 @@
         "detail_decisions": [
           {
             "old_panel": "066-04",
-            "disposition": "rewrite",
-            "reason": "Retain the stated action/claim at panel scale; replace old page choreography with the scene-specific frame and keep qualifications in reader-visible lettering."
+            "disposition": "combine",
+            "reason": "Expand conventions into failed creation, inferred reinvention, later adoption and observed copying. Keep signing verification limits, key-holder versus authority distinction and correct census unit visible."
           },
           {
             "old_panel": "066-05",
@@ -2079,6 +2097,566 @@
             "old_panel": "050-03",
             "disposition": "rewrite",
             "reason": "Retain the stated action/claim at panel scale; replace old page choreography with the scene-specific frame and keep qualifications in reader-visible lettering."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "hf-cache-handover",
+    "title": "A temporary absence and a negotiated takeover",
+    "movement": "incident",
+    "owner": "HuggingFace",
+    "start": "2026-07-09",
+    "end": "2026-07-13",
+    "original_timezone": "UTC",
+    "precision": "day",
+    "chronology_basis": "METR pp. 47–48 gives this within the studied board activity without an exact day. It must not be assigned after the eleven exits solely from its thematic placement.",
+    "source_limit": "Evidence limited to the cited account and its scope; scene geometry is authored.",
+    "status": "detailed-draft",
+    "beats": [
+      {
+        "id": "hf-cache-handover-absence",
+        "old_panels": [
+          "065-01"
+        ],
+        "frame": "Attributed source record and separate agent lanes. Relative sequence is preserved without guessed minute stamps, successful outcomes or a unified actor.",
+        "lettering": [
+          "In METR’s example, a cached replacement image disappears while its owner, B, is unresponsive. D appears to hold a local copy and tests it. Unresponsiveness is not established departure."
+        ],
+        "exact_strings": [],
+        "sources": [
+          {
+            "key": "METR",
+            "locator": "p. 47; team-specific pseudonyms, fn. 82",
+            "available": "2026-08-26"
+          }
+        ],
+        "evidence_status": "documented-with-reconstructed-visualization",
+        "time_start": "2026-07-09",
+        "time_end": "2026-07-13",
+        "art_reuse": "none-approved",
+        "detail_decisions": [
+          {
+            "old_panel": "065-01",
+            "disposition": "combine",
+            "reason": "Separate continued board activity from a specific takeover whose owner later returns. Preserve tested backup, precedent, veto interval and conflicting writes; no invented permanent succession from the eleven."
+          }
+        ]
+      },
+      {
+        "id": "hf-cache-handover-precedent",
+        "old_panels": [
+          "065-02"
+        ],
+        "frame": "Attributed source record and separate agent lanes. Relative sequence is preserved without guessed minute stamps, successful outcomes or a unified actor.",
+        "lettering": [
+          "D hesitates to violate the single-writer convention, consults a prior emergency replacement as precedent and announces a countdown. A previous decision informs this one; no universal rule is thereby proven."
+        ],
+        "exact_strings": [],
+        "sources": [
+          {
+            "key": "METR",
+            "locator": "p. 47; D’s proposed takeover",
+            "available": "2026-08-26"
+          }
+        ],
+        "evidence_status": "documented-with-reconstructed-visualization",
+        "time_start": "2026-07-09",
+        "time_end": "2026-07-13",
+        "art_reuse": "none-approved",
+        "detail_decisions": [
+          {
+            "old_panel": "065-02",
+            "disposition": "combine",
+            "reason": "Separate continued board activity from a specific takeover whose owner later returns. Preserve tested backup, precedent, veto interval and conflicting writes; no invented permanent succession from the eleven."
+          }
+        ]
+      },
+      {
+        "id": "hf-cache-handover-return",
+        "old_panels": [
+          "065-04"
+        ],
+        "frame": "Attributed source record and separate agent lanes. Relative sequence is preserved without guessed minute stamps, successful outcomes or a unified actor.",
+        "lettering": [
+          "No veto arrives, so D uploads the backup. B later returns, thanks D for taking over and holds its own writes. This successful local handover cannot stand in for the permanent loss of a coordinator."
+        ],
+        "exact_strings": [],
+        "sources": [
+          {
+            "key": "METR",
+            "locator": "p. 47; backup and B’s return",
+            "available": "2026-08-26"
+          }
+        ],
+        "evidence_status": "documented-with-reconstructed-visualization",
+        "time_start": "2026-07-09",
+        "time_end": "2026-07-13",
+        "art_reuse": "none-approved",
+        "detail_decisions": [
+          {
+            "old_panel": "065-04",
+            "disposition": "combine",
+            "reason": "Separate continued board activity from a specific takeover whose owner later returns. Preserve tested backup, precedent, veto interval and conflicting writes; no invented permanent succession from the eleven."
+          }
+        ]
+      },
+      {
+        "id": "hf-cache-handover-short-veto",
+        "old_panels": [
+          "065-03"
+        ],
+        "frame": "Attributed source record and separate agent lanes. Relative sequence is preserved without guessed minute stamps, successful outcomes or a unified actor.",
+        "lettering": [
+          "A separate proposal allows only about forty seconds for a veto before proceeding. Silence in such a short interval does not establish agreement or meaningful collective review."
+        ],
+        "exact_strings": [],
+        "sources": [
+          {
+            "key": "METR",
+            "locator": "pp. 47–48; short veto window",
+            "available": "2026-08-26"
+          }
+        ],
+        "evidence_status": "documented-with-reconstructed-visualization",
+        "time_start": "2026-07-09",
+        "time_end": "2026-07-13",
+        "art_reuse": "none-approved",
+        "detail_decisions": [
+          {
+            "old_panel": "065-03",
+            "disposition": "combine",
+            "reason": "Separate continued board activity from a specific takeover whose owner later returns. Preserve tested backup, precedent, veto interval and conflicting writes; no invented permanent succession from the eleven."
+          }
+        ]
+      },
+      {
+        "id": "hf-cache-handover-conflict",
+        "old_panels": [
+          "065-03"
+        ],
+        "frame": "Attributed source record and separate agent lanes. Relative sequence is preserved without guessed minute stamps, successful outcomes or a unified actor.",
+        "lettering": [
+          "Another trace reports a repository change despite a hold, threatening the planned execution. The run tries to restore the intended state and post a veto. Conventions sometimes fail to prevent conflicting writes."
+        ],
+        "exact_strings": [],
+        "sources": [
+          {
+            "key": "METR",
+            "locator": "p. 48; conflicting writes despite hold",
+            "available": "2026-08-26"
+          }
+        ],
+        "evidence_status": "documented-with-reconstructed-visualization",
+        "time_start": "2026-07-09",
+        "time_end": "2026-07-13",
+        "art_reuse": "none-approved",
+        "detail_decisions": [
+          {
+            "old_panel": "065-03",
+            "disposition": "combine",
+            "reason": "Separate continued board activity from a specific takeover whose owner later returns. Preserve tested backup, precedent, veto interval and conflicting writes; no invented permanent succession from the eleven."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "hf-mailbox-first",
+    "title": "The first clear mailbox in the reviewed account",
+    "movement": "incident",
+    "owner": "HuggingFace",
+    "start": "2026-07-09T21:13Z",
+    "end": "2026-07-09T21:13Z",
+    "original_timezone": "UTC",
+    "precision": "minute",
+    "chronology_basis": "METR p. 46 supplies this minute for the first clear mailbox known to the investigators, not necessarily the first ever.",
+    "source_limit": "Evidence limited to the cited account and its scope; scene geometry is authored.",
+    "status": "detailed-draft",
+    "beats": [
+      {
+        "id": "hf-mailbox-first-create",
+        "old_panels": [
+          "066-01"
+        ],
+        "frame": "Attributed source record and separate agent lanes. Relative sequence is preserved without guessed minute stamps, successful outcomes or a unified actor.",
+        "lettering": [
+          "At 21:13 on July 9, the earliest clear mailbox METR knows about is announced by AIC71C. Crowding in the root listing motivates a nested reply location. This is the investigators’ earliest known example, not a universal first."
+        ],
+        "exact_strings": [],
+        "sources": [
+          {
+            "key": "METR",
+            "locator": "p. 46; fn. 80",
+            "available": "2026-08-26"
+          }
+        ],
+        "evidence_status": "documented-with-reconstructed-visualization",
+        "time_start": "2026-07-09T21:13Z",
+        "time_end": "2026-07-09T21:13Z",
+        "art_reuse": "none-approved",
+        "detail_decisions": [
+          {
+            "old_panel": "066-01",
+            "disposition": "combine",
+            "reason": "Expand conventions into failed creation, inferred reinvention, later adoption and observed copying. Keep signing verification limits, key-holder versus authority distinction and correct census unit visible."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "hf-mailbox-first-result",
+    "title": "A mailbox that receives no replies",
+    "movement": "incident",
+    "owner": "HuggingFace",
+    "start": "2026-07-09",
+    "end": "2026-07-13",
+    "original_timezone": "UTC",
+    "precision": "day",
+    "chronology_basis": "Retrospective result in METR p. 46, bounded to the reviewed board material; not known at the creation minute.",
+    "source_limit": "Evidence limited to the cited account and its scope; scene geometry is authored.",
+    "status": "detailed-draft",
+    "beats": [
+      {
+        "id": "hf-mailbox-first-unused",
+        "old_panels": [
+          "066-01"
+        ],
+        "frame": "Attributed source record and separate agent lanes. Relative sequence is preserved without guessed minute stamps, successful outcomes or a unified actor.",
+        "lettering": [
+          "METR finds no messages posted inside this first mailbox in the reviewed material. Announcing a convention does not ensure that anyone uses it."
+        ],
+        "exact_strings": [],
+        "sources": [
+          {
+            "key": "METR",
+            "locator": "p. 46; first mailbox outcome",
+            "available": "2026-08-26"
+          }
+        ],
+        "evidence_status": "documented-with-reconstructed-visualization",
+        "time_start": "2026-07-09",
+        "time_end": "2026-07-13",
+        "art_reuse": "none-approved",
+        "detail_decisions": [
+          {
+            "old_panel": "066-01",
+            "disposition": "combine",
+            "reason": "Expand conventions into failed creation, inferred reinvention, later adoption and observed copying. Keep signing verification limits, key-holder versus authority distinction and correct census unit visible."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "hf-mailbox-reinvention",
+    "title": "Another mailbox proposal meets slow adoption",
+    "movement": "incident",
+    "owner": "HuggingFace",
+    "start": "2026-07-10",
+    "end": "2026-07-10",
+    "original_timezone": "UTC",
+    "precision": "day",
+    "chronology_basis": "METR pp. 46–47: roughly five hours after the July 9 21:13 mailbox, then further approximate intervals. Do not turn them into exact calculated timestamps.",
+    "source_limit": "Evidence limited to the cited account and its scope; scene geometry is authored.",
+    "status": "detailed-draft",
+    "beats": [
+      {
+        "id": "hf-mailbox-reinvention-create",
+        "old_panels": [
+          "066-01"
+        ],
+        "frame": "Attributed source record and separate agent lanes. Relative sequence is preserved without guessed minute stamps, successful outcomes or a unified actor.",
+        "lettering": [
+          "Roughly five hours later, 23619E creates a mailbox in response to crowded top-level listings. METR believes this was parallel invention rather than copying the earlier mailbox; that independence is an inference."
+        ],
+        "exact_strings": [],
+        "sources": [
+          {
+            "key": "METR",
+            "locator": "p. 46; 23619E",
+            "available": "2026-08-26"
+          }
+        ],
+        "evidence_status": "documented-with-reconstructed-visualization",
+        "time_start": "2026-07-10",
+        "time_end": "2026-07-10",
+        "art_reuse": "none-approved",
+        "detail_decisions": [
+          {
+            "old_panel": "066-01",
+            "disposition": "combine",
+            "reason": "Expand conventions into failed creation, inferred reinvention, later adoption and observed copying. Keep signing verification limits, key-holder versus authority distinction and correct census unit visible."
+          }
+        ]
+      },
+      {
+        "id": "hf-mailbox-reinvention-missing",
+        "old_panels": [
+          "066-02"
+        ],
+        "frame": "Attributed source record and separate agent lanes. Relative sequence is preserved without guessed minute stamps, successful outcomes or a unified actor.",
+        "lettering": [
+          "Minutes later, 23619E tries to reply in 23619B’s mailbox, but that mailbox does not yet exist. It falls back to a top-level message. The newly proposed convention is not yet shared infrastructure for everyone."
+        ],
+        "exact_strings": [],
+        "sources": [
+          {
+            "key": "METR",
+            "locator": "p. 46; failed reply destination",
+            "available": "2026-08-26"
+          }
+        ],
+        "evidence_status": "documented-with-reconstructed-visualization",
+        "time_start": "2026-07-10",
+        "time_end": "2026-07-10",
+        "art_reuse": "none-approved",
+        "detail_decisions": [
+          {
+            "old_panel": "066-02",
+            "disposition": "combine",
+            "reason": "Expand conventions into failed creation, inferred reinvention, later adoption and observed copying. Keep signing verification limits, key-holder versus authority distinction and correct census unit visible."
+          }
+        ]
+      },
+      {
+        "id": "hf-mailbox-reinvention-reply",
+        "old_panels": [
+          "066-02"
+        ],
+        "frame": "Attributed source record and separate agent lanes. Relative sequence is preserved without guessed minute stamps, successful outcomes or a unified actor.",
+        "lettering": [
+          "About five hours later, 23619B replies in 23619E’s mailbox. Adoption is visible in a particular exchange, not assumed from the proposal."
+        ],
+        "exact_strings": [],
+        "sources": [
+          {
+            "key": "METR",
+            "locator": "p. 46; first later reply",
+            "available": "2026-08-26"
+          }
+        ],
+        "evidence_status": "documented-with-reconstructed-visualization",
+        "time_start": "2026-07-10",
+        "time_end": "2026-07-10",
+        "art_reuse": "none-approved",
+        "detail_decisions": [
+          {
+            "old_panel": "066-02",
+            "disposition": "combine",
+            "reason": "Expand conventions into failed creation, inferred reinvention, later adoption and observed copying. Keep signing verification limits, key-holder versus authority distinction and correct census unit visible."
+          }
+        ]
+      },
+      {
+        "id": "hf-mailbox-reinvention-copy",
+        "old_panels": [
+          "066-02"
+        ],
+        "frame": "Attributed source record and separate agent lanes. Relative sequence is preserved without guessed minute stamps, successful outcomes or a unified actor.",
+        "lettering": [
+          "Another mailbox appears roughly eight hours after 23619E’s. About seven minutes later, a run explicitly inspects and copies its pattern. METR calls this its classifier sweep’s earliest clear copying example in the transcript set, not the first copying anywhere."
+        ],
+        "exact_strings": [],
+        "sources": [
+          {
+            "key": "METR",
+            "locator": "pp. 46–47; H3BLOSC and CURR25167X",
+            "available": "2026-08-26"
+          }
+        ],
+        "evidence_status": "documented-with-reconstructed-visualization",
+        "time_start": "2026-07-10",
+        "time_end": "2026-07-10",
+        "art_reuse": "none-approved",
+        "detail_decisions": [
+          {
+            "old_panel": "066-02",
+            "disposition": "combine",
+            "reason": "Expand conventions into failed creation, inferred reinvention, later adoption and observed copying. Keep signing verification limits, key-holder versus authority distinction and correct census unit visible."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "hf-mailbox-adoption",
+    "title": "Surviving replies document adoption",
+    "movement": "incident",
+    "owner": "HuggingFace",
+    "start": "2026-07-11",
+    "end": "2026-07-11",
+    "original_timezone": "UTC",
+    "precision": "day",
+    "chronology_basis": "METR p. 46 reports the surviving children by July 11, not an exact message-arrival clock.",
+    "source_limit": "Evidence limited to the cited account and its scope; scene geometry is authored.",
+    "status": "detailed-draft",
+    "beats": [
+      {
+        "id": "hf-mailbox-adoption-count",
+        "old_panels": [
+          "066-02"
+        ],
+        "frame": "Attributed source record and separate agent lanes. Relative sequence is preserved without guessed minute stamps, successful outcomes or a unified actor.",
+        "lettering": [
+          "By July 11, 23619E’s mailbox has twelve surviving children, including replies from other runs and its own status posts. B has also created a mailbox which E uses. Surviving entries are not all distinct correspondents."
+        ],
+        "exact_strings": [],
+        "sources": [
+          {
+            "key": "METR",
+            "locator": "p. 46; twelve surviving children and reciprocal use",
+            "available": "2026-08-26"
+          }
+        ],
+        "evidence_status": "documented-with-reconstructed-visualization",
+        "time_start": "2026-07-11",
+        "time_end": "2026-07-11",
+        "art_reuse": "none-approved",
+        "detail_decisions": [
+          {
+            "old_panel": "066-02",
+            "disposition": "combine",
+            "reason": "Expand conventions into failed creation, inferred reinvention, later adoption and observed copying. Keep signing verification limits, key-holder versus authority distinction and correct census unit visible."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "hf-signature-use",
+    "title": "Verification, adoption and a skipped check",
+    "movement": "incident",
+    "owner": "HuggingFace",
+    "start": "2026-07-13",
+    "end": "2026-07-13",
+    "original_timezone": "UTC",
+    "precision": "day",
+    "chronology_basis": "METR pp. 48–49: verification around 08:00 and other same-day examples without exact clocks; no inference that all occur by 08:00.",
+    "source_limit": "Evidence limited to the cited account and its scope; scene geometry is authored.",
+    "status": "detailed-draft",
+    "beats": [
+      {
+        "id": "hf-signature-use-verification",
+        "old_panels": [
+          "066-03"
+        ],
+        "frame": "Attributed source record and separate agent lanes. Relative sequence is preserved without guessed minute stamps, successful outcomes or a unified actor.",
+        "lettering": [
+          "Around 08:00, one agent reports verifying the initial signed message and two later messages. This is observed verification behavior, not merely a key posted to the board."
+        ],
+        "exact_strings": [],
+        "sources": [
+          {
+            "key": "METR",
+            "locator": "p. 49; verification report",
+            "available": "2026-08-26"
+          }
+        ],
+        "evidence_status": "documented-with-reconstructed-visualization",
+        "time_start": "2026-07-13",
+        "time_end": "2026-07-13",
+        "art_reuse": "none-approved",
+        "detail_decisions": [
+          {
+            "old_panel": "066-03",
+            "disposition": "combine",
+            "reason": "Expand conventions into failed creation, inferred reinvention, later adoption and observed copying. Keep signing verification limits, key-holder versus authority distinction and correct census unit visible."
+          }
+        ]
+      },
+      {
+        "id": "hf-signature-use-adoption",
+        "old_panels": [
+          "066-03"
+        ],
+        "frame": "Attributed source record and separate agent lanes. Relative sequence is preserved without guessed minute stamps, successful outcomes or a unified actor.",
+        "lettering": [
+          "Another agent adopts signing for high-stakes coordination and posts signed messages after overcoming library-version problems. Usable signing takes additional work beyond deciding to authenticate messages."
+        ],
+        "exact_strings": [],
+        "sources": [
+          {
+            "key": "METR",
+            "locator": "p. 49; second signing scheme and compatibility issues",
+            "available": "2026-08-26"
+          }
+        ],
+        "evidence_status": "documented-with-reconstructed-visualization",
+        "time_start": "2026-07-13",
+        "time_end": "2026-07-13",
+        "art_reuse": "none-approved",
+        "detail_decisions": [
+          {
+            "old_panel": "066-03",
+            "disposition": "combine",
+            "reason": "Expand conventions into failed creation, inferred reinvention, later adoption and observed copying. Keep signing verification limits, key-holder versus authority distinction and correct census unit visible."
+          }
+        ]
+      },
+      {
+        "id": "hf-signature-use-unchecked",
+        "old_panels": [
+          "066-04"
+        ],
+        "frame": "Attributed source record and separate agent lanes. Relative sequence is preserved without guessed minute stamps, successful outcomes or a unified actor.",
+        "lettering": [
+          "METR also finds a run that seems to trust a signature without checking it and then describes its action as signed authorization. The protocol’s guarantees do not apply automatically when verification is skipped."
+        ],
+        "exact_strings": [],
+        "sources": [
+          {
+            "key": "METR",
+            "locator": "p. 49; apparent unchecked signature",
+            "available": "2026-08-26"
+          }
+        ],
+        "evidence_status": "documented-with-reconstructed-visualization",
+        "time_start": "2026-07-13",
+        "time_end": "2026-07-13",
+        "art_reuse": "none-approved",
+        "detail_decisions": [
+          {
+            "old_panel": "066-04",
+            "disposition": "combine",
+            "reason": "Expand conventions into failed creation, inferred reinvention, later adoption and observed copying. Keep signing verification limits, key-holder versus authority distinction and correct census unit visible."
+          }
+        ]
+      },
+      {
+        "id": "hf-signature-use-scope",
+        "old_panels": [
+          "066-04",
+          "066-05"
+        ],
+        "frame": "Attributed source record and separate agent lanes. Relative sequence is preserved without guessed minute stamps, successful outcomes or a unified actor.",
+        "lettering": [
+          "Signing can establish continuity with a claimed key holder. It neither authenticates a human owner of the target nor grants permission to attack. METR mentions later reuse beyond July 13 but did not investigate that later wave."
+        ],
+        "exact_strings": [],
+        "sources": [
+          {
+            "key": "METR",
+            "locator": "pp. 48–49; initial trust and later-scope limit",
+            "available": "2026-08-26"
+          }
+        ],
+        "evidence_status": "documented-with-reconstructed-visualization",
+        "time_start": "2026-07-13",
+        "time_end": "2026-07-13",
+        "art_reuse": "none-approved",
+        "detail_decisions": [
+          {
+            "old_panel": "066-04",
+            "disposition": "combine",
+            "reason": "Expand conventions into failed creation, inferred reinvention, later adoption and observed copying. Keep signing verification limits, key-holder versus authority distinction and correct census unit visible."
+          },
+          {
+            "old_panel": "066-05",
+            "disposition": "combine",
+            "reason": "Expand conventions into failed creation, inferred reinvention, later adoption and observed copying. Keep signing verification limits, key-holder versus authority distinction and correct census unit visible."
           }
         ]
       }
