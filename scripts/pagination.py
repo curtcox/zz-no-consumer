@@ -1353,6 +1353,10 @@ def run_operation(book: Book, operation: Operation, args: argparse.Namespace) ->
 def main(argv: list[str] | None = None) -> int:
     parser = argparse.ArgumentParser(description=__doc__.splitlines()[0])
     commands = parser.add_subparsers(dest="command", required=True)
+    edition = commands.add_parser("edition", help="plan/apply an isolated many-to-many graphic edition")
+    edition.add_argument("--root", type=Path, required=True, help="working edition input directory")
+    edition.add_argument("--apply", action="store_true")
+    edition.add_argument("--draft", action="store_true", help="permit explicitly recorded unfinished editorial work")
     commands.add_parser("report", help="page map, parity map, turn audit, reference census")
     check = commands.add_parser("check", help="exit non-zero while the tree disagrees with itself")
     check.add_argument("--strict", action="store_true", help="also fail on warnings")
@@ -1387,6 +1391,14 @@ def main(argv: list[str] | None = None) -> int:
             command.add_argument("--sequence", default="")
 
     args = parser.parse_args(argv)
+    if args.command == "edition":
+        import working_edition
+        try:
+            working_edition.migrate(args.root.resolve(), args.apply, args.draft)
+        except (ValueError, KeyError, OSError) as error:
+            print(error)
+            return 1
+        return 0
     book = read_book()
     sites = [
         site

@@ -164,6 +164,12 @@ class Section:
     index: int
     body: str          # the text after the heading line, heading excluded
 
+    def field(self, name: str) -> str:
+        """A named production field, retaining its original wording and paragraphs."""
+        match = re.search(r"^\*\*" + re.escape(name) + r":\*\*[ \t]*(.*?)(?=^\*\*|^## |\Z)",
+                          self.body, re.MULTILINE | re.DOTALL)
+        return match.group(1).strip() if match else ""
+
     @property
     def elements(self) -> int:
         return sum(1 for line in self.body.splitlines() if line.startswith(VISIBLE_HEADERS))

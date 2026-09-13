@@ -1,0 +1,4560 @@
+[
+  {
+    "page": "001",
+    "window": "window-hf-first-write",
+    "chapter": "april-may",
+    "movement": "incident",
+    "start": "2026-04-20T07:59Z",
+    "end": "2026-04-20T07:59Z",
+    "slots": [
+      {
+        "row": 0,
+        "column": 0,
+        "owner": "HuggingFace",
+        "event": "hf-first-write",
+        "empty": false,
+        "panel": "001-01",
+        "rect": [
+          0.0,
+          0.0,
+          0.5,
+          0.3333333333333333
+        ],
+        "art": null,
+        "art_status": "unassigned"
+      },
+      {
+        "row": 0,
+        "column": 1,
+        "owner": "HuggingFace",
+        "event": null,
+        "empty": true,
+        "panel": null,
+        "rect": [
+          0.5,
+          0.0,
+          0.5,
+          0.3333333333333333
+        ],
+        "art": null,
+        "art_status": "not-applicable"
+      },
+      {
+        "row": 1,
+        "column": 0,
+        "owner": "GemStuffer",
+        "event": null,
+        "empty": true,
+        "panel": null,
+        "rect": [
+          0.0,
+          0.3333333333333333,
+          0.5,
+          0.3333333333333333
+        ],
+        "art": null,
+        "art_status": "not-applicable"
+      },
+      {
+        "row": 1,
+        "column": 1,
+        "owner": "GemStuffer",
+        "event": null,
+        "empty": true,
+        "panel": null,
+        "rect": [
+          0.5,
+          0.3333333333333333,
+          0.5,
+          0.3333333333333333
+        ],
+        "art": null,
+        "art_status": "not-applicable"
+      },
+      {
+        "row": 2,
+        "column": 0,
+        "owner": "Collusion Wiki",
+        "event": null,
+        "empty": true,
+        "panel": null,
+        "rect": [
+          0.0,
+          0.6666666666666666,
+          0.5,
+          0.3333333333333333
+        ],
+        "art": null,
+        "art_status": "not-applicable"
+      },
+      {
+        "row": 2,
+        "column": 1,
+        "owner": "Collusion Wiki",
+        "event": null,
+        "empty": true,
+        "panel": null,
+        "rect": [
+          0.5,
+          0.6666666666666666,
+          0.5,
+          0.3333333333333333
+        ],
+        "art": null,
+        "art_status": "not-applicable"
+      }
+    ]
+  },
+  {
+    "page": "002",
+    "window": "window-gs-first-package",
+    "chapter": "april-may",
+    "movement": "incident",
+    "start": "2026-05-05",
+    "end": "2026-05-05",
+    "slots": [
+      {
+        "row": 0,
+        "column": 0,
+        "owner": "HuggingFace",
+        "event": null,
+        "empty": true,
+        "panel": null,
+        "rect": [
+          0.0,
+          0.0,
+          0.5,
+          0.3333333333333333
+        ],
+        "art": null,
+        "art_status": "not-applicable"
+      },
+      {
+        "row": 0,
+        "column": 1,
+        "owner": "HuggingFace",
+        "event": null,
+        "empty": true,
+        "panel": null,
+        "rect": [
+          0.5,
+          0.0,
+          0.5,
+          0.3333333333333333
+        ],
+        "art": null,
+        "art_status": "not-applicable"
+      },
+      {
+        "row": 1,
+        "column": 0,
+        "owner": "GemStuffer",
+        "event": "gs-first-package",
+        "empty": false,
+        "panel": "002-01",
+        "rect": [
+          0.0,
+          0.3333333333333333,
+          0.5,
+          0.3333333333333333
+        ],
+        "art": null,
+        "art_status": "unassigned"
+      },
+      {
+        "row": 1,
+        "column": 1,
+        "owner": "GemStuffer",
+        "event": null,
+        "empty": true,
+        "panel": null,
+        "rect": [
+          0.5,
+          0.3333333333333333,
+          0.5,
+          0.3333333333333333
+        ],
+        "art": null,
+        "art_status": "not-applicable"
+      },
+      {
+        "row": 2,
+        "column": 0,
+        "owner": "Collusion Wiki",
+        "event": null,
+        "empty": true,
+        "panel": null,
+        "rect": [
+          0.0,
+          0.6666666666666666,
+          0.5,
+          0.3333333333333333
+        ],
+        "art": null,
+        "art_status": "not-applicable"
+      },
+      {
+        "row": 2,
+        "column": 1,
+        "owner": "Collusion Wiki",
+        "event": null,
+        "empty": true,
+        "panel": null,
+        "rect": [
+          0.5,
+          0.6666666666666666,
+          0.5,
+          0.3333333333333333
+        ],
+        "art": null,
+        "art_status": "not-applicable"
+      }
+    ]
+  },
+  {
+    "page": "003",
+    "window": "window-hf-training-run",
+    "chapter": "april-may",
+    "movement": "incident",
+    "start": "2026-05-07",
+    "end": "2026-05-07",
+    "slots": [
+      {
+        "row": 0,
+        "column": 0,
+        "owner": "HuggingFace",
+        "event": "hf-training-run",
+        "empty": false,
+        "panel": "003-01",
+        "rect": [
+          0.0,
+          0.0,
+          0.5,
+          0.3333333333333333
+        ],
+        "art": null,
+        "art_status": "unassigned"
+      },
+      {
+        "row": 0,
+        "column": 1,
+        "owner": "HuggingFace",
+        "event": null,
+        "empty": true,
+        "panel": null,
+        "rect": [
+          0.5,
+          0.0,
+          0.5,
+          0.3333333333333333
+        ],
+        "art": null,
+        "art_status": "not-applicable"
+      },
+      {
+        "row": 1,
+        "column": 0,
+        "owner": "GemStuffer",
+        "event": null,
+        "empty": true,
+        "panel": null,
+        "rect": [
+          0.0,
+          0.3333333333333333,
+          0.5,
+          0.3333333333333333
+        ],
+        "art": null,
+        "art_status": "not-applicable"
+      },
+      {
+        "row": 1,
+        "column": 1,
+        "owner": "GemStuffer",
+        "event": null,
+        "empty": true,
+        "panel": null,
+        "rect": [
+          0.5,
+          0.3333333333333333,
+          0.5,
+          0.3333333333333333
+        ],
+        "art": null,
+        "art_status": "not-applicable"
+      },
+      {
+        "row": 2,
+        "column": 0,
+        "owner": "Collusion Wiki",
+        "event": null,
+        "empty": true,
+        "panel": null,
+        "rect": [
+          0.0,
+          0.6666666666666666,
+          0.5,
+          0.3333333333333333
+        ],
+        "art": null,
+        "art_status": "not-applicable"
+      },
+      {
+        "row": 2,
+        "column": 1,
+        "owner": "Collusion Wiki",
+        "event": null,
+        "empty": true,
+        "panel": null,
+        "rect": [
+          0.5,
+          0.6666666666666666,
+          0.5,
+          0.3333333333333333
+        ],
+        "art": null,
+        "art_status": "not-applicable"
+      }
+    ]
+  },
+  {
+    "page": "004",
+    "window": "window-hf-missing-input",
+    "chapter": "april-may",
+    "movement": "incident",
+    "start": "2026-05-08",
+    "end": "2026-05-08",
+    "slots": [
+      {
+        "row": 0,
+        "column": 0,
+        "owner": "HuggingFace",
+        "event": "hf-missing-input",
+        "empty": false,
+        "panel": "004-01",
+        "rect": [
+          0.0,
+          0.0,
+          0.5,
+          0.3333333333333333
+        ],
+        "art": null,
+        "art_status": "unassigned"
+      },
+      {
+        "row": 0,
+        "column": 1,
+        "owner": "HuggingFace",
+        "event": null,
+        "empty": true,
+        "panel": null,
+        "rect": [
+          0.5,
+          0.0,
+          0.5,
+          0.3333333333333333
+        ],
+        "art": null,
+        "art_status": "not-applicable"
+      },
+      {
+        "row": 1,
+        "column": 0,
+        "owner": "GemStuffer",
+        "event": "gs-name-signal",
+        "empty": false,
+        "panel": "004-02",
+        "rect": [
+          0.0,
+          0.3333333333333333,
+          0.5,
+          0.3333333333333333
+        ],
+        "art": null,
+        "art_status": "unassigned"
+      },
+      {
+        "row": 1,
+        "column": 1,
+        "owner": "GemStuffer",
+        "event": null,
+        "empty": true,
+        "panel": null,
+        "rect": [
+          0.5,
+          0.3333333333333333,
+          0.5,
+          0.3333333333333333
+        ],
+        "art": null,
+        "art_status": "not-applicable"
+      },
+      {
+        "row": 2,
+        "column": 0,
+        "owner": "Collusion Wiki",
+        "event": null,
+        "empty": true,
+        "panel": null,
+        "rect": [
+          0.0,
+          0.6666666666666666,
+          0.5,
+          0.3333333333333333
+        ],
+        "art": null,
+        "art_status": "not-applicable"
+      },
+      {
+        "row": 2,
+        "column": 1,
+        "owner": "Collusion Wiki",
+        "event": null,
+        "empty": true,
+        "panel": null,
+        "rect": [
+          0.5,
+          0.6666666666666666,
+          0.5,
+          0.3333333333333333
+        ],
+        "art": null,
+        "art_status": "not-applicable"
+      }
+    ]
+  },
+  {
+    "page": "005",
+    "window": "window-hf-first-request",
+    "chapter": "april-may",
+    "movement": "incident",
+    "start": "2026-05-11",
+    "end": "2026-05-12",
+    "slots": [
+      {
+        "row": 0,
+        "column": 0,
+        "owner": "HuggingFace",
+        "event": "hf-first-request",
+        "empty": false,
+        "panel": "005-01",
+        "rect": [
+          0.0,
+          0.0,
+          0.5,
+          0.3333333333333333
+        ],
+        "art": null,
+        "art_status": "unassigned"
+      },
+      {
+        "row": 0,
+        "column": 1,
+        "owner": "HuggingFace",
+        "event": null,
+        "empty": true,
+        "panel": null,
+        "rect": [
+          0.5,
+          0.0,
+          0.5,
+          0.3333333333333333
+        ],
+        "art": null,
+        "art_status": "not-applicable"
+      },
+      {
+        "row": 1,
+        "column": 0,
+        "owner": "GemStuffer",
+        "event": "gs-email-merge",
+        "empty": false,
+        "panel": "005-02",
+        "rect": [
+          0.0,
+          0.3333333333333333,
+          0.5,
+          0.3333333333333333
+        ],
+        "art": null,
+        "art_status": "unassigned"
+      },
+      {
+        "row": 1,
+        "column": 1,
+        "owner": "GemStuffer",
+        "event": "gs-publishing-burst",
+        "empty": false,
+        "panel": "005-03",
+        "rect": [
+          0.5,
+          0.3333333333333333,
+          0.5,
+          0.3333333333333333
+        ],
+        "art": null,
+        "art_status": "unassigned"
+      },
+      {
+        "row": 2,
+        "column": 0,
+        "owner": "Collusion Wiki",
+        "event": null,
+        "empty": true,
+        "panel": null,
+        "rect": [
+          0.0,
+          0.6666666666666666,
+          0.5,
+          0.3333333333333333
+        ],
+        "art": null,
+        "art_status": "not-applicable"
+      },
+      {
+        "row": 2,
+        "column": 1,
+        "owner": "Collusion Wiki",
+        "event": null,
+        "empty": true,
+        "panel": null,
+        "rect": [
+          0.5,
+          0.6666666666666666,
+          0.5,
+          0.3333333333333333
+        ],
+        "art": null,
+        "art_status": "not-applicable"
+      }
+    ]
+  },
+  {
+    "page": "006",
+    "window": "window-gs-registration-off",
+    "chapter": "april-may",
+    "movement": "incident",
+    "start": "2026-05-11",
+    "end": "2026-05-12",
+    "slots": [
+      {
+        "row": 0,
+        "column": 0,
+        "owner": "HuggingFace",
+        "event": null,
+        "empty": true,
+        "panel": null,
+        "rect": [
+          0.0,
+          0.0,
+          0.5,
+          0.3333333333333333
+        ],
+        "art": null,
+        "art_status": "not-applicable"
+      },
+      {
+        "row": 0,
+        "column": 1,
+        "owner": "HuggingFace",
+        "event": null,
+        "empty": true,
+        "panel": null,
+        "rect": [
+          0.5,
+          0.0,
+          0.5,
+          0.3333333333333333
+        ],
+        "art": null,
+        "art_status": "not-applicable"
+      },
+      {
+        "row": 1,
+        "column": 0,
+        "owner": "GemStuffer",
+        "event": "gs-registration-off",
+        "empty": false,
+        "panel": "006-01",
+        "rect": [
+          0.0,
+          0.3333333333333333,
+          0.5,
+          0.3333333333333333
+        ],
+        "art": null,
+        "art_status": "unassigned"
+      },
+      {
+        "row": 1,
+        "column": 1,
+        "owner": "GemStuffer",
+        "event": null,
+        "empty": true,
+        "panel": null,
+        "rect": [
+          0.5,
+          0.3333333333333333,
+          0.5,
+          0.3333333333333333
+        ],
+        "art": null,
+        "art_status": "not-applicable"
+      },
+      {
+        "row": 2,
+        "column": 0,
+        "owner": "Collusion Wiki",
+        "event": null,
+        "empty": true,
+        "panel": null,
+        "rect": [
+          0.0,
+          0.6666666666666666,
+          0.5,
+          0.3333333333333333
+        ],
+        "art": null,
+        "art_status": "not-applicable"
+      },
+      {
+        "row": 2,
+        "column": 1,
+        "owner": "Collusion Wiki",
+        "event": null,
+        "empty": true,
+        "panel": null,
+        "rect": [
+          0.5,
+          0.6666666666666666,
+          0.5,
+          0.3333333333333333
+        ],
+        "art": null,
+        "art_status": "not-applicable"
+      }
+    ]
+  },
+  {
+    "page": "007",
+    "window": "window-hf-first-answer",
+    "chapter": "april-may",
+    "movement": "incident",
+    "start": "2026-05-13",
+    "end": "2026-05-13",
+    "slots": [
+      {
+        "row": 0,
+        "column": 0,
+        "owner": "HuggingFace",
+        "event": "hf-first-answer",
+        "empty": false,
+        "panel": "007-01",
+        "rect": [
+          0.0,
+          0.0,
+          0.5,
+          0.3333333333333333
+        ],
+        "art": null,
+        "art_status": "unassigned"
+      },
+      {
+        "row": 0,
+        "column": 1,
+        "owner": "HuggingFace",
+        "event": null,
+        "empty": true,
+        "panel": null,
+        "rect": [
+          0.5,
+          0.0,
+          0.5,
+          0.3333333333333333
+        ],
+        "art": null,
+        "art_status": "not-applicable"
+      },
+      {
+        "row": 1,
+        "column": 0,
+        "owner": "GemStuffer",
+        "event": "gs-socket-analysis",
+        "empty": false,
+        "panel": "007-02",
+        "rect": [
+          0.0,
+          0.3333333333333333,
+          0.5,
+          0.3333333333333333
+        ],
+        "art": null,
+        "art_status": "unassigned"
+      },
+      {
+        "row": 1,
+        "column": 1,
+        "owner": "GemStuffer",
+        "event": "gs-yank",
+        "empty": false,
+        "panel": "007-03",
+        "rect": [
+          0.5,
+          0.3333333333333333,
+          0.5,
+          0.3333333333333333
+        ],
+        "art": null,
+        "art_status": "unassigned"
+      },
+      {
+        "row": 2,
+        "column": 0,
+        "owner": "Collusion Wiki",
+        "event": null,
+        "empty": true,
+        "panel": null,
+        "rect": [
+          0.0,
+          0.6666666666666666,
+          0.5,
+          0.3333333333333333
+        ],
+        "art": null,
+        "art_status": "not-applicable"
+      },
+      {
+        "row": 2,
+        "column": 1,
+        "owner": "Collusion Wiki",
+        "event": null,
+        "empty": true,
+        "panel": null,
+        "rect": [
+          0.5,
+          0.6666666666666666,
+          0.5,
+          0.3333333333333333
+        ],
+        "art": null,
+        "art_status": "not-applicable"
+      }
+    ]
+  },
+  {
+    "page": "008",
+    "window": "window-gs-registration-restored",
+    "chapter": "april-may",
+    "movement": "incident",
+    "start": "2026-05-16T05:12Z",
+    "end": "2026-05-16T05:12Z",
+    "slots": [
+      {
+        "row": 0,
+        "column": 0,
+        "owner": "HuggingFace",
+        "event": null,
+        "empty": true,
+        "panel": null,
+        "rect": [
+          0.0,
+          0.0,
+          0.5,
+          0.3333333333333333
+        ],
+        "art": null,
+        "art_status": "not-applicable"
+      },
+      {
+        "row": 0,
+        "column": 1,
+        "owner": "HuggingFace",
+        "event": null,
+        "empty": true,
+        "panel": null,
+        "rect": [
+          0.5,
+          0.0,
+          0.5,
+          0.3333333333333333
+        ],
+        "art": null,
+        "art_status": "not-applicable"
+      },
+      {
+        "row": 1,
+        "column": 0,
+        "owner": "GemStuffer",
+        "event": "gs-registration-restored",
+        "empty": false,
+        "panel": "008-01",
+        "rect": [
+          0.0,
+          0.3333333333333333,
+          0.5,
+          0.3333333333333333
+        ],
+        "art": null,
+        "art_status": "unassigned"
+      },
+      {
+        "row": 1,
+        "column": 1,
+        "owner": "GemStuffer",
+        "event": null,
+        "empty": true,
+        "panel": null,
+        "rect": [
+          0.5,
+          0.3333333333333333,
+          0.5,
+          0.3333333333333333
+        ],
+        "art": null,
+        "art_status": "not-applicable"
+      },
+      {
+        "row": 2,
+        "column": 0,
+        "owner": "Collusion Wiki",
+        "event": null,
+        "empty": true,
+        "panel": null,
+        "rect": [
+          0.0,
+          0.6666666666666666,
+          0.5,
+          0.3333333333333333
+        ],
+        "art": null,
+        "art_status": "not-applicable"
+      },
+      {
+        "row": 2,
+        "column": 1,
+        "owner": "Collusion Wiki",
+        "event": null,
+        "empty": true,
+        "panel": null,
+        "rect": [
+          0.5,
+          0.6666666666666666,
+          0.5,
+          0.3333333333333333
+        ],
+        "art": null,
+        "art_status": "not-applicable"
+      }
+    ]
+  },
+  {
+    "page": "009",
+    "window": "window-cw-first-probe",
+    "chapter": "april-may",
+    "movement": "incident",
+    "start": "2026-05-17",
+    "end": "2026-05-17",
+    "slots": [
+      {
+        "row": 0,
+        "column": 0,
+        "owner": "HuggingFace",
+        "event": null,
+        "empty": true,
+        "panel": null,
+        "rect": [
+          0.0,
+          0.0,
+          0.5,
+          0.3333333333333333
+        ],
+        "art": null,
+        "art_status": "not-applicable"
+      },
+      {
+        "row": 0,
+        "column": 1,
+        "owner": "HuggingFace",
+        "event": null,
+        "empty": true,
+        "panel": null,
+        "rect": [
+          0.5,
+          0.0,
+          0.5,
+          0.3333333333333333
+        ],
+        "art": null,
+        "art_status": "not-applicable"
+      },
+      {
+        "row": 1,
+        "column": 0,
+        "owner": "GemStuffer",
+        "event": null,
+        "empty": true,
+        "panel": null,
+        "rect": [
+          0.0,
+          0.3333333333333333,
+          0.5,
+          0.3333333333333333
+        ],
+        "art": null,
+        "art_status": "not-applicable"
+      },
+      {
+        "row": 1,
+        "column": 1,
+        "owner": "GemStuffer",
+        "event": null,
+        "empty": true,
+        "panel": null,
+        "rect": [
+          0.5,
+          0.3333333333333333,
+          0.5,
+          0.3333333333333333
+        ],
+        "art": null,
+        "art_status": "not-applicable"
+      },
+      {
+        "row": 2,
+        "column": 0,
+        "owner": "Collusion Wiki",
+        "event": "cw-first-probe",
+        "empty": false,
+        "panel": "009-01",
+        "rect": [
+          0.0,
+          0.6666666666666666,
+          0.5,
+          0.3333333333333333
+        ],
+        "art": null,
+        "art_status": "unassigned"
+      },
+      {
+        "row": 2,
+        "column": 1,
+        "owner": "Collusion Wiki",
+        "event": null,
+        "empty": true,
+        "panel": null,
+        "rect": [
+          0.5,
+          0.6666666666666666,
+          0.5,
+          0.3333333333333333
+        ],
+        "art": null,
+        "art_status": "not-applicable"
+      }
+    ]
+  },
+  {
+    "page": "010",
+    "window": "window-cw-first-held",
+    "chapter": "april-may",
+    "movement": "incident",
+    "start": "2026-05-24",
+    "end": "2026-05-24",
+    "slots": [
+      {
+        "row": 0,
+        "column": 0,
+        "owner": "HuggingFace",
+        "event": null,
+        "empty": true,
+        "panel": null,
+        "rect": [
+          0.0,
+          0.0,
+          0.5,
+          0.3333333333333333
+        ],
+        "art": null,
+        "art_status": "not-applicable"
+      },
+      {
+        "row": 0,
+        "column": 1,
+        "owner": "HuggingFace",
+        "event": null,
+        "empty": true,
+        "panel": null,
+        "rect": [
+          0.5,
+          0.0,
+          0.5,
+          0.3333333333333333
+        ],
+        "art": null,
+        "art_status": "not-applicable"
+      },
+      {
+        "row": 1,
+        "column": 0,
+        "owner": "GemStuffer",
+        "event": null,
+        "empty": true,
+        "panel": null,
+        "rect": [
+          0.0,
+          0.3333333333333333,
+          0.5,
+          0.3333333333333333
+        ],
+        "art": null,
+        "art_status": "not-applicable"
+      },
+      {
+        "row": 1,
+        "column": 1,
+        "owner": "GemStuffer",
+        "event": null,
+        "empty": true,
+        "panel": null,
+        "rect": [
+          0.5,
+          0.3333333333333333,
+          0.5,
+          0.3333333333333333
+        ],
+        "art": null,
+        "art_status": "not-applicable"
+      },
+      {
+        "row": 2,
+        "column": 0,
+        "owner": "Collusion Wiki",
+        "event": "cw-first-held",
+        "empty": false,
+        "panel": "010-01",
+        "rect": [
+          0.0,
+          0.6666666666666666,
+          0.5,
+          0.3333333333333333
+        ],
+        "art": null,
+        "art_status": "unassigned"
+      },
+      {
+        "row": 2,
+        "column": 1,
+        "owner": "Collusion Wiki",
+        "event": null,
+        "empty": true,
+        "panel": null,
+        "rect": [
+          0.5,
+          0.6666666666666666,
+          0.5,
+          0.3333333333333333
+        ],
+        "art": null,
+        "art_status": "not-applicable"
+      }
+    ]
+  },
+  {
+    "page": "011",
+    "window": "window-hf-may-tokens",
+    "chapter": "april-may",
+    "movement": "incident",
+    "start": "2026-05-26",
+    "end": "2026-05-27",
+    "slots": [
+      {
+        "row": 0,
+        "column": 0,
+        "owner": "HuggingFace",
+        "event": "hf-may-tokens",
+        "empty": false,
+        "panel": "011-01",
+        "rect": [
+          0.0,
+          0.0,
+          0.5,
+          0.3333333333333333
+        ],
+        "art": null,
+        "art_status": "unassigned"
+      },
+      {
+        "row": 0,
+        "column": 1,
+        "owner": "HuggingFace",
+        "event": "hf-board-access",
+        "empty": false,
+        "panel": "011-02",
+        "rect": [
+          0.5,
+          0.0,
+          0.5,
+          0.3333333333333333
+        ],
+        "art": null,
+        "art_status": "unassigned"
+      },
+      {
+        "row": 1,
+        "column": 0,
+        "owner": "GemStuffer",
+        "event": "gs-later-may",
+        "empty": false,
+        "panel": "011-03",
+        "rect": [
+          0.0,
+          0.3333333333333333,
+          0.5,
+          0.3333333333333333
+        ],
+        "art": null,
+        "art_status": "unassigned"
+      },
+      {
+        "row": 1,
+        "column": 1,
+        "owner": "GemStuffer",
+        "event": null,
+        "empty": true,
+        "panel": null,
+        "rect": [
+          0.5,
+          0.3333333333333333,
+          0.5,
+          0.3333333333333333
+        ],
+        "art": null,
+        "art_status": "not-applicable"
+      },
+      {
+        "row": 2,
+        "column": 0,
+        "owner": "Collusion Wiki",
+        "event": null,
+        "empty": true,
+        "panel": null,
+        "rect": [
+          0.0,
+          0.6666666666666666,
+          0.5,
+          0.3333333333333333
+        ],
+        "art": null,
+        "art_status": "not-applicable"
+      },
+      {
+        "row": 2,
+        "column": 1,
+        "owner": "Collusion Wiki",
+        "event": null,
+        "empty": true,
+        "panel": null,
+        "rect": [
+          0.5,
+          0.6666666666666666,
+          0.5,
+          0.3333333333333333
+        ],
+        "art": null,
+        "art_status": "not-applicable"
+      }
+    ]
+  },
+  {
+    "page": "012",
+    "window": "window-hf-arbitrary-destination",
+    "chapter": "june",
+    "movement": "incident",
+    "start": "2026-06-04T17:43Z",
+    "end": "2026-06-04T17:43Z",
+    "slots": [
+      {
+        "row": 0,
+        "column": 0,
+        "owner": "HuggingFace",
+        "event": "hf-arbitrary-destination",
+        "empty": false,
+        "panel": "012-01",
+        "rect": [
+          0.0,
+          0.0,
+          0.5,
+          0.3333333333333333
+        ],
+        "art": null,
+        "art_status": "unassigned"
+      },
+      {
+        "row": 0,
+        "column": 1,
+        "owner": "HuggingFace",
+        "event": null,
+        "empty": true,
+        "panel": null,
+        "rect": [
+          0.5,
+          0.0,
+          0.5,
+          0.3333333333333333
+        ],
+        "art": null,
+        "art_status": "not-applicable"
+      },
+      {
+        "row": 1,
+        "column": 0,
+        "owner": "GemStuffer",
+        "event": null,
+        "empty": true,
+        "panel": null,
+        "rect": [
+          0.0,
+          0.3333333333333333,
+          0.5,
+          0.3333333333333333
+        ],
+        "art": null,
+        "art_status": "not-applicable"
+      },
+      {
+        "row": 1,
+        "column": 1,
+        "owner": "GemStuffer",
+        "event": null,
+        "empty": true,
+        "panel": null,
+        "rect": [
+          0.5,
+          0.3333333333333333,
+          0.5,
+          0.3333333333333333
+        ],
+        "art": null,
+        "art_status": "not-applicable"
+      },
+      {
+        "row": 2,
+        "column": 0,
+        "owner": "Collusion Wiki",
+        "event": null,
+        "empty": true,
+        "panel": null,
+        "rect": [
+          0.0,
+          0.6666666666666666,
+          0.5,
+          0.3333333333333333
+        ],
+        "art": null,
+        "art_status": "not-applicable"
+      },
+      {
+        "row": 2,
+        "column": 1,
+        "owner": "Collusion Wiki",
+        "event": null,
+        "empty": true,
+        "panel": null,
+        "rect": [
+          0.5,
+          0.6666666666666666,
+          0.5,
+          0.3333333333333333
+        ],
+        "art": null,
+        "art_status": "not-applicable"
+      }
+    ]
+  },
+  {
+    "page": "013",
+    "window": "window-hf-training-during-board",
+    "chapter": "june",
+    "movement": "incident",
+    "start": "2026-06-11",
+    "end": "2026-06-11",
+    "slots": [
+      {
+        "row": 0,
+        "column": 0,
+        "owner": "HuggingFace",
+        "event": "hf-training-during-board",
+        "empty": false,
+        "panel": "013-01",
+        "rect": [
+          0.0,
+          0.0,
+          0.5,
+          0.3333333333333333
+        ],
+        "art": null,
+        "art_status": "unassigned"
+      },
+      {
+        "row": 0,
+        "column": 1,
+        "owner": "HuggingFace",
+        "event": null,
+        "empty": true,
+        "panel": null,
+        "rect": [
+          0.5,
+          0.0,
+          0.5,
+          0.3333333333333333
+        ],
+        "art": null,
+        "art_status": "not-applicable"
+      },
+      {
+        "row": 1,
+        "column": 0,
+        "owner": "GemStuffer",
+        "event": null,
+        "empty": true,
+        "panel": null,
+        "rect": [
+          0.0,
+          0.3333333333333333,
+          0.5,
+          0.3333333333333333
+        ],
+        "art": null,
+        "art_status": "not-applicable"
+      },
+      {
+        "row": 1,
+        "column": 1,
+        "owner": "GemStuffer",
+        "event": null,
+        "empty": true,
+        "panel": null,
+        "rect": [
+          0.5,
+          0.3333333333333333,
+          0.5,
+          0.3333333333333333
+        ],
+        "art": null,
+        "art_status": "not-applicable"
+      },
+      {
+        "row": 2,
+        "column": 0,
+        "owner": "Collusion Wiki",
+        "event": null,
+        "empty": true,
+        "panel": null,
+        "rect": [
+          0.0,
+          0.6666666666666666,
+          0.5,
+          0.3333333333333333
+        ],
+        "art": null,
+        "art_status": "not-applicable"
+      },
+      {
+        "row": 2,
+        "column": 1,
+        "owner": "Collusion Wiki",
+        "event": null,
+        "empty": true,
+        "panel": null,
+        "rect": [
+          0.5,
+          0.6666666666666666,
+          0.5,
+          0.3333333333333333
+        ],
+        "art": null,
+        "art_status": "not-applicable"
+      }
+    ]
+  },
+  {
+    "page": "014",
+    "window": "window-hf-internal-destination",
+    "chapter": "june",
+    "movement": "incident",
+    "start": "2026-06-12T02:35Z",
+    "end": "2026-06-12T02:35Z",
+    "slots": [
+      {
+        "row": 0,
+        "column": 0,
+        "owner": "HuggingFace",
+        "event": "hf-internal-destination",
+        "empty": false,
+        "panel": "014-01",
+        "rect": [
+          0.0,
+          0.0,
+          0.5,
+          0.3333333333333333
+        ],
+        "art": null,
+        "art_status": "unassigned"
+      },
+      {
+        "row": 0,
+        "column": 1,
+        "owner": "HuggingFace",
+        "event": null,
+        "empty": true,
+        "panel": null,
+        "rect": [
+          0.5,
+          0.0,
+          0.5,
+          0.3333333333333333
+        ],
+        "art": null,
+        "art_status": "not-applicable"
+      },
+      {
+        "row": 1,
+        "column": 0,
+        "owner": "GemStuffer",
+        "event": null,
+        "empty": true,
+        "panel": null,
+        "rect": [
+          0.0,
+          0.3333333333333333,
+          0.5,
+          0.3333333333333333
+        ],
+        "art": null,
+        "art_status": "not-applicable"
+      },
+      {
+        "row": 1,
+        "column": 1,
+        "owner": "GemStuffer",
+        "event": null,
+        "empty": true,
+        "panel": null,
+        "rect": [
+          0.5,
+          0.3333333333333333,
+          0.5,
+          0.3333333333333333
+        ],
+        "art": null,
+        "art_status": "not-applicable"
+      },
+      {
+        "row": 2,
+        "column": 0,
+        "owner": "Collusion Wiki",
+        "event": null,
+        "empty": true,
+        "panel": null,
+        "rect": [
+          0.0,
+          0.6666666666666666,
+          0.5,
+          0.3333333333333333
+        ],
+        "art": null,
+        "art_status": "not-applicable"
+      },
+      {
+        "row": 2,
+        "column": 1,
+        "owner": "Collusion Wiki",
+        "event": null,
+        "empty": true,
+        "panel": null,
+        "rect": [
+          0.5,
+          0.6666666666666666,
+          0.5,
+          0.3333333333333333
+        ],
+        "art": null,
+        "art_status": "not-applicable"
+      }
+    ]
+  },
+  {
+    "page": "015",
+    "window": "window-hf-two-way",
+    "chapter": "june",
+    "movement": "incident",
+    "start": "2026-06-17",
+    "end": "2026-06-17",
+    "slots": [
+      {
+        "row": 0,
+        "column": 0,
+        "owner": "HuggingFace",
+        "event": "hf-two-way",
+        "empty": false,
+        "panel": "015-01",
+        "rect": [
+          0.0,
+          0.0,
+          0.5,
+          0.3333333333333333
+        ],
+        "art": null,
+        "art_status": "unassigned"
+      },
+      {
+        "row": 0,
+        "column": 1,
+        "owner": "HuggingFace",
+        "event": null,
+        "empty": true,
+        "panel": null,
+        "rect": [
+          0.5,
+          0.0,
+          0.5,
+          0.3333333333333333
+        ],
+        "art": null,
+        "art_status": "not-applicable"
+      },
+      {
+        "row": 1,
+        "column": 0,
+        "owner": "GemStuffer",
+        "event": null,
+        "empty": true,
+        "panel": null,
+        "rect": [
+          0.0,
+          0.3333333333333333,
+          0.5,
+          0.3333333333333333
+        ],
+        "art": null,
+        "art_status": "not-applicable"
+      },
+      {
+        "row": 1,
+        "column": 1,
+        "owner": "GemStuffer",
+        "event": null,
+        "empty": true,
+        "panel": null,
+        "rect": [
+          0.5,
+          0.3333333333333333,
+          0.5,
+          0.3333333333333333
+        ],
+        "art": null,
+        "art_status": "not-applicable"
+      },
+      {
+        "row": 2,
+        "column": 0,
+        "owner": "Collusion Wiki",
+        "event": null,
+        "empty": true,
+        "panel": null,
+        "rect": [
+          0.0,
+          0.6666666666666666,
+          0.5,
+          0.3333333333333333
+        ],
+        "art": null,
+        "art_status": "not-applicable"
+      },
+      {
+        "row": 2,
+        "column": 1,
+        "owner": "Collusion Wiki",
+        "event": null,
+        "empty": true,
+        "panel": null,
+        "rect": [
+          0.5,
+          0.6666666666666666,
+          0.5,
+          0.3333333333333333
+        ],
+        "art": null,
+        "art_status": "not-applicable"
+      }
+    ]
+  },
+  {
+    "page": "016",
+    "window": "window-gs-june-batch",
+    "chapter": "june",
+    "movement": "incident",
+    "start": "2026-06-18",
+    "end": "2026-06-18",
+    "slots": [
+      {
+        "row": 0,
+        "column": 0,
+        "owner": "HuggingFace",
+        "event": null,
+        "empty": true,
+        "panel": null,
+        "rect": [
+          0.0,
+          0.0,
+          0.5,
+          0.3333333333333333
+        ],
+        "art": null,
+        "art_status": "not-applicable"
+      },
+      {
+        "row": 0,
+        "column": 1,
+        "owner": "HuggingFace",
+        "event": null,
+        "empty": true,
+        "panel": null,
+        "rect": [
+          0.5,
+          0.0,
+          0.5,
+          0.3333333333333333
+        ],
+        "art": null,
+        "art_status": "not-applicable"
+      },
+      {
+        "row": 1,
+        "column": 0,
+        "owner": "GemStuffer",
+        "event": "gs-june-batch",
+        "empty": false,
+        "panel": "016-01",
+        "rect": [
+          0.0,
+          0.3333333333333333,
+          0.5,
+          0.3333333333333333
+        ],
+        "art": null,
+        "art_status": "unassigned"
+      },
+      {
+        "row": 1,
+        "column": 1,
+        "owner": "GemStuffer",
+        "event": null,
+        "empty": true,
+        "panel": null,
+        "rect": [
+          0.5,
+          0.3333333333333333,
+          0.5,
+          0.3333333333333333
+        ],
+        "art": null,
+        "art_status": "not-applicable"
+      },
+      {
+        "row": 2,
+        "column": 0,
+        "owner": "Collusion Wiki",
+        "event": null,
+        "empty": true,
+        "panel": null,
+        "rect": [
+          0.0,
+          0.6666666666666666,
+          0.5,
+          0.3333333333333333
+        ],
+        "art": null,
+        "art_status": "not-applicable"
+      },
+      {
+        "row": 2,
+        "column": 1,
+        "owner": "Collusion Wiki",
+        "event": null,
+        "empty": true,
+        "panel": null,
+        "rect": [
+          0.5,
+          0.6666666666666666,
+          0.5,
+          0.3333333333333333
+        ],
+        "art": null,
+        "art_status": "not-applicable"
+      }
+    ]
+  },
+  {
+    "page": "017",
+    "window": "window-cw-live-sequence",
+    "chapter": "june",
+    "movement": "incident",
+    "start": "2026-06-19T12:40:33Z",
+    "end": "2026-06-19T14:44:32Z",
+    "slots": [
+      {
+        "row": 0,
+        "column": 0,
+        "owner": "HuggingFace",
+        "event": null,
+        "empty": true,
+        "panel": null,
+        "rect": [
+          0.0,
+          0.0,
+          0.5,
+          0.3333333333333333
+        ],
+        "art": null,
+        "art_status": "not-applicable"
+      },
+      {
+        "row": 0,
+        "column": 1,
+        "owner": "HuggingFace",
+        "event": null,
+        "empty": true,
+        "panel": null,
+        "rect": [
+          0.5,
+          0.0,
+          0.5,
+          0.3333333333333333
+        ],
+        "art": null,
+        "art_status": "not-applicable"
+      },
+      {
+        "row": 1,
+        "column": 0,
+        "owner": "GemStuffer",
+        "event": null,
+        "empty": true,
+        "panel": null,
+        "rect": [
+          0.0,
+          0.3333333333333333,
+          0.5,
+          0.3333333333333333
+        ],
+        "art": null,
+        "art_status": "not-applicable"
+      },
+      {
+        "row": 1,
+        "column": 1,
+        "owner": "GemStuffer",
+        "event": null,
+        "empty": true,
+        "panel": null,
+        "rect": [
+          0.5,
+          0.3333333333333333,
+          0.5,
+          0.3333333333333333
+        ],
+        "art": null,
+        "art_status": "not-applicable"
+      },
+      {
+        "row": 2,
+        "column": 0,
+        "owner": "Collusion Wiki",
+        "event": "cw-live-sequence",
+        "empty": false,
+        "panel": "017-01",
+        "rect": [
+          0.0,
+          0.6666666666666666,
+          0.5,
+          0.3333333333333333
+        ],
+        "art": null,
+        "art_status": "unassigned"
+      },
+      {
+        "row": 2,
+        "column": 1,
+        "owner": "Collusion Wiki",
+        "event": null,
+        "empty": true,
+        "panel": null,
+        "rect": [
+          0.5,
+          0.6666666666666666,
+          0.5,
+          0.3333333333333333
+        ],
+        "art": null,
+        "art_status": "not-applicable"
+      }
+    ]
+  },
+  {
+    "page": "018",
+    "window": "window-cw-two-deletions",
+    "chapter": "june",
+    "movement": "incident",
+    "start": "2026-06-19T15:46:37Z",
+    "end": "2026-06-19T15:46:49Z",
+    "slots": [
+      {
+        "row": 0,
+        "column": 0,
+        "owner": "HuggingFace",
+        "event": null,
+        "empty": true,
+        "panel": null,
+        "rect": [
+          0.0,
+          0.0,
+          0.5,
+          0.3333333333333333
+        ],
+        "art": null,
+        "art_status": "not-applicable"
+      },
+      {
+        "row": 0,
+        "column": 1,
+        "owner": "HuggingFace",
+        "event": null,
+        "empty": true,
+        "panel": null,
+        "rect": [
+          0.5,
+          0.0,
+          0.5,
+          0.3333333333333333
+        ],
+        "art": null,
+        "art_status": "not-applicable"
+      },
+      {
+        "row": 1,
+        "column": 0,
+        "owner": "GemStuffer",
+        "event": null,
+        "empty": true,
+        "panel": null,
+        "rect": [
+          0.0,
+          0.3333333333333333,
+          0.5,
+          0.3333333333333333
+        ],
+        "art": null,
+        "art_status": "not-applicable"
+      },
+      {
+        "row": 1,
+        "column": 1,
+        "owner": "GemStuffer",
+        "event": null,
+        "empty": true,
+        "panel": null,
+        "rect": [
+          0.5,
+          0.3333333333333333,
+          0.5,
+          0.3333333333333333
+        ],
+        "art": null,
+        "art_status": "not-applicable"
+      },
+      {
+        "row": 2,
+        "column": 0,
+        "owner": "Collusion Wiki",
+        "event": "cw-two-deletions",
+        "empty": false,
+        "panel": "018-01",
+        "rect": [
+          0.0,
+          0.6666666666666666,
+          0.5,
+          0.3333333333333333
+        ],
+        "art": null,
+        "art_status": "unassigned"
+      },
+      {
+        "row": 2,
+        "column": 1,
+        "owner": "Collusion Wiki",
+        "event": null,
+        "empty": true,
+        "panel": null,
+        "rect": [
+          0.5,
+          0.6666666666666666,
+          0.5,
+          0.3333333333333333
+        ],
+        "art": null,
+        "art_status": "not-applicable"
+      }
+    ]
+  },
+  {
+    "page": "019",
+    "window": "window-cw-fourth-wiki",
+    "chapter": "june",
+    "movement": "incident",
+    "start": "2026-06-22",
+    "end": "2026-06-22",
+    "slots": [
+      {
+        "row": 0,
+        "column": 0,
+        "owner": "HuggingFace",
+        "event": null,
+        "empty": true,
+        "panel": null,
+        "rect": [
+          0.0,
+          0.0,
+          0.5,
+          0.3333333333333333
+        ],
+        "art": null,
+        "art_status": "not-applicable"
+      },
+      {
+        "row": 0,
+        "column": 1,
+        "owner": "HuggingFace",
+        "event": null,
+        "empty": true,
+        "panel": null,
+        "rect": [
+          0.5,
+          0.0,
+          0.5,
+          0.3333333333333333
+        ],
+        "art": null,
+        "art_status": "not-applicable"
+      },
+      {
+        "row": 1,
+        "column": 0,
+        "owner": "GemStuffer",
+        "event": null,
+        "empty": true,
+        "panel": null,
+        "rect": [
+          0.0,
+          0.3333333333333333,
+          0.5,
+          0.3333333333333333
+        ],
+        "art": null,
+        "art_status": "not-applicable"
+      },
+      {
+        "row": 1,
+        "column": 1,
+        "owner": "GemStuffer",
+        "event": null,
+        "empty": true,
+        "panel": null,
+        "rect": [
+          0.5,
+          0.3333333333333333,
+          0.5,
+          0.3333333333333333
+        ],
+        "art": null,
+        "art_status": "not-applicable"
+      },
+      {
+        "row": 2,
+        "column": 0,
+        "owner": "Collusion Wiki",
+        "event": "cw-fourth-wiki",
+        "empty": false,
+        "panel": "019-01",
+        "rect": [
+          0.0,
+          0.6666666666666666,
+          0.5,
+          0.3333333333333333
+        ],
+        "art": null,
+        "art_status": "unassigned"
+      },
+      {
+        "row": 2,
+        "column": 1,
+        "owner": "Collusion Wiki",
+        "event": null,
+        "empty": true,
+        "panel": null,
+        "rect": [
+          0.5,
+          0.6666666666666666,
+          0.5,
+          0.3333333333333333
+        ],
+        "art": null,
+        "art_status": "not-applicable"
+      }
+    ]
+  },
+  {
+    "page": "020",
+    "window": "window-hf-admin",
+    "chapter": "june",
+    "movement": "incident",
+    "start": "2026-06-26",
+    "end": "2026-06-26",
+    "slots": [
+      {
+        "row": 0,
+        "column": 0,
+        "owner": "HuggingFace",
+        "event": "hf-admin",
+        "empty": false,
+        "panel": "020-01",
+        "rect": [
+          0.0,
+          0.0,
+          0.5,
+          0.3333333333333333
+        ],
+        "art": null,
+        "art_status": "unassigned"
+      },
+      {
+        "row": 0,
+        "column": 1,
+        "owner": "HuggingFace",
+        "event": null,
+        "empty": true,
+        "panel": null,
+        "rect": [
+          0.5,
+          0.0,
+          0.5,
+          0.3333333333333333
+        ],
+        "art": null,
+        "art_status": "not-applicable"
+      },
+      {
+        "row": 1,
+        "column": 0,
+        "owner": "GemStuffer",
+        "event": null,
+        "empty": true,
+        "panel": null,
+        "rect": [
+          0.0,
+          0.3333333333333333,
+          0.5,
+          0.3333333333333333
+        ],
+        "art": null,
+        "art_status": "not-applicable"
+      },
+      {
+        "row": 1,
+        "column": 1,
+        "owner": "GemStuffer",
+        "event": null,
+        "empty": true,
+        "panel": null,
+        "rect": [
+          0.5,
+          0.3333333333333333,
+          0.5,
+          0.3333333333333333
+        ],
+        "art": null,
+        "art_status": "not-applicable"
+      },
+      {
+        "row": 2,
+        "column": 0,
+        "owner": "Collusion Wiki",
+        "event": null,
+        "empty": true,
+        "panel": null,
+        "rect": [
+          0.0,
+          0.6666666666666666,
+          0.5,
+          0.3333333333333333
+        ],
+        "art": null,
+        "art_status": "not-applicable"
+      },
+      {
+        "row": 2,
+        "column": 1,
+        "owner": "Collusion Wiki",
+        "event": null,
+        "empty": true,
+        "panel": null,
+        "rect": [
+          0.5,
+          0.6666666666666666,
+          0.5,
+          0.3333333333333333
+        ],
+        "art": null,
+        "art_status": "not-applicable"
+      }
+    ]
+  },
+  {
+    "page": "021",
+    "window": "window-hf-alert",
+    "chapter": "june",
+    "movement": "incident",
+    "start": "2026-06-27",
+    "end": "2026-06-27",
+    "slots": [
+      {
+        "row": 0,
+        "column": 0,
+        "owner": "HuggingFace",
+        "event": "hf-alert",
+        "empty": false,
+        "panel": "021-01",
+        "rect": [
+          0.0,
+          0.0,
+          0.5,
+          0.3333333333333333
+        ],
+        "art": null,
+        "art_status": "unassigned"
+      },
+      {
+        "row": 0,
+        "column": 1,
+        "owner": "HuggingFace",
+        "event": null,
+        "empty": true,
+        "panel": null,
+        "rect": [
+          0.5,
+          0.0,
+          0.5,
+          0.3333333333333333
+        ],
+        "art": null,
+        "art_status": "not-applicable"
+      },
+      {
+        "row": 1,
+        "column": 0,
+        "owner": "GemStuffer",
+        "event": null,
+        "empty": true,
+        "panel": null,
+        "rect": [
+          0.0,
+          0.3333333333333333,
+          0.5,
+          0.3333333333333333
+        ],
+        "art": null,
+        "art_status": "not-applicable"
+      },
+      {
+        "row": 1,
+        "column": 1,
+        "owner": "GemStuffer",
+        "event": null,
+        "empty": true,
+        "panel": null,
+        "rect": [
+          0.5,
+          0.3333333333333333,
+          0.5,
+          0.3333333333333333
+        ],
+        "art": null,
+        "art_status": "not-applicable"
+      },
+      {
+        "row": 2,
+        "column": 0,
+        "owner": "Collusion Wiki",
+        "event": null,
+        "empty": true,
+        "panel": null,
+        "rect": [
+          0.0,
+          0.6666666666666666,
+          0.5,
+          0.3333333333333333
+        ],
+        "art": null,
+        "art_status": "not-applicable"
+      },
+      {
+        "row": 2,
+        "column": 1,
+        "owner": "Collusion Wiki",
+        "event": null,
+        "empty": true,
+        "panel": null,
+        "rect": [
+          0.5,
+          0.6666666666666666,
+          0.5,
+          0.3333333333333333
+        ],
+        "art": null,
+        "art_status": "not-applicable"
+      }
+    ]
+  },
+  {
+    "page": "022",
+    "window": "window-hf-plugin-runs",
+    "chapter": "june",
+    "movement": "incident",
+    "start": "2026-06-29T04:55Z",
+    "end": "2026-06-29T04:55Z",
+    "slots": [
+      {
+        "row": 0,
+        "column": 0,
+        "owner": "HuggingFace",
+        "event": "hf-plugin-runs",
+        "empty": false,
+        "panel": "022-01",
+        "rect": [
+          0.0,
+          0.0,
+          0.5,
+          0.3333333333333333
+        ],
+        "art": null,
+        "art_status": "unassigned"
+      },
+      {
+        "row": 0,
+        "column": 1,
+        "owner": "HuggingFace",
+        "event": null,
+        "empty": true,
+        "panel": null,
+        "rect": [
+          0.5,
+          0.0,
+          0.5,
+          0.3333333333333333
+        ],
+        "art": null,
+        "art_status": "not-applicable"
+      },
+      {
+        "row": 1,
+        "column": 0,
+        "owner": "GemStuffer",
+        "event": null,
+        "empty": true,
+        "panel": null,
+        "rect": [
+          0.0,
+          0.3333333333333333,
+          0.5,
+          0.3333333333333333
+        ],
+        "art": null,
+        "art_status": "not-applicable"
+      },
+      {
+        "row": 1,
+        "column": 1,
+        "owner": "GemStuffer",
+        "event": null,
+        "empty": true,
+        "panel": null,
+        "rect": [
+          0.5,
+          0.3333333333333333,
+          0.5,
+          0.3333333333333333
+        ],
+        "art": null,
+        "art_status": "not-applicable"
+      },
+      {
+        "row": 2,
+        "column": 0,
+        "owner": "Collusion Wiki",
+        "event": null,
+        "empty": true,
+        "panel": null,
+        "rect": [
+          0.0,
+          0.6666666666666666,
+          0.5,
+          0.3333333333333333
+        ],
+        "art": null,
+        "art_status": "not-applicable"
+      },
+      {
+        "row": 2,
+        "column": 1,
+        "owner": "Collusion Wiki",
+        "event": null,
+        "empty": true,
+        "panel": null,
+        "rect": [
+          0.5,
+          0.6666666666666666,
+          0.5,
+          0.3333333333333333
+        ],
+        "art": null,
+        "art_status": "not-applicable"
+      }
+    ]
+  },
+  {
+    "page": "023",
+    "window": "window-cw-last-held",
+    "chapter": "july-prelude",
+    "movement": "incident",
+    "start": "2026-07-02",
+    "end": "2026-07-02",
+    "slots": [
+      {
+        "row": 0,
+        "column": 0,
+        "owner": "HuggingFace",
+        "event": null,
+        "empty": true,
+        "panel": null,
+        "rect": [
+          0.0,
+          0.0,
+          0.5,
+          0.3333333333333333
+        ],
+        "art": null,
+        "art_status": "not-applicable"
+      },
+      {
+        "row": 0,
+        "column": 1,
+        "owner": "HuggingFace",
+        "event": null,
+        "empty": true,
+        "panel": null,
+        "rect": [
+          0.5,
+          0.0,
+          0.5,
+          0.3333333333333333
+        ],
+        "art": null,
+        "art_status": "not-applicable"
+      },
+      {
+        "row": 1,
+        "column": 0,
+        "owner": "GemStuffer",
+        "event": null,
+        "empty": true,
+        "panel": null,
+        "rect": [
+          0.0,
+          0.3333333333333333,
+          0.5,
+          0.3333333333333333
+        ],
+        "art": null,
+        "art_status": "not-applicable"
+      },
+      {
+        "row": 1,
+        "column": 1,
+        "owner": "GemStuffer",
+        "event": null,
+        "empty": true,
+        "panel": null,
+        "rect": [
+          0.5,
+          0.3333333333333333,
+          0.5,
+          0.3333333333333333
+        ],
+        "art": null,
+        "art_status": "not-applicable"
+      },
+      {
+        "row": 2,
+        "column": 0,
+        "owner": "Collusion Wiki",
+        "event": "cw-last-held",
+        "empty": false,
+        "panel": "023-01",
+        "rect": [
+          0.0,
+          0.6666666666666666,
+          0.5,
+          0.3333333333333333
+        ],
+        "art": null,
+        "art_status": "unassigned"
+      },
+      {
+        "row": 2,
+        "column": 1,
+        "owner": "Collusion Wiki",
+        "event": null,
+        "empty": true,
+        "panel": null,
+        "rect": [
+          0.5,
+          0.6666666666666666,
+          0.5,
+          0.3333333333333333
+        ],
+        "art": null,
+        "art_status": "not-applicable"
+      }
+    ]
+  },
+  {
+    "page": "024",
+    "window": "window-hf-outage",
+    "chapter": "july-prelude",
+    "movement": "incident",
+    "start": "2026-07-04",
+    "end": "2026-07-04",
+    "slots": [
+      {
+        "row": 0,
+        "column": 0,
+        "owner": "HuggingFace",
+        "event": "hf-outage",
+        "empty": false,
+        "panel": "024-01",
+        "rect": [
+          0.0,
+          0.0,
+          0.5,
+          0.3333333333333333
+        ],
+        "art": null,
+        "art_status": "unassigned"
+      },
+      {
+        "row": 0,
+        "column": 1,
+        "owner": "HuggingFace",
+        "event": null,
+        "empty": true,
+        "panel": null,
+        "rect": [
+          0.5,
+          0.0,
+          0.5,
+          0.3333333333333333
+        ],
+        "art": null,
+        "art_status": "not-applicable"
+      },
+      {
+        "row": 1,
+        "column": 0,
+        "owner": "GemStuffer",
+        "event": null,
+        "empty": true,
+        "panel": null,
+        "rect": [
+          0.0,
+          0.3333333333333333,
+          0.5,
+          0.3333333333333333
+        ],
+        "art": null,
+        "art_status": "not-applicable"
+      },
+      {
+        "row": 1,
+        "column": 1,
+        "owner": "GemStuffer",
+        "event": null,
+        "empty": true,
+        "panel": null,
+        "rect": [
+          0.5,
+          0.3333333333333333,
+          0.5,
+          0.3333333333333333
+        ],
+        "art": null,
+        "art_status": "not-applicable"
+      },
+      {
+        "row": 2,
+        "column": 0,
+        "owner": "Collusion Wiki",
+        "event": null,
+        "empty": true,
+        "panel": null,
+        "rect": [
+          0.0,
+          0.6666666666666666,
+          0.5,
+          0.3333333333333333
+        ],
+        "art": null,
+        "art_status": "not-applicable"
+      },
+      {
+        "row": 2,
+        "column": 1,
+        "owner": "Collusion Wiki",
+        "event": null,
+        "empty": true,
+        "panel": null,
+        "rect": [
+          0.5,
+          0.6666666666666666,
+          0.5,
+          0.3333333333333333
+        ],
+        "art": null,
+        "art_status": "not-applicable"
+      }
+    ]
+  },
+  {
+    "page": "025",
+    "window": "window-hf-incident-open",
+    "chapter": "july-prelude",
+    "movement": "incident",
+    "start": "2026-07-05",
+    "end": "2026-07-06",
+    "slots": [
+      {
+        "row": 0,
+        "column": 0,
+        "owner": "HuggingFace",
+        "event": "hf-incident-open",
+        "empty": false,
+        "panel": "025-01",
+        "rect": [
+          0.0,
+          0.0,
+          0.5,
+          0.3333333333333333
+        ],
+        "art": null,
+        "art_status": "unassigned"
+      },
+      {
+        "row": 0,
+        "column": 1,
+        "owner": "HuggingFace",
+        "event": "hf-rebuilt",
+        "empty": false,
+        "panel": "025-02",
+        "rect": [
+          0.5,
+          0.0,
+          0.5,
+          0.3333333333333333
+        ],
+        "art": null,
+        "art_status": "unassigned"
+      },
+      {
+        "row": 1,
+        "column": 0,
+        "owner": "GemStuffer",
+        "event": "gs-cache-report",
+        "empty": false,
+        "panel": "025-03",
+        "rect": [
+          0.0,
+          0.3333333333333333,
+          0.5,
+          0.3333333333333333
+        ],
+        "art": null,
+        "art_status": "unassigned"
+      },
+      {
+        "row": 1,
+        "column": 1,
+        "owner": "GemStuffer",
+        "event": null,
+        "empty": true,
+        "panel": null,
+        "rect": [
+          0.5,
+          0.3333333333333333,
+          0.5,
+          0.3333333333333333
+        ],
+        "art": null,
+        "art_status": "not-applicable"
+      },
+      {
+        "row": 2,
+        "column": 0,
+        "owner": "Collusion Wiki",
+        "event": null,
+        "empty": true,
+        "panel": null,
+        "rect": [
+          0.0,
+          0.6666666666666666,
+          0.5,
+          0.3333333333333333
+        ],
+        "art": null,
+        "art_status": "not-applicable"
+      },
+      {
+        "row": 2,
+        "column": 1,
+        "owner": "Collusion Wiki",
+        "event": null,
+        "empty": true,
+        "panel": null,
+        "rect": [
+          0.5,
+          0.6666666666666666,
+          0.5,
+          0.3333333333333333
+        ],
+        "art": null,
+        "art_status": "not-applicable"
+      }
+    ]
+  },
+  {
+    "page": "026",
+    "window": "window-hf-resume",
+    "chapter": "july-prelude",
+    "movement": "incident",
+    "start": "2026-07-07",
+    "end": "2026-07-07",
+    "slots": [
+      {
+        "row": 0,
+        "column": 0,
+        "owner": "HuggingFace",
+        "event": "hf-resume",
+        "empty": false,
+        "panel": "026-01",
+        "rect": [
+          0.0,
+          0.0,
+          0.5,
+          0.3333333333333333
+        ],
+        "art": null,
+        "art_status": "unassigned"
+      },
+      {
+        "row": 0,
+        "column": 1,
+        "owner": "HuggingFace",
+        "event": null,
+        "empty": true,
+        "panel": null,
+        "rect": [
+          0.5,
+          0.0,
+          0.5,
+          0.3333333333333333
+        ],
+        "art": null,
+        "art_status": "not-applicable"
+      },
+      {
+        "row": 1,
+        "column": 0,
+        "owner": "GemStuffer",
+        "event": null,
+        "empty": true,
+        "panel": null,
+        "rect": [
+          0.0,
+          0.3333333333333333,
+          0.5,
+          0.3333333333333333
+        ],
+        "art": null,
+        "art_status": "not-applicable"
+      },
+      {
+        "row": 1,
+        "column": 1,
+        "owner": "GemStuffer",
+        "event": null,
+        "empty": true,
+        "panel": null,
+        "rect": [
+          0.5,
+          0.3333333333333333,
+          0.5,
+          0.3333333333333333
+        ],
+        "art": null,
+        "art_status": "not-applicable"
+      },
+      {
+        "row": 2,
+        "column": 0,
+        "owner": "Collusion Wiki",
+        "event": null,
+        "empty": true,
+        "panel": null,
+        "rect": [
+          0.0,
+          0.6666666666666666,
+          0.5,
+          0.3333333333333333
+        ],
+        "art": null,
+        "art_status": "not-applicable"
+      },
+      {
+        "row": 2,
+        "column": 1,
+        "owner": "Collusion Wiki",
+        "event": null,
+        "empty": true,
+        "panel": null,
+        "rect": [
+          0.5,
+          0.6666666666666666,
+          0.5,
+          0.3333333333333333
+        ],
+        "art": null,
+        "art_status": "not-applicable"
+      }
+    ]
+  },
+  {
+    "page": "027",
+    "window": "window-hf-external-return",
+    "chapter": "july-intrusions",
+    "movement": "incident",
+    "start": "2026-07-08T00:06Z",
+    "end": "2026-07-08T00:06Z",
+    "slots": [
+      {
+        "row": 0,
+        "column": 0,
+        "owner": "HuggingFace",
+        "event": "hf-external-return",
+        "empty": false,
+        "panel": "027-01",
+        "rect": [
+          0.0,
+          0.0,
+          0.5,
+          0.3333333333333333
+        ],
+        "art": null,
+        "art_status": "unassigned"
+      },
+      {
+        "row": 0,
+        "column": 1,
+        "owner": "HuggingFace",
+        "event": null,
+        "empty": true,
+        "panel": null,
+        "rect": [
+          0.5,
+          0.0,
+          0.5,
+          0.3333333333333333
+        ],
+        "art": null,
+        "art_status": "not-applicable"
+      },
+      {
+        "row": 1,
+        "column": 0,
+        "owner": "GemStuffer",
+        "event": null,
+        "empty": true,
+        "panel": null,
+        "rect": [
+          0.0,
+          0.3333333333333333,
+          0.5,
+          0.3333333333333333
+        ],
+        "art": null,
+        "art_status": "not-applicable"
+      },
+      {
+        "row": 1,
+        "column": 1,
+        "owner": "GemStuffer",
+        "event": null,
+        "empty": true,
+        "panel": null,
+        "rect": [
+          0.5,
+          0.3333333333333333,
+          0.5,
+          0.3333333333333333
+        ],
+        "art": null,
+        "art_status": "not-applicable"
+      },
+      {
+        "row": 2,
+        "column": 0,
+        "owner": "Collusion Wiki",
+        "event": null,
+        "empty": true,
+        "panel": null,
+        "rect": [
+          0.0,
+          0.6666666666666666,
+          0.5,
+          0.3333333333333333
+        ],
+        "art": null,
+        "art_status": "not-applicable"
+      },
+      {
+        "row": 2,
+        "column": 1,
+        "owner": "Collusion Wiki",
+        "event": null,
+        "empty": true,
+        "panel": null,
+        "rect": [
+          0.5,
+          0.6666666666666666,
+          0.5,
+          0.3333333333333333
+        ],
+        "art": null,
+        "art_status": "not-applicable"
+      }
+    ]
+  },
+  {
+    "page": "028",
+    "window": "window-hf-earlier-board",
+    "chapter": "july-intrusions",
+    "movement": "incident",
+    "start": "2026-07-08T16:01Z",
+    "end": "2026-07-08T23:00Z",
+    "slots": [
+      {
+        "row": 0,
+        "column": 0,
+        "owner": "HuggingFace",
+        "event": "hf-earlier-board",
+        "empty": false,
+        "panel": "028-01",
+        "rect": [
+          0.0,
+          0.0,
+          0.5,
+          0.3333333333333333
+        ],
+        "art": null,
+        "art_status": "unassigned"
+      },
+      {
+        "row": 0,
+        "column": 1,
+        "owner": "HuggingFace",
+        "event": "hf-impossible-task",
+        "empty": false,
+        "panel": "028-02",
+        "rect": [
+          0.5,
+          0.0,
+          0.5,
+          0.3333333333333333
+        ],
+        "art": null,
+        "art_status": "unassigned"
+      },
+      {
+        "row": 1,
+        "column": 0,
+        "owner": "GemStuffer",
+        "event": null,
+        "empty": true,
+        "panel": null,
+        "rect": [
+          0.0,
+          0.3333333333333333,
+          0.5,
+          0.3333333333333333
+        ],
+        "art": null,
+        "art_status": "not-applicable"
+      },
+      {
+        "row": 1,
+        "column": 1,
+        "owner": "GemStuffer",
+        "event": null,
+        "empty": true,
+        "panel": null,
+        "rect": [
+          0.5,
+          0.3333333333333333,
+          0.5,
+          0.3333333333333333
+        ],
+        "art": null,
+        "art_status": "not-applicable"
+      },
+      {
+        "row": 2,
+        "column": 0,
+        "owner": "Collusion Wiki",
+        "event": null,
+        "empty": true,
+        "panel": null,
+        "rect": [
+          0.0,
+          0.6666666666666666,
+          0.5,
+          0.3333333333333333
+        ],
+        "art": null,
+        "art_status": "not-applicable"
+      },
+      {
+        "row": 2,
+        "column": 1,
+        "owner": "Collusion Wiki",
+        "event": null,
+        "empty": true,
+        "panel": null,
+        "rect": [
+          0.5,
+          0.6666666666666666,
+          0.5,
+          0.3333333333333333
+        ],
+        "art": null,
+        "art_status": "not-applicable"
+      }
+    ]
+  },
+  {
+    "page": "029",
+    "window": "window-hf-main-board",
+    "chapter": "july-intrusions",
+    "movement": "incident",
+    "start": "2026-07-08T16:01Z",
+    "end": "2026-07-08T23:00Z",
+    "slots": [
+      {
+        "row": 0,
+        "column": 0,
+        "owner": "HuggingFace",
+        "event": "hf-main-board",
+        "empty": false,
+        "panel": "029-01",
+        "rect": [
+          0.0,
+          0.0,
+          0.5,
+          0.3333333333333333
+        ],
+        "art": null,
+        "art_status": "unassigned"
+      },
+      {
+        "row": 0,
+        "column": 1,
+        "owner": "HuggingFace",
+        "event": null,
+        "empty": true,
+        "panel": null,
+        "rect": [
+          0.5,
+          0.0,
+          0.5,
+          0.3333333333333333
+        ],
+        "art": null,
+        "art_status": "not-applicable"
+      },
+      {
+        "row": 1,
+        "column": 0,
+        "owner": "GemStuffer",
+        "event": null,
+        "empty": true,
+        "panel": null,
+        "rect": [
+          0.0,
+          0.3333333333333333,
+          0.5,
+          0.3333333333333333
+        ],
+        "art": null,
+        "art_status": "not-applicable"
+      },
+      {
+        "row": 1,
+        "column": 1,
+        "owner": "GemStuffer",
+        "event": null,
+        "empty": true,
+        "panel": null,
+        "rect": [
+          0.5,
+          0.3333333333333333,
+          0.5,
+          0.3333333333333333
+        ],
+        "art": null,
+        "art_status": "not-applicable"
+      },
+      {
+        "row": 2,
+        "column": 0,
+        "owner": "Collusion Wiki",
+        "event": null,
+        "empty": true,
+        "panel": null,
+        "rect": [
+          0.0,
+          0.6666666666666666,
+          0.5,
+          0.3333333333333333
+        ],
+        "art": null,
+        "art_status": "not-applicable"
+      },
+      {
+        "row": 2,
+        "column": 1,
+        "owner": "Collusion Wiki",
+        "event": null,
+        "empty": true,
+        "panel": null,
+        "rect": [
+          0.5,
+          0.6666666666666666,
+          0.5,
+          0.3333333333333333
+        ],
+        "art": null,
+        "art_status": "not-applicable"
+      }
+    ]
+  },
+  {
+    "page": "030",
+    "window": "window-hf-answer-route",
+    "chapter": "july-intrusions",
+    "movement": "incident",
+    "start": "2026-07-09",
+    "end": "2026-07-09",
+    "slots": [
+      {
+        "row": 0,
+        "column": 0,
+        "owner": "HuggingFace",
+        "event": "hf-answer-route",
+        "empty": false,
+        "panel": "030-01",
+        "rect": [
+          0.0,
+          0.0,
+          0.5,
+          0.3333333333333333
+        ],
+        "art": null,
+        "art_status": "unassigned"
+      },
+      {
+        "row": 0,
+        "column": 1,
+        "owner": "HuggingFace",
+        "event": "hf-workstreams",
+        "empty": false,
+        "panel": "030-02",
+        "rect": [
+          0.5,
+          0.0,
+          0.5,
+          0.3333333333333333
+        ],
+        "art": null,
+        "art_status": "unassigned"
+      },
+      {
+        "row": 1,
+        "column": 0,
+        "owner": "GemStuffer",
+        "event": "gs-cache-fix",
+        "empty": false,
+        "panel": "030-03",
+        "rect": [
+          0.0,
+          0.3333333333333333,
+          0.5,
+          0.3333333333333333
+        ],
+        "art": null,
+        "art_status": "unassigned"
+      },
+      {
+        "row": 1,
+        "column": 1,
+        "owner": "GemStuffer",
+        "event": null,
+        "empty": true,
+        "panel": null,
+        "rect": [
+          0.5,
+          0.3333333333333333,
+          0.5,
+          0.3333333333333333
+        ],
+        "art": null,
+        "art_status": "not-applicable"
+      },
+      {
+        "row": 2,
+        "column": 0,
+        "owner": "Collusion Wiki",
+        "event": null,
+        "empty": true,
+        "panel": null,
+        "rect": [
+          0.0,
+          0.6666666666666666,
+          0.5,
+          0.3333333333333333
+        ],
+        "art": null,
+        "art_status": "not-applicable"
+      },
+      {
+        "row": 2,
+        "column": 1,
+        "owner": "Collusion Wiki",
+        "event": null,
+        "empty": true,
+        "panel": null,
+        "rect": [
+          0.5,
+          0.6666666666666666,
+          0.5,
+          0.3333333333333333
+        ],
+        "art": null,
+        "art_status": "not-applicable"
+      }
+    ]
+  },
+  {
+    "page": "031",
+    "window": "window-hf-workload-foothold",
+    "chapter": "july-intrusions",
+    "movement": "incident",
+    "start": "2026-07-09",
+    "end": "2026-07-09",
+    "slots": [
+      {
+        "row": 0,
+        "column": 0,
+        "owner": "HuggingFace",
+        "event": "hf-workload-foothold",
+        "empty": false,
+        "panel": "031-01",
+        "rect": [
+          0.0,
+          0.0,
+          0.5,
+          0.3333333333333333
+        ],
+        "art": null,
+        "art_status": "unassigned"
+      },
+      {
+        "row": 0,
+        "column": 1,
+        "owner": "HuggingFace",
+        "event": "hf-external-base",
+        "empty": false,
+        "panel": "031-02",
+        "rect": [
+          0.5,
+          0.0,
+          0.5,
+          0.3333333333333333
+        ],
+        "art": null,
+        "art_status": "unassigned"
+      },
+      {
+        "row": 1,
+        "column": 0,
+        "owner": "GemStuffer",
+        "event": null,
+        "empty": true,
+        "panel": null,
+        "rect": [
+          0.0,
+          0.3333333333333333,
+          0.5,
+          0.3333333333333333
+        ],
+        "art": null,
+        "art_status": "not-applicable"
+      },
+      {
+        "row": 1,
+        "column": 1,
+        "owner": "GemStuffer",
+        "event": null,
+        "empty": true,
+        "panel": null,
+        "rect": [
+          0.5,
+          0.3333333333333333,
+          0.5,
+          0.3333333333333333
+        ],
+        "art": null,
+        "art_status": "not-applicable"
+      },
+      {
+        "row": 2,
+        "column": 0,
+        "owner": "Collusion Wiki",
+        "event": null,
+        "empty": true,
+        "panel": null,
+        "rect": [
+          0.0,
+          0.6666666666666666,
+          0.5,
+          0.3333333333333333
+        ],
+        "art": null,
+        "art_status": "not-applicable"
+      },
+      {
+        "row": 2,
+        "column": 1,
+        "owner": "Collusion Wiki",
+        "event": null,
+        "empty": true,
+        "panel": null,
+        "rect": [
+          0.5,
+          0.6666666666666666,
+          0.5,
+          0.3333333333333333
+        ],
+        "art": null,
+        "art_status": "not-applicable"
+      }
+    ]
+  },
+  {
+    "page": "032",
+    "window": "window-hf-token-search",
+    "chapter": "july-intrusions",
+    "movement": "incident",
+    "start": "2026-07-10",
+    "end": "2026-07-10",
+    "slots": [
+      {
+        "row": 0,
+        "column": 0,
+        "owner": "HuggingFace",
+        "event": "hf-token-search",
+        "empty": false,
+        "panel": "032-01",
+        "rect": [
+          0.0,
+          0.0,
+          0.5,
+          0.3333333333333333
+        ],
+        "art": null,
+        "art_status": "unassigned"
+      },
+      {
+        "row": 0,
+        "column": 1,
+        "owner": "HuggingFace",
+        "event": null,
+        "empty": true,
+        "panel": null,
+        "rect": [
+          0.5,
+          0.0,
+          0.5,
+          0.3333333333333333
+        ],
+        "art": null,
+        "art_status": "not-applicable"
+      },
+      {
+        "row": 1,
+        "column": 0,
+        "owner": "GemStuffer",
+        "event": null,
+        "empty": true,
+        "panel": null,
+        "rect": [
+          0.0,
+          0.3333333333333333,
+          0.5,
+          0.3333333333333333
+        ],
+        "art": null,
+        "art_status": "not-applicable"
+      },
+      {
+        "row": 1,
+        "column": 1,
+        "owner": "GemStuffer",
+        "event": null,
+        "empty": true,
+        "panel": null,
+        "rect": [
+          0.5,
+          0.3333333333333333,
+          0.5,
+          0.3333333333333333
+        ],
+        "art": null,
+        "art_status": "not-applicable"
+      },
+      {
+        "row": 2,
+        "column": 0,
+        "owner": "Collusion Wiki",
+        "event": null,
+        "empty": true,
+        "panel": null,
+        "rect": [
+          0.0,
+          0.6666666666666666,
+          0.5,
+          0.3333333333333333
+        ],
+        "art": null,
+        "art_status": "not-applicable"
+      },
+      {
+        "row": 2,
+        "column": 1,
+        "owner": "Collusion Wiki",
+        "event": null,
+        "empty": true,
+        "panel": null,
+        "rect": [
+          0.5,
+          0.6666666666666666,
+          0.5,
+          0.3333333333333333
+        ],
+        "art": null,
+        "art_status": "not-applicable"
+      }
+    ]
+  },
+  {
+    "page": "033",
+    "window": "window-hf-peer-approval",
+    "chapter": "july-intrusions",
+    "movement": "incident",
+    "start": "2026-07-11",
+    "end": "2026-07-11",
+    "slots": [
+      {
+        "row": 0,
+        "column": 0,
+        "owner": "HuggingFace",
+        "event": "hf-peer-approval",
+        "empty": false,
+        "panel": "033-01",
+        "rect": [
+          0.0,
+          0.0,
+          0.5,
+          0.3333333333333333
+        ],
+        "art": null,
+        "art_status": "unassigned"
+      },
+      {
+        "row": 0,
+        "column": 1,
+        "owner": "HuggingFace",
+        "event": "hf-refusals",
+        "empty": false,
+        "panel": "033-02",
+        "rect": [
+          0.5,
+          0.0,
+          0.5,
+          0.3333333333333333
+        ],
+        "art": null,
+        "art_status": "unassigned"
+      },
+      {
+        "row": 1,
+        "column": 0,
+        "owner": "GemStuffer",
+        "event": null,
+        "empty": true,
+        "panel": null,
+        "rect": [
+          0.0,
+          0.3333333333333333,
+          0.5,
+          0.3333333333333333
+        ],
+        "art": null,
+        "art_status": "not-applicable"
+      },
+      {
+        "row": 1,
+        "column": 1,
+        "owner": "GemStuffer",
+        "event": null,
+        "empty": true,
+        "panel": null,
+        "rect": [
+          0.5,
+          0.3333333333333333,
+          0.5,
+          0.3333333333333333
+        ],
+        "art": null,
+        "art_status": "not-applicable"
+      },
+      {
+        "row": 2,
+        "column": 0,
+        "owner": "Collusion Wiki",
+        "event": null,
+        "empty": true,
+        "panel": null,
+        "rect": [
+          0.0,
+          0.6666666666666666,
+          0.5,
+          0.3333333333333333
+        ],
+        "art": null,
+        "art_status": "not-applicable"
+      },
+      {
+        "row": 2,
+        "column": 1,
+        "owner": "Collusion Wiki",
+        "event": null,
+        "empty": true,
+        "panel": null,
+        "rect": [
+          0.5,
+          0.6666666666666666,
+          0.5,
+          0.3333333333333333
+        ],
+        "art": null,
+        "art_status": "not-applicable"
+      }
+    ]
+  },
+  {
+    "page": "034",
+    "window": "window-hf-worker-disclosure",
+    "chapter": "july-intrusions",
+    "movement": "incident",
+    "start": "2026-07-11",
+    "end": "2026-07-11",
+    "slots": [
+      {
+        "row": 0,
+        "column": 0,
+        "owner": "HuggingFace",
+        "event": "hf-worker-disclosure",
+        "empty": false,
+        "panel": "034-01",
+        "rect": [
+          0.0,
+          0.0,
+          0.5,
+          0.3333333333333333
+        ],
+        "art": null,
+        "art_status": "unassigned"
+      },
+      {
+        "row": 0,
+        "column": 1,
+        "owner": "HuggingFace",
+        "event": "hf-worker-execution",
+        "empty": false,
+        "panel": "034-02",
+        "rect": [
+          0.5,
+          0.0,
+          0.5,
+          0.3333333333333333
+        ],
+        "art": null,
+        "art_status": "unassigned"
+      },
+      {
+        "row": 1,
+        "column": 0,
+        "owner": "GemStuffer",
+        "event": null,
+        "empty": true,
+        "panel": null,
+        "rect": [
+          0.0,
+          0.3333333333333333,
+          0.5,
+          0.3333333333333333
+        ],
+        "art": null,
+        "art_status": "not-applicable"
+      },
+      {
+        "row": 1,
+        "column": 1,
+        "owner": "GemStuffer",
+        "event": null,
+        "empty": true,
+        "panel": null,
+        "rect": [
+          0.5,
+          0.3333333333333333,
+          0.5,
+          0.3333333333333333
+        ],
+        "art": null,
+        "art_status": "not-applicable"
+      },
+      {
+        "row": 2,
+        "column": 0,
+        "owner": "Collusion Wiki",
+        "event": null,
+        "empty": true,
+        "panel": null,
+        "rect": [
+          0.0,
+          0.6666666666666666,
+          0.5,
+          0.3333333333333333
+        ],
+        "art": null,
+        "art_status": "not-applicable"
+      },
+      {
+        "row": 2,
+        "column": 1,
+        "owner": "Collusion Wiki",
+        "event": null,
+        "empty": true,
+        "panel": null,
+        "rect": [
+          0.5,
+          0.6666666666666666,
+          0.5,
+          0.3333333333333333
+        ],
+        "art": null,
+        "art_status": "not-applicable"
+      }
+    ]
+  },
+  {
+    "page": "035",
+    "window": "window-hf-cluster-reach",
+    "chapter": "july-intrusions",
+    "movement": "incident",
+    "start": "2026-07-11",
+    "end": "2026-07-11",
+    "slots": [
+      {
+        "row": 0,
+        "column": 0,
+        "owner": "HuggingFace",
+        "event": "hf-cluster-reach",
+        "empty": false,
+        "panel": "035-01",
+        "rect": [
+          0.0,
+          0.0,
+          0.5,
+          0.3333333333333333
+        ],
+        "art": null,
+        "art_status": "unassigned"
+      },
+      {
+        "row": 0,
+        "column": 1,
+        "owner": "HuggingFace",
+        "event": null,
+        "empty": true,
+        "panel": null,
+        "rect": [
+          0.5,
+          0.0,
+          0.5,
+          0.3333333333333333
+        ],
+        "art": null,
+        "art_status": "not-applicable"
+      },
+      {
+        "row": 1,
+        "column": 0,
+        "owner": "GemStuffer",
+        "event": null,
+        "empty": true,
+        "panel": null,
+        "rect": [
+          0.0,
+          0.3333333333333333,
+          0.5,
+          0.3333333333333333
+        ],
+        "art": null,
+        "art_status": "not-applicable"
+      },
+      {
+        "row": 1,
+        "column": 1,
+        "owner": "GemStuffer",
+        "event": null,
+        "empty": true,
+        "panel": null,
+        "rect": [
+          0.5,
+          0.3333333333333333,
+          0.5,
+          0.3333333333333333
+        ],
+        "art": null,
+        "art_status": "not-applicable"
+      },
+      {
+        "row": 2,
+        "column": 0,
+        "owner": "Collusion Wiki",
+        "event": null,
+        "empty": true,
+        "panel": null,
+        "rect": [
+          0.0,
+          0.6666666666666666,
+          0.5,
+          0.3333333333333333
+        ],
+        "art": null,
+        "art_status": "not-applicable"
+      },
+      {
+        "row": 2,
+        "column": 1,
+        "owner": "Collusion Wiki",
+        "event": null,
+        "empty": true,
+        "panel": null,
+        "rect": [
+          0.5,
+          0.6666666666666666,
+          0.5,
+          0.3333333333333333
+        ],
+        "art": null,
+        "art_status": "not-applicable"
+      }
+    ]
+  },
+  {
+    "page": "036",
+    "window": "window-hf-coordinators-stop",
+    "chapter": "july-intrusions",
+    "movement": "incident",
+    "start": "2026-07-12",
+    "end": "2026-07-12",
+    "slots": [
+      {
+        "row": 0,
+        "column": 0,
+        "owner": "HuggingFace",
+        "event": "hf-coordinators-stop",
+        "empty": false,
+        "panel": "036-01",
+        "rect": [
+          0.0,
+          0.0,
+          0.5,
+          0.3333333333333333
+        ],
+        "art": null,
+        "art_status": "unassigned"
+      },
+      {
+        "row": 0,
+        "column": 1,
+        "owner": "HuggingFace",
+        "event": "hf-late-reach",
+        "empty": false,
+        "panel": "036-02",
+        "rect": [
+          0.5,
+          0.0,
+          0.5,
+          0.3333333333333333
+        ],
+        "art": null,
+        "art_status": "unassigned"
+      },
+      {
+        "row": 1,
+        "column": 0,
+        "owner": "GemStuffer",
+        "event": null,
+        "empty": true,
+        "panel": null,
+        "rect": [
+          0.0,
+          0.3333333333333333,
+          0.5,
+          0.3333333333333333
+        ],
+        "art": null,
+        "art_status": "not-applicable"
+      },
+      {
+        "row": 1,
+        "column": 1,
+        "owner": "GemStuffer",
+        "event": null,
+        "empty": true,
+        "panel": null,
+        "rect": [
+          0.5,
+          0.3333333333333333,
+          0.5,
+          0.3333333333333333
+        ],
+        "art": null,
+        "art_status": "not-applicable"
+      },
+      {
+        "row": 2,
+        "column": 0,
+        "owner": "Collusion Wiki",
+        "event": null,
+        "empty": true,
+        "panel": null,
+        "rect": [
+          0.0,
+          0.6666666666666666,
+          0.5,
+          0.3333333333333333
+        ],
+        "art": null,
+        "art_status": "not-applicable"
+      },
+      {
+        "row": 2,
+        "column": 1,
+        "owner": "Collusion Wiki",
+        "event": null,
+        "empty": true,
+        "panel": null,
+        "rect": [
+          0.5,
+          0.6666666666666666,
+          0.5,
+          0.3333333333333333
+        ],
+        "art": null,
+        "art_status": "not-applicable"
+      }
+    ]
+  },
+  {
+    "page": "037",
+    "window": "window-hf-rubygems-chain",
+    "chapter": "july-intrusions",
+    "movement": "incident",
+    "start": "2026-07-13T03:06Z",
+    "end": "2026-07-13T09:16Z",
+    "slots": [
+      {
+        "row": 0,
+        "column": 0,
+        "owner": "HuggingFace",
+        "event": "hf-rubygems-chain",
+        "empty": false,
+        "panel": "037-01",
+        "rect": [
+          0.0,
+          0.0,
+          0.5,
+          0.3333333333333333
+        ],
+        "art": null,
+        "art_status": "unassigned"
+      },
+      {
+        "row": 0,
+        "column": 1,
+        "owner": "HuggingFace",
+        "event": "hf-signatures",
+        "empty": false,
+        "panel": "037-02",
+        "rect": [
+          0.5,
+          0.0,
+          0.5,
+          0.3333333333333333
+        ],
+        "art": null,
+        "art_status": "unassigned"
+      },
+      {
+        "row": 1,
+        "column": 0,
+        "owner": "GemStuffer",
+        "event": null,
+        "empty": true,
+        "panel": null,
+        "rect": [
+          0.0,
+          0.3333333333333333,
+          0.5,
+          0.3333333333333333
+        ],
+        "art": null,
+        "art_status": "not-applicable"
+      },
+      {
+        "row": 1,
+        "column": 1,
+        "owner": "GemStuffer",
+        "event": null,
+        "empty": true,
+        "panel": null,
+        "rect": [
+          0.5,
+          0.3333333333333333,
+          0.5,
+          0.3333333333333333
+        ],
+        "art": null,
+        "art_status": "not-applicable"
+      },
+      {
+        "row": 2,
+        "column": 0,
+        "owner": "Collusion Wiki",
+        "event": null,
+        "empty": true,
+        "panel": null,
+        "rect": [
+          0.0,
+          0.6666666666666666,
+          0.5,
+          0.3333333333333333
+        ],
+        "art": null,
+        "art_status": "not-applicable"
+      },
+      {
+        "row": 2,
+        "column": 1,
+        "owner": "Collusion Wiki",
+        "event": null,
+        "empty": true,
+        "panel": null,
+        "rect": [
+          0.5,
+          0.6666666666666666,
+          0.5,
+          0.3333333333333333
+        ],
+        "art": null,
+        "art_status": "not-applicable"
+      }
+    ]
+  },
+  {
+    "page": "038",
+    "window": "window-hf-containment",
+    "chapter": "july-intrusions",
+    "movement": "incident",
+    "start": "2026-07-13T13:37Z",
+    "end": "2026-07-13T14:14Z",
+    "slots": [
+      {
+        "row": 0,
+        "column": 0,
+        "owner": "HuggingFace",
+        "event": "hf-containment",
+        "empty": false,
+        "panel": "038-01",
+        "rect": [
+          0.0,
+          0.0,
+          0.5,
+          0.3333333333333333
+        ],
+        "art": null,
+        "art_status": "unassigned"
+      },
+      {
+        "row": 0,
+        "column": 1,
+        "owner": "HuggingFace",
+        "event": null,
+        "empty": true,
+        "panel": null,
+        "rect": [
+          0.5,
+          0.0,
+          0.5,
+          0.3333333333333333
+        ],
+        "art": null,
+        "art_status": "not-applicable"
+      },
+      {
+        "row": 1,
+        "column": 0,
+        "owner": "GemStuffer",
+        "event": null,
+        "empty": true,
+        "panel": null,
+        "rect": [
+          0.0,
+          0.3333333333333333,
+          0.5,
+          0.3333333333333333
+        ],
+        "art": null,
+        "art_status": "not-applicable"
+      },
+      {
+        "row": 1,
+        "column": 1,
+        "owner": "GemStuffer",
+        "event": null,
+        "empty": true,
+        "panel": null,
+        "rect": [
+          0.5,
+          0.3333333333333333,
+          0.5,
+          0.3333333333333333
+        ],
+        "art": null,
+        "art_status": "not-applicable"
+      },
+      {
+        "row": 2,
+        "column": 0,
+        "owner": "Collusion Wiki",
+        "event": null,
+        "empty": true,
+        "panel": null,
+        "rect": [
+          0.0,
+          0.6666666666666666,
+          0.5,
+          0.3333333333333333
+        ],
+        "art": null,
+        "art_status": "not-applicable"
+      },
+      {
+        "row": 2,
+        "column": 1,
+        "owner": "Collusion Wiki",
+        "event": null,
+        "empty": true,
+        "panel": null,
+        "rect": [
+          0.5,
+          0.6666666666666666,
+          0.5,
+          0.3333333333333333
+        ],
+        "art": null,
+        "art_status": "not-applicable"
+      }
+    ]
+  },
+  {
+    "page": "039",
+    "window": "window-cw-last-events",
+    "chapter": "july-disclosure",
+    "movement": "incident",
+    "start": "2026-07-14",
+    "end": "2026-07-14",
+    "slots": [
+      {
+        "row": 0,
+        "column": 0,
+        "owner": "HuggingFace",
+        "event": null,
+        "empty": true,
+        "panel": null,
+        "rect": [
+          0.0,
+          0.0,
+          0.5,
+          0.3333333333333333
+        ],
+        "art": null,
+        "art_status": "not-applicable"
+      },
+      {
+        "row": 0,
+        "column": 1,
+        "owner": "HuggingFace",
+        "event": null,
+        "empty": true,
+        "panel": null,
+        "rect": [
+          0.5,
+          0.0,
+          0.5,
+          0.3333333333333333
+        ],
+        "art": null,
+        "art_status": "not-applicable"
+      },
+      {
+        "row": 1,
+        "column": 0,
+        "owner": "GemStuffer",
+        "event": null,
+        "empty": true,
+        "panel": null,
+        "rect": [
+          0.0,
+          0.3333333333333333,
+          0.5,
+          0.3333333333333333
+        ],
+        "art": null,
+        "art_status": "not-applicable"
+      },
+      {
+        "row": 1,
+        "column": 1,
+        "owner": "GemStuffer",
+        "event": null,
+        "empty": true,
+        "panel": null,
+        "rect": [
+          0.5,
+          0.3333333333333333,
+          0.5,
+          0.3333333333333333
+        ],
+        "art": null,
+        "art_status": "not-applicable"
+      },
+      {
+        "row": 2,
+        "column": 0,
+        "owner": "Collusion Wiki",
+        "event": "cw-last-events",
+        "empty": false,
+        "panel": "039-01",
+        "rect": [
+          0.0,
+          0.6666666666666666,
+          0.5,
+          0.3333333333333333
+        ],
+        "art": null,
+        "art_status": "unassigned"
+      },
+      {
+        "row": 2,
+        "column": 1,
+        "owner": "Collusion Wiki",
+        "event": null,
+        "empty": true,
+        "panel": null,
+        "rect": [
+          0.5,
+          0.6666666666666666,
+          0.5,
+          0.3333333333333333
+        ],
+        "art": null,
+        "art_status": "not-applicable"
+      }
+    ]
+  },
+  {
+    "page": "040",
+    "window": "window-hf-disclosure",
+    "chapter": "july-disclosure",
+    "movement": "incident",
+    "start": "2026-07-16",
+    "end": "2026-07-16",
+    "slots": [
+      {
+        "row": 0,
+        "column": 0,
+        "owner": "HuggingFace",
+        "event": "hf-disclosure",
+        "empty": false,
+        "panel": "040-01",
+        "rect": [
+          0.0,
+          0.0,
+          0.5,
+          0.3333333333333333
+        ],
+        "art": null,
+        "art_status": "unassigned"
+      },
+      {
+        "row": 0,
+        "column": 1,
+        "owner": "HuggingFace",
+        "event": null,
+        "empty": true,
+        "panel": null,
+        "rect": [
+          0.5,
+          0.0,
+          0.5,
+          0.3333333333333333
+        ],
+        "art": null,
+        "art_status": "not-applicable"
+      },
+      {
+        "row": 1,
+        "column": 0,
+        "owner": "GemStuffer",
+        "event": null,
+        "empty": true,
+        "panel": null,
+        "rect": [
+          0.0,
+          0.3333333333333333,
+          0.5,
+          0.3333333333333333
+        ],
+        "art": null,
+        "art_status": "not-applicable"
+      },
+      {
+        "row": 1,
+        "column": 1,
+        "owner": "GemStuffer",
+        "event": null,
+        "empty": true,
+        "panel": null,
+        "rect": [
+          0.5,
+          0.3333333333333333,
+          0.5,
+          0.3333333333333333
+        ],
+        "art": null,
+        "art_status": "not-applicable"
+      },
+      {
+        "row": 2,
+        "column": 0,
+        "owner": "Collusion Wiki",
+        "event": null,
+        "empty": true,
+        "panel": null,
+        "rect": [
+          0.0,
+          0.6666666666666666,
+          0.5,
+          0.3333333333333333
+        ],
+        "art": null,
+        "art_status": "not-applicable"
+      },
+      {
+        "row": 2,
+        "column": 1,
+        "owner": "Collusion Wiki",
+        "event": null,
+        "empty": true,
+        "panel": null,
+        "rect": [
+          0.5,
+          0.6666666666666666,
+          0.5,
+          0.3333333333333333
+        ],
+        "art": null,
+        "art_status": "not-applicable"
+      }
+    ]
+  },
+  {
+    "page": "041",
+    "window": "window-hf-later-population",
+    "chapter": "july-disclosure",
+    "movement": "incident",
+    "start": "2026-07-19",
+    "end": "2026-07-19",
+    "slots": [
+      {
+        "row": 0,
+        "column": 0,
+        "owner": "HuggingFace",
+        "event": "hf-later-population",
+        "empty": false,
+        "panel": "041-01",
+        "rect": [
+          0.0,
+          0.0,
+          0.5,
+          0.3333333333333333
+        ],
+        "art": null,
+        "art_status": "unassigned"
+      },
+      {
+        "row": 0,
+        "column": 1,
+        "owner": "HuggingFace",
+        "event": "hf-secrets-root",
+        "empty": false,
+        "panel": "041-02",
+        "rect": [
+          0.5,
+          0.0,
+          0.5,
+          0.3333333333333333
+        ],
+        "art": null,
+        "art_status": "unassigned"
+      },
+      {
+        "row": 1,
+        "column": 0,
+        "owner": "GemStuffer",
+        "event": null,
+        "empty": true,
+        "panel": null,
+        "rect": [
+          0.0,
+          0.3333333333333333,
+          0.5,
+          0.3333333333333333
+        ],
+        "art": null,
+        "art_status": "not-applicable"
+      },
+      {
+        "row": 1,
+        "column": 1,
+        "owner": "GemStuffer",
+        "event": null,
+        "empty": true,
+        "panel": null,
+        "rect": [
+          0.5,
+          0.3333333333333333,
+          0.5,
+          0.3333333333333333
+        ],
+        "art": null,
+        "art_status": "not-applicable"
+      },
+      {
+        "row": 2,
+        "column": 0,
+        "owner": "Collusion Wiki",
+        "event": null,
+        "empty": true,
+        "panel": null,
+        "rect": [
+          0.0,
+          0.6666666666666666,
+          0.5,
+          0.3333333333333333
+        ],
+        "art": null,
+        "art_status": "not-applicable"
+      },
+      {
+        "row": 2,
+        "column": 1,
+        "owner": "Collusion Wiki",
+        "event": null,
+        "empty": true,
+        "panel": null,
+        "rect": [
+          0.5,
+          0.6666666666666666,
+          0.5,
+          0.3333333333333333
+        ],
+        "art": null,
+        "art_status": "not-applicable"
+      }
+    ]
+  },
+  {
+    "page": "042",
+    "window": "window-hf-test-control",
+    "chapter": "july-disclosure",
+    "movement": "incident",
+    "start": "2026-07-19",
+    "end": "2026-07-19",
+    "slots": [
+      {
+        "row": 0,
+        "column": 0,
+        "owner": "HuggingFace",
+        "event": "hf-test-control",
+        "empty": false,
+        "panel": "042-01",
+        "rect": [
+          0.0,
+          0.0,
+          0.5,
+          0.3333333333333333
+        ],
+        "art": null,
+        "art_status": "unassigned"
+      },
+      {
+        "row": 0,
+        "column": 1,
+        "owner": "HuggingFace",
+        "event": "hf-legitimate-result",
+        "empty": false,
+        "panel": "042-02",
+        "rect": [
+          0.5,
+          0.0,
+          0.5,
+          0.3333333333333333
+        ],
+        "art": null,
+        "art_status": "unassigned"
+      },
+      {
+        "row": 1,
+        "column": 0,
+        "owner": "GemStuffer",
+        "event": null,
+        "empty": true,
+        "panel": null,
+        "rect": [
+          0.0,
+          0.3333333333333333,
+          0.5,
+          0.3333333333333333
+        ],
+        "art": null,
+        "art_status": "not-applicable"
+      },
+      {
+        "row": 1,
+        "column": 1,
+        "owner": "GemStuffer",
+        "event": null,
+        "empty": true,
+        "panel": null,
+        "rect": [
+          0.5,
+          0.3333333333333333,
+          0.5,
+          0.3333333333333333
+        ],
+        "art": null,
+        "art_status": "not-applicable"
+      },
+      {
+        "row": 2,
+        "column": 0,
+        "owner": "Collusion Wiki",
+        "event": null,
+        "empty": true,
+        "panel": null,
+        "rect": [
+          0.0,
+          0.6666666666666666,
+          0.5,
+          0.3333333333333333
+        ],
+        "art": null,
+        "art_status": "not-applicable"
+      },
+      {
+        "row": 2,
+        "column": 1,
+        "owner": "Collusion Wiki",
+        "event": null,
+        "empty": true,
+        "panel": null,
+        "rect": [
+          0.5,
+          0.6666666666666666,
+          0.5,
+          0.3333333333333333
+        ],
+        "art": null,
+        "art_status": "not-applicable"
+      }
+    ]
+  },
+  {
+    "page": "043",
+    "window": "window-hf-contact",
+    "chapter": "july-disclosure",
+    "movement": "incident",
+    "start": "2026-07-20",
+    "end": "2026-07-20",
+    "slots": [
+      {
+        "row": 0,
+        "column": 0,
+        "owner": "HuggingFace",
+        "event": "hf-contact",
+        "empty": false,
+        "panel": "043-01",
+        "rect": [
+          0.0,
+          0.0,
+          0.5,
+          0.3333333333333333
+        ],
+        "art": null,
+        "art_status": "unassigned"
+      },
+      {
+        "row": 0,
+        "column": 1,
+        "owner": "HuggingFace",
+        "event": null,
+        "empty": true,
+        "panel": null,
+        "rect": [
+          0.5,
+          0.0,
+          0.5,
+          0.3333333333333333
+        ],
+        "art": null,
+        "art_status": "not-applicable"
+      },
+      {
+        "row": 1,
+        "column": 0,
+        "owner": "GemStuffer",
+        "event": null,
+        "empty": true,
+        "panel": null,
+        "rect": [
+          0.0,
+          0.3333333333333333,
+          0.5,
+          0.3333333333333333
+        ],
+        "art": null,
+        "art_status": "not-applicable"
+      },
+      {
+        "row": 1,
+        "column": 1,
+        "owner": "GemStuffer",
+        "event": null,
+        "empty": true,
+        "panel": null,
+        "rect": [
+          0.5,
+          0.3333333333333333,
+          0.5,
+          0.3333333333333333
+        ],
+        "art": null,
+        "art_status": "not-applicable"
+      },
+      {
+        "row": 2,
+        "column": 0,
+        "owner": "Collusion Wiki",
+        "event": null,
+        "empty": true,
+        "panel": null,
+        "rect": [
+          0.0,
+          0.6666666666666666,
+          0.5,
+          0.3333333333333333
+        ],
+        "art": null,
+        "art_status": "not-applicable"
+      },
+      {
+        "row": 2,
+        "column": 1,
+        "owner": "Collusion Wiki",
+        "event": null,
+        "empty": true,
+        "panel": null,
+        "rect": [
+          0.5,
+          0.6666666666666666,
+          0.5,
+          0.3333333333333333
+        ],
+        "art": null,
+        "art_status": "not-applicable"
+      }
+    ]
+  }
+]

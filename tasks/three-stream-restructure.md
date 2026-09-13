@@ -4,6 +4,19 @@ Planning draft, 12 September 2026. No manuscript migration is authorized by this
 document alone. This task plans the graphic novel; rewriting the novella, appendix,
 and other dependent editions is deferred. Open editorial questions are listed below.
 
+Implementation was subsequently authorized by the owner's request to implement this
+task. Work and remaining findings are recorded in
+[`editions/three-stream/README.md`](../editions/three-stream/README.md).
+The initial condensed chronology was rejected as insufficiently detailed and is
+withdrawn as a manuscript candidate. It supplies no page-count target. The rewrite
+must proceed from the detailed source-panel inventory and expand to retain the full
+causal sequences, failures, responses and counterexamples.
+
+Owner clarification during implementation: actor row order is **Curt, Codex, Claude**.
+Curt's entrance begins with Twitter posts to be determined by later research. Codex
+and Claude activity is to be established from this Mac, one other Mac, and the GitHub
+repository. Preserved product identities must not be substituted for one another.
+
 ## Governing form
 
 - Pages advance chronologically, without the existing cold open and rewind.

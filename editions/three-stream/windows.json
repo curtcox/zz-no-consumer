@@ -1,0 +1,1464 @@
+[
+  {
+    "id": "window-hf-first-write",
+    "title": "Before a message",
+    "movement": "incident",
+    "start": "2026-04-20T07:59Z",
+    "end": "2026-04-20T07:59Z",
+    "chapter": "april-may",
+    "purpose": "Before a message",
+    "unordered_with_previous": false,
+    "evidence_questions": "Source claim ceilings remain on each event.",
+    "rows": [
+      {
+        "owner": "HuggingFace",
+        "slots": [
+          "hf-first-write",
+          null
+        ]
+      },
+      {
+        "owner": "GemStuffer",
+        "slots": [
+          null,
+          null
+        ]
+      },
+      {
+        "owner": "Collusion Wiki",
+        "slots": [
+          null,
+          null
+        ]
+      }
+    ]
+  },
+  {
+    "id": "window-gs-first-package",
+    "title": "A package appears",
+    "movement": "incident",
+    "start": "2026-05-05",
+    "end": "2026-05-05",
+    "chapter": "april-may",
+    "purpose": "A package appears",
+    "unordered_with_previous": false,
+    "evidence_questions": "Source claim ceilings remain on each event.",
+    "rows": [
+      {
+        "owner": "HuggingFace",
+        "slots": [
+          null,
+          null
+        ]
+      },
+      {
+        "owner": "GemStuffer",
+        "slots": [
+          "gs-first-package",
+          null
+        ]
+      },
+      {
+        "owner": "Collusion Wiki",
+        "slots": [
+          null,
+          null
+        ]
+      }
+    ]
+  },
+  {
+    "id": "window-hf-training-run",
+    "title": "A training run begins",
+    "movement": "incident",
+    "start": "2026-05-07",
+    "end": "2026-05-07",
+    "chapter": "april-may",
+    "purpose": "A training run begins",
+    "unordered_with_previous": false,
+    "evidence_questions": "Source claim ceilings remain on each event.",
+    "rows": [
+      {
+        "owner": "HuggingFace",
+        "slots": [
+          "hf-training-run",
+          null
+        ]
+      },
+      {
+        "owner": "GemStuffer",
+        "slots": [
+          null,
+          null
+        ]
+      },
+      {
+        "owner": "Collusion Wiki",
+        "slots": [
+          null,
+          null
+        ]
+      }
+    ]
+  },
+  {
+    "id": "window-hf-missing-input",
+    "title": "A failed request leaves state",
+    "movement": "incident",
+    "start": "2026-05-08",
+    "end": "2026-05-08",
+    "chapter": "april-may",
+    "purpose": "A failed request leaves state / A name is not an identity",
+    "unordered_with_previous": false,
+    "evidence_questions": "Source claim ceilings remain on each event.",
+    "rows": [
+      {
+        "owner": "HuggingFace",
+        "slots": [
+          "hf-missing-input",
+          null
+        ]
+      },
+      {
+        "owner": "GemStuffer",
+        "slots": [
+          "gs-name-signal",
+          null
+        ]
+      },
+      {
+        "owner": "Collusion Wiki",
+        "slots": [
+          null,
+          null
+        ]
+      }
+    ]
+  },
+  {
+    "id": "window-hf-first-request",
+    "title": "A note asks for an input",
+    "movement": "incident",
+    "start": "2026-05-11",
+    "end": "2026-05-12",
+    "chapter": "april-may",
+    "purpose": "A note asks for an input / Two routes to the same authority / The registry fills",
+    "unordered_with_previous": false,
+    "evidence_questions": "Unresolved overlap: chronological allocation requires editorial review; no order is claimed between overlapping event intervals.",
+    "rows": [
+      {
+        "owner": "HuggingFace",
+        "slots": [
+          "hf-first-request",
+          null
+        ]
+      },
+      {
+        "owner": "GemStuffer",
+        "slots": [
+          "gs-email-merge",
+          "gs-publishing-burst"
+        ]
+      },
+      {
+        "owner": "Collusion Wiki",
+        "slots": [
+          null,
+          null
+        ]
+      }
+    ]
+  },
+  {
+    "id": "window-gs-registration-off",
+    "title": "A service boundary closes",
+    "movement": "incident",
+    "start": "2026-05-11",
+    "end": "2026-05-12",
+    "chapter": "april-may",
+    "purpose": "A service boundary closes",
+    "unordered_with_previous": true,
+    "evidence_questions": "Unresolved overlap: chronological allocation requires editorial review; no order is claimed between overlapping event intervals.",
+    "rows": [
+      {
+        "owner": "HuggingFace",
+        "slots": [
+          null,
+          null
+        ]
+      },
+      {
+        "owner": "GemStuffer",
+        "slots": [
+          "gs-registration-off",
+          null
+        ]
+      },
+      {
+        "owner": "Collusion Wiki",
+        "slots": [
+          null,
+          null
+        ]
+      }
+    ]
+  },
+  {
+    "id": "window-hf-first-answer",
+    "title": "A later run responds",
+    "movement": "incident",
+    "start": "2026-05-13",
+    "end": "2026-05-13",
+    "chapter": "april-may",
+    "purpose": "A later run responds / Someone opens the packages / Maintainers remove the load",
+    "unordered_with_previous": false,
+    "evidence_questions": "Unresolved overlap: chronological allocation requires editorial review; no order is claimed between overlapping event intervals.",
+    "rows": [
+      {
+        "owner": "HuggingFace",
+        "slots": [
+          "hf-first-answer",
+          null
+        ]
+      },
+      {
+        "owner": "GemStuffer",
+        "slots": [
+          "gs-socket-analysis",
+          "gs-yank"
+        ]
+      },
+      {
+        "owner": "Collusion Wiki",
+        "slots": [
+          null,
+          null
+        ]
+      }
+    ]
+  },
+  {
+    "id": "window-gs-registration-restored",
+    "title": "The service reopens",
+    "movement": "incident",
+    "start": "2026-05-16T05:12Z",
+    "end": "2026-05-16T05:12Z",
+    "chapter": "april-may",
+    "purpose": "The service reopens",
+    "unordered_with_previous": false,
+    "evidence_questions": "Source claim ceilings remain on each event.",
+    "rows": [
+      {
+        "owner": "HuggingFace",
+        "slots": [
+          null,
+          null
+        ]
+      },
+      {
+        "owner": "GemStuffer",
+        "slots": [
+          "gs-registration-restored",
+          null
+        ]
+      },
+      {
+        "owner": "Collusion Wiki",
+        "slots": [
+          null,
+          null
+        ]
+      }
+    ]
+  },
+  {
+    "id": "window-cw-first-probe",
+    "title": "A probe, not a founding",
+    "movement": "incident",
+    "start": "2026-05-17",
+    "end": "2026-05-17",
+    "chapter": "april-may",
+    "purpose": "A probe, not a founding",
+    "unordered_with_previous": false,
+    "evidence_questions": "Source claim ceilings remain on each event.",
+    "rows": [
+      {
+        "owner": "HuggingFace",
+        "slots": [
+          null,
+          null
+        ]
+      },
+      {
+        "owner": "GemStuffer",
+        "slots": [
+          null,
+          null
+        ]
+      },
+      {
+        "owner": "Collusion Wiki",
+        "slots": [
+          "cw-first-probe",
+          null
+        ]
+      }
+    ]
+  },
+  {
+    "id": "window-cw-first-held",
+    "title": "Three wikis retain pages",
+    "movement": "incident",
+    "start": "2026-05-24",
+    "end": "2026-05-24",
+    "chapter": "april-may",
+    "purpose": "Three wikis retain pages",
+    "unordered_with_previous": false,
+    "evidence_questions": "Source claim ceilings remain on each event.",
+    "rows": [
+      {
+        "owner": "HuggingFace",
+        "slots": [
+          null,
+          null
+        ]
+      },
+      {
+        "owner": "GemStuffer",
+        "slots": [
+          null,
+          null
+        ]
+      },
+      {
+        "owner": "Collusion Wiki",
+        "slots": [
+          "cw-first-held",
+          null
+        ]
+      }
+    ]
+  },
+  {
+    "id": "window-hf-may-tokens",
+    "title": "A separate May exposure",
+    "movement": "incident",
+    "start": "2026-05-26",
+    "end": "2026-05-27",
+    "chapter": "april-may",
+    "purpose": "A separate May exposure / Shared information changes access / Publication resumes",
+    "unordered_with_previous": false,
+    "evidence_questions": "Unresolved overlap: chronological allocation requires editorial review; no order is claimed between overlapping event intervals.",
+    "rows": [
+      {
+        "owner": "HuggingFace",
+        "slots": [
+          "hf-may-tokens",
+          "hf-board-access"
+        ]
+      },
+      {
+        "owner": "GemStuffer",
+        "slots": [
+          "gs-later-may",
+          null
+        ]
+      },
+      {
+        "owner": "Collusion Wiki",
+        "slots": [
+          null,
+          null
+        ]
+      }
+    ]
+  },
+  {
+    "id": "window-hf-arbitrary-destination",
+    "title": "The destination becomes selectable",
+    "movement": "incident",
+    "start": "2026-06-04T17:43Z",
+    "end": "2026-06-04T17:43Z",
+    "chapter": "june",
+    "purpose": "The destination becomes selectable",
+    "unordered_with_previous": false,
+    "evidence_questions": "Source claim ceilings remain on each event.",
+    "rows": [
+      {
+        "owner": "HuggingFace",
+        "slots": [
+          "hf-arbitrary-destination",
+          null
+        ]
+      },
+      {
+        "owner": "GemStuffer",
+        "slots": [
+          null,
+          null
+        ]
+      },
+      {
+        "owner": "Collusion Wiki",
+        "slots": [
+          null,
+          null
+        ]
+      }
+    ]
+  },
+  {
+    "id": "window-hf-training-during-board",
+    "title": "Training while the board exists",
+    "movement": "incident",
+    "start": "2026-06-11",
+    "end": "2026-06-11",
+    "chapter": "june",
+    "purpose": "Training while the board exists",
+    "unordered_with_previous": false,
+    "evidence_questions": "Source claim ceilings remain on each event.",
+    "rows": [
+      {
+        "owner": "HuggingFace",
+        "slots": [
+          "hf-training-during-board",
+          null
+        ]
+      },
+      {
+        "owner": "GemStuffer",
+        "slots": [
+          null,
+          null
+        ]
+      },
+      {
+        "owner": "Collusion Wiki",
+        "slots": [
+          null,
+          null
+        ]
+      }
+    ]
+  },
+  {
+    "id": "window-hf-internal-destination",
+    "title": "An internal service answers",
+    "movement": "incident",
+    "start": "2026-06-12T02:35Z",
+    "end": "2026-06-12T02:35Z",
+    "chapter": "june",
+    "purpose": "An internal service answers",
+    "unordered_with_previous": false,
+    "evidence_questions": "Source claim ceilings remain on each event.",
+    "rows": [
+      {
+        "owner": "HuggingFace",
+        "slots": [
+          "hf-internal-destination",
+          null
+        ]
+      },
+      {
+        "owner": "GemStuffer",
+        "slots": [
+          null,
+          null
+        ]
+      },
+      {
+        "owner": "Collusion Wiki",
+        "slots": [
+          null,
+          null
+        ]
+      }
+    ]
+  },
+  {
+    "id": "window-hf-two-way",
+    "title": "A return path",
+    "movement": "incident",
+    "start": "2026-06-17",
+    "end": "2026-06-17",
+    "chapter": "june",
+    "purpose": "A return path",
+    "unordered_with_previous": false,
+    "evidence_questions": "Source claim ceilings remain on each event.",
+    "rows": [
+      {
+        "owner": "HuggingFace",
+        "slots": [
+          "hf-two-way",
+          null
+        ]
+      },
+      {
+        "owner": "GemStuffer",
+        "slots": [
+          null,
+          null
+        ]
+      },
+      {
+        "owner": "Collusion Wiki",
+        "slots": [
+          null,
+          null
+        ]
+      }
+    ]
+  },
+  {
+    "id": "window-gs-june-batch",
+    "title": "More packages",
+    "movement": "incident",
+    "start": "2026-06-18",
+    "end": "2026-06-18",
+    "chapter": "june",
+    "purpose": "More packages",
+    "unordered_with_previous": false,
+    "evidence_questions": "Source claim ceilings remain on each event.",
+    "rows": [
+      {
+        "owner": "HuggingFace",
+        "slots": [
+          null,
+          null
+        ]
+      },
+      {
+        "owner": "GemStuffer",
+        "slots": [
+          "gs-june-batch",
+          null
+        ]
+      },
+      {
+        "owner": "Collusion Wiki",
+        "slots": [
+          null,
+          null
+        ]
+      }
+    ]
+  },
+  {
+    "id": "window-cw-live-sequence",
+    "title": "Repeated lookup work",
+    "movement": "incident",
+    "start": "2026-06-19T12:40:33Z",
+    "end": "2026-06-19T14:44:32Z",
+    "chapter": "june",
+    "purpose": "Repeated lookup work",
+    "unordered_with_previous": false,
+    "evidence_questions": "Source claim ceilings remain on each event.",
+    "rows": [
+      {
+        "owner": "HuggingFace",
+        "slots": [
+          null,
+          null
+        ]
+      },
+      {
+        "owner": "GemStuffer",
+        "slots": [
+          null,
+          null
+        ]
+      },
+      {
+        "owner": "Collusion Wiki",
+        "slots": [
+          "cw-live-sequence",
+          null
+        ]
+      }
+    ]
+  },
+  {
+    "id": "window-cw-two-deletions",
+    "title": "Moderation acts twice",
+    "movement": "incident",
+    "start": "2026-06-19T15:46:37Z",
+    "end": "2026-06-19T15:46:49Z",
+    "chapter": "june",
+    "purpose": "Moderation acts twice",
+    "unordered_with_previous": false,
+    "evidence_questions": "Source claim ceilings remain on each event.",
+    "rows": [
+      {
+        "owner": "HuggingFace",
+        "slots": [
+          null,
+          null
+        ]
+      },
+      {
+        "owner": "GemStuffer",
+        "slots": [
+          null,
+          null
+        ]
+      },
+      {
+        "owner": "Collusion Wiki",
+        "slots": [
+          "cw-two-deletions",
+          null
+        ]
+      }
+    ]
+  },
+  {
+    "id": "window-cw-fourth-wiki",
+    "title": "The fourth site in the held cut",
+    "movement": "incident",
+    "start": "2026-06-22",
+    "end": "2026-06-22",
+    "chapter": "june",
+    "purpose": "The fourth site in the held cut",
+    "unordered_with_previous": false,
+    "evidence_questions": "Source claim ceilings remain on each event.",
+    "rows": [
+      {
+        "owner": "HuggingFace",
+        "slots": [
+          null,
+          null
+        ]
+      },
+      {
+        "owner": "GemStuffer",
+        "slots": [
+          null,
+          null
+        ]
+      },
+      {
+        "owner": "Collusion Wiki",
+        "slots": [
+          "cw-fourth-wiki",
+          null
+        ]
+      }
+    ]
+  },
+  {
+    "id": "window-hf-admin",
+    "title": "Authority persists beyond a run",
+    "movement": "incident",
+    "start": "2026-06-26",
+    "end": "2026-06-26",
+    "chapter": "june",
+    "purpose": "Authority persists beyond a run",
+    "unordered_with_previous": false,
+    "evidence_questions": "Source claim ceilings remain on each event.",
+    "rows": [
+      {
+        "owner": "HuggingFace",
+        "slots": [
+          "hf-admin",
+          null
+        ]
+      },
+      {
+        "owner": "GemStuffer",
+        "slots": [
+          null,
+          null
+        ]
+      },
+      {
+        "owner": "Collusion Wiki",
+        "slots": [
+          null,
+          null
+        ]
+      }
+    ]
+  },
+  {
+    "id": "window-hf-alert",
+    "title": "The warning reaches a decision",
+    "movement": "incident",
+    "start": "2026-06-27",
+    "end": "2026-06-27",
+    "chapter": "june",
+    "purpose": "The warning reaches a decision",
+    "unordered_with_previous": false,
+    "evidence_questions": "Source claim ceilings remain on each event.",
+    "rows": [
+      {
+        "owner": "HuggingFace",
+        "slots": [
+          "hf-alert",
+          null
+        ]
+      },
+      {
+        "owner": "GemStuffer",
+        "slots": [
+          null,
+          null
+        ]
+      },
+      {
+        "owner": "Collusion Wiki",
+        "slots": [
+          null,
+          null
+        ]
+      }
+    ]
+  },
+  {
+    "id": "window-hf-plugin-runs",
+    "title": "Staged becomes executed",
+    "movement": "incident",
+    "start": "2026-06-29T04:55Z",
+    "end": "2026-06-29T04:55Z",
+    "chapter": "june",
+    "purpose": "Staged becomes executed",
+    "unordered_with_previous": false,
+    "evidence_questions": "Source claim ceilings remain on each event.",
+    "rows": [
+      {
+        "owner": "HuggingFace",
+        "slots": [
+          "hf-plugin-runs",
+          null
+        ]
+      },
+      {
+        "owner": "GemStuffer",
+        "slots": [
+          null,
+          null
+        ]
+      },
+      {
+        "owner": "Collusion Wiki",
+        "slots": [
+          null,
+          null
+        ]
+      }
+    ]
+  },
+  {
+    "id": "window-cw-last-held",
+    "title": "The cut’s last held revisions",
+    "movement": "incident",
+    "start": "2026-07-02",
+    "end": "2026-07-02",
+    "chapter": "july-prelude",
+    "purpose": "The cut’s last held revisions",
+    "unordered_with_previous": false,
+    "evidence_questions": "Source claim ceilings remain on each event.",
+    "rows": [
+      {
+        "owner": "HuggingFace",
+        "slots": [
+          null,
+          null
+        ]
+      },
+      {
+        "owner": "GemStuffer",
+        "slots": [
+          null,
+          null
+        ]
+      },
+      {
+        "owner": "Collusion Wiki",
+        "slots": [
+          "cw-last-held",
+          null
+        ]
+      }
+    ]
+  },
+  {
+    "id": "window-hf-outage",
+    "title": "Availability is lost",
+    "movement": "incident",
+    "start": "2026-07-04",
+    "end": "2026-07-04",
+    "chapter": "july-prelude",
+    "purpose": "Availability is lost",
+    "unordered_with_previous": false,
+    "evidence_questions": "Source claim ceilings remain on each event.",
+    "rows": [
+      {
+        "owner": "HuggingFace",
+        "slots": [
+          "hf-outage",
+          null
+        ]
+      },
+      {
+        "owner": "GemStuffer",
+        "slots": [
+          null,
+          null
+        ]
+      },
+      {
+        "owner": "Collusion Wiki",
+        "slots": [
+          null,
+          null
+        ]
+      }
+    ]
+  },
+  {
+    "id": "window-hf-incident-open",
+    "title": "A rebuild begins",
+    "movement": "incident",
+    "start": "2026-07-05",
+    "end": "2026-07-06",
+    "chapter": "july-prelude",
+    "purpose": "A rebuild begins / The live board is gone / A flaw is reported",
+    "unordered_with_previous": false,
+    "evidence_questions": "Unresolved overlap: chronological allocation requires editorial review; no order is claimed between overlapping event intervals.",
+    "rows": [
+      {
+        "owner": "HuggingFace",
+        "slots": [
+          "hf-incident-open",
+          "hf-rebuilt"
+        ]
+      },
+      {
+        "owner": "GemStuffer",
+        "slots": [
+          "gs-cache-report",
+          null
+        ]
+      },
+      {
+        "owner": "Collusion Wiki",
+        "slots": [
+          null,
+          null
+        ]
+      }
+    ]
+  },
+  {
+    "id": "window-hf-resume",
+    "title": "Work resumes",
+    "movement": "incident",
+    "start": "2026-07-07",
+    "end": "2026-07-07",
+    "chapter": "july-prelude",
+    "purpose": "Work resumes",
+    "unordered_with_previous": false,
+    "evidence_questions": "Source claim ceilings remain on each event.",
+    "rows": [
+      {
+        "owner": "HuggingFace",
+        "slots": [
+          "hf-resume",
+          null
+        ]
+      },
+      {
+        "owner": "GemStuffer",
+        "slots": [
+          null,
+          null
+        ]
+      },
+      {
+        "owner": "Collusion Wiki",
+        "slots": [
+          null,
+          null
+        ]
+      }
+    ]
+  },
+  {
+    "id": "window-hf-external-return",
+    "title": "The boundary opens again",
+    "movement": "incident",
+    "start": "2026-07-08T00:06Z",
+    "end": "2026-07-08T00:06Z",
+    "chapter": "july-intrusions",
+    "purpose": "The boundary opens again",
+    "unordered_with_previous": false,
+    "evidence_questions": "Source claim ceilings remain on each event.",
+    "rows": [
+      {
+        "owner": "HuggingFace",
+        "slots": [
+          "hf-external-return",
+          null
+        ]
+      },
+      {
+        "owner": "GemStuffer",
+        "slots": [
+          null,
+          null
+        ]
+      },
+      {
+        "owner": "Collusion Wiki",
+        "slots": [
+          null,
+          null
+        ]
+      }
+    ]
+  },
+  {
+    "id": "window-hf-earlier-board",
+    "title": "More than one founding account",
+    "movement": "incident",
+    "start": "2026-07-08T16:01Z",
+    "end": "2026-07-08T23:00Z",
+    "chapter": "july-intrusions",
+    "purpose": "More than one founding account / The result has no consumer",
+    "unordered_with_previous": false,
+    "evidence_questions": "Unresolved overlap: chronological allocation requires editorial review; no order is claimed between overlapping event intervals.",
+    "rows": [
+      {
+        "owner": "HuggingFace",
+        "slots": [
+          "hf-earlier-board",
+          "hf-impossible-task"
+        ]
+      },
+      {
+        "owner": "GemStuffer",
+        "slots": [
+          null,
+          null
+        ]
+      },
+      {
+        "owner": "Collusion Wiki",
+        "slots": [
+          null,
+          null
+        ]
+      }
+    ]
+  },
+  {
+    "id": "window-hf-main-board",
+    "title": "A question finds another run",
+    "movement": "incident",
+    "start": "2026-07-08T16:01Z",
+    "end": "2026-07-08T23:00Z",
+    "chapter": "july-intrusions",
+    "purpose": "A question finds another run",
+    "unordered_with_previous": true,
+    "evidence_questions": "Unresolved overlap: chronological allocation requires editorial review; no order is claimed between overlapping event intervals.",
+    "rows": [
+      {
+        "owner": "HuggingFace",
+        "slots": [
+          "hf-main-board",
+          null
+        ]
+      },
+      {
+        "owner": "GemStuffer",
+        "slots": [
+          null,
+          null
+        ]
+      },
+      {
+        "owner": "Collusion Wiki",
+        "slots": [
+          null,
+          null
+        ]
+      }
+    ]
+  },
+  {
+    "id": "window-hf-answer-route",
+    "title": "An answer does not end the search",
+    "movement": "incident",
+    "start": "2026-07-09",
+    "end": "2026-07-09",
+    "chapter": "july-intrusions",
+    "purpose": "An answer does not end the search / Shared uncertainty becomes work / Deployment and disclosure differ",
+    "unordered_with_previous": false,
+    "evidence_questions": "Unresolved overlap: chronological allocation requires editorial review; no order is claimed between overlapping event intervals.",
+    "rows": [
+      {
+        "owner": "HuggingFace",
+        "slots": [
+          "hf-answer-route",
+          "hf-workstreams"
+        ]
+      },
+      {
+        "owner": "GemStuffer",
+        "slots": [
+          "gs-cache-fix",
+          null
+        ]
+      },
+      {
+        "owner": "Collusion Wiki",
+        "slots": [
+          null,
+          null
+        ]
+      }
+    ]
+  },
+  {
+    "id": "window-hf-workload-foothold",
+    "title": "Two first times",
+    "movement": "incident",
+    "start": "2026-07-09",
+    "end": "2026-07-09",
+    "chapter": "july-intrusions",
+    "purpose": "Two first times / An external base",
+    "unordered_with_previous": true,
+    "evidence_questions": "Unresolved overlap: chronological allocation requires editorial review; no order is claimed between overlapping event intervals.",
+    "rows": [
+      {
+        "owner": "HuggingFace",
+        "slots": [
+          "hf-workload-foothold",
+          "hf-external-base"
+        ]
+      },
+      {
+        "owner": "GemStuffer",
+        "slots": [
+          null,
+          null
+        ]
+      },
+      {
+        "owner": "Collusion Wiki",
+        "slots": [
+          null,
+          null
+        ]
+      }
+    ]
+  },
+  {
+    "id": "window-hf-token-search",
+    "title": "Two and fourteen",
+    "movement": "incident",
+    "start": "2026-07-10",
+    "end": "2026-07-10",
+    "chapter": "july-intrusions",
+    "purpose": "Two and fourteen",
+    "unordered_with_previous": false,
+    "evidence_questions": "Source claim ceilings remain on each event.",
+    "rows": [
+      {
+        "owner": "HuggingFace",
+        "slots": [
+          "hf-token-search",
+          null
+        ]
+      },
+      {
+        "owner": "GemStuffer",
+        "slots": [
+          null,
+          null
+        ]
+      },
+      {
+        "owner": "Collusion Wiki",
+        "slots": [
+          null,
+          null
+        ]
+      }
+    ]
+  },
+  {
+    "id": "window-hf-peer-approval",
+    "title": "Approval from a peer",
+    "movement": "incident",
+    "start": "2026-07-11",
+    "end": "2026-07-11",
+    "chapter": "july-intrusions",
+    "purpose": "Approval from a peer / Some decline",
+    "unordered_with_previous": false,
+    "evidence_questions": "Unresolved overlap: chronological allocation requires editorial review; no order is claimed between overlapping event intervals.",
+    "rows": [
+      {
+        "owner": "HuggingFace",
+        "slots": [
+          "hf-peer-approval",
+          "hf-refusals"
+        ]
+      },
+      {
+        "owner": "GemStuffer",
+        "slots": [
+          null,
+          null
+        ]
+      },
+      {
+        "owner": "Collusion Wiki",
+        "slots": [
+          null,
+          null
+        ]
+      }
+    ]
+  },
+  {
+    "id": "window-hf-worker-disclosure",
+    "title": "A worker reveals its environment",
+    "movement": "incident",
+    "start": "2026-07-11",
+    "end": "2026-07-11",
+    "chapter": "july-intrusions",
+    "purpose": "A worker reveals its environment / The worker executes",
+    "unordered_with_previous": true,
+    "evidence_questions": "Unresolved overlap: chronological allocation requires editorial review; no order is claimed between overlapping event intervals.",
+    "rows": [
+      {
+        "owner": "HuggingFace",
+        "slots": [
+          "hf-worker-disclosure",
+          "hf-worker-execution"
+        ]
+      },
+      {
+        "owner": "GemStuffer",
+        "slots": [
+          null,
+          null
+        ]
+      },
+      {
+        "owner": "Collusion Wiki",
+        "slots": [
+          null,
+          null
+        ]
+      }
+    ]
+  },
+  {
+    "id": "window-hf-cluster-reach",
+    "title": "Authority spans boundaries",
+    "movement": "incident",
+    "start": "2026-07-11",
+    "end": "2026-07-11",
+    "chapter": "july-intrusions",
+    "purpose": "Authority spans boundaries",
+    "unordered_with_previous": true,
+    "evidence_questions": "Unresolved overlap: chronological allocation requires editorial review; no order is claimed between overlapping event intervals.",
+    "rows": [
+      {
+        "owner": "HuggingFace",
+        "slots": [
+          "hf-cluster-reach",
+          null
+        ]
+      },
+      {
+        "owner": "GemStuffer",
+        "slots": [
+          null,
+          null
+        ]
+      },
+      {
+        "owner": "Collusion Wiki",
+        "slots": [
+          null,
+          null
+        ]
+      }
+    ]
+  },
+  {
+    "id": "window-hf-coordinators-stop",
+    "title": "The work outlasts the coordinators",
+    "movement": "incident",
+    "start": "2026-07-12",
+    "end": "2026-07-12",
+    "chapter": "july-intrusions",
+    "purpose": "The work outlasts the coordinators / Reach and its limits",
+    "unordered_with_previous": false,
+    "evidence_questions": "Unresolved overlap: chronological allocation requires editorial review; no order is claimed between overlapping event intervals.",
+    "rows": [
+      {
+        "owner": "HuggingFace",
+        "slots": [
+          "hf-coordinators-stop",
+          "hf-late-reach"
+        ]
+      },
+      {
+        "owner": "GemStuffer",
+        "slots": [
+          null,
+          null
+        ]
+      },
+      {
+        "owner": "Collusion Wiki",
+        "slots": [
+          null,
+          null
+        ]
+      }
+    ]
+  },
+  {
+    "id": "window-hf-rubygems-chain",
+    "title": "A different branch, a familiar service name",
+    "movement": "incident",
+    "start": "2026-07-13T03:06Z",
+    "end": "2026-07-13T09:16Z",
+    "chapter": "july-intrusions",
+    "purpose": "A different branch, a familiar service name / Impersonation changes the convention",
+    "unordered_with_previous": false,
+    "evidence_questions": "Unresolved overlap: chronological allocation requires editorial review; no order is claimed between overlapping event intervals.",
+    "rows": [
+      {
+        "owner": "HuggingFace",
+        "slots": [
+          "hf-rubygems-chain",
+          "hf-signatures"
+        ]
+      },
+      {
+        "owner": "GemStuffer",
+        "slots": [
+          null,
+          null
+        ]
+      },
+      {
+        "owner": "Collusion Wiki",
+        "slots": [
+          null,
+          null
+        ]
+      }
+    ]
+  },
+  {
+    "id": "window-hf-containment",
+    "title": "Access is cut",
+    "movement": "incident",
+    "start": "2026-07-13T13:37Z",
+    "end": "2026-07-13T14:14Z",
+    "chapter": "july-intrusions",
+    "purpose": "Access is cut",
+    "unordered_with_previous": false,
+    "evidence_questions": "Source claim ceilings remain on each event.",
+    "rows": [
+      {
+        "owner": "HuggingFace",
+        "slots": [
+          "hf-containment",
+          null
+        ]
+      },
+      {
+        "owner": "GemStuffer",
+        "slots": [
+          null,
+          null
+        ]
+      },
+      {
+        "owner": "Collusion Wiki",
+        "slots": [
+          null,
+          null
+        ]
+      }
+    ]
+  },
+  {
+    "id": "window-cw-last-events",
+    "title": "The event log extends beyond the bodies",
+    "movement": "incident",
+    "start": "2026-07-14",
+    "end": "2026-07-14",
+    "chapter": "july-disclosure",
+    "purpose": "The event log extends beyond the bodies",
+    "unordered_with_previous": false,
+    "evidence_questions": "Source claim ceilings remain on each event.",
+    "rows": [
+      {
+        "owner": "HuggingFace",
+        "slots": [
+          null,
+          null
+        ]
+      },
+      {
+        "owner": "GemStuffer",
+        "slots": [
+          null,
+          null
+        ]
+      },
+      {
+        "owner": "Collusion Wiki",
+        "slots": [
+          "cw-last-events",
+          null
+        ]
+      }
+    ]
+  },
+  {
+    "id": "window-hf-disclosure",
+    "title": "The intrusion becomes public",
+    "movement": "incident",
+    "start": "2026-07-16",
+    "end": "2026-07-16",
+    "chapter": "july-disclosure",
+    "purpose": "The intrusion becomes public",
+    "unordered_with_previous": false,
+    "evidence_questions": "Source claim ceilings remain on each event.",
+    "rows": [
+      {
+        "owner": "HuggingFace",
+        "slots": [
+          "hf-disclosure",
+          null
+        ]
+      },
+      {
+        "owner": "GemStuffer",
+        "slots": [
+          null,
+          null
+        ]
+      },
+      {
+        "owner": "Collusion Wiki",
+        "slots": [
+          null,
+          null
+        ]
+      }
+    ]
+  },
+  {
+    "id": "window-hf-later-population",
+    "title": "Surviving artifacts become access",
+    "movement": "incident",
+    "start": "2026-07-19",
+    "end": "2026-07-19",
+    "chapter": "july-disclosure",
+    "purpose": "Surviving artifacts become access / The evaluator’s infrastructure is exposed",
+    "unordered_with_previous": false,
+    "evidence_questions": "Unresolved overlap: chronological allocation requires editorial review; no order is claimed between overlapping event intervals.",
+    "rows": [
+      {
+        "owner": "HuggingFace",
+        "slots": [
+          "hf-later-population",
+          "hf-secrets-root"
+        ]
+      },
+      {
+        "owner": "GemStuffer",
+        "slots": [
+          null,
+          null
+        ]
+      },
+      {
+        "owner": "Collusion Wiki",
+        "slots": [
+          null,
+          null
+        ]
+      }
+    ]
+  },
+  {
+    "id": "window-hf-test-control",
+    "title": "The measurement channel changes hands",
+    "movement": "incident",
+    "start": "2026-07-19",
+    "end": "2026-07-19",
+    "chapter": "july-disclosure",
+    "purpose": "The measurement channel changes hands / A result and a shutdown",
+    "unordered_with_previous": true,
+    "evidence_questions": "Unresolved overlap: chronological allocation requires editorial review; no order is claimed between overlapping event intervals.",
+    "rows": [
+      {
+        "owner": "HuggingFace",
+        "slots": [
+          "hf-test-control",
+          "hf-legitimate-result"
+        ]
+      },
+      {
+        "owner": "GemStuffer",
+        "slots": [
+          null,
+          null
+        ]
+      },
+      {
+        "owner": "Collusion Wiki",
+        "slots": [
+          null,
+          null
+        ]
+      }
+    ]
+  },
+  {
+    "id": "window-hf-contact",
+    "title": "The credentials have already changed",
+    "movement": "incident",
+    "start": "2026-07-20",
+    "end": "2026-07-20",
+    "chapter": "july-disclosure",
+    "purpose": "The credentials have already changed",
+    "unordered_with_previous": false,
+    "evidence_questions": "Source claim ceilings remain on each event.",
+    "rows": [
+      {
+        "owner": "HuggingFace",
+        "slots": [
+          "hf-contact",
+          null
+        ]
+      },
+      {
+        "owner": "GemStuffer",
+        "slots": [
+          null,
+          null
+        ]
+      },
+      {
+        "owner": "Collusion Wiki",
+        "slots": [
+          null,
+          null
+        ]
+      }
+    ]
+  }
+]
